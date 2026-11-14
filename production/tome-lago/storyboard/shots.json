@@ -1,0 +1,86 @@
+{
+ "shots": [
+  {
+   "id": "S1",
+   "start": 0.0,
+   "end": 12.486,
+   "lines": [
+    "L1",
+    "L2"
+   ],
+   "purpose": "gancho+setup: ato sem sentido, razão escondida",
+   "camera": "push-in lento do cais; segue o arremesso",
+   "action": "Tomé arremessa cadeiras no lago (2x), respingo + ondas"
+  },
+  {
+   "id": "S2",
+   "start": 12.486,
+   "end": 17.904,
+   "lines": [
+    "L3"
+   ],
+   "purpose": "zombador: sarcasmo",
+   "camera": "close-up baixo, inclinado (roll), push-in",
+   "action": "Zeca ri e grita a frase; vilarejo ri ao fundo"
+  },
+  {
+   "id": "S3",
+   "start": 17.904,
+   "end": 23.204,
+   "lines": [
+    "L4"
+   ],
+   "purpose": "herói calmo, enigmático",
+   "camera": "close baixo, push-in leve",
+   "action": "Tomé sorri, não explica"
+  },
+  {
+   "id": "S4",
+   "start": 23.204,
+   "end": 34.59,
+   "lines": [
+    "L5",
+    "L6"
+   ],
+   "purpose": "escalada x3 (mesa, cama, porta) + estações",
+   "camera": "câmera lateral lenta; outono→crepúsculo→inverno",
+   "action": "arremessos; multidão ri / aponta"
+  },
+  {
+   "id": "S5",
+   "start": 34.59,
+   "end": 45.976,
+   "lines": [
+    "L7",
+    "L8"
+   ],
+   "purpose": "'você sabe': analogia cotidiana (dinheiro/carro)",
+   "camera": "câmera acompanha Ana até o carro",
+   "action": "moedas no pote; roda do carro quebra; pote conserta"
+  },
+  {
+   "id": "S6",
+   "start": 45.976,
+   "end": 63.476,
+   "lines": [
+    "L9",
+    "L10",
+    "L11"
+   ],
+   "purpose": "pagamento mostrado, sem moral",
+   "camera": "wide → tracking lateral ao longo da ponte",
+   "action": "balsa afunda; ponte de móveis sob a água; Tomé e Zeca atravessam"
+  },
+  {
+   "id": "S7",
+   "start": 63.476,
+   "end": 69.472,
+   "lines": [
+    "L12"
+   ],
+   "purpose": "loop: último quadro ecoa o primeiro",
+   "camera": "dolly curto, enquadramento do gancho",
+   "action": "Zeca chega ao cais com uma cadeira"
+  }
+ ]
+}

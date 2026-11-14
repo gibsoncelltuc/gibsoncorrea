@@ -1,0 +1,14 @@
+node_modules/
+out/frames/
+out/chunks/
+out/*.log
+out/*.time
+out/*.done
+audio/lines/
+audio/premix.wav
+# intermediários pesados e regeneráveis (stems finais vão em stems/ como FLAC)
+audio/*.wav
+out/*.mp4
+out/stills/
+out/contact/
+out/*.png

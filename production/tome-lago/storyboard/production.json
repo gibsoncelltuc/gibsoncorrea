@@ -1,0 +1,23 @@
+{
+ "title": "O Homem que Jogava Cadeiras no Lago",
+ "slug": "tome-lago",
+ "language": "pt-BR",
+ "format": "short",
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "durationSeconds": 69.472,
+ "visualEngine": "remotion-three (Three.js + R3F), render swangle/SwiftShader CPU",
+ "visualGeneration": "procedural-code-only",
+ "captionWordsPerCard": "1-2",
+ "audio": {
+  "sampleRate": 44100,
+  "channels": 2,
+  "targetIntegratedLufs": -14,
+  "maxTruePeakDbtp": -1.5,
+  "note": "alvos do perfil v3.1 do usuário (zip V2 sugere -15/-1.0)"
+ },
+ "pipelineVersion": "ricks-3d-toon-story-orchestrator V2 + perfil cloud-render v3.1",
+ "tts": "edge-tts 7.3.1",
+ "voice": "pt-BR-AntonioNeural"
+}

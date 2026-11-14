@@ -1,0 +1,104 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Cap,Montserrat ExtraBold,76,&H00FFFFFF,&H001A0E12,&H00000000,1,0,0,0,100,100,1,0,1,15,0,2,40,40,575,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.80,0:00:01.11,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}Todo
+Dialogue: 0,0:00:01.02,0:00:01.86,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}amanhecer
+Dialogue: 0,0:00:01.86,0:00:02.31,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}o velho
+Dialogue: 0,0:00:02.22,0:00:02.57,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}Tomé
+Dialogue: 0,0:00:02.48,0:00:03.07,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}jogava uma
+Dialogue: 0,0:00:02.98,0:00:03.46,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}cadeira
+Dialogue: 0,0:00:03.37,0:00:04.27,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}no lago
+Dialogue: 0,0:00:05.08,0:00:05.71,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}Fazia
+Dialogue: 0,0:00:05.63,0:00:05.97,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}três
+Dialogue: 0,0:00:05.89,0:00:07.44,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}anos Ele
+Dialogue: 0,0:00:07.36,0:00:08.57,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}não pescava
+Dialogue: 0,0:00:08.94,0:00:10.16,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}Não vendia
+Dialogue: 0,0:00:10.53,0:00:11.82,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}Só jogava
+Dialogue: 0,0:00:12.78,0:00:13.41,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}O padeiro
+Dialogue: 0,0:00:13.33,0:00:13.97,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}Zeca ria
+Dialogue: 0,0:00:13.88,0:00:14.51,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}alto
+Dialogue: 0,0:00:14.51,0:00:15.36,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}Tomé o
+Dialogue: 0,0:00:15.27,0:00:15.89,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}lago não
+Dialogue: 0,0:00:15.80,0:00:16.32,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}precisa
+Dialogue: 0,0:00:16.23,0:00:17.28,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}de mobília
+Dialogue: 0,0:00:18.20,0:00:18.80,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}Tomé só
+Dialogue: 0,0:00:18.71,0:00:20.22,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}sorria E
+Dialogue: 0,0:00:20.13,0:00:20.73,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}voltava
+Dialogue: 0,0:00:20.64,0:00:21.02,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}no dia
+Dialogue: 0,0:00:20.93,0:00:21.52,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}seguinte
+Dialogue: 0,0:00:21.43,0:00:21.71,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}com a
+Dialogue: 0,0:00:21.62,0:00:22.53,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}próxima
+Dialogue: 0,0:00:23.50,0:00:24.26,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}No segundo
+Dialogue: 0,0:00:24.17,0:00:24.85,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}ano uma
+Dialogue: 0,0:00:24.76,0:00:26.20,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}mesa No
+Dialogue: 0,0:00:26.12,0:00:26.80,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}terceiro
+Dialogue: 0,0:00:26.80,0:00:27.89,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}uma cama
+Dialogue: 0,0:00:28.70,0:00:29.33,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}No último
+Dialogue: 0,0:00:29.24,0:00:29.93,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}inverno
+Dialogue: 0,0:00:29.93,0:00:30.54,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}uma porta
+Dialogue: 0,0:00:30.46,0:00:31.32,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}inteira
+Dialogue: 0,0:00:31.68,0:00:32.37,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}A cidade
+Dialogue: 0,0:00:32.28,0:00:32.68,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}toda o
+Dialogue: 0,0:00:32.59,0:00:33.10,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}chamava
+Dialogue: 0,0:00:33.01,0:00:33.92,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}de louco
+Dialogue: 0,0:00:34.89,0:00:35.35,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}Sabe
+Dialogue: 0,0:00:35.27,0:00:35.56,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}quando
+Dialogue: 0,0:00:35.48,0:00:35.82,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}alguém
+Dialogue: 0,0:00:35.74,0:00:36.23,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}guarda um
+Dialogue: 0,0:00:36.14,0:00:36.62,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}pouco de
+Dialogue: 0,0:00:36.53,0:00:37.04,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}dinheiro
+Dialogue: 0,0:00:36.95,0:00:37.78,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}todo mês
+Dialogue: 0,0:00:37.78,0:00:38.27,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}e todo
+Dialogue: 0,0:00:38.18,0:00:38.55,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}mundo
+Dialogue: 0,0:00:38.46,0:00:38.76,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}acha
+Dialogue: 0,0:00:38.67,0:00:39.58,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}exagero
+Dialogue: 0,0:00:40.40,0:00:40.91,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}Até o
+Dialogue: 0,0:00:40.82,0:00:41.24,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}dia em
+Dialogue: 0,0:00:41.15,0:00:41.42,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}que o
+Dialogue: 0,0:00:41.33,0:00:41.75,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}carro
+Dialogue: 0,0:00:41.66,0:00:43.30,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}quebra Aí
+Dialogue: 0,0:00:43.21,0:00:43.90,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}o exagero
+Dialogue: 0,0:00:43.81,0:00:44.20,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}vira o
+Dialogue: 0,0:00:44.11,0:00:44.50,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}único
+Dialogue: 0,0:00:44.42,0:00:45.30,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}caminho
+Dialogue: 0,0:00:46.27,0:00:46.92,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}No quarto
+Dialogue: 0,0:00:46.83,0:00:47.51,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}inverno
+Dialogue: 0,0:00:47.51,0:00:48.06,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}a balsa
+Dialogue: 0,0:00:47.97,0:00:48.77,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}afundou
+Dialogue: 0,0:00:48.77,0:00:49.07,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}e a
+Dialogue: 0,0:00:48.98,0:00:49.34,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}ilha do
+Dialogue: 0,0:00:49.26,0:00:49.82,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}mercado
+Dialogue: 0,0:00:49.73,0:00:50.13,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}ficou
+Dialogue: 0,0:00:50.05,0:00:51.02,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}isolada
+Dialogue: 0,0:00:51.88,0:00:52.45,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}Até que
+Dialogue: 0,0:00:52.37,0:00:52.70,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}Tomé
+Dialogue: 0,0:00:52.61,0:00:53.18,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}caminhou
+Dialogue: 0,0:00:53.10,0:00:53.53,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}sobre a
+Dialogue: 0,0:00:53.44,0:00:54.25,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}água
+Dialogue: 0,0:00:54.61,0:00:55.09,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}Eram as
+Dialogue: 0,0:00:55.00,0:00:55.80,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}cadeiras
+Dialogue: 0,0:00:55.80,0:00:56.40,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}as mesas
+Dialogue: 0,0:00:56.31,0:00:56.66,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}e as
+Dialogue: 0,0:00:56.57,0:00:57.40,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}camas a
+Dialogue: 0,0:00:57.31,0:00:57.90,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}um palmo
+Dialogue: 0,0:00:57.81,0:00:59.07,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}da superfície
+Dialogue: 0,0:00:59.89,0:01:00.33,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}Zeca
+Dialogue: 0,0:01:00.24,0:01:00.78,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}atravessou
+Dialogue: 0,0:01:00.69,0:01:01.28,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}primeiro
+Dialogue: 0,0:01:01.28,0:01:01.76,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}de pão
+Dialogue: 0,0:01:01.67,0:01:02.76,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}na cabeça
+Dialogue: 0,0:01:03.77,0:01:04.18,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}No dia
+Dialogue: 0,0:01:04.09,0:01:04.86,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}seguinte
+Dialogue: 0,0:01:04.86,0:01:05.42,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}o padeiro
+Dialogue: 0,0:01:05.33,0:01:05.89,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}chegou ao
+Dialogue: 0,0:01:05.80,0:01:06.16,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}cais
+Dialogue: 0,0:01:06.07,0:01:06.67,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}carregando
+Dialogue: 0,0:01:06.58,0:01:07.61,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}uma cadeira
