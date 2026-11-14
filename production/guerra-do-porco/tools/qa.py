@@ -49,7 +49,10 @@ prev = -1; ok = True; periods = 0
 for b in blocks:
     ln = b.split("\n"); a, e = [tt(x.strip()) for x in ln[1].split("-->")]; txt = " ".join(ln[2:])
     ok &= (a >= prev - 1e-6 and e > a and e <= dur + 0.05); prev = a; periods += bool(re.search(r"[.!?]$", txt))
-chk("SRT: tempos crescentes e dentro da duração", ok, f"{len(blocks)} cartões"); chk("legendas sem ponto final", periods == 0, f"{periods} com pontuação final")
+keep = P.get("captions", {}).get("keepPunctuation", False)
+chk("SRT: tempos crescentes e dentro da duração", ok, f"{len(blocks)} cartões")
+if keep: chk("legendas mantêm a pontuação do roteiro (observado no canal; config keepPunctuation)", periods >= 5, f"{periods} cartões com pontuação final")
+else: chk("legendas sem ponto final", periods == 0, f"{periods} com pontuação final")
 # sincronia: início de cada linha de voz × energia do áudio real
 w = wave.open(f"{ROOT}/audio/voice.wav"); sr = w.getframerate(); v = np.frombuffer(w.readframes(w.getnframes()), np.int16).astype(np.float64) / 32768
 hop = int(sr * 0.005); env = np.sqrt(np.convolve(v ** 2, np.ones(hop) / hop, "same"))
