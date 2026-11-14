@@ -1,0 +1,24 @@
+# Environment report
+
+- **uname**: Linux vm 6.18.44-fc-v470 #1 SMP PREEMPT_DYNAMIC @0 x86_64 x86_64 x86_64 GNU/Linux
+- **cpus**: 4
+- **mem**: Mem:            15Gi       2.6Gi        11Gi        16Mi       1.4Gi        13Gi
+- **disk**: /dev/vda        252G   11G   29G  27% /
+- **python**: 3.13.18
+- **pillow_numpy**: 12.3.0 2.5.3
+- **node**: v22.23.4
+- **npm**: 10.9.9
+- **ffmpeg**: ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+- **chromium**: chromium chromium-1243 chromium_headless_shell-1243 ffmpeg-1011
+- **blender**: ausente
+- **gpu**: ausente (nvidia-smi não encontrado)
+- **remotion**: On version: 4.0.543
+- **route**: Rota B (V2 principal): Remotion + Three.js/R3F, WebGL via SwiftShader (--gl=swangle), frames em disco + FFmpeg. Rota A (Pillow) disponível como fallback; Blender ausente → Rota C descartada.
+
+## Rede
+- tts_edge: acessível via HTTPS_PROXY (edge-tts com proxy=...)
+- npm_registry: ok
+- pypi: ok
+- github.com: 403 (app sem acesso ao repositório / benchmark não clonável)
+- nps.gov: bloqueado (ENOTFOUND)
+- historylink.org: bloqueado (ENOTFOUND)

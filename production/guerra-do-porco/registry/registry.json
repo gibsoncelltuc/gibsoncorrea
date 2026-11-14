@@ -1,0 +1,173 @@
+{
+ "registry_version": "1.0",
+ "project": "guerra-do-porco",
+ "items": [
+  {
+   "id": "rig.character.v2",
+   "version": "2.0.0",
+   "description": "Rig 2D cut-out: cabeça sombreada, olhos lid/wide/arc/dot/x, sobrancelhas, bocas, suor, feijão com tecido, membros macarrão, mãos de luva, chapéus/acessórios",
+   "file": "src/characters/Rig.tsx",
+   "dependencies": [
+    "three",
+    "src/world/tex.ts"
+   ],
+   "license": "original do projeto",
+   "source": "src/",
+   "hash": "156c59c9f0bc8ad3",
+   "compatibility": "remotion>=4, three>=0.17x, r3f",
+   "test_scene": "CharSheet"
+  },
+  {
+   "id": "rig.pig.v1",
+   "version": "1.0.0",
+   "description": "Porco 2D cut-out (comer/trotar/morto, olho X, rabo em espiral)",
+   "file": "src/characters/Pig.tsx",
+   "dependencies": [
+    "src/characters/Rig.tsx"
+   ],
+   "license": "original do projeto",
+   "source": "src/",
+   "hash": "04e4da498d10ca56",
+   "compatibility": "remotion>=4, three>=0.17x, r3f",
+   "test_scene": "CharSheet"
+  },
+  {
+   "id": "motion.library.v2",
+   "version": "2.0.0",
+   "description": "idle, walk, march, aimFire, smug, shock, laugh, stopHand, point (funções puras de t)",
+   "file": "src/characters/poses.ts",
+   "dependencies": [
+    "src/lib/anim.ts"
+   ],
+   "license": "original do projeto",
+   "source": "src/",
+   "hash": "d4e43127eb6285c3",
+   "compatibility": "remotion>=4, three>=0.17x, r3f",
+   "test_scene": "CharSheet"
+  },
+  {
+   "id": "cast.piloto.v1",
+   "version": "1.0.0",
+   "description": "Elenco do piloto: Cutlar, Griffin, Soldado, Baynes, Auxiliar",
+   "file": "src/characters/cast.ts",
+   "dependencies": [
+    "rig.character.v2"
+   ],
+   "license": "original do projeto",
+   "source": "src/",
+   "hash": "0bd3881590645416",
+   "compatibility": "remotion>=4, three>=0.17x, r3f",
+   "test_scene": "CharSheet"
+  },
+  {
+   "id": "world.island.v1",
+   "version": "1.0.0",
+   "description": "Ilha: horta, cabana, cerca com brecha, pasto, ovelhas, acampamento, praia, mar, montanhas",
+   "file": "src/world/island.tsx",
+   "dependencies": [
+    "src/world/common.tsx",
+    "src/world/props.tsx",
+    "src/world/ships.tsx"
+   ],
+   "license": "original do projeto",
+   "source": "src/",
+   "hash": "92ebf6bc9cf320fc",
+   "compatibility": "remotion>=4, three>=0.17x, r3f",
+   "test_scene": "Porco@S1"
+  },
+  {
+   "id": "world.ships.v1",
+   "version": "1.0.0",
+   "description": "Fragata genérica, frota em escalão, mar, convés",
+   "file": "src/world/ships.tsx",
+   "dependencies": [
+    "src/world/tex.ts"
+   ],
+   "license": "original do projeto",
+   "source": "src/",
+   "hash": "e0dc07242037fad2",
+   "compatibility": "remotion>=4, three>=0.17x, r3f",
+   "test_scene": "Porco@S4,S5"
+  },
+  {
+   "id": "world.soldiers.v1",
+   "version": "1.0.0",
+   "description": "Bloco de soldados em marcha (InstancedMesh)",
+   "file": "src/world/soldiers.tsx",
+   "dependencies": [],
+   "license": "original do projeto",
+   "source": "src/",
+   "hash": "511c678ef14fc6b3",
+   "compatibility": "remotion>=4, three>=0.17x, r3f",
+   "test_scene": "Porco@S4"
+  },
+  {
+   "id": "world.textures.v1",
+   "version": "1.0.0",
+   "description": "Texturas procedurais Canvas (grama, solo, madeira, vela, bandeiras, notas, placa...)",
+   "file": "src/world/tex.ts",
+   "dependencies": [],
+   "license": "original do projeto",
+   "source": "src/",
+   "hash": "7ceed676ee7f0d98",
+   "compatibility": "remotion>=4, three>=0.17x, r3f",
+   "test_scene": "Porco@S1-S6"
+  },
+  {
+   "id": "camera.rig.v1",
+   "version": "1.0.0",
+   "description": "Câmera por chaves (smootherstep, arco, sway, tremor de tiro, roll)",
+   "file": "src/camera.tsx",
+   "dependencies": [
+    "src/lib/timing.ts"
+   ],
+   "license": "original do projeto",
+   "source": "src/",
+   "hash": "a772633100dd7181",
+   "compatibility": "remotion>=4, three>=0.17x, r3f",
+   "test_scene": "Porco"
+  },
+  {
+   "id": "captions.v1",
+   "version": "1.0.0",
+   "description": "Legendas 1–2 palavras, Montserrat 800, pop 108→100 %, pontuação mantida",
+   "file": "src/captions/Captions.tsx",
+   "dependencies": [
+    "@fontsource/montserrat"
+   ],
+   "license": "SIL OFL 1.1 (fonte)",
+   "source": "src/",
+   "hash": "813310e6f379b350",
+   "compatibility": "remotion>=4, three>=0.17x, r3f",
+   "test_scene": "Porco"
+  },
+  {
+   "id": "audio.build.v1",
+   "version": "1.0.0",
+   "description": "Música/SFX/ambiência sintetizados + eventos ancorados nas palavras",
+   "file": "tools/build_audio.py",
+   "dependencies": [
+    "numpy"
+   ],
+   "license": "original do projeto",
+   "source": "src/",
+   "hash": "443284c6c0b78863",
+   "compatibility": "remotion>=4, three>=0.17x, r3f",
+   "test_scene": "audio/sfx-events.json"
+  },
+  {
+   "id": "audio.mix.v1",
+   "version": "1.0.0",
+   "description": "Mixagem: ganhos por LUFS, sidechain ~13 dB, loudnorm 2 passos −14/−1,5, alimiter",
+   "file": "tools/mix.py",
+   "dependencies": [
+    "ffmpeg"
+   ],
+   "license": "original do projeto",
+   "source": "src/",
+   "hash": "e503592b1236e34f",
+   "compatibility": "remotion>=4, three>=0.17x, r3f",
+   "test_scene": "audio/mix-report.json"
+  }
+ ]
+}

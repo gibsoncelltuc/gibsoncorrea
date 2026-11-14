@@ -1,0 +1,76 @@
+{
+ "shots": [
+  {
+   "id": "S1",
+   "start": 0.0,
+   "end": 3.696,
+   "lines": [
+    "L1"
+   ],
+   "purpose": "GANCHO: ato sem sentido, razão escondida (matar um porco → quase guerra)",
+   "camera": "ground-level fov 60 → crane-up ao tiro; revela horizonte com navios e acampamento",
+   "action": "porco come; Cutlar mira e atira ('matou'); porco capota; navios surgem no horizonte ('guerra')",
+   "audio": "BANG1 + flash + tremor"
+  },
+  {
+   "id": "S2",
+   "start": 3.696,
+   "end": 7.632,
+   "lines": [
+    "L2"
+   ],
+   "purpose": "SETUP: o porco do britânico invade a horta do americano; 'Ele atirou'",
+   "camera": "tilt-up na bandeira britânica → dolly lateral pela cerca (placa SAN JUAN 1859) → push-in",
+   "action": "porco cruza a brecha e come; Cutlar nota, mira e dispara ('atirou')",
+   "audio": "BANG2 + flash"
+  },
+  {
+   "id": "S3",
+   "start": 7.632,
+   "end": 11.395,
+   "lines": [
+    "L3"
+   ],
+   "purpose": "ZOMBADOR: cem dólares × dez (close inclinado)",
+   "camera": "baixa, roll 0.13, push-in lento",
+   "action": "Griffin exibe nota $100 e ri; Cutlar suado com nota $10; porco morto entre eles",
+   "audio": "notas, risada"
+  },
+  {
+   "id": "S4",
+   "start": 11.395,
+   "end": 15.759,
+   "lines": [
+    "L4"
+   ],
+   "purpose": "ESCALADA: centenas de soldados → cinco navios de guerra",
+   "camera": "dolly lateral baixo acompanhando a marcha → sobe e panorâmica sobre os soldados até a frota",
+   "action": "bloco de 40 soldados em marcha (InstancedMesh) + capitão; fragatas em escalão",
+   "audio": "marcha, canhão"
+  },
+  {
+   "id": "S5",
+   "start": 15.759,
+   "end": 17.767,
+   "lines": [
+    "L5"
+   ],
+   "purpose": "PAGAMENTO (1/2): o almirante recusa atacar",
+   "camera": "baixa, roll −0.1, push-in no almirante",
+   "action": "auxiliar aponta a luneta; almirante levanta a mão ('pare'), auxiliar murcha",
+   "audio": "gaivotas/mar"
+  },
+  {
+   "id": "S6",
+   "start": 17.767,
+   "end": 20.928,
+   "lines": [
+    "L5"
+   ],
+   "purpose": "PAGAMENTO (2/2) + LOOP: 'Ninguém morreu. Só o porco.' (túmulo no lugar do 1º quadro)",
+   "camera": "pull-back até o enquadramento exato do quadro 0 (loop)",
+   "action": "túmulo com cruz e flores; os dois tiram o chapéu; mesmo enquadramento do gancho",
+   "audio": "sino/acorde final"
+  }
+ ]
+}

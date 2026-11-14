@@ -1,0 +1,8 @@
+# Notas de direção de arte — piloto
+**Look:** 2D cut-out em mundo 3D toon "pintado" (Remotion + Three.js/R3F). Materiais `MeshToonMaterial` (rampa de 4 passos 168/206/236/255) + **texturas procedurais de Canvas** (grama, solo, madeira, toras, telhas, vela, casco com xadrez amarelo, água, bandeiras EUA/Reino Unido, notas de dinheiro, placa). Sombras nunca pretas (hemisfério roxo + ambiente).
+**Luz:** sol quente baixo (`#ffb25e`, 2.7) contra hemisfério azul/roxo; raios de luz volumétricos (planos aditivos), poeira em suspensão, nuvens-billboard, névoa atmosférica; céu saturado (azul → âmbar) e crepúsculo magenta no final.
+**Cor:** saturada (grade `saturate 1.28 contrast 1.06` + vinheta + papel + split-tone). Verde **nunca lidera**: relva dourada/oliva, folhagem puxada a ouro (regra v3.1).
+**Câmera:** grande angular (fov 46–66), baixa, sempre em movimento; roll no zombador; tremor + "punch" de FOV nos tiros; dissolve de 0,4 s entre lugares (como nas referências); sem cortes secos no mesmo lugar.
+**Detalhes vivos:** ~4.400 tufos instanciados (2 camadas), folhagem da horta instanciada (~400 folhas), 6 ovelhas, bandeiras ondulando por vértice, fumaça da chaminé, vela com bojo, espuma de proa, bloco de 40 soldados em marcha (InstancedMesh), poeira, fumaça e flash de tiro.
+**Legendas:** Montserrat 800, 76 px (em 1080), branco, contorno 15 px `#120e1a` + sombra curta, ≈70 % da altura, 1–2 palavras, pop 108→100 % em 0,09 s, **pontuação mantida** (observado no canal).
+**Limitações:** sem DoF/bloom 3D reais (SwiftShader CPU) — bloom/vinheta/papel por overlays; DoF não simulado; modelos de navios e cenário são genéricos.

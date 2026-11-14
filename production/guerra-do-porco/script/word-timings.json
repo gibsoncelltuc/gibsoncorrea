@@ -1,0 +1,379 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+14%",
+ "pitch": "-2Hz",
+ "engine": "edge-tts 7.3.1",
+ "total": 20.928,
+ "lines": [
+  {
+   "id": "L1",
+   "shot": "S1",
+   "beat": "gancho",
+   "text": "Um homem matou um porco, e dois países quase entraram em guerra.",
+   "pause_before": 0.1,
+   "start": 0.35,
+   "end": 3.776,
+   "dur": 3.426
+  },
+  {
+   "id": "L2",
+   "shot": "S2",
+   "beat": "setup",
+   "text": "O porco de um britânico invadiu a horta de um americano. Ele atirou.",
+   "pause_before": 0.22,
+   "start": 3.996,
+   "end": 7.712,
+   "dur": 3.717
+  },
+  {
+   "id": "L3",
+   "shot": "S3",
+   "beat": "zombador",
+   "text": "O dono exigiu cem dólares. O americano ofereceu dez.",
+   "pause_before": 0.22,
+   "start": 7.932,
+   "end": 11.495,
+   "dur": 3.563
+  },
+  {
+   "id": "L4",
+   "shot": "S4",
+   "beat": "escalada",
+   "text": "Vieram centenas de soldados. Depois, cinco navios de guerra.",
+   "pause_before": 0.2,
+   "start": 11.695,
+   "end": 15.839,
+   "dur": 4.144
+  },
+  {
+   "id": "L5",
+   "shot": "S5",
+   "beat": "pagamento",
+   "text": "Mas o almirante recusou atacar. Ninguém morreu. Só o porco.",
+   "pause_before": 0.22,
+   "start": 16.059,
+   "end": 20.078,
+   "dur": 4.018
+  }
+ ],
+ "words": [
+  {
+   "line": "L1",
+   "text": "Um",
+   "start": 0.4,
+   "end": 0.543
+  },
+  {
+   "line": "L1",
+   "text": "homem",
+   "start": 0.553,
+   "end": 0.806
+  },
+  {
+   "line": "L1",
+   "text": "matou",
+   "start": 0.817,
+   "end": 1.08
+  },
+  {
+   "line": "L1",
+   "text": "um",
+   "start": 1.091,
+   "end": 1.2
+  },
+  {
+   "line": "L1",
+   "text": "porco,",
+   "start": 1.211,
+   "end": 1.562
+  },
+  {
+   "line": "L1",
+   "text": "e",
+   "start": 1.793,
+   "end": 1.88
+  },
+  {
+   "line": "L1",
+   "text": "dois",
+   "start": 1.891,
+   "end": 2.132
+  },
+  {
+   "line": "L1",
+   "text": "países",
+   "start": 2.143,
+   "end": 2.56
+  },
+  {
+   "line": "L1",
+   "text": "quase",
+   "start": 2.571,
+   "end": 2.856
+  },
+  {
+   "line": "L1",
+   "text": "entraram",
+   "start": 2.867,
+   "end": 3.229
+  },
+  {
+   "line": "L1",
+   "text": "em",
+   "start": 3.24,
+   "end": 3.306
+  },
+  {
+   "line": "L1",
+   "text": "guerra.",
+   "start": 3.317,
+   "end": 3.646
+  },
+  {
+   "line": "L2",
+   "text": "O",
+   "start": 4.046,
+   "end": 4.166
+  },
+  {
+   "line": "L2",
+   "text": "porco",
+   "start": 4.177,
+   "end": 4.495
+  },
+  {
+   "line": "L2",
+   "text": "de",
+   "start": 4.506,
+   "end": 4.561
+  },
+  {
+   "line": "L2",
+   "text": "um",
+   "start": 4.572,
+   "end": 4.616
+  },
+  {
+   "line": "L2",
+   "text": "britânico",
+   "start": 4.627,
+   "end": 5.098
+  },
+  {
+   "line": "L2",
+   "text": "invadiu",
+   "start": 5.109,
+   "end": 5.493
+  },
+  {
+   "line": "L2",
+   "text": "a",
+   "start": 5.504,
+   "end": 5.581
+  },
+  {
+   "line": "L2",
+   "text": "horta",
+   "start": 5.592,
+   "end": 5.91
+  },
+  {
+   "line": "L2",
+   "text": "de",
+   "start": 5.921,
+   "end": 5.997
+  },
+  {
+   "line": "L2",
+   "text": "um",
+   "start": 6.008,
+   "end": 6.096
+  },
+  {
+   "line": "L2",
+   "text": "americano.",
+   "start": 6.107,
+   "end": 6.655
+  },
+  {
+   "line": "L2",
+   "text": "Ele",
+   "start": 6.935,
+   "end": 7.144
+  },
+  {
+   "line": "L2",
+   "text": "atirou.",
+   "start": 7.155,
+   "end": 7.582
+  },
+  {
+   "line": "L3",
+   "text": "O",
+   "start": 7.982,
+   "end": 8.092
+  },
+  {
+   "line": "L3",
+   "text": "dono",
+   "start": 8.103,
+   "end": 8.355
+  },
+  {
+   "line": "L3",
+   "text": "exigiu",
+   "start": 8.366,
+   "end": 8.739
+  },
+  {
+   "line": "L3",
+   "text": "cem",
+   "start": 8.75,
+   "end": 9.013
+  },
+  {
+   "line": "L3",
+   "text": "dólares.",
+   "start": 9.024,
+   "end": 9.539
+  },
+  {
+   "line": "L3",
+   "text": "O",
+   "start": 9.819,
+   "end": 9.918
+  },
+  {
+   "line": "L3",
+   "text": "americano",
+   "start": 9.929,
+   "end": 10.477
+  },
+  {
+   "line": "L3",
+   "text": "ofereceu",
+   "start": 10.488,
+   "end": 10.981
+  },
+  {
+   "line": "L3",
+   "text": "dez.",
+   "start": 10.992,
+   "end": 11.365
+  },
+  {
+   "line": "L4",
+   "text": "Vieram",
+   "start": 11.745,
+   "end": 12.228
+  },
+  {
+   "line": "L4",
+   "text": "centenas",
+   "start": 12.239,
+   "end": 12.743
+  },
+  {
+   "line": "L4",
+   "text": "de",
+   "start": 12.754,
+   "end": 12.831
+  },
+  {
+   "line": "L4",
+   "text": "soldados.",
+   "start": 12.842,
+   "end": 13.456
+  },
+  {
+   "line": "L4",
+   "text": "Depois,",
+   "start": 13.736,
+   "end": 14.262
+  },
+  {
+   "line": "L4",
+   "text": "cinco",
+   "start": 14.47,
+   "end": 14.843
+  },
+  {
+   "line": "L4",
+   "text": "navios",
+   "start": 14.854,
+   "end": 15.249
+  },
+  {
+   "line": "L4",
+   "text": "de",
+   "start": 15.26,
+   "end": 15.348
+  },
+  {
+   "line": "L4",
+   "text": "guerra.",
+   "start": 15.358,
+   "end": 15.709
+  },
+  {
+   "line": "L5",
+   "text": "Mas",
+   "start": 16.109,
+   "end": 16.307
+  },
+  {
+   "line": "L5",
+   "text": "o",
+   "start": 16.318,
+   "end": 16.427
+  },
+  {
+   "line": "L5",
+   "text": "almirante",
+   "start": 16.438,
+   "end": 16.921
+  },
+  {
+   "line": "L5",
+   "text": "recusou",
+   "start": 16.932,
+   "end": 17.37
+  },
+  {
+   "line": "L5",
+   "text": "atacar.",
+   "start": 17.381,
+   "end": 17.787
+  },
+  {
+   "line": "L5",
+   "text": "Ninguém",
+   "start": 18.067,
+   "end": 18.517
+  },
+  {
+   "line": "L5",
+   "text": "morreu.",
+   "start": 18.527,
+   "end": 18.944
+  },
+  {
+   "line": "L5",
+   "text": "Só",
+   "start": 19.224,
+   "end": 19.487
+  },
+  {
+   "line": "L5",
+   "text": "o",
+   "start": 19.498,
+   "end": 19.553
+  },
+  {
+   "line": "L5",
+   "text": "porco.",
+   "start": 19.564,
+   "end": 19.948
+  }
+ ]
+}
