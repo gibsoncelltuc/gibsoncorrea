@@ -1,0 +1,9 @@
+{
+  "benchmark": "mromidev/claude-animated-shorts",
+  "url": "https://github.com/mromidev/claude-animated-shorts",
+  "resolved_commit": "FILL_WITH_OUTPUT_OF_git_rev_parse_HEAD",
+  "retrieved_at": "YYYY-MM-DD",
+  "license_declared": "MIT",
+  "audit_status": "NOT_AUDITED",
+  "notes": "Do not execute until README, SKILL.md, scripts, dependencies and asset provenance have been reviewed."
+}

@@ -1,0 +1,21 @@
+{
+  "title": "A descoberta improvável",
+  "slug": "descoberta-improvavel",
+  "language": "pt-BR",
+  "format": "short",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "durationSeconds": 65,
+  "narrationWordsPerMinuteTarget": 205,
+  "visualEngine": "remotion-three",
+  "visualGeneration": "procedural-code-only",
+  "captionWordsPerCard": 2,
+  "audio": {
+    "sampleRate": 48000,
+    "channels": 2,
+    "targetIntegratedLufs": -15,
+    "maxTruePeakDbtp": -1.0
+  },
+  "notes": "Valores iniciais. Ajustar duração ao áudio final e às regras atuais da plataforma."
+}

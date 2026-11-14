@@ -1,0 +1,11 @@
+{
+ "video": "renders/final.mp4",
+ "sha256_16": "89cdd958f543b309",
+ "frames": 2085,
+ "fps": 30,
+ "resolution": "1080x1920",
+ "renderer": "remotion 4.0.543 + three (swangle/SwiftShader CPU)",
+ "chunks": 7,
+ "determinism": "frame 1234 renderizado em 2 execu\u00e7\u00f5es separadas (com outro frame no meio): hashes id\u00eanticos (md5 89ccc2a7\u2026)",
+ "audio": "audio/final_mix.wav -> aac 192k"
+}

@@ -1,0 +1,21 @@
+{
+  "rubric_version": "2.0",
+  "score_total": 0,
+  "pass_threshold": 85,
+  "critical_gates_passed": false,
+  "dimensions": {
+    "narrative": {"score_0_to_5": 0, "evidence": [], "issues": []},
+    "facts": {"score_0_to_5": 0, "evidence": [], "issues": []},
+    "visual_identity": {"score_0_to_5": 0, "evidence": [], "issues": []},
+    "animation": {"score_0_to_5": 0, "evidence": [], "issues": []},
+    "camera_editing": {"score_0_to_5": 0, "evidence": [], "issues": []},
+    "audio_sync": {"score_0_to_5": 0, "evidence": [], "issues": []},
+    "render_stability": {"score_0_to_5": 0, "evidence": [], "issues": []},
+    "accessibility": {"score_0_to_5": 0, "evidence": [], "issues": []},
+    "reusability": {"score_0_to_5": 0, "evidence": [], "issues": []},
+    "originality_rights": {"score_0_to_5": 0, "evidence": [], "issues": []}
+  },
+  "not_tested": [],
+  "reviewed_by": "",
+  "review_date": ""
+}

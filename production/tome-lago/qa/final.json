@@ -1,0 +1,113 @@
+{
+ "video": "renders/final.mp4",
+ "checks": [
+  {
+   "name": "resolu\u00e7\u00e3o/fps",
+   "pass": true,
+   "detail": "1080x1920@30"
+  },
+  {
+   "name": "dura\u00e7\u00e3o \u2248 manifesto",
+   "pass": true,
+   "detail": "69.50s vs 69.47s"
+  },
+  {
+   "name": "propor\u00e7\u00e3o 9:16",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "faixa de \u00e1udio presente",
+   "pass": true,
+   "detail": "aac"
+  },
+  {
+   "name": "sem frames pretos",
+   "pass": true,
+   "detail": "0 trechos"
+  },
+  {
+   "name": "sem congelamento >0.8s",
+   "pass": true,
+   "detail": "0 trechos []"
+  },
+  {
+   "name": "sombras nunca pretas (L<0.05 < 6% dos pixels, exceto contorno)",
+   "pass": true,
+   "detail": "m\u00e1x 0.012"
+  },
+  {
+   "name": "verde nunca lidera (<12% dos pixels em qualquer frame)",
+   "pass": true,
+   "detail": "m\u00e1x 0.017 m\u00e9dia 0.003"
+  },
+  {
+   "name": "paleta quente + fria presente",
+   "pass": true,
+   "detail": "quente 0.39 frio 0.37"
+  },
+  {
+   "name": "sombras predominantemente azul/roxo",
+   "pass": true,
+   "detail": "0.63"
+  },
+  {
+   "name": "SRT: tempos crescentes e dentro da dura\u00e7\u00e3o",
+   "pass": true,
+   "detail": "93 cart\u00f5es"
+  },
+  {
+   "name": "legendas sem ponto final",
+   "pass": true,
+   "detail": "0 com pontua\u00e7\u00e3o final"
+  },
+  {
+   "name": "sincronia voz\u00d7timestamps (desvio m\u00e1x < 0.20s)",
+   "pass": true,
+   "detail": "m\u00e1x 0.100s"
+  },
+  {
+   "name": "loudness -14 LUFS (\u00b10.7)",
+   "pass": true,
+   "detail": "-14.3 LUFS"
+  },
+  {
+   "name": "true peak \u2264 -1.5 dBTP",
+   "pass": true,
+   "detail": "-4.4 dBFS"
+  },
+  {
+   "name": "ducking \u2248 13 dB (11\u201315)",
+   "pass": true,
+   "detail": "-12.7 dB"
+  },
+  {
+   "name": "m\u00fasica \u2248 20 dB sob a voz (17\u201323)",
+   "pass": true,
+   "detail": "-20.2 dB"
+  }
+ ],
+ "palette": {
+  "max_black_pixel_frac": 0.0116,
+  "mean_green_dominant_frac": 0.0029,
+  "max_green_frac": 0.0166,
+  "mean_warm": 0.39,
+  "mean_cool": 0.37,
+  "shadows_blue_purple_frac": 0.632
+ },
+ "sync_dev_s": [
+  0.069,
+  0.1,
+  0.062,
+  0.067,
+  0.056,
+  0.055,
+  0.078,
+  0.059,
+  0.061,
+  0.062,
+  0.05,
+  0.049
+ ],
+ "score_checks": "17/17"
+}

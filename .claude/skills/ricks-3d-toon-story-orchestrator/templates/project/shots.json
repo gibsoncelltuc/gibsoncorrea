@@ -1,0 +1,88 @@
+{
+  "shots": [
+    {
+      "id": "S01",
+      "start": 0.0,
+      "end": 3.0,
+      "purpose": "hook: mostrar a ação estranha antes de revelar a causa",
+      "set": "main_set",
+      "camera": {"type": "slow_push_in", "ease": "cubicOut"},
+      "action": "hero_places_unusual_object",
+      "expression": "focused",
+      "environmentMotion": ["dust_motes", "flag_sway"],
+      "captionWords": ["Ele", "fez", "algo", "impossível."],
+      "sfx": ["object_contact"],
+      "musicCue": "start_low"
+    },
+    {
+      "id": "S02",
+      "start": 3.0,
+      "end": 11.5,
+      "purpose": "setup: local, contexto, número verificado e risco",
+      "set": "main_set",
+      "camera": {"type": "establishing_glide", "ease": "smoothstep"},
+      "action": "reveal_location_and_stakes",
+      "expression": "neutral_to_curious",
+      "environmentMotion": ["cloud_drift", "window_flicker"],
+      "captionWords": ["Naquela", "cidade", "havia", "uma", "regra", "estranha."],
+      "sfx": [],
+      "musicCue": "continue"
+    },
+    {
+      "id": "S03",
+      "start": 11.5,
+      "end": 19.0,
+      "purpose": "introduzir a descrença",
+      "set": "main_set",
+      "camera": {"type": "reaction_close_up", "ease": "cubicOut"},
+      "action": "skeptic_reacts",
+      "expression": "skeptical",
+      "environmentMotion": ["lamp_flicker"],
+      "captionWords": ["Isso", "nunca", "vai", "funcionar."],
+      "sfx": ["short_chuckle"],
+      "musicCue": "small_accent"
+    },
+    {
+      "id": "S04",
+      "start": 19.0,
+      "end": 42.0,
+      "purpose": "três escaladas que aumentam o risco e a contradição",
+      "set": "main_set",
+      "camera": {"type": "lateral_tracking", "ease": "cubicInOut"},
+      "action": "three_step_escalation",
+      "expression": "skeptic_confidence_to_surprise",
+      "environmentMotion": ["smoke_drift", "loose_objects", "light_shift"],
+      "captionWords": ["Primeiro", "...", "Depois", "...", "Mas", "então", "..."],
+      "sfx": ["mechanism_click", "object_fall"],
+      "musicCue": "build"
+    },
+    {
+      "id": "S05",
+      "start": 42.0,
+      "end": 55.0,
+      "purpose": "explicar o mecanismo com analogia e demonstração",
+      "set": "diagram_space",
+      "camera": {"type": "top_down_then_push", "ease": "smoothstep"},
+      "action": "mechanism_demonstration",
+      "expression": "explaining",
+      "environmentMotion": ["diagram_pulse"],
+      "captionWords": ["O", "segredo", "era", "simples."],
+      "sfx": ["diagram_tick"],
+      "musicCue": "duck_under_voice"
+    },
+    {
+      "id": "S06",
+      "start": 55.0,
+      "end": 65.0,
+      "purpose": "payoff visual e frase final que ressignifica o hook",
+      "set": "main_set",
+      "camera": {"type": "pull_back_reveal", "ease": "cubicOut"},
+      "action": "payoff_proof",
+      "expression": "skeptic_shocked_hero_calm",
+      "environmentMotion": ["debris_or_reaction", "light_reveal"],
+      "captionWords": ["E", "foi", "exatamente", "isso."],
+      "sfx": ["payoff_hit"],
+      "musicCue": "final_accent_then_cut"
+    }
+  ]
+}

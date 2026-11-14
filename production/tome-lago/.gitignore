@@ -12,3 +12,6 @@ out/*.mp4
 out/stills/
 out/contact/
 out/*.png
+out/chk_*.png
+out/det_*.png
+out/final_silent.mp4

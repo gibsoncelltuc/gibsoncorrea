@@ -1,0 +1,23 @@
+{
+  "name": "toon-story-remotion-starter",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.tsx",
+    "render": "remotion render src/index.tsx ToonStarter out/toon-starter.mp4 --gl=angle"
+  },
+  "dependencies": {
+    "@remotion/three": "latest",
+    "@react-three/fiber": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "remotion": "latest",
+    "three": "latest"
+  },
+  "devDependencies": {
+    "@remotion/cli": "latest",
+    "@types/react": "latest",
+    "@types/three": "latest",
+    "typescript": "latest"
+  }
+}

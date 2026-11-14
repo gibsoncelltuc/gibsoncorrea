@@ -1,0 +1,64 @@
+{
+ "rubric_version": "2.0",
+ "video": "O Homem que Jogava Cadeiras no Lago (1080x1920, 69.5 s)",
+ "dimensions": {
+  "narrativa_retencao": {
+   "weight": 15,
+   "score": 3.5
+  },
+  "fidelidade_factual": {
+   "weight": 10,
+   "score": 4.0,
+   "note": "ficção identificada"
+  },
+  "identidade_visual": {
+   "weight": 15,
+   "score": 3.0,
+   "note": "original, mas mais simples que o canal-referência (ver visual-reference-ricks-clips.md)"
+  },
+  "animacao_atuacao": {
+   "weight": 15,
+   "score": 3.0
+  },
+  "camera_montagem": {
+   "weight": 10,
+   "score": 3.5,
+   "note": "há quadros sem personagem no fim do S1; ponte submersa pouco legível"
+  },
+  "audio_sincronizacao": {
+   "weight": 10,
+   "score": 4.0
+  },
+  "render_estabilidade": {
+   "weight": 10,
+   "score": 4.5
+  },
+  "legibilidade": {
+   "weight": 5,
+   "score": 4.0
+  },
+  "reutilizacao": {
+   "weight": 5,
+   "score": 3.5
+  },
+  "originalidade_direitos": {
+   "weight": 5,
+   "score": 3.5,
+   "note": "voz edge-tts sem licença comercial clara"
+  }
+ },
+ "score_total": 71.5,
+ "critical_gates": {
+  "compila": true,
+  "preview_real_renderizado": true,
+  "duracao_fps_resolucao": true,
+  "sem_frames_pretos_faltantes": true,
+  "audio_legenda_sync": true,
+  "fatos_centrais_verificados": "n/a (ficção)",
+  "licencas_documentadas": "PARCIAL (TTS)",
+  "qa_visual_humano": "NÃO (revisão feita pelo modelo; humano pendente)",
+  "relatorio_distingue_executado": true
+ },
+ "aprovado": false,
+ "motivo": "nota < 85 e dois gates críticos não satisfeitos (licença da voz; revisão humana)"
+}
