@@ -12,7 +12,9 @@ clips = []
 for sid, (a, b) in anim.SHOTS.items():
     files = sorted(glob.glob(os.path.join(root, sid, 'f*.png')))
     if not files: print('sem frames para', sid); continue
-    nums = [int(re.search(r'f(\d+)\.png', f).group(1)) for f in files]; clips.append((sid, nums[0], nums[-1], files, a, b))
+    nums = [int(re.search(r'f(\d+)\.png', f).group(1)) for f in files]
+    if every > 1: sel = [(f, n) for f, n in zip(files, nums) if (n - nums[0]) % every == 0]; files = [f for f, _ in sel]; nums = [n for _, n in sel]   # só a passada 1 (mesma paridade do 1º quadro), mesmo com a passada 2 em andamento
+    clips.append((sid, nums[0], nums[-1], files, a, b))
 inputs = []; filt = []; dur = anim.TOTAL
 for i, (sid, n0, n1, files, a, b) in enumerate(clips):
     lst = os.path.join(root, f'{sid}.txt')
