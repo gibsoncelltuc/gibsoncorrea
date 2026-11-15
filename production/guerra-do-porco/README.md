@@ -22,7 +22,7 @@ src/           código histórico (versão Remotion/Three.js rejeitada pelo usu�
 sudo bash tools/setup_env.sh            # Blender (bpy) + FFmpeg + dependências (também gravado no ambiente "gibsoncorrea")
 python3 tools/build_voice.py && python3 tools/build_audio.py && python3 tools/mix.py && python3 tools/make_meta.py
 blender/render_all.sh 540 960 12 50000 2 0 && blender/render_all.sh 540 960 12 50000 2 1     # passada 1 (15 fps) + passada 2 (30 fps)
-python3 blender/post.py blender/out/frames renders/pilot_540.mp4
+tools/montage.sh renders/pilot_540.mp4                   # Remotion (montagem + legendas) + FFmpeg (grade); alternativa só-FFmpeg: python3 blender/post.py blender/out/frames renders/pilot_540.mp4
 python3 tools/qa.py renders/pilot_540.mp4 pilot 540x960@30 && python3 tools/qa_extra.py renders/pilot_540.mp4 pilot_extra
 python3 tools/fidelity_report.py renders/pilot_540.mp4 <pasta_com_frames_de_referencia> && python3 tools/make_manifest.py && python3 tools/contact_sheet.py renders/pilot_540.mp4 renders/contact_540.png
 ```
