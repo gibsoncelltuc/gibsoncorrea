@@ -26,6 +26,10 @@ apt-get install -y --no-install-recommends libgl1-mesa-dri libglx-mesa0 libegl1 
 4. Cápsulas 3D de contorno e preenchimento: o contorno de raio maior "fura" na frente — deslocar o contorno para trás por `(r_contorno − r_preenchimento) + ε`.
 5. Look-dev: `Standard` dá o azul saturado do canal; `AgX` fica apagado. Calibrar brilho médio ≈ 0,56 (referência) com EV e a grade do FFmpeg.
 6. Clarão de tiro branco some contra nuvens: usar camadas laranja → amarelo → branco e fumaça cinza.
+7. **Sol baixo = sombras gigantes**: com elevação de 24° uma árvore de 5 m projeta ~11 m de sombra. Decoração fora de quadro (abetos de borda, colinas) pode escurecer o campo inteiro de um plano. Diagnóstico barato: renderizar o quadro em 135×240/4 spp alternando `obj.visible_shadow = False` por grupo e comparar a luminância da região escura (foi assim que os abetos foram achados). Correção: desligar a sombra do grupo naquele plano.
+8. **Revisar quadros reais de CADA plano antes de gastar o render inteiro**: montar uma prévia parcial com `post.py` na passada em andamento e olhar folha de contato (`tools/contact_sheet.py`).
+9. **Legendas: medir, não presumir.** O número da skill (76 px) saiu ~1,6× menor que o canal. Medir ascendente/largura por caractere/linha de base nos quadros de referência (ver `visual-reference-ricks-clips.md`) e ajustar o estilo ASS; é só pós, não exige refazer render.
+10. Comando `blender`: o módulo `bpy` não instala o executável. `tools/setup_env.sh` cria `/usr/local/bin/blender` (shim em Python: `--version`, `-b`, `arquivo.blend`, `-E`, `-o`, `-f`, `-a`, `-P`, `--python-expr`, `--`). Os scripts do pipeline rodam direto com `python3` (mais simples e idêntico).
 
 ## Orçamento de render (540×960, 12 spp + OIDN, 4 vCPU)
 ≈ 6–10 s/quadro (cenas com grama densa + DOF). Piloto de 21 s: ≈ 360 quadros/passada (≈ 45 min). Usar a passada 1 (15 fps) para ver o resultado cedo e completar para 30 fps depois.
