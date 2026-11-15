@@ -302,21 +302,9 @@
    "max_diferenca_m": 0.0
   },
   {
-   "corte": "I_eyes → S3a",
-   "t": 7.475,
-   "personagens_comuns": 1,
-   "max_diferenca_m": 5.02892
-  },
-  {
    "corte": "S3a → I_notes",
    "t": 10.152,
    "personagens_comuns": 2,
-   "max_diferenca_m": 0.0
-  },
-  {
-   "corte": "I_notes → S4a",
-   "t": 11.25,
-   "personagens_comuns": 0,
    "max_diferenca_m": 0.0
   },
   {
@@ -335,12 +323,6 @@
    "corte": "S5a → I_baynes",
    "t": 16.457,
    "personagens_comuns": 2,
-   "max_diferenca_m": 0.0
-  },
-  {
-   "corte": "I_baynes → S6",
-   "t": 17.38,
-   "personagens_comuns": 0,
    "max_diferenca_m": 0.0
   }
  ],

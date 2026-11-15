@@ -1,0 +1,116 @@
+{
+ "checks": [
+  {
+   "name": "schema production.json",
+   "pass": true,
+   "detail": "válido"
+  },
+  {
+   "name": "schema storyboard/shots.json",
+   "pass": true,
+   "detail": "válido"
+  },
+  {
+   "name": "schema script/word-timings.json",
+   "pass": true,
+   "detail": "válido"
+  },
+  {
+   "name": "schema registry/registry.json",
+   "pass": false,
+   "detail": "PENDENTE: arquivo ainda não gerado nesta etapa"
+  },
+  {
+   "name": "schema research/claims.json",
+   "pass": true,
+   "detail": "válido"
+  },
+  {
+   "name": "schema render-manifest.json",
+   "pass": false,
+   "detail": "PENDENTE: arquivo ainda não gerado nesta etapa"
+  },
+  {
+   "name": "shots contíguos e ordenados (sem buracos/sobreposição)",
+   "pass": true,
+   "detail": "34 planos"
+  },
+  {
+   "name": "shots: dur = end − start",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "shots cobrem 0 → duração total",
+   "pass": true,
+   "detail": "0.0→59.485 vs total 59.485"
+  },
+  {
+   "name": "production.durationSeconds = word-timings.total",
+   "pass": true,
+   "detail": "59.485 vs 59.485"
+  },
+  {
+   "name": "production.visualEngine cita Blender (motor real do render)",
+   "pass": true,
+   "detail": "blender 5.3 Cycles CPU (bpy) para os quadros + remotion (montagem/legendas) + ffmpeg (grade/áudio)"
+  },
+  {
+   "name": "palavras em ordem crescente e start<end",
+   "pass": true,
+   "detail": "166 palavras"
+  },
+  {
+   "name": "toda palavra pertence a uma linha existente; toda linha tem palavras",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "toda linha usada nos planos existe",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "palavras de cada linha dentro dos limites da linha (±0,15 s)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "registry: ids únicos",
+   "pass": true,
+   "detail": "0 itens"
+  },
+  {
+   "name": "registry: arquivos existem",
+   "pass": true,
+   "detail": "[]"
+  },
+  {
+   "name": "registry: hashes atuais (nenhum item desatualizado)",
+   "pass": true,
+   "detail": "[]"
+  },
+  {
+   "name": "registry: dependências internas resolvem para ids existentes",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "claims: toda fonte citada está na lista de fontes lidas",
+   "pass": true,
+   "detail": "[]"
+  },
+  {
+   "name": "claims: toda afirmação tem ≥ 2 fontes DISTINTAS",
+   "pass": true,
+   "detail": "22 afirmações"
+  },
+  {
+   "name": "claims: cada trecho citado aparece LITERALMENTE no texto salvo da fonte (sem citação inventada)",
+   "pass": true,
+   "detail": "57 citações"
+  }
+ ],
+ "passed": 20,
+ "total": 22
+}

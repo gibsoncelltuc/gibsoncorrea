@@ -1,0 +1,68 @@
+{
+ "title": "render-manifest.json",
+ "type": "object",
+ "required": [
+  "video",
+  "sha256_16",
+  "duracao_s",
+  "fps",
+  "frames_video",
+  "resolucao",
+  "codec_video",
+  "codec_audio",
+  "renderer",
+  "pos",
+  "planos",
+  "tempo_total_render_s"
+ ],
+ "properties": {
+  "video": {
+   "type": "string",
+   "minLength": 1
+  },
+  "sha256_16": {
+   "type": "string",
+   "pattern": "^[0-9a-f]{16}$"
+  },
+  "duracao_s": {
+   "type": "number",
+   "exclusiveMinimum": 0
+  },
+  "fps": {
+   "type": "number",
+   "exclusiveMinimum": 0
+  },
+  "frames_video": {
+   "type": "integer",
+   "minimum": 1
+  },
+  "resolucao": {
+   "type": "string",
+   "pattern": "^[0-9]+x[0-9]+$"
+  },
+  "renderer": {
+   "type": "object",
+   "required": [
+    "blender",
+    "motor",
+    "amostras",
+    "denoiser"
+   ],
+   "properties": {
+    "amostras": {
+     "type": "integer",
+     "minimum": 1
+    }
+   }
+  },
+  "planos": {
+   "type": "object",
+   "minProperties": 1
+  },
+  "tempo_total_render_s": {
+   "type": "number",
+   "minimum": 0
+  }
+ },
+ "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

@@ -1,0 +1,233 @@
+{
+ "planos": [
+  {
+   "edicao": "S1",
+   "cena": "S1",
+   "inicio": 0.0,
+   "fim": 3.585,
+   "dur_s": 3.58,
+   "camera": "baixa, fov 57 → sobe e revela a frota",
+   "velocidade_media_m_s": 1.86,
+   "velocidade_p95_m_s": 5.31,
+   "fov_inicio": 57.0,
+   "fov_fim": 63.6,
+   "fov_min_max": [
+    52.8,
+    63.6
+   ],
+   "deslocamento_total_m": 5.64,
+   "quadros_com_sujeitos_no_enquadramento_%": 50.0,
+   "x_medio_do_sujeito_principal": 0.17,
+   "sujeito_dentro_do_terço_central (0,2–0,8)": false
+  },
+  {
+   "edicao": "S2a",
+   "cena": "S2",
+   "inicio": 3.585,
+   "fim": 6.425,
+   "dur_s": 2.84,
+   "camera": "tilt-up na bandeira → placa SAN JUAN 1859 → push-in na horta",
+   "velocidade_media_m_s": 3.58,
+   "velocidade_p95_m_s": 9.56,
+   "fov_inicio": 61.8,
+   "fov_fim": 57.0,
+   "fov_min_max": [
+    57.0,
+    61.8
+   ],
+   "deslocamento_total_m": 7.07,
+   "quadros_com_sujeitos_no_enquadramento_%": 38.8,
+   "x_medio_do_sujeito_principal": -0.36,
+   "sujeito_dentro_do_terço_central (0,2–0,8)": false
+  },
+  {
+   "edicao": "I_eyes",
+   "cena": "I_eyes",
+   "inicio": 6.425,
+   "fim": 7.475,
+   "dur_s": 1.05,
+   "camera": "close frontal, empurra 1,75 → 1,2 m, tremor no tiro",
+   "velocidade_media_m_s": 0.81,
+   "velocidade_p95_m_s": 1.43,
+   "fov_inicio": 38.9,
+   "fov_fim": 33.9,
+   "fov_min_max": [
+    31.5,
+    38.9
+   ],
+   "deslocamento_total_m": 0.53,
+   "quadros_com_sujeitos_no_enquadramento_%": 9.4,
+   "x_medio_do_sujeito_principal": 0.84,
+   "sujeito_dentro_do_terço_central (0,2–0,8)": false
+  },
+  {
+   "edicao": "S3a",
+   "cena": "S3",
+   "inicio": 7.475,
+   "fim": 10.152,
+   "dur_s": 2.68,
+   "camera": "baixa, roll .13, push-in lento",
+   "velocidade_media_m_s": 0.38,
+   "velocidade_p95_m_s": 0.54,
+   "fov_inicio": 53.9,
+   "fov_fim": 50.8,
+   "fov_min_max": [
+    50.8,
+    54.0
+   ],
+   "deslocamento_total_m": 0.98,
+   "quadros_com_sujeitos_no_enquadramento_%": 100.0,
+   "x_medio_do_sujeito_principal": 0.45,
+   "sujeito_dentro_do_terço_central (0,2–0,8)": true
+  },
+  {
+   "edicao": "I_notes",
+   "cena": "I_notes",
+   "inicio": 10.152,
+   "fim": 11.25,
+   "dur_s": 1.1,
+   "camera": "close baixo com dutch",
+   "velocidade_media_m_s": 3.39,
+   "velocidade_p95_m_s": 6.48,
+   "fov_inicio": 39.2,
+   "fov_fim": 35.1,
+   "fov_min_max": [
+    35.1,
+    39.2
+   ],
+   "deslocamento_total_m": 2.66,
+   "quadros_com_sujeitos_no_enquadramento_%": 0.0,
+   "x_medio_do_sujeito_principal": 0.56,
+   "sujeito_dentro_do_terço_central (0,2–0,8)": false
+  },
+  {
+   "edicao": "S4a",
+   "cena": "S4",
+   "inicio": 11.25,
+   "fim": 13.45,
+   "dur_s": 2.2,
+   "camera": "baixa, acompanha a marcha",
+   "velocidade_media_m_s": 2.45,
+   "velocidade_p95_m_s": 2.45,
+   "fov_inicio": 60.0,
+   "fov_fim": 60.0,
+   "fov_min_max": [
+    60.0,
+    60.0
+   ],
+   "deslocamento_total_m": 5.31,
+   "quadros_com_sujeitos_no_enquadramento_%": 100.0,
+   "x_medio_do_sujeito_principal": null,
+   "sujeito_dentro_do_terço_central (0,2–0,8)": false
+  },
+  {
+   "edicao": "I_faces",
+   "cena": "I_faces",
+   "inicio": 13.45,
+   "fim": 14.3,
+   "dur_s": 0.85,
+   "camera": "close lateral acompanhando",
+   "velocidade_media_m_s": 2.32,
+   "velocidade_p95_m_s": 2.37,
+   "fov_inicio": 44.9,
+   "fov_fim": 40.8,
+   "fov_min_max": [
+    40.8,
+    44.9
+   ],
+   "deslocamento_total_m": 1.93,
+   "quadros_com_sujeitos_no_enquadramento_%": 0.0,
+   "x_medio_do_sujeito_principal": null,
+   "sujeito_dentro_do_terço_central (0,2–0,8)": false
+  },
+  {
+   "edicao": "S4b",
+   "cena": "S4",
+   "inicio": 14.3,
+   "fim": 15.425,
+   "dur_s": 1.12,
+   "camera": "sobe e panorâmica sobre a tropa até a frota",
+   "velocidade_media_m_s": 3.96,
+   "velocidade_p95_m_s": 7.05,
+   "fov_inicio": 59.4,
+   "fov_fim": 58.0,
+   "fov_min_max": [
+    58.0,
+    59.4
+   ],
+   "deslocamento_total_m": 4.02,
+   "quadros_com_sujeitos_no_enquadramento_%": 100.0,
+   "x_medio_do_sujeito_principal": null,
+   "sujeito_dentro_do_terço_central (0,2–0,8)": false
+  },
+  {
+   "edicao": "S5a",
+   "cena": "S5",
+   "inicio": 15.425,
+   "fim": 16.457,
+   "dur_s": 1.03,
+   "camera": "baixa, roll -.1",
+   "velocidade_media_m_s": 0.43,
+   "velocidade_p95_m_s": 0.55,
+   "fov_inicio": 55.0,
+   "fov_fim": 53.2,
+   "fov_min_max": [
+    53.2,
+    55.0
+   ],
+   "deslocamento_total_m": 0.42,
+   "quadros_com_sujeitos_no_enquadramento_%": 100.0,
+   "x_medio_do_sujeito_principal": 0.52,
+   "sujeito_dentro_do_terço_central (0,2–0,8)": true
+  },
+  {
+   "edicao": "I_baynes",
+   "cena": "I_baynes",
+   "inicio": 16.457,
+   "fim": 17.38,
+   "dur_s": 0.92,
+   "camera": "close baixo, push-in",
+   "velocidade_media_m_s": 0.54,
+   "velocidade_p95_m_s": 0.78,
+   "fov_inicio": 41.3,
+   "fov_fim": 38.3,
+   "fov_min_max": [
+    38.3,
+    41.3
+   ],
+   "deslocamento_total_m": 0.48,
+   "quadros_com_sujeitos_no_enquadramento_%": 0.0,
+   "x_medio_do_sujeito_principal": -0.4,
+   "sujeito_dentro_do_terço_central (0,2–0,8)": false
+  },
+  {
+   "edicao": "S6",
+   "cena": "S6",
+   "inicio": 17.38,
+   "fim": 20.365,
+   "dur_s": 2.98,
+   "camera": "pull-back até o enquadramento do quadro 0 (loop)",
+   "velocidade_media_m_s": 0.29,
+   "velocidade_p95_m_s": 0.54,
+   "fov_inicio": 54.0,
+   "fov_fim": 57.0,
+   "fov_min_max": [
+    54.0,
+    57.0
+   ],
+   "deslocamento_total_m": 0.83,
+   "quadros_com_sujeitos_no_enquadramento_%": 100.0,
+   "x_medio_do_sujeito_principal": 0.5,
+   "sujeito_dentro_do_terço_central (0,2–0,8)": true
+  }
+ ],
+ "resumo": {
+  "n_planos": 11,
+  "cortes_por_10s": 4.91,
+  "duracao_media_s": 1.85,
+  "duracao_min_s": 0.85,
+  "duracao_max_s": 3.58,
+  "camera_parada_(vel_media<0,05)": [],
+  "enquadramento_min_%": 0.0
+ }
+}

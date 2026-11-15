@@ -1,0 +1,91 @@
+{
+ "title": "script/word-timings.json",
+ "type": "object",
+ "required": [
+  "voice",
+  "total",
+  "lines",
+  "words",
+  "license_voice"
+ ],
+ "properties": {
+  "voice": {
+   "type": "string",
+   "minLength": 1
+  },
+  "license_voice": {
+   "type": "string",
+   "minLength": 1
+  },
+  "total": {
+   "type": "number",
+   "exclusiveMinimum": 0
+  },
+  "lines": {
+   "type": "array",
+   "minItems": 1,
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "text",
+     "start",
+     "end",
+     "beat"
+    ],
+    "properties": {
+     "id": {
+      "type": "string",
+      "pattern": "^L[0-9]+$"
+     },
+     "text": {
+      "type": "string",
+      "minLength": 1
+     },
+     "start": {
+      "type": "number",
+      "minimum": 0
+     },
+     "end": {
+      "type": "number"
+     },
+     "beat": {
+      "type": "string",
+      "minLength": 1
+     }
+    }
+   }
+  },
+  "words": {
+   "type": "array",
+   "minItems": 1,
+   "items": {
+    "type": "object",
+    "required": [
+     "line",
+     "text",
+     "start",
+     "end"
+    ],
+    "properties": {
+     "line": {
+      "type": "string",
+      "pattern": "^L[0-9]+$"
+     },
+     "text": {
+      "type": "string",
+      "minLength": 1
+     },
+     "start": {
+      "type": "number",
+      "minimum": 0
+     },
+     "end": {
+      "type": "number"
+     }
+    }
+   }
+  }
+ },
+ "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

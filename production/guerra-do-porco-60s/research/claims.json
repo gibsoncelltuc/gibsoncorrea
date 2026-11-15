@@ -1,0 +1,539 @@
+{
+ "projeto": "A Guerra do Porco (60 s)",
+ "data_da_checagem": "2026-11-15",
+ "regra": "cada afirmação central do roteiro tem ≥ 2 fontes independentes lidas, com trecho LITERAL (conferido por tools/validate_schemas.py contra o texto salvo) e nível de confiança; numerais de fonte única são declarados",
+ "fontes": {
+  "NPS": {
+   "title": "The Pig War — San Juan Island National Historical Park (U.S. National Park Service)",
+   "url": "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm",
+   "tipo": "oficial (governo dos EUA), secundária de alta confiança",
+   "acesso": "2026-11-15",
+   "lido": true,
+   "arquivo": "nps_pig_war.txt"
+  },
+  "NPS2": {
+   "title": "Encampment 2013 Set for English Camp — San Juan Island NHP (U.S. National Park Service, nota oficial)",
+   "url": "https://www.nps.gov/sajh/learn/news/encampment-2013-set-for-english-camp.htm",
+   "tipo": "oficial (governo dos EUA), nota do parque",
+   "acesso": "2026-11-15",
+   "lido": true,
+   "arquivo": "nps_encampment_2013.txt"
+  },
+  "HISTORYLINK": {
+   "title": "San Juan Island Pig War — Part 1 (HistoryLink.org, enciclopédia do Estado de Washington)",
+   "url": "https://www.historylink.org/File/5724",
+   "tipo": "enciclopédia estadual revisada, secundária de alta confiança",
+   "acesso": "2026-11-15",
+   "lido": true,
+   "arquivo": "historylink_5724*.txt"
+  },
+  "HISTORYLINK2": {
+   "title": "San Juan Island Pig War — Part 2 (HistoryLink.org)",
+   "url": "https://www.historylink.org/File/5725",
+   "tipo": "enciclopédia estadual revisada, secundária de alta confiança",
+   "acesso": "2026-11-15",
+   "lido": true,
+   "arquivo": "historylink_5725*.txt"
+  },
+  "WIKIPEDIA": {
+   "title": "Pig War (1859) — Wikipedia (cita Tagg, Kowrach e outros)",
+   "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)",
+   "tipo": "enciclopédia colaborativa; usada para números e para triangular",
+   "acesso": "2026-11-15",
+   "lido": true,
+   "arquivo": "wikipedia_pig_war.txt"
+  }
+ },
+ "afirmacoes": [
+  {
+   "id": "C01",
+   "fala": "Um homem matou um porco",
+   "afirmacao": "Em 15/06/1859 o americano Lyman Cutlar matou a tiro um porco.",
+   "fontes": [
+    {
+     "fonte": "NPS",
+     "trecho": "The crisis came on June 15, 1859, when Lyman Cutlar, an American, shot and killed a company pig rooting in his garden.",
+     "url": "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
+    },
+    {
+     "fonte": "HISTORYLINK",
+     "trecho": "after an American settler shot a British pig on the island that both nations claimed",
+     "url": "https://www.historylink.org/File/5724"
+    },
+    {
+     "fonte": "WIKIPEDIA",
+     "trecho": "Cutlar, tired of the intrusion, shot and killed the pig",
+     "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
+    }
+   ],
+   "confianca": "alta",
+   "nota": ""
+  },
+  {
+   "id": "C02",
+   "fala": "…e dois países quase entraram em guerra",
+   "afirmacao": "EUA e Reino Unido quase entraram em guerra pela posse das ilhas San Juan.",
+   "fontes": [
+    {
+     "fonte": "HISTORYLINK",
+     "trecho": "turned Lyman Cutlar's shooting of Charles Griffin’s pig from a minor incident into an international controversy and nearly a shooting war",
+     "url": "https://www.historylink.org/File/5724"
+    },
+    {
+     "fonte": "HISTORYLINK2",
+     "trecho": "they had almost gone to war on San Juan Island",
+     "url": "https://www.historylink.org/File/5725"
+    },
+    {
+     "fonte": "NPS",
+     "trecho": "a potentially explosive international incident",
+     "url": "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
+    }
+   ],
+   "confianca": "alta",
+   "nota": "\"Quase guerra\": confronto militar armado sem combate."
+  },
+  {
+   "id": "C03",
+   "fala": "Uma ilha tinha dois donos: americanos e britânicos.",
+   "afirmacao": "A ilha de San Juan era reivindicada ao mesmo tempo pelos EUA e pelo Reino Unido.",
+   "fontes": [
+    {
+     "fonte": "HISTORYLINK",
+     "trecho": "on the island that both nations claimed",
+     "url": "https://www.historylink.org/File/5724"
+    },
+    {
+     "fonte": "WIKIPEDIA",
+     "trecho": "Britain's Hudson's Bay Company established operations on San Juan and turned the island into a sheep ranch. Meanwhile, by mid-1859, twenty-five to twenty-nine American settlers had arrived.",
+     "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
+    }
+   ],
+   "confianca": "alta",
+   "nota": "\"Dois donos\" = duas reivindicações; nenhum dos dois tinha a posse reconhecida."
+  },
+  {
+   "id": "C04",
+   "fala": "O tratado era confuso, e cada lado jurava que a ilha era sua.",
+   "afirmacao": "O Tratado do Oregon (1846) fixou a fronteira \"no meio do canal\", mas há dois canais; cada lado entendia que as ilhas eram suas.",
+   "fontes": [
+    {
+     "fonte": "NPS",
+     "trecho": "Difficulty arose over language.",
+     "url": "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
+    },
+    {
+     "fonte": "HISTORYLINK",
+     "trecho": "the ambiguous language allowed each side to assume that the San Juans were rightfully theirs",
+     "url": "https://www.historylink.org/File/5724"
+    },
+    {
+     "fonte": "WIKIPEDIA",
+     "trecho": "to the middle of the channel which separates the continent from off-shore Vancouver Island",
+     "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
+    }
+   ],
+   "confianca": "alta",
+   "nota": ""
+  },
+  {
+   "id": "C05",
+   "fala": "o porco de um britânico invadiu a horta de um americano",
+   "afirmacao": "O porco era de Charles Griffin, da Companhia da Baía de Hudson (britânica), e fuçava a horta de batatas de Cutlar.",
+   "fontes": [
+    {
+     "fonte": "NPS",
+     "trecho": "shot and killed a company pig rooting in his garden",
+     "url": "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
+    },
+    {
+     "fonte": "HISTORYLINK",
+     "trecho": "One of Griffin’s Berkshire boars took to rooting in Cutlar’s unprotected potato patch",
+     "url": "https://www.historylink.org/File/5724"
+    },
+    {
+     "fonte": "WIKIPEDIA",
+     "trecho": "found a pig rooting in his garden",
+     "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
+    }
+   ],
+   "confianca": "alta",
+   "nota": "\"Britânico\" = súdito/empregado britânico (Griffin era irlandês). Licença artística: a horta aparece com repolhos (as fontes citam batatas)."
+  },
+  {
+   "id": "C06",
+   "fala": "De novo.",
+   "afirmacao": "Não era a primeira vez que o porco invadia a horta.",
+   "fontes": [
+    {
+     "fonte": "HISTORYLINK",
+     "trecho": "When the boar returned again on June 15, 1859",
+     "url": "https://www.historylink.org/File/5724"
+    },
+    {
+     "fonte": "WIKIPEDIA",
+     "trecho": "This was not the first occurrence",
+     "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
+    }
+   ],
+   "confianca": "alta",
+   "nota": ""
+  },
+  {
+   "id": "C07",
+   "fala": "Ele atirou.",
+   "afirmacao": "Cutlar atirou no porco.",
+   "fontes": [
+    {
+     "fonte": "NPS",
+     "trecho": "shot and killed a company pig",
+     "url": "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
+    },
+    {
+     "fonte": "HISTORYLINK",
+     "trecho": "shot the pig",
+     "url": "https://www.historylink.org/File/5724"
+    },
+    {
+     "fonte": "WIKIPEDIA",
+     "trecho": "shot and killed the pig",
+     "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
+    }
+   ],
+   "confianca": "alta",
+   "nota": ""
+  },
+  {
+   "id": "C08",
+   "fala": "O dono exigiu cem dólares.",
+   "afirmacao": "Griffin exigiu US$ 100 pelo porco.",
+   "fontes": [
+    {
+     "fonte": "HISTORYLINK",
+     "trecho": "Griffin insisted the boar was worth $100",
+     "url": "https://www.historylink.org/File/5724"
+    },
+    {
+     "fonte": "WIKIPEDIA",
+     "trecho": "Griffin was unsatisfied with this offer and demanded $100",
+     "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
+    }
+   ],
+   "confianca": "média-alta",
+   "nota": "Diálogos são relatos tardios e em parte apócrifos; o valor US$ 100 é consistente entre as fontes. O vídeo não põe fala na boca de ninguém."
+  },
+  {
+   "id": "C09",
+   "fala": "O americano ofereceu dez.",
+   "afirmacao": "Cutlar ofereceu/contrapôs US$ 10.",
+   "fontes": [
+    {
+     "fonte": "WIKIPEDIA",
+     "trecho": "Cutlar offered $10 … to Griffin to compensate for the pig",
+     "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
+    },
+    {
+     "fonte": "HISTORYLINK",
+     "trecho": "Cutlar angrily countered that it was not worth $10",
+     "url": "https://www.historylink.org/File/5724"
+    }
+   ],
+   "confianca": "média",
+   "nota": "As fontes divergem na forma (\"ofereceu US$ 10\" × \"retrucou que não valia US$ 10\"); a fala adota \"ofereceu\". O valor é consistente."
+  },
+  {
+   "id": "C10",
+   "fala": "Os britânicos ameaçaram prendê-lo.",
+   "afirmacao": "Autoridades britânicas ameaçaram prender Cutlar.",
+   "fontes": [
+    {
+     "fonte": "NPS",
+     "trecho": "When British authorities threatened to arrest Cutlar",
+     "url": "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
+    },
+    {
+     "fonte": "WIKIPEDIA",
+     "trecho": "When British authorities threatened to arrest Cutlar",
+     "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
+    },
+    {
+     "fonte": "HISTORYLINK",
+     "trecho": "Cutlar claimed that the British officials threatened to arrest him",
+     "url": "https://www.historylink.org/File/5724"
+    }
+   ],
+   "confianca": "alta",
+   "nota": "A HistoryLink ressalva que o relato da ameaça vem do próprio Cutlar e que nenhuma tentativa de prisão ocorreu."
+  },
+  {
+   "id": "C11",
+   "fala": "Então chegou o exército americano: sessenta e poucos soldados.",
+   "afirmacao": "O general Harney enviou o capitão George Pickett com uma companhia de 64 (NPS) ou 66 (Wikipedia) soldados; desembarcaram em 27/07/1859.",
+   "fontes": [
+    {
+     "fonte": "NPS",
+     "trecho": "Pickett's 64-man unit landed on July 27",
+     "url": "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
+    },
+    {
+     "fonte": "WIKIPEDIA",
+     "trecho": "dispatched then Captain George Pickett and 66 soldiers of the 9th Infantry Regiment",
+     "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
+    }
+   ],
+   "confianca": "alta",
+   "nota": "As fontes divergem (64 × 66): a fala usa \"sessenta e poucos\"."
+  },
+  {
+   "id": "C12",
+   "fala": "Os britânicos responderam com três navios de guerra.",
+   "afirmacao": "O governador Douglas enviou o HMS Tribune, logo acompanhado por mais dois navios de guerra (Satellite e Plumper).",
+   "fontes": [
+    {
+     "fonte": "NPS",
+     "trecho": "Hornby was soon joined by two more warships, HMS Satellite and HMS Plumper",
+     "url": "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
+    },
+    {
+     "fonte": "HISTORYLINK2",
+     "trecho": "aware of his vulnerability to the three British warships in San Juan Harbor",
+     "url": "https://www.historylink.org/File/5725"
+    }
+   ],
+   "confianca": "alta",
+   "nota": ""
+  },
+  {
+   "id": "C13",
+   "fala": "Em poucas semanas, eram quatrocentos e sessenta e um soldados",
+   "afirmacao": "Em agosto de 1859 havia 461 soldados americanos com 14 canhões de campanha.",
+   "fontes": [
+    {
+     "fonte": "NPS",
+     "trecho": "By August 31, 461 Americans were encamped in the woods just north of Belle Vue Sheep Farm, protected by 14 field cannons.",
+     "url": "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
+    },
+    {
+     "fonte": "WIKIPEDIA",
+     "trecho": "the enlarged detachment of 461 Americans with 14 cannons",
+     "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
+    }
+   ],
+   "confianca": "alta",
+   "nota": "A data varia (10/08 na Wikipedia; 31/08 no NPS): \"em poucas semanas\" vale para as duas."
+  },
+  {
+   "id": "C14",
+   "fala": "contra cinco navios, com mais de dois mil homens.",
+   "afirmacao": "Flotilha de cinco navios de guerra britânicos com 70 canhões e 2.140 homens.",
+   "fontes": [
+    {
+     "fonte": "WIKIPEDIA",
+     "trecho": "a flotilla of five British Royal Navy warships mounting 70 guns and carrying 2,140 men",
+     "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
+    },
+    {
+     "fonte": "NPS",
+     "trecho": "Hornby was soon joined by two more warships, HMS Satellite and HMS Plumper",
+     "url": "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
+    },
+    {
+     "fonte": "HISTORYLINK2",
+     "trecho": "aware of his vulnerability to the three British warships in San Juan Harbor",
+     "url": "https://www.historylink.org/File/5725"
+    }
+   ],
+   "confianca": "média",
+   "nota": "A contagem \"cinco navios / 2.140 homens\" vem SÓ da Wikipedia (que cita Tagg/Kowrach). NPS e HistoryLink confirmam a escalada naval (3 navios no início e depois o HMS Ganges, de 84 canhões), não a contagem final. Numeral de fonte única, declarado."
+  },
+  {
+   "id": "C15",
+   "fala": "O governador mandou expulsar os americanos.",
+   "afirmacao": "James Douglas, governador da ilha de Vancouver, ordenou ao capitão Hornby desalojar os americanos (evitando confronto armado se possível).",
+   "fontes": [
+    {
+     "fonte": "NPS",
+     "trecho": "to dislodge Pickett, but to avoid an armed clash if possible",
+     "url": "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
+    },
+    {
+     "fonte": "WIKIPEDIA",
+     "trecho": "had ordered Captain Hornby to dislodge the American troops, avoiding armed conflict if possible",
+     "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
+    }
+   ],
+   "confianca": "alta",
+   "nota": "A ordem incluía evitar o confronto \"se possível\"; a fala resume em \"expulsar\"."
+  },
+  {
+   "id": "C16",
+   "fala": "Mas o almirante britânico recusou: não ia começar uma guerra por causa de um porco.",
+   "afirmacao": "O contra-almirante Baynes recusou envolver as duas nações numa guerra \"por causa de uma briga por um porco\".",
+   "fontes": [
+    {
+     "fonte": "NPS",
+     "trecho": "he would not \"involve two great nations in a war over a squabble about a pig.\"",
+     "url": "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
+    },
+    {
+     "fonte": "WIKIPEDIA",
+     "trecho": "he would not escalate the conflict into a war between two great nations",
+     "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
+    },
+    {
+     "fonte": "HISTORYLINK",
+     "trecho": "their commander, Admiral Baynes, was a firm believer in this policy",
+     "url": "https://www.historylink.org/File/5724"
+    }
+   ],
+   "confianca": "alta",
+   "nota": "Frase relatada pelas fontes; no vídeo ela é PARAFRASEADA pelo narrador, não dita por personagem."
+  },
+  {
+   "id": "C17",
+   "fala": "Não houve batalha.",
+   "afirmacao": "O conflito foi resolvido sem combate (\"guerra sem sangue\").",
+   "fontes": [
+    {
+     "fonte": "HISTORYLINK",
+     "trecho": "it was ultimately resolved by negotiation and compromise instead of by guns and force",
+     "url": "https://www.historylink.org/File/5724"
+    },
+    {
+     "fonte": "NPS",
+     "trecho": "settled ownership of our island through peaceful arbitration",
+     "url": "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
+    },
+    {
+     "fonte": "WIKIPEDIA",
+     "trecho": "there were no human casualties on either side, only a pig",
+     "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
+    }
+   ],
+   "confianca": "alta",
+   "nota": ""
+  },
+  {
+   "id": "C18",
+   "fala": "Os dois países dividiram a ilha: um acampamento de cada lado.",
+   "afirmacao": "Ocupação militar conjunta: acampamento britânico no norte e americano no sul da ilha.",
+   "fontes": [
+    {
+     "fonte": "NPS",
+     "trecho": "Scott proposed a joint military occupation until a final settlement could be reached, which both nations approved in November.",
+     "url": "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
+    },
+    {
+     "fonte": "WIKIPEDIA",
+     "trecho": "The British camp was established on the north end of San Juan Island",
+     "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
+    },
+    {
+     "fonte": "HISTORYLINK2",
+     "trecho": "Scott proposed that each country station one infantry company -- about 100 men -- on the island",
+     "url": "https://www.historylink.org/File/5725"
+    }
+   ],
+   "confianca": "alta",
+   "nota": "\"Dividiram\" = ocupação conjunta com um acampamento de cada país; a soberania só foi decidida em 1872."
+  },
+  {
+   "id": "C19",
+   "fala": "Por doze anos",
+   "afirmacao": "A ocupação conjunta durou 12 anos (1859/60–1872).",
+   "fontes": [
+    {
+     "fonte": "NPS",
+     "trecho": "San Juan Island remained under joint military occupation for the next 12 years.",
+     "url": "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
+    },
+    {
+     "fonte": "WIKIPEDIA",
+     "trecho": "This state of affairs continued for the next 12 years.",
+     "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
+    }
+   ],
+   "confianca": "alta",
+   "nota": ""
+  },
+  {
+   "id": "C20",
+   "fala": "os dois lados se visitaram e fizeram festas juntos.",
+   "afirmacao": "As guarnições trocavam visitas para celebrar feriados, com competições, bebidas e baile.",
+   "fontes": [
+    {
+     "fonte": "NPS2",
+     "trecho": "Throughout the joint occupation the garrisons exchanged visits to celebrate holidays that included Christmas, the Fourth of July and Queen Victoria's birthday.",
+     "url": "https://www.nps.gov/sajh/learn/news/encampment-2013-set-for-english-camp.htm"
+    },
+    {
+     "fonte": "WIKIPEDIA",
+     "trecho": "visiting one another's camps to celebrate their respective national holidays and holding various athletic competitions",
+     "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
+    },
+    {
+     "fonte": "HISTORYLINK2",
+     "trecho": "Officers and men from both sides visited on friendly terms.",
+     "url": "https://www.historylink.org/File/5725"
+    }
+   ],
+   "confianca": "alta",
+   "nota": "A cena da fogueira com canecas é dramatização do que as fontes descrevem (\"imbibe in spirits and other refreshments and usually host a dance\")."
+  },
+  {
+   "id": "C21",
+   "fala": "No fim, quem decidiu foi o imperador da Alemanha: a ilha era americana.",
+   "afirmacao": "A questão foi submetida ao kaiser Guilherme I; em 21/10/1872 a comissão por ele nomeada decidiu a favor dos EUA.",
+   "fontes": [
+    {
+     "fonte": "NPS",
+     "trecho": "On October 21, 1872, the commission, through the kaiser, ruled in favor of the United States",
+     "url": "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
+    },
+    {
+     "fonte": "HISTORYLINK2",
+     "trecho": "Kaiser Wilhelm I of Germany was designated the arbitrator by the Treaty",
+     "url": "https://www.historylink.org/File/5725"
+    },
+    {
+     "fonte": "WIKIPEDIA",
+     "trecho": "with German Emperor Wilhelm I chosen to act as arbitrator",
+     "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
+    }
+   ],
+   "confianca": "alta",
+   "nota": "Simplificação: o kaiser delegou a análise a uma comissão de três árbitros, que decidiu \"por meio do kaiser\" (NPS). O carimbo no mapa é dramatização."
+  },
+  {
+   "id": "C22",
+   "fala": "Total de mortos na guerra: um porco.",
+   "afirmacao": "Não houve baixas humanas; a única baixa foi o porco.",
+   "fontes": [
+    {
+     "fonte": "NPS",
+     "trecho": "the \"war\" in which the only casualty was a pig",
+     "url": "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
+    },
+    {
+     "fonte": "HISTORYLINK",
+     "trecho": "there were no casualties except the pig",
+     "url": "https://www.historylink.org/File/5724"
+    },
+    {
+     "fonte": "WIKIPEDIA",
+     "trecho": "there were no human casualties on either side, only a pig",
+     "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
+    }
+   ],
+   "confianca": "alta",
+   "nota": ""
+  }
+ ],
+ "limitacoes": [
+  "fontes primárias (cartas de Harney/Baynes/Douglas, relatórios) não consultadas diretamente; as fontes lidas são secundárias de alta confiança que as citam",
+  "The Canadian Encyclopedia, Britannica, Legion Magazine e Historic UK não puderam ser lidos (403/rede do sandbox)",
+  "o numeral \"cinco navios / mais de dois mil homens\" tem fonte única (Wikipedia); as demais fontes lidas corroboram a escalada naval, não a contagem",
+  "diálogos entre Cutlar e Griffin são tradição parcialmente apócrifa — o vídeo só usa os valores, em narração",
+  "personagens, rostos, uniformes, navios e o gabinete do kaiser são genéricos e dramatizados"
+ ]
+}

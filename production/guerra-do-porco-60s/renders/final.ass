@@ -1,0 +1,101 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Cap,Montserrat ExtraBold,123,&H00FFFFFF,&H001A0E12,&H90000000,1,0,0,0,100,100,0,0,1,7,3,2,40,40,485,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.30,0:00:00.82,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}Um homem
+Dialogue: 0,0:00:00.82,0:00:01.58,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}matou um porco,
+Dialogue: 0,0:00:01.58,0:00:02.35,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}e dois países
+Dialogue: 0,0:00:02.35,0:00:03.19,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}quase entraram
+Dialogue: 0,0:00:03.19,0:00:03.95,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}em guerra.
+Dialogue: 0,0:00:03.95,0:00:04.46,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}Uma ilha
+Dialogue: 0,0:00:04.46,0:00:05.42,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}tinha dois donos:
+Dialogue: 0,0:00:05.42,0:00:06.18,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}americanos
+Dialogue: 0,0:00:06.18,0:00:07.21,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}e britânicos.
+Dialogue: 0,0:00:07.21,0:00:07.79,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}O tratado
+Dialogue: 0,0:00:07.79,0:00:08.65,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}era confuso,
+Dialogue: 0,0:00:08.65,0:00:09.02,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}e cada
+Dialogue: 0,0:00:09.02,0:00:09.33,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}lado
+Dialogue: 0,0:00:09.33,0:00:10.34,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}jurava que a ilha
+Dialogue: 0,0:00:10.34,0:00:11.20,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}era sua.
+Dialogue: 0,0:00:11.20,0:00:11.63,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}Um dia,
+Dialogue: 0,0:00:11.63,0:00:11.98,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}o porco
+Dialogue: 0,0:00:11.98,0:00:12.85,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}de um britânico
+Dialogue: 0,0:00:12.85,0:00:13.20,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}invadiu
+Dialogue: 0,0:00:13.20,0:00:13.58,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}a horta
+Dialogue: 0,0:00:13.58,0:00:14.85,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}de um americano.
+Dialogue: 0,0:00:14.85,0:00:15.88,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}De novo.
+Dialogue: 0,0:00:15.92,0:00:17.03,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}Ele atirou.
+Dialogue: 0,0:00:17.03,0:00:17.45,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}O dono
+Dialogue: 0,0:00:17.45,0:00:18.27,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}exigiu cem
+Dialogue: 0,0:00:18.27,0:00:18.93,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}dólares.
+Dialogue: 0,0:00:18.93,0:00:19.69,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}O americano
+Dialogue: 0,0:00:19.69,0:00:20.21,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}ofereceu
+Dialogue: 0,0:00:20.21,0:00:20.76,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}dez.
+Dialogue: 0,0:00:20.76,0:00:21.41,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}Os britânicos
+Dialogue: 0,0:00:21.41,0:00:22.04,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}ameaçaram
+Dialogue: 0,0:00:22.04,0:00:22.82,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}prendê-lo.
+Dialogue: 0,0:00:22.82,0:00:23.24,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}Então
+Dialogue: 0,0:00:23.24,0:00:24.20,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}chegou o exército
+Dialogue: 0,0:00:24.20,0:00:24.76,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}americano:
+Dialogue: 0,0:00:24.76,0:00:25.22,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}sessenta
+Dialogue: 0,0:00:25.22,0:00:25.71,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}e poucos
+Dialogue: 0,0:00:25.71,0:00:26.42,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}soldados.
+Dialogue: 0,0:00:26.42,0:00:27.11,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}Os britânicos
+Dialogue: 0,0:00:27.11,0:00:27.77,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}responderam
+Dialogue: 0,0:00:27.77,0:00:28.16,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}com três
+Dialogue: 0,0:00:28.16,0:00:29.23,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}navios de guerra.
+Dialogue: 0,0:00:29.23,0:00:29.81,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}Em poucas
+Dialogue: 0,0:00:29.81,0:00:30.27,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}semanas,
+Dialogue: 0,0:00:30.27,0:00:30.66,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}eram
+Dialogue: 0,0:00:30.66,0:00:31.40,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}quatrocentos
+Dialogue: 0,0:00:31.40,0:00:31.94,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}e sessenta
+Dialogue: 0,0:00:31.94,0:00:32.72,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}e um soldados
+Dialogue: 0,0:00:32.72,0:00:33.13,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}contra
+Dialogue: 0,0:00:33.13,0:00:33.47,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}cinco
+Dialogue: 0,0:00:33.47,0:00:33.91,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}navios,
+Dialogue: 0,0:00:33.91,0:00:34.44,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}com mais
+Dialogue: 0,0:00:34.44,0:00:34.79,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}de dois
+Dialogue: 0,0:00:34.79,0:00:35.77,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}mil homens.
+Dialogue: 0,0:00:35.77,0:00:36.41,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}O governador
+Dialogue: 0,0:00:36.41,0:00:36.88,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}mandou
+Dialogue: 0,0:00:36.88,0:00:37.28,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}expulsar
+Dialogue: 0,0:00:37.28,0:00:38.50,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}os americanos.
+Dialogue: 0,0:00:38.57,0:00:39.48,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}Mas o almirante
+Dialogue: 0,0:00:39.48,0:00:40.03,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}britânico
+Dialogue: 0,0:00:40.03,0:00:40.45,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}recusou:
+Dialogue: 0,0:00:40.45,0:00:40.93,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}não ia
+Dialogue: 0,0:00:40.93,0:00:41.28,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}começar
+Dialogue: 0,0:00:41.28,0:00:41.69,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}uma guerra
+Dialogue: 0,0:00:41.69,0:00:42.19,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}por causa
+Dialogue: 0,0:00:42.19,0:00:43.30,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}de um porco.
+Dialogue: 0,0:00:43.34,0:00:43.95,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}Não houve
+Dialogue: 0,0:00:43.95,0:00:44.59,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}batalha.
+Dialogue: 0,0:00:44.59,0:00:45.36,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}Os dois países
+Dialogue: 0,0:00:45.36,0:00:46.10,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}dividiram
+Dialogue: 0,0:00:46.10,0:00:46.45,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}a ilha:
+Dialogue: 0,0:00:46.45,0:00:47.42,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}um acampamento
+Dialogue: 0,0:00:47.42,0:00:47.87,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}de cada
+Dialogue: 0,0:00:47.87,0:00:48.38,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}lado.
+Dialogue: 0,0:00:48.38,0:00:49.10,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}Por doze anos,
+Dialogue: 0,0:00:49.10,0:00:50.04,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}os dois lados se
+Dialogue: 0,0:00:50.04,0:00:50.54,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}visitaram
+Dialogue: 0,0:00:50.54,0:00:51.27,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}e fizeram
+Dialogue: 0,0:00:51.27,0:00:51.58,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}festas
+Dialogue: 0,0:00:51.58,0:00:52.29,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}juntos.
+Dialogue: 0,0:00:52.29,0:00:52.64,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}No fim,
+Dialogue: 0,0:00:52.64,0:00:52.97,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}quem
+Dialogue: 0,0:00:52.97,0:00:53.45,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}decidiu
+Dialogue: 0,0:00:53.45,0:00:54.27,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}foi o imperador
+Dialogue: 0,0:00:54.27,0:00:54.89,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}da Alemanha:
+Dialogue: 0,0:00:54.89,0:00:55.20,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}a ilha
+Dialogue: 0,0:00:55.20,0:00:56.42,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}era americana.
+Dialogue: 0,0:00:56.65,0:00:57.07,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}Total de
+Dialogue: 0,0:00:57.07,0:00:57.92,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}mortos na guerra:
+Dialogue: 0,0:00:57.92,0:00:58.86,Cap,,0,0,0,,{\fscx108\fscy108\t(0,90,\fscx100\fscy100)}um porco.

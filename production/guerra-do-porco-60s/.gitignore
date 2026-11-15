@@ -1,0 +1,8 @@
+blender/out/
+blender/tex/*.png
+__pycache__/
+montage/public/
+montage/data.json
+renders/_montage_raw.mp4
+renders/_captions/
+research/sources/

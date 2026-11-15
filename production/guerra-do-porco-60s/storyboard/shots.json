@@ -1,0 +1,518 @@
+{
+ "edl": "storyboard/edl.json (âncoras em palavras)",
+ "dissolve": 0.4,
+ "shot_count": 34,
+ "mean_shot_s": 1.75,
+ "shots": [
+  {
+   "id": "E01_hook",
+   "scene": "Hook",
+   "start": 0.0,
+   "end": 3.755,
+   "dur": 3.755,
+   "lines": [
+    "L1"
+   ],
+   "beat": "GANCHO",
+   "purpose": "um homem mata um porco e dois países quase entram em guerra",
+   "camera": "baixa, fov 57 → sobe e revela a frota",
+   "action": "porco come; Cutlar mira e atira em 'matou'; porco capota; navios surgem no horizonte",
+   "audio": "mastigação, TIRO, guincho, subida, buzina de navio"
+  },
+  {
+   "id": "E02_isle",
+   "scene": "Isle",
+   "start": 3.755,
+   "end": 5.397,
+   "dur": 1.642,
+   "lines": [
+    "L2"
+   ],
+   "beat": "SETUP",
+   "purpose": "uma ilha, dois donos",
+   "camera": "grua descendo sobre a cerca que divide a ilha",
+   "action": "de um lado a cabana do americano, do outro a fazenda de ovelhas britânica",
+   "audio": "vento, ovelhas"
+  },
+  {
+   "id": "E03_flags",
+   "scene": "I_Flags",
+   "start": 5.397,
+   "end": 7.052,
+   "dur": 1.655,
+   "lines": [
+    "L2"
+   ],
+   "beat": "SETUP (insert)",
+   "purpose": "americanos e britânicos",
+   "camera": "contra-plongée nas duas bandeiras, leve giro",
+   "action": "bandeiras dos EUA e do Reino Unido tremulam lado a lado",
+   "audio": "pano ao vento"
+  },
+  {
+   "id": "E04_treaty",
+   "scene": "Treaty",
+   "start": 7.052,
+   "end": 8.647,
+   "dur": 1.595,
+   "lines": [
+    "L2"
+   ],
+   "beat": "SETUP",
+   "purpose": "o tratado era confuso",
+   "camera": "close de cima no mapa, push-in com inclinação",
+   "action": "mapa do tratado de 1846 sobre um barril: a linha da fronteira se divide em duas com um '?' na ilha",
+   "audio": "papel, lápis"
+  },
+  {
+   "id": "E05_claim",
+   "scene": "Claim",
+   "start": 8.647,
+   "end": 11.05,
+   "dur": 2.403,
+   "lines": [
+    "L2"
+   ],
+   "beat": "SETUP",
+   "purpose": "cada lado jurava que a ilha era sua",
+   "camera": "plano de dois baixo, dutch, push-in",
+   "action": "americano e britânico, cada um aponta para o chão e bate o pé, nariz com nariz",
+   "audio": "resmungos (sem fala)"
+  },
+  {
+   "id": "E06_pigin",
+   "scene": "PigIn",
+   "start": 11.05,
+   "end": 12.897,
+   "dur": 1.847,
+   "lines": [
+    "L3"
+   ],
+   "beat": "INCIDENTE",
+   "purpose": "o porco de um britânico invade",
+   "camera": "dolly lateral pela cerca acompanhando o porco",
+   "action": "porco trota pela brecha da cerca",
+   "audio": "cascos, grunhido"
+  },
+  {
+   "id": "E07_garden",
+   "scene": "I_Garden",
+   "start": 12.897,
+   "end": 14.795,
+   "dur": 1.898,
+   "lines": [
+    "L3"
+   ],
+   "beat": "INCIDENTE",
+   "purpose": "…a horta de um americano",
+   "camera": "baixa, push-in na horta",
+   "action": "porco devora a horta; Cutlar percebe ao fundo",
+   "audio": "mastigação"
+  },
+  {
+   "id": "E08_again",
+   "scene": "I_Again",
+   "start": 14.795,
+   "end": 15.815,
+   "dur": 1.02,
+   "lines": [
+    "L3"
+   ],
+   "beat": "PIADA (insert)",
+   "purpose": "de novo",
+   "camera": "close frontal fixo com leve deriva",
+   "action": "Cutlar, olhar pesado e cansado; atrás dele o porco mastiga olhando para a câmera",
+   "audio": "mastigação, grilo"
+  },
+  {
+   "id": "E09_eyes",
+   "scene": "I_Eyes",
+   "start": 15.815,
+   "end": 16.95,
+   "dur": 1.135,
+   "lines": [
+    "L3"
+   ],
+   "beat": "TENSÃO (insert)",
+   "purpose": "ele atirou",
+   "camera": "close frontal, empurra 1,75 → 1,2 m, tremor no tiro",
+   "action": "olhos se estreitam, suor, TIRO acende o rosto",
+   "audio": "clique, TIRO"
+  },
+  {
+   "id": "E10_notes",
+   "scene": "Notes",
+   "start": 16.95,
+   "end": 19.487,
+   "dur": 2.537,
+   "lines": [
+    "L4"
+   ],
+   "beat": "ZOMBADOR",
+   "purpose": "o dono exige cem dólares",
+   "camera": "baixa, roll .13, push-in lento",
+   "action": "Griffin exibe a nota de 100 e ri; Cutlar suado; porco morto entre eles",
+   "audio": "papel, risada"
+  },
+  {
+   "id": "E11_inotes",
+   "scene": "I_Notes",
+   "start": 19.487,
+   "end": 20.735,
+   "dur": 1.248,
+   "lines": [
+    "L4"
+   ],
+   "beat": "PIADA (insert)",
+   "purpose": "cem × dez",
+   "camera": "close baixo com dutch",
+   "action": "duas notas: $100 enorme × $10 pequena tremendo",
+   "audio": "ding"
+  },
+  {
+   "id": "E12_arrest",
+   "scene": "Arrest",
+   "start": 20.735,
+   "end": 22.68,
+   "dur": 1.945,
+   "lines": [
+    "L4"
+   ],
+   "beat": "ZOMBADOR",
+   "purpose": "os britânicos ameaçam prendê-lo",
+   "camera": "contra-plongée nos oficiais, push-in",
+   "action": "dois britânicos de cartola e um fuzileiro de casaca vermelha apontam; algemas balançam; Cutlar em choque",
+   "audio": "corrente, susto"
+  },
+  {
+   "id": "E13_landing",
+   "scene": "Landing",
+   "start": 22.68,
+   "end": 24.737,
+   "dur": 2.057,
+   "lines": [
+    "L5"
+   ],
+   "beat": "ESCALADA 1",
+   "purpose": "chega o exército americano",
+   "camera": "baixa de frente, a tropa vem em direção à câmera",
+   "action": "capitão à frente, porta-bandeira, 64 soldados marchando da praia",
+   "audio": "marcha, tambor"
+  },
+  {
+   "id": "E14_faces",
+   "scene": "I_Faces",
+   "start": 24.737,
+   "end": 26.285,
+   "dur": 1.548,
+   "lines": [
+    "L5"
+   ],
+   "beat": "ESCALA (insert)",
+   "purpose": "sessenta e poucos soldados",
+   "camera": "close lateral acompanhando a marcha",
+   "action": "três rostos, todos diferentes",
+   "audio": "marcha"
+  },
+  {
+   "id": "E15_ships3",
+   "scene": "Ships3",
+   "start": 26.285,
+   "end": 27.877,
+   "dur": 1.592,
+   "lines": [
+    "L6"
+   ],
+   "beat": "ESCALADA 2",
+   "purpose": "os britânicos respondem",
+   "camera": "rente à água, sobe revelando os cascos",
+   "action": "três fragatas avançam em linha, bandeiras britânicas",
+   "audio": "mar, madeira"
+  },
+  {
+   "id": "E16_ports",
+   "scene": "I_Ports",
+   "start": 27.877,
+   "end": 29.135,
+   "dur": 1.258,
+   "lines": [
+    "L6"
+   ],
+   "beat": "ESCALADA 2 (insert)",
+   "purpose": "três navios de guerra",
+   "camera": "travelling ao longo do costado",
+   "action": "canhões nas portinholas apontados para a ilha",
+   "audio": "rangido, buzina"
+  },
+  {
+   "id": "E17_army",
+   "scene": "Army",
+   "start": 29.135,
+   "end": 30.677,
+   "dur": 1.542,
+   "lines": [
+    "L7"
+   ],
+   "beat": "ESCALADA 3",
+   "purpose": "em poucas semanas…",
+   "camera": "grua subindo atrás dos canhões",
+   "action": "canhões de campanha em primeiro plano; a tropa enorme chega ao fundo",
+   "audio": "marcha crescendo"
+  },
+  {
+   "id": "E18_rows",
+   "scene": "I_Rows",
+   "start": 30.677,
+   "end": 32.737,
+   "dur": 2.06,
+   "lines": [
+    "L7"
+   ],
+   "beat": "ESCALADA 3",
+   "purpose": "461 soldados",
+   "camera": "baixa, dolly lateral rápido pelas fileiras",
+   "action": "fileiras e fileiras de soldados distintos marchando",
+   "audio": "marcha, caixa"
+  },
+  {
+   "id": "E19_fleet5",
+   "scene": "Fleet5",
+   "start": 32.737,
+   "end": 33.955,
+   "dur": 1.218,
+   "lines": [
+    "L7"
+   ],
+   "beat": "ESCALADA 3",
+   "purpose": "contra cinco navios",
+   "camera": "panorâmica da tropa até a frota",
+   "action": "cinco navios em escalão na baía",
+   "audio": "buzina grave"
+  },
+  {
+   "id": "E20_marines",
+   "scene": "Marines",
+   "start": 33.955,
+   "end": 35.645,
+   "dur": 1.69,
+   "lines": [
+    "L7"
+   ],
+   "beat": "ESCALADA 3",
+   "purpose": "mais de dois mil homens",
+   "camera": "convés, dolly para trás revelando a massa",
+   "action": "convés lotado de fuzileiros de casaca vermelha",
+   "audio": "botas na madeira"
+  },
+  {
+   "id": "E21_governor",
+   "scene": "Governor",
+   "start": 35.645,
+   "end": 37.282,
+   "dur": 1.637,
+   "lines": [
+    "L8"
+   ],
+   "beat": "VIRADA (ordem)",
+   "purpose": "o governador manda expulsar os americanos",
+   "camera": "contra-plongée, push-in rápido",
+   "action": "governador de cartola aponta para a ilha e grita a ordem",
+   "audio": "soco na amurada"
+  },
+  {
+   "id": "E22_gulp",
+   "scene": "I_Gulp",
+   "start": 37.282,
+   "end": 38.455,
+   "dur": 1.173,
+   "lines": [
+    "L8"
+   ],
+   "beat": "REAÇÃO (insert)",
+   "purpose": "a ordem pesa",
+   "camera": "close no auxiliar",
+   "action": "auxiliar engole seco, suor",
+   "audio": "gole"
+  },
+  {
+   "id": "E23_deck",
+   "scene": "Deck",
+   "start": 38.455,
+   "end": 40.447,
+   "dur": 1.992,
+   "lines": [
+    "L8"
+   ],
+   "beat": "VIRADA (recusa)",
+   "purpose": "o almirante recusa",
+   "camera": "baixa, roll −.1",
+   "action": "auxiliar aponta a luneta; o almirante levanta a mão: 'pare'",
+   "audio": "mar, silêncio da música"
+  },
+  {
+   "id": "E24_baynes",
+   "scene": "I_Baynes",
+   "start": 40.447,
+   "end": 41.752,
+   "dur": 1.305,
+   "lines": [
+    "L8"
+   ],
+   "beat": "VIRADA (insert)",
+   "purpose": "não ia começar uma guerra",
+   "camera": "close baixo, push-in",
+   "action": "pálpebra pesada, mão de 'pare' no quadro",
+   "audio": "mar"
+  },
+  {
+   "id": "E25_pigdead",
+   "scene": "I_PigDead",
+   "start": 41.752,
+   "end": 43.155,
+   "dur": 1.403,
+   "lines": [
+    "L8"
+   ],
+   "beat": "PIADA (insert)",
+   "purpose": "…por causa de um porco",
+   "camera": "close baixo no porco, deriva",
+   "action": "o porco morto, olhos em X, uma mosca e uma flor",
+   "audio": "mosca, sino"
+  },
+  {
+   "id": "E26_standoff",
+   "scene": "Standoff",
+   "start": 43.155,
+   "end": 44.595,
+   "dur": 1.44,
+   "lines": [
+    "L9"
+   ],
+   "beat": "RESOLUÇÃO",
+   "purpose": "não houve batalha",
+   "camera": "perfil dos dois, push-in",
+   "action": "soldado azul e fuzileiro vermelho frente a frente baixam os fuzis",
+   "audio": "vento"
+  },
+  {
+   "id": "E27_camps",
+   "scene": "Camps",
+   "start": 44.595,
+   "end": 46.502,
+   "dur": 1.907,
+   "lines": [
+    "L9"
+   ],
+   "beat": "RESOLUÇÃO",
+   "purpose": "os dois países dividem a ilha",
+   "camera": "grua alta descendo sobre a cerca",
+   "action": "duas fileiras de barracas, uma de cada lado da cerca, cada uma com sua bandeira",
+   "audio": "martelos, fogueira"
+  },
+  {
+   "id": "E28_plant",
+   "scene": "I_Plant",
+   "start": 46.502,
+   "end": 48.3,
+   "dur": 1.798,
+   "lines": [
+    "L9"
+   ],
+   "beat": "RESOLUÇÃO (insert)",
+   "purpose": "um acampamento de cada lado",
+   "camera": "plano de dois na cerca",
+   "action": "um azul e um vermelho fincam cada um a sua bandeira e se cumprimentam com a cabeça",
+   "audio": "estaca na terra"
+  },
+  {
+   "id": "E29_visit",
+   "scene": "Visit",
+   "start": 48.3,
+   "end": 50.597,
+   "dur": 2.297,
+   "lines": [
+    "L10"
+   ],
+   "beat": "CURIOSIDADE",
+   "purpose": "por doze anos os dois lados se visitaram",
+   "camera": "dolly lateral acompanhando os visitantes",
+   "action": "fuzileiros vermelhos atravessam a porteira com um barril; azuis acenam",
+   "audio": "passos, porteira"
+  },
+  {
+   "id": "E30_party",
+   "scene": "Party",
+   "start": 50.597,
+   "end": 52.255,
+   "dur": 1.658,
+   "lines": [
+    "L10"
+   ],
+   "beat": "CURIOSIDADE",
+   "purpose": "e fizeram festas juntos",
+   "camera": "noite, círculo em volta da fogueira",
+   "action": "azuis e vermelhos riem em volta da fogueira, canecas no ar, lampiões",
+   "audio": "risos, fogo, gaita"
+  },
+  {
+   "id": "E31_kaiser",
+   "scene": "Kaiser",
+   "start": 52.255,
+   "end": 53.687,
+   "dur": 1.432,
+   "lines": [
+    "L11"
+   ],
+   "beat": "PAYOFF 1",
+   "purpose": "quem decidiu…",
+   "camera": "interior, de costas → gira para o perfil",
+   "action": "figura de capacete pontudo estuda o mapa na mesa",
+   "audio": "relógio, papel"
+  },
+  {
+   "id": "E32_ikaiser",
+   "scene": "I_Kaiser",
+   "start": 53.687,
+   "end": 54.932,
+   "dur": 1.245,
+   "lines": [
+    "L11"
+   ],
+   "beat": "PAYOFF 1 (insert)",
+   "purpose": "…o imperador da Alemanha",
+   "camera": "close frontal, push-in",
+   "action": "bigodão, capacete com ponta, olhar pesado",
+   "audio": "fanfarra curta"
+  },
+  {
+   "id": "E33_stamp",
+   "scene": "I_Stamp",
+   "start": 54.932,
+   "end": 56.39,
+   "dur": 1.458,
+   "lines": [
+    "L11"
+   ],
+   "beat": "PAYOFF 1 (insert)",
+   "purpose": "a ilha era americana",
+   "camera": "close de cima no mapa",
+   "action": "o carimbo desce sobre a ilha; bandeirinha dos EUA fincada",
+   "audio": "CARIMBO"
+  },
+  {
+   "id": "E34_grave",
+   "scene": "Grave",
+   "start": 56.39,
+   "end": 59.485,
+   "dur": 3.095,
+   "lines": [
+    "L12"
+   ],
+   "beat": "PAYOFF + LOOP",
+   "purpose": "total de mortos na guerra: um porco",
+   "camera": "pull-back até o enquadramento do quadro 0 (loop)",
+   "action": "túmulo do porco com cruz e flores; os dois tiram o chapéu",
+   "audio": "sino, acorde final"
+  }
+ ]
+}

@@ -1,0 +1,115 @@
+{
+ "title": "A Guerra do Porco",
+ "language": "pt-BR",
+ "fiction": false,
+ "note": "História real dramatizada (ilha de San Juan, 1859–1872); personagens e falas não retratam pessoas reais — só narração. Fatos em research/claims.json.",
+ "lines": [
+  {
+   "id": "L1",
+   "shot": "",
+   "beat": "gancho",
+   "text": "Um homem matou um porco, e dois países quase entraram em guerra.",
+   "pause_before": 0.1,
+   "intent": "curiosidade/descrença, rápido"
+  },
+  {
+   "id": "L2",
+   "shot": "",
+   "beat": "setup",
+   "text": "Uma ilha tinha dois donos: americanos e britânicos. O tratado era confuso, e cada lado jurava que a ilha era sua.",
+   "pause_before": 0.2,
+   "intent": "explicação clara, leve ironia em 'jurava'"
+  },
+  {
+   "id": "L3",
+   "shot": "",
+   "beat": "incidente",
+   "text": "Um dia, o porco de um britânico invadiu a horta de um americano. De novo. Ele atirou.",
+   "pause_before": 0.2,
+   "intent": "'De novo' seco; 'Ele atirou' sem pausa dramática",
+   "sentence_gaps": [
+    0.15,
+    0.2
+   ]
+  },
+  {
+   "id": "L4",
+   "shot": "",
+   "beat": "zombador",
+   "text": "O dono exigiu cem dólares. O americano ofereceu dez. Os britânicos ameaçaram prendê-lo.",
+   "pause_before": 0.18,
+   "intent": "ironia; 'cem' enfático",
+   "sentence_gaps": [
+    0.0,
+    0.1
+   ]
+  },
+  {
+   "id": "L5",
+   "shot": "",
+   "beat": "escalada-1",
+   "text": "Então chegou o exército americano: sessenta e poucos soldados.",
+   "pause_before": 0.18,
+   "intent": "tensão começa"
+  },
+  {
+   "id": "L6",
+   "shot": "",
+   "beat": "escalada-2",
+   "text": "Os britânicos responderam com três navios de guerra.",
+   "pause_before": 0.15,
+   "intent": "tensão sobe"
+  },
+  {
+   "id": "L7",
+   "shot": "",
+   "beat": "escalada-3",
+   "text": "Em poucas semanas, eram quatrocentos e sessenta e um soldados contra cinco navios, com mais de dois mil homens.",
+   "pause_before": 0.15,
+   "intent": "tensão no máximo, ritmo acelerado"
+  },
+  {
+   "id": "L8",
+   "shot": "",
+   "beat": "virada",
+   "text": "O governador mandou expulsar os americanos. Mas o almirante britânico recusou: não ia começar uma guerra por causa de um porco.",
+   "pause_before": 0.18,
+   "intent": "pausa antes de 'Mas'; alívio irônico",
+   "sentence_gaps": [
+    0.25
+   ]
+  },
+  {
+   "id": "L9",
+   "shot": "",
+   "beat": "resolucao",
+   "text": "Não houve batalha. Os dois países dividiram a ilha: um acampamento de cada lado.",
+   "pause_before": 0.3,
+   "intent": "calmo"
+  },
+  {
+   "id": "L10",
+   "shot": "",
+   "beat": "curiosidade",
+   "text": "Por doze anos, os dois lados se visitaram e fizeram festas juntos.",
+   "pause_before": 0.15,
+   "intent": "sorriso na voz"
+  },
+  {
+   "id": "L11",
+   "shot": "",
+   "beat": "payoff-1",
+   "text": "No fim, quem decidiu foi o imperador da Alemanha: a ilha era americana.",
+   "pause_before": 0.28,
+   "intent": "revelação"
+  },
+  {
+   "id": "L12",
+   "shot": "",
+   "beat": "payoff-loop",
+   "text": "Total de mortos na guerra: um porco.",
+   "pause_before": 0.5,
+   "intent": "seco, lento em 'um porco'"
+  }
+ ]
+}

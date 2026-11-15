@@ -1,0 +1,34 @@
+{
+ "title": "A Guerra do Porco",
+ "slug": "guerra-do-porco",
+ "language": "pt-BR",
+ "format": "short-pilot",
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "durationSeconds": 59.485,
+ "pilot_render": {
+  "width": 540,
+  "height": 960,
+  "note": "piloto em baixa resolução a pedido do usuário; mesmo código renderiza 1080x1920"
+ },
+ "visualEngine": "blender 5.3 Cycles CPU (bpy) para os quadros + remotion (montagem/legendas) + ffmpeg (grade/áudio)",
+ "visualGeneration": "procedural-code-only",
+ "style_reference": "references/visual-reference-ricks-clips.md",
+ "captions": {
+  "wordsPerCard": "1-2",
+  "keepPunctuation": true,
+  "font": "Montserrat 800",
+  "y": "70%"
+ },
+ "audio": {
+  "sampleRate": 44100,
+  "channels": 2,
+  "targetIntegratedLufs": -14,
+  "maxTruePeakDbtp": -1.5
+ },
+ "tts": "piper-tts (síntese local) + alinhamento de palavras por programação dinâmica (envelope de energia × pesos fonêmicos); faster-whisper só como verificação cruzada opcional",
+ "voice": "Piper pt_BR-cadu-medium (dataset CC0)",
+ "rate": 0.93,
+ "pipelineVersion": "ricks-3d-toon-story-orchestrator V2 + cloud-render v3.1 + visual-reference"
+}

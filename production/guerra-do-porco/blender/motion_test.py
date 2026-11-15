@@ -65,7 +65,7 @@ for eid in only:
 sc_of = anim.EDIT_CLASS
 for i in range(len(anim.EDL) - 1):
     a, b = anim.EDL[i][0], anim.EDL[i + 1][0]
-    if a not in only or b not in only or sc_of[a] != sc_of[b] and not (a.startswith('I_') or b.startswith('I_')): continue
+    if a not in only or b not in only or shots.SHOT_CLASSES[a].id != shots.SHOT_CLASSES[b].id: continue   # só cortes dentro da MESMA cena (plano aberto ↔ insert)
     tc = round(anim.EDIT[a][1], 3); A = snaps.get(tc, {}).get(a); B = snaps.get(tc, {}).get(b)
     if not A or not B: continue
     common = [n for n in A if n in B]; d = max((np.linalg.norm(np.array(A[n]) - np.array(B[n])) for n in common), default=0.0)
