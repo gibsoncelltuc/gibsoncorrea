@@ -5,7 +5,7 @@ export DEBIAN_FRONTEND=noninteractive
 apt-get update -qq || true
 apt-get install -y -qq --no-install-recommends ffmpeg xvfb libgl1 libgl1-mesa-dri libglx-mesa0 libegl1 \
   libegl-mesa0 libgbm1 libopengl0 libxi6 libxxf86vm1 libxfixes3 libxrender1 libsm6 libxkbcommon0 libdrm2 mesa-utils || true
-pip install -q --root-user-action=ignore bpy edge-tts fonttools brotli numpy pillow || true
+pip install -q --root-user-action=ignore bpy edge-tts fonttools brotli numpy pillow scipy scikit-image opencv-python-headless imageio || true
 cat > /usr/local/bin/blender <<'EOW'
 #!/usr/bin/env python3
 # Comando `blender` (modo background) sobre o modulo bpy: --version, -b, arquivo.blend, -E, -o, -s, -e, -f, -a, -P, --python-expr, --
@@ -36,6 +36,10 @@ EOW
 chmod +x /usr/local/bin/blender
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../../.." && pwd)"
 if [ -f "$ROOT/production/tome-lago/package-lock.json" ]; then (cd "$ROOT/production/tome-lago" && npm install --no-audit --no-fund --silent) || true; fi
+# Remotion/Three.js do piloto reaproveitam o node_modules do projeto tome-lago
+if [ -d "$ROOT/production/guerra-do-porco" ]; then ln -sfn ../tome-lago/node_modules "$ROOT/production/guerra-do-porco/node_modules"; fi
 blender --version | head -n 1
 ffmpeg -version | head -n 1
+python3 -c "import scipy, skimage, cv2; print('scipy', scipy.__version__, 'skimage', skimage.__version__, 'opencv', cv2.__version__)"
+(cd "$ROOT/production/guerra-do-porco" && npx --no-install remotion versions 2>/dev/null | head -n 2)
 true
