@@ -3,12 +3,12 @@
   {
    "name": "c\u00e2mera sempre em movimento (m\u00e9dia \u2265 1.2 em todos os planos)",
    "pass": true,
-   "detail": "{'S1': [27.07, 15.74], 'S2': [21.97, 9.92], 'S3': [16.84, 11.54], 'S4': [20.04, 11.74], 'S5': [12.35, 5.81], 'S6': [17.33, 3.08]}"
+   "detail": "{'S1': [27.26, 17.34], 'S2a': [21.14, 10.1], 'I_eyes': [55.01, 55.01], 'S3a': [16.85, 11.6], 'I_notes': [33.92, 33.82], 'S4a': [16.77, 14.76], 'S4b': [26.04, 21.63], 'S5a': [15.97, 15.97], 'S6': [18.28, 3.79]}"
   },
   {
    "name": "sem cortes secos (SPIKE isolado: salto > 20 e \u2265 3\u00d7 a mediana local) fora de tiros \u2014 movimento r\u00e1pido sustentado \u00e9 permitido (prints: 16\u201322 % dos quadros com salto > 14)",
-   "pass": true,
-   "detail": "0 spikes [] | saltos: {'mean': 6.84, 'p90': 13.87, 'max': 29.68, 'frac_gt14': 0.099}"
+   "pass": false,
+   "detail": "2 spikes [(10.27, 32.0), (11.0, 43.8)] | saltos: {'mean': 8.75, 'p90': 17.18, 'max': 45.29, 'frac_gt14': 0.156}"
   },
   {
    "name": "gancho com 9\u201314 palavras",
@@ -18,42 +18,54 @@
   {
    "name": "\u00faltimo quadro ecoa o primeiro (mais parecido que um quadro do meio)",
    "pass": true,
-   "detail": "loop 44.3 vs meio 64.2"
+   "detail": "loop 44.7 vs meio 55.5"
   }
  ],
  "motion": {
   "S1": [
-   27.07,
-   15.74
+   27.26,
+   17.34
   ],
-  "S2": [
-   21.97,
-   9.92
+  "S2a": [
+   21.14,
+   10.1
   ],
-  "S3": [
-   16.84,
-   11.54
+  "I_eyes": [
+   55.01,
+   55.01
   ],
-  "S4": [
-   20.04,
-   11.74
+  "S3a": [
+   16.85,
+   11.6
   ],
-  "S5": [
-   12.35,
-   5.81
+  "I_notes": [
+   33.92,
+   33.82
+  ],
+  "S4a": [
+   16.77,
+   14.76
+  ],
+  "S4b": [
+   26.04,
+   21.63
+  ],
+  "S5a": [
+   15.97,
+   15.97
   ],
   "S6": [
-   17.33,
-   3.08
+   18.28,
+   3.79
   ]
  },
  "jump_stats": {
-  "mean": 6.84,
-  "p90": 13.87,
-  "max": 29.68,
-  "frac_gt14": 0.099
+  "mean": 8.75,
+  "p90": 17.18,
+  "max": 45.29,
+  "frac_gt14": 0.156
  },
- "loop_mad": 44.27,
- "loop_vs_mid": 64.19,
- "score_checks": "4/4"
+ "loop_mad": 44.73,
+ "loop_vs_mid": 55.52,
+ "score_checks": "3/4"
 }

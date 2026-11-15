@@ -1,5 +1,5 @@
 {
- "video": "renders/pilot_540.mp4",
+ "video": "renders/pilot_540_v6.mp4",
  "checks": [
   {
    "name": "resolu\u00e7\u00e3o/fps",
@@ -9,7 +9,7 @@
   {
    "name": "dura\u00e7\u00e3o \u2248 manifesto",
    "pass": true,
-   "detail": "20.93s vs 20.93s"
+   "detail": "20.37s vs 20.36s"
   },
   {
    "name": "propor\u00e7\u00e3o 9:16",
@@ -34,27 +34,27 @@
   {
    "name": "sombras nunca pretas (L<0.05 < 6% dos pixels, exceto contorno)",
    "pass": true,
-   "detail": "m\u00e1x 0.003"
+   "detail": "m\u00e1x 0.012"
   },
   {
    "name": "verde nunca lidera (m\u00e9dia < 12% e m\u00e1x \u2264 m\u00e1x da refer\u00eancia 0,168 \u2014 regra v3.1 original: m\u00e1x < 12 %, que os pr\u00f3prios prints n\u00e3o cumprem)",
    "pass": true,
-   "detail": "m\u00e1x 0.071 m\u00e9dia 0.027 (ref: m\u00e1x 0,168 m\u00e9dia 0,052)"
+   "detail": "m\u00e1x 0.103 m\u00e9dia 0.026 (ref: m\u00e1x 0,168 m\u00e9dia 0,052)"
   },
   {
    "name": "paleta quente + fria presente",
    "pass": true,
-   "detail": "quente 0.29 frio 0.37"
+   "detail": "quente 0.31 frio 0.35"
   },
   {
    "name": "sombras predominantemente azul/roxo (\u2265 90 % da refer\u00eancia medida 0,396 \u2014 regra v3.1 original > 0,55, que os prints tamb\u00e9m n\u00e3o cumprem)",
    "pass": true,
-   "detail": "0.37 (ref 0,396)"
+   "detail": "0.39 (ref 0,396)"
   },
   {
    "name": "SRT: tempos crescentes e dentro da dura\u00e7\u00e3o",
    "pass": true,
-   "detail": "37 cart\u00f5es"
+   "detail": "29 cart\u00f5es"
   },
   {
    "name": "legendas mant\u00eam a pontua\u00e7\u00e3o do roteiro (observado no canal; config keepPunctuation)",
@@ -64,43 +64,43 @@
   {
    "name": "sincronia voz\u00d7timestamps (desvio m\u00e1x < 0.20s)",
    "pass": true,
-   "detail": "m\u00e1x 0.060s"
+   "detail": "m\u00e1x 0.026s"
   },
   {
    "name": "loudness -14 LUFS (\u00b10.7)",
    "pass": true,
-   "detail": "-14.4 LUFS"
+   "detail": "-14.0 LUFS"
   },
   {
    "name": "true peak \u2264 -1.5 dBTP",
    "pass": true,
-   "detail": "-4.2 dBFS"
+   "detail": "-2.9 dBFS"
   },
   {
    "name": "ducking \u2248 13 dB (11\u201315)",
    "pass": true,
-   "detail": "-14.4 dB"
+   "detail": "-13.5 dB"
   },
   {
    "name": "m\u00fasica \u2248 20 dB sob a voz (17\u201323)",
    "pass": true,
-   "detail": "-22.2 dB"
+   "detail": "-21.6 dB"
   }
  ],
  "palette": {
-  "max_black_pixel_frac": 0.0031,
-  "mean_green_dominant_frac": 0.0266,
-  "max_green_frac": 0.0715,
-  "mean_warm": 0.292,
-  "mean_cool": 0.374,
-  "shadows_blue_purple_frac": 0.373
+  "max_black_pixel_frac": 0.0118,
+  "mean_green_dominant_frac": 0.0257,
+  "max_green_frac": 0.1027,
+  "mean_warm": 0.307,
+  "mean_cool": 0.348,
+  "shadows_blue_purple_frac": 0.388
  },
  "sync_dev_s": [
-  0.053,
-  0.059,
-  0.06,
-  0.057,
-  0.054
+  -0.004,
+  -0.008,
+  -0.004,
+  -0.026,
+  -0.004
  ],
  "score_checks": "17/17"
 }
