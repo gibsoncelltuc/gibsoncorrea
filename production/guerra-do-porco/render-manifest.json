@@ -1,7 +1,7 @@
 {
  "video": "renders/pilot_540.mp4",
- "sha256_16": "39cade86a6ee779f",
- "tamanho_mb": 28.32,
+ "sha256_16": "f8389cb4308296b8",
+ "tamanho_mb": 28.33,
  "duracao_s": 20.933,
  "fps": 30.0,
  "frames_video": 628,
@@ -112,6 +112,6 @@
  },
  "tempo_total_render_s": 7233.9,
  "maquina": "Linux-6.18.44-fc-v470-x86_64-with-glibc2.39",
- "determinismo": "não executado",
+ "determinismo": "DETERMINISTICO: quadro S3 f281 re-renderizado em processo separado → pixels idênticos (diferença máx 0); o hash do arquivo PNG difere só por metadados",
  "audio": "audio/final_mix.wav → aac 192k (mix.py: -14 LUFS, ducking sidechain)"
 }

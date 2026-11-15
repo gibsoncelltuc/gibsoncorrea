@@ -1,0 +1,1 @@
+DETERMINISTICO: quadro S3 f281 re-renderizado em processo separado → pixels idênticos (diferença máx 0); o hash do arquivo PNG difere só por metadados

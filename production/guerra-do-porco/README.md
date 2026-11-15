@@ -17,6 +17,9 @@ publish/       título, descrição, hashtags
 src/           código histórico (versão Remotion/Three.js rejeitada pelo usuário; mantido só como registro)
 ```
 
+## Resultado
+`renders/pilot_540.mp4` — 540×960 @ 30 fps, 20,9 s, H.264 + AAC. QA 17/17 + 4/4 (`qa/qa-report.md`), scorecard 75,5/100 (**não aprovado** pela rubrica V2: revisão humana e licença da voz pendentes). Folha de contato: `renders/contact_540.png`; revisão pré-render: `qa/pre-render-review.md`; métricas: `qa/fidelity-report.md`, `qa/outline-metrics.json`.
+
 ## Reproduzir
 ```bash
 sudo bash tools/setup_env.sh            # Blender (bpy) + FFmpeg + dependências (também gravado no ambiente "gibsoncorrea")

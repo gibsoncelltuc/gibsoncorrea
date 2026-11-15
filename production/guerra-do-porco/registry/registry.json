@@ -27,7 +27,7 @@
    ],
    "license": "original do projeto",
    "source": "blender/lib/mats.py",
-   "hash": "4bac09553af4a185",
+   "hash": "7660aee266315169",
    "compatibility": "bpy>=5.3 (Cycles CPU), numpy, Pillow",
    "test_scene": "blender/stills.py S1"
   },
@@ -69,7 +69,7 @@
    ],
    "license": "original do projeto",
    "source": "blender/lib/deck.py",
-   "hash": "df731565583cc91a",
+   "hash": "bd2c20c36c32f25c",
    "compatibility": "bpy>=5.3 (Cycles CPU), numpy, Pillow",
    "test_scene": "S5"
   },
@@ -89,46 +89,92 @@
    "test_scene": "S1-S4,S6"
   },
   {
-   "id": "rig.character.v3",
-   "version": "3.0.0",
-   "description": "personagem cut-out 3D: cabeça sombreada, olhos lid/wide/arc/dot/x, sobrancelhas, 9 bocas, suor, tecidos, acessórios, poses por frame",
+   "id": "rig.character.v4",
+   "version": "4.0.0",
+   "description": "personagem cut-out 3D: contorno de tinta IRREGULAR (espessura variável, fino do lado da luz, em pedaços), membros de tinta finos, feições medidas, 9 bocas, suor, tecidos, chapéus, poses por frame",
    "file": "blender/lib/char.py",
    "dependencies": [
     "mat.library.v1"
    ],
    "license": "original do projeto",
    "source": "blender/lib/char.py",
-   "hash": "f50e49118f987fb3",
+   "hash": "9e184cb8ad820259",
    "compatibility": "bpy>=5.3 (Cycles CPU), numpy, Pillow",
    "test_scene": "S3"
   },
   {
-   "id": "rig.pig.v2",
-   "version": "2.0.0",
-   "description": "porco cut-out 3D (comer/trotar/morto, olho X, flip com pulo)",
+   "id": "rig.pig.v3",
+   "version": "3.0.0",
+   "description": "porco cut-out 3D com contorno irregular (comer/trotar/morto, olho X, flip com pulo)",
    "file": "blender/lib/pig.py",
    "dependencies": [
-    "rig.character.v3"
+    "rig.character.v4"
    ],
    "license": "original do projeto",
    "source": "blender/lib/pig.py",
-   "hash": "977c87b88cf4cfe8",
+   "hash": "79efe9ded437a79b",
    "compatibility": "bpy>=5.3 (Cycles CPU), numpy, Pillow",
    "test_scene": "S1"
   },
   {
-   "id": "rig.crowd.v1",
-   "version": "1.0.0",
-   "description": "soldados enxutos em marcha (blocos)",
+   "id": "rig.crowd.v2",
+   "version": "2.0.0",
+   "description": "MULTIDÃO DE PERSONAGENS REAIS: cada pessoa é um Char completo e único (rosto, chapéu, pelos, altura, passo, olhar) + fuzil + porta-bandeira; regra: nunca bonecos genéricos",
    "file": "blender/lib/crowd.py",
    "dependencies": [
-    "rig.character.v3"
+    "rig.character.v4",
+    "props.v1"
    ],
    "license": "original do projeto",
    "source": "blender/lib/crowd.py",
-   "hash": "71d48758e4dd8924",
+   "hash": "9cb52e1a164cd86b",
    "compatibility": "bpy>=5.3 (Cycles CPU), numpy, Pillow",
    "test_scene": "S4"
+  },
+  {
+   "id": "dress.props.v1",
+   "version": "1.0.0",
+   "description": "objetos de cena: barris/caixotes com letras, feno, carrinho, balde, ferramentas, toco, lenha, carroça, celeiro, poço, ovelhas, galinhas, espantalho, varal, cerca de estacas, lampião, fogueira, fuzis, balas, cordas, leme, sino, escada, caminho de terra, detalhes no chão",
+   "file": "blender/lib/dress.py",
+   "dependencies": [
+    "tex.painted.v2",
+    "mat.library.v1"
+   ],
+   "license": "original do projeto",
+   "source": "blender/lib/dress.py",
+   "hash": "5b788f5d2b9ee600",
+   "compatibility": "bpy>=5.3 (Cycles CPU), numpy, Pillow",
+   "test_scene": "blender/lookdev_dress.py"
+  },
+  {
+   "id": "tex.painted.v2",
+   "version": "2.0.0",
+   "description": "texturas pintadas à mão por código: tábuas com pregos, aduelas, palha, celeiro, corda, ferro, lona, pedra, rocha, anéis de tora, amurada de fragata, vela de lona, decalques com letras estampadas, caminho de terra",
+   "file": "blender/lib/paint.py",
+   "dependencies": [
+    "numpy",
+    "Pillow"
+   ],
+   "license": "original do projeto",
+   "source": "blender/lib/paint.py",
+   "hash": "097cd04a64bb710c",
+   "compatibility": "bpy>=5.3 (Cycles CPU), numpy, Pillow",
+   "test_scene": "blender/lookdev_dress.py"
+  },
+  {
+   "id": "sets.piloto.v1",
+   "version": "1.0.0",
+   "description": "vestimenta de cada plano (posições dos objetos pensadas na câmera) + fumaça da chaminé",
+   "file": "blender/lib/sets.py",
+   "dependencies": [
+    "dress.props.v1",
+    "world.farm.v1"
+   ],
+   "license": "original do projeto",
+   "source": "blender/lib/sets.py",
+   "hash": "32dab3d4ba970f97",
+   "compatibility": "bpy>=5.3 (Cycles CPU), numpy, Pillow",
+   "test_scene": "blender/stills.py"
   },
   {
    "id": "props.v1",
@@ -140,7 +186,7 @@
    ],
    "license": "original do projeto",
    "source": "blender/lib/props.py",
-   "hash": "a8fb4d19f0ed532e",
+   "hash": "b45a1b2fc3c3addf",
    "compatibility": "bpy>=5.3 (Cycles CPU), numpy, Pillow",
    "test_scene": "S1/S3/S5/S6"
   },
@@ -157,18 +203,19 @@
    "test_scene": "check_framing.py"
   },
   {
-   "id": "shots.piloto.v1",
-   "version": "1.0.0",
+   "id": "shots.piloto.v2",
+   "version": "2.0.0",
    "description": "coreografia dos 6 planos do piloto, ancorada nos timestamps reais",
    "file": "blender/lib/shots.py",
    "dependencies": [
     "motion.library.v3",
-    "rig.character.v3",
-    "world.farm.v1"
+    "rig.character.v4",
+    "world.farm.v1",
+    "sets.piloto.v1"
    ],
    "license": "original do projeto",
    "source": "blender/lib/shots.py",
-   "hash": "2b9deb1b444dbd89",
+   "hash": "95e0c13d53f9cd20",
    "compatibility": "bpy>=5.3 (Cycles CPU), numpy, Pillow",
    "test_scene": "render_shot.py"
   },
@@ -187,18 +234,48 @@
    "test_scene": "stills.py"
   },
   {
-   "id": "post.ffmpeg.v1",
-   "version": "1.0.0",
-   "description": "dissolve por alfa, grade split-tone, bloom, vinheta, grão, legendas ASS, áudio",
+   "id": "post.ffmpeg.v2",
+   "version": "2.0.0",
+   "description": "rota só-FFmpeg: dissolve por alfa, grade compartilhada, legendas ASS, áudio",
    "file": "blender/post.py",
    "dependencies": [
     "ffmpeg"
    ],
    "license": "original do projeto",
    "source": "blender/post.py",
-   "hash": "b2977f8a4b2b473c",
+   "hash": "3590acfad2b55cf5",
    "compatibility": "bpy>=5.3 (Cycles CPU), numpy, Pillow",
    "test_scene": "renders/pilot_540.mp4"
+  },
+  {
+   "id": "grade.shared.v1",
+   "version": "1.0.0",
+   "description": "grade de cor compartilhada: split-tone, bloom, preto levantado (tinta ameixa), vinheta, grão; calibrada contra as métricas dos prints",
+   "file": "blender/lib/grade.py",
+   "dependencies": [
+    "ffmpeg"
+   ],
+   "license": "original do projeto",
+   "source": "blender/lib/grade.py",
+   "hash": "e5b71d91d86983f1",
+   "compatibility": "bpy>=5.3 (Cycles CPU), numpy, Pillow",
+   "test_scene": "qa/fidelity-report.md"
+  },
+  {
+   "id": "montage.remotion.v1",
+   "version": "1.0.0",
+   "description": "montagem em Remotion: composição Montage (planos+dissolves+áudio) e Captions (legendas em PNG com alfa) + grade FFmpeg (grade.py)",
+   "file": "montage/Montage.tsx",
+   "dependencies": [
+    "remotion",
+    "@fontsource/montserrat",
+    "grade.shared.v1"
+   ],
+   "license": "original do projeto",
+   "source": "montage/Montage.tsx",
+   "hash": "a286c06928557de8",
+   "compatibility": "bpy>=5.3 (Cycles CPU), numpy, Pillow",
+   "test_scene": "tools/montage.sh"
   },
   {
    "id": "audio.build.v1",

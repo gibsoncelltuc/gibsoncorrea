@@ -39,7 +39,7 @@
   {
    "name": "verde nunca lidera (m\u00e9dia < 12% e m\u00e1x \u2264 m\u00e1x da refer\u00eancia 0,168 \u2014 regra v3.1 original: m\u00e1x < 12 %, que os pr\u00f3prios prints n\u00e3o cumprem)",
    "pass": true,
-   "detail": "m\u00e1x 0.046 m\u00e9dia 0.015 (ref: m\u00e1x 0,168 m\u00e9dia 0,052)"
+   "detail": "m\u00e1x 0.071 m\u00e9dia 0.027 (ref: m\u00e1x 0,168 m\u00e9dia 0,052)"
   },
   {
    "name": "paleta quente + fria presente",
@@ -88,11 +88,11 @@
   }
  ],
  "palette": {
-  "max_black_pixel_frac": 0.0025,
-  "mean_green_dominant_frac": 0.0147,
-  "max_green_frac": 0.046,
-  "mean_warm": 0.293,
-  "mean_cool": 0.372,
+  "max_black_pixel_frac": 0.0031,
+  "mean_green_dominant_frac": 0.0266,
+  "max_green_frac": 0.0715,
+  "mean_warm": 0.292,
+  "mean_cool": 0.374,
   "shadows_blue_purple_frac": 0.373
  },
  "sync_dev_s": [

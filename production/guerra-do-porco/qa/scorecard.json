@@ -1,0 +1,82 @@
+{
+ "rubric_version": "2.0",
+ "video": "A Guerra do Porco — piloto (540x960 @ 30 fps, 20.933 s)",
+ "score_total": 75.5,
+ "pass_threshold": 85,
+ "critical_gates_passed": false,
+ "dimensions": {
+  "narrativa_retencao": {
+   "weight": 15,
+   "score_0_to_5": 3.5,
+   "evidence": "gancho de 12 palavras, 5 batidas, eco do loop; sem teste de retenção com público"
+  },
+  "fidelidade_factual": {
+   "weight": 10,
+   "score_0_to_5": 4.0,
+   "evidence": "fact-check com ≥2 fontes secundárias; fontes primárias inacessíveis no sandbox (declarado); sem citações inventadas"
+  },
+  "identidade_visual": {
+   "weight": 15,
+   "score_0_to_5": 3.5,
+   "evidence": "contorno irregular medido (razão 5,1 vs 4,22 no canal), tinta ameixa, feições, tropa real, cenário cheio com texturas pintadas por código; ainda procedural, sem pintura de artista"
+  },
+  "animacao_atuacao": {
+   "weight": 15,
+   "score_0_to_5": 3.5,
+   "evidence": "atuação determinística por função do tempo ancorada na voz; marcha da tropa, expressões; complexidade de \"marionetes recortadas\""
+  },
+  "camera_montagem": {
+   "weight": 10,
+   "score_0_to_5": 3.5,
+   "evidence": "câmera em movimento em todos os planos, dissolves 0,4 s, 0 spikes de corte; planos longos de grama"
+  },
+  "audio_sincronizacao": {
+   "weight": 10,
+   "score_0_to_5": 4.0,
+   "evidence": "−14,4 LUFS, true peak −4,2 dBTP, ducking −14,4 dB, música −22,2 dB, sincronia máx 0,06 s; voz sintética"
+  },
+  "render_estabilidade": {
+   "weight": 10,
+   "score_0_to_5": 4.5,
+   "evidence": "Cycles CPU 12 spp + OIDN, 694 quadros, sem pretos/congelados; determinismo: DETERMINISTICO: quadro S3 f281 re-renderizado em processo separado → pixels idênticos (diferença máx 0); o hash do arquivo PNG difere só por metadados"
+  },
+  "legibilidade": {
+   "weight": 5,
+   "score_0_to_5": 4.5,
+   "evidence": "legendas com tamanho/posição medidos nos prints; contorno + sombra; 1–2 palavras"
+  },
+  "reutilizacao": {
+   "weight": 5,
+   "score_0_to_5": 4.0,
+   "evidence": "bibliotecas dress/paint/sets/crowd/char, registry, setup_env.sh, skill atualizada"
+  },
+  "originalidade_direitos": {
+   "weight": 5,
+   "score_0_to_5": 3.5,
+   "evidence": "tudo gerado por código; Blender GPL (documentado); voz edge-tts com licença comercial pouco clara"
+  }
+ },
+ "critical_gates": {
+  "compila_e_abre": true,
+  "segmento_real_renderizado": true,
+  "duracao_fps_resolucao": true,
+  "sem_frames_pretos_ou_congelados": true,
+  "audio_legenda_sync": true,
+  "fatos_centrais_com_fonte": "PARCIAL (fontes secundárias; primárias inacessíveis)",
+  "licencas_documentadas": "PARCIAL (voz edge-tts: termos comerciais pouco claros)",
+  "sem_clonagem_de_voz": true,
+  "qa_visual_humano": "NÃO (revisão feita pelo autor em fotos de teste/contact sheet; revisão humana assistindo com som pendente)",
+  "relatorio_distingue_executado": true
+ },
+ "not_tested": [
+  "revisão humana assistindo com som, sem som e em celular",
+  "versão 1080p (o pedido era piloto de baixa resolução)",
+  "render em GPU",
+  "fontes primárias da Guerra do Porco",
+  "licença comercial da voz"
+ ],
+ "reviewed_by": "autor (modelo); revisão humana pendente",
+ "review_date": "2026-11-15",
+ "aprovado": false,
+ "motivo": "nota < 85 e gates críticos pendentes (revisão humana; licença da voz)"
+}
