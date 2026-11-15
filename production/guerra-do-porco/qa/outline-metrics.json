@@ -1,0 +1,23 @@
+{
+ "referencia": {
+  "quadros": 29,
+  "razao_p90_p10_mediana": 4.22,
+  "cv": 0.751,
+  "p10": 0.5,
+  "p90": 2.53
+ },
+ "v3a_uniforme": {
+  "quadros": 40,
+  "razao_p90_p10_mediana": 2.0,
+  "cv": 0.365,
+  "p10": 0.71,
+  "p90": 1.41
+ },
+ "v4_irregular": {
+  "quadros": 29,
+  "razao_p90_p10_mediana": 4.12,
+  "cv": 0.54,
+  "p10": 0.35,
+  "p90": 1.79
+ }
+}
