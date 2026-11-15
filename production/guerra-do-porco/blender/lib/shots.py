@@ -93,6 +93,7 @@ class S4(Base):
     def keys_(self): return {'lead': self.lead.head, 'sol0': self.sol[0].head, 'sol20': self.sol[20].head, 'fleet': self.fleet[2]}
     def build(self):
         R = self.R; self.f = farm.build('golden', grass_n=R['grass'] // 2, grass_areas=[((-42, -4, 16, 40), R['grass'])]); self.fleet = ships.fleet(); self.sol = crowd.block(8, 5); self.lead = char.Char('lead', LOOKS['soldier'])
+        for o in self.f['trees']: o.visible_shadow = False   # abetos a oeste (|x|>38) projetavam sombra longa e escura (sol a 24°) sobre o campo desta cena
         for tp in [(-34, 38.5, 1.2, .2), (-27, 40.5, 1.1, -.3), (-41, 37.5, 1.0, .5)]: props.tent((tp[0], tp[1], gz(tp[0], tp[1])), tp[2], tp[3])
         self.us = props.Flag((-33, 42.0, gz(-33, 42)), 2.2, 1.4, texlib.flag_us(), 6.0); cn = props.cannon(); cn.location = (-22, 36, gz(-22, 36)); cn.rotation_euler = (0, 0, math.radians(75))
         self._ship_base = {o.name: (tuple(o.location), tuple(o.scale)) for o in self.fleet}
