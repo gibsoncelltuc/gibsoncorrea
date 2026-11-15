@@ -13,5 +13,5 @@ if caps != '-':
     files = sorted(glob.glob(os.path.join(caps, '*.png'))); pat = os.path.join(caps, os.path.basename(files[0]).rsplit('-', 1)[0] + '-%0' + str(len(os.path.basename(files[0]).rsplit('-', 1)[1].split('.')[0])) + 'd.png')
     inputs += ['-framerate', str(fps), '-start_number', str(int(os.path.basename(files[0]).rsplit('-', 1)[1].split('.')[0])), '-i', pat]; filt.append(f'[{last}][1:v]overlay=format=auto[ov]'); last = 'ov'
 filt.append(f'[{last}]format=yuv420p[v]')
-cmd = ['ffmpeg', '-y', '-v', 'error', *inputs, '-filter_complex', ';'.join(filt), '-map', '[v]', '-map', '0:a?', '-c:v', 'libx264', '-crf', crf, '-preset', 'medium', '-pix_fmt', 'yuv420p', '-c:a', 'copy', '-shortest', '-movflags', '+faststart', out]
+cmd = ['ffmpeg', '-y', '-v', 'error', *inputs, '-filter_complex', ';'.join(filt), '-map', '[v]', '-map', '0:a?', '-c:v', 'libx264', '-crf', crf, '-preset', 'medium', '-pix_fmt', 'yuv420p', '-c:a', 'copy', '-metadata:s:a:0', 'language=por', '-metadata', 'title=A Guerra do Porco (piloto)', '-metadata', 'language=por', '-shortest', '-movflags', '+faststart', out]
 r = subprocess.run(cmd, capture_output=True, text=True); print(r.stderr[-1200:] if r.returncode else 'ok', out)

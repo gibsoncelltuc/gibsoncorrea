@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """QA automático: formato, frames pretos/congelados, paleta, legendas, sincronia voz×timestamps, loudness."""
 import json, os, re, subprocess, sys, colorsys, wave
+import tempfile; TMP = os.environ.get('WORK_TMP', os.path.join(tempfile.gettempdir(), 'toon-work')); os.makedirs(TMP, exist_ok=True)
 import numpy as np
 from PIL import Image
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -23,12 +24,12 @@ blk = re.findall(r"black_start:([\d.]+)", bd); chk("sem frames pretos", len(blk)
 fz = run(["ffmpeg", "-nostats", "-i", video, "-vf", "freezedetect=n=-55dB:d=0.8", "-an", "-f", "null", "-"]).stderr
 fzs = re.findall(r"freeze_start: ([\d.]+)", fz); chk("sem congelamento >0.8s", len(fzs) == 0, f"{len(fzs)} trechos {fzs[:4]}")
 # paleta (frames 1/s, fora da faixa de legenda)
-os.makedirs(f"/tmp/claude-0/qa_{tag}", exist_ok=True)
-subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", video, "-vf", "fps=1,scale=180:320", f"/tmp/claude-0/qa_{tag}/f%03d.png"])
-frames = sorted(f for f in os.listdir(f"/tmp/claude-0/qa_{tag}") if f.endswith(".png"))
+os.makedirs(f"{TMP}/qa_{tag}", exist_ok=True)
+subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", video, "-vf", "fps=1,scale=180:320", f"{TMP}/qa_{tag}/f%03d.png"])
+frames = sorted(f for f in os.listdir(f"{TMP}/qa_{tag}") if f.endswith(".png"))
 blackpx, greenpx, warm, cool, shadow_bluepurple, shadow_total = [], [], [], [], 0, 0
 for f in frames:
-    a = np.asarray(Image.open(f"/tmp/claude-0/qa_{tag}/{f}").convert("RGB")).astype(np.float32) / 255
+    a = np.asarray(Image.open(f"{TMP}/qa_{tag}/{f}").convert("RGB")).astype(np.float32) / 255
     a = np.concatenate([a[:int(320 * .64)], a[int(320 * .78):]])
     mx = a.max(2); mn = a.min(2); L = 0.2126 * a[..., 0] + 0.7152 * a[..., 1] + 0.0722 * a[..., 2]
     blackpx.append(float((L < 0.05).mean()))

@@ -12,7 +12,7 @@ for k, t in enumerate(ts):
     p = os.path.join(tmp, f'{k:03d}.png')
     subprocess.run(['ffmpeg', '-y', '-v', 'error', '-ss', f'{t:.3f}', '-i', video, '-frames:v', '1', '-vf', f'scale={tw}:-2', p], check=True); ims.append((t, Image.open(p).convert('RGB')))
 th = ims[0][1].size[1]; rows = (len(ims) + cols - 1) // cols; sheet = Image.new('RGB', (cols * tw, rows * th), (18, 14, 26)); d = ImageDraw.Draw(sheet)
-try: f = ImageFont.truetype('/home/user/gibsoncorrea/production/guerra-do-porco/blender/fonts/Montserrat-ExtraBold.ttf', max(12, tw // 14))
+try: f = ImageFont.truetype(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'blender', 'fonts', 'Montserrat-ExtraBold.ttf'), max(12, tw // 14))
 except Exception: f = ImageFont.load_default()
 for k, (t, im) in enumerate(ims):
     x, y = (k % cols) * tw, (k // cols) * th; sheet.paste(im, (x, y)); d.text((x + 6, y + 4), f'{t:05.2f}s', font=f, fill=(255, 255, 255), stroke_width=2, stroke_fill=(18, 14, 26))

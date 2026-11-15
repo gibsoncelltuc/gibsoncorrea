@@ -9,35 +9,40 @@
    "shot": "S1",
    "beat": "gancho",
    "text": "Um homem matou um porco, e dois países quase entraram em guerra.",
-   "pause_before": 0.1
+   "pause_before": 0.1,
+   "intent": "curiosidade/descrença, rápido"
   },
   {
    "id": "L2",
    "shot": "S2",
    "beat": "setup",
    "text": "O porco de um britânico invadiu a horta de um americano. Ele atirou.",
-   "pause_before": 0.22
+   "pause_before": 0.22,
+   "intent": "explicação seca; 'Ele atirou' seco, sem pausa dramática"
   },
   {
    "id": "L3",
    "shot": "S3",
    "beat": "zombador",
    "text": "O dono exigiu cem dólares. O americano ofereceu dez.",
-   "pause_before": 0.22
+   "pause_before": 0.22,
+   "intent": "ironia leve; 'cem' enfático"
   },
   {
    "id": "L4",
    "shot": "S4",
    "beat": "escalada",
    "text": "Vieram centenas de soldados. Depois, cinco navios de guerra.",
-   "pause_before": 0.2
+   "pause_before": 0.2,
+   "intent": "tensão crescente"
   },
   {
    "id": "L5",
    "shot": "S5",
    "beat": "pagamento",
    "text": "Mas o almirante recusou atacar. Ninguém morreu. Só o porco.",
-   "pause_before": 0.22
+   "pause_before": 0.22,
+   "intent": "alívio irônico; 'Só o porco' lento"
   }
  ]
 }

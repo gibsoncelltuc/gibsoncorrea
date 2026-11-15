@@ -11,7 +11,7 @@
  "cartoes": [
   {
    "texto": "Um homem",
-   "t": 0.597,
+   "t": 0.558,
    "caixa_%": [
     27.0,
     69.3,
@@ -21,119 +21,69 @@
    "altura_%": 3.9,
    "dentro_zona_segura": true,
    "contraste_preenchimento_contorno": 19.0,
-   "contraste_preenchimento_fundo_p95": 2.67,
-   "lum_fundo_mediana": 0.076,
-   "altura_px_tela_pequena_1/3": 13,
-   "cps": 13.5,
-   "dur_s": 0.59
+   "contraste_preenchimento_fundo_p95": 2.69,
+   "lum_fundo_mediana": 0.074,
+   "altura_px_celular_360": 25,
+   "altura_px_miniatura_180": 13,
+   "cps": 15.5,
+   "dur_s": 0.52
   },
   {
-   "texto": "matou um",
-   "t": 1.092,
+   "texto": "matou um porco,",
+   "t": 1.175,
    "caixa_%": [
-    33.0,
-    69.9,
-    67.6,
+    33.7,
+    70.1,
+    66.7,
     74.1
+   ],
+   "altura_%": 4.0,
+   "dentro_zona_segura": true,
+   "contraste_preenchimento_contorno": 19.0,
+   "contraste_preenchimento_fundo_p95": 2.92,
+   "lum_fundo_mediana": 0.081,
+   "altura_px_celular_360": 26,
+   "altura_px_miniatura_180": 13,
+   "cps": 21.0,
+   "dur_s": 0.72
+  },
+  {
+   "texto": "e dois países",
+   "t": 1.896,
+   "caixa_%": [
+    41.3,
+    69.0,
+    58.7,
+    73.1
    ],
    "altura_%": 4.2,
    "dentro_zona_segura": true,
    "contraste_preenchimento_contorno": 19.0,
-   "contraste_preenchimento_fundo_p95": 2.85,
-   "lum_fundo_mediana": 0.084,
-   "altura_px_tela_pequena_1/3": 14,
-   "cps": 14.5,
-   "dur_s": 0.55
+   "contraste_preenchimento_fundo_p95": 2.84,
+   "lum_fundo_mediana": 0.036,
+   "altura_px_celular_360": 27,
+   "altura_px_miniatura_180": 13,
+   "cps": 17.9,
+   "dur_s": 0.73
   },
   {
-   "texto": "porco, e",
-   "t": 1.495,
+   "texto": "quase entraram",
+   "t": 2.632,
    "caixa_%": [
-    34.1,
+    37.8,
     70.0,
-    66.1,
+    62.2,
     74.0
    ],
    "altura_%": 4.0,
    "dentro_zona_segura": true,
    "contraste_preenchimento_contorno": 19.0,
-   "contraste_preenchimento_fundo_p95": 2.77,
-   "lum_fundo_mediana": 0.081,
-   "altura_px_tela_pequena_1/3": 13,
-   "cps": 19.7,
-   "dur_s": 0.41
-  },
-  {
-   "texto": "dois",
-   "t": 1.735,
-   "caixa_%": [
-    34.1,
-    70.0,
-    66.1,
-    74.0
-   ],
-   "altura_%": 4.0,
-   "dentro_zona_segura": true,
-   "contraste_preenchimento_contorno": 19.0,
-   "contraste_preenchimento_fundo_p95": 2.52,
-   "lum_fundo_mediana": 0.069,
-   "altura_px_tela_pequena_1/3": 13,
-   "cps": 17.7,
-   "dur_s": 0.23
-  },
-  {
-   "texto": "países",
-   "t": 2.066,
-   "caixa_%": [
-    36.9,
-    69.1,
-    63.7,
-    74.1
-   ],
-   "altura_%": 5.0,
-   "dentro_zona_segura": true,
-   "contraste_preenchimento_contorno": 19.0,
-   "contraste_preenchimento_fundo_p95": 2.01,
-   "lum_fundo_mediana": 0.244,
-   "altura_px_tela_pequena_1/3": 16,
-   "cps": 10.2,
-   "dur_s": 0.59
-  },
-  {
-   "texto": "quase",
-   "t": 2.421,
-   "caixa_%": [
-    37.4,
-    69.2,
-    62.8,
-    74.0
-   ],
-   "altura_%": 4.8,
-   "dentro_zona_segura": true,
-   "contraste_preenchimento_contorno": 19.0,
-   "contraste_preenchimento_fundo_p95": 2.06,
-   "lum_fundo_mediana": 0.038,
-   "altura_px_tela_pequena_1/3": 16,
-   "cps": 15.5,
-   "dur_s": 0.32
-  },
-  {
-   "texto": "entraram",
-   "t": 2.806,
-   "caixa_%": [
-    30.6,
-    69.5,
-    69.1,
-    73.2
-   ],
-   "altura_%": 3.7,
-   "dentro_zona_segura": true,
-   "contraste_preenchimento_contorno": 19.0,
-   "contraste_preenchimento_fundo_p95": 2.58,
-   "lum_fundo_mediana": 0.039,
-   "altura_px_tela_pequena_1/3": 13,
-   "cps": 13.4,
-   "dur_s": 0.6
+   "contraste_preenchimento_fundo_p95": 2.33,
+   "lum_fundo_mediana": 0.025,
+   "altura_px_celular_360": 25,
+   "altura_px_miniatura_180": 13,
+   "cps": 18.8,
+   "dur_s": 0.75
   },
   {
    "texto": "em guerra.",
@@ -149,135 +99,105 @@
    "contraste_preenchimento_contorno": 19.0,
    "contraste_preenchimento_fundo_p95": 2.14,
    "lum_fundo_mediana": 0.075,
-   "altura_px_tela_pequena_1/3": 13,
+   "altura_px_celular_360": 26,
+   "altura_px_miniatura_180": 13,
    "cps": 12.0,
    "dur_s": 0.83
   },
   {
    "texto": "O porco",
-   "t": 4.027,
+   "t": 3.989,
    "caixa_%": [
-    34.1,
+    33.7,
     69.4,
-    65.9,
-    74.0
+    66.3,
+    74.1
    ],
-   "altura_%": 4.6,
+   "altura_%": 4.7,
    "dentro_zona_segura": true,
    "contraste_preenchimento_contorno": 19.0,
-   "contraste_preenchimento_fundo_p95": 2.1,
-   "lum_fundo_mediana": 0.225,
-   "altura_px_tela_pequena_1/3": 15,
-   "cps": 18.3,
-   "dur_s": 0.38
+   "contraste_preenchimento_fundo_p95": 1.41,
+   "lum_fundo_mediana": 0.288,
+   "altura_px_celular_360": 30,
+   "altura_px_miniatura_180": 15,
+   "cps": 22.8,
+   "dur_s": 0.31
   },
   {
-   "texto": "de um",
-   "t": 4.306,
+   "texto": "de um britânico",
+   "t": 4.489,
    "caixa_%": [
-    34.1,
-    69.4,
-    65.9,
-    74.0
-   ],
-   "altura_%": 4.6,
-   "dentro_zona_segura": true,
-   "contraste_preenchimento_contorno": 19.0,
-   "contraste_preenchimento_fundo_p95": 3.43,
-   "lum_fundo_mediana": 0.093,
-   "altura_px_tela_pequena_1/3": 15,
-   "cps": 15.2,
-   "dur_s": 0.33
-  },
-  {
-   "texto": "britânico",
-   "t": 4.642,
-   "caixa_%": [
-    32.2,
-    69.0,
-    68.0,
-    73.1
-   ],
-   "altura_%": 4.2,
-   "dentro_zona_segura": true,
-   "contraste_preenchimento_contorno": 19.0,
-   "contraste_preenchimento_fundo_p95": 4.98,
-   "lum_fundo_mediana": 0.07,
-   "altura_px_tela_pequena_1/3": 13,
-   "cps": 16.6,
-   "dur_s": 0.54
-  },
-  {
-   "texto": "invadiu",
-   "t": 5.038,
-   "caixa_%": [
-    34.3,
-    68.9,
-    65.4,
-    73.2
-   ],
-   "altura_%": 4.4,
-   "dentro_zona_segura": true,
-   "contraste_preenchimento_contorno": 19.0,
-   "contraste_preenchimento_fundo_p95": 3.67,
-   "lum_fundo_mediana": 0.052,
-   "altura_px_tela_pequena_1/3": 15,
-   "cps": 17.4,
-   "dur_s": 0.4
-  },
-  {
-   "texto": "a horta",
-   "t": 5.396,
-   "caixa_%": [
-    34.4,
-    69.1,
-    65.4,
-    73.3
-   ],
-   "altura_%": 4.3,
-   "dentro_zona_segura": true,
-   "contraste_preenchimento_contorno": 19.0,
-   "contraste_preenchimento_fundo_p95": 3.67,
-   "lum_fundo_mediana": 0.083,
-   "altura_px_tela_pequena_1/3": 14,
-   "cps": 13.6,
-   "dur_s": 0.51
-  },
-  {
-   "texto": "de um",
-   "t": 5.779,
-   "caixa_%": [
-    35.6,
+    37.2,
     69.3,
-    64.3,
+    62.6,
     73.1
    ],
    "altura_%": 3.9,
    "dentro_zona_segura": true,
    "contraste_preenchimento_contorno": 19.0,
-   "contraste_preenchimento_fundo_p95": 3.37,
-   "lum_fundo_mediana": 0.086,
-   "altura_px_tela_pequena_1/3": 13,
-   "cps": 12.4,
-   "dur_s": 0.4
+   "contraste_preenchimento_fundo_p95": 4.92,
+   "lum_fundo_mediana": 0.07,
+   "altura_px_celular_360": 25,
+   "altura_px_miniatura_180": 13,
+   "cps": 21.6,
+   "dur_s": 0.69
   },
   {
-   "texto": "americano.",
-   "t": 6.228,
+   "texto": "invadiu",
+   "t": 4.989,
    "caixa_%": [
-    27.8,
+    33.9,
+    68.9,
+    65.7,
+    73.3
+   ],
+   "altura_%": 4.5,
+   "dentro_zona_segura": true,
+   "contraste_preenchimento_contorno": 19.0,
+   "contraste_preenchimento_fundo_p95": 3.25,
+   "lum_fundo_mediana": 0.048,
+   "altura_px_celular_360": 29,
+   "altura_px_miniatura_180": 15,
+   "cps": 23.1,
+   "dur_s": 0.3
+  },
+  {
+   "texto": "a horta",
+   "t": 5.358,
+   "caixa_%": [
+    35.2,
     69.0,
-    72.2,
+    64.6,
     73.1
    ],
    "altura_%": 4.2,
    "dentro_zona_segura": true,
    "contraste_preenchimento_contorno": 19.0,
-   "contraste_preenchimento_fundo_p95": 3.4,
-   "lum_fundo_mediana": 0.077,
-   "altura_px_tela_pequena_1/3": 13,
-   "cps": 14.4,
-   "dur_s": 0.7
+   "contraste_preenchimento_fundo_p95": 3.46,
+   "lum_fundo_mediana": 0.086,
+   "altura_px_celular_360": 27,
+   "altura_px_miniatura_180": 13,
+   "cps": 16.0,
+   "dur_s": 0.44
+  },
+  {
+   "texto": "de um americano.",
+   "t": 6.076,
+   "caixa_%": [
+    27.0,
+    69.0,
+    72.8,
+    73.2
+   ],
+   "altura_%": 4.3,
+   "dentro_zona_segura": true,
+   "contraste_preenchimento_contorno": 19.0,
+   "contraste_preenchimento_fundo_p95": 2.78,
+   "lum_fundo_mediana": 0.085,
+   "altura_px_celular_360": 28,
+   "altura_px_miniatura_180": 14,
+   "cps": 16.0,
+   "dur_s": 1.0
   },
   {
    "texto": "Ele atirou.",
@@ -293,31 +213,33 @@
    "contraste_preenchimento_contorno": 19.0,
    "contraste_preenchimento_fundo_p95": 2.23,
    "lum_fundo_mediana": 0.088,
-   "altura_px_tela_pequena_1/3": 13,
+   "altura_px_celular_360": 27,
+   "altura_px_miniatura_180": 13,
    "cps": 9.6,
    "dur_s": 1.15
   },
   {
    "texto": "O dono",
-   "t": 7.99,
+   "t": 7.94,
    "caixa_%": [
-    35.4,
+    35.0,
     69.3,
-    64.6,
-    73.1
+    65.2,
+    73.3
    ],
-   "altura_%": 3.9,
+   "altura_%": 4.1,
    "dentro_zona_segura": true,
    "contraste_preenchimento_contorno": 19.0,
-   "contraste_preenchimento_fundo_p95": 2.13,
-   "lum_fundo_mediana": 0.104,
-   "altura_px_tela_pequena_1/3": 13,
-   "cps": 11.3,
-   "dur_s": 0.53
+   "contraste_preenchimento_fundo_p95": 2.12,
+   "lum_fundo_mediana": 0.102,
+   "altura_px_celular_360": 26,
+   "altura_px_miniatura_180": 14,
+   "cps": 14.0,
+   "dur_s": 0.43
   },
   {
    "texto": "exigiu cem",
-   "t": 8.625,
+   "t": 8.575,
    "caixa_%": [
     28.1,
     69.0,
@@ -327,11 +249,12 @@
    "altura_%": 5.0,
    "dentro_zona_segura": true,
    "contraste_preenchimento_contorno": 19.0,
-   "contraste_preenchimento_fundo_p95": 1.96,
-   "lum_fundo_mediana": 0.107,
-   "altura_px_tela_pequena_1/3": 16,
-   "cps": 10.6,
-   "dur_s": 0.94
+   "contraste_preenchimento_fundo_p95": 2.02,
+   "lum_fundo_mediana": 0.106,
+   "altura_px_celular_360": 33,
+   "altura_px_miniatura_180": 16,
+   "cps": 11.9,
+   "dur_s": 0.84
   },
   {
    "texto": "dólares.",
@@ -347,13 +270,14 @@
    "contraste_preenchimento_contorno": 19.0,
    "contraste_preenchimento_fundo_p95": 2.29,
    "lum_fundo_mediana": 0.143,
-   "altura_px_tela_pequena_1/3": 13,
+   "altura_px_celular_360": 26,
+   "altura_px_miniatura_180": 13,
    "cps": 12.3,
    "dur_s": 0.65
   },
   {
    "texto": "O americano",
-   "t": 10.037,
+   "t": 9.998,
    "caixa_%": [
     24.6,
     69.0,
@@ -363,15 +287,16 @@
    "altura_%": 4.2,
    "dentro_zona_segura": true,
    "contraste_preenchimento_contorno": 19.0,
-   "contraste_preenchimento_fundo_p95": 2.78,
-   "lum_fundo_mediana": 0.096,
-   "altura_px_tela_pequena_1/3": 13,
-   "cps": 14.0,
-   "dur_s": 0.78
+   "contraste_preenchimento_fundo_p95": 2.79,
+   "lum_fundo_mediana": 0.087,
+   "altura_px_celular_360": 27,
+   "altura_px_miniatura_180": 13,
+   "cps": 15.6,
+   "dur_s": 0.71
   },
   {
    "texto": "ofereceu",
-   "t": 10.685,
+   "t": 10.647,
    "caixa_%": [
     32.2,
     69.2,
@@ -381,11 +306,12 @@
    "altura_%": 4.0,
    "dentro_zona_segura": true,
    "contraste_preenchimento_contorno": 19.0,
-   "contraste_preenchimento_fundo_p95": 2.02,
-   "lum_fundo_mediana": 0.237,
-   "altura_px_tela_pequena_1/3": 13,
-   "cps": 12.0,
-   "dur_s": 0.67
+   "contraste_preenchimento_fundo_p95": 2.01,
+   "lum_fundo_mediana": 0.239,
+   "altura_px_celular_360": 25,
+   "altura_px_miniatura_180": 13,
+   "cps": 13.6,
+   "dur_s": 0.59
   },
   {
    "texto": "dez.",
@@ -401,13 +327,14 @@
    "contraste_preenchimento_contorno": 19.0,
    "contraste_preenchimento_fundo_p95": 2.14,
    "lum_fundo_mediana": 0.199,
-   "altura_px_tela_pequena_1/3": 13,
+   "altura_px_celular_360": 25,
+   "altura_px_miniatura_180": 13,
    "cps": 7.2,
    "dur_s": 0.56
   },
   {
    "texto": "Vieram",
-   "t": 11.826,
+   "t": 11.788,
    "caixa_%": [
     35.0,
     69.0,
@@ -417,15 +344,16 @@
    "altura_%": 4.2,
    "dentro_zona_segura": true,
    "contraste_preenchimento_contorno": 19.0,
-   "contraste_preenchimento_fundo_p95": 2.17,
-   "lum_fundo_mediana": 0.082,
-   "altura_px_tela_pequena_1/3": 13,
-   "cps": 9.2,
-   "dur_s": 0.65
+   "contraste_preenchimento_fundo_p95": 1.98,
+   "lum_fundo_mediana": 0.081,
+   "altura_px_celular_360": 27,
+   "altura_px_miniatura_180": 13,
+   "cps": 10.4,
+   "dur_s": 0.58
   },
   {
    "texto": "centenas",
-   "t": 12.326,
+   "t": 12.276,
    "caixa_%": [
     31.7,
     69.6,
@@ -435,11 +363,12 @@
    "altura_%": 3.5,
    "dentro_zona_segura": true,
    "contraste_preenchimento_contorno": 19.0,
-   "contraste_preenchimento_fundo_p95": 2.13,
-   "lum_fundo_mediana": 0.102,
-   "altura_px_tela_pequena_1/3": 12,
-   "cps": 16.1,
-   "dur_s": 0.5
+   "contraste_preenchimento_fundo_p95": 2.15,
+   "lum_fundo_mediana": 0.098,
+   "altura_px_celular_360": 23,
+   "altura_px_miniatura_180": 12,
+   "cps": 20.1,
+   "dur_s": 0.4
   },
   {
    "texto": "de soldados.",
@@ -455,13 +384,14 @@
    "contraste_preenchimento_contorno": 19.0,
    "contraste_preenchimento_fundo_p95": 2.2,
    "lum_fundo_mediana": 0.111,
-   "altura_px_tela_pequena_1/3": 13,
+   "altura_px_celular_360": 25,
+   "altura_px_miniatura_180": 13,
    "cps": 14.2,
    "dur_s": 0.85
   },
   {
    "texto": "Depois,",
-   "t": 13.582,
+   "t": 13.543,
    "caixa_%": [
     25.0,
     69.3,
@@ -471,15 +401,16 @@
    "altura_%": 3.9,
    "dentro_zona_segura": true,
    "contraste_preenchimento_contorno": 19.0,
-   "contraste_preenchimento_fundo_p95": 1.86,
+   "contraste_preenchimento_fundo_p95": 2.02,
    "lum_fundo_mediana": 0.107,
-   "altura_px_tela_pequena_1/3": 13,
-   "cps": 13.4,
-   "dur_s": 0.52
+   "altura_px_celular_360": 25,
+   "altura_px_miniatura_180": 13,
+   "cps": 15.7,
+   "dur_s": 0.45
   },
   {
    "texto": "cinco",
-   "t": 14.08,
+   "t": 14.042,
    "caixa_%": [
     35.2,
     69.0,
@@ -489,69 +420,35 @@
    "altura_%": 5.0,
    "dentro_zona_segura": true,
    "contraste_preenchimento_contorno": 19.0,
-   "contraste_preenchimento_fundo_p95": 2.09,
-   "lum_fundo_mediana": 0.085,
-   "altura_px_tela_pequena_1/3": 16,
-   "cps": 8.0,
-   "dur_s": 0.63
+   "contraste_preenchimento_fundo_p95": 2.01,
+   "lum_fundo_mediana": 0.086,
+   "altura_px_celular_360": 32,
+   "altura_px_miniatura_180": 16,
+   "cps": 9.1,
+   "dur_s": 0.55
   },
   {
-   "texto": "navios de",
-   "t": 14.678,
+   "texto": "navios de guerra.",
+   "t": 14.996,
    "caixa_%": [
-    38.9,
+    31.1,
     69.0,
-    61.1,
+    69.1,
     73.1
    ],
    "altura_%": 4.2,
    "dentro_zona_segura": true,
    "contraste_preenchimento_contorno": 19.0,
-   "contraste_preenchimento_fundo_p95": 1.86,
-   "lum_fundo_mediana": 0.108,
-   "altura_px_tela_pequena_1/3": 13,
+   "contraste_preenchimento_fundo_p95": 1.29,
+   "lum_fundo_mediana": 0.033,
+   "altura_px_celular_360": 27,
+   "altura_px_miniatura_180": 13,
    "cps": 12.5,
-   "dur_s": 0.72
+   "dur_s": 1.36
   },
   {
-   "texto": "guerra.",
-   "t": 15.319,
-   "caixa_%": [
-    35.2,
-    70.1,
-    64.8,
-    74.1
-   ],
-   "altura_%": 4.0,
-   "dentro_zona_segura": true,
-   "contraste_preenchimento_contorno": 19.0,
-   "contraste_preenchimento_fundo_p95": 1.21,
-   "lum_fundo_mediana": 0.048,
-   "altura_px_tela_pequena_1/3": 13,
-   "cps": 9.8,
-   "dur_s": 0.71
-  },
-  {
-   "texto": "Mas o",
-   "t": 15.83,
-   "caixa_%": [
-    35.6,
-    70.0,
-    64.4,
-    74.0
-   ],
-   "altura_%": 4.0,
-   "dentro_zona_segura": true,
-   "contraste_preenchimento_contorno": 19.0,
-   "contraste_preenchimento_fundo_p95": 3.54,
-   "lum_fundo_mediana": 0.069,
-   "altura_px_tela_pequena_1/3": 13,
-   "cps": 16.1,
-   "dur_s": 0.31
-  },
-  {
-   "texto": "almirante",
-   "t": 16.269,
+   "texto": "Mas o almirante",
+   "t": 16.126,
    "caixa_%": [
     38.5,
     69.4,
@@ -561,15 +458,16 @@
    "altura_%": 3.7,
    "dentro_zona_segura": true,
    "contraste_preenchimento_contorno": 19.0,
-   "contraste_preenchimento_fundo_p95": 4.45,
+   "contraste_preenchimento_fundo_p95": 4.54,
    "lum_fundo_mediana": 0.023,
-   "altura_px_tela_pequena_1/3": 12,
-   "cps": 11.7,
-   "dur_s": 0.77
+   "altura_px_celular_360": 24,
+   "altura_px_miniatura_180": 12,
+   "cps": 16.6,
+   "dur_s": 0.9
   },
   {
    "texto": "recusou",
-   "t": 16.81,
+   "t": 16.772,
    "caixa_%": [
     30.9,
     69.0,
@@ -579,11 +477,12 @@
    "altura_%": 4.2,
    "dentro_zona_segura": true,
    "contraste_preenchimento_contorno": 19.0,
-   "contraste_preenchimento_fundo_p95": 4.1,
-   "lum_fundo_mediana": 0.02,
-   "altura_px_tela_pequena_1/3": 13,
-   "cps": 15.0,
-   "dur_s": 0.47
+   "contraste_preenchimento_fundo_p95": 4.07,
+   "lum_fundo_mediana": 0.021,
+   "altura_px_celular_360": 27,
+   "altura_px_miniatura_180": 13,
+   "cps": 17.9,
+   "dur_s": 0.39
   },
   {
    "texto": "atacar.",
@@ -599,13 +498,14 @@
    "contraste_preenchimento_contorno": 19.0,
    "contraste_preenchimento_fundo_p95": 4.06,
    "lum_fundo_mediana": 0.021,
-   "altura_px_tela_pequena_1/3": 13,
+   "altura_px_celular_360": 25,
+   "altura_px_miniatura_180": 13,
    "cps": 11.4,
    "dur_s": 0.61
   },
   {
    "texto": "Ninguém",
-   "t": 17.845,
+   "t": 17.795,
    "caixa_%": [
     36.1,
     69.6,
@@ -615,11 +515,12 @@
    "altura_%": 3.5,
    "dentro_zona_segura": true,
    "contraste_preenchimento_contorno": 19.0,
-   "contraste_preenchimento_fundo_p95": 5.53,
-   "lum_fundo_mediana": 0.034,
-   "altura_px_tela_pequena_1/3": 12,
-   "cps": 13.2,
-   "dur_s": 0.53
+   "contraste_preenchimento_fundo_p95": 5.36,
+   "lum_fundo_mediana": 0.031,
+   "altura_px_celular_360": 23,
+   "altura_px_miniatura_180": 12,
+   "cps": 16.3,
+   "dur_s": 0.43
   },
   {
    "texto": "morreu.",
@@ -635,67 +536,52 @@
    "contraste_preenchimento_contorno": 19.0,
    "contraste_preenchimento_fundo_p95": 4.26,
    "lum_fundo_mediana": 0.044,
-   "altura_px_tela_pequena_1/3": 16,
+   "altura_px_celular_360": 33,
+   "altura_px_miniatura_180": 16,
    "cps": 10.4,
    "dur_s": 0.67
   },
   {
-   "texto": "Só o",
-   "t": 18.874,
+   "texto": "Só o porco.",
+   "t": 19.21,
    "caixa_%": [
-    34.3,
-    70.0,
-    65.9,
-    73.1
-   ],
-   "altura_%": 3.1,
-   "dentro_zona_segura": true,
-   "contraste_preenchimento_contorno": 19.0,
-   "contraste_preenchimento_fundo_p95": 4.56,
-   "lum_fundo_mediana": 0.04,
-   "altura_px_tela_pequena_1/3": 10,
-   "cps": 10.6,
-   "dur_s": 0.38
-  },
-  {
-   "texto": "porco.",
-   "t": 19.361,
-   "caixa_%": [
-    40.9,
+    40.7,
     69.2,
-    58.9,
-    73.1
+    59.1,
+    73.3
    ],
-   "altura_%": 4.0,
+   "altura_%": 4.2,
    "dentro_zona_segura": true,
    "contraste_preenchimento_contorno": 19.0,
-   "contraste_preenchimento_fundo_p95": 4.52,
-   "lum_fundo_mediana": 0.044,
-   "altura_px_tela_pequena_1/3": 13,
-   "cps": 8.0,
-   "dur_s": 0.75
+   "contraste_preenchimento_fundo_p95": 4.37,
+   "lum_fundo_mediana": 0.045,
+   "altura_px_celular_360": 26,
+   "altura_px_miniatura_180": 14,
+   "cps": 10.5,
+   "dur_s": 1.05
   }
  ],
  "checks": {
   "todas_as_camadas_de_legenda_lidas": true,
   "caixas_dentro_da_zona_segura (x 6–94 %, y 8–80 %)": true,
-  "altura_do_texto ≥ 3,5 % da altura do quadro": false,
+  "altura da caixa do texto ≥ 2,5 % da altura do quadro (pior caso: palavra só com x-height, ex. \"um\"; corpo da fonte = 6,4 %)": true,
   "contraste preenchimento×contorno ≥ 7:1 (WCAG AAA)": true,
   "contraste preenchimento×fundo (p95 mais claro) ≥ 1,5:1 OU contorno ≥ 7:1 (contorno separa o texto)": true,
-  "velocidade de leitura ≤ 20 caracteres/s": true,
-  "cartões ≥ 0,25 s": false,
-  "tela pequena (1/3): texto ≥ 14 px de altura": false,
+  "velocidade de leitura ≤ 20 caracteres/s": false,
+  "cartões exibidos por ≥ 0,30 s (janela real: cartão seguinte encerra o anterior)": true,
+  "celular de 360 px de largura: texto ≥ 12 px de altura; miniatura de 180 px: ≥ 8 px": true,
   "idioma pt-BR declarado (production.json) e texto em português": true,
   "faixa de áudio com tag de idioma (por/pt)": false
  },
  "resumo": {
-  "cartoes": 37,
-  "altura_%_min": 3.1,
+  "cartoes": 29,
+  "altura_%_min": 3.5,
   "altura_%_max": 5.0,
   "contraste_fill_contorno_min": 19.0,
-  "contraste_fill_fundo_p95_min": 1.21,
-  "cps_max": 19.7,
-  "px_tela_pequena_min": 10,
+  "contraste_fill_fundo_p95_min": 1.29,
+  "cps_max": 23.1,
+  "px_celular_360_min": 23,
+  "px_miniatura_180_min": 12,
   "caixa_x_%_min_max": [
    24.6,
    75.4

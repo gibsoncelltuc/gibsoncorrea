@@ -52,8 +52,10 @@ def walk(t, speed=1.7, off=0.0):
     ph = (t + off) * speed * math.pi * 2; s, c = math.sin(ph), math.cos(ph)
     return dict(bob=abs(c) * .09 - .03, legL=(s * .55, max(0, -c) * .6), legR=(-s * .55, max(0, c) * .6), armL=(-s * .5, .25), armR=(s * .5, .25), lean=-.04)
 def march(t, off=0.0):
+    """marcha: a perna que vai PARA TRÁS é a de apoio (reta); a que vai para a frente dobra o joelho (livra o chão). A pelve desce 1,2·(1−cos θ) (comprimento da perna × ...)
+    para que o pé de apoio TOQUE o chão em todo o ciclo (antes: o corpo não descia e os dois pés flutuavam até 11 cm em 1/3 do tempo — medido por blender/motion_test.py)."""
     ph = (t + off) * 1.9 * math.pi * 2; s, c = math.sin(ph), math.cos(ph)
-    return dict(bob=abs(c) * .07, legL=(s * .62, max(0, -c) * .8), legR=(-s * .62, max(0, c) * .8), armL=(-s * .25 + .2, .9), armR=(s * .25 + .2, .9), lean=0)
+    return dict(bob=-1.2 * (1 - math.cos(.62 * s)) + abs(c) * .03, legL=(s * .62, max(0, c) * .8), legR=(-s * .62, max(0, -c) * .8), armL=(-s * .25 + .2, .9), armR=(s * .25 + .2, .9), lean=0)
 def aim_up(t, t0, tfire): return keys(t, [(t0, 0), (tfire - .12, 1)], ease_inout)
 def aim_fire(t, base, t0, tfire):
     up = aim_up(t, t0, tfire); rec = math.exp(-(t - tfire) * 7) if t >= tfire else 0.0
