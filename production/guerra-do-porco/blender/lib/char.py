@@ -61,6 +61,65 @@ def m_capsule(r, L, seg=10, rings=3):
         for p in me.polygons: p.use_smooth = True
         return me
     return _m(('cap', round(r, 4), round(L, 4)), b)
+def m_lens(n=14, p=.55):
+    """traço de pincel afilado (sobrancelha/boca): grosso no meio e pontudo nas pontas, largura 1 × altura 1 (escalar no objeto)"""
+    def b():
+        xs = np.linspace(-.5, .5, n); top = [(float(x), 0, float(.5 * max(1e-4, 1 - (2 * x) ** 2) ** p)) for x in xs]; bot = [(float(x), 0, float(-.5 * max(1e-4, 1 - (2 * x) ** 2) ** p)) for x in xs[::-1]]
+        V = top + bot[1:-1]; me = bpy.data.meshes.new('lens'); me.from_pydata(V, [], [tuple(range(len(V)))]); me.update(); return me
+    return _m(('lens', n, round(p, 3)), b)
+# ---------------- contorno de tinta irregular (look "feito à mão" do canal) ----------------
+# Medido nos quadros nativos das gravações: a espessura varia ao longo da linha — fina do lado da luz (alto-esquerda), 2–3× mais grossa no lado oposto (baixo-direita),
+# com lobos suaves e trechos ("pedaços") de espessura diferente. g(φ) tem média ≈ 1; a espessura real é t_médio * g(φ_normal).
+import zlib
+def seed_of(*parts): return zlib.crc32(':'.join(str(x) for x in parts).encode()) & 0x7fffffff
+_G = {}
+def ink_g(seed, bias=0.55, light_deg=135.0, pieces=5):
+    key = (seed, round(bias, 3), round(light_deg, 1), pieces)
+    if key in _G: return _G[key]
+    r = np.random.default_rng(seed); N = 720; ph = np.linspace(0, 2 * np.pi, N, endpoint=False)
+    base = 1 - bias * np.cos(ph - np.radians(light_deg))
+    for k, a in ((2, .10), (3, .09), (5, .07)): base = base + r.uniform(.5, 1.0) * a * np.cos(k * ph + r.uniform(0, 2 * np.pi))
+    nb = int(r.integers(max(3, pieces - 1), pieces + 2)); br = np.sort(r.uniform(0, 2 * np.pi, nb)); mu = r.uniform(.80, 1.30, nb)
+    step = np.ones(N)
+    for i in range(nb):
+        a0, a1 = br[i], br[(i + 1) % nb] + (2 * np.pi if i == nb - 1 else 0)
+        m = ((ph >= a0) & (ph < a1)) | ((ph + 2 * np.pi >= a0) & (ph + 2 * np.pi < a1)); step[m] = mu[i]
+    k = np.exp(-0.5 * ((np.minimum(ph, 2 * np.pi - ph)) / 0.10) ** 2); k /= k.sum()                  # suaviza os degraus (σ≈6°) por convolução circular
+    step = np.real(np.fft.ifft(np.fft.fft(step) * np.fft.fft(k)))
+    g = np.clip(base * step, .28, 2.6); g = g / g.mean()
+    def f(phi): return np.interp(np.mod(phi, 2 * np.pi), np.append(ph, 2 * np.pi), np.append(g, g[0]))
+    _G[key] = f; return f
+_ink = {}
+FACE_DZ = .085   # feições sobem .085 U (medido: olhos a +0,12 D e boca a −0,06 D do centro da cabeça nos quadros nativos)
+INK_K = 1.2   # fator global de espessura (calibrado nos quadros nativos: lado grosso ≈ 6 % do diâmetro da cabeça, lado fino ≈ 2 %)
+def ink_poly(pts, t, seed, bias=0.6, light=135.0, pieces=5, name='inkp'):
+    """malha 'gêmea de tinta' de um polígono convexo (N,2) no plano XZ: pontos deslocados pela normal * t * g(φ). Sombreamento em leque a partir da origem."""
+    key = (name, round(float(t), 4), seed, round(bias, 3), round(light, 1), pieces, len(pts), round(float(np.abs(pts).max()), 4))
+    if key in _ink: return _ink[key]
+    P = np.asarray(pts, float); d = np.roll(P, -1, 0) - np.roll(P, 1, 0); nr = np.stack([d[:, 1], -d[:, 0]], 1); nr /= np.linalg.norm(nr, axis=1, keepdims=True) + 1e-9
+    phi = np.arctan2(nr[:, 1], nr[:, 0]); out = P + nr * (t * INK_K * ink_g(seed, bias, light, pieces)(phi))[:, None]
+    V = [(0, 0, 0)] + [(float(x), 0, float(z)) for x, z in out]; n = len(out); F = [(0, 1 + i, 1 + (i + 1) % n) for i in range(n)]
+    me = bpy.data.meshes.new(name); me.from_pydata(V, [], F); me.update(); _ink[key] = me; return me
+def ell_pts(a, b, n=48): th = np.linspace(0, 2 * np.pi, n, endpoint=False); return np.stack([a * np.cos(th), b * np.sin(th)], 1)
+def stad_pts(w, h, n=14):
+    r = w / 2; hh = max(0, (h - w) / 2); a = np.linspace(0, np.pi, n)
+    return np.array([(r * math.cos(t), hh + r * math.sin(t)) for t in a] + [(-r * math.cos(t), -hh - r * math.sin(t)) for t in a])
+def m_capsule_var(r, L, seed, vary=.22, seg=10, rings=3, nmid=6, name='capv'):
+    """cápsula (pendurada em -Z) cujo raio ondula suavemente ao longo do comprimento — traço de macarrão com pressão variável"""
+    key = ('capv', round(r, 4), round(L, 4), seed, round(vary, 3))
+    def b():
+        rr = np.random.default_rng(seed); ph = rr.uniform(0, 2 * np.pi, 2); f = lambda s: 1 + vary * (.6 * math.sin(2 * math.pi * 1.0 * s + ph[0]) + .4 * math.sin(2 * math.pi * 2.3 * s + ph[1]))
+        V = []; F = []; ring = lambda z, rad: [(rad * math.cos(t), rad * math.sin(t), z) for t in np.linspace(0, 2 * np.pi, seg, endpoint=False)]
+        top = [(r * math.sin(math.pi / 2 * (1 - k / rings)), r * math.cos(math.pi / 2 * (1 - k / rings)) * f(0)) for k in range(rings + 1)]; bot = [(-L - z, rad * f(1) / f(0)) for (z, rad) in reversed(top)]
+        lv = [(z, max(rad, 1e-4)) for z, rad in top]; lv += [(-L * (i + 1) / (nmid + 1), r * f((i + 1) / (nmid + 1))) for i in range(nmid)]
+        lv += [(-L - (r * math.sin(math.pi / 2 * (1 - k / rings))), max(r * math.cos(math.pi / 2 * (1 - k / rings)) * f(1), 1e-4)) for k in range(rings, -1, -1)]
+        for z, rad in lv: V += ring(z, rad)
+        for i in range(len(lv) - 1):
+            for j in range(seg): a, b2 = i * seg + j, i * seg + (j + 1) % seg; F.append((a, b2, b2 + seg, a + seg))
+        me = bpy.data.meshes.new(name); me.from_pydata(V, [], F); me.update()
+        for pgn in me.polygons: pgn.use_smooth = True
+        return me
+    return _m(key, b)
 def mat(name, color, kind='cutout', **kw):
     key = (name, tuple(color), kind, tuple(sorted(kw.items())))
     if key not in _mat: _mat[key] = (mats.cutout(name, color, **kw) if kind == 'cutout' else mats.ink(name) if kind == 'ink' else mats.cutout_img(name, color, **kw))
@@ -71,6 +130,7 @@ class Char:
     """Personagem: constrói a hierarquia uma vez; apply_pose(...) atualiza juntas/expressões por frame."""
     def __init__(self, name, look, col=None):
         self.name = name; self.look = look; self.b = look.get('build', 1.0); self.col = col; self.objs = []; self.var = {}
+        self.light = look.get('inkLight', 135.0 + (seed_of(name, 'light') % 51) - 25)   # direção (° no plano XZ) do lado em que o contorno é mais fino
         self.root = util.empty(name, col=col)
         self.body = util.empty(name + '_body', parent=self.root, col=col)
         b = self.b
@@ -83,12 +143,12 @@ class Char:
             hip = util.empty(f'{name}_hip{side}', (sx * U, dy * U, 1.38 * U), self.body, col)
             self.limb(hip, .56, .045, hexc(look.get('pants', '#2f2a46')), dy)
             knee = util.empty(f'{name}_knee{side}', (0, 0, -.58 * U), hip, col); self.limb(knee, .55, .045, hexc(look.get('pants', '#2f2a46')), dy)
-            foot = util.empty(f'{name}_foot{side}', (0, 0, -.62 * U), knee, col); self.flat(foot, m_disc(20), (.2 * U, 1, .115 * U), (.1 * U, dy * U + .002, .02 * U), M_INK); self.flat(foot, m_disc(20), (.16 * U, 1, .08 * U), (.1 * U, dy * U - .002, .02 * U), mat('shoe', hexc(look.get('shoe', '#2a2030')), emit=.2))
+            foot = util.empty(f'{name}_foot{side}', (0, 0, -.62 * U), knee, col); self.ink(foot, .16 * U, .08 * U, .0375 * U, (.1 * U, dy * U + .002, .02 * U), 20, key='foot' + side); self.flat(foot, m_disc(20), (.16 * U, 1, .08 * U), (.1 * U, dy * U - .002, .02 * U), mat('shoe', hexc(look.get('shoe', '#2a2030')), emit=.2))
             self.leg[side] = (hip, knee)
         # tronco
         self.torso = util.empty(name + '_torso', (0, 0, 1.38 * U), self.body, col)
-        tw, th = .9 * b * U, 1.4 * U; torso_out = m_stadium(tw + .1 * U, th + .1 * U); torso_fill = m_stadium(tw, th)
-        self.flat(self.torso, torso_out, (1, 1, 1), (0, .004, .55 * U), M_INK)
+        tw, th = .9 * b * U, 1.4 * U; torso_fill = m_stadium(tw, th)
+        self.ink(self.torso, 0, 0, .05 * U, (0, .004, .55 * U), key='torso', poly=stad_pts(tw, th))
         pat = look.get('pattern', 'plain'); shirt = hexc(look['shirt'])
         if pat != 'plain': tex = texlib.fabric(pat, look['shirt'], look.get('shirt2', '#ffffff')); M_T = mats.cutout_img(f'fab_{name}', tex, emit=.28)
         else: M_T = mat('shirt_' + look['shirt'], shirt, emit=.28)
@@ -99,13 +159,15 @@ class Char:
         for side, sx, dy in (('L', -.45 * b, .05), ('R', .45 * b, -.07)):
             sh = util.empty(f'{name}_sh{side}', (sx * U, dy * U, .95 * U), self.torso, col)
             self.limb(sh, .5, .04, sl, dy); el = util.empty(f'{name}_el{side}', (0, 0, -.52 * U), sh, col); self.limb(el, .46, .04, sl, dy)
-            hand = util.empty(f'{name}_hand{side}', (0, 0, -.5 * U), el, col); self.flat(hand, m_disc(20), (.125 * U, 1, .125 * U), (0, -.0, -.07 * U), M_INK); self.flat(hand, m_disc(20), (.088 * U, 1, .088 * U), (0, -.004, -.07 * U), M_W)
+            hand = util.empty(f'{name}_hand{side}', (0, 0, -.5 * U), el, col); self.ink(hand, .088 * U, .088 * U, .037 * U, (0, -.0, -.07 * U), 20, key='hand' + side); self.flat(hand, m_disc(20), (.088 * U, 1, .088 * U), (0, -.004, -.07 * U), M_W)
             self.arm[side] = (sh, el, hand)
         # cabeça
         self.head = util.empty(name + '_head', (0, -.10 * U, 1.79 * U), self.torso, col)
         hs = look.get('headScale', 1.0); R = .56 * U * hs
-        self.flat(self.head, m_disc(56), (R + .047 * U, 1, R + .047 * U), (0, .004, 0), M_INK); self.flat(self.head, m_disc(56), (R, 1, R), (0, 0, 0), M_SH); self.flat(self.head, m_disc(56), (R - .052 * U, 1, R - .052 * U), (.04 * U, -.003, .045 * U), M_W)
-        self.face(look, R)
+        self.ink(self.head, R, R, .047 * U, (0, .004, 0), 56, key='head'); self.flat(self.head, m_disc(56), (R, 1, R), (0, 0, 0), M_SH); self.flat(self.head, m_disc(56), (R - .052 * U, 1, R - .052 * U), (.04 * U, -.003, .045 * U), M_W)
+        n0 = len(self.objs); self.face(look, R)
+        for o in self.objs[n0:]:
+            if o.parent == self.head: o.location.z += FACE_DZ * U
         self.hat(look)
     # ---------- construção ----------
     def add(self, parent, me, scale, loc, material, rot=(0, 0, 0), name='p'):
@@ -115,9 +177,13 @@ class Char:
             o.material_slots[0].link = 'OBJECT'; o.material_slots[0].material = material
         util.link(o, self.col); self.objs.append(o); return o
     def flat(self, parent, me, scale, loc, material, rot=(0, 0, 0)): return self.add(parent, me, scale, loc, material, rot)
+    def ink(self, parent, a, b, t, loc, n=40, key='x', rot=(0, 0, 0), poly=None):
+        """gêmea de tinta irregular de um preenchimento elíptico (semi-eixos a,b) ou polígono `poly`; t = espessura média"""
+        pts = ell_pts(a, b, n) if poly is None else poly
+        return self.add(parent, ink_poly(pts, t, seed_of(self.name, key), light=self.light), (1, 1, 1), loc, self.M_INK, rot=rot, name='ink')
     def limb(self, parent, L, r, color, dy):
-        M = mat('limb_' + str(tuple(np.round(color, 3))), color, emit=.25)
-        self.add(parent, m_capsule((r + .04) * U, L * U), (1, 1, 1), (0, dy * U + .04 * U + .004, 0), self.M_INK); self.add(parent, m_capsule(r * U, L * U), (1, 1, 1), (0, dy * U - .002, 0), M)
+        """membro "macarrão" do canal: traço de tinta (preto arroxeado) de espessura ≈ 7 % do diâmetro da cabeça, com leve ondulação de pressão; sem preenchimento colorido"""
+        self.add(parent, m_capsule_var(.042 * U, L * U, seed_of(self.name, 'limb', len(self.objs)), vary=.12), (1, 1, 1), (0, dy * U, 0), self.M_INK, name='limb')
     def outfit(self, look, tw, th):
         o = look.get('outfit', 'plain'); b = self.b; T = self.torso; gold = mat('gold', hexc('#f0c250'), emit=.4)
         if o == 'overalls':
@@ -139,18 +205,18 @@ class Char:
         H = self.head; M_INK = self.M_INK; U_ = U; sc = lambda v: v * U_
         eye = {}
         for side in (-1, 1):
-            g = util.empty(f'{self.name}_eye{side}', (side * sc(.2), -.012, sc(.04)), H, self.col); self.objs.append(g)
-            pup = self.add(g, m_disc(14), (sc(.05), 1, sc(.056)), (0, -.002, 0), M_INK, name='pupil'); lid = self.add(g, m_box(), (sc(.215), 1, sc(.052)), (0, -.004, sc(.048)), M_INK, name='lid')
+            g = util.empty(f'{self.name}_eye{side}', (side * sc(.145), -.012, sc(.03)), H, self.col); self.objs.append(g)
+            pup = self.add(g, m_disc(14), (sc(.057), 1, sc(.064)), (0, -.002, 0), M_INK, name='pupil'); lid = self.add(g, m_box(), (sc(.22), 1, sc(.042)), (0, -.004, sc(.05)), M_INK, name='lid')
             lash = self.add(g, m_arc(.14, math.pi * .7), (sc(.085), 1, sc(.085)), (0, -.001, sc(-.015)), M_INK, rot=(0, 0, 0), name='lash'); lash.rotation_euler[1] = 0
             wo = self.add(g, m_disc(22), (sc(.125), 1, sc(.125)), (0, -.002, 0), M_INK, name='wide_o'); wi = self.add(g, m_disc(22), (sc(.1), 1, sc(.1)), (0, -.003, 0), self.M_W, name='wide_i'); wp = self.add(g, m_disc(12), (sc(.03), 1, sc(.03)), (0, -.004, 0), M_INK, name='wide_p')
             ar = self.add(g, m_arc(.3, math.pi), (sc(.085), 1, sc(.085)), (0, -.003, sc(-.03)), M_INK, name='arc')
             x1 = self.add(g, m_box(), (sc(.17), 1, sc(.035)), (0, -.003, 0), M_INK, rot=(0, .8, 0), name='x1'); x2 = self.add(g, m_box(), (sc(.17), 1, sc(.035)), (0, -.003, 0), M_INK, rot=(0, -.8, 0), name='x2')
-            brow = self.add(H, m_box(), (sc(.2), 1, sc(.045)), (side * sc(.2), -.013, sc(.21)), M_INK, name='brow')
+            brow = self.add(H, m_lens(14, .5), (sc(.23), 1, sc(.055)), (side * sc(.15), -.013, sc(.21)), M_INK, name='brow')
             eye[side] = dict(g=g, pup=pup, lid=lid, lash=lash, wide=(wo, wi, wp), arc=ar, x=(x1, x2), brow=brow)
         self.eye = eye
         # bocas
         m = {}
-        m['line'] = [self.add(H, m_box(), (sc(.17), 1, sc(.034)), (0, -.012, sc(-.21)), M_INK)]
+        m['line'] = [self.add(H, m_lens(14, .6), (sc(.24), 1, sc(.045)), (0, -.012, sc(-.21)), M_INK)]
         m['smirk'] = [self.add(H, m_arc(.18, math.pi * .75), (sc(.13), 1, sc(.13)), (sc(.05), -.012, sc(-.15)), M_INK, rot=(0, math.pi + .3, 0))]
         m['smile'] = [self.add(H, m_arc(.16, math.pi), (sc(.15), 1, sc(.15)), (0, -.012, sc(-.14)), M_INK, rot=(0, math.pi, 0))]
         m['frown'] = [self.add(H, m_arc(.18, math.pi), (sc(.13), 1, sc(.13)), (0, -.012, sc(-.3)), M_INK)]
@@ -181,21 +247,21 @@ class Char:
         if not h: return
         col = look.get('hatColor', '#e8c068'); M = mat('hat_' + col, hexc(col), emit=.28)
         if h == 'straw':
-            g = util.empty(f'{self.name}_hat', (0, -.02, sc(.47)), H, self.col); self.add(g, m_disc(40), (sc(.86), 1, sc(.2)), (0, .004, 0), M_INK); self.add(g, m_disc(40), (sc(.81), 1, sc(.165)), (0, 0, 0), M)
-            self.add(g, m_disc(28), (sc(.44), 1, sc(.34)), (0, .003, sc(.2)), M_INK); self.add(g, m_disc(28), (sc(.4), 1, sc(.3)), (0, 0, sc(.2)), M); self.add(g, m_box(), (sc(.74), 1, sc(.08)), (0, -.004, sc(.06)), mat('band', hexc(look.get('hatBand', '#3a6aa8')), emit=.3))
+            g = util.empty(f'{self.name}_hat', (0, -.02, sc(.47)), H, self.col); self.ink(g, sc(.81), sc(.165), sc(.0425), (0, .004, 0), 40, key='brim'); self.add(g, m_disc(40), (sc(.81), 1, sc(.165)), (0, 0, 0), M)
+            self.ink(g, sc(.4), sc(.3), sc(.04), (0, .003, sc(.2)), 28, key='crown'); self.add(g, m_disc(28), (sc(.4), 1, sc(.3)), (0, 0, sc(.2)), M); self.add(g, m_box(), (sc(.74), 1, sc(.08)), (0, -.004, sc(.06)), mat('band', hexc(look.get('hatBand', '#3a6aa8')), emit=.3))
         elif h == 'kepi':
-            g = util.empty(f'{self.name}_hat', (0, -.02, sc(.46)), H, self.col); g.rotation_euler[1] = -.06; self.add(g, m_disc(30), (sc(.5), 1, sc(.27)), (sc(.02), .004, sc(.08)), M_INK); self.add(g, m_disc(30), (sc(.46), 1, sc(.235)), (sc(.02), 0, sc(.08)), M)
-            self.add(g, m_disc(20), (sc(.34), 1, sc(.075)), (sc(.36), .004, -sc(.07)), M_INK); self.add(g, m_disc(20), (sc(.3), 1, sc(.05)), (sc(.36), 0, -sc(.07)), mat('visor', hexc('#1f2f55'), emit=.25)); self.add(g, m_disc(14), (sc(.07), 1, sc(.07)), (0, -.004, sc(.08)), mat('gold', hexc('#f0c250'), emit=.4))
+            g = util.empty(f'{self.name}_hat', (0, -.02, sc(.46)), H, self.col); g.rotation_euler[1] = -.06; self.ink(g, sc(.46), sc(.235), sc(.0375), (sc(.02), .004, sc(.08)), 30, key='kcap'); self.add(g, m_disc(30), (sc(.46), 1, sc(.235)), (sc(.02), 0, sc(.08)), M)
+            self.ink(g, sc(.3), sc(.05), sc(.0325), (sc(.36), .004, -sc(.07)), 20, key='kvisor'); self.add(g, m_disc(20), (sc(.3), 1, sc(.05)), (sc(.36), 0, -sc(.07)), mat('visor', hexc('#1f2f55'), emit=.25)); self.add(g, m_disc(14), (sc(.07), 1, sc(.07)), (0, -.004, sc(.08)), mat('gold', hexc('#f0c250'), emit=.4))
         elif h == 'flatcap':
             g = util.empty(f'{self.name}_hat', (0, -.02, sc(.42)), H, self.col); tex = texlib.fabric('tweed', col, '#b9a27a'); Mt = mats.cutout_img('tweed_' + self.name, tex, emit=.28)
-            self.add(g, m_disc(30), (sc(.62), 1, sc(.3)), (0, .004, sc(.07)), M_INK); self.add(g, m_disc(30), (sc(.575), 1, sc(.262)), (0, 0, sc(.07)), Mt); self.add(g, m_disc(20), (sc(.3), 1, sc(.07)), (sc(.42), .004, -sc(.06)), M_INK); self.add(g, m_disc(20), (sc(.26), 1, sc(.045)), (sc(.42), 0, -sc(.06)), M)
+            self.ink(g, sc(.575), sc(.262), sc(.0415), (0, .004, sc(.07)), 30, key='fcap'); self.add(g, m_disc(30), (sc(.575), 1, sc(.262)), (0, 0, sc(.07)), Mt); self.ink(g, sc(.26), sc(.045), sc(.0325), (sc(.42), .004, -sc(.06)), 20, key='fvisor'); self.add(g, m_disc(20), (sc(.26), 1, sc(.045)), (sc(.42), 0, -sc(.06)), M)
         elif h == 'bicorn':
             g = util.empty(f'{self.name}_hat', (0, -.02, sc(.5)), H, self.col); blk = mat('bicorn', hexc('#1c1a2c'), emit=.2); gold = mat('gold', hexc('#f0c250'), emit=.4)
-            self.add(g, m_disc(40), (sc(.78), 1, sc(.26)), (0, .004, sc(.05)), M_INK); self.add(g, m_disc(40), (sc(.73), 1, sc(.22)), (0, 0, sc(.05)), blk)
+            self.ink(g, sc(.73), sc(.22), sc(.045), (0, .004, sc(.05)), 40, key='bicap'); self.add(g, m_disc(40), (sc(.73), 1, sc(.22)), (0, 0, sc(.05)), blk)
             for s in (-1, 1): self.add(g, m_disc(14), (sc(.15), 1, sc(.18)), (s * sc(.62), .004, sc(.1)), M_INK)
             self.add(g, m_box(), (sc(.95), 1, sc(.04)), (0, -.004, 0), gold); self.add(g, m_disc(14), (sc(.07), 1, sc(.07)), (0, -.006, sc(.1)), mat('cockade', hexc('#c8372f'), emit=.3))
         elif h == 'peaked':
-            g = util.empty(f'{self.name}_hat', (0, -.02, sc(.44)), H, self.col); self.add(g, m_disc(30), (sc(.56), 1, sc(.28)), (0, .004, sc(.08)), M_INK); self.add(g, m_disc(30), (sc(.52), 1, sc(.245)), (0, 0, sc(.08)), M)
+            g = util.empty(f'{self.name}_hat', (0, -.02, sc(.44)), H, self.col); self.ink(g, sc(.52), sc(.245), sc(.0375), (0, .004, sc(.08)), 30, key='pcap'); self.add(g, m_disc(30), (sc(.52), 1, sc(.245)), (0, 0, sc(.08)), M)
             self.add(g, m_box(), (sc(.78), 1, sc(.09)), (0, -.004, -sc(.02)), mat('band_w', hexc('#f6f1e6'), emit=.3)); self.add(g, m_disc(20), (sc(.3), 1, sc(.07)), (sc(.38), .004, -sc(.08)), mat('visor2', hexc('#1a1a2a'), emit=.2)); self.add(g, m_disc(14), (sc(.07), 1, sc(.07)), (0, -.006, sc(.04)), mat('gold', hexc('#f0c250'), emit=.4))
     # ---------- pose por frame ----------
     def pose(self, P):
@@ -207,9 +273,9 @@ class Char:
         lid = min(1.0, P.get('lid', .42) + P.get('blink', 0) * .9); eyev = P.get('eye', 'lid'); lx, ly = P.get('look', (0, 0)); ang = P.get('angry', 0); brows = P.get('brows', (0, 0))
         for side in (-1, 1):
             e = self.eye[side]; vis = lambda o, v: setattr(o, 'hide_render', not v) or setattr(o, 'hide_viewport', not v)
-            vis(e['pup'], eyev == 'lid' and lid < .92); vis(e['lid'], eyev == 'lid'); vis(e['lash'], eyev == 'lid'); [vis(o, eyev == 'wide') for o in e['wide']]; vis(e['arc'], eyev == 'arc'); [vis(o, eyev == 'x') for o in e['x']]
-            e['pup'].location = (lx * .03 * U, -.002, (-.012 + ly * .02) * U); e['lid'].location = (0, -.004, (.048 - lid * .075) * U); e['lid'].rotation_euler = (0, side * ang * .2, 0)
-            e['wide'][2].location = (lx * .03 * U, -.004, ly * .03 * U); b = brows[0 if side == -1 else 1]; e['brow'].location = (side * .2 * U, -.013, (.21 + b * .07) * U); e['brow'].rotation_euler = (0, -(side * ang * .5), 0)
+            vis(e['pup'], eyev == 'lid' and lid < .92); vis(e['lid'], eyev == 'lid'); vis(e['lash'], False); [vis(o, eyev == 'wide') for o in e['wide']]; vis(e['arc'], eyev == 'arc'); [vis(o, eyev == 'x') for o in e['x']]
+            e['pup'].location = (lx * .03 * U, -.002, (-.012 + ly * .02) * U); e['lid'].location = (0, -.004, (.085 - lid * .07) * U); e['lid'].rotation_euler = (0, side * ang * .2, 0)
+            e['wide'][2].location = (lx * .03 * U, -.004, ly * .03 * U); b = brows[0 if side == -1 else 1]; e['brow'].location = (side * .15 * U, -.013, (.21 + FACE_DZ + b * .07) * U); e['brow'].rotation_euler = (0, -(side * ang * .5), 0)
         mo = P.get('mouth', 'line'); 
         for k, objs in self.mouth.items():
             for o in objs: o.hide_render = (k != mo); o.hide_viewport = (k != mo)
@@ -217,7 +283,7 @@ class Char:
         for i, g in enumerate(self.sweat):
             on = sw > 0; g.hide_viewport = g.hide_render = not on
             for c in g.children: c.hide_render = c.hide_viewport = not on
-            f = (((sw + .5 * i) % 1) + 1) % 1; g.location.z = (.2 if i == 0 else .12) * U - f * .35 * U; g.scale = (1 - f * .4,) * 3
+            f = (((sw + .5 * i) % 1) + 1) % 1; g.location.z = ((.2 if i == 0 else .12) + FACE_DZ) * U - f * .35 * U; g.scale = (1 - f * .4,) * 3
     def attach(self, side, obj, loc=(0, 0, -.07), rot=(0, 0, 0), scale=1.0):
         """prende um objeto à mão (L/R)"""
         hd = self.arm[side][2]; obj.parent = hd; obj.location = (loc[0] * U, loc[1], loc[2] * U); obj.rotation_euler = rot; obj.scale = (scale,) * 3

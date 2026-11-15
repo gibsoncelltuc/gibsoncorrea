@@ -90,15 +90,15 @@ class S3(Base):
 # ------------------------------------------------------------------ S4 — escalada (soldados e navios)
 class S4(Base):
     id = 'S4'
-    def keys_(self): return {'lead': self.lead.head, 'sol0': self.sol[0].head, 'sol20': self.sol[20].head, 'fleet': self.fleet[2]}
+    def keys_(self): return {'lead': self.lead.head, 'sol0': self.sol[0]['ch'].head, 'sol20': self.sol[20]['ch'].head, 'fleet': self.fleet[2]}
     def build(self):
-        R = self.R; self.f = farm.build('golden', grass_n=R['grass'] // 2, grass_areas=[((-42, -4, 16, 40), R['grass'])]); self.fleet = ships.fleet(); self.sol = crowd.block(8, 5); self.lead = char.Char('lead', LOOKS['soldier'])
+        R = self.R; self.f = farm.build('golden', grass_n=R['grass'] // 2, grass_areas=[((-42, -4, 16, 40), R['grass'])]); self.fleet = ships.fleet(); self.sol = crowd.block(10, 8); self.lead = char.Char('lead', LOOKS['soldier'])
         for o in self.f['trees']: o.visible_shadow = False   # abetos a oeste (|x|>38) projetavam sombra longa e escura (sol a 24°) sobre o campo desta cena
         for tp in [(-34, 38.5, 1.2, .2), (-27, 40.5, 1.1, -.3), (-41, 37.5, 1.0, .5)]: props.tent((tp[0], tp[1], gz(tp[0], tp[1])), tp[2], tp[3])
         self.us = props.Flag((-33, 42.0, gz(-33, 42)), 2.2, 1.4, texlib.flag_us(), 6.0); cn = props.cannon(); cn.location = (-22, 36, gz(-22, 36)); cn.rotation_euler = (0, 0, math.radians(75))
         self._ship_base = {o.name: (tuple(o.location), tuple(o.scale)) for o in self.fleet}
     def update(self, t):
-        s = SHOTS['S4']; bx = -24 + 2.45 * (t - s[0]); crowd.place_block(self.sol, bx, 27.8, t); self.us.update(t)
+        s = SHOTS['S4']; bx = -24 + 2.45 * (t - s[0]); crowd.place_block(self.sol, bx, 27.2, t); self.us.update(t)
         ld = idle(t, x=bx + 0.3, y=25.2, z=gz(bx + 0.3, 25.2), face=1); ld.update(march(t)); ld.update(eye='lid', lid=.4, angry=.3, brows=(.1, .1), mouth='line', armR=(.3, .2)); self.lead.pose(ld)
         tn = word_start('L4', 'navios') - .5; u = smoother((t - tn) / 1.0); fu = smoother((t - (tn - .45)) / 1.0)
         for o in self.fleet: loc, sc = self._ship_base[o.name]; o.hide_render = o.hide_viewport = fu < .01; k = .15 + .85 * fu; o.scale = (sc[0] * k, sc[1] * k, sc[2] * k); o.location = (loc[0], loc[1] + 35 * (1 - fu), loc[2])

@@ -10,7 +10,7 @@ def reset():
     bpy.ops.wm.read_factory_settings(use_empty=True)
     for c in list(bpy.data.collections): bpy.data.collections.remove(c)
     try:
-        from . import char; char._mesh.clear(); char._mat.clear()   # caches de malhas/materiais referenciam dados já removidos
+        from . import char; char._mesh.clear(); char._mat.clear(); char._ink.clear()   # caches de malhas/materiais referenciam dados já removidos
     except Exception: pass
 def collection(name):
     c = bpy.data.collections.get(name) or bpy.data.collections.new(name)

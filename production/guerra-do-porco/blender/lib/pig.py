@@ -1,29 +1,30 @@
 """Porco 2D cut-out em 3D (porta de src/characters/Pig.tsx): corpo, cabeça com focinho/orelha/olho (pálpebra ou X), 4 pernas, rabo em espiral."""
 import bpy, math
 from . import util, mats
-from .char import U, m_disc, m_box, m_tri, m_arc, m_capsule, mat, hexc, INK
+from .char import U, m_disc, m_box, m_tri, m_arc, m_capsule, m_capsule_var, ink_poly, ell_pts, seed_of, mat, hexc, INK
 class Pig:
     def __init__(self, name='pig', col=None):
         self.name = name; self.col = col; self.objs = []
         PINK, PINK2, PINK3 = hexc('#f7a2b6'), hexc('#e98aa2'), hexc('#ffd0da'); M_INK = mat('ink', INK, 'ink'); M_P = mat('pig_p', PINK, emit=.4); M_P2 = mat('pig_p2', PINK2, emit=.4); M_P3 = mat('pig_p3', PINK3, emit=.4)
         self.root = util.empty(name, col=col); self.pivot = util.empty(name + '_pivot', (0, 0, .88 * U), self.root, col); self.shape = util.empty(name + '_shape', (0, 0, -.88 * U), self.pivot, col)
-        a = self._add
+        a = self._add; self.light = 135.0 + (seed_of(name, 'light') % 51) - 25
+        ink = lambda parent, aa, bb, t, loc, n, key: a(parent, ink_poly(ell_pts(aa, bb, n), t, seed_of(name, key), light=self.light), (1, 1, 1), loc, M_INK)
         # pernas (articuladas no quadril)
         self.legs = []
         for i, (x, d) in enumerate([(-.62, -1), (-.34, 1), (.42, 1), (.70, -1)]):
             dy = .02 if i % 2 == 0 else -.03; g = util.empty(f'{name}_leg{i}', (x * U, dy * U, .68 * U), self.shape, col)
-            a(g, m_capsule(.15 * U, .38 * U), (1, 1, 1), (0, (.15 - .118) * U + .004, 0), M_INK); a(g, m_capsule(.118 * U, .38 * U), (1, 1, 1), (0, -.002, 0), M_P2)
+            a(g, m_capsule_var(.15 * U, .38 * U, seed_of(name, 'leg', i), vary=.08), (1, 1, 1), (0, (.15 - .118) * U + .004, 0), M_INK); a(g, m_capsule(.118 * U, .38 * U), (1, 1, 1), (0, -.002, 0), M_P2)
             a(g, m_disc(14), (.13 * U, 1, .08 * U), (.03 * U, -.004, -.66 * U), M_INK); self.legs.append((g, d))
         # tronco
-        a(self.shape, m_disc(40), (1.14 * U, 1, .74 * U), (0, .004, .88 * U), M_INK); a(self.shape, m_disc(40), (1.07 * U, 1, .67 * U), (0, 0, .88 * U), M_P)
+        ink(self.shape, 1.07 * U, .67 * U, .07 * U, (0, .004, .88 * U), 56, 'body'); a(self.shape, m_disc(40), (1.07 * U, 1, .67 * U), (0, 0, .88 * U), M_P)
         a(self.shape, m_disc(32), (.82 * U, 1, .34 * U), (-.05 * U, -.004, .66 * U), M_P3); a(self.shape, m_disc(20), (.3 * U, 1, .2 * U), (-.4 * U, -.006, 1.12 * U), mat('pig_spot', hexc('#7d4f66'), emit=.3))
         # rabo
         self.tail = util.empty(name + '_tail', (-1.05 * U, .03 * U, 1.05 * U), self.shape, col); a(self.tail, m_arc(.5, math.pi * 1.6), (.14 * U, 1, .14 * U), (0, .003, 0), M_INK); a(self.tail, m_arc(.25, math.pi * 1.6), (.14 * U, 1, .14 * U), (0, 0, 0), M_P2)
         # cabeça
         self.head = util.empty(name + '_head', (.98 * U, -.06 * U, .98 * U), self.shape, col); H = self.head
-        a(H, m_disc(36), (.52 * U, 1, .50 * U), (0, .004, 0), M_INK); a(H, m_disc(36), (.47 * U, 1, .45 * U), (0, 0, 0), M_P)
+        ink(H, .47 * U, .45 * U, .05 * U, (0, .004, 0), 48, 'head'); a(H, m_disc(36), (.47 * U, 1, .45 * U), (0, 0, 0), M_P)
         self.ear = util.empty(name + '_ear', (-.12 * U, -.004, .48 * U), H, col); a(self.ear, m_tri(), (.55 * U, 1, .5 * U), (0, .003, .1 * U), M_INK); a(self.ear, m_tri(), (.44 * U, 1, .4 * U), (0, 0, .09 * U), M_P2)
-        a(H, m_disc(22), (.25 * U, 1, .2 * U), (.46 * U, -.008, -.12 * U), M_INK); a(H, m_disc(22), (.215 * U, 1, .165 * U), (.46 * U, -.010, -.12 * U), M_P3)
+        ink(H, .215 * U, .165 * U, .0375 * U, (.46 * U, -.008, -.12 * U), 32, 'snout'); a(H, m_disc(22), (.215 * U, 1, .165 * U), (.46 * U, -.010, -.12 * U), M_P3)
         for dx in (.43, .54): a(H, m_disc(10), (.034 * U, 1, .055 * U), (dx * U, -.012, -.10 * U), M_INK)
         a(H, m_disc(12), (.07 * U, 1, .05 * U), (0, -.008, -.12 * U), mat('pig_blush', hexc('#f26a8a'), emit=.4))
         eg = util.empty(name + '_eye', (.14 * U, -.012, .12 * U), H, col); self.pupil = a(eg, m_disc(12), (.05 * U, 1, .058 * U), (0, 0, 0), M_INK); self.lid = a(eg, m_box(), (.16 * U, 1, .04 * U), (0, -.002, .055 * U), M_INK)
