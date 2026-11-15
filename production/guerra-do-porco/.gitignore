@@ -11,3 +11,4 @@ out/*.mp4
 out/stills/
 out/contact/
 out/*.png
+qa/_local/
