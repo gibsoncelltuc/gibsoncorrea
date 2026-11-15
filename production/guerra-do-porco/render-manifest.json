@@ -1,0 +1,117 @@
+{
+ "video": "renders/pilot_540.mp4",
+ "sha256_16": "39cade86a6ee779f",
+ "tamanho_mb": 28.32,
+ "duracao_s": 20.933,
+ "fps": 30.0,
+ "frames_video": 628,
+ "resolucao": "540x960",
+ "codec_video": "h264 yuv420p",
+ "codec_audio": "aac 48000 Hz",
+ "renderer": {
+  "blender": "5.3.0",
+  "motor": "Cycles CPU (4 vCPU, sem GPU)",
+  "amostras": 12,
+  "denoiser": "OpenImageDenoise (RGB+albedo+normal)",
+  "bounces": 3,
+  "view_transform": "Standard",
+  "exposicao_ev": -0.45,
+  "resolucao_render": "540x960",
+  "filtro": "Blackman-Harris 1.1"
+ },
+ "pos": {
+  "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers",
+  "etapas": "dissolve 0,4 s por alfa, unsharp, eq/colorbalance, bloom (screen), vinheta, grão, legendas ASS (Montserrat ExtraBold), AAC 192k"
+ },
+ "passadas": "p1 = quadros pares (15 fps efetivos), p2 = quadros ímpares (30 fps completos)",
+ "planos": {
+  "S1": {
+   "frames_por_passada": {
+    "p1": 59,
+    "p2": 58
+   },
+   "segundos_por_passada": {
+    "p1": 617.2,
+    "p2": 902.1
+   },
+   "objetos": 398,
+   "frames": 117,
+   "seg_total": 1519.3,
+   "s_por_frame": 13.0
+  },
+  "S2": {
+   "frames_por_passada": {
+    "p1": 65,
+    "p2": 65
+   },
+   "segundos_por_passada": {
+    "p1": 590.6,
+    "p2": 627.4
+   },
+   "objetos": 359,
+   "frames": 130,
+   "seg_total": 1218.0,
+   "s_por_frame": 9.4
+  },
+  "S3": {
+   "frames_por_passada": {
+    "p1": 63,
+    "p2": 62
+   },
+   "segundos_por_passada": {
+    "p1": 629.8,
+    "p2": 649.8
+   },
+   "objetos": 447,
+   "frames": 125,
+   "seg_total": 1279.6,
+   "s_por_frame": 10.2
+  },
+  "S4": {
+   "frames_por_passada": {
+    "p1": 72,
+    "p2": 71
+   },
+   "segundos_por_passada": {
+    "p1": 881.9,
+    "p2": 914.5
+   },
+   "objetos": 8982,
+   "frames": 143,
+   "seg_total": 1796.4,
+   "s_por_frame": 12.6
+  },
+  "S5": {
+   "frames_por_passada": {
+    "p1": 36,
+    "p2": 36
+   },
+   "segundos_por_passada": {
+    "p1": 417.2,
+    "p2": 195.9
+   },
+   "objetos": 309,
+   "frames": 72,
+   "seg_total": 613.1,
+   "s_por_frame": 8.5
+  },
+  "S6": {
+   "frames_por_passada": {
+    "p1": 54,
+    "p2": 21
+   },
+   "segundos_por_passada": {
+    "p1": 585.4,
+    "p2": 222.1
+   },
+   "objetos": 404,
+   "frames": 75,
+   "seg_total": 807.5,
+   "s_por_frame": 10.8
+  }
+ },
+ "tempo_total_render_s": 7233.9,
+ "maquina": "Linux-6.18.44-fc-v470-x86_64-with-glibc2.39",
+ "determinismo": "não executado",
+ "audio": "audio/final_mix.wav → aac 192k (mix.py: -14 LUFS, ducking sidechain)"
+}

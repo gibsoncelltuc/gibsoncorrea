@@ -6,18 +6,11 @@
   "p10": 0.5,
   "p90": 2.53
  },
- "v3a_uniforme": {
-  "quadros": 40,
-  "razao_p90_p10_mediana": 2.0,
-  "cv": 0.365,
-  "p10": 0.71,
-  "p90": 1.41
- },
- "v4_irregular": {
-  "quadros": 29,
-  "razao_p90_p10_mediana": 4.12,
-  "cv": 0.54,
-  "p10": 0.35,
-  "p90": 1.79
+ "piloto": {
+  "quadros": 35,
+  "razao_p90_p10_mediana": 5.1,
+  "cv": 0.642,
+  "p10": 0.39,
+  "p90": 2.03
  }
 }

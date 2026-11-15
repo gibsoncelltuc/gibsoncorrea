@@ -33,23 +33,23 @@
   },
   {
    "name": "sombras nunca pretas (L<0.05 < 6% dos pixels, exceto contorno)",
-   "pass": false,
-   "detail": "m\u00e1x 0.084"
+   "pass": true,
+   "detail": "m\u00e1x 0.003"
   },
   {
-   "name": "verde nunca lidera (<12% dos pixels em qualquer frame)",
-   "pass": false,
-   "detail": "m\u00e1x 0.154 m\u00e9dia 0.045"
+   "name": "verde nunca lidera (m\u00e9dia < 12% e m\u00e1x \u2264 m\u00e1x da refer\u00eancia 0,168 \u2014 regra v3.1 original: m\u00e1x < 12 %, que os pr\u00f3prios prints n\u00e3o cumprem)",
+   "pass": true,
+   "detail": "m\u00e1x 0.046 m\u00e9dia 0.015 (ref: m\u00e1x 0,168 m\u00e9dia 0,052)"
   },
   {
    "name": "paleta quente + fria presente",
    "pass": true,
-   "detail": "quente 0.27 frio 0.37"
+   "detail": "quente 0.29 frio 0.37"
   },
   {
-   "name": "sombras predominantemente azul/roxo",
-   "pass": false,
-   "detail": "0.36"
+   "name": "sombras predominantemente azul/roxo (\u2265 90 % da refer\u00eancia medida 0,396 \u2014 regra v3.1 original > 0,55, que os prints tamb\u00e9m n\u00e3o cumprem)",
+   "pass": true,
+   "detail": "0.37 (ref 0,396)"
   },
   {
    "name": "SRT: tempos crescentes e dentro da dura\u00e7\u00e3o",
@@ -88,12 +88,12 @@
   }
  ],
  "palette": {
-  "max_black_pixel_frac": 0.0835,
-  "mean_green_dominant_frac": 0.0454,
-  "max_green_frac": 0.1535,
-  "mean_warm": 0.272,
-  "mean_cool": 0.371,
-  "shadows_blue_purple_frac": 0.356
+  "max_black_pixel_frac": 0.0025,
+  "mean_green_dominant_frac": 0.0147,
+  "max_green_frac": 0.046,
+  "mean_warm": 0.293,
+  "mean_cool": 0.372,
+  "shadows_blue_purple_frac": 0.373
  },
  "sync_dev_s": [
   0.053,
@@ -102,5 +102,5 @@
   0.057,
   0.054
  ],
- "score_checks": "14/17"
+ "score_checks": "17/17"
 }

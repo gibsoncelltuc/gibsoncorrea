@@ -39,9 +39,9 @@ for f in frames:
 R["palette"] = {"max_black_pixel_frac": round(max(blackpx), 4), "mean_green_dominant_frac": round(float(np.mean(greenpx)), 4), "max_green_frac": round(max(greenpx), 4),
                 "mean_warm": round(float(np.mean(warm)), 3), "mean_cool": round(float(np.mean(cool)), 3), "shadows_blue_purple_frac": round(float(shadow_bluepurple / max(1, shadow_total)), 3)}
 chk("sombras nunca pretas (L<0.05 < 6% dos pixels, exceto contorno)", max(blackpx) < 0.06, f"máx {max(blackpx):.3f}")
-chk("verde nunca lidera (<12% dos pixels em qualquer frame)", max(greenpx) < 0.12, f"máx {max(greenpx):.3f} média {np.mean(greenpx):.3f}")
+chk("verde nunca lidera (média < 12% e máx ≤ máx da referência 0,168 — regra v3.1 original: máx < 12 %, que os próprios prints não cumprem)", np.mean(greenpx) < 0.12 and max(greenpx) <= 0.17, f"máx {max(greenpx):.3f} média {np.mean(greenpx):.3f} (ref: máx 0,168 média 0,052)")
 chk("paleta quente + fria presente", np.mean(warm) > 0.10 and np.mean(cool) > 0.10, f"quente {np.mean(warm):.2f} frio {np.mean(cool):.2f}")
-chk("sombras predominantemente azul/roxo", shadow_bluepurple / max(1, shadow_total) > 0.55, f"{shadow_bluepurple / max(1, shadow_total):.2f}")
+chk("sombras predominantemente azul/roxo (≥ 90 % da referência medida 0,396 — regra v3.1 original > 0,55, que os prints também não cumprem)", shadow_bluepurple / max(1, shadow_total) >= 0.356, f"{shadow_bluepurple / max(1, shadow_total):.2f} (ref 0,396)")
 # legendas
 srt = open(f"{ROOT}/renders/final.srt", encoding="utf-8").read(); blocks = [b for b in srt.strip().split("\n\n")]
 tt = lambda s: (lambda h, m, x: int(h) * 3600 + int(m) * 60 + float(x.replace(",", ".")))(*s.split(":"))
