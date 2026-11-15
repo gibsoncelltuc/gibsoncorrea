@@ -24,6 +24,7 @@
 
 ## Legendas (observado)
 - 1–2 palavras por vez, sans-serif **extra-bold (família Montserrat 800/900)**, branco, **contorno escuro grosso** e sombra curta, centralizadas a **≈ 70 % da altura** do quadro. **Mantêm pontuação** (vírgula, ponto) — ex.: “dark.”, “Hey,”, “ever”, “mirror man.”.
+- **Medido** em ~160 quadros 540×960 dos 2 vídeos de referência (método: bbox do preenchimento branco com vizinhança escura): altura de ascendente ≈ **29 px (5,4 % da altura)**, ≈ 20 px por caractere (“favorite’s” = 198 px), **linha de base a 72,7 %** da altura, contorno fino (~3,5 px a 540 px) + sombra suave. Receita ASS (PlayRes 1080×1920, libass): `Fontsize 123`, `Outline 7`, `Shadow 3`, `BackColour &H90000000`, `MarginV 485` → mede 30 px / linha de base 72,8 %. (A primeira versão do piloto usava os 76 px/15 px da v3.1 e ficou ~1,6× menor e com contorno “bolha”.)
 
 ## Cor (observado)
 - Saturada: laranja/ocre quente, azul-céu, vermelho/ocre, magenta no pôr do sol. **Verde de relva aparece dominante em alguns planos** (campo, colina).
@@ -32,6 +33,7 @@
 | Ponto | Skill | Observação nos frames | Decisão no piloto |
 |---|---|---|---|
 | Pontuação das legendas | v3.1: “sem pontos finais” | pontuação **mantida** | seguir a observação (`captions.keepPunctuation = true`, configurável) |
+| Tamanho/posição das legendas | v3.1: Montserrat 800, 76 px, contorno 15 px, y≈1345 (70 %) | ascendente 5,4 % da altura (≈ 123 em ASS 1080×1920), contorno ~7, sombra, linha de base 72,7 % | seguir a medição (ver receita acima) |
 | Verde nunca lidera | v3.1: verde → 55 % para ouro | relva verde dominante em planos abertos | manter regra da skill (campo oliva/dourado, verde só secundário); revisar com o usuário |
 | Olhos | V2: ponto + pupila | pálpebra pesada + pupila pequena | adotar a observação (rig v2: `lid`) |
 | Membros | “macarrão”/luva | linhas escuras finas, mãos redondas | membros escuros finos, mãos redondas pequenas (luva branca como acento) |

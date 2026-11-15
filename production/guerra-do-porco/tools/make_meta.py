@@ -55,7 +55,7 @@ with open(f"{ROOT}/renders/final_frases.srt", "w", encoding="utf-8") as f:
     for k, l in enumerate(D["lines"]): f.write(f"{k+1}\n{ts(l['start'])} --> {ts(l['end'])}\n{l['text']}\n\n")
 with open(f"{ROOT}/renders/final.ass", "w", encoding="utf-8") as f:
     f.write("[Script Info]\nScriptType: v4.00+\nPlayResX: 1080\nPlayResY: 1920\n\n[V4+ Styles]\nFormat: Name,Fontname,Fontsize,PrimaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding\n")
-    f.write("Style: Cap,Montserrat ExtraBold,76,&H00FFFFFF,&H001A0E12,&H00000000,1,0,0,0,100,100,1,0,1,15,0,2,40,40,575,1\n\n[Events]\nFormat: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text\n")
+    f.write("Style: Cap,Montserrat ExtraBold,123,&H00FFFFFF,&H001A0E12,&H90000000,1,0,0,0,100,100,0,0,1,7,3,2,40,40,485,1\n\n[Events]\nFormat: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text\n")
     for k, (tx, s0, e0) in enumerate(chunks):
         nxt = chunks[k + 1][1] - 0.1 if k + 1 < len(chunks) else D["total"]; e = min(e0 + 0.35, max(nxt, e0)); a = lambda t: f"{int(t//3600)}:{int(t%3600//60):02d}:{t%60:05.2f}"
         f.write(f"Dialogue: 0,{a(max(0,s0-0.1))},{a(e)},Cap,,0,0,0,,{{\\fscx108\\fscy108\\t(0,90,\\fscx100\\fscy100)}}{tx}\n")
