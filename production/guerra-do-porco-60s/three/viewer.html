@@ -1,0 +1,27 @@
+<!doctype html><body style="margin:0;background:#000"><script type="importmap">{"imports":{"three":"./vendor/three/build/three.module.js","three/addons/":"./vendor/three/examples/jsm/"}}</script>
+<script type="module">
+import * as THREE from 'three'; import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
+const q=new URLSearchParams(location.search), DIR=q.get('dir'), W=+q.get('w')||540, H=+q.get('h')||960, ENV=q.get('env')||'golden';
+const SKY={golden:[[0,'#fbc78c'],[.12,'#9fa9d6'],[.34,'#2961db'],[1,'#09208c']],bright:[[0,'#dbe5f2'],[.12,'#80b3f0'],[.4,'#1f5cdb'],[1,'#08208c']],dusk:[[0,'#ff8c47'],[.1,'#eb5280'],[.3,'#6b33a0'],[1,'#0f1257']]}[ENV];
+const r=new THREE.WebGLRenderer({antialias:true,preserveDrawingBuffer:true}); r.setPixelRatio(1); r.setSize(W,H); r.outputColorSpace=THREE.SRGBColorSpace; r.toneMapping=THREE.NoToneMapping; document.body.appendChild(r.domElement);
+const F=await (await fetch(DIR+'/frames.json')).json();
+const g=await new GLTFLoader().loadAsync(DIR+'/scene.glb'); const sc=g.scene; sc.updateMatrixWorld(true);
+const byName={}; sc.traverse(o=>{ byName[o.userData.name||o.name]=o; o.matrixAutoUpdate=false; o.frustumCulled=false; });
+sc.matrixWorldAutoUpdate=false;
+// céu em degradê (esfera de dentro para fora) + neblina
+const cv=document.createElement('canvas'); cv.width=4; cv.height=512; const cx=cv.getContext('2d'); const gr=cx.createLinearGradient(0,512,0,0); SKY.forEach(([p,c])=>gr.addColorStop(p,c)); cx.fillStyle=gr; cx.fillRect(0,0,4,512);
+const tex=new THREE.CanvasTexture(cv); tex.colorSpace=THREE.SRGBColorSpace; const sky=new THREE.Mesh(new THREE.SphereGeometry(2500,32,16),new THREE.MeshBasicMaterial({map:tex,side:THREE.BackSide,fog:false,depthWrite:false})); sky.renderOrder=-1; sky.matrixWorldAutoUpdate=false; sky.updateMatrix(); sky.matrixWorld.copy(sky.matrix); sc.add(sky);
+sc.fog=new THREE.Fog(new THREE.Color(ENV==='dusk'?'#d0708c':'#a9bff0'),120,900);
+sc.add(new THREE.HemisphereLight(0xcfdcff,0x8a7a50,+q.get('amb')||1.25));
+const sun=new THREE.DirectionalLight(ENV==='dusk'?0xff7a38:0xffb872,+q.get('sun')||2.3); const sq=F.sun; // quaternion Blender (w,x,y,z) do Sol; a luz aponta para -Z local
+const C=new THREE.Matrix4().set(1,0,0,0, 0,0,1,0, 0,-1,0,0, 0,0,0,1), Ci=C.clone().invert();
+const bm=a=>{const m=new THREE.Matrix4(); m.set(...a); return C.clone().multiply(m).multiply(Ci);}; const bc=a=>{const m=new THREE.Matrix4(); m.set(...a); return C.clone().multiply(m);};   // câmera: sem Ci (eixos locais da câmera não são convertidos)
+if(sq){const bq=new THREE.Quaternion(sq[1],sq[2],sq[3],sq[0]); const d=new THREE.Vector3(0,0,-1).applyQuaternion(bq).applyMatrix4(C); sun.position.copy(d).multiplyScalar(-100); sc.add(sun); sc.add(sun.target);}
+for(const m of Object.values(byName)){ if(m.isMesh&&m.material){ const mm=m.material; if(mm.isMeshStandardMaterial){ mm.roughness=.95; mm.metalness=Math.min(mm.metalness,.4); } } }
+const cam=new THREE.PerspectiveCamera(50,W/H,.05,4000); cam.matrixAutoUpdate=false; cam.matrixWorldAutoUpdate=false;
+window.nframes=F.frames.length; window.fps=F.fps;
+let applied=-1; window.renderFrame=i=>{ const f=F.frames[i]; for(let j=applied+1;j<=i;j++){ const g=F.frames[j]; for(const k in g.m){const o=byName[k]; if(o) o.matrixWorld.copy(bm(g.m[k]));} for(const k in g.hide){const o=byName[k]; if(o) o.visible=!g.hide[k];} } applied=Math.max(applied,i);   // aplica os deltas acumulados (frames.json guarda só o que mudou)
+  cam.matrixWorld.copy(bc(f.cam)); cam.matrixWorldInverse.copy(cam.matrixWorld).invert(); cam.fov=f.fov; cam.updateProjectionMatrix(); sky.matrixWorld.setPosition(cam.matrixWorld.elements[12],cam.matrixWorld.elements[13],cam.matrixWorld.elements[14]);
+  r.render(sc,cam); return r.domElement.toDataURL('image/png').split(',')[1]; };
+window.ready=true;
+</script>

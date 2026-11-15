@@ -1,0 +1,5 @@
+[{"line":"L1","word":"matou","dt":0.1,"kind":"gun","gain":1.0},{"line":"L1","word":"matou","dt":0.14,"kind":"squeal","gain":0.85},{"line":"L1","word":"matou","dt":0.7,"kind":"flop","gain":0.8},
+ {"t":2.2,"kind":"rise","gain":0.8},{"line":"L1","word":"guerra","dt":-0.1,"kind":"horn","gain":0.7},{"t":3.7,"kind":"whoosh","gain":0.4},{"t":5.35,"kind":"whoosh","gain":0.35},{"t":7.0,"kind":"whoosh","gain":0.4},{"t":8.6,"kind":"whoosh","gain":0.35},
+ {"line":"L2","word":"cada","dt":0.3,"kind":"stomp","gain":0.5},{"line":"L2","word":"lado","dt":0.1,"kind":"stomp","gain":0.5},{"line":"L3","word":"Um","dt":-0.2,"kind":"hoof","gain":0.4},{"line":"L3","word":"porco","dt":0.2,"kind":"hoof","gain":0.4},
+ {"line":"L3","word":"invadiu","dt":0.3,"kind":"crunch","gain":0.4},{"line":"L3","word":"horta","dt":0.1,"kind":"crunch","gain":0.4},{"line":"L3","word":"novo","dt":0.0,"kind":"grunt","gain":0.4},{"line":"L3","word":"atirou","dt":-0.85,"kind":"click","gain":0.7},{"line":"L3","word":"atirou","dt":0.05,"kind":"gun","gain":1.0},
+ {"t":0.2,"kind":"tweet","gain":0.25},{"t":4.4,"kind":"tweet","gain":0.25},{"t":9.8,"kind":"tweet","gain":0.25}]

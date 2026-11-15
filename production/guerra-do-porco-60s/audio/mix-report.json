@@ -1,0 +1,18 @@
+{
+ "integrated_lufs": -14.0,
+ "true_peak_dbfs": -3.5,
+ "stem_lufs": {
+  "voice": -17.5,
+  "music": -17.8,
+  "sfx": -27.6,
+  "ambience": -19.0
+ },
+ "gains_db": {
+  "voice": 0.0,
+  "music": -7.699999999999999,
+  "sfx": 3.1000000000000014,
+  "ambience": -22.5
+ },
+ "music_under_voice_db_vs_voice": -21.8,
+ "ducking_db": -13.5
+}
