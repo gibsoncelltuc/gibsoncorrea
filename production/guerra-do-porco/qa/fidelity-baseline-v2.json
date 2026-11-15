@@ -1,0 +1,21 @@
+{
+ "note": "métricas medidas em 14/11/2026: referência = 16 quadros das 2 gravações do canal enviadas pelo usuário; pilot_v2 = piloto em Three.js (reprovado pelo usuário)",
+ "reference": {
+  "laplacian_var": 15.3823,
+  "edge_density": 0.1883,
+  "colorfulness": 0.2694,
+  "sat_mean": 0.4498,
+  "val_mean": 0.5565,
+  "contrast_local": 0.0802,
+  "vignette": 1.4746
+ },
+ "pilot_v2_threejs": {
+  "laplacian_var": 9.0995,
+  "edge_density": 0.0805,
+  "colorfulness": 0.4092,
+  "sat_mean": 0.5425,
+  "val_mean": 0.7428,
+  "contrast_local": 0.0535,
+  "vignette": 1.5555
+ }
+}

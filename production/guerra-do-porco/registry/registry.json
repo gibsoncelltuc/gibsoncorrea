@@ -1,172 +1,231 @@
 {
- "registry_version": "1.0",
+ "registry_version": "2.0",
  "project": "guerra-do-porco",
  "items": [
   {
-   "id": "rig.character.v2",
-   "version": "2.0.0",
-   "description": "Rig 2D cut-out: cabeça sombreada, olhos lid/wide/arc/dot/x, sobrancelhas, bocas, suor, feijão com tecido, membros macarrão, mãos de luva, chapéus/acessórios",
-   "file": "src/characters/Rig.tsx",
-   "dependencies": [
-    "three",
-    "src/world/tex.ts"
-   ],
-   "license": "original do projeto",
-   "source": "src/",
-   "hash": "156c59c9f0bc8ad3",
-   "compatibility": "remotion>=4, three>=0.17x, r3f",
-   "test_scene": "CharSheet"
-  },
-  {
-   "id": "rig.pig.v1",
+   "id": "tex.painted.v1",
    "version": "1.0.0",
-   "description": "Porco 2D cut-out (comer/trotar/morto, olho X, rabo em espiral)",
-   "file": "src/characters/Pig.tsx",
+   "description": "texturas pintadas por código: tábuas, grama, solo, toras, telhas, vela, casco, bandeiras EUA/UK, notas, letreiros, tecidos",
+   "file": "blender/lib/texlib.py",
    "dependencies": [
-    "src/characters/Rig.tsx"
+    "numpy",
+    "Pillow"
    ],
    "license": "original do projeto",
-   "source": "src/",
-   "hash": "04e4da498d10ca56",
-   "compatibility": "remotion>=4, three>=0.17x, r3f",
-   "test_scene": "CharSheet"
+   "source": "blender/lib/texlib.py",
+   "hash": "6911d5549905248f",
+   "compatibility": "bpy>=5.3 (Cycles CPU), numpy, Pillow",
+   "test_scene": "blender/stills.py S1"
   },
   {
-   "id": "motion.library.v2",
-   "version": "2.0.0",
-   "description": "idle, walk, march, aimFire, smug, shock, laugh, stopHand, point (funções puras de t)",
-   "file": "src/characters/poses.ts",
-   "dependencies": [
-    "src/lib/anim.ts"
-   ],
-   "license": "original do projeto",
-   "source": "src/",
-   "hash": "d4e43127eb6285c3",
-   "compatibility": "remotion>=4, three>=0.17x, r3f",
-   "test_scene": "CharSheet"
-  },
-  {
-   "id": "cast.piloto.v1",
+   "id": "mat.library.v1",
    "version": "1.0.0",
-   "description": "Elenco do piloto: Cutlar, Griffin, Soldado, Baynes, Auxiliar",
-   "file": "src/characters/cast.ts",
+   "description": "materiais Cycles: imagem/ruído pintados, AO, neblina atmosférica por distância, cutout emissivo, raios de luz falsos",
+   "file": "blender/lib/mats.py",
    "dependencies": [
-    "rig.character.v2"
+    "tex.painted.v1"
    ],
    "license": "original do projeto",
-   "source": "src/",
-   "hash": "0bd3881590645416",
-   "compatibility": "remotion>=4, three>=0.17x, r3f",
-   "test_scene": "CharSheet"
+   "source": "blender/lib/mats.py",
+   "hash": "4bac09553af4a185",
+   "compatibility": "bpy>=5.3 (Cycles CPU), numpy, Pillow",
+   "test_scene": "blender/stills.py S1"
   },
   {
-   "id": "world.island.v1",
+   "id": "world.nature.v1",
    "version": "1.0.0",
-   "description": "Ilha: horta, cabana, cerca com brecha, pasto, ovelhas, acampamento, praia, mar, montanhas",
-   "file": "src/world/island.tsx",
+   "description": "terreno (campos em retalhos), grama/flores instanciadas, horta, cerca, cabana, placa, abetos, nuvens, mar, montanhas, colinas",
+   "file": "blender/lib/nature.py",
    "dependencies": [
-    "src/world/common.tsx",
-    "src/world/props.tsx",
-    "src/world/ships.tsx"
+    "mat.library.v1"
    ],
    "license": "original do projeto",
-   "source": "src/",
-   "hash": "92ebf6bc9cf320fc",
-   "compatibility": "remotion>=4, three>=0.17x, r3f",
-   "test_scene": "Porco@S1"
+   "source": "blender/lib/nature.py",
+   "hash": "ed61e9f5948497b8",
+   "compatibility": "bpy>=5.3 (Cycles CPU), numpy, Pillow",
+   "test_scene": "S1"
   },
   {
    "id": "world.ships.v1",
    "version": "1.0.0",
-   "description": "Fragata genérica, frota em escalão, mar, convés",
-   "file": "src/world/ships.tsx",
+   "description": "fragata genérica loftada com UV de portinholas, velas, vergas, enxárcias, bandeira; frota em escalão",
+   "file": "blender/lib/ships.py",
    "dependencies": [
-    "src/world/tex.ts"
+    "world.nature.v1"
    ],
    "license": "original do projeto",
-   "source": "src/",
-   "hash": "e0dc07242037fad2",
-   "compatibility": "remotion>=4, three>=0.17x, r3f",
-   "test_scene": "Porco@S4,S5"
+   "source": "blender/lib/ships.py",
+   "hash": "2a06a8fab4f63a29",
+   "compatibility": "bpy>=5.3 (Cycles CPU), numpy, Pillow",
+   "test_scene": "S1/S4"
   },
   {
-   "id": "world.soldiers.v1",
+   "id": "world.deck.v1",
    "version": "1.0.0",
-   "description": "Bloco de soldados em marcha (InstancedMesh)",
-   "file": "src/world/soldiers.tsx",
+   "description": "convés: tábuas, amurada, canhões, mastro, bandeira, mar e frota ao fundo",
+   "file": "blender/lib/deck.py",
+   "dependencies": [
+    "world.ships.v1"
+   ],
+   "license": "original do projeto",
+   "source": "blender/lib/deck.py",
+   "hash": "df731565583cc91a",
+   "compatibility": "bpy>=5.3 (Cycles CPU), numpy, Pillow",
+   "test_scene": "S5"
+  },
+  {
+   "id": "world.farm.v1",
+   "version": "1.0.0",
+   "description": "composição da fazenda + ambientes golden/bright/dusk (céu degradê, sol, neblina)",
+   "file": "blender/lib/farm.py",
+   "dependencies": [
+    "world.nature.v1",
+    "lib.render.v1"
+   ],
+   "license": "original do projeto",
+   "source": "blender/lib/farm.py",
+   "hash": "e43efcc521c49740",
+   "compatibility": "bpy>=5.3 (Cycles CPU), numpy, Pillow",
+   "test_scene": "S1-S4,S6"
+  },
+  {
+   "id": "rig.character.v3",
+   "version": "3.0.0",
+   "description": "personagem cut-out 3D: cabeça sombreada, olhos lid/wide/arc/dot/x, sobrancelhas, 9 bocas, suor, tecidos, acessórios, poses por frame",
+   "file": "blender/lib/char.py",
+   "dependencies": [
+    "mat.library.v1"
+   ],
+   "license": "original do projeto",
+   "source": "blender/lib/char.py",
+   "hash": "f50e49118f987fb3",
+   "compatibility": "bpy>=5.3 (Cycles CPU), numpy, Pillow",
+   "test_scene": "S3"
+  },
+  {
+   "id": "rig.pig.v2",
+   "version": "2.0.0",
+   "description": "porco cut-out 3D (comer/trotar/morto, olho X, flip com pulo)",
+   "file": "blender/lib/pig.py",
+   "dependencies": [
+    "rig.character.v3"
+   ],
+   "license": "original do projeto",
+   "source": "blender/lib/pig.py",
+   "hash": "977c87b88cf4cfe8",
+   "compatibility": "bpy>=5.3 (Cycles CPU), numpy, Pillow",
+   "test_scene": "S1"
+  },
+  {
+   "id": "rig.crowd.v1",
+   "version": "1.0.0",
+   "description": "soldados enxutos em marcha (blocos)",
+   "file": "blender/lib/crowd.py",
+   "dependencies": [
+    "rig.character.v3"
+   ],
+   "license": "original do projeto",
+   "source": "blender/lib/crowd.py",
+   "hash": "71d48758e4dd8924",
+   "compatibility": "bpy>=5.3 (Cycles CPU), numpy, Pillow",
+   "test_scene": "S4"
+  },
+  {
+   "id": "props.v1",
+   "version": "1.0.0",
+   "description": "mosquete, notas, luneta, canhão, túmulo, fumaça, clarão em camadas, bandeira com vento, tenda",
+   "file": "blender/lib/props.py",
+   "dependencies": [
+    "mat.library.v1"
+   ],
+   "license": "original do projeto",
+   "source": "blender/lib/props.py",
+   "hash": "a8fb4d19f0ed532e",
+   "compatibility": "bpy>=5.3 (Cycles CPU), numpy, Pillow",
+   "test_scene": "S1/S3/S5/S6"
+  },
+  {
+   "id": "motion.library.v3",
+   "version": "3.0.0",
+   "description": "idle/walk/march/aim/shock/laugh/stop/point + câmera por chaves + timing das palavras (funções puras de t)",
+   "file": "blender/lib/anim.py",
    "dependencies": [],
    "license": "original do projeto",
-   "source": "src/",
-   "hash": "511c678ef14fc6b3",
-   "compatibility": "remotion>=4, three>=0.17x, r3f",
-   "test_scene": "Porco@S4"
+   "source": "blender/lib/anim.py",
+   "hash": "757241b91e93b443",
+   "compatibility": "bpy>=5.3 (Cycles CPU), numpy, Pillow",
+   "test_scene": "check_framing.py"
   },
   {
-   "id": "world.textures.v1",
+   "id": "shots.piloto.v1",
    "version": "1.0.0",
-   "description": "Texturas procedurais Canvas (grama, solo, madeira, vela, bandeiras, notas, placa...)",
-   "file": "src/world/tex.ts",
-   "dependencies": [],
-   "license": "original do projeto",
-   "source": "src/",
-   "hash": "7ceed676ee7f0d98",
-   "compatibility": "remotion>=4, three>=0.17x, r3f",
-   "test_scene": "Porco@S1-S6"
-  },
-  {
-   "id": "camera.rig.v1",
-   "version": "1.0.0",
-   "description": "Câmera por chaves (smootherstep, arco, sway, tremor de tiro, roll)",
-   "file": "src/camera.tsx",
+   "description": "coreografia dos 6 planos do piloto, ancorada nos timestamps reais",
+   "file": "blender/lib/shots.py",
    "dependencies": [
-    "src/lib/timing.ts"
+    "motion.library.v3",
+    "rig.character.v3",
+    "world.farm.v1"
    ],
    "license": "original do projeto",
-   "source": "src/",
-   "hash": "a772633100dd7181",
-   "compatibility": "remotion>=4, three>=0.17x, r3f",
-   "test_scene": "Porco"
+   "source": "blender/lib/shots.py",
+   "hash": "2b9deb1b444dbd89",
+   "compatibility": "bpy>=5.3 (Cycles CPU), numpy, Pillow",
+   "test_scene": "render_shot.py"
   },
   {
-   "id": "captions.v1",
+   "id": "lib.render.v1",
    "version": "1.0.0",
-   "description": "Legendas 1–2 palavras, Montserrat 800, pop 108→100 %, pontuação mantida",
-   "file": "src/captions/Captions.tsx",
+   "description": "Cycles CPU, mundo degradê, sol, câmera com DOF",
+   "file": "blender/lib/renderlib.py",
    "dependencies": [
-    "@fontsource/montserrat"
+    "bpy"
    ],
-   "license": "SIL OFL 1.1 (fonte)",
-   "source": "src/",
-   "hash": "813310e6f379b350",
-   "compatibility": "remotion>=4, three>=0.17x, r3f",
-   "test_scene": "Porco"
+   "license": "original do projeto",
+   "source": "blender/lib/renderlib.py",
+   "hash": "a7ee6714ad1ea544",
+   "compatibility": "bpy>=5.3 (Cycles CPU), numpy, Pillow",
+   "test_scene": "stills.py"
+  },
+  {
+   "id": "post.ffmpeg.v1",
+   "version": "1.0.0",
+   "description": "dissolve por alfa, grade split-tone, bloom, vinheta, grão, legendas ASS, áudio",
+   "file": "blender/post.py",
+   "dependencies": [
+    "ffmpeg"
+   ],
+   "license": "original do projeto",
+   "source": "blender/post.py",
+   "hash": "b2977f8a4b2b473c",
+   "compatibility": "bpy>=5.3 (Cycles CPU), numpy, Pillow",
+   "test_scene": "renders/pilot_540.mp4"
   },
   {
    "id": "audio.build.v1",
    "version": "1.0.0",
-   "description": "Música/SFX/ambiência sintetizados + eventos ancorados nas palavras",
+   "description": "música/SFX/ambiência sintetizados ancorados nas palavras",
    "file": "tools/build_audio.py",
    "dependencies": [
     "numpy"
    ],
    "license": "original do projeto",
-   "source": "src/",
+   "source": "tools/build_audio.py",
    "hash": "443284c6c0b78863",
-   "compatibility": "remotion>=4, three>=0.17x, r3f",
+   "compatibility": "bpy>=5.3 (Cycles CPU), numpy, Pillow",
    "test_scene": "audio/sfx-events.json"
   },
   {
    "id": "audio.mix.v1",
    "version": "1.0.0",
-   "description": "Mixagem: ganhos por LUFS, sidechain ~13 dB, loudnorm 2 passos −14/−1,5, alimiter",
+   "description": "mixagem: ganhos por LUFS, sidechain ~13 dB, loudnorm 2 passos −14/−1,5",
    "file": "tools/mix.py",
    "dependencies": [
     "ffmpeg"
    ],
    "license": "original do projeto",
-   "source": "src/",
+   "source": "tools/mix.py",
    "hash": "e503592b1236e34f",
-   "compatibility": "remotion>=4, three>=0.17x, r3f",
+   "compatibility": "bpy>=5.3 (Cycles CPU), numpy, Pillow",
    "test_scene": "audio/mix-report.json"
   }
  ]

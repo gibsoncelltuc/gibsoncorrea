@@ -221,6 +221,7 @@ Não declarar concluído sem build, preview real, amostras de frames, QA automá
 
 Esta instalação acrescenta dois módulos ao pacote original, sem alterar o texto acima:
 - `references/cloud-render-profile-v3.1.md` — perfil de execução em nuvem/sandbox (probe, rotas, preview vs. final, chunks, metas de áudio −14 LUFS / −1,5 dBTP).
+- `references/blender-cycles-route.md` — **Rota D (Blender Cycles + FFmpeg)**: cenário 3D pintado no nível do canal; instalação, arquitetura, armadilhas do Blender 5.x, orçamento de render e **método de fidelidade com métricas** (`scripts/fidelity_metrics.py`). **Preferir a Rota D quando a referência exigir 3D rico** (a Rota B/Three.js não alcança o acabamento).
 - `references/visual-reference-ricks-clips.md` — **regras visuais observadas** nos prints e gravações do canal (personagem, cenário, câmera, legendas, cor) e tabela de conflitos/decisões.
 
 **Precedência quando houver conflito:** (1) o pedido do usuário no turno; (2) evidência visual observada (`visual-reference-ricks-clips.md`) para *aparência*; (3) perfil v3.1 para *execução em sandbox* (resolução de preview, chunks, loudness −14/−1,5); (4) V2 para *pipeline, pesquisa factual, QA, scorecard e entrega*. Registrar toda decisão de conflito no `qa/qa-report.md`.
