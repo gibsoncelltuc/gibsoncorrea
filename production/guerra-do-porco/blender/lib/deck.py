@@ -25,10 +25,10 @@ def build(env='bright'):
     yard = nature._cyl((-3.6, 5.0, 8.2), (1, 0, 0), .09, 6.0, 8); Vy, Fy = nature._merge([yard]); mesh_np('yard', Vy, Fy, wood, smooth=True)
     nu_, nv_ = 10, 6; SV = []; SUV = []; SF = []
     for i in range(nu_ + 1):
-        for j in range(nv_ + 1): u, v = i / nu_, j / nv_; SV.append((-3.6 - 2.9 + u * 5.8, 5.0 - .25 - math.sin(u * math.pi) * .45 * (.4 + v * .6), 8.1 - v * 3.2)); SUV.append((u, v))
+        for j in range(nv_ + 1): u, v = i / nu_, j / nv_; zb = 4.7 + .7 * (1 - (2 * u - 1) ** 2); SV.append((-3.6 - 2.9 + u * 5.8, 5.0 - .25 - math.sin(u * math.pi) * .9 * (.3 + v * .7), 8.1 - v * (8.1 - zb))); SUV.append((u, v))
     for i in range(nu_):
         for j in range(nv_): a = i * (nv_ + 1) + j; SF.append((a, a + nv_ + 1, a + nv_ + 2, a + 1))
-    so = mesh_np('sail', np.array(SV, np.float32), np.array(SF, np.int32), mats.cutout_img('sail_m', texlib.sail(), emit=.3, haze=True), smooth=True); ships._uv(so.data, np.array(SUV, np.float32))
+    so = mesh_np('sail', np.array(SV, np.float32), np.array(SF, np.int32), mats.cutout_img('sail_m', paint.sail_canvas(), emit=.22, haze=True), smooth=True); ships._uv(so.data, np.array(SUV, np.float32))
     rl = []
     for sd in (-1, 1):
         for k in range(8): z = 1.3 + k * .42; xa = -3.6 + sd * (1.5 - k * .12); rl.append(nature._cyl((xa, 5.05, z), (1, 0, 0), .014, 1.0 - k * .08 if False else 1.2 - k * .1, 4))

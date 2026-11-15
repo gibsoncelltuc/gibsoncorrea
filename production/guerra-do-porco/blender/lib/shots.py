@@ -119,7 +119,7 @@ class S5(Base):
         a = idle(t, x=-.95, y=.3, z=0, face=1, off=1.0); a.update(eye='wide', brows=(.6, .6), mouth='shout', open=.6, armR=(lerp(-.1, 2.2, keys(t, [(s[0], 0), (s[0] + .4, 1)], ease_inout)), .1))
         if t > tr + .25: a = shock(t, dict(a, armR=(.3, .3), mouth='oh'), tr + .25)
         self.b.pose(b); self.a.pose(a); self.sg.hide_render = self.sg.hide_viewport = t > tr + .25
-        spec = cam_at(t, [dict(t=s[0] - .2, pos=(.5, -5.6, .62), look=(-.1, 0, 1.45), fov=55, roll=-.1), dict(t=word_start('L5', 'recusou') + .2, pos=(.3, -5.0, .8), look=(-.1, 0, 1.5), fov=53, roll=-.07), dict(t=s[1] + .3, pos=(.2, -4.5, .95), look=(-.1, 0, 1.6), fov=51, roll=-.04)])
+        spec = cam_at(t, [dict(t=s[0] - .2, pos=(.5, -4.9, .62), look=(-.1, 0, 1.45), fov=55, roll=-.1), dict(t=word_start('L5', 'recusou') + .2, pos=(.3, -4.5, .8), look=(-.1, 0, 1.5), fov=53, roll=-.07), dict(t=s[1] + .3, pos=(.35, -4.4, .95), look=(.0, 0, 1.6), fov=51, roll=-.04)])
         apply_cam(self.cam, spec, focus=math.dist(spec['pos'], (0, 0, 1.4)), fstop=2.8)
 # ------------------------------------------------------------------ S6 — túmulo (loop com o 1º quadro)
 class S6(Base):

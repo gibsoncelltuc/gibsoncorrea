@@ -131,3 +131,15 @@ def bulwark(name='bulwark.png', seed=131, W=1024, H=512):
     im = Image.fromarray((np.clip(a, 0, 1) * 255).astype(np.uint8)); d = ImageDraw.Draw(im)
     for cx in (W * .25, W * .75): d.rectangle([cx - 78, H * .12, cx + 78, H * .40], fill=(34, 26, 30)); d.rectangle([cx - 70, H * .15, cx + 70, H * .37], fill=(176, 40, 34)); d.rectangle([cx - 78, H * .12, cx + 78, H * .40], outline=(240, 236, 226), width=6)
     a = np.asarray(im, np.float32) / 255; return _save(_finish(a, seed, 700, .1, (30, 90), (2, 5)), name)
+
+def sail_canvas(name='sail_canvas.png', seed=141, W=1024, H=768):
+    """vela quadrada: lona creme-acinzentada em painéis verticais com costuras, manchas de maresia, remendos e corda de bainha nas bordas"""
+    if exists(name): return os.path.join(TEX, name)
+    yy, xx = np.mgrid[0:H, 0:W]; a = _hex('#d6c79e')[None, None, :] * (.82 + .3 * fbm(H, W, 5, seed, 3)[..., None]) * (.93 + .07 * (np.sin(xx * 1.2) * np.sin(yy * 1.2)))[..., None]
+    for k in range(1, 8): x0 = int(k * W / 8); a[:, x0 - 2:x0 + 2] *= .62                                       # costuras entre painéis
+    a = np.where((fbm(H, W, 5, seed + 4, 3) > .67)[..., None], a * .78, a)                                    # manchas
+    r = _rng(seed)
+    for _ in range(4): x, y = int(r.uniform(60, W - 160)), int(r.uniform(80, H - 200)); w, h = int(r.uniform(70, 130)), int(r.uniform(70, 130)); a[y:y + h, x:x + w] = _hex('#c2b283') * (.9 + .15 * r.random()); a[y:y + 3, x:x + w] *= .6; a[y + h - 3:y + h, x:x + w] *= .6   # remendos
+    rope_c = _hex('#6b4a2a'); a[:14] = rope_c * (.85 + .3 * fbm(14, W, 3, seed + 6, 40))[..., None]; a[-14:] = a[:14].copy(); a[:, :14] = rope_c; a[:, -14:] = rope_c                                                    # corda de bainha
+    for x in range(40, W, 90): a[16:30, x:x + 6] = _hex('#6b4a2a') * .8                                          # ilhoses/rizes
+    return _save(_finish(a, seed, 900, .1, (40, 120), (3, 9), warm=.4), name)
