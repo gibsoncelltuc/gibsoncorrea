@@ -86,7 +86,10 @@ class Flag:
         self.me = bpy.data.meshes.new('flag'); self.me.from_pydata(V.tolist(), [], F); uv = self.me.uv_layers.new(name='UVMap'); vuv = np.array([(i / nu, j / nv) for i in range(nu + 1) for j in range(nv + 1)], np.float32)
         idx = np.empty(len(self.me.loops), np.int32); self.me.loops.foreach_get('vertex_index', idx); uv.data.foreach_set('uv', vuv[idx].ravel()); self.me.materials.append(mats.cutout_img('flag_' + tex.split('/')[-1], tex, emit=.4, haze=True))
         self.o = bpy.data.objects.new('flag', self.me); util.link(self.o, col)
-        from . import nature; pole = nature._cyl((pos[0], pos[1], pos[2] + pole_h / 2), (0, 0, 1), .05, pole_h, 8); Vp, Fp = nature._merge([pole]); mesh_np('flagpole', Vp, Fp, mats.flat('pole', (.7, .6, .4, 1), rough=.6), col); self.top = pos[2] + pole_h - h - .2
+        from . import nature; pole = nature._cyl((pos[0], pos[1], pos[2] + pole_h / 2), (0, 0, 1), .05, pole_h, 8); Vp, Fp = nature._merge([pole]); self.pole = mesh_np('flagpole', Vp, Fp, mats.flat('pole', (.7, .6, .4, 1), rough=.6), col); self.top = pos[2] + pole_h - h - .2
+    def attach(self, parent, loc=(0, 0, 0), rot=(0, 0, 0)):
+        """porta-bandeira: mastro e bandeira acompanham `parent` (pos deve ser (0,0,0) na criação)"""
+        for ob in (self.o, self.pole): ob.parent = parent; ob.location = loc; ob.rotation_euler = rot
     def update(self, t):
         nu, nv = self.nu, self.nv; V = np.zeros((nu + 1, nv + 1, 3), np.float32); u = np.linspace(0, 1, nu + 1)[:, None]; v = np.linspace(0, 1, nv + 1)[None, :]
         sgn = -1 if self.flip else 1; V[..., 0] = self.pos[0] + sgn * u * self.w; V[..., 1] = self.pos[1] + (np.sin(u * 7 - t * 5.2) * .22 + np.sin(u * 3 - t * 2.1) * .1) * u; V[..., 2] = self.top + v * self.h + np.sin(u * 5 - t * 4) * .04 * u

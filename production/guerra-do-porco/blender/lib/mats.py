@@ -46,6 +46,12 @@ def image(name, path, rough=.8, spec=.25, bump=0.25, scale=(1, 1), coord='UV', t
         bw = nt.nodes.new('ShaderNodeRGBToBW'); bn = nt.nodes.new('ShaderNodeBump'); bn.inputs['Strength'].default_value = bump; bn.inputs['Distance'].default_value = 0.02
         nt.links.new(ti.outputs['Color'], bw.inputs['Color']); nt.links.new(bw.outputs['Val'], bn.inputs['Height']); nt.links.new(bn.outputs['Normal'], b.inputs['Normal'])
     return finish(m, nt, out, b.outputs['BSDF'], haze)
+def decal(name, path, rough=.85, spec=.1, emit_s=.06, haze=True):
+    """decalque RGBA (letras estampadas, papéis, caminho de terra): imagem com alfa sobre superfície com UV"""
+    m, nt, out = _new(name); tc = nt.nodes.new('ShaderNodeTexCoord'); ti = nt.nodes.new('ShaderNodeTexImage'); ti.image = bpy.data.images.load(path, check_existing=True); ti.interpolation = 'Linear'; ti.extension = 'CLIP'
+    nt.links.new(tc.outputs['UV'], ti.inputs['Vector']); b = _bsdf(nt, (1, 1, 1, 1), rough, spec); nt.links.new(ti.outputs['Color'], b.inputs['Base Color']); nt.links.new(ti.outputs['Alpha'], b.inputs['Alpha'])
+    if emit_s: nt.links.new(ti.outputs['Color'], b.inputs['Emission Color']); b.inputs['Emission Strength'].default_value = emit_s
+    return finish(m, nt, out, b.outputs['BSDF'], haze)
 def painted(name, c1, c2, scale=3.0, detail=6.0, rough=.85, spec=.2, bump=.2, ao=0.0, haze=True, coord='Object', metallic=0.0):
     """pintura procedural: ruído fractal entre duas cores (sem imagem)"""
     m, nt, out = _new(name); tc = nt.nodes.new('ShaderNodeTexCoord'); nz = nt.nodes.new('ShaderNodeTexNoise'); nz.inputs['Scale'].default_value = scale; nz.inputs['Detail'].default_value = detail

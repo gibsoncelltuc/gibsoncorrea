@@ -226,4 +226,5 @@ Esta instalação acrescenta dois módulos ao pacote original, sem alterar o tex
 - `references/visual-reference-ricks-clips.md` — **regras visuais observadas** nos prints e gravações do canal (personagem, cenário, câmera, legendas, cor) e tabela de conflitos/decisões.
 
 **Precedência quando houver conflito:** (1) o pedido do usuário no turno; (2) evidência visual observada (`visual-reference-ricks-clips.md`) para *aparência*; (3) perfil v3.1 para *execução em sandbox* (resolução de preview, chunks, loudness −14/−1,5); (4) V2 para *pipeline, pesquisa factual, QA, scorecard e entrega*. Registrar toda decisão de conflito no `qa/qa-report.md`.
+**Gate de render (regra do usuário):** não iniciar render longo antes de corrigir *todas* as diferenças identificadas contra a referência e validá-las em fotos de teste de todos os planos (ver `references/stack-remotion-threejs-blender.md`).
 Para vídeos **factuais/históricos**, o fact-check da V2 (≥ 2 fontes independentes, registro de claim/fonte/confiança) continua obrigatório mesmo em pilotos curtos; fontes primárias inacessíveis no sandbox devem ser declaradas como tal.
