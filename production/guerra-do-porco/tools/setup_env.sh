@@ -5,7 +5,7 @@ export DEBIAN_FRONTEND=noninteractive
 apt-get update -qq || true
 apt-get install -y -qq --no-install-recommends ffmpeg xvfb libgl1 libgl1-mesa-dri libglx-mesa0 libegl1 \
   libegl-mesa0 libgbm1 libopengl0 libxi6 libxxf86vm1 libxfixes3 libxrender1 libsm6 libxkbcommon0 libdrm2 mesa-utils || true
-pip install -q --root-user-action=ignore bpy edge-tts fonttools brotli numpy pillow scipy scikit-image opencv-python-headless imageio || true
+pip install -q --root-user-action=ignore bpy piper-tts faster-whisper fonttools brotli numpy pillow scipy scikit-image opencv-python-headless imageio jsonschema matplotlib || true   # voz: Piper (modelo CC0 baixado por tools/build_voice.py); ASR de conferência: faster-whisper
 cat > /usr/local/bin/blender <<'EOW'
 #!/usr/bin/env python3
 # Comando `blender` (modo background) sobre o modulo bpy: --version, -b, arquivo.blend, -E, -o, -s, -e, -f, -a, -P, --python-expr, --
@@ -40,6 +40,6 @@ if [ -f "$ROOT/production/tome-lago/package-lock.json" ]; then (cd "$ROOT/produc
 if [ -d "$ROOT/production/guerra-do-porco" ]; then ln -sfn ../tome-lago/node_modules "$ROOT/production/guerra-do-porco/node_modules"; fi
 blender --version | head -n 1
 ffmpeg -version | head -n 1
-python3 -c "import scipy, skimage, cv2; print('scipy', scipy.__version__, 'skimage', skimage.__version__, 'opencv', cv2.__version__)"
+python3 -c "import scipy, skimage, cv2, jsonschema, matplotlib, piper, faster_whisper; print('scipy', scipy.__version__, 'skimage', skimage.__version__, 'opencv', cv2.__version__, 'jsonschema', jsonschema.__version__, 'matplotlib', matplotlib.__version__)" || true
 (cd "$ROOT/production/guerra-do-porco" && npx --no-install remotion versions 2>/dev/null | head -n 2)
 true

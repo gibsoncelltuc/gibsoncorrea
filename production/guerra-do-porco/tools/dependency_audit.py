@@ -4,7 +4,7 @@ Checagens: (1) origem = índice oficial (PyPI/npm/apt) via proxy do sandbox; (2)
 (5) execução só dentro do sandbox, sem credenciais; (6) modelos de voz/ASR com licença citada na ficha do modelo."""
 import importlib.metadata as md, json, os, subprocess
 R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-PY = ['bpy', 'numpy', 'Pillow', 'scipy', 'scikit-image', 'opencv-python-headless', 'imageio', 'fonttools', 'brotli', 'piper-tts', 'faster-whisper', 'ctranslate2', 'onnxruntime', 'edge-tts']
+PY = ['bpy', 'numpy', 'Pillow', 'scipy', 'scikit-image', 'opencv-python-headless', 'imageio', 'fonttools', 'brotli', 'piper-tts', 'faster-whisper', 'ctranslate2', 'onnxruntime', 'jsonschema', 'matplotlib', 'edge-tts']
 def lic(m):
     meta = m.metadata; l = meta.get('License-Expression') or meta.get('License') or ''
     if not l or len(l) > 60: l = next((c.split('::')[-1].strip() for c in meta.get_all('Classifier') or [] if c.startswith('License')), l[:60] or 'n/d')

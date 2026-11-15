@@ -18,6 +18,8 @@ Executadas **apenas no sandbox**, sem credenciais, a partir de índices oficiais
 | faster-whisper | 1.2.1 | MIT |
 | ctranslate2 | 4.9.0 | MIT |
 | onnxruntime | 1.29.0 | MIT License |
+| jsonschema | 4.26.0 | MIT |
+| matplotlib | 3.11.2 | Python Software Foundation License |
 | edge-tts | 7.3.1 | GNU Lesser General Public License v3 (LGPLv3) |
 
 ## Node (npm; versões travadas em `package-lock.json`)
