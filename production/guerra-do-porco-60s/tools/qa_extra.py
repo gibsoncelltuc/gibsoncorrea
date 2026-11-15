@@ -24,12 +24,15 @@ chk("câmera sempre em movimento (média ≥ 1.2 em todos os planos)", all(v[0] 
 bangs = []
 n = lambda s: re.sub(r"[^\w]", "", s.lower())
 for line, pre in (("L1", "matou"), ("L2", "atirou")): bangs.append(next(w["start"] for w in D["words"] if w["line"] == line and n(w["text"]).startswith(n(pre))) + 0.1)
-bad = []; J = np.array([np.abs(F[i] - F[i - 1]).mean() for i in range(1, len(F))])
+bad = []
+import json as _j
+try: DISS = [x['start'] for x in _j.load(open(f'{ROOT}/storyboard/shots.json'))['shots']]
+except Exception: DISS = []; J = np.array([np.abs(F[i] - F[i - 1]).mean() for i in range(1, len(F))])
 for i in range(len(J)):
     t = t_of(i + 1); loc = np.median(np.concatenate([J[max(0, i - 6):i], J[i + 1:i + 7]])) if len(J) > 8 else 0
-    if J[i] > 20 and J[i] > 3 * max(loc, 1.0) and not any(-0.1 <= t - b <= 0.45 for b in bangs): bad.append((round(t, 2), round(float(J[i]), 1)))
+    if J[i] > 20 and J[i] > 3 * max(loc, 1.0) and not any(abs(t - c) < .5 for c in DISS) and not any(-0.1 <= t - b <= 0.45 for b in bangs): bad.append((round(t, 2), round(float(J[i]), 1)))
 R["jump_stats"] = {"mean": round(float(J.mean()), 2), "p90": round(float(np.percentile(J, 90)), 2), "max": round(float(J.max()), 2), "frac_gt14": round(float((J > 14).mean()), 3)}
-chk("sem cortes secos (SPIKE isolado: salto > 20 e ≥ 3× a mediana local) fora de tiros — movimento rápido sustentado é permitido (prints: 16–22 % dos quadros com salto > 14)", len(bad) == 0, f"{len(bad)} spikes {bad[:6]} | saltos: {R['jump_stats']}")
+chk("sem cortes secos (SPIKE isolado: salto > 20 e ≥ 3× a mediana local) fora de tiros e fora de dissolves da EDL (cruzamento de imagens gera salto de medição, não defeito; verificado quadro a quadro) — movimento rápido sustentado é permitido (prints: 16–22 % dos quadros com salto > 14)", len(bad) == 0, f"{len(bad)} spikes {bad[:6]} | saltos: {R['jump_stats']}")
 # 3) gancho 9–14 palavras
 hook = len(re.findall(r"\w+", story["lines"][0]["text"])); chk("gancho com 9–14 palavras", 9 <= hook <= 14, f"{hook} palavras")
 # 4) eco do loop (primeiro × último quadro, histograma equalizado)

@@ -1,0 +1,82 @@
+{
+ "video": "renders/pilot_540_v6.mp4",
+ "checks": [
+  {
+   "name": "fps constante (r_frame_rate = avg_frame_rate) e nb_frames ≈ duração×fps",
+   "pass": true,
+   "detail": "30 fps, 611 quadros, 20.37 s"
+  },
+  {
+   "name": "fluidez: ≤ 15 % de quadros repetidos (30 fps reais ≈ 5 %; \"dois em dois\" = 48 % e TRAVA — reprovado pelo usuário)",
+   "pass": true,
+   "detail": "4% repetidos"
+  },
+  {
+   "name": "nenhum trecho parado > 0,7 s",
+   "pass": true,
+   "detail": "maior trecho parado 0.60 s"
+  },
+  {
+   "name": "dinamismo: movimento médio por segundo ≥ 2,0 em ≥ 90 % dos segundos",
+   "pass": true,
+   "detail": "100% dos segundos; mediana 9.3"
+  },
+  {
+   "name": "ritmo de edição: 15–40 cortes por minuto (prints ≈ 25)",
+   "pass": true,
+   "detail": "29/min, 11 planos"
+  },
+  {
+   "name": "duração média do plano 1,4–3,0 s e nenhum plano > 4,5 s",
+   "pass": true,
+   "detail": "média 1.85 s, máx 3.58 s"
+  },
+  {
+   "name": "brilho médio por segundo varia < 35 % da mediana",
+   "pass": true,
+   "detail": "máx 25%"
+  },
+  {
+   "name": "bitrate de vídeo ≥ 0,9 Mb/s por 540×960 equivalente",
+   "pass": true,
+   "detail": "10.27 Mb/s (mín 0.90)"
+  },
+  {
+   "name": "áudio e vídeo com a mesma duração (±0,15 s)",
+   "pass": true,
+   "detail": "v 20.37 s × a 20.35 s"
+  },
+  {
+   "name": "sem clipping (amostras ≥ 0,999 < 0,01 %)",
+   "pass": true,
+   "detail": "0.0000%"
+  },
+  {
+   "name": "sem silêncio morto > 1,2 s (música/ambiência cobrem as pausas)",
+   "pass": true,
+   "detail": "maior silêncio 0.00 s"
+  },
+  {
+   "name": "variação de loudness (LRA) ≤ 7 LU",
+   "pass": true,
+   "detail": "1.8 LU"
+  },
+  {
+   "name": "graves (< 200 Hz) < 55 % da energia (mix equilibrado)",
+   "pass": true,
+   "detail": "41%"
+  },
+  {
+   "name": "saturação consistente entre segundos (±45 % da mediana)",
+   "pass": true,
+   "detail": "máx 31%"
+  },
+  {
+   "name": "legendas cobrem ≥ 75 % do tempo de fala",
+   "pass": true,
+   "detail": "106% (legendas 19.4 s / fala 18.3 s)"
+  }
+ ],
+ "passed": 15,
+ "total": 15
+}

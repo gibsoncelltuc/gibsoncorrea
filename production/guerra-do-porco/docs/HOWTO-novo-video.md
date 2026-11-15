@@ -57,3 +57,11 @@ Nunca declare "aprovado" sem: vídeo realmente renderizado, QA executado, gates 
 
 ## 9. Reuso e versionamento
 `python3 tools/make_registry.py` regrava `registry/registry.json` (id, versão, hash do arquivo, licença, dependências, cena de teste). Mudou um módulo → suba a versão e rode `tools/validate_schemas.py` (acusa hash desatualizado).
+
+## 10. PORTÃO DE ENTREGA (regra do usuário, obrigatória)
+**Nenhum vídeo — nem piloto de 5 s — é mostrado ou enviado sem `python3 tools/gate.py --verify <video>` = `GATE OK` (selo por hash do arquivo).**
+- **Etapa A, quadro a quadro** (`tools/frame_gate.py`): cada PNG só é "concluído" se passar (legível, brilho/contraste, pretos, saturação, verde, nitidez, contorno, flicker, pop isolado, congelado). Reprovados são refeitos **só eles** (`tools/repair_frames.py`; testado: 3 quadros em ~1 min, pixels idênticos ao original).
+- **Etapa B, vídeo montado** (`tools/gate.py`): qa.py 17 + qa_extra 4 + qa_more 15 (fluidez/travamento, dinamismo, ritmo pela EDL, silêncio, clipping, LRA, graves, cor entre planos, legenda×fala) + legibilidade 10 + fidelidade 7 = **53 checagens**.
+- **Prévia barata primeiro:** `tools/produce_pipeline.sh <nome>` renderiza 540×960, passa os dois portões e só então renderiza 1080×1920.
+- **Trecho ruim no vídeo já montado:** `tools/patch_segment.py <video> t0 t1` refaz só o trecho (Remotion --frames) e costura sem recodificar o resto; depois rodar o portão de novo.
+- **30 fps reais:** "dois em dois" (15 fps duplicados) trava e foi reprovado pelo usuário; o portão acusa (> 15 % de quadros repetidos).
