@@ -1,6 +1,6 @@
 # A Guerra do Porco — roteiro (piloto de 20 s)
 
-*História real dramatizada; ver `research/fact-check.md`. Narração pt-BR (edge-tts), timestamps reais em `word-timings.json`.*
+*História real dramatizada; ver `research/fact-check.md`. Narração pt-BR (Piper `pt_BR-cadu-medium`, dataset CC0), timestamps reais em `word-timings.json`.*
 
 | Beat | Plano | Início–fim | Texto | Intenção de voz | Visual sincronizado |
 |---|---|---|---|---|---|

@@ -26,7 +26,7 @@ os.makedirs(f"{ROOT}/storyboard", exist_ok=True)
 subprocess.run([sys.executable, os.path.join(ROOT, "tools", "make_storyboard.py")])
 prod = {"title": story["title"], "slug": "guerra-do-porco", "language": "pt-BR", "format": "short-pilot", "width": 1080, "height": 1920, "fps": FPS, "durationSeconds": D["total"],
         "pilot_render": {"width": 540, "height": 960, "note": "piloto em baixa resolução a pedido do usuário; mesmo código renderiza 1080x1920"},
-        "visualEngine": "remotion + three/R3F (swangle/SwiftShader CPU)", "visualGeneration": "procedural-code-only", "style_reference": "references/visual-reference-ricks-clips.md",
+        "visualEngine": "blender 5.3 Cycles CPU (bpy) para os quadros + remotion (montagem/legendas) + ffmpeg (grade/áudio)", "visualGeneration": "procedural-code-only", "style_reference": "references/visual-reference-ricks-clips.md",
         "captions": {"wordsPerCard": "1-2", "keepPunctuation": KEEP_PUNCT, "font": "Montserrat 800", "y": "70%"},
         "audio": {"sampleRate": 44100, "channels": 2, "targetIntegratedLufs": -14, "maxTruePeakDbtp": -1.5}, "tts": D.get("engine"), "voice": D["voice"], "rate": D.get("rate", D.get("length_scale")),
         "pipelineVersion": "ricks-3d-toon-story-orchestrator V2 + cloud-render v3.1 + visual-reference"}
@@ -34,7 +34,7 @@ json.dump(prod, open(f"{ROOT}/production.json", "w"), ensure_ascii=False, indent
 vo = " ".join(l["text"] for l in D["lines"])
 open(f"{ROOT}/script/voiceover.txt", "w", encoding="utf-8").write(vo + "\n")
 with open(f"{ROOT}/script/script.md", "w", encoding="utf-8") as f:
-    f.write(f"# {story['title']} — roteiro (piloto de 20 s)\n\n*História real dramatizada; ver `research/fact-check.md`. Narração pt-BR (edge-tts), timestamps reais em `word-timings.json`.*\n\n| Beat | Plano | Início–fim | Texto | Intenção de voz | Visual sincronizado |\n|---|---|---|---|---|---|\n")
+    f.write(f"# {story['title']} — roteiro (piloto de 20 s)\n\n*História real dramatizada; ver `research/fact-check.md`. Narração pt-BR (Piper `pt_BR-cadu-medium`, dataset CC0), timestamps reais em `word-timings.json`.*\n\n| Beat | Plano | Início–fim | Texto | Intenção de voz | Visual sincronizado |\n|---|---|---|---|---|---|\n")
     intent = {"L1": "curiosidade/descrença, rápido", "L2": "explicação seca; 'Ele atirou' seco, sem pausa dramática", "L3": "ironia leve; 'cem' enfático", "L4": "tensão crescente", "L5": "alívio irônico; 'Só o porco' lento"}
     for l in D["lines"]:
         sh = next(s for s in shots if l["id"] in s["lines"]) 
@@ -43,9 +43,34 @@ with open(f"{ROOT}/script/script.md", "w", encoding="utf-8") as f:
 clean = (lambda s: s) if KEEP_PUNCT else (lambda s: re.sub(r"[.,!?:;—\"]+$", "", s))
 chunks = []; w = D["words"]; i = 0
 while i < len(w):
-    a = w[i]; b = w[i + 1] if i + 1 < len(w) else None; ends = bool(re.search(r"[.!?:]$", a["text"]))
+    a = w[i]; b = w[i + 1] if i + 1 < len(w) else None; ends = bool(re.search(r"[.!?:,;]$", a["text"]))   # a vírgula também fecha o cartão: o sintagma não atravessa a pausa
     if b and b["line"] == a["line"] and not ends and (len(a["text"]) <= 3 or (len(b["text"]) <= 3 and len(a["text"]) <= 6)): chunks.append((clean(a["text"]) + " " + clean(b["text"]), a["start"], b["end"])); i += 2
     else: chunks.append((clean(a["text"]), a["start"], a["end"])); i += 1
+PUNCT = re.compile(r"[.!?:,;]$")
+def merge_short(ch, tmin=0.30, maxc=20):
+    """cartão com janela de exibição < 0,30 s (palavras funcionais ditas rápido: "de um") é fundido ao vizinho, no limite de 20 caracteres — legível a olho nu;
+    um cartão que termina em vírgula funde com o ANTERIOR (a vírgula fecha o sintagma), os demais com o PRÓXIMO"""
+    i = 0
+    while i < len(ch):
+        tx, s0, e0 = ch[i]; dur = (ch[i + 1][1] - s0) if i + 1 < len(ch) else 9
+        if dur < tmin:
+            can_prev = i > 0 and len(ch[i - 1][0]) + 1 + len(tx) <= maxc and not PUNCT.search(ch[i - 1][0])
+            can_next = i + 1 < len(ch) and len(tx) + 1 + len(ch[i + 1][0]) <= maxc and not PUNCT.search(tx)
+            if PUNCT.search(tx) and can_prev: ch[i - 1:i + 1] = [(ch[i - 1][0] + " " + tx, ch[i - 1][1], e0)]; i -= 1; continue
+            if can_next: ch[i:i + 2] = [(tx + " " + ch[i + 1][0], s0, ch[i + 1][2])]; continue
+            if can_prev: ch[i - 1:i + 1] = [(ch[i - 1][0] + " " + tx, ch[i - 1][1], e0)]; i -= 1; continue
+        i += 1
+    return ch
+FUNC = {"o", "a", "os", "as", "de", "do", "da", "dos", "das", "um", "uma", "em", "e", "no", "na", "que", "dois", "duas"}
+def keep_phrases(ch, maxc=18):
+    """cartão que termina em artigo/preposição/numeral ("navios de", "Só o", "e dois") leva a palavra seguinte da mesma frase: o sintagma não é partido entre cartões"""
+    i = 0
+    while i + 1 < len(ch):
+        tx, s0, e0 = ch[i]; last = re.sub(r"[.,!?:;—-]", "", tx.split()[-1].lower())
+        if last in FUNC and not PUNCT.search(tx) and len(tx) + 1 + len(ch[i + 1][0]) <= maxc: ch[i:i + 2] = [(tx + " " + ch[i + 1][0], s0, ch[i + 1][2])]; continue
+        i += 1
+    return ch
+chunks = keep_phrases(merge_short(chunks))
 def ts(t): h = int(t // 3600); m = int(t % 3600 // 60); s = t % 60; return f"{h:02d}:{m:02d}:{int(s):02d},{int(round((s - int(s)) * 1000)):03d}"
 os.makedirs(f"{ROOT}/renders", exist_ok=True)
 with open(f"{ROOT}/renders/final.srt", "w", encoding="utf-8") as f:

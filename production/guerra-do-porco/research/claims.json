@@ -30,6 +30,13 @@
    "tipo": "corroboração apenas por trechos de busca; páginas NÃO lidas (bloqueadas/403 no sandbox)",
    "acesso": "2026-11-15",
    "lido": false
+  },
+  "HISTORYLINK2": {
+   "title": "San Juan Island Pig War — Part 2 (HistoryLink.org, enciclopédia estadual)",
+   "url": "https://www.historylink.org/File/5725",
+   "tipo": "enciclopédia estadual revisada, secundária de alta confiança",
+   "acesso": "2026-11-15",
+   "lido": true
   }
  },
  "afirmacoes": [
@@ -133,6 +140,16 @@
      "fonte": "NPS",
      "trecho": "…shot and killed a company pig…",
      "url": "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
+    },
+    {
+     "fonte": "HISTORYLINK",
+     "trecho": "after an American settler shot a British pig on the island that both nations claimed",
+     "url": "https://www.historylink.org/File/5724"
+    },
+    {
+     "fonte": "WIKIPEDIA",
+     "trecho": "Cutlar, tired of the intrusion, shot and killed the pig",
+     "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
     }
    ],
    "confianca": "alta",
@@ -150,7 +167,7 @@
     },
     {
      "fonte": "WIKIPEDIA",
-     "trecho": "…Griffin was unsatisfied with this offer and demanded $100.",
+     "trecho": "Griffin was unsatisfied with this offer and demanded $100",
      "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
     }
    ],
@@ -164,7 +181,7 @@
    "fontes": [
     {
      "fonte": "WIKIPEDIA",
-     "trecho": "Cutlar offered $10 to Griffin to compensate for the pig…",
+     "trecho": "Cutlar offered $10 … to Griffin to compensate for the pig",
      "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
     },
     {
@@ -202,17 +219,22 @@
    "fontes": [
     {
      "fonte": "WIKIPEDIA",
-     "trecho": "…a flotilla of five British Royal Navy warships mounting 70 guns and carrying 2,140 men.",
+     "trecho": "a flotilla of five British Royal Navy warships mounting 70 guns and carrying 2,140 men",
      "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
     },
     {
      "fonte": "NPS",
-     "trecho": "Hornby (HMS Tribune) was soon joined by … HMS Satellite and HMS Plumper … (reforços até a chegada de Baynes em HMS Ganges)",
+     "trecho": "Hornby was soon joined by two more warships, HMS Satellite and HMS Plumper",
      "url": "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
+    },
+    {
+     "fonte": "HISTORYLINK2",
+     "trecho": "aware of his vulnerability to the three British warships in San Juan Harbor",
+     "url": "https://www.historylink.org/File/5725"
     }
    ],
    "confianca": "média",
-   "nota": "A contagem varia com a data (3 navios no início, 5 no auge). A fala usa o número de auge citado pela Wikipedia; NPS não dá o total."
+   "nota": "A contagem \"cinco\" (flotilha de 5 navios, 70 canhões, 2.140 homens, ~10/08/1859) vem SÓ da Wikipedia (que cita Tagg/Kowrach). NPS e HistoryLink corroboram a escalada (3 navios no início — Tribune, Satellite, Plumper — e depois o HMS Ganges de 84 canhões), mas não dão a contagem final. Numeral de fonte única: mantido na fala por ser dramaticamente a escalada (≥ 4 navios nomeados nas fontes), declarado aqui."
   },
   {
    "id": "C10",
@@ -226,7 +248,7 @@
     },
     {
      "fonte": "HISTORYLINK",
-     "trecho": "…Admiral Baynes [was] a firm believer in this policy [restraint / \"minimum intervention\"].",
+     "trecho": "their commander, Admiral Baynes, was a firm believer in this policy",
      "url": "https://www.historylink.org/File/5724"
     },
     {
@@ -261,6 +283,7 @@
  "limitacoes": [
   "fontes primárias (cartas de Harney/Baynes/Douglas, relatórios) não consultadas diretamente; as fontes lidas são secundárias de alta confiança que as citam",
   "The Canadian Encyclopedia, Britannica, Legion Magazine e Historic UK não puderam ser lidos (403/rede do sandbox)",
-  "diálogos entre Cutlar e Griffin são tradição oral parcialmente apócrifa — o vídeo só usa os valores"
+  "diálogos entre Cutlar e Griffin são tradição oral parcialmente apócrifa — o vídeo só usa os valores",
+  "o numeral \"cinco navios\" tem fonte única (Wikipedia); as demais fontes lidas corroboram a escalada mas não a contagem"
  ]
 }

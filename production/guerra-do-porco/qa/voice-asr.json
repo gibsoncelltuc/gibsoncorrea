@@ -1,0 +1,15 @@
+{
+ "modelo": "faster-whisper base (int8, CPU)",
+ "idioma_detectado": "pt",
+ "prob_idioma": 1.0,
+ "palavras_roteiro": 53,
+ "palavras_reconhecidas": 54,
+ "WER": 0.057,
+ "CER": 0.017,
+ "transcricao": "um homem matou um porco e dois paises quase entraram em guerra o porco de um britanico invadiu a horta de um americano ele atirou o dono exigiu cem dolares o americano ofereceu dez vieram centenas de soldados depois cinco navios de guerra mas o amirante recusou a atacar nindem morreu so o porco",
+ "roteiro": "um homem matou um porco e dois paises quase entraram em guerra o porco de um britanico invadiu a horta de um americano ele atirou o dono exigiu cem dolares o americano ofereceu dez vieram centenas de soldados depois cinco navios de guerra mas o almirante recusou atacar ninguem morreu so o porco",
+ "palavras_casadas_p/tempo": 49,
+ "desvio_inicio_medio_s": 0.102,
+ "desvio_inicio_max_s": 0.4,
+ "nota": "proxy automático de clareza; o ASR tem viés de primeira palavra e erra nomes próprios — a escuta humana segue pendente"
+}

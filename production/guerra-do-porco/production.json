@@ -12,7 +12,7 @@
   "height": 960,
   "note": "piloto em baixa resolução a pedido do usuário; mesmo código renderiza 1080x1920"
  },
- "visualEngine": "remotion + three/R3F (swangle/SwiftShader CPU)",
+ "visualEngine": "blender 5.3 Cycles CPU (bpy) para os quadros + remotion (montagem/legendas) + ffmpeg (grade/áudio)",
  "visualGeneration": "procedural-code-only",
  "style_reference": "references/visual-reference-ricks-clips.md",
  "captions": {
