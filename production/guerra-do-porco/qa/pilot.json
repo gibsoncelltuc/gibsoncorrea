@@ -1,0 +1,106 @@
+{
+ "video": "renders/pilot_540.mp4",
+ "checks": [
+  {
+   "name": "resolu\u00e7\u00e3o/fps",
+   "pass": true,
+   "detail": "540x960@30"
+  },
+  {
+   "name": "dura\u00e7\u00e3o \u2248 manifesto",
+   "pass": true,
+   "detail": "20.93s vs 20.93s"
+  },
+  {
+   "name": "propor\u00e7\u00e3o 9:16",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "faixa de \u00e1udio presente",
+   "pass": true,
+   "detail": "aac"
+  },
+  {
+   "name": "sem frames pretos",
+   "pass": true,
+   "detail": "0 trechos"
+  },
+  {
+   "name": "sem congelamento >0.8s",
+   "pass": true,
+   "detail": "0 trechos []"
+  },
+  {
+   "name": "sombras nunca pretas (L<0.05 < 6% dos pixels, exceto contorno)",
+   "pass": false,
+   "detail": "m\u00e1x 0.084"
+  },
+  {
+   "name": "verde nunca lidera (<12% dos pixels em qualquer frame)",
+   "pass": false,
+   "detail": "m\u00e1x 0.154 m\u00e9dia 0.045"
+  },
+  {
+   "name": "paleta quente + fria presente",
+   "pass": true,
+   "detail": "quente 0.27 frio 0.37"
+  },
+  {
+   "name": "sombras predominantemente azul/roxo",
+   "pass": false,
+   "detail": "0.36"
+  },
+  {
+   "name": "SRT: tempos crescentes e dentro da dura\u00e7\u00e3o",
+   "pass": true,
+   "detail": "37 cart\u00f5es"
+  },
+  {
+   "name": "legendas mant\u00eam a pontua\u00e7\u00e3o do roteiro (observado no canal; config keepPunctuation)",
+   "pass": true,
+   "detail": "10 cart\u00f5es com pontua\u00e7\u00e3o final"
+  },
+  {
+   "name": "sincronia voz\u00d7timestamps (desvio m\u00e1x < 0.20s)",
+   "pass": true,
+   "detail": "m\u00e1x 0.060s"
+  },
+  {
+   "name": "loudness -14 LUFS (\u00b10.7)",
+   "pass": true,
+   "detail": "-14.4 LUFS"
+  },
+  {
+   "name": "true peak \u2264 -1.5 dBTP",
+   "pass": true,
+   "detail": "-4.2 dBFS"
+  },
+  {
+   "name": "ducking \u2248 13 dB (11\u201315)",
+   "pass": true,
+   "detail": "-14.4 dB"
+  },
+  {
+   "name": "m\u00fasica \u2248 20 dB sob a voz (17\u201323)",
+   "pass": true,
+   "detail": "-22.2 dB"
+  }
+ ],
+ "palette": {
+  "max_black_pixel_frac": 0.0835,
+  "mean_green_dominant_frac": 0.0454,
+  "max_green_frac": 0.1535,
+  "mean_warm": 0.272,
+  "mean_cool": 0.371,
+  "shadows_blue_purple_frac": 0.356
+ },
+ "sync_dev_s": [
+  0.053,
+  0.059,
+  0.06,
+  0.057,
+  0.054
+ ],
+ "score_checks": "14/17"
+}

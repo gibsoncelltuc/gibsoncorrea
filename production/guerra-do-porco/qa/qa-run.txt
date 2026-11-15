@@ -1,0 +1,32 @@
+PASS resolução/fps 540x960@30
+PASS duração ≈ manifesto 20.93s vs 20.93s
+PASS proporção 9:16 
+PASS faixa de áudio presente aac
+PASS sem frames pretos 0 trechos
+PASS sem congelamento >0.8s 0 trechos []
+FAIL sombras nunca pretas (L<0.05 < 6% dos pixels, exceto contorno) máx 0.084
+FAIL verde nunca lidera (<12% dos pixels em qualquer frame) máx 0.154 média 0.045
+PASS paleta quente + fria presente quente 0.27 frio 0.37
+FAIL sombras predominantemente azul/roxo 0.36
+PASS SRT: tempos crescentes e dentro da duração 37 cartões
+PASS legendas mantêm a pontuação do roteiro (observado no canal; config keepPunctuation) 10 cartões com pontuação final
+PASS sincronia voz×timestamps (desvio máx < 0.20s) máx 0.060s
+PASS loudness -14 LUFS (±0.7) -14.4 LUFS
+PASS true peak ≤ -1.5 dBTP -4.2 dBFS
+PASS ducking ≈ 13 dB (11–15) -14.4 dB
+PASS música ≈ 20 dB sob a voz (17–23) -22.2 dB
+14/17
+PASS câmera sempre em movimento (média ≥ 1.2 em todos os planos) {'S1': [28.9, 16.72], 'S2': [23.69, 10.68], 'S3': [17.9, 12.08], 'S4': [21.23, 12.57], 'S5': [13.33, 6.26], 'S6': [18.96, 3.37]}
+FAIL sem cortes secos (salto médio > 14) fora de tiros 60 saltos [(1.63, 14.8), (1.67, 18.6), (1.7, 21.3), (1.73, 23.0), (1.77, 23.7), (1.8, 23.8)]
+PASS gancho com 9–14 palavras 12 palavras
+PASS último quadro ecoa o primeiro (mais parecido que um quadro do meio) loop 44.2 vs meio 64.2
+3/4
+| métrica | referência (canal) | piloto v2 (Three.js, reprovado) | **piloto v3 (Blender)** | razão v3/ref |
+|---|---:|---:|---:|---:|
+| laplacian_var | 15.3823 | 9.0995 | **17.8776** | 1.16 |
+| edge_density | 0.1883 | 0.0805 | **0.1783** | 0.95 |
+| colorfulness | 0.2694 | 0.4092 | **0.2332** | 0.87 |
+| sat_mean | 0.4498 | 0.5425 | **0.5069** | 1.13 |
+| val_mean | 0.5565 | 0.7428 | **0.5185** | 0.93 |
+| contrast_local | 0.0802 | 0.0535 | **0.0760** | 0.95 |
+| vignette | 1.4746 | 1.5555 | **1.6679** | 1.13 |

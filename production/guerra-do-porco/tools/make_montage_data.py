@@ -20,6 +20,9 @@ def tt(s): h, m, x = s.replace(',', '.').split(':'); return int(h) * 3600 + int(
 caps = []
 for blk in open(os.path.join(R, 'renders', 'final.srt'), encoding='utf-8').read().strip().split('\n\n'):
     ln = blk.split('\n'); st, en = ln[1].split(' --> '); caps.append(dict(start=tt(st), end=tt(en), text=' '.join(ln[2:])))
+# uma legenda por vez (como no canal): o cartão seguinte entra 0,1 s antes da palavra, então o anterior é encerrado quando o próximo começa
+caps.sort(key=lambda c: c['start'])
+for a_, b_ in zip(caps[:-1], caps[1:]): a_['end'] = min(a_['end'], b_['start'])
 data = dict(fps=fps, width=W, height=H, duration=anim.TOTAL, dissolve=anim.DIS, shots=shots, captions=caps)
 json.dump(data, open(os.path.join(R, 'montage', 'data.json'), 'w'), ensure_ascii=False)
 pub = os.path.join(R, 'montage', 'public')                      # o bundler do Remotion não segue symlinks → hardlinks (mesmo disco, sem copiar bytes)
