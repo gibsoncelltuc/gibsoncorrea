@@ -1,76 +1,172 @@
 {
+ "edl": "blender/lib/anim.py (_edl)",
+ "shot_count": 11,
+ "mean_shot_s": 1.85,
  "shots": [
   {
    "id": "S1",
+   "scene": "S1",
    "start": 0.0,
-   "end": 3.696,
+   "end": 3.585,
+   "dur": 3.585,
    "lines": [
     "L1"
    ],
-   "purpose": "GANCHO: ato sem sentido, razão escondida (matar um porco → quase guerra)",
-   "camera": "ground-level fov 60 → crane-up ao tiro; revela horizonte com navios e acampamento",
-   "action": "porco come; Cutlar mira e atira ('matou'); porco capota; navios surgem no horizonte ('guerra')",
-   "audio": "BANG1 + flash + tremor"
+   "beat": "GANCHO",
+   "purpose": "Um homem mata um porco e dois países quase entram em guerra",
+   "camera": "baixa, fov 57 → sobe e revela a frota",
+   "action": "porco come; Cutlar mira e atira (\"matou\"); porco capota; navios surgem",
+   "audio": "BANG1 + clarão + tremor"
   },
   {
-   "id": "S2",
-   "start": 3.696,
-   "end": 7.632,
+   "id": "S2a",
+   "scene": "S2",
+   "start": 3.585,
+   "end": 6.425,
+   "dur": 2.84,
    "lines": [
     "L2"
    ],
-   "purpose": "SETUP: o porco do britânico invade a horta do americano; 'Ele atirou'",
-   "camera": "tilt-up na bandeira britânica → dolly lateral pela cerca (placa SAN JUAN 1859) → push-in",
-   "action": "porco cruza a brecha e come; Cutlar nota, mira e dispara ('atirou')",
-   "audio": "BANG2 + flash"
+   "beat": "SETUP",
+   "purpose": "o porco do britânico invade a horta do americano",
+   "camera": "tilt-up na bandeira → placa SAN JUAN 1859 → push-in na horta",
+   "action": "porco trota até a horta; Cutlar nota e mira",
+   "audio": "vento, galinhas"
   },
   {
-   "id": "S3",
-   "start": 7.632,
-   "end": 11.395,
+   "id": "I_eyes",
+   "scene": "I_eyes",
+   "start": 6.425,
+   "end": 7.475,
+   "dur": 1.05,
+   "lines": [
+    "L2"
+   ],
+   "beat": "TENSÃO (insert)",
+   "purpose": "close no rosto do Cutlar: olhos se estreitam, TIRO acende o rosto",
+   "camera": "close frontal, empurra 1,75 → 1,2 m, tremor no tiro",
+   "action": "pálpebra .42 → .9, sobrancelhas, suor, piscada no tiro",
+   "audio": "BANG2"
+  },
+  {
+   "id": "S3a",
+   "scene": "S3",
+   "start": 7.475,
+   "end": 10.152,
+   "dur": 2.677,
    "lines": [
     "L3"
    ],
-   "purpose": "ZOMBADOR: cem dólares × dez (close inclinado)",
-   "camera": "baixa, roll 0.13, push-in lento",
-   "action": "Griffin exibe nota $100 e ri; Cutlar suado com nota $10; porco morto entre eles",
-   "audio": "notas, risada"
+   "beat": "ZOMBADOR",
+   "purpose": "cem dólares × dez: o dono exige, o americano reage",
+   "camera": "baixa, roll .13, push-in lento",
+   "action": "Griffin exibe a nota $100 e ri; Cutlar suado",
+   "audio": "notas"
   },
   {
-   "id": "S4",
-   "start": 11.395,
-   "end": 15.759,
+   "id": "I_notes",
+   "scene": "I_notes",
+   "start": 10.152,
+   "end": 11.25,
+   "dur": 1.098,
+   "lines": [
+    "L3"
+   ],
+   "beat": "PIADA (insert)",
+   "purpose": "close nas duas notas: $100 enorme × $10 pequeno",
+   "camera": "close baixo com dutch",
+   "action": "notas tremulam; Griffin gargalha",
+   "audio": "risada"
+  },
+  {
+   "id": "S4a",
+   "scene": "S4",
+   "start": 11.25,
+   "end": 13.45,
+   "dur": 2.2,
    "lines": [
     "L4"
    ],
-   "purpose": "ESCALADA: centenas de soldados → cinco navios de guerra",
-   "camera": "dolly lateral baixo acompanhando a marcha → sobe e panorâmica sobre os soldados até a frota",
-   "action": "bloco de 40 soldados em marcha (InstancedMesh) + capitão; fragatas em escalão",
-   "audio": "marcha, canhão"
+   "beat": "ESCALADA",
+   "purpose": "centenas de soldados",
+   "camera": "baixa, acompanha a marcha",
+   "action": "80 soldados distintos marchando com fuzis e bandeira",
+   "audio": "marcha"
   },
   {
-   "id": "S5",
-   "start": 15.759,
-   "end": 17.767,
+   "id": "I_faces",
+   "scene": "I_faces",
+   "start": 13.45,
+   "end": 14.3,
+   "dur": 0.85,
+   "lines": [
+    "L4"
+   ],
+   "beat": "ESCALA (insert)",
+   "purpose": "rostos de três soldados, todos diferentes",
+   "camera": "close lateral acompanhando",
+   "action": "cabeças balançam, olhares e expressões distintos",
+   "audio": "marcha"
+  },
+  {
+   "id": "S4b",
+   "scene": "S4",
+   "start": 14.3,
+   "end": 15.425,
+   "dur": 1.125,
+   "lines": [
+    "L4"
+   ],
+   "beat": "ESCALADA",
+   "purpose": "cinco navios de guerra",
+   "camera": "sobe e panorâmica sobre a tropa até a frota",
+   "action": "frota em escalão",
+   "audio": "canhão"
+  },
+  {
+   "id": "S5a",
+   "scene": "S5",
+   "start": 15.425,
+   "end": 16.457,
+   "dur": 1.032,
    "lines": [
     "L5"
    ],
-   "purpose": "PAGAMENTO (1/2): o almirante recusa atacar",
-   "camera": "baixa, roll −0.1, push-in no almirante",
-   "action": "auxiliar aponta a luneta; almirante levanta a mão ('pare'), auxiliar murcha",
-   "audio": "gaivotas/mar"
+   "beat": "RECUSA",
+   "purpose": "o almirante recebe o aviso do auxiliar",
+   "camera": "baixa, roll -.1",
+   "action": "auxiliar aponta a luneta",
+   "audio": "mar"
+  },
+  {
+   "id": "I_baynes",
+   "scene": "I_baynes",
+   "start": 16.457,
+   "end": 17.38,
+   "dur": 0.923,
+   "lines": [
+    "L5"
+   ],
+   "beat": "RECUSA (insert)",
+   "purpose": "close no almirante: a mão de \"pare\"",
+   "camera": "close baixo, push-in",
+   "action": "pálpebra pesada; mão entra no quadro em \"recusou\"",
+   "audio": "mar"
   },
   {
    "id": "S6",
-   "start": 17.767,
-   "end": 20.928,
+   "scene": "S6",
+   "start": 17.38,
+   "end": 20.365,
+   "dur": 2.985,
    "lines": [
     "L5"
    ],
-   "purpose": "PAGAMENTO (2/2) + LOOP: 'Ninguém morreu. Só o porco.' (túmulo no lugar do 1º quadro)",
-   "camera": "pull-back até o enquadramento exato do quadro 0 (loop)",
-   "action": "túmulo com cruz e flores; os dois tiram o chapéu; mesmo enquadramento do gancho",
-   "audio": "sino/acorde final"
+   "beat": "PAGAMENTO + LOOP",
+   "purpose": "Ninguém morreu. Só o porco.",
+   "camera": "pull-back até o enquadramento do quadro 0 (loop)",
+   "action": "túmulo com cruz e flores; os dois tiram o chapéu",
+   "audio": "acorde final"
   }
  ]
 }

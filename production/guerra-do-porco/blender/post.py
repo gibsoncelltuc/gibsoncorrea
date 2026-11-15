@@ -9,7 +9,7 @@ def opt(k, d=None): return args[args.index(k) + 1] if k in args else d
 fps = int(opt('--fps', 30)); every = int(opt('--every', 1)); audio = opt('--audio', os.path.join(ROOT, 'audio', 'final_mix.wav')); grade = '--nograde' not in args
 ass = os.path.join(ROOT, 'renders', 'final.ass'); fontsdir = os.path.join(ROOT, 'blender', 'fonts')
 clips = []
-for sid, (a, b) in anim.SHOTS.items():
+for sid, (a, b) in anim.EDIT.items():
     files = sorted(glob.glob(os.path.join(root, sid, 'f*.png')))
     if not files: print('sem frames para', sid); continue
     nums = [int(re.search(r'f(\d+)\.png', f).group(1)) for f in files]

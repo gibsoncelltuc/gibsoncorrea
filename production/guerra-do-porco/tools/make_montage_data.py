@@ -8,7 +8,7 @@ every = int(sys.argv[sys.argv.index('--every') + 1]) if '--every' in sys.argv el
 frames_root = os.path.join(R, 'blender', 'out', 'frames'); fps = anim.FPS
 import PIL.Image as I
 shots = []; first = None
-for sid, (a, b) in anim.SHOTS.items():
+for sid, (a, b) in anim.EDIT.items():
     files = sorted(glob.glob(os.path.join(frames_root, sid, 'f*.png')))
     if not files: continue
     first = first or files[0]

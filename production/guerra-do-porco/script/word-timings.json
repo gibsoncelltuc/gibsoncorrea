@@ -1,9 +1,9 @@
 {
- "voice": "pt-BR-AntonioNeural",
- "rate": "+14%",
- "pitch": "-2Hz",
- "engine": "edge-tts 7.3.1",
- "total": 20.928,
+ "voice": "Piper pt_BR-cadu-medium (dataset CC0)",
+ "length_scale": 0.93,
+ "engine": "piper-tts + faster-whisper(base) para tempos de palavra",
+ "license_voice": "CC0 (OHF-Voice/voice-datasets; modelo ajustado de base CC0)",
+ "total": 20.365,
  "lines": [
   {
    "id": "L1",
@@ -12,8 +12,8 @@
    "text": "Um homem matou um porco, e dois países quase entraram em guerra.",
    "pause_before": 0.1,
    "start": 0.35,
-   "end": 3.776,
-   "dur": 3.426
+   "end": 3.665,
+   "dur": 3.315
   },
   {
    "id": "L2",
@@ -21,9 +21,9 @@
    "beat": "setup",
    "text": "O porco de um britânico invadiu a horta de um americano. Ele atirou.",
    "pause_before": 0.22,
-   "start": 3.996,
-   "end": 7.712,
-   "dur": 3.717
+   "start": 3.885,
+   "end": 7.555,
+   "dur": 3.67
   },
   {
    "id": "L3",
@@ -31,9 +31,9 @@
    "beat": "zombador",
    "text": "O dono exigiu cem dólares. O americano ofereceu dez.",
    "pause_before": 0.22,
-   "start": 7.932,
-   "end": 11.495,
-   "dur": 3.563
+   "start": 7.775,
+   "end": 11.35,
+   "dur": 3.575
   },
   {
    "id": "L4",
@@ -41,9 +41,9 @@
    "beat": "escalada",
    "text": "Vieram centenas de soldados. Depois, cinco navios de guerra.",
    "pause_before": 0.2,
-   "start": 11.695,
-   "end": 15.839,
-   "dur": 4.144
+   "start": 11.55,
+   "end": 15.505,
+   "dur": 3.955
   },
   {
    "id": "L5",
@@ -51,9 +51,9 @@
    "beat": "pagamento",
    "text": "Mas o almirante recusou atacar. Ninguém morreu. Só o porco.",
    "pause_before": 0.22,
-   "start": 16.059,
-   "end": 20.078,
-   "dur": 4.018
+   "start": 15.725,
+   "end": 19.515,
+   "dur": 3.79
   }
  ],
  "words": [
@@ -61,319 +61,319 @@
    "line": "L1",
    "text": "Um",
    "start": 0.4,
-   "end": 0.543
+   "end": 0.65
   },
   {
    "line": "L1",
    "text": "homem",
-   "start": 0.553,
-   "end": 0.806
+   "start": 0.65,
+   "end": 0.893
   },
   {
    "line": "L1",
    "text": "matou",
-   "start": 0.817,
-   "end": 1.08
+   "start": 0.917,
+   "end": 1.163
   },
   {
    "line": "L1",
    "text": "um",
-   "start": 1.091,
-   "end": 1.2
+   "start": 1.187,
+   "end": 1.368
   },
   {
    "line": "L1",
    "text": "porco,",
-   "start": 1.211,
-   "end": 1.562
+   "start": 1.392,
+   "end": 1.608
   },
   {
    "line": "L1",
    "text": "e",
-   "start": 1.793,
-   "end": 1.88
+   "start": 1.632,
+   "end": 1.698
   },
   {
    "line": "L1",
    "text": "dois",
-   "start": 1.891,
-   "end": 2.132
+   "start": 1.722,
+   "end": 1.848
   },
   {
    "line": "L1",
    "text": "países",
-   "start": 2.143,
-   "end": 2.56
+   "start": 1.872,
+   "end": 2.36
   },
   {
    "line": "L1",
    "text": "quase",
-   "start": 2.571,
-   "end": 2.856
+   "start": 2.36,
+   "end": 2.583
   },
   {
    "line": "L1",
    "text": "entraram",
-   "start": 2.867,
-   "end": 3.229
+   "start": 2.607,
+   "end": 3.105
   },
   {
    "line": "L1",
    "text": "em",
-   "start": 3.24,
-   "end": 3.306
+   "start": 3.105,
+   "end": 3.278
   },
   {
    "line": "L1",
    "text": "guerra.",
-   "start": 3.317,
-   "end": 3.646
+   "start": 3.302,
+   "end": 3.535
   },
   {
    "line": "L2",
    "text": "O",
-   "start": 4.046,
-   "end": 4.166
+   "start": 3.935,
+   "end": 4.023
   },
   {
    "line": "L2",
    "text": "porco",
-   "start": 4.177,
-   "end": 4.495
+   "start": 4.047,
+   "end": 4.218
   },
   {
    "line": "L2",
    "text": "de",
-   "start": 4.506,
-   "end": 4.561
+   "start": 4.242,
+   "end": 4.303
   },
   {
    "line": "L2",
    "text": "um",
-   "start": 4.572,
-   "end": 4.616
+   "start": 4.327,
+   "end": 4.47
   },
   {
    "line": "L2",
    "text": "britânico",
-   "start": 4.627,
-   "end": 5.098
+   "start": 4.47,
+   "end": 4.913
   },
   {
    "line": "L2",
    "text": "invadiu",
-   "start": 5.109,
-   "end": 5.493
+   "start": 4.937,
+   "end": 5.24
   },
   {
    "line": "L2",
    "text": "a",
-   "start": 5.504,
-   "end": 5.581
+   "start": 5.24,
+   "end": 5.523
   },
   {
    "line": "L2",
    "text": "horta",
-   "start": 5.592,
-   "end": 5.91
+   "start": 5.547,
+   "end": 5.653
   },
   {
    "line": "L2",
    "text": "de",
-   "start": 5.921,
-   "end": 5.997
+   "start": 5.677,
+   "end": 5.765
   },
   {
    "line": "L2",
    "text": "um",
-   "start": 6.008,
-   "end": 6.096
+   "start": 5.765,
+   "end": 5.98
   },
   {
    "line": "L2",
    "text": "americano.",
-   "start": 6.107,
-   "end": 6.655
+   "start": 5.98,
+   "end": 6.395
   },
   {
    "line": "L2",
    "text": "Ele",
-   "start": 6.935,
-   "end": 7.144
+   "start": 6.675,
+   "end": 6.973
   },
   {
    "line": "L2",
    "text": "atirou.",
-   "start": 7.155,
-   "end": 7.582
+   "start": 6.997,
+   "end": 7.425
   },
   {
    "line": "L3",
    "text": "O",
-   "start": 7.982,
-   "end": 8.092
+   "start": 7.825,
+   "end": 7.948
   },
   {
    "line": "L3",
    "text": "dono",
-   "start": 8.103,
-   "end": 8.355
+   "start": 7.972,
+   "end": 8.255
   },
   {
    "line": "L3",
    "text": "exigiu",
-   "start": 8.366,
-   "end": 8.739
+   "start": 8.255,
+   "end": 8.653
   },
   {
    "line": "L3",
    "text": "cem",
-   "start": 8.75,
-   "end": 9.013
+   "start": 8.677,
+   "end": 9.095
   },
   {
    "line": "L3",
    "text": "dólares.",
-   "start": 9.024,
-   "end": 9.539
+   "start": 9.095,
+   "end": 9.465
   },
   {
    "line": "L3",
    "text": "O",
-   "start": 9.819,
-   "end": 9.918
+   "start": 9.745,
+   "end": 9.885
   },
   {
    "line": "L3",
    "text": "americano",
-   "start": 9.929,
-   "end": 10.477
+   "start": 9.885,
+   "end": 10.428
   },
   {
    "line": "L3",
    "text": "ofereceu",
-   "start": 10.488,
-   "end": 10.981
+   "start": 10.452,
+   "end": 11.018
   },
   {
    "line": "L3",
    "text": "dez.",
-   "start": 10.992,
-   "end": 11.365
+   "start": 11.042,
+   "end": 11.22
   },
   {
    "line": "L4",
    "text": "Vieram",
-   "start": 11.745,
-   "end": 12.228
+   "start": 11.6,
+   "end": 12.153
   },
   {
    "line": "L4",
    "text": "centenas",
-   "start": 12.239,
-   "end": 12.743
+   "start": 12.177,
+   "end": 12.575
   },
   {
    "line": "L4",
    "text": "de",
-   "start": 12.754,
-   "end": 12.831
+   "start": 12.575,
+   "end": 12.633
   },
   {
    "line": "L4",
    "text": "soldados.",
-   "start": 12.842,
-   "end": 13.456
+   "start": 12.657,
+   "end": 13.14
   },
   {
    "line": "L4",
    "text": "Depois,",
-   "start": 13.736,
-   "end": 14.262
+   "start": 13.42,
+   "end": 13.843
   },
   {
    "line": "L4",
    "text": "cinco",
-   "start": 14.47,
-   "end": 14.843
+   "start": 13.867,
+   "end": 14.393
   },
   {
    "line": "L4",
    "text": "navios",
-   "start": 14.854,
-   "end": 15.249
+   "start": 14.417,
+   "end": 14.888
   },
   {
    "line": "L4",
    "text": "de",
-   "start": 15.26,
-   "end": 15.348
+   "start": 14.912,
+   "end": 15.038
   },
   {
    "line": "L4",
    "text": "guerra.",
-   "start": 15.358,
-   "end": 15.709
+   "start": 15.062,
+   "end": 15.375
   },
   {
    "line": "L5",
    "text": "Mas",
-   "start": 16.109,
-   "end": 16.307
+   "start": 15.775,
+   "end": 15.925
   },
   {
    "line": "L5",
    "text": "o",
-   "start": 16.318,
-   "end": 16.427
+   "start": 15.925,
+   "end": 15.985
   },
   {
    "line": "L5",
    "text": "almirante",
-   "start": 16.438,
-   "end": 16.921
+   "start": 15.985,
+   "end": 16.653
   },
   {
    "line": "L5",
    "text": "recusou",
-   "start": 16.932,
-   "end": 17.37
+   "start": 16.677,
+   "end": 17.043
   },
   {
    "line": "L5",
    "text": "atacar.",
-   "start": 17.381,
-   "end": 17.787
+   "start": 17.067,
+   "end": 17.4
   },
   {
    "line": "L5",
    "text": "Ninguém",
-   "start": 18.067,
-   "end": 18.517
+   "start": 17.68,
+   "end": 18.11
   },
   {
    "line": "L5",
    "text": "morreu.",
-   "start": 18.527,
-   "end": 18.944
+   "start": 18.11,
+   "end": 18.505
   },
   {
    "line": "L5",
    "text": "Só",
-   "start": 19.224,
-   "end": 19.487
+   "start": 18.785,
+   "end": 18.868
   },
   {
    "line": "L5",
    "text": "o",
-   "start": 19.498,
-   "end": 19.553
+   "start": 18.892,
+   "end": 19.063
   },
   {
    "line": "L5",
    "text": "porco.",
-   "start": 19.564,
-   "end": 19.948
+   "start": 19.087,
+   "end": 19.385
   }
  ]
 }

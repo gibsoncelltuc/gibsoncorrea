@@ -1,20 +1,20 @@
 1
-00:00:00,350 --> 00:00:03,776
+00:00:00,350 --> 00:00:03,665
 Um homem matou um porco, e dois países quase entraram em guerra.
 
 2
-00:00:03,996 --> 00:00:07,712
+00:00:03,885 --> 00:00:07,555
 O porco de um britânico invadiu a horta de um americano. Ele atirou.
 
 3
-00:00:07,932 --> 00:00:11,495
+00:00:07,775 --> 00:00:11,350
 O dono exigiu cem dólares. O americano ofereceu dez.
 
 4
-00:00:11,695 --> 00:00:15,839
+00:00:11,550 --> 00:00:15,505
 Vieram centenas de soldados. Depois, cinco navios de guerra.
 
 5
-00:00:16,059 --> 00:00:20,078
+00:00:15,725 --> 00:00:19,515
 Mas o almirante recusou atacar. Ninguém morreu. Só o porco.
 

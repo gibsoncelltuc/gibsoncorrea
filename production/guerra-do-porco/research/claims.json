@@ -1,0 +1,266 @@
+{
+ "projeto": "A Guerra do Porco (piloto)",
+ "data_da_checagem": "2026-11-15",
+ "regra": "cada afirmação central do roteiro tem ≥ 2 fontes independentes lidas (NPS, HistoryLink, Wikipedia); divergências registradas; sem citações inventadas",
+ "fontes": {
+  "NPS": {
+   "title": "The Pig War — San Juan Island National Historical Park (U.S. National Park Service)",
+   "url": "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm",
+   "tipo": "oficial (governo dos EUA), secundária de alta confiança",
+   "acesso": "2026-11-15",
+   "lido": true
+  },
+  "HISTORYLINK": {
+   "title": "San Juan Island Pig War — Part 1 (HistoryLink.org, enciclopédia do Estado de Washington)",
+   "url": "https://www.historylink.org/File/5724",
+   "tipo": "enciclopédia estadual revisada, secundária de alta confiança",
+   "acesso": "2026-11-15",
+   "lido": true
+  },
+  "WIKIPEDIA": {
+   "title": "Pig War (1859) — Wikipedia (cita Tagg, Kowrach e outros)",
+   "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)",
+   "tipo": "enciclopédia colaborativa; usada para números e para triangular",
+   "acesso": "2026-11-15",
+   "lido": true
+  },
+  "BUSCA": {
+   "title": "Resultados de busca (The Canadian Encyclopedia, Legion Magazine, Historic UK, TheCollector)",
+   "url": "https://www.thecanadianencyclopedia.ca/en/article/pig-war",
+   "tipo": "corroboração apenas por trechos de busca; páginas NÃO lidas (bloqueadas/403 no sandbox)",
+   "acesso": "2026-11-15",
+   "lido": false
+  }
+ },
+ "afirmacoes": [
+  {
+   "id": "C01",
+   "fala": "Um homem matou um porco",
+   "afirmacao": "Em 15/06/1859 o americano Lyman Cutlar matou a tiro um porco.",
+   "fontes": [
+    {
+     "fonte": "NPS",
+     "trecho": "The crisis came on June 15, 1859, when Lyman Cutlar, an American, shot and killed a company pig rooting in his garden.",
+     "url": "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
+    },
+    {
+     "fonte": "HISTORYLINK",
+     "trecho": "Lyman Cutlar's shooting of Charles Griffin's pig…",
+     "url": "https://www.historylink.org/File/5724"
+    },
+    {
+     "fonte": "WIKIPEDIA",
+     "trecho": "On June 15, 1859 … Cutlar … shot and killed the pig.",
+     "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
+    }
+   ],
+   "confianca": "alta",
+   "nota": ""
+  },
+  {
+   "id": "C02",
+   "fala": "…e dois países quase entraram em guerra",
+   "afirmacao": "EUA e Reino Unido quase entraram em guerra pela fronteira das ilhas San Juan.",
+   "fontes": [
+    {
+     "fonte": "HISTORYLINK",
+     "trecho": "…turned … from a minor incident into an international controversy and nearly a shooting war.",
+     "url": "https://www.historylink.org/File/5724"
+    },
+    {
+     "fonte": "WIKIPEDIA",
+     "trecho": "The Pig War was a confrontation in 1859 between the United States and the United Kingdom over the British–U.S. border…",
+     "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
+    }
+   ],
+   "confianca": "alta",
+   "nota": "\"Quase guerra\": houve confronto militar armado sem combate."
+  },
+  {
+   "id": "C03",
+   "fala": "O porco de um britânico",
+   "afirmacao": "O porco era de Charles Griffin, agente da Companhia da Baía de Hudson (britânica); irlandês, súdito da Coroa.",
+   "fontes": [
+    {
+     "fonte": "NPS",
+     "trecho": "…a company pig…",
+     "url": "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
+    },
+    {
+     "fonte": "HISTORYLINK",
+     "trecho": "Charles John Griffin, the Company agent appointed to manage the new farm…",
+     "url": "https://www.historylink.org/File/5724"
+    },
+    {
+     "fonte": "WIKIPEDIA",
+     "trecho": "…owned by an Irishman, Charles Griffin, who was employed by the Hudson's Bay Company…",
+     "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
+    }
+   ],
+   "confianca": "alta",
+   "nota": "\"Britânico\" = súdito/empregado britânico; Griffin era irlandês (Irlanda fazia parte do Reino Unido em 1859)."
+  },
+  {
+   "id": "C04",
+   "fala": "invadiu a horta de um americano",
+   "afirmacao": "O porco fuçava na horta/plantação de batatas de Cutlar.",
+   "fontes": [
+    {
+     "fonte": "NPS",
+     "trecho": "…a company pig rooting in his garden.",
+     "url": "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
+    },
+    {
+     "fonte": "HISTORYLINK",
+     "trecho": "…rooting in Cutlar's unprotected potato patch…",
+     "url": "https://www.historylink.org/File/5724"
+    },
+    {
+     "fonte": "WIKIPEDIA",
+     "trecho": "…found a pig rooting in his garden and eating his tubers.",
+     "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
+    }
+   ],
+   "confianca": "alta",
+   "nota": "Licença artística: a horta é mostrada com repolhos (as fontes citam batatas)."
+  },
+  {
+   "id": "C05",
+   "fala": "Ele atirou.",
+   "afirmacao": "Cutlar atirou no porco.",
+   "fontes": [
+    {
+     "fonte": "NPS",
+     "trecho": "…shot and killed a company pig…",
+     "url": "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
+    }
+   ],
+   "confianca": "alta",
+   "nota": ""
+  },
+  {
+   "id": "C06",
+   "fala": "O dono exigiu cem dólares.",
+   "afirmacao": "Griffin pediu US$ 100 pelo porco.",
+   "fontes": [
+    {
+     "fonte": "HISTORYLINK",
+     "trecho": "Griffin insisted the boar was worth $100…",
+     "url": "https://www.historylink.org/File/5724"
+    },
+    {
+     "fonte": "WIKIPEDIA",
+     "trecho": "…Griffin was unsatisfied with this offer and demanded $100.",
+     "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
+    }
+   ],
+   "confianca": "média-alta",
+   "nota": "Diálogos são relatos tardios e em parte apócrifos (a própria Wikipedia o diz); o valor US$ 100 é consistente entre as fontes."
+  },
+  {
+   "id": "C07",
+   "fala": "O americano ofereceu dez.",
+   "afirmacao": "Cutlar ofereceu/ contrapôs US$ 10.",
+   "fontes": [
+    {
+     "fonte": "WIKIPEDIA",
+     "trecho": "Cutlar offered $10 to Griffin to compensate for the pig…",
+     "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
+    },
+    {
+     "fonte": "HISTORYLINK",
+     "trecho": "…Cutlar angrily countered that it was not worth $10.",
+     "url": "https://www.historylink.org/File/5724"
+    }
+   ],
+   "confianca": "média",
+   "nota": "As fontes divergem na forma: \"ofereceu US$ 10\" (Wikipedia) × \"retrucou que não valia US$ 10\" (HistoryLink). A fala adota \"ofereceu\". O valor é consistente."
+  },
+  {
+   "id": "C08",
+   "fala": "Vieram centenas de soldados.",
+   "afirmacao": "Até 31/08/1859 havia 461 soldados americanos com 14 canhões de campanha.",
+   "fontes": [
+    {
+     "fonte": "NPS",
+     "trecho": "By August 31, 461 Americans were encamped … protected by 14 field cannons.",
+     "url": "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
+    },
+    {
+     "fonte": "WIKIPEDIA",
+     "trecho": "…the enlarged detachment of 461 Americans with 14 cannons under Colonel Silas Casey…",
+     "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
+    }
+   ],
+   "confianca": "alta",
+   "nota": "\"Centenas\" = 461 (e a Wikipedia cita 2.140 britânicos)."
+  },
+  {
+   "id": "C09",
+   "fala": "Depois, cinco navios de guerra.",
+   "afirmacao": "Uma flotilha de cinco navios de guerra britânicos (70 canhões, 2.140 homens) foi reunida.",
+   "fontes": [
+    {
+     "fonte": "WIKIPEDIA",
+     "trecho": "…a flotilla of five British Royal Navy warships mounting 70 guns and carrying 2,140 men.",
+     "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
+    },
+    {
+     "fonte": "NPS",
+     "trecho": "Hornby (HMS Tribune) was soon joined by … HMS Satellite and HMS Plumper … (reforços até a chegada de Baynes em HMS Ganges)",
+     "url": "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
+    }
+   ],
+   "confianca": "média",
+   "nota": "A contagem varia com a data (3 navios no início, 5 no auge). A fala usa o número de auge citado pela Wikipedia; NPS não dá o total."
+  },
+  {
+   "id": "C10",
+   "fala": "Mas o almirante recusou atacar.",
+   "afirmacao": "O contra-almirante Lambert Baynes recusou levar as duas nações à guerra \"por causa de uma briga por um porco\".",
+   "fontes": [
+    {
+     "fonte": "NPS",
+     "trecho": "Baynes, appalled at the situation, advised Douglas that he would not \"involve two great nations in a war over a squabble about a pig.\"",
+     "url": "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
+    },
+    {
+     "fonte": "HISTORYLINK",
+     "trecho": "…Admiral Baynes [was] a firm believer in this policy [restraint / \"minimum intervention\"].",
+     "url": "https://www.historylink.org/File/5724"
+    },
+    {
+     "fonte": "WIKIPEDIA",
+     "trecho": "…he would not escalate the conflict into a war between two great nations \"over a squabble about a pig\".",
+     "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
+    }
+   ],
+   "confianca": "alta",
+   "nota": "Citação reproduzida como parafraseada pela fonte; o vídeo NÃO atribui fala a pessoa real (só narração)."
+  },
+  {
+   "id": "C11",
+   "fala": "Ninguém morreu. Só o porco.",
+   "afirmacao": "Não houve baixas humanas; a única baixa foi o porco.",
+   "fontes": [
+    {
+     "fonte": "WIKIPEDIA",
+     "trecho": "…there were no human casualties on either side, only a pig.",
+     "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
+    },
+    {
+     "fonte": "HISTORYLINK",
+     "trecho": "…a \"war\" commemorated for having the pig as its only casualty.",
+     "url": "https://www.historylink.org/File/5724"
+    }
+   ],
+   "confianca": "alta",
+   "nota": ""
+  }
+ ],
+ "limitacoes": [
+  "fontes primárias (cartas de Harney/Baynes/Douglas, relatórios) não consultadas diretamente; as fontes lidas são secundárias de alta confiança que as citam",
+  "The Canadian Encyclopedia, Britannica, Legion Magazine e Historic UK não puderam ser lidos (403/rede do sandbox)",
+  "diálogos entre Cutlar e Griffin são tradição oral parcialmente apócrifa — o vídeo só usa os valores"
+ ]
+}

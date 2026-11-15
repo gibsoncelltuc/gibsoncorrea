@@ -1,6 +1,6 @@
 """Vestir os cenários: posiciona os objetos de cena (dress.py) em cada plano, pensando no que a câmera enxerga. Coordenadas de mundo (fazenda: jardim x∈[-6,6], y∈[-3.4,4.6]; cabana (-11.5,7.5); placa (8.2,-1.8))."""
-import math
-from . import dress as D, props, nature
+import math, bpy, numpy as np
+from . import dress as D, props, nature, util, mats
 class Smoke:
     """fumaça contínua da chaminé: n baforadas em ciclo (função pura de t)"""
     def __init__(self, pos, n=9, period=4.2): self.pos = pos; self.n = n; self.T = period; self.puffs = [props.Puff() for _ in range(n)]
@@ -34,3 +34,19 @@ def S5():
     D.ship_wheel(-2.6, 4.3, .12); D.barrel(2.7, 4.5, label='H.M.S.\nGANGES', seed=21); D.barrel(3.4, 4.1, h=.9, r=.38, rz=.5, label='POWDER', seed=22); D.rope_coil(-1.2, 3.0, 0, .45); D.rope_coil(2.0, 3.2, 0, .4)
     D.cannonballs(1.2, 4.7, 0, 3, .09); D.cannonballs(-3.9, 3.0, 0, 2, .09); D.bell(-4.5, 4.7, 1.2); D.lantern(0.6, 4.9, 1.15); D.ladder(4.2, 3.2, 0, 1.6, .0); D.crate(-3.4, 1.8, (.8, .6, .6), .2, label='H.M.S.', seed=23)
 SET = {'S1': S1, 'S2': S2, 'S3': S3, 'S4': S4, 'S5': S5, 'S6': S6}
+
+class Birds:
+    """bando de pássaros distantes: cada um = V de duas asas que batem (função pura de t), voando em arco no céu"""
+    def __init__(self, n=7, seed=3, base=(-60, 150, 55), spread=(50, 40, 14)):
+        r = np.random.default_rng(seed); self.items = []; mat = mats.flat('bird_m', (.08, .07, .1, 1), rough=1.0, haze=False)
+        for i in range(n):
+            me = bpy.data.meshes.new('bird'); me.from_pydata([(0, 0, 0), (-1, .1, .2), (-.5, 0, -.05), (0, 0, 0), (1, .1, .2), (.5, 0, -.05)], [], [(0, 1, 2), (3, 5, 4)]); me.materials.append(mat); o = bpy.data.objects.new('bird', me); util.link(o); o.visible_shadow = False
+            self.items.append((o, np.array(base) + r.uniform(-1, 1, 3) * np.array(spread), r.uniform(0, 6.28), r.uniform(7, 11)))
+    def update(self, t, v=(3.2, .4, .1)):
+        for o, p0, ph, fr in self.items:
+            o.location = (p0[0] + v[0] * t, p0[1] + v[1] * t, p0[2] + v[2] * t + math.sin(t * .8 + ph) * .6); f = math.sin(t * fr + ph); o.scale = (2.2, 2.2, 2.2); o.rotation_euler = (f * .55, 0, 0.1)
+def drift_clouds(objs, t, speed=1.3):
+    """nuvens derivam lentamente no vento (posição-base guardada na 1ª chamada)"""
+    for i, c in enumerate(objs.get('clouds', [])):
+        if 'x0' not in c: c['x0'] = c.location.x
+        c.location.x = c['x0'] + t * speed * (1 + .12 * (i % 4))

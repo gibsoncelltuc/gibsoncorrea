@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """production.json, storyboard/shots.json, legendas (.srt cartões/.srt frases/.ass) e script/*.md a partir de word-timings.json."""
-import json, os, re
+import json, subprocess, sys, os, re
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 D = json.load(open(f"{ROOT}/script/word-timings.json")); story = json.load(open(f"{ROOT}/script/story.json"))
 FPS = 30; KEEP_PUNCT = True   # observado nas referências do canal (ver references/visual-reference-ricks-clips.md)
@@ -22,12 +22,13 @@ for i, (sid, st) in enumerate(starts):
     en = starts[i + 1][1] if i + 1 < len(starts) else D["total"]
     shots.append({"id": sid, "start": round(st, 3), "end": round(en, 3), "lines": info[sid][4], "purpose": info[sid][0], "camera": info[sid][1], "action": info[sid][2], "audio": info[sid][3]})
 os.makedirs(f"{ROOT}/storyboard", exist_ok=True)
-json.dump({"shots": shots}, open(f"{ROOT}/storyboard/shots.json", "w"), ensure_ascii=False, indent=1)
+# storyboard/shots.json agora vem da EDL (tools/make_storyboard.py) — não sobrescrever aqui
+subprocess.run([sys.executable, os.path.join(ROOT, "tools", "make_storyboard.py")])
 prod = {"title": story["title"], "slug": "guerra-do-porco", "language": "pt-BR", "format": "short-pilot", "width": 1080, "height": 1920, "fps": FPS, "durationSeconds": D["total"],
         "pilot_render": {"width": 540, "height": 960, "note": "piloto em baixa resolução a pedido do usuário; mesmo código renderiza 1080x1920"},
         "visualEngine": "remotion + three/R3F (swangle/SwiftShader CPU)", "visualGeneration": "procedural-code-only", "style_reference": "references/visual-reference-ricks-clips.md",
         "captions": {"wordsPerCard": "1-2", "keepPunctuation": KEEP_PUNCT, "font": "Montserrat 800", "y": "70%"},
-        "audio": {"sampleRate": 44100, "channels": 2, "targetIntegratedLufs": -14, "maxTruePeakDbtp": -1.5}, "tts": D.get("engine"), "voice": D["voice"], "rate": D["rate"],
+        "audio": {"sampleRate": 44100, "channels": 2, "targetIntegratedLufs": -14, "maxTruePeakDbtp": -1.5}, "tts": D.get("engine"), "voice": D["voice"], "rate": D.get("rate", D.get("length_scale")),
         "pipelineVersion": "ricks-3d-toon-story-orchestrator V2 + cloud-render v3.1 + visual-reference"}
 json.dump(prod, open(f"{ROOT}/production.json", "w"), ensure_ascii=False, indent=1)
 vo = " ".join(l["text"] for l in D["lines"])

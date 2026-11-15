@@ -6,7 +6,7 @@
  "width": 1080,
  "height": 1920,
  "fps": 30,
- "durationSeconds": 20.928,
+ "durationSeconds": 20.365,
  "pilot_render": {
   "width": 540,
   "height": 960,
@@ -27,8 +27,8 @@
   "targetIntegratedLufs": -14,
   "maxTruePeakDbtp": -1.5
  },
- "tts": "edge-tts 7.3.1",
- "voice": "pt-BR-AntonioNeural",
- "rate": "+14%",
+ "tts": "piper-tts + faster-whisper(base) para tempos de palavra",
+ "voice": "Piper pt_BR-cadu-medium (dataset CC0)",
+ "rate": 0.93,
  "pipelineVersion": "ricks-3d-toon-story-orchestrator V2 + cloud-render v3.1 + visual-reference"
 }

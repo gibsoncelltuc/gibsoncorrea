@@ -11,7 +11,7 @@ num, den = map(int, v['r_frame_rate'].split('/'))
 h = hashlib.sha256(open(video, 'rb').read()).hexdigest()
 shots = {}
 for lg in sorted(glob.glob(os.path.join(R, 'blender', 'out', 'log_S*_o*.txt'))):
-    m = re.match(r'log_(S\d)_o(\d)\.txt', os.path.basename(lg)); sid, off = m.group(1), int(m.group(2)); txt = open(lg, errors='ignore').read()
+    m = re.match(r'log_(\w+?)_o(\d)\.txt', os.path.basename(lg)); sid, off = m.group(1), int(m.group(2)); txt = open(lg, errors='ignore').read()
     f = re.search(r'FIM (\d+) frames em ([\d.]+) s', txt); b = re.search(r'build ([\d.]+) s (\d+) objetos', txt)
     d = shots.setdefault(sid, {'frames_por_passada': {}, 'segundos_por_passada': {}})
     if f: d['frames_por_passada'][f'p{off + 1}'] = int(f.group(1)); d['segundos_por_passada'][f'p{off + 1}'] = float(f.group(2))

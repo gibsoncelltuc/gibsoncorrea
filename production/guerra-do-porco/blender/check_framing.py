@@ -6,7 +6,7 @@ from bpy_extras.object_utils import world_to_camera_view
 from lib import util, renderlib, shots, anim
 sid = sys.argv[1]
 from lib import anim as _a
-t0, t1 = _a.SHOTS[sid]; times = [round(t0 + k * .25, 2) for k in range(int((t1 - t0) / .25) + 1)]
+t0, t1 = _a.EDIT[sid]; times = [round(t0 + k * .25, 2) for k in range(int((t1 - t0) / .25) + 1)]
 util.reset(); sc = renderlib.setup((135, 240), samples=1); shot = shots.SHOT_CLASSES[sid]({'grass': 2000}); shot.build(); keys = shot.keys_()
 for t in times:
     shot.update(t); bpy.context.view_layer.update(); row = []

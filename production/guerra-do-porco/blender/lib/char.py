@@ -61,6 +61,14 @@ def m_capsule(r, L, seg=10, rings=3):
         for p in me.polygons: p.use_smooth = True
         return me
     return _m(('cap', round(r, 4), round(L, 4)), b)
+def m_crescent(a0=200.0, a1=340.0, ro=.5, ri=.36, off=.1, n=18):
+    """faixa em crescente (barba de queixo): arco externo de raio ro e arco interno de raio ri deslocado `off` para cima, entre os ângulos a0..a1 (graus, 270 = baixo)"""
+    def b():
+        ts = np.radians(np.linspace(a0, a1, n)); V = []
+        for t in ts: V.append((ro * math.cos(t), 0, ro * math.sin(t)))
+        for t in ts: V.append((ri * math.cos(t), 0, off + ri * math.sin(t)))
+        F = [(i, i + 1, n + i + 1, n + i) for i in range(n - 1)]; me = bpy.data.meshes.new('cres'); me.from_pydata(V, [], F); me.update(); return me
+    return _m(('cres', a0, a1, round(ro, 3), round(ri, 3), round(off, 3), n), b)
 def m_lens(n=14, p=.55):
     """traço de pincel afilado (sobrancelha/boca): grosso no meio e pontudo nas pontas, largura 1 × altura 1 (escalar no objeto)"""
     def b():
@@ -233,7 +241,7 @@ class Char:
             for s in (-1, 1): self.add(H, m_disc(16), (sc(.075), 1, sc(.055)), (s * sc(.36), -.012, sc(-.1)), mat('blush', hexc('#f3a2ae'), emit=.35))
         if look.get('sideburns'):
             for s in (-1, 1): self.add(H, m_disc(16), (sc(.06), 1, sc(.16)), (s * sc(.49), -.010, sc(-.04)), mat('sb_' + look['sideburns'], hexc(look['sideburns']), emit=.3), rot=(0, s * -.15, 0))
-        if look.get('beard'): self.add(H, m_half(), (sc(.36), 1, sc(.28)), (0, -.008, sc(-.16)), mat('beard_' + look['beard'], hexc(look['beard']), emit=.45), rot=(0, math.pi, 0))
+        if look.get('beard'): self.add(H, m_crescent(198, 342, sc(.5), sc(.37), sc(.11)), (1, 1, 1), (0, -.008, 0), mat('beard_' + look['beard'], hexc(look['beard']), emit=.45))
         if look.get('mustache'):
             for s in (-1, 1): self.add(H, m_disc(16), (sc(.12), 1, sc(.05)), (s * sc(.1), -.016, sc(-.085)), mat('mu_' + look['mustache'], hexc(look['mustache']), emit=.3), rot=(0, s * -.3, 0))
         if look.get('glasses'):

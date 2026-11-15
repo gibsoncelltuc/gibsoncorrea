@@ -1,18 +1,18 @@
 {
- "integrated_lufs": -14.4,
- "true_peak_dbfs": -4.1,
+ "integrated_lufs": -14.0,
+ "true_peak_dbfs": -2.5,
  "stem_lufs": {
-  "voice": -20.3,
-  "music": -18.2,
-  "sfx": -29.0,
-  "ambience": -17.4
+  "voice": -17.0,
+  "music": -18.1,
+  "sfx": -28.6,
+  "ambience": -18.2
  },
  "gains_db": {
   "voice": 0.0,
-  "music": -10.100000000000001,
-  "sfx": 1.6999999999999993,
-  "ambience": -26.9
+  "music": -6.899999999999999,
+  "sfx": 4.600000000000001,
+  "ambience": -22.8
  },
- "music_under_voice_db_vs_voice": -22.2,
- "ducking_db": -14.4
+ "music_under_voice_db_vs_voice": -21.6,
+ "ducking_db": -13.5
 }

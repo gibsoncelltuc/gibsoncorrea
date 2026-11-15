@@ -25,13 +25,29 @@ BANG1 = word_start('L1', 'matou') + 0.1; BANG2 = word_start('L2', 'atirou') + 0.
 DIS = 0.4
 SHOT_STARTS = [('S1', 0.0), ('S2', line_start('L2') - .3), ('S3', line_start('L3') - .3), ('S4', line_start('L4') - .3), ('S5', line_start('L5') - .3), ('S6', word_start('L5', 'ninguém') - .3)]
 SHOTS = {sid: (st, (SHOT_STARTS[i + 1][1] if i + 1 < len(SHOT_STARTS) else TOTAL)) for i, (sid, st) in enumerate(SHOT_STARTS)}
+# ---------------- EDL: lista de edição (id de edição, classe de cena, início, fim). Planos de cena + INSERTS de detalhe, para ritmo de ~2 s como nos prints.
+# A coreografia continua sendo função do tempo absoluto (continuidade entre plano aberto e insert); os cortes seguem as palavras.
+def _edl():
+    S = SHOTS; w = word_start
+    t_eyes = w('L2', 'ele') - .25; t_notes = w('L3', 'ofereceu') - .30; t_faces = w('L4', 'depois') + .03; t_bay = w('L5', 'recusou') - .22
+    return [('S1', 'S1', S['S1'][0], S['S1'][1]),
+            ('S2a', 'S2', S['S2'][0], t_eyes), ('I_eyes', 'I_eyes', t_eyes, S['S2'][1]),
+            ('S3a', 'S3', S['S3'][0], t_notes), ('I_notes', 'I_notes', t_notes, S['S3'][1]),
+            ('S4a', 'S4', S['S4'][0], t_faces), ('I_faces', 'I_faces', t_faces, t_faces + .85), ('S4b', 'S4', t_faces + .85, S['S4'][1]),
+            ('S5a', 'S5', S['S5'][0], t_bay), ('I_baynes', 'I_baynes', t_bay, S['S5'][1]),
+            ('S6', 'S6', S['S6'][0], S['S6'][1])]
+EDL = _edl(); EDIT = {e[0]: (e[2], e[3]) for e in EDL}; EDIT_CLASS = {e[0]: e[1] for e in EDL}
 # ---------------- atuação (ângulos no mesmo referencial do rig TS: 0 = pendurado, + = para frente) ----------------
 def blink_at(t, off=0.0): p = (t + off) % 3.1; return math.sin(p / .12 * math.pi) if p < .12 else 0.0
 def P(**kw):
     d = dict(x=0, y=0, z=0, face=1, scale=1.0, bob=0.0, lean=0.0, tilt=0.0, armL=(0.1, 0.1), armR=(-0.1, 0.1), legL=(0, 0), legR=(0, 0), look=(0, 0), blink=0.0, lid=0.42, eye='lid', brows=(0, 0), angry=0.0, mouth='line', open=0.0, sweat=0.0, squash=0.0); d.update(kw); return d
+def sacc(t, off=0.0, amp=.6):
+    """olhar com sacadas: fixa num ponto por ~0,55 s e salta rápido (≈80 ms) para o próximo — mais vida que um balanço senoidal"""
+    k = (t + off) / .55; i = math.floor(k); f = k - i; h = lambda n: (math.sin(n * 12.9898 + 78.233) * 43758.5453) % 1.0
+    a, b = (h(i) - .5) * 2 * amp, (h(i + 1) - .5) * 2 * amp; u = clamp((f - .85) / .15); u = u * u * (3 - 2 * u); return a + (b - a) * u
 def idle(t, x=0, y=0, z=0, face=1, off=0.0, scale=1.0):
     return P(x=x, y=y, z=z, face=face, scale=scale, bob=math.sin((t + off) * 2.1) * .022, lean=math.sin((t + off) * .9) * .012,
-             armL=(.1 + math.sin((t + off) * 1.3) * .03, .12), armR=(-.1 - math.sin((t + off) * 1.3) * .03, .12), blink=blink_at(t, off), look=(math.sin((t + off) * .5) * .5, 0))
+             armL=(.1 + math.sin((t + off) * 1.3) * .03, .12), armR=(-.1 - math.sin((t + off) * 1.3) * .03, .12), blink=blink_at(t, off), look=(sacc(t, off), sacc(t, off + 3.3, .25) * .5))
 def walk(t, speed=1.7, off=0.0):
     ph = (t + off) * speed * math.pi * 2; s, c = math.sin(ph), math.cos(ph)
     return dict(bob=abs(c) * .09 - .03, legL=(s * .55, max(0, -c) * .6), legR=(-s * .55, max(0, c) * .6), armL=(-s * .5, .25), armR=(s * .5, .25), lean=-.04)
