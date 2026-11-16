@@ -9,3 +9,7 @@ production/guerra-do-porco/montage/data.json
 production/guerra-do-porco/renders/_montage_raw.mp4
 production/guerra-do-porco/renders/_captions/
 production/guerra-do-porco/research/sources/
+
+# ferramenta-shorts: gerado/regeneravel
+webs/
+ferramenta-shorts/stories/*/work/
