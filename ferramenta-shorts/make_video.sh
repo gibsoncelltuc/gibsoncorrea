@@ -10,6 +10,7 @@ st() { [ -f stories/$ID/stages/$1 ]; }; mark() { date +%s > stories/$ID/stages/$
 j() { python3 -c "import json;print(json.load(open('stories/$ID/meta.json'))['$1'])"; }
 python3 mkvideo.py $ID >> $L 2>&1
 VOICE=$(j voice); RATE=$(j rate); T=$(j file)
+if st voice && [ -f stories/$ID/voice.mp3 ] && [ ! -f stories/$ID/work/phrases.json ]; then log "refazendo so a temporizacao (work/ ausente)"; (cd stories/$ID && python3 ../../timing.py voice.mp3 script.txt --out work >> ../../$L 2>&1); fi
 if ! st voice || [ ! -f stories/$ID/voice.mp3 ]; then log "voz"; rm -f stories/$ID/voice.mp3; ./produce_voice.sh $ID "$VOICE" "$RATE" >> $L 2>&1; mark voice; fi
 [ -f stories/$ID/VOICE_PLACEHOLDER ] && log "AVISO: voz de TESTE (espeak). Libere speech.platform.bing.com para a voz neural e apague stories/$ID/stages/voice"
 if ! st style; then log "estilo (autoajuste)"; python3 autostyle.py $ID >> $L 2>&1 || log "AVISO: estilo nao convergiu"; mark style; fi

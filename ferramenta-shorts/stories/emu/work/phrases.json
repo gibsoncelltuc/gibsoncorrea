@@ -1,0 +1,297 @@
+{
+ "duration": 61.884082,
+ "frames30": 1857,
+ "source": "silence-align (cost 0.82)",
+ "segments": [
+  [
+   0.0,
+   1.24195
+  ],
+  [
+   1.40934,
+   3.43111
+  ],
+  [
+   3.81746,
+   7.62744
+  ],
+  [
+   7.7976,
+   10.4322
+  ],
+  [
+   10.7772,
+   12.7293
+  ],
+  [
+   12.9495,
+   14.0092
+  ],
+  [
+   14.2298,
+   15.711
+  ],
+  [
+   16.045,
+   16.9372
+  ],
+  [
+   17.3184,
+   18.4265
+  ],
+  [
+   18.5947,
+   19.8874
+  ],
+  [
+   20.2648,
+   21.6897
+  ],
+  [
+   21.8759,
+   23.8793
+  ],
+  [
+   24.0641,
+   25.1965
+  ],
+  [
+   25.5336,
+   28.112
+  ],
+  [
+   28.4633,
+   31.0689
+  ],
+  [
+   31.2948,
+   33.007
+  ],
+  [
+   33.3459,
+   34.1368
+  ],
+  [
+   34.3654,
+   36.6884
+  ],
+  [
+   36.8566,
+   38.6264
+  ],
+  [
+   39.009,
+   40.2618
+  ],
+  [
+   40.6104,
+   41.9582
+  ],
+  [
+   42.162,
+   45.0938
+  ],
+  [
+   45.4642,
+   46.687
+  ],
+  [
+   46.8556,
+   49.1928
+  ],
+  [
+   49.5935,
+   51.4944
+  ],
+  [
+   51.8687,
+   52.4579
+  ],
+  [
+   52.6412,
+   54.7075
+  ],
+  [
+   55.0477,
+   58.5722
+  ],
+  [
+   58.9223,
+   59.438
+  ],
+  [
+   59.6706,
+   60.0997
+  ],
+  [
+   60.4351,
+   60.9056
+  ],
+  [
+   61.0967,
+   61.4911
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "In nineteen thirty-two,",
+   "s": 0.0,
+   "e": 1.242
+  },
+  {
+   "text": "Australia declared war on birds.",
+   "s": 1.409,
+   "e": 3.431
+  },
+  {
+   "text": "Twenty thousand emus were wrecking the wheat farms in Western Australia,",
+   "s": 3.817,
+   "e": 7.627
+  },
+  {
+   "text": "and desperate farmers begged the army for help.",
+   "s": 7.798,
+   "e": 10.432
+  },
+  {
+   "text": "So the government sent soldiers,",
+   "s": 10.777,
+   "e": 12.729
+  },
+  {
+   "text": "two machine guns,",
+   "s": 12.95,
+   "e": 14.009
+  },
+  {
+   "text": "and ten thousand bullets.",
+   "s": 14.23,
+   "e": 15.711
+  },
+  {
+   "text": "Against emus.",
+   "s": 16.045,
+   "e": 16.937
+  },
+  {
+   "text": "But emus are fast,",
+   "s": 17.318,
+   "e": 18.427
+  },
+  {
+   "text": "and they don't stay put.",
+   "s": 18.595,
+   "e": 19.887
+  },
+  {
+   "text": "Whenever the soldiers aimed,",
+   "s": 20.265,
+   "e": 21.69
+  },
+  {
+   "text": "the birds scattered in every direction,",
+   "s": 21.876,
+   "e": 23.879
+  },
+  {
+   "text": "and sprinted away.",
+   "s": 24.064,
+   "e": 25.197
+  },
+  {
+   "text": "One gunner even mounted a machine gun on a truck.",
+   "s": 25.534,
+   "e": 28.112
+  },
+  {
+   "text": "But the truck bounced so much over the rough ground,",
+   "s": 28.463,
+   "e": 31.069
+  },
+  {
+   "text": "he couldn't hit a single bird.",
+   "s": 31.295,
+   "e": 33.007
+  },
+  {
+   "text": "After a week,",
+   "s": 33.346,
+   "e": 34.137
+  },
+  {
+   "text": "the army had used up thousands of bullets,",
+   "s": 34.365,
+   "e": 36.688
+  },
+  {
+   "text": "and the emus were barely scratched.",
+   "s": 36.857,
+   "e": 38.626
+  },
+  {
+   "text": "The soldiers pulled out.",
+   "s": 39.009,
+   "e": 40.262
+  },
+  {
+   "text": "The press roared with laughter,",
+   "s": 40.61,
+   "e": 41.958
+  },
+  {
+   "text": "and an officer admitted the emus fought like tanks.",
+   "s": 42.162,
+   "e": 45.094
+  },
+  {
+   "text": "The army tried again,",
+   "s": 45.464,
+   "e": 46.687
+  },
+  {
+   "text": "and finally claimed a few hundred birds.",
+   "s": 46.856,
+   "e": 49.193
+  },
+  {
+   "text": "But the emus kept coming back.",
+   "s": 49.593,
+   "e": 51.494
+  },
+  {
+   "text": "In the end,",
+   "s": 51.869,
+   "e": 52.458
+  },
+  {
+   "text": "farmers got a bounty system instead.",
+   "s": 52.641,
+   "e": 54.708
+  },
+  {
+   "text": "And the great Emu War went down in history as a defeat for the army.",
+   "s": 55.048,
+   "e": 58.572
+  },
+  {
+   "text": "Humans,",
+   "s": 58.922,
+   "e": 59.438
+  },
+  {
+   "text": "zero.",
+   "s": 59.671,
+   "e": 60.1
+  },
+  {
+   "text": "Emus,",
+   "s": 60.435,
+   "e": 60.906
+  },
+  {
+   "text": "one.",
+   "s": 61.097,
+   "e": 61.491
+  }
+ ]
+}
