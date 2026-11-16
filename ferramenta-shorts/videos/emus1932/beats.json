@@ -1,0 +1,220 @@
+{
+ "title": "A Guerra dos Emus",
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "set": "outback",
+ "light": "desert",
+ "mood": "march",
+ "outfits": {
+  "AUS": {
+   "jacket": "#8a7a4a",
+   "pants": "#6e6038",
+   "boots": "#2a2218",
+   "hat": "cap",
+   "cap": "#7a6a3a",
+   "belt": "#4a3a24",
+   "rifle": true
+  },
+  "FARM": {
+   "jacket": "#7a9ac2",
+   "pants": "#4a5a7a",
+   "boots": "#4a3426",
+   "hat": "cap",
+   "cap": "#d8c070",
+   "moustache_on": "#4a3020"
+  },
+  "PRESS": {
+   "jacket": "#7a4a8a",
+   "pants": "#3a3a4a",
+   "boots": "#2a2218",
+   "hat": "cap",
+   "cap": "#2a2a2a"
+  }
+ },
+ "cinf": 4.5,
+ "exp": 1.12,
+ "beats": [
+  {
+   "say": "Em mil novecentos e trinta e dois, a Austrália declarou guerra aos pássaros.",
+   "shot": "reveal",
+   "who": [],
+   "text": "1932",
+   "tat": 0,
+   "light": "desert",
+   "emus": {
+    "n": 10,
+    "mode": "stand",
+    "x": 0.5,
+    "z": 1.0,
+    "cols": 5
+   }
+  },
+  {
+   "say": "Vinte mil emus estavam destruindo as plantações de trigo no oeste da Austrália, e fazendeiros desesperados pediram ajuda ao exército.",
+   "shot": "group",
+   "who": [
+    "FARM:0:shock",
+    "FARM:1:nervous"
+   ],
+   "text": "20.000 EMUS",
+   "tat": 3,
+   "tstyle": "red",
+   "emus": {
+    "n": 8,
+    "mode": "stand",
+    "x": 5.5,
+    "z": 0.5,
+    "cols": 3
+   }
+  },
+  {
+   "say": "Então o governo mandou soldados, duas metralhadoras, e dez mil balas. Contra emus.",
+   "shot": "two",
+   "who": [
+    "AUS:0:stern",
+    "AUS:1:grin",
+    "AUS:2:neutral"
+   ],
+   "props": [
+    [
+     "war/sandbags",
+     -3,
+     0.2,
+     1.2
+    ],
+    [
+     "cannon",
+     3.5,
+     0.5,
+     1.0
+    ]
+   ],
+   "text": "10.000 BALAS",
+   "tat": 6,
+   "crowd": {
+    "n": 14,
+    "outfit": "AUS",
+    "march": true
+   }
+  },
+  {
+   "say": "Mas emus são rápidos, e não ficam parados. Sempre que os soldados miravam, os pássaros se espalhavam em todas as direções, e fugiam correndo.",
+   "shot": "group",
+   "who": [
+    "AUS:0:shock",
+    "AUS:1:nervous"
+   ],
+   "emus": {
+    "n": 10,
+    "mode": "scatter",
+    "x": 4.0,
+    "z": 0.0
+   }
+  },
+  {
+   "say": "Um atirador até montou uma metralhadora num caminhão. Mas o caminhão pulava tanto no chão irregular, que ele não acertava nenhum pássaro.",
+   "shot": "track",
+   "who": [
+    "AUS:2:grin"
+   ],
+   "props": [
+    [
+     "vehicles/truck",
+     -1.5,
+     0.8,
+     1.0,
+     {
+      "bob": 0.06
+     }
+    ]
+   ],
+   "emus": {
+    "n": 6,
+    "mode": "run",
+    "x": 0,
+    "z": 1.5,
+    "dir": -1
+   }
+  },
+  {
+   "say": "Depois de uma semana, o exército tinha gasto milhares de balas, e os emus mal tinham sido arranhados.",
+   "shot": "two",
+   "who": [
+    "AUS:0:pained",
+    "AUS:1:pained"
+   ],
+   "text": "1 SEMANA",
+   "tat": 0,
+   "emus": {
+    "n": 6,
+    "mode": "stand",
+    "x": 5.0,
+    "z": 0.5,
+    "cols": 3
+   }
+  },
+  {
+   "say": "Os soldados se retiraram. A imprensa gargalhou, e um oficial admitiu que os emus lutavam como tanques.",
+   "shot": "group",
+   "who": [
+    "AUS:0:pained",
+    "PRESS:0:grin",
+    "PRESS:1:smile"
+   ],
+   "text": "HA HA HA",
+   "tat": 8,
+   "tstyle": "gold",
+   "crowd": {
+    "n": 12,
+    "outfit": "AUS",
+    "march": true
+   }
+  },
+  {
+   "say": "O exército tentou de novo, e finalmente abateu algumas centenas de pássaros. Mas os emus continuavam voltando.",
+   "shot": "track",
+   "who": [
+    "AUS:1:stern"
+   ],
+   "emus": {
+    "n": 10,
+    "mode": "run",
+    "x": 0,
+    "z": 1.5,
+    "dir": 1
+   },
+   "text": "CENTENAS",
+   "tat": 2,
+   "tstyle": "red"
+  },
+  {
+   "say": "No final, os fazendeiros ganharam um sistema de recompensas. E a grande Guerra dos Emus entrou para a história como uma derrota do exército.",
+   "shot": "two",
+   "who": [
+    "FARM:0:smile",
+    "FARM:1:grin"
+   ],
+   "text": "RECOMPENSA",
+   "tat": 4,
+   "light": "golden"
+  },
+  {
+   "say": "Humanos, zero. Emus, um.",
+   "shot": "close",
+   "who": [
+    "AUS:0:pained"
+   ],
+   "emus": {
+    "n": 3,
+    "mode": "stand",
+    "x": 2.8,
+    "z": 0.3,
+    "cols": 3
+   },
+   "text": "HUMANOS 0 - 1 EMUS",
+   "tat": 3,
+   "tstyle": "gold",
+   "light": "golden"
+  }
+ ]
+}

@@ -8,7 +8,7 @@ bpy.ops.wm.read_factory_settings(use_empty=True)
 def mat(name, hexc):
     m = bpy.data.materials.new(name); m.use_nodes = True; h = hexc.lstrip('#'); c = [int(h[i:i+2], 16) / 255 for i in (0, 2, 4)]
     lin = [(x / 12.92 if x <= .04045 else ((x + .055) / 1.055) ** 2.4) for x in c]; b = m.node_tree.nodes['Principled BSDF']; b.inputs['Base Color'].default_value = (*lin, 1); b.inputs['Roughness'].default_value = 1; return m
-M = {k: mat(k, v) for k, v in dict(fd='#4a3324', f1='#6b4a32', f2='#8a6444', f3='#b08a5c', neck='#8d9fae', neck2='#a9b8c4', beak='#5a4e44', eye='#ffd23a', pup='#15110e', leg='#b9a998', toe='#3e342c', white='#fffdf6').items()}
+M = {k: mat(k, v) for k, v in dict(fd='#6e4c33', f1='#92683f', f2='#b38650', f3='#d2ac72', neck='#8d9fae', neck2='#a9b8c4', beak='#5a4e44', eye='#ffd23a', pup='#15110e', leg='#b9a998', toe='#3e342c', white='#fffdf6').items()}
 G = lambda x, y, z: Vector((x, -z, y))                       # glTF -> Blender
 parts = {}
 class Part:

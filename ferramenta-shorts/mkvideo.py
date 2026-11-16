@@ -106,11 +106,11 @@ def direct(beats):
             if not b.get('crowd'):
                 persons_out = [w.split(':')[0] for w in b.get('who', [])]
                 army = persons_out[0] if persons_out else (outs[0] if outs else 'X')
-                b['crowd'] = {'n': 26 if mass else 14, 'outfits': list(dict.fromkeys(persons_out + [army])), 'march': bool(arrive or first or (shot == 'reveal' and mass))}
+                b['crowd'] = {'n': 5 if b.get('emus') else (26 if mass else 14), 'outfits': list(dict.fromkeys(persons_out + [army])), 'march': bool(arrive or first or (shot == 'reveal' and mass))}
             if not b.get('who'): b['who'] = [f"{b['crowd']['outfits'][0]}:0:neutral"]
         else:
             run += 1
-            if mass and not b.get('crowd') and b.get('who'):
+            if mass and not b.get('crowd') and b.get('who') and not b.get('emus'):
                 persons_out = [w.split(':')[0] for w in b['who']]
                 b['crowd'] = {'n': 10, 'outfits': list(dict.fromkeys(persons_out)), 'march': False, 'expr': 'shock' if re.search('panico|tiro|gritou', say) else 'neutral'}
 
@@ -147,6 +147,21 @@ def build_beat(k, b):
             acts.append(f"{{ {key}: {json.dumps(sp)}, at: [X + {num(dxa - mv / 2)}, {num(za)}], move: [[X + {num(dxa + mv / 2)}, {num(za)}], {a}, {bb}, 'lin'], state: 'trot', spd: 0.09, s: {num(sc)}, flip: {'false' if mv > 0 else 'true'}, seed: {j * 3 + 1} }}")
         else:
             acts.append(f"{{ {key}: {json.dumps(sp)}, at: [X + {num(dxa)}, {num(za)}], state: {json.dumps(st)}, s: {num(sc)}, flip: {fl}, seed: {j * 3 + 1} }}")
+    # bando de emus: "emus": {"n":10, "mode":"stand|run|scatter", "x":3, "z":-1, "cols":4, "dir":1}
+    em = b.get('emus')
+    if em:
+        import math as _m
+        n_e = int(em.get('n', 8)); mode = em.get('mode', 'stand'); cols_e = int(em.get('cols', 4)); ex0 = em.get('x', 3.0); ez0 = em.get('z', -1.0); dr = em.get('dir', 1)
+        for i in range(n_e):
+            row, col = i // cols_e, i % cols_e
+            x0 = ex0 + (col - (cols_e - 1) / 2) * 2.4 + (row % 2) * 1.1; z0 = ez0 - row * 2.6 + ((i * 53) % 7 - 3) * 0.15
+            if mode == 'run':
+                acts.append(f"{{ bird: 'emu', at: [X + {num(x0 - 11 * dr)}, {num(z0)}], move: [[X + {num(x0 + 11 * dr)}, {num(z0)}], {a}, {bb}, 'lin'], state: 'walk', spd: 0.09, s: 1.6, flip: {'false' if dr > 0 else 'true'}, seed: {i * 5 + 2} }}")
+            elif mode == 'scatter':
+                ang = (i / max(n_e, 1)) * 2 * _m.pi + 0.4; tx, tz = x0 + 11 * _m.cos(ang), z0 + 6 * _m.sin(ang)
+                acts.append(f"{{ bird: 'emu', at: [X + {num(x0)}, {num(z0)}], move: [[X + {num(tx)}, {num(tz)}], {a}, {bb}], state: 'walk', spd: 0.09, s: 1.6, flip: {'true' if tx < x0 else 'false'}, seed: {i * 5 + 2} }}")
+            else:
+                acts.append(f"{{ bird: 'emu', at: [X + {num(x0)}, {num(z0)}], state: {json.dumps('peck' if (i % 3 == 1 and em.get('peck', True)) else 'stand')}, s: 1.6, flip: {'true' if i % 2 == 0 else 'false'}, seed: {i * 5 + 2} }}")
     # multidao de fundo (varias fileiras, marchando ou parada)
     wide = shot in WIDE; crowd_pos = []
     if b.get('crowd'):
