@@ -24,7 +24,7 @@ const X = 2000, DK = 6;
 const WS = (i, off = 0) => TIMING.words[Math.min(i, TIMING.words.length - 1)][0] + off;   // frame em que a palavra de indice i comeca
 const A = [0, WS(13, -3), WS(33, -3), WS(46, -3), WS(70, -3), WS(92, -3), WS(110, -3), WS(127, -3), WS(144, -3), WS(168, -3), TOTAL_F()];
 const SPEC = {
-  id: "emus1932", exp: 1.12, cinf: 4.5, total: TOTAL_F(), sets: ["outback"], setx: { outback: X },
+  id: "emus1932", exp: 1.008, cinf: 4.5, total: TOTAL_F(), sets: ["outback"], setx: { outback: X },
   outfits: { AUS: (v = 0, e = {}) => ({ _id: "aus", jacket: "#8a7a4a", pants: "#6e6038", boots: "#2a2218", hat: "cap", cap: "#7a6a3a", belt: "#4a3a24", rifle: true, skin: ["#ffe2c2", "#f5c9a0", "#ecd0b6", "#c99067"][v % 4], ...e }),
     FARM: (v = 0, e = {}) => ({ _id: "farm", jacket: "#7a9ac2", pants: "#4a5a7a", boots: "#4a3426", hat: "cap", cap: "#d8c070", skin: ["#ffe2c2", "#f5c9a0", "#ecd0b6", "#c99067"][v % 4], ...(v % 2 ? { moustache: "#4a3020" } : {}), ...e }),
     PRESS: (v = 0, e = {}) => ({ _id: "press", jacket: "#7a4a8a", pants: "#3a3a4a", boots: "#2a2218", hat: "cap", cap: "#2a2a2a", skin: ["#ffe2c2", "#f5c9a0", "#ecd0b6", "#c99067"][v % 4], ...e }) },
@@ -43,6 +43,7 @@ const SPEC = {
     { ...S('b9', A[9], A[10] - 1, X, "golden", { h: 2.6, d0: 15.0, d1: 36.0, el: 12, fov: 46, cx: 0.0, cz: -1.5, hero: { hero: 'none', wide: true }, vary: false, actors: [pp(X, "AUS", 0, 0.0, -0.4, "pained"), { bird: 'emu', at: [X + 0.4, -0.15], state: "stand", s: 1.6, flip: true, seed: 2 }, { bird: 'emu', at: [X + 2.8, 0.45], state: "peck", s: 1.6, flip: false, seed: 7 }, { bird: 'emu', at: [X + 5.2, 0.0], state: "stand", s: 1.6, flip: true, seed: 12 }, pp(X, "AUS", 0, -8.05, 0.84, "neutral", { look: -0.25, seed: 0 }), pp(X, "AUS", 1, -5.79, 1.32, "neutral", { look: 0.25, seed: 1 }), pp(X, "AUS", 2, -3.53, 0.96, "neutral", { look: 0.0, seed: 2 }), pp(X, "AUS", 3, -2.26, 1.44, "neutral", { look: 0.15, seed: 3 }), pp(X, "AUS", 0, 0.0, 1.08, "neutral", { look: -0.25, seed: 0 })], fx: [txt(X, WS(171, -2), A[10] - 1, "HUMANOS 0 - 1 EMUS", '#e8c45a', '#7a1c1c', 4.8, { s: 1.5, up: 0.42 })] }), nocut: true }
   ],
 };
+SPEC.fit = {"b2~2":2.474,"b4":3.104};
 // ===== STORY RUNTIME (generic): turns a declarative SPEC (stories/<id>.spec.js, concatenated before this file) into the story.js interface the engine expects =====
 import { camFromKeys, clamp, lerp, ramp, q, blinkAt, idle, M } from './motion.js';
 export const FPS = 30, TOTAL = SPEC.total, DECK = 6;

@@ -3,7 +3,7 @@ const X = 2000, DK = 6;
 const WS = (i, off = 0) => TIMING.words[Math.min(i, TIMING.words.length - 1)][0] + off;   // frame em que a palavra de indice i comeca
 const A = [0, WS(13, -3), WS(33, -3), WS(46, -3), WS(70, -3), WS(92, -3), WS(110, -3), WS(127, -3), WS(144, -3), WS(168, -3), TOTAL_F()];
 const SPEC = {
-  id: "emus1932", exp: 1.12, cinf: 4.5, total: TOTAL_F(), sets: ["outback"], setx: { outback: X },
+  id: "emus1932", exp: 1.008, cinf: 4.5, total: TOTAL_F(), sets: ["outback"], setx: { outback: X },
   outfits: { AUS: (v = 0, e = {}) => ({ _id: "aus", jacket: "#8a7a4a", pants: "#6e6038", boots: "#2a2218", hat: "cap", cap: "#7a6a3a", belt: "#4a3a24", rifle: true, skin: ["#ffe2c2", "#f5c9a0", "#ecd0b6", "#c99067"][v % 4], ...e }),
     FARM: (v = 0, e = {}) => ({ _id: "farm", jacket: "#7a9ac2", pants: "#4a5a7a", boots: "#4a3426", hat: "cap", cap: "#d8c070", skin: ["#ffe2c2", "#f5c9a0", "#ecd0b6", "#c99067"][v % 4], ...(v % 2 ? { moustache: "#4a3020" } : {}), ...e }),
     PRESS: (v = 0, e = {}) => ({ _id: "press", jacket: "#7a4a8a", pants: "#3a3a4a", boots: "#2a2218", hat: "cap", cap: "#2a2a2a", skin: ["#ffe2c2", "#f5c9a0", "#ecd0b6", "#c99067"][v % 4], ...e }) },
