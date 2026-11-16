@@ -8,7 +8,7 @@ if timeout 120 edge-tts ${HTTPS_PROXY:+--proxy "$HTTPS_PROXY"} --voice "$VOICE" 
   :
 else
   echo "AVISO: edge-tts indisponivel; usando espeak-ng (VOZ DE TESTE)"; touch VOICE_PLACEHOLDER
-  espeak-ng -v pt-br -s 165 -p 45 -f script_one.txt -w voice_tmp.wav && ffmpeg -v error -y -i voice_tmp.wav -codec:a libmp3lame -q:a 4 -f mp3 voice.mp3.part && rm -f voice_tmp.wav
+  espeak-ng -v ${ESPEAK_VOICE:-pt-br} -s 165 -p 45 -f script_one.txt -w voice_tmp.wav && ffmpeg -v error -y -i voice_tmp.wav -codec:a libmp3lame -q:a 4 -f mp3 voice.mp3.part && rm -f voice_tmp.wav
 fi
 mv voice.mp3.part voice.mp3
 python3 ../../timing.py voice.mp3 script.txt --out work 2>&1 | head -80
