@@ -1,0 +1,168 @@
+{
+ "title": "A Batalha de Los Angeles",
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "set": "street",
+ "light": "dusk",
+ "mood": "tense",
+ "outfits": {
+  "WAR": {
+   "jacket": "#6a7440",
+   "pants": "#5a6334",
+   "boots": "#2a2218",
+   "hat": "cap",
+   "cap": "#5a6334",
+   "belt": "#8a7a50",
+   "buttons": "#e8c45a"
+  },
+  "SOL": {
+   "jacket": "#6a7440",
+   "pants": "#5a6334",
+   "boots": "#2a2218",
+   "hat": "cap",
+   "cap": "#5a6334",
+   "belt": "#8a7a50",
+   "rifle": true
+  },
+  "CIV": {
+   "jacket": "#b5653f",
+   "pants": "#3b3f52",
+   "boots": "#4a3426",
+   "hat": "cap",
+   "cap": "#8a3a3a"
+  },
+  "OFF": {
+   "jacket": "#1f2f5a",
+   "pants": "#1f2f5a",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#f1efe6",
+   "buttons": "#e8c45a",
+   "moustache_on": "#4a3020",
+   "build": "stout"
+  }
+ },
+ "beats": [
+  {
+   "say": "Fevereiro de mil novecentos e quarenta e dois. Dois meses depois de Pearl Harbor, os Estados Unidos estavam em pânico.",
+   "shot": "wide",
+   "who": [
+    "CIV:0:nervous",
+    "CIV:1:nervous"
+   ],
+   "text": "1942",
+   "tat": 0
+  },
+  {
+   "say": "À noite, o radar viu algo no céu de Los Angeles, e as sirenes tocaram na cidade inteira.",
+   "shot": "two",
+   "who": [
+    "WAR:0:shock",
+    "CIV:2:shock"
+   ],
+   "text": "SIRENES",
+   "tat": 12,
+   "tstyle": "red",
+   "light": "night",
+   "sfx": [
+    "sting@10"
+   ]
+  },
+  {
+   "say": "Apagaram as luzes, e os holofotes encontraram um objeto que ninguém sabia o que era.",
+   "shot": "group",
+   "who": [
+    "WAR:1:nervous",
+    "CIV:3:nervous",
+    "SOL:0:shock"
+   ],
+   "text": "O QUE É ISSO?",
+   "tat": 9,
+   "tstyle": "white",
+   "light": "night"
+  },
+  {
+   "say": "As baterias antiaéreas abriram fogo. Foram mais de mil e quatrocentos tiros.",
+   "shot": "group",
+   "who": [
+    "SOL:0:grin",
+    "SOL:1:shock",
+    "SOL:2:grin"
+   ],
+   "fx": [
+    "burst@40",
+    "burst@70"
+   ],
+   "sfx": [
+    "gun@30",
+    "gun@45",
+    "gun@60",
+    "gun@75"
+   ],
+   "text": "1.400 TIROS",
+   "tat": 9,
+   "tstyle": "red",
+   "light": "dusk"
+  },
+  {
+   "say": "Os soldados atiravam, a cidade tremia, e nenhum avião inimigo apareceu.",
+   "shot": "two",
+   "who": [
+    "SOL:1:shock",
+    "CIV:0:pained"
+   ],
+   "fx": [
+    "burst@20"
+   ],
+   "sfx": [
+    "gun@20",
+    "thump@40"
+   ],
+   "light": "dusk"
+  },
+  {
+   "say": "Cinco pessoas morreram, por acidentes e ataques do coração.",
+   "shot": "close",
+   "who": [
+    "CIV:1:pained"
+   ],
+   "light": "dusk",
+   "mood": "calm"
+  },
+  {
+   "say": "No outro dia, o secretário da Marinha disse que foi alarme falso.",
+   "shot": "close",
+   "who": [
+    "OFF:0:stern"
+   ],
+   "text": "ALARME FALSO",
+   "tat": 9,
+   "tstyle": "red",
+   "light": "dawn",
+   "mood": "playful"
+  },
+  {
+   "say": "O Exército jurou que havia de um a cinco aviões desconhecidos. Até hoje, a explicação mais aceita é nervosismo, e talvez um balão meteorológico.",
+   "shot": "two",
+   "who": [
+    "SOL:2:stern",
+    "OFF:0:nervous"
+   ],
+   "text": "BALÃO?",
+   "tat": 22,
+   "tstyle": "gold",
+   "light": "dawn"
+  },
+  {
+   "say": "A única guerra que a Califórnia travou naquela noite foi contra o céu vazio.",
+   "shot": "close",
+   "who": [
+    "CIV:2:laugh"
+   ],
+   "text": "CÉU VAZIO",
+   "tat": 12,
+   "tstyle": "brown",
+   "light": "golden"
+  }
+ ]
+}

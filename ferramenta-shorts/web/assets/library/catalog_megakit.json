@@ -1,0 +1,754 @@
+{
+ "mk/Anvil": {
+  "size_m": [
+   1.082,
+   0.556,
+   0.402
+  ],
+  "tags": "anvil bigorna"
+ },
+ "mk/Anvil_Log": {
+  "size_m": [
+   0.929,
+   1.073,
+   0.821
+  ],
+  "tags": "anvil log bigorna"
+ },
+ "mk/Axe_Bronze": {
+  "size_m": [
+   0.976,
+   0.348,
+   0.054
+  ],
+  "tags": "axe bronze machado"
+ },
+ "mk/Bag": {
+  "size_m": [
+   0.655,
+   0.799,
+   0.544
+  ],
+  "tags": "bag saco"
+ },
+ "mk/Banner_1": {
+  "size_m": [
+   1.613,
+   2.392,
+   0.191
+  ],
+  "tags": "banner 1 estandarte bandeira"
+ },
+ "mk/Banner_1_Cloth": {
+  "size_m": [
+   0.81,
+   2.246,
+   0.057
+  ],
+  "tags": "banner 1 cloth estandarte bandeira"
+ },
+ "mk/Banner_2": {
+  "size_m": [
+   1.613,
+   2.077,
+   0.191
+  ],
+  "tags": "banner 2 estandarte bandeira"
+ },
+ "mk/Banner_2_Cloth": {
+  "size_m": [
+   0.81,
+   1.931,
+   0.057
+  ],
+  "tags": "banner 2 cloth estandarte bandeira"
+ },
+ "mk/Barrel": {
+  "size_m": [
+   0.698,
+   0.898,
+   0.698
+  ],
+  "tags": "barrel barril"
+ },
+ "mk/Barrel_Apples": {
+  "size_m": [
+   0.698,
+   0.898,
+   0.698
+  ],
+  "tags": "barrel apples barril"
+ },
+ "mk/Barrel_Holder": {
+  "size_m": [
+   1.359,
+   1.257,
+   0.741
+  ],
+  "tags": "barrel holder barril suporte"
+ },
+ "mk/Bed_Twin1": {
+  "size_m": [
+   1.876,
+   0.805,
+   2.412
+  ],
+  "tags": "bed twin1 cama"
+ },
+ "mk/Bed_Twin2": {
+  "size_m": [
+   1.876,
+   0.76,
+   2.412
+  ],
+  "tags": "bed twin2 cama"
+ },
+ "mk/Bench": {
+  "size_m": [
+   2.777,
+   0.533,
+   0.534
+  ],
+  "tags": "bench banco"
+ },
+ "mk/BookGroup_Medium_1": {
+  "size_m": [
+   1.063,
+   0.298,
+   0.247
+  ],
+  "tags": "bookgroup medium 1"
+ },
+ "mk/BookGroup_Medium_2": {
+  "size_m": [
+   1.105,
+   0.295,
+   0.247
+  ],
+  "tags": "bookgroup medium 2"
+ },
+ "mk/BookGroup_Medium_3": {
+  "size_m": [
+   1.042,
+   0.295,
+   0.247
+  ],
+  "tags": "bookgroup medium 3"
+ },
+ "mk/BookGroup_Small_1": {
+  "size_m": [
+   0.289,
+   0.298,
+   0.226
+  ],
+  "tags": "bookgroup small 1"
+ },
+ "mk/BookGroup_Small_2": {
+  "size_m": [
+   0.228,
+   0.283,
+   0.237
+  ],
+  "tags": "bookgroup small 2"
+ },
+ "mk/BookGroup_Small_3": {
+  "size_m": [
+   0.245,
+   0.277,
+   0.237
+  ],
+  "tags": "bookgroup small 3"
+ },
+ "mk/BookStand": {
+  "size_m": [
+   0.507,
+   1.447,
+   0.511
+  ],
+  "tags": "bookstand"
+ },
+ "mk/Book_5": {
+  "size_m": [
+   0.213,
+   0.064,
+   0.287
+  ],
+  "tags": "book 5 livro"
+ },
+ "mk/Book_7": {
+  "size_m": [
+   0.247,
+   0.068,
+   0.333
+  ],
+  "tags": "book 7 livro"
+ },
+ "mk/Book_Simplified_Single": {
+  "size_m": [
+   0.065,
+   0.268,
+   0.21
+  ],
+  "tags": "book simplified single livro"
+ },
+ "mk/Book_Stack_1": {
+  "size_m": [
+   0.285,
+   0.214,
+   0.226
+  ],
+  "tags": "book stack 1 livro"
+ },
+ "mk/Book_Stack_2": {
+  "size_m": [
+   0.274,
+   0.198,
+   0.227
+  ],
+  "tags": "book stack 2 livro"
+ },
+ "mk/Bookcase_2": {
+  "size_m": [
+   1.461,
+   2.545,
+   0.429
+  ],
+  "tags": "bookcase 2 estante"
+ },
+ "mk/Bottle_1": {
+  "size_m": [
+   0.113,
+   0.365,
+   0.113
+  ],
+  "tags": "bottle 1 garrafa"
+ },
+ "mk/Bucket_Metal": {
+  "size_m": [
+   0.485,
+   0.365,
+   0.449
+  ],
+  "tags": "bucket metal balde"
+ },
+ "mk/Bucket_Wooden_1": {
+  "size_m": [
+   0.434,
+   0.293,
+   0.383
+  ],
+  "tags": "bucket wooden 1 balde"
+ },
+ "mk/Cabinet": {
+  "size_m": [
+   1.362,
+   0.997,
+   0.357
+  ],
+  "tags": "cabinet armário"
+ },
+ "mk/Cage_Small": {
+  "size_m": [
+   0.855,
+   0.805,
+   0.884
+  ],
+  "tags": "cage small gaiola"
+ },
+ "mk/CandleStick": {
+  "size_m": [
+   0.261,
+   0.155,
+   0.179
+  ],
+  "tags": "candlestick"
+ },
+ "mk/CandleStick_Stand": {
+  "size_m": [
+   0.732,
+   1.313,
+   0.731
+  ],
+  "tags": "candlestick stand"
+ },
+ "mk/CandleStick_Triple": {
+  "size_m": [
+   0.442,
+   0.463,
+   0.136
+  ],
+  "tags": "candlestick triple"
+ },
+ "mk/Candle_1": {
+  "size_m": [
+   0.094,
+   0.132,
+   0.108
+  ],
+  "tags": "candle 1 vela"
+ },
+ "mk/Candle_2": {
+  "size_m": [
+   0.094,
+   0.251,
+   0.098
+  ],
+  "tags": "candle 2 vela"
+ },
+ "mk/Carrot": {
+  "size_m": [
+   0.18,
+   0.566,
+   0.222
+  ],
+  "tags": "carrot cenoura"
+ },
+ "mk/Cauldron": {
+  "size_m": [
+   0.989,
+   0.816,
+   0.944
+  ],
+  "tags": "cauldron caldeirão"
+ },
+ "mk/Chain_Coil": {
+  "size_m": [
+   1.07,
+   0.087,
+   0.908
+  ],
+  "tags": "chain coil corrente"
+ },
+ "mk/Chair_1": {
+  "size_m": [
+   0.581,
+   1.123,
+   0.549
+  ],
+  "tags": "chair 1 cadeira"
+ },
+ "mk/Chalice": {
+  "size_m": [
+   0.118,
+   0.257,
+   0.125
+  ],
+  "tags": "chalice cálice taça cup goblet"
+ },
+ "mk/Chandelier": {
+  "size_m": [
+   1.303,
+   1.458,
+   1.303
+  ],
+  "tags": "chandelier lustre"
+ },
+ "mk/Chest_Wood": {
+  "size_m": [
+   1.276,
+   0.715,
+   0.755
+  ],
+  "tags": "chest wood baú"
+ },
+ "mk/Coin": {
+  "size_m": [
+   0.068,
+   0.068,
+   0.015
+  ],
+  "tags": "coin moeda"
+ },
+ "mk/Coin_Pile": {
+  "size_m": [
+   0.197,
+   0.073,
+   0.154
+  ],
+  "tags": "coin pile moeda"
+ },
+ "mk/Coin_Pile_2": {
+  "size_m": [
+   0.279,
+   0.058,
+   0.2
+  ],
+  "tags": "coin pile 2 moeda"
+ },
+ "mk/Crate_Metal": {
+  "size_m": [
+   0.864,
+   0.868,
+   0.866
+  ],
+  "tags": "crate metal caixote caixa"
+ },
+ "mk/Crate_Wooden": {
+  "size_m": [
+   1.08,
+   1.193,
+   1.164
+  ],
+  "tags": "crate wooden caixote caixa"
+ },
+ "mk/Dummy": {
+  "size_m": [
+   0.809,
+   1.863,
+   0.585
+  ],
+  "tags": "dummy boneco de treino"
+ },
+ "mk/FarmCrate_Apple": {
+  "size_m": [
+   0.714,
+   0.244,
+   0.414
+  ],
+  "tags": "farmcrate apple  maçã"
+ },
+ "mk/FarmCrate_Carrot": {
+  "size_m": [
+   0.714,
+   0.411,
+   0.567
+  ],
+  "tags": "farmcrate carrot  cenoura"
+ },
+ "mk/FarmCrate_Empty": {
+  "size_m": [
+   0.714,
+   0.244,
+   0.414
+  ],
+  "tags": "farmcrate empty"
+ },
+ "mk/Key_Gold": {
+  "size_m": [
+   0.058,
+   0.012,
+   0.122
+  ],
+  "tags": "key gold chave"
+ },
+ "mk/Key_Metal": {
+  "size_m": [
+   0.048,
+   0.012,
+   0.111
+  ],
+  "tags": "key metal chave"
+ },
+ "mk/Lantern_Wall": {
+  "size_m": [
+   0.357,
+   1.337,
+   1.302
+  ],
+  "tags": "lantern wall lanterna"
+ },
+ "mk/Mug": {
+  "size_m": [
+   0.192,
+   0.184,
+   0.147
+  ],
+  "tags": "mug copo caneca cup"
+ },
+ "mk/Nightstand_Shelf": {
+  "size_m": [
+   0.693,
+   1.216,
+   0.393
+  ],
+  "tags": "nightstand shelf criado-mudo prateleira"
+ },
+ "mk/Peg_Rack": {
+  "size_m": [
+   1.184,
+   0.348,
+   0.096
+  ],
+  "tags": "peg rack cabideiro"
+ },
+ "mk/Pickaxe_Bronze": {
+  "size_m": [
+   0.813,
+   1.198,
+   0.136
+  ],
+  "tags": "pickaxe bronze picareta"
+ },
+ "mk/Pot_1": {
+  "size_m": [
+   0.539,
+   0.224,
+   0.486
+  ],
+  "tags": "pot 1 panela"
+ },
+ "mk/Pot_1_Lid": {
+  "size_m": [
+   0.539,
+   0.28,
+   0.486
+  ],
+  "tags": "pot 1 lid panela"
+ },
+ "mk/Potion_1": {
+  "size_m": [
+   0.114,
+   0.14,
+   0.114
+  ],
+  "tags": "potion 1 poção frasco"
+ },
+ "mk/Potion_2": {
+  "size_m": [
+   0.127,
+   0.262,
+   0.127
+  ],
+  "tags": "potion 2 poção frasco"
+ },
+ "mk/Potion_4": {
+  "size_m": [
+   0.148,
+   0.201,
+   0.148
+  ],
+  "tags": "potion 4 poção frasco"
+ },
+ "mk/Pouch_Large": {
+  "size_m": [
+   0.225,
+   0.159,
+   0.12
+  ],
+  "tags": "pouch large bolsa"
+ },
+ "mk/Rope_1": {
+  "size_m": [
+   0.557,
+   0.098,
+   0.606
+  ],
+  "tags": "rope 1 corda"
+ },
+ "mk/Rope_2": {
+  "size_m": [
+   0.808,
+   0.124,
+   0.845
+  ],
+  "tags": "rope 2 corda"
+ },
+ "mk/Rope_3": {
+  "size_m": [
+   1.228,
+   0.102,
+   0.951
+  ],
+  "tags": "rope 3 corda"
+ },
+ "mk/Scroll_1": {
+  "size_m": [
+   0.244,
+   0.059,
+   0.063
+  ],
+  "tags": "scroll 1 pergaminho"
+ },
+ "mk/Scroll_2": {
+  "size_m": [
+   0.233,
+   0.059,
+   0.064
+  ],
+  "tags": "scroll 2 pergaminho"
+ },
+ "mk/Shelf_Arch": {
+  "size_m": [
+   1.245,
+   1.589,
+   0.312
+  ],
+  "tags": "shelf arch prateleira"
+ },
+ "mk/Shelf_Simple": {
+  "size_m": [
+   1.184,
+   0.309,
+   0.292
+  ],
+  "tags": "shelf simple prateleira"
+ },
+ "mk/Shelf_Small_Bottles": {
+  "size_m": [
+   1.137,
+   0.647,
+   0.285
+  ],
+  "tags": "shelf small bottles prateleira"
+ },
+ "mk/Shield_Wooden": {
+  "size_m": [
+   0.615,
+   0.621,
+   0.179
+  ],
+  "tags": "shield wooden escudo"
+ },
+ "mk/SmallBottle": {
+  "size_m": [
+   0.06,
+   0.119,
+   0.049
+  ],
+  "tags": "smallbottle"
+ },
+ "mk/SmallBottles_1": {
+  "size_m": [
+   0.215,
+   0.145,
+   0.056
+  ],
+  "tags": "smallbottles 1"
+ },
+ "mk/Stall_Cart_Empty": {
+  "size_m": [
+   3.021,
+   2.632,
+   1.06
+  ],
+  "tags": "stall cart empty barraca banca carrinho"
+ },
+ "mk/Stall_Empty": {
+  "size_m": [
+   1.845,
+   2.627,
+   0.932
+  ],
+  "tags": "stall empty barraca banca"
+ },
+ "mk/Stool": {
+  "size_m": [
+   0.475,
+   0.589,
+   0.475
+  ],
+  "tags": "stool banquinho banco"
+ },
+ "mk/Sword_Bronze": {
+  "size_m": [
+   0.267,
+   1.132,
+   0.065
+  ],
+  "tags": "sword bronze espada"
+ },
+ "mk/Table_Fork": {
+  "size_m": [
+   0.05,
+   0.006,
+   0.263
+  ],
+  "tags": "table fork mesa garfo"
+ },
+ "mk/Table_Knife": {
+  "size_m": [
+   0.042,
+   0.006,
+   0.287
+  ],
+  "tags": "table knife mesa faca"
+ },
+ "mk/Table_Large": {
+  "size_m": [
+   2.848,
+   0.813,
+   1.097
+  ],
+  "tags": "table large mesa"
+ },
+ "mk/Table_Plate": {
+  "size_m": [
+   0.333,
+   0.02,
+   0.337
+  ],
+  "tags": "table plate mesa prato"
+ },
+ "mk/Table_Spoon": {
+  "size_m": [
+   0.046,
+   0.018,
+   0.272
+  ],
+  "tags": "table spoon mesa colher"
+ },
+ "mk/Torch_Metal": {
+  "size_m": [
+   0.223,
+   0.648,
+   0.388
+  ],
+  "tags": "torch metal tocha"
+ },
+ "mk/Vase_2": {
+  "size_m": [
+   0.695,
+   0.516,
+   0.695
+  ],
+  "tags": "vase 2 vaso"
+ },
+ "mk/Vase_4": {
+  "size_m": [
+   0.36,
+   0.485,
+   0.36
+  ],
+  "tags": "vase 4 vaso"
+ },
+ "mk/Vase_Rubble_Medium": {
+  "size_m": [
+   0.797,
+   0.175,
+   0.598
+  ],
+  "tags": "vase rubble medium vaso"
+ },
+ "mk/WeaponStand": {
+  "size_m": [
+   1.386,
+   1.109,
+   0.983
+  ],
+  "tags": "weaponstand suporte de armas"
+ },
+ "mk/Whetstone": {
+  "size_m": [
+   1.141,
+   1.17,
+   0.902
+  ],
+  "tags": "whetstone pedra de amolar"
+ },
+ "mk/Workbench": {
+  "size_m": [
+   2.019,
+   0.895,
+   1.024
+  ],
+  "tags": "workbench bancada"
+ },
+ "mk/Workbench_Drawers": {
+  "size_m": [
+   0.423,
+   0.242,
+   0.299
+  ],
+  "tags": "workbench drawers bancada"
+ }
+}

@@ -1,0 +1,1 @@
+SPEC.fit = {"artists": 1.254, "balloons~1": 1.254, "brush": 1.12, "handful": 1.572, "handful~1": 1.404, "hide": 1.761, "pump": 1.254, "pump~1": 2.771, "stare": 1.12, "stare~1": 1.572, "tracks": 1.404, "twenty": 1.12, "twenty~1": 1.12, "unit~1": 1.572, "year": 1.254};

@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# boot.sh -- roda no inicio de toda sessao (hook SessionStart). Rapido e nao bloqueante: instala o que faltar e RELANCA a fila se houver video pendente.
+cd "$(dirname "$0")"; mkdir -p logs
+{
+  echo "$(date +%T) boot"
+  command -v espeak-ng >/dev/null || (apt-get install -y -q espeak-ng >/dev/null 2>&1 || (apt-get update -q >/dev/null 2>&1 && apt-get install -y -q espeak-ng >/dev/null 2>&1))
+  python3 -c "import edge_tts, PIL, numpy" 2>/dev/null || pip install -q edge-tts pillow numpy >/dev/null 2>&1
+  [ -e node_modules/playwright ] || { mkdir -p node_modules; ln -sfn /usr/local/lib/node_modules_global/playwright node_modules/playwright; }
+  PEND=$(grep -v '^#' queue.txt 2>/dev/null | awk 'NF{print $1}' | while read -r id; do [ -f stories/$id/DONE ] || echo $id; done | head -1)
+  if [ -n "$PEND" ]; then echo "pendente: $PEND -> relancando fila"; nohup bash run_queue.sh >> logs/queue.log 2>&1 & else echo "nada pendente"; fi
+} >> logs/boot.log 2>&1 &
+exit 0

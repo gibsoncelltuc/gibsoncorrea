@@ -1,0 +1,288 @@
+{
+ "duration": 64.365714,
+ "frames30": 1931,
+ "source": "silence-align (cost 0.92)",
+ "segments": [
+  [
+   0.0,
+   2.17456
+  ],
+  [
+   2.34503,
+   5.78249
+  ],
+  [
+   6.11678,
+   8.30027
+  ],
+  [
+   8.48009,
+   9.55238
+  ],
+  [
+   9.7327,
+   11.2643
+  ],
+  [
+   11.6306,
+   12.2615
+  ],
+  [
+   12.4287,
+   15.3205
+  ],
+  [
+   15.678,
+   17.2607
+  ],
+  [
+   17.5979,
+   20.1762
+  ],
+  [
+   20.5113,
+   21.9017
+  ],
+  [
+   22.0857,
+   22.5552
+  ],
+  [
+   22.7263,
+   23.9348
+  ],
+  [
+   24.2702,
+   25.8044
+  ],
+  [
+   25.9845,
+   27.3181
+  ],
+  [
+   27.6504,
+   29.7146
+  ],
+  [
+   29.8839,
+   31.1285
+  ],
+  [
+   31.506,
+   32.4545
+  ],
+  [
+   32.8113,
+   33.3105
+  ],
+  [
+   33.7781,
+   34.2774
+  ],
+  [
+   34.6936,
+   36.6122
+  ],
+  [
+   36.9473,
+   37.531
+  ],
+  [
+   37.7404,
+   39.9756
+  ],
+  [
+   40.4055,
+   42.4782
+  ],
+  [
+   42.6461,
+   44.1966
+  ],
+  [
+   44.5515,
+   46.8263
+  ],
+  [
+   47.0374,
+   50.2824
+  ],
+  [
+   50.6723,
+   51.462
+  ],
+  [
+   51.6622,
+   55.315
+  ],
+  [
+   55.6994,
+   57.7975
+  ],
+  [
+   57.9678,
+   60.4647
+  ],
+  [
+   60.8133,
+   63.9749
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Em mil setecentos e oitenta e oito,",
+   "s": 0.0,
+   "e": 2.175
+  },
+  {
+   "text": "o ex\u00e9rcito austr\u00edaco marchava para atacar os turcos.",
+   "s": 2.345,
+   "e": 5.782
+  },
+  {
+   "text": "Eram dezenas de milhares de soldados,",
+   "s": 6.117,
+   "e": 8.3
+  },
+  {
+   "text": "de v\u00e1rios pa\u00edses,",
+   "s": 8.48,
+   "e": 9.552
+  },
+  {
+   "text": "falando v\u00e1rias l\u00ednguas.",
+   "s": 9.733,
+   "e": 11.264
+  },
+  {
+   "text": "Numa noite,",
+   "s": 11.631,
+   "e": 12.261
+  },
+  {
+   "text": "os hussardos foram na frente procurar o inimigo.",
+   "s": 12.429,
+   "e": 15.32
+  },
+  {
+   "text": "N\u00e3o acharam turco nenhum.",
+   "s": 15.678,
+   "e": 17.261
+  },
+  {
+   "text": "Acharam moradores vendendo aguardente.",
+   "s": 17.598,
+   "e": 20.176
+  },
+  {
+   "text": "Os hussardos compraram,",
+   "s": 20.511,
+   "e": 21.902
+  },
+  {
+   "text": "beberam,",
+   "s": 22.086,
+   "e": 22.555
+  },
+  {
+   "text": "e a festa come\u00e7ou.",
+   "s": 22.726,
+   "e": 23.935
+  },
+  {
+   "text": "A\u00ed chegou a infantaria,",
+   "s": 24.27,
+   "e": 25.804
+  },
+  {
+   "text": "e queria a parte dela.",
+   "s": 25.985,
+   "e": 27.318
+  },
+  {
+   "text": "A discuss\u00e3o virou empurra-empurra,",
+   "s": 27.65,
+   "e": 29.715
+  },
+  {
+   "text": "e algu\u00e9m deu um tiro.",
+   "s": 29.884,
+   "e": 31.128
+  },
+  {
+   "text": "Algu\u00e9m gritou:",
+   "s": 31.506,
+   "e": 32.455
+  },
+  {
+   "text": "Turcos!",
+   "s": 32.811,
+   "e": 33.31
+  },
+  {
+   "text": "Turcos!",
+   "s": 33.778,
+   "e": 34.277
+  },
+  {
+   "text": "E o p\u00e2nico tomou o acampamento.",
+   "s": 34.694,
+   "e": 36.612
+  },
+  {
+   "text": "No escuro,",
+   "s": 36.947,
+   "e": 37.531
+  },
+  {
+   "text": "ningu\u00e9m entendia a l\u00edngua do vizinho.",
+   "s": 37.74,
+   "e": 39.976
+  },
+  {
+   "text": "Todo mundo atirava em todo mundo,",
+   "s": 40.406,
+   "e": 42.478
+  },
+  {
+   "text": "achando que eram os turcos.",
+   "s": 42.646,
+   "e": 44.197
+  },
+  {
+   "text": "Chegou a ordem de usar a artilharia,",
+   "s": 44.551,
+   "e": 46.826
+  },
+  {
+   "text": "e os canh\u00f5es dispararam contra o pr\u00f3prio ex\u00e9rcito.",
+   "s": 47.037,
+   "e": 50.282
+  },
+  {
+   "text": "Dias depois,",
+   "s": 50.672,
+   "e": 51.462
+  },
+  {
+   "text": "os turcos chegaram e encontraram o campo cheio de austr\u00edacos.",
+   "s": 51.662,
+   "e": 55.315
+  },
+  {
+   "text": "Contam que foram at\u00e9 dez mil baixas,",
+   "s": 55.699,
+   "e": 57.797
+  },
+  {
+   "text": "mas os historiadores discutem esse n\u00famero.",
+   "s": 57.968,
+   "e": 60.465
+  },
+  {
+   "text": "Dizem que foi o maior desastre de fogo amigo da hist\u00f3ria.",
+   "s": 60.813,
+   "e": 63.975
+  }
+ ]
+}

@@ -1,0 +1,191 @@
+{
+ "title": "Os Gansos que Salvaram Roma",
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "set": "medieval",
+ "light": "dusk",
+ "mood": "march",
+ "outfits": {
+  "ROM": {
+   "jacket": "#c0262d",
+   "pants": "#e8e0c8",
+   "boots": "#6a4a2a",
+   "hat": "cap",
+   "cap": "#b88a3a",
+   "belt": "#b88a3a",
+   "buttons": "#e8c45a",
+   "moustache_on": "#3a2a1f"
+  },
+  "GAU": {
+   "jacket": "#3a6aa0",
+   "pants": "#8a6a3a",
+   "boots": "#3a2a1a",
+   "hat": "hair",
+   "hair": "#c07a2a",
+   "belt": "#2a2218",
+   "moustache_on": "#c07a2a"
+  },
+  "MAN": {
+   "jacket": "#c0262d",
+   "pants": "#e8e0c8",
+   "boots": "#6a4a2a",
+   "hat": "cap",
+   "cap": "#b88a3a",
+   "belt": "#b88a3a",
+   "buttons": "#e8c45a",
+   "build": "stout",
+   "moustache_on": "#3a2a1f"
+  }
+ },
+ "beats": [
+  {
+   "say": "Trezentos e noventa anos antes de Cristo, os gauleses chegaram a Roma, e a cidade caiu.",
+   "shot": "wide",
+   "who": [
+    "GAU:0:grin",
+    "GAU:1:stern"
+   ],
+   "text": "390 A.C.",
+   "tat": 0,
+   "tstyle": "gold"
+  },
+  {
+   "say": "Os romanos que sobreviveram se refugiaram no Capitólio, uma colina fortificada.",
+   "shot": "group",
+   "who": [
+    "ROM:0:nervous",
+    "ROM:1:pained",
+    "MAN:0:stern"
+   ],
+   "props": [
+    [
+     "buildings/castle_tower",
+     0,
+     -9,
+     1.4
+    ]
+   ],
+   "mood": "tense"
+  },
+  {
+   "say": "Os gauleses cercaram a colina, e esperaram.",
+   "shot": "two",
+   "who": [
+    "GAU:0:stern",
+    "GAU:2:neutral"
+   ],
+   "text": "CERCO",
+   "tat": 5,
+   "tstyle": "red"
+  },
+  {
+   "say": "Os romanos passavam fome, mas não comiam os gansos sagrados da deusa Juno.",
+   "shot": "two",
+   "who": [
+    "ROM:1:pained"
+   ],
+   "animals": [
+    [
+     "goose",
+     2.0,
+     1.2,
+     "stand",
+     1.2
+    ]
+   ],
+   "text": "GANSOS SAGRADOS",
+   "tat": 9,
+   "tstyle": "white",
+   "mood": "calm"
+  },
+  {
+   "say": "Uma noite, os gauleses subiram a colina em silêncio, e os guardas não perceberam. Nem os cachorros acordaram.",
+   "shot": "track",
+   "who": [
+    "GAU:0:stern",
+    "GAU:1:nervous",
+    "GAU:2:stern"
+   ],
+   "move": 8,
+   "light": "night",
+   "mood": "tense"
+  },
+  {
+   "say": "Mas os gansos acordaram, e começaram a gritar e a bater as asas.",
+   "shot": "close",
+   "who": [
+    "ROM:2:shock"
+   ],
+   "animals": [
+    [
+     "goose",
+     2.0,
+     1.2,
+     "walk",
+     1.3
+    ],
+    [
+     "goose",
+     -2.0,
+     1.0,
+     "walk",
+     1.2
+    ]
+   ],
+   "text": "HONK!",
+   "tat": 8,
+   "tstyle": "red",
+   "light": "night",
+   "sfx": [
+    "squeal@20"
+   ]
+  },
+  {
+   "say": "O soldado Marco Mânlio acordou com o barulho, e empurrou o primeiro invasor ladeira abaixo.",
+   "shot": "two",
+   "who": [
+    "MAN:0:shock",
+    "GAU:0:shock"
+   ],
+   "text": "MARCO MÂNLIO",
+   "tat": 3,
+   "tstyle": "gold",
+   "light": "dawn",
+   "sfx": [
+    "thump@60"
+   ]
+  },
+  {
+   "say": "O alarme acordou o resto dos romanos, e o ataque fracassou.",
+   "shot": "group",
+   "who": [
+    "ROM:0:grin",
+    "MAN:0:laugh",
+    "ROM:1:grin"
+   ],
+   "light": "dawn",
+   "mood": "playful"
+  },
+  {
+   "say": "Segundo o historiador Lívio, os gansos ganharam honras, e Roma nunca esqueceu quem a salvou.",
+   "shot": "close",
+   "who": [
+    "ROM:0:smile"
+   ],
+   "animals": [
+    [
+     "goose",
+     2.0,
+     1.0,
+     "stand",
+     1.3
+    ]
+   ],
+   "text": "OS GANSOS SALVARAM ROMA",
+   "tat": 12,
+   "tstyle": "gold",
+   "light": "golden",
+   "mood": "calm"
+  }
+ ]
+}

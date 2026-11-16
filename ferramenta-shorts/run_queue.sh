@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+# FILA RETOMAVEL + TRAVA DE SEGURANCA DE SESSAO. Le queue.txt (um id por linha, # comenta) e produz cada video em sequencia.
+# Pode ser relancado a qualquer momento/apos qualquer reinicio: ids com stories/<id>/DONE sao pulados, etapas com selo sao puladas, trechos prontos nao sao refeitos.
+# Trava: a sessao de nuvem reinicia ~a cada 60 min. Perto disso (SESSION_MIN - SAFETY_MIN desde o inicio do container) o render para de puxar quadros novos,
+# termina os em curso, codifica os trechos completos, EMPURRA o checkpoint para o git e pausa. Se a sessao reiniciar: o hook de boot (boot.sh) relanca esta fila e ela continua.
+# Se NAO reiniciar em GRACE_MIN minutos, a fila segue sozinha com novo prazo. SESSION_GUARD=0 desliga a trava.
+cd "$(dirname "$0")"; mkdir -p logs
+LOCK=logs/queue.lock
+if [ -f $LOCK ] && kill -0 "$(cat $LOCK 2>/dev/null)" 2>/dev/null; then echo "fila ja rodando (pid $(cat $LOCK))"; exit 0; fi
+echo $$ > $LOCK; trap 'rm -f $LOCK' EXIT
+SESSION_MIN=${SESSION_MIN:-60}; SAFETY_MIN=${SAFETY_MIN:-6}; GRACE_MIN=${GRACE_MIN:-3}
+uptime_s() { ps -o etimes= -p 1 2>/dev/null | tr -d ' ' || echo 0; }
+while true; do
+  NEXT=""
+  while read -r id _; do
+    case "$id" in ""|\#*) continue;; esac
+    [ -f stories/$id/DONE ] && continue
+    NEXT=$id; break
+  done < queue.txt
+  [ -z "$NEXT" ] && { echo "$(date +%T) fila vazia: tudo pronto"; exit 0; }
+  if [ "${SESSION_GUARD:-1}" != "0" ]; then
+    UP=$(uptime_s); UP=${UP:-0}; LEFT=$(( SESSION_MIN*60 - UP - SAFETY_MIN*60 )); [ $LEFT -lt 120 ] && LEFT=120
+    export DEADLINE=$(( $(date +%s) + LEFT )); echo "$(date +%T) prazo de seguranca em $((LEFT/60)) min (container no ar ha $((UP/60)) min)"
+  fi
+  echo "$(date +%T) >>> $NEXT"
+  bash make_video.sh "$NEXT"; RC=$?
+  if [ $RC -eq 75 ]; then
+    echo "$(date +%T) PAUSA DE SEGURANCA: checkpoint salvo. Aguardando $GRACE_MIN min por reinicio; se nao reiniciar, continuo."; sleep $((GRACE_MIN*60)); continue
+  fi
+  [ $RC -ne 0 ] && { echo "$(date +%T) falhou $NEXT (veja logs/make_$NEXT.log); tentando de novo em 60 s"; sleep 60; }
+done
