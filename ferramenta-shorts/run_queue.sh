@@ -19,7 +19,9 @@ while true; do
   done < queue.txt
   [ -z "$NEXT" ] && { echo "$(date +%T) fila vazia: tudo pronto"; exit 0; }
   if [ "${SESSION_GUARD:-1}" != "0" ]; then
-    UP=$(uptime_s); UP=${UP:-0}; LEFT=$(( SESSION_MIN*60 - UP - SAFETY_MIN*60 )); [ $LEFT -lt 120 ] && LEFT=120
+    UP=$(uptime_s); UP=${UP:-0}; LEFT=$(( SESSION_MIN*60 - UP - SAFETY_MIN*60 ))
+    # container ja passou do prazo e NAO reiniciou: a estimativa estava errada -> novo ciclo inteiro (senao pausaria a cada 2 min)
+    [ $LEFT -lt 120 ] && LEFT=$(( (SESSION_MIN - SAFETY_MIN)*60 ))
     export DEADLINE=$(( $(date +%s) + LEFT )); echo "$(date +%T) prazo de seguranca em $((LEFT/60)) min (container no ar ha $((UP/60)) min)"
   fi
   echo "$(date +%T) >>> $NEXT"
