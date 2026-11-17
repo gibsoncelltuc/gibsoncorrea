@@ -15,7 +15,7 @@ N=$(python3 -c "import json;print(json.load(open('stories/$ID/work/phrases.json'
 SEGS=$(node -e "
 import('$PWD/web/story.js').then(m=>{const want=process.argv.slice(1);const S=m.SHOTS.filter(s=>want.includes(s.id.split('~')[0]));const k=new Set();for(const s of S)for(let f=Math.max(0,s.a-10);f<=Math.min($N-1,s.b+10);f++)k.add(Math.floor(f/150));console.log([...k].sort((a,b)=>a-b).join(' '))})" "$@")
 [ -z "$SEGS" ] && { echo "cenas nao encontradas: $*"; exit 2; }
-echo "trechos a refazer: $SEGS"; for k in $SEGS; do rm -f ckpt/$ID/seg_$(printf %03d $k).mp4; done
+echo "trechos a refazer: $SEGS"; for k in $SEGS; do rm -f ckpt/$ID/seg_$(printf %03d $k).mp4; for f in $(seq $((k*150)) $((k*150+149))); do rm -f out/$ID/frames/f$(printf %04d $f).jpg; done; done   # apaga tambem os quadros antigos desses trechos (senao seriam reaproveitados)
 rm -f stories/$ID/DONE; ./snap.sh $ID $N >> $L 2>&1; (cd stories/$ID && python3 ../../caps.py >/dev/null)
 node render_pool.mjs $ID $N >> $L 2>&1
 T=$(python3 -c "import json;print(json.load(open('stories/$ID/meta.json'))['file'])")
