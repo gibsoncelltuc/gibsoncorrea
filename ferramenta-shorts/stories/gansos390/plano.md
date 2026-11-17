@@ -1,4 +1,4 @@
-# Plano de acao - Os Gansos que Salvaram Roma
+# Plano de acao - Guerras Inusitadas EP 05 - Os Gansos que Salvaram Roma
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
