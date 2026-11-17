@@ -124,7 +124,14 @@
     "cols": 4
    },
    "batalha": true,
-   "caminhoes": 2
+   "caminhoes": 2,
+   "crowd": {
+    "n": 24,
+    "outfits": [
+     "AUS"
+    ],
+    "march": false
+   }
   },
   {
    "say": "Um atirador montou a metralhadora num caminhão. Mas o caminhão pulava tanto, que ele não acertou nenhum.",
@@ -205,7 +212,14 @@
    "text": "CENTENAS",
    "tat": 6,
    "tstyle": "red",
-   "batalha": true
+   "batalha": true,
+   "crowd": {
+    "n": 24,
+    "outfits": [
+     "AUS"
+    ],
+    "march": false
+   }
   },
   {
    "say": "No fim, o governo desistiu da guerra, e passou a pagar recompensa aos fazendeiros por cada emu abatido.",

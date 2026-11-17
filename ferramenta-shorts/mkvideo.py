@@ -226,7 +226,8 @@ def build_beat(k, b):
         else:
             acts.append(f"{{ {key}: {json.dumps(sp)}, at: [X + {num(dxa)}, {num(za)}], state: {json.dumps(st)}, s: {num(sc)}, flip: {fl}, seed: {j * 3 + 1} }}")
     # bando de emus: "emus": {"n":10, "mode":"stand|run|scatter", "x":3, "z":-1, "cols":4, "dir":1}
-    em = b.get('emus')
+    em = b.get('emus'); DUST = []
+    if em and b.get('impact'): em = {**em, 'n': max(int(em.get('n', 10)), 26), 'mode': 'scatter'}
     if em:
         import math as _m
         n_e = int(em.get('n', 8)); mode = em.get('mode', 'stand'); cols_e = int(em.get('cols', 4)); ex0 = em.get('x', 3.0); ez0 = em.get('z', -1.0); dr = em.get('dir', 1)
@@ -237,7 +238,10 @@ def build_beat(k, b):
                 acts.append(f"{{ bird: 'emu', at: [X + {num(x0 - 11 * dr)}, {num(z0)}], move: [[X + {num(x0 + 11 * dr)}, {num(z0)}], {a}, {bb}, 'lin'], state: 'walk', spd: 0.09, s: 1.6, flip: {'false' if dr > 0 else 'true'}, seed: {i * 5 + 2} }}")
             elif mode == 'scatter':
                 ang = (i / max(n_e, 1)) * 2 * _m.pi + 0.4; tx, tz = x0 + 11 * _m.cos(ang), z0 + 6 * _m.sin(ang)
-                if b.get('impact'): ang = -1.15 + 2.3 * i / max(n_e - 1, 1); tx, tz = x0 + (1 if ex0 >= 0 else -1) * 8 * _m.cos(ang), z0 + 6 * _m.sin(ang)   # na batalha os bichos fogem PARA LONGE da tropa, abrindo em leque
+                if b.get('impact'):
+                    r1, r2, r3 = ((i * 37) % 17) / 16, ((i * 53) % 13) / 12, ((i * 29) % 11) / 10; sg = 1 if ex0 >= 0 else -1
+                    x0, z0 = ex0 + sg * (-4 + 12 * r1), ez0 + (-3 + 13 * r2); ang = 0; tx, tz = x0 + sg * (r3 - 0.3) * 14, z0 + (r1 - 0.3) * 8   # na frente da cerca, no terreiro, onde a camera ve
+                    if i % 3 == 0: DUST.append((x0 + (tx - x0) * 0.4, z0 + (tz - z0) * 0.4, 14 + i * 9))   # na batalha os bichos fogem PARA LONGE da tropa, abrindo em leque
                 acts.append(f"{{ bird: 'emu', at: [X + {num(x0)}, {num(z0)}], move: [[X + {num(tx)}, {num(tz)}], {a}, {bb}], state: 'walk', spd: 0.09, s: 1.6, flip: {'true' if tx < x0 else 'false'}, seed: {i * 5 + 2} }}")
             else:
                 acts.append(f"{{ bird: 'emu', at: [X + {num(x0)}, {num(z0)}], state: {json.dumps('peck' if (i % 3 == 1 and em.get('peck', True)) else 'stand')}, s: 1.6, flip: {'true' if i % 2 == 0 else 'false'}, seed: {i * 5 + 2} }}")
@@ -295,6 +299,7 @@ def build_beat(k, b):
         pr.append(f"{{ asset: {json.dumps(asset)}, at: [X + {num(dx)}, {num(z)}], s: {num(s)}{extra} }}")
     # textos / efeitos
     fx = []
+    for dx_, dz_, t_ in locals().get('DUST', []): fx.append(f"{{ k: 'dust', a: {a} + {t_}, b: {a} + {t_ + 30}, at: [X + {num(dx_)}, DK + 0.4, {num(dz_)}], s: 2.4 }}")
     # MAPA DIDATICO: "mapa": "AUSTRALIA" (ou sozinho, na 1a vez que o texto cita um pais/cidade conhecido). Corta para o mapa por ~1,8 s.
     _mp = b.get('mapa')
     if _mp is None and B.get('mapas') is not False and not STATE.get('mapa'):
@@ -359,6 +364,12 @@ def build_beat(k, b):
     call = f"S('b{k}', {a}, {bb}, X, {json.dumps(light)}, {{ {', '.join(opts)} }})"
     if wide and not (shot == 'track' or mv):
         call = f"{{ ...{call}, nocut: true }}"
+    if b.get('impact') and wide and not (shot == 'track' or mv) and b.get('grua') is not False:
+        _ex = 3.0 if b.get('emus') else 0.0
+        cam = (f"cam: [{{ f: {a}, at: [X + {num(_ex - 6.0 if b.get('emus') else 0)}, DK + 1.8, 0.5], d: 11, az: 16, el: 7, fov: 46 }}, "
+               f"{{ f: Math.round({a} + ({bb} - ({a})) * 0.45), at: [X + {num(_ex - 1.5)}, DK + 1.2, 3.0], d: 23, az: -4, el: 20, fov: 48 }}, "
+               f"{{ f: {bb}, at: [X + {num(_ex)}, DK + 1.0, 4.5], d: 31, az: -18, el: 27, fov: 48 }}]")
+        call = f"{{ ...{call}, {cam}, nocut: true }}"
     if shot == 'track' or mv:   # camera acompanha o grupo com velocidade constante (sem autocut)
         d = mv if mv else 8
         cam = (f"cam: [{{ f: {a}, at: [X + {num(-d / 2)}, DK + {num(T['h'])}, 1.5], d: {num(T['d0'])}, az: 6, el: {num(T.get('el', 3))}, fov: {num(T.get('fov', 44))} }}, "
