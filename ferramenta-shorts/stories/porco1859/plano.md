@@ -5,7 +5,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | -  | animais, placa: 1859 | - | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | animais | - | -
-b3 | close | -  | - | atirou (burst + som de tiro/explosao) | -
+b3 | close | -  | animais | atirou (burst + som de tiro/explosao) | -
 b4 | two | -  | objeto na mao | - | -
 b5 | group | -  | tropa, placa: TROPAS | - | -
 b6 | crowd | -  | batalha aberta com tiros, tropa | canhões (burst + som de tiro/explosao) | -

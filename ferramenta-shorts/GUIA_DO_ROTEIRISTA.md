@@ -120,3 +120,14 @@ Personagens grandes na maior parte do vídeo; até 2 planos abertos comuns + at�
 - **Interação física** (`"interacao"` na cena, ou automática pelo texto): `empurrar`, `discutir`, `cochichar`, `entregar`, `susto`, `reverencia`, `pular`. Sem pista no texto, a ferramenta roda uma lista (aproxima-se, avança e o outro recua, insiste...) sem repetir dentro do vídeo e começando num ponto diferente em cada vídeo. `"interacao": false` desliga na cena.
 - **Dois grandes momentos**: se o roteiro render só um plano de impacto, a virada ("Acontece que") vira o segundo, com multidão, efeito e som. `"min_momentos"` no topo muda o mínimo.
 - O fim de `preproducao.md` resume: objeto herói (cenas e closes), grandes momentos e interações por cena. Qualquer "AVISO" ali se resolve antes de renderizar.
+
+## As duas folhas (obrigatório em todo vídeo)
+
+1. Escreva `videos/<id>/beats.json` e rode `python3 mkvideo.py <id>`.
+2. **Folha 1** `stories/<id>/folha1_roteiro.md`: a história cena a cena (narração, duração, som ambiente, efeitos sonoros, efeito nas palavras-chave, texto/mapa na tela, função da cena: gancho, virada, grande momento, fecho).
+3. **Folha 2** `stories/<id>/folha2_producao.md`: as coordenadas de produção cena a cena (cenário, luz, clima, câmera, personagens, animação e interação, objetos/modelos) e os **RISCOS** com a **CORREÇÃO** pronta para copiar no roteiro. No fim: resumo dos riscos e como reparar depois do render.
+4. A última linha do mkvideo diz quantos riscos estão em aberto. Corrija o roteiro e rode de novo até dar **0**. Risco que você viu e aceita: `"riscos_ok": true` na cena.
+
+Riscos que a ferramenta acusa: chegada/travessia pela água em plano fechado; água citada em cenário sem água; animal sem modelo ou fora de cena (existem: porco, galinha/ganso, emu); ação sem animação (nadar, cavalgar, escalar, sentar...); cena longa (>26 palavras) ou curta (<6); mais de 4 personagens em plano fechado; multidão em interior; veículo citado e ausente; 3 cenas seguidas iguais; objeto sem modelo; personagens parados; vídeo sem mapa, sem objeto herói, com menos de 2 grandes momentos ou com palavra de ação sem efeito.
+
+O que a ferramenta **sabe** animar (escreva o roteiro com isto): andar, chegar andando, marchar, conversar, discutir, empurrar, cochichar, entregar, levar susto, comemorar, dançar, reverência, segurar e usar objeto, atirar, batalha com tropa, fugir, animais fugindo, soldados subindo em caminhão, veículo passando.

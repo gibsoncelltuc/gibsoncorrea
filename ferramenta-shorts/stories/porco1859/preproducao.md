@@ -7,10 +7,10 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | countryside | two | 2 | reagir, INTERAGEM: o outro se aproxima, alguem chega andando | pig | - | -
 b1 | countryside | reveal | 10 | parados (so fala e pisca) | - | - | -
 b2 | countryside | two | 1 | conversar | crate, nature/flowerbed, pig | - | -
-b3 | countryside | close | 1 | conversar | - | - | -
+b3 | countryside | close | 1 | conversar | pig | - | -
 b4 | countryside | two | 2 | discutir, INTERAGEM: discutir | - | coin | -
-b5 | countryside | group | 18 | discutir, INTERAGEM: empurrar | - | - | -
-b6 | countryside | crowd | 22 | discutir, batalha | cannon | - | -
+b5 | harbor | group | 18 | discutir, INTERAGEM: empurrar | - | - | -
+b6 | harbor | crowd | 22 | discutir, batalha | cannon, navios ao fundo | - | -
 b7 | interior madeira | two | 2 | discutir, INTERAGEM: vai ate o outro | - | - | -
 b8 | countryside | orbit | 21 | discutir, batalha | - | - | -
 b9 | countryside | two | 2 | conversar, INTERAGEM: insiste | - | paper | -

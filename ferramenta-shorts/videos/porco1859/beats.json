@@ -117,7 +117,16 @@
    ],
    "say": "Ele pegou a espingarda, e atirou. O porco era de um vizinho inglês.",
    "impact": false,
-   "shot_lock": true
+   "shot_lock": true,
+   "animals": [
+    [
+     "pig",
+     2.3,
+     1.0,
+     "stand",
+     1.1
+    ]
+   ]
   },
   {
    "shot": "two",
@@ -142,7 +151,8 @@
    },
    "text": "TROPAS",
    "titulo": true,
-   "say": "Os ingleses ameaçaram prender o fazendeiro. Então os Estados Unidos mandaram soldados para a ilha."
+   "say": "Os ingleses ameaçaram prender o fazendeiro. Então os Estados Unidos mandaram soldados para a ilha.",
+   "set": "harbor"
   },
   {
    "shot": "crowd",
@@ -168,7 +178,8 @@
     "sting@10",
     "thump@40"
    ],
-   "say": "Acontece que a Inglaterra respondeu com navios de guerra. Em poucas semanas, eram centenas de soldados e dezenas de canhões, apontados uns para os outros."
+   "say": "Acontece que a Inglaterra respondeu com navios de guerra. Em poucas semanas, eram centenas de soldados e dezenas de canhões, apontados uns para os outros.",
+   "set": "harbor"
   },
   {
    "shot": "two",
@@ -177,7 +188,8 @@
     "ING:1:nervous"
    ],
    "interior": "madeira",
-   "say": "O almirante inglês recebeu a ordem de atacar. \"Não vou começar uma guerra por causa de um porco\", respondeu ele."
+   "say": "O almirante inglês recebeu a ordem de atacar. \"Não vou começar uma guerra por causa de um porco\", respondeu ele.",
+   "riscos_ok": true
   },
   {
    "shot": "group",
@@ -195,14 +207,16 @@
     "AME:1:smile"
    ],
    "text": "13 ANOS",
-   "say": "Treze anos depois, um árbitro decidiu que a ilha era americana."
+   "say": "Treze anos depois, um árbitro decidiu que a ilha era americana.",
+   "riscos_ok": true
   },
   {
    "shot": "close",
    "who": [
     "FAZ:0:pained"
    ],
-   "say": "A única baixa da guerra foi o porco."
+   "say": "A única baixa da guerra foi o porco.",
+   "riscos_ok": true
   }
  ],
  "heroi": null
