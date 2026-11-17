@@ -78,3 +78,8 @@ Personagens grandes na maior parte do vídeo; até 2 planos abertos comuns + at�
 - **Batalha**: `"batalha": true` na cena força o plano aberto com a tropa atirando (clarões e som) e o inimigo/animais se espalhando. `"caminhoes": 2` põe caminhões com soldados em pé na carroceria.
 - **Mapa didático**: na primeira vez que o texto cita um país ou cidade conhecidos, a ferramenta corta para um mapa de pergaminho com alfinete e o nome (~1,8 s). Forçar: `"mapa": "AUSTRÁLIA"`; desligar no vídeo: `"mapas": false`.
 - **Variedade de planos**: use no roteiro `two` (dois personagens), `close` (rosto, na palavra-chave/emoção), `group`, `low` (câmera baixa), `track` (acompanha quem anda), `wide`/`crowd`/`reveal`/`orbit` (abertos). O diretor abre e fecha em plano médio e nunca põe dois abertos sem batalha em sequência.
+
+## Refazer só algumas cenas (2–5 min em vez de 20)
+- Vídeo já renderizado e você quer melhorar uma cena (câmera, personagens, objetos, batalha, placa)? Edite a cena no `beats.json` e rode `./refazer.sh <id> b4 b8` (os números das cenas, contando de b0). Só os trechos dessas cenas são renderizados de novo e o vídeo é remontado.
+- Só vale se o **texto falado não mudou**. Se mudou a narração, o tempo de tudo muda e o vídeo inteiro precisa ser refeito pela fila.
+- Não rode com a fila rodando.
