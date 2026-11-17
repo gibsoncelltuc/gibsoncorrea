@@ -126,7 +126,28 @@ h1{font-size:19px;font-weight:700}
 
 .foot{color:var(--faint);font-size:11.5px;text-align:center;padding:4px 16px 26px;max-width:720px;margin:0 auto}
 
-.seg{display:inline-flex;background:var(--panel-2);border:1px solid var(--line);border-radius:10px;padding:3px;gap:2px}
+.seg{display:inline-flex;flex-wrap:wrap;background:var(--panel-2);border:1px solid var(--line);border-radius:10px;padding:3px;gap:2px}
+/* desbloqueio */
+.ugrid{grid-column:1 / -1;display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:16px}
+.ucard{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);overflow:hidden;display:flex;flex-direction:column}
+.uhead{display:flex;align-items:center;gap:12px;padding:14px 16px;border-bottom:1px solid var(--line)}
+.uhead .lg{width:42px;height:42px;border-radius:11px;background:var(--panel-2);border:1px solid var(--line);display:grid;place-items:center;font-family:var(--f-display);font-weight:700;font-size:15px;flex:none}
+.uhead h3{font-size:16px}
+.uhead .m{color:var(--muted);font-size:12px}
+.ubody{padding:14px 16px;display:flex;flex-direction:column;gap:13px}
+.deps{display:flex;flex-direction:column;gap:5px}
+.deps .d{display:flex;align-items:center;gap:8px;font-size:12.5px;background:var(--panel-2);border:1px solid var(--line);border-radius:8px;padding:7px 10px}
+.deps .d b{font-weight:600}.deps .d a{margin-left:auto;color:var(--cyan);font-family:var(--f-mono);font-size:11px;text-decoration:none;overflow-wrap:anywhere}
+.deps .d a:hover{text-decoration:underline}
+.usteps{counter-reset:u;display:flex;flex-direction:column;gap:7px;margin:0;padding:0}
+.usteps li{list-style:none;counter-increment:u;position:relative;padding-left:28px;font-size:13px}
+.usteps li::before{content:counter(u);position:absolute;left:0;top:-1px;width:20px;height:20px;border-radius:6px;background:var(--brand-soft);color:var(--brand);font-family:var(--f-mono);font-weight:700;font-size:11px;display:grid;place-items:center}
+.ccode{font-family:var(--f-mono);font-size:12px;background:#06100B;color:#8ff0bf;border-radius:8px;padding:10px 12px;white-space:pre-wrap;overflow-wrap:anywhere}
+:root[data-theme="light"] .ccode{background:#0A1711}
+.ubtn{margin-top:auto;border:1px solid var(--brand-line);background:var(--brand);color:var(--brand-ink);border-radius:10px;padding:11px;font-weight:700;font-family:var(--f-display);font-size:14px;display:flex;align-items:center;justify-content:center;gap:8px}
+.ubtn:hover{filter:brightness(1.06)}
+.ubtn.off{background:var(--panel-2);color:var(--muted);border-color:var(--line)}
+.uclick{font-size:12px;color:var(--muted);border-left:2px solid var(--brand-line);padding-left:10px}
 .seg button{border:0;background:none;padding:6px 14px;border-radius:7px;color:var(--muted);font-weight:600;font-size:13px}
 .seg button[aria-pressed="true"]{background:var(--brand-soft);color:var(--brand)}
 /* detector */
@@ -354,6 +375,35 @@ const FLASH={
     params:['Use o scatter do modelo exato; ele define o endereço de cada partição.','"Download Only" é o mais seguro. "Format All + Download" apaga tudo — só quando necessário.','Preloader errado = dead boot. Confira o chip antes (o Detector mostra o HW code).','mtkclient (open-source) recupera via BootROM quando o preloader não sobe.']}
 };
 const FORDER=['samsung','xiaomi','mediatek'];
+
+/* ======== desbloqueio de bootloader (processo OFICIAL) ======== */
+const UNLOCK={
+  xiaomi:{nome:'Xiaomi / Redmi / Poco',logo:'Mi',metodo:'Mi Unlock oficial',pill:'p-care',
+    deps:[['Mi Unlock (app oficial)','miui.com/unlock'],['Platform-tools (adb/fastboot)','developer.android.com/tools/releases/platform-tools'],['Driver Mi USB','—']],
+    passos:['Config → Sobre o telefone → confirme que é HyperOS/MIUI.','Opções de desenvolvedor → Status do Mi Unlock → vincular a conta Mi ao aparelho.','Aguardar o período oficial (hoje ~72h a 168h+; a conta precisa de ~30 dias e 15 dias conectada à rede).','Desligar → Vol − + Power → entrar em fastboot.','Abrir o Mi Unlock no PC, logar na MESMA conta Mi, clicar Unlock.'],
+    cmd:'(o desbloqueio Xiaomi é feito pelo app Mi Unlock, não por comando fastboot)',
+    umclique:'O companion detecta o fastboot e abre o Mi Unlock oficial no aparelho certo. A espera e a conta são exigência da Xiaomi — não dá para pular (e os "bypass" da internet são golpe/risco).',
+    aviso:'Apaga todos os dados. No HyperOS, o aparelho perde atualizações OTA enquanto estiver desbloqueado. Limite oficial: 1 aparelho/mês e 3/ano por conta.'},
+  motorola:{nome:'Motorola',logo:'M',metodo:'Código oficial Motorola',pill:'p-free',
+    deps:[['Platform-tools (adb/fastboot)','developer.android.com/tools/releases/platform-tools'],['Portal oficial Motorola','motorola.com/unlockbootloader'],['Driver Motorola','—']],
+    passos:['Opções de desenvolvedor → Desbloqueio OEM ON + Depuração USB.','No PC: adb reboot bootloader → fastboot devices (confirmar).','fastboot oem get_unlock_data → juntar as linhas (tirar "(bootloader)" e espaços).','Colar no portal da Motorola (logado) e pedir o código — chega por e-mail (20 caracteres).','fastboot oem unlock <CÓDIGO> → repetir para confirmar → fastboot reboot.'],
+    cmd:'fastboot oem get_unlock_data\nfastboot oem unlock <CÓDIGO_DO_EMAIL>',
+    umclique:'O companion roda o get_unlock_data, abre o portal já com o dado e, quando o código chega no e-mail, você cola e ele desbloqueia num clique.',
+    aviso:'Apaga todos os dados. A elegibilidade é checada no portal; alguns modelos de operadora não liberam.'},
+  pixel:{nome:'Google Pixel',logo:'G',metodo:'fastboot oficial (sem código)',pill:'p-free',
+    deps:[['Platform-tools (adb/fastboot)','developer.android.com/tools/releases/platform-tools'],['Google USB Driver','developer.android.com/studio/run/win-usb']],
+    passos:['Opções de desenvolvedor → Desbloqueio OEM ON + Depuração USB.','No PC: adb reboot bootloader.','fastboot flashing unlock.','Confirmar no aparelho (Vol +/− e Power) → fastboot reboot.'],
+    cmd:'adb reboot bootloader\nfastboot flashing unlock',
+    umclique:'No Pixel o companion faz tudo: reinicia em bootloader e envia o unlock. Você só confirma na tela do aparelho.',
+    aviso:'Apaga todos os dados. Modelos comprados em operadora (ex. Verizon) podem ter o Desbloqueio OEM travado — aí não há caminho.'},
+  samsung:{nome:'Samsung',logo:'S',metodo:'Depende do modelo — muitos NÃO liberam',pill:'p-bad',
+    deps:[['Samsung USB Driver','—'],['(sem ferramenta de unlock oficial para PC)','—']],
+    passos:['Snapdragon / EUA: não há desbloqueio de bootloader. Sem caminho oficial nem não-oficial seguro.','Exynos / global (quando existe): Opções de desenvolvedor → Desbloqueio OEM ON.','Entrar em Download Mode e segurar Vol + para liberar o OEM (apaga tudo).','Vários modelos novos removeram essa opção — confirme no aparelho antes de prometer ao cliente.'],
+    cmd:'(Samsung não usa fastboot unlock; é toggle OEM + Download Mode, quando disponível)',
+    umclique:'Aqui não há "um clique": a Samsung não oferece ferramenta de unlock para PC. O companion só identifica se o aparelho tem a opção OEM disponível.',
+    aviso:'Não prometa desbloqueio de Samsung sem checar o modelo. A maioria dos aparelhos de operadora e todos os Snapdragon dos EUA são definitivamente bloqueados.'}
+};
+const UORDER=['xiaomi','motorola','pixel','samsung'];
 function toast(t){const e=document.getElementById('toast');e.textContent=t;e.hidden=false;clearTimeout(toast.t);toast.t=setTimeout(()=>e.hidden=true,2200)}
 
 function renderRail(){
@@ -363,13 +413,14 @@ function renderRail(){
 }
 const themeIcon=()=>{const dark=document.documentElement.dataset.theme?document.documentElement.dataset.theme==='dark':!matchMedia('(prefers-color-scheme: light)').matches;return dark?'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 4V2M12 22v-2M4 12H2M22 12h-2M6 6L4.5 4.5M19.5 19.5L18 18M6 18l-1.5 1.5M19.5 4.5L18 6M12 16a4 4 0 100-8 4 4 0 000 8z"/></svg>':'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14A8 8 0 019 4a8 8 0 1011 10z"/></svg>'};
 
-const vswitch=()=>`<div class="seg">${[['catalogo','Catálogo'],['detector','Detector'],['flash','Atualização']].map(([k,l])=>`<button data-view="${k}" aria-pressed="${ui.view===k}">${l}</button>`).join('')}</div>`;
+const vswitch=()=>`<div class="seg">${[['catalogo','Catálogo'],['detector','Detector'],['flash','Atualização'],['unlock','Desbloqueio']].map(([k,l])=>`<button data-view="${k}" aria-pressed="${ui.view===k}">${l}</button>`).join('')}</div>`;
 function setWide(on){const r=document.getElementById('right'),l=document.getElementById('left');if(on){l.style.gridColumn='1 / -1';r.style.display='none';r.innerHTML=''}else{l.style.gridColumn='';r.style.display=''}}
 function render(){
   const b=BRANDS[ui.brand];
   if(!b.plats.includes(ui.plat))ui.plat=b.plats[0];
   if(ui.view==='detector'){renderDetector();return}
   if(ui.view==='flash'){renderFlash();return}
+  if(ui.view==='unlock'){renderUnlock();return}
   setWide(false);
   const p=PLAT[ui.plat],fw=FWSRC[b.fw];
   document.getElementById('bar').innerHTML=`<div><div class="bname">${b.nome} <span class="muted" style="font-weight:500;font-size:14px">· Bancada</span></div><div class="sub">${esc(b.nota)}</div></div>${vswitch()}<span class="conn"><span class="dot on"></span>Aguardando aparelho</span>`;
@@ -427,6 +478,21 @@ function renderDetector(){
   document.getElementById('foot').innerHTML='Detector · identificação por VID:PID + handshake do modo (Sahara no Qualcomm, HW code no MediaTek, getvar no fastboot). Nenhuma função remove conta/FRP. Confirme sempre o chip exato antes de gravar.';
 }
 
+function renderUnlock(){
+  setWide(true);
+  document.getElementById('bar').innerHTML=`<div><div class="bname">Desbloqueio de bootloader <span class="muted" style="font-weight:500;font-size:14px">· processo oficial</span></div><div class="sub">Conecte em fastboot → o Detector identifica o aparelho → aqui vem o caminho oficial e os arquivos oficiais. Sem bypass.</div></div>${vswitch()}<span class="conn"><span class="dot"></span>Caminho oficial por marca</span>`;
+  document.getElementById('left').innerHTML=`<div class="ugrid">${UORDER.map(k=>{const u=UNLOCK[k];return `<div class="ucard">
+    <div class="uhead"><span class="lg">${u.logo}</span><div><h3>${esc(u.nome)}</h3><span class="m">${esc(u.metodo)}</span></div><span class="pill ${u.pill}" style="margin-left:auto">${u.pill==='p-bad'?'Limitado':u.pill==='p-care'?'Com espera':'Oficial'}</span></div>
+    <div class="ubody">
+      <div><div class="idf" style="background:none;border:0;padding:0;margin-bottom:6px"><span class="k">Arquivos e dependências (oficiais)</span></div><div class="deps">${u.deps.map(d=>`<div class="d"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/></svg><b>${esc(d[0])}</b>${d[1]!=='—'?`<a href="https://${d[1]}" target="_blank" rel="noopener">${esc(d[1])}</a>`:'<span style="margin-left:auto;color:var(--faint);font-size:11px">no driver pack</span>'}</div>`).join('')}</div></div>
+      <div><div class="idf" style="background:none;border:0;padding:0;margin-bottom:6px"><span class="k">Passo a passo oficial</span></div><ol class="usteps">${u.passos.map(p=>`<li>${esc(p)}</li>`).join('')}</ol></div>
+      <div class="ccode">${esc(u.cmd)}</div>
+      <div class="uclick"><b>Um clique (companion):</b> ${esc(u.umclique)}</div>
+      <div class="riskbox"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 9v4M12 17h.01M10.3 3.9L2 18a2 2 0 001.7 3h16.6a2 2 0 001.7-3L13.7 3.9a2 2 0 00-3.4 0z"/></svg><div>${esc(u.aviso)}</div></div>
+      <button class="ubtn ${u.pill==='p-bad'?'off':''}" data-a="unlockrun" data-u="${k}">${u.pill==='p-bad'?'Checar disponibilidade':'Desbloquear (via companion)'}</button>
+    </div></div>`}).join('')}</div>`;
+  document.getElementById('foot').innerHTML='Desbloqueio · apenas processo OFICIAL de cada marca (apaga os dados do aparelho). Os "bypass" de espera/conta vendidos na internet são golpe ou risco de brick — não entram aqui. A execução roda no companion de PC.';
+}
 function renderFlash(){
   setWide(true);
   const f=ui.flash,F=FLASH[f.prof],filled=k=>!!f.files[k],ready=F.req.every(filled)&&!f.running;
@@ -470,6 +536,7 @@ document.addEventListener('click',e=>{
   const vw=e.target.closest('[data-view]');if(vw){ui.view=vw.dataset.view;render();return}
   const pf=e.target.closest('[data-prof]');if(pf){ui.flash.prof=pf.dataset.prof;ui.flash.files={};ui.flash.opts={auto:true,reset:true,dlonly:true};ui.flash.log=[];ui.flash.prog=0;render();return}
   const fs=e.target.closest('[data-a="flashstart"]');if(fs){runFlash();return}
+  const ur=e.target.closest('[data-a="unlockrun"]');if(ur){const u=UNLOCK[ur.dataset.u];toast(u.pill==='p-bad'?'Checagem roda no companion de PC':'Desbloqueio oficial roda no companion de PC');return}
   const sr=e.target.closest('[data-det]');if(sr){ui.det=sr.dataset.det;ui.scan=false;render();return}
   const sc=e.target.closest('[data-a="scan"]');if(sc){ui.scan=true;render();setTimeout(()=>{ui.scan=false;if(!ui.det)ui.det='samsung_dl';render()},950);return}
   const bt=e.target.closest('[data-b]');if(bt){ui.brand=bt.dataset.b;ui.op=null;ui.view='catalogo';renderRail();render();return}
