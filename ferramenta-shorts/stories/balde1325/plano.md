@@ -1,4 +1,4 @@
-# Plano de acao - A Guerra do Balde
+# Plano de acao - Guerras Inusitadas EP 04 - A Guerra do Balde
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---

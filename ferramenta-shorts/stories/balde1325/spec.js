@@ -1,4 +1,4 @@
-// A Guerra do Balde -- GERADO por mkvideo.py a partir de videos/balde1325/beats.json (edite o beats.json, nao este arquivo)
+// Guerras Inusitadas EP 04 - A Guerra do Balde -- GERADO por mkvideo.py a partir de videos/balde1325/beats.json (edite o beats.json, nao este arquivo)
 const X = 9000, DK = 6; const X_hall = 8000;
 const WS = (i, off = 0) => TIMING.words[Math.min(i, TIMING.words.length - 1)][0] + off;   // frame em que a palavra de indice i comeca
 const A = [0, WS(13, -3), WS(34, -3), WS(46, -3), WS(64, -3), WS(74, -3), WS(87, -3), WS(99, -3), WS(118, -3), WS(135, -3), TOTAL_F()];
