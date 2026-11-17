@@ -2,61 +2,123 @@
  "voice": "pt-BR-AntonioNeural",
  "rate": "+10%",
  "title": "A Febre das Tulipas",
- "set": "street",
+ "set": "countryside",
  "light": "day",
  "mood": "playful",
  "outfits": {
   "MER": {
-   "jacket": "#2e2a36",
-   "pants": "#3b3f52",
-   "boots": "#2a2218",
-   "hat": "tophat",
+   "jacket": "#1f1f26",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "slouch",
+   "cap": "#1b1b1f",
    "buttons": "#e8c45a",
-   "build": "stout"
+   "build": "stout",
+   "moustache_on": "#6b4a2a"
+  },
+  "RIC": {
+   "jacket": "#d9742a",
+   "pants": "#3b2a1a",
+   "boots": "#1b1b1f",
+   "hat": "tophat",
+   "sash": "#f1ece0"
   },
   "POV": {
-   "jacket": "#7a9ac2",
-   "pants": "#3b3f52",
-   "boots": "#2a2218",
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
    "hats": [
-    "cap",
-    "bowler",
     "bonnet",
-    "straw"
+    "cap",
+    "straw",
+    "beret"
    ],
-   "cap": "#8a5a3a"
+   "cap": "#c9a060"
   },
   "MAR": {
    "jacket": "#2f5f6a",
-   "pants": "#3b3f52",
-   "boots": "#2a2218",
+   "pants": "#e8e0c8",
+   "boots": "#1b1b1f",
    "hat": "beret",
    "cap": "#27408b"
-  },
-  "RIC": {
-   "jacket": "#7b5ac9",
-   "pants": "#3b3f52",
-   "boots": "#2a2218",
-   "hat": "bowler",
-   "sash": "#e8c45a"
   }
  },
  "beats": [
   {
    "shot": "two",
    "who": [
-    "MER:0:grin:coin",
-    "POV:0:shock"
+    "MER:0:grin:tulip",
+    "POV:1:shock"
    ],
+   "props": [
+    [
+     "kit/tulip_bed",
+     0,
+     -1.8,
+     1.3
+    ],
+    [
+     "buildings/windmill",
+     6,
+     -10,
+     1.2
+    ]
+   ],
+   "fachada": false,
    "text": "1637",
    "say": "Uma única flor já custou o preço de uma casa inteira."
   },
   {
-   "shot": "two",
+   "shot": "reveal",
    "who": [
-    "POV:1:smile",
+    "POV:0:smile:tulip",
     "RIC:0:grin"
    ],
+   "props": [
+    [
+     "kit/tulip_bed",
+     -4.5,
+     -2.0,
+     1.4
+    ],
+    [
+     "kit/tulip_bed",
+     4.5,
+     -2.6,
+     1.4
+    ],
+    [
+     "kit/tulip_bed",
+     0,
+     -5.0,
+     1.4
+    ],
+    [
+     "kit/tulip_bed",
+     -5,
+     -7.5,
+     1.4
+    ],
+    [
+     "kit/tulip_bed",
+     5,
+     -8,
+     1.4
+    ],
+    [
+     "buildings/windmill",
+     0,
+     -13,
+     1.3
+    ]
+   ],
+   "crowd": {
+    "n": 6,
+    "outfits": [
+     "POV"
+    ],
+    "march": false
+   },
    "mapa": "HOLANDA",
    "mapa_at": 2,
    "say": "Era a Holanda, e a tulipa tinha acabado de chegar do Oriente. Colorida, rara, e na moda."
@@ -64,27 +126,55 @@
   {
    "shot": "two",
    "who": [
-    "MER:0:grin:paper",
-    "RIC:0:shock:coin"
+    "RIC:0:stern:coin",
+    "RIC:1:shock:coin"
    ],
    "interior": "loja",
-   "say": "Os ricos queriam as mais raras. \"Dou mil moedas por esse bulbo\", dizia um. \"Dou duas mil\", dizia outro."
+   "props": [
+    [
+     "kit/tulip_striped",
+     0.0,
+     -0.9,
+     1.5
+    ]
+   ],
+   "acao": "discutir",
+   "say": "Os ricos queriam as mais raras. \"Dou mil moedas por esse bulbo\", dizia um. \"Dou duas mil\", gritava outro."
   },
   {
    "shot": "crowd",
    "who": [
-    "POV:0:grin",
-    "POV:1:laugh",
+    "POV:0:grin:tulip",
+    "POV:1:laugh:coin",
     "MER:0:grin"
    ],
    "batalha": true,
    "tiros": false,
+   "props": [
+    [
+     "kit/tulip_bed",
+     -6,
+     -4,
+     1.4
+    ],
+    [
+     "kit/tulip_bed",
+     6,
+     -4.5,
+     1.4
+    ],
+    [
+     "kit/tulip_bed",
+     0,
+     -7,
+     1.4
+    ]
+   ],
    "crowd": {
-    "n": 18,
+    "n": 20,
     "outfits": [
      "POV",
-     "RIC",
-     "MER"
+     "RIC"
     ],
     "march": false,
     "expr": "grin"
@@ -107,39 +197,79 @@
     "POV:2:grin:paper",
     "POV:3:smile:coin"
    ],
+   "props": [
+    [
+     "kit/tulip_yellow",
+     -2.6,
+     0.4,
+     1.3
+    ],
+    [
+     "kit/tulip_purple",
+     2.7,
+     0.2,
+     1.3
+    ]
+   ],
+   "acao": "discutir",
    "say": "Ninguém queria a flor de verdade. Queriam vender o papel mais caro na semana seguinte, e ficar ricos."
   },
   {
    "shot": "two",
    "who": [
-    "MAR:0:smile",
+    "MAR:0:smile:tulip",
     "MER:0:shock"
    ],
-   "interior": "loja",
+   "interior": "madeira",
+   "props": [
+    [
+     "kit/tulip_red",
+     2.8,
+     -0.6,
+     1.3
+    ]
+   ],
+   "acao": "discutir",
    "say": "Contam que um marinheiro comeu um bulbo no almoço, achando que era cebola. Valia uma fortuna."
   },
   {
    "shot": "group",
    "who": [
-    "MER:0:nervous:paper",
-    "POV:0:neutral",
-    "POV:1:stern"
+    "MER:0:nervous:tulip",
+    "POV:0:stern",
+    "POV:1:neutral",
+    "RIC:0:stern"
    ],
    "interior": "loja",
    "hora": "dia",
-   "clima": "neve",
-   "say": "Acontece que, num leilão de inverno, o vendedor abriu os lances, e ninguém levantou a mão."
+   "acao": "nenhuma",
+   "text": "LEILÃO",
+   "say": "Acontece que, num leilão de fevereiro, o vendedor abriu os lances, e ninguém levantou a mão."
   },
   {
    "shot": "orbit",
    "who": [
-    "POV:2:shock",
-    "RIC:0:pained"
+    "POV:2:shock:tulip",
+    "RIC:0:pained:paper"
    ],
    "batalha": true,
    "tiros": false,
+   "props": [
+    [
+     "kit/tulip_bed",
+     -6,
+     -4,
+     1.4
+    ],
+    [
+     "kit/tulip_bed",
+     6,
+     -4.5,
+     1.4
+    ]
+   ],
    "crowd": {
-    "n": 18,
+    "n": 20,
     "outfits": [
      "POV",
      "RIC",
@@ -158,15 +288,26 @@
    ],
    "text": "PÂNICO",
    "titulo": true,
-   "say": "A notícia correu. Em poucos dias, todo mundo quis vender, e não havia mais comprador."
+   "acao": "discutir",
+   "say": "A notícia correu. Em poucos dias, todo mundo quis vender, e não havia mais comprador.",
+   "clima": "limpo"
   },
   {
    "shot": "two",
    "who": [
-    "RIC:0:pained:paper",
-    "MER:0:pained"
+    "RIC:0:pained:tulip",
+    "MER:0:pained:paper"
    ],
-   "clima": "limpo",
+   "props": [
+    [
+     "kit/tulip_bed",
+     0,
+     -1.8,
+     1.3
+    ]
+   ],
+   "fachada": false,
+   "acao": "nenhuma",
    "say": "Os preços desabaram. Quem tinha trocado a casa por flores ficou só com as flores, e as dívidas."
   },
   {
