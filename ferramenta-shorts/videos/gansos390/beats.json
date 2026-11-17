@@ -3,15 +3,14 @@
  "voice": "pt-BR-AntonioNeural",
  "rate": "+10%",
  "set": "medieval",
- "light": "dusk",
  "mood": "march",
  "outfits": {
   "ROM": {
    "jacket": "#c0262d",
    "pants": "#e8e0c8",
    "boots": "#6a4a2a",
-   "hat": "cap",
-   "cap": "#b88a3a",
+   "hat": "helmet",
+   "cap": "#c9a23a",
    "belt": "#b88a3a",
    "buttons": "#e8c45a",
    "moustache_on": "#3a2a1f"
@@ -29,8 +28,8 @@
    "jacket": "#c0262d",
    "pants": "#e8e0c8",
    "boots": "#6a4a2a",
-   "hat": "cap",
-   "cap": "#b88a3a",
+   "hat": "helmet",
+   "cap": "#c9a23a",
    "belt": "#b88a3a",
    "buttons": "#e8c45a",
    "build": "stout",
@@ -39,18 +38,35 @@
  },
  "beats": [
   {
-   "say": "Trezentos e noventa anos antes de Cristo, os gauleses chegaram a Roma, e a cidade caiu.",
-   "shot": "wide",
+   "shot": "two",
    "who": [
-    "GAU:0:grin",
-    "GAU:1:stern"
+    "ROM:0:nervous",
+    "ROM:1:pained"
    ],
-   "text": "390 A.C.",
-   "tat": 0,
-   "tstyle": "gold"
+   "animals": [
+    [
+     "goose",
+     3.0,
+     1.0,
+     "stand",
+     1.2
+    ]
+   ],
+   "hora": "dia",
+   "text": "390 a.C.",
+   "say": "Roma inteira foi salva por um bando de gansos barulhentos."
   },
   {
-   "say": "Os romanos que sobreviveram se refugiaram no Capitólio, uma colina fortificada.",
+   "shot": "group",
+   "who": [
+    "GAU:0:grin",
+    "GAU:1:stern",
+    "GAU:2:stern"
+   ],
+   "mapa": "ROMA",
+   "say": "Os gauleses tinham invadido a cidade, e queimado quase tudo. Quem não fugiu, morreu."
+  },
+  {
    "shot": "group",
    "who": [
     "ROM:0:nervous",
@@ -65,54 +81,46 @@
      1.4
     ]
    ],
-   "mood": "tense"
+   "fachada": false,
+   "text": "CAPITÓLIO",
+   "say": "Os romanos que sobraram se trancaram no Capitólio, uma colina cercada de muralhas, sem comida, e sem saída."
   },
   {
-   "say": "Os gauleses cercaram a colina, e esperaram.",
    "shot": "two",
    "who": [
-    "GAU:0:stern",
-    "GAU:2:neutral"
-   ],
-   "text": "CERCO",
-   "tat": 5,
-   "tstyle": "red"
-  },
-  {
-   "say": "Os romanos passavam fome, mas não comiam os gansos sagrados da deusa Juno.",
-   "shot": "two",
-   "who": [
-    "ROM:1:pained"
+    "ROM:1:pained",
+    "ROM:2:stern"
    ],
    "animals": [
     [
      "goose",
-     2.0,
+     2.6,
      1.2,
      "stand",
      1.2
+    ],
+    [
+     "goose",
+     -2.8,
+     0.8,
+     "stand",
+     1.1
     ]
    ],
-   "text": "GANSOS SAGRADOS",
-   "tat": 9,
-   "tstyle": "white",
-   "mood": "calm"
+   "say": "Lá em cima, a fome apertava. \"Vamos comer os gansos\", pediu um soldado. \"São sagrados\", respondeu o sacerdote."
   },
   {
-   "say": "Uma noite, os gauleses subiram a colina em silêncio, e os guardas não perceberam. Nem os cachorros acordaram.",
    "shot": "track",
    "who": [
     "GAU:0:stern",
     "GAU:1:nervous",
     "GAU:2:stern"
    ],
-   "move": 8,
-   "light": "night",
-   "mood": "tense"
+   "hora": "noite",
+   "say": "Numa noite sem lua, os gauleses escalaram a colina em silêncio. Os guardas dormiam. Nem os cachorros latiram."
   },
   {
-   "say": "Mas os gansos acordaram, e começaram a gritar e a bater as asas.",
-   "shot": "close",
+   "shot": "two",
    "who": [
     "ROM:2:shock"
    ],
@@ -130,62 +138,95 @@
      1.0,
      "walk",
      1.2
+    ],
+    [
+     "goose",
+     0.2,
+     2.2,
+     "walk",
+     1.2
     ]
    ],
-   "text": "HONK!",
-   "tat": 8,
-   "tstyle": "red",
-   "light": "night",
    "sfx": [
-    "squeal@20"
-   ]
+    "squeal@20",
+    "squeal@55",
+    "squeal@90"
+   ],
+   "text": "QUÁ! QUÁ!",
+   "say": "Acontece que os gansos acordaram, e começaram a gritar e a bater as asas."
   },
   {
-   "say": "O soldado Marco Mânlio acordou com o barulho, e empurrou o primeiro invasor ladeira abaixo.",
    "shot": "two",
    "who": [
     "MAN:0:shock",
     "GAU:0:shock"
    ],
-   "text": "MARCO MÂNLIO",
-   "tat": 3,
-   "tstyle": "gold",
-   "light": "dawn",
-   "sfx": [
-    "thump@60"
-   ]
-  },
-  {
-   "say": "O alarme acordou o resto dos romanos, e o ataque fracassou.",
-   "shot": "group",
-   "who": [
-    "ROM:0:grin",
-    "MAN:0:laugh",
-    "ROM:1:grin"
+   "props": [
+    [
+     "buildings/castle_tower",
+     3.5,
+     -7,
+     1.2
+    ]
    ],
-   "light": "dawn",
-   "mood": "playful"
+   "fachada": false,
+   "say": "Um soldado chamado Mânlio pulou da cama, e empurrou o primeiro invasor muralha abaixo. O gaulês caiu, levando os outros junto."
   },
   {
-   "say": "Segundo o historiador Lívio, os gansos ganharam honras, e Roma nunca esqueceu quem a salvou.",
-   "shot": "close",
+   "shot": "crowd",
    "who": [
-    "ROM:0:smile"
+    "ROM:0:stern",
+    "MAN:0:stern",
+    "GAU:0:shock"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "fx": [
+    "burst@30",
+    "dust@70"
+   ],
+   "sfx": [
+    "thump@30",
+    "sting@10",
+    "thump@70"
+   ],
+   "crowd": {
+    "n": 16,
+    "outfits": [
+     "ROM",
+     "GAU"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
+   "say": "O alarme acordou todo mundo, os romanos correram para a muralha, e o ataque fracassou."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "ROM:0:smile",
+    "ROM:1:grin"
    ],
    "animals": [
     [
      "goose",
-     2.0,
+     2.6,
      1.0,
-     "stand",
+     "walk",
      1.3
     ]
    ],
-   "text": "OS GANSOS SALVARAM ROMA",
-   "tat": 12,
-   "tstyle": "gold",
-   "light": "golden",
-   "mood": "calm"
+   "hora": "dia",
+   "text": "DESFILE",
+   "say": "Desde então, todo ano, os gansos ganhavam um desfile pelas ruas de Roma."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "ROM:2:grin"
+   ],
+   "say": "E os cachorros, que dormiram a noite inteira, um castigo.",
+   "hora": "dia"
   }
  ]
 }

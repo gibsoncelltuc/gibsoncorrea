@@ -20,10 +20,14 @@
    "jacket": "#4a7a3a",
    "pants": "#6a5a3a",
    "boots": "#2a2218",
-   "hat": "cap",
    "cap": "#6a5a3a",
    "belt": "#2a2218",
-   "rifle": true
+   "rifle": true,
+   "hats": [
+    "cap",
+    "slouch",
+    "straw"
+   ]
   },
   "GOV": {
    "jacket": "#4a7a3a",
@@ -37,123 +41,126 @@
    "jacket": "#8a5a3a",
    "pants": "#4a3a2a",
    "boots": "#2a2218",
-   "hat": "cap",
-   "cap": "#c9a060",
+   "hat": "slouch",
+   "cap": "#8a6a3a",
    "buttons": "#e8c45a",
    "moustache_on": "#3a2a1f"
   }
  },
  "beats": [
   {
-   "say": "Em mil oitocentos e trinta e cinco, os Estados Unidos quase tiveram uma guerra civil por causa de uma faixa de terra: a faixa de Toledo.",
-   "shot": "wide",
+   "shot": "two",
    "who": [
     "OHI:0:stern",
     "MIC:0:stern"
    ],
    "text": "1835",
-   "tat": 0,
-   "mood": "march"
+   "say": "Dois estados americanos foram à guerra, e o único ferido levou uma canivetada."
   },
   {
-   "say": "De um lado, o estado de Ohio. Do outro, o território de Michigan. Os dois diziam que a terra era deles.",
    "shot": "two",
    "who": [
     "OHI:1:stern",
     "MIC:1:stern"
    ],
-   "text": "OHIO X MICHIGAN",
-   "tat": 5,
-   "tstyle": "blue"
+   "mapa": "TOLEDO",
+   "mapa_at": 8,
+   "say": "De um lado, Ohio. Do outro, Michigan. Os dois juravam que a cidade de Toledo era deles, por causa de um erro num mapa antigo."
   },
   {
-   "say": "O governador de Michigan tinha só vinte e três anos, e mandou a milícia para a fronteira.",
    "shot": "close",
    "who": [
-    "GOV:0:grin"
+    "GOV:0:grin:paper"
    ],
-   "text": "23 ANOS",
-   "tat": 8,
-   "tstyle": "brown"
+   "interior": "madeira",
+   "say": "O governador de Michigan tinha vinte e três anos. \"Mandem a milícia\", ordenou ele."
   },
   {
-   "say": "Ohio respondeu com a própria milícia, e as duas tropas ficaram frente a frente.",
-   "shot": "group",
+   "shot": "reveal",
    "who": [
     "OHI:0:stern",
-    "OHI:1:nervous",
-    "MIC:0:stern",
-    "MIC:1:nervous"
+    "OHI:1:nervous"
    ],
    "crowd": {
-    "n": 6,
-    "expr": "nervous"
+    "n": 18,
+    "outfits": [
+     "OHI",
+     "MIC"
+    ],
+    "march": true
    },
-   "mood": "march"
+   "say": "Ohio respondeu com a própria milícia, e as duas tropas chegaram à beira do rio, frente a frente."
   },
   {
-   "say": "Houve tiros, mas para o alto. Ninguém acertou ninguém.",
-   "shot": "two",
+   "shot": "crowd",
    "who": [
     "OHI:2:shock",
     "MIC:2:shock"
    ],
-   "fx": [
-    "burst@20",
-    "burst@50"
-   ],
-   "sfx": [
-    "gun@20",
-    "gun@50"
-   ],
-   "text": "TIROS PARA O ALTO",
-   "tat": 3,
-   "tstyle": "red",
-   "mood": "playful"
+   "batalha": true,
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "OHI",
+     "MIC"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
+   "text": "PARA O ALTO",
+   "titulo": true,
+   "say": "Houve gritos, ameaças, e tiros. Todos para o alto. Ninguém acertou ninguém."
   },
   {
-   "say": "O único ferido da guerra foi um xerife, esfaqueado na perna com um canivete.",
-   "shot": "close",
-   "who": [
-    "XER:0:pained"
-   ],
-   "text": "CANIVETE",
-   "tat": 11,
-   "tstyle": "red"
-  },
-  {
-   "say": "O governo federal mandou os dois pararem, e o Congresso propôs um acordo.",
    "shot": "two",
    "who": [
-    "OHI:0:neutral",
-    "MIC:0:neutral"
+    "XER:0:pained",
+    "MIC:1:shock"
    ],
-   "text": "ACORDO",
-   "tat": 10,
-   "tstyle": "blue"
+   "fx": [
+    "stars@60"
+   ],
+   "sfx": [
+    "sting@60"
+   ],
+   "say": "Acontece que a única baixa foi um xerife de Michigan, espetado na perna por um rapaz com um canivete."
   },
   {
-   "say": "Ohio ficou com Toledo. Michigan ganhou, de consolação, a Península Superior, cheia de cobre e de ferro.",
+   "shot": "two",
+   "who": [
+    "GOV:0:nervous",
+    "OHI:0:grin:paper"
+   ],
+   "interior": "pedra",
+   "text": "ACORDO",
+   "say": "O presidente mandou os dois pararem, e o Congresso ofereceu um acordo. Ninguém queria ceder."
+  },
+  {
    "shot": "group",
    "who": [
     "OHI:1:grin",
     "MIC:1:pained",
     "GOV:0:nervous"
    ],
-   "text": "PRÊMIO DE CONSOLAÇÃO",
-   "tat": 12,
-   "tstyle": "gold"
+   "say": "Ohio ficou com Toledo. Michigan levou, de consolação, um pedaço de floresta gelada que ninguém queria."
   },
   {
-   "say": "Michigan virou estado, e o prêmio de consolação valeu muito mais que Toledo.",
+   "shot": "two",
+   "who": [
+    "GOV:0:shock:coin",
+    "MIC:0:grin"
+   ],
+   "clima": "neve",
+   "say": "Só que debaixo daquela floresta havia cobre e ferro. Uma fortuna."
+  },
+  {
    "shot": "close",
    "who": [
-    "GOV:0:laugh"
+    "GOV:0:laugh:coin"
    ],
-   "text": "MICHIGAN GANHOU",
-   "tat": 8,
-   "tstyle": "brown",
-   "mood": "playful"
+   "clima": "limpo",
+   "hora": "dia",
+   "say": "No fim das contas, Michigan perdeu a guerra, e ficou rico."
   }
  ]
 }
