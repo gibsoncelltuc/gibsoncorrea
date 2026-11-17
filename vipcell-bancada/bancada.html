@@ -126,6 +126,43 @@ h1{font-size:19px;font-weight:700}
 
 .foot{color:var(--faint);font-size:11.5px;text-align:center;padding:4px 16px 26px;max-width:720px;margin:0 auto}
 
+.seg{display:inline-flex;background:var(--panel-2);border:1px solid var(--line);border-radius:10px;padding:3px;gap:2px}
+.seg button{border:0;background:none;padding:6px 14px;border-radius:7px;color:var(--muted);font-weight:600;font-size:13px}
+.seg button[aria-pressed="true"]{background:var(--brand-soft);color:var(--brand)}
+/* detector */
+.det{grid-column:1 / -1;display:grid;grid-template-columns:260px minmax(0,1fr);gap:16px;align-items:start}
+.scan{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);padding:16px;display:flex;flex-direction:column;gap:12px}
+.scanbtn{border:1px solid var(--brand-line);background:var(--brand-soft);color:var(--brand);border-radius:11px;padding:12px;font-weight:700;font-family:var(--f-display);display:flex;align-items:center;justify-content:center;gap:9px}
+.scanbtn:hover{filter:brightness(1.05)}
+.scanbtn .rg{width:16px;height:16px;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;animation:spin .7s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.scanbtn .rg{animation:none}}
+.simlist{display:flex;flex-direction:column;gap:6px}
+.simlist>span{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--faint)}
+.simrow{display:flex;align-items:center;gap:9px;border:1px solid var(--line);background:var(--panel-2);border-radius:9px;padding:8px 10px;text-align:left;font-size:12.5px}
+.simrow:hover{border-color:var(--brand-line)}
+.simrow[aria-pressed="true"]{border-color:var(--brand-line);background:var(--brand-soft)}
+.simrow .mono{font-size:11px;color:var(--cyan);margin-left:auto}
+.idcard{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);overflow:hidden}
+.idhead{display:flex;align-items:center;gap:13px;padding:16px;border-bottom:1px solid var(--line);background:linear-gradient(0deg,transparent,var(--brand-soft))}
+.idhead .big{width:50px;height:50px;border-radius:13px;background:var(--brand);color:var(--brand-ink);display:grid;place-items:center;flex:none}
+.idhead h2{font-size:20px}
+.idhead .st{margin-left:auto;text-align:right}
+.idbody{padding:16px;display:flex;flex-direction:column;gap:16px}
+.idgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.idf{background:var(--panel-2);border:1px solid var(--line);border-radius:10px;padding:10px 12px;display:flex;flex-direction:column;gap:2px}
+.idf .k{font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--faint)}
+.idf .v{font-weight:600;font-size:14px}
+.idf .v.mono{font-family:var(--f-mono);font-size:13px;color:var(--cyan)}
+.riskbox{display:flex;gap:10px;background:var(--bad-soft);border:1px solid color-mix(in srgb,var(--bad) 32%,transparent);border-radius:10px;padding:11px 13px;font-size:12.5px}
+.riskbox svg{flex:none;color:var(--bad);margin-top:1px}
+.riskbox b{color:var(--bad)}
+.optline{display:flex;flex-wrap:wrap;gap:8px}
+.opt{border:1px solid var(--line);background:var(--panel-2);border-radius:9px;padding:9px 12px;font-weight:600;font-size:13px;display:inline-flex;align-items:center;gap:8px}
+.opt svg{width:16px;height:16px;color:var(--brand)}
+.idle{display:grid;place-items:center;gap:12px;padding:52px 20px;text-align:center;color:var(--muted)}
+.idle .ph{width:70px;height:70px;border-radius:18px;border:2px dashed var(--line);display:grid;place-items:center;color:var(--faint)}
+@media (max-width:760px){.det{grid-template-columns:minmax(0,1fr)}}
 #toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:9px 15px;border-radius:9px;font-weight:600;font-size:13px;z-index:40;box-shadow:var(--shadow)}
 
 @media (max-width:900px){ .work{grid-template-columns:minmax(0,1fr)} }
@@ -233,7 +270,40 @@ function steps(platKey,opKey){
 
 /* ======== estado + util ======== */
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-let ui={brand:'samsung',plat:'exynos',op:null};
+let ui={view:'catalogo',brand:'samsung',plat:'exynos',op:null,det:null,scan:false};
+
+/* ======== detector (identificação automática) ======== */
+const DETECT={
+  samsung_dl:{mode:'Samsung Download (Odin)',plat:'exynos',vid:'04E8',pid:'685D',port:'SAMSUNG Mobile USB (Download)',
+    le:'Modelo e bootloader lidos no handshake Odin (PIT/variante).',arch:'ARM64 (Exynos ou Snapdragon)',
+    exemplo:{marca:'Samsung',modelo:'Galaxy A15 (SM-A155M)',cpu:'Exynos 1330 / Helio G99 (por variante)',bl:'Bloqueado (OEM)'},
+    risco:'Só grave .tar.md5 do modelo + CSC exatos. Nunca rebaixe o bootloader (BL) — o anti-rollback vira hard brick.'},
+  mtk_brom:{mode:'MediaTek BROM (BootROM)',plat:'mtk',vid:'0E8D',pid:'0003',port:'MediaTek USB Port (BROM)',
+    le:'HW code lido direto do BootROM (ex. 0x0766 = MT6768).',arch:'ARMv8-A',
+    exemplo:{marca:'Xiaomi / Redmi',modelo:'Redmi Note 14 Pro (MediaTek)',cpu:'Dimensity 7300 (MT6878)',bl:'Variável'},
+    risco:'Use o DA (Download Agent) correto do chip. Não regrave o preloader sem necessidade — preloader errado = dead boot.'},
+  mtk_pl:{mode:'MediaTek Preloader',plat:'mtk',vid:'0E8D',pid:'2000',port:'MediaTek USB VCOM (Preloader)',
+    le:'Preloader responde com o ID do chip antes de subir o sistema.',arch:'ARMv8-A',
+    exemplo:{marca:'Infinix',modelo:'Hot 50 (MediaTek)',cpu:'Helio G100 (MT6789)',bl:'Variável'},
+    risco:'Confira o scatter (.txt) do modelo exato. Só Download/Firmware Upgrade — evite Format All + Download.'},
+  qcom_edl:{mode:'Qualcomm EDL 9008',plat:'edl',vid:'05C6',pid:'9008',port:'Qualcomm HS-USB QDLoader 9008',
+    le:'MSM HW ID + serial lidos pelo protocolo Sahara.',arch:'ARM64',
+    exemplo:{marca:'Xiaomi / Motorola',modelo:'por MSM ID (ex. Snapdragon 4 Gen 2)',cpu:'Qualcomm (identificado pelo HWID)',bl:'EDL autenticado em modelos novos'},
+    risco:'Grave só com o firehose (prog_firehose) do MSM ID exato + rawprogram/patch do pacote. Firehose de outro chip mata o aparelho.'},
+  fastboot:{mode:'Fastboot / Bootloader',plat:'qcom',vid:'18D1',pid:'D00D',port:'Android Bootloader Interface',
+    le:'fastboot getvar all → product, variante, estado do unlock.',arch:'ARM64',
+    exemplo:{marca:'Motorola',modelo:'Moto G54 (fastboot)',cpu:'Dimensity 7020 / Snapdragon (por variante)',bl:'Lido via getvar unlocked'},
+    risco:'Confira o product no getvar antes de gravar. Não aplique imagem de partição de outro modelo.'},
+  adb:{mode:'ADB (sistema ligado)',plat:'qcom',vid:'18D1',pid:'4EE7',port:'Android ADB Interface',
+    le:'adb shell getprop → ro.product.model, ro.board.platform, ro.hardware.',arch:'ARM64',
+    exemplo:{marca:'Realme',modelo:'Realme C67',cpu:'Snapdragon 685 (ro.board.platform)',bl:'—'},
+    risco:'Só leitura e wipe autorizado. Precisa de depuração USB ligada e autorizada no aparelho.'},
+  unisoc:{mode:'Unisoc / SPD (Boot/Diag)',plat:'unisoc',vid:'1782',pid:'4D00',port:'SPRD U2S Diag',
+    le:'Chip Unisoc lido no handshake de download (FDL).',arch:'ARMv8-A',
+    exemplo:{marca:'Realme / Infinix',modelo:'entrada Unisoc',cpu:'Unisoc T606 / T612',bl:'Variável'},
+    risco:'Grave o pac do modelo exato com o FDL correto. Marca mais sensível a brick — confira antes.'}
+};
+const DORDER=['samsung_dl','mtk_brom','mtk_pl','qcom_edl','fastboot','adb','unisoc'];
 function toast(t){const e=document.getElementById('toast');e.textContent=t;e.hidden=false;clearTimeout(toast.t);toast.t=setTimeout(()=>e.hidden=true,2200)}
 
 function renderRail(){
@@ -243,11 +313,13 @@ function renderRail(){
 }
 const themeIcon=()=>{const dark=document.documentElement.dataset.theme?document.documentElement.dataset.theme==='dark':!matchMedia('(prefers-color-scheme: light)').matches;return dark?'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 4V2M12 22v-2M4 12H2M22 12h-2M6 6L4.5 4.5M19.5 19.5L18 18M6 18l-1.5 1.5M19.5 4.5L18 6M12 16a4 4 0 100-8 4 4 0 000 8z"/></svg>':'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14A8 8 0 019 4a8 8 0 1011 10z"/></svg>'};
 
+const vswitch=()=>`<div class="seg">${[['catalogo','Catálogo'],['detector','Detector']].map(([k,l])=>`<button data-view="${k}" aria-pressed="${ui.view===k}">${l}</button>`).join('')}</div>`;
 function render(){
   const b=BRANDS[ui.brand];
   if(!b.plats.includes(ui.plat))ui.plat=b.plats[0];
+  if(ui.view==='detector'){renderDetector();return}
   const p=PLAT[ui.plat],fw=FWSRC[b.fw];
-  document.getElementById('bar').innerHTML=`<div><div class="bname">${b.nome} <span class="muted" style="font-weight:500;font-size:14px">· Bancada</span></div><div class="sub">${esc(b.nota)}</div></div><span class="conn"><span class="dot on"></span>Aguardando aparelho</span>`;
+  document.getElementById('bar').innerHTML=`<div><div class="bname">${b.nome} <span class="muted" style="font-weight:500;font-size:14px">· Bancada</span></div><div class="sub">${esc(b.nota)}</div></div>${vswitch()}<span class="conn"><span class="dot on"></span>Aguardando aparelho</span>`;
   // esquerda: chipset + modo + ferramentas
   document.getElementById('left').innerHTML=`
    <div class="card"><h3>Plataforma do chipset</h3><div class="body">
@@ -267,8 +339,46 @@ function render(){
   document.getElementById('foot').innerHTML='Vipcell Bancada · catálogo de referência para reparo com procedência. As ferramentas são de terceiros (oficiais ou open-source) — baixe sempre da fonte original. Procedimentos de gravação apagam dados: confirme backup e propriedade do aparelho.';
 }
 
+function renderDetector(){
+  const left=document.getElementById('left'),right=document.getElementById('right');
+  left.style.gridColumn='1 / -1';right.innerHTML='';right.style.display='none';
+  const conn=ui.scan?'<span class="dot on"></span>Procurando aparelho…':ui.det?'<span class="dot on"></span>Aparelho identificado':'<span class="dot"></span>Nenhum aparelho';
+  document.getElementById('bar').innerHTML=`<div><div class="bname">Detector <span class="muted" style="font-weight:500;font-size:14px">· identificação automática</span></div><div class="sub">Conecta → lê o código USB → identifica modo, chip e arquitetura, e mostra só o que é seguro fazer.</div></div>${vswitch()}<span class="conn">${conn}</span>`;
+  const d=ui.det?DETECT[ui.det]:null;
+  let idhtml;
+  if(ui.scan){idhtml=`<div class="idcard"><div class="idle"><div class="ph"><span class="scanbtn" style="border:0;background:none;padding:0"><span class="rg"></span></span></div><div><b>Lendo a porta USB…</b><br><span style="font-size:12.5px">Casando VID:PID e fazendo o handshake do modo.</span></div></div></div>`;}
+  else if(!d){idhtml=`<div class="idcard"><div class="idle"><div class="ph"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="7" y="2" width="10" height="20" rx="2.5"/><path d="M11 18h2"/></svg></div><div><b>Conecte o aparelho e toque em Procurar.</b><br><span style="font-size:12.5px;max-width:360px;display:inline-block">A detecção ao vivo roda no companion de PC (acesso USB + driver). Aqui você vê, por modo, o que o Detector reporta e os parâmetros seguros.</span></div></div></div>`;}
+  else{const P=PLAT[d.plat],ops=OPS.filter(o=>o.k!=='o-clean'||d.plat==='qcom');
+    idhtml=`<div class="idcard"><div class="idhead"><div class="big"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4 4L19 6"/></svg></div><div><h2>${esc(d.exemplo.marca)}</h2><span class="muted">${esc(d.exemplo.modelo)}</span></div><div class="st"><span class="pill ${P.pill}">${esc(d.mode)}</span></div></div>
+     <div class="idbody">
+      <div class="idgrid">
+       <div class="idf"><span class="k">Chip / CPU</span><span class="v">${esc(d.exemplo.cpu)}</span></div>
+       <div class="idf"><span class="k">Arquitetura</span><span class="v">${esc(d.arch)}</span></div>
+       <div class="idf"><span class="k">Modo de conexão</span><span class="v">${esc(d.mode.split(' (')[0])}</span></div>
+       <div class="idf"><span class="k">Porta USB (VID:PID)</span><span class="v mono">${d.vid}:${d.pid}</span></div>
+       <div class="idf"><span class="k">Porta no Windows</span><span class="v" style="font-size:12.5px">${esc(d.port)}</span></div>
+       <div class="idf"><span class="k">Bootloader</span><span class="v">${esc(d.exemplo.bl)}</span></div>
+      </div>
+      <div><div class="idf" style="background:none;border:0;padding:0;margin-bottom:8px"><span class="k">Como foi lido</span></div><p class="muted" style="margin:0;font-size:13px">${esc(d.le)}</p></div>
+      <div class="riskbox"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 9v4M12 17h.01M10.3 3.9L2 18a2 2 0 001.7 3h16.6a2 2 0 001.7-3L13.7 3.9a2 2 0 00-3.4 0z"/></svg><div><b>Parâmetros para não brickar.</b> ${esc(d.risco)}</div></div>
+      <div><div class="idf" style="background:none;border:0;padding:0;margin-bottom:8px"><span class="k">Opções seguras neste estado</span></div><div class="optline">${ops.map(o=>`<span class="opt"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="${o.ic}"/></svg>${esc(o.t.split(' (')[0])}</span>`).join('')}<span class="opt"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 2v6M5 8a8 8 0 103.5-1"/></svg>Reiniciar em outro modo</span></div><p class="muted" style="font-size:12px;margin:6px 0 0">Ferramenta sugerida: <b>${esc(TOOL[P.tools[0]][1])}</b>. Veja o passo a passo completo na aba Catálogo → ${esc(P.nome)}.</p></div>
+     </div></div>`;}
+  left.innerHTML=`<div class="det">
+    <div class="scan">
+      <button class="scanbtn" data-a="scan">${ui.scan?'<span class="rg"></span>Procurando…':'<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>Procurar aparelho'}</button>
+      <div class="simlist"><span>Simular estado (teste sem aparelho)</span>${DORDER.map(k=>`<button class="simrow" data-det="${k}" aria-pressed="${ui.det===k}"><span>${esc(DETECT[k].exemplo.marca)} · ${esc(DETECT[k].mode.split(' (')[0])}</span><span class="mono">${DETECT[k].vid}:${DETECT[k].pid}</span></button>`).join('')}</div>
+      <p class="muted" style="font-size:11.5px;margin:0">A leitura USB real é feita pelo companion de PC. Esta lista reproduz exatamente o que o Detector mostra em cada estado.</p>
+    </div>
+    <div>${idhtml}</div>
+  </div>`;
+  document.getElementById('foot').innerHTML='Detector · identificação por VID:PID + handshake do modo (Sahara no Qualcomm, HW code no MediaTek, getvar no fastboot). Nenhuma função remove conta/FRP. Confirme sempre o chip exato antes de gravar.';
+}
+
 document.addEventListener('click',e=>{
-  const bt=e.target.closest('[data-b]');if(bt){ui.brand=bt.dataset.b;ui.op=null;renderRail();render();return}
+  const vw=e.target.closest('[data-view]');if(vw){ui.view=vw.dataset.view;if(ui.view!=='detector'){const r=document.getElementById('right');r.style.display='';document.getElementById('left').style.gridColumn=''}render();return}
+  const sr=e.target.closest('[data-det]');if(sr){ui.det=sr.dataset.det;ui.scan=false;render();return}
+  const sc=e.target.closest('[data-a="scan"]');if(sc){ui.scan=true;render();setTimeout(()=>{ui.scan=false;if(!ui.det)ui.det='samsung_dl';render()},950);return}
+  const bt=e.target.closest('[data-b]');if(bt){ui.brand=bt.dataset.b;ui.op=null;ui.view='catalogo';const r=document.getElementById('right');r.style.display='';document.getElementById('left').style.gridColumn='';renderRail();render();return}
   const pt=e.target.closest('[data-p]');if(pt){ui.plat=pt.dataset.p;render();return}
   const a=e.target.closest('[data-a]');if(a&&a.dataset.a==='tema'){const dark=document.documentElement.dataset.theme?document.documentElement.dataset.theme==='dark':!matchMedia('(prefers-color-scheme: light)').matches;document.documentElement.dataset.theme=dark?'light':'dark';try{localStorage.setItem('vipcell-bancada-tema',document.documentElement.dataset.theme)}catch(e){}renderRail();return}
 });
