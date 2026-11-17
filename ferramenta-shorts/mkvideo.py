@@ -257,7 +257,7 @@ def build_beat(k, b):
                 ang = (i / max(n_e, 1)) * 2 * _m.pi + 0.4; tx, tz = x0 + 11 * _m.cos(ang), z0 + 6 * _m.sin(ang)
                 if b.get('impact'):
                     r1, r2, r3 = ((i * 37) % 17) / 16, ((i * 53) % 13) / 12, ((i * 29) % 11) / 10; sg = 1 if ex0 >= 0 else -1
-                    x0, z0 = ex0 + sg * (-4 + 12 * r1), ez0 + (-3 + 13 * r2); ang = 0; tx, tz = x0 + sg * (r3 - 0.3) * 14, z0 + (r1 - 0.3) * 8   # na frente da cerca, no terreiro, onde a camera ve
+                    x0, z0 = ex0 + sg * (-3 + 9 * r1), ez0 + (-2 + 9 * r2); ang = 0; tx, tz = x0 + sg * (5 + 9 * r3), z0 - (5 + 11 * r1)   # fogem PARA DENTRO da fazenda (rumo ao trigal e ao celeiro), a tomada inteira   # na frente da cerca, no terreiro, onde a camera ve
                     if i % 3 == 0: DUST.append((x0 + (tx - x0) * 0.4, z0 + (tz - z0) * 0.4, 14 + i * 9))   # na batalha os bichos fogem PARA LONGE da tropa, abrindo em leque
                 acts.append(f"{{ bird: 'emu', at: [X + {num(x0)}, {num(z0)}], move: [[X + {num(tx)}, {num(tz)}], {a}, {bb}], state: 'walk', spd: 0.09, s: 1.6, flip: {'true' if tx < x0 else 'false'}, seed: {i * 5 + 2} }}")
             else:
@@ -382,11 +382,27 @@ def build_beat(k, b):
     if wide and not (shot == 'track' or mv):
         call = f"{{ ...{call}, nocut: true }}"
     if b.get('impact') and wide and not (shot == 'track' or mv) and b.get('grua') is not False:
-        _ex = 3.0 if b.get('emus') else 0.0
-        cam = (f"cam: [{{ f: {a}, at: [X + {num(_ex - 6.0 if b.get('emus') else 0)}, DK + 1.8, 0.5], d: 11, az: 16, el: 7, fov: 46 }}, "
-               f"{{ f: Math.round({a} + ({bb} - ({a})) * 0.45), at: [X + {num(_ex - 1.5)}, DK + 1.2, 3.0], d: 23, az: -4, el: 20, fov: 48 }}, "
-               f"{{ f: {bb}, at: [X + {num(_ex)}, DK + 1.0, 4.5], d: 31, az: -18, el: 27, fov: 48 }}]")
-        call = f"{{ ...{call}, {cam}, nocut: true }}"
+        # SEQUENCIA DE ACAO (cobertura de batalha, varias cameras na MESMA encenacao):
+        #   1) plano medio baixo na tropa se preparando (subindo nos caminhoes)  2) close de baixo nos fuzis atirando
+        #   3) travelling lateral acompanhando quem foge pela fazenda            4) grua: sobe e recua ate a vista de cima do campo inteiro
+        em_ = b.get('emus') or {}; tx_ = -6.5 if b.get('emus') else 0.0; ex_ = float(em_.get('x', 4.5)); ez_ = float(em_.get('z', 1.5))
+        FR = lambda q: (a if q <= 0 else f"Math.round({a} + ({bb} + 1 - ({a})) * {q})")
+        def part(i, q0, q1, k0, k1):
+            pa, pb = FR(q0), (bb if q1 >= 1 else FR(q1) + ' - 1')
+            c = call.replace(f"S('b{k}', {a}, {bb}, X,", f"S('b{k}{'' if i == 0 else '_' + str(i)}', {pa}, {pb}, X,", 1)
+            if i: c = c.replace("trans: 'dissolve'", "trans: 'cut'")
+            K = lambda f_, q: f"{{ f: {f_}, at: [X + {num(q[0])}, DK + {num(q[1])}, {num(q[2])}], d: {num(q[3])}, az: {num(q[4])}, el: {num(q[5])}, fov: {num(q[6])}{', ease: ' + json.dumps(q[7]) if len(q) > 7 else ''} }}"
+            return f"{{ ...{c}, cam: [{K(pa, k0)}, {K(pb, k1)}], nocut: true, vary: false }}"
+        if b.get('emus'):
+            seq = [part(0, 0.0, 0.2, (tx_ + 1.5, 1.9, -2.5, 11, 24, 5, 44), (tx_ + 1.0, 1.9, -2.5, 9.2, 16, 5, 44)),
+                   part(1, 0.2, 0.4, (tx_ - 0.5, 2.3, 0.8, 7.2, -30, 1, 44), (tx_ + 0.5, 2.3, 0.8, 6.4, -20, 2, 44)),
+                   part(2, 0.4, 0.66, (ex_ + 0.5, 1.5, ez_ + 2.0, 12, 4, 6, 46), (ex_ + 7.5, 1.5, ez_ - 4.0, 13, -22, 8, 46, 'lin')),
+                   part(3, 0.66, 1.0, (1.0, 1.4, 1.0, 17, 6, 13, 48), (3.0, 1.0, -2.0, 36, -18, 30, 48))]
+        else:
+            seq = [part(0, 0.0, 0.3, (0.0, 2.2, 0.5, 8.5, -26, 2, 44), (1.0, 2.2, 0.5, 7.4, -14, 3, 44)),
+                   part(1, 0.3, 0.55, (-6.0, 1.8, 0.0, 11, 30, 5, 46), (4.0, 1.8, 0.0, 11, 18, 5, 46, 'lin')),
+                   part(2, 0.55, 1.0, (0.0, 1.4, 0.0, 15, 8, 12, 48), (0.0, 1.0, -3.0, 34, -16, 30, 48))]
+        call = ', '.join(seq)
     if shot == 'track' or mv:   # camera acompanha o grupo com velocidade constante (sem autocut)
         d = mv if mv else 8
         cam = (f"cam: [{{ f: {a}, at: [X + {num(-d / 2)}, DK + {num(T['h'])}, 1.5], d: {num(T['d0'])}, az: 6, el: {num(T.get('el', 3))}, fov: {num(T.get('fov', 44))} }}, "
