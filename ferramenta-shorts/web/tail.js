@@ -92,7 +92,7 @@ const inkScene = fs(new THREE.ShaderMaterial({ uniforms: inkU, vertexShader: `va
     float e = edgeAt(vUv, px) * (1. - .75*zbl);
     c = mix(c, vec3(.012,.01,.014), e);
     if (flash < -0.5) c = vec3(e);
-    c = c*gain + lift; c *= expo; c = clamp(c, 0., 1.); c = srgb2lin(gradeRC(lin2srgb(c), vUv));
+    c = c*gain + lift; c *= expo; c = clamp(c, 0., 1.); { vec3 d_ = gradeRC(lin2srgb(c), vUv); d_ = mix(d_, d_*d_*(3.-2.*d_), .24); c = srgb2lin(d_); }   // contraste medido no canal: mais preto profundo (4% dos pixels), mesma media
     c = mix(c, vec3(1.), flash);
     float dd = texture2D(nd, vUv).a; if (dd <= 0.) dd = 2000.; float kk = 1. - focus/dd; float coc_ = kk > 0. ? cinf*kk : min(-kk*cinf*near, cinf*1.4);
     gl_FragColor = vec4(c, coc_); }` }));
@@ -247,7 +247,7 @@ const renderCore = (f) => {
     const Gd = { ky: [0, 0.1, 0.25, 0.5, 0.75, 0.9, 1], km: [1, 1, 1, 1, 1, 1, 1], sat: [0.98, 1.1, 1.2], tS: [-0.01, -0.03, 0.07], tM: [-0.006, -0.02, 0.05], tH: [0, 0, 0], vg: [0.16, 0.40], amt: 1 };
     inkU.gky.value = D.ky.map((v, i) => mx(v, Gd.ky[i])); inkU.gkm.value = D.km.map((v, i) => mx(v, Gd.km[i])); inkU.gsat.value.set(...D.sat.map((v, i) => mx(v, Gd.sat[i]))); inkU.gtS.value.set(...D.tS.map((v, i) => mx(v, Gd.tS[i]))); inkU.gtM.value.set(...D.tM.map((v, i) => mx(v, Gd.tM[i]))); inkU.gtH.value.set(...D.tH.map((v, i) => mx(v, Gd.tH[i]))); inkU.gvig.value.set(mx(D.vg[0], Gd.vg[0]), mx(D.vg[1], Gd.vg[1])); inkU.gamt.value = window.GRADE_OFF ? 0 : (L.gamt ?? mx(D.amt, Gd.amt)); }
   inkU.zbl.value = C.zb || 0; inkU.px.value = 3.2; inkU.expo.value = L.exp ?? 1; inkU.sat.value = Math.max((L.sat ?? 1.08) * 1.05, 1.1); inkU.flash.value = window.DEBUG_E ? -1 : (C.flash || 0); inkU.vig.value = L.vig ?? 0.22;
-  inkU.focus.value = D.focus; inkU.cinf.value = D.cinf; inkU.near.value = D.near ?? 1;
+  D.cinf *= (window.DOF_K ?? 0.6);   /* canal: fundo nitido ou so' levemente desfocado em 96% dos quadros */ inkU.focus.value = D.focus; inkU.cinf.value = D.cinf; inkU.near.value = D.near ?? 1;
   renderer.setRenderTarget(rtInk); renderer.render(inkScene, fsCam);
   // lens
   dofU.focus.value = D.focus; dofU.cinf.value = D.cinf; dofU.near.value = D.near ?? 1;

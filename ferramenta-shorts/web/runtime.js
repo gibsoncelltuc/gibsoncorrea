@@ -123,6 +123,8 @@ const TXT = (key, txt, pos, s, col = '#fff6e0', ol = '#241726', size = 150, ex =
 export const fxAt = (f, T) => { const out = [];
   for (const S of [SP(f)]) for (const e of (S.fx || [])) { if (f < e.a || f > e.b) continue; const t = qq((f - e.a) / Math.max(1, e.b - e.a), 2);
     if (e.k === 'burst') out.push(FX('bu' + e.a + t, (p) => T.fxBurst(p, t, e.col || '#fff3b0', 12, 30, 220), e.at, e.s || 1));
+    else if (e.k === 'flash') out.push(FX('fl' + e.a + t, (p) => { const g = p.g, k = t < 0.35 ? t / 0.35 : 1 - (t - 0.35) / 0.65 * 0.6, R = 150 * (0.45 + 0.55 * k); const star = (r, n, col) => { g.beginPath(); for (let i = 0; i < n * 2; i++) { const a = Math.PI * i / n + 0.3, rr = i % 2 ? r * 0.45 : r; g.lineTo(300 + rr * Math.cos(a), 250 + rr * Math.sin(a)); } g.closePath(); g.fillStyle = col; g.fill(); };
+      g.lineJoin = 'round'; g.lineWidth = 16; g.strokeStyle = '#3a1c14'; star(R, 7, '#ff8a1e'); g.stroke(); star(R * 0.68, 7, '#ffd23a'); star(R * 0.34, 6, '#fffbe6'); }, e.at, e.s || 1, { keepColor: true }));   // clarao de tiro cartunesco
     else if (e.k === 'puff') out.push(FX('pf' + e.a + t, (p) => { p.g.translate(150, 700); T.fxPuff(p, t); }, e.at, e.s || 1));
     else if (e.k === 'dust') out.push(FX('du' + e.a + t, (p) => T.fxDust(p, t, e.col || '#d8c8a0'), e.at, e.s || 1));
     else if (e.k === 'splash') out.push(FX('sp' + e.a + t, (p) => T.fxSplash(p, t), e.at, e.s || 1));

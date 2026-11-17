@@ -38,7 +38,7 @@ for name, o in B.get('outfits', {}).items():
     o = dict(o); mo = o.pop('moustache_on', None)
     body = ', '.join(f'{k}: {json.dumps(v)}' for k, v in o.items())
     mou = f", ...(v % 2 ? {{ moustache: {json.dumps(mo)} }} : {{}})" if mo else ''
-    outfits_js.append(f"{name}: (v = 0, e = {{}}) => ({{ _id: {json.dumps(name.lower())}, {body}, skin: {json.dumps(SKINS)}[v % 4]{mou}, ...(v % 7 === 4 ? {{ glasses: true }} : {{}}), ...(v % 7 === 5 || v % 7 === 2 ? {{ beard: ['#3a2a1f', '#6b4a2a', '#8a8a86'][v % 3] }} : {{}}), ...e }})")
+    outfits_js.append(f"{name}: (v = 0, e = {{}}) => ({{ _id: {json.dumps(name.lower())}, {body}, skin: {json.dumps(SKINS)}[v % 4]{mou}, ...(v % 7 === 4 ? {{ glasses: true }} : {{}}), ...(v % 7 === 5 || v % 7 === 6 ? {{ beard: ['#3a2a1f', '#6b4a2a', '#8a8a86'][v % 3] }} : {{}}), ...e }})")
 
 # ---------- posicoes automaticas ----------
 def slots(n):
@@ -80,10 +80,12 @@ KW = [  # (regex da palavra, efeito, golpe de camera) -- animacao nas palavras-c
     (re.compile(r'^(empurra|empurrouse|briga|brigaram|discussao|confusao|caos|desastre)$'), 'puff', 0.05),
     (re.compile(r'^(chegou|chegaram|apareceu|surgiu|invadiu|desabou|caiu|cairam)$'), 'dust', 0.04),
 ]
+IMPACT = re.compile(r'tiro|atir|dispar|metralhador|canho|explod|explos|batalha|atacou|atacaram|ataque|fugi|fugir|correndo|correram|debandada|espalha|panico|invadi|carga|bombard')
+SHOOT = re.compile(r'tiro|atir|dispar|metralhador|canho|balas|bombard')
 def direct(beats):
     """DIRETOR AUTOMATICO: planos abertos, multidao e ritmo de camera. 'shot_lock': true no beat desliga; 'director': false no arquivo desliga tudo."""
     if B.get('director') is False: return
-    run = 0; wide_n = 0; wrun = 0
+    run = 0; wide_n = 0; wrun = 0; impact_n = 0
     outs = list(B.get('outfits', {}))
     for k, b in enumerate(beats):
         if b.get('shot_lock'):
@@ -97,9 +99,11 @@ def direct(beats):
         elif last: shot = 'reveal'
         elif run >= 2 and not CLOSE_OK.search(say): shot = 'orbit' if wide_n % 2 else 'wide'
         elif shot in ('track', 'two', 'group') and k % 5 == 3 and not CLOSE_OK.search(say): shot = 'wide'
-        if shot in WIDE and (wrun >= 2 or (wrun >= 1 and k == len(beats) - 2)) and not (first or last):   # nunca mais de 2 planos abertos seguidos: alterna com plano medio + multidao ao fundo
+        if shot in WIDE and not b.get('impact') and (wrun >= 2 or (wrun >= 1 and k == len(beats) - 2)) and not (first or last):   # nunca mais de 2 planos abertos seguidos: alterna com plano medio + multidao ao fundo
             shot = 'group' if mass else 'two'
-        if shot in WIDE and not (first or last) and wide_n >= int(B.get('max_wide', 2)): shot = 'group'   # MODO RICKS: personagem grande na maior parte do video
+        if not (first or last) and IMPACT.search(say) and impact_n < int(B.get('max_impact', 2)) and b.get('impact') is not False:
+            impact_n += 1; b['impact'] = True; shot = 'crowd' if impact_n % 2 else 'orbit'   # MOMENTO-CHAVE: plano aberto de alto impacto (fora da cota de planos abertos)
+        elif shot in WIDE and not (first or last) and wide_n >= int(B.get('max_wide', 2)): shot = 'group'   # MODO RICKS: personagem grande na maior parte do video
         wrun = wrun + 1 if shot in WIDE else 0
         b['shot'] = shot
         if shot in WIDE:
@@ -107,7 +111,7 @@ def direct(beats):
             if not b.get('crowd'):
                 persons_out = [w.split(':')[0] for w in b.get('who', [])]
                 army = persons_out[0] if persons_out else (outs[0] if outs else 'X')
-                b['crowd'] = {'n': 5 if b.get('emus') else (18 if (mass and (arrive or first)) else 10 if mass else 6), 'outfits': list(dict.fromkeys(persons_out + [army])), 'march': bool(arrive or first or (shot == 'reveal' and mass))}
+                b['crowd'] = {'n': (12 if b.get('impact') else 5) if b.get('emus') else (18 if (b.get('impact') or (mass and (arrive or first))) else 10 if mass else 6), 'outfits': list(dict.fromkeys(persons_out + [army])), 'march': bool(arrive or first or (shot == 'reveal' and mass)) and not (b.get('impact') and SHOOT.search(say))}
             if not b.get('who'): b['who'] = [f"{b['crowd']['outfits'][0]}:0:neutral"]
         else:
             run += 1
@@ -117,6 +121,9 @@ def direct(beats):
 
 KICKS = []
 direct(beats)
+if B.get('director') is not False and not any(b.get('impact') for b in beats) and len(beats) > 4:
+    _b = beats[int(len(beats) * 0.6)]
+    if not _b.get('shot_lock'): _b['impact'] = True; _b['shot'] = 'orbit'; _b.setdefault('crowd', {'n': 12, 'outfits': [w.split(':')[0] for w in _b.get('who', [])] or list(B.get('outfits', {'X': 0}))[:1], 'march': False})
 
 def build_beat(k, b):
     shot = b.get('shot', 'two'); T = dict(TEMPL.get(shot, TEMPL['two']))
@@ -178,9 +185,9 @@ def build_beat(k, b):
             out = outs_c[i % len(outs_c)]; ex = c.get('expr', 'neutral' if not c.get('march') else 'stern'); look = (-0.25, 0.25, 0.0, 0.15)[i % 4]
             crowd_pos.append((x0, z0))
             if c.get('march'):
-                acts.append(f"{{ outfit: {json.dumps(out)}, v: {i % 7}, at: [X + {num(x0 - 9)}, {num(z0)}], move: [[X + {num(x0 + 3)}, {num(z0)}], {a}, {bb}, 'lin'], pose: 'march', speed: 0.034, expr: {json.dumps(ex)}, seed: {i % 4}, look: {look} }}")
+                acts.append(f"{{ outfit: {json.dumps(out)}, v: {i % 4}, at: [X + {num(x0 - 9)}, {num(z0)}], move: [[X + {num(x0 + 3)}, {num(z0)}], {a}, {bb}, 'lin'], pose: 'march', speed: 0.034, expr: {json.dumps(ex)}, seed: {i % 4}, look: {look} }}")
             else:
-                acts.append(f"pp(X, {json.dumps(out)}, {i % 7}, {num(x0)}, {num(z0)}, {json.dumps(ex)}, {{ look: {look}, seed: {i % 4} }})")
+                acts.append(f"pp(X, {json.dumps(out)}, {i % 4}, {num(x0)}, {num(z0)}, {json.dumps(ex)}, {{ look: {look}, seed: {i % 4} }})")
     # props
     pr = []
     for p in props:
@@ -199,6 +206,11 @@ def build_beat(k, b):
         kind, _, at = e.partition('@'); at = int(at) if at else 4
         if kind == 'burst': fx.append(f"{{ k: 'burst', a: {a} + {at}, at: [X + {num(sl[0] if n else 0)}, DK + 1.8, 3.2], s: 1.2 }}")
         elif kind in ('dust', 'puff', 'stars', 'splash', 'ring', 'creak'): fx.append(f"{{ k: {json.dumps(kind)}, a: {a} + {at}, b: {a} + {at + 26}, at: [X, DK + 0.5, 1.2], s: 1.1 }}")
+    if b.get('impact') and SHOOT.search(nrm(b['say'])) and crowd_pos:   # fuzilaria cartunesca: clarões piscando pela tropa + som de tiro
+        for i in range(12):
+            px, pz = crowd_pos[(i * 5 + 2) % len(crowd_pos)]; t0 = 8 + i * 6
+            fx.append(f"{{ k: 'flash', a: {a} + {t0}, b: {a} + {t0 + 8}, at: [X + {num(px + 0.75)}, DK - 1.05, {num(pz + 0.4)}], s: 2.0 }}")   # a carta do efeito ancora pela base: y baixo poe o clarao na altura do fuzil
+        b.setdefault('sfx', []); b['sfx'] += [f'gun@{8 + i * 6}' for i in range(12)]
     # animacao nas palavras-chave: golpe de camera + efeito no instante da palavra
     kfx = 0
     if b.get('kw') is not False:

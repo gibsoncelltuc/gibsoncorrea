@@ -38,3 +38,20 @@ Detalhes e números: `ref_privado/audit/*.md` (personagens, enquadramento-camera
 
 ## 5. Como produzir um vídeo
 1. Escreva `videos/<id>/beats.json` seguindo o §1 (copie um existente). 2. `python3 roteiro_check.py <id>`. 3. Ponha o id em `queue.txt`. 4. `bash run_queue.sh` (retomável; `bash status.sh` mostra o andamento). Saída: `out/<id>/<Titulo>.mp4` + `review_sheet.jpg`. Sempre olhar a folha de contato antes de publicar.
+
+## 6. Auditorias fechadas em 17/11 (feitas direto nos 48 quadros reais dos 14 vídeos, sem agentes)
+| Área | Canal (p10 / mediana / p90) | Nosso antes | O que mudou na ferramenta |
+|---|---|---|---|
+| Luminância média | 0,29 / 0,445 / 0,635 | 0,43 a 0,59 | mantida; contraste em S de 24% no passe final (`web/tail.js`) |
+| Pixels muito escuros | 0,6% / 4,4% / 23% | 1,1% a 2,9% | mesmo ajuste de contraste (mais preto profundo) |
+| Saturação | 0,33 / 0,44 / 0,59 | 0,39 a 0,47 | já batia; sem mudança |
+| Nitidez | 0,035 / 0,062 / 0,108 | 0,050 a 0,054 | desfoque de lente a 60% (`DOF_K`), bloom e poeira reduzidos |
+| Legenda | centro em 70,5% da altura; letra 2,8% | 70% ; ~2,9% | já batia; sem mudança |
+| Animação | sem vídeo do canal para medir movimento; base = relatórios de terceiros | tremor entre quadros | tremor corrigido (semente fixa); boca mexe em falas entre aspas |
+| Áudio | sem acesso ao som; relatório de terceiros: -14 LUFS, música 5-10 dB abaixo da voz | -15 LUFS | alvo de loudness subiu 1 dB (`assemble.sh`) |
+Limite honesto: animação e áudio NÃO foram medidos por mim no canal (não há vídeo nem som baixados); o que está aplicado vem de relatório de terceiros.
+
+## 7. Regras fixas novas (valem para todo vídeo)
+- **Plano de impacto (blockbuster):** até 2 por vídeo (`max_impact`), nos momentos-chave detectados na narração (tiro, ataque, fuga, pânico, batalha...). Plano aberto com a tropa em formação. Se a frase fala de tiro, clarões piscam pela tropa e toca som de tiro. Se nenhum trecho for detectado, o clímax (~60% do vídeo) vira plano aberto. `"impact": false` no beat desliga.
+- **Exército uniforme:** multidão usa só as 4 variantes padrão do uniforme (sem óculos/barba). Óculos e barba ficam para personagens nomeados (variantes 4 a 6 em `who`, ex.: "FARM:5:smile").
+- **Exército chegando:** 18 soldados marchando quando a narração fala de tropa chegando.
