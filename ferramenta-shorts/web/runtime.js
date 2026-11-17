@@ -3,13 +3,13 @@ import { camFromKeys, clamp, lerp, ramp, q, blinkAt, idle, M } from './motion.js
 export const FPS = 30, TOTAL = SPEC.total, DECK = 6;
 export const SPEC_DEBUG = SPEC;
 // ---------- auto sub-cuts: long shots are split into ~2.2 s sub-takes, each with a different camera setup (Ricks Clips rhythm: new angle every phrase) ----------
-const VARS = [{ az: 0, el: 0, d: 1, fov: 0, roll: 0 }, { az: 26, el: -7, d: 0.9, fov: 2, roll: -2 }, { az: -22, el: 9, d: 1.08, fov: 0, roll: 2.5 }, { az: 12, el: -3, d: 0.84, fov: -2, roll: 0 }, { az: -30, el: 15, d: 1.18, fov: 3, roll: -3.5 }, { az: 18, el: -9, d: 0.96, fov: 1, roll: 3 }];
+const VARS = [{ az: 0, el: 0, d: 1, fov: 0, roll: 0 }, { az: 16, el: -5, d: 0.94, fov: 2, roll: -2 }, { az: -14, el: 7, d: 1.06, fov: 0, roll: 2.5 }, { az: 8, el: -3, d: 0.92, fov: -2, roll: 0 }, { az: -18, el: 11, d: 1.12, fov: 3, roll: -3 }, { az: 12, el: -6, d: 0.98, fov: 1, roll: 3 }];   /* sub-cortes suaves: ninguem sai do quadro */
 const lk = (a, b, t) => ({ ...a, at: [0, 1, 2].map((i) => a.at[i] + (b.at[i] - a.at[i]) * t), d: a.d + (b.d - a.d) * t, az: (a.az ?? 0) + ((b.az ?? 0) - (a.az ?? 0)) * t, el: (a.el ?? 8) + ((b.el ?? 8) - (a.el ?? 8)) * t, fov: (a.fov ?? 34) + ((b.fov ?? 34) - (a.fov ?? 34)) * t });
 SPEC.shots.forEach((s, i, A) => { if (i === 0) { s.trIn = null; return; } const ty = s.trans ?? (s.cut === false ? 'cut' : (A[i - 1].light !== s.light ? (SPEC.trans ?? 'dissolve') : 'cut')); s.trIn = { type: ty, N: ty === 'dissolve' ? (SPEC.dissolveN ?? 10) : ty === 'push' ? 4 : 0 }; });
 if (SPEC.autocut !== false) SPEC.shots = SPEC.shots.flatMap((s) => { const len = s.b - s.a + 1, n = Math.max(1, Math.round(len / (SPEC.cutLen ?? 66))); if (n < 2 || !s.cam || s.cam.length < 2 || !s.cam[0].at || s.nocut) return [s];
   const out = [], k0 = s.cam[0], k1 = s.cam[s.cam.length - 1]; let a = s.a;
   for (let j = 0; j < n; j++) { const b = j === n - 1 ? s.b : Math.round(s.a + (j + 1) * len / n) - 1, v = VARS[((s.a / 66 | 0) + j) % VARS.length]; const t0 = (a - s.a) / Math.max(1, len - 1), t1 = (b - s.a) / Math.max(1, len - 1);
-    const par = j % 2 ? -1 : 1; const mk = (t, f, s) => { const k0_ = lk(k0, k1, t); const azr = ((k0_.az ?? 0) + v.az * 0.9) * Math.PI / 180, amt = (s - 0.5) * 0.16 * k0_.d * par, dd = 1 + (s - 0.5) * 0.16 * (j % 2 ? 1 : -1);
+    const par = j % 2 ? -1 : 1; const mk = (t, f, s) => { const k0_ = lk(k0, k1, t); const azr = ((k0_.az ?? 0) + v.az * 0.9) * Math.PI / 180, amt = (s - 0.5) * 0.07 * k0_.d * par, dd = 1 + (s - 0.5) * 0.16 * (j % 2 ? 1 : -1);
       const k = { ...k0_, at: [k0_.at[0] + Math.cos(azr) * amt, k0_.at[1], k0_.at[2] - Math.sin(azr) * amt], d: k0_.d * dd }; return { ...k, f, az: k.az + v.az * 0.9, el: Math.max(-4, k.el + v.el), d: k.d * v.d, fov: k.fov + v.fov, roll: (k.roll || 0) + v.roll }; };
     out.push({ ...s, id: j === 0 ? s.id : s.id + '~' + j, a, b, cut: j === 0 ? s.cut : false, glide: j > 0, cam: [mk(t0, a, 0), mk(t1, b, 1)], trIn: j === 0 ? s.trIn : { type: 'glide', N: 0 } }); a = b + 1; }
   return out; });

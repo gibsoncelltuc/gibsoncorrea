@@ -55,16 +55,16 @@ ZS = [1.3, 1.0, 1.6, 1.1, 1.7, 1.4]   # no plano de foco da camera (antes 2.0-3.
 ZSW = [-0.4, 0.2, -0.8, 0.0, -0.2, 0.4]
 
 TEMPL = {  # h = altura do alvo; d0/d1 = distancia da camera no inicio/fim; el = elevacao; fov
-    'wide':  dict(h=2.4, d0=26, d1=21, el=5, fov=46),   # camera na altura do personagem (canal: 0,8x), nao de cima
-    'two':   dict(h=2.3, d0=7.0, d1=5.8),
-    'close': dict(h=2.4, d0=4.8, d1=4.0),
-    'group': dict(h=2.5, d0=9.0, d1=7.4),
+    'wide':  dict(h=2.4, d0=20, d1=16, el=5, fov=46),   # camera na altura do personagem (canal: 0,8x), nao de cima
+    'two':   dict(h=2.3, d0=8.4, d1=7.4),
+    'close': dict(h=2.4, d0=5.6, d1=4.9),
+    'group': dict(h=2.5, d0=10.0, d1=8.8),
     'prop':  dict(h=1.4, d0=8.0, d1=6.0, el=8),
-    'crowd': dict(h=2.4, d0=26.0, d1=20.0, el=6),
+    'crowd': dict(h=2.4, d0=20.0, d1=15.5, el=6),
     'track': dict(h=2.2, d0=8.0, d1=8.0, el=3, fov=44),
-    'low':   dict(h=1.6, d0=7.0, d1=5.6, el=2),
-    'reveal': dict(h=2.4, d0=13.0, d1=28.0, el=6, fov=46),   # recua e revela o exercito inteiro
-    'orbit':  dict(h=2.4, d0=24.0, d1=20.0, el=6, fov=46, az0=-38, az1=32),   # panoramica aberta em arco
+    'low':   dict(h=1.6, d0=8.2, d1=7.2, el=2),
+    'reveal': dict(h=2.4, d0=10.0, d1=22.0, el=6, fov=46),   # recua e revela o exercito inteiro
+    'orbit':  dict(h=2.4, d0=19.0, d1=16.0, el=6, fov=46, az0=-38, az1=32),   # panoramica aberta em arco
 }
 WIDE = ('wide', 'crowd', 'reveal', 'orbit')
 TXT = {'blue': ('#fff6e0', '#27408b'), 'brown': ('#fff6e0', '#7a3a1c'), 'red': ('#d8282f', '#fff6e0'), 'gold': ('#e8c45a', '#7a1c1c'), 'white': ('#ffffff', '#1c2a4a')}
@@ -96,6 +96,8 @@ def direct(beats):
     for k, b in enumerate(beats):
         if b.get('shot_lock'):
             run = 0 if b.get('shot', 'two') in WIDE else run + 1; continue
+        if b.get('interior'):   # dentro de casa: sempre plano medio, sem multidao automatica
+            b['shot'] = b.get('shot') if b.get('shot') in ('two', 'close', 'group', 'low') else 'two'; run += 1; wrun = 0; continue
         say = nrm(b['say']); words = [nrm(w) for w in b['say'].split()]
         mass = bool(MASS.search(say)); arrive = bool(ARRIVE.search(say))
         shot = b.get('shot', 'two'); first = (k == 0); last = (k == len(beats) - 1)
@@ -103,8 +105,7 @@ def direct(beats):
         elif mass and arrive: shot = 'reveal'
         elif mass: shot = 'orbit' if wide_n % 2 else 'crowd'
         elif last: shot = 'two'   # e termina em plano medio (16 de 20)
-        elif run >= 2 and not CLOSE_OK.search(say): shot = 'orbit' if wide_n % 2 else 'wide'
-        elif shot in ('track', 'two', 'group') and k % 5 == 3 and not CLOSE_OK.search(say): shot = 'wide'
+        elif run >= 4 and not CLOSE_OK.search(say): shot = 'orbit' if wide_n % 2 else 'wide'
         if shot in WIDE and not b.get('impact') and (wrun >= 2 or (wrun >= 1 and k == len(beats) - 2)) and not (first or last):   # nunca mais de 2 planos abertos seguidos: alterna com plano medio + multidao ao fundo
             shot = 'group' if mass else 'two'
         if not (first or last) and IMPACT.search(say) and impact_n < int(B.get('max_impact', 2)) and b.get('impact') is not False:
@@ -231,7 +232,7 @@ def build_beat(k, b):
         st = TXT[b.get('tstyle', TXT_CYCLE[k % 4])]
         off = int(b.get('tat', 0))
         up = {'close': 0.55, 'two': 0.46}.get(shot, 0.42)   # em plano fechado o texto sobe para nao cobrir o chapeu
-        if b.get('titulo') or B.get('titulos') or shot in WIDE or b.get('veiculo'):   # titulo flutuante so' a pedido ("titulo": true) ou em plano aberto
+        if b.get('titulo') or B.get('titulos') or shot in WIDE or b.get('veiculo') or k == len(beats) - 1 or len(b['text']) > 14:   # titulo flutuante so' a pedido ("titulo": true) ou em plano aberto
             fx.append(f"txt(X, WS({starts[k] + off}, -2), {bb}, {json.dumps(b['text'], ensure_ascii=False)}, '{st[0]}', '{st[1]}', {num(T['h'] + 2.2)}, {{ s: {b.get('tscale', 1.5)}, up: {up} }})")
         else:                                                                           # MODO RICKS: texto numa placa fincada na cena, ao lado dos personagens
             _sx = 0.0   # placa alta, atras e acima das cabecas, no centro do quadro
@@ -266,7 +267,7 @@ def build_beat(k, b):
     if 'wind' in b: opts.append(f"wx: {{ wind: {b['wind']} }}")
     if wide: opts.append("hero: { hero: 'none', wide: true }"); opts.append('vary: false')
     elif b.get('veiculo'): opts.append("hero: { hero: 'none' }")   # motorista fica atras do carro de proposito
-    elif persons: opts.append("hero: { hero: 'any', frame: 'medium', minH: 0.07 }")
+    elif persons: opts.append("hero: { hero: 'any', frame: 'medium', minH: 0.07, main: %d }" % len(persons))
     if b.get('trans'): opts.append(f"trans: {json.dumps(b['trans'])}")
     elif k > 0: opts.append("trans: 'dissolve'")   # canal: quase sem corte seco; troca de cena por fusao curta
     if b.get('vary') is False and not wide: opts.append('vary: false')

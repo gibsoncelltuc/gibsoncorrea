@@ -34,7 +34,7 @@ export async function inspect(S, { step = 6, only = null, kfit = undefined } = {
     }
     { const vis = chars.filter((a) => !a.behind && a.visible > 0.5), big = vis.length ? Math.max(...vis.map((a) => a.heightFrac)) : 0;
       if (big > 1.0) why.push(`too close: the biggest character is ${Math.round(big * 100)}% of the frame height`);
-      { const cut = chars.filter((a) => !a.behind && a.visible > 0.12 && a.visible < 0.62 && a.heightFrac > 0.55); if (cut.length) why.push(`too close: ${cut[0].id} grande e cortado pela borda (${Math.round(cut[0].visible * 100)}% visivel)`); }
+      { const cut = chars.filter((a) => a.i < (H.main ?? 99) && !a.behind && a.visible > 0.12 && a.visible < 0.62 && a.heightFrac > 0.55); if (cut.length) why.push(`too close: ${cut[0].id} grande e cortado pela borda (${Math.round(cut[0].visible * 100)}% visivel)`); }
       if (chars.length && !vis.length && H.hero === 'none') why.push('empty: characters are in the scene but none is in frame');
       (tinyBy[r.shot] = tinyBy[r.shot] || []).push(vis.length > 0 && big < (H.wide ? 0.028 : vis.length >= 6 ? 0.06 : 0.10) ? 1 : 0); }
     (perShot[r.shot] = perShot[r.shot] || []).push({ f, why });

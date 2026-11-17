@@ -1,297 +1,333 @@
 {
- "duration": 70.224,
- "frames30": 2107,
- "source": "silence-align (cost 0.77)",
+ "duration": 66.024,
+ "frames30": 1981,
+ "source": "silence-align (cost 0.86)",
  "segments": [
   [
-   0.158708,
-   1.66758
+   0.15575,
+   2.63346
   ],
   [
-   1.86446,
-   3.8115
+   3.48629,
+   4.05962
   ],
   [
-   4.64983,
-   8.48833
+   4.92983,
+   8.61871
   ],
   [
-   8.82862,
-   11.531
+   8.90633,
+   11.16
   ],
   [
-   12.3847,
-   14.1457
+   12.0051,
+   12.9197
   ],
   [
-   14.3994,
-   15.5039
+   13.1638,
+   13.9533
   ],
   [
-   15.6993,
-   16.705
+   14.8095,
+   15.769
   ],
   [
-   17.5776,
-   18.2911
+   16.6653,
+   17.3175
   ],
   [
-   19.1573,
-   20.3247
+   17.6032,
+   18.7589
   ],
   [
-   20.513,
-   21.6998
+   18.9886,
+   20.0426
   ],
   [
-   22.5606,
-   24.0152
+   20.9087,
+   21.6247
   ],
   [
-   24.2656,
-   26.492
+   22.4923,
+   23.9275
   ],
   [
-   26.7238,
-   27.6389
+   24.1695,
+   25.1327
   ],
   [
-   28.5083,
-   30.9329
+   26.0026,
+   27.1735
   ],
   [
-   31.8222,
-   34.0258
+   27.428,
+   28.6069
   ],
   [
-   34.2375,
-   35.821
+   28.8673,
+   29.7765
   ],
   [
-   36.6876,
-   37.7987
+   30.621,
+   32.8145
   ],
   [
-   38.054,
-   40.0812
+   33.6862,
+   35.0529
   ],
   [
-   40.3272,
-   42.1104
+   35.3441,
+   36.4546
   ],
   [
-   42.9708,
-   44.212
+   37.3216,
+   38.4115
   ],
   [
-   45.0885,
-   46.1476
+   38.6102,
+   40.0087
   ],
   [
-   46.4712,
-   49.1577
+   40.2368,
+   41.7972
   ],
   [
-   50.0105,
-   51.4339
+   42.6517,
+   44.0419
   ],
   [
-   51.7659,
-   54.2361
+   44.8644,
+   45.9483
   ],
   [
-   55.089,
-   56.9313
+   46.2737,
+   47.4013
   ],
   [
-   57.7778,
-   58.2835
+   47.6824,
+   49.2312
   ],
   [
-   58.5583,
-   60.9447
+   50.0807,
+   51.4906
   ],
   [
-   61.8051,
-   65.5624
+   51.7424,
+   53.0625
   ],
   [
-   66.433,
-   66.9663
+   53.2993,
+   54.7647
   ],
   [
-   67.2105,
-   67.5837
+   55.62,
+   56.0177
   ],
   [
-   68.4251,
-   68.9232
+   56.3008,
+   57.7377
   ],
   [
-   69.2282,
-   69.3962
+   58.0976,
+   61.3767
+  ],
+  [
+   62.2307,
+   62.7655
+  ],
+  [
+   63.0081,
+   63.3813
+  ],
+  [
+   64.2228,
+   64.7221
+  ],
+  [
+   65.0258,
+   65.1939
   ]
  ],
  "phrases": [
   {
-   "text": "Em mil novecentos e trinta e dois,",
-   "s": 0.159,
-   "e": 1.668
+   "text": "A Austr\u00e1lia declarou guerra a um bando de p\u00e1ssaros.",
+   "s": 0.156,
+   "e": 2.633
   },
   {
-   "text": "a Austr\u00e1lia declarou guerra aos p\u00e1ssaros.",
-   "s": 1.864,
-   "e": 3.812
+   "text": "E perdeu.",
+   "s": 3.486,
+   "e": 4.06
   },
   {
-   "text": "Vinte mil emus estavam destruindo as planta\u00e7\u00f5es de trigo no oeste da Austr\u00e1lia,",
-   "s": 4.65,
-   "e": 8.488
+   "text": "Vinte mil emus estavam devorando as planta\u00e7\u00f5es de trigo no oeste do pa\u00eds,",
+   "s": 4.93,
+   "e": 8.619
   },
   {
-   "text": "e fazendeiros desesperados pediram ajuda ao ex\u00e9rcito.",
-   "s": 8.829,
-   "e": 11.531
+   "text": "e os fazendeiros foram pedir socorro ao governo.",
+   "s": 8.906,
+   "e": 11.16
   },
   {
-   "text": "Ent\u00e3o o governo mandou soldados,",
-   "s": 12.385,
-   "e": 14.146
+   "text": "\"Mande o ex\u00e9rcito\",",
+   "s": 12.005,
+   "e": 12.92
+  },
+  {
+   "text": "pediram eles.",
+   "s": 13.164,
+   "e": 13.953
+  },
+  {
+   "text": "E o ministro mandou.",
+   "s": 14.809,
+   "e": 15.769
+  },
+  {
+   "text": "Soldados,",
+   "s": 16.665,
+   "e": 17.317
   },
   {
    "text": "duas metralhadoras,",
-   "s": 14.399,
-   "e": 15.504
+   "s": 17.603,
+   "e": 18.759
   },
   {
    "text": "e dez mil balas.",
-   "s": 15.699,
-   "e": 16.705
+   "s": 18.989,
+   "e": 20.043
   },
   {
    "text": "Contra emus.",
-   "s": 17.578,
-   "e": 18.291
+   "s": 20.909,
+   "e": 21.625
   },
   {
-   "text": "Mas emus s\u00e3o r\u00e1pidos,",
-   "s": 19.157,
-   "e": 20.325
+   "text": "Acontece que emu \u00e9 r\u00e1pido,",
+   "s": 22.492,
+   "e": 23.927
   },
   {
-   "text": "e n\u00e3o ficam parados.",
-   "s": 20.513,
-   "e": 21.7
+   "text": "e n\u00e3o fica parado.",
+   "s": 24.169,
+   "e": 25.133
   },
   {
-   "text": "Sempre que os soldados miravam,",
-   "s": 22.561,
-   "e": 24.015
+   "text": "Quando os soldados miravam,",
+   "s": 26.003,
+   "e": 27.174
   },
   {
-   "text": "os p\u00e1ssaros se espalhavam em todas as dire\u00e7\u00f5es,",
-   "s": 24.266,
-   "e": 26.492
+   "text": "os p\u00e1ssaros se espalhavam,",
+   "s": 27.428,
+   "e": 28.607
   },
   {
-   "text": "e fugiam correndo.",
-   "s": 26.724,
-   "e": 27.639
+   "text": "e sumiam correndo.",
+   "s": 28.867,
+   "e": 29.776
   },
   {
-   "text": "Um atirador at\u00e9 montou uma metralhadora num caminh\u00e3o.",
-   "s": 28.508,
-   "e": 30.933
+   "text": "Um atirador montou a metralhadora num caminh\u00e3o.",
+   "s": 30.621,
+   "e": 32.815
   },
   {
-   "text": "Mas o caminh\u00e3o pulava tanto no ch\u00e3o irregular,",
-   "s": 31.822,
-   "e": 34.026
+   "text": "Mas o caminh\u00e3o pulava tanto,",
+   "s": 33.686,
+   "e": 35.053
   },
   {
-   "text": "que ele n\u00e3o acertava nenhum p\u00e1ssaro.",
-   "s": 34.237,
-   "e": 35.821
+   "text": "que ele n\u00e3o acertou nenhum.",
+   "s": 35.344,
+   "e": 36.455
   },
   {
    "text": "Depois de uma semana,",
-   "s": 36.688,
-   "e": 37.799
+   "s": 37.322,
+   "e": 38.411
   },
   {
-   "text": "o ex\u00e9rcito tinha gasto milhares de balas,",
-   "s": 38.054,
-   "e": 40.081
+   "text": "milhares de balas gastas,",
+   "s": 38.61,
+   "e": 40.009
   },
   {
-   "text": "e os emus mal tinham sido arranhados.",
-   "s": 40.327,
-   "e": 42.11
+   "text": "e os emus quase sem um arranh\u00e3o.",
+   "s": 40.237,
+   "e": 41.797
   },
   {
-   "text": "Os soldados se retiraram.",
-   "s": 42.971,
-   "e": 44.212
+   "text": "A tropa bateu em retirada.",
+   "s": 42.652,
+   "e": 44.042
   },
   {
    "text": "A imprensa gargalhou,",
-   "s": 45.089,
-   "e": 46.148
+   "s": 44.864,
+   "e": 45.948
   },
   {
-   "text": "e um oficial admitiu que os emus lutavam como tanques.",
-   "s": 46.471,
-   "e": 49.158
+   "text": "e o comandante admitiu:",
+   "s": 46.274,
+   "e": 47.401
+  },
+  {
+   "text": "\"Eles aguentam bala como tanques.\"",
+   "s": 47.682,
+   "e": 49.231
   },
   {
    "text": "O ex\u00e9rcito tentou de novo,",
-   "s": 50.011,
-   "e": 51.434
+   "s": 50.081,
+   "e": 51.491
   },
   {
-   "text": "e finalmente abateu algumas centenas de p\u00e1ssaros.",
-   "s": 51.766,
-   "e": 54.236
+   "text": "abateu algumas centenas,",
+   "s": 51.742,
+   "e": 53.062
   },
   {
-   "text": "Mas os emus continuavam voltando.",
-   "s": 55.089,
-   "e": 56.931
+   "text": "e os emus continuaram voltando.",
+   "s": 53.299,
+   "e": 54.765
   },
   {
-   "text": "No final,",
-   "s": 57.778,
-   "e": 58.283
+   "text": "No fim,",
+   "s": 55.62,
+   "e": 56.018
   },
   {
-   "text": "os fazendeiros ganharam um sistema de recompensas.",
-   "s": 58.558,
-   "e": 60.945
+   "text": "o governo desistiu da guerra,",
+   "s": 56.301,
+   "e": 57.738
   },
   {
-   "text": "E a grande Guerra dos Emus entrou para a hist\u00f3ria como uma derrota do ex\u00e9rcito.",
-   "s": 61.805,
-   "e": 65.562
+   "text": "e passou a pagar recompensa aos fazendeiros por cada emu abatido.",
+   "s": 58.098,
+   "e": 61.377
   },
   {
    "text": "Humanos,",
-   "s": 66.433,
-   "e": 66.966
+   "s": 62.231,
+   "e": 62.766
   },
   {
    "text": "zero.",
-   "s": 67.21,
-   "e": 67.584
+   "s": 63.008,
+   "e": 63.381
   },
   {
    "text": "Emus,",
-   "s": 68.425,
-   "e": 68.923
+   "s": 64.223,
+   "e": 64.722
   },
   {
    "text": "um.",
-   "s": 69.228,
-   "e": 69.396
+   "s": 65.026,
+   "e": 65.194
   }
  ]
 }
