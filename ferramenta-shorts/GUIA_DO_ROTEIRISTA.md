@@ -95,3 +95,6 @@ Personagens grandes na maior parte do vídeo; até 2 planos abertos comuns + at�
 
 ## Séries com episódio numerado
 - No topo do `beats.json`: `"serie": "Guerras Inusitadas", "ep": 6`. O título e o nome do arquivo saem como `Guerras Inusitadas EP 06 - <título>`. Numere na ordem de publicação; a série atual vai até o EP 05 (Karánsebes, Emus, Toledo, Balde, Gansos).
+
+## Corrigir sem perguntar (regra fixa)
+- Conferiu a folha de contato e viu defeito? Corrija na hora e mande refazer só a cena: `echo "<id> b3 b7" >> refazer.txt` (a fila refaz antes do próximo vídeo) ou `./refazer.sh <id> b3 b7` com a fila parada. `bash status.sh` mostra as correções pendentes. Para o Gibson vai só o relatório do que passou, do que não passou e do que já foi refeito.

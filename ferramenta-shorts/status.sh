@@ -7,3 +7,4 @@ echo "fila:"; grep -v '^#' queue.txt | sed '/^$/d' | while read -r id _; do
     echo "  [em curso/pendente] $id  etapas: ${S:-nenhuma}| trechos prontos: $NS | quadros soltos: $NF"; fi; done
 [ -f logs/queue.lock ] && kill -0 "$(cat logs/queue.lock)" 2>/dev/null && echo "fila RODANDO (pid $(cat logs/queue.lock))" || echo "fila PARADA (rode: bash run_queue.sh)"
 for f in logs/make_*.log; do [ -f "$f" ] && { echo "--- $f"; tail -4 "$f"; }; done
+[ -s refazer.txt ] && { echo 'correcoes pendentes (refazer.txt):'; grep -v '^#' refazer.txt | sed 's/^/  /'; } || true

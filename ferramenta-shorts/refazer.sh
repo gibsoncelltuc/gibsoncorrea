@@ -4,7 +4,7 @@
 #  - so' vale se a NARRACAO nao mudou (mesmo texto = mesmos tempos). Se mudou o texto falado, o video inteiro precisa ser refeito (run_queue.sh).
 #  - nunca rode com a fila rodando.
 set -e; cd "$(dirname "$0")"; ID="$1"; shift; [ -z "$ID" ] || [ $# -eq 0 ] && { echo "uso: ./refazer.sh <id> b3 b4 ..."; exit 2; }
-pgrep -f "make_video.sh|render_pool.mjs" >/dev/null && { echo "a fila esta rodando; espere terminar"; exit 2; }
+[ "${FROM_QUEUE:-0}" = 1 ] || { pgrep -f "make_video.sh|render_pool.mjs" >/dev/null && { echo "a fila esta rodando: ponha a linha em refazer.txt (ex.: echo \"<id> b3\" >> refazer.txt) que a fila refaz antes do proximo video"; exit 2; }; }
 ls ckpt/$ID/seg_*.mp4 >/dev/null 2>&1 || { echo "$ID ainda nao tem render completo; use a fila"; exit 2; }
 L=logs/make_$ID.log; export CKPT_GIT=0
 H0=$(md5sum stories/$ID/script.txt 2>/dev/null | cut -d' ' -f1); python3 mkvideo.py $ID >> $L 2>&1; H1=$(md5sum stories/$ID/script.txt | cut -d' ' -f1)
