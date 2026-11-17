@@ -200,7 +200,7 @@ function placeProps(list) {
       // emu novo (blender/make_emu.py): joelho, pescoco que balanca/bica, corpo que sacode
       if (nm === 'shinL' && p.walk) c.rotation.x = 0.85 * Math.max(0, -Math.cos(t * p.walk)); if (nm === 'shinR' && p.walk) c.rotation.x = 0.85 * Math.max(0, Math.cos(t * p.walk));
       if (nm === 'neckp') { const w = p.walk ? 1 : 0; c.rotation.x = -0.12 * w * Math.abs(Math.sin(t * p.walk)) + 0.1 * w * Math.sin(t * p.walk * 2) + (p.peck ? 0.8 * Math.max(0, Math.sin(t * 3.2 + (p.t0 || 0))) : 0.05 * Math.sin(t * 1.7 + (p.t0 || 0))); c.rotation.z = 0.12 * Math.sin(t * (p.walk ? p.walk * 0.5 : 1.3) + (p.t0 || 0)); }
-      if (nm === 'body' && p.walk) { c.rotation.z = 0.06 * Math.sin(t * p.walk); c.position.y = 0.06 * Math.abs(Math.sin(t * p.walk)); } }); }
+      /* removido: mexer na posicao do no 'body' descolava o corpo do pescoco/pernas */ }); }
 }
 // ---- main per-frame world hook ----
 function worldState(W, f) {

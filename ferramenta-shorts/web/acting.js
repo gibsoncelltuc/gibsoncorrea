@@ -25,6 +25,7 @@ let LEAD = null;
 const buildLead = () => {
   LEAD = Array.from({ length: TOTAL + 60 }, () => ({}));
   TM.phrases.forEach((P, pi) => { const [s, e, text] = P; const ws = TM.words.filter((w) => w[0] >= s - 1 && w[1] <= e + 3);
+    { let inq = false; for (const w of ws) { const raw = String(w[2] || ''); const op = /^["“«]/.test(raw), cl = /["”»][.,!?]*$/.test(raw); if (op) inq = true; if (inq) for (let f = w[0] - 1; f <= w[1] + 1; f++) if (LEAD[f]) LEAD[f].talk = 1; if (cl) inq = false; } }   // FALA de personagem: palavras entre aspas
     const keys = []; for (const w of ws) { const wd = String(w[2] || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]/g, ''); for (const [m, re] of LEX) if (re.test(wd)) { keys.push({ f: w[0], m }); break; } }
     const qm = /\?$/.test(text), ex = /!$/.test(text); if (!keys.length && (qm || ex)) keys.push({ f: Math.max(s, e - 20), m: qm ? 'nervous' : 'shock' });
     const main = keys.length ? keys[0].m : 'neutral';
@@ -55,6 +56,7 @@ const actFor = (f, a, ai, S, persons, seed) => {
   const camGaze = lead ? !!L.cam : (!!(L.key && (L.kk || 0) > 0.4) || (L.cam && r % 2 === 1));
   if (camGaze) { face = 0; look = 0; } else if (lead && L.start) { face = 0.5 * toward; look = 1.1 * toward; } else { face = 0.42 * toward; look = 0.8 * toward; }
   const fx = { browUp: qq(cur.up, 1), skeptic: !lead && !!L.alt, lookY: camGaze ? 0 : 0.2, sweat: cur.e === 'shock' || cur.e === 'nervous' };
+  { const spk = persons.length > 1 ? 1 : 0; if (L.talk && r === spk) fx.talk = qq(0.3 + 0.7 * Math.abs(Math.sin(f * 1.7)), 1); }   // quem fala: o 2o personagem da cena (ou o unico)
   const o = { expr: cur.e, blink: lid, look: qq(look, 1), facing: qq(face, 1), fx, lean: qq(cur.lean, 1), __acted: 1 };
   const GL = lead ? L : (LEAD[Math.max(0, f - 9 * r)] || {});
   if (!a.pose || a.pose === 'stand') { if (GL.g && (GL.gk || 0) > 0.02 && (lead || r === 1) && !a.rifleKeep) { o.gest = GL.g; o.gk = qq(GL.gk, 1); o.gt = qq(f / 30, 2); } }

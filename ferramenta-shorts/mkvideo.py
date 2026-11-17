@@ -38,7 +38,7 @@ for name, o in B.get('outfits', {}).items():
     o = dict(o); mo = o.pop('moustache_on', None)
     body = ', '.join(f'{k}: {json.dumps(v)}' for k, v in o.items())
     mou = f", ...(v % 2 ? {{ moustache: {json.dumps(mo)} }} : {{}})" if mo else ''
-    outfits_js.append(f"{name}: (v = 0, e = {{}}) => ({{ _id: {json.dumps(name.lower())}, {body}, skin: {json.dumps(SKINS)}[v % 4]{mou}, ...e }})")
+    outfits_js.append(f"{name}: (v = 0, e = {{}}) => ({{ _id: {json.dumps(name.lower())}, {body}, skin: {json.dumps(SKINS)}[v % 4]{mou}, ...(v % 7 === 4 ? {{ glasses: true }} : {{}}), ...(v % 7 === 5 || v % 7 === 2 ? {{ beard: ['#3a2a1f', '#6b4a2a', '#8a8a86'][v % 3] }} : {{}}), ...e }})")
 
 # ---------- posicoes automaticas ----------
 def slots(n):
@@ -120,7 +120,10 @@ direct(beats)
 
 def build_beat(k, b):
     shot = b.get('shot', 'two'); T = dict(TEMPL.get(shot, TEMPL['two']))
-    light = b.get('light', LIGHT)
+    light = b.get('light')
+    if not light:   # MODO RICKS: a luz acompanha a historia (noite azul, amanhecer, dia claro) quando o roteiro nao fixa
+        _sy = nrm(b['say'])
+        light = ('night' if re.search(r'noite|escuro|madrugada|meianoite', _sy) else 'dawn' if re.search(r'amanhecer|manhaseguinte|nascerdosol|aurora', _sy) else 'dusk' if re.search(r'pordosol|entardecer|anoitecer', _sy) else LIGHT)
     who = b.get('who', []); animals = b.get('animals', []); props = b.get('props', [])
     mv = b.get('move', 8 if shot == 'track' else 0)
     a, bb = f'A[{k}]', f'A[{k + 1}] - 1'
@@ -175,9 +178,9 @@ def build_beat(k, b):
             out = outs_c[i % len(outs_c)]; ex = c.get('expr', 'neutral' if not c.get('march') else 'stern'); look = (-0.25, 0.25, 0.0, 0.15)[i % 4]
             crowd_pos.append((x0, z0))
             if c.get('march'):
-                acts.append(f"{{ outfit: {json.dumps(out)}, v: {i % 4}, at: [X + {num(x0 - 9)}, {num(z0)}], move: [[X + {num(x0 + 3)}, {num(z0)}], {a}, {bb}, 'lin'], pose: 'march', speed: 0.034, expr: {json.dumps(ex)}, seed: {i % 4}, look: {look} }}")
+                acts.append(f"{{ outfit: {json.dumps(out)}, v: {i % 7}, at: [X + {num(x0 - 9)}, {num(z0)}], move: [[X + {num(x0 + 3)}, {num(z0)}], {a}, {bb}, 'lin'], pose: 'march', speed: 0.034, expr: {json.dumps(ex)}, seed: {i % 4}, look: {look} }}")
             else:
-                acts.append(f"pp(X, {json.dumps(out)}, {i % 4}, {num(x0)}, {num(z0)}, {json.dumps(ex)}, {{ look: {look}, seed: {i % 4} }})")
+                acts.append(f"pp(X, {json.dumps(out)}, {i % 7}, {num(x0)}, {num(z0)}, {json.dumps(ex)}, {{ look: {look}, seed: {i % 4} }})")
     # props
     pr = []
     for p in props:

@@ -43,14 +43,14 @@ def feather(p, base, dirv, L, w, m, seg=8, rings=5):                            
     p.blob(c, (w, w * .7, L * .5), m, seg=seg, rings=rings, rot=q)
 # ---------------- corpo felpudo ----------------
 body = Part('body', (0, 1.15, 0))
-body.blob((0, 1.15, -0.05), (0.5, 0.58, 0.82), M['f1'], 14, 9)
-for i in range(42):                                              # penas em camadas
+body.blob((0, 1.15, -0.05), (0.5, 0.58, 0.82), M['f1'], 20, 14); body.blob((0, 1.02, 0.12), (0.44, 0.47, 0.66), M['f3'], 16, 10)   # corpo liso (minimalista) + barriga clara
+for i in range(0):                                              # penas em camadas
     th, ph = random.uniform(0, math.tau), math.acos(random.uniform(-.85, .75)); nx, ny, nz = math.sin(ph) * math.cos(th), math.cos(ph), math.sin(ph) * math.sin(th)
     pos = Vector((0 + .5 * nx, 1.15 + .58 * ny, -0.05 + .82 * nz)); out = Vector((nx, ny, nz)); dirv = (out * .55 + Vector((0, -.45, -.8))).normalized()
     m = random.choice([M['fd'], M['f1'], M['f1'], M['f1'], M['f2'], M['f2']]); feather(body, pos * 0.96 + Vector((0, 0.02, 0)), dirv, random.uniform(.45, .7), random.uniform(.16, .21), m)
-for i in range(16):                                               # pluma da garupa
-    a = random.uniform(-.9, .9); feather(body, Vector((a * .25, 1.35 + random.uniform(-.1, .15), -0.8)), Vector((a * .35, -.35, -1)), random.uniform(.35, .55), .09, random.choice([M['f2'], M['f3'], M['f1']]))
-for i in range(10):                                               # peito mais claro
+for i in range(9):
+    a = random.uniform(-.9, .9); feather(body, Vector((a * .25, 1.35 + random.uniform(-.1, .15), -0.8)), Vector((a * .35, -.35, -1)), random.uniform(.5, .75), .2, M['f1'])
+for i in range(0):
     a = random.uniform(-.6, .6); feather(body, Vector((a * .4, 1.05 + random.uniform(-.15, .2), 0.72)), Vector((a * .4, -.4, .5)), random.uniform(.16, .26), .07, M['f3'])
 # ---------------- pescoco (+ cabeca) ----------------
 neck = Part('neckp', (0, 1.55, 0.6))
@@ -69,7 +69,7 @@ legs = {}
 for nm, sx in (('L', 1), ('R', -1)):
     hip = (sx * .24, 1.02, -0.18); knee = (sx * .24, 0.58, -0.12)
     th = Part('leg' + nm, hip); th.blob((sx * .24, 0.86, -0.17), (.17, .26, .19), M['f1'], 10, 7)
-    for i in range(10): feather(th, Vector((sx * .24 + random.uniform(-.1, .1), 1.0 - random.uniform(0, .28), -0.17 + random.uniform(-.12, .08))), Vector((random.uniform(-.2, .2), -.5, -.8)), random.uniform(.13, .22), .06, random.choice([M['f1'], M['f2'], M['fd']]))
+    for i in range(0): feather(th, Vector((sx * .24 + random.uniform(-.1, .1), 1.0 - random.uniform(0, .28), -0.17 + random.uniform(-.12, .08))), Vector((random.uniform(-.2, .2), -.5, -.8)), random.uniform(.13, .22), .06, random.choice([M['f1'], M['f2'], M['fd']]))
     th.tube((sx * .24, 0.78, -0.16), knee, .075, .06, M['leg'])
     sh = Part('shin' + nm, knee, th); sh.blob(knee, (.065, .065, .065), M['leg'], 8, 6)
     sh.tube(knee, (sx * .24, 0.1, -0.2), .055, .04, M['leg']); sh.blob((sx * .24, 0.08, -0.17), (.08, .05, .1), M['toe'], 8, 6)

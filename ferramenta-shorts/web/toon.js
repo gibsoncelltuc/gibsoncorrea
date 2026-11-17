@@ -824,6 +824,8 @@ const faceFront = (p, cx, cy, W, expr, facing, look, lid, brim, skin, moustache,
         mx + s * (stout ? 19 : 15) * u,
         cy + (stout ? 10.5 : 15) * u
     ], stout ? 5.5 * u : 4.5 * u, 1.6 * u, moustache);
+    if (AX.beard) { p.arc(mx, cy + 14 * u, 30 * u, 26 * u, 15, 165, 13 * u, AX.beard); p.arc(mx, cy + 22 * u, 20 * u, 18 * u, 25, 155, 10 * u, AX.beard); }   // barba cheia (variedade de personagem)
+    if (AX.glasses) { for (const sd of [-1, 1]) p.arc(fx + sd * ex, ey, 12.5 * u, 12.5 * u, 0, 360, 2.6 * u); p.arc(fx, ey, ex - 12.5 * u, 3 * u, 200, 340, 2.4 * u); }   // oculos redondos
     if (expr === "nervous" || AX.sweat) p.ell(cx + 40 * u * (facing || 1), cy - 22 * u + (AX.sweatY || 0) * u, 3 * u, 5 * u, "#9fd4ff", 2 * u);
 };
 const faceSide = (p, hx, hy, W, expr, lid, brim, skin, moustache, stout = false)=>{
@@ -1670,7 +1672,7 @@ export const bodyFront = (p, o, opts)=>{
     p.inkRing(hp, ow, thick);
     hatOn(p, o, hp, H, 300, hc, light, seed, facing, false);
     const brim = !!o.hat && o.hat !== "hair" && o.hat !== "bonnet" && o.hat !== "cap";
-    faceFront(p, 300, hc, W, expr, facing, look, lid, brim, skin, o.moustache, o.build === "stout", fx || {});
+    faceFront(p, 300, hc, W, expr, facing, look, lid, brim, skin, o.moustache, o.build === "stout", { ...(fx || {}), beard: o.beard, glasses: o.glasses });
     for (const a of arms)if (a.top) drawArm(a);
     p.rot = null;
 };
