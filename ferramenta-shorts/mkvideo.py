@@ -50,13 +50,13 @@ ZSW = [-0.4, 0.2, -0.8, 0.0, -0.2, 0.4]
 
 TEMPL = {  # h = altura do alvo; d0/d1 = distancia da camera no inicio/fim; el = elevacao; fov
     'wide':  dict(h=2.8, d0=30, d1=24, el=14, fov=46),
-    'two':   dict(h=2.3, d0=9.0, d1=7.2),
-    'close': dict(h=2.4, d0=6.6, d1=5.4),
-    'group': dict(h=2.5, d0=13.0, d1=10.5),
+    'two':   dict(h=2.3, d0=7.0, d1=5.8),
+    'close': dict(h=2.4, d0=4.8, d1=4.0),
+    'group': dict(h=2.5, d0=9.0, d1=7.4),
     'prop':  dict(h=1.4, d0=8.0, d1=6.0, el=8),
     'crowd': dict(h=2.8, d0=29.0, d1=22.0, el=16),
-    'track': dict(h=2.2, d0=11.0, d1=11.0, el=3, fov=44),
-    'low':   dict(h=1.6, d0=9.0, d1=7.0, el=2),
+    'track': dict(h=2.2, d0=8.0, d1=8.0, el=3, fov=44),
+    'low':   dict(h=1.6, d0=7.0, d1=5.6, el=2),
     'reveal': dict(h=2.6, d0=15.0, d1=36.0, el=12, fov=46),   # recua e revela o exercito inteiro
     'orbit':  dict(h=2.6, d0=27.0, d1=22.0, el=14, fov=46, az0=-38, az1=32),   # panoramica aberta em arco
 }
@@ -99,6 +99,7 @@ def direct(beats):
         elif shot in ('track', 'two', 'group') and k % 5 == 3 and not CLOSE_OK.search(say): shot = 'wide'
         if shot in WIDE and (wrun >= 2 or (wrun >= 1 and k == len(beats) - 2)) and not (first or last):   # nunca mais de 2 planos abertos seguidos: alterna com plano medio + multidao ao fundo
             shot = 'group' if mass else 'two'
+        if shot in WIDE and not (first or last) and wide_n >= int(B.get('max_wide', 2)): shot = 'group'   # MODO RICKS: personagem grande na maior parte do video
         wrun = wrun + 1 if shot in WIDE else 0
         b['shot'] = shot
         if shot in WIDE:
@@ -106,13 +107,13 @@ def direct(beats):
             if not b.get('crowd'):
                 persons_out = [w.split(':')[0] for w in b.get('who', [])]
                 army = persons_out[0] if persons_out else (outs[0] if outs else 'X')
-                b['crowd'] = {'n': 5 if b.get('emus') else (26 if mass else 14), 'outfits': list(dict.fromkeys(persons_out + [army])), 'march': bool(arrive or first or (shot == 'reveal' and mass))}
+                b['crowd'] = {'n': 5 if b.get('emus') else (10 if mass else 6), 'outfits': list(dict.fromkeys(persons_out + [army])), 'march': bool(arrive or first or (shot == 'reveal' and mass))}
             if not b.get('who'): b['who'] = [f"{b['crowd']['outfits'][0]}:0:neutral"]
         else:
             run += 1
             if mass and not b.get('crowd') and b.get('who') and not b.get('emus'):
                 persons_out = [w.split(':')[0] for w in b['who']]
-                b['crowd'] = {'n': 10, 'outfits': list(dict.fromkeys(persons_out)), 'march': False, 'expr': 'shock' if re.search('panico|tiro|gritou', say) else 'neutral'}
+                b['crowd'] = {'n': 5, 'outfits': list(dict.fromkeys(persons_out)), 'march': False, 'expr': 'shock' if re.search('panico|tiro|gritou', say) else 'neutral'}
 
 KICKS = []
 direct(beats)

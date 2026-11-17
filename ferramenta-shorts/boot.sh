@@ -3,6 +3,7 @@
 cd "$(dirname "$0")"; mkdir -p logs
 {
   echo "$(date +%T) boot"
+  [ -e /usr/lib/x86_64-linux-gnu/libEGL_mesa.so.0 ] || apt-get install -y -q libegl1 libgl1-mesa-dri libgles2 >/dev/null 2>&1   # rasterizador rapido (llvmpipe)
   command -v espeak-ng >/dev/null || (apt-get install -y -q espeak-ng >/dev/null 2>&1 || (apt-get update -q >/dev/null 2>&1 && apt-get install -y -q espeak-ng >/dev/null 2>&1))
   python3 -c "import edge_tts, PIL, numpy" 2>/dev/null || pip install -q edge-tts pillow numpy >/dev/null 2>&1
   [ -e node_modules/playwright ] || { mkdir -p node_modules; ln -sfn /usr/local/lib/node_modules_global/playwright node_modules/playwright; }

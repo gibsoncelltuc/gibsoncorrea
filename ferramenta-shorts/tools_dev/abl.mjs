@@ -1,9 +1,9 @@
 // node abl.mjs <webdir> [frame] [n]  -> ms/frame (sync via readPixels), warm
-import { chromium } from 'playwright'; import http from 'http'; import fs from 'fs'; import path from 'path';
+import { launch } from '../launch.mjs'; import http from 'http'; import fs from 'fs'; import path from 'path';
 const root = path.resolve(process.argv[2]||'web'), f0 = +(process.argv[3]||700), n = +(process.argv[4]||4);
 const srv = http.createServer((q, s) => { const p = path.join(root, decodeURIComponent(q.url.split('?')[0])); if (!fs.existsSync(p)) { s.writeHead(404); return s.end(); } s.writeHead(200, { 'Content-Type': p.endsWith('.js') ? 'text/javascript' : 'text/html' }); fs.createReadStream(p).pipe(s); }).listen(0);
 await new Promise(r => srv.on('listening', r));
-const b = await chromium.launch({ args: (process.env.CHARGS||'--use-angle=swiftshader --enable-unsafe-swiftshader --ignore-gpu-blocklist').split(' ') });
+const b = await launch();
 const pg = await b.newPage({ viewport: { width: +(process.env.RW||1080), height: +(process.env.RH||1920) } }); pg.on('pageerror', e => console.log('ERR', e.message));
 if (process.env.RW) await pg.addInitScript(([w,h]) => { window.RENDER_W = w; window.RENDER_H = h; }, [+process.env.RW, +process.env.RH]);
 await pg.goto(`http://localhost:${srv.address().port}/index.html`);

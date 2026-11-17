@@ -13,7 +13,7 @@ function updateMotes(f, C, on) {
   for (let i = 0; i < MOTES; i++) { const s = moteSeed[i], d = 2.5 + s[0] * 14, ox = (s[1] - 0.5) * d * 0.9, oy = (s[2] - 0.5) * d * 1.5;
     const dx = Math.sin(t * (0.4 + s[3]) + s[4] * 6) * 0.5, dy = Math.sin(t * (0.3 + s[5] * 0.5) + s[3] * 6) * 0.45 - ((t * 0.15 * (0.4 + s[4])) % 1.2), dz = Math.cos(t * (0.35 + s[4]) + s[1] * 6) * 0.5;
     pos.setXYZ(i, px[0] + fx * d + rx_ * ox + ux * oy + dx, px[1] + fy * d + uy * oy + dy, px[2] + fz * d + rz_ * ox + uz * oy + dz); }
-  pos.needsUpdate = true; moteMat.opacity = 0.35 + 0.3 * Math.min(1, (C.moteK ?? 1)); }
+  pos.needsUpdate = true; moteMat.opacity = 0.16 + 0.14 * Math.min(1, (C.moteK ?? 1)); }
 // sun glow + light shafts
 const glowTex = (() => { const [c, g] = cvs(256, 256); const gr = g.createRadialGradient(128, 128, 4, 128, 128, 128); gr.addColorStop(0, 'rgba(255,240,200,1)'); gr.addColorStop(0.25, 'rgba(255,220,160,.5)'); gr.addColorStop(1, 'rgba(255,200,120,0)'); g.fillStyle = gr; g.fillRect(0, 0, 256, 256); return c; })();
 const sunGlow = ND_SKIP(new THREE.Mesh(new THREE.PlaneGeometry(1, 1), new THREE.MeshBasicMaterial({ map: P.tex(glowTex), transparent: true, depthWrite: false, fog: false, blending: THREE.AdditiveBlending }))); sunGlow.renderOrder = -1; scene.add(sunGlow);

@@ -88,7 +88,7 @@ const inkScene = fs(new THREE.ShaderMaterial({ uniforms: inkU, vertexShader: `va
   void main(){
     vec3 c = texture2D(col, vUv).rgb;
     if (zbl > .01) { vec3 acc = c; vec2 dir = (vec2(.5) - vUv); for (int i = 1; i < 9; i++) { acc += texture2D(col, vUv + dir * (float(i) / 8.) * zbl * .22).rgb; } c = acc / 9.; }
-    { vec3 bl = vec3(0.); for (int i=0;i<12;i++){ float a_ = float(i)*.5236; vec2 o = vec2(cos(a_),sin(a_)) * (i<6 ? 14. : 34.) / res; vec3 s_ = texture2D(col, vUv+o).rgb; bl += max(s_ - .82, 0.); } c += bl * .12 * vec3(1.,.93,.82); }
+    { vec3 bl = vec3(0.); for (int i=0;i<12;i++){ float a_ = float(i)*.5236; vec2 o = vec2(cos(a_),sin(a_)) * (i<6 ? 14. : 34.) / res; vec3 s_ = texture2D(col, vUv+o).rgb; bl += max(s_ - .82, 0.); } c += bl * .07 * vec3(1.,.93,.82); }
     float e = edgeAt(vUv, px) * (1. - .75*zbl);
     c = mix(c, vec3(.012,.01,.014), e);
     if (flash < -0.5) c = vec3(e);
