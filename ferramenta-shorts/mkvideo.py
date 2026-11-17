@@ -159,6 +159,8 @@ if B.get('director') is not False and len(beats) >= 5:
 
 def build_beat(k, b):
     shot = b.get('shot', 'two'); T = dict(TEMPL.get(shot, TEMPL['two']))
+    if b.get('impact') and shot in WIDE: T.update(d0=30.0, d1=23.0, el=12, h=2.6)   # BATALHA: visao ampla de verdade (cenario, tropa inteira, inimigo fugindo ao fundo)
+    elif shot == 'reveal': T.update(d0=11.0, d1=27.0, el=10)
     _n = len(b.get('who', []))
     if shot in ('two', 'group', 'low') and _n >= 3: T['d0'] *= 1 + 0.13 * (_n - 2); T['d1'] *= 1 + 0.13 * (_n - 2)   # 3+ pessoas: abre o suficiente para caber todo mundo
     light = b.get('light')
@@ -226,6 +228,7 @@ def build_beat(k, b):
                 acts.append(f"{{ bird: 'emu', at: [X + {num(x0 - 11 * dr)}, {num(z0)}], move: [[X + {num(x0 + 11 * dr)}, {num(z0)}], {a}, {bb}, 'lin'], state: 'walk', spd: 0.09, s: 1.6, flip: {'false' if dr > 0 else 'true'}, seed: {i * 5 + 2} }}")
             elif mode == 'scatter':
                 ang = (i / max(n_e, 1)) * 2 * _m.pi + 0.4; tx, tz = x0 + 11 * _m.cos(ang), z0 + 6 * _m.sin(ang)
+                if b.get('impact'): ang = -1.15 + 2.3 * i / max(n_e - 1, 1); tx, tz = x0 + (1 if ex0 >= 0 else -1) * 14 * _m.cos(ang), z0 + 8 * _m.sin(ang)   # na batalha os bichos fogem PARA LONGE da tropa, abrindo em leque
                 acts.append(f"{{ bird: 'emu', at: [X + {num(x0)}, {num(z0)}], move: [[X + {num(tx)}, {num(tz)}], {a}, {bb}], state: 'walk', spd: 0.09, s: 1.6, flip: {'true' if tx < x0 else 'false'}, seed: {i * 5 + 2} }}")
             else:
                 acts.append(f"{{ bird: 'emu', at: [X + {num(x0)}, {num(z0)}], state: {json.dumps('peck' if (i % 3 == 1 and em.get('peck', True)) else 'stand')}, s: 1.6, flip: {'true' if i % 2 == 0 else 'false'}, seed: {i * 5 + 2} }}")
@@ -237,7 +240,7 @@ def build_beat(k, b):
         for i in range(cnt):
             row, col = i // cols, i % cols
             jx = ((i * 37) % 11 - 5) * 0.09; jz = ((i * 53) % 7 - 3) * 0.12
-            x0 = (col - (cols - 1) / 2) * (1.9 if wide else 1.7) + (row % 2) * 0.9 + jx + (-4.0 if (b.get('impact') and b.get('emus') and wide) else 0); z0 = (1.2 if wide else -3.0) - row * 2.1 + jz
+            x0 = (col - (cols - 1) / 2) * (1.9 if wide else 1.7) + (row % 2) * 0.9 + jx + (-6.5 if (b.get('impact') and b.get('emus') and wide) else 0); z0 = (1.2 if wide else -3.0) - row * 2.1 + jz
             out = outs_c[i % len(outs_c)]; ex = c.get('expr', 'neutral' if not c.get('march') else 'stern'); look = (-0.25, 0.25, 0.0, 0.15)[i % 4]
             crowd_pos.append((x0, z0))
             if c.get('march'):
@@ -249,7 +252,7 @@ def build_beat(k, b):
     if b.get('caminhoes') and b.get('crowd'):
         _oc = (b['crowd'].get('outfits') or [b['crowd'].get('outfit')])[0]
         for t_ in range(int(b['caminhoes'])):
-            tx, tz = -9.0 + t_ * 7.5 + (-4.0 if b.get('emus') else 0) + 4.0, -5.2 - (t_ % 2) * 1.2
+            tx, tz = -9.0 + t_ * 7.5 + (-6.5 if b.get('emus') else 0) + 4.0, -5.6 - (t_ % 2) * 1.2
             truck_props.append(f"{{ asset: {json.dumps(b.get('caminhao', 'vehicles/truck'))}, at: [X + {num(tx)}, {num(tz)}], s: 1.0, ry: 1.5708, drop: false }}")
             for q_, dx_ in enumerate((-1.5, -0.3, 0.9)):
                 acts.append(f"pp(X, {json.dumps(_oc)}, {q_}, {num(tx + dx_)}, {num(tz + 0.15)}, 'stern', {{ y: {num(b.get('caminhao_y', 1.15))}, look: 0.3, seed: {q_ + t_ * 3} }})"); crowd_pos.append((tx + dx_, tz))

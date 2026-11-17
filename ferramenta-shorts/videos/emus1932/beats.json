@@ -119,8 +119,9 @@
    "emus": {
     "n": 14,
     "mode": "scatter",
-    "x": 6.5,
-    "z": 0.5
+    "x": 7.0,
+    "z": 0.5,
+    "cols": 4
    },
    "batalha": true,
    "caminhoes": 2
@@ -195,10 +196,10 @@
    ],
    "emus": {
     "n": 12,
-    "mode": "run",
-    "x": 5,
-    "z": 1.0,
-    "dir": 1
+    "mode": "scatter",
+    "x": 7.0,
+    "z": 0.5,
+    "cols": 4
    },
    "text": "CENTENAS",
    "tat": 6,
@@ -230,7 +231,7 @@
     "cols": 3
    },
    "text": "HUMANOS 0 - 1 EMUS",
-   "tat": 3,
+   "tat": 0,
    "tstyle": "gold",
    "light": "golden",
    "titulo": true

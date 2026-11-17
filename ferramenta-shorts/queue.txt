@@ -1,5 +1,3 @@
 # ponha aqui os ids dos proximos videos, um por linha
-karansebes
 emus1932
 sino_bench
-karansebes
