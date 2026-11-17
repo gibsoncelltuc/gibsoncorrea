@@ -3,7 +3,7 @@ const X = 1000, DK = 6;
 const WS = (i, off = 0) => TIMING.words[Math.min(i, TIMING.words.length - 1)][0] + off;   // frame em que a palavra de indice i comeca
 const A = [0, WS(10, -3), WS(27, -3), WS(37, -3), WS(45, -3), WS(52, -3), WS(76, -3), WS(88, -3), WS(107, -3), WS(121, -3), WS(147, -3), TOTAL_F()];
 const SPEC = {
-  id: "karansebes", exp: 1.12, cinf: 4.5, cutLen: 54, dissolveN: 7, total: TOTAL_F(), sets: ["countryside"], setx: { countryside: X },
+  id: "karansebes", exp: 1.761, cinf: 1.5, cutLen: 54, dissolveN: 7, total: TOTAL_F(), sets: ["countryside"], setx: { countryside: X },
   outfits: { AUT: (v = 0, e = {}) => ({ _id: "aut", jacket: "#ebe6d4", pants: "#ebe6d4", boots: "#2a2218", hat: "shako", belt: "#2a2218", buttons: "#e8c45a", rifle: true, skin: ["#ffe2c2", "#f5c9a0", "#ecd0b6", "#c99067"][v % 4], ...(v % 7 === 4 ? { glasses: true } : {}), ...(v % 7 === 5 || v % 7 === 6 ? { beard: ['#3a2a1f', '#6b4a2a', '#8a8a86'][v % 3] } : {}), ...e }),
     HUS: (v = 0, e = {}) => ({ _id: "hus", jacket: "#2f4aa0", pants: "#8a2f2f", boots: "#1b1b1f", hat: "shako_tall", belt: "#e8c45a", buttons: "#e8c45a", skin: ["#ffe2c2", "#f5c9a0", "#ecd0b6", "#c99067"][v % 4], ...(v % 2 ? { moustache: "#3a2a1f" } : {}), ...(v % 7 === 4 ? { glasses: true } : {}), ...(v % 7 === 5 || v % 7 === 6 ? { beard: ['#3a2a1f', '#6b4a2a', '#8a8a86'][v % 3] } : {}), ...e }),
     LOC: (v = 0, e = {}) => ({ _id: "loc", jacket: "#8a5a3a", pants: "#4a3a2a", boots: "#3a2a1a", hat: "straw", skin: ["#ffe2c2", "#f5c9a0", "#ecd0b6", "#c99067"][v % 4], ...(v % 7 === 4 ? { glasses: true } : {}), ...(v % 7 === 5 || v % 7 === 6 ? { beard: ['#3a2a1f', '#6b4a2a', '#8a8a86'][v % 3] } : {}), ...e }),
