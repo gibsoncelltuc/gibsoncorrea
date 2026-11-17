@@ -113,14 +113,15 @@
    "say": "Lá em cima, a fome apertava. \"Vamos comer os gansos\", pediu um soldado. \"São sagrados\", respondeu o sacerdote."
   },
   {
-   "shot": "track",
+   "shot": "group",
    "who": [
     "GAU:0:stern",
     "GAU:1:nervous",
     "GAU:2:stern"
    ],
    "hora": "noite",
-   "say": "Numa noite sem lua, os gauleses escalaram a colina em silêncio. Os guardas dormiam. Nem os cachorros latiram."
+   "say": "Numa noite sem lua, os gauleses escalaram a colina em silêncio. Os guardas dormiam. Nem os cachorros latiram.",
+   "shot_lock": true
   },
   {
    "shot": "two",
