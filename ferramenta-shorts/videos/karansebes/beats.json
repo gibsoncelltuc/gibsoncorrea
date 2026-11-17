@@ -145,13 +145,11 @@
     "HUS:0:laugh",
     "AUT:1:shock"
    ],
-   "sfx": [
-    "gun@100"
-   ],
-   "fx": [
-    "burst@100"
-   ],
-   "mood": "tense"
+   "sfx": [],
+   "fx": [],
+   "mood": "tense",
+   "tiros": false,
+   "impact": false
   },
   {
    "say": "No escuro, alguém gritou: \"Turcos! Turcos!\" E o pânico tomou o acampamento.",
@@ -176,17 +174,8 @@
     "n": 8,
     "expr": "shock"
    },
-   "fx": [
-    "burst@20",
-    "burst@60"
-   ],
-   "sfx": [
-    "gun@20",
-    "gun@45",
-    "gun@60",
-    "gun@80"
-   ],
-   "mood": "tense"
+   "mood": "tense",
+   "batalha": true
   },
   {
    "say": "Um oficial mandou usar a artilharia, e os canhões dispararam contra o próprio exército.",
@@ -208,13 +197,6 @@
      0.9,
      1.1
     ]
-   ],
-   "fx": [
-    "burst@50"
-   ],
-   "sfx": [
-    "cannon@50",
-    "cannon@70"
    ],
    "mood": "tense"
   },

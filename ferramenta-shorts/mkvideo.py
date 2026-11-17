@@ -85,7 +85,7 @@ MASS = re.compile(r'infantaria|batalh|exercito|soldados|milhares|dezenas|tropas|
 ARRIVE = re.compile(r'chegou|chegaram|apareceu|surgiu|avancou|avancaram|marchava|marcharam|invadiu|invadiram|desembarcou|cercou|cercaram')
 CLOSE_OK = re.compile(r'gritou|olhou|sorriu|chorou|pensou|disse|perguntou|riu|ordenou')
 KW = [  # (regex da palavra, efeito, golpe de camera) -- animacao nas palavras-chave da narracao
-    (re.compile(r'^(tiro|tiros|disparou|dispararam|atirava|atirou|atiraram|explodiu|explosao|canhoes|canhao|fogo|bomba|bombas)$'), 'burst', 0.09),
+    (re.compile(r'^(tiro|tiros|disparou|dispararam|disparo|disparos|atirava|atiravam|atirou|atiraram|atirar|explodiu|explodiram|explosao|canhoes|canhao|fogo|bomba|bombas|metralhadora|metralhadoras|balas|bala|artilharia)$'), 'burst', 0.09),
     (re.compile(r'^(gritou|gritaram|socorro|ataque|atacar|atacaram|alarme)$'), 'ring', 0.06),
     (re.compile(r'^(panico|correu|correram|fugiu|fugiram|correria|debandada|fuga)$'), 'dust', 0.07),
     (re.compile(r'^(festa|beberam|brindou|brindaram|comemoraram|venceu|ganhou|vitoria)$'), 'stars', 0.0),
@@ -115,7 +115,7 @@ def direct(beats):
         if shot in WIDE and not b.get('impact') and (wrun >= 2 or (wrun >= 1 and k == len(beats) - 2)) and not (first or last):   # nunca mais de 2 planos abertos seguidos: alterna com plano medio + multidao ao fundo
             shot = 'group' if mass else 'two'
         if b.get('batalha') or (not (first or last) and IMPACT.search(say) and impact_n < int(B.get('max_impact', 2)) and b.get('impact') is not False):
-            impact_n += 1; b['impact'] = True; shot = 'crowd' if impact_n % 2 else 'orbit'   # plano aberto de batalha SEMPRE abre ("batalha": true forca)
+            impact_n += 1; b['impact'] = True; shot = ('crowd' if impact_n % 2 else 'orbit') if (b.get('batalha') or wrun < 1) else 'group'   # batalha marcada SEMPRE abre; impacto logo depois de outro aberto fica em plano medio com a tropa atras
             if wrun >= 1 and k > 0 and not beats[k - 1].get('impact') and not beats[k - 1].get('shot_lock') and k - 1 > 0: beats[k - 1]['shot'] = 'group'; wide_n -= 1; wrun = 0   # o aberto anterior (sem batalha) cede a vez   # dois abertos seguidos nao: o segundo fica em plano medio com a tropa atras   # MOMENTO-CHAVE: plano aberto de alto impacto (fora da cota de planos abertos)
         elif shot in WIDE and not (first or last) and wide_n >= int(B.get('max_wide', 2)): shot = 'group'   # MODO RICKS: personagem grande na maior parte do video
         wrun = wrun + 1 if shot in WIDE else 0
@@ -138,6 +138,7 @@ def direct(beats):
 KICKS = []
 AMB = {}
 STATE = {}
+KWSFX = []
 direct(beats)
 if B.get('director') is not False and not any(b.get('impact') for b in beats) and len(beats) > 4:
     _b = beats[int(len(beats) * 0.6)]
@@ -324,7 +325,8 @@ def build_beat(k, b):
             nw = nrm(w)
             for rx, kind, kick in KW:
                 if rx.match(nw) and kfx < 3:
-                    kfx += 1; wi = starts[k] + j; px, pz = (crowd_pos[(j * 5) % len(crowd_pos)] if crowd_pos else (sl[0] if n else 0.0, 1.5))
+                    kfx += 1; wi = starts[k] + j; KWSFX.append((wi, 'cannon' if re.match(r'canh|explo|bomb', nw) else {'burst': 'gun', 'ring': 'sting', 'dust': 'thump', 'puff': 'thump', 'stars': 'ding'}.get(kind, 'tick')))   # SOM na mesma palavra do efeito
+                    px, pz = (crowd_pos[(j * 5) % len(crowd_pos)] if crowd_pos else (sl[0] if n else 0.0, 1.5))
                     if kind == 'burst': fx.append(f"{{ k: 'burst', a: WS({wi}), b: WS({wi}) + 22, at: [X + {num(px)}, DK + 1.8, {num(pz + 1.5)}], s: {1.7 if wide else 1.2} }}")
                     else: fx.append(f"{{ k: {json.dumps(kind)}, a: WS({wi}), b: WS({wi}) + 28, at: [X + {num(px)}, DK + 0.5, {num(pz + 1.0)}], s: {1.9 if wide else 1.1} }}")
                     if kick and kind == 'burst': KICKS.append(f"{{ f: WS({wi}), a: {round(kick * 0.35, 3)} }}")   # golpe de camera so' em impacto fisico e pequeno (canal: 0,23% da altura)
@@ -407,5 +409,6 @@ for k, b in enumerate(beats):
     for e2 in b.get('sfx', []):
         name, _, at = e2.partition('@'); at = int(at) if at else 4
         c2.append(f"{name}(F({a} + {at}))" if name not in ('steps', 'sea', 'gulls', 'birds') else f"{name}(F({a} + {at}), F({e}))")
+for wi, nm in KWSFX: c2.append(f"{nm}(F(int(_W({wi}))))")
 open(f'stories/{ID}/cues.py', 'w', encoding='utf-8').write('\n'.join(c1) + '\n#--SFX--\n' + '\n'.join(c2) + '\n')
 print(f'{ID}: {len(beats)} cenas, {n} palavras narradas -> stories/{ID}/spec.js, cues.py')
