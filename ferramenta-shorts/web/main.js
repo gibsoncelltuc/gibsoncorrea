@@ -649,7 +649,7 @@ const renderCore = (f) => {
   const ACTS = actorsAt(f, T);
   drawActors([...ACTS, ...fxAt(f, T)], camera);
   sky.position.copy(camera.position);
-  clouds.forEach((c) => { c.position.x = camera.position.x + (c.userData.rx ?? 0); c.position.z = camera.position.z + (c.userData.rz ?? -400); });
+  clouds.forEach((c) => { c.position.x = camera.position.x + (c.userData.rx ?? 0); c.position.z = camera.position.z + (c.userData.rz ?? -400); c.material.color.set(L.cloud || '#ffffff'); });   /* nuvem acompanha a luz (escura de noite e na chuva) */
   // pass A: colour
   renderer.setRenderTarget(rtColor); renderer.setClearColor(0x000000, 1); renderer.clear(); renderer.render(scene, camera);
   // pass B: normal + depth

@@ -66,7 +66,7 @@ TEMPL = {  # h = altura do alvo; d0/d1 = distancia da camera no inicio/fim; el =
     'close': dict(h=2.4, d0=5.6, d1=4.9),
     'group': dict(h=2.5, d0=10.0, d1=8.8),
     'prop':  dict(h=1.4, d0=8.0, d1=6.0, el=8),
-    'crowd': dict(h=2.4, d0=20.0, d1=15.5, el=6),
+    'crowd': dict(h=2.4, d0=16.0, d1=12.5, el=6),
     'track': dict(h=2.2, d0=8.0, d1=8.0, el=3, fov=44),
     'low':   dict(h=1.6, d0=8.2, d1=7.2, el=2),
     'reveal': dict(h=2.4, d0=10.0, d1=22.0, el=6, fov=46),   # recua e revela o exercito inteiro
@@ -115,7 +115,7 @@ def direct(beats):
         if shot in WIDE and not b.get('impact') and (wrun >= 2 or (wrun >= 1 and k == len(beats) - 2)) and not (first or last):   # nunca mais de 2 planos abertos seguidos: alterna com plano medio + multidao ao fundo
             shot = 'group' if mass else 'two'
         if not (first or last) and IMPACT.search(say) and impact_n < int(B.get('max_impact', 2)) and b.get('impact') is not False:
-            impact_n += 1; b['impact'] = True; shot = 'crowd' if impact_n % 2 else 'orbit'   # MOMENTO-CHAVE: plano aberto de alto impacto (fora da cota de planos abertos)
+            impact_n += 1; b['impact'] = True; shot = ('crowd' if impact_n % 2 else 'orbit') if wrun < 1 else 'group'   # dois abertos seguidos nao: o segundo fica em plano medio com a tropa atras   # MOMENTO-CHAVE: plano aberto de alto impacto (fora da cota de planos abertos)
         elif shot in WIDE and not (first or last) and wide_n >= int(B.get('max_wide', 2)): shot = 'group'   # MODO RICKS: personagem grande na maior parte do video
         wrun = wrun + 1 if shot in WIDE else 0
         b['shot'] = shot
@@ -128,6 +128,8 @@ def direct(beats):
             if not b.get('who'): b['who'] = [f"{b['crowd']['outfits'][0]}:0:neutral"]
         else:
             run += 1
+            if b.get('impact') and not b.get('crowd') and b.get('who') and not b.get('emus'):
+                b['crowd'] = {'n': 10, 'outfits': list(dict.fromkeys(w.split(':')[0] for w in b['who'])), 'march': False, 'expr': 'shock'}
             if mass and not b.get('crowd') and b.get('who') and not b.get('emus'):
                 persons_out = [w.split(':')[0] for w in b['who']]
                 b['crowd'] = {'n': 5, 'outfits': list(dict.fromkeys(persons_out)), 'march': False, 'expr': 'shock' if re.search('panico|tiro|gritou', say) else 'neutral'}
@@ -250,6 +252,7 @@ def build_beat(k, b):
     for p in props:
         asset, dx, z, s = p[0], p[1] if len(p) > 1 else 0, p[2] if len(p) > 2 else 0.5, p[3] if len(p) > 3 else 1.0
         ex = p[4] if len(p) > 4 and isinstance(p[4], dict) else {}
+        if asset.startswith(('kit/', 'buildings/')) and 'drop' not in ex: ex = {**ex, 'drop': False}   # peca de cenario nao cai do ceu
         extra = ''.join(f', {kk}: {json.dumps(vv)}' for kk, vv in ex.items())
         pr.append(f"{{ asset: {json.dumps(asset)}, at: [X + {num(dx)}, {num(z)}], s: {num(s)}{extra} }}")
     # textos / efeitos

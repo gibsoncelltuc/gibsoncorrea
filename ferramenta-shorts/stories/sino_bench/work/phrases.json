@@ -1,0 +1,378 @@
+{
+ "duration": 74.112,
+ "frames30": 2223,
+ "source": "silence-align (cost 1.25)",
+ "segments": [
+  [
+   0.151708,
+   1.39754
+  ],
+  [
+   1.74113,
+   3.04146
+  ],
+  [
+   3.886,
+   7.13746
+  ],
+  [
+   7.37075,
+   9.03921
+  ],
+  [
+   9.29208,
+   11.0561
+  ],
+  [
+   11.93,
+   13.8936
+  ],
+  [
+   14.135,
+   14.9855
+  ],
+  [
+   15.2482,
+   16.9761
+  ],
+  [
+   17.8345,
+   19.0392
+  ],
+  [
+   19.3017,
+   20.8542
+  ],
+  [
+   21.7098,
+   22.3766
+  ],
+  [
+   23.1858,
+   23.4706
+  ],
+  [
+   23.7994,
+   24.3491
+  ],
+  [
+   25.2195,
+   26.7986
+  ],
+  [
+   27.012,
+   27.6311
+  ],
+  [
+   27.8776,
+   28.6858
+  ],
+  [
+   29.5649,
+   30.1883
+  ],
+  [
+   31.0421,
+   32.3581
+  ],
+  [
+   33.2108,
+   34.8949
+  ],
+  [
+   35.7303,
+   36.9135
+  ],
+  [
+   37.257,
+   38.4575
+  ],
+  [
+   38.7587,
+   40.1262
+  ],
+  [
+   41.0033,
+   41.7414
+  ],
+  [
+   41.9684,
+   42.4389
+  ],
+  [
+   43.292,
+   44.8286
+  ],
+  [
+   45.6945,
+   46.9122
+  ],
+  [
+   47.7644,
+   49.3749
+  ],
+  [
+   49.6036,
+   51.0532
+  ],
+  [
+   51.9545,
+   52.9694
+  ],
+  [
+   53.2376,
+   54.524
+  ],
+  [
+   54.8622,
+   55.6939
+  ],
+  [
+   56.5613,
+   57.2933
+  ],
+  [
+   57.5149,
+   58.8671
+  ],
+  [
+   59.1669,
+   60.6465
+  ],
+  [
+   60.8753,
+   61.6533
+  ],
+  [
+   61.8981,
+   63.9181
+  ],
+  [
+   64.7828,
+   65.7496
+  ],
+  [
+   66.0927,
+   67.1437
+  ],
+  [
+   67.998,
+   69.2398
+  ],
+  [
+   69.4353,
+   70.9508
+  ],
+  [
+   71.8011,
+   73.3305
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Enterraram um homem vivo,",
+   "s": 0.152,
+   "e": 1.398
+  },
+  {
+   "text": "com um sino amarrado no dedo.",
+   "s": 1.741,
+   "e": 3.041
+  },
+  {
+   "text": "Acontece que o povo tinha tanto medo de acordar dentro do caix\u00e3o,",
+   "s": 3.886,
+   "e": 7.137
+  },
+  {
+   "text": "que a cova vinha com um sininho em cima,",
+   "s": 7.371,
+   "e": 9.039
+  },
+  {
+   "text": "preso por um cord\u00e3o ao dedo do morto.",
+   "s": 9.292,
+   "e": 11.056
+  },
+  {
+   "text": "S\u00f3 que quando o sino dele come\u00e7a a tocar,",
+   "s": 11.93,
+   "e": 13.894
+  },
+  {
+   "text": "\u00e0s duas da manh\u00e3,",
+   "s": 14.135,
+   "e": 14.986
+  },
+  {
+   "text": "o vizinho decide que deve ser o vento.",
+   "s": 15.248,
+   "e": 16.976
+  },
+  {
+   "text": "A\u00ed ele toca mais r\u00e1pido,",
+   "s": 17.834,
+   "e": 19.039
+  },
+  {
+   "text": "e a rua inteira sai para a varanda.",
+   "s": 19.302,
+   "e": 20.854
+  },
+  {
+   "text": "\"Vai l\u00e1 olhar.\"",
+   "s": 21.71,
+   "e": 22.377
+  },
+  {
+   "text": "\"N\u00e3o,",
+   "s": 23.186,
+   "e": 23.471
+  },
+  {
+   "text": "vai voc\u00ea.\"",
+   "s": 23.799,
+   "e": 24.349
+  },
+  {
+   "text": "Algu\u00e9m arranca o m\u00e9dico da cama,",
+   "s": 25.22,
+   "e": 26.799
+  },
+  {
+   "text": "e ele diz:",
+   "s": 27.012,
+   "e": 27.631
+  },
+  {
+   "text": "\"Corpo se mexe.",
+   "s": 27.878,
+   "e": 28.686
+  },
+  {
+   "text": "Est\u00e1 morto.",
+   "s": 29.565,
+   "e": 30.188
+  },
+  {
+   "text": "Eu mesmo assinei o papel.\"",
+   "s": 31.042,
+   "e": 32.358
+  },
+  {
+   "text": "Mas a esposa n\u00e3o est\u00e1 na varanda.",
+   "s": 33.211,
+   "e": 34.895
+  },
+  {
+   "text": "Est\u00e1 sentada no escuro,",
+   "s": 35.73,
+   "e": 36.913
+  },
+  {
+   "text": "com a p\u00e1 ao lado da porta,",
+   "s": 37.257,
+   "e": 38.458
+  },
+  {
+   "text": "porque ela conhece aquele toque.",
+   "s": 38.759,
+   "e": 40.126
+  },
+  {
+   "text": "Tr\u00eas curtos,",
+   "s": 41.003,
+   "e": 41.741
+  },
+  {
+   "text": "um longo.",
+   "s": 41.968,
+   "e": 42.439
+  },
+  {
+   "text": "O sinal que os dois ensaiaram.",
+   "s": 43.292,
+   "e": 44.829
+  },
+  {
+   "text": "Ele nunca esteve morto.",
+   "s": 45.694,
+   "e": 46.912
+  },
+  {
+   "text": "Devia dinheiro para meia cidade,",
+   "s": 47.764,
+   "e": 49.375
+  },
+  {
+   "text": "ent\u00e3o fingiu a pr\u00f3pria morte.",
+   "s": 49.604,
+   "e": 51.053
+  },
+  {
+   "text": "Quando o sino tocasse,",
+   "s": 51.955,
+   "e": 52.969
+  },
+  {
+   "text": "ela ia desenterrar o marido,",
+   "s": 53.238,
+   "e": 54.524
+  },
+  {
+   "text": "e fugir com ele.",
+   "s": 54.862,
+   "e": 55.694
+  },
+  {
+   "text": "Em vez disso,",
+   "s": 56.561,
+   "e": 57.293
+  },
+  {
+   "text": "ela fica ali a noite toda,",
+   "s": 57.515,
+   "e": 58.867
+  },
+  {
+   "text": "ouvindo o sino tocar r\u00e1pido,",
+   "s": 59.167,
+   "e": 60.647
+  },
+  {
+   "text": "depois devagar,",
+   "s": 60.875,
+   "e": 61.653
+  },
+  {
+   "text": "depois uma vez a cada tantos minutos.",
+   "s": 61.898,
+   "e": 63.918
+  },
+  {
+   "text": "At\u00e9 o sol nascer,",
+   "s": 64.783,
+   "e": 65.75
+  },
+  {
+   "text": "quando ele finalmente para.",
+   "s": 66.093,
+   "e": 67.144
+  },
+  {
+   "text": "Com ele debaixo da terra,",
+   "s": 67.998,
+   "e": 69.24
+  },
+  {
+   "text": "as d\u00edvidas foram enterradas junto.",
+   "s": 69.435,
+   "e": 70.951
+  },
+  {
+   "text": "E a casa ficou s\u00f3 para ela.",
+   "s": 71.801,
+   "e": 73.331
+  }
+ ]
+}
