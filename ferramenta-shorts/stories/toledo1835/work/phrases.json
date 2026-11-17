@@ -1,243 +1,306 @@
 {
- "duration": 52.968,
- "frames30": 1589,
- "source": "silence-align (cost 0.62)",
+ "duration": 62.976,
+ "frames30": 1889,
+ "source": "silence-align (cost 1.25)",
  "segments": [
   [
-   0.150875,
-   1.67637
+   0.16125,
+   2.1385
   ],
   [
-   1.98508,
-   5.82758
+   2.40292,
+   4.29833
   ],
   [
-   6.08817,
-   7.04475
+   5.13158,
+   5.77308
   ],
   [
-   7.8755,
-   8.45463
+   6.03671,
+   6.54246
   ],
   [
-   8.696,
-   9.72446
+   7.40829,
+   7.893
   ],
   [
-   10.5842,
-   11.034
+   8.09046,
+   8.60904
   ],
   [
-   11.3264,
-   12.5088
+   9.43146,
+   11.7457
   ],
   [
-   13.3298,
-   15.2475
+   12.0335,
+   13.7129
   ],
   [
-   16.1157,
-   18.569
+   14.5712,
+   16.9063
   ],
   [
-   18.8048,
-   20.3713
+   17.7671,
+   18.724
   ],
   [
-   21.239,
-   23.246
+   18.9899,
+   19.6395
   ],
   [
-   23.5777,
-   25.6105
+   20.5152,
+   22.5285
   ],
   [
-   26.466,
-   27.1805
+   22.881,
+   24.9185
   ],
   [
-   27.4149,
-   28.1913
+   25.277,
+   25.9791
   ],
   [
-   29.0442,
-   30.2783
+   26.8393,
+   27.5475
   ],
   [
-   31.1609,
-   33.0415
+   27.7488,
+   28.3514
   ],
   [
-   33.2513,
-   35.0787
+   28.5465,
+   29.04
   ],
   [
-   35.9447,
-   37.9364
+   29.9187,
+   30.831
   ],
   [
-   38.25,
-   39.7315
+   31.6669,
+   32.9009
   ],
   [
-   40.5945,
-   41.9361
+   33.777,
+   36.3935
   ],
   [
-   42.7837,
-   43.5849
+   36.6633,
+   38.979
   ],
   [
-   43.8231,
-   44.6225
+   39.8453,
+   41.5913
   ],
   [
-   44.8454,
-   45.9198
+   41.8849,
+   43.4335
   ],
   [
-   46.1233,
-   47.3929
+   44.2843,
+   45.412
   ],
   [
-   48.2375,
-   49.3737
+   46.2393,
+   47.5793
   ],
   [
-   49.6294,
-   52.1721
+   48.4312,
+   49.2679
+  ],
+  [
+   49.5155,
+   50.3054
+  ],
+  [
+   50.5632,
+   52.9139
+  ],
+  [
+   53.7713,
+   56.2847
+  ],
+  [
+   57.1504,
+   57.8969
+  ],
+  [
+   58.737,
+   59.7722
+  ],
+  [
+   60.0038,
+   61.25
+  ],
+  [
+   61.5107,
+   62.1715
   ]
  ],
  "phrases": [
   {
-   "text": "Em mil oitocentos e trinta e cinco,",
-   "s": 0.151,
-   "e": 1.676
+   "text": "Dois estados americanos foram \u00e0 guerra,",
+   "s": 0.161,
+   "e": 2.139
   },
   {
-   "text": "os Estados Unidos quase tiveram uma guerra civil por causa de uma faixa de terra:",
-   "s": 1.985,
-   "e": 5.828
-  },
-  {
-   "text": "a faixa de Toledo.",
-   "s": 6.088,
-   "e": 7.045
+   "text": "e o \u00fanico ferido levou uma canivetada.",
+   "s": 2.403,
+   "e": 4.298
   },
   {
    "text": "De um lado,",
-   "s": 7.875,
-   "e": 8.455
+   "s": 5.132,
+   "e": 5.773
   },
   {
-   "text": "o estado de Ohio.",
-   "s": 8.696,
-   "e": 9.724
+   "text": "Ohio.",
+   "s": 6.037,
+   "e": 6.542
   },
   {
    "text": "Do outro,",
-   "s": 10.584,
-   "e": 11.034
+   "s": 7.408,
+   "e": 7.893
   },
   {
-   "text": "o territ\u00f3rio de Michigan.",
-   "s": 11.326,
-   "e": 12.509
+   "text": "Michigan.",
+   "s": 8.09,
+   "e": 8.609
   },
   {
-   "text": "Os dois diziam que a terra era deles.",
-   "s": 13.33,
-   "e": 15.248
+   "text": "Os dois juravam que a cidade de Toledo era deles,",
+   "s": 9.431,
+   "e": 11.746
   },
   {
-   "text": "O governador de Michigan tinha s\u00f3 vinte e tr\u00eas anos,",
-   "s": 16.116,
-   "e": 18.569
+   "text": "por causa de um erro num mapa antigo.",
+   "s": 12.034,
+   "e": 13.713
   },
   {
-   "text": "e mandou a mil\u00edcia para a fronteira.",
-   "s": 18.805,
-   "e": 20.371
+   "text": "O governador de Michigan tinha vinte e tr\u00eas anos.",
+   "s": 14.571,
+   "e": 16.906
+  },
+  {
+   "text": "\"Mandem a mil\u00edcia\",",
+   "s": 17.767,
+   "e": 18.724
+  },
+  {
+   "text": "ordenou ele.",
+   "s": 18.99,
+   "e": 19.64
   },
   {
    "text": "Ohio respondeu com a pr\u00f3pria mil\u00edcia,",
-   "s": 21.239,
-   "e": 23.246
+   "s": 20.515,
+   "e": 22.529
   },
   {
-   "text": "e as duas tropas ficaram frente a frente.",
-   "s": 23.578,
-   "e": 25.61
+   "text": "e as duas tropas chegaram \u00e0 beira do rio,",
+   "s": 22.881,
+   "e": 24.919
   },
   {
-   "text": "Houve tiros,",
-   "s": 26.466,
-   "e": 27.18
+   "text": "frente a frente.",
+   "s": 25.277,
+   "e": 25.979
   },
   {
-   "text": "mas para o alto.",
-   "s": 27.415,
-   "e": 28.191
+   "text": "Houve gritos,",
+   "s": 26.839,
+   "e": 27.547
+  },
+  {
+   "text": "amea\u00e7as,",
+   "s": 27.749,
+   "e": 28.351
+  },
+  {
+   "text": "e tiros.",
+   "s": 28.547,
+   "e": 29.04
+  },
+  {
+   "text": "Todos para o alto.",
+   "s": 29.919,
+   "e": 30.831
   },
   {
    "text": "Ningu\u00e9m acertou ningu\u00e9m.",
-   "s": 29.044,
-   "e": 30.278
+   "s": 31.667,
+   "e": 32.901
   },
   {
-   "text": "O \u00fanico ferido da guerra foi um xerife,",
-   "s": 31.161,
-   "e": 33.041
+   "text": "Acontece que a \u00fanica baixa foi um xerife de Michigan,",
+   "s": 33.777,
+   "e": 36.394
   },
   {
-   "text": "esfaqueado na perna com um canivete.",
-   "s": 33.251,
-   "e": 35.079
+   "text": "espetado na perna por um rapaz com um canivete.",
+   "s": 36.663,
+   "e": 38.979
   },
   {
-   "text": "O governo federal mandou os dois pararem,",
-   "s": 35.945,
-   "e": 37.936
+   "text": "O presidente mandou os dois pararem,",
+   "s": 39.845,
+   "e": 41.591
   },
   {
-   "text": "e o Congresso prop\u00f4s um acordo.",
-   "s": 38.25,
-   "e": 39.731
+   "text": "e o Congresso ofereceu um acordo.",
+   "s": 41.885,
+   "e": 43.434
+  },
+  {
+   "text": "Ningu\u00e9m queria ceder.",
+   "s": 44.284,
+   "e": 45.412
   },
   {
    "text": "Ohio ficou com Toledo.",
-   "s": 40.594,
-   "e": 41.936
+   "s": 46.239,
+   "e": 47.579
   },
   {
-   "text": "Michigan ganhou,",
-   "s": 42.784,
-   "e": 43.585
+   "text": "Michigan levou,",
+   "s": 48.431,
+   "e": 49.268
   },
   {
    "text": "de consola\u00e7\u00e3o,",
-   "s": 43.823,
-   "e": 44.623
+   "s": 49.516,
+   "e": 50.305
   },
   {
-   "text": "a Pen\u00ednsula Superior,",
-   "s": 44.845,
-   "e": 45.92
+   "text": "um peda\u00e7o de floresta gelada que ningu\u00e9m queria.",
+   "s": 50.563,
+   "e": 52.914
   },
   {
-   "text": "cheia de cobre e de ferro.",
-   "s": 46.123,
-   "e": 47.393
+   "text": "S\u00f3 que debaixo daquela floresta havia cobre e ferro.",
+   "s": 53.771,
+   "e": 56.285
   },
   {
-   "text": "Michigan virou estado,",
-   "s": 48.237,
-   "e": 49.374
+   "text": "Uma fortuna.",
+   "s": 57.15,
+   "e": 57.897
   },
   {
-   "text": "e o pr\u00eamio de consola\u00e7\u00e3o valeu muito mais que Toledo.",
-   "s": 49.629,
-   "e": 52.172
+   "text": "No fim das contas,",
+   "s": 58.737,
+   "e": 59.772
+  },
+  {
+   "text": "Michigan perdeu a guerra,",
+   "s": 60.004,
+   "e": 61.25
+  },
+  {
+   "text": "e ficou rico.",
+   "s": 61.511,
+   "e": 62.172
   }
  ]
 }
