@@ -1,0 +1,15 @@
+{
+  "lm_model": "acestep-5Hz-lm-1.7B-Q8_0.gguf",
+  "synth_model": "acestep-v15-turbo-Q8_0.gguf",
+  "caption": "Cheerful Brazilian children's pop song, bouncy ukulele strumming, shaker, hand claps on beats 2 and 4, bright glockenspiel melody, soft round bass, catchy singalong earworm hook, warm friendly adult male lead vocal with a kids choir doubling the chorus, playful and happy, clean polished mix, no long intro, each section lasts exactly 4 bars, the vocal starts right on the first beat of every section, clear Portuguese pronunciation of every word, no instrumental break",
+  "lyrics": "[Chorus]\nEscova, escova, vai, vai, vai!\nDentinho limpo, ai, ai, ai!\n\n[Verse 1]\nDe manhã e de noite, sem chorar,\npasta de ervilha vou colocar!\n\n[Verse 2]\nEm cima, embaixo, devagar,\npra frente e pra trás, vou esfregar!\n\n[Chorus]\nEscova, escova, vai, vai, vai!\nDentinho limpo, ai, ai, ai!\n\n[Bridge]\nTchau, tchau, docinho, vai embora já,\nmeu dentinho limpo vai brilhar!\n\n[Final Chorus]\nEscova, escova, vai, vai, vai!\nSorriso brilhando, ai, ai, ai!",
+  "duration": 60,
+  "bpm": 96,
+  "vocal_language": "pt",
+  "keyscale": "C major",
+  "timesignature": "4",
+  "inference_steps": 8,
+  "guidance_scale": 1.0,
+  "shift": 3.0,
+  "seed": 23
+}
