@@ -12,3 +12,6 @@ b6 | group | dia neve | interior, objeto na mao | - | -
 b7 | orbit | -  | batalha aberta com tiros, tropa, placa: PÂNICO | correu (dust + som de impacto); vender (stars + som de sino) | -
 b8 | two | - limpo | objeto na mao | - | -
 b9 | close | -  | - | - | -
+
+Mistura de planos: close 8% | medio 79% | aberto 13% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 3 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

@@ -88,3 +88,7 @@ Personagens grandes na maior parte do vídeo; até 2 planos abertos comuns + at�
 - Toda vez que roda, o `mkvideo.py` lê o roteiro, separa as palavras-chave e os momentos de impacto e grava `stories/<id>/plano.md`: por cena, o plano de câmera, o que aparece (tropa, batalha, placa, mapa, objeto na mão) e cada palavra-chave com o **efeito visual + o som** que ela dispara.
 - A última coluna lista **palavras de ação sem efeito**. Não renderize com essa coluna preenchida: ou a palavra entra na lista automática, ou você põe na cena um `"fx"`, `"sfx"`, objeto na mão (4º campo do `who`), `"batalha": true`, animal, veículo.
 - Sons disponíveis em `"sfx": ["gun@40"]` (nome@quadro dentro da cena): `gun`, `cannon`, `sting`, `thump`, `ding`, `whoosh`, `squeal`, `tick`, `steps`.
+
+## Detalhe de objeto e mistura de planos
+- **Detalhe de objeto**: numa cena de 11+ palavras que tenha um objeto em `"props"` ou uma placa (`"text"`), a câmera desliza até o objeto no meio da cena e volta (até 3 por vídeo). Desligar na cena: `"detalhe": false`. Use para o objeto que carrega a história (o balde, o barril, a carta).
+- **Mistura de planos**: ao rodar `mkvideo.py` sai a linha `mistura de planos: close X% | medio Y% | aberto Z% | detalhe W%` com AVISO quando foge do padrão do canal (close 10% | médio+corpo 67% | aberto 19% | detalhe 5–15%). Também fica no fim do `stories/<id>/plano.md`. Corrija o roteiro antes de renderizar se houver AVISO.

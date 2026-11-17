@@ -12,3 +12,6 @@ b6 | group | -  | tropa | derrota (puff + som de baque) | -
 b7 | crowd | -  | batalha aberta com tiros, tropa | atacaram (ring + som de alerta); surpresa (ring + som de alerta); fugiu (dust + som de impacto) | -
 b8 | two | -  | objeto na mao | - | -
 b9 | close | -  | placa: 700 ANOS, objeto na mao | - | -
+
+Mistura de planos: close 19% | medio 57% | aberto 21% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 3 | dentro do padrao do canal

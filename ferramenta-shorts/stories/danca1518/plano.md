@@ -12,3 +12,6 @@ b6 | orbit | -  | batalha aberta com tiros, tropa | música (stars + som de sino
 b7 | two | -  | - | - | -
 b8 | track | -  | - | dançarinos (stars + som de sino); dança (stars + som de sino) | -
 b9 | close | -  | - | - | -
+
+Mistura de planos: close 20% | medio 63% | aberto 14% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 3 | dentro do padrao do canal

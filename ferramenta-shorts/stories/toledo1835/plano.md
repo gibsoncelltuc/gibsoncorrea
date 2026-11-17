@@ -12,3 +12,6 @@ b6 | two | -  | interior, placa: ACORDO, objeto na mao | - | -
 b7 | group | -  | - | - | -
 b8 | low | - neve | objeto na mao | fortuna (stars + som de sino) | -
 b9 | close | dia limpo | objeto na mao | perdeu (puff + som de baque) | -
+
+Mistura de planos: close 25% | medio 60% | aberto 12% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 2 | dentro do padrao do canal

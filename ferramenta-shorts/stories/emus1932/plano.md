@@ -13,3 +13,6 @@ b7 | group | -  | tropa, placa: HA HA HA, objeto na mao | bateu (dust + som de i
 b8 | crowd | -  | batalha aberta com tiros, tropa, animais, placa: CENTENAS | - | -
 b9 | two | golden  | placa: RECOMPENSA | desistiu (puff + som de baque); pagar (stars + som de sino); recompensa (stars + som de sino) | -
 b10 | close | golden  | animais, placa: HUMANOS 0 - 1 EMUS | - | -
+
+Mistura de planos: close 8% | medio 66% | aberto 18% | detalhe 8%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 4 | dentro do padrao do canal

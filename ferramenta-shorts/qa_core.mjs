@@ -32,7 +32,7 @@ export async function inspect(S, { step = 6, only = null, kfit = undefined } = {
       if (!heroes.length) { if (!H.optional) why.push(H.hero === 'any' ? 'empty take: no character in the take' : `hero '${H.hero}' is not in the take at all`); }
       else { const res = heroes.map(judge); if (H.all) { for (const w of res) why.push(...w); } else if (!res.some((w) => w.length === 0)) why.push(...res.sort((p, q) => p.length - q.length)[0]); }
     }
-    { const vis = chars.filter((a) => !a.behind && a.visible > 0.5), big = vis.length ? Math.max(...vis.map((a) => a.heightFrac)) : 0;
+    if (!H.detalhe) { const vis = chars.filter((a) => !a.behind && a.visible > 0.5), big = vis.length ? Math.max(...vis.map((a) => a.heightFrac)) : 0;
       if (big > 1.0) why.push(`too close: the biggest character is ${Math.round(big * 100)}% of the frame height`);
       { const cut = chars.filter((a) => a.i < (H.main ?? 99) && !a.behind && a.visible > 0.12 && a.visible < 0.62 && a.heightFrac > 0.55); if (cut.length) why.push(`too close: ${cut[0].id} grande e cortado pela borda (${Math.round(cut[0].visible * 100)}% visivel)`); }
       if (chars.length && !vis.length && H.hero === 'none') why.push('empty: characters are in the scene but none is in frame');

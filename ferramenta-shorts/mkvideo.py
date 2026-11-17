@@ -77,6 +77,7 @@ TXT = {'blue': ('#fff6e0', '#27408b'), 'brown': ('#fff6e0', '#7a3a1c'), 'red': (
 TXT_CYCLE = ['brown', 'blue', 'red', 'gold']
 
 def num(x): return json.dumps(round(x, 3))
+def nodrop(c): return re.sub(r'(asset: "[^"]+", at: \[[^\]]*\], s: [\d.]+)(?!, drop)', r'\1, drop: false', c)   # nas partes seguintes da mesma cena os objetos ja estao no chao (nao caem de novo)
 
 
 import unicodedata
@@ -390,7 +391,7 @@ def build_beat(k, b):
         def part(i, q0, q1, k0, k1):
             pa, pb = FR(q0), (bb if q1 >= 1 else FR(q1) + ' - 1')
             c = call.replace(f"S('b{k}', {a}, {bb}, X,", f"S('b{k}{'' if i == 0 else '_' + str(i)}', {pa}, {pb}, X,", 1)
-            if i: c = c.replace("trans: 'dissolve'", "trans: 'cut'")
+            if i: c = nodrop(c.replace("trans: 'dissolve'", "trans: 'cut'"))
             K = lambda f_, q: f"{{ f: {f_}, at: [X + {num(q[0])}, DK + {num(q[1])}, {num(q[2])}], d: {num(q[3])}, az: {num(q[4])}, el: {num(q[5])}, fov: {num(q[6])}{', ease: ' + json.dumps(q[7]) if len(q) > 7 else ''} }}"
             return f"{{ ...{c}, cam: [{K(pa, k0)}, {K(pb, k1)}], nocut: true, vary: false{', glide: true' if i else ''} }}"   # canal: quase nunca corta seco; a camera DESLIZA de um enquadramento ao outro
         if b.get('emus'):
@@ -418,6 +419,25 @@ def build_beat(k, b):
         cam = (f"cam: [{{ f: {a}, at: [X + {num(x0v)}, DK + 1.9, {num(zv)}], d: {num(dd)}, az: {12 if x1v >= x0v else -12}, el: 7, fov: 40 }}, "
                f"{{ f: {bb}, at: [X + {num(x1v)}, DK + 1.9, {num(zv)}], d: {num(dd * 0.9)}, az: {-10 if x1v >= x0v else 10}, el: 8, fov: 40, ease: 'lin' }}]")
         call = f"{{ ...{call}, {cam}, nocut: true }}"
+    # DETALHE DE OBJETO (canal: 5-15% do video e' close no objeto da historia): no meio da cena a camera desliza ate o objeto ou a placa e volta
+    _obj = next((p_ for p_ in b.get('props', []) if not str(p_[0]).startswith(('kit/', 'buildings/', 'vehicles/'))), None)
+    _placa = bool(b.get('text')) and "board:" in call
+    if (b.get('detalhe') is not False and not wide and not b.get('impact') and not b.get('veiculo') and not (shot == 'track' or mv) and k > 0 and k < len(beats) - 1
+            and (_obj or _placa) and len(b['say'].split()) >= 11 and STATE.get('detalhes', 0) < int(B.get('max_detalhes', 3))):
+        Fq = lambda q: f"Math.round({a} + ({bb} + 1 - ({a})) * {q})"
+        if _obj:
+            ox, oz, os_ = (float(_obj[1]) if len(_obj) > 1 else 0.0), (float(_obj[2]) if len(_obj) > 2 else 0.5), (float(_obj[3]) if len(_obj) > 3 else 1.0)
+            k0 = (ox, 0.75 * os_, oz, 4.2, 14 if ox < 0 else -14, 10, 44); k1 = (ox, 0.75 * os_, oz, 3.4, 8 if ox < 0 else -8, 9, 44)
+        else: k0 = (0.0, 3.25, -1.3, 6.4, 6, -3, 44); k1 = (0.0, 3.25, -1.3, 5.4, -4, -3, 44)
+        Kc = lambda f_, q: f"{{ f: {f_}, at: [X + {num(q[0])}, DK + {num(q[1])}, {num(q[2])}], d: {num(q[3])}, az: {num(q[4])}, el: {num(q[5])}, fov: {num(q[6])} }}"
+        base = call; pid = f"S('b{k}', {a}, {bb}, X,"
+        if pid in base:
+            STATE['detalhes'] = STATE.get('detalhes', 0) + 1; b['_detalhe'] = True
+            p0 = base.replace(pid, f"S('b{k}', {a}, {Fq(0.36)} - 1, X,", 1)
+            p1 = re.sub(r"hero: \{[^}]*\}", "hero: { hero: 'none', detalhe: true }", base.replace(pid, f"S('b{k}_d', {Fq(0.36)}, {Fq(0.6)} - 1, X,", 1).replace("trans: 'dissolve'", "trans: 'cut'"), count=1)
+            p2 = base.replace(pid, f"S('b{k}_v', {Fq(0.6)}, {bb}, X,", 1).replace("trans: 'dissolve'", "trans: 'cut'")
+            p1, p2 = nodrop(p1), nodrop(p2)
+            call = f"{p0}, {{ ...{p1}, cam: [{Kc(Fq(0.36), k0)}, {Kc(Fq(0.6) + ' - 1', k1)}], nocut: true, vary: false, glide: true }}, {{ ...{p2}, glide: true }}"
     if b.get('set') and b['set'] != SET and b['set'] in SETS_X: call = re.sub(r'\bX\b', 'X_' + b['set'], call)   # esta cena acontece em outro cenario
     return call
 
@@ -479,6 +499,18 @@ for k, b in enumerate(beats):
     _ap = [x for x in (('batalha aberta com tiros' if b.get('impact') else ''), ('tropa' if b.get('crowd') else ''), ('animais' if b.get('emus') or b.get('animals') else ''), ('interior' if b.get('interior') else ''), ('veiculo' if b.get('veiculo') or b.get('caminhoes') else ''), ('placa: ' + str(b['text']) if b.get('text') else ''), ('mapa' if b.get('mapa') else ''), ('objeto na mao' if any(len(w.split(':')) > 3 for w in b.get('who', [])) else '')) if x]
     _sem += len(_falta)
     _pl.append(f"b{k} | {b.get('shot')} | {b.get('hora') or b.get('light') or '-'} {b.get('clima') or ''} | {', '.join(_ap) or '-'} | {'; '.join(_kw) or '-'} | {', '.join(_falta) or '-'}")
+_tw = sum(len(b['say'].split()) for b in beats) or 1; _mx = {'close': 0.0, 'medio': 0.0, 'aberto': 0.0, 'detalhe': 0.0}
+for b in beats:
+    w_ = len(b['say'].split()) / _tw; sh_ = b.get('shot')
+    if b.get('_detalhe'): _mx['detalhe'] += w_ * 0.24; w_ *= 0.76
+    if b.get('impact') and sh_ in WIDE: _mx['close'] += w_ * 0.2; _mx['medio'] += w_ * 0.46; _mx['aberto'] += w_ * 0.34   # sequencia de acao: preparo, close, travelling, grua
+    elif sh_ in WIDE: _mx['aberto'] += w_ * (0.6 if sh_ == 'reveal' else 1.0); _mx['medio'] += w_ * (0.4 if sh_ == 'reveal' else 0.0)
+    elif sh_ == 'close' or b.get('perto'): _mx['close'] += w_
+    else: _mx['medio'] += w_
+_mix = ' | '.join(f"{k_} {round(v_ * 100)}%" for k_, v_ in _mx.items()); _nw = sum(1 for b in beats if b.get('shot') in WIDE)
+_av = [m for c, m in ((_mx['aberto'] > 0.38, 'aberto demais (personagem pequeno por muito tempo)'), (_nw < int(B.get('min_wide', 2)), 'menos de 2 planos abertos'), (_mx['close'] < 0.06, 'quase sem close (ponha "shot": "close" numa fala ou reacao)'), (_mx['detalhe'] < 0.02 and len(beats) >= 8, 'sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)')) if c]
+_pl += ['', f'Mistura de planos: {_mix}  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)', f'Planos abertos: {_nw}' + (' | AVISOS: ' + '; '.join(_av) if _av else ' | dentro do padrao do canal')]
+print('mistura de planos:', _mix, ('| AVISO: ' + '; '.join(_av)) if _av else '| ok')
 open(f'stories/{ID}/plano.md', 'w', encoding='utf-8').write('\n'.join(_pl) + '\n')
 print(f'plano de acao: {len(PLANO)} palavras-chave com efeito + som; {_sem} palavra(s) de acao sem efeito (veja stories/{ID}/plano.md e ponha "fx"/"sfx"/objeto/batalha na cena)')
 open(f'stories/{ID}/cues.py', 'w', encoding='utf-8').write('\n'.join(c1) + '\n#--SFX--\n' + '\n'.join(c2) + '\n')
