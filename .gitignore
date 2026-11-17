@@ -12,3 +12,6 @@ production/guerra-do-porco/research/sources/
 
 # ferramenta-shorts: gerado/regeneravel
 webs/
+
+# material de estudo privado (quadros/transcricoes do canal de referencia): NUNCA vai para o git
+ferramenta-shorts/ref_privado/
