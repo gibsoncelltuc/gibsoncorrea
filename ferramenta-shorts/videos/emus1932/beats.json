@@ -113,15 +113,15 @@
   },
   {
    "say": "Um atirador até montou uma metralhadora num caminhão. Mas o caminhão pulava tanto no chão irregular, que ele não acertava nenhum pássaro.",
-   "shot": "track",
+   "shot": "two",
    "who": [
     "AUS:2:grin"
    ],
    "props": [
     [
      "vehicles/truck",
-     -1.5,
-     0.8,
+     -5.0,
+     0.6,
      1.0,
      {
       "bob": 0.06
@@ -134,7 +134,9 @@
     "x": 0,
     "z": 1.5,
     "dir": -1
-   }
+   },
+   "shot_lock": true,
+   "move": 0
   },
   {
    "say": "Depois de uma semana, o exército tinha gasto milhares de balas, e os emus mal tinham sido arranhados.",
@@ -167,7 +169,7 @@
    "crowd": {
     "n": 12,
     "outfit": "AUS",
-    "march": true
+    "march": false
    }
   },
   {

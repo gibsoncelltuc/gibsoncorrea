@@ -6,7 +6,7 @@
 # Se NAO reiniciar em GRACE_MIN minutos, a fila segue sozinha com novo prazo. SESSION_GUARD=0 desliga a trava.
 cd "$(dirname "$0")"; mkdir -p logs
 LOCK=logs/queue.lock
-if [ -f $LOCK ] && kill -0 "$(cat $LOCK 2>/dev/null)" 2>/dev/null; then echo "fila ja rodando (pid $(cat $LOCK))"; exit 0; fi
+LP=$(cat $LOCK 2>/dev/null); if [ -n "$LP" ] && kill -0 "$LP" 2>/dev/null && tr "\0" " " < /proc/$LP/cmdline 2>/dev/null | grep -q run_queue; then echo "fila ja rodando (pid $(cat $LOCK))"; exit 0; fi
 echo $$ > $LOCK; trap 'rm -f $LOCK' EXIT
 SESSION_MIN=${SESSION_MIN:-60}; SAFETY_MIN=${SAFETY_MIN:-6}; GRACE_MIN=${GRACE_MIN:-3}
 uptime_s() { ps -o etimes= -p 1 2>/dev/null | tr -d ' ' || echo 0; }

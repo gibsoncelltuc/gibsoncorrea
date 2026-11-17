@@ -1,10 +1,45 @@
 {
  "fails": [
   {
-   "f": 896,
-   "shot": "b4",
+   "f": 1476,
+   "shot": "b6~2",
    "why": [
-    "aus: HIDDEN behind Cube/#3f6fb5"
+    "aus: head/torso cropped (box 1.295, 0.4, 1.513, 0.724)"
+   ]
+  },
+  {
+   "f": 1480,
+   "shot": "b6~2",
+   "why": [
+    "aus: head/torso cropped (box 1.302, 0.395, 1.528, 0.731)"
+   ]
+  },
+  {
+   "f": 1484,
+   "shot": "b6~2",
+   "why": [
+    "aus: head/torso cropped (box 1.314, 0.391, 1.541, 0.736)"
+   ]
+  },
+  {
+   "f": 1488,
+   "shot": "b6~2",
+   "why": [
+    "aus: head/torso cropped (box 1.317, 0.39, 1.548, 0.74)"
+   ]
+  },
+  {
+   "f": 1492,
+   "shot": "b6~2",
+   "why": [
+    "aus: head/torso cropped (box 1.32, 0.389, 1.557, 0.742)"
+   ]
+  },
+  {
+   "f": 1496,
+   "shot": "b6~2",
+   "why": [
+    "aus: head/torso cropped (box 1.322, 0.388, 1.564, 0.743)"
    ]
   }
  ],
