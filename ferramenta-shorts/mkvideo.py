@@ -101,9 +101,17 @@ OBJ_DICT = [  # (palavra na narracao, objeto 3D da biblioteca, escala, grande?) 
     (r'torre|muralha|castelo|fortaleza|palacio', 'buildings/castle_tower', 1.3, True), (r'moinho', 'buildings/windmill', 1.2, True), (r'igreja|catedral', 'buildings/church', 1.2, True), (r'\bfarol\b', 'buildings/lighthouse', 1.2, True), (r'\bponte\b', 'buildings/bridge', 1.2, True),
 ]
 FALTA_MODELAR = r'\b(pao|paes|queijo|peixe|peixes|vaca|vacas|cachorro|cachorros|gato|gatos|ovelha|ovelhas|piano|relogio|estatua|guilhotina|balanca|telefone|radio|bicicleta)\b'
+def _heroi():   # OBJETO HEROI do video: "heroi" no topo do roteiro, ou o objeto do titulo, ou o objeto mais citado na narracao
+    if 'heroi' in B: return B['heroi'] or None
+    nz = lambda t: re.sub(r'[^a-z0-9 ]', '', unicodedata.normalize('NFKD', t.lower()).encode('ascii', 'ignore').decode())
+    tt = nz(str(B.get('title', ''))); allt = ' '.join(nz(b['say']) for b in B['beats'])
+    for rx_, as_, sc_, big_ in OBJ_DICT:
+        if big_ is False and re.search(rx_, tt): return as_
+    best = max(((len(re.findall(rx_, allt)), as_) for rx_, as_, sc_, big_ in OBJ_DICT if big_ is False), default=(0, None))
+    return best[1] if best[0] >= 2 else None
 KW = [  # (regex da palavra, efeito, golpe de camera) -- animacao nas palavras-chave da narracao
     (re.compile(r'^(tiro|tiros|disparou|dispararam|disparo|disparos|atirava|atiravam|atirou|atiraram|atirar|explodiu|explodiram|explosao|canhoes|canhao|fogo|bomba|bombas|metralhadora|metralhadoras|balas|bala|artilharia)$'), 'burst', 0.09),
-    (re.compile(r'^(gritou|gritaram|socorro|ataque|atacar|atacaram|alarme)$'), 'ring', 0.06),
+    (re.compile(r'^(gritou|gritaram|gritava|gritavam|berrou|berrava|socorro|ataque|atacar|atacaram|alarme)$'), 'ring', 0.06),
     (re.compile(r'^(panico|correu|correram|fugiu|fugiram|correria|debandada|fuga|retirada|recuou|recuaram|bateu|marchando|marchava|marcharam|perder)$'), 'dust', 0.07),
     (re.compile(r'^(festa|beberam|brindou|brindaram|comemoraram|venceu|venceram|ganhou|ganharam|vitoria|compraram|comprou|comprando|comprador|compradores|vendendo|vendeu|venderam|vender|dancar|dancou|dancando|danca|dancarinos|musica|musicos|rindo|riso|roubaram|roubou)$'), 'stars', 0.0),
     (re.compile(r'^(empurra|empurrouse|briga|brigar|brigaram|discussao|confusao|caos|desastre)$'), 'puff', 0.05),
@@ -160,12 +168,24 @@ def direct(beats):
 
 KICKS = []
 AMB = {}
+HEROI = _heroi()
 STATE = {'mapa': any(_b.get('mapa') for _b in B['beats'])}   # mapa pedido no roteiro: nao cria outro automatico
 KWSFX = []
 direct(beats)
 if B.get('director') is not False and not any(b.get('impact') for b in beats) and len(beats) > 4:
     _b = beats[int(len(beats) * 0.6)]
     if not _b.get('shot_lock'): _b['impact'] = True; _b['shot'] = 'orbit'; _b.setdefault('crowd', {'n': 12, 'outfits': [w.split(':')[0] for w in _b.get('who', [])] or list(B.get('outfits', {'X': 0}))[:1], 'march': False})
+# DOIS GRANDES MOMENTOS (ordem do Gibson): todo video tem 2 pontos de impacto encenados em plano aberto com multidao, efeito e som. Se o roteiro so' rendeu 1, a virada ("Acontece que") ou a cena a 1/3 do video vira o segundo.
+if B.get('director') is not False and len(beats) > 6 and sum(1 for b in beats if b.get('impact')) < int(B.get('min_momentos', 2)):
+    _im = [i for i, b in enumerate(beats) if b.get('impact')]
+    _cand = [i for i, b in enumerate(beats) if 0 < i < len(beats) - 1 and not b.get('impact') and not b.get('shot_lock') and not b.get('interior') and not b.get('veiculo') and all(abs(i - j) > 1 for j in _im)]
+    _vir = [i for i in _cand if re.match(r'acontece que|na verdade|so que|o problema', re.sub(r'[^a-z ]', '', unicodedata.normalize('NFKD', beats[i]['say'].lower()).encode('ascii', 'ignore').decode()))]
+    _pick = (_vir or sorted(_cand, key=lambda i: abs(i - (len(beats) * (0.3 if (_im and _im[0] > len(beats) / 2) else 0.7)))) or [None])[0]
+    if _pick is not None:
+        _b = beats[_pick]; _b['impact'] = True; _b['_momento_auto'] = True; _b['shot'] = 'crowd'; _b.setdefault('crowd', {'n': 12, 'outfits': [w.split(':')[0] for w in _b.get('who', [])] or list(B.get('outfits', {'X': 0}))[:1], 'march': False, 'expr': 'shock'})
+        _b.setdefault('fx', []); _b.setdefault('sfx', [])
+        if not _b['fx']: _b['fx'] = ['ring@12', 'dust@40']
+        if not _b['sfx']: _b['sfx'] = ['sting@10', 'thump@40']
 # RITMO DE FILMAGEM DO CANAL (pela funcao de cada cena na historia): gancho em plano medio na acao -> cena 2 ABRE para situar o lugar ->
 # falas em plano mais fechado no personagem -> virada ("Acontece que") abre ou baixa a camera -> final fecha no rosto.
 if B.get('director') is not False and B.get('ritmo') is not False and len(beats) >= 6:
@@ -339,8 +359,11 @@ def build_beat(k, b):
     # OBJETOS DA HISTORIA: o que a narracao cita e existe na biblioteca entra em cena sozinho (ate 2 por cena)
     if b.get('objetos') is not False and not b.get('veiculo'):
         tem_ = {str(p_[0]) for p_ in props}; n_auto = 0
+        _fam = lambda x_: re.sub(r'_(red|yellow|purple|striped)$', '', str(x_))
+        if HEROI and (k == 0 or k == len(beats) - 1) and not wide_pre and not any(_fam(t_) == _fam(HEROI) for t_ in tem_):   # o objeto heroi abre e fecha o video
+            props = props + ([[HEROI, 0.0, 2.0, 1.15]] if len(b.get('who', [])) == 2 else [[HEROI, (1.7 if k % 2 else -1.7), -0.5, 1.3]])   # entre os dois, a frente (a placa do ano fica atras); tem_.add(HEROI); b.setdefault('_auto_obj', []).append(HEROI)
         for rx_, as_, sc_, big_ in OBJ_DICT:
-            if n_auto >= 2 or as_ in tem_ or not re.search(rx_, _say_sp): continue
+            if n_auto >= 2 or as_ in tem_ or any(_fam(t_) == _fam(as_) for t_ in tem_) or not re.search(rx_, _say_sp): continue
             if (big_ is True and (b.get('interior') or wide_pre)) or (big_ == 'in' and not b.get('interior')): continue
             if as_ == 'kit/throne': props = props + [[as_, 0, -2.6, sc_]]; tem_.add(as_); n_auto += 1; b.setdefault('_auto_obj', []).append(as_); continue
             if big_ is True: props = props + [[as_, (6.0 if k % 2 else -6.0), -9.5, sc_]]; b['fachada'] = False
@@ -410,6 +433,32 @@ def build_beat(k, b):
         v = b.get(kk, T.get(kk))
         if v is not None: opts.append(f'{kk}: {num(v)}')
     if wx: opts.append('wx: ' + json.dumps(wx))
+    # INTERACAO FISICA: em cena media com 2+ pessoas, os dois principais agem um SOBRE o outro (nao so' falam para a camera). Escolhida pelo texto; sem pista no texto, roda uma lista sem repetir (comeca num ponto diferente em cada video).
+    if not wide and len(persons) >= 2 and b.get('interacao') is not False and not b.get('veiculo') and not (shot == 'track' or mv) and len(acts) >= 2:
+        if b.get('interacao'): pair = {'empurrar': ('shove', 'stagger'), 'discutir': ('lunge', 'lunge'), 'cochichar': ('lean', 'lean'), 'entregar': ('step', 'nod'), 'susto': ('lean', 'recoil'), 'reverencia': ('nod', 'bow'), 'pular': ('hop', 'hop')}.get(b['interacao'], ('lean', 'nod')); nome = b['interacao']
+        elif re.search(r'empurr|\bsoco|socou|\bbateu|agred|chutou|derrubou|expuls|arranc|tomou d', _say_sp): pair, nome = ('shove', 'stagger'), 'empurrar'
+        elif _acao == 'discutir': pair, nome = ('lunge', 'lunge'), 'discutir'
+        elif re.search(r'cochich|segredo|\bplano\b|combin|\btrato|acordo|negoci|sussurr', _say_sp): pair, nome = ('lean', 'lean'), 'cochichar'
+        elif re.search(r'entreg|pagou|pagar|\bdeu\b|vendeu|comprou|ofereceu|cobrou|\bconta\b|presente|emprest|trocou', _say_sp): pair, nome = ('step', 'nod'), 'entregar'
+        elif re.search(r'curvou|reverenc|obedec|ordenou|majestade|ajoelh', _say_sp): pair, nome = ('nod', 'bow'), 'reverencia'
+        elif _acao == 'comemorar': pair, nome = ('hop', 'hop'), 'pular'
+        elif persons[1][2] in ('shock', 'nervous', 'pained'): pair, nome = ('lean', 'recoil'), 'susto'
+        else:
+            POOL = [(('lean', 'nod'), 'aproxima-se'), (('step', 'recoil'), 'avanca e o outro recua'), (('nod', 'lean'), 'o outro se aproxima'), (('lunge', 'nod'), 'insiste'), (('step', 'nod'), 'vai ate o outro')]
+            pair, nome = POOL[(sum(ord(c) for c in ID) + STATE.get('inter_n', 0)) % len(POOL)]; STATE['inter_n'] = STATE.get('inter_n', 0) + 1
+        _ALLI = [(('lean', 'nod'), 'aproxima-se'), (('step', 'recoil'), 'avanca e o outro recua'), (('lunge', 'lunge'), 'discutir'), (('nod', 'lean'), 'o outro se aproxima'), (('shove', 'stagger'), 'empurrar'), (('step', 'nod'), 'vai ate o outro'), (('lean', 'lean'), 'cochichar'), (('lean', 'recoil'), 'susto'), (('lunge', 'nod'), 'insiste'), (('nod', 'bow'), 'reverencia')]
+        _used = STATE.setdefault('inter_used', [])
+        if nome in _used and not b.get('interacao'):   # cada video usa interacoes DIFERENTES de cena para cena
+            _h = sum(ord(c) for c in ID); _alt = [_ALLI[(_h + j) % len(_ALLI)] for j in range(len(_ALLI))]
+            _alt = [x for x in _alt if x[1] not in _used and (x[1] not in ('empurrar', 'reverencia') or _acao == 'discutir')] or [x for x in _alt if x[1] not in _used]
+            if _alt: pair, nome = _alt[0]
+        _used.append(nome)
+        for i_ in (0, 1):
+            if not acts[i_].startswith('pp(') or (b.get('_chega') and i_ == len(persons) - 1): continue
+            dir_ = 1 if sl[1 - i_] > sl[i_] else -1
+            it_ = f"inter: {{ k: '{pair[i_]}', a: Math.round({a} + ({bb} - ({a})) * {0.12 if i_ == 0 else 0.2}), b: Math.round({a} + ({bb} - ({a})) * {0.82 if i_ == 0 else 0.9}), dir: {dir_}, n: 2, ph: {0 if i_ == 0 else 3.14} }}"
+            acts[i_] = (acts[i_][:-3].rstrip() + ', ' + it_ + ' })') if acts[i_].endswith('})') else (acts[i_][:-1] + ', { ' + it_ + ' })')
+        b['_inter'] = nome
     if wide: opts.append("hero: { hero: 'none', wide: true }"); opts.append('vary: false'); opts.append('nocut: true')   # plano aberto = UMA tomada continua (camera abrindo/girando), sem sub-corte
     elif b.get('veiculo'): opts.append("hero: { hero: 'none' }")   # motorista fica atras do carro de proposito
     elif persons: opts.append("hero: { hero: 'any', frame: 'medium', minH: 0.07, main: %d }" % len(persons))
@@ -460,15 +509,19 @@ def build_beat(k, b):
                f"{{ f: {bb}, at: [X + {num(x1v)}, DK + 1.9, {num(zv)}], d: {num(dd * 0.9)}, az: {-10 if x1v >= x0v else 10}, el: 8, fov: 40, ease: 'lin' }}]")
         call = f"{{ ...{call}, {cam}, nocut: true }}"
     # DETALHE DE OBJETO (canal: 5-15% do video e' close no objeto da historia): no meio da cena a camera desliza ate o objeto ou a placa e volta
-    _obj = next((p_ for p_ in b.get('props', []) if not str(p_[0]).startswith(('kit/room', 'kit/porch', 'kit/grave', 'kit/cross', 'kit/tulip_bed', 'buildings/', 'vehicles/'))), None)
+    _cands = [p_ for p_ in props if not str(p_[0]).startswith(('kit/room', 'kit/porch', 'kit/grave', 'kit/cross', 'kit/tulip_bed', 'buildings/', 'vehicles/', 'ship'))]
+    _fam2 = lambda x_: re.sub(r'_(red|yellow|purple|striped)$', '', str(x_))
+    _obj = next((p_ for p_ in _cands if HEROI and _fam2(p_[0]) == _fam2(HEROI)), None); _eh = _obj is not None
+    _obj = _obj or next(iter(_cands), None)
     _placa = bool(b.get('text')) and "board:" in call
-    if (b.get('detalhe') is not False and not wide and not b.get('impact') and not b.get('veiculo') and not (shot == 'track' or mv) and k > 0 and k < len(beats) - 1
-            and (_obj or _placa) and len(b['say'].split()) >= 11 and STATE.get('detalhes', 0) < int(B.get('max_detalhes', 3))):
+    if (b.get('detalhe') is not False and not wide and not b.get('impact') and not b.get('veiculo') and not (shot == 'track' or mv) and (k > 0 or _eh) and k < len(beats) - 1
+            and (_obj or _placa) and len(b['say'].split()) >= (8 if _eh else 11) and (STATE.get('detalhes', 0) < int(B.get('max_detalhes', 3)) or (_eh and not STATE.get('det_heroi')))):
+        if _eh: STATE['det_heroi'] = STATE.get('det_heroi', 0) + 1; b['_det_heroi'] = True
         Fq = lambda q: f"Math.round({a} + ({bb} + 1 - ({a})) * {q})"
         if _obj:
             ox, oz, os_ = (float(_obj[1]) if len(_obj) > 1 else 0.0), (float(_obj[2]) if len(_obj) > 2 else 0.5), (float(_obj[3]) if len(_obj) > 3 else 1.0)
-            oy_ = float(_obj[4].get('alto', 0.75)) if len(_obj) > 4 and isinstance(_obj[4], dict) else (1.45 if 'tulip' in str(_obj[0]) else 0.75)   # altura do centro do objeto ("alto" no 5o campo do prop)
-            k0 = (ox, oy_ * os_, oz, 4.6 if oy_ > 1 else 4.2, 14 if ox < 0 else -14, 6 if oy_ > 1 else 10, 44); k1 = (ox, oy_ * os_, oz, 3.8 if oy_ > 1 else 3.4, 8 if ox < 0 else -8, 5 if oy_ > 1 else 9, 44)
+            oy_ = float(_obj[4].get('alto', 0.75)) if len(_obj) > 4 and isinstance(_obj[4], dict) else (1.62 if 'tulip' in str(_obj[0]) else 1.2 if str(_obj[0]) in ('kit/cake_table', 'kit/throne') else 0.75)   # altura do centro do objeto ("alto" no 5o campo do prop)
+            k0 = (ox, oy_ * os_, oz, (5.6 if oy_ > 1.5 else 5.0) if oy_ > 1 else 4.2, 14 if ox < 0 else -14, 6 if oy_ > 1 else 10, 44); k1 = (ox, oy_ * os_, oz, (4.7 if oy_ > 1.5 else 4.2) if oy_ > 1 else 3.4, 8 if ox < 0 else -8, 5 if oy_ > 1 else 9, 44)
         else: k0 = (0.0, 3.25, -1.3, 6.4, 6, -3, 44); k1 = (0.0, 3.25, -1.3, 5.4, -4, -3, 44)
         Kc = lambda f_, q: f"{{ f: {f_}, at: [X + {num(q[0])}, DK + {num(q[1])}, {num(q[2])}], d: {num(q[3])}, az: {num(q[4])}, el: {num(q[5])}, fov: {num(q[6])} }}"
         base = call; pid = f"S('b{k}', {a}, {bb}, X,"
@@ -491,7 +544,7 @@ const X = {SETX}, DK = 6;{''.join(f' const X_{n} = {SETS_X[n]};' for n in USED_S
 const WS = (i, off = 0) => TIMING.words[Math.min(i, TIMING.words.length - 1)][0] + off;   // frame em que a palavra de indice i comeca
 const A = [{A_js}];
 const SPEC = {{
-  id: {json.dumps(ID)}, {('exp: '+str(B['exp'])+', ') if 'exp' in B else ''}{('cinf: '+str(B['cinf'])+', ') if 'cinf' in B else ''}cutLen: 54, dissolveN: 7, glideN: 20, creep: 0.003, total: TOTAL_F(), sets: {json.dumps(USED_SETS)}, setx: {{ {SET}: X{''.join(f', {n}: X_{n}' for n in USED_SETS[1:])} }},
+  id: {json.dumps(ID)}, {('exp: '+str(B['exp'])+', ') if 'exp' in B else ''}{('cinf: '+str(B['cinf'])+', ') if 'cinf' in B else ''}vseed: {sum(ord(c) for c in ID) % 6}, cutLen: 54, dissolveN: 7, glideN: 20, creep: 0.003, total: TOTAL_F(), sets: {json.dumps(USED_SETS)}, setx: {{ {SET}: X{''.join(f', {n}: X_{n}' for n in USED_SETS[1:])} }},
   outfits: {{ {(','+chr(10)+'    ').join(outfits_js)} }},
   assets: {json.dumps(assets)},
   kicks: [{', '.join(KICKS)}], flashes: [],
@@ -539,10 +592,12 @@ for k, b in enumerate(beats):
     objs = [str(p_[0]) for p_ in b.get('props', [])] + b.get('_auto_obj', []) + [a_[0] for a_ in b.get('animals', [])] + (['emus'] if b.get('emus') else []) + ([b['veiculo'].get('asset', 'carro')] if b.get('veiculo') else [])
     falta = sorted(set(re.findall(FALTA_MODELAR, sp_)) | {o_ for o_ in objs if '/' in o_ and not _lib(o_)}); _falt_all |= set(falta)
     maos = [w.split(':')[3] for w in b.get('who', []) if len(w.split(':')) > 3]
-    acao = ', '.join(x for x in ((b.get('_acao') or ''), ('alguem chega andando' if b.get('_chega') else ''), ('andando' if b.get('shot') == 'track' or b.get('move') else ''), ('batalha' if b.get('impact') else '')) if x) or ('usa o objeto da mao' if maos else 'parados (so fala e pisca)')
+    acao = ', '.join(x for x in ((b.get('_acao') or ''), ('INTERAGEM: ' + b['_inter'] if b.get('_inter') else ''), ('alguem chega andando' if b.get('_chega') else ''), ('andando' if b.get('shot') == 'track' or b.get('move') else ''), ('batalha' if b.get('impact') else '')) if x) or ('usa o objeto da mao' if maos else 'parados (so fala e pisca)')
     npers = len(b.get('who', [])) + int((b.get('crowd') or {}).get('n', 0))
     _pre.append(f"b{k} | {'interior ' + str(b['interior']) if b.get('interior') else b.get('set', SET)} | {b.get('shot')} | {npers} | {acao} | {', '.join(dict.fromkeys(objs)) or '-'} | {', '.join(maos) or '-'} | {', '.join(falta) or '-'}")
 _par = sum(1 for l_ in _pre if 'parados (so fala e pisca)' in l_)
+_nm = sum(1 for b in beats if b.get('impact')); _nh = sum(1 for b in beats if HEROI and (HEROI in [str(p_[0]) for p_ in b.get('props', [])] + b.get('_auto_obj', []) or any(re.sub(r'_(red|yellow|purple|striped)$', '', str(p_[0])) == re.sub(r'_(red|yellow|purple|striped)$', '', HEROI) for p_ in b.get('props', [])))); _nd = sum(1 for b in beats if b.get('_det_heroi'))
+_pre += ['', f'OBJETO HEROI: {HEROI or "nenhum achado (ponha \"heroi\": \"kit/...\" no topo do roteiro)"}' + (f' - aparece em {_nh} cena(s), close nele em {_nd}' + ('  << AVISO: sem close no objeto heroi' if not _nd else '') if HEROI else ''), f'GRANDES MOMENTOS (plano aberto com multidao, efeito e som): {_nm}' + ('  << AVISO: menos de 2' if _nm < 2 else '') + ' -> ' + ', '.join(f'b{i}' for i, b in enumerate(beats) if b.get('impact')), 'Interacoes entre personagens: ' + (', '.join(f"b{i} {b['_inter']}" for i, b in enumerate(beats) if b.get('_inter')) or 'nenhuma')]
 _pre += ['', f'Cenas com personagens parados: {_par} de {len(beats)}' + (' -> ponha "acao": "conversar|discutir|comemorar|dancar", um objeto na mao ou alguem chegando' if _par > len(beats) // 3 else ''), 'FALTA MODELAR: ' + (', '.join(sorted(_falt_all)) if _falt_all else 'nada')]
 open(f'stories/{ID}/preproducao.md', 'w', encoding='utf-8').write('\n'.join(_pre) + '\n')
 print(f"pre-producao: {_par} cena(s) com personagens parados de {len(beats)}; falta modelar: {', '.join(sorted(_falt_all)) or 'nada'} (stories/{ID}/preproducao.md)")

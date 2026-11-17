@@ -14,5 +14,5 @@ b8 | two | -  | - | correu (dust + som de impacto); perdeu (puff + som de baque)
 b9 | two | -  | placa: 600.000, objeto na mao | pagou (stars + som de sino) | -
 b10 | close | -  | objeto na mao | - | -
 
-Mistura de planos: close 20% | medio 66% | aberto 12% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 20% | medio 61% | aberto 12% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal
