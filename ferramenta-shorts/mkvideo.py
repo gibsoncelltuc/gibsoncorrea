@@ -159,7 +159,8 @@ if B.get('director') is not False and len(beats) >= 5:
 
 def build_beat(k, b):
     shot = b.get('shot', 'two'); T = dict(TEMPL.get(shot, TEMPL['two']))
-    if b.get('impact') and shot in WIDE: T.update(d0=30.0, d1=23.0, el=12, h=2.6)   # BATALHA: visao ampla de verdade (cenario, tropa inteira, inimigo fugindo ao fundo)
+    if b.get('impact') and shot in WIDE and b.get('caminhoes'): T.update(d0=13.0, d1=31.0, el=11, h=2.6); T.pop('az0', None); T.pop('az1', None)   # comeca na tropa subindo nos caminhoes e ABRE para a fazenda inteira
+    elif b.get('impact') and shot in WIDE: T.update(d0=30.0, d1=23.0, el=12, h=2.6)   # BATALHA: visao ampla de verdade (cenario, tropa inteira, inimigo fugindo ao fundo)
     elif shot == 'reveal': T.update(d0=11.0, d1=27.0, el=10)
     _n = len(b.get('who', []))
     if shot in ('two', 'group', 'low') and _n >= 3: T['d0'] *= 1 + 0.13 * (_n - 2); T['d1'] *= 1 + 0.13 * (_n - 2)   # 3+ pessoas: abre o suficiente para caber todo mundo
@@ -228,7 +229,7 @@ def build_beat(k, b):
                 acts.append(f"{{ bird: 'emu', at: [X + {num(x0 - 11 * dr)}, {num(z0)}], move: [[X + {num(x0 + 11 * dr)}, {num(z0)}], {a}, {bb}, 'lin'], state: 'walk', spd: 0.09, s: 1.6, flip: {'false' if dr > 0 else 'true'}, seed: {i * 5 + 2} }}")
             elif mode == 'scatter':
                 ang = (i / max(n_e, 1)) * 2 * _m.pi + 0.4; tx, tz = x0 + 11 * _m.cos(ang), z0 + 6 * _m.sin(ang)
-                if b.get('impact'): ang = -1.15 + 2.3 * i / max(n_e - 1, 1); tx, tz = x0 + (1 if ex0 >= 0 else -1) * 14 * _m.cos(ang), z0 + 8 * _m.sin(ang)   # na batalha os bichos fogem PARA LONGE da tropa, abrindo em leque
+                if b.get('impact'): ang = -1.15 + 2.3 * i / max(n_e - 1, 1); tx, tz = x0 + (1 if ex0 >= 0 else -1) * 8 * _m.cos(ang), z0 + 6 * _m.sin(ang)   # na batalha os bichos fogem PARA LONGE da tropa, abrindo em leque
                 acts.append(f"{{ bird: 'emu', at: [X + {num(x0)}, {num(z0)}], move: [[X + {num(tx)}, {num(tz)}], {a}, {bb}], state: 'walk', spd: 0.09, s: 1.6, flip: {'true' if tx < x0 else 'false'}, seed: {i * 5 + 2} }}")
             else:
                 acts.append(f"{{ bird: 'emu', at: [X + {num(x0)}, {num(z0)}], state: {json.dumps('peck' if (i % 3 == 1 and em.get('peck', True)) else 'stand')}, s: 1.6, flip: {'true' if i % 2 == 0 else 'false'}, seed: {i * 5 + 2} }}")
@@ -255,7 +256,8 @@ def build_beat(k, b):
             tx, tz = -9.0 + t_ * 7.5 + (-6.5 if b.get('emus') else 0) + 4.0, -5.6 - (t_ % 2) * 1.2
             truck_props.append(f"{{ asset: {json.dumps(b.get('caminhao', 'vehicles/truck'))}, at: [X + {num(tx)}, {num(tz)}], s: 1.0, ry: 1.5708, drop: false }}")
             for q_, dx_ in enumerate((-1.5, -0.3, 0.9)):
-                acts.append(f"pp(X, {json.dumps(_oc)}, {q_}, {num(tx + dx_)}, {num(tz + 0.15)}, 'stern', {{ y: {num(b.get('caminhao_y', 1.15))}, look: 0.3, seed: {q_ + t_ * 3} }})"); crowd_pos.append((tx + dx_, tz))
+                # os soldados SOBEM na carroceria no comeco da tomada (um depois do outro) e so' entao atiram
+                acts.append(f"pp(X, {json.dumps(_oc)}, {q_}, {num(tx + dx_)}, {num(tz + 0.15)}, 'stern', {{ y: (f) => {num(b.get('caminhao_y', 0.95))} * Math.min(1, Math.max(0, (f - ({a}) - {8 + q_ * 9 + t_ * 5}) / 16)), look: 0.3, seed: {q_ + t_ * 3} }})"); crowd_pos.append((tx + dx_, tz))
     # veiculo andando: "veiculo": {"asset":"vehicles/car","de":-9,"para":9,"z":0.6,"s":1.0,"motorista":"FARM:0:smile"}
     pr = list(truck_props)
     vc = b.get('veiculo')
@@ -310,10 +312,11 @@ def build_beat(k, b):
         elif kind in ('dust', 'puff', 'stars', 'splash', 'ring', 'creak'): fx.append(f"{{ k: {json.dumps(kind)}, a: {a} + {at}, b: {a} + {at + 26}, at: [X, DK + 0.5, 1.2], s: 1.1 }}")
     _armed = any(B.get('outfits', {}).get(o_, {}).get('rifle') for o_ in ([p_[0] for p_ in persons] + list((b.get('crowd') or {}).get('outfits') or [(b.get('crowd') or {}).get('outfit')])) if o_)
     if b.get('impact') and b.get('tiros') is not False and (SHOOT.search(nrm(b['say'])) or _armed or b.get('batalha')) and crowd_pos:   # fuzilaria cartunesca: clarões piscando pela tropa + som de tiro
-        for i in range(12):
-            px, pz = crowd_pos[(i * 5 + 2) % len(crowd_pos)]; t0 = 8 + i * 6
-            fx.append(f"{{ k: 'flash', a: {a} + {t0}, b: {a} + {t0 + 8}, at: [X + {num(px + 0.75)}, DK - 1.05, {num(pz + 0.4)}], s: 2.0 }}")   # a carta do efeito ancora pela base: y baixo poe o clarao na altura do fuzil
-        b.setdefault('sfx', []); b['sfx'] += [f'gun@{8 + i * 6}' for i in range(12)]
+        _off = 46 if b.get('caminhoes') else 8; _dur = int(len(b['say'].split()) / 2.7 * 30); _nf = max(8, min(40, (_dur - _off - 12) // 5))   # tiros durante a tomada INTEIRA (depois de a tropa subir nos caminhoes)
+        for i in range(_nf):
+            px, pz = crowd_pos[(i * 5 + 2) % len(crowd_pos)]; t0 = _off + i * 5 + (i * 7) % 4
+            fx.append(f"{{ k: 'flash', a: {a} + {t0}, b: {a} + {t0 + 8}, at: [X + {num(px + 0.75)}, DK - 1.05 + {num(b.get('caminhao_y', 0.95) if pz < -5 and b.get('caminhoes') else 0)}, {num(pz + 0.4)}], s: {2.5 if wide else 2.0} }}")   # a carta do efeito ancora pela base: y baixo poe o clarao na altura do fuzil
+        b.setdefault('sfx', []); b['sfx'] += [f'gun@{_off + i * 5 + (i * 7) % 4}' for i in range(_nf)]
     # animacao nas palavras-chave: golpe de camera + efeito no instante da palavra
     kfx = 0
     if b.get('kw') is not False:
