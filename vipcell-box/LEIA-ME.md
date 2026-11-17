@@ -35,8 +35,18 @@ pra qualquer PC e abre com dois cliques.
 | `vipcell_box.py` | o programa (janela) |
 | `detector.py` | a mesma detecção, versão de terminal |
 | `core.py` | núcleo de detecção (compartilhado) |
+| `mtk_recovery.py` | recuperação MediaTek (dead boot) pilotando o mtkclient |
+| `RECUPERAR-G56.md` | passo a passo do Moto G56 (Dimensity 7060) |
 | `build_exe.bat` | gera o `VipcellBox.exe` |
 | `requirements.txt` | dependências (pyusb) |
+
+## Recuperação MediaTek (dead boot)
+
+Quando a Box detecta um MediaTek em BROM/Preloader, o card mostra 3 botões: **ler info**
+(seguro), **backup** (seguro) e **restaurar boot** (grava do firmware que você baixou). O
+motor é o **mtkclient** — instale com `pip install mtkclient`. Para usar a recuperação,
+rode pela versão Python (`python vipcell_box.py`), porque o `.exe` empacotado não hospeda o
+mtkclient. Passo a passo do G56 em `RECUPERAR-G56.md`. **Nada de firmware vem embutido.**
 
 ## O que reconhece
 
