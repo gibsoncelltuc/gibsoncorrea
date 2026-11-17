@@ -88,8 +88,8 @@ KW = [  # (regex da palavra, efeito, golpe de camera) -- animacao nas palavras-c
     (re.compile(r'^(tiro|tiros|disparou|dispararam|disparo|disparos|atirava|atiravam|atirou|atiraram|atirar|explodiu|explodiram|explosao|canhoes|canhao|fogo|bomba|bombas|metralhadora|metralhadoras|balas|bala|artilharia)$'), 'burst', 0.09),
     (re.compile(r'^(gritou|gritaram|socorro|ataque|atacar|atacaram|alarme)$'), 'ring', 0.06),
     (re.compile(r'^(panico|correu|correram|fugiu|fugiram|correria|debandada|fuga|retirada|recuou|recuaram|bateu|marchando|marchava|marcharam|perder)$'), 'dust', 0.07),
-    (re.compile(r'^(festa|beberam|brindou|brindaram|comemoraram|venceu|venceram|ganhou|ganharam|vitoria|compraram|comprou|vendendo|vendeu|venderam)$'), 'stars', 0.0),
-    (re.compile(r'^(empurra|empurrouse|briga|brigaram|discussao|confusao|caos|desastre)$'), 'puff', 0.05),
+    (re.compile(r'^(festa|beberam|brindou|brindaram|comemoraram|venceu|venceram|ganhou|ganharam|vitoria|compraram|comprou|comprando|vendendo|vendeu|venderam|vender|dancar|dancou|dancando|danca|dancarinos|musica|musicos|rindo|riso|roubaram|roubou)$'), 'stars', 0.0),
+    (re.compile(r'^(empurra|empurrouse|briga|brigar|brigaram|discussao|confusao|caos|desastre)$'), 'puff', 0.05),
     (re.compile(r'^(chegou|chegaram|apareceu|surgiu|invadiu|desabou|caiu|cairam|quebrou|quebraram|derrubou|afundou|tombou)$'), 'dust', 0.04),
     (re.compile(r'^(riu|riram|risada|gargalhou|gargalhada|gargalhadas|dinheiro|ouro|moedas|recompensa|pagou|pagar|pagaram|fortuna|premio|sino|tocou|tocar)$'), 'stars', 0.0),
     (re.compile(r'^(morreu|morreram|morto|mortos|baixas|derrota|derrotado|perdeu|perderam|desistiu|fracasso|faliu)$'), 'puff', 0.03),
@@ -198,6 +198,8 @@ def build_beat(k, b):
     HOLDS = (('mug', r'beber|bebeu|bebia|brind|caneca|cerveja|cha\b'), ('bottle', r'garrafa|aguardente|vinho|bebida|rum|whisky|uisque'), ('paper', r'carta|jornal|imprensa|ordem|documento|mapa|contrato|telegrama|relatorio|lista|assinou|lei\b'), ('book', r'livro|biblia|diario'), ('lantern', r'lanterna|lampiao|lamparina'), ('torch', r'tocha|incendi'), ('flag', r'bandeira|rendeu|rendicao'), ('coin', r'dinheiro|moeda|ouro|recompensa|pagou|pagar|fortuna|salario|imposto'), ('bag', r'saco|mala|bagagem|sacola'), ('spyglass', r'luneta|avistou|avistaram|procurar|vigia|observ'))
     _say_sp = re.sub(r'[^a-z0-9 ]', '', unicodedata.normalize('NFKD', b['say'].lower()).encode('ascii', 'ignore').decode())
     auto_hold = next((h for h, rx in HOLDS if re.search(rx, _say_sp)), None) if b.get('maos') is not False else None
+    _acao = b.get('acao') or ('dancar' if re.search(r'\bdanc', _say_sp) else None)
+    _px = ", pose: 'dance', acting: false" if _acao == 'dancar' else ''
     persons = []
     for w in who:
         p = w.split(':'); out = p[0]; v = int(p[1]) if len(p) > 1 and p[1] != '' else 0; ex = (p[2] if len(p) > 2 else '') or 'neutral'; hold = p[3] if len(p) > 3 else None   # 4o campo: objeto na mao
@@ -212,7 +214,7 @@ def build_beat(k, b):
             d = mv if mv else 8
             acts.append(f"{{ outfit: {json.dumps(out)}, v: {v}, at: [X + {num(dx - d / 2)}, {num(z)}], move: [[X + {num(dx + d / 2)}, {num(z)}], {a}, {bb}, 'lin'], pose: {json.dumps('march' if B.get('outfits', {}).get(out, {}).get('rifle') else 'stroll')}, expr: {json.dumps(ex)}{ov} }}")   # soldado marcha; civil caminha solto
         else:
-            acts.append(f"pp(X, {json.dumps(out)}, {v}, {num(dx)}, {num(z)}, {json.dumps(ex)}" + (f", {{ over: {{ hold: {json.dumps(hold)} }} }})" if hold else ')'))
+            acts.append(f"pp(X, {json.dumps(out)}, {v}, {num(dx)}, {num(z)}, {json.dumps(ex)}" + (f", {{ over: {{ hold: {json.dumps(hold)} }}{_px} }})" if hold else (f", {{ {_px[2:]} }})" if _px else ')')))
     # animais
     for j, an in enumerate(animals):
         sp = an[0]; dxa = an[1] if len(an) > 1 else 2.2 + j * 1.8; za = an[2] if len(an) > 2 else 0.6; st = an[3] if len(an) > 3 else 'stand'
@@ -253,7 +255,7 @@ def build_beat(k, b):
             if c.get('march'):
                 acts.append(f"{{ outfit: {json.dumps(out)}, v: {i % 4}, at: [X + {num(x0 - 9)}, {num(z0)}], move: [[X + {num(x0 + 3)}, {num(z0)}], {a}, {bb}, 'lin'], pose: 'march', speed: 0.034, expr: {json.dumps(ex)}, seed: {i % 4}, look: {look} }}")
             else:
-                acts.append(f"pp(X, {json.dumps(out)}, {i % 4}, {num(x0)}, {num(z0)}, {json.dumps(ex)}, {{ look: {look}, seed: {i % 4} }})")
+                acts.append(f"pp(X, {json.dumps(out)}, {i % 4}, {num(x0)}, {num(z0)}, {json.dumps(ex)}, {{ look: {look}, seed: {i % 4 + (i * 3 if _px else 0)}{_px} }})")
     # BATALHA COM CAMINHOES: "caminhoes": 2 -> caminhoes atras da tropa com soldados em pe na carroceria, atirando
     truck_props = []
     if b.get('caminhoes') and b.get('crowd'):
@@ -419,7 +421,7 @@ for k, b in enumerate(beats):
 for wi, nm in KWSFX: c2.append(f"{nm}(F(int(_W({wi}))))")
 # ---------- PLANO DE ACAO: le o roteiro, separa os pontos-chave e confere se cada um tem acao + som ----------
 _SOM = {'burst': 'tiro/explosao', 'ring': 'alerta', 'dust': 'impacto', 'puff': 'baque', 'stars': 'sino'}
-_ACAO = re.compile(r'^(?!atirador)(atir|tiro|dispar|explod|canh|bomb|grit|berr|corr|fug|caiu|cairam|caindo|quebr|bateu|bateram|brig|lutou|lutaram|lutando|atac|invad|morre|matou|mataram|beb|brind|riu|riram|rindo|gargalh|chor|danc|cantou|cantaram|tocou|tocar|tocando|sino|pagou|pagar|compr|vend|roub|queim|incend|constru|cavou|cavar|enterr|naveg|afund|voou|voar|voando|nadou|nadar|marcha|cheg|descobr|perceb|assin|rende|vence|perde)')
+_ACAO = re.compile(r'^(?!atirador|vendedor|chegar$)(atir|tiro|dispar|explod|canh|bomb|grit|berr|corr|fug|caiu|cairam|caindo|quebr|bateu|bateram|brig|lutou|lutaram|lutando|atac|invad|morre|matou|mataram|beb|brind|riu|riram|rindo|gargalh|chor|danc|cantou|cantaram|tocou|tocar|tocando|sino|pagou|pagar|compr|vend|roub|queim|incend|constru|cavou|cavar|enterr|naveg|afund|voou|voar|voando|nadou|nadar|marcha|cheg|descobr|perceb|assin|rende|vence|perde)')
 _pl = ['# Plano de acao - ' + str(B.get('title', ID)), '', 'Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito', '---|---|---|---|---|---']
 _sem = 0
 for k, b in enumerate(beats):

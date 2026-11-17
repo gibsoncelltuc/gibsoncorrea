@@ -1,0 +1,181 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "title": "A Febre das Tulipas",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "outfits": {
+  "MER": {
+   "jacket": "#2e2a36",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "tophat",
+   "buttons": "#e8c45a",
+   "build": "stout"
+  },
+  "POV": {
+   "jacket": "#7a9ac2",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hats": [
+    "cap",
+    "bowler",
+    "bonnet",
+    "straw"
+   ],
+   "cap": "#8a5a3a"
+  },
+  "MAR": {
+   "jacket": "#2f5f6a",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "beret",
+   "cap": "#27408b"
+  },
+  "RIC": {
+   "jacket": "#7b5ac9",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "bowler",
+   "sash": "#e8c45a"
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "MER:0:grin:coin",
+    "POV:0:shock"
+   ],
+   "text": "1637",
+   "say": "Uma única flor já custou o preço de uma casa inteira."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "POV:1:smile",
+    "RIC:0:grin"
+   ],
+   "mapa": "HOLANDA",
+   "mapa_at": 2,
+   "say": "Era a Holanda, e a tulipa tinha acabado de chegar do Oriente. Colorida, rara, e na moda."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MER:0:grin:paper",
+    "RIC:0:shock:coin"
+   ],
+   "interior": "loja",
+   "say": "Os ricos queriam as mais raras. \"Dou mil moedas por esse bulbo\", dizia um. \"Dou duas mil\", dizia outro."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "POV:0:grin",
+    "POV:1:laugh",
+    "MER:0:grin"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POV",
+     "RIC",
+     "MER"
+    ],
+    "march": false,
+    "expr": "grin"
+   },
+   "fx": [
+    "stars@30",
+    "stars@80"
+   ],
+   "sfx": [
+    "ding@30",
+    "ding@80"
+   ],
+   "text": "TODO MUNDO",
+   "titulo": true,
+   "say": "Logo, o país inteiro estava comprando. Padeiros, sapateiros, gente que nunca tinha plantado nada."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "POV:2:grin:paper",
+    "POV:3:smile:coin"
+   ],
+   "say": "Ninguém queria a flor de verdade. Queriam vender o papel mais caro na semana seguinte, e ficar ricos."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MAR:0:smile",
+    "MER:0:shock"
+   ],
+   "interior": "madeira",
+   "say": "Contam que um marinheiro comeu um bulbo no almoço, achando que era cebola. Valia uma fortuna."
+  },
+  {
+   "shot": "group",
+   "who": [
+    "MER:0:nervous:paper",
+    "POV:0:neutral",
+    "POV:1:stern"
+   ],
+   "interior": "loja",
+   "hora": "dia",
+   "clima": "neve",
+   "say": "Acontece que, num leilão de inverno, o vendedor abriu os lances, e ninguém levantou a mão."
+  },
+  {
+   "shot": "orbit",
+   "who": [
+    "POV:2:shock",
+    "RIC:0:pained"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POV",
+     "RIC",
+     "MER"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
+   "fx": [
+    "dust@40",
+    "puff@90"
+   ],
+   "sfx": [
+    "sting@20",
+    "thump@40",
+    "thump@90"
+   ],
+   "text": "PÂNICO",
+   "titulo": true,
+   "say": "A notícia correu. Em poucos dias, todo mundo quis vender, e não havia mais comprador."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "RIC:0:pained:paper",
+    "MER:0:pained"
+   ],
+   "clima": "limpo",
+   "say": "Os preços desabaram. Quem tinha trocado a casa por flores ficou só com as flores, e as dívidas."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "MAR:0:grin"
+   ],
+   "say": "O marinheiro, pelo menos, almoçou bem."
+  }
+ ]
+}

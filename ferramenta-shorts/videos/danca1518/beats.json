@@ -1,0 +1,185 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "title": "A Praga da Dança",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "outfits": {
+  "TRO": {
+   "jacket": "#b5333a",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "bonnet",
+   "dress": "#c25a7a"
+  },
+  "POV": {
+   "jacket": "#7a9ac2",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hats": [
+    "cap",
+    "straw",
+    "bonnet",
+    "beret"
+   ],
+   "cap": "#8a5a3a"
+  },
+  "PRE": {
+   "jacket": "#2e2a36",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "tophat",
+   "sash": "#d8282f",
+   "build": "stout"
+  },
+  "MED": {
+   "jacket": "#3a3a4a",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "bowler"
+  },
+  "MUS": {
+   "jacket": "#d9a441",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "beret",
+   "cap": "#8a2b2b"
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "TRO:0:laugh",
+    "POV:1:shock"
+   ],
+   "text": "1518",
+   "say": "Uma mulher começou a dançar no meio da rua, e não conseguiu mais parar."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "TRO:0:pained",
+    "POV:0:nervous"
+   ],
+   "mapa": "ESTRASBURGO",
+   "mapa_at": 3,
+   "say": "Era verão em Estrasburgo. Ela dançou o dia inteiro, a noite inteira, e continuou no dia seguinte.",
+   "hora": "dia"
+  },
+  {
+   "shot": "group",
+   "who": [
+    "TRO:0:pained",
+    "POV:1:laugh",
+    "POV:2:grin",
+    "POV:3:pained"
+   ],
+   "say": "Em uma semana, mais de trinta vizinhos estavam dançando com ela. Ninguém sabia por quê."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "POV:0:pained",
+    "POV:1:pained",
+    "TRO:0:pained"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POV",
+     "TRO"
+    ],
+    "march": false,
+    "expr": "pained"
+   },
+   "fx": [
+    "stars@40",
+    "dust@90"
+   ],
+   "sfx": [
+    "ding@40",
+    "thump@90"
+   ],
+   "text": "400",
+   "titulo": true,
+   "say": "Em um mês, eram quatrocentas pessoas, de pés sangrando, pedindo socorro, sem conseguir parar."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PRE:0:stern",
+    "MED:0:nervous:book"
+   ],
+   "interior": "pedra",
+   "say": "O prefeito chamou os médicos. \"É sangue quente\", disseram eles. \"O remédio é dançar mais.\"",
+   "acao": "nenhuma"
+  },
+  {
+   "shot": "group",
+   "who": [
+    "MUS:0:grin:flag",
+    "MUS:1:laugh",
+    "PRE:0:grin"
+   ],
+   "text": "PALCO",
+   "say": "Acontece que a cidade levou isso a sério. Montou um palco, e contratou músicos para animar a multidão."
+  },
+  {
+   "shot": "orbit",
+   "who": [
+    "POV:2:pained",
+    "POV:3:pained"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POV",
+     "MUS"
+    ],
+    "march": false,
+    "expr": "pained"
+   },
+   "fx": [
+    "dust@50",
+    "puff@110"
+   ],
+   "sfx": [
+    "thump@50",
+    "sting@110"
+   ],
+   "say": "Foi a pior ideia possível. Com música, mais gente entrou na dança, e muitos caíram de exaustão."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PRE:0:pained",
+    "MED:0:shock"
+   ],
+   "say": "As crônicas da época falam em mortes, mas os historiadores discutem quantas foram de verdade.",
+   "acao": "nenhuma"
+  },
+  {
+   "shot": "track",
+   "who": [
+    "POV:0:pained",
+    "POV:1:nervous",
+    "TRO:0:pained"
+   ],
+   "say": "No fim, os dançarinos foram levados para um santuário nas montanhas, e a dança parou."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "MED:0:nervous"
+   ],
+   "say": "Até hoje, ninguém sabe explicar direito o que aconteceu naquele verão.",
+   "acao": "nenhuma"
+  }
+ ]
+}
