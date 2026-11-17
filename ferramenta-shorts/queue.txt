@@ -1,9 +1,8 @@
 # ponha aqui os ids dos proximos videos, um por linha
 emus1932
 karansebes
-gansos390
 toledo1835
-danca1518
 balde1325
+danca1518
 tulipas1637
 gansos390

@@ -77,7 +77,7 @@ TXT = {'blue': ('#fff6e0', '#27408b'), 'brown': ('#fff6e0', '#7a3a1c'), 'red': (
 TXT_CYCLE = ['brown', 'blue', 'red', 'gold']
 
 def num(x): return json.dumps(round(x, 3))
-def nodrop(c): return re.sub(r'(asset: "[^"]+", at: \[[^\]]*\], s: [\d.]+)(?!, drop)', r'\1, drop: false', c)   # nas partes seguintes da mesma cena os objetos ja estao no chao (nao caem de novo)
+def nodrop(c): return re.sub(r'(asset: "[^"]+", at: \[[^\]]*\], s: [\d.]+)(?![\d.])(?!, drop)', r'\1, drop: false', c)   # nas partes seguintes da mesma cena os objetos ja estao no chao (nao caem de novo)
 
 
 import unicodedata
