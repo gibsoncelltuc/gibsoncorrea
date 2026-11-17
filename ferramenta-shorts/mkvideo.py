@@ -47,7 +47,7 @@ def slots(n):
     base = {1: [0.0], 2: [-1.15, 1.15], 3: [-2.1, 0.0, 2.1], 4: [-3.0, -1.0, 1.0, 3.0], 5: [-3.6, -1.8, 0, 1.8, 3.6], 6: [-3.8, -2.3, -0.8, 0.8, 2.3, 3.8]}
     if n in base: return base[n]
     return [(i - (n - 1) / 2) * 1.6 for i in range(n)]
-ZS = [2.4, 2.0, 2.8, 2.2, 3.0, 2.6]
+ZS = [1.3, 1.0, 1.6, 1.1, 1.7, 1.4]   # no plano de foco da camera (antes 2.0-3.0: com a camera mais perto, alguem ficava colado na lente)
 ZSW = [-0.4, 0.2, -0.8, 0.0, -0.2, 0.4]
 
 TEMPL = {  # h = altura do alvo; d0/d1 = distancia da camera no inicio/fim; el = elevacao; fov
@@ -195,11 +195,11 @@ def build_beat(k, b):
     vc = b.get('veiculo')
     if vc:
         x0v, x1v, zv = vc.get('de', -9), vc.get('para', 9), vc.get('z', 0.6); ryv = 1.5708 if x1v >= x0v else -1.5708
-        pr.append(f"{{ asset: {json.dumps(vc.get('asset', 'vehicles/car'))}, at: [X + {num(x0v)}, {num(zv)}], move: [[X + {num(x1v)}, {num(zv)}], {a}, {bb}, 'lin'], s: {num(vc.get('s', 1.0))}, bob: 0.03 }}")
-        if vc.get('motorista'):
-            mo_ = vc['motorista'].split(':'); 
-            acts.append(f"{{ outfit: {json.dumps(mo_[0])}, v: {int(mo_[1]) if len(mo_) > 1 and mo_[1] else 0}, at: [X + {num(x0v)}, {num(zv - 0.35)}], move: [[X + {num(x1v)}, {num(zv - 0.35)}], {a}, {bb}, 'lin'], pose: 'stand', expr: {json.dumps(mo_[2] if len(mo_) > 2 else 'smile')}, s: 0.8 }}")
-
+        sv = vc.get('s', 1.6); dirv = 1 if x1v >= x0v else -1   # veiculo 1.6x: proporcional aos personagens (que tem ~3 m)
+        pr.append(f"{{ asset: {json.dumps(vc.get('asset', 'vehicles/car'))}, at: [X + {num(x0v)}, {num(zv)}], move: [[X + {num(x1v)}, {num(zv)}], {a}, {bb}, 'lin'], s: {num(sv)}, bob: 0.03 }}")
+        if vc.get('motorista'):   # motorista DENTRO do carro: carta cortada (cabeca e ombros) encostada na janela do lado da camera
+            mo_ = vc['motorista'].split(':'); k_ = sv / 1.6; zd = zv + 1.02 * sv; dxd = 0.22 * sv * dirv
+            acts.append(f"{{ outfit: {json.dumps(mo_[0])}, v: {int(mo_[1]) if len(mo_) > 1 and mo_[1] else 0}, at: [X + {num(x0v + dxd)}, {num(zd)}], move: [[X + {num(x1v + dxd)}, {num(zd)}], {a}, {bb}, 'lin'], pose: 'stand', acting: 'low', expr: {json.dumps(mo_[2] if len(mo_) > 2 else 'smile')}, s: {num(0.62 * k_)}, y: {num(0.3 * k_)}, crop: 0.4, flip: {'false' if dirv > 0 else 'true'} }}")
     for p in props:
         asset, dx, z, s = p[0], p[1] if len(p) > 1 else 0, p[2] if len(p) > 2 else 0.5, p[3] if len(p) > 3 else 1.0
         ex = p[4] if len(p) > 4 and isinstance(p[4], dict) else {}
@@ -257,9 +257,9 @@ def build_beat(k, b):
                f"{{ f: {bb}, at: [X + {num(d / 2)}, DK + {num(T['h'])}, 1.5], d: {num(T['d1'])}, az: -8, el: {num(T.get('el', 3) + 1)}, fov: {num(T.get('fov', 44))}, ease: 'lin' }}]")
         call = f"{{ ...{call}, {cam}, nocut: true }}"
     if b.get('veiculo') and not b.get('cam_livre'):   # a camera acompanha o veiculo de lado, mostrando ele inteiro
-        vc = b['veiculo']; x0v, x1v, zv = vc.get('de', -9), vc.get('para', 9), vc.get('z', 0.6); dd = vc.get('dist', 14)
-        cam = (f"cam: [{{ f: {a}, at: [X + {num(x0v)}, DK + 1.5, {num(zv)}], d: {num(dd)}, az: {12 if x1v >= x0v else -12}, el: 7, fov: 40 }}, "
-               f"{{ f: {bb}, at: [X + {num(x1v)}, DK + 1.5, {num(zv)}], d: {num(dd * 0.9)}, az: {-10 if x1v >= x0v else 10}, el: 8, fov: 40, ease: 'lin' }}]")
+        vc = b['veiculo']; x0v, x1v, zv = vc.get('de', -9), vc.get('para', 9), vc.get('z', 0.6); dd = vc.get('dist', 18)
+        cam = (f"cam: [{{ f: {a}, at: [X + {num(x0v)}, DK + 1.9, {num(zv)}], d: {num(dd)}, az: {12 if x1v >= x0v else -12}, el: 7, fov: 40 }}, "
+               f"{{ f: {bb}, at: [X + {num(x1v)}, DK + 1.9, {num(zv)}], d: {num(dd * 0.9)}, az: {-10 if x1v >= x0v else 10}, el: 8, fov: 40, ease: 'lin' }}]")
         call = f"{{ ...{call}, {cam}, nocut: true }}"
     if b.get('set') and b['set'] != SET and b['set'] in SETS_X: call = re.sub(r'\bX\b', 'X_' + b['set'], call)   # esta cena acontece em outro cenario
     return call

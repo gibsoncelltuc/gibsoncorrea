@@ -3,7 +3,7 @@ import { camFromKeys, clamp, lerp, ramp, q, blinkAt, idle, M } from './motion.js
 export const FPS = 30, TOTAL = SPEC.total, DECK = 6;
 export const SPEC_DEBUG = SPEC;
 // ---------- auto sub-cuts: long shots are split into ~2.2 s sub-takes, each with a different camera setup (Ricks Clips rhythm: new angle every phrase) ----------
-const VARS = [{ az: 0, el: 0, d: 1, fov: 0, roll: 0 }, { az: 26, el: -7, d: 0.78, fov: 2, roll: -2 }, { az: -22, el: 9, d: 1.08, fov: 0, roll: 2.5 }, { az: 12, el: -3, d: 0.64, fov: -2, roll: 0 }, { az: -30, el: 15, d: 1.18, fov: 3, roll: -3.5 }, { az: 18, el: -9, d: 0.9, fov: 1, roll: 3 }];
+const VARS = [{ az: 0, el: 0, d: 1, fov: 0, roll: 0 }, { az: 26, el: -7, d: 0.9, fov: 2, roll: -2 }, { az: -22, el: 9, d: 1.08, fov: 0, roll: 2.5 }, { az: 12, el: -3, d: 0.84, fov: -2, roll: 0 }, { az: -30, el: 15, d: 1.18, fov: 3, roll: -3.5 }, { az: 18, el: -9, d: 0.96, fov: 1, roll: 3 }];
 const lk = (a, b, t) => ({ ...a, at: [0, 1, 2].map((i) => a.at[i] + (b.at[i] - a.at[i]) * t), d: a.d + (b.d - a.d) * t, az: (a.az ?? 0) + ((b.az ?? 0) - (a.az ?? 0)) * t, el: (a.el ?? 8) + ((b.el ?? 8) - (a.el ?? 8)) * t, fov: (a.fov ?? 34) + ((b.fov ?? 34) - (a.fov ?? 34)) * t });
 SPEC.shots.forEach((s, i, A) => { if (i === 0) { s.trIn = null; return; } const ty = s.trans ?? (s.cut === false ? 'cut' : (A[i - 1].light !== s.light ? (SPEC.trans ?? 'dissolve') : 'cut')); s.trIn = { type: ty, N: ty === 'dissolve' ? (SPEC.dissolveN ?? 10) : ty === 'push' ? 4 : 0 }; });
 if (SPEC.autocut !== false) SPEC.shots = SPEC.shots.flatMap((s) => { const len = s.b - s.a + 1, n = Math.max(1, Math.round(len / (SPEC.cutLen ?? 66))); if (n < 2 || !s.cam || s.cam.length < 2 || !s.cam[0].at || s.nocut) return [s];
@@ -114,7 +114,7 @@ export const actorsAt = (f, T) => {
     const ac = (SPEC.acting === false || a.acting === false) ? null : actFor(f, a, i, S, persons, seed);
     const opts = PO(f, moving && !a.pose ? { ...a, pose: a.walk || 'stroll' } : a, seed, { ...(a.opts || {}), ...(ac || {}) });
     if (opts.gest && (opts.gk || 0) > 0.2 && o.rifle) o = { ...o, rifle: false };
-    out.push(B(T, o, opts, [x, DECK + (typeof a.y === 'function' ? a.y(f) : (a.y || 0)) + bob, z], { id: a.id || o._id, tint, s: (a.s || 1) * (SPEC.cs ?? 1.4) * (1 + 0.07 * (opts.lean || 0)), flip: !!a.flip })); });
+    out.push(B(T, o, opts, [x, DECK + (typeof a.y === 'function' ? a.y(f) : (a.y || 0)) + bob, z], { id: a.id || o._id, tint, s: (a.s || 1) * (SPEC.cs ?? 1.4) * (1 + 0.07 * (opts.lean || 0)), flip: !!a.flip, ...(a.crop ? { crop: a.crop, shadow: false, blob: false } : {}) })); });
   return out;
 };
 // ---------- 2D effects ----------

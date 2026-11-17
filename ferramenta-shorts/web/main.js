@@ -445,12 +445,13 @@ class Card {
     this.blob.rotation.x = -Math.PI / 2; this.blob.userData.ndSkip = true; this.blob.renderOrder = 1;
     scene.add(this.mesh); scene.add(this.blob); this.key = ''; this.mesh.visible = this.blob.visible = false;
   }
-  draw(key, fn, th = CH) {
+  draw(key, fn, th = CH, crop = 0) {   // crop = fracao do alto da carta que fica visivel (0 = tudo): motorista dentro do carro mostra so' cabeca e ombros
     // th = altura (px) do canvas desta carta. Escolhida pelo tamanho do ator na tela (ver cardTier): multidao distante nao precisa de 1200x2000.
-    if (key === this.key && th === this.ch) return; this.key = key;
+    if (key === this.key && th === this.ch && crop === this.crop) return; this.key = key; this.crop = crop;
     if (th !== this.ch) { this.ch = th; this.cw = Math.round(th * CW / CH); this.c.width = this.cw; this.c.height = this.ch; this.t.dispose(); }
     const g = this.g; g.setTransform(1, 0, 0, 1, 0, 0); g.clearRect(0, 0, this.cw, this.ch); g.setTransform(this.cw / 600, 0, 0, this.ch / 1000, 0, 0);
-    const p = new T.Pen(g); fn(p); this.t.needsUpdate = true;
+    if (crop) { g.save(); g.beginPath(); g.rect(0, 0, 600, 1000 * crop); g.clip(); }
+    const p = new T.Pen(g); fn(p); if (crop) g.restore(); this.t.needsUpdate = true;
     this.bbox = window.INSPECT ? contentBox(this.c) : null;
   }
 }
@@ -564,7 +565,7 @@ function drawActors(list, cam) {
   cards.forEach((c) => { c.mesh.visible = c.blob.visible = false; });
   list.forEach((a, i) => {
     const c = getCard(i);
-    c.draw(a.key, a.draw, cardTier(a, cam));
+    c.draw(a.key, a.draw, cardTier(a, cam), a.crop || 0);
     c.mesh.visible = true; c.mesh.position.set(a.x, a.y, a.z);
     const s = a.s || 1; c.mesh.scale.set(s * (a.flip ? -1 : 1), s, s); c.uFlip.value = a.flip ? -1 : 1;
     c.mesh.rotation.set(0, Math.atan2(cam.position.x - a.x, cam.position.z - a.z) + (a.yaw || 0), a.roll || 0);
@@ -573,7 +574,7 @@ function drawActors(list, cam) {
     c.mat.opacity = a.alpha ?? 1;
     c.mesh.castShadow = a.shadow !== false;
     c.mesh.renderOrder = a.order || 2;
-    if (a.blob !== false && a.y < DECK + 0.5) { c.blob.visible = true; c.blob.position.set(a.x, (a.ground ?? DECK) + 0.02, a.z); c.blob.scale.set(0.95 * s, 0.6 * s, 1); }
+    if (a.blob !== false && !a.crop && a.y < DECK + 0.5) { c.blob.visible = true; c.blob.position.set(a.x, (a.ground ?? DECK) + 0.02, a.z); c.blob.scale.set(0.95 * s, 0.6 * s, 1); }
   });
 }
 

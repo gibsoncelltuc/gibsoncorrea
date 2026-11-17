@@ -1,0 +1,99 @@
+{
+ "duration": 24.48,
+ "frames30": 734,
+ "source": "silence-align (cost 0.05)",
+ "segments": [
+  [
+   0.162125,
+   1.53283
+  ],
+  [
+   2.39233,
+   3.97883
+  ],
+  [
+   4.84671,
+   6.49167
+  ],
+  [
+   7.364,
+   8.91346
+  ],
+  [
+   9.77842,
+   11.3607
+  ],
+  [
+   12.236,
+   13.9064
+  ],
+  [
+   14.7644,
+   16.4148
+  ],
+  [
+   17.275,
+   18.7675
+  ],
+  [
+   19.6192,
+   21.1525
+  ],
+  [
+   22.0353,
+   23.6672
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Teste de objetos numero 1.",
+   "s": 0.162,
+   "e": 1.533
+  },
+  {
+   "text": "Teste de objetos numero 2.",
+   "s": 2.392,
+   "e": 3.979
+  },
+  {
+   "text": "Teste de objetos numero 3.",
+   "s": 4.847,
+   "e": 6.492
+  },
+  {
+   "text": "Teste de objetos numero 4.",
+   "s": 7.364,
+   "e": 8.913
+  },
+  {
+   "text": "Teste de objetos numero 5.",
+   "s": 9.778,
+   "e": 11.361
+  },
+  {
+   "text": "Teste de objetos numero 6.",
+   "s": 12.236,
+   "e": 13.906
+  },
+  {
+   "text": "Teste de objetos numero 7.",
+   "s": 14.764,
+   "e": 16.415
+  },
+  {
+   "text": "Teste de objetos numero 8.",
+   "s": 17.275,
+   "e": 18.767
+  },
+  {
+   "text": "Teste de objetos numero 9.",
+   "s": 19.619,
+   "e": 21.152
+  },
+  {
+   "text": "Teste de objetos numero 10.",
+   "s": 22.035,
+   "e": 23.667
+  }
+ ]
+}
