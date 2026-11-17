@@ -92,3 +92,6 @@ Personagens grandes na maior parte do vídeo; até 2 planos abertos comuns + at�
 ## Detalhe de objeto e mistura de planos
 - **Detalhe de objeto**: numa cena de 11+ palavras que tenha um objeto em `"props"` ou uma placa (`"text"`), a câmera desliza até o objeto no meio da cena e volta (até 3 por vídeo). Desligar na cena: `"detalhe": false`. Use para o objeto que carrega a história (o balde, o barril, a carta).
 - **Mistura de planos**: ao rodar `mkvideo.py` sai a linha `mistura de planos: close X% | medio Y% | aberto Z% | detalhe W%` com AVISO quando foge do padrão do canal (close 10% | médio+corpo 67% | aberto 19% | detalhe 5–15%). Também fica no fim do `stories/<id>/plano.md`. Corrija o roteiro antes de renderizar se houver AVISO.
+
+## Séries com episódio numerado
+- No topo do `beats.json`: `"serie": "Guerras Inusitadas", "ep": 6`. O título e o nome do arquivo saem como `Guerras Inusitadas EP 06 - <título>`. Numere na ordem de publicação; a série atual vai até o EP 05 (Karánsebes, Emus, Toledo, Balde, Gansos).

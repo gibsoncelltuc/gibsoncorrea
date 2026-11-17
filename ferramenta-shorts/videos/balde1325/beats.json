@@ -43,6 +43,9 @@
    "build": "stout"
   }
  },
+ "serie": "Guerras Inusitadas",
+ "ep": 4,
+ "titulo_base": "A Guerra do Balde",
  "beats": [
   {
    "shot": "two",

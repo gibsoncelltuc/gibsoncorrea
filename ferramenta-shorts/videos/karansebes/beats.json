@@ -51,6 +51,11 @@
    ]
   }
  },
+ "cinf": 1.5,
+ "exp": 1.761,
+ "serie": "Guerras Inusitadas",
+ "ep": 1,
+ "titulo_base": "A Batalha de Karánsebes",
  "beats": [
   {
    "say": "Um exército inteiro conseguiu perder uma batalha contra si mesmo.",
@@ -239,7 +244,5 @@
    "light": "dawn",
    "mood": "calm"
   }
- ],
- "cinf": 1.5,
- "exp": 1.761
+ ]
 }

@@ -36,6 +36,9 @@
  },
  "cinf": 4.5,
  "exp": 1.008,
+ "serie": "Guerras Inusitadas",
+ "ep": 2,
+ "titulo_base": "A Guerra dos Emus",
  "beats": [
   {
    "say": "A Austrália declarou guerra a um bando de pássaros. E perdeu.",

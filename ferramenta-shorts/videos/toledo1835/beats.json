@@ -47,6 +47,10 @@
    "moustache_on": "#3a2a1f"
   }
  },
+ "exp": 1.0,
+ "serie": "Guerras Inusitadas",
+ "ep": 3,
+ "titulo_base": "A Guerra de Toledo",
  "beats": [
   {
    "shot": "two",
@@ -162,6 +166,5 @@
    "hora": "dia",
    "say": "No fim das contas, Michigan perdeu a guerra, e ficou rico."
   }
- ],
- "exp": 1.0
+ ]
 }
