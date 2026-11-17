@@ -20,6 +20,7 @@ const rx = (a) => a * Math.PI / 180;
 const grad = (() => { const d = new Uint8Array([90, 90, 90, 255, 255, 255, 255, 255]); const t = new THREE.DataTexture(d, 2, 1); t.minFilter = t.magFilter = THREE.NearestFilter; t.needsUpdate = true; return t; })();
 
 // ---- PAINTED 3D look: world-space brush-stroke pigment variation on every toon material ----
+THREE.MeshToonMaterial.prototype.customProgramCacheKey = function () { return this.userData && this.userData.noPaint ? 'liso' : 'pintado'; };   // sem isto o three reaproveitava o shader pintado e o noPaint nao valia
 THREE.MeshToonMaterial.prototype.onBeforeCompile = function (sh) {
   if (this.userData && this.userData.noPaint) return;
   sh.vertexShader = sh.vertexShader.replace('#include <common>', '#include <common>\nvarying vec3 vWP; varying vec3 vWN;').replace('#include <begin_vertex>', '#include <begin_vertex>\n{ vec4 wp_ = modelMatrix * vec4(transformed,1.0);\n#ifdef USE_INSTANCING\n wp_ = modelMatrix * instanceMatrix * vec4(transformed,1.0);\n#endif\n vWP = wp_.xyz; vWN = normalize(mat3(modelMatrix) * objectNormal); }');
@@ -123,7 +124,7 @@ const SETS_BUILT = new Set();
 // ---- GLB assets (library + legacy), re-skinned with toon materials ----
 const gltf = new GLTFLoader(); const LIBA = {};
 async function loadLib(names) { await Promise.all(names.map(async (n) => { if (LIBA[n]) return; const g = await gltf.loadAsync(n.startsWith('mk/') ? 'assets/library/megakit/' + n.slice(3) + '.gltf' : (n.includes('/') ? 'assets/library/' : 'assets/') + n + '.glb'); LIBA[n] = g.scene;
-  g.scene.traverse((o) => { if (o.isMesh) { const c = o.material.color ? o.material.color.clone() : new THREE.Color('#aaaaaa'); const mp = o.material.map || null; o.material = toon({ color: c, ...(mp ? { map: mp } : {}), side: o.name.startsWith('sail') || n.startsWith('mk/') ? THREE.DoubleSide : THREE.FrontSide }); o.castShadow = true; o.receiveShadow = true; o.userData.c0 = c.clone(); if (n === 'bear') o.material.userData.noPaint = true; } }); })); }
+  g.scene.traverse((o) => { if (o.isMesh) { const c = o.material.color ? o.material.color.clone() : new THREE.Color('#aaaaaa'); const mp = o.material.map || null; o.material = toon({ color: c, ...(mp ? { map: mp } : {}), side: o.name.startsWith('sail') || n.startsWith('mk/') ? THREE.DoubleSide : THREE.FrontSide }); o.castShadow = true; o.receiveShadow = true; o.userData.c0 = c.clone(); if (n === 'bear' || n.startsWith('vehicles/')) o.material.userData.noPaint = true; /* lataria lisa como no canal */ } }); })); }
 const libInst = (n, x, y, z, ry = 0, s = 1, parent = world, tint = null) => { const o = LIBA[n].clone(true); o.position.set(x, y, z); o.rotation.y = ry; o.scale.setScalar(s);
   o.traverse((m) => { if (m.isMesh) { m.material = m.material.clone(); if (tint) m.material.color.set(tint); } }); parent.add(o); return o; };
 // ---- materials ----

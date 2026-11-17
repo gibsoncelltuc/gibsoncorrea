@@ -20,6 +20,7 @@ const rx = (a) => a * Math.PI / 180;
 const grad = (() => { const d = new Uint8Array([90, 90, 90, 255, 255, 255, 255, 255]); const t = new THREE.DataTexture(d, 2, 1); t.minFilter = t.magFilter = THREE.NearestFilter; t.needsUpdate = true; return t; })();
 
 // ---- PAINTED 3D look: world-space brush-stroke pigment variation on every toon material ----
+THREE.MeshToonMaterial.prototype.customProgramCacheKey = function () { return this.userData && this.userData.noPaint ? 'liso' : 'pintado'; };   // sem isto o three reaproveitava o shader pintado e o noPaint nao valia
 THREE.MeshToonMaterial.prototype.onBeforeCompile = function (sh) {
   if (this.userData && this.userData.noPaint) return;
   sh.vertexShader = sh.vertexShader.replace('#include <common>', '#include <common>\nvarying vec3 vWP; varying vec3 vWN;').replace('#include <begin_vertex>', '#include <begin_vertex>\n{ vec4 wp_ = modelMatrix * vec4(transformed,1.0);\n#ifdef USE_INSTANCING\n wp_ = modelMatrix * instanceMatrix * vec4(transformed,1.0);\n#endif\n vWP = wp_.xyz; vWN = normalize(mat3(modelMatrix) * objectNormal); }');

@@ -40,16 +40,25 @@ def build(name, spec):
     L, W, r, wz, wy = spec['L'], spec['W'], spec['r'], spec['wz'], spec['r']
     b = Part((0, spec['by'], 0)); y0 = r * 0.75; H = spec['H']
     kind = spec['kind']
-    if kind in ('car', 'taxi'):
-        b.box((0, y0 + H / 2, 0), (W, H, L), M['paint'], 0.16)                                   # carroceria
-        b.box((0, y0 + H + 0.33, -0.12), (W * 0.9, 0.66, L * 0.5), M['paint'], 0.14, taper=(0.86, 0.72))   # cabine
-        b.box((0, y0 + H + 0.33, L * 0.205 - 0.12), (W * 0.7, 0.4, 0.06), M['glass'], 0.02)     # para-brisa (encostado na cabine)
-        b.box((0, y0 + H + 0.33, -L * 0.205 - 0.12), (W * 0.7, 0.4, 0.06), M['glass'], 0.02)    # vidro traseiro
+    if kind in ('car', 'taxi'):   # hatch de desenho animado: cabine ABERTA de colunas finas (o motorista aparece sentado dentro), capo curto, superficies lisas
+        fz0 = L / 2; cz0, cz1 = -L * 0.3, L * 0.16; top = y0 + H + 1.3; pw = 0.11
+        b.box((0, y0 + H / 2, 0), (W, H, L), M['paint'], 0.1)                                         # carroceria baixa
+        b.box((0, y0 + H + 0.08, (-fz0 + cz0) / 2 - 0.02), (W * 0.94, 0.18, cz0 + fz0 - 0.1), M['paint'], 0.08)   # tampa traseira
+        b.box((0, y0 + H + 0.1, (cz1 + fz0) / 2 + 0.05), (W * 0.94, 0.22, fz0 - cz1 - 0.15), M['paint'], 0.09)   # capo
+        b.box((0, top, (cz0 + cz1) / 2 - 0.05), (W * 0.98, 0.12, cz1 - cz0 + 0.1), M['paint'], 0.05)     # teto
         for sx in (-1, 1):
-            b.box((sx * W * 0.418, y0 + H + 0.36, 0.2), (0.05, 0.42, L * 0.2), M['glass'], 0.02); b.box((sx * W * 0.418, y0 + H + 0.36, -0.46), (0.05, 0.42, L * 0.17), M['glass'], 0.02)
-            b.box((sx * W * 0.505, y0 + H * 0.62, -0.1), (0.03, 0.05, 0.22), M['chrome'], 0.01)   # macaneta
-            b.box((sx * (W / 2 + 0.07), y0 + H + 0.08, L * 0.22), (0.12, 0.1, 0.16), M['paint'], 0.03)   # retrovisor
-        if kind == 'taxi': b.box((0, y0 + H + 0.78, -0.12), (0.5, 0.2, 0.26), M['plate'], 0.05); [b.box((sx * W * 0.508, y0 + H * 0.5, 0), (0.02, 0.14, L * 0.55), M['dark'], 0.0) for sx in (-1, 1)]
+            b.box((sx * (W / 2 - pw / 2), (y0 + H + top) / 2, cz0 + pw / 2), (pw, top - y0 - H, pw), M['paint'], 0.02)          # coluna traseira
+            b.box((sx * (W / 2 - pw / 2), (y0 + H + top) / 2, (cz0 + cz1) / 2 - 0.2), (pw, top - y0 - H, pw), M['paint'], 0.02)  # coluna do meio
+            b.box((sx * (W / 2 - pw / 2), (y0 + H + top) / 2, cz1 + 0.16), (pw, top - y0 - H + 0.1, pw), M['paint'], 0.02, taper=(1, 1, -0.42))   # coluna do para-brisa (inclinada)
+            b.box((sx * (W / 2 - 0.02), y0 + H * 0.55, (cz0 + cz1) / 2 - 0.2), (0.03, H * 0.8, 0.04), M['dark'], 0.0)               # linha da porta
+            b.box((sx * (W / 2 + 0.01), y0 + H * 0.72, (cz0 + cz1) / 2 + 0.25), (0.04, 0.06, 0.24), M['chrome'], 0.01)             # macaneta
+            b.box((sx * (W / 2 + 0.1), y0 + H + 0.32, cz1 + 0.05), (0.16, 0.14, 0.1), M['paint'], 0.03)                           # retrovisor
+            b.box((sx * W * 0.24, y0 + H + 0.3, (cz0 + cz1) / 2 - 0.35), (W * 0.36, 0.9, 0.16), M['seat'], 0.06)                   # encosto do banco
+            b.box((sx * W * 0.24, y0 + H + 0.02, (cz0 + cz1) / 2 - 0.05), (W * 0.36, 0.16, 0.6), M['seat'], 0.05)                  # assento
+        b.box((0, y0 + H + 0.2, cz1 - 0.02), (W * 0.9, 0.3, 0.22), M['dark'], 0.05)                    # painel
+        b.cyl((W * 0.24, y0 + H + 0.5, cz1 - 0.3), 0.26, 0.06, M['dark'], 'z', 18); b.cyl((W * 0.24, y0 + H + 0.5, cz1 - 0.27), 0.17, 0.07, M['seat'], 'z', 14)   # volante
+        b.box((0, top + 0.02, cz1 + 0.02), (W * 0.9, 0.05, 0.06), M['dark'], 0.0)                      # moldura do para-brisa
+        if kind == 'taxi': b.box((0, top + 0.2, (cz0 + cz1) / 2), (0.7, 0.26, 0.3), M['plate'], 0.06); [b.box((sx * (W / 2 + 0.005), y0 + H * 0.5, 0), (0.02, 0.16, L * 0.6), M['dark'], 0.0) for sx in (-1, 1)]
     elif kind == 'jeep':
         b.box((0, y0 + H / 2, 0), (W, H, L), M['paint'], 0.1)
         b.box((0, y0 + H + 0.08, L * 0.3), (W * 0.96, 0.18, L * 0.36), M['paint'], 0.06)           # capo
@@ -86,14 +95,14 @@ def build(name, spec):
     tags = ['F', 'M', 'B'] if len(wz) == 3 else ['F', 'B']
     for z, t in zip(wz, tags):
         for sx, sd in ((1, 'L'), (-1, 'R')):
-            w = Part((sx * (W / 2 + 0.02), wy, z)); c = (sx * (W / 2 + 0.02), wy, z)
+            w = Part((sx * (W / 2 - 0.1), wy, z)); c = (sx * (W / 2 - 0.1), wy, z)
             w.cyl(c, r, 0.34, M['tire'], 'x', 24); w.cyl((c[0] + sx * 0.15, c[1], c[2]), r * 0.58, 0.08, M['hub'], 'x', 16); w.cyl((c[0] + sx * 0.2, c[1], c[2]), r * 0.2, 0.06, M['chrome'], 'x', 10)
             for k in range(5): a = k * math.tau / 5; w.ball((c[0] + sx * 0.19, c[1] + r * 0.38 * math.sin(a), c[2] + r * 0.38 * math.cos(a)), 0.045, M['dark'])
             emit(w, f'wheel{t}{sd}')
     bpy.ops.export_scene.gltf(filepath=OUT + name + '.glb', export_format='GLB', export_yup=True, export_apply=True, export_cameras=False, export_lights=False)
     print('OK', name, sum(len(o.data.polygons) for o in objs))
-build('car', dict(kind='car', paint='#d8312b', L=4.3, W=1.9, H=0.78, r=0.44, wz=[1.38, -1.38], by=0.62))
-build('car_blue', dict(kind='car', paint='#2f6fd0', L=4.3, W=1.9, H=0.78, r=0.44, wz=[1.38, -1.38], by=0.62))
-build('taxi', dict(kind='taxi', paint='#f2b632', L=4.3, W=1.9, H=0.78, r=0.44, wz=[1.38, -1.38], by=0.62))
-build('jeep', dict(kind='jeep', paint='#6f7a3d', L=3.5, W=1.8, H=0.7, r=0.5, wz=[1.15, -1.15], by=0.75))
-build('truck', dict(kind='truck', paint='#6f7a3d', paint2='#5d6733', L=5.2, W=2.0, H=0.7, r=0.56, wz=[1.9, -1.0, -2.2], by=0.9))
+build('car', dict(kind='car', paint='#d8312b', L=4.6, W=2.3, H=0.95, r=0.46, wz=[1.5, -1.45], by=0.62))
+build('car_blue', dict(kind='car', paint='#2f6fd0', L=4.6, W=2.3, H=0.95, r=0.46, wz=[1.5, -1.45], by=0.62))
+build('taxi', dict(kind='taxi', paint='#f2b632', L=4.6, W=2.3, H=0.95, r=0.46, wz=[1.5, -1.45], by=0.62))
+build('jeep', dict(kind='jeep', paint='#6f7a3d', L=4.2, W=2.2, H=0.9, r=0.52, wz=[1.4, -1.35], by=0.75))
+build('truck', dict(kind='truck', paint='#6f7a3d', paint2='#5d6733', L=6.4, W=2.5, H=0.9, r=0.6, wz=[2.3, -1.3, -2.6], by=0.9))
