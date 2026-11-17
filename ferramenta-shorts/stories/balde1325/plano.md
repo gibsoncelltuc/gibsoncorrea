@@ -11,4 +11,4 @@ b5 | orbit | -  | tropa, placa: 32.000 | - | -
 b6 | group | -  | tropa | derrota (puff + som de baque) | -
 b7 | crowd | -  | batalha aberta com tiros, tropa | atacaram (ring + som de alerta); surpresa (ring + som de alerta); fugiu (dust + som de impacto) | -
 b8 | two | -  | objeto na mao | - | -
-b9 | two | -  | placa: 700 ANOS, objeto na mao | - | -
+b9 | close | -  | placa: 700 ANOS, objeto na mao | - | -

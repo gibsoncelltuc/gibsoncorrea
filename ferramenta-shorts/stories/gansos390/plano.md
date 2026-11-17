@@ -7,8 +7,8 @@ b1 | crowd | -  | batalha aberta com tiros, tropa, mapa | fugiu (dust + som de i
 b2 | group | -  | placa: CAPITÓLIO | - | -
 b3 | group | -  | tropa, animais | - | -
 b4 | group | noite  | batalha aberta com tiros, tropa | - | -
-b5 | two | -  | animais, placa: QUÁ! QUÁ! | - | -
+b5 | low | -  | animais, placa: QUÁ! QUÁ! | - | -
 b6 | two | -  | - | caiu (dust + som de impacto) | -
 b7 | crowd | -  | batalha aberta com tiros, tropa | alarme (ring + som de alerta); correram (dust + som de impacto); ataque (ring + som de alerta) | -
 b8 | two | dia  | animais, placa: DESFILE | - | -
-b9 | two | dia  | - | - | -
+b9 | close | dia  | - | - | -

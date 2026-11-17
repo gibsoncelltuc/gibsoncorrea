@@ -148,6 +148,22 @@ direct(beats)
 if B.get('director') is not False and not any(b.get('impact') for b in beats) and len(beats) > 4:
     _b = beats[int(len(beats) * 0.6)]
     if not _b.get('shot_lock'): _b['impact'] = True; _b['shot'] = 'orbit'; _b.setdefault('crowd', {'n': 12, 'outfits': [w.split(':')[0] for w in _b.get('who', [])] or list(B.get('outfits', {'X': 0}))[:1], 'march': False})
+# RITMO DE FILMAGEM DO CANAL (pela funcao de cada cena na historia): gancho em plano medio na acao -> cena 2 ABRE para situar o lugar ->
+# falas em plano mais fechado no personagem -> virada ("Acontece que") abre ou baixa a camera -> final fecha no rosto.
+if B.get('director') is not False and B.get('ritmo') is not False and len(beats) >= 6:
+    _lock = lambda _b: _b.get('shot_lock') or _b.get('interior') or _b.get('veiculo') or _b.get('impact') or _b.get('batalha')
+    _nw = lambda: sum(1 for _b in beats if _b.get('shot') in WIDE)
+    _b = beats[1]                                           # cena 2 = contexto: plano aberto de ambientacao (camera abrindo)
+    if not _lock(_b) and _b.get('shot') not in WIDE and beats[2].get('shot') not in WIDE:
+        _b['shot'] = 'reveal'; _b['aberto_auto'] = True
+        if not _b.get('emus'): _b.setdefault('crowd', {'n': 8, 'outfits': list(dict.fromkeys([w.split(':')[0] for w in _b.get('who', [])] or list(B.get('outfits', {'X': 0}))[:1])), 'march': False})
+    for _i, _b in enumerate(beats[2:-1], 2):
+        _t = nrm(_b['say'])
+        if _lock(_b) or _b.get('shot') in WIDE: continue
+        if '"' in _b['say'] and len(_b.get('who', [])) <= 2: _b['perto'] = 0.84                      # fala: camera mais perto de quem fala
+        elif re.match(r'aconteceque|naverdade|soque|oproblema', _t) and beats[_i - 1].get('shot') not in WIDE: _b['shot'] = 'low'; _b['perto'] = 0.92   # virada: camera baixa, dramatica
+    _b = beats[-1]
+    if not _lock(_b) and len(_b.get('who', [])) <= 1: _b['shot'] = 'close'                             # final: fecha no rosto
 # REGRA RESTRITA (pedido do Gibson): TODO video tem no minimo 2 planos abertos de camera continua (ambientacao ampla: tropa, paisagem, batalha).
 MIN_WIDE = int(B.get('min_wide', 2))
 if B.get('director') is not False and len(beats) >= 5:
@@ -168,6 +184,7 @@ def build_beat(k, b):
     if b.get('impact') and shot in WIDE and b.get('caminhoes'): T.update(d0=13.0, d1=31.0, el=11, h=2.6); T.pop('az0', None); T.pop('az1', None)   # comeca na tropa subindo nos caminhoes e ABRE para a fazenda inteira
     elif b.get('impact') and shot in WIDE: T.update(d0=25.0, d1=19.0, el=11, h=2.6)   # BATALHA: visao ampla de verdade (cenario, tropa inteira, inimigo fugindo ao fundo)
     elif shot == 'reveal': T.update(d0=11.0, d1=27.0, el=10)
+    if b.get('perto') and shot in ('two', 'group', 'low', 'close'): T['d0'] *= b['perto']; T['d1'] *= b['perto'] * 0.94
     _n = len(b.get('who', []))
     if shot in ('two', 'group', 'low') and _n >= 3: T['d0'] *= 1 + 0.13 * (_n - 2); T['d1'] *= 1 + 0.13 * (_n - 2)   # 3+ pessoas: abre o suficiente para caber todo mundo
     light = b.get('light')

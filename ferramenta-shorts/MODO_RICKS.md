@@ -55,3 +55,13 @@ Limite honesto: animação e áudio NÃO foram medidos por mim no canal (não h�
 - **Plano de impacto (blockbuster):** até 2 por vídeo (`max_impact`), nos momentos-chave detectados na narração (tiro, ataque, fuga, pânico, batalha...). Plano aberto com a tropa em formação. Se a frase fala de tiro, clarões piscam pela tropa e toca som de tiro. Se nenhum trecho for detectado, o clímax (~60% do vídeo) vira plano aberto. `"impact": false` no beat desliga.
 - **Exército uniforme:** multidão usa só as 4 variantes padrão do uniforme (sem óculos/barba). Óculos e barba ficam para personagens nomeados (variantes 4 a 6 em `who`, ex.: "FARM:5:smile").
 - **Exército chegando:** 18 soldados marchando quando a narração fala de tropa chegando.
+
+## 8. Ritmo de filmagem (aplicado sozinho pelo diretor)
+Montado pela função de cada cena na história (medido nos roteiros e quadros do canal; o movimento exato de câmera deles NÃO foi medido — falta o arquivo de vídeo):
+1. **Gancho** (cena 1): plano médio na ação absurda.
+2. **Contexto** (cena 2): a câmera ABRE para situar o lugar (plano aberto de ambientação), com mapa quando cita país/cidade.
+3. **Falas** (cenas com aspas): câmera mais perto de quem fala.
+4. **Escalada**: planos médios com sub-corte a cada ~1,8 s, câmera na altura do personagem.
+5. **Virada** ("Acontece que", "Só que", "Na verdade"): câmera baixa e mais perto, ou plano aberto de batalha com grua (perto → vista de cima).
+6. **Final**: fecha no rosto.
+Sempre no mínimo 2 planos abertos por vídeo; nunca dois abertos sem batalha em sequência. Desligar: `"ritmo": false`.
