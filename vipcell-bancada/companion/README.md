@@ -37,6 +37,9 @@ Sem bypass de conta/FRP, sem firmware pirata, sem "auth crackeado".
 # identificar o aparelho conectado
 python -m vipbench.cli detectar
 
+# descobrir qual firmware oficial pegar (lê o modelo + avisa do anti-rollback)
+python -m vipbench.cli firmware
+
 # ver o PLANO de recuperação (não grava nada)
 python -m vipbench.cli recuperar-moto C:\firmware\moto_g56_oficial
 

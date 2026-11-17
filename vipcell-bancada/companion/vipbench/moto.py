@@ -23,10 +23,26 @@ from dataclasses import dataclass, field
 
 # Operações que sabemos executar com segurança. Qualquer coisa fora disto
 # faz o plano parar, em vez de rodar um comando que não entendemos.
-KNOWN_OPS = {"getvar", "oem", "flash", "erase", "reboot", "reboot-bootloader", "continue"}
+KNOWN_OPS = {"getvar", "oem", "flash", "erase", "reboot", "reboot-bootloader",
+             "reboot-fastboot", "continue"}
 
 # Partições cuja escrita/apagamento apaga dados do cliente.
 DESTRUCTIVE_PARTITIONS = {"userdata", "metadata", "carrier", "ddr"}
+
+# Partições lógicas (super dinâmico): em alguns modelos precisam do fastbootd.
+LOGICAL_PARTITIONS = {"super", "system", "system_ext", "vendor", "product",
+                      "odm", "vendor_dlkm", "system_dlkm", "system_a", "vendor_a"}
+
+# Trechos que a saída do fastboot traz quando o firmware é mais antigo que o
+# aparelho (anti-rollback). Serve para dar uma mensagem clara em vez do erro cru.
+ROLLBACK_MARKERS = (
+    "preflash validation failed",
+    "security version downgrade",
+    "version downgraded",
+    "anti-rollback",
+    "img antirollback",
+    "failed to validate",
+)
 
 FLASHFILE_NAMES = ("flashfile.xml", "servicefile.xml")
 
@@ -51,6 +67,8 @@ class Step:
             return ["erase", self.partition]
         if self.op == "reboot-bootloader":
             return ["reboot-bootloader"]
+        if self.op == "reboot-fastboot":
+            return ["reboot", "fastboot"]
         if self.op == "reboot":
             return ["reboot"]
         if self.op == "continue":
@@ -149,6 +167,20 @@ def validate_files(plan: FlashPlan, firmware_dir: str) -> list[str]:
             if not os.path.isfile(os.path.join(firmware_dir, s.filename)):
                 missing.append(s.filename)
     return missing
+
+
+def is_rollback_failure(output: str) -> bool:
+    """True se a saída do fastboot indicar firmware mais antigo (anti-rollback)."""
+    low = (output or "").lower()
+    return any(m in low for m in ROLLBACK_MARKERS)
+
+
+def needs_fastbootd(plan: FlashPlan) -> bool:
+    """True se o plano grava partição lógica (super) — pode exigir fastbootd."""
+    has_logical = any(s.op == "flash" and s.partition in LOGICAL_PARTITIONS
+                      for s in plan.steps)
+    switches = any(s.op == "reboot-fastboot" for s in plan.steps)
+    return has_logical and not switches
 
 
 def build_command_list(plan: FlashPlan, wipe: bool) -> list[Step]:

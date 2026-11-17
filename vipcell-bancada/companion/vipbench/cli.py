@@ -14,7 +14,7 @@ from __future__ import annotations
 import argparse
 import sys
 
-from . import moto, runner
+from . import firmware, moto, runner
 
 
 def _p(msg=""):
@@ -41,6 +41,31 @@ def cmd_detectar(args):
             _p("  Nenhum aparelho encontrado. Confira driver, cabo e modo (fastboot/BROM).")
     except runner.ToolMissing as e:
         _p(f"  fastboot indisponível: {e}")
+    return 0
+
+
+def cmd_firmware(args):
+    _p("== Localizar firmware oficial ==")
+    try:
+        info = firmware.read_device(args.fastboot)
+    except runner.ToolMissing as e:
+        _p(f"fastboot indisponível: {e}")
+        info = firmware.DeviceInfo()
+    for line in firmware.advise(info):
+        _p(line)
+    if args.url:
+        dest = args.dest or os.path.basename(args.url.split("?")[0]) or "firmware.zip"
+        _p("")
+        _p(f"Baixando de fonte oficial para {dest} ...")
+        def prog(done, total):
+            pctn = (done / total * 100) if total else 0
+            print(f"\r   {done/1e6:.1f} MB / {total/1e6:.1f} MB ({pctn:.0f}%)", end="", flush=True)
+        try:
+            firmware.download(args.url, dest, args.sha256, prog)
+            _p("\n   OK, download concluído e verificado.")
+        except Exception as e:
+            _p(f"\nERRO no download: {e}")
+            return 2
     return 0
 
 
@@ -85,6 +110,10 @@ def cmd_recuperar_moto(args):
     if not args.wipe and plan.destructive_steps:
         _p(f"  ({len(plan.destructive_steps)} passos de apagar dados foram PULADOS; "
            f"use --wipe se o cliente autorizou perder os dados)")
+    if moto.needs_fastbootd(plan):
+        _p("  AVISO: este firmware grava a partição 'super' e o flashfile não troca "
+           "para o fastbootd. Se o passo do 'super' falhar, entre em fastbootd "
+           "(fastboot reboot fastboot) e repita só esse passo.")
 
     if not args.run:
         _p("")
@@ -117,9 +146,22 @@ def cmd_recuperar_moto(args):
     for i, s in enumerate(cmds, 1):
         _p(f"[{i}/{len(cmds)}] fastboot {' '.join(s.as_fastboot())}")
         res = runner.run_fastboot(s.as_fastboot(), args.fastboot)
+        full = res.err + "\n" + res.out
         tail = (res.err or res.out).strip().splitlines()[-1:] or [""]
         _p(f"      -> {'OK' if res.ok else 'FALHOU'} {tail[0]}")
         if not res.ok and s.op in ("flash", "erase"):
+            if moto.is_rollback_failure(full):
+                _p("")
+                _p("PAROU: ANTI-ROLLBACK. O firmware é mais ANTIGO que o aparelho — por isso")
+                _p("falhou logo no começo. Isso é travado por hardware e não tem bypass seguro.")
+                _p("Solução: baixe o firmware do mesmo modelo com versão/patch IGUAL ou MAIS NOVO.")
+                _p("Use:  python -m vipbench.cli firmware   para ver onde pegar a versão certa.")
+                return 5
+            if s.partition in moto.LOGICAL_PARTITIONS:
+                _p("")
+                _p("PAROU no 'super' (partição lógica). Em alguns modelos ela só grava no")
+                _p("fastbootd. Rode: fastboot reboot fastboot  e repita a recuperação.")
+                return 6
             _p("PAROU: um passo de gravação falhou. Não continuo para não deixar o aparelho pior.")
             _p("Verifique cabo/porta e, se o aparelho não entra em fastboot, use o caminho BROM/LMSA.")
             return 4
@@ -134,6 +176,12 @@ def build_parser():
     sub = ap.add_subparsers(dest="cmd", required=True)
 
     sub.add_parser("detectar", help="identifica o aparelho e o modo").set_defaults(func=cmd_detectar)
+
+    fw = sub.add_parser("firmware", help="indica/baixa o firmware oficial correto (anti-rollback)")
+    fw.add_argument("--url", help="link OFICIAL do firmware para baixar (LMSA/mirror)")
+    fw.add_argument("--dest", help="nome do arquivo de destino")
+    fw.add_argument("--sha256", help="hash para conferir o download")
+    fw.set_defaults(func=cmd_firmware)
 
     r = sub.add_parser("recuperar-moto", help="recupera Moto brickado com firmware oficial")
     r.add_argument("firmware_dir", help="pasta do firmware OFICIAL extraído (com flashfile.xml)")

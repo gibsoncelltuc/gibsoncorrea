@@ -73,3 +73,18 @@ if __name__ == "__main__":
         print(f"  ok  {fn.__name__}")
         ok += 1
     print(f"\n{ok}/{len(fns)} testes passaram")
+
+
+def test_needs_fastbootd_quando_grava_super_sem_switch():
+    plan = moto.parse_flashfile(moto.find_flashfile(FW))
+    assert moto.needs_fastbootd(plan) is True
+
+
+def test_rollback_detecta_preflash():
+    assert moto.is_rollback_failure("(bootloader) Preflash validation failed") is True
+    assert moto.is_rollback_failure("OKAY [ 1.2s]") is False
+
+
+def test_reboot_fastboot_mapeia_certo():
+    s = moto.Step(op="reboot-fastboot")
+    assert s.as_fastboot() == ["reboot", "fastboot"]

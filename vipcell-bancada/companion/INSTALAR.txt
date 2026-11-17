@@ -1,0 +1,33 @@
+VIPCELL BANCADA — COMPANION DE PC
+=================================
+
+O QUE É
+  Programa de bancada que recupera/atualiza aparelhos usando ferramentas e
+  firmware OFICIAIS, pelo fastboot. Tem travas para você não brickar por engano.
+
+O QUE INSTALAR ANTES (uma vez só)
+  1) Python 3  -> https://python.org  (na instalação, marque "Add Python to PATH")
+  2) Platform-tools da Google (fastboot) ->
+       https://developer.android.com/tools/releases/platform-tools
+     Extraia e coloque a pasta no PATH, OU use o atalho --fastboot com o caminho.
+  3) Drivers do aparelho (Motorola/Qualcomm/MediaTek).
+  (Opcional) Melhor detecção dos modos baixos:  pip install pyusb
+
+COMO USAR (abra o Prompt de Comando na pasta deste programa)
+  Ver o aparelho conectado:
+     vipbench detectar
+  Descobrir o firmware certo (e o aviso de anti-rollback):
+     vipbench firmware
+  Recuperar Moto brickado — PRÉVIA (não grava nada):
+     vipbench recuperar-moto C:\caminho\firmware_do_g56
+  Recuperar de verdade:
+     vipbench recuperar-moto C:\caminho\firmware_do_g56 --run
+
+  (no Windows use  vipbench.bat ;  "vipbench" acima é o mesmo que "python -m vipbench.cli")
+
+REGRA DE OURO
+  Firmware mais ANTIGO que o aparelho FALHA no começo (anti-rollback) e não tem
+  bypass seguro. Pegue sempre a versão oficial IGUAL ou MAIS NOVA do mesmo modelo.
+
+CONFERIR QUE ESTÁ OK
+  python run_tests.py     (deve dar 14/14 testes passaram)
