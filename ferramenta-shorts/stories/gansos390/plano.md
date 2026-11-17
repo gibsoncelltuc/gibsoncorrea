@@ -5,10 +5,13 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | dia  | animais, placa: 390 a.C. | - | -
 b1 | crowd | -  | batalha aberta com tiros, tropa, mapa | fugiu (dust + som de impacto); morreu (puff + som de baque) | -
 b2 | group | -  | placa: CAPITÓLIO | - | -
-b3 | group | -  | tropa, animais | - | -
-b4 | group | noite  | batalha aberta com tiros, tropa | - | -
+b3 | orbit | -  | tropa, animais | - | -
+b4 | track | noite  | - | - | -
 b5 | low | -  | animais, placa: QUÁ! QUÁ! | - | -
 b6 | two | -  | - | caiu (dust + som de impacto) | -
-b7 | crowd | -  | batalha aberta com tiros, tropa | alarme (ring + som de alerta); correram (dust + som de impacto); ataque (ring + som de alerta) | -
+b7 | orbit | -  | batalha aberta com tiros, tropa | alarme (ring + som de alerta); correram (dust + som de impacto); ataque (ring + som de alerta) | -
 b8 | two | dia  | animais, placa: DESFILE | - | -
 b9 | close | dia  | - | - | -
+
+Mistura de planos: close 18% | medio 57% | aberto 18% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 3 | dentro do padrao do canal
