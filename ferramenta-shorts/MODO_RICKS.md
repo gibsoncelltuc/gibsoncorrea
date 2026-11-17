@@ -27,15 +27,15 @@ Verificador: `python3 roteiro_check.py <id>` (avisa o que foge da regra).
 ## 3. Velocidade
 Rasterizador Mesa llvmpipe no lugar do SwiftShader (`launch.mjs`, `RASTER=swiftshader` volta ao antigo): 0,47 s/quadro com 1 navegador (antes 1,92 s), imagem equivalente. A raea (motor do vídeo "5x mais rápido") foi analisada: o ganho dela vem de GPU; sem GPU o próprio projeto mede ~2 s/quadro em cena simples, e portar exigiria reescrever personagens e pós-processamento. Não adotada.
 
-## 4. O que ainda NÃO está no nível do canal (honesto)
-1. **Cenários**: o canal modela um cenário por história (interiores, ruas, navios). Nós temos poucos cenários genéricos ao ar livre. É a maior diferença que resta. Próximo passo: kit modular (paredes, pisos com juntas, portas, janelas, móveis) montado pelo beats.json.
-2. **Figurino/variedade de personagem**: poucos chapéus/cabelos/barbas; soldados parecem clones; pernas/braços deveriam ser traço de tinta escura.
-3. **Falas de personagem**: o beats.json só tem narração; falta marcar quem fala e mexer a boca.
-4. **Objetos na mão e ações de corpo** (pegar, carregar, apontar com objeto).
-5. Luz por cena (noite azul, interior quente) e cor da sombra lavanda no rosto.
-6. Áudio: não foi possível medir o do canal (sem acesso ao som).
-Detalhes e números: `ref_privado/audit/*.md` (personagens, enquadramento-camera, cenarios-props).
-
+## 4. O que ainda NÃO está no nível do canal (honesto, atualizado)
+Resolvido desde a última versão: interiores com parede perto (`interior` no beat), fachada automática ao ar livre, falas com boca mexendo, luz por cena, sombra lavanda, pernas/braços em tinta, abertura e final em plano médio, câmera na altura do personagem, roteiros no molde do canal.
+Ainda falta:
+1. **Variedade de personagem**: poucos chapéus e cabelos; figurino raso (sem estampa, cinto, detalhe).
+2. **Objetos na mão e ações de corpo** (pegar, carregar, apontar com objeto); caminhada ainda dura.
+3. **Texto em placas** da cena em vez de título flutuante.
+4. **Cenário modelado por história** (navio, trem, fábrica): hoje só os 11 cenários + 3 interiores.
+5. Áudio do canal não foi medido (sem acesso ao som).
+Tabela completa ponto a ponto: `COMPARATIVO_RICKS.md`.
 ## 5. Como produzir um vídeo
 1. Escreva `videos/<id>/beats.json` seguindo o §1 (copie um existente). 2. `python3 roteiro_check.py <id>`. 3. Ponha o id em `queue.txt`. 4. `bash run_queue.sh` (retomável; `bash status.sh` mostra o andamento). Saída: `out/<id>/<Titulo>.mp4` + `review_sheet.jpg`. Sempre olhar a folha de contato antes de publicar.
 

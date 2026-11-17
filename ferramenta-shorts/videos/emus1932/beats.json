@@ -35,11 +35,11 @@
  "exp": 1.008,
  "beats": [
   {
-   "say": "Em mil novecentos e trinta e dois, a Austrália declarou guerra aos pássaros.",
+   "say": "A Austrália declarou guerra a um bando de pássaros. E perdeu.",
    "shot": "reveal",
    "who": [],
    "text": "1932",
-   "tat": 0,
+   "tat": 6,
    "light": "desert",
    "emus": {
     "n": 10,
@@ -50,7 +50,7 @@
    }
   },
   {
-   "say": "Vinte mil emus estavam destruindo as plantações de trigo no oeste da Austrália, e fazendeiros desesperados pediram ajuda ao exército.",
+   "say": "Vinte mil emus estavam devorando as plantações de trigo no oeste do país, e os fazendeiros foram pedir socorro ao governo.",
    "shot": "group",
    "who": [
     "FARM:0:shock",
@@ -68,7 +68,16 @@
    }
   },
   {
-   "say": "Então o governo mandou soldados, duas metralhadoras, e dez mil balas. Contra emus.",
+   "shot": "two",
+   "who": [
+    "FARM:0:nervous",
+    "AUS:0:stern"
+   ],
+   "interior": "madeira",
+   "say": "\"Mande o exército\", pediram eles. E o ministro mandou."
+  },
+  {
+   "say": "Soldados, duas metralhadoras, e dez mil balas. Contra emus.",
    "shot": "two",
    "who": [
     "AUS:0:stern",
@@ -98,7 +107,7 @@
    }
   },
   {
-   "say": "Mas emus são rápidos, e não ficam parados. Sempre que os soldados miravam, os pássaros se espalhavam em todas as direções, e fugiam correndo.",
+   "say": "Acontece que emu é rápido, e não fica parado. Quando os soldados miravam, os pássaros se espalhavam, e sumiam correndo.",
    "shot": "group",
    "who": [
     "AUS:0:shock",
@@ -112,7 +121,7 @@
    }
   },
   {
-   "say": "Um atirador até montou uma metralhadora num caminhão. Mas o caminhão pulava tanto no chão irregular, que ele não acertava nenhum pássaro.",
+   "say": "Um atirador montou a metralhadora num caminhão. Mas o caminhão pulava tanto, que ele não acertou nenhum.",
    "shot": "two",
    "who": [
     "AUS:2:grin"
@@ -139,7 +148,7 @@
    "move": 0
   },
   {
-   "say": "Depois de uma semana, o exército tinha gasto milhares de balas, e os emus mal tinham sido arranhados.",
+   "say": "Depois de uma semana, milhares de balas gastas, e os emus quase sem um arranhão.",
    "shot": "two",
    "who": [
     "AUS:0:pained",
@@ -156,7 +165,7 @@
    }
   },
   {
-   "say": "Os soldados se retiraram. A imprensa gargalhou, e um oficial admitiu que os emus lutavam como tanques.",
+   "say": "A tropa bateu em retirada. A imprensa gargalhou, e o comandante admitiu: \"Eles aguentam bala como tanques.\"",
    "shot": "group",
    "who": [
     "AUS:0:pained",
@@ -173,7 +182,7 @@
    }
   },
   {
-   "say": "O exército tentou de novo, e finalmente abateu algumas centenas de pássaros. Mas os emus continuavam voltando.",
+   "say": "O exército tentou de novo, abateu algumas centenas, e os emus continuaram voltando.",
    "shot": "track",
    "who": [
     "AUS:1:stern"
@@ -186,18 +195,18 @@
     "dir": 1
    },
    "text": "CENTENAS",
-   "tat": 2,
+   "tat": 6,
    "tstyle": "red"
   },
   {
-   "say": "No final, os fazendeiros ganharam um sistema de recompensas. E a grande Guerra dos Emus entrou para a história como uma derrota do exército.",
+   "say": "No fim, o governo desistiu da guerra, e passou a pagar recompensa aos fazendeiros por cada emu abatido.",
    "shot": "two",
    "who": [
     "FARM:0:smile",
     "FARM:1:grin"
    ],
    "text": "RECOMPENSA",
-   "tat": 4,
+   "tat": 9,
    "light": "golden"
   },
   {
