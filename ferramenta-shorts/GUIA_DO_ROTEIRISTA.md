@@ -63,3 +63,12 @@ Personagens grandes na maior parte do vídeo; até 2 planos abertos comuns + at�
 
 ## Conferir contra o canal
 - `python3 comparar.py <id>` gera `out/comparativo_<id>.jpg` (canal em cima, nosso embaixo) e a tabela de medidas (luz, contraste, saturação, escuros, nitidez, ruído).
+
+## O que a ferramenta faz sozinha a partir do texto (não precisa pedir)
+- **Hora do dia**: "noite", "madrugada" → noite azul; "amanhecer" → amanhecer; "pôr do sol", "fim de tarde" → sol baixo; "à tarde" → luz dourada; "dias depois", "no dia seguinte" → volta o dia. Vale até o texto mudar. Para forçar: `"hora": "dia|tarde|pordosol|noite|amanhecer"`.
+- **Clima**: "chuva", "tempestade", "neve/inverno", "neblina", "calor/sol escaldante", "ventania" → chuva, neve (a cena vai para o cenário nevado), névoa, luz de deserto, vento com folhas. Para forçar: `"clima": "chuva|tempestade|neve|neblina|calor|vento|limpo"`.
+- **Pássaros no céu** em cena externa de dia (tirar: `"passaros": false`).
+- **Objeto na mão** do primeiro personagem quando o texto fala de bebida, carta/jornal, livro, lanterna, tocha, bandeira, dinheiro, saco, luneta. Ele usa o objeto (bebe, lê, olha pela luneta). Tirar: `"maos": false`.
+- **Rosto próprio** para cada personagem (olhos, sobrancelha, bochecha, sardas, pinta), igual em todas as cenas.
+- **Caminhada**: quem atravessa a tela (`"shot": "track"` ou `"move"`) anda de perfil com passada completa; soldado (figurino com `rifle`) marcha, civil caminha solto.
+- **Tropa e batalha**: palavras de exército/tropa chegando criam a multidão uniformizada; tiro/batalha/pânico criam o plano aberto de impacto com clarões e som.

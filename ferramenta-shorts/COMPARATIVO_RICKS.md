@@ -23,7 +23,7 @@ Situação: ✅ aplicado e visto em vídeo · 🟡 aplicado em parte · ❌ não
 | Enquadramentos por vídeo | 25–31 (um a cada ~2 s) | 17 (um a cada 3,7 s) | 🟡 sub-cortes a cada 54 quadros (~1,8 s) |
 | Cortes secos | 0–1 por vídeo | 8 | ✅ dissolve curto entre cenas |
 | Golpe de câmera | 0,23% da altura, só em impacto físico | 1,2–4%, 13 por vídeo | ✅ só em impacto, ×0,35 |
-| Texto na imagem | em placas/objetos da cena (37% dos quadros); título flutuante quase nunca | título flutuante no céu em 32% | ❌ título ainda flutuante (placas não feitas) |
+| Texto na imagem | em placas/objetos da cena (37% dos quadros); título flutuante quase nunca | título flutuante no céu em 32% | ✅ placa de madeira fincada na cena; título só em plano aberto/final |
 | Personagem cortado na borda | raro | acontece | ✅ regra nova no controle de qualidade afasta a câmera sozinha |
 | Legenda | 38 px por letra, centro em 70,3% | 40 px, 70,0% | ✅ já batia |
 
@@ -31,12 +31,12 @@ Situação: ✅ aplicado e visto em vídeo · 🟡 aplicado em parte · ❌ não
 | Ponto | Canal | Nosso antes | Situação |
 |---|---|---|---|
 | Proporção, espessura de perna/braço, rosto | — | igual ao canal | ✅ já batia |
-| Clones | cada personagem diferente | mesmo chapéu, casaco e porte | 🟡 óculos, barba, 7 variantes; tropa fica uniforme de propósito |
-| Chapéus / cabelos / barbas | ≥25 chapéus, ≥8 cabelos, barbas com hachura, óculos em 6 vídeos | 6 chapéus, 1 cabelo, 1 bigode | 🟡 +óculos e barba; chapéus e cabelos novos ❌ |
+| Clones | cada personagem diferente | mesmo chapéu, casaco e porte | ✅ rosto próprio por personagem (8 conjuntos de traços) + óculos, barba, chapéu e cabelo por variante; tropa uniforme de propósito |
+| Chapéus / cabelos / barbas | ≥25 chapéus, ≥8 cabelos, barbas com hachura, óculos em 6 vídeos | 6 chapéus, 1 cabelo, 1 bigode | ✅ 14 chapéus, cabelo curto/longo/coque em 5 cores, barba, bigode, óculos |
 | Cor de perna/braço | tinta escura (contraste 115–150 contra o chão) | com calça clara, contraste 7–10 | ✅ pernas e braços em tinta escura |
 | Sombra do rosto | lavanda | pêssego/laranja sob luz quente | ✅ sombra lavanda; rosto não alaranja mais |
-| Figurino | estampas, botões, cintos, detalhes | raso | ❌ |
-| Mãos | seguram objetos | vazias | ❌ |
+| Figurino | estampas, botões, cintos, detalhes | raso | 🟡 botões, cinto, faixa; sem estampa |
+| Mãos | seguram objetos | vazias | ✅ 12 objetos na mão, escolhidos pelo texto, com animação de uso |
 | Contorno da cabeça | lado fino/grosso, razão ~3 | razão 1,85 | ❌ |
 
 ## 4. Cenários e objetos
@@ -60,14 +60,14 @@ Situação: ✅ aplicado e visto em vídeo · 🟡 aplicado em parte · ❌ não
 | Luminância | 0,445 | 0,43–0,59 | ✅ dentro da faixa |
 | Pixels muito escuros | 4,4% | 1,1–2,9% | 🟡 contraste aplicado; não medi de novo |
 | Nitidez | 0,062 | 0,050–0,054 | 🟡 desfoque reduzido; não medi de novo |
-| Luz muda com a história | noite azul, interior quente, dia claro | uma luz por vídeo | 🟡 troca por palavra-chave ("noite", "amanhecer") |
+| Luz muda com a história | noite azul, interior quente, dia claro | uma luz por vídeo | ✅ hora do dia e clima pelo texto (noite, tarde, chuva, neve, calor, neblina, vento) |
 
 ## 6. Animação e áudio
 | Ponto | Canal | Nosso | Situação |
 |---|---|---|---|
 | Tremor entre quadros | não tem | tinha | ✅ corrigido |
 | Boca ao falar | sim | não | ✅ |
-| Pegar/carregar objetos, caminhada natural | sim | não | ❌ |
+| Pegar/carregar objetos, caminhada natural | sim | não | ✅ caminhada de perfil com passada casada à velocidade; objeto na mão animado |
 | Momentos de impacto | sim | não tinha | ✅ plano aberto com tropa, clarões e som de tiro |
 | Áudio (voz, música, efeitos) | ❔ sem acesso ao som | — | ❔ só subi o volume 1 dB com base em relatório de terceiros |
 

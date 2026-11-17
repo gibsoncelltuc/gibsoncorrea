@@ -94,7 +94,6 @@
      1.0
     ]
    ],
-   "light": "dusk",
    "move": 7
   },
   {
@@ -111,8 +110,7 @@
      1.0,
      1.2
     ]
-   ],
-   "light": "dusk"
+   ]
   },
   {
    "say": "Compraram tudo, beberam, e a festa começou.",
@@ -137,7 +135,6 @@
    ],
    "text": "AGUARDENTE",
    "tat": 4,
-   "light": "dusk",
    "mood": "playful"
   },
   {
@@ -148,7 +145,6 @@
     "HUS:0:laugh",
     "AUT:1:shock"
    ],
-   "light": "dusk",
    "sfx": [
     "gun@100"
    ],
@@ -166,7 +162,6 @@
    "text": "TURCOS!",
    "tat": 2,
    "tstyle": "red",
-   "light": "dusk",
    "mood": "tense"
   },
   {
@@ -181,7 +176,6 @@
     "n": 8,
     "expr": "shock"
    },
-   "light": "dusk",
    "fx": [
     "burst@20",
     "burst@60"
@@ -215,7 +209,6 @@
      1.1
     ]
    ],
-   "light": "dusk",
    "fx": [
     "burst@50"
    ],

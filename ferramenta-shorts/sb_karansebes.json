@@ -4,14 +4,14 @@
  "list": [
   {
    "id": "b0",
-   "f": 27,
-   "t": "0.9",
+   "f": 30,
+   "t": "1.0",
    "file": "sb_tmp/karansebes_000.jpg"
   },
   {
-   "id": "b0~1",
-   "f": 87,
-   "t": "2.9",
+   "id": "b0",
+   "f": 83,
+   "t": "2.8",
    "file": "sb_tmp/karansebes_001.jpg"
   },
   {
