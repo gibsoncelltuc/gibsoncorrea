@@ -25,7 +25,7 @@ Em cada imagem, anexe a ficha de quem aparece nela. Se uma imagem sair com orelh
 
 ```
 Using the attached reference sheets (keep every character exactly identical to its sheet): Bento (chubby fluffy white-and-cream lop-eared bunny with exactly two floppy ears hanging down, blue scarf).
-Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear.
+Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear, a red ball.
 Shot: medium shot, eye level, slow push-in. Bento standing in the middle of the room full of scattered toys, hands on his cheeks with a surprised happy face.
 Anatomy lock: Bento has exactly 2 ears, both floppy and hanging down beside his cheeks (never upright, never a second pair), exactly 2 eyes, 2 arms, 2 legs and 1 small round tail. All other body parts stay normal and attached.
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary. Keep the lower-left corner simple and uncluttered.
@@ -36,7 +36,7 @@ NEGATIVE (never show): upright or standing ears, a second pair of ears, three or
 
 ```
 Using the attached reference sheets (keep every character exactly identical to its sheet): Bento (chubby fluffy white-and-cream lop-eared bunny with exactly two floppy ears hanging down, blue scarf); Tico (round caramel-brown monkey, green backpack).
-Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear.
+Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear, a red ball.
 Shot: wide shot of the doorway, steady. Tico standing at the bedroom door looking at the messy floor, Bento next to him with an open-armed shrug.
 Anatomy lock: Bento has exactly 2 ears, both floppy and hanging down beside his cheeks (never upright, never a second pair), exactly 2 eyes, 2 arms, 2 legs and 1 small round tail; Tico has exactly 2 eyes, 2 round ears, 2 arms, 2 legs and 1 curly tail. All other body parts stay normal and attached.
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary. Keep the lower-left corner simple and uncluttered.
@@ -47,7 +47,7 @@ NEGATIVE (never show): upright or standing ears, a second pair of ears, three or
 
 ```
 Using the attached reference sheets (keep every character exactly identical to its sheet): Bento (chubby fluffy white-and-cream lop-eared bunny with exactly two floppy ears hanging down, blue scarf); Tico (round caramel-brown monkey, green backpack).
-Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear.
+Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear, a red ball.
 Shot: medium shot, slow side move. Bento kneeling next to the blue toy box holding a rounded block, Tico near the low shelf holding a toy car.
 Anatomy lock: Bento has exactly 2 ears, both floppy and hanging down beside his cheeks (never upright, never a second pair), exactly 2 eyes, 2 arms, 2 legs and 1 small round tail; Tico has exactly 2 eyes, 2 round ears, 2 arms, 2 legs and 1 curly tail. All other body parts stay normal and attached.
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary. Keep the lower-left corner simple and uncluttered.
@@ -58,7 +58,7 @@ NEGATIVE (never show): upright or standing ears, a second pair of ears, three or
 
 ```
 Using the attached reference sheets (keep every character exactly identical to its sheet): Bento (chubby fluffy white-and-cream lop-eared bunny with exactly two floppy ears hanging down, blue scarf); Tico (round caramel-brown monkey, green backpack).
-Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear.
+Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear, a red ball.
 Shot: medium shot, bouncy. Bento hugging the teddy bear next to the small bed, Tico smiling beside him.
 Anatomy lock: Bento has exactly 2 ears, both floppy and hanging down beside his cheeks (never upright, never a second pair), exactly 2 eyes, 2 arms, 2 legs and 1 small round tail; Tico has exactly 2 eyes, 2 round ears, 2 arms, 2 legs and 1 curly tail. All other body parts stay normal and attached.
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary. Keep the lower-left corner simple and uncluttered.
@@ -69,7 +69,7 @@ NEGATIVE (never show): upright or standing ears, a second pair of ears, three or
 
 ```
 Using the attached reference sheets (keep every character exactly identical to its sheet): Tico (round caramel-brown monkey, green backpack).
-Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear.
+Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear, a red ball.
 Shot: close-up, then pull back, slow. Tico crouching behind the toy box with a surprised smile, the red ball just visible.
 Anatomy lock: Tico has exactly 2 eyes, 2 round ears, 2 arms, 2 legs and 1 curly tail. All other body parts stay normal and attached.
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary. Keep the lower-left corner simple and uncluttered.
@@ -80,7 +80,7 @@ NEGATIVE (never show): upright or standing ears, a second pair of ears, three or
 
 ```
 Using the attached reference sheets (keep every character exactly identical to its sheet): Bento (chubby fluffy white-and-cream lop-eared bunny with exactly two floppy ears hanging down, blue scarf); Tico (round caramel-brown monkey, green backpack).
-Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear.
+Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear, a red ball.
 Shot: wide shot of the tidy room, gentle push-in. the whole room neat and tidy, Bento and Tico in the middle holding the red ball between them, smiling.
 Anatomy lock: Bento has exactly 2 ears, both floppy and hanging down beside his cheeks (never upright, never a second pair), exactly 2 eyes, 2 arms, 2 legs and 1 small round tail; Tico has exactly 2 eyes, 2 round ears, 2 arms, 2 legs and 1 curly tail. All other body parts stay normal and attached.
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary. Keep the lower-left corner simple and uncluttered.
@@ -96,7 +96,7 @@ Em cada vídeo, **comece pela imagem de mesmo número** e anexe as fichas de que
 ```
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary.
 Characters (identical to the attached reference sheets): Bento (chubby fluffy white-and-cream lop-eared bunny with exactly two floppy ears hanging down, blue scarf).
-Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear.
+Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear, a red ball.
 Shot: medium shot, eye level, slow push-in. Action: Bento points at the toys and bounces on the beat, then opens one arm toward the blue toy box.
 Anatomy lock: Bento has exactly 2 ears, both floppy and hanging down beside his cheeks (never upright, never a second pair), exactly 2 eyes, 2 arms, 2 legs and 1 small round tail. Counts never change.
 Slow, simple, single continuous action; all body parts stay attached and in view; Bento's two floppy ears always hang down and only sway gently; identical look to the reference sheets throughout; lower-left corner stays uncluttered.
@@ -110,7 +110,7 @@ NEGATIVE: upright or standing ears, a second pair of ears, three or four ears, e
 ```
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary.
 Characters (identical to the attached reference sheets): Bento (chubby fluffy white-and-cream lop-eared bunny with exactly two floppy ears hanging down, blue scarf); Tico (round caramel-brown monkey, green backpack).
-Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear.
+Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear, a red ball.
 Shot: wide shot of the doorway, steady. Action: Tico looks around the floor and shrugs with a puzzled face, Bento shrugs too and they look at each other.
 Anatomy lock: Bento has exactly 2 ears, both floppy and hanging down beside his cheeks (never upright, never a second pair), exactly 2 eyes, 2 arms, 2 legs and 1 small round tail; Tico has exactly 2 eyes, 2 round ears, 2 arms, 2 legs and 1 curly tail. Counts never change.
 Slow, simple, single continuous action; all body parts stay attached and in view; Bento's two floppy ears always hang down and only sway gently; identical look to the reference sheets throughout; lower-left corner stays uncluttered.
@@ -124,7 +124,7 @@ NEGATIVE: upright or standing ears, a second pair of ears, three or four ears, e
 ```
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary.
 Characters (identical to the attached reference sheets): Bento (chubby fluffy white-and-cream lop-eared bunny with exactly two floppy ears hanging down, blue scarf); Tico (round caramel-brown monkey, green backpack).
-Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear.
+Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear, a red ball.
 Shot: medium shot, slow side move. Action: Bento puts three colorful blocks one by one into the toy box on the beat, Tico places the toy car on the low shelf.
 Anatomy lock: Bento has exactly 2 ears, both floppy and hanging down beside his cheeks (never upright, never a second pair), exactly 2 eyes, 2 arms, 2 legs and 1 small round tail; Tico has exactly 2 eyes, 2 round ears, 2 arms, 2 legs and 1 curly tail. Counts never change.
 Slow, simple, single continuous action; all body parts stay attached and in view; Bento's two floppy ears always hang down and only sway gently; identical look to the reference sheets throughout; lower-left corner stays uncluttered.
@@ -138,7 +138,7 @@ NEGATIVE: upright or standing ears, a second pair of ears, three or four ears, e
 ```
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary.
 Characters (identical to the attached reference sheets): Bento (chubby fluffy white-and-cream lop-eared bunny with exactly two floppy ears hanging down, blue scarf); Tico (round caramel-brown monkey, green backpack).
-Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear.
+Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear, a red ball.
 Shot: medium shot, bouncy. Action: Bento sets the teddy bear on the bed and pats it, Tico claps, both bounce gently on the beat.
 Anatomy lock: Bento has exactly 2 ears, both floppy and hanging down beside his cheeks (never upright, never a second pair), exactly 2 eyes, 2 arms, 2 legs and 1 small round tail; Tico has exactly 2 eyes, 2 round ears, 2 arms, 2 legs and 1 curly tail. Counts never change.
 Slow, simple, single continuous action; all body parts stay attached and in view; Bento's two floppy ears always hang down and only sway gently; identical look to the reference sheets throughout; lower-left corner stays uncluttered.
@@ -152,7 +152,7 @@ NEGATIVE: upright or standing ears, a second pair of ears, three or four ears, e
 ```
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary.
 Characters (identical to the attached reference sheets): Tico (round caramel-brown monkey, green backpack).
-Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear.
+Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear, a red ball.
 Shot: close-up, then pull back, slow. Action: Tico peeks behind the toy box, finds the red ball and lifts it up with joy.
 Anatomy lock: Tico has exactly 2 eyes, 2 round ears, 2 arms, 2 legs and 1 curly tail. Counts never change.
 Slow, simple, single continuous action; all body parts stay attached and in view; Bento's two floppy ears always hang down and only sway gently; identical look to the reference sheets throughout; lower-left corner stays uncluttered.
@@ -166,7 +166,7 @@ NEGATIVE: upright or standing ears, a second pair of ears, three or four ears, e
 ```
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary.
 Characters (identical to the attached reference sheets): Bento (chubby fluffy white-and-cream lop-eared bunny with exactly two floppy ears hanging down, blue scarf); Tico (round caramel-brown monkey, green backpack).
-Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear.
+Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear, a red ball.
 Shot: wide shot of the tidy room, gentle push-in. Action: Bento and Tico gently pass the ball to each other once and then turn to the camera and wave.
 Anatomy lock: Bento has exactly 2 ears, both floppy and hanging down beside his cheeks (never upright, never a second pair), exactly 2 eyes, 2 arms, 2 legs and 1 small round tail; Tico has exactly 2 eyes, 2 round ears, 2 arms, 2 legs and 1 curly tail. Counts never change.
 Slow, simple, single continuous action; all body parts stay attached and in view; Bento's two floppy ears always hang down and only sway gently; identical look to the reference sheets throughout; lower-left corner stays uncluttered.

@@ -135,7 +135,7 @@ EPISODES = [
   ]),
  dict(num=2, slug="guardar-os-brinquedos", titulo="Guarda, Guarda, Guarda Lá", tema="Guardar os brinquedos e cuidar das suas coisas",
   cast=["Bento", "Tico"],
-  setting="a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear",
+  setting="a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear, a red ball",
   yt_titulo="🧸 Guarda, Guarda, Guarda Lá | Música infantil para arrumar o quarto #shorts",
   yt_desc="O Bento e o Tico ensinam a guardar cada brinquedo no seu lugar! 🧸🐰🐵",
   shots=[
