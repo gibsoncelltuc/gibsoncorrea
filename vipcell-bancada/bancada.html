@@ -1,0 +1,278 @@
+<meta name="claude:viewport-fit-sides" content="cover">
+<title>Vipcell Bancada</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<style>
+/* Layout: console de bancada escuro — trilho de marcas à esquerda, plataforma de chipset ao centro, procedimento passo a passo à direita. */
+:root{
+  --bg:#0A0F0D; --panel:#111A16; --panel-2:#16211C; --line:#223029; --ink:#E8F1EC; --muted:#8CA398; --faint:#5E7367;
+  --brand:#23C277; --brand-ink:#04140C; --brand-soft:#12301F; --brand-line:#1E6B45;
+  --cyan:#36B5C9; --cyan-soft:#0E2A30; --warn:#E7A54B; --warn-soft:#2E2412; --bad:#F06A5B; --bad-soft:#2E1612; --viol:#9D8CF0; --viol-soft:#1E1A33;
+  --shadow:0 1px 0 rgba(255,255,255,.03) inset,0 14px 36px rgba(0,0,0,.45);
+  --f-display:"Bricolage Grotesque","Inter",system-ui,sans-serif;
+  --f-body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  --r:12px; color-scheme:dark;
+}
+@media (prefers-color-scheme: light){ :root:not([data-theme="dark"]){
+  --bg:#EEF3F0; --panel:#FFFFFF; --panel-2:#F2F7F4; --line:#DCE6E0; --ink:#12201A; --muted:#54685E; --faint:#82968C;
+  --brand:#0C8A51; --brand-ink:#FFFFFF; --brand-soft:#DCF1E6; --brand-line:#9FD8B8;
+  --cyan:#17788B; --cyan-soft:#DEEFF2; --warn:#8A5A12; --warn-soft:#F7ECD6; --bad:#B23829; --bad-soft:#F8E2DE; --viol:#5B49B5; --viol-soft:#E7E2F8;
+  --shadow:0 1px 2px rgba(16,32,26,.05),0 12px 30px rgba(16,32,26,.08); color-scheme:light } }
+:root[data-theme="light"]{
+  --bg:#EEF3F0; --panel:#FFFFFF; --panel-2:#F2F7F4; --line:#DCE6E0; --ink:#12201A; --muted:#54685E; --faint:#82968C;
+  --brand:#0C8A51; --brand-ink:#FFFFFF; --brand-soft:#DCF1E6; --brand-line:#9FD8B8;
+  --cyan:#17788B; --cyan-soft:#DEEFF2; --warn:#8A5A12; --warn-soft:#F7ECD6; --bad:#B23829; --bad-soft:#F8E2DE; --viol:#5B49B5; --viol-soft:#E7E2F8;
+  --shadow:0 1px 2px rgba(16,32,26,.05),0 12px 30px rgba(16,32,26,.08); color-scheme:light }
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:14px;line-height:1.5}
+button,input,select{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
+h1,h2,h3,h4{font-family:var(--f-display);margin:0;text-wrap:balance;letter-spacing:-.01em}
+h1{font-size:19px;font-weight:700}
+.mono{font-family:var(--f-mono)}
+.muted{color:var(--muted)}
+
+.shell{display:grid;grid-template-columns:72px minmax(0,1fr);min-height:100%}
+/* trilho de marcas */
+.rail{background:var(--panel);border-right:1px solid var(--line);display:flex;flex-direction:column;align-items:center;gap:10px;padding-block:14px;padding-left:max(10px,env(safe-area-inset-left,0px));padding-right:10px}
+.mark{width:46px;height:46px;border-radius:12px;border:1px solid var(--line);background:var(--panel-2);display:grid;place-items:center;position:relative}
+.mark b{font-family:var(--f-display);font-weight:700;font-size:15px}
+.mark small{position:absolute;bottom:-15px;font-size:9px;color:var(--faint);letter-spacing:.02em}
+.mark[aria-pressed="true"]{border-color:var(--brand-line);background:var(--brand-soft);color:var(--brand)}
+.mark+.mark{margin-top:14px}
+.rail .logo{width:46px;height:46px;border-radius:13px;background:var(--brand);display:grid;place-items:center;margin-bottom:8px}
+.railspace{margin-top:auto;display:flex;flex-direction:column;gap:10px;align-items:center}
+.ibtn{width:40px;height:40px;border-radius:11px;border:1px solid var(--line);background:var(--panel-2);display:grid;place-items:center}
+
+.main{min-width:0;display:flex;flex-direction:column}
+.bar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:14px max(16px,env(safe-area-inset-right,0px)) 14px max(16px,env(safe-area-inset-left,0px));border-bottom:1px solid var(--line);background:var(--panel)}
+.bar .bname{font-family:var(--f-display);font-weight:700;font-size:20px;letter-spacing:-.02em}
+.bar .sub{color:var(--muted);font-size:12.5px}
+.conn{margin-left:auto;display:inline-flex;align-items:center;gap:8px;font-size:12px;color:var(--muted);background:var(--panel-2);border:1px solid var(--line);border-radius:99px;padding:5px 12px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--faint);box-shadow:0 0 0 3px var(--panel)}
+.dot.on{background:var(--brand);animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+@media (prefers-reduced-motion:reduce){.dot.on{animation:none}}
+
+.warnband{display:flex;gap:10px;align-items:flex-start;background:var(--warn-soft);border:1px solid color-mix(in srgb,var(--warn) 35%,transparent);color:var(--ink);margin:14px max(16px,env(safe-area-inset-right,0px)) 0 max(16px,env(safe-area-inset-left,0px));padding:11px 13px;border-radius:var(--r);font-size:12.5px}
+.warnband svg{flex:none;color:var(--warn);margin-top:1px}
+.warnband b{color:var(--warn)}
+
+.work{flex:1;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:16px;padding:16px max(16px,env(safe-area-inset-right,0px)) 40px max(16px,env(safe-area-inset-left,0px));align-items:start}
+.col{display:flex;flex-direction:column;gap:14px;min-width:0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);overflow:hidden}
+.card>h3{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding:12px 14px 0}
+.card .body{padding:12px 14px 14px;display:flex;flex-direction:column;gap:10px}
+
+/* seletor de chipset */
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1px solid var(--line);background:var(--panel-2);border-radius:9px;padding:7px 11px;font-size:12.5px;font-weight:600;color:var(--muted);display:inline-flex;align-items:center;gap:7px}
+.chip[aria-pressed="true"]{color:var(--ink);border-color:var(--brand-line);background:var(--brand-soft)}
+.chip i{width:7px;height:7px;border-radius:2px;background:currentColor;opacity:.7}
+
+.mode{display:flex;flex-direction:column;gap:3px;background:var(--panel-2);border:1px solid var(--line);border-radius:10px;padding:12px 13px}
+.mode .lab{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--faint)}
+.mode .val{font-family:var(--f-display);font-weight:700;font-size:16px}
+.mode .val small{font-family:var(--f-mono);font-size:12px;font-weight:500;color:var(--cyan)}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.combo{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.key{font-family:var(--f-mono);font-size:12px;font-weight:700;border:1px solid var(--line);border-bottom-width:2px;border-radius:7px;padding:3px 8px;background:var(--panel)}
+.plus{color:var(--faint);font-weight:700}
+
+.pill{display:inline-flex;align-items:center;gap:6px;font-size:11.5px;font-weight:600;border-radius:99px;padding:2px 10px}
+.pill::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}
+.p-free{color:var(--brand);background:var(--brand-soft)} .p-open{color:var(--cyan);background:var(--cyan-soft)}
+.p-off{color:var(--viol);background:var(--viol-soft)} .p-care{color:var(--warn);background:var(--warn-soft)}
+
+.toolrow{display:flex;gap:11px;align-items:flex-start;padding:11px 0;border-top:1px solid var(--line)}
+.toolrow:first-of-type{border-top:0}
+.toolrow .ti{width:38px;height:38px;border-radius:10px;background:var(--panel-2);border:1px solid var(--line);display:grid;place-items:center;font-family:var(--f-display);font-weight:700;color:var(--brand);flex:none;font-size:13px}
+.toolrow .grow{flex:1;min-width:0}
+.toolrow b{font-weight:600}
+.toolrow p{margin:2px 0 6px;color:var(--muted);font-size:12.5px}
+.toolrow a{color:var(--cyan);font-family:var(--f-mono);font-size:12px;text-decoration:none;overflow-wrap:anywhere}
+.toolrow a:hover{text-decoration:underline}
+.tags{display:flex;gap:5px;flex-wrap:wrap;margin-top:6px}
+
+/* procedimentos */
+.ops{display:flex;flex-direction:column;gap:8px}
+.op{border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--panel)}
+.op>button{width:100%;display:flex;align-items:center;gap:11px;padding:12px 13px;background:none;border:0;text-align:left}
+.op>button:hover{background:var(--panel-2)}
+.op .oi{width:34px;height:34px;border-radius:9px;display:grid;place-items:center;flex:none}
+.op .oi svg{width:18px;height:18px}
+.op .ot{flex:1;min-width:0}
+.op .ot b{display:block;font-weight:600;font-size:14px}
+.op .ot span{color:var(--muted);font-size:12px}
+.op .chev{color:var(--faint);transition:transform .15s}
+.op[open] .chev{transform:rotate(90deg)}
+.op .steps{padding:2px 14px 14px 58px;display:flex;flex-direction:column;gap:9px}
+.op .steps li{list-style:none;position:relative;font-size:13px;color:var(--ink)}
+.op .steps ol{margin:0;padding:0;display:flex;flex-direction:column;gap:9px;counter-reset:s}
+.op .steps ol li{counter-increment:s;padding-left:30px}
+.op .steps ol li::before{content:counter(s);position:absolute;left:0;top:-1px;width:21px;height:21px;border-radius:6px;background:var(--brand-soft);color:var(--brand);font-family:var(--f-mono);font-weight:700;font-size:11px;display:grid;place-items:center}
+.op .steps .note{font-size:12px;color:var(--muted);border-left:2px solid var(--line);padding-left:10px}
+.op .steps code{font-family:var(--f-mono);font-size:12px;background:var(--panel-2);border:1px solid var(--line);border-radius:5px;padding:1px 6px}
+.o-flash .oi{background:var(--brand-soft);color:var(--brand)} .o-brick .oi{background:var(--bad-soft);color:var(--bad)}
+.o-sys .oi{background:var(--cyan-soft);color:var(--cyan)} .o-clean .oi{background:var(--viol-soft);color:var(--viol)}
+
+.meta{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font-size:11px;border:1px solid var(--line);border-radius:6px;padding:2px 7px;color:var(--muted);background:var(--panel-2)}
+.models{display:flex;flex-wrap:wrap;gap:5px}
+.models .tag{color:var(--ink)}
+
+.foot{color:var(--faint);font-size:11.5px;text-align:center;padding:4px 16px 26px;max-width:720px;margin:0 auto}
+
+#toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:9px 15px;border-radius:9px;font-weight:600;font-size:13px;z-index:40;box-shadow:var(--shadow)}
+
+@media (max-width:900px){ .work{grid-template-columns:minmax(0,1fr)} }
+@media (max-width:620px){
+  .shell{grid-template-columns:minmax(0,1fr)}
+  .rail{flex-direction:row;border-right:0;border-bottom:1px solid var(--line);overflow-x:auto;gap:22px;padding-block:10px}
+  .mark+.mark{margin-top:0} .mark small{display:none} .railspace{margin:0 0 0 auto;flex-direction:row}
+  .rail .logo{display:none}
+}
+</style>
+
+<div class="shell">
+  <aside class="rail" id="rail"></aside>
+  <div class="main">
+    <div class="bar" id="bar"></div>
+    <div class="warnband">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 9v4M12 17h.01M10.3 3.9L2 18a2 2 0 001.7 3h16.6a2 2 0 001.7-3L13.7 3.9a2 2 0 00-3.4 0z"/></svg>
+      <div><b>Uso em reparo com procedência.</b> Esta central cobre gravação de firmware, recuperação de aparelho morto e instalação de sistema com ferramentas livres e oficiais. Para aparelho com <b>conta/FRP ativa</b>, exija comprovação de propriedade (nota, caixa, conta do cliente) e trate pelo canal oficial da marca — a remoção de trava antifurto fica fora desta ferramenta.</div>
+    </div>
+    <div class="work">
+      <div class="col" id="left"></div>
+      <div class="col" id="right"></div>
+    </div>
+    <p class="foot" id="foot"></p>
+  </div>
+</div>
+<div id="toast" hidden></div>
+
+<script>
+/* ======== dados de bancada ======== */
+const PLAT={
+  edl:{nome:'Qualcomm EDL',sub:'Modo 9008',pill:'p-free',modo:'EDL (Emergency Download)',porta:'Qualcomm HS-USB QDLoader 9008',
+    combo:[['adb reboot edl'],['fastboot reboot edl'],['Pontos de teste (test point) + USB']],
+    tools:['qfil','edl','fastboot'], driver:'Qualcomm USB Driver (HS-USB QDLoader 9008)'},
+  exynos:{nome:'Samsung Exynos',sub:'Download / Odin',pill:'p-free',modo:'Download Mode (Odin)',porta:'SAMSUNG Mobile USB (Download)',
+    combo:[['Vol −','Vol +','+ USB (desligado)'],['Vol −','Bixby','Power (modelos antigos)']],
+    tools:['odin','heimdall','frija'], driver:'Samsung USB Driver'},
+  mtk:{nome:'MediaTek',sub:'BROM / Preloader',pill:'p-open',modo:'BROM (BootROM) / Preloader',porta:'MediaTek USB Port / Preloader',
+    combo:[['Desligado','Vol − ou Vol +','+ USB'],['Bateria conectada + cabo (auto-detect)']],
+    tools:['spft','mtkclient','fastboot'], driver:'MediaTek USB VCOM / UsbDk'},
+  qcom:{nome:'Qualcomm (fastboot)',sub:'Bootloader',pill:'p-free',modo:'Fastboot / Bootloader',porta:'Android Bootloader Interface',
+    combo:[['Vol −','Power (desligado)'],['adb reboot bootloader']],
+    tools:['fastboot','miflash','lmsa'], driver:'Android USB / Google USB Driver'},
+  unisoc:{nome:'Unisoc (Spreadtrum)',sub:'Research Download',pill:'p-care',modo:'Unisoc Boot / Diag',porta:'SPRD U2S Diag',
+    combo:[['Desligado','Vol − ou Vol +','+ USB']],
+    tools:['spd','fastboot'], driver:'SPD / Unisoc Driver (UsbDk)'}
+};
+const TOOL={
+  odin:['OD','Odin (oficial, Windows)','Grava firmware oficial Samsung (.tar.md5) pelo Download Mode. Padrão de bancada para Samsung.','p-free','samfw.com/odin'],
+  heimdall:['HD','Heimdall (open-source)','Alternativa livre e multiplataforma ao Odin para gravar firmware Samsung.','p-open','github.com/Benjamin-Dobell/Heimdall'],
+  frija:['FR','Frija / Samloader','Baixa o firmware oficial direto dos servidores Samsung pelo modelo e CSC.','p-open','github.com/SlackinJack/samloader'],
+  qfil:['QF','QFIL / QPST (Qualcomm)','Grava via EDL 9008 usando firehose (prog_firehose) + rawprogram. Desbrica Qualcomm.','p-free','qpstflashtool.com'],
+  edl:['ED','edl (bkerler, open-source)','Cliente EDL livre em Python: leitura/gravação de partições e recuperação em 9008.','p-open','github.com/bkerler/edl'],
+  spft:['SP','SP Flash Tool','Grava firmware MediaTek pelo scatter (.txt) em BROM/Preloader. Download / Firmware Upgrade / Format.','p-free','spflashtool.com'],
+  mtkclient:['MK','mtkclient (open-source)','Ferramenta MediaTek em Python: dump/flash de partições, recuperação de dead boot via BootROM.','p-open','github.com/bkerler/mtkclient'],
+  fastboot:['FB','fastboot / adb (platform-tools)','Base oficial do Android: flash de partições, boot, reinício em cada modo. Grátis, Google.','p-free','developer.android.com/tools/releases/platform-tools'],
+  miflash:['MI','Mi Flash Tool','Grava a fastboot ROM oficial Xiaomi/Redmi/Poco (pacote com flash_all). Desbrica no fastboot/EDL.','p-free','xiaomiflashtool.com'],
+  lmsa:['LM','Motorola Rescue / LMSA','Assistente oficial Motorola/Lenovo: baixa e regrava o firmware correto, resgata aparelho travado.','p-free','motorola.com/rescue'],
+  spd:['SD','SPD Upgrade / Research Download','Ferramenta de gravação para chips Unisoc/Spreadtrum via pac. Para Realme/Infinix de entrada.','p-care','spdflashtool.com']
+};
+const FWSRC={
+  samsung:['Firmware oficial Samsung','samfw.com · Frija · samsung-firmware.org','Baixe pelo modelo (ex. SM-A155M) e o CSC da região (ZTO = Brasil).'],
+  xiaomi:['ROM oficial Xiaomi','xiaomifirmwareupdater.com · mifirm.net','Pegue a Fastboot ROM (não a Recovery) para gravar no Mi Flash.'],
+  motorola:['Firmware Motorola','mirrors.lolinet.com/firmware/moto · via LMSA','Confira o canal/região (retbr para Brasil) antes de gravar.'],
+  realme:['Firmware Realme','Suporte oficial Realme · realmefirmware (comunidade)','MediaTek usa scatter no SP Flash Tool; Qualcomm usa EDL.'],
+  infinix:['Firmware Infinix','needrom / hovatek (comunidade) · suporte Transsion','Guarde o scatter + DA do modelo exato; a maioria é MediaTek.']
+};
+const BRANDS={
+  samsung:{nome:'Samsung',logo:'S',plats:['exynos','qcom','mtk'],fw:'samsung',
+    modelos:['Galaxy S24 / S24+ (Exynos 2400)','Galaxy S24 Ultra / S25 (Snapdragon)','Galaxy A55 / A35 (Exynos 1480/1380)','Galaxy A15 / A25 (MediaTek / Exynos)','Galaxy A05s / A06 (Snapdragon / MediaTek)','Galaxy M / F (MediaTek)'],
+    nota:'Samsung mistura Exynos, Snapdragon e MediaTek conforme modelo e região. Confirme a variante (SM-xxxx) antes de escolher a plataforma.'},
+  xiaomi:{nome:'Xiaomi',logo:'Mi',plats:['qcom','mtk','edl'],fw:'xiaomi',
+    modelos:['Xiaomi 14 / 14T (Snapdragon / Dimensity)','Redmi Note 14 Pro+ (Snapdragon 7s Gen 3)','Redmi Note 14 Pro (Dimensity 7300)','Poco X7 Pro (Dimensity 8400)','Redmi 13C / 14C (MediaTek Helio)','Poco M7 (Snapdragon)'],
+    nota:'Snapdragon grava por Fastboot (Mi Flash) ou EDL; MediaTek por SP Flash Tool / mtkclient. A conta Mi trava antifurto — fora desta central.'},
+  motorola:{nome:'Motorola',logo:'M',plats:['qcom','mtk'],fw:'motorola',
+    modelos:['Edge 50 / 50 Pro (Snapdragon)','Moto G84 / G73 (Snapdragon / Dimensity)','Moto G54 / G34 (Dimensity 7020 / Snapdragon)','Moto G24 / G04 (MediaTek Helio)','Moto E14 / E15 (Unisoc / MediaTek)'],
+    nota:'Quase tudo abre em Fastboot (Vol − + Power). Use o LMSA Rescue para baixar e regravar o firmware certo automaticamente.'},
+  realme:{nome:'Realme',logo:'r',plats:['mtk','qcom','unisoc'],fw:'realme',
+    modelos:['Realme 12 Pro+ (Snapdragon 7s Gen 2)','Realme 12 / 12+ (Dimensity / Snapdragon)','Realme C67 (Snapdragon 685)','Realme C65 / C61 (Dimensity 6100+)','Realme Note 60 (Unisoc T612)'],
+    nota:'Linha C e Note costumam ser MediaTek/Unisoc (SP Flash / SPD). Modelos Pro Qualcomm vão por EDL.'},
+  infinix:{nome:'Infinix',logo:'iX',plats:['mtk','unisoc'],fw:'infinix',
+    modelos:['Infinix Note 40 Pro (Dimensity 7020)','Infinix Zero 30 (Dimensity 8020)','Infinix Hot 50 / 40 (Helio G100 / G88)','Infinix Smart 9 / 8 (Unisoc T606 / Helio)','Infinix GT 20 Pro (Dimensity 8200)'],
+    nota:'Marca Transsion, base MediaTek na maioria. Guarde o scatter + DA do modelo exato; firmware vem da comunidade (needrom/hovatek).'}
+};
+const OPS=[
+  {k:'o-flash',ic:'M12 3v12m0 0l-4-4m4 4l4-4M4 17v2a2 2 0 002 2h12a2 2 0 002-2v-2',t:'Gravar firmware (reinstalar sistema)',d:'Regravar a ROM oficial — corrige bootloop, lentidão, apps de sistema corrompidos.'},
+  {k:'o-brick',ic:'M12 2l2.4 7.4H22l-6 4.6 2.3 7.4-6.3-4.6-6.3 4.6 2.3-7.4-6-4.6h7.6z',t:'Recuperar aparelho morto (dead boot / brick)',d:'Aparelho não liga, tela preta, sem logo — recuperação pelo modo baixo do chipset.'},
+  {k:'o-sys',ic:'M9 3h6l1 4h3v12H5V7h3zM9 11h6M9 15h4',t:'Atualizar / instalar versão do sistema',d:'Subir ou reinstalar a versão oficial do Android para o modelo.'},
+  {k:'o-clean',ic:'M4 7h16M9 7V5a2 2 0 012-2h2a2 2 0 012 2v2m-7 4v6m4-6v6M6 7l1 13a1 1 0 001 1h8a1 1 0 001-1l1-13',t:'Limpeza de software (wipe / reset)',d:'Formatar dados, limpar cache, remover resíduo de app — sem mexer em trava de conta.'}
+];
+function steps(platKey,opKey){
+  const p=PLAT[platKey],t0=p.tools[0],tn=TOOL[t0][1];
+  const entra=`Entre no modo <b>${p.modo}</b>: ${p.combo[0].map(x=>x.length<18?'<span class=key>'+x+'</span>':x).join(' <span class=plus>+</span> ')}. Confira a porta <code>${p.porta}</code> no Gerenciador de Dispositivos.`;
+  const drv=`Instale o driver <b>${p.driver}</b> antes de conectar.`;
+  if(opKey==='o-flash'||opKey==='o-sys'){
+    const src=platKey==='mtk'?'o <b>scatter (.txt)</b> do modelo':platKey==='exynos'?'o pacote <b>.tar.md5</b> (AP/BL/CP/CSC)':platKey==='qcom'?'a <b>Fastboot ROM</b> oficial':'o pacote de firmware oficial';
+    return [drv,`Baixe o firmware oficial do modelo exato e extraia ${src}.`,entra,`Abra o <b>${tn}</b>, carregue o firmware e confira o modelo/variante.`,`Inicie a gravação e <b>não desconecte</b> até concluir (PASS / OKAY / Download Done).`,'<span class="note">Primeiro boot pode levar alguns minutos. Se pedir, faça wipe pelo recovery.</span>'];
+  }
+  if(opKey==='o-brick'){
+    const rec=platKey==='mtk'?'Use <b>mtkclient</b> (BootROM) ou SP Flash Tool em <b>Download</b> — o preloader precisa responder.':platKey==='edl'||platKey==='qcom'?'Entre em <b>EDL 9008</b> (test point se não ligar) e grave pelo <b>QFIL</b> com o firehose do chip.':platKey==='exynos'?'Force o <b>Download Mode</b> pelas teclas; se não entrar, verifique alimentação/placa.':'Entre no modo de download do chip e regrave o preloader/partições de boot.';
+    return [drv,'Confirme que é software: aparelho esquenta, vibra ou o PC detecta a porta ao conectar.',entra,rec,'Regrave as partições de boot (preloader, lk/aboot, boot, recovery) ou o firmware completo.','<span class="note">Se o PC não detecta nenhuma porta em nenhum modo, o problema provavelmente é de hardware (placa/alimentação), não de software.</span>'];
+  }
+  return [entra,'No recovery oficial escolha <b>Wipe data / Factory reset</b> e limpe o cache.','Para resíduo de app, use <code>adb</code> com o aparelho ligado e autorizado.','<span class="note">Isto apaga dados do cliente — confirme backup antes. Não remove conta Google/Mi vinculada.</span>'];
+}
+
+/* ======== estado + util ======== */
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let ui={brand:'samsung',plat:'exynos',op:null};
+function toast(t){const e=document.getElementById('toast');e.textContent=t;e.hidden=false;clearTimeout(toast.t);toast.t=setTimeout(()=>e.hidden=true,2200)}
+
+function renderRail(){
+  document.getElementById('rail').innerHTML=`<div class="logo"><svg width="26" height="26" viewBox="0 0 40 40"><path d="M13 9l7 13 7-13" fill="none" stroke="var(--brand-ink)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="20" cy="28" r="1.8" fill="var(--brand-ink)"/></svg></div>`+
+   Object.entries(BRANDS).map(([k,b])=>`<button class="mark" data-b="${k}" aria-pressed="${ui.brand===k}" aria-label="${b.nome}"><b>${b.logo}</b><small>${b.nome}</small></button>`).join('')+
+   `<div class="railspace"><button class="ibtn" data-a="tema" aria-label="Tema claro/escuro">${themeIcon()}</button></div>`;
+}
+const themeIcon=()=>{const dark=document.documentElement.dataset.theme?document.documentElement.dataset.theme==='dark':!matchMedia('(prefers-color-scheme: light)').matches;return dark?'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 4V2M12 22v-2M4 12H2M22 12h-2M6 6L4.5 4.5M19.5 19.5L18 18M6 18l-1.5 1.5M19.5 4.5L18 6M12 16a4 4 0 100-8 4 4 0 000 8z"/></svg>':'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14A8 8 0 019 4a8 8 0 1011 10z"/></svg>'};
+
+function render(){
+  const b=BRANDS[ui.brand];
+  if(!b.plats.includes(ui.plat))ui.plat=b.plats[0];
+  const p=PLAT[ui.plat],fw=FWSRC[b.fw];
+  document.getElementById('bar').innerHTML=`<div><div class="bname">${b.nome} <span class="muted" style="font-weight:500;font-size:14px">· Bancada</span></div><div class="sub">${esc(b.nota)}</div></div><span class="conn"><span class="dot on"></span>Aguardando aparelho</span>`;
+  // esquerda: chipset + modo + ferramentas
+  document.getElementById('left').innerHTML=`
+   <div class="card"><h3>Plataforma do chipset</h3><div class="body">
+     <div class="chips">${b.plats.map(k=>`<button class="chip" data-p="${k}" aria-pressed="${ui.plat===k}"><i></i>${PLAT[k].nome}</button>`).join('')}</div>
+     <div class="grid2">
+       <div class="mode"><span class="lab">Modo de recuperação</span><span class="val">${PLAT[ui.plat].modo.split(' (')[0]}</span><span class="val"><small>${esc(p.porta)}</small></span></div>
+       <div class="mode"><span class="lab">Como entrar</span>${p.combo.map(c=>`<div class="combo">${c.map(x=>x.length<18?'<span class="key">'+esc(x)+'</span>':'<span class="muted" style="font-size:12px">'+esc(x)+'</span>').join('<span class="plus">+</span>')}</div>`).join('')}</div>
+     </div>
+     <div class="meta"><span class="pill ${p.pill}">${p.pill==='p-open'?'Open-source':p.pill==='p-care'?'Requer cuidado':'Gratuito'}</span><span class="tag">Driver: ${esc(p.driver)}</span></div>
+   </div></div>
+   <div class="card"><h3>Ferramentas livres para esta plataforma</h3><div class="body">${p.tools.map(t=>{const T=TOOL[t];return `<div class="toolrow"><span class="ti">${T[0]}</span><div class="grow"><b>${esc(T[1])}</b> <span class="pill ${T[3]}" style="vertical-align:1px">${T[3]==='p-open'?'open-source':T[3]==='p-care'?'cuidado':'grátis'}</span><p>${esc(T[2])}</p><a href="https://${T[4]}" target="_blank" rel="noopener">${esc(T[4])}</a></div></div>`}).join('')}</div></div>
+   <div class="card"><h3>Onde baixar o firmware oficial</h3><div class="body"><div class="toolrow"><span class="ti">FW</span><div class="grow"><b>${esc(fw[0])}</b><p>${esc(fw[2])}</p><a>${esc(fw[1])}</a></div></div></div></div>`;
+  // direita: operações + modelos
+  document.getElementById('right').innerHTML=`
+   <div class="card"><h3>Serviços nesta plataforma — passo a passo</h3><div class="body"><div class="ops">${OPS.map(o=>`<details class="op ${o.k}" ${ui.op===o.k?'open':''} data-op="${o.k}"><summary><button type="button" style="all:unset;display:flex;align-items:center;gap:11px;width:100%"><span class="oi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="${o.ic}"/></svg></span><span class="ot"><b>${o.t}</b><span>${o.d}</span></span><span class="chev"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg></span></button></summary><div class="steps"><ol>${steps(ui.plat,o.k).map(s=>`<li>${s}</li>`).join('')}</ol></div></details>`).join('')}</div></div></div>
+   <div class="card"><h3>Modelos recentes nesta marca</h3><div class="body"><div class="models">${b.modelos.map(m=>`<span class="tag">${esc(m)}</span>`).join('')}</div><p class="muted" style="font-size:12px;margin:2px 0 0">A ferramenta segue o <b>chipset</b>, não o nome comercial. Confirme a variante exata (SM-/model number) na etiqueta ou em <span class="mono">*#1234#</span> / GSMArena antes de gravar.</p></div></div>`;
+  document.getElementById('foot').innerHTML='Vipcell Bancada · catálogo de referência para reparo com procedência. As ferramentas são de terceiros (oficiais ou open-source) — baixe sempre da fonte original. Procedimentos de gravação apagam dados: confirme backup e propriedade do aparelho.';
+}
+
+document.addEventListener('click',e=>{
+  const bt=e.target.closest('[data-b]');if(bt){ui.brand=bt.dataset.b;ui.op=null;renderRail();render();return}
+  const pt=e.target.closest('[data-p]');if(pt){ui.plat=pt.dataset.p;render();return}
+  const a=e.target.closest('[data-a]');if(a&&a.dataset.a==='tema'){const dark=document.documentElement.dataset.theme?document.documentElement.dataset.theme==='dark':!matchMedia('(prefers-color-scheme: light)').matches;document.documentElement.dataset.theme=dark?'light':'dark';try{localStorage.setItem('vipcell-bancada-tema',document.documentElement.dataset.theme)}catch(e){}renderRail();return}
+});
+document.addEventListener('toggle',e=>{const op=e.target.closest('.op');if(op&&op.open)ui.op=op.dataset.op},true);
+try{const t=localStorage.getItem('vipcell-bancada-tema');if(t)document.documentElement.dataset.theme=t}catch(e){}
+renderRail();render();
+</script>
