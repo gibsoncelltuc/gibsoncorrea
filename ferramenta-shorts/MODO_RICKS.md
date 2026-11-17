@@ -65,3 +65,10 @@ Montado pela função de cada cena na história (medido nos roteiros e quadros d
 5. **Virada** ("Acontece que", "Só que", "Na verdade"): câmera baixa e mais perto, ou plano aberto de batalha com grua (perto → vista de cima).
 6. **Final**: fecha no rosto.
 Sempre no mínimo 2 planos abertos por vídeo; nunca dois abertos sem batalha em sequência. Desligar: `"ritmo": false`.
+
+### 8.1 Gramática de câmera medida no canal (estudo `ref_privado/audit/enquadramento-camera.md` + relatório de movimento, 32 mil quadros)
+- **Quase nunca corta seco** (0–1 por vídeo). A câmera **desliza** de um enquadramento ao outro (~20 quadros, acelera e freia) e usa fusão de 6–8 quadros só ao mudar de lugar. Aplicado: sub-cortes e sequência de batalha deslizam (`glideN: 20`).
+- **Sempre empurrando devagar para dentro** nos momentos parados (0,15–0,35% por quadro). Aplicado: `creep: 0.003`.
+- **Mistura de planos**: close 10%, médio 22%, corpo inteiro 45%, aberto 17%, detalhe de objeto 5–15%. Cabeça do principal ≈ 26% da largura.
+- **Ambientação e multidão**: grua que sobe até a vista de cima e volta; herói grande na frente com a massa atrás. Aplicado na cena 2 (`reveal`) e na batalha.
+- **Falta**: detalhe de objeto (close no objeto da cena) e conferência automática da mistura de planos.
