@@ -1,4 +1,4 @@
-// A Guerra de Toledo -- GERADO por mkvideo.py a partir de videos/toledo1835/beats.json (edite o beats.json, nao este arquivo)
+// Guerras Inusitadas EP 03 - A Guerra de Toledo -- GERADO por mkvideo.py a partir de videos/toledo1835/beats.json (edite o beats.json, nao este arquivo)
 const X = 1000, DK = 6; const X_arctic = 7000; const X_hall = 8000;
 const WS = (i, off = 0) => TIMING.words[Math.min(i, TIMING.words.length - 1)][0] + off;   // frame em que a palavra de indice i comeca
 const A = [0, WS(13, -3), WS(38, -3), WS(52, -3), WS(70, -3), WS(82, -3), WS(101, -3), WS(116, -3), WS(132, -3), WS(143, -3), TOTAL_F()];

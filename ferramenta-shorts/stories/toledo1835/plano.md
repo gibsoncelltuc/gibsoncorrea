@@ -1,4 +1,4 @@
-# Plano de acao - A Guerra de Toledo
+# Plano de acao - Guerras Inusitadas EP 03 - A Guerra de Toledo
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
