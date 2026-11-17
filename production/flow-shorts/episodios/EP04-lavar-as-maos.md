@@ -48,7 +48,7 @@ NEGATIVE (never show): upright or standing ears, a second pair of ears, three or
 ```
 Using the attached reference sheets (keep every character exactly identical to its sheet): Luna (fluffy blue-gray kitten, pink bow).
 Setting: a bright cozy kitchen with a low white sink, a wooden step stool, a pump bottle of pink soap, a soft yellow towel, a small table with a plate of sliced apples.
-Shot: close-up on the paws at the sink, steady. close-up of Luna's two paws under the running tap with soft bubbles.
+Shot: close-up on the paws at the sink, steady. close-up of Luna's two paws held together under the running tap with soft white bubbles, her smiling face visible above them.
 Anatomy lock: Luna has exactly 2 eyes, 2 small pointed ears, 2 arms, 2 legs and 1 long tail. All other body parts stay normal and attached.
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary. Keep the lower-left corner simple and uncluttered.
 NEGATIVE (never show): upright or standing ears, a second pair of ears, three or four ears, extra or duplicated ears, arms, legs, hands, fingers, tails, eyes or heads; merged or distorted limbs; text, letters, watermarks, logos; scary or dark elements; any character different from the reference sheets.
@@ -125,7 +125,7 @@ NEGATIVE: upright or standing ears, a second pair of ears, three or four ears, e
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary.
 Characters (identical to the attached reference sheets): Luna (fluffy blue-gray kitten, pink bow).
 Setting: a bright cozy kitchen with a low white sink, a wooden step stool, a pump bottle of pink soap, a soft yellow towel, a small table with a plate of sliced apples.
-Shot: close-up on the paws at the sink, steady. Action: Luna rubs her paws palm to palm, then the backs, then between the fingers, slowly on the beat, bubbles grow.
+Shot: close-up on the paws at the sink, steady. Action: Luna rubs her two paws together slowly on the beat, then turns them over and rubs again, soft bubbles grow.
 Anatomy lock: Luna has exactly 2 eyes, 2 small pointed ears, 2 arms, 2 legs and 1 long tail. Counts never change.
 Slow, simple, single continuous action; all body parts stay attached and in view; Bento's two floppy ears always hang down and only sway gently; identical look to the reference sheets throughout; lower-left corner stays uncluttered.
 Audio: original cheerful Brazilian children's pop song, same arrangement in every clip: 96 BPM, C major, ukulele, shaker, hand claps on beats 2 and 4, glockenspiel melody, soft bass; the same warm young female lead voice singing in Brazilian Portuguese, hook doubled by 4 children. Exactly 4 bars: vocal starts on beat 1, line 1 in bars 1-2, line 2 in bars 3-4; the music keeps flowing, no intro, no ending, no fade, no silence. Sound effects: running water, soft rubbing, bubbles on the beat.

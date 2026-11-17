@@ -7,7 +7,9 @@ Cole uma mensagem de cada vez, na ordem. Antes de cada passo, deixe anexado o qu
 Anexe as fichas: SHEET-BENTO, SHEET-DOCINHOS.
 
 ```
-Using the attached reference sheets SHEET-BENTO and SHEET-DOCINHOS, generate 6 separate images, vertical 9:16, named E01-1 to E01-6. Generate them one at a time, in order. Every character must be exactly identical to its reference sheet.
+Using the attached reference sheets SHEET-BENTO and SHEET-DOCINHOS, generate 6 separate images, named E01-1 to E01-6. Generate them one at a time, in order. Every character must be exactly identical to its reference sheet.
+
+ASPECT RATIO (very important): every image must be VERTICAL portrait 9:16 (1080x1920), like a phone screen, filling the whole frame. Do NOT make landscape 16:9 images. Do NOT add blurred bars, letterboxing or borders.
 
 Bento is a LOP-EARED bunny: he has exactly TWO soft floppy ears that ALWAYS hang down along both sides of his head, one on each side, pink inside. His ears NEVER stand upright and he NEVER has a second pair of ears.
 
@@ -39,7 +41,7 @@ After each image, check it. Count the ears, eyes, arms, legs and tails of every 
 Anexe as fichas e as 6 imagens aprovadas (conte as orelhas antes!).
 
 ```
-Using the attached reference sheets SHEET-BENTO and SHEET-DOCINHOS and the 6 starting images E01-1 to E01-6, generate 6 separate videos named V01-1 to V01-6. Each video is exactly 10 seconds, vertical 9:16, 720p. Generate them one at a time, in order. Video V01-k must START from image E01-k as its first frame. Every character must stay exactly identical to its reference sheet from the first to the last frame.
+Using the attached reference sheets SHEET-BENTO and SHEET-DOCINHOS and the 6 starting images E01-1 to E01-6, generate 6 separate videos named V01-1 to V01-6. Each video is exactly 10 seconds, VERTICAL portrait 9:16 (no landscape, no blurred bars), 720p. Generate them one at a time, in order. Video V01-k must START from image E01-k as its first frame. Every character must stay exactly identical to its reference sheet from the first to the last frame.
 
 Bento is a LOP-EARED bunny: he has exactly TWO soft floppy ears that ALWAYS hang down along both sides of his head, one on each side, pink inside. His ears NEVER stand upright and he NEVER has a second pair of ears.
 

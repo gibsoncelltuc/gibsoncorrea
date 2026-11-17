@@ -19,7 +19,9 @@ Check each sheet after generating. If any character has extra or duplicated ears
 Anexe as fichas: SHEET-LUNA, SHEET-BENTO.
 
 ```
-Using the attached reference sheets SHEET-LUNA and SHEET-BENTO, generate 6 separate images, vertical 9:16, named E04-1 to E04-6. Generate them one at a time, in order. Every character must be exactly identical to its reference sheet.
+Using the attached reference sheets SHEET-LUNA and SHEET-BENTO, generate 6 separate images, named E04-1 to E04-6. Generate them one at a time, in order. Every character must be exactly identical to its reference sheet.
+
+ASPECT RATIO (very important): every image must be VERTICAL portrait 9:16 (1080x1920), like a phone screen, filling the whole frame. Do NOT make landscape 16:9 images. Do NOT add blurred bars, letterboxing or borders.
 
 Bento is a LOP-EARED bunny: he has exactly TWO soft floppy ears that ALWAYS hang down along both sides of his head, one on each side, pink inside. His ears NEVER stand upright and he NEVER has a second pair of ears.
 
@@ -35,7 +37,7 @@ E04-1 (use SHEET-LUNA): medium close-up, eye level, slow push-in. Luna on the st
 
 E04-2 (use SHEET-LUNA and SHEET-BENTO): medium shot, slow side move. Bento and Luna standing near the sink with slightly dirty paws, Bento holding a toy car, a bit of cartoon dirt on his paws.
 
-E04-3 (use SHEET-LUNA): close-up on the paws at the sink, steady. close-up of Luna's two paws under the running tap with soft bubbles.
+E04-3 (use SHEET-LUNA): close-up on the paws at the sink, steady. close-up of Luna's two paws held together under the running tap with soft white bubbles, her smiling face visible above them.
 
 E04-4 (use SHEET-LUNA and SHEET-BENTO): medium shot, bouncy. Luna and Bento side by side at the sink, both with bubbly paws, smiling.
 
@@ -51,7 +53,7 @@ After each image, check it. Count the ears, eyes, arms, legs and tails of every 
 Anexe as fichas e as 6 imagens aprovadas (conte as orelhas antes!).
 
 ```
-Using the attached reference sheets SHEET-LUNA and SHEET-BENTO and the 6 starting images E04-1 to E04-6, generate 6 separate videos named V04-1 to V04-6. Each video is exactly 10 seconds, vertical 9:16, 720p. Generate them one at a time, in order. Video V04-k must START from image E04-k as its first frame. Every character must stay exactly identical to its reference sheet from the first to the last frame.
+Using the attached reference sheets SHEET-LUNA and SHEET-BENTO and the 6 starting images E04-1 to E04-6, generate 6 separate videos named V04-1 to V04-6. Each video is exactly 10 seconds, VERTICAL portrait 9:16 (no landscape, no blurred bars), 720p. Generate them one at a time, in order. Video V04-k must START from image E04-k as its first frame. Every character must stay exactly identical to its reference sheet from the first to the last frame.
 
 Bento is a LOP-EARED bunny: he has exactly TWO soft floppy ears that ALWAYS hang down along both sides of his head, one on each side, pink inside. His ears NEVER stand upright and he NEVER has a second pair of ears.
 
@@ -76,7 +78,7 @@ Shot: medium shot, slow side move. Action: Bento shows his dirty paws, Luna shak
 Sound effects: soft boing, playful xylophone notes.
 
 V04-3 (start from E04-3; use SHEET-LUNA)
-Shot: close-up on the paws at the sink, steady. Action: Luna rubs her paws palm to palm, then the backs, then between the fingers, slowly on the beat, bubbles grow.
+Shot: close-up on the paws at the sink, steady. Action: Luna rubs her two paws together slowly on the beat, then turns them over and rubs again, soft bubbles grow.
 Sound effects: running water, soft rubbing, bubbles on the beat.
 
 V04-4 (start from E04-4; use SHEET-LUNA and SHEET-BENTO)

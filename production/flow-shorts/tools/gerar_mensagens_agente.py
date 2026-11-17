@@ -42,8 +42,10 @@ def fichas_msg(ep):
 
 def imagens_msg(ep):
     n = ep["num"]; refs, notes, locks, neg = blocks(ep, False)
-    L = [f"Using the attached reference sheets {refs}, generate 6 separate images, vertical 9:16, named E{n:02d}-1 to E{n:02d}-6. "
-         "Generate them one at a time, in order. Every character must be exactly identical to its reference sheet.\n", notes + 
+    L = [f"Using the attached reference sheets {refs}, generate 6 separate images, named E{n:02d}-1 to E{n:02d}-6. "
+         "Generate them one at a time, in order. Every character must be exactly identical to its reference sheet.\n",
+         "ASPECT RATIO (very important): every image must be VERTICAL portrait 9:16 (1080x1920), like a phone screen, filling the whole "
+         "frame. Do NOT make landscape 16:9 images. Do NOT add blurred bars, letterboxing or borders.\n", notes + 
          f"COMMON SETTING for all 6: {ep['setting']}.\n",
          "COMMON STYLE for all 6: high-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, "
          "warm cinematic lighting, shallow depth of field, rich gentle colors, no text, no letters, no logos, nothing scary. Keep the "
@@ -60,7 +62,7 @@ def imagens_msg(ep):
 def videos_msg(ep):
     n = ep["num"]; refs, notes, locks, neg = blocks(ep, True)
     L = [f"Using the attached reference sheets {refs} and the 6 starting images E{n:02d}-1 to E{n:02d}-6, generate 6 separate videos "
-         f"named V{n:02d}-1 to V{n:02d}-6. Each video is exactly 10 seconds, vertical 9:16, 720p. Generate them one at a time, in order. "
+         f"named V{n:02d}-1 to V{n:02d}-6. Each video is exactly 10 seconds, VERTICAL portrait 9:16 (no landscape, no blurred bars), 720p. Generate them one at a time, in order. "
          f"Video V{n:02d}-k must START from image E{n:02d}-k as its first frame. Every character must stay exactly identical to its "
          "reference sheet from the first to the last frame.\n", notes +
          f"COMMON SETTING for all 6: {ep['setting']}.\n",

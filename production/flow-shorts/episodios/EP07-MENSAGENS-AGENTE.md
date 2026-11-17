@@ -21,7 +21,9 @@ Check each sheet after generating. If any character has extra or duplicated ears
 Anexe as fichas: SHEET-PIPO, SHEET-LUNA.
 
 ```
-Using the attached reference sheets SHEET-PIPO and SHEET-LUNA, generate 6 separate images, vertical 9:16, named E07-1 to E07-6. Generate them one at a time, in order. Every character must be exactly identical to its reference sheet.
+Using the attached reference sheets SHEET-PIPO and SHEET-LUNA, generate 6 separate images, named E07-1 to E07-6. Generate them one at a time, in order. Every character must be exactly identical to its reference sheet.
+
+ASPECT RATIO (very important): every image must be VERTICAL portrait 9:16 (1080x1920), like a phone screen, filling the whole frame. Do NOT make landscape 16:9 images. Do NOT add blurred bars, letterboxing or borders.
 
 COMMON SETTING for all 6: a sunny sandbox corner of a playground with soft golden sand, one red bucket, one blue shovel, a few small trees in the background.
 
@@ -51,7 +53,7 @@ After each image, check it. Count the ears, eyes, arms, legs and tails of every 
 Anexe as fichas e as 6 imagens aprovadas (conte as orelhas antes!).
 
 ```
-Using the attached reference sheets SHEET-PIPO and SHEET-LUNA and the 6 starting images E07-1 to E07-6, generate 6 separate videos named V07-1 to V07-6. Each video is exactly 10 seconds, vertical 9:16, 720p. Generate them one at a time, in order. Video V07-k must START from image E07-k as its first frame. Every character must stay exactly identical to its reference sheet from the first to the last frame.
+Using the attached reference sheets SHEET-PIPO and SHEET-LUNA and the 6 starting images E07-1 to E07-6, generate 6 separate videos named V07-1 to V07-6. Each video is exactly 10 seconds, VERTICAL portrait 9:16 (no landscape, no blurred bars), 720p. Generate them one at a time, in order. Video V07-k must START from image E07-k as its first frame. Every character must stay exactly identical to its reference sheet from the first to the last frame.
 
 COMMON SETTING for all 6: a sunny sandbox corner of a playground with soft golden sand, one red bucket, one blue shovel, a few small trees in the background.
 
