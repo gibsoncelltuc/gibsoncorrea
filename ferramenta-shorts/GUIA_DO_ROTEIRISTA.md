@@ -83,3 +83,8 @@ Personagens grandes na maior parte do vídeo; até 2 planos abertos comuns + at�
 - Vídeo já renderizado e você quer melhorar uma cena (câmera, personagens, objetos, batalha, placa)? Edite a cena no `beats.json` e rode `./refazer.sh <id> b4 b8` (os números das cenas, contando de b0). Só os trechos dessas cenas são renderizados de novo e o vídeo é remontado.
 - Só vale se o **texto falado não mudou**. Se mudou a narração, o tempo de tudo muda e o vídeo inteiro precisa ser refeito pela fila.
 - Não rode com a fila rodando.
+
+## Plano de ação (obrigatório antes de renderizar)
+- Toda vez que roda, o `mkvideo.py` lê o roteiro, separa as palavras-chave e os momentos de impacto e grava `stories/<id>/plano.md`: por cena, o plano de câmera, o que aparece (tropa, batalha, placa, mapa, objeto na mão) e cada palavra-chave com o **efeito visual + o som** que ela dispara.
+- A última coluna lista **palavras de ação sem efeito**. Não renderize com essa coluna preenchida: ou a palavra entra na lista automática, ou você põe na cena um `"fx"`, `"sfx"`, objeto na mão (4º campo do `who`), `"batalha": true`, animal, veículo.
+- Sons disponíveis em `"sfx": ["gun@40"]` (nome@quadro dentro da cena): `gun`, `cannon`, `sting`, `thump`, `ding`, `whoosh`, `squeal`, `tick`, `steps`.
