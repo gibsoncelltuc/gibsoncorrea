@@ -46,7 +46,7 @@ const SPEC = {
     S('b10', A[10], A[11] - 1, X, "day", { h: 2.4, d0: 5.6, d1: 4.9, hero: { hero: 'any', frame: 'medium', minH: 0.07, main: 1 }, trans: 'dissolve', actors: [pp(X, "ALM", 0, 0.0, 1.3, "grin", { pose: 'talk' })], props: [{ asset: "cannon", at: [X + -1.7, -0.5], s: 1.3 }], fx: [{ k: 'birds', a: A[10], b: A[11] - 1, at: [X, DK + 6.0, -30], n: 5, dir: -1, off: 8 }, { k: 'burst', a: WS(150), b: WS(150) + 22, at: [X + 0.0, DK + 1.8, 3.0], s: 1.2 }] })
   ],
 };
-SPEC.fit = {"b0~1":1.12,"b2":1.404,"b3":1.254,"b3~1":1.254,"b3~2":1.254,"b4":1.12,"b6":1.254,"b6_1":1.12};
+SPEC.fit = {"b0":1.254,"b2":1.12,"b2_v":1.12,"b3":1.254,"b3~1":1.12,"b3~2":1.572,"b4":1.12,"b6":1.254,"b6_1":1.12};
 // ===== STORY RUNTIME (generic): turns a declarative SPEC (stories/<id>.spec.js, concatenated before this file) into the story.js interface the engine expects =====
 import { camFromKeys, clamp, lerp, ramp, q, blinkAt, idle, M } from './motion.js';
 export const FPS = 30, TOTAL = SPEC.total, DECK = 6;
