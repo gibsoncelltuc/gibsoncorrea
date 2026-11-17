@@ -7,11 +7,11 @@ b1 | reveal | dia  | tropa, mapa | dançou (stars + som de sino) | -
 b2 | group | -  | - | dançando (stars + som de sino) | -
 b3 | crowd | -  | batalha aberta com tiros, tropa, placa: 400 | socorro (ring + som de alerta) | -
 b4 | two | -  | interior, objeto na mao | dançar (stars + som de sino) | -
-b5 | low | -  | tropa, placa: PALCO, objeto na mao | músicos (stars + som de sino) | -
+b5 | wide | -  | objeto na mao | músicos (stars + som de sino) | -
 b6 | orbit | -  | batalha aberta com tiros, tropa | música (stars + som de sino); dança (stars + som de sino); caíram (dust + som de impacto) | -
 b7 | two | -  | - | - | -
 b8 | track | -  | - | dançarinos (stars + som de sino); dança (stars + som de sino) | -
 b9 | close | -  | - | - | -
 
-Mistura de planos: close 20% | medio 63% | aberto 14% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | dentro do padrao do canal
+Mistura de planos: close 11% | medio 63% | aberto 26% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 4 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

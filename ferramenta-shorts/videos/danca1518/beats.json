@@ -119,14 +119,14 @@
    "acao": "nenhuma"
   },
   {
-   "shot": "group",
+   "shot": "wide",
    "who": [
     "MUS:0:grin:flag",
     "MUS:1:laugh",
     "PRE:0:grin"
    ],
-   "text": "PALCO",
-   "say": "Acontece que a cidade levou isso a sério. Montou um palco, e contratou músicos para animar a multidão."
+   "say": "Acontece que a cidade levou isso a sério. Montou um palco, e contratou músicos para animar a multidão.",
+   "shot_lock": true
   },
   {
    "shot": "orbit",
