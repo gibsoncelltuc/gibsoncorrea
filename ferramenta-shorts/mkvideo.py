@@ -90,7 +90,7 @@ KW = [  # (regex da palavra, efeito, golpe de camera) -- animacao nas palavras-c
     (re.compile(r'^(tiro|tiros|disparou|dispararam|disparo|disparos|atirava|atiravam|atirou|atiraram|atirar|explodiu|explodiram|explosao|canhoes|canhao|fogo|bomba|bombas|metralhadora|metralhadoras|balas|bala|artilharia)$'), 'burst', 0.09),
     (re.compile(r'^(gritou|gritaram|socorro|ataque|atacar|atacaram|alarme)$'), 'ring', 0.06),
     (re.compile(r'^(panico|correu|correram|fugiu|fugiram|correria|debandada|fuga|retirada|recuou|recuaram|bateu|marchando|marchava|marcharam|perder)$'), 'dust', 0.07),
-    (re.compile(r'^(festa|beberam|brindou|brindaram|comemoraram|venceu|venceram|ganhou|ganharam|vitoria|compraram|comprou|comprando|vendendo|vendeu|venderam|vender|dancar|dancou|dancando|danca|dancarinos|musica|musicos|rindo|riso|roubaram|roubou)$'), 'stars', 0.0),
+    (re.compile(r'^(festa|beberam|brindou|brindaram|comemoraram|venceu|venceram|ganhou|ganharam|vitoria|compraram|comprou|comprando|comprador|compradores|vendendo|vendeu|venderam|vender|dancar|dancou|dancando|danca|dancarinos|musica|musicos|rindo|riso|roubaram|roubou)$'), 'stars', 0.0),
     (re.compile(r'^(empurra|empurrouse|briga|brigar|brigaram|discussao|confusao|caos|desastre)$'), 'puff', 0.05),
     (re.compile(r'^(chegou|chegaram|apareceu|surgiu|invadiu|desabou|caiu|cairam|quebrou|quebraram|derrubou|afundou|tombou)$'), 'dust', 0.04),
     (re.compile(r'^(riu|riram|risada|gargalhou|gargalhada|gargalhadas|dinheiro|ouro|moedas|recompensa|pagou|pagar|pagaram|fortuna|premio|sino|tocou|tocar)$'), 'stars', 0.0),
@@ -214,11 +214,11 @@ def build_beat(k, b):
     mv = b.get('move', 8 if shot == 'track' else 0)
     a, bb = f'A[{k}]', f'A[{k + 1}] - 1'
     # elenco de pessoas
-    HOLDS = (('mug', r'beber|bebeu|bebia|brind|caneca|cerveja|cha\b'), ('bottle', r'garrafa|aguardente|vinho|bebida|rum|whisky|uisque'), ('paper', r'carta|jornal|imprensa|ordem|documento|mapa|contrato|telegrama|relatorio|lista|assinou|lei\b'), ('book', r'livro|biblia|diario'), ('lantern', r'lanterna|lampiao|lamparina'), ('torch', r'tocha|incendi'), ('flag', r'bandeira|rendeu|rendicao'), ('coin', r'dinheiro|moeda|ouro|recompensa|pagou|pagar|fortuna|salario|imposto'), ('bag', r'saco|mala|bagagem|sacola'), ('spyglass', r'luneta|avistou|avistaram|procurar|vigia|observ'))
+    HOLDS = (('mug', r'beber|bebeu|bebia|brind|caneca|cerveja|cha\b'), ('bottle', r'garrafa|aguardente|vinho|bebida|rum|whisky|uisque'), ('paper', r'carta|jornal|imprensa|ordem|documento|mapa|contrato|telegrama|relatorio|lista|assinou|lei\b'), ('book', r'livro|biblia|diario'), ('lantern', r'lanterna|lampiao|lamparina'), ('torch', r'tocha|incendi'), ('flag', r'bandeira|rendeu|rendicao'), ('coin', r'dinheiro|moeda|ouro|recompensa|pagou|pagar|fortuna|salario|imposto'), ('bag', r'saco|mala|bagagem|sacola'), ('spyglass', r'luneta|avistou|avistaram|procurar|vigia|observ'), ('tulip', r'tulipa|bulbo|flor\b|flores'))
     _say_sp = re.sub(r'[^a-z0-9 ]', '', unicodedata.normalize('NFKD', b['say'].lower()).encode('ascii', 'ignore').decode())
     auto_hold = next((h for h, rx in HOLDS if re.search(rx, _say_sp)), None) if b.get('maos') is not False else None
-    _acao = b.get('acao') or ('dancar' if re.search(r'\bdanc', _say_sp) else None)
-    _px = ", pose: 'dance', acting: false" if _acao == 'dancar' else ''
+    _acao = b.get('acao') or ('dancar' if re.search(r'\bdanc', _say_sp) else 'discutir' if (re.search(r'discut|brig|exigi|respondeu|gritou|ameac|insult', _say_sp) and len(b.get('who', [])) >= 2) else None)
+    _px = ", pose: 'dance', acting: false" if _acao == 'dancar' else ", pose: 'argue'" if _acao == 'discutir' else ''   # "acao": "discutir" -> os personagens gesticulam um para o outro
     persons = []
     for w in who:
         p = w.split(':'); out = p[0]; v = int(p[1]) if len(p) > 1 and p[1] != '' else 0; ex = (p[2] if len(p) > 2 else '') or 'neutral'; hold = p[3] if len(p) > 3 else None   # 4o campo: objeto na mao
@@ -314,7 +314,7 @@ def build_beat(k, b):
         asset, dx, z, s = p[0], p[1] if len(p) > 1 else 0, p[2] if len(p) > 2 else 0.5, p[3] if len(p) > 3 else 1.0
         ex = p[4] if len(p) > 4 and isinstance(p[4], dict) else {}
         if asset.startswith(('kit/', 'buildings/')) and 'drop' not in ex: ex = {**ex, 'drop': False}   # peca de cenario nao cai do ceu
-        extra = ''.join(f', {kk}: {json.dumps(vv)}' for kk, vv in ex.items())
+        extra = ''.join(f', {kk}: {json.dumps(vv)}' for kk, vv in ex.items() if kk != 'alto')
         pr.append(f"{{ asset: {json.dumps(asset)}, at: [X + {num(dx)}, {num(z)}], s: {num(s)}{extra} }}")
     # textos / efeitos
     fx = []
@@ -421,14 +421,15 @@ def build_beat(k, b):
                f"{{ f: {bb}, at: [X + {num(x1v)}, DK + 1.9, {num(zv)}], d: {num(dd * 0.9)}, az: {-10 if x1v >= x0v else 10}, el: 8, fov: 40, ease: 'lin' }}]")
         call = f"{{ ...{call}, {cam}, nocut: true }}"
     # DETALHE DE OBJETO (canal: 5-15% do video e' close no objeto da historia): no meio da cena a camera desliza ate o objeto ou a placa e volta
-    _obj = next((p_ for p_ in b.get('props', []) if not str(p_[0]).startswith(('kit/', 'buildings/', 'vehicles/'))), None)
+    _obj = next((p_ for p_ in b.get('props', []) if not str(p_[0]).startswith(('kit/room', 'kit/porch', 'kit/grave', 'kit/cross', 'kit/tulip_bed', 'buildings/', 'vehicles/'))), None)
     _placa = bool(b.get('text')) and "board:" in call
     if (b.get('detalhe') is not False and not wide and not b.get('impact') and not b.get('veiculo') and not (shot == 'track' or mv) and k > 0 and k < len(beats) - 1
             and (_obj or _placa) and len(b['say'].split()) >= 11 and STATE.get('detalhes', 0) < int(B.get('max_detalhes', 3))):
         Fq = lambda q: f"Math.round({a} + ({bb} + 1 - ({a})) * {q})"
         if _obj:
             ox, oz, os_ = (float(_obj[1]) if len(_obj) > 1 else 0.0), (float(_obj[2]) if len(_obj) > 2 else 0.5), (float(_obj[3]) if len(_obj) > 3 else 1.0)
-            k0 = (ox, 0.75 * os_, oz, 4.2, 14 if ox < 0 else -14, 10, 44); k1 = (ox, 0.75 * os_, oz, 3.4, 8 if ox < 0 else -8, 9, 44)
+            oy_ = float(_obj[4].get('alto', 0.75)) if len(_obj) > 4 and isinstance(_obj[4], dict) else (1.45 if 'tulip' in str(_obj[0]) else 0.75)   # altura do centro do objeto ("alto" no 5o campo do prop)
+            k0 = (ox, oy_ * os_, oz, 4.6 if oy_ > 1 else 4.2, 14 if ox < 0 else -14, 6 if oy_ > 1 else 10, 44); k1 = (ox, oy_ * os_, oz, 3.8 if oy_ > 1 else 3.4, 8 if ox < 0 else -8, 5 if oy_ > 1 else 9, 44)
         else: k0 = (0.0, 3.25, -1.3, 6.4, 6, -3, 44); k1 = (0.0, 3.25, -1.3, 5.4, -4, -3, 44)
         Kc = lambda f_, q: f"{{ f: {f_}, at: [X + {num(q[0])}, DK + {num(q[1])}, {num(q[2])}], d: {num(q[3])}, az: {num(q[4])}, el: {num(q[5])}, fov: {num(q[6])} }}"
         base = call; pid = f"S('b{k}', {a}, {bb}, X,"
