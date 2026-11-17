@@ -1,0 +1,47 @@
+{
+  "out": "out/ep01_FINAL_60s_legendado.mp4",
+  "music": "musica/ep01_acestep_seed23.mp3",
+  "caption_bottom": 1530,
+  "crf": 21,
+  "shots": [
+    {"clip": "ep01-v2/V01-1.mp4", "start": 0.0, "dur": 3.3},
+    {"clip": "ep01-v2/V01-1.mp4", "start": 3.3, "dur": 3.3, "zoom": 1.35, "ax": 0.5, "ay": 0.3},
+    {"clip": "ep01-v2/V01-1.mp4", "start": 6.6, "dur": 3.4, "tr": "smoothleft"},
+
+    {"clip": "ep01-v2/V01-2.mp4", "start": 0.0, "dur": 3.5},
+    {"clip": "ep01-v2/V01-2.mp4", "start": 3.5, "dur": 3.5, "zoom": 1.3, "ax": 0.75, "ay": 0.45},
+    {"clip": "ep01-v2/V01-2.mp4", "start": 7.0, "dur": 3.0, "tr": "zoomin"},
+
+    {"clip": "ep01-v2/V01-3.mp4", "start": 0.0, "dur": 3.5},
+    {"clip": "ep01-clips/V01-3.mp4", "start": 3.5, "dur": 3.5},
+    {"clip": "ep01-v2/V01-3.mp4", "start": 7.0, "dur": 3.0, "tr": "circleopen"},
+
+    {"clip": "ep01-v2/V01-4.mp4", "start": 0.0, "dur": 3.5},
+    {"clip": "ep01-v2/V01-4.mp4", "start": 3.5, "dur": 3.5, "zoom": 1.25, "ax": 0.35, "ay": 0.4},
+    {"clip": "ep01-v2/V01-4.mp4", "start": 7.0, "dur": 3.0, "tr": "smoothleft"},
+
+    {"clip": "ep01-v2/V01-5.mp4", "start": 0.0, "dur": 4.5},
+    {"clip": "ep01-v2/V01-5.mp4", "start": 4.5, "dur": 2.5},
+    {"clip": "ep01-v2/V01-5.mp4", "start": 7.0, "dur": 3.0, "zoom": 1.2, "ax": 0.5, "ay": 0.4, "tr": "fadewhite"},
+
+    {"clip": "ep01-v2/V01-6.mp4", "start": 0.0, "dur": 4.5},
+    {"clip": "ep01-v2/V01-6.mp4", "start": 4.5, "dur": 3.0},
+    {"clip": "ep01-v2/V01-6.mp4", "start": 7.5, "dur": 2.5, "zoom": 1.15, "ax": 0.5, "ay": 0.35}
+  ],
+  "captions": [
+    {"text": "Brush, brush, go, go, go!",              "start": 0.0,  "end": 3.3},
+    {"text": "Clean little teeth, hey, hey, hey!",     "start": 5.3,  "end": 8.5},
+    {"text": "Morning and night, no crying,",          "start": 10.0, "end": 13.7},
+    {"text": "a pea-sized dot of paste!",              "start": 14.0, "end": 18.3},
+    {"text": "Up and down, nice and slow,",            "start": 20.0, "end": 23.5},
+    {"text": "front to back,",                         "start": 23.9, "end": 26.0},
+    {"text": "I'll scrub them clean!",                 "start": 27.0, "end": 28.6},
+    {"text": "Brush, brush, go, go, go!",              "start": 30.9, "end": 33.6},
+    {"text": "Clean little teeth, hey, hey, hey!",     "start": 36.1, "end": 39.0},
+    {"text": "Bye-bye, little sweetie,",               "start": 40.0, "end": 42.7},
+    {"text": "my clean teeth will shine!",             "start": 42.7, "end": 45.0},
+    {"text": "Brush, brush, go, go, go!",              "start": 47.3, "end": 50.0},
+    {"text": "Go, go, go, go, go!",                    "start": 50.4, "end": 52.7},
+    {"text": "Brush every morning and every night!",   "start": 54.0, "end": 59.0, "size": 72}
+  ]
+}
