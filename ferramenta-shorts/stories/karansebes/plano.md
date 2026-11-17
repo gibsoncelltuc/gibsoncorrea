@@ -12,4 +12,7 @@ b6 | group | -  | batalha aberta com tiros, tropa, placa: TURCOS! | gritou: (rin
 b7 | orbit | -  | batalha aberta com tiros, tropa | atirava (burst + som de tiro/explosao) | -
 b8 | group | -  | tropa | artilharia (burst + som de tiro/explosao); canhões (burst + som de tiro/explosao); dispararam (burst + som de tiro/explosao) | -
 b9 | group | dawn  | tropa, placa: 10.000?, objeto na mao | chegaram (dust + som de impacto); baixas (puff + som de baque) | -
-b10 | two | dawn  | placa: FOGO AMIGO | venceram (stars + som de sino); tiro (burst + som de tiro/explosao) | -
+b10 | close | dawn  | placa: FOGO AMIGO | venceram (stars + som de sino); tiro (burst + som de tiro/explosao) | -
+
+Mistura de planos: close 8% | medio 71% | aberto 15% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 2 | dentro do padrao do canal
