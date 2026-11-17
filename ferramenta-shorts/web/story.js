@@ -24,7 +24,7 @@ const X = 4000, DK = 6; const X_hall = 8000;
 const WS = (i, off = 0) => TIMING.words[Math.min(i, TIMING.words.length - 1)][0] + off;   // frame em que a palavra de indice i comeca
 const A = [0, WS(11, -3), WS(23, -3), WS(44, -3), WS(58, -3), WS(74, -3), WS(80, -3), WS(102, -3), WS(117, -3), WS(130, -3), WS(144, -3), TOTAL_F()];
 const SPEC = {
-  id: "zanzibar1896", cutLen: 54, dissolveN: 7, glideN: 20, creep: 0.003, total: TOTAL_F(), sets: ["palace", "hall"], setx: { palace: X, hall: X_hall },
+  id: "zanzibar1896", exp: 0.9, cutLen: 54, dissolveN: 7, glideN: 20, creep: 0.003, total: TOTAL_F(), sets: ["palace", "hall"], setx: { palace: X, hall: X_hall },
   outfits: { SUL: (v = 0, e = {}) => ({ _id: "sul", jacket: "#f1ece0", pants: "#f1ece0", boots: "#2a2218", hat: "turban", cap: "#c0262d", sash: "#e8c45a", build: "stout", skin: ["#ffe2c2", "#f5c9a0", "#ecd0b6", "#c99067"][v % 4], ...(v % 7 === 4 ? { glasses: true } : {}), ...(v % 7 === 5 || v % 7 === 6 ? { beard: ['#3a2a1f', '#6b4a2a', '#8a8a86'][v % 3] } : {}), ...e }),
     GUA: (v = 0, e = {}) => ({ _id: "gua", jacket: "#b5333a", pants: "#f1ece0", boots: "#2a2218", hat: "fez", belt: "#2a2218", rifle: true, skin: ["#ffe2c2", "#f5c9a0", "#ecd0b6", "#c99067"][v % 4], ...(v % 7 === 4 ? { glasses: true } : {}), ...(v % 7 === 5 || v % 7 === 6 ? { beard: ['#3a2a1f', '#6b4a2a', '#8a8a86'][v % 3] } : {}), ...e }),
     ING: (v = 0, e = {}) => ({ _id: "ing", jacket: "#f1efe6", pants: "#f1efe6", boots: "#2a2218", hat: "helmet", cap: "#f1efe6", belt: "#8a5a34", buttons: "#e8c45a", rifle: true, skin: ["#ffe2c2", "#f5c9a0", "#ecd0b6", "#c99067"][v % 4], ...(v % 7 === 4 ? { glasses: true } : {}), ...(v % 7 === 5 || v % 7 === 6 ? { beard: ['#3a2a1f', '#6b4a2a', '#8a8a86'][v % 3] } : {}), ...e }),
