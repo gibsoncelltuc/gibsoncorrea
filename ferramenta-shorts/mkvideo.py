@@ -24,6 +24,9 @@ for _b in B['beats']:   # NEVE: enquanto estiver nevando, a cena vai para o cena
     if _b.get('clima') == 'neve' or re.search(r'neve|nevasca|nevava|nevando|inverno|congel|geada', _t): _neve = True
     elif _b.get('clima') or re.search(r'verao|primavera|calor|degelo|anosdepois|mesesdepois', _t): _neve = False
     if _neve and not _b.get('set') and not _b.get('interior') and 'arctic' in SETS_X and B.get('neve_cenario') is not False: _b['set'] = 'arctic'
+for _b in B['beats']:   # PORTO: cena pequena que fala de navio/porto/marinha acontece no cais (cenario 'harbor', com navio e mar)
+    _t = re.sub(r'[^a-z ]', '', __import__('unicodedata').normalize('NFKD', _b['say'].lower()).encode('ascii', 'ignore').decode())
+    if re.search(r'navio|\bporto|frota|marinha|\bcais\b|desembarc|zarp|esquadra', _t) and not _b.get('set') and not _b.get('interior') and SET != 'palace' and _b.get('shot') in (None, 'two', 'close', 'group', 'low', 'reveal') and not _b.get('batalha') and B.get('porto_cenario') is not False: _b['set'] = 'harbor'
 for _b in B['beats']:
     if _b.get('interior') and not _b.get('set'): _b['set'] = 'hall'      # interior fica no cenario 'hall' (sem arbusto/pedrinha de area externa)
 USED_SETS = [SET] + sorted({b['set'] for b in B['beats'] if b.get('set') and b['set'] != SET and b['set'] in SETS_X})   # cenario por cena: "set" dentro do beat
@@ -86,6 +89,18 @@ def nrm(t): return re.sub(r'[^a-z0-9]', '', unicodedata.normalize('NFKD', t.lowe
 MASS = re.compile(r'infantaria|batalh|exercito|soldados|milhares|dezenas|tropas|acampamento|regimento|multidao|todomundo|artilharia|canhoes|campocheio|panico|marcha|esquadrao|legiao|frota|armada|invasao|invadiu')
 ARRIVE = re.compile(r'chegou|chegaram|apareceu|surgiu|avancou|avancaram|marchava|marcharam|invadiu|invadiram|desembarcou|cercou|cercaram')
 CLOSE_OK = re.compile(r'gritou|olhou|sorriu|chorou|pensou|disse|perguntou|riu|ordenou')
+OBJ_DICT = [  # (palavra na narracao, objeto 3D da biblioteca, escala, grande?) -- usado para por objetos em cena e na pre-producao
+    (r'barril|barris|aguardente|cerveja|vinho|rum\b', 'barrel', 1.1, False), (r'caixote|caixas|carga|mercadoria', 'crate', 1.0, False), (r'canhao|canhoes|artilharia', 'cannon', 1.0, False),
+    (r'balde|\bpoco\b', 'tools/bucket', 1.8, False), (r'\bfonte\b|chafariz', 'nature/fountain', 1.2, False), (r'bandeira|estandarte', 'war/flagpole', 1.3, False), (r'tambor|tambores', 'war/drum', 1.4, False),
+    (r'trincheira|barricada|sacos de areia', 'war/sandbags', 1.2, False), (r'escudo', 'war/shield', 1.5, False), (r'\bfeno\b|trigo|plantac|colheita', 'nature/haybale', 1.1, False), (r'espantalho', 'nature/scarecrow', 1.2, False),
+    (r'lanterna|lampiao|lamparina', 'tools/lantern', 1.2, False), (r'escada', 'tools/ladder', 1.2, False), (r'carrinho de mao', 'tools/wheelbarrow', 1.2, False), (r'ferreiro|bigorna', 'tools/anvil', 1.3, False),
+    (r'tulipa|bulbo|\bflor\b|flores', 'kit/tulip_red', 1.3, False), (r'\bcova\b|tumulo|enterr|caixao|cemiterio', 'kit/grave', 1.0, False), (r'batata|horta|legume', 'nature/flowerbed', 1.2, False),
+    (r'\bbolo|\bdoce|confeit|padaria|pastel', 'kit/cake_table', 1.0, False), (r'\btrono\b|coroad', 'kit/throne', 1.0, 'in'), (r'fogueira|acampamento|acamparam', 'kit/campfire', 1.2, False),
+    (r'\btenda|barraca de campanha|acampamento', 'kit/tent', 1.3, True), (r'\bbau\b|tesouro|\bcofre', 'kit/chest', 1.2, False), (r'\bfeira\b|mercado|barraca|vendedor', 'kit/stall', 1.0, False),
+    (r'\btrem\b|locomotiva|ferrovia', 'vehicles/locomotive', 1.3, True), (r'carroca', 'vehicles/wagon', 1.2, True), (r'tanque de guerra|blindado', 'vehicles/tank', 1.2, True),
+    (r'torre|muralha|castelo|fortaleza|palacio', 'buildings/castle_tower', 1.3, True), (r'moinho', 'buildings/windmill', 1.2, True), (r'igreja|catedral', 'buildings/church', 1.2, True), (r'\bfarol\b', 'buildings/lighthouse', 1.2, True), (r'\bponte\b', 'buildings/bridge', 1.2, True),
+]
+FALTA_MODELAR = r'\b(pao|paes|queijo|peixe|peixes|vaca|vacas|cachorro|cachorros|gato|gatos|ovelha|ovelhas|piano|relogio|estatua|guilhotina|balanca|telefone|radio|bicicleta)\b'
 KW = [  # (regex da palavra, efeito, golpe de camera) -- animacao nas palavras-chave da narracao
     (re.compile(r'^(tiro|tiros|disparou|dispararam|disparo|disparos|atirava|atiravam|atirou|atiraram|atirar|explodiu|explodiram|explosao|canhoes|canhao|fogo|bomba|bombas|metralhadora|metralhadoras|balas|bala|artilharia)$'), 'burst', 0.09),
     (re.compile(r'^(gritou|gritaram|socorro|ataque|atacar|atacaram|alarme)$'), 'ring', 0.06),
@@ -219,7 +234,11 @@ def build_beat(k, b):
     _say_sp = re.sub(r'[^a-z0-9 ]', '', unicodedata.normalize('NFKD', b['say'].lower()).encode('ascii', 'ignore').decode())
     auto_hold = next((h for h, rx in HOLDS if re.search(rx, _say_sp)), None) if b.get('maos') is not False else None
     _acao = b.get('acao') or ('dancar' if re.search(r'\bdanc', _say_sp) else 'discutir' if (re.search(r'discut|brig|exigi|respondeu|gritou|ameac|insult', _say_sp) and len(b.get('who', [])) >= 2) else None)
-    _px = ", pose: 'dance', acting: false" if _acao == 'dancar' else ", pose: 'argue'" if _acao == 'discutir' else ''   # "acao": "discutir" -> os personagens gesticulam um para o outro
+    if not _acao: _acao = 'comemorar' if not IMPACT.search(_say_sp) and re.search(r'\bfesta|comemor|venceu|venceram|vitoria|\bbrind|gargalh|\briu\b|\briram\b|\brindo\b', _say_sp) else 'conversar' if '"' in b['say'] else None
+    if _acao == 'nenhuma': _acao = None
+    b['_acao'] = _acao
+    _px = {'dancar': ", pose: 'dance', acting: false", 'discutir': ", pose: 'argue'", 'comemorar': ", pose: 'cheer'", 'conversar': ", pose: 'talk'"}.get(_acao, '')   # "acao": "discutir" -> os personagens gesticulam um para o outro
+    _chega = b.get('chega') if 'chega' in b else bool(re.search(r'chegou|chegaram|entrou|entraram|apareceu|apareceram|veio|vieram|correu para|correram para', _say_sp))
     persons = []
     for w in who:
         p = w.split(':'); out = p[0]; v = int(p[1]) if len(p) > 1 and p[1] != '' else 0; ex = (p[2] if len(p) > 2 else '') or 'neutral'; hold = p[3] if len(p) > 3 else None   # 4o campo: objeto na mao
@@ -234,7 +253,13 @@ def build_beat(k, b):
             d = mv if mv else 8
             acts.append(f"{{ outfit: {json.dumps(out)}, v: {v}, at: [X + {num(dx - d / 2)}, {num(z)}], move: [[X + {num(dx + d / 2)}, {num(z)}], {a}, {bb}, 'lin'], pose: {json.dumps('march' if B.get('outfits', {}).get(out, {}).get('rifle') else 'stroll')}, expr: {json.dumps(ex)}{ov} }}")   # soldado marcha; civil caminha solto
         else:
-            acts.append(f"pp(X, {json.dumps(out)}, {v}, {num(dx)}, {num(z)}, {json.dumps(ex)}" + (f", {{ over: {{ hold: {json.dumps(hold)} }}{_px} }})" if hold else (f", {{ {_px[2:]} }})" if _px else ')')))
+            _pp = _px if _px else (", pose: 'react'" if ex in ('shock', 'nervous') else '' if (hold or shot in WIDE or b.get('acao') == 'nenhuma') else ", pose: 'talk'")   # ninguem fica so piscando: sem acao marcada, gesticula de leve
+            if _pp and not _px: b['_acao'] = b.get('_acao') or ('reagir' if 'react' in _pp else 'conversar')
+            if _chega and i == len(persons) - 1 and len(persons) >= 2 and shot not in WIDE:   # CHEGADA: entra andando pela lateral e para no lugar
+                sd_ = 1 if dx >= 0 else -1; b['_chega'] = True
+                acts.append(f"{{ outfit: {json.dumps(out)}, v: {v}, at: [X + {num(dx + sd_ * 2.2)}, {num(z)}], move: [[X + {num(dx)}, {num(z)}], {a}, Math.round({a} + Math.min(48, ({bb} - ({a})) * 0.3)), 'lin'], arrive: true, walk: {json.dumps('march' if B.get('outfits', {}).get(out, {}).get('rifle') else 'stroll')}, look: {num(-0.4 if dx > 0 else 0.4)}, expr: {json.dumps(ex)}{ov} }}")
+            else:
+                acts.append(f"pp(X, {json.dumps(out)}, {v}, {num(dx)}, {num(z)}, {json.dumps(ex)}" + (f", {{ over: {{ hold: {json.dumps(hold)} }}{_pp} }})" if hold else (f", {{ {_pp[2:]} }})" if _pp else ')')))
     # animais
     for j, an in enumerate(animals):
         sp = an[0]; dxa = an[1] if len(an) > 1 else 2.2 + j * 1.8; za = an[2] if len(an) > 2 else 0.6; st = an[3] if len(an) > 3 else 'stand'
@@ -311,6 +336,19 @@ def build_beat(k, b):
     elif not wide_pre and b.get('fachada') is not False and not b.get('veiculo'):
         fb = {'countryside': ['buildings/house_small', 'buildings/barn'], 'outback': ['buildings/barn', 'buildings/windmill'], 'street': ['buildings/shop', 'buildings/house_two'], 'medieval': ['buildings/castle_tower', 'buildings/house_small'], 'harbor': ['buildings/shop', 'buildings/lighthouse']}.get(b.get('set', SET))
         if fb: pr.append(f"{{ asset: {json.dumps(fb[k % 2])}, at: [X + {num(4.5 if k % 2 else -4.5)}, -9.5], s: 1.25, ry: {num(-0.35 if k % 2 else 0.35)}, drop: false }}")
+    # OBJETOS DA HISTORIA: o que a narracao cita e existe na biblioteca entra em cena sozinho (ate 2 por cena)
+    if b.get('objetos') is not False and not b.get('veiculo'):
+        tem_ = {str(p_[0]) for p_ in props}; n_auto = 0
+        for rx_, as_, sc_, big_ in OBJ_DICT:
+            if n_auto >= 2 or as_ in tem_ or not re.search(rx_, _say_sp): continue
+            if (big_ is True and (b.get('interior') or wide_pre)) or (big_ == 'in' and not b.get('interior')): continue
+            if as_ == 'kit/throne': props = props + [[as_, 0, -2.6, sc_]]; tem_.add(as_); n_auto += 1; b.setdefault('_auto_obj', []).append(as_); continue
+            if big_ is True: props = props + [[as_, (6.0 if k % 2 else -6.0), -9.5, sc_]]; b['fachada'] = False
+            elif as_.startswith('kit/') and as_ != 'kit/grave' and 'tulip' not in as_: props = props + [[as_, (0.25 if shot == 'close' else 0.0) + (1.7 if (k + n_auto) % 2 else -1.7) * (0.0 if len(b.get('who', [])) == 2 else 1.0), -2.3, sc_]]   # movel/objeto grande da historia: atras dos personagens, dentro do quadro
+            else: props = props + [[as_, (3.1 if (k + n_auto) % 2 else -3.1), 0.2 + 0.3 * n_auto, sc_]]
+            tem_.add(as_); n_auto += 1; b.setdefault('_auto_obj', []).append(as_)
+    if re.search(r'navio|frota|marinha|esquadra|encouracado', _say_sp) and wide_pre and not b.get('interior') and b.get('set', SET) in ('palace', 'harbor') and b.get('objetos') is not False:
+        props = props + [['ship', -13, -34, 0.8], ['ship', 12, -40, 0.7]]; b.setdefault('_auto_obj', []).append('navios ao fundo')
     for p in props:
         asset, dx, z, s = p[0], p[1] if len(p) > 1 else 0, p[2] if len(p) > 2 else 0.5, p[3] if len(p) > 3 else 1.0
         ex = p[4] if len(p) > 4 and isinstance(p[4], dict) else {}
@@ -491,6 +529,23 @@ for k, b in enumerate(beats):
         name, _, at = e2.partition('@'); at = int(at) if at else 4
         c2.append(f"{name}(F({a} + {at}))" if name not in ('steps', 'sea', 'gulls', 'birds') else f"{name}(F({a} + {at}), F({e}))")
 for wi, nm in KWSFX: c2.append(f"{nm}(F(int(_W({wi}))))")
+# ---------- PRE-PRODUCAO: o que o roteiro pede ANTES de animar (cenario, personagens, objetos, plano e acao de cada cena; o que falta modelar) ----------
+_lib = lambda as_: as_ in ('barrel', 'crate', 'cannon') or as_.startswith('mk/') or os.path.exists(f'web/assets/library/{as_}.glb')
+_pre = ['# Pre-producao - ' + str(B.get('title', ID)), '', 'Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blender (blender/make_*.py) ou trocado no roteiro.', '',
+        'Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta', '---|---|---|---|---|---|---|---']
+_falt_all = set()
+for k, b in enumerate(beats):
+    sp_ = re.sub(r'[^a-z0-9 ]', '', unicodedata.normalize('NFKD', b['say'].lower()).encode('ascii', 'ignore').decode())
+    objs = [str(p_[0]) for p_ in b.get('props', [])] + b.get('_auto_obj', []) + [a_[0] for a_ in b.get('animals', [])] + (['emus'] if b.get('emus') else []) + ([b['veiculo'].get('asset', 'carro')] if b.get('veiculo') else [])
+    falta = sorted(set(re.findall(FALTA_MODELAR, sp_)) | {o_ for o_ in objs if '/' in o_ and not _lib(o_)}); _falt_all |= set(falta)
+    maos = [w.split(':')[3] for w in b.get('who', []) if len(w.split(':')) > 3]
+    acao = ', '.join(x for x in ((b.get('_acao') or ''), ('alguem chega andando' if b.get('_chega') else ''), ('andando' if b.get('shot') == 'track' or b.get('move') else ''), ('batalha' if b.get('impact') else '')) if x) or ('usa o objeto da mao' if maos else 'parados (so fala e pisca)')
+    npers = len(b.get('who', [])) + int((b.get('crowd') or {}).get('n', 0))
+    _pre.append(f"b{k} | {'interior ' + str(b['interior']) if b.get('interior') else b.get('set', SET)} | {b.get('shot')} | {npers} | {acao} | {', '.join(dict.fromkeys(objs)) or '-'} | {', '.join(maos) or '-'} | {', '.join(falta) or '-'}")
+_par = sum(1 for l_ in _pre if 'parados (so fala e pisca)' in l_)
+_pre += ['', f'Cenas com personagens parados: {_par} de {len(beats)}' + (' -> ponha "acao": "conversar|discutir|comemorar|dancar", um objeto na mao ou alguem chegando' if _par > len(beats) // 3 else ''), 'FALTA MODELAR: ' + (', '.join(sorted(_falt_all)) if _falt_all else 'nada')]
+open(f'stories/{ID}/preproducao.md', 'w', encoding='utf-8').write('\n'.join(_pre) + '\n')
+print(f"pre-producao: {_par} cena(s) com personagens parados de {len(beats)}; falta modelar: {', '.join(sorted(_falt_all)) or 'nada'} (stories/{ID}/preproducao.md)")
 # ---------- PLANO DE ACAO: le o roteiro, separa os pontos-chave e confere se cada um tem acao + som ----------
 _SOM = {'burst': 'tiro/explosao', 'ring': 'alerta', 'dust': 'impacto', 'puff': 'baque', 'stars': 'sino'}
 _ACAO = re.compile(r'^(?!atirador|vendedor|chegar$)(atir|tiro|dispar|explod|canh|bomb|grit|berr|corr|fug|caiu|cairam|caindo|quebr|bateu|bateram|brig|lutou|lutaram|lutando|atac|invad|morre|matou|mataram|beb|brind|riu|riram|rindo|gargalh|chor|danc|cantou|cantaram|tocou|tocar|tocando|sino|pagou|pagar|compr|vend|roub|queim|incend|constru|cavou|cavar|enterr|naveg|afund|voou|voar|voando|nadou|nadar|marcha|cheg|descobr|perceb|assin|rende|vence|perde)')

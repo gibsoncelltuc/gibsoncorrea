@@ -2,6 +2,7 @@
 Usuário: Gibson, fala português. Responda sempre em português, curto e honesto. NÃO use agentes/subagentes nem workflows (consomem a cota dele).
 Para produzir um vídeo leia, nesta ordem: `ferramenta-shorts/GUIA_DO_ROTEIRISTA.md` (como escrever o beats.json e rodar) e `ferramenta-shorts/MODO_RICKS.md` (regras de roteiro e estilo medidas no canal de referência).
 CORRIGIR SEM PERGUNTAR (ordem do Gibson, vale para toda sessão): ao conferir a folha de contato de um vídeo, todo defeito visto (personagem cortado, cena vazia, texto cobrindo legenda, luz estourada, efeito cobrindo a tela, palavra de ação sem efeito) deve ser corrigido NA HORA, sem pedir autorização: ajuste o roteiro (ou a ferramenta, se o defeito for dela) e ponha a cena para refazer com `echo "<id> bN" >> ferramenta-shorts/refazer.txt` (a fila refaz antes do próximo vídeo) ou `./refazer.sh <id> bN` com a fila parada. Para o Gibson vai só o relatório: o que passou, o que não passou e o que já foi mandado refazer. Só entregue o arquivo final depois da correção.
+PRÉ-PRODUÇÃO ANTES DE ANIMAR (ordem do Gibson): depois de `python3 mkvideo.py <id>` leia `stories/<id>/preproducao.md` (cena a cena: cenário, plano, nº de personagens, ação, objetos em cena, objeto na mão, o que FALTA). Se houver "FALTA MODELAR", modele no Blender (`blender/make_objetos.py` é o modelo; saída em `web/assets/library/kit/`), ponha no `OBJ_DICT` do `mkvideo.py` e rode de novo. Se houver cena com "parados (so fala e pisca)" que não seja plano aberto, ponha `"acao"` (conversar|discutir|comemorar|dancar), objeto na mão ou `"chega": true`. O objeto-tema da história (bolo, tulipa, porco...) tem que aparecer no vídeo. Só então renderize.
 Regras: depois de `python3 mkvideo.py <id>` leia `stories/<id>/plano.md` e não renderize enquanto houver palavra de ação sem efeito+som; todo vídeo tem no mínimo 2 planos abertos; para ajustar um vídeo pronto use `./refazer.sh <id> bN` (só as cenas mexidas); histórias e personagens sempre originais; olhar o storyboard e a folha de contato antes de entregar; enviar o vídeo pronto (prévia comprimida) pelo chat; não editar o motor (`web/`, `mkvideo.py`) só para fazer um vídeo; nunca rodar `build3.sh`/`shot.mjs`/`storyboard.mjs` enquanto a fila roda; commit + push no branch de trabalho ao terminar.
 Fila: `cd ferramenta-shorts && bash status.sh` | `bash run_queue.sh` (ids em `queue.txt`). Retoma sozinha após reinício (hook em `.claude/settings.json`).
 
@@ -11,35 +12,23 @@ Fila: `cd ferramenta-shorts && bash status.sh` | `bash run_queue.sh` (ids em `qu
 **Branch:** claude/bold-sagan-dskrsj
 
 **Recent commits:**
-- 4ed80e7 COMPARATIVO_RICKS.md: tabela canal x ferramenta com situacao de cada ponto
-- ba1fb07 karansebes validado com superficies chapadas
-- e33f608 superficies chapadas (medido no canal: ruido <2%): pintura procedural e relevo reduzidos, grama/terra/pedra/madeira/reboco limpos, menos pedrinhas
-- 11c01d1 carro/taxi no desenho do canal: cabine aberta de colunas, bancos, volante, motorista sentado dentro, lataria lisa (corrige cache do shader noPaint)
-- a95e23a motorista dentro do carro (carta cortada na janela), veiculo 1.6x, personagens no plano de foco e sub-cortes menos fechados, teste de objetos
+- 696f0e5 progresso (tulipas em render)
+- 6adbcf5 batalha automatica so com tropa em cena (civil atirando nao vira multidao de clones); Porco b3/b4 na lista de refacao
+- 1108315 tulipa no Blender (vasos e canteiro), flor na mao, acao de discutir, close de objeto alto; Tulipas refeito do zero em campo holandes; EP 06 Porco renderizado
+- 62e48bb ckpt(porco1859): pronto
+- 9a47742 ckpt(porco1859): trecho 12
 
-**In-progress files (17):**
+**In-progress files (5):**
 - ferramenta-shorts/mkvideo.py
-- ferramenta-shorts/qa_core.mjs
-- ferramenta-shorts/sb_k.jpg
-- ferramenta-shorts/sb_k.json
-- ferramenta-shorts/stories/karansebes/fit.js
-- ferramenta-shorts/stories/karansebes/spec.js
-- ferramenta-shorts/stories/teste_cenarios/spec.js
-- ferramenta-shorts/videos/teste_cenarios/beats.json
-- ferramenta-shorts/web/main.js
+- ferramenta-shorts/stories/tulipas1637/fit.js
+- ferramenta-shorts/web/runtime.js
 - ferramenta-shorts/web/story.js
-- ferramenta-shorts/web/tail.js
-- ferramenta-shorts/web/toon.js
-- ferramenta-shorts/web/toonbase.js
-- ferramenta-shorts/blender/make_room.py
-- ferramenta-shorts/web/assets/library/kit/room_shop.glb
-- ferramenta-shorts/web/assets/library/kit/room_stone.glb
-- ferramenta-shorts/web/assets/library/kit/room_wood.glb
+- ferramenta-shorts/stories/tulipas1637/stages/style
 
 **Project reminders:**
 - Verify the file content before claiming an edit is done
 - Run tests before declaring task complete
 - Re-read CLAUDE.md if you're unsure of project conventions
 
-**Hook generated:** 2026-11-17 15:20:53 UTC
+**Hook generated:** 2026-11-17 23:26:39 UTC
 <!-- post-compact-recovery-end -->
