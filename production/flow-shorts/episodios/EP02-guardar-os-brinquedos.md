@@ -24,45 +24,45 @@ Em cada imagem, anexe a ficha de quem aparece nela. Se uma imagem sair com orelh
 ### Imagem E02-1  (anexar: Bento)
 
 ```
-Using the attached reference sheets (keep every character exactly identical to its sheet): Bento (chubby fluffy white-and-cream bunny, blue scarf).
+Using the attached reference sheets (keep every character exactly identical to its sheet): Bento (chubby fluffy white-and-cream lop-eared bunny with exactly two floppy ears hanging down, blue scarf).
 Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear.
 Shot: medium shot, eye level, slow push-in. Bento standing in the middle of the room full of scattered toys, hands on his cheeks with a surprised happy face.
-Anatomy lock: Bento has exactly 2 eyes, 2 long floppy ears, 2 arms, 2 legs and 1 small round tail. All other body parts stay normal and attached.
+Anatomy lock: Bento has exactly 2 ears, both floppy and hanging down beside his cheeks (never upright, never a second pair), exactly 2 eyes, 2 arms, 2 legs and 1 small round tail. All other body parts stay normal and attached.
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary. Keep the lower-left corner simple and uncluttered.
-NEGATIVE (never show): extra or duplicated ears, arms, legs, hands, fingers, tails, eyes or heads; merged or distorted limbs; text, letters, watermarks, logos; scary or dark elements; any character different from the reference sheets.
+NEGATIVE (never show): upright or standing ears, a second pair of ears, three or four ears, extra or duplicated ears, arms, legs, hands, fingers, tails, eyes or heads; merged or distorted limbs; text, letters, watermarks, logos; scary or dark elements; any character different from the reference sheets.
 ```
 
 ### Imagem E02-2  (anexar: Bento, Tico)
 
 ```
-Using the attached reference sheets (keep every character exactly identical to its sheet): Bento (chubby fluffy white-and-cream bunny, blue scarf); Tico (round caramel-brown monkey, green backpack).
+Using the attached reference sheets (keep every character exactly identical to its sheet): Bento (chubby fluffy white-and-cream lop-eared bunny with exactly two floppy ears hanging down, blue scarf); Tico (round caramel-brown monkey, green backpack).
 Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear.
 Shot: wide shot of the doorway, steady. Tico standing at the bedroom door looking at the messy floor, Bento next to him with an open-armed shrug.
-Anatomy lock: Bento has exactly 2 eyes, 2 long floppy ears, 2 arms, 2 legs and 1 small round tail; Tico has exactly 2 eyes, 2 round ears, 2 arms, 2 legs and 1 curly tail. All other body parts stay normal and attached.
+Anatomy lock: Bento has exactly 2 ears, both floppy and hanging down beside his cheeks (never upright, never a second pair), exactly 2 eyes, 2 arms, 2 legs and 1 small round tail; Tico has exactly 2 eyes, 2 round ears, 2 arms, 2 legs and 1 curly tail. All other body parts stay normal and attached.
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary. Keep the lower-left corner simple and uncluttered.
-NEGATIVE (never show): extra or duplicated ears, arms, legs, hands, fingers, tails, eyes or heads; merged or distorted limbs; text, letters, watermarks, logos; scary or dark elements; any character different from the reference sheets.
+NEGATIVE (never show): upright or standing ears, a second pair of ears, three or four ears, extra or duplicated ears, arms, legs, hands, fingers, tails, eyes or heads; merged or distorted limbs; text, letters, watermarks, logos; scary or dark elements; any character different from the reference sheets.
 ```
 
 ### Imagem E02-3  (anexar: Bento, Tico)
 
 ```
-Using the attached reference sheets (keep every character exactly identical to its sheet): Bento (chubby fluffy white-and-cream bunny, blue scarf); Tico (round caramel-brown monkey, green backpack).
+Using the attached reference sheets (keep every character exactly identical to its sheet): Bento (chubby fluffy white-and-cream lop-eared bunny with exactly two floppy ears hanging down, blue scarf); Tico (round caramel-brown monkey, green backpack).
 Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear.
 Shot: medium shot, slow side move. Bento kneeling next to the blue toy box holding a rounded block, Tico near the low shelf holding a toy car.
-Anatomy lock: Bento has exactly 2 eyes, 2 long floppy ears, 2 arms, 2 legs and 1 small round tail; Tico has exactly 2 eyes, 2 round ears, 2 arms, 2 legs and 1 curly tail. All other body parts stay normal and attached.
+Anatomy lock: Bento has exactly 2 ears, both floppy and hanging down beside his cheeks (never upright, never a second pair), exactly 2 eyes, 2 arms, 2 legs and 1 small round tail; Tico has exactly 2 eyes, 2 round ears, 2 arms, 2 legs and 1 curly tail. All other body parts stay normal and attached.
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary. Keep the lower-left corner simple and uncluttered.
-NEGATIVE (never show): extra or duplicated ears, arms, legs, hands, fingers, tails, eyes or heads; merged or distorted limbs; text, letters, watermarks, logos; scary or dark elements; any character different from the reference sheets.
+NEGATIVE (never show): upright or standing ears, a second pair of ears, three or four ears, extra or duplicated ears, arms, legs, hands, fingers, tails, eyes or heads; merged or distorted limbs; text, letters, watermarks, logos; scary or dark elements; any character different from the reference sheets.
 ```
 
 ### Imagem E02-4  (anexar: Bento, Tico)
 
 ```
-Using the attached reference sheets (keep every character exactly identical to its sheet): Bento (chubby fluffy white-and-cream bunny, blue scarf); Tico (round caramel-brown monkey, green backpack).
+Using the attached reference sheets (keep every character exactly identical to its sheet): Bento (chubby fluffy white-and-cream lop-eared bunny with exactly two floppy ears hanging down, blue scarf); Tico (round caramel-brown monkey, green backpack).
 Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear.
 Shot: medium shot, bouncy. Bento hugging the teddy bear next to the small bed, Tico smiling beside him.
-Anatomy lock: Bento has exactly 2 eyes, 2 long floppy ears, 2 arms, 2 legs and 1 small round tail; Tico has exactly 2 eyes, 2 round ears, 2 arms, 2 legs and 1 curly tail. All other body parts stay normal and attached.
+Anatomy lock: Bento has exactly 2 ears, both floppy and hanging down beside his cheeks (never upright, never a second pair), exactly 2 eyes, 2 arms, 2 legs and 1 small round tail; Tico has exactly 2 eyes, 2 round ears, 2 arms, 2 legs and 1 curly tail. All other body parts stay normal and attached.
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary. Keep the lower-left corner simple and uncluttered.
-NEGATIVE (never show): extra or duplicated ears, arms, legs, hands, fingers, tails, eyes or heads; merged or distorted limbs; text, letters, watermarks, logos; scary or dark elements; any character different from the reference sheets.
+NEGATIVE (never show): upright or standing ears, a second pair of ears, three or four ears, extra or duplicated ears, arms, legs, hands, fingers, tails, eyes or heads; merged or distorted limbs; text, letters, watermarks, logos; scary or dark elements; any character different from the reference sheets.
 ```
 
 ### Imagem E02-5  (anexar: Tico)
@@ -73,18 +73,18 @@ Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, 
 Shot: close-up, then pull back, slow. Tico crouching behind the toy box with a surprised smile, the red ball just visible.
 Anatomy lock: Tico has exactly 2 eyes, 2 round ears, 2 arms, 2 legs and 1 curly tail. All other body parts stay normal and attached.
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary. Keep the lower-left corner simple and uncluttered.
-NEGATIVE (never show): extra or duplicated ears, arms, legs, hands, fingers, tails, eyes or heads; merged or distorted limbs; text, letters, watermarks, logos; scary or dark elements; any character different from the reference sheets.
+NEGATIVE (never show): upright or standing ears, a second pair of ears, three or four ears, extra or duplicated ears, arms, legs, hands, fingers, tails, eyes or heads; merged or distorted limbs; text, letters, watermarks, logos; scary or dark elements; any character different from the reference sheets.
 ```
 
 ### Imagem E02-6  (anexar: Bento, Tico)
 
 ```
-Using the attached reference sheets (keep every character exactly identical to its sheet): Bento (chubby fluffy white-and-cream bunny, blue scarf); Tico (round caramel-brown monkey, green backpack).
+Using the attached reference sheets (keep every character exactly identical to its sheet): Bento (chubby fluffy white-and-cream lop-eared bunny with exactly two floppy ears hanging down, blue scarf); Tico (round caramel-brown monkey, green backpack).
 Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear.
 Shot: wide shot of the tidy room, gentle push-in. the whole room neat and tidy, Bento and Tico in the middle holding the red ball between them, smiling.
-Anatomy lock: Bento has exactly 2 eyes, 2 long floppy ears, 2 arms, 2 legs and 1 small round tail; Tico has exactly 2 eyes, 2 round ears, 2 arms, 2 legs and 1 curly tail. All other body parts stay normal and attached.
+Anatomy lock: Bento has exactly 2 ears, both floppy and hanging down beside his cheeks (never upright, never a second pair), exactly 2 eyes, 2 arms, 2 legs and 1 small round tail; Tico has exactly 2 eyes, 2 round ears, 2 arms, 2 legs and 1 curly tail. All other body parts stay normal and attached.
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary. Keep the lower-left corner simple and uncluttered.
-NEGATIVE (never show): extra or duplicated ears, arms, legs, hands, fingers, tails, eyes or heads; merged or distorted limbs; text, letters, watermarks, logos; scary or dark elements; any character different from the reference sheets.
+NEGATIVE (never show): upright or standing ears, a second pair of ears, three or four ears, extra or duplicated ears, arms, legs, hands, fingers, tails, eyes or heads; merged or distorted limbs; text, letters, watermarks, logos; scary or dark elements; any character different from the reference sheets.
 ```
 
 ## Passo 2: gerar os 6 vídeos (10 s, 720p, 9:16)
@@ -95,56 +95,56 @@ Em cada vídeo, **comece pela imagem de mesmo número** e anexe as fichas de que
 
 ```
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary.
-Characters (identical to the attached reference sheets): Bento (chubby fluffy white-and-cream bunny, blue scarf).
+Characters (identical to the attached reference sheets): Bento (chubby fluffy white-and-cream lop-eared bunny with exactly two floppy ears hanging down, blue scarf).
 Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear.
 Shot: medium shot, eye level, slow push-in. Action: Bento points at the toys and bounces on the beat, then opens one arm toward the blue toy box.
-Anatomy lock: Bento has exactly 2 eyes, 2 long floppy ears, 2 arms, 2 legs and 1 small round tail. Counts never change.
-Slow, simple, single continuous action; all body parts stay attached and in view; ears sway gently as one piece each; identical look to the reference sheets throughout; lower-left corner stays uncluttered.
+Anatomy lock: Bento has exactly 2 ears, both floppy and hanging down beside his cheeks (never upright, never a second pair), exactly 2 eyes, 2 arms, 2 legs and 1 small round tail. Counts never change.
+Slow, simple, single continuous action; all body parts stay attached and in view; Bento's two floppy ears always hang down and only sway gently; identical look to the reference sheets throughout; lower-left corner stays uncluttered.
 Audio: original cheerful Brazilian children's pop song, same arrangement in every clip: 96 BPM, C major, ukulele, shaker, hand claps on beats 2 and 4, glockenspiel melody, soft bass; the same warm young female lead voice singing in Brazilian Portuguese, hook doubled by 4 children. Exactly 4 bars: vocal starts on beat 1, line 1 in bars 1-2, line 2 in bars 3-4; the music keeps flowing, no intro, no ending, no fade, no silence. Sound effects: toy clinks, light pops, claps on beats 2 and 4.
 Sung lyrics, exactly these two lines and nothing else: "Guarda, guarda, guarda lá," / "cada coisa em seu lugar!"
-NEGATIVE: extra or duplicated ears, arms, legs, hands, fingers, tails, eyes, heads; merged or melting limbs; a character splitting or morphing; color, size or outfit changes; characters appearing or disappearing; on-screen text, logos; scary or sudden elements or sounds; camera shake; fast spinning.
+NEGATIVE: upright or standing ears, a second pair of ears, three or four ears, extra or duplicated ears, arms, legs, hands, fingers, tails, eyes, heads; merged or melting limbs; a character splitting or morphing; color, size or outfit changes; characters appearing or disappearing; on-screen text, logos; scary or sudden elements or sounds; camera shake; fast spinning.
 ```
 
 ### Vídeo E02-2  (começa da imagem E02-2; anexar: Bento, Tico)
 
 ```
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary.
-Characters (identical to the attached reference sheets): Bento (chubby fluffy white-and-cream bunny, blue scarf); Tico (round caramel-brown monkey, green backpack).
+Characters (identical to the attached reference sheets): Bento (chubby fluffy white-and-cream lop-eared bunny with exactly two floppy ears hanging down, blue scarf); Tico (round caramel-brown monkey, green backpack).
 Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear.
 Shot: wide shot of the doorway, steady. Action: Tico looks around the floor and shrugs with a puzzled face, Bento shrugs too and they look at each other.
-Anatomy lock: Bento has exactly 2 eyes, 2 long floppy ears, 2 arms, 2 legs and 1 small round tail; Tico has exactly 2 eyes, 2 round ears, 2 arms, 2 legs and 1 curly tail. Counts never change.
-Slow, simple, single continuous action; all body parts stay attached and in view; ears sway gently as one piece each; identical look to the reference sheets throughout; lower-left corner stays uncluttered.
+Anatomy lock: Bento has exactly 2 ears, both floppy and hanging down beside his cheeks (never upright, never a second pair), exactly 2 eyes, 2 arms, 2 legs and 1 small round tail; Tico has exactly 2 eyes, 2 round ears, 2 arms, 2 legs and 1 curly tail. Counts never change.
+Slow, simple, single continuous action; all body parts stay attached and in view; Bento's two floppy ears always hang down and only sway gently; identical look to the reference sheets throughout; lower-left corner stays uncluttered.
 Audio: original cheerful Brazilian children's pop song, same arrangement in every clip: 96 BPM, C major, ukulele, shaker, hand claps on beats 2 and 4, glockenspiel melody, soft bass; the same warm young female lead voice singing in Brazilian Portuguese, hook doubled by 4 children. Exactly 4 bars: vocal starts on beat 1, line 1 in bars 1-2, line 2 in bars 3-4; the music keeps flowing, no intro, no ending, no fade, no silence. Sound effects: soft boing, curious xylophone notes.
 Sung lyrics, exactly these two lines and nothing else: "Quanta bagunça no meu chão!" / "Cadê a bola? Eu não sei, não!"
-NEGATIVE: extra or duplicated ears, arms, legs, hands, fingers, tails, eyes, heads; merged or melting limbs; a character splitting or morphing; color, size or outfit changes; characters appearing or disappearing; on-screen text, logos; scary or sudden elements or sounds; camera shake; fast spinning.
+NEGATIVE: upright or standing ears, a second pair of ears, three or four ears, extra or duplicated ears, arms, legs, hands, fingers, tails, eyes, heads; merged or melting limbs; a character splitting or morphing; color, size or outfit changes; characters appearing or disappearing; on-screen text, logos; scary or sudden elements or sounds; camera shake; fast spinning.
 ```
 
 ### Vídeo E02-3  (começa da imagem E02-3; anexar: Bento, Tico)
 
 ```
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary.
-Characters (identical to the attached reference sheets): Bento (chubby fluffy white-and-cream bunny, blue scarf); Tico (round caramel-brown monkey, green backpack).
+Characters (identical to the attached reference sheets): Bento (chubby fluffy white-and-cream lop-eared bunny with exactly two floppy ears hanging down, blue scarf); Tico (round caramel-brown monkey, green backpack).
 Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear.
 Shot: medium shot, slow side move. Action: Bento puts three colorful blocks one by one into the toy box on the beat, Tico places the toy car on the low shelf.
-Anatomy lock: Bento has exactly 2 eyes, 2 long floppy ears, 2 arms, 2 legs and 1 small round tail; Tico has exactly 2 eyes, 2 round ears, 2 arms, 2 legs and 1 curly tail. Counts never change.
-Slow, simple, single continuous action; all body parts stay attached and in view; ears sway gently as one piece each; identical look to the reference sheets throughout; lower-left corner stays uncluttered.
+Anatomy lock: Bento has exactly 2 ears, both floppy and hanging down beside his cheeks (never upright, never a second pair), exactly 2 eyes, 2 arms, 2 legs and 1 small round tail; Tico has exactly 2 eyes, 2 round ears, 2 arms, 2 legs and 1 curly tail. Counts never change.
+Slow, simple, single continuous action; all body parts stay attached and in view; Bento's two floppy ears always hang down and only sway gently; identical look to the reference sheets throughout; lower-left corner stays uncluttered.
 Audio: original cheerful Brazilian children's pop song, same arrangement in every clip: 96 BPM, C major, ukulele, shaker, hand claps on beats 2 and 4, glockenspiel melody, soft bass; the same warm young female lead voice singing in Brazilian Portuguese, hook doubled by 4 children. Exactly 4 bars: vocal starts on beat 1, line 1 in bars 1-2, line 2 in bars 3-4; the music keeps flowing, no intro, no ending, no fade, no silence. Sound effects: soft block clunks on the beat, small car roll.
 Sung lyrics, exactly these two lines and nothing else: "Blocos na caixa, um, dois, três," / "carrinho na estante de uma vez!"
-NEGATIVE: extra or duplicated ears, arms, legs, hands, fingers, tails, eyes, heads; merged or melting limbs; a character splitting or morphing; color, size or outfit changes; characters appearing or disappearing; on-screen text, logos; scary or sudden elements or sounds; camera shake; fast spinning.
+NEGATIVE: upright or standing ears, a second pair of ears, three or four ears, extra or duplicated ears, arms, legs, hands, fingers, tails, eyes, heads; merged or melting limbs; a character splitting or morphing; color, size or outfit changes; characters appearing or disappearing; on-screen text, logos; scary or sudden elements or sounds; camera shake; fast spinning.
 ```
 
 ### Vídeo E02-4  (começa da imagem E02-4; anexar: Bento, Tico)
 
 ```
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary.
-Characters (identical to the attached reference sheets): Bento (chubby fluffy white-and-cream bunny, blue scarf); Tico (round caramel-brown monkey, green backpack).
+Characters (identical to the attached reference sheets): Bento (chubby fluffy white-and-cream lop-eared bunny with exactly two floppy ears hanging down, blue scarf); Tico (round caramel-brown monkey, green backpack).
 Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear.
 Shot: medium shot, bouncy. Action: Bento sets the teddy bear on the bed and pats it, Tico claps, both bounce gently on the beat.
-Anatomy lock: Bento has exactly 2 eyes, 2 long floppy ears, 2 arms, 2 legs and 1 small round tail; Tico has exactly 2 eyes, 2 round ears, 2 arms, 2 legs and 1 curly tail. Counts never change.
-Slow, simple, single continuous action; all body parts stay attached and in view; ears sway gently as one piece each; identical look to the reference sheets throughout; lower-left corner stays uncluttered.
+Anatomy lock: Bento has exactly 2 ears, both floppy and hanging down beside his cheeks (never upright, never a second pair), exactly 2 eyes, 2 arms, 2 legs and 1 small round tail; Tico has exactly 2 eyes, 2 round ears, 2 arms, 2 legs and 1 curly tail. Counts never change.
+Slow, simple, single continuous action; all body parts stay attached and in view; Bento's two floppy ears always hang down and only sway gently; identical look to the reference sheets throughout; lower-left corner stays uncluttered.
 Audio: original cheerful Brazilian children's pop song, same arrangement in every clip: 96 BPM, C major, ukulele, shaker, hand claps on beats 2 and 4, glockenspiel melody, soft bass; the same warm young female lead voice singing in Brazilian Portuguese, hook doubled by 4 children. Exactly 4 bars: vocal starts on beat 1, line 1 in bars 1-2, line 2 in bars 3-4; the music keeps flowing, no intro, no ending, no fade, no silence. Sound effects: soft thump on the bed, claps, light giggles.
 Sung lyrics, exactly these two lines and nothing else: "Guarda, guarda, guarda lá," / "cada coisa em seu lugar!"
-NEGATIVE: extra or duplicated ears, arms, legs, hands, fingers, tails, eyes, heads; merged or melting limbs; a character splitting or morphing; color, size or outfit changes; characters appearing or disappearing; on-screen text, logos; scary or sudden elements or sounds; camera shake; fast spinning.
+NEGATIVE: upright or standing ears, a second pair of ears, three or four ears, extra or duplicated ears, arms, legs, hands, fingers, tails, eyes, heads; merged or melting limbs; a character splitting or morphing; color, size or outfit changes; characters appearing or disappearing; on-screen text, logos; scary or sudden elements or sounds; camera shake; fast spinning.
 ```
 
 ### Vídeo E02-5  (começa da imagem E02-5; anexar: Tico)
@@ -155,24 +155,24 @@ Characters (identical to the attached reference sheets): Tico (round caramel-bro
 Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear.
 Shot: close-up, then pull back, slow. Action: Tico peeks behind the toy box, finds the red ball and lifts it up with joy.
 Anatomy lock: Tico has exactly 2 eyes, 2 round ears, 2 arms, 2 legs and 1 curly tail. Counts never change.
-Slow, simple, single continuous action; all body parts stay attached and in view; ears sway gently as one piece each; identical look to the reference sheets throughout; lower-left corner stays uncluttered.
+Slow, simple, single continuous action; all body parts stay attached and in view; Bento's two floppy ears always hang down and only sway gently; identical look to the reference sheets throughout; lower-left corner stays uncluttered.
 Audio: original cheerful Brazilian children's pop song, same arrangement in every clip: 96 BPM, C major, ukulele, shaker, hand claps on beats 2 and 4, glockenspiel melody, soft bass; the same warm young female lead voice singing in Brazilian Portuguese, hook doubled by 4 children. Exactly 4 bars: vocal starts on beat 1, line 1 in bars 1-2, line 2 in bars 3-4; the music keeps flowing, no intro, no ending, no fade, no silence. Sound effects: surprise ting, happy boing, light claps.
 Sung lyrics, exactly these two lines and nothing else: "Olha só quem estava ali atrás," / "a bolinha! Que bom, que bom, demais!"
-NEGATIVE: extra or duplicated ears, arms, legs, hands, fingers, tails, eyes, heads; merged or melting limbs; a character splitting or morphing; color, size or outfit changes; characters appearing or disappearing; on-screen text, logos; scary or sudden elements or sounds; camera shake; fast spinning.
+NEGATIVE: upright or standing ears, a second pair of ears, three or four ears, extra or duplicated ears, arms, legs, hands, fingers, tails, eyes, heads; merged or melting limbs; a character splitting or morphing; color, size or outfit changes; characters appearing or disappearing; on-screen text, logos; scary or sudden elements or sounds; camera shake; fast spinning.
 ```
 
 ### Vídeo E02-6  (começa da imagem E02-6; anexar: Bento, Tico)
 
 ```
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary.
-Characters (identical to the attached reference sheets): Bento (chubby fluffy white-and-cream bunny, blue scarf); Tico (round caramel-brown monkey, green backpack).
+Characters (identical to the attached reference sheets): Bento (chubby fluffy white-and-cream lop-eared bunny with exactly two floppy ears hanging down, blue scarf); Tico (round caramel-brown monkey, green backpack).
 Setting: a bright cozy kid's bedroom with a soft round rug, a low wooden shelf, a big blue toy box, a small bed with a yellow blanket, toys scattered on the floor: colorful rounded blocks, a toy car, a teddy bear.
 Shot: wide shot of the tidy room, gentle push-in. Action: Bento and Tico gently pass the ball to each other once and then turn to the camera and wave.
-Anatomy lock: Bento has exactly 2 eyes, 2 long floppy ears, 2 arms, 2 legs and 1 small round tail; Tico has exactly 2 eyes, 2 round ears, 2 arms, 2 legs and 1 curly tail. Counts never change.
-Slow, simple, single continuous action; all body parts stay attached and in view; ears sway gently as one piece each; identical look to the reference sheets throughout; lower-left corner stays uncluttered.
+Anatomy lock: Bento has exactly 2 ears, both floppy and hanging down beside his cheeks (never upright, never a second pair), exactly 2 eyes, 2 arms, 2 legs and 1 small round tail; Tico has exactly 2 eyes, 2 round ears, 2 arms, 2 legs and 1 curly tail. Counts never change.
+Slow, simple, single continuous action; all body parts stay attached and in view; Bento's two floppy ears always hang down and only sway gently; identical look to the reference sheets throughout; lower-left corner stays uncluttered.
 Audio: original cheerful Brazilian children's pop song, same arrangement in every clip: 96 BPM, C major, ukulele, shaker, hand claps on beats 2 and 4, glockenspiel melody, soft bass; the same warm young female lead voice singing in Brazilian Portuguese, hook doubled by 4 children. Exactly 4 bars: vocal starts on beat 1, line 1 in bars 1-2, line 2 in bars 3-4; the music keeps flowing, no intro, no ending, no fade, no silence. Sound effects: soft ball bounce, cheerful claps, sparkle ting.
 Sung lyrics, exactly these two lines and nothing else: "Guarda, guarda, guarda lá," / "cada coisa em seu lugar!"
-NEGATIVE: extra or duplicated ears, arms, legs, hands, fingers, tails, eyes, heads; merged or melting limbs; a character splitting or morphing; color, size or outfit changes; characters appearing or disappearing; on-screen text, logos; scary or sudden elements or sounds; camera shake; fast spinning.
+NEGATIVE: upright or standing ears, a second pair of ears, three or four ears, extra or duplicated ears, arms, legs, hands, fingers, tails, eyes, heads; merged or melting limbs; a character splitting or morphing; color, size or outfit changes; characters appearing or disappearing; on-screen text, logos; scary or sudden elements or sounds; camera shake; fast spinning.
 ```
 
 ## Checklist de cada clipe

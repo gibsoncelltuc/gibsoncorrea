@@ -24,45 +24,45 @@ Em cada imagem, anexe a ficha de quem aparece nela. Se uma imagem sair com orelh
 ### Imagem E05-1  (anexar: Bento, Pipo, Nina)
 
 ```
-Using the attached reference sheets (keep every character exactly identical to its sheet): Bento (chubby fluffy white-and-cream bunny, blue scarf); Pipo (tiny yellow duckling, red bow tie); Nina (5-year-old girl, two curly hair puffs with yellow ribbons, green dress).
+Using the attached reference sheets (keep every character exactly identical to its sheet): Bento (chubby fluffy white-and-cream lop-eared bunny with exactly two floppy ears hanging down, blue scarf); Pipo (tiny yellow duckling, red bow tie); Nina (5-year-old girl, two curly hair puffs with yellow ribbons, green dress).
 Setting: a sunny garden picnic with a red-and-white checkered blanket, a wicker basket, a plate of cookies, a jug of orange juice, green grass and a few flowers.
 Shot: medium shot, eye level, slow push-in. Bento, Pipo and Nina sitting together on the picnic blanket smiling at the camera.
-Anatomy lock: Bento has exactly 2 eyes, 2 long floppy ears, 2 arms, 2 legs and 1 small round tail; Pipo has exactly 2 eyes, 1 beak, 2 wings and 2 feet; Nina has exactly 2 eyes, 2 hair puffs, 2 arms with 2 simple relaxed hands, and 2 legs. All other body parts stay normal and attached.
+Anatomy lock: Bento has exactly 2 ears, both floppy and hanging down beside his cheeks (never upright, never a second pair), exactly 2 eyes, 2 arms, 2 legs and 1 small round tail; Pipo has exactly 2 eyes, 1 beak, 2 wings and 2 feet; Nina has exactly 2 eyes, 2 hair puffs, 2 arms with 2 simple relaxed hands, and 2 legs. All other body parts stay normal and attached.
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary. Keep the lower-left corner simple and uncluttered.
-NEGATIVE (never show): extra or duplicated ears, arms, legs, hands, fingers, tails, eyes or heads; merged or distorted limbs; text, letters, watermarks, logos; scary or dark elements; any character different from the reference sheets.
+NEGATIVE (never show): upright or standing ears, a second pair of ears, three or four ears, extra or duplicated ears, arms, legs, hands, fingers, tails, eyes or heads; merged or distorted limbs; text, letters, watermarks, logos; scary or dark elements; any character different from the reference sheets.
 ```
 
 ### Imagem E05-2  (anexar: Pipo, Bento)
 
 ```
-Using the attached reference sheets (keep every character exactly identical to its sheet): Pipo (tiny yellow duckling, red bow tie); Bento (chubby fluffy white-and-cream bunny, blue scarf).
+Using the attached reference sheets (keep every character exactly identical to its sheet): Pipo (tiny yellow duckling, red bow tie); Bento (chubby fluffy white-and-cream lop-eared bunny with exactly two floppy ears hanging down, blue scarf).
 Setting: a sunny garden picnic with a red-and-white checkered blanket, a wicker basket, a plate of cookies, a jug of orange juice, green grass and a few flowers.
 Shot: medium shot, slow side move. Pipo looking up at the jug of orange juice on the blanket, Bento next to him ready to pour.
-Anatomy lock: Pipo has exactly 2 eyes, 1 beak, 2 wings and 2 feet; Bento has exactly 2 eyes, 2 long floppy ears, 2 arms, 2 legs and 1 small round tail. All other body parts stay normal and attached.
+Anatomy lock: Pipo has exactly 2 eyes, 1 beak, 2 wings and 2 feet; Bento has exactly 2 ears, both floppy and hanging down beside his cheeks (never upright, never a second pair), exactly 2 eyes, 2 arms, 2 legs and 1 small round tail. All other body parts stay normal and attached.
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary. Keep the lower-left corner simple and uncluttered.
-NEGATIVE (never show): extra or duplicated ears, arms, legs, hands, fingers, tails, eyes or heads; merged or distorted limbs; text, letters, watermarks, logos; scary or dark elements; any character different from the reference sheets.
+NEGATIVE (never show): upright or standing ears, a second pair of ears, three or four ears, extra or duplicated ears, arms, legs, hands, fingers, tails, eyes or heads; merged or distorted limbs; text, letters, watermarks, logos; scary or dark elements; any character different from the reference sheets.
 ```
 
 ### Imagem E05-3  (anexar: Pipo, Bento)
 
 ```
-Using the attached reference sheets (keep every character exactly identical to its sheet): Pipo (tiny yellow duckling, red bow tie); Bento (chubby fluffy white-and-cream bunny, blue scarf).
+Using the attached reference sheets (keep every character exactly identical to its sheet): Pipo (tiny yellow duckling, red bow tie); Bento (chubby fluffy white-and-cream lop-eared bunny with exactly two floppy ears hanging down, blue scarf).
 Setting: a sunny garden picnic with a red-and-white checkered blanket, a wicker basket, a plate of cookies, a jug of orange juice, green grass and a few flowers.
 Shot: medium shot, steady. Bento handing a small cup of juice to Pipo, who holds it with both wings.
-Anatomy lock: Pipo has exactly 2 eyes, 1 beak, 2 wings and 2 feet; Bento has exactly 2 eyes, 2 long floppy ears, 2 arms, 2 legs and 1 small round tail. All other body parts stay normal and attached.
+Anatomy lock: Pipo has exactly 2 eyes, 1 beak, 2 wings and 2 feet; Bento has exactly 2 ears, both floppy and hanging down beside his cheeks (never upright, never a second pair), exactly 2 eyes, 2 arms, 2 legs and 1 small round tail. All other body parts stay normal and attached.
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary. Keep the lower-left corner simple and uncluttered.
-NEGATIVE (never show): extra or duplicated ears, arms, legs, hands, fingers, tails, eyes or heads; merged or distorted limbs; text, letters, watermarks, logos; scary or dark elements; any character different from the reference sheets.
+NEGATIVE (never show): upright or standing ears, a second pair of ears, three or four ears, extra or duplicated ears, arms, legs, hands, fingers, tails, eyes or heads; merged or distorted limbs; text, letters, watermarks, logos; scary or dark elements; any character different from the reference sheets.
 ```
 
 ### Imagem E05-4  (anexar: Bento, Pipo, Nina)
 
 ```
-Using the attached reference sheets (keep every character exactly identical to its sheet): Bento (chubby fluffy white-and-cream bunny, blue scarf); Pipo (tiny yellow duckling, red bow tie); Nina (5-year-old girl, two curly hair puffs with yellow ribbons, green dress).
+Using the attached reference sheets (keep every character exactly identical to its sheet): Bento (chubby fluffy white-and-cream lop-eared bunny with exactly two floppy ears hanging down, blue scarf); Pipo (tiny yellow duckling, red bow tie); Nina (5-year-old girl, two curly hair puffs with yellow ribbons, green dress).
 Setting: a sunny garden picnic with a red-and-white checkered blanket, a wicker basket, a plate of cookies, a jug of orange juice, green grass and a few flowers.
 Shot: medium shot, bouncy. the three friends on the blanket holding cookies, smiling at each other.
-Anatomy lock: Bento has exactly 2 eyes, 2 long floppy ears, 2 arms, 2 legs and 1 small round tail; Pipo has exactly 2 eyes, 1 beak, 2 wings and 2 feet; Nina has exactly 2 eyes, 2 hair puffs, 2 arms with 2 simple relaxed hands, and 2 legs. All other body parts stay normal and attached.
+Anatomy lock: Bento has exactly 2 ears, both floppy and hanging down beside his cheeks (never upright, never a second pair), exactly 2 eyes, 2 arms, 2 legs and 1 small round tail; Pipo has exactly 2 eyes, 1 beak, 2 wings and 2 feet; Nina has exactly 2 eyes, 2 hair puffs, 2 arms with 2 simple relaxed hands, and 2 legs. All other body parts stay normal and attached.
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary. Keep the lower-left corner simple and uncluttered.
-NEGATIVE (never show): extra or duplicated ears, arms, legs, hands, fingers, tails, eyes or heads; merged or distorted limbs; text, letters, watermarks, logos; scary or dark elements; any character different from the reference sheets.
+NEGATIVE (never show): upright or standing ears, a second pair of ears, three or four ears, extra or duplicated ears, arms, legs, hands, fingers, tails, eyes or heads; merged or distorted limbs; text, letters, watermarks, logos; scary or dark elements; any character different from the reference sheets.
 ```
 
 ### Imagem E05-5  (anexar: Nina, Pipo)
@@ -73,18 +73,18 @@ Setting: a sunny garden picnic with a red-and-white checkered blanket, a wicker 
 Shot: close-up on Nina, then medium, slow. Nina holding out a cookie to Pipo with a kind smile.
 Anatomy lock: Nina has exactly 2 eyes, 2 hair puffs, 2 arms with 2 simple relaxed hands, and 2 legs; Pipo has exactly 2 eyes, 1 beak, 2 wings and 2 feet. All other body parts stay normal and attached.
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary. Keep the lower-left corner simple and uncluttered.
-NEGATIVE (never show): extra or duplicated ears, arms, legs, hands, fingers, tails, eyes or heads; merged or distorted limbs; text, letters, watermarks, logos; scary or dark elements; any character different from the reference sheets.
+NEGATIVE (never show): upright or standing ears, a second pair of ears, three or four ears, extra or duplicated ears, arms, legs, hands, fingers, tails, eyes or heads; merged or distorted limbs; text, letters, watermarks, logos; scary or dark elements; any character different from the reference sheets.
 ```
 
 ### Imagem E05-6  (anexar: Bento, Pipo, Nina)
 
 ```
-Using the attached reference sheets (keep every character exactly identical to its sheet): Bento (chubby fluffy white-and-cream bunny, blue scarf); Pipo (tiny yellow duckling, red bow tie); Nina (5-year-old girl, two curly hair puffs with yellow ribbons, green dress).
+Using the attached reference sheets (keep every character exactly identical to its sheet): Bento (chubby fluffy white-and-cream lop-eared bunny with exactly two floppy ears hanging down, blue scarf); Pipo (tiny yellow duckling, red bow tie); Nina (5-year-old girl, two curly hair puffs with yellow ribbons, green dress).
 Setting: a sunny garden picnic with a red-and-white checkered blanket, a wicker basket, a plate of cookies, a jug of orange juice, green grass and a few flowers.
 Shot: wide shot of the picnic, gentle push-in. the three friends on the blanket, hugging gently, the picnic set around them.
-Anatomy lock: Bento has exactly 2 eyes, 2 long floppy ears, 2 arms, 2 legs and 1 small round tail; Pipo has exactly 2 eyes, 1 beak, 2 wings and 2 feet; Nina has exactly 2 eyes, 2 hair puffs, 2 arms with 2 simple relaxed hands, and 2 legs. All other body parts stay normal and attached.
+Anatomy lock: Bento has exactly 2 ears, both floppy and hanging down beside his cheeks (never upright, never a second pair), exactly 2 eyes, 2 arms, 2 legs and 1 small round tail; Pipo has exactly 2 eyes, 1 beak, 2 wings and 2 feet; Nina has exactly 2 eyes, 2 hair puffs, 2 arms with 2 simple relaxed hands, and 2 legs. All other body parts stay normal and attached.
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary. Keep the lower-left corner simple and uncluttered.
-NEGATIVE (never show): extra or duplicated ears, arms, legs, hands, fingers, tails, eyes or heads; merged or distorted limbs; text, letters, watermarks, logos; scary or dark elements; any character different from the reference sheets.
+NEGATIVE (never show): upright or standing ears, a second pair of ears, three or four ears, extra or duplicated ears, arms, legs, hands, fingers, tails, eyes or heads; merged or distorted limbs; text, letters, watermarks, logos; scary or dark elements; any character different from the reference sheets.
 ```
 
 ## Passo 2: gerar os 6 vídeos (10 s, 720p, 9:16)
@@ -95,56 +95,56 @@ Em cada vídeo, **comece pela imagem de mesmo número** e anexe as fichas de que
 
 ```
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary.
-Characters (identical to the attached reference sheets): Bento (chubby fluffy white-and-cream bunny, blue scarf); Pipo (tiny yellow duckling, red bow tie); Nina (5-year-old girl, two curly hair puffs with yellow ribbons, green dress).
+Characters (identical to the attached reference sheets): Bento (chubby fluffy white-and-cream lop-eared bunny with exactly two floppy ears hanging down, blue scarf); Pipo (tiny yellow duckling, red bow tie); Nina (5-year-old girl, two curly hair puffs with yellow ribbons, green dress).
 Setting: a sunny garden picnic with a red-and-white checkered blanket, a wicker basket, a plate of cookies, a jug of orange juice, green grass and a few flowers.
 Shot: medium shot, eye level, slow push-in. Action: the three friends sway gently on the beat and each lifts one hand in a small happy wave.
-Anatomy lock: Bento has exactly 2 eyes, 2 long floppy ears, 2 arms, 2 legs and 1 small round tail; Pipo has exactly 2 eyes, 1 beak, 2 wings and 2 feet; Nina has exactly 2 eyes, 2 hair puffs, 2 arms with 2 simple relaxed hands, and 2 legs. Counts never change.
-Slow, simple, single continuous action; all body parts stay attached and in view; ears sway gently as one piece each; identical look to the reference sheets throughout; lower-left corner stays uncluttered.
+Anatomy lock: Bento has exactly 2 ears, both floppy and hanging down beside his cheeks (never upright, never a second pair), exactly 2 eyes, 2 arms, 2 legs and 1 small round tail; Pipo has exactly 2 eyes, 1 beak, 2 wings and 2 feet; Nina has exactly 2 eyes, 2 hair puffs, 2 arms with 2 simple relaxed hands, and 2 legs. Counts never change.
+Slow, simple, single continuous action; all body parts stay attached and in view; Bento's two floppy ears always hang down and only sway gently; identical look to the reference sheets throughout; lower-left corner stays uncluttered.
 Audio: original cheerful Brazilian children's pop song, same arrangement in every clip: 96 BPM, C major, ukulele, shaker, hand claps on beats 2 and 4, glockenspiel melody, soft bass; the same warm young female lead voice singing in Brazilian Portuguese, hook doubled by 4 children. Exactly 4 bars: vocal starts on beat 1, line 1 in bars 1-2, line 2 in bars 3-4; the music keeps flowing, no intro, no ending, no fade, no silence. Sound effects: soft birdsong, sparkle chime on beat 1, light claps.
 Sung lyrics, exactly these two lines and nothing else: "Por favor e obrigado," / "palavras mágicas, esse é o recado!"
-NEGATIVE: extra or duplicated ears, arms, legs, hands, fingers, tails, eyes, heads; merged or melting limbs; a character splitting or morphing; color, size or outfit changes; characters appearing or disappearing; on-screen text, logos; scary or sudden elements or sounds; camera shake; fast spinning.
+NEGATIVE: upright or standing ears, a second pair of ears, three or four ears, extra or duplicated ears, arms, legs, hands, fingers, tails, eyes, heads; merged or melting limbs; a character splitting or morphing; color, size or outfit changes; characters appearing or disappearing; on-screen text, logos; scary or sudden elements or sounds; camera shake; fast spinning.
 ```
 
 ### Vídeo E05-2  (começa da imagem E05-2; anexar: Pipo, Bento)
 
 ```
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary.
-Characters (identical to the attached reference sheets): Pipo (tiny yellow duckling, red bow tie); Bento (chubby fluffy white-and-cream bunny, blue scarf).
+Characters (identical to the attached reference sheets): Pipo (tiny yellow duckling, red bow tie); Bento (chubby fluffy white-and-cream lop-eared bunny with exactly two floppy ears hanging down, blue scarf).
 Setting: a sunny garden picnic with a red-and-white checkered blanket, a wicker basket, a plate of cookies, a jug of orange juice, green grass and a few flowers.
 Shot: medium shot, slow side move. Action: Pipo points to the juice with his wing and opens his beak to ask politely, Bento smiles and lifts the jug.
-Anatomy lock: Pipo has exactly 2 eyes, 1 beak, 2 wings and 2 feet; Bento has exactly 2 eyes, 2 long floppy ears, 2 arms, 2 legs and 1 small round tail. Counts never change.
-Slow, simple, single continuous action; all body parts stay attached and in view; ears sway gently as one piece each; identical look to the reference sheets throughout; lower-left corner stays uncluttered.
+Anatomy lock: Pipo has exactly 2 eyes, 1 beak, 2 wings and 2 feet; Bento has exactly 2 ears, both floppy and hanging down beside his cheeks (never upright, never a second pair), exactly 2 eyes, 2 arms, 2 legs and 1 small round tail. Counts never change.
+Slow, simple, single continuous action; all body parts stay attached and in view; Bento's two floppy ears always hang down and only sway gently; identical look to the reference sheets throughout; lower-left corner stays uncluttered.
 Audio: original cheerful Brazilian children's pop song, same arrangement in every clip: 96 BPM, C major, ukulele, shaker, hand claps on beats 2 and 4, glockenspiel melody, soft bass; the same warm young female lead voice singing in Brazilian Portuguese, hook doubled by 4 children. Exactly 4 bars: vocal starts on beat 1, line 1 in bars 1-2, line 2 in bars 3-4; the music keeps flowing, no intro, no ending, no fade, no silence. Sound effects: soft juice pour, curious xylophone notes.
 Sung lyrics, exactly these two lines and nothing else: "Pipo quer o suco e vai pedir:" / "Por favor! E todo mundo vai sorrir!"
-NEGATIVE: extra or duplicated ears, arms, legs, hands, fingers, tails, eyes, heads; merged or melting limbs; a character splitting or morphing; color, size or outfit changes; characters appearing or disappearing; on-screen text, logos; scary or sudden elements or sounds; camera shake; fast spinning.
+NEGATIVE: upright or standing ears, a second pair of ears, three or four ears, extra or duplicated ears, arms, legs, hands, fingers, tails, eyes, heads; merged or melting limbs; a character splitting or morphing; color, size or outfit changes; characters appearing or disappearing; on-screen text, logos; scary or sudden elements or sounds; camera shake; fast spinning.
 ```
 
 ### Vídeo E05-3  (começa da imagem E05-3; anexar: Pipo, Bento)
 
 ```
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary.
-Characters (identical to the attached reference sheets): Pipo (tiny yellow duckling, red bow tie); Bento (chubby fluffy white-and-cream bunny, blue scarf).
+Characters (identical to the attached reference sheets): Pipo (tiny yellow duckling, red bow tie); Bento (chubby fluffy white-and-cream lop-eared bunny with exactly two floppy ears hanging down, blue scarf).
 Setting: a sunny garden picnic with a red-and-white checkered blanket, a wicker basket, a plate of cookies, a jug of orange juice, green grass and a few flowers.
 Shot: medium shot, steady. Action: Pipo receives the cup and gives a little bow of thanks, then gently bumps into Bento and both smile and nod to say sorry.
-Anatomy lock: Pipo has exactly 2 eyes, 1 beak, 2 wings and 2 feet; Bento has exactly 2 eyes, 2 long floppy ears, 2 arms, 2 legs and 1 small round tail. Counts never change.
-Slow, simple, single continuous action; all body parts stay attached and in view; ears sway gently as one piece each; identical look to the reference sheets throughout; lower-left corner stays uncluttered.
+Anatomy lock: Pipo has exactly 2 eyes, 1 beak, 2 wings and 2 feet; Bento has exactly 2 ears, both floppy and hanging down beside his cheeks (never upright, never a second pair), exactly 2 eyes, 2 arms, 2 legs and 1 small round tail. Counts never change.
+Slow, simple, single continuous action; all body parts stay attached and in view; Bento's two floppy ears always hang down and only sway gently; identical look to the reference sheets throughout; lower-left corner stays uncluttered.
 Audio: original cheerful Brazilian children's pop song, same arrangement in every clip: 96 BPM, C major, ukulele, shaker, hand claps on beats 2 and 4, glockenspiel melody, soft bass; the same warm young female lead voice singing in Brazilian Portuguese, hook doubled by 4 children. Exactly 4 bars: vocal starts on beat 1, line 1 in bars 1-2, line 2 in bars 3-4; the music keeps flowing, no intro, no ending, no fade, no silence. Sound effects: small cup clink, soft bump boing, gentle chime.
 Sung lyrics, exactly these two lines and nothing else: "Ganhou o suco? Diz obrigado!" / "Esbarrou sem querer? Desculpa, amigo!"
-NEGATIVE: extra or duplicated ears, arms, legs, hands, fingers, tails, eyes, heads; merged or melting limbs; a character splitting or morphing; color, size or outfit changes; characters appearing or disappearing; on-screen text, logos; scary or sudden elements or sounds; camera shake; fast spinning.
+NEGATIVE: upright or standing ears, a second pair of ears, three or four ears, extra or duplicated ears, arms, legs, hands, fingers, tails, eyes, heads; merged or melting limbs; a character splitting or morphing; color, size or outfit changes; characters appearing or disappearing; on-screen text, logos; scary or sudden elements or sounds; camera shake; fast spinning.
 ```
 
 ### Vídeo E05-4  (começa da imagem E05-4; anexar: Bento, Pipo, Nina)
 
 ```
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary.
-Characters (identical to the attached reference sheets): Bento (chubby fluffy white-and-cream bunny, blue scarf); Pipo (tiny yellow duckling, red bow tie); Nina (5-year-old girl, two curly hair puffs with yellow ribbons, green dress).
+Characters (identical to the attached reference sheets): Bento (chubby fluffy white-and-cream lop-eared bunny with exactly two floppy ears hanging down, blue scarf); Pipo (tiny yellow duckling, red bow tie); Nina (5-year-old girl, two curly hair puffs with yellow ribbons, green dress).
 Setting: a sunny garden picnic with a red-and-white checkered blanket, a wicker basket, a plate of cookies, a jug of orange juice, green grass and a few flowers.
 Shot: medium shot, bouncy. Action: the three friends bounce gently on the beat and clink their cookies together in a cheerful toast.
-Anatomy lock: Bento has exactly 2 eyes, 2 long floppy ears, 2 arms, 2 legs and 1 small round tail; Pipo has exactly 2 eyes, 1 beak, 2 wings and 2 feet; Nina has exactly 2 eyes, 2 hair puffs, 2 arms with 2 simple relaxed hands, and 2 legs. Counts never change.
-Slow, simple, single continuous action; all body parts stay attached and in view; ears sway gently as one piece each; identical look to the reference sheets throughout; lower-left corner stays uncluttered.
+Anatomy lock: Bento has exactly 2 ears, both floppy and hanging down beside his cheeks (never upright, never a second pair), exactly 2 eyes, 2 arms, 2 legs and 1 small round tail; Pipo has exactly 2 eyes, 1 beak, 2 wings and 2 feet; Nina has exactly 2 eyes, 2 hair puffs, 2 arms with 2 simple relaxed hands, and 2 legs. Counts never change.
+Slow, simple, single continuous action; all body parts stay attached and in view; Bento's two floppy ears always hang down and only sway gently; identical look to the reference sheets throughout; lower-left corner stays uncluttered.
 Audio: original cheerful Brazilian children's pop song, same arrangement in every clip: 96 BPM, C major, ukulele, shaker, hand claps on beats 2 and 4, glockenspiel melody, soft bass; the same warm young female lead voice singing in Brazilian Portuguese, hook doubled by 4 children. Exactly 4 bars: vocal starts on beat 1, line 1 in bars 1-2, line 2 in bars 3-4; the music keeps flowing, no intro, no ending, no fade, no silence. Sound effects: claps on beats 2 and 4, soft cookie tap, sparkle ting.
 Sung lyrics, exactly these two lines and nothing else: "Por favor e obrigado," / "palavras mágicas, esse é o recado!"
-NEGATIVE: extra or duplicated ears, arms, legs, hands, fingers, tails, eyes, heads; merged or melting limbs; a character splitting or morphing; color, size or outfit changes; characters appearing or disappearing; on-screen text, logos; scary or sudden elements or sounds; camera shake; fast spinning.
+NEGATIVE: upright or standing ears, a second pair of ears, three or four ears, extra or duplicated ears, arms, legs, hands, fingers, tails, eyes, heads; merged or melting limbs; a character splitting or morphing; color, size or outfit changes; characters appearing or disappearing; on-screen text, logos; scary or sudden elements or sounds; camera shake; fast spinning.
 ```
 
 ### Vídeo E05-5  (começa da imagem E05-5; anexar: Nina, Pipo)
@@ -155,24 +155,24 @@ Characters (identical to the attached reference sheets): Nina (5-year-old girl, 
 Setting: a sunny garden picnic with a red-and-white checkered blanket, a wicker basket, a plate of cookies, a jug of orange juice, green grass and a few flowers.
 Shot: close-up on Nina, then medium, slow. Action: Nina offers a cookie to Pipo, Pipo says thanks with a little bow, both smile warmly.
 Anatomy lock: Nina has exactly 2 eyes, 2 hair puffs, 2 arms with 2 simple relaxed hands, and 2 legs; Pipo has exactly 2 eyes, 1 beak, 2 wings and 2 feet. Counts never change.
-Slow, simple, single continuous action; all body parts stay attached and in view; ears sway gently as one piece each; identical look to the reference sheets throughout; lower-left corner stays uncluttered.
+Slow, simple, single continuous action; all body parts stay attached and in view; Bento's two floppy ears always hang down and only sway gently; identical look to the reference sheets throughout; lower-left corner stays uncluttered.
 Audio: original cheerful Brazilian children's pop song, same arrangement in every clip: 96 BPM, C major, ukulele, shaker, hand claps on beats 2 and 4, glockenspiel melody, soft bass; the same warm young female lead voice singing in Brazilian Portuguese, hook doubled by 4 children. Exactly 4 bars: vocal starts on beat 1, line 1 in bars 1-2, line 2 in bars 3-4; the music keeps flowing, no intro, no ending, no fade, no silence. Sound effects: soft sparkle chime, warm glockenspiel note.
 Sung lyrics, exactly these two lines and nothing else: "Quem fala assim faz bem ao coração," / "todo mundo gosta de gentileza, então!"
-NEGATIVE: extra or duplicated ears, arms, legs, hands, fingers, tails, eyes, heads; merged or melting limbs; a character splitting or morphing; color, size or outfit changes; characters appearing or disappearing; on-screen text, logos; scary or sudden elements or sounds; camera shake; fast spinning.
+NEGATIVE: upright or standing ears, a second pair of ears, three or four ears, extra or duplicated ears, arms, legs, hands, fingers, tails, eyes, heads; merged or melting limbs; a character splitting or morphing; color, size or outfit changes; characters appearing or disappearing; on-screen text, logos; scary or sudden elements or sounds; camera shake; fast spinning.
 ```
 
 ### Vídeo E05-6  (começa da imagem E05-6; anexar: Bento, Pipo, Nina)
 
 ```
 High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, vertical 9:16, no on-screen text, no logos, nothing scary.
-Characters (identical to the attached reference sheets): Bento (chubby fluffy white-and-cream bunny, blue scarf); Pipo (tiny yellow duckling, red bow tie); Nina (5-year-old girl, two curly hair puffs with yellow ribbons, green dress).
+Characters (identical to the attached reference sheets): Bento (chubby fluffy white-and-cream lop-eared bunny with exactly two floppy ears hanging down, blue scarf); Pipo (tiny yellow duckling, red bow tie); Nina (5-year-old girl, two curly hair puffs with yellow ribbons, green dress).
 Setting: a sunny garden picnic with a red-and-white checkered blanket, a wicker basket, a plate of cookies, a jug of orange juice, green grass and a few flowers.
 Shot: wide shot of the picnic, gentle push-in. Action: the three friends hug gently, turn to the camera together and wave.
-Anatomy lock: Bento has exactly 2 eyes, 2 long floppy ears, 2 arms, 2 legs and 1 small round tail; Pipo has exactly 2 eyes, 1 beak, 2 wings and 2 feet; Nina has exactly 2 eyes, 2 hair puffs, 2 arms with 2 simple relaxed hands, and 2 legs. Counts never change.
-Slow, simple, single continuous action; all body parts stay attached and in view; ears sway gently as one piece each; identical look to the reference sheets throughout; lower-left corner stays uncluttered.
+Anatomy lock: Bento has exactly 2 ears, both floppy and hanging down beside his cheeks (never upright, never a second pair), exactly 2 eyes, 2 arms, 2 legs and 1 small round tail; Pipo has exactly 2 eyes, 1 beak, 2 wings and 2 feet; Nina has exactly 2 eyes, 2 hair puffs, 2 arms with 2 simple relaxed hands, and 2 legs. Counts never change.
+Slow, simple, single continuous action; all body parts stay attached and in view; Bento's two floppy ears always hang down and only sway gently; identical look to the reference sheets throughout; lower-left corner stays uncluttered.
 Audio: original cheerful Brazilian children's pop song, same arrangement in every clip: 96 BPM, C major, ukulele, shaker, hand claps on beats 2 and 4, glockenspiel melody, soft bass; the same warm young female lead voice singing in Brazilian Portuguese, hook doubled by 4 children. Exactly 4 bars: vocal starts on beat 1, line 1 in bars 1-2, line 2 in bars 3-4; the music keeps flowing, no intro, no ending, no fade, no silence. Sound effects: cheerful claps, sparkle chime, soft birdsong.
 Sung lyrics, exactly these two lines and nothing else: "Por favor e obrigado," / "palavras mágicas, esse é o recado!"
-NEGATIVE: extra or duplicated ears, arms, legs, hands, fingers, tails, eyes, heads; merged or melting limbs; a character splitting or morphing; color, size or outfit changes; characters appearing or disappearing; on-screen text, logos; scary or sudden elements or sounds; camera shake; fast spinning.
+NEGATIVE: upright or standing ears, a second pair of ears, three or four ears, extra or duplicated ears, arms, legs, hands, fingers, tails, eyes, heads; merged or melting limbs; a character splitting or morphing; color, size or outfit changes; characters appearing or disappearing; on-screen text, logos; scary or sudden elements or sounds; camera shake; fast spinning.
 ```
 
 ## Checklist de cada clipe

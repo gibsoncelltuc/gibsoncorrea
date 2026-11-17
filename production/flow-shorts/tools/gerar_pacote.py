@@ -15,11 +15,11 @@ STYLE = ("High-quality stylized 3D animated feature-film look, soft rounded shap
          "fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural "
          "character animation, vertical 9:16, no on-screen text, no logos, nothing scary.")
 
-NEG_VIDEO = ("NEGATIVE: extra or duplicated ears, arms, legs, hands, fingers, tails, eyes, heads; merged or "
+NEG_VIDEO = ("NEGATIVE: upright or standing ears, a second pair of ears, three or four ears, extra or duplicated ears, arms, legs, hands, fingers, tails, eyes, heads; merged or "
              "melting limbs; a character splitting or morphing; color, size or outfit changes; characters appearing "
              "or disappearing; on-screen text, logos; scary or sudden elements or sounds; camera shake; fast spinning.")
 
-NEG_IMG = ("NEGATIVE (never show): extra or duplicated ears, arms, legs, hands, fingers, tails, eyes or heads; "
+NEG_IMG = ("NEGATIVE (never show): upright or standing ears, a second pair of ears, three or four ears, extra or duplicated ears, arms, legs, hands, fingers, tails, eyes or heads; "
            "merged or distorted limbs; text, letters, watermarks, logos; scary or dark elements; any character "
            "different from the reference sheets.")
 
@@ -29,15 +29,17 @@ MUSIC = ("Audio: original cheerful Brazilian children's pop song, same arrangeme
          "starts on beat 1, line 1 in bars 1-2, line 2 in bars 3-4; the music keeps flowing, no intro, no ending, "
          "no fade, no silence.")
 
-RULE_VIDEO = ("Slow, simple, single continuous action; all body parts stay attached and in view; ears sway gently "
-              "as one piece each; identical look to the reference sheets throughout; lower-left corner stays uncluttered.")
+RULE_VIDEO = ("Slow, simple, single continuous action; all body parts stay attached and in view; Bento's two "
+              "floppy ears always hang down and only sway gently; identical look to the reference sheets throughout; lower-left corner stays uncluttered.")
 
 # ----------------------------------------------------------------- PERSONAGENS
 # nome -> (descrição, trava de anatomia)
 CAST = {
-    "Bento": ("Bento: a small chubby fluffy white-and-cream bunny with big shiny dark round eyes, two long floppy "
-              "ears with soft pink insides, rosy cheeks, a small blue knitted scarf, a small round fluffy tail",
-              "Bento has exactly 2 eyes, 2 long floppy ears, 2 arms, 2 legs and 1 small round tail"),
+    "Bento": ("Bento: a small chubby fluffy white-and-cream lop-eared bunny with big shiny dark round eyes, exactly TWO "
+              "soft floppy ears that ALWAYS hang down along both sides of the head (one on each side, pink inside), "
+              "NEVER standing upright, rosy cheeks, a small blue knitted scarf, a small round fluffy tail",
+              "Bento has exactly 2 ears, both floppy and hanging down beside his cheeks (never upright, never a second "
+              "pair), exactly 2 eyes, 2 arms, 2 legs and 1 small round tail"),
     "Luna": ("Luna: a small fluffy blue-gray kitten with big shiny green eyes, two small pointed ears with pink "
              "insides, a white chest, a small pink bow at her neck, one long curved tail",
              "Luna has exactly 2 eyes, 2 small pointed ears, 2 arms, 2 legs and 1 long tail"),
@@ -62,7 +64,7 @@ CAST = {
 }
 
 SHORT = {
-    "Bento": "Bento (chubby fluffy white-and-cream bunny, blue scarf)",
+    "Bento": "Bento (chubby fluffy white-and-cream lop-eared bunny with exactly two floppy ears hanging down, blue scarf)",
     "Luna": "Luna (fluffy blue-gray kitten, pink bow)",
     "Tico": "Tico (round caramel-brown monkey, green backpack)",
     "Pipo": "Pipo (tiny yellow duckling, red bow tie)",
