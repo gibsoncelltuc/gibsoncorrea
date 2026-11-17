@@ -438,7 +438,7 @@ def build_beat(k, b):
             p1 = re.sub(r"hero: \{[^}]*\}", "hero: { hero: 'none', detalhe: true }", base.replace(pid, f"S('b{k}_d', {Fq(0.36)}, {Fq(0.6)} - 1, X,", 1).replace("trans: 'dissolve'", "trans: 'cut'"), count=1)
             p2 = base.replace(pid, f"S('b{k}_v', {Fq(0.6)}, {bb}, X,", 1).replace("trans: 'dissolve'", "trans: 'cut'")
             p1, p2 = nodrop(p1), nodrop(p2)
-            call = f"{p0}, {{ ...{p1}, cam: [{Kc(Fq(0.36), k0)}, {Kc(Fq(0.6) + ' - 1', k1)}], nocut: true, vary: false, glide: true }}, {{ ...{p2}, glide: true }}"
+            call = f"{p0}, {{ ...{p1}, cam: [{Kc(Fq(0.36), k0)}, {Kc(Fq(0.6) + ' - 1', k1)}], nocut: true, vary: false, glide: true, glideN: 34 }}, {{ ...{p2}, glide: true, glideN: 34 }}"   # ida e volta do detalhe mais lentas (o controle de camera reprova deslize brusco)
     if b.get('set') and b['set'] != SET and b['set'] in SETS_X: call = re.sub(r'\bX\b', 'X_' + b['set'], call)   # esta cena acontece em outro cenario
     return call
 

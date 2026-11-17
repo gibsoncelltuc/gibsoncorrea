@@ -1,4 +1,4 @@
-# Plano de acao - A Batalha de Karánsebes
+# Plano de acao - Guerras Inusitadas EP 01 - A Batalha de Karánsebes
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
