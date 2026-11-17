@@ -1,0 +1,49 @@
+# GUIA DO ROTEIRISTA — como escrever um vídeo para a ferramenta (para qualquer modelo de IA)
+Você só precisa criar `videos/<id>/beats.json` e rodar a fila. NÃO edite o motor (`web/`, `mkvideo.py`) para fazer um vídeo.
+
+## Passo a passo
+1. Escreva o roteiro seguindo `MODO_RICKS.md` §1 (gancho sem data, 150–200 palavras, 1–2 falas entre aspas, virada "Acontece que...", final curto e irônico).
+2. Crie `videos/<id>/beats.json` (modelo abaixo; copie `videos/emus1932/beats.json` ou `videos/teste_cenarios/beats.json`).
+3. `python3 roteiro_check.py <id>` e corrija os avisos.
+4. Prévia rápida (2 min): `python3 mkvideo.py <id> && ./produce_voice.sh <id> pt-BR-AntonioNeural +10% && ./build3.sh <id> && ./fit.sh <id> && node storyboard.mjs <id> sb_<id>.jpg 270 && python3 sbsheet.py sb_<id>.json sb_<id>.jpg` → abra `sb_<id>.jpg` e confira cada plano. (Nunca rode isso com a fila rodando.)
+5. Ponha o id em `queue.txt` e rode `bash run_queue.sh` (~15–20 min por vídeo; `bash status.sh` mostra o andamento; retoma sozinho se a sessão reiniciar).
+6. Abra `out/<id>/review_sheet.jpg` antes de entregar. Se o gate reprovar 2 vezes o vídeo é pulado: leia `logs/gate_<id>.txt`, ajuste a cena (personagem escondido atrás de objeto = mude a posição do objeto) e apague `stories/<id>/SKIP` e `stories/<id>/fails`.
+
+## beats.json
+```json
+{"title": "Titulo", "voice": "pt-BR-AntonioNeural", "rate": "+10%", "set": "street", "light": "day", "mood": "playful",
+ "outfits": {"CID": {"jacket": "#3b6fb5", "pants": "#2d3550", "boots": "#2a2218", "hat": "hair", "hair": "#4a3020"}},
+ "beats": [{"say": "Frase narrada.", "shot": "two", "who": ["CID:0:smile", "CID:1:nervous"]}]}
+```
+Cada beat = uma frase (ou duas curtas). Campos do beat:
+| Campo | Valores |
+|---|---|
+| `say` | texto narrado. Fala de personagem entre aspas "..." → o 2º personagem da cena mexe a boca |
+| `shot` | `two` (2 personagens, padrão), `close`, `group` (3–5), `low`, `track` (andando), `prop` (objeto), `wide`/`crowd`/`orbit`/`reveal` (abertos). O diretor automático ajusta; `"shot_lock": true` fixa o seu |
+| `who` | lista "FIGURINO:variante:expressão". Variantes 0–3 = padrão; 4 = óculos; 5 e 6 = barba |
+| `set` | cenário SÓ desta cena (o do topo vale para as outras): arctic, countryside, hall, harbor, jungle, medieval, mountain, outback, palace, stadium, street |
+| `light` | arctic, dawn, day, deck, desert, dusk, golden, grave, night, noon, overcast, storm, study, tense. Sem `light`, palavras como "noite"/"amanhecer" escolhem sozinhas |
+| `mood` | música: playful |
+| `text`, `tat`, `tstyle` | texto grande na cena, palavra em que aparece, estilo (red, gold...) |
+| `props` | objetos: [["asset", x, z, escala], ...] (lista de assets abaixo) |
+| `animals` | [["bear"|"horse"|"emu"..., x, z, "stand"]] ; bando de emus: `"emus": {"n": 10, "mode": "stand|run|scatter"}` |
+| `crowd` | {"n": 12, "outfit": "AUS", "march": true} (o diretor já põe tropa quando a frase fala de exército) |
+| `veiculo` | veículo andando: {"asset": "vehicles/car", "de": -7, "para": 7, "z": 1.2, "motorista": "CID:0:smile"} |
+| `fx`, `sfx` | efeitos "burst@4", "dust@10", "puff", "stars", "ring"; sons "gun@8", "cannon@4" (nome@quadro). Sons: Wf, birds, cannon, creak, ding, drone, gulls, gun, harp, heartbeat, march, paper, playful, sea, snuffle, squeal, steps, sting, thump, tick, whoosh |
+| `impact` | `false` impede que a cena vire plano aberto de impacto |
+Figurino (`outfits`): `jacket`, `pants`, `boots`, `hat` (shako, shako_tall, cap, hair, tophat, bonnet), `cap`/`hair` (cor), `belt`, `buttons`, `sash`, `rifle: true`, `build: "stout"`, `moustache_on` (cor), `beard` (cor), `glasses: true`.
+Expressões: dazed, grin, laugh, lick, nervous, neutral, pained, relief, relief_open, shock, smile, smile_closed, stern, whistle.
+
+## Objetos 3D prontos (campo `props`)
+- `vehicles/…`: car, taxi, car_blue, jeep, truck, tank, motorcycle, bicycle, airplane, helicopter, sailboat, motorboat, locomotive, wagon
+- `buildings/…`: house_small, house_two, house_blue, apartment, skyscraper, church, barn, windmill, lighthouse, castle_tower, shop, bridge
+- `nature/…`: tree_oak, tree_pine, tree_birch, tree_palm, bush, flowerbed, bench, fountain, lamppost, haybale, rocks, picket_fence, scarecrow
+- `tools/…`: hammer, axe, shovel, pitchfork, rake, saw, bucket, wheelbarrow, ladder, anvil, lantern, broom, scythe, telescope
+- `war/…`: musket, pistol, sword, shield, helmet_army, helmet_knight, drum, bugle, sandbags, bow, quiver, flagpole, cannonballs, bunker
+- `mk/…` (94 objetos de interior/medieval): Anvil, Anvil_Log, Axe_Bronze, Bag, Banner_1, Banner_1_Cloth, Banner_2, Banner_2_Cloth, Barrel, Barrel_Apples, Barrel_Holder, Bed_Twin1, Bed_Twin2, Bench, BookGroup_Medium_1, BookGroup_Medium_2, BookGroup_Medium_3, BookGroup_Small_1, BookGroup_Small_2, BookGroup_Small_3, BookStand, Book_5, Book_7, Book_Simplified_Single, Book_Stack_1, Book_Stack_2, Bookcase_2, Bottle_1, Bucket_Metal, Bucket_Wooden_1, Cabinet, Cage_Small, CandleStick, CandleStick_Stand, CandleStick_Triple, Candle_1, Candle_2, Carrot, Cauldron, Chain_Coil, Chair_1, Chalice, Chandelier, Chest_Wood, Coin, Coin_Pile, Coin_Pile_2, Crate_Metal, Crate_Wooden, Dummy, FarmCrate_Apple, FarmCrate_Carrot, FarmCrate_Empty, Key_Gold, Key_Metal, Lantern_Wall, Mug, Nightstand_Shelf, Peg_Rack, Pickaxe_Bronze, Pot_1, Pot_1_Lid, Potion_1, Potion_2, Potion_4, Pouch_Large, Rope_1, Rope_2, Rope_3, Scroll_1, Scroll_2, Shelf_Arch, Shelf_Simple, Shelf_Small_Bottles, Shield_Wooden, SmallBottle, SmallBottles_1, Stall_Cart_Empty, Stall_Empty, Stool, Sword_Bronze, Table_Fork, Table_Knife, Table_Large, Table_Plate, Table_Spoon, Torch_Metal, Vase_2, Vase_4, Vase_Rubble_Medium, WeaponStand, Whetstone, Workbench, Workbench_Drawers
+- raiz: barrel, boat, cabin, cannon, crate, fence, mgun, potato, ship, tent
+- animais 3D (`animals`): bear, horse, emu ; modelos extras em `web/assets/animals/`: bear, cat, cow, deer, dog, donkey, elephant, fox, goat, horse, lion, pig, rabbit, sheep, wolf
+Objeto novo: modele no Blender por script (`blender -b --python blender/<nome>.py`, exemplo `blender/make_emu.py`) e exporte .glb para `web/assets/`. Nós com nome `body`, `head`, `legL`, `legR`, `wheel*`, `propeller` são animados pelo motor.
+
+## Regras automáticas do diretor (não precisa pedir)
+Personagens grandes na maior parte do vídeo; até 2 planos abertos comuns + até 2 planos de impacto nos momentos-chave (tiro/ataque/fuga) com tropa e clarões; exército chegando = 18 marchando; legenda de 1–2 palavras a 70% da altura; câmera sempre em leve movimento; luz pela história.

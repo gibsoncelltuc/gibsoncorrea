@@ -1,0 +1,66 @@
+{
+ "id": "teste_cenarios",
+ "TOTAL": 657,
+ "list": [
+  {
+   "id": "b0",
+   "f": 28,
+   "t": "0.9",
+   "file": "sb_tmp/teste_cenarios_000.jpg"
+  },
+  {
+   "id": "b0~1",
+   "f": 92,
+   "t": "3.1",
+   "file": "sb_tmp/teste_cenarios_001.jpg"
+  },
+  {
+   "id": "b1",
+   "f": 156,
+   "t": "5.2",
+   "file": "sb_tmp/teste_cenarios_002.jpg"
+  },
+  {
+   "id": "b1~1",
+   "f": 220,
+   "t": "7.3",
+   "file": "sb_tmp/teste_cenarios_003.jpg"
+  },
+  {
+   "id": "b2",
+   "f": 289,
+   "t": "9.6",
+   "file": "sb_tmp/teste_cenarios_004.jpg"
+  },
+  {
+   "id": "b2",
+   "f": 349,
+   "t": "11.6",
+   "file": "sb_tmp/teste_cenarios_005.jpg"
+  },
+  {
+   "id": "b3",
+   "f": 417,
+   "t": "13.9",
+   "file": "sb_tmp/teste_cenarios_006.jpg"
+  },
+  {
+   "id": "b3",
+   "f": 466,
+   "t": "15.5",
+   "file": "sb_tmp/teste_cenarios_007.jpg"
+  },
+  {
+   "id": "b4",
+   "f": 539,
+   "t": "18.0",
+   "file": "sb_tmp/teste_cenarios_008.jpg"
+  },
+  {
+   "id": "b4",
+   "f": 609,
+   "t": "20.3",
+   "file": "sb_tmp/teste_cenarios_009.jpg"
+  }
+ ]
+}
