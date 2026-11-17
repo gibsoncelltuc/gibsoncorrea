@@ -163,6 +163,39 @@ h1{font-size:19px;font-weight:700}
 .idle{display:grid;place-items:center;gap:12px;padding:52px 20px;text-align:center;color:var(--muted)}
 .idle .ph{width:70px;height:70px;border-radius:18px;border:2px dashed var(--line);display:grid;place-items:center;color:var(--faint)}
 @media (max-width:760px){.det{grid-template-columns:minmax(0,1fr)}}
+/* atualização */
+.flash{grid-column:1 / -1;display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:16px;align-items:start}
+.fcard{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);padding:16px;display:flex;flex-direction:column;gap:14px}
+.profsel{display:flex;flex-wrap:wrap;gap:8px}
+.profsel button{border:1px solid var(--line);background:var(--panel-2);border-radius:10px;padding:9px 13px;font-weight:600;font-size:13px;color:var(--muted)}
+.profsel button[aria-pressed="true"]{border-color:var(--brand-line);background:var(--brand-soft);color:var(--brand)}
+.slot{display:flex;align-items:center;gap:12px;border:1px solid var(--line);border-radius:11px;padding:11px 13px;background:var(--panel-2)}
+.slot.req{border-left:3px solid var(--brand)}
+.slot .sl{flex:1;min-width:0}
+.slot .sl b{font-weight:600;font-size:13.5px;display:flex;align-items:center;gap:7px}
+.slot .sl .hint{font-family:var(--f-mono);font-size:11px;color:var(--faint);overflow-wrap:anywhere}
+.slot .sl .fname{font-size:12px;color:var(--brand);font-weight:600;margin-top:2px;overflow-wrap:anywhere}
+.slot .pick{border:1px solid var(--line);background:var(--panel);border-radius:8px;padding:6px 11px;font-weight:600;font-size:12.5px;white-space:nowrap}
+.slot .pick:hover{border-color:var(--brand-line)}
+.slot input[type=file]{display:none}
+.slot .ck{width:20px;height:20px;border-radius:6px;border:1px solid var(--line);display:grid;place-items:center;flex:none;color:var(--faint)}
+.slot.filled .ck{background:var(--brand);border-color:var(--brand);color:var(--brand-ink)}
+.opts{display:flex;flex-wrap:wrap;gap:8px 16px}
+.opts label{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:500}
+.opts input{accent-color:var(--brand);width:16px;height:16px}
+.opts .danger{color:var(--bad)}
+.flashbtn{border:1px solid var(--brand-line);background:var(--brand);color:var(--brand-ink);border-radius:11px;padding:13px;font-weight:700;font-family:var(--f-display);font-size:15px;display:flex;align-items:center;justify-content:center;gap:9px}
+.flashbtn:hover{filter:brightness(1.06)}
+.flashbtn:disabled{opacity:.5;cursor:not-allowed;background:var(--panel-2);color:var(--muted);border-color:var(--line)}
+.plist{display:flex;flex-direction:column;gap:8px}
+.plist li{list-style:none;display:flex;gap:9px;font-size:12.5px;color:var(--ink)}
+.plist svg{flex:none;color:var(--brand);margin-top:2px}
+.console{background:#06100B;border:1px solid var(--line);border-radius:11px;padding:12px;font-family:var(--f-mono);font-size:12px;color:#8ff0bf;min-height:150px;max-height:280px;overflow:auto;display:flex;flex-direction:column;gap:3px}
+:root[data-theme="light"] .console{background:#0A1711}
+.console .t{color:#5E7367}.console .ok{color:#35e08a}.console .wn{color:#e7a54b}.console .er{color:#f06a5b}
+.pbar{height:9px;background:var(--panel-2);border:1px solid var(--line);border-radius:99px;overflow:hidden}
+.pbar i{display:block;height:100%;background:var(--brand);width:0;transition:width .2s}
+@media (max-width:820px){.flash{grid-template-columns:minmax(0,1fr)}}
 #toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:9px 15px;border-radius:9px;font-weight:600;font-size:13px;z-index:40;box-shadow:var(--shadow)}
 
 @media (max-width:900px){ .work{grid-template-columns:minmax(0,1fr)} }
@@ -270,7 +303,7 @@ function steps(platKey,opKey){
 
 /* ======== estado + util ======== */
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-let ui={view:'catalogo',brand:'samsung',plat:'exynos',op:null,det:null,scan:false};
+let ui={view:'catalogo',brand:'samsung',plat:'exynos',op:null,det:null,scan:false,flash:{prof:'samsung',files:{},opts:{auto:true,reset:true,dlonly:true},running:false,log:[],prog:0}};
 
 /* ======== detector (identificação automática) ======== */
 const DETECT={
@@ -304,6 +337,23 @@ const DETECT={
     risco:'Grave o pac do modelo exato com o FDL correto. Marca mais sensível a brick — confira antes.'}
 };
 const DORDER=['samsung_dl','mtk_brom','mtk_pl','qcom_edl','fastboot','adb','unisoc'];
+
+/* ======== atualização por arquivo (firmware) ======== */
+const FLASH={
+  samsung:{nome:'Samsung — Odin / Heimdall',tool:'odin',modo:'Download Mode',req:['AP'],
+    slots:[['BL','Bootloader','BL_*.tar.md5',false],['AP','Sistema (AP)','AP_*.tar.md5',true],['CP','Modem (CP)','CP_*.tar.md5',false],['CSC','CSC (apaga dados)','CSC_*.tar.md5',false],['HOME','Home_CSC (mantém dados)','HOME_CSC_*.tar.md5',false]],
+    ops:[['auto','Auto Reboot',true],['reset','F. Reset Time',true],['nand','Nand Erase',false]],
+    params:['Firmware do modelo + CSC exatos (ex. SM-A155M / ZTO). Nunca de outro modelo.','Para manter dados do cliente use Home_CSC; CSC normal faz wipe.','NÃO rebaixe o BL: o anti-rollback (binário inferior) vira hard brick.','Bootloader bloqueado aceita firmware oficial assinado — não precisa desbloquear para atualizar.']},
+  xiaomi:{nome:'Xiaomi — Mi Flash (fastboot ROM)',tool:'miflash',modo:'Fastboot',req:['ROM'],
+    slots:[['ROM','Pasta da Fastboot ROM','pasta com images/ + flash_all',true]],
+    ops:[['clean','clean all (wipe)',true],['lock','clean all and lock',false]],
+    params:['Baixe a FASTBOOT ROM (TGZ), não a Recovery ROM. Extraia a pasta inteira.','Atualização livre, sem crédito, exige o bootloader DESBLOQUEADO.','NUNCA marque "clean all and lock" com ROM que não seja a oficial do modelo — trava em brick.','Confira a anti-rollback da ROM: versão com ARB maior não deixa voltar.']},
+  mediatek:{nome:'MediaTek — SP Flash Tool / mtkclient',tool:'spft',modo:'BROM / Preloader',req:['SCATTER'],
+    slots:[['SCATTER','Scatter do modelo','MT****_Android_scatter.txt',true],['DA','Download Agent','MTK_AllInOne_DA.bin',false],['AUTH','Auth file (se pedir)','auth_sv5.auth',false]],
+    ops:[['dlonly','Download Only',true],['fwup','Firmware Upgrade',false],['format','Format All + Download',false]],
+    params:['Use o scatter do modelo exato; ele define o endereço de cada partição.','"Download Only" é o mais seguro. "Format All + Download" apaga tudo — só quando necessário.','Preloader errado = dead boot. Confira o chip antes (o Detector mostra o HW code).','mtkclient (open-source) recupera via BootROM quando o preloader não sobe.']}
+};
+const FORDER=['samsung','xiaomi','mediatek'];
 function toast(t){const e=document.getElementById('toast');e.textContent=t;e.hidden=false;clearTimeout(toast.t);toast.t=setTimeout(()=>e.hidden=true,2200)}
 
 function renderRail(){
@@ -313,11 +363,14 @@ function renderRail(){
 }
 const themeIcon=()=>{const dark=document.documentElement.dataset.theme?document.documentElement.dataset.theme==='dark':!matchMedia('(prefers-color-scheme: light)').matches;return dark?'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 4V2M12 22v-2M4 12H2M22 12h-2M6 6L4.5 4.5M19.5 19.5L18 18M6 18l-1.5 1.5M19.5 4.5L18 6M12 16a4 4 0 100-8 4 4 0 000 8z"/></svg>':'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14A8 8 0 019 4a8 8 0 1011 10z"/></svg>'};
 
-const vswitch=()=>`<div class="seg">${[['catalogo','Catálogo'],['detector','Detector']].map(([k,l])=>`<button data-view="${k}" aria-pressed="${ui.view===k}">${l}</button>`).join('')}</div>`;
+const vswitch=()=>`<div class="seg">${[['catalogo','Catálogo'],['detector','Detector'],['flash','Atualização']].map(([k,l])=>`<button data-view="${k}" aria-pressed="${ui.view===k}">${l}</button>`).join('')}</div>`;
+function setWide(on){const r=document.getElementById('right'),l=document.getElementById('left');if(on){l.style.gridColumn='1 / -1';r.style.display='none';r.innerHTML=''}else{l.style.gridColumn='';r.style.display=''}}
 function render(){
   const b=BRANDS[ui.brand];
   if(!b.plats.includes(ui.plat))ui.plat=b.plats[0];
   if(ui.view==='detector'){renderDetector();return}
+  if(ui.view==='flash'){renderFlash();return}
+  setWide(false);
   const p=PLAT[ui.plat],fw=FWSRC[b.fw];
   document.getElementById('bar').innerHTML=`<div><div class="bname">${b.nome} <span class="muted" style="font-weight:500;font-size:14px">· Bancada</span></div><div class="sub">${esc(b.nota)}</div></div>${vswitch()}<span class="conn"><span class="dot on"></span>Aguardando aparelho</span>`;
   // esquerda: chipset + modo + ferramentas
@@ -374,11 +427,52 @@ function renderDetector(){
   document.getElementById('foot').innerHTML='Detector · identificação por VID:PID + handshake do modo (Sahara no Qualcomm, HW code no MediaTek, getvar no fastboot). Nenhuma função remove conta/FRP. Confirme sempre o chip exato antes de gravar.';
 }
 
+function renderFlash(){
+  setWide(true);
+  const f=ui.flash,F=FLASH[f.prof],filled=k=>!!f.files[k],ready=F.req.every(filled)&&!f.running;
+  const conn=f.running?'<span class="dot on"></span>Gravando…':'<span class="dot"></span>Pronto para carregar arquivos';
+  document.getElementById('bar').innerHTML=`<div><div class="bname">Atualização por arquivo <span class="muted" style="font-weight:500;font-size:14px">· firmware</span></div><div class="sub">Carregue o firmware do modelo e grave. Os parâmetros mudam por plataforma.</div></div>${vswitch()}<span class="conn">${conn}</span>`;
+  const slots=F.slots.map(([code,nome,hint,req])=>`<div class="slot ${req?'req':''} ${filled(code)?'filled':''}"><span class="ck">${filled(code)?'<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M5 12l4 4L19 6"/></svg>':''}</span><div class="sl"><b>${esc(nome)}${req?' <span class="pill p-free" style="padding:1px 7px">obrigatório</span>':''}</b><span class="hint">${esc(hint)}</span>${filled(code)?`<div class="fname">${esc(f.files[code])}</div>`:''}</div><label class="pick">${filled(code)?'Trocar':'Escolher'}<input type="file" data-slot="${code}"></label></div>`).join('');
+  const ops=F.ops.map(([k,l,def])=>`<label class="${k==='format'||k==='lock'||k==='nand'?'danger':''}"><input type="checkbox" data-opt="${k}" ${f.opts[k]??def?'checked':''}>${esc(l)}</label>`).join('');
+  document.getElementById('left').innerHTML=`<div class="flash">
+    <div class="fcard">
+      <div><div class="idf" style="background:none;border:0;padding:0;margin-bottom:8px"><span class="k">Plataforma</span></div><div class="profsel">${FORDER.map(k=>`<button data-prof="${k}" aria-pressed="${f.prof===k}">${esc(FLASH[k].nome.split(' — ')[0])}</button>`).join('')}</div></div>
+      <div class="muted" style="font-size:12.5px;margin-top:-4px">${esc(F.nome)} · modo <b>${esc(F.modo)}</b> · ferramenta <b>${esc(TOOL[F.tool][1])}</b></div>
+      <div style="display:flex;flex-direction:column;gap:8px">${slots}</div>
+      <div><div class="idf" style="background:none;border:0;padding:0;margin-bottom:6px"><span class="k">Opções</span></div><div class="opts">${ops}</div></div>
+      <button class="flashbtn" data-a="flashstart" ${ready?'':'disabled'}>${f.running?'<span class="rg" style="width:16px;height:16px;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;display:inline-block;animation:spin .7s linear infinite"></span>Gravando…':'<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 17v2a2 2 0 002 2h12a2 2 0 002-2v-2"/></svg>'+(ready?'Iniciar atualização':'Carregue o firmware obrigatório')}</button>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:14px">
+      <div class="fcard"><div class="idf" style="background:none;border:0;padding:0"><span class="k">Parâmetros para não brickar</span></div><ul class="plist">${F.params.map(p=>`<li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg><span>${esc(p)}</span></li>`).join('')}</ul></div>
+      <div class="fcard"><div class="idf" style="background:none;border:0;padding:0;margin-bottom:2px"><span class="k">Console</span></div><div class="pbar"><i style="width:${f.prog}%"></i></div><div class="console" id="flog">${f.log.length?f.log.map(l=>`<div class="${l[0]}">${esc(l[1])}</div>`).join(''):'<div class="t">Aguardando. Carregue os arquivos e inicie.</div>'}</div></div>
+    </div>
+  </div>`;
+  const lg=document.getElementById('flog');if(lg)lg.scrollTop=lg.scrollHeight;
+  document.getElementById('foot').innerHTML='Atualização por arquivo · a gravação real roda no companion de PC (acesso USB + driver). Esta tela monta o job e valida os arquivos. Confirme o firmware do modelo exato — gravação apaga dados.';
+}
+function runFlash(){
+  const f=ui.flash,F=FLASH[f.prof];f.running=true;f.prog=0;f.log=[['t','> job: '+F.nome+'  (simulação — a gravação real roda no companion de PC)']];render();
+  const seq={
+    samsung:[['t','Odin engine iniciado'],['ok','Download Mode detectado — porta 04E8'],['t','Enviando BL / AP / CP / CSC…'],['t','NAND write... boot, system, vendor, super'],['ok','RES OK  ·  RQT_CLOSE'],['ok','PASS — reinicie o aparelho']],
+    xiaomi:[['t','fastboot devices: 9f3a1c22'],['ok','bootloader: unlocked'],['t','flash_all: aboot, boot, vbmeta, dtbo'],['t','flash: system, vendor, product, super'],['wn','não marque lock com ROM não oficial'],['ok','OKAY — rebooting']],
+    mediatek:[['t','BROM handshake (0E8D:0003)'],['ok','Download Agent aceito'],['t','Download Only: boot, recovery, system'],['t','vendor, super, md1img'],['ok','Download Done 100%']]
+  }[f.prof];
+  let i=0;clearInterval(runFlash.t);runFlash.t=setInterval(()=>{
+    if(i<seq.length){f.log.push(seq[i]);f.prog=Math.round((i+1)/seq.length*100);i++;render()}
+    else{clearInterval(runFlash.t);f.running=false;f.log.push(['ok','✓ Concluído (simulação). No companion, isto grava no aparelho.']);f.prog=100;render()}
+  },620);
+}
+document.addEventListener('change',e=>{
+  const sl=e.target.closest('[data-slot]');if(sl){const fn=e.target.files&&e.target.files[0];if(fn)ui.flash.files[sl.dataset.slot]=fn.name;render();return}
+  const op=e.target.closest('[data-opt]');if(op){ui.flash.opts[op.dataset.opt]=e.target.checked;return}
+});
 document.addEventListener('click',e=>{
-  const vw=e.target.closest('[data-view]');if(vw){ui.view=vw.dataset.view;if(ui.view!=='detector'){const r=document.getElementById('right');r.style.display='';document.getElementById('left').style.gridColumn=''}render();return}
+  const vw=e.target.closest('[data-view]');if(vw){ui.view=vw.dataset.view;render();return}
+  const pf=e.target.closest('[data-prof]');if(pf){ui.flash.prof=pf.dataset.prof;ui.flash.files={};ui.flash.opts={auto:true,reset:true,dlonly:true};ui.flash.log=[];ui.flash.prog=0;render();return}
+  const fs=e.target.closest('[data-a="flashstart"]');if(fs){runFlash();return}
   const sr=e.target.closest('[data-det]');if(sr){ui.det=sr.dataset.det;ui.scan=false;render();return}
   const sc=e.target.closest('[data-a="scan"]');if(sc){ui.scan=true;render();setTimeout(()=>{ui.scan=false;if(!ui.det)ui.det='samsung_dl';render()},950);return}
-  const bt=e.target.closest('[data-b]');if(bt){ui.brand=bt.dataset.b;ui.op=null;ui.view='catalogo';const r=document.getElementById('right');r.style.display='';document.getElementById('left').style.gridColumn='';renderRail();render();return}
+  const bt=e.target.closest('[data-b]');if(bt){ui.brand=bt.dataset.b;ui.op=null;ui.view='catalogo';renderRail();render();return}
   const pt=e.target.closest('[data-p]');if(pt){ui.plat=pt.dataset.p;render();return}
   const a=e.target.closest('[data-a]');if(a&&a.dataset.a==='tema'){const dark=document.documentElement.dataset.theme?document.documentElement.dataset.theme==='dark':!matchMedia('(prefers-color-scheme: light)').matches;document.documentElement.dataset.theme=dark?'light':'dark';try{localStorage.setItem('vipcell-bancada-tema',document.documentElement.dataset.theme)}catch(e){}renderRail();return}
 });
