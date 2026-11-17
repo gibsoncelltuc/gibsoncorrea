@@ -1,45 +1,38 @@
 {
  "fails": [
   {
-   "f": 1476,
-   "shot": "b6~2",
+   "f": 340,
+   "shot": "b2",
    "why": [
-    "aus: head/torso cropped (box 1.295, 0.4, 1.513, 0.724)"
+    "ned: HIDDEN behind hull/#5b3a22"
    ]
   },
   {
-   "f": 1480,
-   "shot": "b6~2",
+   "f": 344,
+   "shot": "b2",
    "why": [
-    "aus: head/torso cropped (box 1.302, 0.395, 1.528, 0.731)"
+    "ned: HIDDEN behind hull/#5b3a22"
    ]
   },
   {
-   "f": 1484,
-   "shot": "b6~2",
+   "f": 348,
+   "shot": "b2",
    "why": [
-    "aus: head/torso cropped (box 1.314, 0.391, 1.541, 0.736)"
+    "ned: HIDDEN behind hull/#5b3a22"
    ]
   },
   {
-   "f": 1488,
-   "shot": "b6~2",
+   "f": 352,
+   "shot": "b2",
    "why": [
-    "aus: head/torso cropped (box 1.317, 0.39, 1.548, 0.74)"
+    "ned: HIDDEN behind hull/#5b3a22"
    ]
   },
   {
-   "f": 1492,
-   "shot": "b6~2",
+   "f": 356,
+   "shot": "b2",
    "why": [
-    "aus: head/torso cropped (box 1.32, 0.389, 1.557, 0.742)"
-   ]
-  },
-  {
-   "f": 1496,
-   "shot": "b6~2",
-   "why": [
-    "aus: head/torso cropped (box 1.322, 0.388, 1.564, 0.743)"
+    "ned: HIDDEN behind hull/#5b3a22"
    ]
   }
  ],

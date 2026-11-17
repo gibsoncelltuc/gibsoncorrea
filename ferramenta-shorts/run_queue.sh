@@ -15,6 +15,7 @@ while true; do
   while read -r id _; do
     case "$id" in ""|\#*) continue;; esac
     [ -f stories/$id/DONE ] && continue
+    [ -f stories/$id/SKIP ] && continue   # reprovou 2x no gate: precisa de ajuste no roteiro/cena (veja logs/gate_<id>.txt); apague SKIP para tentar de novo
     NEXT=$id; break
   done < queue.txt
   [ -z "$NEXT" ] && { echo "$(date +%T) fila vazia: tudo pronto"; exit 0; }
@@ -29,5 +30,6 @@ while true; do
   if [ $RC -eq 75 ]; then
     echo "$(date +%T) PAUSA DE SEGURANCA: checkpoint salvo. Aguardando $GRACE_MIN min por reinicio; se nao reiniciar, continuo."; sleep $((GRACE_MIN*60)); continue
   fi
+  if [ $RC -ne 0 ] && [ $RC -ne 75 ]; then N=$(( $(cat stories/$NEXT/fails 2>/dev/null || echo 0) + 1 )); echo $N > stories/$NEXT/fails; [ $N -ge 2 ] && { touch stories/$NEXT/SKIP; echo "$(date +%T) $NEXT reprovou $N vezes: PULADO (veja logs/gate_$NEXT.txt)"; continue; }; fi
   [ $RC -ne 0 ] && { echo "$(date +%T) falhou $NEXT (veja logs/make_$NEXT.log); tentando de novo em 60 s"; sleep 60; }
 done

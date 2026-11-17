@@ -4,11 +4,11 @@ const cardGeo = new THREE.PlaneGeometry(CM * 0.6, CM); cardGeo.translate(0, CM /
 const blobTex = P.tex(P.radial('20,14,30', 0.6));
 const cardWind = { t: { value: 0 }, a: { value: 0.05 } }; const cardLight = { side: { value: 0 }, head: { value: 0.10 }, body: { value: 0.16 } };
 class Card {
-  constructor(scale = 1) {
+  constructor(scale = 1, idx = 0) { this.idx = idx;   // semente do vento pelo INDICE da carta (antes Math.random: cada navegador sorteava outra e os personagens/textos tremiam entre quadros)
     [this.c, this.g] = (() => { const c = document.createElement('canvas'); c.width = CW; c.height = CH; return [c, c.getContext('2d')]; })(); this.cw = CW; this.ch = CH;
     this.t = new THREE.CanvasTexture(this.c); this.t.colorSpace = THREE.SRGBColorSpace; this.t.anisotropy = 4;
     this.mat = new THREE.MeshBasicMaterial({ map: this.t, transparent: true, alphaTest: 0.02, side: THREE.DoubleSide, fog: true });
-    this.uFlip = { value: 1 }; this.mat.onBeforeCompile = (sh) => { sh.uniforms.wT = cardWind.t; sh.uniforms.wA = cardWind.a; sh.uniforms.wS = this.seed = { value: Math.random() * 6 }; sh.uniforms.cSide = cardLight.side; sh.uniforms.cHead = cardLight.head; sh.uniforms.cBody = cardLight.body; sh.uniforms.cFlip = this.uFlip;
+    this.uFlip = { value: 1 }; this.mat.onBeforeCompile = (sh) => { sh.uniforms.wT = cardWind.t; sh.uniforms.wA = cardWind.a; sh.uniforms.wS = this.seed = { value: (this.idx * 2.399963) % 6.2832 }; sh.uniforms.cSide = cardLight.side; sh.uniforms.cHead = cardLight.head; sh.uniforms.cBody = cardLight.body; sh.uniforms.cFlip = this.uFlip;
       sh.fragmentShader = sh.fragmentShader.replace('#include <common>', '#include <common>\nuniform float cSide, cHead, cBody, cFlip;').replace('#include <aomap_fragment>', `#include <aomap_fragment>
       #ifdef USE_MAP
       { float hd = smoothstep(.565, .6, vMapUv.y); float hw = mix(.15, .2, hd); float uu = clamp((vMapUv.x - .5) / hw, -1., 1.) * cFlip; float tt = uu * cSide; float dk = smoothstep(-.15, .9, -tt); float g = mix(cBody, cHead, hd);
@@ -37,7 +37,7 @@ const _cb = document.createElement('canvas'); _cb.width = 120; _cb.height = 200;
 function contentBox(src) { _cbg.clearRect(0, 0, 120, 200); _cbg.drawImage(src, 0, 0, 120, 200); const d = _cbg.getImageData(0, 0, 120, 200).data; let x0 = 120, x1 = 0, y0 = 200, y1 = 0;
   for (let y = 0; y < 200; y++) for (let x = 0; x < 120; x++) if (d[(y * 120 + x) * 4 + 3] > 40) { if (x < x0) x0 = x; if (x > x1) x1 = x; if (y < y0) y0 = y; if (y > y1) y1 = y; }
   return x1 < x0 ? null : { x0: x0 / 120, x1: (x1 + 1) / 120, y0: y0 / 200, y1: (y1 + 1) / 200 }; }
-const cards = []; const getCard = (i) => cards[i] || (cards[i] = new Card());
+const cards = []; const getCard = (i) => cards[i] || (cards[i] = new Card(1, i));
 
 // ---------- render targets & post ----------
 const rtColor = new THREE.WebGLRenderTarget(W, H, { samples: (window.MSAA ?? 0), type: THREE.HalfFloatType });

@@ -107,7 +107,7 @@ def direct(beats):
             if not b.get('crowd'):
                 persons_out = [w.split(':')[0] for w in b.get('who', [])]
                 army = persons_out[0] if persons_out else (outs[0] if outs else 'X')
-                b['crowd'] = {'n': 5 if b.get('emus') else (10 if mass else 6), 'outfits': list(dict.fromkeys(persons_out + [army])), 'march': bool(arrive or first or (shot == 'reveal' and mass))}
+                b['crowd'] = {'n': 5 if b.get('emus') else (18 if (mass and (arrive or first)) else 10 if mass else 6), 'outfits': list(dict.fromkeys(persons_out + [army])), 'march': bool(arrive or first or (shot == 'reveal' and mass))}
             if not b.get('who'): b['who'] = [f"{b['crowd']['outfits'][0]}:0:neutral"]
         else:
             run += 1
