@@ -52,7 +52,7 @@
  },
  "beats": [
   {
-   "say": "Em mil setecentos e oitenta e oito, o exército austríaco marchava para atacar os turcos.",
+   "say": "Um exército inteiro conseguiu perder uma batalha contra si mesmo.",
    "shot": "track",
    "who": [
     "AUT:0:neutral",
@@ -61,12 +61,12 @@
     "AUT:3:stern"
    ],
    "text": "1788",
-   "tat": 0,
+   "tat": 4,
    "light": "golden",
    "mood": "march"
   },
   {
-   "say": "Eram dezenas de milhares de soldados, de vários países, falando várias línguas.",
+   "say": "Era o exército austríaco, marchando contra os turcos, com soldados de vários países, que mal se entendiam.",
    "shot": "group",
    "who": [
     "AUT:0:smile",
@@ -114,7 +114,7 @@
    "light": "dusk"
   },
   {
-   "say": "Os hussardos compraram, beberam, e a festa começou.",
+   "say": "Compraram tudo, beberam, e a festa começou.",
    "shot": "two",
    "who": [
     "HUS:0:laugh",
@@ -140,7 +140,7 @@
    "mood": "playful"
   },
   {
-   "say": "Aí chegou a infantaria, e queria a parte dela. A discussão virou empurra-empurra, e alguém deu um tiro.",
+   "say": "Aí chegou a infantaria, querendo a parte dela. \"Não tem pra vocês\", disseram os hussardos. A discussão virou empurra-empurra, e alguém deu um tiro.",
    "shot": "group",
    "who": [
     "AUT:0:stern",
@@ -157,7 +157,7 @@
    "mood": "tense"
   },
   {
-   "say": "Alguém gritou: Turcos! Turcos! E o pânico tomou o acampamento.",
+   "say": "No escuro, alguém gritou: \"Turcos! Turcos!\" E o pânico tomou o acampamento.",
    "shot": "close",
    "who": [
     "HUS:1:shock"
@@ -169,7 +169,7 @@
    "mood": "tense"
   },
   {
-   "say": "No escuro, ninguém entendia a língua do vizinho. Todo mundo atirava em todo mundo, achando que eram os turcos.",
+   "say": "Acontece que ninguém entendia a língua do vizinho. Todo mundo atirava em todo mundo, achando que eram os turcos.",
    "shot": "crowd",
    "who": [
     "AUT:0:shock",
@@ -194,7 +194,7 @@
    "mood": "tense"
   },
   {
-   "say": "Chegou a ordem de usar a artilharia, e os canhões dispararam contra o próprio exército.",
+   "say": "Um oficial mandou usar a artilharia, e os canhões dispararam contra o próprio exército.",
    "shot": "group",
    "who": [
     "OFF:0:shock",
@@ -225,7 +225,7 @@
    "mood": "tense"
   },
   {
-   "say": "Dias depois, os turcos chegaram e encontraram o campo cheio de austríacos. Contam que foram até dez mil baixas, mas os historiadores discutem esse número.",
+   "say": "Dois dias depois, os turcos chegaram de verdade, e acharam o acampamento abandonado. Contam que foram até dez mil baixas, mas os historiadores duvidam desse número.",
    "shot": "two",
    "who": [
     "TUR:0:shock",
@@ -252,13 +252,13 @@
    "mood": "calm"
   },
   {
-   "say": "Dizem que foi o maior desastre de fogo amigo da história.",
+   "say": "Os turcos venceram sem dar um único tiro.",
    "shot": "close",
    "who": [
     "OFF:0:pained"
    ],
    "text": "FOGO AMIGO",
-   "tat": 8,
+   "tat": 3,
    "tstyle": "red",
    "light": "dawn",
    "mood": "calm"
