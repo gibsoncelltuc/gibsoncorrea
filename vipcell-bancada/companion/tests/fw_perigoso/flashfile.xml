@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<flashing><steps>
+  <step operation="flash" partition="boot" filename="boot.img"/>
+  <step operation="signatura_maluca" partition="x"/>
+</steps></flashing>

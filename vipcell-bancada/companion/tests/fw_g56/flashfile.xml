@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flashing>
+  <header>
+    <phone_model model="fogo"/>
+    <software_version version="fogo_g56_T2SBS33.1-23"/>
+  </header>
+  <steps interface="AP">
+    <step operation="getvar" var="max-download-size"/>
+    <step operation="oem" var="fb_mode_set"/>
+    <step operation="flash" partition="partition" filename="gpt.bin"/>
+    <step operation="flash" partition="bootloader" filename="bootloader.img"/>
+    <step operation="flash" partition="boot" filename="boot.img"/>
+    <step operation="flash" partition="dtbo" filename="dtbo.img"/>
+    <step operation="flash" partition="vbmeta" filename="vbmeta.img"/>
+    <step operation="flash" partition="super" filename="super.img"/>
+    <step operation="erase" partition="userdata"/>
+    <step operation="erase" partition="metadata"/>
+    <step operation="oem" var="fb_mode_clear"/>
+    <step operation="reboot"/>
+  </steps>
+</flashing>
