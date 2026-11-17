@@ -394,7 +394,7 @@ def build_beat(k, b):
             c = call.replace(f"S('b{k}', {a}, {bb}, X,", f"S('b{k}{'' if i == 0 else '_' + str(i)}', {pa}, {pb}, X,", 1)
             if i: c = nodrop(c.replace("trans: 'dissolve'", "trans: 'cut'"))
             K = lambda f_, q: f"{{ f: {f_}, at: [X + {num(q[0])}, DK + {num(q[1])}, {num(q[2])}], d: {num(q[3])}, az: {num(q[4])}, el: {num(q[5])}, fov: {num(q[6])}{', ease: ' + json.dumps(q[7]) if len(q) > 7 else ''} }}"
-            return f"{{ ...{c}, cam: [{K(pa, k0)}, {K(pb, k1)}], nocut: true, vary: false{', glide: true' if i else ''} }}"   # canal: quase nunca corta seco; a camera DESLIZA de um enquadramento ao outro
+            return f"{{ ...{c}, cam: [{K(pa, k0)}, {K(pb, k1)}], nocut: true, vary: false{', glide: true' if (i and not (b.get('emus') and i == 2)) else ''} }}"   # canal: quase nunca corta seco; a camera DESLIZA de um enquadramento ao outro
         if b.get('emus'):
             seq = [part(0, 0.0, 0.2, (tx_ + 1.5, 1.9, -2.5, 11, 24, 5, 44), (tx_ + 1.0, 1.9, -2.5, 9.2, 16, 5, 44)),
                    part(1, 0.2, 0.4, (tx_ - 0.5, 2.3, 0.8, 7.2, -30, 1, 44), (tx_ + 0.5, 2.3, 0.8, 6.4, -20, 2, 44)),

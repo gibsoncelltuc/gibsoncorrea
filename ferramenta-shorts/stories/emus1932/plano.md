@@ -1,4 +1,4 @@
-# Plano de acao - A Guerra dos Emus
+# Plano de acao - Guerras Inusitadas EP 02 - A Guerra dos Emus
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
