@@ -43,7 +43,8 @@
    "who": [
     "CID:4:nervous",
     "GUA:5:stern"
-   ]
+   ],
+   "interior": "loja"
   },
   {
    "say": "Então ele entrou na floresta, onde os animais observavam em silêncio.",
@@ -63,12 +64,12 @@
   {
    "say": "No salão do palácio, todos esperavam a resposta.",
    "shot": "group",
-   "set": "hall",
    "who": [
     "GUA:0:stern",
     "CID:6:smile",
     "GUA:1:neutral"
-   ]
+   ],
+   "interior": "madeira"
   },
   {
    "say": "Acontece que a resposta era simples. Ninguém tinha olhado para cima.",
@@ -76,7 +77,8 @@
    "who": [
     "CID:0:grin",
     "GUA:0:pained"
-   ]
+   ],
+   "interior": "pedra"
   }
  ]
 }

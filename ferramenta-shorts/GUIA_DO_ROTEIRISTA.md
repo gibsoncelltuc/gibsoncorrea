@@ -47,3 +47,8 @@ Objeto novo: modele no Blender por script (`blender -b --python blender/<nome>.p
 
 ## Regras automáticas do diretor (não precisa pedir)
 Personagens grandes na maior parte do vídeo; até 2 planos abertos comuns + até 2 planos de impacto nos momentos-chave (tiro/ataque/fuga) com tropa e clarões; exército chegando = 18 marchando; legenda de 1–2 palavras a 70% da altura; câmera sempre em leve movimento; luz pela história.
+
+## Interior e fachada (cenas dentro de casa)
+- `"interior": "madeira"` | `"pedra"` | `"loja"` no beat: a cena passa dentro de uma sala (parede perto, janela, porta, quadros, piso com juntas; a loja tem balcão e prateleiras). A luz vira `study` sozinha e os móveis padrão entram (estante, mesa, cadeira, baú). Para trocar os móveis: `"moveis": [["mk/Table_Large", -6.6, -1.6, 2.2], ...]` (asset, dx, z, escala).
+- Ao ar livre, em plano médio, o diretor põe sozinho uma construção atrás dos personagens (campo, deserto, rua, medieval, porto). Para tirar: `"fachada": false`.
+- Use interior sempre que a narração falar de sala, escritório, palácio, loja, quartel, tribunal, casa. No canal, a maioria das cenas de conversa é com parede perto.

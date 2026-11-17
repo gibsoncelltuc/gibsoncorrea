@@ -4,10 +4,10 @@ const WHITE = "#ffffff";
 const MOUTH = "#5a1e28";
 const TONGUE = "#e86e78";
 const SH_SKIN = [
-    0.96,
-    0.86,
-    0.84
-];
+    0.93,
+    0.9,
+    0.96
+];   // sombra LAVANDA no rosto (medido no canal: ~0,93/0,90/0,95; antes pessego)
 const SH_CLOTH = [
     0.64,
     0.66,
@@ -1130,7 +1130,7 @@ export const bodyFront = (p, o, opts)=>{
     const torsoBot = mode === "sit" ? sole - 0.2 * HH : sole - Bd.legs * HH + bob;
     const chin = torsoBot - Bd.torso * HH, hc = chin - H.b, crown = hc - H.b, hipY = torsoBot - 0.12 * HH;
     const thick = thickAngle(light), ow = 5 * u;
-    const legCol = mix(o.pants, INK, 0.55), armCol = mix(o.jacket, INK, 0.5), footCol = o.boots;
+    const legCol = mix(o.pants, INK, 0.86), armCol = mix(o.jacket, INK, 0.84), footCol = o.boots;   // pernas/bracos = traco de TINTA escura (canal: contraste 115-150 contra o chao)
     const legW = 5.8 * u, footW = 7.5 * u;
     p.rot = null;
     if (mode === "sit") {
@@ -1696,7 +1696,7 @@ export const bodySide = (p, o, opts)=>{
     const W = 2 * H.a, HH = 2 * H.b, u = W / 100, sole = 975, ankY = sole - 4 * u;
     const thick = thickAngle(light), ow = 5 * u;
     const legLen = (Bd.legs + 0.12) * HH - 4 * u, l1 = legLen / 2, l2 = legLen / 2;
-    const nearCol = mix(o.pants, INK, 0.55), farCol = mix(o.pants, INK, 0.75), footCol = o.boots;
+    const nearCol = mix(o.pants, INK, 0.86), farCol = mix(o.pants, INK, 0.92), footCol = o.boots;
     const legs = [];
     let hipY = ankY - legLen * 0.995, lean = 0, nearFwd = 0;
     if (mode === "march") {

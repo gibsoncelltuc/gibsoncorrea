@@ -18,6 +18,8 @@ LIGHT = B.get('light', 'day')
 MOOD = B.get('mood', 'playful')
 SETS_X = {'outback': 2000, 'countryside': 1000, 'arctic': 7000, 'palace': 4000, 'harbor': 5000, 'mountain': 3000, 'medieval': 9000, 'jungle': 6000, 'hall': 8000, 'stadium': 11000, 'street': 12000}
 SETX = SETS_X.get(SET, 1000) if 'x' not in B else B['x']
+for _b in B['beats']:
+    if _b.get('interior') and not _b.get('set'): _b['set'] = 'hall'      # interior fica no cenario 'hall' (sem arbusto/pedrinha de area externa)
 USED_SETS = [SET] + sorted({b['set'] for b in B['beats'] if b.get('set') and b['set'] != SET and b['set'] in SETS_X})   # cenario por cena: "set" dentro do beat
 beats = B['beats']
 
@@ -51,16 +53,16 @@ ZS = [1.3, 1.0, 1.6, 1.1, 1.7, 1.4]   # no plano de foco da camera (antes 2.0-3.
 ZSW = [-0.4, 0.2, -0.8, 0.0, -0.2, 0.4]
 
 TEMPL = {  # h = altura do alvo; d0/d1 = distancia da camera no inicio/fim; el = elevacao; fov
-    'wide':  dict(h=2.8, d0=30, d1=24, el=14, fov=46),
+    'wide':  dict(h=2.4, d0=26, d1=21, el=5, fov=46),   # camera na altura do personagem (canal: 0,8x), nao de cima
     'two':   dict(h=2.3, d0=7.0, d1=5.8),
     'close': dict(h=2.4, d0=4.8, d1=4.0),
     'group': dict(h=2.5, d0=9.0, d1=7.4),
     'prop':  dict(h=1.4, d0=8.0, d1=6.0, el=8),
-    'crowd': dict(h=2.8, d0=29.0, d1=22.0, el=16),
+    'crowd': dict(h=2.4, d0=26.0, d1=20.0, el=6),
     'track': dict(h=2.2, d0=8.0, d1=8.0, el=3, fov=44),
     'low':   dict(h=1.6, d0=7.0, d1=5.6, el=2),
-    'reveal': dict(h=2.6, d0=15.0, d1=36.0, el=12, fov=46),   # recua e revela o exercito inteiro
-    'orbit':  dict(h=2.6, d0=27.0, d1=22.0, el=14, fov=46, az0=-38, az1=32),   # panoramica aberta em arco
+    'reveal': dict(h=2.4, d0=13.0, d1=28.0, el=6, fov=46),   # recua e revela o exercito inteiro
+    'orbit':  dict(h=2.4, d0=24.0, d1=20.0, el=6, fov=46, az0=-38, az1=32),   # panoramica aberta em arco
 }
 WIDE = ('wide', 'crowd', 'reveal', 'orbit')
 TXT = {'blue': ('#fff6e0', '#27408b'), 'brown': ('#fff6e0', '#7a3a1c'), 'red': ('#d8282f', '#fff6e0'), 'gold': ('#e8c45a', '#7a1c1c'), 'white': ('#ffffff', '#1c2a4a')}
@@ -95,10 +97,10 @@ def direct(beats):
         say = nrm(b['say']); words = [nrm(w) for w in b['say'].split()]
         mass = bool(MASS.search(say)); arrive = bool(ARRIVE.search(say))
         shot = b.get('shot', 'two'); first = (k == 0); last = (k == len(beats) - 1)
-        if first: shot = 'reveal'
+        if first: shot = shot if shot in ('two', 'close', 'group', 'low') else 'two'   # MODO RICKS: abre em plano medio/fechado (18 de 20 videos do canal)
         elif mass and arrive: shot = 'reveal'
         elif mass: shot = 'orbit' if wide_n % 2 else 'crowd'
-        elif last: shot = 'reveal'
+        elif last: shot = 'two'   # e termina em plano medio (16 de 20)
         elif run >= 2 and not CLOSE_OK.search(say): shot = 'orbit' if wide_n % 2 else 'wide'
         elif shot in ('track', 'two', 'group') and k % 5 == 3 and not CLOSE_OK.search(say): shot = 'wide'
         if shot in WIDE and not b.get('impact') and (wrun >= 2 or (wrun >= 1 and k == len(beats) - 2)) and not (first or last):   # nunca mais de 2 planos abertos seguidos: alterna com plano medio + multidao ao fundo
@@ -134,6 +136,8 @@ def build_beat(k, b):
         _sy = nrm(b['say'])
         light = ('night' if re.search(r'noite|escuro|madrugada|meianoite', _sy) else 'dawn' if re.search(r'amanhecer|manhaseguinte|nascerdosol|aurora', _sy) else 'dusk' if re.search(r'pordosol|entardecer|anoitecer', _sy) else LIGHT)
     who = b.get('who', []); animals = b.get('animals', []); props = b.get('props', [])
+    wide_pre = shot in WIDE
+    if b.get('interior') and not b.get('light'): light = 'study'
     mv = b.get('move', 8 if shot == 'track' else 0)
     a, bb = f'A[{k}]', f'A[{k + 1}] - 1'
     # elenco de pessoas
@@ -200,6 +204,17 @@ def build_beat(k, b):
         if vc.get('motorista'):   # motorista DENTRO do carro: carta cortada (cabeca e ombros) encostada na janela do lado da camera
             mo_ = vc['motorista'].split(':'); k_ = sv; zd = zv + 0.1 * sv; dxd = -0.45 * sv * dirv   # sentado no banco, dentro da cabine aberta
             acts.append(f"{{ outfit: {json.dumps(mo_[0])}, v: {int(mo_[1]) if len(mo_) > 1 and mo_[1] else 0}, at: [X + {num(x0v + dxd)}, {num(zd)}], move: [[X + {num(x1v + dxd)}, {num(zd)}], {a}, {bb}, 'lin'], pose: 'stand', acting: 'low', expr: {json.dumps(mo_[2] if len(mo_) > 2 else 'smile')}, s: {num(0.86 * k_)}, y: {num(-0.42 * k_)}, crop: 0.5, flip: {'false' if dirv > 0 else 'true'} }}")
+    # INTERIOR: "interior": "madeira" | "pedra" | "loja"  -> sala com parede a ~5 m, janela, porta, quadros, chao com juntas + moveis
+    it = b.get('interior')
+    if it:
+        kit = {'madeira': 'kit/room_wood', 'pedra': 'kit/room_stone', 'loja': 'kit/room_shop'}.get(it, 'kit/room_wood')
+        pr.append(f"{{ asset: {json.dumps(kit)}, at: [X, 0], s: 1, drop: false }}")
+        for nm_, dx_, z_, s_ in (b.get('moveis') or ([] if it == 'loja' else [('mk/Bookcase_2', 7.4, -3.4, 2.4), ('mk/Table_Large', -6.6, -1.6, 2.2), ('mk/Chair_1', -4.4, -1.2, 2.2), ('mk/Chest_Wood', 6.9, 0.6, 2.2)])):
+            pr.append(f"{{ asset: {json.dumps(nm_)}, at: [X + {num(dx_)}, {num(z_)}], s: {num(s_)}, drop: false }}")
+    # FACHADA: em plano medio ao ar livre, uma construcao logo atras dos personagens (canal: parede/fachada perto em 85% dos quadros)
+    elif not wide_pre and b.get('fachada') is not False and not b.get('veiculo'):
+        fb = {'countryside': ['buildings/house_small', 'buildings/barn'], 'outback': ['buildings/barn', 'buildings/windmill'], 'street': ['buildings/shop', 'buildings/house_two'], 'medieval': ['buildings/castle_tower', 'buildings/house_small'], 'harbor': ['buildings/shop', 'buildings/lighthouse']}.get(b.get('set', SET))
+        if fb: pr.append(f"{{ asset: {json.dumps(fb[k % 2])}, at: [X + {num(4.5 if k % 2 else -4.5)}, -9.5], s: 1.25, ry: {num(-0.35 if k % 2 else 0.35)}, drop: false }}")
     for p in props:
         asset, dx, z, s = p[0], p[1] if len(p) > 1 else 0, p[2] if len(p) > 2 else 0.5, p[3] if len(p) > 3 else 1.0
         ex = p[4] if len(p) > 4 and isinstance(p[4], dict) else {}
@@ -231,7 +246,7 @@ def build_beat(k, b):
                     kfx += 1; wi = starts[k] + j; px, pz = (crowd_pos[(j * 5) % len(crowd_pos)] if crowd_pos else (sl[0] if n else 0.0, 1.5))
                     if kind == 'burst': fx.append(f"{{ k: 'burst', a: WS({wi}), b: WS({wi}) + 22, at: [X + {num(px)}, DK + 1.8, {num(pz + 1.5)}], s: {1.7 if wide else 1.2} }}")
                     else: fx.append(f"{{ k: {json.dumps(kind)}, a: WS({wi}), b: WS({wi}) + 28, at: [X + {num(px)}, DK + 0.5, {num(pz + 1.0)}], s: {1.9 if wide else 1.1} }}")
-                    if kick: KICKS.append(f"{{ f: WS({wi}), a: {kick} }}")
+                    if kick and kind == 'burst': KICKS.append(f"{{ f: WS({wi}), a: {round(kick * 0.35, 3)} }}")   # golpe de camera so' em impacto fisico e pequeno (canal: 0,23% da altura)
                     break
     opts = []
     if wide:
@@ -244,6 +259,7 @@ def build_beat(k, b):
     elif b.get('veiculo'): opts.append("hero: { hero: 'none' }")   # motorista fica atras do carro de proposito
     elif persons: opts.append("hero: { hero: 'any', frame: 'medium', minH: 0.07 }")
     if b.get('trans'): opts.append(f"trans: {json.dumps(b['trans'])}")
+    elif k > 0: opts.append("trans: 'dissolve'")   # canal: quase sem corte seco; troca de cena por fusao curta
     if b.get('vary') is False and not wide: opts.append('vary: false')
     opts.append(f"actors: [{', '.join(acts)}]")
     if pr: opts.append(f"props: [{', '.join(pr)}]")
@@ -266,14 +282,14 @@ def build_beat(k, b):
 
 shots = [build_beat(k, b) for k, b in enumerate(beats)]
 A_js = ', '.join(['0'] + [f"WS({starts[k]}, -3)" for k in range(1, len(beats))] + ['TOTAL_F()'])
-assets = sorted(set(B.get('assets', []) + [p[0] for b in beats for p in b.get('props', [])] + [b['veiculo'].get('asset', 'vehicles/car') for b in beats if b.get('veiculo')]))
+assets = sorted(set(B.get('assets', []) + re.findall(r'asset: "([^"]+)"', ' '.join(shots)) + [p[0] for b in beats for p in b.get('props', [])] + [b['veiculo'].get('asset', 'vehicles/car') for b in beats if b.get('veiculo')]))
 
 spec = f"""// {B.get('title', ID)} -- GERADO por mkvideo.py a partir de videos/{ID}/beats.json (edite o beats.json, nao este arquivo)
 const X = {SETX}, DK = 6;{''.join(f' const X_{n} = {SETS_X[n]};' for n in USED_SETS[1:])}
 const WS = (i, off = 0) => TIMING.words[Math.min(i, TIMING.words.length - 1)][0] + off;   // frame em que a palavra de indice i comeca
 const A = [{A_js}];
 const SPEC = {{
-  id: {json.dumps(ID)}, {('exp: '+str(B['exp'])+', ') if 'exp' in B else ''}{('cinf: '+str(B['cinf'])+', ') if 'cinf' in B else ''}total: TOTAL_F(), sets: {json.dumps(USED_SETS)}, setx: {{ {SET}: X{''.join(f', {n}: X_{n}' for n in USED_SETS[1:])} }},
+  id: {json.dumps(ID)}, {('exp: '+str(B['exp'])+', ') if 'exp' in B else ''}{('cinf: '+str(B['cinf'])+', ') if 'cinf' in B else ''}cutLen: 54, dissolveN: 7, total: TOTAL_F(), sets: {json.dumps(USED_SETS)}, setx: {{ {SET}: X{''.join(f', {n}: X_{n}' for n in USED_SETS[1:])} }},
   outfits: {{ {(','+chr(10)+'    ').join(outfits_js)} }},
   assets: {json.dumps(assets)},
   kicks: [{', '.join(KICKS)}], flashes: [],
