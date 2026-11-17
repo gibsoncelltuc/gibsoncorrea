@@ -110,18 +110,20 @@
    }
   },
   {
-   "say": "Acontece que emu é rápido, e não fica parado. Quando os soldados miravam, os pássaros se espalhavam, e sumiam correndo.",
+   "say": "Acontece que emu é rápido, e não fica parado. Os soldados atiravam, e os pássaros se espalhavam pela fazenda, sumindo na poeira.",
    "shot": "group",
    "who": [
-    "AUS:0:shock",
-    "AUS:1:nervous"
+    "AUS:0:stern",
+    "AUS:1:stern"
    ],
    "emus": {
-    "n": 10,
+    "n": 14,
     "mode": "scatter",
-    "x": 4.0,
-    "z": 0.0
-   }
+    "x": 6.5,
+    "z": 0.5
+   },
+   "batalha": true,
+   "caminhoes": 2
   },
   {
    "say": "Um atirador montou a metralhadora num caminhão. Mas o caminhão pulava tanto, que ele não acertou nenhum.",
@@ -186,20 +188,22 @@
   },
   {
    "say": "O exército tentou de novo, abateu algumas centenas, e os emus continuaram voltando.",
-   "shot": "track",
+   "shot": "crowd",
    "who": [
-    "AUS:1:stern"
+    "AUS:1:stern",
+    "AUS:0:stern"
    ],
    "emus": {
-    "n": 10,
+    "n": 12,
     "mode": "run",
-    "x": 0,
-    "z": 1.5,
+    "x": 5,
+    "z": 1.0,
     "dir": 1
    },
    "text": "CENTENAS",
    "tat": 6,
-   "tstyle": "red"
+   "tstyle": "red",
+   "batalha": true
   },
   {
    "say": "No fim, o governo desistiu da guerra, e passou a pagar recompensa aos fazendeiros por cada emu abatido.",
@@ -228,7 +232,8 @@
    "text": "HUMANOS 0 - 1 EMUS",
    "tat": 3,
    "tstyle": "gold",
-   "light": "golden"
+   "light": "golden",
+   "titulo": true
   }
  ]
 }

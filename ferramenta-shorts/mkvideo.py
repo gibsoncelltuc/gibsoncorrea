@@ -92,7 +92,7 @@ KW = [  # (regex da palavra, efeito, golpe de camera) -- animacao nas palavras-c
     (re.compile(r'^(empurra|empurrouse|briga|brigaram|discussao|confusao|caos|desastre)$'), 'puff', 0.05),
     (re.compile(r'^(chegou|chegaram|apareceu|surgiu|invadiu|desabou|caiu|cairam)$'), 'dust', 0.04),
 ]
-IMPACT = re.compile(r'tiro|atir|dispar|metralhador|canho|explod|explos|batalha|atacou|atacaram|ataque|fugi|fugir|correndo|correram|debandada|espalha|panico|invadi|carga|bombard')
+IMPACT = re.compile(r'mirav|miraram|guerra|combate|tiro|atir|dispar|metralhador|canho|explod|explos|batalha|atacou|atacaram|ataque|fugi|fugir|correndo|correram|debandada|espalha|panico|invadi|carga|bombard')
 SHOOT = re.compile(r'tiro|atir|dispar|metralhador|canho|balas|bombard')
 def direct(beats):
     """DIRETOR AUTOMATICO: planos abertos, multidao e ritmo de camera. 'shot_lock': true no beat desliga; 'director': false no arquivo desliga tudo."""
@@ -114,8 +114,9 @@ def direct(beats):
         elif run >= 4 and not CLOSE_OK.search(say): shot = 'orbit' if wide_n % 2 else 'wide'
         if shot in WIDE and not b.get('impact') and (wrun >= 2 or (wrun >= 1 and k == len(beats) - 2)) and not (first or last):   # nunca mais de 2 planos abertos seguidos: alterna com plano medio + multidao ao fundo
             shot = 'group' if mass else 'two'
-        if not (first or last) and IMPACT.search(say) and impact_n < int(B.get('max_impact', 2)) and b.get('impact') is not False:
-            impact_n += 1; b['impact'] = True; shot = ('crowd' if impact_n % 2 else 'orbit') if wrun < 1 else 'group'   # dois abertos seguidos nao: o segundo fica em plano medio com a tropa atras   # MOMENTO-CHAVE: plano aberto de alto impacto (fora da cota de planos abertos)
+        if b.get('batalha') or (not (first or last) and IMPACT.search(say) and impact_n < int(B.get('max_impact', 2)) and b.get('impact') is not False):
+            impact_n += 1; b['impact'] = True; shot = 'crowd' if impact_n % 2 else 'orbit'   # plano aberto de batalha SEMPRE abre ("batalha": true forca)
+            if wrun >= 1 and k > 0 and not beats[k - 1].get('impact') and not beats[k - 1].get('shot_lock') and k - 1 > 0: beats[k - 1]['shot'] = 'group'; wide_n -= 1; wrun = 0   # o aberto anterior (sem batalha) cede a vez   # dois abertos seguidos nao: o segundo fica em plano medio com a tropa atras   # MOMENTO-CHAVE: plano aberto de alto impacto (fora da cota de planos abertos)
         elif shot in WIDE and not (first or last) and wide_n >= int(B.get('max_wide', 2)): shot = 'group'   # MODO RICKS: personagem grande na maior parte do video
         wrun = wrun + 1 if shot in WIDE else 0
         b['shot'] = shot
@@ -221,15 +222,24 @@ def build_beat(k, b):
         for i in range(cnt):
             row, col = i // cols, i % cols
             jx = ((i * 37) % 11 - 5) * 0.09; jz = ((i * 53) % 7 - 3) * 0.12
-            x0 = (col - (cols - 1) / 2) * (1.9 if wide else 1.7) + (row % 2) * 0.9 + jx; z0 = (1.2 if wide else -3.0) - row * 2.1 + jz
+            x0 = (col - (cols - 1) / 2) * (1.9 if wide else 1.7) + (row % 2) * 0.9 + jx + (-4.0 if (b.get('impact') and b.get('emus') and wide) else 0); z0 = (1.2 if wide else -3.0) - row * 2.1 + jz
             out = outs_c[i % len(outs_c)]; ex = c.get('expr', 'neutral' if not c.get('march') else 'stern'); look = (-0.25, 0.25, 0.0, 0.15)[i % 4]
             crowd_pos.append((x0, z0))
             if c.get('march'):
                 acts.append(f"{{ outfit: {json.dumps(out)}, v: {i % 4}, at: [X + {num(x0 - 9)}, {num(z0)}], move: [[X + {num(x0 + 3)}, {num(z0)}], {a}, {bb}, 'lin'], pose: 'march', speed: 0.034, expr: {json.dumps(ex)}, seed: {i % 4}, look: {look} }}")
             else:
                 acts.append(f"pp(X, {json.dumps(out)}, {i % 4}, {num(x0)}, {num(z0)}, {json.dumps(ex)}, {{ look: {look}, seed: {i % 4} }})")
+    # BATALHA COM CAMINHOES: "caminhoes": 2 -> caminhoes atras da tropa com soldados em pe na carroceria, atirando
+    truck_props = []
+    if b.get('caminhoes') and b.get('crowd'):
+        _oc = (b['crowd'].get('outfits') or [b['crowd'].get('outfit')])[0]
+        for t_ in range(int(b['caminhoes'])):
+            tx, tz = -9.0 + t_ * 7.5 + (-4.0 if b.get('emus') else 0) + 4.0, -5.2 - (t_ % 2) * 1.2
+            truck_props.append(f"{{ asset: {json.dumps(b.get('caminhao', 'vehicles/truck'))}, at: [X + {num(tx)}, {num(tz)}], s: 1.0, ry: 1.5708, drop: false }}")
+            for q_, dx_ in enumerate((-1.5, -0.3, 0.9)):
+                acts.append(f"pp(X, {json.dumps(_oc)}, {q_}, {num(tx + dx_)}, {num(tz + 0.15)}, 'stern', {{ y: {num(b.get('caminhao_y', 1.15))}, look: 0.3, seed: {q_ + t_ * 3} }})"); crowd_pos.append((tx + dx_, tz))
     # veiculo andando: "veiculo": {"asset":"vehicles/car","de":-9,"para":9,"z":0.6,"s":1.0,"motorista":"FARM:0:smile"}
-    pr = []
+    pr = list(truck_props)
     vc = b.get('veiculo')
     if vc:
         x0v, x1v, zv = vc.get('de', -9), vc.get('para', 9), vc.get('z', 0.6); ryv = 1.5708 if x1v >= x0v else -1.5708
@@ -272,7 +282,8 @@ def build_beat(k, b):
         kind, _, at = e.partition('@'); at = int(at) if at else 4
         if kind == 'burst': fx.append(f"{{ k: 'burst', a: {a} + {at}, at: [X + {num(sl[0] if n else 0)}, DK + 1.8, 3.2], s: 1.2 }}")
         elif kind in ('dust', 'puff', 'stars', 'splash', 'ring', 'creak'): fx.append(f"{{ k: {json.dumps(kind)}, a: {a} + {at}, b: {a} + {at + 26}, at: [X, DK + 0.5, 1.2], s: 1.1 }}")
-    if b.get('impact') and SHOOT.search(nrm(b['say'])) and crowd_pos:   # fuzilaria cartunesca: clarões piscando pela tropa + som de tiro
+    _armed = any(B.get('outfits', {}).get(o_, {}).get('rifle') for o_ in ([p_[0] for p_ in persons] + list((b.get('crowd') or {}).get('outfits') or [(b.get('crowd') or {}).get('outfit')])) if o_)
+    if b.get('impact') and b.get('tiros') is not False and (SHOOT.search(nrm(b['say'])) or _armed or b.get('batalha')) and crowd_pos:   # fuzilaria cartunesca: clarões piscando pela tropa + som de tiro
         for i in range(12):
             px, pz = crowd_pos[(i * 5 + 2) % len(crowd_pos)]; t0 = 8 + i * 6
             fx.append(f"{{ k: 'flash', a: {a} + {t0}, b: {a} + {t0 + 8}, at: [X + {num(px + 0.75)}, DK - 1.05, {num(pz + 0.4)}], s: 2.0 }}")   # a carta do efeito ancora pela base: y baixo poe o clarao na altura do fuzil

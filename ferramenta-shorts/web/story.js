@@ -46,6 +46,7 @@ const SPEC = {
     S('b10', A[10], A[11] - 1, X, "dawn", { h: 2.3, d0: 8.4, d1: 7.4, hero: { hero: 'any', frame: 'medium', minH: 0.07, main: 1 }, trans: 'dissolve', actors: [pp(X, "OFF", 0, 0.0, 1.3, "pained")], props: [{ asset: "buildings/house_small", at: [X + -4.5, -9.5], s: 1.25, ry: 0.35, drop: false }], fx: [{ k: 'birds', a: A[10], b: A[11] - 1, at: [X, DK + 6.0, -30], n: 5, dir: -1, off: 8 }, txt(X, WS(150, -2), A[11] - 1, "FOGO AMIGO", '#d8282f', '#fff6e0', 4.5, { s: 1.5, up: 0.46 }), { k: 'burst', a: WS(154), b: WS(154) + 22, at: [X + 0.0, DK + 1.8, 3.0], s: 1.2 }] })
   ],
 };
+SPEC.fit = {"b4~1":1.12,"b6":1.572,"b6~1":1.572,"b6~2":1.572,"b6~3":1.572,"b7":1.12,"b7~1":1.404,"b7~2":1.254,"b7~3":1.404,"b8":1.404,"b8~1":1.404,"b8~2":1.404,"b9~1":1.254,"b9~2":1.404,"b9~3":1.404,"b9~4":1.404,"b9~5":1.12};
 // ===== STORY RUNTIME (generic): turns a declarative SPEC (stories/<id>.spec.js, concatenated before this file) into the story.js interface the engine expects =====
 import { camFromKeys, clamp, lerp, ramp, q, blinkAt, idle, M } from './motion.js';
 export const FPS = 30, TOTAL = SPEC.total, DECK = 6;
