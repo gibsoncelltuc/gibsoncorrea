@@ -166,7 +166,7 @@ if B.get('director') is not False and len(beats) >= 5:
 def build_beat(k, b):
     shot = b.get('shot', 'two'); T = dict(TEMPL.get(shot, TEMPL['two']))
     if b.get('impact') and shot in WIDE and b.get('caminhoes'): T.update(d0=13.0, d1=31.0, el=11, h=2.6); T.pop('az0', None); T.pop('az1', None)   # comeca na tropa subindo nos caminhoes e ABRE para a fazenda inteira
-    elif b.get('impact') and shot in WIDE: T.update(d0=30.0, d1=23.0, el=12, h=2.6)   # BATALHA: visao ampla de verdade (cenario, tropa inteira, inimigo fugindo ao fundo)
+    elif b.get('impact') and shot in WIDE: T.update(d0=25.0, d1=19.0, el=11, h=2.6)   # BATALHA: visao ampla de verdade (cenario, tropa inteira, inimigo fugindo ao fundo)
     elif shot == 'reveal': T.update(d0=11.0, d1=27.0, el=10)
     _n = len(b.get('who', []))
     if shot in ('two', 'group', 'low') and _n >= 3: T['d0'] *= 1 + 0.13 * (_n - 2); T['d1'] *= 1 + 0.13 * (_n - 2)   # 3+ pessoas: abre o suficiente para caber todo mundo
@@ -339,6 +339,8 @@ def build_beat(k, b):
     opts = []
     if wide:
         T.setdefault('cx', 0.0); T.setdefault('cz', -1.5)
+    elif b.get('crowd') and persons and not mv:   # plano medio com tropa atras: a camera mira nos PERSONAGENS PRINCIPAIS (a tropa marchando puxava a mira para o vazio)
+        T.setdefault('cx', round(sum(sl[i] for i in range(len(persons))) / len(persons), 2)); T.setdefault('cz', 1.2)
     for kk in ('h', 'd0', 'd1', 'el', 'fov', 'az0', 'az1', 'cx', 'cz'):
         v = b.get(kk, T.get(kk))
         if v is not None: opts.append(f'{kk}: {num(v)}')
