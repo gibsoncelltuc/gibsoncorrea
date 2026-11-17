@@ -113,3 +113,10 @@ Personagens grandes na maior parte do vídeo; até 2 planos abertos comuns + at�
   - "chegou, entrou, apareceu, veio, correu para" → o último personagem do `who` **entra andando** na cena (`"chega": true/false` força);
   - forçar: `"acao": "conversar|discutir|comemorar|dancar|nenhuma"`.
 - Teste de storyboard sem atrapalhar a fila: copie `web/*.js` para uma pasta de rascunho com links para o resto e rode `build3.sh`/`fit.sh`/`storyboard.mjs` lá (nunca na pasta da fila).
+
+## Objeto herói, interação e grandes momentos
+
+- **Objeto herói**: o objeto-tema do vídeo. A ferramenta acha pelo título ou pelo mais citado; para fixar, ponha `"heroi": "kit/tulip_red"` no topo (`"heroi": null` desliga). Ele entra sozinho na primeira e na última cena e ganha close de câmera garantido.
+- **Interação física** (`"interacao"` na cena, ou automática pelo texto): `empurrar`, `discutir`, `cochichar`, `entregar`, `susto`, `reverencia`, `pular`. Sem pista no texto, a ferramenta roda uma lista (aproxima-se, avança e o outro recua, insiste...) sem repetir dentro do vídeo e começando num ponto diferente em cada vídeo. `"interacao": false` desliga na cena.
+- **Dois grandes momentos**: se o roteiro render só um plano de impacto, a virada ("Acontece que") vira o segundo, com multidão, efeito e som. `"min_momentos"` no topo muda o mínimo.
+- O fim de `preproducao.md` resume: objeto herói (cenas e closes), grandes momentos e interações por cena. Qualquer "AVISO" ali se resolve antes de renderizar.
