@@ -792,7 +792,12 @@ const mouth = (p, kind, mx, my, u, k = 1)=>{
 };
 const faceFront = (p, cx, cy, W, expr, facing, look, lid, brim, skin, moustache, stout = false, AX = {})=>{
     const u = W / 100, F = FACE[expr] || FACE.neutral, fx = cx + 7 * u * facing;
-    const ex = (F.eye[0] === "shock" ? 12 : 13) * u, ey = cy;
+    /* ROSTO INDIVIDUAL: cada personagem tem seus tracos (distancia e altura dos olhos, sobrancelha, bochecha, sardas, pinta, olheira) */
+    const FT = [{}, { gap: 2.5, bt: 1.6, bl: 1.5 }, { gap: -2, ey: 2, cheeks: 1 }, { gap: 1, bt: -1.2, freck: 1 }, { gap: -1, ey: -2, bt: 2.2, bags: 1 }, { gap: 3.5, ey: 1, mole: 1 }, { gap: 0, bt: -1.6, cheeks: 1, bl: -1.5 }, { gap: -2.5, ey: -1, bt: 1, freck: 1, mole: -1 }][(AX.face ?? 0) % 8];
+    const ex = ((F.eye[0] === "shock" ? 12 : 13) + (FT.gap || 0)) * u, ey = cy + (FT.ey || 0) * u;
+    if (FT.cheeks) for (const sd of [-1, 1]) p.ell(fx + sd * (ex + 9 * u), ey + 13 * u, 7 * u, 4.5 * u, "#f6b3a8", 0);
+    if (FT.freck) for (const sd of [-1, 1]) for (const [qx, qy] of [[5, 9], [10, 11.5], [14, 8.5]]) p.ell(fx + sd * (ex - 4 * u + qx * u), ey + qy * u, 1.1 * u, 1.1 * u, "#b9785a", 0);
+    if (FT.mole) p.ell(fx + FT.mole * (ex + 6 * u), ey + 17 * u, 1.7 * u, 1.7 * u, "#3a2a22", 0);
     for (const side of [
         -1,
         1
@@ -804,12 +809,13 @@ const faceFront = (p, cx, cy, W, expr, facing, look, lid, brim, skin, moustache,
         const dI = F.brow[0] + (AX.bI || 0), dO = F.brow[1] + (AX.bO || 0), by = ey - (brim ? 17 : 20) * u + ((AX.browUp || 0) + sk) * u;
         if (kind === "shock" || kind === "shockHalf") p.arc(x, by - 6 * u, 9 * u, 3 * u, 200, 340, 4 * u);
         else taper(p, [
-            x - side * 8.5 * u,
+            x - side * (8.5 + (FT.bl || 0)) * u,
             by + dI * u
         ], [
-            x + side * 8.5 * u,
+            x + side * (8.5 + (FT.bl || 0)) * u,
             by + dO * u
-        ], 5 * u, 2.5 * u);
+        ], (5 + (FT.bt || 0)) * u, (2.5 + (FT.bt || 0) * 0.5) * u);
+        if (FT.bags) p.arc(x, ey + 7 * u, 7 * u, 3 * u, 20, 160, 1.3 * u);
     }
     const mx = cx + 8 * u * facing, my = cy + 20 * u;
     if ((AX.talk || 0) > 0.05) { const a = AX.talk; dmouth(p, mx, my - 2 * u, (7 + 5 * a) * u, (2.2 + 9 * a) * u, u, a > 0.7); }
@@ -1140,7 +1146,7 @@ const footStroke = (p, a, b, w, col)=>{
     ], w, col);
 };
 export const bodyFront = (p, o, opts)=>{
-    const { phase = 0, expr = "neutral", mode = "march", look = 0, blink = false, lift = 60, prop = null, tilt = 0, headTilt = 0, wave, light = DEF_LIGHT, facing = 0, seed = 1, fx = null, gest = null, gk = 1, gt = 0 } = opts;
+    const { phase = 0, expr = "neutral", mode = "march", look = 0, blink = false, lift = 60, hp: holdK = 0.3, prop = null, tilt = 0, headTilt = 0, wave, light = DEF_LIGHT, facing = 0, seed = 1, fx = null, gest = null, gk = 1, gt = 0 } = opts;
     const Bd = BUILD[o.build ?? "adult"], skin = o.skin ?? SKIN, two = Math.PI * 2, lid = lidOf(blink);
     const H = headBlob(seed, Bd.a, facing), W = 2 * H.a, HH = 2 * H.b, u = W / 100;
     const tall = (1 + Bd.torso + Bd.legs) * HH, sole = 975;
@@ -1434,6 +1440,14 @@ export const bodyFront = (p, o, opts)=>{
         });
     }
     // ---- gesture override (acting): arms are re-posed by name; gk = 0..1 blend from the hanging pose ----
+    if (o.hold && !gest && (mode === "stand" || mode === "stroll") && arms.length) {
+        /* quem segura um objeto mostra/usa o objeto: caneca e garrafa sobem ate a boca, papel e livro ficam na frente do peito, luneta vai ao olho, lanterna/tocha/bandeira ficam erguidas */
+        const Qh = (xr, yr)=>[tcx + xr * HH, chin + yr * HH], k = o.hold, h = Math.max(0, Math.min(1, holdK));
+        const rest = { mug: [0.74, 0.3], bottle: [0.74, 0.32], paper: [0.5, 0.42], book: [0.5, 0.42], spyglass: [0.7, 0.2], coin: [0.8, 0.2], lantern: [0.95, 0.0], torch: [0.9, -0.1], flag: [0.85, 0.25], staff: [0.85, 0.25], pitchfork: [0.85, 0.25], bag: [0.62, 0.62] }[k] || [0.8, 0.3];
+        const use = { mug: [0.2, -0.1], bottle: [0.2, -0.14], paper: [0.42, 0.26], book: [0.42, 0.26], spyglass: [0.36, -0.5], coin: [0.9, -0.05], lantern: [1.0, -0.3], torch: [0.95, -0.35], flag: [0.85, 0.2], staff: [0.85, 0.22], pitchfork: [0.85, 0.22], bag: [0.62, 0.6] }[k] || rest;
+        const hx = rest[0] + (use[0] - rest[0]) * h, hy = rest[1] + (use[1] - rest[1]) * h;
+        arms[arms.length - 1] = { pts: [Qh(0.36, 0.12), Qh(0.36 + (hx - 0.36) * 0.55 + 0.12, 0.12 + (hy - 0.12) * 0.5 + 0.16), Qh(hx, hy)], front: true, top: hy < 0.08 };   /* mao perto do rosto fica na frente da cabeca */
+    }
     if (gest && mode !== "sit" && mode !== "fall") {
         const Q = (s, xr, yr)=>[tcx + s * xr * HH, chin + yr * HH];
         const wob = 0.035 * Math.sin(gt * 9), fs = (facing || 1) > 0 ? 1 : -1;
@@ -1706,7 +1720,7 @@ export const bodyFront = (p, o, opts)=>{
     p.inkRing(hp, ow, thick);
     hatOn(p, o, hp, H, 300, hc, light, seed, facing, false);
     const brim = !!o.hat && o.hat !== "hair" && o.hat !== "bonnet" && o.hat !== "cap";
-    faceFront(p, 300, hc, W, expr, facing, look, lid, brim, skin, o.moustache, o.build === "stout", { ...(fx || {}), beard: o.beard, glasses: o.glasses });
+    faceFront(p, 300, hc, W, expr, facing, look, lid, brim, skin, o.moustache, o.build === "stout", { ...(fx || {}), beard: o.beard, glasses: o.glasses, face: o.faceId });
     for (const a of arms)if (a.top) drawArm(a);
     p.rot = null;
 };

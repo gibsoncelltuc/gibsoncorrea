@@ -18,6 +18,12 @@ LIGHT = B.get('light', 'day')
 MOOD = B.get('mood', 'playful')
 SETS_X = {'outback': 2000, 'countryside': 1000, 'arctic': 7000, 'palace': 4000, 'harbor': 5000, 'mountain': 3000, 'medieval': 9000, 'jungle': 6000, 'hall': 8000, 'stadium': 11000, 'street': 12000}
 SETX = SETS_X.get(SET, 1000) if 'x' not in B else B['x']
+_neve = False
+for _b in B['beats']:   # NEVE: enquanto estiver nevando, a cena vai para o cenario de neve (chao branco) se o roteiro nao fixar outro
+    _t = re.sub(r'[^a-z]', '', __import__('unicodedata').normalize('NFKD', _b['say'].lower()).encode('ascii', 'ignore').decode())
+    if _b.get('clima') == 'neve' or re.search(r'neve|nevasca|nevava|nevando|inverno|congel|geada', _t): _neve = True
+    elif _b.get('clima') or re.search(r'verao|primavera|calor|degelo|anosdepois|mesesdepois', _t): _neve = False
+    if _neve and not _b.get('set') and not _b.get('interior') and 'arctic' in SETS_X and B.get('neve_cenario') is not False: _b['set'] = 'arctic'
 for _b in B['beats']:
     if _b.get('interior') and not _b.get('set'): _b['set'] = 'hall'      # interior fica no cenario 'hall' (sem arbusto/pedrinha de area externa)
 USED_SETS = [SET] + sorted({b['set'] for b in B['beats'] if b.get('set') and b['set'] != SET and b['set'] in SETS_X})   # cenario por cena: "set" dentro do beat
@@ -101,7 +107,7 @@ def direct(beats):
         say = nrm(b['say']); words = [nrm(w) for w in b['say'].split()]
         mass = bool(MASS.search(say)); arrive = bool(ARRIVE.search(say))
         shot = b.get('shot', 'two'); first = (k == 0); last = (k == len(beats) - 1)
-        if first: shot = shot if shot in ('two', 'close', 'group', 'low') else ('group' if len(b.get('who', [])) > 2 else 'two')   # MODO RICKS: abre em plano medio/fechado (18 de 20 videos do canal)
+        if first: shot = shot if shot in ('two', 'close', 'group', 'low', 'track') else ('group' if len(b.get('who', [])) > 2 else 'two')   # MODO RICKS: abre em plano medio/fechado (18 de 20 videos do canal)
         elif mass and arrive: shot = 'reveal'
         elif mass: shot = 'orbit' if wide_n % 2 else 'crowd'
         elif last: shot = 'two'   # e termina em plano medio (16 de 20)
@@ -127,6 +133,7 @@ def direct(beats):
                 b['crowd'] = {'n': 5, 'outfits': list(dict.fromkeys(persons_out)), 'march': False, 'expr': 'shock' if re.search('panico|tiro|gritou', say) else 'neutral'}
 
 KICKS = []
+AMB = {}
 direct(beats)
 if B.get('director') is not False and not any(b.get('impact') for b in beats) and len(beats) > 4:
     _b = beats[int(len(beats) * 0.6)]
@@ -137,19 +144,38 @@ def build_beat(k, b):
     _n = len(b.get('who', []))
     if shot in ('two', 'group', 'low') and _n >= 3: T['d0'] *= 1 + 0.13 * (_n - 2); T['d1'] *= 1 + 0.13 * (_n - 2)   # 3+ pessoas: abre o suficiente para caber todo mundo
     light = b.get('light')
-    if not light:   # MODO RICKS: a luz acompanha a historia (noite azul, amanhecer, dia claro) quando o roteiro nao fixa
-        _sy = nrm(b['say'])
-        light = ('night' if re.search(r'noite|escuro|madrugada|meianoite', _sy) else 'dawn' if re.search(r'amanhecer|manhaseguinte|nascerdosol|aurora', _sy) else 'dusk' if re.search(r'pordosol|entardecer|anoitecer', _sy) else LIGHT)
+    _sy = nrm(b['say']); global AMB
+    # HORA DO DIA e CLIMA: campos "hora" (dia|tarde|pordosol|noite|amanhecer) e "clima" (sol|calor|chuva|tempestade|neve|neblina|vento|limpo), ou pelas palavras da narracao. Ficam valendo ate mudar.
+    _h = b.get('hora') or ('noite' if re.search(r'noite|noescuro|madrugada|meianoite', _sy) else 'amanhecer' if re.search(r'amanhecer|manhaseguinte|nascerdosol|aurora|demanha', _sy) else 'pordosol' if re.search(r'pordosol|entardecer|anoitecer|fimdetarde|finaldetarde|fimdodia', _sy) else 'tarde' if re.search(r'atarde|detarde|natarde', _sy) else 'dia' if re.search(r'diaseguinte|diasdepois|semanasdepois|mesesdepois|anosdepois|meiodia|duranteodia', _sy) else None)
+    _c = b.get('clima') or ('tempestade' if re.search(r'tempestade|temporal|trovao|raios', _sy) else 'chuva' if re.search(r'chuva|chovia|chovendo|choveu|aguaceiro', _sy) else 'neve' if re.search(r'neve|nevasca|nevava|nevando|inverno|congel|geada', _sy) else 'neblina' if re.search(r'neblina|nevoeiro|nevoa|cerracao', _sy) else 'calor' if re.search(r'calor|solforte|solquente|escaldante|seca|sedeinsuport', _sy) else 'vento' if re.search(r'ventania|vendaval|furacao|ventoforte', _sy) else None)
+    if _h: AMB['hora'] = _h
+    if _c: AMB['clima'] = None if _c in ('limpo', 'sol') else _c
+    wx = {}
+    if not light:
+        light = {'noite': 'night', 'amanhecer': 'dawn', 'pordosol': 'dusk', 'tarde': 'golden'}.get(AMB.get('hora'), LIGHT)
+        cl = AMB.get('clima')
+        if cl in ('chuva', 'tempestade') and light != 'night': light = 'storm' if cl == 'tempestade' else 'overcast'
+        elif cl == 'neve' and light not in ('night', 'dusk', 'dawn'): light = 'arctic'
+        elif cl == 'neblina' and light not in ('night',): light = 'overcast'
+        elif cl == 'calor' and light not in ('night', 'dusk', 'dawn'): light = 'desert'
+    if not b.get('interior'):
+        cl = AMB.get('clima')
+        wx = {'chuva': {'rain': 0.8, 'wind': 0.8}, 'tempestade': {'rain': 1.0, 'wind': 1.4}, 'neve': {'snow': 0.85, 'wind': 0.5}, 'neblina': {'fog': 0.7, 'wind': 0.3}, 'vento': {'wind': 1.4, 'leaves': 0.7}}.get(cl, {})
+    if 'wind' in b: wx['wind'] = b['wind']
     who = b.get('who', []); animals = b.get('animals', []); props = b.get('props', [])
     wide_pre = shot in WIDE
     if b.get('interior') and not b.get('light'): light = 'study'
     mv = b.get('move', 8 if shot == 'track' else 0)
     a, bb = f'A[{k}]', f'A[{k + 1}] - 1'
     # elenco de pessoas
+    HOLDS = (('mug', r'beber|bebeu|bebia|brind|caneca|cerveja|cha\b'), ('bottle', r'garrafa|aguardente|vinho|bebida|rum|whisky|uisque'), ('paper', r'carta|jornal|imprensa|ordem|documento|mapa|contrato|telegrama|relatorio|lista|assinou|lei\b'), ('book', r'livro|biblia|diario'), ('lantern', r'lanterna|lampiao|lamparina'), ('torch', r'tocha|incendi'), ('flag', r'bandeira|rendeu|rendicao'), ('coin', r'dinheiro|moeda|ouro|recompensa|pagou|pagar|fortuna|salario|imposto'), ('bag', r'saco|mala|bagagem|sacola'), ('spyglass', r'luneta|avistou|avistaram|procurar|vigia|observ'))
+    _say_sp = re.sub(r'[^a-z0-9 ]', '', unicodedata.normalize('NFKD', b['say'].lower()).encode('ascii', 'ignore').decode())
+    auto_hold = next((h for h, rx in HOLDS if re.search(rx, _say_sp)), None) if b.get('maos') is not False else None
     persons = []
     for w in who:
         p = w.split(':'); out = p[0]; v = int(p[1]) if len(p) > 1 and p[1] != '' else 0; ex = (p[2] if len(p) > 2 else '') or 'neutral'; hold = p[3] if len(p) > 3 else None   # 4o campo: objeto na mao
-        persons.append((out, v, ex, hold))
+        if hold is None and auto_hold and not persons and not B.get('outfits', {}).get(out, {}).get('rifle'): hold = auto_hold   # o primeiro personagem da cena segura o objeto de que a narracao fala
+        persons.append((out, v, ex, hold or None))
     n = len(persons); sl = slots(max(n, 1))
     acts = []
     for i, (out, v, ex, hold) in enumerate(persons):
@@ -157,7 +183,7 @@ def build_beat(k, b):
         dx, z = sl[i], (ZSW[i % len(ZSW)] if shot in WIDE else ZS[i % len(ZS)])
         if shot == 'track' or mv:
             d = mv if mv else 8
-            acts.append(f"{{ outfit: {json.dumps(out)}, v: {v}, at: [X + {num(dx - d / 2)}, {num(z)}], move: [[X + {num(dx + d / 2)}, {num(z)}], {a}, {bb}, 'lin'], pose: 'march', speed: 0.034, expr: {json.dumps(ex)}{ov} }}")
+            acts.append(f"{{ outfit: {json.dumps(out)}, v: {v}, at: [X + {num(dx - d / 2)}, {num(z)}], move: [[X + {num(dx + d / 2)}, {num(z)}], {a}, {bb}, 'lin'], pose: {json.dumps('march' if B.get('outfits', {}).get(out, {}).get('rifle') else 'stroll')}, expr: {json.dumps(ex)}{ov} }}")   # soldado marcha; civil caminha solto
         else:
             acts.append(f"pp(X, {json.dumps(out)}, {v}, {num(dx)}, {num(z)}, {json.dumps(ex)}" + (f", {{ over: {{ hold: {json.dumps(hold)} }} }})" if hold else ')'))
     # animais
@@ -228,6 +254,8 @@ def build_beat(k, b):
         pr.append(f"{{ asset: {json.dumps(asset)}, at: [X + {num(dx)}, {num(z)}], s: {num(s)}{extra} }}")
     # textos / efeitos
     fx = []
+    if not b.get('interior') and light in ('day', 'noon', 'golden', 'dawn', 'dusk', 'desert') and not wx.get('rain') and not wx.get('snow') and b.get('passaros') is not False and (k % 2 == 0 or shot in WIDE):
+        fx.append(f"{{ k: 'birds', a: {a}, b: {bb}, at: [X, DK + {num(4.5 + (k % 3) * 1.5)}, -30], n: {4 + k % 3}, dir: {1 if k % 4 < 2 else -1}, off: {8 + k * 7 % 14} }}")
     if b.get('text'):
         st = TXT[b.get('tstyle', TXT_CYCLE[k % 4])]
         off = int(b.get('tat', 0))
@@ -264,7 +292,7 @@ def build_beat(k, b):
     for kk in ('h', 'd0', 'd1', 'el', 'fov', 'az0', 'az1', 'cx', 'cz'):
         v = b.get(kk, T.get(kk))
         if v is not None: opts.append(f'{kk}: {num(v)}')
-    if 'wind' in b: opts.append(f"wx: {{ wind: {b['wind']} }}")
+    if wx: opts.append('wx: ' + json.dumps(wx))
     if wide: opts.append("hero: { hero: 'none', wide: true }"); opts.append('vary: false')
     elif b.get('veiculo'): opts.append("hero: { hero: 'none' }")   # motorista fica atras do carro de proposito
     elif persons: opts.append("hero: { hero: 'any', frame: 'medium', minH: 0.07, main: %d }" % len(persons))

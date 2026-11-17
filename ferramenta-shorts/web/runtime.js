@@ -90,15 +90,17 @@ export const OUT = Object.assign({
   ARTIST: (v = 0, e = {}) => ({ _id: 'artist', jacket: ['#d9a441', '#b5653f', '#7b5ac9', '#5a8fc2'][v % 4], pants: '#3b3f52', boots: '#4a3426', hat: 'cap', cap: ['#8a3a3a', '#2f5f6a', '#d9a441'][v % 3], skin: SK[v % 4], ...(v % 2 ? { moustache: '#4a3020' } : {}), ...e }),
 }, SPEC.outfits || {});
 const B = (T, o0, opts, pos, extra = {}) => { const o = { ...o0, ...(o0.build === undefined && !SPEC.noLanky ? { build: 'lanky' } : {}), ...(SPEC.keepSkin ? {} : { skin: '#f6f0e6' }) }; return B2(T, o, opts, pos, extra); };
-const B2 = (T, o, opts, pos, extra = {}) => ({ id: extra.id || o._id || 'person', key: 'b' + JSON.stringify([o, opts]), draw: (p) => T.bodyFront(p, o, { blink: false, ...opts }), x: pos[0], y: pos[1] ?? DECK, z: pos[2], ...extra });
+const B2 = (T, o, opts, pos, extra = {}) => ({ id: extra.id || o._id || 'person', key: (extra.sideWalk ? 'bs' : 'b') + JSON.stringify([o, opts]), draw: (p) => (extra.sideWalk ? T.bodySide(p, o, { blink: false, ...opts, mode: 'march', ...(opts.mode === 'stroll' ? { stride: 0.72, stomp: 0.8 } : {}) }) : T.bodyFront(p, o, { blink: false, ...opts })), x: pos[0], y: pos[1] ?? DECK, z: pos[2], ...extra });
 const qq = (x, n = 2) => Math.round(x * 10 ** n) / 10 ** n;
 const PO = (f, a, seed, exo = {}) => { const mode = a.pose || 'stand'; const base = { seed, blink: blinkAt(f, seed) > 0, expr: (typeof a.expr === 'function' ? a.expr(f) : a.expr) || 'neutral', look: a.look ?? 0.2, ...exo };
   if (mode === 'stand' && exo.__acted) return { mode: 'stand', phase: 0, tilt: qq(2.4 * Math.sin((f + seed * 7) * 0.05), 1), headTilt: qq(3.2 * Math.sin((f + seed * 5) * 0.037 + 1), 1), lift: a.lift, ...base };
   if (mode === 'stand') { const cyc = 84, ph = (f + seed * 23) % cyc, g = a.gesture !== false && SPEC.gestures !== false && ph < 30 && (Math.floor((f + seed * 23) / cyc) + seed) % 3 !== 0; const ex = base.expr;
     const em = (typeof a.expr === 'function') ? ex : ({ smile: ph > 50 && ph < 66 ? 'grin' : ex, stern: ph > 56 && ph < 70 ? 'neutral' : ex, neutral: ph > 40 && ph < 52 ? 'smile_closed' : ex, nervous: ph > 40 && ph < 56 ? 'pained' : ex, grin: ph > 60 && ph < 72 ? 'laugh' : ex, shock: ph > 40 && ph < 60 ? 'nervous' : ex }[ex] || ex);
     return { mode: 'stand', phase: 0, tilt: qq(3.2 * Math.sin((f + seed * 7) * 0.06), 1), headTilt: qq(4.5 * Math.sin((f + seed * 5) * 0.045 + 1), 1), lift: a.lift, ...base, expr: em, ...(g ? { wave: qq(Math.sin(ph * 0.42), 2) } : {}) }; }
-  if (mode === 'march') return { mode: 'march', phase: qq(((f * (a.speed || 0.033) + seed * 0.17) % 1), 2), ...base };
-  if (mode === 'stroll') return { mode: 'stroll', phase: qq(((f * (a.speed || 0.02) + seed * 0.13) % 1), 2), ...base };
+  /* passo casado com a velocidade no chao (sem pe deslizando): ciclos/quadro = velocidade / comprimento da passada */
+  const stepSp = (stride, def) => (a.move && a.move[0] && a.at && a.autoStep !== false) ? Math.min(0.06, Math.max(0.012, Math.hypot(a.move[0][0] - a.at[0], a.move[0][1] - a.at[1]) / Math.max(1, a.move[2] - a.move[1]) / stride)) : (a.speed || def);
+  if (mode === 'march') return { mode: 'march', phase: qq(((f * stepSp(2.5, 0.033) + seed * 0.17) % 1), 2), ...base };
+  if (mode === 'stroll') return { mode: 'stroll', phase: qq(((f * stepSp(2.1, 0.02) + seed * 0.13) % 1), 2), ...base };
   return { mode, phase: 0, ...base }; };
 export const actorsAt = (f, T) => {
   const S = SP(f), out = []; const tint = ['tense', 'dusk', 'grave'].includes(S.light) ? '#ffd9c0' : S.light === 'storm' ? '#c8d4e8' : S.light === 'night' ? '#b8c4ee' : '#ffffff';
@@ -110,11 +112,15 @@ export const actorsAt = (f, T) => {
     if (a.bird) { const st = typeof a.state === 'function' ? a.state(f) : (a.state || 'stand'); const o = { species: a.bird, state: st, phase: qq(((f * (a.spd || 0.03) + seed * 0.1) % 1), 2), blink: 0, t: qq(f / 30 + seed, 1) };
       out.push({ id: a.id || 'bird', key: 'bd' + JSON.stringify(o), draw: (p) => T.birdSide(p, o), x, y: DECK + (a.y || 0), z, s: (a.s || 0.7) * (SPEC.cs ?? 1.4), flip: !!a.flip, tint, order: 2 }); return; }
     let o = typeof a.outfit === 'object' ? a.outfit : OUT[a.outfit](a.v ?? 0, a.over || {});
+    if (o.faceId === undefined) { let h = 0; for (const ch of String(o._id || '')) h = (h * 31 + ch.charCodeAt(0)) % 997; o = { ...o, faceId: (h + (a.v ?? 0) * 3 + (a.seed ?? 0) * 5) % 8 }; }   /* rosto proprio por personagem (estavel entre as cenas) */
     const persons = (S.actors || []).filter((q) => q.outfit && !(q.a !== undefined && (f < q.a || f > q.b)));
     const ac = (SPEC.acting === false || a.acting === false) ? null : actFor(f, a, i, S, persons, seed);
     const opts = PO(f, moving && !a.pose ? { ...a, pose: a.walk || 'stroll' } : a, seed, { ...(a.opts || {}), ...(ac || {}) });
+    /* CAMINHADA NATURAL: quem atravessa a tela e' desenhado de perfil, com o ciclo de passos completo (pernas e bracos alternando) */
+    const sideW = (moving && a.move && a.move[0] && a.sideWalk !== false && (opts.mode === 'march' || opts.mode === 'stroll') && Math.abs(a.move[0][0] - a.at[0]) > 1.2 * Math.abs(a.move[0][1] - a.at[1])) ? Math.sign(a.move[0][0] - a.at[0]) : 0;
     if (opts.gest && (opts.gk || 0) > 0.2 && o.rifle) o = { ...o, rifle: false };
-    out.push(B(T, o, opts, [x, DECK + (typeof a.y === 'function' ? a.y(f) : (a.y || 0)) + bob, z], { id: a.id || o._id, tint, s: (a.s || 1) * (SPEC.cs ?? 1.4) * (1 + 0.07 * (opts.lean || 0)), flip: !!a.flip, ...(a.crop ? { crop: a.crop, shadow: false, blob: false } : {}) })); });
+    if (o.hold) opts.hp = qq(Math.max(0, Math.sin(f * 0.075 + seed * 2)), 1);   /* usa o objeto de tempos em tempos */
+    out.push(B(T, o, opts, [x, DECK + (typeof a.y === 'function' ? a.y(f) : (a.y || 0)) + bob, z], { id: a.id || o._id, tint, s: (a.s || 1) * (SPEC.cs ?? 1.4) * (1 + 0.07 * (opts.lean || 0)), flip: sideW ? sideW < 0 : !!a.flip, ...(sideW ? { sideWalk: sideW } : {}), ...(a.crop ? { crop: a.crop, shadow: false, blob: false } : {}) })); });
   return out;
 };
 // ---------- 2D effects ----------
@@ -123,6 +129,8 @@ const TXT = (key, txt, pos, s, col = '#fff6e0', ol = '#241726', size = 150, ex =
 export const fxAt = (f, T) => { const out = [];
   for (const S of [SP(f)]) for (const e of (S.fx || [])) { if (f < e.a || f > e.b) continue; const t = qq((f - e.a) / Math.max(1, e.b - e.a), 2);
     if (e.k === 'burst') out.push(FX('bu' + e.a + t, (p) => T.fxBurst(p, t, e.col || '#fff3b0', 12, 30, 220), e.at, e.s || 1));
+    else if (e.k === 'birds') { /* bando de passaros cruzando o ceu (silhuetas em "m" batendo asa) */ const n = e.n || 5, ph = Math.floor(f / 5) % 4, dir = e.dir || 1, span = 30, x = (e.at ? e.at[0] : 0) + dir * (((f - e.a) * 0.07 + (e.off || 0)) % span - span / 2);
+      out.push(FX('bd' + n + ph + dir, (p) => { const g = p.g; g.strokeStyle = '#241726'; g.lineCap = 'round'; g.lineJoin = 'round'; for (let i = 0; i < n; i++) { const bx = 300 + dir * (-(i % 2 ? 1 : -1) * Math.ceil(i / 2) * 120 - Math.ceil(i / 2) * 50) * 0.9, by = 380 + Math.ceil(i / 2) * 70 + (i * 37 % 23), w = 62 - (i % 3) * 9, up = [30, 8, -16, 8][(ph + i) % 4]; g.lineWidth = 11; g.beginPath(); g.moveTo(bx - w, by - up); g.quadraticCurveTo(bx - w * 0.45, by - up * 0.2 - 9, bx, by); g.quadraticCurveTo(bx + w * 0.45, by - up * 0.2 - 9, bx + w, by - up); g.stroke(); } }, [x, (e.at ? e.at[1] : DECK + 15) + Math.sin(f * 0.03) * 0.6, e.at ? e.at[2] : -38], e.s || 13, { shadow: false, order: 1 })); }
     else if (e.k === 'flash') out.push(FX('fl' + e.a + t, (p) => { const g = p.g, k = t < 0.35 ? t / 0.35 : 1 - (t - 0.35) / 0.65 * 0.6, R = 150 * (0.45 + 0.55 * k); const star = (r, n, col) => { g.beginPath(); for (let i = 0; i < n * 2; i++) { const a = Math.PI * i / n + 0.3, rr = i % 2 ? r * 0.45 : r; g.lineTo(300 + rr * Math.cos(a), 250 + rr * Math.sin(a)); } g.closePath(); g.fillStyle = col; g.fill(); };
       g.lineJoin = 'round'; g.lineWidth = 16; g.strokeStyle = '#3a1c14'; star(R, 7, '#ff8a1e'); g.stroke(); star(R * 0.68, 7, '#ffd23a'); star(R * 0.34, 6, '#fffbe6'); }, e.at, e.s || 1, { keepColor: true }));   // clarao de tiro cartunesco
     else if (e.k === 'puff') out.push(FX('pf' + e.a + t, (p) => { p.g.translate(150, 700); T.fxPuff(p, t); }, e.at, e.s || 1));
