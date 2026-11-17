@@ -10,92 +10,94 @@ Style: Cap,Inter Black,88,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,0,0,0,0,10
 
 [Events]
 Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
-Dialogue: 0,0:00:00.15,0:00:00.38,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Em mil
-Dialogue: 0,0:00:00.40,0:00:00.98,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}setecentos e
-Dialogue: 0,0:00:01.00,0:00:01.46,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}oitenta e
-Dialogue: 0,0:00:01.48,0:00:01.98,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}oito,
-Dialogue: 0,0:00:02.05,0:00:02.62,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}o exército
-Dialogue: 0,0:00:02.64,0:00:03.06,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}austríaco
-Dialogue: 0,0:00:03.08,0:00:03.80,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}marchava para
-Dialogue: 0,0:00:03.82,0:00:04.39,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}atacar os
-Dialogue: 0,0:00:04.41,0:00:04.95,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}turcos.
-Dialogue: 0,0:00:05.56,0:00:06.23,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Eram dezenas
-Dialogue: 0,0:00:06.25,0:00:06.78,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}de milhares
-Dialogue: 0,0:00:06.80,0:00:07.53,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}de soldados,
-Dialogue: 0,0:00:07.55,0:00:08.01,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}de vários
-Dialogue: 0,0:00:08.03,0:00:08.76,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}países,
-Dialogue: 0,0:00:08.79,0:00:09.68,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}falando várias
-Dialogue: 0,0:00:09.70,0:00:10.20,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}línguas.
-Dialogue: 0,0:00:10.79,0:00:11.61,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Numa noite,
-Dialogue: 0,0:00:11.63,0:00:12.14,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}os hussardos
-Dialogue: 0,0:00:12.16,0:00:12.54,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}foram na
-Dialogue: 0,0:00:12.56,0:00:13.07,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}frente procurar
-Dialogue: 0,0:00:13.09,0:00:14.01,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}o inimigo.
-Dialogue: 0,0:00:14.61,0:00:15.21,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Não acharam
-Dialogue: 0,0:00:15.23,0:00:16.11,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}turco nenhum.
-Dialogue: 0,0:00:16.74,0:00:17.17,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Acharam
-Dialogue: 0,0:00:17.19,0:00:17.76,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}moradores
-Dialogue: 0,0:00:17.78,0:00:18.20,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}vendendo
-Dialogue: 0,0:00:18.22,0:00:18.91,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}aguardente.
-Dialogue: 0,0:00:19.52,0:00:20.11,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Os hussardos
-Dialogue: 0,0:00:20.13,0:00:20.78,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}compraram,
-Dialogue: 0,0:00:20.80,0:00:21.46,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}beberam,
-Dialogue: 0,0:00:21.48,0:00:21.80,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}e a
-Dialogue: 0,0:00:21.82,0:00:22.75,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}festa começou.
-Dialogue: 0,0:00:23.37,0:00:23.82,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Aí chegou
-Dialogue: 0,0:00:23.84,0:00:24.82,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}a infantaria,
-Dialogue: 0,0:00:24.84,0:00:25.27,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}e queria
-Dialogue: 0,0:00:25.29,0:00:25.57,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}a parte
-Dialogue: 0,0:00:25.59,0:00:26.14,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}dela.
-Dialogue: 0,0:00:26.72,0:00:27.33,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}A discussão
-Dialogue: 0,0:00:27.35,0:00:27.64,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}virou
-Dialogue: 0,0:00:27.66,0:00:28.66,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}empurra-empurra,
-Dialogue: 0,0:00:28.68,0:00:29.09,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}e alguém
-Dialogue: 0,0:00:29.11,0:00:29.37,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}deu um
-Dialogue: 0,0:00:29.39,0:00:29.92,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}tiro.
-Dialogue: 0,0:00:30.53,0:00:31.53,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Alguém gritou:
-Dialogue: 0,0:00:31.59,0:00:32.30,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Turcos!
-Dialogue: 0,0:00:32.93,0:00:33.65,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Turcos!
-Dialogue: 0,0:00:34.25,0:00:34.50,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}E o
-Dialogue: 0,0:00:34.52,0:00:35.03,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}pânico tomou
-Dialogue: 0,0:00:35.05,0:00:36.11,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}o acampamento.
-Dialogue: 0,0:00:36.71,0:00:37.45,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}No escuro,
-Dialogue: 0,0:00:37.47,0:00:38.22,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}ninguém entendia
-Dialogue: 0,0:00:38.24,0:00:38.52,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}a língua
-Dialogue: 0,0:00:38.55,0:00:39.41,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}do vizinho.
-Dialogue: 0,0:00:40.03,0:00:40.49,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Todo mundo
-Dialogue: 0,0:00:40.51,0:00:41.08,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}atirava em
-Dialogue: 0,0:00:41.10,0:00:41.78,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}todo mundo,
-Dialogue: 0,0:00:41.80,0:00:42.35,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}achando que
-Dialogue: 0,0:00:42.37,0:00:42.78,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}eram os
-Dialogue: 0,0:00:42.80,0:00:43.33,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}turcos.
-Dialogue: 0,0:00:43.95,0:00:44.36,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Chegou a
-Dialogue: 0,0:00:44.38,0:00:44.79,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}ordem de
-Dialogue: 0,0:00:44.81,0:00:45.21,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}usar a
-Dialogue: 0,0:00:45.23,0:00:46.05,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}artilharia,
-Dialogue: 0,0:00:46.12,0:00:46.39,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}e os
-Dialogue: 0,0:00:46.41,0:00:46.69,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}canhões
-Dialogue: 0,0:00:46.71,0:00:47.28,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}dispararam
-Dialogue: 0,0:00:47.30,0:00:47.73,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}contra o
-Dialogue: 0,0:00:47.75,0:00:47.87,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}próprio
-Dialogue: 0,0:00:47.89,0:00:48.59,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}exército.
-Dialogue: 0,0:00:49.19,0:00:50.20,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Dias depois,
-Dialogue: 0,0:00:50.22,0:00:50.64,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}os turcos
-Dialogue: 0,0:00:50.66,0:00:51.24,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}chegaram e
-Dialogue: 0,0:00:51.26,0:00:51.98,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}encontraram o
-Dialogue: 0,0:00:52.00,0:00:52.43,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}campo cheio
-Dialogue: 0,0:00:52.45,0:00:53.30,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}de austríacos.
-Dialogue: 0,0:00:53.91,0:00:54.47,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Contam que
-Dialogue: 0,0:00:54.49,0:00:55.05,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}foram até
-Dialogue: 0,0:00:55.07,0:00:55.44,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}dez mil
-Dialogue: 0,0:00:55.46,0:00:56.07,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}baixas,
-Dialogue: 0,0:00:56.09,0:00:56.38,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}mas os
-Dialogue: 0,0:00:56.40,0:00:57.16,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}historiadores
-Dialogue: 0,0:00:57.18,0:00:57.78,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}discutem esse
-Dialogue: 0,0:00:57.80,0:00:58.36,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}número.
-Dialogue: 0,0:00:58.95,0:00:59.40,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Dizem que
-Dialogue: 0,0:00:59.42,0:00:59.71,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}foi o
-Dialogue: 0,0:00:59.73,0:01:00.17,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}maior desastre
-Dialogue: 0,0:01:00.20,0:01:00.64,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}de fogo
-Dialogue: 0,0:01:00.66,0:01:01.26,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}amigo da
-Dialogue: 0,0:01:01.28,0:01:01.84,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}história.
+Dialogue: 0,0:00:00.15,0:00:00.69,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Um exército
+Dialogue: 0,0:00:00.71,0:00:01.10,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}inteiro
+Dialogue: 0,0:00:01.12,0:00:01.80,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}conseguiu perder
+Dialogue: 0,0:00:01.82,0:00:02.50,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}uma batalha
+Dialogue: 0,0:00:02.52,0:00:02.92,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}contra si
+Dialogue: 0,0:00:02.94,0:00:03.47,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}mesmo.
+Dialogue: 0,0:00:04.09,0:00:04.47,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Era o
+Dialogue: 0,0:00:04.49,0:00:04.87,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}exército
+Dialogue: 0,0:00:04.89,0:00:05.53,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}austríaco,
+Dialogue: 0,0:00:05.55,0:00:06.32,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}marchando contra
+Dialogue: 0,0:00:06.34,0:00:07.07,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}os turcos,
+Dialogue: 0,0:00:07.09,0:00:07.84,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}com soldados
+Dialogue: 0,0:00:07.86,0:00:08.23,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}de vários
+Dialogue: 0,0:00:08.25,0:00:08.87,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}países,
+Dialogue: 0,0:00:08.88,0:00:09.16,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}que mal
+Dialogue: 0,0:00:09.18,0:00:10.03,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}se entendiam.
+Dialogue: 0,0:00:10.66,0:00:11.48,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Numa noite,
+Dialogue: 0,0:00:11.50,0:00:12.01,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}os hussardos
+Dialogue: 0,0:00:12.03,0:00:12.41,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}foram na
+Dialogue: 0,0:00:12.43,0:00:12.95,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}frente procurar
+Dialogue: 0,0:00:12.96,0:00:13.88,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}o inimigo.
+Dialogue: 0,0:00:14.49,0:00:15.09,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Não acharam
+Dialogue: 0,0:00:15.11,0:00:15.98,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}turco nenhum.
+Dialogue: 0,0:00:16.61,0:00:17.04,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Acharam
+Dialogue: 0,0:00:17.06,0:00:17.63,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}moradores
+Dialogue: 0,0:00:17.65,0:00:18.07,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}vendendo
+Dialogue: 0,0:00:18.09,0:00:18.79,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}aguardente.
+Dialogue: 0,0:00:19.40,0:00:20.41,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Compraram tudo,
+Dialogue: 0,0:00:20.43,0:00:21.12,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}beberam,
+Dialogue: 0,0:00:21.16,0:00:21.47,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}e a
+Dialogue: 0,0:00:21.49,0:00:22.40,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}festa começou.
+Dialogue: 0,0:00:23.03,0:00:23.46,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Aí chegou
+Dialogue: 0,0:00:23.48,0:00:24.43,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}a infantaria,
+Dialogue: 0,0:00:24.45,0:00:25.03,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}querendo a
+Dialogue: 0,0:00:25.05,0:00:25.75,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}parte dela.
+Dialogue: 0,0:00:26.35,0:00:26.88,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}"Não tem
+Dialogue: 0,0:00:26.90,0:00:27.61,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}pra vocês",
+Dialogue: 0,0:00:27.63,0:00:28.25,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}disseram os
+Dialogue: 0,0:00:28.27,0:00:29.01,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}hussardos.
+Dialogue: 0,0:00:29.60,0:00:30.21,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}A discussão
+Dialogue: 0,0:00:30.23,0:00:30.52,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}virou
+Dialogue: 0,0:00:30.54,0:00:31.55,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}empurra-empurra,
+Dialogue: 0,0:00:31.57,0:00:31.97,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}e alguém
+Dialogue: 0,0:00:31.99,0:00:32.25,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}deu um
+Dialogue: 0,0:00:32.27,0:00:32.80,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}tiro.
+Dialogue: 0,0:00:33.40,0:00:34.16,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}No escuro,
+Dialogue: 0,0:00:34.18,0:00:35.13,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}alguém gritou:
+Dialogue: 0,0:00:35.18,0:00:35.86,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}"Turcos!
+Dialogue: 0,0:00:36.49,0:00:37.21,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Turcos!"
+Dialogue: 0,0:00:37.81,0:00:38.06,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}E o
+Dialogue: 0,0:00:38.08,0:00:38.60,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}pânico tomou
+Dialogue: 0,0:00:38.62,0:00:39.68,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}o acampamento.
+Dialogue: 0,0:00:40.29,0:00:40.90,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Acontece que
+Dialogue: 0,0:00:40.92,0:00:41.68,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}ninguém entendia
+Dialogue: 0,0:00:41.70,0:00:41.99,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}a língua
+Dialogue: 0,0:00:42.01,0:00:42.88,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}do vizinho.
+Dialogue: 0,0:00:43.51,0:00:43.96,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Todo mundo
+Dialogue: 0,0:00:43.98,0:00:44.55,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}atirava em
+Dialogue: 0,0:00:44.57,0:00:45.25,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}todo mundo,
+Dialogue: 0,0:00:45.27,0:00:45.82,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}achando que
+Dialogue: 0,0:00:45.84,0:00:46.25,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}eram os
+Dialogue: 0,0:00:46.27,0:00:46.81,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}turcos.
+Dialogue: 0,0:00:47.41,0:00:47.98,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Um oficial
+Dialogue: 0,0:00:48.00,0:00:48.56,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}mandou usar
+Dialogue: 0,0:00:48.58,0:00:49.57,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}a artilharia,
+Dialogue: 0,0:00:49.63,0:00:49.91,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}e os
+Dialogue: 0,0:00:49.93,0:00:50.21,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}canhões
+Dialogue: 0,0:00:50.23,0:00:50.82,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}dispararam
+Dialogue: 0,0:00:50.84,0:00:51.28,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}contra o
+Dialogue: 0,0:00:51.30,0:00:51.43,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}próprio
+Dialogue: 0,0:00:51.45,0:00:52.16,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}exército.
+Dialogue: 0,0:00:52.74,0:00:53.22,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Dois dias
+Dialogue: 0,0:00:53.24,0:00:53.98,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}depois,
+Dialogue: 0,0:00:54.00,0:00:54.44,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}os turcos
+Dialogue: 0,0:00:54.46,0:00:55.06,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}chegaram de
+Dialogue: 0,0:00:55.09,0:00:55.65,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}verdade,
+Dialogue: 0,0:00:55.67,0:00:56.10,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}e acharam
+Dialogue: 0,0:00:56.12,0:00:56.78,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}o acampamento
+Dialogue: 0,0:00:56.80,0:00:57.62,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}abandonado.
+Dialogue: 0,0:00:58.22,0:00:58.78,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Contam que
+Dialogue: 0,0:00:58.80,0:00:59.36,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}foram até
+Dialogue: 0,0:00:59.38,0:00:59.75,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}dez mil
+Dialogue: 0,0:00:59.77,0:01:00.38,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}baixas,
+Dialogue: 0,0:01:00.40,0:01:00.69,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}mas os
+Dialogue: 0,0:01:00.71,0:01:01.46,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}historiadores
+Dialogue: 0,0:01:01.48,0:01:02.08,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}duvidam desse
+Dialogue: 0,0:01:02.10,0:01:02.66,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}número.
+Dialogue: 0,0:01:03.26,0:01:03.74,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Os turcos
+Dialogue: 0,0:01:03.76,0:01:04.41,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}venceram sem
+Dialogue: 0,0:01:04.43,0:01:04.74,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}dar um
+Dialogue: 0,0:01:04.76,0:01:05.67,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}único tiro.

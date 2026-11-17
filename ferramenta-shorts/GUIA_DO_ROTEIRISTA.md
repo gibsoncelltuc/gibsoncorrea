@@ -52,3 +52,14 @@ Personagens grandes na maior parte do vídeo; até 2 planos abertos comuns + at�
 - `"interior": "madeira"` | `"pedra"` | `"loja"` no beat: a cena passa dentro de uma sala (parede perto, janela, porta, quadros, piso com juntas; a loja tem balcão e prateleiras). A luz vira `study` sozinha e os móveis padrão entram (estante, mesa, cadeira, baú). Para trocar os móveis: `"moveis": [["mk/Table_Large", -6.6, -1.6, 2.2], ...]` (asset, dx, z, escala).
 - Ao ar livre, em plano médio, o diretor põe sozinho uma construção atrás dos personagens (campo, deserto, rua, medieval, porto). Para tirar: `"fachada": false`.
 - Use interior sempre que a narração falar de sala, escritório, palácio, loja, quartel, tribunal, casa. No canal, a maioria das cenas de conversa é com parede perto.
+
+## Personagens: chapéus, cabelos e objetos na mão
+- Chapéus (`"hat"` no figurino): `shako`, `shako_tall`, `cap`, `tophat`, `bonnet`, `helmet` (capacete), `bowler` (coco), `straw` (palha), `slouch` (australiano/aba larga), `fez`, `turban`, `crown` (coroa), `beret` (boina), `wizard`. Cor com `"cap": "#rrggbb"`.
+- Chapéu diferente por pessoa: `"hats": ["straw", "cap", "bowler"]` (a variante escolhe). Sem `hat` nem `hats`, cada variante ganha cor e corte de cabelo próprios (curto, longo, coque).
+- Objeto na mão: 4º campo do `who` → `"HUS:0:laugh:mug"`. Opções: `bottle`, `mug`, `paper`, `book`, `lantern`, `pitchfork`, `staff`, `flag`, `torch`, `bag`, `coin`, `spyglass`. Use o objeto da história (quem bebe segura caneca, jornalista segura papel).
+
+## Texto na cena
+- `"text"` agora vira **placa de madeira fincada atrás dos personagens** (como no canal). Em plano aberto, na última cena ou com texto longo (>14 letras) vira título flutuante. Para forçar título: `"titulo": true`.
+
+## Conferir contra o canal
+- `python3 comparar.py <id>` gera `out/comparativo_<id>.jpg` (canal em cima, nosso embaixo) e a tabela de medidas (luz, contraste, saturação, escuros, nitidez, ruído).
