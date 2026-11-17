@@ -40,9 +40,11 @@ SKINS = ['#ffe2c2', '#f5c9a0', '#ecd0b6', '#c99067']
 outfits_js = []
 for name, o in B.get('outfits', {}).items():
     o = dict(o); mo = o.pop('moustache_on', None)
+    hats = o.pop('hats', None); hairs = o.pop('hairs', None)   # "hats": [...] -> chapeu diferente por variante; sem chapeu -> cor/corte de cabelo por variante
     body = ', '.join(f'{k}: {json.dumps(v)}' for k, v in o.items())
     mou = f", ...(v % 2 ? {{ moustache: {json.dumps(mo)} }} : {{}})" if mo else ''
-    outfits_js.append(f"{name}: (v = 0, e = {{}}) => ({{ _id: {json.dumps(name.lower())}, {body}, skin: {json.dumps(SKINS)}[v % 4]{mou}, ...(v % 7 === 4 ? {{ glasses: true }} : {{}}), ...(v % 7 === 5 || v % 7 === 6 ? {{ beard: ['#3a2a1f', '#6b4a2a', '#8a8a86'][v % 3] }} : {{}}), ...e }})")
+    hv = (f", hat: {json.dumps(hats)}[v % {len(hats)}]" if hats else '') + ('' if (hats or o.get('hat')) else f", hat: 'hair', hair: {json.dumps(hairs or ['#5a3b2a', '#2a2018', '#b8862f', '#8a8a86', '#7a3a1c'])}[v % {len(hairs or [1]*5)}], hairStyle: [null, null, 'long', null, 'bun'][v % 5]")
+    outfits_js.append(f"{name}: (v = 0, e = {{}}) => ({{ _id: {json.dumps(name.lower())}, {body}, skin: {json.dumps(SKINS)}[v % 4]{hv}{mou}, ...(v % 7 === 4 ? {{ glasses: true }} : {{}}), ...(v % 7 === 5 || v % 7 === 6 ? {{ beard: ['#3a2a1f', '#6b4a2a', '#8a8a86'][v % 3] }} : {{}}), ...e }})")
 
 # ---------- posicoes automaticas ----------
 def slots(n):
@@ -97,7 +99,7 @@ def direct(beats):
         say = nrm(b['say']); words = [nrm(w) for w in b['say'].split()]
         mass = bool(MASS.search(say)); arrive = bool(ARRIVE.search(say))
         shot = b.get('shot', 'two'); first = (k == 0); last = (k == len(beats) - 1)
-        if first: shot = shot if shot in ('two', 'close', 'group', 'low') else 'two'   # MODO RICKS: abre em plano medio/fechado (18 de 20 videos do canal)
+        if first: shot = shot if shot in ('two', 'close', 'group', 'low') else ('group' if len(b.get('who', [])) > 2 else 'two')   # MODO RICKS: abre em plano medio/fechado (18 de 20 videos do canal)
         elif mass and arrive: shot = 'reveal'
         elif mass: shot = 'orbit' if wide_n % 2 else 'crowd'
         elif last: shot = 'two'   # e termina em plano medio (16 de 20)
@@ -131,6 +133,8 @@ if B.get('director') is not False and not any(b.get('impact') for b in beats) an
 
 def build_beat(k, b):
     shot = b.get('shot', 'two'); T = dict(TEMPL.get(shot, TEMPL['two']))
+    _n = len(b.get('who', []))
+    if shot in ('two', 'group', 'low') and _n >= 3: T['d0'] *= 1 + 0.13 * (_n - 2); T['d1'] *= 1 + 0.13 * (_n - 2)   # 3+ pessoas: abre o suficiente para caber todo mundo
     light = b.get('light')
     if not light:   # MODO RICKS: a luz acompanha a historia (noite azul, amanhecer, dia claro) quando o roteiro nao fixa
         _sy = nrm(b['say'])
@@ -143,17 +147,18 @@ def build_beat(k, b):
     # elenco de pessoas
     persons = []
     for w in who:
-        p = w.split(':'); out = p[0]; v = int(p[1]) if len(p) > 1 and p[1] != '' else 0; ex = p[2] if len(p) > 2 else 'neutral'
-        persons.append((out, v, ex))
+        p = w.split(':'); out = p[0]; v = int(p[1]) if len(p) > 1 and p[1] != '' else 0; ex = (p[2] if len(p) > 2 else '') or 'neutral'; hold = p[3] if len(p) > 3 else None   # 4o campo: objeto na mao
+        persons.append((out, v, ex, hold))
     n = len(persons); sl = slots(max(n, 1))
     acts = []
-    for i, (out, v, ex) in enumerate(persons):
+    for i, (out, v, ex, hold) in enumerate(persons):
+        ov = f", over: {{ hold: {json.dumps(hold)} }}" if hold else ''
         dx, z = sl[i], (ZSW[i % len(ZSW)] if shot in WIDE else ZS[i % len(ZS)])
         if shot == 'track' or mv:
             d = mv if mv else 8
-            acts.append(f"{{ outfit: {json.dumps(out)}, v: {v}, at: [X + {num(dx - d / 2)}, {num(z)}], move: [[X + {num(dx + d / 2)}, {num(z)}], {a}, {bb}, 'lin'], pose: 'march', speed: 0.034, expr: {json.dumps(ex)} }}")
+            acts.append(f"{{ outfit: {json.dumps(out)}, v: {v}, at: [X + {num(dx - d / 2)}, {num(z)}], move: [[X + {num(dx + d / 2)}, {num(z)}], {a}, {bb}, 'lin'], pose: 'march', speed: 0.034, expr: {json.dumps(ex)}{ov} }}")
         else:
-            acts.append(f"pp(X, {json.dumps(out)}, {v}, {num(dx)}, {num(z)}, {json.dumps(ex)})")
+            acts.append(f"pp(X, {json.dumps(out)}, {v}, {num(dx)}, {num(z)}, {json.dumps(ex)}" + (f", {{ over: {{ hold: {json.dumps(hold)} }} }})" if hold else ')'))
     # animais
     for j, an in enumerate(animals):
         sp = an[0]; dxa = an[1] if len(an) > 1 else 2.2 + j * 1.8; za = an[2] if len(an) > 2 else 0.6; st = an[3] if len(an) > 3 else 'stand'
@@ -226,7 +231,11 @@ def build_beat(k, b):
         st = TXT[b.get('tstyle', TXT_CYCLE[k % 4])]
         off = int(b.get('tat', 0))
         up = {'close': 0.55, 'two': 0.46}.get(shot, 0.42)   # em plano fechado o texto sobe para nao cobrir o chapeu
-        fx.append(f"txt(X, WS({starts[k] + off}, -2), {bb}, {json.dumps(b['text'], ensure_ascii=False)}, '{st[0]}', '{st[1]}', {num(T['h'] + 2.2)}, {{ s: {b.get('tscale', 1.5)}, up: {up} }})")
+        if b.get('titulo') or B.get('titulos') or shot in WIDE or b.get('veiculo'):   # titulo flutuante so' a pedido ("titulo": true) ou em plano aberto
+            fx.append(f"txt(X, WS({starts[k] + off}, -2), {bb}, {json.dumps(b['text'], ensure_ascii=False)}, '{st[0]}', '{st[1]}', {num(T['h'] + 2.2)}, {{ s: {b.get('tscale', 1.5)}, up: {up} }})")
+        else:                                                                           # MODO RICKS: texto numa placa fincada na cena, ao lado dos personagens
+            _sx = 0.0   # placa alta, atras e acima das cabecas, no centro do quadro
+            fx.append(f"{{ k: 'text', a: {a}, b: {bb}, at: [X + {num(_sx)}, DK, {num(-1.3)}], text: {json.dumps(b['text'], ensure_ascii=False)}, s: {num(b.get('tscale', 1.5) * 1.75)}, col: '#3a2416', size: 120, board: {json.dumps(b.get('placa', True))} }}")
     for e in b.get('fx', []):
         kind, _, at = e.partition('@'); at = int(at) if at else 4
         if kind == 'burst': fx.append(f"{{ k: 'burst', a: {a} + {at}, at: [X + {num(sl[0] if n else 0)}, DK + 1.8, 3.2], s: 1.2 }}")

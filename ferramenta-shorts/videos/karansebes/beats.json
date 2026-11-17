@@ -28,8 +28,7 @@
    "jacket": "#8a5a3a",
    "pants": "#4a3a2a",
    "boots": "#3a2a1a",
-   "hat": "cap",
-   "cap": "#c9a060"
+   "hat": "straw"
   },
   "OFF": {
    "jacket": "#ebe6d4",
@@ -45,9 +44,11 @@
    "jacket": "#b5333a",
    "pants": "#e8e0c8",
    "boots": "#6a4a2a",
-   "hat": "cap",
-   "cap": "#c0262d",
-   "moustache_on": "#2a1c12"
+   "moustache_on": "#2a1c12",
+   "hats": [
+    "turban",
+    "fez"
+   ]
   }
  },
  "beats": [
@@ -82,7 +83,7 @@
    "say": "Numa noite, os hussardos foram na frente procurar o inimigo.",
    "shot": "track",
    "who": [
-    "HUS:0:stern",
+    "HUS:0:stern:lantern",
     "HUS:1:neutral"
    ],
    "props": [
@@ -101,7 +102,7 @@
    "shot": "two",
    "who": [
     "HUS:0:shock",
-    "LOC:0:grin"
+    "LOC:0:grin:bottle"
    ],
    "props": [
     [
@@ -117,8 +118,8 @@
    "say": "Compraram tudo, beberam, e a festa começou.",
    "shot": "two",
    "who": [
-    "HUS:0:laugh",
-    "HUS:1:grin"
+    "HUS:0:laugh:mug",
+    "HUS:1:grin:bottle"
    ],
    "props": [
     [
@@ -228,7 +229,7 @@
    "say": "Dois dias depois, os turcos chegaram de verdade, e acharam o acampamento abandonado. Contam que foram até dez mil baixas, mas os historiadores duvidam desse número.",
    "shot": "two",
    "who": [
-    "TUR:0:shock",
+    "TUR:0:shock:spyglass",
     "TUR:1:neutral"
    ],
    "props": [
