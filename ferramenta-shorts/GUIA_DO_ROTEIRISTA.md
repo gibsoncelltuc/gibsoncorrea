@@ -72,3 +72,9 @@ Personagens grandes na maior parte do vídeo; até 2 planos abertos comuns + at�
 - **Rosto próprio** para cada personagem (olhos, sobrancelha, bochecha, sardas, pinta), igual em todas as cenas.
 - **Caminhada**: quem atravessa a tela (`"shot": "track"` ou `"move"`) anda de perfil com passada completa; soldado (figurino com `rifle`) marcha, civil caminha solto.
 - **Tropa e batalha**: palavras de exército/tropa chegando criam a multidão uniformizada; tiro/batalha/pânico criam o plano aberto de impacto com clarões e som.
+
+## Regras fixas de câmera (a ferramenta aplica sozinha)
+- **Todo vídeo tem no mínimo 2 planos abertos de câmera contínua** (a câmera abre ou gira numa tomada só, mostrando o cenário, a tropa, a batalha). Se o roteiro não tiver, o diretor converte duas cenas. Mudar o mínimo: `"min_wide": 3` no topo do beats.json.
+- **Batalha**: `"batalha": true` na cena força o plano aberto com a tropa atirando (clarões e som) e o inimigo/animais se espalhando. `"caminhoes": 2` põe caminhões com soldados em pé na carroceria.
+- **Mapa didático**: na primeira vez que o texto cita um país ou cidade conhecidos, a ferramenta corta para um mapa de pergaminho com alfinete e o nome (~1,8 s). Forçar: `"mapa": "AUSTRÁLIA"`; desligar no vídeo: `"mapas": false`.
+- **Variedade de planos**: use no roteiro `two` (dois personagens), `close` (rosto, na palavra-chave/emoção), `group`, `low` (câmera baixa), `track` (acompanha quem anda), `wide`/`crowd`/`reveal`/`orbit` (abertos). O diretor abre e fecha em plano médio e nunca põe dois abertos sem batalha em sequência.

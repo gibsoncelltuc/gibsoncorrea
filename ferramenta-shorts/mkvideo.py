@@ -137,10 +137,25 @@ def direct(beats):
 
 KICKS = []
 AMB = {}
+STATE = {}
 direct(beats)
 if B.get('director') is not False and not any(b.get('impact') for b in beats) and len(beats) > 4:
     _b = beats[int(len(beats) * 0.6)]
     if not _b.get('shot_lock'): _b['impact'] = True; _b['shot'] = 'orbit'; _b.setdefault('crowd', {'n': 12, 'outfits': [w.split(':')[0] for w in _b.get('who', [])] or list(B.get('outfits', {'X': 0}))[:1], 'march': False})
+# REGRA RESTRITA (pedido do Gibson): TODO video tem no minimo 2 planos abertos de camera continua (ambientacao ampla: tropa, paisagem, batalha).
+MIN_WIDE = int(B.get('min_wide', 2))
+if B.get('director') is not False and len(beats) >= 5:
+    _w = [i for i, _b in enumerate(beats) if _b.get('shot') in WIDE]
+    _cand = sorted((i for i in range(1, len(beats) - 1) if i not in _w and not beats[i].get('shot_lock') and not beats[i].get('interior') and not beats[i].get('veiculo')), key=lambda i: (min(abs(i - j) for j in _w) if _w else 9, -abs(i - len(beats) * (0.35 if not _w else 0.7))), reverse=True)
+    while len(_w) < MIN_WIDE and _cand:
+        i = _cand.pop(0)
+        if any(abs(i - j) <= 1 for j in _w) and _cand: continue
+        _b = beats[i]; _b['shot'] = 'reveal' if len(_w) % 2 == 0 else 'orbit'; _b['aberto_auto'] = True
+        _o = [w.split(':')[0] for w in _b.get('who', [])] or list(B.get('outfits', {'X': 0}))[:1]
+        if not _b.get('emus'): _b.setdefault('crowd', {'n': 8, 'outfits': list(dict.fromkeys(_o)), 'march': False})
+        _w.append(i)
+    if len(_w) < MIN_WIDE: print(f'AVISO: so {len(_w)} plano(s) aberto(s); a regra pede {MIN_WIDE}. Tire shot_lock/interior de alguma cena.')
+
 
 def build_beat(k, b):
     shot = b.get('shot', 'two'); T = dict(TEMPL.get(shot, TEMPL['two']))
@@ -267,6 +282,14 @@ def build_beat(k, b):
         pr.append(f"{{ asset: {json.dumps(asset)}, at: [X + {num(dx)}, {num(z)}], s: {num(s)}{extra} }}")
     # textos / efeitos
     fx = []
+    # MAPA DIDATICO: "mapa": "AUSTRALIA" (ou sozinho, na 1a vez que o texto cita um pais/cidade conhecido). Corta para o mapa por ~1,8 s.
+    _mp = b.get('mapa')
+    if _mp is None and B.get('mapas') is not False and not STATE.get('mapa'):
+        _m = re.search(r'\b(Austrália|Brasil|França|Inglaterra|Japão|Alemanha|Rússia|China|Índia|Egito|Itália|Espanha|Portugal|Estados Unidos|México|Grécia|Turquia|Áustria|Holanda|Suécia|Noruega|Canadá|Argentina|Peru|Roma|Paris|Londres|Berlim|Moscou|Tóquio|Lisboa|Madri|Viena|Nova York|África|Europa|Ásia|Amazônia|Sibéria|Antártida)\b', b['say'])
+        if _m: _mp = _m.group(1).upper(); _mw = len(b['say'][:_m.start()].split())
+    if _mp:
+        STATE['mapa'] = True; _mw = int(b.get('mapa_at', locals().get('_mw', 0)))
+        fx.append(f"{{ k: 'map', a: WS({starts[k] + _mw}, -2), b: Math.min({bb}, WS({starts[k] + _mw}, -2) + {int(b.get('mapa_dur', 54))}), text: {json.dumps(str(_mp), ensure_ascii=False)} }}")
     if not b.get('interior') and light in ('day', 'noon', 'golden', 'dawn', 'dusk', 'desert') and not wx.get('rain') and not wx.get('snow') and b.get('passaros') is not False and (k % 2 == 0 or shot in WIDE):
         fx.append(f"{{ k: 'birds', a: {a}, b: {bb}, at: [X, DK + {num(4.5 + (k % 3) * 1.5)}, -30], n: {4 + k % 3}, dir: {1 if k % 4 < 2 else -1}, off: {8 + k * 7 % 14} }}")
     if b.get('text'):
@@ -307,7 +330,7 @@ def build_beat(k, b):
         v = b.get(kk, T.get(kk))
         if v is not None: opts.append(f'{kk}: {num(v)}')
     if wx: opts.append('wx: ' + json.dumps(wx))
-    if wide: opts.append("hero: { hero: 'none', wide: true }"); opts.append('vary: false')
+    if wide: opts.append("hero: { hero: 'none', wide: true }"); opts.append('vary: false'); opts.append('nocut: true')   # plano aberto = UMA tomada continua (camera abrindo/girando), sem sub-corte
     elif b.get('veiculo'): opts.append("hero: { hero: 'none' }")   # motorista fica atras do carro de proposito
     elif persons: opts.append("hero: { hero: 'any', frame: 'medium', minH: 0.07, main: %d }" % len(persons))
     if b.get('trans'): opts.append(f"trans: {json.dumps(b['trans'])}")
