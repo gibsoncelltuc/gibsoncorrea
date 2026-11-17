@@ -115,7 +115,7 @@
     "MAR:0:smile",
     "MER:0:shock"
    ],
-   "interior": "madeira",
+   "interior": "loja",
    "say": "Contam que um marinheiro comeu um bulbo no almoço, achando que era cebola. Valia uma fortuna."
   },
   {
@@ -149,8 +149,7 @@
     "expr": "shock"
    },
    "fx": [
-    "dust@40",
-    "puff@90"
+    "dust@40"
    ],
    "sfx": [
     "sting@20",
