@@ -44,6 +44,7 @@ const SPEC = {
     S('b10', A[10], A[11] - 1, X, "golden", { h: 2.4, d0: 5.6, d1: 4.9, hero: { hero: 'any', frame: 'medium', minH: 0.07, main: 1 }, trans: 'dissolve', actors: [pp(X, "AUS", 0, 0.0, 1.3, "pained"), { bird: 'emu', at: [X + 0.4, -0.15], state: "stand", s: 1.6, flip: true, seed: 2 }, { bird: 'emu', at: [X + 2.8, 0.45], state: "peck", s: 1.6, flip: false, seed: 7 }, { bird: 'emu', at: [X + 5.2, 0.0], state: "stand", s: 1.6, flip: true, seed: 12 }], props: [{ asset: "buildings/barn", at: [X + -4.5, -9.5], s: 1.25, ry: 0.35, drop: false }], fx: [{ k: 'birds', a: A[10], b: A[11] - 1, at: [X, DK + 6.0, -30], n: 5, dir: -1, off: 8 }, txt(X, WS(152, -2), A[11] - 1, "HUMANOS 0 - 1 EMUS", '#e8c45a', '#7a1c1c', 4.6, { s: 1.5, up: 0.55 })] })
   ],
 };
+SPEC.fit = {"b10":1.761,"b10~1":2.209,"b2~2":1.254,"b3":1.12,"b3_1":1.12,"b4":1.404,"b4_1":1.572,"b5~2":1.254,"b6_v":2.209,"b8":1.404,"b8_1":1.572,"b9":1.12,"b9_v":2.209};
 // ===== STORY RUNTIME (generic): turns a declarative SPEC (stories/<id>.spec.js, concatenated before this file) into the story.js interface the engine expects =====
 import { camFromKeys, clamp, lerp, ramp, q, blinkAt, idle, M } from './motion.js';
 export const FPS = 30, TOTAL = SPEC.total, DECK = 6;
@@ -70,7 +71,7 @@ export const smooth = M.smooth;
 export const fitD = (h, frac, fov) => h / (frac * 2 * Math.tan(fov * Math.PI / 360));   // camera distance so an object of height h fills `frac` of the frame height
 // ---------- lights (shared presets; a story may add/override in SPEC.lights) ----------
 const LIB_LIGHTS = {
-  dawn: { exp: 0.84, cloud: '#ffd9c4', az: 95, el: 16, sky: '#ffdca8', ground: '#7a6a4a', hemi: 1.1, sun: '#ffc98a', sunI: 2.9, fog: '#ffd8a8', fogNear: 90, fogFar: 650, skyTop: '#7ea4e0', skyHor: '#ffd6a0', sunDisc: '#fff0c8', sunSize: 0.004, sat: 1.15, gain: '#fff1e0', vig: 0.26, shadowExt: 18, rimC: '#8fb4ff', rimI: 0.55, glow: 0.9, shafts: 0.5 },
+  dawn: { exp: 0.72, cloud: '#ffd9c4', az: 95, el: 16, sky: '#ffdca8', ground: '#7a6a4a', hemi: 1.1, sun: '#ffc98a', sunI: 2.9, fog: '#ffd8a8', fogNear: 90, fogFar: 650, skyTop: '#7ea4e0', skyHor: '#ffd6a0', sunDisc: '#fff0c8', sunSize: 0.004, sat: 1.15, gain: '#fff1e0', vig: 0.26, shadowExt: 18, rimC: '#8fb4ff', rimI: 0.55, glow: 0.9, shafts: 0.5 },
   day: { az: 140, el: 50, sky: '#c9d0f6', ground: '#8a8262', hemi: 1.2, sun: '#fff3dc', sunI: 2.5, fog: '#cfe0f2', fogNear: 120, fogFar: 800, skyTop: '#3f80d4', skyHor: '#c9def4', sat: 1.12, vig: 0.2, shadowExt: 22, rimC: '#bcd8ff', rimI: 0.3 },
   noon: { az: 160, el: 68, sky: '#d9defa', ground: '#a29a72', hemi: 1.3, sun: '#fffaf0', sunI: 2.7, fog: '#dfeaf6', fogNear: 150, fogFar: 900, skyTop: '#3a86e0', skyHor: '#cfe4f8', sat: 1.12, vig: 0.18, shadowExt: 22, rimC: '#cfe2ff', rimI: 0.25 },
   tense: { cloud: '#d8b8a8', az: 8, el: 9, sky: '#b090b8', ground: '#6a4c40', hemi: 0.95, sun: '#ff8a50', sunI: 3.0, fog: '#e8906a', fogNear: 70, fogFar: 600, skyTop: '#5a4a9a', skyHor: '#ff9a62', sunDisc: '#ffe0b0', sunSize: 0.0045, sat: 1.18, gain: '#ffe6d2', vig: 0.32, shadowExt: 26, rimC: '#6a7cff', rimI: 0.75, glow: 1.0 },
