@@ -24,6 +24,9 @@ for _b in B['beats']:   # NEVE: enquanto estiver nevando, a cena vai para o cena
     if _b.get('clima') == 'neve' or re.search(r'neve|nevasca|nevava|nevando|inverno|congel|geada', _t): _neve = True
     elif _b.get('clima') or re.search(r'verao|primavera|calor|degelo|anosdepois|mesesdepois', _t): _neve = False
     if _neve and not _b.get('set') and not _b.get('interior') and 'arctic' in SETS_X and B.get('neve_cenario') is not False: _b['set'] = 'arctic'
+for _b in B['beats']:   # PORTO: cena pequena que fala de navio/porto/marinha acontece no cais (cenario 'harbor', com navio e mar)
+    _t = re.sub(r'[^a-z ]', '', __import__('unicodedata').normalize('NFKD', _b['say'].lower()).encode('ascii', 'ignore').decode())
+    if re.search(r'navio|\bporto|frota|marinha|\bcais\b|desembarc|zarp|esquadra', _t) and not _b.get('set') and not _b.get('interior') and SET != 'palace' and _b.get('shot') in (None, 'two', 'close', 'group', 'low', 'reveal') and not _b.get('batalha') and B.get('porto_cenario') is not False: _b['set'] = 'harbor'
 for _b in B['beats']:
     if _b.get('interior') and not _b.get('set'): _b['set'] = 'hall'      # interior fica no cenario 'hall' (sem arbusto/pedrinha de area externa)
 USED_SETS = [SET] + sorted({b['set'] for b in B['beats'] if b.get('set') and b['set'] != SET and b['set'] in SETS_X})   # cenario por cena: "set" dentro do beat
@@ -86,11 +89,31 @@ def nrm(t): return re.sub(r'[^a-z0-9]', '', unicodedata.normalize('NFKD', t.lowe
 MASS = re.compile(r'infantaria|batalh|exercito|soldados|milhares|dezenas|tropas|acampamento|regimento|multidao|todomundo|artilharia|canhoes|campocheio|panico|marcha|esquadrao|legiao|frota|armada|invasao|invadiu')
 ARRIVE = re.compile(r'chegou|chegaram|apareceu|surgiu|avancou|avancaram|marchava|marcharam|invadiu|invadiram|desembarcou|cercou|cercaram')
 CLOSE_OK = re.compile(r'gritou|olhou|sorriu|chorou|pensou|disse|perguntou|riu|ordenou')
+OBJ_DICT = [  # (palavra na narracao, objeto 3D da biblioteca, escala, grande?) -- usado para por objetos em cena e na pre-producao
+    (r'barril|barris|aguardente|cerveja|vinho|rum\b', 'barrel', 1.1, False), (r'caixote|caixas|carga|mercadoria', 'crate', 1.0, False), (r'canhao|canhoes|artilharia', 'cannon', 1.0, False),
+    (r'balde|\bpoco\b', 'tools/bucket', 1.8, False), (r'\bfonte\b|chafariz', 'nature/fountain', 1.2, False), (r'bandeira|estandarte', 'war/flagpole', 1.3, False), (r'tambor|tambores', 'war/drum', 1.4, False),
+    (r'trincheira|barricada|sacos de areia', 'war/sandbags', 1.2, False), (r'escudo', 'war/shield', 1.5, False), (r'\bfeno\b|trigo|plantac|colheita', 'nature/haybale', 1.1, False), (r'espantalho', 'nature/scarecrow', 1.2, False),
+    (r'lanterna|lampiao|lamparina', 'tools/lantern', 1.2, False), (r'escada', 'tools/ladder', 1.2, False), (r'carrinho de mao', 'tools/wheelbarrow', 1.2, False), (r'ferreiro|bigorna', 'tools/anvil', 1.3, False),
+    (r'tulipa|bulbo|\bflor\b|flores', 'kit/tulip_red', 1.3, False), (r'\bcova\b|tumulo|enterr|caixao|cemiterio', 'kit/grave', 1.0, False), (r'batata|horta|legume', 'nature/flowerbed', 1.2, False),
+    (r'\bbolo|\bdoce|confeit|padaria|pastel', 'kit/cake_table', 1.0, False), (r'\btrono\b|coroad', 'kit/throne', 1.0, 'in'), (r'fogueira|acampamento|acamparam', 'kit/campfire', 1.2, False),
+    (r'\btenda|barraca de campanha|acampamento', 'kit/tent', 1.3, True), (r'\bbau\b|tesouro|\bcofre', 'kit/chest', 1.2, False), (r'\bfeira\b|mercado|barraca|vendedor', 'kit/stall', 1.0, False),
+    (r'\btrem\b|locomotiva|ferrovia', 'vehicles/locomotive', 1.3, True), (r'carroca', 'vehicles/wagon', 1.2, True), (r'tanque de guerra|blindado', 'vehicles/tank', 1.2, True),
+    (r'torre|muralha|castelo|fortaleza|palacio', 'buildings/castle_tower', 1.3, True), (r'moinho', 'buildings/windmill', 1.2, True), (r'igreja|catedral', 'buildings/church', 1.2, True), (r'\bfarol\b', 'buildings/lighthouse', 1.2, True), (r'\bponte\b', 'buildings/bridge', 1.2, True),
+]
+FALTA_MODELAR = r'\b(pao|paes|queijo|peixe|peixes|vaca|vacas|cachorro|cachorros|gato|gatos|ovelha|ovelhas|piano|relogio|estatua|guilhotina|balanca|telefone|radio|bicicleta)\b'
+def _heroi():   # OBJETO HEROI do video: "heroi" no topo do roteiro, ou o objeto do titulo, ou o objeto mais citado na narracao
+    if 'heroi' in B: return B['heroi'] or None
+    nz = lambda t: re.sub(r'[^a-z0-9 ]', '', unicodedata.normalize('NFKD', t.lower()).encode('ascii', 'ignore').decode())
+    tt = nz(str(B.get('title', ''))); allt = ' '.join(nz(b['say']) for b in B['beats'])
+    for rx_, as_, sc_, big_ in OBJ_DICT:
+        if big_ is False and re.search(rx_, tt): return as_
+    best = max(((len(re.findall(rx_, allt)), as_) for rx_, as_, sc_, big_ in OBJ_DICT if big_ is False), default=(0, None))
+    return best[1] if best[0] >= 2 else None
 KW = [  # (regex da palavra, efeito, golpe de camera) -- animacao nas palavras-chave da narracao
     (re.compile(r'^(tiro|tiros|disparou|dispararam|disparo|disparos|atirava|atiravam|atirou|atiraram|atirar|explodiu|explodiram|explosao|canhoes|canhao|fogo|bomba|bombas|metralhadora|metralhadoras|balas|bala|artilharia)$'), 'burst', 0.09),
-    (re.compile(r'^(gritou|gritaram|socorro|ataque|atacar|atacaram|alarme)$'), 'ring', 0.06),
+    (re.compile(r'^(gritou|gritaram|gritava|gritavam|berrou|berrava|socorro|ataque|atacar|atacaram|alarme)$'), 'ring', 0.06),
     (re.compile(r'^(panico|correu|correram|fugiu|fugiram|correria|debandada|fuga|retirada|recuou|recuaram|bateu|marchando|marchava|marcharam|perder)$'), 'dust', 0.07),
-    (re.compile(r'^(festa|beberam|brindou|brindaram|comemoraram|venceu|venceram|ganhou|ganharam|vitoria|compraram|comprou|comprando|vendendo|vendeu|venderam|vender|dancar|dancou|dancando|danca|dancarinos|musica|musicos|rindo|riso|roubaram|roubou)$'), 'stars', 0.0),
+    (re.compile(r'^(festa|beberam|brindou|brindaram|comemoraram|venceu|venceram|ganhou|ganharam|vitoria|compraram|comprou|comprando|comprador|compradores|vendendo|vendeu|venderam|vender|dancar|dancou|dancando|danca|dancarinos|musica|musicos|rindo|riso|roubaram|roubou)$'), 'stars', 0.0),
     (re.compile(r'^(empurra|empurrouse|briga|brigar|brigaram|discussao|confusao|caos|desastre)$'), 'puff', 0.05),
     (re.compile(r'^(chegou|chegaram|apareceu|surgiu|invadiu|desabou|caiu|cairam|quebrou|quebraram|derrubou|afundou|tombou)$'), 'dust', 0.04),
     (re.compile(r'^(riu|riram|risada|gargalhou|gargalhada|gargalhadas|dinheiro|ouro|moedas|recompensa|pagou|pagar|pagaram|fortuna|premio|sino|tocou|tocar)$'), 'stars', 0.0),
@@ -121,7 +144,8 @@ def direct(beats):
         elif run >= 4 and not CLOSE_OK.search(say): shot = 'orbit' if wide_n % 2 else 'wide'
         if shot in WIDE and not b.get('impact') and (wrun >= 2 or (wrun >= 1 and k == len(beats) - 2)) and not (first or last):   # nunca mais de 2 planos abertos seguidos: alterna com plano medio + multidao ao fundo
             shot = 'group' if mass else 'two'
-        if b.get('batalha') or (not (first or last) and any(IMPACT.match(w_) for w_ in words) and impact_n < int(B.get('max_impact', 2)) and b.get('impact') is not False):
+        _tropa = mass or any(B.get('outfits', {}).get(w_.split(':')[0], {}).get('rifle') for w_ in b.get('who', []))   # batalha automatica so' com tropa em cena (um civil que da' um tiro nao vira multidao de clones)
+        if b.get('batalha') or (not (first or last) and _tropa and any(IMPACT.match(w_) for w_ in words) and impact_n < int(B.get('max_impact', 2)) and b.get('impact') is not False):
             impact_n += 1; b['impact'] = True; shot = ('crowd' if impact_n % 2 else 'orbit') if (b.get('batalha') or wrun < 1) else 'group'   # batalha marcada SEMPRE abre; impacto logo depois de outro aberto fica em plano medio com a tropa atras
             if wrun >= 1 and k > 0 and not beats[k - 1].get('impact') and not beats[k - 1].get('shot_lock') and k - 1 > 0: beats[k - 1]['shot'] = 'group'; wide_n -= 1; wrun = 0   # o aberto anterior (sem batalha) cede a vez   # dois abertos seguidos nao: o segundo fica em plano medio com a tropa atras   # MOMENTO-CHAVE: plano aberto de alto impacto (fora da cota de planos abertos)
         elif shot in WIDE and not (first or last) and wide_n >= int(B.get('max_wide', 2)): shot = 'group'   # MODO RICKS: personagem grande na maior parte do video
@@ -144,12 +168,24 @@ def direct(beats):
 
 KICKS = []
 AMB = {}
+HEROI = _heroi()
 STATE = {'mapa': any(_b.get('mapa') for _b in B['beats'])}   # mapa pedido no roteiro: nao cria outro automatico
 KWSFX = []
 direct(beats)
 if B.get('director') is not False and not any(b.get('impact') for b in beats) and len(beats) > 4:
     _b = beats[int(len(beats) * 0.6)]
     if not _b.get('shot_lock'): _b['impact'] = True; _b['shot'] = 'orbit'; _b.setdefault('crowd', {'n': 12, 'outfits': [w.split(':')[0] for w in _b.get('who', [])] or list(B.get('outfits', {'X': 0}))[:1], 'march': False})
+# DOIS GRANDES MOMENTOS (ordem do Gibson): todo video tem 2 pontos de impacto encenados em plano aberto com multidao, efeito e som. Se o roteiro so' rendeu 1, a virada ("Acontece que") ou a cena a 1/3 do video vira o segundo.
+if B.get('director') is not False and len(beats) > 6 and sum(1 for b in beats if b.get('impact')) < int(B.get('min_momentos', 2)):
+    _im = [i for i, b in enumerate(beats) if b.get('impact')]
+    _cand = [i for i, b in enumerate(beats) if 0 < i < len(beats) - 1 and not b.get('impact') and not b.get('shot_lock') and not b.get('interior') and not b.get('veiculo') and all(abs(i - j) > 1 for j in _im)]
+    _vir = [i for i in _cand if re.match(r'acontece que|na verdade|so que|o problema', re.sub(r'[^a-z ]', '', unicodedata.normalize('NFKD', beats[i]['say'].lower()).encode('ascii', 'ignore').decode()))]
+    _pick = (_vir or sorted(_cand, key=lambda i: abs(i - (len(beats) * (0.3 if (_im and _im[0] > len(beats) / 2) else 0.7)))) or [None])[0]
+    if _pick is not None:
+        _b = beats[_pick]; _b['impact'] = True; _b['_momento_auto'] = True; _b['shot'] = 'crowd'; _b.setdefault('crowd', {'n': 12, 'outfits': [w.split(':')[0] for w in _b.get('who', [])] or list(B.get('outfits', {'X': 0}))[:1], 'march': False, 'expr': 'shock'})
+        _b.setdefault('fx', []); _b.setdefault('sfx', [])
+        if not _b['fx']: _b['fx'] = ['ring@12', 'dust@40']
+        if not _b['sfx']: _b['sfx'] = ['sting@10', 'thump@40']
 # RITMO DE FILMAGEM DO CANAL (pela funcao de cada cena na historia): gancho em plano medio na acao -> cena 2 ABRE para situar o lugar ->
 # falas em plano mais fechado no personagem -> virada ("Acontece que") abre ou baixa a camera -> final fecha no rosto.
 if B.get('director') is not False and B.get('ritmo') is not False and len(beats) >= 6:
@@ -214,11 +250,15 @@ def build_beat(k, b):
     mv = b.get('move', 8 if shot == 'track' else 0)
     a, bb = f'A[{k}]', f'A[{k + 1}] - 1'
     # elenco de pessoas
-    HOLDS = (('mug', r'beber|bebeu|bebia|brind|caneca|cerveja|cha\b'), ('bottle', r'garrafa|aguardente|vinho|bebida|rum|whisky|uisque'), ('paper', r'carta|jornal|imprensa|ordem|documento|mapa|contrato|telegrama|relatorio|lista|assinou|lei\b'), ('book', r'livro|biblia|diario'), ('lantern', r'lanterna|lampiao|lamparina'), ('torch', r'tocha|incendi'), ('flag', r'bandeira|rendeu|rendicao'), ('coin', r'dinheiro|moeda|ouro|recompensa|pagou|pagar|fortuna|salario|imposto'), ('bag', r'saco|mala|bagagem|sacola'), ('spyglass', r'luneta|avistou|avistaram|procurar|vigia|observ'))
+    HOLDS = (('mug', r'beber|bebeu|bebia|brind|caneca|cerveja|cha\b'), ('bottle', r'garrafa|aguardente|vinho|bebida|rum|whisky|uisque'), ('paper', r'carta|jornal|imprensa|ordem|documento|mapa|contrato|telegrama|relatorio|lista|assinou|lei\b'), ('book', r'livro|biblia|diario'), ('lantern', r'lanterna|lampiao|lamparina'), ('torch', r'tocha|incendi'), ('flag', r'bandeira|rendeu|rendicao'), ('coin', r'dinheiro|moeda|ouro|recompensa|pagou|pagar|fortuna|salario|imposto'), ('bag', r'saco|mala|bagagem|sacola'), ('spyglass', r'luneta|avistou|avistaram|procurar|vigia|observ'), ('tulip', r'tulipa|bulbo|flor\b|flores'))
     _say_sp = re.sub(r'[^a-z0-9 ]', '', unicodedata.normalize('NFKD', b['say'].lower()).encode('ascii', 'ignore').decode())
     auto_hold = next((h for h, rx in HOLDS if re.search(rx, _say_sp)), None) if b.get('maos') is not False else None
-    _acao = b.get('acao') or ('dancar' if re.search(r'\bdanc', _say_sp) else None)
-    _px = ", pose: 'dance', acting: false" if _acao == 'dancar' else ''
+    _acao = b.get('acao') or ('dancar' if re.search(r'\bdanc', _say_sp) else 'discutir' if (re.search(r'discut|brig|exigi|respondeu|gritou|ameac|insult', _say_sp) and len(b.get('who', [])) >= 2) else None)
+    if not _acao: _acao = 'comemorar' if not IMPACT.search(_say_sp) and re.search(r'\bfesta|comemor|venceu|venceram|vitoria|\bbrind|gargalh|\briu\b|\briram\b|\brindo\b', _say_sp) else 'conversar' if '"' in b['say'] else None
+    if _acao == 'nenhuma': _acao = None
+    b['_acao'] = _acao
+    _px = {'dancar': ", pose: 'dance', acting: false", 'discutir': ", pose: 'argue'", 'comemorar': ", pose: 'cheer'", 'conversar': ", pose: 'talk'"}.get(_acao, '')   # "acao": "discutir" -> os personagens gesticulam um para o outro
+    _chega = b.get('chega') if 'chega' in b else bool(re.search(r'chegou|chegaram|entrou|entraram|apareceu|apareceram|veio|vieram|correu para|correram para', _say_sp))
     persons = []
     for w in who:
         p = w.split(':'); out = p[0]; v = int(p[1]) if len(p) > 1 and p[1] != '' else 0; ex = (p[2] if len(p) > 2 else '') or 'neutral'; hold = p[3] if len(p) > 3 else None   # 4o campo: objeto na mao
@@ -233,7 +273,13 @@ def build_beat(k, b):
             d = mv if mv else 8
             acts.append(f"{{ outfit: {json.dumps(out)}, v: {v}, at: [X + {num(dx - d / 2)}, {num(z)}], move: [[X + {num(dx + d / 2)}, {num(z)}], {a}, {bb}, 'lin'], pose: {json.dumps('march' if B.get('outfits', {}).get(out, {}).get('rifle') else 'stroll')}, expr: {json.dumps(ex)}{ov} }}")   # soldado marcha; civil caminha solto
         else:
-            acts.append(f"pp(X, {json.dumps(out)}, {v}, {num(dx)}, {num(z)}, {json.dumps(ex)}" + (f", {{ over: {{ hold: {json.dumps(hold)} }}{_px} }})" if hold else (f", {{ {_px[2:]} }})" if _px else ')')))
+            _pp = _px if _px else (", pose: 'react'" if ex in ('shock', 'nervous') else '' if (hold or shot in WIDE or b.get('acao') == 'nenhuma') else ", pose: 'talk'")   # ninguem fica so piscando: sem acao marcada, gesticula de leve
+            if _pp and not _px: b['_acao'] = b.get('_acao') or ('reagir' if 'react' in _pp else 'conversar')
+            if _chega and i == len(persons) - 1 and len(persons) >= 2 and shot not in WIDE:   # CHEGADA: entra andando pela lateral e para no lugar
+                sd_ = 1 if dx >= 0 else -1; b['_chega'] = True
+                acts.append(f"{{ outfit: {json.dumps(out)}, v: {v}, at: [X + {num(dx + sd_ * 2.2)}, {num(z)}], move: [[X + {num(dx)}, {num(z)}], {a}, Math.round({a} + Math.min(48, ({bb} - ({a})) * 0.3)), 'lin'], arrive: true, walk: {json.dumps('march' if B.get('outfits', {}).get(out, {}).get('rifle') else 'stroll')}, look: {num(-0.4 if dx > 0 else 0.4)}, expr: {json.dumps(ex)}{ov} }}")
+            else:
+                acts.append(f"pp(X, {json.dumps(out)}, {v}, {num(dx)}, {num(z)}, {json.dumps(ex)}" + (f", {{ over: {{ hold: {json.dumps(hold)} }}{_pp} }})" if hold else (f", {{ {_pp[2:]} }})" if _pp else ')')))
     # animais
     for j, an in enumerate(animals):
         sp = an[0]; dxa = an[1] if len(an) > 1 else 2.2 + j * 1.8; za = an[2] if len(an) > 2 else 0.6; st = an[3] if len(an) > 3 else 'stand'
@@ -310,11 +356,27 @@ def build_beat(k, b):
     elif not wide_pre and b.get('fachada') is not False and not b.get('veiculo'):
         fb = {'countryside': ['buildings/house_small', 'buildings/barn'], 'outback': ['buildings/barn', 'buildings/windmill'], 'street': ['buildings/shop', 'buildings/house_two'], 'medieval': ['buildings/castle_tower', 'buildings/house_small'], 'harbor': ['buildings/shop', 'buildings/lighthouse']}.get(b.get('set', SET))
         if fb: pr.append(f"{{ asset: {json.dumps(fb[k % 2])}, at: [X + {num(4.5 if k % 2 else -4.5)}, -9.5], s: 1.25, ry: {num(-0.35 if k % 2 else 0.35)}, drop: false }}")
+    # OBJETOS DA HISTORIA: o que a narracao cita e existe na biblioteca entra em cena sozinho (ate 2 por cena)
+    if b.get('objetos') is not False and not b.get('veiculo'):
+        tem_ = {str(p_[0]) for p_ in props}; n_auto = 0
+        _fam = lambda x_: re.sub(r'_(red|yellow|purple|striped)$', '', str(x_))
+        if HEROI and (k == 0 or k == len(beats) - 1) and not wide_pre and not any(_fam(t_) == _fam(HEROI) for t_ in tem_):   # o objeto heroi abre e fecha o video
+            props = props + ([[HEROI, 0.0, 2.0, 1.15]] if len(b.get('who', [])) == 2 else [[HEROI, (1.7 if k % 2 else -1.7), -0.5, 1.3]])   # entre os dois, a frente (a placa do ano fica atras); tem_.add(HEROI); b.setdefault('_auto_obj', []).append(HEROI)
+        for rx_, as_, sc_, big_ in OBJ_DICT:
+            if n_auto >= 2 or as_ in tem_ or any(_fam(t_) == _fam(as_) for t_ in tem_) or not re.search(rx_, _say_sp): continue
+            if (big_ is True and (b.get('interior') or wide_pre)) or (big_ == 'in' and not b.get('interior')): continue
+            if as_ == 'kit/throne': props = props + [[as_, 0, -2.6, sc_]]; tem_.add(as_); n_auto += 1; b.setdefault('_auto_obj', []).append(as_); continue
+            if big_ is True: props = props + [[as_, (6.0 if k % 2 else -6.0), -9.5, sc_]]; b['fachada'] = False
+            elif as_.startswith('kit/') and as_ != 'kit/grave' and 'tulip' not in as_: props = props + [[as_, (0.25 if shot == 'close' else 0.0) + (1.7 if (k + n_auto) % 2 else -1.7) * (0.0 if len(b.get('who', [])) == 2 else 1.0), -2.3, sc_]]   # movel/objeto grande da historia: atras dos personagens, dentro do quadro
+            else: props = props + [[as_, (3.1 if (k + n_auto) % 2 else -3.1), 0.2 + 0.3 * n_auto, sc_]]
+            tem_.add(as_); n_auto += 1; b.setdefault('_auto_obj', []).append(as_)
+    if re.search(r'navio|frota|marinha|esquadra|encouracado', _say_sp) and wide_pre and not b.get('interior') and b.get('set', SET) in ('palace', 'harbor') and b.get('objetos') is not False:
+        props = props + [['ship', -13, -34, 0.8], ['ship', 12, -40, 0.7]]; b.setdefault('_auto_obj', []).append('navios ao fundo')
     for p in props:
         asset, dx, z, s = p[0], p[1] if len(p) > 1 else 0, p[2] if len(p) > 2 else 0.5, p[3] if len(p) > 3 else 1.0
         ex = p[4] if len(p) > 4 and isinstance(p[4], dict) else {}
         if asset.startswith(('kit/', 'buildings/')) and 'drop' not in ex: ex = {**ex, 'drop': False}   # peca de cenario nao cai do ceu
-        extra = ''.join(f', {kk}: {json.dumps(vv)}' for kk, vv in ex.items())
+        extra = ''.join(f', {kk}: {json.dumps(vv)}' for kk, vv in ex.items() if kk != 'alto')
         pr.append(f"{{ asset: {json.dumps(asset)}, at: [X + {num(dx)}, {num(z)}], s: {num(s)}{extra} }}")
     # textos / efeitos
     fx = []
@@ -371,6 +433,32 @@ def build_beat(k, b):
         v = b.get(kk, T.get(kk))
         if v is not None: opts.append(f'{kk}: {num(v)}')
     if wx: opts.append('wx: ' + json.dumps(wx))
+    # INTERACAO FISICA: em cena media com 2+ pessoas, os dois principais agem um SOBRE o outro (nao so' falam para a camera). Escolhida pelo texto; sem pista no texto, roda uma lista sem repetir (comeca num ponto diferente em cada video).
+    if not wide and len(persons) >= 2 and b.get('interacao') is not False and not b.get('veiculo') and not (shot == 'track' or mv) and len(acts) >= 2:
+        if b.get('interacao'): pair = {'empurrar': ('shove', 'stagger'), 'discutir': ('lunge', 'lunge'), 'cochichar': ('lean', 'lean'), 'entregar': ('step', 'nod'), 'susto': ('lean', 'recoil'), 'reverencia': ('nod', 'bow'), 'pular': ('hop', 'hop')}.get(b['interacao'], ('lean', 'nod')); nome = b['interacao']
+        elif re.search(r'empurr|\bsoco|socou|\bbateu|agred|chutou|derrubou|expuls|arranc|tomou d', _say_sp): pair, nome = ('shove', 'stagger'), 'empurrar'
+        elif _acao == 'discutir': pair, nome = ('lunge', 'lunge'), 'discutir'
+        elif re.search(r'cochich|segredo|\bplano\b|combin|\btrato|acordo|negoci|sussurr', _say_sp): pair, nome = ('lean', 'lean'), 'cochichar'
+        elif re.search(r'entreg|pagou|pagar|\bdeu\b|vendeu|comprou|ofereceu|cobrou|\bconta\b|presente|emprest|trocou', _say_sp): pair, nome = ('step', 'nod'), 'entregar'
+        elif re.search(r'curvou|reverenc|obedec|ordenou|majestade|ajoelh', _say_sp): pair, nome = ('nod', 'bow'), 'reverencia'
+        elif _acao == 'comemorar': pair, nome = ('hop', 'hop'), 'pular'
+        elif persons[1][2] in ('shock', 'nervous', 'pained'): pair, nome = ('lean', 'recoil'), 'susto'
+        else:
+            POOL = [(('lean', 'nod'), 'aproxima-se'), (('step', 'recoil'), 'avanca e o outro recua'), (('nod', 'lean'), 'o outro se aproxima'), (('lunge', 'nod'), 'insiste'), (('step', 'nod'), 'vai ate o outro')]
+            pair, nome = POOL[(sum(ord(c) for c in ID) + STATE.get('inter_n', 0)) % len(POOL)]; STATE['inter_n'] = STATE.get('inter_n', 0) + 1
+        _ALLI = [(('lean', 'nod'), 'aproxima-se'), (('step', 'recoil'), 'avanca e o outro recua'), (('lunge', 'lunge'), 'discutir'), (('nod', 'lean'), 'o outro se aproxima'), (('shove', 'stagger'), 'empurrar'), (('step', 'nod'), 'vai ate o outro'), (('lean', 'lean'), 'cochichar'), (('lean', 'recoil'), 'susto'), (('lunge', 'nod'), 'insiste'), (('nod', 'bow'), 'reverencia')]
+        _used = STATE.setdefault('inter_used', [])
+        if nome in _used and not b.get('interacao'):   # cada video usa interacoes DIFERENTES de cena para cena
+            _h = sum(ord(c) for c in ID); _alt = [_ALLI[(_h + j) % len(_ALLI)] for j in range(len(_ALLI))]
+            _alt = [x for x in _alt if x[1] not in _used and (x[1] not in ('empurrar', 'reverencia') or _acao == 'discutir')] or [x for x in _alt if x[1] not in _used]
+            if _alt: pair, nome = _alt[0]
+        _used.append(nome)
+        for i_ in (0, 1):
+            if not acts[i_].startswith('pp(') or (b.get('_chega') and i_ == len(persons) - 1): continue
+            dir_ = 1 if sl[1 - i_] > sl[i_] else -1
+            it_ = f"inter: {{ k: '{pair[i_]}', a: Math.round({a} + ({bb} - ({a})) * {0.12 if i_ == 0 else 0.2}), b: Math.round({a} + ({bb} - ({a})) * {0.82 if i_ == 0 else 0.9}), dir: {dir_}, n: 2, ph: {0 if i_ == 0 else 3.14} }}"
+            acts[i_] = (acts[i_][:-3].rstrip() + ', ' + it_ + ' })') if acts[i_].endswith('})') else (acts[i_][:-1] + ', { ' + it_ + ' })')
+        b['_inter'] = nome
     if wide: opts.append("hero: { hero: 'none', wide: true }"); opts.append('vary: false'); opts.append('nocut: true')   # plano aberto = UMA tomada continua (camera abrindo/girando), sem sub-corte
     elif b.get('veiculo'): opts.append("hero: { hero: 'none' }")   # motorista fica atras do carro de proposito
     elif persons: opts.append("hero: { hero: 'any', frame: 'medium', minH: 0.07, main: %d }" % len(persons))
@@ -421,14 +509,19 @@ def build_beat(k, b):
                f"{{ f: {bb}, at: [X + {num(x1v)}, DK + 1.9, {num(zv)}], d: {num(dd * 0.9)}, az: {-10 if x1v >= x0v else 10}, el: 8, fov: 40, ease: 'lin' }}]")
         call = f"{{ ...{call}, {cam}, nocut: true }}"
     # DETALHE DE OBJETO (canal: 5-15% do video e' close no objeto da historia): no meio da cena a camera desliza ate o objeto ou a placa e volta
-    _obj = next((p_ for p_ in b.get('props', []) if not str(p_[0]).startswith(('kit/', 'buildings/', 'vehicles/'))), None)
+    _cands = [p_ for p_ in props if not str(p_[0]).startswith(('kit/room', 'kit/porch', 'kit/grave', 'kit/cross', 'kit/tulip_bed', 'buildings/', 'vehicles/', 'ship'))]
+    _fam2 = lambda x_: re.sub(r'_(red|yellow|purple|striped)$', '', str(x_))
+    _obj = next((p_ for p_ in _cands if HEROI and _fam2(p_[0]) == _fam2(HEROI)), None); _eh = _obj is not None
+    _obj = _obj or next(iter(_cands), None)
     _placa = bool(b.get('text')) and "board:" in call
-    if (b.get('detalhe') is not False and not wide and not b.get('impact') and not b.get('veiculo') and not (shot == 'track' or mv) and k > 0 and k < len(beats) - 1
-            and (_obj or _placa) and len(b['say'].split()) >= 11 and STATE.get('detalhes', 0) < int(B.get('max_detalhes', 3))):
+    if (b.get('detalhe') is not False and not wide and not b.get('impact') and not b.get('veiculo') and not (shot == 'track' or mv) and (k > 0 or _eh) and k < len(beats) - 1
+            and (_obj or _placa) and len(b['say'].split()) >= (8 if _eh else 11) and (STATE.get('detalhes', 0) < int(B.get('max_detalhes', 3)) or (_eh and not STATE.get('det_heroi')))):
+        if _eh: STATE['det_heroi'] = STATE.get('det_heroi', 0) + 1; b['_det_heroi'] = True
         Fq = lambda q: f"Math.round({a} + ({bb} + 1 - ({a})) * {q})"
         if _obj:
             ox, oz, os_ = (float(_obj[1]) if len(_obj) > 1 else 0.0), (float(_obj[2]) if len(_obj) > 2 else 0.5), (float(_obj[3]) if len(_obj) > 3 else 1.0)
-            k0 = (ox, 0.75 * os_, oz, 4.2, 14 if ox < 0 else -14, 10, 44); k1 = (ox, 0.75 * os_, oz, 3.4, 8 if ox < 0 else -8, 9, 44)
+            oy_ = float(_obj[4].get('alto', 0.75)) if len(_obj) > 4 and isinstance(_obj[4], dict) else (1.62 if 'tulip' in str(_obj[0]) else 1.2 if str(_obj[0]) in ('kit/cake_table', 'kit/throne') else 0.75)   # altura do centro do objeto ("alto" no 5o campo do prop)
+            k0 = (ox, oy_ * os_, oz, (5.6 if oy_ > 1.5 else 5.0) if oy_ > 1 else 4.2, 14 if ox < 0 else -14, 6 if oy_ > 1 else 10, 44); k1 = (ox, oy_ * os_, oz, (4.7 if oy_ > 1.5 else 4.2) if oy_ > 1 else 3.4, 8 if ox < 0 else -8, 5 if oy_ > 1 else 9, 44)
         else: k0 = (0.0, 3.25, -1.3, 6.4, 6, -3, 44); k1 = (0.0, 3.25, -1.3, 5.4, -4, -3, 44)
         Kc = lambda f_, q: f"{{ f: {f_}, at: [X + {num(q[0])}, DK + {num(q[1])}, {num(q[2])}], d: {num(q[3])}, az: {num(q[4])}, el: {num(q[5])}, fov: {num(q[6])} }}"
         base = call; pid = f"S('b{k}', {a}, {bb}, X,"
@@ -451,7 +544,7 @@ const X = {SETX}, DK = 6;{''.join(f' const X_{n} = {SETS_X[n]};' for n in USED_S
 const WS = (i, off = 0) => TIMING.words[Math.min(i, TIMING.words.length - 1)][0] + off;   // frame em que a palavra de indice i comeca
 const A = [{A_js}];
 const SPEC = {{
-  id: {json.dumps(ID)}, {('exp: '+str(B['exp'])+', ') if 'exp' in B else ''}{('cinf: '+str(B['cinf'])+', ') if 'cinf' in B else ''}cutLen: 54, dissolveN: 7, glideN: 20, creep: 0.003, total: TOTAL_F(), sets: {json.dumps(USED_SETS)}, setx: {{ {SET}: X{''.join(f', {n}: X_{n}' for n in USED_SETS[1:])} }},
+  id: {json.dumps(ID)}, {('exp: '+str(B['exp'])+', ') if 'exp' in B else ''}{('cinf: '+str(B['cinf'])+', ') if 'cinf' in B else ''}vseed: {sum(ord(c) for c in ID) % 6}, cutLen: 54, dissolveN: 7, glideN: 20, creep: 0.003, total: TOTAL_F(), sets: {json.dumps(USED_SETS)}, setx: {{ {SET}: X{''.join(f', {n}: X_{n}' for n in USED_SETS[1:])} }},
   outfits: {{ {(','+chr(10)+'    ').join(outfits_js)} }},
   assets: {json.dumps(assets)},
   kicks: [{', '.join(KICKS)}], flashes: [],
@@ -489,6 +582,25 @@ for k, b in enumerate(beats):
         name, _, at = e2.partition('@'); at = int(at) if at else 4
         c2.append(f"{name}(F({a} + {at}))" if name not in ('steps', 'sea', 'gulls', 'birds') else f"{name}(F({a} + {at}), F({e}))")
 for wi, nm in KWSFX: c2.append(f"{nm}(F(int(_W({wi}))))")
+# ---------- PRE-PRODUCAO: o que o roteiro pede ANTES de animar (cenario, personagens, objetos, plano e acao de cada cena; o que falta modelar) ----------
+_lib = lambda as_: as_ in ('barrel', 'crate', 'cannon') or as_.startswith('mk/') or os.path.exists(f'web/assets/library/{as_}.glb')
+_pre = ['# Pre-producao - ' + str(B.get('title', ID)), '', 'Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blender (blender/make_*.py) ou trocado no roteiro.', '',
+        'Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta', '---|---|---|---|---|---|---|---']
+_falt_all = set()
+for k, b in enumerate(beats):
+    sp_ = re.sub(r'[^a-z0-9 ]', '', unicodedata.normalize('NFKD', b['say'].lower()).encode('ascii', 'ignore').decode())
+    objs = [str(p_[0]) for p_ in b.get('props', [])] + b.get('_auto_obj', []) + [a_[0] for a_ in b.get('animals', [])] + (['emus'] if b.get('emus') else []) + ([b['veiculo'].get('asset', 'carro')] if b.get('veiculo') else [])
+    falta = sorted(set(re.findall(FALTA_MODELAR, sp_)) | {o_ for o_ in objs if '/' in o_ and not _lib(o_)}); _falt_all |= set(falta)
+    maos = [w.split(':')[3] for w in b.get('who', []) if len(w.split(':')) > 3]
+    acao = ', '.join(x for x in ((b.get('_acao') or ''), ('INTERAGEM: ' + b['_inter'] if b.get('_inter') else ''), ('alguem chega andando' if b.get('_chega') else ''), ('andando' if b.get('shot') == 'track' or b.get('move') else ''), ('batalha' if b.get('impact') else '')) if x) or ('usa o objeto da mao' if maos else 'parados (so fala e pisca)')
+    npers = len(b.get('who', [])) + int((b.get('crowd') or {}).get('n', 0))
+    _pre.append(f"b{k} | {'interior ' + str(b['interior']) if b.get('interior') else b.get('set', SET)} | {b.get('shot')} | {npers} | {acao} | {', '.join(dict.fromkeys(objs)) or '-'} | {', '.join(maos) or '-'} | {', '.join(falta) or '-'}")
+_par = sum(1 for l_ in _pre if 'parados (so fala e pisca)' in l_)
+_nm = sum(1 for b in beats if b.get('impact')); _nh = sum(1 for b in beats if HEROI and (HEROI in [str(p_[0]) for p_ in b.get('props', [])] + b.get('_auto_obj', []) or any(re.sub(r'_(red|yellow|purple|striped)$', '', str(p_[0])) == re.sub(r'_(red|yellow|purple|striped)$', '', HEROI) for p_ in b.get('props', [])))); _nd = sum(1 for b in beats if b.get('_det_heroi'))
+_pre += ['', f'OBJETO HEROI: {HEROI or "nenhum achado (ponha \"heroi\": \"kit/...\" no topo do roteiro)"}' + (f' - aparece em {_nh} cena(s), close nele em {_nd}' + ('  << AVISO: sem close no objeto heroi' if not _nd else '') if HEROI else ''), f'GRANDES MOMENTOS (plano aberto com multidao, efeito e som): {_nm}' + ('  << AVISO: menos de 2' if _nm < 2 else '') + ' -> ' + ', '.join(f'b{i}' for i, b in enumerate(beats) if b.get('impact')), 'Interacoes entre personagens: ' + (', '.join(f"b{i} {b['_inter']}" for i, b in enumerate(beats) if b.get('_inter')) or 'nenhuma')]
+_pre += ['', f'Cenas com personagens parados: {_par} de {len(beats)}' + (' -> ponha "acao": "conversar|discutir|comemorar|dancar", um objeto na mao ou alguem chegando' if _par > len(beats) // 3 else ''), 'FALTA MODELAR: ' + (', '.join(sorted(_falt_all)) if _falt_all else 'nada')]
+open(f'stories/{ID}/preproducao.md', 'w', encoding='utf-8').write('\n'.join(_pre) + '\n')
+print(f"pre-producao: {_par} cena(s) com personagens parados de {len(beats)}; falta modelar: {', '.join(sorted(_falt_all)) or 'nada'} (stories/{ID}/preproducao.md)")
 # ---------- PLANO DE ACAO: le o roteiro, separa os pontos-chave e confere se cada um tem acao + som ----------
 _SOM = {'burst': 'tiro/explosao', 'ring': 'alerta', 'dust': 'impacto', 'puff': 'baque', 'stars': 'sino'}
 _ACAO = re.compile(r'^(?!atirador|vendedor|chegar$)(atir|tiro|dispar|explod|canh|bomb|grit|berr|corr|fug|caiu|cairam|caindo|quebr|bateu|bateram|brig|lutou|lutaram|lutando|atac|invad|morre|matou|mataram|beb|brind|riu|riram|rindo|gargalh|chor|danc|cantou|cantaram|tocou|tocar|tocando|sino|pagou|pagar|compr|vend|roub|queim|incend|constru|cavou|cavar|enterr|naveg|afund|voou|voar|voando|nadou|nadar|marcha|cheg|descobr|perceb|assin|rende|vence|perde)')

@@ -8,7 +8,7 @@ const lk = (a, b, t) => ({ ...a, at: [0, 1, 2].map((i) => a.at[i] + (b.at[i] - a
 SPEC.shots.forEach((s, i, A) => { if (i === 0) { s.trIn = null; return; } const ty = s.trans ?? (s.cut === false ? 'cut' : (A[i - 1].light !== s.light ? (SPEC.trans ?? 'dissolve') : 'cut')); s.trIn = { type: ty, N: ty === 'dissolve' ? (SPEC.dissolveN ?? 10) : ty === 'push' ? 4 : 0 }; });
 if (SPEC.autocut !== false) SPEC.shots = SPEC.shots.flatMap((s) => { const len = s.b - s.a + 1, n = Math.max(1, Math.round(len / (SPEC.cutLen ?? 66))); if (n < 2 || !s.cam || s.cam.length < 2 || !s.cam[0].at || s.nocut) return [s];
   const out = [], k0 = s.cam[0], k1 = s.cam[s.cam.length - 1]; let a = s.a;
-  for (let j = 0; j < n; j++) { const b = j === n - 1 ? s.b : Math.round(s.a + (j + 1) * len / n) - 1, v = VARS[((s.a / 66 | 0) + j) % VARS.length]; const t0 = (a - s.a) / Math.max(1, len - 1), t1 = (b - s.a) / Math.max(1, len - 1);
+  for (let j = 0; j < n; j++) { const b = j === n - 1 ? s.b : Math.round(s.a + (j + 1) * len / n) - 1, v = VARS[((s.a / 66 | 0) + j + (SPEC.vseed || 0)) % VARS.length]; const t0 = (a - s.a) / Math.max(1, len - 1), t1 = (b - s.a) / Math.max(1, len - 1);
     const par = j % 2 ? -1 : 1; const mk = (t, f, s) => { const k0_ = lk(k0, k1, t); const azr = ((k0_.az ?? 0) + v.az * 0.9) * Math.PI / 180, amt = (s - 0.5) * 0.07 * k0_.d * par, dd = 1 + (s - 0.5) * 0.16 * (j % 2 ? 1 : -1);
       const k = { ...k0_, at: [k0_.at[0] + Math.cos(azr) * amt, k0_.at[1], k0_.at[2] - Math.sin(azr) * amt], d: k0_.d * dd }; return { ...k, f, az: k.az + v.az * 0.9, el: Math.max(-4, k.el + v.el), d: k.d * v.d, fov: k.fov + v.fov, roll: (k.roll || 0) + v.roll }; };
     out.push({ ...s, id: j === 0 ? s.id : s.id + '~' + j, a, b, cut: j === 0 ? s.cut : false, glide: j > 0, cam: [mk(t0, a, 0), mk(t1, b, 1)], trIn: j === 0 ? s.trIn : { type: 'glide', N: 0 } }); a = b + 1; }
@@ -92,7 +92,24 @@ export const OUT = Object.assign({
 const B = (T, o0, opts, pos, extra = {}) => { const o = { ...o0, ...(o0.build === undefined && !SPEC.noLanky ? { build: 'lanky' } : {}), ...(SPEC.keepSkin ? {} : { skin: '#f6f0e6' }) }; return B2(T, o, opts, pos, extra); };
 const B2 = (T, o, opts, pos, extra = {}) => ({ id: extra.id || o._id || 'person', key: (extra.sideWalk ? 'bs' : 'b') + JSON.stringify([o, opts]), draw: (p) => (extra.sideWalk ? T.bodySide(p, o, { blink: false, ...opts, mode: 'march', ...(opts.mode === 'stroll' ? { stride: 0.72, stomp: 0.8 } : {}) }) : T.bodyFront(p, o, { blink: false, ...opts })), x: pos[0], y: pos[1] ?? DECK, z: pos[2], ...extra });
 const qq = (x, n = 2) => Math.round(x * 10 ** n) / 10 ** n;
+/* INTERACAO FISICA entre personagens: avancar, recuar, inclinar-se, empurrar, cambalear, dar um passo, pular, reverencia (a.inter = { k, a, b, dir, n, ph }) */
+const interAt = (a, f) => { const I = a.inter; if (!I || f < I.a || f > I.b) return null; const t = (f - I.a) / Math.max(1, I.b - I.a), d = I.dir || 1, n = I.n || 2, bell = Math.sin(Math.PI * t), pu = Math.max(0, Math.sin(t * Math.PI * 2 * n + (I.ph || 0))) ** 0.7, sm = (x) => { x = Math.max(0, Math.min(1, x)); return x * x * (3 - 2 * x); };
+  switch (I.k) {
+    case 'lunge': return { dx: d * 0.5 * pu, tilt: d * 10 * pu, hop: 0 };
+    case 'recoil': return { dx: -d * 0.45 * pu, tilt: -d * 9 * pu, hop: 0.05 * pu };
+    case 'lean': return { dx: d * 0.4 * bell, tilt: d * 9 * bell, hop: 0 };
+    case 'step': { const k = sm(t / 0.3) * (1 - sm((t - 0.8) / 0.2)); return { dx: d * 0.6 * k, tilt: d * 4 * k, hop: 0.04 * Math.abs(Math.sin(t * 40)) * (t < 0.3 || t > 0.8 ? 1 : 0) }; }
+    case 'shove': { const k = Math.exp(-(((t - 0.45) / 0.09) ** 2)); return { dx: d * 0.6 * k, tilt: d * 14 * k, hop: 0 }; }
+    case 'stagger': { const k = sm((t - 0.45) / 0.12) * (1 - sm((t - 0.85) / 0.15)), w = t > 0.45 ? Math.sin((t - 0.45) * 30) * Math.exp(-(t - 0.45) * 5) : 0; return { dx: -d * 0.85 * k, tilt: -d * (13 * k + 8 * w), hop: 0.12 * Math.max(0, w) }; }
+    case 'hop': return { dx: 0, tilt: 0, hop: 0.3 * Math.abs(Math.sin(t * Math.PI * 2 * n)) };
+    case 'bow': return { dx: 0, tilt: d * 20 * bell, hop: 0 };
+    case 'nod': return { dx: d * 0.1 * bell, tilt: d * 3 * Math.sin(t * Math.PI * 6), hop: 0.03 * Math.abs(Math.sin(t * Math.PI * 6)) };
+  } return null; };
 const PO = (f, a, seed, exo = {}) => { const mode = a.pose || 'stand'; const base = { seed, blink: blinkAt(f, seed) > 0, expr: (typeof a.expr === 'function' ? a.expr(f) : a.expr) || 'neutral', look: a.look ?? 0.2, ...exo };
+  if (mode === 'talk') { const q = f * 0.22 + seed * 1.9, st = (Math.floor(f / 26) + seed) % 4; return { mode: 'stand', phase: 0, tilt: qq(3 * Math.sin(q), 0), headTilt: qq(-5 * Math.sin(q + 0.7), 0), ...base, ...exo, ...(st === 0 || st === 2 ? { gest: st ? 'shrug' : 'point', gk: 0.8, gt: qq(f / 30, 1) } : {}) }; }   /* CONVERSAR: gesticula de leve enquanto fala, alternando com pausa */
+  if (mode === 'cheer') { const q = f * 0.4 + seed * 1.3; return { mode: 'stand', phase: 0, tilt: qq(6 * Math.sin(q), 0), headTilt: qq(5 * Math.sin(q + 0.5), 0), ...base, ...exo, gest: (Math.floor(f / 14) + seed) % 3 ? 'up' : 'wave2', gk: 1, gt: qq(f / 30, 1) }; }   /* COMEMORAR: bracos para cima, pulando */
+  if (mode === 'react') { const k = (f + seed * 11) % 96; return { mode: 'stand', phase: 0, tilt: qq((k < 30 ? -6 : 2.5 * Math.sin(f * 0.06)), 0), headTilt: qq(4 * Math.sin(f * 0.05 + seed), 0), ...base, ...exo, ...(k < 34 ? { gest: 'scared', gk: 1, gt: qq(f / 30, 1) } : k > 60 && k < 80 ? { gest: 'think', gk: 0.9, gt: qq(f / 30, 1) } : {}) }; }   /* REAGIR: susto (maos no rosto, recua), depois pensa */
+  if (mode === 'argue') { const q = f * 0.3 + seed * 2.1, st = (Math.floor(f / 22) + seed) % 4; return { mode: 'stand', phase: 0, tilt: qq(5 * Math.sin(q) + (seed % 2 ? 3 : -3), 0), headTilt: qq(-6 * Math.sin(q + 0.8), 0), ...base, ...exo, gest: ['point', 'shrug', 'hips', 'point'][st], gk: 1, gt: qq(f / 30, 1) }; }   /* DISCUTIR: inclina para o outro, aponta, da de ombros, poe a mao na cintura */
   if (mode === 'dance') { const q = f * 0.36 + seed * 1.7; return { mode: 'stand', phase: 0, tilt: qq(9 * Math.sin(q), 0), headTilt: qq(-8 * Math.sin(q + 0.6), 0), ...base, ...exo, gest: (Math.floor(f / 16) + seed) % 2 ? 'up' : 'wave2', gk: 1, gt: qq(f / 30, 1) }; }   /* DANCAR: corpo balanca, bracos para cima alternando, pulinho */
   if (mode === 'stand' && exo.__acted) return { mode: 'stand', phase: 0, tilt: qq(2.4 * Math.sin((f + seed * 7) * 0.05), 1), headTilt: qq(3.2 * Math.sin((f + seed * 5) * 0.037 + 1), 1), lift: a.lift, ...base };
   if (mode === 'stand') { const cyc = 84, ph = (f + seed * 23) % cyc, g = a.gesture !== false && SPEC.gestures !== false && ph < 30 && (Math.floor((f + seed * 23) / cyc) + seed) % 3 !== 0; const ex = base.expr;
@@ -105,8 +122,8 @@ const PO = (f, a, seed, exo = {}) => { const mode = a.pose || 'stand'; const bas
   return { mode, phase: 0, ...base }; };
 export const actorsAt = (f, T) => {
   const S = SP(f), out = []; const tint = ['tense', 'dusk', 'grave'].includes(S.light) ? '#ffd9c0' : S.light === 'storm' ? '#c8d4e8' : S.light === 'night' ? '#e4e9fb' : '#ffffff';
-  (S.actors || []).forEach((a, i) => { if (a.a !== undefined && (f < a.a || f > a.b)) return; const seed = a.seed ?? (i * 7 + 3); const at = moveAt(a.at, a.move, f); const x = at[0], z = at[1]; const moving = a.move && f >= a.move[1] && f <= a.move[2];
-    const exc = ['laugh', 'grin', 'shock'].includes(typeof a.expr === 'function' ? a.expr(f) : a.expr) ? 0.07 : 0; const bob = a.pose === 'dance' ? Math.abs(Math.sin(f * 0.36 + seed * 1.7)) * 0.16 : (a.bobY || exc) ? Math.abs(Math.sin(f * (a.bobY ? 0.4 : 0.33) + seed)) * (a.bobY || exc) : 0;
+  (S.actors || []).forEach((a, i) => { if (a.a !== undefined && (f < a.a || f > a.b)) return; const seed = a.seed ?? (i * 7 + 3); const at = moveAt(a.at, a.move, f); let x = at[0]; const z = at[1]; const IN = interAt(a, f); if (IN) x += IN.dx; const moving = a.move && f >= a.move[1] && f <= a.move[2];
+    const exc = ['laugh', 'grin', 'shock'].includes(typeof a.expr === 'function' ? a.expr(f) : a.expr) ? 0.07 : 0; const bob = a.pose === 'cheer' ? Math.abs(Math.sin(f * 0.4 + seed * 1.3)) * 0.2 : a.pose === 'dance' ? Math.abs(Math.sin(f * 0.36 + seed * 1.7)) * 0.16 : (a.bobY || exc) ? Math.abs(Math.sin(f * (a.bobY ? 0.4 : 0.33) + seed)) * (a.bobY || exc) : 0;
     if (is3(a)) return;
     if (a.animal) { const st = typeof a.state === 'function' ? a.state(f) : (a.state || 'stand'); const o = { species: a.animal, state: st, phase: qq(((f * (a.spd || 0.03) + seed * 0.1) % 1), 2), blink: blinkAt(f, seed) > 0 ? 1 : 0, ear: qq(Math.sin(f / 30 * 5 + seed), 1), tail: qq(Math.sin(f / 30 * 8 + seed) * 0.5, 1), expr: a.expr || 'normal', fall: qq(a.fall ? a.fall(f) : 0, 2), t: qq(f / 30 + seed, 2), angel: !!a.angel };
       out.push({ id: a.id || a.animal, key: 'an' + JSON.stringify(o), draw: (p) => (a.animal === 'pig' ? T.pigSide(p, o) : T.animalSide(p, o)), x, y: DECK + (a.y || 0), z, s: (a.s || 1.2) * (SPEC.cs ?? 1.4), flip: !!a.flip, keepColor: a.animal === 'pig', tint, order: 3 }); return; }
@@ -120,8 +137,9 @@ export const actorsAt = (f, T) => {
     /* CAMINHADA NATURAL: quem atravessa a tela e' desenhado de perfil, com o ciclo de passos completo (pernas e bracos alternando) */
     const sideW = (moving && a.move && a.move[0] && a.sideWalk !== false && (opts.mode === 'march' || opts.mode === 'stroll') && Math.abs(a.move[0][0] - a.at[0]) > 1.2 * Math.abs(a.move[0][1] - a.at[1])) ? Math.sign(a.move[0][0] - a.at[0]) : 0;
     if (opts.gest && (opts.gk || 0) > 0.2 && o.rifle) o = { ...o, rifle: false };
+    if (IN) opts.tilt = qq((opts.tilt || 0) + IN.tilt, 0);
     if (o.hold) opts.hp = qq(Math.max(0, Math.sin(f * 0.075 + seed * 2)), 1);   /* usa o objeto de tempos em tempos */
-    out.push(B(T, o, opts, [x, DECK + (typeof a.y === 'function' ? a.y(f) : (a.y || 0)) + bob, z], { id: a.id || o._id, tint, s: (a.s || 1) * (SPEC.cs ?? 1.4) * (1 + 0.07 * (opts.lean || 0)), flip: sideW ? sideW < 0 : !!a.flip, ...(sideW ? { sideWalk: sideW } : {}), ...(a.crop ? { crop: a.crop, shadow: false, blob: false } : {}) })); });
+    out.push(B(T, o, opts, [x, DECK + (typeof a.y === 'function' ? a.y(f) : (a.y || 0)) + bob + (IN ? IN.hop : 0), z], { id: a.id || o._id, tint, s: (a.s || 1) * (SPEC.cs ?? 1.4) * (1 + 0.07 * (opts.lean || 0)), flip: sideW ? sideW < 0 : !!a.flip, ...(sideW ? { sideWalk: sideW } : {}), ...(a.crop ? { crop: a.crop, shadow: false, blob: false } : {}) })); });
   return out;
 };
 // ---------- 2D effects ----------

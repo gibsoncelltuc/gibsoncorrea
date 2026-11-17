@@ -5,14 +5,14 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | -  | animais, placa: 1859 | - | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | animais | - | -
-b3 | crowd | -  | batalha aberta com tiros, tropa | atirou (burst + som de tiro/explosao) | -
+b3 | close | -  | - | atirou (burst + som de tiro/explosao) | -
 b4 | two | -  | objeto na mao | - | -
 b5 | group | -  | tropa, placa: TROPAS | - | -
-b6 | orbit | -  | batalha aberta com tiros, tropa | canhões (burst + som de tiro/explosao) | -
+b6 | crowd | -  | batalha aberta com tiros, tropa | canhões (burst + som de tiro/explosao) | -
 b7 | two | -  | interior | atacar (ring + som de alerta) | -
-b8 | group | -  | tropa | tiro (burst + som de tiro/explosao) | -
+b8 | orbit | -  | batalha aberta com tiros, tropa | tiro (burst + som de tiro/explosao) | -
 b9 | two | -  | placa: 13 ANOS, objeto na mao | - | -
 b10 | close | -  | - | - | -
 
-Mistura de planos: close 18% | medio 65% | aberto 16% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 26% | medio 56% | aberto 16% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

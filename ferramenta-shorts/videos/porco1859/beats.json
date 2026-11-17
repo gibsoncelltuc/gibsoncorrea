@@ -115,7 +115,9 @@
     "gun@24",
     "squeal@30"
    ],
-   "say": "Ele pegou a espingarda, e atirou. O porco era de um vizinho inglês."
+   "say": "Ele pegou a espingarda, e atirou. O porco era de um vizinho inglês.",
+   "impact": false,
+   "shot_lock": true
   },
   {
    "shot": "two",
@@ -202,5 +204,6 @@
    ],
    "say": "A única baixa da guerra foi o porco."
   }
- ]
+ ],
+ "heroi": null
 }

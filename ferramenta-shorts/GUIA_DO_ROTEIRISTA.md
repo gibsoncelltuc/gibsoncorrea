@@ -98,3 +98,18 @@ Personagens grandes na maior parte do vídeo; até 2 planos abertos comuns + at�
 
 ## Corrigir sem perguntar (regra fixa)
 - Conferiu a folha de contato e viu defeito? Corrija na hora e mande refazer só a cena: `echo "<id> b3 b7" >> refazer.txt` (a fila refaz antes do próximo vídeo) ou `./refazer.sh <id> b3 b7` com a fila parada. `bash status.sh` mostra as correções pendentes. Para o Gibson vai só o relatório do que passou, do que não passou e do que já foi refeito.
+
+## Pré-produção (antes de animar)
+
+`python3 mkvideo.py <id>` grava `stories/<id>/preproducao.md`: uma linha por cena com cenário, plano, número de personagens, ação dos personagens, objetos em cena, objeto na mão e o que **falta**. Leia antes de renderizar.
+
+- **Objetos automáticos**: o que a narração cita e existe na biblioteca entra na cena sozinho (bolo/doce → mesa de bolos, trono, fogueira, tenda, baú, barraca de feira, barril, canhão, bandeira, tambor, tulipa, cova, torre, igreja, moinho...). Lista em `OBJ_DICT` no `mkvideo.py`. Desligar numa cena: `"objetos": false`.
+- **Falta modelar**: palavra do roteiro sem modelo 3D aparece em "FALTA MODELAR". Modele no Blender (copie um bloco de `blender/make_objetos.py`, rode `blender -b --python blender/make_objetos.py`) e acrescente uma linha no `OBJ_DICT`.
+- **Porto/navio**: cena pequena que fala de navio, porto, marinha vai sozinha para o cenário `harbor` (cais com navio); em plano aberto de cenário com mar entram navios ao fundo. Desligar: `"porto_cenario": false` no topo.
+- **Ação dos personagens** (ninguém fica só piscando):
+  - fala entre aspas ou cena sem ação marcada → `conversar` (gesticula de leve);
+  - "discutiu, gritou, exigiu, ameaçou" → `discutir`; "riu, comemorou, venceu, festa" → `comemorar`; "dançou" → `dancar`;
+  - expressão `shock`/`nervous` → `reagir` (susto, mãos no rosto);
+  - "chegou, entrou, apareceu, veio, correu para" → o último personagem do `who` **entra andando** na cena (`"chega": true/false` força);
+  - forçar: `"acao": "conversar|discutir|comemorar|dancar|nenhuma"`.
+- Teste de storyboard sem atrapalhar a fila: copie `web/*.js` para uma pasta de rascunho com links para o resto e rode `build3.sh`/`fit.sh`/`storyboard.mjs` lá (nunca na pasta da fila).
