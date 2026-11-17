@@ -15,7 +15,7 @@ export function planks(seed = 1, rot = 0) {
   for (let i = 0; i < n; i++) {
     const L = 52 + r() * 10, H = 30 + r() * 6;
     g.fillStyle = hsl(H, 42, L); g.fillRect(i * w, 0, w, 512);
-    for (let k = 0; k < 14; k++) { g.strokeStyle = hsl(H - 4, 40, L - 10 - r() * 8, 0.5); g.lineWidth = 1 + r() * 2; g.beginPath(); const x = i * w + 4 + r() * (w - 8); g.moveTo(x, 0); g.bezierCurveTo(x + r() * 6 - 3, 170, x + r() * 6 - 3, 340, x + r() * 4 - 2, 512); g.stroke(); }
+    for (let k = 0; k < 5; k++) { g.strokeStyle = hsl(H - 4, 40, L - 10 - r() * 6, 0.45); g.lineWidth = 1 + r() * 2; g.beginPath(); const x = i * w + 4 + r() * (w - 8); g.moveTo(x, 0); g.bezierCurveTo(x + r() * 6 - 3, 170, x + r() * 6 - 3, 340, x + r() * 4 - 2, 512); g.stroke(); }
     const cut = r() * 512; g.fillStyle = 'rgba(40,24,14,.9)'; g.fillRect(i * w, cut, w, 4);
     for (const y of [cut - 18, cut + 18]) { g.fillStyle = '#2b2620'; g.beginPath(); g.arc(i * w + w * 0.3, y, 2.6, 0, 7); g.arc(i * w + w * 0.7, y, 2.6, 0, 7); g.fill(); }
     g.fillStyle = 'rgba(30,18,10,.95)'; g.fillRect(i * w, 0, 3, 512);
@@ -58,7 +58,7 @@ export function stone(seed = 4, hue = 36, sat = 14, lig = 66, bw = 128, bh = 64)
     g.fillStyle = hsl(hue, sat, L + 7, .6); g.fillRect(x + 6, y + 5, bw - 14, 5);
     g.fillStyle = hsl(hue, sat, L - 12, .5); g.fillRect(x + 6, y + bh - 10, bw - 12, 5);
     speckle(g, 0, 0, r, 0, ['#000']);
-    for (let k = 0; k < 6; k++) { g.fillStyle = hsl(hue, sat, L - 8 - r() * 8, .6); g.beginPath(); g.ellipse(x + r() * bw, y + r() * bh, 2 + r() * 5, 1 + r() * 3, 0, 0, 7); g.fill(); }
+    for (let k = 0; k < 2; k++) { g.fillStyle = hsl(hue, sat, L - 6 - r() * 5, .35); g.beginPath(); g.ellipse(x + r() * bw, y + r() * bh, 2 + r() * 5, 1 + r() * 3, 0, 0, 7); g.fill(); }
   }
   return c;
 }
@@ -74,22 +74,22 @@ export function mossy(c0, seed = 5, amt = 1) {
 }
 export function grass(seed = 6) {
   const [c, g] = cv(512, 512), r = rng(seed);
-  g.fillStyle = '#6fa04a'; g.fillRect(0, 0, 512, 512);
-  for (let i = 0; i < 90; i++) { g.fillStyle = hsl(85 + r() * 20, 42, 38 + r() * 14, .5); g.beginPath(); g.ellipse(r() * 512, r() * 512, 20 + r() * 50, 12 + r() * 30, r() * 3, 0, 7); g.fill(); }
-  for (let i = 0; i < 1400; i++) { const x = r() * 512, y = r() * 512; g.strokeStyle = hsl(80 + r() * 30, 45, 30 + r() * 25, .9); g.lineWidth = 1.5; g.beginPath(); g.moveTo(x, y); g.lineTo(x + r() * 4 - 2, y - 5 - r() * 7); g.stroke(); }
-  for (let i = 0; i < 30; i++) { g.fillStyle = ['#f3e27a', '#ffffff', '#e8a0c0'][i % 3]; g.beginPath(); g.arc(r() * 512, r() * 512, 2.5, 0, 7); g.fill(); }
+  g.fillStyle = '#74c043'; g.fillRect(0, 0, 512, 512);   // MODO RICKS: campo chapado claro e saturado + poucas pinceladas (antes: ruido 'camuflado')
+  for (let i = 0; i < 26; i++) { g.fillStyle = hsl(92 + r() * 12, 58, 48 + r() * 8, .22); g.beginPath(); g.ellipse(r() * 512, r() * 512, 20 + r() * 50, 12 + r() * 30, r() * 3, 0, 7); g.fill(); }
+  for (let i = 0; i < 110; i++) { const x = r() * 512, y = r() * 512; g.strokeStyle = hsl(100 + r() * 14, 55, 36 + r() * 8, .55); g.lineWidth = 2.2; g.beginPath(); g.moveTo(x, y); g.lineTo(x + r() * 4 - 2, y - 5 - r() * 7); g.stroke(); }
+  for (let i = 0; i < 10; i++) { g.fillStyle = ['#f3e27a', '#ffffff', '#e8a0c0'][i % 3]; g.beginPath(); g.arc(r() * 512, r() * 512, 2.5, 0, 7); g.fill(); }
   return c;
 }
 export function dirt(seed = 7) {
   const [c, g] = cv(512, 512), r = rng(seed);
   g.fillStyle = '#a88a62'; g.fillRect(0, 0, 512, 512);
-  for (let i = 0; i < 300; i++) { g.fillStyle = hsl(30 + r() * 10, 25, 40 + r() * 25, .6); g.beginPath(); g.ellipse(r() * 512, r() * 512, 3 + r() * 14, 2 + r() * 8, r() * 3, 0, 7); g.fill(); }
+  for (let i = 0; i < 46; i++) { g.fillStyle = hsl(30 + r() * 8, 30, 50 + r() * 10, .3); g.beginPath(); g.ellipse(r() * 512, r() * 512, 3 + r() * 14, 2 + r() * 8, r() * 3, 0, 7); g.fill(); }
   return c;
 }
 export function plaster(seed = 8, hue = 40) {
   const [c, g] = cv(256, 256), r = rng(seed);
   g.fillStyle = hsl(hue, 40, 86); g.fillRect(0, 0, 256, 256);
-  for (let i = 0; i < 40; i++) { g.fillStyle = hsl(hue, 30, 76 + r() * 8, .5); g.beginPath(); g.ellipse(r() * 256, r() * 256, 10 + r() * 30, 6 + r() * 16, 0, 0, 7); g.fill(); }
+  for (let i = 0; i < 14; i++) { g.fillStyle = hsl(hue, 30, 80 + r() * 5, .25); g.beginPath(); g.ellipse(r() * 256, r() * 256, 10 + r() * 30, 6 + r() * 16, 0, 0, 7); g.fill(); }
   g.fillStyle = hsl(hue, 20, 60, .5); g.fillRect(0, 236, 256, 20);
   return c;
 }

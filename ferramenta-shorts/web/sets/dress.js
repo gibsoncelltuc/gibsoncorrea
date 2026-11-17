@@ -16,7 +16,7 @@ const SWAY = []; let _swayInit = false;
 function dressSet(name, X) {
   if (!_swayInit) { _swayInit = true; UPD.push((W, f, t) => { SWAY.forEach((o) => { const wd = windAt(o.position.x, o.position.z, t); o.rotation.z = Math.sin(t * (1.6 + 1.4 * wd) + o.userData.sw) * o.userData.swA * (0.5 + WX.wind * 1.4 + wd); o.rotation.x = Math.sin(t * 1.3 + o.userData.sw * 2) * o.userData.swA * 0.5; }); }); }
   const list = DRESS[name]; if (!list) return;
-  if (!['hall', 'stadium', 'harbor', 'arctic'].includes(name)) { const N = 520, g = new THREE.IcosahedronGeometry(1, 0), im = new THREE.InstancedMesh(g, toon({ color: '#ffffff' }), N), rq = P.rng(5 + name.length), mx = new THREE.Matrix4(), q = new THREE.Quaternion(), e = new THREE.Euler(), v = new THREE.Vector3(), sc = new THREE.Vector3();
+  if (!['hall', 'stadium', 'harbor', 'arctic'].includes(name)) { const N = 110, g = new THREE.IcosahedronGeometry(1, 0), im = new THREE.InstancedMesh(g, toon({ color: '#ffffff' }), N), rq = P.rng(5 + name.length), mx = new THREE.Matrix4(), q = new THREE.Quaternion(), e = new THREE.Euler(), v = new THREE.Vector3(), sc = new THREE.Vector3();
     const cols = ['#8a8178', '#a39a8c', '#6f675e', '#b3a898', '#7d7468'];
     for (let i = 0; i < N; i++) { const s = 0.04 + rq() * 0.13; v.set(X + (rq() - 0.5) * 34, DECK + s * 0.3, -14 + rq() * 28); e.set(rq() * 6, rq() * 6, rq() * 6); q.setFromEuler(e); sc.set(s * (1 + rq()), s, s * (1 + rq())); mx.compose(v, q, sc); im.setMatrixAt(i, mx); im.setColorAt(i, new THREE.Color(cols[i % 5])); }
     im.castShadow = false; im.receiveShadow = true; world.add(im); } const rf = P.rng(900 + name.length * 13);

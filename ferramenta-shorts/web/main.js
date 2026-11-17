@@ -33,15 +33,15 @@ vec3 paintMod(vec3 col, vec3 p, vec3 n){
   vec3 w = pow(abs(n), vec3(4.)); w /= (w.x+w.y+w.z+1e-4);
   float a = stroke(p.zy*.7, .55, 1.0)*w.x + stroke(p.xz*.7, -.35, 1.0)*w.y + stroke(p.xy*.7, .2, 1.0)*w.z;
   float b = vn(p.xz*.25+p.y*.11)*w.y + vn(p.zy*.25)*w.x + vn(p.xy*.25)*w.z;
-  col *= .90 + .16*a;                        // visible brush strokes
-  col += (b-.5) * vec3(.03,.01,-.028);       // pigment drift warm<->cool
-  float g = vn(p.xz*9.+p.y*5.)*w.y + vn(p.zy*9.)*w.x + vn(p.xy*9.)*w.z; col *= .975 + .05*g; // fine grain
+  col *= .965 + .055*a;                        // visible brush strokes
+  col += (b-.5) * vec3(.014,.005,-.013);       // pigment drift warm<->cool
+  float g = vn(p.xz*9.+p.y*5.)*w.y + vn(p.zy*9.)*w.x + vn(p.xy*9.)*w.z; col *= .993 + .012*g; // fine grain (canal: campos chapados, ruido < 2%)
   return col; }
 float hgt(vec3 p, vec3 n){ vec3 w = pow(abs(n), vec3(4.)); w /= (w.x+w.y+w.z+1e-4);
   float h = 0.; vec2 a = p.xz, b = p.zy, c = p.xy;
   h += (vn(a*3.1)*.5 + vn(a*8.7)*.3 + vn(a*23.)*.2)*w.y; h += (vn(b*3.1)*.5 + vn(b*8.7)*.3 + vn(b*23.)*.2)*w.x; h += (vn(c*3.1)*.5 + vn(c*8.7)*.3 + vn(c*23.)*.2)*w.z; return h; }`).replace('#include <map_fragment>', '#include <map_fragment>\n diffuseColor.rgb = paintMod(diffuseColor.rgb, vWP, normalize(vWN));').replace('#include <normal_fragment_maps>', `#include <normal_fragment_maps>
  { float h0 = hgt(vWP, normalize(vWN)); float dhx = dFdx(h0), dhy = dFdy(h0); vec3 q0 = dFdx(vViewPosition), q1 = dFdy(vViewPosition); vec3 R1 = cross(q1, normal), R2 = cross(normal, q0); float fDet = dot(q0, R1);
-   float fade = 1. / (1. + .035*length(vViewPosition)); vec3 grad = sign(fDet) * (dhx*R1 + dhy*R2); normal = normalize(abs(fDet)*normal - 0.7*fade*grad); }`);
+   float fade = 1. / (1. + .035*length(vViewPosition)); vec3 grad = sign(fDet) * (dhx*R1 + dhy*R2); normal = normalize(abs(fDet)*normal - 0.18*fade*grad); }`);
 };
 const toon = (opts) => new THREE.MeshToonMaterial({ gradientMap: grad, ...opts });
 const texM = (c, rx_ = 1, ry_ = 1, color = '#ffffff') => toon({ map: P.tex(c, rx_, ry_), color });
@@ -351,7 +351,7 @@ const SWAY = []; let _swayInit = false;
 function dressSet(name, X) {
   if (!_swayInit) { _swayInit = true; UPD.push((W, f, t) => { SWAY.forEach((o) => { const wd = windAt(o.position.x, o.position.z, t); o.rotation.z = Math.sin(t * (1.6 + 1.4 * wd) + o.userData.sw) * o.userData.swA * (0.5 + WX.wind * 1.4 + wd); o.rotation.x = Math.sin(t * 1.3 + o.userData.sw * 2) * o.userData.swA * 0.5; }); }); }
   const list = DRESS[name]; if (!list) return;
-  if (!['hall', 'stadium', 'harbor', 'arctic'].includes(name)) { const N = 520, g = new THREE.IcosahedronGeometry(1, 0), im = new THREE.InstancedMesh(g, toon({ color: '#ffffff' }), N), rq = P.rng(5 + name.length), mx = new THREE.Matrix4(), q = new THREE.Quaternion(), e = new THREE.Euler(), v = new THREE.Vector3(), sc = new THREE.Vector3();
+  if (!['hall', 'stadium', 'harbor', 'arctic'].includes(name)) { const N = 110, g = new THREE.IcosahedronGeometry(1, 0), im = new THREE.InstancedMesh(g, toon({ color: '#ffffff' }), N), rq = P.rng(5 + name.length), mx = new THREE.Matrix4(), q = new THREE.Quaternion(), e = new THREE.Euler(), v = new THREE.Vector3(), sc = new THREE.Vector3();
     const cols = ['#8a8178', '#a39a8c', '#6f675e', '#b3a898', '#7d7468'];
     for (let i = 0; i < N; i++) { const s = 0.04 + rq() * 0.13; v.set(X + (rq() - 0.5) * 34, DECK + s * 0.3, -14 + rq() * 28); e.set(rq() * 6, rq() * 6, rq() * 6); q.setFromEuler(e); sc.set(s * (1 + rq()), s, s * (1 + rq())); mx.compose(v, q, sc); im.setMatrixAt(i, mx); im.setColorAt(i, new THREE.Color(cols[i % 5])); }
     im.castShadow = false; im.receiveShadow = true; world.add(im); } const rf = P.rng(900 + name.length * 13);
