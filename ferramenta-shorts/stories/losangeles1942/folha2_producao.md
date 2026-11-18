@@ -33,7 +33,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - Na madrugada, as sirenes tocaram, as luzes da cidade se apagaram, e ho...
-- Cenario: street | luz: noite | clima: limpo
+- Cenario: street | luz: pordosol | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): SOL (variante 0, expressao stern); CID (variante 0, expressao shock)
@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Alguém viu um objeto no céu, e os soldados começaram a atirar com canh...
-- Cenario: street | luz: noite | clima: limpo
+- Cenario: street | luz: pordosol | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): SOL (variante 0, expressao shout); SOL (variante 1, expressao angry) | multidao: 20 de SOL
@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - "É um inimigo!", gritou um soldado. Acontece que não havia nada ali, s...
-- Cenario: street | luz: noite | clima: limpo
+- Cenario: street | luz: amanhecer | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): SOL (variante 0, expressao shout); GEN (variante 0, expressao surprised)
@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Foram mais de mil tiros de canhão, e os estilhaços caíram na cidade, q...
-- Cenario: street | luz: noite | clima: limpo
+- Cenario: street | luz: amanhecer | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): CID (variante 0, expressao scared); CID (variante 1, expressao cry) | multidao: 20 de SOL/CID
@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - No dia seguinte, os militares discutiram o que tinha acontecido, e nin...
-- Cenario: interior madeira | luz: dusk | clima: limpo
+- Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): GEN (variante 0, expressao stern, segura paper); PRE (variante 0, expressao nervous)
@@ -83,7 +83,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - Algumas pessoas morreram, por acidente e por susto, mas nenhum inimigo...
-- Cenario: interior pedra | luz: dusk | clima: limpo
+- Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): PRE (variante 0, expressao sad, segura paper); GEN (variante 0, expressao sad)
