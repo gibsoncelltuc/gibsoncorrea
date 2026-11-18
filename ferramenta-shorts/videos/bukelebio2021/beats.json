@@ -1,0 +1,238 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Poder e Fama",
+ "ep": 1,
+ "title": "O Ditador Mais Legal do Mundo",
+ "titulo_base": "O Ditador Mais Legal do Mundo",
+ "set": "street",
+ "light": "golden",
+ "mood": "playful",
+ "heroi": "kit/phone",
+ "outfits": {
+  "BUK": {
+   "jacket": "#22252c",
+   "pants": "#2a2d33",
+   "boots": "#f4f1e8",
+   "hat": "cap",
+   "cap": "#f4f1e8",
+   "beard": "#2a201a",
+   "pele": "#e8c8a8"
+  },
+  "JOR": {
+   "jacket": "#4a6a9a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#8a5a2a",
+   "glasses": true
+  },
+  "JOR2": {
+   "jacket": "#9a4a5a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#1a1a1a"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "bowler"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Em setembro de dois mil e vinte e um, o presidente de El Salvador, Nayib Bukele, mexeu numa coisa bem pequena: a descrição do próprio perfil.",
+   "shot": "close",
+   "who": [
+    "BUK:0:smug"
+   ],
+   "props": [
+    [
+     "kit/phone",
+     0.4,
+     1.2,
+     1.0
+    ]
+   ],
+   "mapa": "EL SALVADOR",
+   "mapa_at": 1
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": true,
+   "say": "Poucos dias antes, milhares de pessoas tinham protestado nas ruas de San Salvador.",
+   "shot": "crowd",
+   "who": [
+    "BUK:0:worried"
+   ],
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "POV"
+    ]
+   },
+   "sfx": [
+    "crowd@10"
+   ]
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Primeiro, ele escreveu só uma palavra no perfil: ditador.",
+   "shot": "close",
+   "who": [
+    "BUK:0:laugh"
+   ],
+   "text": "DITADOR",
+   "props": [
+    [
+     "kit/phone",
+     0.4,
+     1.2,
+     1.0
+    ]
+   ],
+   "fx": [
+    "puff@8"
+   ],
+   "sfx": [
+    "pop@8"
+   ]
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": true,
+   "say": "Alguns dias depois, trocou por uma frase mais longa: o ditador mais legal do mundo.",
+   "shot": "group",
+   "who": [
+    "BUK:0:grin",
+    "POV:0:shock",
+    "POV:1:shock"
+   ],
+   "text": "O DITADOR MAIS LEGAL DO MUNDO",
+   "fx": [
+    "burst@30"
+   ],
+   "sfx": [
+    "boom@30"
+   ]
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Acontece que a notícia deu a volta ao mundo.",
+   "shot": "reveal",
+   "who": [
+    "BUK:0:smug"
+   ],
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "POV"
+    ]
+   },
+   "mapa": "MUNDO",
+   "mapa_at": 1
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Jornais de vários países publicaram a frase, e muita gente ficou discutindo se era piada ou não.",
+   "shot": "two",
+   "who": [
+    "JOR:0:shock",
+    "JOR2:0:suspicious"
+   ],
+   "props": [
+    [
+     "kit/phone",
+     -1.5,
+     0.3,
+     1.2
+    ]
+   ]
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Vários comentaristas leram aquilo como uma ironia, feita para os críticos dele.",
+   "shot": "two",
+   "who": [
+    "JOR:0:suspicious",
+    "BUK:0:smug"
+   ]
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Anos depois, no dia da eleição de dois mil e vinte e quatro, o perfil dele dizia: rei filósofo.",
+   "shot": "close",
+   "who": [
+    "BUK:0:grin"
+   ],
+   "text": "REI FILÓSOFO",
+   "props": [
+    [
+     "kit/phone",
+     0.4,
+     1.2,
+     1.0
+    ]
+   ],
+   "fx": [
+    "puff@8"
+   ],
+   "sfx": [
+    "pop@8"
+   ],
+   "riscos_ok": true
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Aliás, esse perfil muda bastante: Bukele costuma trocar o nome e a descrição.",
+   "shot": "two",
+   "who": [
+    "BUK:0:laugh",
+    "JOR2:0:suspicious"
+   ]
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Conclusão: se a sua biografia estiver chata, lembre que dá para trocar em dez segundos.",
+   "shot": "close",
+   "who": [
+    "BUK:0:laugh"
+   ],
+   "props": [
+    [
+     "kit/phone",
+     0.4,
+     1.2,
+     1.0
+    ]
+   ]
+  }
+ ],
+ "exp": 1.0
+}

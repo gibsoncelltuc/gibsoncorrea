@@ -1,0 +1,261 @@
+{
+ "duration": 53.352,
+ "frames30": 1601,
+ "source": "silence-align (cost 0.87)",
+ "segments": [
+  [
+   0.151208,
+   1.60425
+  ],
+  [
+   1.87287,
+   3.11542
+  ],
+  [
+   3.30725,
+   4.15921
+  ],
+  [
+   4.38842,
+   5.94317
+  ],
+  [
+   6.16658,
+   7.67979
+  ],
+  [
+   8.54508,
+   9.56579
+  ],
+  [
+   9.77325,
+   12.8678
+  ],
+  [
+   13.6988,
+   14.0616
+  ],
+  [
+   14.3077,
+   16.147
+  ],
+  [
+   16.4453,
+   16.9022
+  ],
+  [
+   17.7428,
+   18.8018
+  ],
+  [
+   18.9958,
+   20.5261
+  ],
+  [
+   20.8414,
+   22.2164
+  ],
+  [
+   23.0838,
+   25.2237
+  ],
+  [
+   26.0698,
+   28.3035
+  ],
+  [
+   28.643,
+   31.0589
+  ],
+  [
+   31.9102,
+   34.2609
+  ],
+  [
+   34.4739,
+   35.7467
+  ],
+  [
+   36.6189,
+   37.3665
+  ],
+  [
+   37.5338,
+   39.4077
+  ],
+  [
+   39.7076,
+   40.8129
+  ],
+  [
+   41.105,
+   41.8069
+  ],
+  [
+   42.66,
+   43.1804
+  ],
+  [
+   43.3856,
+   44.6504
+  ],
+  [
+   44.9261,
+   47.1038
+  ],
+  [
+   47.9783,
+   48.5
+  ],
+  [
+   48.7369,
+   50.3422
+  ],
+  [
+   50.6219,
+   52.5635
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Em setembro de dois mil e vinte e um,",
+   "s": 0.151,
+   "e": 1.604
+  },
+  {
+   "text": "o presidente de El Salvador,",
+   "s": 1.873,
+   "e": 3.115
+  },
+  {
+   "text": "Nayib Bukele,",
+   "s": 3.307,
+   "e": 4.159
+  },
+  {
+   "text": "mexeu numa coisa bem pequena:",
+   "s": 4.388,
+   "e": 5.943
+  },
+  {
+   "text": "a descri\u00e7\u00e3o do pr\u00f3prio perfil.",
+   "s": 6.167,
+   "e": 7.68
+  },
+  {
+   "text": "Poucos dias antes,",
+   "s": 8.545,
+   "e": 9.566
+  },
+  {
+   "text": "milhares de pessoas tinham protestado nas ruas de San Salvador.",
+   "s": 9.773,
+   "e": 12.868
+  },
+  {
+   "text": "Primeiro,",
+   "s": 13.699,
+   "e": 14.062
+  },
+  {
+   "text": "ele escreveu s\u00f3 uma palavra no perfil:",
+   "s": 14.308,
+   "e": 16.147
+  },
+  {
+   "text": "ditador.",
+   "s": 16.445,
+   "e": 16.902
+  },
+  {
+   "text": "Alguns dias depois,",
+   "s": 17.743,
+   "e": 18.802
+  },
+  {
+   "text": "trocou por uma frase mais longa:",
+   "s": 18.996,
+   "e": 20.526
+  },
+  {
+   "text": "o ditador mais legal do mundo.",
+   "s": 20.841,
+   "e": 22.216
+  },
+  {
+   "text": "Acontece que a not\u00edcia deu a volta ao mundo.",
+   "s": 23.084,
+   "e": 25.224
+  },
+  {
+   "text": "Jornais de v\u00e1rios pa\u00edses publicaram a frase,",
+   "s": 26.07,
+   "e": 28.303
+  },
+  {
+   "text": "e muita gente ficou discutindo se era piada ou n\u00e3o.",
+   "s": 28.643,
+   "e": 31.059
+  },
+  {
+   "text": "V\u00e1rios comentaristas leram aquilo como uma ironia,",
+   "s": 31.91,
+   "e": 34.261
+  },
+  {
+   "text": "dirigida aos cr\u00edticos dele.",
+   "s": 34.474,
+   "e": 35.747
+  },
+  {
+   "text": "Anos depois,",
+   "s": 36.619,
+   "e": 37.367
+  },
+  {
+   "text": "no dia da elei\u00e7\u00e3o de dois mil e vinte e quatro,",
+   "s": 37.534,
+   "e": 39.408
+  },
+  {
+   "text": "o perfil dele dizia:",
+   "s": 39.708,
+   "e": 40.813
+  },
+  {
+   "text": "rei fil\u00f3sofo.",
+   "s": 41.105,
+   "e": 41.807
+  },
+  {
+   "text": "Ali\u00e1s,",
+   "s": 42.66,
+   "e": 43.18
+  },
+  {
+   "text": "esse perfil muda bastante:",
+   "s": 43.386,
+   "e": 44.65
+  },
+  {
+   "text": "Bukele costuma trocar o nome e a descri\u00e7\u00e3o.",
+   "s": 44.926,
+   "e": 47.104
+  },
+  {
+   "text": "Conclus\u00e3o:",
+   "s": 47.978,
+   "e": 48.5
+  },
+  {
+   "text": "se a sua biografia estiver chata,",
+   "s": 48.737,
+   "e": 50.342
+  },
+  {
+   "text": "lembre que d\u00e1 para trocar em dez segundos.",
+   "s": 50.622,
+   "e": 52.563
+  }
+ ]
+}
