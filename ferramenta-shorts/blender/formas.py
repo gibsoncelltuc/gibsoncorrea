@@ -56,6 +56,11 @@ def pano(c, larg, alt, cores, onda=0.14, nx=16):   # PANO ONDULADO continuo (ban
             for i in range(nx):
                 q = (g[0][i], g[0][i + 1], g[1][i + 1], g[1][i])
                 f = bm.faces.new(q if side > 0 else tuple(reversed(q))); f.material_index = k
+def prisma(c, pts, esp, col):   # SILHUETA 2D com espessura (raio, estrela, seta, coracao): pts = [(x, y), ...] no plano da tela, em volta; esp = grossura
+    bm = _S['bm']; fr = [bm.verts.new((x, -esp / 2, y)) for x, y in pts]; bk = [bm.verts.new((x, esp / 2, y)) for x, y in pts]; n = len(pts)
+    bm.faces.new(fr); bm.faces.new(list(reversed(bk)))
+    for i in range(n): bm.faces.new((fr[i], bk[i], bk[(i + 1) % n], fr[(i + 1) % n]))
+    _put(fr + bk, col, c)
 def fim(chanfro=0.03):
     bm = _S['bm']
     me = bpy.data.meshes.new('red_' + _S['name']); bm.to_mesh(me); bm.free()

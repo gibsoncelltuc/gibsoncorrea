@@ -78,12 +78,21 @@ padeiro, agricultor, nobre, politico, empresario, rei, general, soldado, marinhe
 - kit/stove  <- \bfogao\b|\bfogoes\b|borracha|vulcaniz|enxofre
 - kit/balloon  <- \bbalao\b|\bbaloes\b
 - kit/curie_box  <- \bcadernos?\b|\bchumbo\b|radioativ|\bfrascos?\b
+- kit/beehive  <- \bcolmeias?\b|\babelhas?\b|\bfavos?\b|\bmel\b
+- kit/clipper  <- maquina de raspar|\braspou\b|\braspar\b|\braspada\b|\bcareca\b
+- kit/tower_catch  <- mechazilla|pauzinhos|torre de lancamento  (fundo, so cena externa)
+- kit/volcano  <- \bvulcao\b|\bvulcoes\b  (fundo, so cena externa)
+- kit/bitcoin  <- \bbitcoins?\b|moeda digital|dinheiro digital
+- kit/miners  <- \bcomputadores\b|mineradoras?|\bservidores\b
+- kit/boardgame  <- tabuleiro|jogo de mesa
+- kit/monkey_pong  <- \bmacacos?\b|\bpong\b|\bpager\b
+- kit/tequila_bolt  <- \btequila\b|teslaquila|\bgarrafas?\b
 - kit/apple  <- \bmaca\b|\bmacas\b|\bmacieiras?\b
 - kit/bathtub  <- \bbanheira\b|\bbanho\b
 - kit/crown  <- \bcoroa\b
 
 ## Biblioteca 3D completa (use em "props": [["pasta/nome", x, z, escala]])
-- kit: apple, ball, balloon, balloon_air, barrel_r, bathtub, brass_nose, burr, cake_table, campfire, chest, crookes_tube, cross, crown, curie_box, ear_jar, feather, fire, flag_pole, golden_stool, grave, kettle, lobster, microwave, petri, pisa_tower, porch, postit, room_shop, room_stone, room_wood, snake_ring, stall, stove, syringe, tent, throne, tulip_bed, tulip_purple, tulip_red, tulip_striped, tulip_yellow, wash_basin, xray_plate
+- kit: apple, ball, balloon, balloon_air, barrel_r, bathtub, beehive, bitcoin, boardgame, booster_air, brass_nose, burr, cake_table, campfire, chest, clipper, crookes_tube, cross, crown, curie_box, ear_jar, feather, fire, flag_pole, golden_stool, grave, kettle, lobster, microwave, miners, monkey_pong, petri, pisa_tower, porch, postit, ring, room_shop, room_stone, room_wood, snake_ring, stall, stove, syringe, tent, tequila_bolt, throne, tower, tower_catch, tulip_bed, tulip_purple, tulip_red, tulip_striped, tulip_yellow, volcano, wash_basin, xray_plate
 - buildings: apartment, barn, bridge, castle_tower, church, house_blue, house_small, house_two, lighthouse, shop, skyscraper, windmill
 - vehicles: airplane, bicycle, car, car_blue, helicopter, jeep, locomotive, motorboat, motorcycle, sailboat, tank, taxi, truck, wagon
 - nature: bench, bush, flowerbed, fountain, haybale, lamppost, picket_fence, rocks, scarecrow, tree_birch, tree_oak, tree_palm, tree_pine

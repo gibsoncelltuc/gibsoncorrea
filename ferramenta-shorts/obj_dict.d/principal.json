@@ -106,5 +106,11 @@
   "kit/monkey_pong",
   1.0,
   false
+ ],
+ [
+  "\\btequila\\b|teslaquila|\\bgarrafas?\\b",
+  "kit/tequila_bolt",
+  1.0,
+  false
  ]
 ]
