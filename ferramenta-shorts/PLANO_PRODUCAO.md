@@ -40,3 +40,6 @@ Ler `FIGURINOS_FAMOSOS.md` (figurinos prontos e REGRAS obrigatórias: só fato r
 ## Série 4 — "E Se" (What If) — 10 roteiros PRONTOS, fora da fila (aguardando ordem do Gibson)
 Ver `videos/E_SE_ROTEIROS.md`. Produzir com `./prechecar.sh <id>` e `./novo_video.sh <id>` só quando o Gibson mandar, depois de terminar a fila atual.
 - Ordem do Gibson (18/11 ~21h): os "E Se" SÓ começam depois que a fila principal terminar os 11 refeitos (Cachorro, Aroostook, Los Angeles, Eratóstenes, Roadster, Bitcoin, Pia, Cybertruck, Lança-chamas, O Aprendiz, PayPal). Divisão quando liberar: sessão A = ese_pulo, ese_humanos, ese_holanda, ese_internet, ese_sono · sessão B (depois dos PF 22–28) = ese_dinheiro, ese_lua, ese_napoleao, ese_buraco, ese_titanic.
+
+## Série 5 — "Histórias Incríveis" (histórias reais emocionantes) — CATALOGADA, para depois
+Ver `videos/CATALOGO_HISTORIAS_EMOCIONANTES.md` (20 ideias com gancho, virada e objetos). Só produzir quando o Gibson mandar, depois dos "E Se".
