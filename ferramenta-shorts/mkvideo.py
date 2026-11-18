@@ -273,7 +273,7 @@ if B.get('director') is not False and len(beats) >= 5:
     if len(_w) < MIN_WIDE: print(f'AVISO: so {len(_w)} plano(s) aberto(s); a regra pede {MIN_WIDE}. Tire shot_lock/interior de alguma cena.')
 # MULTIDAO SEM CLONES (ordem do Gibson): multidao criada pelo diretor usa o figurino de POVO; rei, nobre, cientista, medico, padre, general... sao pessoas unicas e nao viram 12 copias
 _POVO = [k_ for k_, o_ in B.get('outfits', {}).items() if k_ in ('POV', 'POVO') or o_.get('hats')]
-_UNICO = {k_ for k_, o_ in B.get('outfits', {}).items() if str(o_.get('profissao', '')).lower() in ('rei', 'nobre', 'general', 'cientista', 'medico', 'padre', 'politico', 'empresario', 'jornalista') or o_.get('hat') == 'crown' or (k_ not in _POVO and not str(o_.get('profissao', '')).lower() in ('soldado', 'marinheiro', 'agricultor', 'camponesa', 'pescador', 'comerciante', 'padeiro') and B.get('serie', '').lower().startswith('curiosidade'))}
+_UNICO = {k_ for k_, o_ in B.get('outfits', {}).items() if str(o_.get('profissao', '')).lower() in ('rei', 'nobre', 'general', 'cientista', 'medico', 'padre', 'politico', 'empresario', 'jornalista') or o_.get('hat') == 'crown' or (k_ not in _POVO and not str(o_.get('profissao', '')).lower() in ('soldado', 'marinheiro', 'agricultor', 'camponesa', 'pescador', 'comerciante', 'padeiro') and not B.get('serie', '').lower().startswith('guerras'))}
 for _b in beats:
     if _b.get('crowd') and not _b.get('_crowd_roteiro') and _POVO:
         _ok = [o_ for o_ in _b['crowd'].get('outfits', []) if o_ not in _UNICO]

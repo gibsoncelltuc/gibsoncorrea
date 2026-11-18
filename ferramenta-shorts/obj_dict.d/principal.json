@@ -76,5 +76,23 @@
   "kit/tower_catch",
   1.0,
   true
+ ],
+ [
+  "\\bvulcao\\b|\\bvulcoes\\b",
+  "kit/volcano",
+  1.0,
+  true
+ ],
+ [
+  "\\bbitcoins?\\b|moeda digital|dinheiro digital",
+  "kit/bitcoin",
+  1.0,
+  false
+ ],
+ [
+  "\\bcomputadores\\b|mineradoras?|\\bservidores\\b",
+  "kit/miners",
+  1.0,
+  false
  ]
 ]
