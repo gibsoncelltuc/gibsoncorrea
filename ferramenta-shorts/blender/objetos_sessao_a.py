@@ -31,3 +31,9 @@ for z in (-.24, -.12, 0, .12, .24): arco((0, .98, z), .56, GL, .07, de=math.pi *
 for x in (-.55, .55): bola((x, .64, 0), .13, GD, 1.3)
 arco((0, .98, .0), .5, '#b0282f', .03, de=math.pi * 1.25, ate=math.pi * 1.75)
 fim(.02)
+novo('scroll')                                        # pergaminho do tratado de paz (herói do EP 14): rolo deitado sobre suporte, laço e selo
+cil((0, .08, 0), .55, .16, '#7a4a26'); cil((0, .17, 0), .5, .04, '#a8703c')
+cil((0, .45, 0), .2, 1.1, '#f1e6c8', rot=(0, 0, math.pi / 2)); cil((0, .45, 0), .16, 1.14, '#e0cfa2', rot=(0, 0, math.pi / 2))
+for x in (-.56, .56): cil((x, .45, 0), .21, .06, '#d6c08a', rot=(0, 0, math.pi / 2))
+cil((0, .45, 0), .215, .12, '#b0282f', rot=(0, 0, math.pi / 2)); bola((0, .45, .22), .09, '#d8282f', .6); tubo([(0, .4, .24), (-.1, .22, .3), (-.2, .18, .34)], .02, '#b0282f'); tubo([(0, .4, .24), (.1, .22, .3), (.22, .17, .32)], .02, '#b0282f')
+fim(.02)
