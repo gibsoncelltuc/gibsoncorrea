@@ -1,0 +1,15 @@
+{
+  "lm_model": "acestep-5Hz-lm-1.7B-Q8_0.gguf",
+  "synth_model": "acestep-v15-turbo-Q8_0.gguf",
+  "caption": "Cheerful Brazilian children's pop song, extremely catchy singalong earworm, warm friendly adult male lead vocal with a kids choir answering the hook, bright and playful, clean polished mix, the hook starts right on the first beat with no intro, every section lasts exactly 4 bars, short repeated chorus, simple melody in small steps, call and response with the kids choir, the last chorus goes up by a whole step (key change), clear Portuguese pronunciation of every word, bubbly synth plucks, popping percussion sounds, ukulele, hand claps, bouncy bass, sparkly glockenspiel",
+  "lyrics": "[Chorus]\nPop, pop, pop, as bolhinhas vão estourar!\nPop, pop, pop, é hora de se ensaboar!\nEsfrega o bracinho, esfrega o pezinho,\npop, pop, pop, fico limpinho!\n\n[Verse 1]\nSabonete na mão, cheirinho de flor,\nespuma na cabeça, que coisa de amor,\nesfrega a barriguinha, esfrega as orelhinhas,\npop, pop, pop, bolhinhas!\n\n[Chorus]\nPop, pop, pop, as bolhinhas vão estourar!\nPop, pop, pop, é hora de se ensaboar!\nEsfrega o bracinho, esfrega o pezinho,\npop, pop, pop, fico limpinho!\n\n[Verse 2]\nÁgua morninha, que gostosa que é,\nenxágua o corpinho, da cabeça ao pé,\npop, pop, pop, quanta espuma,\ntchau, tchau, sujeirinha!\n\n[Bridge]\nPop, pop, pop, pop, pop!\nPop, pop, pop, pop, pop!\nBolhinha pra lá, bolhinha pra cá,\npop!\n\n[Chorus]\nPop, pop, pop, as bolhinhas vão estourar!\nPop, pop, pop, é hora de se ensaboar!\nEsfrega o bracinho, esfrega o pezinho,\npop, pop, pop, fico limpinho!\n\n[Final Chorus]\nPop, pop, pop, as bolhinhas vão estourar!\nPop, pop, pop, é hora de se ensaboar!\nEsfrega o bracinho, esfrega o pezinho,\npop, pop, pop, fico limpinho!",
+  "duration": 60,
+  "bpm": 120,
+  "vocal_language": "pt",
+  "keyscale": "G major",
+  "timesignature": "4",
+  "inference_steps": 8,
+  "guidance_scale": 1.0,
+  "shift": 3.0,
+  "seed": 23
+}

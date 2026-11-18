@@ -1,0 +1,15 @@
+{
+  "lm_model": "acestep-5Hz-lm-1.7B-Q8_0.gguf",
+  "synth_model": "acestep-v15-turbo-Q8_0.gguf",
+  "caption": "Cheerful Brazilian children's pop song, extremely catchy singalong earworm, warm friendly adult male lead vocal with a kids choir answering the hook, bright and playful, clean polished mix, the hook starts right on the first beat with no intro, every section lasts exactly 4 bars, short repeated chorus, simple melody in small steps, call and response with the kids choir, the last chorus goes up by a whole step (key change), clear Portuguese pronunciation of every word, gentle music-box and glockenspiel, soft ukulele, light hand claps, warm bass, tender and happy baby-friendly feel",
+  "lyrics": "[Chorus]\nMa-ma, pa-pa, ma-ma, pa-pa!\nA primeira palavrinha é de amor, tá?\nMa-ma, pa-pa, ma-ma, pa-pa!\nO bebê já sabe chamar!\n\n[Verse 1]\nQuem é que me abraça? Ma-ma!\nQuem é que me cuida? Pa-pa!\nQuem me dá sorriso? Ma-ma!\nQuem brinca comigo? Pa-pa!\n\n[Chorus]\nMa-ma, pa-pa, ma-ma, pa-pa!\nA primeira palavrinha é de amor, tá?\nMa-ma, pa-pa, ma-ma, pa-pa!\nO bebê já sabe chamar!\n\n[Verse 2]\nEu tento falar, eu tento falar,\nma-ma, pa-pa, eu sei falar!\nA mamãe aplaude, o papai também,\nma-ma, pa-pa, que alegria!\n\n[Bridge]\nMa-ma! Pa-pa! Ma-ma! Pa-pa!\nMa-ma! Pa-pa! Ma-ma! Pa-pa!\nEu te amo, mamãe!\nEu te amo, papai!\n\n[Chorus]\nMa-ma, pa-pa, ma-ma, pa-pa!\nA primeira palavrinha é de amor, tá?\nMa-ma, pa-pa, ma-ma, pa-pa!\nO bebê já sabe chamar!",
+  "duration": 60,
+  "bpm": 100,
+  "vocal_language": "pt",
+  "keyscale": "C major",
+  "timesignature": "4",
+  "inference_steps": 8,
+  "guidance_scale": 1.0,
+  "shift": 3.0,
+  "seed": 23
+}

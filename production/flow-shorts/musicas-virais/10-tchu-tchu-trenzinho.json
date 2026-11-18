@@ -1,0 +1,15 @@
+{
+  "lm_model": "acestep-5Hz-lm-1.7B-Q8_0.gguf",
+  "synth_model": "acestep-v15-turbo-Q8_0.gguf",
+  "caption": "Cheerful Brazilian children's pop song, extremely catchy singalong earworm, warm friendly adult male lead vocal with a kids choir answering the hook, bright and playful, clean polished mix, the hook starts right on the first beat with no intro, every section lasts exactly 4 bars, short repeated chorus, simple melody in small steps, call and response with the kids choir, the last chorus goes up by a whole step (key change), clear Portuguese pronunciation of every word, chugging train rhythm with shaker and snare brushes, ukulele, whistle sounds, hand claps, bouncy bass, glockenspiel",
+  "lyrics": "[Chorus]\nTchu-tchu, lá vem o trenzinho!\nPiiii! Apita pra todo mundo ir!\nTchu-tchu, vagãozinho por vagãozinho,\ntodo mundo a bordo, vamos sorrir!\n\n[Verse 1]\nO primeiro vagão é vermelho,\no segundo vagão é azul,\no terceiro vagão é amarelo,\ne o quarto é verde também!\n\n[Chorus]\nTchu-tchu, lá vem o trenzinho!\nPiiii! Apita pra todo mundo ir!\nTchu-tchu, vagãozinho por vagãozinho,\ntodo mundo a bordo, vamos sorrir!\n\n[Verse 2]\nO trenzinho passa na ponte,\no trenzinho passa no túnel,\no trenzinho sobe a montanha,\ne desce com muita alegria!\n\n[Bridge]\nTchu, tchu, tchu, tchu!\nPiiii! Piiii!\nTchu, tchu, tchu, tchu!\nChegamos, chegamos!\n\n[Chorus]\nTchu-tchu, lá vem o trenzinho!\nPiiii! Apita pra todo mundo ir!\nTchu-tchu, vagãozinho por vagãozinho,\ntodo mundo a bordo, vamos sorrir!\n\n[Final Chorus]\nTchu-tchu, lá vem o trenzinho!\nPiiii! Apita pra todo mundo ir!\nTchu-tchu, vagãozinho por vagãozinho,\ntodo mundo a bordo, vamos sorrir!",
+  "duration": 60,
+  "bpm": 108,
+  "vocal_language": "pt",
+  "keyscale": "C major",
+  "timesignature": "4",
+  "inference_steps": 8,
+  "guidance_scale": 1.0,
+  "shift": 3.0,
+  "seed": 41
+}
