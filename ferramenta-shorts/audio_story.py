@@ -79,6 +79,12 @@ def squeal(t, d=0.7, g=0.7):
     place(sfx, hpf(s.astype(np.float32), 300), t, g)
 def snuffle(t, n=4, g=0.5):
     for i in range(n): d = 0.12; place(sfx, (lpf(hpf(noise(d), 300), 2500) * np.exp(-tt(d) * 18) * 0.8).astype(np.float32), t + i * 0.19, g)
+def gibber(t, n=5, f0=220, g=0.2):   # fala de desenho (blablabla): silabas curtas com altura variando -- dialogo/discussao dos personagens por baixo da narracao
+    for i in range(n):
+        d = 0.07 + 0.05 * ((i * 7) % 3) / 2; fr = f0 * (1 + 0.22 * np.sin(i * 2.4 + f0 * 0.01)); x = tt(d); s_ = (np.sin(2 * np.pi * fr * x) + 0.5 * np.sin(2 * np.pi * fr * 2 * x) + 0.3 * np.sin(2 * np.pi * fr * 3 * x)) * np.sin(np.pi * x / d) ** 0.6
+        place(sfx, lpf(s_.astype(np.float32), 2600) * 0.5, t + i * 0.13, g)
+def laughs(t, n=4, f0=420, g=0.22):   # risada de desenho (ha ha ha descendo)
+    for i in range(n): d = 0.09; x = tt(d); fr = f0 * (1 - 0.07 * i); place(sfx, (np.sin(2 * np.pi * fr * x) * np.sin(np.pi * x / d)).astype(np.float32) * 0.5, t + i * 0.15, g)
 def whoosh(t, d=0.4, g=0.4):
     x = noise(d); e = np.sin(np.pi * np.linspace(0, 1, len(x))) ** 2; place(sfx, lpf(hpf(x, 400), 4000) * e, t, g)
 def ding(t, g=0.6, f=1320):

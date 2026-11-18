@@ -53,8 +53,8 @@
   {
    "shot": "two",
    "who": [
-    "FAZ:0:shock",
-    "IRL:0:stern"
+    "FAZ:0:shock:pitchfork",
+    "IRL:0:angry"
    ],
    "animals": [
     [
@@ -66,7 +66,27 @@
     ]
    ],
    "text": "1859",
-   "say": "Dois países quase entraram em guerra por causa de um porco."
+   "say": "Dois países quase entraram em guerra por causa de um porco.",
+   "props": [
+    [
+     "nature/picket_fence",
+     -3.2,
+     -2.2,
+     1.3
+    ],
+    [
+     "nature/picket_fence",
+     3.2,
+     -2.2,
+     1.3
+    ],
+    [
+     "nature/haybale",
+     -3.6,
+     -0.6,
+     1.1
+    ]
+   ]
   },
   {
    "shot": "two",
@@ -76,12 +96,12 @@
    ],
    "mapa": "ILHA DE SAN JUAN",
    "mapa_at": 4,
-   "say": "Era uma ilha pequena, entre os Estados Unidos e o Canadá. Americanos e ingleses moravam lá, e ninguém sabia de quem ela era."
+   "say": "Era uma ilha pequena, entre os Estados Unidos e o Canadá, e ninguém sabia de quem ela era."
   },
   {
    "shot": "two",
    "who": [
-    "FAZ:0:stern"
+    "FAZ:0:angry:pitchfork"
    ],
    "animals": [
     [
@@ -94,19 +114,43 @@
    ],
    "props": [
     [
-     "crate",
+     "nature/flowerbed",
+     1.2,
+     -1.4,
+     1.5
+    ],
+    [
+     "nature/flowerbed",
+     -1.6,
+     -1.6,
+     1.5
+    ],
+    [
+     "nature/picket_fence",
+     0,
+     -3.0,
+     1.4
+    ],
+    [
+     "nature/scarecrow",
+     -3.0,
      -2.4,
-     0.6,
-     1.0
+     1.2
+    ],
+    [
+     "tools/wheelbarrow",
+     3.4,
+     -0.8,
+     1.2
     ]
    ],
-   "say": "Um dia, um fazendeiro americano encontrou um porco comendo as batatas da horta dele.",
-   "detalhe": false
+   "detalhe": false,
+   "say": "Um dia, um fazendeiro americano encontrou um porco comendo as batatas da horta dele."
   },
   {
-   "shot": "close",
+   "shot": "two",
    "who": [
-    "FAZ:0:stern"
+    "FAZ:0:angry"
    ],
    "fx": [
     "burst@24"
@@ -117,15 +161,85 @@
    ],
    "say": "Ele pegou a espingarda, e atirou. O porco era de um vizinho inglês.",
    "impact": false,
-   "shot_lock": true
+   "shot_lock": true,
+   "animals": [
+    [
+     "pig",
+     2.0,
+     1.0,
+     "stand",
+     1.1
+    ]
+   ],
+   "props": [
+    [
+     "nature/picket_fence",
+     0,
+     -2.6,
+     1.4
+    ],
+    [
+     "nature/haybale",
+     -2.8,
+     -1.2,
+     1.1
+    ]
+   ]
   },
   {
    "shot": "two",
    "who": [
-    "FAZ:0:nervous:coin",
-    "IRL:0:stern"
+    "FAZ:0:nervous:money",
+    "IRL:0:angry"
    ],
-   "say": "\"Eu pago dez dólares\", disse o americano. \"Ele vale cem\", respondeu o dono. Ninguém cedeu."
+   "interacao": "entregar",
+   "props": [
+    [
+     "nature/picket_fence",
+     -3.2,
+     -2.4,
+     1.3
+    ],
+    [
+     "nature/haybale",
+     3.4,
+     -1.0,
+     1.1
+    ],
+    [
+     "tools/wheelbarrow",
+     -3.6,
+     -0.6,
+     1.1
+    ]
+   ],
+   "text": "$10",
+   "say": "O fazendeiro foi até a casa do vizinho, com as notas na mão. \"Eu pago dez dólares\", ofereceu ele.",
+   "shot_lock": true,
+   "impact": false,
+   "detalhe": false
+  },
+  {
+   "shot": "two",
+   "who": [
+    "IRL:0:shout",
+    "FAZ:0:surprised:money"
+   ],
+   "interacao": "discutir",
+   "acao": "discutir",
+   "text": "$100",
+   "props": [
+    [
+     "nature/picket_fence",
+     3.2,
+     -2.4,
+     1.3
+    ]
+   ],
+   "say": "\"Dez? Ele vale cem!\", gritou o dono, empurrando o dinheiro de volta. Ninguém cedeu.",
+   "shot_lock": true,
+   "impact": false,
+   "detalhe": false
   },
   {
    "shot": "reveal",
@@ -142,7 +256,8 @@
    },
    "text": "TROPAS",
    "titulo": true,
-   "say": "Os ingleses ameaçaram prender o fazendeiro. Então os Estados Unidos mandaram soldados para a ilha."
+   "say": "Os ingleses ameaçaram prender o fazendeiro. Então os Estados Unidos mandaram soldados para a ilha.",
+   "set": "harbor"
   },
   {
    "shot": "crowd",
@@ -168,7 +283,8 @@
     "sting@10",
     "thump@40"
    ],
-   "say": "Acontece que a Inglaterra respondeu com navios de guerra. Em poucas semanas, eram centenas de soldados e dezenas de canhões, apontados uns para os outros."
+   "say": "Acontece que a Inglaterra respondeu com navios de guerra. Logo eram centenas de soldados e dezenas de canhões, apontados uns para os outros.",
+   "set": "harbor"
   },
   {
    "shot": "two",
@@ -177,7 +293,8 @@
     "ING:1:nervous"
    ],
    "interior": "madeira",
-   "say": "O almirante inglês recebeu a ordem de atacar. \"Não vou começar uma guerra por causa de um porco\", respondeu ele."
+   "say": "O almirante inglês recebeu a ordem de atacar. \"Não vou começar uma guerra por causa de um porco\", respondeu ele.",
+   "riscos_ok": true
   },
   {
    "shot": "group",
@@ -186,7 +303,7 @@
     "AME:0:laugh",
     "ING:1:smile"
    ],
-   "say": "Os soldados passaram meses trocando insultos, e depois, visitas e festas. Ninguém deu um tiro."
+   "say": "Os soldados passaram meses trocando insultos, e depois, festas. Ninguém deu um tiro."
   },
   {
    "shot": "two",
@@ -195,14 +312,30 @@
     "AME:1:smile"
    ],
    "text": "13 ANOS",
-   "say": "Treze anos depois, um árbitro decidiu que a ilha era americana."
+   "say": "Treze anos depois, um árbitro decidiu que a ilha era americana.",
+   "riscos_ok": true
   },
   {
    "shot": "close",
    "who": [
-    "FAZ:0:pained"
+    "FAZ:0:sad"
    ],
-   "say": "A única baixa da guerra foi o porco."
+   "say": "A única baixa da guerra foi o porco.",
+   "riscos_ok": true,
+   "props": [
+    [
+     "kit/cross",
+     1.5,
+     -0.9,
+     0.8
+    ],
+    [
+     "nature/picket_fence",
+     -2.6,
+     -2.4,
+     1.2
+    ]
+   ]
   }
  ],
  "heroi": null

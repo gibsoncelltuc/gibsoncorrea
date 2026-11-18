@@ -1,131 +1,139 @@
 {
- "duration": 67.68,
- "frames30": 2030,
- "source": "silence-align (cost 0.82)",
+ "duration": 70.08,
+ "frames30": 2102,
+ "source": "silence-align (cost 1.10)",
  "segments": [
   [
    0.148625,
    2.89246
   ],
   [
-   3.73637,
-   4.72942
+   3.72558,
+   4.69125
   ],
   [
-   4.90921,
-   6.55383
+   4.89363,
+   6.50179
   ],
   [
-   7.40833,
-   9.21425
+   6.76138,
+   8.38663
   ],
   [
-   9.49837,
-   11.147
+   9.22758,
+   9.69117
   ],
   [
-   12.0002,
-   12.4715
+   9.93025,
+   13.4727
   ],
   [
-   12.7028,
-   16.2465
+   14.3331,
+   15.5636
   ],
   [
-   17.1056,
-   18.3362
+   15.7797,
+   16.2467
   ],
   [
-   18.5523,
-   19.0193
+   17.1105,
+   18.7347
   ],
   [
-   19.883,
-   21.5062
+   19.5844,
+   21.4875
   ],
   [
-   22.3644,
-   23.5784
+   21.8067,
+   22.7774
   ],
   [
-   23.7776,
-   24.6577
+   23.6455,
+   24.887
   ],
   [
-   25.5207,
-   26.279
+   25.1652,
+   25.8794
   ],
   [
-   26.5903,
-   27.4355
+   26.7368,
+   27.1127
   ],
   [
-   28.3032,
-   29.1092
+   27.9697,
+   28.7735
   ],
   [
-   29.9788,
-   32.1306
+   29.0137,
+   29.731
   ],
   [
-   32.9712,
-   35.7563
+   29.9715,
+   31.3626
   ],
   [
-   36.5943,
-   39.4427
+   32.2121,
+   33.018
   ],
   [
-   40.3069,
-   41.3228
+   33.8877,
+   36.0395
   ],
   [
-   41.5614,
-   43.9099
+   36.8802,
+   39.6516
   ],
   [
-   44.1646,
-   45.6065
+   40.5031,
+   43.3515
   ],
   [
-   46.4533,
-   48.7276
+   44.2081,
+   46.895
   ],
   [
-   49.5375,
-   51.8471
+   47.1594,
+   48.5731
   ],
   [
-   52.2146,
-   52.9337
+   49.4325,
+   51.691
   ],
   [
-   53.8024,
-   56.0421
+   52.5167,
+   54.8263
   ],
   [
-   56.2565,
-   56.7779
+   55.1938,
+   55.9126
   ],
   [
-   57.0151,
-   58.1087
+   56.7705,
+   59.0345
   ],
   [
-   58.9756,
-   60.0223
+   59.2105,
+   59.7512
   ],
   [
-   60.8667,
-   61.9173
+   60.0276,
+   60.5185
   ],
   [
-   62.1393,
-   64.2705
+   61.3752,
+   62.4219
   ],
   [
-   65.1177,
-   66.8885
+   63.265,
+   64.3175
+  ],
+  [
+   64.5389,
+   66.6701
+  ],
+  [
+   67.5173,
+   69.2881
   ]
  ],
  "phrases": [
@@ -136,153 +144,163 @@
   },
   {
    "text": "Era uma ilha pequena,",
-   "s": 3.736,
-   "e": 4.729
+   "s": 3.726,
+   "e": 4.691
   },
   {
-   "text": "entre os Estados Unidos e o Canad\u00e1.",
-   "s": 4.909,
-   "e": 6.554
-  },
-  {
-   "text": "Americanos e ingleses moravam l\u00e1,",
-   "s": 7.408,
-   "e": 9.214
+   "text": "entre os Estados Unidos e o Canad\u00e1,",
+   "s": 4.894,
+   "e": 6.502
   },
   {
    "text": "e ningu\u00e9m sabia de quem ela era.",
-   "s": 9.498,
-   "e": 11.147
+   "s": 6.761,
+   "e": 8.387
   },
   {
    "text": "Um dia,",
-   "s": 12.0,
-   "e": 12.472
+   "s": 9.228,
+   "e": 9.691
   },
   {
    "text": "um fazendeiro americano encontrou um porco comendo as batatas da horta dele.",
-   "s": 12.703,
-   "e": 16.247
+   "s": 9.93,
+   "e": 13.473
   },
   {
    "text": "Ele pegou a espingarda,",
-   "s": 17.106,
-   "e": 18.336
+   "s": 14.333,
+   "e": 15.564
   },
   {
    "text": "e atirou.",
-   "s": 18.552,
-   "e": 19.019
+   "s": 15.78,
+   "e": 16.247
   },
   {
    "text": "O porco era de um vizinho ingl\u00eas.",
-   "s": 19.883,
-   "e": 21.506
+   "s": 17.11,
+   "e": 18.735
+  },
+  {
+   "text": "O fazendeiro foi at\u00e9 a casa do vizinho,",
+   "s": 19.584,
+   "e": 21.488
+  },
+  {
+   "text": "com as notas na m\u00e3o.",
+   "s": 21.807,
+   "e": 22.777
   },
   {
    "text": "\"Eu pago dez d\u00f3lares\",",
-   "s": 22.364,
-   "e": 23.578
+   "s": 23.645,
+   "e": 24.887
   },
   {
-   "text": "disse o americano.",
-   "s": 23.778,
-   "e": 24.658
+   "text": "ofereceu ele.",
+   "s": 25.165,
+   "e": 25.879
   },
   {
-   "text": "\"Ele vale cem\",",
-   "s": 25.521,
-   "e": 26.279
+   "text": "\"Dez?",
+   "s": 26.737,
+   "e": 27.113
   },
   {
-   "text": "respondeu o dono.",
-   "s": 26.59,
-   "e": 27.436
+   "text": "Ele vale cem!\",",
+   "s": 27.97,
+   "e": 28.773
+  },
+  {
+   "text": "gritou o dono,",
+   "s": 29.014,
+   "e": 29.731
+  },
+  {
+   "text": "empurrando o dinheiro de volta.",
+   "s": 29.971,
+   "e": 31.363
   },
   {
    "text": "Ningu\u00e9m cedeu.",
-   "s": 28.303,
-   "e": 29.109
+   "s": 32.212,
+   "e": 33.018
   },
   {
    "text": "Os ingleses amea\u00e7aram prender o fazendeiro.",
-   "s": 29.979,
-   "e": 32.131
+   "s": 33.888,
+   "e": 36.039
   },
   {
    "text": "Ent\u00e3o os Estados Unidos mandaram soldados para a ilha.",
-   "s": 32.971,
-   "e": 35.756
+   "s": 36.88,
+   "e": 39.652
   },
   {
    "text": "Acontece que a Inglaterra respondeu com navios de guerra.",
-   "s": 36.594,
-   "e": 39.443
+   "s": 40.503,
+   "e": 43.352
   },
   {
-   "text": "Em poucas semanas,",
-   "s": 40.307,
-   "e": 41.323
-  },
-  {
-   "text": "eram centenas de soldados e dezenas de canh\u00f5es,",
-   "s": 41.561,
-   "e": 43.91
+   "text": "Logo eram centenas de soldados e dezenas de canh\u00f5es,",
+   "s": 44.208,
+   "e": 46.895
   },
   {
    "text": "apontados uns para os outros.",
-   "s": 44.165,
-   "e": 45.606
+   "s": 47.159,
+   "e": 48.573
   },
   {
    "text": "O almirante ingl\u00eas recebeu a ordem de atacar.",
-   "s": 46.453,
-   "e": 48.728
+   "s": 49.432,
+   "e": 51.691
   },
   {
    "text": "\"N\u00e3o vou come\u00e7ar uma guerra por causa de um porco\",",
-   "s": 49.538,
-   "e": 51.847
+   "s": 52.517,
+   "e": 54.826
   },
   {
    "text": "respondeu ele.",
-   "s": 52.215,
-   "e": 52.934
+   "s": 55.194,
+   "e": 55.913
   },
   {
    "text": "Os soldados passaram meses trocando insultos,",
-   "s": 53.802,
-   "e": 56.042
+   "s": 56.77,
+   "e": 59.035
   },
   {
    "text": "e depois,",
-   "s": 56.257,
-   "e": 56.778
+   "s": 59.211,
+   "e": 59.751
   },
   {
-   "text": "visitas e festas.",
-   "s": 57.015,
-   "e": 58.109
+   "text": "festas.",
+   "s": 60.028,
+   "e": 60.519
   },
   {
    "text": "Ningu\u00e9m deu um tiro.",
-   "s": 58.976,
-   "e": 60.022
+   "s": 61.375,
+   "e": 62.422
   },
   {
    "text": "Treze anos depois,",
-   "s": 60.867,
-   "e": 61.917
+   "s": 63.265,
+   "e": 64.317
   },
   {
    "text": "um \u00e1rbitro decidiu que a ilha era americana.",
-   "s": 62.139,
-   "e": 64.27
+   "s": 64.539,
+   "e": 66.67
   },
   {
    "text": "A \u00fanica baixa da guerra foi o porco.",
-   "s": 65.118,
-   "e": 66.888
+   "s": 67.517,
+   "e": 69.288
   }
  ]
 }
