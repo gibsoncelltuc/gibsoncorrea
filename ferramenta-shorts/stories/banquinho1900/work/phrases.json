@@ -1,0 +1,225 @@
+{
+ "duration": 55.344,
+ "frames30": 1660,
+ "source": "silence-align (cost 0.31)",
+ "segments": [
+  [
+   0.16,
+   2.55817
+  ],
+  [
+   2.77921,
+   3.97925
+  ],
+  [
+   4.84096,
+   5.74642
+  ],
+  [
+   6.03308,
+   8.75762
+  ],
+  [
+   8.99892,
+   10.3305
+  ],
+  [
+   11.1822,
+   13.3605
+  ],
+  [
+   13.6089,
+   15.1711
+  ],
+  [
+   16.0049,
+   17.5672
+  ],
+  [
+   18.444,
+   20.9514
+  ],
+  [
+   21.3491,
+   23.1989
+  ],
+  [
+   24.0489,
+   25.8146
+  ],
+  [
+   26.1371,
+   28.658
+  ],
+  [
+   29.5045,
+   30.3755
+  ],
+  [
+   30.675,
+   32.2361
+  ],
+  [
+   32.5328,
+   34.5589
+  ],
+  [
+   35.4485,
+   38.3135
+  ],
+  [
+   38.5913,
+   40.3493
+  ],
+  [
+   41.2074,
+   41.609
+  ],
+  [
+   41.9074,
+   44.6613
+  ],
+  [
+   44.9371,
+   45.7775
+  ],
+  [
+   46.6427,
+   48.3308
+  ],
+  [
+   48.6184,
+   50.5212
+  ],
+  [
+   51.386,
+   52.743
+  ],
+  [
+   52.9748,
+   54.5266
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um governador ingl\u00eas pediu para sentar num banquinho,",
+   "s": 0.16,
+   "e": 2.558
+  },
+  {
+   "text": "e isso come\u00e7ou uma guerra.",
+   "s": 2.779,
+   "e": 3.979
+  },
+  {
+   "text": "Em mil e novecentos,",
+   "s": 4.841,
+   "e": 5.746
+  },
+  {
+   "text": "os ingleses mandavam numa regi\u00e3o da \u00c1frica chamada Gana,",
+   "s": 6.033,
+   "e": 8.758
+  },
+  {
+   "text": "onde vivia o povo ashanti.",
+   "s": 8.999,
+   "e": 10.331
+  },
+  {
+   "text": "Os ashanti tinham um banquinho dourado sagrado,",
+   "s": 11.182,
+   "e": 13.361
+  },
+  {
+   "text": "que representava a alma do povo.",
+   "s": 13.609,
+   "e": 15.171
+  },
+  {
+   "text": "Nem o rei podia sentar nele.",
+   "s": 16.005,
+   "e": 17.567
+  },
+  {
+   "text": "Acontece que o governador ingl\u00eas exigiu o banquinho:",
+   "s": 18.444,
+   "e": 20.951
+  },
+  {
+   "text": "\"Por que eu ainda n\u00e3o estou sentado nele?\"",
+   "s": 21.349,
+   "e": 23.199
+  },
+  {
+   "text": "Os l\u00edderes ashanti ficaram em choque,",
+   "s": 24.049,
+   "e": 25.815
+  },
+  {
+   "text": "porque isso era como pedir para sentar na alma deles.",
+   "s": 26.137,
+   "e": 28.658
+  },
+  {
+   "text": "Eles se revoltaram,",
+   "s": 29.505,
+   "e": 30.375
+  },
+  {
+   "text": "cercaram o forte onde ele estava,",
+   "s": 30.675,
+   "e": 32.236
+  },
+  {
+   "text": "e o governador teve que se trancar l\u00e1 dentro.",
+   "s": 32.533,
+   "e": 34.559
+  },
+  {
+   "text": "Soldados ingleses marcharam para salvar o governador preso,",
+   "s": 35.449,
+   "e": 38.313
+  },
+  {
+   "text": "e a guerra seguiu por v\u00e1rios meses.",
+   "s": 38.591,
+   "e": 40.349
+  },
+  {
+   "text": "No fim,",
+   "s": 41.207,
+   "e": 41.609
+  },
+  {
+   "text": "os ingleses venceram a guerra e tomaram o controle da regi\u00e3o,",
+   "s": 41.907,
+   "e": 44.661
+  },
+  {
+   "text": "que virou col\u00f4nia.",
+   "s": 44.937,
+   "e": 45.778
+  },
+  {
+   "text": "Mas os ashanti esconderam o banquinho,",
+   "s": 46.643,
+   "e": 48.331
+  },
+  {
+   "text": "e os ingleses nunca conseguiram lev\u00e1-lo.",
+   "s": 48.618,
+   "e": 50.521
+  },
+  {
+   "text": "O governador ganhou a guerra,",
+   "s": 51.386,
+   "e": 52.743
+  },
+  {
+   "text": "mas o banquinho nunca foi dele.",
+   "s": 52.975,
+   "e": 54.527
+  }
+ ]
+}
