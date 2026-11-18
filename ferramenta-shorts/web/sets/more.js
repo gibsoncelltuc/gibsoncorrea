@@ -3,7 +3,7 @@ SETDEF.arctic = (X) => {
   groundPlane(X, 0, 300, 220, MW.snow, DECK, 8); groundPlane(X, -30, 120, 60, toon({ color: '#a9c2f2' }), DECK + 0.02, 8);
   const rf = P.rng(21); for (let i = 0; i < 22; i++) libInst('nature/rocks', X + (rf() - 0.5) * 180, DECK, -10 - rf() * 70, rf() * 6, 1.6 + rf() * 2.2);
   const h = add(new THREE.SphereGeometry(1, 20, 12), toon({ color: '#92aee6' }), X, DECK - 1, -80, world); h.scale.set(60, 14, 30);
-  makeFlag('canada', X - 9, DECK + 3.4, -3, 2.2, 1.2, 3.4, 0); makeFlag('denmark', X + 9, DECK + 3.4, -3, 2.2, 1.2, 3.4, 0); makeTufts(X, 0, 200, 120, 500, ['#e8f0f8', '#d6e4f0'], () => true, 0.2); farHills(X, -150, '#a9bfd8', '#b9cde4', 18, 300);
+  if (typeof SPEC_FLAGS !== 'undefined' && SPEC_FLAGS) { makeFlag('canada', X - 9, DECK + 3.4, -3, 2.2, 1.2, 3.4, 0); makeFlag('denmark', X + 9, DECK + 3.4, -3, 2.2, 1.2, 3.4, 0); }   /* bandeiras so' quando o roteiro pede (elas apareciam em qualquer cena de neve) */ makeTufts(X, 0, 200, 120, 500, ['#e8f0f8', '#d6e4f0'], () => true, 0.2); farHills(X, -150, '#a9bfd8', '#b9cde4', 18, 300);
 };
 SETDEF.palace = (X) => {
   groundPlane(X, 0, 300, 220, MW.sand, DECK, 8); groundPlane(X, 40, 300, 60, toon({ color: '#d4bd88' }), DECK + 0.02, 8);
