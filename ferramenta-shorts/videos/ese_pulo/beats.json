@@ -6,7 +6,7 @@
  "title": "E Se Todo Mundo Pulasse ao Mesmo Tempo?",
  "titulo_base": "E Se Todo Mundo Pulasse ao Mesmo Tempo?",
  "set": "street",
- "light": "day",
+ "light": "golden",
  "mood": "playful",
  "heroi": "kit/globe",
  "outfits": {
@@ -218,5 +218,6 @@
    "acao": "comemorar",
    "say": "A Terra não liga para o nosso pulo. Mas pode pular aí: ninguém vai sentir."
   }
- ]
+ ],
+ "exp": 1.0
 }
