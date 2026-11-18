@@ -1,17 +1,116 @@
-[["\\bmaca\\b|\\bmacas\\b|\\bmacieiras?\\b", "kit/apple", 1.0, false],
- ["\\bbanheira\\b|\\bbanho\\b", "kit/bathtub", 1.0, false],
- ["\\bcoroa\\b", "kit/crown", 0.8, false],
- ["\\bpena\\b", "kit/feather", 1.0, false],
- ["\\bpratos?\\b|\\bmofo\\b|\\bbolor\\b", "kit/petri", 1.0, false],
- ["\\bmicro-?ondas\\b|\\bmicroondas\\b|\\bforno\\b", "kit/microwave", 1.0, false],
- ["\\bchocolate\\b", "kit/chocolate", 1.8, false],
- ["\\bovos?\\b", "kit/egg", 2.2, false],
- ["\\bpipocas?\\b|\\bmilho\\b", "kit/popcorn", 2.2, false],
- ["\\binjecao\\b|\\binjecoes\\b|\\bseringa\\b|\\bvacina\\b", "kit/syringe", 1.4, false],
- ["\\bpipas?\\b", "kit/kite", 1.6, false],
- ["\\bchave\\b", "kit/key", 1.4, false],
- ["\\bpararaios\\b", "kit/lightning_rod", 1.0, false],
- ["\\btentilhoes?\\b|\\bpassarinhos?\\b|\\baves?\\b", "kit/finch", 1.3, false],
- ["\\bervilhas?\\b", "kit/pea_green", 1.6, false],
- ["\\bglobo\\b|\\bplaneta\\b", "kit/globe", 1.3, false],
- ["\\bvaras?\\b", "kit/stick", 1.3, false]]
+[
+[
+"\\bmaca\\b|\\bmacas\\b|\\bmacieiras?\\b",
+"kit/apple",
+1.0,
+false
+],
+[
+"\\bbanheira\\b|\\bbanho\\b",
+"kit/bathtub",
+1.0,
+false
+],
+[
+"\\bcoroa\\b",
+"kit/crown",
+0.8,
+false
+],
+[
+"\\bpena\\b",
+"kit/feather",
+1.0,
+false
+],
+[
+"\\bpratos?\\b|\\bmofo\\b|\\bbolor\\b",
+"kit/petri",
+1.0,
+false
+],
+[
+"\\bmicro-?ondas\\b|\\bmicroondas\\b|\\bforno\\b",
+"kit/microwave",
+1.0,
+false
+],
+[
+"\\bchocolate\\b",
+"kit/chocolate",
+1.8,
+false
+],
+[
+"\\bovos?\\b",
+"kit/egg",
+2.2,
+false
+],
+[
+"\\bpipocas?\\b|\\bmilho\\b",
+"kit/popcorn",
+2.2,
+false
+],
+[
+"\\binjecao\\b|\\binjecoes\\b|\\bseringa\\b|\\bvacina\\b",
+"kit/syringe",
+1.4,
+false
+],
+[
+"\\bpipas?\\b",
+"kit/kite",
+1.6,
+false
+],
+[
+"\\bchave\\b",
+"kit/key",
+1.4,
+false
+],
+[
+"\\bpararaios\\b",
+"kit/lightning_rod",
+1.0,
+false
+],
+[
+"\\btentilhoes?\\b|\\bpassarinhos?\\b|\\baves?\\b",
+"kit/finch",
+1.3,
+false
+],
+[
+"\\bervilhas?\\b",
+"kit/pea_green",
+1.6,
+false
+],
+[
+"\\bglobo\\b|\\bplaneta\\b",
+"kit/globe",
+1.3,
+false
+],
+[
+"\\bvaras?\\b",
+"kit/stick",
+1.3,
+false
+],
+[
+"\\bfoguete\\b|\\bfoguetes\\b|falcon",
+"kit/rocket",
+1.4,
+false
+],
+[
+"\\broadster\\b|\\btesla\\b",
+"kit/roadster",
+1.6,
+false
+]
+]

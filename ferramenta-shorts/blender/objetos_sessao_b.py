@@ -56,3 +56,18 @@ for x in (-.62, .62): cil((x, 1.45, 0), .045, 1.3, '#7a5a3a')
 cil((0, 2.05, 0), .05, 1.4, '#7a5a3a', rot=H); cil((0, 2.2, 0), .05, 1.5, '#8a6a42', raio_topo=.02, rot=H)
 tubo([(0, 1.9, 0), (0, 1.3, 0)], .018, '#d8c898'); cil((0, 1.15, 0), .12, .18, '#6a4a2a', raio_topo=.1)
 fim()
+novo('rocket')             # foguete de 3 corpos (central + 2 laterais), ponta, listra preta, pernas e bocais
+for x in (-.5, 0, .5):
+    h = 3.0 if x else 3.5
+    cil((x, h / 2 + .2, 0), .22, h, '#f2f2ee'); cil((x, h + .35, 0), .22, .3, '#f2f2ee', raio_topo=.06)
+    cil((x, .9, 0), .222, .18, '#1b1b1f'); cil((x, .15, 0), .2, .12, '#3a3a40', raio_topo=.15)
+cil((0, 3.95, 0), .222, .25, '#1b1b1f')
+for x in (-.5, .5): tubo([(x * 1.3, .2, 0), (x * 2.0, -.0, 0)], .03, '#2a2a30')
+fim()
+novo('roadster')           # roadster vermelho conversivel, visto de lado: carroceria, para-brisa, rodas, farol
+caixa((0, .42, 0), (2.2, .34, .95), '#d8282f'); caixa((.2, .66, 0), (1.0, .22, .85), '#d8282f', afina=.8)
+caixa((-.05, .86, 0), (.04, .3, .85), '#9fd4ee', rot=(0, 0, .5)); caixa((.35, .72, 0), (.5, .2, .7), '#1b1b1f')
+for x in (-.7, .7):
+    for z in (-.5, .5): cil((x, .26, z), .26, .18, '#15151a', rot=(math.pi / 2, 0, 0)); cil((x, .26, z), .13, .2, '#b8b8c0', rot=(math.pi / 2, 0, 0))
+bola((-1.12, .45, .3), .07, '#f2e8a0'); bola((-1.12, .45, -.3), .07, '#f2e8a0')
+fim()
