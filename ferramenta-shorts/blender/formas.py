@@ -9,13 +9,15 @@ _S = {}
 def _mat(hexc):
     nm = _S['name'] + hexc; m = bpy.data.materials.get(nm) or bpy.data.materials.new(nm); m.use_nodes = True; h = hexc.lstrip('#'); c = [int(h[i:i + 2], 16) / 255 for i in (0, 2, 4)]
     lin = [(x / 12.92 if x <= .04045 else ((x + .055) / 1.055) ** 2.4) for x in c]; b = m.node_tree.nodes['Principled BSDF']; b.inputs['Base Color'].default_value = (*lin, 1); b.inputs['Roughness'].default_value = 1
+    if _S.get('luz'): b.inputs['Emission Color'].default_value = (*lin, 1); b.inputs['Emission Strength'].default_value = 1.0   # luz(True): brilha no escuro (lampada, LED, satelite no ceu)
     if m not in _S['mats']: _S['mats'].append(m)
     return _S['mats'].index(m)
 def _put(verts, col, c, rot=(0, 0, 0)):
     k = _mat(col); R = Matrix.Rotation(rot[2], 4, 'Y') @ Matrix.Rotation(rot[0], 4, 'X') @ Matrix.Rotation(rot[1], 4, 'Z')   # rot = (inclina p/ frente, inclina p/ lado, gira em pe) em radianos
     for v in verts: p = R @ v.co; v.co = Vector((p.x + c[0], p.y - c[2], p.z + c[1]))
     for f in {f for v in verts for f in v.link_faces}: f.material_index = k
-def novo(name): bpy.ops.wm.read_factory_settings(use_empty=True); _S.update(name=name, bm=bmesh.new(), mats=[])
+def luz(on=True): _S['luz'] = on
+def novo(name): bpy.ops.wm.read_factory_settings(use_empty=True); _S.update(name=name, bm=bmesh.new(), mats=[], luz=False)
 def caixa(c, tam, col, afina=1.0, rot=(0, 0, 0)):          # tam = (largura, altura, profundidade); afina < 1 estreita o topo
     r = bmesh.ops.create_cube(_S['bm'], size=1.0)
     for v in r['verts']: t = afina if v.co.z > 0 else 1.0; v.co = Vector((v.co.x * tam[0] * t, v.co.y * tam[2] * t, v.co.z * tam[1]))
