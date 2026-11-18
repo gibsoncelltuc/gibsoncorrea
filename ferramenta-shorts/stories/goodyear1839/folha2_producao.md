@@ -1,0 +1,145 @@
+# FOLHA 2 - PRODUCAO: Curiosidade e Ciência EP 17 - A Borracha que Caiu no Fogão
+
+Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/goodyear1839/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py goodyear1839` de novo ate esta folha sair sem risco.
+
+## Cena b0 - Um inventor falido deixou cair uma gosma no fogão da cozinha. E mudou ...
+- Cenario: street | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (2): GOO (variante 0, expressao shock); CLA (variante 0, expressao surprised)
+- Animacao: reagir | interacao: avanca e o outro recua
+- Objetos/modelos: kit/stove
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cozinha, fogao, gosma, inventor
+- RISCOS: nenhum
+
+## Cena b1 - Era mil oitocentos e trinta e nove, nos Estados Unidos.
+- Cenario: street | luz: day | clima: limpo
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
+- Animacao: -
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estados
+- RISCOS: nenhum
+
+## Cena b2 - A borracha estava na moda, mas tinha um defeito: no calor, derretia e ...
+- Cenario: street | luz: desert | clima: limpo
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (2): GOO (variante 0, expressao sad); POV (variante 0, expressao angry) | multidao: 12 de POV
+- Animacao: discutir | batalha encenada
+- Objetos/modelos: kit/stove
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): borracha, calor, defeito, frio, moda
+- RISCOS: nenhum
+
+## Cena b3 - Charles Goodyear ficou obcecado. Misturou a borracha com tudo que enco...
+- Cenario: interior madeira | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (2): GOO (variante 0, expressao stern, segura paper); CLA (variante 0, expressao worried)
+- Animacao: conversar | interacao: o outro se aproxima
+- Objetos/modelos: kit/stove
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): borracha, dinheiro, familia
+- RISCOS: nenhum
+
+## Cena b4 - Fez tantas dívidas que foi parar na prisão. E lá dentro continuou faze...
+- Cenario: interior pedra | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Personagens principais (2): GUA (variante 0, expressao stern); GOO (variante 0, expressao sad)
+- Animacao: conversar | interacao: empurrar
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): prisao
+- RISCOS: nenhum
+
+## Cena b5 - Até que um dia, mexendo numa mistura de borracha com enxofre, ele se a...
+- Cenario: interior madeira | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (2): GOO (variante 0, expressao grin); CLA (variante 0, expressao suspicious)
+- Animacao: conversar | interacao: insiste
+- Objetos/modelos: kit/stove
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): borracha, enxofre
+- RISCOS: nenhum
+
+## Cena b6 - A gosma caiu em cima do fogão quente. Ele esperava que derretesse.
+- Cenario: interior madeira | luz: day | clima: limpo
+- Camera: close = close no rosto; empurra devagar
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Personagens principais (1): GOO (variante 0, expressao shock)
+- Animacao: reagir
+- Objetos/modelos: kit/stove
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fogao, gosma
+- RISCOS: nenhum
+
+## Cena b7 - Acontece que não derreteu. Ficou firme e elástica, como couro. Tinha n...
+- Cenario: interior madeira | luz: day | clima: limpo
+- Camera: low = camera baixa, dramatica (virada)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Personagens principais (1): GOO (variante 0, expressao surprised)
+- Animacao: comemorar
+- Objetos/modelos: kit/stove
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): borracha
+- RISCOS: nenhum
+
+## Cena b8 - Ele abraçou a esposa. Finalmente a borracha aguentava calor e frio.
+- Cenario: interior madeira | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Personagens principais (2): GOO (variante 0, expressao laugh); CLA (variante 0, expressao laugh)
+- Animacao: conversar | interacao: abracar
+- Objetos/modelos: kit/stove
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): borracha, esposa
+- RISCOS: nenhum
+
+## Cena b9 - Mas outros copiaram a ideia, e ele passou anos brigando na justiça. Mo...
+- Cenario: street | luz: day | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Personagens principais (2): COB (variante 0, expressao smug); GOO (variante 0, expressao angry) | multidao: 6 de POV
+- Animacao: discutir | interacao: discutir
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dividas, justica
+- RISCOS: nenhum
+
+## Cena b10 - Décadas depois, a borracha dele estava em pneus, bolas e sapatos do mu...
+- Cenario: street | luz: day | clima: limpo
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (3): POV (variante 0, expressao laugh); POV (variante 1, expressao grin); CLA (variante 0, expressao smile) | multidao: 18 de POV
+- Animacao: comemorar | batalha encenada
+- Objetos/modelos: kit/tires, kit/ball, kit/stove
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): borracha
+- RISCOS: nenhum
+
+## Cena b11 - E uma fábrica de pneus famosa ganhou o nome dele em homenagem. Ele nun...
+- Cenario: street | luz: day | clima: limpo
+- Camera: close = close no rosto; empurra devagar
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Personagens principais (1): GOO (variante 0, expressao smile)
+- Animacao: conversar
+- Objetos/modelos: kit/stove, kit/tires
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fabrica, pneus
+- RISCOS: nenhum
+
+## PARA O BLENDER (objetos 3D deste video)
+Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito no Blender; a ferramenta so' poe em cena, pinta o contorno e anima. Nada de objeto "quadradao": use `blender/formas.py` (cil, bola, torno, tubo, arco, caixa com chanfro).
+
+Objeto | Cenas | Situacao | O que fazer
+---|---|---|---
+kit/stove | b0, b2, b3, b5, b6, b7, b8, b10, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/tires | b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/ball | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+
+
+## Video inteiro
+- Objeto heroi: kit/stove | grandes momentos: b2, b10 | planos abertos: 3 | mistura: close 19% | medio 64% | aberto 10% | detalhe 7%
+- Interacoes: b0 avanca e o outro recua, b3 o outro se aproxima, b4 empurrar, b5 insiste, b8 abracar, b9 discutir
+- RISCOS GERAIS: nenhum
+
+## RESUMO: 0 risco(s) em aberto - pode renderizar
+
+## Reparos depois do render
+- Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh goodyear1839 bN bM` (so essas cenas).
+- Mudou narracao, ferramenta ou muitas cenas: `./refazer_tudo.sh goodyear1839` (render completo).
+- Personagem cortado: tire gente do "who" ou use "shot": "group". Cena vazia: confira "who". Objeto fora do quadro: ponha em "props" com x entre -2 e 2. Luz estourada: "hora"/"clima" na cena.

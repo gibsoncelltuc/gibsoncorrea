@@ -1,0 +1,297 @@
+{
+ "duration": 70.536,
+ "frames30": 2116,
+ "source": "silence-align (cost 0.78)",
+ "segments": [
+  [
+   0.160292,
+   3.11167
+  ],
+  [
+   3.94129,
+   4.97404
+  ],
+  [
+   5.11,
+   6.78717
+  ],
+  [
+   7.66004,
+   9.44221
+  ],
+  [
+   9.73354,
+   10.598
+  ],
+  [
+   10.7561,
+   11.8347
+  ],
+  [
+   12.6926,
+   13.4297
+  ],
+  [
+   13.6219,
+   15.5183
+  ],
+  [
+   15.8434,
+   18.651
+  ],
+  [
+   19.4887,
+   20.3955
+  ],
+  [
+   21.2495,
+   23.1358
+  ],
+  [
+   23.4512,
+   24.7096
+  ],
+  [
+   25.5855,
+   28.6965
+  ],
+  [
+   29.02,
+   30.3336
+  ],
+  [
+   30.5932,
+   32.4933
+  ],
+  [
+   33.3533,
+   34.1638
+  ],
+  [
+   34.4359,
+   35.5155
+  ],
+  [
+   35.8676,
+   36.6032
+  ],
+  [
+   36.8247,
+   37.6092
+  ],
+  [
+   37.8755,
+   38.3786
+  ],
+  [
+   39.2396,
+   41.0547
+  ],
+  [
+   41.2871,
+   42.1507
+  ],
+  [
+   42.4243,
+   43.7477
+  ],
+  [
+   44.6311,
+   46.987
+  ],
+  [
+   47.8423,
+   49.2361
+  ],
+  [
+   50.0916,
+   52.385
+  ],
+  [
+   53.2455,
+   54.5666
+  ],
+  [
+   54.8059,
+   55.9843
+  ],
+  [
+   56.8204,
+   59.0916
+  ],
+  [
+   59.3626,
+   61.2099
+  ],
+  [
+   62.0778,
+   65.6002
+  ],
+  [
+   66.4609,
+   69.7236
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Elon Musk fez uma piada de primeiro de abril sobre tequila.",
+   "s": 0.16,
+   "e": 3.112
+  },
+  {
+   "text": "Dois anos depois,",
+   "s": 3.941,
+   "e": 4.974
+  },
+  {
+   "text": "a piada virou produto de verdade.",
+   "s": 5.11,
+   "e": 6.787
+  },
+  {
+   "text": "Era primeiro de abril de dois mil e dezoito,",
+   "s": 7.66,
+   "e": 9.442
+  },
+  {
+   "text": "o dia da mentira,",
+   "s": 9.734,
+   "e": 10.598
+  },
+  {
+   "text": "nos Estados Unidos.",
+   "s": 10.756,
+   "e": 11.835
+  },
+  {
+   "text": "De brincadeira,",
+   "s": 12.693,
+   "e": 13.43
+  },
+  {
+   "text": "Musk postou que a Tesla tinha falido,",
+   "s": 13.622,
+   "e": 15.518
+  },
+  {
+   "text": "e apareceu cercado de garrafas de uma tal de Teslaquila.",
+   "s": 15.843,
+   "e": 18.651
+  },
+  {
+   "text": "Muita gente riu.",
+   "s": 19.489,
+   "e": 20.395
+  },
+  {
+   "text": "Mas ele resolveu levar a ideia a s\u00e9rio,",
+   "s": 21.25,
+   "e": 23.136
+  },
+  {
+   "text": "e tentou registrar o nome.",
+   "s": 23.451,
+   "e": 24.71
+  },
+  {
+   "text": "Acontece que o conselho que protege a tequila no M\u00e9xico reclamou:",
+   "s": 25.585,
+   "e": 28.697
+  },
+  {
+   "text": "o nome tequila tem regras,",
+   "s": 29.02,
+   "e": 30.334
+  },
+  {
+   "text": "e n\u00e3o podia ser usado de qualquer jeito.",
+   "s": 30.593,
+   "e": 32.493
+  },
+  {
+   "text": "Em dois mil e vinte,",
+   "s": 33.353,
+   "e": 34.164
+  },
+  {
+   "text": "saiu com outro nome:",
+   "s": 34.436,
+   "e": 35.516
+  },
+  {
+   "text": "Tesla Tequila,",
+   "s": 35.868,
+   "e": 36.603
+  },
+  {
+   "text": "feita no M\u00e9xico,",
+   "s": 36.825,
+   "e": 37.609
+  },
+  {
+   "text": "com agave.",
+   "s": 37.876,
+   "e": 38.379
+  },
+  {
+   "text": "A garrafa era de vidro soprado \u00e0 m\u00e3o,",
+   "s": 39.24,
+   "e": 41.055
+  },
+  {
+   "text": "em forma de raio,",
+   "s": 41.287,
+   "e": 42.151
+  },
+  {
+   "text": "presa num suporte de metal.",
+   "s": 42.424,
+   "e": 43.748
+  },
+  {
+   "text": "Cada uma custava duzentos e cinquenta d\u00f3lares.",
+   "s": 44.631,
+   "e": 46.987
+  },
+  {
+   "text": "E esgotou em poucas horas.",
+   "s": 47.842,
+   "e": 49.236
+  },
+  {
+   "text": "Logo apareceu gente revendendo na internet.",
+   "s": 50.092,
+   "e": 52.385
+  },
+  {
+   "text": "At\u00e9 garrafas vazias,",
+   "s": 53.245,
+   "e": 54.567
+  },
+  {
+   "text": "por centenas de d\u00f3lares.",
+   "s": 54.806,
+   "e": 55.984
+  },
+  {
+   "text": "Um an\u00fancio passou de mil e quatrocentos d\u00f3lares,",
+   "s": 56.82,
+   "e": 59.092
+  },
+  {
+   "text": "por uma garrafa sem nenhuma gota dentro.",
+   "s": 59.363,
+   "e": 61.21
+  },
+  {
+   "text": "A garrafa em forma de raio virou item de colecionador dos f\u00e3s da marca.",
+   "s": 62.078,
+   "e": 65.6
+  },
+  {
+   "text": "Uma piada do dia da mentira que terminou numa prateleira de verdade.",
+   "s": 66.461,
+   "e": 69.724
+  }
+ ]
+}

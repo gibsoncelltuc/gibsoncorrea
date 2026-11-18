@@ -1,0 +1,25 @@
+# Pre-producao - Poder e Fama EP 20 - A Piada que Virou Tequila
+
+Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blender (blender/make_*.py) ou trocado no roteiro.
+
+Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
+---|---|---|---|---|---|---|---
+b0 | street | two | 2 | conversar, INTERAGEM: insiste | kit/tequila_bolt | - | -
+b1 | street | reveal | 8 | parados (so fala e pisca) | - | - | -
+b2 | street | two | 2 | discutir, INTERAGEM: discutir, alguem chega andando | kit/tequila_bolt, nature/picket_fence | - | -
+b3 | street | two | 2 | comemorar, INTERAGEM: entregar | - | paper | -
+b4 | street | low | 2 | discutir, INTERAGEM: o outro se aproxima | kit/tequila_bolt | - | -
+b5 | interior loja | two | 2 | conversar, INTERAGEM: cochichar | kit/tequila_bolt | - | -
+b6 | interior loja | close | 1 | comemorar | kit/tequila_bolt | - | -
+b7 | street | crowd | 23 | comemorar, batalha | kit/tequila_bolt | - | -
+b8 | street | two | 2 | reagir, INTERAGEM: entregar, alguem chega andando | kit/tequila_bolt | paper | -
+b9 | street | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/tequila_bolt | - | -
+b10 | street | orbit | 21 | comemorar, batalha | kit/tequila_bolt | - | -
+b11 | street | close | 1 | comemorar | kit/tequila_bolt | - | -
+
+OBJETO HEROI: kit/tequila_bolt - aparece em 10 cena(s), close nele em 3
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b7, b10
+Interacoes entre personagens: b0 insiste, b2 discutir, b3 entregar, b4 o outro se aproxima, b5 cochichar, b8 entregar, b9 vai ate o outro
+
+Cenas com personagens parados: 1 de 12
+FALTA MODELAR: nada
