@@ -53,7 +53,8 @@
     "x": 0.5,
     "z": 1.0,
     "cols": 5
-   }
+   },
+   "riscos_ok": true
   },
   {
    "say": "Vinte mil emus estavam devorando as plantações de trigo no oeste do país, e os fazendeiros foram pedir socorro ao governo.",
@@ -71,7 +72,9 @@
     "x": 5.5,
     "z": 0.5,
     "cols": 3
-   }
+   },
+   "mapa": "AUSTRÁLIA",
+   "mapa_at": 3
   },
   {
    "shot": "two",
@@ -110,6 +113,13 @@
     "n": 14,
     "outfit": "AUS",
     "march": true
+   },
+   "emus": {
+    "n": 4,
+    "mode": "stand",
+    "x": 4.5,
+    "z": 0.5,
+    "cols": 2
    }
   },
   {
@@ -162,7 +172,8 @@
     "dir": -1
    },
    "shot_lock": true,
-   "move": 0
+   "move": 0,
+   "riscos_ok": true
   },
   {
    "say": "Depois de uma semana, milhares de balas gastas, e os emus quase sem um arranhão.",
@@ -233,7 +244,14 @@
    ],
    "text": "RECOMPENSA",
    "tat": 9,
-   "light": "golden"
+   "light": "golden",
+   "emus": {
+    "n": 3,
+    "mode": "stand",
+    "x": 4.5,
+    "z": 0.5,
+    "cols": 3
+   }
   },
   {
    "say": "Humanos, zero. Emus, um.",
@@ -254,5 +272,6 @@
    "light": "golden",
    "titulo": true
   }
- ]
+ ],
+ "heroi": null
 }
