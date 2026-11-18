@@ -1,0 +1,15 @@
+{
+  "lm_model": "acestep-5Hz-lm-1.7B-Q8_0.gguf",
+  "synth_model": "acestep-v15-turbo-Q8_0.gguf",
+  "caption": "Brazilian kids dance-pop with a punchy driving beat, strong kick drum and snare, funky baile-inspired groove (clean and family-friendly), deep round bass, crisp hand claps, extremely catchy sing-along hook, warm friendly adult vocal with an energetic kids choir answering, bright and playful, polished studio-quality mix, the hook starts right on the first beat with no intro, every section lasts exactly 4 bars, short repeated chorus, simple melody in small steps, the last chorus goes up by a whole step (key change), clear Portuguese pronunciation of every word, bouncy funk-pop groove, stomping kick and claps on every beat, synth stabs, round 808 bass, bright glockenspiel hook",
+  "lyrics": "[Chorus]\nPé, pé, bate o pezinho,\npá, pá, com muito carinho,\ngira, gira, devagarinho,\ndança com o seu amiguinho!\n\n[Verse 1]\nUm pezinho vai pra frente,\noutro pezinho vai pra trás,\ntodo mundo está contente,\ndançando e pedindo mais!\n\n[Chorus]\nPé, pé, bate o pezinho,\npá, pá, com muito carinho,\ngira, gira, devagarinho,\ndança com o seu amiguinho!\n\n[Verse 2]\nBate palma, bate o pé,\ndança, dança, sem parar,\nbate o pé, bate o pé,\nvem comigo, vem dançar!\n\n[Bridge]\nPé, pé, pá, pá,\ntodo mundo vai dançar,\npé, pé, pá, pá,\nninguém quer parar!\n\n[Chorus]\nPé, pé, bate o pezinho,\npá, pá, com muito carinho,\ngira, gira, devagarinho,\ndança com o seu amiguinho!\n\n[Final Chorus]\nPé, pé, bate o pezinho,\npá, pá, com muito carinho,\ngira, gira, devagarinho,\ndança com o seu amiguinho!",
+  "duration": 60,
+  "bpm": 112,
+  "vocal_language": "pt",
+  "keyscale": "C major",
+  "timesignature": "4",
+  "inference_steps": 8,
+  "guidance_scale": 1.0,
+  "shift": 3.0,
+  "seed": 23
+}
