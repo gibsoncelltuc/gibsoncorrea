@@ -131,20 +131,23 @@ box((sx, 6.6, 0), (1.0, 0.7, 1.0), '#d9cfb5'); box((sx, 7.1, 0), (1.1, 0.12, 1.1
 box((0, 0.04, 0), (2.4, 0.08, 2.4), '#7f9a5c')
 done()
 box, done = start('feather')      # pena branca
-box((0, 0.04, 0), (0.05, 0.05, 0.9), '#e8e2d0')
+box((0, 0.06, 0), (0.07, 0.08, 1.0), '#c9b88a')
 for k in range(6):
     z = -0.3 + k * 0.12; w = 0.3 - abs(k - 2.5) * 0.04
-    box((0.12, 0.05, z), (w, 0.02, 0.1), '#ffffff'); box((-0.12, 0.05, z), (w, 0.02, 0.1), '#f4f0e6')
+    box((0.15, 0.06, z), (w * 1.6, 0.07, 0.14), '#ffffff'); box((-0.15, 0.06, z), (w * 1.6, 0.07, 0.14), '#efe9da')
 done()
 from mathutils import Matrix
 def _petri(bm, mats):   # prato de Petri: disco de agar claro, mancha verde de bolor no meio e halo limpo ao redor
     for v in bm.verts: v.co.z *= 0.16; v.co.z += 0.06
-    mats.append(mat('petg', '#4f9a3c')); mats.append(mat('petc', '#f6f1d8'))
+    mats.append(mat('petg', '#2f7a2a')); mats.append(mat('petc', '#f7d9d0')); mats.append(mat('petv', '#b9d3dc'))
     n0 = len(bm.faces)
-    r = bmesh.ops.create_icosphere(bm, subdivisions=2, radius=0.34, matrix=Matrix.Translation((0.0, 0.0, 0.07)))
+    r = bmesh.ops.create_icosphere(bm, subdivisions=2, radius=0.30, matrix=Matrix.Translation((0.0, 0.0, 0.07)))
     for v in r['verts']: v.co.z = (v.co.z - 0.07) * 0.12 + 0.145
     for f in {f for v in r['verts'] for f in v.link_faces}: f.material_index = 2     # halo claro (bacterias mortas)
-    r = bmesh.ops.create_icosphere(bm, subdivisions=2, radius=0.14, matrix=Matrix.Translation((0.0, 0.0, 0.07)))
+    r = bmesh.ops.create_icosphere(bm, subdivisions=2, radius=0.20, matrix=Matrix.Translation((0.08, 0.04, 0.07)))
     for v in r['verts']: v.co.z = (v.co.z - 0.07) * 0.5 + 0.17
     for f in {f for v in r['verts'] for f in v.link_faces}: f.material_index = 1     # bolor verde
-sphere('petri', 0.62, 0.0, '#d9b45a', _petri)
+    r = bmesh.ops.create_icosphere(bm, subdivisions=2, radius=0.68, matrix=Matrix.Translation((0.0, 0.0, 0.03)))      # fundo de vidro maior e fino
+    for v in r['verts']: v.co.z = (v.co.z - 0.03) * 0.08 + 0.03
+    for f in {f for v in r['verts'] for f in v.link_faces}: f.material_index = 3
+sphere('petri', 0.60, 0.0, '#e7a9a0', _petri)
