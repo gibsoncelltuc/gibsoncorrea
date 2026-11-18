@@ -4,6 +4,6 @@
  ["\\bpena\\b", "kit/feather", 1.0, false],
  ["\\bpratos?\\b|\\bmofo\\b|\\bbolor\\b", "kit/petri", 1.0, false],
  ["\\bmicro-?ondas\\b|\\bmicroondas\\b|\\bforno\\b", "kit/microwave", 1.0, false],
- ["\\bchocolate\\b", "kit/chocolate", 1.0, false],
- ["\\bovos?\\b", "kit/egg", 1.0, false],
- ["\\bpipocas?\\b|\\bmilho\\b", "kit/popcorn", 1.0, false]]
+ ["\\bchocolate\\b", "kit/chocolate", 1.8, false],
+ ["\\bovos?\\b", "kit/egg", 2.2, false],
+ ["\\bpipocas?\\b|\\bmilho\\b", "kit/popcorn", 2.2, false]]
