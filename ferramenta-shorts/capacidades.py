@@ -14,7 +14,7 @@ L = ['# CAPACIDADES DA FERRAMENTA (gerado por capacidades.py - nao edite a mao)'
      '## Hora e clima', '"hora": dia | amanhecer | pordosol | noite ; "clima": limpo | chuva | tempestade | neve | neblina | calor (a ferramenta tambem le essas palavras na narracao)', '',
      '## Expressoes (3o campo do "who": "FAZ:0:angry")', ', '.join(faces), '',
      '## Acoes e interacoes', '"acao": conversar | discutir | comemorar | dancar | nenhuma ; "interacao": empurrar | discutir | cochichar | entregar | susto | reverencia | pular ; "chega": true (entra andando) ; "batalha": true (tropa, tiros, fuga) ; "caminhoes": true', '',
-     '## Objeto na mao (4o campo do "who": "FAZ:0:stern:coin")', 'bottle, mug, paper, book, lantern, pitchfork, staff, flag, torch, bag, coin, spyglass, shovel, tulip', '',
+     '## Objeto na mao (4o campo do "who": "FAZ:0:stern:coin")', 'bottle, mug, paper, book, lantern, pitchfork, staff, flag, torch, bag, coin, spyglass, shovel, tulip, money (notas de dolar)', '',
      '## Chapeus ("hat" no figurino)', ', '.join(hats) or '-', '',
      '## Animais', '"animals": [["pig", x, z, "stand|walk", escala]] , [["chicken", ...]] ; "emus": true', '',
      '## Objetos que entram SOZINHOS quando a narracao cita a palavra', *[f'- {a}  <- {r}' + ('  (fundo, so cena externa)' if b == 'True' else '  (so interior)' if b == "'in'" else '') for r, a, b in obj], '',

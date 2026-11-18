@@ -62,7 +62,7 @@ const actFor = (f, a, ai, S, persons, seed) => {
   if (persons.length >= 2 && r < 2 && (a.pose === 'talk' || a.pose === 'argue') && !(L.key && (L.kk || 0) > 0.2)) {
     const tn = Math.floor((f - S.a) / 38), ph = (f - S.a) % 38; spk = (tn % 2) === r; const vs = (SPEC.vseed || 0) + seed;
     if (a.pose === 'argue') dexpr = spk ? (['shout', 'angry', 'shout', 'stern'][(tn + vs) % 4]) : (['angry', 'suspicious', 'surprised', 'stern', 'scared'][(tn + vs) % 5]);
-    else dexpr = spk ? cur.e : (['neutral', 'suspicious', 'surprised', 'smile_closed', 'nervous', 'smug'][(tn + vs) % 6]);
+    else { const neg = ['angry', 'stern', 'shout', 'suspicious', 'sad', 'cry', 'pained'].includes(cur.base), pos = ['smile', 'grin', 'laugh', 'smug'].includes(cur.base); dexpr = spk ? cur.e : ((neg ? ['angry', 'suspicious', 'stern', 'bored', 'suspicious'] : pos ? ['smile', 'smug', 'surprised', 'grin', 'smile_closed'] : ['neutral', 'suspicious', 'surprised', 'smile_closed', 'nervous', 'smug'])[(tn + vs) % (neg || pos ? 5 : 6)]); }   /* quem ouve reage dentro do humor do personagem: bravo continua bravo */
     if (spk) { fx.talk = qq(0.3 + 0.7 * Math.abs(Math.sin(f * 1.7)), 1); look = 0.9 * toward; face = 0.5 * toward; fx.browUp = qq(-2 * Math.abs(Math.sin(f * 0.4)), 1); }
     else { fx.skeptic = dexpr === 'suspicious'; look = 0.8 * toward; face = 0.42 * toward; if (ph < 4) lid = Math.max(lid, [0.5, 1, 1, 0.5][ph]); }
   }

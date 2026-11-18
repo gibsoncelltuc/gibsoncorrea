@@ -61,3 +61,26 @@ box((0, 0.85, 0), (2.6, 0.12, 1.2), '#a8703c'); box((0, 0.4, 0.55), (2.6, 0.8, 0
 for i in range(6): box((-1.1 + i * 0.44, 2.3, 0), (0.44, 0.14, 1.5), '#d8282f' if i % 2 else '#f4efe2')
 box((-0.6, 1.0, 0), (0.6, 0.2, 0.5), '#e8b46a', 0.8); box((0.5, 1.0, 0.1), (0.5, 0.2, 0.5), '#e2332f', 0.8); box((0.1, 1.0, -0.2), (0.3, 0.2, 0.3), '#4fa84a', 0.8)
 done()
+
+def sphere(name, r, cy, col, extra=None):   # objetos redondos (bola, chaleira)
+    bpy.ops.wm.read_factory_settings(use_empty=True); bm = bmesh.new(); mats = [mat(name + col, col)]
+    bmesh.ops.create_icosphere(bm, subdivisions=2, radius=r)
+    for v in bm.verts: v.co.z += cy
+    if extra: extra(bm, mats)
+    me = bpy.data.meshes.new(name); bm.to_mesh(me); bm.free()
+    for m in mats: me.materials.append(m)
+    o = bpy.data.objects.new(name, me); bpy.context.collection.objects.link(o)
+    bpy.ops.export_scene.gltf(filepath=OUT + name + '.glb', export_format='GLB', export_yup=True, export_apply=True, export_cameras=False, export_lights=False); print('OK', name, len(me.polygons))
+def _ball(bm, mats):
+    mats.append(mat('ballk', '#22252c'))
+    for i, f in enumerate(bm.faces):
+        if i % 5 == 0: f.material_index = 1
+sphere('ball', 0.42, 0.42, '#f4f1e8', _ball)
+def _kettle(bm, mats):
+    mats.append(mat('ketd', '#2a2d33'))
+    def cube(c, sz):
+        r = bmesh.ops.create_cube(bm, size=1.0)
+        for v in r['verts']: v.co = Vector((v.co.x * sz[0] + c[0], v.co.y * sz[2] + c[2], v.co.z * sz[1] + c[1]))
+        for f in {f for v in r['verts'] for f in v.link_faces}: f.material_index = 1
+    cube((0, 1.02, 0), (0.5, 0.1, 0.5)); cube((0, 1.12, 0), (0.14, 0.12, 0.14)); cube((0.62, 0.72, 0), (0.5, 0.12, 0.12)); cube((-0.6, 0.62, 0), (0.12, 0.5, 0.1)); cube((0, 0.06, 0), (0.7, 0.12, 0.7))
+sphere('kettle', 0.5, 0.56, '#8d949c', _kettle)
