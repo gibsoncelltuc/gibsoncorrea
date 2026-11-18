@@ -22,9 +22,9 @@ def caixa(c, tam, col, afina=1.0, rot=(0, 0, 0)):          # tam = (largura, alt
     _put(r['verts'], col, c, rot)
 def cil(c, raio, alt, col, raio_topo=None, rot=(0, 0, 0), lados=20):   # cilindro em pe (ou cone/tronco com raio_topo); c = centro
     r = bmesh.ops.create_cone(_S['bm'], cap_ends=True, segments=lados, radius1=raio, radius2=raio if raio_topo is None else raio_topo, depth=alt); _put(r['verts'], col, c, rot)
-def bola(c, raio, col, achata=1.0, rot=(0, 0, 0), seg=18):
+def bola(c, raio, col, achata=1.0, rot=(0, 0, 0), seg=18, esc=(1, 1, 1)):   # esc = (largura, altura, profundidade) estica a bola (ovo, casco, folha, almofada)
     r = bmesh.ops.create_uvsphere(_S['bm'], u_segments=seg, v_segments=max(4, seg * 2 // 3), radius=raio)
-    for v in r['verts']: v.co.z *= achata
+    for v in r['verts']: v.co.z *= achata * esc[1]; v.co.x *= esc[0]; v.co.y *= esc[2]
     _put(r['verts'], col, c, rot)
 def torno(c, perfil, col, lados=24):                          # perfil = [(raio, altura), ...] de baixo para cima -> gira em volta do eixo (vaso, garrafa, sino, taca)
     bm = _S['bm']; aneis = []

@@ -897,7 +897,8 @@ const hatBehind = (p, o, H, cx, hc, light, thick, ow, side)=>{
     p.inkRing(bb, ow * 0.85, thick);
 };
 const hatOn = (p, o, hp, H, cx, hc, light, seed, facing, side)=>{
-    const W = 2 * H.a, HH = 2 * H.b, u = W / 100, crown = hc - H.b, ow = 0.85 * 5 * u;
+    const HS = o.hat === 'hair' || o.hat === 'bonnet' ? 1 : 1.2;   /* chapeu 20% maior e mais enterrado na cabeca (ficava pequeno e pousado em cima) */
+    const W = 2 * H.a * HS, HH = 2 * H.b, u = W / 100, crown = hc - H.b + (HS > 1 ? 5.5 * u : 0), ow = 0.85 * 5 * u / HS;
     const a = H.rot + rad(4 * (rnd(seed, 20) - 0.5));
     const R = (pts)=>rotPts(pts, a, cx, hc);
     const sag = (yb, wb)=>{
