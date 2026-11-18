@@ -21,7 +21,7 @@ Depois: Curiosidade e Ciência CC 11–20.
 
 ## Curiosidade e Ciência CC 11–20 (sessão principal, depois das refações)
 CC 11 Röntgen e o raio X da mão · CC 12 Tycho Brahe e o nariz de metal · CC 13 Semmelweis e lavar as mãos · CC 14 Kekulé e o sonho da cobra · CC 15 O post-it (a cola que não colava) · CC 16 O velcro e os carrapichos · CC 17 Goodyear e a borracha no fogão · CC 18 Os Montgolfier, o balão, a ovelha, o pato e o galo · CC 19 Marie Curie e o caderno radioativo · CC 20 A dança das abelhas
-Entregues: CC 11 ✔ · CC 13 ✔
+Entregues: CC 11 ✔ · CC 12 ✔ · CC 13 ✔
 
 ## Notas para os roteiros novos
 - Fatos reais: confira data, lugar e nomes antes de escrever (se não tiver certeza de um detalhe, não afirme). Personagens desenhados são originais (bonecos), sem imitar pessoa real.
