@@ -172,6 +172,7 @@ def direct(beats):
     run = 0; wide_n = 0; wrun = 0; impact_n = 0
     outs = list(B.get('outfits', {}))
     for k, b in enumerate(beats):
+        if b.get('shot') == 'track' and not b.get('batalha'): b['shot_lock'] = True   # o roteiro pediu gente andando/correndo: o diretor nao troca por multidao parada
         if b.get('shot_lock'):
             run = 0 if b.get('shot', 'two') in WIDE else run + 1; continue
         if b.get('interior'):   # dentro de casa: sempre plano medio, sem multidao automatica
@@ -478,7 +479,8 @@ def build_beat(k, b):
                     px, pz = (crowd_pos[(j * 5) % len(crowd_pos)] if crowd_pos else (sl[0] if n else 0.0, 1.5))
                     _rif = [i_ for i_, pe_ in enumerate(persons) if B.get('outfits', {}).get(pe_[0], {}).get('rifle') or PROFISSOES.get(str(B.get('outfits', {}).get(pe_[0], {}).get('profissao', '')).lower(), {}).get('rifle')]
                     if kind == 'burst' and _rif and not re.match(r'canh|explo|bomb|artilh', nw) and not crowd_pos:   # TIRO: o clarao sai do cano da arma de quem atira
-                        ri_ = _rif[kfx % len(_rif)]; fx.append(f"{{ k: 'flash', a: WS({wi}), b: WS({wi}) + 8, at: [X + {num(sl[ri_] + 0.75)}, DK - 1.05, {num(ZS[ri_ % len(ZS)] + 0.4)}], s: 2.0 }}"); fx.append(f"{{ k: 'puff', a: WS({wi}) + 3, b: WS({wi}) + 24, at: [X + {num(sl[ri_] + 1.0)}, DK + 1.5, {num(ZS[ri_ % len(ZS)] + 0.4)}], s: 0.5 }}")
+                        ri_ = _rif[0]; _sd = 1 if sl[ri_] <= 0 else -1; b.setdefault('_shots', []).append(f"WS({wi})")
+                        fx.append(f"{{ k: 'flash', a: WS({wi}), b: WS({wi}) + 8, at: [X + {num(sl[ri_] + 1.55 * _sd)}, DK - 0.55, {num(ZS[ri_ % len(ZS)] + 0.4)}], s: 1.6 }}"); fx.append(f"{{ k: 'puff', a: WS({wi}) + 3, b: WS({wi}) + 24, at: [X + {num(sl[ri_] + 1.8 * _sd)}, DK + 1.9, {num(ZS[ri_ % len(ZS)] + 0.4)}], s: 0.5 }}")
                     elif kind == 'burst': fx.append(f"{{ k: 'burst', a: WS({wi}), b: WS({wi}) + 22, at: [X + {num(px)}, DK + 1.8, {num(pz + 1.5)}], s: {1.7 if wide else 1.2} }}")
                     else: fx.append(f"{{ k: {json.dumps(kind)}, a: WS({wi}), b: WS({wi}) + 28, at: [X + {num(px)}, DK + 0.5, {num(pz + 1.0)}], s: {1.9 if wide else 1.1} }}")
                     if kick and kind == 'burst': KICKS.append(f"{{ f: WS({wi}), a: {round(kick * 0.35, 3)} }}")   # golpe de camera so' em impacto fisico e pequeno (canal: 0,23% da altura)
@@ -595,6 +597,7 @@ def build_beat(k, b):
             p1, p2 = nodrop(p1), nodrop(p2)
             p1 = re.sub(r", inter: \{[^}]*\}", "", p1).replace("pose: 'argue'", "pose: 'stand'").replace("pose: 'talk'", "pose: 'stand'")   # durante o close no objeto ninguem avanca/gesticula na frente da lente
             call = f"{p0}, {{ ...{p1}, cam: [{Kc(Fq(0.36), k0)}, {Kc(Fq(0.6) + ' - 1', k1)}], nocut: true, vary: false, glide: true, glideN: 34 }}, {{ ...{p2}, glide: true, glideN: 34 }}"   # ida e volta do detalhe mais lentas (o controle de camera reprova deslize brusco)
+    if b.get('_shots'): call = call.replace(', actors: [', f", shots: [{', '.join(b['_shots'])}], actors: [")   # quadros dos tiros: o soldado de fuzil aponta a arma nesses instantes
     if b.get('set') and b['set'] != SET and b['set'] in SETS_X: call = re.sub(r'\bX\b', 'X_' + b['set'], call)   # esta cena acontece em outro cenario
     return call
 
