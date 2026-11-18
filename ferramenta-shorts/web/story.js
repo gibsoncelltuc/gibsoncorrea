@@ -47,6 +47,7 @@ const SPEC = {
     S('b11', A[11], A[12] - 1, X, "day", { h: 2.4, d0: 5.6, d1: 4.9, cx: 0.0, cz: 1.2, hero: { hero: 'any', frame: 'medium', minH: 0.07, main: 1 }, trans: 'dissolve', actors: [pp(X, "ROE", 0, 0.0, 1.3, "smile", { pose: 'talk' }), pp(X, "ROE", 0, -3.85, -3.36, "neutral", { look: -0.25, seed: 0 }), pp(X, "ROE", 1, -1.79, -2.88, "neutral", { look: 0.25, seed: 1 }), pp(X, "ROE", 2, 0.27, -3.24, "neutral", { look: 0.0, seed: 2 }), pp(X, "ROE", 3, 1.34, -2.76, "neutral", { look: 0.15, seed: 3 }), pp(X, "ROE", 0, 3.4, -3.12, "neutral", { look: -0.25, seed: 0 }), pp(X, "ROE", 1, -2.14, -4.74, "neutral", { look: 0.25, seed: 1 }), pp(X, "ROE", 2, -1.07, -5.1, "neutral", { look: 0.0, seed: 2 }), pp(X, "ROE", 3, 0.99, -5.46, "neutral", { look: 0.15, seed: 3 }), pp(X, "ROE", 0, 3.05, -4.98, "neutral", { look: -0.25, seed: 0 }), pp(X, "ROE", 1, 4.12, -5.34, "neutral", { look: 0.25, seed: 1 })], props: [{ asset: "buildings/house_two", at: [X + 4.5, -9.5], s: 1.25, ry: -0.35, drop: false }, { asset: "kit/xray_plate", at: [X + 1.7, -0.5], s: 1.3, drop: false }, { asset: "kit/xray_plate", at: [X + 1.95, -2.3], s: 1.0, drop: false }] })
   ],
 };
+SPEC.fit = {"b0":1.12,"b10":1.12,"b8":1.12,"b8_1":1.12,"b9":1.254,"b9~1":1.254,"b9~2":1.254};
 // ===== STORY RUNTIME (generic): turns a declarative SPEC (stories/<id>.spec.js, concatenated before this file) into the story.js interface the engine expects =====
 import { camFromKeys, clamp, lerp, ramp, q, blinkAt, idle, M } from './motion.js';
 export const FPS = 30, TOTAL = SPEC.total, DECK = 6;
