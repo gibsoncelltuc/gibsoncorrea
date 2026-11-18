@@ -1,0 +1,180 @@
+{
+ "duration": 41.76,
+ "frames30": 1253,
+ "source": "silence-align (cost 0.26)",
+ "segments": [
+  [
+   0.157833,
+   1.05112
+  ],
+  [
+   1.35621,
+   3.62112
+  ],
+  [
+   3.84946,
+   5.805
+  ],
+  [
+   6.665,
+   7.92917
+  ],
+  [
+   8.15925,
+   9.07133
+  ],
+  [
+   9.40192,
+   11.4933
+  ],
+  [
+   12.355,
+   14.9192
+  ],
+  [
+   15.7836,
+   18.6259
+  ],
+  [
+   19.4914,
+   19.9488
+  ],
+  [
+   20.168,
+   21.9726
+  ],
+  [
+   22.8407,
+   24.9467
+  ],
+  [
+   25.2787,
+   26.0429
+  ],
+  [
+   26.8957,
+   27.8597
+  ],
+  [
+   28.0837,
+   29.7546
+  ],
+  [
+   30.0468,
+   31.2242
+  ],
+  [
+   32.1402,
+   33.9433
+  ],
+  [
+   34.1866,
+   36.327
+  ],
+  [
+   37.1805,
+   38.1764
+  ],
+  [
+   38.4745,
+   40.9519
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Em dois mil e vinte e um,",
+   "s": 0.158,
+   "e": 1.051
+  },
+  {
+   "text": "um pa\u00eds fez algo que nenhum outro tinha feito:",
+   "s": 1.356,
+   "e": 3.621
+  },
+  {
+   "text": "aceitou o bitcoin como dinheiro oficial.",
+   "s": 3.849,
+   "e": 5.805
+  },
+  {
+   "text": "O pa\u00eds era El Salvador,",
+   "s": 6.665,
+   "e": 7.929
+  },
+  {
+   "text": "na Am\u00e9rica Central,",
+   "s": 8.159,
+   "e": 9.071
+  },
+  {
+   "text": "e a ideia foi do presidente Nayib Bukele.",
+   "s": 9.402,
+   "e": 11.493
+  },
+  {
+   "text": "A lei foi aprovada pelo congresso em junho daquele ano.",
+   "s": 12.355,
+   "e": 14.919
+  },
+  {
+   "text": "E passou a valer em sete de setembro de dois mil e vinte e um.",
+   "s": 15.784,
+   "e": 18.626
+  },
+  {
+   "text": "Com isso,",
+   "s": 19.491,
+   "e": 19.949
+  },
+  {
+   "text": "dava para pagar as compras com bitcoin.",
+   "s": 20.168,
+   "e": 21.973
+  },
+  {
+   "text": "O governo lan\u00e7ou at\u00e9 uma carteira digital,",
+   "s": 22.841,
+   "e": 24.947
+  },
+  {
+   "text": "chamada Chivo.",
+   "s": 25.279,
+   "e": 26.043
+  },
+  {
+   "text": "Nas primeiras horas,",
+   "s": 26.896,
+   "e": 27.86
+  },
+  {
+   "text": "o aplicativo ficou fora do ar,",
+   "s": 28.084,
+   "e": 29.755
+  },
+  {
+   "text": "por excesso de acessos.",
+   "s": 30.047,
+   "e": 31.224
+  },
+  {
+   "text": "Foi o primeiro pa\u00eds do mundo a fazer isso,",
+   "s": 32.14,
+   "e": 33.943
+  },
+  {
+   "text": "e o assunto virou conversa no planeta inteiro.",
+   "s": 34.187,
+   "e": 36.327
+  },
+  {
+   "text": "Uma moeda digital,",
+   "s": 37.181,
+   "e": 38.176
+  },
+  {
+   "text": "uma lei nova e um pa\u00eds no centro das aten\u00e7\u00f5es.",
+   "s": 38.474,
+   "e": 40.952
+  }
+ ]
+}

@@ -112,5 +112,11 @@ false
 "kit/roadster",
 1.6,
 false
+],
+[
+"\\bbitcoins?\\b|\\bmoedas?\\b",
+"kit/coin",
+1.5,
+false
 ]
 ]

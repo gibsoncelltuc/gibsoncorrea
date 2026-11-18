@@ -71,3 +71,8 @@ for x in (-.7, .7):
     for z in (-.5, .5): cil((x, .26, z), .26, .18, '#15151a', rot=(math.pi / 2, 0, 0)); cil((x, .26, z), .13, .2, '#b8b8c0', rot=(math.pi / 2, 0, 0))
 bola((-1.12, .45, .3), .07, '#f2e8a0'); bola((-1.12, .45, -.3), .07, '#f2e8a0')
 fim()
+novo('coin')               # moeda de ouro grande em pe: disco, aro e barra do simbolo, apoiada em suporte
+cil((0, .9, 0), .7, .12, '#f2b822', rot=(math.pi / 2, 0, 0)); cil((0, .9, .02), .6, .12, '#e0a010', rot=(math.pi / 2, 0, 0))
+cil((-.1, .9, .09), .07, .7, '#fff0a0'); caixa((.12, 1.08, .09), (.3, .09, .04), '#fff0a0'); caixa((.12, .72, .09), (.3, .09, .04), '#fff0a0')
+caixa((.12, .9, .09), (.34, .09, .04), '#fff0a0'); cil((0, .16, 0), .35, .08, '#6a4a2a')
+fim()
