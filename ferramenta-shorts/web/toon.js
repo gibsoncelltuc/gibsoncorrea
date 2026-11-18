@@ -1153,7 +1153,7 @@ const footStroke = (p, a, b, w, col)=>{
     ], w, col);
 };
 export const bodyFront = (p, o, opts)=>{
-    const { phase = 0, expr = "neutral", mode = "march", look = 0, blink = false, lift = 60, hp: holdK = 0.3, prop = null, tilt = 0, headTilt = 0, wave, light = DEF_LIGHT, facing = 0, seed = 1, fx = null, gest = null, gk = 1, gt = 0 } = opts;
+    const { phase = 0, expr = "neutral", mode = "march", look = 0, blink = false, lift = 60, hp: holdK = 0.3, prop = null, tilt = 0, headTilt = 0, wave, light = DEF_LIGHT, facing = 0, seed = 1, fx = null, gest = null, gk = 1, gt = 0, aim = 0 } = opts;
     const Bd = BUILD[o.build ?? "adult"], skin = o.skin ?? SKIN, two = Math.PI * 2, lid = lidOf(blink);
     const H = headBlob(seed, Bd.a, facing), W = 2 * H.a, HH = 2 * H.b, u = W / 100;
     const tall = (1 + Bd.torso + Bd.legs) * HH, sole = 975;
@@ -1324,12 +1324,13 @@ export const bodyFront = (p, o, opts)=>{
         ];
     };
     const sw = mode === "march" || mode === "stroll" ? Math.sin(two * phase) : 0;
+    /* MIRAR/ATIRAR (aim 0..1): o fuzil sai da posicao de descanso (em pe ao lado) e fica apontado para a frente, na altura do ombro */
     const R0 = [
-        300 + 47 * u,
-        torsoBot + 0.12 * HH
+        300 + (47 - 30 * aim) * u,
+        torsoBot + 0.12 * HH - aim * (torsoBot + 0.12 * HH - (chin + 0.3 * HH))
     ], R1 = [
-        300 + 64 * u,
-        crown - 0.32 * HH
+        300 + (64 + 78 * aim) * u,
+        crown - 0.32 * HH + aim * ((chin + 0.2 * HH) - (crown - 0.32 * HH))
     ];
     const rifle = !!o.rifle && (mode === "march" || mode === "stand" || mode === "stroll");
     const arms = [];
