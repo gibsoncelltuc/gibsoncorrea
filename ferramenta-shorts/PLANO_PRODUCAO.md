@@ -33,3 +33,4 @@ Entregues: CC 11 ✔
 ## Série 3 — "Poder e Fama" (Trump, Bukele, Elon Musk) — 20 vídeos, DEPOIS das listas acima
 Ler `FIGURINOS_FAMOSOS.md` (figurinos prontos e REGRAS obrigatórias: só fato real conferido, sem fala inventada, tom de curiosidade). `"serie": "Poder e Fama", "ep": N`.
 - Sessão A: PF 01–07 · Sessão B: PF 08–14 · Sessão principal: PF 15–20. Cada sessão escolhe os temas da lista de ideias do `FIGURINOS_FAMOSOS.md` (ou outros fatos conferidos), sem repetir: anote aqui o tema escolhido antes de começar.
+- Sessão principal escolheu (fora da lista de ideias, para não repetir): PF 15 = Trump na WrestleMania 23 (2007) · PF 16 = os braços que pegam o foguete no ar (Starship, 2024) · PF 17 = Bukele e o bitcoin minerado com vulcão (2021) · PF 18 = Trump: The Game, o jogo de tabuleiro (1989) · PF 19 = o macaco da Neuralink que jogou Pong com a mente (2021) · PF 20 = Tesla e a tequila (Teslaquila, 2020).

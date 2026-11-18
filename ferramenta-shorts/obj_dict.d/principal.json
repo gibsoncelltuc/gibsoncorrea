@@ -64,5 +64,17 @@
   "kit/beehive",
   1.0,
   false
+ ],
+ [
+  "maquina de raspar|\\braspou\\b|\\braspar\\b|\\braspada\\b|\\bcareca\\b",
+  "kit/clipper",
+  1.0,
+  false
+ ],
+ [
+  "mechazilla|pauzinhos|torre de lancamento",
+  "kit/tower_catch",
+  1.0,
+  true
  ]
 ]
