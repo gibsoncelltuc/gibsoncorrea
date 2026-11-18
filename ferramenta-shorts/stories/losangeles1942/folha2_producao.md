@@ -3,7 +3,7 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/losangeles1942/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py losangeles1942` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Uma cidade inteira passou a noite atirando no céu, e não havia inimigo...
-- Cenario: street | luz: noite | clima: limpo
+- Cenario: street | luz: pordosol | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): SOL (variante 0, expressao shock); CID (variante 0, expressao scared)
@@ -13,7 +13,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b1 - Era fevereiro de mil novecentos e quarenta e dois, logo depois de Pear...
-- Cenario: street | luz: noite | clima: limpo
+- Cenario: street | luz: pordosol | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): CID (variante 0, expressao nervous); CID (variante 1, expressao scared) | multidao: 8 de CID
@@ -23,7 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Na véspera, um submarino japonês tinha atirado na Califórnia, e todo m...
-- Cenario: street | luz: noite | clima: limpo
+- Cenario: street | luz: pordosol | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): CID (variante 0, expressao scared); SOL (variante 0, expressao nervous) | multidao: 10 de CID/SOL
@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - No dia seguinte, os militares discutiram o que tinha acontecido, e nin...
-- Cenario: interior madeira | luz: night | clima: limpo
+- Cenario: interior madeira | luz: dusk | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): GEN (variante 0, expressao stern, segura paper); PRE (variante 0, expressao nervous)
@@ -83,7 +83,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - Algumas pessoas morreram, por acidente e por susto, mas nenhum inimigo...
-- Cenario: interior pedra | luz: night | clima: limpo
+- Cenario: interior pedra | luz: dusk | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): PRE (variante 0, expressao sad, segura paper); GEN (variante 0, expressao sad)
@@ -93,7 +93,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - O único alvo derrotado naquela noite foi o sono de Los Angeles.
-- Cenario: street | luz: noite | clima: limpo
+- Cenario: street | luz: amanhecer | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): CID (variante 0, expressao smile)
