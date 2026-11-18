@@ -81,9 +81,10 @@ padeiro, agricultor, nobre, politico, empresario, rei, general, soldado, marinhe
 - kit/kite  <- \bpipas?\b
 - kit/key  <- \bchave\b
 - kit/lightning_rod  <- \bpararaios\b
+- kit/finch  <- \btentilhoes?\b|\bpassarinhos?\b|\baves?\b
 
 ## Biblioteca 3D completa (use em "props": [["pasta/nome", x, z, escala]])
-- kit: apple, ball, barrel_r, bathtub, cake_table, campfire, chest, cross, crown, ear_jar, feather, fire, golden_stool, grave, kettle, lobster, microwave, petri, pisa_tower, porch, room_shop, room_stone, room_wood, stall, syringe, tent, throne, tulip_bed, tulip_purple, tulip_red, tulip_striped, tulip_yellow
+- kit: apple, ball, barrel_r, bathtub, cake_table, campfire, chest, chocolate, cross, crown, ear_jar, egg, feather, finch, finch_long, finch_thick, fire, golden_stool, grave, kettle, key, kite, lightning_rod, lobster, microwave, petri, pisa_tower, popcorn, porch, room_shop, room_stone, room_wood, stall, syringe, tent, throne, tulip_bed, tulip_purple, tulip_red, tulip_striped, tulip_yellow
 - buildings: apartment, barn, bridge, castle_tower, church, house_blue, house_small, house_two, lighthouse, shop, skyscraper, windmill
 - vehicles: airplane, bicycle, car, car_blue, helicopter, jeep, locomotive, motorboat, motorcycle, sailboat, tank, taxi, truck, wagon
 - nature: bench, bush, flowerbed, fountain, haybale, lamppost, picket_fence, rocks, scarecrow, tree_birch, tree_oak, tree_palm, tree_pine

@@ -10,4 +10,5 @@
  ["\\binjecao\\b|\\binjecoes\\b|\\bseringa\\b|\\bvacina\\b", "kit/syringe", 1.4, false],
  ["\\bpipas?\\b", "kit/kite", 1.6, false],
  ["\\bchave\\b", "kit/key", 1.4, false],
- ["\\bpararaios\\b", "kit/lightning_rod", 1.0, false]]
+ ["\\bpararaios\\b", "kit/lightning_rod", 1.0, false],
+ ["\\btentilhoes?\\b|\\bpassarinhos?\\b|\\baves?\\b", "kit/finch", 1.3, false]]

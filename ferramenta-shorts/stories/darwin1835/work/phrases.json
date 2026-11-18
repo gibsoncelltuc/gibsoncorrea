@@ -1,0 +1,261 @@
+{
+ "duration": 61.464,
+ "frames30": 1844,
+ "source": "silence-align (cost 0.83)",
+ "segments": [
+  [
+   0.148958,
+   2.67642
+  ],
+  [
+   2.88762,
+   4.36254
+  ],
+  [
+   5.22637,
+   6.90925
+  ],
+  [
+   7.17354,
+   9.56958
+  ],
+  [
+   9.75646,
+   10.9297
+  ],
+  [
+   11.7797,
+   13.6043
+  ],
+  [
+   13.8785,
+   15.4932
+  ],
+  [
+   15.6863,
+   16.4171
+  ],
+  [
+   17.2641,
+   19.9604
+  ],
+  [
+   20.2955,
+   22.2367
+  ],
+  [
+   23.0877,
+   24.1686
+  ],
+  [
+   24.4225,
+   25.9746
+  ],
+  [
+   26.2852,
+   27.5359
+  ],
+  [
+   27.7225,
+   28.9486
+  ],
+  [
+   29.7993,
+   31.14
+  ],
+  [
+   31.5113,
+   33.1522
+  ],
+  [
+   33.418,
+   35.137
+  ],
+  [
+   35.9902,
+   37.6855
+  ],
+  [
+   37.8862,
+   38.5604
+  ],
+  [
+   38.8366,
+   40.8745
+  ],
+  [
+   41.7175,
+   44.1223
+  ],
+  [
+   44.4168,
+   45.8861
+  ],
+  [
+   46.7467,
+   48.4032
+  ],
+  [
+   48.7234,
+   51.2777
+  ],
+  [
+   52.1644,
+   54.3888
+  ],
+  [
+   54.6695,
+   56.8984
+  ],
+  [
+   57.734,
+   58.1411
+  ],
+  [
+   58.4363,
+   60.6623
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um cientista misturou as etiquetas de uns passarinhos,",
+   "s": 0.149,
+   "e": 2.676
+  },
+  {
+   "text": "e isso explicou a vida na Terra.",
+   "s": 2.888,
+   "e": 4.363
+  },
+  {
+   "text": "Era mil oitocentos e trinta e cinco,",
+   "s": 5.226,
+   "e": 6.909
+  },
+  {
+   "text": "e o ingl\u00eas Charles Darwin chegou \u00e0s ilhas Gal\u00e1pagos,",
+   "s": 7.174,
+   "e": 9.57
+  },
+  {
+   "text": "a bordo do navio Beagle.",
+   "s": 9.756,
+   "e": 10.93
+  },
+  {
+   "text": "Ele passou semanas coletando animais,",
+   "s": 11.78,
+   "e": 13.604
+  },
+  {
+   "text": "plantas e uns passarinhos pequenos,",
+   "s": 13.879,
+   "e": 15.493
+  },
+  {
+   "text": "de ilha em ilha.",
+   "s": 15.686,
+   "e": 16.417
+  },
+  {
+   "text": "Darwin achou que eram aves bem diferentes entre si,",
+   "s": 17.264,
+   "e": 19.96
+  },
+  {
+   "text": "e nem anotou de qual ilha vinha cada uma.",
+   "s": 20.296,
+   "e": 22.237
+  },
+  {
+   "text": "De volta \u00e0 Inglaterra,",
+   "s": 23.088,
+   "e": 24.169
+  },
+  {
+   "text": "o especialista John Gould disse:",
+   "s": 24.422,
+   "e": 25.975
+  },
+  {
+   "text": "\"S\u00e3o todos tentilh\u00f5es,",
+   "s": 26.285,
+   "e": 27.536
+  },
+  {
+   "text": "de esp\u00e9cies diferentes!\"",
+   "s": 27.723,
+   "e": 28.949
+  },
+  {
+   "text": "A diferen\u00e7a estava no bico:",
+   "s": 29.799,
+   "e": 31.14
+  },
+  {
+   "text": "uns grossos para quebrar sementes,",
+   "s": 31.511,
+   "e": 33.152
+  },
+  {
+   "text": "outros finos para pegar insetos.",
+   "s": 33.418,
+   "e": 35.137
+  },
+  {
+   "text": "Acontece que Darwin entendeu que,",
+   "s": 35.99,
+   "e": 37.685
+  },
+  {
+   "text": "em cada ilha,",
+   "s": 37.886,
+   "e": 38.56
+  },
+  {
+   "text": "o bico tinha mudado de acordo com a comida.",
+   "s": 38.837,
+   "e": 40.874
+  },
+  {
+   "text": "Os bichos com o bico certo sobreviviam melhor,",
+   "s": 41.718,
+   "e": 44.122
+  },
+  {
+   "text": "e passavam isso para os filhos.",
+   "s": 44.417,
+   "e": 45.886
+  },
+  {
+   "text": "Essa ideia foi a sele\u00e7\u00e3o natural,",
+   "s": 46.747,
+   "e": 48.403
+  },
+  {
+   "text": "e ele publicou o livro em mil oitocentos e cinquenta e nove.",
+   "s": 48.723,
+   "e": 51.278
+  },
+  {
+   "text": "A ideia virou a base da biologia moderna,",
+   "s": 52.164,
+   "e": 54.389
+  },
+  {
+   "text": "e mostra como a vida muda ao longo do tempo.",
+   "s": 54.669,
+   "e": 56.898
+  },
+  {
+   "text": "No fim,",
+   "s": 57.734,
+   "e": 58.141
+  },
+  {
+   "text": "o erro das etiquetas virou um acerto de bico.",
+   "s": 58.436,
+   "e": 60.662
+  }
+ ]
+}
