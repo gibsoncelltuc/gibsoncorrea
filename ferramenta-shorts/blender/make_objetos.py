@@ -102,3 +102,20 @@ def _apple(bm, mats):   # maca vermelha: esfera levemente achatada, cabinho marr
     cube((0, 0.88, 0), (0.07, 0.2, 0.07), 1, 0.15)                                                   # cabinho
     cube((0.16, 0.92, 0), (0.26, 0.05, 0.14), 2, 0.5)                                                # folha
 sphere('apple', 0.45, 0.45, '#d8282f', _apple)
+box, done = start('bathtub')    # banheira de madeira e bronze com agua transbordando
+box((0, 0.07, 0), (1.9, 0.14, 1.0), '#8a5a2e')
+for z in (-0.46, 0.46): box((0, 0.42, z), (1.9, 0.62, 0.1), '#b87a3c')          # laterais
+for x in (-0.9, 0.9): box((x, 0.42, 0), (0.1, 0.62, 1.0), '#b87a3c')            # pontas
+box((0, 0.5, 0), (1.7, 0.06, 0.82), '#5aa9e6')                                  # agua
+box((0.2, 0.28, 0.54), (0.7, 0.5, 0.05), '#7cc0f2'); box((-0.5, 0.2, 0.54), (0.3, 0.3, 0.05), '#7cc0f2')   # agua escorrendo
+box((0.2, 0.03, 0.72), (1.1, 0.04, 0.5), '#5aa9e6')                             # poca no chao
+for x in (-0.8, 0.8):
+    for z in (-0.4, 0.4): box((x, 0.0, z), (0.16, 0.1, 0.16), '#5a3a1e')
+done()
+box, done = start('crown')      # coroa de ouro com pedras vermelhas
+for i in range(10):
+    a = i * 0.628; x, z = 0.42 * math.cos(a), 0.42 * math.sin(a)
+    box((x, 0.12, z), (0.22, 0.24, 0.12), '#e8b830'); box((x, 0.34, z), (0.12, 0.2, 0.08), '#f2d060', 0.4)
+    if i % 2 == 0: box((x * 1.06, 0.14, z * 1.06), (0.08, 0.08, 0.06), '#d8282f')
+box((0, 0.03, 0), (0.9, 0.06, 0.9), '#b8901c')
+done()
