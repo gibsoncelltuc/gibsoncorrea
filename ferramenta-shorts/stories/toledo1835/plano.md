@@ -10,8 +10,8 @@ b4 | crowd | -  | batalha aberta com tiros, tropa, placa: PARA O ALTO | tiros (b
 b5 | two | -  | - | - | -
 b6 | two | -  | interior, placa: ACORDO, objeto na mao | - | -
 b7 | group | -  | - | - | -
-b8 | low | - neve | objeto na mao | fortuna (stars + som de sino) | -
+b8 | crowd | - neve | batalha aberta com tiros, tropa, objeto na mao | fortuna (stars + som de sino) | -
 b9 | close | dia limpo | objeto na mao | perdeu (puff + som de baque) | -
 
-Mistura de planos: close 25% | medio 60% | aberto 12% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 2 | dentro do padrao do canal
+Mistura de planos: close 19% | medio 59% | aberto 15% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 3 | dentro do padrao do canal

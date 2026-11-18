@@ -82,7 +82,9 @@
    ],
    "text": "VÁRIAS LÍNGUAS",
    "tat": 6,
-   "light": "golden"
+   "light": "golden",
+   "mapa": "KARÁNSEBES",
+   "mapa_at": 3
   },
   {
    "say": "Numa noite, os hussardos foram na frente procurar o inimigo.",

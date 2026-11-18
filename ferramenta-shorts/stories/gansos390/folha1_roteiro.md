@@ -1,0 +1,94 @@
+# FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 05 - Os Gansos que Salvaram Roma
+
+Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval | 10 cenas, 151 palavras (~52 s)
+
+## Cena b0  (~3.4 s)
+- Narracao: Roma inteira foi salva por um bando de gansos barulhentos.
+- Som ambiente: birds
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: 390 a.C.
+- Funcao na historia: GANCHO
+
+## Cena b1  (~4.8 s)
+- Narracao: Os gauleses tinham invadido a cidade, e queimado quase tudo. Quem não fugiu, morreu.
+- Som ambiente: birds
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: fugiu -> dust + som de impacto; morreu -> puff + som de baque
+- Efeito visual marcado: -
+- Texto na tela: - | mapa: ROMA
+- Funcao na historia: desenvolvimento
+
+## Cena b2  (~6.2 s)
+- Narracao: Os romanos que sobraram se trancaram no Capitólio, uma colina cercada de muralhas, sem comida, e sem saída.
+- Som ambiente: birds
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: CAPITÓLIO
+- Funcao na historia: desenvolvimento
+
+## Cena b3  (~6.2 s)
+- Narracao: Lá em cima, a fome apertava. "Vamos comer os gansos", pediu um soldado. "São sagrados", respondeu o sacerdote.
+- Som ambiente: birds
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b4  (~6.2 s)
+- Narracao: Numa noite sem lua, os gauleses escalaram a colina em silêncio. Os guardas dormiam. Nem os cachorros latiram.
+- Som ambiente: birds
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b5  (~4.8 s)
+- Narracao: Acontece que os gansos acordaram, e começaram a gritar e a bater as asas.
+- Som ambiente: birds | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: squeal@20, squeal@55, squeal@90
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: ring@12, dust@40
+- Texto na tela: QUÁ! QUÁ!
+- Funcao na historia: GRANDE MOMENTO
+
+## Cena b6  (~7.2 s)
+- Narracao: Um soldado chamado Mânlio pulou da cama, e empurrou o primeiro invasor muralha abaixo. O gaulês caiu, levando os outros junto.
+- Som ambiente: birds
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: caiu -> dust + som de impacto
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b7  (~5.2 s)
+- Narracao: O alarme acordou todo mundo, os romanos correram para a muralha, e o ataque fracassou.
+- Som ambiente: birds
+- Efeitos sonoros marcados: thump@30, sting@10, thump@70
+- Efeito + som nas palavras-chave: alarme -> ring + som de alerta; correram -> dust + som de impacto; ataque -> ring + som de alerta
+- Efeito visual marcado: burst@30, dust@70
+- Texto na tela: -
+- Funcao na historia: GRANDE MOMENTO
+
+## Cena b8  (~4.5 s)
+- Narracao: Desde então, todo ano, os gansos ganhavam um desfile pelas ruas de Roma.
+- Som ambiente: birds
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: DESFILE
+- Funcao na historia: desenvolvimento
+
+## Cena b9  (~3.4 s)
+- Narracao: E os cachorros, que dormiram a noite inteira, um castigo.
+- Som ambiente: birds
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: FECHO/PIADA FINAL
+

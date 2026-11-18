@@ -84,7 +84,8 @@
     "GUA:1:stern"
    ],
    "interior": "pedra",
-   "say": "O sultão morreu de repente, e um primo dele correu para o palácio, e se sentou no trono sem pedir licença."
+   "say": "O sultão morreu de repente, e um primo dele correu para o palácio, e se sentou no trono sem pedir licença.",
+   "riscos_ok": true
   },
   {
    "shot": "two",

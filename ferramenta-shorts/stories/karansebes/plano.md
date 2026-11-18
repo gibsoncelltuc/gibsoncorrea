@@ -3,7 +3,7 @@
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
 b0 | track | golden  | tropa, placa: 1788 | perder (dust + som de impacto) | -
-b1 | crowd | golden  | tropa, placa: VÁRIAS LÍNGUAS | marchando (dust + som de impacto) | -
+b1 | crowd | golden  | tropa, placa: VÁRIAS LÍNGUAS, mapa | marchando (dust + som de impacto) | -
 b2 | track | -  | objeto na mao | - | -
 b3 | two | -  | objeto na mao | vendendo (stars + som de sino) | -
 b4 | two | -  | placa: AGUARDENTE, objeto na mao | Compraram (stars + som de sino); beberam (stars + som de sino); festa (stars + som de sino) | -
