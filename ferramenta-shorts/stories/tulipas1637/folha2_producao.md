@@ -5,6 +5,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b0 - Uma única flor já custou o preço de uma casa inteira.
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MER (variante 0, expressao grin, segura tulip); POV (variante 1, expressao shock)
 - Animacao: reagir | interacao: susto
 - Objetos/modelos: kit/tulip_bed, buildings/windmill, kit/tulip_red
@@ -13,6 +14,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b1 - Era a Holanda, e a tulipa tinha acabado de chegar do Oriente. Colorida...
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao smile, segura tulip); RIC (variante 0, expressao grin) | multidao: 6 de POV
 - Animacao: -
 - Objetos/modelos: kit/tulip_bed, buildings/windmill, kit/tulip_red
@@ -21,6 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b2 - Os ricos queriam as mais raras. "Dou mil moedas por esse bulbo", dizia...
 - Cenario: interior loja | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): RIC (variante 0, expressao stern, segura coin); RIC (variante 1, expressao shock, segura coin)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/tulip_striped
@@ -29,6 +32,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b3 - Logo, o país inteiro estava comprando. Padeiros, sapateiros, gente que...
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao grin, segura tulip); POV (variante 1, expressao laugh, segura coin); MER (variante 0, expressao grin) | multidao: 20 de POV/RIC
 - Animacao: - | batalha encenada
 - Objetos/modelos: kit/tulip_bed
@@ -37,6 +41,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b4 - Ninguém queria a flor de verdade. Queriam vender o papel mais caro na ...
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): POV (variante 2, expressao grin, segura paper); POV (variante 3, expressao smile, segura coin)
 - Animacao: discutir | interacao: reverencia
 - Objetos/modelos: kit/tulip_yellow, kit/tulip_purple
@@ -45,6 +50,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b5 - Contam que um marinheiro comeu um bulbo no almoço, achando que era ceb...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): MAR (variante 0, expressao smile, segura tulip); MER (variante 0, expressao shock)
 - Animacao: discutir | interacao: aproxima-se
 - Objetos/modelos: kit/tulip_red
@@ -53,6 +59,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b6 - Acontece que, num leilão de fevereiro, o vendedor abriu os lances, e n...
 - Cenario: interior loja | luz: dia | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (4): MER (variante 0, expressao nervous, segura tulip); POV (variante 0, expressao stern); POV (variante 1, expressao neutral); RIC (variante 0, expressao stern)
 - Animacao: reagir | interacao: vai ate o outro
 - Objetos/modelos: kit/stall
@@ -61,6 +68,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b7 - A notícia correu. Em poucos dias, todo mundo quis vender, e não havia ...
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): POV (variante 2, expressao shock, segura tulip); RIC (variante 0, expressao pained, segura paper) | multidao: 20 de POV/RIC/MER
 - Animacao: discutir | batalha encenada
 - Objetos/modelos: kit/tulip_bed
@@ -69,6 +77,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b8 - Os preços desabaram. Quem tinha trocado a casa por flores ficou só com...
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): RIC (variante 0, expressao pained, segura tulip); MER (variante 0, expressao pained, segura paper)
 - Animacao: - | interacao: avanca e o outro recua
 - Objetos/modelos: kit/tulip_bed, kit/tulip_red
@@ -77,6 +86,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b9 - O marinheiro, pelo menos, almoçou bem.
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): MAR (variante 0, expressao grin)
 - Animacao: conversar
 - Objetos/modelos: -
