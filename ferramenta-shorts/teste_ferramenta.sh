@@ -24,5 +24,7 @@ grep -q '"dog"' $S && grep -q '"cow"' $S || f "animal citado nao entrou sozinho"
 grep -o 'TRU: (v = 0[^;]*' $S | grep -q '&& true) ? { beard' && f "famoso (pele) ganhou barba sorteada"
 grep -o 'ANA: (v = 0[^;]*' $S | grep -q '&& true) ? { beard' && f "mulher (coque) ganhou barba sorteada"
 grep -o "S('b2'[^;]*" $S | grep -q '"night"' && f "noite da cena b1 vazou para b2"
+grep -q "keepFam" web/acting.js || f "rosto do roteiro nao esta protegido (keepFam)"
+grep -q '"snarl"' web/toonbase.js && grep -q 'expr === "cry"' web/toonbase.js || f "raiva/choro sem desenho proprio"
 rm -rf videos/$T stories/$T
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }
