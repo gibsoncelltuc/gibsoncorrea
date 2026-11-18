@@ -18,7 +18,7 @@
    "hair": "#3a2a1f",
    "pele": "#f2e2d2"
   },
-  "FRA": {
+  "DSG": {
    "jacket": "#2a2d33",
    "pants": "#3a3d44",
    "boots": "#1b1b1f",
@@ -33,7 +33,7 @@
    "shot": "two",
    "who": [
     "MUS:0:grin",
-    "FRA:0:smile"
+    "DSG:0:smile"
    ],
    "props": [
     [
@@ -71,7 +71,7 @@
    "say": "Para provar, o designer Franz von Holzhausen jogou uma esfera de aço na janela.",
    "shot": "two",
    "who": [
-    "FRA:0:stern:ball",
+    "DSG:0:stern:ball",
     "MUS:0:smile"
    ],
    "props": [
@@ -97,7 +97,7 @@
    "shot": "reveal",
    "who": [
     "MUS:0:shock",
-    "FRA:0:scared"
+    "DSG:0:scared"
    ],
    "fx": [
     "burst@3"
@@ -129,7 +129,7 @@
    "say": "Ele tentou de novo, em outra janela, e ela também rachou.",
    "shot": "two",
    "who": [
-    "FRA:0:nervous",
+    "DSG:0:nervous",
     "MUS:0:surprised"
    ],
    "fx": [
@@ -173,7 +173,7 @@
    "shot": "orbit",
    "who": [
     "MUS:0:laugh",
-    "FRA:0:grin"
+    "DSG:0:grin"
    ],
    "props": [
     [
@@ -200,7 +200,7 @@
    "shot": "group",
    "who": [
     "MUS:0:laugh",
-    "FRA:0:smile"
+    "DSG:0:smile"
    ],
    "props": [
     [
@@ -220,5 +220,6 @@
    "batalha": false,
    "impact": false
   }
- ]
+ ],
+ "exp": 1.0
 }

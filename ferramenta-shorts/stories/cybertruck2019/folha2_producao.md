@@ -6,7 +6,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: hall | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): MUS (variante 0, expressao grin); FRA (variante 0, expressao smile)
+- Personagens principais (2): MUS (variante 0, expressao grin); DSG (variante 0, expressao smile)
 - Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/cybertruck
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): california, cybertruck, dois, elon, empresa, picape
@@ -26,7 +26,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: hall | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): FRA (variante 0, expressao stern, segura ball); MUS (variante 0, expressao smile)
+- Personagens principais (2): DSG (variante 0, expressao stern, segura ball); MUS (variante 0, expressao smile)
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/steel_ball, kit/cybertruck
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): designer, esfera, janela
@@ -36,7 +36,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: hall | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): MUS (variante 0, expressao shock); FRA (variante 0, expressao scared) | multidao: 10 de POV
+- Personagens principais (2): MUS (variante 0, expressao shock); DSG (variante 0, expressao scared) | multidao: 10 de POV
 - Animacao: reagir | batalha encenada
 - Objetos/modelos: kit/cybertruck
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frente, vidro
@@ -46,7 +46,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: hall | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): FRA (variante 0, expressao nervous); MUS (variante 0, expressao surprised)
+- Personagens principais (2): DSG (variante 0, expressao nervous); MUS (variante 0, expressao surprised)
 - Animacao: reagir | interacao: o outro se aproxima
 - Objetos/modelos: kit/cybertruck
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): novo
@@ -66,7 +66,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: hall | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): MUS (variante 0, expressao laugh); FRA (variante 0, expressao grin) | multidao: 8 de POV
+- Personagens principais (2): MUS (variante 0, expressao laugh); DSG (variante 0, expressao grin) | multidao: 8 de POV
 - Animacao: comemorar | batalha encenada
 - Objetos/modelos: kit/globe
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cena, internet, plateia
@@ -76,7 +76,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: hall | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): MUS (variante 0, expressao laugh); FRA (variante 0, expressao smile)
+- Personagens principais (2): MUS (variante 0, expressao laugh); DSG (variante 0, expressao smile)
 - Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/cybertruck, kit/steel_ball
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): esfera, janela, lancamento, picape

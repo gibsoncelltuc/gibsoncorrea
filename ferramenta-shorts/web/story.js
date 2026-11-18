@@ -24,7 +24,7 @@ const X = 8000, DK = 6;
 const WS = (i, off = 0) => TIMING.words[Math.min(i, TIMING.words.length - 1)][0] + off;   // frame em que a palavra de indice i comeca
 const A = [0, WS(22, -3), WS(36, -3), WS(50, -3), WS(61, -3), WS(72, -3), WS(91, -3), WS(107, -3), TOTAL_F()];
 const SPEC = {
-  id: "cybertruck2019", vseed: 0, cutLen: 54, dissolveN: 7, glideN: 20, creep: 0.003, total: TOTAL_F(), sets: ["hall"], setx: { hall: X },
+  id: "cybertruck2019", exp: 1.0, vseed: 0, cutLen: 54, dissolveN: 7, glideN: 20, creep: 0.003, total: TOTAL_F(), sets: ["hall"], setx: { hall: X },
   outfits: { MUS: (v = 0, e = {}) => ({ _id: "mus", jacket: "#16181d", pants: "#22252c", boots: "#1b1b1f", hat: "hair", hair: "#3a2a1f", pele: "#f2e2d2", skin: ["#ffe2c2", "#f5c9a0", "#ecd0b6", "#c99067"][v % 4], ...(((v + 245) % 6 === 4 && false) ? { glasses: true } : {}), ...(([1, 5].includes((v + 245) % 6) && false) ? { beard: ['#3a2a1f', '#6b4a2a', '#8a8a86'][(v + 3) % 3] } : {}), ...((((v + 245) % 6 === 3) && false) ? { moustache: ['#4a3020', '#2a201a', '#8a8a86'][v % 3] } : {}), ...e }),
     FRA: (v = 0, e = {}) => ({ _id: "fra", jacket: "#2a2d33", pants: "#3a3d44", boots: "#1b1b1f", hat: "hair", hair: "#4a3a2a", pele: "#e8c8a8", skin: ["#ffe2c2", "#f5c9a0", "#ecd0b6", "#c99067"][v % 4], ...(((v + 217) % 6 === 4 && false) ? { glasses: true } : {}), ...(([1, 5].includes((v + 217) % 6) && false) ? { beard: ['#3a2a1f', '#6b4a2a', '#8a8a86'][(v + 3) % 3] } : {}), ...((((v + 217) % 6 === 3) && false) ? { moustache: ['#4a3020', '#2a201a', '#8a8a86'][v % 3] } : {}), ...e }) },
   assets: ["kit/cybertruck", "kit/globe", "kit/steel_ball"],
