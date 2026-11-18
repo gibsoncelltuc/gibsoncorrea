@@ -119,3 +119,20 @@ for i in range(10):
     if i % 2 == 0: box((x * 1.06, 0.14, z * 1.06), (0.08, 0.08, 0.06), '#d8282f')
 box((0, 0.03, 0), (0.9, 0.06, 0.9), '#b8901c')
 done()
+box, done = start('pisa_tower')   # torre de Pisa inclinada: 8 andares de marmore claro + sino, deslocando a cada andar
+for i in range(8):
+    sx = 0.09 * i + 0.012 * i * i
+    box((sx, 0.35 + i * 0.78, 0), (1.5, 0.7, 1.5), '#eee7d4')
+    box((sx, 0.74 + i * 0.78, 0), (1.62, 0.08, 1.62), '#cdbfa0')                  # varanda
+    for k in range(6):
+        box((sx - 0.55 + k * 0.22, 0.35 + i * 0.78, 0.76), (0.1, 0.5, 0.04), '#b8a888')   # arcos da fachada
+sx = 0.09 * 8 + 0.012 * 64
+box((sx, 6.6, 0), (1.0, 0.7, 1.0), '#d9cfb5'); box((sx, 7.1, 0), (1.1, 0.12, 1.1), '#b0282f', 0.7)
+box((0, 0.04, 0), (2.4, 0.08, 2.4), '#7f9a5c')
+done()
+box, done = start('feather')      # pena branca
+box((0, 0.04, 0), (0.05, 0.05, 0.9), '#e8e2d0')
+for k in range(6):
+    z = -0.3 + k * 0.12; w = 0.3 - abs(k - 2.5) * 0.04
+    box((0.12, 0.05, z), (w, 0.02, 0.1), '#ffffff'); box((-0.12, 0.05, z), (w, 0.02, 0.1), '#f4f0e6')
+done()

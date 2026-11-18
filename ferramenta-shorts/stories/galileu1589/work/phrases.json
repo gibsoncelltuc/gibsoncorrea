@@ -1,0 +1,270 @@
+{
+ "duration": 56.232,
+ "frames30": 1687,
+ "source": "silence-align (cost 0.50)",
+ "segments": [
+  [
+   0.159625,
+   3.91329
+  ],
+  [
+   4.78496,
+   5.66575
+  ],
+  [
+   5.8625,
+   6.36071
+  ],
+  [
+   6.52854,
+   7.03167
+  ],
+  [
+   7.32071,
+   9.05671
+  ],
+  [
+   9.31475,
+   11.552
+  ],
+  [
+   12.4101,
+   13.6597
+  ],
+  [
+   13.9066,
+   15.9061
+  ],
+  [
+   16.0962,
+   17.0566
+  ],
+  [
+   17.9333,
+   19.1293
+  ],
+  [
+   19.3853,
+   20.564
+  ],
+  [
+   21.4043,
+   23.3937
+  ],
+  [
+   23.655,
+   24.787
+  ],
+  [
+   25.6401,
+   27.8977
+  ],
+  [
+   28.1925,
+   30.1164
+  ],
+  [
+   30.9865,
+   31.8006
+  ],
+  [
+   32.049,
+   33.1847
+  ],
+  [
+   33.3411,
+   35.0923
+  ],
+  [
+   35.9077,
+   37.5505
+  ],
+  [
+   37.8125,
+   39.3492
+  ],
+  [
+   40.2033,
+   42.2915
+  ],
+  [
+   42.6111,
+   44.1468
+  ],
+  [
+   44.3431,
+   45.0927
+  ],
+  [
+   45.9517,
+   47.5677
+  ],
+  [
+   47.8497,
+   48.2962
+  ],
+  [
+   48.6,
+   50.7649
+  ],
+  [
+   50.9774,
+   52.3308
+  ],
+  [
+   53.1907,
+   53.6171
+  ],
+  [
+   53.8498,
+   55.4305
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Uma bola pesada e outra leve ca\u00edram juntas e bateram no ch\u00e3o ao mesmo tempo.",
+   "s": 0.16,
+   "e": 3.913
+  },
+  {
+   "text": "Conta a hist\u00f3ria que,",
+   "s": 4.785,
+   "e": 5.666
+  },
+  {
+   "text": "em Pisa,",
+   "s": 5.862,
+   "e": 6.361
+  },
+  {
+   "text": "na It\u00e1lia,",
+   "s": 6.529,
+   "e": 7.032
+  },
+  {
+   "text": "por volta de mil quinhentos e noventa,",
+   "s": 7.321,
+   "e": 9.057
+  },
+  {
+   "text": "um jovem professor desafiou um s\u00e1bio famoso.",
+   "s": 9.315,
+   "e": 11.552
+  },
+  {
+   "text": "O s\u00e1bio era Arist\u00f3teles,",
+   "s": 12.41,
+   "e": 13.66
+  },
+  {
+   "text": "que dizia que quanto mais pesado o objeto,",
+   "s": 13.907,
+   "e": 15.906
+  },
+  {
+   "text": "mais r\u00e1pido ele cai.",
+   "s": 16.096,
+   "e": 17.057
+  },
+  {
+   "text": "Todo mundo achava \u00f3bvio,",
+   "s": 17.933,
+   "e": 19.129
+  },
+  {
+   "text": "e ningu\u00e9m tinha testado.",
+   "s": 19.385,
+   "e": 20.564
+  },
+  {
+   "text": "Mas Galileu Galilei achou estranho e disse:",
+   "s": 21.404,
+   "e": 23.394
+  },
+  {
+   "text": "\"Eu vou provar o contr\u00e1rio.\"",
+   "s": 23.655,
+   "e": 24.787
+  },
+  {
+   "text": "Dizem que ele foi at\u00e9 a torre inclinada de Pisa,",
+   "s": 25.64,
+   "e": 27.898
+  },
+  {
+   "text": "com duas bolas de pesos diferentes.",
+   "s": 28.192,
+   "e": 30.116
+  },
+  {
+   "text": "Acontece que,",
+   "s": 30.986,
+   "e": 31.801
+  },
+  {
+   "text": "quando ele soltou as duas,",
+   "s": 32.049,
+   "e": 33.185
+  },
+  {
+   "text": "elas bateram no ch\u00e3o ao mesmo tempo.",
+   "s": 33.341,
+   "e": 35.092
+  },
+  {
+   "text": "A plateia ficou de boca aberta,",
+   "s": 35.908,
+   "e": 37.55
+  },
+  {
+   "text": "e os professores ficaram bravos.",
+   "s": 37.812,
+   "e": 39.349
+  },
+  {
+   "text": "Hoje se discute se isso aconteceu mesmo,",
+   "s": 40.203,
+   "e": 42.291
+  },
+  {
+   "text": "porque a hist\u00f3ria vem de um aluno dele,",
+   "s": 42.611,
+   "e": 44.147
+  },
+  {
+   "text": "anos depois.",
+   "s": 44.343,
+   "e": 45.093
+  },
+  {
+   "text": "Mas em mil novecentos e setenta e um,",
+   "s": 45.952,
+   "e": 47.568
+  },
+  {
+   "text": "na Lua,",
+   "s": 47.85,
+   "e": 48.296
+  },
+  {
+   "text": "um astronauta soltou um martelo e uma pena,",
+   "s": 48.6,
+   "e": 50.765
+  },
+  {
+   "text": "e os dois ca\u00edram juntos.",
+   "s": 50.977,
+   "e": 52.331
+  },
+  {
+   "text": "No fim,",
+   "s": 53.191,
+   "e": 53.617
+  },
+  {
+   "text": "at\u00e9 a pena deu raz\u00e3o ao Galileu.",
+   "s": 53.85,
+   "e": 55.431
+  }
+ ]
+}

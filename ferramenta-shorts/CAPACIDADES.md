@@ -52,6 +52,7 @@ jacket, pants, boots (obrigatorios) | hat + cap (cor) | hair (cor, com hat: hair
 - kit/kettle  <- \bchaleira\b|\bpanelas?\b|\bsopa\b|caldeirao
 - kit/apple  <- \bmaca\b|\bmacas\b|\bmacieiras?\b
 - kit/bathtub  <- \bbanheira\b|\bbanho\b
+- kit/feather  <- \bpena\b
 - kit/crown  <- \bcoroa\b
 - nature/picket_fence  <- \bcerca\b|cercado|curral|fazenda|\bhorta\b
 - kit/cake_table  <- \bbolos?\b|\bdoces?\b|confeit|padaria|\bpastel\b|\bpasteis\b
@@ -70,7 +71,7 @@ jacket, pants, boots (obrigatorios) | hat + cap (cor) | hair (cor, com hat: hair
 - buildings/bridge  <- \bponte\b  (fundo, so cena externa)
 
 ## Biblioteca 3D completa (use em "props": [["pasta/nome", x, z, escala]])
-- kit: apple, ball, bathtub, cake_table, campfire, chest, cross, crown, grave, kettle, porch, room_shop, room_stone, room_wood, stall, tent, throne, tulip_bed, tulip_purple, tulip_red, tulip_striped, tulip_yellow
+- kit: apple, ball, bathtub, cake_table, campfire, chest, cross, crown, feather, grave, kettle, pisa_tower, porch, room_shop, room_stone, room_wood, stall, tent, throne, tulip_bed, tulip_purple, tulip_red, tulip_striped, tulip_yellow
 - buildings: apartment, barn, bridge, castle_tower, church, house_blue, house_small, house_two, lighthouse, shop, skyscraper, windmill
 - vehicles: airplane, bicycle, car, car_blue, helicopter, jeep, locomotive, motorboat, motorcycle, sailboat, tank, taxi, truck, wagon
 - nature: bench, bush, flowerbed, fountain, haybale, lamppost, picket_fence, rocks, scarecrow, tree_birch, tree_oak, tree_palm, tree_pine
