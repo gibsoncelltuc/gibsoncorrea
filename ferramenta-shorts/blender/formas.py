@@ -22,8 +22,8 @@ def caixa(c, tam, col, afina=1.0, rot=(0, 0, 0)):          # tam = (largura, alt
     _put(r['verts'], col, c, rot)
 def cil(c, raio, alt, col, raio_topo=None, rot=(0, 0, 0), lados=20):   # cilindro em pe (ou cone/tronco com raio_topo); c = centro
     r = bmesh.ops.create_cone(_S['bm'], cap_ends=True, segments=lados, radius1=raio, radius2=raio if raio_topo is None else raio_topo, depth=alt); _put(r['verts'], col, c, rot)
-def bola(c, raio, col, achata=1.0, rot=(0, 0, 0)):
-    r = bmesh.ops.create_uvsphere(_S['bm'], u_segments=18, v_segments=12, radius=raio)
+def bola(c, raio, col, achata=1.0, rot=(0, 0, 0), seg=18):
+    r = bmesh.ops.create_uvsphere(_S['bm'], u_segments=seg, v_segments=max(4, seg * 2 // 3), radius=raio)
     for v in r['verts']: v.co.z *= achata
     _put(r['verts'], col, c, rot)
 def torno(c, perfil, col, lados=24):                          # perfil = [(raio, altura), ...] de baixo para cima -> gira em volta do eixo (vaso, garrafa, sino, taca)
@@ -33,15 +33,15 @@ def torno(c, perfil, col, lados=24):                          # perfil = [(raio,
     for a, b in zip(aneis, aneis[1:]):
         for i in range(lados): bm.faces.new((a[i], a[(i + 1) % lados], b[(i + 1) % lados], b[i]))
     bm.faces.new(list(reversed(aneis[0]))); bm.faces.new(aneis[-1]); _put(vs, col, c)
-def tubo(pontos, raio, col, passo=0.5):                      # cano/alca/bico/galho: passa por uma lista de pontos (x, y, z); fica continuo
+def tubo(pontos, raio, col, passo=1.0):                      # cano/alca/bico/galho: passa por uma lista de pontos (x, y, z); fica continuo
     for a, b in zip(pontos, pontos[1:]):
         d = math.dist(a, b); n = max(2, int(d / (raio * passo)))
-        for i in range(n + 1): t = i / n; bola((a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t, a[2] + (b[2] - a[2]) * t), raio, col)
-def arco(c, raio, col, esp=0.04, de=0.0, ate=math.pi, n=28):  # arco em pe no plano x-y (alca de balde, chaleira, cesta)
+        for i in range(n + 1): t = i / n; bola((a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t, a[2] + (b[2] - a[2]) * t), raio, col, seg=8)
+def arco(c, raio, col, esp=0.04, de=0.0, ate=math.pi, n=14):  # arco em pe no plano x-y (alca de balde, chaleira, cesta)
     tubo([(c[0] + raio * math.cos(de + (ate - de) * i / n), c[1] + raio * math.sin(de + (ate - de) * i / n), c[2]) for i in range(n + 1)], esp, col)
 def fim(chanfro=0.03):
-    bm = _S['bm']; bmesh.ops.remove_doubles(bm, verts=bm.verts, dist=0.0005); bmesh.ops.recalc_face_normals(bm, faces=bm.faces)
-    me = bpy.data.meshes.new('arr_' + _S['name']); bm.to_mesh(me); bm.free()
+    bm = _S['bm']
+    me = bpy.data.meshes.new('red_' + _S['name']); bm.to_mesh(me); bm.free()
     for m in _S['mats']: me.materials.append(m)
     o = bpy.data.objects.new(_S['name'], me); bpy.context.collection.objects.link(o); bpy.context.view_layer.objects.active = o; o.select_set(True)
     if chanfro: m = o.modifiers.new('bv', 'BEVEL'); m.width = chanfro; m.segments = 3; m.limit_method = 'ANGLE'; m.angle_limit = math.radians(40); bpy.ops.object.modifier_apply(modifier='bv')

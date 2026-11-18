@@ -18,3 +18,27 @@ novo('barrel_r')                                             # barril de verdade
 torno((0, 0, 0), [(.36, 0), (.46, .25), (.5, .55), (.46, .85), (.36, 1.1)], '#9a6a3a')
 for h in (.2, .55, .9): cil((0, h, 0), .49 if h == .55 else .45, .06, '#3a3d47')
 fim()
+def _tulipa(x, z, c1, c2, h=1.0, s=1.0):                      # haste fina, 2 folhas curvas, calice em gota com 3 petalas
+    cil((x, .5 * h * s, z), .03 * s, h * s, '#3f8a3a')
+    tubo([(x, .1 * s, z), (x - .16 * s, .32 * h * s, z), (x - .2 * s, .62 * h * s, z)], .035 * s, '#4fa84a'); tubo([(x, .1 * s, z), (x + .15 * s, .28 * h * s, z), (x + .2 * s, .52 * h * s, z)], .035 * s, '#4fa84a')
+    torno((x, h * s, z), [(.02 * s, 0), (.15 * s, .08 * s), (.19 * s, .22 * s), (.15 * s, .36 * s), (.07 * s, .44 * s)], c1, 14)
+    for a in (0, 2.09, 4.19): bola((x + .1 * s * math.cos(a), (h + .4) * s, z + .1 * s * math.sin(a)), .08 * s, c2, 1.5)
+def _vaso(): torno((0, 0, 0), [(.2, 0), (.26, .05), (.34, .5), (.38, .56), (.38, .6), (.3, .6)], '#c2703a'); cil((0, .58, 0), .3, .04, '#4a3222')
+for nm, c1, c2 in (('tulip_red', '#e2332f', '#f0564a'), ('tulip_yellow', '#f2c230', '#ffe07a'), ('tulip_purple', '#8a3fb5', '#b06ad6'), ('tulip_striped', '#f4f0e6', '#d8282f')):
+    novo(nm); _vaso(); _tulipa(0, 0, c1, c2, h=1.15, s=1.25); fim(0.015)
+novo('tulip_bed'); caixa((0, .18, 0), (5.2, .36, 1.3), '#8a5a34'); caixa((0, .37, 0), (4.9, .06, 1.0), '#4a3222')
+for i, (c1, c2) in enumerate([('#e2332f', '#f0564a'), ('#f2c230', '#ffe07a'), ('#8a3fb5', '#b06ad6'), ('#f4f0e6', '#d8282f'), ('#f08a2a', '#ffb060'), ('#e2332f', '#f0564a'), ('#f2c230', '#ffe07a'), ('#d84a8a', '#f08ab5')]): _tulipa(-2.1 + i * .6, (.22 if i % 2 else -.22), c1, c2, h=.8 + .12 * (i % 3), s=1.0)
+fim(0.015)
+novo('ball'); bola((0, .42, 0), .42, '#f4f1e8')                                                                          # bola de futebol: esfera lisa com gomos pretos
+for a, b in ((0, 0), (1.26, .9), (2.51, -.9), (3.77, .9), (5.03, -.9), (0, 2.2), (2.1, 2.2), (4.2, 2.2), (0, -2.2), (3.1, -2.2), (1.5, 0), (4.6, 0)):
+    cb = math.cos(b * .7); bola((.4 * math.cos(a) * cb, .42 + .4 * math.sin(b * .7), .4 * math.sin(a) * cb), .12, '#22252c', .5)
+fim(0)
+novo('campfire')                                                                                                        # fogueira: pedras redondas, lenha em tubo, chama em gota
+for i in range(8): a = i * .785; bola((.55 * math.cos(a), .1, .55 * math.sin(a)), .15, '#8d8d86', .7)
+tubo([(-.45, .14, -.1), (.45, .2, .1)], .07, '#6a4426'); tubo([(-.1, .16, -.45), (.1, .22, .45)], .07, '#7a4a26'); tubo([(-.35, .15, .3), (.3, .3, -.25)], .06, '#6a4426')
+torno((0, .2, 0), [(.02, 0), (.26, .12), (.3, .32), (.18, .62), (.02, .9)], '#f08a2a', 12); torno((.05, .22, .04), [(.02, 0), (.15, .1), (.17, .26), (.08, .5), (.01, .66)], '#f2c230', 10); torno((-.14, .2, -.08), [(.02, 0), (.12, .08), (.12, .2), (.02, .42)], '#e2332f', 10)
+fim(0)
+novo('tent'); cil((0, 1.0, 0), 1.5, 2.0, '#e8dcc0', .05, lados=10); caixa((0, .6, 1.3), (.7, 1.2, .1), '#4a3a2a', .3); cil((0, 2.15, 0), .04, .4, '#6a4426'); caixa((.16, 2.25, 0), (.3, .16, .02), '#d8282f'); fim()   # tenda em cone
+novo('chest'); caixa((0, .3, 0), (1.1, .6, .7), '#8a5a34'); cil((0, .6, 0), .35, 1.1, '#a8703c', rot=(0, math.pi / 2, 0), lados=16)                                # bau de tampa abaulada
+for x in (-.4, .4): cil((x, .6, 0), .37, .1, '#d9a630', rot=(0, math.pi / 2, 0), lados=16); caixa((x, .3, 0), (.1, .62, .74), '#d9a630')
+bola((0, .52, .37), .08, '#f2d060'); fim()

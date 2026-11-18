@@ -669,6 +669,14 @@ print(f'{ID}: {len(beats)} cenas, {n} palavras narradas -> stories/{ID}/spec.js,
 # ---------- DUAS FOLHAS (ordem do Gibson): folha1_roteiro.md = historia, narracao, som e efeitos; folha2_producao.md = coordenadas de producao (cenario, camera, personagens, objetos, interacao) + RISCOS de cada cena e como corrigir NO ROTEIRO ----------
 _nz = lambda t: re.sub(r'[^a-z0-9 ]', '', unicodedata.normalize('NFKD', t.lower()).encode('ascii', 'ignore').decode())
 _CAM = {'two': 'plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s', 'close': 'close no rosto; empurra devagar', 'group': 'plano de grupo (corpo inteiro); angulo muda a cada ~2 s', 'low': 'camera baixa, dramatica (virada)', 'reveal': 'ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)', 'crowd': 'ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)', 'orbit': 'ABERTO: camera girando em volta da acao (tomada continua)', 'track': 'travelling lateral acompanhando quem anda', 'wide': 'ABERTO fixo'}
+def _redondo(as_):   # objeto do kit feito com blender/formas.py (malha 'red_...') = formato bonito; senao e' objeto montado com caixas (estilo Minecraft)
+    f_ = f'web/assets/library/{as_}.glb'
+    if not as_.startswith('kit/') or not os.path.exists(f_): return True
+    if re.search(r'kit/(room_|porch|grave|cross|throne|stall|tulip_bed$)', as_): return True   # movel/construcao: quadrado e' o formato normal
+    try:
+        d_ = open(f_, 'rb').read(); n_ = int.from_bytes(d_[12:16], 'little'); j_ = json.loads(d_[20:20 + n_].decode('utf-8', 'ignore'))
+        return any(str(m_.get('name', '')).startswith('red_') for m_ in j_.get('meshes', []))
+    except Exception: return True
 _VARN = ['frente', '3/4 pela direita, mais perto e mais baixo', '3/4 pela esquerda, mais alto e aberto', 'leve direita, perto', 'esquerda alta, aberto', 'direita baixa']
 _STOPW = set('guerra causa vezes tempo coisa hora horas dias anos meses semanas noite manha tarde vida nada tudo todo toda todos todas mesmo mesma outro outra outros outras nome meio parte lado fim final verdade volta ideia ordem resposta historia mundo pais paises primeiro segundo terceiro ultimo unica unico dele dela deles delas quem qual onde quando para pelo pela entre sobre depois antes ainda apenas quase muito pouco mais menos maior menor inteiro inteira troca conta hoje nunca sempre'.split())
 _ANIM_OK = {'porco': 'pig', 'porcos': 'pig', 'galinha': 'chicken', 'galinhas': 'chicken', 'emu': 'emus', 'emus': 'emus', 'ganso': 'chicken', 'gansos': 'chicken'}
@@ -718,6 +726,8 @@ if not any(b.get('mapa') for b in beats): _glob.append(('nenhum mapa no video (o
 if sum(1 for b in beats if b.get('impact')) < 2: _glob.append(('menos de 2 grandes momentos', '"batalha": true (ou "impact": true) em duas cenas de acao'))
 if HEROI and not any(b.get('_det_heroi') for b in beats): _glob.append((f'objeto heroi ({HEROI}) sem close de camera', 'por o objeto em "props" de uma cena media de 8+ palavras'))
 if not HEROI and 'heroi' not in B: _glob.append(('video sem objeto heroi', '"heroi": "kit/<objeto>" no topo do roteiro (modele se nao existir)'))
+_cx = sorted({o_ for b in beats for o_ in [str(p_[0]) for p_ in b.get('props', [])] + b.get('_auto_obj', []) if '/' in str(o_) and not _redondo(str(o_))})
+if _cx: _glob.append((f'objeto montado com caixas (estilo Minecraft): {", ".join(_cx)}', 'refazer com formas redondas: blender/objetos_<sessao>.py usando blender/formas.py (cil, bola, torno, tubo, arco), mesmo nome de arquivo; rodar o blender e este roteiro de novo'))
 if _sem: _glob.append((f'{_sem} palavra(s) de acao sem efeito + som', 'ver plano.md e por "fx"/"sfx" na cena'))
 # PARA O BLENDER: tudo que o video precisa em 3D, com o que ja existe e o que tem de ser modelado ANTES de renderizar
 _usados = {}
@@ -728,7 +738,7 @@ for k, b in enumerate(beats):
     for w_ in re.findall(FALTA_MODELAR, _nz(b['say'])) + [a_ for a_ in re.findall(_ANIM_ALL, _nz(b['say'])) if a_ not in _ANIM_OK]: _pal.setdefault(w_, []).append(f'b{k}')
 _f2 += ['## PARA O BLENDER (objetos 3D deste video)', 'Regra: todo objeto, utensilio, veiculo e animal que aparece e\' modelo 3D feito no Blender; a ferramenta so\' poe em cena, pinta o contorno e anima. Nada de objeto "quadradao": use `blender/formas.py` (cil, bola, torno, tubo, arco, caixa com chanfro).', '',
         'Objeto | Cenas | Situacao | O que fazer', '---|---|---|---',
-        *[f"{o_} | {', '.join(c_)} | {'pronto' if (_lib(o_) or '/' not in o_) else 'FALTA'}{' (HEROI: aparece em close)' if HEROI and o_ == HEROI else ''} | {'conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py' if (_lib(o_) or '/' not in o_) else 'modelar antes de renderizar'}" for o_, c_ in _usados.items()],
+        *[f"{o_} | {', '.join(c_)} | {('pronto' if _redondo(o_) else 'CAIXOTE: refazer com formas.py') if (_lib(o_) or '/' not in o_) else 'FALTA'}{' (HEROI: aparece em close)' if HEROI and o_ == HEROI else ''} | {'conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py' if (_lib(o_) or '/' not in o_) else 'modelar antes de renderizar'}" for o_, c_ in _usados.items()],
         *[f"{w_} (citado na narracao) | {', '.join(c_)} | FALTA | modelar: `blender/objetos_<sessao>.py` com formas.py -> `kit/{w_}.glb` (altura real em metros; cores chapadas; partes redondas com cil/bola/torno); cadastrar em `obj_dict.d/<sessao>.json`; `blender -b --python blender/objetos_<sessao>.py`; `python3 capacidades.py`; depois rodar este roteiro de novo" for w_, c_ in _pal.items()],
         '' if (_usados or _pal) else '(nenhum objeto 3D neste video: confira se o roteiro nao esta pobre de elementos)', '']
 _f2 += ['## Video inteiro', f'- Objeto heroi: {HEROI or "-"} | grandes momentos: {", ".join(f"b{i}" for i, b in enumerate(beats) if b.get("impact")) or "-"} | planos abertos: {_nw} | mistura: {_mix}', f'- Interacoes: {", ".join(f"b{i} {b[chr(95) + chr(105) + chr(110) + chr(116) + chr(101) + chr(114)]}" for i, b in enumerate(beats) if b.get("_inter")) or "-"}',
