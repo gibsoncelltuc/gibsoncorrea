@@ -7,6 +7,7 @@ SEED=${SEED:-23}
 for EP in $(seq ${1:-11} ${2:-30}); do
   N=$(printf %02d $EP); D=/home/user/musica/ep$N/s$SEED
   [ -f "$D/req00.mp3" ] && continue
+  [ -f "$HERE/../musica/ep${N}_acestep_seed${SEED}.mp3" ] && continue
   rm -rf "$D"; mkdir -p "$D"; cd "$D"
   python3 "$HERE/musica_pedido.py" $EP $SEED req.json > /dev/null
   T=$(date +%s)
@@ -17,4 +18,4 @@ for EP in $(seq ${1:-11} ${2:-30}); do
     echo "ep$N pronto em $(( $(date +%s)-T ))s" >> /home/user/musica/todas.log
   else echo "ep$N FALHOU" >> /home/user/musica/todas.log; fi
 done
-echo FIM >> /home/user/musica/todas.log
+

@@ -482,7 +482,9 @@ except ImportError:  # sem os episódios novos
 
 
 def todos():
-    return EPISODES + NOVOS
+    d = {e['num']: e for e in EPISODES}
+    d.update({e['num']: e for e in NOVOS})
+    return [d[k] for k in sorted(d)]
 
 
 def lock_for(chars):

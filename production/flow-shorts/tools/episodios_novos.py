@@ -762,3 +762,4 @@ EP(30, "foco-na-licao", "Foco na Lição", "Foco e concentração para fazer a l
 
 
 import episodios_novos2  # noqa: E402,F401  (episódios 31 a 51)
+import episodios_novos3  # noqa: E402,F401  (episódios 3, 5 a 10 refeitos)

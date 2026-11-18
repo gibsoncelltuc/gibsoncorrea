@@ -140,12 +140,20 @@ def write_fichas():
 
 
 def write_index():
-    L = ["# 51 Shorts didáticos (Bento e Amigos)\n", "Ordem sugerida de publicação: 1 por dia. Os 1 a 10 têm prompts em `episodios/EPNN-*.md` (versão inicial) e `EP04-*` etc.; "
-         "os 11 a 51 estão **prontos para colar** em `episodios/EPNN-PRONTO.md`. Títulos e descrições de todos em `TITULOS-E-DESCRICOES.md`.\n",
-         "| # | Título | Lição | Personagens |", "|---|---|---|---|"]
+    out = {1: "out/ep01_FINAL_60s_legendado.mp4", 2: "out/ep02_FINAL_60s_legendado.mp4", 4: "out/ep04_FINAL_60s_legendado.mp4"}
+    L = ["# Painel dos 51 Shorts didáticos (Bento e Amigos)\n",
+         "Clique no arquivo do episódio: lá estão roteiro, letra, legenda em inglês, mensagem das imagens, mensagem dos vídeos, títulos (A/B/C), descrição pronta e tags. "
+         "Todas as descrições também estão juntas em `TITULOS-E-DESCRICOES.md`. As fichas dos personagens estão em `FICHAS.md` e o prompt mestre em `MESTRE-PROMPTS.md`.\n",
+         "Legenda do status: ✅ pronto | ⏳ ainda não | — não se aplica. A música é gerada em CPU (uns 10 min cada) e aparece em `musica/` quando fica pronta.\n",
+         "| # | Título | Arquivo | Música | Vídeo final |", "|---|---|---|---|---|"]
     for e in g.todos():
-        L.append(f"| {e['num']} | {e['titulo']} | {e['tema']} | {', '.join(e['cast'])} |")
-    L += ["", "Já produzidos: 1, 2 e 4 (vídeos finais em `out/`). O 3 foi pulado a seu pedido.\n"]
+        n = e["num"]
+        f = f"episodios/EP{n:02d}-PRONTO.md" if os.path.exists(os.path.join(EPS, f"EP{n:02d}-PRONTO.md")) else "(formato antigo, ver TITULOS)"
+        link = f"[EP{n:02d}-PRONTO]({f})" if f.startswith("episodios") else f
+        mus = "✅" if os.path.exists(os.path.join(BASE, "musica", f"ep{n:02d}_acestep_seed23.mp3")) or n in (1, 2, 4) else "⏳"
+        vid = "✅" if n in out else "⏳"
+        L.append(f"| {n} | {e['titulo']} | {link} | {mus} | {vid} |")
+    L += ["", "O episódio 3 está pronto para produzir, mas foi pulado a seu pedido. Já produzidos: 1, 2 e 4.\n"]
     open(os.path.join(BASE, "INDICE-51.md"), "w").write("\n".join(L))
 
 
