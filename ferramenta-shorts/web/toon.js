@@ -21,6 +21,7 @@ const SH_FELT = [
 const rad = (d)=>d * Math.PI / 180;
 const clamp = (x, a, b)=>Math.max(a, Math.min(b, x));
 export const mul = (c, m)=>{
+    c = (typeof c === 'string' && c[0] === '#') ? c : '#8a8f98';   /* cor faltando no figurino nao derruba o render */
     const n = parseInt(c.slice(1), 16);
     const ch = (v, k)=>Math.min(255, Math.round(v * k)).toString(16).padStart(2, "0");
     return `#${ch(n >> 16 & 255, m[0])}${ch(n >> 8 & 255, m[1])}${ch(n & 255, m[2])}`;
@@ -31,6 +32,7 @@ export const shade = (c, k)=>mul(c, [
         k
     ]);
 export const mix = (a, b, t)=>{
+    a = (typeof a === 'string' && a[0] === '#') ? a : '#8a8f98'; b = (typeof b === 'string' && b[0] === '#') ? b : '#8a8f98';
     const A = parseInt(a.slice(1), 16), B = parseInt(b.slice(1), 16);
     const ch = (s)=>Math.round((A >> s & 255) * (1 - t) + (B >> s & 255) * t).toString(16).padStart(2, "0");
     return `#${ch(16)}${ch(8)}${ch(0)}`;
@@ -238,6 +240,7 @@ export class Pen {
         g.restore();
     }
     shadedFill(pts, base, shadow, light, R, shift = 0.45, r0 = 1.05, r1 = 1.25) {
+        if (typeof base !== 'string') base = '#6b4a2a'; if (typeof shadow !== 'string') shadow = mul(base, 0.75);   /* cor faltando no figurino (cabelo/chapeu) nao derruba o render */
         const g = this.g, n = pts.length;
         let cx = 0, cy = 0;
         for (const [x, y] of pts){
@@ -790,6 +793,9 @@ const mouth = (p, kind, mx, my, u, k = 1)=>{
             break;
     }
 };
+/* EXPRESSOES EMOCIONAIS extras (montadas com os olhos/bocas existentes): raiva, grito, tristeza, choro, convencido, surpresa, medo, desconfianca, tedio */
+Object.assign(FACE, { angry: { eye: ["slit", "slit"], brow: [7, -4], mouth: "teeth" }, shout: { eye: ["lid", "lid"], brow: [7, -4], mouth: "O" }, sad: { eye: ["lid", "lid"], brow: [-5, 3], mouth: "frown" }, cry: { eye: ["squeeze", "squeeze"], brow: [-5, 3], mouth: "wave" },
+    smug: { eye: ["happy", "lid"], brow: [-3, 2], mouth: "smirk" }, surprised: { eye: ["shock", "shock"], brow: [-6, -6], mouth: "o" }, scared: { eye: ["shock", "shock"], brow: [-5, 3], mouth: "wave" }, suspicious: { eye: ["slit", "slit"], brow: [3, -2], mouth: "dash" }, bored: { eye: ["slit", "slit"], brow: [0, 0], mouth: "dash" } });
 const faceFront = (p, cx, cy, W, expr, facing, look, lid, brim, skin, moustache, stout = false, AX = {})=>{
     const u = W / 100, F = FACE[expr] || FACE.neutral, fx = cx + 7 * u * facing;
     /* ROSTO INDIVIDUAL: cada personagem tem seus tracos (distancia e altura dos olhos, sobrancelha, bochecha, sardas, pinta, olheira) */
@@ -1443,8 +1449,8 @@ export const bodyFront = (p, o, opts)=>{
     if (o.hold && !gest && (mode === "stand" || mode === "stroll") && arms.length) {
         /* quem segura um objeto mostra/usa o objeto: caneca e garrafa sobem ate a boca, papel e livro ficam na frente do peito, luneta vai ao olho, lanterna/tocha/bandeira ficam erguidas */
         const Qh = (xr, yr)=>[tcx + xr * HH, chin + yr * HH], k = o.hold, h = Math.max(0, Math.min(1, holdK));
-        const rest = { mug: [0.74, 0.3], bottle: [0.74, 0.32], paper: [0.5, 0.42], book: [0.5, 0.42], spyglass: [0.7, 0.2], coin: [0.8, 0.2], lantern: [0.95, 0.0], torch: [0.9, -0.1], flag: [0.85, 0.25], staff: [0.85, 0.25], pitchfork: [0.85, 0.25], shovel: [0.8, 0.3], tulip: [0.6, 0.3], bag: [0.62, 0.62] }[k] || [0.8, 0.3];
-        const use = { mug: [0.2, -0.1], bottle: [0.2, -0.14], paper: [0.42, 0.26], book: [0.42, 0.26], spyglass: [0.36, -0.5], coin: [0.9, -0.05], lantern: [1.0, -0.3], torch: [0.95, -0.35], flag: [0.85, 0.2], staff: [0.85, 0.22], pitchfork: [0.85, 0.22], shovel: [0.8, 0.28], tulip: [0.5, 0.0], bag: [0.62, 0.6] }[k] || rest;
+        const rest = { mug: [0.74, 0.3], bottle: [0.74, 0.32], paper: [0.5, 0.42], book: [0.5, 0.42], spyglass: [0.7, 0.2], coin: [0.8, 0.2], money: [0.8, 0.1], lantern: [0.95, 0.0], torch: [0.9, -0.1], flag: [0.85, 0.25], staff: [0.85, 0.25], pitchfork: [0.85, 0.25], shovel: [0.8, 0.3], tulip: [0.6, 0.3], bag: [0.62, 0.62] }[k] || [0.8, 0.3];
+        const use = { mug: [0.2, -0.1], bottle: [0.2, -0.14], paper: [0.42, 0.26], book: [0.42, 0.26], spyglass: [0.36, -0.5], coin: [0.9, -0.05], money: [0.95, -0.15], lantern: [1.0, -0.3], torch: [0.95, -0.35], flag: [0.85, 0.2], staff: [0.85, 0.22], pitchfork: [0.85, 0.22], shovel: [0.8, 0.28], tulip: [0.5, 0.0], bag: [0.62, 0.6] }[k] || rest;
         const hx = rest[0] + (use[0] - rest[0]) * h, hy = rest[1] + (use[1] - rest[1]) * h;
         arms[arms.length - 1] = { pts: [Qh(0.36, 0.12), Qh(0.36 + (hx - 0.36) * 0.55 + 0.12, 0.12 + (hy - 0.12) * 0.5 + 0.16), Qh(hx, hy)], front: true, top: hy < 0.08 };   /* mao perto do rosto fica na frente da cabeca */
     }
@@ -1492,6 +1498,7 @@ export const bodyFront = (p, o, opts)=>{
         else if (k === "shovel") { p.band([[x, y - 30 * u], [x, y + 42 * u]], "#8a5a34", 3.6 * u, 1.3 * u, "round"); p.poly([[x - 9 * u, y + 40 * u], [x + 9 * u, y + 40 * u], [x + 8 * u, y + 58 * u], [x, y + 66 * u], [x - 8 * u, y + 58 * u]], "#9aa0a8", 1.6 * u); p.band([[x - 6 * u, y - 31 * u], [x + 6 * u, y - 31 * u]], "#8a5a34", 3.4 * u, 1.2 * u, "round"); }
         else if (k === "bag") { p.stroke([[x, y], [x, y + 8 * u]], 1.6 * u); p.ell(x, y + 22 * u, 13 * u, 15 * u, c2 || "#b98448", 1.8 * u); p.stroke([[x - 6 * u, y + 10 * u], [x + 6 * u, y + 10 * u]], 1.6 * u); }
         else if (k === "coin") { p.ell(x, y - 8 * u, 7 * u, 7 * u, "#f2c230", 1.5 * u); }
+        else if (k === "money") { for (const [dx, rot] of [[-9, -0.35], [0, 0], [9, 0.35]]) { const cx = x + dx * u, cy = y - 16 * u, w = 8 * u, h = 15 * u, c = Math.cos(rot), sn = Math.sin(rot), R = (px, py) => [cx + px * c - py * sn, cy + px * sn + py * c]; p.poly([R(-w, -h), R(w, -h), R(w, h), R(-w, h)], "#6fbf73", 1.5 * u); p.ell(cx, cy, 3.6 * u, 4.6 * u, "#d9f2c8", 1 * u); } }   /* notas de dolar em leque */
         else if (k === "spyglass") { p.band([[x - 4 * u, y], [x + 20 * u, y - 10 * u]], "#c9a060", 6 * u, 1.3 * u, "round"); p.band([[x + 20 * u, y - 10 * u], [x + 30 * u, y - 14 * u]], "#3a3d47", 8 * u, 1.3 * u, "round"); }
     })(u * 1.7);
     const drawArm = (a)=>{
