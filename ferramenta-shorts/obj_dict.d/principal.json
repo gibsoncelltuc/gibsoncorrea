@@ -94,5 +94,17 @@
   "kit/miners",
   1.0,
   false
+ ],
+ [
+  "tabuleiro|jogo de mesa",
+  "kit/boardgame",
+  1.0,
+  false
+ ],
+ [
+  "\\bmacacos?\\b|\\bpong\\b|\\bpager\\b",
+  "kit/monkey_pong",
+  1.0,
+  false
  ]
 ]

@@ -1,0 +1,283 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Poder e Fama",
+ "ep": 19,
+ "title": "O Macaco que Jogou Videogame com a Mente",
+ "titulo_base": "O Macaco que Jogou Videogame com a Mente",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/monkey_pong",
+ "outfits": {
+  "MUS": {
+   "jacket": "#16181d",
+   "pants": "#22252c",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#3a2a1f",
+   "pele": "#f2e2d2"
+  },
+  "CIE": {
+   "profissao": "medico",
+   "hair": "#7a4a2a",
+   "hairStyle": "bun"
+  },
+  "CIM": {
+   "profissao": "cientista",
+   "beard": "#3a2a1f",
+   "hair": "#3a2a1f"
+  },
+  "NOL": {
+   "jacket": "#2a5a3a",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#1b1b1f",
+   "beard": "#5a3a22"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "bowler"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "MUS:0:grin",
+    "CIE:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/monkey_pong",
+     0,
+     -1.4,
+     1.1
+    ]
+   ],
+   "text": "2021",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "Uma empresa de Elon Musk mostrou um macaco jogando videogame. Sem as mãos, só com o pensamento."
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin"
+   ],
+   "mapa": "ESTADOS UNIDOS",
+   "mapa_at": 3,
+   "say": "Foi em abril de dois mil e vinte e um, nos Estados Unidos. A empresa se chama Neuralink."
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "CIM:0:stern:paper",
+    "MUS:0:suspicious"
+   ],
+   "acao": "conversar",
+   "say": "A ideia é um chip implantado no cérebro, que lê os sinais dos neurônios e manda para o computador."
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "CIE:0:smile"
+   ],
+   "props": [
+    [
+     "kit/monkey_pong",
+     1.6,
+     -0.8,
+     1.1
+    ]
+   ],
+   "acao": "conversar",
+   "say": "O voluntário foi o Pager, um macaco de nove anos. Primeiro, ele aprendeu a jogar Pong com um joystick."
+  },
+  {
+   "shot": "close",
+   "interior": "loja",
+   "who": [
+    "CIE:0:grin"
+   ],
+   "props": [
+    [
+     "kit/monkey_pong",
+     1.6,
+     -0.8,
+     1.1
+    ]
+   ],
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "A cada acerto, ganhava um golinho de vitamina de banana, por um canudinho de metal."
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "CIM:0:suspicious",
+    "CIE:0:nervous"
+   ],
+   "props": [
+    [
+     "kit/monkey_pong",
+     1.6,
+     -0.8,
+     1.1
+    ]
+   ],
+   "interacao": "cochichar",
+   "say": "Enquanto isso, o chip gravava o que os neurônios faziam a cada movimento."
+  },
+  {
+   "shot": "low",
+   "interior": "loja",
+   "who": [
+    "CIM:0:shock"
+   ],
+   "props": [
+    [
+     "kit/monkey_pong",
+     1.6,
+     -0.8,
+     1.1
+    ]
+   ],
+   "fx": [
+    "ring@20",
+    "stars@50"
+   ],
+   "sfx": [
+    "sting@20",
+    "ding@50"
+   ],
+   "say": "Acontece que, um dia, desligaram o joystick. E o Pager continuou jogando, só com a mente!"
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "POV:0:shock",
+    "POV:1:surprised",
+    "MUS:0:grin"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "surprised"
+   },
+   "props": [
+    [
+     "kit/monkey_pong",
+     0,
+     -3.0,
+     1.4
+    ]
+   ],
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "text": "MENTE",
+   "titulo": true,
+   "say": "O vídeo rodou o mundo. Muita gente se encantou, e muita gente debateu o uso de animais na pesquisa."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MUS:0:smug",
+    "CIM:0:grin"
+   ],
+   "acao": "discutir",
+   "say": "O objetivo, segundo a empresa, é ajudar pessoas paralisadas a usar computadores e celulares com o pensamento."
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "NOL:0:grin",
+    "CIE:0:surprised"
+   ],
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ],
+   "interacao": "entregar",
+   "say": "Em dois mil e vinte e quatro, o primeiro paciente humano recebeu o chip, e jogou xadrez no computador só pensando."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "NOL:0:laugh",
+    "CIE:0:laugh",
+    "CIM:0:grin"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "XADREZ",
+   "titulo": true,
+   "say": "Ele não mexia o corpo do pescoço para baixo. E voltou a jogar."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "MUS:0:smile"
+   ],
+   "props": [
+    [
+     "kit/monkey_pong",
+     -1.4,
+     -0.8,
+     1.0
+    ]
+   ],
+   "acao": "comemorar",
+   "say": "E tudo começou com um macaco, um videogame antigo, e um copo de vitamina de banana."
+  }
+ ]
+}
