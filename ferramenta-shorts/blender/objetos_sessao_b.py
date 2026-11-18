@@ -82,3 +82,15 @@ cil((0, .52, -.05), .24, .9, '#ecece8', raio_topo=.3); cil((0, .06, -.05), .38, 
 tubo([(0, 1.1, -.4), (0, 1.5, -.4), (0, 1.55, -.22)], .045, '#c0c4cc'); bola((.0, 1.52, -.4), .07, '#c0c4cc')
 cil((-.18, 1.2, -.38), .05, .12, '#d83030'); cil((.18, 1.2, -.38), .05, .12, '#3060d8')
 fim()
+novo('steel_ball')         # bola de aco polida: esfera cinza metalica com brilho e pedestal
+bola((0, .6, 0), .5, '#6f7c8a', seg=24); bola((-.2, .85, .3), .17, '#f2f6fa', seg=10)
+cil((0, .08, 0), .3, .1, '#4a4a52')
+fim()
+novo('cybertruck')         # Cybertruck: picape de aco em cunha (corpo baixo, cabine triangular, vidro escuro, rodas grandes)
+caixa((0, .55, 0), (2.6, .45, 1.1), '#8f979f'); caixa((-.1, .95, 0), (1.7, .5, 1.0), '#a9b0b8', afina=.5)
+for z in (-.43, .43): caixa((-.1, .98, z), (1.1, .26, .05), '#1c2a36', rot=(0, 0, 0))
+caixa((-.7, .95, 0), (.04, .3, .8), '#1c2a36'); caixa((.55, .78, 0), (.9, .14, .95), '#8a9098')
+for x in (-.85, .85):
+    for z in (-.58, .58): cil((x, .3, z), .32, .22, '#15151a', rot=(math.pi / 2, 0, 0)); cil((x, .3, z), .16, .24, '#b8bcc4', rot=(math.pi / 2, 0, 0))
+caixa((-1.31, .6, 0), (.05, .08, .9), '#e8f0ff')
+fim()

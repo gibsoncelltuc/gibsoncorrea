@@ -1,0 +1,224 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Poder e Fama",
+ "ep": 11,
+ "title": "A Janela do Cybertruck",
+ "titulo_base": "A Janela do Cybertruck",
+ "set": "hall",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/steel_ball",
+ "outfits": {
+  "MUS": {
+   "jacket": "#16181d",
+   "pants": "#22252c",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#3a2a1f",
+   "pele": "#f2e2d2"
+  },
+  "FRA": {
+   "jacket": "#2a2d33",
+   "pants": "#3a3d44",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#4a3a2a",
+   "pele": "#e8c8a8"
+  }
+ },
+ "beats": [
+  {
+   "say": "Em novembro de dois mil e dezenove, na Califórnia, a empresa de Elon Musk apresentou o Cybertruck, uma picape elétrica de aço.",
+   "shot": "two",
+   "who": [
+    "MUS:0:grin",
+    "FRA:0:smile"
+   ],
+   "props": [
+    [
+     "kit/cybertruck",
+     1.4,
+     -0.6,
+     1.1
+    ]
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "mapa": "CALIFÓRNIA",
+   "mapa_at": 3
+  },
+  {
+   "say": "Na apresentação, Musk disse que as janelas eram feitas de um vidro super resistente.",
+   "shot": "close",
+   "who": [
+    "MUS:0:smug"
+   ],
+   "props": [
+    [
+     "kit/cybertruck",
+     1.3,
+     -0.4,
+     1.0
+    ]
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": false
+  },
+  {
+   "say": "Para provar, o designer Franz von Holzhausen jogou uma esfera de aço na janela.",
+   "shot": "two",
+   "who": [
+    "FRA:0:stern:ball",
+    "MUS:0:smile"
+   ],
+   "props": [
+    [
+     "kit/steel_ball",
+     -1.5,
+     0.3,
+     1.4
+    ],
+    [
+     "kit/cybertruck",
+     1.5,
+     -0.5,
+     1.0
+    ]
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": false
+  },
+  {
+   "say": "E o vidro rachou, ao vivo, na frente de todo mundo.",
+   "shot": "reveal",
+   "who": [
+    "MUS:0:shock",
+    "FRA:0:scared"
+   ],
+   "fx": [
+    "burst@3"
+   ],
+   "sfx": [
+    "thump@3"
+   ],
+   "impact": true,
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
+   "props": [
+    [
+     "kit/cybertruck",
+     0,
+     -2.5,
+     1.2
+    ]
+   ],
+   "tiros": false,
+   "batalha": false
+  },
+  {
+   "say": "Ele tentou de novo, em outra janela, e ela também rachou.",
+   "shot": "two",
+   "who": [
+    "FRA:0:nervous",
+    "MUS:0:surprised"
+   ],
+   "fx": [
+    "burst@4"
+   ],
+   "sfx": [
+    "thump@4"
+   ],
+   "props": [
+    [
+     "kit/cybertruck",
+     1.5,
+     -0.5,
+     1.0
+    ]
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": false
+  },
+  {
+   "say": "Depois, Musk explicou na internet que, nos ensaios, a mesma esfera tinha batido na mesma janela sem nem arranhar.",
+   "shot": "close",
+   "who": [
+    "MUS:0:smile"
+   ],
+   "props": [
+    [
+     "kit/steel_ball",
+     1.4,
+     0.3,
+     1.5
+    ]
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": false
+  },
+  {
+   "say": "A plateia riu, a internet também, e a cena deu o que falar no mundo inteiro.",
+   "shot": "orbit",
+   "who": [
+    "MUS:0:laugh",
+    "FRA:0:grin"
+   ],
+   "props": [
+    [
+     "kit/globe",
+     1.6,
+     -0.4,
+     1.1
+    ]
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "tiros": false,
+   "batalha": false,
+   "impact": false
+  },
+  {
+   "say": "Uma picape, uma esfera de aço e uma janela que não aguentou: um lançamento inesquecível.",
+   "shot": "group",
+   "who": [
+    "MUS:0:laugh",
+    "FRA:0:smile"
+   ],
+   "props": [
+    [
+     "kit/cybertruck",
+     1.6,
+     -0.5,
+     1.0
+    ],
+    [
+     "kit/steel_ball",
+     -1.6,
+     0.3,
+     1.3
+    ]
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": false
+  }
+ ]
+}
