@@ -39,5 +39,11 @@ Ler `FIGURINOS_FAMOSOS.md` (figurinos prontos e REGRAS obrigatórias: só fato r
 
 ## Série 4 — "E Se" (What If) — 10 roteiros PRONTOS, fora da fila (aguardando ordem do Gibson)
 Ver `videos/E_SE_ROTEIROS.md`. Produzir com `./prechecar.sh <id>` e `./novo_video.sh <id>` só quando o Gibson mandar, depois de terminar a fila atual.
-- Gibson mandou produzir (18/11 ~20h): sessão A = ese_pulo, ese_humanos, ese_holanda, ese_internet, ese_sono · sessão B (depois dos PF 22–28) = ese_dinheiro, ese_lua, ese_napoleao, ese_buraco, ese_titanic.
-- Sessão A escolheu: PF 03 = Twitter vira X e a placa sem licença (2023) · PF 04 = trem de luzes do Starlink vira OVNI (2019). (Aprendiz/PayPal/Cybertruck/lança-chamas já são da principal.)
+- Ordem do Gibson (18/11 ~21h): os "E Se" SÓ começam depois que a fila principal terminar os 11 refeitos (Cachorro, Aroostook, Los Angeles, Eratóstenes, Roadster, Bitcoin, Pia, Cybertruck, Lança-chamas, O Aprendiz, PayPal). Divisão quando liberar: sessão A = ese_pulo, ese_humanos, ese_holanda, ese_internet, ese_sono · sessão B (depois dos PF 22–28) = ese_dinheiro, ese_lua, ese_napoleao, ese_buraco, ese_titanic.
+
+## Série 5 — "Histórias Incríveis" (histórias reais emocionantes) — CATALOGADA, para depois
+Ver `videos/CATALOGO_HISTORIAS_EMOCIONANTES.md` (20 ideias com gancho, virada e objetos). Só produzir quando o Gibson mandar, depois dos "E Se".
+
+## Séries 6 e 7 — "Como Funciona" e "Histórias de Empresas" — CATALOGADAS, para depois
+Ver `videos/CATALOGO_COMO_FUNCIONA_E_EMPRESAS.md` (15 temas técnicos + 10 empresas). Estratégia do Gibson: tudo começa como short de 60 s; os que performarem viram versão de 3–5 min. "Como Funciona" vai precisar de modelos 3D em corte (Blender) quando começar.
+Ver `videos/CATALOGO_POVOS_CIDADES_EPOCAS.md`: série "Povos Esquecidos" (10 roteiros completos de 60 s com fontes: Incas, Astecas, Espartanos, Nabateus, Khmer, Mali, Minoicos, Vale do Indo, Polinésios, Marajoaras), "Cidades no Tempo" (12 ideias) e "Como Era a Vida" (10 ideias por década). Para depois.
