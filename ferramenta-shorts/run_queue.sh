@@ -14,7 +14,7 @@ uptime_s() { ps -o etimes= -p 1 2>/dev/null | tr -d ' ' || echo 0; }
 while true; do
   # CORRECOES PENDENTES (refazer.txt, uma por linha: "<id> b1 b4"): feitas ANTES do proximo video, so' as cenas marcadas
   while [ -s refazer.txt ] && L1=$(grep -v '^#' refazer.txt | grep -m1 .) && [ -n "$L1" ]; do
-    echo "$(date +%T) >>> refazendo cenas: $L1"; FROM_QUEUE=1 bash refazer.sh $L1 >> logs/refazer_run.log 2>&1 || echo "$(date +%T) refazer falhou: $L1 (veja logs/refazer_run.log)"
+    echo "$(date +%T) >>> refazendo cenas: $L1"; FROM_QUEUE=1 bash refazer.sh $L1 9>&- >> logs/refazer_run.log 2>&1 || echo "$(date +%T) refazer falhou: $L1 (veja logs/refazer_run.log)"
     grep -vxF "$L1" refazer.txt > refazer.tmp; mv refazer.tmp refazer.txt
   done
   NEXT=""
@@ -32,7 +32,7 @@ while true; do
     export DEADLINE=$(( $(date +%s) + LEFT )); echo "$(date +%T) prazo de seguranca em $((LEFT/60)) min (container no ar ha $((UP/60)) min)"
   fi
   echo "$(date +%T) >>> $NEXT"
-  bash make_video.sh "$NEXT"; RC=$?
+  bash make_video.sh "$NEXT" 9>&-; RC=$?   # 9>&-: os filhos nao herdam a trava (senao um processo orfao bloqueia a fila)
   if [ $RC -eq 75 ]; then
     echo "$(date +%T) PAUSA DE SEGURANCA: checkpoint salvo. Aguardando $GRACE_MIN min por reinicio; se nao reiniciar, continuo."; sleep $((GRACE_MIN*60)); continue
   fi
