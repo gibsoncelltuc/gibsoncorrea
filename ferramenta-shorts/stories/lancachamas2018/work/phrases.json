@@ -1,144 +1,162 @@
 {
- "duration": 33.816,
- "frames30": 1014,
- "source": "silence-align (cost 0.37)",
+ "duration": 36.24,
+ "frames30": 1087,
+ "source": "silence-align (cost 0.38)",
  "segments": [
   [
-   0.157208,
-   1.59729
+   0.153417,
+   1.59762
   ],
   [
-   1.82488,
-   2.66887
+   1.81829,
+   2.82046
   ],
   [
-   2.88258,
-   4.3875
+   3.01788,
+   3.82154
   ],
   [
-   4.69371,
-   7.47358
+   4.03792,
+   5.58379
   ],
   [
-   8.33258,
-   10.1125
+   5.86279,
+   7.12937
   ],
   [
-   10.9775,
-   12.2555
+   7.98354,
+   9.89092
   ],
   [
-   12.4917,
-   14.4517
+   10.7527,
+   12.5343
   ],
   [
-   14.6489,
-   15.4992
+   13.3977,
+   14.6757
   ],
   [
-   16.3381,
-   18.875
+   14.912,
+   16.8718
   ],
   [
-   19.7813,
-   21.4306
+   17.0692,
+   17.9195
   ],
   [
-   22.2832,
-   24.0175
+   18.7583,
+   21.2941
   ],
   [
-   24.27,
-   26.4655
+   22.2016,
+   23.864
   ],
   [
-   27.3217,
-   29.2402
+   24.7034,
+   26.4384
   ],
   [
-   30.089,
-   31.6662
+   26.6915,
+   28.8882
   ],
   [
-   31.9084,
-   33.0222
+   29.742,
+   31.6604
+  ],
+  [
+   32.5093,
+   34.0863
+  ],
+  [
+   34.3286,
+   35.4422
   ]
  ],
  "phrases": [
   {
    "text": "No come\u00e7o de dois mil e dezoito,",
-   "s": 0.157,
-   "e": 1.597
+   "s": 0.153,
+   "e": 1.598
+  },
+  {
+   "text": "nos Estados Unidos,",
+   "s": 1.818,
+   "e": 2.82
   },
   {
    "text": "a Boring Company,",
-   "s": 1.825,
-   "e": 2.669
+   "s": 3.018,
+   "e": 3.822
   },
   {
    "text": "a empresa de t\u00faneis de Elon Musk,",
-   "s": 2.883,
-   "e": 4.388
+   "s": 4.038,
+   "e": 5.584
   },
   {
-   "text": "come\u00e7ou a vender um produto chamado N\u00e3o \u00e9 um lan\u00e7a-chamas.",
-   "s": 4.694,
-   "e": 7.474
+   "text": "come\u00e7ou a vender um produto.",
+   "s": 5.863,
+   "e": 7.129
+  },
+  {
+   "text": "O nome dele era N\u00e3o \u00e9 um lan\u00e7a-chamas.",
+   "s": 7.984,
+   "e": 9.891
   },
   {
    "text": "O pre\u00e7o era de quinhentos d\u00f3lares.",
-   "s": 8.333,
-   "e": 10.113
+   "s": 10.753,
+   "e": 12.534
   },
   {
    "text": "O nome dizia que n\u00e3o era,",
-   "s": 10.977,
-   "e": 12.255
+   "s": 13.398,
+   "e": 14.676
   },
   {
    "text": "mas o aparelho tinha cara de lan\u00e7a-chamas,",
-   "s": 12.492,
-   "e": 14.452
+   "s": 14.912,
+   "e": 16.872
   },
   {
    "text": "e essa era a piada.",
-   "s": 14.649,
-   "e": 15.499
+   "s": 17.069,
+   "e": 17.919
   },
   {
    "text": "Cada compra vinha com um extintor de inc\u00eandio de brinde.",
-   "s": 16.338,
-   "e": 18.875
+   "s": 18.758,
+   "e": 21.294
   },
   {
    "text": "Foram vinte mil unidades \u00e0 venda.",
-   "s": 19.781,
-   "e": 21.431
+   "s": 22.202,
+   "e": 23.864
   },
   {
    "text": "E elas esgotaram em poucos dias,",
-   "s": 22.283,
-   "e": 24.017
+   "s": 24.703,
+   "e": 26.438
   },
   {
    "text": "rendendo cerca de dez milh\u00f5es de d\u00f3lares.",
-   "s": 24.27,
-   "e": 26.465
+   "s": 26.692,
+   "e": 28.888
   },
   {
    "text": "A not\u00edcia se espalhou pelo mundo inteiro.",
-   "s": 27.322,
-   "e": 29.24
+   "s": 29.742,
+   "e": 31.66
   },
   {
    "text": "Um produto que se chamava de tudo,",
-   "s": 30.089,
-   "e": 31.666
+   "s": 32.509,
+   "e": 34.086
   },
   {
    "text": "menos do que parecia.",
-   "s": 31.908,
-   "e": 33.022
+   "s": 34.329,
+   "e": 35.442
   }
  ]
 }
