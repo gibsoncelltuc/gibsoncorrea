@@ -34,6 +34,9 @@ Tudo que a narração cita tem que aparecer na tela, na mesma cena: se diz "faze
 | muito frio, inverno, neve, gelado | neve caindo, chão branco, personagens tremendo | automático (`"clima": "neve"`) |
 | muito quente, calor, deserto, seca | luz de sol forte e personagens suando | automático (`"clima": "calor"`) |
 | conversaram / discutiram / brigaram | diálogo em turnos / discussão com cara fechada / empurrão | automático pelo texto ou `"acao"`/`"interacao"` |
+| tiro, atirou, disparou (com soldado de fuzil em cena) | clarão e fumaça saindo do CANO da arma de quem atira, com som | automático; nunca estrela de explosão solta no meio da cena |
+| correu, fugiu, perseguiu (cena de `"shot": "track"`) | personagens CORRENDO (passo rápido, corpo inclinado) | automático |
+| cartório, prefeitura, tribunal, banco, consulado | o prédio ao fundo | automático |
 | navio, porto, marinha | cais com navios | automático (`"set": "harbor"`) |
 | rei, rainha, imperador, sultão | alguém de coroa | figurino com `"profissao": "rei"` |
 | general, almirante, coronel, capitão | alguém de farda de oficial | `"profissao": "general"` |

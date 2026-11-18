@@ -121,6 +121,7 @@ const PO = (f, a, seed, exo = {}) => { const mode = a.pose || 'stand'; const bas
     return { mode: 'stand', phase: 0, tilt: qq(3.2 * Math.sin((f + seed * 7) * 0.06), 1), headTilt: qq(4.5 * Math.sin((f + seed * 5) * 0.045 + 1), 1), lift: a.lift, ...base, expr: em, ...(g ? { wave: qq(Math.sin(ph * 0.42), 2) } : {}) }; }
   /* passo casado com a velocidade no chao (sem pe deslizando): ciclos/quadro = velocidade / comprimento da passada */
   const stepSp = (stride, def) => (a.move && a.move[0] && a.at && a.autoStep !== false) ? Math.min(0.06, Math.max(0.012, Math.hypot(a.move[0][0] - a.at[0], a.move[0][1] - a.at[1]) / Math.max(1, a.move[2] - a.move[1]) / stride)) : (a.speed || def);
+  if (mode === 'run') return { mode: 'march', phase: qq(((f * 0.075 + seed * 0.17) % 1), 2), tilt: 13, headTilt: qq(5 * Math.sin(f * 0.9 + seed), 0), ...base };   /* CORRIDA: passo bem rapido, corpo jogado para a frente, cabeca balancando */
   if (mode === 'march') return { mode: 'march', phase: qq(((f * stepSp(2.5, 0.033) + seed * 0.17) % 1), 2), ...base };
   if (mode === 'stroll') return { mode: 'stroll', phase: qq(((f * stepSp(2.1, 0.02) + seed * 0.13) % 1), 2), ...base };
   return { mode, phase: 0, ...base }; };
