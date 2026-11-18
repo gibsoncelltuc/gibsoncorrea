@@ -5,6 +5,9 @@ EPs já feitos: 01 Karánsebes, 02 Emus, 03 Toledo, 04 Balde, 05 Gansos, 06 Porc
 Ideias ainda livres: Orelha de Jenkins (1739), Banquinho Dourado (1900), 335 anos de Scilly, Guerra do Bacalhau, Guerra do Uísque, Guerra das Laranjas (1801), Guerra dos Pastéis não (já é Bolos).
 Cuidado visto na prática: se a narração diz "noite", a cena e as seguintes ficam de noite até outra cena ter `"hora": "dia"`. Todo figurino precisa das cores `jacket`, `pants`, `boots`; chapéu `cap`/`beret`/`bonnet` usa a cor `cap`.
 
+## Sessões de produção: ferramenta sempre atualizada
+ANTES de começar CADA vídeo: `git fetch origin claude/bold-sagan-dskrsj && git merge --no-edit FETCH_HEAD` e `npm test` (tem que dar "TESTE DA FERRAMENTA: OK"). Vídeo feito com ferramenta velha sai sem as correções do dia.
+
 ## Os 7 passos (não pule nenhum)
 
 1. **Ler** `CAPACIDADES.md` (o que a ferramenta tem) e `MODO_RICKS.md` (como o roteiro é escrito).
