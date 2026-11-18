@@ -83,7 +83,7 @@ for name, o in B.get('outfits', {}).items():
     o = {**PROFISSOES.get(str(o.get('profissao', '')).lower(), {}), **{k_: v_ for k_, v_ in o.items() if k_ != 'profissao'}}
     o = dict(o); mo = o.pop('moustache_on', None)
     hats = o.pop('hats', None); hairs = o.pop('hairs', None)
-    jackets = o.pop('jackets', None) or (([o.get('jacket', '#3f6fb5')] + ['#6a4a2a', '#2a5a3a', '#8a3a2a', '#3a4a6a', '#7a6a3a', '#5a5a62']) if name in ('POV', 'POVO') else None)   # povo: casaco de cor diferente por variante (multidao sem clones)   # "hats": [...] -> chapeu diferente por variante; sem chapeu -> cor/corte de cabelo por variante
+    jackets = o.pop('jackets', None) or ([c_ for c_ in ['#3f6fb5', '#6a4a2a', '#2a5a3a', '#8a3a2a', '#3a4a6a', '#7a6a3a', '#5a5a62', '#b0524a'] if c_ not in {str(v_.get('jacket', '')).lower() for k_, v_ in B.get('outfits', {}).items() if k_ not in ('POV', 'POVO')}] if name in ('POV', 'POVO') else None)   # povo: casaco de cor diferente por variante (multidao sem clones)   # "hats": [...] -> chapeu diferente por variante; sem chapeu -> cor/corte de cabelo por variante
     body = ', '.join(f'{k}: {json.dumps(v)}' for k, v in o.items())
     mou = f", ...(v % 2 ? {{ moustache: {json.dumps(mo)} }} : {{}})" if mo else ''
     hv = (f", jacket: {json.dumps(jackets)}[v % {len(jackets)}]" if jackets else '') + (f", hat: {json.dumps(hats)}[v % {len(hats)}]" if hats else '') + ('' if (hats or o.get('hat')) else f", hat: 'hair', hair: {json.dumps(hairs or ['#5a3b2a', '#2a2018', '#b8862f', '#8a8a86', '#7a3a1c'])}[v % {len(hairs or [1]*5)}], hairStyle: [null, null, 'long', null, 'bun'][v % 5]")
@@ -390,7 +390,7 @@ def build_beat(k, b):
             if c.get('march'):
                 acts.append(f"{{ outfit: {json.dumps(out)}, v: {i % 4}, at: [X + {num(x0 - 9)}, {num(z0)}], move: [[X + {num(x0 + 3)}, {num(z0)}], {a}, {bb}, 'lin'], pose: 'march', speed: 0.034, expr: {json.dumps(ex)}, seed: {i % 4}, look: {look} }}")
             else:
-                acts.append(f"pp(X, {json.dumps(out)}, {i % 4}, {num(x0)}, {num(z0)}, {json.dumps(ex)}, {{ look: {look}, seed: {i % 4 + (i * 3 if _px else 0)}{_px} }})")
+                acts.append(f"pp(X, {json.dumps(out)}, {i % 7}, {num(x0)}, {num(z0)}, {json.dumps(ex)}, {{ look: {look}, seed: {i % 4 + (i * 3 if _px else 0)}{_px} }})")   # 7 variantes: multidao com cores, chapeus e rostos variados
     # BATALHA COM CAMINHOES: "caminhoes": 2 -> caminhoes atras da tropa com soldados em pe na carroceria, atirando
     truck_props = []
     if b.get('caminhoes') and b.get('crowd'):
