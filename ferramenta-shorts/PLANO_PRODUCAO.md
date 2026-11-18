@@ -17,7 +17,7 @@ Depois: Curiosidade e Ciência CC 11–20.
 ## Sessão B (branch claude/prod-b-emus) — Curiosidade e Ciência (`"serie": "Curiosidade e Ciência", "ep": N`)
 - [x] EP 10 chaleira1784
 - [x] CC 01 Newton e a maçã · [ ] CC 02 Arquimedes e o "Eureca" na banheira · [x] CC 03 Galileu e a torre de Pisa · [x] CC 04 Fleming e o mofo que virou penicilina · [x] CC 05 O micro-ondas e o chocolate derretido
-- [ ] CC 06 Pasteur e a vacina da raiva · [ ] CC 07 Franklin, a pipa e o raio · [ ] CC 08 Darwin e os tentilhões · [ ] CC 09 Mendel e as ervilhas · [ ] CC 10 Eratóstenes mede a Terra com uma sombra
+- [x] CC 06 Pasteur e a vacina da raiva · [ ] CC 07 Franklin, a pipa e o raio · [ ] CC 08 Darwin e os tentilhões · [ ] CC 09 Mendel e as ervilhas · [ ] CC 10 Eratóstenes mede a Terra com uma sombra
 
 ## Curiosidade e Ciência CC 11–20 (sessão principal, depois das refações)
 CC 11 Röntgen e o raio X da mão · CC 12 Tycho Brahe e o nariz de metal · CC 13 Semmelweis e lavar as mãos · CC 14 Kekulé e o sonho da cobra · CC 15 O post-it (a cola que não colava) · CC 16 O velcro e os carrapichos · CC 17 Goodyear e a borracha no fogão · CC 18 Os Montgolfier, o balão, a ovelha, o pato e o galo · CC 19 Marie Curie e o caderno radioativo · CC 20 A dança das abelhas
