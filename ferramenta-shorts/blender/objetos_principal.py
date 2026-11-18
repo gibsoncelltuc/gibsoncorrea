@@ -42,3 +42,8 @@ novo('tent'); cil((0, 1.0, 0), 1.5, 2.0, '#e8dcc0', .05, lados=10); caixa((0, .6
 novo('chest'); caixa((0, .3, 0), (1.1, .6, .7), '#8a5a34'); bola((0, .6, 0), .36, '#a8703c', esc=(1.55, .8, 1.0))                                   # bau de tampa abaulada
 for x in (-.4, .4): caixa((x, .3, 0), (.1, .62, .74), '#d9a630'); bola((x, .6, 0), .37, '#d9a630', esc=(.16, .8, 1.02))
 bola((0, .55, .37), .08, '#f2d060'); fim()
+novo('fire')                                                   # FOGO/incendio: labaredas grandes (sem pedras), para "queimaram", "pegou fogo", "em chamas"
+for x, z, s, c in ((0, 0, 1.0, '#f08a2a'), (-.45, .1, .75, '#e2532f'), (.5, -.05, .8, '#f08a2a'), (.1, .25, .6, '#f2c230'), (-.15, -.2, .55, '#f2c230'), (.3, .3, .45, '#ffe07a')):
+    torno((x, 0, z), [(.05 * s, 0), (.5 * s, .25 * s), (.55 * s, .7 * s), (.36 * s, 1.3 * s), (.14 * s, 1.9 * s), (.02 * s, 2.3 * s)], c, 12)
+for i in range(7): a = i * .9; bola((.8 * math.cos(a), .12, .6 * math.sin(a)), .14, '#3a2a22', .6, seg=8)
+fim(0)
