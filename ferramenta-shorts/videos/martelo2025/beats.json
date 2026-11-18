@@ -5,7 +5,7 @@
  "ep": 23,
  "title": "O Martelo da Meia-Noite",
  "titulo_base": "O Martelo da Meia-Noite",
- "set": "outback",
+ "set": "mountain",
  "light": "day",
  "mood": "playful",
  "heroi": "kit/bunker_bomb",
@@ -60,7 +60,7 @@
      "kit/b2_air",
      2.0,
      -11.0,
-     0.9
+     1.5
     ]
    ],
    "text": "2025",
@@ -123,7 +123,7 @@
      "kit/b2_air",
      -1.5,
      -10.0,
-     0.9
+     1.5
     ]
    ],
    "fx": [
@@ -163,9 +163,9 @@
    "props": [
     [
      "kit/b2_air",
-     0,
-     -10.0,
-     1.2
+     3.0,
+     -8.0,
+     1.4
     ]
    ],
    "fx": [
@@ -191,7 +191,7 @@
      "kit/b2_air",
      -1.0,
      -10.0,
-     1.0
+     1.5
     ]
    ],
    "interacao": "cochichar",
@@ -208,7 +208,7 @@
      "kit/b2_air",
      0,
      -9.0,
-     1.2
+     1.5
     ],
     [
      "kit/mountain_bunker",
@@ -243,7 +243,7 @@
      "kit/b2_air",
      1.0,
      -10.0,
-     0.9
+     1.5
     ]
    ]
   },
@@ -298,7 +298,7 @@
      "kit/b2_air",
      1.5,
      -10.0,
-     0.8
+     1.5
     ]
    ],
    "acao": "conversar",
@@ -310,5 +310,10 @@
     "cannon@40"
    ]
   }
+ ],
+ "fontes": [
+  "https://en.wikipedia.org/wiki/2025_United_States_strikes_on_Iranian_nuclear_sites",
+  "https://news.usni.org/2025/06/21/u-s-strikes-3-iranian-nuclear-sites-using-b-2s-sub-launched-tomahawks",
+  "https://www.csis.org/analysis/what-operation-midnight-hammer-means-future-irans-nuclear-ambitions"
  ]
 }

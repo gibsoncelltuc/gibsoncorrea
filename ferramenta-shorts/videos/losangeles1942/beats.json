@@ -40,6 +40,17 @@
    "boots": "#1b1b1f",
    "hat": "bowler",
    "tie": "#2a5aa8"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "bowler",
+    "hair",
+    "beret",
+    "cap"
+   ]
   }
  },
  "beats": [
@@ -54,9 +65,9 @@
    "props": [
     [
      "kit/searchlight",
-     0.5,
-     2.2,
-     1.4
+     1.8,
+     -1.2,
+     1.0
     ]
    ],
    "text": "1942",
@@ -80,7 +91,7 @@
    "crowd": {
     "n": 8,
     "outfits": [
-     "CID"
+     "POV"
     ],
     "march": false
    },
@@ -110,9 +121,9 @@
    "props": [
     [
      "kit/searchlight",
-     0.5,
-     2.2,
-     1.4
+     1.8,
+     -1.2,
+     1.0
     ]
    ],
    "fx": [
@@ -186,7 +197,7 @@
     "n": 20,
     "outfits": [
      "SOL",
-     "CID"
+     "POV"
     ],
     "march": false,
     "expr": "scared"
@@ -231,9 +242,9 @@
    "props": [
     [
      "kit/searchlight",
-     1.0,
-     0.5,
-     1.3
+     1.8,
+     -1.2,
+     1.0
     ]
    ],
    "say": "O único alvo derrotado naquela noite foi o sono de Los Angeles."

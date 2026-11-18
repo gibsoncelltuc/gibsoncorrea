@@ -5,9 +5,9 @@ def ergue(dy):
     for v in _S['bm'].verts: v.co.z += dy
 novo('b2_air')                                     # bombardeiro B-2 (asa voadora) ja no ceu
 prisma((0, 0, 0), [(0, .9), (2.6, -.4), (2.2, -.6), (1.5, -.35), (.9, -.6), (0, -.35), (-.9, -.6), (-1.5, -.35), (-2.2, -.6), (-2.6, -.4)], .12, '#3a3e46')
-caixa((0, .03, .25), (.5, .14, .5), '#2a2e36', 1.0)
-for v in _S['bm'].verts: y, z = v.co.y, v.co.z; v.co.y, v.co.z = z, y          # deita a asa (planta vira horizontal)
-ergue(7.0); fim(0.01)
+caixa((0, .25, .1), (.7, .3, .16), '#2a2e36', 1.0)
+for v in _S['bm'].verts: v.co.z *= 0.55          # silhueta da asa voadora virada para quem olha de baixo (aviao passando no ceu)
+ergue(3.6); fim(0.01)
 novo('bunker_bomb')                                # bomba GBU-57 (close: deitada num suporte)
 cil((0, .55, 0), .32, 3.2, '#6a7258', rot=(0, 0, m.pi / 2), lados=24)
 torno((1.6, .55, 0), [(.32, 0), (.2, .5), (0, .62)], '#6a7258', 24) if False else bola((1.6, .55, 0), .32, '#6a7258', esc=(1.8, 1, 1))

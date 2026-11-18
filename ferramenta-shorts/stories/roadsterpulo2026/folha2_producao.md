@@ -8,7 +8,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MUS (variante 0, expressao grin); ENA (variante 0, expressao surprised)
 - Animacao: conversar | interacao: insiste
-- Objetos/modelos: kit/roadster_air
+- Objetos/modelos: kit/roadster26_air
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): carro, dois
 - RISCOS: nenhum
 
@@ -28,7 +28,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ENG (variante 0, expressao suspicious, segura paper); MUS (variante 0, expressao smug)
 - Animacao: discutir | interacao: discutir
-- Objetos/modelos: kit/roadster
+- Objetos/modelos: kit/roadster26, kit/roadster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): atraso, novo, tesla
 - RISCOS: nenhum
 
@@ -38,7 +38,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ENA (variante 0, expressao grin, segura paper); ENG (variante 0, expressao surprised)
 - Animacao: conversar | interacao: cochichar
-- Objetos/modelos: kit/roadster
+- Objetos/modelos: kit/roadster26
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): carro, segredo, spacex
 - RISCOS: nenhum
 
@@ -48,7 +48,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao surprised); POV (variante 1, expressao shock); MUS (variante 0, expressao grin) | multidao: 20 de POV
 - Animacao: reagir | batalha encenada
-- Objetos/modelos: vehicles/truck, vehicles/car, vehicles/car_blue, kit/roadster_air, kit/roadster
+- Objetos/modelos: vehicles/truck, vehicles/car, vehicles/car_blue, kit/roadster26_air, kit/roadster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): carro, cinco, frente, plateia, tesla
 - RISCOS: nenhum
 
@@ -58,7 +58,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): ENA (variante 0, expressao shock)
 - Animacao: reagir
-- Objetos/modelos: kit/roadster_air
+- Objetos/modelos: kit/roadster26_air
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): novo, quatro
 - RISCOS: nenhum
 
@@ -88,7 +88,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 5 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): ENG (variante 0, expressao grin, segura paper); POV (variante 0, expressao surprised)
 - Animacao: conversar | interacao: entregar
-- Objetos/modelos: kit/roadster, nature/picket_fence
+- Objetos/modelos: kit/roadster26, nature/picket_fence, kit/roadster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fabricacao, tesla, zero
 - RISCOS: nenhum
 
@@ -98,7 +98,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao laugh); POV (variante 1, expressao grin); MUS (variante 0, expressao laugh) | multidao: 18 de POV
 - Animacao: comemorar | batalha encenada
-- Objetos/modelos: kit/roadster_air
+- Objetos/modelos: kit/roadster26_air
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): video
 - RISCOS: nenhum
 
@@ -108,7 +108,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): MUS (variante 0, expressao smile)
 - Animacao: comemorar
-- Objetos/modelos: kit/roadster_air
+- Objetos/modelos: kit/roadster26_air
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
@@ -117,8 +117,9 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/roadster_air | b0, b4, b5, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/roadster | b2, b3, b4, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/roadster26_air | b0, b4, b5, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/roadster26 | b2, b3, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/roadster | b2, b4, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 vehicles/truck | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 vehicles/car | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 vehicles/car_blue | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -126,7 +127,7 @@ nature/picket_fence | b8 | pronto | conferir na folha de contato se le bem; se p
 
 
 ## Video inteiro
-- Objeto heroi: kit/roadster_air | grandes momentos: b4, b9 | planos abertos: 3 | mistura: close 9% | medio 74% | aberto 10% | detalhe 8%
+- Objeto heroi: kit/roadster26_air | grandes momentos: b4, b9 | planos abertos: 3 | mistura: close 9% | medio 74% | aberto 10% | detalhe 8%
 - Interacoes: b0 insiste, b2 discutir, b3 cochichar, b6 pular, b7 reverencia, b8 entregar
 - RISCOS GERAIS: nenhum
 

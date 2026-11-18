@@ -1,0 +1,225 @@
+{
+ "duration": 43.128,
+ "frames30": 1294,
+ "source": "silence-align (cost 0.82)",
+ "segments": [
+  [
+   0.164417,
+   1.59842
+  ],
+  [
+   1.79508,
+   2.53071
+  ],
+  [
+   2.764,
+   4.79937
+  ],
+  [
+   5.14004,
+   6.543
+  ],
+  [
+   7.4135,
+   8.20779
+  ],
+  [
+   8.44546,
+   11.6871
+  ],
+  [
+   12.5661,
+   13.158
+  ],
+  [
+   13.3485,
+   16.5968
+  ],
+  [
+   17.4188,
+   18.3477
+  ],
+  [
+   18.5699,
+   19.0135
+  ],
+  [
+   19.223,
+   20.4503
+  ],
+  [
+   21.3051,
+   22.2807
+  ],
+  [
+   22.5284,
+   23.3413
+  ],
+  [
+   23.5772,
+   24.6145
+  ],
+  [
+   25.4897,
+   26.0351
+  ],
+  [
+   26.2731,
+   27.8902
+  ],
+  [
+   28.0807,
+   28.8238
+  ],
+  [
+   28.9984,
+   31.9165
+  ],
+  [
+   32.7151,
+   33.5
+  ],
+  [
+   33.6763,
+   34.6989
+  ],
+  [
+   34.9874,
+   36.8961
+  ],
+  [
+   37.7492,
+   38.3691
+  ],
+  [
+   38.5217,
+   40.7299
+  ],
+  [
+   41.0144,
+   42.3197
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Em novembro de dois mil e dezenove,",
+   "s": 0.164,
+   "e": 1.598
+  },
+  {
+   "text": "na Calif\u00f3rnia,",
+   "s": 1.795,
+   "e": 2.531
+  },
+  {
+   "text": "a empresa de Elon Musk apresentou o Cybertruck,",
+   "s": 2.764,
+   "e": 4.799
+  },
+  {
+   "text": "uma picape el\u00e9trica de a\u00e7o.",
+   "s": 5.14,
+   "e": 6.543
+  },
+  {
+   "text": "Na apresenta\u00e7\u00e3o,",
+   "s": 7.413,
+   "e": 8.208
+  },
+  {
+   "text": "Musk disse que as janelas eram feitas de um vidro super resistente.",
+   "s": 8.445,
+   "e": 11.687
+  },
+  {
+   "text": "Para provar,",
+   "s": 12.566,
+   "e": 13.158
+  },
+  {
+   "text": "o designer Franz von Holzhausen jogou uma esfera de a\u00e7o na janela.",
+   "s": 13.348,
+   "e": 16.597
+  },
+  {
+   "text": "E o vidro rachou,",
+   "s": 17.419,
+   "e": 18.348
+  },
+  {
+   "text": "ao vivo,",
+   "s": 18.57,
+   "e": 19.014
+  },
+  {
+   "text": "na frente de todo mundo.",
+   "s": 19.223,
+   "e": 20.45
+  },
+  {
+   "text": "Ele tentou de novo,",
+   "s": 21.305,
+   "e": 22.281
+  },
+  {
+   "text": "em outra janela,",
+   "s": 22.528,
+   "e": 23.341
+  },
+  {
+   "text": "e ela tamb\u00e9m rachou.",
+   "s": 23.577,
+   "e": 24.614
+  },
+  {
+   "text": "Depois,",
+   "s": 25.49,
+   "e": 26.035
+  },
+  {
+   "text": "Musk explicou na internet que,",
+   "s": 26.273,
+   "e": 27.89
+  },
+  {
+   "text": "nos ensaios,",
+   "s": 28.081,
+   "e": 28.824
+  },
+  {
+   "text": "a mesma esfera tinha batido na mesma janela sem nem arranhar.",
+   "s": 28.998,
+   "e": 31.916
+  },
+  {
+   "text": "A plateia riu,",
+   "s": 32.715,
+   "e": 33.5
+  },
+  {
+   "text": "a internet tamb\u00e9m,",
+   "s": 33.676,
+   "e": 34.699
+  },
+  {
+   "text": "e a cena deu o que falar no mundo inteiro.",
+   "s": 34.987,
+   "e": 36.896
+  },
+  {
+   "text": "Uma picape,",
+   "s": 37.749,
+   "e": 38.369
+  },
+  {
+   "text": "uma esfera de a\u00e7o e uma janela que n\u00e3o aguentou:",
+   "s": 38.522,
+   "e": 40.73
+  },
+  {
+   "text": "um lan\u00e7amento inesquec\u00edvel.",
+   "s": 41.014,
+   "e": 42.32
+  }
+ ]
+}

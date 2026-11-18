@@ -13,7 +13,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b1 - Foi em junho de dois mil e vinte e cinco. O alvo eram as usinas nuclea...
-- Cenario: outback | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao surprised); POV (variante 1, expressao nervous) | multidao: 6 de POV
@@ -33,7 +33,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - Só uma arma chegava lá: a bomba antibunker, com mais de treze tonelada...
-- Cenario: outback | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): GEN (variante 0, expressao stern)
@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Trump autorizou a missão. O nome: Martelo da Meia-Noite.
-- Cenario: outback | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): TRU (variante 0, expressao stern); GEN (variante 0, expressao grin)
@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Sete bombardeiros invisíveis decolaram do Missouri, e voaram mais de u...
-- Cenario: outback | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): PIL (variante 0, expressao stern); PIL (variante 1, expressao grin); GEN (variante 0, expressao stern) | multidao: 12 de PIL
@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Para despistar, outros B-2 foram mandados na direção contrária, para o...
-- Cenario: outback | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): PIL (variante 0, expressao smug); GEN (variante 0, expressao surprised)
@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Acontece que, de madrugada, os aviões soltaram catorze bombas. Doze de...
-- Cenario: outback | luz: noite | clima: limpo
+- Cenario: mountain | luz: noite | clima: limpo
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (1): PIL (variante 0, expressao stern)
@@ -93,7 +93,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - Trump disse que as usinas foram destruídas. Avaliações posteriores dis...
-- Cenario: outback | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao surprised); POV (variante 1, expressao shock); POV (variante 2, expressao nervous) | multidao: 18 de POV
@@ -103,7 +103,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b10 - Foi a primeira vez na história que essa bomba gigante foi usada de ver...
-- Cenario: outback | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (1): GEN (variante 0, expressao stern)

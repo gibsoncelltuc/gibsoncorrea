@@ -1,0 +1,222 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "E Se",
+ "ep": 1,
+ "title": "E Se Todo Mundo Pulasse ao Mesmo Tempo?",
+ "titulo_base": "E Se Todo Mundo Pulasse ao Mesmo Tempo?",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/globe",
+ "outfits": {
+  "PRO": {
+   "profissao": "cientista",
+   "hair": "#5a3a22",
+   "glasses": true
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "straw"
+   ]
+  }
+ },
+ "fontes": [
+  "https://what-if.xkcd.com/8/"
+ ],
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "PRO:0:grin",
+    "POV:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/globe",
+     0,
+     -1.4,
+     1.0
+    ]
+   ],
+   "text": "E SE...",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "E se todas as pessoas do planeta pulassem exatamente no mesmo segundo? A Terra sairia do lugar?"
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin"
+   ],
+   "mapa": "MUNDO",
+   "mapa_at": 3,
+   "say": "Somos mais de oito bilhões de pessoas, espalhadas por todos os continentes."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PRO:0:stern:paper",
+    "POV:0:suspicious"
+   ],
+   "acao": "conversar",
+   "say": "Juntas, elas pesam mais de quinhentos milhões de toneladas. Parece muito, não parece?"
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "POV:0:shout",
+    "POV:1:laugh",
+    "POV:2:grin"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 24,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "shout"
+   },
+   "fx": [
+    "puff@20",
+    "ring@40"
+   ],
+   "sfx": [
+    "whoosh@20",
+    "thump@40"
+   ],
+   "text": "3, 2, 1...",
+   "titulo": true,
+   "say": "Então todo mundo conta até três, e pula ao mesmo tempo!"
+  },
+  {
+   "shot": "close",
+   "who": [
+    "PRO:0:smug"
+   ],
+   "props": [
+    [
+     "kit/globe",
+     1.6,
+     -0.8,
+     1.1
+    ]
+   ],
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "say": "Acontece que a Terra pesa trilhões de vezes mais que toda a humanidade junta."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PRO:0:grin",
+    "POV:0:shock"
+   ],
+   "props": [
+    [
+     "kit/globe",
+     1.6,
+     -0.8,
+     1.0
+    ]
+   ],
+   "interacao": "susto",
+   "say": "Ela se mexeria menos que a largura de um átomo. Nenhum instrumento conseguiria medir."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "POV:0:shock",
+    "POV:1:scared",
+    "POV:2:surprised"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 22,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
+   "fx": [
+    "burst@20",
+    "puff@40"
+   ],
+   "sfx": [
+    "cannon@20",
+    "thump@40"
+   ],
+   "text": "BUM!",
+   "titulo": true,
+   "say": "O que daria para notar seria o barulho. Bilhões de pés batendo no chão, como um trovão ao redor do mundo."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "POV:0:worried",
+    "PRO:0:suspicious"
+   ],
+   "acao": "discutir",
+   "say": "E se, para facilitar, todo mundo se juntasse num lugar só, para pular junto?"
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PRO:0:stern:paper",
+    "POV:1:nervous"
+   ],
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "say": "Aí seria o caos: bilhões de pessoas presas no mesmo lugar, sem estrada, comida ou água para todos voltarem para casa."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "POV:0:laugh",
+    "POV:1:grin"
+   ],
+   "interacao": "abracar",
+   "say": "Ou seja: pular junto é fácil. Difícil seria a volta."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "PRO:0:smile"
+   ],
+   "props": [
+    [
+     "kit/globe",
+     -1.4,
+     -0.8,
+     1.0
+    ]
+   ],
+   "acao": "comemorar",
+   "say": "A Terra não liga para o nosso pulo. Mas pode pular aí: ninguém vai sentir."
+  }
+ ]
+}
