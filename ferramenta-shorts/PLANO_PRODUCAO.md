@@ -39,3 +39,4 @@ Ler `FIGURINOS_FAMOSOS.md` (figurinos prontos e REGRAS obrigatórias: só fato r
 
 ## Série 4 — "E Se" (What If) — 10 roteiros PRONTOS, fora da fila (aguardando ordem do Gibson)
 Ver `videos/E_SE_ROTEIROS.md`. Produzir com `./prechecar.sh <id>` e `./novo_video.sh <id>` só quando o Gibson mandar, depois de terminar a fila atual.
+- Gibson mandou produzir (18/11 ~20h): sessão A = ese_pulo, ese_humanos, ese_holanda, ese_internet, ese_sono · sessão B (depois dos PF 22–28) = ese_dinheiro, ese_lua, ese_napoleao, ese_buraco, ese_titanic.
