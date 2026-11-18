@@ -1,0 +1,252 @@
+{
+ "duration": 50.16,
+ "frames30": 1505,
+ "source": "silence-align (cost 0.84)",
+ "segments": [
+  [
+   0.149875,
+   1.56012
+  ],
+  [
+   1.81429,
+   4.20892
+  ],
+  [
+   5.07867,
+   6.30329
+  ],
+  [
+   6.57712,
+   8.29087
+  ],
+  [
+   8.54692,
+   9.76471
+  ],
+  [
+   10.6266,
+   12.1969
+  ],
+  [
+   12.4625,
+   13.7551
+  ],
+  [
+   13.9968,
+   15.4845
+  ],
+  [
+   15.7616,
+   16.7144
+  ],
+  [
+   16.8545,
+   17.9549
+  ],
+  [
+   18.8277,
+   19.8945
+  ],
+  [
+   20.1773,
+   21.8471
+  ],
+  [
+   22.1281,
+   23.6506
+  ],
+  [
+   24.5132,
+   26.2194
+  ],
+  [
+   27.087,
+   29.8953
+  ],
+  [
+   30.2132,
+   31.0887
+  ],
+  [
+   31.9193,
+   32.4717
+  ],
+  [
+   32.6916,
+   33.3902
+  ],
+  [
+   33.5898,
+   34.573
+  ],
+  [
+   35.4365,
+   37.3394
+  ],
+  [
+   37.6494,
+   39.3197
+  ],
+  [
+   40.1845,
+   41.5558
+  ],
+  [
+   41.7763,
+   42.5355
+  ],
+  [
+   42.7142,
+   43.2865
+  ],
+  [
+   44.1617,
+   44.8101
+  ],
+  [
+   45.0487,
+   46.717
+  ],
+  [
+   47.046,
+   49.3517
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Em fevereiro de dois mil e dezoito,",
+   "s": 0.15,
+   "e": 1.56
+  },
+  {
+   "text": "um Tesla de verdade foi lan\u00e7ado para o espa\u00e7o.",
+   "s": 1.814,
+   "e": 4.209
+  },
+  {
+   "text": "Era um Roadster vermelho,",
+   "s": 5.079,
+   "e": 6.303
+  },
+  {
+   "text": "e quem teve a ideia foi Elon Musk,",
+   "s": 6.577,
+   "e": 8.291
+  },
+  {
+   "text": "o dono da SpaceX.",
+   "s": 8.547,
+   "e": 9.765
+  },
+  {
+   "text": "O voo de estreia do Falcon Heavy,",
+   "s": 10.627,
+   "e": 12.197
+  },
+  {
+   "text": "o maior foguete da empresa,",
+   "s": 12.463,
+   "e": 13.755
+  },
+  {
+   "text": "aconteceu em seis de fevereiro,",
+   "s": 13.997,
+   "e": 15.485
+  },
+  {
+   "text": "em Cabo Canaveral,",
+   "s": 15.762,
+   "e": 16.714
+  },
+  {
+   "text": "nos Estados Unidos.",
+   "s": 16.855,
+   "e": 17.955
+  },
+  {
+   "text": "Como era s\u00f3 um teste,",
+   "s": 18.828,
+   "e": 19.895
+  },
+  {
+   "text": "em vez de colocar peso de concreto,",
+   "s": 20.177,
+   "e": 21.847
+  },
+  {
+   "text": "Musk resolveu mandar o Roadster.",
+   "s": 22.128,
+   "e": 23.651
+  },
+  {
+   "text": "O foguete decolou com um estrondo!",
+   "s": 24.513,
+   "e": 26.219
+  },
+  {
+   "text": "No banco do motorista foi sentado um boneco de astronauta,",
+   "s": 27.087,
+   "e": 29.895
+  },
+  {
+   "text": "chamado Starman.",
+   "s": 30.213,
+   "e": 31.089
+  },
+  {
+   "text": "No painel,",
+   "s": 31.919,
+   "e": 32.472
+  },
+  {
+   "text": "estava escrito:",
+   "s": 32.692,
+   "e": 33.39
+  },
+  {
+   "text": "N\u00e3o entre em p\u00e2nico.",
+   "s": 33.59,
+   "e": 34.573
+  },
+  {
+   "text": "O Roadster saiu da \u00f3rbita da Terra,",
+   "s": 35.437,
+   "e": 37.339
+  },
+  {
+   "text": "e seguiu em \u00f3rbita ao redor do Sol.",
+   "s": 37.649,
+   "e": 39.32
+  },
+  {
+   "text": "E ele continua l\u00e1 em cima,",
+   "s": 40.184,
+   "e": 41.556
+  },
+  {
+   "text": "dando voltas,",
+   "s": 41.776,
+   "e": 42.535
+  },
+  {
+   "text": "at\u00e9 hoje.",
+   "s": 42.714,
+   "e": 43.286
+  },
+  {
+   "text": "Um Roadster,",
+   "s": 44.162,
+   "e": 44.81
+  },
+  {
+   "text": "um boneco e um aviso no painel:",
+   "s": 45.049,
+   "e": 46.717
+  },
+  {
+   "text": "uma das maiores brincadeiras da hist\u00f3ria do espa\u00e7o.",
+   "s": 47.046,
+   "e": 49.352
+  }
+ ]
+}
