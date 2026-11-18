@@ -5,13 +5,13 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | medieval | two | 2 | reagir, INTERAGEM: susto | goose | - | -
-b1 | medieval | crowd | 19 | batalha | kit/fire, buildings/apartment, buildings/house_two, nature/lamppost | torch, torch | -
+b1 | medieval | crowd | 19 | batalha | kit/fire, buildings/apartment, buildings/house_two, nature/lamppost | torch, torch, torch | -
 b2 | mountain | group | 3 | reagir, INTERAGEM: insiste | buildings/castle_tower | - | -
 b3 | medieval | orbit | 12 | discutir | goose | - | -
 b4 | mountain | group | 3 | conversar, INTERAGEM: aproxima-se | - | - | -
 b5 | medieval | low | 1 | reagir | goose | - | -
-b6 | medieval | two | 2 | reagir, INTERAGEM: empurrar | buildings/castle_tower | - | -
-b7 | medieval | orbit | 19 | reagir, batalha | buildings/castle_tower | - | -
+b6 | medieval | two | 2 | conversar, INTERAGEM: empurrar | buildings/castle_tower | - | -
+b7 | medieval | orbit | 21 | batalha | buildings/castle_tower | - | -
 b8 | medieval | two | 2 | conversar, INTERAGEM: o outro se aproxima | goose | - | -
 b9 | medieval | close | 1 | conversar | - | - | -
 

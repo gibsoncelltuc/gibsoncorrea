@@ -6,7 +6,7 @@
 set -e; cd "$(dirname "$0")"; ID="$1"; mkdir -p logs out/$ID stories/$ID/stages; L=logs/make_$ID.log
 [ -f stories/$ID/DONE ] && { echo "$ID ja pronto"; exit 0; }
 # DISCO: com menos de 4 GB livres, apaga os quadros soltos dos videos JA PRONTOS (o mp4 e os trechos ficam; so' o refazer.sh por cena deixa de valer para eles -> use refazer_tudo.sh). Disco cheio derruba o render com "erro de pagina".
-if [ "$(df -Pm . | awk 'NR==2{print $4}')" -lt 4000 ]; then for d in out/*/frames; do v=$(basename $(dirname $d)); [ "$v" != "$ID" ] && [ -f stories/$v/DONE ] && rm -rf "$d"; done; rm -rf /root/.cache/pip; echo "$(date +%T) disco baixo: quadros de videos prontos apagados ($(df -Ph . | awk 'NR==2{print $4}') livres)"; fi
+if [ "$(df -Pm . | awk 'NR==2{print $4}')" -lt 4000 ]; then for d in out/*/frames; do [ -d "$d" ] || continue; v=$(basename "$(dirname "$d")"); if [ "$v" != "$ID" ] && [ -f "stories/$v/DONE" ]; then rm -rf "$d"; fi; done; rm -rf /root/.cache/pip; echo "$(date +%T) disco baixo: quadros de videos prontos apagados ($(df -Ph . | awk 'NR==2{print $4}') livres)"; fi
 log() { echo "$(date +%T) $*" | tee -a $L; }
 st() { [ -f stories/$ID/stages/$1 ]; }; mark() { date +%s > stories/$ID/stages/$1; bash ckpt.sh $ID "etapa $1" >/dev/null 2>&1 || true; }
 j() { python3 -c "import json;print(json.load(open('stories/$ID/meta.json'))['$1'])"; }

@@ -16,7 +16,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: medieval | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): GAU (variante 0, expressao angry, segura torch); GAU (variante 1, expressao shout, segura torch); ROM (variante 0, expressao scared) | multidao: 16 de GAU/ROM
+- Personagens principais (3): GAU (variante 0, expressao angry, segura torch); GAU (variante 1, expressao shout, segura torch); GAU (variante 2, expressao grin, segura torch) | multidao: 16 de GAU/ROM
 - Animacao: - | batalha encenada
 - Objetos/modelos: kit/fire, buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, gauleses
@@ -66,8 +66,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: medieval | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
-- Personagens principais (2): MAN (variante 0, expressao shock); GAU (variante 0, expressao shock)
-- Animacao: reagir | interacao: empurrar
+- Personagens principais (2): MAN (variante 0, expressao angry); GAU (variante 0, expressao scared)
+- Animacao: conversar | interacao: empurrar
 - Objetos/modelos: buildings/castle_tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cama, gaules, soldado
 - RISCOS: nenhum
@@ -76,8 +76,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: medieval | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): ROM (variante 0, expressao stern); MAN (variante 0, expressao stern); GAU (variante 0, expressao shock) | multidao: 16 de ROM/GAU
-- Animacao: reagir | batalha encenada
+- Personagens principais (3): ROM (variante 0, expressao angry); MAN (variante 0, expressao shout); GAU (variante 0, expressao scared) | multidao: 18 de ROM/GAU
+- Animacao: - | batalha encenada
 - Objetos/modelos: buildings/castle_tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alarme, ataque, muralha, romanos
 - RISCOS: nenhum

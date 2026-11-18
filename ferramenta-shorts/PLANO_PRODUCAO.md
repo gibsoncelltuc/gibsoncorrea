@@ -11,13 +11,13 @@ Depois: Curiosidade e Ciência CC 11–20.
 
 ## Sessão A (branch claude/prod-a-karansebes) — Guerras Inusitadas
 - [x] EP 09 futebol1969
-- [x] EP 11 A Guerra da Lagosta (Brasil × França, 1961) · [x] EP 12 A Guerra da Orelha de Jenkins (1739) · [x] EP 13 A Guerra do Banquinho Dourado (1900) · [ ] EP 14 A Guerra de 335 Anos (ilhas Scilly) · [ ] EP 15 A Guerra do Bacalhau (Islândia × Reino Unido)
+- [x] EP 11 A Guerra da Lagosta (Brasil × França, 1961) · [x] EP 12 A Guerra da Orelha de Jenkins (1739) · [x] EP 13 A Guerra do Banquinho Dourado (1900) · [x] EP 14 A Guerra de 335 Anos (ilhas Scilly) · [x] EP 15 A Guerra do Bacalhau (Islândia × Reino Unido)
 - [ ] EP 16 A Guerra da Melancia (Panamá, 1856) · [ ] EP 17 A Guerra do Uísque (ilha Hans, Canadá × Dinamarca; cenário `arctic`) · [ ] EP 18 A Guerra do Cão Fugitivo (Grécia × Bulgária, 1925) · [ ] EP 19 A Guerra de Aroostook (lenhadores, 1838) · [ ] EP 20 A Batalha de Los Angeles (1942, atiraram no nada)
 
 ## Sessão B (branch claude/prod-b-emus) — Curiosidade e Ciência (`"serie": "Curiosidade e Ciência", "ep": N`)
 - [x] EP 10 chaleira1784
 - [x] CC 01 Newton e a maçã · [ ] CC 02 Arquimedes e o "Eureca" na banheira · [x] CC 03 Galileu e a torre de Pisa · [x] CC 04 Fleming e o mofo que virou penicilina · [x] CC 05 O micro-ondas e o chocolate derretido
-- [x] CC 06 Pasteur e a vacina da raiva · [ ] CC 07 Franklin, a pipa e o raio · [ ] CC 08 Darwin e os tentilhões · [ ] CC 09 Mendel e as ervilhas · [ ] CC 10 Eratóstenes mede a Terra com uma sombra
+- [x] CC 06 Pasteur e a vacina da raiva · [x] CC 07 Franklin, a pipa e o raio · [x] CC 08 Darwin e os tentilhões · [ ] CC 09 Mendel e as ervilhas · [ ] CC 10 Eratóstenes mede a Terra com uma sombra
 
 ## Curiosidade e Ciência CC 11–20 (sessão principal, depois das refações)
 CC 11 Röntgen e o raio X da mão · CC 12 Tycho Brahe e o nariz de metal · CC 13 Semmelweis e lavar as mãos · CC 14 Kekulé e o sonho da cobra · CC 15 O post-it (a cola que não colava) · CC 16 O velcro e os carrapichos · CC 17 Goodyear e a borracha no fogão · CC 18 Os Montgolfier, o balão, a ovelha, o pato e o galo · CC 19 Marie Curie e o caderno radioativo · CC 20 A dança das abelhas
