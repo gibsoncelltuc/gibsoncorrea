@@ -16,7 +16,7 @@
    "glasses": true
   },
   "FRY": {
-   "jacket": "#2a4a6a",
+   "jacket": "#3a6a3a",
    "pants": "#2a2a30",
    "boots": "#1b1b1f",
    "hat": "hair",
@@ -55,7 +55,7 @@
      "kit/postit",
      0,
      -1.4,
-     1.0
+     1.5
     ]
    ],
    "text": "1968",
@@ -127,8 +127,7 @@
    "crowd": {
     "n": 16,
     "outfits": [
-     "POV",
-     "FRY"
+     "POV"
     ],
     "march": false,
     "expr": "smile"
@@ -159,7 +158,7 @@
      "kit/postit",
      1.6,
      -0.8,
-     1.1
+     1.65
     ]
    ],
    "fx": [
@@ -185,7 +184,7 @@
      "kit/postit",
      1.6,
      -0.8,
-     1.0
+     1.5
     ]
    ],
    "say": "Os dois se juntaram. E o papel saiu amarelo por acaso: era o único papel de rascunho que tinha no laboratório vizinho."
@@ -217,8 +216,7 @@
    "crowd": {
     "n": 18,
     "outfits": [
-     "POV",
-     "CHE"
+     "POV"
     ],
     "march": false,
     "expr": "laugh"
@@ -228,7 +226,7 @@
      "kit/postit",
      0,
      -3.0,
-     1.4
+     2.1
     ]
    ],
    "fx": [
@@ -253,7 +251,7 @@
      "kit/postit",
      1.4,
      -0.8,
-     1.0
+     1.5
     ]
    ],
    "text": "1980",

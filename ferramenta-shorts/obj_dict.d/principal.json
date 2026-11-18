@@ -112,5 +112,11 @@
   "kit/tequila_bolt",
   1.0,
   false
+ ],
+ [
+  "\\bpneus?\\b",
+  "kit/tires",
+  1.0,
+  false
  ]
 ]
