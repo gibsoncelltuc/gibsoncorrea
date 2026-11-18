@@ -119,3 +119,11 @@ for x in (-.8, .8):
 caixa((0, .3, .83), (.4, .4, .14), '#3a2a1a')
 caixa((0, .5, 0), (1.0, .6, .8), '#b8b4a8'); caixa((0, .9, 0), (1.1, .1, .9), '#6a4a3a')
 fim()
+novo('bunk')               # beliche de metal de cela: 4 postes, 2 estrados com colchao fino cinza e escadinha
+for x in (-.9, .9):
+    for z in (-.4, .4): cil((x, 1.0, z), .04, 2.0, '#5a5e66')
+for y in (.45, 1.35):
+    caixa((0, y, 0), (1.9, .06, .9), '#7a7e86'); caixa((0, y + .08, 0), (1.8, .1, .8), '#9a9a94')
+cil((.95, .9, .5), .025, 1.0, '#5a5e66'); 
+for i in range(4): cil((.95, .3 + i * .3, .5), .02, .3, '#5a5e66', rot=(math.pi / 2, 0, 0))
+fim()
