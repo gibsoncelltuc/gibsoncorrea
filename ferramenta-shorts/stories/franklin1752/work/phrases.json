@@ -1,0 +1,270 @@
+{
+ "duration": 59.64,
+ "frames30": 1789,
+ "source": "silence-align (cost 0.75)",
+ "segments": [
+  [
+   0.154042,
+   3.22383
+  ],
+  [
+   4.06633,
+   5.87142
+  ],
+  [
+   6.09308,
+   6.88917
+  ],
+  [
+   7.2295,
+   10.2604
+  ],
+  [
+   11.0983,
+   11.6741
+  ],
+  [
+   11.8885,
+   14.4564
+  ],
+  [
+   14.7199,
+   16.0809
+  ],
+  [
+   16.9994,
+   17.9968
+  ],
+  [
+   18.2205,
+   18.6622
+  ],
+  [
+   18.9017,
+   21.165
+  ],
+  [
+   22.045,
+   22.5954
+  ],
+  [
+   22.8233,
+   23.8498
+  ],
+  [
+   24.1069,
+   26.32
+  ],
+  [
+   27.1963,
+   28.768
+  ],
+  [
+   29.0517,
+   30.532
+  ],
+  [
+   30.7526,
+   32.1713
+  ],
+  [
+   33.0365,
+   33.8778
+  ],
+  [
+   34.1435,
+   35.0687
+  ],
+  [
+   35.2807,
+   36.0154
+  ],
+  [
+   36.3677,
+   38.5603
+  ],
+  [
+   39.42,
+   41.5478
+  ],
+  [
+   41.8882,
+   44.1734
+  ],
+  [
+   45.0518,
+   45.9464
+  ],
+  [
+   46.0918,
+   47.4808
+  ],
+  [
+   47.7701,
+   50.0904
+  ],
+  [
+   50.9391,
+   52.6865
+  ],
+  [
+   52.942,
+   55.5035
+  ],
+  [
+   56.3356,
+   56.7257
+  ],
+  [
+   57.0338,
+   58.8313
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um homem soltou uma pipa em plena tempestade para pegar um raio.",
+   "s": 0.154,
+   "e": 3.224
+  },
+  {
+   "text": "Era mil setecentos e cinquenta e dois,",
+   "s": 4.066,
+   "e": 5.871
+  },
+  {
+   "text": "na Filad\u00e9lfia,",
+   "s": 6.093,
+   "e": 6.889
+  },
+  {
+   "text": "e Benjamin Franklin queria provar que o raio era eletricidade.",
+   "s": 7.229,
+   "e": 10.26
+  },
+  {
+   "text": "Na \u00e9poca,",
+   "s": 11.098,
+   "e": 11.674
+  },
+  {
+   "text": "muita gente achava que o raio era um castigo dos c\u00e9us,",
+   "s": 11.889,
+   "e": 14.456
+  },
+  {
+   "text": "e n\u00e3o uma for\u00e7a da natureza.",
+   "s": 14.72,
+   "e": 16.081
+  },
+  {
+   "text": "Franklin discordava,",
+   "s": 16.999,
+   "e": 17.997
+  },
+  {
+   "text": "e disse:",
+   "s": 18.221,
+   "e": 18.662
+  },
+  {
+   "text": "\"O raio \u00e9 s\u00f3 eletricidade em tamanho gigante.\"",
+   "s": 18.902,
+   "e": 21.165
+  },
+  {
+   "text": "Contam que,",
+   "s": 22.045,
+   "e": 22.595
+  },
+  {
+   "text": "numa tarde de chuva,",
+   "s": 22.823,
+   "e": 23.85
+  },
+  {
+   "text": "ele prendeu uma chave de metal na linha da pipa.",
+   "s": 24.107,
+   "e": 26.32
+  },
+  {
+   "text": "O plano era simples e perigoso:",
+   "s": 27.196,
+   "e": 28.768
+  },
+  {
+   "text": "se a pipa pegasse eletricidade,",
+   "s": 29.052,
+   "e": 30.532
+  },
+  {
+   "text": "a chave soltaria fa\u00edscas.",
+   "s": 30.753,
+   "e": 32.171
+  },
+  {
+   "text": "Acontece que,",
+   "s": 33.036,
+   "e": 33.878
+  },
+  {
+   "text": "quando a nuvem passou,",
+   "s": 34.144,
+   "e": 35.069
+  },
+  {
+   "text": "a linha eri\u00e7ou,",
+   "s": 35.281,
+   "e": 36.015
+  },
+  {
+   "text": "e uma fa\u00edsca pulou da chave at\u00e9 a m\u00e3o dele.",
+   "s": 36.368,
+   "e": 38.56
+  },
+  {
+   "text": "Hoje se discute se isso aconteceu mesmo,",
+   "s": 39.42,
+   "e": 41.548
+  },
+  {
+   "text": "e a sorte foi o raio n\u00e3o ter ca\u00eddo na pipa.",
+   "s": 41.888,
+   "e": 44.173
+  },
+  {
+   "text": "Se tivesse ca\u00eddo,",
+   "s": 45.052,
+   "e": 45.946
+  },
+  {
+   "text": "ele n\u00e3o estaria aqui para contar,",
+   "s": 46.092,
+   "e": 47.481
+  },
+  {
+   "text": "e outros cientistas morreram tentando repetir.",
+   "s": 47.77,
+   "e": 50.09
+  },
+  {
+   "text": "Franklin ent\u00e3o inventou o para-raios,",
+   "s": 50.939,
+   "e": 52.687
+  },
+  {
+   "text": "e hoje ele protege casas e pr\u00e9dios no mundo inteiro.",
+   "s": 52.942,
+   "e": 55.504
+  },
+  {
+   "text": "No fim,",
+   "s": 56.336,
+   "e": 56.726
+  },
+  {
+   "text": "o raio perdeu a briga para uma chave.",
+   "s": 57.034,
+   "e": 58.831
+  }
+ ]
+}

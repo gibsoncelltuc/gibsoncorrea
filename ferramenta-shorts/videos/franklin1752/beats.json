@@ -1,0 +1,22 @@
+{"voice": "pt-BR-AntonioNeural", "rate": "+10%", "serie": "Curiosidade e Ciência", "ep": 7,
+ "title": "Franklin, a Pipa e o Raio", "titulo_base": "Franklin, a Pipa e o Raio",
+ "set": "street", "light": "day", "mood": "playful", "heroi": "kit/kite",
+ "outfits": {
+  "FRA": {"profissao": "cientista", "jacket": "#6a4a3a", "pants": "#3a3a44", "boots": "#2a2218", "hat": "hair", "hair": "#c9c2b0", "glasses": true},
+  "FIL": {"profissao": "agricultor", "jacket": "#3b6fb5", "pants": "#4a3a2a", "boots": "#2a2218", "hat": "hair", "hair": "#6a4a2a"},
+  "COM": {"profissao": "comerciante", "jacket": "#8a3a3a", "pants": "#3a3a44", "boots": "#2a2218", "hat": "bowler", "cap": "#2a2a33"},
+  "POV": {"profissao": "camponesa", "jacket": "#6a8a5a", "pants": "#4a3a2a", "boots": "#2a2218", "hat": "bonnet", "cap": "#e8dcc0"}
+ },
+ "beats": [
+  {"say": "Um homem soltou uma pipa em plena tempestade para pegar um raio.", "shot": "two", "who": ["FRA:0:grin", "FIL:0:shock"], "clima": "tempestade", "props": [["kit/kite", -1.8, -1.2, 1.6]]},
+  {"say": "Era mil setecentos e cinquenta e dois, na Filadélfia, e Benjamin Franklin queria provar que o raio era eletricidade.", "shot": "reveal", "who": ["COM:0:neutral", "POV:0:smile"], "crowd": {"n": 8, "outfits": ["COM", "POV"], "march": false}, "mapa": "ESTADOS UNIDOS", "mapa_at": 2},
+  {"say": "Na época, muita gente achava que o raio era um castigo dos céus, e não uma força da natureza.", "shot": "group", "interior": "madeira", "who": ["COM:0:scared", "POV:0:scared", "FIL:0:sad"], "acao": "conversar"},
+  {"say": "Franklin discordava, e disse: \"O raio é só eletricidade em tamanho gigante.\"", "shot": "two", "interior": "madeira", "who": ["COM:0:surprised", "FRA:0:smug"], "interacao": "discutir"},
+  {"say": "Contam que, numa tarde de chuva, ele prendeu uma chave de metal na linha da pipa.", "shot": "two", "who": ["FRA:0:suspicious", "FIL:0:nervous"], "clima": "chuva", "props": [["kit/kite", -1.6, -0.8, 1.6]]},
+  {"say": "O plano era simples e perigoso: se a pipa pegasse eletricidade, a chave soltaria faíscas.", "shot": "close", "who": ["FRA:0:nervous"], "clima": "tempestade"},
+  {"say": "Acontece que, quando a nuvem passou, a linha eriçou, e uma faísca pulou da chave até a mão dele.", "shot": "orbit", "who": ["FRA:0:shock", "FIL:0:scared"], "clima": "tempestade", "impact": true, "tiros": false, "crowd": {"n": 8, "outfits": ["COM", "POV"], "march": false, "expr": "shock"}, "fx": ["burst@40", "stars@60"], "sfx": ["sting@40", "thump@60"]},
+  {"say": "Hoje se discute se isso aconteceu mesmo, e a sorte foi o raio não ter caído na pipa.", "shot": "two", "interior": "madeira", "who": ["COM:0:suspicious", "FRA:0:relief"], "interacao": "cochichar"},
+  {"say": "Se tivesse caído, ele não estaria aqui para contar, e outros cientistas morreram tentando repetir.", "shot": "two", "interior": "madeira", "who": ["FIL:0:sad", "FRA:0:stern"], "acao": "conversar"},
+  {"say": "Franklin então inventou o para-raios, e hoje ele protege casas e prédios no mundo inteiro.", "shot": "crowd", "set": "street", "who": ["FRA:0:laugh", "FIL:0:laugh"], "impact": true, "tiros": false, "crowd": {"n": 14, "outfits": ["COM", "POV", "FIL"], "march": false, "expr": "laugh"}, "props": [["kit/lightning_rod", 2.2, -2.0, 1.0]], "text": "PARA-RAIOS", "fx": ["stars@30", "burst@70"], "sfx": ["ding@30", "sting@70"], "acao": "comemorar"},
+  {"say": "No fim, o raio perdeu a briga para uma chave.", "shot": "close", "who": ["FRA:0:smug"]}
+ ]}
