@@ -58,5 +58,11 @@
   "kit/curie_box",
   1.0,
   false
+ ],
+ [
+  "\\bcolmeias?\\b|\\babelhas?\\b|\\bfavos?\\b|\\bmel\\b",
+  "kit/beehive",
+  1.0,
+  false
  ]
 ]
