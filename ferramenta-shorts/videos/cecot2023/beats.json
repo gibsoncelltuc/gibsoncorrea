@@ -8,7 +8,7 @@
  "set": "outback",
  "light": "day",
  "mood": "playful",
- "heroi": "kit/prison",
+ "heroi": "kit/prison_mini",
  "outfits": {
   "BUK": {
    "jacket": "#22252c",
@@ -104,10 +104,10 @@
    "say": "Em dois mil e vinte e dois, o presidente Nayib Bukele decretou estado de exceção, e milhares de suspeitos foram presos.",
    "props": [
     [
-     "kit/prison",
+     "kit/prison_mini",
      1.5,
-     0.3,
-     0.25
+     0.4,
+     0.9
     ]
    ]
   },

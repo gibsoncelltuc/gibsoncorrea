@@ -111,3 +111,11 @@ for i in range(3): cil((.55, .55 + i * .22, .47), .05, .06, '#e8d8a8', rot=(math
 tubo([(0, 1.4, 0), (-.4, 1.95, 0)], .02, '#b8bcc4'); tubo([(0, 1.4, 0), (.4, 1.95, 0)], .02, '#b8bcc4')
 for x in (-.55, .55): cil((x, .12, 0), .07, .24, '#3a2a1a')
 fim()
+novo('prison_mini')        # maquete de prisao num pedestal: muralha quadrada cinza, 4 torres de vigia, portao e predio central
+cil((0, .08, 0), 1.1, .16, '#6a4a2a')
+for (cx, cz, w, d) in ((0, .8, 1.7, .12), (0, -.8, 1.7, .12), (.8, 0, .12, 1.7), (-.8, 0, .12, 1.7)): caixa((cx, .42, cz), (w, .5, d), '#9a9a96')
+for x in (-.8, .8):
+    for z in (-.8, .8): cil((x, .72, z), .16, 1.0, '#8a8a86'); cil((x, 1.34, z), .2, .22, '#5a5a56'); cil((x, 1.6, z), .22, .3, '#4a4a52', raio_topo=.02)
+caixa((0, .3, .83), (.4, .4, .14), '#3a2a1a')
+caixa((0, .5, 0), (1.0, .6, .8), '#b8b4a8'); caixa((0, .9, 0), (1.1, .1, .9), '#6a4a3a')
+fim()
