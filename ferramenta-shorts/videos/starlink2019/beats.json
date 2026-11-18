@@ -1,0 +1,256 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Poder e Fama",
+ "ep": 4,
+ "title": "A Fila de Luzes no Céu",
+ "titulo_base": "A Fila de Luzes no Céu",
+ "set": "street",
+ "light": "golden",
+ "mood": "playful",
+ "heroi": "kit/rocket",
+ "outfits": {
+  "JOR": {
+   "jacket": "#4a6a9a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#8a5a2a",
+   "glasses": true,
+   "fixo": true
+  },
+  "JOR2": {
+   "jacket": "#9a4a5a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#1a1a1a",
+   "fixo": true
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "bowler"
+   ]
+  },
+  "AST": {
+   "profissao": "cientista",
+   "jacket": "#3a5a8a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#8a6a3a",
+   "glasses": true,
+   "fixo": true
+  }
+ },
+ "beats": [
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Em maio de dois mil e dezenove, a SpaceX lançou um foguete Falcon 9 com sessenta satélites de uma vez.",
+   "shot": "reveal",
+   "who": [
+    "AST:0:grin"
+   ],
+   "props": [
+    [
+     "kit/falcon_air",
+     0,
+     -3,
+     1.0
+    ],
+    [
+     "kit/rocket",
+     1.3,
+     1.0,
+     0.5
+    ]
+   ],
+   "hora": "pordosol"
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "O lançamento foi em Cabo Canaveral, na Flórida, e eram os primeiros satélites do Starlink, a internet espacial.",
+   "shot": "two",
+   "who": [
+    "AST:0:smug",
+    "JOR:0:suspicious"
+   ],
+   "mapa": "FLÓRIDA",
+   "mapa_at": 1,
+   "props": [
+    [
+     "kit/falcon_air",
+     1.5,
+     -3,
+     1.0
+    ]
+   ]
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Um dia depois, um rastreador de satélites holandês, Marco Langbroek, filmou o céu.",
+   "shot": "two",
+   "who": [
+    "AST:0:grin",
+    "JOR:0:smug"
+   ],
+   "props": [
+    [
+     "kit/rocket",
+     0.5,
+     1.2,
+     0.6
+    ]
+   ],
+   "hora": "pordosol"
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": true,
+   "say": "Ele registrou uma fila de luzes, que levava cerca de três minutos para passar.",
+   "shot": "group",
+   "who": [
+    "AST:0:shock",
+    "POV:0:shock",
+    "POV:1:shock"
+   ],
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "POV"
+    ]
+   },
+   "text": "3 MINUTOS",
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ],
+   "hora": "pordosol"
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Ele contou pelo menos cinquenta e seis objetos brilhando em linha.",
+   "shot": "two",
+   "who": [
+    "AST:0:grin",
+    "JOR:0:shock"
+   ],
+   "text": "56",
+   "hora": "pordosol"
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": true,
+   "say": "Acontece que o site holandês de avistamentos de OVNIs recebeu mais de cento e cinquenta relatos.",
+   "shot": "crowd",
+   "who": [
+    "JOR:0:shock"
+   ],
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "POV"
+    ]
+   },
+   "fx": [
+    "burst@40"
+   ],
+   "sfx": [
+    "sting@40"
+   ],
+   "hora": "pordosol"
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Jornais de vários países explicaram que não eram OVNIs, e sim satélites.",
+   "shot": "two",
+   "who": [
+    "JOR:0:suspicious",
+    "JOR2:0:laugh"
+   ],
+   "mapa": "MUNDO",
+   "mapa_at": 1
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Os satélites ainda estavam juntos, em fila, logo depois do lançamento.",
+   "shot": "two",
+   "who": [
+    "AST:0:smug",
+    "JOR2:0:suspicious"
+   ],
+   "props": [
+    [
+     "kit/falcon_air",
+     1.5,
+     -3,
+     1.0
+    ]
+   ]
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "A imagem da fila de luzes se espalhou por vários países e virou assunto na internet.",
+   "shot": "reveal",
+   "who": [
+    "JOR:0:shock"
+   ],
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "POV"
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Moral da história: se olhar o céu e vir uma fila de luzes, pode ser uma fila de satélites, e não alienígenas.",
+   "shot": "two",
+   "who": [
+    "AST:0:laugh",
+    "JOR2:0:laugh"
+   ],
+   "props": [
+    [
+     "kit/rocket",
+     0.5,
+     1.2,
+     0.6
+    ]
+   ]
+  }
+ ],
+ "exp": 1.0,
+ "fontes": [
+  "https://spaceweatherarchive.com/2019/05/29/starlink-satellite-flares/",
+  "https://www.cbc.ca/lite/story/1.5151266",
+  "https://www.universetoday.com/142320/catching-a-ride-on-the-starlink-satellite-train-marvel-or-night-sky-menace",
+  "https://skyandtelescope.org/astronomy-news/observing-news/spacex-launches-starlink-satellites/"
+ ]
+}
