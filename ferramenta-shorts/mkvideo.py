@@ -113,6 +113,12 @@ LUGARES = [  # (palavra na narracao, [(modelo, x, z, escala), ...]) -- cenografi
     (r'\bcidades?\b|\bcapital\b|\bhotel\b|\bpredios?\b', [('buildings/apartment', -6.0, -12.0, 1.2), ('buildings/house_two', 6.0, -11.0, 1.2), ('nature/lamppost', 3.2, -2.4, 1.2)]),
     (r'\bpracas?\b|\bfonte\b', [('nature/fountain', 0.0, -4.5, 1.2), ('nature/bench', -3.6, -2.2, 1.2)]),
 ]
+# OBJETOS NOVOS de cada sessao ficam em obj_dict.d/<sessao>.json ([[regex, modelo, escala, grande?], ...]) -- cada sessao edita SO o seu arquivo, assim o merge entre sessoes nunca apaga objeto de ninguem
+for _f in sorted(__import__('glob').glob('obj_dict.d/*.json')):
+    try:
+        for _e in json.load(open(_f, encoding='utf-8')):
+            if not any(_e[1] == x[1] for x in OBJ_DICT): OBJ_DICT.append((_e[0], _e[1], float(_e[2]), _e[3] if len(_e) > 3 else False))
+    except Exception as _x: print(f'AVISO: {_f} invalido ({_x})')
 FALTA_MODELAR = r'\b(pao|paes|queijo|peixe|peixes|vaca|vacas|cachorro|cachorros|gato|gatos|ovelha|ovelhas|piano|relogio|estatua|guilhotina|balanca|telefone|radio|bicicleta)\b'
 def _heroi():   # OBJETO HEROI do video: "heroi" no topo do roteiro, ou o objeto do titulo, ou o objeto mais citado na narracao
     if 'heroi' in B: return B['heroi'] or None
