@@ -24,7 +24,7 @@ const X = 11000, DK = 6;
 const WS = (i, off = 0) => TIMING.words[Math.min(i, TIMING.words.length - 1)][0] + off;   // frame em que a palavra de indice i comeca
 const A = [0, WS(19, -3), WS(37, -3), WS(56, -3), WS(75, -3), WS(89, -3), WS(105, -3), WS(122, -3), WS(134, -3), WS(148, -3), WS(158, -3), WS(175, -3), TOTAL_F()];
 const SPEC = {
-  id: "wrestlemania2007", vseed: 5, cutLen: 54, dissolveN: 7, glideN: 20, creep: 0.003, total: TOTAL_F(), sets: ["stadium"], setx: { stadium: X },
+  id: "wrestlemania2007", exp: 0.81, vseed: 5, cutLen: 54, dissolveN: 7, glideN: 20, creep: 0.003, total: TOTAL_F(), sets: ["stadium"], setx: { stadium: X },
   outfits: { TRU: (v = 0, e = {}) => ({ _id: "tru", jacket: "#1f2f5c", pants: "#1f2f5c", boots: "#1b1b1f", hat: "hair", hair: "#f2c84a", tie: "#d8282f", pele: "#f5c49a", build: "stout", skin: ["#ffe2c2", "#f5c9a0", "#ecd0b6", "#c99067"][v % 4], ...(((v + 251) % 6 === 4 && false) ? { glasses: true } : {}), ...(([1, 5].includes((v + 251) % 6) && false) ? { beard: ['#3a2a1f', '#6b4a2a', '#8a8a86'][(v + 3) % 3] } : {}), ...((((v + 251) % 6 === 3) && false) ? { moustache: ['#4a3020', '#2a201a', '#8a8a86'][v % 3] } : {}), ...e }),
     VIN: (v = 0, e = {}) => ({ _id: "vin", jacket: "#2a2a30", pants: "#2a2a30", boots: "#1b1b1f", hat: "hair", hair: "#3a2a1f", tie: "#5a5a62", pele: "#f0c8a0", skin: ["#ffe2c2", "#f5c9a0", "#ecd0b6", "#c99067"][v % 4], ...(((v + 237) % 6 === 4 && false) ? { glasses: true } : {}), ...(([1, 5].includes((v + 237) % 6) && false) ? { beard: ['#3a2a1f', '#6b4a2a', '#8a8a86'][(v + 3) % 3] } : {}), ...((((v + 237) % 6 === 3) && false) ? { moustache: ['#4a3020', '#2a201a', '#8a8a86'][v % 3] } : {}), ...e }),
     VIB: (v = 0, e = {}) => ({ _id: "vib", jacket: "#2a2a30", pants: "#2a2a30", boots: "#1b1b1f", hat: "hair", hair: "#f0c8a0", tie: "#5a5a62", pele: "#f0c8a0", skin: ["#ffe2c2", "#f5c9a0", "#ecd0b6", "#c99067"][v % 4], ...(((v + 225) % 6 === 4 && false) ? { glasses: true } : {}), ...(([1, 5].includes((v + 225) % 6) && false) ? { beard: ['#3a2a1f', '#6b4a2a', '#8a8a86'][(v + 3) % 3] } : {}), ...((((v + 225) % 6 === 3) && false) ? { moustache: ['#4a3020', '#2a201a', '#8a8a86'][v % 3] } : {}), ...e }),
@@ -49,6 +49,7 @@ const SPEC = {
     S('b11', A[11], A[12] - 1, X, "day", { h: 2.4, d0: 5.6, d1: 4.9, hero: { hero: 'any', frame: 'medium', minH: 0.07, main: 1 }, trans: 'dissolve', actors: [pp(X, "TRU", 0, 0.0, 1.3, "smile", { over: { hold: "bottle" }, pose: 'cheer' })], props: [{ asset: "kit/clipper", at: [X + -1.4, -0.8], s: 1.0, drop: false }], fx: [txt(X, WS(175, -2), A[12] - 1, "HALL DA FAMA", '#e8c45a', '#7a1c1c', 4.6, { s: 1.5, up: 0.55 })] })
   ],
 };
+SPEC.fit = {"b0":1.12,"b10~2":1.12,"b11~3":1.12,"b4":1.12,"b6":1.12,"b6~1":1.12,"b6~3":1.12,"b7":1.12};
 // ===== STORY RUNTIME (generic): turns a declarative SPEC (stories/<id>.spec.js, concatenated before this file) into the story.js interface the engine expects =====
 import { camFromKeys, clamp, lerp, ramp, q, blinkAt, idle, M } from './motion.js';
 export const FPS = 30, TOTAL = SPEC.total, DECK = 6;
