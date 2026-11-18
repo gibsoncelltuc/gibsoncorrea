@@ -110,3 +110,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL
 
+
+## Fontes (fatos conferidos)
+- https://www.cnbc.com/make-it/2020/11/06/elon-musks-tesla-tequila.html
+- https://www.businessinsider.com/tesla-tequila-teslaquila-resold-online-ebay-empty-bottle-2020-11
