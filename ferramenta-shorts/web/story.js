@@ -44,6 +44,7 @@ const SPEC = {
     S('b9', A[9], A[10] - 1, X, "golden", { h: 2.3, d0: 8.4, d1: 7.4, hero: { hero: 'any', frame: 'medium', minH: 0.07, main: 2 }, trans: 'dissolve', actors: [pp(X, "AST", 0, -1.15, 1.3, "laugh", { pose: 'talk', inter: { k: 'step', a: Math.round(A[9] + (A[10] - 1 - (A[9])) * 0.12), b: Math.round(A[9] + (A[10] - 1 - (A[9])) * 0.82), dir: 1, n: 2, ph: 0 } }), pp(X, "JOR2", 0, 1.15, 1.0, "laugh", { pose: 'talk', inter: { k: 'nod', a: Math.round(A[9] + (A[10] - 1 - (A[9])) * 0.2), b: Math.round(A[9] + (A[10] - 1 - (A[9])) * 0.9), dir: -1, n: 2, ph: 3.14 } })], props: [{ asset: "buildings/house_two", at: [X + 4.8, -11.0], s: 1.05, ry: -0.35, drop: false }, { asset: "kit/rocket", at: [X + 0.5, 1.2], s: 0.6, drop: false }] })
   ],
 };
+SPEC.fit = {"b5":1.12,"b6~2":1.12};
 // ===== STORY RUNTIME (generic): turns a declarative SPEC (stories/<id>.spec.js, concatenated before this file) into the story.js interface the engine expects =====
 import { camFromKeys, clamp, lerp, ramp, q, blinkAt, idle, M } from './motion.js';
 export const FPS = 30, TOTAL = SPEC.total, DECK = 6;
