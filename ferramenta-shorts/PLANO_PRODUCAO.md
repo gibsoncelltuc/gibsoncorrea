@@ -38,3 +38,4 @@ Ler `FIGURINOS_FAMOSOS.md` (figurinos prontos e REGRAS obrigatórias: só fato r
 
 ## Série 4 — "E Se" (What If) — 10 roteiros PRONTOS, fora da fila (aguardando ordem do Gibson)
 Ver `videos/E_SE_ROTEIROS.md`. Produzir com `./prechecar.sh <id>` e `./novo_video.sh <id>` só quando o Gibson mandar, depois de terminar a fila atual.
+- Sessão A escolheu: PF 02 = vidro do Cybertruck (2019) · PF 03 = 'Não é um lança-chamas' (2018).

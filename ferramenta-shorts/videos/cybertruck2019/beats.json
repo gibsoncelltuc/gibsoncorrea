@@ -2,14 +2,40 @@
  "voice": "pt-BR-AntonioNeural",
  "rate": "+10%",
  "serie": "Poder e Fama",
- "ep": 11,
- "title": "A Janela do Cybertruck",
- "titulo_base": "A Janela do Cybertruck",
+ "ep": 2,
+ "title": "O Vidro do Cybertruck",
+ "titulo_base": "O Vidro do Cybertruck",
  "set": "street",
  "light": "golden",
  "mood": "playful",
- "heroi": "kit/steel_ball",
+ "heroi": "kit/cybertruck",
  "outfits": {
+  "JOR": {
+   "jacket": "#4a6a9a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#8a5a2a",
+   "glasses": true
+  },
+  "JOR2": {
+   "jacket": "#9a4a5a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#1a1a1a"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "bowler"
+   ]
+  },
   "MUS": {
    "jacket": "#16181d",
    "pants": "#22252c",
@@ -18,215 +44,208 @@
    "hair": "#3a2a1f",
    "pele": "#f2e2d2"
   },
-  "DSG": {
-   "jacket": "#2a2d33",
-   "pants": "#3a3d44",
+  "VON": {
+   "jacket": "#2a3550",
+   "pants": "#22252c",
    "boots": "#1b1b1f",
    "hat": "hair",
-   "hair": "#4a3a2a",
-   "pele": "#e8c8a8"
-  },
-  "POV": {
-   "jacket": "#3a8a5a",
-   "pants": "#2a3a5a",
-   "boots": "#1b1b1f",
-   "hat": "hair",
-   "hair": "#6a3a1a"
+   "hair": "#2a2a2a",
+   "glasses": true
   }
  },
  "beats": [
   {
-   "say": "Em novembro de dois mil e dezenove, na Califórnia, a empresa de Elon Musk apresentou o Cybertruck, uma picape elétrica de aço.",
-   "shot": "two",
-   "who": [
-    "MUS:0:grin",
-    "DSG:0:smile"
-   ],
-   "props": [
-    [
-     "kit/cybertruck",
-     2.2,
-     -2.0,
-     0.75
-    ]
-   ],
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "mapa": "CALIFÓRNIA",
-   "mapa_at": 3
-  },
-  {
-   "say": "Na apresentação, Musk disse que as janelas eram feitas de um vidro super resistente.",
-   "shot": "close",
+   "say": "Em novembro de dois mil e dezenove, a Tesla apresentou o Cybertruck, uma picape elétrica com cara de triângulo de metal.",
+   "shot": "reveal",
    "who": [
-    "MUS:0:smug"
+    "MUS:0:grin"
    ],
    "props": [
     [
      "kit/cybertruck",
-     2.2,
-     -2.0,
-     0.75
+     0,
+     -2.5,
+     1.0
     ]
-   ],
-   "tiros": false,
-   "batalha": false,
-   "impact": false
+   ]
   },
   {
-   "say": "Para provar, o designer Franz von Holzhausen jogou uma esfera de aço na janela.",
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "A apresentação foi em Hawthorne, na Califórnia, e Elon Musk disse que as janelas eram de vidro blindado.",
    "shot": "two",
    "who": [
-    "DSG:0:stern:ball",
-    "MUS:0:smile"
+    "MUS:0:smug",
+    "VON:0:grin"
+   ],
+   "mapa": "CALIFÓRNIA",
+   "mapa_at": 1,
+   "props": [
+    [
+     "kit/cybertruck",
+     1.5,
+     -2.5,
+     1.0
+    ]
+   ]
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Para provar, o chefe de design, Franz von Holzhausen, pegou uma bola de aço.",
+   "shot": "close",
+   "who": [
+    "VON:0:grin"
    ],
    "props": [
     [
      "kit/steel_ball",
-     -1.5,
-     0.3,
-     0.7
-    ],
-    [
-     "kit/cybertruck",
-     2.2,
-     -2.0,
-     0.75
+     0.4,
+     1.2,
+     1.0
     ]
-   ],
-   "tiros": false,
-   "batalha": false,
-   "impact": false
+   ]
   },
   {
-   "say": "E o vidro rachou, ao vivo, na frente de todo mundo.",
-   "shot": "reveal",
-   "who": [
-    "MUS:0:shock",
-    "DSG:0:scared"
-   ],
-   "fx": [
-    "burst@3"
-   ],
-   "sfx": [
-    "thump@3"
-   ],
+   "tiros": false,
+   "batalha": false,
    "impact": true,
+   "say": "Ele jogou a bola na janela da porta do motorista, e o vidro rachou na frente de todo mundo.",
+   "shot": "group",
+   "who": [
+    "VON:0:shock",
+    "MUS:0:shock",
+    "POV:0:shock"
+   ],
    "crowd": {
     "n": 10,
     "outfits": [
      "POV"
-    ],
-    "march": false,
-    "expr": "shock"
+    ]
    },
    "props": [
     [
      "kit/cybertruck",
-     2.2,
+     0,
      -2.0,
-     0.75
+     1.0
     ]
-   ],
-   "tiros": false,
-   "batalha": false
-  },
-  {
-   "say": "Ele tentou de novo, em outra janela, e ela também rachou.",
-   "shot": "two",
-   "who": [
-    "DSG:0:nervous",
-    "MUS:0:surprised"
    ],
    "fx": [
-    "burst@4"
+    "burst@40"
    ],
    "sfx": [
-    "thump@4"
-   ],
-   "props": [
-    [
-     "kit/cybertruck",
-     2.2,
-     -2.0,
-     0.75
-    ]
-   ],
-   "tiros": false,
-   "batalha": false,
-   "impact": false
+    "sting@40"
+   ]
   },
   {
-   "say": "Depois, Musk explicou na internet que, nos ensaios, a mesma esfera tinha batido na mesma janela sem nem arranhar.",
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Musk comentou que talvez tenha sido forte demais.",
    "shot": "close",
    "who": [
-    "MUS:0:smile"
-   ],
-   "props": [
-    [
-     "kit/steel_ball",
-     1.4,
-     0.3,
-     0.7
-    ]
-   ],
-   "tiros": false,
-   "batalha": false,
-   "impact": false
+    "MUS:0:laugh"
+   ]
   },
   {
-   "say": "A plateia riu, a internet também, e a cena deu o que falar no mundo inteiro.",
-   "shot": "orbit",
+   "tiros": false,
+   "batalha": false,
+   "impact": true,
+   "say": "Acontece que eles tentaram de novo, na janela de trás, e ela também quebrou.",
+   "shot": "crowd",
    "who": [
-    "MUS:0:laugh",
-    "DSG:0:grin"
-   ],
-   "props": [
-    [
-     "kit/globe",
-     1.6,
-     -0.4,
-     1.1
-    ]
+    "VON:0:worried",
+    "MUS:0:shock"
    ],
    "crowd": {
-    "n": 8,
+    "n": 10,
     "outfits": [
      "POV"
-    ],
-    "march": false,
-    "expr": "laugh"
+    ]
    },
-   "tiros": false,
-   "batalha": false,
-   "impact": false
+   "props": [
+    [
+     "kit/cybertruck",
+     0,
+     -2.0,
+     1.0
+    ]
+   ],
+   "fx": [
+    "burst@40"
+   ],
+   "sfx": [
+    "sting@40"
+   ]
   },
   {
-   "say": "Uma picape, uma esfera de aço e uma janela que não aguentou: um lançamento inesquecível.",
-   "shot": "group",
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "A cena foi parar nos jornais do mundo inteiro.",
+   "shot": "two",
    "who": [
-    "MUS:0:laugh",
-    "DSG:0:smile"
+    "JOR:0:shock",
+    "JOR2:0:suspicious"
+   ],
+   "mapa": "MUNDO",
+   "mapa_at": 1
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Musk explicou depois, na internet, que uma marretada na porta tinha rachado a base do vidro antes.",
+   "shot": "two",
+   "who": [
+    "MUS:0:smug",
+    "JOR:0:suspicious"
    ],
    "props": [
     [
      "kit/cybertruck",
-     2.2,
-     -2.0,
-     0.75
-    ],
-    [
-     "kit/steel_ball",
-     -1.6,
-     0.3,
-     0.7
+     1.5,
+     -2.5,
+     1.0
     ]
-   ],
+   ]
+  },
+  {
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "say": "Segundo ele, a ordem certa era jogar a bola primeiro e a marreta depois.",
+   "shot": "two",
+   "who": [
+    "MUS:0:laugh",
+    "VON:0:suspicious"
+   ],
+   "props": [
+    [
+     "kit/steel_ball",
+     0.4,
+     1.2,
+     1.0
+    ]
+   ]
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Moral da história: se for fazer um teste ao vivo, ensaie a ordem das coisas.",
+   "shot": "two",
+   "who": [
+    "MUS:0:laugh",
+    "VON:0:worried"
+   ]
   }
  ],
- "exp": 0.9
+ "exp": 1.0
 }
