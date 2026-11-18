@@ -1,0 +1,5 @@
+# PF 13 — Você Está Demitido (Poder e Fama)
+**Fatos (conferidos por busca, fontes em maioria espelhos da Wikipédia):** "O Aprendiz" estreou na NBC em 8/1/2004; apresentador Donald Trump; participantes disputavam um emprego em empresas dele, com tarefas de negócios; cada episódio terminava com a eliminação de um deles e a frase "You're fired!" ("Você está demitido!"). Deixei de fora marca registrada e detalhes não confirmados. Sem opinião a favor/contra. Descrição: "Animação humorística. Personagens são caricaturas."
+**Passou:** conferir.sh OK (32 s, 1080x1920, 0 riscos); TV (objeto herói) no início e em close; mapa Estados Unidos; placa "VOCÊ ESTÁ DEMITIDO!"; multidão só POV; Trump caricato (cabelo amarelo, gravata vermelha) sem barba.
+**Não passou / limitações:** "vender coisas na rua" aparece só com um baú em cena (não há barraca/venda); "eliminado" não tem imagem própria; vídeo curto (32 s); uma transição esmaecida em ~28,5 s; cenário de rua repetido.
+**Refeito:** nenhuma cena no render. Antes: modelei `tv`; reescrevi para ter objeto herói, 2 grandes momentos e sem cena curta (os riscos da folha 2).
