@@ -118,5 +118,11 @@ false
 "kit/coin",
 1.5,
 false
+],
+[
+"\\bpias?\\b",
+"kit/sink",
+1.6,
+false
 ]
 ]
