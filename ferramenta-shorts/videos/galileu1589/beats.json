@@ -46,7 +46,8 @@
    "jacket": "#f4f4f4",
    "pants": "#f4f4f4",
    "boots": "#9a9a9a",
-   "hat": "helmet"
+   "hat": "helmet",
+   "cap": "#f4f4f4"
   }
  },
  "beats": [
@@ -240,13 +241,13 @@
      "tools/hammer",
      0.8,
      0.6,
-     1.2
+     1.8
     ],
     [
      "kit/feather",
      -0.8,
      0.6,
-     1.6
+     3.2
     ]
    ],
    "fx": [
@@ -257,7 +258,8 @@
     "ding@40",
     "thump@70"
    ],
-   "acao": "comemorar"
+   "acao": "comemorar",
+   "hora": "noite"
   },
   {
    "say": "No fim, até a pena deu razão ao Galileu.",

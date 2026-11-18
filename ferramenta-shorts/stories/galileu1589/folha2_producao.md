@@ -93,7 +93,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - Mas em mil novecentos e setenta e um, na Lua, um astronauta soltou um ...
-- Cenario: arctic | luz: day | clima: limpo
+- Cenario: arctic | luz: noite | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): AST (variante 0, expressao laugh); AST (variante 1, expressao shock) | multidao: 8 de AST
