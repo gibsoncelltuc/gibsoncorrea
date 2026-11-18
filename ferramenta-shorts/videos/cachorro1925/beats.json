@@ -1,0 +1,210 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Guerras Inusitadas",
+ "ep": 18,
+ "title": "A Guerra do Cão Fugitivo",
+ "titulo_base": "A Guerra do Cão Fugitivo",
+ "set": "mountain",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/dog",
+ "outfits": {
+  "GRE": {
+   "profissao": "soldado",
+   "jacket": "#2a5aa8",
+   "pants": "#f1efe6",
+   "boots": "#1b1b1f",
+   "hat": "helmet",
+   "rifle": true
+  },
+  "BUL": {
+   "profissao": "soldado",
+   "jacket": "#2a7a3a",
+   "pants": "#7a2a2a",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#2a7a3a",
+   "rifle": true
+  },
+  "PRE": {
+   "profissao": "politico",
+   "jacket": "#2a2a30",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "bowler",
+   "tie": "#2a5aa8"
+  },
+  "DIP": {
+   "profissao": "politico",
+   "jacket": "#4a4a50",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "tophat",
+   "tie": "#b0282f"
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "set": "mountain",
+   "who": [
+    "GRE:0:shock",
+    "BUL:0:neutral"
+   ],
+   "text": "1925",
+   "interacao": "discutir",
+   "acao": "discutir",
+   "say": "Um cachorro fugiu, e por causa dele dois países entraram em guerra, e dezenas de pessoas morreram.",
+   "props": [
+    [
+     "kit/dog",
+     1.4,
+     1.8,
+     1.4
+    ]
+   ],
+   "riscos_ok": true
+  },
+  {
+   "shot": "reveal",
+   "set": "mountain",
+   "who": [
+    "GRE:0:stern",
+    "BUL:0:stern"
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "GRE",
+     "BUL"
+    ],
+    "march": false
+   },
+   "mapa": "BULGÁRIA",
+   "mapa_at": 3,
+   "say": "Em mil novecentos e vinte e cinco, a fronteira entre a Grécia e a Bulgária era tensa, e os dois países viviam desconfiados."
+  },
+  {
+   "shot": "track",
+   "set": "mountain",
+   "who": [
+    "GRE:0:nervous",
+    "GRE:1:scared"
+   ],
+   "say": "Um soldado grego estava de guarda quando o cachorro dele fugiu para o outro lado da fronteira, atrás de nada.",
+   "props": [
+    [
+     "kit/dog",
+     3.0,
+     1.2,
+     1.4
+    ]
+   ],
+   "riscos_ok": true
+  },
+  {
+   "shot": "track",
+   "set": "mountain",
+   "who": [
+    "GRE:0:shout",
+    "GRE:1:angry"
+   ],
+   "say": "O soldado correu atrás do cachorro, e atravessou a fronteira sem pensar.",
+   "props": [
+    [
+     "kit/dog",
+     3.5,
+     1.0,
+     1.4
+    ]
+   ],
+   "riscos_ok": true
+  },
+  {
+   "shot": "two",
+   "set": "mountain",
+   "who": [
+    "BUL:0:angry",
+    "GRE:0:scared"
+   ],
+   "interacao": "empurrar",
+   "fx": [
+    "burst@60"
+   ],
+   "sfx": [
+    "gun@60"
+   ],
+   "say": "Do outro lado, uma sentinela búlgara viu um estranho armado, e atirou."
+  },
+  {
+   "shot": "two",
+   "set": "mountain",
+   "who": [
+    "GRE:0:sad",
+    "GRE:1:angry"
+   ],
+   "interacao": "susto",
+   "say": "Acontece que o soldado morreu, e a Grécia deu um ultimato furioso à Bulgária."
+  },
+  {
+   "shot": "crowd",
+   "set": "mountain",
+   "who": [
+    "GRE:0:angry",
+    "BUL:0:shout"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "GRE",
+     "BUL"
+    ],
+    "march": true,
+    "expr": "angry"
+   },
+   "text": "INVASÃO",
+   "titulo": true,
+   "say": "Poucos dias depois, o exército grego invadiu a Bulgária e ocupou a região de Petrich, e dezenas de pessoas morreram nos combates."
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "DIP:0:sad:paper",
+    "PRE:0:nervous"
+   ],
+   "interacao": "susto",
+   "say": "A Bulgária pediu ajuda à Liga das Nações, a antecessora da ONU."
+  },
+  {
+   "shot": "two",
+   "interior": "pedra",
+   "who": [
+    "PRE:0:stern:paper",
+    "DIP:0:relief"
+   ],
+   "interacao": "entregar",
+   "say": "A Liga mandou a Grécia parar, retirar as tropas e pagar uma indenização."
+  },
+  {
+   "shot": "close",
+   "set": "mountain",
+   "who": [
+    "GRE:0:sad"
+   ],
+   "say": "A Grécia obedeceu, e ninguém sabe o que aconteceu com o cachorro.",
+   "props": [
+    [
+     "kit/dog",
+     1.2,
+     0.5,
+     1.5
+    ]
+   ],
+   "riscos_ok": true
+  }
+ ]
+}

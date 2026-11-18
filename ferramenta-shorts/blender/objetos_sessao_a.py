@@ -65,3 +65,15 @@ torno((0, 0, 0), [(.01, 0), (.2, .01), (.23, .06), (.23, .62), (.2, .72), (.09, 
 cil((0, .35, 0), .25, .3, '#f1e6c8'); cil((0, .35, 0), .255, .05, '#b0282f'); bola((0, .38, .26), .06, '#d9a630', .4, rot=(math.pi / 2, 0, 0))
 cil((0, 1.18, 0), .095, .1, '#d9a630'); cil((0, 1.1, 0), .088, .03, '#b0282f')
 fim(.015)
+novo('dog')                                           # cachorro caramelo em pé (herói do EP 18): corpo de esferas, cabeça com focinho, orelhas caídas, pernas, rabo; olha para +x
+D1, D2, D3 = '#c98a4a', '#e8c48a', '#7a4a26'
+FL2 = (math.pi / 2, 0, 0)
+bola((-.1, .62, 0), .3, D1, .85); bola((.18, .64, 0), .28, D1, .9); bola((-.38, .6, 0), .22, D1, .9)       # tronco
+bola((.5, .92, 0), .24, D1); bola((.74, .84, 0), .13, D2, .8); bola((.86, .85, 0), .05, '#1b1b1f')           # cabeça, focinho, nariz
+for s in (1, -1):
+    bola((.58, .98, .13 * s), .05, '#f4f4ec'); bola((.6, .98, .16 * s), .025, '#111111')                    # olhos
+    bola((.42, .96, .22 * s), .11, D3, .35, rot=FL2)                                                         # orelhas
+    for x in (.32, -.34): cil((x, .22, .15 * s), .07, .44, D1); bola((x + .03, .03, .15 * s), .08, D2, .6)   # pernas e patas
+tubo([(-.55, .75, 0), (-.78, .95, 0), (-.9, 1.12, 0)], .045, D1)                                           # rabo
+bola((.1, .5, 0), .2, D2, .8)                                                                                # barriga
+fim(.02)
