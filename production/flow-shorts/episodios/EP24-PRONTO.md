@@ -5,6 +5,20 @@
 **Duração:** 6 clipes de 10 s = 60 s  
 **Fichas necessárias:** SHEET-LUNA, SHEET-PIPO, SHEET-BENTO (prompts em `FICHAS.md`; Bento, Luna, Tico, etc. já gerados não precisam repetir)
 
+## Mensagem educativa (o eixo do roteiro)
+
+- **A criança aprende:** esperar a vez de falar e escutar o amigo até o fim.
+- **Dica para os pais:** use um objeto da vez (uma colher) para quem estiver falando.
+- **Gancho dos 2 primeiros segundos:** a ação já está acontecendo no primeiro quadro (personagem sorrindo para a câmera e começando o gesto); o refrão entra na batida 1, sem introdução.
+- **Final em loop:** o último clipe repete o refrão e termina em tom positivo, o que incentiva rever.
+
+## Títulos com potencial de busca e curiosidade (teste A/B/C)
+
+- **A (busca direta):** 🗣️ Música Para Ensinar a Esperar o Amigo Falar: Um Fala, o Outro Escuta
+- **B (dor dos pais):** Seu Filho Interrompe Quando Fala? Essa Música Ensina! 🗣️
+- **C (nome da canção):** Um Fala, o Outro Escuta! 🗣️ Não Interromper | Educação Infantil
+- **Texto grande da miniatura:** NÃO INTERROMPER 🗣️
+
 ## Roteiro e letra (cena a cena)
 
 | Clipe | O que acontece | Letra (cantada) | Legenda (EN) |
@@ -159,8 +173,26 @@ After each video, check it frame by frame as in the SELF-CHECK. When all 6 are d
 
 ## Publicação
 
-- **Título:** 🗣️ Um Fala, o Outro Escuta | Música infantil sobre esperar a vez de falar #shorts
-- **Descrição:** A Luna, o Pipo e o Bento aprendem a esperar a vez de falar! 🗣️🐱🐥🐰
-- **Hashtags:** #shorts #infantil #musicainfantil #desenhoinfantil #educativo
+- **Título:** use o A, o B ou o C (veja acima; teste um de cada vez)
+- **Descrição pronta (copiar e colar):**
+
+```
+Seu Filho Interrompe Quando Fala? Essa Música Ensina! 🗣️
+
+📚 O QUE A CRIANÇA APRENDE: esperar a vez de falar e escutar o amigo até o fim.
+👨‍👩‍👧 DICA PARA OS PAIS: use um objeto da vez (uma colher) para quem estiver falando.
+🎵 Música infantil original, com letra para cantar junto e legenda em inglês.
+
+✅ Conteúdo educativo para crianças: comportamento, boas maneiras, hábitos saudáveis e rotina, com mensagem positiva e sem sustos.
+👉 Inscreva-se para receber uma nova lição cantada todos os dias!
+
+Palavras-chave: não interromper, esperar a vez de falar, boas maneiras, comportamento infantil, música educativa.
+
+#shorts #musicainfantil #educacaoinfantil #desenhoinfantil #comportamentoinfantil #paiseduca #educativo
+
+Aviso: vídeo animado criado com ferramentas de IA, com roteiro e música originais. Conteúdo feito para crianças.
+```
+
+- **Palavras-chave (campo de tags):** não interromper, esperar a vez de falar, boas maneiras, comportamento infantil, música educativa
 - **Público:** marcar "feito para crianças"
 - **Conteúdo sintético:** declarar uso de IA se o YouTube Studio pedir

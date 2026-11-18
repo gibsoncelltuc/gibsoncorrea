@@ -5,6 +5,20 @@
 **Duração:** 6 clipes de 10 s = 60 s  
 **Fichas necessárias:** SHEET-TICO, SHEET-OLIVIA (prompts em `FICHAS.md`; Bento, Luna, Tico, etc. já gerados não precisam repetir)
 
+## Mensagem educativa (o eixo do roteiro)
+
+- **A criança aprende:** comer sem pressa e mastigar bem.
+- **Dica para os pais:** sentem juntos à mesa, sem tela, e comam no mesmo ritmo calmo.
+- **Gancho dos 2 primeiros segundos:** a ação já está acontecendo no primeiro quadro (personagem sorrindo para a câmera e começando o gesto); o refrão entra na batida 1, sem introdução.
+- **Final em loop:** o último clipe repete o refrão e termina em tom positivo, o que incentiva rever.
+
+## Títulos com potencial de busca e curiosidade (teste A/B/C)
+
+- **A (busca direta):** 🍌 Música Para Criança Comer Devagar e Mastigar Bem
+- **B (dor dos pais):** Seu Filho Come Muito Rápido? Essa Música Ensina a Mastigar! 🍌
+- **C (nome da canção):** Mastiga, Mastiga! 🍌 Comer Devagar | Educação Alimentar Infantil
+- **Texto grande da miniatura:** COME DEVAGAR! 🍌
+
 ## Roteiro e letra (cena a cena)
 
 | Clipe | O que acontece | Letra (cantada) | Legenda (EN) |
@@ -157,8 +171,26 @@ After each video, check it frame by frame as in the SELF-CHECK. When all 6 are d
 
 ## Publicação
 
-- **Título:** 🍌 Mastiga, Mastiga | Música infantil sobre comer devagar #shorts
-- **Descrição:** O Tico e a coruja Olívia ensinam a mastigar devagarinho! 🍌🐵🦉
-- **Hashtags:** #shorts #infantil #musicainfantil #desenhoinfantil #educativo
+- **Título:** use o A, o B ou o C (veja acima; teste um de cada vez)
+- **Descrição pronta (copiar e colar):**
+
+```
+Seu Filho Come Muito Rápido? Essa Música Ensina a Mastigar! 🍌
+
+📚 O QUE A CRIANÇA APRENDE: comer sem pressa e mastigar bem.
+👨‍👩‍👧 DICA PARA OS PAIS: sentem juntos à mesa, sem tela, e comam no mesmo ritmo calmo.
+🎵 Música infantil original, com letra para cantar junto e legenda em inglês.
+
+✅ Conteúdo educativo para crianças: comportamento, boas maneiras, hábitos saudáveis e rotina, com mensagem positiva e sem sustos.
+👉 Inscreva-se para receber uma nova lição cantada todos os dias!
+
+Palavras-chave: mastigar bem, comer devagar, alimentação infantil, hábitos saudáveis, música educativa.
+
+#shorts #musicainfantil #educacaoinfantil #desenhoinfantil #comportamentoinfantil #paiseduca #educativo
+
+Aviso: vídeo animado criado com ferramentas de IA, com roteiro e música originais. Conteúdo feito para crianças.
+```
+
+- **Palavras-chave (campo de tags):** mastigar bem, comer devagar, alimentação infantil, hábitos saudáveis, música educativa
 - **Público:** marcar "feito para crianças"
 - **Conteúdo sintético:** declarar uso de IA se o YouTube Studio pedir

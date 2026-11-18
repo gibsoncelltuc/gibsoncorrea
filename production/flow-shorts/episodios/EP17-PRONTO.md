@@ -5,6 +5,20 @@
 **Duração:** 6 clipes de 10 s = 60 s  
 **Fichas necessárias:** SHEET-DAVI, SHEET-TICO (prompts em `FICHAS.md`; Bento, Luna, Tico, etc. já gerados não precisam repetir)
 
+## Mensagem educativa (o eixo do roteiro)
+
+- **A criança aprende:** usar chapéu, ficar na sombra e beber água no sol forte.
+- **Dica para os pais:** crie o hábito: chapéu e água antes de sair; siga a orientação do pediatra para protetor solar.
+- **Gancho dos 2 primeiros segundos:** a ação já está acontecendo no primeiro quadro (personagem sorrindo para a câmera e começando o gesto); o refrão entra na batida 1, sem introdução.
+- **Final em loop:** o último clipe repete o refrão e termina em tom positivo, o que incentiva rever.
+
+## Títulos com potencial de busca e curiosidade (teste A/B/C)
+
+- **A (busca direta):** 🧢 Música Sobre Proteção do Sol: Chapéu, Sombra e Água
+- **B (dor dos pais):** Como Proteger a Criança do Sol? Essa Música Ensina! 🧢
+- **C (nome da canção):** Chapéu no Sol! ☀️ Cuidados no Verão | Música Infantil Educativa
+- **Texto grande da miniatura:** CUIDADO COM O SOL ☀️
+
 ## Roteiro e letra (cena a cena)
 
 | Clipe | O que acontece | Letra (cantada) | Legenda (EN) |
@@ -157,8 +171,26 @@ After each video, check it frame by frame as in the SELF-CHECK. When all 6 are d
 
 ## Publicação
 
-- **Título:** 🧢 Chapéu no Sol | Música infantil sobre proteção do sol #shorts
-- **Descrição:** O Davi e o Tico aprendem a se proteger do sol! 🧢☀️👦🐵
-- **Hashtags:** #shorts #infantil #musicainfantil #desenhoinfantil #educativo
+- **Título:** use o A, o B ou o C (veja acima; teste um de cada vez)
+- **Descrição pronta (copiar e colar):**
+
+```
+Como Proteger a Criança do Sol? Essa Música Ensina! 🧢
+
+📚 O QUE A CRIANÇA APRENDE: usar chapéu, ficar na sombra e beber água no sol forte.
+👨‍👩‍👧 DICA PARA OS PAIS: crie o hábito: chapéu e água antes de sair; siga a orientação do pediatra para protetor solar.
+🎵 Música infantil original, com letra para cantar junto e legenda em inglês.
+
+✅ Conteúdo educativo para crianças: comportamento, boas maneiras, hábitos saudáveis e rotina, com mensagem positiva e sem sustos.
+👉 Inscreva-se para receber uma nova lição cantada todos os dias!
+
+Palavras-chave: proteção solar, cuidados no verão, saúde infantil, música educativa, hábitos saudáveis.
+
+#shorts #musicainfantil #educacaoinfantil #desenhoinfantil #comportamentoinfantil #paiseduca #educativo
+
+Aviso: vídeo animado criado com ferramentas de IA, com roteiro e música originais. Conteúdo feito para crianças.
+```
+
+- **Palavras-chave (campo de tags):** proteção solar, cuidados no verão, saúde infantil, música educativa, hábitos saudáveis
 - **Público:** marcar "feito para crianças"
 - **Conteúdo sintético:** declarar uso de IA se o YouTube Studio pedir

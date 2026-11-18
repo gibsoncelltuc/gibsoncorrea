@@ -1,6 +1,6 @@
-# 30 Shorts didáticos (Bento e Amigos)
+# 51 Shorts didáticos (Bento e Amigos)
 
-Ordem sugerida de publicação: 1 por dia. Os 1 a 10 têm prompts em `episodios/EPNN-*.md` (versão inicial) e `EP04-*` etc.; os 11 a 30 estão **prontos para colar** em `episodios/EPNN-PRONTO.md`.
+Ordem sugerida de publicação: 1 por dia. Os 1 a 10 têm prompts em `episodios/EPNN-*.md` (versão inicial) e `EP04-*` etc.; os 11 a 51 estão **prontos para colar** em `episodios/EPNN-PRONTO.md`. Títulos e descrições de todos em `TITULOS-E-DESCRICOES.md`.
 
 | # | Título | Lição | Personagens |
 |---|---|---|---|
@@ -34,5 +34,26 @@ Ordem sugerida de publicação: 1 por dia. Os 1 a 10 têm prompts em `episodios/
 | 28 | Hora do Banho | Tomar banho e ficar limpinho | Pipo, Bento |
 | 29 | Cuidar do Bichinho | Cuidar de um animalzinho com carinho | Nina, Luna |
 | 30 | Foco na Lição | Foco e concentração para fazer a lição | Davi, Olívia |
+| 31 | Mamãe e Papai: As Primeiras Palavrinhas | Primeiras palavras do bebê: mamãe e papai (fala, imitação e carinho) | Bentinho, Mamãe, Papai |
+| 32 | Quando a Mamãe Chama | Obedecer: vir quando os pais chamam e escutar com respeito | Bento, Mamãe |
+| 33 | Mãozinha Que Faz Carinho | Não bater: usar as mãos para fazer carinho e pedir com gentileza | Luna, Tico |
+| 34 | Voz Baixinha | Falar baixo e não gritar (voz de dentro) | Pipo, Nina |
+| 35 | Eu Aviso Quando Preciso | Avisar e usar o banheiro, dar descarga e lavar as mãos | Tico, Olívia |
+| 36 | Com Palavras, Não Com Choro | Pedir o que quer com palavras e expressar sentimentos | Nina, Bento |
+| 37 | Isso Não É Meu | Respeitar o que é dos outros: pedir antes de pegar | Luna, Davi |
+| 38 | Tela Desligada, Vamos Brincar! | Equilibrar o tempo de tela com brincadeiras | Davi, Tico |
+| 39 | Fico Pertinho da Mamãe | Ficar perto dos pais em lugares movimentados (mercado) | Bento, Mamãe |
+| 40 | Remedinho É Com o Adulto | Segurança: não mexer em remédios ou produtos sem um adulto | Nina, Olívia |
+| 41 | Espirrei! No Cotovelo | Espirrar e tossir no cotovelo e lavar as mãos | Davi, Luna |
+| 42 | Bom Dia, Minha Rotina! | Rotina da manhã: acordar, se arrumar, café da manhã e sair | Bento, Pipo |
+| 43 | Abraço Apertado, Eu Te Amo! | Demonstrar carinho: abraçar e dizer eu te amo | Bento, Mamãe, Papai |
+| 44 | Perdi, E Tudo Bem! | Lidar com derrota: perder faz parte e dá pra tentar de novo | Davi, Luna |
+| 45 | Eu Peço Ajuda! | Pedir ajuda quando precisar e aceitar ajuda com gratidão | Nina, Tico |
+| 46 | Conta Comigo: de 1 a 10 | Contar de 1 a 10 com frutinhas (educativo e foco) | Pipo, Tico |
+| 47 | Eu Não Saio Sem Avisar | Avisar os pais antes de sair: segurança e responsabilidade | Bento, Papai |
+| 48 | Fecha a Torneira! | Economizar água: fechar a torneira e cuidar do planeta | Davi, Pipo |
+| 49 | Não, Obrigado! | Recusar com educação: dizer não, obrigado com gentileza | Luna, Nina |
+| 50 | Tô Triste e Posso Falar | Reconhecer e falar sobre os sentimentos (tristeza, alegria, raiva, medo) | Tico, Olívia |
+| 51 | Eu Posso Tentar de Novo | Persistência: tentar de novo sem desistir (blocos) | Davi, Bento |
 
 Já produzidos: 1, 2 e 4 (vídeos finais em `out/`). O 3 foi pulado a seu pedido.

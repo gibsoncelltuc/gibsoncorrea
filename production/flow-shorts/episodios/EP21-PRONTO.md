@@ -5,6 +5,20 @@
 **Duração:** 6 clipes de 10 s = 60 s  
 **Fichas necessárias:** SHEET-DAVI, SHEET-NINA, SHEET-OLIVIA (prompts em `FICHAS.md`; Bento, Luna, Tico, etc. já gerados não precisam repetir)
 
+## Mensagem educativa (o eixo do roteiro)
+
+- **A criança aprende:** respeitar e ajudar os mais velhos com gentileza.
+- **Dica para os pais:** convide a criança a ajudar um avô ou vizinho com algo pequeno.
+- **Gancho dos 2 primeiros segundos:** a ação já está acontecendo no primeiro quadro (personagem sorrindo para a câmera e começando o gesto); o refrão entra na batida 1, sem introdução.
+- **Final em loop:** o último clipe repete o refrão e termina em tom positivo, o que incentiva rever.
+
+## Títulos com potencial de busca e curiosidade (teste A/B/C)
+
+- **A (busca direta):** 🧺 Música Para Ensinar a Respeitar os Mais Velhos: Ajudo a Vovó
+- **B (dor dos pais):** Como Ensinar a Criança a Respeitar os Mais Velhos? Essa Música Mostra! 🧺
+- **C (nome da canção):** Ajudo a Vovó! 🧺 Respeito e Gentileza Para Crianças | Valores
+- **Texto grande da miniatura:** RESPEITAR OS MAIS VELHOS 🧺
+
 ## Roteiro e letra (cena a cena)
 
 | Clipe | O que acontece | Letra (cantada) | Legenda (EN) |
@@ -159,8 +173,26 @@ After each video, check it frame by frame as in the SELF-CHECK. When all 6 are d
 
 ## Publicação
 
-- **Título:** 🧺 Ajudo a Vovó | Música infantil sobre respeitar os mais velhos #shorts
-- **Descrição:** O Davi e a Nina ajudam a vovó Olívia! 🧺👦👧🦉
-- **Hashtags:** #shorts #infantil #musicainfantil #desenhoinfantil #educativo
+- **Título:** use o A, o B ou o C (veja acima; teste um de cada vez)
+- **Descrição pronta (copiar e colar):**
+
+```
+Como Ensinar a Criança a Respeitar os Mais Velhos? Essa Música Mostra! 🧺
+
+📚 O QUE A CRIANÇA APRENDE: respeitar e ajudar os mais velhos com gentileza.
+👨‍👩‍👧 DICA PARA OS PAIS: convide a criança a ajudar um avô ou vizinho com algo pequeno.
+🎵 Música infantil original, com letra para cantar junto e legenda em inglês.
+
+✅ Conteúdo educativo para crianças: comportamento, boas maneiras, hábitos saudáveis e rotina, com mensagem positiva e sem sustos.
+👉 Inscreva-se para receber uma nova lição cantada todos os dias!
+
+Palavras-chave: respeito aos mais velhos, gentileza, valores infantis, educação infantil, música educativa.
+
+#shorts #musicainfantil #educacaoinfantil #desenhoinfantil #comportamentoinfantil #paiseduca #educativo
+
+Aviso: vídeo animado criado com ferramentas de IA, com roteiro e música originais. Conteúdo feito para crianças.
+```
+
+- **Palavras-chave (campo de tags):** respeito aos mais velhos, gentileza, valores infantis, educação infantil, música educativa
 - **Público:** marcar "feito para crianças"
 - **Conteúdo sintético:** declarar uso de IA se o YouTube Studio pedir

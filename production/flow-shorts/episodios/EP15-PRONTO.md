@@ -5,6 +5,20 @@
 **Duração:** 6 clipes de 10 s = 60 s  
 **Fichas necessárias:** SHEET-PIPO, SHEET-NINA (prompts em `FICHAS.md`; Bento, Luna, Tico, etc. já gerados não precisam repetir)
 
+## Mensagem educativa (o eixo do roteiro)
+
+- **A criança aprende:** beber água ao longo do dia para ter energia.
+- **Dica para os pais:** deixe um copinho ou garrafa ao alcance e beba junto com a criança.
+- **Gancho dos 2 primeiros segundos:** a ação já está acontecendo no primeiro quadro (personagem sorrindo para a câmera e começando o gesto); o refrão entra na batida 1, sem introdução.
+- **Final em loop:** o último clipe repete o refrão e termina em tom positivo, o que incentiva rever.
+
+## Títulos com potencial de busca e curiosidade (teste A/B/C)
+
+- **A (busca direta):** 💧 Música Para Criança Beber Água: Água, Água!
+- **B (dor dos pais):** Seu Filho Não Bebe Água? Coloque Esta Música! 💧
+- **C (nome da canção):** Água, Água! 💧 Beber Água Faz Bem | Hábitos Saudáveis Para Crianças
+- **Texto grande da miniatura:** BEBE ÁGUA! 💧
+
 ## Roteiro e letra (cena a cena)
 
 | Clipe | O que acontece | Letra (cantada) | Legenda (EN) |
@@ -157,8 +171,26 @@ After each video, check it frame by frame as in the SELF-CHECK. When all 6 are d
 
 ## Publicação
 
-- **Título:** 💧 Água, Água | Música infantil sobre beber água #shorts
-- **Descrição:** O Pipo e a Nina aprendem a beber água! 💧🐥👧
-- **Hashtags:** #shorts #infantil #musicainfantil #desenhoinfantil #educativo
+- **Título:** use o A, o B ou o C (veja acima; teste um de cada vez)
+- **Descrição pronta (copiar e colar):**
+
+```
+Seu Filho Não Bebe Água? Coloque Esta Música! 💧
+
+📚 O QUE A CRIANÇA APRENDE: beber água ao longo do dia para ter energia.
+👨‍👩‍👧 DICA PARA OS PAIS: deixe um copinho ou garrafa ao alcance e beba junto com a criança.
+🎵 Música infantil original, com letra para cantar junto e legenda em inglês.
+
+✅ Conteúdo educativo para crianças: comportamento, boas maneiras, hábitos saudáveis e rotina, com mensagem positiva e sem sustos.
+👉 Inscreva-se para receber uma nova lição cantada todos os dias!
+
+Palavras-chave: beber água, hábitos saudáveis, saúde infantil, música educativa, desenho infantil.
+
+#shorts #musicainfantil #educacaoinfantil #desenhoinfantil #comportamentoinfantil #paiseduca #educativo
+
+Aviso: vídeo animado criado com ferramentas de IA, com roteiro e música originais. Conteúdo feito para crianças.
+```
+
+- **Palavras-chave (campo de tags):** beber água, hábitos saudáveis, saúde infantil, música educativa, desenho infantil
 - **Público:** marcar "feito para crianças"
 - **Conteúdo sintético:** declarar uso de IA se o YouTube Studio pedir

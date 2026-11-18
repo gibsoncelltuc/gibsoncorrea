@@ -5,6 +5,20 @@
 **Duração:** 6 clipes de 10 s = 60 s  
 **Fichas necessárias:** SHEET-NINA, SHEET-LUNA (prompts em `FICHAS.md`; Bento, Luna, Tico, etc. já gerados não precisam repetir)
 
+## Mensagem educativa (o eixo do roteiro)
+
+- **A criança aprende:** cuidar de um animal com carinho, água, comida e escova.
+- **Dica para os pais:** ensine a tocar com delicadeza e a respeitar o espaço do animal.
+- **Gancho dos 2 primeiros segundos:** a ação já está acontecendo no primeiro quadro (personagem sorrindo para a câmera e começando o gesto); o refrão entra na batida 1, sem introdução.
+- **Final em loop:** o último clipe repete o refrão e termina em tom positivo, o que incentiva rever.
+
+## Títulos com potencial de busca e curiosidade (teste A/B/C)
+
+- **A (busca direta):** 🐾 Música Para Ensinar a Cuidar dos Animais: Cuidar do Bichinho
+- **B (dor dos pais):** Como Ensinar a Criança a Cuidar de Um Bichinho? Essa Música Mostra! 🐾
+- **C (nome da canção):** Cuidar do Bichinho 🐾 Amor e Responsabilidade | Música Infantil Educativa
+- **Texto grande da miniatura:** CUIDAR DO BICHINHO 🐾
+
 ## Roteiro e letra (cena a cena)
 
 | Clipe | O que acontece | Letra (cantada) | Legenda (EN) |
@@ -157,8 +171,26 @@ After each video, check it frame by frame as in the SELF-CHECK. When all 6 are d
 
 ## Publicação
 
-- **Título:** 🐾 Cuidar do Bichinho | Música infantil sobre cuidar dos animais #shorts
-- **Descrição:** A Nina cuida da gatinha Luna com muito carinho! 🐾👧🐱
-- **Hashtags:** #shorts #infantil #musicainfantil #desenhoinfantil #educativo
+- **Título:** use o A, o B ou o C (veja acima; teste um de cada vez)
+- **Descrição pronta (copiar e colar):**
+
+```
+Como Ensinar a Criança a Cuidar de Um Bichinho? Essa Música Mostra! 🐾
+
+📚 O QUE A CRIANÇA APRENDE: cuidar de um animal com carinho, água, comida e escova.
+👨‍👩‍👧 DICA PARA OS PAIS: ensine a tocar com delicadeza e a respeitar o espaço do animal.
+🎵 Música infantil original, com letra para cantar junto e legenda em inglês.
+
+✅ Conteúdo educativo para crianças: comportamento, boas maneiras, hábitos saudáveis e rotina, com mensagem positiva e sem sustos.
+👉 Inscreva-se para receber uma nova lição cantada todos os dias!
+
+Palavras-chave: cuidar de animais, responsabilidade infantil, amor aos animais, música educativa, pets para crianças.
+
+#shorts #musicainfantil #educacaoinfantil #desenhoinfantil #comportamentoinfantil #paiseduca #educativo
+
+Aviso: vídeo animado criado com ferramentas de IA, com roteiro e música originais. Conteúdo feito para crianças.
+```
+
+- **Palavras-chave (campo de tags):** cuidar de animais, responsabilidade infantil, amor aos animais, música educativa, pets para crianças
 - **Público:** marcar "feito para crianças"
 - **Conteúdo sintético:** declarar uso de IA se o YouTube Studio pedir

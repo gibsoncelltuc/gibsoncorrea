@@ -5,6 +5,20 @@
 **Duração:** 6 clipes de 10 s = 60 s  
 **Fichas necessárias:** SHEET-OLIVIA, SHEET-BENTO, SHEET-PIPO (prompts em `FICHAS.md`; Bento, Luna, Tico, etc. já gerados não precisam repetir)
 
+## Mensagem educativa (o eixo do roteiro)
+
+- **A criança aprende:** ouvir com atenção, levantar a mão e esperar a vez de falar.
+- **Dica para os pais:** pratique o 'jogo do silêncio' de 30 segundos e depois converse sobre o que escutaram.
+- **Gancho dos 2 primeiros segundos:** a ação já está acontecendo no primeiro quadro (personagem sorrindo para a câmera e começando o gesto); o refrão entra na batida 1, sem introdução.
+- **Final em loop:** o último clipe repete o refrão e termina em tom positivo, o que incentiva rever.
+
+## Títulos com potencial de busca e curiosidade (teste A/B/C)
+
+- **A (busca direta):** 👂 Música Para Ensinar a Ouvir com Atenção: Escutar e Esperar a Vez de Falar
+- **B (dor dos pais):** Seu Filho Não Escuta? Essa Música Ensina a Ouvir com Atenção! 👂
+- **C (nome da canção):** Ouvidinho Atento! 👂 Atenção na Escola | Comportamento Infantil
+- **Texto grande da miniatura:** OUVIR COM ATENÇÃO 👂
+
 ## Roteiro e letra (cena a cena)
 
 | Clipe | O que acontece | Letra (cantada) | Legenda (EN) |
@@ -159,8 +173,26 @@ After each video, check it frame by frame as in the SELF-CHECK. When all 6 are d
 
 ## Publicação
 
-- **Título:** 👂 Ouvidinho Atento | Música infantil sobre escutar #shorts
-- **Descrição:** A professora Olívia ensina o Bento e o Pipo a escutar! 👂🦉🐰🐥
-- **Hashtags:** #shorts #infantil #musicainfantil #desenhoinfantil #educativo
+- **Título:** use o A, o B ou o C (veja acima; teste um de cada vez)
+- **Descrição pronta (copiar e colar):**
+
+```
+Seu Filho Não Escuta? Essa Música Ensina a Ouvir com Atenção! 👂
+
+📚 O QUE A CRIANÇA APRENDE: ouvir com atenção, levantar a mão e esperar a vez de falar.
+👨‍👩‍👧 DICA PARA OS PAIS: pratique o 'jogo do silêncio' de 30 segundos e depois converse sobre o que escutaram.
+🎵 Música infantil original, com letra para cantar junto e legenda em inglês.
+
+✅ Conteúdo educativo para crianças: comportamento, boas maneiras, hábitos saudáveis e rotina, com mensagem positiva e sem sustos.
+👉 Inscreva-se para receber uma nova lição cantada todos os dias!
+
+Palavras-chave: ouvir com atenção, atenção infantil, comportamento na escola, música educativa, disciplina infantil.
+
+#shorts #musicainfantil #educacaoinfantil #desenhoinfantil #comportamentoinfantil #paiseduca #educativo
+
+Aviso: vídeo animado criado com ferramentas de IA, com roteiro e música originais. Conteúdo feito para crianças.
+```
+
+- **Palavras-chave (campo de tags):** ouvir com atenção, atenção infantil, comportamento na escola, música educativa, disciplina infantil
 - **Público:** marcar "feito para crianças"
 - **Conteúdo sintético:** declarar uso de IA se o YouTube Studio pedir

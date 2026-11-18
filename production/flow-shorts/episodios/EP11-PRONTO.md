@@ -5,6 +5,20 @@
 **Duração:** 6 clipes de 10 s = 60 s  
 **Fichas necessárias:** SHEET-BENTO, SHEET-TICO (prompts em `FICHAS.md`; Bento, Luna, Tico, etc. já gerados não precisam repetir)
 
+## Mensagem educativa (o eixo do roteiro)
+
+- **A criança aprende:** jogar o lixo no lixo e cuidar do parque e da natureza.
+- **Dica para os pais:** dê o exemplo: leve a embalagem até a lixeira junto com a criança.
+- **Gancho dos 2 primeiros segundos:** a ação já está acontecendo no primeiro quadro (personagem sorrindo para a câmera e começando o gesto); o refrão entra na batida 1, sem introdução.
+- **Final em loop:** o último clipe repete o refrão e termina em tom positivo, o que incentiva rever.
+
+## Títulos com potencial de busca e curiosidade (teste A/B/C)
+
+- **A (busca direta):** 🌳 Música Para Ensinar a Jogar o Lixo no Lixo: Cuidar do Planeta
+- **B (dor dos pais):** Como Ensinar a Criança a Não Jogar Lixo no Chão? Essa Música Mostra! 🌳
+- **C (nome da canção):** Lixo no Lixo! ♻️ Educação Ambiental Para Crianças
+- **Texto grande da miniatura:** LIXO NO LIXO! ♻️
+
 ## Roteiro e letra (cena a cena)
 
 | Clipe | O que acontece | Letra (cantada) | Legenda (EN) |
@@ -157,8 +171,26 @@ After each video, check it frame by frame as in the SELF-CHECK. When all 6 are d
 
 ## Publicação
 
-- **Título:** 🌳 Lixo no Lixo | Música infantil para cuidar do parque #shorts
-- **Descrição:** O Bento e o Tico ensinam a jogar o lixo no lixo! 🌳🐰🐵
-- **Hashtags:** #shorts #infantil #musicainfantil #desenhoinfantil #educativo
+- **Título:** use o A, o B ou o C (veja acima; teste um de cada vez)
+- **Descrição pronta (copiar e colar):**
+
+```
+Como Ensinar a Criança a Não Jogar Lixo no Chão? Essa Música Mostra! 🌳
+
+📚 O QUE A CRIANÇA APRENDE: jogar o lixo no lixo e cuidar do parque e da natureza.
+👨‍👩‍👧 DICA PARA OS PAIS: dê o exemplo: leve a embalagem até a lixeira junto com a criança.
+🎵 Música infantil original, com letra para cantar junto e legenda em inglês.
+
+✅ Conteúdo educativo para crianças: comportamento, boas maneiras, hábitos saudáveis e rotina, com mensagem positiva e sem sustos.
+👉 Inscreva-se para receber uma nova lição cantada todos os dias!
+
+Palavras-chave: educação ambiental, jogar lixo no lixo, cuidar do planeta, música infantil, reciclagem para crianças.
+
+#shorts #musicainfantil #educacaoinfantil #desenhoinfantil #comportamentoinfantil #paiseduca #educativo
+
+Aviso: vídeo animado criado com ferramentas de IA, com roteiro e música originais. Conteúdo feito para crianças.
+```
+
+- **Palavras-chave (campo de tags):** educação ambiental, jogar lixo no lixo, cuidar do planeta, música infantil, reciclagem para crianças
 - **Público:** marcar "feito para crianças"
 - **Conteúdo sintético:** declarar uso de IA se o YouTube Studio pedir

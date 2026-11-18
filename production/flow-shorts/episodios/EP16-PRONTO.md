@@ -5,6 +5,20 @@
 **Duração:** 6 clipes de 10 s = 60 s  
 **Fichas necessárias:** SHEET-DAVI, SHEET-BENTO (prompts em `FICHAS.md`; Bento, Luna, Tico, etc. já gerados não precisam repetir)
 
+## Mensagem educativa (o eixo do roteiro)
+
+- **A criança aprende:** calçar o tênis sozinho e ganhar independência.
+- **Dica para os pais:** dê tempo extra e deixe tentar; comemore cada passo.
+- **Gancho dos 2 primeiros segundos:** a ação já está acontecendo no primeiro quadro (personagem sorrindo para a câmera e começando o gesto); o refrão entra na batida 1, sem introdução.
+- **Final em loop:** o último clipe repete o refrão e termina em tom positivo, o que incentiva rever.
+
+## Títulos com potencial de busca e curiosidade (teste A/B/C)
+
+- **A (busca direta):** 👟 Música Para Ensinar a Calçar o Tênis Sozinho: Independência Infantil
+- **B (dor dos pais):** Como Ensinar a Criança a Calçar o Tênis Sozinha? Essa Música Ajuda! 👟
+- **C (nome da canção):** Eu Calço Sozinho! 👟 Autonomia e Independência Para Crianças
+- **Texto grande da miniatura:** EU CALÇO SOZINHO! 👟
+
 ## Roteiro e letra (cena a cena)
 
 | Clipe | O que acontece | Letra (cantada) | Legenda (EN) |
@@ -157,8 +171,26 @@ After each video, check it frame by frame as in the SELF-CHECK. When all 6 are d
 
 ## Publicação
 
-- **Título:** 👟 Eu Calço Sozinho | Música infantil sobre independência #shorts
-- **Descrição:** O Davi e o Bento aprendem a calçar o tênis sozinhos! 👟👦🐰
-- **Hashtags:** #shorts #infantil #musicainfantil #desenhoinfantil #educativo
+- **Título:** use o A, o B ou o C (veja acima; teste um de cada vez)
+- **Descrição pronta (copiar e colar):**
+
+```
+Como Ensinar a Criança a Calçar o Tênis Sozinha? Essa Música Ajuda! 👟
+
+📚 O QUE A CRIANÇA APRENDE: calçar o tênis sozinho e ganhar independência.
+👨‍👩‍👧 DICA PARA OS PAIS: dê tempo extra e deixe tentar; comemore cada passo.
+🎵 Música infantil original, com letra para cantar junto e legenda em inglês.
+
+✅ Conteúdo educativo para crianças: comportamento, boas maneiras, hábitos saudáveis e rotina, com mensagem positiva e sem sustos.
+👉 Inscreva-se para receber uma nova lição cantada todos os dias!
+
+Palavras-chave: independência infantil, autonomia, calçar o tênis, música educativa, desenvolvimento infantil.
+
+#shorts #musicainfantil #educacaoinfantil #desenhoinfantil #comportamentoinfantil #paiseduca #educativo
+
+Aviso: vídeo animado criado com ferramentas de IA, com roteiro e música originais. Conteúdo feito para crianças.
+```
+
+- **Palavras-chave (campo de tags):** independência infantil, autonomia, calçar o tênis, música educativa, desenvolvimento infantil
 - **Público:** marcar "feito para crianças"
 - **Conteúdo sintético:** declarar uso de IA se o YouTube Studio pedir

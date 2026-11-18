@@ -5,6 +5,20 @@
 **Duração:** 6 clipes de 10 s = 60 s  
 **Fichas necessárias:** SHEET-BENTO, SHEET-TICO (prompts em `FICHAS.md`; Bento, Luna, Tico, etc. já gerados não precisam repetir)
 
+## Mensagem educativa (o eixo do roteiro)
+
+- **A criança aprende:** usar o cinto de segurança e a cadeirinha em todos os trajetos.
+- **Dica para os pais:** cante a música antes de ligar o carro; 'clique' vira o sinal de partida.
+- **Gancho dos 2 primeiros segundos:** a ação já está acontecendo no primeiro quadro (personagem sorrindo para a câmera e começando o gesto); o refrão entra na batida 1, sem introdução.
+- **Final em loop:** o último clipe repete o refrão e termina em tom positivo, o que incentiva rever.
+
+## Títulos com potencial de busca e curiosidade (teste A/B/C)
+
+- **A (busca direta):** 🚗 Música Para o Cinto de Segurança: Clique, Cinto!
+- **B (dor dos pais):** Seu Filho Não Quer Usar o Cinto? Essa Música Ensina! 🚗
+- **C (nome da canção):** Clique, Cinto! 🚗 Segurança no Carro Para Crianças | Música Educativa
+- **Texto grande da miniatura:** CLIQUE, CINTO! 🚗
+
 ## Roteiro e letra (cena a cena)
 
 | Clipe | O que acontece | Letra (cantada) | Legenda (EN) |
@@ -157,8 +171,26 @@ After each video, check it frame by frame as in the SELF-CHECK. When all 6 are d
 
 ## Publicação
 
-- **Título:** 🚗 Clique, Cinto! | Música infantil sobre segurança no carro #shorts
-- **Descrição:** O Bento e o Tico ensinam a usar o cinto de segurança! 🚗🐰🐵
-- **Hashtags:** #shorts #infantil #musicainfantil #desenhoinfantil #educativo
+- **Título:** use o A, o B ou o C (veja acima; teste um de cada vez)
+- **Descrição pronta (copiar e colar):**
+
+```
+Seu Filho Não Quer Usar o Cinto? Essa Música Ensina! 🚗
+
+📚 O QUE A CRIANÇA APRENDE: usar o cinto de segurança e a cadeirinha em todos os trajetos.
+👨‍👩‍👧 DICA PARA OS PAIS: cante a música antes de ligar o carro; 'clique' vira o sinal de partida.
+🎵 Música infantil original, com letra para cantar junto e legenda em inglês.
+
+✅ Conteúdo educativo para crianças: comportamento, boas maneiras, hábitos saudáveis e rotina, com mensagem positiva e sem sustos.
+👉 Inscreva-se para receber uma nova lição cantada todos os dias!
+
+Palavras-chave: cinto de segurança, segurança no carro, segurança infantil, música educativa, cadeirinha.
+
+#shorts #musicainfantil #educacaoinfantil #desenhoinfantil #comportamentoinfantil #paiseduca #educativo
+
+Aviso: vídeo animado criado com ferramentas de IA, com roteiro e música originais. Conteúdo feito para crianças.
+```
+
+- **Palavras-chave (campo de tags):** cinto de segurança, segurança no carro, segurança infantil, música educativa, cadeirinha
 - **Público:** marcar "feito para crianças"
 - **Conteúdo sintético:** declarar uso de IA se o YouTube Studio pedir

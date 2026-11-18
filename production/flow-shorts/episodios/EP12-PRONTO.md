@@ -5,6 +5,20 @@
 **Duração:** 6 clipes de 10 s = 60 s  
 **Fichas necessárias:** SHEET-NINA, SHEET-DAVI, SHEET-PIPO (prompts em `FICHAS.md`; Bento, Luna, Tico, etc. já gerados não precisam repetir)
 
+## Mensagem educativa (o eixo do roteiro)
+
+- **A criança aprende:** cumprimentar com um sorriso: bom dia, boa tarde, boa noite.
+- **Dica para os pais:** cumprimente a criança todos os dias; ela aprende imitando você.
+- **Gancho dos 2 primeiros segundos:** a ação já está acontecendo no primeiro quadro (personagem sorrindo para a câmera e começando o gesto); o refrão entra na batida 1, sem introdução.
+- **Final em loop:** o último clipe repete o refrão e termina em tom positivo, o que incentiva rever.
+
+## Títulos com potencial de busca e curiosidade (teste A/B/C)
+
+- **A (busca direta):** ☀️ Música Para Ensinar a Dar Bom Dia: Educação Infantil
+- **B (dor dos pais):** Seu Filho Tem Vergonha de Dar Bom Dia? Essa Música Ajuda! ☀️
+- **C (nome da canção):** Bom Dia! Quanta Alegria 😊 Como Cumprimentar | Boas Maneiras Infantil
+- **Texto grande da miniatura:** BOM DIA! ☀️
+
 ## Roteiro e letra (cena a cena)
 
 | Clipe | O que acontece | Letra (cantada) | Legenda (EN) |
@@ -159,8 +173,26 @@ After each video, check it frame by frame as in the SELF-CHECK. When all 6 are d
 
 ## Publicação
 
-- **Título:** ☀️ Bom Dia! | Música infantil sobre educação #shorts
-- **Descrição:** A Nina, o Davi e o Pipo ensinam a dizer bom dia! ☀️👧👦🐥
-- **Hashtags:** #shorts #infantil #musicainfantil #desenhoinfantil #educativo
+- **Título:** use o A, o B ou o C (veja acima; teste um de cada vez)
+- **Descrição pronta (copiar e colar):**
+
+```
+Seu Filho Tem Vergonha de Dar Bom Dia? Essa Música Ajuda! ☀️
+
+📚 O QUE A CRIANÇA APRENDE: cumprimentar com um sorriso: bom dia, boa tarde, boa noite.
+👨‍👩‍👧 DICA PARA OS PAIS: cumprimente a criança todos os dias; ela aprende imitando você.
+🎵 Música infantil original, com letra para cantar junto e legenda em inglês.
+
+✅ Conteúdo educativo para crianças: comportamento, boas maneiras, hábitos saudáveis e rotina, com mensagem positiva e sem sustos.
+👉 Inscreva-se para receber uma nova lição cantada todos os dias!
+
+Palavras-chave: bom dia, boas maneiras, cumprimentar, educação infantil, música educativa.
+
+#shorts #musicainfantil #educacaoinfantil #desenhoinfantil #comportamentoinfantil #paiseduca #educativo
+
+Aviso: vídeo animado criado com ferramentas de IA, com roteiro e música originais. Conteúdo feito para crianças.
+```
+
+- **Palavras-chave (campo de tags):** bom dia, boas maneiras, cumprimentar, educação infantil, música educativa
 - **Público:** marcar "feito para crianças"
 - **Conteúdo sintético:** declarar uso de IA se o YouTube Studio pedir

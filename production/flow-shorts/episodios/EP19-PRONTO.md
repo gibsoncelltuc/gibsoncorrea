@@ -5,6 +5,20 @@
 **Duração:** 6 clipes de 10 s = 60 s  
 **Fichas necessárias:** SHEET-NINA, SHEET-DAVI (prompts em `FICHAS.md`; Bento, Luna, Tico, etc. já gerados não precisam repetir)
 
+## Mensagem educativa (o eixo do roteiro)
+
+- **A criança aprende:** ajudar em casa com pequenas tarefas e ter responsabilidade.
+- **Dica para os pais:** dê uma tarefa pequena e fixa, como colocar um copo na mesa, e agradeça.
+- **Gancho dos 2 primeiros segundos:** a ação já está acontecendo no primeiro quadro (personagem sorrindo para a câmera e começando o gesto); o refrão entra na batida 1, sem introdução.
+- **Final em loop:** o último clipe repete o refrão e termina em tom positivo, o que incentiva rever.
+
+## Títulos com potencial de busca e curiosidade (teste A/B/C)
+
+- **A (busca direta):** 🍽️ Música Para Ensinar a Criança a Ajudar em Casa: Pôr a Mesa
+- **B (dor dos pais):** Como Fazer a Criança Ajudar em Casa? Essa Música Ensina! 🍽️
+- **C (nome da canção):** Vamos Pôr a Mesa! 🍽️ Tarefas Domésticas Para Crianças | Responsabilidade
+- **Texto grande da miniatura:** AJUDAR EM CASA 🍽️
+
 ## Roteiro e letra (cena a cena)
 
 | Clipe | O que acontece | Letra (cantada) | Legenda (EN) |
@@ -157,8 +171,26 @@ After each video, check it frame by frame as in the SELF-CHECK. When all 6 are d
 
 ## Publicação
 
-- **Título:** 🍽️ Vamos Pôr a Mesa | Música infantil sobre ajudar em casa #shorts
-- **Descrição:** A Nina e o Davi ajudam a arrumar a mesa! 🍽️👧👦
-- **Hashtags:** #shorts #infantil #musicainfantil #desenhoinfantil #educativo
+- **Título:** use o A, o B ou o C (veja acima; teste um de cada vez)
+- **Descrição pronta (copiar e colar):**
+
+```
+Como Fazer a Criança Ajudar em Casa? Essa Música Ensina! 🍽️
+
+📚 O QUE A CRIANÇA APRENDE: ajudar em casa com pequenas tarefas e ter responsabilidade.
+👨‍👩‍👧 DICA PARA OS PAIS: dê uma tarefa pequena e fixa, como colocar um copo na mesa, e agradeça.
+🎵 Música infantil original, com letra para cantar junto e legenda em inglês.
+
+✅ Conteúdo educativo para crianças: comportamento, boas maneiras, hábitos saudáveis e rotina, com mensagem positiva e sem sustos.
+👉 Inscreva-se para receber uma nova lição cantada todos os dias!
+
+Palavras-chave: ajudar em casa, responsabilidade infantil, tarefas domésticas, música educativa, educação infantil.
+
+#shorts #musicainfantil #educacaoinfantil #desenhoinfantil #comportamentoinfantil #paiseduca #educativo
+
+Aviso: vídeo animado criado com ferramentas de IA, com roteiro e música originais. Conteúdo feito para crianças.
+```
+
+- **Palavras-chave (campo de tags):** ajudar em casa, responsabilidade infantil, tarefas domésticas, música educativa, educação infantil
 - **Público:** marcar "feito para crianças"
 - **Conteúdo sintético:** declarar uso de IA se o YouTube Studio pedir

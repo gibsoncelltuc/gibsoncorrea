@@ -44,6 +44,24 @@ Character reference sheet of Nina: a cheerful 5-year-old girl with light-brown s
 Character reference sheet of Davi: a cheerful 5-year-old boy with light-tan skin, big shiny brown eyes, short wavy dark hair, rosy cheeks, an orange t-shirt, blue shorts and white sneakers. A kind child friend. Front view, side view, back view and one happy close-up of the face, neutral standing pose, plain white background, evenly spaced. Davi has exactly 2 eyes, 2 arms with 2 simple relaxed hands, and 2 legs. High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, no on-screen text, no logos, nothing scary. Wide horizontal sheet. NEGATIVE (never show): upright or standing ears, a second pair of ears, three or four ears, extra or duplicated ears, arms, legs, hands, fingers, tails, eyes or heads; merged or distorted limbs; text, letters, watermarks, logos; scary or dark elements; any character different from the reference sheets.
 ```
 
+## SHEET-BENTINHO
+
+```
+Character reference sheet of Bentinho: a tiny baby lop-eared bunny, cream-white with a beige patch on the head, big round dark eyes, rosy cheeks, two small soft floppy ears that hang down, a small round tail, wearing a soft yellow onesie. Bento's baby brother. Front view, side view, back view and one happy close-up of the face, neutral standing pose, plain white background, evenly spaced. Bentinho has exactly 2 small floppy ears hanging down, 2 eyes, 2 arms, 2 legs and 1 small round tail. High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, no on-screen text, no logos, nothing scary. Wide horizontal sheet. NEGATIVE (never show): upright or standing ears, a second pair of ears, three or four ears, extra or duplicated ears, arms, legs, hands, fingers, tails, eyes or heads; merged or distorted limbs; text, letters, watermarks, logos; scary or dark elements; any character different from the reference sheets.
+```
+
+## SHEET-MAMAE
+
+```
+Character reference sheet of Mamãe Coelha: a gentle adult lop-eared mother bunny, soft cream fur with warm pink cheeks, kind eyes, a soft pink scarf, two long floppy ears that hang down along her head, a round fluffy tail. Bento's loving mother. Front view, side view, back view and one happy close-up of the face, neutral standing pose, plain white background, evenly spaced. Mamãe Coelha has exactly 2 long floppy ears hanging down, 2 eyes, 2 arms, 2 legs and 1 round tail. High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, no on-screen text, no logos, nothing scary. Wide horizontal sheet. NEGATIVE (never show): upright or standing ears, a second pair of ears, three or four ears, extra or duplicated ears, arms, legs, hands, fingers, tails, eyes or heads; merged or distorted limbs; text, letters, watermarks, logos; scary or dark elements; any character different from the reference sheets.
+```
+
+## SHEET-PAPAI
+
+```
+Character reference sheet of Papai Coelho: a bigger adult lop-eared father bunny, light beige-brown fur, kind eyes, a green knitted vest, two long floppy ears that hang down along his head, a round fluffy tail. Bento's loving father. Front view, side view, back view and one happy close-up of the face, neutral standing pose, plain white background, evenly spaced. Papai Coelho has exactly 2 long floppy ears hanging down, 2 eyes, 2 arms, 2 legs and 1 round tail. High-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, shallow depth of field, rich gentle colors, smooth natural character animation, no on-screen text, no logos, nothing scary. Wide horizontal sheet. NEGATIVE (never show): upright or standing ears, a second pair of ears, three or four ears, extra or duplicated ears, arms, legs, hands, fingers, tails, eyes or heads; merged or distorted limbs; text, letters, watermarks, logos; scary or dark elements; any character different from the reference sheets.
+```
+
 ## Dica
 
 Depois das 7 fichas, anexe sempre as dos personagens do episódio. Guarde as imagens aprovadas com os nomes SHEET-BENTO, SHEET-LUNA etc.

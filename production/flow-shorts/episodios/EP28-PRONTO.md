@@ -5,6 +5,20 @@
 **Duração:** 6 clipes de 10 s = 60 s  
 **Fichas necessárias:** SHEET-PIPO, SHEET-BENTO (prompts em `FICHAS.md`; Bento, Luna, Tico, etc. já gerados não precisam repetir)
 
+## Mensagem educativa (o eixo do roteiro)
+
+- **A criança aprende:** tomar banho, esfregar cada cantinho e se secar.
+- **Dica para os pais:** transforme o banho em brincadeira com bolhinhas e cante a música.
+- **Gancho dos 2 primeiros segundos:** a ação já está acontecendo no primeiro quadro (personagem sorrindo para a câmera e começando o gesto); o refrão entra na batida 1, sem introdução.
+- **Final em loop:** o último clipe repete o refrão e termina em tom positivo, o que incentiva rever.
+
+## Títulos com potencial de busca e curiosidade (teste A/B/C)
+
+- **A (busca direta):** 🛁 Música Para a Hora do Banho: Banho, Banho, Bolhinhas!
+- **B (dor dos pais):** Seu Filho Não Quer Tomar Banho? Coloque Esta Música! 🛁
+- **C (nome da canção):** Hora do Banho! 🛁 Higiene Infantil Divertida | Música Educativa
+- **Texto grande da miniatura:** HORA DO BANHO 🛁
+
 ## Roteiro e letra (cena a cena)
 
 | Clipe | O que acontece | Letra (cantada) | Legenda (EN) |
@@ -157,8 +171,26 @@ After each video, check it frame by frame as in the SELF-CHECK. When all 6 are d
 
 ## Publicação
 
-- **Título:** 🛁 Hora do Banho | Música infantil sobre tomar banho #shorts
-- **Descrição:** O Pipo e o Bento adoram a hora do banho! 🛁🐥🐰
-- **Hashtags:** #shorts #infantil #musicainfantil #desenhoinfantil #educativo
+- **Título:** use o A, o B ou o C (veja acima; teste um de cada vez)
+- **Descrição pronta (copiar e colar):**
+
+```
+Seu Filho Não Quer Tomar Banho? Coloque Esta Música! 🛁
+
+📚 O QUE A CRIANÇA APRENDE: tomar banho, esfregar cada cantinho e se secar.
+👨‍👩‍👧 DICA PARA OS PAIS: transforme o banho em brincadeira com bolhinhas e cante a música.
+🎵 Música infantil original, com letra para cantar junto e legenda em inglês.
+
+✅ Conteúdo educativo para crianças: comportamento, boas maneiras, hábitos saudáveis e rotina, com mensagem positiva e sem sustos.
+👉 Inscreva-se para receber uma nova lição cantada todos os dias!
+
+Palavras-chave: hora do banho, higiene infantil, música educativa, rotina infantil, hábitos saudáveis.
+
+#shorts #musicainfantil #educacaoinfantil #desenhoinfantil #comportamentoinfantil #paiseduca #educativo
+
+Aviso: vídeo animado criado com ferramentas de IA, com roteiro e música originais. Conteúdo feito para crianças.
+```
+
+- **Palavras-chave (campo de tags):** hora do banho, higiene infantil, música educativa, rotina infantil, hábitos saudáveis
 - **Público:** marcar "feito para crianças"
 - **Conteúdo sintético:** declarar uso de IA se o YouTube Studio pedir

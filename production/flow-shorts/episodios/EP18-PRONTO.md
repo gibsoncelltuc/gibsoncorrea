@@ -5,6 +5,20 @@
 **Duração:** 6 clipes de 10 s = 60 s  
 **Fichas necessárias:** SHEET-LUNA, SHEET-OLIVIA (prompts em `FICHAS.md`; Bento, Luna, Tico, etc. já gerados não precisam repetir)
 
+## Mensagem educativa (o eixo do roteiro)
+
+- **A criança aprende:** dizer a verdade, mesmo quando é difícil, e perceber que é acolhido.
+- **Dica para os pais:** acolha a verdade com calma: se a criança teme broncas, ela esconde.
+- **Gancho dos 2 primeiros segundos:** a ação já está acontecendo no primeiro quadro (personagem sorrindo para a câmera e começando o gesto); o refrão entra na batida 1, sem introdução.
+- **Final em loop:** o último clipe repete o refrão e termina em tom positivo, o que incentiva rever.
+
+## Títulos com potencial de busca e curiosidade (teste A/B/C)
+
+- **A (busca direta):** 💛 Música Para Ensinar a Falar a Verdade: Verdade É Bonito
+- **B (dor dos pais):** Seu Filho Mente? Essa Música Ensina o Valor da Verdade! 💛
+- **C (nome da canção):** Verdade É Bonito! 💛 Honestidade Para Crianças | Valores e Comportamento
+- **Texto grande da miniatura:** FALAR A VERDADE 💛
+
 ## Roteiro e letra (cena a cena)
 
 | Clipe | O que acontece | Letra (cantada) | Legenda (EN) |
@@ -157,8 +171,26 @@ After each video, check it frame by frame as in the SELF-CHECK. When all 6 are d
 
 ## Publicação
 
-- **Título:** 💛 Verdade É Bonito | Música infantil sobre falar a verdade #shorts
-- **Descrição:** A Luna e a coruja Olívia ensinam a falar a verdade! 💛🐱🦉
-- **Hashtags:** #shorts #infantil #musicainfantil #desenhoinfantil #educativo
+- **Título:** use o A, o B ou o C (veja acima; teste um de cada vez)
+- **Descrição pronta (copiar e colar):**
+
+```
+Seu Filho Mente? Essa Música Ensina o Valor da Verdade! 💛
+
+📚 O QUE A CRIANÇA APRENDE: dizer a verdade, mesmo quando é difícil, e perceber que é acolhido.
+👨‍👩‍👧 DICA PARA OS PAIS: acolha a verdade com calma: se a criança teme broncas, ela esconde.
+🎵 Música infantil original, com letra para cantar junto e legenda em inglês.
+
+✅ Conteúdo educativo para crianças: comportamento, boas maneiras, hábitos saudáveis e rotina, com mensagem positiva e sem sustos.
+👉 Inscreva-se para receber uma nova lição cantada todos os dias!
+
+Palavras-chave: honestidade, falar a verdade, valores infantis, comportamento infantil, música educativa.
+
+#shorts #musicainfantil #educacaoinfantil #desenhoinfantil #comportamentoinfantil #paiseduca #educativo
+
+Aviso: vídeo animado criado com ferramentas de IA, com roteiro e música originais. Conteúdo feito para crianças.
+```
+
+- **Palavras-chave (campo de tags):** honestidade, falar a verdade, valores infantis, comportamento infantil, música educativa
 - **Público:** marcar "feito para crianças"
 - **Conteúdo sintético:** declarar uso de IA se o YouTube Studio pedir

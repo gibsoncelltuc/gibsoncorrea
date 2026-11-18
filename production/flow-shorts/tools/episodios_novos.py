@@ -759,3 +759,6 @@ EP(30, "foco-na-licao", "Foco na Lição", "Foco e concentração para fazer a l
       "cheerful claps, a sparkle chime", "Um lápis, um caderno, minha atenção,", "foco na lição, essa é a minha missão!",
       "A pencil, a notebook, my attention,", "focus on my work, that's my mission!"),
 ])
+
+
+import episodios_novos2  # noqa: E402,F401  (episódios 31 a 51)

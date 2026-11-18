@@ -2,12 +2,13 @@
 """Gera, para os episódios 11 a 30, os arquivos PRONTOS PARA COLAR no Google Flow:
   episodios/EPNN-PRONTO.md  (roteiro, letra, legendas EN, mensagem das imagens, mensagem dos vídeos detalhada)
   FICHAS.md                 (prompts das fichas de todos os personagens)
-  INDICE-30.md              (visão geral dos 30 episódios)
+  INDICE-51.md              (visão geral dos 30 episódios)
 Uso: python3 gerar_pronto.py
 """
 import os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import gerar_pacote as g
+from virais import V, descricao
 
 BASE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 EPS = os.path.join(BASE, "episodios")
@@ -28,11 +29,24 @@ LOCK = {
     "Nina": "NINA: a cheerful 5-year-old girl with light-brown skin, big dark eyes, two curly puffs of dark hair tied with yellow ribbons, rosy cheeks, a green dress and white shoes, always fully dressed. EXACTLY 2 eyes, 2 hair puffs, 2 arms with simple rounded mitten-like hands, 2 legs.",
     "Davi": "DAVI: a cheerful 5-year-old boy with light-tan skin, big brown eyes, short wavy dark hair, rosy cheeks, an orange t-shirt, blue shorts and white sneakers, always fully dressed. EXACTLY 2 eyes, 2 arms with simple rounded mitten-like hands, 2 legs.",
 }
+LOCK.update({
+    "Bentinho": "BENTINHO: a tiny baby lop-eared bunny, cream-white with a beige patch on his head, big round dark eyes, rosy cheeks, a soft yellow onesie, a small round tail. EXACTLY 2 small soft floppy ears that ALWAYS HANG DOWN along the sides of his head (never upright, never a second pair), 2 eyes, 2 arms, 2 legs and 1 tail.",
+    "Mamãe": "MAMÃE COELHA: a gentle adult lop-eared mother bunny with soft cream fur, warm pink cheeks, kind eyes, a soft pink scarf and a round fluffy tail. EXACTLY 2 long soft floppy ears that ALWAYS HANG DOWN along her head (never upright, never a second pair), 2 eyes, 2 arms, 2 legs and 1 tail.",
+    "Papai": "PAPAI COELHO: a bigger adult lop-eared father bunny with light beige-brown fur, kind eyes, a green knitted vest and a round fluffy tail. EXACTLY 2 long soft floppy ears that ALWAYS HANG DOWN along his head (never upright, never a second pair), 2 eyes, 2 arms, 2 legs and 1 tail.",
+})
+g.CAST["Bentinho"] = ("Bentinho: a tiny baby lop-eared bunny, cream-white with a beige patch on the head, big round dark eyes, rosy cheeks, two small soft floppy ears that hang down, a small round tail, wearing a soft yellow onesie",
+                      "Bentinho has exactly 2 small floppy ears hanging down, 2 eyes, 2 arms, 2 legs and 1 small round tail")
+g.CAST["Mamãe"] = ("Mamãe Coelha: a gentle adult lop-eared mother bunny, soft cream fur with warm pink cheeks, kind eyes, a soft pink scarf, two long floppy ears that hang down along her head, a round fluffy tail",
+                   "Mamãe Coelha has exactly 2 long floppy ears hanging down, 2 eyes, 2 arms, 2 legs and 1 round tail")
+g.CAST["Papai"] = ("Papai Coelho: a bigger adult lop-eared father bunny, light beige-brown fur, kind eyes, a green knitted vest, two long floppy ears that hang down along his head, a round fluffy tail",
+                   "Papai Coelho has exactly 2 long floppy ears hanging down, 2 eyes, 2 arms, 2 legs and 1 round tail")
+g.SHEET_EXTRA.update({"Bentinho": "Bento's baby brother", "Mamãe": "Bento's loving mother", "Papai": "Bento's loving father"})
+
 STYLE = ("high-quality stylized 3D animated feature-film look, soft rounded shapes, big expressive eyes, fluffy fur, warm cinematic lighting, "
          "shallow depth of field, rich gentle colors, no text, no letters, no logos, nothing scary. Keep the lower-left corner of the frame simple and uncluttered.")
 
 
-def nm(c): return "SHEET-" + c.upper().replace("Í", "I")
+def nm(c): return "SHEET-" + c.upper().replace("Í", "I").replace("Ã", "A")
 
 
 def locks(chars):
@@ -84,9 +98,15 @@ def vid_message(ep):
 
 def write_ep(ep):
     n = ep["num"]
+    tt, thumb, skill, pais, kw = V[n]
+    hook = tt[1]
+    desc = descricao(n, hook, skill, pais, kw, ep.get("final_en", ""))
     M = [f"# Ep. {n:02d}: {ep['titulo']}\n",
          f"**Lição:** {ep['tema']}  \n**Personagens:** {', '.join(ep['cast'])}  \n**Duração:** 6 clipes de 10 s = 60 s  \n"
          f"**Fichas necessárias:** {', '.join(nm(c) for c in ep['cast'])} (prompts em `FICHAS.md`; Bento, Luna, Tico, etc. já gerados não precisam repetir)\n",
+         f"## Mensagem educativa (o eixo do roteiro)\n\n- **A criança aprende:** {skill}.\n- **Dica para os pais:** {pais}.\n- **Gancho dos 2 primeiros segundos:** a ação já está acontecendo no primeiro quadro (personagem sorrindo para a câmera e começando o gesto); o refrão entra na batida 1, sem introdução.\n- **Final em loop:** o último clipe repete o refrão e termina em tom positivo, o que incentiva rever.\n",
+         "## Títulos com potencial de busca e curiosidade (teste A/B/C)\n", f"- **A (busca direta):** {tt[0]}", f"- **B (dor dos pais):** {tt[1]}", f"- **C (nome da canção):** {tt[2]}",
+         f"- **Texto grande da miniatura:** {thumb}\n",
          "## Roteiro e letra (cena a cena)\n", "| Clipe | O que acontece | Letra (cantada) | Legenda (EN) |", "|---|---|---|---|"]
     for i, s in enumerate(ep["shots"], 1):
         what = "; ".join(s["a"])
@@ -102,8 +122,9 @@ def write_ep(ep):
           "## Música e legendas (eu faço)\n",
           f"- Gerar música: `tools/gerar_musica.sh {n} 23 41`; escolher: `tools/escolher_musica.py {n} ...`; legendas: `tools/legendas_auto.py {n} musica.mp3 config.json`.",
           "- Montagem: `tools/montar_cine.py` (cortes no ritmo, cor de filme, transições, legendas com pop).\n",
-          "## Publicação\n", f"- **Título:** {ep['yt_titulo']}", f"- **Descrição:** {ep['yt_desc']}",
-          "- **Hashtags:** #shorts #infantil #musicainfantil #desenhoinfantil #educativo", "- **Público:** marcar \"feito para crianças\"",
+          "## Publicação\n", f"- **Título:** use o A, o B ou o C (veja acima; teste um de cada vez)", "- **Descrição pronta (copiar e colar):**\n", "```\n" + desc + "\n```\n",
+          "- **Palavras-chave (campo de tags):** " + ", ".join(kw),
+          "- **Público:** marcar \"feito para crianças\"",
           "- **Conteúdo sintético:** declarar uso de IA se o YouTube Studio pedir\n"]
     open(os.path.join(EPS, f"EP{n:02d}-PRONTO.md"), "w").write("\n".join(M))
 
@@ -112,25 +133,40 @@ def write_fichas():
     L = ["# Fichas dos personagens (gerar uma vez, guardar)\n",
          "Gere cada ficha **sem anexar nada**, em horizontal 16:9 (é de propósito: mostra frente, lado, costas e rosto). "
          "Confira a contagem de olhos, orelhas, braços, pernas, asas e rabo antes de guardar. O Bento já está aprovado.\n"]
-    for c in ["Bento", "Luna", "Tico", "Pipo", "Olívia", "Nina", "Davi"]:
+    for c in ["Bento", "Luna", "Tico", "Pipo", "Olívia", "Nina", "Davi", "Bentinho", "Mamãe", "Papai"]:
         L += [f"## {nm(c)}\n", "```\n" + g.sheet_prompt(c) + "\n```\n"]
     L += ["## Dica\n", "Depois das 7 fichas, anexe sempre as dos personagens do episódio. Guarde as imagens aprovadas com os nomes SHEET-BENTO, SHEET-LUNA etc.\n"]
     open(os.path.join(BASE, "FICHAS.md"), "w").write("\n".join(L))
 
 
 def write_index():
-    L = ["# 30 Shorts didáticos (Bento e Amigos)\n", "Ordem sugerida de publicação: 1 por dia. Os 1 a 10 têm prompts em `episodios/EPNN-*.md` (versão inicial) e `EP04-*` etc.; "
-         "os 11 a 30 estão **prontos para colar** em `episodios/EPNN-PRONTO.md`.\n",
+    L = ["# 51 Shorts didáticos (Bento e Amigos)\n", "Ordem sugerida de publicação: 1 por dia. Os 1 a 10 têm prompts em `episodios/EPNN-*.md` (versão inicial) e `EP04-*` etc.; "
+         "os 11 a 51 estão **prontos para colar** em `episodios/EPNN-PRONTO.md`. Títulos e descrições de todos em `TITULOS-E-DESCRICOES.md`.\n",
          "| # | Título | Lição | Personagens |", "|---|---|---|---|"]
     for e in g.todos():
         L.append(f"| {e['num']} | {e['titulo']} | {e['tema']} | {', '.join(e['cast'])} |")
     L += ["", "Já produzidos: 1, 2 e 4 (vídeos finais em `out/`). O 3 foi pulado a seu pedido.\n"]
-    open(os.path.join(BASE, "INDICE-30.md"), "w").write("\n".join(L))
+    open(os.path.join(BASE, "INDICE-51.md"), "w").write("\n".join(L))
+
+
+def write_titulos():
+    L = ["# Títulos, miniaturas e descrições dos 51 episódios\n",
+         "**Como usar:** publique com o título A (busca) ou B (dor dos pais) e compare. Troque só o título, nunca o vídeo, e olhe no YouTube Studio quais atraem mais visualizações e mais \"assistiu até o fim\".\n",
+         "**Aviso honesto:** não existe garantia de viralizar. O que ajuda: título que a mãe/pai digitaria na busca, miniatura com texto curto e personagem sorrindo, gancho na primeira imagem, 40 a 60 s com refrão grudento, e consistência (um por dia). "
+         "Os títulos dizem que a música **ensina** ou **ajuda**, e nunca prometem \"cura\". Isso evita enganar o público e o risco de desmonetização.\n",
+         "**Lembrete:** vídeo marcado como \"feito para crianças\" não tem comentários e tem anúncios menos personalizados. Isso é esperado.\n"]
+    for e in g.todos():
+        n = e["num"]
+        tt, thumb, skill, pais, kw = V[n]
+        L += [f"## Ep. {n:02d}: {e['titulo']}\n", f"- **A:** {tt[0]}", f"- **B:** {tt[1]}", f"- **C:** {tt[2]}", f"- **Miniatura:** {thumb}",
+              f"- **A criança aprende:** {skill}", f"- **Para os pais:** {pais}", "- **Descrição:**\n", "```\n" + descricao(n, tt[1], skill, pais, kw, "") + "\n```\n"]
+    open(os.path.join(BASE, "TITULOS-E-DESCRICOES.md"), "w").write("\n".join(L))
 
 
 if __name__ == "__main__":
     for ep in g.NOVOS:
         write_ep(ep)
+    write_titulos()
     write_fichas()
     write_index()
     print(f"{len(g.NOVOS)} episódios, fichas e índice gerados")
