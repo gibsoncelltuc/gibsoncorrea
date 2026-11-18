@@ -1,0 +1,234 @@
+{
+ "duration": 58.464,
+ "frames30": 1754,
+ "source": "silence-align (cost 0.79)",
+ "segments": [
+  [
+   0.155542,
+   3.00412
+  ],
+  [
+   3.26437,
+   4.36112
+  ],
+  [
+   5.21583,
+   6.67571
+  ],
+  [
+   6.95367,
+   9.95362
+  ],
+  [
+   10.2869,
+   11.6799
+  ],
+  [
+   12.5405,
+   14.7213
+  ],
+  [
+   14.9856,
+   17.5674
+  ],
+  [
+   18.4154,
+   19.6883
+  ],
+  [
+   19.9314,
+   21.0009
+  ],
+  [
+   21.8933,
+   22.9795
+  ],
+  [
+   23.194,
+   25.3255
+  ],
+  [
+   25.6085,
+   27.3433
+  ],
+  [
+   28.2083,
+   33.0457
+  ],
+  [
+   33.9023,
+   35.459
+  ],
+  [
+   35.698,
+   36.4851
+  ],
+  [
+   36.7563,
+   39.2378
+  ],
+  [
+   40.0988,
+   41.0512
+  ],
+  [
+   41.3469,
+   43.1551
+  ],
+  [
+   43.3516,
+   43.8885
+  ],
+  [
+   44.7535,
+   46.1865
+  ],
+  [
+   46.4117,
+   47.9664
+  ],
+  [
+   48.835,
+   51.5338
+  ],
+  [
+   51.7722,
+   53.1524
+  ],
+  [
+   54.0229,
+   55.8099
+  ],
+  [
+   56.0648,
+   57.652
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Uma orelha cortada levou a Inglaterra \u00e0 guerra contra a Espanha,",
+   "s": 0.156,
+   "e": 3.004
+  },
+  {
+   "text": "por quase dez anos.",
+   "s": 3.264,
+   "e": 4.361
+  },
+  {
+   "text": "Em mil setecentos e trinta e um,",
+   "s": 5.216,
+   "e": 6.676
+  },
+  {
+   "text": "o capit\u00e3o ingl\u00eas Robert Jenkins estava num navio perto de Cuba,",
+   "s": 6.954,
+   "e": 9.954
+  },
+  {
+   "text": "quando um navio espanhol o parou.",
+   "s": 10.287,
+   "e": 11.68
+  },
+  {
+   "text": "Os espanh\u00f3is acharam que ele fazia contrabando,",
+   "s": 12.54,
+   "e": 14.721
+  },
+  {
+   "text": "e Jenkins contou que o capit\u00e3o deles cortou sua orelha.",
+   "s": 14.986,
+   "e": 17.567
+  },
+  {
+   "text": "\"V\u00e1 levar isso ao seu rei\",",
+   "s": 18.415,
+   "e": 19.688
+  },
+  {
+   "text": "teria dito o espanhol.",
+   "s": 19.931,
+   "e": 21.001
+  },
+  {
+   "text": "Sete anos depois,",
+   "s": 21.893,
+   "e": 22.98
+  },
+  {
+   "text": "Jenkins contou a hist\u00f3ria ao Parlamento ingl\u00eas,",
+   "s": 23.194,
+   "e": 25.326
+  },
+  {
+   "text": "e os deputados ficaram furiosos.",
+   "s": 25.608,
+   "e": 27.343
+  },
+  {
+   "text": "Acontece que a Inglaterra queria uma desculpa para brigar com a Espanha por causa do com\u00e9rcio no Caribe.",
+   "s": 28.208,
+   "e": 33.046
+  },
+  {
+   "text": "Em mil setecentos e trinta e nove,",
+   "s": 33.902,
+   "e": 35.459
+  },
+  {
+   "text": "declarou guerra,",
+   "s": 35.698,
+   "e": 36.485
+  },
+  {
+   "text": "e navios e soldados ingleses cruzaram o oceano.",
+   "s": 36.756,
+   "e": 39.238
+  },
+  {
+   "text": "A guerra foi longa,",
+   "s": 40.099,
+   "e": 41.051
+  },
+  {
+   "text": "e at\u00e9 se misturou a outra guerra maior,",
+   "s": 41.347,
+   "e": 43.155
+  },
+  {
+   "text": "na Europa.",
+   "s": 43.352,
+   "e": 43.889
+  },
+  {
+   "text": "Depois de quase dez anos,",
+   "s": 44.754,
+   "e": 46.187
+  },
+  {
+   "text": "os dois lados fizeram a paz.",
+   "s": 46.412,
+   "e": 47.966
+  },
+  {
+   "text": "Quem deu o nome de Guerra da Orelha de Jenkins foi um escritor,",
+   "s": 48.835,
+   "e": 51.534
+  },
+  {
+   "text": "mais de cem anos depois.",
+   "s": 51.772,
+   "e": 53.152
+  },
+  {
+   "text": "A orelha custou dez anos de guerra,",
+   "s": 54.023,
+   "e": 55.81
+  },
+  {
+   "text": "e Jenkins ainda ficou sem ela.",
+   "s": 56.065,
+   "e": 57.652
+  }
+ ]
+}
