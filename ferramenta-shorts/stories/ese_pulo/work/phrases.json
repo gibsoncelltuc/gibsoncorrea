@@ -1,0 +1,279 @@
+{
+ "duration": 63.168,
+ "frames30": 1895,
+ "source": "silence-align (cost 0.90)",
+ "segments": [
+  [
+   0.157042,
+   3.68646
+  ],
+  [
+   4.53337,
+   5.87033
+  ],
+  [
+   6.68542,
+   8.71971
+  ],
+  [
+   8.98263,
+   10.8718
+  ],
+  [
+   11.7265,
+   12.2271
+  ],
+  [
+   12.4003,
+   15.0046
+  ],
+  [
+   15.8807,
+   16.6354
+  ],
+  [
+   16.8977,
+   17.5412
+  ],
+  [
+   18.3785,
+   20.1637
+  ],
+  [
+   20.4172,
+   21.6478
+  ],
+  [
+   22.5163,
+   26.296
+  ],
+  [
+   27.1481,
+   29.4529
+  ],
+  [
+   30.3172,
+   32.0152
+  ],
+  [
+   32.8115,
+   34.7211
+  ],
+  [
+   35.5504,
+   37.1395
+  ],
+  [
+   37.4294,
+   38.8462
+  ],
+  [
+   39.6995,
+   40.0183
+  ],
+  [
+   40.3239,
+   41.0843
+  ],
+  [
+   41.3435,
+   43.2107
+  ],
+  [
+   43.5559,
+   44.3262
+  ],
+  [
+   45.1722,
+   46.1075
+  ],
+  [
+   46.3901,
+   48.4871
+  ],
+  [
+   48.7491,
+   49.4191
+  ],
+  [
+   49.6799,
+   51.9334
+  ],
+  [
+   52.7978,
+   53.326
+  ],
+  [
+   53.6721,
+   54.7471
+  ],
+  [
+   55.5975,
+   56.7952
+  ],
+  [
+   57.6385,
+   59.2488
+  ],
+  [
+   60.1085,
+   61.2184
+  ],
+  [
+   61.4205,
+   62.3927
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "E se todas as pessoas do planeta pulassem exatamente no mesmo segundo?",
+   "s": 0.157,
+   "e": 3.686
+  },
+  {
+   "text": "A Terra sairia do lugar?",
+   "s": 4.533,
+   "e": 5.87
+  },
+  {
+   "text": "Somos mais de oito bilh\u00f5es de pessoas,",
+   "s": 6.685,
+   "e": 8.72
+  },
+  {
+   "text": "espalhadas por todos os continentes.",
+   "s": 8.983,
+   "e": 10.872
+  },
+  {
+   "text": "Juntas,",
+   "s": 11.726,
+   "e": 12.227
+  },
+  {
+   "text": "elas pesam mais de quinhentos milh\u00f5es de toneladas.",
+   "s": 12.4,
+   "e": 15.005
+  },
+  {
+   "text": "Parece muito,",
+   "s": 15.881,
+   "e": 16.635
+  },
+  {
+   "text": "n\u00e3o parece?",
+   "s": 16.898,
+   "e": 17.541
+  },
+  {
+   "text": "Ent\u00e3o todo mundo conta at\u00e9 tr\u00eas,",
+   "s": 18.378,
+   "e": 20.164
+  },
+  {
+   "text": "e pula ao mesmo tempo!",
+   "s": 20.417,
+   "e": 21.648
+  },
+  {
+   "text": "Acontece que a Terra pesa trilh\u00f5es de vezes mais que toda a humanidade junta.",
+   "s": 22.516,
+   "e": 26.296
+  },
+  {
+   "text": "Ela se mexeria menos que a largura de um \u00e1tomo.",
+   "s": 27.148,
+   "e": 29.453
+  },
+  {
+   "text": "Nenhum instrumento conseguiria medir.",
+   "s": 30.317,
+   "e": 32.015
+  },
+  {
+   "text": "O que daria para notar seria o barulho.",
+   "s": 32.812,
+   "e": 34.721
+  },
+  {
+   "text": "Bilh\u00f5es de p\u00e9s batendo no ch\u00e3o,",
+   "s": 35.55,
+   "e": 37.139
+  },
+  {
+   "text": "como um trov\u00e3o ao redor do mundo.",
+   "s": 37.429,
+   "e": 38.846
+  },
+  {
+   "text": "E se,",
+   "s": 39.7,
+   "e": 40.018
+  },
+  {
+   "text": "para facilitar,",
+   "s": 40.324,
+   "e": 41.084
+  },
+  {
+   "text": "todo mundo se juntasse num lugar s\u00f3,",
+   "s": 41.343,
+   "e": 43.211
+  },
+  {
+   "text": "para pular junto?",
+   "s": 43.556,
+   "e": 44.326
+  },
+  {
+   "text": "A\u00ed seria o caos:",
+   "s": 45.172,
+   "e": 46.108
+  },
+  {
+   "text": "bilh\u00f5es de pessoas presas no mesmo lugar,",
+   "s": 46.39,
+   "e": 48.487
+  },
+  {
+   "text": "sem estrada,",
+   "s": 48.749,
+   "e": 49.419
+  },
+  {
+   "text": "comida ou \u00e1gua para todos voltarem para casa.",
+   "s": 49.68,
+   "e": 51.933
+  },
+  {
+   "text": "Ou seja:",
+   "s": 52.798,
+   "e": 53.326
+  },
+  {
+   "text": "pular junto \u00e9 f\u00e1cil.",
+   "s": 53.672,
+   "e": 54.747
+  },
+  {
+   "text": "Dif\u00edcil seria a volta.",
+   "s": 55.597,
+   "e": 56.795
+  },
+  {
+   "text": "A Terra n\u00e3o liga para o nosso pulo.",
+   "s": 57.639,
+   "e": 59.249
+  },
+  {
+   "text": "Mas pode pular a\u00ed:",
+   "s": 60.108,
+   "e": 61.218
+  },
+  {
+   "text": "ningu\u00e9m vai sentir.",
+   "s": 61.42,
+   "e": 62.393
+  }
+ ]
+}
