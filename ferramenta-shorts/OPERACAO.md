@@ -44,6 +44,7 @@ Tudo que a narração cita tem que aparecer na tela, na mesma cena: se diz "faze
 | render terminou em 2 min sem mudar nada | reaproveitou quadro velho: `./refazer_tudo.sh <id>` |
 | log diz `voz de TESTE` / a fila para com `PARADO: voz de TESTE` | o edge-tts falhou (certificado do proxy). Teste: `cd stories/<id> && SSL_CERT_FILE=/root/.ccr/ca-bundle.crt edge-tts --proxy "$HTTPS_PROXY" --voice pt-BR-AntonioNeural --text oi --write-media /tmp/t.mp3`. Se só funcionar assim, acrescente a CA ao certifi: `cat /root/.ccr/ca-bundle.crt >> $(python3 -c 'import certifi;print(certifi.where())')`. Depois relance a fila. NUNCA entregue vídeo com voz de teste |
 | dois `run_queue.sh` ao mesmo tempo (SKIP falso, ENOENT em `ckpt/`) | sempre `pgrep -f run_queue.sh` antes de lançar; se houver dois, `pkill -f run_queue; pkill -f make_video; pkill -f render_pool` e lance um só |
+| render com `erro de pagina` / `No space left on device` / quadros `DESISTIDO` | disco cheio: `df -h .`; apague `out/<id>/frames` dos vídeos já entregues e `/root/.cache/pip` (NÃO apague `/root/.cache/huggingface`). Se o log do vídeo tiver quadro DESISTIDO, rode `./refazer_tudo.sh <id>` depois de liberar espaço |
 | fila parada (`bash status.sh` sem processo) | `nohup bash run_queue.sh > logs/queue_run.log 2>&1 &` |
 | máquina reiniciou | a fila volta sozinha; recrie a espera em segundo plano |
 | personagem cortado / cena vazia / objeto fora do quadro | ver "Reparos" no fim da folha 2 |

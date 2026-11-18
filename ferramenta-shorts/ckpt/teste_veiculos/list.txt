@@ -1,3 +1,0 @@
-file '/home/user/gibsoncorrea/ferramenta-shorts/ckpt/teste_veiculos/seg_000.mp4'
-file '/home/user/gibsoncorrea/ferramenta-shorts/ckpt/teste_veiculos/seg_001.mp4'
-file '/home/user/gibsoncorrea/ferramenta-shorts/ckpt/teste_veiculos/seg_002.mp4'
