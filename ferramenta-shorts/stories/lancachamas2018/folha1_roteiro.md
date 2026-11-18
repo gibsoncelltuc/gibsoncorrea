@@ -1,0 +1,85 @@
+# FOLHA 1 - ROTEIRO: Poder e Fama EP 12 - O Não é um Lança-Chamas
+
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 9 cenas, 104 palavras (~36 s)
+
+## Cena b0  (~8.6 s)
+- Narracao: No começo de dois mil e dezoito, nos Estados Unidos, a Boring Company, a empresa de túneis de Elon Musk, começou a vender um produto.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: vender -> stars + som de sino
+- Efeito visual marcado: -
+- Texto na tela: - | mapa: ESTADOS UNIDOS
+- Funcao na historia: GANCHO
+
+## Cena b1  (~2.8 s)
+- Narracao: O nome dele era Não é um lança-chamas.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b2  (~2.1 s)
+- Narracao: O preço era de quinhentos dólares.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: US$ 500
+- Funcao na historia: desenvolvimento
+
+## Cena b3  (~6.2 s)
+- Narracao: O nome dizia que não era, mas o aparelho tinha cara de lança-chamas, e essa era a piada.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: sting@10, thump@40
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: ring@12, dust@40
+- Texto na tela: -
+- Funcao na historia: GRANDE MOMENTO
+
+## Cena b4  (~3.4 s)
+- Narracao: Cada compra vinha com um extintor de incêndio de brinde.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: ding@4, whoosh@18
+- Efeito + som nas palavras-chave: incêndio -> burst + som de tiro/explosao
+- Efeito visual marcado: stars@4, puff@20, puff@60
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b5  (~2.1 s)
+- Narracao: Foram vinte mil unidades à venda.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: GRANDE MOMENTO
+
+## Cena b6  (~4.5 s)
+- Narracao: E elas esgotaram em poucos dias, rendendo cerca de dez milhões de dólares.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: ding@3
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: burst@3
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b7  (~2.4 s)
+- Narracao: A notícia se espalhou pelo mundo inteiro.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b8  (~3.8 s)
+- Narracao: Um produto que se chamava de tudo, menos do que parecia.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: FECHO/PIADA FINAL
+

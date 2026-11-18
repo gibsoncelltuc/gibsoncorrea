@@ -1,0 +1,232 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Poder e Fama",
+ "ep": 12,
+ "title": "O Não é um Lança-Chamas",
+ "titulo_base": "O Não é um Lança-Chamas",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/flamethrower",
+ "outfits": {
+  "MUS": {
+   "jacket": "#16181d",
+   "pants": "#22252c",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#3a2a1f",
+   "pele": "#f2e2d2"
+  },
+  "CMP": {
+   "jacket": "#4a8a6a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#8a5a2a",
+   "glasses": true
+  },
+  "POV": {
+   "jacket": "#3a8a5a",
+   "pants": "#2a3a5a",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#6a3a1a"
+  }
+ },
+ "beats": [
+  {
+   "say": "No começo de dois mil e dezoito, nos Estados Unidos, a Boring Company, a empresa de túneis de Elon Musk, começou a vender um produto.",
+   "shot": "two",
+   "who": [
+    "MUS:0:grin",
+    "CMP:0:surprised"
+   ],
+   "props": [],
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "mapa": "ESTADOS UNIDOS",
+   "mapa_at": 3
+  },
+  {
+   "say": "O nome dele era Não é um lança-chamas.",
+   "shot": "two",
+   "who": [
+    "MUS:0:grin",
+    "CMP:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/flamethrower",
+     1.3,
+     0.2,
+     1.5
+    ]
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "acao": "conversar"
+  },
+  {
+   "say": "O preço era de quinhentos dólares.",
+   "shot": "two",
+   "who": [
+    "MUS:0:smug",
+    "CMP:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/flamethrower",
+     1.3,
+     0.2,
+     1.5
+    ]
+   ],
+   "text": "US$ 500",
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "acao": "conversar"
+  },
+  {
+   "say": "O nome dizia que não era, mas o aparelho tinha cara de lança-chamas, e essa era a piada.",
+   "shot": "two",
+   "who": [
+    "CMP:0:suspicious",
+    "MUS:0:laugh"
+   ],
+   "acao": "conversar",
+   "props": [
+    [
+     "kit/flamethrower",
+     -1.5,
+     0.3,
+     1.2
+    ]
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": false
+  },
+  {
+   "say": "Cada compra vinha com um extintor de incêndio de brinde.",
+   "shot": "two",
+   "who": [
+    "MUS:0:smile",
+    "CMP:0:grin"
+   ],
+   "props": [
+    [
+     "kit/extinguisher",
+     1.5,
+     0.2,
+     1.3
+    ]
+   ],
+   "fx": [
+    "stars@4"
+   ],
+   "sfx": [
+    "ding@4"
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": false
+  },
+  {
+   "say": "Foram vinte mil unidades à venda.",
+   "shot": "reveal",
+   "who": [
+    "MUS:0:smile",
+    "CMP:0:neutral"
+   ],
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "POV"
+    ],
+    "march": false
+   },
+   "tiros": false,
+   "batalha": false,
+   "impact": false
+  },
+  {
+   "say": "E elas esgotaram em poucos dias, rendendo cerca de dez milhões de dólares.",
+   "shot": "crowd",
+   "who": [
+    "CMP:0:shock",
+    "MUS:0:laugh"
+   ],
+   "fx": [
+    "burst@3"
+   ],
+   "sfx": [
+    "ding@3"
+   ],
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "tiros": false,
+   "batalha": false
+  },
+  {
+   "say": "A notícia se espalhou pelo mundo inteiro.",
+   "shot": "orbit",
+   "who": [
+    "CMP:0:grin",
+    "MUS:0:smile"
+   ],
+   "props": [
+    [
+     "kit/globe",
+     1.5,
+     -0.4,
+     1.1
+    ]
+   ],
+   "crowd": {
+    "n": 6,
+    "outfits": [
+     "POV"
+    ],
+    "march": false
+   },
+   "tiros": false,
+   "batalha": false,
+   "impact": false
+  },
+  {
+   "say": "Um produto que se chamava de tudo, menos do que parecia.",
+   "shot": "group",
+   "who": [
+    "MUS:0:laugh",
+    "CMP:0:smile"
+   ],
+   "props": [
+    [
+     "kit/flamethrower",
+     1.8,
+     -0.3,
+     1.2
+    ],
+    [
+     "kit/extinguisher",
+     -1.7,
+     0.2,
+     1.1
+    ]
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": false
+  }
+ ]
+}

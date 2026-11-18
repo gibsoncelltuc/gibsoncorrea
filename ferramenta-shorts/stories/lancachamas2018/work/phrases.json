@@ -1,0 +1,144 @@
+{
+ "duration": 33.816,
+ "frames30": 1014,
+ "source": "silence-align (cost 0.37)",
+ "segments": [
+  [
+   0.157208,
+   1.59729
+  ],
+  [
+   1.82488,
+   2.66887
+  ],
+  [
+   2.88258,
+   4.3875
+  ],
+  [
+   4.69371,
+   7.47358
+  ],
+  [
+   8.33258,
+   10.1125
+  ],
+  [
+   10.9775,
+   12.2555
+  ],
+  [
+   12.4917,
+   14.4517
+  ],
+  [
+   14.6489,
+   15.4992
+  ],
+  [
+   16.3381,
+   18.875
+  ],
+  [
+   19.7813,
+   21.4306
+  ],
+  [
+   22.2832,
+   24.0175
+  ],
+  [
+   24.27,
+   26.4655
+  ],
+  [
+   27.3217,
+   29.2402
+  ],
+  [
+   30.089,
+   31.6662
+  ],
+  [
+   31.9084,
+   33.0222
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "No come\u00e7o de dois mil e dezoito,",
+   "s": 0.157,
+   "e": 1.597
+  },
+  {
+   "text": "a Boring Company,",
+   "s": 1.825,
+   "e": 2.669
+  },
+  {
+   "text": "a empresa de t\u00faneis de Elon Musk,",
+   "s": 2.883,
+   "e": 4.388
+  },
+  {
+   "text": "come\u00e7ou a vender um produto chamado N\u00e3o \u00e9 um lan\u00e7a-chamas.",
+   "s": 4.694,
+   "e": 7.474
+  },
+  {
+   "text": "O pre\u00e7o era de quinhentos d\u00f3lares.",
+   "s": 8.333,
+   "e": 10.113
+  },
+  {
+   "text": "O nome dizia que n\u00e3o era,",
+   "s": 10.977,
+   "e": 12.255
+  },
+  {
+   "text": "mas o aparelho tinha cara de lan\u00e7a-chamas,",
+   "s": 12.492,
+   "e": 14.452
+  },
+  {
+   "text": "e essa era a piada.",
+   "s": 14.649,
+   "e": 15.499
+  },
+  {
+   "text": "Cada compra vinha com um extintor de inc\u00eandio de brinde.",
+   "s": 16.338,
+   "e": 18.875
+  },
+  {
+   "text": "Foram vinte mil unidades \u00e0 venda.",
+   "s": 19.781,
+   "e": 21.431
+  },
+  {
+   "text": "E elas esgotaram em poucos dias,",
+   "s": 22.283,
+   "e": 24.017
+  },
+  {
+   "text": "rendendo cerca de dez milh\u00f5es de d\u00f3lares.",
+   "s": 24.27,
+   "e": 26.465
+  },
+  {
+   "text": "A not\u00edcia se espalhou pelo mundo inteiro.",
+   "s": 27.322,
+   "e": 29.24
+  },
+  {
+   "text": "Um produto que se chamava de tudo,",
+   "s": 30.089,
+   "e": 31.666
+  },
+  {
+   "text": "menos do que parecia.",
+   "s": 31.908,
+   "e": 33.022
+  }
+ ]
+}

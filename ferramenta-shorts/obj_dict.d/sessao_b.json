@@ -1,5 +1,17 @@
 [
 [
+"lanca.?chamas",
+"kit/flamethrower",
+1.4,
+false
+],
+[
+"\\bextintor(es)?\\b",
+"kit/extinguisher",
+1.5,
+false
+],
+[
 "\\bcybertruck\\b|\\bpicapes?\\b",
 "kit/cybertruck",
 1.5,

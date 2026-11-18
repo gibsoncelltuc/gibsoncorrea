@@ -94,3 +94,14 @@ for x in (-.85, .85):
     for z in (-.58, .58): cil((x, .3, z), .32, .22, '#15151a', rot=(math.pi / 2, 0, 0)); cil((x, .3, z), .16, .24, '#b8bcc4', rot=(math.pi / 2, 0, 0))
 caixa((-1.31, .6, 0), (.05, .08, .9), '#e8f0ff')
 fim()
+novo('flamethrower')       # "lanca-chamas" de brinquedo: tanque vermelho, cano preto longo com bico, cabo e gatilho
+cil((0, .75, 0), .3, 1.0, '#d83a2a', rot=H); bola((-.5, .75, 0), .3, '#d83a2a', seg=14); bola((.5, .75, 0), .3, '#d83a2a', seg=14)
+cil((0, 1.1, 0), .05, 1.2, '#2a2a30', rot=H); cil((.95, .75, 0), .07, 1.2, '#2a2a30', rot=H)
+cil((1.6, .75, 0), .09, .22, '#f2a020', raio_topo=.05, rot=H)
+cil((.55, .35, 0), .05, .4, '#2a2a30'); bola((.3, .6, 0), .09, '#f2d020', seg=10)
+fim()
+novo('extinguisher')       # extintor de incendio vermelho: corpo, alca, mangueira preta e bocal
+cil((0, .75, 0), .24, 1.3, '#d83030'); bola((0, 1.4, 0), .24, '#d83030', seg=14); cil((0, 1.62, 0), .07, .12, '#2a2a30')
+tubo([(.0, 1.5, 0), (.3, 1.55, 0), (.34, 1.0, 0)], .03, '#2a2a30'); cil((.34, .9, 0), .06, .14, '#2a2a30')
+cil((0, 1.0, 0), .245, .2, '#f2f2f2')
+fim()
