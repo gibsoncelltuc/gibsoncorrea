@@ -7,7 +7,7 @@ b1 | reveal | -  | tropa | - | -
 b2 | two | -  | placa: US$ 500 | - | -
 b3 | crowd | -  | batalha aberta com tiros, tropa | - | -
 b4 | wide | -  | tropa | incêndio (burst + som de tiro/explosao) | -
-b5 | group | -  | - | - | venda
+b5 | group | -  | - | - | -
 b6 | crowd | -  | batalha aberta com tiros, tropa | - | -
 b7 | two | -  | tropa | - | -
 b8 | two | -  | - | - | -

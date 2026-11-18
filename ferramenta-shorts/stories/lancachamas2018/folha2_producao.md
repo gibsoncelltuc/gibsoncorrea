@@ -107,11 +107,9 @@ kit/globe | b7 | pronto | conferir na folha de contato se le bem; se parecer cai
 ## Video inteiro
 - Objeto heroi: kit/flamethrower | grandes momentos: b3, b6 | planos abertos: 4 | mistura: close 6% | medio 64% | aberto 24% | detalhe 6%
 - Interacoes: b0 aproxima-se, b2 avanca e o outro recua, b5 o outro se aproxima, b7 insiste, b8 vai ate o outro
-- RISCOS GERAIS: 
-  - 1 palavra(s) de acao sem efeito + som -> CORRECAO: ver plano.md e por "fx"/"sfx" na cena
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: 1 palavra(s) de acao sem efeito + som
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh lancachamas2018 bN bM` (so essas cenas).

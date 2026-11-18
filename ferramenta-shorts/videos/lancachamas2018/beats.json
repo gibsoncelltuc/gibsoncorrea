@@ -147,7 +147,13 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "detalhe": false
+   "detalhe": false,
+   "fx": [
+    "stars@3"
+   ],
+   "sfx": [
+    "ding@3"
+   ]
   },
   {
    "say": "E elas esgotaram em poucos dias, rendendo cerca de dez milhões de dólares.",

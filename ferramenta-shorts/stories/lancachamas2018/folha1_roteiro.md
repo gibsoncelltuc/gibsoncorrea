@@ -50,9 +50,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 ## Cena b5  (~2.1 s)
 - Narracao: Foram vinte mil unidades à venda.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
+- Efeitos sonoros marcados: ding@3
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
+- Efeito visual marcado: stars@3
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
