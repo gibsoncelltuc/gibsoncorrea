@@ -126,3 +126,5 @@ Quadrado só o que é quadrado de verdade: placa, casa, caixote, mesa, livro. To
 - **Cenário**: base de foguete/litoral = `harbor`; campo sem fazenda não tem mais celeiro gigante automático.
 - **Boné** (`hat: cap`) agora fica acima dos olhos.
 - **Personagem CARREGANDO objeto 3D** (pia, caixa, bandeja…): cena `"shot": "track"` e o objeto com `{"carregado": true, "y": 0.75}` → `["kit/sink", 0.35, 1.55, 0.9, {"carregado": true, "y": 0.75}]` (x = posição do personagem + 0,35). Anda junto, na altura das mãos. Confira com `./prechecar.sh <id> b0 4`.
+- **Poder e Fama / fatos reais: FONTES obrigatórias.** No topo do beats.json: `"fontes": ["https://...", ...]` (as páginas que você conferiu). Elas saem no fim da Folha 1 e vão na pasta de entrega. Sem fonte, não escreva o fato.
+- **Objeto real conhecido (carro, avião, prédio famoso):** modele a partir de fotos/descrição real (forma, cor, proporção), nunca um genérico. Ex.: `kit/roadster26` (Roadster 2026 branco em cunha), `kit/roadster` (Roadster 2008 vermelho, o do espaço).

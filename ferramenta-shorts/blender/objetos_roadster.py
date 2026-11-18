@@ -13,3 +13,24 @@ for o in bpy.context.selected_objects:
     if o.parent is None: o.location.z += 5.3
 bpy.ops.object.select_all(action='SELECT')
 bpy.ops.export_scene.gltf(filepath=os.path.join(K, 'falcon_air.glb'), export_format='GLB', use_selection=True)
+novo('roadster_air')                               # Roadster 2026 pulando com propulsores de ar comprimido (jatos brancos para baixo)
+for (x, z) in ((-.9, -.5), (.9, -.5), (-.9, .5), (.9, .5)): torno((x, 1.6, z), [(0, 0), (.18, .5), (.3, 1.1)], '#eef4ff', 14)
+for (x, z) in ((-1.2, 0), (1.2, 0), (0, .8)): bola((x, 1.4, z), .35, '#f4f6fa', seg=10)
+fim(0.0)
+bpy.ops.import_scene.gltf(filepath=os.path.join(K, 'roadster.glb'))
+for o in bpy.context.selected_objects:
+    if o.parent is None: o.location.z += 2.7; o.scale = (1.4, 1.4, 1.4)
+bpy.ops.object.select_all(action='SELECT')
+bpy.ops.export_scene.gltf(filepath=os.path.join(K, 'roadster_air.glb'), export_format='GLB', use_selection=True)
+novo('helicopter_air')                             # helicoptero ja voando (a partir de vehicles/helicopter)
+bola((0, 0, 0), .001, '#000000')
+fim(0.0)
+bpy.ops.import_scene.gltf(filepath=os.path.join(K, '..', 'vehicles', 'helicopter.glb'))
+for o in bpy.context.selected_objects:
+    if o.parent is None: o.location.z += 4.5
+for mt in bpy.data.materials:                     # pinta de militar: vermelho -> verde-oliva escuro
+    if mt.use_nodes and 'Principled BSDF' in mt.node_tree.nodes:
+        c = mt.node_tree.nodes['Principled BSDF'].inputs['Base Color'].default_value
+        if c[0] > c[1] * 1.5 and c[0] > c[2] * 1.5: c[0], c[1], c[2] = .04, .05, .03
+bpy.ops.object.select_all(action='SELECT')
+bpy.ops.export_scene.gltf(filepath=os.path.join(K, 'helicopter_air.glb'), export_format='GLB', use_selection=True)

@@ -1,0 +1,283 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Poder e Fama",
+ "ep": 24,
+ "title": "O Foguete que Voltou de Ré",
+ "titulo_base": "O Foguete que Voltou de Ré",
+ "set": "harbor",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/falcon9_land",
+ "outfits": {
+  "MUS": {
+   "jacket": "#16181d",
+   "pants": "#22252c",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#3a2a1f",
+   "pele": "#f2e2d2"
+  },
+  "ENG": {
+   "jacket": "#1f3f6a",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#1b1b1f",
+   "glasses": true
+  },
+  "ENA": {
+   "jacket": "#1f3f6a",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#7a4a2a",
+   "hairStyle": "bun"
+  },
+  "POV": {
+   "jacket": "#1f3f6a",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "cap",
+    "hair"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "MUS:0:grin",
+    "ENG:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/falcon9_land",
+     2.4,
+     -9.0,
+     1.0
+    ]
+   ],
+   "text": "2015",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "Durante sessenta anos, todo foguete era jogado fora depois de um voo. Até que um deles voltou e pousou de ré."
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin"
+   ],
+   "mapa": "ESTADOS UNIDOS",
+   "mapa_at": 3,
+   "say": "Foi em dezembro de dois mil e quinze, no Cabo Canaveral, na Flórida."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "ENG:0:worried:paper",
+    "MUS:0:suspicious"
+   ],
+   "acao": "discutir",
+   "say": "Elon Musk queria reaproveitar os foguetes da SpaceX, como se reaproveita um avião. Muitos achavam impossível.",
+   "props": [
+    [
+     "kit/rocket",
+     2.4,
+     -8.0,
+     1.1
+    ]
+   ]
+  },
+  {
+   "shot": "two",
+   "who": [
+    "ENA:0:sad",
+    "MUS:0:nervous"
+   ],
+   "fx": [
+    "burst@30",
+    "puff@50"
+   ],
+   "sfx": [
+    "cannon@30",
+    "thump@50"
+   ],
+   "say": "As primeiras tentativas de pouso deram errado. Foguetes tombaram, e explodiram no mar.",
+   "props": [
+    [
+     "kit/rocket",
+     2.0,
+     -9.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MUS:0:stern",
+    "ENG:0:grin:paper"
+   ],
+   "interacao": "entregar",
+   "say": "Mas a equipe insistiu. Em vinte e um de dezembro, o Falcon nove decolou levando satélites."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "ENG:0:surprised",
+    "ENA:0:surprised",
+    "MUS:0:grin"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "surprised"
+   },
+   "props": [
+    [
+     "kit/falcon_air",
+     2.0,
+     -12.0,
+     1.4
+    ]
+   ],
+   "fx": [
+    "whoosh@20",
+    "puff@40"
+   ],
+   "sfx": [
+    "whoosh@20",
+    "thump@40"
+   ],
+   "say": "Depois de soltar a parte de cima, a parte de baixo virou no céu, e começou a voltar para a Terra."
+  },
+  {
+   "shot": "low",
+   "hora": "noite",
+   "who": [
+    "ENA:0:nervous"
+   ],
+   "props": [
+    [
+     "kit/falcon9_land",
+     0,
+     -9.0,
+     1.1
+    ]
+   ],
+   "fx": [
+    "ring@20"
+   ],
+   "sfx": [
+    "sting@20"
+   ],
+   "say": "Acontece que ela desceu de ré, de pé, com o motor aceso freando a queda."
+  },
+  {
+   "shot": "two",
+   "hora": "noite",
+   "who": [
+    "ENG:0:shock",
+    "ENA:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/falcon9_land",
+     1.8,
+     -8.0,
+     1.0
+    ]
+   ],
+   "fx": [
+    "stars@30",
+    "puff@50"
+   ],
+   "sfx": [
+    "ding@30",
+    "thump@50"
+   ],
+   "say": "E pousou certinho no meio da plataforma, abrindo as pernas no último segundo."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "MUS:0:laugh",
+    "ENG:0:laugh",
+    "ENA:0:laugh"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "props": [
+    [
+     "kit/falcon9_land",
+     0,
+     -12.0,
+     1.3
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "POUSOU!",
+   "titulo": true,
+   "say": "Os funcionários da SpaceX gritaram como em final de Copa do Mundo."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MUS:0:smug",
+    "ENG:0:grin"
+   ],
+   "interacao": "abracar",
+   "say": "Foi a primeira vez que um foguete desse tamanho voltou do espaço e pousou inteiro em terra."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "MUS:0:smile"
+   ],
+   "props": [
+    [
+     "kit/falcon9_land",
+     -1.8,
+     -8.0,
+     1.0
+    ]
+   ],
+   "acao": "comemorar",
+   "say": "Hoje, os foguetes da SpaceX pousam quase toda semana. E a viagem ao espaço ficou muito mais barata."
+  }
+ ],
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Falcon_9_flight_20",
+  "https://www.spacex.com/launches/"
+ ]
+}

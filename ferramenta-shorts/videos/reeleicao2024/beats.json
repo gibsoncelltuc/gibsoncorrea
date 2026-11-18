@@ -1,0 +1,280 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Poder e Fama",
+ "ep": 21,
+ "title": "A Volta de Trump",
+ "titulo_base": "A Volta de Trump",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/ballot_box",
+ "outfits": {
+  "TRU": {
+   "jacket": "#1f2f5c",
+   "pants": "#1f2f5c",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#f2c84a",
+   "tie": "#d8282f",
+   "pele": "#f5c49a",
+   "build": "stout"
+  },
+  "ELE": {
+   "jacket": "#7a3a2a",
+   "pants": "#3b3f52",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#d8282f"
+  },
+  "REP": {
+   "profissao": "jornalista"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "bowler"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "TRU:0:smug",
+    "REP:0:surprised:paper"
+   ],
+   "props": [
+    [
+     "kit/ballot_box",
+     0,
+     -1.4,
+     1.2
+    ],
+    [
+     "kit/white_house",
+     0,
+     -14.0,
+     1.4
+    ]
+   ],
+   "text": "2024",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "Donald Trump perdeu a eleição de dois mil e vinte. Quatro anos depois, voltou para a Casa Branca."
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin"
+   ],
+   "mapa": "ESTADOS UNIDOS",
+   "mapa_at": 3,
+   "props": [
+    [
+     "kit/white_house",
+     0,
+     -14.0,
+     1.4
+    ]
+   ],
+   "say": "Foi em cinco de novembro de dois mil e vinte e quatro, nos Estados Unidos."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "ELE:0:grin",
+    "POV:0:suspicious"
+   ],
+   "props": [
+    [
+     "kit/ballot_box",
+     1.6,
+     -0.8,
+     1.1
+    ]
+   ],
+   "acao": "conversar",
+   "say": "Milhões de americanos foram às urnas escolher entre Trump e a vice-presidente Kamala Harris."
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "REP:0:nervous:paper",
+    "TRU:0:stern"
+   ],
+   "acao": "discutir",
+   "say": "A contagem entrou pela madrugada. Os estados indecisos iam decidir tudo."
+  },
+  {
+   "shot": "close",
+   "interior": "loja",
+   "who": [
+    "REP:0:shock:paper"
+   ],
+   "fx": [
+    "ring@20",
+    "stars@50"
+   ],
+   "sfx": [
+    "sting@20",
+    "ding@50"
+   ],
+   "say": "Acontece que Trump venceu em todos os estados decisivos, e somou trezentos e doze votos no colégio eleitoral."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "TRU:0:laugh",
+    "ELE:0:laugh",
+    "POV:0:shout"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 22,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "props": [
+    [
+     "kit/white_house",
+     0,
+     -14.0,
+     1.4
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "312 VOTOS",
+   "titulo": true,
+   "say": "Os apoiadores comemoraram a noite inteira. Trump subiu ao palco e declarou vitória."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "REP:0:surprised:paper",
+    "POV:0:grin"
+   ],
+   "acao": "conversar",
+   "say": "Foi um feito raro: ele virou só o segundo presidente da história com dois mandatos separados."
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "REP:0:smile:paper",
+    "POV:1:suspicious"
+   ],
+   "props": [
+    [
+     "kit/scroll",
+     1.6,
+     -0.8,
+     1.0
+    ]
+   ],
+   "fx": [
+    "puff@30"
+   ],
+   "sfx": [
+    "thump@30"
+   ],
+   "say": "O primeiro foi Grover Cleveland, há mais de cento e trinta anos."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "TRU:0:grin",
+    "GEN:0:stern"
+   ],
+   "props": [
+    [
+     "kit/white_house",
+     0,
+     -14.0,
+     1.4
+    ]
+   ],
+   "interacao": "entregar",
+   "say": "Em vinte de janeiro de dois mil e vinte e cinco, ele tomou posse de novo."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "TRU:0:smug",
+    "POV:0:surprised",
+    "POV:1:grin"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "surprised"
+   },
+   "props": [
+    [
+     "kit/white_house",
+     0,
+     -14.0,
+     1.4
+    ]
+   ],
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "text": "47º",
+   "titulo": true,
+   "say": "Ele tinha sido o presidente número quarenta e cinco. Agora era o número quarenta e sete."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "TRU:0:smile"
+   ],
+   "props": [
+    [
+     "kit/ballot_box",
+     -1.4,
+     -0.8,
+     1.1
+    ]
+   ],
+   "acao": "comemorar",
+   "say": "Perdeu, voltou e ganhou. Uma das maiores viradas da política americana."
+  }
+ ],
+ "fontes": [
+  "https://ballotpedia.org/Presidential_election,_2024",
+  "https://en.wikipedia.org/wiki/Second_presidency_of_Donald_Trump",
+  "https://www.wbtv.com/2024/11/06/ap-projects-donald-trump-elected-2nd-term-2024-presidential-election/"
+ ]
+}
