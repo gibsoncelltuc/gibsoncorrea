@@ -14,15 +14,15 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 ## Cena b1  (~4.8 s)
 - Narracao: Os gauleses tinham invadido a cidade, e queimado quase tudo. Quem não fugiu, morreu.
 - Som ambiente: birds
-- Efeitos sonoros marcados: thump@20, thump@55
+- Efeitos sonoros marcados: thump@20, thump@55, whoosh@18
 - Efeito + som nas palavras-chave: fugiu -> dust + som de impacto; morreu -> puff + som de baque
-- Efeito visual marcado: dust@20, burst@55
+- Efeito visual marcado: dust@20, burst@55, puff@20, puff@60
 - Texto na tela: - | mapa: ROMA
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b2  (~6.2 s)
 - Narracao: Os romanos que sobraram se trancaram no Capitólio, uma colina cercada de muralhas, sem comida, e sem saída.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 
 ## Cena b4  (~5.9 s)
 - Narracao: Numa noite sem lua, os gauleses escalaram a colina em silêncio. Os guardas dormiam. Ninguém ouviu nada.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -49,12 +49,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 
 ## Cena b5  (~4.8 s)
 - Narracao: Acontece que os gansos acordaram, e começaram a gritar e a bater as asas.
-- Som ambiente: birds | batalha: tiros e gritos a cena inteira
+- Som ambiente: birds
 - Efeitos sonoros marcados: squeal@20, squeal@55, squeal@90
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: ring@12, dust@40
+- Efeito visual marcado: -
 - Texto na tela: QUÁ! QUÁ!
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: VIRADA
 
 ## Cena b6  (~7.2 s)
 - Narracao: Um soldado chamado Mânlio pulou da cama, e empurrou o primeiro invasor muralha abaixo. O gaulês caiu, levando os outros junto.

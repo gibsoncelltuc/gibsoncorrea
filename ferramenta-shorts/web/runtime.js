@@ -144,6 +144,7 @@ export const actorsAt = (f, T) => {
     const sideW = (moving && a.move && a.move[0] && a.sideWalk !== false && (opts.mode === 'march' || opts.mode === 'stroll') && Math.abs(a.move[0][0] - a.at[0]) > 1.2 * Math.abs(a.move[0][1] - a.at[1])) ? Math.sign(a.move[0][0] - a.at[0]) : 0;
     if (opts.gest && (opts.gk || 0) > 0.2 && o.rifle) o = { ...o, rifle: false };
     if (IN) opts.tilt = qq((opts.tilt || 0) + IN.tilt, 0);
+    if (S.shots && o.rifle && persons.filter((q) => { const oo = typeof q.outfit === 'object' ? q.outfit : OUT[q.outfit](q.v ?? 0, q.over || {}); return oo.rifle; })[0] === a) { let am = 0; for (const t of S.shots) am = Math.max(am, f >= t - 14 && f <= t + 16 ? Math.min(1, (f - (t - 14)) / 8, (t + 16 - f) / 8 + 0.35) : 0); if (am > 0) { opts.aim = qq(am, 1); opts.gest = null; } }   /* quem atira aponta a arma um pouco antes do tiro e segura um instante depois */
     if (o.hold) opts.hp = qq(Math.max(0, Math.sin(f * 0.075 + seed * 2)), 1);   /* usa o objeto de tempos em tempos */
     out.push(B(T, o, opts, [x, DECK + (typeof a.y === 'function' ? a.y(f) : (a.y || 0)) + bob + (IN ? IN.hop : 0), z], { id: a.id || o._id, tint, s: (a.s || 1) * (SPEC.cs ?? 1.4) * (1 + 0.07 * (opts.lean || 0)), flip: sideW ? sideW < 0 : !!a.flip, ...(sideW ? { sideWalk: sideW } : {}), ...(a.crop ? { crop: a.crop, shadow: false, blob: false } : {}) })); });
   return out;
