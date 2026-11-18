@@ -3,7 +3,7 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/cachorro1925/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py cachorro1925` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Um cachorro fugiu, e por causa dele dois países entraram em guerra, e ...
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: mountain | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): GRE (variante 0, expressao shock); BUL (variante 0, expressao neutral) | multidao: 5 de GRE/BUL
@@ -13,7 +13,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b1 - Em mil novecentos e vinte e cinco, a fronteira entre a Grécia e a Bulg...
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: mountain | luz: golden | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): GRE (variante 0, expressao stern); BUL (variante 0, expressao stern) | multidao: 8 de GRE/BUL
@@ -23,7 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Um soldado grego estava de guarda quando o cachorro dele fugiu para o ...
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: mountain | luz: golden | clima: limpo
 - Camera: track = travelling lateral acompanhando quem anda
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): GRE (variante 0, expressao nervous); GRE (variante 1, expressao scared)
@@ -33,7 +33,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - O soldado correu atrás do cachorro, e atravessou a fronteira sem pensa...
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: mountain | luz: golden | clima: limpo
 - Camera: track = travelling lateral acompanhando quem anda
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): GRE (variante 0, expressao shout); GRE (variante 1, expressao angry)
@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Do outro lado, uma sentinela búlgara viu um estranho armado, e atirou.
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: mountain | luz: golden | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): BUL (variante 0, expressao angry); GRE (variante 0, expressao scared) | multidao: 10 de BUL/GRE
@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Acontece que o soldado morreu, e a Grécia deu um ultimato furioso à Bu...
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: mountain | luz: golden | clima: limpo
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): GRE (variante 0, expressao sad); GRE (variante 1, expressao angry)
@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Poucos dias depois, o exército grego invadiu a Bulgária e ocupou a reg...
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: mountain | luz: golden | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): GRE (variante 0, expressao angry); BUL (variante 0, expressao shout) | multidao: 20 de GRE/BUL
@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - A Bulgária pediu ajuda à Liga das Nações, a antecessora da ONU.
-- Cenario: interior madeira | luz: day | clima: limpo
+- Cenario: interior madeira | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): DIP (variante 0, expressao sad, segura paper); PRE (variante 0, expressao nervous)
@@ -83,7 +83,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - A Liga mandou a Grécia parar, retirar as tropas e pagar uma indenizaçã...
-- Cenario: interior pedra | luz: day | clima: limpo
+- Cenario: interior pedra | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): PRE (variante 0, expressao stern, segura paper); DIP (variante 0, expressao relief)
@@ -93,7 +93,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - A Grécia obedeceu, e ninguém sabe o que aconteceu com o cachorro.
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: mountain | luz: golden | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): GRE (variante 0, expressao sad)

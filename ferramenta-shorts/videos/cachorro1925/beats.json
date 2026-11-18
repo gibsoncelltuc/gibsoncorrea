@@ -6,7 +6,7 @@
  "title": "A Guerra do Cão Fugitivo",
  "titulo_base": "A Guerra do Cão Fugitivo",
  "set": "mountain",
- "light": "day",
+ "light": "golden",
  "mood": "playful",
  "heroi": "kit/dog",
  "outfits": {
@@ -206,5 +206,6 @@
    ],
    "riscos_ok": true
   }
- ]
+ ],
+ "exp": 1.0
 }
