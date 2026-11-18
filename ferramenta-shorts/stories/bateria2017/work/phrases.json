@@ -1,0 +1,180 @@
+{
+ "duration": 52.128,
+ "frames30": 1564,
+ "source": "silence-align (cost 0.30)",
+ "segments": [
+  [
+   0.151708,
+   1.68962
+  ],
+  [
+   2.00958,
+   6.25038
+  ],
+  [
+   7.09221,
+   11.3916
+  ],
+  [
+   11.6343,
+   12.5188
+  ],
+  [
+   13.3635,
+   17.265
+  ],
+  [
+   18.1233,
+   20.1497
+  ],
+  [
+   20.5031,
+   22.2121
+  ],
+  [
+   23.0929,
+   26.4626
+  ],
+  [
+   26.7002,
+   27.7141
+  ],
+  [
+   28.5695,
+   30.6743
+  ],
+  [
+   30.9714,
+   32.5006
+  ],
+  [
+   33.3492,
+   37.1875
+  ],
+  [
+   38.0372,
+   38.5495
+  ],
+  [
+   38.8738,
+   42.333
+  ],
+  [
+   43.1835,
+   45.1092
+  ],
+  [
+   45.3078,
+   46.3062
+  ],
+  [
+   47.1303,
+   47.9356
+  ],
+  [
+   48.2485,
+   50.3656
+  ],
+  [
+   50.5497,
+   51.3085
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Em mar\u00e7o de dois mil e dezessete,",
+   "s": 0.152,
+   "e": 1.69
+  },
+  {
+   "text": "Elon Musk respondeu numa rede social ao empres\u00e1rio australiano Mike Cannon-Brookes.",
+   "s": 2.01,
+   "e": 6.25
+  },
+  {
+   "text": "Musk escreveu que a Tesla instalaria baterias gigantes na Austr\u00e1lia do Sul em cem dias,",
+   "s": 7.092,
+   "e": 11.392
+  },
+  {
+   "text": "ou seria de gra\u00e7a.",
+   "s": 11.634,
+   "e": 12.519
+  },
+  {
+   "text": "Os jornais calcularam que ele podia perder mais de cinquenta milh\u00f5es de d\u00f3lares.",
+   "s": 13.364,
+   "e": 17.265
+  },
+  {
+   "text": "O contrato foi fechado no fim de setembro,",
+   "s": 18.123,
+   "e": 20.15
+  },
+  {
+   "text": "e o prazo de cem dias come\u00e7ou.",
+   "s": 20.503,
+   "e": 22.212
+  },
+  {
+   "text": "Acontece que a bateria ficou pronta em cerca de cinquenta e cinco dias,",
+   "s": 23.093,
+   "e": 26.463
+  },
+  {
+   "text": "bem antes do prazo.",
+   "s": 26.7,
+   "e": 27.714
+  },
+  {
+   "text": "A imprensa chamou de a maior bateria do mundo,",
+   "s": 28.57,
+   "e": 30.674
+  },
+  {
+   "text": "com cem megawatts de pot\u00eancia.",
+   "s": 30.971,
+   "e": 32.501
+  },
+  {
+   "text": "Mike Cannon-Brookes disse que nunca tinha ficado t\u00e3o feliz de perder uma aposta.",
+   "s": 33.349,
+   "e": 37.188
+  },
+  {
+   "text": "Ou seja,",
+   "s": 38.037,
+   "e": 38.55
+  },
+  {
+   "text": "uma conversa numa rede social virou uma obra de cinquenta e cinco dias.",
+   "s": 38.874,
+   "e": 42.333
+  },
+  {
+   "text": "E tudo come\u00e7ou com uma resposta curta,",
+   "s": 43.184,
+   "e": 45.109
+  },
+  {
+   "text": "escrita no celular.",
+   "s": 45.308,
+   "e": 46.306
+  },
+  {
+   "text": "Moral da hist\u00f3ria:",
+   "s": 47.13,
+   "e": 47.936
+  },
+  {
+   "text": "antes de apostar cinquenta milh\u00f5es num prazo,",
+   "s": 48.248,
+   "e": 50.366
+  },
+  {
+   "text": "leia o contrato.",
+   "s": 50.55,
+   "e": 51.309
+  }
+ ]
+}

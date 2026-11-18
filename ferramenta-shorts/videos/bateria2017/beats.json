@@ -1,0 +1,248 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Poder e Fama",
+ "ep": 5,
+ "title": "Cem Dias ou de Graça",
+ "titulo_base": "Cem Dias ou de Graça",
+ "set": "street",
+ "mood": "playful",
+ "heroi": "kit/phone",
+ "outfits": {
+  "JOR": {
+   "jacket": "#4a6a9a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#8a5a2a",
+   "glasses": true,
+   "fixo": true
+  },
+  "JOR2": {
+   "jacket": "#9a4a5a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#1a1a1a",
+   "fixo": true
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "bowler"
+   ]
+  },
+  "MUS": {
+   "jacket": "#16181d",
+   "pants": "#22252c",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#3a2a1f",
+   "pele": "#f2e2d2",
+   "fixo": true
+  },
+  "CAN": {
+   "jacket": "#3a7a5a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#4a3a2a",
+   "glasses": true,
+   "fixo": true
+  }
+ },
+ "beats": [
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Em março de dois mil e dezessete, Elon Musk respondeu numa rede social ao empresário australiano Mike Cannon-Brookes.",
+   "shot": "close",
+   "who": [
+    "MUS:0:smug"
+   ],
+   "props": [
+    [
+     "kit/phone",
+     0.4,
+     1.2,
+     1.0
+    ]
+   ]
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Musk escreveu que a Tesla instalaria baterias gigantes na Austrália do Sul em cem dias, ou seria de graça.",
+   "shot": "two",
+   "who": [
+    "MUS:0:grin",
+    "CAN:0:shock"
+   ],
+   "mapa": "AUSTRÁLIA",
+   "mapa_at": 1,
+   "text": "100 DIAS"
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": true,
+   "say": "Os jornais calcularam que ele podia perder mais de cinquenta milhões de dólares.",
+   "shot": "group",
+   "who": [
+    "MUS:0:worried",
+    "CAN:0:suspicious",
+    "POV:0:shock"
+   ],
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "POV"
+    ]
+   },
+   "text": "50 MILHÕES",
+   "fx": [
+    "burst@40"
+   ],
+   "sfx": [
+    "sting@40"
+   ]
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "O contrato foi fechado no fim de setembro, e o prazo de cem dias começou.",
+   "shot": "two",
+   "who": [
+    "MUS:0:nervous",
+    "JOR:0:suspicious"
+   ],
+   "props": [
+    [
+     "kit/phone",
+     -1.5,
+     0.3,
+     1.2
+    ]
+   ]
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": true,
+   "say": "Acontece que a bateria ficou pronta em cerca de cinquenta e cinco dias, bem antes do prazo.",
+   "shot": "crowd",
+   "who": [
+    "MUS:0:grin"
+   ],
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "POV"
+    ]
+   },
+   "text": "55 DIAS",
+   "fx": [
+    "burst@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ]
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "A imprensa chamou de a maior bateria do mundo, com cem megawatts de potência.",
+   "shot": "two",
+   "who": [
+    "JOR:0:shock",
+    "JOR2:0:laugh"
+   ],
+   "mapa": "MUNDO",
+   "mapa_at": 1
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Mike Cannon-Brookes disse que nunca tinha ficado tão feliz de perder uma aposta.",
+   "shot": "two",
+   "who": [
+    "CAN:0:laugh",
+    "MUS:0:smug"
+   ]
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Ou seja, uma conversa numa rede social virou uma obra de cinquenta e cinco dias.",
+   "shot": "close",
+   "who": [
+    "CAN:0:grin"
+   ],
+   "props": [
+    [
+     "kit/phone",
+     0.4,
+     1.2,
+     1.0
+    ]
+   ]
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "E tudo começou com uma resposta curta, escrita no celular.",
+   "shot": "two",
+   "who": [
+    "MUS:0:laugh",
+    "JOR:0:shock"
+   ],
+   "props": [
+    [
+     "kit/phone",
+     -1.5,
+     0.3,
+     1.2
+    ]
+   ]
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Moral da história: antes de apostar cinquenta milhões num prazo, leia o contrato.",
+   "shot": "two",
+   "who": [
+    "MUS:0:laugh",
+    "CAN:0:grin"
+   ],
+   "props": [
+    [
+     "kit/phone",
+     0.4,
+     1.2,
+     1.0
+    ]
+   ]
+  }
+ ],
+ "exp": 1.0,
+ "fontes": [
+  "https://www.energy-storage.news/news/south-australia-takes-tesla-up-on-100-days-or-free-energy-storage-promise",
+  "https://www.powermag.com/tesla-bet-and-delivered-100-mw129-mwh-energy-storage-system-within-100-days",
+  "https://www.geekwire.com/2017/elon-musk-touts-teslas-plan-build-worlds-biggest-battery-100-days/",
+  "https://www.ecowatch.com/tesla-worlds-largest-battery-2512145319.html"
+ ],
+ "light": null
+}

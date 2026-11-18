@@ -48,3 +48,4 @@ Ver `videos/CATALOGO_HISTORIAS_EMOCIONANTES.md` (20 ideias com gancho, virada e 
 Ver `videos/CATALOGO_COMO_FUNCIONA_E_EMPRESAS.md` (15 temas técnicos + 10 empresas). Estratégia do Gibson: tudo começa como short de 60 s; os que performarem viram versão de 3–5 min. "Como Funciona" vai precisar de modelos 3D em corte (Blender) quando começar.
 Ver `videos/SERIE_APOCALIPSE.md`: série "O Apagão" (20 episódios com gancho, personagens fixos) e "Arquivo OVNI" (10 casos). Para depois dos pendentes.
 Ver `videos/CATALOGO_POVOS_CIDADES_EPOCAS.md`: série "Povos Esquecidos" (10 roteiros completos de 60 s com fontes: Incas, Astecas, Espartanos, Nabateus, Khmer, Mali, Minoicos, Vale do Indo, Polinésios, Marajoaras), "Cidades no Tempo" (12 ideias) e "Como Era a Vida" (10 ideias por década). Para depois.
+- Sessão A escolheu: PF 05 = bateria '100 dias ou de graça' (Austrália, 2017) · PF 06 = Trump Steaks (2007) · PF 07 = Surf City de El Salvador (2019).
