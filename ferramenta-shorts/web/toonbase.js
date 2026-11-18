@@ -790,6 +790,9 @@ const mouth = (p, kind, mx, my, u, k = 1)=>{
             break;
     }
 };
+/* EXPRESSOES EMOCIONAIS extras (montadas com os olhos/bocas existentes): raiva, grito, tristeza, choro, convencido, surpresa, medo, desconfianca, tedio */
+Object.assign(FACE, { angry: { eye: ["slit", "slit"], brow: [7, -4], mouth: "teeth" }, shout: { eye: ["lid", "lid"], brow: [7, -4], mouth: "O" }, sad: { eye: ["lid", "lid"], brow: [-5, 3], mouth: "frown" }, cry: { eye: ["squeeze", "squeeze"], brow: [-5, 3], mouth: "wave" },
+    smug: { eye: ["happy", "lid"], brow: [-3, 2], mouth: "smirk" }, surprised: { eye: ["shock", "shock"], brow: [-6, -6], mouth: "o" }, scared: { eye: ["shock", "shock"], brow: [-5, 3], mouth: "wave" }, suspicious: { eye: ["slit", "slit"], brow: [3, -2], mouth: "dash" }, bored: { eye: ["slit", "slit"], brow: [0, 0], mouth: "dash" } });
 const faceFront = (p, cx, cy, W, expr, facing, look, lid, brim, skin, moustache, stout = false, AX = {})=>{
     const u = W / 100, F = FACE[expr] || FACE.neutral, fx = cx + 7 * u * facing;
     /* ROSTO INDIVIDUAL: cada personagem tem seus tracos (distancia e altura dos olhos, sobrancelha, bochecha, sardas, pinta, olheira) */

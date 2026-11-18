@@ -18,8 +18,8 @@ LEX.push(['shock', /^(nunca|mil|milhoes?|apenas|so|esperem|morreu|morreram|impos
   ['nervous', /^(escondeu|esconder|escondidos|vigiando|medo|problema|escapou|fugiu|correu|derrota|perdeu|cruzou|armadilha|trancou|errava|errou|desistiram|retiraram)$/],
   ['pained', /^(orelha|cortou|machucou|perna|ferido|quebrado|pote|cerveja)$/], ['dazed', /^(confuso|atordoado|ouviu)$/],
   ['smile', /^(amigos?|paz|dividiu|seguro|casa|zoologico|ajuda|presente|orgulho|bolos?|docel?|doces|uisque|whisky)$/]);
-const ALT = { stern: 'neutral', shock: 'nervous', laugh: 'grin', grin: 'smile_closed', nervous: 'pained', pained: 'nervous', dazed: 'neutral', smile: 'grin', neutral: 'smile_closed', smile_closed: 'smile', whistle: 'smile', relief: 'smile', relief_open: 'grin', lick: 'smile' };
-const REACT = { stern: 'nervous', shock: 'shock', laugh: 'laugh', grin: 'smile', nervous: 'nervous', pained: 'pained', dazed: 'dazed', smile: 'smile' };
+const ALT = { angry: 'shout', shout: 'angry', sad: 'pained', cry: 'sad', smug: 'grin', surprised: 'shock', scared: 'nervous', suspicious: 'stern', bored: 'neutral', stern: 'neutral', shock: 'nervous', laugh: 'grin', grin: 'smile_closed', nervous: 'pained', pained: 'nervous', dazed: 'neutral', smile: 'grin', neutral: 'smile_closed', smile_closed: 'smile', whistle: 'smile', relief: 'smile', relief_open: 'grin', lick: 'smile' };
+const REACT = { angry: 'scared', shout: 'surprised', sad: 'sad', cry: 'sad', smug: 'suspicious', surprised: 'surprised', scared: 'scared', suspicious: 'nervous', bored: 'bored', stern: 'nervous', shock: 'shock', laugh: 'laugh', grin: 'smile', nervous: 'nervous', pained: 'pained', dazed: 'dazed', smile: 'smile' };
 const GMAP = { stern: ['point', 'hips', 'cross'], shock: ['up', 'scared', 'hold'], laugh: ['hips', 'up'], grin: ['hips', 'point', 'wave2'], nervous: ['scared', 'shrug', 'hold'], pained: ['facepalm', 'think', 'hold'], dazed: ['shrug', 'think'], smile: ['wave2', 'hold', 'hips'], neutral: ['shrug', 'think', 'hips'] };
 let LEAD = null;
 const buildLead = () => {
@@ -57,7 +57,16 @@ const actFor = (f, a, ai, S, persons, seed) => {
   if (camGaze) { face = 0; look = 0; } else if (lead && L.start) { face = 0.5 * toward; look = 1.1 * toward; } else { face = 0.42 * toward; look = 0.8 * toward; }
   const fx = { browUp: qq(cur.up, 1), skeptic: !lead && !!L.alt, lookY: camGaze ? 0 : 0.2, sweat: cur.e === 'shock' || cur.e === 'nervous' };
   { const spk = persons.length > 1 ? 1 : 0; if (L.talk && r === spk) fx.talk = qq(0.3 + 0.7 * Math.abs(Math.sin(f * 1.7)), 1); }   // quem fala: o 2o personagem da cena (ou o unico)
-  const o = { expr: cur.e, blink: lid, look: qq(look, 1), facing: qq(face, 1), fx, lean: qq(cur.lean, 1), __acted: 1 };
+  /* DIALOGO EM TURNOS: em conversa/discussao os dois principais se revezam. Quem FALA mexe a boca e gesticula olhando o outro; quem OUVE reage com o rosto (desconfia, se espanta, fecha a cara, acha graca) */
+  let dexpr = cur.e, spk = null;
+  if (persons.length >= 2 && r < 2 && (a.pose === 'talk' || a.pose === 'argue') && !(L.key && (L.kk || 0) > 0.2)) {
+    const tn = Math.floor((f - S.a) / 38), ph = (f - S.a) % 38; spk = (tn % 2) === r; const vs = (SPEC.vseed || 0) + seed;
+    if (a.pose === 'argue') dexpr = spk ? (['shout', 'angry', 'shout', 'stern'][(tn + vs) % 4]) : (['angry', 'suspicious', 'surprised', 'stern', 'scared'][(tn + vs) % 5]);
+    else dexpr = spk ? cur.e : (['neutral', 'suspicious', 'surprised', 'smile_closed', 'nervous', 'smug'][(tn + vs) % 6]);
+    if (spk) { fx.talk = qq(0.3 + 0.7 * Math.abs(Math.sin(f * 1.7)), 1); look = 0.9 * toward; face = 0.5 * toward; fx.browUp = qq(-2 * Math.abs(Math.sin(f * 0.4)), 1); }
+    else { fx.skeptic = dexpr === 'suspicious'; look = 0.8 * toward; face = 0.42 * toward; if (ph < 4) lid = Math.max(lid, [0.5, 1, 1, 0.5][ph]); }
+  }
+  const o = { expr: dexpr, blink: lid, look: qq(look, 1), facing: qq(face, 1), fx, lean: qq(cur.lean, 1), __acted: 1, ...(spk === null ? {} : { spk: spk ? 1 : 0 }) };
   const GL = lead ? L : (LEAD[Math.max(0, f - 9 * r)] || {});
   if (!a.pose || a.pose === 'stand') { if (GL.g && (GL.gk || 0) > 0.02 && (lead || r === 1) && !a.rifleKeep) { o.gest = GL.g; o.gk = qq(GL.gk, 1); o.gt = qq(f / 30, 2); } }
   return o; };

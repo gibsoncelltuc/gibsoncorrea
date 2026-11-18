@@ -578,6 +578,14 @@ for k, b in enumerate(beats):
     if AMB.get(SET) == 'sea': c2.append(f"sea(F({a}), F({e}), 0.14); gulls(F({a}), F({e}), 3, 0.1)")
     if b.get('text'): c2.append(f"ding(F(int(_W({starts[k] + int(b.get('tat', 0))}) - 2)), 0.5, {[988, 1175, 880, 1319][k % 4]})")
     if b.get('move') or b.get('shot') == 'track': c2.append(f"steps(F({a}), F({e}), 0.12, 0.3)")
+    # SOM DA INTERACAO: fala de desenho alternando duas vozes (dialogo/discussao), baque no empurrao, risada na comemoracao
+    _it = b.get('_inter'); _ac = b.get('_acao'); _q = lambda q_: f"F({a} + int(({e} - {a}) * {q_}))"
+    if _it == 'empurrar': c2.append(f"gibber({_q(0.15)}, 5, 250, 0.2); whoosh({_q(0.43)}, 0.3, 0.4); thump({_q(0.47)}, 0.8); gibber({_q(0.62)}, 4, 170, 0.2)")
+    elif _it == 'discutir' or _ac == 'discutir': c2.append(f"gibber({_q(0.12)}, 6, 250, 0.2); gibber({_q(0.38)}, 6, 165, 0.2); gibber({_q(0.62)}, 5, 270, 0.22); gibber({_q(0.82)}, 4, 160, 0.2)")
+    elif _it == 'cochichar': c2.append(f"gibber({_q(0.25)}, 5, 330, 0.1); gibber({_q(0.6)}, 5, 300, 0.1)")
+    elif _ac == 'comemorar' or _it == 'pular': c2.append(f"laughs({_q(0.2)}); laughs({_q(0.6)}, 5, 360)")
+    elif _it or _ac == 'conversar': c2.append(f"gibber({_q(0.2)}, 4, {[230, 200, 260][k % 3]}, 0.12); gibber({_q(0.58)}, 4, {[170, 290, 185][k % 3]}, 0.12)")
+    if b.get('_chega'): c2.append(f"steps(F({a}), F({a} + 40), 0.12, 0.3)")
     for e2 in b.get('sfx', []):
         name, _, at = e2.partition('@'); at = int(at) if at else 4
         c2.append(f"{name}(F({a} + {at}))" if name not in ('steps', 'sea', 'gulls', 'birds') else f"{name}(F({a} + {at}), F({e}))")
