@@ -30,7 +30,7 @@ for _b in B['beats']:   # PORTO: cena pequena que fala de navio/porto/marinha ac
 _VEIC = ((r'\bcaminhao\b|\bcaminhoes\b', 'vehicles/truck'), (r'\bcarroca\b|\bcarrocas\b|\bcharrete', 'vehicles/wagon'), (r'\bmoto\b|motocicleta', 'vehicles/motorcycle'), (r'\bbicicleta', 'vehicles/bicycle'), (r'\btaxi\b', 'vehicles/taxi'), (r'\bjipe\b', 'vehicles/jeep'), (r'\btanque\b|\bblindado', 'vehicles/tank'), (r'\bcarro\b|\bcarros\b|\bautomovel', 'vehicles/car'))
 for _b in B['beats']:   # DIRIGIR: "dirigiu/dirigindo/foi de carro/pilotou" -> o veiculo atravessa a tela com o 1o personagem ao volante
     _t = re.sub(r'[^a-z ]', '', __import__('unicodedata').normalize('NFKD', _b['say'].lower()).encode('ascii', 'ignore').decode())
-    if _b.get('veiculo') is None and _b.get('who') and not _b.get('interior') and not _b.get('batalha') and re.search(r'\bdirig|\bde carro\b|\bde caminhao\b|\bde carroca\b|\bde moto\b|\bpilotou|\bpilotava|\bao volante|\bmotorista|\bpedalou|\bpedalava', _t):
+    if _b.get('veiculo') is None and _b.get('who') and not _b.get('interior') and not _b.get('batalha') and re.search(r'\bdirig|\bde carro\b|\bde caminhao\b|\bde carroca\b|\bde moto\b|\bpilotou|\bpilotava|\bao volante|\bpedalou|\bpedalava', _t):
         _as = next((as_ for rx_, as_ in _VEIC if re.search(rx_, _t)), 'vehicles/car')
         _b['veiculo'] = {'asset': _as, 'motorista': _b['who'][0], 'de': -11, 'para': 11}; _b.setdefault('shot', 'two')
 for _b in B['beats']:   # NAVIO CHEGANDO/PARTINDO: plano aberto no cais para ver o navio andar na agua
@@ -44,6 +44,7 @@ for _b in B['beats']:
 USED_SETS = [SET] + sorted({b['set'] for b in B['beats'] if b.get('set') and b['set'] != SET and b['set'] in SETS_X})   # cenario por cena: "set" dentro do beat
 if B.get('serie') and B.get('ep'): B['titulo_base'] = B.get('titulo_base') or B.get('title', ID); B['title'] = f"{B['serie']} EP {int(B['ep']):02d} - {B['titulo_base']}"   # serie com episodio numerado no titulo e no nome do arquivo
 beats = B['beats']
+for _b0 in beats: _b0['_crowd_roteiro'] = 'crowd' in _b0   # multidao escrita no roteiro; as outras sao do diretor
 
 # ---------- script.txt (uma frase por linha) ----------
 with open(f'stories/{ID}/script.txt', 'w', encoding='utf-8') as f:
@@ -81,11 +82,13 @@ PROFISSOES = {  # "profissao" no figurino -> roupa, chapeu e tracos tipicos (o q
 for name, o in B.get('outfits', {}).items():
     o = {**PROFISSOES.get(str(o.get('profissao', '')).lower(), {}), **{k_: v_ for k_, v_ in o.items() if k_ != 'profissao'}}
     o = dict(o); mo = o.pop('moustache_on', None)
-    hats = o.pop('hats', None); hairs = o.pop('hairs', None)   # "hats": [...] -> chapeu diferente por variante; sem chapeu -> cor/corte de cabelo por variante
+    hats = o.pop('hats', None); hairs = o.pop('hairs', None)
+    jackets = o.pop('jackets', None) or ([c_ for c_ in ['#3f6fb5', '#6a4a2a', '#2a5a3a', '#8a3a2a', '#3a4a6a', '#7a6a3a', '#5a5a62', '#b0524a'] if c_ not in {str(v_.get('jacket', '')).lower() for k_, v_ in B.get('outfits', {}).items() if k_ not in ('POV', 'POVO')}] if name in ('POV', 'POVO') else None)   # povo: casaco de cor diferente por variante (multidao sem clones)   # "hats": [...] -> chapeu diferente por variante; sem chapeu -> cor/corte de cabelo por variante
     body = ', '.join(f'{k}: {json.dumps(v)}' for k, v in o.items())
     mou = f", ...(v % 2 ? {{ moustache: {json.dumps(mo)} }} : {{}})" if mo else ''
-    hv = (f", hat: {json.dumps(hats)}[v % {len(hats)}]" if hats else '') + ('' if (hats or o.get('hat')) else f", hat: 'hair', hair: {json.dumps(hairs or ['#5a3b2a', '#2a2018', '#b8862f', '#8a8a86', '#7a3a1c'])}[v % {len(hairs or [1]*5)}], hairStyle: [null, null, 'long', null, 'bun'][v % 5]")
-    outfits_js.append(f"{name}: (v = 0, e = {{}}) => ({{ _id: {json.dumps(name.lower())}, {body}, skin: {json.dumps(SKINS)}[v % 4]{hv}{mou}, ...(((v + {sum(ord(c) for c in name)}) % 6 === 4 && {json.dumps('glasses' not in o)}) ? {{ glasses: true }} : {{}}), ...(([1, 5].includes((v + {sum(ord(c) for c in name)}) % 6) && {json.dumps('beard' not in o and not o.get('rifle'))}) ? {{ beard: ['#3a2a1f', '#6b4a2a', '#8a8a86'][(v + {len(name)}) % 3] }} : {{}}), ...((((v + {sum(ord(c) for c in name)}) % 6 === 3) && {json.dumps('moustache' not in o and not mo)}) ? {{ moustache: ['#4a3020', '#2a201a', '#8a8a86'][v % 3] }} : {{}}), ...e }})")   # IDENTIDADE: cada personagem (nome + variante) ganha barba, bigode ou oculos proprios; soldado de fuzil fica sem barba
+    hv = (f", jacket: {json.dumps(jackets)}[v % {len(jackets)}]" if jackets else '') + (f", hat: {json.dumps(hats)}[v % {len(hats)}]" if hats else '') + ('' if (hats or o.get('hat')) else f", hat: 'hair', hair: {json.dumps(hairs or ['#5a3b2a', '#2a2018', '#b8862f', '#8a8a86', '#7a3a1c'])}[v % {len(hairs or [1]*5)}], hairStyle: [null, null, 'long', null, 'bun'][v % 5]")
+    _fixo = bool(o.get('pele') or o.get('fixo')); _mulher = o.get('hairStyle') in ('bun', 'long') or bool(o.get('mulher'))   # pessoa real (caricatura com "pele") ou "fixo": true -> sem oculos/barba/bigode sorteados (Trump nao ganha barba)
+    outfits_js.append(f"{name}: (v = 0, e = {{}}) => ({{ _id: {json.dumps(name.lower())}, {body}, skin: {json.dumps(SKINS)}[v % 4]{hv}{mou}, ...(((v + {sum(ord(c) for c in name)}) % 6 === 4 && {json.dumps('glasses' not in o and not _fixo)}) ? {{ glasses: true }} : {{}}), ...(([1, 5].includes((v + {sum(ord(c) for c in name)}) % 6) && {json.dumps('beard' not in o and not o.get('rifle') and not _fixo and not _mulher)}) ? {{ beard: ['#3a2a1f', '#6b4a2a', '#8a8a86'][(v + {len(name)}) % 3] }} : {{}}), ...((((v + {sum(ord(c) for c in name)}) % 6 === 3) && {json.dumps('moustache' not in o and not mo and not _fixo and not _mulher)}) ? {{ moustache: ['#4a3020', '#2a201a', '#8a8a86'][v % 3] }} : {{}}), ...e }})")   # IDENTIDADE: cada personagem (nome + variante) ganha barba, bigode ou oculos proprios; soldado de fuzil fica sem barba
 
 # ---------- posicoes automaticas ----------
 def slots(n):
@@ -146,12 +149,14 @@ LUGARES = [  # (palavra na narracao, [(modelo, x, z, escala), ...]) -- cenografi
     (r'\bpracas?\b|\bfonte\b', [('nature/fountain', 0.0, -4.5, 1.2), ('nature/bench', -3.6, -2.2, 1.2)]),
 ]
 # OBJETOS NOVOS de cada sessao ficam em obj_dict.d/<sessao>.json ([[regex, modelo, escala, grande?], ...]) -- cada sessao edita SO o seu arquivo, assim o merge entre sessoes nunca apaga objeto de ninguem
+for _rx, _mod in (B.get('objetos_do_video') or {}).items(): OBJ_DICT.insert(0, (_rx, _mod, 1.0, False))   # palavra->modelo que vale SO neste video (ex.: "\\bradio\\b": "kit/curie_box" na Marie Curie; noutro video radio e' aparelho)
 for _f in sorted(__import__('glob').glob('obj_dict.d/*.json')):
     try:
         for _e in json.load(open(_f, encoding='utf-8')):
             if not any(_e[1] == x[1] for x in OBJ_DICT): OBJ_DICT.append((_e[0], _e[1], float(_e[2]), _e[3] if len(_e) > 3 else False))
     except Exception as _x: print(f'AVISO: {_f} invalido ({_x})')
-FALTA_MODELAR = r'\b(pao|paes|queijo|peixe|peixes|vaca|vacas|cachorro|cachorros|gato|gatos|ovelha|ovelhas|piano|relogio|estatua|guilhotina|balanca|telefone|radio|bicicleta)\b'
+FALTA_MODELAR = r'\b(pao|paes|queijo|peixe|peixes|piano|relogio|estatua|guilhotina|balanca|telefone|radio|bicicleta)\b'
+def _sem_modelo(ws): return sorted(w_ for w_ in set(ws) if not any(re.search(o_[0], w_) for o_ in OBJ_DICT))   # palavra que ja tem modelo no OBJ_DICT (ex.: radio = elemento quimico da Marie Curie) nao e' falta
 def _heroi():   # OBJETO HEROI do video: "heroi" no topo do roteiro, ou o objeto do titulo, ou o objeto mais citado na narracao
     if 'heroi' in B: return B['heroi'] or None
     nz = lambda t: re.sub(r'[^a-z0-9 ]', '', unicodedata.normalize('NFKD', t.lower()).encode('ascii', 'ignore').decode())
@@ -234,7 +239,7 @@ if B.get('director') is not False and len(beats) > 6 and sum(1 for b in beats if
     _vir = [i for i in _cand if re.match(r'acontece que|na verdade|so que|o problema', re.sub(r'[^a-z ]', '', unicodedata.normalize('NFKD', beats[i]['say'].lower()).encode('ascii', 'ignore').decode()))]
     _pick = (_vir or sorted(_cand, key=lambda i: abs(i - (len(beats) * (0.3 if (_im and _im[0] > len(beats) / 2) else 0.7)))) or [None])[0]
     if _pick is not None:
-        _b = beats[_pick]; _b['impact'] = True; _b['_momento_auto'] = True; _b['shot'] = 'crowd'; _b.setdefault('crowd', {'n': 12, 'outfits': [w.split(':')[0] for w in _b.get('who', [])] or list(B.get('outfits', {'X': 0}))[:1], 'march': False, 'expr': 'shock'})
+        _b = beats[_pick]; _b['impact'] = True; _b['_momento_auto'] = True; _b['shot'] = 'crowd'; _povo = [k_ for k_ in B.get('outfits', {}) if k_ in ('POV', 'POVO', 'SOL', 'TRO') or B['outfits'][k_].get('hats')]; _b.setdefault('crowd', {'n': 12, 'outfits': _povo or [w.split(':')[0] for w in _b.get('who', [])] or list(B.get('outfits', {'X': 0}))[:1], 'march': False, 'expr': 'shock'})
         _b.setdefault('fx', []); _b.setdefault('sfx', [])
         if not _b['fx']: _b['fx'] = ['ring@12', 'dust@40']
         if not _b['sfx']: _b['sfx'] = ['sting@10', 'thump@40']
@@ -267,6 +272,13 @@ if B.get('director') is not False and len(beats) >= 5:
         if not _b.get('emus'): _b.setdefault('crowd', {'n': 8, 'outfits': list(dict.fromkeys(_o)), 'march': False})
         _w.append(i)
     if len(_w) < MIN_WIDE: print(f'AVISO: so {len(_w)} plano(s) aberto(s); a regra pede {MIN_WIDE}. Tire shot_lock/interior de alguma cena.')
+# MULTIDAO SEM CLONES (ordem do Gibson): multidao criada pelo diretor usa o figurino de POVO; rei, nobre, cientista, medico, padre, general... sao pessoas unicas e nao viram 12 copias
+_POVO = [k_ for k_, o_ in B.get('outfits', {}).items() if k_ in ('POV', 'POVO') or o_.get('hats')]
+_UNICO = {k_ for k_, o_ in B.get('outfits', {}).items() if str(o_.get('profissao', '')).lower() in ('rei', 'nobre', 'general', 'cientista', 'medico', 'padre', 'politico', 'empresario', 'jornalista') or o_.get('hat') == 'crown' or (k_ not in _POVO and not str(o_.get('profissao', '')).lower() in ('soldado', 'marinheiro', 'agricultor', 'camponesa', 'pescador', 'comerciante', 'padeiro') and not B.get('serie', '').lower().startswith('guerras'))}
+for _b in beats:
+    if _b.get('crowd') and not _b.get('_crowd_roteiro') and _POVO:
+        _ok = [o_ for o_ in _b['crowd'].get('outfits', []) if o_ not in _UNICO]
+        _b['crowd']['outfits'] = list(dict.fromkeys(_ok + _POVO))
 
 
 def build_beat(k, b):
@@ -282,6 +294,7 @@ def build_beat(k, b):
     # HORA DO DIA e CLIMA: campos "hora" (dia|tarde|pordosol|noite|amanhecer) e "clima" (sol|calor|chuva|tempestade|neve|neblina|vento|limpo), ou pelas palavras da narracao. Ficam valendo ate mudar.
     _h = b.get('hora') or ('noite' if re.search(r'noite|noescuro|madrugada|meianoite', _sy) else 'amanhecer' if re.search(r'amanhecer|manhaseguinte|nascerdosol|aurora|demanha', _sy) else 'pordosol' if re.search(r'pordosol|entardecer|anoitecer|fimdetarde|finaldetarde|fimdodia', _sy) else 'tarde' if re.search(r'atarde|detarde|natarde', _sy) else 'dia' if re.search(r'diaseguinte|diasdepois|semanasdepois|mesesdepois|anosdepois|meiodia|duranteodia', _sy) else None)
     _c = b.get('clima') or ('tempestade' if re.search(r'tempestade|temporal|trovao|raios', _sy) else 'chuva' if re.search(r'chuva|chovia|chovendo|choveu|aguaceiro', _sy) else 'neve' if re.search(r'neve|nevasca|nevava|nevando|inverno|congel|geada|muitofrio|friointenso|frioextremo|gelado|gelada', _sy) else 'neblina' if re.search(r'neblina|nevoeiro|nevoa|cerracao', _sy) else 'calor' if re.search(r'calor|solforte|solquente|escaldante|\\bseca\\b|sedeinsuport|muitoquente|deserto', _sy) else 'vento' if re.search(r'ventania|vendaval|furacao|ventoforte|\\bvento\\b|ventava|ventando', _sy) else None)
+    AMB['hora'] = B.get('hora'); AMB['clima'] = None if B.get('clima') in (None, 'limpo', 'sol') else B.get('clima')   # hora/clima valem SO na cena onde aparecem (campo ou narracao); fora disso, o padrao do topo do roteiro -- a noite/neve de uma cena nao vaza para o resto do video
     if _h: AMB['hora'] = _h
     if _c: AMB['clima'] = None if _c in ('limpo', 'sol') else _c
     b['_frio'] = AMB.get('clima') == 'neve'; b['_calor'] = AMB.get('clima') == 'calor'   # frio: os personagens tremem; calor: suam (luz de deserto)
@@ -339,8 +352,10 @@ def build_beat(k, b):
         sc = an[4] if len(an) > 4 else {'horse': 0.7, 'bear': 1.0, 'emu': 1.6}.get(sp, 1.0)
         key = 'bird' if sp in ('emu', 'goose', 'duck', 'chicken', 'rooster', 'gull') else 'animal'
         fl = 'true' if dxa > 0 else 'false'
-        if mv and key == 'animal' and sp in ('horse', 'bear'):
-            acts.append(f"{{ {key}: {json.dumps(sp)}, at: [X + {num(dxa - mv / 2)}, {num(za)}], move: [[X + {num(dxa + mv / 2)}, {num(za)}], {a}, {bb}, 'lin'], state: 'trot', spd: 0.09, s: {num(sc)}, flip: {'false' if mv > 0 else 'true'}, seed: {j * 3 + 1} }}")
+        if mv and key == 'animal': dxa = max(-1.1, min(1.1, dxa)); za = max(za, 1.6)   # andando: animal perto do centro e a frente (nao sai cortado na borda)
+        if mv and key == 'animal':   # cena andando/correndo: TODO animal anda junto (3D cavalo/urso; 2D cachorro, vaca, ovelha... olham para a esquerda -> flip ao ir para a direita)
+            _fl = ('false' if mv > 0 else 'true') if sp in ('horse', 'bear') else ('true' if mv > 0 else 'false')
+            acts.append(f"{{ {key}: {json.dumps(sp)}, at: [X + {num(dxa - mv / 2)}, {num(za)}], move: [[X + {num(dxa + mv / 2)}, {num(za)}], {a}, {bb}, 'lin'], state: 'trot', spd: 0.09, s: {num(sc)}, flip: {_fl}, seed: {j * 3 + 1} }}")
         else:
             acts.append(f"{{ {key}: {json.dumps(sp)}, at: [X + {num(dxa)}, {num(za)}], state: {json.dumps(st)}, s: {num(sc)}, flip: {fl}, seed: {j * 3 + 1} }}")
     # bando de emus: "emus": {"n":10, "mode":"stand|run|scatter", "x":3, "z":-1, "cols":4, "dir":1}
@@ -377,7 +392,7 @@ def build_beat(k, b):
             if c.get('march'):
                 acts.append(f"{{ outfit: {json.dumps(out)}, v: {i % 4}, at: [X + {num(x0 - 9)}, {num(z0)}], move: [[X + {num(x0 + 3)}, {num(z0)}], {a}, {bb}, 'lin'], pose: 'march', speed: 0.034, expr: {json.dumps(ex)}, seed: {i % 4}, look: {look} }}")
             else:
-                acts.append(f"pp(X, {json.dumps(out)}, {i % 4}, {num(x0)}, {num(z0)}, {json.dumps(ex)}, {{ look: {look}, seed: {i % 4 + (i * 3 if _px else 0)}{_px} }})")
+                acts.append(f"pp(X, {json.dumps(out)}, {i % 7}, {num(x0)}, {num(z0)}, {json.dumps(ex)}, {{ look: {look}, seed: {i % 4 + (i * 3 if _px else 0)}{_px} }})")   # 7 variantes: multidao com cores, chapeus e rostos variados
     # BATALHA COM CAMINHOES: "caminhoes": 2 -> caminhoes atras da tropa com soldados em pe na carroceria, atirando
     truck_props = []
     if b.get('caminhoes') and b.get('crowd'):
@@ -407,8 +422,8 @@ def build_beat(k, b):
             pr.append(f"{{ asset: {json.dumps(nm_)}, at: [X + {num(dx_)}, {num(z_)}], s: {num(s_)}, drop: false }}")
     # FACHADA: em plano medio ao ar livre, uma construcao logo atras dos personagens (canal: parede/fachada perto em 85% dos quadros)
     elif not wide_pre and b.get('fachada') is not False and not b.get('veiculo'):
-        fb = {'countryside': ['buildings/house_small', 'buildings/barn'], 'outback': ['buildings/barn', 'buildings/windmill'], 'street': ['buildings/shop', 'buildings/house_two'], 'medieval': ['buildings/castle_tower', 'buildings/house_small'], 'harbor': ['buildings/shop', 'buildings/lighthouse']}.get(b.get('set', SET))
-        if fb: pr.append(f"{{ asset: {json.dumps(fb[k % 2])}, at: [X + {num(4.5 if k % 2 else -4.5)}, -9.5], s: 1.25, ry: {num(-0.35 if k % 2 else 0.35)}, drop: false }}")
+        fb = {'countryside': ['buildings/house_small', 'buildings/house_two'], 'outback': ['buildings/house_small', 'buildings/windmill'], 'street': ['buildings/shop', 'buildings/house_two'], 'medieval': ['buildings/castle_tower', 'buildings/house_small'], 'harbor': ['buildings/shop', 'buildings/lighthouse']}.get(b.get('set', SET))
+        if fb: pr.append(f"{{ asset: {json.dumps(fb[k % 2])}, at: [X + {num(4.8 if k % 2 else -4.8)}, -11.0], s: 1.05, ry: {num(-0.35 if k % 2 else 0.35)}, drop: false }}")
     # OBJETOS DA HISTORIA: o que a narracao cita e existe na biblioteca entra em cena sozinho (ate 2 por cena)
     if b.get('objetos') is not False and not b.get('veiculo'):
         tem_ = {str(p_[0]) for p_ in props}; n_auto = 0
@@ -429,6 +444,8 @@ def build_beat(k, b):
     if re.search(r'queim|incendi|\bfogo\b|em chamas|\bchamas\b|fogueira nao', _say_sp) and not re.search(r'abriram fogo|abriu fogo|fogo amigo|cessar fogo|arma de fogo|tiro', _say_sp) and b.get('fogo') is not False and not b.get('interior'):
         props = props + [['kit/fire', -2.6, -2.2, 1.5], ['kit/fire', 2.9, -3.0, 1.9], ['kit/fire', 0.3, -5.0, 2.4]] + ([['kit/fire', -6, -7, 2.6], ['kit/fire', 6.5, -8, 2.8]] if wide_pre else [])
         b.setdefault('_auto_obj', []).append('kit/fire'); b['_fogo'] = True; b.setdefault('fx', []); b['fx'] = list(b['fx']) + ['puff@20', 'puff@60']; b.setdefault('sfx', []); b['sfx'] = list(b['sfx']) + ['whoosh@18']
+    if re.search(r'decol|levantou voo|lancad|lancou|subiu ao ceu|subiu para o ceu|foi para o espaco|rumo ao espaco', _say_sp):   # objetos que entraram sozinhos tambem decolam
+        props = [[{'kit/rocket': 'kit/falcon_air', 'kit/balloon': 'kit/balloon_air'}.get(str(p_[0]), p_[0])] + list(p_[1:]) for p_ in props]
     # LUGAR CITADO = LUGAR EM CENA (seguir o roteiro A RISCA): fazenda, casa, igreja, mercado, floresta, acampamento... entram como cenografia de fundo
     if b.get('objetos') is not False and not b.get('interior') and not b.get('veiculo'):
         tem2_ = {str(p_[0]) for p_ in props}; sd2_ = 1 if k % 2 else -1
@@ -446,8 +463,8 @@ def build_beat(k, b):
         asset, dx, z, s = p[0], p[1] if len(p) > 1 else 0, p[2] if len(p) > 2 else 0.5, p[3] if len(p) > 3 else 1.0
         ex = p[4] if len(p) > 4 and isinstance(p[4], dict) else {}
         if asset.startswith(('kit/', 'buildings/')) and 'drop' not in ex: ex = {**ex, 'drop': False}   # peca de cenario nao cai do ceu
-        extra = ''.join(f', {kk}: {json.dumps(vv)}' for kk, vv in ex.items() if kk not in ('alto', 'mover')) + (f", move: [[X + {num(ex['mover'][0])}, {num(ex['mover'][1])}], {a}, Math.round({a} + ({bb} - ({a})) * 0.85), 'sm'], drop: false" if ex.get('mover') else '')
-        pr.append(f"{{ asset: {json.dumps(asset)}, at: [X + {num(dx)}, {num(z)}], s: {num(s)}{extra} }}")
+        extra = ''.join(f', {kk}: {json.dumps(vv)}' for kk, vv in ex.items() if kk not in ('alto', 'mover', 'carregado') and not (kk == 'y' and ex.get('carregado'))) + (f", y: DK + {num(ex.get('y', 0.7))}, move: [[X + {num(dx + mv / 2)}, {num(z)}], {a}, {bb}, 'lin'], drop: false" if ex.get('carregado') and mv else '')   # OBJETO CARREGADO: ["kit/sink", dx_do_personagem + 0.5, z, escala, {"carregado": true}] em cena "track": anda junto na altura das maos + (f", move: [[X + {num(ex['mover'][0])}, {num(ex['mover'][1])}], {a}, Math.round({a} + ({bb} - ({a})) * 0.85), 'sm'], drop: false" if ex.get('mover') else '')
+        pr.append(f"{{ asset: {json.dumps(asset)}, at: [X + {num(dx - (mv / 2 if ex.get('carregado') else 0))}, {num(z)}], s: {num(s)}{extra} }}")
     # textos / efeitos
     fx = []
     for dx_, dz_, t_ in locals().get('DUST', []): fx.append(f"{{ k: 'dust', a: {a} + {t_}, b: {a} + {t_ + 30}, at: [X + {num(dx_)}, DK + 0.4, {num(dz_)}], s: 0.85 }}")
@@ -615,6 +632,19 @@ def build_beat(k, b):
     if b.get('set') and b['set'] != SET and b['set'] in SETS_X: call = ''.join(pt_ if i_ % 2 else re.sub(r'\bX\b', 'X_' + b['set'], pt_) for i_, pt_ in enumerate(re.split(r'("(?:[^"\\]|\\.)*")', call)))   # esta cena acontece em outro cenario (troca X so' no codigo, nunca dentro de texto: "RAIO X" ficava "RAIO X_hall")
     return call
 
+_ANIM_OK = {'cavalo': 'horse', 'cavalos': 'horse', 'urso': 'bear', 'ursos': 'bear', 'porco': 'pig', 'porcos': 'pig', 'galinha': 'chicken', 'galinhas': 'chicken', 'emu': 'emus', 'emus': 'emus', 'ganso': 'chicken', 'gansos': 'chicken', 'vaca': 'cow', 'vacas': 'cow', 'boi': 'cow', 'bois': 'cow', 'cachorro': 'dog', 'cachorros': 'dog', 'cao': 'dog', 'caes': 'dog', 'gato': 'cat', 'gatos': 'cat', 'ovelha': 'sheep', 'ovelhas': 'sheep', 'cabra': 'goat', 'cabras': 'goat', 'bode': 'goat', 'burro': 'donkey', 'burros': 'donkey', 'jumento': 'donkey', 'veado': 'deer', 'veados': 'deer', 'cervo': 'deer', 'cervos': 'deer', 'raposa': 'fox', 'raposas': 'fox', 'lobo': 'wolf', 'lobos': 'wolf', 'coelho': 'rabbit', 'coelhos': 'rabbit', 'leao': 'lion', 'leoes': 'lion', 'elefante': 'elephant', 'elefantes': 'elephant', 'pato': 'duck', 'patos': 'duck', 'galo': 'rooster', 'galos': 'rooster', 'gaivota': 'gull', 'gaivotas': 'gull'}   # todos os modelos de web/assets/animals/catalog.json
+_ANIM_ALL = r'\b(cavalo|cavalos|vaca|vacas|boi|bois|cachorro|cachorros|cao|caes|gato|gatos|ovelha|ovelhas|galinha|galinhas|porco|porcos|emu|emus|ganso|gansos|urso|ursos|lobo|lobos|elefante|elefantes|camelo|camelos|burro|burros|jumento|pato|patos|galo|galos|gaivota|gaivotas|cabra|cabras|bode|veado|veados|cervo|cervos|raposa|raposas|leao|leoes|coelho|coelhos|rato|ratos|pombo|pombos)\b'
+_nz0 = lambda t: re.sub(r'[^a-z0-9 ]', '', unicodedata.normalize('NFKD', t.lower()).encode('ascii', 'ignore').decode())
+for _b in beats:   # ANIMAL CITADO = ANIMAL 3D EM CENA, sozinho (biblioteca web/assets/animals + aves 2D); nunca modelar animal que ja existe
+    if _b.get('animals') or _b.get('emus') or _b.get('animais') is False or _b.get('mapa'): continue
+    _sp = list(dict.fromkeys(_ANIM_OK[a_] for a_ in re.findall(_ANIM_ALL, _nz0(_b['say'])) if a_ in _ANIM_OK))
+    if 'emus' in _sp: _b['emus'] = True; _sp.remove('emus')
+    if _sp: _b['animals'] = [[sp_, (1.9, -2.3, 2.9)[n_], (0.8, 1.1, 1.5)[n_]] for n_, sp_ in enumerate(_sp[:3])]
+for _b in beats:   # DECOLAGEM A RISCA: "decolou/lancado/subiu ao ceu" com foguete/balao em cena -> troca pela versao JA NO AR (com chamas/subindo)
+    if re.search(r'decol|levantou voo|lancad|lancou|subiu ao ceu|subiu para o ceu|foi para o espaco|rumo ao espaco', _nz0(_b['say'])):
+        for _p in _b.get('props', []):
+            _air = {'kit/rocket': 'kit/falcon_air', 'kit/balloon': 'kit/balloon_air', 'kit/tower': 'kit/booster_air'}.get(str(_p[0]))
+            if _air and os.path.exists(f'web/assets/library/{_air}.glb'): _p[0] = _air
 shots = [build_beat(k, b) for k, b in enumerate(beats)]
 A_js = ', '.join(['0'] + [f"WS({starts[k]}, -3)" for k in range(1, len(beats))] + ['TOTAL_F()'])
 assets = sorted(set(B.get('assets', []) + re.findall(r'asset: "([^"]+)"', ' '.join(shots)) + [p[0] for b in beats for p in b.get('props', [])] + [b['veiculo'].get('asset', 'vehicles/car') for b in beats if b.get('veiculo')]))
@@ -678,7 +708,7 @@ _falt_all = set()
 for k, b in enumerate(beats):
     sp_ = re.sub(r'[^a-z0-9 ]', '', unicodedata.normalize('NFKD', b['say'].lower()).encode('ascii', 'ignore').decode())
     objs = [str(p_[0]) for p_ in b.get('props', [])] + b.get('_auto_obj', []) + [a_[0] for a_ in b.get('animals', [])] + (['emus'] if b.get('emus') else []) + ([b['veiculo'].get('asset', 'carro')] if b.get('veiculo') else [])
-    falta = sorted(set(re.findall(FALTA_MODELAR, sp_)) | {o_ for o_ in objs if '/' in o_ and not _lib(o_)}); _falt_all |= set(falta)
+    falta = sorted(set(_sem_modelo(re.findall(FALTA_MODELAR, sp_))) | {o_ for o_ in objs if '/' in o_ and not _lib(o_)}); _falt_all |= set(falta)
     maos = [w.split(':')[3] for w in b.get('who', []) if len(w.split(':')) > 3]
     acao = ', '.join(x for x in ((b.get('_acao') or ''), ('INTERAGEM: ' + b['_inter'] if b.get('_inter') else ''), ('alguem chega andando' if b.get('_chega') else ''), ('andando' if b.get('shot') == 'track' or b.get('move') else ''), ('batalha' if b.get('impact') else '')) if x) or ('usa o objeto da mao' if maos else 'parados (so fala e pisca)')
     npers = len(b.get('who', [])) + int((b.get('crowd') or {}).get('n', 0))
@@ -730,8 +760,6 @@ def _redondo(as_):   # objeto do kit feito com blender/formas.py (malha 'red_...
     except Exception: return True
 _VARN = ['frente', '3/4 pela direita, mais perto e mais baixo', '3/4 pela esquerda, mais alto e aberto', 'leve direita, perto', 'esquerda alta, aberto', 'direita baixa']
 _STOPW = set('guerra causa vezes tempo coisa hora horas dias anos meses semanas noite manha tarde vida nada tudo todo toda todos todas mesmo mesma outro outra outros outras nome meio parte lado fim final verdade volta ideia ordem resposta historia mundo pais paises primeiro segundo terceiro ultimo unica unico dele dela deles delas quem qual onde quando para pelo pela entre sobre depois antes ainda apenas quase muito pouco mais menos maior menor inteiro inteira troca conta hoje nunca sempre'.split())
-_ANIM_OK = {'cavalo': 'horse', 'cavalos': 'horse', 'urso': 'bear', 'ursos': 'bear', 'porco': 'pig', 'porcos': 'pig', 'galinha': 'chicken', 'galinhas': 'chicken', 'emu': 'emus', 'emus': 'emus', 'ganso': 'chicken', 'gansos': 'chicken'}
-_ANIM_ALL = r'\b(cavalo|cavalos|vaca|vacas|boi|bois|cachorro|cachorros|cao|caes|gato|gatos|ovelha|ovelhas|galinha|galinhas|porco|porcos|emu|emus|ganso|gansos|urso|ursos|lobo|lobos|elefante|elefantes|camelo|camelos|burro|burros|coelho|coelhos|rato|ratos|pombo|pombos)\b'
 def _riscos(k, b):
     t = _nz(b['say']); nw = len(b['say'].split()); sh = b.get('shot'); R = []; cen = b.get('set', SET)
     if re.search(r'desembarc|barcos? cheg|navios? cheg|chegaram? de (barco|navio)|atravess\w* o (rio|mar|lago|canal)|ancor|zarp', t) and sh not in WIDE: R.append(('chegada/travessia pela agua em plano fechado: nao da para ver barco nem desembarque', '"shot": "reveal", "set": "harbor" nesta cena (plano aberto no cais, navios ao fundo)'))
@@ -745,7 +773,7 @@ def _riscos(k, b):
     # SEGUIR O ROTEIRO A RISCA (ordem do Gibson: 100% do que a narracao diz acontece na tela) -- cada familia de palavra EXIGE a acao correspondente
     if re.search(r'queim|incendi|\bfogo\b|em chamas|\bchamas\b', t) and not re.search(r'abriram fogo|abriu fogo|fogo amigo|cessar fogo|arma de fogo', t) and not b.get('_fogo'): R.append(('a narracao fala de FOGO e nao ha fogo em cena', 'tirar "interior"/"fogo": false desta cena (as labaredas entram sozinhas em cena externa) e por tocha na mao de quem ateia: "who": ["GAU:0:angry:torch", ...]'))
     if re.search(r'\bbatalha|\blutaram|\blutou|\batacaram|\batacou|\bataque\b|\bcombate|\binvadiram|\binvadiu|\binvadido|bombarde|\bguerrearam|tiroteio', t) and not (b.get('impact') or b.get('batalha')): R.append(('a narracao fala de BATALHA/ATAQUE e a cena nao encena a luta', '"batalha": true nesta cena (tropa dos dois lados no "crowd", tiros/golpes e gente fugindo); cada batalha citada no roteiro = uma cena com "batalha": true'))
-    if re.search(r'explodi|explos|\bbomba', t) and not (b.get('impact') or any(str(e_).startswith('burst') for e_ in b.get('fx', []))): R.append(('a narracao fala de EXPLOSAO e nao ha explosao', '"fx": ["burst@30"], "sfx": ["cannon@30"] (acerte o numero para o quadro da palavra)'))
+    if re.search(r'explodi|explos|\bbomba', t) and not (b.get('impact') or any(str(e_).startswith('burst') for e_ in b.get('fx', [])) or (re.search(r'\bbomba', t) and not re.search(r'explodi|explos', t) and any('bomb' in str(p_[0]) for p_ in b.get('props', [])))): R.append(('a narracao fala de EXPLOSAO e nao ha explosao', '"fx": ["burst@30"], "sfx": ["cannon@30"] (acerte o numero para o quadro da palavra)'))
     if re.search(r'\bfugiu|\bfugiram|\bcorreu|\bcorreram|debandada|\bfuga\b|bateu em retirada|recuaram', t) and not (b.get('impact') or b.get('shot') == 'track' or b.get('move') or b.get('_chega')): R.append(('a narracao fala de FUGA/CORRERIA e ninguem corre', '"shot": "track" (os personagens atravessam a tela andando/correndo) ou "batalha": true (a tropa foge no plano aberto)'))
     _hats = {str({**PROFISSOES.get(str(B.get('outfits', {}).get(w.split(':')[0], {}).get('profissao', '')).lower(), {}), **B.get('outfits', {}).get(w.split(':')[0], {})}.get('hat', '')) for w in b.get('who', [])}
     for rx_, ok_, pr_ in ((r'\brei\b|\brainha\b|imperador|imperatriz|\bsultao\b|\bprincipe\b', ('crown', 'turban'), 'rei'), (r'\bgeneral\b|almirante|\bcoronel\b|comandante|\bcapitao\b|marechal', ('shako_tall', 'shako', 'helmet'), 'general'), (r'campones|fazendeiro|agricultor|lavrador', ('straw', 'bonnet', 'slouch'), 'agricultor')):
@@ -754,9 +782,9 @@ def _riscos(k, b):
     if nw < 6 and 0 < k < len(beats) - 1: R.append((f'cena curta ({nw} palavras): nao da tempo de ler a acao', 'juntar com a cena vizinha'))
     if len(b.get('who', [])) > 4 and sh not in WIDE: R.append((f'{len(b.get("who", []))} personagens em plano fechado: alguem sai cortado', 'no maximo 3 no "who" (o resto vai em "crowd") ou "shot": "group"'))
     if b.get('interior') and (b.get('batalha') or (b.get('crowd') or {}).get('n', 0) > 6): R.append(('multidao/batalha dentro de sala: nao cabe', 'tirar "interior" desta cena (faz na rua/campo) ou reduzir o "crowd"'))
-    if re.search(r'\b(caminhao|caminhoes|trem|carro|carros|carroca|carrocas|aviao|avioes|tanque de guerra|bicicleta)\b', t) and not (b.get('veiculo') or b.get('caminhoes') or any(str(p_[0]).startswith('vehicles/') for p_ in b.get('props', []))): R.append(('veiculo citado e nao aparece', '"veiculo": {"asset": "vehicles/truck"} (ou wagon, locomotive, car, tank, airplane) ou "caminhoes": true na batalha'))
+    if re.search(r'\b(caminhao|caminhoes|trem|carro|carros|carroca|carrocas|aviao|avioes|tanque de guerra|bicicleta)\b', t) and not (b.get('veiculo') or b.get('caminhoes') or any(str(p_[0]).startswith(('vehicles/', 'kit/roadster', 'kit/b2', 'kit/helicopter', 'kit/falcon', 'kit/rocket', 'kit/booster', 'kit/tower', 'kit/balloon')) for p_ in b.get('props', []))): R.append(('veiculo citado e nao aparece', '"veiculo": {"asset": "vehicles/truck"} (ou wagon, locomotive, car, tank, airplane) ou "caminhoes": true na batalha'))
     if k >= 2 and all(not x.get('interior') and x.get('set', SET) == cen and x.get('shot') == sh and [w.split(':')[0] for w in x.get('who', [])] == [w.split(':')[0] for w in b.get('who', [])] for x in (beats[k - 1], beats[k - 2])) and sh not in WIDE: R.append(('3a cena seguida com o mesmo plano, lugar e personagens: fica repetitivo', 'trocar o "shot", levar para "interior" ou trocar quem aparece'))
-    fal = sorted(set(re.findall(FALTA_MODELAR, t)))
+    fal = _sem_modelo(re.findall(FALTA_MODELAR, t))
     if fal: R.append((f'objeto sem modelo 3D: {", ".join(fal)}', 'modelar em blender/make_objetos.py e por no OBJ_DICT, ou trocar a palavra'))
     if not (b.get('_acao') or b.get('_inter') or b.get('_chega') or b.get('impact') or sh in WIDE or sh == 'track' or any(len(w.split(':')) > 3 for w in b.get('who', []))): R.append(('personagens parados (so falam e piscam)', '"acao": "conversar|discutir|comemorar", "interacao": "empurrar|cochichar|entregar|susto", objeto na mao (4o campo do "who") ou "chega": true'))
     return R
@@ -794,7 +822,7 @@ for k, b in enumerate(beats):
     for o_ in dict.fromkeys([str(p_[0]) for p_ in b.get('props', [])] + [x for x in b.get('_auto_obj', []) if '/' in x or x in ('barrel', 'crate', 'cannon', 'ship')] + [a_[0] for a_ in b.get('animals', [])] + (['emu'] if b.get('emus') else []) + ([b['veiculo'].get('asset', 'vehicles/car')] if b.get('veiculo') else [])): _usados.setdefault(o_, []).append(f'b{k}')
 _pal = {}
 for k, b in enumerate(beats):
-    for w_ in re.findall(FALTA_MODELAR, _nz(b['say'])) + [a_ for a_ in re.findall(_ANIM_ALL, _nz(b['say'])) if a_ not in _ANIM_OK]: _pal.setdefault(w_, []).append(f'b{k}')
+    for w_ in _sem_modelo(re.findall(FALTA_MODELAR, _nz(b['say']))) + [a_ for a_ in re.findall(_ANIM_ALL, _nz(b['say'])) if a_ not in _ANIM_OK]: _pal.setdefault(w_, []).append(f'b{k}')
 _f2 += ['## PARA O BLENDER (objetos 3D deste video)', 'Regra: todo objeto, utensilio, veiculo e animal que aparece e\' modelo 3D feito no Blender; a ferramenta so\' poe em cena, pinta o contorno e anima. Nada de objeto "quadradao": use `blender/formas.py` (cil, bola, torno, tubo, arco, caixa com chanfro).', '',
         'Objeto | Cenas | Situacao | O que fazer', '---|---|---|---',
         *[f"{o_} | {', '.join(c_)} | {('pronto' if _redondo(o_) else 'CAIXOTE: refazer com formas.py') if (_lib(o_) or '/' not in o_) else 'FALTA'}{' (HEROI: aparece em close)' if HEROI and o_ == HEROI else ''} | {'conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py' if (_lib(o_) or '/' not in o_) else 'modelar antes de renderizar'}" for o_, c_ in _usados.items()],

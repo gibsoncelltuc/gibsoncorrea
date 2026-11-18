@@ -21,7 +21,7 @@ Depois: Curiosidade e Ciência CC 11–20.
 
 ## Curiosidade e Ciência CC 11–20 (sessão principal, depois das refações)
 CC 11 Röntgen e o raio X da mão · CC 12 Tycho Brahe e o nariz de metal · CC 13 Semmelweis e lavar as mãos · CC 14 Kekulé e o sonho da cobra · CC 15 O post-it (a cola que não colava) · CC 16 O velcro e os carrapichos · CC 17 Goodyear e a borracha no fogão · CC 18 Os Montgolfier, o balão, a ovelha, o pato e o galo · CC 19 Marie Curie e o caderno radioativo · CC 20 A dança das abelhas
-Entregues: CC 11 ✔
+Entregues: CC 11 ✔ · CC 12 ✔ · CC 13 ✔ · CC 14 ✔
 
 ## Notas para os roteiros novos
 - Fatos reais: confira data, lugar e nomes antes de escrever (se não tiver certeza de um detalhe, não afirme). Personagens desenhados são originais (bonecos), sem imitar pessoa real.
@@ -33,3 +33,5 @@ Entregues: CC 11 ✔
 ## Série 3 — "Poder e Fama" (Trump, Bukele, Elon Musk) — 20 vídeos, DEPOIS das listas acima
 Ler `FIGURINOS_FAMOSOS.md` (figurinos prontos e REGRAS obrigatórias: só fato real conferido, sem fala inventada, tom de curiosidade). `"serie": "Poder e Fama", "ep": N`.
 - Sessão A: PF 01–07 · Sessão B: PF 08–14 · Sessão principal: PF 15–20. Cada sessão escolhe os temas da lista de ideias do `FIGURINOS_FAMOSOS.md` (ou outros fatos conferidos), sem repetir: anote aqui o tema escolhido antes de começar.
+- Sessão principal escolheu (fora da lista de ideias, para não repetir): PF 15 = Trump na WrestleMania 23 (2007) · PF 16 = os braços que pegam o foguete no ar (Starship, 2024) · PF 17 = Bukele e o bitcoin minerado com vulcão (2021) · PF 18 = Trump: The Game, o jogo de tabuleiro (1989) · PF 19 = o macaco da Neuralink que jogou Pong com a mente (2021) · PF 20 = Tesla e a tequila (Teslaquila, 2020).
+- Sessão principal, pacote "5 maiores histórias de cada um" (pedido do Gibson): PF 21 reeleição de Trump 2024 · PF 22 captura de Maduro (Força Delta, 2026) · PF 23 Martelo da Meia-Noite (B-2 no Irã, 2025) · PF 24 Falcon 9 pousa de ré (2015) · PF 25 Roadster que pula carros (2026) · PF 26 Bukele reeleito com 84,6% (2024) · PF 27 CECOT, a mega-prisão (2023) · PF 28 selfie de Bukele na ONU (2019). NÃO repetir estes temas.

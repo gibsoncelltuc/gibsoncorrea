@@ -1,0 +1,312 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Poder e Fama",
+ "ep": 20,
+ "title": "A Piada que Virou Tequila",
+ "titulo_base": "A Piada que Virou Tequila",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/tequila_bolt",
+ "outfits": {
+  "MUS": {
+   "jacket": "#16181d",
+   "pants": "#22252c",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#3a2a1f",
+   "pele": "#f2e2d2"
+  },
+  "INV": {
+   "profissao": "empresario"
+  },
+  "MEX": {
+   "jacket": "#2a4a3a",
+   "pants": "#2a2a30",
+   "boots": "#3a2a1a",
+   "hat": "hair",
+   "hair": "#1b1b1f",
+   "moustache": "#1b1b1f",
+   "tie": "#d8282f",
+   "pele": "#c99067"
+  },
+  "FAN": {
+   "jacket": "#d8282f",
+   "pants": "#2a3a5a",
+   "boots": "#f4f1e8",
+   "hat": "cap",
+   "cap": "#1b1b1f"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "bowler"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "MUS:0:smug",
+    "FAN:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/tequila_bolt",
+     0,
+     -1.4,
+     1.1
+    ]
+   ],
+   "text": "1º DE ABRIL",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "Elon Musk fez uma piada de primeiro de abril sobre tequila. Dois anos depois, a piada virou produto de verdade."
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin"
+   ],
+   "mapa": "ESTADOS UNIDOS",
+   "mapa_at": 3,
+   "say": "Era primeiro de abril de dois mil e dezoito, o dia da mentira, nos Estados Unidos."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "INV:0:shock",
+    "MUS:0:laugh"
+   ],
+   "props": [
+    [
+     "kit/tequila_bolt",
+     1.6,
+     -0.8,
+     1.1
+    ]
+   ],
+   "acao": "discutir",
+   "say": "De brincadeira, Musk postou que a Tesla tinha falido, e apareceu cercado de garrafas de uma tal de Teslaquila."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "FAN:0:laugh",
+    "MUS:0:grin:paper"
+   ],
+   "interacao": "entregar",
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ],
+   "say": "Muita gente riu. Mas ele resolveu levar a ideia a sério, e tentou registrar o nome."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MEX:0:angry",
+    "MUS:0:surprised"
+   ],
+   "acao": "discutir",
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "say": "Acontece que o conselho que protege a tequila no México reclamou: o nome tequila tem regras, e não podia ser usado de qualquer jeito."
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "MUS:0:smug",
+    "MEX:0:smile"
+   ],
+   "props": [
+    [
+     "kit/tequila_bolt",
+     1.6,
+     -0.8,
+     1.1
+    ]
+   ],
+   "interacao": "cochichar",
+   "say": "Em dois mil e vinte, saiu com outro nome: Tesla Tequila, feita no México, com agave."
+  },
+  {
+   "shot": "close",
+   "interior": "loja",
+   "who": [
+    "FAN:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/tequila_bolt",
+     1.6,
+     -0.8,
+     1.1
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "ring@50"
+   ],
+   "sfx": [
+    "ding@20",
+    "sting@50"
+   ],
+   "say": "A garrafa era de vidro soprado à mão, em forma de raio, presa num suporte de metal.",
+   "acao": "comemorar"
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "FAN:0:shout",
+    "POV:0:surprised",
+    "POV:1:grin"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "POV",
+     "FAN"
+    ],
+    "march": false,
+    "expr": "surprised"
+   },
+   "props": [
+    [
+     "kit/tequila_bolt",
+     0,
+     -3.0,
+     1.4
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "ring@50"
+   ],
+   "sfx": [
+    "ding@20",
+    "sting@50"
+   ],
+   "text": "ESGOTOU",
+   "titulo": true,
+   "say": "Cada uma custava duzentos e cinquenta dólares. E esgotou em poucas horas."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "POV:0:smug:paper",
+    "FAN:0:nervous"
+   ],
+   "props": [
+    [
+     "kit/tequila_bolt",
+     1.6,
+     -0.8,
+     1.1
+    ]
+   ],
+   "interacao": "entregar",
+   "say": "Logo apareceu gente revendendo na internet. Até garrafas vazias, por centenas de dólares."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "FAN:0:shock",
+    "POV:1:surprised"
+   ],
+   "props": [
+    [
+     "kit/tequila_bolt",
+     1.6,
+     -0.8,
+     1.1
+    ]
+   ],
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "acao": "conversar",
+   "say": "Um anúncio passou de mil e quatrocentos dólares, por uma garrafa sem nenhuma gota dentro."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "FAN:0:laugh",
+    "POV:0:laugh",
+    "MUS:0:grin"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POV",
+     "FAN"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "props": [
+    [
+     "kit/tequila_bolt",
+     0,
+     -3.0,
+     1.4
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "COLEÇÃO",
+   "titulo": true,
+   "say": "A garrafa em forma de raio virou item de colecionador dos fãs da marca."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "MUS:0:smile"
+   ],
+   "props": [
+    [
+     "kit/tequila_bolt",
+     -1.4,
+     -0.8,
+     1.0
+    ]
+   ],
+   "acao": "comemorar",
+   "say": "Uma piada do dia da mentira que terminou numa prateleira de verdade."
+  }
+ ]
+}

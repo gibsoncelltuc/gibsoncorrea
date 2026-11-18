@@ -8,7 +8,7 @@
  "set": "mountain",
  "light": "golden",
  "mood": "playful",
- "heroi": "kit/dog",
+ "heroi": "kit/dog_sit",
  "outfits": {
   "GRE": {
    "profissao": "soldado",
@@ -58,13 +58,19 @@
    "say": "Um cachorro fugiu, e por causa dele dois países entraram em guerra, e dezenas de pessoas morreram.",
    "props": [
     [
-     "kit/dog",
-     1.4,
-     1.8,
-     1.4
+     "kit/dog_sit",
+     1.7,
+     -0.6,
+     1.1
     ]
    ],
-   "riscos_ok": true
+   "animals": [
+    [
+     "dog",
+     -2.4,
+     1.2
+    ]
+   ]
   },
   {
    "shot": "reveal",
@@ -83,7 +89,8 @@
    },
    "mapa": "BULGÁRIA",
    "mapa_at": 3,
-   "say": "Em mil novecentos e vinte e cinco, a fronteira entre a Grécia e a Bulgária era tensa, e os dois países viviam desconfiados."
+   "say": "Em mil novecentos e vinte e cinco, a fronteira entre a Grécia e a Bulgária era tensa, e os dois países viviam desconfiados.",
+   "props": []
   },
   {
    "shot": "track",
@@ -93,15 +100,14 @@
     "GRE:1:scared"
    ],
    "say": "Um soldado grego estava de guarda quando o cachorro dele fugiu para o outro lado da fronteira, atrás de nada.",
-   "props": [
+   "props": [],
+   "animals": [
     [
-     "kit/dog",
-     3.0,
-     1.2,
-     1.4
+     "dog",
+     2.2,
+     0.8
     ]
-   ],
-   "riscos_ok": true
+   ]
   },
   {
    "shot": "track",
@@ -111,15 +117,14 @@
     "GRE:1:angry"
    ],
    "say": "O soldado correu atrás do cachorro, e atravessou a fronteira sem pensar.",
-   "props": [
+   "props": [],
+   "animals": [
     [
-     "kit/dog",
-     3.5,
-     1.0,
-     1.4
+     "dog",
+     2.2,
+     0.8
     ]
-   ],
-   "riscos_ok": true
+   ]
   },
   {
    "shot": "two",
@@ -135,7 +140,8 @@
    "sfx": [
     "gun@60"
    ],
-   "say": "Do outro lado, uma sentinela búlgara viu um estranho armado, e atirou."
+   "say": "Do outro lado, uma sentinela búlgara viu um estranho armado, e atirou.",
+   "props": []
   },
   {
    "shot": "two",
@@ -145,7 +151,8 @@
     "GRE:1:angry"
    ],
    "interacao": "susto",
-   "say": "Acontece que o soldado morreu, e a Grécia deu um ultimato furioso à Bulgária."
+   "say": "Acontece que o soldado morreu, e a Grécia deu um ultimato furioso à Bulgária.",
+   "props": []
   },
   {
    "shot": "crowd",
@@ -167,7 +174,8 @@
    },
    "text": "INVASÃO",
    "titulo": true,
-   "say": "Poucos dias depois, o exército grego invadiu a Bulgária e ocupou a região de Petrich, e dezenas de pessoas morreram nos combates."
+   "say": "Poucos dias depois, o exército grego invadiu a Bulgária e ocupou a região de Petrich, e dezenas de pessoas morreram nos combates.",
+   "props": []
   },
   {
    "shot": "two",
@@ -177,7 +185,8 @@
     "PRE:0:nervous"
    ],
    "interacao": "susto",
-   "say": "A Bulgária pediu ajuda à Liga das Nações, a antecessora da ONU."
+   "say": "A Bulgária pediu ajuda à Liga das Nações, a antecessora da ONU.",
+   "props": []
   },
   {
    "shot": "two",
@@ -187,7 +196,8 @@
     "DIP:0:relief"
    ],
    "interacao": "entregar",
-   "say": "A Liga mandou a Grécia parar, retirar as tropas e pagar uma indenização."
+   "say": "A Liga mandou a Grécia parar, retirar as tropas e pagar uma indenização.",
+   "props": []
   },
   {
    "shot": "close",
@@ -198,13 +208,19 @@
    "say": "A Grécia obedeceu, e ninguém sabe o que aconteceu com o cachorro.",
    "props": [
     [
-     "kit/dog",
-     1.2,
-     0.5,
-     1.5
+     "kit/dog_sit",
+     -1.4,
+     -0.2,
+     1.1
     ]
    ],
-   "riscos_ok": true
+   "animals": [
+    [
+     "dog",
+     1.5,
+     1.5
+    ]
+   ]
   }
  ],
  "exp": 1.0

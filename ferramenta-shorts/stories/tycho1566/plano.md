@@ -5,8 +5,8 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | -  | placa: 1566 | perdeu (puff + som de baque); briga (puff + som de baque) | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | group | -  | interior, objeto na mao | festa (stars + som de sino) | -
-b3 | two | noite  | objeto na mao | briga (puff + som de baque) | -
-b4 | low | noite  | objeto na mao | - | -
+b3 | two | pordosol  | objeto na mao | briga (puff + som de baque) | -
+b4 | low | pordosol  | objeto na mao | - | -
 b5 | two | dia  | - | - | -
 b6 | group | -  | tropa | - | -
 b7 | crowd | noite  | batalha aberta com tiros, tropa, placa: MIL ESTRELAS, objeto na mao | - | -

@@ -1,0 +1,288 @@
+{
+ "duration": 68.832,
+ "frames30": 2065,
+ "source": "silence-align (cost 1.07)",
+ "segments": [
+  [
+   0.151792,
+   3.79929
+  ],
+  [
+   4.65208,
+   6.24246
+  ],
+  [
+   6.47808,
+   7.03942
+  ],
+  [
+   7.90792,
+   11.8732
+  ],
+  [
+   12.7203,
+   15.8945
+  ],
+  [
+   16.7459,
+   17.9697
+  ],
+  [
+   18.8029,
+   19.3178
+  ],
+  [
+   19.5841,
+   22.1316
+  ],
+  [
+   23.0028,
+   25.412
+  ],
+  [
+   25.6909,
+   27.4114
+  ],
+  [
+   28.237,
+   28.8744
+  ],
+  [
+   29.269,
+   30.9864
+  ],
+  [
+   31.2367,
+   32.3514
+  ],
+  [
+   33.1893,
+   35.0291
+  ],
+  [
+   35.8285,
+   37.3083
+  ],
+  [
+   38.1593,
+   41.3528
+  ],
+  [
+   42.2094,
+   43.3769
+  ],
+  [
+   44.2328,
+   45.6745
+  ],
+  [
+   45.9209,
+   46.474
+  ],
+  [
+   46.7555,
+   47.2355
+  ],
+  [
+   47.5815,
+   48.1806
+  ],
+  [
+   48.3983,
+   48.7753
+  ],
+  [
+   49.6396,
+   50.0827
+  ],
+  [
+   50.9286,
+   51.5311
+  ],
+  [
+   51.7645,
+   53.2725
+  ],
+  [
+   53.5345,
+   54.8366
+  ],
+  [
+   55.6905,
+   59.352
+  ],
+  [
+   60.2188,
+   61.4305
+  ],
+  [
+   62.3024,
+   63.3672
+  ],
+  [
+   63.606,
+   64.6057
+  ],
+  [
+   65.4806,
+   68.0227
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Uma das inven\u00e7\u00f5es mais usadas do mundo nasceu de um passeio com o cachorro.",
+   "s": 0.152,
+   "e": 3.799
+  },
+  {
+   "text": "Era mil novecentos e quarenta e um,",
+   "s": 4.652,
+   "e": 6.242
+  },
+  {
+   "text": "na Su\u00ed\u00e7a.",
+   "s": 6.478,
+   "e": 7.039
+  },
+  {
+   "text": "O engenheiro George de Mestral voltou de uma caminhada pela montanha com o seu cachorro.",
+   "s": 7.908,
+   "e": 11.873
+  },
+  {
+   "text": "O pelo do cachorro e a cal\u00e7a dele estavam cheios de carrapichos.",
+   "s": 12.72,
+   "e": 15.895
+  },
+  {
+   "text": "Dava um trabalh\u00e3o arrancar.",
+   "s": 16.746,
+   "e": 17.97
+  },
+  {
+   "text": "Curioso,",
+   "s": 18.803,
+   "e": 19.318
+  },
+  {
+   "text": "ele levou um carrapicho para casa e olhou no microsc\u00f3pio.",
+   "s": 19.584,
+   "e": 22.132
+  },
+  {
+   "text": "Acontece que cada espinho tinha um ganchinho na ponta,",
+   "s": 23.003,
+   "e": 25.412
+  },
+  {
+   "text": "que agarrava nas voltinhas do tecido.",
+   "s": 25.691,
+   "e": 27.411
+  },
+  {
+   "text": "Ele pensou:",
+   "s": 28.237,
+   "e": 28.874
+  },
+  {
+   "text": "e se eu fizer uma fita de ganchinhos,",
+   "s": 29.269,
+   "e": 30.986
+  },
+  {
+   "text": "e outra de voltinhas?",
+   "s": 31.237,
+   "e": 32.351
+  },
+  {
+   "text": "Gruda e solta quantas vezes quiser.",
+   "s": 33.189,
+   "e": 35.029
+  },
+  {
+   "text": "Os tecel\u00f5es riram da ideia.",
+   "s": 35.828,
+   "e": 37.308
+  },
+  {
+   "text": "Levou quase dez anos de tentativas at\u00e9 acertar o material.",
+   "s": 38.159,
+   "e": 41.353
+  },
+  {
+   "text": "O segredo foi o n\u00e1ilon.",
+   "s": 42.209,
+   "e": 43.377
+  },
+  {
+   "text": "E o nome veio do franc\u00eas:",
+   "s": 44.233,
+   "e": 45.675
+  },
+  {
+   "text": "velours,",
+   "s": 45.921,
+   "e": 46.474
+  },
+  {
+   "text": "veludo,",
+   "s": 46.755,
+   "e": 47.236
+  },
+  {
+   "text": "e crochet,",
+   "s": 47.581,
+   "e": 48.181
+  },
+  {
+   "text": "gancho.",
+   "s": 48.398,
+   "e": 48.775
+  },
+  {
+   "text": "Velcro!",
+   "s": 49.64,
+   "e": 50.083
+  },
+  {
+   "text": "No come\u00e7o,",
+   "s": 50.929,
+   "e": 51.531
+  },
+  {
+   "text": "muita gente achou o velcro feio,",
+   "s": 51.764,
+   "e": 53.273
+  },
+  {
+   "text": "e as vendas foram fracas.",
+   "s": 53.535,
+   "e": 54.837
+  },
+  {
+   "text": "At\u00e9 que astronautas passaram a usar o velcro para prender coisas no espa\u00e7o.",
+   "s": 55.691,
+   "e": 59.352
+  },
+  {
+   "text": "E o mundo inteiro quis.",
+   "s": 60.219,
+   "e": 61.431
+  },
+  {
+   "text": "Hoje ele est\u00e1 em t\u00eanis,",
+   "s": 62.302,
+   "e": 63.367
+  },
+  {
+   "text": "mochilas e roupas.",
+   "s": 63.606,
+   "e": 64.606
+  },
+  {
+   "text": "E tudo come\u00e7ou com um cachorro cheio de carrapichos.",
+   "s": 65.481,
+   "e": 68.023
+  }
+ ]
+}

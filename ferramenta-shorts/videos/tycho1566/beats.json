@@ -86,7 +86,7 @@
   },
   {
    "shot": "two",
-   "hora": "noite",
+   "hora": "pordosol",
    "who": [
     "TYC:0:angry:sword",
     "PAR:0:shout:sword"
@@ -103,7 +103,7 @@
   },
   {
    "shot": "low",
-   "hora": "noite",
+   "hora": "pordosol",
    "who": [
     "PAR:0:angry:sword",
     "TYC:0:pained:sword"

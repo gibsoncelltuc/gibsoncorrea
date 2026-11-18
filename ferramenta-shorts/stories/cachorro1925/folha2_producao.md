@@ -8,7 +8,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): GRE (variante 0, expressao shock); BUL (variante 0, expressao neutral) | multidao: 5 de GRE/BUL
 - Animacao: discutir | interacao: discutir | o ultimo personagem ENTRA andando
-- Objetos/modelos: kit/dog
+- Objetos/modelos: kit/dog_sit, dog
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, pessoas
 - RISCOS: nenhum
 
@@ -28,7 +28,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): GRE (variante 0, expressao nervous); GRE (variante 1, expressao scared)
 - Animacao: -
-- Objetos/modelos: kit/dog
+- Objetos/modelos: dog
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, fronteira, guarda, soldado
 - RISCOS: nenhum
 
@@ -38,7 +38,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): GRE (variante 0, expressao shout); GRE (variante 1, expressao angry)
 - Animacao: -
-- Objetos/modelos: kit/dog
+- Objetos/modelos: dog
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, fronteira, soldado
 - RISCOS: nenhum
 
@@ -98,7 +98,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): GRE (variante 0, expressao sad)
 - Animacao: conversar
-- Objetos/modelos: kit/dog
+- Objetos/modelos: kit/dog_sit, dog
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, grecia
 - RISCOS: nenhum
 
@@ -107,12 +107,12 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/dog | b0, b2, b3, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-cachorro (citado na narracao) | b0, b0, b2, b2, b3, b3, b9, b9 | FALTA | pesquisar referencia (referencias/LEIA.md) e modelar: `blender/objetos_<sessao>.py` com formas.py -> `kit/cachorro.glb` (altura real em metros; cores chapadas; partes redondas com cil/bola/torno); cadastrar em `obj_dict.d/<sessao>.json`; `blender -b --python blender/objetos_<sessao>.py`; `python3 capacidades.py`; depois rodar este roteiro de novo
+kit/dog_sit | b0, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+dog | b0, b2, b3, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/dog | grandes momentos: b4, b6 | planos abertos: 2 | mistura: close 19% | medio 64% | aberto 14% | detalhe 3%
+- Objeto heroi: kit/dog_sit | grandes momentos: b4, b6 | planos abertos: 2 | mistura: close 19% | medio 64% | aberto 14% | detalhe 3%
 - Interacoes: b0 discutir, b4 empurrar, b5 susto, b7 susto, b8 entregar
 - RISCOS GERAIS: nenhum
 

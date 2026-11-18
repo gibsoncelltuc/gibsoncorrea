@@ -1,0 +1,349 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Poder e Fama",
+ "ep": 15,
+ "title": "Trump na Batalha dos Bilionários",
+ "titulo_base": "Trump na Batalha dos Bilionários",
+ "set": "stadium",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/clipper",
+ "outfits": {
+  "TRU": {
+   "jacket": "#1f2f5c",
+   "pants": "#1f2f5c",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#f2c84a",
+   "tie": "#d8282f",
+   "pele": "#f5c49a",
+   "build": "stout"
+  },
+  "VIN": {
+   "jacket": "#2a2a30",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#3a2a1f",
+   "tie": "#5a5a62",
+   "pele": "#f0c8a0"
+  },
+  "VIB": {
+   "jacket": "#2a2a30",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#f0c8a0",
+   "tie": "#5a5a62",
+   "pele": "#f0c8a0"
+  },
+  "LAS": {
+   "jacket": "#7a4a2e",
+   "pants": "#1b1b1f",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#1b1b1f",
+   "pele": "#7a4a2e",
+   "build": "stout"
+  },
+  "UMA": {
+   "jacket": "#8a5a3a",
+   "pants": "#d8282f",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#1b1b1f",
+   "pele": "#8a5a3a",
+   "build": "stout"
+  },
+  "JUI": {
+   "jacket": "#1b1b1f",
+   "pants": "#1b1b1f",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#f0c8a0",
+   "beard": "#5a3a22",
+   "pele": "#f0c8a0"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "bowler"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "TRU:0:smug",
+    "VIN:0:shock"
+   ],
+   "props": [
+    [
+     "kit/clipper",
+     0,
+     -1.4,
+     1.0
+    ]
+   ],
+   "text": "2007",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "Antes de virar presidente, Donald Trump entrou num ringue de luta livre, e raspou a cabeça de outro bilionário."
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin"
+   ],
+   "mapa": "ESTADOS UNIDOS",
+   "mapa_at": 3,
+   "say": "Foi em abril de dois mil e sete, em Detroit, no maior show de luta livre do mundo."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "TRU:0:angry",
+    "VIN:0:shout"
+   ],
+   "acao": "discutir",
+   "say": "Como todo show de luta, a rivalidade era combinada: Trump contra o dono da empresa de luta, Vince McMahon."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "VIN:0:smug",
+    "TRU:0:suspicious"
+   ],
+   "props": [
+    [
+     "kit/clipper",
+     1.6,
+     -0.8,
+     1.1
+    ]
+   ],
+   "interacao": "entregar",
+   "fx": [
+    "ring@40"
+   ],
+   "sfx": [
+    "sting@40"
+   ],
+   "say": "A aposta era maluca: cada um escolheu um lutador, e o dono de quem perdesse teria a cabeça raspada."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "POV:0:laugh",
+    "POV:1:shout",
+    "POV:2:grin"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 22,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "fx": [
+    "stars@20"
+   ],
+   "sfx": [
+    "ding@20"
+   ],
+   "text": "80 MIL",
+   "titulo": true,
+   "say": "Mais de oitenta mil pessoas lotaram o estádio, para ver a Batalha dos Bilionários."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "LAS:0:angry",
+    "UMA:0:shout"
+   ],
+   "props": [
+    [
+     "kit/ring",
+     0,
+     0.6,
+     1.0
+    ]
+   ],
+   "interacao": "empurrar",
+   "fx": [
+    "puff@30"
+   ],
+   "sfx": [
+    "thump@30"
+   ],
+   "say": "No ringue, o lutador de Trump, Bobby Lashley, enfrentou o gigante Umaga, do lado de McMahon."
+  },
+  {
+   "shot": "low",
+   "who": [
+    "JUI:0:smug",
+    "UMA:0:angry"
+   ],
+   "props": [
+    [
+     "kit/ring",
+     0,
+     0.6,
+     1.0
+    ]
+   ],
+   "interacao": "susto",
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "say": "Acontece que o juiz convidado era Steve Austin, famoso por derrubar todo mundo. A luta virou bagunça."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "LAS:0:laugh",
+    "TRU:0:laugh",
+    "POV:0:shout"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 22,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "props": [
+    [
+     "kit/ring",
+     0,
+     0.6,
+     1.0
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "VITÓRIA",
+   "titulo": true,
+   "say": "No fim, o lutador de Trump venceu. O estádio inteiro foi abaixo."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "TRU:0:laugh",
+    "VIN:0:scared"
+   ],
+   "props": [
+    [
+     "kit/ring",
+     0,
+     0.6,
+     1.0
+    ],
+    [
+     "kit/clipper",
+     1.6,
+     -0.6,
+     1.1
+    ]
+   ],
+   "interacao": "empurrar",
+   "fx": [
+    "puff@40"
+   ],
+   "sfx": [
+    "whoosh@40"
+   ],
+   "say": "Trump e Lashley seguraram McMahon, e passaram a máquina de raspar na cabeça dele."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "VIB:0:cry"
+   ],
+   "props": [
+    [
+     "kit/clipper",
+     1.6,
+     -0.8,
+     1.0
+    ]
+   ],
+   "fx": [
+    "ring@20"
+   ],
+   "sfx": [
+    "sting@20"
+   ],
+   "say": "O dono da luta livre saiu do ringue completamente careca."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "JUI:0:smug",
+    "TRU:0:shock"
+   ],
+   "props": [
+    [
+     "kit/ring",
+     0,
+     0.6,
+     1.0
+    ]
+   ],
+   "interacao": "empurrar",
+   "fx": [
+    "puff@30"
+   ],
+   "sfx": [
+    "thump@30"
+   ],
+   "say": "E ainda sobrou para Trump: o juiz aplicou um golpe nele também, e ele foi ao chão."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "TRU:0:smile"
+   ],
+   "props": [
+    [
+     "kit/clipper",
+     -1.4,
+     -0.8,
+     1.0
+    ]
+   ],
+   "text": "HALL DA FAMA",
+   "say": "Seis anos depois, Trump entrou para o Hall da Fama da luta livre. Tudo por causa de um corte de cabelo.",
+   "acao": "comemorar"
+  }
+ ]
+}
