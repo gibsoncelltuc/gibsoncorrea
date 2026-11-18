@@ -73,9 +73,9 @@
  ],
  [
   "mechazilla|pauzinhos|torre de lancamento",
-  "kit/tower_catch",
+  "kit/tower_mini",
   1.0,
-  true
+  false
  ],
  [
   "\\bvulcao\\b|\\bvulcoes\\b",

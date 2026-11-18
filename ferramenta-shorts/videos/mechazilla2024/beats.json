@@ -5,10 +5,10 @@
  "ep": 16,
  "title": "A Torre que Pegou um Foguete no Ar",
  "titulo_base": "A Torre que Pegou um Foguete no Ar",
- "set": "outback",
+ "set": "harbor",
  "light": "day",
  "mood": "playful",
- "heroi": "kit/tower_catch",
+ "heroi": "kit/tower_mini",
  "outfits": {
   "MUS": {
    "jacket": "#16181d",
@@ -55,10 +55,16 @@
    ],
    "props": [
     [
+     "kit/tower_mini",
+     0,
+     -1.2,
+     1.0
+    ],
+    [
      "kit/tower_catch",
-     2.6,
-     -7.0,
-     1.5
+     3.4,
+     -15.0,
+     1.3
     ]
    ],
    "text": "2024",
@@ -98,9 +104,9 @@
    "props": [
     [
      "kit/tower",
-     2.6,
-     -7.0,
-     1.5
+     3.4,
+     -15.0,
+     1.3
     ]
    ],
    "interacao": "entregar",
@@ -121,9 +127,9 @@
    "props": [
     [
      "kit/tower",
-     2.6,
-     -7.0,
-     1.5
+     3.4,
+     -15.0,
+     1.3
     ]
    ],
    "acao": "conversar",
@@ -149,15 +155,15 @@
    "props": [
     [
      "kit/booster_air",
-     -1.5,
-     -8.0,
-     1.5
+     -2.0,
+     -15.0,
+     1.3
     ],
     [
      "kit/tower",
-     2.6,
-     -7.0,
-     1.5
+     3.4,
+     -15.0,
+     1.3
     ]
    ],
    "fx": [
@@ -178,15 +184,15 @@
    "props": [
     [
      "kit/booster_air",
-     -1.5,
-     -8.0,
-     1.5
+     -2.0,
+     -15.0,
+     1.3
     ],
     [
      "kit/tower",
-     2.6,
-     -7.0,
-     1.5
+     3.4,
+     -15.0,
+     1.3
     ]
    ],
    "fx": [
@@ -206,9 +212,15 @@
    "props": [
     [
      "kit/tower_catch",
-     2.6,
-     -7.0,
-     1.5
+     3.4,
+     -15.0,
+     1.3
+    ],
+    [
+     "kit/tower_mini",
+     1.6,
+     -0.8,
+     1.0
     ]
    ],
    "fx": [
@@ -242,9 +254,9 @@
    "props": [
     [
      "kit/tower_catch",
-     2.6,
-     -7.0,
-     1.5
+     3.4,
+     -15.0,
+     1.3
     ]
    ],
    "fx": [
@@ -283,9 +295,9 @@
    "props": [
     [
      "kit/tower_catch",
-     2.6,
-     -7.0,
-     1.5
+     3.4,
+     -15.0,
+     1.3
     ]
    ],
    "acao": "conversar",
@@ -299,9 +311,15 @@
    "props": [
     [
      "kit/tower_catch",
-     2.6,
-     -7.0,
-     1.5
+     3.4,
+     -15.0,
+     1.3
+    ],
+    [
+     "kit/tower_mini",
+     -1.5,
+     -0.8,
+     1.0
     ]
    ],
    "acao": "comemorar",

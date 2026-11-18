@@ -1,5 +1,5 @@
 # PF 16 Starship: torre de lancamento com os bracos ("pauzinhos") e o propulsor. Gera 3: tower_catch (foguete preso nos bracos), tower (torre vazia), booster_air (foguete descendo com fogo). blender -b --python blender/objetos_pf16.py
-import sys, os, math as m; sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); from formas import *
+import sys, os, math as m; sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); from formas import *; from formas import _S
 def torre(braco_y):
     caixa((0, .15, 0), (3.2, .3, 3.2), '#8a8a90', 1.0)                         # base de concreto
     for (x, z) in ((-.6, -.6), (.6, -.6), (.6, .6), (-.6, .6)): caixa((x - 1.6, 4.3, z), (.16, 8.2, .16), '#3a3a40', 1.0)   # 4 colunas da torre
@@ -21,3 +21,7 @@ def foguete(y0, fogo):
 novo('tower_catch'); torre(6.4); foguete(3.3, False); fim(0.02)
 novo('tower'); torre(6.4); fim(0.02)
 novo('booster_air'); foguete(6.0, True); fim(0.02)
+novo('tower_mini'); torre(6.4); foguete(3.3, False)                              # MAQUETE (objeto heroi de perto): a torre com o foguete preso, em miniatura num pedestal
+for v in _S['bm'].verts: v.co *= .16; v.co.z += .42
+torno((-.1, 0, 0), [(.3, 0), (.32, .04), (.2, .08), (.16, .34), (.28, .38), (.3, .42), (0, .42)], '#3a3a40', 24)
+fim(0.004)
