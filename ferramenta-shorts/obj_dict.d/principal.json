@@ -1,1 +1,20 @@
-[]
+[
+ [
+  "\\btubo\\b|\\btubos\\b",
+  "kit/crookes_tube",
+  1.0,
+  false
+ ],
+ [
+  "\\bchapa\\b|\\bossos\\b|\\braio x\\b|\\braios x\\b|radiografia|\\btela\\b",
+  "kit/xray_plate",
+  1.0,
+  false
+ ],
+ [
+  "\\bnariz\\b|\\bnarizes\\b|protese",
+  "kit/brass_nose",
+  1.0,
+  false
+ ]
+]

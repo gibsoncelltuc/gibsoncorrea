@@ -18,7 +18,7 @@ angry, bored, cry, dazed, grin, laugh, lick, nervous, neutral, pained, relief, r
 "acao": conversar | discutir | comemorar | dancar | nenhuma ; "interacao": empurrar | discutir | cochichar | entregar | susto | reverencia | pular ; "chega": true (entra andando) ; "batalha": true (tropa, tiros, fuga) ; "caminhoes": true
 
 ## Objeto na mao (4o campo do "who": "FAZ:0:stern:coin")
-bottle, mug, paper, book, lantern, pitchfork, staff, flag, torch, bag, coin, spyglass, shovel, tulip, money (notas de dolar)
+bottle, mug, paper, book, lantern, pitchfork, staff, flag, torch, bag, coin, spyglass, shovel, tulip, money (notas de dolar), sword (espada)
 
 ## Chapeus ("hat" no figurino)
 beret, bonnet, bowler, cap, crown, fez, hair, helmet, shako, shako_tall, slouch, straw, tophat, turban, wizard
@@ -68,12 +68,15 @@ padeiro, agricultor, nobre, politico, empresario, rei, general, soldado, marinhe
 - buildings/church  <- \bigreja\b|\bcatedral\b  (fundo, so cena externa)
 - buildings/lighthouse  <- \bfarol\b  (fundo, so cena externa)
 - buildings/bridge  <- \bponte\b  (fundo, so cena externa)
+- kit/crookes_tube  <- \btubo\b|\btubos\b
+- kit/xray_plate  <- \bchapa\b|\bossos\b|\braio x\b|\braios x\b|radiografia|\btela\b
+- kit/brass_nose  <- \bnariz\b|\bnarizes\b|protese
 - kit/apple  <- \bmaca\b|\bmacas\b|\bmacieiras?\b
 - kit/bathtub  <- \bbanheira\b|\bbanho\b
 - kit/crown  <- \bcoroa\b
 
 ## Biblioteca 3D completa (use em "props": [["pasta/nome", x, z, escala]])
-- kit: apple, ball, barrel_r, bathtub, cake_table, campfire, chest, cross, crown, ear_jar, feather, fire, golden_stool, grave, kettle, lobster, microwave, petri, pisa_tower, porch, room_shop, room_stone, room_wood, stall, syringe, tent, throne, tulip_bed, tulip_purple, tulip_red, tulip_striped, tulip_yellow
+- kit: apple, ball, barrel_r, bathtub, brass_nose, cake_table, campfire, chest, crookes_tube, cross, crown, ear_jar, feather, fire, flag_pole, golden_stool, grave, kettle, lobster, microwave, petri, pisa_tower, porch, room_shop, room_stone, room_wood, stall, syringe, tent, throne, tulip_bed, tulip_purple, tulip_red, tulip_striped, tulip_yellow, xray_plate
 - buildings: apartment, barn, bridge, castle_tower, church, house_blue, house_small, house_two, lighthouse, shop, skyscraper, windmill
 - vehicles: airplane, bicycle, car, car_blue, helicopter, jeep, locomotive, motorboat, motorcycle, sailboat, tank, taxi, truck, wagon
 - nature: bench, bush, flowerbed, fountain, haybale, lamppost, picket_fence, rocks, scarecrow, tree_birch, tree_oak, tree_palm, tree_pine
