@@ -60,11 +60,11 @@
    "say": "Roma inteira foi salva por um bando de gansos barulhentos."
   },
   {
-   "shot": "group",
+   "shot": "crowd",
    "who": [
-    "GAU:0:grin",
-    "GAU:1:stern",
-    "GAU:2:stern"
+    "GAU:0:angry:torch",
+    "GAU:1:shout:torch",
+    "ROM:0:scared"
    ],
    "mapa": "ROMA",
    "say": "Os gauleses tinham invadido a cidade, e queimado quase tudo. Quem não fugiu, morreu.",
@@ -75,7 +75,18 @@
    "sfx": [
     "thump@20",
     "thump@55"
-   ]
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 16,
+    "outfits": [
+     "GAU",
+     "ROM"
+    ],
+    "march": false,
+    "expr": "shock"
+   }
   },
   {
    "shot": "group",

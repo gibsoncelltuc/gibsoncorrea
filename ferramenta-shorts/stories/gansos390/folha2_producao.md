@@ -14,16 +14,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b1 - Os gauleses tinham invadido a cidade, e queimado quase tudo. Quem não ...
 - Cenario: medieval | luz: day | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (3): GAU (variante 0, expressao grin); GAU (variante 1, expressao stern); GAU (variante 2, expressao stern) | multidao: 8 de GAU
-- Animacao: -
-- Objetos/modelos: buildings/apartment, buildings/house_two, nature/lamppost
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (3): GAU (variante 0, expressao angry, segura torch); GAU (variante 1, expressao shout, segura torch); ROM (variante 0, expressao scared) | multidao: 16 de GAU/ROM
+- Animacao: - | batalha encenada
+- Objetos/modelos: kit/fire, buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, gauleses
 - RISCOS: nenhum
 
 ## Cena b2 - Os romanos que sobraram se trancaram no Capitólio, uma colina cercada ...
-- Cenario: medieval | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (3): ROM (variante 0, expressao nervous); ROM (variante 1, expressao pained); MAN (variante 0, expressao stern)
@@ -34,7 +34,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Lá em cima, a fome apertava. "Vamos comer os gansos", pediu um soldado...
 - Cenario: medieval | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): ROM (variante 1, expressao pained); ROM (variante 2, expressao stern) | multidao: 10 de ROM
 - Animacao: discutir
@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Numa noite sem lua, os gauleses escalaram a colina em silêncio. Os gua...
-- Cenario: medieval | luz: noite | clima: limpo
+- Cenario: mountain | luz: noite | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (3): GAU (variante 0, expressao stern); GAU (variante 1, expressao nervous); GAU (variante 2, expressao stern)
@@ -54,10 +54,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Acontece que os gansos acordaram, e começaram a gritar e a bater as as...
 - Cenario: medieval | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (1): ROM (variante 2, expressao shock) | multidao: 12 de ROM
-- Animacao: reagir | batalha encenada
+- Camera: low = camera baixa, dramatica (virada) + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (1): ROM (variante 2, expressao shock)
+- Animacao: reagir
 - Objetos/modelos: goose
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): asas, bater, gansos, gritar
 - RISCOS: nenhum
@@ -74,7 +74,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - O alarme acordou todo mundo, os romanos correram para a muralha, e o a...
 - Cenario: medieval | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): ROM (variante 0, expressao stern); MAN (variante 0, expressao stern); GAU (variante 0, expressao shock) | multidao: 16 de ROM/GAU
 - Animacao: reagir | batalha encenada
@@ -108,6 +108,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 goose | b0, b3, b5, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/fire | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/apartment | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -115,7 +116,7 @@ buildings/castle_tower | b2, b6, b7 | pronto | conferir na folha de contato se l
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b5, b7 | planos abertos: 4 | mistura: close 11% | medio 60% | aberto 24% | detalhe 5%
+- Objeto heroi: - | grandes momentos: b1, b7 | planos abertos: 3 | mistura: close 18% | medio 56% | aberto 18% | detalhe 7%
 - Interacoes: b0 susto, b2 insiste, b4 aproxima-se, b6 empurrar, b8 o outro se aproxima
 - RISCOS GERAIS: nenhum
 
