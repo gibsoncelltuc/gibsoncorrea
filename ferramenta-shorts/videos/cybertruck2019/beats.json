@@ -6,7 +6,7 @@
  "title": "A Janela do Cybertruck",
  "titulo_base": "A Janela do Cybertruck",
  "set": "hall",
- "light": "day",
+ "light": "golden",
  "mood": "playful",
  "heroi": "kit/steel_ball",
  "outfits": {
@@ -25,6 +25,13 @@
    "hat": "hair",
    "hair": "#4a3a2a",
    "pele": "#e8c8a8"
+  },
+  "POV": {
+   "jacket": "#3a8a5a",
+   "pants": "#2a3a5a",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#6a3a1a"
   }
  },
  "beats": [
@@ -221,5 +228,5 @@
    "impact": false
   }
  ],
- "exp": 1.0
+ "exp": 0.9
 }
