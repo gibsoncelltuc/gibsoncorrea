@@ -1,0 +1,252 @@
+{
+ "duration": 54.576,
+ "frames30": 1637,
+ "source": "silence-align (cost 0.75)",
+ "segments": [
+  [
+   0.153667,
+   3.59933
+  ],
+  [
+   4.454,
+   5.92654
+  ],
+  [
+   6.22754,
+   7.32096
+  ],
+  [
+   7.57437,
+   10.854
+  ],
+  [
+   11.685,
+   12.8795
+  ],
+  [
+   13.0804,
+   15.5102
+  ],
+  [
+   15.7175,
+   16.6818
+  ],
+  [
+   17.5282,
+   17.971
+  ],
+  [
+   18.169,
+   20.9565
+  ],
+  [
+   21.7971,
+   22.4303
+  ],
+  [
+   22.7045,
+   24.6725
+  ],
+  [
+   24.9727,
+   25.5001
+  ],
+  [
+   26.3493,
+   27.718
+  ],
+  [
+   27.9481,
+   28.7026
+  ],
+  [
+   29.5425,
+   30.3765
+  ],
+  [
+   30.6047,
+   31.4622
+  ],
+  [
+   31.7155,
+   33.0869
+  ],
+  [
+   33.947,
+   36.3589
+  ],
+  [
+   36.5742,
+   38.3538
+  ],
+  [
+   39.2197,
+   39.919
+  ],
+  [
+   40.1665,
+   42.4973
+  ],
+  [
+   42.8601,
+   44.5282
+  ],
+  [
+   45.452,
+   46.0635
+  ],
+  [
+   46.3307,
+   47.637
+  ],
+  [
+   47.8378,
+   50.0319
+  ],
+  [
+   50.878,
+   51.263
+  ],
+  [
+   51.497,
+   53.7735
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um mofo esquecido no meio da bagun\u00e7a acabou salvando milh\u00f5es de vidas.",
+   "s": 0.154,
+   "e": 3.599
+  },
+  {
+   "text": "Era mil novecentos e vinte e oito,",
+   "s": 4.454,
+   "e": 5.927
+  },
+  {
+   "text": "num hospital de Londres,",
+   "s": 6.228,
+   "e": 7.321
+  },
+  {
+   "text": "e o cientista Alexander Fleming era famoso pela mesa bagun\u00e7ada.",
+   "s": 7.574,
+   "e": 10.854
+  },
+  {
+   "text": "Ele estudava bact\u00e9rias,",
+   "s": 11.685,
+   "e": 12.88
+  },
+  {
+   "text": "e deixava os pratos de cultura empilhados na bancada,",
+   "s": 13.08,
+   "e": 15.51
+  },
+  {
+   "text": "sem pressa nenhuma.",
+   "s": 15.717,
+   "e": 16.682
+  },
+  {
+   "text": "Um dia,",
+   "s": 17.528,
+   "e": 17.971
+  },
+  {
+   "text": "ele saiu de f\u00e9rias por duas semanas e n\u00e3o limpou nada.",
+   "s": 18.169,
+   "e": 20.956
+  },
+  {
+   "text": "Quando voltou,",
+   "s": 21.797,
+   "e": 22.43
+  },
+  {
+   "text": "achou um prato com bolor verde e disse:",
+   "s": 22.704,
+   "e": 24.672
+  },
+  {
+   "text": "\"Que sujeira!\"",
+   "s": 24.973,
+   "e": 25.5
+  },
+  {
+   "text": "Ele ia jogar o prato fora,",
+   "s": 26.349,
+   "e": 27.718
+  },
+  {
+   "text": "mas olhou melhor.",
+   "s": 27.948,
+   "e": 28.703
+  },
+  {
+   "text": "Acontece que,",
+   "s": 29.543,
+   "e": 30.377
+  },
+  {
+   "text": "em volta do mofo,",
+   "s": 30.605,
+   "e": 31.462
+  },
+  {
+   "text": "as bact\u00e9rias tinham sumido.",
+   "s": 31.715,
+   "e": 33.087
+  },
+  {
+   "text": "O mofo soltava algo que matava as bact\u00e9rias,",
+   "s": 33.947,
+   "e": 36.359
+  },
+  {
+   "text": "e ele deu a isso o nome de penicilina.",
+   "s": 36.574,
+   "e": 38.354
+  },
+  {
+   "text": "Anos depois,",
+   "s": 39.22,
+   "e": 39.919
+  },
+  {
+   "text": "outros cientistas transformaram o bolor em rem\u00e9dio,",
+   "s": 40.166,
+   "e": 42.497
+  },
+  {
+   "text": "e ele salvou milh\u00f5es de pessoas.",
+   "s": 42.86,
+   "e": 44.528
+  },
+  {
+   "text": "Fleming ganhou,",
+   "s": 45.452,
+   "e": 46.063
+  },
+  {
+   "text": "junto com dois colegas,",
+   "s": 46.331,
+   "e": 47.637
+  },
+  {
+   "text": "o pr\u00eamio Nobel em mil novecentos e quarenta e cinco.",
+   "s": 47.838,
+   "e": 50.032
+  },
+  {
+   "text": "No fim,",
+   "s": 50.878,
+   "e": 51.263
+  },
+  {
+   "text": "a bagun\u00e7a dele valeu mais que qualquer faxina.",
+   "s": 51.497,
+   "e": 53.773
+  }
+ ]
+}

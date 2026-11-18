@@ -1,4 +1,5 @@
 [["\\bmaca\\b|\\bmacas\\b|\\bmacieiras?\\b", "kit/apple", 1.0, false],
  ["\\bbanheira\\b|\\bbanho\\b", "kit/bathtub", 1.0, false],
  ["\\bcoroa\\b", "kit/crown", 0.8, false],
- ["\\bpena\\b", "kit/feather", 1.0, false]]
+ ["\\bpena\\b", "kit/feather", 1.0, false],
+ ["\\bpratos?\\b|\\bmofo\\b|\\bbolor\\b", "kit/petri", 1.0, false]]

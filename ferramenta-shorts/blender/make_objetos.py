@@ -136,3 +136,15 @@ for k in range(6):
     z = -0.3 + k * 0.12; w = 0.3 - abs(k - 2.5) * 0.04
     box((0.12, 0.05, z), (w, 0.02, 0.1), '#ffffff'); box((-0.12, 0.05, z), (w, 0.02, 0.1), '#f4f0e6')
 done()
+from mathutils import Matrix
+def _petri(bm, mats):   # prato de Petri: disco de agar claro, mancha verde de bolor no meio e halo limpo ao redor
+    for v in bm.verts: v.co.z *= 0.16; v.co.z += 0.06
+    mats.append(mat('petg', '#4f9a3c')); mats.append(mat('petc', '#f6f1d8'))
+    n0 = len(bm.faces)
+    r = bmesh.ops.create_icosphere(bm, subdivisions=2, radius=0.34, matrix=Matrix.Translation((0.0, 0.0, 0.07)))
+    for v in r['verts']: v.co.z = (v.co.z - 0.07) * 0.12 + 0.145
+    for f in {f for v in r['verts'] for f in v.link_faces}: f.material_index = 2     # halo claro (bacterias mortas)
+    r = bmesh.ops.create_icosphere(bm, subdivisions=2, radius=0.14, matrix=Matrix.Translation((0.0, 0.0, 0.07)))
+    for v in r['verts']: v.co.z = (v.co.z - 0.07) * 0.5 + 0.17
+    for f in {f for v in r['verts'] for f in v.link_faces}: f.material_index = 1     # bolor verde
+sphere('petri', 0.62, 0.0, '#d9b45a', _petri)
