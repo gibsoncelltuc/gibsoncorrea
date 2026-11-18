@@ -5,7 +5,7 @@
  "ep": 27,
  "title": "A Maior Prisão das Américas",
  "titulo_base": "A Maior Prisão das Américas",
- "set": "outback",
+ "set": "street",
  "light": "day",
  "mood": "playful",
  "heroi": "kit/prison_mini",
@@ -50,25 +50,30 @@
    "jacket": "#f2f2f2",
    "pants": "#f2f2f2",
    "boots": "#d8d8d8",
-   "pele": "#b8865a",
-   "hat": "hair",
-   "hair": "#1a1210"
+   "pele": "#b8865a"
   },
   "PR3": {
    "jacket": "#e8e8e8",
    "pants": "#e8e8e8",
    "boots": "#d8d8d8",
-   "pele": "#d8a878",
-   "hat": "hair",
-   "hair": "#4a3022"
+   "pele": "#d8a878"
+  },
+  "POL": {
+   "profissao": "soldado",
+   "jacket": "#1b2a4a",
+   "pants": "#1b2a4a",
+   "boots": "#1b1b1f",
+   "hat": "helmet",
+   "cap": "#1b2a4a",
+   "pele": "#d8a878"
   }
  },
  "beats": [
   {
    "shot": "two",
    "who": [
-    "BUK:0:stern",
-    "REP:0:surprised:paper"
+    "BUK:0:smile",
+    "REP:0:surprised"
    ],
    "props": [
     [
@@ -78,24 +83,27 @@
      1.0
     ]
    ],
-   "text": "2023",
+   "detalhe": false,
+   "say": "El Salvador construiu uma prisão tão grande que virou notícia no mundo inteiro.",
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
    "fx": [
-    "stars@30"
+    "dust@6"
    ],
    "sfx": [
-    "ding@30"
-   ],
-   "say": "El Salvador construiu uma prisão tão grande que virou notícia no mundo inteiro.",
-   "detalhe": false
+    "thump@6"
+   ]
   },
   {
-   "shot": "reveal",
-   "who": [
-    "POV:0:surprised",
-    "POV:1:nervous"
-   ],
    "mapa": "EL SALVADOR",
    "mapa_at": 3,
+   "shot": "reveal",
+   "set": "mountain",
+   "who": [
+    "POL:0:stern",
+    "REP:0:neutral"
+   ],
    "props": [
     [
      "kit/prison",
@@ -104,26 +112,119 @@
      1.2
     ]
    ],
-   "say": "Ela foi inaugurada em janeiro de dois mil e vinte e três, numa área isolada do país."
+   "say": "Ela foi inaugurada em janeiro de dois mil e vinte e três, numa área isolada do país.",
+   "tiros": false,
+   "batalha": false,
+   "impact": false
   },
   {
    "shot": "two",
-   "who": [
-    "REP:0:worried:paper",
-    "POV:0:scared"
-   ],
-   "acao": "discutir",
-   "say": "Por anos, El Salvador teve uma das maiores taxas de assassinato do mundo, por causa das gangues."
-  },
-  {
-   "shot": "two",
-   "interior": "loja",
    "who": [
     "BUK:0:stern",
-    "GUA:0:stern"
+    "REP:0:worried"
    ],
-   "interacao": "entregar",
+   "say": "Por anos, El Salvador teve uma das maiores taxas de assassinato do mundo, por causa das gangues.",
+   "tiros": false,
+   "batalha": false,
+   "impact": false
+  },
+  {
+   "shot": "track",
+   "who": [
+    "POL:0:stern",
+    "PRE:0:scared",
+    "POL:1:stern",
+    "PR2:0:nervous"
+   ],
+   "props": [
+    [
+     "kit/prison",
+     0,
+     -13.0,
+     1.1
+    ]
+   ],
    "say": "Em dois mil e vinte e dois, o presidente Nayib Bukele decretou estado de exceção, e milhares de suspeitos foram presos.",
+   "tiros": false,
+   "batalha": false,
+   "impact": false
+  },
+  {
+   "text": "40 MIL",
+   "fx": [
+    "puff@8"
+   ],
+   "sfx": [
+    "thump@8"
+   ],
+   "shot": "crowd",
+   "who": [
+    "POL:0:stern",
+    "PRE:0:scared",
+    "PR2:0:sad"
+   ],
+   "crowd": {
+    "n": 26,
+    "outfits": [
+     "PRE",
+     "PR2",
+     "PR3",
+     "PRE",
+     "POL"
+    ],
+    "march": false,
+    "expr": "sad"
+   },
+   "props": [
+    [
+     "kit/prison",
+     0,
+     -12.0,
+     1.1
+    ]
+   ],
+   "say": "Para guardar tanta gente, ergueram o Centro de Confinamento do Terrorismo, com vagas para quarenta mil presos.",
+   "tiros": false,
+   "batalha": false,
+   "impact": true
+  },
+  {
+   "shot": "low",
+   "who": [
+    "POL:0:stern",
+    "POL:1:angry"
+   ],
+   "props": [
+    [
+     "kit/prison",
+     0,
+     -10.0,
+     1.1
+    ],
+    [
+     "buildings/castle_tower",
+     3.2,
+     -9.0,
+     0.9
+    ]
+   ],
+   "detalhe": false,
+   "say": "Muralhas altas, cercas elétricas e torres de vigia por todos os lados.",
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "acao": "conversar"
+  },
+  {
+   "shot": "two",
+   "who": [
+    "BUK:0:grin",
+    "REP:0:surprised"
+   ],
+   "say": "Acontece que, nos anos seguintes, o número de assassinatos no país despencou.",
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
    "props": [
     [
      "kit/prison_mini",
@@ -134,118 +235,64 @@
    ]
   },
   {
-   "shot": "crowd",
+   "shot": "two",
+   "interior": "pedra",
    "who": [
-    "PRE:0:stern",
-    "PR2:0:stern",
-    "PR3:0:angry"
+    "PRE:0:sad",
+    "PR2:0:cry"
    ],
-   "batalha": true,
-   "tiros": false,
-   "crowd": {
-    "n": 16,
-    "outfits": [
-     "PRE",
-     "PR2",
-     "PR3"
+   "props": [
+    [
+     "kit/bunk",
+     -1.7,
+     -0.4,
+     1.0
     ],
-    "march": false,
-    "expr": "stern"
-   },
-   "props": [
     [
-     "kit/prison",
-     0,
-     -13.0,
-     1.2
+     "kit/bunk",
+     1.7,
+     -0.4,
+     1.0
     ]
    ],
+   "detalhe": false,
+   "say": "Organizações de direitos humanos denunciaram prisões sem julgamento, e mortes sob custódia.",
+   "tiros": false,
+   "batalha": false,
+   "impact": false
+  },
+  {
+   "shot": "two",
+   "who": [
+    "BUK:0:smile",
+    "REP:0:suspicious"
+   ],
+   "acao": "conversar",
+   "say": "O governo responde que as ruas ficaram seguras, e que a maioria da população apoia.",
+   "tiros": false,
+   "batalha": false,
+   "impact": false
+  },
+  {
+   "text": "DEBATE",
    "fx": [
     "ring@30"
    ],
    "sfx": [
     "sting@30"
    ],
-   "text": "40 MIL",
-   "titulo": true,
-   "say": "Para guardar tanta gente, ergueram o Centro de Confinamento do Terrorismo, com vagas para quarenta mil presos."
-  },
-  {
-   "shot": "low",
-   "who": [
-    "GUA:0:stern"
-   ],
-   "props": [
-    [
-     "kit/prison",
-     0,
-     -11.0,
-     1.1
-    ]
-   ],
-   "fx": [
-    "puff@30"
-   ],
-   "sfx": [
-    "thump@30"
-   ],
-   "say": "Muralhas altas, cercas elétricas e torres de vigia por todos os lados.",
-   "acao": "conversar",
-   "detalhe": false
-  },
-  {
-   "shot": "two",
-   "who": [
-    "REP:0:surprised:paper",
-    "BUK:0:smug"
-   ],
-   "acao": "conversar",
-   "fx": [
-    "stars@40"
-   ],
-   "sfx": [
-    "ding@40"
-   ],
-   "say": "Acontece que, nos anos seguintes, o número de assassinatos no país despencou."
-  },
-  {
-   "shot": "two",
-   "who": [
-    "REP:0:suspicious",
-    "POV:0:worried"
-   ],
-   "acao": "discutir",
-   "fx": [
-    "ring@30"
-   ],
-   "sfx": [
-    "sting@30"
-   ],
-   "say": "Organizações de direitos humanos denunciaram prisões sem julgamento, e mortes sob custódia."
-  },
-  {
-   "shot": "two",
-   "interior": "loja",
-   "who": [
-    "BUK:0:stern",
-    "REP:0:nervous:paper"
-   ],
-   "acao": "discutir",
-   "say": "O governo responde que as ruas ficaram seguras, e que a maioria da população apoia."
-  },
-  {
    "shot": "crowd",
    "who": [
     "POV:0:surprised",
     "POV:1:grin",
-    "POV:2:worried"
+    "POL:0:stern"
    ],
-   "batalha": true,
-   "tiros": false,
    "crowd": {
     "n": 18,
     "outfits": [
-     "POV"
+     "POV",
+     "POL",
+     "PRE"
     ],
     "march": false,
     "expr": "surprised"
@@ -254,35 +301,32 @@
     [
      "kit/prison",
      0,
-     -14.0,
-     1.2
+     -13.0,
+     1.1
     ]
    ],
-   "fx": [
-    "ring@30"
-   ],
-   "sfx": [
-    "sting@30"
-   ],
-   "text": "DEBATE",
-   "titulo": true,
-   "say": "A prisão virou símbolo do país. Para uns, de segurança. Para outros, de excesso."
+   "say": "A prisão virou símbolo do país. Para uns, de segurança. Para outros, de excesso.",
+   "tiros": false,
+   "batalha": false,
+   "impact": true
   },
   {
    "shot": "close",
    "who": [
-    "BUK:0:stern"
+    "BUK:0:smug"
    ],
    "props": [
     [
      "kit/prison",
-     -1.0,
+     0,
      -12.0,
-     0.9
+     1.0
     ]
    ],
-   "acao": "conversar",
-   "say": "E o modelo passou a ser estudado, copiado e criticado em vários lugares do mundo."
+   "say": "E o modelo passou a ser estudado, copiado e criticado em vários lugares do mundo.",
+   "tiros": false,
+   "batalha": false,
+   "impact": false
   }
  ],
  "fontes": [
