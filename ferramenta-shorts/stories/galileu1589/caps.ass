@@ -1,0 +1,100 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Cap,Inter Black,88,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,0,0,0,0,100,100,0,0,1,6,3,5,50,50,0,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.16,0:00:00.72,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Uma bola
+Dialogue: 0,0:00:00.74,0:00:01.29,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}pesada e
+Dialogue: 0,0:00:01.31,0:00:01.73,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}outra leve
+Dialogue: 0,0:00:01.75,0:00:02.31,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}caíram juntas
+Dialogue: 0,0:00:02.33,0:00:02.88,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}e bateram
+Dialogue: 0,0:00:02.90,0:00:03.17,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}no chão
+Dialogue: 0,0:00:03.19,0:00:03.60,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}ao mesmo
+Dialogue: 0,0:00:03.62,0:00:04.16,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}tempo.
+Dialogue: 0,0:00:04.79,0:00:05.21,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Conta a
+Dialogue: 0,0:00:05.23,0:00:05.84,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}história que,
+Dialogue: 0,0:00:05.86,0:00:06.51,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}em Pisa,
+Dialogue: 0,0:00:06.53,0:00:07.28,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}na Itália,
+Dialogue: 0,0:00:07.32,0:00:07.74,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}por volta
+Dialogue: 0,0:00:07.75,0:00:08.02,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}de mil
+Dialogue: 0,0:00:08.04,0:00:08.60,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}quinhentos e
+Dialogue: 0,0:00:08.62,0:00:09.29,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}noventa,
+Dialogue: 0,0:00:09.31,0:00:09.77,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}um jovem
+Dialogue: 0,0:00:09.79,0:00:10.25,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}professor
+Dialogue: 0,0:00:10.27,0:00:10.89,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}desafiou um
+Dialogue: 0,0:00:10.91,0:00:11.80,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}sábio famoso.
+Dialogue: 0,0:00:12.41,0:00:12.70,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}O sábio
+Dialogue: 0,0:00:12.72,0:00:13.88,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}era Aristóteles,
+Dialogue: 0,0:00:13.90,0:00:14.31,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}que dizia
+Dialogue: 0,0:00:14.33,0:00:14.74,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}que quanto
+Dialogue: 0,0:00:14.76,0:00:15.31,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}mais pesado
+Dialogue: 0,0:00:15.33,0:00:16.08,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}o objeto,
+Dialogue: 0,0:00:16.10,0:00:16.56,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}mais rápido
+Dialogue: 0,0:00:16.58,0:00:17.31,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}ele cai.
+Dialogue: 0,0:00:17.93,0:00:18.51,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Todo mundo
+Dialogue: 0,0:00:18.53,0:00:19.37,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}achava óbvio,
+Dialogue: 0,0:00:19.39,0:00:19.81,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}e ninguém
+Dialogue: 0,0:00:19.83,0:00:20.81,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}tinha testado.
+Dialogue: 0,0:00:21.40,0:00:21.95,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Mas Galileu
+Dialogue: 0,0:00:21.97,0:00:22.66,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Galilei achou
+Dialogue: 0,0:00:22.68,0:00:23.23,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}estranho e
+Dialogue: 0,0:00:23.25,0:00:23.64,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}disse:
+Dialogue: 0,0:00:23.66,0:00:23.96,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}"Eu vou
+Dialogue: 0,0:00:23.98,0:00:24.44,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}provar o
+Dialogue: 0,0:00:24.46,0:00:25.04,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}contrário."
+Dialogue: 0,0:00:25.64,0:00:26.04,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Dizem que
+Dialogue: 0,0:00:26.06,0:00:26.47,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}ele foi
+Dialogue: 0,0:00:26.49,0:00:26.75,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}até a
+Dialogue: 0,0:00:26.77,0:00:27.45,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}torre inclinada
+Dialogue: 0,0:00:27.47,0:00:28.15,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}de Pisa,
+Dialogue: 0,0:00:28.19,0:00:28.52,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}com duas
+Dialogue: 0,0:00:28.54,0:00:29.05,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}bolas de
+Dialogue: 0,0:00:29.07,0:00:29.40,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}pesos
+Dialogue: 0,0:00:29.42,0:00:30.37,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}diferentes.
+Dialogue: 0,0:00:30.99,0:00:32.03,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Acontece que,
+Dialogue: 0,0:00:32.05,0:00:32.59,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}quando ele
+Dialogue: 0,0:00:32.61,0:00:33.02,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}soltou as
+Dialogue: 0,0:00:33.04,0:00:33.32,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}duas,
+Dialogue: 0,0:00:33.34,0:00:34.05,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}elas bateram
+Dialogue: 0,0:00:34.07,0:00:34.34,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}no chão
+Dialogue: 0,0:00:34.36,0:00:34.78,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}ao mesmo
+Dialogue: 0,0:00:34.80,0:00:35.34,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}tempo.
+Dialogue: 0,0:00:35.91,0:00:36.33,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}A plateia
+Dialogue: 0,0:00:36.35,0:00:36.78,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}ficou de
+Dialogue: 0,0:00:36.80,0:00:37.79,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}boca aberta,
+Dialogue: 0,0:00:37.81,0:00:38.07,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}e os
+Dialogue: 0,0:00:38.09,0:00:38.63,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}professores
+Dialogue: 0,0:00:38.65,0:00:39.60,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}ficaram bravos.
+Dialogue: 0,0:00:40.20,0:00:40.50,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Hoje se
+Dialogue: 0,0:00:40.52,0:00:40.99,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}discute se
+Dialogue: 0,0:00:41.01,0:00:41.95,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}isso aconteceu
+Dialogue: 0,0:00:41.97,0:00:42.54,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}mesmo,
+Dialogue: 0,0:00:42.61,0:00:42.85,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}porque a
+Dialogue: 0,0:00:42.87,0:00:43.23,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}história vem
+Dialogue: 0,0:00:43.25,0:00:43.49,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}de um
+Dialogue: 0,0:00:43.51,0:00:44.32,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}aluno dele,
+Dialogue: 0,0:00:44.34,0:00:45.34,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}anos depois.
+Dialogue: 0,0:00:45.95,0:00:46.18,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Mas em
+Dialogue: 0,0:00:46.20,0:00:46.80,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}mil novecentos
+Dialogue: 0,0:00:46.82,0:00:47.30,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}e setenta
+Dialogue: 0,0:00:47.32,0:00:47.82,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}e um,
+Dialogue: 0,0:00:47.85,0:00:48.55,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}na Lua,
+Dialogue: 0,0:00:48.60,0:00:49.26,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}um astronauta
+Dialogue: 0,0:00:49.28,0:00:49.66,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}soltou um
+Dialogue: 0,0:00:49.68,0:00:50.20,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}martelo e
+Dialogue: 0,0:00:50.22,0:00:50.96,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}uma pena,
+Dialogue: 0,0:00:50.98,0:00:51.34,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}e os
+Dialogue: 0,0:00:51.36,0:00:51.92,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}dois caíram
+Dialogue: 0,0:00:51.94,0:00:52.58,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}juntos.
+Dialogue: 0,0:00:53.19,0:00:53.83,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}No fim,
+Dialogue: 0,0:00:53.85,0:00:54.12,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}até a
+Dialogue: 0,0:00:54.14,0:00:54.55,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}pena deu
+Dialogue: 0,0:00:54.57,0:00:54.98,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}razão ao
+Dialogue: 0,0:00:55.00,0:00:55.68,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Galileu.
