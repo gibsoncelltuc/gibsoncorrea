@@ -241,8 +241,7 @@
    "crowd": {
     "n": 18,
     "outfits": [
-     "POV",
-     "COL"
+     "POV"
     ],
     "march": false,
     "expr": "laugh"

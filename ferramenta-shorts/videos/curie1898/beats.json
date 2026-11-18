@@ -68,7 +68,9 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Existem cadernos tão perigosos que só podem ser lidos com roupa de proteção. E são de uma cientista."
+   "say": "Existem cadernos tão perigosos que só podem ser lidos com roupa de proteção. E são de uma cientista.",
+   "hora": "dia",
+   "clima": "limpo"
   },
   {
    "shot": "reveal",
@@ -78,7 +80,9 @@
    ],
    "mapa": "FRANÇA",
    "mapa_at": 3,
-   "say": "Era mil oitocentos e noventa e oito, em Paris, na França."
+   "say": "Era mil oitocentos e noventa e oito, em Paris, na França.",
+   "hora": "dia",
+   "clima": "limpo"
   },
   {
    "shot": "two",
@@ -88,7 +92,9 @@
     "PIE:0:grin"
    ],
    "acao": "conversar",
-   "say": "Marie Curie, uma polonesa genial, trabalhava com o marido Pierre num galpão velho e gelado."
+   "say": "Marie Curie, uma polonesa genial, trabalhava com o marido Pierre num galpão velho e gelado.",
+   "hora": "dia",
+   "clima": "limpo"
   },
   {
    "shot": "two",
@@ -111,7 +117,9 @@
    "sfx": [
     "ding@40"
    ],
-   "say": "Mexendo em toneladas de minério, eles descobriram dois elementos novos: o polônio e o rádio."
+   "say": "Mexendo em toneladas de minério, eles descobriram dois elementos novos: o polônio e o rádio.",
+   "hora": "dia",
+   "clima": "limpo"
   },
   {
    "shot": "close",
@@ -145,7 +153,9 @@
     "MAR:0:nervous:paper",
     "PIE:0:worried"
    ],
-   "say": "Ela carregava os frascos no bolso, e guardava na gaveta da mesa. Ninguém sabia do perigo."
+   "say": "Ela carregava os frascos no bolso, e guardava na gaveta da mesa. Ninguém sabia do perigo.",
+   "hora": "dia",
+   "clima": "limpo"
   },
   {
    "shot": "crowd",
@@ -176,7 +186,9 @@
    ],
    "text": "NOBEL",
    "titulo": true,
-   "say": "Marie ganhou dois prêmios Nobel, em física e em química. Foi a primeira pessoa da história a conseguir isso."
+   "say": "Marie ganhou dois prêmios Nobel, em física e em química. Foi a primeira pessoa da história a conseguir isso.",
+   "hora": "dia",
+   "clima": "limpo"
   },
   {
    "shot": "two",
@@ -189,7 +201,9 @@
    "sfx": [
     "sting@40"
    ],
-   "say": "Acontece que a radiação foi destruindo a saúde dela, aos poucos. Em mil novecentos e trinta e quatro, ela morreu."
+   "say": "Acontece que a radiação foi destruindo a saúde dela, aos poucos. Em mil novecentos e trinta e quatro, ela morreu.",
+   "hora": "dia",
+   "clima": "limpo"
   },
   {
    "shot": "two",
@@ -206,7 +220,9 @@
      1.1
     ]
    ],
-   "say": "Mas os cadernos dela continuam radioativos até hoje, guardados em caixas de chumbo, numa biblioteca de Paris."
+   "say": "Mas os cadernos dela continuam radioativos até hoje, guardados em caixas de chumbo, numa biblioteca de Paris.",
+   "hora": "dia",
+   "clima": "limpo"
   },
   {
    "shot": "low",
@@ -228,7 +244,9 @@
    "sfx": [
     "sting@20"
    ],
-   "say": "Quem quer ler precisa assinar um termo de responsabilidade e usar roupa de proteção."
+   "say": "Quem quer ler precisa assinar um termo de responsabilidade e usar roupa de proteção.",
+   "hora": "dia",
+   "clima": "limpo"
   },
   {
    "shot": "crowd",
@@ -263,7 +281,9 @@
    ],
    "text": "1.600 ANOS",
    "titulo": true,
-   "say": "E o rádio leva cerca de mil e seiscentos anos só para perder metade da força."
+   "say": "E o rádio leva cerca de mil e seiscentos anos só para perder metade da força.",
+   "hora": "dia",
+   "clima": "limpo"
   },
   {
    "shot": "close",
@@ -278,7 +298,9 @@
      1.0
     ]
    ],
-   "say": "Ou seja: os cadernos de Marie Curie vão continuar brilhando por muitos e muitos séculos."
+   "say": "Ou seja: os cadernos de Marie Curie vão continuar brilhando por muitos e muitos séculos.",
+   "hora": "dia",
+   "clima": "limpo"
   }
  ],
  "objetos_do_video": {
