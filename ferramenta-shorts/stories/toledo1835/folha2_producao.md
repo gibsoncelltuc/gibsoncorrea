@@ -4,8 +4,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Dois estados americanos foram à guerra, e o único ferido levou uma can...
 - Cenario: countryside | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): OHI (variante 0, expressao stern); MIC (variante 0, expressao stern)
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: -
@@ -74,11 +74,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Ohio ficou com Toledo. Michigan levou, de consolação, um pedaço de flo...
 - Cenario: countryside | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (3): OHI (variante 1, expressao grin); MIC (variante 1, expressao pained); GOV (variante 0, expressao nervous)
 - Animacao: conversar | interacao: insiste
-- Objetos/modelos: kit/tulip_red, nature/tree_pine, nature/tree_oak, nature/bush
+- Objetos/modelos: nature/tree_pine, nature/tree_oak, nature/bush
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): consolacao, floresta, pedaco, toledo
 - RISCOS: nenhum
 
@@ -88,7 +88,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): GOV (variante 0, expressao shock, segura coin); MIC (variante 0, expressao grin) | multidao: 12 de GOV/MIC
 - Animacao: reagir | batalha encenada
-- Objetos/modelos: kit/tulip_red, nature/tree_pine, nature/tree_oak, nature/bush
+- Objetos/modelos: nature/tree_pine, nature/tree_oak, nature/bush
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fortuna
 - RISCOS: nenhum
 
@@ -103,7 +103,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Video inteiro
-- Objeto heroi: kit/tulip_red | grandes momentos: b4, b8 | planos abertos: 3 | mistura: close 19% | medio 59% | aberto 15% | detalhe 7%
+- Objeto heroi: - | grandes momentos: b4, b8 | planos abertos: 3 | mistura: close 19% | medio 64% | aberto 15% | detalhe 2%
 - Interacoes: b0 avanca e o outro recua, b3 discutir, b5 susto, b6 cochichar, b7 insiste
 - RISCOS GERAIS: nenhum
 

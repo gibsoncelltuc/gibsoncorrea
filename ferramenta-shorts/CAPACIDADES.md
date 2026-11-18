@@ -23,48 +23,54 @@ bottle, mug, paper, book, lantern, pitchfork, staff, flag, torch, bag, coin, spy
 ## Chapeus ("hat" no figurino)
 beret, bonnet, bowler, cap, crown, fez, hair, helmet, shako, shako_tall, slouch, straw, tophat, turban, wizard
 
+## Figurino (campos de "outfits")
+jacket, pants, boots (obrigatorios) | hat + cap (cor) | hair (cor, com hat: hair) | hairStyle: long|bun | beard (cor) | glasses: true | tie (cor da gravata) | pele (tom de pele) | sash, belt, buttons (cor) | build: stout|lanky | rifle: true (soldado). Caricaturas prontas: FIGURINOS_FAMOSOS.md
+
 ## Animais
 "animals": [["pig", x, z, "stand|walk", escala]] , [["chicken", ...]] ; "emus": true
 
 ## Objetos que entram SOZINHOS quando a narracao cita a palavra
-- barrel  <- barril|barris|aguardente|cerveja|vinho|rum\b
-- crate  <- caixote|caixas|carga|mercadoria
-- cannon  <- canhao|canhoes|artilharia
-- tools/bucket  <- balde|\bpoco\b
+- barrel  <- \bbarril\b|\bbarris\b|aguardente|cerveja|\bvinho\b|\brum\b
+- crate  <- caixote|\bcaixas\b|\bcarga\b|mercadoria
+- cannon  <- \bcanhao\b|\bcanhoes\b|artilharia
+- tools/bucket  <- \bbaldes?\b|\bpoco\b
 - nature/fountain  <- \bfonte\b|chafariz
-- war/flagpole  <- bandeira|estandarte
-- war/drum  <- tambor|tambores
+- war/flagpole  <- \bbandeiras?\b|estandarte
+- war/drum  <- \btambor\b|\btambores\b
 - war/sandbags  <- trincheira|barricada|sacos de areia
-- war/shield  <- escudo
+- war/shield  <- \bescudos?\b
 - nature/haybale  <- \bfeno\b|trigo|plantac|colheita
 - nature/scarecrow  <- espantalho
 - tools/lantern  <- lanterna|lampiao|lamparina
-- tools/ladder  <- escada
+- tools/ladder  <- \bescadas?\b
 - tools/wheelbarrow  <- carrinho de mao
 - tools/anvil  <- ferreiro|bigorna
-- kit/tulip_red  <- tulipa|bulbo|\bflor\b|flores
+- kit/tulip_red  <- \btulipas?\b|\bbulbos?\b|\bflor\b|\bflores\b
 - kit/grave  <- \bcova\b|tumulo|enterr|caixao|cemiterio
-- nature/flowerbed  <- batata|horta|legume
+- nature/flowerbed  <- \bbatatas?\b|\bhorta\b|\blegumes?\b
 - kit/ball  <- \bbola\b|futebol|\bgol\b|partida|estadio
-- kit/kettle  <- chaleira|panela|\bsopa\b|caldeirao
+- kit/kettle  <- \bchaleira\b|\bpanelas?\b|\bsopa\b|caldeirao
 - nature/picket_fence  <- \bcerca\b|cercado|curral|fazenda|\bhorta\b
-- kit/cake_table  <- \bbolo|\bdoce|confeit|padaria|pastel
+- kit/cake_table  <- \bbolos?\b|\bdoces?\b|confeit|padaria|\bpastel\b|\bpasteis\b
 - kit/throne  <- \btrono\b|coroad  (so interior)
 - kit/campfire  <- fogueira|acampamento|acamparam
 - kit/tent  <- \btenda|barraca de campanha|acampamento  (fundo, so cena externa)
 - kit/chest  <- \bbau\b|tesouro|\bcofre
-- kit/stall  <- \bfeira\b|mercado|barraca|vendedor
+- kit/stall  <- \bfeira\b|\bmercado\b|\bbarracas?\b|\bvendedor\b
 - vehicles/locomotive  <- \btrem\b|locomotiva|ferrovia  (fundo, so cena externa)
-- vehicles/wagon  <- carroca  (fundo, so cena externa)
+- vehicles/wagon  <- \bcarrocas?\b  (fundo, so cena externa)
 - vehicles/tank  <- tanque de guerra|blindado  (fundo, so cena externa)
-- buildings/castle_tower  <- torre|muralha|castelo|fortaleza|palacio  (fundo, so cena externa)
-- buildings/windmill  <- moinho  (fundo, so cena externa)
-- buildings/church  <- igreja|catedral  (fundo, so cena externa)
+- buildings/castle_tower  <- \btorres?\b|\bmuralhas?\b|\bcastelo\b|\bfortaleza\b|\bpalacio\b  (fundo, so cena externa)
+- buildings/windmill  <- \bmoinhos?\b  (fundo, so cena externa)
+- buildings/church  <- \bigreja\b|\bcatedral\b  (fundo, so cena externa)
 - buildings/lighthouse  <- \bfarol\b  (fundo, so cena externa)
 - buildings/bridge  <- \bponte\b  (fundo, so cena externa)
+- kit/apple  <- \bmaca\b|\bmacas\b|\bmacieiras?\b
+- kit/bathtub  <- \bbanheira\b|\bbanho\b
+- kit/crown  <- \bcoroa\b
 
 ## Biblioteca 3D completa (use em "props": [["pasta/nome", x, z, escala]])
-- kit: ball, cake_table, campfire, chest, cross, grave, kettle, lobster, porch, room_shop, room_stone, room_wood, stall, tent, throne, tulip_bed, tulip_purple, tulip_red, tulip_striped, tulip_yellow
+- kit: apple, ball, bathtub, cake_table, campfire, chest, cross, crown, grave, kettle, porch, room_shop, room_stone, room_wood, stall, tent, throne, tulip_bed, tulip_purple, tulip_red, tulip_striped, tulip_yellow
 - buildings: apartment, barn, bridge, castle_tower, church, house_blue, house_small, house_two, lighthouse, shop, skyscraper, windmill
 - vehicles: airplane, bicycle, car, car_blue, helicopter, jeep, locomotive, motorboat, motorcycle, sailboat, tank, taxi, truck, wagon
 - nature: bench, bush, flowerbed, fountain, haybale, lamppost, picket_fence, rocks, scarecrow, tree_birch, tree_oak, tree_palm, tree_pine

@@ -4,6 +4,10 @@ import re, os, glob
 src = open('mkvideo.py', encoding='utf-8').read(); aud = open('audio_story.py', encoding='utf-8').read(); tb = open('web/toonbase.js', encoding='utf-8').read()
 sets = re.search(r"SETS_X = \{([^}]*)\}", src).group(1); sets = re.findall(r"'(\w+)':", sets)
 obj = re.findall(r"\(r'([^']*)', '([^']*)', [\d.]+, (True|False|'in')\)", src)
+import json as _j
+for _f in sorted(glob.glob('obj_dict.d/*.json')):
+    try: obj += [(e[0], e[1], str(e[3]) if len(e) > 3 and e[3] is True else 'False') for e in _j.load(open(_f, encoding='utf-8')) if not any(e[1] == o[1] for o in obj)]
+    except Exception: pass
 lib = {d: sorted(os.path.basename(f)[:-4] for f in glob.glob(f'web/assets/library/{d}/*.glb')) for d in ('kit', 'buildings', 'vehicles', 'nature', 'tools', 'war')}
 faces = sorted(set(re.findall(r"^\s{4}(\w+): \{\s*\n\s*eye:", tb, re.M)) | set(re.findall(r"(\w+): \{ eye: \[", tb)))
 held = re.search(r"drawHeld[^\n]*", tb); hats = sorted(set(re.findall(r"hat === ['\"](\w+)['\"]", tb)))
@@ -16,6 +20,7 @@ L = ['# CAPACIDADES DA FERRAMENTA (gerado por capacidades.py - nao edite a mao)'
      '## Acoes e interacoes', '"acao": conversar | discutir | comemorar | dancar | nenhuma ; "interacao": empurrar | discutir | cochichar | entregar | susto | reverencia | pular ; "chega": true (entra andando) ; "batalha": true (tropa, tiros, fuga) ; "caminhoes": true', '',
      '## Objeto na mao (4o campo do "who": "FAZ:0:stern:coin")', 'bottle, mug, paper, book, lantern, pitchfork, staff, flag, torch, bag, coin, spyglass, shovel, tulip, money (notas de dolar)', '',
      '## Chapeus ("hat" no figurino)', ', '.join(hats) or '-', '',
+     '## Figurino (campos de "outfits")', 'jacket, pants, boots (obrigatorios) | hat + cap (cor) | hair (cor, com hat: hair) | hairStyle: long|bun | beard (cor) | glasses: true | tie (cor da gravata) | pele (tom de pele) | sash, belt, buttons (cor) | build: stout|lanky | rifle: true (soldado). Caricaturas prontas: FIGURINOS_FAMOSOS.md', '',
      '## Animais', '"animals": [["pig", x, z, "stand|walk", escala]] , [["chicken", ...]] ; "emus": true', '',
      '## Objetos que entram SOZINHOS quando a narracao cita a palavra', *[f'- {a}  <- {r}' + ('  (fundo, so cena externa)' if b == 'True' else '  (so interior)' if b == "'in'" else '') for r, a, b in obj], '',
      '## Biblioteca 3D completa (use em "props": [["pasta/nome", x, z, escala]])', *[f'- {d}: {", ".join(v)}' for d, v in lib.items()], '- soltos: barrel, crate, cannon, ship', '',

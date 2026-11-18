@@ -5,6 +5,8 @@
 # Codigos de saida: 0 pronto | 1 erro/gate reprovou | 75 pausado pela trava de seguranca (relance para continuar de onde parou)
 set -e; cd "$(dirname "$0")"; ID="$1"; mkdir -p logs out/$ID stories/$ID/stages; L=logs/make_$ID.log
 [ -f stories/$ID/DONE ] && { echo "$ID ja pronto"; exit 0; }
+# DISCO: com menos de 4 GB livres, apaga os quadros soltos dos videos JA PRONTOS (o mp4 e os trechos ficam; so' o refazer.sh por cena deixa de valer para eles -> use refazer_tudo.sh). Disco cheio derruba o render com "erro de pagina".
+if [ "$(df -Pm . | awk 'NR==2{print $4}')" -lt 4000 ]; then for d in out/*/frames; do v=$(basename $(dirname $d)); [ "$v" != "$ID" ] && [ -f stories/$v/DONE ] && rm -rf "$d"; done; rm -rf /root/.cache/pip; echo "$(date +%T) disco baixo: quadros de videos prontos apagados ($(df -Ph . | awk 'NR==2{print $4}') livres)"; fi
 log() { echo "$(date +%T) $*" | tee -a $L; }
 st() { [ -f stories/$ID/stages/$1 ]; }; mark() { date +%s > stories/$ID/stages/$1; bash ckpt.sh $ID "etapa $1" >/dev/null 2>&1 || true; }
 j() { python3 -c "import json;print(json.load(open('stories/$ID/meta.json'))['$1'])"; }
@@ -12,7 +14,7 @@ python3 mkvideo.py $ID >> $L 2>&1
 VOICE=$(j voice); RATE=$(j rate); T=$(j file)
 if st voice && [ -f stories/$ID/voice.mp3 ] && [ ! -f stories/$ID/work/phrases.json ]; then log "refazendo so a temporizacao (work/ ausente)"; (cd stories/$ID && python3 ../../timing.py voice.mp3 script.txt --out work >> ../../$L 2>&1); fi
 if ! st voice || [ ! -f stories/$ID/voice.mp3 ]; then log "voz"; rm -f stories/$ID/voice.mp3; ./produce_voice.sh $ID "$VOICE" "$RATE" >> $L 2>&1; mark voice; fi
-[ -f stories/$ID/VOICE_PLACEHOLDER ] && log "AVISO: voz de TESTE (espeak). Libere speech.platform.bing.com para a voz neural e apague stories/$ID/stages/voice"
+if [ -f stories/$ID/VOICE_PLACEHOLDER ] && [ "${ALLOW_TEST_VOICE:-0}" != "1" ]; then log "PARADO: voz de TESTE (espeak, robotica). NAO se entrega video assim. Conserte a rede/certificado do edge-tts (veja OPERACAO.md) e apague stories/$ID/stages/voice e stories/$ID/voice.mp3"; rm -f stories/$ID/stages/voice; exit 3; fi
 if ! st style; then log "estilo (autoajuste)"; python3 autostyle.py $ID >> $L 2>&1 || log "AVISO: estilo nao convergiu"; mark style; fi
 if ! st fit; then log "enquadramento"; ./fit.sh $ID >> $L 2>&1; mark fit; fi
 if ! st gate; then

@@ -9,6 +9,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Personagens principais (2): CON (variante 0, expressao shock); OFI (variante 0, expressao laugh) | multidao: 5 de CON/OFI
 - Animacao: reagir | interacao: entregar
 - Objetos/modelos: kit/cake_table
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): confeitaria, franca, mexico
 - RISCOS: nenhum
 
 ## Cena b1 - Um confeiteiro francês tinha uma loja perto da Cidade do México, famos...
@@ -17,7 +18,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): CON (variante 0, expressao smile); OFI (variante 1, expressao neutral) | multidao: 8 de CON/OFI
 - Animacao: -
-- Objetos/modelos: kit/cake_table
+- Objetos/modelos: kit/cake_table, buildings/shop, kit/stall
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, confeiteiro, loja, mexico
 - RISCOS: nenhum
 
 ## Cena b2 - Um dia, oficiais mexicanos entraram, comeram tudo o que havia, quebrar...
@@ -27,6 +29,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Personagens principais (3): OFI (variante 0, expressao laugh); OFI (variante 1, expressao grin); CON (variante 0, expressao shock)
 - Animacao: conversar | interacao: vai ate o outro | o ultimo personagem ENTRA andando
 - Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): loja
 - RISCOS: nenhum
 
 ## Cena b3 - O confeiteiro escreveu ao rei da França. "Quero sessenta mil pesos", p...
@@ -36,6 +39,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Personagens principais (2): CON (variante 0, expressao stern, segura paper); REI (variante 0, expressao neutral)
 - Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/cake_table
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): confeiteiro, franca, loja
 - RISCOS: nenhum
 
 ## Cena b4 - O rei gostou da ideia, juntou outras queixas, e cobrou seiscentos mil....
@@ -45,6 +49,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Personagens principais (1): REI (variante 0, expressao stern)
 - Animacao: conversar
 - Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca, marinha
 - RISCOS: nenhum
 
 ## Cena b5 - O México riu da cobrança, e não pagou um centavo.
@@ -54,6 +59,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Personagens principais (2): GEN (variante 0, expressao laugh); OFI (variante 0, expressao grin)
 - Animacao: comemorar | interacao: cochichar
 - Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): centavo, cobranca, mexico
 - RISCOS: nenhum
 
 ## Cena b6 - Acontece que a França mandou mesmo. Navios de guerra fecharam todos os...
@@ -63,6 +69,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Personagens principais (2): FRA (variante 0, expressao stern); FRA (variante 1, expressao stern) | multidao: 18 de FRA
 - Animacao: - | batalha encenada
 - Objetos/modelos: navios ao fundo
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca, portos
 - RISCOS: nenhum
 
 ## Cena b7 - Os canhões franceses bombardearam a fortaleza de Veracruz, e os soldad...
@@ -71,7 +78,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): FRA (variante 0, expressao stern); OFI (variante 0, expressao shock) | multidao: 20 de FRA/OFI
 - Animacao: reagir | batalha encenada
-- Objetos/modelos: cannon
+- Objetos/modelos: cannon, buildings/castle_tower
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canhoes, cidade, fortaleza, soldados, veracruz
 - RISCOS: nenhum
 
 ## Cena b8 - Um general mexicano correu para o combate, e perdeu uma perna para um ...
@@ -81,6 +89,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Personagens principais (2): GEN (variante 0, expressao pained); OFI (variante 1, expressao shock)
 - Animacao: conversar | interacao: susto | o ultimo personagem ENTRA andando
 - Objetos/modelos: cannon
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canhao, combate, general, perna, tiro
 - RISCOS: nenhum
 
 ## Cena b9 - Meses depois, o México pagou os seiscentos mil pesos, e a França foi e...
@@ -90,6 +99,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Personagens principais (2): GEN (variante 0, expressao pained, segura paper); FRA (variante 0, expressao grin, segura coin)
 - Animacao: - | interacao: insiste
 - Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca, mexico, seiscentos
 - RISCOS: nenhum
 
 ## Cena b10 - Nunca um doce custou tão caro.
@@ -99,6 +109,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Personagens principais (1): CON (variante 0, expressao grin, segura coin)
 - Animacao: -
 - Objetos/modelos: kit/cake_table
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): doce
 - RISCOS: nenhum
 
 ## Video inteiro
