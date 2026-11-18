@@ -1,0 +1,17 @@
+# Plano de acao - Guerras Inusitadas EP 16 - A Guerra da Melancia
+
+Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
+---|---|---|---|---|---
+b0 | two | -  | placa: 1856 | pagar (stars + som de sino); briga (puff + som de baque) | -
+b1 | reveal | -  | tropa, mapa | ouro (stars + som de sino) | -
+b2 | two | -  | - | pagar (stars + som de sino) | -
+b3 | two | -  | - | gritou (ring + som de alerta); riu (stars + som de sino) | -
+b4 | group | -  | tropa | confusão (puff + som de baque) | -
+b5 | crowd | -  | batalha aberta com tiros, tropa, placa: BRIGA | briga (puff + som de baque) | -
+b6 | two | -  | interior, objeto na mao | morreram (puff + som de baque) | -
+b7 | orbit | -  | batalha aberta com tiros, tropa | pagou (stars + som de sino) | -
+b8 | two | -  | interior, objeto na mao | pagou (stars + som de sino) | -
+b9 | close | -  | - | - | -
+
+Mistura de planos: close 18% | medio 58% | aberto 16% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 3 | dentro do padrao do canal

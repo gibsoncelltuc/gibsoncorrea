@@ -52,3 +52,11 @@ bola((.0, .74, 0), .2, C3, .3, rot=FL); bola((-.4, .68, 0), .14, C3, .3, rot=FL)
 for s in (1, -1): bola((.3, .33, .24 * s), .11, C3, .3, rot=FL)
 tubo([(.86, .34, 0), (.9, .22, 0)], .022, C2)
 fim(.02)
+novo('melon')                                         # melancia cortada ao meio (herói do EP 16): casca listrada, miolo vermelho, sementes
+FL = (math.pi / 2, 0, 0)
+bola((0, .48, -.3), .5, '#2f7a3a', .95)
+for sx in (-1, 1):
+    for dy in (-.22, 0, .22): bola((sx * .47, .48 + dy, -.3), .11, '#1f5a2a', .6)
+cil((0, .48, .3), .47, .06, '#f4f0c0', rot=FL); cil((0, .48, .33), .4, .06, '#e8403a', rot=FL)
+for x, y in ((-.18, .6), (.1, .68), (.22, .5), (-.05, .42), (-.24, .38), (.16, .3), (-.1, .24), (.0, .54)): bola((x, y, .37), .035, '#1b1b1f', .6)
+fim(.02)
