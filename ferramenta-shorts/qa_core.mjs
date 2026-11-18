@@ -37,6 +37,10 @@ export async function inspect(S, { step = 6, only = null, kfit = undefined } = {
       { const cut = chars.filter((a) => a.i < (H.main ?? 99) && !a.behind && a.visible > 0.12 && a.visible < 0.62 && a.heightFrac > 0.55); if (cut.length) why.push(`too close: ${cut[0].id} grande e cortado pela borda (${Math.round(cut[0].visible * 100)}% visivel)`); }
       if (chars.length && !vis.length && H.hero === 'none') why.push('empty: characters are in the scene but none is in frame');
       (tinyBy[r.shot] = tinyBy[r.shot] || []).push(vis.length > 0 && big < (H.wide ? 0.028 : vis.length >= 6 ? 0.06 : 0.10) ? 1 : 0); }
+    /* PLACA CORTADA (ordem do Gibson): placa que aparece no quadro tem que aparecer INTEIRA -- nao vale em close de objeto nem na volta dele */
+    if (!H.detalhe && !/_v$/.test(r.shot)) for (const pl of (r.placas || [])) if (!pl.behind && pl.visible > 0.25 && pl.visible < 0.97) { why.push(`too close: placa cortada pela borda (${Math.round(pl.visible * 100)}% visivel)`); break; }
+    /* PERSONAGEM GRANDE E CORTADO: qualquer pessoa (principal ou nao) ocupando mais de 60% da altura e com mais de 1/4 para fora do quadro */
+    if (!H.detalhe && !H.wide) { const gc = chars.filter((a) => !a.behind && a.heightFrac > 0.6 && a.visible > 0.15 && a.visible < 0.75); if (gc.length && !why.some((w) => /grande e cortado/.test(w))) why.push(`too close: ${gc[0].id} grande e cortado pela borda (${Math.round(gc[0].visible * 100)}% visivel)`); }
     (perShot[r.shot] = perShot[r.shot] || []).push({ f, why });
     if (why.length) fails.push({ f, shot: r.shot, why });
   }

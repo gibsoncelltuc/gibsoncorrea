@@ -27,6 +27,18 @@ Tudo que a narração cita tem que aparecer na tela, na mesma cena: se diz "faze
 - Em toda cena média os personagens interagem (interações diferentes de cena para cena) e têm expressão própria (use expressões variadas no `who`: angry, shout, sad, cry, smug, surprised, scared, suspicious, além de smile, grin, laugh, shock, stern, nervous, pained).
 - Efeito + som em toda palavra de ação.
 
+## Enquadramento (o controle automático já barra; confira mesmo assim na folha de contato)
+
+- **Placa** (texto em placa de madeira): tem que aparecer INTEIRA sempre que estiver no quadro. O inspetor de enquadramento agora mede a placa e abre a câmera sozinho; se a folha de contato ainda mostrar placa cortada, encurte o texto (`"text"`) ou troque para `"titulo": true`.
+- **Personagem grande e cortado** (cabeça ou braço para fora, alguém passando colado na lente): o inspetor reprova qualquer pessoa com mais de 60% da altura do quadro e mais de 1/4 para fora, e no close de objeto quem fica entre a lente e o objeto não é desenhado. Se ainda aparecer: tire gente do `who`, use `"shot": "group"` ou `"chega": false`.
+- Depois de mexer no roteiro por causa disso: `./refazer.sh <id> bN` (ou `./refazer_tudo.sh <id>` se os quadros já foram apagados).
+
+## Se a máquina reiniciar ou a sessão dormir
+
+- O trabalho NÃO se perde: cada etapa tem selo em `stories/<id>/stages/`, o render é salvo em trechos de 150 quadros (`ckpt/<id>/`) e o gancho de início (`boot.sh`) relança a fila sozinho, que continua do trecho onde parou.
+- Há um despertador por sessão (tarefa agendada, de hora em hora) que manda conferir a fila e pegar o próximo item do `PLANO_PRODUCAO.md`. Nunca termine um turno sem vídeo na fila e sem espera em segundo plano.
+- Não use ferramenta que peça aprovação do Gibson (ex.: mensagem entre sessões): a sessão trava até ele aprovar. Aviso de entrega = `entregas/<id>/RELATORIO.md` + commit + push.
+
 ## Proibido
 
 - Renderizar com risco em aberto, ou entregar sem olhar a folha de contato.
