@@ -77,3 +77,10 @@ for s in (1, -1):
 tubo([(-.55, .75, 0), (-.78, .95, 0), (-.9, 1.12, 0)], .045, D1)                                           # rabo
 bola((.1, .5, 0), .2, D2, .8)                                                                                # barriga
 fim(.02)
+novo('logs')                                          # pilha de toras (herói do EP 19): troncos deitados com topo claro e anéis, machado cravado
+B1, B2, B3 = '#6a4426', '#8a5a34', '#e0c48a'
+FLX = (0, 0, math.pi / 2)
+for i, (y, z) in enumerate([(.22, -.28), (.22, .0), (.22, .28), (.58, -.14), (.58, .14), (.92, 0)]):
+    cil((0, y, z), .15, 1.3, B1 if i % 2 else B2, rot=FLX); cil((.66, y, z), .135, .03, B3, rot=FLX); cil((.675, y, z), .06, .03, '#c9a46a', rot=FLX); cil((-.66, y, z), .135, .03, B3, rot=FLX)
+cil((.05, 1.12, .02), .03, .5, '#7a4a26', rot=(0, math.pi / 5, 0)); bola((.0, 1.32, .02), .09, '#8a8a90', .5)
+fim(.02)
