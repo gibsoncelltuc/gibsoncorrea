@@ -6,7 +6,7 @@
  "title": "O Não é um Lança-Chamas",
  "titulo_base": "O Não é um Lança-Chamas",
  "set": "street",
- "light": "day",
+ "light": "golden",
  "mood": "playful",
  "heroi": "kit/flamethrower",
  "outfits": {
@@ -133,25 +133,21 @@
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "detalhe": false
   },
   {
    "say": "Foram vinte mil unidades à venda.",
-   "shot": "reveal",
+   "shot": "group",
    "who": [
     "MUS:0:smile",
-    "CMP:0:neutral"
+    "CMP:0:neutral",
+    "POV:0:grin"
    ],
-   "crowd": {
-    "n": 10,
-    "outfits": [
-     "POV"
-    ],
-    "march": false
-   },
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "detalhe": false
   },
   {
    "say": "E elas esgotaram em poucos dias, rendendo cerca de dez milhões de dólares.",
@@ -175,7 +171,9 @@
     "expr": "laugh"
    },
    "tiros": false,
-   "batalha": false
+   "batalha": false,
+   "detalhe": false,
+   "impact": true
   },
   {
    "say": "A notícia se espalhou pelo mundo inteiro.",
@@ -228,5 +226,6 @@
    "batalha": false,
    "impact": false
   }
- ]
+ ],
+ "exp": 1.0
 }

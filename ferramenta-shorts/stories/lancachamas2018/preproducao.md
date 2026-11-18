@@ -9,14 +9,14 @@ b1 | street | reveal | 10 | conversar | kit/flamethrower | - | -
 b2 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/flamethrower | - | -
 b3 | street | crowd | 14 | conversar, batalha | kit/flamethrower | - | -
 b4 | street | wide | 8 | comemorar | kit/extinguisher, kit/fire | - | -
-b5 | street | orbit | 12 | batalha | - | - | -
-b6 | street | two | 14 | reagir, INTERAGEM: o outro se aproxima | nature/picket_fence | - | -
-b7 | street | group | 8 | conversar, INTERAGEM: insiste | kit/globe | - | -
+b5 | street | group | 3 | conversar, INTERAGEM: o outro se aproxima | - | - | -
+b6 | street | crowd | 14 | reagir, batalha | nature/picket_fence | - | -
+b7 | street | two | 8 | conversar, INTERAGEM: insiste | kit/globe | - | -
 b8 | street | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/flamethrower, kit/extinguisher | - | -
 
 OBJETO HEROI: kit/flamethrower - aparece em 4 cena(s), close nele em 1
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b5
-Interacoes entre personagens: b0 aproxima-se, b2 avanca e o outro recua, b6 o outro se aproxima, b7 insiste, b8 vai ate o outro
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b6
+Interacoes entre personagens: b0 aproxima-se, b2 avanca e o outro recua, b5 o outro se aproxima, b7 insiste, b8 vai ate o outro
 
 Cenas com personagens parados: 0 de 9
 FALTA MODELAR: nada
