@@ -4,21 +4,22 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | countryside | two | 2 | reagir, INTERAGEM: o outro se aproxima, alguem chega andando | pig | - | -
+b0 | countryside | two | 2 | reagir, INTERAGEM: o outro se aproxima, alguem chega andando | nature/picket_fence, nature/haybale, pig | pitchfork | -
 b1 | countryside | reveal | 10 | parados (so fala e pisca) | - | - | -
-b2 | countryside | two | 1 | conversar | crate, nature/flowerbed, pig | - | -
-b3 | countryside | close | 1 | conversar | pig | - | -
-b4 | countryside | two | 2 | discutir, INTERAGEM: discutir | - | coin | -
-b5 | harbor | group | 18 | discutir, INTERAGEM: empurrar | - | - | -
-b6 | harbor | crowd | 22 | discutir, batalha | cannon, navios ao fundo | - | -
-b7 | interior madeira | two | 2 | discutir, INTERAGEM: vai ate o outro | - | - | -
-b8 | countryside | orbit | 21 | discutir, batalha | - | - | -
-b9 | countryside | two | 2 | conversar, INTERAGEM: insiste | - | paper | -
-b10 | countryside | close | 1 | conversar | - | - | -
+b2 | countryside | two | 1 | usa o objeto da mao | nature/flowerbed, nature/picket_fence, nature/scarecrow, tools/wheelbarrow, pig | pitchfork | -
+b3 | countryside | two | 1 | conversar | nature/picket_fence, nature/haybale, pig | - | -
+b4 | countryside | two | 2 | conversar, INTERAGEM: entregar | nature/picket_fence, nature/haybale, tools/wheelbarrow | money | -
+b5 | countryside | two | 2 | discutir, INTERAGEM: discutir | nature/picket_fence | money | -
+b6 | harbor | group | 18 | discutir, INTERAGEM: empurrar | - | - | -
+b7 | harbor | crowd | 22 | discutir, batalha | cannon, navios ao fundo | - | -
+b8 | interior madeira | two | 2 | discutir, INTERAGEM: vai ate o outro | - | - | -
+b9 | countryside | orbit | 21 | discutir, batalha | - | - | -
+b10 | countryside | two | 2 | conversar, INTERAGEM: insiste | - | paper | -
+b11 | countryside | close | 1 | conversar | kit/cross, nature/picket_fence | - | -
 
 OBJETO HEROI: nenhum achado (ponha "heroi": "kit/..." no topo do roteiro)
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b6, b8
-Interacoes entre personagens: b0 o outro se aproxima, b4 discutir, b5 empurrar, b7 vai ate o outro, b9 insiste
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b7, b9
+Interacoes entre personagens: b0 o outro se aproxima, b4 entregar, b5 discutir, b6 empurrar, b8 vai ate o outro, b10 insiste
 
-Cenas com personagens parados: 1 de 11
+Cenas com personagens parados: 1 de 12
 FALTA MODELAR: nada
