@@ -109,3 +109,12 @@ Quadrado só o que é quadrado de verdade: placa, casa, caixote, mesa, livro. To
 ## Arquivos
 
 `novo_video.sh` portão de entrada · `conferir.sh` verificação final · `refazer.sh` / `refazer_tudo.sh` reparo · `status.sh` andamento · `run_queue.sh` fila · `mkvideo.py` diretor (gera spec, folhas, plano) · `capacidades.py` → `CAPACIDADES.md` · `GUIA_DO_ROTEIRISTA.md` formato do roteiro · `MODO_RICKS.md` estilo.
+
+## Lições de 18/11 (a ferramenta já faz sozinha; confira na pré-checagem)
+- **Pré-checagem antes do render** (pega 80% dos defeitos sem gastar render): adiante a voz (`./produce_voice.sh <id> <voz> <rate>` + `stories/<id>/stages/voice`) e gere a folha de storyboard numa cópia fora da fila (`sb.sh <id>`). Olhe: objeto herói visível, sem clones, cenário certo, nada tapando o quadro.
+- **Multidão sem clones**: multidão criada pela ferramenta usa só o figurino `POV` (povo, 7 variantes de cor/chapéu). Na multidão escrita no roteiro ponha só `["POV"]` (e soldados/marinheiros em Guerras); nunca rei, cientista, médico, famoso ou protagonista.
+- **Famosos** (`"pele"` no figurino) e **mulheres** (`hairStyle` `bun`/`long`) não ganham barba/óculos sorteados.
+- **Hora/clima** (`"hora": "noite"`, neve por "gelado"…) valem só na cena onde aparecem.
+- **Objeto gigante** (torre, foguete, vulcão) fica ao fundo (z −11 a −16); para o close de objeto herói faça uma **maquete** pequena num pedestal (ex.: `kit/tower_mini`). Coisa no céu: versão já no alto (`kit/balloon_air`, `kit/falcon_air`).
+- **Cenário**: base de foguete/litoral = `harbor`; campo sem fazenda não tem mais celeiro gigante automático.
+- **Boné** (`hat: cap`) agora fica acima dos olhos.
