@@ -1,0 +1,234 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Guerras Inusitadas",
+ "ep": 17,
+ "title": "A Guerra do Uísque",
+ "titulo_base": "A Guerra do Uísque",
+ "set": "arctic",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/whisky",
+ "outfits": {
+  "CAN": {
+   "profissao": "soldado",
+   "jacket": "#2a4a2a",
+   "pants": "#2a3a2a",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#d52b1e",
+   "holdCol": "#d52b1e",
+   "holdCol2": "#ffffff"
+  },
+  "DIN": {
+   "profissao": "soldado",
+   "jacket": "#3a4a7a",
+   "pants": "#2a3a5a",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#c8102e",
+   "holdCol": "#c8102e",
+   "holdCol2": "#ffffff"
+  },
+  "PRE": {
+   "profissao": "politico",
+   "jacket": "#2a2a30",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "bowler",
+   "tie": "#b0282f"
+  },
+  "MIN": {
+   "profissao": "politico",
+   "jacket": "#1f3a8a",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "tophat",
+   "tie": "#c8102e"
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "set": "arctic",
+   "who": [
+    "CAN:0:smug:flag",
+    "DIN:0:smug"
+   ],
+   "props": [
+    [
+     "kit/whisky",
+     0.3,
+     2.2,
+     1.2
+    ]
+   ],
+   "text": "1984",
+   "interacao": "discutir",
+   "acao": "discutir",
+   "say": "O Canadá e a Dinamarca brigaram por gelo por quase quarenta anos, usando só uísque."
+  },
+  {
+   "shot": "reveal",
+   "set": "arctic",
+   "who": [
+    "CAN:0:neutral",
+    "DIN:0:neutral"
+   ],
+   "mapa": "GROENLÂNDIA",
+   "mapa_at": 3,
+   "say": "A ilha Hans é um pedaço de rocha gelada e sem gente, no mar entre o Canadá e a Groenlândia."
+  },
+  {
+   "shot": "two",
+   "set": "arctic",
+   "who": [
+    "CAN:0:angry",
+    "DIN:0:angry"
+   ],
+   "interacao": "empurrar",
+   "say": "Os dois países achavam que ela era sua, mas ninguém queria começar uma guerra de verdade."
+  },
+  {
+   "shot": "crowd",
+   "set": "arctic",
+   "who": [
+    "CAN:0:laugh:flag",
+    "CAN:1:grin"
+   ],
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "CAN"
+    ],
+    "march": true,
+    "expr": "grin"
+   },
+   "props": [
+    [
+     "vehicles/helicopter",
+     5,
+     -8,
+     1.2
+    ]
+   ],
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "Em mil novecentos e oitenta e quatro, soldados canadenses chegaram lá de helicóptero."
+  },
+  {
+   "shot": "two",
+   "set": "arctic",
+   "who": [
+    "CAN:0:smile:flag",
+    "CAN:1:laugh"
+   ],
+   "props": [
+    [
+     "war/flagpole",
+     3,
+     -3,
+     1.2
+    ],
+    [
+     "kit/whisky",
+     -1,
+     1.8,
+     1.2
+    ]
+   ],
+   "acao": "comemorar",
+   "say": "Eles fincaram a bandeira do Canadá e deixaram uma garrafa de uísque canadense."
+  },
+  {
+   "shot": "crowd",
+   "set": "arctic",
+   "who": [
+    "DIN:0:smug:flag",
+    "DIN:1:smug"
+   ],
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "DIN"
+    ],
+    "march": true,
+    "expr": "smug"
+   },
+   "props": [
+    [
+     "war/flagpole",
+     3,
+     -3,
+     1.2
+    ]
+   ],
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "Acontece que, pouco depois, os dinamarqueses apareceram, tiraram a bandeira e puseram a deles."
+  },
+  {
+   "shot": "two",
+   "set": "arctic",
+   "who": [
+    "DIN:0:grin:paper",
+    "CAN:0:shock"
+   ],
+   "interacao": "entregar",
+   "props": [
+    [
+     "kit/whisky",
+     -1,
+     1.8,
+     1.2
+    ]
+   ],
+   "say": "E deixaram um bilhete: \"Bem-vindos à terra dinamarquesa\", ao lado de uma garrafa de licor."
+  },
+  {
+   "shot": "two",
+   "set": "arctic",
+   "who": [
+    "CAN:0:smug",
+    "DIN:0:smug"
+   ],
+   "interacao": "cochichar",
+   "say": "Durante anos, os dois lados voltaram lá para trocar bandeira e garrafa, sempre muito educados."
+  },
+  {
+   "shot": "two",
+   "interior": "pedra",
+   "who": [
+    "PRE:0:relief:paper",
+    "MIN:0:smile"
+   ],
+   "interacao": "entregar",
+   "say": "Em dois mil e vinte e dois, os países enfim dividiram a ilha quase ao meio."
+  },
+  {
+   "shot": "close",
+   "set": "arctic",
+   "who": [
+    "CAN:0:smile"
+   ],
+   "props": [
+    [
+     "kit/whisky",
+     1.0,
+     0.5,
+     1.3
+    ]
+   ],
+   "say": "A guerra mais educada da história acabou sem um tiro e com muito uísque.",
+   "acao": "comemorar"
+  }
+ ]
+}
