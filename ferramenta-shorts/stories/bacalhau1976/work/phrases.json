@@ -1,0 +1,189 @@
+{
+ "duration": 52.536,
+ "frames30": 1576,
+ "source": "silence-align (cost 0.34)",
+ "segments": [
+  [
+   0.160083,
+   3.81008
+  ],
+  [
+   4.67992,
+   7.04992
+  ],
+  [
+   7.36154,
+   9.43637
+  ],
+  [
+   10.2903,
+   13.7864
+  ],
+  [
+   14.0628,
+   16.2222
+  ],
+  [
+   17.0697,
+   19.2974
+  ],
+  [
+   19.5156,
+   20.8095
+  ],
+  [
+   21.6569,
+   24.6473
+  ],
+  [
+   24.9325,
+   27.343
+  ],
+  [
+   28.2209,
+   30.7677
+  ],
+  [
+   31.1043,
+   32.1632
+  ],
+  [
+   32.3582,
+   33.2443
+  ],
+  [
+   34.1037,
+   35.9377
+  ],
+  [
+   36.1985,
+   37.9389
+  ],
+  [
+   38.787,
+   42.0822
+  ],
+  [
+   42.935,
+   44.5432
+  ],
+  [
+   44.8327,
+   45.8413
+  ],
+  [
+   46.1636,
+   48.4348
+  ],
+  [
+   49.2955,
+   49.6698
+  ],
+  [
+   49.9447,
+   51.7383
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "A Inglaterra e a Isl\u00e2ndia entraram em guerra tr\u00eas vezes por causa de um bacalhau.",
+   "s": 0.16,
+   "e": 3.81
+  },
+  {
+   "text": "A Isl\u00e2ndia \u00e9 uma ilha pequena no gelo do Atl\u00e2ntico,",
+   "s": 4.68,
+   "e": 7.05
+  },
+  {
+   "text": "e quase toda a sua riqueza vinha da pesca.",
+   "s": 7.362,
+   "e": 9.436
+  },
+  {
+   "text": "S\u00f3 que barcos ingleses pescavam bacalhau bem pertinho da costa dela,",
+   "s": 10.29,
+   "e": 13.786
+  },
+  {
+   "text": "e os pescadores islandeses n\u00e3o gostaram nada.",
+   "s": 14.063,
+   "e": 16.222
+  },
+  {
+   "text": "Ent\u00e3o a Isl\u00e2ndia aumentou o limite do seu mar,",
+   "s": 17.07,
+   "e": 19.297
+  },
+  {
+   "text": "e depois aumentou de novo.",
+   "s": 19.516,
+   "e": 20.809
+  },
+  {
+   "text": "A Inglaterra mandou navios de guerra para proteger seus barcos,",
+   "s": 21.657,
+   "e": 24.647
+  },
+  {
+   "text": "e a Isl\u00e2ndia s\u00f3 tinha barquinhos da guarda costeira.",
+   "s": 24.933,
+   "e": 27.343
+  },
+  {
+   "text": "Acontece que os islandeses tinham uma arma secreta:",
+   "s": 28.221,
+   "e": 30.768
+  },
+  {
+   "text": "\"Cortadores de rede!\",",
+   "s": 31.104,
+   "e": 32.163
+  },
+  {
+   "text": "gritou um deles.",
+   "s": 32.358,
+   "e": 33.244
+  },
+  {
+   "text": "Eles cortavam as redes dos ingleses,",
+   "s": 34.104,
+   "e": 35.938
+  },
+  {
+   "text": "e os navios batiam uns nos outros.",
+   "s": 36.199,
+   "e": 37.939
+  },
+  {
+   "text": "A Isl\u00e2ndia ainda amea\u00e7ou fechar a base militar da Otan no pa\u00eds.",
+   "s": 38.787,
+   "e": 42.082
+  },
+  {
+   "text": "Em mil novecentos e setenta e seis,",
+   "s": 42.935,
+   "e": 44.543
+  },
+  {
+   "text": "os ingleses cederam,",
+   "s": 44.833,
+   "e": 45.841
+  },
+  {
+   "text": "e a zona de duzentas milhas virou regra no mundo.",
+   "s": 46.164,
+   "e": 48.435
+  },
+  {
+   "text": "No fim,",
+   "s": 49.295,
+   "e": 49.67
+  },
+  {
+   "text": "o bacalhau s\u00f3 queria ficar em paz.",
+   "s": 49.945,
+   "e": 51.738
+  }
+ ]
+}
