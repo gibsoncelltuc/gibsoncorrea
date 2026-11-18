@@ -6,15 +6,15 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | jungle | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/bitcoin, kit/volcano | - | -
 b1 | jungle | reveal | 8 | parados (so fala e pisca) | kit/volcano | - | -
-b2 | jungle | two | 2 | conversar, INTERAGEM: insiste | kit/bitcoin | - | -
-b3 | interior loja | two | 2 | discutir, INTERAGEM: discutir | kit/miners, kit/bitcoin | paper | -
+b2 | jungle | two | 2 | conversar, INTERAGEM: insiste | kit/bitcoin, kit/coin | - | -
+b3 | interior loja | two | 2 | discutir, INTERAGEM: discutir | kit/miners, kit/bitcoin, kit/coin | paper | -
 b4 | jungle | two | 2 | conversar, INTERAGEM: entregar | kit/volcano | - | -
 b5 | jungle | low | 1 | conversar | kit/volcano | - | -
-b6 | interior loja | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/miners, kit/bitcoin | - | -
-b7 | jungle | group | 7 | comemorar | kit/bitcoin | - | -
+b6 | interior loja | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/miners, kit/bitcoin, kit/coin | - | -
+b7 | jungle | group | 7 | comemorar | kit/bitcoin, kit/coin | - | -
 b8 | jungle | crowd | 21 | comemorar, batalha | kit/volcano | - | -
-b9 | jungle | two | 2 | conversar, INTERAGEM: aproxima-se | kit/bitcoin, kit/volcano | paper | -
-b10 | jungle | orbit | 19 | reagir, batalha | kit/volcano, kit/bitcoin, buildings/apartment, buildings/house_two, nature/lamppost | - | -
+b9 | jungle | two | 2 | conversar, INTERAGEM: aproxima-se | kit/bitcoin, kit/volcano, kit/coin | paper | -
+b10 | jungle | orbit | 19 | reagir, batalha | kit/volcano, kit/bitcoin, kit/coin, buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b11 | jungle | close | 1 | comemorar | kit/bitcoin, kit/volcano | - | -
 
 OBJETO HEROI: kit/bitcoin - aparece em 8 cena(s), close nele em 3

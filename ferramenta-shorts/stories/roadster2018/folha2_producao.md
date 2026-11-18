@@ -8,7 +8,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MUS (variante 0, expressao grin); ENG (variante 0, expressao surprised)
 - Animacao: conversar | interacao: avanca e o outro recua
-- Objetos/modelos: kit/rocket, kit/roadster
+- Objetos/modelos: kit/falcon_air, kit/roadster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, espaco, tesla
 - RISCOS: nenhum
 
@@ -107,9 +107,9 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/rocket | b0, b2, b4, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/roadster | b0, b1, b3, b5, b6, b7, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/falcon_air | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/falcon_air | b0, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/roadster | b0, b1, b3, b5, b6, b7, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/rocket | b2, b4, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/bench | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -117,7 +117,7 @@ kit/globe | b7 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/rocket | grandes momentos: b4, b6, b9 | planos abertos: 4 | mistura: close 16% | medio 59% | aberto 17% | detalhe 8%
+- Objeto heroi: kit/roadster | grandes momentos: b4, b6, b9 | planos abertos: 4 | mistura: close 16% | medio 59% | aberto 17% | detalhe 8%
 - Interacoes: b0 avanca e o outro recua, b3 o outro se aproxima, b5 insiste, b7 vai ate o outro, b8 aproxima-se
 - RISCOS GERAIS: nenhum
 

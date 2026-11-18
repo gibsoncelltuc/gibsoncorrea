@@ -28,7 +28,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): INV (variante 0, expressao shock); MUS (variante 0, expressao laugh)
 - Animacao: discutir | interacao: discutir | o ultimo personagem ENTRA andando
-- Objetos/modelos: kit/tequila_bolt, nature/picket_fence
+- Objetos/modelos: kit/tequila_bolt, nature/picket_fence, kit/roadster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brincadeira, garrafas, tesla, teslaquila
 - RISCOS: nenhum
 
@@ -58,7 +58,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): MUS (variante 0, expressao smug); MEX (variante 0, expressao smile)
 - Animacao: conversar | interacao: cochichar
-- Objetos/modelos: kit/tequila_bolt
+- Objetos/modelos: kit/tequila_bolt, kit/roadster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): agave, mexico
 - RISCOS: nenhum
 
@@ -129,6 +129,7 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/tequila_bolt | b0, b2, b4, b5, b6, b7, b8, b9, b10, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/roadster | b2, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro

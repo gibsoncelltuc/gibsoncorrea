@@ -110,6 +110,13 @@ Quadrado só o que é quadrado de verdade: placa, casa, caixote, mesa, livro. To
 
 `novo_video.sh` portão de entrada · `conferir.sh` verificação final · `refazer.sh` / `refazer_tudo.sh` reparo · `status.sh` andamento · `run_queue.sh` fila · `mkvideo.py` diretor (gera spec, folhas, plano) · `capacidades.py` → `CAPACIDADES.md` · `GUIA_DO_ROTEIRISTA.md` formato do roteiro · `MODO_RICKS.md` estilo.
 
+
+## BIBLIOTECA 3D PRIMEIRO (ordem do Gibson) — NÃO modele o que já existe
+1. Antes de pensar em Blender, abra `CAPACIDADES.md`: seção **Animais** (todos prontos e animados — entram sozinhos quando a narração cita) e **Biblioteca 3D completa** (84+ objetos em `kit/`, prédios, veículos, natureza, ferramentas, guerra).
+2. Só modele se a **folha 2** disser `FALTA` na tabela **PARA O BLENDER**. Se a folha não pedir, NÃO modele.
+3. Animal nunca se modela (cachorro, gato, vaca, ovelha, cabra, porco, cavalo, burro, veado, raposa, lobo, coelho, leão, elefante, urso, galinha, galo, pato, ganso, gaivota, emu já existem). Close de cachorro: `kit/dog_sit`.
+4. Modelo novo de verdade: siga o exemplo de `blender/objetos_cc*.py` (formas redondas), confira com `blender/foto.py`, registre a palavra em `obj_dict.d/<sua sessão>.json` e dê commit — ele passa a valer para as 3 sessões no próximo merge.
+
 ## Lições de 18/11 (a ferramenta já faz sozinha; confira na pré-checagem)
 - **Pré-checagem antes do render** (pega 80% dos defeitos sem gastar render): adiante a voz (`./produce_voice.sh <id> <voz> <rate>` + `stories/<id>/stages/voice`) e gere a folha de storyboard numa cópia fora da fila (`sb.sh <id>`). Olhe: objeto herói visível, sem clones, cenário certo, nada tapando o quadro.
 - **Multidão sem clones**: multidão criada pela ferramenta usa só o figurino `POV` (povo, 7 variantes de cor/chapéu). Na multidão escrita no roteiro ponha só `["POV"]` (e soldados/marinheiros em Guerras); nunca rei, cientista, médico, famoso ou protagonista.

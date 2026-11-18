@@ -4,7 +4,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | street | two | 2 | discutir, INTERAGEM: discutir | kit/postit | - | -
+b0 | street | two | 2 | discutir, INTERAGEM: discutir | kit/postit, kit/globe | - | -
 b1 | street | reveal | 8 | parados (so fala e pisca) | - | - | -
 b2 | interior madeira | two | 1 | usa o objeto da mao | - | paper | -
 b3 | interior madeira | close | 1 | reagir | - | paper | -

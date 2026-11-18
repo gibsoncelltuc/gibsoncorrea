@@ -30,3 +30,10 @@ for x in (-.7, .7):
         for i in range(4): bola((x - .4 + i * .08, .25 + j * .3, .38), .022, '#4aff6a' if (i + j) % 3 else '#ffcf3a', seg=8)
         cil((x + .3, .25 + j * .3, .375), .09, .02, '#5a5e66', rot=(m.pi / 2, 0, 0), lados=16)        # ventoinha
 fim(0.01)
+novo('coin')                                                                                              # moeda dourada generica (sem letra): "moeda/moedas"
+torno((0, 0, 0), [(.08, 0), (.12, .02), (0, .03)], '#6a4426', 16)
+cil((0, .62, 0), .58, .12, '#e8a020', rot=(m.pi / 2, 0, 0), lados=40)
+cil((0, .62, 0), .5, .14, '#f2b632', rot=(m.pi / 2, 0, 0), lados=40)
+for z in (.075, -.075): torno((0, .62, z), [(.3, 0), (.34, 0.001)], '#ffe08a', 32, tampa=False) if False else cil((0, .62, z), .3, .01, '#ffd25a', rot=(m.pi / 2, 0, 0), lados=32)
+caixa((0, .03, 0), (.3, .06, .2), '#6a4426', 1.0)
+fim(0.008)

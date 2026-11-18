@@ -6,10 +6,10 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | street | two | 2 | conversar, INTERAGEM: insiste | kit/tequila_bolt | - | -
 b1 | street | reveal | 8 | parados (so fala e pisca) | - | - | -
-b2 | street | two | 2 | discutir, INTERAGEM: discutir, alguem chega andando | kit/tequila_bolt, nature/picket_fence | - | -
+b2 | street | two | 2 | discutir, INTERAGEM: discutir, alguem chega andando | kit/tequila_bolt, nature/picket_fence, kit/roadster | - | -
 b3 | street | two | 2 | comemorar, INTERAGEM: entregar | - | paper | -
 b4 | street | low | 2 | discutir, INTERAGEM: o outro se aproxima | kit/tequila_bolt | - | -
-b5 | interior loja | two | 2 | conversar, INTERAGEM: cochichar | kit/tequila_bolt | - | -
+b5 | interior loja | two | 2 | conversar, INTERAGEM: cochichar | kit/tequila_bolt, kit/roadster | - | -
 b6 | interior loja | close | 1 | comemorar | kit/tequila_bolt | - | -
 b7 | street | crowd | 23 | comemorar, batalha | kit/tequila_bolt | - | -
 b8 | street | two | 2 | reagir, INTERAGEM: entregar, alguem chega andando | kit/tequila_bolt | paper | -
