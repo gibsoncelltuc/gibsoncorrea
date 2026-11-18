@@ -14,7 +14,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 ## Cena b1  (~4.5 s)
 - Narracao: Poucos dias antes, milhares de pessoas tinham protestado nas ruas de San Salvador.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: crowd@10
+- Efeitos sonoros marcados: gibber@10
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
@@ -23,7 +23,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 ## Cena b2  (~3.1 s)
 - Narracao: Primeiro, ele escreveu só uma palavra no perfil: ditador.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: pop@8
+- Efeitos sonoros marcados: ding@8
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: puff@8
 - Texto na tela: DITADOR
@@ -32,7 +32,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 ## Cena b3  (~5.2 s)
 - Narracao: Alguns dias depois, trocou por uma frase mais longa: o ditador mais legal do mundo.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: boom@30
+- Efeitos sonoros marcados: sting@30
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: burst@30
 - Texto na tela: O DITADOR MAIS LEGAL DO MUNDO
@@ -68,7 +68,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 ## Cena b7  (~6.6 s)
 - Narracao: Anos depois, no dia da eleição de dois mil e vinte e quatro, o perfil dele dizia: rei filósofo.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: pop@8
+- Efeitos sonoros marcados: ding@8
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: puff@8
 - Texto na tela: REI FILÓSOFO

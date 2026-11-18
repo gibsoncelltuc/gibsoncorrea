@@ -83,7 +83,7 @@
     ]
    },
    "sfx": [
-    "crowd@10"
+    "gibber@10"
    ]
   },
   {
@@ -108,7 +108,7 @@
     "puff@8"
    ],
    "sfx": [
-    "pop@8"
+    "ding@8"
    ]
   },
   {
@@ -127,7 +127,7 @@
     "burst@30"
    ],
    "sfx": [
-    "boom@30"
+    "sting@30"
    ]
   },
   {
@@ -200,7 +200,7 @@
     "puff@8"
    ],
    "sfx": [
-    "pop@8"
+    "ding@8"
    ],
    "riscos_ok": true
   },
