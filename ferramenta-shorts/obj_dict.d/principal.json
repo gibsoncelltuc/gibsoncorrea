@@ -130,5 +130,41 @@
   "kit/roadster",
   1.0,
   false
+ ],
+ [
+  "\\burnas?\\b|cedulas?",
+  "kit/ballot_box",
+  1.0,
+  false
+ ],
+ [
+  "helicopteros?",
+  "kit/helicopter_air",
+  1.0,
+  true
+ ],
+ [
+  "\\bbunker\\b|antibunker",
+  "kit/bunker_bomb",
+  1.0,
+  false
+ ],
+ [
+  "\\bcelular\\b|\\bselfie\\b",
+  "kit/phone",
+  1.0,
+  false
+ ],
+ [
+  "\\bprisao\\b|presidio|penitenciaria",
+  "kit/prison",
+  1.0,
+  true
+ ],
+ [
+  "casa branca",
+  "kit/white_house",
+  1.0,
+  true
  ]
 ]

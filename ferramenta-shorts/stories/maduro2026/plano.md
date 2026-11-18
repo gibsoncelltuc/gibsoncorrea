@@ -1,0 +1,18 @@
+# Plano de acao - Poder e Fama EP 22 - A Operação da Madrugada
+
+Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
+---|---|---|---|---|---
+b0 | two | -  | interior, placa: 2026 | - | -
+b1 | reveal | -  | tropa, mapa | - | -
+b2 | two | -  | - | - | -
+b3 | two | -  | interior, objeto na mao | segredo (ring + som de alerta) | -
+b4 | crowd | noite  | batalha aberta com tiros, tropa, placa: DELTA | - | -
+b5 | low | noite  | - | - | -
+b6 | low | noite  | - | - | -
+b7 | two | -  | interior | - | -
+b8 | two | -  | - | - | -
+b9 | orbit | -  | batalha aberta com tiros, tropa, placa: MUNDO | morreu (puff + som de baque) | -
+b10 | close | -  | - | ganhou (stars + som de sino) | -
+
+Mistura de planos: close 21% | medio 61% | aberto 10% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 3 | dentro do padrao do canal

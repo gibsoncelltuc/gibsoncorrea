@@ -1,0 +1,272 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Poder e Fama",
+ "ep": 22,
+ "title": "A Operação da Madrugada",
+ "titulo_base": "A Operação da Madrugada",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/helicopter_air",
+ "outfits": {
+  "TRU": {
+   "jacket": "#1f2f5c",
+   "pants": "#1f2f5c",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#f2c84a",
+   "tie": "#d8282f",
+   "pele": "#f5c49a",
+   "build": "stout"
+  },
+  "SOL": {
+   "jacket": "#5a6440",
+   "pants": "#5a6440",
+   "boots": "#2a2218",
+   "hat": "helmet",
+   "cap": "#4a5236"
+  },
+  "MAD": {
+   "jacket": "#2a3a5a",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#1b1b1f",
+   "moustache": "#1b1b1f",
+   "pele": "#c99067",
+   "build": "stout"
+  },
+  "AGE": {
+   "jacket": "#1b1b1f",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#1b1b1f",
+   "glasses": true
+  },
+  "GEN": {
+   "profissao": "general"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "bowler"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "TRU:0:stern",
+    "GEN:0:stern"
+   ],
+   "interior": "loja",
+   "props": [
+    [
+     "kit/helicopter_air",
+     1.6,
+     -1.6,
+     0.6
+    ]
+   ],
+   "text": "2026",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "Numa madrugada de janeiro de dois mil e vinte e seis, Trump autorizou uma das operações militares mais ousadas dos últimos anos."
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:surprised",
+    "POV:1:nervous"
+   ],
+   "mapa": "VENEZUELA",
+   "mapa_at": 3,
+   "say": "O alvo estava em Caracas, a capital da Venezuela."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MAD:0:smug",
+    "POV:0:nervous"
+   ],
+   "acao": "discutir",
+   "say": "Era o presidente venezuelano Nicolás Maduro, acusado pela justiça americana de narcoterrorismo."
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "TRU:0:suspicious",
+    "AGE:0:stern:paper"
+   ],
+   "interacao": "cochichar",
+   "say": "Durante meses, a inteligência americana estudou cada passo dele, em segredo."
+  },
+  {
+   "shot": "crowd",
+   "hora": "noite",
+   "who": [
+    "SOL:0:stern",
+    "SOL:1:angry",
+    "SOL:2:stern"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 14,
+    "outfits": [
+     "SOL"
+    ],
+    "march": false,
+    "expr": "stern"
+   },
+   "props": [
+    [
+     "kit/helicopter_air",
+     -1.5,
+     -9.0,
+     1.4
+    ]
+   ],
+   "fx": [
+    "whoosh@20",
+    "whoosh@50"
+   ],
+   "sfx": [
+    "whoosh@20",
+    "whoosh@50"
+   ],
+   "text": "DELTA",
+   "titulo": true,
+   "say": "Às duas da manhã, helicópteros levaram os soldados da Força Delta direto para o complexo onde Maduro estava."
+  },
+  {
+   "shot": "low",
+   "hora": "noite",
+   "who": [
+    "SOL:0:angry"
+   ],
+   "props": [
+    [
+     "kit/helicopter_air",
+     -1.5,
+     -9.0,
+     1.4
+    ]
+   ],
+   "fx": [
+    "ring@20",
+    "puff@40"
+   ],
+   "sfx": [
+    "sting@20",
+    "thump@40"
+   ],
+   "say": "Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do país."
+  },
+  {
+   "shot": "two",
+   "hora": "noite",
+   "who": [
+    "SOL:0:stern",
+    "MAD:0:shock"
+   ],
+   "interacao": "empurrar",
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "say": "Acontece que, em menos de três horas, Maduro foi capturado e levado para fora da Venezuela."
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "TRU:0:stern",
+    "GEN:0:grin"
+   ],
+   "acao": "conversar",
+   "say": "Trump acompanhou tudo de longe, na Flórida, ao lado do diretor da CIA e do secretário de Estado."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "AGE:0:stern",
+    "MAD:0:sad"
+   ],
+   "props": [
+    [
+     "kit/scroll",
+     1.6,
+     -0.8,
+     1.0
+    ],
+    [
+     "vehicles/airplane",
+     2.4,
+     -9.0,
+     1.0
+    ]
+   ],
+   "interacao": "entregar",
+   "say": "Maduro foi levado de avião para Nova York, onde responde a um processo na justiça."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "POV:0:shock",
+    "POV:1:surprised",
+    "POV:2:nervous"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "surprised"
+   },
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "text": "MUNDO",
+   "titulo": true,
+   "say": "Nenhum militar americano morreu. A notícia parou o mundo, e dividiu opiniões entre países."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "TRU:0:smug"
+   ],
+   "props": [
+    [
+     "kit/helicopter_air",
+     -1.6,
+     -1.6,
+     0.6
+    ]
+   ],
+   "acao": "comemorar",
+   "say": "A operação ganhou um nome que resume tudo: Resolução Absoluta."
+  }
+ ]
+}
