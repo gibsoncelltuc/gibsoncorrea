@@ -92,3 +92,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL
 
+
+## Fontes (fatos conferidos)
+- https://www.thewrap.com/home-alone-2-lost-in-new-york-donald-trump-plaza-hotel-chris-columbus/
+- https://www.thewrap.com/trump-home-alone-2-cameo-chris-columbus-response/
+- https://salon.com/2023/12/28/donald-home-alone-2-bullied
