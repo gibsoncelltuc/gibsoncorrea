@@ -14,5 +14,5 @@ b8 | prop | -  | - | ouro (stars + som de sino) | -
 b9 | group | -  | batalha aberta com tiros, tropa, placa: EUREKA | gritou (ring + som de alerta); correu (dust + som de impacto) | -
 b10 | close | -  | - | - | -
 
-Mistura de planos: close 16% | medio 67% | aberto 11% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 16% | medio 69% | aberto 11% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 2 | dentro do padrao do canal

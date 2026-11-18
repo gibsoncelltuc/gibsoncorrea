@@ -84,7 +84,8 @@
     "REI:0:stern",
     "OUR:0:nervous"
    ],
-   "interacao": "discutir"
+   "interacao": "discutir",
+   "detalhe": false
   },
   {
    "say": "Será que ele trocou parte do ouro por prata e guardou o resto para si?",
@@ -94,7 +95,8 @@
     "REI:0:suspicious",
     "OUR:0:scared"
    ],
-   "acao": "discutir"
+   "acao": "discutir",
+   "detalhe": false
   },
   {
    "say": "O rei chamou Arquimedes e disse: \"Descubra, mas sem estragar a coroa.\"",
@@ -104,7 +106,8 @@
     "REI:0:angry:paper",
     "ARQ:0:surprised"
    ],
-   "interacao": "entregar"
+   "interacao": "entregar",
+   "detalhe": false
   },
   {
    "say": "Arquimedes pensou por dias e dias, e a resposta não vinha.",
@@ -171,7 +174,7 @@
      "kit/crown",
      0.0,
      0.2,
-     1.2
+     2.2
     ]
    ]
   },

@@ -24,8 +24,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - O rei Hierão mandou fazer uma coroa de ouro puro, mas desconfiou do ou...
 - Cenario: interior pedra | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): REI (variante 0, expressao stern); OUR (variante 0, expressao nervous)
 - Animacao: reagir | interacao: discutir
 - Objetos/modelos: kit/crown
@@ -44,8 +44,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - O rei chamou Arquimedes e disse: "Descubra, mas sem estragar a coroa."
 - Cenario: interior pedra | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): REI (variante 0, expressao angry, segura paper); ARQ (variante 0, expressao surprised)
 - Animacao: conversar | interacao: entregar
 - Objetos/modelos: kit/crown
@@ -84,8 +84,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Assim dava para medir a coroa, e comparar com o mesmo peso de ouro pur...
 - Cenario: street | luz: day | clima: limpo
-- Camera: prop = -
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Camera: prop = - + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ARQ (variante 0, expressao grin); OUR (variante 0, expressao nervous)
 - Animacao: reagir | interacao: vai ate o outro
 - Objetos/modelos: kit/crown
@@ -113,7 +113,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Video inteiro
-- Objeto heroi: kit/bathtub | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 16% | medio 67% | aberto 11% | detalhe 6%
+- Objeto heroi: kit/bathtub | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 16% | medio 69% | aberto 11% | detalhe 4%
 - Interacoes: b0 susto, b2 discutir, b3 o outro se aproxima, b4 entregar, b7 cochichar, b8 vai ate o outro, b9 pular
 - RISCOS GERAIS: nenhum
 
