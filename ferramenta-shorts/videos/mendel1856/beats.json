@@ -113,7 +113,8 @@
    "sfx": [
     "thump@40",
     "ding@60"
-   ]
+   ],
+   "detalhe": false
   },
   {
    "say": "Na primeira geração, todas saíram amarelas, como se o verde tivesse sumido.",

@@ -14,5 +14,5 @@ b8 | two | -  | interior, objeto na mao | - | -
 b9 | group | -  | batalha aberta com tiros, tropa, placa: GENÉTICA | - | -
 b10 | close | -  | - | - | -
 
-Mistura de planos: close 7% | medio 75% | aberto 11% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 7% | medio 76% | aberto 11% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 2 | dentro do padrao do canal

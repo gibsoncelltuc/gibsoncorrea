@@ -24,8 +24,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - Ele cruzou ervilhas amarelas com ervilhas verdes, e esperou para ver a...
 - Cenario: countryside | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): MEN (variante 0, expressao grin); FRE (variante 0, expressao suspicious)
 - Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/pea_yellow, kit/pea_green
@@ -54,8 +54,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Ele plantou as amarelas de novo e contou tudo, ervilha por ervilha, du...
 - Cenario: countryside | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MEN (variante 0, expressao neutral, segura paper); FRE (variante 0, expressao bored, segura shovel)
 - Animacao: - | interacao: insiste
 - Objetos/modelos: kit/pea_yellow, kit/pea_green
@@ -127,7 +127,7 @@ kit/pea_yellow | b2, b3, b5, b6, b9 | pronto | conferir na folha de contato se l
 
 
 ## Video inteiro
-- Objeto heroi: kit/pea_green | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 7% | medio 75% | aberto 11% | detalhe 7%
+- Objeto heroi: kit/pea_green | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 7% | medio 76% | aberto 11% | detalhe 6%
 - Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b3 susto, b4 discutir, b5 insiste, b7 cochichar, b8 vai ate o outro, b9 pular
 - RISCOS GERAIS: nenhum
 
