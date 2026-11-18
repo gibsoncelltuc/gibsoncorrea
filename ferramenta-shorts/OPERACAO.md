@@ -42,6 +42,8 @@ Tudo que a narração cita tem que aparecer na tela, na mesma cena: se diz "faze
 | `BLOQUEADO` no `novo_video.sh` | corrigir o roteiro pela folha 2 e rodar de novo |
 | `stories/<id>/SKIP` apareceu | ler `logs/gate_<id>.txt`; quase sempre é enquadramento: tire gente do `who`, troque `shot` para `group`; apague `SKIP` e `fails` e relance a fila |
 | render terminou em 2 min sem mudar nada | reaproveitou quadro velho: `./refazer_tudo.sh <id>` |
+| log diz `voz de TESTE` / a fila para com `PARADO: voz de TESTE` | o edge-tts falhou (certificado do proxy). Teste: `cd stories/<id> && SSL_CERT_FILE=/root/.ccr/ca-bundle.crt edge-tts --proxy "$HTTPS_PROXY" --voice pt-BR-AntonioNeural --text oi --write-media /tmp/t.mp3`. Se só funcionar assim, acrescente a CA ao certifi: `cat /root/.ccr/ca-bundle.crt >> $(python3 -c 'import certifi;print(certifi.where())')`. Depois relance a fila. NUNCA entregue vídeo com voz de teste |
+| dois `run_queue.sh` ao mesmo tempo (SKIP falso, ENOENT em `ckpt/`) | sempre `pgrep -f run_queue.sh` antes de lançar; se houver dois, `pkill -f run_queue; pkill -f make_video; pkill -f render_pool` e lance um só |
 | fila parada (`bash status.sh` sem processo) | `nohup bash run_queue.sh > logs/queue_run.log 2>&1 &` |
 | máquina reiniciou | a fila volta sozinha; recrie a espera em segundo plano |
 | personagem cortado / cena vazia / objeto fora do quadro | ver "Reparos" no fim da folha 2 |

@@ -9,6 +9,7 @@ ffprobe -v error -select_streams a:0 -show_entries stream=codec_name -of csv=p=0
 TOT=$(grep -o "[0-9]*/[0-9]* quadros" logs/make_$ID.log | tail -1 | cut -d/ -f2 | cut -d' ' -f1); NEW=$(grep "fim:" logs/make_$ID.log | tail -1 | awk '{print $3+0}')
 [ -n "$TOT" ] && say "ok  quadros novos na ultima rodada: $NEW de $TOT (se for MUITO menor que o total apos mudar a ferramenta, o render reaproveitou quadro velho: ./refazer_tudo.sh $ID)"
 [ -f stories/$ID/riscos.txt ] || python3 mkvideo.py $ID >/dev/null 2>&1; R=$(cat stories/$ID/riscos.txt 2>/dev/null || echo "?"); [ "$R" = "0" ] && say "ok  folha 2 sem riscos" || { say "ATENCAO: $R risco(s) na folha 2"; OK=0; }
+[ -f stories/$ID/VOICE_PLACEHOLDER ] && { say "FALHA: voz de TESTE (robotica). Refaca a voz: rm stories/$ID/stages/voice stories/$ID/voice.mp3 e ./refazer_tudo.sh $ID"; OK=0; } || say "ok  voz neural"
 [ -f out/$ID/review_sheet.jpg ] && say "ok  folha de contato: out/$ID/review_sheet.jpg  << ABRA E OLHE (Read) antes de entregar" || { say "FALHA: sem folha de contato"; OK=0; }
 mkdir -p ../entregas/$ID; cp "$MP4" out/$ID/review_sheet.jpg stories/$ID/folha1_roteiro.md stories/$ID/folha2_producao.md ../entregas/$ID/ 2>/dev/null
 say "pacote: entregas/$ID/ (mp4 original, folha de contato, folha 1, folha 2)"

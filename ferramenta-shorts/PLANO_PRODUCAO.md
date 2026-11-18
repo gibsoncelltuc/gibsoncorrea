@@ -10,7 +10,7 @@ Refazer com a ferramenta atual e as duas folhas (`./refazer_tudo.sh <id>` depois
 Depois: Curiosidade e Ciência CC 11–20.
 
 ## Sessão A (branch claude/prod-a-karansebes) — Guerras Inusitadas
-- [ ] EP 09 futebol1969 (roteiro pronto)
+- [x] EP 09 futebol1969
 - [ ] EP 11 A Guerra da Lagosta (Brasil × França, 1961) · [ ] EP 12 A Guerra da Orelha de Jenkins (1739) · [ ] EP 13 A Guerra do Banquinho Dourado (1900) · [ ] EP 14 A Guerra de 335 Anos (ilhas Scilly) · [ ] EP 15 A Guerra do Bacalhau (Islândia × Reino Unido)
 - [ ] EP 16 A Guerra da Melancia (Panamá, 1856) · [ ] EP 17 A Guerra do Uísque (ilha Hans, Canadá × Dinamarca; cenário `arctic`) · [ ] EP 18 A Guerra do Cão Fugitivo (Grécia × Bulgária, 1925) · [ ] EP 19 A Guerra de Aroostook (lenhadores, 1838) · [ ] EP 20 A Batalha de Los Angeles (1942, atiraram no nada)
 
