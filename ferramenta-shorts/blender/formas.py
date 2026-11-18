@@ -39,6 +39,22 @@ def tubo(pontos, raio, col, passo=1.0):                      # cano/alca/bico/ga
         for i in range(n + 1): t = i / n; bola((a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t, a[2] + (b[2] - a[2]) * t), raio, col, seg=8)
 def arco(c, raio, col, esp=0.04, de=0.0, ate=math.pi, n=14):  # arco em pe no plano x-y (alca de balde, chaleira, cesta)
     tubo([(c[0] + raio * math.cos(de + (ate - de) * i / n), c[1] + raio * math.sin(de + (ate - de) * i / n), c[2]) for i in range(n + 1)], esp, col)
+def pano(c, larg, alt, cores, onda=0.14, nx=16):   # PANO ONDULADO continuo (bandeira, toldo, cortina): faixas horizontais de cores, de cima para baixo; c = canto superior junto ao mastro
+    bm = _S['bm']; nf = len(cores); hb = alt / nf
+    for fi, col in enumerate(cores):
+        k = _mat(col); vs = []
+        for side in (-1, 1):
+            g = []
+            for j in range(2):
+                row = []
+                for i in range(nx + 1):
+                    t = i / nx; x = c[0] + larg * t; y = c[1] - hb * (fi + j) - .05 * t; z = c[2] + onda * math.sin(t * 5.5) * t ** .5 + side * .012
+                    row.append(bm.verts.new((x, -z, y)))
+                g.append(row)
+            vs += [v for r in g for v in r]
+            for i in range(nx):
+                q = (g[0][i], g[0][i + 1], g[1][i + 1], g[1][i])
+                f = bm.faces.new(q if side > 0 else tuple(reversed(q))); f.material_index = k
 def fim(chanfro=0.03):
     bm = _S['bm']
     me = bpy.data.meshes.new('red_' + _S['name']); bm.to_mesh(me); bm.free()
