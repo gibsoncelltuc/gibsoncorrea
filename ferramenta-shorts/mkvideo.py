@@ -719,6 +719,18 @@ if sum(1 for b in beats if b.get('impact')) < 2: _glob.append(('menos de 2 grand
 if HEROI and not any(b.get('_det_heroi') for b in beats): _glob.append((f'objeto heroi ({HEROI}) sem close de camera', 'por o objeto em "props" de uma cena media de 8+ palavras'))
 if not HEROI and 'heroi' not in B: _glob.append(('video sem objeto heroi', '"heroi": "kit/<objeto>" no topo do roteiro (modele se nao existir)'))
 if _sem: _glob.append((f'{_sem} palavra(s) de acao sem efeito + som', 'ver plano.md e por "fx"/"sfx" na cena'))
+# PARA O BLENDER: tudo que o video precisa em 3D, com o que ja existe e o que tem de ser modelado ANTES de renderizar
+_usados = {}
+for k, b in enumerate(beats):
+    for o_ in dict.fromkeys([str(p_[0]) for p_ in b.get('props', [])] + [x for x in b.get('_auto_obj', []) if '/' in x or x in ('barrel', 'crate', 'cannon', 'ship')] + [a_[0] for a_ in b.get('animals', [])] + (['emu'] if b.get('emus') else []) + ([b['veiculo'].get('asset', 'vehicles/car')] if b.get('veiculo') else [])): _usados.setdefault(o_, []).append(f'b{k}')
+_pal = {}
+for k, b in enumerate(beats):
+    for w_ in re.findall(FALTA_MODELAR, _nz(b['say'])) + [a_ for a_ in re.findall(_ANIM_ALL, _nz(b['say'])) if a_ not in _ANIM_OK]: _pal.setdefault(w_, []).append(f'b{k}')
+_f2 += ['## PARA O BLENDER (objetos 3D deste video)', 'Regra: todo objeto, utensilio, veiculo e animal que aparece e\' modelo 3D feito no Blender; a ferramenta so\' poe em cena, pinta o contorno e anima. Nada de objeto "quadradao": use `blender/formas.py` (cil, bola, torno, tubo, arco, caixa com chanfro).', '',
+        'Objeto | Cenas | Situacao | O que fazer', '---|---|---|---',
+        *[f"{o_} | {', '.join(c_)} | {'pronto' if (_lib(o_) or '/' not in o_) else 'FALTA'}{' (HEROI: aparece em close)' if HEROI and o_ == HEROI else ''} | {'conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py' if (_lib(o_) or '/' not in o_) else 'modelar antes de renderizar'}" for o_, c_ in _usados.items()],
+        *[f"{w_} (citado na narracao) | {', '.join(c_)} | FALTA | modelar: `blender/objetos_<sessao>.py` com formas.py -> `kit/{w_}.glb` (altura real em metros; cores chapadas; partes redondas com cil/bola/torno); cadastrar em `obj_dict.d/<sessao>.json`; `blender -b --python blender/objetos_<sessao>.py`; `python3 capacidades.py`; depois rodar este roteiro de novo" for w_, c_ in _pal.items()],
+        '' if (_usados or _pal) else '(nenhum objeto 3D neste video: confira se o roteiro nao esta pobre de elementos)', '']
 _f2 += ['## Video inteiro', f'- Objeto heroi: {HEROI or "-"} | grandes momentos: {", ".join(f"b{i}" for i, b in enumerate(beats) if b.get("impact")) or "-"} | planos abertos: {_nw} | mistura: {_mix}', f'- Interacoes: {", ".join(f"b{i} {b[chr(95) + chr(105) + chr(110) + chr(116) + chr(101) + chr(114)]}" for i, b in enumerate(beats) if b.get("_inter")) or "-"}',
          '- RISCOS GERAIS: ' + ('nenhum' if not _glob else ''), *[f'  - {r} -> CORRECAO: {c}' for r, c in _glob], '',
          f'## RESUMO: {_tot_r + len(_glob)} risco(s) em aberto' + ('' if _tot_r + len(_glob) else ' - pode renderizar'), *[f'- b{k}: {r}' for k, (r, c) in _allr], *[f'- geral: {r}' for r, c in _glob], '',
