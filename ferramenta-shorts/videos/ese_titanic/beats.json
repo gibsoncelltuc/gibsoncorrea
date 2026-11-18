@@ -1,0 +1,298 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "E Se",
+ "ep": 10,
+ "title": "E Se o Titanic Não Tivesse Afundado?",
+ "titulo_base": "E Se o Titanic Não Tivesse Afundado?",
+ "set": "harbor",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/iceberg",
+ "outfits": {
+  "PRO": {
+   "profissao": "cientista",
+   "hair": "#5a3a22",
+   "glasses": true
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "straw"
+   ]
+  },
+  "CAP": {
+   "profissao": "marinheiro",
+   "hat": "cap",
+   "cap": "#f4f1e8",
+   "beard": "#f4f1e8"
+  },
+  "MAR": {
+   "profissao": "marinheiro"
+  }
+ },
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Titanic",
+  "https://en.wikipedia.org/wiki/International_Convention_for_the_Safety_of_Life_at_Sea",
+  "https://en.wikipedia.org/wiki/International_Ice_Patrol"
+ ],
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "CAP:0:stern",
+    "POV:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/iceberg",
+     0,
+     -3.0,
+     1.0
+    ]
+   ],
+   "text": "1912",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "Diziam que ele era praticamente impossível de afundar. Afundou na primeira viagem. E se tivesse desviado do iceberg?"
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin"
+   ],
+   "mapa": "OCEANO ATLÂNTICO",
+   "mapa_at": 3,
+   "props": [
+    [
+     "ship",
+     0,
+     -14.0,
+     1.0
+    ]
+   ],
+   "say": "Abril de mil novecentos e doze. O Titanic levava mais de duas mil pessoas para Nova York."
+  },
+  {
+   "shot": "two",
+   "hora": "noite",
+   "who": [
+    "MAR:0:scared",
+    "CAP:0:shock"
+   ],
+   "props": [
+    [
+     "kit/iceberg",
+     2.0,
+     -8.0,
+     1.4
+    ]
+   ],
+   "fx": [
+    "ring@20"
+   ],
+   "sfx": [
+    "sting@20"
+   ],
+   "say": "Perto da meia-noite, o vigia gritou: iceberg à frente! Não deu tempo de desviar."
+  },
+  {
+   "shot": "close",
+   "hora": "noite",
+   "who": [
+    "MAR:0:shock"
+   ],
+   "props": [
+    [
+     "kit/iceberg",
+     1.6,
+     -1.6,
+     0.9
+    ]
+   ],
+   "fx": [
+    "burst@30",
+    "puff@50"
+   ],
+   "sfx": [
+    "cannon@30",
+    "thump@50"
+   ],
+   "say": "O gelo rasgou o casco por baixo da água, onde fica a maior parte do iceberg."
+  },
+  {
+   "shot": "crowd",
+   "hora": "noite",
+   "who": [
+    "POV:0:scared",
+    "POV:1:shout",
+    "MAR:0:scared"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 22,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "scared"
+   },
+   "props": [
+    [
+     "boat",
+     2.0,
+     -6.0,
+     0.9
+    ]
+   ],
+   "fx": [
+    "ring@20",
+    "puff@50"
+   ],
+   "sfx": [
+    "sting@20",
+    "thump@50"
+   ],
+   "text": "BOTES",
+   "titulo": true,
+   "say": "Acontece que só havia botes para metade das pessoas. Cerca de mil e quinhentas morreram."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PRO:0:suspicious:paper",
+    "POV:0:worried"
+   ],
+   "acao": "conversar",
+   "say": "E se o Titanic tivesse chegado inteiro?",
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ]
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PRO:0:stern",
+    "POV:1:surprised"
+   ],
+   "props": [
+    [
+     "ship",
+     2.0,
+     -12.0,
+     0.9
+    ]
+   ],
+   "interacao": "cochichar",
+   "say": "Seria só mais um navio de luxo, esquecido. E as regras do mar continuariam fracas."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "PRO:0:shock"
+   ],
+   "props": [
+    [
+     "kit/scroll",
+     1.6,
+     -0.8,
+     1.0
+    ]
+   ],
+   "fx": [
+    "ring@20",
+    "stars@50"
+   ],
+   "sfx": [
+    "sting@20",
+    "ding@50"
+   ],
+   "say": "Por causa do naufrágio, os países fizeram em mil novecentos e catorze o primeiro grande tratado de segurança no mar: bote para todos."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MAR:0:grin",
+    "CAP:0:smile"
+   ],
+   "props": [
+    [
+     "kit/iceberg",
+     2.0,
+     -8.0,
+     1.2
+    ]
+   ],
+   "interacao": "entregar",
+   "say": "E criaram uma patrulha só para vigiar icebergs. Ela existe até hoje."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin",
+    "MAR:0:grin"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "smile"
+   },
+   "props": [
+    [
+     "ship",
+     0,
+     -14.0,
+     1.0
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "VIDAS SALVAS",
+   "titulo": true,
+   "say": "Ou seja: a tragédia do Titanic ajudou a salvar milhares de vidas depois."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "PRO:0:smile"
+   ],
+   "props": [
+    [
+     "kit/iceberg",
+     -1.4,
+     -1.6,
+     0.9
+    ]
+   ],
+   "acao": "conversar",
+   "say": "Às vezes, o pior dia da história é o que deixa o futuro mais seguro."
+  }
+ ]
+}

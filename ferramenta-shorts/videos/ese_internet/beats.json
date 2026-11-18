@@ -1,0 +1,259 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "E Se",
+ "ep": 4,
+ "title": "E Se a Internet Acabasse por Um Dia?",
+ "titulo_base": "E Se a Internet Acabasse por Um Dia?",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/phone",
+ "outfits": {
+  "PRO": {
+   "profissao": "cientista",
+   "hair": "#5a3a22",
+   "glasses": true
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "straw"
+   ]
+  },
+  "CAI": {
+   "profissao": "comerciante"
+  },
+  "PIL": {
+   "jacket": "#1f2f5c",
+   "pants": "#1f2f5c",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#1f2f5c"
+  }
+ },
+ "fontes": [
+  "https://en.wikipedia.org/wiki/2024_CrowdStrike-related_IT_outages",
+  "https://en.wikipedia.org/wiki/2021_Facebook_outage"
+ ],
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "POV:0:shock",
+    "PRO:0:grin"
+   ],
+   "props": [
+    [
+     "kit/phone",
+     0,
+     -1.2,
+     1.3
+    ]
+   ],
+   "text": "E SE...",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "E se, amanhã de manhã, a internet do mundo inteiro caísse por vinte e quatro horas?"
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:surprised",
+    "POV:1:nervous"
+   ],
+   "mapa": "MUNDO",
+   "mapa_at": 3,
+   "say": "Parece impossível. Mas pedaços disso já aconteceram."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "POV:0:angry",
+    "POV:1:shout"
+   ],
+   "props": [
+    [
+     "kit/phone",
+     1.6,
+     -0.8,
+     1.1
+    ]
+   ],
+   "acao": "discutir",
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "say": "Em dois mil e vinte e um, Facebook, Instagram e WhatsApp caíram por seis horas. Bilhões ficaram sem mensagem."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "PIL:0:worried",
+    "POV:0:angry",
+    "POV:1:shout"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "angry"
+   },
+   "props": [
+    [
+     "vehicles/airplane",
+     2.4,
+     -10.0,
+     1.0
+    ]
+   ],
+   "fx": [
+    "ring@20",
+    "puff@50"
+   ],
+   "sfx": [
+    "sting@20",
+    "thump@50"
+   ],
+   "text": "PANE",
+   "titulo": true,
+   "say": "Em dois mil e vinte e quatro, uma atualização com defeito travou oito milhões de computadores. Aeroportos pararam."
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "CAI:0:nervous",
+    "POV:0:angry"
+   ],
+   "interacao": "discutir",
+   "fx": [
+    "puff@40"
+   ],
+   "sfx": [
+    "thump@40"
+   ],
+   "say": "Agora imagina o mundo todo. Sem pagamento pelo celular, sem cartão. Só dinheiro de papel."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PRO:0:stern:paper",
+    "POV:1:worried"
+   ],
+   "acao": "conversar",
+   "say": "Hospitais e bancos voltariam para o papel e a caneta. Fila dando volta no quarteirão."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "PRO:0:smug"
+   ],
+   "props": [
+    [
+     "kit/phone",
+     1.6,
+     -0.8,
+     1.2
+    ]
+   ],
+   "fx": [
+    "ring@20",
+    "stars@50"
+   ],
+   "sfx": [
+    "sting@20",
+    "ding@50"
+   ],
+   "say": "Acontece que o mais estranho seria outra coisa: bilhões de pessoas sem saber o que fazer com as mãos."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "POV:0:surprised",
+    "POV:1:grin"
+   ],
+   "interacao": "entregar",
+   "props": [
+    [
+     "kit/ball",
+     1.6,
+     -0.6,
+     1.0
+    ]
+   ],
+   "say": "Gente conversando na rua, jogando bola, olhando para o céu."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PRO:0:suspicious",
+    "POV:0:smile"
+   ],
+   "acao": "conversar",
+   "say": "Pesquisadores chamam isso de desintoxicação digital. Muita gente dorme melhor."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "POV:0:laugh",
+    "POV:1:laugh",
+    "PRO:0:grin"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 22,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "VOLTOU!",
+   "titulo": true,
+   "say": "E quando voltasse? Todo mundo correria para postar como foi ficar sem internet."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "PRO:0:smile"
+   ],
+   "props": [
+    [
+     "kit/phone",
+     -1.4,
+     -0.8,
+     1.1
+    ]
+   ],
+   "acao": "comemorar",
+   "say": "Você aguentaria um dia? Responde aí, enquanto ainda tem internet."
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+# Plano de acao - E Se EP 03 - E Se o Brasil Tivesse Sido Holandês?
+
+Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
+---|---|---|---|---|---
+b0 | two | -  | placa: 1630 | - | -
+b1 | reveal | -  | tropa, mapa | - | -
+b2 | two | -  | objeto na mao | - | -
+b3 | two | -  | - | ganhou (stars + som de sino) | -
+b4 | crowd | -  | batalha aberta com tiros, tropa, placa: GUARARAPES | venceram (stars + som de sino) | -
+b5 | two | -  | - | - | -
+b6 | two | -  | objeto na mao | - | -
+b7 | close | -  | - | - | -
+b8 | two | -  | - | - | -
+b9 | orbit | -  | batalha aberta com tiros, tropa, placa: NOVA YORK | - | -
+b10 | close | -  | - | - | -
+
+Mistura de planos: close 22% | medio 59% | aberto 10% | detalhe 9%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 3 | dentro do padrao do canal

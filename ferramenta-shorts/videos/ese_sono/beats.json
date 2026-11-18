@@ -1,0 +1,248 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "E Se",
+ "ep": 5,
+ "title": "E Se Ninguém Precisasse Dormir?",
+ "titulo_base": "E Se Ninguém Precisasse Dormir?",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/kettle",
+ "outfits": {
+  "PRO": {
+   "profissao": "cientista",
+   "hair": "#5a3a22",
+   "glasses": true
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "straw"
+   ]
+  },
+  "RAN": {
+   "jacket": "#d8282f",
+   "pants": "#2a3a5a",
+   "boots": "#f4f1e8",
+   "hat": "hair",
+   "hair": "#3a2a1f"
+  }
+ },
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Randy_Gardner_sleep_deprivation_experiment",
+  "https://www.nih.gov/news-events/news-releases/brain-may-flush-out-toxins-during-sleep"
+ ],
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "PRO:0:grin",
+    "POV:0:bored"
+   ],
+   "props": [
+    [
+     "kit/kettle",
+     0,
+     -1.2,
+     1.2
+    ]
+   ],
+   "text": "E SE...",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "Você passa um terço da vida dormindo. E se ninguém precisasse dormir nunca mais?"
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PRO:0:stern:paper",
+    "POV:0:surprised"
+   ],
+   "acao": "conversar",
+   "fx": [
+    "ring@40"
+   ],
+   "sfx": [
+    "sting@40"
+   ],
+   "say": "Numa vida de setenta e cinco anos, isso daria uns vinte e cinco anos a mais, acordado."
+  },
+  {
+   "shot": "crowd",
+   "hora": "noite",
+   "who": [
+    "POV:0:laugh",
+    "POV:1:grin",
+    "POV:2:shout"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 22,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "fx": [
+    "stars@20",
+    "stars@50"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@50"
+   ],
+   "text": "24 HORAS",
+   "titulo": true,
+   "say": "As cidades funcionariam vinte e quatro horas por dia. Escola, trabalho e festa a qualquer hora."
+  },
+  {
+   "shot": "two",
+   "hora": "noite",
+   "who": [
+    "POV:0:grin",
+    "POV:1:smile"
+   ],
+   "props": [
+    [
+     "kit/ball",
+     1.6,
+     -0.6,
+     1.0
+    ]
+   ],
+   "interacao": "entregar",
+   "say": "Daria tempo de aprender três línguas, um instrumento, e ver todas as séries."
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin"
+   ],
+   "mapa": "ESTADOS UNIDOS",
+   "mapa_at": 3,
+   "say": "Mas será que o corpo aguenta? Em mil novecentos e sessenta e quatro, um estudante americano tentou descobrir.",
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ]
+  },
+  {
+   "shot": "two",
+   "who": [
+    "RAN:0:grin",
+    "PRO:0:suspicious:paper"
+   ],
+   "interacao": "cochichar",
+   "say": "Randy Gardner, de dezessete anos, ficou acordado por onze dias seguidos, num experimento de escola."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "RAN:0:shock"
+   ],
+   "fx": [
+    "ring@20",
+    "puff@50"
+   ],
+   "sfx": [
+    "sting@20",
+    "thump@50"
+   ],
+   "say": "Acontece que, no fim, ele já esquecia palavras, ficava confuso e via coisas que não existiam."
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "PRO:0:stern",
+    "POV:0:worried"
+   ],
+   "acao": "conversar",
+   "say": "Hoje sabemos por quê: dormindo, o cérebro faz uma faxina e lava o que acumulou durante o dia."
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "PRO:0:grin:paper",
+    "POV:1:surprised"
+   ],
+   "props": [
+    [
+     "kit/kettle",
+     1.6,
+     -0.8,
+     1.0
+    ]
+   ],
+   "interacao": "entregar",
+   "say": "Para não dormir, precisaríamos de outro cérebro. Nenhum café resolve isso."
+  },
+  {
+   "shot": "crowd",
+   "hora": "noite",
+   "who": [
+    "POV:0:bored",
+    "POV:1:sad",
+    "RAN:0:sad"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "bored"
+   },
+   "fx": [
+    "puff@30"
+   ],
+   "sfx": [
+    "thump@30"
+   ],
+   "text": "ZZZ",
+   "titulo": true,
+   "say": "Ou seja: sem dormir, a humanidade não ganharia tempo. Ganharia sono."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "PRO:0:smile"
+   ],
+   "props": [
+    [
+     "kit/kettle",
+     -1.4,
+     -0.8,
+     1.0
+    ]
+   ],
+   "acao": "conversar",
+   "say": "Então, se você está vendo isso de madrugada, a ciência manda um recado: vai dormir.",
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ]
+  }
+ ]
+}
