@@ -48,13 +48,32 @@ for b in beats:
 # ---------- figurinos ----------
 SKINS = ['#ffe2c2', '#f5c9a0', '#ecd0b6', '#c99067']
 outfits_js = []
+PROFISSOES = {  # "profissao" no figurino -> roupa, chapeu e tracos tipicos (o que o roteiro puser por cima vale mais)
+    'padeiro': {'jacket': '#f6f0e6', 'pants': '#3b3f52', 'boots': '#2a2218', 'hat': 'bonnet', 'sash': '#f6f0e6', 'build': 'stout', 'moustache': '#4a3020'},
+    'agricultor': {'jacket': '#7a9ac2', 'pants': '#6a4a2a', 'boots': '#2a2218', 'hat': 'straw', 'beard': '#6b4a2a'},
+    'nobre': {'jacket': '#5a2a6a', 'pants': '#2a2a30', 'boots': '#1b1b1f', 'hat': 'tophat', 'tie': '#d9a630', 'buttons': '#e8c45a'},
+    'politico': {'jacket': '#22252c', 'pants': '#22252c', 'boots': '#1b1b1f', 'hat': 'hair', 'hair': '#8a8a86', 'tie': '#c0262d', 'glasses': True},
+    'empresario': {'jacket': '#2a3a5a', 'pants': '#2a3a5a', 'boots': '#1b1b1f', 'hat': 'bowler', 'tie': '#2f6fd0', 'build': 'stout'},
+    'rei': {'jacket': '#5a2a8a', 'pants': '#2a2a30', 'boots': '#1b1b1f', 'hat': 'crown', 'sash': '#e8c45a', 'beard': '#6b4a2a', 'build': 'stout'},
+    'general': {'jacket': '#22306a', 'pants': '#f1efe6', 'boots': '#1b1b1f', 'hat': 'shako_tall', 'buttons': '#e8c45a', 'sash': '#e8c45a', 'moustache': '#2a201a'},
+    'soldado': {'jacket': '#27408b', 'pants': '#7d9fd0', 'boots': '#2a2218', 'hat': 'shako', 'belt': '#f1efe6', 'rifle': True},
+    'marinheiro': {'jacket': '#2f5f6a', 'pants': '#e8e0c8', 'boots': '#1b1b1f', 'hat': 'beret', 'cap': '#27408b', 'beard': '#3a2a1f'},
+    'cientista': {'jacket': '#f4f1e8', 'pants': '#3b3f52', 'boots': '#1b1b1f', 'hat': 'hair', 'hair': '#8a8a86', 'glasses': True, 'tie': '#3b3f52'},
+    'medico': {'jacket': '#f4f1e8', 'pants': '#f4f1e8', 'boots': '#2a2218', 'hat': 'hair', 'hair': '#3a2a1f', 'glasses': True},
+    'comerciante': {'jacket': '#8a5a34', 'pants': '#3b2a1a', 'boots': '#1b1b1f', 'hat': 'slouch', 'cap': '#3b2a1a', 'moustache': '#3a2a1f', 'build': 'stout'},
+    'pescador': {'jacket': '#e8b46a', 'pants': '#3b3f52', 'boots': '#2a2218', 'hat': 'straw', 'beard': '#8a8a86'},
+    'padre': {'jacket': '#1b1b1f', 'pants': '#1b1b1f', 'boots': '#1b1b1f', 'hat': 'hair', 'hair': '#8a8a86', 'sash': '#f4f1e8'},
+    'camponesa': {'jacket': '#b0524a', 'pants': '#6a4a2a', 'boots': '#2a2218', 'hat': 'bonnet'},
+    'jornalista': {'jacket': '#6a5a8a', 'pants': '#3b3f52', 'boots': '#1b1b1f', 'hat': 'bowler', 'glasses': True, 'tie': '#1b1b1f'},
+}
 for name, o in B.get('outfits', {}).items():
+    o = {**PROFISSOES.get(str(o.get('profissao', '')).lower(), {}), **{k_: v_ for k_, v_ in o.items() if k_ != 'profissao'}}
     o = dict(o); mo = o.pop('moustache_on', None)
     hats = o.pop('hats', None); hairs = o.pop('hairs', None)   # "hats": [...] -> chapeu diferente por variante; sem chapeu -> cor/corte de cabelo por variante
     body = ', '.join(f'{k}: {json.dumps(v)}' for k, v in o.items())
     mou = f", ...(v % 2 ? {{ moustache: {json.dumps(mo)} }} : {{}})" if mo else ''
     hv = (f", hat: {json.dumps(hats)}[v % {len(hats)}]" if hats else '') + ('' if (hats or o.get('hat')) else f", hat: 'hair', hair: {json.dumps(hairs or ['#5a3b2a', '#2a2018', '#b8862f', '#8a8a86', '#7a3a1c'])}[v % {len(hairs or [1]*5)}], hairStyle: [null, null, 'long', null, 'bun'][v % 5]")
-    outfits_js.append(f"{name}: (v = 0, e = {{}}) => ({{ _id: {json.dumps(name.lower())}, {body}, skin: {json.dumps(SKINS)}[v % 4]{hv}{mou}, ...(v % 7 === 4 ? {{ glasses: true }} : {{}}), ...(v % 7 === 5 || v % 7 === 6 ? {{ beard: ['#3a2a1f', '#6b4a2a', '#8a8a86'][v % 3] }} : {{}}), ...e }})")
+    outfits_js.append(f"{name}: (v = 0, e = {{}}) => ({{ _id: {json.dumps(name.lower())}, {body}, skin: {json.dumps(SKINS)}[v % 4]{hv}{mou}, ...(((v + {sum(ord(c) for c in name)}) % 6 === 4 && {json.dumps('glasses' not in o)}) ? {{ glasses: true }} : {{}}), ...(([1, 5].includes((v + {sum(ord(c) for c in name)}) % 6) && {json.dumps('beard' not in o and not o.get('rifle'))}) ? {{ beard: ['#3a2a1f', '#6b4a2a', '#8a8a86'][(v + {len(name)}) % 3] }} : {{}}), ...((((v + {sum(ord(c) for c in name)}) % 6 === 3) && {json.dumps('moustache' not in o and not mo)}) ? {{ moustache: ['#4a3020', '#2a201a', '#8a8a86'][v % 3] }} : {{}}), ...e }})")   # IDENTIDADE: cada personagem (nome + variante) ganha barba, bigode ou oculos proprios; soldado de fuzil fica sem barba
 
 # ---------- posicoes automaticas ----------
 def slots(n):

@@ -26,6 +26,9 @@ beret, bonnet, bowler, cap, crown, fez, hair, helmet, shako, shako_tall, slouch,
 ## Figurino (campos de "outfits")
 jacket, pants, boots (obrigatorios) | hat + cap (cor) | hair (cor, com hat: hair) | hairStyle: long|bun | beard (cor) | glasses: true | tie (cor da gravata) | pele (tom de pele) | sash, belt, buttons (cor) | build: stout|lanky | rifle: true (soldado). Caricaturas prontas: FIGURINOS_FAMOSOS.md
 
+## Profissoes prontas ("profissao" no figurino: {"PAD": {"profissao": "padeiro"}} e ajuste as cores se quiser)
+padeiro, agricultor, nobre, politico, empresario, rei, general, soldado, marinheiro, cientista, medico, comerciante, pescador, padre, camponesa, jornalista. Cada personagem ganha barba, bigode ou oculos proprios pelo nome + variante; para fixar: "beard": "#cor" | "moustache": "#cor" | "glasses": true/false. Bandeira na mao: "holdCol" e "holdCol2" no figurino mudam as duas cores.
+
 ## Animais
 "animals": [["pig", x, z, "stand|walk", escala]] ; tambem "chicken", "goose", "horse" (cavalo 3D), "bear" (urso 3D) ; "emus": true. Modelos 3D prontos na raiz de web/assets: horse, sheep, bear, emu, pig, boat, ship, cannon, barrel, crate, tent, mgun (metralhadora).
 
