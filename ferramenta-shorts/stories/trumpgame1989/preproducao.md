@@ -12,7 +12,7 @@ b4 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | kit/boardgame 
 b5 | interior madeira | two | 2 | conversar, INTERAGEM: empurrar | kit/boardgame | - | -
 b6 | street | crowd | 19 | batalha | - | - | -
 b7 | street | two | 2 | conversar, INTERAGEM: insiste | - | - | -
-b8 | street | two | 2 | conversar, INTERAGEM: entregar | kit/boardgame | - | -
+b8 | street | two | 2 | conversar, INTERAGEM: entregar | kit/boardgame, kit/tv | - | -
 b9 | street | close | 1 | conversar | kit/boardgame | - | -
 b10 | street | orbit | 21 | comemorar, batalha | kit/boardgame, crate | - | -
 b11 | street | close | 1 | comemorar | kit/boardgame | - | -
