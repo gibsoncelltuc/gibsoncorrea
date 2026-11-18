@@ -20,7 +20,7 @@ for h in (.2, .55, .9): cil((0, h, 0), .49 if h == .55 else .45, .06, '#3a3d47')
 fim()
 def _tulipa(x, z, c1, c2, h=1.0, s=1.0):                      # haste fina, 2 folhas curvas, calice em gota com 3 petalas
     cil((x, .5 * h * s, z), .03 * s, h * s, '#3f8a3a')
-    tubo([(x, .1 * s, z), (x - .16 * s, .32 * h * s, z), (x - .2 * s, .62 * h * s, z)], .035 * s, '#4fa84a'); tubo([(x, .1 * s, z), (x + .15 * s, .28 * h * s, z), (x + .2 * s, .52 * h * s, z)], .035 * s, '#4fa84a')
+    bola((x - .13 * s, .36 * h * s, z), .1 * s, '#4fa84a', 2.6, rot=(0, .35, 0), seg=10); bola((x + .13 * s, .3 * h * s, z), .09 * s, '#5fb85a', 2.4, rot=(0, -.35, 0), seg=10)   # folhas largas
     torno((x, h * s, z), [(.02 * s, 0), (.15 * s, .08 * s), (.19 * s, .22 * s), (.15 * s, .36 * s), (.07 * s, .44 * s)], c1, 14)
     for a in (0, 2.09, 4.19): bola((x + .1 * s * math.cos(a), (h + .4) * s, z + .1 * s * math.sin(a)), .08 * s, c2, 1.5)
 def _vaso(): torno((0, 0, 0), [(.2, 0), (.26, .05), (.34, .5), (.38, .56), (.38, .6), (.3, .6)], '#c2703a'); cil((0, .58, 0), .3, .04, '#4a3222')

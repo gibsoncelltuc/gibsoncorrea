@@ -27,7 +27,7 @@ beret, bonnet, bowler, cap, crown, fez, hair, helmet, shako, shako_tall, slouch,
 jacket, pants, boots (obrigatorios) | hat + cap (cor) | hair (cor, com hat: hair) | hairStyle: long|bun | beard (cor) | glasses: true | tie (cor da gravata) | pele (tom de pele) | sash, belt, buttons (cor) | build: stout|lanky | rifle: true (soldado). Caricaturas prontas: FIGURINOS_FAMOSOS.md
 
 ## Animais
-"animals": [["pig", x, z, "stand|walk", escala]] , [["chicken", ...]] ; "emus": true
+"animals": [["pig", x, z, "stand|walk", escala]] ; tambem "chicken", "goose", "horse" (cavalo 3D), "bear" (urso 3D) ; "emus": true. Modelos 3D prontos na raiz de web/assets: horse, sheep, bear, emu, pig, boat, ship, cannon, barrel, crate, tent, mgun (metralhadora).
 
 ## Objetos que entram SOZINHOS quando a narracao cita a palavra
 - barrel  <- \bbarril\b|\bbarris\b|aguardente|cerveja|\bvinho\b|\brum\b
@@ -70,7 +70,7 @@ jacket, pants, boots (obrigatorios) | hat + cap (cor) | hair (cor, com hat: hair
 - kit/crown  <- \bcoroa\b
 
 ## Biblioteca 3D completa (use em "props": [["pasta/nome", x, z, escala]])
-- kit: apple, ball, bathtub, cake_table, campfire, chest, cross, crown, grave, kettle, porch, room_shop, room_stone, room_wood, stall, tent, throne, tulip_bed, tulip_purple, tulip_red, tulip_striped, tulip_yellow
+- kit: apple, ball, barrel_r, bathtub, cake_table, campfire, chest, cross, crown, grave, kettle, porch, room_shop, room_stone, room_wood, stall, tent, throne, tulip_bed, tulip_purple, tulip_red, tulip_striped, tulip_yellow
 - buildings: apartment, barn, bridge, castle_tower, church, house_blue, house_small, house_two, lighthouse, shop, skyscraper, windmill
 - vehicles: airplane, bicycle, car, car_blue, helicopter, jeep, locomotive, motorboat, motorcycle, sailboat, tank, taxi, truck, wagon
 - nature: bench, bush, flowerbed, fountain, haybale, lamppost, picket_fence, rocks, scarecrow, tree_birch, tree_oak, tree_palm, tree_pine
