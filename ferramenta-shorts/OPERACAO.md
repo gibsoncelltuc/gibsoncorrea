@@ -39,6 +39,10 @@ Tudo que a narração cita tem que aparecer na tela, na mesma cena: se diz "faze
 - Há um despertador por sessão (tarefa agendada, de hora em hora) que manda conferir a fila e pegar o próximo item do `PLANO_PRODUCAO.md`. Nunca termine um turno sem vídeo na fila e sem espera em segundo plano.
 - Não use ferramenta que peça aprovação do Gibson (ex.: mensagem entre sessões): a sessão trava até ele aprovar. Aviso de entrega = `entregas/<id>/RELATORIO.md` + commit + push.
 
+## Identidade dos personagens (ordem do Gibson)
+
+Cada personagem tem cara e roupa próprias, como no canal de referência. Use `"profissao"` no figurino (padeiro, agricultor, nobre, politico, empresario, rei, general, soldado, marinheiro, cientista, medico, comerciante, pescador, padre, camponesa, jornalista) e mude as cores para diferenciar; a ferramenta distribui barba, bigode e óculos por personagem (para fixar: `"beard"`, `"moustache"`, `"glasses"`). Dois personagens principais da mesma cena nunca com o mesmo figurino + variante. Use expressões diferentes ao longo do vídeo (o `who` de cada cena pode mudar a expressão). Quem não é soldado não usa uniforme: terno (`"tie"`) para político/empresário, avental para padeiro, chapéu de palha para agricultor.
+
 ## Formato dos objetos (ordem do Gibson: nada de estilo Minecraft)
 
 Quadrado só o que é quadrado de verdade: placa, casa, caixote, mesa, livro. Todo o resto (bichos, frutas, bolo, garrafa, vaso, bola, chaleira, barco, roda, fogo, flor, coroa...) é modelado com as formas redondas do `blender/formas.py`. A folha 2 acusa como RISCO todo objeto do kit montado com caixas ("CAIXOTE") usado no vídeo: refaça o objeto (mesmo nome de arquivo) antes de renderizar. Confira na folha de contato se cada objeto se lê de primeira; se parecer bloco, refaça.

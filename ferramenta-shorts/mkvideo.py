@@ -48,13 +48,32 @@ for b in beats:
 # ---------- figurinos ----------
 SKINS = ['#ffe2c2', '#f5c9a0', '#ecd0b6', '#c99067']
 outfits_js = []
+PROFISSOES = {  # "profissao" no figurino -> roupa, chapeu e tracos tipicos (o que o roteiro puser por cima vale mais)
+    'padeiro': {'jacket': '#f6f0e6', 'pants': '#3b3f52', 'boots': '#2a2218', 'hat': 'bonnet', 'sash': '#f6f0e6', 'build': 'stout', 'moustache': '#4a3020'},
+    'agricultor': {'jacket': '#7a9ac2', 'pants': '#6a4a2a', 'boots': '#2a2218', 'hat': 'straw', 'beard': '#6b4a2a'},
+    'nobre': {'jacket': '#5a2a6a', 'pants': '#2a2a30', 'boots': '#1b1b1f', 'hat': 'tophat', 'tie': '#d9a630', 'buttons': '#e8c45a'},
+    'politico': {'jacket': '#22252c', 'pants': '#22252c', 'boots': '#1b1b1f', 'hat': 'hair', 'hair': '#8a8a86', 'tie': '#c0262d', 'glasses': True},
+    'empresario': {'jacket': '#2a3a5a', 'pants': '#2a3a5a', 'boots': '#1b1b1f', 'hat': 'bowler', 'tie': '#2f6fd0', 'build': 'stout'},
+    'rei': {'jacket': '#5a2a8a', 'pants': '#2a2a30', 'boots': '#1b1b1f', 'hat': 'crown', 'sash': '#e8c45a', 'beard': '#6b4a2a', 'build': 'stout'},
+    'general': {'jacket': '#22306a', 'pants': '#f1efe6', 'boots': '#1b1b1f', 'hat': 'shako_tall', 'buttons': '#e8c45a', 'sash': '#e8c45a', 'moustache': '#2a201a'},
+    'soldado': {'jacket': '#27408b', 'pants': '#7d9fd0', 'boots': '#2a2218', 'hat': 'shako', 'belt': '#f1efe6', 'rifle': True},
+    'marinheiro': {'jacket': '#2f5f6a', 'pants': '#e8e0c8', 'boots': '#1b1b1f', 'hat': 'beret', 'cap': '#27408b', 'beard': '#3a2a1f'},
+    'cientista': {'jacket': '#f4f1e8', 'pants': '#3b3f52', 'boots': '#1b1b1f', 'hat': 'hair', 'hair': '#8a8a86', 'glasses': True, 'tie': '#3b3f52'},
+    'medico': {'jacket': '#f4f1e8', 'pants': '#f4f1e8', 'boots': '#2a2218', 'hat': 'hair', 'hair': '#3a2a1f', 'glasses': True},
+    'comerciante': {'jacket': '#8a5a34', 'pants': '#3b2a1a', 'boots': '#1b1b1f', 'hat': 'slouch', 'cap': '#3b2a1a', 'moustache': '#3a2a1f', 'build': 'stout'},
+    'pescador': {'jacket': '#e8b46a', 'pants': '#3b3f52', 'boots': '#2a2218', 'hat': 'straw', 'beard': '#8a8a86'},
+    'padre': {'jacket': '#1b1b1f', 'pants': '#1b1b1f', 'boots': '#1b1b1f', 'hat': 'hair', 'hair': '#8a8a86', 'sash': '#f4f1e8'},
+    'camponesa': {'jacket': '#b0524a', 'pants': '#6a4a2a', 'boots': '#2a2218', 'hat': 'bonnet'},
+    'jornalista': {'jacket': '#6a5a8a', 'pants': '#3b3f52', 'boots': '#1b1b1f', 'hat': 'bowler', 'glasses': True, 'tie': '#1b1b1f'},
+}
 for name, o in B.get('outfits', {}).items():
+    o = {**PROFISSOES.get(str(o.get('profissao', '')).lower(), {}), **{k_: v_ for k_, v_ in o.items() if k_ != 'profissao'}}
     o = dict(o); mo = o.pop('moustache_on', None)
     hats = o.pop('hats', None); hairs = o.pop('hairs', None)   # "hats": [...] -> chapeu diferente por variante; sem chapeu -> cor/corte de cabelo por variante
     body = ', '.join(f'{k}: {json.dumps(v)}' for k, v in o.items())
     mou = f", ...(v % 2 ? {{ moustache: {json.dumps(mo)} }} : {{}})" if mo else ''
     hv = (f", hat: {json.dumps(hats)}[v % {len(hats)}]" if hats else '') + ('' if (hats or o.get('hat')) else f", hat: 'hair', hair: {json.dumps(hairs or ['#5a3b2a', '#2a2018', '#b8862f', '#8a8a86', '#7a3a1c'])}[v % {len(hairs or [1]*5)}], hairStyle: [null, null, 'long', null, 'bun'][v % 5]")
-    outfits_js.append(f"{name}: (v = 0, e = {{}}) => ({{ _id: {json.dumps(name.lower())}, {body}, skin: {json.dumps(SKINS)}[v % 4]{hv}{mou}, ...(v % 7 === 4 ? {{ glasses: true }} : {{}}), ...(v % 7 === 5 || v % 7 === 6 ? {{ beard: ['#3a2a1f', '#6b4a2a', '#8a8a86'][v % 3] }} : {{}}), ...e }})")
+    outfits_js.append(f"{name}: (v = 0, e = {{}}) => ({{ _id: {json.dumps(name.lower())}, {body}, skin: {json.dumps(SKINS)}[v % 4]{hv}{mou}, ...(((v + {sum(ord(c) for c in name)}) % 6 === 4 && {json.dumps('glasses' not in o)}) ? {{ glasses: true }} : {{}}), ...(([1, 5].includes((v + {sum(ord(c) for c in name)}) % 6) && {json.dumps('beard' not in o and not o.get('rifle'))}) ? {{ beard: ['#3a2a1f', '#6b4a2a', '#8a8a86'][(v + {len(name)}) % 3] }} : {{}}), ...((((v + {sum(ord(c) for c in name)}) % 6 === 3) && {json.dumps('moustache' not in o and not mo)}) ? {{ moustache: ['#4a3020', '#2a201a', '#8a8a86'][v % 3] }} : {{}}), ...e }})")   # IDENTIDADE: cada personagem (nome + variante) ganha barba, bigode ou oculos proprios; soldado de fuzil fica sem barba
 
 # ---------- posicoes automaticas ----------
 def slots(n):
@@ -550,7 +569,7 @@ def build_beat(k, b):
             ox, oz, os_ = (float(_obj[1]) if len(_obj) > 1 else 0.0), (float(_obj[2]) if len(_obj) > 2 else 0.5), (float(_obj[3]) if len(_obj) > 3 else 1.0)
             oy_ = float(_obj[4].get('alto', 0.75)) if len(_obj) > 4 and isinstance(_obj[4], dict) else (1.62 if 'tulip' in str(_obj[0]) else 1.2 if str(_obj[0]) in ('kit/cake_table', 'kit/throne') else 0.75)   # altura do centro do objeto ("alto" no 5o campo do prop)
             k0 = (ox, oy_ * os_, oz, (5.6 if oy_ > 1.5 else 5.0) if oy_ > 1 else 4.2, 14 if ox < 0 else -14, 6 if oy_ > 1 else 10, 44); k1 = (ox, oy_ * os_, oz, (4.7 if oy_ > 1.5 else 4.2) if oy_ > 1 else 3.4, 8 if ox < 0 else -8, 5 if oy_ > 1 else 9, 44)
-        else: k0 = (0.0, 3.25, -1.3, 6.4, 6, -3, 44); k1 = (0.0, 3.25, -1.3, 5.4, -4, -3, 44)
+        else: k0 = (0.0, 3.1, -1.3, 9.6, 6, -3, 44); k1 = (0.0, 3.1, -1.3, 8.6, -4, -3, 44)   # close na placa: mais longe, a placa cabe INTEIRA no quadro
         Kc = lambda f_, q: f"{{ f: {f_}, at: [X + {num(q[0])}, DK + {num(q[1])}, {num(q[2])}], d: {num(q[3])}, az: {num(q[4])}, el: {num(q[5])}, fov: {num(q[6])} }}"
         base = call; pid = f"S('b{k}', {a}, {bb}, X,"
         if pid in base:
@@ -672,14 +691,14 @@ _CAM = {'two': 'plano medio nos dois; camera empurra devagar e muda de angulo a 
 def _redondo(as_):   # objeto do kit feito com blender/formas.py (malha 'red_...') = formato bonito; senao e' objeto montado com caixas (estilo Minecraft)
     f_ = f'web/assets/library/{as_}.glb'
     if not as_.startswith('kit/') or not os.path.exists(f_): return True
-    if re.search(r'kit/(room_|porch|grave|cross|throne|stall|tulip_bed$)', as_): return True   # movel/construcao: quadrado e' o formato normal
+    if re.search(r'kit/(room_|porch|grave|cross|throne|stall|microwave|tulip_bed$)', as_): return True   # movel/construcao: quadrado e' o formato normal
     try:
         d_ = open(f_, 'rb').read(); n_ = int.from_bytes(d_[12:16], 'little'); j_ = json.loads(d_[20:20 + n_].decode('utf-8', 'ignore'))
         return any(str(m_.get('name', '')).startswith('red_') for m_ in j_.get('meshes', []))
     except Exception: return True
 _VARN = ['frente', '3/4 pela direita, mais perto e mais baixo', '3/4 pela esquerda, mais alto e aberto', 'leve direita, perto', 'esquerda alta, aberto', 'direita baixa']
 _STOPW = set('guerra causa vezes tempo coisa hora horas dias anos meses semanas noite manha tarde vida nada tudo todo toda todos todas mesmo mesma outro outra outros outras nome meio parte lado fim final verdade volta ideia ordem resposta historia mundo pais paises primeiro segundo terceiro ultimo unica unico dele dela deles delas quem qual onde quando para pelo pela entre sobre depois antes ainda apenas quase muito pouco mais menos maior menor inteiro inteira troca conta hoje nunca sempre'.split())
-_ANIM_OK = {'porco': 'pig', 'porcos': 'pig', 'galinha': 'chicken', 'galinhas': 'chicken', 'emu': 'emus', 'emus': 'emus', 'ganso': 'chicken', 'gansos': 'chicken'}
+_ANIM_OK = {'cavalo': 'horse', 'cavalos': 'horse', 'urso': 'bear', 'ursos': 'bear', 'porco': 'pig', 'porcos': 'pig', 'galinha': 'chicken', 'galinhas': 'chicken', 'emu': 'emus', 'emus': 'emus', 'ganso': 'chicken', 'gansos': 'chicken'}
 _ANIM_ALL = r'\b(cavalo|cavalos|vaca|vacas|boi|bois|cachorro|cachorros|cao|caes|gato|gatos|ovelha|ovelhas|galinha|galinhas|porco|porcos|emu|emus|ganso|gansos|urso|ursos|lobo|lobos|elefante|elefantes|camelo|camelos|burro|burros|coelho|coelhos|rato|ratos|pombo|pombos)\b'
 def _riscos(k, b):
     t = _nz(b['say']); nw = len(b['say'].split()); sh = b.get('shot'); R = []; cen = b.get('set', SET)
