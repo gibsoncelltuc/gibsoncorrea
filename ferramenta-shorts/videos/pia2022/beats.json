@@ -32,27 +32,44 @@
    "boots": "#1b1b1f",
    "hat": "hair",
    "hair": "#1a1a1a"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "bowler"
+   ]
   }
  },
  "beats": [
   {
    "say": "Em outubro de dois mil e vinte e dois, Elon Musk apareceu na sede do Twitter, em São Francisco, carregando uma pia.",
-   "shot": "two",
+   "shot": "track",
    "who": [
-    "MUS:0:grin",
-    "FUN:0:shock"
+    "MUS:0:grin"
    ],
    "props": [
     [
      "kit/sink",
-     1.4,
-     0.2,
-     1.4
+     0.35,
+     1.55,
+     0.9,
+     {
+      "carregado": true,
+      "y": 0.75
+     }
     ]
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "sfx": [
+    "whoosh@20"
+   ]
   },
   {
    "say": "Ele filmou a própria entrada e postou o vídeo na internet.",
@@ -126,8 +143,7 @@
    "crowd": {
     "n": 8,
     "outfits": [
-     "FUN",
-     "FUN2"
+     "POV"
     ],
     "march": false
    },
@@ -166,9 +182,7 @@
    "crowd": {
     "n": 6,
     "outfits": [
-     "FUN",
-     "FUN2",
-     "MUS"
+     "POV"
     ],
     "march": false
    },

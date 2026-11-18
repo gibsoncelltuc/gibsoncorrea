@@ -5,7 +5,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 ## Cena b0  (~7.6 s)
 - Narracao: Em outubro de dois mil e vinte e dois, Elon Musk apareceu na sede do Twitter, em São Francisco, carregando uma pia.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
+- Efeitos sonoros marcados: whoosh@20
 - Efeito + som nas palavras-chave: apareceu -> dust + som de impacto
 - Efeito visual marcado: -
 - Texto na tela: -
