@@ -48,7 +48,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MUS (variante 0, expressao stern); ENG (variante 0, expressao grin, segura paper)
 - Animacao: conversar | interacao: entregar
-- Objetos/modelos: kit/rocket
+- Objetos/modelos: kit/falcon9_land, kit/rocket
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dezembro, equipe, falcon
 - RISCOS: nenhum
 
@@ -117,7 +117,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/falcon9_land | b0, b6, b7, b8, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/falcon9_land | b0, b4, b6, b7, b8, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/rocket | b0, b2, b3, b4, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/falcon_air | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
@@ -125,11 +125,9 @@ kit/falcon_air | b5 | pronto | conferir na folha de contato se le bem; se parece
 ## Video inteiro
 - Objeto heroi: kit/falcon9_land | grandes momentos: b5, b8 | planos abertos: 3 | mistura: close 14% | medio 71% | aberto 11% | detalhe 5%
 - Interacoes: b0 o outro se aproxima, b2 discutir, b3 susto, b4 entregar, b7 insiste, b9 abracar
-- RISCOS GERAIS: 
-  - objeto heroi (kit/falcon9_land) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: objeto heroi (kit/falcon9_land) sem close de camera
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh falcon2015 bN bM` (so essas cenas).

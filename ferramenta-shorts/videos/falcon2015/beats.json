@@ -131,7 +131,15 @@
     "ENG:0:grin:paper"
    ],
    "interacao": "entregar",
-   "say": "Mas a equipe insistiu. Em vinte e um de dezembro, o Falcon nove decolou levando satélites."
+   "say": "Mas a equipe insistiu. Em vinte e um de dezembro, o Falcon nove decolou levando satélites.",
+   "props": [
+    [
+     "kit/falcon9_land",
+     1.5,
+     0.3,
+     0.2
+    ]
+   ]
   },
   {
    "shot": "crowd",
