@@ -118,5 +118,17 @@
   "kit/tires",
   1.0,
   false
+ ],
+ [
+  "\\bfoguete\\b|\\bfoguetes\\b|falcon",
+  "kit/rocket",
+  1.0,
+  false
+ ],
+ [
+  "\\broadster\\b|\\btesla\\b",
+  "kit/roadster",
+  1.0,
+  false
  ]
 ]
