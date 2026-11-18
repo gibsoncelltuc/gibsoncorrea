@@ -84,3 +84,9 @@ for i, (y, z) in enumerate([(.22, -.28), (.22, .0), (.22, .28), (.58, -.14), (.5
     cil((0, y, z), .15, 1.3, B1 if i % 2 else B2, rot=FLX); cil((.66, y, z), .135, .03, B3, rot=FLX); cil((.675, y, z), .06, .03, '#c9a46a', rot=FLX); cil((-.66, y, z), .135, .03, B3, rot=FLX)
 cil((.05, 1.12, .02), .03, .5, '#7a4a26', rot=(0, math.pi / 5, 0)); bola((.0, 1.32, .02), .09, '#8a8a90', .5)
 fim(.02)
+novo('searchlight')                                   # holofote antiaéreo (herói do EP 20): base redonda, suporte, lâmpada cilíndrica inclinada e feixe de luz em cone
+M1, M2 = '#4a5a3a', '#2a2d33'
+cil((0, .1, 0), .55, .2, M2); cil((0, .5, 0), .13, .6, M1); cil((-.25, .75, 0), .06, .5, M1, rot=(0, 0, math.pi / 2)); cil((.25, .75, 0), .06, .5, M1, rot=(0, 0, math.pi / 2))
+cil((0, .95, 0), .34, .7, M1, rot=(0, 0, math.pi / 2.6)); bola((.3, 1.05, 0), .3, '#fff6c0', .45)
+cil((1.17, 1.39, 0), .06, 1.8, '#fff2a0', raio_topo=.5, rot=(0, 0, math.pi / 2.6))
+fim(.02)
