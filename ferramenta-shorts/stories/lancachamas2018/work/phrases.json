@@ -1,7 +1,7 @@
 {
  "duration": 36.24,
  "frames30": 1087,
- "source": "silence-align (cost 0.38)",
+ "source": "silence-align (cost 0.39)",
  "segments": [
   [
    0.153417,
@@ -17,7 +17,7 @@
   ],
   [
    4.03792,
-   5.58379
+   5.58375
   ],
   [
    5.86279,
@@ -41,11 +41,11 @@
   ],
   [
    17.0692,
-   17.9195
+   17.9194
   ],
   [
    18.7583,
-   21.2941
+   21.2952
   ],
   [
    22.2016,
@@ -56,11 +56,11 @@
    26.4384
   ],
   [
-   26.6915,
+   26.6882,
    28.8882
   ],
   [
-   29.742,
+   29.7419,
    31.6604
   ],
   [
@@ -126,7 +126,7 @@
   {
    "text": "Cada compra vinha com um extintor de inc\u00eandio de brinde.",
    "s": 18.758,
-   "e": 21.294
+   "e": 21.295
   },
   {
    "text": "Foram vinte mil unidades \u00e0 venda.",
@@ -140,7 +140,7 @@
   },
   {
    "text": "rendendo cerca de dez milh\u00f5es de d\u00f3lares.",
-   "s": 26.692,
+   "s": 26.688,
    "e": 28.888
   },
   {

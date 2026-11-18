@@ -8,7 +8,7 @@ b0 | street | two | 2 | conversar, INTERAGEM: aproxima-se | - | - | -
 b1 | street | reveal | 10 | conversar | kit/flamethrower | - | -
 b2 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/flamethrower | - | -
 b3 | street | crowd | 14 | conversar, batalha | kit/flamethrower | - | -
-b4 | street | wide | 8 | comemorar | kit/extinguisher, kit/fire | - | -
+b4 | street | wide | 8 | comemorar | kit/extinguisher | - | -
 b5 | street | group | 3 | conversar, INTERAGEM: o outro se aproxima | - | - | -
 b6 | street | crowd | 14 | reagir, batalha | nature/picket_fence | - | -
 b7 | street | two | 8 | conversar, INTERAGEM: insiste | kit/globe | - | -

@@ -1,11 +1,11 @@
 {
  "duration": 43.128,
  "frames30": 1294,
- "source": "silence-align (cost 0.81)",
+ "source": "silence-align (cost 0.82)",
  "segments": [
   [
    0.164417,
-   1.61158
+   1.59842
   ],
   [
    1.79508,
@@ -40,7 +40,7 @@
    18.3477
   ],
   [
-   18.57,
+   18.5699,
    19.0135
   ],
   [
@@ -60,7 +60,7 @@
    24.6145
   ],
   [
-   25.4898,
+   25.4897,
    26.0351
   ],
   [
@@ -73,11 +73,11 @@
   ],
   [
    28.9984,
-   31.9213
+   31.9165
   ],
   [
    32.7151,
-   33.4999
+   33.5
   ],
   [
    33.6763,
@@ -104,7 +104,7 @@
   {
    "text": "Em novembro de dois mil e dezenove,",
    "s": 0.164,
-   "e": 1.612
+   "e": 1.598
   },
   {
    "text": "na Calif\u00f3rnia,",
@@ -189,7 +189,7 @@
   {
    "text": "a mesma esfera tinha batido na mesma janela sem nem arranhar.",
    "s": 28.998,
-   "e": 31.921
+   "e": 31.916
   },
   {
    "text": "A plateia riu,",
