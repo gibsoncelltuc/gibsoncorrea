@@ -12,6 +12,9 @@ for EP in $(seq ${1:-11} ${2:-30}); do
   T=$(date +%s)
   nice -n 10 $ACE/build/ace-lm --models $ACE/models --request req.json > lm.log 2>&1
   nice -n 10 $ACE/build/ace-synth --models $ACE/models --request req0.json > synth.log 2>&1
-  [ -f req00.mp3 ] && echo "ep$N pronto em $(( $(date +%s)-T ))s" >> /home/user/musica/todas.log || echo "ep$N FALHOU" >> /home/user/musica/todas.log
+  if [ -f req00.mp3 ]; then
+    cp req00.mp3 "$HERE/../musica/ep${N}_acestep_seed${SEED}.mp3"; cp req.json "$HERE/../musica/ep${N}_pedido_seed${SEED}.json"
+    echo "ep$N pronto em $(( $(date +%s)-T ))s" >> /home/user/musica/todas.log
+  else echo "ep$N FALHOU" >> /home/user/musica/todas.log; fi
 done
 echo FIM >> /home/user/musica/todas.log
