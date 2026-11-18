@@ -4,7 +4,7 @@ Regra: cada sessão trabalha no SEU branch e só nos ids da sua lista. Antes de 
 
 ## Sessão principal (branch claude/bold-sagan-dskrsj)
 Refazer com a ferramenta atual e as duas folhas (`./refazer_tudo.sh <id>` depois de zerar os riscos da folha 2):
-- [ ] EP 06 porco1859 (em render) · [ ] EP 04 balde1325 · [ ] EP 07 bolos1838 · [ ] EP 01 karansebes · [ ] EP 03 toledo1835 · [ ] EP 08 zanzibar1896 (na fila)
+- [x] EP 06 porco1859 · [ ] EP 04 balde1325 · [ ] EP 07 bolos1838 · [ ] EP 01 karansebes · [ ] EP 03 toledo1835 · [ ] EP 08 zanzibar1896 (na fila)
 - [ ] EP 02 emus1932 — folha 2 acusa 6 riscos (emu fora de cena em b3/b9, "montou", sem mapa, herói errado: ponha `"heroi": null` ou modele; corrigir o beats.json)
 - [ ] EP 05 gansos390 — 7 riscos (cachorro sem modelo: modelar ou tirar; "dormiam/escalaram"; sem herói: use o ganso/galinha; 2 palavras sem efeito)
 Depois: Curiosidade e Ciência CC 11–20.
@@ -15,7 +15,7 @@ Depois: Curiosidade e Ciência CC 11–20.
 - [ ] EP 16 A Guerra da Melancia (Panamá, 1856) · [ ] EP 17 A Guerra do Uísque (ilha Hans, Canadá × Dinamarca; cenário `arctic`) · [ ] EP 18 A Guerra do Cão Fugitivo (Grécia × Bulgária, 1925) · [ ] EP 19 A Guerra de Aroostook (lenhadores, 1838) · [ ] EP 20 A Batalha de Los Angeles (1942, atiraram no nada)
 
 ## Sessão B (branch claude/prod-b-emus) — Curiosidade e Ciência (`"serie": "Curiosidade e Ciência", "ep": N`)
-- [ ] EP 10 chaleira1784 (Guerras; roteiro pronto)
+- [x] EP 10 chaleira1784
 - [ ] CC 01 Newton e a maçã · [ ] CC 02 Arquimedes e o "Eureca" na banheira · [ ] CC 03 Galileu e a torre de Pisa · [ ] CC 04 Fleming e o mofo que virou penicilina · [ ] CC 05 O micro-ondas e o chocolate derretido
 - [ ] CC 06 Pasteur e a vacina da raiva · [ ] CC 07 Franklin, a pipa e o raio · [ ] CC 08 Darwin e os tentilhões · [ ] CC 09 Mendel e as ervilhas · [ ] CC 10 Eratóstenes mede a Terra com uma sombra
 
