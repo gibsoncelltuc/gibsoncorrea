@@ -48,7 +48,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): VIA (variante 0, expressao angry); VEN (variante 0, expressao scared) | multidao: 10 de VIA/VEN
 - Animacao: conversar | interacao: empurrar
-- Objetos/modelos: -
+- Objetos/modelos: war/pistol
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): arma, confusao, frente, viajante
 - RISCOS: nenhum
 
@@ -111,6 +111,7 @@ kit/melon | b0, b2, b9 | pronto (HEROI: aparece em close) | conferir na folha de
 vehicles/locomotive | b1, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/stall | b2, b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/shop | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+war/pistol | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/apartment | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
