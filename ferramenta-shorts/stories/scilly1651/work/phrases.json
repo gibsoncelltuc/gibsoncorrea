@@ -1,0 +1,234 @@
+{
+ "duration": 54.36,
+ "frames30": 1631,
+ "source": "silence-align (cost 0.62)",
+ "segments": [
+  [
+   0.15925,
+   3.91196
+  ],
+  [
+   4.10758,
+   4.90004
+  ],
+  [
+   5.75775,
+   8.44121
+  ],
+  [
+   8.67375,
+   9.47921
+  ],
+  [
+   9.72387,
+   10.6323
+  ],
+  [
+   11.5154,
+   13.9251
+  ],
+  [
+   14.2102,
+   14.7465
+  ],
+  [
+   14.9956,
+   16.0748
+  ],
+  [
+   16.355,
+   17.165
+  ],
+  [
+   18.0209,
+   21.3852
+  ],
+  [
+   22.218,
+   22.8206
+  ],
+  [
+   23.0584,
+   23.9436
+  ],
+  [
+   24.2591,
+   26.397
+  ],
+  [
+   27.2549,
+   30.0152
+  ],
+  [
+   30.2611,
+   31.9947
+  ],
+  [
+   32.8403,
+   35.4848
+  ],
+  [
+   35.679,
+   36.6208
+  ],
+  [
+   37.485,
+   39.089
+  ],
+  [
+   39.2452,
+   40.0505
+  ],
+  [
+   40.3798,
+   41.8227
+  ],
+  [
+   42.6738,
+   44.7818
+  ],
+  [
+   45.6482,
+   47.3268
+  ],
+  [
+   47.5783,
+   49.9727
+  ],
+  [
+   50.8777,
+   53.0454
+  ],
+  [
+   53.2237,
+   53.5512
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Uma ilha min\u00fascula ficou em guerra com a Holanda por 335 anos,",
+   "s": 0.159,
+   "e": 3.912
+  },
+  {
+   "text": "e ningu\u00e9m atirou.",
+   "s": 4.108,
+   "e": 4.9
+  },
+  {
+   "text": "Dizem que tudo come\u00e7ou em mil seiscentos e cinquenta e um,",
+   "s": 5.758,
+   "e": 8.441
+  },
+  {
+   "text": "nas ilhas Scilly,",
+   "s": 8.674,
+   "e": 9.479
+  },
+  {
+   "text": "perto da Inglaterra.",
+   "s": 9.724,
+   "e": 10.632
+  },
+  {
+   "text": "Piratas das ilhas atacavam navios holandeses,",
+   "s": 11.515,
+   "e": 13.925
+  },
+  {
+   "text": "e a Holanda,",
+   "s": 14.21,
+   "e": 14.746
+  },
+  {
+   "text": "que vivia do com\u00e9rcio,",
+   "s": 14.996,
+   "e": 16.075
+  },
+  {
+   "text": "ficou furiosa.",
+   "s": 16.355,
+   "e": 17.165
+  },
+  {
+   "text": "Ela mandou uma frota de navios de guerra e exigiu o dinheiro de volta.",
+   "s": 18.021,
+   "e": 21.385
+  },
+  {
+   "text": "Dizem que,",
+   "s": 22.218,
+   "e": 22.821
+  },
+  {
+   "text": "como ningu\u00e9m pagou,",
+   "s": 23.058,
+   "e": 23.944
+  },
+  {
+   "text": "o almirante holand\u00eas declarou guerra \u00e0s ilhas.",
+   "s": 24.259,
+   "e": 26.397
+  },
+  {
+   "text": "Acontece que os ingleses tomaram as ilhas pouco depois,",
+   "s": 27.255,
+   "e": 30.015
+  },
+  {
+   "text": "e ningu\u00e9m se lembrou de fazer a paz.",
+   "s": 30.261,
+   "e": 31.995
+  },
+  {
+   "text": "A guerra seguiu esquecida por mais de trezentos anos,",
+   "s": 32.84,
+   "e": 35.485
+  },
+  {
+   "text": "sem um \u00fanico tiro.",
+   "s": 35.679,
+   "e": 36.621
+  },
+  {
+   "text": "Em mil novecentos e oitenta e seis,",
+   "s": 37.485,
+   "e": 39.089
+  },
+  {
+   "text": "algu\u00e9m perguntou:",
+   "s": 39.245,
+   "e": 40.05
+  },
+  {
+   "text": "\"Ser\u00e1 que ainda estamos em guerra?\"",
+   "s": 40.38,
+   "e": 41.823
+  },
+  {
+   "text": "E o embaixador holand\u00eas visitou as ilhas.",
+   "s": 42.674,
+   "e": 44.782
+  },
+  {
+   "text": "Os dois fizeram a paz num tratado,",
+   "s": 45.648,
+   "e": 47.327
+  },
+  {
+   "text": "e a guerra de 335 anos terminou.",
+   "s": 47.578,
+   "e": 49.973
+  },
+  {
+   "text": "Foi a guerra mais longa e mais calma da hist\u00f3ria,",
+   "s": 50.878,
+   "e": 53.045
+  },
+  {
+   "text": "dizem.",
+   "s": 53.224,
+   "e": 53.551
+  }
+ ]
+}
