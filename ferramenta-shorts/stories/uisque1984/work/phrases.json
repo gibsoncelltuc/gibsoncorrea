@@ -1,207 +1,207 @@
 {
- "duration": 53.04,
- "frames30": 1591,
+ "duration": 52.416,
+ "frames30": 1572,
  "source": "silence-align (cost 0.57)",
  "segments": [
   [
-   0.160208,
-   3.97121
+   0.150292,
+   3.34775
   ],
   [
-   4.17863,
-   5.16975
+   3.54821,
+   4.53121
   ],
   [
-   6.01625,
-   8.74725
+   5.39129,
+   8.12229
   ],
   [
-   9.01479,
-   10.7318
+   8.38983,
+   10.1068
   ],
   [
-   11.5955,
-   13.6583
+   10.9703,
+   13.0322
   ],
   [
-   13.9688,
-   16.2015
+   13.3438,
+   15.578
   ],
   [
-   17.0686,
-   18.6335
+   16.4437,
+   18.0086
   ],
   [
-   18.8675,
-   21.1912
+   18.2426,
+   20.5662
   ],
   [
-   22.0466,
-   25.7948
+   21.4217,
+   25.1707
   ],
   [
-   26.6888,
-   27.5608
+   26.0638,
+   26.936
   ],
   [
-   27.843,
-   28.5345
+   27.2218,
+   27.9153
   ],
   [
-   28.7929,
-   30.1172
+   28.168,
+   29.4923
   ],
   [
-   30.4001,
-   32.1563
+   29.7751,
+   31.5335
   ],
   [
-   33.0119,
-   34.033
+   32.3869,
+   33.4098
   ],
   [
-   34.3225,
-   35.9017
+   33.6975,
+   35.2767
   ],
   [
-   36.1195,
-   37.66
+   35.4945,
+   37.0351
   ],
   [
-   38.4526,
-   39.1922
+   37.8276,
+   38.5628
   ],
   [
-   39.4558,
-   42.2355
+   38.8308,
+   41.6106
   ],
   [
-   42.454,
-   43.7105
+   41.8302,
+   43.0828
   ],
   [
-   44.5599,
-   45.5198
+   43.9344,
+   44.8911
   ],
   [
-   45.7728,
-   48.0806
+   45.1478,
+   47.4556
   ],
   [
-   48.9096,
-   52.2271
+   48.2846,
+   51.6048
   ]
  ],
  "phrases": [
   {
-   "text": "O Canad\u00e1 e a Dinamarca brigaram por um peda\u00e7o de gelo por quase quarenta anos,",
-   "s": 0.16,
-   "e": 3.971
+   "text": "O Canad\u00e1 e a Dinamarca brigaram por gelo por quase quarenta anos,",
+   "s": 0.15,
+   "e": 3.348
   },
   {
    "text": "usando s\u00f3 u\u00edsque.",
-   "s": 4.179,
-   "e": 5.17
+   "s": 3.548,
+   "e": 4.531
   },
   {
    "text": "A ilha Hans \u00e9 um peda\u00e7o de rocha gelada e sem gente,",
-   "s": 6.016,
-   "e": 8.747
+   "s": 5.391,
+   "e": 8.122
   },
   {
    "text": "no mar entre o Canad\u00e1 e a Groenl\u00e2ndia.",
-   "s": 9.015,
-   "e": 10.732
+   "s": 8.39,
+   "e": 10.107
   },
   {
    "text": "Os dois pa\u00edses achavam que ela era sua,",
-   "s": 11.595,
-   "e": 13.658
+   "s": 10.97,
+   "e": 13.032
   },
   {
    "text": "mas ningu\u00e9m queria come\u00e7ar uma guerra de verdade.",
-   "s": 13.969,
-   "e": 16.201
+   "s": 13.344,
+   "e": 15.578
   },
   {
    "text": "Em mil novecentos e oitenta e quatro,",
-   "s": 17.069,
-   "e": 18.634
+   "s": 16.444,
+   "e": 18.009
   },
   {
    "text": "soldados canadenses chegaram l\u00e1 de helic\u00f3ptero.",
-   "s": 18.867,
-   "e": 21.191
+   "s": 18.243,
+   "e": 20.566
   },
   {
    "text": "Eles fincaram a bandeira do Canad\u00e1 e deixaram uma garrafa de u\u00edsque canadense.",
-   "s": 22.047,
-   "e": 25.795
+   "s": 21.422,
+   "e": 25.171
   },
   {
    "text": "Acontece que,",
-   "s": 26.689,
-   "e": 27.561
+   "s": 26.064,
+   "e": 26.936
   },
   {
    "text": "pouco depois,",
-   "s": 27.843,
-   "e": 28.535
+   "s": 27.222,
+   "e": 27.915
   },
   {
    "text": "os dinamarqueses apareceram,",
-   "s": 28.793,
-   "e": 30.117
+   "s": 28.168,
+   "e": 29.492
   },
   {
    "text": "tiraram a bandeira e puseram a deles.",
-   "s": 30.4,
-   "e": 32.156
+   "s": 29.775,
+   "e": 31.534
   },
   {
    "text": "E deixaram um bilhete:",
-   "s": 33.012,
-   "e": 34.033
+   "s": 32.387,
+   "e": 33.41
   },
   {
    "text": "\"Bem-vindos \u00e0 terra dinamarquesa\",",
-   "s": 34.322,
-   "e": 35.902
+   "s": 33.697,
+   "e": 35.277
   },
   {
    "text": "ao lado de uma garrafa de licor.",
-   "s": 36.12,
-   "e": 37.66
+   "s": 35.495,
+   "e": 37.035
   },
   {
    "text": "Durante anos,",
-   "s": 38.453,
-   "e": 39.192
+   "s": 37.828,
+   "e": 38.563
   },
   {
    "text": "os dois lados voltaram l\u00e1 para trocar bandeira e garrafa,",
-   "s": 39.456,
-   "e": 42.236
+   "s": 38.831,
+   "e": 41.611
   },
   {
    "text": "sempre muito educados.",
-   "s": 42.454,
-   "e": 43.711
+   "s": 41.83,
+   "e": 43.083
   },
   {
    "text": "Em dois mil e vinte e dois,",
-   "s": 44.56,
-   "e": 45.52
+   "s": 43.934,
+   "e": 44.891
   },
   {
    "text": "os pa\u00edses enfim dividiram a ilha quase ao meio.",
-   "s": 45.773,
-   "e": 48.081
+   "s": 45.148,
+   "e": 47.456
   },
   {
    "text": "A guerra mais educada da hist\u00f3ria acabou sem um tiro e com muito u\u00edsque.",
-   "s": 48.91,
-   "e": 52.227
+   "s": 48.285,
+   "e": 51.605
   }
  ]
 }
