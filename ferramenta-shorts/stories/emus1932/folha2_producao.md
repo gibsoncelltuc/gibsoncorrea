@@ -112,6 +112,21 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
+## PARA O BLENDER (objetos 3D deste video)
+Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito no Blender; a ferramenta so' poe em cena, pinta o contorno e anima. Nada de objeto "quadradao": use `blender/formas.py` (cil, bola, torno, tubo, arco, caixa com chanfro).
+
+Objeto | Cenas | Situacao | O que fazer
+---|---|---|---
+emu | b0, b1, b3, b4, b5, b6, b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/haybale | b1, b4, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/barn | b1, b4, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/picket_fence | b1, b4, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/scarecrow | b1, b4, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+war/sandbags | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+cannon | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+vehicles/truck | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+
+
 ## Video inteiro
 - Objeto heroi: - | grandes momentos: b3, b4, b8 | planos abertos: 4 | mistura: close 8% | medio 66% | aberto 18% | detalhe 8%
 - Interacoes: b2 vai ate o outro, b6 susto, b7 empurrar, b9 entregar

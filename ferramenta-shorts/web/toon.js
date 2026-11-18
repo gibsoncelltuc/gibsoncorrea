@@ -800,7 +800,7 @@ const faceFront = (p, cx, cy, W, expr, facing, look, lid, brim, skin, moustache,
     const u = W / 100, F = FACE[expr] || FACE.neutral, fx = cx + 7 * u * facing;
     /* ROSTO INDIVIDUAL: cada personagem tem seus tracos (distancia e altura dos olhos, sobrancelha, bochecha, sardas, pinta, olheira) */
     const FT = [{}, { gap: 2.5, bt: 1.6, bl: 1.5 }, { gap: -2, ey: 2, cheeks: 1 }, { gap: 1, bt: -1.2, freck: 1 }, { gap: -1, ey: -2, bt: 2.2, bags: 1 }, { gap: 3.5, ey: 1, mole: 1 }, { gap: 0, bt: -1.6, cheeks: 1, bl: -1.5 }, { gap: -2.5, ey: -1, bt: 1, freck: 1, mole: -1 }][(AX.face ?? 0) % 8];
-    const ex = ((F.eye[0] === "shock" ? 12 : 13) + (FT.gap || 0)) * u, ey = cy + (FT.ey || 0) * u;
+    const ex = ((F.eye[0] === "shock" ? 15.5 : 16.5) + (FT.gap || 0) * 0.8) * u   /* olhos mais afastados (pedido do Gibson) */, ey = cy + (FT.ey || 0) * u;
     if (FT.cheeks) for (const sd of [-1, 1]) p.ell(fx + sd * (ex + 9 * u), ey + 13 * u, 7 * u, 4.5 * u, "#f6b3a8", 0);
     if (FT.freck) for (const sd of [-1, 1]) for (const [qx, qy] of [[5, 9], [10, 11.5], [14, 8.5]]) p.ell(fx + sd * (ex - 4 * u + qx * u), ey + qy * u, 1.1 * u, 1.1 * u, "#b9785a", 0);
     if (FT.mole) p.ell(fx + FT.mole * (ex + 6 * u), ey + 17 * u, 1.7 * u, 1.7 * u, "#3a2a22", 0);
@@ -897,7 +897,8 @@ const hatBehind = (p, o, H, cx, hc, light, thick, ow, side)=>{
     p.inkRing(bb, ow * 0.85, thick);
 };
 const hatOn = (p, o, hp, H, cx, hc, light, seed, facing, side)=>{
-    const W = 2 * H.a, HH = 2 * H.b, u = W / 100, crown = hc - H.b, ow = 0.85 * 5 * u;
+    const HS = o.hat === 'hair' || o.hat === 'bonnet' ? 1 : 1.2;   /* chapeu 20% maior e mais enterrado na cabeca (ficava pequeno e pousado em cima) */
+    const W = 2 * H.a * HS, HH = 2 * H.b, u = W / 100, crown = hc - H.b + (HS > 1 ? 5.5 * u : 0), ow = 0.85 * 5 * u / HS;
     const a = H.rot + rad(4 * (rnd(seed, 20) - 0.5));
     const R = (pts)=>rotPts(pts, a, cx, hc);
     const sag = (yb, wb)=>{

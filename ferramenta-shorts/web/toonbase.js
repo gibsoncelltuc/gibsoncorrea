@@ -800,7 +800,7 @@ const faceFront = (p, cx, cy, W, expr, facing, look, lid, brim, skin, moustache,
     const u = W / 100, F = FACE[expr] || FACE.neutral, fx = cx + 7 * u * facing;
     /* ROSTO INDIVIDUAL: cada personagem tem seus tracos (distancia e altura dos olhos, sobrancelha, bochecha, sardas, pinta, olheira) */
     const FT = [{}, { gap: 2.5, bt: 1.6, bl: 1.5 }, { gap: -2, ey: 2, cheeks: 1 }, { gap: 1, bt: -1.2, freck: 1 }, { gap: -1, ey: -2, bt: 2.2, bags: 1 }, { gap: 3.5, ey: 1, mole: 1 }, { gap: 0, bt: -1.6, cheeks: 1, bl: -1.5 }, { gap: -2.5, ey: -1, bt: 1, freck: 1, mole: -1 }][(AX.face ?? 0) % 8];
-    const ex = ((F.eye[0] === "shock" ? 12 : 13) + (FT.gap || 0)) * u, ey = cy + (FT.ey || 0) * u;
+    const ex = ((F.eye[0] === "shock" ? 15.5 : 16.5) + (FT.gap || 0) * 0.8) * u   /* olhos mais afastados (pedido do Gibson) */, ey = cy + (FT.ey || 0) * u;
     if (FT.cheeks) for (const sd of [-1, 1]) p.ell(fx + sd * (ex + 9 * u), ey + 13 * u, 7 * u, 4.5 * u, "#f6b3a8", 0);
     if (FT.freck) for (const sd of [-1, 1]) for (const [qx, qy] of [[5, 9], [10, 11.5], [14, 8.5]]) p.ell(fx + sd * (ex - 4 * u + qx * u), ey + qy * u, 1.1 * u, 1.1 * u, "#b9785a", 0);
     if (FT.mole) p.ell(fx + FT.mole * (ex + 6 * u), ey + 17 * u, 1.7 * u, 1.7 * u, "#3a2a22", 0);
@@ -897,7 +897,8 @@ const hatBehind = (p, o, H, cx, hc, light, thick, ow, side)=>{
     p.inkRing(bb, ow * 0.85, thick);
 };
 const hatOn = (p, o, hp, H, cx, hc, light, seed, facing, side)=>{
-    const W = 2 * H.a, HH = 2 * H.b, u = W / 100, crown = hc - H.b, ow = 0.85 * 5 * u;
+    const HS = o.hat === 'hair' || o.hat === 'bonnet' ? 1 : 1.2;   /* chapeu 20% maior e mais enterrado na cabeca (ficava pequeno e pousado em cima) */
+    const W = 2 * H.a * HS, HH = 2 * H.b, u = W / 100, crown = hc - H.b + (HS > 1 ? 5.5 * u : 0), ow = 0.85 * 5 * u / HS;
     const a = H.rot + rad(4 * (rnd(seed, 20) - 0.5));
     const R = (pts)=>rotPts(pts, a, cx, hc);
     const sag = (yb, wb)=>{
@@ -1492,7 +1493,9 @@ export const bodyFront = (p, o, opts)=>{
         else if (k === "lantern") { p.stroke([[x, y], [x, y + 9 * u]], 1.4 * u); p.poly([[x - 7 * u, y + 9 * u], [x + 7 * u, y + 9 * u], [x + 8 * u, y + 28 * u], [x - 8 * u, y + 28 * u]], "#ffd75a", 1.6 * u); p.band([[x - 8 * u, y + 9 * u], [x + 8 * u, y + 9 * u]], "#3a3d47", 3 * u, 0.9 * u); p.band([[x - 9 * u, y + 28 * u], [x + 9 * u, y + 28 * u]], "#3a3d47", 3 * u, 0.9 * u); p.ell(x, y + 19 * u, 2.5 * u, 4 * u, "#ff9a3a", 0.8 * u); }
         else if (k === "pitchfork" || k === "staff" || k === "flag" || k === "torch") { const top = y - (k === "torch" ? 26 : 78) * u, bot = y + (k === "torch" ? 10 : 54) * u; p.band([[x, bot], [x, top]], "#8a5a34", 3.6 * u, 1.3 * u, "round");
             if (k === "pitchfork") { p.stroke([[x - 9 * u, top - 16 * u], [x - 9 * u, top], [x + 9 * u, top], [x + 9 * u, top - 16 * u]], 2 * u, "#8d949c"); p.stroke([[x, top], [x, top - 18 * u]], 2 * u, "#8d949c"); }
-            if (k === "flag") p.poly([[x + 2 * u, top + 2 * u], [x + 40 * u, top + 8 * u], [x + 34 * u, top + 18 * u], [x + 42 * u, top + 28 * u], [x + 2 * u, top + 24 * u]], c2 || "#c0262d", 1.6 * u);
+            if (k === "flag") { const c1 = c2 || "#c0262d", c3 = o.holdCol2 || "#f4f1e8", w = 52 * u, h = 34 * u, y0 = top + 2 * u; const wv = (t) => 4 * u * Math.sin(t * 5.2 + 0.6);   /* bandeira maior, ondulada, com faixa de 2a cor e ponteira dourada */
+                const top_ = [], bot_ = [], mid1 = [], mid2 = []; for (let q = 0; q <= 8; q++) { const t = q / 8, xx = x + 2 * u + w * t; top_.push([xx, y0 + wv(t)]); bot_.push([xx, y0 + h + wv(t + 0.15)]); mid1.push([xx, y0 + h * 0.36 + wv(t + 0.05)]); mid2.push([xx, y0 + h * 0.64 + wv(t + 0.1)]); }
+                p.poly([...top_, ...bot_.slice().reverse()], c1, 1.8 * u); p.poly([...mid1, ...mid2.slice().reverse()], c3, 0); p.poly([...top_, ...bot_.slice().reverse()], null, 1.8 * u); p.ell(x, top - 3 * u, 4 * u, 4 * u, "#f2c230", 1.3 * u); }
             if (k === "torch") { p.ell(x, top - 7 * u, 7 * u, 11 * u, "#ff9a3a", 1.4 * u); p.ell(x, top - 4 * u, 3.5 * u, 6 * u, "#ffe07a", 0.6 * u); } }
         else if (k === "tulip") { const c1 = c2 || "#e2332f"; p.band([[x, y + 8 * u], [x, y - 22 * u]], "#3f8a3a", 3 * u, 1.2 * u, "round"); p.poly([[x - 2 * u, y - 4 * u], [x - 13 * u, y - 14 * u], [x - 3 * u, y - 12 * u]], "#4fa84a", 1.2 * u); p.poly([[x - 8 * u, y - 22 * u], [x - 9 * u, y - 37 * u], [x - 4 * u, y - 31 * u], [x, y - 40 * u], [x + 4 * u, y - 31 * u], [x + 9 * u, y - 37 * u], [x + 8 * u, y - 22 * u], [x, y - 18 * u]], c1, 1.8 * u); }
         else if (k === "shovel") { p.band([[x, y - 30 * u], [x, y + 42 * u]], "#8a5a34", 3.6 * u, 1.3 * u, "round"); p.poly([[x - 9 * u, y + 40 * u], [x + 9 * u, y + 40 * u], [x + 8 * u, y + 58 * u], [x, y + 66 * u], [x - 8 * u, y + 58 * u]], "#9aa0a8", 1.6 * u); p.band([[x - 6 * u, y - 31 * u], [x + 6 * u, y - 31 * u]], "#8a5a34", 3.4 * u, 1.2 * u, "round"); }
