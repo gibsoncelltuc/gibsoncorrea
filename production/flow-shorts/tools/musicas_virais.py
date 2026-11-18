@@ -17,186 +17,36 @@ def S(chorus, v1, v2, bridge, extra=False):
 
 
 SONGS = {
- 1: dict(titulo="Pé, Pé, Bate o Pezinho!", slug="pe-pe-bate-o-pezinho", bpm=112, key="C major",
-         inst="bouncy ukulele strums, stomping foot percussion, hand claps on every beat, bright glockenspiel, round bass",
-         lyr=S("""Pé, pé, bate o pezinho!
-Pá, pá, bate a mãozinha!
-Gira, gira, devagarinho,
-e dança, dança, dança com a gente!""",
-               """Um pé aqui, outro pé ali,
-palminha pra lá, palminha pra cá,
-quem tá dançando vai sorrir,
-vem, vem, vem, vem brincar!""",
-               """Bate o pé bem devagar,
-bate o pé bem depressa,
-bate, bate, bate, bate,
-agora parou e respira!""",
-               """Pé, pé, pá, pá!
-Pé, pé, pá, pá!
-Pé, pé, pá, pá!
-Todo mundo junto, vai!""", True)),
- 2: dict(titulo="Quem Faz Assim?", slug="quem-faz-assim", bpm=100, key="G major",
-         inst="playful acoustic guitar, hand claps, shaker, xylophone, light bass, animal sound-like vocal ad-libs",
-         lyr=S("""Quem faz assim? Miau, miau!
-Quem faz assim? Au, au, au!
-Quem faz assim? Muuu, muuu!
-Adivinha, adivinha, quem é?""",
-               """O gatinho faz miau, miau,
-o cachorrinho faz au, au, au,
-a vaquinha faz muuu, muuu,
-e o patinho faz quá, quá, quá!""",
-               """O pintinho faz piu, piu,
-o sapinho faz ploc, ploc,
-o porquinho faz oinc, oinc,
-e o leãozinho faz grrr, grrr!""",
-               """Piu, piu, miau, miau,
-au, au, muuu, muuu,
-quá, quá, ploc, ploc,
-que festa de bichinhos!""")),
- 3: dict(titulo="Cores do Arco-Íris", slug="cores-do-arco-iris", bpm=104, key="C major",
-         inst="bright marimba, plucked guitar, soft hand claps, glockenspiel melody, warm bass",
-         lyr=S("""Vermelho, laranja, amarelo e verde,
-azul, anil, violeta,
-arco-íris, arco-íris,
-pintando o céu de alegria!""",
-               """Vermelho é a maçã,
-laranja é a laranja,
-amarelo é o sol,
-verde é a folhinha!""",
-               """Azul é o céu,
-anil é a noite,
-violeta é a uva,
-e o arco-íris tem todas!""",
-               """Vermelho, laranja, amarelo,
-verde, azul, violeta,
-olha só quanta cor,
-todo mundo canta junto!""")),
- 4: dict(titulo="Abraça, Abraça, Abraça!", slug="abraca-abraca-abraca", bpm=108, key="F major",
-         inst="warm acoustic guitar, soft piano chords, hand claps, light shaker, gentle bass, kids choir",
-         lyr=S("""Abraça, abraça, abraça quem tá perto!
-Um abraço apertado deixa o dia mais esperto!
-Abraça, abraça, abraça de verdade,
-abraço é amizade, abraço é felicidade!""",
-               """Abraça a mamãe, abraça o papai,
-abraça a vovó, e o vovô também,
-abraça o amiguinho, abraça o irmãozinho,
-quem abraça vai sorrir!""",
-               """Um abraço de urso, bem forte e bem quentinho,
-um abraço de coala, bem devagarinho,
-um abraço de polvo, com muitos bracinhos,
-abraça, abraça, abraça!""",
-               """Um, dois, três, abraço!
-Um, dois, três, abraço!
-Um, dois, três, abraço!
-Todo mundo abraça!""", True)),
- 5: dict(titulo="Pop-Pop, Banho de Bolhas!", slug="pop-pop-banho-de-bolhas", bpm=120, key="G major",
-         inst="bubbly synth plucks, popping percussion sounds, ukulele, hand claps, bouncy bass, sparkly glockenspiel",
-         lyr=S("""Pop, pop, pop, as bolhinhas vão estourar!
-Pop, pop, pop, é hora de se ensaboar!
-Esfrega o bracinho, esfrega o pezinho,
-pop, pop, pop, fico limpinho!""",
-               """Sabonete na mão, cheirinho de flor,
-espuma na cabeça, que coisa de amor,
-esfrega a barriguinha, esfrega as orelhinhas,
-pop, pop, pop, bolhinhas!""",
-               """Água morninha, que gostosa que é,
-enxágua o corpinho, da cabeça ao pé,
-pop, pop, pop, quanta espuma,
-tchau, tchau, sujeirinha!""",
-               """Pop, pop, pop, pop, pop!
-Pop, pop, pop, pop, pop!
-Bolhinha pra lá, bolhinha pra cá,
-pop!""", True)),
- 6: dict(titulo="Ma-Ma, Pa-Pa!", slug="ma-ma-pa-pa", bpm=100, key="C major",
-         inst="gentle music-box and glockenspiel, soft ukulele, light hand claps, warm bass, tender and happy baby-friendly feel",
-         lyr=S("""Ma-ma, pa-pa, ma-ma, pa-pa!
-A primeira palavrinha é de amor, tá?
-Ma-ma, pa-pa, ma-ma, pa-pa!
-O bebê já sabe chamar!""",
-               """Quem é que me abraça? Ma-ma!
-Quem é que me cuida? Pa-pa!
-Quem me dá sorriso? Ma-ma!
-Quem brinca comigo? Pa-pa!""",
-               """Eu tento falar, eu tento falar,
-ma-ma, pa-pa, eu sei falar!
-A mamãe aplaude, o papai também,
-ma-ma, pa-pa, que alegria!""",
-               """Ma-ma! Pa-pa! Ma-ma! Pa-pa!
-Ma-ma! Pa-pa! Ma-ma! Pa-pa!
-Eu te amo, mamãe!
-Eu te amo, papai!""")),
- 7: dict(titulo="Bom Dia, Sol!", slug="bom-dia-sol", bpm=112, key="D major",
-         inst="sunny acoustic guitar strums, hand claps, bright glockenspiel, whistle-like synth, upbeat bass, morning energy",
-         lyr=S("""Bom dia, sol, bom dia, céu!
-Eu acordei, que lindo é o dia!
-Estica, estica, estica o corpinho,
-bom dia, sol, bom dia!""",
-               """Os braços pra cima, bem alto, bem alto,
-depois pra baixo, bem baixinho,
-gira a cabecinha, devagarinho,
-e dá um grande sorriso!""",
-               """Escovo os dentinhos, lavo o rostinho,
-visto a roupinha, calço o tênis,
-tomo o café da manhã,
-e vou brincar no jardim!""",
-               """Sol, sol, sol, sol!
-Bom dia, bom dia!
-Sol, sol, sol, sol!
-Bom dia, bom dia!""", True)),
- 8: dict(titulo="Só Mais Cinco Minutinhos!", slug="so-mais-cinco-minutinhos", bpm=120, key="F major",
-         inst="funny bouncy bass, playful ukulele, hand claps, quirky xylophone, comedic call and response, kids choir shouting the hook",
-         lyr=S("""Só mais cinco minutinhos, só mais um, só mais um!
-Já é hora de dormir? Ah, não, não, não!
-Só mais cinco minutinhos, só mais um, só mais um!
-Tá bom, tá bom, tá bom, eu vou!""",
-               """Escovei os dentes, vesti o pijama,
-quero só mais uma historinha,
-quero só mais um copo d'água,
-quero só mais um abraço!""",
-               """A mamãe disse: já chega, filhinho,
-o papai disse: é hora, amiguinho,
-a lua já brilha, o sono já vem,
-eu bocejo, aaaah!""",
-               """Cinco, quatro, três, dois, um...
-Shhh... boa noite!
-Cinco, quatro, três, dois, um...
-Shhh... boa noite!""", True)),
- 9: dict(titulo="Shhh, Boa Noite, Estrelinha", slug="shhh-boa-noite-estrelinha", bpm=96, key="G major",
-         inst="soft music box, gentle acoustic guitar, warm pad, very soft hand percussion, slow lullaby feel, soothing whispered shh sounds, calm kids choir",
-         lyr=S("""Shhh, shhh, boa noite, estrelinha,
-shhh, shhh, a lua está chegando,
-fecha o olhinho, respira devagarinho,
-shhh, shhh, bons sonhos, meu bebê.""",
-               """As estrelas piscam, lá no céu azul,
-a lua balança, ninando o mundo,
-o ursinho abraçado, a coberta quentinha,
-shhh, shhh, que sono bom.""",
-               """Os sonhos vão chegando, bem de mansinho,
-com nuvens macias e estrelinhas,
-a noite é de paz, a noite é de amor,
-shhh, shhh, durma bem.""",
-               """Lá, lá, lá, lá,
-boa noite, boa noite,
-lá, lá, lá, lá,
-dorme, estrelinha.""")),
- 10: dict(titulo="Tchu-Tchu, Trenzinho!", slug="tchu-tchu-trenzinho", bpm=108, key="C major",
-          inst="chugging train rhythm with shaker and snare brushes, ukulele, whistle sounds, hand claps, bouncy bass, glockenspiel",
-          lyr=S("""Tchu-tchu, lá vem o trenzinho!
-Piiii! Apita pra todo mundo ir!
-Tchu-tchu, vagãozinho por vagãozinho,
-todo mundo a bordo, vamos sorrir!""",
-                """O primeiro vagão é vermelho,
-o segundo vagão é azul,
-o terceiro vagão é amarelo,
-e o quarto é verde também!""",
-                """O trenzinho passa na ponte,
-o trenzinho passa no túnel,
-o trenzinho sobe a montanha,
-e desce com muita alegria!""",
-                """Tchu, tchu, tchu, tchu!
-Piiii! Piiii!
-Tchu, tchu, tchu, tchu!
-Chegamos, chegamos!""", True)),
+ 1: dict(titulo='Pé, Pé, Bate o Pezinho!', slug='pe-pe-bate-o-pezinho', bpm=112, key='C major',
+         inst='bouncy ukulele strums, stomping foot percussion, hand claps on every beat, bright glockenspiel, round bass',
+         lyr=S('Pé, pé, bate o pezinho,\npá, pá, com muito carinho,\ngira, gira, devagarinho,\ndança com o seu amiguinho!', 'Um pezinho vai pra frente,\noutro pezinho vai pra trás,\ntodo mundo está contente,\ndançando e pedindo mais!', 'Bate palma, bate o pé,\ndança, dança, sem parar,\nbate o pé, bate o pé,\nvem comigo, vem dançar!', 'Pé, pé, pá, pá,\ntodo mundo vai dançar,\npé, pé, pá, pá,\nninguém quer parar!', True)),
+ 2: dict(titulo='Quem Faz Assim?', slug='quem-faz-assim', bpm=100, key='G major',
+         inst='playful acoustic guitar, hand claps, shaker, xylophone, light bass, animal sound-like vocal ad-libs',
+         lyr=S('Quem faz assim? Miau, miau!\nQuem faz assim? Au, au, au!\nÉ o gatinho, é o cachorrinho,\ncada um com seu jeitinho!', 'Quá, quá, quá, faz o patinho,\npiu, piu, piu, faz o pintinho,\nmuuu, muuu, faz a vaquinha,\ncó, có, có, faz a galinha!', 'Oinc, oinc, faz o porquinho,\nploc, ploc, faz o sapinho,\ngrrr, grrr, faz o leãozinho,\ne eu faço, eu faço um carinho!', 'Miau, miau, au, au, au,\npiu, piu, muuu, muuu, muuu,\nquá, quá, quá, que festa que eu vi,\nos bichinhos estão aqui!', False)),
+ 3: dict(titulo='Cores do Arco-Íris', slug='cores-do-arco-iris', bpm=104, key='C major',
+         inst='bright marimba, plucked guitar, soft hand claps, glockenspiel melody, warm bass',
+         lyr=S('Vermelho, laranja, amarelo, que cor!\nVerde, azul, anil, violeta, que amor!\nArco-íris, arco-íris, no céu a brilhar,\npintando a alegria no ar!', 'Vermelha é a maçã,\namarelo é o sol da manhã,\nverde é a folhinha no jardim,\ne azul é o céu sem fim!', 'Violeta é a florzinha,\nanil é a noitinha,\nlaranja é a cenourinha,\ne o arco-íris é a rainha!', 'Olha só quanta cor,\nvamos cantar com amor,\ntodo mundo canta junto,\ncada cor tem seu assunto!', False)),
+ 4: dict(titulo='Abraça, Abraça, Abraça!', slug='abraca-abraca-abraca', bpm=108, key='F major',
+         inst='warm acoustic guitar, soft piano chords, hand claps, light shaker, gentle bass, kids choir',
+         lyr=S('Abraça, abraça, abraça quem tá perto,\num abraço apertado deixa o dia mais esperto,\nabraça, abraça, abraça de verdade,\nabraço é amizade, abraço é felicidade!', 'Abraça a mamãe, abraça o papai,\no amor é tão grande que nunca se vai,\nabraça o amiguinho, abraça o irmãozinho,\nquem abraça ganha um sorrisinho!', 'Um abraço de urso, forte e quentinho,\num abraço de coala, bem devagarinho,\num abraço de polvo, cheio de bracinhos,\ntodo mundo fica felizinho!', 'Um, dois, três, abraço,\nfica pertinho, no meu laço,\num, dois, três, abraço,\neu te dou um grande abraço!', True)),
+ 5: dict(titulo='Pop-Pop, Banho de Bolhas!', slug='pop-pop-banho-de-bolhas', bpm=120, key='G major',
+         inst='bubbly synth plucks, popping percussion sounds, ukulele, hand claps, bouncy bass, sparkly glockenspiel',
+         lyr=S('Pop, pop, pop, as bolhinhas vão estourar,\npop, pop, pop, é hora de se ensaboar,\nesfrega o bracinho, esfrega o pezinho,\npop, pop, pop, fico limpinho!', 'Sabonete na mão, cheirinho de flor,\nespuma na cabeça, que coisa de amor,\nesfrega a barriguinha, que cosquinha,\npop, pop, pop, que bolhinha!', 'Água morninha, que gostosa que é,\nenxágua o corpinho, da cabeça ao pé,\npop, pop, pop, quanta espuma,\ntchau, sujeira, não sobra nenhuma!', 'Bolhinha pra lá, bolhinha pra cá,\npop, pop, pop, quem vai pegar,\nbolhinha pra cá, bolhinha pra lá,\npop, pop, pop, quem vai estourar!', True)),
+ 6: dict(titulo='Ma-Ma, Pa-Pa!', slug='ma-ma-pa-pa', bpm=100, key='C major',
+         inst='gentle music-box and glockenspiel, soft ukulele, light hand claps, warm bass, tender and happy baby-friendly feel',
+         lyr=S('Ma-ma, pa-pa, ma-ma, pa-pa,\na primeira palavrinha vai chegar,\nma-ma, pa-pa, ma-ma, pa-pa,\no bebê já sabe chamar!', 'Quem me abraça de manhã? É a mamãe, minha fã,\nquem me leva pra brincar? É o papai, vem me pegar,\nma-ma, ma-ma, pa-pa, pa-pa,\nque alegria vai chegar!', 'Eu tento falar, eu tento falar,\nma-ma, pa-pa, vou conseguir chamar,\na mamãe sorri, o papai também,\nma-ma, pa-pa, que alegria que vem!', 'Ma-ma, pa-pa, ma-ma, pa-pa,\neu te amo, mamãe,\neu te amo, papai,\no amor nunca sai!', False)),
+ 7: dict(titulo='Bom Dia, Sol!', slug='bom-dia-sol', bpm=112, key='D major',
+         inst='sunny acoustic guitar strums, hand claps, bright glockenspiel, whistle-like synth, upbeat bass, morning energy',
+         lyr=S('Bom dia, sol, bom dia, céu,\nque bom, que bom, o dia nasceu,\nestica, estica o corpinho,\nbom dia, sol, com carinho!', 'Os braços pra cima, bem alto, bem alto,\ndepois pra baixo, num salto,\ngira a cabecinha, devagarinho,\ne dá um sorriso bonitinho!', 'Escovo os dentinhos, lavo o rostinho,\ntomo o café bem quentinho,\ncalço o tênis, vou pro jardim,\nbom dia pra você e pra mim!', 'Sol, sol, sol, sol, bom dia, bom dia,\nsol, sol, sol, sol, que alegria!', True)),
+ 8: dict(titulo='Só Mais Cinco Minutinhos!', slug='so-mais-cinco-minutinhos', bpm=120, key='F major',
+         inst='funny bouncy bass, playful ukulele, hand claps, quirky xylophone, comedic call and response, kids choir shouting the hook',
+         lyr=S('Só mais cinco minutinhos, só mais um,\njá é hora de dormir? Nenhum!\nSó mais cinco minutinhos, por favor,\ntá bom, tá bom, eu vou, meu amor!', 'Escovei os dentes, vesti o pijama,\nquero só mais uma historinha na cama,\nquero só mais um beijinho,\ne um abraço bem apertadinho!', 'A mamãe disse: já chega, filhinho,\no papai disse: vem, amiguinho,\na lua já brilha, o sono já vem,\neu bocejo, aaaah, que sono bem!', 'Cinco, quatro, três, dois, um,\nshhh, não faço mais nenhum,\ncinco, quatro, três, dois, um,\nshhh, boa noite, bom sonho a cada um!', True)),
+ 9: dict(titulo='Shhh, Boa Noite, Estrelinha', slug='shhh-boa-noite-estrelinha', bpm=96, key='G major',
+         inst='soft music box, gentle acoustic guitar, warm pad, very soft hand percussion, slow lullaby feel, calm kids choir',
+         lyr=S('Shhh, shhh, boa noite, estrelinha,\na lua vem de mansinha,\nfecha o olhinho, bem quietinho,\ndorme, dorme, no seu ninho.', 'As estrelas piscam no céu azul,\na lua balança, de norte a sul,\no ursinho abraçado, a coberta quentinha,\nshhh, shhh, que sono, estrelinha.', 'Os sonhos vão chegando de mansinho,\ncom nuvens macias e carinho,\na noite é de paz, a noite é de amor,\nshhh, shhh, durma sem temor.', 'Lá, lá, lá, lá,\nvem a lua, vem sonhar,\nlá, lá, lá, lá,\na estrelinha vai deitar.', False)),
+ 10: dict(titulo='Tchu-Tchu, Trenzinho!', slug='tchu-tchu-trenzinho', bpm=108, key='C major',
+         inst='chugging train rhythm with shaker and snare brushes, ukulele, whistle sounds, hand claps, bouncy bass, glockenspiel',
+         lyr=S('Tchu-tchu, lá vem o trenzinho,\npiiii! Apita pelo caminho,\ntchu-tchu, vagãozinho por vagãozinho,\ntodo mundo a bordo, vamos juntinhos!', 'O vagão vermelho vem primeiro,\no azul vem logo, ligeiro,\no amarelo vem animado,\ne o verde chega, e fica ao lado!', 'O trenzinho passa na ponte,\no trenzinho passa no monte,\nentra no túnel, escuro e bem curtinho,\ne sai do outro lado, bem pertinho!', 'Tchu, tchu, tchu, tchu, chegou,\npiiii, piiii, o trem apitou,\ntchu, tchu, tchu, tchu, chegamos,\npiiii, piiii, todos cantamos!', True)),
 }
 
 

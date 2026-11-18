@@ -2,7 +2,7 @@
   "lm_model": "acestep-5Hz-lm-1.7B-Q8_0.gguf",
   "synth_model": "acestep-v15-turbo-Q8_0.gguf",
   "caption": "Cheerful Brazilian children's pop song, extremely catchy singalong earworm, warm friendly adult male lead vocal with a kids choir answering the hook, bright and playful, clean polished mix, the hook starts right on the first beat with no intro, every section lasts exactly 4 bars, short repeated chorus, simple melody in small steps, call and response with the kids choir, the last chorus goes up by a whole step (key change), clear Portuguese pronunciation of every word, playful acoustic guitar, hand claps, shaker, xylophone, light bass, animal sound-like vocal ad-libs",
-  "lyrics": "[Chorus]\nQuem faz assim? Miau, miau!\nQuem faz assim? Au, au, au!\nQuem faz assim? Muuu, muuu!\nAdivinha, adivinha, quem é?\n\n[Verse 1]\nO gatinho faz miau, miau,\no cachorrinho faz au, au, au,\na vaquinha faz muuu, muuu,\ne o patinho faz quá, quá, quá!\n\n[Chorus]\nQuem faz assim? Miau, miau!\nQuem faz assim? Au, au, au!\nQuem faz assim? Muuu, muuu!\nAdivinha, adivinha, quem é?\n\n[Verse 2]\nO pintinho faz piu, piu,\no sapinho faz ploc, ploc,\no porquinho faz oinc, oinc,\ne o leãozinho faz grrr, grrr!\n\n[Bridge]\nPiu, piu, miau, miau,\nau, au, muuu, muuu,\nquá, quá, ploc, ploc,\nque festa de bichinhos!\n\n[Chorus]\nQuem faz assim? Miau, miau!\nQuem faz assim? Au, au, au!\nQuem faz assim? Muuu, muuu!\nAdivinha, adivinha, quem é?",
+  "lyrics": "[Chorus]\nQuem faz assim? Miau, miau!\nQuem faz assim? Au, au, au!\nÉ o gatinho, é o cachorrinho,\ncada um com seu jeitinho!\n\n[Verse 1]\nQuá, quá, quá, faz o patinho,\npiu, piu, piu, faz o pintinho,\nmuuu, muuu, faz a vaquinha,\ncó, có, có, faz a galinha!\n\n[Chorus]\nQuem faz assim? Miau, miau!\nQuem faz assim? Au, au, au!\nÉ o gatinho, é o cachorrinho,\ncada um com seu jeitinho!\n\n[Verse 2]\nOinc, oinc, faz o porquinho,\nploc, ploc, faz o sapinho,\ngrrr, grrr, faz o leãozinho,\ne eu faço, eu faço um carinho!\n\n[Bridge]\nMiau, miau, au, au, au,\npiu, piu, muuu, muuu, muuu,\nquá, quá, quá, que festa que eu vi,\nos bichinhos estão aqui!\n\n[Chorus]\nQuem faz assim? Miau, miau!\nQuem faz assim? Au, au, au!\nÉ o gatinho, é o cachorrinho,\ncada um com seu jeitinho!",
   "duration": 60,
   "bpm": 100,
   "vocal_language": "pt",
@@ -11,5 +11,5 @@
   "inference_steps": 8,
   "guidance_scale": 1.0,
   "shift": 3.0,
-  "seed": 41
+  "seed": 23
 }
