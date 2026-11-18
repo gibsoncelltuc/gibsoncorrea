@@ -65,7 +65,7 @@
      "kit/ear_jar",
      0.3,
      2.2,
-     1.2
+     1.6
     ]
    ],
    "text": "1739",
@@ -214,8 +214,8 @@
     [
      "kit/ear_jar",
      1.0,
-     0.5,
-     1.0
+     0.6,
+     1.3
     ]
    ],
    "say": "A orelha custou dez anos de guerra, e Jenkins ainda ficou sem ela."
