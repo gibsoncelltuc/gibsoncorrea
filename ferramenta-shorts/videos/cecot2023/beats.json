@@ -101,7 +101,15 @@
     "GUA:0:stern"
    ],
    "interacao": "entregar",
-   "say": "Em dois mil e vinte e dois, o presidente Nayib Bukele decretou estado de exceção, e milhares de suspeitos foram presos."
+   "say": "Em dois mil e vinte e dois, o presidente Nayib Bukele decretou estado de exceção, e milhares de suspeitos foram presos.",
+   "props": [
+    [
+     "kit/prison",
+     1.5,
+     0.3,
+     0.25
+    ]
+   ]
   },
   {
    "shot": "crowd",
