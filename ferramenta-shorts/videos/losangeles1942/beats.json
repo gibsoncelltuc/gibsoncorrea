@@ -6,7 +6,6 @@
  "title": "A Batalha de Los Angeles",
  "titulo_base": "A Batalha de Los Angeles",
  "set": "street",
- "light": "dusk",
  "mood": "playful",
  "heroi": "kit/searchlight",
  "outfits": {
@@ -68,8 +67,7 @@
    ],
    "sfx": [
     "cannon@40"
-   ],
-   "light": "dusk"
+   ]
   },
   {
    "shot": "reveal",
@@ -88,8 +86,7 @@
    },
    "mapa": "LOS ANGELES",
    "mapa_at": 3,
-   "say": "Era fevereiro de mil novecentos e quarenta e dois, logo depois de Pearl Harbor, e Los Angeles vivia com medo.",
-   "light": "dusk"
+   "say": "Era fevereiro de mil novecentos e quarenta e dois, logo depois de Pearl Harbor, e Los Angeles vivia com medo."
   },
   {
    "shot": "two",
@@ -100,13 +97,12 @@
     "SOL:0:nervous"
    ],
    "interacao": "cochichar",
-   "say": "Na véspera, um submarino japonês tinha atirado na Califórnia, e todo mundo achava que vinha mais.",
-   "light": "dusk"
+   "say": "Na véspera, um submarino japonês tinha atirado na Califórnia, e todo mundo achava que vinha mais."
   },
   {
    "shot": "two",
    "set": "street",
-   "hora": "noite",
+   "hora": "pordosol",
    "who": [
     "SOL:0:stern",
     "CID:0:shock"
@@ -125,13 +121,12 @@
    "sfx": [
     "ding@40"
    ],
-   "say": "Na madrugada, as sirenes tocaram, as luzes da cidade se apagaram, e holofotes varreram o céu.",
-   "light": "dusk"
+   "say": "Na madrugada, as sirenes tocaram, as luzes da cidade se apagaram, e holofotes varreram o céu."
   },
   {
    "shot": "crowd",
    "set": "street",
-   "hora": "noite",
+   "hora": "pordosol",
    "who": [
     "SOL:0:shout",
     "SOL:1:angry"
@@ -164,25 +159,23 @@
    ],
    "text": "FOGO!",
    "titulo": true,
-   "say": "Alguém viu um objeto no céu, e os soldados começaram a atirar com canhões antiaéreos.",
-   "light": "dusk"
+   "say": "Alguém viu um objeto no céu, e os soldados começaram a atirar com canhões antiaéreos."
   },
   {
    "shot": "two",
    "set": "street",
-   "hora": "noite",
+   "hora": "amanhecer",
    "who": [
     "SOL:0:shout",
     "GEN:0:surprised"
    ],
    "acao": "discutir",
-   "say": "\"É um inimigo!\", gritou um soldado. Acontece que não havia nada ali, só nuvens e fumaça.",
-   "light": "dusk"
+   "say": "\"É um inimigo!\", gritou um soldado. Acontece que não havia nada ali, só nuvens e fumaça."
   },
   {
    "shot": "crowd",
    "set": "street",
-   "hora": "noite",
+   "hora": "amanhecer",
    "who": [
     "CID:0:scared",
     "CID:1:cry"
@@ -206,8 +199,7 @@
     "cannon@40",
     "cannon@100"
    ],
-   "say": "Foram mais de mil tiros de canhão, e os estilhaços caíram na cidade, que ficou em pânico.",
-   "light": "dusk"
+   "say": "Foram mais de mil tiros de canhão, e os estilhaços caíram na cidade, que ficou em pânico."
   },
   {
    "shot": "two",
@@ -217,8 +209,7 @@
     "PRE:0:nervous"
    ],
    "interacao": "susto",
-   "say": "No dia seguinte, os militares discutiram o que tinha acontecido, e ninguém sabia dizer.",
-   "light": "dusk"
+   "say": "No dia seguinte, os militares discutiram o que tinha acontecido, e ninguém sabia dizer."
   },
   {
    "shot": "two",
@@ -228,8 +219,7 @@
     "GEN:0:sad"
    ],
    "interacao": "entregar",
-   "say": "Algumas pessoas morreram, por acidente e por susto, mas nenhum inimigo apareceu.",
-   "light": "dusk"
+   "say": "Algumas pessoas morreram, por acidente e por susto, mas nenhum inimigo apareceu."
   },
   {
    "shot": "close",
@@ -246,8 +236,7 @@
      1.3
     ]
    ],
-   "say": "O único alvo derrotado naquela noite foi o sono de Los Angeles.",
-   "light": "dusk"
+   "say": "O único alvo derrotado naquela noite foi o sono de Los Angeles."
   }
  ],
  "cinf": 4.5,

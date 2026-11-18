@@ -65,17 +65,26 @@ torno((0, 0, 0), [(.01, 0), (.2, .01), (.23, .06), (.23, .62), (.2, .72), (.09, 
 cil((0, .35, 0), .25, .3, '#f1e6c8'); cil((0, .35, 0), .255, .05, '#b0282f'); bola((0, .38, .26), .06, '#d9a630', .4, rot=(math.pi / 2, 0, 0))
 cil((0, 1.18, 0), .095, .1, '#d9a630'); cil((0, 1.1, 0), .088, .03, '#b0282f')
 fim(.015)
-novo('dog')                                           # cachorro caramelo em pé (herói do EP 18): corpo de esferas, cabeça com focinho, orelhas caídas, pernas, rabo; olha para +x
-D1, D2, D3 = '#c98a4a', '#e8c48a', '#7a4a26'
+novo('dog')                                           # cachorro caramelo em pé (herói do EP 18), v3: corpo curto e liso, cabeça grande com focinho, orelhas caídas grandes, pernas grossas com patas, rabo liso, manchas, coleira; olha para +x
+D1, D2, D3, D4 = '#c98a4a', '#efd9a8', '#7a4a26', '#a8692f'
 FL2 = (math.pi / 2, 0, 0)
-bola((-.1, .62, 0), .3, D1, .85); bola((.18, .64, 0), .28, D1, .9); bola((-.38, .6, 0), .22, D1, .9)       # tronco
-bola((.5, .92, 0), .24, D1); bola((.74, .84, 0), .13, D2, .8); bola((.86, .85, 0), .05, '#1b1b1f')           # cabeça, focinho, nariz
-for s in (1, -1):
-    bola((.58, .98, .13 * s), .05, '#f4f4ec'); bola((.6, .98, .16 * s), .025, '#111111')                    # olhos
-    bola((.42, .96, .22 * s), .11, D3, .35, rot=FL2)                                                         # orelhas
-    for x in (.32, -.34): cil((x, .22, .15 * s), .07, .44, D1); bola((x + .03, .03, .15 * s), .08, D2, .6)   # pernas e patas
-tubo([(-.55, .75, 0), (-.78, .95, 0), (-.9, 1.12, 0)], .045, D1)                                           # rabo
-bola((.1, .5, 0), .2, D2, .8)                                                                                # barriga
+x = .42
+while x > -.4:                                        # tronco liso (passo curto): peito largo, cintura, quadril redondo
+    r = .31 - .035 * math.exp(-((x - .0) / .2) ** 2) + .02 * math.exp(-((x + .28) / .18) ** 2)
+    bola((x, .66, 0), r, D1, seg=22)
+    bola((x, .66 - .11, 0), r * .75, D2, .8, seg=22)  # barriga clara
+    x -= .03
+bola((.55, .9, 0), .23, D1, seg=22); bola((.8, 1.0, 0), .27, D1, seg=24); bola((.84, 1.24, 0), .11, D1, .6)   # pescoço grosso, cabeça grande, testa
+bola((1.02, .92, 0), .17, D2, .9); bola((1.12, .9, 0), .13, D2, .9); bola((1.24, .93, 0), .065, '#1b1b1f')   # focinho e nariz
+bola((1.1, .8, 0), .055, '#e8607a', .5)                # língua
+for s_ in (1, -1):
+    bola((.98, 1.06, .14 * s_), .07, '#f8f8f2'); bola((1.015, 1.06, .165 * s_), .038, '#15151a'); bola((1.03, 1.075, .178 * s_), .014, '#ffffff')   # olhos com brilho
+    for k, (ex, ey) in enumerate([(.7, 1.16), (.67, 1.04), (.65, .92), (.64, .82)]): bola((ex, ey, .25 * s_), .15 - .02 * k, D3, .3, rot=FL2)     # orelha caída grande
+    bola((.38, .44, .16 * s_), .15, D1); cil((.4, .2, .15 * s_), .06, .42, D1, raio_topo=.1); bola((.44, .04, .15 * s_), .1, D2, .55)   # perna dianteira + pata
+    bola((-.3, .5, .19 * s_), .2, D1); cil((-.32, .2, .17 * s_), .06, .42, D1, raio_topo=.1); bola((-.28, .04, .17 * s_), .1, D2, .55)   # perna traseira + pata
+tubo([(-.44, .76, 0), (-.66, .9, 0), (-.78, 1.1, 0), (-.74, 1.26, 0)], .055, D1, .4); bola((-.73, 1.29, 0), .075, D2)   # rabo curvo liso
+bola((.0, .94, 0), .2, D3, .5); bola((-.3, .86, .12), .12, D4, .6); bola((.12, .8, -.24), .1, D4, .6)             # manchas
+cil((.62, .78, 0), .22, .06, '#b0282f', rot=(0, math.pi / 3.4, 0)); bola((.7, .66, .0), .04, '#f2d060')            # coleira e plaquinha
 fim(.02)
 novo('logs')                                          # pilha de toras (herói do EP 19): troncos deitados com topo claro e anéis, machado cravado
 B1, B2, B3 = '#6a4426', '#8a5a34', '#e0c48a'
