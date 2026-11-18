@@ -1,0 +1,263 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "E Se",
+ "ep": 6,
+ "title": "E Se o Dinheiro Sumisse do Mundo?",
+ "titulo_base": "E Se o Dinheiro Sumisse do Mundo?",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/coin",
+ "outfits": {
+  "PRO": {
+   "profissao": "cientista",
+   "hair": "#5a3a22",
+   "glasses": true
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "straw"
+   ]
+  },
+  "PAD": {
+   "profissao": "padeiro"
+  },
+  "FAZ": {
+   "profissao": "agricultor"
+  }
+ },
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Rai_stones",
+  "https://en.wikipedia.org/wiki/Barter"
+ ],
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "PRO:0:grin",
+    "POV:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/coin",
+     0,
+     -1.2,
+     1.0
+    ]
+   ],
+   "text": "E SE...",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "E se todo o dinheiro do mundo sumisse de uma vez? Nota, moeda, cartão e conta no banco."
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "PAD:0:shock",
+    "POV:0:nervous"
+   ],
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "say": "Primeira manhã: você chega na padaria e não tem como pagar o café."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "FAZ:0:grin",
+    "PAD:0:suspicious"
+   ],
+   "animals": [
+    [
+     "chicken",
+     1.8,
+     0.8
+    ]
+   ],
+   "interacao": "entregar",
+   "say": "A saída seria a mais antiga de todas: a troca. Uma galinha por uma cesta de comida."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PAD:0:angry",
+    "FAZ:0:shout"
+   ],
+   "animals": [
+    [
+     "chicken",
+     1.8,
+     0.8
+    ]
+   ],
+   "acao": "discutir",
+   "fx": [
+    "puff@40"
+   ],
+   "sfx": [
+    "thump@40"
+   ],
+   "say": "Acontece que a troca tem um problema: o padeiro pode não querer galinha. E aí, ninguém come."
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:surprised",
+    "POV:1:grin"
+   ],
+   "mapa": "ILHA DE YAP",
+   "mapa_at": 3,
+   "say": "Por isso, os povos sempre inventaram um dinheiro. Na ilha de Yap, no Pacífico, eram pedras gigantes."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PRO:0:smug:paper",
+    "POV:0:surprised"
+   ],
+   "props": [
+    [
+     "nature/rocks",
+     1.8,
+     -1.6,
+     1.6
+    ]
+   ],
+   "interacao": "cochichar",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "Algumas eram tão pesadas que nunca saíam do lugar. Todo mundo só lembrava quem era o dono."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "POV:0:grin",
+    "POV:1:smile",
+    "PAD:0:grin"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "grin"
+   },
+   "props": [
+    [
+     "kit/stall",
+     0,
+     -4.0,
+     1.2
+    ]
+   ],
+   "fx": [
+    "stars@20"
+   ],
+   "sfx": [
+    "ding@20"
+   ],
+   "text": "TROCA",
+   "titulo": true,
+   "say": "Em poucas semanas, as feiras de troca tomariam as praças."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PRO:0:stern",
+    "POV:1:suspicious"
+   ],
+   "props": [
+    [
+     "kit/coin",
+     1.6,
+     -0.8,
+     1.0
+    ]
+   ],
+   "acao": "conversar",
+   "say": "Em poucos meses, alguma coisa viraria o novo dinheiro: sal, ouro, ou até figurinha."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "PRO:0:shock"
+   ],
+   "fx": [
+    "ring@20"
+   ],
+   "sfx": [
+    "sting@20"
+   ],
+   "say": "Isso já aconteceu em prisões e em guerras: quando o dinheiro some, as pessoas inventam outro."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "POV:0:laugh",
+    "POV:1:laugh",
+    "FAZ:0:grin"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "DINHEIRO",
+   "titulo": true,
+   "say": "Ou seja: dinheiro não é papel. É confiança entre as pessoas."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "PRO:0:smile"
+   ],
+   "props": [
+    [
+     "kit/coin",
+     -1.4,
+     -0.8,
+     1.0
+    ]
+   ],
+   "acao": "conversar",
+   "say": "Se ele sumisse, a gente inventaria de novo. Em menos de um ano."
+  }
+ ]
+}
