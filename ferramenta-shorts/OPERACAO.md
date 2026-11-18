@@ -10,6 +10,8 @@ ANTES de começar CADA vídeo: `git fetch origin claude/bold-sagan-dskrsj && git
 
 Objeto que BRILHA no escuro (lâmpada, LED, luzes no céu): no script do Blender chame `luz()` logo depois de `novo(...)`.
 
+DURAÇÃO (ordem do Gibson, 18/11): roteiro bem amarrado pode passar de 60 s (ex.: 79 s). NÃO corte só para caber; corte só o que estiver solto.
+
 ## Os 7 passos (não pule nenhum)
 
 1. **Ler** `CAPACIDADES.md` (o que a ferramenta tem) e `MODO_RICKS.md` (como o roteiro é escrito).
