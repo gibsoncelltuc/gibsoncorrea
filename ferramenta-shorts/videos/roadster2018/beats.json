@@ -5,10 +5,10 @@
  "ep": 8,
  "title": "O Carro que Foi Parar no Espaço",
  "titulo_base": "O Carro que Foi Parar no Espaço",
- "set": "countryside",
+ "set": "harbor",
  "light": "day",
  "mood": "playful",
- "heroi": "kit/rocket",
+ "heroi": "kit/roadster",
  "outfits": {
   "MUS": {
    "jacket": "#16181d",
@@ -31,9 +31,20 @@
    "jacket": "#f2f2f2",
    "pants": "#f2f2f2",
    "boots": "#c8c8d0",
-   "hat": "cap",
+   "hat": "helmet",
    "cap": "#f2f2f2",
    "pele": "#f2e2d2"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "bowler"
+   ]
   }
  },
  "beats": [
@@ -47,15 +58,15 @@
    "props": [
     [
      "kit/rocket",
-     1.6,
-     -0.5,
+     -2.6,
+     -6.0,
      1.2
     ],
     [
      "kit/roadster",
-     -1.5,
-     0.3,
-     1.2
+     1.6,
+     -0.8,
+     1.0
     ]
    ]
   },
@@ -87,9 +98,9 @@
    "props": [
     [
      "kit/rocket",
-     0,
-     -1.5,
-     1.8
+     3.0,
+     -9.0,
+     1.4
     ]
    ],
    "crowd": {
@@ -120,28 +131,42 @@
   },
   {
    "say": "O foguete decolou com um estrondo!",
-   "shot": "orbit",
+   "shot": "crowd",
    "who": [
     "ENG:0:shock",
-    "MUS:0:shout"
+    "MUS:0:shout",
+    "POV:0:surprised"
    ],
    "props": [
     [
-     "kit/rocket",
-     0,
-     -2.0,
-     2.0
+     "kit/falcon_air",
+     2.0,
+     -12.0,
+     1.6
     ]
    ],
    "fx": [
-    "burst@2",
-    "puff@5"
+    "whoosh@10",
+    "puff@30",
+    "ring@50"
    ],
    "sfx": [
-    "thump@2",
-    "whoosh@6"
+    "whoosh@10",
+    "thump@30",
+    "sting@50"
    ],
-   "impact": true
+   "impact": true,
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "POV",
+     "ENG"
+    ],
+    "march": false,
+    "expr": "shock"
+   }
   },
   {
    "say": "No banco do motorista foi sentado um boneco de astronauta, chamado Starman.",
@@ -158,7 +183,8 @@
      1.6
     ]
    ],
-   "detalhe": false
+   "detalhe": false,
+   "veiculo": false
   },
   {
    "say": "No painel, estava escrito: Não entre em pânico.",
@@ -198,6 +224,12 @@
      0.3,
      1.0
     ]
+   ],
+   "fx": [
+    "stars@20"
+   ],
+   "sfx": [
+    "ding@20"
    ]
   },
   {
@@ -215,11 +247,17 @@
      0.4,
      1.5
     ]
+   ],
+   "fx": [
+    "stars@20"
+   ],
+   "sfx": [
+    "ding@20"
    ]
   },
   {
    "say": "Um Roadster, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço.",
-   "shot": "group",
+   "shot": "crowd",
    "who": [
     "MUS:0:laugh",
     "ENG:0:smile",
@@ -239,7 +277,26 @@
      0.2,
      1.1
     ]
-   ]
+   ],
+   "fx": [
+    "stars@20"
+   ],
+   "sfx": [
+    "ding@20"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "text": "STARMAN",
+   "titulo": true
   }
  ],
  "cinf": 4.5,

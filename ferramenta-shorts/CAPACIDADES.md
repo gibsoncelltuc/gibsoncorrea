@@ -18,7 +18,7 @@ angry, bored, cry, dazed, grin, laugh, lick, nervous, neutral, pained, relief, r
 "acao": conversar | discutir | comemorar | dancar | nenhuma ; "interacao": empurrar | discutir | cochichar | entregar | susto | reverencia | pular ; "chega": true (entra andando) ; "batalha": true (tropa, tiros, fuga) ; "caminhoes": true
 
 ## Objeto na mao (4o campo do "who": "FAZ:0:stern:coin")
-bottle, mug, paper, book, lantern, pitchfork, staff, flag, torch, bag, coin, spyglass, shovel, tulip, money (notas de dolar)
+bottle, mug, paper, book, lantern, pitchfork, staff, flag, torch, bag, coin, spyglass, shovel, tulip, money (notas de dolar), sword (espada)
 
 ## Chapeus ("hat" no figurino)
 beret, bonnet, bowler, cap, crown, fez, hair, helmet, shako, shako_tall, slouch, straw, tophat, turban, wizard
@@ -29,8 +29,8 @@ jacket, pants, boots (obrigatorios) | hat + cap (cor) | hair (cor, com hat: hair
 ## Profissoes prontas ("profissao" no figurino: {"PAD": {"profissao": "padeiro"}} e ajuste as cores se quiser)
 padeiro, agricultor, nobre, politico, empresario, rei, general, soldado, marinheiro, cientista, medico, comerciante, pescador, padre, camponesa, jornalista. Cada personagem ganha barba, bigode ou oculos proprios pelo nome + variante; para fixar: "beard": "#cor" | "moustache": "#cor" | "glasses": true/false. Bandeira na mao: "holdCol" e "holdCol2" no figurino mudam as duas cores.
 
-## Animais
-"animals": [["pig", x, z, "stand|walk", escala]] ; tambem "chicken", "goose", "horse" (cavalo 3D), "bear" (urso 3D) ; "emus": true. Modelos 3D prontos na raiz de web/assets: horse, sheep, bear, emu, pig, boat, ship, cannon, barrel, crate, tent, mgun (metralhadora).
+## Animais (JA PRONTOS - NUNCA modele animal no Blender)
+Entram SOZINHOS quando a narracao cita o animal (cachorro, gato, vaca/boi, ovelha, cabra/bode, porco, cavalo, burro/jumento, veado/cervo, raposa, lobo, coelho, leao, elefante, urso, galinha, galo, pato, ganso, gaivota, emu). Em cena andando/correndo (shot "track") o animal anda junto. Para posicionar a mao: "animals": [["dog", x, z]] com dog, cat, cow, sheep, goat, pig, horse, donkey, deer, fox, wolf, rabbit, lion, elephant, bear, chicken, rooster, duck, goose, gull; "emus": true. Desligar: "animais": false. Close de animal como objeto heroi: kit/dog_sit (cachorro sentado).
 
 ## Objetos que entram SOZINHOS quando a narracao cita a palavra
 - barrel  <- \bbarril\b|\bbarris\b|aguardente|cerveja|\bvinho\b|\brum\b
@@ -68,12 +68,42 @@ padeiro, agricultor, nobre, politico, empresario, rei, general, soldado, marinhe
 - buildings/church  <- \bigreja\b|\bcatedral\b  (fundo, so cena externa)
 - buildings/lighthouse  <- \bfarol\b  (fundo, so cena externa)
 - buildings/bridge  <- \bponte\b  (fundo, so cena externa)
+- kit/crookes_tube  <- \btubo\b|\btubos\b
+- kit/xray_plate  <- \bchapa\b|\bossos\b|\braio x\b|\braios x\b|radiografia|\btela\b
+- kit/brass_nose  <- \bnariz\b|\bnarizes\b|protese
+- kit/wash_basin  <- \bbacia\b|\bbacias\b|\blavar\b|lavassem|\bcloro\b|clorada
+- kit/snake_ring  <- \bcobras?\b|serpentes?|\banel\b|benzeno|\brabo\b
+- kit/postit  <- post-?it|bloquinhos?|marcadores?|hinario|papeizinhos
+- kit/burr  <- carrapichos?|velcro|ganchinhos?
+- kit/stove  <- \bfogao\b|\bfogoes\b|borracha|vulcaniz|enxofre
+- kit/balloon  <- \bbalao\b|\bbaloes\b
+- kit/curie_box  <- \bcadernos?\b|\bchumbo\b|radioativ|\bfrascos?\b
+- kit/beehive  <- \bcolmeias?\b|\babelhas?\b|\bfavos?\b|\bmel\b
+- kit/clipper  <- maquina de raspar|\braspou\b|\braspar\b|\braspada\b|\bcareca\b
+- kit/tower_mini  <- mechazilla|pauzinhos|torre de lancamento
+- kit/volcano  <- \bvulcao\b|\bvulcoes\b  (fundo, so cena externa)
+- kit/bitcoin  <- \bbitcoins?\b|moeda digital|dinheiro digital
+- kit/miners  <- \bcomputadores\b|mineradoras?|\bservidores\b
+- kit/boardgame  <- tabuleiro|jogo de mesa
+- kit/monkey_pong  <- \bmacacos?\b|\bpong\b|\bpager\b
+- kit/tequila_bolt  <- \btequila\b|teslaquila|\bgarrafas?\b
+- kit/tires  <- \bpneus?\b
+- kit/rocket  <- \bfoguete\b|\bfoguetes\b|falcon
+- kit/roadster  <- \broadster\b|\btesla\b
+- kit/ear_jar  <- \borelha\b
+- kit/golden_stool  <- \bbanquinho\b
+- kit/scroll  <- \btratado\b
+- kit/cod  <- \bbacalhau\b
+- kit/melon  <- \bmelancias?\b
+- kit/whisky  <- \b(uísque|uisque|whisky)\b
+- kit/logs  <- \b(toras?|troncos?)\b
+- kit/searchlight  <- \bholofotes?\b
 - kit/apple  <- \bmaca\b|\bmacas\b|\bmacieiras?\b
 - kit/bathtub  <- \bbanheira\b|\bbanho\b
 - kit/crown  <- \bcoroa\b
-- kit/feather  <- \bpena\b
-- kit/petri  <- \bpratos?\b|\bmofo\b|\bbolor\b
-- kit/microwave  <- \bmicro-?ondas\b|\bmicroondas\b|\bforno\b
+- kit/feather  <- \bpenas? de (ave|ganso|escrever)\b|\bpluma\b
+- kit/petri  <- \bplacas? de petri\b|\bmofo\b|\bbolor\b
+- kit/microwave  <- \bmicro-?ondas\b|\bmicroondas\b
 - kit/chocolate  <- \bchocolate\b
 - kit/egg  <- \bovos?\b
 - kit/popcorn  <- \bpipocas?\b|\bmilho\b
@@ -85,9 +115,11 @@ padeiro, agricultor, nobre, politico, empresario, rei, general, soldado, marinhe
 - kit/pea_green  <- \bervilhas?\b
 - kit/globe  <- \bglobo\b|\bplaneta\b
 - kit/stick  <- \bvaras?\b
+- kit/coin  <- \bbitcoins?\b|\bmoedas?\b
+- kit/sink  <- \bpias?\b
 
 ## Biblioteca 3D completa (use em "props": [["pasta/nome", x, z, escala]])
-- kit: apple, ball, barrel_r, bathtub, cake_table, campfire, chest, cross, crown, ear_jar, feather, fire, flag_pole, golden_stool, grave, kettle, lobster, microwave, petri, pisa_tower, porch, room_shop, room_stone, room_wood, stall, syringe, tent, throne, tulip_bed, tulip_purple, tulip_red, tulip_striped, tulip_yellow
+- kit: apple, ball, balloon, balloon_air, barrel_r, bathtub, beehive, bitcoin, boardgame, booster_air, brass_nose, burr, cake_table, campfire, chest, chocolate, clipper, cod, coin, crookes_tube, cross, crown, curie_box, dog_sit, ear_jar, egg, falcon_air, feather, finch, finch_long, finch_thick, fire, flag_pole, globe, golden_stool, grave, kettle, key, kite, lightning_rod, lobster, logs, melon, microwave, miners, monkey_pong, pea_green, pea_yellow, petri, pisa_tower, popcorn, porch, postit, ring, roadster, rocket, room_shop, room_stone, room_wood, scroll, searchlight, sink, snake_ring, stall, stick, stove, syringe, tent, tequila_bolt, throne, tires, tower, tower_catch, tower_mini, tulip_bed, tulip_purple, tulip_red, tulip_striped, tulip_yellow, volcano, wash_basin, well, whisky, xray_plate
 - buildings: apartment, barn, bridge, castle_tower, church, house_blue, house_small, house_two, lighthouse, shop, skyscraper, windmill
 - vehicles: airplane, bicycle, car, car_blue, helicopter, jeep, locomotive, motorboat, motorcycle, sailboat, tank, taxi, truck, wagon
 - nature: bench, bush, flowerbed, fountain, haybale, lamppost, picket_fence, rocks, scarecrow, tree_birch, tree_oak, tree_palm, tree_pine
@@ -99,4 +131,4 @@ padeiro, agricultor, nobre, politico, empresario, rei, general, soldado, marinhe
 gun, cannon, squeal, snuffle, gibber, laughs, whoosh, ding, sting, thump, tick, creak, paper
 
 ## NAO existe (nao escreva cena que dependa disto)
-cavalo e outros animais fora da lista; nadar, cavalgar, escalar, sentar, deitar; barco se movendo; fogo/incendio grande; personagem dentro de veiculo aparecendo; mais de 4 personagens principais na mesma cena fechada.
+nadar, cavalgar, escalar, sentar, deitar (mostre o resultado ou reescreva a frase); personagem dentro de veiculo aparecendo; mais de 4 personagens principais na mesma cena fechada.

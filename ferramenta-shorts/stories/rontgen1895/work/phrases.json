@@ -1,0 +1,297 @@
+{
+ "duration": 60.648,
+ "frames30": 1819,
+ "source": "silence-align (cost 1.08)",
+ "segments": [
+  [
+   0.153292,
+   3.00842
+  ],
+  [
+   3.39433,
+   4.742
+  ],
+  [
+   5.58904,
+   7.32021
+  ],
+  [
+   7.63096,
+   8.8025
+  ],
+  [
+   9.639,
+   11.9512
+  ],
+  [
+   12.2812,
+   14.4916
+  ],
+  [
+   15.3498,
+   15.9293
+  ],
+  [
+   16.1579,
+   17.778
+  ],
+  [
+   18.0557,
+   18.9955
+  ],
+  [
+   19.86,
+   20.7049
+  ],
+  [
+   20.9647,
+   22.1288
+  ],
+  [
+   22.3901,
+   24.1659
+  ],
+  [
+   25.0222,
+   26.6
+  ],
+  [
+   26.9621,
+   28.6088
+  ],
+  [
+   29.4493,
+   30.6719
+  ],
+  [
+   30.9298,
+   31.8848
+  ],
+  [
+   32.0907,
+   32.3442
+  ],
+  [
+   32.592,
+   33.9043
+  ],
+  [
+   34.1431,
+   34.7415
+  ],
+  [
+   35.5902,
+   36.8672
+  ],
+  [
+   37.0729,
+   37.533
+  ],
+  [
+   37.7743,
+   38.7119
+  ],
+  [
+   39.5562,
+   40.7819
+  ],
+  [
+   41.6291,
+   42.2314
+  ],
+  [
+   42.4618,
+   44.9775
+  ],
+  [
+   45.8576,
+   47.2263
+  ],
+  [
+   47.4372,
+   48.9147
+  ],
+  [
+   49.1033,
+   49.972
+  ],
+  [
+   50.807,
+   51.9145
+  ],
+  [
+   52.1617,
+   54.7183
+  ],
+  [
+   55.566,
+   57.4406
+  ],
+  [
+   58.3043,
+   59.8717
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um cientista tirou a primeira foto de dentro do corpo humano,",
+   "s": 0.153,
+   "e": 3.008
+  },
+  {
+   "text": "e assustou a pr\u00f3pria esposa.",
+   "s": 3.394,
+   "e": 4.742
+  },
+  {
+   "text": "Era mil oitocentos e noventa e cinco,",
+   "s": 5.589,
+   "e": 7.32
+  },
+  {
+   "text": "numa cidade da Alemanha.",
+   "s": 7.631,
+   "e": 8.803
+  },
+  {
+   "text": "Wilhelm R\u00f6ntgen passava as noites no laborat\u00f3rio,",
+   "s": 9.639,
+   "e": 11.951
+  },
+  {
+   "text": "testando um tubo de vidro que soltava fa\u00edscas.",
+   "s": 12.281,
+   "e": 14.492
+  },
+  {
+   "text": "Numa noite,",
+   "s": 15.35,
+   "e": 15.929
+  },
+  {
+   "text": "ele cobriu o tubo com papel\u00e3o preto,",
+   "s": 16.158,
+   "e": 17.778
+  },
+  {
+   "text": "e apagou a luz.",
+   "s": 18.056,
+   "e": 18.995
+  },
+  {
+   "text": "Acontece que,",
+   "s": 19.86,
+   "e": 20.705
+  },
+  {
+   "text": "do outro lado da sala,",
+   "s": 20.965,
+   "e": 22.129
+  },
+  {
+   "text": "uma tela come\u00e7ou a brilhar no escuro.",
+   "s": 22.39,
+   "e": 24.166
+  },
+  {
+   "text": "Ele p\u00f4s a m\u00e3o na frente do tubo,",
+   "s": 25.022,
+   "e": 26.6
+  },
+  {
+   "text": "e viu os pr\u00f3prios ossos na tela.",
+   "s": 26.962,
+   "e": 28.609
+  },
+  {
+   "text": "Duas semanas depois,",
+   "s": 29.449,
+   "e": 30.672
+  },
+  {
+   "text": "ele chamou a esposa,",
+   "s": 30.93,
+   "e": 31.885
+  },
+  {
+   "text": "Anna,",
+   "s": 32.091,
+   "e": 32.344
+  },
+  {
+   "text": "e fotografou a m\u00e3o dela,",
+   "s": 32.592,
+   "e": 33.904
+  },
+  {
+   "text": "com a alian\u00e7a.",
+   "s": 34.143,
+   "e": 34.742
+  },
+  {
+   "text": "Dizem que ela olhou a chapa,",
+   "s": 35.59,
+   "e": 36.867
+  },
+  {
+   "text": "e disse:",
+   "s": 37.073,
+   "e": 37.533
+  },
+  {
+   "text": "\"Eu vi a minha morte.\"",
+   "s": 37.774,
+   "e": 38.712
+  },
+  {
+   "text": "A not\u00edcia correu o mundo.",
+   "s": 39.556,
+   "e": 40.782
+  },
+  {
+   "text": "Jornais,",
+   "s": 41.629,
+   "e": 42.231
+  },
+  {
+   "text": "m\u00e9dicos e curiosos queriam ver o raio misterioso.",
+   "s": 42.462,
+   "e": 44.977
+  },
+  {
+   "text": "Como ningu\u00e9m sabia o que era,",
+   "s": 45.858,
+   "e": 47.226
+  },
+  {
+   "text": "ele chamou de raio X.",
+   "s": 47.437,
+   "e": 48.915
+  },
+  {
+   "text": "X, de desconhecido.",
+   "s": 49.103,
+   "e": 49.972
+  },
+  {
+   "text": "Em mil novecentos e um,",
+   "s": 50.807,
+   "e": 51.914
+  },
+  {
+   "text": "R\u00f6ntgen ganhou o primeiro Pr\u00eamio Nobel de F\u00edsica da hist\u00f3ria.",
+   "s": 52.162,
+   "e": 54.718
+  },
+  {
+   "text": "E nunca quis patentear a descoberta.",
+   "s": 55.566,
+   "e": 57.441
+  },
+  {
+   "text": "O raio X era de todo mundo.",
+   "s": 58.304,
+   "e": 59.872
+  }
+ ]
+}

@@ -985,7 +985,7 @@ const hatOn = (p, o, hp, H, cx, hc, light, seed, facing, side)=>{
             p.ell(tx, ty, 7 * u, 7 * u, "#2b7a4b", 2.5 * u);
         }
     } else if (o.hat === "cap" || o.hat === "hair") {
-        const cut = crown + (o.hat === "cap" ? 0.3 : 0.42) * HH;
+        const cut = crown + (o.hat === "cap" ? 0.22 : 0.42) * HH;
         const keep = (x, y)=>y < cut || side && o.hat === "hair" && x < cx - 6 * u && y < hc + 0.42 * H.b;
         const n = hp.length, startIdx = Math.max(0, hp.findIndex(([x, y], i)=>keep(x, y) && !keep(hp[(i + n - 1) % n][0], hp[(i + n - 1) % n][1])));
         const arc = [
@@ -1451,8 +1451,8 @@ export const bodyFront = (p, o, opts)=>{
     if (o.hold && !gest && (mode === "stand" || mode === "stroll") && arms.length) {
         /* quem segura um objeto mostra/usa o objeto: caneca e garrafa sobem ate a boca, papel e livro ficam na frente do peito, luneta vai ao olho, lanterna/tocha/bandeira ficam erguidas */
         const Qh = (xr, yr)=>[tcx + xr * HH, chin + yr * HH], k = o.hold, h = Math.max(0, Math.min(1, holdK));
-        const rest = { mug: [0.74, 0.3], bottle: [0.74, 0.32], paper: [0.5, 0.42], book: [0.5, 0.42], spyglass: [0.7, 0.2], coin: [0.8, 0.2], money: [0.8, 0.1], lantern: [0.95, 0.0], torch: [0.9, -0.1], flag: [0.85, 0.25], staff: [0.85, 0.25], pitchfork: [0.85, 0.25], shovel: [0.8, 0.3], tulip: [0.6, 0.3], bag: [0.62, 0.62] }[k] || [0.8, 0.3];
-        const use = { mug: [0.2, -0.1], bottle: [0.2, -0.14], paper: [0.42, 0.26], book: [0.42, 0.26], spyglass: [0.36, -0.5], coin: [0.9, -0.05], money: [0.95, -0.15], lantern: [1.0, -0.3], torch: [0.95, -0.35], flag: [0.85, 0.2], staff: [0.85, 0.22], pitchfork: [0.85, 0.22], shovel: [0.8, 0.28], tulip: [0.5, 0.0], bag: [0.62, 0.6] }[k] || rest;
+        const rest = { mug: [0.74, 0.3], bottle: [0.74, 0.32], paper: [0.5, 0.42], book: [0.5, 0.42], spyglass: [0.7, 0.2], coin: [0.8, 0.2], money: [0.8, 0.1], sword: [0.85, 0.25], lantern: [0.95, 0.0], torch: [0.9, -0.1], flag: [0.85, 0.25], staff: [0.85, 0.25], pitchfork: [0.85, 0.25], shovel: [0.8, 0.3], tulip: [0.6, 0.3], bag: [0.62, 0.62] }[k] || [0.8, 0.3];
+        const use = { mug: [0.2, -0.1], bottle: [0.2, -0.14], paper: [0.42, 0.26], book: [0.42, 0.26], spyglass: [0.36, -0.5], coin: [0.9, -0.05], money: [0.95, -0.15], sword: [0.9, -0.3], lantern: [1.0, -0.3], torch: [0.95, -0.35], flag: [0.85, 0.2], staff: [0.85, 0.22], pitchfork: [0.85, 0.22], shovel: [0.8, 0.28], tulip: [0.5, 0.0], bag: [0.62, 0.6] }[k] || rest;
         const hx = rest[0] + (use[0] - rest[0]) * h, hy = rest[1] + (use[1] - rest[1]) * h;
         arms[arms.length - 1] = { pts: [Qh(0.36, 0.12), Qh(0.36 + (hx - 0.36) * 0.55 + 0.12, 0.12 + (hy - 0.12) * 0.5 + 0.16), Qh(hx, hy)], front: true, top: hy < 0.08 };   /* mao perto do rosto fica na frente da cabeca */
     }
@@ -1502,6 +1502,7 @@ export const bodyFront = (p, o, opts)=>{
         else if (k === "shovel") { p.band([[x, y - 30 * u], [x, y + 42 * u]], "#8a5a34", 3.6 * u, 1.3 * u, "round"); p.poly([[x - 9 * u, y + 40 * u], [x + 9 * u, y + 40 * u], [x + 8 * u, y + 58 * u], [x, y + 66 * u], [x - 8 * u, y + 58 * u]], "#9aa0a8", 1.6 * u); p.band([[x - 6 * u, y - 31 * u], [x + 6 * u, y - 31 * u]], "#8a5a34", 3.4 * u, 1.2 * u, "round"); }
         else if (k === "bag") { p.stroke([[x, y], [x, y + 8 * u]], 1.6 * u); p.ell(x, y + 22 * u, 13 * u, 15 * u, c2 || "#b98448", 1.8 * u); p.stroke([[x - 6 * u, y + 10 * u], [x + 6 * u, y + 10 * u]], 1.6 * u); }
         else if (k === "coin") { p.ell(x, y - 8 * u, 7 * u, 7 * u, "#f2c230", 1.5 * u); }
+        else if (k === "sword") { p.band([[x, y + 6 * u], [x, y - 70 * u]], "#c9d0d8", 4.5 * u, 1.3 * u, "round"); p.band([[x, y - 70 * u], [x, y - 78 * u]], "#c9d0d8", 2 * u, 1 * u, "round"); p.band([[x - 10 * u, y - 2 * u], [x + 10 * u, y - 2 * u]], "#8a5a34", 3.2 * u, 1.2 * u, "round"); p.ell(x, y + 10 * u, 3 * u, 3 * u, "#f2c230", 1 * u); }   /* espada */
         else if (k === "money") { for (const [dx, rot] of [[-9, -0.35], [0, 0], [9, 0.35]]) { const cx = x + dx * u, cy = y - 16 * u, w = 8 * u, h = 15 * u, c = Math.cos(rot), sn = Math.sin(rot), R = (px, py) => [cx + px * c - py * sn, cy + px * sn + py * c]; p.poly([R(-w, -h), R(w, -h), R(w, h), R(-w, h)], "#6fbf73", 1.5 * u); p.ell(cx, cy, 3.6 * u, 4.6 * u, "#d9f2c8", 1 * u); } }   /* notas de dolar em leque */
         else if (k === "spyglass") { p.band([[x - 4 * u, y], [x + 20 * u, y - 10 * u]], "#c9a060", 6 * u, 1.3 * u, "round"); p.band([[x + 20 * u, y - 10 * u], [x + 30 * u, y - 14 * u]], "#3a3d47", 8 * u, 1.3 * u, "round"); }
     })(u * 1.7);
@@ -1510,14 +1511,7 @@ export const bodyFront = (p, o, opts)=>{
         if (o.hold && a === (arms.find((q)=>q.front) || arms[arms.length - 1])) drawHeld(a.pts[2][0], a.pts[2][1]);
         p.dot(a.pts[2][0], a.pts[2][1], 5.5 * u);
     };
-    if (rifle) {   /* FUZIL de verdade: coronha larga, corpo de madeira com gatilho, cano de metal com bandoleira */
-        const dx = R1[0] - R0[0], dy = R1[1] - R0[1], L = Math.hypot(dx, dy) || 1, nx = -dy / L, ny = dx / L, at = (t) => lerp2(R0, R1, t), off = (q, k) => [q[0] + nx * k, q[1] + ny * k];
-        p.poly([off(at(0), 6.5 * u), off(at(0), -4 * u), off(at(0.3), -2.4 * u), off(at(0.3), 2.6 * u)], "#6a3f22", 1.5 * u);   /* coronha */
-        p.band([at(0.28), at(0.62)], "#8a5532", 4.2 * u, 1.4 * u, "round");                                                       /* corpo */
-        p.poly([off(at(0.36), -2 * u), off(at(0.42), -6.5 * u), off(at(0.46), -2 * u)], "#3a3d47", 1 * u);                         /* gatilho */
-        p.band([at(0.55), R1], "#8d949c", 2.4 * u, 1.2 * u, "round");                                                             /* cano */
-        p.band([at(0.97), at(1.0)], "#3a3d47", 3.2 * u, 0.8 * u, "round");                                                        /* boca do cano */
-    }
+    if (rifle) drawRifle(p, R0, R1, u);
     if (o.sword && mode !== "sit") {
         const s0 = [
             tcx - 0.75 * T.a,
@@ -1745,8 +1739,16 @@ const ik = (hip, ank, l1, l2)=>{
     ];
 };
 const SWING_HIP = 733;
+const drawRifle = (p, R0, R1, u) => {   
+        const dx = R1[0] - R0[0], dy = R1[1] - R0[1], L = Math.hypot(dx, dy) || 1, nx = -dy / L, ny = dx / L, at = (t) => lerp2(R0, R1, t), off = (q, k) => [q[0] + nx * k, q[1] + ny * k];
+        p.poly([off(at(0), 6.5 * u), off(at(0), -4 * u), off(at(0.3), -2.4 * u), off(at(0.3), 2.6 * u)], "#6a3f22", 1.5 * u);   /* coronha */
+        p.band([at(0.28), at(0.62)], "#8a5532", 4.2 * u, 1.4 * u, "round");                                                       /* corpo */
+        p.poly([off(at(0.36), -2 * u), off(at(0.42), -6.5 * u), off(at(0.46), -2 * u)], "#3a3d47", 1 * u);                         /* gatilho */
+        p.band([at(0.55), R1], "#8d949c", 2.4 * u, 1.2 * u, "round");                                                             /* cano */
+        p.band([at(0.97), at(1.0)], "#3a3d47", 3.2 * u, 0.8 * u, "round");                                                        /* boca do cano */
+    };   /* FUZIL de verdade: coronha, corpo com gatilho, cano de metal */
 export const bodySide = (p, o, opts)=>{
-    const { phase = 0, expr = "neutral", mode = "march", blink = false, stomp = 1, pose = 0, stride = 1, light = DEF_LIGHT, seed = 1 } = opts;
+    const { phase = 0, expr = "neutral", mode = "march", blink = false, stomp = 1, pose = 0, stride = 1, light = DEF_LIGHT, seed = 1, aim = 0 } = opts;
     const Bd = BUILD[o.build ?? "adult"], skin = o.skin ?? SKIN, two = Math.PI * 2, lid = lidOf(blink);
     const H = {
         ...headBlob(seed, Bd.a, 1),
@@ -1928,12 +1930,12 @@ export const bodySide = (p, o, opts)=>{
         ];
     };
     const rifle = !!o.rifle && (mode === "march" || mode === "stand");
-    const B0 = [
-        tcx + 0.72 * T.a,
-        chin + 0.58 * HH
+    const B0 = [   /* de lado: fuzil no ombro; com aim (atirando) aponta para a frente, na altura do peito */
+        tcx + (0.72 - 0.9 * aim) * T.a,
+        chin + (0.58 - 0.3 * aim) * HH
     ], B1 = [
-        tcx - 0.95 * T.a - 22 * u,
-        crown - 0.4 * HH
+        tcx + (-0.95 + 3.1 * aim) * T.a + (-22 + 52 * aim) * u,
+        crown - 0.4 * HH + aim * ((chin + 0.24 * HH) - (crown - 0.4 * HH))
     ];
     let near, far;
     if (mode === "swing") {
@@ -2042,16 +2044,7 @@ export const bodySide = (p, o, opts)=>{
         }
     });
     p.inkRing(tp, ow, thick);
-    if (rifle) {
-        p.band([
-            B0,
-            B1
-        ], "#7a4b2a", 5 * u, 1.5 * u, "round");
-        p.band([
-            lerp2(B0, B1, 0.6),
-            B1
-        ], "#8d949c", 2.4 * u, 1.2 * u, "round");
-    }
+    if (rifle) drawRifle(p, B0, B1, u);
     p.stroke(curve(near[0], near[1], near[2]), 5.2 * u, armCol);
     p.dot(near[2][0], near[2][1], 5.5 * u);
     const hx = 300 + 4 * u;

@@ -1,0 +1,360 @@
+{
+ "duration": 74.4,
+ "frames30": 2232,
+ "source": "silence-align (cost 1.55)",
+ "segments": [
+  [
+   0.159958,
+   3.12333
+  ],
+  [
+   3.36192,
+   4.5475
+  ],
+  [
+   5.36404,
+   6.09958
+  ],
+  [
+   7.01946,
+   8.63229
+  ],
+  [
+   8.93158,
+   10.693
+  ],
+  [
+   10.8536,
+   11.55
+  ],
+  [
+   12.3997,
+   13.1029
+  ],
+  [
+   13.2716,
+   15.3671
+  ],
+  [
+   15.6225,
+   16.8425
+  ],
+  [
+   17.6862,
+   18.5659
+  ],
+  [
+   18.843,
+   19.3096
+  ],
+  [
+   20.1354,
+   21.0736
+  ],
+  [
+   21.3321,
+   22.6432
+  ],
+  [
+   22.9675,
+   26.0763
+  ],
+  [
+   26.928,
+   29.2447
+  ],
+  [
+   29.5475,
+   30.7777
+  ],
+  [
+   31.6297,
+   32.1987
+  ],
+  [
+   32.431,
+   33.1925
+  ],
+  [
+   34.0598,
+   34.9281
+  ],
+  [
+   35.2111,
+   38.298
+  ],
+  [
+   38.4932,
+   39.2662
+  ],
+  [
+   40.1382,
+   41.0
+  ],
+  [
+   41.2293,
+   42.3341
+  ],
+  [
+   42.5457,
+   43.3392
+  ],
+  [
+   43.6045,
+   45.0409
+  ],
+  [
+   45.921,
+   46.7697
+  ],
+  [
+   46.9735,
+   47.9016
+  ],
+  [
+   48.1785,
+   49.2932
+  ],
+  [
+   49.6005,
+   50.9433
+  ],
+  [
+   51.762,
+   53.7366
+  ],
+  [
+   54.5993,
+   56.8902
+  ],
+  [
+   57.745,
+   59.5179
+  ],
+  [
+   59.7754,
+   61.2776
+  ],
+  [
+   62.1365,
+   62.5336
+  ],
+  [
+   62.791,
+   65.7645
+  ],
+  [
+   65.9967,
+   66.7824
+  ],
+  [
+   67.6344,
+   69.993
+  ],
+  [
+   70.8665,
+   72.4608
+  ],
+  [
+   72.6744,
+   73.6174
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Elon Musk mandou construir uma torre com bra\u00e7os gigantes,",
+   "s": 0.16,
+   "e": 3.123
+  },
+  {
+   "text": "para pegar um foguete no ar.",
+   "s": 3.362,
+   "e": 4.548
+  },
+  {
+   "text": "E deu certo.",
+   "s": 5.364,
+   "e": 6.1
+  },
+  {
+   "text": "Foi em outubro de dois mil e vinte e quatro,",
+   "s": 7.019,
+   "e": 8.632
+  },
+  {
+   "text": "na base de foguetes da SpaceX,",
+   "s": 8.932,
+   "e": 10.693
+  },
+  {
+   "text": "no Texas.",
+   "s": 10.854,
+   "e": 11.55
+  },
+  {
+   "text": "Normalmente,",
+   "s": 12.4,
+   "e": 13.103
+  },
+  {
+   "text": "a parte de baixo de um foguete \u00e9 descartada,",
+   "s": 13.272,
+   "e": 15.367
+  },
+  {
+   "text": "ou pousa sobre pernas.",
+   "s": 15.623,
+   "e": 16.843
+  },
+  {
+   "text": "Isso custa caro,",
+   "s": 17.686,
+   "e": 18.566
+  },
+  {
+   "text": "e pesa.",
+   "s": 18.843,
+   "e": 19.31
+  },
+  {
+   "text": "A ideia de Musk:",
+   "s": 20.135,
+   "e": 21.074
+  },
+  {
+   "text": "tirar as pernas do foguete,",
+   "s": 21.332,
+   "e": 22.643
+  },
+  {
+   "text": "e fazer a pr\u00f3pria torre de lan\u00e7amento agarrar o propulsor na volta.",
+   "s": 22.968,
+   "e": 26.076
+  },
+  {
+   "text": "Os engenheiros apelidaram os bra\u00e7os de pauzinhos,",
+   "s": 26.928,
+   "e": 29.245
+  },
+  {
+   "text": "como os de comida japonesa.",
+   "s": 29.547,
+   "e": 30.778
+  },
+  {
+   "text": "E a torre,",
+   "s": 31.63,
+   "e": 32.199
+  },
+  {
+   "text": "de Mechazilla.",
+   "s": 32.431,
+   "e": 33.193
+  },
+  {
+   "text": "No dia do teste,",
+   "s": 34.06,
+   "e": 34.928
+  },
+  {
+   "text": "o propulsor gigante decolou com trinta e tr\u00eas motores acesos,",
+   "s": 35.211,
+   "e": 38.298
+  },
+  {
+   "text": "e sumiu no c\u00e9u.",
+   "s": 38.493,
+   "e": 39.266
+  },
+  {
+   "text": "Minutos depois,",
+   "s": 40.138,
+   "e": 41.0
+  },
+  {
+   "text": "ele voltou do espa\u00e7o,",
+   "s": 41.229,
+   "e": 42.334
+  },
+  {
+   "text": "descendo de r\u00e9,",
+   "s": 42.546,
+   "e": 43.339
+  },
+  {
+   "text": "direto na dire\u00e7\u00e3o da torre.",
+   "s": 43.605,
+   "e": 45.041
+  },
+  {
+   "text": "Acontece que,",
+   "s": 45.921,
+   "e": 46.77
+  },
+  {
+   "text": "no \u00faltimo segundo,",
+   "s": 46.974,
+   "e": 47.902
+  },
+  {
+   "text": "os bra\u00e7os se fecharam,",
+   "s": 48.178,
+   "e": 49.293
+  },
+  {
+   "text": "e seguraram o foguete no ar.",
+   "s": 49.6,
+   "e": 50.943
+  },
+  {
+   "text": "Os engenheiros comemoraram aos gritos.",
+   "s": 51.762,
+   "e": 53.737
+  },
+  {
+   "text": "Era a primeira vez que algu\u00e9m fazia isso na hist\u00f3ria.",
+   "s": 54.599,
+   "e": 56.89
+  },
+  {
+   "text": "Musk comemorou nas redes sociais:",
+   "s": 57.745,
+   "e": 59.518
+  },
+  {
+   "text": "a torre tinha pegado o foguete.",
+   "s": 59.775,
+   "e": 61.278
+  },
+  {
+   "text": "Assim,",
+   "s": 62.136,
+   "e": 62.534
+  },
+  {
+   "text": "o propulsor que antes ia para o lixo pode ser usado de novo,",
+   "s": 62.791,
+   "e": 65.764
+  },
+  {
+   "text": "v\u00e1rias vezes.",
+   "s": 65.997,
+   "e": 66.782
+  },
+  {
+   "text": "E a torre j\u00e1 repetiu a pegada outras vezes.",
+   "s": 67.634,
+   "e": 69.993
+  },
+  {
+   "text": "Parece filme de rob\u00f4 gigante,",
+   "s": 70.867,
+   "e": 72.461
+  },
+  {
+   "text": "mas \u00e9 engenharia.",
+   "s": 72.674,
+   "e": 73.617
+  }
+ ]
+}

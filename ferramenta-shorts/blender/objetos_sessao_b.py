@@ -76,10 +76,9 @@ cil((0, .9, 0), .7, .12, '#f2b822', rot=(math.pi / 2, 0, 0)); cil((0, .9, .02), 
 cil((-.1, .9, .09), .07, .7, '#fff0a0'); caixa((.12, 1.08, .09), (.3, .09, .04), '#fff0a0'); caixa((.12, .72, .09), (.3, .09, .04), '#fff0a0')
 caixa((.12, .9, .09), (.34, .09, .04), '#fff0a0'); cil((0, .16, 0), .35, .08, '#6a4a2a')
 fim()
-novo('sink')               # pia de banheiro: bacia branca com borda e cuba escura, torneira cromada grande, registros e pedestal
-bola((0, .95, 0), .62, '#ffffff', achata=.42, seg=24, esc=(1.2, 1, .85)); bola((0, 1.08, .02), .44, '#3a4a5a', achata=.2, seg=20, esc=(1.15, 1, .78))
-cil((0, .5, -.05), .24, .9, '#f2f2ee', raio_topo=.3); cil((0, .06, -.05), .4, .1, '#f2f2ee')
-caixa((0, 1.55, -.52), (1.5, 1.0, .06), '#c8e0ee')
-tubo([(0, 1.1, -.4), (0, 1.55, -.4), (0, 1.62, -.15), (0, 1.5, -.08)], .07, '#d8dce4'); bola((0, 1.55, -.4), .1, '#d8dce4')
-cil((-.3, 1.2, -.38), .08, .2, '#d83030'); cil((.3, 1.2, -.38), .08, .2, '#3060d8')
+novo('sink')               # pia de banheiro: bacia branca oval com cuba azulada, torneira cromada em L e pedestal
+bola((0, .95, 0), .62, '#f6f6f2', achata=.35, seg=24, esc=(1.25, 1, .85)); bola((0, 1.05, .02), .46, '#8fb8d8', achata=.22, seg=20, esc=(1.2, 1, .8))
+cil((0, .52, -.05), .24, .9, '#ecece8', raio_topo=.3); cil((0, .06, -.05), .38, .1, '#ecece8')
+tubo([(0, 1.1, -.4), (0, 1.5, -.4), (0, 1.55, -.22)], .045, '#c0c4cc'); bola((.0, 1.52, -.4), .07, '#c0c4cc')
+cil((-.18, 1.2, -.38), .05, .12, '#d83030'); cil((.18, 1.2, -.38), .05, .12, '#3060d8')
 fim()

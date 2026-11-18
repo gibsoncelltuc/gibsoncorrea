@@ -8,7 +8,7 @@
  "set": "street",
  "light": "day",
  "mood": "playful",
- "heroi": "kit/coin",
+ "heroi": "kit/bitcoin",
  "outfits": {
   "BUK": {
    "jacket": "#22252c",
@@ -52,7 +52,7 @@
    ],
    "props": [
     [
-     "kit/coin",
+     "kit/bitcoin",
      1.5,
      0.3,
      1.3
@@ -85,7 +85,7 @@
    "interior": "pedra",
    "props": [
     [
-     "kit/coin",
+     "kit/bitcoin",
      1.6,
      0.3,
      1.1
@@ -132,7 +132,7 @@
      1.2
     ],
     [
-     "kit/coin",
+     "kit/bitcoin",
      -1.6,
      0.3,
      1.0
@@ -220,7 +220,7 @@
    ],
    "props": [
     [
-     "kit/coin",
+     "kit/bitcoin",
      1.8,
      -0.4,
      1.4

@@ -26,13 +26,14 @@ def bola(c, raio, col, achata=1.0, rot=(0, 0, 0), seg=18, esc=(1, 1, 1)):   # es
     r = bmesh.ops.create_uvsphere(_S['bm'], u_segments=seg, v_segments=max(4, seg * 2 // 3), radius=raio)
     for v in r['verts']: v.co.z *= achata * esc[1]; v.co.x *= esc[0]; v.co.y *= esc[2]
     _put(r['verts'], col, c, rot)
-def torno(c, perfil, col, lados=24):                          # perfil = [(raio, altura), ...] de baixo para cima -> gira em volta do eixo (vaso, garrafa, sino, taca)
+def torno(c, perfil, col, lados=24, tampa=True):   # tampa=False deixa aberto (anel, friso, borda)                          # perfil = [(raio, altura), ...] de baixo para cima -> gira em volta do eixo (vaso, garrafa, sino, taca)
     bm = _S['bm']; aneis = []
     for rr, hh in perfil: aneis.append([bm.verts.new((max(rr, 0.001) * math.cos(2 * math.pi * i / lados), max(rr, 0.001) * math.sin(2 * math.pi * i / lados), hh)) for i in range(lados)])
     vs = [v for a in aneis for v in a]
     for a, b in zip(aneis, aneis[1:]):
         for i in range(lados): bm.faces.new((a[i], a[(i + 1) % lados], b[(i + 1) % lados], b[i]))
-    bm.faces.new(list(reversed(aneis[0]))); bm.faces.new(aneis[-1]); _put(vs, col, c)
+    if tampa: bm.faces.new(list(reversed(aneis[0]))); bm.faces.new(aneis[-1])
+    _put(vs, col, c)
 def tubo(pontos, raio, col, passo=1.0):                      # cano/alca/bico/galho: passa por uma lista de pontos (x, y, z); fica continuo
     for a, b in zip(pontos, pontos[1:]):
         d = math.dist(a, b); n = max(2, int(d / (raio * passo)))
@@ -55,6 +56,11 @@ def pano(c, larg, alt, cores, onda=0.14, nx=16):   # PANO ONDULADO continuo (ban
             for i in range(nx):
                 q = (g[0][i], g[0][i + 1], g[1][i + 1], g[1][i])
                 f = bm.faces.new(q if side > 0 else tuple(reversed(q))); f.material_index = k
+def prisma(c, pts, esp, col):   # SILHUETA 2D com espessura (raio, estrela, seta, coracao): pts = [(x, y), ...] no plano da tela, em volta; esp = grossura
+    bm = _S['bm']; fr = [bm.verts.new((x, -esp / 2, y)) for x, y in pts]; bk = [bm.verts.new((x, esp / 2, y)) for x, y in pts]; n = len(pts)
+    bm.faces.new(fr); bm.faces.new(list(reversed(bk)))
+    for i in range(n): bm.faces.new((fr[i], bk[i], bk[(i + 1) % n], fr[(i + 1) % n]))
+    _put(fr + bk, col, c)
 def fim(chanfro=0.03):
     bm = _S['bm']
     me = bpy.data.meshes.new('red_' + _S['name']); bm.to_mesh(me); bm.free()
