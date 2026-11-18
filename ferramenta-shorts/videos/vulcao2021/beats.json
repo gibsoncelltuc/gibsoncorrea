@@ -32,8 +32,8 @@
    "pants": "#2a3a5a",
    "boots": "#3a2a1a",
    "hat": "hair",
-   "hair": "#2a1a12",
-   "hairStyle": "long",
+   "hair": "#4a2a1a",
+   "hairStyle": "bun",
    "pele": "#d9a87a"
   },
   "POV": {
@@ -64,9 +64,9 @@
     ],
     [
      "kit/volcano",
-     -3.0,
-     -12.0,
-     1.6
+     -1.0,
+     -11.0,
+     2.6
     ]
    ],
    "text": "2021",
@@ -89,9 +89,9 @@
    "props": [
     [
      "kit/volcano",
-     -3.0,
-     -12.0,
-     1.6
+     -1.0,
+     -11.0,
+     2.6
     ]
    ],
    "say": "El Salvador é um país pequeno da América Central, cheio de vulcões."
@@ -140,9 +140,9 @@
    "props": [
     [
      "kit/volcano",
-     -3.0,
-     -12.0,
-     1.6
+     -1.0,
+     -11.0,
+     2.6
     ]
    ],
    "interacao": "entregar",
@@ -162,9 +162,9 @@
    "props": [
     [
      "kit/volcano",
-     -3.0,
-     -12.0,
-     1.6
+     -1.0,
+     -11.0,
+     2.6
     ]
    ],
    "fx": [
@@ -246,9 +246,9 @@
    "props": [
     [
      "kit/volcano",
-     -3.0,
-     -12.0,
-     1.6
+     -1.0,
+     -11.0,
+     2.6
     ]
    ],
    "fx": [
@@ -300,9 +300,9 @@
    "props": [
     [
      "kit/volcano",
-     -3.0,
-     -12.0,
-     1.6
+     -1.0,
+     -11.0,
+     2.6
     ]
    ],
    "fx": [

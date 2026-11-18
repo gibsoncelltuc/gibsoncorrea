@@ -62,7 +62,7 @@
      "kit/boardgame",
      0,
      -1.6,
-     1.1
+     1.54
     ]
    ],
    "text": "1989",
@@ -97,7 +97,7 @@
      "kit/boardgame",
      1.6,
      -0.8,
-     1.1
+     1.54
     ]
    ],
    "say": "Uma grande fábrica de brinquedos fez o jogo: comprar e vender prédios, cassinos e hotéis, até ficar o mais rico.",
@@ -119,7 +119,7 @@
      "kit/boardgame",
      1.6,
      -0.8,
-     1.1
+     1.54
     ]
    ],
    "fx": [
@@ -145,7 +145,7 @@
      "kit/boardgame",
      1.6,
      -0.8,
-     1.1
+     1.54
     ]
    ],
    "acao": "discutir",
@@ -163,7 +163,7 @@
      "kit/boardgame",
      1.6,
      -0.8,
-     1.1
+     1.54
     ]
    ],
    "interacao": "empurrar",
@@ -222,7 +222,7 @@
      "kit/boardgame",
      1.6,
      -1.0,
-     1.0
+     1.4
     ]
    ],
    "interacao": "entregar",
@@ -244,7 +244,7 @@
      "kit/boardgame",
      1.6,
      -0.8,
-     1.1
+     1.54
     ]
    ],
    "fx": [
@@ -278,7 +278,7 @@
      "kit/boardgame",
      0,
      -3.0,
-     1.4
+     1.96
     ]
    ],
    "fx": [
@@ -303,7 +303,7 @@
      "kit/boardgame",
      -1.4,
      -0.8,
-     1.0
+     1.4
     ]
    ],
    "acao": "comemorar",
