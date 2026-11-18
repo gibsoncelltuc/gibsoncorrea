@@ -37,6 +37,10 @@ Tudo que a narração cita tem que aparecer na tela, na mesma cena: se diz "faze
 | tiro, atirou, disparou (com soldado de fuzil em cena) | clarão e fumaça saindo do CANO da arma de quem atira, com som | automático; nunca estrela de explosão solta no meio da cena |
 | correu, fugiu, perseguiu (cena de `"shot": "track"`) | personagens CORRENDO (passo rápido, corpo inclinado) | automático |
 | cartório, prefeitura, tribunal, banco, consulado | o prédio ao fundo | automático |
+| navio chegou / desembarcaram / aportou / zarpou / partiu | navio e barco ANDANDO na água (chegando ao cais ou indo embora) | automático em cena de cais (`"set": "harbor"`) |
+| dirigiu, foi de carro/caminhão/carroça, pilotou, pedalou | o veículo atravessa a tela com o 1º personagem do `who` ao volante | automático (`"veiculo"`) |
+| vento, ventania, vendaval | vento forte e folhas voando | automático (`"clima": "vento"`) |
+| bandeira | mastro com bandeira ondulada (vermelha e branca) ou bandeira na mão listrada | automático |
 | navio, porto, marinha | cais com navios | automático (`"set": "harbor"`) |
 | rei, rainha, imperador, sultão | alguém de coroa | figurino com `"profissao": "rei"` |
 | general, almirante, coronel, capitão | alguém de farda de oficial | `"profissao": "general"` |

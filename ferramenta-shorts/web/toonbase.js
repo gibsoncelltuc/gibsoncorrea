@@ -1510,15 +1510,13 @@ export const bodyFront = (p, o, opts)=>{
         if (o.hold && a === (arms.find((q)=>q.front) || arms[arms.length - 1])) drawHeld(a.pts[2][0], a.pts[2][1]);
         p.dot(a.pts[2][0], a.pts[2][1], 5.5 * u);
     };
-    if (rifle) {
-        p.band([
-            R0,
-            R1
-        ], "#7a4b2a", 5 * u, 1.5 * u, "round");
-        p.band([
-            lerp2(R0, R1, 0.6),
-            R1
-        ], "#8d949c", 2.4 * u, 1.2 * u, "round");
+    if (rifle) {   /* FUZIL de verdade: coronha larga, corpo de madeira com gatilho, cano de metal com bandoleira */
+        const dx = R1[0] - R0[0], dy = R1[1] - R0[1], L = Math.hypot(dx, dy) || 1, nx = -dy / L, ny = dx / L, at = (t) => lerp2(R0, R1, t), off = (q, k) => [q[0] + nx * k, q[1] + ny * k];
+        p.poly([off(at(0), 6.5 * u), off(at(0), -4 * u), off(at(0.3), -2.4 * u), off(at(0.3), 2.6 * u)], "#6a3f22", 1.5 * u);   /* coronha */
+        p.band([at(0.28), at(0.62)], "#8a5532", 4.2 * u, 1.4 * u, "round");                                                       /* corpo */
+        p.poly([off(at(0.36), -2 * u), off(at(0.42), -6.5 * u), off(at(0.46), -2 * u)], "#3a3d47", 1 * u);                         /* gatilho */
+        p.band([at(0.55), R1], "#8d949c", 2.4 * u, 1.2 * u, "round");                                                             /* cano */
+        p.band([at(0.97), at(1.0)], "#3a3d47", 3.2 * u, 0.8 * u, "round");                                                        /* boca do cano */
     }
     if (o.sword && mode !== "sit") {
         const s0 = [

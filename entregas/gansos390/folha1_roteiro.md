@@ -59,9 +59,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 ## Cena b6  (~7.2 s)
 - Narracao: Um soldado chamado Mânlio pulou da cama, e empurrou o primeiro invasor muralha abaixo. O gaulês caiu, levando os outros junto.
 - Som ambiente: birds
-- Efeitos sonoros marcados: -
+- Efeitos sonoros marcados: thump@66, whoosh@60
 - Efeito + som nas palavras-chave: caiu -> dust + som de impacto
-- Efeito visual marcado: -
+- Efeito visual marcado: dust@70, puff@80
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 

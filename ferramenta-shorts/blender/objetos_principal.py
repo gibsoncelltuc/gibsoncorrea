@@ -47,3 +47,7 @@ for x, z, s, c in ((0, 0, 1.0, '#f08a2a'), (-.45, .1, .75, '#e2532f'), (.5, -.05
     torno((x, 0, z), [(.05 * s, 0), (.5 * s, .25 * s), (.55 * s, .7 * s), (.36 * s, 1.3 * s), (.14 * s, 1.9 * s), (.02 * s, 2.3 * s)], c, 12)
 for i in range(7): a = i * .9; bola((.8 * math.cos(a), .12, .6 * math.sin(a)), .14, '#3a2a22', .6, seg=8)
 fim(0)
+novo('flag_pole')                                              # MASTRO COM BANDEIRA: mastro redondo, ponteira dourada e pano ondulado continuo de duas cores
+cil((0, 2.6, 0), .06, 5.2, '#7a4a26', .045); bola((0, 5.28, 0), .12, '#f2c230'); cil((0, .06, 0), .3, .12, '#6a6a66')
+pano((.05, 5.05, 0), 2.0, 1.2, ['#c0262d', '#f4f1e8', '#c0262d'])
+fim(0)
