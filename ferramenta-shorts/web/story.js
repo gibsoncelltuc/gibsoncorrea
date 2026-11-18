@@ -41,7 +41,6 @@ const SPEC = {
     S('b7', A[7], A[8] - 1, X, "golden", { h: 2.3, d0: 9.492, d1: 8.362, hero: { hero: 'any', frame: 'medium', minH: 0.07, main: 3 }, trans: 'dissolve', actors: [pp(X, "MUS", 0, -2.1, 1.3, "laugh", { pose: 'talk', inter: { k: 'step', a: Math.round(A[7] + (A[8] - 1 - (A[7])) * 0.12), b: Math.round(A[7] + (A[8] - 1 - (A[7])) * 0.82), dir: 1, n: 2, ph: 0 } }), pp(X, "FUN", 0, 0.0, 1.0, "grin", { pose: 'talk', inter: { k: 'nod', a: Math.round(A[7] + (A[8] - 1 - (A[7])) * 0.2), b: Math.round(A[7] + (A[8] - 1 - (A[7])) * 0.9), dir: -1, n: 2, ph: 3.14 } }), pp(X, "FUN2", 0, 2.1, 1.6, "smile", { pose: 'talk' })], props: [{ asset: "buildings/house_two", at: [X + 4.5, -9.5], s: 1.25, ry: -0.35, drop: false }, { asset: "kit/sink", at: [X + 1.8, -0.3], s: 1.3, drop: false }] })
   ],
 };
-SPEC.fit = {"b0_v":1.12,"b0_v~1":1.12,"b4":1.12,"b5~1":1.572,"b6":1.12};
 // ===== STORY RUNTIME (generic): turns a declarative SPEC (stories/<id>.spec.js, concatenated before this file) into the story.js interface the engine expects =====
 import { camFromKeys, clamp, lerp, ramp, q, blinkAt, idle, M } from './motion.js';
 export const FPS = 30, TOTAL = SPEC.total, DECK = 6;
