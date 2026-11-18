@@ -5,7 +5,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import gerar_pacote as g
 
 num, seed, out = int(sys.argv[1]), int(sys.argv[2]), sys.argv[3]
-ep = next(e for e in g.EPISODES if e["num"] == num)
+ep = next(e for e in g.todos() if e["num"] == num)
 sh = ep["shots"]
 tag = {0: "Chorus", 1: "Verse 1", 2: "Verse 2", 3: "Chorus", 4: "Bridge", 5: "Final Chorus"}
 lyrics = "\n\n".join(f"[{tag[i]}]\n{s['l1']}\n{s['l2']}" for i, s in enumerate(sh))

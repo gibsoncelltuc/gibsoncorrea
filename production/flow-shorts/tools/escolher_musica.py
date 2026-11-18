@@ -11,7 +11,7 @@ def norm(s):
     s = unicodedata.normalize("NFD", s.lower()); s = "".join(c for c in s if unicodedata.category(c) != "Mn")
     return re.findall(r"[a-z]+", s)
 
-ep = next(e for e in g.EPISODES if e["num"] == int(sys.argv[1]))
+ep = next(e for e in g.todos() if e["num"] == int(sys.argv[1]))
 intended = " ".join(f"{s['l1']} {s['l2']}" for s in ep["shots"])
 m = WhisperModel("small", device="cpu", compute_type="int8")
 rows = []

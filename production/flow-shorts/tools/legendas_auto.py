@@ -27,11 +27,11 @@ def norm(s):
 
 
 def main(num, mp3, cfg_path):
-    ep = next(e for e in g.EPISODES if e["num"] == num)
+    ep = next(e for e in g.todos() if e["num"] == num)
     lines_pt, lines_en = [], []
     for i, s in enumerate(ep["shots"]):
         lines_pt += [s["l1"], s["l2"]]
-        lines_en += list(EN[num][i])
+        lines_en += [s["e1"], s["e2"]] if "e1" in s else list(EN[num][i])
     y, _ = librosa.load(mp3, sr=16000)
     m = WhisperModel("small", device="cpu", compute_type="int8")
     segs, _ = m.transcribe(y, language="pt", word_timestamps=True, condition_on_previous_text=False)
@@ -63,8 +63,10 @@ def main(num, mp3, cfg_path):
     for i in range(len(caps) - 1):
         if caps[i]["end"] > caps[i + 1]["start"] - 0.03:
             caps[i]["end"] = round(caps[i + 1]["start"] - 0.03, 2)
-    if num in FINAL:
-        caps.append({"text": FINAL[num], "start": 56.0, "end": 59.2, "size": 72})
+    final = ep.get("final_en") or FINAL.get(num)
+    if final:
+        caps[-1]["end"] = min(caps[-1]["end"], 55.95)
+        caps.append({"text": final, "start": 56.1, "end": 59.3, "size": 72})
     cfg = json.load(open(cfg_path))
     cfg["captions"] = caps
     json.dump(cfg, open(cfg_path, "w"), ensure_ascii=False, indent=1)

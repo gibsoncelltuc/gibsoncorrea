@@ -475,6 +475,16 @@ for ep in EPISODES:
                                  "asking for a grown-up's help, Tico gives a thumbs-up")
 
 
+try:
+    from episodios_novos import NOVOS
+except ImportError:  # sem os episódios novos
+    NOVOS = []
+
+
+def todos():
+    return EPISODES + NOVOS
+
+
 def lock_for(chars):
     d = "; ".join(SHORT[c] for c in chars)
     l = "; ".join(CAST[c][1] for c in chars)
