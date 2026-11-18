@@ -27,7 +27,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: puff@50
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b3  (~4.8 s)
 - Narracao: Ela mandou uma frota de navios de guerra e exigiu o dinheiro de volta.
@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b5  (~5.9 s)
 - Narracao: Acontece que os ingleses tomaram as ilhas pouco depois, e ninguém se lembrou de fazer a paz.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
