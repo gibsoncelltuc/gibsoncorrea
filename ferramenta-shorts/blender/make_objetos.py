@@ -152,3 +152,26 @@ def _petri(bm, mats):   # prato de Petri: disco de agar claro, mancha verde de b
     for v in r['verts']: v.co.z = (v.co.z - 0.03) * 0.08 + 0.03
     for f in {f for v in r['verts'] for f in v.link_faces}: f.material_index = 3
 sphere('petri', 0.60, 0.0, '#e7a9a0', _petri)
+box, done = start('microwave')     # forno de micro-ondas: corpo branco, porta de vidro escuro, painel com botoes
+box((0, 0.5, 0), (1.5, 1.0, 1.0), '#e9e9e4'); box((-0.18, 0.52, 0.51), (0.95, 0.72, 0.04), '#23262c'); box((-0.18, 0.52, 0.53), (1.0, 0.78, 0.02), '#b8b8b2')
+box((0.58, 0.5, 0.51), (0.3, 0.8, 0.04), '#c4c4be')
+for k in range(4): box((0.58, 0.22 + k * 0.17, 0.54), (0.16, 0.08, 0.04), '#3a3d44')
+box((0.58, 0.84, 0.54), (0.2, 0.1, 0.04), '#47c06a')
+for x in (-0.6, 0.6): box((x, 0.02, -0.38), (0.12, 0.04, 0.12), '#2a2d33'); box((x, 0.02, 0.38), (0.12, 0.04, 0.12), '#2a2d33')
+done()
+box, done = start('chocolate')     # barra de chocolate com quadradinhos e papel dourado numa ponta
+box((0, 0.05, 0), (1.1, 0.1, 0.45), '#4a2c18')
+for i in range(6):
+    for z in (-0.1, 0.1): box((-0.4 + i * 0.16, 0.12, z), (0.13, 0.05, 0.16), '#6a4226')
+box((0.62, 0.07, 0), (0.3, 0.14, 0.5), '#d9b040')
+done()
+def _egg(bm, mats):   # ovo: elipsoide cor de creme
+    for v in bm.verts: v.co.z = (v.co.z - 0.3) * 1.3 + 0.38
+sphere('egg', 0.3, 0.3, '#f2e7d0', _egg)
+box, done = start('popcorn')       # monte de pipocas
+import random
+random.seed(4)
+for i in range(14):
+    a = random.random() * 6.28; r = random.random() * 0.35; s = 0.15 + random.random() * 0.1
+    box((r * math.cos(a), 0.1 + random.random() * 0.15, r * math.sin(a)), (s, s, s), '#fbf3d0' if i % 3 else '#efd98a', 0.8)
+done()

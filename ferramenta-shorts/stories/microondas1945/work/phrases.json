@@ -1,0 +1,225 @@
+{
+ "duration": 55.632,
+ "frames30": 1669,
+ "source": "silence-align (cost 0.53)",
+ "segments": [
+  [
+   0.156875,
+   3.91621
+  ],
+  [
+   4.77787,
+   7.02008
+  ],
+  [
+   7.29104,
+   8.3275
+  ],
+  [
+   8.57812,
+   11.741
+  ],
+  [
+   12.6022,
+   14.5629
+  ],
+  [
+   14.8414,
+   16.8877
+  ],
+  [
+   17.7262,
+   18.1906
+  ],
+  [
+   18.404,
+   21.3842
+  ],
+  [
+   22.262,
+   22.996
+  ],
+  [
+   23.2769,
+   24.7609
+  ],
+  [
+   25.0391,
+   26.2941
+  ],
+  [
+   27.1686,
+   30.5187
+  ],
+  [
+   31.383,
+   33.4621
+  ],
+  [
+   33.6472,
+   35.8143
+  ],
+  [
+   36.6793,
+   37.8037
+  ],
+  [
+   38.0516,
+   40.086
+  ],
+  [
+   40.9166,
+   41.9558
+  ],
+  [
+   42.1898,
+   43.2653
+  ],
+  [
+   43.4647,
+   46.186
+  ],
+  [
+   47.0401,
+   48.6464
+  ],
+  [
+   48.8544,
+   50.8149
+  ],
+  [
+   51.6667,
+   52.0564
+  ],
+  [
+   52.3089,
+   53.3031
+  ],
+  [
+   53.5658,
+   54.829
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Uma barra de chocolate derretida no bolso inventou o forno de micro-ondas.",
+   "s": 0.157,
+   "e": 3.916
+  },
+  {
+   "text": "Era por volta de mil novecentos e quarenta e cinco,",
+   "s": 4.778,
+   "e": 7.02
+  },
+  {
+   "text": "nos Estados Unidos,",
+   "s": 7.291,
+   "e": 8.328
+  },
+  {
+   "text": "e o engenheiro Percy Spencer trabalhava numa f\u00e1brica de radares.",
+   "s": 8.578,
+   "e": 11.741
+  },
+  {
+   "text": "Esses radares tinham uma pe\u00e7a potente,",
+   "s": 12.602,
+   "e": 14.563
+  },
+  {
+   "text": "que mandava ondas invis\u00edveis o dia inteiro.",
+   "s": 14.841,
+   "e": 16.888
+  },
+  {
+   "text": "Um dia,",
+   "s": 17.726,
+   "e": 18.191
+  },
+  {
+   "text": "ele chegou perto dessa pe\u00e7a com uma barra de chocolate no bolso.",
+   "s": 18.404,
+   "e": 21.384
+  },
+  {
+   "text": "Pouco depois,",
+   "s": 22.262,
+   "e": 22.996
+  },
+  {
+   "text": "sentiu o bolso quente e disse:",
+   "s": 23.277,
+   "e": 24.761
+  },
+  {
+   "text": "\"O meu chocolate derreteu!\"",
+   "s": 25.039,
+   "e": 26.294
+  },
+  {
+   "text": "Spencer ficou curioso e perguntou o que mais aquelas ondas fariam.",
+   "s": 27.169,
+   "e": 30.519
+  },
+  {
+   "text": "Acontece que ele testou milho de pipoca,",
+   "s": 31.383,
+   "e": 33.462
+  },
+  {
+   "text": "e os gr\u00e3os come\u00e7aram a estourar pela sala.",
+   "s": 33.647,
+   "e": 35.814
+  },
+  {
+   "text": "Depois testou um ovo,",
+   "s": 36.679,
+   "e": 37.804
+  },
+  {
+   "text": "e o ovo explodiu bem na cara de um colega.",
+   "s": 38.052,
+   "e": 40.086
+  },
+  {
+   "text": "Dois anos depois,",
+   "s": 40.917,
+   "e": 41.956
+  },
+  {
+   "text": "saiu o primeiro forno,",
+   "s": 42.19,
+   "e": 43.265
+  },
+  {
+   "text": "mais alto que uma pessoa e com mais de trezentos quilos.",
+   "s": 43.465,
+   "e": 46.186
+  },
+  {
+   "text": "Hoje ele cabe em qualquer cozinha,",
+   "s": 47.04,
+   "e": 48.646
+  },
+  {
+   "text": "e esquenta a sobra do jantar em um minuto.",
+   "s": 48.854,
+   "e": 50.815
+  },
+  {
+   "text": "No fim,",
+   "s": 51.667,
+   "e": 52.056
+  },
+  {
+   "text": "o chocolate perdeu,",
+   "s": 52.309,
+   "e": 53.303
+  },
+  {
+   "text": "mas a pipoca agradece.",
+   "s": 53.566,
+   "e": 54.829
+  }
+ ]
+}

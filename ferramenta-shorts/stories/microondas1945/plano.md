@@ -1,0 +1,18 @@
+# Plano de acao - Curiosidade e Ciência EP 05 - O Micro-ondas e o Chocolate
+
+Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
+---|---|---|---|---|---
+b0 | two | -  | - | - | -
+b1 | reveal | -  | tropa, mapa | - | -
+b2 | two | -  | interior | - | -
+b3 | two | -  | interior | chegou (dust + som de impacto) | -
+b4 | two | -  | interior | - | -
+b5 | close | -  | - | - | -
+b6 | orbit | -  | batalha aberta com tiros, tropa | - | -
+b7 | two | -  | interior | explodiu (burst + som de tiro/explosao) | -
+b8 | group | -  | - | - | -
+b9 | group | -  | batalha aberta com tiros, tropa, placa: 1 MINUTO | - | -
+b10 | close | -  | - | perdeu (puff + som de baque) | -
+
+Mistura de planos: close 15% | medio 67% | aberto 12% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 2 | dentro do padrao do canal
