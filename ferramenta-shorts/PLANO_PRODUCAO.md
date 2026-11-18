@@ -4,18 +4,18 @@ Regra: cada sessão trabalha no SEU branch e só nos ids da sua lista. Antes de 
 
 ## Sessão principal (branch claude/bold-sagan-dskrsj)
 Refazer com a ferramenta atual e as duas folhas (`./refazer_tudo.sh <id>` depois de zerar os riscos da folha 2):
-- [ ] EP 06 porco1859 (em render) · [ ] EP 04 balde1325 · [ ] EP 07 bolos1838 · [ ] EP 01 karansebes · [ ] EP 03 toledo1835 · [ ] EP 08 zanzibar1896 (na fila)
+- [x] EP 06 porco1859 · [ ] EP 04 balde1325 · [ ] EP 07 bolos1838 · [ ] EP 01 karansebes · [ ] EP 03 toledo1835 · [ ] EP 08 zanzibar1896 (na fila)
 - [ ] EP 02 emus1932 — folha 2 acusa 6 riscos (emu fora de cena em b3/b9, "montou", sem mapa, herói errado: ponha `"heroi": null` ou modele; corrigir o beats.json)
 - [ ] EP 05 gansos390 — 7 riscos (cachorro sem modelo: modelar ou tirar; "dormiam/escalaram"; sem herói: use o ganso/galinha; 2 palavras sem efeito)
 Depois: Curiosidade e Ciência CC 11–20.
 
 ## Sessão A (branch claude/prod-a-karansebes) — Guerras Inusitadas
-- [ ] EP 09 futebol1969 (roteiro pronto)
+- [x] EP 09 futebol1969
 - [ ] EP 11 A Guerra da Lagosta (Brasil × França, 1961) · [ ] EP 12 A Guerra da Orelha de Jenkins (1739) · [ ] EP 13 A Guerra do Banquinho Dourado (1900) · [ ] EP 14 A Guerra de 335 Anos (ilhas Scilly) · [ ] EP 15 A Guerra do Bacalhau (Islândia × Reino Unido)
 - [ ] EP 16 A Guerra da Melancia (Panamá, 1856) · [ ] EP 17 A Guerra do Uísque (ilha Hans, Canadá × Dinamarca; cenário `arctic`) · [ ] EP 18 A Guerra do Cão Fugitivo (Grécia × Bulgária, 1925) · [ ] EP 19 A Guerra de Aroostook (lenhadores, 1838) · [ ] EP 20 A Batalha de Los Angeles (1942, atiraram no nada)
 
 ## Sessão B (branch claude/prod-b-emus) — Curiosidade e Ciência (`"serie": "Curiosidade e Ciência", "ep": N`)
-- [ ] EP 10 chaleira1784 (Guerras; roteiro pronto)
+- [x] EP 10 chaleira1784
 - [ ] CC 01 Newton e a maçã · [ ] CC 02 Arquimedes e o "Eureca" na banheira · [ ] CC 03 Galileu e a torre de Pisa · [ ] CC 04 Fleming e o mofo que virou penicilina · [ ] CC 05 O micro-ondas e o chocolate derretido
 - [ ] CC 06 Pasteur e a vacina da raiva · [ ] CC 07 Franklin, a pipa e o raio · [ ] CC 08 Darwin e os tentilhões · [ ] CC 09 Mendel e as ervilhas · [ ] CC 10 Eratóstenes mede a Terra com uma sombra
 
@@ -28,3 +28,7 @@ CC 11 Röntgen e o raio X da mão · CC 12 Tycho Brahe e o nariz de metal · CC 
 - Série de ciência: sem batalha. Os 2 grandes momentos são a descoberta/virada em plano aberto com gente reagindo (`"impact": true` + `crowd`), com efeito e som. Objeto herói = o objeto da descoberta (maçã, banheira, pipa...): quase todos precisam ser MODELADOS antes (passo 4 do `OPERACAO.md`), e depois `python3 capacidades.py`.
 - Seguir o roteiro à risca: cada coisa citada tem que aparecer (linha CONFERIR da folha 2).
 - Animal sem modelo (cachorro, cavalo, abelha, pássaro pousado...): modelar no estilo de `web/animals2d.js` ou contar a cena sem depender dele.
+
+## Série 3 — "Poder e Fama" (Trump, Bukele, Elon Musk) — 20 vídeos, DEPOIS das listas acima
+Ler `FIGURINOS_FAMOSOS.md` (figurinos prontos e REGRAS obrigatórias: só fato real conferido, sem fala inventada, tom de curiosidade). `"serie": "Poder e Fama", "ep": N`.
+- Sessão A: PF 01–07 · Sessão B: PF 08–14 · Sessão principal: PF 15–20. Cada sessão escolhe os temas da lista de ideias do `FIGURINOS_FAMOSOS.md` (ou outros fatos conferidos), sem repetir: anote aqui o tema escolhido antes de começar.

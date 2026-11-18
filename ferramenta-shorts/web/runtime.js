@@ -89,7 +89,7 @@ export const OUT = Object.assign({
   CIV: (v = 0, e = {}) => ({ _id: 'civ', jacket: ['#3f6fb5', '#8c3b4a', '#5d7a3a', '#b5653f', '#2f5f6a', '#7b5ac9'][v % 6], pants: '#3b3f52', boots: '#4a3426', skin: SK[v % 4], ...(v % 2 ? { hat: 'bonnet', dress: ['#d9a441', '#c25a7a', '#5a8fc2'][v % 3] } : { hat: 'tophat' }), ...e }),
   ARTIST: (v = 0, e = {}) => ({ _id: 'artist', jacket: ['#d9a441', '#b5653f', '#7b5ac9', '#5a8fc2'][v % 4], pants: '#3b3f52', boots: '#4a3426', hat: 'cap', cap: ['#8a3a3a', '#2f5f6a', '#d9a441'][v % 3], skin: SK[v % 4], ...(v % 2 ? { moustache: '#4a3020' } : {}), ...e }),
 }, SPEC.outfits || {});
-const B = (T, o0, opts, pos, extra = {}) => { const o = { ...o0, ...(o0.build === undefined && !SPEC.noLanky ? { build: 'lanky' } : {}), ...(SPEC.keepSkin ? {} : { skin: '#f6f0e6' }) }; return B2(T, o, opts, pos, extra); };
+const B = (T, o0, opts, pos, extra = {}) => { const o = { ...o0, ...(o0.build === undefined && !SPEC.noLanky ? { build: 'lanky' } : {}), ...(SPEC.keepSkin ? {} : { skin: o0.pele || '#f6f0e6' }) }; return B2(T, o, opts, pos, extra); };
 const B2 = (T, o, opts, pos, extra = {}) => ({ id: extra.id || o._id || 'person', key: (extra.sideWalk ? 'bs' : 'b') + JSON.stringify([o, opts]), draw: (p) => (extra.sideWalk ? T.bodySide(p, o, { blink: false, ...opts, mode: 'march', ...(opts.mode === 'stroll' ? { stride: 0.72, stomp: 0.8 } : {}) }) : T.bodyFront(p, o, { blink: false, ...opts })), x: pos[0], y: pos[1] ?? DECK, z: pos[2], ...extra });
 const qq = (x, n = 2) => Math.round(x * 10 ** n) / 10 ** n;
 /* INTERACAO FISICA entre personagens: avancar, recuar, inclinar-se, empurrar, cambalear, dar um passo, pular, reverencia (a.inter = { k, a, b, dir, n, ph }) */

@@ -1596,6 +1596,7 @@ export const bodyFront = (p, o, opts)=>{
                     ]
                 ], "#d9dde0", 1.5 * u);
             }
+            if (o.tie) { p.poly([[tcx - 0.2 * T.a, chin + 0.04 * HH], [tcx + 0.2 * T.a, chin + 0.04 * HH], [tcx + 0.3 * T.a, torsoBot - 0.3 * HH], [tcx, torsoBot - 0.16 * HH], [tcx - 0.3 * T.a, torsoBot - 0.3 * HH]], o.tie, 1.6 * u); p.poly([[tcx - 0.42 * T.a, chin], [tcx, chin + 0.16 * HH], [tcx + 0.42 * T.a, chin]], '#f4f1e8', 1.4 * u); }   /* gravata comprida + colarinho */
             if (o.sash) p.band([
                 [
                     tcx - 1.3 * T.a,

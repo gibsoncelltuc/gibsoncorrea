@@ -4,7 +4,9 @@
 set -e; cd "$(dirname "$0")/stories/$1"; VOICE="${2:-en-US-GuyNeural}"; RATE="${3:-+8%}"
 tr '\n' ' ' < script.txt | sed 's/  */ /g' > script_one.txt
 rm -f voice.mp3.part VOICE_PLACEHOLDER
-if timeout 120 edge-tts ${HTTPS_PROXY:+--proxy "$HTTPS_PROXY"} --voice "$VOICE" --rate="$RATE" --file script_one.txt --write-media voice.mp3.part 2>/dev/null && [ -s voice.mp3.part ]; then
+TTS() { timeout 120 edge-tts ${HTTPS_PROXY:+--proxy "$HTTPS_PROXY"} --voice "$VOICE" --rate="$RATE" --file script_one.txt --write-media voice.mp3.part 2>/dev/null && [ -s voice.mp3.part ]; }
+# 3 tentativas; na 2a em diante usa a CA do proxy da nuvem (em algumas maquinas o edge-tts falha por certificado e caia calado na voz de teste)
+if TTS || { sleep 3; [ -f /root/.ccr/ca-bundle.crt ] && export SSL_CERT_FILE=/root/.ccr/ca-bundle.crt REQUESTS_CA_BUNDLE=/root/.ccr/ca-bundle.crt; TTS; } || { sleep 8; TTS; }; then
   :
 else
   echo "AVISO: edge-tts indisponivel; usando espeak-ng (VOZ DE TESTE)"; touch VOICE_PLACEHOLDER

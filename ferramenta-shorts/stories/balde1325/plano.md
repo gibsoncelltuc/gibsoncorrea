@@ -13,5 +13,5 @@ b7 | crowd | -  | batalha aberta com tiros, tropa | atacaram (ring + som de aler
 b8 | two | -  | objeto na mao | - | -
 b9 | close | -  | placa: 700 ANOS, objeto na mao | - | -
 
-Mistura de planos: close 19% | medio 48% | aberto 25% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 19% | medio 52% | aberto 25% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | dentro do padrao do canal

@@ -5,6 +5,7 @@
 # termina os em curso, codifica os trechos completos, EMPURRA o checkpoint para o git e pausa. Se a sessao reiniciar: o hook de boot (boot.sh) relanca esta fila e ela continua.
 # Se NAO reiniciar em GRACE_MIN minutos, a fila segue sozinha com novo prazo. SESSION_GUARD=0 desliga a trava.
 cd "$(dirname "$0")"; mkdir -p logs
+exec 9>/tmp/run_queue.lock; flock -n 9 || { echo "$(date +%T) ja existe uma fila rodando: nao lanco outra"; exit 0; }   # uma fila so (duas juntas geram SKIP falso)
 LOCK=logs/queue.lock
 LP=$(cat $LOCK 2>/dev/null); if [ -n "$LP" ] && kill -0 "$LP" 2>/dev/null && tr "\0" " " < /proc/$LP/cmdline 2>/dev/null | grep -q run_queue; then echo "fila ja rodando (pid $(cat $LOCK))"; exit 0; fi
 echo $$ > $LOCK; trap 'rm -f $LOCK' EXIT

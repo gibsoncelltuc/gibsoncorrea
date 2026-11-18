@@ -76,7 +76,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 
 ## Cena b8  (~5.9 s)
 - Narracao: Módena perseguiu os inimigos até os portões de Bolonha, e ainda zombou deles do lado de fora.
-- Som ambiente: sea
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -

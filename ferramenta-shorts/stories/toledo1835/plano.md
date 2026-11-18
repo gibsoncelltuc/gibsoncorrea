@@ -13,5 +13,5 @@ b7 | group | -  | - | - | -
 b8 | crowd | - neve | batalha aberta com tiros, tropa, objeto na mao | fortuna (stars + som de sino) | -
 b9 | close | dia limpo | objeto na mao | perdeu (puff + som de baque) | -
 
-Mistura de planos: close 19% | medio 59% | aberto 15% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 19% | medio 64% | aberto 15% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal
