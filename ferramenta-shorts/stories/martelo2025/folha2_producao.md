@@ -24,8 +24,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - A principal, Fordow, fica a quase noventa metros de profundidade, dent...
 - Cenario: mountain | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): GEN (variante 0, expressao worried, segura paper); TRU (variante 0, expressao suspicious)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/mountain_bunker
@@ -74,8 +74,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Acontece que, de madrugada, os aviões soltaram catorze bombas. Doze de...
 - Cenario: mountain | luz: noite | clima: limpo
-- Camera: low = camera baixa, dramatica (virada)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
+- Camera: low = camera baixa, dramatica (virada) + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): PIL (variante 0, expressao stern)
 - Animacao: conversar
 - Objetos/modelos: kit/b2_air, kit/mountain_bunker, kit/bunker_bomb
@@ -123,7 +123,7 @@ kit/mountain_bunker | b1, b2, b7, b9 | pronto | conferir na folha de contato se 
 
 
 ## Video inteiro
-- Objeto heroi: kit/bunker_bomb | grandes momentos: b5, b9 | planos abertos: 3 | mistura: close 32% | medio 48% | aberto 12% | detalhe 8%
+- Objeto heroi: kit/bunker_bomb | grandes momentos: b5, b9 | planos abertos: 3 | mistura: close 29% | medio 50% | aberto 12% | detalhe 9%
 - Interacoes: b0 o outro se aproxima, b2 discutir, b4 entregar, b6 cochichar, b8 insiste
 - RISCOS GERAIS: nenhum
 

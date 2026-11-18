@@ -16,7 +16,7 @@ b8 | harbor | orbit | 23 | comemorar, batalha | kit/falcon9_land | - | -
 b9 | harbor | two | 2 | conversar, INTERAGEM: abracar | kit/rocket | - | -
 b10 | harbor | close | 1 | comemorar | kit/falcon9_land, kit/rocket | - | -
 
-OBJETO HEROI: kit/falcon9_land - aparece em 5 cena(s), close nele em 1
+OBJETO HEROI: kit/falcon9_land - aparece em 5 cena(s), close nele em 0  << AVISO: sem close no objeto heroi
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b5, b8
 Interacoes entre personagens: b0 o outro se aproxima, b2 discutir, b3 susto, b4 entregar, b7 insiste, b9 abracar
 

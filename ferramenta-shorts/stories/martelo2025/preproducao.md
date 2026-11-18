@@ -16,7 +16,7 @@ b8 | interior loja | two | 2 | conversar, INTERAGEM: insiste | kit/b2_air | pape
 b9 | mountain | orbit | 21 | discutir, batalha | kit/mountain_bunker | - | -
 b10 | mountain | close | 1 | conversar | kit/bunker_bomb, kit/b2_air | - | -
 
-OBJETO HEROI: kit/bunker_bomb - aparece em 4 cena(s), close nele em 2
+OBJETO HEROI: kit/bunker_bomb - aparece em 4 cena(s), close nele em 3
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b5, b9
 Interacoes entre personagens: b0 o outro se aproxima, b2 discutir, b4 entregar, b6 cochichar, b8 insiste
 

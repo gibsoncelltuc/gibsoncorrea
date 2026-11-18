@@ -68,7 +68,8 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Durante sessenta anos, todo foguete era jogado fora depois de um voo. Até que um deles voltou e pousou de ré."
+   "say": "Durante sessenta anos, todo foguete era jogado fora depois de um voo. Até que um deles voltou e pousou de ré.",
+   "detalhe": false
   },
   {
    "shot": "reveal",
@@ -95,7 +96,8 @@
      -8.0,
      1.1
     ]
-   ]
+   ],
+   "detalhe": false
   },
   {
    "shot": "two",
@@ -119,7 +121,8 @@
      -9.0,
      1.0
     ]
-   ]
+   ],
+   "detalhe": false
   },
   {
    "shot": "two",
@@ -185,7 +188,8 @@
    "sfx": [
     "sting@20"
    ],
-   "say": "Acontece que ela desceu de ré, de pé, com o motor aceso freando a queda."
+   "say": "Acontece que ela desceu de ré, de pé, com o motor aceso freando a queda.",
+   "detalhe": false
   },
   {
    "shot": "two",
@@ -210,7 +214,8 @@
     "ding@30",
     "thump@50"
    ],
-   "say": "E pousou certinho no meio da plataforma, abrindo as pernas no último segundo."
+   "say": "E pousou certinho no meio da plataforma, abrindo as pernas no último segundo.",
+   "detalhe": false
   },
   {
    "shot": "crowd",

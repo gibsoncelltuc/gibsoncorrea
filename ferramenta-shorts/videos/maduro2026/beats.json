@@ -174,7 +174,8 @@
     "sting@20",
     "thump@40"
    ],
-   "say": "Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do país."
+   "say": "Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do país.",
+   "detalhe": false
   },
   {
    "shot": "two",

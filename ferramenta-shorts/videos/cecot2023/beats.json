@@ -63,7 +63,8 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "El Salvador construiu uma prisão tão grande que virou notícia no mundo inteiro."
+   "say": "El Salvador construiu uma prisão tão grande que virou notícia no mundo inteiro.",
+   "detalhe": false
   },
   {
    "shot": "reveal",
@@ -157,7 +158,8 @@
     "thump@30"
    ],
    "say": "Muralhas altas, cercas elétricas e torres de vigia por todos os lados.",
-   "acao": "conversar"
+   "acao": "conversar",
+   "detalhe": false
   },
   {
    "shot": "two",

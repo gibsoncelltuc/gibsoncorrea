@@ -16,7 +16,7 @@ b8 | street | two | 2 | conversar, INTERAGEM: entregar | kit/scroll, vehicles/ai
 b9 | street | orbit | 21 | reagir, batalha | - | - | -
 b10 | street | close | 1 | comemorar | kit/helicopter_air | - | -
 
-OBJETO HEROI: kit/helicopter_air - aparece em 4 cena(s), close nele em 2
+OBJETO HEROI: kit/helicopter_air - aparece em 4 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b9
 Interacoes entre personagens: b0 aproxima-se, b2 discutir, b3 cochichar, b6 empurrar, b7 avanca e o outro recua, b8 entregar
 

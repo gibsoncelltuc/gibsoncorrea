@@ -105,7 +105,8 @@
     ]
    ],
    "acao": "discutir",
-   "say": "A principal, Fordow, fica a quase noventa metros de profundidade, dentro de uma montanha."
+   "say": "A principal, Fordow, fica a quase noventa metros de profundidade, dentro de uma montanha.",
+   "detalhe": false
   },
   {
    "shot": "close",
@@ -195,7 +196,8 @@
     ]
    ],
    "interacao": "cochichar",
-   "say": "Para despistar, outros B-2 foram mandados na direção contrária, para o Pacífico."
+   "say": "Para despistar, outros B-2 foram mandados na direção contrária, para o Pacífico.",
+   "detalhe": false
   },
   {
    "shot": "low",

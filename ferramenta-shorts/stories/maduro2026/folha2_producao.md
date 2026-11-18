@@ -54,8 +54,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do paí...
 - Cenario: street | luz: noite | clima: limpo
-- Camera: low = camera baixa, dramatica (virada) + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: low = camera baixa, dramatica (virada)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (1): SOL (variante 0, expressao angry)
 - Animacao: conversar
 - Objetos/modelos: kit/helicopter_air
@@ -126,7 +126,7 @@ vehicles/airplane | b8 | pronto | conferir na folha de contato se le bem; se par
 
 
 ## Video inteiro
-- Objeto heroi: kit/helicopter_air | grandes momentos: b4, b9 | planos abertos: 3 | mistura: close 21% | medio 61% | aberto 10% | detalhe 7%
+- Objeto heroi: kit/helicopter_air | grandes momentos: b4, b9 | planos abertos: 3 | mistura: close 21% | medio 63% | aberto 10% | detalhe 6%
 - Interacoes: b0 aproxima-se, b2 discutir, b3 cochichar, b6 empurrar, b7 avanca e o outro recua, b8 entregar
 - RISCOS GERAIS: nenhum
 
