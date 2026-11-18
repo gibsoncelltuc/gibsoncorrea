@@ -4,7 +4,7 @@ Regra: cada sessão trabalha no SEU branch e só nos ids da sua lista. Antes de 
 
 ## Sessão principal (branch claude/bold-sagan-dskrsj)
 Refazer com a ferramenta atual e as duas folhas (`./refazer_tudo.sh <id>` depois de zerar os riscos da folha 2):
-- [x] EP 06 porco1859 · [ ] EP 04 balde1325 · [ ] EP 07 bolos1838 · [ ] EP 01 karansebes · [ ] EP 03 toledo1835 · [ ] EP 08 zanzibar1896 (na fila)
+- [x] EP 06 porco1859 · [x] EP 04 balde1325 · [ ] EP 07 bolos1838 · [ ] EP 01 karansebes · [ ] EP 03 toledo1835 · [ ] EP 08 zanzibar1896 (na fila)
 - [ ] EP 02 emus1932 — folha 2 acusa 6 riscos (emu fora de cena em b3/b9, "montou", sem mapa, herói errado: ponha `"heroi": null` ou modele; corrigir o beats.json)
 - [ ] EP 05 gansos390 — 7 riscos (cachorro sem modelo: modelar ou tirar; "dormiam/escalaram"; sem herói: use o ganso/galinha; 2 palavras sem efeito)
 Depois: Curiosidade e Ciência CC 11–20.

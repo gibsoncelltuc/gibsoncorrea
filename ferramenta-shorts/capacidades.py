@@ -4,6 +4,10 @@ import re, os, glob
 src = open('mkvideo.py', encoding='utf-8').read(); aud = open('audio_story.py', encoding='utf-8').read(); tb = open('web/toonbase.js', encoding='utf-8').read()
 sets = re.search(r"SETS_X = \{([^}]*)\}", src).group(1); sets = re.findall(r"'(\w+)':", sets)
 obj = re.findall(r"\(r'([^']*)', '([^']*)', [\d.]+, (True|False|'in')\)", src)
+import json as _j
+for _f in sorted(glob.glob('obj_dict.d/*.json')):
+    try: obj += [(e[0], e[1], str(e[3]) if len(e) > 3 and e[3] is True else 'False') for e in _j.load(open(_f, encoding='utf-8')) if not any(e[1] == o[1] for o in obj)]
+    except Exception: pass
 lib = {d: sorted(os.path.basename(f)[:-4] for f in glob.glob(f'web/assets/library/{d}/*.glb')) for d in ('kit', 'buildings', 'vehicles', 'nature', 'tools', 'war')}
 faces = sorted(set(re.findall(r"^\s{4}(\w+): \{\s*\n\s*eye:", tb, re.M)) | set(re.findall(r"(\w+): \{ eye: \[", tb)))
 held = re.search(r"drawHeld[^\n]*", tb); hats = sorted(set(re.findall(r"hat === ['\"](\w+)['\"]", tb)))
