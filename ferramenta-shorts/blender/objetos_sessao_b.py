@@ -40,3 +40,19 @@ def vagem(nome, pod, ervilha):   # vagem aberta com ervilhas redondas saltando p
     fim()
 vagem('pea_green', '#2f6a22', '#a6e85c')
 vagem('pea_yellow', '#2f6a22', '#f0c828')
+novo('globe')              # globo terrestre: esfera azul, continentes verdes, aro de metal e pe
+bola((0, 1.0, 0), .62, '#2f6fd0', seg=24)
+for (x, y, z, r) in ((.0, 1.45, .35, .24), (-.35, 1.0, .5, .26), (.38, .78, .47, .2), (.25, 1.18, .55, .16), (-.5, 1.3, .2, .16)): bola((x, y, z), r, '#4fa84a', achata=.45, seg=10)
+arco((0, 1.0, 0), .7, '#8a8a90', esp=.03, de=0, ate=2 * math.pi, n=24)
+cil((0, .18, 0), .26, .08, '#6a4a2a'); cil((0, .42, 0), .06, .5, '#6a4a2a')
+fim()
+novo('stick')              # vara fincada no chao (gnomon): haste de madeira com ponta redonda e pedras na base
+cil((0, 1.1, 0), .045, 2.2, '#8a6a42'); bola((0, 2.22, 0), .07, '#6a4a2a')
+for a in range(5): bola((.16 * math.cos(a * 1.25), .06, .16 * math.sin(a * 1.25)), .09, '#8a8a82', achata=.6, seg=8)
+fim()
+novo('well')               # poco de pedra com telhadinho de madeira, corda e balde
+cil((0, .4, 0), .6, .8, '#a8a698'); cil((0, .83, 0), .6, .1, '#b8b6a8'); cil((0, .89, 0), .4, .03, '#15151a')
+for x in (-.62, .62): cil((x, 1.45, 0), .045, 1.3, '#7a5a3a')
+cil((0, 2.05, 0), .05, 1.4, '#7a5a3a', rot=H); cil((0, 2.2, 0), .05, 1.5, '#8a6a42', raio_topo=.02, rot=H)
+tubo([(0, 1.9, 0), (0, 1.3, 0)], .018, '#d8c898'); cil((0, 1.15, 0), .12, .18, '#6a4a2a', raio_topo=.1)
+fim()

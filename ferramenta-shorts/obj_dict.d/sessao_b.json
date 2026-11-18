@@ -12,4 +12,6 @@
  ["\\bchave\\b", "kit/key", 1.4, false],
  ["\\bpararaios\\b", "kit/lightning_rod", 1.0, false],
  ["\\btentilhoes?\\b|\\bpassarinhos?\\b|\\baves?\\b", "kit/finch", 1.3, false],
- ["\\bervilhas?\\b", "kit/pea_green", 1.6, false]]
+ ["\\bervilhas?\\b", "kit/pea_green", 1.6, false],
+ ["\\bglobo\\b|\\bplaneta\\b", "kit/globe", 1.3, false],
+ ["\\bvaras?\\b", "kit/stick", 1.3, false]]

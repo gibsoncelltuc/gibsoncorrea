@@ -1,0 +1,243 @@
+{
+ "duration": 56.208,
+ "frames30": 1686,
+ "source": "silence-align (cost 0.71)",
+ "segments": [
+  [
+   0.152542,
+   3.56358
+  ],
+  [
+   4.40475,
+   6.90479
+  ],
+  [
+   7.28008,
+   10.0147
+  ],
+  [
+   10.2343,
+   10.6994
+  ],
+  [
+   11.5575,
+   12.6315
+  ],
+  [
+   12.7939,
+   13.3025
+  ],
+  [
+   13.4936,
+   14.4674
+  ],
+  [
+   14.7306,
+   16.4574
+  ],
+  [
+   17.2918,
+   19.5894
+  ],
+  [
+   19.8107,
+   20.967
+  ],
+  [
+   21.8233,
+   22.5644
+  ],
+  [
+   22.7561,
+   23.4788
+  ],
+  [
+   23.7012,
+   26.0759
+  ],
+  [
+   26.9473,
+   28.0392
+  ],
+  [
+   28.3308,
+   29.4815
+  ],
+  [
+   29.7148,
+   31.3449
+  ],
+  [
+   32.2129,
+   34.004
+  ],
+  [
+   34.3086,
+   36.741
+  ],
+  [
+   37.6014,
+   38.9838
+  ],
+  [
+   39.2797,
+   41.463
+  ],
+  [
+   42.3385,
+   43.446
+  ],
+  [
+   43.6578,
+   46.2897
+  ],
+  [
+   47.1381,
+   49.6867
+  ],
+  [
+   49.8942,
+   51.5057
+  ],
+  [
+   52.3395,
+   52.7684
+  ],
+  [
+   53.0714,
+   55.4004
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um homem mediu o tamanho do planeta usando s\u00f3 uma vara e a sombra dela.",
+   "s": 0.153,
+   "e": 3.564
+  },
+  {
+   "text": "Era por volta de duzentos e quarenta antes de Cristo,",
+   "s": 4.405,
+   "e": 6.905
+  },
+  {
+   "text": "e Erat\u00f3stenes era o bibliotec\u00e1rio da cidade de Alexandria,",
+   "s": 7.28,
+   "e": 10.015
+  },
+  {
+   "text": "no Egito.",
+   "s": 10.234,
+   "e": 10.699
+  },
+  {
+   "text": "Ele leu num papiro que,",
+   "s": 11.557,
+   "e": 12.632
+  },
+  {
+   "text": "em Siena,",
+   "s": 12.794,
+   "e": 13.303
+  },
+  {
+   "text": "ao meio-dia de ver\u00e3o,",
+   "s": 13.494,
+   "e": 14.467
+  },
+  {
+   "text": "o sol iluminava o fundo de um po\u00e7o.",
+   "s": 14.731,
+   "e": 16.457
+  },
+  {
+   "text": "Isso significava que o sol estava bem em cima,",
+   "s": 17.292,
+   "e": 19.589
+  },
+  {
+   "text": "e nada fazia sombra.",
+   "s": 19.811,
+   "e": 20.967
+  },
+  {
+   "text": "Em Alexandria,",
+   "s": 21.823,
+   "e": 22.564
+  },
+  {
+   "text": "no mesmo dia,",
+   "s": 22.756,
+   "e": 23.479
+  },
+  {
+   "text": "uma vara fincada no ch\u00e3o fazia uma sombra pequena.",
+   "s": 23.701,
+   "e": 26.076
+  },
+  {
+   "text": "Erat\u00f3stenes pensou:",
+   "s": 26.947,
+   "e": 28.039
+  },
+  {
+   "text": "\"Se a Terra fosse plana,",
+   "s": 28.331,
+   "e": 29.482
+  },
+  {
+   "text": "as duas sombras seriam iguais.\"",
+   "s": 29.715,
+   "e": 31.345
+  },
+  {
+   "text": "Acontece que a sombra era diferente,",
+   "s": 32.213,
+   "e": 34.004
+  },
+  {
+   "text": "e isso s\u00f3 podia acontecer se a Terra fosse curva.",
+   "s": 34.309,
+   "e": 36.741
+  },
+  {
+   "text": "Ele mediu o \u00e2ngulo da sombra,",
+   "s": 37.601,
+   "e": 38.984
+  },
+  {
+   "text": "e contou os passos entre as duas cidades.",
+   "s": 39.28,
+   "e": 41.463
+  },
+  {
+   "text": "Com uma conta simples,",
+   "s": 42.339,
+   "e": 43.446
+  },
+  {
+   "text": "chegou a um n\u00famero muito perto do tamanho real da Terra.",
+   "s": 43.658,
+   "e": 46.29
+  },
+  {
+   "text": "E tudo isso aconteceu mais de dois mil anos atr\u00e1s,",
+   "s": 47.138,
+   "e": 49.687
+  },
+  {
+   "text": "sem sat\u00e9lite e sem computador.",
+   "s": 49.894,
+   "e": 51.506
+  },
+  {
+   "text": "No fim,",
+   "s": 52.34,
+   "e": 52.768
+  },
+  {
+   "text": "uma vara e um po\u00e7o fizeram o trabalho de um sat\u00e9lite.",
+   "s": 53.071,
+   "e": 55.4
+  }
+ ]
+}
