@@ -17,7 +17,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: socorro -> ring + som de alerta
 - Efeito visual marcado: -
-- Texto na tela: 20.000 EMUS
+- Texto na tela: 20.000 EMUS | mapa: AUSTRÁLIA
 - Funcao na historia: desenvolvimento
 
 ## Cena b2  (~3.1 s)

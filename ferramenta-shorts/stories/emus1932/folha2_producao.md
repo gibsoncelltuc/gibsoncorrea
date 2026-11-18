@@ -10,8 +10,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: -
 - Objetos/modelos: emus
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): australia, bando, passaros
-- RISCOS: 
-  - personagens parados (so falam e piscam) -> CORRECAO: "acao": "conversar|discutir|comemorar", "interacao": "empurrar|cochichar|entregar|susto", objeto na mao (4o campo do "who") ou "chega": true
+- RISCOS: nenhum
 
 ## Cena b1 - Vinte mil emus estavam devorando as plantações de trigo no oeste do pa...
 - Cenario: outback | luz: desert | clima: limpo
@@ -39,10 +38,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): AUS (variante 0, expressao stern); AUS (variante 1, expressao grin); AUS (variante 2, expressao neutral) | multidao: 14 de 
 - Animacao: - | batalha encenada
-- Objetos/modelos: war/sandbags, cannon
+- Objetos/modelos: war/sandbags, cannon, emus
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
-- RISCOS: 
-  - emus citado e nao esta em cena -> CORRECAO: "emus": true
+- RISCOS: nenhum
 
 ## Cena b4 - Acontece que emu é rápido, e não fica parado. Os soldados atiravam, e ...
 - Cenario: outback | luz: desert | clima: limpo
@@ -62,8 +60,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: conversar
 - Objetos/modelos: vehicles/truck, emus
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): atirador, caminhao, metralhadora
-- RISCOS: 
-  - acao sem animacao propria: montou -> CORRECAO: mostrar o RESULTADO (objeto em cena, reacao, efeito + som) ou reescrever a frase com acao que a ferramenta faz (andar, chegar, discutir, empurrar, entregar, comemorar, atirar, fugir)
+- RISCOS: nenhum
 
 ## Cena b6 - Depois de uma semana, milhares de balas gastas, e os emus quase sem um...
 - Cenario: outback | luz: desert | clima: limpo
@@ -101,10 +98,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): FARM (variante 0, expressao smile); FARM (variante 1, expressao grin)
 - Animacao: conversar | interacao: entregar
-- Objetos/modelos: buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow
+- Objetos/modelos: buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow, emus
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): governo, pagar
-- RISCOS: 
-  - emu citado e nao esta em cena -> CORRECAO: "emus": true
+- RISCOS: nenhum
 
 ## Cena b10 - Humanos, zero. Emus, um.
 - Cenario: outback | luz: golden | clima: limpo
@@ -117,19 +113,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Video inteiro
-- Objeto heroi: nature/haybale | grandes momentos: b3, b4, b8 | planos abertos: 4 | mistura: close 8% | medio 66% | aberto 18% | detalhe 8%
+- Objeto heroi: - | grandes momentos: b3, b4, b8 | planos abertos: 4 | mistura: close 8% | medio 66% | aberto 18% | detalhe 8%
 - Interacoes: b2 vai ate o outro, b6 susto, b7 empurrar, b9 entregar
-- RISCOS GERAIS: 
-  - nenhum mapa no video (o canal situa o lugar com mapa rapido) -> CORRECAO: "mapa": "NOME DO LUGAR" na cena 1 ou 2
-  - objeto heroi (nature/haybale) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 6 risco(s) em aberto
-- b0: personagens parados (so falam e piscam)
-- b3: emus citado e nao esta em cena
-- b5: acao sem animacao propria: montou
-- b9: emu citado e nao esta em cena
-- geral: nenhum mapa no video (o canal situa o lugar com mapa rapido)
-- geral: objeto heroi (nature/haybale) sem close de camera
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh emus1932 bN bM` (so essas cenas).

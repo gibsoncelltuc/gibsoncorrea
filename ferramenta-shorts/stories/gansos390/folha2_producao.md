@@ -49,11 +49,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Personagens principais (3): GAU (variante 0, expressao stern); GAU (variante 1, expressao nervous); GAU (variante 2, expressao stern)
 - Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorros, colina, gauleses, guardas
-- RISCOS: 
-  - animal sem modelo: cachorros -> CORRECAO: modelar o animal antes, ou tirar da narracao desta cena, ou mostrar so a reacao das pessoas
-  - acao sem animacao propria: dormiam, escalaram -> CORRECAO: mostrar o RESULTADO (objeto em cena, reacao, efeito + som) ou reescrever a frase com acao que a ferramenta faz (andar, chegar, discutir, empurrar, entregar, comemorar, atirar, fugir)
-  - objeto sem modelo 3D: cachorros -> CORRECAO: modelar em blender/make_objetos.py e por no OBJ_DICT, ou trocar a palavra
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): colina, gauleses, guardas
+- RISCOS: nenhum
 
 ## Cena b5 - Acontece que os gansos acordaram, e começaram a gritar e a bater as as...
 - Cenario: medieval | luz: day | clima: limpo
@@ -95,33 +92,34 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): desfile, gansos, roma
 - RISCOS: nenhum
 
-## Cena b9 - E os cachorros, que dormiram a noite inteira, um castigo.
+## Cena b9 - E os guardas, que dormiram a noite inteira, ganharam um castigo.
 - Cenario: medieval | luz: dia | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): ROM (variante 2, expressao grin)
 - Animacao: conversar
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorros, castigo
-- RISCOS: 
-  - animal sem modelo: cachorros -> CORRECAO: modelar o animal antes, ou tirar da narracao desta cena, ou mostrar so a reacao das pessoas
-  - objeto sem modelo 3D: cachorros -> CORRECAO: modelar em blender/make_objetos.py e por no OBJ_DICT, ou trocar a palavra
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): castigo, guardas
+- RISCOS: nenhum
+
+## PARA O BLENDER (objetos 3D deste video)
+Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito no Blender; a ferramenta so' poe em cena, pinta o contorno e anima. Nada de objeto "quadradao": use `blender/formas.py` (cil, bola, torno, tubo, arco, caixa com chanfro).
+
+Objeto | Cenas | Situacao | O que fazer
+---|---|---|---
+goose | b0, b3, b5, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/apartment | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/house_two | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/lamppost | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/castle_tower | b2, b6, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b5, b7 | planos abertos: 4 | mistura: close 10% | medio 61% | aberto 24% | detalhe 5%
+- Objeto heroi: - | grandes momentos: b5, b7 | planos abertos: 4 | mistura: close 11% | medio 60% | aberto 24% | detalhe 5%
 - Interacoes: b0 susto, b2 insiste, b4 aproxima-se, b6 empurrar, b8 o outro se aproxima
-- RISCOS GERAIS: 
-  - video sem objeto heroi -> CORRECAO: "heroi": "kit/<objeto>" no topo do roteiro (modele se nao existir)
-  - 2 palavra(s) de acao sem efeito + som -> CORRECAO: ver plano.md e por "fx"/"sfx" na cena
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 7 risco(s) em aberto
-- b4: animal sem modelo: cachorros
-- b4: acao sem animacao propria: dormiam, escalaram
-- b4: objeto sem modelo 3D: cachorros
-- b9: animal sem modelo: cachorros
-- b9: objeto sem modelo 3D: cachorros
-- geral: video sem objeto heroi
-- geral: 2 palavra(s) de acao sem efeito + som
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh gansos390 bN bM` (so essas cenas).

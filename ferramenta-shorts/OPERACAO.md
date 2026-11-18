@@ -10,7 +10,7 @@ Cuidado visto na prática: se a narração diz "noite", a cena e as seguintes fi
 1. **Ler** `CAPACIDADES.md` (o que a ferramenta tem) e `MODO_RICKS.md` (como o roteiro é escrito).
 2. **Escrever** `videos/<id>/beats.json` (formato no `GUIA_DO_ROTEIRISTA.md`; copie um roteiro pronto, ex. `videos/porco1859/beats.json`, e troque). Ao escrever cada frase, pergunte: "a ferramenta consegue MOSTRAR isto?". Se não, mude a frase.
 3. **Portão de entrada:** `./novo_video.sh <id>`. Ele gera as duas folhas e responde `LIBERADO` (entrou na fila) ou `BLOQUEADO: N riscos`.
-4. Se bloqueado: abra `stories/<id>/folha2_producao.md`, cada risco traz a **CORREÇÃO** pronta. Corrija o `beats.json` e repita o passo 3. Risco visto e aceito: `"riscos_ok": true` na cena. Falta modelo 3D: copie um bloco de `blender/make_objetos.py`, rode `blender -b --python blender/make_objetos.py`, acrescente uma linha `["regex da palavra", "kit/nome", escala, false]` no arquivo da SUA sessão em `obj_dict.d/` (`principal.json`, `sessao_a.json` ou `sessao_b.json` — nunca no `mkvideo.py`, para o merge entre sessões não apagar o objeto de ninguém; regex sempre com `\\b` de palavra inteira) e rode `python3 capacidades.py`. Faça commit + push do `.glb`, do `blender/` e do seu `obj_dict.d/` logo depois de modelar.
+4. Se bloqueado: abra `stories/<id>/folha2_producao.md`, cada risco traz a **CORREÇÃO** pronta. Corrija o `beats.json` e repita o passo 3. Risco visto e aceito: `"riscos_ok": true` na cena. Falta modelo 3D (veja a tabela **PARA O BLENDER** da folha 2): escreva o objeto no arquivo da SUA sessão `blender/objetos_<sessao>.py` usando `blender/formas.py` (formas redondas e chanfradas: `cil`, `bola`, `torno`, `tubo`, `arco`, `caixa`; exemplo pronto em `blender/objetos_principal.py`), rode `blender -b --python blender/objetos_<sessao>.py` (objeto antigo com cara de caixote: `blender -b --python blender/arredondar.py -- nome`), acrescente uma linha `["regex da palavra", "kit/nome", escala, false]` no arquivo da SUA sessão em `obj_dict.d/` (`principal.json`, `sessao_a.json` ou `sessao_b.json` — nunca no `mkvideo.py`, para o merge entre sessões não apagar o objeto de ninguém; regex sempre com `\\b` de palavra inteira) e rode `python3 capacidades.py`. Faça commit + push do `.glb`, do `blender/` e do seu `obj_dict.d/` logo depois de modelar.
 5. **Esperar:** `bash status.sh`. Deixe SEMPRE uma espera em segundo plano (`until [ -f stories/<id>/DONE ] || [ -f stories/<id>/SKIP ]; do sleep 20; done`), senão a máquina dorme e a fila para.
 6. **Verificação final:** `./conferir.sh <id>` e depois ABRIR `out/<id>/review_sheet.jpg` e olhar. Defeito crítico → corrigir o roteiro e `./refazer.sh <id> bN` (cenas) ou `./refazer_tudo.sh <id>` (inteiro). Não pergunte ao Gibson: corrija e relate.
 7. **Entregar:** mandar pelo chat o mp4 ORIGINAL de `entregas/<id>/` (1080×1920) + relatório curto (o que passou, o que não passou, o que foi refeito). Commit + push.
@@ -26,6 +26,22 @@ Tudo que a narração cita tem que aparecer na tela, na mesma cena: se diz "faze
 - Mapa rápido quando cita lugar.
 - Em toda cena média os personagens interagem (interações diferentes de cena para cena) e têm expressão própria (use expressões variadas no `who`: angry, shout, sad, cry, smug, surprised, scared, suspicious, além de smile, grin, laugh, shock, stern, nervous, pained).
 - Efeito + som em toda palavra de ação.
+
+## Enquadramento (o controle automático já barra; confira mesmo assim na folha de contato)
+
+- **Placa** (texto em placa de madeira): tem que aparecer INTEIRA sempre que estiver no quadro. O inspetor de enquadramento agora mede a placa e abre a câmera sozinho; se a folha de contato ainda mostrar placa cortada, encurte o texto (`"text"`) ou troque para `"titulo": true`.
+- **Personagem grande e cortado** (cabeça ou braço para fora, alguém passando colado na lente): o inspetor reprova qualquer pessoa com mais de 60% da altura do quadro e mais de 1/4 para fora, e no close de objeto quem fica entre a lente e o objeto não é desenhado. Se ainda aparecer: tire gente do `who`, use `"shot": "group"` ou `"chega": false`.
+- Depois de mexer no roteiro por causa disso: `./refazer.sh <id> bN` (ou `./refazer_tudo.sh <id>` se os quadros já foram apagados).
+
+## Se a máquina reiniciar ou a sessão dormir
+
+- O trabalho NÃO se perde: cada etapa tem selo em `stories/<id>/stages/`, o render é salvo em trechos de 150 quadros (`ckpt/<id>/`) e o gancho de início (`boot.sh`) relança a fila sozinho, que continua do trecho onde parou.
+- Há um despertador por sessão (tarefa agendada, de hora em hora) que manda conferir a fila e pegar o próximo item do `PLANO_PRODUCAO.md`. Nunca termine um turno sem vídeo na fila e sem espera em segundo plano.
+- Não use ferramenta que peça aprovação do Gibson (ex.: mensagem entre sessões): a sessão trava até ele aprovar. Aviso de entrega = `entregas/<id>/RELATORIO.md` + commit + push.
+
+## Formato dos objetos (ordem do Gibson: nada de estilo Minecraft)
+
+Quadrado só o que é quadrado de verdade: placa, casa, caixote, mesa, livro. Todo o resto (bichos, frutas, bolo, garrafa, vaso, bola, chaleira, barco, roda, fogo, flor, coroa...) é modelado com as formas redondas do `blender/formas.py`. A folha 2 acusa como RISCO todo objeto do kit montado com caixas ("CAIXOTE") usado no vídeo: refaça o objeto (mesmo nome de arquivo) antes de renderizar. Confira na folha de contato se cada objeto se lê de primeira; se parecer bloco, refaça.
 
 ## Proibido
 
