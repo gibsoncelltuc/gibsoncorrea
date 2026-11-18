@@ -23,6 +23,9 @@ bottle, mug, paper, book, lantern, pitchfork, staff, flag, torch, bag, coin, spy
 ## Chapeus ("hat" no figurino)
 beret, bonnet, bowler, cap, crown, fez, hair, helmet, shako, shako_tall, slouch, straw, tophat, turban, wizard
 
+## Figurino (campos de "outfits")
+jacket, pants, boots (obrigatorios) | hat + cap (cor) | hair (cor, com hat: hair) | hairStyle: long|bun | beard (cor) | glasses: true | tie (cor da gravata) | pele (tom de pele) | sash, belt, buttons (cor) | build: stout|lanky | rifle: true (soldado). Caricaturas prontas: FIGURINOS_FAMOSOS.md
+
 ## Animais
 "animals": [["pig", x, z, "stand|walk", escala]] , [["chicken", ...]] ; "emus": true
 

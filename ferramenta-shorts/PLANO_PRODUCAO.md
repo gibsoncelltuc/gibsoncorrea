@@ -28,3 +28,7 @@ CC 11 Röntgen e o raio X da mão · CC 12 Tycho Brahe e o nariz de metal · CC 
 - Série de ciência: sem batalha. Os 2 grandes momentos são a descoberta/virada em plano aberto com gente reagindo (`"impact": true` + `crowd`), com efeito e som. Objeto herói = o objeto da descoberta (maçã, banheira, pipa...): quase todos precisam ser MODELADOS antes (passo 4 do `OPERACAO.md`), e depois `python3 capacidades.py`.
 - Seguir o roteiro à risca: cada coisa citada tem que aparecer (linha CONFERIR da folha 2).
 - Animal sem modelo (cachorro, cavalo, abelha, pássaro pousado...): modelar no estilo de `web/animals2d.js` ou contar a cena sem depender dele.
+
+## Série 3 — "Poder e Fama" (Trump, Bukele, Elon Musk) — 20 vídeos, DEPOIS das listas acima
+Ler `FIGURINOS_FAMOSOS.md` (figurinos prontos e REGRAS obrigatórias: só fato real conferido, sem fala inventada, tom de curiosidade). `"serie": "Poder e Fama", "ep": N`.
+- Sessão A: PF 01–07 · Sessão B: PF 08–14 · Sessão principal: PF 15–20. Cada sessão escolhe os temas da lista de ideias do `FIGURINOS_FAMOSOS.md` (ou outros fatos conferidos), sem repetir: anote aqui o tema escolhido antes de começar.
