@@ -787,6 +787,12 @@ const mouth = (p, kind, mx, my, u, k = 1)=>{
                 ]
             ], 1.5 * u);
             break;
+        case "snarl": {   /* RAIVA: dentes cerrados com os cantos da boca para BAIXO (nao parece sorriso) */
+            const T = [[mx - 12 * u * k, my + 1 * u], [mx - 6 * u * k, my - 3 * u], [mx + 6 * u * k, my - 3 * u], [mx + 12 * u * k, my + 1 * u], [mx + 11 * u * k, my + 6 * u], [mx + 5 * u * k, my + 3 * u], [mx - 5 * u * k, my + 3 * u], [mx - 11 * u * k, my + 6 * u]];
+            p.poly(T, WHITE, 3 * u);
+            p.stroke([[mx - 11 * u * k, my + 2.5 * u], [mx - 5 * u * k, my], [mx + 5 * u * k, my], [mx + 11 * u * k, my + 2.5 * u]], 1.5 * u);
+            for (const j of [-1, 0, 1]) p.stroke([[mx + j * 5 * u * k, my - 3 * u], [mx + j * 5 * u * k, my + 3 * u]], 1.5 * u);
+            break; }
         case "lick":
             p.arc(mx, my - 3 * u, 8 * u * k, 4.5 * u, 20, 160, mw);
             p.ell(mx + 6 * u * k, my + 3 * u, 3.6 * u, 4.6 * u, TONGUE, 2.4 * u);
@@ -794,7 +800,7 @@ const mouth = (p, kind, mx, my, u, k = 1)=>{
     }
 };
 /* EXPRESSOES EMOCIONAIS extras (montadas com os olhos/bocas existentes): raiva, grito, tristeza, choro, convencido, surpresa, medo, desconfianca, tedio */
-Object.assign(FACE, { angry: { eye: ["slit", "slit"], brow: [7, -4], mouth: "teeth" }, shout: { eye: ["lid", "lid"], brow: [7, -4], mouth: "O" }, sad: { eye: ["lid", "lid"], brow: [-5, 3], mouth: "frown" }, cry: { eye: ["squeeze", "squeeze"], brow: [-5, 3], mouth: "wave" },
+Object.assign(FACE, { angry: { eye: ["slit", "slit"], brow: [9, -5], mouth: "snarl" }, shout: { eye: ["lid", "lid"], brow: [7, -4], mouth: "O" }, sad: { eye: ["lid", "lid"], brow: [-5, 3], mouth: "frown" }, cry: { eye: ["squeeze", "squeeze"], brow: [-5, 3], mouth: "wave" },
     smug: { eye: ["happy", "lid"], brow: [-3, 2], mouth: "smirk" }, surprised: { eye: ["shock", "shock"], brow: [-6, -6], mouth: "o" }, scared: { eye: ["shock", "shock"], brow: [-5, 3], mouth: "wave" }, suspicious: { eye: ["slit", "slit"], brow: [3, -2], mouth: "dash" }, bored: { eye: ["slit", "slit"], brow: [0, 0], mouth: "dash" } });
 const faceFront = (p, cx, cy, W, expr, facing, look, lid, brim, skin, moustache, stout = false, AX = {})=>{
     const u = W / 100, F = FACE[expr] || FACE.neutral, fx = cx + 7 * u * facing;
@@ -839,6 +845,9 @@ const faceFront = (p, cx, cy, W, expr, facing, look, lid, brim, skin, moustache,
     if (AX.beard) { p.arc(mx, cy + 14 * u, 30 * u, 26 * u, 15, 165, 13 * u, AX.beard); p.arc(mx, cy + 22 * u, 20 * u, 18 * u, 25, 155, 10 * u, AX.beard); }   // barba cheia (variedade de personagem)
     if (AX.glasses) { for (const sd of [-1, 1]) p.arc(fx + sd * ex, ey, 12.5 * u, 12.5 * u, 0, 360, 2.6 * u); p.arc(fx, ey, ex - 12.5 * u, 3 * u, 200, 340, 2.4 * u); }   // oculos redondos
     if (expr === "nervous" || AX.sweat) p.ell(cx + 40 * u * (facing || 1), cy - 22 * u + (AX.sweatY || 0) * u, 3 * u, 5 * u, "#9fd4ff", 2 * u);
+    if (expr === "cry") for (const sd of [-1, 1]) { const tx = fx + sd * (ex + 2 * u);   /* CHORO: lagrimas escorrendo dos dois olhos */
+        p.stroke([[tx, ey + 5 * u], [tx + sd * 1.5 * u, ey + 13 * u], [tx + sd * 1 * u, ey + 20 * u]], 3.4 * u, "#6fc3ff");
+        p.ell(tx + sd * 1 * u, ey + 22 * u, 2.6 * u, 3.4 * u, "#6fc3ff", 1.2 * u); }
 };
 const faceSide = (p, hx, hy, W, expr, lid, brim, skin, moustache, stout = false)=>{
     const u = W / 100, F = FACE[expr] || FACE.neutral, ex = hx + 27 * u, ey = hy;

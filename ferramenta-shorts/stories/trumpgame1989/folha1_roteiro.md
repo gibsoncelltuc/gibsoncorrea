@@ -110,3 +110,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL
 
+
+## Fontes (fatos conferidos)
+- https://en.wikipedia.org/wiki/Trump:_The_Game
+- https://www.vox.com/2015/8/19/9176285/donald-trump-board-game

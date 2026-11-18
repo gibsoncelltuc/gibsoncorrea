@@ -3,7 +3,10 @@
 Série atual: **Guerras Inusitadas** (EP numerado; `"serie": "Guerras Inusitadas", "ep": N` no topo do roteiro). Histórias reais e curiosas de guerras/conflitos absurdos, personagens originais, 150–175 palavras narradas (~60 s).
 EPs já feitos: 01 Karánsebes, 02 Emus, 03 Toledo, 04 Balde, 05 Gansos, 06 Porco, 07 Bolos, 08 Zanzibar (38 minutos), 09 Futebol (1969), 10 Chaleira (1784). Não repita tema. Dança e Tulipas ficaram FORA da série (pasta `fora_do_tema/`): só entra guerra/conflito.
 Ideias ainda livres: Orelha de Jenkins (1739), Banquinho Dourado (1900), 335 anos de Scilly, Guerra do Bacalhau, Guerra do Uísque, Guerra das Laranjas (1801), Guerra dos Pastéis não (já é Bolos).
-Cuidado visto na prática: se a narração diz "noite", a cena e as seguintes ficam de noite até outra cena ter `"hora": "dia"`. Todo figurino precisa das cores `jacket`, `pants`, `boots`; chapéu `cap`/`beret`/`bonnet` usa a cor `cap`.
+Cuidado visto na prática: "noite"/"neve" valem só na cena onde aparecem (desde 18/11 não vazam para as seguintes). Todo figurino precisa das cores `jacket`, `pants`, `boots`; chapéu `cap`/`beret`/`bonnet` usa a cor `cap`.
+
+## Sessões de produção: ferramenta sempre atualizada
+ANTES de começar CADA vídeo: `git fetch origin claude/bold-sagan-dskrsj && git merge --no-edit FETCH_HEAD` e `npm test` (tem que dar "TESTE DA FERRAMENTA: OK"). Vídeo feito com ferramenta velha sai sem as correções do dia.
 
 ## Os 7 passos (não pule nenhum)
 
@@ -128,3 +131,4 @@ Quadrado só o que é quadrado de verdade: placa, casa, caixote, mesa, livro. To
 - **Personagem CARREGANDO objeto 3D** (pia, caixa, bandeja…): cena `"shot": "track"` e o objeto com `{"carregado": true, "y": 0.75}` → `["kit/sink", 0.35, 1.55, 0.9, {"carregado": true, "y": 0.75}]` (x = posição do personagem + 0,35). Anda junto, na altura das mãos. Confira com `./prechecar.sh <id> b0 4`.
 - **Poder e Fama / fatos reais: FONTES obrigatórias.** No topo do beats.json: `"fontes": ["https://...", ...]` (as páginas que você conferiu). Elas saem no fim da Folha 1 e vão na pasta de entrega. Sem fonte, não escreva o fato.
 - **Objeto real conhecido (carro, avião, prédio famoso):** modele a partir de fotos/descrição real (forma, cor, proporção), nunca um genérico. Ex.: `kit/roadster26` (Roadster 2026 branco em cunha), `kit/roadster` (Roadster 2008 vermelho, o do espaço).
+- **Rosto do roteiro vale**: a emoção escrita no `who` (`"FAZ:0:angry"`) é respeitada a cena inteira; a narração e o diálogo só variam DENTRO da mesma emoção (raiva ↔ grito ↔ fechado; medo ↔ nervoso ↔ susto; choro ↔ triste ↔ dor). Raiva tem boca de dentes cerrados para baixo; choro tem lágrimas. Cada personagem segue a sua emoção.

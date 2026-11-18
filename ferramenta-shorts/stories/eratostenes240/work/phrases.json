@@ -1,7 +1,7 @@
 {
  "duration": 56.208,
  "frames30": 1686,
- "source": "silence-align (cost 0.71)",
+ "source": "silence-align (cost 0.72)",
  "segments": [
   [
    0.152542,
@@ -41,10 +41,10 @@
   ],
   [
    19.8107,
-   20.967
+   20.9671
   ],
   [
-   21.8233,
+   21.8232,
    22.5644
   ],
   [
@@ -69,7 +69,7 @@
   ],
   [
    32.2129,
-   34.004
+   34.0028
   ],
   [
    34.3086,
@@ -77,14 +77,14 @@
   ],
   [
    37.6014,
-   38.9838
+   38.9502
   ],
   [
    39.2797,
-   41.463
+   41.4683
   ],
   [
-   42.3385,
+   42.3386,
    43.446
   ],
   [
@@ -93,10 +93,10 @@
   ],
   [
    47.1381,
-   49.6867
+   49.6922
   ],
   [
-   49.8942,
+   49.8965,
    51.5057
   ],
   [
@@ -192,7 +192,7 @@
   {
    "text": "Acontece que a sombra era diferente,",
    "s": 32.213,
-   "e": 34.004
+   "e": 34.003
   },
   {
    "text": "e isso s\u00f3 podia acontecer se a Terra fosse curva.",
@@ -202,12 +202,12 @@
   {
    "text": "Ele mediu o \u00e2ngulo da sombra,",
    "s": 37.601,
-   "e": 38.984
+   "e": 38.95
   },
   {
    "text": "e contou os passos entre as duas cidades.",
    "s": 39.28,
-   "e": 41.463
+   "e": 41.468
   },
   {
    "text": "Com uma conta simples,",
@@ -222,11 +222,11 @@
   {
    "text": "E tudo isso aconteceu mais de dois mil anos atr\u00e1s,",
    "s": 47.138,
-   "e": 49.687
+   "e": 49.692
   },
   {
    "text": "sem sat\u00e9lite e sem computador.",
-   "s": 49.894,
+   "s": 49.897,
    "e": 51.506
   },
   {

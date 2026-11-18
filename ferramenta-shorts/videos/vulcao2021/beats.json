@@ -76,7 +76,8 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "O presidente de El Salvador resolveu fabricar dinheiro digital com a energia de um vulcão."
+   "say": "O presidente de El Salvador resolveu fabricar dinheiro digital com a energia de um vulcão.",
+   "detalhe": false
   },
   {
    "shot": "reveal",
@@ -94,7 +95,8 @@
      2.6
     ]
    ],
-   "say": "El Salvador é um país pequeno da América Central, cheio de vulcões."
+   "say": "El Salvador é um país pequeno da América Central, cheio de vulcões.",
+   "detalhe": false
   },
   {
    "shot": "two",
@@ -129,7 +131,8 @@
     ]
    ],
    "acao": "discutir",
-   "say": "Só que, para criar bitcoins novos, computadores fazem contas sem parar. E isso gasta muita energia."
+   "say": "Só que, para criar bitcoins novos, computadores fazem contas sem parar. E isso gasta muita energia.",
+   "detalhe": false
   },
   {
    "shot": "two",
@@ -152,7 +155,8 @@
    "sfx": [
     "sting@40"
    ],
-   "say": "Então ele mandou a empresa de energia do governo usar o calor do vulcão Tecapa."
+   "say": "Então ele mandou a empresa de energia do governo usar o calor do vulcão Tecapa.",
+   "detalhe": false
   },
   {
    "shot": "low",
@@ -175,7 +179,8 @@
     "whoosh@20",
     "whoosh@50"
    ],
-   "say": "O vapor quente que sai de dentro da terra gira turbinas, e vira eletricidade limpa."
+   "say": "O vapor quente que sai de dentro da terra gira turbinas, e vira eletricidade limpa.",
+   "detalhe": false
   },
   {
    "shot": "two",
@@ -199,7 +204,8 @@
     ]
    ],
    "acao": "conversar",
-   "say": "Acontece que, ao lado da usina, instalaram centenas de computadores só para minerar bitcoin."
+   "say": "Acontece que, ao lado da usina, instalaram centenas de computadores só para minerar bitcoin.",
+   "detalhe": false
   },
   {
    "shot": "close",
@@ -261,7 +267,8 @@
    ],
    "text": "VULCÃO",
    "titulo": true,
-   "say": "Bukele comemorou nas redes sociais, com um vídeo da usina no vulcão."
+   "say": "Bukele comemorou nas redes sociais, com um vídeo da usina no vulcão.",
+   "detalhe": false
   },
   {
    "shot": "two",
@@ -313,7 +320,8 @@
    ],
    "text": "CIDADE BITCOIN",
    "titulo": true,
-   "say": "E ele ainda anunciou o plano de uma Cidade Bitcoin, construída aos pés de outro vulcão."
+   "say": "E ele ainda anunciou o plano de uma Cidade Bitcoin, construída aos pés de outro vulcão.",
+   "detalhe": false
   },
   {
    "shot": "close",
@@ -336,5 +344,7 @@
   "https://www.cnbc.com/2021/10/01/el-salvador-just-started-mining-bitcoin-with-volcanoes-for-the-first-time-ever-and-theyve-already-made-269.html",
   "https://www.rechargenews.com/energy-transition/nation-taps-volcano-power-to-mine-29m-in-bitcoin/2-1-1646035",
   "https://en.wikipedia.org/wiki/Bitcoin_City"
- ]
+ ],
+ "cinf": 4.5,
+ "exp": 1.12
 }

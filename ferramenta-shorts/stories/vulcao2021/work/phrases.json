@@ -1,7 +1,7 @@
 {
  "duration": 65.256,
  "frames30": 1958,
- "source": "silence-align (cost 0.78)",
+ "source": "silence-align (cost 0.77)",
  "segments": [
   [
    0.15825,
@@ -16,7 +16,7 @@
    8.874
   ],
   [
-   9.74567,
+   9.74558,
    10.6966
   ],
   [
@@ -57,7 +57,7 @@
   ],
   [
    32.9732,
-   33.8255
+   33.8253
   ],
   [
    34.0641,
@@ -65,7 +65,7 @@
   ],
   [
    35.1577,
-   38.0046
+   38.0125
   ],
   [
    38.8548,
@@ -85,18 +85,18 @@
   ],
   [
    48.9539,
-   49.6647
+   49.6583
   ],
   [
    49.8735,
-   53.8206
+   53.8205
   ],
   [
    54.653,
    57.0394
   ],
   [
-   57.338,
+   57.3381,
    59.0302
   ],
   [
@@ -191,7 +191,7 @@
   {
    "text": "instalaram centenas de computadores s\u00f3 para minerar bitcoin.",
    "s": 35.158,
-   "e": 38.005
+   "e": 38.013
   },
   {
    "text": "Em outubro saiu o primeiro:",
@@ -216,7 +216,7 @@
   {
    "text": "Anos depois,",
    "s": 48.954,
-   "e": 49.665
+   "e": 49.658
   },
   {
    "text": "o governo contava quase quinhentos bitcoins minerados com a for\u00e7a do vulc\u00e3o.",
