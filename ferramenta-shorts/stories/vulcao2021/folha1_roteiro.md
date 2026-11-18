@@ -110,3 +110,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL
 
+
+## Fontes (fatos conferidos)
+- https://www.cnbc.com/2021/10/01/el-salvador-just-started-mining-bitcoin-with-volcanoes-for-the-first-time-ever-and-theyve-already-made-269.html
+- https://www.rechargenews.com/energy-transition/nation-taps-volcano-power-to-mine-29m-in-bitcoin/2-1-1646035
+- https://en.wikipedia.org/wiki/Bitcoin_City

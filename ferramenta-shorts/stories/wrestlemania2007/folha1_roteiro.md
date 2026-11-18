@@ -110,3 +110,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Texto na tela: HALL DA FAMA
 - Funcao na historia: FECHO/PIADA FINAL
 
+
+## Fontes (fatos conferidos)
+- https://en.wikipedia.org/wiki/WrestleMania_23
+- https://www.denverpost.com/2015/06/26/that-time-bobby-lashley-pro-wrestled-alongside-donald-trump-2/

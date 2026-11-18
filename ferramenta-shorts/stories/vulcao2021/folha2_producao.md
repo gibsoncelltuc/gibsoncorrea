@@ -38,7 +38,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ENG (variante 0, expressao worried, segura paper); BUK (variante 0, expressao suspicious)
 - Animacao: discutir | interacao: discutir
-- Objetos/modelos: kit/miners, kit/bitcoin, kit/coin
+- Objetos/modelos: kit/miners, kit/bitcoin
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
@@ -68,7 +68,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): ENG (variante 0, expressao surprised); ENA (variante 0, expressao grin)
 - Animacao: conversar | interacao: vai ate o outro
-- Objetos/modelos: kit/miners, kit/bitcoin, kit/coin
+- Objetos/modelos: kit/miners, kit/bitcoin
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): computadores, usina
 - RISCOS: nenhum
 
@@ -78,7 +78,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): BUK (variante 0, expressao grin) | multidao: 6 de POV
 - Animacao: comemorar
-- Objetos/modelos: kit/bitcoin, kit/coin
+- Objetos/modelos: kit/bitcoin
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bitcoin, pedacinho
 - RISCOS: nenhum
 
@@ -98,7 +98,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): ENA (variante 0, expressao smile, segura paper); ENG (variante 0, expressao grin)
 - Animacao: conversar | interacao: aproxima-se
-- Objetos/modelos: kit/bitcoin, kit/volcano, kit/coin
+- Objetos/modelos: kit/bitcoin, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): forca, governo, vulcao
 - RISCOS: nenhum
 
@@ -108,7 +108,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao surprised); POV (variante 1, expressao shock); BUK (variante 0, expressao smug) | multidao: 16 de POV
 - Animacao: reagir | batalha encenada
-- Objetos/modelos: kit/volcano, kit/bitcoin, kit/coin, buildings/apartment, buildings/house_two, nature/lamppost
+- Objetos/modelos: kit/volcano, kit/bitcoin, buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, plano
 - RISCOS: nenhum
 
@@ -129,7 +129,7 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/bitcoin | b0, b2, b3, b6, b7, b9, b10, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/volcano | b0, b1, b4, b5, b8, b9, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/coin | b2, b3, b6, b7, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/coin | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/miners | b3, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/apartment | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py

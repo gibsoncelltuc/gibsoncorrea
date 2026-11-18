@@ -8,7 +8,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): AME (variante 0, expressao angry); CAN (variante 0, expressao angry)
 - Animacao: discutir | interacao: discutir
-- Objetos/modelos: kit/logs
+- Objetos/modelos: kit/logs, nature/tree_pine
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estados, inglaterra
 - RISCOS: nenhum
 
@@ -24,11 +24,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - Na floresta de Aroostook, lenhadores americanos e ingleses cortavam as...
 - Cenario: countryside | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): AME (variante 0, expressao smug); CAN (variante 0, expressao smug)
 - Animacao: discutir | interacao: vai ate o outro
-- Objetos/modelos: kit/logs, nature/tree_pine, nature/tree_oak, nature/bush
+- Objetos/modelos: nature/tree_pine, nature/tree_oak, nature/bush
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aroostook, floresta, madeira, mesmas
 - RISCOS: nenhum
 
@@ -38,7 +38,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): AME (variante 0, expressao shout); CAN (variante 0, expressao angry)
 - Animacao: discutir | interacao: empurrar
-- Objetos/modelos: -
+- Objetos/modelos: nature/tree_pine
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brigar, dois, lenhador
 - RISCOS: nenhum
 
@@ -98,7 +98,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): AME (variante 0, expressao smile) | multidao: 10 de AME
 - Animacao: conversar
-- Objetos/modelos: kit/logs, pig
+- Objetos/modelos: kit/logs, nature/tree_pine, pig
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): feijao, porco, tropas
 - RISCOS: nenhum
 
@@ -107,8 +107,8 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/logs | b0, b2, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/tree_pine | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/logs | b0, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/tree_pine | b0, b2, b3, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/bush | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/scroll | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -116,7 +116,7 @@ pig | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, 
 
 
 ## Video inteiro
-- Objeto heroi: kit/logs | grandes momentos: b4, b6 | planos abertos: 3 | mistura: close 23% | medio 55% | aberto 14% | detalhe 7%
+- Objeto heroi: kit/logs | grandes momentos: b4, b6 | planos abertos: 3 | mistura: close 23% | medio 58% | aberto 14% | detalhe 5%
 - Interacoes: b0 discutir, b2 vai ate o outro, b3 empurrar, b5 empurrar, b7 entregar, b8 entregar
 - RISCOS GERAIS: nenhum
 

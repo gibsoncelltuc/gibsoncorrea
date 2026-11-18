@@ -73,12 +73,31 @@
      0.3,
      2.2,
      1.3
+    ],
+    [
+     "nature/tree_pine",
+     -3.0,
+     -5.5,
+     1.6
+    ],
+    [
+     "nature/tree_pine",
+     3.2,
+     -6.5,
+     1.7
+    ],
+    [
+     "nature/tree_pine",
+     -1.0,
+     -9.0,
+     1.8
     ]
    ],
    "text": "1838",
    "interacao": "discutir",
    "acao": "discutir",
-   "say": "Uma guerra entre os Estados Unidos e a Inglaterra foi travada por lenhadores, e ninguém morreu."
+   "say": "Uma guerra entre os Estados Unidos e a Inglaterra foi travada por lenhadores, e ninguém morreu.",
+   "fachada": false
   },
   {
    "shot": "reveal",
@@ -107,7 +126,28 @@
     "CAN:0:smug"
    ],
    "acao": "discutir",
-   "say": "Na floresta de Aroostook, lenhadores americanos e ingleses cortavam as mesmas árvores, e cada lado queria a madeira."
+   "say": "Na floresta de Aroostook, lenhadores americanos e ingleses cortavam as mesmas árvores, e cada lado queria a madeira.",
+   "fachada": false,
+   "props": [
+    [
+     "nature/tree_pine",
+     -3.0,
+     -5.5,
+     1.6
+    ],
+    [
+     "nature/tree_pine",
+     3.2,
+     -6.5,
+     1.7
+    ],
+    [
+     "nature/tree_pine",
+     -1.0,
+     -9.0,
+     1.8
+    ]
+   ]
   },
   {
    "shot": "two",
@@ -117,7 +157,28 @@
     "CAN:0:angry"
    ],
    "interacao": "empurrar",
-   "say": "\"Essa árvore é minha!\", gritou um lenhador, e logo os dois lados começaram a brigar."
+   "say": "\"Essa árvore é minha!\", gritou um lenhador, e logo os dois lados começaram a brigar.",
+   "fachada": false,
+   "props": [
+    [
+     "nature/tree_pine",
+     -3.0,
+     -5.5,
+     1.6
+    ],
+    [
+     "nature/tree_pine",
+     3.2,
+     -6.5,
+     1.7
+    ],
+    [
+     "nature/tree_pine",
+     -1.0,
+     -9.0,
+     1.8
+    ]
+   ]
   },
   {
    "shot": "crowd",
@@ -193,18 +254,37 @@
      1.0,
      0.5,
      1.3
+    ],
+    [
+     "nature/tree_pine",
+     -3.0,
+     -5.5,
+     1.6
+    ],
+    [
+     "nature/tree_pine",
+     3.2,
+     -6.5,
+     1.7
+    ],
+    [
+     "nature/tree_pine",
+     -1.0,
+     -9.0,
+     1.8
     ]
    ],
    "say": "Chamaram de Guerra do Porco com Feijão, porque era só isso que as tropas comiam.",
    "animals": [
     [
      "pig",
-     1.6,
      1.2,
+     1.0,
      "stand",
      1.0
     ]
-   ]
+   ],
+   "fachada": false
   }
  ]
 }

@@ -39,6 +39,14 @@ const BLS = {};
 const blinkLid = (f, seed) => { if (!BLS[seed]) { let t = 6 + (seed * 11) % 25, r = 1234 + seed * 77; const L = []; while (t < TOTAL + 80) { L.push(t); r = (r * 1664525 + 1013904223) >>> 0; t += 15 + (r >>> 8) % 55; } BLS[seed] = L; }
   for (const s of BLS[seed]) { const d = f - s; if (d >= 0 && d < 4) return [0.5, 1, 1, 0.5][d]; if (d < 0) break; } return 0; };
 const camRightAt = (f, ax, az) => { const C = camAt(f); return [C.pos[2] - az, -(C.pos[0] - ax)]; };
+/* ROSTO DO ROTEIRO VALE (ordem do Gibson): se o roteiro pede uma emocao forte (raiva, medo, choro, nervoso/estresse, susto, deboche, alegria),
+   a narracao e o dialogo so podem variar DENTRO dessa emocao -- nunca trocam raiva por sorriso. Cada personagem segue a sua. */
+const FAM = { angry: ['angry', 'shout', 'stern'], shout: ['shout', 'angry', 'stern'], stern: ['stern', 'angry', 'suspicious'],
+  scared: ['scared', 'nervous', 'shock'], nervous: ['nervous', 'scared', 'pained'], shock: ['shock', 'surprised', 'scared'], surprised: ['surprised', 'shock'],
+  sad: ['sad', 'pained', 'cry'], cry: ['cry', 'sad', 'pained'], pained: ['pained', 'sad', 'nervous'],
+  suspicious: ['suspicious', 'stern', 'smug'], smug: ['smug', 'grin', 'suspicious'], bored: ['bored', 'neutral', 'suspicious'],
+  laugh: ['laugh', 'grin', 'smile'], grin: ['grin', 'laugh', 'smile'], smile: ['smile', 'grin', 'smile_closed'] };
+const keepFam = (base, e, f, seed) => { const F = FAM[base]; if (!F || F.includes(e)) return e; return F[Math.floor((f + (seed || 0) * 17) / 45) % F.length]; };
 const exprOf = (f, a, ai, persons) => { const lead = persons[0] === a, r = lead ? 0 : Math.max(1, persons.indexOf(a)); const base = typeof a.expr === 'function' ? a.expr(f) : (a.expr || 'neutral');
   const L = (LEAD && LEAD[Math.max(0, Math.min(TOTAL + 50, lead ? f : f - 6 * r))]) || {}; let e = base, up = 0, lean = 0;
   if (L.key && (L.kk || 0) > 0.2) { e = lead ? L.key : (REACT[L.key] || base); up = -3.5 * L.kk; lean = L.kk; } else if (L.alt && typeof a.expr !== 'function') e = ALT[base] || base;
@@ -49,7 +57,7 @@ const actFor = (f, a, ai, S, persons, seed) => {
   const lead = persons[0] === a, r = lead ? 0 : Math.max(1, persons.indexOf(a)), cur = exprOf(f, a, ai, persons);
   let swap = -1; for (let k = 1; k < 4; k++) { if (exprOf(f - k, a, ai, persons).e !== exprOf(f - k - 1, a, ai, persons).e) { swap = k; break; } }
   let lid = blinkLid(f, seed); if (swap >= 0) lid = Math.max(lid, [0.5, 1, 1, 0.5][swap - 1] ?? 0);
-  if (typeof a.expr === 'function' || a.acting === 'low') return { expr: cur.e, blink: lid, __acted: 1 };
+  if (typeof a.expr === 'function' || a.acting === 'low') return { expr: typeof a.expr === 'function' ? cur.e : keepFam(cur.base, cur.e, f, seed), blink: lid, __acted: 1 };
   const partner = persons.find((p) => p !== a); let toward = (a.look ?? 0.4) >= 0 ? 1 : -1;
   if (partner) { const pp = partner.move ? [partner.at[0] + (partner.move[0][0] - partner.at[0]) * Math.max(0, Math.min(1, (f - partner.move[1]) / Math.max(1, partner.move[2] - partner.move[1]))), partner.at[1]] : partner.at; const ap = a.at; const rt = camRightAt(f, ap[0], ap[1]); const d = (pp[0] - ap[0]) * rt[0] + (pp[1] - ap[1]) * rt[1]; toward = d >= 0 ? 1 : -1; if (a.flip) toward = -toward; }
   const L = cur.L; let face = 0, look = 0;
@@ -66,6 +74,7 @@ const actFor = (f, a, ai, S, persons, seed) => {
     if (spk) { fx.talk = qq(0.3 + 0.7 * Math.abs(Math.sin(f * 1.7)), 1); look = 0.9 * toward; face = 0.5 * toward; fx.browUp = qq(-2 * Math.abs(Math.sin(f * 0.4)), 1); }
     else { fx.skeptic = dexpr === 'suspicious'; look = 0.8 * toward; face = 0.42 * toward; if (ph < 4) lid = Math.max(lid, [0.5, 1, 1, 0.5][ph]); }
   }
+  dexpr = keepFam(cur.base, dexpr, f, seed);
   const o = { expr: dexpr, blink: lid, look: qq(look, 1), facing: qq(face, 1), fx, lean: qq(cur.lean, 1), __acted: 1, ...(spk === null ? {} : { spk: spk ? 1 : 0 }) };
   const GL = lead ? L : (LEAD[Math.max(0, f - 9 * r)] || {});
   if (!a.pose || a.pose === 'stand') { if (GL.g && (GL.gk || 0) > 0.02 && (lead || r === 1) && !a.rifleKeep) { o.gest = GL.g; o.gk = qq(GL.gk, 1); o.gt = qq(f / 30, 2); } }

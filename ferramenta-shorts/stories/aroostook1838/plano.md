@@ -13,5 +13,5 @@ b7 | two | -  | interior, objeto na mao | atirou (burst + som de tiro/explosao);
 b8 | two | -  | interior, objeto na mao | - | -
 b9 | close | -  | tropa, animais | - | -
 
-Mistura de planos: close 23% | medio 55% | aberto 14% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 23% | medio 58% | aberto 14% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal
