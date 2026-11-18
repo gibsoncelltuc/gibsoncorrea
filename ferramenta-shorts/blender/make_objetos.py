@@ -130,12 +130,13 @@ sx = 0.09 * 8 + 0.012 * 64
 box((sx, 6.6, 0), (1.0, 0.7, 1.0), '#d9cfb5'); box((sx, 7.1, 0), (1.1, 0.12, 1.1), '#b0282f', 0.7)
 box((0, 0.04, 0), (2.4, 0.08, 2.4), '#7f9a5c')
 done()
-box, done = start('feather')      # pena branca
-box((0, 0.06, 0), (0.07, 0.08, 1.0), '#c9b88a')
-for k in range(6):
-    z = -0.3 + k * 0.12; w = 0.3 - abs(k - 2.5) * 0.04
-    box((0.15, 0.06, z), (w * 1.6, 0.07, 0.14), '#ffffff'); box((-0.15, 0.06, z), (w * 1.6, 0.07, 0.14), '#efe9da')
-done()
+def _feather(bm, mats):   # pena: lamina branca alongada e achatada (elipsoide) + cabinho creme
+    for v in bm.verts: v.co.x *= 2.2; v.co.y *= 0.55; v.co.z = (v.co.z - 0.5) * 0.10 + 0.08
+    mats.append(mat('fequ', '#d8c690'))
+    r = bmesh.ops.create_cube(bm, size=1.0)
+    for v in r['verts']: v.co = Vector((v.co.x * 2.6 - 0.0, v.co.y * 0.05, v.co.z * 0.05 + 0.10))
+    for f in {f for v in r['verts'] for f in v.link_faces}: f.material_index = 1
+sphere('feather', 0.5, 0.5, '#ffffff', _feather)
 from mathutils import Matrix
 def _petri(bm, mats):   # prato de Petri: disco de agar claro, mancha verde de bolor no meio e halo limpo ao redor
     for v in bm.verts: v.co.z *= 0.16; v.co.z += 0.06
