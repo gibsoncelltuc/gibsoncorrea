@@ -204,6 +204,13 @@ window.inspectFrame = (f) => {
     const hits = []; for (const fy of [bb.y0 + 0.12 * (bb.y1 - bb.y0), bb.y0 + 0.38 * (bb.y1 - bb.y0)]) { const tgt = new THREE.Vector3(a.x, top - fy * hgt, a.z); const dir = tgt.clone().sub(cp); const dist = dir.length(); ray.set(cp, dir.normalize()); ray.far = dist - 0.3; const h = ray.intersectObjects(occl, false); hits.push(h.length ? { by: (h[0].object.name || h[0].object.geometry.type) + '/' + (h[0].object.material.color ? '#' + h[0].object.material.color.getHexString() : '?'), d: +h[0].distance.toFixed(2) } : null); }
     out.actors.push({ i, id: a.id || (a.key || '').slice(0, 8), x: +a.x.toFixed(2), z: +a.z.toFixed(2), dist: +cp.distanceTo(new THREE.Vector3(a.x, a.y, a.z)).toFixed(2), box: [+bx0.toFixed(3), +by0.toFixed(3), +bx1.toFixed(3), +by1.toFixed(3)], visible: +vis.toFixed(3), heightFrac: +(by1 - by0).toFixed(3), behind, occluded: hits.filter(Boolean).length, occluder: (hits.find(Boolean) || {}).by || null });
   });
+  /* PLACAS (texto em placa de madeira): entram no inspetor como 'placa' para o enquadramento garantir a placa INTEIRA no quadro */
+  for (const e of fxAt(f, T)) { if (!e || typeof e.key !== 'string' || !e.key.startsWith('txb')) continue; const s = e.s || 1, top = e.y + 2.194 * s, hgt = 2.25 * s;
+    const right = new THREE.Vector3(cp.z - e.z, 0, -(cp.x - e.x)).normalize().multiplyScalar(0.675 * s);
+    const P = (fx, fy) => new THREE.Vector3(e.x + right.x * (2 * fx - 1), top - fy * hgt, e.z + right.z * (2 * fx - 1)).project(camera);
+    const pts = [P(0.08, 0.2), P(0.92, 0.2), P(0.08, 0.46), P(0.92, 0.46)], xs = pts.map((p) => (p.x + 1) / 2), ys = pts.map((p) => (1 - p.y) / 2), behind = pts.some((p) => p.z > 1 || p.z < -1);
+    const bx0 = Math.min(...xs), bx1 = Math.max(...xs), by0 = Math.min(...ys), by1 = Math.max(...ys), ix = Math.max(0, Math.min(1, bx1) - Math.max(0, bx0)), iy = Math.max(0, Math.min(1, by1) - Math.max(0, by0)), area = (bx1 - bx0) * (by1 - by0);
+    out.placas = out.placas || []; out.placas.push({ box: [+bx0.toFixed(3), +by0.toFixed(3), +bx1.toFixed(3), +by1.toFixed(3)], visible: +(area > 0 ? (ix * iy) / area : 0).toFixed(3), behind }); }
   // 3D animals (props from the pool): project their world bounding boxes so the take inspector covers them too
   for (const nm of ['bear', 'horse', 'emu']) for (const o of (propPool[nm] || [])) { if (!o.visible) continue; const bb3 = new THREE.Box3().setFromObject(o); if (bb3.isEmpty()) continue;
     const cs = []; for (const x of [bb3.min.x, bb3.max.x]) for (const y of [bb3.min.y, bb3.max.y]) for (const z of [bb3.min.z, bb3.max.z]) cs.push(new THREE.Vector3(x, y, z).project(camera));

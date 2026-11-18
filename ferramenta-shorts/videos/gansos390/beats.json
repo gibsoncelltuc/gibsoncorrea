@@ -67,7 +67,15 @@
     "GAU:2:stern"
    ],
    "mapa": "ROMA",
-   "say": "Os gauleses tinham invadido a cidade, e queimado quase tudo. Quem não fugiu, morreu."
+   "say": "Os gauleses tinham invadido a cidade, e queimado quase tudo. Quem não fugiu, morreu.",
+   "fx": [
+    "dust@20",
+    "burst@55"
+   ],
+   "sfx": [
+    "thump@20",
+    "thump@55"
+   ]
   },
   {
    "shot": "group",
@@ -120,8 +128,9 @@
     "GAU:2:stern"
    ],
    "hora": "noite",
-   "say": "Numa noite sem lua, os gauleses escalaram a colina em silêncio. Os guardas dormiam. Nem os cachorros latiram.",
-   "shot_lock": true
+   "say": "Numa noite sem lua, os gauleses escalaram a colina em silêncio. Os guardas dormiam. Ninguém ouviu nada.",
+   "shot_lock": true,
+   "riscos_ok": true
   },
   {
    "shot": "two",
@@ -229,10 +238,11 @@
    "who": [
     "ROM:2:grin"
    ],
-   "say": "E os cachorros, que dormiram a noite inteira, um castigo.",
+   "say": "E os guardas, que dormiram a noite inteira, ganharam um castigo.",
    "hora": "dia"
   }
  ],
  "cinf": 4.5,
- "exp": 1.12
+ "exp": 1.12,
+ "heroi": null
 }
