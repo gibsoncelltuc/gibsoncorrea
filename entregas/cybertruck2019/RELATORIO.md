@@ -1,0 +1,5 @@
+# PF 11 — A Janela do Cybertruck (Poder e Fama)
+**Fatos (conferidos por busca):** apresentação do Cybertruck em 21/11/2019 (Califórnia); o designer Franz von Holzhausen jogou uma esfera de aço na janela e o vidro rachou; tentou de novo em outra janela e ela também rachou; Musk explicou depois, na internet, que nos ensaios a mesma esfera tinha batido na janela sem arranhar. Sem fala entre aspas (as fontes divergem sobre a frase exata), sem opinião a favor/contra. Descrição: "Animação humorística. Personagens são caricaturas."
+**Passou:** conferir.sh OK (43 s, 1080x1920, 0 riscos); esfera de aço (herói) em close; mapa Califórnia; reação da plateia (momento aberto) e mais um plano aberto no fim; multidão só POV.
+**Não passou / limitações:** o vidro rachando não aparece (só estrondo e reação, a ferramenta não anima vidro quebrando); cenário "hall" parece um galpão de madeira; a picape é cinza simples; duas transições esmaecidas (~25,5 s e ~34 s).
+**Refeito:** nenhuma cena no render. Antes: modelei `cybertruck` e `steel_ball` (novas palavras em obj_dict.d/sessao_b.json); corrigi dois erros de gate (figurino FRA colidia com figurino interno; POV não definido).
