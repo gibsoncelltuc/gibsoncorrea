@@ -15,6 +15,10 @@ Cuidado visto na prática: se a narração diz "noite", a cena e as seguintes fi
 6. **Verificação final:** `./conferir.sh <id>` e depois ABRIR `out/<id>/review_sheet.jpg` e olhar. Defeito crítico → corrigir o roteiro e `./refazer.sh <id> bN` (cenas) ou `./refazer_tudo.sh <id>` (inteiro). Não pergunte ao Gibson: corrija e relate.
 7. **Entregar:** mandar pelo chat o mp4 ORIGINAL de `entregas/<id>/` (1080×1920) + relatório curto (o que passou, o que não passou, o que foi refeito). Commit + push.
 
+## Regra número 1: seguir o roteiro À RISCA
+
+Tudo que a narração cita tem que aparecer na tela, na mesma cena: se diz "fazenda", tem fazenda (celeiro, cerca, feno); se diz "notas de dólar", o personagem segura as notas; se diz "navios", tem navio. A ferramenta já põe sozinha lugares (`LUGARES` no `mkvideo.py`: fazenda, casa, igreja, mercado, floresta, acampamento, castelo, cidade, praça) e objetos (`OBJ_DICT`). Cada cena da folha 2 tem a linha **CONFERIR NA FOLHA DE CONTATO** com as palavras da narração: confira uma por uma no storyboard/folha de contato. Faltou → ponha em `props`, na mão (`who`), ou modele. Não entregue vídeo em que a narração fala de algo que não se vê.
+
 ## Todo vídeo tem (a folha 2 confere)
 
 - Objeto herói abrindo e fechando o vídeo, com close de câmera.

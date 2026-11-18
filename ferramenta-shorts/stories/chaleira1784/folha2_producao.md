@@ -9,6 +9,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Personagens principais (2): COZ (variante 0, expressao shock); HOL (variante 0, expressao grin)
 - Animacao: reagir | interacao: o outro se aproxima
 - Objetos/modelos: kit/kettle
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chaleira, sopa
 - RISCOS: nenhum
 
 ## Cena b1 - Era mil setecentos e oitenta e quatro. A Holanda tinha fechado um rio,...
@@ -18,6 +19,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Personagens principais (2): HOL (variante 0, expressao stern); HOL (variante 1, expressao stern) | multidao: 8 de HOL
 - Animacao: -
 - Objetos/modelos: navios ao fundo
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): holanda
 - RISCOS: nenhum
 
 ## Cena b2 - O imperador da Áustria ficou furioso. Ele queria o rio aberto para os ...
@@ -27,6 +29,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Personagens principais (2): IMP (variante 0, expressao angry); GEN (variante 0, expressao nervous)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): austria, imperador, navios
 - RISCOS: nenhum
 
 ## Cena b3 - "Mandem três navios", ordenou ele. "Os holandeses não vão ter coragem ...
@@ -36,6 +39,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Personagens principais (2): IMP (variante 0, expressao shout); GEN (variante 0, expressao scared, segura paper)
 - Animacao: conversar | interacao: reverencia
 - Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): atirar, holandeses
 - RISCOS: nenhum
 
 ## Cena b4 - Os três navios desceram o rio, com o maior na frente, cheio de soldado...
@@ -45,6 +49,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Personagens principais (2): AUS (variante 0, expressao smug); AUS (variante 1, expressao grin) | multidao: 14 de AUS
 - Animacao: conversar | interacao: insiste
 - Objetos/modelos: war/flagpole
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bandeiras, frente, soldados, tres
 - RISCOS: nenhum
 
 ## Cena b5 - Acontece que um navio holandês estava esperando. Ele mirou, e deu um ú...
@@ -54,6 +59,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Personagens principais (2): HOL (variante 0, expressao stern); HOL (variante 1, expressao angry) | multidao: 16 de HOL
 - Animacao: - | batalha encenada
 - Objetos/modelos: cannon, navios ao fundo
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canhao, navio
 - RISCOS: nenhum
 
 ## Cena b6 - A bala atravessou o convés, e acertou em cheio a chaleira de sopa do c...
@@ -63,6 +69,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Personagens principais (2): COZ (variante 0, expressao scared); AUS (variante 0, expressao surprised)
 - Animacao: conversar | interacao: vai ate o outro
 - Objetos/modelos: kit/kettle
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bala, chaleira, conves, cozinheiro, sopa
 - RISCOS: nenhum
 
 ## Cena b7 - O capitão austríaco olhou para a sopa derramada, e se rendeu na mesma ...
@@ -72,6 +79,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Personagens principais (3): GEN (variante 0, expressao scared, segura flag); AUS (variante 0, expressao nervous); COZ (variante 0, expressao cry) | multidao: 12 de GEN/AUS/COZ
 - Animacao: reagir | batalha encenada
 - Objetos/modelos: kit/kettle
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): capitao, sopa
 - RISCOS: nenhum
 
 ## Cena b8 - O imperador desistiu do rio. Em troca, a Holanda pagou uma indenização...
@@ -81,6 +89,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Personagens principais (2): IMP (variante 0, expressao sad); HOL (variante 0, expressao smug, segura money)
 - Animacao: - | interacao: entregar
 - Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): holanda, imperador, indenizacao
 - RISCOS: nenhum
 
 ## Cena b9 - Ninguém morreu. Só o almoço.
@@ -90,6 +99,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Personagens principais (1): COZ (variante 0, expressao sad)
 - Animacao: conversar
 - Objetos/modelos: kit/kettle
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): almoco
 - RISCOS: nenhum
 
 ## Video inteiro
