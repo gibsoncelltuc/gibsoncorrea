@@ -1,0 +1,234 @@
+{
+ "duration": 54.912,
+ "frames30": 1647,
+ "source": "silence-align (cost 0.46)",
+ "segments": [
+  [
+   0.158875,
+   4.28683
+  ],
+  [
+   5.15238,
+   6.87083
+  ],
+  [
+   7.10517,
+   8.93867
+  ],
+  [
+   9.21333,
+   10.7617
+  ],
+  [
+   11.035,
+   12.5216
+  ],
+  [
+   13.3791,
+   14.7727
+  ],
+  [
+   15.0783,
+   17.5106
+  ],
+  [
+   18.3182,
+   19.7245
+  ],
+  [
+   20.0435,
+   20.7356
+  ],
+  [
+   20.9541,
+   21.6175
+  ],
+  [
+   21.8632,
+   23.0302
+  ],
+  [
+   23.89,
+   24.4095
+  ],
+  [
+   24.6807,
+   26.0204
+  ],
+  [
+   26.3239,
+   27.9059
+  ],
+  [
+   28.116,
+   29.2985
+  ],
+  [
+   30.1666,
+   31.143
+  ],
+  [
+   31.3423,
+   34.1699
+  ],
+  [
+   35.0474,
+   37.9206
+  ],
+  [
+   38.1786,
+   39.49
+  ],
+  [
+   40.3534,
+   40.767
+  ],
+  [
+   41.0353,
+   43.9115
+  ],
+  [
+   44.1901,
+   45.5373
+  ],
+  [
+   46.3853,
+   46.7984
+  ],
+  [
+   47.1137,
+   50.0637
+  ],
+  [
+   50.9378,
+   54.1009
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Uma fatia de melancia sem pagar come\u00e7ou uma briga entre o Panam\u00e1 e os Estados Unidos.",
+   "s": 0.159,
+   "e": 4.287
+  },
+  {
+   "text": "Em mil oitocentos e cinquenta e seis,",
+   "s": 5.152,
+   "e": 6.871
+  },
+  {
+   "text": "viajantes cruzavam o Panam\u00e1 de trem,",
+   "s": 7.105,
+   "e": 8.939
+  },
+  {
+   "text": "a caminho do ouro da Calif\u00f3rnia,",
+   "s": 9.213,
+   "e": 10.762
+  },
+  {
+   "text": "em uma viagem cheia de gente.",
+   "s": 11.035,
+   "e": 12.522
+  },
+  {
+   "text": "Um deles parou numa barraca,",
+   "s": 13.379,
+   "e": 14.773
+  },
+  {
+   "text": "comeu uma fatia de melancia e foi embora sem pagar.",
+   "s": 15.078,
+   "e": 17.511
+  },
+  {
+   "text": "O vendedor pediu o pagamento:",
+   "s": 18.318,
+   "e": 19.724
+  },
+  {
+   "text": "\"Pague a fatia!\",",
+   "s": 20.044,
+   "e": 20.736
+  },
+  {
+   "text": "gritou ele,",
+   "s": 20.954,
+   "e": 21.617
+  },
+  {
+   "text": "e o viajante s\u00f3 riu.",
+   "s": 21.863,
+   "e": 23.03
+  },
+  {
+   "text": "Irritado,",
+   "s": 23.89,
+   "e": 24.41
+  },
+  {
+   "text": "o viajante sacou uma arma,",
+   "s": 24.681,
+   "e": 26.02
+  },
+  {
+   "text": "e a confus\u00e3o come\u00e7ou ali mesmo,",
+   "s": 26.324,
+   "e": 27.906
+  },
+  {
+   "text": "na frente de todo mundo.",
+   "s": 28.116,
+   "e": 29.299
+  },
+  {
+   "text": "Em poucos minutos,",
+   "s": 30.167,
+   "e": 31.143
+  },
+  {
+   "text": "a rua virou uma briga enorme entre moradores e viajantes.",
+   "s": 31.342,
+   "e": 34.17
+  },
+  {
+   "text": "Acontece que mais de quinze pessoas morreram naquele dia,",
+   "s": 35.047,
+   "e": 37.921
+  },
+  {
+   "text": "e a cidade ficou em choque.",
+   "s": 38.179,
+   "e": 39.49
+  },
+  {
+   "text": "No fim,",
+   "s": 40.353,
+   "e": 40.767
+  },
+  {
+   "text": "o governo local pagou uma indeniza\u00e7\u00e3o enorme pelas mortes,",
+   "s": 41.035,
+   "e": 43.911
+  },
+  {
+   "text": "e a cidade nunca esqueceu.",
+   "s": 44.19,
+   "e": 45.537
+  },
+  {
+   "text": "No fim,",
+   "s": 46.385,
+   "e": 46.798
+  },
+  {
+   "text": "o governo local pagou uma indeniza\u00e7\u00e3o enorme pelas mortes.",
+   "s": 47.114,
+   "e": 50.064
+  },
+  {
+   "text": "Tudo isso por uma fatia de melancia que custava poucos centavos.",
+   "s": 50.938,
+   "e": 54.101
+  }
+ ]
+}
