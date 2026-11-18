@@ -90,3 +90,74 @@ As 10 faixas têm 60 s. Conferi cada uma com o Whisper (transcrição) comparand
 | 10 | Tchu-Tchu, Trenzinho! | 41 | Refrão reconhecido, "tchu" soa como "chu" |
 
 Se alguma soar mal, me diga o número que eu gero outras versões com outra semente (cada uma leva cerca de 10 min).
+
+---
+
+# 7. Estudo ampliado: 36 vídeos de música infantil (18/11/2026)
+
+Dados lidos do YouTube em 18/11/2026 (visualizações acumuladas, que dependem da idade do vídeo).
+
+## 7.1 Os vídeos
+
+**Recordistas globais**
+| Vídeo | Canal | Views |
+|---|---|---|
+| Baby Shark Dance | Pinkfong | 17,28 bi |
+| Wheels on the Bus | Cocomelon | 9,34 bi |
+| Bath Song | Cocomelon | 7,61 bi |
+| Johny Johny Yes Papa | LooLoo Kids | 7,24 bi |
+| Phonics Song | ChuChu TV | 7,08 bi |
+| Baa Baa Black Sheep | Cocomelon | 4,92 bi |
+| Lakdi Ki Kathi | Jingle Toons | 4,65 bi |
+| Humpty the Train | Kiddiestv Hindi | 4,41 bi |
+| Baby Shark | Cocomelon | 4,39 bi |
+
+**Brasil**
+| Vídeo | Canal | Views | Duração |
+|---|---|---|---|
+| Funk do Patinho | Bento e Totó | 2,25 bi | 2:03 |
+| Parabéns da Galinha Pintadinha | Galinha Pintadinha | 1,99 bi | **1:08** |
+| Fazendinha | Mundo Bita | 1,82 bi | 2:15 |
+| Crazy Dance | Bolofofos | 1,72 bi | 4:06 |
+| Viajar pelo Safari | Mundo Bita | 1,48 bi | 3:03 |
+| Fundo do Mar | Mundo Bita | 837 mi | 2:29 |
+| Superfantástico | Patati Patatá | 682 mi | 3:16 |
+| Happy Birthday | Bolofofos | 621 mi | 2:48 |
+| Dia de Festa | Os Pequerruchos | 478 mi | 2:37 |
+| Parabéns do Bita | Mundo Bita | 415 mi | 2:44 |
+| Dinossauros | Mundo Bita | 304 mi | 2:30 |
+
+**Aniversário, dança e "faça o movimento" (inglês)**
+| Vídeo | Canal | Views |
+|---|---|---|
+| If You're Happy and You Know It | Super Simple Songs | 1,39 bi |
+| Happy Birthday Song | Cocomelon | 1,19 bi |
+| Wheels on the Bus | Bounce Patrol | 1,18 bi |
+| Looby Loo | Cocomelon | 935 mi |
+| Party Freeze Dance | The Kiboomers | 650 mi |
+| Floor Is Lava | The Kiboomers | 572 mi |
+| Going on a Bear Hunt | The Kiboomers | 527 mi |
+| Five Little Monkeys (Dance Along) | Pinkfong | 398 mi |
+
+**O que está funcionando agora (últimos 12 meses)**
+| Vídeo | Canal | Views | Idade |
+|---|---|---|---|
+| Anda pra Frente, Anda pra Trás | Bento e Totó | 339 mi | 10 meses |
+| Grandpa's Cell Phone | Animadinhos | 218 mi | 6 meses |
+| Brush Your Teeth Song | Lily and Bunny | 111 mi | 5 meses |
+| Pressure Cooker | Animadinhos | 93 mi | 4 meses |
+| Popinha | Animadinhos | 39 mi | 3 meses |
+| Little Mouse Ratata | Animadinhos | 39 mi | 6 meses |
+| Batidão | Animadinhos | 36 mi | 1 mês |
+| Lizard Dance | Animadinhos | 29 mi | 1 mês |
+| Ouchie! Boo Boo Song | Bebefinn | 27,5 mi | 5 meses |
+
+## 7.2 O que isso muda (e o que eu tinha errado)
+
+1. **A batida manda.** Os maiores sucessos brasileiros recentes (*Funk do Patinho*, *Batidão*, *Anda pra Frente, Anda pra Trás*) são **kids com batida de funk/pop dançante**, não música de roda com violão. Minha primeira versão estava mole demais. **Refiz o estilo das 10 faixas com kick forte, palmas, baixo marcado e groove dançante.**
+2. **Aniversário é nicho gigante e permanente.** Cinco dos vídeos acima são "Parabéns" ou "Dia de Festa" (Galinha Pintadinha, Bolofofos, Bita, Cocomelon, Pequerruchos). Eu não tinha nenhuma música de aniversário. **Troquei a nº 9 (ninar) por "Parabéns, Que Festa!"**
+3. **Música que manda o corpo fazer algo** ("anda pra frente", "freeze dance", "Looby Loo", "Floor is Lava"). A criança participa e vira brincadeira de festa. Várias das 10 já fazem isso; reforcei.
+4. **Títulos com uma palavra/som** (*Popinha*, *Batidão*, *Ratatá*, *Pressure Cooker*). Fácil de buscar e de falar.
+5. **Duração curta.** O "Parabéns" da Galinha Pintadinha tem 1:08. Para Shorts, 60 s está certo.
+6. **Cuidado com a comparação.** As views dos vídeos antigos se acumularam por anos. Os de 2026 mostram o que funciona agora: **palavra engraçada + batida + dança**.
+7. **O que eu não consegui verificar:** o BPM real dessas músicas e o ranking de sons do TikTok/Reels.
