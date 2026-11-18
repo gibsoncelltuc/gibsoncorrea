@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 23 - O Martelo da Meia-Noite
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback | 11 cenas, 173 palavras (~60 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain | 11 cenas, 173 palavras (~60 s)
 
 ## Cena b0  (~7.2 s)
 - Narracao: Para destruir um bunker escondido dentro de uma montanha, os Estados Unidos usaram uma bomba que nunca tinha saído do papel.
@@ -13,7 +13,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b1  (~6.2 s)
 - Narracao: Foi em junho de dois mil e vinte e cinco. O alvo eram as usinas nucleares do Irã.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b3  (~7.6 s)
 - Narracao: Só uma arma chegava lá: a bomba antibunker, com mais de treze toneladas. E só um avião carrega essa bomba: o B-2.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
 - Efeito + som nas palavras-chave: bomba -> burst + som de tiro/explosao; bomba: -> burst + som de tiro/explosao
 - Efeito visual marcado: ring@30
@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b4  (~3.1 s)
 - Narracao: Trump autorizou a missão. O nome: Martelo da Meia-Noite.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b5  (~4.8 s)
 - Narracao: Sete bombardeiros invisíveis decolaram do Missouri, e voaram mais de um dia sem parar.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@20, whoosh@50
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: whoosh@20, whoosh@50
@@ -58,7 +58,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b6  (~4.1 s)
 - Narracao: Para despistar, outros B-2 foram mandados na direção contrária, para o Pacífico.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b7  (~6.6 s)
 - Narracao: Acontece que, de madrugada, os aviões soltaram catorze bombas. Doze delas em cima de Fordow, pelos respiros do bunker.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: cannon@25, cannon@45, thump@60
 - Efeito + som nas palavras-chave: bombas -> burst + som de tiro/explosao
 - Efeito visual marcado: burst@25, burst@45, puff@60
@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b9  (~5.2 s)
 - Narracao: Trump disse que as usinas foram destruídas. Avaliações posteriores discutiram o tamanho real do estrago.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@30
@@ -94,7 +94,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b10  (~4.8 s)
 - Narracao: Foi a primeira vez na história que essa bomba gigante foi usada de verdade.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: cannon@40
 - Efeito + som nas palavras-chave: bomba -> burst + som de tiro/explosao
 - Efeito visual marcado: burst@40
