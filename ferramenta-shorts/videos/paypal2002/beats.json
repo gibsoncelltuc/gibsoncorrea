@@ -1,0 +1,221 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Poder e Fama",
+ "ep": 14,
+ "title": "O Dia em que o PayPal Foi Vendido",
+ "titulo_base": "O Dia em que o PayPal Foi Vendido",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/coin",
+ "outfits": {
+  "MUS": {
+   "jacket": "#16181d",
+   "pants": "#22252c",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#3a2a1f",
+   "pele": "#f2e2d2"
+  },
+  "EBY": {
+   "profissao": "comerciante",
+   "jacket": "#3a5a9a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#2a1a10",
+   "glasses": true
+  },
+  "POV": {
+   "jacket": "#3a8a5a",
+   "pants": "#2a3a5a",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#6a3a1a"
+  }
+ },
+ "beats": [
+  {
+   "say": "Em julho de dois mil e dois, nos Estados Unidos, a empresa eBay anunciou a compra do PayPal.",
+   "shot": "two",
+   "who": [
+    "EBY:0:grin",
+    "MUS:0:surprised"
+   ],
+   "mapa": "ESTADOS UNIDOS",
+   "mapa_at": 3,
+   "props": [
+    [
+     "kit/coin",
+     1.5,
+     0.2,
+     1.3
+    ]
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "fx": [
+    "stars@6"
+   ],
+   "sfx": [
+    "ding@6"
+   ]
+  },
+  {
+   "say": "O PayPal era um serviço para pagar e receber dinheiro pela internet.",
+   "shot": "two",
+   "who": [
+    "MUS:0:smile",
+    "EBY:0:neutral"
+   ],
+   "acao": "conversar",
+   "props": [
+    [
+     "kit/coin",
+     -1.5,
+     0.3,
+     1.2
+    ]
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": false
+  },
+  {
+   "say": "O valor do negócio foi de um bilhão e meio de dólares, pagos em ações.",
+   "shot": "close",
+   "who": [
+    "EBY:0:shock"
+   ],
+   "props": [
+    [
+     "kit/coin",
+     1.3,
+     0.2,
+     1.5
+    ]
+   ],
+   "text": "US$ 1,5 BILHÃO",
+   "fx": [
+    "stars@5"
+   ],
+   "sfx": [
+    "ding@5"
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": false
+  },
+  {
+   "say": "Elon Musk era o maior acionista do PayPal.",
+   "shot": "reveal",
+   "who": [
+    "MUS:0:smug",
+    "EBY:0:smile"
+   ],
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "POV"
+    ],
+    "march": false
+   },
+   "tiros": false,
+   "batalha": false,
+   "impact": true
+  },
+  {
+   "say": "Com o dinheiro da venda, ele pôde investir em novos projetos, como a SpaceX e a Tesla.",
+   "shot": "two",
+   "who": [
+    "MUS:0:grin",
+    "POV:0:surprised"
+   ],
+   "acao": "conversar",
+   "props": [
+    [
+     "kit/rocket",
+     1.7,
+     -0.6,
+     1.0
+    ]
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "fx": [
+    "stars@3"
+   ],
+   "sfx": [
+    "ding@3"
+   ]
+  },
+  {
+   "say": "A SpaceX foi fundada naquele mesmo ano, em dois mil e dois.",
+   "shot": "crowd",
+   "who": [
+    "MUS:0:laugh",
+    "POV:0:shock"
+   ],
+   "props": [
+    [
+     "kit/rocket",
+     0,
+     -2.5,
+     1.8
+    ]
+   ],
+   "fx": [
+    "burst@4"
+   ],
+   "sfx": [
+    "whoosh@4"
+   ],
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
+   "tiros": false,
+   "batalha": false,
+   "impact": true
+  },
+  {
+   "say": "Uma venda de internet que ajudou a pagar foguetes e carros elétricos.",
+   "shot": "group",
+   "who": [
+    "MUS:0:laugh",
+    "EBY:0:smile",
+    "POV:0:grin"
+   ],
+   "props": [
+    [
+     "kit/coin",
+     1.8,
+     -0.3,
+     1.2
+    ],
+    [
+     "kit/rocket",
+     -1.9,
+     -0.5,
+     0.9
+    ]
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "fx": [
+    "stars@3"
+   ],
+   "sfx": [
+    "ding@3"
+   ]
+  }
+ ]
+}
