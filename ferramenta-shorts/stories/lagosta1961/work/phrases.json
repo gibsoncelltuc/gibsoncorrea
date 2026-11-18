@@ -1,0 +1,243 @@
+{
+ "duration": 56.184,
+ "frames30": 1686,
+ "source": "silence-align (cost 0.57)",
+ "segments": [
+  [
+   0.1665,
+   3.42292
+  ],
+  [
+   4.27183,
+   6.02021
+  ],
+  [
+   6.87804,
+   9.79383
+  ],
+  [
+   10.1203,
+   12.066
+  ],
+  [
+   12.9314,
+   13.8385
+  ],
+  [
+   14.091,
+   15.5712
+  ],
+  [
+   15.7961,
+   16.5641
+  ],
+  [
+   17.4302,
+   18.5399
+  ],
+  [
+   18.7658,
+   19.5415
+  ],
+  [
+   19.7463,
+   20.8668
+  ],
+  [
+   21.7355,
+   22.8337
+  ],
+  [
+   23.1288,
+   26.4185
+  ],
+  [
+   27.2607,
+   29.128
+  ],
+  [
+   29.9857,
+   31.9073
+  ],
+  [
+   32.1087,
+   33.0668
+  ],
+  [
+   33.9222,
+   36.2328
+  ],
+  [
+   36.5081,
+   38.2233
+  ],
+  [
+   39.0747,
+   40.2878
+  ],
+  [
+   41.1417,
+   43.2688
+  ],
+  [
+   43.5015,
+   44.3442
+  ],
+  [
+   45.1637,
+   46.8
+  ],
+  [
+   47.047,
+   47.9367
+  ],
+  [
+   48.2294,
+   50.299
+  ],
+  [
+   50.5382,
+   51.095
+  ],
+  [
+   51.9616,
+   52.3643
+  ],
+  [
+   52.594,
+   55.4214
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "A Fran\u00e7a e o Brasil quase entraram em guerra por causa de uma lagosta.",
+   "s": 0.167,
+   "e": 3.423
+  },
+  {
+   "text": "Era mil novecentos e sessenta e um.",
+   "s": 4.272,
+   "e": 6.02
+  },
+  {
+   "text": "Barcos franceses pescavam lagostas na costa de Pernambuco,",
+   "s": 6.878,
+   "e": 9.794
+  },
+  {
+   "text": "e os pescadores brasileiros n\u00e3o gostaram.",
+   "s": 10.12,
+   "e": 12.066
+  },
+  {
+   "text": "O Brasil dizia:",
+   "s": 12.931,
+   "e": 13.838
+  },
+  {
+   "text": "\"Lagosta anda no fundo do mar,",
+   "s": 14.091,
+   "e": 15.571
+  },
+  {
+   "text": "ent\u00e3o \u00e9 nossa.\"",
+   "s": 15.796,
+   "e": 16.564
+  },
+  {
+   "text": "A Fran\u00e7a respondia:",
+   "s": 17.43,
+   "e": 18.54
+  },
+  {
+   "text": "\"Lagosta nada,",
+   "s": 18.766,
+   "e": 19.541
+  },
+  {
+   "text": "ent\u00e3o \u00e9 de todo mundo.\"",
+   "s": 19.746,
+   "e": 20.867
+  },
+  {
+   "text": "A discuss\u00e3o esquentou,",
+   "s": 21.735,
+   "e": 22.834
+  },
+  {
+   "text": "e a Fran\u00e7a mandou um navio de guerra para proteger os pescadores dela.",
+   "s": 23.129,
+   "e": 26.419
+  },
+  {
+   "text": "Acontece que o Brasil n\u00e3o recuou.",
+   "s": 27.261,
+   "e": 29.128
+  },
+  {
+   "text": "Mandou navios e avi\u00f5es para a costa,",
+   "s": 29.986,
+   "e": 31.907
+  },
+  {
+   "text": "e a tens\u00e3o subiu.",
+   "s": 32.109,
+   "e": 33.067
+  },
+  {
+   "text": "Marinheiros dos dois lados se encararam no mar,",
+   "s": 33.922,
+   "e": 36.233
+  },
+  {
+   "text": "e todo mundo esperou o primeiro tiro.",
+   "s": 36.508,
+   "e": 38.223
+  },
+  {
+   "text": "Mas o tiro nunca veio.",
+   "s": 39.075,
+   "e": 40.288
+  },
+  {
+   "text": "Os dois governos se reuniram e conversaram,",
+   "s": 41.142,
+   "e": 43.269
+  },
+  {
+   "text": "em vez de brigar.",
+   "s": 43.502,
+   "e": 44.344
+  },
+  {
+   "text": "Em mil novecentos e sessenta e tr\u00eas,",
+   "s": 45.164,
+   "e": 46.8
+  },
+  {
+   "text": "fecharam um acordo:",
+   "s": 47.047,
+   "e": 47.937
+  },
+  {
+   "text": "alguns barcos franceses podiam pescar,",
+   "s": 48.229,
+   "e": 50.299
+  },
+  {
+   "text": "com limite.",
+   "s": 50.538,
+   "e": 51.095
+  },
+  {
+   "text": "No fim,",
+   "s": 51.962,
+   "e": 52.364
+  },
+  {
+   "text": "ningu\u00e9m perguntou para a lagosta de que lado ela queria ficar.",
+   "s": 52.594,
+   "e": 55.421
+  }
+ ]
+}

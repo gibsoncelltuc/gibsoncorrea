@@ -1,0 +1,232 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Guerras Inusitadas",
+ "ep": 11,
+ "title": "A Guerra da Lagosta",
+ "titulo_base": "A Guerra da Lagosta",
+ "set": "harbor",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/lobster",
+ "outfits": {
+  "BRA": {
+   "jacket": "#2e9b4f",
+   "pants": "#f2c230",
+   "boots": "#1b1b1f",
+   "hat": "hair"
+  },
+  "FRA": {
+   "jacket": "#2f4fb5",
+   "pants": "#f1efe6",
+   "boots": "#1b1b1f",
+   "hat": "beret",
+   "cap": "#d33a3a"
+  },
+  "PES": {
+   "jacket": "#e0a030",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hats": [
+    "straw",
+    "cap",
+    "hair"
+   ]
+  },
+  "MAR": {
+   "jacket": "#1e3a6e",
+   "pants": "#f1efe6",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#1e3a6e"
+  },
+  "PRE": {
+   "jacket": "#2a2a30",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "bowler",
+   "build": "stout"
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "set": "harbor",
+   "who": [
+    "BRA:0:angry",
+    "FRA:0:smug"
+   ],
+   "props": [
+    [
+     "kit/lobster",
+     0,
+     1.9,
+     1.4
+    ]
+   ],
+   "text": "1961",
+   "interacao": "discutir",
+   "acao": "discutir",
+   "say": "A França e o Brasil quase entraram em guerra por causa de uma lagosta."
+  },
+  {
+   "shot": "reveal",
+   "set": "harbor",
+   "who": [
+    "PES:0:stern",
+    "PES:1:angry"
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "PES"
+    ],
+    "march": false
+   },
+   "mapa": "PERNAMBUCO",
+   "mapa_at": 3,
+   "props": [
+    [
+     "boat",
+     5,
+     -8,
+     1.3
+    ]
+   ],
+   "say": "Era mil novecentos e sessenta e um. Barcos franceses pescavam lagostas na costa de Pernambuco, e os pescadores brasileiros não gostaram.",
+   "fx": [
+    "puff@70"
+   ],
+   "sfx": [
+    "thump@70"
+   ]
+  },
+  {
+   "shot": "two",
+   "set": "harbor",
+   "who": [
+    "BRA:0:angry",
+    "PES:0:stern"
+   ],
+   "acao": "discutir",
+   "say": "O Brasil dizia: \"Lagosta anda no fundo do mar, então é nossa.\""
+  },
+  {
+   "shot": "two",
+   "set": "harbor",
+   "who": [
+    "FRA:0:smug",
+    "FRA:1:laugh"
+   ],
+   "interacao": "cochichar",
+   "say": "A França respondia: \"Lagosta nada, então é de todo mundo.\""
+  },
+  {
+   "shot": "group",
+   "set": "harbor",
+   "who": [
+    "FRA:0:stern",
+    "MAR:0:stern",
+    "MAR:1:angry"
+   ],
+   "props": [
+    [
+     "ship",
+     -6,
+     -8,
+     1.3
+    ]
+   ],
+   "say": "A discussão esquentou, e a França mandou um navio de guerra para proteger os pescadores dela."
+  },
+  {
+   "shot": "crowd",
+   "set": "harbor",
+   "who": [
+    "MAR:0:angry",
+    "MAR:1:shout"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "MAR",
+     "BRA"
+    ],
+    "march": true,
+    "expr": "angry"
+   },
+   "props": [
+    [
+     "ship",
+     -7,
+     -9,
+     1.3
+    ],
+    [
+     "vehicles/airplane",
+     5,
+     -10,
+     1.2
+    ]
+   ],
+   "text": "NAVIOS E AVIÕES",
+   "titulo": true,
+   "say": "Acontece que o Brasil não recuou. Mandou navios e aviões para a costa, e a tensão subiu."
+  },
+  {
+   "shot": "two",
+   "set": "harbor",
+   "who": [
+    "MAR:0:stern",
+    "MAR:1:nervous"
+   ],
+   "acao": "discutir",
+   "fx": [
+    "puff@40"
+   ],
+   "sfx": [
+    "tick@40"
+   ],
+   "say": "Marinheiros dos dois lados se encararam no mar, e todo mundo esperou o primeiro tiro."
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "FRA:0:relief:paper",
+    "BRA:0:smile"
+   ],
+   "interacao": "entregar",
+   "say": "Mas o tiro nunca veio. Os dois governos se reuniram e conversaram, em vez de brigar."
+  },
+  {
+   "shot": "two",
+   "set": "harbor",
+   "who": [
+    "PES:0:laugh",
+    "FRA:0:relief"
+   ],
+   "acao": "comemorar",
+   "text": "1963",
+   "say": "Em mil novecentos e sessenta e três, fecharam um acordo: alguns barcos franceses podiam pescar, com limite."
+  },
+  {
+   "shot": "close",
+   "set": "harbor",
+   "who": [
+    "BRA:0:nervous"
+   ],
+   "props": [
+    [
+     "kit/lobster",
+     1.3,
+     -0.5,
+     1.3
+    ]
+   ],
+   "say": "No fim, ninguém perguntou para a lagosta de que lado ela queria ficar."
+  }
+ ]
+}

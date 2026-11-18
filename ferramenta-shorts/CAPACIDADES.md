@@ -64,7 +64,7 @@ beret, bonnet, bowler, cap, crown, fez, hair, helmet, shako, shako_tall, slouch,
 - buildings/bridge  <- \bponte\b  (fundo, so cena externa)
 
 ## Biblioteca 3D completa (use em "props": [["pasta/nome", x, z, escala]])
-- kit: ball, cake_table, campfire, chest, cross, grave, kettle, porch, room_shop, room_stone, room_wood, stall, tent, throne, tulip_bed, tulip_purple, tulip_red, tulip_striped, tulip_yellow
+- kit: ball, cake_table, campfire, chest, cross, grave, kettle, lobster, porch, room_shop, room_stone, room_wood, stall, tent, throne, tulip_bed, tulip_purple, tulip_red, tulip_striped, tulip_yellow
 - buildings: apartment, barn, bridge, castle_tower, church, house_blue, house_small, house_two, lighthouse, shop, skyscraper, windmill
 - vehicles: airplane, bicycle, car, car_blue, helicopter, jeep, locomotive, motorboat, motorcycle, sailboat, tank, taxi, truck, wagon
 - nature: bench, bush, flowerbed, fountain, haybale, lamppost, picket_fence, rocks, scarecrow, tree_birch, tree_oak, tree_palm, tree_pine
