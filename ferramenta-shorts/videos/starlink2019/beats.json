@@ -72,8 +72,7 @@
      1.0,
      0.5
     ]
-   ],
-   "hora": "pordosol"
+   ]
   },
   {
    "tiros": false,
@@ -113,8 +112,7 @@
      1.2,
      0.6
     ]
-   ],
-   "hora": "pordosol"
+   ]
   },
   {
    "tiros": false,
@@ -140,7 +138,15 @@
    "sfx": [
     "ding@40"
    ],
-   "hora": "pordosol"
+   "hora": "noite",
+   "props": [
+    [
+     "kit/starlink_train",
+     0,
+     -16.0,
+     1.4
+    ]
+   ]
   },
   {
    "tiros": false,
@@ -153,7 +159,15 @@
     "JOR:0:shock"
    ],
    "text": "56",
-   "hora": "pordosol"
+   "hora": "noite",
+   "props": [
+    [
+     "kit/starlink_train",
+     0,
+     -16.0,
+     1.4
+    ]
+   ]
   },
   {
    "tiros": false,
@@ -175,8 +189,7 @@
    ],
    "sfx": [
     "sting@40"
-   ],
-   "hora": "pordosol"
+   ]
   },
   {
    "tiros": false,

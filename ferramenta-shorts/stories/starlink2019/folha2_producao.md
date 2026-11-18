@@ -3,12 +3,12 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/starlink2019/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py starlink2019` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Em maio de dois mil e dezenove, a SpaceX lançou um foguete Falcon 9 co...
-- Cenario: street | luz: pordosol | clima: limpo
+- Cenario: street | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (1): AST (variante 0, expressao grin)
 - Animacao: conversar
-- Objetos/modelos: kit/falcon_air, kit/rocket
+- Objetos/modelos: kit/falcon_air, kit/rocket, kit/starlink_sat
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, foguete, sessenta, spacex
 - RISCOS: nenhum
 
@@ -18,42 +18,42 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): AST (variante 0, expressao smug); JOR (variante 0, expressao suspicious) | multidao: 8 de POV
 - Animacao: -
-- Objetos/modelos: kit/falcon_air
+- Objetos/modelos: kit/falcon_air, kit/starlink_sat
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): florida, internet, lancamento, primeiros, starlink
 - RISCOS: nenhum
 
 ## Cena b2 - Um dia depois, um rastreador de satélites holandês, Marco Langbroek, f...
-- Cenario: street | luz: pordosol | clima: limpo
+- Cenario: street | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): AST (variante 0, expressao grin); JOR (variante 0, expressao smug)
 - Animacao: conversar | interacao: avanca e o outro recua
-- Objetos/modelos: kit/rocket
+- Objetos/modelos: kit/rocket, kit/starlink_sat
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): rastreador, satelites
 - RISCOS: nenhum
 
 ## Cena b3 - Ele registrou uma fila de luzes, que levava cerca de três minutos para...
-- Cenario: street | luz: pordosol | clima: limpo
+- Cenario: street | luz: noite | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (3): AST (variante 0, expressao shock); POV (variante 0, expressao shock); POV (variante 1, expressao shock) | multidao: 10 de POV
 - Animacao: reagir | interacao: susto | batalha encenada
-- Objetos/modelos: nature/picket_fence
+- Objetos/modelos: kit/starlink_train, nature/picket_fence
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fila, luzes, tres
 - RISCOS: nenhum
 
 ## Cena b4 - Ele contou pelo menos cinquenta e seis objetos brilhando em linha.
-- Cenario: street | luz: pordosol | clima: limpo
+- Cenario: street | luz: noite | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): AST (variante 0, expressao grin); JOR (variante 0, expressao shock) | multidao: 6 de POV
 - Animacao: reagir
-- Objetos/modelos: -
+- Objetos/modelos: kit/starlink_train
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
 ## Cena b5 - Acontece que o site holandês de avistamentos de OVNIs recebeu mais de ...
-- Cenario: street | luz: pordosol | clima: limpo
+- Cenario: street | luz: golden | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (1): JOR (variante 0, expressao shock) | multidao: 10 de POV
@@ -64,21 +64,21 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Jornais de vários países explicaram que não eram OVNIs, e sim satélite...
 - Cenario: street | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): JOR (variante 0, expressao suspicious); JOR2 (variante 0, expressao laugh)
 - Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: -
+- Objetos/modelos: kit/starlink_sat
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): varios
 - RISCOS: nenhum
 
 ## Cena b7 - Os satélites ainda estavam juntos, em fila, logo depois do lançamento.
 - Cenario: street | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): AST (variante 0, expressao smug); JOR2 (variante 0, expressao suspicious)
 - Animacao: conversar | interacao: insiste
-- Objetos/modelos: kit/falcon_air
+- Objetos/modelos: kit/falcon_air, kit/starlink_sat
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lancamento, satelites
 - RISCOS: nenhum
 
@@ -98,7 +98,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): AST (variante 0, expressao laugh); JOR2 (variante 0, expressao laugh)
 - Animacao: conversar | interacao: vai ate o outro
-- Objetos/modelos: kit/rocket
+- Objetos/modelos: kit/rocket, kit/starlink_sat
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fila, luzes, satelites
 - RISCOS: nenhum
 
@@ -109,11 +109,13 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/falcon_air | b0, b1, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/rocket | b0, b2, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/starlink_sat | b0, b1, b2, b6, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/starlink_train | b3, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/rocket | grandes momentos: b3, b5 | planos abertos: 3 | mistura: close 2% | medio 78% | aberto 18% | detalhe 2%
+- Objeto heroi: kit/rocket | grandes momentos: b3, b5 | planos abertos: 3 | mistura: close 2% | medio 74% | aberto 18% | detalhe 6%
 - Interacoes: b2 avanca e o outro recua, b3 susto, b6 o outro se aproxima, b7 insiste, b9 vai ate o outro
 - RISCOS GERAIS: nenhum
 

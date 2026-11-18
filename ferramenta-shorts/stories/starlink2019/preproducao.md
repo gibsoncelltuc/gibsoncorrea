@@ -4,16 +4,16 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | street | two | 1 | conversar | kit/falcon_air, kit/rocket | - | -
-b1 | street | reveal | 10 | parados (so fala e pisca) | kit/falcon_air | - | -
-b2 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/rocket | - | -
-b3 | street | group | 13 | reagir, INTERAGEM: susto, batalha | nature/picket_fence | - | -
-b4 | street | wide | 8 | reagir | - | - | -
+b0 | street | two | 1 | conversar | kit/falcon_air, kit/rocket, kit/starlink_sat | - | -
+b1 | street | reveal | 10 | parados (so fala e pisca) | kit/falcon_air, kit/starlink_sat | - | -
+b2 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/rocket, kit/starlink_sat | - | -
+b3 | street | group | 13 | reagir, INTERAGEM: susto, batalha | kit/starlink_train, nature/picket_fence | - | -
+b4 | street | wide | 8 | reagir | kit/starlink_train | - | -
 b5 | street | crowd | 11 | reagir, batalha | - | - | -
-b6 | street | two | 2 | conversar, INTERAGEM: o outro se aproxima | - | - | -
-b7 | street | two | 2 | conversar, INTERAGEM: insiste | kit/falcon_air | - | -
+b6 | street | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/starlink_sat | - | -
+b7 | street | two | 2 | conversar, INTERAGEM: insiste | kit/falcon_air, kit/starlink_sat | - | -
 b8 | street | group | 11 | reagir | - | - | -
-b9 | street | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/rocket | - | -
+b9 | street | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/rocket, kit/starlink_sat | - | -
 
 OBJETO HEROI: kit/rocket - aparece em 3 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b5
