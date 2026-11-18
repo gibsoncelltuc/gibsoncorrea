@@ -1,0 +1,15 @@
+{
+  "lm_model": "acestep-5Hz-lm-1.7B-Q8_0.gguf",
+  "synth_model": "acestep-v15-turbo-Q8_0.gguf",
+  "caption": "Brazilian kids dance-pop with a punchy driving beat, strong kick drum and snare, funky baile-inspired groove (clean and family-friendly), deep round bass, crisp hand claps, extremely catchy sing-along hook, warm friendly adult vocal with an energetic kids choir answering, bright and playful, polished studio-quality mix, the hook starts right on the first beat with no intro, every section lasts exactly 4 bars, short repeated chorus, simple melody in small steps, the last chorus goes up by a whole step (key change), clear Portuguese pronunciation of every word, funky kids beat, playful bass groove, claps and shaker, quirky synth animal-sound stabs, call and response",
+  "lyrics": "[Chorus]\nQuem faz assim? Miau, miau!\nQuem faz assim? Au, au, au!\nÉ o gatinho, é o cachorrinho,\ncada um com seu jeitinho!\n\n[Verse 1]\nQuá, quá, quá, faz o patinho,\npiu, piu, piu, faz o pintinho,\nmuuu, muuu, faz a vaquinha,\ncó, có, có, faz a galinha!\n\n[Chorus]\nQuem faz assim? Miau, miau!\nQuem faz assim? Au, au, au!\nÉ o gatinho, é o cachorrinho,\ncada um com seu jeitinho!\n\n[Verse 2]\nOinc, oinc, faz o porquinho,\nploc, ploc, faz o sapinho,\ngrrr, grrr, faz o leãozinho,\ne eu faço, eu faço um carinho!\n\n[Bridge]\nMiau, miau, au, au, au,\npiu, piu, muuu, muuu, muuu,\nquá, quá, quá, que festa que eu vi,\nos bichinhos estão aqui!\n\n[Chorus]\nQuem faz assim? Miau, miau!\nQuem faz assim? Au, au, au!\nÉ o gatinho, é o cachorrinho,\ncada um com seu jeitinho!",
+  "duration": 60,
+  "bpm": 100,
+  "vocal_language": "pt",
+  "keyscale": "G major",
+  "timesignature": "4",
+  "inference_steps": 8,
+  "guidance_scale": 1.0,
+  "shift": 3.0,
+  "seed": 23
+}
