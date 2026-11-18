@@ -16,7 +16,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): TYC (variante 0, expressao smile); POV (variante 0, expressao grin) | multidao: 6 de TYC/POV
+- Personagens principais (2): TYC (variante 0, expressao smile); POV (variante 0, expressao grin) | multidao: 6 de POV
 - Animacao: -
 - Objetos/modelos: buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alemanha, dinamarca, jovem
@@ -33,7 +33,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - A briga não acabou ali. Dias depois, os dois resolveram tudo num duelo...
-- Cenario: street | luz: noite | clima: limpo
+- Cenario: street | luz: pordosol | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): TYC (variante 0, expressao angry, segura sword); PAR (variante 0, expressao shout, segura sword)
@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Acontece que o primo acertou um golpe certeiro, e cortou fora um pedaç...
-- Cenario: street | luz: noite | clima: limpo
+- Cenario: street | luz: pordosol | clima: limpo
 - Camera: low = camera baixa, dramatica (virada) + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): PAR (variante 0, expressao angry, segura sword); TYC (variante 0, expressao pained, segura sword)
@@ -66,7 +66,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): REI (variante 0, expressao grin); TYC (variante 0, expressao surprised) | multidao: 6 de REI/TYC
+- Personagens principais (2): REI (variante 0, expressao grin); TYC (variante 0, expressao surprised) | multidao: 6 de POV
 - Animacao: conversar | interacao: entregar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dinamarca, ilha
