@@ -43,3 +43,6 @@ Ver `videos/E_SE_ROTEIROS.md`. Produzir com `./prechecar.sh <id>` e `./novo_vide
 
 ## Série 5 — "Histórias Incríveis" (histórias reais emocionantes) — CATALOGADA, para depois
 Ver `videos/CATALOGO_HISTORIAS_EMOCIONANTES.md` (20 ideias com gancho, virada e objetos). Só produzir quando o Gibson mandar, depois dos "E Se".
+
+## Séries 6 e 7 — "Como Funciona" e "Histórias de Empresas" — CATALOGADAS, para depois
+Ver `videos/CATALOGO_COMO_FUNCIONA_E_EMPRESAS.md` (15 temas técnicos + 10 empresas). Estratégia do Gibson: tudo começa como short de 60 s; os que performarem viram versão de 3–5 min. "Como Funciona" vai precisar de modelos 3D em corte (Blender) quando começar.
