@@ -71,12 +71,19 @@ padeiro, agricultor, nobre, politico, empresario, rei, general, soldado, marinhe
 - kit/crookes_tube  <- \btubo\b|\btubos\b
 - kit/xray_plate  <- \bchapa\b|\bossos\b|\braio x\b|\braios x\b|radiografia|\btela\b
 - kit/brass_nose  <- \bnariz\b|\bnarizes\b|protese
+- kit/wash_basin  <- \bbacia\b|\bbacias\b|\blavar\b|lavassem|\bcloro\b|clorada
+- kit/snake_ring  <- \bcobras?\b|serpentes?|\banel\b|benzeno|\brabo\b
+- kit/postit  <- post-?it|bloquinhos?|marcadores?|hinario|papeizinhos
+- kit/burr  <- carrapichos?|velcro|ganchinhos?
+- kit/stove  <- \bfogao\b|\bfogoes\b|borracha|vulcaniz|enxofre
+- kit/balloon  <- \bbalao\b|\bbaloes\b
+- kit/curie_box  <- \bcadernos?\b|\bchumbo\b|radioativ|\bfrascos?\b
 - kit/apple  <- \bmaca\b|\bmacas\b|\bmacieiras?\b
 - kit/bathtub  <- \bbanheira\b|\bbanho\b
 - kit/crown  <- \bcoroa\b
 
 ## Biblioteca 3D completa (use em "props": [["pasta/nome", x, z, escala]])
-- kit: apple, ball, barrel_r, bathtub, brass_nose, cake_table, campfire, chest, crookes_tube, cross, crown, ear_jar, feather, fire, flag_pole, golden_stool, grave, kettle, lobster, microwave, petri, pisa_tower, porch, room_shop, room_stone, room_wood, stall, syringe, tent, throne, tulip_bed, tulip_purple, tulip_red, tulip_striped, tulip_yellow, xray_plate
+- kit: apple, ball, balloon, balloon_air, barrel_r, bathtub, brass_nose, burr, cake_table, campfire, chest, crookes_tube, cross, crown, curie_box, ear_jar, feather, fire, flag_pole, golden_stool, grave, kettle, lobster, microwave, petri, pisa_tower, porch, postit, room_shop, room_stone, room_wood, snake_ring, stall, stove, syringe, tent, throne, tulip_bed, tulip_purple, tulip_red, tulip_striped, tulip_yellow, wash_basin, xray_plate
 - buildings: apartment, barn, bridge, castle_tower, church, house_blue, house_small, house_two, lighthouse, shop, skyscraper, windmill
 - vehicles: airplane, bicycle, car, car_blue, helicopter, jeep, locomotive, motorboat, motorcycle, sailboat, tank, taxi, truck, wagon
 - nature: bench, bush, flowerbed, fountain, haybale, lamppost, picket_fence, rocks, scarecrow, tree_birch, tree_oak, tree_palm, tree_pine

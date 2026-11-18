@@ -146,12 +146,14 @@ LUGARES = [  # (palavra na narracao, [(modelo, x, z, escala), ...]) -- cenografi
     (r'\bpracas?\b|\bfonte\b', [('nature/fountain', 0.0, -4.5, 1.2), ('nature/bench', -3.6, -2.2, 1.2)]),
 ]
 # OBJETOS NOVOS de cada sessao ficam em obj_dict.d/<sessao>.json ([[regex, modelo, escala, grande?], ...]) -- cada sessao edita SO o seu arquivo, assim o merge entre sessoes nunca apaga objeto de ninguem
+for _rx, _mod in (B.get('objetos_do_video') or {}).items(): OBJ_DICT.insert(0, (_rx, _mod, 1.0, False))   # palavra->modelo que vale SO neste video (ex.: "\\bradio\\b": "kit/curie_box" na Marie Curie; noutro video radio e' aparelho)
 for _f in sorted(__import__('glob').glob('obj_dict.d/*.json')):
     try:
         for _e in json.load(open(_f, encoding='utf-8')):
             if not any(_e[1] == x[1] for x in OBJ_DICT): OBJ_DICT.append((_e[0], _e[1], float(_e[2]), _e[3] if len(_e) > 3 else False))
     except Exception as _x: print(f'AVISO: {_f} invalido ({_x})')
 FALTA_MODELAR = r'\b(pao|paes|queijo|peixe|peixes|piano|relogio|estatua|guilhotina|balanca|telefone|radio|bicicleta)\b'
+def _sem_modelo(ws): return sorted(w_ for w_ in set(ws) if not any(re.search(o_[0], w_) for o_ in OBJ_DICT))   # palavra que ja tem modelo no OBJ_DICT (ex.: radio = elemento quimico da Marie Curie) nao e' falta
 def _heroi():   # OBJETO HEROI do video: "heroi" no topo do roteiro, ou o objeto do titulo, ou o objeto mais citado na narracao
     if 'heroi' in B: return B['heroi'] or None
     nz = lambda t: re.sub(r'[^a-z0-9 ]', '', unicodedata.normalize('NFKD', t.lower()).encode('ascii', 'ignore').decode())
@@ -678,7 +680,7 @@ _falt_all = set()
 for k, b in enumerate(beats):
     sp_ = re.sub(r'[^a-z0-9 ]', '', unicodedata.normalize('NFKD', b['say'].lower()).encode('ascii', 'ignore').decode())
     objs = [str(p_[0]) for p_ in b.get('props', [])] + b.get('_auto_obj', []) + [a_[0] for a_ in b.get('animals', [])] + (['emus'] if b.get('emus') else []) + ([b['veiculo'].get('asset', 'carro')] if b.get('veiculo') else [])
-    falta = sorted(set(re.findall(FALTA_MODELAR, sp_)) | {o_ for o_ in objs if '/' in o_ and not _lib(o_)}); _falt_all |= set(falta)
+    falta = sorted(set(_sem_modelo(re.findall(FALTA_MODELAR, sp_))) | {o_ for o_ in objs if '/' in o_ and not _lib(o_)}); _falt_all |= set(falta)
     maos = [w.split(':')[3] for w in b.get('who', []) if len(w.split(':')) > 3]
     acao = ', '.join(x for x in ((b.get('_acao') or ''), ('INTERAGEM: ' + b['_inter'] if b.get('_inter') else ''), ('alguem chega andando' if b.get('_chega') else ''), ('andando' if b.get('shot') == 'track' or b.get('move') else ''), ('batalha' if b.get('impact') else '')) if x) or ('usa o objeto da mao' if maos else 'parados (so fala e pisca)')
     npers = len(b.get('who', [])) + int((b.get('crowd') or {}).get('n', 0))
@@ -730,8 +732,8 @@ def _redondo(as_):   # objeto do kit feito com blender/formas.py (malha 'red_...
     except Exception: return True
 _VARN = ['frente', '3/4 pela direita, mais perto e mais baixo', '3/4 pela esquerda, mais alto e aberto', 'leve direita, perto', 'esquerda alta, aberto', 'direita baixa']
 _STOPW = set('guerra causa vezes tempo coisa hora horas dias anos meses semanas noite manha tarde vida nada tudo todo toda todos todas mesmo mesma outro outra outros outras nome meio parte lado fim final verdade volta ideia ordem resposta historia mundo pais paises primeiro segundo terceiro ultimo unica unico dele dela deles delas quem qual onde quando para pelo pela entre sobre depois antes ainda apenas quase muito pouco mais menos maior menor inteiro inteira troca conta hoje nunca sempre'.split())
-_ANIM_OK = {'cavalo': 'horse', 'cavalos': 'horse', 'urso': 'bear', 'ursos': 'bear', 'porco': 'pig', 'porcos': 'pig', 'galinha': 'chicken', 'galinhas': 'chicken', 'emu': 'emus', 'emus': 'emus', 'ganso': 'chicken', 'gansos': 'chicken', 'vaca': 'cow', 'vacas': 'cow', 'boi': 'cow', 'bois': 'cow', 'cachorro': 'dog', 'cachorros': 'dog', 'cao': 'dog', 'caes': 'dog', 'gato': 'cat', 'gatos': 'cat', 'ovelha': 'sheep', 'ovelhas': 'sheep', 'cabra': 'goat', 'cabras': 'goat', 'bode': 'goat', 'burro': 'donkey', 'burros': 'donkey', 'jumento': 'donkey', 'veado': 'deer', 'veados': 'deer', 'cervo': 'deer', 'cervos': 'deer', 'raposa': 'fox', 'raposas': 'fox', 'lobo': 'wolf', 'lobos': 'wolf', 'coelho': 'rabbit', 'coelhos': 'rabbit', 'leao': 'lion', 'leoes': 'lion', 'elefante': 'elephant', 'elefantes': 'elephant'}   # todos os modelos de web/assets/animals/catalog.json
-_ANIM_ALL = r'\b(cavalo|cavalos|vaca|vacas|boi|bois|cachorro|cachorros|cao|caes|gato|gatos|ovelha|ovelhas|galinha|galinhas|porco|porcos|emu|emus|ganso|gansos|urso|ursos|lobo|lobos|elefante|elefantes|camelo|camelos|burro|burros|jumento|cabra|cabras|bode|veado|veados|cervo|cervos|raposa|raposas|leao|leoes|coelho|coelhos|rato|ratos|pombo|pombos)\b'
+_ANIM_OK = {'cavalo': 'horse', 'cavalos': 'horse', 'urso': 'bear', 'ursos': 'bear', 'porco': 'pig', 'porcos': 'pig', 'galinha': 'chicken', 'galinhas': 'chicken', 'emu': 'emus', 'emus': 'emus', 'ganso': 'chicken', 'gansos': 'chicken', 'vaca': 'cow', 'vacas': 'cow', 'boi': 'cow', 'bois': 'cow', 'cachorro': 'dog', 'cachorros': 'dog', 'cao': 'dog', 'caes': 'dog', 'gato': 'cat', 'gatos': 'cat', 'ovelha': 'sheep', 'ovelhas': 'sheep', 'cabra': 'goat', 'cabras': 'goat', 'bode': 'goat', 'burro': 'donkey', 'burros': 'donkey', 'jumento': 'donkey', 'veado': 'deer', 'veados': 'deer', 'cervo': 'deer', 'cervos': 'deer', 'raposa': 'fox', 'raposas': 'fox', 'lobo': 'wolf', 'lobos': 'wolf', 'coelho': 'rabbit', 'coelhos': 'rabbit', 'leao': 'lion', 'leoes': 'lion', 'elefante': 'elephant', 'elefantes': 'elephant', 'pato': 'duck', 'patos': 'duck', 'galo': 'rooster', 'galos': 'rooster', 'gaivota': 'gull', 'gaivotas': 'gull'}   # todos os modelos de web/assets/animals/catalog.json
+_ANIM_ALL = r'\b(cavalo|cavalos|vaca|vacas|boi|bois|cachorro|cachorros|cao|caes|gato|gatos|ovelha|ovelhas|galinha|galinhas|porco|porcos|emu|emus|ganso|gansos|urso|ursos|lobo|lobos|elefante|elefantes|camelo|camelos|burro|burros|jumento|pato|patos|galo|galos|gaivota|gaivotas|cabra|cabras|bode|veado|veados|cervo|cervos|raposa|raposas|leao|leoes|coelho|coelhos|rato|ratos|pombo|pombos)\b'
 def _riscos(k, b):
     t = _nz(b['say']); nw = len(b['say'].split()); sh = b.get('shot'); R = []; cen = b.get('set', SET)
     if re.search(r'desembarc|barcos? cheg|navios? cheg|chegaram? de (barco|navio)|atravess\w* o (rio|mar|lago|canal)|ancor|zarp', t) and sh not in WIDE: R.append(('chegada/travessia pela agua em plano fechado: nao da para ver barco nem desembarque', '"shot": "reveal", "set": "harbor" nesta cena (plano aberto no cais, navios ao fundo)'))
@@ -756,7 +758,7 @@ def _riscos(k, b):
     if b.get('interior') and (b.get('batalha') or (b.get('crowd') or {}).get('n', 0) > 6): R.append(('multidao/batalha dentro de sala: nao cabe', 'tirar "interior" desta cena (faz na rua/campo) ou reduzir o "crowd"'))
     if re.search(r'\b(caminhao|caminhoes|trem|carro|carros|carroca|carrocas|aviao|avioes|tanque de guerra|bicicleta)\b', t) and not (b.get('veiculo') or b.get('caminhoes') or any(str(p_[0]).startswith('vehicles/') for p_ in b.get('props', []))): R.append(('veiculo citado e nao aparece', '"veiculo": {"asset": "vehicles/truck"} (ou wagon, locomotive, car, tank, airplane) ou "caminhoes": true na batalha'))
     if k >= 2 and all(not x.get('interior') and x.get('set', SET) == cen and x.get('shot') == sh and [w.split(':')[0] for w in x.get('who', [])] == [w.split(':')[0] for w in b.get('who', [])] for x in (beats[k - 1], beats[k - 2])) and sh not in WIDE: R.append(('3a cena seguida com o mesmo plano, lugar e personagens: fica repetitivo', 'trocar o "shot", levar para "interior" ou trocar quem aparece'))
-    fal = sorted(set(re.findall(FALTA_MODELAR, t)))
+    fal = _sem_modelo(re.findall(FALTA_MODELAR, t))
     if fal: R.append((f'objeto sem modelo 3D: {", ".join(fal)}', 'modelar em blender/make_objetos.py e por no OBJ_DICT, ou trocar a palavra'))
     if not (b.get('_acao') or b.get('_inter') or b.get('_chega') or b.get('impact') or sh in WIDE or sh == 'track' or any(len(w.split(':')) > 3 for w in b.get('who', []))): R.append(('personagens parados (so falam e piscam)', '"acao": "conversar|discutir|comemorar", "interacao": "empurrar|cochichar|entregar|susto", objeto na mao (4o campo do "who") ou "chega": true'))
     return R
@@ -794,7 +796,7 @@ for k, b in enumerate(beats):
     for o_ in dict.fromkeys([str(p_[0]) for p_ in b.get('props', [])] + [x for x in b.get('_auto_obj', []) if '/' in x or x in ('barrel', 'crate', 'cannon', 'ship')] + [a_[0] for a_ in b.get('animals', [])] + (['emu'] if b.get('emus') else []) + ([b['veiculo'].get('asset', 'vehicles/car')] if b.get('veiculo') else [])): _usados.setdefault(o_, []).append(f'b{k}')
 _pal = {}
 for k, b in enumerate(beats):
-    for w_ in re.findall(FALTA_MODELAR, _nz(b['say'])) + [a_ for a_ in re.findall(_ANIM_ALL, _nz(b['say'])) if a_ not in _ANIM_OK]: _pal.setdefault(w_, []).append(f'b{k}')
+    for w_ in _sem_modelo(re.findall(FALTA_MODELAR, _nz(b['say']))) + [a_ for a_ in re.findall(_ANIM_ALL, _nz(b['say'])) if a_ not in _ANIM_OK]: _pal.setdefault(w_, []).append(f'b{k}')
 _f2 += ['## PARA O BLENDER (objetos 3D deste video)', 'Regra: todo objeto, utensilio, veiculo e animal que aparece e\' modelo 3D feito no Blender; a ferramenta so\' poe em cena, pinta o contorno e anima. Nada de objeto "quadradao": use `blender/formas.py` (cil, bola, torno, tubo, arco, caixa com chanfro).', '',
         'Objeto | Cenas | Situacao | O que fazer', '---|---|---|---',
         *[f"{o_} | {', '.join(c_)} | {('pronto' if _redondo(o_) else 'CAIXOTE: refazer com formas.py') if (_lib(o_) or '/' not in o_) else 'FALTA'}{' (HEROI: aparece em close)' if HEROI and o_ == HEROI else ''} | {'conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py' if (_lib(o_) or '/' not in o_) else 'modelar antes de renderizar'}" for o_, c_ in _usados.items()],

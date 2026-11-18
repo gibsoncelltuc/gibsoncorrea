@@ -40,5 +40,23 @@
   "kit/burr",
   1.0,
   false
+ ],
+ [
+  "\\bfogao\\b|\\bfogoes\\b|borracha|vulcaniz|enxofre",
+  "kit/stove",
+  1.0,
+  false
+ ],
+ [
+  "\\bbalao\\b|\\bbaloes\\b",
+  "kit/balloon",
+  1.0,
+  false
+ ],
+ [
+  "\\bcadernos?\\b|\\bchumbo\\b|radioativ|\\bfrascos?\\b",
+  "kit/curie_box",
+  1.0,
+  false
  ]
 ]
