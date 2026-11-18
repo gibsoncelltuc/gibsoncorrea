@@ -1510,14 +1510,7 @@ export const bodyFront = (p, o, opts)=>{
         if (o.hold && a === (arms.find((q)=>q.front) || arms[arms.length - 1])) drawHeld(a.pts[2][0], a.pts[2][1]);
         p.dot(a.pts[2][0], a.pts[2][1], 5.5 * u);
     };
-    if (rifle) {   /* FUZIL de verdade: coronha larga, corpo de madeira com gatilho, cano de metal com bandoleira */
-        const dx = R1[0] - R0[0], dy = R1[1] - R0[1], L = Math.hypot(dx, dy) || 1, nx = -dy / L, ny = dx / L, at = (t) => lerp2(R0, R1, t), off = (q, k) => [q[0] + nx * k, q[1] + ny * k];
-        p.poly([off(at(0), 6.5 * u), off(at(0), -4 * u), off(at(0.3), -2.4 * u), off(at(0.3), 2.6 * u)], "#6a3f22", 1.5 * u);   /* coronha */
-        p.band([at(0.28), at(0.62)], "#8a5532", 4.2 * u, 1.4 * u, "round");                                                       /* corpo */
-        p.poly([off(at(0.36), -2 * u), off(at(0.42), -6.5 * u), off(at(0.46), -2 * u)], "#3a3d47", 1 * u);                         /* gatilho */
-        p.band([at(0.55), R1], "#8d949c", 2.4 * u, 1.2 * u, "round");                                                             /* cano */
-        p.band([at(0.97), at(1.0)], "#3a3d47", 3.2 * u, 0.8 * u, "round");                                                        /* boca do cano */
-    }
+    if (rifle) drawRifle(p, R0, R1, u);
     if (o.sword && mode !== "sit") {
         const s0 = [
             tcx - 0.75 * T.a,
@@ -1745,8 +1738,16 @@ const ik = (hip, ank, l1, l2)=>{
     ];
 };
 const SWING_HIP = 733;
+const drawRifle = (p, R0, R1, u) => {   
+        const dx = R1[0] - R0[0], dy = R1[1] - R0[1], L = Math.hypot(dx, dy) || 1, nx = -dy / L, ny = dx / L, at = (t) => lerp2(R0, R1, t), off = (q, k) => [q[0] + nx * k, q[1] + ny * k];
+        p.poly([off(at(0), 6.5 * u), off(at(0), -4 * u), off(at(0.3), -2.4 * u), off(at(0.3), 2.6 * u)], "#6a3f22", 1.5 * u);   /* coronha */
+        p.band([at(0.28), at(0.62)], "#8a5532", 4.2 * u, 1.4 * u, "round");                                                       /* corpo */
+        p.poly([off(at(0.36), -2 * u), off(at(0.42), -6.5 * u), off(at(0.46), -2 * u)], "#3a3d47", 1 * u);                         /* gatilho */
+        p.band([at(0.55), R1], "#8d949c", 2.4 * u, 1.2 * u, "round");                                                             /* cano */
+        p.band([at(0.97), at(1.0)], "#3a3d47", 3.2 * u, 0.8 * u, "round");                                                        /* boca do cano */
+    };   /* FUZIL de verdade: coronha, corpo com gatilho, cano de metal */
 export const bodySide = (p, o, opts)=>{
-    const { phase = 0, expr = "neutral", mode = "march", blink = false, stomp = 1, pose = 0, stride = 1, light = DEF_LIGHT, seed = 1 } = opts;
+    const { phase = 0, expr = "neutral", mode = "march", blink = false, stomp = 1, pose = 0, stride = 1, light = DEF_LIGHT, seed = 1, aim = 0 } = opts;
     const Bd = BUILD[o.build ?? "adult"], skin = o.skin ?? SKIN, two = Math.PI * 2, lid = lidOf(blink);
     const H = {
         ...headBlob(seed, Bd.a, 1),
@@ -1928,12 +1929,12 @@ export const bodySide = (p, o, opts)=>{
         ];
     };
     const rifle = !!o.rifle && (mode === "march" || mode === "stand");
-    const B0 = [
-        tcx + 0.72 * T.a,
-        chin + 0.58 * HH
+    const B0 = [   /* de lado: fuzil no ombro; com aim (atirando) aponta para a frente, na altura do peito */
+        tcx + (0.72 - 0.9 * aim) * T.a,
+        chin + (0.58 - 0.3 * aim) * HH
     ], B1 = [
-        tcx - 0.95 * T.a - 22 * u,
-        crown - 0.4 * HH
+        tcx + (-0.95 + 3.1 * aim) * T.a + (-22 + 52 * aim) * u,
+        crown - 0.4 * HH + aim * ((chin + 0.24 * HH) - (crown - 0.4 * HH))
     ];
     let near, far;
     if (mode === "swing") {
@@ -2042,16 +2043,7 @@ export const bodySide = (p, o, opts)=>{
         }
     });
     p.inkRing(tp, ow, thick);
-    if (rifle) {
-        p.band([
-            B0,
-            B1
-        ], "#7a4b2a", 5 * u, 1.5 * u, "round");
-        p.band([
-            lerp2(B0, B1, 0.6),
-            B1
-        ], "#8d949c", 2.4 * u, 1.2 * u, "round");
-    }
+    if (rifle) drawRifle(p, B0, B1, u);
     p.stroke(curve(near[0], near[1], near[2]), 5.2 * u, armCol);
     p.dot(near[2][0], near[2][1], 5.5 * u);
     const hx = 300 + 4 * u;

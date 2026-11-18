@@ -36,6 +36,7 @@ Tudo que a narração cita tem que aparecer na tela, na mesma cena: se diz "faze
 | conversaram / discutiram / brigaram | diálogo em turnos / discussão com cara fechada / empurrão | automático pelo texto ou `"acao"`/`"interacao"` |
 | tiro, atirou, disparou (com soldado de fuzil em cena) | clarão e fumaça saindo do CANO da arma de quem atira, com som | automático; nunca estrela de explosão solta no meio da cena |
 | correu, fugiu, perseguiu (cena de `"shot": "track"`) | personagens CORRENDO (passo rápido, corpo inclinado) | automático |
+| correram atirando / atiraram correndo (soldado de fuzil numa cena `"shot": "track"`) | soldado correndo de perfil, aponta o fuzil no tiro e o clarão acompanha a ponta do cano | automático |
 | cartório, prefeitura, tribunal, banco, consulado | o prédio ao fundo | automático |
 | navio chegou / desembarcaram / aportou / zarpou / partiu | navio e barco ANDANDO na água (chegando ao cais ou indo embora) | automático em cena de cais (`"set": "harbor"`) |
 | dirigiu, foi de carro/caminhão/carroça, pilotou, pedalou | o veículo atravessa a tela com o 1º personagem do `who` ao volante | automático (`"veiculo"`) |
