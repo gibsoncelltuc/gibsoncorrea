@@ -1,5 +1,11 @@
 [
 [
+"\\btelevisao\\b|\\btv\\b",
+"kit/tv",
+1.5,
+false
+],
+[
 "lanca.?chamas",
 "kit/flamethrower",
 1.4,

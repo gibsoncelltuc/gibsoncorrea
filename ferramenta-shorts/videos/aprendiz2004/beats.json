@@ -1,0 +1,150 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Poder e Fama",
+ "ep": 13,
+ "title": "Você Está Demitido",
+ "titulo_base": "Você Está Demitido",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "outfits": {
+  "TRU": {
+   "jacket": "#1f2f5c",
+   "pants": "#1f2f5c",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#f2c84a",
+   "tie": "#d8282f",
+   "pele": "#f5c49a",
+   "build": "stout"
+  },
+  "CND": {
+   "jacket": "#4a8a6a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#8a5a2a",
+   "glasses": true
+  },
+  "POV": {
+   "jacket": "#3a8a5a",
+   "pants": "#2a3a5a",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#6a3a1a"
+  }
+ },
+ "beats": [
+  {
+   "say": "Em janeiro de dois mil e quatro, estreou na televisão americana um programa chamado O Aprendiz.",
+   "shot": "two",
+   "who": [
+    "TRU:0:grin",
+    "CND:0:smile"
+   ],
+   "mapa": "ESTADOS UNIDOS",
+   "mapa_at": 3,
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "props": [
+    [
+     "kit/tv",
+     1.4,
+     0.2,
+     1.4
+    ]
+   ]
+  },
+  {
+   "say": "O apresentador era Donald Trump, e os participantes disputavam um emprego em uma das empresas dele.",
+   "shot": "two",
+   "who": [
+    "TRU:0:smug",
+    "CND:0:surprised"
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "acao": "conversar"
+  },
+  {
+   "say": "A cada episódio, eles faziam tarefas de negócios, como vender coisas na rua, e disputavam o emprego.",
+   "shot": "two",
+   "who": [
+    "CND:0:smile",
+    "POV:0:surprised"
+   ],
+   "acao": "conversar",
+   "props": [
+    [
+     "kit/chest",
+     1.5,
+     0.2,
+     1.1
+    ]
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": false
+  },
+  {
+   "say": "No fim, alguém era eliminado, e a frase que fechava o programa era: Você está demitido!",
+   "shot": "close",
+   "who": [
+    "TRU:0:shout"
+   ],
+   "text": "VOCÊ ESTÁ DEMITIDO!",
+   "fx": [
+    "burst@5"
+   ],
+   "sfx": [
+    "sting@5"
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": true
+  },
+  {
+   "say": "A frase ficou tão famosa que virou piada e foi repetida pelo mundo inteiro.",
+   "shot": "crowd",
+   "who": [
+    "CND:0:laugh",
+    "POV:0:grin"
+   ],
+   "props": [
+    [
+     "kit/globe",
+     1.5,
+     -0.4,
+     1.1
+    ]
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "tiros": false,
+   "batalha": false,
+   "impact": true
+  },
+  {
+   "say": "Um programa de negócios que ficou conhecido por duas palavras: você está demitido.",
+   "shot": "group",
+   "who": [
+    "TRU:0:laugh",
+    "CND:0:smile",
+    "POV:0:grin"
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": false
+  }
+ ],
+ "heroi": "kit/tv"
+}

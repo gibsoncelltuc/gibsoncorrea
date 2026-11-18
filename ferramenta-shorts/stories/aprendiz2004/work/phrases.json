@@ -1,0 +1,135 @@
+{
+ "duration": 32.496,
+ "frames30": 975,
+ "source": "silence-align (cost 0.41)",
+ "segments": [
+  [
+   0.150875,
+   1.41429
+  ],
+  [
+   1.68242,
+   4.59571
+  ],
+  [
+   5.45962,
+   7.09721
+  ],
+  [
+   7.38992,
+   10.5217
+  ],
+  [
+   11.3777,
+   12.2124
+  ],
+  [
+   12.3727,
+   14.0011
+  ],
+  [
+   14.3116,
+   15.5877
+  ],
+  [
+   16.4313,
+   16.8391
+  ],
+  [
+   17.073,
+   18.0179
+  ],
+  [
+   18.8706,
+   20.6907
+  ],
+  [
+   20.9173,
+   21.9683
+  ],
+  [
+   22.8267,
+   26.5098
+  ],
+  [
+   27.3527,
+   30.5095
+  ],
+  [
+   30.7382,
+   31.7141
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Em janeiro de dois mil e quatro,",
+   "s": 0.151,
+   "e": 1.414
+  },
+  {
+   "text": "estreou na televis\u00e3o americana um programa chamado O Aprendiz.",
+   "s": 1.682,
+   "e": 4.596
+  },
+  {
+   "text": "O apresentador era Donald Trump,",
+   "s": 5.46,
+   "e": 7.097
+  },
+  {
+   "text": "e os participantes disputavam um emprego em uma das empresas dele.",
+   "s": 7.39,
+   "e": 10.522
+  },
+  {
+   "text": "A cada epis\u00f3dio,",
+   "s": 11.378,
+   "e": 12.212
+  },
+  {
+   "text": "eles faziam tarefas de neg\u00f3cios,",
+   "s": 12.373,
+   "e": 14.001
+  },
+  {
+   "text": "como vender coisas na rua.",
+   "s": 14.312,
+   "e": 15.588
+  },
+  {
+   "text": "No fim,",
+   "s": 16.431,
+   "e": 16.839
+  },
+  {
+   "text": "algu\u00e9m era eliminado.",
+   "s": 17.073,
+   "e": 18.018
+  },
+  {
+   "text": "E a frase que fechava o programa era:",
+   "s": 18.871,
+   "e": 20.691
+  },
+  {
+   "text": "Voc\u00ea est\u00e1 demitido!",
+   "s": 20.917,
+   "e": 21.968
+  },
+  {
+   "text": "A frase ficou t\u00e3o famosa que virou piada e foi repetida pelo mundo inteiro.",
+   "s": 22.827,
+   "e": 26.51
+  },
+  {
+   "text": "Um programa de neg\u00f3cios que ficou conhecido por duas palavras:",
+   "s": 27.353,
+   "e": 30.509
+  },
+  {
+   "text": "voc\u00ea est\u00e1 demitido.",
+   "s": 30.738,
+   "e": 31.714
+  }
+ ]
+}
