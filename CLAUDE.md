@@ -42,28 +42,16 @@ Fila: `cd ferramenta-shorts && bash status.sh` | `bash run_queue.sh` (ids em `qu
 **Branch:** claude/bold-sagan-dskrsj
 
 **Recent commits:**
-- 5cf76b0 ckpt(rontgen1895): pronto
-- 3c78eb5 ckpt(rontgen1895): trecho 2
-- b359d0e ckpt(rontgen1895): trecho 12
-- a860222 ckpt(rontgen1895): trecho 11
-- cc3c662 ckpt(rontgen1895): trecho 10
-
-**In-progress files (10):**
-- ferramenta-shorts/web/story.js
-- entregas/rontgen1895/folha1_roteiro.md
-- entregas/rontgen1895/folha2_producao.md
-- entregas/rontgen1895/review_sheet.jpg
-- ferramenta-shorts/stories/tycho1566/script_one.txt
-- ferramenta-shorts/stories/tycho1566/stages/voice
-- ferramenta-shorts/stories/tycho1566/timing.js
-- ferramenta-shorts/stories/tycho1566/voice.mp3
-- ferramenta-shorts/stories/tycho1566/work/phrases.json
-- ferramenta-shorts/stories/tycho1566/work/words.json
+- 5c58dfbf ckpt(trumpgame1989): trecho 2
+- 3794d947 catalogo: Como Funciona (15) e Historias de Empresas (10), para depois
+- da5751eb ckpt(trumpgame1989): trecho 1
+- b4c7da34 ckpt(trumpgame1989): trecho 0
+- 7aefcd95 etapas da fila
 
 **Project reminders:**
 - Verify the file content before claiming an edit is done
 - Run tests before declaring task complete
 - Re-read CLAUDE.md if you're unsure of project conventions
 
-**Hook generated:** 2026-11-18 15:44:58 UTC
+**Hook generated:** 2026-11-18 21:15:14 UTC
 <!-- post-compact-recovery-end -->
