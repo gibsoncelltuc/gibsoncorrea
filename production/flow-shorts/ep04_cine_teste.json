@@ -1,0 +1,145 @@
+{
+ "out": "out/_teste_ep04_cine.mp4",
+ "music": "musica/ep02_acestep_seed41.mp3",
+ "caption_bottom": 1530,
+ "crf": 24,
+ "preset": "veryfast",
+ "shots": [
+  {
+   "clip": "ep04-clips/V04-1.mp4",
+   "start": 0.0,
+   "dur": 3.75
+  },
+  {
+   "clip": "ep04-clips/V04-1.mp4",
+   "start": 3.75,
+   "dur": 3.75,
+   "zoom": 1.3,
+   "ax": 0.5,
+   "ay": 0.22,
+   "pop": true
+  },
+  {
+   "clip": "ep04-clips/V04-1.mp4",
+   "start": 7.5,
+   "dur": 2.5,
+   "tr": "smoothleft"
+  },
+  {
+   "clip": "ep04-clips/V04-2.mp4",
+   "start": 0.0,
+   "dur": 3.75
+  },
+  {
+   "clip": "ep04-clips/V04-2.mp4",
+   "start": 3.75,
+   "dur": 3.75,
+   "zoom": 1.55,
+   "ax": 1.0,
+   "ay": 0.62,
+   "pop": true
+  },
+  {
+   "clip": "ep04-clips/V04-2.mp4",
+   "start": 7.5,
+   "dur": 2.5,
+   "zoom": 1.45,
+   "ax": 0.0,
+   "ay": 0.7,
+   "tr": "zoomin"
+  },
+  {
+   "clip": "ep04-clips/V04-3.mp4",
+   "start": 0.0,
+   "dur": 3.75
+  },
+  {
+   "clip": "ep04-clips/V04-3.mp4",
+   "start": 3.75,
+   "dur": 3.75,
+   "zoom": 1.25,
+   "ax": 0.5,
+   "ay": 0.25,
+   "pop": true
+  },
+  {
+   "clip": "ep04-clips/V04-3.mp4",
+   "start": 7.5,
+   "dur": 2.5,
+   "tr": "circleopen"
+  },
+  {
+   "clip": "ep04-clips/V04-4.mp4",
+   "start": 0.0,
+   "dur": 3.75
+  },
+  {
+   "clip": "ep04-clips/V04-4.mp4",
+   "start": 3.75,
+   "dur": 3.75,
+   "zoom": 1.4,
+   "ax": 0.5,
+   "ay": 0.62,
+   "pop": true
+  },
+  {
+   "clip": "ep04-clips/V04-4.mp4",
+   "start": 7.5,
+   "dur": 2.5,
+   "tr": "smoothleft"
+  },
+  {
+   "clip": "ep04-clips/V04-5.mp4",
+   "start": 0.0,
+   "dur": 3.4,
+   "zoom": 1.25,
+   "ax": 0.5,
+   "ay": 0.0
+  },
+  {
+   "clip": "ep04-clips/V04-5.mp4",
+   "start": 3.4,
+   "dur": 3.6,
+   "pop": true,
+   "zoom": 1.1,
+   "ax": 0.5,
+   "ay": 0.0
+  },
+  {
+   "clip": "ep04-clips/V04-5.mp4",
+   "start": 7.0,
+   "dur": 3.0,
+   "zoom": 1.3,
+   "ax": 0.4,
+   "ay": 0.6,
+   "tr": "fadewhite"
+  },
+  {
+   "clip": "ep04-clips/V04-6.mp4",
+   "start": 0.6,
+   "dur": 3.8,
+   "zoom": 1.4,
+   "ax": 0.5,
+   "ay": 0.0
+  },
+  {
+   "clip": "ep04-clips/V04-6.mp4",
+   "start": 4.4,
+   "dur": 3.8,
+   "zoom": 1.1,
+   "ax": 0.5,
+   "ay": 0.0,
+   "pop": true
+  },
+  {
+   "clip": "ep04-clips/V04-6.mp4",
+   "start": 8.2,
+   "dur": 2.4,
+   "zoom": 1.2,
+   "ax": 0.5,
+   "ay": 0.1,
+   "speed": 0.75
+  }
+ ],
+ "captions": []
+}
