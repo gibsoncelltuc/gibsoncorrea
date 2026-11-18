@@ -110,3 +110,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL
 
+
+## Fontes (fatos conferidos)
+- https://neuralink.com/updates/pager-plays-mindpong/
+- https://www.bbc.com/news/technology-56688812
