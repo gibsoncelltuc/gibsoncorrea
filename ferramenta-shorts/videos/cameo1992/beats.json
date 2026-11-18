@@ -1,0 +1,245 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Poder e Fama",
+ "ep": 2,
+ "title": "O Cameo de Sete Segundos",
+ "titulo_base": "O Cameo de Sete Segundos",
+ "set": "street",
+ "light": "golden",
+ "mood": "playful",
+ "heroi": "kit/tv",
+ "outfits": {
+  "JOR": {
+   "jacket": "#4a6a9a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#8a5a2a",
+   "glasses": true
+  },
+  "JOR2": {
+   "jacket": "#9a4a5a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#1a1a1a"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "bowler"
+   ]
+  },
+  "TRU": {
+   "jacket": "#1f2f5c",
+   "pants": "#1f2f5c",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#f2c84a",
+   "tie": "#d8282f",
+   "pele": "#f5c49a",
+   "build": "stout"
+  },
+  "FUN": {
+   "jacket": "#d85a3a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#e8c06a"
+  },
+  "DIR": {
+   "jacket": "#3a4a3a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#2a2a2a",
+   "glasses": true
+  }
+ },
+ "beats": [
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Em mil novecentos e noventa e dois, estreou o filme Esqueceram de Mim 2, com o garoto Kevin perdido em Nova York.",
+   "shot": "close",
+   "who": [
+    "FUN:0:grin"
+   ],
+   "props": [
+    [
+     "kit/tv",
+     0.4,
+     1.2,
+     1.0
+    ]
+   ],
+   "mapa": "NOVA YORK",
+   "mapa_at": 1
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Numa cena rápida, Kevin pergunta a um homem onde fica o saguão do hotel, e esse homem é Donald Trump.",
+   "shot": "two",
+   "who": [
+    "FUN:0:grin",
+    "TRU:0:smug"
+   ],
+   "riscos_ok": true
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": true,
+   "say": "A cena dura cerca de sete segundos.",
+   "shot": "group",
+   "who": [
+    "TRU:0:grin",
+    "POV:0:shock",
+    "POV:1:shock"
+   ],
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "POV"
+    ]
+   },
+   "fx": [
+    "burst@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ]
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Acontece que aquele hotel, o Plaza, pertencia a Trump na época.",
+   "shot": "close",
+   "who": [
+    "TRU:0:laugh"
+   ],
+   "props": [
+    [
+     "kit/tv",
+     0.4,
+     1.2,
+     1.0
+    ]
+   ],
+   "riscos_ok": true
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "O diretor Chris Columbus contou, anos depois, que a equipe queria o saguão e não conseguiria refazê-lo num estúdio.",
+   "shot": "two",
+   "who": [
+    "DIR:0:suspicious",
+    "TRU:0:smug"
+   ],
+   "riscos_ok": true
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": true,
+   "say": "Segundo o diretor, a participação de Trump foi o preço para usar o hotel.",
+   "shot": "group",
+   "who": [
+    "DIR:0:worried",
+    "TRU:0:smug",
+    "POV:0:shock"
+   ],
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "POV"
+    ]
+   },
+   "fx": [
+    "burst@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ]
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Trump nega isso: diz que a equipe é que pediu, e que ele nem queria aparecer.",
+   "shot": "two",
+   "who": [
+    "TRU:0:suspicious",
+    "DIR:0:shock"
+   ]
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Em dois mil e dezenove, uma emissora canadense exibiu o filme sem esses sete segundos.",
+   "shot": "two",
+   "who": [
+    "JOR:0:shock",
+    "JOR2:0:suspicious"
+   ],
+   "props": [
+    [
+     "kit/tv",
+     -1.5,
+     0.3,
+     1.2
+    ]
+   ],
+   "mapa": "CANADÁ",
+   "mapa_at": 1
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "O corte virou assunto por lá, e a discussão ainda dura até hoje.",
+   "shot": "reveal",
+   "who": [
+    "JOR:0:suspicious"
+   ],
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "POV"
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Moral da história: um cameo de sete segundos gera conversa por mais de trinta anos.",
+   "shot": "close",
+   "who": [
+    "TRU:0:laugh"
+   ],
+   "props": [
+    [
+     "kit/tv",
+     0.4,
+     1.2,
+     1.0
+    ]
+   ]
+  }
+ ],
+ "exp": 1.0
+}
