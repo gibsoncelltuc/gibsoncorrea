@@ -4,8 +4,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Uma bola pesada e outra leve caíram juntas e bateram no chão ao mesmo ...
 - Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): GAL (variante 0, expressao grin); ALU (variante 0, expressao shock)
 - Animacao: conversar | interacao: susto
 - Objetos/modelos: kit/pisa_tower, kit/ball
@@ -113,7 +113,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Video inteiro
-- Objeto heroi: kit/pisa_tower | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 7% | medio 77% | aberto 11% | detalhe 5%
+- Objeto heroi: kit/pisa_tower | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 7% | medio 79% | aberto 11% | detalhe 2%
 - Interacoes: b0 susto, b2 vai ate o outro, b3 aproxima-se, b4 discutir, b5 avanca e o outro recua, b7 susto, b8 cochichar, b9 pular
 - RISCOS GERAIS: nenhum
 

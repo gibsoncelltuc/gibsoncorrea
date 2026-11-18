@@ -16,7 +16,7 @@ b8 | interior madeira | two | 2 | discutir, INTERAGEM: cochichar | - | book | -
 b9 | arctic | group | 10 | comemorar, INTERAGEM: pular, batalha | tools/hammer, kit/feather | - | -
 b10 | street | close | 1 | conversar | kit/feather | - | -
 
-OBJETO HEROI: kit/pisa_tower - aparece em 3 cena(s), close nele em 2
+OBJETO HEROI: kit/pisa_tower - aparece em 3 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b6, b9
 Interacoes entre personagens: b0 susto, b2 vai ate o outro, b3 aproxima-se, b4 discutir, b5 avanca e o outro recua, b7 susto, b8 cochichar, b9 pular
 

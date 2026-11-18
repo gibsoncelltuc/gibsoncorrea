@@ -1,23 +1,270 @@
-{"voice": "pt-BR-AntonioNeural", "rate": "+10%", "serie": "Curiosidade e Ciência", "ep": 3,
- "title": "Galileu e a Torre de Pisa", "titulo_base": "Galileu e a Torre de Pisa",
- "set": "street", "light": "day", "mood": "playful", "heroi": "kit/pisa_tower",
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Curiosidade e Ciência",
+ "ep": 3,
+ "title": "Galileu e a Torre de Pisa",
+ "titulo_base": "Galileu e a Torre de Pisa",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/pisa_tower",
  "outfits": {
-  "GAL": {"jacket": "#7a2a2a", "pants": "#2a2a3a", "boots": "#2a2218", "hat": "hair", "hair": "#3a2a1a", "beard": "#3a2a1a"},
-  "ARI": {"jacket": "#f1efe6", "pants": "#f1efe6", "boots": "#6a4a2a", "hat": "hair", "hair": "#d8d2c4", "beard": "#d8d2c4", "build": "stout"},
-  "ALU": {"jacket": "#2f3a5a", "pants": "#2a2a3a", "boots": "#2a2218", "hat": "cap", "cap": "#2f3a5a"},
-  "PRO": {"jacket": "#1b1b1f", "pants": "#1b1b1f", "boots": "#2a2218", "hat": "beret", "cap": "#1b1b1f", "build": "stout"},
-  "AST": {"jacket": "#f4f4f4", "pants": "#f4f4f4", "boots": "#9a9a9a", "hat": "helmet"}
+  "GAL": {
+   "jacket": "#7a2a2a",
+   "pants": "#2a2a3a",
+   "boots": "#2a2218",
+   "hat": "hair",
+   "hair": "#3a2a1a",
+   "beard": "#3a2a1a"
+  },
+  "ARI": {
+   "jacket": "#f1efe6",
+   "pants": "#f1efe6",
+   "boots": "#6a4a2a",
+   "hat": "hair",
+   "hair": "#d8d2c4",
+   "beard": "#d8d2c4",
+   "build": "stout"
+  },
+  "ALU": {
+   "jacket": "#2f3a5a",
+   "pants": "#2a2a3a",
+   "boots": "#2a2218",
+   "hat": "cap",
+   "cap": "#2f3a5a"
+  },
+  "PRO": {
+   "jacket": "#1b1b1f",
+   "pants": "#1b1b1f",
+   "boots": "#2a2218",
+   "hat": "beret",
+   "cap": "#1b1b1f",
+   "build": "stout"
+  },
+  "AST": {
+   "jacket": "#f4f4f4",
+   "pants": "#f4f4f4",
+   "boots": "#9a9a9a",
+   "hat": "helmet"
+  }
  },
  "beats": [
-  {"say": "Uma bola pesada e outra leve caíram juntas e bateram no chão ao mesmo tempo.", "shot": "two", "who": ["GAL:0:grin", "ALU:0:shock"], "props": [["kit/pisa_tower", -2.6, -5.0, 1.0]], "fx": ["dust@30"], "sfx": ["thump@30"]},
-  {"say": "Conta a história que, em Pisa, na Itália, por volta de mil quinhentos e noventa, um jovem professor desafiou um sábio famoso.", "shot": "reveal", "who": ["ALU:0:smile", "ALU:1:neutral"], "crowd": {"n": 8, "outfits": ["ALU"], "march": false}, "mapa": "ITÁLIA", "mapa_at": 2},
-  {"say": "O sábio era Aristóteles, que dizia que quanto mais pesado o objeto, mais rápido ele cai.", "shot": "two", "interior": "pedra", "who": ["ARI:0:smug", "ALU:0:bored"], "acao": "conversar"},
-  {"say": "Todo mundo achava óbvio, e ninguém tinha testado.", "shot": "group", "interior": "pedra", "who": ["ALU:0:smug", "ALU:1:bored", "PRO:0:smug"], "acao": "conversar"},
-  {"say": "Mas Galileu Galilei achou estranho e disse: \"Eu vou provar o contrário.\"", "shot": "two", "interior": "pedra", "who": ["ALU:1:surprised", "GAL:0:shout"], "interacao": "discutir"},
-  {"say": "Dizem que ele foi até a torre inclinada de Pisa, com duas bolas de pesos diferentes.", "shot": "two", "who": ["GAL:0:smile", "ALU:0:surprised"], "chega": true, "props": [["kit/pisa_tower", -2.6, -5.0, 1.0], ["kit/ball", 1.2, 0.6, 0.9], ["war/cannonballs", -1.2, 0.6, 1.0]]},
-  {"say": "Acontece que, quando ele soltou as duas, elas bateram no chão ao mesmo tempo.", "shot": "orbit", "who": ["GAL:0:shock", "ALU:0:surprised"], "impact": true, "tiros": false, "crowd": {"n": 12, "outfits": ["ALU", "PRO"], "march": false, "expr": "shock"}, "props": [["kit/pisa_tower", -2.8, -5.5, 1.0], ["kit/ball", 0.8, 0.5, 0.9], ["war/cannonballs", -0.8, 0.5, 1.0]], "fx": ["ring@40", "stars@60"], "sfx": ["thump@40", "ding@60"]},
-  {"say": "A plateia ficou de boca aberta, e os professores ficaram bravos.", "shot": "group", "who": ["PRO:0:angry", "PRO:1:angry", "ALU:0:laugh"], "interacao": "susto"},
-  {"say": "Hoje se discute se isso aconteceu mesmo, porque a história vem de um aluno dele, anos depois.", "shot": "two", "interior": "madeira", "who": ["GAL:0:neutral:book", "ALU:1:suspicious"], "interacao": "cochichar"},
-  {"say": "Mas em mil novecentos e setenta e um, na Lua, um astronauta soltou um martelo e uma pena, e os dois caíram juntos.", "shot": "crowd", "set": "arctic", "who": ["AST:0:laugh", "AST:1:shock"], "impact": true, "tiros": false, "crowd": {"n": 8, "outfits": ["AST"], "march": false, "expr": "laugh"}, "props": [["tools/hammer", 0.8, 0.6, 1.2], ["kit/feather", -0.8, 0.6, 1.6]], "fx": ["stars@40", "ring@70"], "sfx": ["ding@40", "thump@70"], "acao": "comemorar"},
-  {"say": "No fim, até a pena deu razão ao Galileu.", "shot": "close", "who": ["GAL:0:smug"]}
- ]}
+  {
+   "say": "Uma bola pesada e outra leve caíram juntas e bateram no chão ao mesmo tempo.",
+   "shot": "two",
+   "who": [
+    "GAL:0:grin",
+    "ALU:0:shock"
+   ],
+   "props": [
+    [
+     "kit/pisa_tower",
+     -2.6,
+     -5.0,
+     1.0
+    ]
+   ],
+   "fx": [
+    "dust@30"
+   ],
+   "sfx": [
+    "thump@30"
+   ],
+   "detalhe": false
+  },
+  {
+   "say": "Conta a história que, em Pisa, na Itália, por volta de mil quinhentos e noventa, um jovem professor desafiou um sábio famoso.",
+   "shot": "reveal",
+   "who": [
+    "ALU:0:smile",
+    "ALU:1:neutral"
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "ALU"
+    ],
+    "march": false
+   },
+   "mapa": "ITÁLIA",
+   "mapa_at": 2
+  },
+  {
+   "say": "O sábio era Aristóteles, que dizia que quanto mais pesado o objeto, mais rápido ele cai.",
+   "shot": "two",
+   "interior": "pedra",
+   "who": [
+    "ARI:0:smug",
+    "ALU:0:bored"
+   ],
+   "acao": "conversar"
+  },
+  {
+   "say": "Todo mundo achava óbvio, e ninguém tinha testado.",
+   "shot": "group",
+   "interior": "pedra",
+   "who": [
+    "ALU:0:smug",
+    "ALU:1:bored",
+    "PRO:0:smug"
+   ],
+   "acao": "conversar"
+  },
+  {
+   "say": "Mas Galileu Galilei achou estranho e disse: \"Eu vou provar o contrário.\"",
+   "shot": "two",
+   "interior": "pedra",
+   "who": [
+    "ALU:1:surprised",
+    "GAL:0:shout"
+   ],
+   "interacao": "discutir"
+  },
+  {
+   "say": "Dizem que ele foi até a torre inclinada de Pisa, com duas bolas de pesos diferentes.",
+   "shot": "two",
+   "who": [
+    "GAL:0:smile",
+    "ALU:0:surprised"
+   ],
+   "chega": true,
+   "props": [
+    [
+     "kit/pisa_tower",
+     -2.0,
+     -2.4,
+     0.6
+    ],
+    [
+     "kit/ball",
+     1.2,
+     0.6,
+     0.9
+    ],
+    [
+     "war/cannonballs",
+     -1.2,
+     0.6,
+     1.0
+    ]
+   ]
+  },
+  {
+   "say": "Acontece que, quando ele soltou as duas, elas bateram no chão ao mesmo tempo.",
+   "shot": "orbit",
+   "who": [
+    "GAL:0:shock",
+    "ALU:0:surprised"
+   ],
+   "impact": true,
+   "tiros": false,
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "ALU",
+     "PRO"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
+   "props": [
+    [
+     "kit/pisa_tower",
+     -2.8,
+     -5.5,
+     1.0
+    ],
+    [
+     "kit/ball",
+     0.8,
+     0.5,
+     0.9
+    ],
+    [
+     "war/cannonballs",
+     -0.8,
+     0.5,
+     1.0
+    ]
+   ],
+   "fx": [
+    "ring@40",
+    "stars@60"
+   ],
+   "sfx": [
+    "thump@40",
+    "ding@60"
+   ]
+  },
+  {
+   "say": "A plateia ficou de boca aberta, e os professores ficaram bravos.",
+   "shot": "group",
+   "who": [
+    "PRO:0:angry",
+    "PRO:1:angry",
+    "ALU:0:laugh"
+   ],
+   "interacao": "susto"
+  },
+  {
+   "say": "Hoje se discute se isso aconteceu mesmo, porque a história vem de um aluno dele, anos depois.",
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "GAL:0:neutral:book",
+    "ALU:1:suspicious"
+   ],
+   "interacao": "cochichar"
+  },
+  {
+   "say": "Mas em mil novecentos e setenta e um, na Lua, um astronauta soltou um martelo e uma pena, e os dois caíram juntos.",
+   "shot": "crowd",
+   "set": "arctic",
+   "who": [
+    "AST:0:laugh",
+    "AST:1:shock"
+   ],
+   "impact": true,
+   "tiros": false,
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "AST"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "props": [
+    [
+     "tools/hammer",
+     0.8,
+     0.6,
+     1.2
+    ],
+    [
+     "kit/feather",
+     -0.8,
+     0.6,
+     1.6
+    ]
+   ],
+   "fx": [
+    "stars@40",
+    "ring@70"
+   ],
+   "sfx": [
+    "ding@40",
+    "thump@70"
+   ],
+   "acao": "comemorar"
+  },
+  {
+   "say": "No fim, até a pena deu razão ao Galileu.",
+   "shot": "close",
+   "who": [
+    "GAL:0:smug"
+   ]
+  }
+ ]
+}
