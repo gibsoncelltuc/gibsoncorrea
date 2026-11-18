@@ -151,7 +151,7 @@ for _f in sorted(__import__('glob').glob('obj_dict.d/*.json')):
         for _e in json.load(open(_f, encoding='utf-8')):
             if not any(_e[1] == x[1] for x in OBJ_DICT): OBJ_DICT.append((_e[0], _e[1], float(_e[2]), _e[3] if len(_e) > 3 else False))
     except Exception as _x: print(f'AVISO: {_f} invalido ({_x})')
-FALTA_MODELAR = r'\b(pao|paes|queijo|peixe|peixes|vaca|vacas|cachorro|cachorros|gato|gatos|ovelha|ovelhas|piano|relogio|estatua|guilhotina|balanca|telefone|radio|bicicleta)\b'
+FALTA_MODELAR = r'\b(pao|paes|queijo|peixe|peixes|piano|relogio|estatua|guilhotina|balanca|telefone|radio|bicicleta)\b'
 def _heroi():   # OBJETO HEROI do video: "heroi" no topo do roteiro, ou o objeto do titulo, ou o objeto mais citado na narracao
     if 'heroi' in B: return B['heroi'] or None
     nz = lambda t: re.sub(r'[^a-z0-9 ]', '', unicodedata.normalize('NFKD', t.lower()).encode('ascii', 'ignore').decode())
@@ -234,7 +234,7 @@ if B.get('director') is not False and len(beats) > 6 and sum(1 for b in beats if
     _vir = [i for i in _cand if re.match(r'acontece que|na verdade|so que|o problema', re.sub(r'[^a-z ]', '', unicodedata.normalize('NFKD', beats[i]['say'].lower()).encode('ascii', 'ignore').decode()))]
     _pick = (_vir or sorted(_cand, key=lambda i: abs(i - (len(beats) * (0.3 if (_im and _im[0] > len(beats) / 2) else 0.7)))) or [None])[0]
     if _pick is not None:
-        _b = beats[_pick]; _b['impact'] = True; _b['_momento_auto'] = True; _b['shot'] = 'crowd'; _b.setdefault('crowd', {'n': 12, 'outfits': [w.split(':')[0] for w in _b.get('who', [])] or list(B.get('outfits', {'X': 0}))[:1], 'march': False, 'expr': 'shock'})
+        _b = beats[_pick]; _b['impact'] = True; _b['_momento_auto'] = True; _b['shot'] = 'crowd'; _povo = [k_ for k_ in B.get('outfits', {}) if k_ in ('POV', 'POVO', 'SOL', 'TRO') or B['outfits'][k_].get('hats')]; _b.setdefault('crowd', {'n': 12, 'outfits': _povo or [w.split(':')[0] for w in _b.get('who', [])] or list(B.get('outfits', {'X': 0}))[:1], 'march': False, 'expr': 'shock'})
         _b.setdefault('fx', []); _b.setdefault('sfx', [])
         if not _b['fx']: _b['fx'] = ['ring@12', 'dust@40']
         if not _b['sfx']: _b['sfx'] = ['sting@10', 'thump@40']
@@ -730,8 +730,8 @@ def _redondo(as_):   # objeto do kit feito com blender/formas.py (malha 'red_...
     except Exception: return True
 _VARN = ['frente', '3/4 pela direita, mais perto e mais baixo', '3/4 pela esquerda, mais alto e aberto', 'leve direita, perto', 'esquerda alta, aberto', 'direita baixa']
 _STOPW = set('guerra causa vezes tempo coisa hora horas dias anos meses semanas noite manha tarde vida nada tudo todo toda todos todas mesmo mesma outro outra outros outras nome meio parte lado fim final verdade volta ideia ordem resposta historia mundo pais paises primeiro segundo terceiro ultimo unica unico dele dela deles delas quem qual onde quando para pelo pela entre sobre depois antes ainda apenas quase muito pouco mais menos maior menor inteiro inteira troca conta hoje nunca sempre'.split())
-_ANIM_OK = {'cavalo': 'horse', 'cavalos': 'horse', 'urso': 'bear', 'ursos': 'bear', 'porco': 'pig', 'porcos': 'pig', 'galinha': 'chicken', 'galinhas': 'chicken', 'emu': 'emus', 'emus': 'emus', 'ganso': 'chicken', 'gansos': 'chicken'}
-_ANIM_ALL = r'\b(cavalo|cavalos|vaca|vacas|boi|bois|cachorro|cachorros|cao|caes|gato|gatos|ovelha|ovelhas|galinha|galinhas|porco|porcos|emu|emus|ganso|gansos|urso|ursos|lobo|lobos|elefante|elefantes|camelo|camelos|burro|burros|coelho|coelhos|rato|ratos|pombo|pombos)\b'
+_ANIM_OK = {'cavalo': 'horse', 'cavalos': 'horse', 'urso': 'bear', 'ursos': 'bear', 'porco': 'pig', 'porcos': 'pig', 'galinha': 'chicken', 'galinhas': 'chicken', 'emu': 'emus', 'emus': 'emus', 'ganso': 'chicken', 'gansos': 'chicken', 'vaca': 'cow', 'vacas': 'cow', 'boi': 'cow', 'bois': 'cow', 'cachorro': 'dog', 'cachorros': 'dog', 'cao': 'dog', 'caes': 'dog', 'gato': 'cat', 'gatos': 'cat', 'ovelha': 'sheep', 'ovelhas': 'sheep', 'cabra': 'goat', 'cabras': 'goat', 'bode': 'goat', 'burro': 'donkey', 'burros': 'donkey', 'jumento': 'donkey', 'veado': 'deer', 'veados': 'deer', 'cervo': 'deer', 'cervos': 'deer', 'raposa': 'fox', 'raposas': 'fox', 'lobo': 'wolf', 'lobos': 'wolf', 'coelho': 'rabbit', 'coelhos': 'rabbit', 'leao': 'lion', 'leoes': 'lion', 'elefante': 'elephant', 'elefantes': 'elephant'}   # todos os modelos de web/assets/animals/catalog.json
+_ANIM_ALL = r'\b(cavalo|cavalos|vaca|vacas|boi|bois|cachorro|cachorros|cao|caes|gato|gatos|ovelha|ovelhas|galinha|galinhas|porco|porcos|emu|emus|ganso|gansos|urso|ursos|lobo|lobos|elefante|elefantes|camelo|camelos|burro|burros|jumento|cabra|cabras|bode|veado|veados|cervo|cervos|raposa|raposas|leao|leoes|coelho|coelhos|rato|ratos|pombo|pombos)\b'
 def _riscos(k, b):
     t = _nz(b['say']); nw = len(b['say'].split()); sh = b.get('shot'); R = []; cen = b.get('set', SET)
     if re.search(r'desembarc|barcos? cheg|navios? cheg|chegaram? de (barco|navio)|atravess\w* o (rio|mar|lago|canal)|ancor|zarp', t) and sh not in WIDE: R.append(('chegada/travessia pela agua em plano fechado: nao da para ver barco nem desembarque', '"shot": "reveal", "set": "harbor" nesta cena (plano aberto no cais, navios ao fundo)'))

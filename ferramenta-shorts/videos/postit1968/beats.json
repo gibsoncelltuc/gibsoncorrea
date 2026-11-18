@@ -1,0 +1,263 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Curiosidade e Ciência",
+ "ep": 15,
+ "title": "A Cola que Não Colava",
+ "titulo_base": "A Cola que Não Colava",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/postit",
+ "outfits": {
+  "SIL": {
+   "profissao": "cientista",
+   "hair": "#6a4a2a",
+   "glasses": true
+  },
+  "FRY": {
+   "jacket": "#2a4a6a",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#3a2a1f",
+   "tie": "#b02a2a",
+   "glasses": true
+  },
+  "CHE": {
+   "profissao": "empresario"
+  },
+  "PAD": {
+   "profissao": "padre"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "straw",
+    "beret",
+    "hair"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "SIL:0:sad",
+    "CHE:0:angry"
+   ],
+   "acao": "discutir",
+   "props": [
+    [
+     "kit/postit",
+     0,
+     -1.4,
+     1.0
+    ]
+   ],
+   "text": "1968",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "Um químico inventou a cola mais fraca do mundo. E ela virou um dos produtos mais vendidos do planeta."
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin"
+   ],
+   "mapa": "ESTADOS UNIDOS",
+   "mapa_at": 3,
+   "say": "Era mil novecentos e sessenta e oito, numa grande fábrica dos Estados Unidos."
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "SIL:0:grin:paper"
+   ],
+   "fx": [
+    "puff@40"
+   ],
+   "sfx": [
+    "thump@40"
+   ],
+   "say": "Spencer Silver tentava criar uma super cola, tão forte que nada conseguisse descolar."
+  },
+  {
+   "shot": "close",
+   "interior": "madeira",
+   "who": [
+    "SIL:0:shock:paper"
+   ],
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "say": "Acontece que saiu o contrário: uma cola que grudava, mas soltava fácil, sem deixar marca."
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "CHE:0:bored",
+    "SIL:0:nervous:paper"
+   ],
+   "interacao": "entregar",
+   "say": "Durante anos, ele mostrou a cola para todo mundo na empresa. Ninguém via utilidade."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "FRY:0:sad",
+    "PAD:0:smile",
+    "POV:0:smile"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 16,
+    "outfits": [
+     "POV",
+     "FRY"
+    ],
+    "march": false,
+    "expr": "smile"
+   },
+   "say": "Até que, em mil novecentos e setenta e quatro, o colega Art Fry estava cantando no coral da igreja."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "FRY:0:angry:paper",
+    "PAD:0:surprised"
+   ],
+   "fx": [
+    "puff@30"
+   ],
+   "sfx": [
+    "whoosh@30"
+   ],
+   "say": "Os papeizinhos que marcavam as páginas do hinário viviam caindo no chão. E ele ficava perdido."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "FRY:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/postit",
+     1.6,
+     -0.8,
+     1.1
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "ring@40"
+   ],
+   "sfx": [
+    "ding@20",
+    "sting@40"
+   ],
+   "say": "Aí veio a ideia: marcadores com a cola fraca do Silver. Grudam, não caem, e saem sem rasgar a página."
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "FRY:0:grin",
+    "SIL:0:laugh"
+   ],
+   "interacao": "abracar",
+   "props": [
+    [
+     "kit/postit",
+     1.6,
+     -0.8,
+     1.0
+    ]
+   ],
+   "say": "Os dois se juntaram. E o papel saiu amarelo por acaso: era o único papel de rascunho que tinha no laboratório vizinho."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "CHE:0:suspicious",
+    "FRY:0:nervous:paper"
+   ],
+   "fx": [
+    "ring@40"
+   ],
+   "sfx": [
+    "sting@40"
+   ],
+   "say": "O primeiro teste de vendas foi um fracasso. Ninguém entendia para que servia um bloquinho que descolava."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "FRY:0:laugh",
+    "SIL:0:grin",
+    "CHE:0:laugh"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POV",
+     "CHE"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "props": [
+    [
+     "kit/postit",
+     0,
+     -3.0,
+     1.4
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "POST-IT",
+   "titulo": true,
+   "say": "Então distribuíram amostras de graça numa cidade inteira. Quase todo mundo que testou quis comprar mais."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "SIL:0:smile"
+   ],
+   "props": [
+    [
+     "kit/postit",
+     1.4,
+     -0.8,
+     1.0
+    ]
+   ],
+   "text": "1980",
+   "say": "Em mil novecentos e oitenta, o post-it chegou às lojas. Tudo graças a uma cola que deu errado."
+  }
+ ]
+}

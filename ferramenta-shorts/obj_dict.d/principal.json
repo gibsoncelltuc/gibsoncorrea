@@ -28,5 +28,17 @@
   "kit/snake_ring",
   1.0,
   false
+ ],
+ [
+  "post-?it|bloquinhos?|marcadores?|hinario|papeizinhos",
+  "kit/postit",
+  1.0,
+  false
+ ],
+ [
+  "carrapichos?|velcro|ganchinhos?",
+  "kit/burr",
+  1.0,
+  false
  ]
 ]
