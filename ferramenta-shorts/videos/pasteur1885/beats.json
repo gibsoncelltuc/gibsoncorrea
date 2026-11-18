@@ -1,0 +1,203 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Curiosidade e Ciência",
+ "ep": 6,
+ "title": "Pasteur e a Vacina da Raiva",
+ "titulo_base": "Pasteur e a Vacina da Raiva",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/syringe",
+ "outfits": {
+  "PAS": {
+   "jacket": "#2a2a33",
+   "pants": "#2a2a33",
+   "boots": "#1b1b1f",
+   "hat": "bowler",
+   "cap": "#2a2a33",
+   "beard": "#c9c2b0"
+  },
+  "MAE": {
+   "jacket": "#7a3f5a",
+   "pants": "#4a2a3a",
+   "boots": "#2a2218",
+   "hat": "bonnet",
+   "cap": "#e8dcc0",
+   "build": "stout"
+  },
+  "MED": {
+   "jacket": "#f4f4f0",
+   "pants": "#4a4a54",
+   "boots": "#2a2218",
+   "hat": "cap",
+   "cap": "#f4f4f0",
+   "glasses": true
+  },
+  "POV": {
+   "jacket": "#6a5a4a",
+   "pants": "#3a3a44",
+   "boots": "#2a2218",
+   "hat": "bowler",
+   "cap": "#4a3a2a"
+  }
+ },
+ "beats": [
+  {
+   "say": "Um menino de nove anos foi o primeiro a receber a vacina contra a raiva.",
+   "shot": "two",
+   "who": [
+    "PAS:0:smile",
+    "MAE:0:nervous"
+   ],
+   "props": [
+    [
+     "kit/syringe",
+     -2.0,
+     -1.4,
+     1.3
+    ]
+   ]
+  },
+  {
+   "say": "Era mil oitocentos e oitenta e cinco, na França, e o cientista Louis Pasteur já era famoso por estudar micróbios.",
+   "shot": "reveal",
+   "who": [
+    "MED:0:neutral",
+    "MED:1:smile"
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "POV",
+     "MED"
+    ],
+    "march": false
+   },
+   "mapa": "FRANÇA",
+   "mapa_at": 2
+  },
+  {
+   "say": "Na época, a raiva era uma doença fatal, e quem era mordido por um animal doente quase nunca se salvava.",
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "MED:0:sad",
+    "POV:0:scared"
+   ],
+   "acao": "conversar"
+  },
+  {
+   "say": "Pasteur tinha criado uma vacina e testado só em animais, nunca em uma pessoa.",
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "PAS:0:suspicious",
+    "MED:0:nervous"
+   ],
+   "acao": "conversar"
+  },
+  {
+   "say": "Um dia, uma mãe chegou à porta dele, com o filho Joseph, mordido por um animal, e pediu: \"Salve o meu filho!\"",
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "PAS:0:surprised",
+    "MAE:0:cry"
+   ],
+   "chega": true
+  },
+  {
+   "say": "Pasteur não era médico, e ficou com medo, mas depois de ouvir os médicos ele decidiu tentar.",
+   "shot": "close",
+   "who": [
+    "PAS:0:nervous"
+   ]
+  },
+  {
+   "say": "Acontece que, durante dez dias, ele aplicou injeções cada vez mais fortes, e o menino nunca ficou doente.",
+   "shot": "orbit",
+   "set": "hall",
+   "who": [
+    "PAS:0:relief",
+    "MED:0:surprised"
+   ],
+   "impact": true,
+   "tiros": false,
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "MED",
+     "POV"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
+   "fx": [
+    "ring@40",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@40",
+    "sting@60"
+   ]
+  },
+  {
+   "say": "Joseph sobreviveu, e a notícia correu o mundo.",
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "MAE:0:relief",
+    "PAS:0:smile"
+   ],
+   "interacao": "reverencia"
+  },
+  {
+   "say": "Anos depois, ele virou o guarda do instituto de Pasteur, e cuidou do lugar até o fim da vida.",
+   "shot": "two",
+   "who": [
+    "MED:0:smile",
+    "POV:0:grin"
+   ],
+   "interacao": "cochichar"
+  },
+  {
+   "say": "Hoje o Instituto Pasteur, em Paris, ainda leva o nome dele, e a vacina salva vidas no mundo inteiro.",
+   "shot": "crowd",
+   "set": "hall",
+   "who": [
+    "POV:0:laugh",
+    "MED:0:grin"
+   ],
+   "impact": true,
+   "tiros": false,
+   "crowd": {
+    "n": 14,
+    "outfits": [
+     "POV",
+     "MED",
+     "MAE"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "text": "VACINA",
+   "fx": [
+    "stars@30",
+    "burst@70"
+   ],
+   "sfx": [
+    "ding@30",
+    "sting@70"
+   ],
+   "acao": "comemorar"
+  },
+  {
+   "say": "No fim, uma picada salvou mais que mil discursos.",
+   "shot": "close",
+   "who": [
+    "PAS:0:smug"
+   ]
+  }
+ ]
+}

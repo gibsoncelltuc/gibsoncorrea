@@ -6,4 +6,5 @@
  ["\\bmicro-?ondas\\b|\\bmicroondas\\b|\\bforno\\b", "kit/microwave", 1.0, false],
  ["\\bchocolate\\b", "kit/chocolate", 1.8, false],
  ["\\bovos?\\b", "kit/egg", 2.2, false],
- ["\\bpipocas?\\b|\\bmilho\\b", "kit/popcorn", 2.2, false]]
+ ["\\bpipocas?\\b|\\bmilho\\b", "kit/popcorn", 2.2, false],
+ ["\\binjecao\\b|\\binjecoes\\b|\\bseringa\\b|\\bvacina\\b", "kit/syringe", 1.4, false]]

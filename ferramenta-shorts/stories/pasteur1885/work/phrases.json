@@ -1,0 +1,306 @@
+{
+ "duration": 61.56,
+ "frames30": 1847,
+ "source": "silence-align (cost 1.00)",
+ "segments": [
+  [
+   0.146875,
+   3.30271
+  ],
+  [
+   4.16258,
+   5.90333
+  ],
+  [
+   6.13142,
+   6.68971
+  ],
+  [
+   6.92808,
+   10.238
+  ],
+  [
+   11.084,
+   11.6532
+  ],
+  [
+   11.903,
+   13.362
+  ],
+  [
+   13.6331,
+   16.5948
+  ],
+  [
+   17.4712,
+   20.2027
+  ],
+  [
+   20.4251,
+   21.4383
+  ],
+  [
+   22.2982,
+   22.7721
+  ],
+  [
+   22.9963,
+   24.4182
+  ],
+  [
+   24.6794,
+   25.6317
+  ],
+  [
+   25.895,
+   26.9719
+  ],
+  [
+   27.2586,
+   27.7111
+  ],
+  [
+   28.0182,
+   28.8972
+  ],
+  [
+   29.7506,
+   30.8554
+  ],
+  [
+   31.1432,
+   31.9388
+  ],
+  [
+   32.1704,
+   34.5199
+  ],
+  [
+   35.3324,
+   36.1498
+  ],
+  [
+   36.3472,
+   37.3833
+  ],
+  [
+   37.5629,
+   39.5971
+  ],
+  [
+   39.856,
+   41.3322
+  ],
+  [
+   42.17,
+   43.2282
+  ],
+  [
+   43.5212,
+   44.7764
+  ],
+  [
+   45.627,
+   46.3566
+  ],
+  [
+   46.6195,
+   48.5039
+  ],
+  [
+   48.8456,
+   50.6191
+  ],
+  [
+   51.4692,
+   52.6075
+  ],
+  [
+   52.8903,
+   53.4208
+  ],
+  [
+   53.6297,
+   54.6737
+  ],
+  [
+   54.9142,
+   56.9062
+  ],
+  [
+   57.7607,
+   58.1762
+  ],
+  [
+   58.466,
+   60.7548
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um menino de nove anos foi o primeiro a receber a vacina contra a raiva.",
+   "s": 0.147,
+   "e": 3.303
+  },
+  {
+   "text": "Era mil oitocentos e oitenta e cinco,",
+   "s": 4.163,
+   "e": 5.903
+  },
+  {
+   "text": "na Fran\u00e7a,",
+   "s": 6.131,
+   "e": 6.69
+  },
+  {
+   "text": "e o cientista Louis Pasteur j\u00e1 era famoso por estudar micr\u00f3bios.",
+   "s": 6.928,
+   "e": 10.238
+  },
+  {
+   "text": "Na \u00e9poca,",
+   "s": 11.084,
+   "e": 11.653
+  },
+  {
+   "text": "a raiva era uma doen\u00e7a fatal,",
+   "s": 11.903,
+   "e": 13.362
+  },
+  {
+   "text": "e quem era mordido por um animal doente quase nunca se salvava.",
+   "s": 13.633,
+   "e": 16.595
+  },
+  {
+   "text": "Pasteur tinha criado uma vacina e testado s\u00f3 em animais,",
+   "s": 17.471,
+   "e": 20.203
+  },
+  {
+   "text": "nunca em uma pessoa.",
+   "s": 20.425,
+   "e": 21.438
+  },
+  {
+   "text": "Um dia,",
+   "s": 22.298,
+   "e": 22.772
+  },
+  {
+   "text": "uma m\u00e3e chegou \u00e0 porta dele,",
+   "s": 22.996,
+   "e": 24.418
+  },
+  {
+   "text": "com o filho Joseph,",
+   "s": 24.679,
+   "e": 25.632
+  },
+  {
+   "text": "mordido por um animal,",
+   "s": 25.895,
+   "e": 26.972
+  },
+  {
+   "text": "e pediu:",
+   "s": 27.259,
+   "e": 27.711
+  },
+  {
+   "text": "\"Salve o meu filho!\"",
+   "s": 28.018,
+   "e": 28.897
+  },
+  {
+   "text": "Pasteur n\u00e3o era m\u00e9dico,",
+   "s": 29.751,
+   "e": 30.855
+  },
+  {
+   "text": "e ficou com medo,",
+   "s": 31.143,
+   "e": 31.939
+  },
+  {
+   "text": "mas depois de ouvir os m\u00e9dicos ele decidiu tentar.",
+   "s": 32.17,
+   "e": 34.52
+  },
+  {
+   "text": "Acontece que,",
+   "s": 35.332,
+   "e": 36.15
+  },
+  {
+   "text": "durante dez dias,",
+   "s": 36.347,
+   "e": 37.383
+  },
+  {
+   "text": "ele aplicou inje\u00e7\u00f5es cada vez mais fortes,",
+   "s": 37.563,
+   "e": 39.597
+  },
+  {
+   "text": "e o menino nunca ficou doente.",
+   "s": 39.856,
+   "e": 41.332
+  },
+  {
+   "text": "Joseph sobreviveu,",
+   "s": 42.17,
+   "e": 43.228
+  },
+  {
+   "text": "e a not\u00edcia correu o mundo.",
+   "s": 43.521,
+   "e": 44.776
+  },
+  {
+   "text": "Anos depois,",
+   "s": 45.627,
+   "e": 46.357
+  },
+  {
+   "text": "ele virou o guarda do instituto de Pasteur,",
+   "s": 46.62,
+   "e": 48.504
+  },
+  {
+   "text": "e cuidou do lugar at\u00e9 o fim da vida.",
+   "s": 48.846,
+   "e": 50.619
+  },
+  {
+   "text": "Hoje o Instituto Pasteur,",
+   "s": 51.469,
+   "e": 52.608
+  },
+  {
+   "text": "em Paris,",
+   "s": 52.89,
+   "e": 53.421
+  },
+  {
+   "text": "ainda leva o nome dele,",
+   "s": 53.63,
+   "e": 54.674
+  },
+  {
+   "text": "e a vacina salva vidas no mundo inteiro.",
+   "s": 54.914,
+   "e": 56.906
+  },
+  {
+   "text": "No fim,",
+   "s": 57.761,
+   "e": 58.176
+  },
+  {
+   "text": "uma picada salvou mais que mil discursos.",
+   "s": 58.466,
+   "e": 60.755
+  }
+ ]
+}

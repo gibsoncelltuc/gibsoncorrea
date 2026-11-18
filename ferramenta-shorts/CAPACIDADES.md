@@ -74,9 +74,10 @@ jacket, pants, boots (obrigatorios) | hat + cap (cor) | hair (cor, com hat: hair
 - kit/chocolate  <- \bchocolate\b
 - kit/egg  <- \bovos?\b
 - kit/popcorn  <- \bpipocas?\b|\bmilho\b
+- kit/syringe  <- \binjecao\b|\binjecoes\b|\bseringa\b|\bvacina\b
 
 ## Biblioteca 3D completa (use em "props": [["pasta/nome", x, z, escala]])
-- kit: apple, ball, bathtub, cake_table, campfire, chest, chocolate, cross, crown, egg, feather, grave, kettle, microwave, petri, pisa_tower, popcorn, porch, room_shop, room_stone, room_wood, stall, tent, throne, tulip_bed, tulip_purple, tulip_red, tulip_striped, tulip_yellow
+- kit: apple, ball, barrel_r, bathtub, cake_table, campfire, chest, chocolate, cross, crown, egg, feather, grave, kettle, microwave, petri, pisa_tower, popcorn, porch, room_shop, room_stone, room_wood, stall, syringe, tent, throne, tulip_bed, tulip_purple, tulip_red, tulip_striped, tulip_yellow
 - buildings: apartment, barn, bridge, castle_tower, church, house_blue, house_small, house_two, lighthouse, shop, skyscraper, windmill
 - vehicles: airplane, bicycle, car, car_blue, helicopter, jeep, locomotive, motorboat, motorcycle, sailboat, tank, taxi, truck, wagon
 - nature: bench, bush, flowerbed, fountain, haybale, lamppost, picket_fence, rocks, scarecrow, tree_birch, tree_oak, tree_palm, tree_pine
