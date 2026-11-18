@@ -1,0 +1,5 @@
+# PF 09 — O País do Bitcoin (Poder e Fama)
+**Fatos (conferidos por busca):** lei aprovada pelo congresso de El Salvador em junho de 2021 (ideia do presidente Bukele); valeu a partir de 7/9/2021; primeiro país a adotar o bitcoin como moeda oficial; app Chivo ficou fora do ar nas primeiras horas por excesso de acessos. Sem fala inventada, sem opinião (nada a favor/contra). Descrição: "Animação humorística. Personagens são caricaturas."
+**Passou:** conferir.sh OK (41 s, 1080x1920, 0 riscos); moeda (objeto herói) no início e em close; mapa El Salvador; placas "7 DE SETEMBRO DE 2021" e "CARTEIRA CHIVO"; multidões pacíficas (tiros desligados); expressões variadas.
+**Não passou / limitações:** "app fora do ar" (b6) sem imagem própria (só personagens nervosos); um quadro de transição esmaecido em ~19,5 s; cenário de rua repetido; não refiz por serem defeitos de acabamento.
+**Refeito:** nenhuma cena. Antes do render: desliguei batalha/tiros/impacto automáticos que a ferramenta criava nas cenas de multidão.
