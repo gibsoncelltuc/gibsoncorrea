@@ -1,0 +1,232 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Guerras Inusitadas",
+ "ep": 15,
+ "title": "A Guerra do Bacalhau",
+ "titulo_base": "A Guerra do Bacalhau",
+ "set": "harbor",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/cod",
+ "outfits": {
+  "ISL": {
+   "profissao": "pescador",
+   "jacket": "#1f3a8a",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "cap",
+   "cap": "#b0282f"
+  },
+  "ING": {
+   "profissao": "pescador",
+   "jacket": "#e8e2d0",
+   "pants": "#2a3a6a",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#b02a2a"
+  },
+  "GUA": {
+   "profissao": "marinheiro",
+   "jacket": "#1f3a8a",
+   "pants": "#f1efe6",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#1f3a8a"
+  },
+  "NAV": {
+   "profissao": "marinheiro",
+   "jacket": "#b02a2a",
+   "pants": "#f1efe6",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#2a3a6a"
+  },
+  "PRE": {
+   "profissao": "politico",
+   "jacket": "#2a2a30",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "bowler",
+   "tie": "#1f3a8a"
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "set": "harbor",
+   "who": [
+    "ISL:0:laugh",
+    "ING:0:angry"
+   ],
+   "props": [
+    [
+     "kit/cod",
+     0.3,
+     2.2,
+     1.3
+    ]
+   ],
+   "text": "1958",
+   "interacao": "discutir",
+   "acao": "discutir",
+   "say": "A Inglaterra e a Islândia entraram em guerra três vezes por causa de um bacalhau."
+  },
+  {
+   "shot": "reveal",
+   "set": "arctic",
+   "who": [
+    "ISL:0:neutral",
+    "ISL:1:nervous"
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "ISL"
+    ],
+    "march": false
+   },
+   "mapa": "ISLÂNDIA",
+   "mapa_at": 3,
+   "say": "A Islândia é uma ilha pequena no gelo do Atlântico, e quase toda a sua riqueza vinha da pesca."
+  },
+  {
+   "shot": "two",
+   "set": "harbor",
+   "who": [
+    "ING:0:smug",
+    "ISL:0:angry"
+   ],
+   "props": [
+    [
+     "boat",
+     5,
+     -8,
+     1.3
+    ]
+   ],
+   "interacao": "empurrar",
+   "say": "Só que barcos ingleses pescavam bacalhau bem pertinho da costa dela, e os pescadores islandeses não gostaram nada."
+  },
+  {
+   "shot": "two",
+   "set": "harbor",
+   "who": [
+    "PRE:0:stern:paper",
+    "ISL:0:smug"
+   ],
+   "interacao": "cochichar",
+   "say": "Então a Islândia aumentou o limite do seu mar, e depois aumentou de novo."
+  },
+  {
+   "shot": "crowd",
+   "set": "harbor",
+   "who": [
+    "NAV:0:angry",
+    "GUA:0:shout"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "NAV",
+     "GUA"
+    ],
+    "march": true,
+    "expr": "angry"
+   },
+   "props": [
+    [
+     "ship",
+     -7,
+     -9,
+     1.3
+    ]
+   ],
+   "text": "MARINHA",
+   "titulo": true,
+   "say": "A Inglaterra mandou navios de guerra para proteger seus barcos, e a Islândia só tinha barquinhos da guarda costeira."
+  },
+  {
+   "shot": "two",
+   "set": "harbor",
+   "who": [
+    "GUA:0:smug:bag",
+    "NAV:0:shock"
+   ],
+   "interacao": "susto",
+   "say": "Acontece que os islandeses tinham uma arma secreta: \"Cortadores de rede!\", gritou um deles."
+  },
+  {
+   "shot": "crowd",
+   "set": "harbor",
+   "who": [
+    "GUA:0:grin",
+    "NAV:0:scared"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "GUA",
+     "NAV"
+    ],
+    "march": false,
+    "expr": "angry"
+   },
+   "props": [
+    [
+     "ship",
+     -7,
+     -9,
+     1.3
+    ]
+   ],
+   "fx": [
+    "burst@60"
+   ],
+   "sfx": [
+    "thump@60"
+   ],
+   "say": "Eles cortavam as redes dos ingleses, e os navios batiam uns nos outros."
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "PRE:0:angry:paper",
+    "ING:0:nervous"
+   ],
+   "interacao": "empurrar",
+   "say": "A Islândia ainda ameaçou fechar a base militar da Otan no país."
+  },
+  {
+   "shot": "two",
+   "interior": "pedra",
+   "who": [
+    "PRE:0:relief:paper",
+    "PRE:1:smile"
+   ],
+   "interacao": "entregar",
+   "say": "Em mil novecentos e setenta e seis, os ingleses cederam, e a zona de duzentas milhas virou regra no mundo."
+  },
+  {
+   "shot": "close",
+   "set": "harbor",
+   "who": [
+    "ISL:0:smile"
+   ],
+   "props": [
+    [
+     "kit/cod",
+     1.0,
+     0.5,
+     1.3
+    ]
+   ],
+   "say": "No fim, o bacalhau só queria ficar em paz."
+  }
+ ]
+}

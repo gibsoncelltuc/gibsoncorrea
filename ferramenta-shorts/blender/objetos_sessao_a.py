@@ -37,3 +37,18 @@ cil((0, .45, 0), .2, 1.1, '#f1e6c8', rot=(0, 0, math.pi / 2)); cil((0, .45, 0), 
 for x in (-.56, .56): cil((x, .45, 0), .21, .06, '#d6c08a', rot=(0, 0, math.pi / 2))
 cil((0, .45, 0), .215, .12, '#b0282f', rot=(0, 0, math.pi / 2)); bola((0, .45, .22), .09, '#d8282f', .6); tubo([(0, .4, .24), (-.1, .22, .3), (-.2, .18, .34)], .02, '#b0282f'); tubo([(0, .4, .24), (.1, .22, .3), (.22, .17, .32)], .02, '#b0282f')
 fim(.02)
+novo('cod')                                           # bacalhau (herói do EP 15): corpo liso de esferas sobrepostas, cauda achatada, nadadeiras, barbilhão; olha para +x
+C1, C2, C3 = '#8a9a6a', '#d8d2a4', '#6f7f52'
+FL = (math.pi / 2, 0, 0)
+x = .75
+while x > -.85:
+    r = max(.07, .3 * math.sqrt(max(0, 1 - (x / .95) ** 2)))
+    bola((x, .42 + .02 * (x < 0), 0), r, C1); bola((x, .42 - .09 * r / .3, .0), r * .8, C2, .85)
+    x -= .06
+bola((.72, .44, 0), .17, C1); bola((.82, .4, 0), .1, C1)
+for s in (1, -1): bola((.74, .5, .1 * s), .055, '#f4f4ec'); bola((.76, .5, .125 * s), .028, '#111111')
+bola((-1.02, .42, 0), .22, C3, .3, rot=FL); bola((-1.1, .6, 0), .15, C3, .3, rot=FL); bola((-1.1, .24, 0), .15, C3, .3, rot=FL)   # cauda em leque
+bola((.0, .74, 0), .2, C3, .3, rot=FL); bola((-.4, .68, 0), .14, C3, .3, rot=FL); bola((-.15, .13, 0), .13, C3, .3, rot=FL)      # dorsais e ventral
+for s in (1, -1): bola((.3, .33, .24 * s), .11, C3, .3, rot=FL)
+tubo([(.86, .34, 0), (.9, .22, 0)], .022, C2)
+fim(.02)
