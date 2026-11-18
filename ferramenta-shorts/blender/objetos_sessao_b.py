@@ -32,3 +32,11 @@ def passaro(nome, bico_raio, bico_comp, bico_cor, corpo='#7a6a4a', barriga='#cdb
 passaro('finch', .06, .13, '#d9a040')
 passaro('finch_thick', .13, .17, '#e0a040', corpo='#4a3f33', barriga='#9a8a6a')
 passaro('finch_long', .035, .42, '#c98a30', corpo='#8a7a55', barriga='#e0d4aa')
+def vagem(nome, pod, ervilha):   # vagem aberta com ervilhas redondas saltando para fora
+    novo(nome)
+    cil((0, .2, 0), .14, 1.2, pod, rot=H)
+    for i in range(6): bola((-.5 + i * .2, .3, 0), .115, ervilha, seg=14)
+    tubo([(.6, .2, 0), (.78, .3, 0)], .03, pod)
+    fim()
+vagem('pea_green', '#4f9a3c', '#6fc04a')
+vagem('pea_yellow', '#7ab04a', '#f0c828')

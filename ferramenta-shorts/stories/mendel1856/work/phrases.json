@@ -1,0 +1,234 @@
+{
+ "duration": 55.896,
+ "frames30": 1677,
+ "source": "silence-align (cost 0.56)",
+ "segments": [
+  [
+   0.15175,
+   4.67592
+  ],
+  [
+   5.53096,
+   7.35529
+  ],
+  [
+   7.594,
+   8.47896
+  ],
+  [
+   8.83679,
+   10.9774
+  ],
+  [
+   11.842,
+   14.3676
+  ],
+  [
+   14.6594,
+   16.3315
+  ],
+  [
+   17.188,
+   18.1973
+  ],
+  [
+   18.4634,
+   19.7301
+  ],
+  [
+   20.0027,
+   21.5416
+  ],
+  [
+   22.3934,
+   24.0169
+  ],
+  [
+   24.2532,
+   25.3812
+  ],
+  [
+   26.2327,
+   28.4807
+  ],
+  [
+   28.7371,
+   29.7648
+  ],
+  [
+   29.9348,
+   30.6907
+  ],
+  [
+   31.5655,
+   33.1093
+  ],
+  [
+   33.4697,
+   34.7108
+  ],
+  [
+   34.918,
+   36.8077
+  ],
+  [
+   37.6645,
+   40.8358
+  ],
+  [
+   41.7146,
+   44.1074
+  ],
+  [
+   44.348,
+   46.1343
+  ],
+  [
+   47.0165,
+   48.4057
+  ],
+  [
+   48.612,
+   49.8357
+  ],
+  [
+   50.069,
+   51.9762
+  ],
+  [
+   52.8392,
+   53.237
+  ],
+  [
+   53.4905,
+   55.1018
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um monge passou oito anos contando ervilhas e acabou descobrindo como herdamos o que somos.",
+   "s": 0.152,
+   "e": 4.676
+  },
+  {
+   "text": "Era mil oitocentos e cinquenta e seis,",
+   "s": 5.531,
+   "e": 7.355
+  },
+  {
+   "text": "num mosteiro de Brno,",
+   "s": 7.594,
+   "e": 8.479
+  },
+  {
+   "text": "e o monge Gregor Mendel cuidava da horta.",
+   "s": 8.837,
+   "e": 10.977
+  },
+  {
+   "text": "Ele cruzou ervilhas amarelas com ervilhas verdes,",
+   "s": 11.842,
+   "e": 14.368
+  },
+  {
+   "text": "e esperou para ver a cor dos filhos.",
+   "s": 14.659,
+   "e": 16.331
+  },
+  {
+   "text": "Na primeira gera\u00e7\u00e3o,",
+   "s": 17.188,
+   "e": 18.197
+  },
+  {
+   "text": "todas sa\u00edram amarelas,",
+   "s": 18.463,
+   "e": 19.73
+  },
+  {
+   "text": "como se o verde tivesse sumido.",
+   "s": 20.003,
+   "e": 21.542
+  },
+  {
+   "text": "Mendel ficou curioso e disse:",
+   "s": 22.393,
+   "e": 24.017
+  },
+  {
+   "text": "\"Para onde foi o verde?\"",
+   "s": 24.253,
+   "e": 25.381
+  },
+  {
+   "text": "Ele plantou as amarelas de novo e contou tudo,",
+   "s": 26.233,
+   "e": 28.481
+  },
+  {
+   "text": "ervilha por ervilha,",
+   "s": 28.737,
+   "e": 29.765
+  },
+  {
+   "text": "durante anos.",
+   "s": 29.935,
+   "e": 30.691
+  },
+  {
+   "text": "Acontece que o verde voltou,",
+   "s": 31.566,
+   "e": 33.109
+  },
+  {
+   "text": "e sempre na mesma conta:",
+   "s": 33.47,
+   "e": 34.711
+  },
+  {
+   "text": "tr\u00eas ervilhas amarelas para uma verde.",
+   "s": 34.918,
+   "e": 36.808
+  },
+  {
+   "text": "Ele descobriu que cada filho herda uma instru\u00e7\u00e3o do pai e outra da m\u00e3e.",
+   "s": 37.664,
+   "e": 40.836
+  },
+  {
+   "text": "Publicou tudo em mil oitocentos e sessenta e seis,",
+   "s": 41.715,
+   "e": 44.107
+  },
+  {
+   "text": "mas quase ningu\u00e9m prestou aten\u00e7\u00e3o.",
+   "s": 44.348,
+   "e": 46.134
+  },
+  {
+   "text": "S\u00f3 no ano mil e novecentos,",
+   "s": 47.017,
+   "e": 48.406
+  },
+  {
+   "text": "j\u00e1 depois da morte dele,",
+   "s": 48.612,
+   "e": 49.836
+  },
+  {
+   "text": "os cientistas viram que ele estava certo.",
+   "s": 50.069,
+   "e": 51.976
+  },
+  {
+   "text": "No fim,",
+   "s": 52.839,
+   "e": 53.237
+  },
+  {
+   "text": "a ervilha fez o monge famoso.",
+   "s": 53.49,
+   "e": 55.102
+  }
+ ]
+}
