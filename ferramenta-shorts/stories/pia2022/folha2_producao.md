@@ -3,7 +3,7 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/pia2022/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py pia2022` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Em outubro de dois mil e vinte e dois, Elon Musk apareceu na sede do T...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: street | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MUS (variante 0, expressao grin); FUN (variante 0, expressao shock)
@@ -13,7 +13,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b1 - Ele filmou a própria entrada e postou o vídeo na internet.
-- Cenario: street | luz: day | clima: limpo
+- Cenario: street | luz: golden | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): MUS (variante 0, expressao smug) | multidao: 8 de MUS
@@ -23,7 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - A legenda dizia: Entrando na sede do Twitter. Deixe isso afundar.
-- Cenario: street | luz: day | clima: limpo
+- Cenario: street | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MUS (variante 0, expressao laugh); FUN2 (variante 0, expressao suspicious)
@@ -33,7 +33,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - É um trocadilho, porque em inglês a palavra sink quer dizer pia, e tam...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: street | luz: golden | clima: limpo
 - Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): FUN (variante 0, expressao surprised)
@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Naquela época, ele estava prestes a fechar a compra do Twitter, por qu...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: street | luz: golden | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): MUS (variante 0, expressao smile); FUN (variante 0, expressao neutral) | multidao: 8 de FUN/FUN2
@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Ele também mudou o perfil, e escreveu que era o Chefe Twit.
-- Cenario: street | luz: day | clima: limpo
+- Cenario: street | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): MUS (variante 0, expressao grin); FUN2 (variante 0, expressao surprised)
@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - A cena deu o que falar no mundo inteiro.
-- Cenario: street | luz: day | clima: limpo
+- Cenario: street | luz: golden | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): FUN (variante 0, expressao laugh); FUN2 (variante 0, expressao shock) | multidao: 6 de FUN/FUN2/MUS
@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Uma pia, uma legenda e uma piada que ninguém esqueceu.
-- Cenario: street | luz: day | clima: limpo
+- Cenario: street | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (3): MUS (variante 0, expressao laugh); FUN (variante 0, expressao grin); FUN2 (variante 0, expressao smile)

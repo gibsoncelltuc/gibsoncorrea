@@ -6,7 +6,7 @@
  "title": "A Pia no Twitter",
  "titulo_base": "A Pia no Twitter",
  "set": "street",
- "light": "day",
+ "light": "golden",
  "mood": "playful",
  "heroi": "kit/sink",
  "outfits": {
@@ -196,5 +196,6 @@
    "batalha": false,
    "impact": false
   }
- ]
+ ],
+ "exp": 1.0
 }
