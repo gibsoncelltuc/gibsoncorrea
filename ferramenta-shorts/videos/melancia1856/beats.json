@@ -89,9 +89,9 @@
    "props": [
     [
      "vehicles/locomotive",
-     -8,
-     -8,
-     1.0
+     -2.5,
+     -6.5,
+     1.5
     ]
    ],
    "say": "Em mil oitocentos e cinquenta e seis, viajantes cruzavam o Panamá de trem, a caminho do ouro da Califórnia, em uma viagem cheia de gente."
@@ -133,7 +133,15 @@
     "VEN:0:scared"
    ],
    "interacao": "empurrar",
-   "say": "Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo, na frente de todo mundo."
+   "say": "Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo, na frente de todo mundo.",
+   "props": [
+    [
+     "war/pistol",
+     0.8,
+     1.4,
+     2.2
+    ]
+   ]
   },
   {
    "shot": "crowd",
@@ -186,9 +194,9 @@
    "props": [
     [
      "vehicles/locomotive",
-     -8,
-     -8,
-     1.0
+     -3,
+     -7.5,
+     1.6
     ]
    ],
    "say": "No fim, o governo local pagou uma indenização enorme pelas mortes, e a cidade nunca esqueceu."
