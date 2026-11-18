@@ -44,6 +44,7 @@ for _b in B['beats']:
 USED_SETS = [SET] + sorted({b['set'] for b in B['beats'] if b.get('set') and b['set'] != SET and b['set'] in SETS_X})   # cenario por cena: "set" dentro do beat
 if B.get('serie') and B.get('ep'): B['titulo_base'] = B.get('titulo_base') or B.get('title', ID); B['title'] = f"{B['serie']} EP {int(B['ep']):02d} - {B['titulo_base']}"   # serie com episodio numerado no titulo e no nome do arquivo
 beats = B['beats']
+for _b0 in beats: _b0['_crowd_roteiro'] = 'crowd' in _b0   # multidao escrita no roteiro; as outras sao do diretor
 
 # ---------- script.txt (uma frase por linha) ----------
 with open(f'stories/{ID}/script.txt', 'w', encoding='utf-8') as f:
@@ -81,10 +82,11 @@ PROFISSOES = {  # "profissao" no figurino -> roupa, chapeu e tracos tipicos (o q
 for name, o in B.get('outfits', {}).items():
     o = {**PROFISSOES.get(str(o.get('profissao', '')).lower(), {}), **{k_: v_ for k_, v_ in o.items() if k_ != 'profissao'}}
     o = dict(o); mo = o.pop('moustache_on', None)
-    hats = o.pop('hats', None); hairs = o.pop('hairs', None)   # "hats": [...] -> chapeu diferente por variante; sem chapeu -> cor/corte de cabelo por variante
+    hats = o.pop('hats', None); hairs = o.pop('hairs', None)
+    jackets = o.pop('jackets', None) or (([o.get('jacket', '#3f6fb5')] + ['#6a4a2a', '#2a5a3a', '#8a3a2a', '#3a4a6a', '#7a6a3a', '#5a5a62']) if name in ('POV', 'POVO') else None)   # povo: casaco de cor diferente por variante (multidao sem clones)   # "hats": [...] -> chapeu diferente por variante; sem chapeu -> cor/corte de cabelo por variante
     body = ', '.join(f'{k}: {json.dumps(v)}' for k, v in o.items())
     mou = f", ...(v % 2 ? {{ moustache: {json.dumps(mo)} }} : {{}})" if mo else ''
-    hv = (f", hat: {json.dumps(hats)}[v % {len(hats)}]" if hats else '') + ('' if (hats or o.get('hat')) else f", hat: 'hair', hair: {json.dumps(hairs or ['#5a3b2a', '#2a2018', '#b8862f', '#8a8a86', '#7a3a1c'])}[v % {len(hairs or [1]*5)}], hairStyle: [null, null, 'long', null, 'bun'][v % 5]")
+    hv = (f", jacket: {json.dumps(jackets)}[v % {len(jackets)}]" if jackets else '') + (f", hat: {json.dumps(hats)}[v % {len(hats)}]" if hats else '') + ('' if (hats or o.get('hat')) else f", hat: 'hair', hair: {json.dumps(hairs or ['#5a3b2a', '#2a2018', '#b8862f', '#8a8a86', '#7a3a1c'])}[v % {len(hairs or [1]*5)}], hairStyle: [null, null, 'long', null, 'bun'][v % 5]")
     outfits_js.append(f"{name}: (v = 0, e = {{}}) => ({{ _id: {json.dumps(name.lower())}, {body}, skin: {json.dumps(SKINS)}[v % 4]{hv}{mou}, ...(((v + {sum(ord(c) for c in name)}) % 6 === 4 && {json.dumps('glasses' not in o)}) ? {{ glasses: true }} : {{}}), ...(([1, 5].includes((v + {sum(ord(c) for c in name)}) % 6) && {json.dumps('beard' not in o and not o.get('rifle'))}) ? {{ beard: ['#3a2a1f', '#6b4a2a', '#8a8a86'][(v + {len(name)}) % 3] }} : {{}}), ...((((v + {sum(ord(c) for c in name)}) % 6 === 3) && {json.dumps('moustache' not in o and not mo)}) ? {{ moustache: ['#4a3020', '#2a201a', '#8a8a86'][v % 3] }} : {{}}), ...e }})")   # IDENTIDADE: cada personagem (nome + variante) ganha barba, bigode ou oculos proprios; soldado de fuzil fica sem barba
 
 # ---------- posicoes automaticas ----------
@@ -269,6 +271,13 @@ if B.get('director') is not False and len(beats) >= 5:
         if not _b.get('emus'): _b.setdefault('crowd', {'n': 8, 'outfits': list(dict.fromkeys(_o)), 'march': False})
         _w.append(i)
     if len(_w) < MIN_WIDE: print(f'AVISO: so {len(_w)} plano(s) aberto(s); a regra pede {MIN_WIDE}. Tire shot_lock/interior de alguma cena.')
+# MULTIDAO SEM CLONES (ordem do Gibson): multidao criada pelo diretor usa o figurino de POVO; rei, nobre, cientista, medico, padre, general... sao pessoas unicas e nao viram 12 copias
+_POVO = [k_ for k_, o_ in B.get('outfits', {}).items() if k_ in ('POV', 'POVO') or o_.get('hats')]
+_UNICO = {k_ for k_, o_ in B.get('outfits', {}).items() if str(o_.get('profissao', '')).lower() in ('rei', 'nobre', 'general', 'cientista', 'medico', 'padre', 'politico', 'empresario', 'jornalista') or o_.get('hat') == 'crown' or (k_ not in _POVO and not str(o_.get('profissao', '')).lower() in ('soldado', 'marinheiro', 'agricultor', 'camponesa', 'pescador', 'comerciante', 'padeiro') and B.get('serie', '').lower().startswith('curiosidade'))}
+for _b in beats:
+    if _b.get('crowd') and not _b.get('_crowd_roteiro') and _POVO:
+        _ok = [o_ for o_ in _b['crowd'].get('outfits', []) if o_ not in _UNICO]
+        _b['crowd']['outfits'] = list(dict.fromkeys(_ok + _POVO))
 
 
 def build_beat(k, b):
