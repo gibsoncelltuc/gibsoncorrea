@@ -101,3 +101,6 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL
 
+
+## Fontes (fatos conferidos)
+- https://www.reuters.com/article/world/just-a-second-please-el-salvador-presidents-un-selfie-eclipses-speech-idUSKBN1WB31O/

@@ -8,7 +8,7 @@
  "set": "outback",
  "light": "day",
  "mood": "playful",
- "heroi": "kit/roadster_air",
+ "heroi": "kit/roadster26_air",
  "outfits": {
   "MUS": {
    "jacket": "#16181d",
@@ -55,7 +55,7 @@
    ],
    "props": [
     [
-     "kit/roadster_air",
+     "kit/roadster26_air",
      0,
      -4.0,
      1.0
@@ -90,7 +90,7 @@
    ],
    "props": [
     [
-     "kit/roadster",
+     "kit/roadster26",
      1.6,
      -0.8,
      1.0
@@ -107,7 +107,7 @@
    ],
    "props": [
     [
-     "kit/roadster",
+     "kit/roadster26",
      1.6,
      -0.8,
      1.0
@@ -159,7 +159,7 @@
      1.0
     ],
     [
-     "kit/roadster_air",
+     "kit/roadster26_air",
      0,
      -7.0,
      1.1
@@ -184,7 +184,7 @@
    ],
    "props": [
     [
-     "kit/roadster_air",
+     "kit/roadster26_air",
      0,
      -5.0,
      1.1
@@ -232,7 +232,7 @@
    ],
    "props": [
     [
-     "kit/roadster",
+     "kit/roadster26",
      1.6,
      -0.8,
      1.0
@@ -267,7 +267,7 @@
    },
    "props": [
     [
-     "kit/roadster_air",
+     "kit/roadster26_air",
      0,
      -7.0,
      1.1
@@ -292,7 +292,7 @@
    ],
    "props": [
     [
-     "kit/roadster_air",
+     "kit/roadster26_air",
      -1.6,
      -4.0,
      0.8
@@ -301,5 +301,10 @@
    "acao": "comemorar",
    "say": "Carro voador ou carro que pula? Você decide."
   }
+ ],
+ "fontes": [
+  "https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/",
+  "https://electrek.co/2026/10/13/tesla-roadster-event-thursday-nine-years-delays/",
+  "https://www.latimes.com/business/story/2026-10-17/elon-musk-just-showed-off-flying-car-heres-what-to-know-about-tesla-roadster"
  ]
 }

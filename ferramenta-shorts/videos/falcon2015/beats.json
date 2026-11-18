@@ -275,5 +275,9 @@
    "acao": "comemorar",
    "say": "Hoje, os foguetes da SpaceX pousam quase toda semana. E a viagem ao espaço ficou muito mais barata."
   }
+ ],
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Falcon_9_flight_20",
+  "https://www.spacex.com/launches/"
  ]
 }
