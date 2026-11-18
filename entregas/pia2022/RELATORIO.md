@@ -1,0 +1,5 @@
+# PF 10 — A Pia no Twitter (Poder e Fama)
+**Fatos (conferidos por busca):** 26/10/2022, Musk entrou na sede do Twitter (São Francisco) carregando uma pia e postou o vídeo com a legenda "Entering Twitter HQ – let that sink in!" (trocadilho: sink = pia/afundar); estava prestes a fechar a compra de US$ 44 bi; mudou o perfil para "Chief Twit". Sem opinião a favor/contra. Descrição: "Animação humorística. Personagens são caricaturas."
+**Passou:** conferir.sh OK (38 s, 1080x1920, 0 riscos); mapa, placas "DEIXE ISSO AFUNDAR" e "CHEFE TWIT"; multidões pacíficas; toda a narração aparece.
+**Não passou / limitações:** a pia (objeto herói) ainda lembra um cogumelo/banquinho, mesmo com espelho e torneiras; ninguém a CARREGA em b0 (ela fica no chão); o personagem MUS aparece de barba (bug já corrigido na ferramenta, segundo a sessão principal); cenário de rua repetido; sem imagem do "vídeo postado".
+**Refeito:** b0, b2, b3, b7 (pia remodelada). Recomendo refazer com a biblioteca 3D nova e figurino sem barba.
