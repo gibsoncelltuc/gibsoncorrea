@@ -19,6 +19,24 @@ Cuidado visto na prática: se a narração diz "noite", a cena e as seguintes fi
 
 Tudo que a narração cita tem que aparecer na tela, na mesma cena: se diz "fazenda", tem fazenda (celeiro, cerca, feno); se diz "notas de dólar", o personagem segura as notas; se diz "navios", tem navio. A ferramenta já põe sozinha lugares (`LUGARES` no `mkvideo.py`: fazenda, casa, igreja, mercado, floresta, acampamento, castelo, cidade, praça) e objetos (`OBJ_DICT`). Cada cena da folha 2 tem a linha **CONFERIR NA FOLHA DE CONTATO** com as palavras da narração: confira uma por uma no storyboard/folha de contato. Faltou → ponha em `props`, na mão (`who`), ou modele. Não entregue vídeo em que a narração fala de algo que não se vê.
 
+### O que a ferramenta EXIGE por palavra (a folha 2 bloqueia se faltar)
+
+| A narração diz | Tem que aparecer | Como |
+|---|---|---|
+| queimaram, tacaram fogo, incêndio, em chamas | labaredas em cena e alguém com tocha | automático em cena externa; `"who": ["X:0:angry:torch"]` |
+| batalha, atacaram, invadiram, lutaram, bombardearam | tropa dos dois lados lutando em plano aberto | `"batalha": true` + `"crowd"` (uma cena por batalha citada: 3 batalhas = 3 cenas) |
+| explodiu, explosão, bomba | explosão com som | `"fx": ["burst@N"], "sfx": ["cannon@N"]` |
+| fugiu, correu, debandada, retirada | gente correndo | `"shot": "track"` ou `"batalha": true` |
+| colina, montanha, morro | cenário de montanha | automático (`"set": "mountain"`) |
+| navio, porto, marinha | cais com navios | automático (`"set": "harbor"`) |
+| rei, rainha, imperador, sultão | alguém de coroa | figurino com `"profissao": "rei"` |
+| general, almirante, coronel, capitão | alguém de farda de oficial | `"profissao": "general"` |
+| camponês, fazendeiro, agricultor | alguém de chapéu de palha | `"profissao": "agricultor"` |
+| fazenda, casa, igreja, mercado, floresta, acampamento, castelo, cidade | o lugar ao fundo | automático (`LUGARES`) |
+| qualquer objeto ou animal | o modelo 3D em cena | automático se existir; senão modelar |
+
+Não corra os takes: se a frase tem duas ações, divida em duas cenas. Vídeo de 65–70 s com tudo acontecendo é melhor que 55 s com narração sem imagem.
+
 ## Todo vídeo tem (a folha 2 confere)
 
 - Objeto herói abrindo e fechando o vídeo, com close de câmera.
