@@ -90,6 +90,14 @@ Entram SOZINHOS quando a narracao cita o animal (cachorro, gato, vaca/boi, ovelh
 - kit/tires  <- \bpneus?\b
 - kit/rocket  <- \bfoguete\b|\bfoguetes\b|falcon
 - kit/roadster  <- \broadster\b|\btesla\b
+- kit/ballot_box  <- \burnas?\b|cedulas?
+- kit/helicopter_air  <- helicopteros?  (fundo, so cena externa)
+- kit/bunker_bomb  <- \bbunker\b|antibunker
+- kit/phone  <- \bcelular\b|\bselfie\b
+- kit/prison  <- \bprisao\b|presidio|penitenciaria  (fundo, so cena externa)
+- kit/white_house  <- casa branca  (fundo, so cena externa)
+- kit/starlink_sat  <- \bsatelites?\b|starlink
+- kit/starlink_dish  <- \bantena\b
 - kit/ear_jar  <- \borelha\b
 - kit/golden_stool  <- \bbanquinho\b
 - kit/scroll  <- \btratado\b
@@ -98,6 +106,11 @@ Entram SOZINHOS quando a narracao cita o animal (cachorro, gato, vaca/boi, ovelh
 - kit/whisky  <- \b(uísque|uisque|whisky)\b
 - kit/logs  <- \b(toras?|troncos?)\b
 - kit/searchlight  <- \bholofotes?\b
+- kit/tv  <- \btelevisao\b|\btv\b
+- kit/flamethrower  <- lanca.?chamas
+- kit/extinguisher  <- \bextintor(es)?\b
+- kit/cybertruck  <- \bcybertruck\b|\bpicapes?\b
+- kit/steel_ball  <- \besferas?\b|\bbolas? de aco\b
 - kit/apple  <- \bmaca\b|\bmacas\b|\bmacieiras?\b
 - kit/bathtub  <- \bbanheira\b|\bbanho\b
 - kit/crown  <- \bcoroa\b
@@ -115,11 +128,11 @@ Entram SOZINHOS quando a narracao cita o animal (cachorro, gato, vaca/boi, ovelh
 - kit/pea_green  <- \bervilhas?\b
 - kit/globe  <- \bglobo\b|\bplaneta\b
 - kit/stick  <- \bvaras?\b
-- kit/coin  <- \bbitcoins?\b|\bmoedas?\b
+- kit/coin  <- \bmoedas?\b
 - kit/sink  <- \bpias?\b
 
 ## Biblioteca 3D completa (use em "props": [["pasta/nome", x, z, escala]])
-- kit: apple, ball, balloon, balloon_air, barrel_r, bathtub, beehive, bitcoin, boardgame, booster_air, brass_nose, burr, cake_table, campfire, chest, chocolate, clipper, cod, coin, crookes_tube, cross, crown, curie_box, dog_sit, ear_jar, egg, falcon_air, feather, finch, finch_long, finch_thick, fire, flag_pole, globe, golden_stool, grave, kettle, key, kite, lightning_rod, lobster, logs, melon, microwave, miners, monkey_pong, pea_green, pea_yellow, petri, pisa_tower, popcorn, porch, postit, ring, roadster, rocket, room_shop, room_stone, room_wood, scroll, searchlight, sink, snake_ring, stall, stick, stove, syringe, tent, tequila_bolt, throne, tires, tower, tower_catch, tower_mini, tulip_bed, tulip_purple, tulip_red, tulip_striped, tulip_yellow, volcano, wash_basin, well, whisky, xray_plate
+- kit: apple, b2_air, ball, balloon, balloon_air, ballot_box, barrel_r, bathtub, beehive, bitcoin, boardgame, booster_air, brass_nose, bunker_bomb, burr, cake_table, campfire, chest, chocolate, clipper, cod, coin, crookes_tube, cross, crown, curie_box, cybertruck, dog_sit, ear_jar, egg, extinguisher, falcon9_land, falcon_air, feather, finch, finch_long, finch_thick, fire, flag_pole, flamethrower, globe, golden_stool, grave, helicopter_air, iceberg, kettle, key, kite, lightning_rod, lobster, logs, melon, microwave, miners, monkey_pong, moon, mountain_bunker, pea_green, pea_yellow, petri, phone, pisa_tower, popcorn, porch, postit, prison, ring, roadster, roadster26, roadster26_air, roadster_air, rocket, room_shop, room_stone, room_wood, scroll, searchlight, sink, snake_ring, stall, starlink_dish, starlink_sat, starlink_train, steel_ball, stick, stove, syringe, tent, tequila_bolt, throne, tires, tower, tower_catch, tower_mini, tulip_bed, tulip_purple, tulip_red, tulip_striped, tulip_yellow, tv, volcano, wash_basin, well, whisky, white_house, xray_plate
 - buildings: apartment, barn, bridge, castle_tower, church, house_blue, house_small, house_two, lighthouse, shop, skyscraper, windmill
 - vehicles: airplane, bicycle, car, car_blue, helicopter, jeep, locomotive, motorboat, motorcycle, sailboat, tank, taxi, truck, wagon
 - nature: bench, bush, flowerbed, fountain, haybale, lamppost, picket_fence, rocks, scarecrow, tree_birch, tree_oak, tree_palm, tree_pine
