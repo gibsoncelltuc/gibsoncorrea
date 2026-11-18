@@ -101,3 +101,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL
 
+
+## Fontes (fatos conferidos)
+- https://ballotpedia.org/Presidential_election,_2024
+- https://en.wikipedia.org/wiki/Second_presidency_of_Donald_Trump
+- https://www.wbtv.com/2024/11/06/ap-projects-donald-trump-elected-2nd-term-2024-presidential-election/

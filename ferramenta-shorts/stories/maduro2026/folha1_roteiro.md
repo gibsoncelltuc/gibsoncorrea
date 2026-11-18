@@ -101,3 +101,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL
 
+
+## Fontes (fatos conferidos)
+- https://en.wikipedia.org/wiki/2026_United_States_intervention_in_Venezuela
+- https://www.nytimes.com/2026/01/03/us/politics/trump-capture-maduro-venezuela.html
+- https://www.war.gov/News/News-Stories/Article/Article/4370431/trump-announces-us-militarys-capture-of-maduro/
+- https://www.cnn.com/2026/01/03/politics/nicolas-maduro-capture-venezuela

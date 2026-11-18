@@ -101,3 +101,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL
 
+
+## Fontes (fatos conferidos)
+- https://en.wikipedia.org/wiki/2025_United_States_strikes_on_Iranian_nuclear_sites
+- https://news.usni.org/2025/06/21/u-s-strikes-3-iranian-nuclear-sites-using-b-2s-sub-launched-tomahawks
+- https://www.csis.org/analysis/what-operation-midnight-hammer-means-future-irans-nuclear-ambitions

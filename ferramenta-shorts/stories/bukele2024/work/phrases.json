@@ -1,0 +1,270 @@
+{
+ "duration": 65.064,
+ "frames30": 1952,
+ "source": "silence-align (cost 1.05)",
+ "segments": [
+  [
+   0.159833,
+   1.75646
+  ],
+  [
+   2.04608,
+   5.15458
+  ],
+  [
+   6.07671,
+   6.94654
+  ],
+  [
+   7.18075,
+   8.17762
+  ],
+  [
+   9.04404,
+   10.6997
+  ],
+  [
+   11.5366,
+   13.6669
+  ],
+  [
+   13.9787,
+   15.0609
+  ],
+  [
+   15.3082,
+   17.5048
+  ],
+  [
+   18.3648,
+   20.5745
+  ],
+  [
+   21.4085,
+   21.7947
+  ],
+  [
+   21.9841,
+   22.8948
+  ],
+  [
+   23.1395,
+   25.1465
+  ],
+  [
+   25.4374,
+   25.8466
+  ],
+  [
+   26.7234,
+   29.439
+  ],
+  [
+   30.2982,
+   31.8455
+  ],
+  [
+   32.6888,
+   33.5829
+  ],
+  [
+   33.8386,
+   35.4311
+  ],
+  [
+   36.2927,
+   38.0871
+  ],
+  [
+   38.3652,
+   41.0427
+  ],
+  [
+   41.909,
+   43.6155
+  ],
+  [
+   44.4813,
+   45.7753
+  ],
+  [
+   45.9672,
+   47.1155
+  ],
+  [
+   47.9711,
+   49.9107
+  ],
+  [
+   50.1668,
+   52.4906
+  ],
+  [
+   53.3506,
+   55.0769
+  ],
+  [
+   55.3646,
+   55.678
+  ],
+  [
+   55.9171,
+   58.5952
+  ],
+  [
+   59.4661,
+   61.5244
+  ],
+  [
+   61.7867,
+   64.2714
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Em fevereiro de dois mil e vinte e quatro,",
+   "s": 0.16,
+   "e": 1.756
+  },
+  {
+   "text": "um presidente foi reeleito com uma das maiores vota\u00e7\u00f5es do mundo.",
+   "s": 2.046,
+   "e": 5.155
+  },
+  {
+   "text": "Foi em El Salvador,",
+   "s": 6.077,
+   "e": 6.947
+  },
+  {
+   "text": "na Am\u00e9rica Central.",
+   "s": 7.181,
+   "e": 8.178
+  },
+  {
+   "text": "O presidente era Nayib Bukele.",
+   "s": 9.044,
+   "e": 10.7
+  },
+  {
+   "text": "Ele tinha chegado ao poder em dois mil e dezenove,",
+   "s": 11.537,
+   "e": 13.667
+  },
+  {
+   "text": "com trinta e sete anos,",
+   "s": 13.979,
+   "e": 15.061
+  },
+  {
+   "text": "prometendo acabar com a viol\u00eancia das gangues.",
+   "s": 15.308,
+   "e": 17.505
+  },
+  {
+   "text": "A Constitui\u00e7\u00e3o proibia a reelei\u00e7\u00e3o seguida.",
+   "s": 18.365,
+   "e": 20.575
+  },
+  {
+   "text": "Mas,",
+   "s": 21.409,
+   "e": 21.795
+  },
+  {
+   "text": "em dois mil e vinte e um,",
+   "s": 21.984,
+   "e": 22.895
+  },
+  {
+   "text": "a Suprema Corte mudou a interpreta\u00e7\u00e3o,",
+   "s": 23.14,
+   "e": 25.146
+  },
+  {
+   "text": "e liberou.",
+   "s": 25.437,
+   "e": 25.847
+  },
+  {
+   "text": "Cr\u00edticos e opositores disseram que a candidatura era ilegal.",
+   "s": 26.723,
+   "e": 29.439
+  },
+  {
+   "text": "O governo defendeu a decis\u00e3o.",
+   "s": 30.298,
+   "e": 31.846
+  },
+  {
+   "text": "No dia da elei\u00e7\u00e3o,",
+   "s": 32.689,
+   "e": 33.583
+  },
+  {
+   "text": "os salvadorenhos foram \u00e0s urnas.",
+   "s": 33.839,
+   "e": 35.431
+  },
+  {
+   "text": "Acontece que o resultado impressionou:",
+   "s": 36.293,
+   "e": 38.087
+  },
+  {
+   "text": "Bukele teve quase oitenta e cinco por cento dos votos.",
+   "s": 38.365,
+   "e": 41.043
+  },
+  {
+   "text": "Os apoiadores lotaram as ruas.",
+   "s": 41.909,
+   "e": 43.615
+  },
+  {
+   "text": "Ele comemorou numa sacada,",
+   "s": 44.481,
+   "e": 45.775
+  },
+  {
+   "text": "diante de uma multid\u00e3o.",
+   "s": 45.967,
+   "e": 47.115
+  },
+  {
+   "text": "O motivo mais citado pelos eleitores:",
+   "s": 47.971,
+   "e": 49.911
+  },
+  {
+   "text": "a queda enorme no n\u00famero de assassinatos no pa\u00eds.",
+   "s": 50.167,
+   "e": 52.491
+  },
+  {
+   "text": "Organiza\u00e7\u00f5es de direitos humanos,",
+   "s": 53.351,
+   "e": 55.077
+  },
+  {
+   "text": "por\u00e9m,",
+   "s": 55.365,
+   "e": 55.678
+  },
+  {
+   "text": "criticaram as pris\u00f5es em massa e o estado de exce\u00e7\u00e3o.",
+   "s": 55.917,
+   "e": 58.595
+  },
+  {
+   "text": "Amado por muitos e criticado por outros,",
+   "s": 59.466,
+   "e": 61.524
+  },
+  {
+   "text": "ele virou um dos presidentes mais populares do planeta.",
+   "s": 61.787,
+   "e": 64.271
+  }
+ ]
+}

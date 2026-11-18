@@ -101,3 +101,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL
 
+
+## Fontes (fatos conferidos)
+- https://www.as-coa.org/articles/explainer-el-salvadors-2024-presidential-and-legislative-elections
+- https://www.riotimesonline.com/who-is-nayib-bukele-el-salvador-profile-2026/

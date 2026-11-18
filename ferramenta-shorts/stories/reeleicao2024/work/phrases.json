@@ -1,0 +1,216 @@
+{
+ "duration": 59.448,
+ "frames30": 1783,
+ "source": "silence-align (cost 0.55)",
+ "segments": [
+  [
+   0.162333,
+   2.61458
+  ],
+  [
+   3.47667,
+   4.55762
+  ],
+  [
+   4.77496,
+   5.985
+  ],
+  [
+   6.88375,
+   9.01229
+  ],
+  [
+   9.17167,
+   10.2635
+  ],
+  [
+   11.1185,
+   15.5377
+  ],
+  [
+   16.3911,
+   18.0442
+  ],
+  [
+   18.8807,
+   20.9505
+  ],
+  [
+   21.8075,
+   24.9316
+  ],
+  [
+   25.1807,
+   27.9191
+  ],
+  [
+   28.7867,
+   30.9475
+  ],
+  [
+   31.8182,
+   33.8351
+  ],
+  [
+   34.7521,
+   35.5879
+  ],
+  [
+   35.8605,
+   39.4075
+  ],
+  [
+   40.2649,
+   41.7789
+  ],
+  [
+   41.9688,
+   43.4882
+  ],
+  [
+   44.3421,
+   46.3049
+  ],
+  [
+   46.5222,
+   47.6296
+  ],
+  [
+   48.506,
+   50.7155
+  ],
+  [
+   51.5668,
+   53.2253
+  ],
+  [
+   54.0976,
+   54.5167
+  ],
+  [
+   54.7695,
+   55.5717
+  ],
+  [
+   56.4291,
+   58.6593
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Donald Trump perdeu a elei\u00e7\u00e3o de dois mil e vinte.",
+   "s": 0.162,
+   "e": 2.615
+  },
+  {
+   "text": "Quatro anos depois,",
+   "s": 3.477,
+   "e": 4.558
+  },
+  {
+   "text": "voltou para a Casa Branca.",
+   "s": 4.775,
+   "e": 5.985
+  },
+  {
+   "text": "Foi em cinco de novembro de dois mil e vinte e quatro,",
+   "s": 6.884,
+   "e": 9.012
+  },
+  {
+   "text": "nos Estados Unidos.",
+   "s": 9.172,
+   "e": 10.264
+  },
+  {
+   "text": "Milh\u00f5es de americanos foram \u00e0s urnas escolher entre Trump e a vice-presidente Kamala Harris.",
+   "s": 11.118,
+   "e": 15.538
+  },
+  {
+   "text": "A contagem entrou pela madrugada.",
+   "s": 16.391,
+   "e": 18.044
+  },
+  {
+   "text": "Os estados indecisos iam decidir tudo.",
+   "s": 18.881,
+   "e": 20.951
+  },
+  {
+   "text": "Acontece que Trump venceu em todos os estados decisivos,",
+   "s": 21.808,
+   "e": 24.932
+  },
+  {
+   "text": "e somou trezentos e doze votos no col\u00e9gio eleitoral.",
+   "s": 25.181,
+   "e": 27.919
+  },
+  {
+   "text": "Os apoiadores comemoraram a noite inteira.",
+   "s": 28.787,
+   "e": 30.948
+  },
+  {
+   "text": "Trump subiu ao palco e declarou vit\u00f3ria.",
+   "s": 31.818,
+   "e": 33.835
+  },
+  {
+   "text": "Foi um feito raro:",
+   "s": 34.752,
+   "e": 35.588
+  },
+  {
+   "text": "ele virou s\u00f3 o segundo presidente da hist\u00f3ria com dois mandatos separados.",
+   "s": 35.861,
+   "e": 39.407
+  },
+  {
+   "text": "O primeiro foi Grover Cleveland,",
+   "s": 40.265,
+   "e": 41.779
+  },
+  {
+   "text": "h\u00e1 mais de cento e trinta anos.",
+   "s": 41.969,
+   "e": 43.488
+  },
+  {
+   "text": "Em vinte de janeiro de dois mil e vinte e cinco,",
+   "s": 44.342,
+   "e": 46.305
+  },
+  {
+   "text": "ele tomou posse de novo.",
+   "s": 46.522,
+   "e": 47.63
+  },
+  {
+   "text": "Ele tinha sido o presidente n\u00famero quarenta e cinco.",
+   "s": 48.506,
+   "e": 50.715
+  },
+  {
+   "text": "Agora era o n\u00famero quarenta e sete.",
+   "s": 51.567,
+   "e": 53.225
+  },
+  {
+   "text": "Perdeu,",
+   "s": 54.098,
+   "e": 54.517
+  },
+  {
+   "text": "voltou e ganhou.",
+   "s": 54.77,
+   "e": 55.572
+  },
+  {
+   "text": "Uma das maiores viradas da pol\u00edtica americana.",
+   "s": 56.429,
+   "e": 58.659
+  }
+ ]
+}
