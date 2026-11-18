@@ -127,3 +127,20 @@ for y in (.45, 1.35):
 cil((.95, .9, .5), .025, 1.0, '#5a5e66'); 
 for i in range(4): cil((.95, .3 + i * .3, .5), .02, .3, '#5a5e66', rot=(math.pi / 2, 0, 0))
 fim()
+novo('un_wall')            # painel de fundo da Assembleia: parede verde com moldura dourada, faixas douradas e emblema redondo
+caixa((0, 1.8, 0), (6.4, 3.6, .2), '#2f6a4a'); caixa((0, 3.55, .12), (6.4, .16, .1), '#d8b040'); caixa((0, .12, .12), (6.4, .24, .1), '#d8b040')
+for x in (-3.15, 3.15): caixa((x, 1.8, .12), (.16, 3.6, .1), '#d8b040')
+for x in (-2.2, -1.1, 1.1, 2.2): caixa((x, 1.8, .11), (.12, 3.0, .06), '#b89030')
+cil((0, 2.0, .15), .85, .08, '#d8b040', rot=(math.pi / 2, 0, 0)); cil((0, 2.0, .2), .65, .08, '#2f6a4a', rot=(math.pi / 2, 0, 0)); bola((0, 2.0, .26), .3, '#d8b040', seg=14)
+fim()
+novo('un_flags')           # fileira de 7 bandeiras de cores diferentes em mastros
+cores = [('#d8282f', '#f2f2f2'), ('#2f4fb8', '#f2f2f2'), ('#2f8a4a', '#f2d040'), ('#f2d040', '#d8282f'), ('#f2f2f2', '#2f4fb8'), ('#d8282f', '#2a2a30'), ('#2f4fb8', '#d8282f')]
+for i, (a, b) in enumerate(cores):
+    x = -2.7 + i * .9
+    cil((x, 1.4, 0), .035, 2.8, '#8a8a90'); bola((x, 2.82, 0), .06, '#d8b040', seg=8)
+    pano((x + .03, 2.7, 0), .7, .5, [a, b], onda=.1)
+fim()
+novo('podium')             # puilpito de madeira escura com tampo inclinado, microfone e emblema dourado
+caixa((0, .55, 0), (.9, 1.1, .6), '#5a3a22', afina=.9); caixa((0, 1.12, 0), (1.0, .08, .7), '#6a4a2a', rot=(.2, 0, 0))
+cil((0, 1.5, .05), .015, .5, '#2a2a30'); bola((0, 1.78, .1), .05, '#2a2a30', seg=8); cil((0, .65, .31), .14, .03, '#d8b040', rot=(math.pi / 2, 0, 0))
+fim()

@@ -1,5 +1,11 @@
 [
 [
+"\\bpulpitos?\\b",
+"kit/podium",
+1.4,
+false
+],
+[
 "\\btelevisao\\b|\\btv\\b",
 "kit/tv",
 1.5,
