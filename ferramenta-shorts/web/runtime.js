@@ -101,6 +101,8 @@ const interAt = (a, f) => { const I = a.inter; if (!I || f < I.a || f > I.b) ret
     case 'step': { const k = sm(t / 0.3) * (1 - sm((t - 0.8) / 0.2)); return { dx: d * 0.6 * k, tilt: d * 4 * k, hop: 0.04 * Math.abs(Math.sin(t * 40)) * (t < 0.3 || t > 0.8 ? 1 : 0) }; }
     case 'shove': { const k = Math.exp(-(((t - 0.45) / 0.09) ** 2)); return { dx: d * 0.6 * k, tilt: d * 14 * k, hop: 0 }; }
     case 'stagger': { const k = sm((t - 0.45) / 0.12) * (1 - sm((t - 0.85) / 0.15)), w = t > 0.45 ? Math.sin((t - 0.45) * 30) * Math.exp(-(t - 0.45) * 5) : 0; return { dx: -d * 0.85 * k, tilt: -d * (13 * k + 8 * w), hop: 0.12 * Math.max(0, w) }; }
+    case 'hug': { const k = sm((t - 0.25) / 0.2) * (1 - sm((t - 0.85) / 0.15)); return { dx: d * 0.95 * k, tilt: d * 7 * k, hop: 0.03 * k * Math.abs(Math.sin(t * 30)) }; }   /* ABRACO: os dois andam um ate o outro e ficam colados, inclinados */
+    case 'shiver': return { dx: 0.035 * Math.sin(f * 2.4), tilt: 1.5 * Math.sin(f * 1.9), hop: 0 };   /* FRIO: tremendo */
     case 'hop': return { dx: 0, tilt: 0, hop: 0.3 * Math.abs(Math.sin(t * Math.PI * 2 * n)) };
     case 'bow': return { dx: 0, tilt: d * 20 * bell, hop: 0 };
     case 'nod': return { dx: d * 0.1 * bell, tilt: d * 3 * Math.sin(t * Math.PI * 6), hop: 0.03 * Math.abs(Math.sin(t * Math.PI * 6)) };
@@ -119,6 +121,7 @@ const PO = (f, a, seed, exo = {}) => { const mode = a.pose || 'stand'; const bas
     return { mode: 'stand', phase: 0, tilt: qq(3.2 * Math.sin((f + seed * 7) * 0.06), 1), headTilt: qq(4.5 * Math.sin((f + seed * 5) * 0.045 + 1), 1), lift: a.lift, ...base, expr: em, ...(g ? { wave: qq(Math.sin(ph * 0.42), 2) } : {}) }; }
   /* passo casado com a velocidade no chao (sem pe deslizando): ciclos/quadro = velocidade / comprimento da passada */
   const stepSp = (stride, def) => (a.move && a.move[0] && a.at && a.autoStep !== false) ? Math.min(0.06, Math.max(0.012, Math.hypot(a.move[0][0] - a.at[0], a.move[0][1] - a.at[1]) / Math.max(1, a.move[2] - a.move[1]) / stride)) : (a.speed || def);
+  if (mode === 'run') return { mode: 'march', phase: qq(((f * 0.075 + seed * 0.17) % 1), 2), tilt: 13, headTilt: qq(5 * Math.sin(f * 0.9 + seed), 0), ...base };   /* CORRIDA: passo bem rapido, corpo jogado para a frente, cabeca balancando */
   if (mode === 'march') return { mode: 'march', phase: qq(((f * stepSp(2.5, 0.033) + seed * 0.17) % 1), 2), ...base };
   if (mode === 'stroll') return { mode: 'stroll', phase: qq(((f * stepSp(2.1, 0.02) + seed * 0.13) % 1), 2), ...base };
   return { mode, phase: 0, ...base }; };

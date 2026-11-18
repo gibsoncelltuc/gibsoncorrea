@@ -28,6 +28,15 @@ Tudo que a narração cita tem que aparecer na tela, na mesma cena: se diz "faze
 | explodiu, explosão, bomba | explosão com som | `"fx": ["burst@N"], "sfx": ["cannon@N"]` |
 | fugiu, correu, debandada, retirada | gente correndo | `"shot": "track"` ou `"batalha": true` |
 | colina, montanha, morro | cenário de montanha | automático (`"set": "mountain"`) |
+| cavaram, trincheira, enterraram | pá na mão e poeira | automático (pá) + `"fx": ["dust@N"]` |
+| se abraçaram | os dois andam um até o outro e ficam colados | automático (`"interacao": "abracar"`) |
+| beberam, brindaram | caneca na mão e comemoração | automático |
+| muito frio, inverno, neve, gelado | neve caindo, chão branco, personagens tremendo | automático (`"clima": "neve"`) |
+| muito quente, calor, deserto, seca | luz de sol forte e personagens suando | automático (`"clima": "calor"`) |
+| conversaram / discutiram / brigaram | diálogo em turnos / discussão com cara fechada / empurrão | automático pelo texto ou `"acao"`/`"interacao"` |
+| tiro, atirou, disparou (com soldado de fuzil em cena) | clarão e fumaça saindo do CANO da arma de quem atira, com som | automático; nunca estrela de explosão solta no meio da cena |
+| correu, fugiu, perseguiu (cena de `"shot": "track"`) | personagens CORRENDO (passo rápido, corpo inclinado) | automático |
+| cartório, prefeitura, tribunal, banco, consulado | o prédio ao fundo | automático |
 | navio, porto, marinha | cais com navios | automático (`"set": "harbor"`) |
 | rei, rainha, imperador, sultão | alguém de coroa | figurino com `"profissao": "rei"` |
 | general, almirante, coronel, capitão | alguém de farda de oficial | `"profissao": "general"` |
@@ -60,6 +69,10 @@ Não corra os takes: se a frase tem duas ações, divida em duas cenas. Vídeo d
 ## Identidade dos personagens (ordem do Gibson)
 
 Cada personagem tem cara e roupa próprias, como no canal de referência. Use `"profissao"` no figurino (padeiro, agricultor, nobre, politico, empresario, rei, general, soldado, marinheiro, cientista, medico, comerciante, pescador, padre, camponesa, jornalista) e mude as cores para diferenciar; a ferramenta distribui barba, bigode e óculos por personagem (para fixar: `"beard"`, `"moustache"`, `"glasses"`). Dois personagens principais da mesma cena nunca com o mesmo figurino + variante. Use expressões diferentes ao longo do vídeo (o `who` de cada cena pode mudar a expressão). Quem não é soldado não usa uniforme: terno (`"tie"`) para político/empresário, avental para padeiro, chapéu de palha para agricultor.
+
+## Objeto real que não existe (carro, avião, prédio, aparelho de outro nicho)
+
+Siga `referencias/LEIA.md`: pesquisar na internet → ficha do objeto em `referencias/<nome>/FICHA.md` → modelar com `formas.py` → conferir com `foto.py` contra a referência → cadastrar. Profissões novas (médico de jaleco, piloto, astronauta...): use `"profissao"` ou monte o figurino com as cores e o chapéu certos e registre a profissão nova em `PROFISSOES` no `mkvideo.py`.
 
 ## Formato dos objetos (ordem do Gibson: nada de estilo Minecraft)
 
