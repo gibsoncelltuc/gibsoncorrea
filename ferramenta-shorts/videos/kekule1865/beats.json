@@ -1,0 +1,264 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Curiosidade e Ciência",
+ "ep": 14,
+ "title": "O Químico que Sonhou com uma Cobra",
+ "titulo_base": "O Químico que Sonhou com uma Cobra",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/snake_ring",
+ "outfits": {
+  "KEK": {
+   "profissao": "cientista",
+   "beard": "#4a3422",
+   "moustache": "#4a3422",
+   "hair": "#4a3422"
+  },
+  "ALU": {
+   "jacket": "#2a4a6a",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#2a2a30"
+  },
+  "COL": {
+   "profissao": "cientista",
+   "beard": "#9a9a9a",
+   "hair": "#9a9a9a"
+  },
+  "POV": {
+   "jacket": "#7a3a2a",
+   "pants": "#3b3f52",
+   "boots": "#1b1b1f",
+   "hats": [
+    "bowler",
+    "tophat",
+    "beret"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "KEK:0:grin",
+    "COL:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/snake_ring",
+     0,
+     -1.4,
+     1.0
+    ]
+   ],
+   "text": "1865",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "Um dos maiores segredos da química foi resolvido num cochilo, e com a ajuda de uma cobra."
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin"
+   ],
+   "mapa": "BÉLGICA",
+   "mapa_at": 3,
+   "say": "Era mil oitocentos e sessenta e cinco, na cidade de Gante, na Bélgica."
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "KEK:0:worried",
+    "ALU:0:suspicious:paper"
+   ],
+   "acao": "discutir",
+   "say": "O professor August Kekulé tinha um problema: o benzeno, um líquido com seis átomos de carbono que ninguém sabia arrumar."
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "COL:0:bored",
+    "KEK:0:sad:paper"
+   ],
+   "fx": [
+    "puff@40"
+   ],
+   "sfx": [
+    "thump@40"
+   ],
+   "say": "Os químicos desenhavam correntes retas, e nada fechava a conta. Era um quebra-cabeça de anos."
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "hora": "noite",
+   "who": [
+    "KEK:0:bored"
+   ],
+   "props": [
+    [
+     "kit/campfire",
+     1.8,
+     -1.2,
+     1.0
+    ]
+   ],
+   "say": "Numa noite fria, ele virou a cadeira para a lareira, e cochilou."
+  },
+  {
+   "shot": "close",
+   "interior": "madeira",
+   "hora": "noite",
+   "who": [
+    "KEK:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/snake_ring",
+     1.6,
+     -0.8,
+     1.1
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "ring@50"
+   ],
+   "sfx": [
+    "ding@20",
+    "sting@50"
+   ],
+   "say": "No sonho, os átomos dançavam como cobras. Até que uma delas mordeu o próprio rabo."
+  },
+  {
+   "shot": "low",
+   "interior": "madeira",
+   "hora": "noite",
+   "who": [
+    "KEK:0:shock"
+   ],
+   "props": [
+    [
+     "kit/snake_ring",
+     -1.8,
+     -1.0,
+     1.2
+    ]
+   ],
+   "fx": [
+    "ring@20"
+   ],
+   "sfx": [
+    "sting@20"
+   ],
+   "say": "Kekulé acordou num pulo, como se tivesse levado um raio. O benzeno não era uma corrente. Era um anel!"
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "hora": "noite",
+   "who": [
+    "KEK:0:grin:paper"
+   ],
+   "props": [
+    [
+     "kit/snake_ring",
+     1.6,
+     -0.8,
+     1.0
+    ]
+   ],
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ],
+   "say": "Passou o resto da noite desenhando o anel de seis carbonos. E a conta fechou."
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "KEK:0:smug",
+    "COL:0:shock"
+   ],
+   "interacao": "entregar",
+   "say": "Os colegas ficaram de boca aberta. O anel explicava dezenas de substâncias de uma vez."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "KEK:0:laugh",
+    "COL:0:grin",
+    "ALU:0:laugh"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POV",
+     "ALU",
+     "COL"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "props": [
+    [
+     "kit/snake_ring",
+     0,
+     -3.0,
+     1.4
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "FESTA",
+   "titulo": true,
+   "say": "Vinte e cinco anos depois, numa festa em Berlim em honra ao anel, ele contou o sonho pela primeira vez."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "COL:0:suspicious",
+    "KEK:0:smile"
+   ],
+   "say": "Até hoje há quem duvide da história. Mas o anel do benzeno virou base de remédios, tintas e plásticos."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "KEK:0:smile"
+   ],
+   "props": [
+    [
+     "kit/snake_ring",
+     1.4,
+     -0.8,
+     1.0
+    ]
+   ],
+   "text": "SONHE",
+   "say": "E ele deixou um conselho: aprendam a sonhar. Mas confiram tudo acordados."
+  }
+ ]
+}

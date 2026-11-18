@@ -16,5 +16,17 @@
   "kit/brass_nose",
   1.0,
   false
+ ],
+ [
+  "\\bbacia\\b|\\bbacias\\b|\\blavar\\b|lavassem|\\bcloro\\b|clorada",
+  "kit/wash_basin",
+  1.0,
+  false
+ ],
+ [
+  "\\bcobras?\\b|serpentes?|\\banel\\b|benzeno|\\brabo\\b",
+  "kit/snake_ring",
+  1.0,
+  false
  ]
 ]
