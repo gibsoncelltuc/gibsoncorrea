@@ -1,0 +1,243 @@
+{
+ "duration": 55.944,
+ "frames30": 1678,
+ "source": "silence-align (cost 0.61)",
+ "segments": [
+  [
+   0.159458,
+   3.71496
+  ],
+  [
+   4.57275,
+   6.29254
+  ],
+  [
+   6.53879,
+   8.71187
+  ],
+  [
+   9.57338,
+   11.0299
+  ],
+  [
+   11.2929,
+   12.0818
+  ],
+  [
+   12.3446,
+   13.6263
+  ],
+  [
+   14.4837,
+   16.5141
+  ],
+  [
+   16.7978,
+   18.5366
+  ],
+  [
+   19.4141,
+   21.3173
+  ],
+  [
+   22.1871,
+   24.6098
+  ],
+  [
+   25.4667,
+   26.3228
+  ],
+  [
+   26.528,
+   27.1945
+  ],
+  [
+   27.4445,
+   30.1667
+  ],
+  [
+   31.0428,
+   32.8258
+  ],
+  [
+   33.0426,
+   33.6466
+  ],
+  [
+   34.484,
+   35.2905
+  ],
+  [
+   35.6985,
+   37.3588
+  ],
+  [
+   38.2422,
+   40.0492
+  ],
+  [
+   40.3797,
+   41.8605
+  ],
+  [
+   42.0711,
+   42.652
+  ],
+  [
+   43.5388,
+   45.3165
+  ],
+  [
+   45.6598,
+   47.7889
+  ],
+  [
+   48.6544,
+   49.3561
+  ],
+  [
+   49.5847,
+   51.5281
+  ],
+  [
+   52.38,
+   52.7839
+  ],
+  [
+   53.089,
+   55.1638
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Uma \u00fanica ma\u00e7\u00e3 ajudou a explicar por que a Lua n\u00e3o cai na nossa cabe\u00e7a.",
+   "s": 0.159,
+   "e": 3.715
+  },
+  {
+   "text": "Era mil seiscentos e sessenta e seis,",
+   "s": 4.573,
+   "e": 6.293
+  },
+  {
+   "text": "e a peste fechou a universidade de Cambridge.",
+   "s": 6.539,
+   "e": 8.712
+  },
+  {
+   "text": "Um rapaz de vinte e tr\u00eas anos,",
+   "s": 9.573,
+   "e": 11.03
+  },
+  {
+   "text": "Isaac Newton,",
+   "s": 11.293,
+   "e": 12.082
+  },
+  {
+   "text": "voltou para a fazenda da m\u00e3e.",
+   "s": 12.345,
+   "e": 13.626
+  },
+  {
+   "text": "Ele passava os dias debaixo de uma macieira,",
+   "s": 14.484,
+   "e": 16.514
+  },
+  {
+   "text": "pensando em como as coisas se mexem.",
+   "s": 16.798,
+   "e": 18.537
+  },
+  {
+   "text": "Todo mundo sabia que as coisas caem.",
+   "s": 19.414,
+   "e": 21.317
+  },
+  {
+   "text": "Ningu\u00e9m perguntava at\u00e9 onde essa for\u00e7a chegava.",
+   "s": 22.187,
+   "e": 24.61
+  },
+  {
+   "text": "Acontece que,",
+   "s": 25.467,
+   "e": 26.323
+  },
+  {
+   "text": "numa tarde,",
+   "s": 26.528,
+   "e": 27.195
+  },
+  {
+   "text": "uma ma\u00e7\u00e3 se soltou do galho e caiu bem na frente dele.",
+   "s": 27.445,
+   "e": 30.167
+  },
+  {
+   "text": "Newton n\u00e3o levou pancada na cabe\u00e7a,",
+   "s": 31.043,
+   "e": 32.826
+  },
+  {
+   "text": "isso \u00e9 lenda.",
+   "s": 33.043,
+   "e": 33.647
+  },
+  {
+   "text": "Ele s\u00f3 pensou:",
+   "s": 34.484,
+   "e": 35.291
+  },
+  {
+   "text": "\"Por que ela cai sempre para baixo?\"",
+   "s": 35.699,
+   "e": 37.359
+  },
+  {
+   "text": "Se a for\u00e7a puxa a ma\u00e7\u00e3 l\u00e1 do galho,",
+   "s": 38.242,
+   "e": 40.049
+  },
+  {
+   "text": "ser\u00e1 que ela tamb\u00e9m puxa a Lua,",
+   "s": 40.38,
+   "e": 41.861
+  },
+  {
+   "text": "l\u00e1 no c\u00e9u?",
+   "s": 42.071,
+   "e": 42.652
+  },
+  {
+   "text": "A resposta virou a lei da gravidade,",
+   "s": 43.539,
+   "e": 45.316
+  },
+  {
+   "text": "publicada em mil seiscentos e oitenta e sete.",
+   "s": 45.66,
+   "e": 47.789
+  },
+  {
+   "text": "Anos depois,",
+   "s": 48.654,
+   "e": 49.356
+  },
+  {
+   "text": "ele mesmo contou essa hist\u00f3ria a um amigo.",
+   "s": 49.585,
+   "e": 51.528
+  },
+  {
+   "text": "No fim,",
+   "s": 52.38,
+   "e": 52.784
+  },
+  {
+   "text": "a ma\u00e7\u00e3 mudou a ci\u00eancia e nem foi comida.",
+   "s": 53.089,
+   "e": 55.164
+  }
+ ]
+}

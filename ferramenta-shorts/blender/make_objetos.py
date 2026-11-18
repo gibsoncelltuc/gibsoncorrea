@@ -90,3 +90,15 @@ def _kettle(bm, mats):   # chaleira de cobre: corpo achatado, tampa com pegador,
     cube((-0.5, 1.12, 0), (0.1, 0.5, 0.1), 1, 0.35); cube((0.5, 1.12, 0), (0.1, 0.5, 0.1), 1, -0.35); cube((0, 1.36, 0), (0.86, 0.1, 0.1), 1)   # alca em arco
     cube((0, 0.08, 0), (0.8, 0.1, 0.8), 1)                                                          # base
 sphere('kettle', 0.5, 0.56, '#c9743a', _kettle)
+def _apple(bm, mats):   # maca vermelha: esfera levemente achatada, cabinho marrom e folha verde
+    for v in bm.verts: v.co.z = (v.co.z - 0.5) * 0.9 + 0.45; v.co.x *= 1.05; v.co.y *= 1.05
+    mats.append(mat('applst', '#5a3a1e')); mats.append(mat('applf', '#4fa84a'))
+    def cube(c, sz, mi, rot=0.0):
+        r = bmesh.ops.create_cube(bm, size=1.0)
+        for v in r['verts']:
+            x, y = v.co.x * sz[0], v.co.z * sz[1]; x, y = x * math.cos(rot) - y * math.sin(rot), x * math.sin(rot) + y * math.cos(rot)
+            v.co = Vector((x + c[0], v.co.y * sz[2] + c[2], y + c[1]))
+        for f in {f for v in r['verts'] for f in v.link_faces}: f.material_index = mi
+    cube((0, 0.88, 0), (0.07, 0.2, 0.07), 1, 0.15)                                                   # cabinho
+    cube((0.16, 0.92, 0), (0.26, 0.05, 0.14), 2, 0.5)                                                # folha
+sphere('apple', 0.45, 0.45, '#d8282f', _apple)
