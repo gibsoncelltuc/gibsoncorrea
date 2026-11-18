@@ -11,7 +11,7 @@ b3 | countryside | two | 2 | reagir, INTERAGEM: aproxima-se | barrel | bottle | 
 b4 | countryside | two | 2 | comemorar, INTERAGEM: pular | barrel, tools/lantern | mug, bottle | -
 b5 | countryside | group | 21 | conversar, INTERAGEM: empurrar, alguem chega andando | - | - | -
 b6 | countryside | group | 11 | conversar, batalha | kit/campfire, kit/tent | - | -
-b7 | countryside | orbit | 11 | reagir, batalha | - | - | -
+b7 | countryside | orbit | 11 | reagir, batalha | buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
 b8 | countryside | group | 7 | reagir, INTERAGEM: susto | cannon | - | -
 b9 | countryside | group | 7 | reagir, INTERAGEM: avanca e o outro recua, alguem chega andando | crate, barrel, kit/campfire, kit/tent | spyglass | -
 b10 | countryside | close | 1 | conversar | - | - | -

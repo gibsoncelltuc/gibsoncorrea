@@ -76,11 +76,17 @@ def _ball(bm, mats):
     for i, f in enumerate(bm.faces):
         if i % 5 == 0: f.material_index = 1
 sphere('ball', 0.42, 0.42, '#f4f1e8', _ball)
-def _kettle(bm, mats):
-    mats.append(mat('ketd', '#2a2d33'))
-    def cube(c, sz):
+def _kettle(bm, mats):   # chaleira de cobre: corpo achatado, tampa com pegador, bico inclinado e alca em arco por cima
+    for v in bm.verts: v.co.z = (v.co.z - 0.56) * 0.78 + 0.5; v.co.x *= 1.15; v.co.y *= 1.15
+    mats.append(mat('ketd', '#2a2d33')); mats.append(mat('ketl', '#e8b46a'))
+    def cube(c, sz, mi=1, rot=0.0):
         r = bmesh.ops.create_cube(bm, size=1.0)
-        for v in r['verts']: v.co = Vector((v.co.x * sz[0] + c[0], v.co.y * sz[2] + c[2], v.co.z * sz[1] + c[1]))
-        for f in {f for v in r['verts'] for f in v.link_faces}: f.material_index = 1
-    cube((0, 1.02, 0), (0.5, 0.1, 0.5)); cube((0, 1.12, 0), (0.14, 0.12, 0.14)); cube((0.62, 0.72, 0), (0.5, 0.12, 0.12)); cube((-0.6, 0.62, 0), (0.12, 0.5, 0.1)); cube((0, 0.06, 0), (0.7, 0.12, 0.7))
-sphere('kettle', 0.5, 0.56, '#8d949c', _kettle)
+        for v in r['verts']:
+            x, y = v.co.x * sz[0], v.co.z * sz[1]; x, y = x * math.cos(rot) - y * math.sin(rot), x * math.sin(rot) + y * math.cos(rot)
+            v.co = Vector((x + c[0], v.co.y * sz[2] + c[2], y + c[1]))
+        for f in {f for v in r['verts'] for f in v.link_faces}: f.material_index = mi
+    cube((0, 0.93, 0), (0.62, 0.1, 0.62), 2); cube((0, 1.03, 0), (0.16, 0.14, 0.16), 1)            # tampa + pegador
+    cube((0.78, 0.72, 0), (0.62, 0.16, 0.16), 2, 0.6); cube((1.02, 0.92, 0), (0.2, 0.12, 0.14), 2)   # bico
+    cube((-0.5, 1.12, 0), (0.1, 0.5, 0.1), 1, 0.35); cube((0.5, 1.12, 0), (0.1, 0.5, 0.1), 1, -0.35); cube((0, 1.36, 0), (0.86, 0.1, 0.1), 1)   # alca em arco
+    cube((0, 0.08, 0), (0.8, 0.1, 0.8), 1)                                                          # base
+sphere('kettle', 0.5, 0.56, '#c9743a', _kettle)

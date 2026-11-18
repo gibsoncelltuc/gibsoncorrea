@@ -17,7 +17,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: marchando -> dust + som de impacto
 - Efeito visual marcado: -
-- Texto na tela: VÁRIAS LÍNGUAS
+- Texto na tela: VÁRIAS LÍNGUAS | mapa: KARÁNSEBES
 - Funcao na historia: desenvolvimento
 
 ## Cena b2  (~3.4 s)

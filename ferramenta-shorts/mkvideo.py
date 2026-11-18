@@ -101,6 +101,18 @@ OBJ_DICT = [  # (palavra na narracao, objeto 3D da biblioteca, escala, grande?) 
     (r'\btrem\b|locomotiva|ferrovia', 'vehicles/locomotive', 1.3, True), (r'carroca', 'vehicles/wagon', 1.2, True), (r'tanque de guerra|blindado', 'vehicles/tank', 1.2, True),
     (r'torre|muralha|castelo|fortaleza|palacio', 'buildings/castle_tower', 1.3, True), (r'moinho', 'buildings/windmill', 1.2, True), (r'igreja|catedral', 'buildings/church', 1.2, True), (r'\bfarol\b', 'buildings/lighthouse', 1.2, True), (r'\bponte\b', 'buildings/bridge', 1.2, True),
 ]
+LUGARES = [  # (palavra na narracao, [(modelo, x, z, escala), ...]) -- cenografia de fundo do lugar citado
+    (r'fazenda|fazendeiro|sitio|\\bhorta\\b|plantac|lavoura|celeiro|curral', [('buildings/barn', 5.5, -10.0, 1.2), ('nature/picket_fence', -3.4, -2.6, 1.3), ('nature/haybale', 3.6, -1.4, 1.1), ('nature/scarecrow', -4.6, -4.5, 1.2)]),
+    (r'\\bcasa\\b|\\bcasas\\b|vizinho|aldeia|vila\\b|vilarejo', [('buildings/house_small', -5.5, -10.0, 1.25), ('nature/picket_fence', 3.4, -2.8, 1.3), ('nature/tree_oak', 6.5, -7.0, 1.3)]),
+    (r'igreja|catedral|\\bpadre|\\bsino\\b', [('buildings/church', 5.5, -11.0, 1.2)]),
+    (r'mercado|\\bfeira\\b|\\bloja\\b|comerci|vendedor', [('buildings/shop', -5.0, -9.5, 1.25), ('kit/stall', 3.6, -2.6, 1.0)]),
+    (r'floresta|\\bmata\\b|bosque|\\bselva', [('nature/tree_pine', -4.0, -5.0, 1.5), ('nature/tree_oak', 4.5, -6.0, 1.5), ('nature/tree_pine', 6.5, -3.5, 1.3), ('nature/bush', -5.5, -2.0, 1.2)]),
+    (r'acampamento|acamparam|barracas|tropas dormi', [('kit/tent', -4.5, -5.0, 1.3), ('kit/tent', 5.0, -6.5, 1.3), ('kit/campfire', 3.0, -1.2, 1.2)]),
+    (r'castelo|fortaleza|\\bforte\\b|muralha|palacio', [('buildings/castle_tower', 6.0, -10.5, 1.3)]),
+    (r'moinho', [('buildings/windmill', 6.0, -11.0, 1.2)]), (r'\\bfarol\\b', [('buildings/lighthouse', 6.5, -11.0, 1.2)]),
+    (r'cidade|capital|\\bhotel\\b|predio', [('buildings/apartment', -6.0, -12.0, 1.2), ('buildings/house_two', 6.0, -11.0, 1.2), ('nature/lamppost', 3.2, -2.4, 1.2)]),
+    (r'praca|\\bfonte\\b', [('nature/fountain', 0.0, -4.5, 1.2), ('nature/bench', -3.6, -2.2, 1.2)]),
+]
 FALTA_MODELAR = r'\b(pao|paes|queijo|peixe|peixes|vaca|vacas|cachorro|cachorros|gato|gatos|ovelha|ovelhas|piano|relogio|estatua|guilhotina|balanca|telefone|radio|bicicleta)\b'
 def _heroi():   # OBJETO HEROI do video: "heroi" no topo do roteiro, ou o objeto do titulo, ou o objeto mais citado na narracao
     if 'heroi' in B: return B['heroi'] or None
@@ -373,6 +385,15 @@ def build_beat(k, b):
             tem_.add(as_); n_auto += 1; b.setdefault('_auto_obj', []).append(as_)
     if re.search(r'navio|frota|marinha|esquadra|encouracado', _say_sp) and wide_pre and not b.get('interior') and b.get('set', SET) in ('palace', 'harbor') and b.get('objetos') is not False:
         props = props + [['ship', -13, -34, 0.8], ['ship', 12, -40, 0.7]]; b.setdefault('_auto_obj', []).append('navios ao fundo')
+    # LUGAR CITADO = LUGAR EM CENA (seguir o roteiro A RISCA): fazenda, casa, igreja, mercado, floresta, acampamento... entram como cenografia de fundo
+    if b.get('objetos') is not False and not b.get('interior') and not b.get('veiculo'):
+        tem2_ = {str(p_[0]) for p_ in props}; sd2_ = 1 if k % 2 else -1
+        for rx_, itens_ in LUGARES:
+            if not re.search(rx_, _say_sp): continue
+            novos_ = [it_ for it_ in itens_ if it_[0] not in tem2_]
+            for as_, x_, z_, sc_ in novos_: props = props + [[as_, x_ * sd2_, z_ - (4 if wide_pre else 0), sc_]]; tem2_.add(as_)
+            if novos_: b.setdefault('_auto_obj', []).extend(a_[0] for a_ in novos_); b['fachada'] = False
+            break
     for p in props:
         asset, dx, z, s = p[0], p[1] if len(p) > 1 else 0, p[2] if len(p) > 2 else 0.5, p[3] if len(p) > 3 else 1.0
         ex = p[4] if len(p) > 4 and isinstance(p[4], dict) else {}
@@ -643,6 +664,7 @@ print(f'{ID}: {len(beats)} cenas, {n} palavras narradas -> stories/{ID}/spec.js,
 _nz = lambda t: re.sub(r'[^a-z0-9 ]', '', unicodedata.normalize('NFKD', t.lower()).encode('ascii', 'ignore').decode())
 _CAM = {'two': 'plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s', 'close': 'close no rosto; empurra devagar', 'group': 'plano de grupo (corpo inteiro); angulo muda a cada ~2 s', 'low': 'camera baixa, dramatica (virada)', 'reveal': 'ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)', 'crowd': 'ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)', 'orbit': 'ABERTO: camera girando em volta da acao (tomada continua)', 'track': 'travelling lateral acompanhando quem anda', 'wide': 'ABERTO fixo'}
 _VARN = ['frente', '3/4 pela direita, mais perto e mais baixo', '3/4 pela esquerda, mais alto e aberto', 'leve direita, perto', 'esquerda alta, aberto', 'direita baixa']
+_STOPW = set('guerra causa vezes tempo coisa hora horas dias anos meses semanas noite manha tarde vida nada tudo todo toda todos todas mesmo mesma outro outra outros outras nome meio parte lado fim final verdade volta ideia ordem resposta historia mundo pais paises primeiro segundo terceiro ultimo unica unico dele dela deles delas quem qual onde quando para pelo pela entre sobre depois antes ainda apenas quase muito pouco mais menos maior menor inteiro inteira troca conta hoje nunca sempre'.split())
 _ANIM_OK = {'porco': 'pig', 'porcos': 'pig', 'galinha': 'chicken', 'galinhas': 'chicken', 'emu': 'emus', 'emus': 'emus', 'ganso': 'chicken', 'gansos': 'chicken'}
 _ANIM_ALL = r'\b(cavalo|cavalos|vaca|vacas|boi|bois|cachorro|cachorros|cao|caes|gato|gatos|ovelha|ovelhas|galinha|galinhas|porco|porcos|emu|emus|ganso|gansos|urso|ursos|lobo|lobos|elefante|elefantes|camelo|camelos|burro|burros|coelho|coelhos|rato|ratos|pombo|pombos)\b'
 def _riscos(k, b):
@@ -683,6 +705,7 @@ for k, b in enumerate(beats):
             f'- Personagens principais ({len(b.get("who", []))}): {"; ".join(pers) or "-"}' + (f' | multidao: {b["crowd"].get("n")} de {"/".join(b["crowd"].get("outfits", []))}' if b.get('crowd') else ''),
             f'- Animacao: {b.get("_acao") or "-"}' + (f' | interacao: {b["_inter"]}' if b.get('_inter') else '') + (' | o ultimo personagem ENTRA andando' if b.get('_chega') else '') + (' | batalha encenada' if b.get('impact') else ''),
             f'- Objetos/modelos: {", ".join(o + ("" if _lib(o) or "/" not in o else " (FALTA MODELAR)") for o in objs) or "-"}',
+            '- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ' + (', '.join(sorted({w_ for a_, w_ in re.findall(r'\b(um|uma|o|a|os|as|do|da|dos|das|no|na|nos|nas|de|com) ([a-z]{4,})\b', _nz(b['say'])) if w_ not in _STOPW})[:10]) or '-'),
             '- RISCOS: ' + ('nenhum' if not R else ''), *[f'  - {r} -> CORRECAO: {c}' for r, c in R], '']
 _glob = []
 if not any(b.get('mapa') for b in beats): _glob.append(('nenhum mapa no video (o canal situa o lugar com mapa rapido)', '"mapa": "NOME DO LUGAR" na cena 1 ou 2'))

@@ -93,7 +93,8 @@
     ],
     "march": true
    },
-   "say": "Ohio respondeu com a própria milícia, e as duas tropas chegaram à beira do rio, frente a frente."
+   "say": "Ohio respondeu com a própria milícia, e as duas tropas chegaram à beira do rio, frente a frente.",
+   "riscos_ok": true
   },
   {
    "shot": "crowd",
