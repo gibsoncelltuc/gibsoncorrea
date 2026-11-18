@@ -125,3 +125,4 @@ Quadrado só o que é quadrado de verdade: placa, casa, caixote, mesa, livro. To
 - **Objeto gigante** (torre, foguete, vulcão) fica ao fundo (z −11 a −16); para o close de objeto herói faça uma **maquete** pequena num pedestal (ex.: `kit/tower_mini`). Coisa no céu: versão já no alto (`kit/balloon_air`, `kit/falcon_air`).
 - **Cenário**: base de foguete/litoral = `harbor`; campo sem fazenda não tem mais celeiro gigante automático.
 - **Boné** (`hat: cap`) agora fica acima dos olhos.
+- **Personagem CARREGANDO objeto 3D** (pia, caixa, bandeja…): cena `"shot": "track"` e o objeto com `{"carregado": true, "y": 0.75}` → `["kit/sink", 0.35, 1.55, 0.9, {"carregado": true, "y": 0.75}]` (x = posição do personagem + 0,35). Anda junto, na altura das mãos. Confira com `./prechecar.sh <id> b0 4`.
