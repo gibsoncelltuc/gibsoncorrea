@@ -101,6 +101,8 @@ const interAt = (a, f) => { const I = a.inter; if (!I || f < I.a || f > I.b) ret
     case 'step': { const k = sm(t / 0.3) * (1 - sm((t - 0.8) / 0.2)); return { dx: d * 0.6 * k, tilt: d * 4 * k, hop: 0.04 * Math.abs(Math.sin(t * 40)) * (t < 0.3 || t > 0.8 ? 1 : 0) }; }
     case 'shove': { const k = Math.exp(-(((t - 0.45) / 0.09) ** 2)); return { dx: d * 0.6 * k, tilt: d * 14 * k, hop: 0 }; }
     case 'stagger': { const k = sm((t - 0.45) / 0.12) * (1 - sm((t - 0.85) / 0.15)), w = t > 0.45 ? Math.sin((t - 0.45) * 30) * Math.exp(-(t - 0.45) * 5) : 0; return { dx: -d * 0.85 * k, tilt: -d * (13 * k + 8 * w), hop: 0.12 * Math.max(0, w) }; }
+    case 'hug': { const k = sm((t - 0.25) / 0.2) * (1 - sm((t - 0.85) / 0.15)); return { dx: d * 0.95 * k, tilt: d * 7 * k, hop: 0.03 * k * Math.abs(Math.sin(t * 30)) }; }   /* ABRACO: os dois andam um ate o outro e ficam colados, inclinados */
+    case 'shiver': return { dx: 0.035 * Math.sin(f * 2.4), tilt: 1.5 * Math.sin(f * 1.9), hop: 0 };   /* FRIO: tremendo */
     case 'hop': return { dx: 0, tilt: 0, hop: 0.3 * Math.abs(Math.sin(t * Math.PI * 2 * n)) };
     case 'bow': return { dx: 0, tilt: d * 20 * bell, hop: 0 };
     case 'nod': return { dx: d * 0.1 * bell, tilt: d * 3 * Math.sin(t * Math.PI * 6), hop: 0.03 * Math.abs(Math.sin(t * Math.PI * 6)) };

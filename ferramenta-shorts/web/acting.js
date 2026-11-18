@@ -55,7 +55,7 @@ const actFor = (f, a, ai, S, persons, seed) => {
   const L = cur.L; let face = 0, look = 0;
   const camGaze = lead ? !!L.cam : (!!(L.key && (L.kk || 0) > 0.4) || (L.cam && r % 2 === 1));
   if (camGaze) { face = 0; look = 0; } else if (lead && L.start) { face = 0.5 * toward; look = 1.1 * toward; } else { face = 0.42 * toward; look = 0.8 * toward; }
-  const fx = { browUp: qq(cur.up, 1), skeptic: !lead && !!L.alt, lookY: camGaze ? 0 : 0.2, sweat: cur.e === 'shock' || cur.e === 'nervous' };
+  const fx = { browUp: qq(cur.up, 1), skeptic: !lead && !!L.alt, lookY: camGaze ? 0 : 0.2, sweat: cur.e === 'shock' || cur.e === 'nervous' || S.light === 'desert' };   /* calor: todo mundo suando */
   { const spk = persons.length > 1 ? 1 : 0; if (L.talk && r === spk) fx.talk = qq(0.3 + 0.7 * Math.abs(Math.sin(f * 1.7)), 1); }   // quem fala: o 2o personagem da cena (ou o unico)
   /* DIALOGO EM TURNOS: em conversa/discussao os dois principais se revezam. Quem FALA mexe a boca e gesticula olhando o outro; quem OUVE reage com o rosto (desconfia, se espanta, fecha a cara, acha graca) */
   let dexpr = cur.e, spk = null;

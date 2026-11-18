@@ -270,9 +270,10 @@ def build_beat(k, b):
     _sy = nrm(b['say']); global AMB
     # HORA DO DIA e CLIMA: campos "hora" (dia|tarde|pordosol|noite|amanhecer) e "clima" (sol|calor|chuva|tempestade|neve|neblina|vento|limpo), ou pelas palavras da narracao. Ficam valendo ate mudar.
     _h = b.get('hora') or ('noite' if re.search(r'noite|noescuro|madrugada|meianoite', _sy) else 'amanhecer' if re.search(r'amanhecer|manhaseguinte|nascerdosol|aurora|demanha', _sy) else 'pordosol' if re.search(r'pordosol|entardecer|anoitecer|fimdetarde|finaldetarde|fimdodia', _sy) else 'tarde' if re.search(r'atarde|detarde|natarde', _sy) else 'dia' if re.search(r'diaseguinte|diasdepois|semanasdepois|mesesdepois|anosdepois|meiodia|duranteodia', _sy) else None)
-    _c = b.get('clima') or ('tempestade' if re.search(r'tempestade|temporal|trovao|raios', _sy) else 'chuva' if re.search(r'chuva|chovia|chovendo|choveu|aguaceiro', _sy) else 'neve' if re.search(r'neve|nevasca|nevava|nevando|inverno|congel|geada', _sy) else 'neblina' if re.search(r'neblina|nevoeiro|nevoa|cerracao', _sy) else 'calor' if re.search(r'calor|solforte|solquente|escaldante|seca|sedeinsuport', _sy) else 'vento' if re.search(r'ventania|vendaval|furacao|ventoforte', _sy) else None)
+    _c = b.get('clima') or ('tempestade' if re.search(r'tempestade|temporal|trovao|raios', _sy) else 'chuva' if re.search(r'chuva|chovia|chovendo|choveu|aguaceiro', _sy) else 'neve' if re.search(r'neve|nevasca|nevava|nevando|inverno|congel|geada|muitofrio|friointenso|frioextremo|gelado|gelada', _sy) else 'neblina' if re.search(r'neblina|nevoeiro|nevoa|cerracao', _sy) else 'calor' if re.search(r'calor|solforte|solquente|escaldante|\\bseca\\b|sedeinsuport|muitoquente|deserto', _sy) else 'vento' if re.search(r'ventania|vendaval|furacao|ventoforte', _sy) else None)
     if _h: AMB['hora'] = _h
     if _c: AMB['clima'] = None if _c in ('limpo', 'sol') else _c
+    b['_frio'] = AMB.get('clima') == 'neve'; b['_calor'] = AMB.get('clima') == 'calor'   # frio: os personagens tremem; calor: suam (luz de deserto)
     wx = {}
     if not light:
         light = {'noite': 'night', 'amanhecer': 'dawn', 'pordosol': 'dusk', 'tarde': 'golden'}.get(AMB.get('hora'), LIGHT)
@@ -291,7 +292,7 @@ def build_beat(k, b):
     mv = b.get('move', 8 if shot == 'track' else 0)
     a, bb = f'A[{k}]', f'A[{k + 1}] - 1'
     # elenco de pessoas
-    HOLDS = (('mug', r'beber|bebeu|bebia|brind|caneca|cerveja|cha\b'), ('bottle', r'garrafa|aguardente|vinho|bebida|rum|whisky|uisque'), ('paper', r'carta|jornal|imprensa|ordem|documento|mapa|contrato|telegrama|relatorio|lista|assinou|lei\b'), ('book', r'livro|biblia|diario'), ('lantern', r'lanterna|lampiao|lamparina'), ('torch', r'tocha|incendi'), ('flag', r'bandeira|rendeu|rendicao'), ('money', r'dolar|dolares|libras|notas|cedulas|\\bpago\\b'), ('coin', r'dinheiro|moeda|ouro|recompensa|pagou|pagar|fortuna|salario|imposto'), ('bag', r'saco|mala|bagagem|sacola'), ('spyglass', r'luneta|avistou|avistaram|procurar|vigia|observ'), ('tulip', r'tulipa|bulbo|flor\b|flores'))
+    HOLDS = (('mug', r'beber|bebeu|bebia|brind|caneca|cerveja|cha\b'), ('bottle', r'garrafa|aguardente|vinho|bebida|rum|whisky|uisque'), ('paper', r'carta|jornal|imprensa|ordem|documento|mapa|contrato|telegrama|relatorio|lista|assinou|lei\b'), ('book', r'livro|biblia|diario'), ('lantern', r'lanterna|lampiao|lamparina'), ('torch', r'tocha|incendi'), ('flag', r'bandeira|rendeu|rendicao'), ('money', r'dolar|dolares|libras|notas|cedulas|\\bpago\\b'), ('coin', r'dinheiro|moeda|ouro|recompensa|pagou|pagar|fortuna|salario|imposto'), ('shovel', r'cavou|cavaram|cavando|cavar|trincheira|enterrou|enterraram|\\bcova\\b'), ('bag', r'saco|mala|bagagem|sacola'), ('spyglass', r'luneta|avistou|avistaram|procurar|vigia|observ'), ('tulip', r'tulipa|bulbo|flor\b|flores'))
     _say_sp = re.sub(r'[^a-z0-9 ]', '', unicodedata.normalize('NFKD', b['say'].lower()).encode('ascii', 'ignore').decode())
     auto_hold = next((h for h, rx in HOLDS if re.search(rx, _say_sp)), None) if b.get('maos') is not False else None
     _acao = b.get('acao') or ('dancar' if re.search(r'\bdanc', _say_sp) else 'discutir' if (re.search(r'discut|brig|exigi|respondeu|gritou|ameac|insult', _say_sp) and len(b.get('who', [])) >= 2) else None)
@@ -489,7 +490,10 @@ def build_beat(k, b):
     if wx: opts.append('wx: ' + json.dumps(wx))
     # INTERACAO FISICA: em cena media com 2+ pessoas, os dois principais agem um SOBRE o outro (nao so' falam para a camera). Escolhida pelo texto; sem pista no texto, roda uma lista sem repetir (comeca num ponto diferente em cada video).
     if not wide and len(persons) >= 2 and b.get('interacao') is not False and not b.get('veiculo') and not (shot == 'track' or mv) and len(acts) >= 2:
-        if b.get('interacao'): pair = {'empurrar': ('shove', 'stagger'), 'discutir': ('lunge', 'lunge'), 'cochichar': ('lean', 'lean'), 'entregar': ('step', 'nod'), 'susto': ('lean', 'recoil'), 'reverencia': ('nod', 'bow'), 'pular': ('hop', 'hop')}.get(b['interacao'], ('lean', 'nod')); nome = b['interacao']
+        if b.get('interacao'): pair = {'empurrar': ('shove', 'stagger'), 'discutir': ('lunge', 'lunge'), 'cochichar': ('lean', 'lean'), 'entregar': ('step', 'nod'), 'susto': ('lean', 'recoil'), 'reverencia': ('nod', 'bow'), 'pular': ('hop', 'hop'), 'abracar': ('hug', 'hug'), 'tremer': ('shiver', 'shiver')}.get(b['interacao'], ('lean', 'nod')); nome = b['interacao']
+        elif re.search(r'abrac', _say_sp): pair, nome = ('hug', 'hug'), 'abracar'
+        elif re.search(r'beberam|brindaram|brinde|beb(e|i)am juntos', _say_sp): pair, nome = ('hop', 'hop'), 'brindar'
+        elif b.get('_frio'): pair, nome = ('shiver', 'shiver'), 'tremem de frio'
         elif re.search(r'empurr|\bsoco|socou|\bbateu|agred|chutou|derrubou|expuls|arranc|tomou d', _say_sp): pair, nome = ('shove', 'stagger'), 'empurrar'
         elif _acao == 'discutir': pair, nome = ('lunge', 'lunge'), 'discutir'
         elif re.search(r'cochich|segredo|\bplano\b|combin|\btrato|acordo|negoci|sussurr', _say_sp): pair, nome = ('lean', 'lean'), 'cochichar'

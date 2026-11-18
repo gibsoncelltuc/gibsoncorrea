@@ -28,6 +28,12 @@ Tudo que a narração cita tem que aparecer na tela, na mesma cena: se diz "faze
 | explodiu, explosão, bomba | explosão com som | `"fx": ["burst@N"], "sfx": ["cannon@N"]` |
 | fugiu, correu, debandada, retirada | gente correndo | `"shot": "track"` ou `"batalha": true` |
 | colina, montanha, morro | cenário de montanha | automático (`"set": "mountain"`) |
+| cavaram, trincheira, enterraram | pá na mão e poeira | automático (pá) + `"fx": ["dust@N"]` |
+| se abraçaram | os dois andam um até o outro e ficam colados | automático (`"interacao": "abracar"`) |
+| beberam, brindaram | caneca na mão e comemoração | automático |
+| muito frio, inverno, neve, gelado | neve caindo, chão branco, personagens tremendo | automático (`"clima": "neve"`) |
+| muito quente, calor, deserto, seca | luz de sol forte e personagens suando | automático (`"clima": "calor"`) |
+| conversaram / discutiram / brigaram | diálogo em turnos / discussão com cara fechada / empurrão | automático pelo texto ou `"acao"`/`"interacao"` |
 | navio, porto, marinha | cais com navios | automático (`"set": "harbor"`) |
 | rei, rainha, imperador, sultão | alguém de coroa | figurino com `"profissao": "rei"` |
 | general, almirante, coronel, capitão | alguém de farda de oficial | `"profissao": "general"` |
