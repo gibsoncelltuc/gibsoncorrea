@@ -1,0 +1,215 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Guerras Inusitadas",
+ "ep": 13,
+ "title": "A Guerra do Banquinho Dourado",
+ "titulo_base": "A Guerra do Banquinho Dourado",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/golden_stool",
+ "outfits": {
+  "GOV": {
+   "jacket": "#b02a2a",
+   "pants": "#f1efe6",
+   "boots": "#1b1b1f",
+   "hat": "helmet",
+   "cap": "#e8e2d0"
+  },
+  "ASH": {
+   "jacket": "#d9a630",
+   "pants": "#2a7a3a",
+   "boots": "#2a2218",
+   "hat": "hair"
+  },
+  "CHE": {
+   "jacket": "#2a7a3a",
+   "pants": "#d9a630",
+   "boots": "#2a2218",
+   "hat": "turban",
+   "cap": "#d9a630"
+  },
+  "SOL": {
+   "jacket": "#b02a2a",
+   "pants": "#f1efe6",
+   "boots": "#1b1b1f",
+   "hat": "shako",
+   "rifle": true
+  },
+  "PRE": {
+   "jacket": "#2a2a30",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "bowler",
+   "build": "stout"
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "set": "street",
+   "who": [
+    "GOV:0:smug",
+    "ASH:0:shock"
+   ],
+   "props": [
+    [
+     "kit/golden_stool",
+     0.3,
+     2.2,
+     1.3
+    ]
+   ],
+   "text": "1900",
+   "interacao": "discutir",
+   "acao": "discutir",
+   "say": "Um governador inglês pediu para sentar num banquinho, e isso começou uma guerra."
+  },
+  {
+   "shot": "reveal",
+   "set": "street",
+   "who": [
+    "ASH:0:stern",
+    "ASH:1:neutral"
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "ASH"
+    ],
+    "march": false
+   },
+   "mapa": "GANA",
+   "mapa_at": 3,
+   "say": "Em mil e novecentos, os ingleses mandavam numa região da África chamada Gana, onde vivia o povo ashanti.",
+   "fx": [
+    "puff@70"
+   ],
+   "sfx": [
+    "thump@70"
+   ]
+  },
+  {
+   "shot": "two",
+   "set": "street",
+   "who": [
+    "CHE:0:stern",
+    "ASH:0:smile"
+   ],
+   "props": [
+    [
+     "kit/golden_stool",
+     0.3,
+     2.2,
+     1.3
+    ]
+   ],
+   "acao": "conversar",
+   "say": "Os ashanti tinham um banquinho dourado sagrado, que representava a alma do povo. Nem o rei podia sentar nele."
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "GOV:0:angry:paper",
+    "CHE:0:scared"
+   ],
+   "interacao": "empurrar",
+   "say": "Acontece que o governador inglês exigiu o banquinho: \"Por que eu ainda não estou sentado nele?\""
+  },
+  {
+   "shot": "two",
+   "set": "street",
+   "who": [
+    "CHE:0:shock",
+    "ASH:0:angry"
+   ],
+   "interacao": "susto",
+   "say": "Os líderes ashanti ficaram em choque, porque isso era como pedir para sentar na alma deles."
+  },
+  {
+   "shot": "crowd",
+   "set": "street",
+   "who": [
+    "ASH:0:angry",
+    "ASH:1:shout"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "ASH"
+    ],
+    "march": true,
+    "expr": "angry"
+   },
+   "props": [
+    [
+     "buildings/castle_tower",
+     -7,
+     -9,
+     1.2
+    ]
+   ],
+   "text": "REVOLTA",
+   "titulo": true,
+   "say": "Eles se revoltaram, cercaram o forte onde ele estava, e o governador teve que se trancar lá dentro."
+  },
+  {
+   "shot": "orbit",
+   "set": "street",
+   "who": [
+    "SOL:0:stern",
+    "SOL:1:angry"
+   ],
+   "batalha": true,
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "SOL"
+    ],
+    "march": true,
+    "expr": "stern"
+   },
+   "say": "Soldados ingleses marcharam para salvar o governador preso, e a guerra seguiu por vários meses."
+  },
+  {
+   "shot": "two",
+   "interior": "pedra",
+   "who": [
+    "GOV:0:relief",
+    "PRE:0:smug:paper"
+   ],
+   "interacao": "entregar",
+   "say": "No fim, os ingleses venceram a guerra e tomaram o controle da região, que virou colônia."
+  },
+  {
+   "shot": "two",
+   "set": "street",
+   "who": [
+    "CHE:0:smug",
+    "ASH:0:grin"
+   ],
+   "interacao": "cochichar",
+   "say": "Mas os ashanti esconderam o banquinho, e os ingleses nunca conseguiram levá-lo."
+  },
+  {
+   "shot": "close",
+   "set": "street",
+   "who": [
+    "GOV:0:sad"
+   ],
+   "props": [
+    [
+     "kit/golden_stool",
+     1.0,
+     0.6,
+     1.3
+    ]
+   ],
+   "say": "O governador ganhou a guerra, mas o banquinho nunca foi dele."
+  }
+ ]
+}
