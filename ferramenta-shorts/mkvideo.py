@@ -531,6 +531,7 @@ def build_beat(k, b):
             p1 = re.sub(r"hero: \{[^}]*\}", "hero: { hero: 'none', detalhe: true }", base.replace(pid, f"S('b{k}_d', {Fq(0.36)}, {Fq(0.6)} - 1, X,", 1).replace("trans: 'dissolve'", "trans: 'cut'"), count=1)
             p2 = base.replace(pid, f"S('b{k}_v', {Fq(0.6)}, {bb}, X,", 1).replace("trans: 'dissolve'", "trans: 'cut'")
             p1, p2 = nodrop(p1), nodrop(p2)
+            p1 = re.sub(r", inter: \{[^}]*\}", "", p1).replace("pose: 'argue'", "pose: 'stand'").replace("pose: 'talk'", "pose: 'stand'")   # durante o close no objeto ninguem avanca/gesticula na frente da lente
             call = f"{p0}, {{ ...{p1}, cam: [{Kc(Fq(0.36), k0)}, {Kc(Fq(0.6) + ' - 1', k1)}], nocut: true, vary: false, glide: true, glideN: 34 }}, {{ ...{p2}, glide: true, glideN: 34 }}"   # ida e volta do detalhe mais lentas (o controle de camera reprova deslize brusco)
     if b.get('set') and b['set'] != SET and b['set'] in SETS_X: call = re.sub(r'\bX\b', 'X_' + b['set'], call)   # esta cena acontece em outro cenario
     return call
@@ -640,6 +641,7 @@ print(f'{ID}: {len(beats)} cenas, {n} palavras narradas -> stories/{ID}/spec.js,
 # ---------- DUAS FOLHAS (ordem do Gibson): folha1_roteiro.md = historia, narracao, som e efeitos; folha2_producao.md = coordenadas de producao (cenario, camera, personagens, objetos, interacao) + RISCOS de cada cena e como corrigir NO ROTEIRO ----------
 _nz = lambda t: re.sub(r'[^a-z0-9 ]', '', unicodedata.normalize('NFKD', t.lower()).encode('ascii', 'ignore').decode())
 _CAM = {'two': 'plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s', 'close': 'close no rosto; empurra devagar', 'group': 'plano de grupo (corpo inteiro); angulo muda a cada ~2 s', 'low': 'camera baixa, dramatica (virada)', 'reveal': 'ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)', 'crowd': 'ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)', 'orbit': 'ABERTO: camera girando em volta da acao (tomada continua)', 'track': 'travelling lateral acompanhando quem anda', 'wide': 'ABERTO fixo'}
+_VARN = ['frente', '3/4 pela direita, mais perto e mais baixo', '3/4 pela esquerda, mais alto e aberto', 'leve direita, perto', 'esquerda alta, aberto', 'direita baixa']
 _ANIM_OK = {'porco': 'pig', 'porcos': 'pig', 'galinha': 'chicken', 'galinhas': 'chicken', 'emu': 'emus', 'emus': 'emus', 'ganso': 'chicken', 'gansos': 'chicken'}
 _ANIM_ALL = r'\b(cavalo|cavalos|vaca|vacas|boi|bois|cachorro|cachorros|cao|caes|gato|gatos|ovelha|ovelhas|galinha|galinhas|porco|porcos|emu|emus|ganso|gansos|urso|ursos|lobo|lobos|elefante|elefantes|camelo|camelos|burro|burros|coelho|coelhos|rato|ratos|pombo|pombos)\b'
 def _riscos(k, b):
@@ -676,6 +678,7 @@ for k, b in enumerate(beats):
     R = [] if b.get('riscos_ok') else _riscos(k, b); _tot_r += len(R); _allr += [(k, r) for r in R]
     _f2 += [f'## Cena b{k} - {b["say"][:70]}{"..." if len(b["say"]) > 70 else ""}', f'- Cenario: {cen} | luz: {b.get("hora") or b.get("light") or B.get("light", "day")} | clima: {b.get("clima") or "limpo"}',
             f'- Camera: {b.get("shot")} = {_CAM.get(b.get("shot"), "-")}' + (' + CLOSE NO OBJETO no meio da cena (vai e volta)' if b.get('_detalhe') else '') + (' [momento criado pela ferramenta]' if b.get('_momento_auto') else ''),
+            '- Takes: ' + ('4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som' if b.get('impact') and b.get('shot') in WIDE else '1 tomada continua, sem corte (camera abre/gira devagar)' if b.get('shot') in WIDE else f'{max(1, round(len(b["say"].split()) / 2.9 * 30 / 54))} take(s) de ~1,8 s, deslizando de um para o outro: ' + ' -> '.join(_VARN[(sum(ord(c) for c in ID) % 6 + j) % 6] for j in range(max(1, round(len(b['say'].split()) / 2.9 * 30 / 54))))) + (' | no meio: desliza ate o objeto (close), segura ~1,5 s e volta' if b.get('_detalhe') else ''),
             f'- Personagens principais ({len(b.get("who", []))}): {"; ".join(pers) or "-"}' + (f' | multidao: {b["crowd"].get("n")} de {"/".join(b["crowd"].get("outfits", []))}' if b.get('crowd') else ''),
             f'- Animacao: {b.get("_acao") or "-"}' + (f' | interacao: {b["_inter"]}' if b.get('_inter') else '') + (' | o ultimo personagem ENTRA andando' if b.get('_chega') else '') + (' | batalha encenada' if b.get('impact') else ''),
             f'- Objetos/modelos: {", ".join(o + ("" if _lib(o) or "/" not in o else " (FALTA MODELAR)") for o in objs) or "-"}',
@@ -693,3 +696,5 @@ _f2 += ['## Video inteiro', f'- Objeto heroi: {HEROI or "-"} | grandes momentos:
          '- Personagem cortado: tire gente do "who" ou use "shot": "group". Cena vazia: confira "who". Objeto fora do quadro: ponha em "props" com x entre -2 e 2. Luz estourada: "hora"/"clima" na cena.']
 open(f'stories/{ID}/folha1_roteiro.md', 'w', encoding='utf-8').write('\n'.join(_f1) + '\n'); open(f'stories/{ID}/folha2_producao.md', 'w', encoding='utf-8').write('\n'.join(_f2) + '\n')
 print(f'DUAS FOLHAS: stories/{ID}/folha1_roteiro.md (historia e som) e stories/{ID}/folha2_producao.md (producao) -> {_tot_r + len(_glob)} RISCO(S) em aberto' + (': ' + '; '.join([f'b{k} {r}' for k, (r, c) in _allr] + [r for r, c in _glob])[:600] if _tot_r + len(_glob) else ''))
+
+open(f'stories/{ID}/riscos.txt', 'w').write(str(_tot_r + len(_glob) + _sem) + '\n')   # lido por novo_video.sh e conferir.sh
