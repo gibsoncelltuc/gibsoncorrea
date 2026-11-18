@@ -39,6 +39,28 @@
     "beret",
     "bowler"
    ]
+  },
+  "PRE": {
+   "jacket": "#f2f2f2",
+   "pants": "#f2f2f2",
+   "boots": "#d8d8d8",
+   "pele": "#e8c8a8"
+  },
+  "PR2": {
+   "jacket": "#f2f2f2",
+   "pants": "#f2f2f2",
+   "boots": "#d8d8d8",
+   "pele": "#b8865a",
+   "hat": "hair",
+   "hair": "#1a1210"
+  },
+  "PR3": {
+   "jacket": "#e8e8e8",
+   "pants": "#e8e8e8",
+   "boots": "#d8d8d8",
+   "pele": "#d8a878",
+   "hat": "hair",
+   "hair": "#4a3022"
   }
  },
  "beats": [
@@ -114,16 +136,18 @@
   {
    "shot": "crowd",
    "who": [
-    "GUA:0:stern",
-    "GUA:1:stern",
-    "GUA:2:angry"
+    "PRE:0:stern",
+    "PR2:0:stern",
+    "PR3:0:angry"
    ],
    "batalha": true,
    "tiros": false,
    "crowd": {
     "n": 16,
     "outfits": [
-     "GUA"
+     "PRE",
+     "PR2",
+     "PR3"
     ],
     "march": false,
     "expr": "stern"

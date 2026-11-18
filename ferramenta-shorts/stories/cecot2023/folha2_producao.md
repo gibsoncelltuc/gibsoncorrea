@@ -46,7 +46,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: outback | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): GUA (variante 0, expressao stern); GUA (variante 1, expressao stern); GUA (variante 2, expressao angry) | multidao: 16 de GUA
+- Personagens principais (3): PRE (variante 0, expressao stern); PR2 (variante 0, expressao stern); PR3 (variante 0, expressao angry) | multidao: 16 de PRE/PR2/PR3
 - Animacao: - | batalha encenada
 - Objetos/modelos: kit/prison
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): centro, confinamento, terrorismo, vagas
