@@ -8,6 +8,8 @@ Cuidado visto na prática: "noite"/"neve" valem só na cena onde aparecem (desde
 ## Sessões de produção: ferramenta sempre atualizada
 ANTES de começar CADA vídeo: `git fetch origin claude/bold-sagan-dskrsj && git merge --no-edit FETCH_HEAD` e `npm test` (tem que dar "TESTE DA FERRAMENTA: OK"). Vídeo feito com ferramenta velha sai sem as correções do dia.
 
+Objeto que BRILHA no escuro (lâmpada, LED, luzes no céu): no script do Blender chame `luz()` logo depois de `novo(...)`.
+
 ## Os 7 passos (não pule nenhum)
 
 1. **Ler** `CAPACIDADES.md` (o que a ferramenta tem) e `MODO_RICKS.md` (como o roteiro é escrito).

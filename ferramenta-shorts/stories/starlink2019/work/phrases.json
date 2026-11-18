@@ -1,0 +1,333 @@
+{
+ "duration": 67.152,
+ "frames30": 2015,
+ "source": "silence-align (cost 1.01)",
+ "segments": [
+  [
+   0.154792,
+   3.35596
+  ],
+  [
+   4.20787,
+   4.34979
+  ],
+  [
+   4.60617,
+   5.33562
+  ],
+  [
+   5.57492,
+   6.61692
+  ],
+  [
+   7.54233,
+   8.99579
+  ],
+  [
+   9.21358,
+   9.86367
+  ],
+  [
+   10.6965,
+   12.1835
+  ],
+  [
+   13.0491,
+   13.5552
+  ],
+  [
+   13.8183,
+   15.6762
+  ],
+  [
+   15.8973,
+   17.9867
+  ],
+  [
+   18.8602,
+   21.3106
+  ],
+  [
+   21.5248,
+   22.2365
+  ],
+  [
+   23.11,
+   23.9419
+  ],
+  [
+   24.147,
+   24.9554
+  ],
+  [
+   25.1858,
+   27.5044
+  ],
+  [
+   28.3713,
+   30.2478
+  ],
+  [
+   31.0461,
+   32.1034
+  ],
+  [
+   32.4855,
+   33.408
+  ],
+  [
+   33.6586,
+   34.5244
+  ],
+  [
+   34.6713,
+   35.6339
+  ],
+  [
+   36.5192,
+   37.0137
+  ],
+  [
+   37.1514,
+   39.4451
+  ],
+  [
+   39.6154,
+   40.6613
+  ],
+  [
+   41.5162,
+   42.4926
+  ],
+  [
+   42.7597,
+   46.0487
+  ],
+  [
+   46.9121,
+   48.0669
+  ],
+  [
+   48.8843,
+   49.6169
+  ],
+  [
+   49.8138,
+   51.0786
+  ],
+  [
+   51.3369,
+   52.9628
+  ],
+  [
+   53.8378,
+   56.227
+  ],
+  [
+   57.0958,
+   58.3669
+  ],
+  [
+   59.2211,
+   59.6293
+  ],
+  [
+   59.8809,
+   61.7965
+  ],
+  [
+   62.1048,
+   62.402
+  ],
+  [
+   63.2894,
+   64.7863
+  ],
+  [
+   65.6471,
+   66.341
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um foguete de Elon Musk levou sessenta sat\u00e9lites de uma vez.",
+   "s": 0.155,
+   "e": 3.356
+  },
+  {
+   "text": "E,",
+   "s": 4.208,
+   "e": 4.35
+  },
+  {
+   "text": "dias depois,",
+   "s": 4.606,
+   "e": 5.336
+  },
+  {
+   "text": "o c\u00e9u ficou estranho.",
+   "s": 5.575,
+   "e": 6.617
+  },
+  {
+   "text": "Foi em maio de dois mil e dezenove,",
+   "s": 7.542,
+   "e": 8.996
+  },
+  {
+   "text": "na Fl\u00f3rida.",
+   "s": 9.214,
+   "e": 9.864
+  },
+  {
+   "text": "O projeto se chama Starlink.",
+   "s": 10.697,
+   "e": 12.184
+  },
+  {
+   "text": "A ideia:",
+   "s": 13.049,
+   "e": 13.555
+  },
+  {
+   "text": "milhares de sat\u00e9lites voando baixo,",
+   "s": 13.818,
+   "e": 15.676
+  },
+  {
+   "text": "levando internet a qualquer canto da Terra.",
+   "s": 15.897,
+   "e": 17.987
+  },
+  {
+   "text": "O Falcon Nove decolou com os sat\u00e9lites empilhados,",
+   "s": 18.86,
+   "e": 21.311
+  },
+  {
+   "text": "como pratos.",
+   "s": 21.525,
+   "e": 22.236
+  },
+  {
+   "text": "Acontece que,",
+   "s": 23.11,
+   "e": 23.942
+  },
+  {
+   "text": "noites depois,",
+   "s": 24.147,
+   "e": 24.955
+  },
+  {
+   "text": "surgiu no c\u00e9u uma fila de luzes em linha reta.",
+   "s": 25.186,
+   "e": 27.504
+  },
+  {
+   "text": "Muita gente achou que era disco voador.",
+   "s": 28.371,
+   "e": 30.248
+  },
+  {
+   "text": "Um astr\u00f4nomo explicou:",
+   "s": 31.046,
+   "e": 32.103
+  },
+  {
+   "text": "eram os sat\u00e9lites,",
+   "s": 32.486,
+   "e": 33.408
+  },
+  {
+   "text": "ainda juntinhos,",
+   "s": 33.659,
+   "e": 34.524
+  },
+  {
+   "text": "brilhando com o sol.",
+   "s": 34.671,
+   "e": 35.634
+  },
+  {
+   "text": "Para usar,",
+   "s": 36.519,
+   "e": 37.014
+  },
+  {
+   "text": "basta uma antena do tamanho de uma caixa de pizza,",
+   "s": 37.151,
+   "e": 39.445
+  },
+  {
+   "text": "apontada para o c\u00e9u.",
+   "s": 39.615,
+   "e": 40.661
+  },
+  {
+   "text": "Em dois mil e vinte e dois,",
+   "s": 41.516,
+   "e": 42.493
+  },
+  {
+   "text": "uma tempestade solar derrubou quase quarenta sat\u00e9lites novos.",
+   "s": 42.76,
+   "e": 46.049
+  },
+  {
+   "text": "Ca\u00edram e queimaram no ar.",
+   "s": 46.912,
+   "e": 48.067
+  },
+  {
+   "text": "No mesmo ano,",
+   "s": 48.884,
+   "e": 49.617
+  },
+  {
+   "text": "a antena chegou ao Brasil,",
+   "s": 49.814,
+   "e": 51.079
+  },
+  {
+   "text": "at\u00e9 em escolas no meio da Amaz\u00f4nia.",
+   "s": 51.337,
+   "e": 52.963
+  },
+  {
+   "text": "Hoje s\u00e3o mais de sete mil sat\u00e9lites Starlink.",
+   "s": 53.838,
+   "e": 56.227
+  },
+  {
+   "text": "A maior frota da hist\u00f3ria.",
+   "s": 57.096,
+   "e": 58.367
+  },
+  {
+   "text": "Ent\u00e3o,",
+   "s": 59.221,
+   "e": 59.629
+  },
+  {
+   "text": "se voc\u00ea vir uma fila de luzes no c\u00e9u,",
+   "s": 59.881,
+   "e": 61.797
+  },
+  {
+   "text": "calma.",
+   "s": 62.105,
+   "e": 62.402
+  },
+  {
+   "text": "Pode ser a internet passando.",
+   "s": 63.289,
+   "e": 64.786
+  },
+  {
+   "text": "Voc\u00ea j\u00e1 viu?",
+   "s": 65.647,
+   "e": 66.341
+  }
+ ]
+}
