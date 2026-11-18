@@ -16,7 +16,7 @@ Depois: Curiosidade e Ciência CC 11–20.
 
 ## Sessão B (branch claude/prod-b-emus) — Curiosidade e Ciência (`"serie": "Curiosidade e Ciência", "ep": N`)
 - [x] EP 10 chaleira1784
-- [ ] CC 01 Newton e a maçã · [ ] CC 02 Arquimedes e o "Eureca" na banheira · [ ] CC 03 Galileu e a torre de Pisa · [ ] CC 04 Fleming e o mofo que virou penicilina · [ ] CC 05 O micro-ondas e o chocolate derretido
+- [x] CC 01 Newton e a maçã · [ ] CC 02 Arquimedes e o "Eureca" na banheira · [ ] CC 03 Galileu e a torre de Pisa · [ ] CC 04 Fleming e o mofo que virou penicilina · [ ] CC 05 O micro-ondas e o chocolate derretido
 - [ ] CC 06 Pasteur e a vacina da raiva · [ ] CC 07 Franklin, a pipa e o raio · [ ] CC 08 Darwin e os tentilhões · [ ] CC 09 Mendel e as ervilhas · [ ] CC 10 Eratóstenes mede a Terra com uma sombra
 
 ## Curiosidade e Ciência CC 11–20 (sessão principal, depois das refações)
