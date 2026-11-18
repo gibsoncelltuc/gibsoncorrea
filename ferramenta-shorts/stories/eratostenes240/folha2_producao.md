@@ -23,12 +23,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Ele leu num papiro que, em Siena, ao meio-dia de verão, o sol iluminav...
-- Cenario: interior pedra | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Cenario: outback | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): ERA (variante 0, expressao surprised, segura paper); BIB (variante 0, expressao suspicious)
 - Animacao: conversar | interacao: insiste
-- Objetos/modelos: tools/bucket
+- Objetos/modelos: kit/well, tools/bucket
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fundo, poco, verao
 - RISCOS: nenhum
 
@@ -44,8 +44,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - Em Alexandria, no mesmo dia, uma vara fincada no chão fazia uma sombra...
 - Cenario: outback | luz: day | clima: calor
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ERA (variante 0, expressao suspicious); BIB (variante 0, expressao neutral)
 - Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/stick
@@ -108,7 +108,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): ERA (variante 0, expressao smug)
 - Animacao: conversar
-- Objetos/modelos: kit/stick, tools/bucket
+- Objetos/modelos: kit/stick, kit/well, tools/bucket
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): poco, satelite, trabalho, vara
 - RISCOS: nenhum
 
@@ -122,12 +122,12 @@ kit/stick | b0, b4, b6, b7, b10 | pronto | conferir na folha de contato se le be
 buildings/apartment | b1, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b1, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b1, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/well | b2, b3, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 tools/bucket | b2, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/well | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/globe | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 17% | medio 66% | aberto 11% | detalhe 7%
+- Objeto heroi: kit/globe | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 17% | medio 66% | aberto 11% | detalhe 6%
 - Interacoes: b0 o outro se aproxima, b2 insiste, b3 vai ate o outro, b4 aproxima-se, b8 cochichar, b9 pular
 - RISCOS GERAIS: nenhum
 

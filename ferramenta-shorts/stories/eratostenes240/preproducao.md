@@ -6,7 +6,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | outback | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/globe, kit/stick | - | -
 b1 | outback | reveal | 10 | parados (so fala e pisca) | buildings/apartment, buildings/house_two, nature/lamppost | - | -
-b2 | interior pedra | two | 2 | conversar, INTERAGEM: insiste | tools/bucket | paper | -
+b2 | outback | two | 2 | conversar, INTERAGEM: insiste | kit/well, tools/bucket | paper | -
 b3 | outback | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/well | - | -
 b4 | outback | two | 2 | conversar, INTERAGEM: aproxima-se | kit/stick | - | -
 b5 | outback | close | 1 | conversar | kit/globe | - | -
@@ -14,7 +14,7 @@ b6 | outback | orbit | 12 | reagir, batalha | kit/globe, kit/stick | - | -
 b7 | outback | track | 2 | andando | kit/stick, buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: cochichar, alguem chega andando | - | paper | -
 b9 | outback | group | 16 | comemorar, INTERAGEM: pular, batalha | kit/globe | - | -
-b10 | outback | close | 1 | conversar | kit/stick, tools/bucket | - | -
+b10 | outback | close | 1 | conversar | kit/stick, kit/well, tools/bucket | - | -
 
 OBJETO HEROI: kit/globe - aparece em 4 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b6, b9
