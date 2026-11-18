@@ -6,7 +6,7 @@
  "title": "A Maior Prisão das Américas",
  "titulo_base": "A Maior Prisão das Américas",
  "set": "street",
- "light": "day",
+ "light": "golden",
  "mood": "playful",
  "heroi": "kit/prison_mini",
  "outfits": {
@@ -332,5 +332,6 @@
  "fontes": [
   "https://www.as-coa.org/articles/explainer-el-salvadors-2024-presidential-and-legislative-elections",
   "https://www.riotimesonline.com/who-is-nayib-bukele-el-salvador-profile-2026/"
- ]
+ ],
+ "exp": 1.0
 }
