@@ -14,9 +14,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 ## Cena b1  (~4.8 s)
 - Narracao: Os gauleses tinham invadido a cidade, e queimado quase tudo. Quem não fugiu, morreu.
 - Som ambiente: birds
-- Efeitos sonoros marcados: -
+- Efeitos sonoros marcados: thump@20, thump@55
 - Efeito + som nas palavras-chave: fugiu -> dust + som de impacto; morreu -> puff + som de baque
-- Efeito visual marcado: -
+- Efeito visual marcado: dust@20, burst@55
 - Texto na tela: - | mapa: ROMA
 - Funcao na historia: desenvolvimento
 
@@ -38,8 +38,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~6.2 s)
-- Narracao: Numa noite sem lua, os gauleses escalaram a colina em silêncio. Os guardas dormiam. Nem os cachorros latiram.
+## Cena b4  (~5.9 s)
+- Narracao: Numa noite sem lua, os gauleses escalaram a colina em silêncio. Os guardas dormiam. Ninguém ouviu nada.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -83,11 +83,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Texto na tela: DESFILE
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~3.4 s)
-- Narracao: E os cachorros, que dormiram a noite inteira, um castigo.
+## Cena b9  (~3.8 s)
+- Narracao: E os guardas, que dormiram a noite inteira, ganharam um castigo.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: ganharam -> stars + som de sino
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL
