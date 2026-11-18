@@ -1,0 +1,5 @@
+# PF 22 — A Operação da Madrugada (Poder e Fama)
+**Fatos:** roteiro e fatos preparados e conferidos (com fontes) pela sessão principal; não alterei narração. Tom neutro de curiosidade, sem violência mostrada e sem opinião a favor/contra (a própria narração cita opiniões divididas no mundo). Descrição: "Animação humorística. Personagens são caricaturas."
+**Passou:** conferir.sh OK (61 s, 1080x1920, 0 riscos); helicóptero (herói) em cena e em close; mapa Venezuela; placas "2026", "DELTA" e "MUNDO"; cenas noturnas só nas cenas da madrugada; multidões POV reagindo; Trump caricato.
+**Não passou / limitações:** o "ataque aéreo" aparece só como helicóptero distante e efeito, sem defesas sendo desligadas; a captura não é mostrada (cena do personagem e reações); transições esmaecidas em ~7,5 s e ~39 s; cenário de rua repetido.
+**Refeito:** nenhuma cena no render. Antes: gate barrou 2x por 24 saltos de câmera na cena b5 (câmera de detalhe indo ao helicóptero longe); corrigi com `detalhe:false` nessa cena, validei com `qa_camera` e reenfileirei.
