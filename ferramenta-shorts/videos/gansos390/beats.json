@@ -64,7 +64,7 @@
    "who": [
     "GAU:0:angry:torch",
     "GAU:1:shout:torch",
-    "ROM:0:scared"
+    "GAU:2:grin:torch"
    ],
    "mapa": "ROMA",
    "say": "Os gauleses tinham invadido a cidade, e queimado quase tudo. Quem não fugiu, morreu.",
@@ -182,8 +182,8 @@
   {
    "shot": "two",
    "who": [
-    "MAN:0:shock",
-    "GAU:0:shock"
+    "MAN:0:angry",
+    "GAU:0:scared"
    ],
    "props": [
     [
@@ -194,14 +194,23 @@
     ]
    ],
    "fachada": false,
-   "say": "Um soldado chamado Mânlio pulou da cama, e empurrou o primeiro invasor muralha abaixo. O gaulês caiu, levando os outros junto."
+   "say": "Um soldado chamado Mânlio pulou da cama, e empurrou o primeiro invasor muralha abaixo. O gaulês caiu, levando os outros junto.",
+   "interacao": "empurrar",
+   "fx": [
+    "dust@70",
+    "puff@80"
+   ],
+   "sfx": [
+    "thump@66",
+    "whoosh@60"
+   ]
   },
   {
    "shot": "crowd",
    "who": [
-    "ROM:0:stern",
-    "MAN:0:stern",
-    "GAU:0:shock"
+    "ROM:0:angry",
+    "MAN:0:shout",
+    "GAU:0:scared"
    ],
    "batalha": true,
    "tiros": false,
@@ -215,15 +224,16 @@
     "thump@70"
    ],
    "crowd": {
-    "n": 16,
+    "n": 18,
     "outfits": [
      "ROM",
      "GAU"
     ],
     "march": false,
-    "expr": "shock"
+    "expr": "angry"
    },
-   "say": "O alarme acordou todo mundo, os romanos correram para a muralha, e o ataque fracassou."
+   "say": "O alarme acordou todo mundo, os romanos correram para a muralha, e o ataque fracassou.",
+   "interacao": false
   },
   {
    "shot": "two",
