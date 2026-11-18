@@ -68,7 +68,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): FRA (variante 0, expressao shock); FIL (variante 0, expressao scared) | multidao: 8 de COM/POV
 - Animacao: reagir | batalha encenada
-- Objetos/modelos: kit/key
+- Objetos/modelos: kit/key, kit/kite
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chave, faisca, linha, nuvem
 - RISCOS: nenhum
 
@@ -117,7 +117,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/kite | b0, b4, b5, b7 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/kite | b0, b4, b5, b6, b7 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/key | b4, b5, b6, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/lightning_rod | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_small | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py

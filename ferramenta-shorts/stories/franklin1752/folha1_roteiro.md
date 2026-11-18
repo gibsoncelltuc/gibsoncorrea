@@ -59,9 +59,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 ## Cena b6  (~6.6 s)
 - Narracao: Acontece que, quando a nuvem passou, a linha eriçou, e uma faísca pulou da chave até a mão dele.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: sting@40, thump@60
+- Efeitos sonoros marcados: sting@36, thump@40, ding@46
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: burst@40, stars@60
+- Efeito visual marcado: ring@36, burst@40, stars@46, burst@60
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
