@@ -1,0 +1,288 @@
+{
+ "duration": 63.672,
+ "frames30": 1910,
+ "source": "silence-align (cost 0.90)",
+ "segments": [
+  [
+   0.164625,
+   2.37996
+  ],
+  [
+   3.24854,
+   5.14883
+  ],
+  [
+   6.00971,
+   6.86592
+  ],
+  [
+   7.15383,
+   8.03104
+  ],
+  [
+   8.31942,
+   9.63071
+  ],
+  [
+   10.5215,
+   12.4458
+  ],
+  [
+   12.7475,
+   13.5033
+  ],
+  [
+   14.3491,
+   15.3133
+  ],
+  [
+   16.1322,
+   16.9696
+  ],
+  [
+   17.1922,
+   17.9687
+  ],
+  [
+   18.1755,
+   19.2727
+  ],
+  [
+   20.1412,
+   22.2527
+  ],
+  [
+   22.506,
+   23.4303
+  ],
+  [
+   24.2848,
+   24.9397
+  ],
+  [
+   25.184,
+   26.3087
+  ],
+  [
+   27.1861,
+   30.3844
+  ],
+  [
+   30.6391,
+   32.0654
+  ],
+  [
+   32.9147,
+   34.0855
+  ],
+  [
+   34.945,
+   36.1681
+  ],
+  [
+   36.3722,
+   37.6135
+  ],
+  [
+   38.4595,
+   40.2705
+  ],
+  [
+   40.5792,
+   43.7811
+  ],
+  [
+   44.6287,
+   45.7305
+  ],
+  [
+   46.0678,
+   48.3769
+  ],
+  [
+   49.2429,
+   50.5857
+  ],
+  [
+   50.8715,
+   51.9757
+  ],
+  [
+   52.8135,
+   54.2243
+  ],
+  [
+   55.0855,
+   57.452
+  ],
+  [
+   58.3067,
+   59.3075
+  ],
+  [
+   60.1811,
+   60.9593
+  ],
+  [
+   61.1655,
+   62.8422
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Todo mundo j\u00e1 quis cavar um buraco at\u00e9 a China.",
+   "s": 0.165,
+   "e": 2.38
+  },
+  {
+   "text": "E se desse para atravessar a Terra inteira?",
+   "s": 3.249,
+   "e": 5.149
+  },
+  {
+   "text": "Primeira surpresa:",
+   "s": 6.01,
+   "e": 6.866
+  },
+  {
+   "text": "saindo do Brasil,",
+   "s": 7.154,
+   "e": 8.031
+  },
+  {
+   "text": "voc\u00ea n\u00e3o sairia na China.",
+   "s": 8.319,
+   "e": 9.631
+  },
+  {
+   "text": "Sairia no meio do oceano Pac\u00edfico,",
+   "s": 10.521,
+   "e": 12.446
+  },
+  {
+   "text": "perto do Jap\u00e3o.",
+   "s": 12.748,
+   "e": 13.503
+  },
+  {
+   "text": "Mas vamos cavar.",
+   "s": 14.349,
+   "e": 15.313
+  },
+  {
+   "text": "Depois da terra,",
+   "s": 16.132,
+   "e": 16.97
+  },
+  {
+   "text": "vem rocha dura,",
+   "s": 17.192,
+   "e": 17.969
+  },
+  {
+   "text": "cada vez mais quente.",
+   "s": 18.175,
+   "e": 19.273
+  },
+  {
+   "text": "O buraco mais fundo do mundo fica na R\u00fassia:",
+   "s": 20.141,
+   "e": 22.253
+  },
+  {
+   "text": "doze quil\u00f4metros.",
+   "s": 22.506,
+   "e": 23.43
+  },
+  {
+   "text": "L\u00e1 embaixo,",
+   "s": 24.285,
+   "e": 24.94
+  },
+  {
+   "text": "cento e oitenta graus.",
+   "s": 25.184,
+   "e": 26.309
+  },
+  {
+   "text": "Acontece que o centro da Terra fica a mais de seis mil quil\u00f4metros,",
+   "s": 27.186,
+   "e": 30.384
+  },
+  {
+   "text": "quase t\u00e3o quente quanto o Sol.",
+   "s": 30.639,
+   "e": 32.065
+  },
+  {
+   "text": "Nenhuma m\u00e1quina aguenta.",
+   "s": 32.915,
+   "e": 34.086
+  },
+  {
+   "text": "Mas imagine que desse,",
+   "s": 34.945,
+   "e": 36.168
+  },
+  {
+   "text": "e voc\u00ea pulasse no buraco.",
+   "s": 36.372,
+   "e": 37.614
+  },
+  {
+   "text": "Voc\u00ea cairia cada vez mais r\u00e1pido,",
+   "s": 38.459,
+   "e": 40.27
+  },
+  {
+   "text": "e passaria pelo centro do planeta a milhares de quil\u00f4metros por hora.",
+   "s": 40.579,
+   "e": 43.781
+  },
+  {
+   "text": "Depois iria freando,",
+   "s": 44.629,
+   "e": 45.73
+  },
+  {
+   "text": "e sairia do outro lado em uns quarenta minutos.",
+   "s": 46.068,
+   "e": 48.377
+  },
+  {
+   "text": "Mas se ningu\u00e9m te segurasse,",
+   "s": 49.243,
+   "e": 50.586
+  },
+  {
+   "text": "voc\u00ea cairia de volta.",
+   "s": 50.871,
+   "e": 51.976
+  },
+  {
+   "text": "Indo e voltando para sempre.",
+   "s": 52.813,
+   "e": 54.224
+  },
+  {
+   "text": "Os cientistas chamam isso de t\u00fanel da gravidade.",
+   "s": 55.086,
+   "e": 57.452
+  },
+  {
+   "text": "Ent\u00e3o guarda a p\u00e1.",
+   "s": 58.307,
+   "e": 59.307
+  },
+  {
+   "text": "Para ir ao Jap\u00e3o,",
+   "s": 60.181,
+   "e": 60.959
+  },
+  {
+   "text": "ainda vale mais comprar uma passagem.",
+   "s": 61.166,
+   "e": 62.842
+  }
+ ]
+}
