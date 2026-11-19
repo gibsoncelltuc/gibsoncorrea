@@ -9,5 +9,7 @@ cd "$(dirname "$0")"; mkdir -p logs
   [ -e node_modules/playwright ] || { mkdir -p node_modules; ln -sfn /usr/local/lib/node_modules_global/playwright node_modules/playwright; }
   PEND=$(grep -v '^#' queue.txt 2>/dev/null | awk 'NF{print $1}' | while read -r id; do [ -f stories/$id/DONE ] || echo $id; done | head -1)
   if [ -n "$PEND" ]; then echo "pendente: $PEND -> relancando fila"; nohup bash run_queue.sh >> logs/queue.log 2>&1 & else echo "nada pendente"; fi
+  BR=$(git -C .. rev-parse --abbrev-ref HEAD 2>/dev/null)   # WATCHDOG (19/11): nas sessoes A/B o sync da ferramenta volta sozinho apos reinicio
+  if [ "$BR" != "claude/bold-sagan-dskrsj" ] && ! pgrep -f "sync_ferramenta.sh" >/dev/null; then nohup bash -c 'while true; do ./sync_ferramenta.sh >> logs/sync.log 2>&1; sleep 600; done' > /dev/null 2>&1 & echo "sync automatico relancado"; fi
 } >> logs/boot.log 2>&1 &
 exit 0
