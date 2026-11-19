@@ -8,7 +8,7 @@
  "set": "countryside",
  "light": "day",
  "mood": "playful",
- "heroi": "kit/logs",
+ "heroi": "kit/scroll",
  "outfits": {
   "AME": {
    "profissao": "agricultor",
@@ -148,8 +148,8 @@
     ],
     [
      "kit/logs",
-     1.4,
-     0.5,
+     -2.5,
+     -1.0,
      1.0
     ]
    ],
@@ -183,15 +183,8 @@
      -1.0,
      -9.0,
      1.8
-    ],
-    [
-     "kit/logs",
-     1.4,
-     0.5,
-     1.0
     ]
-   ],
-   "detalhe": true
+   ]
   },
   {
    "shot": "crowd",
@@ -223,7 +216,8 @@
    ],
    "interacao": "empurrar",
    "say": "Acontece que um agente do Maine foi preso pelos ingleses, e o clima ficou perigoso.",
-   "set": "mountain"
+   "set": "mountain",
+   "props": []
   },
   {
    "shot": "two",
@@ -233,7 +227,16 @@
     "MIL:0:nervous"
    ],
    "interacao": "cochichar",
-   "say": "Mas ninguém queria uma guerra de verdade, então o governo mandou um general conversar."
+   "say": "Mas ninguém queria uma guerra de verdade, então o governo mandou um general conversar.",
+   "props": [
+    [
+     "kit/scroll",
+     1.3,
+     0.5,
+     1.0
+    ]
+   ],
+   "detalhe": true
   },
   {
    "shot": "two",
@@ -253,7 +256,15 @@
     "PRE:1:smile"
    ],
    "interacao": "entregar",
-   "say": "Alguns anos depois, um tratado dividiu a floresta, e a fronteira ficou definida."
+   "say": "Alguns anos depois, um tratado dividiu a floresta, e a fronteira ficou definida.",
+   "props": [
+    [
+     "kit/scroll",
+     1.3,
+     0.5,
+     1.0
+    ]
+   ]
   },
   {
    "shot": "close",

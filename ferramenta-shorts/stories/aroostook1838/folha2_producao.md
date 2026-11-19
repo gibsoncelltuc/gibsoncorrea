@@ -4,8 +4,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Uma guerra entre os Estados Unidos e a Inglaterra foi travada por lenh...
 - Cenario: countryside | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): AME (variante 0, expressao angry); CAN (variante 0, expressao angry)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/logs, nature/tree_pine
@@ -38,7 +38,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): AME (variante 0, expressao shout); CAN (variante 0, expressao angry)
 - Animacao: discutir | interacao: empurrar
-- Objetos/modelos: nature/tree_pine, kit/logs
+- Objetos/modelos: nature/tree_pine
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brigar, dois, lenhador
 - RISCOS: nenhum
 
@@ -68,7 +68,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): GEN (variante 0, expressao stern); MIL (variante 0, expressao nervous) | multidao: 18 de GEN/MIL
 - Animacao: conversar | batalha encenada
-- Objetos/modelos: -
+- Objetos/modelos: kit/scroll
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): general, governo
 - RISCOS: nenhum
 
@@ -107,22 +107,20 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/logs | b0, b2, b3, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/logs | b0, b2, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_pine | b0, b2, b3, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/bush | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/scroll | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/scroll | b6, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 pig | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/logs | grandes momentos: b4, b6 | planos abertos: 3 | mistura: close 23% | medio 63% | aberto 14% | detalhe 0%
+- Objeto heroi: kit/scroll | grandes momentos: b4, b6 | planos abertos: 3 | mistura: close 23% | medio 60% | aberto 14% | detalhe 3%
 - Interacoes: b0 discutir, b2 vai ate o outro, b3 empurrar, b5 empurrar, b7 entregar, b8 entregar
-- RISCOS GERAIS: 
-  - objeto heroi (kit/logs) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: objeto heroi (kit/logs) sem close de camera
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh aroostook1838 bN bM` (so essas cenas).

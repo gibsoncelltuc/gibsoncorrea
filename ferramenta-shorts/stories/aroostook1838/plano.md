@@ -13,5 +13,5 @@ b7 | two | -  | interior, objeto na mao | atirou (burst + som de tiro/explosao);
 b8 | two | -  | interior, objeto na mao | - | -
 b9 | close | -  | animais, interior | animal: pig come (acao + som de efeito) | -
 
-Mistura de planos: close 23% | medio 63% | aberto 14% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
+Mistura de planos: close 23% | medio 60% | aberto 14% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 3 | dentro do padrao do canal
