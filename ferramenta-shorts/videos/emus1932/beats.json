@@ -14,8 +14,8 @@
    "cap": "#8a7a50",
    "belt": "#4a3a24",
    "rifle": true,
-   "profissao": "general",
-   "uniforme_fixo": true
+   "uniforme_fixo": true,
+   "profissao": "general"
   },
   "FARM": {
    "jacket": "#7a9ac2",
@@ -199,7 +199,7 @@
    "tat": 8,
    "tstyle": "gold",
    "crowd": {
-    "n": 6,
+    "n": 4,
     "outfit": "AUS",
     "march": true
    }
@@ -240,7 +240,10 @@
    "text": "RECOMPENSA",
    "tat": 9,
    "light": "golden",
-   "interacao": "entregar"
+   "interacao": "entregar",
+   "emus": {
+    "n": 0
+   }
   },
   {
    "say": "Humanos, zero. Emus, um.",
