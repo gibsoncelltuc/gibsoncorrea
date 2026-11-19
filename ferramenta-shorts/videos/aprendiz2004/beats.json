@@ -62,7 +62,8 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Duas palavras transformaram um empresário de Nova York numa estrela mundial: você está demitido."
+   "say": "Duas palavras transformaram um empresário de Nova York numa estrela mundial: você está demitido.",
+   "set": "street"
   },
   {
    "shot": "reveal",
@@ -72,7 +73,8 @@
    ],
    "mapa": "ESTADOS UNIDOS",
    "mapa_at": 3,
-   "say": "Em janeiro de dois mil e quatro, estreou nos Estados Unidos o programa O Aprendiz."
+   "say": "Em janeiro de dois mil e quatro, estreou nos Estados Unidos o programa O Aprendiz.",
+   "set": "street"
   },
   {
    "shot": "two",
@@ -104,7 +106,8 @@
     "thump@40"
    ],
    "say": "Toda semana, as equipes tinham uma tarefa de negócios, como vender limonada na rua ou criar uma propaganda.",
-   "acao": "conversar"
+   "acao": "conversar",
+   "set": "street"
   },
   {
    "shot": "two",
@@ -174,7 +177,8 @@
    ],
    "text": "28 MILHÕES",
    "titulo": true,
-   "say": "A final da primeira temporada foi vista por cerca de vinte e oito milhões de americanos."
+   "say": "A final da primeira temporada foi vista por cerca de vinte e oito milhões de americanos.",
+   "set": "countryside"
   },
   {
    "shot": "group",
@@ -189,7 +193,8 @@
    "sfx": [
     "ding@30"
    ],
-   "acao": "conversar"
+   "acao": "conversar",
+   "set": "countryside"
   },
   {
    "shot": "reveal",
@@ -206,7 +211,7 @@
     "ding@30"
    ],
    "say": "O formato se espalhou pelo mundo. No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus.",
-   "set": "countryside"
+   "set": "street"
   },
   {
    "shot": "group",
