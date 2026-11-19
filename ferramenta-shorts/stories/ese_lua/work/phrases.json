@@ -1,0 +1,288 @@
+{
+ "duration": 61.392,
+ "frames30": 1842,
+ "source": "silence-align (cost 1.22)",
+ "segments": [
+  [
+   0.159042,
+   0.457875
+  ],
+  [
+   0.764958,
+   1.46517
+  ],
+  [
+   1.63967,
+   3.909
+  ],
+  [
+   4.7795,
+   6.49083
+  ],
+  [
+   7.34829,
+   8.39012
+  ],
+  [
+   8.65883,
+   9.74962
+  ],
+  [
+   10.6186,
+   11.2237
+  ],
+  [
+   11.4714,
+   11.8262
+  ],
+  [
+   12.6545,
+   14.3252
+  ],
+  [
+   15.2099,
+   15.8013
+  ],
+  [
+   16.0218,
+   18.199
+  ],
+  [
+   19.0738,
+   20.7121
+  ],
+  [
+   21.5588,
+   24.5925
+  ],
+  [
+   24.9002,
+   26.9469
+  ],
+  [
+   27.7962,
+   29.4917
+  ],
+  [
+   29.6954,
+   30.4678
+  ],
+  [
+   31.2645,
+   33.0919
+  ],
+  [
+   33.8828,
+   36.9113
+  ],
+  [
+   37.7861,
+   38.3698
+  ],
+  [
+   38.567,
+   39.4992
+  ],
+  [
+   39.7212,
+   41.2631
+  ],
+  [
+   41.5297,
+   43.4357
+  ],
+  [
+   44.2909,
+   46.3795
+  ],
+  [
+   46.6717,
+   48.2635
+  ],
+  [
+   48.4517,
+   49.0197
+  ],
+  [
+   49.8407,
+   50.6071
+  ],
+  [
+   50.8593,
+   51.751
+  ],
+  [
+   52.6182,
+   54.9271
+  ],
+  [
+   55.8032,
+   56.4397
+  ],
+  [
+   56.6561,
+   58.1407
+  ],
+  [
+   59.0247,
+   60.595
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "E se,",
+   "s": 0.159,
+   "e": 0.458
+  },
+  {
+   "text": "hoje \u00e0 noite,",
+   "s": 0.765,
+   "e": 1.465
+  },
+  {
+   "text": "a Lua simplesmente desaparecesse do c\u00e9u?",
+   "s": 1.64,
+   "e": 3.909
+  },
+  {
+   "text": "A primeira mudan\u00e7a seria a escurid\u00e3o.",
+   "s": 4.779,
+   "e": 6.491
+  },
+  {
+   "text": "Noite de lua cheia,",
+   "s": 7.348,
+   "e": 8.39
+  },
+  {
+   "text": "preta como uma caverna.",
+   "s": 8.659,
+   "e": 9.75
+  },
+  {
+   "text": "A segunda,",
+   "s": 10.619,
+   "e": 11.224
+  },
+  {
+   "text": "no mar.",
+   "s": 11.471,
+   "e": 11.826
+  },
+  {
+   "text": "Quem mais puxa as mar\u00e9s \u00e9 a Lua.",
+   "s": 12.655,
+   "e": 14.325
+  },
+  {
+   "text": "Sem ela,",
+   "s": 15.21,
+   "e": 15.801
+  },
+  {
+   "text": "as mar\u00e9s perderiam mais da metade da for\u00e7a.",
+   "s": 16.022,
+   "e": 18.199
+  },
+  {
+   "text": "S\u00f3 o Sol continuaria puxando.",
+   "s": 19.074,
+   "e": 20.712
+  },
+  {
+   "text": "Bichos da praia que vivem do sobe e desce da \u00e1gua iam sofrer,",
+   "s": 21.559,
+   "e": 24.593
+  },
+  {
+   "text": "e muitos animais iam se perder no escuro.",
+   "s": 24.9,
+   "e": 26.947
+  },
+  {
+   "text": "O mundo inteiro olharia para cima,",
+   "s": 27.796,
+   "e": 29.492
+  },
+  {
+   "text": "sem acreditar.",
+   "s": 29.695,
+   "e": 30.468
+  },
+  {
+   "text": "Acontece que o pior viria devagar.",
+   "s": 31.265,
+   "e": 33.092
+  },
+  {
+   "text": "A Lua funciona como um peso que mant\u00e9m a Terra girando firme.",
+   "s": 33.883,
+   "e": 36.911
+  },
+  {
+   "text": "Sem ela,",
+   "s": 37.786,
+   "e": 38.37
+  },
+  {
+   "text": "em milh\u00f5es de anos,",
+   "s": 38.567,
+   "e": 39.499
+  },
+  {
+   "text": "o eixo do planeta iria balan\u00e7ar,",
+   "s": 39.721,
+   "e": 41.263
+  },
+  {
+   "text": "e as esta\u00e7\u00f5es podiam ficar extremas.",
+   "s": 41.53,
+   "e": 43.436
+  },
+  {
+   "text": "E os dias parariam de ficar mais compridos,",
+   "s": 44.291,
+   "e": 46.38
+  },
+  {
+   "text": "porque \u00e9 a Lua que freia a Terra,",
+   "s": 46.672,
+   "e": 48.264
+  },
+  {
+   "text": "bem devagar.",
+   "s": 48.452,
+   "e": 49.02
+  },
+  {
+   "text": "Boa not\u00edcia:",
+   "s": 49.841,
+   "e": 50.607
+  },
+  {
+   "text": "ela n\u00e3o vai embora.",
+   "s": 50.859,
+   "e": 51.751
+  },
+  {
+   "text": "S\u00f3 se afasta uns quatro cent\u00edmetros por ano.",
+   "s": 52.618,
+   "e": 54.927
+  },
+  {
+   "text": "Ent\u00e3o hoje,",
+   "s": 55.803,
+   "e": 56.44
+  },
+  {
+   "text": "olha para cima e agradece.",
+   "s": 56.656,
+   "e": 58.141
+  },
+  {
+   "text": "Ela trabalha mais do que parece.",
+   "s": 59.025,
+   "e": 60.595
+  }
+ ]
+}
