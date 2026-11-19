@@ -37,7 +37,6 @@ gibber(F(_A[10] + int((_A[11] - _A[10]) * 0.2)), 4, 200, 0.12); gibber(F(_A[10] 
 ding(F(int(_W(4))))
 ding(F(int(_W(4))))
 ding(F(int(_W(28))))
-ding(F(int(_W(28))))
 ding(F(int(_W(72))))
 ding(F(int(_W(72))))
 ding(F(int(_W(117))))

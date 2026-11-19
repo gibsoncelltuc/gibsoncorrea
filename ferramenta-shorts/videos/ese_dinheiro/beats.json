@@ -75,7 +75,8 @@
     "sting@30"
    ],
    "say": "Primeira manhã: você chega na padaria e não tem como pagar o café.",
-   "detalhe": false
+   "detalhe": false,
+   "encena": false
   },
   {
    "shot": "two",
@@ -127,22 +128,16 @@
    "set": "harbor",
    "props": [
     [
+     "kit/marco_yap",
+     1.2,
+     -0.8,
+     1.0
+    ],
+    [
      "nature/rocks",
-     -2.0,
+     -2.2,
      -3.0,
-     3.2
-    ],
-    [
-     "nature/rocks",
-     2.2,
-     -4.0,
-     3.6
-    ],
-    [
-     "kit/coin",
-     1.6,
-     -0.6,
-     2.2
+     3.0
     ]
    ]
   },
@@ -154,16 +149,16 @@
    ],
    "props": [
     [
-     "nature/rocks",
-     1.8,
-     -1.6,
-     2.4
+     "kit/marco_yap",
+     -1.5,
+     -0.7,
+     1.1
     ],
     [
      "kit/coin",
-     -1.7,
+     1.7,
      -0.4,
-     1.8
+     1.4
     ]
    ],
    "interacao": "cochichar",
@@ -220,9 +215,15 @@
    ],
    "props": [
     [
-     "kit/coin",
+     "kit/chest",
      1.6,
-     -0.8,
+     -0.5,
+     1.2
+    ],
+    [
+     "kit/postit",
+     -1.6,
+     -0.5,
      1.0
     ]
    ],
@@ -240,7 +241,21 @@
    "sfx": [
     "sting@20"
    ],
-   "say": "Isso já aconteceu em prisões e em guerras: quando o dinheiro some, as pessoas inventam outro."
+   "say": "Isso já aconteceu em prisões e em guerras: quando o dinheiro some, as pessoas inventam outro.",
+   "props": [
+    [
+     "kit/prison_mini",
+     1.5,
+     -0.6,
+     1.0
+    ],
+    [
+     "war/cannonballs",
+     -1.6,
+     -0.4,
+     1.0
+    ]
+   ]
   },
   {
    "shot": "crowd",

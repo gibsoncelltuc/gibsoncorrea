@@ -3,7 +3,7 @@
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
 b0 | two | -  | interior, placa: E SE... | dinheiro (stars + som de sino); encena: paga (reach) (acao + som de efeito) | -
-b1 | two | -  | interior | pagar (stars + som de sino); encena: paga (reach) (acao + som de efeito) | -
+b1 | two | -  | interior | pagar (stars + som de sino) | -
 b2 | two | -  | animais | - | -
 b3 | low | -  | animais | - | -
 b4 | wide | -  | tropa, mapa | dinheiro (stars + som de sino); encena: paga (reach) (acao + som de efeito) | -
@@ -14,5 +14,5 @@ b8 | close | -  | - | dinheiro (stars + som de sino); encena: paga (reach) (acao
 b9 | orbit | -  | batalha aberta com tiros, tropa, placa: DINHEIRO | dinheiro (stars + som de sino); encena: paga (reach) (acao + som de efeito) | -
 b10 | close | -  | - | - | -
 
-Mistura de planos: close 31% | medio 50% | aberto 15% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 28% | medio 50% | aberto 15% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

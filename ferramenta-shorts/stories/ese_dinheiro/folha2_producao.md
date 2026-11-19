@@ -48,7 +48,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao surprised); POV (variante 1, expressao grin) | multidao: 6 de POV
 - Animacao: encena
-- Objetos/modelos: nature/rocks, kit/coin, kit/marco_yap
+- Objetos/modelos: kit/marco_yap, nature/rocks
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dinheiro, ilha, pacifico, povos
 - RISCOS: nenhum
 
@@ -58,7 +58,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): PRO (variante 0, expressao smug, segura paper); POV (variante 0, expressao surprised) | multidao: 30 de POV
 - Animacao: conversar | interacao: cochichar
-- Objetos/modelos: nature/rocks, kit/coin, kit/marco_yap
+- Objetos/modelos: kit/marco_yap, kit/coin
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dono, lugar
 - RISCOS: nenhum
 
@@ -78,17 +78,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): PRO (variante 0, expressao stern); POV (variante 1, expressao suspicious)
 - Animacao: conversar | interacao: vai ate o outro
-- Objetos/modelos: kit/coin, kit/marco_yap
+- Objetos/modelos: kit/chest, kit/postit, kit/marco_yap
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): novo
 - RISCOS: nenhum
 
 ## Cena b8 - Isso já aconteceu em prisões e em guerras: quando o dinheiro some, as ...
 - Cenario: street | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): PRO (variante 0, expressao shock)
 - Animacao: reagir
-- Objetos/modelos: kit/marco_yap
+- Objetos/modelos: kit/prison_mini, war/cannonballs, kit/marco_yap
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dinheiro, pessoas
 - RISCOS: nenhum
 
@@ -117,18 +117,22 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/coin | b0, b4, b5, b7, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/coin | b0, b5, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/cake_table | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_yap | b2, b3, b4, b5, b6, b7, b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 chicken | b2, b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/rocks | b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/rocks | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/stall | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/fountain | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/bench | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/chest | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/postit | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/prison_mini | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+war/cannonballs | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/coin | grandes momentos: b6, b9 | planos abertos: 3 | mistura: close 31% | medio 50% | aberto 15% | detalhe 5%
+- Objeto heroi: kit/coin | grandes momentos: b6, b9 | planos abertos: 3 | mistura: close 28% | medio 50% | aberto 15% | detalhe 7%
 - Interacoes: b0 entregar, b1 discutir, b2 entregar, b3 o outro se aproxima, b5 cochichar, b7 vai ate o outro
 - RISCOS GERAIS: nenhum
 
