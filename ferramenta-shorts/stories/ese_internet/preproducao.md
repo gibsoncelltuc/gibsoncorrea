@@ -8,7 +8,7 @@ b0 | street | two | 2 | reagir, INTERAGEM: aproxima-se | kit/phone | - | -
 b1 | street | reveal | 8 | reagir | - | - | -
 b2 | street | two | 2 | discutir, INTERAGEM: discutir | kit/phone | - | -
 b3 | street | crowd | 23 | batalha | vehicles/airplane, kit/miners | - | -
-b4 | interior loja | two | 2 | reagir, INTERAGEM: discutir | kit/phone | - | -
+b4 | interior loja | two | 2 | reagir, INTERAGEM: discutir | kit/coin, kit/phone | - | -
 b5 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua | - | paper | -
 b6 | street | low | 1 | conversar | kit/phone | - | -
 b7 | street | two | 2 | conversar, INTERAGEM: entregar | kit/ball | - | -

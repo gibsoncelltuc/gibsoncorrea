@@ -44,11 +44,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - Agora imagina o mundo todo. Sem pagamento pelo celular, sem cartão. Só...
 - Cenario: interior loja | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): CAI (variante 0, expressao nervous); POV (variante 0, expressao angry)
 - Animacao: reagir | interacao: discutir
-- Objetos/modelos: kit/phone
+- Objetos/modelos: kit/coin, kit/phone
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): papel
 - RISCOS: nenhum
 
@@ -64,8 +64,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Acontece que o mais estranho seria outra coisa: bilhões de pessoas sem...
 - Cenario: street | luz: day | clima: limpo
-- Camera: low = camera baixa, dramatica (virada)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Camera: low = camera baixa, dramatica (virada) + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): PRO (variante 0, expressao smug)
 - Animacao: conversar
 - Objetos/modelos: kit/phone
@@ -120,11 +120,12 @@ Objeto | Cenas | Situacao | O que fazer
 kit/phone | b0, b2, b4, b6, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 vehicles/airplane | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/miners | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/coin | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/ball | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/phone | grandes momentos: b3, b9 | planos abertos: 3 | mistura: close 23% | medio 59% | aberto 10% | detalhe 8%
+- Objeto heroi: kit/phone | grandes momentos: b3, b9 | planos abertos: 3 | mistura: close 20% | medio 62% | aberto 10% | detalhe 9%
 - Interacoes: b0 aproxima-se, b2 discutir, b4 discutir, b5 avanca e o outro recua, b7 entregar, b8 o outro se aproxima
 - RISCOS GERAIS: nenhum
 
