@@ -32,21 +32,21 @@
    "f": 1229,
    "shot": "b6_v",
    "why": [
-    "emu: head/torso cropped (box 0.924, 0.574, 1.98, 1.184)"
+    "emu: head/torso cropped (box 0.706, 0.574, 1.683, 1.193)"
    ]
   },
   {
    "f": 1232,
    "shot": "b6_v",
    "why": [
-    "emu: head/torso cropped (box 0.92, 0.576, 1.962, 1.176)"
+    "emu: head/torso cropped (box 0.704, 0.576, 1.668, 1.185)"
    ]
   },
   {
    "f": 1236,
    "shot": "b6_v",
    "why": [
-    "emu: head/torso cropped (box 0.899, 0.571, 1.863, 1.129)"
+    "emu: head/torso cropped (box 0.693, 0.572, 1.588, 1.137)"
    ]
   },
   {
@@ -54,48 +54,6 @@
    "shot": "b6_v",
    "why": [
     "aus: head/torso cropped (box 0.764, 0.478, 1.115, 1.073)"
-   ]
-  },
-  {
-   "f": 1760,
-   "shot": "b9_d",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1761,
-   "shot": "b9_d",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1764,
-   "shot": "b9_d",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1768,
-   "shot": "b9_d",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1772,
-   "shot": "b9_d",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1776,
-   "shot": "b9_d",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
    ]
   },
   {
@@ -116,28 +74,28 @@
    "f": 1785,
    "shot": "b9_v",
    "why": [
-    "emu: head/torso cropped (box 0.795, 0.565, 1.808, 1.187)"
+    "emu: head/torso cropped (box 0.365, 0.565, 1.236, 1.204)"
    ]
   },
   {
    "f": 1788,
    "shot": "b9_v",
    "why": [
-    "emu: head/torso cropped (box 0.792, 0.565, 1.796, 1.179)"
+    "emu: head/torso cropped (box 0.366, 0.566, 1.226, 1.194)"
    ]
   },
   {
    "f": 1792,
    "shot": "b9_v",
    "why": [
-    "emu: head/torso cropped (box 0.779, 0.56, 1.73, 1.139)"
+    "emu: head/torso cropped (box 0.372, 0.562, 1.174, 1.144)"
    ]
   },
   {
    "f": 1796,
    "shot": "b9_v",
    "why": [
-    "farm: head/torso cropped (box 0.771, 0.517, 1.086, 1.089)"
+    "farm: head/torso cropped (box 0.757, 0.526, 1.053, 1.064)"
    ]
   }
  ],
