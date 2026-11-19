@@ -41,11 +41,13 @@
    "build": "stout"
   },
   "SOL": {
-   "jacket": "#5d7a3a",
-   "pants": "#4a5a2a",
+   "jacket": "#6a6a48",
+   "pants": "#4a4a30",
    "boots": "#2a2218",
-   "hat": "helmet",
-   "rifle": true
+   "hat": "cap",
+   "cap": "#5a5a3c",
+   "rifle": true,
+   "uniforme_fixo": true
   }
  },
  "beats": [
@@ -129,8 +131,8 @@
   {
    "shot": "crowd",
    "who": [
-    "TOR:0:angry",
-    "TOR:1:shout"
+    "SOL:0:angry",
+    "TOR:0:shout"
    ],
    "say": "No segundo, El Salvador revidou. Torcedores brigaram nas ruas, e os dois governos trocaram insultos.",
    "hora": "dia",

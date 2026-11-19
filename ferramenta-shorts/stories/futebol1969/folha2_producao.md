@@ -46,7 +46,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: dia | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): TOR (variante 0, expressao angry); TOR (variante 1, expressao shout) | multidao: 16 de TOR/HON
+- Personagens principais (2): SOL (variante 0, expressao angry); TOR (variante 0, expressao shout) | multidao: 16 de TOR/HON
 - Animacao: discutir | batalha encenada
 - Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, ruas
