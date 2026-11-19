@@ -793,6 +793,8 @@ def build_beat(k, b):
             _w_alert = _af(r'^(assustou|assustado|assustada|espantou|latiu|latia|grunhiu|mugiu|berrou|uivou)$')
             _seq = sorted([(w_, s_) for w_, s_ in ((_w_come, 'root' if key == 'animal' else 'peck'), (_w_tiro, 'fall'), (_w_alert, 'alert'), (_w_foge, 'trot')) if w_ is not None])
             if _w_tiro is not None: _seq = [x_ for x_ in _seq if x_[0] <= _w_tiro or x_[1] == 'fall']
+            if _w_tiro is not None: STATE.setdefault('mortos', set()).add(sp)   # o animal que levou o tiro fica caido nas cenas seguintes (coerencia da historia)
+            elif sp in STATE.get('mortos', set()): _seq = []; _w_entra = _w_foge = None; st = 'fall'
             _st0 = 'trot' if _w_entra is not None else st
             _stjs = json.dumps(_st0) if not _seq else "(f) => " + ''.join(f"f >= WS({w_}) ? {json.dumps(s_)} : " for w_, s_ in sorted(_seq, reverse=True)) + (f"f >= WS({_w_entra}) + 40 ? 'stand' : 'trot'" if _w_entra is not None else json.dumps(st))
             _mvjs = ''
