@@ -89,7 +89,8 @@
      1.0
     ]
    ],
-   "text": "X"
+   "text": "X",
+   "set": "street"
   },
   {
    "tiros": false,
@@ -102,7 +103,8 @@
     "OPE:0:shock"
    ],
    "mapa": "SÃO FRANCISCO",
-   "mapa_at": 1
+   "mapa_at": 1,
+   "interior": "pedra"
   },
   {
    "tiros": false,
@@ -126,7 +128,8 @@
    ],
    "sfx": [
     "thump@40"
-   ]
+   ],
+   "set": "street"
   },
   {
    "tiros": false,
@@ -137,7 +140,8 @@
    "who": [
     "OPE:0:shock",
     "FIS:0:stern"
-   ]
+   ],
+   "interior": "loja"
   },
   {
    "tiros": false,
@@ -156,7 +160,8 @@
      1.0
     ]
    ],
-   "text": "E R"
+   "text": "E R",
+   "set": "street"
   },
   {
    "tiros": false,
@@ -179,7 +184,8 @@
    ],
    "sfx": [
     "sting@40"
-   ]
+   ],
+   "set": "street"
   },
   {
    "tiros": false,
@@ -190,7 +196,8 @@
    "who": [
     "FIS:0:angry",
     "MUS:0:worried"
-   ]
+   ],
+   "interior": "pedra"
   },
   {
    "tiros": false,
@@ -201,7 +208,8 @@
    "who": [
     "MUS:0:smug",
     "FIS:0:suspicious"
-   ]
+   ],
+   "interior": "loja"
   },
   {
    "tiros": false,
@@ -212,7 +220,8 @@
    "who": [
     "FIS:0:shock",
     "OPE:0:laugh"
-   ]
+   ],
+   "set": "street"
   },
   {
    "tiros": false,
@@ -230,7 +239,8 @@
      1.2,
      1.0
     ]
-   ]
+   ],
+   "set": "harbor"
   }
  ],
  "exp": 1.0,
@@ -238,5 +248,7 @@
   "https://english.alarabiya.net/News/world/2023/08/01/-X-sign-removed-from-San-Francisco-building-that-was-Twitter-s-headquarters",
   "https://www.thewrap.com/x-headquarters-loses-sign/",
   "https://www.ktvu.com/news/confusion-during-removal-of-twitter-sign-from-san-francisco-headquarters"
- ]
+ ],
+ "ano": 2023,
+ "regiao": "eua"
 }

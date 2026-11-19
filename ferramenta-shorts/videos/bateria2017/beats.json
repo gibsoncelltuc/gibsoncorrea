@@ -73,7 +73,8 @@
      1.1,
      0.55
     ]
-   ]
+   ],
+   "interior": "loja"
   },
   {
    "tiros": false,
@@ -95,7 +96,8 @@
      -6.0,
      1.8
     ]
-   ]
+   ],
+   "set": "outback"
   },
   {
    "tiros": false,
@@ -134,7 +136,8 @@
      -8.0,
      2.0
     ]
-   ]
+   ],
+   "set": "outback"
   },
   {
    "tiros": false,
@@ -153,7 +156,8 @@
      0.4,
      0.6
     ]
-   ]
+   ],
+   "interior": "pedra"
   },
   {
    "tiros": false,
@@ -196,7 +200,8 @@
      -6.0,
      2.0
     ]
-   ]
+   ],
+   "set": "outback"
   },
   {
    "tiros": false,
@@ -217,7 +222,8 @@
      0.5,
      0.6
     ]
-   ]
+   ],
+   "set": "outback"
   },
   {
    "tiros": false,
@@ -228,7 +234,8 @@
    "who": [
     "CAN:0:laugh",
     "MUS:0:smug"
-   ]
+   ],
+   "interior": "loja"
   },
   {
    "tiros": false,
@@ -246,7 +253,8 @@
      1.1,
      0.55
     ]
-   ]
+   ],
+   "set": "outback"
   },
   {
    "tiros": false,
@@ -265,7 +273,8 @@
      0.4,
      0.6
     ]
-   ]
+   ],
+   "set": "countryside"
   },
   {
    "tiros": false,
@@ -284,7 +293,8 @@
      1.1,
      0.55
     ]
-   ]
+   ],
+   "set": "countryside"
   }
  ],
  "exp": 1.0,
@@ -294,5 +304,6 @@
   "https://www.geekwire.com/2017/elon-musk-touts-teslas-plan-build-worlds-biggest-battery-100-days/",
   "https://www.ecowatch.com/tesla-worlds-largest-battery-2512145319.html"
  ],
- "light": "golden"
+ "light": "golden",
+ "ano": 2017
 }

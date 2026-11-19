@@ -14,10 +14,11 @@
    "jacket": "#22252c",
    "pants": "#2a2d33",
    "boots": "#f4f1e8",
-   "hat": "cap",
-   "cap": "#f4f1e8",
+   "hat": "hair",
    "beard": "#2a201a",
-   "pele": "#e8c8a8"
+   "pele": "#e8c8a8",
+   "hair": "#1a1410",
+   "fixo": true
   },
   "JOR": {
    "jacket": "#4a6a9a",
@@ -65,7 +66,8 @@
     ]
    ],
    "mapa": "EL SALVADOR",
-   "mapa_at": 1
+   "mapa_at": 1,
+   "interior": "pedra"
   },
   {
    "tiros": false,
@@ -84,7 +86,8 @@
    },
    "sfx": [
     "gibber@10"
-   ]
+   ],
+   "set": "street"
   },
   {
    "tiros": false,
@@ -109,7 +112,8 @@
    ],
    "sfx": [
     "ding@8"
-   ]
+   ],
+   "interior": "pedra"
   },
   {
    "tiros": false,
@@ -128,7 +132,8 @@
    ],
    "sfx": [
     "sting@30"
-   ]
+   ],
+   "interior": "loja"
   },
   {
    "tiros": false,
@@ -146,7 +151,8 @@
     ]
    },
    "mapa": "MUNDO",
-   "mapa_at": 1
+   "mapa_at": 1,
+   "set": "street"
   },
   {
    "tiros": false,
@@ -165,7 +171,8 @@
      0.3,
      1.2
     ]
-   ]
+   ],
+   "set": "street"
   },
   {
    "tiros": false,
@@ -176,7 +183,8 @@
    "who": [
     "JOR:0:suspicious",
     "BUK:0:smug"
-   ]
+   ],
+   "interior": "loja"
   },
   {
    "tiros": false,
@@ -202,7 +210,8 @@
    "sfx": [
     "ding@8"
    ],
-   "riscos_ok": true
+   "riscos_ok": true,
+   "interior": "pedra"
   },
   {
    "tiros": false,
@@ -213,7 +222,8 @@
    "who": [
     "BUK:0:laugh",
     "JOR2:0:suspicious"
-   ]
+   ],
+   "interior": "loja"
   },
   {
    "tiros": false,
@@ -231,7 +241,8 @@
      1.2,
      1.0
     ]
-   ]
+   ],
+   "set": "street"
   }
  ],
  "exp": 1.0,
@@ -239,5 +250,7 @@
   "https://news.yahoo.com/el-salvadors-millennial-president-switched-043818079.html",
   "https://emisorasunidas.com/2021/09/21/bukele-descripcion-twitter-el-dictador-mas-cool/",
   "https://www.britannica.com/biography/Nayib-Bukele"
- ]
+ ],
+ "ano": 2021,
+ "regiao": "colonial"
 }

@@ -82,7 +82,8 @@
     ]
    ],
    "mapa": "NOVA YORK",
-   "mapa_at": 1
+   "mapa_at": 1,
+   "set": "street"
   },
   {
    "tiros": false,
@@ -94,7 +95,8 @@
     "FUN:0:grin",
     "TRU:0:smug"
    ],
-   "riscos_ok": true
+   "riscos_ok": true,
+   "interior": "pedra"
   },
   {
    "tiros": false,
@@ -118,7 +120,8 @@
    ],
    "sfx": [
     "sting@30"
-   ]
+   ],
+   "set": "street"
   },
   {
    "tiros": false,
@@ -137,7 +140,8 @@
      1.0
     ]
    ],
-   "riscos_ok": true
+   "riscos_ok": true,
+   "interior": "pedra"
   },
   {
    "tiros": false,
@@ -149,7 +153,8 @@
     "DIR:0:suspicious",
     "TRU:0:smug"
    ],
-   "riscos_ok": true
+   "riscos_ok": true,
+   "interior": "loja"
   },
   {
    "tiros": false,
@@ -173,7 +178,8 @@
    ],
    "sfx": [
     "sting@30"
-   ]
+   ],
+   "set": "street"
   },
   {
    "tiros": false,
@@ -184,7 +190,8 @@
    "who": [
     "TRU:0:suspicious",
     "DIR:0:shock"
-   ]
+   ],
+   "interior": "loja"
   },
   {
    "tiros": false,
@@ -205,7 +212,8 @@
     ]
    ],
    "mapa": "CANADÁ",
-   "mapa_at": 1
+   "mapa_at": 1,
+   "interior": "loja"
   },
   {
    "tiros": false,
@@ -221,7 +229,8 @@
     "outfits": [
      "POV"
     ]
-   }
+   },
+   "set": "street"
   },
   {
    "tiros": false,
@@ -239,7 +248,8 @@
      1.2,
      1.0
     ]
-   ]
+   ],
+   "set": "street"
   }
  ],
  "exp": 1.0,
@@ -247,5 +257,7 @@
   "https://www.thewrap.com/home-alone-2-lost-in-new-york-donald-trump-plaza-hotel-chris-columbus/",
   "https://www.thewrap.com/trump-home-alone-2-cameo-chris-columbus-response/",
   "https://salon.com/2023/12/28/donald-home-alone-2-bullied"
- ]
+ ],
+ "ano": 1992,
+ "regiao": "eua"
 }
