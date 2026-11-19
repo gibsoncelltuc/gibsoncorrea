@@ -132,13 +132,13 @@ for i in range(11):
     y = .35 + i * .12
     for j in range(15):
         x0 = -1.1 + j * .157
-        if math.hypot(x0 + .08 - .1, y - .95) < .34: continue                      # rasgo (buraco) no meio da rede
+        if math.hypot(x0 + .08 - .0, y - .62) < .42: continue                      # rasgo (buraco) no meio da rede
         cil(((x0 + .08), y, 0), .014, .157, CD, rot=(0, 0, math.pi / 2))
 for j in range(15):
     x = -1.1 + j * .157
     for i in range(10):
         y0 = .35 + i * .12 + .06
-        if math.hypot(x - .1, y0 - .95) < .34: continue
+        if math.hypot(x - .0, y0 - .62) < .42: continue
         cil((x, y0, 0), .014, .12, CD)
 for k in range(6): tubo([(-.1 + k * .09, .72, 0), (-.12 + k * .09, .55, .04 * (k % 2)), (-.08 + k * .09, .42, .02)], .012, CD)   # cabos cortados pendurados
 for j in range(8): bola((-1.0 + j * .3, 1.55, 0), .075, BO)                         # boias
