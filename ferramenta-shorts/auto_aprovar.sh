@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # AUTO-APROVACAO DE SEGURANCA (ordem do Gibson 19/11, para quando a cota do modelo acabar e ninguem olha o storyboard).
-# Loop (roda em segundo plano, sem token): a cada 2 min, para cada stories/<id>/AGUARDA_STORYBOARD parado ha mais de ESPERA_MIN (20) min
+# Loop (roda em segundo plano, sem token): a cada 2 min, para cada stories/<id>/AGUARDA_STORYBOARD parado ha mais de ESPERA_MIN (5) min
 # e que passe nas verificacoes AUTOMATICAS (folha 2 com 0 risco, verificar_execucao 100% acoes e cenario), aprova sozinho (aprovar_rapido.sh)
 # e marca stories/<id>/AUTO_APROVADO (o modelo REVE o video quando a cota voltar: conferir.sh + auditar_acoes.sh). Nunca aprova curie1898 nem ese_* (pausados).
-cd "$(dirname "$0")"; ESPERA_MIN=${ESPERA_MIN:-20}
+cd "$(dirname "$0")"; ESPERA_MIN=${ESPERA_MIN:-5}
 while true; do
   for f in stories/*/AGUARDA_STORYBOARD; do
     [ -e "$f" ] || continue; id=$(basename "$(dirname "$f")")
