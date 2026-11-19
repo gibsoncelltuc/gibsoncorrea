@@ -1,21 +1,21 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 01 - O Ditador Mais Legal do Mundo
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 10 cenas, 147 palavras (~51 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 10 cenas, 148 palavras (~51 s)
 
-## Cena b0  (~9.0 s)
-- Narracao: Em setembro de dois mil e vinte e um, o presidente de El Salvador, Nayib Bukele, trocou a descrição do próprio perfil, uma coisa bem pequena.
+## Cena b0  (~8.6 s)
+- Narracao: Em setembro de dois mil e vinte e um, o presidente de El Salvador, Nayib Bukele, usou o celular para trocar a descrição do perfil.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_fone (lift) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: EL SALVADOR
 - Funcao na historia: GANCHO
 
-## Cena b1  (~4.5 s)
-- Narracao: Poucos dias antes, milhares de pessoas tinham protestado nas ruas de San Salvador.
+## Cena b1  (~4.8 s)
+- Narracao: Poucos dias antes, milhares de pessoas gritaram em protesto nas ruas de San Salvador.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: gibber@10
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritaram -> ring + som de alerta; encena: grita (up) -> acao + som de efeito; encena: protesto (up) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -47,11 +47,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: - | mapa: MUNDO
 - Funcao na historia: VIRADA
 
-## Cena b5  (~5.9 s)
-- Narracao: Jornais de vários países publicaram a frase, e muita gente ficou discutindo se era piada ou não.
+## Cena b5  (~6.2 s)
+- Narracao: Um jornal de cada país publicou a frase, e muita gente ficou discutindo se era piada ou não.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_le (think) -> acao + som de efeito; encena: x_fone (lift) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

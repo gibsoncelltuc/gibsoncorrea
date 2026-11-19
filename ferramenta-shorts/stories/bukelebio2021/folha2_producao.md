@@ -9,15 +9,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Personagens principais (1): BUK (variante 0, expressao smug)
 - Animacao: conversar
 - Objetos/modelos: kit/phone
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): descricao, dois, presidente, proprio
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): celular, descricao, dois, perfil, presidente
 - RISCOS: nenhum
 
-## Cena b1 - Poucos dias antes, milhares de pessoas tinham protestado nas ruas de S...
+## Cena b1 - Poucos dias antes, milhares de pessoas gritaram em protesto nas ruas d...
 - Cenario: street | luz: golden | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (1): BUK (variante 0, expressao worried) | multidao: 30 de POV
-- Animacao: - | batalha encenada
+- Animacao: encena | batalha encenada
 - Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pessoas, ruas
 - RISCOS: nenhum
@@ -52,14 +52,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): noticia
 - RISCOS: nenhum
 
-## Cena b5 - Jornais de vários países publicaram a frase, e muita gente ficou discu...
+## Cena b5 - Um jornal de cada país publicou a frase, e muita gente ficou discutind...
 - Cenario: street | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): JOR (variante 0, expressao shock); JOR2 (variante 0, expressao suspicious)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/phone, kit/volcano
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frase, varios
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cada, frase, jornal
 - RISCOS: nenhum
 
 ## Cena b6 - Vários comentaristas leram aquilo como uma ironia, feita para os críti...
@@ -112,7 +112,7 @@ kit/volcano | b1, b4, b5, b9 | pronto | conferir na folha de contato se le bem; 
 
 
 ## Video inteiro
-- Objeto heroi: kit/phone | grandes momentos: b1, b3 | planos abertos: 2 | mistura: close 49% | medio 42% | aberto 6% | detalhe 3%
+- Objeto heroi: kit/phone | grandes momentos: b1, b3 | planos abertos: 2 | mistura: close 48% | medio 43% | aberto 6% | detalhe 3%
 - Interacoes: b3 entregar, b5 discutir, b6 insiste, b8 vai ate o outro
 - RISCOS GERAIS: nenhum
 

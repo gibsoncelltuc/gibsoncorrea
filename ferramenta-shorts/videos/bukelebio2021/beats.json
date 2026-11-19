@@ -53,7 +53,7 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Em setembro de dois mil e vinte e um, o presidente de El Salvador, Nayib Bukele, trocou a descrição do próprio perfil, uma coisa bem pequena.",
+   "say": "Em setembro de dois mil e vinte e um, o presidente de El Salvador, Nayib Bukele, usou o celular para trocar a descrição do perfil.",
    "shot": "close",
    "who": [
     "BUK:0:smug"
@@ -74,7 +74,7 @@
    "tiros": false,
    "batalha": false,
    "impact": true,
-   "say": "Poucos dias antes, milhares de pessoas tinham protestado nas ruas de San Salvador.",
+   "say": "Poucos dias antes, milhares de pessoas gritaram em protesto nas ruas de San Salvador.",
    "shot": "crowd",
    "who": [
     "BUK:0:worried"
@@ -159,7 +159,7 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Jornais de vários países publicaram a frase, e muita gente ficou discutindo se era piada ou não.",
+   "say": "Um jornal de cada país publicou a frase, e muita gente ficou discutindo se era piada ou não.",
    "shot": "two",
    "who": [
     "JOR:0:shock",
