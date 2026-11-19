@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b3  (~4.8 s)
 - Narracao: Cachorros e gatos de estimação teriam que se virar sozinhos. Muitos voltariam a caçar.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b5  (~5.2 s)
 - Narracao: Em vinte anos, as ruas virariam florestas. Veados e lobos andariam pelo meio das avenidas.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: ding@20, whoosh@50
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20, puff@50
@@ -58,16 +58,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b6  (~5.9 s)
 - Narracao: Acontece que, em algumas centenas de anos, até as grandes pontes de aço cairiam, comidas pela ferrugem.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: cannon@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: desaba -> acao + som de efeito
 - Efeito visual marcado: burst@30
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
 ## Cena b7  (~6.2 s)
 - Narracao: O que sobraria? Construções de pedra, como as pirâmides, que já resistem há mais de quatro mil anos.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: ding@40
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@40
@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b9  (~4.5 s)
 - Narracao: Em pouco tempo, a natureza tomaria de volta quase tudo o que construímos.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@30

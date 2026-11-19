@@ -49,7 +49,7 @@ _EXPL = {i_ for i_, b_ in enumerate(B['beats']) if b_.get('set') or b_.get('inte
 _LUGAR = ((r'desert|areia|egito|egipci|piramide|arabia|saara|australia|faraó|farao|seca\b|caravana', 'set', 'outback'),
           (r'florest|selva|amazon|\bmata\b|tribo|aldeia|indigena', 'set', 'jungle'),
           (r'castelo|cavaleir|medieval|reino\b|rainha|imperador|\bcorte\b|trono', 'set', 'medieval'),
-          (r'estadio|torcida|futebol|\bpartida\b|ringue|\bluta\b|campeonato|\bcopa\b|lutador', 'set', 'stadium'),
+          (r'estadio|torcida|futebol|\bpartida\b|ringue|\bluta\b|campeonato|\bcopa\b|lutador|\bjuiz\b|\bgolpe\b|\barena\b|plateia|nocaute', 'set', 'stadium'),
           (r'fazenda|\bcampo\b|plantac|colheit|lavoura|agricult|\bsitio\b|pasto', 'set', 'countryside'),
           (r'palacio|congresso|parlamento|\bonu\b|assembleia|tribunal|senado|discurso|coletiva|casa branca|gabinete', 'interior', 'pedra'),
           (r'hospital|enfermaria|pronto.socorro|\buti\b|internad|cirurgia|\bmaca\b|leito|maternidade|clinica|paciente|enfermeir|parteir|\bparto\b', 'interior', 'hospital'),
@@ -126,24 +126,38 @@ if REGIAO in _REG_N:
     _regmap['buildings/castle_tower'] = [_ks[-1]]
     if REGIAO not in ('holanda', 'europa'): _regmap['buildings/windmill'] = [_ks[0]]
 # ===== MARCOS DO LUGAR (19/11): a historia no Egito tem as piramides ao fundo, no Cabo Canaveral a plataforma de lancamento... =====
-_MARCOS = ((r'cabo canaveral|plataforma de lancamento|base de lancamento|kennedy space', 'kit/marco_canaveral', 16, -42, 1.0),
+_MARCOS = ((r'cabo canaveral|plataforma de lancamento|base de lancamento|kennedy space|falcon|foguete da spacex', 'kit/marco_canaveral', 16, -42, 1.0),
+           (r'starbase|boca chica|mechazilla', 'kit/tower', 18, -60, 4.0),
+           (r'alexandria|eratostenes', 'kit/marco_alexandria', 20, -80, 1.0),
            (r'piramide|egito|egipc|\bgize\b|farao|\bcairo\b|esfinge', 'kit/marco_piramides', 22, -78, 1.6),
-           (r'londres|big ben|tamisa', 'kit/marco_bigben', 16, -58, 1.0), (r'\bparis\b|torre eiffel', 'kit/marco_eiffel', 18, -66, 1.1),
+           (r'londres|big ben|tamisa', 'kit/marco_bigben', 16, -58, 1.0),
+           (r'versalhes|versailles|maria antonieta|luis xvi|montgolfier', 'kit/marco_versalhes', 0, -90, 1.0),
+           (r'\bparis\b|torre eiffel', 'kit/marco_eiffel', 18, -66, 1.1), (r'\bparis\b|notre.dame', 'kit/marco_notredame', 18, -70, 1.0),
+           (r'\bonu\b|nacoes unidas', 'kit/marco_onu', 20, -110, 0.7),
+           (r'trump tower|o aprendiz', 'kit/marco_trumptower', 18, -90, 0.8),
            (r'nova york|estatua da liberdade|manhattan', 'kit/marco_liberdade', 20, -70, 1.0), (r'\broma\b|coliseu|gladiador', 'kit/marco_coliseu', 0, -82, 1.0),
            (r'rio de janeiro|cristo redentor|corcovado', 'kit/marco_cristo', 24, -96, 1.2),
            (r'casa branca|washington|presidente dos estados unidos|presidente americano|biden|obama', 'kit/marco_casabranca', 18, -70, 1.0),
-           (r'capitolio|congresso americano', 'kit/marco_capitolio', 18, -80, 1.0), (r'hollywood', 'kit/marco_hollywood', 0, -110, 1.0),
-           (r'sao francisco|san francisco|golden gate', 'kit/marco_goldengate', 0, -120, 1.0), (r'\bberlim|brandemburgo', 'kit/marco_brandemburgo', 18, -70, 1.0),
-           (r'\bpisa\b|toscana|florenca', 'kit/marco_pisa', 20, -70, 1.0), (r'\bviena\b', 'kit/marco_viena', 20, -80, 1.0), (r'bruxelas', 'kit/marco_atomium', 20, -80, 1.0),
+           (r'capitolio|congresso americano', 'kit/marco_capitolio', 18, -80, 1.0), (r'hollywood|los angeles', 'kit/marco_hollywood', 0, -110, 1.0),
+           (r'sao francisco|san francisco|golden gate|vale do silicio|palo alto|twitter', 'kit/marco_goldengate', 0, -120, 1.0), (r'\bberlim|brandemburgo', 'kit/marco_brandemburgo', 18, -70, 1.0),
+           (r'\bpisa\b|toscana|florenca', 'kit/marco_pisa', 20, -70, 1.0), (r'modena|bolonha', 'kit/marco_ghirlandina', 20, -70, 1.0),
+           (r'\bviena\b|estrasburgo|\bgante\b|\bgent\b|catedral gotica', 'kit/marco_viena', 20, -80, 1.0), (r'bruxelas', 'kit/marco_atomium', 20, -80, 1.0), (r'waterloo', 'kit/marco_waterloo', 0, -110, 1.0),
            (r'suica|\balpes\b|genebra|zurique', 'kit/marco_alpes', 0, -110, 1.0), (r'\bmaias?\b|chichen|yucatan', 'kit/marco_chichenitza', 20, -80, 1.0),
-           (r'moscou|kremlin|praca vermelha', 'kit/marco_saobasilio', 20, -80, 1.0), (r'sydney', 'kit/marco_operasydney', 0, -100, 1.0),
-           (r'teera|istambul|constantinopla|mesquita', 'kit/marco_mesquita', 20, -80, 1.0), (r'olinda|recife colonial|pernambuco colonial', 'kit/marco_olinda', 20, -90, 1.0))
+           (r'veracruz|ulua', 'kit/marco_ulua', 0, -100, 1.0), (r'el salvador|san salvador|vulcao', 'kit/volcano', 0, -120, 9.0),
+           (r'moscou|kremlin|praca vermelha', 'kit/marco_saobasilio', 20, -80, 1.0), (r'sydney', 'kit/marco_operasydney', 0, -100, 1.0), (r'zanzibar', 'kit/marco_zanzibar', 18, -80, 1.0),
+           (r'teera|\bira\b|\birao\b|istambul|constantinopla|mesquita', 'kit/marco_mesquita', 20, -80, 1.0), (r'olinda|recife|pernambuco', 'kit/marco_olinda', 20, -90, 1.0))
+# o marco so' aparece se JA EXISTIA no ano da historia (Torre Eiffel 1889, Estatua da Liberdade 1886, Golden Gate 1937...); o Farol de Alexandria caiu em 1323
+_MARCO_ANO = {'kit/marco_eiffel': (1889, 9999), 'kit/marco_liberdade': (1886, 9999), 'kit/marco_goldengate': (1937, 9999), 'kit/marco_hollywood': (1923, 9999), 'kit/marco_atomium': (1958, 9999),
+              'kit/marco_operasydney': (1973, 9999), 'kit/marco_cristo': (1931, 9999), 'kit/marco_brandemburgo': (1791, 9999), 'kit/marco_bigben': (1859, 9999), 'kit/marco_canaveral': (1950, 9999),
+              'kit/marco_casabranca': (1800, 9999), 'kit/marco_capitolio': (1800, 9999), 'kit/marco_onu': (1952, 9999), 'kit/marco_trumptower': (1983, 9999), 'kit/marco_versalhes': (1682, 9999),
+              'kit/marco_waterloo': (1826, 9999), 'kit/marco_zanzibar': (1883, 9999), 'kit/marco_alexandria': (-300, 1323), 'kit/marco_notredame': (1260, 9999), 'kit/tower': (2019, 9999)}
 _mt = __import__('unicodedata').normalize('NFKD', (B.get('title', '') + ' ' + ' '.join(str(b_.get('mapa') or '') for b_ in B['beats']) + ' ' + ' '.join(b_['say'] for b_ in B['beats'][:3])).lower()).encode('ascii', 'ignore').decode()   # so o LUGAR da historia (titulo, mapa, comeco), nao qualquer citacao
-MARCO = None if B.get('marco') is False else (B.get('marco') or next(((a_, dx_, z_, s_) for rx_, a_, dx_, z_, s_ in _MARCOS if re.search(rx_, _mt)), None))
-if MARCO and isinstance(MARCO, str): MARCO = (MARCO, 18, -70, 1.0)
+_anoM2 = re.search(r'(?<!\d)(1[0-9]{3}|20[0-9]{2})(?!\d)', ' '.join([str(B.get('ano', '')), B.get('title', ''), ID] + [str(b_.get('text', '')) for b_ in B['beats'][:4]])); _ANO_M = int(_anoM2.group(1)) if _anoM2 else (int(B['ano']) if str(B.get('ano', '')).lstrip('-').isdigit() else None)
+MARCO = None if B.get('marco') is False else (B.get('marco') or next(((a_, dx_, z_, s_) for rx_, a_, dx_, z_, s_ in _MARCOS if re.search(rx_, _mt) and (_ANO_M is None or _MARCO_ANO.get(a_, (-9999, 9999))[0] <= _ANO_M <= _MARCO_ANO.get(a_, (-9999, 9999))[1])), None))
+if MARCO and isinstance(MARCO, str): MARCO = next(((a_, dx_, z_, s_) for rx_, a_, dx_, z_, s_ in _MARCOS if a_ == MARCO), (MARCO, 18, -70, 1.0))
 if MARCO:
     for k_, b_ in enumerate(B['beats']):
-        if b_.get('interior') or b_.get('marco') is False or b_.get('set', SET) in ('hall', 'arctic', 'jungle', 'stadium'): continue
+        if b_.get('interior') or b_.get('marco') is False or b_.get('set', SET) in ('hall', 'arctic', 'stadium'): continue
         b_['props'] = list(b_.get('props', [])) + [[MARCO[0], MARCO[1] * (1 if k_ % 2 else -1), MARCO[2], MARCO[3]]]
 _hosp = next((b_ for b_ in B['beats'] if b_.get('interior') == 'hospital' and not b_.get('text')), None)
 if _hosp is not None and not any(b_.get('text') == 'HOSPITAL' for b_ in B['beats']): _hosp['text'] = 'HOSPITAL'
@@ -353,6 +367,24 @@ ENC = [(r'^(misturou|misturaram|misturando|mistura|misturar|mexeu|mexendo|mexia|
        (r'^(quimico|quimicos|quimica|acido|reagente|formula|experiencia|experiencias|experimento|experimentos|laboratorio|substancia|solucao)$', 'pour', 'quimico'),
        (r'^(escreveu|escreveram|anotou|anotava|assinou|assinaram|desenhou|rabiscou|calculou)$', 'write', 'escreve'),
        (r'^(socou|soco|socos|socando|nocauteou|chutou|chute|esmurrou)$', 'punch', 'golpe'),
+       (r'^(cortavam|cortava|cortou|cortaram|cortar|serrou|serravam|machado|lenhadores|lenhador|derrubavam)$', 'hammer', 'corta'),
+       (r'^(votou|votaram|votar|votavam|urnas?|eleitores|eleicao|eleicoes)$', 'reach', 'voto'),
+       (r'^(rachou|racharam|quebrou|quebraram|quebrar|estilhacou|despedacou|trincou|arrebentou)$', 'throw', 'quebra'),
+       (r'^(desabou|desabaram|desmoronou|ruiu|ruiram|cairiam|desabariam|afundou|afundaram|explodiu|explodiram)$', None, 'desaba'),
+       (r'^(pensou|pensava|pensando|imaginou|imaginava|ideia|calculou|calculava|percebeu|entendeu|raciocinou|desconfiou)$', 'think', 'pensa'),
+       (r'^(protestaram|protestavam|criticaram|denunciaram|reclamaram|manifestantes|protesto|protestos|vaiaram)$', 'up', 'protesto'),
+       (r'^(explicou|anunciou|apresentou|prometeu|declarou|discursou|mostrou|ensinou|avisou|ordenou|mandou)$', 'point', 'fala'),
+       (r'^(olhou|olhando|olhavam|apontou|apontando|observou|viu|viram|enxergou|avistou|espiou)$', 'point', 'olha'),
+       (r'^(embora|partiu|partiram|retiraram|recuaram|abandonaram|sairam|saiu|fugiram|zarparam)$', None, 'sai'),
+       (r'^(chao|nocauteado|nocaute|desmaiou|desmaiaram|tombou|tropecou|escorregou|derrubado|derrubada|derrubados)$', None, 'tomba'),
+       (r'^(dormiam|dormia|dormindo|dormiu|cochilou|cochilavam|adormeceu|adormeceram)$', None, 'dorme'),
+       (r'^(sentou|sentaram|sentado|sentada|sentados)$', None, 'senta'),
+       (r'^(raspar|raspou|rasparam|raspada|raspado|careca|tosquiou)$', 'reach', 'raspa'),
+       (r'^(enfrentou|enfrentaram|lutou|lutaram|lutando|brigaram|brigou|golpe|golpes)$', 'punch', 'golpe'),
+       (r'^(capturado|capturada|capturaram|capturou|preso|presa|presos|prenderam|prendeu|algemado|algemaram|detido|detidos)$', 'push', 'prende'),
+       (r'^(escalaram|escalou|subiram|subiu|treparam|trepou)$', 'lift', 'escala'),
+       (r'^(espetado|espetou|esfaqueou|esfaqueado|furou|cutucou|feriu|ferido)$', 'punch', 'espeta'),
+       (r'^(chutou|chute|gol|gols|bola|partida|jogos|jogo)$', 'throw', 'bola'),
        (r'^(pegou|pegaram|segurou|ergueu|levantou|levantaram|carregou|carregaram)$', 'lift', 'pega')]
 ENC_MAT = [(r'borracha|latex|seiva|goma|gosma|massa|pasta|cola|mistura', 'kit/gosma'), (r'enxofre|polvora|\bpo\b', 'kit/enxofre'), (r'quimic|acido|liquido|reagente', 'kit/frasco'), (r'ovo', 'kit/egg'), (r'chocolate', 'kit/chocolate')]
 ENC_RES = [(r'borracha|elastic|firme|couro|vulcaniz', 'kit/borracha'), (r'pneu', 'kit/tires'), (r'\bbola\b', 'kit/ball'), (r'pipoca', 'kit/popcorn'), (r'chocolate', 'kit/chocolate'),
@@ -531,6 +563,10 @@ for _b in beats:
         for _p in (_b.get('props') or []):   # o fogao/panela do processo fica NA FRENTE de quem faz (nunca em cima de outro personagem)
             if re.search(r'stove|fire|campfire|panela|kettle|bancada|wash_basin', str(_p[0])) and len(_p) > 2 and any(abs(float(_p[1]) - x_) < 1.5 for x_ in _sl[1:]):
                 _sd = (1 if _sl[0] <= 0 else -1) if _n > 1 else 1; _p[1] = round(_sl[0] + _sd * 1.1, 2); _p[2] = round(ZS[0] + 0.7, 2); _p[3:] = [min(float(_p[3]) if len(_p) > 3 else 1.0, 0.9)]
+for _b in beats:   # "entraram escondidos" -> alguem chega andando; "as luzes se apagaram" -> fica de noite
+    _sy = nrm(_b['say'])
+    if 'chega' not in _b and re.search(r'escondid|sorrateir|pontadospes|invadiu|invadiram|entraram|entrou', _sy): _b['chega'] = True
+    if 'hora' not in _b and re.search(r'apagar|apagou|apagaram|escuridao|breu|semluz|blecaute|apagao', _sy): _b['hora'] = 'noite'
 # EMOCAO EM CLOSE + PEDIDO EM PLANO DE AMBIENTE (ordem do Gibson 19/11): "se a narracao diz que ele esta muito preocupado, close no personagem mostrando que esta preocupado";
 # "quando for fazer um pedido, mostrar a ambientacao com ele fazendo o pedido". 'emocao_close': false no beat (ou no arquivo) desliga.
 _EMO = re.compile(r'preocup|aflit|ansios|nervos|desconfi|suspeit|desesper|apavor|assust|triste|tristeza|chorou|choro|lagrima|furios|raiva|irritad|indignad|insatisf|frustr|decepcion|alegr|feliz|contente|emocion|orgulh|aliviad|surpres|chocad|espantad|determinad|decidid|envergonh|humilh|com medo|medo de|ciume|inveja')
@@ -594,7 +630,7 @@ def build_beat(k, b):
     mv = b.get('move', 8 if shot == 'track' else 0)
     a, bb = f'A[{k}]', f'A[{k + 1}] - 1'
     # elenco de pessoas
-    HOLDS = (('rifle', r'espingarda|fuzil|mosquete|carabina|pegou a arma|sacou a arma'), ('mug', r'beber|bebeu|bebia|brind|caneca|cerveja|\bcha\b'), ('bottle', r'garrafa|aguardente|vinho|bebida|rum|whisky|uisque'), ('paper', r'carta|jornal|imprensa|ordem|documento|mapa|contrato|telegrama|relatorio|lista|assinou|lei\b'), ('book', r'livro|biblia|diario'), ('lantern', r'lanterna|lampiao|lamparina'), ('torch', r'tocha|incendi'), ('flag', r'bandeira|rendeu|rendicao'), ('sword', r'\bespadas?\b|\bduelo\b|\bduelaram\b|esgrima|\bsabre\b'), ('money', r'dolar|dolares|libras|notas|cedulas|\\bpago\\b'), ('coin', r'dinheiro|moeda|\bouro\b|recompensa|pagou|pagar|fortuna|salario|imposto'), ('shovel', r'cavou|cavaram|cavando|cavar|trincheira|enterrou|enterraram|\\bcova\\b'), ('bag', r'saco|mala|bagagem|sacola'), ('spyglass', r'luneta|avistou|avistaram|procurar|vigia|observ'), ('tulip', r'tulipa|bulbo|flor\b|flores'))
+    HOLDS = (('rifle', r'espingarda|fuzil|mosquete|carabina|pegou a arma|sacou a arma'), ('mug', r'beber|bebeu|bebia|brind|caneca|cerveja|\bcha\b'), ('bottle', r'garrafa|aguardente|vinho|bebida|\brum\b|whisky|uisque'), ('paper', r'carta|jornal|imprensa|ordem|documento|mapa|contrato|telegrama|relatorio|\blista\b|assinou|lei\b'), ('book', r'livro|biblia|diario'), ('lantern', r'lanterna|lampiao|lamparina'), ('torch', r'tocha|incendi'), ('flag', r'bandeira|rendeu|rendicao'), ('sword', r'\bespadas?\b|\bduelo\b|\bduelaram\b|esgrima|\bsabre\b'), ('money', r'dolar|dolares|libras|notas|cedulas|\\bpago\\b'), ('coin', r'dinheiro|moeda|\bouro\b|recompensa|pagou|pagar|fortuna|salario|imposto'), ('shovel', r'cavou|cavaram|cavando|cavar|trincheira|enterrou|enterraram|\\bcova\\b'), ('bag', r'saco|mala|bagagem|sacola'), ('spyglass', r'luneta|avistou|avistaram|procurar|vigia|observ'), ('tulip', r'tulipa|bulbo|flor\b|flores'))
     _say_sp = re.sub(r'[^a-z0-9 ]', '', unicodedata.normalize('NFKD', b['say'].lower()).encode('ascii', 'ignore').decode())
     auto_hold = next((h for h, rx in HOLDS if re.search(rx, _say_sp)), None) if b.get('maos') is not False else None
     _acao = b.get('acao') or ('dancar' if re.search(r'\bdanc', _say_sp) else 'discutir' if (re.search(r'discut|brig|exigi|respondeu|gritou|ameac|insult', _say_sp) and len(b.get('who', [])) >= 2) else None)
@@ -895,7 +931,7 @@ def build_beat(k, b):
                 _feitos.add(tipo_); _encs.append((wi_, gest_, tipo_, j_)); break
         _resto = lambda j0: nrm(' '.join(_ws[j0:j0 + 7]))
         _sy_ = nrm(b['say']); _mat_ok = bool(_alvo) or any(re.search(r_, _sy_) for r_, a_ in ENC_MAT + ENC_RES) or bool(_st.get('mat'))
-        _ok = {'cai': _mat_ok, 'vira': _mat_ok, 'calor': _mat_ok or bool(re.search(r'fogao|forno|panela|ferv|aquec|esquent|caldeir', _sy_)), 'golpe': bool(re.search(r'ringue|luta|boxe|lutador|briga|soco', _sy_))}
+        _ok = {'cai': _mat_ok, 'vira': _mat_ok, 'calor': _mat_ok or bool(re.search(r'fogao|forno|panela|ferv|aquec|esquent|caldeir', _sy_)), 'golpe': bool(re.search(r'ringue|luta|boxe|lutador|briga|soco|golpe|enfrent', _sy_)), 'bola': bool(re.search(r'futebol|\bcopa\b|\bbola\b|\bgol\b|estadio|chut', _sy_)), 'raspa': bool(re.search(r'cabeca|cabelo|careca|maquina|barba', _sy_))}
         _encs = [e_ for e_ in _encs if _ok.get(e_[2], True)]   # "o imperio caiu", "abriram fogo", "a luta virou bagunca" NAO sao processo fisico
         for n_e, (wi_, gest_, tipo_, j_) in enumerate(_encs[:4]):
             _ate = f"WS({_encs[n_e + 1][0]}) - 4" if n_e + 1 < len(_encs[:4]) else f"WS({wi_}) + 46"
@@ -941,9 +977,41 @@ def build_beat(k, b):
                 fx.append(f"{{ k: 'puff', a: WS({wi_}) + 6, b: WS({wi_}) + 30, at: [X + {num(_hx)}, DK + 1.3, {num(_z0 + 0.8)}], s: 0.6 }}"); KWSFX.append((wi_, 'tick'))
             elif tipo_ == 'golpe':
                 fx.append(f"{{ k: 'burst', a: WS({wi_}) + 4, b: WS({wi_}) + 22, at: [X + {num(sl[0] + _side * 1.6)}, DK + 2.0, {num(_z0 + 0.5)}], s: 1.0 }}"); KWSFX.append((wi_, 'thump'))
+            elif tipo_ == 'corta':
+                if 'kit/logs' not in ' '.join(pr): pr.append(f"{{ asset: 'kit/logs', a: WS({wi_}) - 6, b: {bb}, at: [X + {num(_tx)}, {num(_tz)}], s: 0.8, drop: false }}")
+                for q_ in range(3): fx.append(f"{{ k: 'dust', a: WS({wi_}) + {q_ * 9}, b: WS({wi_}) + {q_ * 9 + 16}, at: [X + {num(_tx)}, DK + 0.2, {num(_tz + 0.4)}], s: 0.5 }}")
+                KWSFX.append((wi_, 'thump'))
+            elif tipo_ == 'voto':
+                pr.append(f"{{ asset: 'kit/ballot_box', a: WS({wi_}) - 6, b: {bb}, at: [X + {num(_hx + _side * 0.4)}, {num(_z0 + 0.6)}], s: 0.7, drop: false }}"); KWSFX.append((wi_, 'tick'))
+            elif tipo_ == 'quebra':
+                fx.append(f"{{ k: 'burst', a: WS({wi_}) + 2, b: WS({wi_}) + 20, at: [X + {num(_tx)}, DK + 1.6, {num(_tz + 0.3)}], s: 1.1 }}"); fx.append(f"{{ k: 'stars', a: WS({wi_}) + 4, b: WS({wi_}) + 30, at: [X + {num(_tx)}, DK + 1.8, {num(_tz + 0.3)}], s: 0.8 }}"); KWSFX.append((wi_, 'thump')); KICKS.append(f"{{ f: WS({wi_}) + 2, a: 0.04 }}")
+            elif tipo_ == 'desaba':
+                for q_ in range(4): fx.append(f"{{ k: 'dust', a: WS({wi_}) + {q_ * 6}, b: WS({wi_}) + {q_ * 6 + 30}, at: [X + {num(-3 + q_ * 2)}, DK + 0.3, -4], s: 1.6 }}")
+                KWSFX.append((wi_, 'cannon')); KICKS.append(f"{{ f: WS({wi_}) + 3, a: 0.06 }}")
+            elif tipo_ == 'pensa':
+                fx.append(f"{{ k: 'ring', a: WS({wi_}) + 6, b: WS({wi_}) + 34, at: [X + {num(sl[0])}, DK + 3.6, {num(_z0 + 0.2)}], s: 0.7 }}"); KWSFX.append((wi_, 'ding'))
+            elif tipo_ == 'protesto':
+                fx.append(f"{{ k: 'stars', a: WS({wi_}), b: WS({wi_}) + 26, at: [X + {num(sl[0])}, DK + 3.2, {num(_z0)}], s: 0.6 }}"); KWSFX.append((wi_, 'sting'))
+            elif tipo_ == 'sai' and acts and acts[0].startswith(('pp(', 'Object.assign(pp(')):
+                _gst.setdefault('sai', []).append(f"move: [[X + {num(sl[0] - _side * 9)}, {num(_z0 - 0.6)}], WS({wi_}) + 2, WS({wi_}) + 70, 'lin'], walk: 'stroll'")
+            elif tipo_ in ('tomba', 'dorme', 'senta'):
+                _who_ = 1 if (tipo_ == 'tomba' and len(persons) > 1 and re.search(r'derrub|nocaute|golpe', _sy_) and not re.search(r'\bele foi ao chao', _sy_)) else 0
+                _gst.setdefault(('poses', _who_), []).append(f"[WS({wi_}) + 2, {bb}, '{ {'tomba': 'fall', 'dorme': 'sleep', 'senta': 'sit'}[tipo_] }']")
+                if tipo_ == 'tomba': fx.append(f"{{ k: 'dust', a: WS({wi_}) + 4, b: WS({wi_}) + 30, at: [X + {num(sl[_who_] + 0.6)}, DK + 0.1, {num(_z0 + 0.3)}], s: 0.8 }}"); KWSFX.append((wi_, 'thump'))
+            elif tipo_ == 'raspa':
+                if HEROI and 'clip' in HEROI: pr.append(f"{{ asset: {json.dumps(HEROI)}, a: WS({wi_}) - 4, b: {bb}, at: [X + {num(_hx)}, {num(_z0 + 0.4)}], y: DK + 2.4, s: 0.45, drop: false }}")
+                for q_ in range(3): fx.append(f"{{ k: 'puff', a: WS({wi_}) + {q_ * 10}, b: WS({wi_}) + {q_ * 10 + 18}, at: [X + {num(sl[-1])}, DK + 2.9, {num(_z0 + 0.2)}], s: 0.35 }}")
+                KWSFX.append((wi_, 'creak'))
+            elif tipo_ == 'golpe' or tipo_ == 'espeta':
+                fx.append(f"{{ k: 'burst', a: WS({wi_}) + 4, b: WS({wi_}) + 22, at: [X + {num(sl[-1] if len(sl) > 1 else sl[0] + _side * 1.6)}, DK + 2.0, {num(_z0 + 0.5)}], s: {0.9 if tipo_ == 'golpe' else 0.6} }}"); KWSFX.append((wi_, 'thump'))
+            elif tipo_ == 'bola':
+                pr.append(f"{{ asset: 'kit/ball', a: WS({wi_}) - 4, b: {bb}, at: [X + {num(_hx)}, {num(_z0 + 0.6)}], move: [[X + {num(_hx + _side * 6)}, {num(_z0 - 3)}], WS({wi_}) + 2, WS({wi_}) + 22, 'lin'], align: false, y: (f) => DK + 0.2 + 1.6 * Math.sin(Math.PI * Math.max(0, Math.min(1, (f - WS({wi_})) / 22))), spinY: 3, s: 0.35, drop: false }}"); KWSFX.append((wi_, 'thump'))
             PLANO.append((k, f'encena: {tipo_}' + (f' ({gest_})' if gest_ else ''), 'acao'))
         if _encs or (persons and persons[0][3]): b['_acao'] = b.get('_acao') or ('atira' if persons[0][3] == 'rifle' else 'encena')   # quem faz o processo / segura o objeto NAO esta parado
         if _gst.get(0) and acts: acts[0] = f"Object.assign({acts[0]}, {{ gests: [{', '.join(_gst[0])}] }})"
+        if _gst.get('sai') and acts: acts[0] = f"Object.assign({acts[0]}, {{ {_gst['sai'][0]} }})"   # FOI EMBORA: sai andando pela lateral
+        for _w in (0, 1):
+            if _gst.get(('poses', _w)) and len(acts) > _w and len(persons) > _w: acts[_w] = f"Object.assign({acts[_w]}, {{ poses: [{', '.join(_gst[('poses', _w)])}] }})"   # caiu/dormindo/sentou na palavra
         if _encs and not wide: opts.append('vary: false')   # a acao acontece numa tomada so' (sem sub-corte no meio do processo)
     if wide: opts.append("hero: { hero: 'none', wide: true }"); opts.append('vary: false'); opts.append('nocut: true')   # plano aberto = UMA tomada continua (camera abrindo/girando), sem sub-corte
     elif b.get('veiculo'): opts.append("hero: { hero: 'none' }")   # motorista fica atras do carro de proposito

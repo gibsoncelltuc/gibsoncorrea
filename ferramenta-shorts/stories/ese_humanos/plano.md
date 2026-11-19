@@ -8,9 +8,9 @@ b2 | two | noite  | - | - | -
 b3 | two | -  | animais | - | -
 b4 | low | -  | objeto na mao | - | -
 b5 | crowd | -  | batalha aberta com tiros, tropa, animais, placa: 20 ANOS | - | -
-b6 | low | -  | - | - | -
+b6 | low | -  | - | encena: desaba (acao + som de efeito) | -
 b7 | two | -  | objeto na mao | - | -
-b8 | two | -  | - | - | -
+b8 | two | -  | interior | - | -
 b9 | orbit | -  | batalha aberta com tiros, tropa, animais, placa: NATUREZA | - | -
 b10 | close | -  | - | - | -
 

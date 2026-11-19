@@ -2,16 +2,16 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | placa: 2024 | - | -
+b0 | two | -  | placa: 2024 | encena: fala (point) (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | objeto na mao | - | -
-b3 | two | -  | - | - | -
+b3 | two | -  | - | encena: pensa (think) (acao + som de efeito) | -
 b4 | two | -  | - | - | -
 b5 | crowd | -  | batalha aberta com tiros, tropa | - | -
 b6 | low | -  | - | - | -
 b7 | low | -  | - | - | -
-b8 | orbit | -  | batalha aberta com tiros, tropa, placa: PEGOU! | comemoraram (stars + som de sino) | -
-b9 | two | -  | - | - | -
+b8 | orbit | -  | batalha aberta com tiros, tropa, placa: PEGOU! | (rosto) laugh (expr + som de efeito); comemoraram (stars + som de sino) | -
+b9 | two | -  | interior | (rosto) laugh (expr + som de efeito) | -
 b10 | two | -  | objeto na mao | - | -
 b11 | close | -  | - | - | -
 

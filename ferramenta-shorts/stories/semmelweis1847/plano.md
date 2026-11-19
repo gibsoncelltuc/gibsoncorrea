@@ -7,11 +7,11 @@ b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | interior, placa: HOSPITAL | - | -
 b3 | two | -  | interior | - | -
 b4 | crowd | -  | batalha aberta com tiros, tropa | - | -
-b5 | two | -  | interior | (rosto) sad (expr + som de efeito); morreu (puff + som de baque) | -
-b6 | close | -  | interior | - | -
+b5 | two | -  | interior | (rosto) sad (expr + som de efeito); morreu (puff + som de baque); encena: corta (hammer) (acao + som de efeito) | -
+b6 | close | -  | interior | encena: pensa (think) (acao + som de efeito) | -
 b7 | two | -  | interior | - | -
 b8 | orbit | -  | batalha aberta com tiros, tropa, placa: VIDAS SALVAS | - | -
-b9 | two | -  | interior | - | -
+b9 | two | -  | interior | encena: sai (acao + som de efeito) | -
 b10 | two | -  | - | (rosto) sad (expr + som de efeito); morreu (puff + som de baque) | -
 b11 | close | -  | placa: LAVE AS MÃOS | - | -
 

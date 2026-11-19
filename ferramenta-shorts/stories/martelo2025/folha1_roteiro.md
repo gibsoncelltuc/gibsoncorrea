@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 
 ## Cena b3  (~7.6 s)
 - Narracao: Só uma arma chegava lá: a bomba antibunker, com mais de treze toneladas. E só um avião carrega essa bomba: o B-2.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: sting@30
 - Efeito + som nas palavras-chave: bomba -> burst + som de tiro/explosao; bomba: -> burst + som de tiro/explosao
 - Efeito visual marcado: ring@30
@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 
 ## Cena b5  (~4.8 s)
 - Narracao: Sete bombardeiros invisíveis decolaram do Missouri, e voaram mais de um dia sem parar.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: whoosh@20, whoosh@50
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: whoosh@20, whoosh@50
@@ -58,7 +58,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 
 ## Cena b6  (~4.1 s)
 - Narracao: Para despistar, outros B-2 foram mandados na direção contrária, para o Pacífico.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 
 ## Cena b7  (~6.6 s)
 - Narracao: Acontece que, de madrugada, os aviões soltaram catorze bombas. Doze delas em cima de Fordow, pelos respiros do bunker.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: cannon@25, cannon@45, thump@60
 - Efeito + som nas palavras-chave: bombas -> burst + som de tiro/explosao
 - Efeito visual marcado: burst@25, burst@45, puff@60
@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 
 ## Cena b9  (~5.2 s)
 - Narracao: Trump disse que as usinas foram destruídas. Avaliações posteriores discutiram o tamanho real do estrago.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: sting@30
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@30
@@ -101,3 +101,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL
 
+
+## Fontes (fatos conferidos)
+- https://en.wikipedia.org/wiki/2025_United_States_strikes_on_Iranian_nuclear_sites
+- https://news.usni.org/2025/06/21/u-s-strikes-3-iranian-nuclear-sites-using-b-2s-sub-launched-tomahawks
+- https://www.csis.org/analysis/what-operation-midnight-hammer-means-future-irans-nuclear-ambitions

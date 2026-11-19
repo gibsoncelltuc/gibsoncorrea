@@ -4,16 +4,16 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | harbor | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/falcon_air, kit/roadster | - | -
-b1 | harbor | close | 1 | conversar | kit/roadster | - | -
-b2 | harbor | reveal | 8 | parados (so fala e pisca) | kit/rocket | - | -
-b3 | harbor | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/roadster | - | -
-b4 | harbor | crowd | 23 | reagir, batalha | kit/falcon_air, kit/rocket | - | -
-b5 | harbor | two | 2 | conversar, INTERAGEM: insiste | kit/roadster, buildings/house_two, nature/lamppost, nature/bench | - | -
-b6 | harbor | orbit | 19 | batalha | kit/roadster | - | -
-b7 | harbor | group | 2 | conversar, INTERAGEM: vai ate o outro | kit/globe, kit/roadster | - | -
-b8 | harbor | group | 2 | conversar, INTERAGEM: aproxima-se | kit/roadster | - | -
-b9 | harbor | crowd | 21 | comemorar, batalha | kit/rocket, kit/roadster | - | -
+b0 | harbor | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/falcon_air, kit/roadster, kit/marco_canaveral | - | -
+b1 | street | close | 1 | conversar | kit/roadster, kit/marco_canaveral | - | -
+b2 | harbor | reveal | 8 | parados (so fala e pisca) | kit/rocket, kit/marco_canaveral | - | -
+b3 | street | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/roadster, kit/marco_canaveral | - | -
+b4 | street | crowd | 23 | reagir, batalha | kit/falcon_air, kit/marco_canaveral, kit/rocket | - | -
+b5 | interior loja | two | 2 | conversar, INTERAGEM: insiste | kit/roadster | - | -
+b6 | street | orbit | 19 | batalha | kit/roadster, kit/marco_canaveral | - | -
+b7 | harbor | group | 2 | conversar, INTERAGEM: vai ate o outro | kit/globe, kit/roadster, kit/marco_canaveral | - | -
+b8 | harbor | group | 2 | conversar, INTERAGEM: aproxima-se | kit/roadster, kit/marco_canaveral | - | -
+b9 | harbor | crowd | 21 | comemorar, batalha | kit/rocket, kit/roadster, kit/marco_canaveral | - | -
 
 OBJETO HEROI: kit/roadster - aparece em 8 cena(s), close nele em 3
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 3 -> b4, b6, b9

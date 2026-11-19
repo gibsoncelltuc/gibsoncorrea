@@ -5,12 +5,12 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | -  | placa: 1968 | encena: quimico (pour) (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | interior, objeto na mao | - | -
-b3 | close | -  | interior, objeto na mao | - | -
-b4 | two | -  | interior, objeto na mao | - | -
+b3 | close | -  | interior, objeto na mao | encena: sai (acao + som de efeito) | -
+b4 | two | -  | interior, objeto na mao | encena: fala (point) (acao + som de efeito) | -
 b5 | crowd | -  | batalha aberta com tiros, tropa | - | -
-b6 | two | -  | objeto na mao | - | -
-b7 | close | -  | - | - | -
-b8 | two | -  | interior | encena: quimico (pour) (acao + som de efeito) | -
+b6 | two | -  | objeto na mao | encena: tomba (acao + som de efeito) | -
+b7 | close | -  | - | encena: pensa (think) (acao + som de efeito) | -
+b8 | two | -  | interior | encena: sai (acao + som de efeito); encena: quimico (pour) (acao + som de efeito) | -
 b9 | two | -  | interior, objeto na mao | fracasso (puff + som de baque) | -
 b10 | orbit | -  | batalha aberta com tiros, tropa, placa: POST-IT | - | -
 b11 | close | -  | placa: 1980 | chegou (dust + som de impacto) | -

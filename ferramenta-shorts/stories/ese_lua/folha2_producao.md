@@ -13,7 +13,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b1 - A primeira mudança seria a escuridão. Noite de lua cheia, preta como u...
-- Cenario: harbor | luz: noite | clima: limpo
+- Cenario: countryside | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): POV (variante 0, expressao shock); POV (variante 1, expressao scared)
@@ -33,9 +33,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - Sem ela, as marés perderiam mais da metade da força. Só o Sol continua...
-- Cenario: harbor | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Cenario: countryside | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): PES (variante 0, expressao worried); PRO (variante 0, expressao stern, segura paper)
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: boat
@@ -43,17 +43,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Bichos da praia que vivem do sobe e desce da água iam sofrer, e muitos...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): PRO (variante 0, expressao sad); POV (variante 0, expressao sad)
 - Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: gull
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): agua, escuro, praia, sobe
-- RISCOS: nenhum
+- RISCOS: 
+  - a narracao cita agua e o cenario "street" nao tem agua -> CORRECAO: "set": "harbor" (cais com mar e navio) ou "set": "palace" (praia), ou "mapa" para so situar
 
 ## Cena b5 - O mundo inteiro olharia para cima, sem acreditar.
-- Cenario: harbor | luz: noite | clima: limpo
+- Cenario: street | luz: noite | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao shock); POV (variante 1, expressao surprised); PES (variante 0, expressao scared) | multidao: 20 de POV
@@ -64,7 +65,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Acontece que o pior viria devagar. A Lua funciona como um peso que man...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): PRO (variante 0, expressao shock)
 - Animacao: reagir
@@ -74,8 +75,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Sem ela, em milhões de anos, o eixo do planeta iria balançar, e as est...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): PRO (variante 0, expressao stern, segura paper); POV (variante 0, expressao worried)
 - Animacao: conversar | interacao: cochichar
 - Objetos/modelos: kit/globe
@@ -83,7 +84,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - E os dias parariam de ficar mais compridos, porque é a Lua que freia a...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): POV (variante 0, expressao surprised); POV (variante 1, expressao grin)
@@ -93,7 +94,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - Boa notícia: ela não vai embora. Só se afasta uns quatro centímetros p...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao smile); PES (variante 0, expressao grin); PRO (variante 0, expressao smile) | multidao: 18 de POV
@@ -124,11 +125,12 @@ kit/globe | b6, b7 | pronto | conferir na folha de contato se le bem; se parecer
 
 
 ## Video inteiro
-- Objeto heroi: kit/moon | grandes momentos: b5, b9 | planos abertos: 3 | mistura: close 19% | medio 65% | aberto 9% | detalhe 7%
+- Objeto heroi: kit/moon | grandes momentos: b5, b9 | planos abertos: 3 | mistura: close 11% | medio 73% | aberto 9% | detalhe 7%
 - Interacoes: b0 vai ate o outro, b1 aproxima-se, b3 avanca e o outro recua, b4 o outro se aproxima, b7 cochichar, b8 insiste
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- b4: a narracao cita agua e o cenario "street" nao tem agua
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh ese_lua bN bM` (so essas cenas).

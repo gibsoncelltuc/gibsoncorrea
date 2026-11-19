@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Dois estados americanos foram à guerra, e o único ferido levou uma canivetada.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: espeta (punch) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1835
 - Funcao na historia: GANCHO
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: O governador de Michigan tinha vinte e três anos. "Mandem a milícia", ordenou ele.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: fala (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Acontece que a única baixa foi um xerife de Michigan, espetado na perna por um rapaz com um canivete.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@60
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: espeta (punch) -> acao + som de efeito
 - Efeito visual marcado: stars@60
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: O presidente mandou os dois pararem, e o Congresso ofereceu um acordo. Ninguém queria ceder.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: pedido: plano medio dos dois, um pede ao outro -> shot + som de efeito
+- Efeito + som nas palavras-chave: pedido: plano medio dos dois, um pede ao outro -> shot + som de efeito; encena: fala (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: ACORDO
 - Funcao na historia: desenvolvimento

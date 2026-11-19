@@ -5,11 +5,11 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | -  | placa: 1630 | - | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | objeto na mao | - | -
-b3 | two | -  | - | ganhou (stars + som de sino) | -
-b4 | crowd | -  | batalha aberta com tiros, tropa, placa: GUARARAPES | venceram (stars + som de sino) | -
-b5 | two | -  | - | - | -
-b6 | two | -  | objeto na mao | - | -
-b7 | close | -  | - | - | -
+b3 | two | -  | - | ganhou (stars + som de sino); encena: constroi (hammer) (acao + som de efeito) | -
+b4 | crowd | -  | batalha aberta com tiros, tropa, placa: GUARARAPES | (rosto) laugh (expr + som de efeito); venceram (stars + som de sino) | -
+b5 | two | -  | - | encena: sai (acao + som de efeito) | -
+b6 | two | -  | interior, objeto na mao | - | -
+b7 | close | -  | interior | - | -
 b8 | two | -  | - | - | -
 b9 | orbit | -  | batalha aberta com tiros, tropa, placa: NOVA YORK | - | -
 b10 | close | -  | - | - | -

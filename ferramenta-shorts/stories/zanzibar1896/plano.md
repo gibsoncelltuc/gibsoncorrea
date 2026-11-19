@@ -4,7 +4,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | -  | placa: 1896 | - | -
 b1 | reveal | -  | tropa, mapa | - | -
-b2 | two | -  | interior | (rosto) sad (expr + som de efeito); morreu (puff + som de baque); correu (dust + som de impacto) | -
+b2 | two | -  | interior | (rosto) sad (expr + som de efeito); morreu (puff + som de baque); correu (dust + som de impacto); encena: senta (acao + som de efeito) | -
 b3 | two | -  | interior, objeto na mao | - | -
 b4 | crowd | -  | batalha aberta com tiros, tropa, placa: 3.000 | canhões (burst + som de tiro/explosao) | -
 b5 | close | -  | interior | atirar (burst + som de tiro/explosao) | -

@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Donald Trump perdeu a eleição de dois mil e vinte. Quatro anos depois, voltou para a Casa Branca.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: perdeu -> puff + som de baque
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; perdeu -> puff + som de baque; encena: voto (reach) -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 2024
 - Funcao na historia: GANCHO
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Milhões de americanos foram às urnas escolher entre Trump e a vice-presidente Kamala Harris.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: voto (reach) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que Trump venceu em todos os estados decisivos, e somou trezentos e doze votos no colégio eleitoral.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@20, ding@50
-- Efeito + som nas palavras-chave: venceu -> stars + som de sino
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; venceu -> stars + som de sino
 - Efeito visual marcado: ring@20, stars@50
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -51,14 +51,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Os apoiadores comemoraram a noite inteira. Trump subiu ao palco e declarou vitória.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: comemoraram -> stars + som de sino; vitória -> stars + som de sino
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; comemoraram -> stars + som de sino; vitória -> stars + som de sino
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: 312 VOTOS
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b6  (~5.5 s)
 - Narracao: Foi um feito raro: ele virou só o segundo presidente da história com dois mandatos separados.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -76,7 +76,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b8  (~5.5 s)
 - Narracao: Em vinte de janeiro de dois mil e vinte e cinco, ele tomou posse de novo.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -101,3 +101,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL
 
+
+## Fontes (fatos conferidos)
+- https://ballotpedia.org/Presidential_election,_2024
+- https://en.wikipedia.org/wiki/Second_presidency_of_Donald_Trump
+- https://www.wbtv.com/2024/11/06/ap-projects-donald-trump-elected-2nd-term-2024-presidential-election/

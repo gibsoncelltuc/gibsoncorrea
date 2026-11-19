@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: Primeira surpresa: saindo do Brasil, você não sairia na China. Sairia no meio do oceano Pacífico, perto do Japão.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: surpresa: -> ring + som de alerta
+- Efeito + som nas palavras-chave: (rosto) shock -> expr + som de efeito; surpresa: -> ring + som de alerta
 - Efeito visual marcado: stars@40
 - Texto na tela: - | mapa: OCEANO PACÍFICO
 - Funcao na historia: desenvolvimento
@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b4  (~6.6 s)
 - Narracao: Acontece que o centro da Terra fica a mais de seis mil quilômetros, quase tão quente quanto o Sol.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@20, cannon@50
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@20, burst@50
@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b5  (~4.1 s)
 - Narracao: Nenhuma máquina aguenta. Mas imagine que desse, e você pulasse no buraco.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: cannon@20, thump@50
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: burst@20, puff@50
@@ -76,7 +76,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b8  (~4.8 s)
 - Narracao: Mas se ninguém te segurasse, você cairia de volta. Indo e voltando para sempre.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b9  (~2.8 s)
 - Narracao: Os cientistas chamam isso de túnel da gravidade.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20, stars@60

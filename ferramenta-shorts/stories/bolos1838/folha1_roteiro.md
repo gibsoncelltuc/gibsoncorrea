@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: A França invadiu o México por causa de uma conta de confeitaria.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: invadiu -> dust + som de impacto
+- Efeito + som nas palavras-chave: cavalaria: 2 soldados a cavalo (OFI) -> acao + som de efeito; invadiu -> dust + som de impacto
 - Efeito visual marcado: -
 - Texto na tela: 1838
 - Funcao na historia: GANCHO
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Um dia, oficiais mexicanos entraram, comeram tudo o que havia, quebraram a loja, e saíram sem pagar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@50
-- Efeito + som nas palavras-chave: quebraram -> dust + som de impacto; pagar -> stars + som de sino
+- Efeito + som nas palavras-chave: quebraram -> dust + som de impacto; pagar -> stars + som de sino; encena: quebra (throw) -> acao + som de efeito; encena: sai -> acao + som de efeito
 - Efeito visual marcado: puff@50
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O confeiteiro escreveu ao rei da França. "Quero sessenta mil pesos", pediu ele. A loja inteira valia mil.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito
+- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; encena: escreve (write) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O rei gostou da ideia, juntou outras queixas, e cobrou seiscentos mil. "Paguem, ou mandamos a marinha", avisou a França.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: pensa (think) -> acao + som de efeito; encena: fala (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Os canhões franceses bombardearam a fortaleza de Veracruz, e os soldados tomaram a cidade.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140
-- Efeito + som nas palavras-chave: canhões -> burst + som de tiro/explosao
+- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (FRA) -> acao + som de efeito; canhões -> burst + som de tiro/explosao
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Meses depois, o México pagou os seiscentos mil pesos, e a França foi embora.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: pagou -> stars + som de sino
+- Efeito + som nas palavras-chave: pagou -> stars + som de sino; encena: sai -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 600.000
 - Funcao na historia: desenvolvimento

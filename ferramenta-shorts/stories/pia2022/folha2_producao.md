@@ -8,7 +8,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (1): MUS (variante 0, expressao grin)
 - Animacao: -
-- Objetos/modelos: kit/sink
+- Objetos/modelos: kit/sink, kit/marco_goldengate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, sede, twitter
 - RISCOS: nenhum
 
@@ -18,44 +18,44 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): MUS (variante 0, expressao smug) | multidao: 8 de POV
 - Animacao: -
-- Objetos/modelos: -
+- Objetos/modelos: kit/marco_goldengate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): internet, propria, video
 - RISCOS: nenhum
 
 ## Cena b2 - A legenda dizia: Entrando na sede do Twitter. Deixe isso afundar.
-- Cenario: street | luz: golden | clima: limpo
+- Cenario: harbor | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MUS (variante 0, expressao laugh); FUN2 (variante 0, expressao suspicious)
 - Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: kit/sink
+- Objetos/modelos: kit/sink, kit/marco_goldengate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): legenda, sede, twitter
 - RISCOS: nenhum
 
 ## Cena b3 - É um trocadilho, porque em inglês a palavra sink quer dizer pia, e tam...
-- Cenario: street | luz: golden | clima: limpo
+- Cenario: harbor | luz: golden | clima: limpo
 - Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): FUN (variante 0, expressao surprised)
 - Animacao: conversar
-- Objetos/modelos: kit/sink
+- Objetos/modelos: kit/sink, kit/marco_goldengate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): palavra, trocadilho
 - RISCOS: nenhum
 
 ## Cena b4 - Naquela época, ele estava prestes a fechar a compra do Twitter, por qu...
-- Cenario: street | luz: golden | clima: limpo
+- Cenario: harbor | luz: golden | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): MUS (variante 0, expressao smile); FUN (variante 0, expressao neutral) | multidao: 8 de POV
 - Animacao: - | batalha encenada
-- Objetos/modelos: -
+- Objetos/modelos: kit/marco_goldengate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): compra, dolares, fechar, twitter
 - RISCOS: nenhum
 
 ## Cena b5 - Ele também mudou o perfil, e escreveu que era o Chefe Twit.
-- Cenario: street | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Cenario: interior loja | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): MUS (variante 0, expressao grin); FUN2 (variante 0, expressao surprised)
 - Animacao: conversar | interacao: insiste
 - Objetos/modelos: -
@@ -68,7 +68,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): FUN (variante 0, expressao laugh); FUN2 (variante 0, expressao shock) | multidao: 6 de POV
 - Animacao: reagir | batalha encenada
-- Objetos/modelos: kit/globe
+- Objetos/modelos: kit/globe, kit/marco_goldengate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cena
 - RISCOS: nenhum
 
@@ -78,7 +78,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (3): MUS (variante 0, expressao laugh); FUN (variante 0, expressao grin); FUN2 (variante 0, expressao smile)
 - Animacao: conversar | interacao: vai ate o outro
-- Objetos/modelos: kit/sink
+- Objetos/modelos: kit/sink, kit/marco_goldengate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): legenda, piada
 - RISCOS: nenhum
 
@@ -88,11 +88,12 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/sink | b0, b2, b3, b7 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_goldengate | b0, b1, b2, b3, b4, b6, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/globe | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/sink | grandes momentos: b4, b6 | planos abertos: 3 | mistura: close 16% | medio 61% | aberto 15% | detalhe 8%
+- Objeto heroi: kit/sink | grandes momentos: b4, b6 | planos abertos: 3 | mistura: close 16% | medio 64% | aberto 15% | detalhe 6%
 - Interacoes: b2 o outro se aproxima, b5 insiste, b7 vai ate o outro
 - RISCOS GERAIS: nenhum
 

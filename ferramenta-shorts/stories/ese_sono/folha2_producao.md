@@ -13,7 +13,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b1 - Numa vida de setenta e cinco anos, isso daria uns vinte e cinco anos a...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): PRO (variante 0, expressao stern, segura paper); POV (variante 0, expressao surprised)
@@ -23,7 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - As cidades funcionariam vinte e quatro horas por dia. Escola, trabalho...
-- Cenario: street | luz: noite | clima: limpo
+- Cenario: countryside | luz: noite | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao laugh); POV (variante 1, expressao grin); POV (variante 2, expressao shout) | multidao: 22 de POV
@@ -33,7 +33,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - Daria tempo de aprender três línguas, um instrumento, e ver todas as s...
-- Cenario: street | luz: noite | clima: limpo
+- Cenario: harbor | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): POV (variante 0, expressao grin); POV (variante 1, expressao smile)
@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Randy Gardner, de dezessete anos, ficou acordado por onze dias seguido...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): RAN (variante 0, expressao grin); PRO (variante 0, expressao suspicious, segura paper)
@@ -84,8 +84,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Para não dormir, precisaríamos de outro cérebro. Nenhum café resolve i...
 - Cenario: interior loja | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): PRO (variante 0, expressao grin, segura paper); POV (variante 1, expressao surprised)
 - Animacao: conversar | interacao: entregar
 - Objetos/modelos: kit/kettle
@@ -125,7 +125,7 @@ kit/ball | b3 | pronto | conferir na folha de contato se le bem; se parecer caix
 
 
 ## Video inteiro
-- Objeto heroi: kit/kettle | grandes momentos: b2, b9 | planos abertos: 3 | mistura: close 22% | medio 60% | aberto 12% | detalhe 6%
+- Objeto heroi: kit/kettle | grandes momentos: b2, b9 | planos abertos: 3 | mistura: close 22% | medio 62% | aberto 12% | detalhe 4%
 - Interacoes: b0 vai ate o outro, b1 aproxima-se, b3 entregar, b5 cochichar, b7 avanca e o outro recua, b8 entregar
 - RISCOS GERAIS: nenhum
 

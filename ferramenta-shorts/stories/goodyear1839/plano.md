@@ -11,7 +11,7 @@ b5 | two | -  | interior | encena: mistura (stir) (acao + som de efeito) | -
 b6 | two | -  | interior | encena: cai (throw) (acao + som de efeito); encena: calor (reach) (acao + som de efeito) | -
 b7 | low | -  | interior | encena: vira (up) (acao + som de efeito) | -
 b8 | two | -  | interior | - | -
-b9 | group | -  | tropa | (rosto) sad (expr + som de efeito); Morreu (puff + som de baque) | -
+b9 | group | -  | tropa | (rosto) sad (expr + som de efeito); Morreu (puff + som de baque); encena: pensa (think) (acao + som de efeito) | -
 b10 | crowd | -  | batalha aberta com tiros, tropa, placa: PNEUS | - | -
 b11 | close | -  | interior, placa: GOODYEAR | ganhou (stars + som de sino) | -
 

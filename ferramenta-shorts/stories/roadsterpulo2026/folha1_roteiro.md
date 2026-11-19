@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: Elon Musk prometeu um carro que voa. Em outubro de dois mil e vinte e seis, ele mostrou o que conseguiu.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@30, whoosh@50
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; encena: fala (point) -> acao + som de efeito
 - Efeito visual marcado: stars@30, puff@50
 - Texto na tela: 2026
 - Funcao na historia: GANCHO
@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b4  (~6.6 s)
 - Narracao: Acontece que, na frente da plateia, o carro acelerou e pulou por cima de cinco outros carros da Tesla.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@20, thump@40
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: whoosh@20, puff@40
@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b5  (~4.1 s)
 - Narracao: Depois, girou no ar e desceu de novo sobre as quatro rodas.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@20, whoosh@50
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: puff@20, puff@50
@@ -76,7 +76,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b8  (~8.3 s)
 - Narracao: Segundo a Tesla, ele vai de zero a cem em cerca de um segundo. A fabricação ficou para dois mil e vinte e oito.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@30
@@ -85,9 +85,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b9  (~5.5 s)
 - Narracao: O vídeo foi visto milhões de vezes. Metade do mundo ficou impressionada, a outra metade desconfiada.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: (rosto) distrust -> expr + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: VOOU?
 - Funcao na historia: GRANDE MOMENTO
@@ -101,3 +101,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL
 
+
+## Fontes (fatos conferidos)
+- https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/
+- https://electrek.co/2026/10/13/tesla-roadster-event-thursday-nine-years-delays/
+- https://www.latimes.com/business/story/2026-10-17/elon-musk-just-showed-off-flying-car-heres-what-to-know-about-tesla-roadster

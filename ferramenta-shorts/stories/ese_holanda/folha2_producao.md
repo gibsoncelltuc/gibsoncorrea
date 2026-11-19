@@ -8,7 +8,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): NAS (variante 0, expressao smug); POV (variante 0, expressao surprised)
 - Animacao: conversar | interacao: vai ate o outro
-- Objetos/modelos: kit/flag_pole
+- Objetos/modelos: kit/flag_pole, kit/marco_olinda
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brasil, pedaco
 - RISCOS: nenhum
 
@@ -18,52 +18,52 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
 - Animacao: -
-- Objetos/modelos: navios ao fundo
+- Objetos/modelos: kit/marco_olinda, navios ao fundo
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): acucar
 - RISCOS: nenhum
 
 ## Cena b2 - O governador Maurício de Nassau trouxe pintores, cientistas e engenhei...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): NAS (variante 0, expressao grin); ART (variante 0, expressao smile, segura paper)
 - Animacao: conversar | interacao: aproxima-se
-- Objetos/modelos: -
+- Objetos/modelos: kit/marco_olinda
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): governador, nassau
 - RISCOS: nenhum
 
 ## Cena b3 - Construiu uma das primeiras grandes pontes do Brasil, e a cidade ganho...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): NAS (variante 0, expressao smug); POV (variante 0, expressao surprised)
 - Animacao: conversar | interacao: avanca e o outro recua
-- Objetos/modelos: buildings/bridge, buildings/apartment, buildings/house_two, nature/lamppost
+- Objetos/modelos: buildings/bridge, kit/marco_olinda, buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): americas, brasil, cidade, primeira, primeiras
 - RISCOS: nenhum
 
 ## Cena b4 - Acontece que portugueses, indígenas, africanos e colonos se uniram, e ...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: jungle | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POR (variante 0, expressao angry); POR (variante 1, expressao shout); POV (variante 0, expressao angry) | multidao: 18 de POR/POV
 - Animacao: - | batalha encenada
-- Objetos/modelos: -
+- Objetos/modelos: kit/marco_olinda
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): batalhas, guararapes
 - RISCOS: nenhum
 
 ## Cena b5 - Em mil seiscentos e cinquenta e quatro, os holandeses foram embora de ...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): NAS (variante 0, expressao sad); POV (variante 0, expressao grin)
 - Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: ship
+- Objetos/modelos: ship, kit/marco_olinda
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): holandeses
 - RISCOS: nenhum
 
 ## Cena b6 - E se tivessem ficado? Talvez o Nordeste fosse hoje outro país, falando...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): ART (variante 0, expressao surprised, segura paper); POV (variante 0, expressao suspicious)
@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Isso não é tão maluco: o Suriname, aqui do lado do Brasil, foi colônia...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: interior madeira | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): ART (variante 0, expressao shock)
@@ -88,7 +88,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 5 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): NAS (variante 0, expressao smug); ART (variante 0, expressao grin)
 - Animacao: conversar | interacao: entregar
-- Objetos/modelos: kit/scroll, buildings/house_small, nature/picket_fence, nature/tree_oak
+- Objetos/modelos: kit/scroll, kit/marco_olinda, buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): holanda, ingleses, nova, suriname, vila
 - RISCOS: nenhum
 
@@ -98,7 +98,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao shock); POV (variante 1, expressao surprised); ART (variante 0, expressao laugh) | multidao: 20 de POV
 - Animacao: reagir | batalha encenada
-- Objetos/modelos: buildings/skyscraper, buildings/house_small, nature/picket_fence, nature/tree_oak
+- Objetos/modelos: buildings/skyscraper, kit/marco_olinda, buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
@@ -108,7 +108,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): NAS (variante 0, expressao smile)
 - Animacao: conversar
-- Objetos/modelos: kit/flag_pole
+- Objetos/modelos: kit/flag_pole, kit/marco_olinda
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): mapa, terras
 - RISCOS: nenhum
 
@@ -118,6 +118,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/flag_pole | b0, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_olinda | b0, b1, b2, b3, b4, b5, b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/bridge | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/apartment | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py

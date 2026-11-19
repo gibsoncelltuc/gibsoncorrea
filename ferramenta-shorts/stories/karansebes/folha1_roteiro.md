@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 - Narracao: Um oficial mandou usar a artilharia, e os canhões dispararam contra o próprio exército.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: artilharia -> burst + som de tiro/explosao; canhões -> burst + som de tiro/explosao; dispararam -> burst + som de tiro/explosao
+- Efeito + som nas palavras-chave: artilharia -> burst + som de tiro/explosao; canhões -> burst + som de tiro/explosao; dispararam -> burst + som de tiro/explosao; encena: fala (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

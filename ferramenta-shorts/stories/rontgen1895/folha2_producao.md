@@ -24,8 +24,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - Wilhelm Röntgen passava as noites no laboratório, testando um tubo de ...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): ROE (variante 0, expressao stern)
 - Animacao: conversar
 - Objetos/modelos: kit/crookes_tube
@@ -34,10 +34,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Numa noite, ele cobriu o tubo com papelão preto, e apagou a luz.
 - Cenario: interior madeira | luz: noite | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): ROE (variante 0, expressao suspicious, segura paper)
-- Animacao: -
+- Animacao: encena
 - Objetos/modelos: kit/crookes_tube
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): papelao, tubo
 - RISCOS: nenhum
@@ -116,7 +116,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (1): ROE (variante 0, expressao smile) | multidao: 10 de ROE
+- Personagens principais (1): ROE (variante 0, expressao smile) | multidao: 30 de POV
 - Animacao: conversar
 - Objetos/modelos: kit/xray_plate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): descoberta, raio
@@ -135,11 +135,13 @@ kit/crookes_tube | b2, b3, b5 | pronto | conferir na folha de contato se le bem;
 
 
 ## Video inteiro
-- Objeto heroi: kit/xray_plate | grandes momentos: b8, b10 | planos abertos: 3 | mistura: close 19% | medio 65% | aberto 10% | detalhe 6%
+- Objeto heroi: kit/xray_plate | grandes momentos: b8, b10 | planos abertos: 3 | mistura: close 19% | medio 69% | aberto 10% | detalhe 2%
 - Interacoes: b0 aproxima-se, b6 entregar, b9 avanca e o outro recua
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - pouca variedade de cenario ({'street': 5, 'interior madeira': 7}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: pouca variedade de cenario ({'street': 5, 'interior madeira': 7}): o video fica parecendo todos os outros
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh rontgen1895 bN bM` (so essas cenas).

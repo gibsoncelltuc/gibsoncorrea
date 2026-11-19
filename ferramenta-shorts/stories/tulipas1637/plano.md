@@ -10,7 +10,7 @@ b4 | two | -  | objeto na mao | vender (stars + som de sino) | -
 b5 | two | -  | interior, objeto na mao | fortuna (stars + som de sino) | -
 b6 | group | dia  | interior, placa: LEILÃO, objeto na mao | encena: pega (lift) (acao + som de efeito) | -
 b7 | orbit | - limpo | batalha aberta com tiros, tropa, placa: PÂNICO, objeto na mao | correu (dust + som de impacto); vender (stars + som de sino); comprador (stars + som de sino) | -
-b8 | two | -  | interior, objeto na mao | - | -
+b8 | two | -  | interior, objeto na mao | encena: desaba (acao + som de efeito) | -
 b9 | close | -  | - | - | -
 
 Mistura de planos: close 8% | medio 76% | aberto 13% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)

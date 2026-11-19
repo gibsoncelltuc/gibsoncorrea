@@ -6,10 +6,10 @@ b0 | two | -  | interior, placa: 2021 | (rosto) determined (expr + som de efeito
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | - | - | -
 b3 | two | -  | interior, objeto na mao | - | -
-b4 | two | -  | interior | - | -
+b4 | two | -  | interior | encena: fala (point) (acao + som de efeito) | -
 b5 | low | -  | - | - | -
 b6 | two | -  | interior | - | -
-b7 | group | -  | tropa | - | -
+b7 | group | -  | tropa | encena: sai (acao + som de efeito) | -
 b8 | crowd | -  | batalha aberta com tiros, tropa, placa: VULCÃO | (rosto) laugh (expr + som de efeito) | -
 b9 | two | -  | objeto na mao | - | -
 b10 | orbit | -  | batalha aberta com tiros, tropa, placa: CIDADE BITCOIN | - | -

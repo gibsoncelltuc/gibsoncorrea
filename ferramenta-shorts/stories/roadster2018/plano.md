@@ -3,13 +3,13 @@
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
 b0 | two | -  | - | - | -
-b1 | close | -  | - | - | -
+b1 | close | -  | - | encena: pensa (think) (acao + som de efeito) | -
 b2 | reveal | -  | tropa, mapa | - | -
-b3 | two | -  | - | - | -
+b3 | two | -  | - | (rosto) determined (expr + som de efeito) | -
 b4 | crowd | -  | batalha aberta com tiros, tropa | - | -
-b5 | two | -  | - | - | -
-b6 | orbit | -  | batalha aberta com tiros, tropa, placa: NÃO ENTRE EM PÂNICO | pânico (dust + som de impacto) | -
-b7 | group | noite  | - | - | -
+b5 | two | -  | interior | encena: senta (acao + som de efeito) | -
+b6 | orbit | -  | batalha aberta com tiros, tropa, placa: NÃO ENTRE EM PÂNICO | (rosto) scared (expr + som de efeito); pânico (dust + som de impacto) | -
+b7 | group | noite  | - | encena: sai (acao + som de efeito) | -
 b8 | group | noite  | - | - | -
 b9 | crowd | noite  | batalha aberta com tiros, tropa, placa: STARMAN | - | -
 

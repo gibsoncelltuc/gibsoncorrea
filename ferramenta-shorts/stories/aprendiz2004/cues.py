@@ -35,6 +35,7 @@ gibber(F(_A[9] + int((_A[10] - _A[9]) * 0.2)), 4, 230, 0.12); gibber(F(_A[9] + i
 steps(F(_A[9]), F(_A[9] + 40), 0.12, 0.3)
 whoosh(F(_A[10]), 0.4, 0.35)
 laughs(F(_A[10] + int((_A[11] - _A[10]) * 0.2))); laughs(F(_A[10] + int((_A[11] - _A[10]) * 0.6)), 5, 360)
+ding(F(int(_W(2))))
 ding(F(int(_W(35))))
 ding(F(int(_W(56))))
 ding(F(int(_W(121))))

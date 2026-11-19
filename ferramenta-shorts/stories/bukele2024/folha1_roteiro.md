@@ -4,7 +4,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 
 ## Cena b0  (~6.9 s)
 - Narracao: Em fevereiro de dois mil e vinte e quatro, um presidente foi reeleito com uma das maiores votações do mundo.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@30
@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 
 ## Cena b2  (~7.6 s)
 - Narracao: Ele tinha chegado ao poder em dois mil e dezenove, com trinta e sete anos, prometendo acabar com a violência das gangues.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@40
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 - Narracao: No dia da eleição, os salvadorenhos foram às urnas.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: voto (reach) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -67,27 +67,27 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 
 ## Cena b7  (~4.5 s)
 - Narracao: Os apoiadores lotaram as ruas. Ele comemorou numa sacada, diante de uma multidão.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: 84,6%
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b8  (~5.2 s)
 - Narracao: O motivo mais citado pelos eleitores: a queda enorme no número de assassinatos no país.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: voto (reach) -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: HOSPITAL
 - Funcao na historia: desenvolvimento
 
 ## Cena b9  (~5.2 s)
 - Narracao: Organizações de direitos humanos, porém, criticaram as prisões em massa e o estado de exceção.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: protesto (up) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -101,3 +101,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL
 
+
+## Fontes (fatos conferidos)
+- https://en.wikipedia.org/wiki/2024_Salvadoran_presidential_election
+- https://www.idea.int/democracytracker/report/el-salvador/february-2024

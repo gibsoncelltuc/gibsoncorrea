@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b2  (~4.5 s)
 - Narracao: Juntas, elas pesam mais de quinhentos milhões de toneladas. Parece muito, não parece?
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b3  (~3.8 s)
 - Narracao: Então todo mundo conta até três, e pula ao mesmo tempo!
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: whoosh@20, thump@40
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: puff@20, ring@40
@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b4  (~4.8 s)
 - Narracao: Acontece que a Terra pesa trilhões de vezes mais que toda a humanidade junta.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: sting@30
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@30
@@ -49,9 +49,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b5  (~4.8 s)
 - Narracao: Ela se mexeria menos que a largura de um átomo. Nenhum instrumento conseguiria medir.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: examina (think) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b9  (~3.4 s)
 - Narracao: Ou seja: pular junto é fácil. Difícil seria a volta.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -

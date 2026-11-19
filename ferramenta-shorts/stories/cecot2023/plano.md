@@ -5,11 +5,11 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | -  | placa: 2023, objeto na mao | encena: constroi (hammer) (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | interior, objeto na mao | - | -
-b3 | close | -  | interior | - | -
+b3 | close | -  | interior | encena: prende (push) (acao + som de efeito) | -
 b4 | crowd | -  | batalha aberta com tiros, tropa, placa: 40 MIL | - | -
 b5 | low | -  | - | - | -
 b6 | low | -  | objeto na mao | - | -
-b7 | two | -  | - | - | -
+b7 | two | -  | - | encena: protesto (up) (acao + som de efeito) | -
 b8 | two | -  | interior, objeto na mao | - | -
 b9 | orbit | -  | batalha aberta com tiros, tropa, placa: DEBATE | - | -
 b10 | close | -  | - | - | -

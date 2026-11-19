@@ -8,7 +8,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): JOS (variante 0, expressao grin); ETI (variante 0, expressao nervous)
 - Animacao: conversar | interacao: susto
-- Objetos/modelos: kit/balloon, sheep
+- Objetos/modelos: kit/balloon, kit/marco_versalhes, sheep
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balao, galo, ovelha, pato, primeiros
 - RISCOS: nenhum
 
@@ -18,14 +18,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
 - Animacao: -
-- Objetos/modelos: -
+- Objetos/modelos: kit/marco_versalhes
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca
 - RISCOS: nenhum
 
 ## Cena b2 - Os irmãos Montgolfier, donos de uma fábrica de papel, repararam que a ...
-- Cenario: palace | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Cenario: interior loja | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): JOS (variante 0, expressao surprised); ETI (variante 0, expressao suspicious)
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/campfire
@@ -34,8 +34,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Então costuraram um balão gigante de pano e papel, e encheram de ar qu...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): ETI (variante 0, expressao grin); JOS (variante 0, expressao grin, segura paper)
 - Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/balloon
@@ -43,52 +43,52 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Só que ninguém sabia se dava para respirar lá em cima. E se o ar do cé...
-- Cenario: palace | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): NOB (variante 0, expressao suspicious); ETI (variante 0, expressao nervous)
 - Animacao: discutir | interacao: discutir
-- Objetos/modelos: -
+- Objetos/modelos: kit/marco_versalhes
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
 ## Cena b5 - A solução: mandar bichos na frente. Uma ovelha, um pato e um galo entr...
-- Cenario: palace | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (1): JOS (variante 0, expressao smile)
 - Animacao: conversar
-- Objetos/modelos: sheep, duck, rooster
+- Objetos/modelos: kit/marco_versalhes, sheep, duck, rooster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cesta, frente, galo, ovelha, pato, solucao
 - RISCOS: nenhum
 
 ## Cena b6 - No palácio de Versalhes, o rei Luís dezesseis e a rainha Maria Antonie...
-- Cenario: palace | luz: day | clima: limpo
+- Cenario: medieval | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): REI (variante 0, expressao smile); RAI (variante 0, expressao surprised); NOB (variante 0, expressao grin) | multidao: 20 de POV/NOB
+- Personagens principais (3): REI (variante 0, expressao smile); RAI (variante 0, expressao surprised); NOB (variante 0, expressao grin) | multidao: 30 de POV/NOB
 - Animacao: - | batalha encenada
-- Objetos/modelos: kit/balloon, buildings/castle_tower
+- Objetos/modelos: kit/balloon, kit/marco_versalhes, buildings/castle_tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): multidao, palacio, rainha, versalhes
 - RISCOS: nenhum
 
 ## Cena b7 - Acontece que o balão levantou voo de verdade, e foi embora pelo céu, c...
-- Cenario: palace | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): POV (variante 0, expressao shock); POV (variante 1, expressao surprised)
 - Animacao: reagir | interacao: insiste
-- Objetos/modelos: kit/balloon_air, kit/balloon
+- Objetos/modelos: kit/balloon_air, kit/marco_versalhes, kit/balloon
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balao, bichos
 - RISCOS: nenhum
 
 ## Cena b8 - Oito minutos depois, ele desceu num bosque a uns três quilômetros dali...
-- Cenario: palace | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Cenario: street | luz: day | clima: limpo
+- Camera: track = travelling lateral acompanhando quem anda
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): ETI (variante 0, expressao nervous); JOS (variante 0, expressao worried)
-- Animacao: reagir | interacao: vai ate o outro | o ultimo personagem ENTRA andando
-- Objetos/modelos: kit/balloon_air, nature/tree_pine, nature/tree_oak, nature/bush
+- Animacao: -
+- Objetos/modelos: kit/balloon_air, kit/marco_versalhes, nature/tree_pine, nature/tree_oak, nature/bush
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): irmaos
 - RISCOS: nenhum
 
@@ -98,7 +98,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): JOS (variante 0, expressao laugh); ETI (variante 0, expressao laugh)
 - Animacao: conversar | interacao: abracar
-- Objetos/modelos: sheep, duck, rooster
+- Objetos/modelos: kit/marco_versalhes, sheep, duck, rooster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): tres
 - RISCOS: nenhum
 
@@ -108,7 +108,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao laugh); JOS (variante 0, expressao laugh); ETI (variante 0, expressao grin) | multidao: 18 de POV
 - Animacao: comemorar | batalha encenada
-- Objetos/modelos: kit/balloon_air
+- Objetos/modelos: kit/balloon_air, kit/marco_versalhes
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, humanidade
 - RISCOS: nenhum
 
@@ -118,7 +118,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): ETI (variante 0, expressao smile)
 - Animacao: conversar
-- Objetos/modelos: kit/balloon, sheep
+- Objetos/modelos: kit/balloon, kit/marco_versalhes, sheep
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): galo, ovelha, pato
 - RISCOS: nenhum
 
@@ -128,6 +128,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/balloon | b0, b3, b6, b7, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_versalhes | b0, b1, b4, b5, b6, b7, b8, b9, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 sheep | b0, b5, b9, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/campfire | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 duck | b5, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -140,8 +141,8 @@ nature/bush | b8 | pronto | conferir na folha de contato se le bem; se parecer c
 
 
 ## Video inteiro
-- Objeto heroi: kit/balloon | grandes momentos: b6, b10 | planos abertos: 3 | mistura: close 20% | medio 64% | aberto 9% | detalhe 6%
-- Interacoes: b0 susto, b2 avanca e o outro recua, b3 o outro se aproxima, b4 discutir, b7 insiste, b8 vai ate o outro, b9 abracar
+- Objeto heroi: kit/balloon | grandes momentos: b6, b10 | planos abertos: 3 | mistura: close 20% | medio 68% | aberto 9% | detalhe 2%
+- Interacoes: b0 susto, b2 avanca e o outro recua, b3 o outro se aproxima, b4 discutir, b7 insiste, b9 abracar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

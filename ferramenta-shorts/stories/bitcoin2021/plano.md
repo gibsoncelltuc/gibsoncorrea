@@ -6,11 +6,11 @@ b0 | two | -  | - | dinheiro (stars + som de sino) | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | group | -  | interior | - | -
 b3 | crowd | -  | batalha aberta com tiros, tropa, placa: 7 DE SETEMBRO DE 2021 | - | -
-b4 | two | -  | objeto na mao | pagar (stars + som de sino) | -
-b5 | orbit | -  | batalha aberta com tiros, tropa, placa: CARTEIRA CHIVO | - | -
-b6 | two | -  | - | - | -
+b4 | two | noite  | objeto na mao | pagar (stars + som de sino) | -
+b5 | orbit | -  | batalha aberta com tiros, tropa, interior, placa: CARTEIRA CHIVO | - | -
+b6 | two | -  | interior | - | -
 b7 | orbit | -  | tropa | - | -
 b8 | two | -  | - | - | -
 
-Mistura de planos: close 4% | medio 60% | aberto 28% | detalhe 8%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 4% | medio 62% | aberto 28% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)

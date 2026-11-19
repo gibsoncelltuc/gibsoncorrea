@@ -6,14 +6,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Em novembro de dois mil e dezenove, na Califórnia, a empresa de Elon Musk apresentou o Cybertruck, uma picape elétrica de aço.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: fala (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: CALIFÓRNIA
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~4.8 s)
 - Narracao: Na apresentação, Musk disse que as janelas eram feitas de um vidro super resistente.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b2  (~4.8 s)
 - Narracao: Para provar, o designer Franz von Holzhausen jogou uma esfera de aço na janela.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b3  (~3.8 s)
 - Narracao: E o vidro rachou, ao vivo, na frente de todo mundo.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: thump@3
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: burst@3
@@ -40,27 +40,27 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b4  (~3.8 s)
 - Narracao: Ele tentou de novo, em outra janela, e ela também rachou.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: thump@4
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: quebra (throw) -> acao + som de efeito
 - Efeito visual marcado: burst@4
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b5  (~6.6 s)
 - Narracao: Depois, Musk explicou na internet que, nos ensaios, a mesma esfera tinha batido na mesma janela sem nem arranhar.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: fala (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b6  (~5.5 s)
 - Narracao: A plateia riu, a internet também, e a cena deu o que falar no mundo inteiro.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: sting@10, thump@40
-- Efeito + som nas palavras-chave: riu -> stars + som de sino
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; riu -> stars + som de sino
 - Efeito visual marcado: ring@12, dust@40
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

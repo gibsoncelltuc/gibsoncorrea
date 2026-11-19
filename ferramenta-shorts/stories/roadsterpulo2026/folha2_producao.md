@@ -4,8 +4,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Elon Musk prometeu um carro que voa. Em outubro de dois mil e vinte e ...
 - Cenario: outback | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): MUS (variante 0, expressao grin); ENA (variante 0, expressao surprised)
 - Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/roadster26_air
@@ -23,7 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - O novo Roadster da Tesla tinha sido prometido em dois mil e dezessete....
-- Cenario: outback | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ENG (variante 0, expressao suspicious, segura paper); MUS (variante 0, expressao smug)
@@ -33,27 +33,27 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - O segredo eram dez pequenos propulsores da SpaceX, movidos a ar compri...
-- Cenario: outback | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ENA (variante 0, expressao grin, segura paper); ENG (variante 0, expressao surprised)
-- Animacao: conversar | interacao: cochichar
+- Animacao: conversar | interacao: cochichar | o ultimo personagem ENTRA andando
 - Objetos/modelos: kit/roadster26
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): carro, segredo, spacex
 - RISCOS: nenhum
 
 ## Cena b4 - Acontece que, na frente da plateia, o carro acelerou e pulou por cima ...
-- Cenario: outback | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): POV (variante 0, expressao surprised); POV (variante 1, expressao shock); MUS (variante 0, expressao grin) | multidao: 20 de POV
+- Personagens principais (3): POV (variante 0, expressao surprised); POV (variante 1, expressao shock); MUS (variante 0, expressao grin) | multidao: 30 de POV
 - Animacao: reagir | batalha encenada
 - Objetos/modelos: vehicles/truck, vehicles/car, vehicles/car_blue, kit/roadster26_air, kit/roadster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): carro, cinco, frente, plateia, tesla
 - RISCOS: nenhum
 
 ## Cena b5 - Depois, girou no ar e desceu de novo sobre as quatro rodas.
-- Cenario: outback | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): ENA (variante 0, expressao shock)
@@ -83,7 +83,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - Segundo a Tesla, ele vai de zero a cem em cerca de um segundo. A fabri...
-- Cenario: outback | luz: day | clima: limpo
+- Cenario: interior loja | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 5 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): ENG (variante 0, expressao grin, segura paper); POV (variante 0, expressao surprised)
@@ -93,10 +93,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - O vídeo foi visto milhões de vezes. Metade do mundo ficou impressionad...
-- Cenario: outback | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): POV (variante 0, expressao laugh); POV (variante 1, expressao grin); MUS (variante 0, expressao laugh) | multidao: 18 de POV
+- Personagens principais (3): POV (variante 0, expressao laugh); POV (variante 1, expressao grin); MUS (variante 0, expressao laugh) | multidao: 30 de POV
 - Animacao: comemorar | batalha encenada
 - Objetos/modelos: kit/roadster26_air
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): video
@@ -127,11 +127,13 @@ nature/picket_fence | b8 | pronto | conferir na folha de contato se le bem; se p
 
 
 ## Video inteiro
-- Objeto heroi: kit/roadster26_air | grandes momentos: b4, b9 | planos abertos: 3 | mistura: close 9% | medio 74% | aberto 10% | detalhe 8%
+- Objeto heroi: kit/roadster26_air | grandes momentos: b4, b9 | planos abertos: 3 | mistura: close 9% | medio 76% | aberto 10% | detalhe 5%
 - Interacoes: b0 insiste, b2 discutir, b3 cochichar, b6 pular, b7 reverencia, b8 entregar
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - objeto heroi (kit/roadster26_air) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: objeto heroi (kit/roadster26_air) sem close de camera
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh roadsterpulo2026 bN bM` (so essas cenas).

@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Era fevereiro de mil novecentos e quarenta e dois, logo depois de Pearl Harbor, e Los Angeles vivia com medo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: (rosto) scared -> expr + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: LOS ANGELES
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: "É um inimigo!", gritou um soldado. Acontece que não havia nada ali, só nuvens e fumaça.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: gritou -> ring + som de alerta
+- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou -> ring + som de alerta
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Foram mais de mil tiros de canhão, e os estilhaços caíram na cidade, que ficou em pânico.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: cannon@40, cannon@100, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160, gun@164, gun@168
-- Efeito + som nas palavras-chave: tiros -> burst + som de tiro/explosao; canhão -> burst + som de tiro/explosao; caíram -> dust + som de impacto
+- Efeito + som nas palavras-chave: (rosto) scared -> expr + som de efeito; tiros -> burst + som de tiro/explosao; canhão -> burst + som de tiro/explosao; caíram -> dust + som de impacto
 - Efeito visual marcado: burst@40, burst@100
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Algumas pessoas morreram, por acidente e por susto, mas nenhum inimigo apareceu.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: morreram -> puff + som de baque; apareceu -> dust + som de impacto
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreram -> puff + som de baque; apareceu -> dust + som de impacto
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

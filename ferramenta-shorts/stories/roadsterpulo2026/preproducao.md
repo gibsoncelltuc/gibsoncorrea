@@ -6,17 +6,17 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | outback | two | 2 | conversar, INTERAGEM: insiste | kit/roadster26_air | - | -
 b1 | outback | reveal | 8 | parados (so fala e pisca) | - | - | -
-b2 | outback | two | 2 | discutir, INTERAGEM: discutir | kit/roadster26, kit/roadster | paper | -
-b3 | outback | two | 2 | conversar, INTERAGEM: cochichar | kit/roadster26 | paper | -
-b4 | outback | crowd | 23 | reagir, batalha | vehicles/truck, vehicles/car, vehicles/car_blue, kit/roadster26_air, kit/roadster | - | -
-b5 | outback | low | 1 | reagir | kit/roadster26_air | - | -
+b2 | countryside | two | 2 | discutir, INTERAGEM: discutir | kit/roadster26, kit/roadster | paper | -
+b3 | countryside | two | 2 | conversar, INTERAGEM: cochichar, alguem chega andando | kit/roadster26 | paper | -
+b4 | mountain | crowd | 33 | reagir, batalha | vehicles/truck, vehicles/car, vehicles/car_blue, kit/roadster26_air, kit/roadster | - | -
+b5 | mountain | low | 1 | reagir | kit/roadster26_air | - | -
 b6 | outback | two | 2 | comemorar, INTERAGEM: pular | - | - | -
 b7 | outback | two | 2 | discutir, INTERAGEM: reverencia | - | - | -
-b8 | outback | two | 2 | conversar, INTERAGEM: entregar | kit/roadster26, nature/picket_fence, kit/roadster | paper | -
-b9 | outback | orbit | 21 | comemorar, batalha | kit/roadster26_air | - | -
+b8 | interior loja | two | 2 | conversar, INTERAGEM: entregar | kit/roadster26, nature/picket_fence, kit/roadster | paper | -
+b9 | mountain | orbit | 33 | comemorar, batalha | kit/roadster26_air | - | -
 b10 | outback | close | 1 | comemorar | kit/roadster26_air | - | -
 
-OBJETO HEROI: kit/roadster26_air - aparece em 5 cena(s), close nele em 1
+OBJETO HEROI: kit/roadster26_air - aparece em 5 cena(s), close nele em 0  << AVISO: sem close no objeto heroi
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b9
 Interacoes entre personagens: b0 insiste, b2 discutir, b3 cochichar, b6 pular, b7 reverencia, b8 entregar
 

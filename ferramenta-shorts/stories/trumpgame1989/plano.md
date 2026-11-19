@@ -9,7 +9,7 @@ b3 | close | -  | interior | - | -
 b4 | two | -  | interior, objeto na mao | - | -
 b5 | two | -  | interior | comprou (stars + som de sino) | -
 b6 | crowd | -  | batalha aberta com tiros, tropa, placa: 800 MIL | vender (stars + som de sino); Vendeu (stars + som de sino); fracasso (puff + som de baque) | -
-b7 | two | -  | - | - | -
+b7 | two | -  | - | encena: sai (acao + som de efeito) | -
 b8 | two | -  | - | - | -
 b9 | close | -  | - | - | -
 b10 | orbit | -  | batalha aberta com tiros, tropa, placa: VOLTOU | - | -

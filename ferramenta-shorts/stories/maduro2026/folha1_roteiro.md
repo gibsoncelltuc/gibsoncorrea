@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b2  (~4.1 s)
 - Narracao: Era o presidente venezuelano Nicolás Maduro, acusado pela justiça americana de narcoterrorismo.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -33,14 +33,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Durante meses, a inteligência americana estudou cada passo dele, em segredo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: segredo -> ring + som de alerta
+- Efeito + som nas palavras-chave: segredo -> ring + som de alerta; encena: examina (think) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b4  (~6.2 s)
 - Narracao: Às duas da manhã, helicópteros levaram os soldados da Força Delta direto para o complexo onde Maduro estava.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: whoosh@20, whoosh@50
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: whoosh@20, whoosh@50
@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b5  (~3.8 s)
 - Narracao: Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do país.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: sting@20, thump@40
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@20, puff@40
@@ -58,9 +58,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b6  (~5.5 s)
 - Narracao: Acontece que, em menos de três horas, Maduro foi capturado e levado para fora da Venezuela.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: prende (push) -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Nenhum militar americano morreu. A notícia parou o mundo, e dividiu opiniões entre países.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: morreu -> puff + som de baque
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque
 - Efeito visual marcado: ring@30
 - Texto na tela: MUNDO
 - Funcao na historia: GRANDE MOMENTO
@@ -101,3 +101,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL
 
+
+## Fontes (fatos conferidos)
+- https://en.wikipedia.org/wiki/2026_United_States_intervention_in_Venezuela
+- https://www.nytimes.com/2026/01/03/us/politics/trump-capture-maduro-venezuela.html
+- https://www.war.gov/News/News-Stories/Article/Article/4370431/trump-announces-us-militarys-capture-of-maduro/
+- https://www.cnn.com/2026/01/03/politics/nicolas-maduro-capture-venezuela

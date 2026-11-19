@@ -4,11 +4,11 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | -  | placa: DANÇA | dançando (stars + som de sino); descobriu (ring + som de alerta) | -
 b1 | reveal | -  | tropa, mapa | - | -
-b2 | two | -  | - | - | -
+b2 | two | -  | - | encena: constroi (hammer) (acao + som de efeito) | -
 b3 | two | -  | objeto na mao | - | -
 b4 | low | -  | - | - | -
 b5 | two | -  | - | - | -
-b6 | orbit | -  | tropa | - | -
+b6 | orbit | -  | tropa | (rosto) shock (expr + som de efeito) | -
 b7 | two | -  | - | dança (stars + som de sino) | -
 b8 | two | -  | interior, objeto na mao | - | -
 b9 | crowd | -  | batalha aberta com tiros, tropa, placa: TESTE | - | -

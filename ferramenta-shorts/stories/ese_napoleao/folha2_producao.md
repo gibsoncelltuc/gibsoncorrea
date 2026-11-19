@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Os ingleses resistiram por horas, e o combate ficou por um fio.
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): WEL (variante 0, expressao worried); ING (variante 0, expressao nervous) | multidao: 16 de ING/FRA
@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - No fim da tarde, chegou o exército prussiano para ajudar Wellington. E...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): ING (variante 0, expressao shout); ING (variante 1, expressao grin); FRA (variante 0, expressao scared) | multidao: 18 de ING/FRA
@@ -84,8 +84,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Acontece que a maioria dos historiadores pensa diferente: ele provavel...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: close = close no rosto; empurra devagar
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): PRO (variante 0, expressao smug)
 - Animacao: conversar
 - Objetos/modelos: kit/crown
@@ -123,7 +123,7 @@ kit/scroll | b9 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/crown | grandes momentos: b2, b3, b4, b5 | planos abertos: 4 | mistura: close 22% | medio 58% | aberto 14% | detalhe 6%
+- Objeto heroi: kit/crown | grandes momentos: b2, b3, b4, b5 | planos abertos: 4 | mistura: close 24% | medio 58% | aberto 14% | detalhe 4%
 - Interacoes: b0 vai ate o outro, b2 entregar, b6 empurrar, b7 discutir, b9 aproxima-se
 - RISCOS GERAIS: nenhum
 

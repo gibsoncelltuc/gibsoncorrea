@@ -22,9 +22,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 
 ## Cena b2  (~6.6 s)
 - Narracao: Os irmãos Montgolfier, donos de uma fábrica de papel, repararam que a fumaça quente fazia sacos de papel flutuarem.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@40
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: calor (reach) -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -33,14 +33,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 - Narracao: Então costuraram um balão gigante de pano e papel, e encheram de ar quente.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: calor (reach) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b4  (~6.2 s)
 - Narracao: Só que ninguém sabia se dava para respirar lá em cima. E se o ar do céu matasse?
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -49,9 +49,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 
 ## Cena b5  (~5.5 s)
 - Narracao: A solução: mandar bichos na frente. Uma ovelha, um pato e um galo entraram na cesta.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: quimico (pour) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -67,16 +67,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 
 ## Cena b7  (~5.9 s)
 - Narracao: Acontece que o balão levantou voo de verdade, e foi embora pelo céu, com os bichos dentro.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@20, ding@50
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: pega (lift) -> acao + som de efeito; encena: sai -> acao + som de efeito
 - Efeito visual marcado: whoosh@20, stars@50
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
 ## Cena b8  (~5.9 s)
 - Narracao: Oito minutos depois, ele desceu num bosque a uns três quilômetros dali. Os irmãos correram para ver.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: correram -> dust + som de impacto
 - Efeito visual marcado: -

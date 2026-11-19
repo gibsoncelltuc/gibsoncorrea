@@ -23,7 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Juntas, elas pesam mais de quinhentos milhões de toneladas. Parece mui...
-- Cenario: street | luz: golden | clima: limpo
+- Cenario: countryside | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): PRO (variante 0, expressao stern, segura paper); POV (variante 0, expressao suspicious)
@@ -33,17 +33,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - Então todo mundo conta até três, e pula ao mesmo tempo!
-- Cenario: street | luz: golden | clima: limpo
+- Cenario: countryside | luz: golden | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): POV (variante 0, expressao shout); POV (variante 1, expressao laugh); POV (variante 2, expressao grin) | multidao: 24 de POV
+- Personagens principais (3): POV (variante 0, expressao shout); POV (variante 1, expressao laugh); POV (variante 2, expressao grin) | multidao: 30 de POV
 - Animacao: comemorar | batalha encenada
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
 ## Cena b4 - Acontece que a Terra pesa trilhões de vezes mais que toda a humanidade...
-- Cenario: street | luz: golden | clima: limpo
+- Cenario: harbor | luz: golden | clima: limpo
 - Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): PRO (variante 0, expressao smug)
@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Ela se mexeria menos que a largura de um átomo. Nenhum instrumento con...
-- Cenario: street | luz: golden | clima: limpo
+- Cenario: harbor | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): PRO (variante 0, expressao grin); POV (variante 0, expressao shock)
@@ -83,17 +83,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - Aí seria o caos: bilhões de pessoas presas no mesmo lugar, sem estrada...
-- Cenario: street | luz: golden | clima: limpo
+- Cenario: interior madeira | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): PRO (variante 0, expressao stern, segura paper); POV (variante 1, expressao nervous)
 - Animacao: reagir | interacao: o outro se aproxima
-- Objetos/modelos: buildings/house_small, nature/picket_fence, nature/tree_oak
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): caos, pessoas
 - RISCOS: nenhum
 
 ## Cena b9 - Ou seja: pular junto é fácil. Difícil seria a volta.
-- Cenario: street | luz: golden | clima: limpo
+- Cenario: harbor | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): POV (variante 0, expressao laugh); POV (variante 1, expressao grin)
@@ -118,9 +118,6 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/globe | b0, b4, b5, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/house_small | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/picket_fence | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/tree_oak | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro

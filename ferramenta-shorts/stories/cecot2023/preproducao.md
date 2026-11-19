@@ -4,17 +4,17 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | outback | two | 2 | conversar, INTERAGEM: aproxima-se | kit/prison | paper | -
-b1 | outback | reveal | 8 | reagir | kit/prison | - | -
+b0 | outback | two | 2 | conversar, INTERAGEM: aproxima-se | kit/prison, kit/volcano | paper | -
+b1 | outback | reveal | 8 | reagir | kit/prison, kit/volcano | - | -
 b2 | interior pedra | two | 2 | discutir, INTERAGEM: discutir | - | paper | -
 b3 | interior loja | close | 1 | conversar | - | - | -
-b4 | mountain | crowd | 19 | batalha | kit/prison | - | -
-b5 | mountain | low | 1 | conversar | kit/prison, buildings/castle_tower | - | -
-b6 | mountain | low | 2 | conversar, INTERAGEM: avanca e o outro recua | - | paper | -
-b7 | outback | two | 2 | discutir, INTERAGEM: vai ate o outro | - | - | -
+b4 | mountain | crowd | 19 | batalha | kit/prison, kit/volcano | - | -
+b5 | mountain | low | 1 | conversar | kit/prison, kit/volcano, buildings/castle_tower | - | -
+b6 | mountain | low | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/volcano | paper | -
+b7 | outback | two | 2 | discutir, INTERAGEM: vai ate o outro | kit/volcano | - | -
 b8 | interior loja | two | 2 | discutir, INTERAGEM: cochichar | - | paper | -
-b9 | outback | orbit | 21 | batalha | kit/prison | - | -
-b10 | outback | close | 1 | conversar | kit/prison | - | -
+b9 | outback | orbit | 21 | batalha | kit/prison, kit/volcano | - | -
+b10 | outback | close | 1 | conversar | kit/prison, kit/volcano | - | -
 
 OBJETO HEROI: kit/prison - aparece em 6 cena(s), close nele em 0  << AVISO: sem close no objeto heroi
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b9

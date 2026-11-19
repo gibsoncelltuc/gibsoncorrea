@@ -10,7 +10,7 @@ b4 | two | -  | placa: AGUARDENTE, objeto na mao | (rosto) laugh (expr + som de 
 b5 | group | -  | tropa | cavalaria: 2 soldados a cavalo (AUT) (acao + som de efeito); chegou (dust + som de impacto); discussão (puff + som de baque); tiro (burst + som de tiro/explosao) | -
 b6 | group | -  | batalha aberta com tiros, tropa, placa: TURCOS! | (rosto) shout (expr + som de efeito); gritou: (ring + som de alerta); pânico (dust + som de impacto) | -
 b7 | orbit | -  | batalha aberta com tiros, tropa | atirava (burst + som de tiro/explosao) | -
-b8 | group | -  | tropa | artilharia (burst + som de tiro/explosao); canhões (burst + som de tiro/explosao); dispararam (burst + som de tiro/explosao) | -
+b8 | group | -  | tropa | artilharia (burst + som de tiro/explosao); canhões (burst + som de tiro/explosao); dispararam (burst + som de tiro/explosao); encena: fala (point) (acao + som de efeito) | -
 b9 | group | dawn  | tropa, placa: 10.000?, objeto na mao | chegaram (dust + som de impacto); baixas (puff + som de baque) | -
 b10 | close | dawn  | placa: FOGO AMIGO | (rosto) laugh (expr + som de efeito); venceram (stars + som de sino); tiro (burst + som de tiro/explosao) | -
 

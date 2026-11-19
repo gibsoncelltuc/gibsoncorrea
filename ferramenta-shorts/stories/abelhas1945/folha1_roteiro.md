@@ -22,16 +22,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b2  (~6.9 s)
 - Narracao: Ele construiu uma colmeia com vidro para ver tudo lá dentro, e colocou pratinhos com água e açúcar no jardim.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: thump@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: constroi (hammer) -> acao + som de efeito
 - Efeito visual marcado: puff@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b3  (~4.5 s)
 - Narracao: Depois pintou pontinhos coloridos nas costas das abelhas, para saber quem era quem.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: thump@40
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: puff@40
@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b4  (~5.5 s)
 - Narracao: Acontece que, quando uma abelha achava o açúcar, ela voltava e dançava em cima do favo.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: ding@20, sting@50
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20, ring@50
@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b5  (~5.9 s)
 - Narracao: Se a comida estava perto, ela dava voltinhas. Se estava longe, fazia um oito, rebolando no meio.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: E o mais incrível: o ângulo da rebolada mostrava a direção, comparada com o sol.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@20
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: (rosto) shock -> expr + som de efeito
 - Efeito visual marcado: ring@20
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b9  (~5.5 s)
 - Narracao: Ele repetiu os testes centenas de vezes, mudando o açúcar de lugar. As abelhas sempre acertavam.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: sting@30
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@30
@@ -94,7 +94,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b10  (~4.8 s)
 - Narracao: Em mil novecentos e setenta e três, já idoso, ele ganhou o Prêmio Nobel.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: ding@20, ding@60
 - Efeito + som nas palavras-chave: ganhou -> stars + som de sino; Prêmio -> stars + som de sino
 - Efeito visual marcado: stars@20, stars@60
