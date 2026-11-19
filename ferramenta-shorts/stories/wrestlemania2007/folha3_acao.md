@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 15 - Trump na Batalha dos Bilionários
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 40 acoes catalogadas, 40 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 41 acoes catalogadas, 41 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 5.4s - 19 palavras - plano two
@@ -88,14 +88,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | empurrar | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 53.7s a 56.2s - 10 palavras - plano close
+## Cena b9 - 53.7s a 56.2s - 10 palavras - plano two
 > "O dono da luta livre saiu do ringue completamente careca."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | saiu (54.9s) | ACAO: sai | sai andando pela lateral | OK |
 | 2 | careca (56.2s) | ACAO: raspa | maquina na cabeca + cabelo voando | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 3 | - | INTERACAO | insiste | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b10 - 57.6s a 61.9s - 17 palavras - plano two
 > "E ainda sobrou para Trump: o juiz aplicou um golpe nele também, e ele foi ao chão."
