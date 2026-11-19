@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - As Guerras do Bacalhau
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 23 acoes catalogadas, 23 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 25 acoes catalogadas, 25 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 9.3s - 26 palavras - plano two
@@ -43,8 +43,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-| 2 | - | PLACA | CORTADORES DE REDE | OK |
+| 1 | rede (32.6s) | ACAO: x_pesca | puxa a linha + respingo | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | CORTADORES DE REDE | OK |
 
 ## Cena b5 - 33.0s a 38.5s - 16 palavras - plano orbit
 > "Eles cortavam os cabos das redes inglesas, e os navios batiam um no outro, de propósito."
@@ -78,6 +79,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-| 2 | - | PLACA | TUDO POR UM PEIXE | OK |
+| 1 | batendo (53.3s) | ACAO: x_bate | bate + estouro | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | TUDO POR UM PEIXE | OK |
 

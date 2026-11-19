@@ -17,7 +17,7 @@ b9 | street | group | 8 | discutir, INTERAGEM: discutir | - | - | -
 b10 | street | crowd | 21 | comemorar, batalha | kit/tires, kit/ball, kit/stove | - | -
 b11 | interior loja | close | 1 | conversar | kit/stove, kit/tires | - | -
 
-OBJETO HEROI: kit/borracha - aparece em 0 cena(s), close nele em 0  << AVISO: sem close no objeto heroi
+OBJETO HEROI: kit/borracha - aparece em 0 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b2, b10
 Interacoes entre personagens: b0 avanca e o outro recua, b3 o outro se aproxima, b4 empurrar, b5 insiste, b8 abracar, b9 discutir
 

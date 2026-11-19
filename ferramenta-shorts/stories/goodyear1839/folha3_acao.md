@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 17 - A Borracha que Caiu no Fogão
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 40 acoes catalogadas, 40 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 5.3s - 17 palavras - plano two
@@ -65,7 +65,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | caiu (36.1s) | ACAO: cai | o material voa da mao e cai no alvo pela GRAVIDADE (parabola, 0,53 s) + respingo | OK |
 | 2 | fogão (37.1s) | ACAO: calor | vapor/calor saindo | OK |
-| 3 | - | ATUACAO | reagir | OK |
+| 3 | esperava (38.8s) | ACAO: x_espera | espera de bracos cruzados | OK |
+| 4 | - | ATUACAO | reagir | OK |
 
 ## Cena b7 - 40.7s a 47.0s - 15 palavras - plano low
 > "Acontece que não derreteu. Ficou firme e elástica, como couro. Tinha nascido a borracha vulcanizada."
@@ -80,8 +81,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | abracar | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | abraçou (48.8s) | ACAO: x_abraca | abraco | OK |
+| 2 | - | INTERACAO | abracar | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b9 - 53.5s a 59.0s - 16 palavras - plano group
 > "Mas outros copiaram a ideia, e ele passou anos brigando na justiça. Morreu cheio de dívidas."

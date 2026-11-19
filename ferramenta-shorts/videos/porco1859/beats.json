@@ -245,7 +245,8 @@
    "shot": "reveal",
    "who": [
     "AME:0:stern",
-    "AME:1:stern"
+    "AME:1:stern",
+    "FAZ:0:scared"
    ],
    "crowd": {
     "n": 16,

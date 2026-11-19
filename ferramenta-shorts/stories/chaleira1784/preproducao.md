@@ -9,7 +9,7 @@ b1 | harbor | reveal | 10 | parados (so fala e pisca) | navios ao fundo | - | -
 b2 | interior pedra | two | 2 | discutir, INTERAGEM: discutir | - | - | -
 b3 | interior pedra | two | 2 | conversar, INTERAGEM: reverencia | - | paper | -
 b4 | harbor | group | 16 | conversar, INTERAGEM: insiste | war/flagpole | - | -
-b5 | harbor | crowd | 18 | batalha | cannon, navios ao fundo | - | -
+b5 | harbor | crowd | 18 | encena, batalha | cannon, navios ao fundo | - | -
 b6 | street | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/kettle | - | -
 b7 | street | crowd | 15 | reagir, batalha | kit/kettle | flag | -
 b8 | interior pedra | two | 2 | encena, INTERAGEM: entregar | - | money | -

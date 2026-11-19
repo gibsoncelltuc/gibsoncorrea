@@ -27,3 +27,5 @@ const SPEC = {
     S('b10', A[10], A[11] - 1, X, "day", { h: 2.4, d0: 5.6, d1: 4.9, vary: false, hero: { hero: 'any', frame: 'medium', minH: 0.07, main: 1 }, trans: 'dissolve', actors: [Object.assign(pp(X, "TRU", 0, 0.0, 1.3, "smug", { pose: 'cheer' }), { gests: [[WS(148) - 4, WS(148) + 46, 'up']] })], props: [{ asset: "buildings/shop", at: [X + -4.8, -11.0], s: 1.05, ry: 0.35, drop: false }, { asset: "kit/helicopter_air", at: [X + -1.6, -1.6], s: 0.6, drop: false }], fx: [{ k: 'stars', a: A[10] + 6, b: A[10] + 40, at: [X + -1.6, DK + 1.6, -1.1], s: 0.8 }, { k: 'birds', a: A[10], b: A[11] - 1, at: [X, DK + 6.0, -30], n: 5, dir: -1, off: 8 }, { k: "stars", a: WS(148), b: WS(148) + 28, at: [X + 0.0, DK + 0.5, 2.5], s: 1.1 }, { k: 'stars', a: WS(148) + 2, b: WS(148) + 30, at: [X + 0.0, DK + 3.2, 1.3], s: 0.7 }] })
   ],
 };
+
+// FOLHA3 abe609813070 29 acoes=29 faltando=0

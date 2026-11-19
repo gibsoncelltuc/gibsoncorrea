@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que, no púlpito, ele pediu: só um segundo, por favor. E tirou o celular do bolso.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, sting@40
-- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; encena: tira (lift) -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; encena: tira (lift) -> acao + som de efeito; encena: x_fone (lift) -> acao + som de efeito
 - Efeito visual marcado: stars@20, ring@40
 - Texto na tela: -
 - Funcao na historia: VIRADA

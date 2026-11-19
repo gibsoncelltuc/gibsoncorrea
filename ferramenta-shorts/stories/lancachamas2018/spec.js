@@ -22,3 +22,5 @@ const SPEC = {
     S('b8', A[8], A[9] - 1, X, "golden", { h: 2.3, d0: 8.4, d1: 7.4, hero: { hero: 'any', frame: 'medium', minH: 0.07, main: 2 }, trans: 'dissolve', actors: [pp(X, "MUS", 0, -1.15, 1.3, "laugh", { pose: 'talk', inter: { k: 'step', a: Math.round(A[8] + (A[9] - 1 - (A[8])) * 0.12), b: Math.round(A[8] + (A[9] - 1 - (A[8])) * 0.82), dir: 1, n: 2, ph: 0 } }), pp(X, "CMP", 0, 1.15, 1.0, "smile", { pose: 'talk', inter: { k: 'nod', a: Math.round(A[8] + (A[9] - 1 - (A[8])) * 0.2), b: Math.round(A[8] + (A[9] - 1 - (A[8])) * 0.9), dir: -1, n: 2, ph: 3.14 } })], props: [{ asset: "buildings/shop", at: [X + -4.8, -11.0], s: 1.05, ry: 0.35, drop: false }, { asset: "kit/flamethrower", at: [X + 3.15, -0.3], s: 1.3, drop: false }, { asset: "kit/extinguisher", at: [X + -3.15, 0.2], s: 1.1, drop: false }, { asset: "kit/marco_hollywood", at: [X + 0, -110], s: 1.0, drop: false }], fx: [{ k: 'stars', a: A[8] + 6, b: A[8] + 40, at: [X + 1.8, DK + 1.6, 0.2], s: 0.8 }, { k: 'birds', a: A[8], b: A[9] - 1, at: [X, DK + 7.5, -30], n: 6, dir: 1, off: 8 }] })
   ],
 };
+
+// FOLHA3 7cb308ccefa4 25 acoes=25 faltando=0

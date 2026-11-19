@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 06 - A Guerra do Porco
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 43 acoes catalogadas, 43 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 47 acoes catalogadas, 47 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 2.6s - 11 palavras - plano two
@@ -27,7 +27,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | encontrou (11.2s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 2 | - | CENA | animal: pig come | OK |
+| 2 | comendo (12.0s) | ACAO: x_come | leva a comida a boca | OK |
+| 3 | - | CENA | animal: pig come | OK |
 
 ## Cena b3 - 14.3s a 18.6s - 13 palavras - plano two
 > "Ele pegou a espingarda, e atirou. O porco era de um vizinho inglês."
@@ -45,9 +46,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | entregar | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | $10 | OK |
+| 1 | ofereceu (25.2s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | - | INTERACAO | entregar | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | $10 | OK |
 
 ## Cena b5 - 26.7s a 32.6s - 14 palavras - plano two
 > ""Dez? Ele vale cem!", gritou o dono, empurrando o dinheiro de volta. Ninguém cedeu."
@@ -87,20 +89,22 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | atacar (51.2s) | EFEITO: ring | onda + som | OK |
-| 2 | - | INTERACAO | vai ate o outro | OK |
-| 3 | - | ATUACAO | discutir | OK |
+| 1 | recebeu (50.2s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | atacar (51.2s) | EFEITO: ring | onda + som | OK |
+| 3 | - | INTERACAO | vai ate o outro | OK |
+| 4 | - | ATUACAO | discutir | OK |
 
 ## Cena b9 - 56.8s a 62.1s - 13 palavras - plano orbit
 > "Os soldados passaram meses trocando insultos, e depois, festas. Ninguém deu um tiro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | tiro (62.1s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | - | CENA | cavalaria: 4 soldados a cavalo (ING) | OK |
-| 3 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | ATUACAO | discutir | OK |
+| 1 | deu (61.7s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | tiro (62.1s) | EFEITO: burst | estouro/clarao + som | OK |
+| 3 | - | CENA | cavalaria: 4 soldados a cavalo (ING) | OK |
+| 4 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 6 | - | ATUACAO | discutir | OK |
 
 ## Cena b10 - 63.3s a 66.0s - 11 palavras - plano two
 > "Treze anos depois, um árbitro decidiu que a ilha era americana."

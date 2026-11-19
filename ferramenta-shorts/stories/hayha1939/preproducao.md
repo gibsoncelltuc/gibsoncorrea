@@ -7,7 +7,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | arctic | track | 4 | andando | - | - | -
 b1 | arctic | crowd | 13 | reagir | nature/tree_pine, nature/tree_oak, nature/bush | - | -
 b2 | arctic | close | 1 | conversar | buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow | - | -
-b3 | arctic | crowd | 13 | batalha | - | - | -
+b3 | arctic | crowd | 13 | encena, batalha | - | - | -
 b4 | arctic | close | 1 | conversar | - | - | -
 b5 | arctic | two | 2 | conversar, INTERAGEM: susto | nature/picket_fence | - | -
 b6 | arctic | group | 7 | reagir | - | - | -

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - A Praga da Dança
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 3.5s - 14 palavras - plano two
@@ -70,10 +70,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | ideia (38.6s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
 | 2 | música (40.5s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | dança (41.9s) | EFEITO: stars | estrelinhas + som | OK |
-| 4 | caíram (43.0s) | EFEITO: dust | poeira + som | OK |
-| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 6 | - | ATUACAO | dancar | OK |
+| 3 | música (40.5s) | ACAO: x_canta | canta de bracos abertos + onda de som | OK |
+| 4 | dança (41.9s) | EFEITO: stars | estrelinhas + som | OK |
+| 5 | caíram (43.0s) | EFEITO: dust | poeira + som | OK |
+| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 7 | - | ATUACAO | dancar | OK |
 
 ## Cena b7 - 44.9s a 49.3s - 15 palavras - plano two
 > "As crônicas da época falam em mortes, mas os historiadores discutem quantas foram de verdade."

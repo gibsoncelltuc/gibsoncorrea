@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 9
 - Narracao: A frota holandesa estava ancorada perto de Den Helder, e o mar congelou em volta dela.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_treme -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: FROTA CONGELADA
 - Funcao na historia: desenvolvimento

@@ -23,3 +23,5 @@ const SPEC = {
     S('b8', A[8], A[9] - 1, X, "day", { h: 2.3, d0: 9.492, d1: 8.362, hero: { hero: 'any', frame: 'medium', minH: 0.07, main: 3 }, trans: 'dissolve', actors: [pp(X, "BUK", 0, -2.1, 1.3, "smile", { over: { hold: "paper" }, inter: { k: 'lunge', a: Math.round(A[8] + (A[9] - 1 - (A[8])) * 0.12), b: Math.round(A[8] + (A[9] - 1 - (A[8])) * 0.82), dir: 1, n: 2, ph: 0 } }), pp(X, "POV", 0, 0.0, 1.0, "grin", { pose: 'talk', inter: { k: 'nod', a: Math.round(A[8] + (A[9] - 1 - (A[8])) * 0.2), b: Math.round(A[8] + (A[9] - 1 - (A[8])) * 0.9), dir: -1, n: 2, ph: 3.14 } }), pp(X, "CLI", 0, 2.1, 1.6, "laugh", { pose: 'talk' })], props: [{ asset: "buildings/shop", at: [X + -4.8, -11.0], s: 1.05, ry: 0.35, drop: false }, { asset: "kit/bitcoin", at: [X + 1.8, -0.4], s: 1.4, drop: false }, { asset: "kit/volcano", at: [X + 0, -120], s: 9.0, drop: false }, { asset: "kit/coin", at: [X + -1.7, -2.3], s: 1.5, drop: false }], fx: [{ k: 'stars', a: A[8] + 6, b: A[8] + 40, at: [X + 1.8, DK + 1.6, 0.1], s: 0.8 }, { k: 'birds', a: A[8], b: A[9] - 1, at: [X, DK + 7.5, -30], n: 6, dir: 1, off: 8 }] })
   ],
 };
+
+// FOLHA3 595c57d00400 20 acoes=19 faltando=0

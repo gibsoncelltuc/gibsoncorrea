@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 16 - A Torre que Pegou um Foguete no Ar
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.7s - 18 palavras - plano two
@@ -11,9 +11,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | mandou (0.8s) | ACAO: fala | aponta explicando | OK |
 | 2 | construir (1.1s) | ACAO: constroi | martela e o objeto cresce | OK |
-| 3 | - | INTERACAO | entregar | OK |
-| 4 | - | ATUACAO | conversar | OK |
-| 5 | - | PLACA | 2024 | OK |
+| 3 | deu (5.5s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 4 | - | INTERACAO | entregar | OK |
+| 5 | - | ATUACAO | conversar | OK |
+| 6 | - | PLACA | 2024 | OK |
 
 ## Cena b1 - 7.0s a 11.1s - 18 palavras - plano reveal
 > "Foi em outubro de dois mil e vinte e quatro, na base de foguetes da SpaceX, no Texas."
@@ -68,8 +69,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | susto | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | fecharam (48.7s) | ACAO: x_abre | empurra a porta | OK |
+| 2 | - | INTERACAO | susto | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b8 - 51.8s a 56.6s - 15 palavras - plano orbit
 > "Os engenheiros comemoraram aos gritos. Era a primeira vez que alguém fazia isso na história."

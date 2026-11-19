@@ -5,7 +5,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | -  | interior, placa: 2024, objeto na mao | - | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | interior | - | -
-b3 | two | -  | interior, objeto na mao | - | -
+b3 | two | -  | interior, objeto na mao | encena: x_solta (up) (acao + som de efeito) | -
 b4 | crowd | -  | batalha aberta com tiros, tropa, objeto na mao | ilegal (ring + som de alerta) | -
 b5 | two | -  | - | encena: voto (reach) (acao + som de efeito) | -
 b6 | close | -  | interior, objeto na mao | - | -

@@ -4,13 +4,13 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | -  | placa: 1912 | (rosto) shock (expr + som de efeito); impossível (ring + som de alerta); Afundou (dust + som de impacto); encena: desaba (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
-b2 | two | noite  | - | (rosto) shout (expr + som de efeito); gritou: (ring + som de alerta); encena: grita (up) (acao + som de efeito) | -
+b2 | two | noite  | - | (rosto) shout (expr + som de efeito); gritou: (ring + som de alerta); encena: grita (up) (acao + som de efeito); encena: x_entrega (reach) (acao + som de efeito) | -
 b3 | close | noite  | - | - | -
 b4 | crowd | noite  | batalha aberta com tiros, tropa, placa: BOTES | (rosto) sad (expr + som de efeito); morreram (puff + som de baque) | -
 b5 | two | -  | objeto na mao | - | -
 b6 | two | -  | - | - | -
 b7 | close | -  | - | - | -
-b8 | two | -  | - | - | -
+b8 | two | -  | - | encena: x_vigia (cross) (acao + som de efeito) | -
 b9 | orbit | -  | batalha aberta com tiros, tropa, placa: VIDAS SALVAS | - | -
 b10 | close | -  | - | - | -
 

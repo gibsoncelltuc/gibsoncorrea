@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 24 - O Foguete que Voltou de Ré
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 7.4s - 21 palavras - plano two
@@ -35,10 +35,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | explodiram (22.2s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | explodiram (22.2s) | ACAO: desaba | desaba: nuvem de poeira + tremor | OK |
-| 3 | - | INTERACAO | susto | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 1 | deram (20.4s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | explodiram (22.2s) | EFEITO: burst | estouro/clarao + som | OK |
+| 3 | explodiram (22.2s) | ACAO: desaba | desaba: nuvem de poeira + tremor | OK |
+| 4 | - | INTERACAO | susto | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
 ## Cena b4 - 23.3s a 28.9s - 16 palavras - plano two
 > "Mas a equipe insistiu. Em vinte e um de dezembro, o Falcon nove decolou levando satélites."
@@ -68,8 +69,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | insiste | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 1 | abrindo (45.2s) | ACAO: x_abre | empurra a porta | OK |
+| 2 | - | INTERACAO | insiste | OK |
+| 3 | - | ATUACAO | reagir | OK |
 
 ## Cena b8 - 47.4s a 51.5s - 12 palavras - plano orbit
 > "Os funcionários da SpaceX gritaram como em final de Copa do Mundo."

@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 9
 - Narracao: Uma das maiores invasões do Pacífico Norte tomou uma ilha completamente vazia.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_bebe (lift) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: OPERAÇÃO ILHA VAZIA
 - Funcao na historia: FECHO/PIADA FINAL
