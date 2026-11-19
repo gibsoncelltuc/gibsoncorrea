@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 
 ## Cena b5  (~4.8 s)
 - Narracao: Acontece que o soldado morreu, e a Grécia deu um ultimato furioso à Bulgária.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque
 - Efeito visual marcado: -

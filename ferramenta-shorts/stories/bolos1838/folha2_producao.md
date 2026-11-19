@@ -53,12 +53,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - O México riu da cobrança, e não pagou um centavo.
-- Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Cenario: countryside | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): GEN (variante 0, expressao laugh); OFI (variante 0, expressao grin)
 - Animacao: comemorar | interacao: vai ate o outro
-- Objetos/modelos: -
+- Objetos/modelos: kit/cake_table
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): centavo, cobranca, mexico
 - RISCOS: nenhum
 
@@ -117,7 +117,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/cake_table | b0, b1, b3, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/cake_table | b0, b1, b3, b5, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/shop | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/stall | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 cannon | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -125,13 +125,11 @@ buildings/castle_tower | b7 | pronto | conferir na folha de contato se le bem; s
 
 
 ## Video inteiro
-- Objeto heroi: kit/cake_table | grandes momentos: b0, b6, b7, b8 | planos abertos: 5 | mistura: close 24% | medio 56% | aberto 18% | detalhe 2%
+- Objeto heroi: kit/cake_table | grandes momentos: b0, b6, b7, b8 | planos abertos: 5 | mistura: close 24% | medio 55% | aberto 18% | detalhe 4%
 - Interacoes: b2 entregar, b3 aproxima-se, b5 vai ate o outro, b9 cochichar
-- RISCOS GERAIS: 
-  - objeto heroi (kit/cake_table) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: objeto heroi (kit/cake_table) sem close de camera
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh bolos1838 bN bM` (so essas cenas).

@@ -13,7 +13,7 @@ b5 | countryside | two | 2 | discutir, INTERAGEM: discutir | - | - | -
 b6 | street | crowd | 22 | batalha | cannon, buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b7 | interior madeira | two | 2 | discutir, INTERAGEM: susto | - | paper | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: entregar, alguem chega andando | - | paper | -
-b9 | street | close | 1 | conversar | kit/searchlight | - | -
+b9 | harbor | close | 1 | conversar | kit/searchlight | - | -
 
 OBJETO HEROI: kit/searchlight - aparece em 3 cena(s), close nele em 2
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 3 -> b2, b4, b6

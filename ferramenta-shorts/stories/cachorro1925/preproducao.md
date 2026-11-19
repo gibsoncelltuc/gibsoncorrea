@@ -9,7 +9,7 @@ b1 | mountain | reveal | 10 | parados (so fala e pisca) | - | - | -
 b2 | mountain | track | 2 | andando | dog | - | -
 b3 | mountain | track | 2 | andando | dog | - | -
 b4 | countryside | group | 12 | conversar, INTERAGEM: empurrar, batalha | - | - | -
-b5 | mountain | close | 1 | conversar | - | - | -
+b5 | countryside | close | 1 | conversar | - | - | -
 b6 | mountain | orbit | 22 | batalha | - | - | -
 b7 | interior madeira | two | 2 | reagir, INTERAGEM: susto | - | paper | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | - | paper | -

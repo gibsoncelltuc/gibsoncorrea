@@ -11,7 +11,7 @@ b3 | arctic | crowd | 12 | batalha | vehicles/helicopter | flag | -
 b4 | arctic | two | 2 | comemorar, INTERAGEM: pular | war/flagpole, kit/whisky, kit/tequila_bolt | flag | -
 b5 | arctic | low | 12 | conversar, INTERAGEM: o outro se aproxima, alguem chega andando | war/flagpole | flag | -
 b6 | mountain | orbit | 14 | conversar, batalha | kit/whisky, kit/tequila_bolt | paper | -
-b7 | arctic | two | 2 | conversar, INTERAGEM: cochichar | war/flagpole, kit/tequila_bolt | - | -
+b7 | harbor | two | 2 | conversar, INTERAGEM: cochichar | war/flagpole, kit/tequila_bolt | - | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | - | paper | -
 b9 | interior pedra | close | 1 | comemorar | kit/whisky | - | -
 

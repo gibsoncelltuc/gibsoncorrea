@@ -80,8 +80,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: comemorar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comandante, imprensa, tropa
-- RISCOS: 
-  - a narracao cita "comandante" e ninguem em cena esta vestido a carater -> CORRECAO: por no "who" um personagem com "profissao": "general" no figurino (coroa/farda/chapeu proprios)
+- RISCOS: nenhum
 
 ## Cena b8 - O exército tentou de novo, abateu algumas centenas, e os emus continua...
 - Cenario: outback | luz: desert | clima: limpo
@@ -133,8 +132,7 @@ vehicles/truck | b5 | pronto | conferir na folha de contato se le bem; se parece
 - Interacoes: b2 vai ate o outro, b6 susto, b9 entregar
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- b7: a narracao cita "comandante" e ninguem em cena esta vestido a carater
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh emus1932 bN bM` (so essas cenas).

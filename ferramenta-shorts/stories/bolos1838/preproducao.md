@@ -9,14 +9,14 @@ b1 | street | reveal | 10 | parados (so fala e pisca) | kit/cake_table, building
 b2 | interior loja | group | 3 | conversar, INTERAGEM: entregar, alguem chega andando | - | - | -
 b3 | interior pedra | two | 2 | conversar, INTERAGEM: aproxima-se | kit/cake_table | paper | -
 b4 | interior pedra | close | 1 | conversar | - | - | -
-b5 | interior madeira | two | 2 | comemorar, INTERAGEM: vai ate o outro | - | - | -
+b5 | countryside | two | 2 | comemorar, INTERAGEM: vai ate o outro | kit/cake_table | - | -
 b6 | harbor | orbit | 20 | batalha | navios ao fundo | - | -
 b7 | street | crowd | 22 | reagir, batalha | cannon, buildings/castle_tower | - | -
 b8 | countryside | orbit | 20 | reagir, batalha | cannon | - | -
 b9 | countryside | two | 2 | INTERAGEM: cochichar | - | paper, coin | -
 b10 | street | close | 1 | usa o objeto da mao | kit/cake_table | coin | -
 
-OBJETO HEROI: kit/cake_table - aparece em 4 cena(s), close nele em 0  << AVISO: sem close no objeto heroi
+OBJETO HEROI: kit/cake_table - aparece em 5 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 4 -> b0, b6, b7, b8
 Interacoes entre personagens: b2 entregar, b3 aproxima-se, b5 vai ate o outro, b9 cochichar
 

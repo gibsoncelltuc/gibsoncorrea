@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic |
 
 ## Cena b7  (~5.2 s)
 - Narracao: Durante anos, os dois lados voltaram lá para trocar bandeira e garrafa, sempre muito educados.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -

@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Durante anos, os dois lados voltaram lá para trocar bandeira e garrafa...
-- Cenario: arctic | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): CAN (variante 0, expressao smug); DIN (variante 0, expressao smug)
@@ -116,11 +116,9 @@ kit/tequila_bolt | b4, b6, b7 | pronto | conferir na folha de contato se le bem;
 ## Video inteiro
 - Objeto heroi: kit/whisky | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 22% | medio 57% | aberto 14% | detalhe 7%
 - Interacoes: b0 discutir, b2 empurrar, b4 pular, b5 o outro se aproxima, b7 cochichar, b8 entregar
-- RISCOS GERAIS: 
-  - pouca variedade de cenario ({'arctic': 6, 'harbor': 1, 'mountain': 1, 'interior pedra': 2}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: pouca variedade de cenario ({'arctic': 6, 'harbor': 1, 'mountain': 1, 'interior pedra': 2}): o video fica parecendo todos os outros
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh uisque1984 bN bM` (so essas cenas).

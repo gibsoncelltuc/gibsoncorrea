@@ -13,7 +13,7 @@ b5 | street | crowd | 22 | discutir, batalha | - | - | -
 b6 | interior madeira | two | 2 | conversar, INTERAGEM: susto | - | paper | -
 b7 | street | orbit | 22 | batalha | vehicles/locomotive, buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b8 | interior pedra | two | 2 | INTERAGEM: entregar | - | coin, paper | -
-b9 | street | close | 1 | conversar | kit/melon | - | -
+b9 | countryside | close | 1 | conversar | kit/melon | - | -
 
 OBJETO HEROI: kit/melon - aparece em 3 cena(s), close nele em 2
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b5, b7
