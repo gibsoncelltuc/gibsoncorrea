@@ -97,7 +97,16 @@
    ],
    "acao": "discutir",
    "say": "Normalmente, a parte de baixo de um foguete é descartada, ou pousa sobre pernas. Isso custa caro, e pesa.",
-   "objetos": false
+   "objetos": false,
+   "set": "harbor",
+   "props": [
+    [
+     "kit/booster_air",
+     2.4,
+     -9.0,
+     1.0
+    ]
+   ]
   },
   {
    "shot": "two",
@@ -122,7 +131,8 @@
    ],
    "say": "A ideia de Musk: tirar as pernas do foguete, e fazer a própria torre de lançamento agarrar o propulsor na volta.",
    "objetos": false,
-   "detalhe": false
+   "detalhe": false,
+   "set": "harbor"
   },
   {
    "shot": "two",
@@ -141,7 +151,8 @@
    "acao": "conversar",
    "say": "Os engenheiros apelidaram os braços de pauzinhos, como os de comida japonesa. E a torre, de Mechazilla.",
    "objetos": false,
-   "detalhe": false
+   "detalhe": false,
+   "set": "harbor"
   },
   {
    "shot": "crowd",
@@ -187,7 +198,7 @@
    "detalhe": false
   },
   {
-   "shot": "low",
+   "shot": "reveal",
    "who": [
     "ENG:0:nervous"
    ],
@@ -213,7 +224,8 @@
    ],
    "say": "Minutos depois, ele voltou do espaço, descendo de ré, direto na direção da torre.",
    "objetos": false,
-   "detalhe": false
+   "detalhe": false,
+   "shot_lock": true
   },
   {
    "shot": "two",
@@ -300,7 +312,8 @@
     "ding@40"
    ],
    "say": "Musk comemorou nas redes sociais: a torre tinha pegado o foguete.",
-   "objetos": false
+   "objetos": false,
+   "interior": true
   },
   {
    "shot": "two",
@@ -319,7 +332,8 @@
    "acao": "conversar",
    "say": "Assim, o propulsor que antes ia para o lixo pode ser usado de novo, várias vezes.",
    "objetos": false,
-   "detalhe": false
+   "detalhe": false,
+   "set": "harbor"
   },
   {
    "shot": "close",

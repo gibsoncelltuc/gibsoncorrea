@@ -2,11 +2,11 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | interior, placa: 2021 | (rosto) determined (expr + som de efeito); dinheiro (stars + som de sino); encena: paga (reach) @7 (acao + som de efeito) | -
+b0 | two | -  | placa: 2021 | (rosto) determined (expr + som de efeito); dinheiro (stars + som de sino); encena: paga (reach) @7 (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | - | encena: paga (reach) @13 (acao + som de efeito) | -
 b3 | two | -  | interior, objeto na mao | - | -
-b4 | two | -  | interior | encena: fala (point) @2 (acao + som de efeito) | -
+b4 | two | -  | - | encena: fala (point) @2 (acao + som de efeito) | -
 b5 | low | -  | - | - | -
 b6 | two | -  | interior | - | -
 b7 | group | -  | tropa | encena: sai @2 (acao + som de efeito) | -

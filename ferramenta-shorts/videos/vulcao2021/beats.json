@@ -78,7 +78,9 @@
     "ding@30"
    ],
    "say": "O presidente de El Salvador resolveu fabricar dinheiro digital com a energia de um vulcão.",
-   "detalhe": false
+   "detalhe": false,
+   "interior": false,
+   "objetos": false
   },
   {
    "shot": "reveal",
@@ -157,7 +159,9 @@
     "sting@40"
    ],
    "say": "Então ele mandou a empresa de energia do governo usar o calor do vulcão Tecapa.",
-   "detalhe": false
+   "detalhe": false,
+   "interior": false,
+   "objetos": false
   },
   {
    "shot": "low",
