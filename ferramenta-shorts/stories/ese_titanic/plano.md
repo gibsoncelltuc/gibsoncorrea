@@ -14,5 +14,5 @@ b8 | two | -  | - | encena: x_vigia (cross) @6 (acao + som de efeito) | -
 b9 | orbit | -  | batalha aberta com tiros, tropa, placa: VIDAS SALVAS | - | -
 b10 | close | -  | - | - | -
 
-Mistura de planos: close 33% | medio 52% | aberto 12% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 33% | medio 49% | aberto 12% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - A Guerra do Cachorro Perdido
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 5.6s - 16 palavras - plano two
@@ -53,14 +53,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | ULTIMATO | OK |
 
-## Cena b5 - 21.9s a 27.0s - 15 palavras - plano track
+## Cena b5 - 21.9s a 27.0s - 15 palavras - plano orbit
 > "Poucos dias depois, o exército grego invadiu a Bulgária e ocupou a região de Petrich."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | invadiu (24.1s) | EFEITO: dust | poeira + som | OK |
 | 2 | invadiu (24.1s) | ACAO: chega | entra andando pela lateral | OK |
-| 3 | - | PLACA | INVASÃO | OK |
+| 3 | - | CENA | tiros: 4 soldados caem no chao | OK |
+| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 5 | - | PLACA | INVASÃO | OK |
 
 ## Cena b6 - 27.4s a 31.5s - 12 palavras - plano two
 > "A Bulgária apelou para a Liga das Nações, o antecessor da ONU."
@@ -71,7 +73,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | reagir | OK |
 | 3 | - | PLACA | LIGA DAS NAÇÕES | OK |
 
-## Cena b7 - 31.9s a 36.3s - 13 palavras - plano crowd
+## Cena b7 - 31.9s a 36.3s - 13 palavras - plano group
 > "A Liga mandou a Grécia parar, retirar as tropas e pagar uma indenização."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -79,10 +81,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | mandou (32.6s) | ACAO: fala | aponta explicando | OK |
 | 2 | pagar (35.6s) | EFEITO: stars | estrelinhas + som | OK |
 | 3 | pagar (35.6s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 4 | - | CENA | tiros: 3 soldados caem no chao | OK |
-| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 6 | - | ATUACAO | reagir | OK |
-| 7 | - | PLACA | INDENIZAÇÃO | OK |
+| 4 | - | INTERACAO | entregar | OK |
+| 5 | - | ATUACAO | reagir | OK |
+| 6 | - | PLACA | INDENIZAÇÃO | OK |
 
 ## Cena b8 - 36.7s a 40.7s - 12 palavras - plano close
 > "A Grécia obedeceu, e ninguém sabe o que aconteceu com o cachorro."

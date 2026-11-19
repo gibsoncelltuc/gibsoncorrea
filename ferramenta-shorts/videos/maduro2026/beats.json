@@ -8,7 +8,7 @@
  "set": "street",
  "light": "day",
  "mood": "playful",
- "heroi": "kit/helicopter_air",
+ "heroi": "kit/scroll",
  "outfits": {
   "TRU": {
    "jacket": "#1f2f5c",
@@ -103,7 +103,16 @@
     "POV:0:nervous"
    ],
    "acao": "discutir",
-   "say": "Era o presidente venezuelano Nicolás Maduro, acusado pela justiça americana de narcoterrorismo."
+   "say": "Era o presidente venezuelano Nicolás Maduro, acusado pela justiça americana de narcoterrorismo.",
+   "props": [
+    [
+     "kit/scroll",
+     1.3,
+     0.6,
+     1.1
+    ]
+   ],
+   "detalhe": true
   },
   {
    "shot": "two",

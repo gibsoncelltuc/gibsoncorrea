@@ -8,7 +8,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: 3 GUERRAS | mapa: INGLATERRA
+- Texto na tela: 3 GUERRAS
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~6.2 s)
@@ -26,7 +26,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: 200 MILHAS
+- Texto na tela: 200 MILHAS | mapa: ISLÂNDIA
 - Funcao na historia: desenvolvimento
 
 ## Cena b3  (~3.8 s)
@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b4  (~6.2 s)
 - Narracao: A Islândia só tinha uns barquinhos da guarda costeira, mas eles tinham uma arma secreta: cortadores de rede.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: x_pesca (lift) @17 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -76,7 +76,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b8  (~5.9 s)
 - Narracao: Foi uma guerra de navios batendo e de redes cortadas, e tudo por causa de um peixe.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: x_bate (punch) @5 -> acao + som de efeito
 - Efeito visual marcado: -

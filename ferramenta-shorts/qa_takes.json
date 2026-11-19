@@ -1,17 +1,117 @@
 {
  "fails": [
   {
-   "f": 1268,
-   "shot": "b7",
+   "f": 68,
+   "shot": "b0",
    "why": [
-    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
+    "tru: HIDDEN behind red_tv/#6a4a2a"
    ]
   },
   {
-   "f": 1272,
-   "shot": "b7",
+   "f": 69,
+   "shot": "b0",
    "why": [
-    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
+    "tru: HIDDEN behind red_tv/#6a4a2a"
+   ]
+  },
+  {
+   "f": 116,
+   "shot": "b0_v",
+   "why": [
+    "cnd: head/torso cropped (box 0.786, 0.214, 1.071, 0.675)",
+    "cnd: HIDDEN behind red_tv/#6a4a2a"
+   ]
+  },
+  {
+   "f": 120,
+   "shot": "b0_v",
+   "why": [
+    "cnd: head/torso cropped (box 0.768, 0.237, 1.034, 0.671)",
+    "cnd: HIDDEN behind red_tv/#6a4a2a"
+   ]
+  },
+  {
+   "f": 634,
+   "shot": "b3_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 636,
+   "shot": "b3_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 640,
+   "shot": "b3_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 644,
+   "shot": "b3_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 648,
+   "shot": "b3_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 1740,
+   "shot": "b9_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1744,
+   "shot": "b9_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1745,
+   "shot": "b9_v",
+   "why": [
+    "tru: behind the camera"
+   ]
+  },
+  {
+   "f": 1748,
+   "shot": "b9_v",
+   "why": [
+    "tru: behind the camera"
+   ]
+  },
+  {
+   "f": 1752,
+   "shot": "b9_v",
+   "why": [
+    "tru: behind the camera"
+   ]
+  },
+  {
+   "f": 1756,
+   "shot": "b9_v",
+   "why": [
+    "tru: head/torso cropped (box -10.499, -0.806, -2.642, 1.673)"
+   ]
+  },
+  {
+   "f": 1760,
+   "shot": "b9_v",
+   "why": [
+    "tru: head/torso cropped (box -3.798, 0.133, -1.72, 1.095)"
    ]
   }
  ],

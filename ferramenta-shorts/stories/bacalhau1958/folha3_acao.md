@@ -11,8 +11,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | INTERACAO | o outro se aproxima | OK |
 | 2 | - | ATUACAO | conversar | OK |
-| 3 | - | MAPA | INGLATERRA | OK |
-| 4 | - | PLACA | 3 GUERRAS | OK |
+| 3 | - | PLACA | 3 GUERRAS | OK |
 
 ## Cena b1 - 9.6s a 15.9s - 18 palavras - plano two
 > "A Islândia é pequena, e vivia da pesca. Mas barcos ingleses pescavam bacalhau bem pertinho da costa dela."
@@ -28,7 +27,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | PLACA | 200 MILHAS | OK |
+| 1 | - | MAPA | ISLÂNDIA | OK |
+| 2 | - | PLACA | 200 MILHAS | OK |
 
 ## Cena b3 - 22.2s a 25.9s - 11 palavras - plano crowd
 > "A Inglaterra mandou a marinha para proteger os barcos de pesca."

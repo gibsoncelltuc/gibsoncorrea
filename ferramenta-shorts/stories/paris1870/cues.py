@@ -1,5 +1,5 @@
 _W = lambda i: _WORDS[min(i, len(_WORDS) - 1)]['s'] * 30   # frame da palavra i
-_A = [0] + [int(_W(i) - 3) for i in [17, 29, 37, 46, 60, 75, 84, 93]] + [FR]
+_A = [0] + [int(_W(i) - 3) for i in [17, 29, 37, 46, 60, 76, 86, 95]] + [FR]
 playful(F(_A[0]), F(_A[3]), 122)
 drone(F(_A[3]), F(_A[4]), 49); heartbeat(F(_A[3]), F(_A[4]), 72, 0.55)
 playful(F(_A[4]), F(_A[7]), 122)
@@ -22,12 +22,12 @@ gibber(F(_A[4] + int((_A[5] - _A[4]) * 0.2)), 4, 200, 0.12); gibber(F(_A[4] + in
 whoosh(F(_A[5]), 0.4, 0.35)
 ding(F(int(_W(63) - 2)), 0.5, 1175)
 whoosh(F(_A[6]), 0.4, 0.35)
-ding(F(int(_W(79) - 2)), 0.5, 880)
+ding(F(int(_W(80) - 2)), 0.5, 880)
 whoosh(F(_A[7]), 0.4, 0.35)
-ding(F(int(_W(90) - 2)), 0.5, 1319)
+ding(F(int(_W(92) - 2)), 0.5, 1319)
 whoosh(F(_A[8]), 0.4, 0.35)
-ding(F(int(_W(103) - 2)), 0.5, 988)
+ding(F(int(_W(105) - 2)), 0.5, 988)
 ding(F(int(_W(48))))
 ding(F(int(_W(55))))
 ding(F(int(_W(48))))
-sting(F(int(_W(108))))
+sting(F(int(_W(110))))

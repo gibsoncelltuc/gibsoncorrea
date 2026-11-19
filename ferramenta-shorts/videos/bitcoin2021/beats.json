@@ -164,7 +164,8 @@
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "set": "street"
   },
   {
    "say": "Nas primeiras horas, o aplicativo ficou fora do ar, por excesso de acessos.",

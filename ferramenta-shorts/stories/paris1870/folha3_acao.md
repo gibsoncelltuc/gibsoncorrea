@@ -24,7 +24,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | PLACA | CAVALOS, CÃES, GATOS | OK |
 
 ## Cena b2 - 10.7s a 13.3s - 8 palavras - plano two
-> "Depois, os ratos, que viraram um prato chique."
+> "Depois, os roedores, que viraram um prato chique."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -51,8 +51,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | PLACA | CASTOR E PÓLUX | OK |
 
-## Cena b5 - 22.2s a 27.4s - 15 palavras - plano orbit
-> "No Natal, um restaurante famoso serviu consomê de elefante, camelo assado e ensopado de canguru."
+## Cena b5 - 22.2s a 27.8s - 16 palavras - plano orbit
+> "No Natal, um restaurante famoso serviu consomê de elefante, costela de urso e ensopado de canguru."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -60,26 +60,26 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | reagir | OK |
 | 3 | - | PLACA | NATAL DE 1870 | OK |
 
-## Cena b6 - 27.8s a 30.7s - 9 palavras - plano close
-> "Tinha até gato com ratos, e pernil de lobo."
+## Cena b6 - 28.1s a 31.5s - 10 palavras - plano close
+> "Tinha até gato cercado de roedores, e pernil de lobo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | reagir | OK |
 | 2 | - | PLACA | GATO COM RATOS | OK |
 
-## Cena b7 - 31.1s a 34.1s - 9 palavras - plano wide
+## Cena b7 - 31.9s a 34.8s - 9 palavras - plano wide
 > "Para mandar notícias, os parisienses usavam balões e pombos-correio."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | PLACA | BALÕES E POMBOS | OK |
 
-## Cena b8 - 34.4s a 41.1s - 19 palavras - plano close
+## Cena b8 - 35.2s a 41.9s - 19 palavras - plano close
 > "O cerco acabou em janeiro de mil oitocentos e setenta e um, e Paris se rendeu, de barriga vazia."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | rendeu (40.0s) | ACAO: rende | maos para cima (rendicao) | OK |
+| 1 | rendeu (40.7s) | ACAO: rende | maos para cima (rendicao) | OK |
 | 2 | - | PLACA | PARIS SE RENDEU | OK |
 
