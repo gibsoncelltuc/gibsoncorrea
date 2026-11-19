@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 09 - A Guerra do Futebol
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 10 cenas, 150 palavras (~52 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 10 cenas, 149 palavras (~51 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: Dois países entraram em guerra depois de um jogo de futebol.
@@ -38,14 +38,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: 1 x 0
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b4  (~5.5 s)
-- Narracao: No segundo, El Salvador revidou. Torcedores se empurraram nas ruas, e os dois governos trocaram insultos.
+## Cena b4  (~5.2 s)
+- Narracao: No segundo, El Salvador revidou. Torcedores brigaram nas ruas, e os dois governos trocaram insultos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@45, thump@75
-- Efeito + som nas palavras-chave: encena: empurra (push) @7 -> acao + som de efeito
+- Efeito + som nas palavras-chave: brigaram -> puff + som de baque; encena: golpe (punch) @6 -> acao + som de efeito
 - Efeito visual marcado: burst@45, burst@75
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b5  (~4.8 s)
 - Narracao: Acontece que, no dia do terceiro jogo, El Salvador rompeu relações com o vizinho.

@@ -127,16 +127,12 @@
    "hora": "dia"
   },
   {
-   "shot": "group",
+   "shot": "crowd",
    "who": [
     "TOR:0:angry",
-    "TOR:1:shout",
-    "TOR:2:angry",
-    "TOR:3:shout"
+    "TOR:1:shout"
    ],
-   "interacao": "empurrar",
-   "acao": "discutir",
-   "say": "No segundo, El Salvador revidou. Torcedores se empurraram nas ruas, e os dois governos trocaram insultos.",
+   "say": "No segundo, El Salvador revidou. Torcedores brigaram nas ruas, e os dois governos trocaram insultos.",
    "hora": "dia",
    "fx": [
     "burst@45",
@@ -145,7 +141,19 @@
    "sfx": [
     "thump@45",
     "thump@75"
-   ]
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 16,
+    "outfits": [
+     "TOR",
+     "HON"
+    ],
+    "march": false,
+    "expr": "angry"
+   },
+   "impact": true
   },
   {
    "shot": "two",
