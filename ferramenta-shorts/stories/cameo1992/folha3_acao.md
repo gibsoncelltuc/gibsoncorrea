@@ -44,7 +44,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | avanca e o outro recua | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b5 - 27.1s a 30.6s - 14 palavras - plano wide
+## Cena b5 - 27.0s a 30.5s - 14 palavras - plano wide
 > "Segundo o diretor, a participação de Trump foi o preço para usar o hotel."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -52,7 +52,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 2 | - | ATUACAO | reagir | OK |
 
-## Cena b6 - 31.7s a 35.3s - 16 palavras - plano two
+## Cena b6 - 31.7s a 35.2s - 16 palavras - plano two
 > "Trump nega isso: diz que a equipe é que pediu, e que ele nem queria aparecer."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -78,7 +78,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | discussão (43.8s) | EFEITO: puff | fumaca + som | OK |
 
-## Cena b9 - 46.1s a 50.1s - 15 palavras - plano close
+## Cena b9 - 46.0s a 50.1s - 15 palavras - plano close
 > "Moral da história: um cameo de sete segundos gera conversa por mais de trinta anos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

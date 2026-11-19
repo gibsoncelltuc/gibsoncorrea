@@ -1,11 +1,11 @@
 {
- "duration": 51.24,
- "frames30": 1537,
- "source": "silence-align (cost 0.51)",
+ "duration": 51.216,
+ "frames30": 1536,
+ "source": "silence-align (cost 0.53)",
  "segments": [
   [
    0.160625,
-   1.61296
+   1.612
   ],
   [
    1.86,
@@ -28,7 +28,7 @@
    12.2468
   ],
   [
-   13.1074,
+   13.1075,
    15.1331
   ],
   [
@@ -36,75 +36,75 @@
    17.1749
   ],
   [
-   17.4562,
-   17.9373
+   17.4561,
+   17.9439
   ],
   [
    18.2302,
    19.6303
   ],
   [
-   20.4943,
-   22.1013
+   20.497,
+   22.0325
   ],
   [
-   22.2686,
-   22.9918
+   22.2491,
+   22.9855
   ],
   [
-   23.2143,
-   26.1744
+   23.208,
+   26.1461
   ],
   [
-   27.0567,
-   28.0379
+   27.036,
+   28.0151
   ],
   [
-   28.3206,
-   30.8689
+   28.2979,
+   30.8462
   ],
   [
-   31.7445,
-   32.6021
+   31.7217,
+   32.5794
   ],
   [
-   32.8784,
-   34.1249
+   32.8557,
+   34.1021
   ],
   [
-   34.4242,
-   35.7309
+   34.4015,
+   35.7081
   ],
   [
-   36.5465,
-   37.489
+   36.5245,
+   37.4663
   ],
   [
-   37.7617,
-   40.8658
+   37.7388,
+   40.8427
   ],
   [
-   41.735,
-   43.1843
+   41.7123,
+   43.1615
   ],
   [
-   43.4699,
-   45.1905
+   43.4472,
+   45.166
   ],
   [
-   46.0516,
-   46.9043
+   46.0305,
+   46.8817
   ],
   [
-   47.244,
-   50.4328
+   47.2213,
+   50.4093
   ]
  ],
  "phrases": [
   {
    "text": "Em mil novecentos e noventa e dois,",
    "s": 0.161,
-   "e": 1.613
+   "e": 1.612
   },
   {
    "text": "estreou o filme Esqueceram de Mim 2,",
@@ -144,7 +144,7 @@
   {
    "text": "o Plaza,",
    "s": 17.456,
-   "e": 17.937
+   "e": 17.944
   },
   {
    "text": "pertencia a Trump na \u00e9poca.",
@@ -152,74 +152,74 @@
    "e": 19.63
   },
   {
-   "text": "O diretor Chris Columbus contou,",
-   "s": 20.494,
-   "e": 22.101
+   "text": "O diretor Chris Columbus disse,",
+   "s": 20.497,
+   "e": 22.032
   },
   {
    "text": "anos depois,",
-   "s": 22.269,
-   "e": 22.992
+   "s": 22.249,
+   "e": 22.985
   },
   {
    "text": "que a equipe queria o sagu\u00e3o e n\u00e3o conseguiria refaz\u00ea-lo num est\u00fadio.",
-   "s": 23.214,
-   "e": 26.174
+   "s": 23.208,
+   "e": 26.146
   },
   {
    "text": "Segundo o diretor,",
-   "s": 27.057,
-   "e": 28.038
+   "s": 27.036,
+   "e": 28.015
   },
   {
    "text": "a participa\u00e7\u00e3o de Trump foi o pre\u00e7o para usar o hotel.",
-   "s": 28.321,
-   "e": 30.869
+   "s": 28.298,
+   "e": 30.846
   },
   {
    "text": "Trump nega isso:",
-   "s": 31.744,
-   "e": 32.602
+   "s": 31.722,
+   "e": 32.579
   },
   {
    "text": "diz que a equipe \u00e9 que pediu,",
-   "s": 32.878,
-   "e": 34.125
+   "s": 32.856,
+   "e": 34.102
   },
   {
    "text": "e que ele nem queria aparecer.",
-   "s": 34.424,
-   "e": 35.731
+   "s": 34.401,
+   "e": 35.708
   },
   {
    "text": "Em dois mil e dezenove,",
-   "s": 36.547,
-   "e": 37.489
+   "s": 36.525,
+   "e": 37.466
   },
   {
    "text": "uma emissora canadense exibiu o filme sem esses sete segundos.",
-   "s": 37.762,
-   "e": 40.866
+   "s": 37.739,
+   "e": 40.843
   },
   {
    "text": "O corte virou assunto por l\u00e1,",
-   "s": 41.735,
-   "e": 43.184
+   "s": 41.712,
+   "e": 43.161
   },
   {
    "text": "e a discuss\u00e3o ainda dura at\u00e9 hoje.",
-   "s": 43.47,
-   "e": 45.191
+   "s": 43.447,
+   "e": 45.166
   },
   {
    "text": "Moral da hist\u00f3ria:",
-   "s": 46.052,
-   "e": 46.904
+   "s": 46.031,
+   "e": 46.882
   },
   {
    "text": "um cameo de sete segundos gera conversa por mais de trinta anos.",
-   "s": 47.244,
-   "e": 50.433
+   "s": 47.221,
+   "e": 50.409
   }
  ]
 }

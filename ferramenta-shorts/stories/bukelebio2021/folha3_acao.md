@@ -12,19 +12,19 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | MAPA | EL SALVADOR | OK |
 
-## Cena b1 - 8.5s a 12.4s - 13 palavras - plano crowd
+## Cena b1 - 8.5s a 12.3s - 13 palavras - plano crowd
 > "Poucos dias antes, milhares de pessoas tinham protestado nas ruas de San Salvador."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
-## Cena b2 - 13.7s a 16.4s - 9 palavras - plano close
+## Cena b2 - 13.6s a 16.4s - 9 palavras - plano close
 > "Primeiro, ele escreveu só uma palavra no perfil: ditador."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | escreveu (14.6s) | ACAO: escreve | escreve/assina | OK |
+| 1 | escreveu (14.5s) | ACAO: escreve | escreve/assina | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | DITADOR | OK |
 
@@ -38,14 +38,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | O DITADOR MAIS LEGAL DO MUNDO | OK |
 
-## Cena b4 - 23.1s a 24.8s - 8 palavras - plano reveal
+## Cena b4 - 23.0s a 24.9s - 8 palavras - plano reveal
 > "Acontece que a notícia se espalhou pelo mundo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | MAPA | MUNDO | OK |
 
-## Cena b5 - 24.9s a 30.8s - 17 palavras - plano two
+## Cena b5 - 26.1s a 30.9s - 17 palavras - plano two
 > "Jornais de vários países publicaram a frase, e muita gente ficou discutindo se era piada ou não."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -53,25 +53,25 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | discutir | OK |
 | 2 | - | ATUACAO | discutir | OK |
 
-## Cena b6 - 30.9s a 35.2s - 12 palavras - plano two
+## Cena b6 - 31.9s a 35.4s - 12 palavras - plano two
 > "Vários comentaristas leram aquilo como uma ironia, feita para os críticos dele."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | leram (32.0s) | ACAO: x_le | le o papel | OK |
+| 1 | leram (32.7s) | ACAO: x_le | le o papel | OK |
 | 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b7 - 35.4s a 41.0s - 19 palavras - plano close
+## Cena b7 - 36.6s a 41.2s - 19 palavras - plano close
 > "Anos depois, no dia da eleição de dois mil e vinte e quatro, o perfil dele dizia: rei filósofo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | eleição (37.8s) | ACAO: voto | poe o voto na urna | OK |
+| 1 | eleição (37.9s) | ACAO: voto | poe o voto na urna | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | REI FILÓSOFO | OK |
 
-## Cena b8 - 41.2s a 46.6s - 13 palavras - plano two
+## Cena b8 - 42.6s a 46.7s - 13 palavras - plano two
 > "Aliás, esse perfil muda bastante: Bukele costuma trocar o nome e a descrição."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -79,7 +79,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | vai ate o outro | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 46.7s a 51.9s - 15 palavras - plano close
+## Cena b9 - 47.9s a 52.0s - 15 palavras - plano close
 > "Conclusão: se a sua biografia estiver chata, lembre que dá para trocar em dez segundos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
