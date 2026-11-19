@@ -13,3 +13,5 @@ maduro2026
 reeleicao2024
 roadsterpulo2026
 zanzibar1896
+#PAUSADO ese_buraco
+#PAUSADO ese_titanic
