@@ -9,7 +9,7 @@ b3 | two | -  | animais | atirou (burst + som de tiro/explosao) | -
 b4 | two | -  | interior, placa: $10, objeto na mao | - | -
 b5 | two | -  | placa: $100, objeto na mao | (rosto) shout (expr + som de efeito); gritou (ring + som de alerta); dinheiro (stars + som de sino) | -
 b6 | group | -  | tropa, placa: TROPAS | - | -
-b7 | crowd | -  | batalha aberta com tiros, tropa | cavalaria: 4 soldados a cavalo (ING) (acao + som de efeito); canhões (burst + som de tiro/explosao) | -
+b7 | crowd | -  | batalha aberta com tiros, tropa | canhões (burst + som de tiro/explosao) | -
 b8 | two | -  | animais, interior | atacar (ring + som de alerta) | -
 b9 | orbit | -  | batalha aberta com tiros, tropa | cavalaria: 4 soldados a cavalo (ING) (acao + som de efeito); tiro (burst + som de tiro/explosao) | -
 b10 | two | -  | placa: 13 ANOS, objeto na mao | (rosto) determined (expr + som de efeito) | -

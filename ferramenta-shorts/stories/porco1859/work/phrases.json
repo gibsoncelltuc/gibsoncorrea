@@ -1,7 +1,7 @@
 {
  "duration": 70.08,
  "frames30": 2102,
- "source": "silence-align (cost 1.11)",
+ "source": "silence-align (cost 1.10)",
  "segments": [
   [
    0.148625,
@@ -21,11 +21,11 @@
   ],
   [
    9.22758,
-   9.69887
+   9.699
   ],
   [
    9.93025,
-   13.4726
+   13.4743
   ],
   [
    14.3331,
@@ -52,8 +52,8 @@
    24.887
   ],
   [
-   25.1652,
-   25.8795
+   25.1651,
+   25.8794
   ],
   [
    26.7368,
@@ -120,7 +120,7 @@
    60.5185
   ],
   [
-   61.3752,
+   61.3751,
    62.4219
   ],
   [
@@ -165,7 +165,7 @@
   {
    "text": "um fazendeiro americano encontrou um porco comendo as batatas da horta dele.",
    "s": 9.93,
-   "e": 13.473
+   "e": 13.474
   },
   {
    "text": "Ele pegou a espingarda,",
@@ -200,7 +200,7 @@
   {
    "text": "ofereceu ele.",
    "s": 25.165,
-   "e": 25.88
+   "e": 25.879
   },
   {
    "text": "\"Dez?",
