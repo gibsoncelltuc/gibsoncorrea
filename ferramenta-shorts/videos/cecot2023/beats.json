@@ -103,13 +103,15 @@
   {
    "shot": "track",
    "who": [
-    "GUA:0:stern"
+    "GUA:0:stern",
+    "PRE:0:sad",
+    "PRE:1:sad"
    ],
    "say": "Em dois mil e vinte e dois, o presidente Nayib Bukele decretou estado de exceção, e milhares de suspeitos foram presos.",
    "props": [],
    "set": "street",
    "crowd": {
-    "n": 14,
+    "n": 10,
     "outfits": [
      "PRE"
     ],

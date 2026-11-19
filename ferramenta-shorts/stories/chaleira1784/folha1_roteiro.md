@@ -59,9 +59,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 ## Cena b6  (~5.2 s)
 - Narracao: A bala atravessou o convés, e acertou em cheio a chaleira de sopa do cozinheiro.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: thump@20, ding@24
+- Efeitos sonoros marcados: thump@40, ding@44, thump@54
 - Efeito + som nas palavras-chave: bala -> burst + som de tiro/explosao; encena: atira @1 -> acao + som de efeito
-- Efeito visual marcado: burst@20, puff@26
+- Efeito visual marcado: burst@40, splash@44, puff@50, burst@54
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
