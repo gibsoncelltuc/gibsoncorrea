@@ -29,7 +29,7 @@
   ],
   [
    12.5661,
-   13.158
+   13.1435
   ],
   [
    13.3484,
@@ -72,12 +72,12 @@
    28.8238
   ],
   [
-   28.9983,
-   31.9213
+   28.9984,
+   31.9165
   ],
   [
    32.7151,
-   33.4999
+   33.5001
   ],
   [
    33.6763,
@@ -134,7 +134,7 @@
   {
    "text": "Para provar,",
    "s": 12.566,
-   "e": 13.158
+   "e": 13.143
   },
   {
    "text": "o designer Franz von Holzhausen jogou uma esfera de a\u00e7o na janela.",
@@ -189,7 +189,7 @@
   {
    "text": "a mesma esfera tinha batido na mesma janela sem nem arranhar.",
    "s": 28.998,
-   "e": 31.921
+   "e": 31.916
   },
   {
    "text": "A plateia riu,",

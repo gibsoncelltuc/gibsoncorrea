@@ -42,12 +42,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): equipes, negocios, propaganda, tarefa
 - RISCOS: nenhum
 
-## Cena b4 - No fim, a equipe perdedora ia para a sala de reunião, e alguém tinha q...
+## Cena b4 - No fim, a equipe perdedora ia para a sala de reunião, e alguém era eli...
 - Cenario: interior loja | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): TRU (variante 0, expressao stern); CND (variante 0, expressao nervous)
-- Animacao: discutir | interacao: discutir
+- Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): equipe, reuniao, sala
 - RISCOS: nenhum
@@ -87,28 +87,28 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): POV (variante 0, expressao surprised); POV (variante 1, expressao grin)
-- Animacao: conversar | interacao: avanca e o outro recua
+- Animacao: conversar | interacao: discutir
 - Objetos/modelos: kit/marco_trumptower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aprendiz, brasil, formato, roberto
 - RISCOS: nenhum
 
-## Cena b9 - Trump apresentou o programa por mais de dez anos, e só saiu em dois mi...
-- Cenario: harbor | luz: day | clima: limpo
+## Cena b9 - Trump apresentou o programa por mais de dez anos, até dois mil e quinz...
+- Cenario: street | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): TRU (variante 0, expressao smug); POV (variante 0, expressao smile)
-- Animacao: conversar | interacao: o outro se aproxima | o ultimo personagem ENTRA andando
+- Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/marco_trumptower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): politica, programa
 - RISCOS: nenhum
 
 ## Cena b10 - Um programa de emprego que acabou ficando famoso justamente por demiti...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: hall | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): TRU (variante 0, expressao smile)
 - Animacao: comemorar
-- Objetos/modelos: kit/tv, kit/marco_trumptower
+- Objetos/modelos: kit/tv
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): emprego, programa
 - RISCOS: nenhum
 
@@ -117,15 +117,15 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/marco_trumptower | b0, b1, b3, b6, b7, b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_trumptower | b0, b1, b3, b6, b7, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/stall | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tv | b6, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/tv | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 21% | medio 66% | aberto 11% | detalhe 2%
-- Interacoes: b0 susto, b2 aproxima-se, b4 discutir, b7 vai ate o outro, b8 avanca e o outro recua, b9 o outro se aproxima
+- Objeto heroi: kit/tv | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 21% | medio 65% | aberto 12% | detalhe 2%
+- Interacoes: b0 susto, b2 aproxima-se, b4 avanca e o outro recua, b7 vai ate o outro, b8 discutir, b9 o outro se aproxima
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
