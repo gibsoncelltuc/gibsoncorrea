@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Mexendo em toneladas de minério, eles descobriram dois elementos novos: o polônio e o rádio.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: descobriram -> ring + som de alerta; encena: mistura (stir) -> acao + som de efeito; encena: examina (think) -> acao + som de efeito
+- Efeito + som nas palavras-chave: descobriram -> ring + som de alerta; encena: mistura (stir) @0 -> acao + som de efeito; encena: examina (think) @6 -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O rádio brilhava no escuro, com uma luz esverdeada. Marie adorava olhar os frascos à noite.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, sting@50
-- Efeito + som nas palavras-chave: encena: brilha (point) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: brilha (point) @2 -> acao + som de efeito
 - Efeito visual marcado: stars@20, ring@50
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Ela carregava os frascos no bolso, e guardava na gaveta da mesa. Ninguém sabia do perigo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_vigia (cross) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_vigia (cross) @7 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Marie ganhou dois prêmios Nobel, em física e em química. Foi a primeira pessoa da história a conseguir isso.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: ganhou -> stars + som de sino; encena: vence (up) -> acao + som de efeito; encena: quimico (pour) -> acao + som de efeito
+- Efeito + som nas palavras-chave: ganhou -> stars + som de sino; encena: vence (up) @1 -> acao + som de efeito; encena: quimico (pour) @9 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: NOBEL
 - Funcao na historia: GRANDE MOMENTO
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que a radiação foi destruindo a saúde dela, aos poucos. Em mil novecentos e trinta e quatro, ela morreu.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; encena: morre -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; encena: morre @19 -> acao + som de efeito
 - Efeito visual marcado: ring@40
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Quem quer ler precisa assinar um termo de responsabilidade e usar roupa de proteção.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@20
-- Efeito + som nas palavras-chave: encena: x_le (think) -> acao + som de efeito; encena: escreve (write) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_le (think) @2 -> acao + som de efeito; encena: escreve (write) @4 -> acao + som de efeito
 - Efeito visual marcado: ring@20
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: E o rádio leva cerca de mil e seiscentos anos só para perder metade da força.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: perder -> dust + som de impacto; encena: perde (facepalm) -> acao + som de efeito
+- Efeito + som nas palavras-chave: perder -> dust + som de impacto; encena: perde (facepalm) @12 -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 1.600 ANOS
 - Funcao na historia: GRANDE MOMENTO
@@ -105,7 +105,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Ou seja: os cadernos de Marie Curie vão continuar brilhando por muitos e muitos séculos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: brilha (point) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: brilha (point) @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

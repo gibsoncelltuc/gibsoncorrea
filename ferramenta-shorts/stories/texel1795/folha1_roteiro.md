@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 9
 - Narracao: A frota holandesa estava ancorada perto de Den Helder, e o mar congelou em volta dela.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_treme -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_treme @12 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: FROTA CONGELADA
 - Funcao na historia: desenvolvimento
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 9
 - Narracao: Os navios ficaram presos no gelo, como carros num congestionamento.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: prende (push) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: prende (push) @3 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 9
 - Narracao: O comandante teve uma ideia maluca: atacar a frota a cavalo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: atacar -> ring + som de alerta; encena: pensa (think) -> acao + som de efeito
+- Efeito + som nas palavras-chave: atacar -> ring + som de alerta; encena: pensa (think) @4 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: A CAVALO?
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 9
 - Narracao: Os marinheiros holandeses viram a cavalaria chegar, e a frota se rendeu.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40
-- Efeito + som nas palavras-chave: encena: olha (point) -> acao + som de efeito; encena: rende (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: olha (point) @3 -> acao + som de efeito; encena: rende (up) @11 -> acao + som de efeito
 - Efeito visual marcado: ring@12, dust@40
 - Texto na tela: RENDIDOS
 - Funcao na historia: GRANDE MOMENTO
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 9
 - Narracao: Dizem que foi a única vez na história em que uma cavalaria capturou uma frota.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: prende (push) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: prende (push) @12 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: CAVALARIA 1 X 0 MARINHA
 - Funcao na historia: FECHO/PIADA FINAL

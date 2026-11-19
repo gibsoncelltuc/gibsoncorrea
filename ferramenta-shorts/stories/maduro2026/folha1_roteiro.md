@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Durante meses, a inteligência americana estudou cada passo dele, em segredo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: segredo -> ring + som de alerta; encena: examina (think) -> acao + som de efeito; encena: pensa (think) -> acao + som de efeito
+- Efeito + som nas palavras-chave: segredo -> ring + som de alerta; encena: examina (think) @5 -> acao + som de efeito; encena: pensa (think) @10 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do país.
 - Som ambiente: sea
 - Efeitos sonoros marcados: sting@20, thump@40
-- Efeito + som nas palavras-chave: encena: atira -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: atira @3 -> acao + som de efeito
 - Efeito visual marcado: ring@20, puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que, em menos de três horas, Maduro foi capturado e levado para fora da Venezuela.
 - Som ambiente: sea
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: encena: prende (push) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: prende (push) @9 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: A operação ganhou um nome que resume tudo: Resolução Absoluta.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: ganhou -> stars + som de sino; encena: vence (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: ganhou -> stars + som de sino; encena: vence (up) @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

@@ -4,11 +4,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 
 ## Cena b0  (~5.5 s)
 - Narracao: Um presidente chegou ao palco mais importante do mundo, e antes de falar, tirou uma selfie.
-- Som ambiente: birds
-- Efeitos sonoros marcados: ding@6
-- Efeito + som nas palavras-chave: chegou -> dust + som de impacto; encena: chega (point) -> acao + som de efeito; encena: tira (lift) -> acao + som de efeito
-- Efeito visual marcado: stars@6
-- Texto na tela: -
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: ding@30
+- Efeito + som nas palavras-chave: chegou -> dust + som de impacto; encena: chega (point) @2 -> acao + som de efeito; encena: tira (lift) @13 -> acao + som de efeito
+- Efeito visual marcado: stars@30
+- Texto na tela: 2019
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~5.5 s)
@@ -41,18 +41,18 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 ## Cena b4  (~5.9 s)
 - Narracao: Acontece que, no púlpito, ele pediu: só um segundo, por favor. E tirou o celular do bolso.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: ding@8
-- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; encena: tira (lift) -> acao + som de efeito; encena: x_fone (lift) -> acao + som de efeito
-- Efeito visual marcado: stars@8
+- Efeitos sonoros marcados: ding@20, sting@40
+- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; encena: tira (lift) @12 -> acao + som de efeito; encena: x_fone (lift) @14 -> acao + som de efeito
+- Efeito visual marcado: stars@20, ring@40
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
 ## Cena b5  (~5.2 s)
 - Narracao: Virou de costas para a plateia, e tirou uma selfie com o plenário inteiro atrás.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: sting@10
-- Efeito + som nas palavras-chave: encena: tira (lift) -> acao + som de efeito
-- Efeito visual marcado: burst@10
+- Efeitos sonoros marcados: sting@20
+- Efeito + som nas palavras-chave: encena: tira (lift) @7 -> acao + som de efeito
+- Efeito visual marcado: ring@20
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
@@ -60,17 +60,17 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 - Narracao: Depois, brincou: acreditem, muito mais gente vai ver essa selfie do que ouvir este discurso.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: tira (lift) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: tira (lift) @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b7  (~4.1 s)
 - Narracao: E ele tinha razão. A foto rodou o planeta em poucas horas.
-- Som ambiente: birds
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: tira (lift) -> acao + som de efeito
-- Efeito visual marcado: -
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: ding@20, ding@60
+- Efeito + som nas palavras-chave: encena: tira (lift) @5 -> acao + som de efeito
+- Efeito visual marcado: stars@20, stars@60
 - Texto na tela: SELFIE
 - Funcao na historia: GRANDE MOMENTO
 
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 - Narracao: Alguns acharam falta de respeito com a ONU. Outros acharam genial.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: olha (point) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: olha (point) @1 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 - Narracao: Uma selfie de um segundo, que ficou mais famosa que muitos discursos inteiros.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: tira (lift) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: tira (lift) @1 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

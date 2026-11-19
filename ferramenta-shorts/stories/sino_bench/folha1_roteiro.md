@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Enterraram um homem vivo, com um sino amarrado no dedo.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: sino -> stars + som de sino; encena: toca -> acao + som de efeito
+- Efeito + som nas palavras-chave: sino -> stars + som de sino; encena: toca @6 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: SINO
 - Funcao na historia: GANCHO
@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Acontece que o povo tinha tanto medo de acordar dentro do caixão, que a cova vinha com um sininho em cima, preso por um cordão ao dedo do morto.
 - Som ambiente: birds | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40
-- Efeito + som nas palavras-chave: (rosto) scared -> expr + som de efeito; morto -> puff + som de baque; encena: x_acorda (up) -> acao + som de efeito; encena: prende (push) -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) scared -> expr + som de efeito; morto -> puff + som de baque; encena: x_acorda (up) @8 -> acao + som de efeito; encena: prende (push) @21 -> acao + som de efeito
 - Efeito visual marcado: ring@12, dust@40
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Só que quando o sino dele começa a tocar, às duas da manhã, o vizinho decide que deve ser o vento.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: sino -> stars + som de sino; tocar -> stars + som de sino; encena: toca -> acao + som de efeito; encena: danca (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: sino -> stars + som de sino; tocar -> stars + som de sino; encena: toca @4 -> acao + som de efeito; encena: danca (up) @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Mas a esposa não está na varanda. Está sentada no escuro, com a pá ao lado da porta, porque ela conhece aquele toque.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: senta -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: senta @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Devia dinheiro para meia cidade, então fingiu a própria morte. Quando o sino tocasse, ela ia desenterrar o marido, e fugir com ele.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino; sino -> stars + som de sino; encena: paga (reach) -> acao + som de efeito; encena: toca -> acao + som de efeito; encena: corre -> acao + som de efeito
+- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino; sino -> stars + som de sino; encena: paga (reach) @1 -> acao + som de efeito; encena: toca @12 -> acao + som de efeito; encena: corre @20 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Em vez disso, ela fica ali a noite toda, ouvindo o sino tocar rápido, depois devagar, depois uma vez a cada tantos minutos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: sino -> stars + som de sino; tocar -> stars + som de sino; encena: toca -> acao + som de efeito; encena: danca (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: sino -> stars + som de sino; tocar -> stars + som de sino; encena: toca @11 -> acao + som de efeito; encena: danca (up) @12 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

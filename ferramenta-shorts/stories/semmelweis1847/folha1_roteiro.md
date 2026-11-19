@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: E acontece que, na ala dos médicos, morriam muito mais mães, de uma febre misteriosa.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: encena: morre -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: morre @7 -> acao + som de efeito
 - Efeito visual marcado: ring@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: As mulheres imploravam de joelhos para não ir para a ala dos médicos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: ajoelha (plead) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: ajoelha (plead) @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Um dia, o amigo dele, Kolletschka, cortou o dedo com um bisturi, examinando um corpo, e morreu da mesma febre.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; encena: corta (reach) -> acao + som de efeito; encena: morre -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; encena: corta (reach) @6 -> acao + som de efeito; encena: morre @16 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Semmelweis entendeu tudo: os médicos saíam das autópsias e iam direto para os partos, com as mãos sujas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20
-- Efeito + som nas palavras-chave: encena: pensa (think) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: pensa (think) @1 -> acao + som de efeito
 - Efeito visual marcado: stars@20
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Ele colocou uma bacia com água e cloro na porta, e obrigou todo mundo a lavar as mãos antes de entrar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
-- Efeito + som nas palavras-chave: encena: x_lava (stir) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_lava (stir) @15 -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Mas os médicos se ofenderam. Um cavalheiro, diziam, tem as mãos limpas. Semmelweis brigou com todos, e foi mandado embora.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@50
-- Efeito + som nas palavras-chave: encena: sai -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: sai @19 -> acao + som de efeito
 - Efeito visual marcado: ring@50
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Ele morreu em mil oitocentos e sessenta e cinco, sem ver ninguém dar razão a ele.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; encena: morre -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; encena: morre @1 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -105,7 +105,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Anos depois, a ciência provou os micróbios. Hoje, ele é chamado de salvador das mães.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @4 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: LAVE AS MÃOS
 - Funcao na historia: FECHO/PIADA FINAL

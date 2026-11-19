@@ -2,14 +2,14 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | placa: 1989 | dinheiro (stars + som de sino); encena: paga (reach) (acao + som de efeito) | -
+b0 | two | -  | placa: 1989 | dinheiro (stars + som de sino); encena: paga (reach) @20 (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
-b2 | two | -  | interior, objeto na mao | vender (stars + som de sino); encena: negocio (reach) (acao + som de efeito) | -
+b2 | two | -  | interior, objeto na mao | vender (stars + som de sino); encena: negocio (reach) @8 (acao + som de efeito) | -
 b3 | close | -  | interior | - | -
 b4 | two | -  | interior, objeto na mao | - | -
-b5 | two | -  | interior | comprou (stars + som de sino); encena: negocio (reach) (acao + som de efeito) | -
-b6 | crowd | -  | batalha aberta com tiros, tropa, placa: 800 MIL | vender (stars + som de sino); Vendeu (stars + som de sino); fracasso (puff + som de baque); encena: x_espera (cross) (acao + som de efeito); encena: negocio (reach) (acao + som de efeito); encena: perde (facepalm) (acao + som de efeito) | -
-b7 | two | -  | - | encena: sai (acao + som de efeito) | -
+b5 | two | -  | interior | comprou (stars + som de sino); encena: negocio (reach) @2 (acao + som de efeito) | -
+b6 | crowd | -  | batalha aberta com tiros, tropa, placa: 800 MIL | vender (stars + som de sino); Vendeu (stars + som de sino); fracasso (puff + som de baque); encena: x_espera (cross) @2 (acao + som de efeito); encena: negocio (reach) @3 (acao + som de efeito); encena: perde (facepalm) @14 (acao + som de efeito) | -
+b7 | two | -  | - | encena: sai @2 (acao + som de efeito) | -
 b8 | two | -  | - | - | -
 b9 | close | -  | - | - | -
 b10 | orbit | -  | batalha aberta com tiros, tropa, placa: VOLTOU | - | -

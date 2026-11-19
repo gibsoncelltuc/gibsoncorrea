@@ -96,8 +96,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | desistiu (52.0s) | ACAO: perde | mao na testa | OK |
 | 3 | pagou (55.1s) | EFEITO: stars | estrelinhas + som | OK |
 | 4 | pagou (55.1s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 5 | pagou (55.1s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 6 | dinheiro (56.5s) | EFEITO: stars | estrelinhas + som | OK |
+| 5 | dinheiro (56.5s) | EFEITO: stars | estrelinhas + som | OK |
+| 6 | dinheiro (56.5s) | ACAO: paga | estende a mao com moedas + brilho | OK |
 | 7 | - | INTERACAO | entregar | OK |
 
 ## Cena b9 - 57.9s a 60.2s - 5 palavras - plano close

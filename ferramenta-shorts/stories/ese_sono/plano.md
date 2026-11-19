@@ -2,17 +2,17 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | placa: E SE... | encena: dorme (acao + som de efeito) | -
+b0 | two | -  | placa: E SE... | encena: dorme @6 (acao + som de efeito) | -
 b1 | two | -  | objeto na mao | - | -
-b2 | crowd | noite  | batalha aberta com tiros, tropa, placa: 24 HORAS | (rosto) laugh (expr + som de efeito); festa (stars + som de sino); encena: vence (up) (acao + som de efeito) | -
+b2 | crowd | noite  | batalha aberta com tiros, tropa, placa: 24 HORAS | (rosto) laugh (expr + som de efeito); festa (stars + som de sino); encena: vence (up) @12 (acao + som de efeito) | -
 b3 | two | noite  | - | - | -
-b4 | reveal | -  | tropa, mapa | encena: examina (think) (acao + som de efeito) | -
-b5 | two | -  | objeto na mao | encena: quimico (pour) (acao + som de efeito) | -
+b4 | reveal | -  | tropa, mapa | encena: examina (think) @17 (acao + som de efeito) | -
+b5 | two | -  | objeto na mao | encena: quimico (pour) @12 (acao + som de efeito) | -
 b6 | low | -  | - | - | -
-b7 | two | -  | interior | encena: dorme (acao + som de efeito) | -
+b7 | two | -  | interior | encena: dorme @4 (acao + som de efeito) | -
 b8 | two | -  | interior, objeto na mao | - | -
 b9 | orbit | noite  | batalha aberta com tiros, tropa, placa: ZZZ | - | -
-b10 | close | -  | - | encena: olha (point) (acao + som de efeito) | -
+b10 | close | -  | - | encena: olha (point) @4 (acao + som de efeito) | -
 
 Mistura de planos: close 22% | medio 62% | aberto 12% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

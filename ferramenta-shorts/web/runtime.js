@@ -144,9 +144,11 @@ export const actorsAt = (f, T) => {
     const opts = PO(f, moving && !a.pose ? { ...a, pose: a.walk || 'stroll' } : a, seed, { ...(a.opts || {}), ...(ac || {}) });
     /* CAMINHADA NATURAL: quem atravessa a tela e' desenhado de perfil, com o ciclo de passos completo (pernas e bracos alternando) */
     const sideW = (moving && a.move && a.move[0] && a.sideWalk !== false && (opts.mode === 'march' || opts.mode === 'stroll') && Math.abs(a.move[0][0] - a.at[0]) > 1.2 * Math.abs(a.move[0][1] - a.at[1])) ? Math.sign(a.move[0][0] - a.at[0]) : 0;
-    if (a.gests) for (const g_ of a.gests) if (f >= g_[0] && f <= g_[1]) { const k_ = Math.min(1, (f - g_[0]) / 5, (g_[1] - f) / 5 + 0.2); opts.gest = g_[2]; opts.gk = qq(Math.max(0, k_), 2); opts.gt = qq((f - g_[0]) / 30, 2); }   /* ENCENACAO: gesto da acao na palavra da narracao (mexer, despejar, jogar, martelar...) */
+    if (a.gests) for (const g_ of a.gests) if (f >= g_[0] && f <= g_[1]) { const k_ = Math.min(1, (f - g_[0]) / 5, (g_[1] - f) / 5 + 0.2); opts.gest = g_[2]; opts.gk = qq(Math.max(0, k_), 2); opts.gt = qq((f - g_[0]) / 30, 2); opts._gx = 1; }   /* ENCENACAO: gesto da acao na palavra da narracao (mexer, despejar, jogar, martelar...) */
     if (a.poses) for (const p_ of a.poses) if (f >= p_[0] && f <= p_[1]) { if (p_[2] === 'kneel') { opts.mode = 'kneel'; opts.gest = 'plead'; opts.gk = 1; opts.gt = qq((f - p_[0]) / 30, 2); continue; } opts.gest = null; if (p_[2] === 'sleep') { opts.mode = 'sit'; opts.blink = true; opts.expr = 'bored'; } else opts.mode = p_[2]; }   /* ENCENACAO: caiu no chao / dormindo / sentou NA PALAVRA */
+    if (opts.gest && o.rifle && !opts._gx) opts.gest = null;   /* 19/11: quem segura a ARMA nao a solta por gesto automatico de atuacao (so por gesto da acao da narracao) */
     if (opts.gest && (opts.gk || 0) > 0.2 && o.rifle) o = { ...o, rifle: false };
+    delete opts._gx;
     if (IN) opts.tilt = qq((opts.tilt || 0) + IN.tilt, 0);
     if (S.shots && o.rifle && persons.filter((q) => { const oo = typeof q.outfit === 'object' ? q.outfit : OUT[q.outfit](q.v ?? 0, q.over || {}); return oo.rifle; })[0] === a) { let am = 0; for (const t of S.shots) am = Math.max(am, f >= t - 14 && f <= t + 16 ? Math.min(1, (f - (t - 14)) / 8, (t + 16 - f) / 8 + 0.35) : 0); if (am > 0) { opts.aim = qq(am, 1); opts.gest = null; } }   /* quem atira aponta a arma um pouco antes do tiro e segura um instante depois */
     if (o.hold) opts.hp = qq(Math.max(0, Math.sin(f * 0.075 + seed * 2)), 1);   /* usa o objeto de tempos em tempos */

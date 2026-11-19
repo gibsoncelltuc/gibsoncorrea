@@ -4,11 +4,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b0  (~4.5 s)
 - Narracao: El Salvador construiu uma prisão tão grande que virou notícia no mundo inteiro.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: thump@6
-- Efeito + som nas palavras-chave: encena: constroi (hammer) -> acao + som de efeito
-- Efeito visual marcado: dust@6
-- Texto na tela: -
+- Som ambiente: birds
+- Efeitos sonoros marcados: ding@30
+- Efeito + som nas palavras-chave: encena: constroi (hammer) @2 -> acao + som de efeito
+- Efeito visual marcado: stars@30
+- Texto na tela: 2023
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~5.9 s)
@@ -33,17 +33,17 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Em dois mil e vinte e dois, o presidente Nayib Bukele decretou estado de exceção, e milhares de suspeitos foram presos.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: prende (push) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: prende (push) @20 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b4  (~5.9 s)
 - Narracao: Para guardar tanta gente, ergueram o Centro de Confinamento do Terrorismo, com vagas para quarenta mil presos.
-- Som ambiente: sea
-- Efeitos sonoros marcados: thump@8
-- Efeito + som nas palavras-chave: encena: constroi (hammer) -> acao + som de efeito; encena: prende (push) -> acao + som de efeito
-- Efeito visual marcado: puff@8
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: sting@30
+- Efeito + som nas palavras-chave: encena: constroi (hammer) @4 -> acao + som de efeito; encena: prende (push) @16 -> acao + som de efeito
+- Efeito visual marcado: ring@30
 - Texto na tela: 40 MIL
 - Funcao na historia: GRANDE MOMENTO
 
@@ -67,10 +67,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b7  (~4.1 s)
 - Narracao: Organizações de direitos humanos denunciaram prisões sem julgamento, e mortes sob custódia.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: protesto (up) -> acao + som de efeito
-- Efeito visual marcado: -
+- Som ambiente: birds
+- Efeitos sonoros marcados: sting@30
+- Efeito + som nas palavras-chave: encena: protesto (up) @4 -> acao + som de efeito
+- Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 

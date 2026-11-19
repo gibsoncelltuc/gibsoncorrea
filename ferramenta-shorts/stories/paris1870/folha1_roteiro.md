@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O açougueiro comprou dois elefantes, Castor e Pólux, e vendeu a carne em pedaços.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: comprou -> stars + som de sino; vendeu -> stars + som de sino; encena: negocio (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: comprou -> stars + som de sino; vendeu -> stars + som de sino; encena: negocio (reach) @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: CASTOR E PÓLUX
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O cerco acabou em janeiro de mil oitocentos e setenta e um, e Paris se rendeu, de barriga vazia.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: rende (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: rende (up) @15 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: PARIS SE RENDEU
 - Funcao na historia: FECHO/PIADA FINAL

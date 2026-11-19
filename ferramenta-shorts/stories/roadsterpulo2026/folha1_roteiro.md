@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: Elon Musk prometeu um carro que voa. Em outubro de dois mil e vinte e seis, ele mostrou o que conseguiu.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@30, whoosh@50
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; encena: fala (point) -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; encena: fala (point) @2 -> acao + som de efeito
 - Efeito visual marcado: stars@30, puff@50
 - Texto na tela: 2026
 - Funcao na historia: GANCHO
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: O segredo eram dez pequenos propulsores da SpaceX, movidos a ar comprimido, escondidos dentro do carro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: segredo -> ring + som de alerta; encena: pensa (think) -> acao + som de efeito
+- Efeito + som nas palavras-chave: segredo -> ring + som de alerta; encena: pensa (think) @1 -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: Acontece que, na frente da plateia, o carro acelerou e pulou por cima de cinco outros carros da Tesla.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@20, thump@40
-- Efeito + som nas palavras-chave: encena: pula -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: pula @10 -> acao + som de efeito
 - Efeito visual marcado: whoosh@20, puff@40
 - Texto na tela: PULOU!
 - Funcao na historia: GRANDE MOMENTO
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: Mas especialistas lembraram: aquilo foi um salto de poucos segundos, não um voo de verdade.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: pula -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: pula @6 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: Carro voador ou carro que pula? Você decide.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: pula -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: pula @5 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

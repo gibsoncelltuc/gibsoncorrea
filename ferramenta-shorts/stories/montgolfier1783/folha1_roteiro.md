@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 - Narracao: Os irmãos Montgolfier, donos de uma fábrica de papel, repararam que a fumaça quente fazia sacos de papel flutuarem.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@40
-- Efeito + som nas palavras-chave: encena: calor (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: calor (reach) @13 -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 - Narracao: Então costuraram um balão gigante de pano e papel, e encheram de ar quente.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: calor (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: calor (reach) @13 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 - Narracao: A solução: mandar bichos na frente. Uma ovelha, um pato e um galo entraram na cesta.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: quimico (pour) -> acao + som de efeito; encena: chega (point) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: quimico (pour) @1 -> acao + som de efeito; encena: chega (point) @13 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 - Narracao: Acontece que o balão levantou voo de verdade, e foi embora pelo céu, com os bichos dentro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@20, ding@50
-- Efeito + som nas palavras-chave: encena: pega (lift) -> acao + som de efeito; encena: sai -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: pega (lift) @4 -> acao + som de efeito; encena: sai @10 -> acao + som de efeito
 - Efeito visual marcado: whoosh@20, stars@50
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 - Narracao: Oito minutos depois, ele desceu num bosque a uns três quilômetros dali. Os irmãos correram para ver.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: correram -> dust + som de impacto; encena: corre -> acao + som de efeito
+- Efeito + som nas palavras-chave: correram -> dust + som de impacto; encena: corre @14 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 - Narracao: Dois meses depois, foi a vez de dois homens voarem sobre Paris. A humanidade tinha chegado ao céu.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: encena: voa (point) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: voa (point) @9 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: VOAMOS
 - Funcao na historia: GRANDE MOMENTO

@@ -74,7 +74,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | derreteu (41.6s) | ACAO: vira | o material vira o produto, que surge girando em destaque | OK |
+| 1 | elástica (43.7s) | ACAO: vira | o material vira o produto, que surge girando em destaque | OK |
 | 2 | - | ATUACAO | comemorar | OK |
 
 ## Cena b8 - 48.5s a 52.5s - 11 palavras - plano two

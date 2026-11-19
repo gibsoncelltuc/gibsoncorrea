@@ -103,13 +103,12 @@
    "say": "A briga não acabou ali. Dias depois, os dois resolveram tudo num duelo de espadas, no escuro."
   },
   {
-   "shot": "low",
+   "shot": "two",
    "hora": "noite",
    "who": [
     "PAR:0:angry:sword",
     "TYC:0:pained:sword"
    ],
-   "interacao": "empurrar",
    "fx": [
     "burst@30",
     "puff@36"
@@ -118,7 +117,12 @@
     "whoosh@26",
     "thump@30"
    ],
-   "say": "Acontece que o primo acertou um golpe certeiro, e cortou fora um pedaço do nariz de Tycho."
+   "say": "Acontece que o primo acertou um golpe certeiro, e cortou fora um pedaço do nariz de Tycho.",
+   "detalhe": false,
+   "variar_cenario": false,
+   "vary": false,
+   "shot_lock": true,
+   "impact": false
   },
   {
    "shot": "two",
@@ -134,7 +138,9 @@
      1.2
     ]
    ],
-   "say": "Para esconder o buraco, ele passou a usar um nariz de metal, colado no rosto."
+   "say": "Para esconder o buraco, ele passou a usar um nariz de metal, colado no rosto.",
+   "shot_lock": true,
+   "impact": false
   },
   {
    "shot": "two",
