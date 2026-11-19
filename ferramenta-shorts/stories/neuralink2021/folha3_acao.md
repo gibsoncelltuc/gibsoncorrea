@@ -52,7 +52,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | cochichar | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b6 - 35.1s a 41.2s - 16 palavras - plano low
+## Cena b6 - 35.1s a 41.2s - 16 palavras - plano two
 > "Acontece que, um dia, desligaram o joystick. E o Pager continuou jogando, só com a mente!"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
