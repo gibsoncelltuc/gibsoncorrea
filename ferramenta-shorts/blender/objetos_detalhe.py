@@ -89,6 +89,23 @@ def fireplace():
     caixa((0, .44, .4), (.8, .03, .03), '#2a2a2e')
     fim(.02)
 
-E = dict(bitcoin=bitcoin, roadster=roadster, ball=ball, fireplace=fireplace)
+def chess_pc():
+    # computador com xadrez na tela (19/11, neuralink: paciente joga xadrez so pensando): mesa, monitor grande virado para a camera (+z) com tabuleiro 8x8 e pecas, teclado
+    novo('chess_pc')
+    caixa((0, .74, 0), (1.3, .06, .7), '#7a5232'); [caixa((x, .37, z), (.06, .74, .06), '#5a3a22') for x in (-.58, .58) for z in (-.28, .28)]   # mesa
+    caixa((0, .8, .05), (.18, .06, .14), '#2a2a2e'); caixa((0, .95, .0), (.06, .28, .05), '#2a2a2e')   # pe do monitor
+    caixa((0, 1.32, .02), (1.0, .66, .06), '#1b1b1f')                                  # moldura
+    caixa((0, 1.32, .055), (.92, .58, .01), '#2f5a3a')          # tela
+    n = 8; sq = .58 / n
+    for i in range(n):
+        for j in range(n):
+            caixa((-.29 + sq * (i + .5), 1.03 + sq * (j + .5), .062), (sq * .98, sq * .98, .006), '#d9c9a0' if (i + j) % 2 == 0 else '#5a3a22')
+    for (i, j, c) in ((1, 0, '#fafafa'), (3, 1, '#fafafa'), (4, 0, '#fafafa'), (6, 1, '#fafafa'), (2, 6, '#151515'), (4, 7, '#151515'), (5, 6, '#151515'), (3, 4, '#fafafa'), (4, 4, '#151515')):
+        x = -.29 + sq * (i + .5); y = 1.03 + sq * (j + .5)
+        cil((x, y - .015, .075), .022, .02, c, rot=(H, 0, 0)); bola((x, y + .012, .078), .02, c, esc=(1, 1, .5))   # pecas
+    caixa((0, .78, .22), (.6, .025, .18), '#d8d8dc')                                   # teclado
+    fim(.01)
+
+E = dict(bitcoin=bitcoin, roadster=roadster, ball=ball, fireplace=fireplace, chess_pc=chess_pc)
 alvo = sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else list(E)
 for k in alvo: E[k]()
