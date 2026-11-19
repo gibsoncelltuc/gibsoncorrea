@@ -9,7 +9,7 @@ b1 | countryside | reveal | 10 | parados (so fala e pisca) | - | - | -
 b2 | mountain | crowd | 14 | discutir, batalha | nature/tree_pine, kit/logs, nature/tree_oak, nature/bush | - | -
 b3 | countryside | two | 2 | discutir, INTERAGEM: empurrar | nature/tree_pine | - | -
 b4 | street | crowd | 32 | encena, batalha | - | - | -
-b5 | interior pedra | two | 2 | conversar, INTERAGEM: empurrar | - | - | -
+b5 | interior pedra | two | 2 | conversar, INTERAGEM: empurrar | kit/prison_mini | - | -
 b6 | palace | two | 2 | conversar, INTERAGEM: cochichar | - | - | -
 b7 | interior madeira | two | 2 | conversar, INTERAGEM: entregar | - | paper | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | kit/scroll | paper | -
