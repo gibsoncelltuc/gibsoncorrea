@@ -18,7 +18,8 @@
    "hair": "#f2c84a",
    "tie": "#d8282f",
    "pele": "#f5c49a",
-   "build": "stout"
+   "build": "stout",
+   "swoop": true
   },
   "VIN": {
    "jacket": "#2a2a30",
@@ -40,12 +41,16 @@
   },
   "LAS": {
    "jacket": "#7a4a2e",
-   "pants": "#1b1b1f",
-   "boots": "#1b1b1f",
+   "pants": "#27408b",
+   "boots": "#e8c45a",
    "hat": "hair",
    "hair": "#1b1b1f",
    "pele": "#7a4a2e",
-   "build": "stout"
+   "build": "stout",
+   "profissao": "lutador",
+   "trunks": "#27408b",
+   "trunkBand": "#e8c45a",
+   "gloves": "#2a6ad8"
   },
   "UMA": {
    "jacket": "#8a5a3a",
@@ -54,10 +59,14 @@
    "hat": "hair",
    "hair": "#1b1b1f",
    "pele": "#8a5a3a",
-   "build": "stout"
+   "build": "stout",
+   "profissao": "lutador",
+   "trunks": "#d8282f",
+   "trunkBand": "#1b1b1f",
+   "gloves": "#d8282f"
   },
   "JUI": {
-   "jacket": "#1b1b1f",
+   "jacket": "#f4f4f2",
    "pants": "#1b1b1f",
    "boots": "#1b1b1f",
    "hat": "hair",

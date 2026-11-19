@@ -11,10 +11,10 @@ b3 | interior madeira | close | 1 | reagir | - | paper | -
 b4 | interior madeira | two | 2 | conversar, INTERAGEM: entregar | - | paper | -
 b5 | street | crowd | 19 | batalha | buildings/church | - | -
 b6 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/postit | paper | -
-b7 | street | close | 1 | conversar | kit/postit | - | -
+b7 | harbor | close | 1 | conversar | kit/postit | - | -
 b8 | interior madeira | two | 2 | conversar, INTERAGEM: abracar | kit/postit | - | -
-b9 | street | two | 2 | conversar, INTERAGEM: susto | kit/postit | paper | -
-b10 | street | orbit | 21 | comemorar, batalha | kit/postit, buildings/apartment, buildings/house_two, nature/lamppost | - | -
+b9 | interior loja | two | 2 | conversar, INTERAGEM: susto | kit/postit | paper | -
+b10 | street | orbit | 33 | comemorar, batalha | kit/postit, buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b11 | street | close | 1 | conversar | kit/postit | - | -
 
 OBJETO HEROI: kit/postit - aparece em 7 cena(s), close nele em 3

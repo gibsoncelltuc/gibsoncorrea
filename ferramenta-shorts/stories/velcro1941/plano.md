@@ -6,7 +6,7 @@ b0 | two | -  | animais, placa: 1941 | - | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | animais | - | -
 b3 | two | -  | animais | - | -
-b4 | two | -  | interior | - | -
+b4 | two | -  | interior | encena: examina (think) (acao + som de efeito) | -
 b5 | close | -  | interior | - | -
 b6 | low | -  | interior | - | -
 b7 | two | -  | interior | (rosto) laugh (expr + som de efeito); riram (stars + som de sino) | -
