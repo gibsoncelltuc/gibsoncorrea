@@ -148,7 +148,15 @@
     "march": false,
     "expr": "shock"
    },
-   "say": "Os canhões franceses bombardearam a fortaleza de Veracruz, e os soldados tomaram a cidade."
+   "say": "Os canhões franceses bombardearam a fortaleza de Veracruz, e os soldados tomaram a cidade.",
+   "props": [
+    [
+     "war/bunker",
+     0,
+     -6.5,
+     1.8
+    ]
+   ]
   },
   {
    "shot": "two",
