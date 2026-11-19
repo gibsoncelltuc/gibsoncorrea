@@ -44,3 +44,24 @@ def build(name, P):
 build('room_wood', dict(bw=0.7, tile=False, floor=['#c9955a', '#b98448'], joint='#7a5230', wall='#f2dfb8', wall2='#e9cf9c', base='#8b5a34', frame='#7a4a2a', door='#a8733f', door2='#96642f'))
 build('room_stone', dict(bw=1.3, tile=True, floor=['#b9b4aa', '#a59f94'], joint='#5d584f', wall='#cfc8bb', wall2='#bdb5a6', base='#7d766a', frame='#5a4a3a', door='#7a5a3a', door2='#6a4c30'))
 build('room_shop', dict(bw=1.1, tile=True, floor=['#f1ece0', '#7fb9c9'], joint='#56727a', wall='#ffe9a8', wall2='#f6c95a', base='#c8402f', frame='#8b3a2a', door='#b9643a', door2='#a2532c', shop=True))
+# ---- SALAS POR REGIAO (19/11: acabar com a "sala marrom" igual em todo video) ----
+_R = {  # regiao: (madeira: parede, parede2, piso a, piso b, rodape/moldura) | pedra: (parede, parede2, piso a, piso b)
+ 'europa':  (('#f3ead2', '#e2d2ae', '#8a5a34', '#7a4a2a', '#4a2f1e'), ('#d9d2c4', '#c4bba8', '#9d968a', '#8a8378')),
+ 'franca':  (('#e9e2f0', '#cfc4e0', '#c9955a', '#b98448', '#f4f0e8'), ('#f4efe2', '#e6dcc4', '#efe9dc', '#2b2b30')),
+ 'holanda': (('#f4f0e8', '#dfe8f0', '#b9b4aa', '#2b2b30', '#3a5a8a'), ('#e8e4dc', '#d4cfc4', '#f4f0e8', '#2b2b30')),
+ 'eua':     (('#b9d4c4', '#9fc0ae', '#c9955a', '#b98448', '#f4f0e8'), ('#d4d8de', '#bcc2ca', '#9aa0a8', '#c8ccd2')),
+ 'oriente': (('#f2dcb0', '#e6c890', '#c9763a', '#a85a2a', '#3a6a8a'), ('#efe2c8', '#e2d0aa', '#3a8aa0', '#f2e6cc')),
+ 'colonial':(('#f6f1e6', '#e8c45a', '#a8603a', '#94502e', '#2f6a9a'), ('#f6f1e6', '#dfe8f0', '#c0603a', '#a8502e')),
+ 'japao':   (('#f4ead6', '#e6d6b4', '#c9b07a', '#b89c66', '#3a3a44'), ('#e8e0cc', '#d6cbb2', '#9a8a6a', '#8a7a5a')),
+ 'russia':  (('#f2e2c0', '#c8302a', '#8a5a34', '#7a4a2a', '#e8c45a'), ('#f4efe6', '#3a6ab8', '#b9b4aa', '#a59f94')),
+ 'africa':  (('#d9a46a', '#c98e5a', '#a86a3e', '#94582e', '#4a3020'), ('#e6c99a', '#d4b07c', '#b07a4a', '#a06a3a')),
+ 'classico':(('#f4efe2', '#c0603a', '#d9d2c4', '#c4bba8', '#8a3a2a'), ('#f1ece0', '#e2dccd', '#e8e2d4', '#c9c2b4')),
+ 'azul':    (('#cfe0f0', '#b4cce4', '#c9955a', '#b98448', '#f4f0e8'), ('#dfe8f0', '#c4d4e4', '#b9b4aa', '#a59f94')),
+ 'verde':   (('#d4e8c8', '#bcd8ac', '#b98448', '#a8733f', '#f4f0e8'), ('#e2ecd8', '#cadcbc', '#c4bba8', '#b0a894')),
+ 'rosa':    (('#f4d8d8', '#e8bcbc', '#c9955a', '#b98448', '#f4f0e8'), ('#f4e4e0', '#e8ccc4', '#efe9dc', '#d4ccbb')),
+}
+for rg, (wd, st) in _R.items():
+    build(f'room_{rg}_wood', dict(bw=0.7, tile=False, floor=[wd[2], wd[3]], joint='#5a3a24', wall=wd[0], wall2=wd[1], base=wd[4], frame=wd[4], door='#a8733f', door2='#96642f'))
+    build(f'room_{rg}_stone', dict(bw=1.3, tile=True, floor=[st[2], st[3]], joint='#5d584f', wall=st[0], wall2=st[1], base='#7d766a', frame='#5a4a3a', door='#7a5a3a', door2='#6a4c30'))
+    build(f'room_{rg}_shop', dict(bw=1.1, tile=True, floor=[st[2], wd[2]], joint='#56727a', wall=wd[0], wall2=wd[1], base=wd[4], frame='#8b3a2a', door='#b9643a', door2='#a2532c', shop=True))
+build('room_hospital', dict(bw=1.1, tile=True, floor=['#eef6f8', '#bfe0e8'], joint='#8ab0bc', wall='#e2f2f4', wall2='#a8dcd4', base='#7ab8a8', frame='#8aa8b8', door='#bcd8e4', door2='#a8c8d6'))

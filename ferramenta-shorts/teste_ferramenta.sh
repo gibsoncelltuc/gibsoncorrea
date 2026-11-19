@@ -25,6 +25,7 @@ grep -o 'TRU: (v = 0[^;]*' $S | grep -q '&& true) ? { beard' && f "famoso (pele)
 grep -o 'ANA: (v = 0[^;]*' $S | grep -q '&& true) ? { beard' && f "mulher (coque) ganhou barba sorteada"
 grep -o "S('b2'[^;]*" $S | grep -q '"night"' && f "noite da cena b1 vazou para b2"
 node -e "import('./web/animals2d.js').catch(()=>0)" 2>/dev/null; for a in wolf fox deer rabbit lion elephant; do grep -q "  $a: " web/toon.js || f "animal $a sem desenho 2D (trava o render)"; done
+ls web/assets/library/kit/rg_franca_1.glb web/assets/library/kit/room_azul_wood.glb >/dev/null 2>&1 || f "kit de cidades por regiao/salas coloridas sumiu"
 grep -q "keepFam" web/acting.js || f "rosto do roteiro nao esta protegido (keepFam)"
 grep -q '"snarl"' web/toonbase.js && grep -q 'expr === "cry"' web/toonbase.js || f "raiva/choro sem desenho proprio"
 rm -rf videos/$T stories/$T
