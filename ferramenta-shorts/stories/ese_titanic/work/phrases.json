@@ -1,0 +1,243 @@
+{
+ "duration": 63.504,
+ "frames30": 1905,
+ "source": "silence-align (cost 0.65)",
+ "segments": [
+  [
+   0.160583,
+   2.71458
+  ],
+  [
+   3.52862,
+   4.89358
+  ],
+  [
+   5.77475,
+   7.64354
+  ],
+  [
+   8.49917,
+   10.1331
+  ],
+  [
+   11.0042,
+   14.0566
+  ],
+  [
+   14.922,
+   15.821
+  ],
+  [
+   16.1254,
+   16.9504
+  ],
+  [
+   17.1815,
+   18.2037
+  ],
+  [
+   19.0456,
+   20.3882
+  ],
+  [
+   21.1875,
+   23.227
+  ],
+  [
+   23.5349,
+   25.3628
+  ],
+  [
+   26.229,
+   29.086
+  ],
+  [
+   29.9606,
+   31.7196
+  ],
+  [
+   32.5892,
+   34.3558
+  ],
+  [
+   35.224,
+   36.826
+  ],
+  [
+   37.0848,
+   37.667
+  ],
+  [
+   38.4904,
+   40.5908
+  ],
+  [
+   41.4579,
+   42.5484
+  ],
+  [
+   42.834,
+   47.071
+  ],
+  [
+   47.3173,
+   48.253
+  ],
+  [
+   49.092,
+   51.6269
+  ],
+  [
+   52.477,
+   53.5764
+  ],
+  [
+   54.4498,
+   54.957
+  ],
+  [
+   55.2885,
+   58.5251
+  ],
+  [
+   59.3939,
+   59.9766
+  ],
+  [
+   60.2493,
+   62.7047
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Diziam que ele era praticamente imposs\u00edvel de afundar.",
+   "s": 0.161,
+   "e": 2.715
+  },
+  {
+   "text": "Afundou na primeira viagem.",
+   "s": 3.529,
+   "e": 4.894
+  },
+  {
+   "text": "E se tivesse desviado do iceberg?",
+   "s": 5.775,
+   "e": 7.644
+  },
+  {
+   "text": "Abril de mil novecentos e doze.",
+   "s": 8.499,
+   "e": 10.133
+  },
+  {
+   "text": "O Titanic levava mais de duas mil pessoas para Nova York.",
+   "s": 11.004,
+   "e": 14.057
+  },
+  {
+   "text": "Perto da meia-noite,",
+   "s": 14.922,
+   "e": 15.821
+  },
+  {
+   "text": "o vigia gritou:",
+   "s": 16.125,
+   "e": 16.95
+  },
+  {
+   "text": "iceberg \u00e0 frente!",
+   "s": 17.181,
+   "e": 18.204
+  },
+  {
+   "text": "N\u00e3o deu tempo de desviar.",
+   "s": 19.046,
+   "e": 20.388
+  },
+  {
+   "text": "O gelo rasgou o casco por baixo da \u00e1gua,",
+   "s": 21.188,
+   "e": 23.227
+  },
+  {
+   "text": "onde fica a maior parte do iceberg.",
+   "s": 23.535,
+   "e": 25.363
+  },
+  {
+   "text": "Acontece que s\u00f3 havia botes para metade das pessoas.",
+   "s": 26.229,
+   "e": 29.086
+  },
+  {
+   "text": "Cerca de mil e quinhentas morreram.",
+   "s": 29.961,
+   "e": 31.72
+  },
+  {
+   "text": "E se o Titanic tivesse chegado inteiro?",
+   "s": 32.589,
+   "e": 34.356
+  },
+  {
+   "text": "Seria s\u00f3 mais um navio de luxo,",
+   "s": 35.224,
+   "e": 36.826
+  },
+  {
+   "text": "esquecido.",
+   "s": 37.085,
+   "e": 37.667
+  },
+  {
+   "text": "E as regras do mar continuariam fracas.",
+   "s": 38.49,
+   "e": 40.591
+  },
+  {
+   "text": "Por causa do naufr\u00e1gio,",
+   "s": 41.458,
+   "e": 42.548
+  },
+  {
+   "text": "os pa\u00edses fizeram em mil novecentos e catorze o primeiro grande tratado de seguran\u00e7a no mar:",
+   "s": 42.834,
+   "e": 47.071
+  },
+  {
+   "text": "bote para todos.",
+   "s": 47.317,
+   "e": 48.253
+  },
+  {
+   "text": "E criaram uma patrulha s\u00f3 para vigiar icebergs.",
+   "s": 49.092,
+   "e": 51.627
+  },
+  {
+   "text": "Ela existe at\u00e9 hoje.",
+   "s": 52.477,
+   "e": 53.576
+  },
+  {
+   "text": "Ou seja:",
+   "s": 54.45,
+   "e": 54.957
+  },
+  {
+   "text": "a trag\u00e9dia do Titanic ajudou a salvar milhares de vidas depois.",
+   "s": 55.288,
+   "e": 58.525
+  },
+  {
+   "text": "\u00c0s vezes,",
+   "s": 59.394,
+   "e": 59.977
+  },
+  {
+   "text": "o pior dia da hist\u00f3ria \u00e9 o que deixa o futuro mais seguro.",
+   "s": 60.249,
+   "e": 62.705
+  }
+ ]
+}

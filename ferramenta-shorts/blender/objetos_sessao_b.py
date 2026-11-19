@@ -144,3 +144,9 @@ novo('podium')             # puilpito de madeira escura com tampo inclinado, mic
 caixa((0, .55, 0), (.9, 1.1, .6), '#5a3a22', afina=.9); caixa((0, 1.12, 0), (1.0, .08, .7), '#6a4a2a', rot=(.2, 0, 0))
 cil((0, 1.5, .05), .015, .5, '#2a2a30'); bola((0, 1.78, .1), .05, '#2a2a30', seg=8); cil((0, .65, .31), .14, .03, '#d8b040', rot=(math.pi / 2, 0, 0))
 fim()
+novo('iceberg_mini')       # maquete de iceberg: bloco de agua azul cortado, ponta de gelo branca fora e base grande submersa em tom claro
+caixa((0, .12, 0), (1.9, .24, 1.3), '#2f6fd0'); caixa((0, .5, 0), (1.9, .5, 1.3), '#7ab8e8')
+cil((0, .85, 0), .55, .45, '#cfe8f6', raio_topo=.15, lados=7); cil((.5, .78, .1), .3, .3, '#f2f8fc', raio_topo=.1, lados=6)
+cil((0, 1.25, 0), .3, .5, '#ffffff', raio_topo=.02, lados=6)
+cil((-.35, .35, .1), .5, .3, '#b8dcf2', raio_topo=.7, lados=8)
+fim()

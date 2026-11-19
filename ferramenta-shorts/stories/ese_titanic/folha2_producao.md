@@ -8,7 +8,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): CAP (variante 0, expressao stern); POV (variante 0, expressao surprised)
 - Animacao: conversar | interacao: aproxima-se
-- Objetos/modelos: kit/iceberg
+- Objetos/modelos: kit/iceberg, kit/iceberg_mini
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): afundar, iceberg, primeira
 - RISCOS: nenhum
 
@@ -28,7 +28,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MAR (variante 0, expressao scared); CAP (variante 0, expressao shock)
 - Animacao: discutir | interacao: discutir
-- Objetos/modelos: kit/iceberg
+- Objetos/modelos: kit/iceberg, kit/iceberg_mini
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): desviar, frente, meianoite, vigia
 - RISCOS: nenhum
 
@@ -38,7 +38,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): MAR (variante 0, expressao shock)
 - Animacao: reagir
-- Objetos/modelos: kit/iceberg
+- Objetos/modelos: kit/iceberg_mini
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): agua, casco, gelo, iceberg
 - RISCOS: nenhum
 
@@ -88,7 +88,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): MAR (variante 0, expressao grin); CAP (variante 0, expressao smile)
 - Animacao: conversar | interacao: entregar
-- Objetos/modelos: kit/iceberg
+- Objetos/modelos: kit/iceberg, kit/iceberg_mini
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): patrulha
 - RISCOS: nenhum
 
@@ -108,7 +108,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): PRO (variante 0, expressao smile)
 - Animacao: conversar
-- Objetos/modelos: kit/iceberg
+- Objetos/modelos: kit/iceberg_mini
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): futuro, pior
 - RISCOS: nenhum
 
@@ -117,7 +117,8 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/iceberg | b0, b2, b3, b8, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/iceberg | b0, b2, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/iceberg_mini | b0, b2, b3, b8, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 ship | b1, b6, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 boat | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -125,7 +126,7 @@ kit/scroll | b7 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/iceberg | grandes momentos: b4, b9 | planos abertos: 3 | mistura: close 34% | medio 47% | aberto 12% | detalhe 7%
+- Objeto heroi: kit/iceberg_mini | grandes momentos: b4, b9 | planos abertos: 3 | mistura: close 34% | medio 47% | aberto 12% | detalhe 7%
 - Interacoes: b0 aproxima-se, b2 discutir, b5 avanca e o outro recua, b6 cochichar, b8 entregar
 - RISCOS GERAIS: nenhum
 
