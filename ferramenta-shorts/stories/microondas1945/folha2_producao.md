@@ -34,8 +34,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Um dia, ele chegou perto dessa peça com uma barra de chocolate no bols...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): ENG (variante 0, expressao neutral); SPE (variante 0, expressao smile)
 - Animacao: conversar | interacao: vai ate o outro | o ultimo personagem ENTRA andando
 - Objetos/modelos: kit/chocolate
@@ -74,18 +74,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Depois testou um ovo, e o ovo explodiu bem na cara de um colega.
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): SPE (variante 0, expressao grin); COL (variante 0, expressao shock)
 - Animacao: conversar | interacao: discutir
 - Objetos/modelos: kit/egg
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cara, colega
-- RISCOS: nenhum
+- RISCOS: 
+  - a narracao fala de EXPLOSAO e nao ha explosao -> CORRECAO: "fx": ["burst@30"], "sfx": ["cannon@30"] (acerte o numero para o quadro da palavra)
 
 ## Cena b8 - Dois anos depois, saiu o primeiro forno, mais alto que uma pessoa e co...
 - Cenario: street | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (3): SPE (variante 0, expressao smile); COL (variante 0, expressao surprised); ENG (variante 0, expressao shock)
 - Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/microwave
@@ -112,12 +113,24 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chocolate, pipoca
 - RISCOS: nenhum
 
+## PARA O BLENDER (objetos 3D deste video)
+Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito no Blender; a ferramenta so' poe em cena, pinta o contorno e anima. Nada de objeto "quadradao": use `blender/formas.py` (cil, bola, torno, tubo, arco, caixa com chanfro).
+
+Objeto | Cenas | Situacao | O que fazer
+---|---|---|---
+kit/microwave | b0, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/chocolate | b0, b3, b4, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/popcorn | b6, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/egg | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+
+
 ## Video inteiro
-- Objeto heroi: kit/microwave | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 15% | medio 67% | aberto 12% | detalhe 6%
+- Objeto heroi: kit/microwave | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 15% | medio 69% | aberto 12% | detalhe 5%
 - Interacoes: b0 o outro se aproxima, b2 insiste, b3 vai ate o outro, b4 susto, b7 discutir, b8 aproxima-se, b9 pular
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- b7: a narracao fala de EXPLOSAO e nao ha explosao
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh microondas1945 bN bM` (so essas cenas).

@@ -8,7 +8,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): FLE (variante 0, expressao smile, segura book); COL (variante 0, expressao surprised)
 - Animacao: conversar | interacao: aproxima-se
-- Objetos/modelos: kit/petri
+- Objetos/modelos: kit/marco_bigben, kit/petri
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bagunca, mofo, vidas
 - RISCOS: nenhum
 
@@ -18,22 +18,22 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): MED (variante 0, expressao neutral); MED (variante 1, expressao smile) | multidao: 8 de MED/POV
 - Animacao: -
-- Objetos/modelos: -
+- Objetos/modelos: kit/marco_bigben
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cientista, londres
 - RISCOS: nenhum
 
 ## Cena b2 - Ele estudava bactérias, e deixava os pratos de cultura empilhados na b...
-- Cenario: interior madeira | luz: day | clima: limpo
+- Cenario: interior hospital | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): FLE (variante 0, expressao neutral, segura book); COL (variante 0, expressao suspicious)
 - Animacao: conversar | interacao: avanca e o outro recua
-- Objetos/modelos: kit/petri
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bancada, cultura, pratos
 - RISCOS: nenhum
 
 ## Cena b3 - Um dia, ele saiu de férias por duas semanas e não limpou nada.
-- Cenario: interior madeira | luz: day | clima: limpo
+- Cenario: interior hospital | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): FLE (variante 0, expressao grin, segura bag); COL (variante 0, expressao shock)
@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Quando voltou, achou um prato com bolor verde e disse: "Que sujeira!"
-- Cenario: interior madeira | luz: day | clima: limpo
+- Cenario: interior hospital | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): COL (variante 0, expressao smug); FLE (variante 0, expressao angry)
@@ -54,11 +54,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Ele ia jogar o prato fora, mas olhou melhor.
 - Cenario: street | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: close = close no rosto; empurra devagar
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): FLE (variante 0, expressao suspicious)
 - Animacao: conversar
-- Objetos/modelos: kit/petri
+- Objetos/modelos: kit/marco_bigben
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): prato
 - RISCOS: nenhum
 
@@ -73,9 +73,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - O mofo soltava algo que matava as bactérias, e ele deu a isso o nome d...
-- Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Cenario: interior hospital | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): FLE (variante 0, expressao smile); COL (variante 0, expressao relief)
 - Animacao: conversar | interacao: cochichar
 - Objetos/modelos: kit/petri
@@ -84,11 +84,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Anos depois, outros cientistas transformaram o bolor em remédio, e ele...
 - Cenario: street | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (3): MED (variante 0, expressao smile); MED (variante 1, expressao grin); POV (variante 0, expressao relief)
 - Animacao: comemorar | interacao: pular
-- Objetos/modelos: kit/petri
+- Objetos/modelos: kit/marco_bigben, kit/petri
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bolor, pessoas
 - RISCOS: nenhum
 
@@ -108,12 +108,21 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): FLE (variante 0, expressao smug)
 - Animacao: conversar
-- Objetos/modelos: -
+- Objetos/modelos: kit/marco_bigben
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bagunca
 - RISCOS: nenhum
 
+## PARA O BLENDER (objetos 3D deste video)
+Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito no Blender; a ferramenta so' poe em cena, pinta o contorno e anima. Nada de objeto "quadradao": use `blender/formas.py` (cil, bola, torno, tubo, arco, caixa com chanfro).
+
+Objeto | Cenas | Situacao | O que fazer
+---|---|---|---
+kit/marco_bigben | b0, b1, b5, b8, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/petri | b0, b4, b6, b7, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+
+
 ## Video inteiro
-- Objeto heroi: kit/petri | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 13% | medio 71% | aberto 11% | detalhe 6%
+- Objeto heroi: kit/petri | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 14% | medio 71% | aberto 11% | detalhe 4%
 - Interacoes: b0 aproxima-se, b2 avanca e o outro recua, b3 susto, b4 discutir, b7 cochichar, b8 pular, b9 o outro se aproxima
 - RISCOS GERAIS: nenhum
 

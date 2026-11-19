@@ -14,5 +14,5 @@ b8 | group | -  | - | (rosto) relief (expr + som de efeito); encena: vira (up) (
 b9 | group | -  | batalha aberta com tiros, tropa, placa: NOBEL | ganhou (stars + som de sino); prêmio (stars + som de sino) | -
 b10 | close | -  | - | - | -
 
-Mistura de planos: close 14% | medio 71% | aberto 11% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 13% | medio 71% | aberto 11% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 2 | dentro do padrao do canal

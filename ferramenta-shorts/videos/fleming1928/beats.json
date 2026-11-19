@@ -97,13 +97,41 @@
     "FLE:0:angry"
    ],
    "interacao": "discutir",
-   "detalhe": false
+   "detalhe": false,
+   "props": [
+    [
+     "kit/petri",
+     1.2,
+     -0.3,
+     1.9
+    ],
+    [
+     "kit/gosma",
+     1.0,
+     -0.05,
+     0.9
+    ]
+   ]
   },
   {
    "say": "Ele ia jogar o prato fora, mas olhou melhor.",
    "shot": "close",
    "who": [
     "FLE:0:suspicious"
+   ],
+   "props": [
+    [
+     "kit/petri",
+     1.2,
+     -0.3,
+     1.9
+    ],
+    [
+     "kit/gosma",
+     1.0,
+     -0.05,
+     0.9
+    ]
    ]
   },
   {

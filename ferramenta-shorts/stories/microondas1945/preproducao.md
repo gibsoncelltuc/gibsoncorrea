@@ -16,7 +16,7 @@ b8 | street | group | 3 | conversar, INTERAGEM: aproxima-se | kit/microwave | - 
 b9 | hall | group | 16 | comemorar, INTERAGEM: pular, batalha | - | - | -
 b10 | street | close | 1 | conversar | kit/chocolate, kit/popcorn | - | -
 
-OBJETO HEROI: kit/microwave - aparece em 2 cena(s), close nele em 1
+OBJETO HEROI: kit/microwave - aparece em 2 cena(s), close nele em 2
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b6, b9
 Interacoes entre personagens: b0 o outro se aproxima, b2 insiste, b3 vai ate o outro, b4 susto, b7 discutir, b8 aproxima-se, b9 pular
 
