@@ -229,11 +229,12 @@
    "props": [
     [
      "kit/falcon9_land",
-     0,
+     1.5,
      -6.0,
      1.1,
      {
-      "drop": true
+      "drop": false,
+      "y": 8
      }
     ]
    ],
@@ -250,7 +251,7 @@
    "shot_lock": true
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "hora": "noite",
    "who": [
     "ENG:0:shock",
@@ -259,11 +260,11 @@
    "props": [
     [
      "kit/falcon9_land",
-     1.2,
+     1.5,
      -6.0,
-     1.0,
+     1.1,
      {
-      "drop": true
+      "drop": false
      }
     ]
    ],
@@ -276,7 +277,8 @@
     "ding@50"
    ],
    "say": "E pousou certinho no meio da plataforma, abrindo as pernas no último segundo.",
-   "detalhe": false
+   "detalhe": false,
+   "shot_lock": true
   },
   {
    "shot": "crowd",

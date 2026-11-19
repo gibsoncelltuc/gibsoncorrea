@@ -74,10 +74,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - E pousou certinho no meio da plataforma, abrindo as pernas no último s...
 - Cenario: mountain | luz: noite | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): ENG (variante 0, expressao shock); ENA (variante 0, expressao surprised)
-- Animacao: reagir | interacao: insiste
+- Animacao: reagir
 - Objetos/modelos: kit/falcon9_land, kit/marco_canaveral
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pernas, plataforma
 - RISCOS: nenhum
@@ -127,8 +127,8 @@ kit/starlink_sat | b4 | pronto | conferir na folha de contato se le bem; se pare
 
 
 ## Video inteiro
-- Objeto heroi: kit/rocket | grandes momentos: b3, b5, b8 | planos abertos: 5 | mistura: close 16% | medio 58% | aberto 22% | detalhe 5%
-- Interacoes: b0 o outro se aproxima, b2 discutir, b4 entregar, b7 insiste, b9 abracar
+- Objeto heroi: kit/rocket | grandes momentos: b3, b5, b8 | planos abertos: 6 | mistura: close 16% | medio 51% | aberto 29% | detalhe 5%
+- Interacoes: b0 o outro se aproxima, b2 discutir, b4 entregar, b9 abracar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

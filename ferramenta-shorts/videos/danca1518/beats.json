@@ -152,6 +152,18 @@
      {
       "drop": true
      }
+    ],
+    [
+     "buildings/church",
+     6.0,
+     -12.0,
+     1.2
+    ],
+    [
+     "buildings/house_small",
+     -6.0,
+     -11.0,
+     1.25
     ]
    ],
    "acao": "construir",
@@ -162,7 +174,8 @@
     "thump@50"
    ],
    "set": "medieval",
-   "fachada": false
+   "fachada": false,
+   "objetos": false
   },
   {
    "shot": "two",

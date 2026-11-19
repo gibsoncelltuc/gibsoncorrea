@@ -9,7 +9,7 @@ b1 | medieval | reveal | 10 | dancar | kit/marco_viena | - | -
 b2 | countryside | group | 4 | dancar, INTERAGEM: aproxima-se | kit/marco_viena, buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
 b3 | countryside | crowd | 21 | encena, batalha | kit/marco_viena | - | -
 b4 | interior pedra | two | 2 | reagir, INTERAGEM: avanca e o outro recua | - | book | -
-b5 | medieval | crowd | 33 | construir, batalha | war/drum, kit/podium, kit/marco_viena, buildings/apartment, buildings/house_two, nature/lamppost | flag | -
+b5 | medieval | crowd | 33 | construir, batalha | war/drum, kit/podium, buildings/church, buildings/house_small, kit/marco_viena | flag | -
 b6 | countryside | two | 20 | dancar, INTERAGEM: discutir, alguem chega andando | war/drum, kit/marco_viena | - | -
 b7 | countryside | two | 2 | reagir, INTERAGEM: o outro se aproxima | kit/marco_viena | - | -
 b8 | mountain | track | 3 | dancar, andando | kit/marco_viena | - | -

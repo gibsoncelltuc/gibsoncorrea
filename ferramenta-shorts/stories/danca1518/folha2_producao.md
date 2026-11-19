@@ -58,7 +58,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): MUS (variante 0, expressao grin, segura flag); MUS (variante 1, expressao laugh); PRE (variante 0, expressao grin) | multidao: 30 de POV
 - Animacao: construir | batalha encenada
-- Objetos/modelos: war/drum, kit/podium, kit/marco_viena, buildings/apartment, buildings/house_two, nature/lamppost
+- Objetos/modelos: war/drum, kit/podium, buildings/church, buildings/house_small, kit/marco_viena
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, multidao, palco, serio
 - RISCOS: nenhum
 
@@ -109,13 +109,11 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 war/drum | b0, b5, b6 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_viena | b0, b1, b2, b3, b5, b6, b7, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/house_small | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/house_small | b2, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/podium | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/apartment | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/house_two | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/lamppost | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/church | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro

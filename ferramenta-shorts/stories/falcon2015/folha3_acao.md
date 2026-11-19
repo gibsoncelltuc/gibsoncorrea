@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 24 - O Foguete que Voltou de Ré
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.5s - 21 palavras - plano two
@@ -65,14 +65,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | ATUACAO | reagir | OK |
 
-## Cena b7 - 43.1s a 46.7s - 13 palavras - plano two
+## Cena b7 - 43.1s a 46.7s - 13 palavras - plano wide
 > "E pousou certinho no meio da plataforma, abrindo as pernas no último segundo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | abrindo (45.4s) | ACAO: x_abre | empurra a porta | OK |
-| 2 | - | INTERACAO | insiste | OK |
-| 3 | - | ATUACAO | reagir | OK |
+| 2 | - | ATUACAO | reagir | OK |
 
 ## Cena b8 - 48.0s a 50.9s - 12 palavras - plano orbit
 > "Os funcionários da SpaceX gritaram como em final de Copa do Mundo."
