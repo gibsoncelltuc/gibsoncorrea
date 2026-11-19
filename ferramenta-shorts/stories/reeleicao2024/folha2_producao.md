@@ -84,10 +84,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Em vinte de janeiro de dois mil e vinte e cinco, ele voltou ao cargo.
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (2): TRU (variante 0, expressao grin); GEN (variante 0, expressao stern)
-- Animacao: comemorar | interacao: pular
+- Personagens principais (1): TRU (variante 0, expressao grin)
+- Animacao: comemorar
 - Objetos/modelos: kit/white_house, kit/marco_casabranca
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, janeiro
 - RISCOS: nenhum
@@ -124,8 +124,8 @@ kit/scroll | b7 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/ballot_box | grandes momentos: b5, b9 | planos abertos: 3 | mistura: close 33% | medio 54% | aberto 12% | detalhe 2%
-- Interacoes: b0 o outro se aproxima, b2 insiste, b3 discutir, b7 vai ate o outro, b8 pular
+- Objeto heroi: kit/ballot_box | grandes momentos: b5, b9 | planos abertos: 3 | mistura: close 42% | medio 44% | aberto 12% | detalhe 2%
+- Interacoes: b0 o outro se aproxima, b2 insiste, b3 discutir, b7 vai ate o outro
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

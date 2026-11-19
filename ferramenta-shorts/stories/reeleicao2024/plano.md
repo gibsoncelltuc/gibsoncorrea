@@ -10,9 +10,9 @@ b4 | close | dia  | interior, objeto na mao | (rosto) laugh (expr + som de efeit
 b5 | crowd | dia  | batalha aberta com tiros, tropa, placa: 312 VOTOS | (rosto) laugh (expr + som de efeito); comemoraram (stars + som de sino); vitória (stars + som de sino); encena: vence (up) @2 (acao + som de efeito); encena: escala (lift) @7 (acao + som de efeito); encena: fala (point) @11 (acao + som de efeito) | -
 b6 | close | -  | - | - | -
 b7 | two | -  | interior, objeto na mao | - | -
-b8 | two | -  | - | - | -
+b8 | close | -  | - | - | -
 b9 | orbit | -  | batalha aberta com tiros, tropa, placa: 47º | - | -
 b10 | close | -  | - | Perdeu (puff + som de baque); ganhou (stars + som de sino); encena: perde (facepalm) @0 (acao + som de efeito); encena: vence (up) @3 (acao + som de efeito) | -
 
-Mistura de planos: close 33% | medio 54% | aberto 12% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 42% | medio 44% | aberto 12% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

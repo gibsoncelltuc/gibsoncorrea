@@ -108,9 +108,9 @@
    "props": [
     [
      "kit/ballot_box",
-     1.5,
-     -0.6,
-     1.2
+     0.0,
+     0.6,
+     1.1
     ]
    ],
    "say": "Milhões de americanos escolheram entre Trump e a vice-presidente Kamala Harris.",
@@ -214,10 +214,9 @@
    "say": "O primeiro foi Grover Cleveland, há mais de cento e trinta anos."
   },
   {
-   "shot": "two",
+   "shot": "close",
    "who": [
-    "TRU:0:grin",
-    "GEN:0:stern"
+    "TRU:0:grin"
    ],
    "props": [
     [
