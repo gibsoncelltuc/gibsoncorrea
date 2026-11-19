@@ -1636,6 +1636,10 @@ export const bodyFront = (p, o, opts)=>{
                     ]
                 ], "#d9dde0", 1.5 * u);
             }
+            if (o.logo) { const ly = chin + 0.42 * (torsoBot - chin), lw = 0.34 * T.a, lh = 0.16 * (torsoBot - chin), th = 0.075 * T.a, lc = o.logoColor || '#f4f1e8';   /* LOGO NO PEITO (19/11): Musk de camiseta preta com o X/T; quem e quem pela roupa */
+              const bar = (x0, y0, x1, y1) => { const dx = x1 - x0, dy = y1 - y0, L_ = Math.hypot(dx, dy) || 1, nx = -dy / L_ * th, ny = dx / L_ * th; p.poly([[x0 + nx, y0 + ny], [x1 + nx, y1 + ny], [x1 - nx, y1 - ny], [x0 - nx, y0 - ny]], lc, 0.6 * u); };
+              if (o.logo === 'X') { bar(tcx - lw, ly - lh, tcx + lw, ly + lh); bar(tcx + lw, ly - lh, tcx - lw, ly + lh); }
+              else if (o.logo === 'T') { p.poly([[tcx - lw * 1.1, ly - lh], [tcx + lw * 1.1, ly - lh], [tcx + lw * .8, ly - lh * .55], [tcx - lw * .8, ly - lh * .55]], lc, 0.6 * u); bar(tcx, ly - lh * .6, tcx, ly + lh * 1.1); } }
             if (o.tie) { p.poly([[tcx - 0.2 * T.a, chin + 0.04 * HH], [tcx + 0.2 * T.a, chin + 0.04 * HH], [tcx + 0.3 * T.a, torsoBot - 0.3 * HH], [tcx, torsoBot - 0.16 * HH], [tcx - 0.3 * T.a, torsoBot - 0.3 * HH]], o.tie, 1.6 * u); p.poly([[tcx - 0.42 * T.a, chin], [tcx, chin + 0.16 * HH], [tcx + 0.42 * T.a, chin]], '#f4f1e8', 1.4 * u); }   /* gravata comprida + colarinho */
             if (o.sash) p.band([
                 [

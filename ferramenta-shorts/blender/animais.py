@@ -22,7 +22,7 @@ def membro(pts, raios, col):   # perna/tromba: cones lisos + bola em cada articu
 def tubo(pts, r, col, passo=1):   # versao lisa (substitui a de formas): afina ate 70% na ponta
     membro(pts, [r * (1 - .3 * i / max(1, len(pts) - 1)) for i in range(len(pts))], col)
 
-def bicho(nome, L, H, bw, bh, nl, na, hr, ml, mr, cor, barriga, pata, orelha='tri', cauda='fino', olho='#2b2430', extra=None, casco=False, nariz='#2b2430', reto=False, girar=False):
+def bicho(nome, L, H, bw, bh, nl, na, hr, ml, mr, cor, barriga, pata, orelha='tri', cauda='fino', olho='#2b2430', extra=None, casco=False, nariz='#2b2430', reto=False, girar=False, perna=1.0):
     """L corpo (m), H altura da perna, bw/bh largura/altura do tronco, nl/na pescoco (comprimento, angulo p/ frente rad), hr raio da cabeca, ml/mr focinho"""
     novo(nome)
     yc = H + bh * .45
@@ -48,7 +48,7 @@ def bicho(nome, L, H, bw, bh, nl, na, hr, ml, mr, cor, barriga, pata, orelha='tr
         elif orelha == 'lateral': bola((s * hr * 1.0, hc[1] + hr * .45, hc[2] - hr * .1), hr * .28, cor, esc=(1.6, .6, .7), rot=(0, 0, -s * .3))
         elif orelha == 'redondo': bola((s * hr * .7, oy, oz), hr * .3, cor, esc=(1, 1, .5))
     # pernas continuas (cadeia de bolas com raio afinando): ombro-cotovelo-pulso-pata / quadril-joelho-jarrete-pata
-    r0 = bw * .21
+    r0 = bw * .21 * perna
     for s in (-1, 1):
         x = s * bw * .3; zf = L * .3; zr = -L * .3
         if reto: membro([(x, yc - bh * .1, zf), (x, H * .5, zf), (x, .06, zf)], [r0 * 1.2, r0 * 1.0, r0 * 1.05], cor)
@@ -146,5 +146,6 @@ E = {
  'horse_sela': lambda: bicho('horse_sela', 1.9, 1.2, .58, .74, .8, .62, .26, .02, .02, '#8a5a34', '#a8774a', '#2a2018', orelha='tri', cauda=None, casco=True, extra=sela),
  'elephant': lambda: bicho('elephant', 2.6, 1.4, 1.5, 1.6, .2, .9, .7, .1, .3, '#9aa0a8', '#b6bbc2', '#70757c', orelha=None, cauda='fino', casco=True, nariz='#70757c', extra=tromba, reto=True),
 }
-alvo = [a for a in sys.argv[sys.argv.index('--') + 1:]] if '--' in sys.argv else list(E)
-for k in alvo: E[k]()
+if __name__ == '__main__':
+    alvo = [a for a in sys.argv[sys.argv.index('--') + 1:]] if '--' in sys.argv else list(E)
+    for k in alvo: E[k]()

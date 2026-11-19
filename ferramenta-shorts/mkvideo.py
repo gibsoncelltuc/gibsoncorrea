@@ -1322,7 +1322,7 @@ _nz0 = lambda t: re.sub(r'[^a-z0-9 ]', '', unicodedata.normalize('NFKD', t.lower
 for _b in beats:   # ANIMAL CITADO = ANIMAL 3D EM CENA, sozinho (biblioteca web/assets/animals + aves 2D); nunca modelar animal que ja existe
     if _b.get('animals') or _b.get('emus') or _b.get('animais') is False or _b.get('mapa'): continue
     _sp = list(dict.fromkeys(_ANIM_OK[a_] for a_ in re.findall(_ANIM_ALL, _nz0(_b['say'])) if a_ in _ANIM_OK))
-    if 'emus' in _sp: _b['emus'] = True; _sp.remove('emus')
+    if 'emus' in _sp: _b['emus'] = {'n': 6, 'mode': 'run' if re.search(r'corr|fug|dispar|espalh', _nz0(_b['say'])) else 'stand'}; _sp.remove('emus')
     if _sp: _b['animals'] = [[sp_, (1.9, -2.3, 2.9)[n_], (0.8, 1.1, 1.5)[n_]] for n_, sp_ in enumerate(_sp[:3])]
 for _b in beats:   # DECOLAGEM A RISCA: "decolou/lancado/subiu ao ceu" com foguete/balao em cena -> troca pela versao JA NO AR (com chamas/subindo)
     if re.search(r'decol|levantou voo|lancad|lancou|subiu ao ceu|subiu para o ceu|foi para o espaco|rumo ao espaco', _nz0(_b['say'])):
