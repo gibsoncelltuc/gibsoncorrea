@@ -7,7 +7,7 @@ HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
 import musicas_virais as m, librosa
 from faster_whisper import WhisperModel
 ACE = "/home/user/musica/acestep.cpp"; OUT = os.path.join(HERE, "..", "musicas-virais"); LOG = "/home/user/musica/auto.log"
-SEEDS = [23, 41, 57, 71]; LIMIAR = 0.90
+SEEDS = [23, 41, 57]; LIMIAR = 0.85
 W = WhisperModel("small", device="cpu", compute_type="int8")
 norm = lambda s: re.sub(r"[^a-zà-ú ]", "", s.lower().replace("\n", " "))
 def cobertura(mp3, n):
