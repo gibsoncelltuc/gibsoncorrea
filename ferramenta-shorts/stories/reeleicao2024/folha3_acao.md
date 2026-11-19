@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 21 - A Volta de Trump
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 40 acoes catalogadas, 40 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 42 acoes catalogadas, 42 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.7s - 18 palavras - plano two
@@ -24,13 +24,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | MAPA | ESTADOS UNIDOS | OK |
 
-## Cena b2 - 11.1s a 15.2s - 14 palavras - plano close
+## Cena b2 - 11.1s a 15.2s - 14 palavras - plano two
 > "Milhões de americanos foram às urnas escolher entre Trump e a vice-presidente Kamala Harris."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | urnas (12.7s) | ACAO: voto | poe o voto na urna | OK |
-| 2 | - | PLACA | TRUMP x HARRIS | OK |
+| 2 | - | INTERACAO | insiste | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | TRUMP x HARRIS | OK |
 
 ## Cena b3 - 16.4s a 20.7s - 11 palavras - plano two
 > "A contagem entrou pela madrugada. Os estados indecisos iam decidir tudo."
@@ -72,7 +74,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | insiste | OK |
+| 1 | - | INTERACAO | vai ate o outro | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 40.3s a 43.2s - 12 palavras - plano two
@@ -80,7 +82,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | vai ate o outro | OK |
+| 1 | - | INTERACAO | aproxima-se | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b8 - 44.3s a 47.4s - 16 palavras - plano two

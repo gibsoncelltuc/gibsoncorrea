@@ -24,10 +24,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - Milhões de americanos foram às urnas escolher entre Trump e a vice-pre...
 - Cenario: street | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (1): TRU (variante 0, expressao smug)
-- Animacao: encena
+- Personagens principais (2): POV (variante 0, expressao suspicious); POV (variante 1, expressao grin)
+- Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/marco_casabranca, kit/ballot_box
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): americanos, urnas, vicepresidente
 - RISCOS: nenhum
@@ -66,8 +66,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (2): REP (variante 0, expressao surprised, segura paper); POV (variante 0, expressao grin)
-- Animacao: conversar | interacao: insiste
+- Personagens principais (2): TRU (variante 0, expressao smug); POV (variante 0, expressao grin)
+- Animacao: conversar | interacao: vai ate o outro
 - Objetos/modelos: kit/marco_casabranca
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, feito
 - RISCOS: nenhum
@@ -77,7 +77,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): REP (variante 0, expressao smile, segura paper); POV (variante 1, expressao suspicious)
-- Animacao: conversar | interacao: vai ate o outro
+- Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/scroll
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cento
 - RISCOS: nenhum
@@ -124,8 +124,8 @@ kit/scroll | b7 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/ballot_box | grandes momentos: b5, b9 | planos abertos: 3 | mistura: close 28% | medio 58% | aberto 12% | detalhe 2%
-- Interacoes: b0 o outro se aproxima, b3 discutir, b6 insiste, b7 vai ate o outro, b8 entregar
+- Objeto heroi: kit/ballot_box | grandes momentos: b5, b9 | planos abertos: 3 | mistura: close 22% | medio 64% | aberto 12% | detalhe 2%
+- Interacoes: b0 o outro se aproxima, b2 insiste, b3 discutir, b6 vai ate o outro, b7 aproxima-se, b8 entregar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
