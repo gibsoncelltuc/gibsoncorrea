@@ -1,59 +1,143 @@
 {
  "fails": [
   {
-   "f": 86,
-   "shot": "b0_v",
+   "f": 1216,
+   "shot": "b6_d",
    "why": [
-    "empty take: no character in the take"
+    "empty: characters are in the scene but none is in frame"
    ]
   },
   {
-   "f": 88,
-   "shot": "b0_v",
+   "f": 1220,
+   "shot": "b6_d",
    "why": [
-    "empty take: no character in the take"
+    "empty: characters are in the scene but none is in frame"
    ]
   },
   {
-   "f": 92,
-   "shot": "b0_v",
+   "f": 1224,
+   "shot": "b6_d",
    "why": [
-    "empty take: no character in the take"
+    "empty: characters are in the scene but none is in frame"
    ]
   },
   {
-   "f": 96,
-   "shot": "b0_v",
+   "f": 1228,
+   "shot": "b6_d",
    "why": [
-    "cnd: head/torso cropped (box 1.184, 0.288, 1.515, 0.678)"
+    "empty: characters are in the scene but none is in frame"
    ]
   },
   {
-   "f": 1248,
-   "shot": "b7~1",
+   "f": 1229,
+   "shot": "b6_v",
    "why": [
-    "ran: head/torso cropped (box -0.05, 0.422, 0.446, 0.913)"
+    "emu: head/torso cropped (box 0.924, 0.574, 1.98, 1.184)"
    ]
   },
   {
-   "f": 1612,
-   "shot": "b9",
+   "f": 1232,
+   "shot": "b6_v",
    "why": [
-    "tru: head/torso cropped (box -0.022, 0.463, 0.41, 0.897)"
+    "emu: head/torso cropped (box 0.92, 0.576, 1.962, 1.176)"
    ]
   },
   {
-   "f": 1616,
-   "shot": "b9",
+   "f": 1236,
+   "shot": "b6_v",
    "why": [
-    "tru: head/torso cropped (box -0.046, 0.466, 0.398, 0.913)"
+    "emu: head/torso cropped (box 0.899, 0.571, 1.863, 1.129)"
    ]
   },
   {
-   "f": 1620,
-   "shot": "b9",
+   "f": 1240,
+   "shot": "b6_v",
    "why": [
-    "tru: head/torso cropped (box -0.055, 0.463, 0.399, 0.921)"
+    "aus: head/torso cropped (box 0.764, 0.478, 1.115, 1.073)"
+   ]
+  },
+  {
+   "f": 1760,
+   "shot": "b9_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1761,
+   "shot": "b9_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1764,
+   "shot": "b9_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1768,
+   "shot": "b9_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1772,
+   "shot": "b9_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1776,
+   "shot": "b9_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1780,
+   "shot": "b9_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1784,
+   "shot": "b9_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1785,
+   "shot": "b9_v",
+   "why": [
+    "emu: head/torso cropped (box 0.795, 0.565, 1.808, 1.187)"
+   ]
+  },
+  {
+   "f": 1788,
+   "shot": "b9_v",
+   "why": [
+    "emu: head/torso cropped (box 0.792, 0.565, 1.796, 1.179)"
+   ]
+  },
+  {
+   "f": 1792,
+   "shot": "b9_v",
+   "why": [
+    "emu: head/torso cropped (box 0.779, 0.56, 1.73, 1.139)"
+   ]
+  },
+  {
+   "f": 1796,
+   "shot": "b9_v",
+   "why": [
+    "farm: head/torso cropped (box 0.771, 0.517, 1.086, 1.089)"
    ]
   }
  ],
