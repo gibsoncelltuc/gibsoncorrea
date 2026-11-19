@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 - Narracao: Um homem mediu o tamanho do planeta usando só uma vara e a sombra dela.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: examina (think) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GANCHO
@@ -22,16 +22,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 
 ## Cena b2  (~6.6 s)
 - Narracao: Ele leu num papiro que, em Siena, ao meio-dia de verão, o sol iluminava o fundo de um poço.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_le (think) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b3  (~4.5 s)
 - Narracao: Isso significava que o sol estava bem em cima, e nada fazia sombra.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -40,18 +40,18 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 
 ## Cena b4  (~4.8 s)
 - Narracao: Em Alexandria, no mesmo dia, uma vara fincada no chão fazia uma sombra pequena.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: tomba -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b5  (~4.1 s)
 - Narracao: Eratóstenes pensou: "Se a Terra fosse plana, as duas sombras seriam iguais."
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: pensa (think) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 - Narracao: Ele mediu o ângulo da sombra, e contou os passos entre as duas cidades.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: examina (think) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 
 ## Cena b9  (~5.2 s)
 - Narracao: E tudo isso aconteceu mais de dois mil anos atrás, sem satélite e sem computador.
-- Som ambiente: birds
+- Som ambiente: sea
 - Efeitos sonoros marcados: ding@30, sting@70
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@30, burst@70
