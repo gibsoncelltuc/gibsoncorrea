@@ -44,8 +44,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - Curioso, ele levou um carrapicho para casa e olhou no microscópio.
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): MES (variante 0, expressao suspicious)
 - Animacao: conversar
 - Objetos/modelos: kit/burr
@@ -132,7 +132,7 @@ dog | b0, b2, b3, b11 | pronto | conferir na folha de contato se le bem; se pare
 
 
 ## Video inteiro
-- Objeto heroi: kit/burr | grandes momentos: b9, b10 | planos abertos: 3 | mistura: close 21% | medio 64% | aberto 9% | detalhe 5%
+- Objeto heroi: kit/burr | grandes momentos: b9, b10 | planos abertos: 3 | mistura: close 21% | medio 66% | aberto 9% | detalhe 4%
 - Interacoes: b0 insiste, b7 discutir, b8 entregar
 - RISCOS GERAIS: nenhum
 
