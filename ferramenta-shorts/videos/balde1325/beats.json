@@ -84,10 +84,16 @@
    ],
    "props": [
     [
-     "barrel",
-     2.4,
-     0.6,
-     1.1
+     "kit/well",
+     -1.8,
+     -0.9,
+     1.2
+    ],
+    [
+     "tools/bucket",
+     1.5,
+     -0.4,
+     1.2
     ]
    ],
    "text": "O BALDE",
@@ -96,11 +102,13 @@
   {
    "shot": "close",
    "who": [
-    "NOB:0:stern"
+    "BOL:0:angry",
+    "MOD:0:smug"
    ],
-   "interior": "pedra",
    "hora": "dia",
-   "say": "\"Devolvam o nosso balde\", exigiu Bolonha. \"Venham buscar\", respondeu Módena."
+   "say": "\"Devolvam o nosso balde\", exigiu Bolonha. \"Venham buscar\", respondeu Módena.",
+   "interacao": "discutir",
+   "interior": "pedra"
   },
   {
    "shot": "reveal",
@@ -115,7 +123,7 @@
     ],
     "march": true
    },
-   "text": "32.000",
+   "text": "30.000",
    "titulo": true,
    "say": "Bolonha juntou um exército de trinta mil homens, e marchou contra a vizinha."
   },

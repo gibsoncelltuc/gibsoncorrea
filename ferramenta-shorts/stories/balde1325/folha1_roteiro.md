@@ -53,7 +53,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: 32.000
+- Texto na tela: 30.000
 - Funcao na historia: desenvolvimento
 
 ## Cena b6  (~4.1 s)

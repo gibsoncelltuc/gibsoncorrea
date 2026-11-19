@@ -38,7 +38,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): MOD (variante 0, expressao laugh, segura bag); MOD (variante 1, expressao grin) | multidao: 12 de POV
 - Animacao: comemorar | batalha encenada
-- Objetos/modelos: barrel, kit/marco_ghirlandina, tools/bucket, buildings/house_small, nature/picket_fence, nature/tree_oak
+- Objetos/modelos: kit/well, tools/bucket, kit/marco_ghirlandina, buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balde, poco, praca
 - RISCOS: nenhum
 
@@ -46,8 +46,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior pedra | luz: dia | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (1): NOB (variante 0, expressao stern)
-- Animacao: conversar
+- Personagens principais (2): BOL (variante 0, expressao angry); MOD (variante 0, expressao smug)
+- Animacao: discutir | interacao: discutir
 - Objetos/modelos: tools/bucket
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): nosso
 - RISCOS: nenhum
@@ -112,7 +112,7 @@ tools/bucket | b0, b3, b4, b9 | pronto (HEROI: aparece em close) | conferir na f
 buildings/apartment | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-barrel | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/well | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_small | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -120,7 +120,7 @@ nature/tree_oak | b3 | pronto | conferir na folha de contato se le bem; se parec
 
 ## Video inteiro
 - Objeto heroi: tools/bucket | grandes momentos: b3, b7 | planos abertos: 4 | mistura: close 21% | medio 51% | aberto 26% | detalhe 2%
-- Interacoes: b0 susto, b6 insiste
+- Interacoes: b0 susto, b4 discutir, b6 insiste
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
