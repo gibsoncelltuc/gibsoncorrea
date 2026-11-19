@@ -58,7 +58,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): KEK (variante 0, expressao surprised)
 - Animacao: conversar
-- Objetos/modelos: kit/snake_ring
+- Objetos/modelos: kit/snake_ring, mk/Chair_1
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): atomos, proprio, sonho
 - RISCOS: nenhum
 
@@ -132,7 +132,7 @@ kit/marco_viena | b0, b1, b9, b10, b11 | pronto | conferir na folha de contato s
 buildings/house_two | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/fireplace | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-mk/Chair_1 | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+mk/Chair_1 | b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro

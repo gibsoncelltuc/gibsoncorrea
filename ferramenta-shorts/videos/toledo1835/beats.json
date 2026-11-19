@@ -104,7 +104,8 @@
     "march": true
    },
    "say": "Ohio respondeu com a própria milícia, e as duas tropas chegaram à beira do rio, frente a frente.",
-   "riscos_ok": true
+   "riscos_ok": true,
+   "sem_mortos": true
   },
   {
    "shot": "crowd",
@@ -125,7 +126,8 @@
    "text": "PARA O ALTO",
    "titulo": true,
    "say": "Houve gritos, ameaças, e tiros. Todos para o alto. Ninguém acertou ninguém.",
-   "set": "countryside"
+   "set": "countryside",
+   "sem_mortos": true
   },
   {
    "shot": "two",
