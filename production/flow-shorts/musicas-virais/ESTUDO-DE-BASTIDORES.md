@@ -161,3 +161,24 @@ Dados lidos do YouTube em 18/11/2026 (visualizações acumuladas, que dependem d
 5. **Duração curta.** O "Parabéns" da Galinha Pintadinha tem 1:08. Para Shorts, 60 s está certo.
 6. **Cuidado com a comparação.** As views dos vídeos antigos se acumularam por anos. Os de 2026 mostram o que funciona agora: **palavra engraçada + batida + dança**.
 7. **O que eu não consegui verificar:** o BPM real dessas músicas e o ranking de sons do TikTok/Reels.
+
+---
+
+# 8. Produção final das 10 canções (19/11/2026)
+
+Estilo escolhido pelo cliente: **infantil de bebê** (ukulele, glockenspiel, palminhas, coro de crianças), letras **com rima**. Cada faixa foi conferida por transcrição (Whisper) e só foi aprovada com 85% ou mais das palavras reconhecidas. Volume ajustado para -14 LUFS (padrão do YouTube).
+
+| # | Canção | Palavras reconhecidas |
+|---|---|---|
+| 1 | Pé, Pé, Bate o Pezinho! | aprovada pelo cliente |
+| 2 | Quem É o Bichinho? | 91% |
+| 3 | Cores do Arco-Íris | 96% |
+| 4 | Abraça, Abraça, Abraça! | 96% |
+| 5 | Bolha, Bolha, Banho de Bolhas! | 86% |
+| 6 | Ma-Ma, Pa-Pa! | 90% |
+| 7 | Bom Dia, Sol! | 98% |
+| 8 | Só Mais Cinco Minutinhos! | 93% |
+| 9 | Parabéns, Que Festa! | 88% |
+| 10 | Tchu-Tchu, Trenzinho! | 88% |
+
+**Lições aprendidas:** o cantor erra sons inventados ("miau", "pop") e palavras longas; trocar por palavras reais resolveu. Letras longas demais para 60 s têm o final cortado. A conferência por transcrição acha erro de palavra, não julga se a música é bonita ou chiclete: isso é a escuta do cliente.
