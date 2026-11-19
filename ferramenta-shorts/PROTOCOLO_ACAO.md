@@ -73,3 +73,16 @@ A fila (make_video.sh) gera `stories/<id>/storyboard.jpg` (o video inteiro, 1 qu
 Quem aprova: a sessao dona do video. ABRA o storyboard.jpg, confira cena por cena com a folha 3 (cada acao acontecendo, ninguem cortado, cenario/lugar/epoca certos, objeto heroi visivel)
 e so' entao rode `./aprovar_storyboard.sh <id>`. Viu defeito -> corrija o roteiro, rode mkvideo, apague storyboard.jpg (a fila gera outro) e olhe de novo.
 A aprovacao vale so' para aquela versao das folhas; o render tambem confere isso (verificar_folhas.py --render bloqueia sem storyboard aprovado).
+
+## 12. REVISAO ESCRITA DO STORYBOARD (ordem do Gibson 19/11 — vale para TODAS as sessoes)
+`./aprovar_storyboard.sh <id>` so aprova com `stories/<id>/revisao_storyboard.md` feito DEPOIS do storyboard atual, com UMA linha por frase:
+`bN: OK - <o que aparece na tela nessa frase>` ou `bN: CORRIGIDO - <defeito> -> <correcao feita>`. Linha curta, sem citar a frase, ou defeito sem correcao = nao aprova.
+"Igual ao que ja conferi" NAO vale: storyboard novo = revisao nova. Achou defeito: corrija (ferramenta ou roteiro), gere de novo e revise de novo (REGRA MESTRA).
+O que procurar em CADA frase (defeitos reais achados em 19/11):
+- a acao da frase acontece? (cochilou = dormindo; morreu = cai; de joelhos = ajoelhado; atirou = arma + clarao; chegou = entra andando)
+- a acao aparece a tempo? (palavra no fim da frase: objeto/pose tem que aparecer antes)
+- HORA certa e CONTINUA: "numa noite" vale para as frases seguintes do mesmo episodio; "as noites no laboratorio" = escuro
+- LUGAR certo: espaco = ceu preto estrelado; castelo/observatorio citado = o marco, sem predio tapando; morto so onde morreu
+- QUEM faz a acao: atomos/cobras dancando no sonho nao fazem o personagem dancar; "os turcos venceram" mostra os turcos
+- OBJETO certo: corte no dedo nao e machado; lareira, cadeira, microscopio citados aparecem grandes e perto
+- roupa certa: astronauta de branco (nao farda); epoca e pais certos
