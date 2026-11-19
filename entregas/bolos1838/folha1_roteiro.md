@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Um dia, oficiais mexicanos entraram, comeram tudo o que havia, quebraram a loja, e saíram sem pagar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@50
-- Efeito + som nas palavras-chave: quebraram -> dust + som de impacto; encena: chega (point) @4 -> acao + som de efeito; encena: x_come (lift) @5 -> acao + som de efeito; encena: quebra (throw) @10 -> acao + som de efeito; encena: sai @14 -> acao + som de efeito
+- Efeito + som nas palavras-chave: quebraram -> dust + som de impacto; encena: chega (point) @4 -> acao + som de efeito; encena: x_come (eat) @5 -> acao + som de efeito; encena: quebra (throw) @10 -> acao + som de efeito; encena: sai @14 -> acao + som de efeito
 - Efeito visual marcado: puff@50
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

@@ -1,6 +1,4 @@
-# Guerra dos Bolos (Guerras Inusitadas) - refeito com a ferramenta final (19/11)
-Passou: 3 folhas (0 risco, 0 ação faltando), storyboard + grade aprovados com revisão frase por frase, conferir.sh OK (1080x1920, 60 s, voz neural), folha de contato olhada cena a cena.
-Conferido: placa 1838 no porto, mapa do MÉXICO, loja com oficiais quebrando tudo, carta ao rei em interior de pedra, "A MARINHA" na tela com navios e tropa, bombardeio da fortaleza (bunker + canhão + explosões), general ferido, 600.000 e fecho com o confeiteiro e o bolo.
-Refeito nesta rodada: b0 (porto com desembarque), b7 (fortaleza/bunker).
-Nota: aos 16,5 s e 52,5 s a folha pega a fusão curta padrão entre cenas (7 quadros, ~0,23 s); é a troca normal da ferramenta, não quadro duplicado.
-Não passou: nada.
+# Guerra dos Bolos (Guerras Inusitadas) - refeito 19/11, 2a versão (auditoria)
+Passou: 3 folhas (0 risco, 0 ação faltando), storyboard + grade aprovados, conferir.sh OK, folha e auditar_acoes.sh olhados, quadros do mp4 em "comeram" (11,6-13,6 s).
+Corrigido: com o gesto novo de comer, o oficial da frente leva a mão à boca em "comeram tudo" (12-13 s), depois quebradeira com poeira e saída da loja.
+Limites honestos: só o primeiro oficial faz o gesto de comer (a ferramenta anima uma pessoa por ação); nas cenas de Veracruz o fundo tem prédios de fachada creme de estilo europeu do século XIX.
