@@ -5,8 +5,8 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | -  | tropa, mapa | - | -
 b1 | wide | -  | tropa | chegaram (dust + som de impacto); desembarque: navios chegando e tropa descendo na praia (acao + som de efeito) | -
 b2 | group | -  | tropa, placa: BATALHÃO DUPONT | - | -
-b3 | crowd | -  | batalha aberta com tiros, tropa | cavalaria: 4 soldados a cavalo (ING) (acao + som de efeito); tiros (burst + som de tiro/explosao); canhões (burst + som de tiro/explosao) | -
-b4 | group | -  | batalha aberta com tiros, tropa | bomba (burst + som de tiro/explosao); explodiu (burst + som de tiro/explosao); encena: desaba (acao + som de efeito); explosao: 3 soldados voando (acao + som de efeito) | -
+b3 | crowd | -  | batalha aberta com tiros, tropa | tiros: 5 soldados caem no chao (acao + som de efeito); tiros (burst + som de tiro/explosao); canhões (burst + som de tiro/explosao); explosao: 2 soldados voando (acao + som de efeito) | -
+b4 | group | -  | batalha aberta com tiros, tropa | tiros: 5 soldados caem no chao (acao + som de efeito); bomba (burst + som de tiro/explosao); explodiu (burst + som de tiro/explosao); encena: desaba (acao + som de efeito); explosao: 3 soldados voando (acao + som de efeito) | -
 b5 | two | -  | - | (rosto) determined (expr + som de efeito) | -
 b6 | two | -  | - | aperto de mao (acao + som de efeito) | -
 b7 | orbit | -  | tropa | (rosto) laugh (expr + som de efeito); comemoraram (stars + som de sino) | -

@@ -8,7 +8,7 @@ b0 | countryside | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/crown |
 b1 | countryside | reveal | 8 | parados (so fala e pisca) | - | - | -
 b2 | countryside | group | 12 | conversar, INTERAGEM: entregar, batalha | - | - | -
 b3 | countryside | orbit | 23 | encena, batalha | cannon | - | -
-b4 | mountain | crowd | 18 | reagir, batalha | - | - | -
+b4 | countryside | crowd | 18 | reagir, batalha | - | - | -
 b5 | mountain | orbit | 21 | batalha | - | - | -
 b6 | harbor | two | 2 | conversar, INTERAGEM: empurrar | kit/crown | - | -
 b7 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | - | paper | -

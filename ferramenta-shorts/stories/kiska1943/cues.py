@@ -73,5 +73,6 @@ gibber(F(_A[7] + int((_A[8] - _A[7]) * 0.2)), 4, 200, 0.12); gibber(F(_A[7] + in
 whoosh(F(_A[8]), 0.4, 0.35)
 ding(F(int(_W(123) - 2)), 0.5, 988)
 gibber(F(_A[8] + int((_A[9] - _A[8]) * 0.2)), 4, 260, 0.12); gibber(F(_A[8] + int((_A[9] - _A[8]) * 0.58)), 4, 185, 0.12)
+cannon(F(int(_W(42))))
 gun(F(int(_W(94))))
 tick(F(int(_W(106))))

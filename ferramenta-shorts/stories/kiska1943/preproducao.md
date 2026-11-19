@@ -6,8 +6,8 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | arctic | two | 0 | parados (so fala e pisca) | ship | - | -
 b1 | harbor | reveal | 11 | parados (so fala e pisca) | navios ao fundo | - | -
-b2 | mountain | group | 11 | conversar, batalha | cannon | - | -
-b3 | mountain | orbit | 21 | andando, batalha | - | - | -
+b2 | arctic | group | 11 | conversar, batalha | cannon | - | -
+b3 | arctic | orbit | 21 | andando, batalha | - | - | -
 b4 | interior madeira | close | 1 | reagir | - | - | -
 b5 | mountain | orbit | 11 | parados (so fala e pisca) | ship, nature/picket_fence | - | -
 b6 | arctic | group | 3 | reagir, INTERAGEM: susto | - | - | -

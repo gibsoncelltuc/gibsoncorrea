@@ -5,9 +5,9 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | -  | placa: 1815 | - | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | group | -  | batalha aberta com tiros, tropa | - | -
-b3 | orbit | -  | batalha aberta com tiros, tropa, placa: WATERLOO | Canhões (burst + som de tiro/explosao); dispararam (burst + som de tiro/explosao); encena: golpe (punch) (acao + som de efeito) | -
-b4 | crowd | -  | batalha aberta com tiros, tropa | - | -
-b5 | orbit | -  | batalha aberta com tiros, tropa | chegou (dust + som de impacto); derrotado (puff + som de baque) | -
+b3 | orbit | -  | batalha aberta com tiros, tropa, placa: WATERLOO | tiros: 5 soldados caem no chao (acao + som de efeito); Canhões (burst + som de tiro/explosao); dispararam (burst + som de tiro/explosao); encena: golpe (punch) (acao + som de efeito); explosao: 2 soldados voando (acao + som de efeito) | -
+b4 | crowd | -  | batalha aberta com tiros, tropa | tiros: 5 soldados caem no chao (acao + som de efeito) | -
+b5 | orbit | -  | batalha aberta com tiros, tropa | tiros: 5 soldados caem no chao (acao + som de efeito); chegou (dust + som de impacto); derrotado (puff + som de baque) | -
 b6 | two | -  | - | (rosto) sad (expr + som de efeito); morreu (puff + som de baque) | -
 b7 | two | -  | interior, objeto na mao | - | -
 b8 | close | -  | interior | encena: perde (facepalm) (acao + som de efeito) | -

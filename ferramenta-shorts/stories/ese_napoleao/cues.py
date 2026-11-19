@@ -125,6 +125,7 @@ gibber(F(_A[10] + int((_A[11] - _A[10]) * 0.2)), 4, 200, 0.12); gibber(F(_A[10] 
 cannon(F(int(_W(56))))
 gun(F(int(_W(57))))
 thump(F(int(_W(49))))
+cannon(F(int(_W(46))))
 thump(F(int(_W(77))))
 thump(F(int(_W(87))))
 thump(F(int(_W(101))))

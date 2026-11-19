@@ -81,6 +81,7 @@ laughs(F(_A[7] + int((_A[8] - _A[7]) * 0.2))); laughs(F(_A[7] + int((_A[8] - _A[
 thump(F(int(_W(16))))
 gun(F(int(_W(50))))
 cannon(F(int(_W(51))))
+cannon(F(int(_W(53))))
 cannon(F(int(_W(55))))
 cannon(F(int(_W(56))))
 cannon(F(int(_W(56))))

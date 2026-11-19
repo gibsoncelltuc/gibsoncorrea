@@ -26,7 +26,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - veiculo citado e nao aparece -> CORRECAO: "veiculo": {"asset": "vehicles/truck"} (ou wagon, locomotive, car, tank, airplane) ou "caminhoes": true na batalha
 
 ## Cena b2 - Antes do desembarque, bombardearam a ilha durante semanas.
-- Cenario: mountain | luz: arctic | clima: limpo
+- Cenario: arctic | luz: arctic | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): USA (variante 2, expressao grin) | multidao: 10 de USA
@@ -34,10 +34,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: cannon
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): desembarque, ilha
 - RISCOS: 
-  - a narracao cita agua e o cenario "mountain" nao tem agua -> CORRECAO: "set": "harbor" (cais com mar e navio) ou "set": "palace" (praia), ou "mapa" para so situar
+  - a narracao cita agua e o cenario "arctic" nao tem agua -> CORRECAO: "set": "harbor" (cais com mar e navio) ou "set": "palace" (praia), ou "mapa" para so situar
 
 ## Cena b3 - No meio do nevoeiro, os soldados desceram em silêncio, prontos para um...
-- Cenario: mountain | luz: overcast | clima: limpo
+- Cenario: arctic | luz: overcast | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): USA (variante 0, expressao stern); CAN (variante 1, expressao stern); USA (variante 3, expressao nervous) | multidao: 18 de USA/CAN
@@ -114,16 +114,18 @@ dog | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, 
 - Interacoes: b6 susto
 - RISCOS GERAIS: 
   - nenhum mapa no video (o canal situa o lugar com mapa rapido) -> CORRECAO: "mapa": "NOME DO LUGAR" na cena 1 ou 2
+  - pouca variedade de cenario ({'arctic': 6, 'harbor': 1, 'interior madeira': 1, 'mountain': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
   - video sem objeto heroi -> CORRECAO: "heroi": "kit/<objeto>" no topo do roteiro (modele se nao existir)
 
-## RESUMO: 8 risco(s) em aberto
+## RESUMO: 9 risco(s) em aberto
 - b0: a narracao cita agua e o cenario "arctic" nao tem agua
 - b0: personagens parados (so falam e piscam)
 - b1: veiculo citado e nao aparece
-- b2: a narracao cita agua e o cenario "mountain" nao tem agua
+- b2: a narracao cita agua e o cenario "arctic" nao tem agua
 - b7: a narracao cita agua e o cenario "arctic" nao tem agua
 - b8: a narracao cita agua e o cenario "arctic" nao tem agua
 - geral: nenhum mapa no video (o canal situa o lugar com mapa rapido)
+- geral: pouca variedade de cenario ({'arctic': 6, 'harbor': 1, 'interior madeira': 1, 'mountain': 1}): o video fica parecendo todos os outros
 - geral: video sem objeto heroi
 
 ## Reparos depois do render

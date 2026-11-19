@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: Não roubaram ouro, nem armas. Levaram o balde velho do poço da praça, e voltaram para casa rindo.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160, gun@164, gun@168, gun@176, gun@180
-- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (MOD) -> acao + som de efeito; roubaram -> stars + som de sino; ouro -> stars + som de sino; rindo -> stars + som de sino
+- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (MOD) -> acao + som de efeito; tiros: 4 soldados caem no chao -> acao + som de efeito; roubaram -> stars + som de sino; ouro -> stars + som de sino; rindo -> stars + som de sino
 - Efeito visual marcado: ring@12, dust@40
 - Texto na tela: O BALDE
 - Funcao na historia: GRANDE MOMENTO
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: Acontece que, numa única tarde de batalha, os sete mil atacaram de surpresa, e o exército gigante fugiu correndo.
 - Som ambiente: birds | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160, gun@164, gun@168, gun@176, gun@180, gun@184, gun@188, gun@196
-- Efeito + som nas palavras-chave: (rosto) shock -> expr + som de efeito; cavalaria: 4 soldados a cavalo (MOD) -> acao + som de efeito; atacaram -> ring + som de alerta; surpresa -> ring + som de alerta; fugiu -> dust + som de impacto
+- Efeito + som nas palavras-chave: (rosto) shock -> expr + som de efeito; cavalaria: 4 soldados a cavalo (MOD) -> acao + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito; atacaram -> ring + som de alerta; surpresa -> ring + som de alerta; fugiu -> dust + som de impacto
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

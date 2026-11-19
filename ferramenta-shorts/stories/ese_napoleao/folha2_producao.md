@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Os ingleses resistiram por horas, e o combate ficou por um fio.
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): WEL (variante 0, expressao worried); ING (variante 0, expressao nervous) | multidao: 16 de ING/FRA
@@ -126,10 +126,12 @@ kit/scroll | b9 | pronto | conferir na folha de contato se le bem; se parecer ca
 ## Video inteiro
 - Objeto heroi: kit/crown | grandes momentos: b2, b3, b4, b5 | planos abertos: 4 | mistura: close 24% | medio 58% | aberto 14% | detalhe 4%
 - Interacoes: b0 vai ate o outro, b2 entregar, b6 empurrar, b7 discutir, b9 aproxima-se
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - pouca variedade de cenario ({'countryside': 6, 'mountain': 1, 'harbor': 1, 'interior madeira': 3}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
 
-## RESUMO: 1 risco(s) em aberto
+## RESUMO: 2 risco(s) em aberto
 - b9: multidao/batalha dentro de sala: nao cabe
+- geral: pouca variedade de cenario ({'countryside': 6, 'mountain': 1, 'harbor': 1, 'interior madeira': 3}): o video fica parecendo todos os outros
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh ese_napoleao bN bM` (so essas cenas).

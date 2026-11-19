@@ -6,8 +6,8 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | harbor | two | 7 | conversar, INTERAGEM: insiste | - | - | -
 b1 | harbor | wide | 14 | parados (so fala e pisca) | navios ao fundo, navio em movimento | - | -
-b2 | hall | group | 14 | conversar, INTERAGEM: vai ate o outro | - | - | -
-b3 | hall | crowd | 20 | batalha | cannon | - | -
+b2 | harbor | group | 14 | conversar, INTERAGEM: vai ate o outro | - | - | -
+b3 | harbor | crowd | 20 | batalha | cannon | - | -
 b4 | harbor | group | 12 | reagir, INTERAGEM: aproxima-se, batalha | - | - | -
 b5 | countryside | two | 2 | conversar, INTERAGEM: avanca e o outro recua | - | - | -
 b6 | street | two | 2 | conversar, INTERAGEM: apertar | - | - | -

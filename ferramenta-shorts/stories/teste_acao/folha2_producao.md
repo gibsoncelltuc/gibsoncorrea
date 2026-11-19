@@ -23,7 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Mas o batalhão francês do general Dupont já estava esperando atrás das...
-- Cenario: hall | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): FRA (variante 0, expressao stern); FRA (variante 1, expressao smug) | multidao: 12 de FRA
@@ -33,7 +33,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - Começou a batalha. Os dois exércitos avançaram um contra o outro, com ...
-- Cenario: hall | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): ING (variante 0, expressao shout); FRA (variante 0, expressao angry) | multidao: 18 de ING/FRA
@@ -98,9 +98,11 @@ nature/tree_oak | b7 | pronto | conferir na folha de contato se le bem; se parec
 - Interacoes: b0 insiste, b2 vai ate o outro, b4 aproxima-se, b5 avanca e o outro recua, b6 apertar
 - RISCOS GERAIS: 
   - objeto heroi (ship) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
+  - pouca variedade de cenario ({'harbor': 6, 'countryside': 1, 'street': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
 
-## RESUMO: 1 risco(s) em aberto
+## RESUMO: 2 risco(s) em aberto
 - geral: objeto heroi (ship) sem close de camera
+- geral: pouca variedade de cenario ({'harbor': 6, 'countryside': 1, 'street': 1}): o video fica parecendo todos os outros
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh teste_acao bN bM` (so essas cenas).

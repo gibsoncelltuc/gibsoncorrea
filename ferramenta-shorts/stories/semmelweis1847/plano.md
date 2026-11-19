@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | interior, placa: 1847 | (rosto) pleading (expr + som de efeito) | -
+b0 | two | -  | placa: 1847 | (rosto) pleading (expr + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | interior, placa: HOSPITAL | - | -
 b3 | two | -  | interior | - | -
@@ -15,5 +15,5 @@ b9 | two | -  | interior | encena: sai (acao + som de efeito) | -
 b10 | two | -  | - | (rosto) sad (expr + som de efeito); morreu (puff + som de baque) | -
 b11 | close | -  | placa: LAVE AS MÃOS | - | -
 
-Mistura de planos: close 19% | medio 71% | aberto 8% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
+Mistura de planos: close 19% | medio 69% | aberto 8% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 3 | dentro do padrao do canal

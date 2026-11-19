@@ -38,3 +38,10 @@ Sessoes sem ferramenta de busca: anotar em "FALTA MODELAR" da folha 2 e pedir a 
 ## 5. Verificacao antes do render (obrigatorio)
 `python3 mkvideo.py <id>` -> folha2_producao.md lista os riscos. "ACAO SEM ANIMACAO na narracao: X" = a cena nao mostra X. Corrija e rode de novo. So renderiza com 0 risco.
 Prechecar a cena (`./prechecar.sh <id> bN 6`) e OLHAR se a acao acontece; para o instante exato: `FRAMES=640,650 ./prechecar.sh <id> bN`.
+
+## 6. FOLHA 3 - ACOES (obrigatoria em todo projeto)
+`python3 mkvideo.py <id>` gera `stories/<id>/folha3_acao.md`: cada frase (cena bN, inicio e fim em segundos, numero de palavras) com a tabela das acoes catalogadas
+(palavra + instante, tipo, animacao que a ferramenta executa, OK/FALTA). Linha "FALTA" = acao do roteiro sem animacao -> nao renderiza.
+O resumo de todos os videos fica em `CATALOGO_ACOES.md`. A ferramenta so faz o que o ROTEIRO pede: cada video tem as acoes da sua propria historia (o exemplo da batalha na praia era so' um exemplo).
+- Na batalha (tiros/explosoes): soldados caem no chao ao longo da luta; explosao/canhao/bomba joga soldados voando no meio da tropa.
+- Animais: "comendo" -> fuca/bica; "entrou/chegou/apareceu" -> entra caminhando; "fugiu/correu" -> sai correndo; "atirou/matou" o animal -> cai (desenho, sem sangue); "assustou/latiu" -> alerta.

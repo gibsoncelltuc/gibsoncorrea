@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 
 ## Cena b5  (~4.8 s)
 - Narracao: Sete bombardeiros invisíveis decolaram do Missouri, e voaram mais de um dia sem parar.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@20, whoosh@50
 - Efeito + som nas palavras-chave: encena: voa (point) -> acao + som de efeito; explosao: 3 soldados voando -> acao + som de efeito
 - Efeito visual marcado: whoosh@20, whoosh@50

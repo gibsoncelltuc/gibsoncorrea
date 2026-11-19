@@ -4,8 +4,8 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | -  | placa: KISKA 1943 | - | -
 b1 | reveal | -  | tropa, placa: 34.000 SOLDADOS | - | -
-b2 | group | -  | batalha aberta com tiros, tropa | - | -
-b3 | orbit | overcast  | batalha aberta com tiros, tropa | - | -
+b2 | group | -  | batalha aberta com tiros, tropa | tiros: 5 soldados caem no chao (acao + som de efeito); explosao: 2 soldados voando (acao + som de efeito) | -
+b3 | orbit | overcast  | batalha aberta com tiros, tropa | tiros: 5 soldados caem no chao (acao + som de efeito) | -
 b4 | close | overcast  | interior, placa: ILHA VAZIA | encena: sai (acao + som de efeito) | -
 b5 | orbit | overcast  | tropa | - | -
 b6 | group | overcast  | placa: FOGO AMIGO | atirar (burst + som de tiro/explosao) | -

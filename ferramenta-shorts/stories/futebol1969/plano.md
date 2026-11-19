@@ -9,7 +9,7 @@ b3 | crowd | -  | batalha aberta com tiros, tropa, placa: 1 x 0 | (rosto) laugh 
 b4 | two | dia  | - | brigaram (puff + som de baque); encena: golpe (punch) (acao + som de efeito) | -
 b5 | two | dia  | interior, objeto na mao | encena: corta (hammer) (acao + som de efeito) | -
 b6 | group | dia  | - | ganhou (stars + som de sino); encena: vence (up) (acao + som de efeito) | -
-b7 | orbit | dia  | batalha aberta com tiros, tropa, placa: GUERRA | - | -
+b7 | orbit | dia  | batalha aberta com tiros, tropa, placa: GUERRA | tiros: 5 soldados caem no chao (acao + som de efeito) | -
 b8 | two | -  | placa: 100 HORAS, objeto na mao | - | -
 b9 | close | -  | - | (rosto) sad (expr + som de efeito); perdeu (puff + som de baque); encena: perde (facepalm) (acao + som de efeito) | -
 

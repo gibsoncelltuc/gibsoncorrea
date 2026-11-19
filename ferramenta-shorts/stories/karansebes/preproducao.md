@@ -12,7 +12,7 @@ b4 | mountain | two | 2 | comemorar, INTERAGEM: brindar | barrel, tools/lantern 
 b5 | mountain | group | 21 | conversar, INTERAGEM: empurrar, alguem chega andando | - | - | -
 b6 | countryside | group | 11 | conversar, batalha | kit/campfire, kit/tent | - | -
 b7 | countryside | orbit | 33 | reagir, batalha | buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
-b8 | mountain | group | 7 | reagir, INTERAGEM: susto | cannon | - | -
+b8 | countryside | group | 7 | reagir, INTERAGEM: susto | cannon | - | -
 b9 | mountain | group | 7 | reagir, INTERAGEM: avanca e o outro recua, alguem chega andando | crate, barrel, kit/campfire, kit/tent | spyglass | -
 b10 | countryside | close | 1 | conversar | - | - | -
 
