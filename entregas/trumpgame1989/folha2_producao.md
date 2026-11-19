@@ -8,7 +8,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): TRU (variante 0, expressao smug); EXE (variante 0, expressao grin)
 - Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: kit/boardgame
+- Objetos/modelos: kit/boardgame, kit/marco_liberdade
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dinheiro, jogo, politica, proprio, rosto, tabuleiro
 - RISCOS: nenhum
 
@@ -18,14 +18,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
 - Animacao: -
-- Objetos/modelos: -
+- Objetos/modelos: kit/marco_liberdade
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): empresario, estados, nova
 - RISCOS: nenhum
 
 ## Cena b2 - Uma grande fábrica de brinquedos fez o jogo: comprar e vender prédios,...
 - Cenario: interior loja | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): EXE (variante 0, expressao grin, segura paper); TRU (variante 0, expressao smug)
 - Animacao: conversar | interacao: entregar
 - Objetos/modelos: kit/boardgame
@@ -34,8 +34,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - As notas do jogo eram de dez, cinquenta e cem milhões de dólares. Com ...
 - Cenario: interior loja | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: close = close no rosto; empurra devagar
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (1): TRU (variante 0, expressao grin)
 - Animacao: comemorar
 - Objetos/modelos: kit/boardgame
@@ -66,9 +66,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): EXE (variante 0, expressao sad); POV (variante 0, expressao bored); POV (variante 1, expressao suspicious) | multidao: 16 de POV
-- Animacao: - | batalha encenada
-- Objetos/modelos: -
+- Personagens principais (3): EXE (variante 0, expressao sad); POV (variante 0, expressao bored); POV (variante 1, expressao suspicious) | multidao: 30 de POV
+- Animacao: encena | batalha encenada
+- Objetos/modelos: kit/marco_liberdade
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fabrica, fracasso, jogos
 - RISCOS: nenhum
 
@@ -78,37 +78,37 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): EXE (variante 0, expressao sad); TRU (variante 0, expressao suspicious)
 - Animacao: conversar | interacao: insiste
-- Objetos/modelos: -
+- Objetos/modelos: kit/marco_liberdade
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): jogo, lojas
 - RISCOS: nenhum
 
 ## Cena b8 - Até que, em dois mil e quatro, Trump virou estrela de um programa de T...
 - Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): TRU (variante 0, expressao grin); EXE (variante 0, expressao surprised)
 - Animacao: conversar | interacao: entregar
-- Objetos/modelos: kit/boardgame, kit/tv
+- Objetos/modelos: kit/boardgame, kit/marco_liberdade, kit/tv
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aprendiz, programa
 - RISCOS: nenhum
 
 ## Cena b9 - E o jogo voltou às lojas, com regras mais simples, e com a frase famos...
-- Cenario: street | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
+- Cenario: harbor | luz: day | clima: limpo
+- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): TRU (variante 0, expressao smug)
 - Animacao: conversar
-- Objetos/modelos: kit/boardgame
+- Objetos/modelos: kit/boardgame, kit/marco_liberdade
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frase, jogo, lojas, programa, regras
 - RISCOS: nenhum
 
 ## Cena b10 - Hoje, as caixas originais de mil novecentos e oitenta e nove viraram i...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao laugh); PAI (variante 0, expressao laugh); FIL (variante 0, expressao grin) | multidao: 18 de POV
 - Animacao: comemorar | batalha encenada
-- Objetos/modelos: kit/boardgame, crate
+- Objetos/modelos: kit/boardgame, kit/marco_liberdade, crate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): caixas, colecionador
 - RISCOS: nenhum
 
@@ -118,7 +118,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): TRU (variante 0, expressao smile)
 - Animacao: comemorar
-- Objetos/modelos: kit/boardgame
+- Objetos/modelos: kit/boardgame, kit/marco_liberdade
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): curiosidade, jogo
 - RISCOS: nenhum
 
@@ -128,6 +128,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/boardgame | b0, b2, b3, b4, b5, b8, b9, b10, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_liberdade | b0, b1, b6, b7, b8, b9, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tv | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 crate | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
