@@ -1,5 +1,5 @@
 // A Guerra do Cachorro Perdido -- GERADO por mkvideo.py a partir de videos/petrich1925/beats.json (edite o beats.json, nao este arquivo)
-globalThis.REGMAP = {"buildings/house_small": ["kit/rg_europa_1", "kit/rg_europa_2", "kit/rg_europa_3"], "buildings/house_two": ["kit/rg_europa_2", "kit/rg_europa_3", "kit/rg_europa_1"], "buildings/house_blue": ["kit/rg_europa_1", "kit/rg_europa_2", "kit/rg_europa_3"], "buildings/shop": ["kit/rg_europa_3", "kit/rg_europa_1", "kit/rg_europa_2"], "buildings/apartment": ["kit/rg_europa_1", "kit/rg_europa_2", "kit/rg_europa_3"], "buildings/church": ["kit/rg_europa_3", "kit/rg_europa_1", "kit/rg_europa_2"], "buildings/barn": ["kit/rg_europa_1", "kit/rg_europa_2", "kit/rg_europa_3"], "buildings/castle_tower": ["kit/rg_europa_3"], "nature/tree_oak": ["kit/veg_oliveira", "kit/veg_cipreste"], "nature/flowerbed": ["kit/veg_lavanda"], "vehicles/tank": ["kit/tanque_ww2"], "vehicles/airplane": ["kit/biplano"], "vehicles/truck": ["kit/caminhao_antigo"], "ship": ["kit/navio_vapor"]}; globalThis.REGCHAO = "#b9a99a"; globalThis.ASFALTO = false; globalThis.PRAIA = false;
+globalThis.REGMAP = {"buildings/house_small": ["kit/rg_europa_1", "kit/rg_europa_2", "kit/rg_europa_3"], "buildings/house_two": ["kit/rg_europa_2", "kit/rg_europa_3", "kit/rg_europa_1"], "buildings/house_blue": ["kit/rg_europa_1", "kit/rg_europa_2", "kit/rg_europa_3"], "buildings/shop": ["kit/rg_europa_3", "kit/rg_europa_1", "kit/rg_europa_2"], "buildings/apartment": ["kit/rg_europa_1", "kit/rg_europa_2", "kit/rg_europa_3"], "buildings/church": ["kit/rg_europa_3", "kit/rg_europa_1", "kit/rg_europa_2"], "buildings/barn": ["kit/rg_europa_1", "kit/rg_europa_2", "kit/rg_europa_3"], "buildings/castle_tower": ["kit/rg_europa_3"], "nature/tree_oak": ["kit/veg_oliveira", "kit/veg_cipreste"], "nature/flowerbed": ["kit/veg_lavanda"], "vehicles/tank": ["kit/tanque_ww2"], "vehicles/airplane": ["kit/biplano"], "vehicles/truck": ["kit/caminhao_antigo"], "ship": ["kit/navio_vapor"]}; globalThis.REGCHAO = "#b9a99a"; globalThis.ASFALTO = false; globalThis.PRAIA = false; globalThis.SEM_NAVIO = false;
 const X = 3000, DK = 6; const X_countryside = 1000; const X_hall = 8000;
 const WS = (i, off = 0) => TIMING.words[Math.min(i, TIMING.words.length - 1)][0] + off;   // frame em que a palavra de indice i comeca
 const A = [0, WS(16, -3), WS(33, -3), WS(43, -3), WS(51, -3), WS(59, -3), WS(74, -3), WS(86, -3), WS(99, -3), TOTAL_F()];
@@ -23,4 +23,4 @@ const SPEC = {
   ],
 };
 
-// FOLHA3 7c60d3231ef7 34 acoes=34 faltando=0
+// FOLHA3 96a30e943126 35 acoes=35 faltando=0

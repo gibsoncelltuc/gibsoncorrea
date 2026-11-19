@@ -7,7 +7,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | street | two | 2 | reagir, INTERAGEM: susto | kit/marco_notredame | - | -
 b1 | street | reveal | 10 | reagir | kit/marco_notredame, dog, cat | - | -
 b2 | interior loja | two | 2 | reagir, INTERAGEM: avanca e o outro recua | barrel | - | -
-b3 | countryside | crowd | 8 | reagir, batalha | kit/marco_notredame, buildings/apartment, buildings/house_two, nature/lamppost | - | -
+b3 | countryside | crowd | 8 | reagir, batalha | kit/marco_notredame, buildings/house_two, nature/lamppost | - | -
 b4 | interior loja | close | 1 | conversar | kit/steak, elephant | - | -
 b5 | hall | orbit | 14 | reagir, batalha | kit/steak, elephant, bear | - | -
 b6 | street | close | 1 | reagir | kit/marco_notredame, nature/picket_fence, cat, wolf | - | -
