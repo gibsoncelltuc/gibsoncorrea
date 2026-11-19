@@ -1,0 +1,109 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Cap,Inter Black,88,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,0,0,0,0,100,100,0,0,1,6,3,5,50,50,0,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.16,0:00:00.75,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Em fevereiro
+Dialogue: 0,0:00:00.77,0:00:01.00,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}de dois
+Dialogue: 0,0:00:01.02,0:00:01.24,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}mil e
+Dialogue: 0,0:00:01.26,0:00:01.49,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}vinte e
+Dialogue: 0,0:00:01.51,0:00:02.01,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}quatro,
+Dialogue: 0,0:00:02.05,0:00:02.68,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}um presidente
+Dialogue: 0,0:00:02.70,0:00:03.33,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}foi reeleito
+Dialogue: 0,0:00:03.35,0:00:03.83,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}com uma
+Dialogue: 0,0:00:03.85,0:00:04.32,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}das maiores
+Dialogue: 0,0:00:04.34,0:00:04.81,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}votações do
+Dialogue: 0,0:00:04.83,0:00:05.41,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}mundo.
+Dialogue: 0,0:00:06.08,0:00:06.35,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Foi em
+Dialogue: 0,0:00:06.37,0:00:07.16,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}El Salvador,
+Dialogue: 0,0:00:07.18,0:00:07.83,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}na América
+Dialogue: 0,0:00:07.84,0:00:08.43,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Central.
+Dialogue: 0,0:00:09.04,0:00:09.69,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}O presidente
+Dialogue: 0,0:00:09.71,0:00:10.18,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}era Nayib
+Dialogue: 0,0:00:10.20,0:00:10.95,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Bukele.
+Dialogue: 0,0:00:11.54,0:00:12.02,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Ele tinha
+Dialogue: 0,0:00:12.04,0:00:12.52,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}chegado ao
+Dialogue: 0,0:00:12.54,0:00:12.89,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}poder em
+Dialogue: 0,0:00:12.91,0:00:13.15,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}dois mil
+Dialogue: 0,0:00:13.17,0:00:13.92,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}e dezenove,
+Dialogue: 0,0:00:13.98,0:00:14.42,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}com trinta
+Dialogue: 0,0:00:14.44,0:00:14.73,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}e sete
+Dialogue: 0,0:00:14.75,0:00:15.29,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}anos,
+Dialogue: 0,0:00:15.31,0:00:15.92,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}prometendo
+Dialogue: 0,0:00:15.94,0:00:16.54,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}acabar com
+Dialogue: 0,0:00:16.56,0:00:17.01,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}a violência
+Dialogue: 0,0:00:17.03,0:00:17.75,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}das gangues.
+Dialogue: 0,0:00:18.36,0:00:19.08,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}A Constituição
+Dialogue: 0,0:00:19.10,0:00:19.63,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}proibia a
+Dialogue: 0,0:00:19.65,0:00:20.00,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}reeleição
+Dialogue: 0,0:00:20.02,0:00:20.82,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}seguida.
+Dialogue: 0,0:00:21.41,0:00:21.96,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Mas,
+Dialogue: 0,0:00:21.98,0:00:22.22,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}em dois
+Dialogue: 0,0:00:22.24,0:00:22.48,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}mil e
+Dialogue: 0,0:00:22.50,0:00:22.75,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}vinte e
+Dialogue: 0,0:00:22.77,0:00:23.12,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}um,
+Dialogue: 0,0:00:23.14,0:00:23.79,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}a Suprema
+Dialogue: 0,0:00:23.81,0:00:24.29,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Corte mudou
+Dialogue: 0,0:00:24.31,0:00:25.40,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}a interpretação,
+Dialogue: 0,0:00:25.44,0:00:26.10,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}e liberou.
+Dialogue: 0,0:00:26.72,0:00:27.06,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Críticos e
+Dialogue: 0,0:00:27.08,0:00:27.65,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}opositores
+Dialogue: 0,0:00:27.67,0:00:28.12,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}disseram que
+Dialogue: 0,0:00:28.14,0:00:28.83,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}a candidatura
+Dialogue: 0,0:00:28.85,0:00:29.69,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}era ilegal.
+Dialogue: 0,0:00:30.30,0:00:30.84,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}O governo
+Dialogue: 0,0:00:30.86,0:00:31.40,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}defendeu a
+Dialogue: 0,0:00:31.42,0:00:32.10,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}decisão.
+Dialogue: 0,0:00:32.69,0:00:33.03,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}No dia
+Dialogue: 0,0:00:33.05,0:00:33.82,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}da eleição,
+Dialogue: 0,0:00:33.84,0:00:34.69,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}os salvadorenhos
+Dialogue: 0,0:00:34.71,0:00:35.12,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}foram às
+Dialogue: 0,0:00:35.14,0:00:35.68,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}urnas.
+Dialogue: 0,0:00:36.29,0:00:36.82,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Acontece que
+Dialogue: 0,0:00:36.84,0:00:37.51,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}o resultado
+Dialogue: 0,0:00:37.53,0:00:38.34,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}impressionou:
+Dialogue: 0,0:00:38.37,0:00:38.97,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Bukele teve
+Dialogue: 0,0:00:38.99,0:00:39.60,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}quase oitenta
+Dialogue: 0,0:00:39.62,0:00:40.08,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}e cinco
+Dialogue: 0,0:00:40.10,0:00:40.55,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}por cento
+Dialogue: 0,0:00:40.57,0:00:41.29,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}dos votos.
+Dialogue: 0,0:00:41.91,0:00:42.74,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Os apoiadores
+Dialogue: 0,0:00:42.76,0:00:43.42,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}lotaram as
+Dialogue: 0,0:00:43.45,0:00:43.95,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}ruas.
+Dialogue: 0,0:00:44.48,0:00:45.17,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Ele comemorou
+Dialogue: 0,0:00:45.19,0:00:45.95,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}numa sacada,
+Dialogue: 0,0:00:45.97,0:00:46.27,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}diante de
+Dialogue: 0,0:00:46.30,0:00:47.37,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}uma multidão.
+Dialogue: 0,0:00:47.97,0:00:48.50,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}O motivo
+Dialogue: 0,0:00:48.52,0:00:49.06,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}mais citado
+Dialogue: 0,0:00:49.08,0:00:50.15,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}pelos eleitores:
+Dialogue: 0,0:00:50.17,0:00:50.58,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}a queda
+Dialogue: 0,0:00:50.60,0:00:51.02,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}enorme no
+Dialogue: 0,0:00:51.04,0:00:51.45,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}número de
+Dialogue: 0,0:00:51.47,0:00:52.32,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}assassinatos no
+Dialogue: 0,0:00:52.34,0:00:52.84,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}país.
+Dialogue: 0,0:00:53.35,0:00:54.11,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Organizações de
+Dialogue: 0,0:00:54.13,0:00:54.59,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}direitos
+Dialogue: 0,0:00:54.61,0:00:55.33,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}humanos,
+Dialogue: 0,0:00:55.37,0:00:55.90,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}porém,
+Dialogue: 0,0:00:55.92,0:00:56.64,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}criticaram as
+Dialogue: 0,0:00:56.66,0:00:57.09,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}prisões em
+Dialogue: 0,0:00:57.11,0:00:57.53,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}massa e
+Dialogue: 0,0:00:57.55,0:00:58.13,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}o estado
+Dialogue: 0,0:00:58.15,0:00:58.84,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}de exceção.
+Dialogue: 0,0:00:59.47,0:01:00.03,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Amado por
+Dialogue: 0,0:01:00.05,0:01:00.47,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}muitos e
+Dialogue: 0,0:01:00.49,0:01:01.21,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}criticado por
+Dialogue: 0,0:01:01.23,0:01:01.77,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}outros,
+Dialogue: 0,0:01:01.79,0:01:02.29,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}ele virou
+Dialogue: 0,0:01:02.31,0:01:02.55,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}um dos
+Dialogue: 0,0:01:02.57,0:01:03.20,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}presidentes mais
+Dialogue: 0,0:01:03.23,0:01:03.86,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}populares do
+Dialogue: 0,0:01:03.88,0:01:04.52,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}planeta.
