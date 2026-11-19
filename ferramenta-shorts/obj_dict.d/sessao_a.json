@@ -46,5 +46,11 @@
   "kit/searchlight",
   1.0,
   false
+ ],
+ [
+  "\\\\bbaterias?\\\\b",
+  "kit/megapack",
+  1.0,
+  false
  ]
 ]

@@ -13,5 +13,5 @@ b7 | close | -  | - | - | -
 b8 | two | -  | - | - | -
 b9 | two | -  | - | - | -
 
-Mistura de planos: close 19% | medio 61% | aberto 12% | detalhe 8%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 22% | medio 59% | aberto 12% | detalhe 8%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 2 | dentro do padrao do canal

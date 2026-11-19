@@ -99,3 +99,15 @@ cil((0, .1, 0), .55, .2, M2); cil((0, .5, 0), .13, .6, M1); cil((-.25, .75, 0), 
 cil((0, .95, 0), .34, .7, M1, rot=(0, 0, math.pi / 2.6)); bola((.3, 1.05, 0), .3, '#fff6c0', .45)
 cil((1.17, 1.39, 0), .06, 1.8, '#fff2a0', raio_topo=.5, rot=(0, 0, math.pi / 2.6))
 fim(.02)
+novo('megapack')                                      # fileira de baterias gigantes (gabinetes brancos tipo contêiner, portinhas e faixa vermelha), frente para +z
+W, W2, G1, VM, PT = '#f3f3ef', '#dedfda', '#8c8f94', '#c8202a', '#3a3d42'
+caixa((0, .04, 0), (3.7, .08, 1.0), G1)                                     # laje
+for x in (-1.2, 0, 1.2):
+    caixa((x, .58, 0), (1.04, 1.0, .72), W)                                 # gabinete
+    caixa((x, 1.1, 0), (1.1, .06, .78), W2)                                 # tampa
+    caixa((x, .56, .365), (.86, .78, .04), W2)                              # portinha
+    caixa((x - .36, .56, .39), (.05, .86, .03), VM)                         # faixa vermelha
+    caixa((x + .3, .56, .395), (.04, .22, .03), PT)                         # puxador
+    for k in range(4): caixa((x + .02, .26 + k * .06, .395), (.5, .02, .02), PT)     # grade de ventilação
+    bola((x + .3, .86, .4), .035, '#4fd16a', .6)                            # luz de estado
+fim(.025)
