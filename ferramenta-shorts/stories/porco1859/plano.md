@@ -5,7 +5,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | -  | animais, placa: 1859, objeto na mao | - | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | animais, objeto na mao | - | -
-b3 | two | -  | animais | atirou (burst + som de tiro/explosao) | -
+b3 | two | -  | animais | atirou (burst + som de tiro/explosao); encena: pega (lift) (acao + som de efeito) | -
 b4 | two | -  | interior, placa: $10, objeto na mao | - | -
 b5 | two | -  | placa: $100, objeto na mao | (rosto) shout (expr + som de efeito); gritou (ring + som de alerta); dinheiro (stars + som de sino) | -
 b6 | group | -  | tropa, placa: TROPAS | - | -

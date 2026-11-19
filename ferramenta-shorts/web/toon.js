@@ -1038,7 +1038,7 @@ const hatOn = (p, o, hp, H, cx, hc, light, seed, facing, side)=>{
             ], 1.2 * u);
         }
         if (o.hat === "hair" && o.swoop) { const deg = a * 180 / Math.PI, f_ = facing || 1, q_ = R([[cx - 46 * u * f_, cut + 0.02 * HH], [cx - 40 * u * f_, cut - 0.2 * HH], [cx - 6 * u * f_, cut - 0.31 * HH], [cx + 34 * u * f_, cut - 0.26 * HH], [cx + 52 * u * f_, cut - 0.1 * HH], [cx + 30 * u * f_, cut - 0.13 * HH], [cx - 4 * u * f_, cut - 0.1 * HH], [cx - 30 * u * f_, cut - 0.02 * HH]]); p.shadedFill(q_, o.hair, shade(o.hair, 0.8), light, 50 * u, 0.4); p.poly(q_, null, ow); p.stroke(R([[cx - 30 * u * f_, cut - 0.15 * HH], [cx + 4 * u * f_, cut - 0.22 * HH], [cx + 36 * u * f_, cut - 0.17 * HH]]), 1.4 * u, shade(o.hair, 0.65)); }   /* TOPETE (Trump) */
-        if (o.hat === "cap" && o.capBack) { const deg = a * 180 / Math.PI, [vx, vy] = R([[cx + 6 * u * (facing || 1), cut - 0.36 * HH]])[0]; p.ell(vx, vy, 30 * u, 0.06 * HH, shade(col, 0.75), ow, 180, 360, deg + 12 * (facing || 1)); p.stroke(R([[cx - 14 * u, cut - 0.02 * HH], [cx + 14 * u, cut - 0.02 * HH]]), 3 * u, shade(col, 0.6)); }   /* BONE VIRADO PARA TRAS (Bukele) */
+        if (o.hat === "cap" && o.capBack) { const deg = a * 180 / Math.PI, [vx, vy] = R([[cx + 8 * u * (facing || 1), cut - 0.25 * HH]])[0]; p.ell(vx, vy, 30 * u, 0.075 * HH, shade(col, 0.75), ow, 180, 360, deg + 12 * (facing || 1)); p.stroke(R([[cx - 14 * u, cut - 0.02 * HH], [cx + 14 * u, cut - 0.02 * HH]]), 3 * u, shade(col, 0.6)); }   /* BONE VIRADO PARA TRAS (Bukele) */
         else if (o.hat === "cap") {
             const deg = a * 180 / Math.PI;
             if (side) p.poly(R([

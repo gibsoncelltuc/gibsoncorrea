@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Ele pegou a espingarda, e atirou. O porco era de um vizinho inglês.
 - Som ambiente: birds
 - Efeitos sonoros marcados: gun@24, squeal@30
-- Efeito + som nas palavras-chave: atirou -> burst + som de tiro/explosao
+- Efeito + som nas palavras-chave: atirou -> burst + som de tiro/explosao; encena: pega (lift) -> acao + som de efeito
 - Efeito visual marcado: burst@24
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
