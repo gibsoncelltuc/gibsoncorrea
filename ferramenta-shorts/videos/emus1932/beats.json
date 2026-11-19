@@ -196,7 +196,7 @@
    }
   },
   {
-   "say": "A tropa bateu em retirada. A imprensa gargalhou, e o comandante admitiu: \"Eles aguentam bala como tanques.\"",
+   "say": "A tropa fugiu. A imprensa gargalhou, e o comandante admitiu: \"Eles aguentam bala como tanques.\"",
    "shot": "track",
    "who": [
     "AUS:0:pained",

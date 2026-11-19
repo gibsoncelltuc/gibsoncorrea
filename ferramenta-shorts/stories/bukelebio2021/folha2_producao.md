@@ -4,7 +4,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Em setembro de dois mil e vinte e um, o presidente de El Salvador, Nay...
 - Cenario: interior pedra | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: close = close no rosto; empurra devagar
 - Takes: 5 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): BUK (variante 0, expressao smug)
 - Animacao: conversar
@@ -42,12 +42,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ditador, frase
 - RISCOS: nenhum
 
-## Cena b4 - Acontece que a notícia deu a volta ao mundo.
+## Cena b4 - Acontece que a notícia se espalhou pelo mundo.
 - Cenario: street | luz: golden | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): BUK (variante 0, expressao smug) | multidao: 10 de POV
-- Animacao: encena
+- Animacao: -
 - Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): noticia
 - RISCOS: nenhum
@@ -112,7 +112,7 @@ kit/volcano | b1, b4, b5, b9 | pronto | conferir na folha de contato se le bem; 
 
 
 ## Video inteiro
-- Objeto heroi: kit/phone | grandes momentos: b1, b3 | planos abertos: 2 | mistura: close 31% | medio 60% | aberto 7% | detalhe 3%
+- Objeto heroi: kit/phone | grandes momentos: b1, b3 | planos abertos: 2 | mistura: close 49% | medio 42% | aberto 6% | detalhe 3%
 - Interacoes: b3 entregar, b5 discutir, b6 insiste, b8 vai ate o outro
 - RISCOS GERAIS: nenhum
 

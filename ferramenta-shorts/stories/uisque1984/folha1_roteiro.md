@@ -48,10 +48,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic |
 - Funcao na historia: desenvolvimento
 
 ## Cena b5  (~4.8 s)
-- Narracao: Acontece que, pouco depois, os dinamarqueses apareceram, tiraram a bandeira e puseram a deles.
+- Narracao: Acontece que, pouco depois, os dinamarqueses apareceram, arrancaram a bandeira e puseram a deles.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: encena: tira (lift) -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@30
 - Texto na tela: -
 - Funcao na historia: VIRADA

@@ -42,7 +42,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): epoca, plaza, trump
 - RISCOS: nenhum
 
-## Cena b4 - O diretor Chris Columbus contou, anos depois, que a equipe queria o sa...
+## Cena b4 - O diretor Chris Columbus disse, anos depois, que a equipe queria o sag...
 - Cenario: interior loja | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo

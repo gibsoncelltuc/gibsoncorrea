@@ -130,7 +130,7 @@
      2.0
     ]
    ],
-   "set": "stadium"
+   "set": "harbor"
   },
   {
    "tiros": false,
@@ -142,7 +142,7 @@
     "JOR:0:shock",
     "JOR2:0:laugh"
    ],
-   "set": "harbor"
+   "set": "street"
   },
   {
    "tiros": false,
@@ -180,7 +180,7 @@
      2.0
     ]
    ],
-   "set": "stadium"
+   "set": "harbor"
   },
   {
    "tiros": false,

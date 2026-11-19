@@ -48,10 +48,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b5  (~4.8 s)
-- Narracao: Acontece que o soldado morreu, e a Grécia deu um ultimato furioso à Bulgária.
+- Narracao: Acontece que o soldado morreu, e a Grécia fez um ultimato furioso à Bulgária.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; encena: x_entrega (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: VIRADA

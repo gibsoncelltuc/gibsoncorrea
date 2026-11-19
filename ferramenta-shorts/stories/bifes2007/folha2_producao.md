@@ -72,14 +72,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): marca
 - RISCOS: nenhum
 
-## Cena b7 - Mesmo assim, os bifes continuaram sendo servidos em hotéis da rede Tru...
+## Cena b7 - Mesmo assim, os bifes continuaram sendo servidos em hotéis do grupo Tr...
 - Cenario: interior pedra | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): TRU (variante 0, expressao laugh); CLI (variante 0, expressao smug)
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/steak
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bifes, rede
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bifes, grupo
 - RISCOS: nenhum
 
 ## Cena b8 - Em resumo, a carne saiu da loja depressa, mas o nome ficou no cardápio...

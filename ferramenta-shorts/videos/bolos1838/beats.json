@@ -145,7 +145,7 @@
    },
    "text": "A MARINHA",
    "titulo": true,
-   "say": "Acontece que a França mandou mesmo. Navios de guerra fecharam todos os portos do país."
+   "say": "Acontece que a França mandou mesmo. Navios de guerra bloquearam todos os portos do país."
   },
   {
    "shot": "crowd",
@@ -163,7 +163,7 @@
     "march": false,
     "expr": "shock"
    },
-   "say": "Os canhões franceses bombardearam a fortaleza de Veracruz, e os soldados tomaram a cidade."
+   "say": "Os canhões franceses bombardearam a fortaleza de Veracruz, e os soldados conquistaram a cidade."
   },
   {
    "shot": "two",

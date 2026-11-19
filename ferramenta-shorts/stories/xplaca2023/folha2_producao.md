@@ -22,14 +22,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dono, empresa, grande, mudanca, predio
 - RISCOS: nenhum
 
-## Cena b2 - Os operários começaram a tirar as letras da placa do Twitter e o passa...
+## Cena b2 - Os operários começaram a remover as letras da placa do Twitter e o pas...
 - Cenario: street | luz: golden | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (3): OPE (variante 0, expressao nervous); OPE2 (variante 0, expressao suspicious); MUS (variante 0, expressao worried) | multidao: 10 de POV
 - Animacao: reagir | interacao: o outro se aproxima | batalha encenada
 - Objetos/modelos: kit/marco_goldengate, kit/finch, buildings/apartment, buildings/house_two, nature/lamppost
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): letras, operarios, passarinho, placa, predio, tirar, twitter
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): letras, operarios, passarinho, placa, predio, remover, twitter
 - RISCOS: nenhum
 
 ## Cena b3 - Mas o trabalho parou no meio, porque a empresa não tinha as licenças n...
@@ -62,7 +62,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alto, predio
 - RISCOS: nenhum
 
-## Cena b6 - A prefeitura recebeu vinte e quatro reclamações em um fim de semana e ...
+## Cena b6 - A prefeitura registrou vinte e quatro reclamações em um fim de semana ...
 - Cenario: interior pedra | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo

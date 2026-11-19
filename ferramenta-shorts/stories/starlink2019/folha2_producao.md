@@ -2,7 +2,7 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/starlink2019/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py starlink2019` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Em maio de dois mil e dezenove, a SpaceX lançou um foguete Falcon 9 co...
+## Cena b0 - Em maio de dois mil e dezenove, a SpaceX decolou com um foguete Falcon...
 - Cenario: street | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
@@ -42,7 +42,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fila, luzes, tres
 - RISCOS: nenhum
 
-## Cena b4 - Ele contou pelo menos cinquenta e seis objetos brilhando em linha.
+## Cena b4 - Ele viu pelo menos cinquenta e seis objetos brilhando em linha.
 - Cenario: countryside | luz: noite | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
@@ -52,7 +52,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
-## Cena b5 - Acontece que o site holandês de avistamentos de OVNIs recebeu mais de ...
+## Cena b5 - Acontece que o site holandês de avistamentos de OVNIs registrou mais d...
 - Cenario: street | luz: golden | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
@@ -82,7 +82,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lancamento, satelites
 - RISCOS: nenhum
 
-## Cena b8 - A imagem da fila de luzes se espalhou por vários países e virou assunt...
+## Cena b8 - A imagem da fila de luzes se espalhou por vários países e foi assunto ...
 - Cenario: street | luz: golden | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto

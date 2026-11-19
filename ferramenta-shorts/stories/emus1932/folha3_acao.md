@@ -75,21 +75,21 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | 1 SEMANA | OK |
 
-## Cena b7 - 43.2s a 49.5s - 17 palavras - plano track
-> "A tropa bateu em retirada. A imprensa gargalhou, e o comandante admitiu: "Eles aguentam bala como tanques.""
+## Cena b7 - 43.2s a 48.9s - 15 palavras - plano track
+> "A tropa fugiu. A imprensa gargalhou, e o comandante admitiu: "Eles aguentam bala como tanques.""
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | bateu (43.6s) | EFEITO: dust | poeira + som | OK |
-| 2 | bateu (43.6s) | ACAO: x_bate | bate + estouro | OK |
-| 3 | retirada (44.0s) | EFEITO: dust | poeira + som | OK |
-| 4 | gargalhou (46.0s) | EFEITO: stars | estrelinhas + som | OK |
-| 5 | gargalhou (46.0s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
+| 1 | fugiu (43.6s) | EFEITO: dust | poeira + som | OK |
+| 2 | fugiu (43.6s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
+| 3 | gargalhou (45.4s) | EFEITO: stars | estrelinhas + som | OK |
+| 4 | gargalhou (45.4s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
+| 5 | bala (48.2s) | EFEITO: burst | estouro/clarao + som | OK |
 | 6 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 7 | - | ATUACAO | comemorar | OK |
+| 7 | - | ATUACAO | conversar | OK |
 | 8 | - | PLACA | HA HA HA | OK |
 
-## Cena b8 - 50.6s a 54.9s - 13 palavras - plano crowd
+## Cena b8 - 49.2s a 54.1s - 13 palavras - plano crowd
 > "O exército tentou de novo, abateu algumas centenas, e os emus continuaram voltando."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -98,19 +98,19 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 3 | - | PLACA | CENTENAS | OK |
 
-## Cena b9 - 56.2s a 61.4s - 18 palavras - plano two
+## Cena b9 - 54.4s a 60.8s - 18 palavras - plano two
 > "No fim, o governo desistiu da guerra, e passou a pagar recompensa aos fazendeiros por cada emu abatido."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | desistiu (57.4s) | EFEITO: puff | fumaca + som | OK |
-| 2 | pagar (59.2s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | recompensa (59.5s) | EFEITO: stars | estrelinhas + som | OK |
+| 1 | desistiu (56.8s) | EFEITO: puff | fumaca + som | OK |
+| 2 | pagar (58.8s) | EFEITO: stars | estrelinhas + som | OK |
+| 3 | recompensa (59.0s) | EFEITO: stars | estrelinhas + som | OK |
 | 4 | - | INTERACAO | entregar | OK |
 | 5 | - | ATUACAO | conversar | OK |
 | 6 | - | PLACA | RECOMPENSA | OK |
 
-## Cena b10 - 62.8s a 65.6s - 4 palavras - plano close
+## Cena b10 - 61.1s a 63.5s - 4 palavras - plano close
 > "Humanos, zero. Emus, um."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

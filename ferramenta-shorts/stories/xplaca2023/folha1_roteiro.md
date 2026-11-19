@@ -21,10 +21,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Funcao na historia: desenvolvimento
 
 ## Cena b2  (~5.5 s)
-- Narracao: Os operários começaram a tirar as letras da placa do Twitter e o passarinho do prédio.
+- Narracao: Os operários começaram a remover as letras da placa do Twitter e o passarinho do prédio.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
-- Efeito + som nas palavras-chave: encena: tira (lift) -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -57,10 +57,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b6  (~7.9 s)
-- Narracao: A prefeitura recebeu vinte e quatro reclamações em um fim de semana e abriu uma investigação, porque aquela placa também não tinha permissão.
+- Narracao: A prefeitura registrou vinte e quatro reclamações em um fim de semana e iniciou uma investigação, porque aquela placa também não tinha permissão.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) -> acao + som de efeito; encena: x_abre (push) -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

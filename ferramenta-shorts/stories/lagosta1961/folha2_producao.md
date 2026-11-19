@@ -42,7 +42,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca
 - RISCOS: nenhum
 
-## Cena b4 - A discussão esquentou, e a França mandou um navio de guerra para prote...
+## Cena b4 - A discussão ficou séria, e a França mandou um navio de guerra para pro...
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
@@ -82,13 +82,13 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brigar, dois, tiro
 - RISCOS: nenhum
 
-## Cena b8 - Em mil novecentos e sessenta e três, fecharam um acordo: alguns barcos...
+## Cena b8 - Em mil novecentos e sessenta e três, chegaram a um acordo: alguns barc...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): PES (variante 0, expressao laugh); FRA (variante 0, expressao relief)
-- Animacao: comemorar | interacao: insiste
-- Objetos/modelos: kit/marco_olinda
+- Animacao: comemorar
+- Objetos/modelos: kit/marco_olinda, navio em movimento
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): acordo, limite
 - RISCOS: nenhum
 
@@ -115,8 +115,8 @@ vehicles/airplane | b5 | pronto | conferir na folha de contato se le bem; se par
 
 
 ## Video inteiro
-- Objeto heroi: kit/lobster | grandes momentos: b5, b6 | planos abertos: 3 | mistura: close 19% | medio 57% | aberto 19% | detalhe 5%
-- Interacoes: b0 discutir, b2 cochichar, b4 avanca e o outro recua, b6 susto, b7 entregar, b8 insiste
+- Objeto heroi: kit/lobster | grandes momentos: b5, b6 | planos abertos: 4 | mistura: close 19% | medio 54% | aberto 26% | detalhe 2%
+- Interacoes: b0 discutir, b2 cochichar, b4 avanca e o outro recua, b6 susto, b7 entregar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

@@ -130,7 +130,7 @@
    "sfx": [
     "whoosh@70"
    ],
-   "say": "Os espanhóis acharam que ele fazia contrabando, e Jenkins contou que o capitão deles cortou sua orelha.",
+   "say": "Os espanhóis suspeitaram que ele fazia contrabando, e Jenkins disse que o capitão deles arrancou sua orelha.",
    "set": "street"
   },
   {
@@ -151,7 +151,7 @@
     "JEN:0:sad"
    ],
    "interacao": "susto",
-   "say": "Sete anos depois, Jenkins contou a história ao Parlamento inglês, e os deputados ficaram furiosos."
+   "say": "Sete anos depois, Jenkins relatou a história ao Parlamento inglês, e os deputados ficaram furiosos."
   },
   {
    "shot": "two",
@@ -200,7 +200,7 @@
     "ING:0:pained"
    ],
    "acao": "discutir",
-   "say": "A guerra foi longa, e até se misturou a outra guerra maior, na Europa."
+   "say": "A guerra foi longa, e até se juntou a outra guerra maior, na Europa."
   },
   {
    "shot": "two",
@@ -220,7 +220,7 @@
     "ING:0:grin"
    ],
    "acao": "conversar",
-   "say": "Quem deu o nome de Guerra da Orelha de Jenkins foi um escritor, mais de cem anos depois."
+   "say": "Quem batizou de Guerra da Orelha de Jenkins foi um escritor, mais de cem anos depois."
   },
   {
    "shot": "close",

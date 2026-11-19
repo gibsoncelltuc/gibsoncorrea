@@ -4,7 +4,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | harbor | two | 2 | discutir, INTERAGEM: discutir | kit/scroll | - | -
+b0 | harbor | two | 7 | discutir, INTERAGEM: discutir | kit/scroll | - | -
 b1 | harbor | group | 10 | conversar, INTERAGEM: susto | - | - | -
 b2 | harbor | crowd | 20 | batalha | ship, navios ao fundo | - | -
 b3 | harbor | group | 13 | discutir, INTERAGEM: avanca e o outro recua, batalha | ship | - | -

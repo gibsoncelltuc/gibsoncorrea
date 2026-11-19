@@ -39,10 +39,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Funcao na historia: VIRADA
 
 ## Cena b4  (~6.6 s)
-- Narracao: O diretor Chris Columbus contou, anos depois, que a equipe queria o saguão e não conseguiria refazê-lo num estúdio.
+- Narracao: O diretor Chris Columbus disse, anos depois, que a equipe queria o saguão e não conseguiria refazê-lo num estúdio.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: examina (think) -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

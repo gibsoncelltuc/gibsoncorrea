@@ -15,7 +15,7 @@ b7 | street | two | 2 | conversar, INTERAGEM: insiste | kit/falcon_air, kit/marc
 b8 | street | group | 11 | reagir | kit/marco_canaveral | - | -
 b9 | countryside | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/rocket, kit/marco_canaveral, kit/starlink_sat | - | -
 
-OBJETO HEROI: kit/rocket - aparece em 3 cena(s), close nele em 2
+OBJETO HEROI: kit/rocket - aparece em 3 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b5
 Interacoes entre personagens: b2 avanca e o outro recua, b3 susto, b6 o outro se aproxima, b7 insiste, b9 vai ate o outro
 

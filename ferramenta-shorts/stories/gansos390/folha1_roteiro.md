@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 05 - Os Gansos que Salvaram Roma
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval | 10 cenas, 151 palavras (~52 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval | 10 cenas, 150 palavras (~52 s)
 
 ## Cena b0  (~3.4 s)
 - Narracao: Roma inteira foi salva por um bando de gansos barulhentos.
@@ -83,11 +83,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Texto na tela: DESFILE
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~3.8 s)
-- Narracao: E os guardas, que dormiram a noite inteira, ganharam um castigo.
+## Cena b9  (~3.4 s)
+- Narracao: E os guardas, que dormiram a noite inteira, foram castigados.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: ganharam -> stars + som de sino; encena: vence (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

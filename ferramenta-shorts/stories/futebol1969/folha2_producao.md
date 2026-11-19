@@ -42,17 +42,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): hotel, porta, torcida, visitantes
 - RISCOS: nenhum
 
-## Cena b4 - No segundo, El Salvador deu o troco. Torcedores brigaram nas ruas, e o...
+## Cena b4 - No segundo, El Salvador revidou. Torcedores brigaram nas ruas, e os do...
 - Cenario: street | luz: dia | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): TOR (variante 0, expressao angry); TOR (variante 1, expressao shout)
 - Animacao: discutir | interacao: empurrar
 - Objetos/modelos: kit/volcano
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, ruas, troco
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, ruas
 - RISCOS: nenhum
 
-## Cena b5 - Acontece que, no dia do terceiro jogo, El Salvador cortou relações com...
+## Cena b5 - Acontece que, no dia do terceiro jogo, El Salvador rompeu relações com...
 - Cenario: interior madeira | luz: dia | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
@@ -118,7 +118,7 @@ vehicles/airplane | b7 | pronto | conferir na folha de contato se le bem; se par
 
 
 ## Video inteiro
-- Objeto heroi: kit/ball | grandes momentos: b3, b7 | planos abertos: 3 | mistura: close 14% | medio 65% | aberto 16% | detalhe 6%
+- Objeto heroi: kit/ball | grandes momentos: b3, b7 | planos abertos: 3 | mistura: close 14% | medio 64% | aberto 16% | detalhe 6%
 - Interacoes: b0 discutir, b2 aproxima-se, b4 empurrar, b5 susto, b6 pular, b8 avanca e o outro recua
 - RISCOS GERAIS: nenhum
 

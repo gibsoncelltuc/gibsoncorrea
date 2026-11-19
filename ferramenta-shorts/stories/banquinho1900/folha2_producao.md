@@ -72,7 +72,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): governador
 - RISCOS: nenhum
 
-## Cena b7 - No fim, os ingleses venceram a guerra e tomaram o controle da região, ...
+## Cena b7 - No fim, os ingleses venceram a guerra e assumiram o controle da região...
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa

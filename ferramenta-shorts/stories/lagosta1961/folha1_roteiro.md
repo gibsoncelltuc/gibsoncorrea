@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 11 - A Guerra da Lagosta
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 10 cenas, 151 palavras (~52 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 10 cenas, 153 palavras (~53 s)
 
 ## Cena b0  (~4.8 s)
 - Narracao: A França e o Brasil quase entraram em guerra por causa de uma lagosta.
@@ -38,11 +38,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~5.5 s)
-- Narracao: A discussão esquentou, e a França mandou um navio de guerra para proteger os pescadores dela.
+## Cena b4  (~5.9 s)
+- Narracao: A discussão ficou séria, e a França mandou um navio de guerra para proteger os pescadores dela.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: discussão -> puff + som de baque; encena: calor (reach) -> acao + som de efeito; encena: fala (point) -> acao + som de efeito
+- Efeito + som nas palavras-chave: discussão -> puff + som de baque; encena: fala (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -74,11 +74,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~5.9 s)
-- Narracao: Em mil novecentos e sessenta e três, fecharam um acordo: alguns barcos franceses podiam pescar, com limite.
+## Cena b8  (~6.2 s)
+- Narracao: Em mil novecentos e sessenta e três, chegaram a um acordo: alguns barcos franceses podiam pescar, com limite.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_abre (push) -> acao + som de efeito; encena: x_pesca (lift) -> acao + som de efeito
+- Efeito + som nas palavras-chave: chegaram -> dust + som de impacto; encena: x_pesca (lift) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1963
 - Funcao na historia: desenvolvimento

@@ -92,14 +92,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): desfile, gansos, roma
 - RISCOS: nenhum
 
-## Cena b9 - E os guardas, que dormiram a noite inteira, ganharam um castigo.
+## Cena b9 - E os guardas, que dormiram a noite inteira, foram castigados.
 - Cenario: medieval | luz: dia | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): ROM (variante 2, expressao grin)
 - Animacao: conversar
 - Objetos/modelos: kit/marco_coliseu
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): castigo, guardas
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): guardas
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -117,7 +117,7 @@ buildings/castle_tower | b2, b6, b7 | pronto | conferir na folha de contato se l
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b1, b7 | planos abertos: 3 | mistura: close 18% | medio 56% | aberto 18% | detalhe 7%
+- Objeto heroi: - | grandes momentos: b1, b7 | planos abertos: 3 | mistura: close 18% | medio 57% | aberto 19% | detalhe 7%
 - Interacoes: b0 susto, b2 insiste, b4 aproxima-se, b6 empurrar, b8 o outro se aproxima
 - RISCOS GERAIS: nenhum
 

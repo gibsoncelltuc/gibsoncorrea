@@ -76,7 +76,7 @@
    "text": "335 ANOS",
    "interacao": "discutir",
    "acao": "discutir",
-   "say": "Uma ilha minúscula ficou em guerra com a Holanda por 335 anos, e ninguém atirou.",
+   "say": "Uma ilha minúscula ficou em guerra com a Holanda por 335 anos, e foi uma guerra sem batalhas.",
    "set": "harbor"
   },
   {
@@ -193,7 +193,7 @@
     "march": true,
     "expr": "stern"
    },
-   "say": "Acontece que os ingleses tomaram as ilhas pouco depois, e ninguém se lembrou de fazer a paz."
+   "say": "Acontece que os ingleses assumiram as ilhas pouco depois, e ninguém se lembrou de fazer a paz."
   },
   {
    "shot": "two",

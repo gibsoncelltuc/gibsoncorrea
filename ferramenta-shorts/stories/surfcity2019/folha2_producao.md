@@ -23,17 +23,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Em dois mil e vinte e um, o país sediou o Mundial de Surfe, com duzent...
-- Cenario: stadium | luz: golden | clima: limpo
+- Cenario: harbor | luz: golden | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (1): BUK (variante 0, expressao grin) | multidao: 10 de POV
 - Animacao: - | batalha encenada
-- Objetos/modelos: kit/surfboard
+- Objetos/modelos: kit/surfboard, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): duzentos, mundial, surfe
 - RISCOS: nenhum
 
 ## Cena b3 - Aquele evento valeu vaga para as Olimpíadas de Tóquio, e as praias vir...
-- Cenario: harbor | luz: golden | clima: limpo
+- Cenario: street | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): JOR (variante 0, expressao shock); JOR2 (variante 0, expressao laugh)
@@ -43,12 +43,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Em dois mil e vinte e três, vieram duzentos e noventa e quatro competi...
-- Cenario: stadium | luz: golden | clima: limpo
+- Cenario: harbor | luz: golden | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (1): BUK (variante 0, expressao smug) | multidao: 10 de POV
 - Animacao: - | batalha encenada
-- Objetos/modelos: kit/surfboard
+- Objetos/modelos: kit/surfboard, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): olho
 - RISCOS: nenhum
 
@@ -108,7 +108,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/surfboard | b0, b1, b2, b4, b5, b7, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/volcano | b1, b3, b6, b7, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/volcano | b1, b2, b3, b4, b6, b7, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro

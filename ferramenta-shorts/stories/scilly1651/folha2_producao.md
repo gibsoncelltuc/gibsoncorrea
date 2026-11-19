@@ -2,11 +2,11 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/scilly1651/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py scilly1651` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Uma ilha minúscula ficou em guerra com a Holanda por 335 anos, e ningu...
+## Cena b0 - Uma ilha minúscula ficou em guerra com a Holanda por 335 anos, e foi u...
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): ILH (variante 0, expressao laugh); HOL (variante 0, expressao smug)
+- Personagens principais (2): ILH (variante 0, expressao laugh); HOL (variante 0, expressao smug) | multidao: 5 de ILH/HOL
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/scroll
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): holanda, ilha
@@ -52,7 +52,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): almirante, ilhas
 - RISCOS: nenhum
 
-## Cena b5 - Acontece que os ingleses tomaram as ilhas pouco depois, e ninguém se l...
+## Cena b5 - Acontece que os ingleses assumiram as ilhas pouco depois, e ninguém se...
 - Cenario: street | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
@@ -112,7 +112,7 @@ ship | b2, b3, b4 | pronto | conferir na folha de contato se le bem; se parecer 
 
 
 ## Video inteiro
-- Objeto heroi: kit/scroll | grandes momentos: b2, b3, b4 | planos abertos: 2 | mistura: close 26% | medio 66% | aberto 6% | detalhe 2%
+- Objeto heroi: kit/scroll | grandes momentos: b2, b3, b4 | planos abertos: 2 | mistura: close 25% | medio 66% | aberto 6% | detalhe 3%
 - Interacoes: b0 discutir, b1 susto, b3 avanca e o outro recua, b5 o outro se aproxima, b6 pular, b7 reverencia, b8 apertar
 - RISCOS GERAIS: nenhum
 

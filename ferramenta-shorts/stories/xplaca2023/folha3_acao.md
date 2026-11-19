@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 03 - O X no Prédio do Twitter
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 23 acoes catalogadas, 23 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 5.8s - 23 palavras - plano close
@@ -25,14 +25,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | MAPA | SÃO FRANCISCO | OK |
 
 ## Cena b2 - 13.5s a 17.3s - 16 palavras - plano group
-> "Os operários começaram a tirar as letras da placa do Twitter e o passarinho do prédio."
+> "Os operários começaram a remover as letras da placa do Twitter e o passarinho do prédio."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | tirar (14.7s) | ACAO: tira | tira foto (celular + flash) | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | INTERACAO | o outro se aproxima | OK |
-| 4 | - | ATUACAO | reagir | OK |
+| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | - | INTERACAO | o outro se aproxima | OK |
+| 3 | - | ATUACAO | reagir | OK |
 
 ## Cena b3 - 18.3s a 22.0s - 14 palavras - plano two
 > "Mas o trabalho parou no meio, porque a empresa não tinha as licenças necessárias."
@@ -58,14 +57,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | PLACA | X | OK |
 
 ## Cena b6 - 31.9s a 38.3s - 23 palavras - plano two
-> "A prefeitura recebeu vinte e quatro reclamações em um fim de semana e abriu uma investigação, porque aquela placa também não tinha permissão."
+> "A prefeitura registrou vinte e quatro reclamações em um fim de semana e iniciou uma investigação, porque aquela placa também não tinha permissão."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | recebeu (32.6s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 2 | abriu (35.2s) | ACAO: x_abre | empurra a porta | OK |
-| 3 | - | INTERACAO | vai ate o outro | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 1 | - | INTERACAO | vai ate o outro | OK |
+| 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 39.6s a 44.1s - 18 palavras - plano two
 > "A empresa disse que era uma placa luminosa temporária para um evento, e Musk a chamou de provisória."

@@ -62,14 +62,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
-## Cena b6 - Acontece que, às nove e dois, os navios ingleses abriram fogo. O palác...
+## Cena b6 - Acontece que, às nove e dois, os navios ingleses começaram a disparar....
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): ING (variante 0, expressao stern); GUA (variante 0, expressao shock) | multidao: 20 de ING/GUA
 - Animacao: reagir | batalha encenada
-- Objetos/modelos: kit/marco_zanzibar, navios ao fundo, buildings/castle_tower
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): desabar, madeira, navios, nove, palacio, pegar
+- Objetos/modelos: kit/marco_zanzibar, navios ao fundo, kit/fire, buildings/castle_tower
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): desabar, disparar, madeira, navios, nove, palacio, pegar
 - RISCOS: nenhum
 
 ## Cena b7 - O sultão fugiu pela porta dos fundos, e foi pedir abrigo no consulado ...
@@ -120,6 +120,7 @@ Objeto | Cenas | Situacao | O que fazer
 kit/marco_zanzibar | b0, b1, b4, b6, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/throne | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 cannon | b4, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/fire | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/castle_tower | b6, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py

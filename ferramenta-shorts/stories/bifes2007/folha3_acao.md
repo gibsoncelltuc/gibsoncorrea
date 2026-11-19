@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 06 - Os Bifes com o Nome do Trump
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.8s - 19 palavras - plano two
@@ -70,13 +70,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 35.8s a 39.6s - 12 palavras - plano two
-> "Mesmo assim, os bifes continuaram sendo servidos em hotéis da rede Trump."
+> "Mesmo assim, os bifes continuaram sendo servidos em hotéis do grupo Trump."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | rede (39.4s) | ACAO: x_pesca | puxa a linha + respingo | OK |
-| 2 | - | INTERACAO | avanca e o outro recua | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 1 | - | INTERACAO | avanca e o outro recua | OK |
+| 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b8 - 40.6s a 44.3s - 14 palavras - plano orbit
 > "Em resumo, a carne saiu da loja depressa, mas o nome ficou no cardápio."

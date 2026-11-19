@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 18 - A Guerra do Cão Fugitivo
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.1s - 17 palavras - plano track
@@ -55,15 +55,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 8 | - | ATUACAO | conversar | OK |
 
 ## Cena b5 - 28.8s a 32.7s - 14 palavras - plano low
-> "Acontece que o soldado morreu, e a Grécia deu um ultimato furioso à Bulgária."
+> "Acontece que o soldado morreu, e a Grécia fez um ultimato furioso à Bulgária."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | morreu (30.0s) | EFEITO: puff | fumaca + som | OK |
-| 2 | deu (31.1s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 4 | - | INTERACAO | susto | OK |
-| 5 | - | ATUACAO | conversar | OK |
+| 2 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 3 | - | INTERACAO | susto | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b6 - 33.9s a 40.3s - 22 palavras - plano orbit
 > "Poucos dias depois, o exército grego invadiu a Bulgária e ocupou a região de Petrich, e dezenas de pessoas morreram nos combates."

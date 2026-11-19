@@ -12,12 +12,12 @@ b4 | interior pedra | group | 3 | conversar, INTERAGEM: avanca e o outro recua |
 b5 | harbor | crowd | 22 | encena, batalha | ship, vehicles/airplane, kit/marco_olinda, navios ao fundo | - | -
 b6 | harbor | group | 12 | discutir, INTERAGEM: susto, batalha | kit/marco_olinda | - | -
 b7 | interior madeira | two | 2 | conversar, INTERAGEM: entregar, alguem chega andando | - | paper | -
-b8 | harbor | two | 2 | comemorar, INTERAGEM: insiste | kit/marco_olinda | - | -
+b8 | harbor | reveal | 2 | comemorar | kit/marco_olinda, navio em movimento | - | -
 b9 | interior pedra | close | 1 | reagir | kit/lobster | - | -
 
 OBJETO HEROI: kit/lobster - aparece em 2 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b5, b6
-Interacoes entre personagens: b0 discutir, b2 cochichar, b4 avanca e o outro recua, b6 susto, b7 entregar, b8 insiste
+Interacoes entre personagens: b0 discutir, b2 cochichar, b4 avanca e o outro recua, b6 susto, b7 entregar
 
 Cenas com personagens parados: 1 de 10
 FALTA MODELAR: nada

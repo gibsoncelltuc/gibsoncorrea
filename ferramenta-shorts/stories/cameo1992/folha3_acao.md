@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 02 - O Cameo de Sete Segundos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 22 acoes catalogadas, 22 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 21 acoes catalogadas, 21 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.8s - 22 palavras - plano close
@@ -37,13 +37,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | ATUACAO | conversar | OK |
 
 ## Cena b4 - 20.5s a 25.9s - 19 palavras - plano two
-> "O diretor Chris Columbus contou, anos depois, que a equipe queria o saguão e não conseguiria refazê-lo num estúdio."
+> "O diretor Chris Columbus disse, anos depois, que a equipe queria o saguão e não conseguiria refazê-lo num estúdio."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | contou (21.8s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 2 | - | INTERACAO | avanca e o outro recua | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 1 | - | INTERACAO | avanca e o outro recua | OK |
+| 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b5 - 27.1s a 30.6s - 14 palavras - plano wide
 > "Segundo o diretor, a participação de Trump foi o preço para usar o hotel."

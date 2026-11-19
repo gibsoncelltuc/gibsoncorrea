@@ -22,7 +22,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): capitao, cuba, navio, parou
 - RISCOS: nenhum
 
-## Cena b2 - Os espanhóis acharam que ele fazia contrabando, e Jenkins contou que o...
+## Cena b2 - Os espanhóis suspeitaram que ele fazia contrabando, e Jenkins disse qu...
 - Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
@@ -42,7 +42,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): espanhol
 - RISCOS: nenhum
 
-## Cena b4 - Sete anos depois, Jenkins contou a história ao Parlamento inglês, e os...
+## Cena b4 - Sete anos depois, Jenkins relatou a história ao Parlamento inglês, e o...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
@@ -72,7 +72,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): oceano
 - RISCOS: nenhum
 
-## Cena b7 - A guerra foi longa, e até se misturou a outra guerra maior, na Europa.
+## Cena b7 - A guerra foi longa, e até se juntou a outra guerra maior, na Europa.
 - Cenario: street | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
@@ -92,12 +92,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois
 - RISCOS: nenhum
 
-## Cena b9 - Quem deu o nome de Guerra da Orelha de Jenkins foi um escritor, mais d...
+## Cena b9 - Quem batizou de Guerra da Orelha de Jenkins foi um escritor, mais de c...
 - Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): PRE (variante 0, expressao smile, segura book); ING (variante 0, expressao grin)
-- Animacao: conversar | interacao: entregar
+- Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/ear_jar
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): escritor, jenkins, orelha
 - RISCOS: nenhum
@@ -122,8 +122,8 @@ ship | b1, b6 | pronto | conferir na folha de contato se le bem; se parecer caix
 
 
 ## Video inteiro
-- Objeto heroi: kit/ear_jar | grandes momentos: b6, b7 | planos abertos: 2 | mistura: close 15% | medio 66% | aberto 12% | detalhe 7%
-- Interacoes: b0 discutir, b2 empurrar, b3 cochichar, b4 susto, b5 cochichar, b7 insiste, b8 apertar, b9 entregar
+- Objeto heroi: kit/ear_jar | grandes momentos: b6, b7 | planos abertos: 2 | mistura: close 16% | medio 66% | aberto 12% | detalhe 7%
+- Interacoes: b0 discutir, b2 empurrar, b3 cochichar, b4 susto, b5 cochichar, b7 insiste, b8 apertar, b9 avanca e o outro recua
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

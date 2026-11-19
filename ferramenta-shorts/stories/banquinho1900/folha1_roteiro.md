@@ -66,10 +66,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b7  (~5.5 s)
-- Narracao: No fim, os ingleses venceram a guerra e tomaram o controle da região, que virou colônia.
+- Narracao: No fim, os ingleses venceram a guerra e assumiram o controle da região, que virou colônia.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; venceram -> stars + som de sino; encena: vence (up) -> acao + som de efeito; encena: x_bebe (lift) -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; venceram -> stars + som de sino; encena: vence (up) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

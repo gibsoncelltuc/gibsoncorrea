@@ -62,7 +62,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): centavo, cobranca, mexico
 - RISCOS: nenhum
 
-## Cena b6 - Acontece que a França mandou mesmo. Navios de guerra fecharam todos os...
+## Cena b6 - Acontece que a França mandou mesmo. Navios de guerra bloquearam todos ...
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som

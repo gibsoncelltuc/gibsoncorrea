@@ -7,7 +7,7 @@ b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | - | - | -
 b3 | crowd | -  | batalha aberta com tiros, tropa, objeto na mao | chegaram (dust + som de impacto) | -
 b4 | two | -  | objeto na mao | - | -
-b5 | low | -  | tropa, objeto na mao | encena: tira (lift) (acao + som de efeito) | -
+b5 | low | -  | tropa, objeto na mao | - | -
 b6 | orbit | -  | batalha aberta com tiros, tropa, objeto na mao | - | -
 b7 | two | -  | - | - | -
 b8 | two | -  | interior, objeto na mao | - | -

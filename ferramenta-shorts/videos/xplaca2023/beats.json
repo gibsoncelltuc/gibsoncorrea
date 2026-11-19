@@ -110,7 +110,7 @@
    "tiros": false,
    "batalha": false,
    "impact": true,
-   "say": "Os operários começaram a tirar as letras da placa do Twitter e o passarinho do prédio.",
+   "say": "Os operários começaram a remover as letras da placa do Twitter e o passarinho do prédio.",
    "shot": "group",
    "who": [
     "OPE:0:nervous",
@@ -191,7 +191,7 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "A prefeitura recebeu vinte e quatro reclamações em um fim de semana e abriu uma investigação, porque aquela placa também não tinha permissão.",
+   "say": "A prefeitura registrou vinte e quatro reclamações em um fim de semana e iniciou uma investigação, porque aquela placa também não tinha permissão.",
    "shot": "two",
    "who": [
     "FIS:0:angry",

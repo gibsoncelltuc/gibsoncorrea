@@ -136,7 +136,7 @@
      1.3
     ]
    ],
-   "say": "A discussão esquentou, e a França mandou um navio de guerra para proteger os pescadores dela.",
+   "say": "A discussão ficou séria, e a França mandou um navio de guerra para proteger os pescadores dela.",
    "interior": "pedra"
   },
   {
@@ -209,7 +209,7 @@
    ],
    "acao": "comemorar",
    "text": "1963",
-   "say": "Em mil novecentos e sessenta e três, fecharam um acordo: alguns barcos franceses podiam pescar, com limite.",
+   "say": "Em mil novecentos e sessenta e três, chegaram a um acordo: alguns barcos franceses podiam pescar, com limite.",
    "set": "harbor"
   },
   {

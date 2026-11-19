@@ -54,7 +54,7 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Em maio de dois mil e dezenove, a SpaceX lançou um foguete Falcon 9 com sessenta satélites de uma vez.",
+   "say": "Em maio de dois mil e dezenove, a SpaceX decolou com um foguete Falcon 9 com sessenta satélites de uma vez.",
    "shot": "reveal",
    "who": [
     "AST:0:grin"
@@ -156,7 +156,7 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Ele contou pelo menos cinquenta e seis objetos brilhando em linha.",
+   "say": "Ele viu pelo menos cinquenta e seis objetos brilhando em linha.",
    "shot": "close",
    "who": [
     "AST:0:grin"
@@ -177,7 +177,7 @@
    "tiros": false,
    "batalha": false,
    "impact": true,
-   "say": "Acontece que o site holandês de avistamentos de OVNIs recebeu mais de cento e cinquenta relatos.",
+   "say": "Acontece que o site holandês de avistamentos de OVNIs registrou mais de cento e cinquenta relatos.",
    "shot": "crowd",
    "who": [
     "JOR:0:shock"
@@ -234,7 +234,7 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "A imagem da fila de luzes se espalhou por vários países e virou assunto na internet.",
+   "say": "A imagem da fila de luzes se espalhou por vários países e foi assunto na internet.",
    "shot": "reveal",
    "who": [
     "JOR:0:shock"

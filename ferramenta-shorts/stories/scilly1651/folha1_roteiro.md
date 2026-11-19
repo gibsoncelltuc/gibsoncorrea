@@ -1,12 +1,12 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 14 - A Guerra de 335 Anos
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 10 cenas, 150 palavras (~52 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 10 cenas, 153 palavras (~53 s)
 
-## Cena b0  (~5.2 s)
-- Narracao: Uma ilha minúscula ficou em guerra com a Holanda por 335 anos, e ninguém atirou.
+## Cena b0  (~6.2 s)
+- Narracao: Uma ilha minúscula ficou em guerra com a Holanda por 335 anos, e foi uma guerra sem batalhas.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: atirou -> burst + som de tiro/explosao; encena: atira -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: 335 ANOS
 - Funcao na historia: GANCHO
@@ -48,10 +48,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b5  (~5.9 s)
-- Narracao: Acontece que os ingleses tomaram as ilhas pouco depois, e ninguém se lembrou de fazer a paz.
+- Narracao: Acontece que os ingleses assumiram as ilhas pouco depois, e ninguém se lembrou de fazer a paz.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_bebe (lift) -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: VIRADA

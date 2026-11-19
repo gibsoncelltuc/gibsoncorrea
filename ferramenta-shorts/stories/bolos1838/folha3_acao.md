@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 07 - A Guerra dos Bolos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 56 acoes catalogadas, 56 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 54 acoes catalogadas, 54 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.7s - 12 palavras - plano crowd
@@ -70,28 +70,26 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 7 | - | ATUACAO | comemorar | OK |
 
 ## Cena b6 - 35.6s a 40.9s - 15 palavras - plano orbit
-> "Acontece que a França mandou mesmo. Navios de guerra fecharam todos os portos do país."
+> "Acontece que a França mandou mesmo. Navios de guerra bloquearam todos os portos do país."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | mandou (36.8s) | ACAO: fala | aponta explicando | OK |
-| 2 | fecharam (39.3s) | ACAO: x_abre | empurra a porta | OK |
-| 3 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | PLACA | A MARINHA | OK |
+| 2 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | PLACA | A MARINHA | OK |
 
 ## Cena b7 - 41.9s a 46.5s - 14 palavras - plano crowd
-> "Os canhões franceses bombardearam a fortaleza de Veracruz, e os soldados tomaram a cidade."
+> "Os canhões franceses bombardearam a fortaleza de Veracruz, e os soldados conquistaram a cidade."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | canhões (42.1s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | tomaram (46.0s) | ACAO: x_bebe | leva o copo a boca | OK |
-| 3 | - | CENA | cavalaria: 4 soldados a cavalo (FRA) | OK |
-| 4 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 5 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
-| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
-| 7 | - | ATUACAO | reagir | OK |
+| 2 | - | CENA | cavalaria: 4 soldados a cavalo (FRA) | OK |
+| 3 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 4 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
+| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
+| 6 | - | ATUACAO | reagir | OK |
 
 ## Cena b8 - 47.6s a 51.5s - 16 palavras - plano orbit
 > "Um general mexicano correu para o combate, e perdeu uma perna para um tiro de canhão."

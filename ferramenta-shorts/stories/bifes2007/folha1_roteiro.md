@@ -66,10 +66,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Funcao na historia: desenvolvimento
 
 ## Cena b7  (~4.1 s)
-- Narracao: Mesmo assim, os bifes continuaram sendo servidos em hotéis da rede Trump.
+- Narracao: Mesmo assim, os bifes continuaram sendo servidos em hotéis do grupo Trump.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_pesca (lift) -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

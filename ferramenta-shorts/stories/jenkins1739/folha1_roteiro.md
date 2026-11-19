@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 12 - A Guerra da Orelha de Jenkins
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 11 cenas, 172 palavras (~59 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 11 cenas, 170 palavras (~59 s)
 
 ## Cena b0  (~5.2 s)
 - Narracao: Uma orelha cortada levou a Inglaterra à guerra contra a Espanha, por quase dez anos.
@@ -21,10 +21,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Funcao na historia: desenvolvimento
 
 ## Cena b2  (~5.9 s)
-- Narracao: Os espanhóis acharam que ele fazia contrabando, e Jenkins contou que o capitão deles cortou sua orelha.
+- Narracao: Os espanhóis suspeitaram que ele fazia contrabando, e Jenkins disse que o capitão deles arrancou sua orelha.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@70
-- Efeito + som nas palavras-chave: encena: examina (think) -> acao + som de efeito; encena: corta (hammer) -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: puff@70
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -39,10 +39,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Funcao na historia: desenvolvimento
 
 ## Cena b4  (~5.2 s)
-- Narracao: Sete anos depois, Jenkins contou a história ao Parlamento inglês, e os deputados ficaram furiosos.
+- Narracao: Sete anos depois, Jenkins relatou a história ao Parlamento inglês, e os deputados ficaram furiosos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) angry -> expr + som de efeito; encena: examina (think) -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) angry -> expr + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -66,10 +66,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b7  (~4.8 s)
-- Narracao: A guerra foi longa, e até se misturou a outra guerra maior, na Europa.
+- Narracao: A guerra foi longa, e até se juntou a outra guerra maior, na Europa.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140
-- Efeito + som nas palavras-chave: cavalaria: 2 soldados a cavalo (SOL) -> acao + som de efeito; tiros: 3 soldados caem no chao -> acao + som de efeito; encena: mistura (stir) -> acao + som de efeito
+- Efeito + som nas palavras-chave: cavalaria: 2 soldados a cavalo (SOL) -> acao + som de efeito; tiros: 3 soldados caem no chao -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -83,11 +83,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~6.2 s)
-- Narracao: Quem deu o nome de Guerra da Orelha de Jenkins foi um escritor, mais de cem anos depois.
+## Cena b9  (~5.5 s)
+- Narracao: Quem batizou de Guerra da Orelha de Jenkins foi um escritor, mais de cem anos depois.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

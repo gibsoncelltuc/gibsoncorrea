@@ -1,12 +1,12 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 05 - Cem Dias ou de Graça
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback | 10 cenas, 147 palavras (~51 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback | 10 cenas, 145 palavras (~50 s)
 
-## Cena b0  (~6.2 s)
-- Narracao: Em março de dois mil e dezessete, Elon Musk respondeu numa rede social ao empresário australiano Mike Cannon-Brookes.
+## Cena b0  (~5.9 s)
+- Narracao: Em março de dois mil e dezessete, Elon Musk respondeu no Twitter ao empresário australiano Mike Cannon-Brookes.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_pesca (lift) -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GANCHO
@@ -65,11 +65,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~5.2 s)
-- Narracao: Ou seja, uma conversa numa rede social virou uma obra de cinquenta e cinco dias.
+## Cena b7  (~4.8 s)
+- Narracao: Ou seja, uma conversa no Twitter virou uma obra de cinquenta e cinco dias.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_pesca (lift) -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

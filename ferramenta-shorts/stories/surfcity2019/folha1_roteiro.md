@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b2  (~7.2 s)
 - Narracao: Em dois mil e vinte e um, o país sediou o Mundial de Surfe, com duzentos e cinquenta e sete atletas.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: ding@40
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: burst@40
@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b3  (~4.8 s)
 - Narracao: Aquele evento valeu vaga para as Olimpíadas de Tóquio, e as praias viraram manchete.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b4  (~6.2 s)
 - Narracao: Em dois mil e vinte e três, vieram duzentos e noventa e quatro competidores, de olho em Paris.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: sting@40
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: burst@40

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 17 - A Guerra do Uísque
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 24 acoes catalogadas, 24 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 23 acoes catalogadas, 23 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 4.3s - 15 palavras - plano two
@@ -47,14 +47,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | comemorar | OK |
 
 ## Cena b5 - 26.1s a 31.3s - 14 palavras - plano low
-> "Acontece que, pouco depois, os dinamarqueses apareceram, tiraram a bandeira e puseram a deles."
+> "Acontece que, pouco depois, os dinamarqueses apareceram, arrancaram a bandeira e puseram a deles."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | tiraram (29.8s) | ACAO: tira | tira foto (celular + flash) | OK |
-| 2 | - | INTERACAO | o outro se aproxima | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| 4 | - | CHEGADA | alguem entra andando | OK |
+| 1 | - | INTERACAO | o outro se aproxima | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | CHEGADA | alguem entra andando | OK |
 
 ## Cena b6 - 32.4s a 36.8s - 15 palavras - plano orbit
 > "E deixaram um bilhete: "Bem-vindos à terra dinamarquesa", ao lado de uma garrafa de licor."

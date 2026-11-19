@@ -1,12 +1,12 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 01 - O Ditador Mais Legal do Mundo
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 10 cenas, 148 palavras (~51 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 10 cenas, 147 palavras (~51 s)
 
 ## Cena b0  (~9.0 s)
-- Narracao: Em setembro de dois mil e vinte e um, o presidente de El Salvador, Nayib Bukele, mexeu numa coisa bem pequena: a descrição do próprio perfil.
+- Narracao: Em setembro de dois mil e vinte e um, o presidente de El Salvador, Nayib Bukele, trocou a descrição do próprio perfil, uma coisa bem pequena.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: mistura (stir) -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: EL SALVADOR
 - Funcao na historia: GANCHO
@@ -38,11 +38,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: O DITADOR MAIS LEGAL DO MUNDO
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b4  (~3.1 s)
-- Narracao: Acontece que a notícia deu a volta ao mundo.
+## Cena b4  (~2.8 s)
+- Narracao: Acontece que a notícia se espalhou pelo mundo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: MUNDO
 - Funcao na historia: VIRADA

@@ -6,7 +6,7 @@ b0 | close | -  | mapa | - | -
 b1 | two | -  | interior | - | -
 b2 | group | -  | batalha aberta com tiros, tropa | - | -
 b3 | close | -  | interior | - | -
-b4 | two | -  | interior | encena: examina (think) (acao + som de efeito) | -
+b4 | two | -  | interior | - | -
 b5 | wide | -  | batalha aberta com tiros, tropa | - | -
 b6 | two | -  | interior | (rosto) pleading (expr + som de efeito) | -
 b7 | two | -  | interior, mapa | encena: fala (point) (acao + som de efeito) | -

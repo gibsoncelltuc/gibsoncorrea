@@ -138,7 +138,7 @@
    ],
    "interacao": "empurrar",
    "acao": "discutir",
-   "say": "No segundo, El Salvador deu o troco. Torcedores brigaram nas ruas, e os dois governos trocaram insultos.",
+   "say": "No segundo, El Salvador revidou. Torcedores brigaram nas ruas, e os dois governos trocaram insultos.",
    "hora": "dia"
   },
   {
@@ -148,7 +148,7 @@
     "PRE:0:angry:paper",
     "PRE:1:nervous"
    ],
-   "say": "Acontece que, no dia do terceiro jogo, El Salvador cortou relações com o vizinho.",
+   "say": "Acontece que, no dia do terceiro jogo, El Salvador rompeu relações com o vizinho.",
    "hora": "dia"
   },
   {

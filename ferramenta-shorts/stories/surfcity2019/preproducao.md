@@ -6,9 +6,9 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | interior pedra | close | 1 | conversar | kit/surfboard | - | -
 b1 | harbor | two | 2 | conversar, INTERAGEM: cochichar | kit/surfboard, kit/volcano | - | -
-b2 | stadium | crowd | 11 | batalha | kit/surfboard | - | -
-b3 | harbor | two | 2 | reagir, INTERAGEM: insiste | kit/volcano | - | -
-b4 | stadium | crowd | 11 | batalha | kit/surfboard | - | -
+b2 | harbor | crowd | 11 | batalha | kit/surfboard, kit/volcano | - | -
+b3 | street | two | 2 | reagir, INTERAGEM: insiste | kit/volcano | - | -
+b4 | harbor | crowd | 11 | batalha | kit/surfboard, kit/volcano | - | -
 b5 | interior loja | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/surfboard | - | -
 b6 | harbor | group | 3 | conversar, INTERAGEM: discutir | kit/volcano | - | -
 b7 | countryside | two | 2 | conversar, INTERAGEM: susto | kit/volcano, kit/surfboard | - | -
