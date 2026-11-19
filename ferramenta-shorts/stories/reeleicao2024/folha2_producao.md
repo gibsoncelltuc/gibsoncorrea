@@ -82,14 +82,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cento
 - RISCOS: nenhum
 
-## Cena b8 - Em vinte de janeiro de dois mil e vinte e cinco, ele tomou posse de no...
+## Cena b8 - Em vinte de janeiro de dois mil e vinte e cinco, ele voltou ao cargo.
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): TRU (variante 0, expressao grin); GEN (variante 0, expressao stern)
 - Animacao: comemorar | interacao: pular
 - Objetos/modelos: kit/white_house, kit/ballot_box, kit/marco_casabranca
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, janeiro, novo
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, janeiro
 - RISCOS: nenhum
 
 ## Cena b9 - Ele tinha sido o presidente número quarenta e cinco. Agora era o númer...
@@ -124,7 +124,7 @@ kit/scroll | b7 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/ballot_box | grandes momentos: b5, b9 | planos abertos: 4 | mistura: close 32% | medio 49% | aberto 16% | detalhe 2%
+- Objeto heroi: kit/ballot_box | grandes momentos: b5, b9 | planos abertos: 4 | mistura: close 33% | medio 49% | aberto 16% | detalhe 2%
 - Interacoes: b0 o outro se aproxima, b3 discutir, b7 insiste, b8 pular
 - RISCOS GERAIS: nenhum
 

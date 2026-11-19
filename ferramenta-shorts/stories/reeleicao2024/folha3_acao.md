@@ -81,15 +81,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | insiste | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b8 - 42.7s a 46.8s - 16 palavras - plano two
-> "Em vinte de janeiro de dois mil e vinte e cinco, ele tomou posse de novo."
+## Cena b8 - 42.7s a 46.5s - 15 palavras - plano two
+> "Em vinte de janeiro de dois mil e vinte e cinco, ele voltou ao cargo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | pular | OK |
 | 2 | - | ATUACAO | comemorar | OK |
 
-## Cena b9 - 47.1s a 52.3s - 16 palavras - plano orbit
+## Cena b9 - 46.8s a 52.2s - 16 palavras - plano orbit
 > "Ele tinha sido o presidente número quarenta e cinco. Agora era o número quarenta e sete."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -97,14 +97,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 2 | - | PLACA | 47º | OK |
 
-## Cena b10 - 52.6s a 57.1s - 11 palavras - plano close
+## Cena b10 - 52.3s a 56.8s - 11 palavras - plano close
 > "Perdeu, voltou e ganhou. Uma das maiores viradas da política americana."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | Perdeu (52.6s) | EFEITO: puff | fumaca + som | OK |
-| 2 | Perdeu (52.6s) | ACAO: perde | mao na testa | OK |
-| 3 | ganhou (54.1s) | EFEITO: stars | estrelinhas + som | OK |
-| 4 | ganhou (54.1s) | ACAO: vence | bracos para cima + brilho | OK |
+| 1 | Perdeu (52.3s) | EFEITO: puff | fumaca + som | OK |
+| 2 | Perdeu (52.3s) | ACAO: perde | mao na testa | OK |
+| 3 | ganhou (53.1s) | EFEITO: stars | estrelinhas + som | OK |
+| 4 | ganhou (53.1s) | ACAO: vence | bracos para cima + brilho | OK |
 | 5 | - | ATUACAO | comemorar | OK |
 

@@ -29,10 +29,45 @@
    ]
   },
   {
+   "f": 1372,
+   "shot": "b8_v",
+   "why": [
+    "tru: head/torso cropped (box -0.798, 0.043, -0.12, 0.822)"
+   ]
+  },
+  {
    "f": 1376,
    "shot": "b8_v",
    "why": [
-    "tru: head/torso cropped (box -0.221, 0.277, 0.191, 0.839)"
+    "tru: head/torso cropped (box -0.307, 0.196, 0.19, 0.757)"
+   ]
+  },
+  {
+   "f": 1383,
+   "shot": "b8_v",
+   "why": [
+    "tru: head/torso cropped (box -0.115, 0.362, 0.287, 0.796)"
+   ]
+  },
+  {
+   "f": 1384,
+   "shot": "b8_v",
+   "why": [
+    "tru: head/torso cropped (box -0.101, 0.372, 0.295, 0.799)"
+   ]
+  },
+  {
+   "f": 1400,
+   "shot": "b8_v",
+   "why": [
+    "tru: head/torso cropped (box -0.062, 0.42, 0.314, 0.817)"
+   ]
+  },
+  {
+   "f": 1404,
+   "shot": "b8_v",
+   "why": [
+    "tru: head/torso cropped (box -0.026, 0.454, 0.348, 0.85)"
    ]
   }
  ],

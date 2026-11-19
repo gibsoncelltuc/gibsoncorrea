@@ -14,5 +14,5 @@ b8 | two | -  | - | - | -
 b9 | orbit | -  | batalha aberta com tiros, tropa, placa: 47º | - | -
 b10 | close | -  | - | Perdeu (puff + som de baque); ganhou (stars + som de sino); encena: perde (facepalm) @0 (acao + som de efeito); encena: vence (up) @3 (acao + som de efeito) | -
 
-Mistura de planos: close 32% | medio 49% | aberto 16% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 33% | medio 49% | aberto 16% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | dentro do padrao do canal
