@@ -1775,6 +1775,7 @@ export const bodyFront = (p, o, opts)=>{
     hatOn(p, o, hp, H, 300, hc, light, seed, facing, false);
     const brim = !!o.hat && o.hat !== "hair" && o.hat !== "bonnet" && o.hat !== "cap";
     faceFront(p, 300, hc, W, expr, facing, look, lid, brim, skin, o.moustache, o.build === "stout", { ...(fx || {}), beard: o.beard, glasses: o.glasses, face: o.faceId });
+    if (o.noseMetal) { const u_ = W / 100, nx = 300 + 7 * u_ * (facing || 0), ny = hc + 6 * u_; p.ell(nx, ny, 6.5 * u_, 5 * u_, INK, 0); p.ell(nx, ny, 5.3 * u_, 3.9 * u_, o.noseMetal, 0); p.ell(nx - 1.6 * u_, ny - 1.3 * u_, 1.7 * u_, 1.2 * u_, "#fff6d0", 0); }   /* NARIZ DE METAL (Tycho Brahe) */
     for (const a of arms)if (a.top) drawArm(a);
     p.rot = null;
 };

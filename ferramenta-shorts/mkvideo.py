@@ -49,7 +49,7 @@ _EXPL = {i_ for i_, b_ in enumerate(B['beats']) if b_.get('set') or b_.get('inte
 _LUGAR = ((r'desert|areia|egito|egipci|piramide|arabia|saara|australia|faraó|farao|seca\b|caravana', 'set', 'outback'),
           (r'florest|selva|amazon|\bmata\b|tribo|aldeia|indigena', 'set', 'jungle'),
           (r'castelo|cavaleir|medieval|reino\b|rainha|imperador|\bcorte\b|trono', 'set', 'medieval'),
-          (r'estadio|torcida|futebol|\bpartida\b|ringue|\bluta\b|campeonato|\bcopa\b|lutador|\bjuiz\b|\bgolpe\b|\barena\b|plateia|nocaute', 'set', 'stadium'),
+          (r'estadio|torcida|futebol|\bpartida\b|ringue|\bluta\b|campeonato|\bcopa\b|lutador|luta livre|\barena\b|plateia|nocaute', 'set', 'stadium'),
           (r'fazenda|\bcampo\b|plantac|colheit|lavoura|agricult|\bsitio\b|pasto', 'set', 'countryside'),
           (r'palacio|congresso|parlamento|\bonu\b|assembleia|tribunal|senado|discurso|coletiva|casa branca|gabinete', 'interior', 'pedra'),
           (r'hospital|enfermaria|pronto.socorro|\buti\b|internad|cirurgia|\bmaca\b|leito|maternidade|clinica|paciente|enfermeir|parteir|\bparto\b', 'interior', 'hospital'),
@@ -1108,7 +1108,7 @@ def build_beat(k, b):
                 KWSFX.append((wi_, 'thump'))
             elif tipo_ == 'examina':
                 ins_ = 'kit/microscopio' if re.search(r'microsc|celula|bacter|germe|lamina', nrm(b['say'])) else 'kit/balanca' if re.search(r'pes|balanca', nrm(b['say'])) else 'kit/lupa'
-                pr.append(f"{{ asset: {json.dumps(ins_)}, a: WS({wi_}) - 6, b: {bb}, at: [X + {num(_hx + _side * 0.6)}, {num(_z0 + 0.7)}], s: 0.75, drop: false }}"); KWSFX.append((wi_, 'tick'))
+                pr.append(f"{{ asset: {json.dumps(ins_)}, a: WS({wi_}) - 6, b: {bb}, at: [X + {num(_hx + _side * (0.3 if ins_ == 'kit/lupa' else 0.6))}, {num(_z0 + 0.7)}], y: DK + {1.9 if ins_ == 'kit/lupa' else 0}, s: {0.4 if ins_ == 'kit/lupa' else 0.75}, drop: false }}"); KWSFX.append((wi_, 'tick'))   # lupa NA MAO, na altura do rosto
             elif tipo_ == 'quimico':
                 pr.append(f"{{ asset: 'kit/frasco', a: WS({wi_}) - 6, b: {bb}, at: [X + {num(_hx)}, {num(_z0 + 0.6)}], s: 0.6, drop: false }}"); pr.append(f"{{ asset: 'kit/tubos', a: WS({wi_}) - 6, b: {bb}, at: [X + {num(_hx + _side * 1.1)}, {num(_z0 + 0.3)}], s: 0.6, drop: false }}")
                 fx.append(f"{{ k: 'puff', a: WS({wi_}) + 6, b: WS({wi_}) + 30, at: [X + {num(_hx)}, DK + 1.3, {num(_z0 + 0.8)}], s: 0.6 }}"); KWSFX.append((wi_, 'tick'))
