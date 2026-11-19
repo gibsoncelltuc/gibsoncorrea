@@ -11,7 +11,7 @@ b3 | interior madeira | two | 2 | conversar, INTERAGEM: cochichar | kit/syringe 
 b4 | interior madeira | two | 2 | conversar, INTERAGEM: o outro se aproxima, alguem chega andando | - | - | -
 b5 | street | close | 1 | reagir | - | - | -
 b6 | hall | orbit | 12 | batalha | kit/syringe | - | -
-b7 | interior madeira | track | 2 | encena, andando | - | - | -
+b7 | interior madeira | track | 2 | andando | - | - | -
 b8 | street | two | 2 | conversar, INTERAGEM: cochichar | - | - | -
 b9 | hall | group | 16 | comemorar, INTERAGEM: pular, batalha | kit/syringe | - | -
 b10 | interior pedra | close | 1 | conversar | - | - | -
