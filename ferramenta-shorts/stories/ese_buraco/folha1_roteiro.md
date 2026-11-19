@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: Todo mundo já quis cavar um buraco até a China. E se desse para atravessar a Terra inteira?
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: encena: cava (hammer) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: cava (hammer) @4 -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: E SE...
 - Funcao na historia: GANCHO
@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: Primeira surpresa: saindo do Brasil, você não sairia na China. Sairia no meio do oceano Pacífico, perto do Japão.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: (rosto) shock -> expr + som de efeito; surpresa: -> ring + som de alerta; encena: grita (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) shock -> expr + som de efeito; surpresa: -> ring + som de alerta; encena: grita (up) @1 -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: - | mapa: OCEANO PACÍFICO
 - Funcao na historia: desenvolvimento
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: Mas vamos cavar. Depois da terra, vem rocha dura, cada vez mais quente.
 - Som ambiente: birds
 - Efeitos sonoros marcados: thump@40
-- Efeito + som nas palavras-chave: encena: cava (hammer) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: cava (hammer) @2 -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: Nenhuma máquina aguenta. Mas imagine que desse, e você pulasse no buraco.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: cannon@20, thump@50
-- Efeito + som nas palavras-chave: encena: pula -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: pula @9 -> acao + som de efeito
 - Efeito visual marcado: burst@20, puff@50
 - Texto na tela: 5.000 °C
 - Funcao na historia: GRANDE MOMENTO
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: Então guarda a pá. Para ir ao Japão, ainda vale mais comprar uma passagem.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: encena: negocio (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: negocio (reach) @11 -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

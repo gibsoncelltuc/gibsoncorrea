@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Muito antes da política, Donald Trump lançou um jogo de tabuleiro com o próprio nome. E o rosto dele no dinheiro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino; encena: paga (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino; encena: paga (reach) @20 -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 1989
 - Funcao na historia: GANCHO
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Uma grande fábrica de brinquedos fez o jogo: comprar e vender prédios, cassinos e hotéis, até ficar o mais rico.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: vender -> stars + som de sino; encena: negocio (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: vender -> stars + som de sino; encena: negocio (reach) @8 -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Muita gente comprou só de presente, ou de curiosidade, e nunca tirou as peças da caixa.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
-- Efeito + som nas palavras-chave: comprou -> stars + som de sino; encena: negocio (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: comprou -> stars + som de sino; encena: negocio (reach) @2 -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: A fábrica esperava vender dois milhões de jogos. Vendeu oitocentos mil. Foi considerado um fracasso.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: vender -> stars + som de sino; Vendeu -> stars + som de sino; fracasso -> puff + som de baque; encena: x_espera (cross) -> acao + som de efeito; encena: negocio (reach) -> acao + som de efeito; encena: perde (facepalm) -> acao + som de efeito
+- Efeito + som nas palavras-chave: vender -> stars + som de sino; Vendeu -> stars + som de sino; fracasso -> puff + som de baque; encena: x_espera (cross) @2 -> acao + som de efeito; encena: negocio (reach) @3 -> acao + som de efeito; encena: perde (facepalm) @14 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: 800 MIL
 - Funcao na historia: GRANDE MOMENTO
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O jogo saiu das lojas, e ficou esquecido por anos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: sai -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: sai @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

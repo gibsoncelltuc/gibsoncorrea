@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Dois países quase entraram em guerra por causa de um porco.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: chega (point) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: chega (point) @3 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1859
 - Funcao na historia: GANCHO
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Um dia, um fazendeiro americano encontrou um porco comendo as batatas da horta dele.
 - Som ambiente: birds | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40
-- Efeito + som nas palavras-chave: animal: pig come -> acao + som de efeito; encena: olha (point) -> acao + som de efeito
+- Efeito + som nas palavras-chave: animal: pig come -> acao + som de efeito; encena: olha (point) @5 -> acao + som de efeito
 - Efeito visual marcado: ring@12, dust@40
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Ele pegou a espingarda, e atirou. O porco era de um vizinho inglês.
 - Som ambiente: birds
 - Efeitos sonoros marcados: gun@24, squeal@30
-- Efeito + som nas palavras-chave: animal: pig leva o tiro e cai -> acao + som de efeito; atirou -> burst + som de tiro/explosao; encena: pega (lift) -> acao + som de efeito; encena: atira -> acao + som de efeito
+- Efeito + som nas palavras-chave: animal: pig leva o tiro e cai -> acao + som de efeito; atirou -> burst + som de tiro/explosao; encena: pega (lift) @1 -> acao + som de efeito; encena: atira @5 -> acao + som de efeito
 - Efeito visual marcado: burst@24
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: O fazendeiro foi até a casa do vizinho, com as notas na mão. "Eu pago dez dólares", ofereceu ele.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: paga (reach) -> acao + som de efeito; encena: x_entrega (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: paga (reach) @14 -> acao + som de efeito; encena: x_entrega (reach) @17 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: $10
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: "Dez? Ele vale cem!", gritou o dono, empurrando o dinheiro de volta. Ninguém cedeu.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou -> ring + som de alerta; dinheiro -> stars + som de sino; encena: grita (up) -> acao + som de efeito; encena: empurra (push) -> acao + som de efeito; encena: paga (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou -> ring + som de alerta; dinheiro -> stars + som de sino; encena: grita (up) @4 -> acao + som de efeito; encena: empurra (push) @7 -> acao + som de efeito; encena: paga (reach) @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: $100
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Acontece que a Inglaterra respondeu com navios de guerra. Logo eram centenas de soldados e dezenas de canhões, apontados uns para os outros.
 - Som ambiente: sea
 - Efeitos sonoros marcados: sting@10, thump@40
-- Efeito + som nas palavras-chave: canhões -> burst + som de tiro/explosao; encena: atira -> acao + som de efeito; explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
+- Efeito + som nas palavras-chave: canhões -> burst + som de tiro/explosao; encena: atira @17 -> acao + som de efeito; explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
 - Efeito visual marcado: dust@40
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: O almirante inglês recebeu a ordem de atacar. "Não vou começar uma guerra por causa de um porco", respondeu ele.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: atacar -> ring + som de alerta; encena: x_entrega (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: atacar -> ring + som de alerta; encena: x_entrega (reach) @3 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Os soldados passaram meses trocando insultos, e depois, festas. Ninguém deu um tiro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: vence (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: vence (up) @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

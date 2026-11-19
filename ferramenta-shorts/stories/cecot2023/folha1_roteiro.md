@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: El Salvador construiu uma prisão tão grande que virou notícia no mundo inteiro.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: encena: constroi (hammer) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: constroi (hammer) @2 -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 2023
 - Funcao na historia: GANCHO
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: Em dois mil e vinte e dois, o presidente Nayib Bukele decretou estado de exceção, e milhares de suspeitos foram presos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: prende (push) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: prende (push) @20 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: Para guardar tanta gente, ergueram o Centro de Confinamento do Terrorismo, com vagas para quarenta mil presos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: encena: constroi (hammer) -> acao + som de efeito; encena: prende (push) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: constroi (hammer) @4 -> acao + som de efeito; encena: prende (push) @16 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: 40 MIL
 - Funcao na historia: GRANDE MOMENTO
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: Organizações de direitos humanos denunciaram prisões sem julgamento, e mortes sob custódia.
 - Som ambiente: birds
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: encena: protesto (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: protesto (up) @4 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

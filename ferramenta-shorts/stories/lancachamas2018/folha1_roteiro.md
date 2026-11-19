@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: No começo de dois mil e dezoito, nos Estados Unidos, a Boring Company, a empresa de túneis de Elon Musk, começou a vender um produto.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: vender -> stars + som de sino; encena: negocio (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: vender -> stars + som de sino; encena: negocio (reach) @22 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: ESTADOS UNIDOS
 - Funcao na historia: GANCHO
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Cada compra vinha com um extintor de incêndio de brinde.
 - Som ambiente: sea
 - Efeitos sonoros marcados: ding@4
-- Efeito + som nas palavras-chave: incêndio -> burst + som de tiro/explosao; encena: negocio (reach) -> acao + som de efeito; encena: queima (scared) -> acao + som de efeito; encena: pega (lift) -> acao + som de efeito
+- Efeito + som nas palavras-chave: incêndio -> burst + som de tiro/explosao; encena: negocio (reach) @1 -> acao + som de efeito; encena: queima (scared) @7 -> acao + som de efeito; encena: pega (lift) @9 -> acao + som de efeito
 - Efeito visual marcado: stars@4
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Foram vinte mil unidades à venda.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@3
-- Efeito + som nas palavras-chave: encena: negocio (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: negocio (reach) @5 -> acao + som de efeito
 - Efeito visual marcado: stars@3
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: E elas esgotaram em poucos dias, rendendo cerca de dez milhões de dólares.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@3
-- Efeito + som nas palavras-chave: encena: rende (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: rende (up) @6 -> acao + som de efeito
 - Efeito visual marcado: burst@3
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

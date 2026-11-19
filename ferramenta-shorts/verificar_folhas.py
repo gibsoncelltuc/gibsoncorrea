@@ -26,6 +26,9 @@ if J:
         st = open('web/story.js', encoding='utf-8').read() if os.path.exists('web/story.js') else ''
         if f'// FOLHA3 {h}' not in st: erros.append('o que vai para o render (web/story.js) nao carrega a folha 3 deste video')
     n_acoes = len([l for l in L if l.rstrip().endswith('| OK |')])
+import subprocess as _sp   # EXECUCAO (19/11): cada acao da folha 3 programada na palavra certa + cenario/hora/interior do roteiro aplicados
+_r = _sp.run([sys.executable, 'verificar_execucao.py', ID], capture_output=True, text=True)
+if _r.returncode != 0: erros.append('EXECUCAO: ' + ' '.join(l.strip() for l in _r.stdout.splitlines() if '<-' in l)[:400])
 if erros:
     print('BLOQUEADO - 3 FOLHAS:'); [print(' -', e) for e in erros]; sys.exit(1)
 print(f"3 FOLHAS OK: lidas e seguidas (folha 3: {J['acoes']} acoes com animacao, assinatura {J['hash_folha3']})")

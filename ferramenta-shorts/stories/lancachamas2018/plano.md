@@ -2,13 +2,13 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | mapa | vender (stars + som de sino); encena: negocio (reach) (acao + som de efeito) | -
+b0 | two | -  | mapa | vender (stars + som de sino); encena: negocio (reach) @22 (acao + som de efeito) | -
 b1 | reveal | -  | tropa | - | -
 b2 | two | -  | placa: US$ 500 | - | -
 b3 | crowd | -  | batalha aberta com tiros, tropa | - | -
-b4 | wide | -  | tropa | incêndio (burst + som de tiro/explosao); encena: negocio (reach) (acao + som de efeito); encena: queima (scared) (acao + som de efeito); encena: pega (lift) (acao + som de efeito) | -
-b5 | group | -  | - | encena: negocio (reach) (acao + som de efeito) | -
-b6 | crowd | -  | batalha aberta com tiros, tropa | encena: rende (up) (acao + som de efeito) | -
+b4 | wide | -  | tropa | incêndio (burst + som de tiro/explosao); encena: negocio (reach) @1 (acao + som de efeito); encena: queima (scared) @7 (acao + som de efeito); encena: pega (lift) @9 (acao + som de efeito) | -
+b5 | group | -  | - | encena: negocio (reach) @5 (acao + som de efeito) | -
+b6 | crowd | -  | batalha aberta com tiros, tropa | encena: rende (up) @6 (acao + som de efeito) | -
 b7 | two | -  | tropa | - | -
 b8 | two | -  | - | - | -
 

@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Em novembro de dois mil e dezenove, na Califórnia, a empresa de Elon Musk apresentou o Cybertruck, uma picape elétrica de aço.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @14 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: CALIFÓRNIA
 - Funcao na historia: GANCHO
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: E o vidro rachou, ao vivo, na frente de todo mundo.
 - Som ambiente: sea
 - Efeitos sonoros marcados: thump@3
-- Efeito + som nas palavras-chave: encena: quebra (throw) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: quebra (throw) @3 -> acao + som de efeito
 - Efeito visual marcado: burst@3
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Ele tentou de novo, em outra janela, e ela também rachou.
 - Som ambiente: sea
 - Efeitos sonoros marcados: thump@4
-- Efeito + som nas palavras-chave: encena: quebra (throw) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: quebra (throw) @10 -> acao + som de efeito
 - Efeito visual marcado: burst@4
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Depois, Musk explicou na internet que, nos ensaios, a mesma esfera tinha batido na mesma janela sem nem arranhar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: A plateia riu, a internet também, e a cena deu o que falar no mundo inteiro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@10, thump@40
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; riu -> stars + som de sino; encena: x_ri (up) -> acao + som de efeito; encena: x_entrega (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; riu -> stars + som de sino; encena: x_ri (up) @2 -> acao + som de efeito; encena: x_entrega (reach) @9 -> acao + som de efeito
 - Efeito visual marcado: ring@12, dust@40
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

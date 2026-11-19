@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: A Inglaterra mandou a marinha para proteger os barcos de pesca.
 - Som ambiente: sea | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40
-- Efeito + som nas palavras-chave: encena: fala (point) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito
 - Efeito visual marcado: ring@12, dust@40
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: A Islândia só tinha uns barquinhos da guarda costeira, mas eles tinham uma arma secreta: cortadores de rede.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_pesca (lift) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_pesca (lift) @17 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: CORTADORES DE REDE
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Eles cortavam os cabos das redes inglesas, e os navios batiam um no outro, de propósito.
 - Som ambiente: sea | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: thump@60, creak@62
-- Efeito + som nas palavras-chave: encena: corta (hammer) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: corta (hammer) @1 -> acao + som de efeito
 - Efeito visual marcado: splash@50, burst@60
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Em mil novecentos e setenta e seis, os ingleses cederam, e a ideia de uma zona de duzentas milhas se espalhou pelo mundo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: pensa (think) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: pensa (think) @12 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: VITÓRIA ISLANDESA
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Foi uma guerra de navios batendo e de redes cortadas, e tudo por causa de um peixe.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_bate (punch) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_bate (punch) @5 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: TUDO POR UM PEIXE
 - Funcao na historia: FECHO/PIADA FINAL

@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: As abelhas conversam dançando. E foi um cientista teimoso que descobriu o que elas dizem.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: dançando -> stars + som de sino; descobriu -> ring + som de alerta; encena: danca (up) -> acao + som de efeito; encena: examina (think) -> acao + som de efeito
+- Efeito + som nas palavras-chave: dançando -> stars + som de sino; descobriu -> ring + som de alerta; encena: danca (up) @3 -> acao + som de efeito; encena: examina (think) @10 -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: DANÇA
 - Funcao na historia: GANCHO
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Ele construiu uma colmeia com vidro para ver tudo lá dentro, e colocou pratinhos com água e açúcar no jardim.
 - Som ambiente: birds
 - Efeitos sonoros marcados: thump@30
-- Efeito + som nas palavras-chave: encena: constroi (hammer) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: constroi (hammer) @1 -> acao + som de efeito
 - Efeito visual marcado: puff@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Depois pintou pontinhos coloridos nas costas das abelhas, para saber quem era quem.
 - Som ambiente: birds
 - Efeitos sonoros marcados: thump@40
-- Efeito + som nas palavras-chave: encena: x_pinta (write) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_pinta (write) @1 -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que, quando uma abelha achava o açúcar, ela voltava e dançava em cima do favo.
 - Som ambiente: sea
 - Efeitos sonoros marcados: ding@20, sting@50
-- Efeito + som nas palavras-chave: encena: danca (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: danca (up) @11 -> acao + som de efeito
 - Efeito visual marcado: stars@20, ring@50
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Quanto mais tempo ela rebolava, mais longe estava a comida. Era um mapa feito de dança!
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: dança -> stars + som de sino; encena: danca (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: dança -> stars + som de sino; encena: danca (up) @15 -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Em mil novecentos e setenta e três, já idoso, ele ganhou o Prêmio Nobel.
 - Som ambiente: sea
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: ganhou -> stars + som de sino; Prêmio -> stars + som de sino; encena: vence (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: ganhou -> stars + som de sino; Prêmio -> stars + som de sino; encena: vence (up) @10 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: NOBEL
 - Funcao na historia: GRANDE MOMENTO
@@ -105,7 +105,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Então, da próxima vez que vir uma abelha, lembre: ela pode estar contando um segredo dançando.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: segredo -> ring + som de alerta; dançando -> stars + som de sino; encena: pensa (think) -> acao + som de efeito; encena: danca (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: segredo -> ring + som de alerta; dançando -> stars + som de sino; encena: pensa (think) @14 -> acao + som de efeito; encena: danca (up) @15 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

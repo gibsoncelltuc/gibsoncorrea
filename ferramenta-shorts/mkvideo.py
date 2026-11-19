@@ -1133,6 +1133,7 @@ def build_beat(k, b):
             _ate = f"WS({_encs[n_e + 1][0]}) - 4" if n_e + 1 < len(_encs[:6]) else f"WS({wi_}) + 46"
             if tipo_ == 'corta' and re.search(r'dedo|bisturi|faca|tesoura|navalha|semachucou|mao|nariz|orelha|espada', _sy_): gest_ = 'reach'
             if tipo_ == 'danca' and re.search(_DANCA_OUTRO, _sy_): gest_ = None   # corte no dedo: estende a mao machucada (nao martela)
+            if tipo_ == 'pega' and (persons[0][3] == 'rifle' or B.get('outfits', {}).get(persons[0][0], {}).get('rifle')): b.setdefault('_shots', []).append(f"WS({wi_}) + 8")   # pegou a espingarda: ergue e mira a arma na palavra (sem tiro)
             if gest_ and not (persons[0][3] == 'rifle' and tipo_ in ('pega', 'golpe')): _gst.setdefault(0, []).append(f"[WS({wi_}) - 4, {_ate}, '{gest_}']")
             mat_ = next((a_ for rx2_, a_ in ENC_MAT if re.search(rx2_, _resto(j_) + ' ' + nrm(b['say']))), None)
             if tipo_ == 'mistura':
@@ -1277,7 +1278,7 @@ def build_beat(k, b):
                 _bx, _bz = (float(_po[1]), float(_po[2])) if _po else (_tx, _tz)
                 for q_ in range(3): fx.append(f"{{ k: {json.dumps(['ring', 'stars', 'ring'][q_])}, a: WS({wi_}) + {q_ * 10}, b: WS({wi_}) + {q_ * 10 + 30}, at: [X + {num(_bx)}, DK + 1.4, {num(_bz + 0.4)}], s: {num(1.1 - q_ * 0.2)} }}")
                 KWSFX.append((wi_, 'ding'))
-            PLANO.append((k, f'encena: {tipo_}' + (f' ({gest_})' if gest_ else ''), 'acao'))
+            PLANO.append((k, f'encena: {tipo_}' + (f' ({gest_})' if gest_ else '') + f' @{j_}', 'acao'))   # @j = palavra exata executada (a folha 3 mostra ESTA palavra)
         if _encs or (persons and persons[0][3]): b['_acao'] = b.get('_acao') or ('atira' if persons[0][3] == 'rifle' else 'encena')   # quem faz o processo / segura o objeto NAO esta parado
         if _gst.get(0) and acts: acts[0] = f"Object.assign({acts[0]}, {{ gests: [{', '.join(_gst[0])}] }})"
         if _gst.get('sai') and acts: acts[0] = f"Object.assign({acts[0]}, {{ {_gst['sai'][0]} }})"   # FOI EMBORA: sai andando pela lateral
@@ -1640,7 +1641,7 @@ for k, b in enumerate(beats):
         if kk_ != k: continue
         if w_.startswith('encena: '):
             t_ = w_.split(': ')[1].split(' ')[0]; rxs_ = [r__ for r__, g__, tt__ in ENC if tt__ == t_]
-            j_ = next((j__ for j__, ww__ in enumerate(_ws3) if any(re.match(r__, nrm(ww__)) for r__ in rxs_)), 0); _rows.append((j_, _ws3[j_].strip('.,!?":;') if _ws3 else '-', 'ACAO: ' + t_, _ENC_DESC.get(t_, t_)))
+            _mj = re.search(r' @(\d+)$', w_); j_ = int(_mj.group(1)) if _mj else next((j__ for j__, ww__ in enumerate(_ws3) if any(re.match(r__, nrm(ww__)) for r__ in rxs_)), 0); j_ = min(j_, max(0, len(_ws3) - 1)); _rows.append((j_, _ws3[j_].strip('.,!?":;') if _ws3 else '-', 'ACAO: ' + t_, _ENC_DESC.get(t_, t_)))
         elif w_.startswith('(rosto) '):
             ex_ = w_.split(' ', 1)[1]; j_ = next((j__ for j__, ww__ in enumerate(_ws3) if any(re.match(r__, nrm(ww__)) and e__ == ex_ for r__, e__ in [])), None)
             _rows.append((None, '-', 'EMOCAO: ' + ex_, 'o rosto vira "' + ex_ + '" na palavra'))

@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Um dos maiores astrônomos da história perdeu o nariz numa briga por causa de matemática.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; perdeu -> puff + som de baque; briga -> puff + som de baque; encena: perde (facepalm) -> acao + som de efeito; encena: golpe (punch) -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; perdeu -> puff + som de baque; briga -> puff + som de baque; encena: perde (facepalm) @6 -> acao + som de efeito; encena: golpe (punch) @10 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1566
 - Funcao na historia: GANCHO
@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Era mil quinhentos e sessenta e seis. Tycho Brahe, um jovem nobre da Dinamarca, estudava numa cidade da Alemanha.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40
-- Efeito + som nas palavras-chave: encena: examina (think) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: examina (think) @14 -> acao + som de efeito
 - Efeito visual marcado: ring@12, dust@40
 - Texto na tela: - | mapa: DINAMARCA
 - Funcao na historia: GRANDE MOMENTO
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Numa festa, ele discutiu com um primo sobre quem era o melhor em matemática.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; festa -> stars + som de sino; encena: vence (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; festa -> stars + som de sino; encena: vence (up) @1 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: A briga não acabou ali. Dias depois, os dois resolveram tudo num duelo de espadas, no escuro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@36, thump@40
-- Efeito + som nas palavras-chave: briga -> puff + som de baque; encena: golpe (punch) -> acao + som de efeito
+- Efeito + som nas palavras-chave: briga -> puff + som de baque; encena: golpe (punch) @1 -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que o primo acertou um golpe certeiro, e cortou fora um pedaço do nariz de Tycho.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@26, thump@30
-- Efeito + som nas palavras-chave: encena: golpe (punch) -> acao + som de efeito; encena: corta (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: golpe (punch) @6 -> acao + som de efeito; encena: corta (reach) @9 -> acao + som de efeito
 - Efeito visual marcado: burst@30, puff@36
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Anos depois, o rei da Dinamarca deu a ele uma ilha inteira, só para estudar o céu.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_entrega (reach) @6 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Lá, ele construiu um castelo observatório, e anotou a posição de mais de mil estrelas, sem telescópio.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: encena: constroi (hammer) -> acao + som de efeito; encena: escreve (write) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: constroi (hammer) @2 -> acao + som de efeito; encena: escreve (write) @7 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: MIL ESTRELAS
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: As anotações eram tão precisas, que ajudaram Kepler a descobrir como os planetas giram em volta do Sol.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@50
-- Efeito + som nas palavras-chave: encena: examina (think) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: examina (think) @9 -> acao + som de efeito
 - Efeito visual marcado: stars@50
 - Texto na tela: KEPLER
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Essa descoberta mudou a astronomia para sempre.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@20, sting@50
-- Efeito + som nas palavras-chave: encena: examina (think) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: examina (think) @1 -> acao + som de efeito
 - Efeito visual marcado: stars@20, ring@50
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: E Tycho entrou para a história assim: com a cabeça nas estrelas, e o nariz de metal.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: chega (point) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: chega (point) @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL
