@@ -1,6 +1,13 @@
 {
  "fails": [
   {
+   "f": 1759,
+   "shot": "b9_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
    "f": 1783,
    "shot": "b9_v",
    "why": [
@@ -18,14 +25,7 @@
    "f": 1788,
    "shot": "b9_v",
    "why": [
-    "empty take: no character in the take"
-   ]
-  },
-  {
-   "f": 1792,
-   "shot": "b9_v",
-   "why": [
-    "empty take: no character in the take"
+    "farm: head/torso cropped (box 0.96, 0.555, 1.517, 1.052)"
    ]
   }
  ],
