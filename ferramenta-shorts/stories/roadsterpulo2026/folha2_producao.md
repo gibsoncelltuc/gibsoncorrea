@@ -43,12 +43,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Acontece que, na frente da plateia, o carro acelerou e pulou por cima ...
-- Cenario: stadium | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Cenario: outback | luz: day | clima: limpo
+- Camera: wide = ABERTO fixo
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): POV (variante 0, expressao surprised); POV (variante 1, expressao shock); MUS (variante 0, expressao grin) | multidao: 30 de POV
-- Animacao: reagir | batalha encenada
-- Objetos/modelos: vehicles/truck, vehicles/car, vehicles/car_blue, kit/roadster26_air, kit/roadster
+- Personagens principais (2): POV (variante 0, expressao surprised); MUS (variante 0, expressao grin)
+- Animacao: encena | batalha encenada
+- Objetos/modelos: vehicles/car, vehicles/car_blue, vehicles/truck, kit/roadster26_air, kit/tower, kit/roadster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): carro, cinco, frente, plateia, tesla
 - RISCOS: nenhum
 
@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Mas especialistas lembraram: aquilo foi um salto de poucos segundos, n...
-- Cenario: outback | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): ENG (variante 0, expressao suspicious); ENA (variante 0, expressao bored)
@@ -83,7 +83,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - Segundo a Tesla, ele vai de zero a cem em cerca de um segundo. A fabri...
-- Cenario: outback | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 5 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): ENG (variante 0, expressao grin, segura paper); POV (variante 0, expressao surprised)
@@ -94,7 +94,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - O vídeo foi visto milhões de vezes. Metade do mundo ficou impressionad...
 - Cenario: mountain | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao laugh); POV (variante 1, expressao grin); MUS (variante 0, expressao laugh) | multidao: 30 de POV
 - Animacao: comemorar | batalha encenada
@@ -118,12 +118,12 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/roadster26_air | b0, b4, b5, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/tower | b0, b1, b2, b3, b5, b6, b7, b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/tower | b0, b1, b2, b3, b4, b5, b6, b7, b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/roadster26 | b2, b3, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/roadster | b2, b4, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-vehicles/truck | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 vehicles/car | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 vehicles/car_blue | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+vehicles/truck | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 

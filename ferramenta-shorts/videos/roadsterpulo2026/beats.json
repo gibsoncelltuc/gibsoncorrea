@@ -124,59 +124,56 @@
    ]
   },
   {
-   "shot": "crowd",
+   "shot": "wide",
    "who": [
     "POV:0:surprised",
-    "POV:1:shock",
     "MUS:0:grin"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
-   "crowd": {
-    "n": 20,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "surprised"
-   },
    "props": [
     [
-     "vehicles/truck",
-     -3.0,
-     -6.0,
-     1.0
-    ],
-    [
      "vehicles/car",
-     0,
-     -6.0,
-     1.0
+     -2.6,
+     -7,
+     1.1
     ],
     [
      "vehicles/car_blue",
-     3.0,
-     -6.0,
-     1.0
+     0,
+     -7,
+     1.1
+    ],
+    [
+     "vehicles/truck",
+     2.6,
+     -7,
+     1.1
     ],
     [
      "kit/roadster26_air",
      0,
-     -7.0,
-     1.1
+     -7,
+     1.2,
+     {
+      "y": 2.4
+     }
     ]
    ],
    "fx": [
     "whoosh@20",
-    "puff@40"
+    "burst@60"
    ],
    "sfx": [
     "whoosh@20",
-    "thump@40"
+    "thump@60"
    ],
    "text": "PULOU!",
    "titulo": true,
-   "say": "Acontece que, na frente da plateia, o carro acelerou e pulou por cima de cinco outros carros da Tesla."
+   "say": "Acontece que, na frente da plateia, o carro acelerou e pulou por cima de cinco outros carros da Tesla.",
+   "set": "outback",
+   "impact": true,
+   "shot_lock": true
   },
   {
    "shot": "low",

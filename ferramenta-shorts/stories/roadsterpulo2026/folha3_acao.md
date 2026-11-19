@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 25 - O Carro que Pulou Outros Carros
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.7s - 21 palavras - plano two
@@ -41,15 +41,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | CHEGADA | alguem entra andando | OK |
 
-## Cena b4 - 23.9s a 29.2s - 19 palavras - plano crowd
+## Cena b4 - 23.9s a 29.2s - 19 palavras - plano wide
 > "Acontece que, na frente da plateia, o carro acelerou e pulou por cima de cinco outros carros da Tesla."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | pulou (27.4s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | ATUACAO | reagir | OK |
-| 4 | - | PLACA | PULOU! | OK |
+| 3 | - | PLACA | PULOU! | OK |
 
 ## Cena b5 - 30.3s a 33.3s - 12 palavras - plano low
 > "Depois, girou no ar e desceu de novo sobre as quatro rodas."
@@ -83,7 +82,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | entregar | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 52.3s a 58.0s - 16 palavras - plano orbit
+## Cena b9 - 52.3s a 58.0s - 16 palavras - plano crowd
 > "O vídeo foi visto milhões de vezes. Metade do mundo ficou impressionada, a outra metade desconfiada."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

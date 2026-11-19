@@ -40,10 +40,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b4  (~6.6 s)
 - Narracao: Acontece que, na frente da plateia, o carro acelerou e pulou por cima de cinco outros carros da Tesla.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: whoosh@20, thump@40
+- Som ambiente: birds
+- Efeitos sonoros marcados: whoosh@20, thump@60
 - Efeito + som nas palavras-chave: encena: pula @10 -> acao + som de efeito
-- Efeito visual marcado: whoosh@20, puff@40
+- Efeito visual marcado: whoosh@20, burst@60
 - Texto na tela: PULOU!
 - Funcao na historia: GRANDE MOMENTO
 
@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b7  (~5.2 s)
 - Narracao: Mas especialistas lembraram: aquilo foi um salto de poucos segundos, não um voo de verdade.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: pula @6 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -76,7 +76,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b8  (~8.3 s)
 - Narracao: Segundo a Tesla, ele vai de zero a cem em cerca de um segundo. A fabricação ficou para dois mil e vinte e oito.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@30
