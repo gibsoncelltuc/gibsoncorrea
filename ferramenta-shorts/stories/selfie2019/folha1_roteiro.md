@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Um presidente chegou ao palco mais importante do mundo, e antes de falar, tirou uma selfie.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: chegou -> dust + som de impacto; encena: tira (lift) -> acao + som de efeito
+- Efeito + som nas palavras-chave: chegou -> dust + som de impacto; encena: chega (point) -> acao + som de efeito; encena: tira (lift) -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 2019
 - Funcao na historia: GANCHO
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Alguns acharam falta de respeito com a ONU. Outros acharam genial.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: examina (think) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: olha (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

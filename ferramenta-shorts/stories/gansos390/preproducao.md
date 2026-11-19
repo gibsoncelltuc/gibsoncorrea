@@ -11,7 +11,7 @@ b3 | medieval | orbit | 12 | discutir | kit/marco_coliseu, goose | - | -
 b4 | mountain | group | 3 | conversar, INTERAGEM: aproxima-se | kit/marco_coliseu | - | -
 b5 | medieval | low | 1 | reagir | kit/marco_coliseu, goose | - | -
 b6 | countryside | two | 2 | conversar, INTERAGEM: empurrar | buildings/castle_tower, kit/marco_coliseu | - | -
-b7 | countryside | orbit | 33 | encena, batalha | kit/marco_coliseu, buildings/castle_tower | - | -
+b7 | countryside | orbit | 33 | encena, batalha | kit/marco_coliseu | - | -
 b8 | street | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/marco_coliseu, goose | - | -
 b9 | medieval | close | 1 | conversar | kit/marco_coliseu | - | -
 

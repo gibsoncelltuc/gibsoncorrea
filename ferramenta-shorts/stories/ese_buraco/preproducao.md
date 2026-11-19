@@ -5,7 +5,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | outback | two | 7 | conversar, INTERAGEM: insiste | kit/globe | shovel | -
-b1 | outback | reveal | 8 | parados (so fala e pisca) | - | - | -
+b1 | outback | reveal | 8 | encena | - | - | -
 b2 | countryside | two | 2 | conversar, INTERAGEM: vai ate o outro | tools/shovel | shovel | -
 b3 | countryside | two | 2 | conversar, INTERAGEM: aproxima-se | kit/scroll | paper | -
 b4 | mountain | low | 1 | reagir | kit/globe | - | -
@@ -20,5 +20,5 @@ OBJETO HEROI: kit/globe - aparece em 5 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b5, b9
 Interacoes entre personagens: b0 insiste, b2 vai ate o outro, b3 aproxima-se, b7 cochichar, b8 discutir
 
-Cenas com personagens parados: 1 de 11
+Cenas com personagens parados: 0 de 11
 FALTA MODELAR: nada

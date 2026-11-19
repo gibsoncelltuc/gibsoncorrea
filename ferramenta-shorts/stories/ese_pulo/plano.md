@@ -10,7 +10,7 @@ b4 | close | -  | - | - | -
 b5 | two | -  | - | encena: examina (think) (acao + som de efeito) | -
 b6 | orbit | -  | batalha aberta com tiros, tropa, placa: BUM! | encena: x_bate (punch) (acao + som de efeito); encena: tomba (acao + som de efeito) | -
 b7 | group | -  | tropa | encena: pula (acao + som de efeito) | -
-b8 | two | -  | objeto na mao | caos: (puff + som de baque) | -
+b8 | two | -  | objeto na mao | caos: (puff + som de baque); encena: grita (up) (acao + som de efeito) | -
 b9 | two | -  | - | encena: pula (acao + som de efeito) | -
 b10 | close | -  | - | encena: pula (acao + som de efeito) | -
 

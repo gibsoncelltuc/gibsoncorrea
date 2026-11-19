@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - A Guerra do Cachorro Perdido
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 5.6s - 16 palavras - plano two
@@ -59,7 +59,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | invadiu (24.1s) | EFEITO: dust | poeira + som | OK |
-| 2 | - | PLACA | INVASÃO | OK |
+| 2 | invadiu (24.1s) | ACAO: chega | entra andando pela lateral | OK |
+| 3 | - | PLACA | INVASÃO | OK |
 
 ## Cena b6 - 27.4s a 31.5s - 12 palavras - plano two
 > "A Bulgária apelou para a Liga das Nações, o antecessor da ONU."
@@ -77,10 +78,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | mandou (32.6s) | ACAO: fala | aponta explicando | OK |
 | 2 | pagar (35.6s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | - | CENA | tiros: 3 soldados caem no chao | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | ATUACAO | reagir | OK |
-| 6 | - | PLACA | INDENIZAÇÃO | OK |
+| 3 | pagar (35.6s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 4 | - | CENA | tiros: 3 soldados caem no chao | OK |
+| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 6 | - | ATUACAO | reagir | OK |
+| 7 | - | PLACA | INDENIZAÇÃO | OK |
 
 ## Cena b8 - 36.7s a 40.7s - 12 palavras - plano close
 > "A Grécia obedeceu, e ninguém sabe o que aconteceu com o cachorro."

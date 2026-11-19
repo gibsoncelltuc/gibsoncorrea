@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | placa: 2007 | encena: raspa (reach) (acao + som de efeito) | -
+b0 | two | -  | placa: 2007 | encena: chega (point) (acao + som de efeito); encena: raspa (reach) (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | - | - | -
 b3 | two | -  | - | encena: perde (facepalm) (acao + som de efeito); encena: raspa (reach) (acao + som de efeito) | -
@@ -13,7 +13,7 @@ b7 | orbit | -  | batalha aberta com tiros, tropa, placa: VITÓRIA | (rosto) lau
 b8 | two | -  | - | encena: raspa (reach) (acao + som de efeito) | -
 b9 | close | -  | - | encena: sai (acao + som de efeito); encena: raspa (reach) (acao + som de efeito) | -
 b10 | two | -  | - | encena: golpe (punch) (acao + som de efeito); encena: tomba (acao + som de efeito) | -
-b11 | close | -  | placa: HALL DA FAMA | - | -
+b11 | close | -  | placa: HALL DA FAMA | encena: chega (point) (acao + som de efeito) | -
 
 Mistura de planos: close 27% | medio 56% | aberto 10% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 19 - O Caderno que Ainda Brilha
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.6s - 18 palavras - plano two
@@ -44,7 +44,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | brilhava (23.4s) | ACAO: brilha | o objeto brilha na palavra (ondas de luz + estrelas) | OK |
+| 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b5 - 29.6s a 34.6s - 16 palavras - plano two
 > "Ela carregava os frascos no bolso, e guardava na gaveta da mesa. Ninguém sabia do perigo."
@@ -73,8 +74,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | morreu (49.0s) | EFEITO: puff | fumaca + som | OK |
-| 2 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 2 | morreu (49.0s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
+| 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b8 - 50.1s a 55.8s - 17 palavras - plano two
 > "Mas os cadernos dela continuam radioativos até hoje, guardados em caixas de chumbo, numa biblioteca de Paris."
@@ -99,14 +101,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | perder (64.5s) | EFEITO: dust | poeira + som | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | ATUACAO | reagir | OK |
-| 4 | - | PLACA | 1.600 ANOS | OK |
+| 2 | perder (64.5s) | ACAO: perde | mao na testa | OK |
+| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | ATUACAO | reagir | OK |
+| 5 | - | PLACA | 1.600 ANOS | OK |
 
 ## Cena b11 - 66.4s a 70.7s - 15 palavras - plano close
 > "Ou seja: os cadernos de Marie Curie vão continuar brilhando por muitos e muitos séculos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | brilhando (69.2s) | ACAO: brilha | o objeto brilha na palavra (ondas de luz + estrelas) | OK |
+| 2 | - | ATUACAO | conversar | OK |
 

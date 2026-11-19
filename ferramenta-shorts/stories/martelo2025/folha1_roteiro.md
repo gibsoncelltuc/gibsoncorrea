@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: Para destruir um bunker escondido dentro de uma montanha, os Estados Unidos usaram uma bomba que nunca tinha saído do papel.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: bomba -> burst + som de tiro/explosao
+- Efeito + som nas palavras-chave: bomba -> burst + som de tiro/explosao; encena: atira -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 2025
 - Funcao na historia: GANCHO
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: Só uma arma chegava lá: a bomba antibunker, com mais de treze toneladas. E só um avião carrega essa bomba: o B-2.
 - Som ambiente: birds
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: bomba -> burst + som de tiro/explosao; bomba: -> burst + som de tiro/explosao
+- Efeito + som nas palavras-chave: bomba -> burst + som de tiro/explosao; bomba: -> burst + som de tiro/explosao; encena: atira -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: Acontece que, de madrugada, os aviões soltaram catorze bombas. Doze delas em cima de Fordow, pelos respiros do bunker.
 - Som ambiente: birds
 - Efeitos sonoros marcados: cannon@25, cannon@45, thump@60
-- Efeito + som nas palavras-chave: bombas -> burst + som de tiro/explosao; encena: x_solta (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: bombas -> burst + som de tiro/explosao; encena: x_solta (up) -> acao + som de efeito; encena: atira -> acao + som de efeito
 - Efeito visual marcado: burst@25, burst@45, puff@60
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: Foi a primeira vez na história que essa bomba gigante foi usada de verdade.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: cannon@40
-- Efeito + som nas palavras-chave: bomba -> burst + som de tiro/explosao
+- Efeito + som nas palavras-chave: bomba -> burst + som de tiro/explosao; encena: atira -> acao + som de efeito
 - Efeito visual marcado: burst@40
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

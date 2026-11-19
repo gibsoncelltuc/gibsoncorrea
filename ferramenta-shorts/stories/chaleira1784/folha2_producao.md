@@ -8,7 +8,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): COZ (variante 0, expressao shock); HOL (variante 0, expressao grin)
 - Animacao: reagir | interacao: o outro se aproxima
-- Objetos/modelos: kit/kettle
+- Objetos/modelos: kit/marco_viena, kit/kettle
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chaleira, sopa
 - RISCOS: nenhum
 
@@ -18,7 +18,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): HOL (variante 0, expressao stern); HOL (variante 1, expressao stern) | multidao: 8 de HOL
 - Animacao: -
-- Objetos/modelos: navios ao fundo
+- Objetos/modelos: kit/marco_viena, navios ao fundo
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): holanda
 - RISCOS: nenhum
 
@@ -48,7 +48,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): AUS (variante 0, expressao smug); AUS (variante 1, expressao grin) | multidao: 14 de AUS
 - Animacao: conversar | interacao: insiste
-- Objetos/modelos: war/flagpole
+- Objetos/modelos: kit/marco_viena, war/flagpole
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bandeiras, frente, soldados, tres
 - RISCOS: nenhum
 
@@ -58,7 +58,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): HOL (variante 0, expressao stern); HOL (variante 1, expressao angry) | multidao: 16 de HOL
 - Animacao: encena | batalha encenada
-- Objetos/modelos: cannon, navios ao fundo
+- Objetos/modelos: cannon, kit/marco_viena, navios ao fundo
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canhao, navio
 - RISCOS: nenhum
 
@@ -68,7 +68,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): COZ (variante 0, expressao scared); AUS (variante 0, expressao surprised)
 - Animacao: conversar | interacao: vai ate o outro
-- Objetos/modelos: kit/kettle
+- Objetos/modelos: kit/kettle, kit/marco_viena
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bala, chaleira, conves, cozinheiro, sopa
 - RISCOS: nenhum
 
@@ -78,7 +78,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): GEN (variante 0, expressao scared, segura flag); AUS (variante 0, expressao nervous); COZ (variante 0, expressao cry) | multidao: 12 de GEN/AUS/COZ
 - Animacao: reagir | batalha encenada
-- Objetos/modelos: kit/kettle
+- Objetos/modelos: kit/marco_viena, kit/kettle
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): capitao, sopa
 - RISCOS: nenhum
 
@@ -98,7 +98,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa
 - Personagens principais (1): COZ (variante 0, expressao sad)
 - Animacao: conversar
-- Objetos/modelos: kit/kettle
+- Objetos/modelos: kit/kettle, kit/marco_viena
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): almoco
 - RISCOS: nenhum
 
@@ -107,6 +107,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
+kit/marco_viena | b0, b1, b4, b5, b6, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/kettle | b0, b6, b7, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 war/flagpole | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 cannon | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py

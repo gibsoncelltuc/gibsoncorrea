@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 06 - A Guerra do Porco
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 46 acoes catalogadas, 46 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 52 acoes catalogadas, 52 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 2.6s - 11 palavras - plano two
@@ -9,10 +9,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | o outro se aproxima | OK |
-| 2 | - | ATUACAO | reagir | OK |
-| 3 | - | CHEGADA | alguem entra andando | OK |
-| 4 | - | PLACA | 1859 | OK |
+| 1 | entraram (0.8s) | ACAO: chega | entra andando pela lateral | OK |
+| 2 | - | INTERACAO | o outro se aproxima | OK |
+| 3 | - | ATUACAO | reagir | OK |
+| 4 | - | CHEGADA | alguem entra andando | OK |
+| 5 | - | PLACA | 1859 | OK |
 
 ## Cena b1 - 3.7s a 8.1s - 18 palavras - plano reveal
 > "Era uma ilha pequena, entre os Estados Unidos e o Canadá, e ninguém sabia de quem ela era."
@@ -45,10 +46,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ofereceu (25.2s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 2 | - | INTERACAO | entregar | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| 4 | - | PLACA | $10 | OK |
+| 1 | pago (23.9s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 2 | ofereceu (25.2s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 3 | - | INTERACAO | entregar | OK |
+| 4 | - | ATUACAO | conversar | OK |
+| 5 | - | PLACA | $10 | OK |
 
 ## Cena b5 - 26.7s a 32.6s - 14 palavras - plano two
 > ""Dez? Ele vale cem!", gritou o dono, empurrando o dinheiro de volta. Ninguém cedeu."
@@ -59,10 +61,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | gritou (29.0s) | ACAO: grita | grita de bracos para cima | OK |
 | 3 | empurrando (30.0s) | ACAO: empurra | empurra/puxa | OK |
 | 4 | dinheiro (30.6s) | EFEITO: stars | estrelinhas + som | OK |
-| 5 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
-| 6 | - | INTERACAO | discutir | OK |
-| 7 | - | ATUACAO | discutir | OK |
-| 8 | - | PLACA | $100 | OK |
+| 5 | dinheiro (30.6s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 6 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
+| 7 | - | INTERACAO | discutir | OK |
+| 8 | - | ATUACAO | discutir | OK |
+| 9 | - | PLACA | $100 | OK |
 
 ## Cena b6 - 33.9s a 39.4s - 15 palavras - plano group
 > "Os ingleses ameaçaram prender o fazendeiro. Então os Estados Unidos mandaram soldados para a ilha."
@@ -79,9 +82,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | canhões (46.6s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
-| 4 | - | ATUACAO | discutir | OK |
+| 2 | canhões (46.6s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 3 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
+| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
+| 5 | - | ATUACAO | discutir | OK |
 
 ## Cena b8 - 49.4s a 55.6s - 20 palavras - plano two
 > "O almirante inglês recebeu a ordem de atacar. "Não vou começar uma guerra por causa de um porco", respondeu ele."
@@ -98,12 +102,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | deu (61.7s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 2 | tiro (62.1s) | EFEITO: burst | estouro/clarao + som | OK |
-| 3 | - | CENA | cavalaria: 4 soldados a cavalo (ING) | OK |
-| 4 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 6 | - | ATUACAO | discutir | OK |
+| 1 | festas (60.0s) | ACAO: vence | bracos para cima + brilho | OK |
+| 2 | deu (61.7s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 3 | tiro (62.1s) | EFEITO: burst | estouro/clarao + som | OK |
+| 4 | tiro (62.1s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 5 | - | CENA | cavalaria: 4 soldados a cavalo (ING) | OK |
+| 6 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 8 | - | ATUACAO | discutir | OK |
 
 ## Cena b10 - 63.3s a 66.0s - 11 palavras - plano two
 > "Treze anos depois, um árbitro decidiu que a ilha era americana."

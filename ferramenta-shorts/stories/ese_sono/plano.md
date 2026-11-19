@@ -4,7 +4,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | -  | placa: E SE... | encena: dorme (acao + som de efeito) | -
 b1 | two | -  | objeto na mao | - | -
-b2 | crowd | noite  | batalha aberta com tiros, tropa, placa: 24 HORAS | (rosto) laugh (expr + som de efeito); festa (stars + som de sino) | -
+b2 | crowd | noite  | batalha aberta com tiros, tropa, placa: 24 HORAS | (rosto) laugh (expr + som de efeito); festa (stars + som de sino); encena: vence (up) (acao + som de efeito) | -
 b3 | two | noite  | - | - | -
 b4 | reveal | -  | tropa, mapa | encena: examina (think) (acao + som de efeito) | -
 b5 | two | -  | objeto na mao | encena: quimico (pour) (acao + som de efeito) | -

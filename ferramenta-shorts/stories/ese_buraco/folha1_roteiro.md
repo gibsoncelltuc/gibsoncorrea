@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: Primeira surpresa: saindo do Brasil, você não sairia na China. Sairia no meio do oceano Pacífico, perto do Japão.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: (rosto) shock -> expr + som de efeito; surpresa: -> ring + som de alerta
+- Efeito + som nas palavras-chave: (rosto) shock -> expr + som de efeito; surpresa: -> ring + som de alerta; encena: grita (up) -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: - | mapa: OCEANO PACÍFICO
 - Funcao na historia: desenvolvimento

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 08 - O Carro que Foi Parar no Espaço
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 3.9s - 16 palavras - plano two
@@ -60,9 +60,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | pânico (34.2s) | EFEITO: dust | poeira + som | OK |
-| 2 | - | EMOCAO: scared | o rosto vira "scared" na palavra | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | PLACA | NÃO ENTRE EM PÂNICO | OK |
+| 2 | pânico (34.2s) | ACAO: grita | grita de bracos para cima | OK |
+| 3 | - | EMOCAO: scared | o rosto vira "scared" na palavra | OK |
+| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 5 | - | PLACA | NÃO ENTRE EM PÂNICO | OK |
 
 ## Cena b7 - 35.4s a 39.2s - 15 palavras - plano group
 > "O Roadster saiu da órbita da Terra, e seguiu em órbita ao redor do Sol."

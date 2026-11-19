@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 16 - A Torre que Pegou um Foguete no Ar
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.7s - 18 palavras - plano two
@@ -79,19 +79,21 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | comemoraram (52.5s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | ATUACAO | comemorar | OK |
-| 5 | - | PLACA | PEGOU! | OK |
+| 2 | comemoraram (52.5s) | ACAO: vence | bracos para cima + brilho | OK |
+| 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 5 | - | ATUACAO | comemorar | OK |
+| 6 | - | PLACA | PEGOU! | OK |
 
 ## Cena b9 - 57.7s a 61.0s - 11 palavras - plano two
 > "Musk comemorou nas redes sociais: a torre tinha pegado o foguete."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 2 | - | INTERACAO | abracar | OK |
-| 3 | - | ATUACAO | comemorar | OK |
+| 1 | comemorou (57.9s) | ACAO: vence | bracos para cima + brilho | OK |
+| 2 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 3 | - | INTERACAO | abracar | OK |
+| 4 | - | ATUACAO | comemorar | OK |
 
 ## Cena b10 - 62.1s a 66.3s - 16 palavras - plano two
 > "Assim, o propulsor que antes ia para o lixo pode ser usado de novo, várias vezes."

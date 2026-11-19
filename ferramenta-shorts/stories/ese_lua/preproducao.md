@@ -5,7 +5,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | harbor | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/moon | - | -
-b1 | countryside | two | 2 | dancar, INTERAGEM: aproxima-se | - | - | -
+b1 | countryside | two | 2 | reagir, INTERAGEM: aproxima-se | - | - | -
 b2 | harbor | reveal | 8 | parados (so fala e pisca) | - | - | -
 b3 | countryside | two | 2 | conversar, INTERAGEM: avanca e o outro recua | boat | paper | -
 b4 | harbor | two | 2 | conversar, INTERAGEM: o outro se aproxima | gull | - | -

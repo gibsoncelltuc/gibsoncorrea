@@ -11,7 +11,7 @@ b3 | interior pedra | two | 2 | conversar, INTERAGEM: aproxima-se | kit/cake_tab
 b4 | interior pedra | close | 1 | conversar | - | - | -
 b5 | interior madeira | two | 2 | comemorar, INTERAGEM: cochichar | - | - | -
 b6 | harbor | crowd | 20 | encena, batalha | kit/marco_ulua, navios ao fundo | - | -
-b7 | street | orbit | 22 | reagir, batalha | kit/marco_ulua, cannon, buildings/castle_tower | - | -
+b7 | street | orbit | 22 | reagir, batalha | kit/marco_ulua, cannon | - | -
 b8 | street | crowd | 20 | reagir, batalha | kit/marco_ulua, cannon | - | -
 b9 | countryside | two | 2 | encena, INTERAGEM: susto | kit/marco_ulua | paper, coin | -
 b10 | street | close | 1 | encena | kit/marco_ulua, kit/cake_table | coin | -

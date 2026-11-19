@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - A Febre das Tulipas
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 43 acoes catalogadas, 43 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.3s - 11 palavras - plano two
@@ -26,10 +26,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | moedas (13.2s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | gritava (17.0s) | EFEITO: ring | onda + som | OK |
-| 3 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
-| 4 | - | INTERACAO | discutir | OK |
-| 5 | - | ATUACAO | discutir | OK |
+| 2 | moedas (13.2s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 3 | gritava (17.0s) | EFEITO: ring | onda + som | OK |
+| 4 | gritava (17.0s) | ACAO: grita | grita de bracos para cima | OK |
+| 5 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
+| 6 | - | INTERACAO | discutir | OK |
+| 7 | - | ATUACAO | discutir | OK |
 
 ## Cena b3 - 18.6s a 24.5s - 14 palavras - plano crowd
 > "Logo, o país inteiro estava comprando. Padeiros, sapateiros, gente que nunca tinha plantado nada."
@@ -37,8 +39,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | comprando (20.3s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | PLACA | TODO MUNDO | OK |
+| 2 | comprando (20.3s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | PLACA | TODO MUNDO | OK |
 
 ## Cena b4 - 25.7s a 31.4s - 18 palavras - plano two
 > "Ninguém queria a flor de verdade. Queriam vender o papel mais caro na semana seguinte, e ficar ricos."
@@ -57,8 +60,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | comeu (33.7s) | ACAO: x_come | leva a comida a boca | OK |
 | 2 | fortuna (37.5s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | - | INTERACAO | aproxima-se | OK |
-| 4 | - | ATUACAO | discutir | OK |
+| 3 | fortuna (37.5s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 4 | - | INTERACAO | aproxima-se | OK |
+| 5 | - | ATUACAO | discutir | OK |
 
 ## Cena b6 - 38.8s a 43.8s - 16 palavras - plano group
 > "Acontece que, num leilão de fevereiro, o vendedor abriu os lances, e ninguém levantou a mão."
@@ -81,10 +85,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | correu (45.3s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
 | 3 | vender (48.5s) | EFEITO: stars | estrelinhas + som | OK |
 | 4 | vender (48.5s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 5 | comprador (50.0s) | EFEITO: stars | estrelinhas + som | OK |
-| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 7 | - | ATUACAO | discutir | OK |
-| 8 | - | PLACA | PÂNICO | OK |
+| 5 | vender (48.5s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 6 | comprador (50.0s) | EFEITO: stars | estrelinhas + som | OK |
+| 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 8 | - | ATUACAO | discutir | OK |
+| 9 | - | PLACA | PÂNICO | OK |
 
 ## Cena b8 - 51.3s a 56.7s - 18 palavras - plano two
 > "Os preços desabaram. Quem tinha trocado a casa por flores ficou só com as flores, e as dívidas."

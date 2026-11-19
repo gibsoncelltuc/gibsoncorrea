@@ -9,7 +9,7 @@ b1 | countryside | track | 1 | encena, andando | dog | - | -
 b2 | countryside | track | 1 | encena, andando | dog | - | -
 b3 | countryside | crowd | 19 | reagir, batalha | - | - | -
 b4 | countryside | close | 1 | conversar | - | - | -
-b5 | mountain | track | 3 | andando | - | - | -
+b5 | mountain | track | 3 | encena, andando | - | - | -
 b6 | interior pedra | two | 2 | reagir, INTERAGEM: susto | - | - | -
 b7 | mountain | crowd | 12 | reagir, batalha | - | - | -
 b8 | mountain | close | 1 | conversar | dog | - | -

@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O primeiro teste de vendas foi um fracasso. Ninguém entendia para que servia um bloquinho que descolava.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: fracasso -> puff + som de baque; encena: negocio (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: fracasso -> puff + som de baque; encena: negocio (reach) -> acao + som de efeito; encena: perde (facepalm) -> acao + som de efeito
 - Efeito visual marcado: ring@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -105,7 +105,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Em mil novecentos e oitenta, o post-it chegou às lojas. Tudo graças a uma cola que deu errado.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: chegou -> dust + som de impacto; encena: x_entrega (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: chegou -> dust + som de impacto; encena: chega (point) -> acao + som de efeito; encena: x_entrega (reach) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1980
 - Funcao na historia: FECHO/PIADA FINAL

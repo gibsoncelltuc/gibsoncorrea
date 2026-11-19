@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - E Se EP 05 - E Se Ninguém Precisasse Dormir?
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.9s - 14 palavras - plano two
@@ -28,10 +28,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | festa (15.8s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | ATUACAO | comemorar | OK |
-| 5 | - | PLACA | 24 HORAS | OK |
+| 2 | festa (15.8s) | ACAO: vence | bracos para cima + brilho | OK |
+| 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 5 | - | ATUACAO | comemorar | OK |
+| 6 | - | PLACA | 24 HORAS | OK |
 
 ## Cena b3 - 17.6s a 21.9s - 13 palavras - plano two
 > "Daria tempo de aprender três línguas, um instrumento, e ver todas as séries."

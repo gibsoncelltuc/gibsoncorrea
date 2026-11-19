@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Um dos maiores astrônomos da história perdeu o nariz numa briga por causa de matemática.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; perdeu -> puff + som de baque; briga -> puff + som de baque; encena: perde (facepalm) -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; perdeu -> puff + som de baque; briga -> puff + som de baque; encena: perde (facepalm) -> acao + som de efeito; encena: golpe (punch) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1566
 - Funcao na historia: GANCHO
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Numa festa, ele discutiu com um primo sobre quem era o melhor em matemática.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; festa -> stars + som de sino
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; festa -> stars + som de sino; encena: vence (up) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: A briga não acabou ali. Dias depois, os dois resolveram tudo num duelo de espadas, no escuro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@36, thump@40
-- Efeito + som nas palavras-chave: briga -> puff + som de baque
+- Efeito + som nas palavras-chave: briga -> puff + som de baque; encena: golpe (punch) -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: E Tycho entrou para a história assim: com a cabeça nas estrelas, e o nariz de metal.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: chega (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

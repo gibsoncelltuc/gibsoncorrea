@@ -10,7 +10,7 @@ b2 | mountain | track | 2 | encena, andando | dog | - | -
 b3 | mountain | track | 2 | encena, andando | dog | - | -
 b4 | mountain | group | 12 | conversar, INTERAGEM: empurrar, batalha | - | - | -
 b5 | mountain | low | 2 | conversar, INTERAGEM: susto | - | - | -
-b6 | mountain | orbit | 22 | batalha | - | - | -
+b6 | mountain | orbit | 22 | encena, batalha | - | - | -
 b7 | interior madeira | two | 2 | reagir, INTERAGEM: susto | - | paper | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | - | paper | -
 b9 | mountain | close | 1 | conversar | kit/dog_sit, dog | - | -

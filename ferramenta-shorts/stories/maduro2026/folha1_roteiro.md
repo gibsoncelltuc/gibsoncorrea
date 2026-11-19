@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Durante meses, a inteligência americana estudou cada passo dele, em segredo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: segredo -> ring + som de alerta; encena: examina (think) -> acao + som de efeito
+- Efeito + som nas palavras-chave: segredo -> ring + som de alerta; encena: examina (think) -> acao + som de efeito; encena: pensa (think) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do país.
 - Som ambiente: sea
 - Efeitos sonoros marcados: sting@20, thump@40
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: atira -> acao + som de efeito
 - Efeito visual marcado: ring@20, puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Nenhum militar americano morreu. A notícia parou o mundo, e dividiu opiniões entre países.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; encena: morre -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: MUNDO
 - Funcao na historia: GRANDE MOMENTO

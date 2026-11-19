@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 - Narracao: O presidente de El Salvador resolveu fabricar dinheiro digital com a energia de um vulcão.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: (rosto) determined -> expr + som de efeito; dinheiro -> stars + som de sino
+- Efeito + som nas palavras-chave: (rosto) determined -> expr + som de efeito; dinheiro -> stars + som de sino; encena: paga (reach) -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 2021
 - Funcao na historia: GANCHO
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 - Narracao: Em dois mil e vinte e um, Nayib Bukele fez do bitcoin uma moeda oficial do país, ao lado do dólar.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: paga (reach) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 - Narracao: Bukele comemorou nas redes sociais, com um vídeo da usina no vulcão.
 - Som ambiente: sea
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; encena: vence (up) -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: VULCÃO
 - Funcao na historia: GRANDE MOMENTO
@@ -105,7 +105,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 - Narracao: Dinheiro tirado de vulcão. Parece ficção, mas aconteceu de verdade.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: Dinheiro -> stars + som de sino
+- Efeito + som nas palavras-chave: Dinheiro -> stars + som de sino; encena: paga (reach) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

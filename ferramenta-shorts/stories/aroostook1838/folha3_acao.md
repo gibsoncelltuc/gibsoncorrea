@@ -11,10 +11,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | lenhadores (3.3s) | ACAO: corta | machado e toras + poeira | OK |
 | 2 | morreu (4.4s) | EFEITO: puff | fumaca + som | OK |
-| 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 4 | - | INTERACAO | discutir | OK |
-| 5 | - | ATUACAO | discutir | OK |
-| 6 | - | PLACA | 1838 | OK |
+| 3 | morreu (4.4s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
+| 4 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 5 | - | INTERACAO | discutir | OK |
+| 6 | - | ATUACAO | discutir | OK |
+| 7 | - | PLACA | 1838 | OK |
 
 ## Cena b1 - 5.6s a 10.4s - 21 palavras - plano reveal
 > "Em mil oitocentos e trinta e oito, a fronteira entre o estado do Maine e uma colônia inglesa ainda era confusa."
@@ -41,9 +42,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | gritou (19.9s) | ACAO: grita | grita de bracos para cima | OK |
 | 3 | lenhador (20.3s) | ACAO: corta | machado e toras + poeira | OK |
 | 4 | brigar (22.8s) | EFEITO: puff | fumaca + som | OK |
-| 5 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
-| 6 | - | INTERACAO | empurrar | OK |
-| 7 | - | ATUACAO | discutir | OK |
+| 5 | brigar (22.8s) | ACAO: golpe | soco + estouro | OK |
+| 6 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
+| 7 | - | INTERACAO | empurrar | OK |
+| 8 | - | ATUACAO | discutir | OK |
 
 ## Cena b4 - 23.9s a 27.2s - 12 palavras - plano crowd
 > "O Maine chamou milhares de soldados, e a Inglaterra mandou os seus."
@@ -70,10 +72,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | mandou (36.4s) | ACAO: fala | aponta explicando | OK |
-| 2 | - | CENA | cavalaria: 4 soldados a cavalo (MIL) | OK |
-| 3 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | ATUACAO | conversar | OK |
+| 2 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 38.4s a 41.7s - 13 palavras - plano two
 > "Ele convenceu os dois lados a parar, e ninguém atirou um único tiro."
@@ -99,7 +100,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | comiam (51.9s) | ACAO: x_come | leva a comida a boca | OK |
-| 2 | - | CENA | animal: pig come | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 1 | - | CENA | animal: pig come | OK |
+| 2 | - | ATUACAO | conversar | OK |
 

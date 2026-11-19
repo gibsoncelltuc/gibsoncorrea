@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 12 - O Não é um Lança-Chamas
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 25 acoes catalogadas, 25 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.7s - 25 palavras - plano two
@@ -46,8 +46,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | compra (19.1s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 2 | incêndio (20.7s) | EFEITO: burst | estouro/clarao + som | OK |
-| 3 | brinde (21.1s) | ACAO: pega | levanta/segura | OK |
-| 4 | - | ATUACAO | comemorar | OK |
+| 3 | incêndio (20.7s) | ACAO: queima | fogo + fumaca | OK |
+| 4 | brinde (21.1s) | ACAO: pega | levanta/segura | OK |
+| 5 | - | ATUACAO | comemorar | OK |
 
 ## Cena b5 - 22.2s a 23.6s - 6 palavras - plano group
 > "Foram vinte mil unidades à venda."

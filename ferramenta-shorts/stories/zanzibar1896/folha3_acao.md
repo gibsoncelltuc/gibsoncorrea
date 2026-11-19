@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 08 - A Guerra de 38 Minutos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 42 acoes catalogadas, 42 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 47 acoes catalogadas, 47 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.5s - 11 palavras - plano two
@@ -26,13 +26,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | morreu (8.9s) | EFEITO: puff | fumaca + som | OK |
-| 2 | correu (10.7s) | EFEITO: dust | poeira + som | OK |
-| 3 | correu (10.7s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
-| 4 | sentou (12.2s) | ACAO: senta | senta | OK |
-| 5 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 6 | - | INTERACAO | o outro se aproxima | OK |
-| 7 | - | ATUACAO | conversar | OK |
-| 8 | - | CHEGADA | alguem entra andando | OK |
+| 2 | morreu (8.9s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
+| 3 | correu (10.7s) | EFEITO: dust | poeira + som | OK |
+| 4 | correu (10.7s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
+| 5 | sentou (12.2s) | ACAO: senta | senta | OK |
+| 6 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 7 | - | INTERACAO | o outro se aproxima | OK |
+| 8 | - | ATUACAO | conversar | OK |
+| 9 | - | CHEGADA | alguem entra andando | OK |
 
 ## Cena b3 - 14.8s a 19.7s - 14 palavras - plano two
 > "Os ingleses não gostaram. "Saia do palácio até as nove da manhã", avisaram eles."
@@ -48,11 +49,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | canhões (23.8s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | trancou (25.0s) | ACAO: x_abre | empurra a porta | OK |
-| 3 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 4 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
-| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
-| 6 | - | PLACA | 3.000 | OK |
+| 2 | canhões (23.8s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 3 | trancou (25.0s) | ACAO: x_abre | empurra a porta | OK |
+| 4 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 5 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
+| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
+| 7 | - | PLACA | 3.000 | OK |
 
 ## Cena b5 - 26.6s a 28.1s - 6 palavras - plano close
 > ""Eles não vão atirar", disse ele."
@@ -60,7 +62,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | atirar (27.2s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | atirar (27.2s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b6 - 29.3s a 36.7s - 22 palavras - plano orbit
 > "Acontece que, às nove e dois, os navios ingleses abriram fogo. O palácio de madeira começou a desabar, e a pegar fogo."
@@ -91,10 +94,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | caiu (45.2s) | EFEITO: dust | poeira + som | OK |
 | 2 | canhões (46.0s) | EFEITO: burst | estouro/clarao + som | OK |
-| 3 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
-| 4 | - | INTERACAO | vai ate o outro | OK |
-| 5 | - | ATUACAO | conversar | OK |
-| 6 | - | PLACA | 9:40 | OK |
+| 3 | canhões (46.0s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 4 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
+| 5 | - | INTERACAO | vai ate o outro | OK |
+| 6 | - | ATUACAO | conversar | OK |
+| 7 | - | PLACA | 9:40 | OK |
 
 ## Cena b9 - 47.6s a 52.3s - 14 palavras - plano group
 > "Trinta e oito minutos. No mesmo dia, os ingleses colocaram outro sultão no trono."
@@ -110,5 +114,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | balas (54.9s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | balas (54.9s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 3 | - | ATUACAO | conversar | OK |
 

@@ -4,7 +4,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | street | track | 1 | andando | kit/sink, kit/marco_goldengate | - | -
+b0 | street | track | 1 | encena, andando | kit/sink, kit/marco_goldengate | - | -
 b1 | street | reveal | 9 | encena | kit/marco_goldengate | - | -
 b2 | harbor | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/sink, kit/marco_goldengate | - | -
 b3 | harbor | close | 1 | conversar | kit/sink, kit/marco_goldengate | - | -

@@ -3,7 +3,7 @@
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
 b0 | two | -  | tropa, placa: E SE..., objeto na mao | encena: cava (hammer) (acao + som de efeito) | -
-b1 | reveal | -  | tropa, mapa | (rosto) shock (expr + som de efeito); surpresa: (ring + som de alerta) | -
+b1 | reveal | -  | tropa, mapa | (rosto) shock (expr + som de efeito); surpresa: (ring + som de alerta); encena: grita (up) (acao + som de efeito) | -
 b2 | two | -  | objeto na mao | encena: cava (hammer) (acao + som de efeito) | -
 b3 | two | -  | objeto na mao | - | -
 b4 | low | -  | - | - | -

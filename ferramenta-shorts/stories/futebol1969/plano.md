@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | placa: 1969 | encena: bola (throw) (acao + som de efeito) | -
+b0 | two | -  | placa: 1969 | encena: chega (point) (acao + som de efeito); encena: bola (throw) (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | encena: golpe (punch) (acao + som de efeito) | -
 b2 | two | -  | - | - | -
 b3 | crowd | -  | batalha aberta com tiros, tropa, placa: 1 x 0 | (rosto) laugh (expr + som de efeito); venceu (stars + som de sino); encena: vence (up) (acao + som de efeito); encena: x_bate (punch) (acao + som de efeito) | -

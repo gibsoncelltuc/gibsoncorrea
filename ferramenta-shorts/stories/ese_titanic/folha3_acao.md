@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - E Se EP 10 - E Se o Titanic Não Tivesse Afundado?
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 6.3s - 18 palavras - plano two
@@ -10,12 +10,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | impossível (1.9s) | EFEITO: ring | onda + som | OK |
-| 2 | afundar (2.6s) | ACAO: desaba | desaba: nuvem de poeira + tremor | OK |
-| 3 | Afundou (3.0s) | EFEITO: dust | poeira + som | OK |
-| 4 | - | EMOCAO: shock | o rosto vira "shock" na palavra | OK |
-| 5 | - | INTERACAO | aproxima-se | OK |
-| 6 | - | ATUACAO | conversar | OK |
-| 7 | - | PLACA | 1912 | OK |
+| 2 | impossível (1.9s) | ACAO: duvida | ombros para cima (nao acredita) | OK |
+| 3 | afundar (2.6s) | ACAO: desaba | desaba: nuvem de poeira + tremor | OK |
+| 4 | Afundou (3.0s) | EFEITO: dust | poeira + som | OK |
+| 5 | - | EMOCAO: shock | o rosto vira "shock" na palavra | OK |
+| 6 | - | INTERACAO | aproxima-se | OK |
+| 7 | - | ATUACAO | conversar | OK |
+| 8 | - | PLACA | 1912 | OK |
 
 ## Cena b1 - 6.7s a 12.6s - 17 palavras - plano reveal
 > "Abril de mil novecentos e doze. O Titanic levava mais de duas mil pessoas para Nova York."
@@ -49,9 +50,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | morreram (29.3s) | EFEITO: puff | fumaca + som | OK |
-| 2 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | PLACA | BOTES | OK |
+| 2 | morreram (29.3s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
+| 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 5 | - | PLACA | BOTES | OK |
 
 ## Cena b5 - 29.6s a 31.9s - 7 palavras - plano two
 > "E se o Titanic tivesse chegado inteiro?"

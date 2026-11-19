@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 24 - O Foguete que Voltou de Ré
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.5s - 21 palavras - plano two
@@ -26,9 +26,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | impossível (18.1s) | EFEITO: ring | onda + som | OK |
-| 2 | - | EMOCAO: shock | o rosto vira "shock" na palavra | OK |
-| 3 | - | INTERACAO | discutir | OK |
-| 4 | - | ATUACAO | discutir | OK |
+| 2 | impossível (18.1s) | ACAO: duvida | ombros para cima (nao acredita) | OK |
+| 3 | - | EMOCAO: shock | o rosto vira "shock" na palavra | OK |
+| 4 | - | INTERACAO | discutir | OK |
+| 5 | - | ATUACAO | discutir | OK |
 
 ## Cena b3 - 19.6s a 24.6s - 13 palavras - plano two
 > "As primeiras tentativas de pouso deram errado. Foguetes tombaram, e explodiram no mar."

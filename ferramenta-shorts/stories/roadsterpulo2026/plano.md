@@ -5,7 +5,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | -  | placa: 2026 | (rosto) laugh (expr + som de efeito); encena: fala (point) (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | objeto na mao | - | -
-b3 | two | -  | objeto na mao | segredo (ring + som de alerta) | -
+b3 | two | -  | objeto na mao | segredo (ring + som de alerta); encena: pensa (think) (acao + som de efeito) | -
 b4 | crowd | -  | batalha aberta com tiros, tropa, placa: PULOU! | encena: pula (acao + som de efeito) | -
 b5 | low | -  | - | - | -
 b6 | two | -  | - | - | -

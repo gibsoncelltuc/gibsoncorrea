@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 13 - Você Está Demitido
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.1s - 16 palavras - plano two
@@ -27,8 +27,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | prêmio (13.2s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | - | INTERACAO | aproxima-se | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 2 | prêmio (13.2s) | ACAO: vence | bracos para cima + brilho | OK |
+| 3 | - | INTERACAO | aproxima-se | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b3 - 17.4s a 22.4s - 18 palavras - plano crowd
 > "Toda semana, as equipes tinham uma tarefa de negócios, como vender limonada na rua ou criar uma propaganda."
@@ -93,9 +94,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | apresentou (54.9s) | ACAO: fala | aponta explicando | OK |
 | 2 | saiu (57.6s) | ACAO: sai | sai andando pela lateral | OK |
-| 3 | - | INTERACAO | avanca e o outro recua | OK |
-| 4 | - | ATUACAO | conversar | OK |
-| 5 | - | CHEGADA | alguem entra andando | OK |
+| 3 | entrou (59.1s) | ACAO: chega | entra andando pela lateral | OK |
+| 4 | - | INTERACAO | avanca e o outro recua | OK |
+| 5 | - | ATUACAO | conversar | OK |
+| 6 | - | CHEGADA | alguem entra andando | OK |
 
 ## Cena b10 - 60.6s a 63.8s - 11 palavras - plano close
 > "Um programa de emprego que acabou ficando famoso justamente por demitir."

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 26 - O Presidente dos 85 por Cento
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 7.0s - 20 palavras - plano two
@@ -44,8 +44,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | ilegal (31.1s) | EFEITO: ring | onda + som | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | ATUACAO | reagir | OK |
+| 2 | ilegal (31.1s) | ACAO: duvida | ombros para cima (nao acredita) | OK |
+| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | ATUACAO | reagir | OK |
 
 ## Cena b5 - 33.3s a 36.3s - 9 palavras - plano two
 > "No dia da eleição, os salvadorenhos foram às urnas."
@@ -68,10 +69,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | ATUACAO | comemorar | OK |
-| 4 | - | PLACA | 84,6% | OK |
+| 1 | comemorou (44.4s) | ACAO: vence | bracos para cima + brilho | OK |
+| 2 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | ATUACAO | comemorar | OK |
+| 5 | - | PLACA | 84,6% | OK |
 
 ## Cena b8 - 47.0s a 52.2s - 15 palavras - plano two
 > "O motivo mais citado pelos eleitores: a queda enorme no número de assassinatos no país."

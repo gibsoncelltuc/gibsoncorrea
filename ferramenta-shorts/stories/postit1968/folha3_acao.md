@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 15 - A Cola que Não Colava
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.4s - 19 palavras - plano two
@@ -89,8 +89,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | vendas (57.9s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 2 | fracasso (58.5s) | EFEITO: puff | fumaca + som | OK |
-| 3 | - | INTERACAO | susto | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 3 | fracasso (58.5s) | ACAO: perde | mao na testa | OK |
+| 4 | - | INTERACAO | susto | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
 ## Cena b10 - 63.5s a 69.6s - 16 palavras - plano orbit
 > "Então distribuíram amostras de graça numa cidade inteira. Quase todo mundo que testou quis comprar mais."
@@ -108,7 +109,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | chegou (72.8s) | EFEITO: dust | poeira + som | OK |
-| 2 | deu (76.0s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| 4 | - | PLACA | 1980 | OK |
+| 2 | chegou (72.8s) | ACAO: chega | entra andando pela lateral | OK |
+| 3 | deu (76.0s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 4 | - | ATUACAO | conversar | OK |
+| 5 | - | PLACA | 1980 | OK |
 

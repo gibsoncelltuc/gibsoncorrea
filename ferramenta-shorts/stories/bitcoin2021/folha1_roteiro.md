@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Em dois mil e vinte e um, um país fez algo que nenhum outro tinha feito: aceitou o bitcoin como dinheiro oficial.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino
+- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino; encena: paga (reach) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GANCHO
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Com isso, dava para pagar as compras com bitcoin.
 - Som ambiente: sea
 - Efeitos sonoros marcados: ding@3
-- Efeito + som nas palavras-chave: pagar -> stars + som de sino; encena: negocio (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: pagar -> stars + som de sino; encena: paga (reach) -> acao + som de efeito; encena: negocio (reach) -> acao + som de efeito
 - Efeito visual marcado: stars@3
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Uma moeda digital, uma lei nova e um país no centro das atenções.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: paga (reach) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

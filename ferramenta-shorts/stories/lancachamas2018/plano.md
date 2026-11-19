@@ -6,7 +6,7 @@ b0 | two | -  | mapa | vender (stars + som de sino); encena: negocio (reach) (ac
 b1 | reveal | -  | tropa | - | -
 b2 | two | -  | placa: US$ 500 | - | -
 b3 | crowd | -  | batalha aberta com tiros, tropa | - | -
-b4 | wide | -  | tropa | incêndio (burst + som de tiro/explosao); encena: negocio (reach) (acao + som de efeito); encena: pega (lift) (acao + som de efeito) | -
+b4 | wide | -  | tropa | incêndio (burst + som de tiro/explosao); encena: negocio (reach) (acao + som de efeito); encena: queima (scared) (acao + som de efeito); encena: pega (lift) (acao + som de efeito) | -
 b5 | group | -  | - | encena: negocio (reach) (acao + som de efeito) | -
 b6 | crowd | -  | batalha aberta com tiros, tropa | encena: rende (up) (acao + som de efeito) | -
 b7 | two | -  | tropa | - | -

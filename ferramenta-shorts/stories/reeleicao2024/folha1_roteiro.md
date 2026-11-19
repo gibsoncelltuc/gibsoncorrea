@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: A contagem entrou pela madrugada. Os estados indecisos iam decidir tudo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: chega (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Os apoiadores comemoraram a noite inteira. Trump subiu ao palco e declarou vitória.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; comemoraram -> stars + som de sino; vitória -> stars + som de sino; encena: escala (lift) -> acao + som de efeito; encena: fala (point) -> acao + som de efeito; encena: vence (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; comemoraram -> stars + som de sino; vitória -> stars + som de sino; encena: vence (up) -> acao + som de efeito; encena: escala (lift) -> acao + som de efeito; encena: fala (point) -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: 312 VOTOS
 - Funcao na historia: GRANDE MOMENTO

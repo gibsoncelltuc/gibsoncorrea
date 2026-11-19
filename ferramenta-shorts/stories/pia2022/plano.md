@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | track | -  | - | apareceu (dust + som de impacto) | -
+b0 | track | -  | - | apareceu (dust + som de impacto); encena: chega (point) (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | encena: tira (lift) (acao + som de efeito); encena: x_fone (lift) (acao + som de efeito) | -
 b2 | two | -  | placa: DEIXE ISSO AFUNDAR | encena: desaba (acao + som de efeito) | -
 b3 | close | -  | - | encena: desaba (acao + som de efeito) | -

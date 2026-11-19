@@ -4,7 +4,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | arctic | track | 4 | andando | - | - | -
+b0 | arctic | track | 4 | encena, andando | - | - | -
 b1 | arctic | crowd | 13 | reagir | nature/tree_pine, nature/tree_oak, nature/bush | - | -
 b2 | arctic | close | 1 | conversar | buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow | - | -
 b3 | arctic | crowd | 13 | encena, batalha | - | - | -
@@ -12,7 +12,7 @@ b4 | arctic | close | 1 | conversar | - | - | -
 b5 | arctic | two | 2 | conversar, INTERAGEM: susto | nature/picket_fence | - | -
 b6 | arctic | group | 7 | reagir | - | - | -
 b7 | arctic | group | 12 | conversar, INTERAGEM: cochichar, batalha | - | - | -
-b8 | arctic | two | 1 | conversar | - | - | -
+b8 | arctic | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: nenhum achado (ponha "heroi": "kit/..." no topo do roteiro)
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b7

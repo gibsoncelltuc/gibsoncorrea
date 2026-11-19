@@ -423,7 +423,7 @@ ENC = [(r'^(misturou|misturaram|misturando|mistura|misturar|mexeu|mexendo|mexia|
        (r'^(pulou|pularam|pulando|pulava|pulavam|pular|pulasse|pulassem|pulam|pula|pulem|saltou|saltaram|saltando|saltar|saltasse|pulo|pulos|saltos?|quicou)$', None, 'pula'),
        (r'^(acenou|acenaram|acenando|tchau|despediu|despediram)$', 'wave2', 'acena'),
        (r'^(empurrou|empurraram|empurrando|puxou|puxaram|puxando|arrastou|arrastaram|arrastando)$', 'push', 'empurra'),
-       (r'^(deitou|deitaram|deitado|deitada|ajoelhou|ajoelharam|ajoelhado|ajoelhada|joelhos)$', None, 'senta'),
+       (r'^(deitou|deitaram|deitado|deitada)$', None, 'senta'), (r'^(ajoelhou|ajoelharam|ajoelhado|ajoelhada|ajoelhados|joelhos|implorou|imploravam|implorava|suplicou|suplicavam)$', 'plead', 'ajoelha'),
        (r'^(levantou-se|levantaram-se|levantou|ergueu-se)$', 'lift', 'pega'),
        (r'^(bebeu|beberam|bebendo|bebia|bebiam|tomou|tomaram|tomando|goles?|engoliu)$', 'lift', 'x_bebe'),
        (r'^(comeu|comeram|comendo|comia|comiam|almocou|jantou|devorou|mastigou|provou|experimentou)$', 'lift', 'x_come'),
@@ -457,7 +457,19 @@ ENC = [(r'^(misturou|misturaram|misturando|mistura|misturar|mexeu|mexendo|mexia|
        (r'^(mediu|mediram|pesou|calculou|contou|contaram)$', 'think', 'examina'),
        (r'^(apresentou|mostrou|exibiu|revelou|lancou|anunciou)$', 'point', 'fala'),
        (r'^(brilhar|brilhou|brilhava|brilhando|brilho|acendeu|acenderam|acendia|reluzia|reluziu|iluminou|cintilou|faiscas?|faiscava)$', 'point', 'brilha'),
-       (r'^(pegou|pegaram|segurou|ergueu|levantou|levantaram|carregou|carregaram)$', 'lift', 'pega')]
+       (r'^(pegou|pegaram|segurou|ergueu|levantou|levantaram|carregou|carregaram)$', 'lift', 'pega'),
+       # 19/11 (ordem do Gibson: acao especifica nao pode sair so com efeito): CORPO para as familias que ficavam so com efeito+som
+       (r'^(pagar|pagou|pagaram|pago|pagava|dinheiro|moeda|moedas|ouro|fortuna|vendeu|venderam|vendendo|vender|comprando|comprador|comprou|compraram|roubaram|roubou|recompensa)$', 'reach', 'paga'),
+       (r'^(chegou|chegaram|apareceu|apareceram|invadiu|invadiram|entrou|entraram)$', 'point', 'chega'),
+       (r'^(atirar|tiro|tiros|bala|balas|canhao|canhoes|artilharia|metralhadora|metralhadoras|bomba|bombas|ataque|ataques)$', None, 'atira'),
+       (r'^(brigar|briga|brigas|atacar|atacou|atacaram|discussao)$', 'punch', 'golpe'),
+       (r'^(perder|derrotado|derrotados|derrota|fracasso|desistiu|desistiram|retirada|baixas)$', 'facepalm', 'perde'),
+       (r'^(gritava|gritavam|socorro|panico|alarme|correria|caos|surpresa)$', 'up', 'grita'),
+       (r'^(festa|festas|comemoraram|comemorou|comemorando|comemorar|premio|ganhou)$', 'up', 'vence'),
+       (r'^(danca|dancando|dancar|dancou|dancaram|dancava|dancavam|dancam|dancarinos|musicos|tocar|tocava)$', 'up', 'danca'),
+       (r'^(segredo|segredos|cochichou|sussurrou)$', 'think', 'pensa'),
+       (r'^(impossivel|absurdo|ilegal|ninguemacreditou)$', 'shrug', 'duvida'),
+       (r'^(fogo|incendio|chamas)$', 'scared', 'queima')]
 ENC_MAT = [(r'borracha|latex|seiva|goma|gosma|massa|pasta|cola|mistura', 'kit/gosma'), (r'enxofre|polvora|\bpo\b', 'kit/enxofre'), (r'quimic|acido|liquido|reagente', 'kit/frasco'), (r'ovo', 'kit/egg'), (r'chocolate', 'kit/chocolate')]
 ENC_RES = [(r'borracha|elastic|firme|couro|vulcaniz', 'kit/borracha'), (r'pneu', 'kit/tires'), (r'\bbola\b', 'kit/ball'), (r'pipoca', 'kit/popcorn'), (r'chocolate', 'kit/chocolate'),
            (r'post.?it|bilhete', 'kit/postit'), (r'velcro|carrapicho', 'kit/burr'), (r'penicilina|mofo|bolor|placa', 'kit/petri'), (r'raio.?x|radiograf', 'kit/xray_plate'), (r'vacina|seringa', 'kit/syringe'),
@@ -1098,7 +1110,8 @@ def build_beat(k, b):
         for n_e, (wi_, gest_, tipo_, j_) in enumerate(_encs[:6]):
             b.setdefault('_enc_words', []).append(nrm(_ws[j_]))
             _ate = f"WS({_encs[n_e + 1][0]}) - 4" if n_e + 1 < len(_encs[:6]) else f"WS({wi_}) + 46"
-            if tipo_ == 'corta' and re.search(r'dedo|bisturi|faca|tesoura|navalha|semachucou|mao|nariz|orelha|espada', _sy_): gest_ = 'reach'   # corte no dedo: estende a mao machucada (nao martela)
+            if tipo_ == 'corta' and re.search(r'dedo|bisturi|faca|tesoura|navalha|semachucou|mao|nariz|orelha|espada', _sy_): gest_ = 'reach'
+            if tipo_ == 'danca' and re.search(_DANCA_OUTRO, _sy_): gest_ = None   # corte no dedo: estende a mao machucada (nao martela)
             if gest_ and not (persons[0][3] == 'rifle' and tipo_ in ('pega', 'golpe')): _gst.setdefault(0, []).append(f"[WS({wi_}) - 4, {_ate}, '{gest_}']")
             mat_ = next((a_ for rx2_, a_ in ENC_MAT if re.search(rx2_, _resto(j_) + ' ' + nrm(b['say']))), None)
             if tipo_ == 'mistura':
@@ -1167,11 +1180,12 @@ def build_beat(k, b):
                     pr.append(f"{{ asset: 'kit/grave', a: {a}, b: {bb}, at: [X + {num(_hx + _side * 0.9)}, {num(_z0 - 0.4)}], s: 1.0, drop: false }}"); KWSFX.append((wi_, 'sting'))
                 else:
                     _gst.setdefault(('poses', 0), []).append(f"[WS({wi_}) + 2, {bb}, 'fall']"); fx.append(f"{{ k: 'dust', a: WS({wi_}) + 4, b: WS({wi_}) + 30, at: [X + {num(sl[0] + 0.6)}, DK + 0.1, {num(_z0 + 0.3)}], s: 0.8 }}"); KWSFX.append((wi_, 'thump'))
-            elif tipo_ in ('tomba', 'dorme', 'senta'):
+            elif tipo_ in ('tomba', 'dorme', 'senta', 'ajoelha'):
                 _who_ = 1 if (tipo_ == 'tomba' and len(persons) > 1 and re.search(r'derrub|nocaute|golpe', _sy_) and not re.search(r'\bele foi ao chao', _sy_)) else 0
                 _ini_ = f"WS({wi_}) + 2" if tipo_ == 'tomba' else f"Math.max({a} + 6, WS({wi_}) - 36)"   # dormir/sentar comeca antes da palavra (palavra no fim da frase sumia)
-                _gst.setdefault(('poses', _who_), []).append(f"[{_ini_}, {bb}, '{ {'tomba': 'fall', 'dorme': 'sleep', 'senta': 'sit'}[tipo_] }']")
-                if tipo_ == 'dorme' and _who_ == 0: _st['dorme'] = True   # continua dormindo nas proximas frases ate 'acordou'
+                _gst.setdefault(('poses', _who_), []).append(f"[{_ini_}, {bb}, '{ {'tomba': 'fall', 'dorme': 'sleep', 'senta': 'sit', 'ajoelha': 'kneel'}[tipo_] }']")
+                if tipo_ == 'dorme' and _who_ == 0: _st['dorme'] = True
+                if tipo_ == 'ajoelha' and (b.get('crowd') or re.search(r'(ajoelharam|imploravam|suplicavam|ajoelhados|todos|elas|eles|mulheres|homens|maes|soldados|pessoas)', _sy_)): _gst['todos_pose'] = f"[{_ini_}, {bb}, 'kneel']"   # plural: todo mundo de joelhos   # continua dormindo nas proximas frases ate 'acordou'
                 if tipo_ == 'tomba': fx.append(f"{{ k: 'dust', a: WS({wi_}) + 4, b: WS({wi_}) + 30, at: [X + {num(sl[_who_] + 0.6)}, DK + 0.1, {num(_z0 + 0.3)}], s: 0.8 }}"); KWSFX.append((wi_, 'thump'))
             elif tipo_ == 'raspa':
                 if HEROI and 'clip' in HEROI: pr.append(f"{{ asset: {json.dumps(HEROI)}, a: WS({wi_}) - 4, b: {bb}, at: [X + {num(_hx)}, {num(_z0 + 0.4)}], y: DK + 2.4, s: 0.45, drop: false }}")
@@ -1202,6 +1216,13 @@ def build_beat(k, b):
                 pr.append(f"{{ asset: 'kit/fire', a: WS({wi_}) - 2, b: {bb}, at: [X + {num(_tx)}, {num(_tz)}], s: 0.8, drop: false }}")
                 for q_ in range(3): fx.append(f"{{ k: 'puff', a: WS({wi_}) + {q_ * 10}, b: WS({wi_}) + {q_ * 10 + 26}, at: [X + {num(_tx)}, DK + 2.0, {num(_tz)}], s: 0.7 }}")
                 KWSFX.append((wi_, 'creak'))
+            elif tipo_ == 'danca' and re.search(_DANCA_OUTRO, _sy_):   # quem danca e' a coisa (atomos/cobras no sonho): brilhos rodando no ar em volta do objeto da cena
+                for q_ in range(3): fx.append(f"{{ k: 'stars', a: WS({wi_}) + {q_ * 10}, b: WS({wi_}) + {q_ * 10 + 34}, at: [X + {num(_tx + (q_ - 1) * 0.7)}, DK + {1.4 + 0.4 * q_}, {num(_tz)}], s: 0.7 }}")
+                KWSFX.append((wi_, 'ding'))
+            elif tipo_ == 'paga':   # dinheiro/pagar/vender: moedas na mao estendida + brilho
+                pr.append(f"{{ asset: 'kit/coin', a: Math.max({a} + 4, WS({wi_}) - 20), b: {bb}, at: [X + {num(_hx + _side * 0.25)}, {num(_z0 + 0.5)}], y: DK + 1.25, s: 0.32, drop: false }}"); KWSFX.append((wi_, 'ding'))
+            elif tipo_ == 'chega' and acts and not b.get('_chega') and not (shot == 'track' or mv) and 'move:' not in acts[0] and acts[0].startswith(('pp(', 'Object.assign(pp(')):   # chegou/apareceu: entra andando pela lateral e para no lugar
+                _gst.setdefault('sai', []).append(f"at: [X + {num(sl[0] + _side * 6)}, {num(_z0 - 0.8)}], move: [[X + {num(sl[0])}, {num(_z0)}], Math.max({a}, WS({wi_}) - 30), WS({wi_}) + 20, 'lin'], walk: 'stroll'")
             elif tipo_ == 'atira':
                 if not (persons[0][3] == 'rifle' or B.get('outfits', {}).get(persons[0][0], {}).get('rifle')) and acts: acts[0] = f"Object.assign({acts[0]}, {{ over: {{ rifle: true }} }})"
                 b.setdefault('_shots', []).append(f"WS({wi_}) + 2")
@@ -1243,6 +1264,9 @@ def build_beat(k, b):
         if _gst.get('inter') and acts and acts[0].startswith(('pp(', 'Object.assign(pp(')) and 'inter:' not in acts[0]: acts[0] = f"Object.assign({acts[0]}, {{ {_gst['inter'][0]} }})"
         for _w in (0, 1):
             if _gst.get(('poses', _w)) and len(acts) > _w and len(persons) > _w: acts[_w] = f"Object.assign({acts[_w]}, {{ poses: [{', '.join(_gst[('poses', _w)])}] }})"   # caiu/dormindo/sentou na palavra
+        if _gst.get('todos_pose'):
+            for _w in range(len(acts)):
+                if acts[_w].startswith(('pp(', 'Object.assign(pp(')) and 'poses:' not in acts[_w]: acts[_w] = f"Object.assign({acts[_w]}, {{ poses: [{_gst['todos_pose']}] }})"
         if _encs and not wide: opts.append('vary: false')   # a acao acontece numa tomada so' (sem sub-corte no meio do processo)
     # MODO DE ACAO no build: soldados voando na explosao, navios chegando, aperto de mao, voltando para casa
     _wsay = b['say'].split(); _wi_of = lambda rx_: next((starts[k] + j_ for j_, w_ in enumerate(_wsay) if re.search(rx_, nrm(w_))), starts[k])
@@ -1320,7 +1344,7 @@ def build_beat(k, b):
         call = f"{{ ...{call}, {cam}, nocut: true }}"
     # DETALHE DE OBJETO (canal: 5-15% do video e' close no objeto da historia): no meio da cena a camera desliza ate o objeto ou a placa e volta
     _cands = [p_ for p_ in props if not str(p_[0]).startswith(('kit/room', 'kit/porch', 'kit/grave', 'kit/cross', 'kit/tulip_bed', 'buildings/', 'vehicles/', 'ship', 'nature/picket_fence', 'nature/haybale', 'nature/scarecrow', 'nature/bush', 'nature/rocks', 'nature/tree'))]
-    _cands = [p_ for p_ in _cands if (float(p_[2]) if len(p_) > 2 else 0.5) > -3.0 and not str(p_[0]) in ('kit/campfire', 'kit/fire', 'kit/logs', 'kit/volcano', 'kit/tower', 'kit/tower_catch', 'kit/booster_air', 'kit/prison', 'kit/white_house', 'kit/mountain_bunker', 'kit/miners', 'kit/falcon_air', 'kit/falcon9_land', 'kit/b2_air', 'kit/balloon_air', 'kit/helicopter_air', 'kit/iceberg')]   # close de detalhe so em objeto pequeno e perto (objeto gigante ao fundo = tela vazia)
+    _cands = [p_ for p_ in _cands if (float(p_[2]) if len(p_) > 2 else 0.5) > -3.0 and ((str(p_[0]) == str(HEROI) and str(HEROI) in ('kit/logs', 'kit/campfire', 'kit/fire')) or not str(p_[0]) in ('kit/campfire', 'kit/fire', 'kit/logs', 'kit/volcano', 'kit/tower', 'kit/tower_catch', 'kit/booster_air', 'kit/prison', 'kit/white_house', 'kit/mountain_bunker', 'kit/miners', 'kit/falcon_air', 'kit/falcon9_land', 'kit/b2_air', 'kit/balloon_air', 'kit/helicopter_air', 'kit/iceberg'))]   # heroi pequeno (toras, fogueira) pode ter close; close de detalhe so em objeto pequeno e perto (objeto gigante ao fundo = tela vazia)
     _fam2 = lambda x_: re.sub(r'_(red|yellow|purple|striped)$', '', str(x_))
     _obj = next((p_ for p_ in _cands if HEROI and _fam2(p_[0]) == _fam2(HEROI)), None); _eh = _obj is not None
     _obj = _obj or next(iter(_cands), None)
@@ -1572,7 +1596,7 @@ _f1 += (['', '## Fontes (fatos conferidos)'] + [f'- {u_}' for u_ in B['fontes']]
 _ENC_DESC = {'mistura': 'mexe a panela (borbulhando)', 'cai': 'o material voa da mao e cai no alvo pela GRAVIDADE (parabola, 0,53 s) + respingo', 'calor': 'vapor/calor saindo', 'vira': 'o material vira o produto, que surge girando em destaque',
     'constroi': 'martela e o objeto cresce', 'examina': 'examina com lupa/microscopio/balanca', 'quimico': 'frasco e tubos de ensaio + fumacinha', 'escreve': 'escreve/assina', 'golpe': 'soco + estouro', 'pega': 'levanta/segura',
     'corta': 'machado e toras + poeira', 'voto': 'poe o voto na urna', 'quebra': 'quebra + estouro + tremor', 'desaba': 'desaba: nuvem de poeira + tremor', 'pensa': 'mao no queixo + brilho de ideia',
-    'protesto': 'punho para cima (protesto)', 'fala': 'aponta explicando', 'olha': 'aponta/olha', 'sai': 'sai andando pela lateral', 'tomba': 'cai sentado no chao + poeira', 'morre': 'cai no chao (ou tumulo se morreu anos depois)', 'dorme': 'dormindo', 'senta': 'senta',
+    'protesto': 'punho para cima (protesto)', 'fala': 'aponta explicando', 'olha': 'aponta/olha', 'sai': 'sai andando pela lateral', 'tomba': 'cai sentado no chao + poeira', 'paga': 'estende a mao com moedas + brilho', 'chega': 'entra andando pela lateral', 'danca': 'danca de bracos para cima', 'duvida': 'ombros para cima (nao acredita)', 'ajoelha': 'de joelhos, maos de suplica', 'morre': 'cai no chao (ou tumulo se morreu anos depois)', 'dorme': 'dormindo', 'senta': 'senta',
     'raspa': 'maquina na cabeca + cabelo voando', 'prende': 'empurra/prende', 'escala': 'escala (bracos para cima)', 'espeta': 'espeta + estouro', 'bola': 'chuta a bola: parabola pela GRAVIDADE (0,67 s)', 'negocio': 'moeda girando (compra/venda)',
     'tira': 'tira foto (celular + flash)', 'rende': 'maos para cima (rendicao)', 'voa': 'decola: poeira no chao, olha para cima', 'cava': 'cava: poeira', 'vence': 'bracos para cima + brilho', 'perde': 'mao na testa',
     'toca': 'onda de som (sirene/sino)', 'queima': 'fogo + fumaca', 'grita': 'grita de bracos para cima', 'atira': 'arma na mao, aponta, clarao e som de tiro', 'corre': 'sai correndo pela lateral + poeira', 'pula': f'pula 2 vezes: sobe {GPULO_H} m e volta pela GRAVIDADE em {GPULO_T:.2f} s cada pulo', 'acena': 'acena com a mao', 'empurra': 'empurra/puxa', 'brilha': 'o objeto brilha na palavra (ondas de luz + estrelas)',

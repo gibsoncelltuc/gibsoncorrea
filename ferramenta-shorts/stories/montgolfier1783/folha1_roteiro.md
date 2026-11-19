@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 - Narracao: A solução: mandar bichos na frente. Uma ovelha, um pato e um galo entraram na cesta.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: quimico (pour) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: quimico (pour) -> acao + som de efeito; encena: chega (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

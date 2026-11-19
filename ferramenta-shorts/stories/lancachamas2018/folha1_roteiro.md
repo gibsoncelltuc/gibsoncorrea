@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Cada compra vinha com um extintor de incêndio de brinde.
 - Som ambiente: sea
 - Efeitos sonoros marcados: ding@4
-- Efeito + som nas palavras-chave: incêndio -> burst + som de tiro/explosao; encena: negocio (reach) -> acao + som de efeito; encena: pega (lift) -> acao + som de efeito
+- Efeito + som nas palavras-chave: incêndio -> burst + som de tiro/explosao; encena: negocio (reach) -> acao + som de efeito; encena: queima (scared) -> acao + som de efeito; encena: pega (lift) -> acao + som de efeito
 - Efeito visual marcado: stars@4
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
