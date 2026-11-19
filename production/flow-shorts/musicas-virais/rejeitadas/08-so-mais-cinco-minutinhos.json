@@ -1,0 +1,15 @@
+{
+  "lm_model": "acestep-5Hz-lm-1.7B-Q8_0.gguf",
+  "synth_model": "acestep-v15-turbo-Q8_0.gguf",
+  "caption": "Gentle cheerful Brazilian nursery-rhyme style children's song for babies and toddlers up to 5 years old, sweet and soft, extremely catchy singalong, warm friendly adult male lead vocal with a sweet kids choir answering the hook, bright and playful but calm and cute, clean polished mix, the hook starts right on the first beat with no intro, every section lasts exactly 4 bars, short repeated chorus, simple melody in small steps, call and response with the kids choir, the last chorus goes up by a whole step (key change), clear Portuguese pronunciation of every word, funny bouncy soft bass, playful ukulele, hand claps, quirky xylophone, cute call and response, kids choir saying the hook",
+  "lyrics": "[Chorus]\nSó mais cinco minutinhos, só mais um,\njá é hora de dormir? Nenhum!\nSó mais cinco minutinhos, por favor,\ntá bom, tá bom, eu vou, meu amor!\n\n[Verse 1]\nEscovei os dentes, vesti o pijama,\nquero só mais uma historinha na cama,\nquero só mais um beijinho,\ne um abraço bem apertadinho!\n\n[Chorus]\nSó mais cinco minutinhos, só mais um,\njá é hora de dormir? Nenhum!\nSó mais cinco minutinhos, por favor,\ntá bom, tá bom, eu vou, meu amor!\n\n[Verse 2]\nA mamãe disse: já chega, filhinho,\no papai disse: vem, amiguinho,\na lua já brilha, o sono já vem,\neu bocejo, aaaah, que sono bem!\n\n[Bridge]\nCinco, quatro, três, dois, um,\nshhh, não faço mais nenhum,\ncinco, quatro, três, dois, um,\nshhh, boa noite, bom sonho a cada um!\n\n[Chorus]\nSó mais cinco minutinhos, só mais um,\njá é hora de dormir? Nenhum!\nSó mais cinco minutinhos, por favor,\ntá bom, tá bom, eu vou, meu amor!\n\n[Final Chorus]\nSó mais cinco minutinhos, só mais um,\njá é hora de dormir? Nenhum!\nSó mais cinco minutinhos, por favor,\ntá bom, tá bom, eu vou, meu amor!",
+  "duration": 60,
+  "bpm": 120,
+  "vocal_language": "pt",
+  "keyscale": "F major",
+  "timesignature": "4",
+  "inference_steps": 8,
+  "guidance_scale": 1.0,
+  "shift": 3.0,
+  "seed": 41
+}

@@ -1,0 +1,15 @@
+{
+  "lm_model": "acestep-5Hz-lm-1.7B-Q8_0.gguf",
+  "synth_model": "acestep-v15-turbo-Q8_0.gguf",
+  "caption": "Gentle cheerful Brazilian nursery-rhyme style children's song for babies and toddlers up to 5 years old, sweet and soft, extremely catchy singalong, warm friendly adult male lead vocal with a sweet kids choir answering the hook, bright and playful but calm and cute, clean polished mix, the hook starts right on the first beat with no intro, every section lasts exactly 4 bars, short repeated chorus, simple melody in small steps, call and response with the kids choir, the last chorus goes up by a whole step (key change), clear Portuguese pronunciation of every word, sunny acoustic guitar strums, soft hand claps, bright glockenspiel, gentle whistle, upbeat soft bass, morning energy",
+  "lyrics": "[Chorus]\nBom dia, sol, bom dia, céu,\nque bom, que bom, o dia nasceu,\nestica, estica o corpinho,\nbom dia, sol, com carinho!\n\n[Verse 1]\nOs braços pra cima, bem alto, bem alto,\ndepois pra baixo, num salto,\ngira a cabecinha, devagarinho,\ne dá um sorriso bonitinho!\n\n[Chorus]\nBom dia, sol, bom dia, céu,\nque bom, que bom, o dia nasceu,\nestica, estica o corpinho,\nbom dia, sol, com carinho!\n\n[Verse 2]\nEscovo os dentinhos, lavo o rostinho,\ntomo o café bem quentinho,\ncalço o tênis, vou pro jardim,\nbom dia pra você e pra mim!\n\n[Bridge]\nSol, sol, sol, sol, bom dia, bom dia,\nsol, sol, sol, sol, que alegria!\n\n[Chorus]\nBom dia, sol, bom dia, céu,\nque bom, que bom, o dia nasceu,\nestica, estica o corpinho,\nbom dia, sol, com carinho!\n\n[Final Chorus]\nBom dia, sol, bom dia, céu,\nque bom, que bom, o dia nasceu,\nestica, estica o corpinho,\nbom dia, sol, com carinho!",
+  "duration": 60,
+  "bpm": 112,
+  "vocal_language": "pt",
+  "keyscale": "D major",
+  "timesignature": "4",
+  "inference_steps": 8,
+  "guidance_scale": 1.0,
+  "shift": 3.0,
+  "seed": 23
+}

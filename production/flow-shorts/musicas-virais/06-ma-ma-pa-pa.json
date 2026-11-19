@@ -1,0 +1,15 @@
+{
+  "lm_model": "acestep-5Hz-lm-1.7B-Q8_0.gguf",
+  "synth_model": "acestep-v15-turbo-Q8_0.gguf",
+  "caption": "Gentle cheerful Brazilian nursery-rhyme style children's song for babies and toddlers up to 5 years old, sweet and soft, extremely catchy singalong, warm friendly adult male lead vocal with a sweet kids choir answering the hook, bright and playful but calm and cute, clean polished mix, the hook starts right on the first beat with no intro, every section lasts exactly 4 bars, short repeated chorus, simple melody in small steps, call and response with the kids choir, the last chorus goes up by a whole step (key change), clear Portuguese pronunciation of every word, gentle music-box and glockenspiel, soft ukulele, light hand claps, warm bass, tender and happy baby-friendly feel",
+  "lyrics": "[Chorus]\nMa-ma, pa-pa, ma-ma, pa-pa,\na primeira palavrinha vai chegar,\nma-ma, pa-pa, ma-ma, pa-pa,\no bebê já sabe chamar!\n\n[Verse 1]\nQuem me abraça de manhã? É a mamãe, minha fã,\nquem me leva pra brincar? É o papai, vem me pegar,\nma-ma, ma-ma, pa-pa, pa-pa,\nque alegria vai chegar!\n\n[Chorus]\nMa-ma, pa-pa, ma-ma, pa-pa,\na primeira palavrinha vai chegar,\nma-ma, pa-pa, ma-ma, pa-pa,\no bebê já sabe chamar!\n\n[Verse 2]\nEu tento falar, eu tento falar,\nma-ma, pa-pa, vou conseguir chamar,\na mamãe sorri, o papai também,\nma-ma, pa-pa, que alegria que vem!\n\n[Bridge]\nMa-ma, pa-pa, ma-ma, pa-pa,\neu te amo, mamãe,\neu te amo, papai,\no amor nunca sai!\n\n[Chorus]\nMa-ma, pa-pa, ma-ma, pa-pa,\na primeira palavrinha vai chegar,\nma-ma, pa-pa, ma-ma, pa-pa,\no bebê já sabe chamar!",
+  "duration": 60,
+  "bpm": 100,
+  "vocal_language": "pt",
+  "keyscale": "C major",
+  "timesignature": "4",
+  "inference_steps": 8,
+  "guidance_scale": 1.0,
+  "shift": 3.0,
+  "seed": 23
+}
