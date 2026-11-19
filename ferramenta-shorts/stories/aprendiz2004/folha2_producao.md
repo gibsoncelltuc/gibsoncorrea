@@ -92,12 +92,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aprendiz, brasil, formato, roberto
 - RISCOS: nenhum
 
-## Cena b9 - Trump apresentou o programa por mais de dez anos, e só saiu em dois mi...
+## Cena b9 - Trump apresentou o programa por mais de dez anos, até dois mil e quinz...
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): TRU (variante 0, expressao smug); POV (variante 0, expressao smile)
-- Animacao: conversar | interacao: o outro se aproxima | o ultimo personagem ENTRA andando
+- Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/marco_trumptower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): politica, programa
 - RISCOS: nenhum
@@ -124,7 +124,7 @@ nature/picket_fence | b6 | pronto | conferir na folha de contato se le bem; se p
 
 
 ## Video inteiro
-- Objeto heroi: kit/tv | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 21% | medio 66% | aberto 11% | detalhe 2%
+- Objeto heroi: kit/tv | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 21% | medio 65% | aberto 12% | detalhe 2%
 - Interacoes: b0 susto, b2 aproxima-se, b4 avanca e o outro recua, b7 vai ate o outro, b8 discutir, b9 o outro se aproxima
 - RISCOS GERAIS: nenhum
 

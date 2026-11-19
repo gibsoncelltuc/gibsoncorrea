@@ -11,8 +11,8 @@ b5 | close | -  | interior, placa: VOCÊ ESTÁ DEMITIDO! | - | -
 b6 | crowd | -  | batalha aberta com tiros, tropa, placa: 28 MILHÕES | - | -
 b7 | group | -  | - | ganhou (stars + som de sino); encena: vence (up) @1 (acao + som de efeito) | -
 b8 | group | -  | mapa | - | -
-b9 | group | -  | - | encena: fala (point) @1 (acao + som de efeito); encena: sai @11 (acao + som de efeito); encena: chega (point) @18 (acao + som de efeito) | -
+b9 | group | -  | - | encena: fala (point) @1 (acao + som de efeito) | -
 b10 | close | -  | - | - | -
 
-Mistura de planos: close 21% | medio 66% | aberto 11% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 21% | medio 65% | aberto 12% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

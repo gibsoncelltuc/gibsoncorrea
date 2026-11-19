@@ -13,7 +13,7 @@ b5 | interior loja | close | 1 | conversar | - | - | -
 b6 | countryside | crowd | 33 | comemorar, batalha | kit/tv, kit/marco_trumptower, nature/picket_fence | - | -
 b7 | countryside | group | 2 | conversar, INTERAGEM: vai ate o outro | kit/marco_trumptower | - | -
 b8 | street | group | 2 | conversar, INTERAGEM: discutir | kit/marco_trumptower | - | -
-b9 | harbor | group | 2 | conversar, INTERAGEM: o outro se aproxima, alguem chega andando | kit/marco_trumptower | - | -
+b9 | harbor | group | 2 | conversar, INTERAGEM: o outro se aproxima | kit/marco_trumptower | - | -
 b10 | street | close | 1 | comemorar | kit/tv, kit/marco_trumptower | - | -
 
 OBJETO HEROI: kit/tv - aparece em 2 cena(s), close nele em 1

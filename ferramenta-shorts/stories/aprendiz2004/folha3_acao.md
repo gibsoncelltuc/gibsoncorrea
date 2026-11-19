@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 13 - Você Está Demitido
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.5s - 14 palavras - plano two
@@ -40,7 +40,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b4 - 23.2s a 27.0s - 15 palavras - plano two
+## Cena b4 - 23.2s a 26.8s - 15 palavras - plano two
 > "No fim, a equipe perdedora ia para a sala de reunião, e alguém era eliminado."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -49,7 +49,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | avanca e o outro recua | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b5 - 27.1s a 33.8s - 20 palavras - plano close
+## Cena b5 - 28.2s a 33.8s - 20 palavras - plano close
 > "Acontece que o jeito de eliminar virou a marca do programa. Ele apontava o dedo e dizia: você está demitido."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -57,7 +57,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | VOCÊ ESTÁ DEMITIDO! | OK |
 
-## Cena b6 - 34.0s a 38.6s - 16 palavras - plano crowd
+## Cena b6 - 35.3s a 38.7s - 16 palavras - plano crowd
 > "A final da primeira temporada foi vista por cerca de vinte e oito milhões de americanos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -66,17 +66,17 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | comemorar | OK |
 | 3 | - | PLACA | 28 MILHÕES | OK |
 
-## Cena b7 - 38.9s a 45.2s - 17 palavras - plano group
+## Cena b7 - 40.2s a 45.3s - 17 palavras - plano group
 > "O vencedor, Bill Rancic, ganhou o emprego, com salário de duzentos e cinquenta mil dólares por ano."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | vencedor (39.0s) | ACAO: vence | bracos para cima + brilho | OK |
-| 2 | ganhou (41.4s) | EFEITO: stars | estrelinhas + som | OK |
+| 1 | vencedor (40.4s) | ACAO: vence | bracos para cima + brilho | OK |
+| 2 | ganhou (42.0s) | EFEITO: stars | estrelinhas + som | OK |
 | 3 | - | INTERACAO | vai ate o outro | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b8 - 45.5s a 52.1s - 17 palavras - plano group
+## Cena b8 - 46.5s a 52.5s - 17 palavras - plano group
 > "O formato se espalhou pelo mundo. No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -85,19 +85,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | MAPA | BRASIL | OK |
 
-## Cena b9 - 52.3s a 58.5s - 21 palavras - plano group
-> "Trump apresentou o programa por mais de dez anos, e só saiu em dois mil e quinze, quando entrou na política."
+## Cena b9 - 53.8s a 58.2s - 19 palavras - plano group
+> "Trump apresentou o programa por mais de dez anos, até dois mil e quinze, quando foi para a política."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | apresentou (52.9s) | ACAO: fala | aponta explicando | OK |
-| 2 | saiu (56.6s) | ACAO: sai | sai andando pela lateral | OK |
-| 3 | entrou (57.8s) | ACAO: chega | entra andando pela lateral | OK |
-| 4 | - | INTERACAO | o outro se aproxima | OK |
-| 5 | - | ATUACAO | conversar | OK |
-| 6 | - | CHEGADA | alguem entra andando | OK |
+| 1 | apresentou (53.9s) | ACAO: fala | aponta explicando | OK |
+| 2 | - | INTERACAO | o outro se aproxima | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 58.7s a 62.6s - 11 palavras - plano close
+## Cena b10 - 58.4s a 62.3s - 11 palavras - plano close
 > "Um programa de emprego que acabou ficando famoso justamente por demitir."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

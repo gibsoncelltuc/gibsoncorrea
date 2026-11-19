@@ -214,8 +214,8 @@
     "POV:0:smile"
    ],
    "props": [],
-   "acao": "conversar",
-   "say": "Trump apresentou o programa por mais de dez anos, e só saiu em dois mil e quinze, quando entrou na política."
+   "say": "Trump apresentou o programa por mais de dez anos, até dois mil e quinze, quando foi para a política.",
+   "acao": "conversar"
   },
   {
    "shot": "close",
