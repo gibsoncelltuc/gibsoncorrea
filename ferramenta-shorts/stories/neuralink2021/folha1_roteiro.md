@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Em dois mil e vinte e quatro, o primeiro paciente humano recebeu o chip, e jogou xadrez no computador só pensando.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: encena: pensa (think) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_entrega (reach) -> acao + som de efeito; encena: pensa (think) -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

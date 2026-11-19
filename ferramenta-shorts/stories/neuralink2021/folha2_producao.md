@@ -3,9 +3,9 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/neuralink2021/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py neuralink2021` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Uma empresa de Elon Musk mostrou um macaco jogando videogame. Sem as m...
-- Cenario: interior loja | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Cenario: street | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MUS (variante 0, expressao grin); CIE (variante 0, expressao surprised)
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/monkey_pong
@@ -83,7 +83,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - O objetivo, segundo a empresa, é ajudar pessoas paralisadas a usar com...
-- Cenario: interior loja | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): MUS (variante 0, expressao smug); CIM (variante 0, expressao grin)
@@ -132,15 +132,11 @@ kit/miners | b8 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/monkey_pong | grandes momentos: b7, b10 | planos abertos: 3 | mistura: close 18% | medio 71% | aberto 11% | detalhe 0%
+- Objeto heroi: kit/monkey_pong | grandes momentos: b7, b10 | planos abertos: 3 | mistura: close 18% | medio 69% | aberto 11% | detalhe 2%
 - Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b5 cochichar, b8 discutir, b9 entregar
-- RISCOS GERAIS: 
-  - objeto heroi (kit/monkey_pong) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
-  - pouca variedade de cenario ({'interior loja': 8, 'street': 4}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 2 risco(s) em aberto
-- geral: objeto heroi (kit/monkey_pong) sem close de camera
-- geral: pouca variedade de cenario ({'interior loja': 8, 'street': 4}): o video fica parecendo todos os outros
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh neuralink2021 bN bM` (so essas cenas).

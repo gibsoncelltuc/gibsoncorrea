@@ -27,3 +27,5 @@ const SPEC = {
     S('b10', A[10], A[11] - 1, X_harbor, "day", { h: 2.4, d0: 5.6, d1: 4.9, hero: { hero: 'any', frame: 'medium', minH: 0.07, main: 1 }, trans: 'dissolve', actors: [pp(X_harbor, "NAP", 0, 0.0, 1.3, "sad", { pose: 'talk' })], props: [{ asset: "buildings/shop", at: [X_harbor + -4.8, -11.0], s: 1.05, ry: 0.35, drop: false }, { asset: "kit/crown", at: [X_harbor + -1.4, -0.8], s: 1.0, drop: false }], fx: [{ k: 'stars', a: A[10] + 6, b: A[10] + 40, at: [X_harbor + -1.4, DK + 1.6, -0.3], s: 0.8 }, { k: 'birds', a: A[10], b: A[11] - 1, at: [X_harbor, DK + 6.0, -30], n: 5, dir: -1, off: 8 }] })
   ],
 };
+
+// FOLHA3 80365944ec38 33 acoes=33 faltando=0

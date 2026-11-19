@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - E Se EP 04 - E Se a Internet Acabasse por Um Dia?
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 4.1s - 16 palavras - plano two
@@ -29,8 +29,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | caíram (13.1s) | EFEITO: dust | poeira + som | OK |
-| 2 | - | INTERACAO | discutir | OK |
-| 3 | - | ATUACAO | discutir | OK |
+| 2 | mensagem (16.2s) | ACAO: x_fone | celular na mao + toque | OK |
+| 3 | - | INTERACAO | discutir | OK |
+| 4 | - | ATUACAO | discutir | OK |
 
 ## Cena b3 - 17.6s a 23.7s - 18 palavras - plano crowd
 > "Em dois mil e vinte e quatro, uma atualização com defeito travou oito milhões de computadores. Aeroportos pararam."
@@ -45,9 +46,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | dinheiro (30.7s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | - | INTERACAO | discutir | OK |
-| 3 | - | ATUACAO | reagir | OK |
+| 1 | celular (28.4s) | ACAO: x_fone | celular na mao + toque | OK |
+| 2 | dinheiro (30.7s) | EFEITO: stars | estrelinhas + som | OK |
+| 3 | - | INTERACAO | discutir | OK |
+| 4 | - | ATUACAO | reagir | OK |
 
 ## Cena b5 - 31.5s a 36.1s - 15 palavras - plano two
 > "Hospitais e bancos voltariam para o papel e a caneta. Fila dando volta no quarteirão."

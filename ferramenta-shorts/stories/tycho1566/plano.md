@@ -8,7 +8,7 @@ b2 | group | -  | interior, objeto na mao | (rosto) laugh (expr + som de efeito)
 b3 | two | pordosol  | objeto na mao | briga (puff + som de baque) | -
 b4 | low | pordosol  | objeto na mao | encena: golpe (punch) (acao + som de efeito); encena: corta (hammer) (acao + som de efeito) | -
 b5 | two | dia  | - | - | -
-b6 | group | -  | tropa | - | -
+b6 | group | -  | tropa | encena: x_entrega (reach) (acao + som de efeito) | -
 b7 | crowd | noite  | batalha aberta com tiros, tropa, placa: MIL ESTRELAS, objeto na mao | encena: constroi (hammer) (acao + som de efeito); encena: escreve (write) (acao + som de efeito) | -
 b8 | two | -  | interior, placa: KEPLER, objeto na mao | encena: examina (think) (acao + som de efeito) | -
 b9 | orbit | dia  | batalha aberta com tiros, tropa | encena: examina (think) (acao + som de efeito) | -

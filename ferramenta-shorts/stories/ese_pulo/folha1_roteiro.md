@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O que daria para notar seria o barulho. Bilhões de pés batendo no chão, como um trovão ao redor do mundo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: cannon@20, thump@40
-- Efeito + som nas palavras-chave: encena: tomba -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_bate (punch) -> acao + som de efeito; encena: tomba -> acao + som de efeito
 - Efeito visual marcado: burst@20, puff@40
 - Texto na tela: BUM!
 - Funcao na historia: GRANDE MOMENTO

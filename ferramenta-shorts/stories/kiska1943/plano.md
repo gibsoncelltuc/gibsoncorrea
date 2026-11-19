@@ -10,7 +10,7 @@ b4 | close | overcast  | interior, placa: ILHA VAZIA | encena: sai (acao + som d
 b5 | orbit | overcast  | tropa | - | -
 b6 | group | overcast  | placa: FOGO AMIGO | atirar (burst + som de tiro/explosao) | -
 b7 | two | arctic  | animais, placa: SÓ CACHORROS | encena: examina (think) (acao + som de efeito) | -
-b8 | close | -  | placa: OPERAÇÃO ILHA VAZIA | - | -
+b8 | close | -  | placa: OPERAÇÃO ILHA VAZIA | encena: x_bebe (lift) (acao + som de efeito) | -
 
 Mistura de planos: close 20% | medio 53% | aberto 24% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

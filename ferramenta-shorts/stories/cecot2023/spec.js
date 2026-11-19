@@ -29,3 +29,5 @@ const SPEC = {
     S('b10', A[10], A[11] - 1, X, "golden", { h: 2.4, d0: 5.6, d1: 4.9, hero: { hero: 'any', frame: 'medium', minH: 0.07, main: 1 }, trans: 'dissolve', actors: [pp(X, "BUK", 0, 0.0, 1.3, "smug", { pose: 'talk' })], props: [{ asset: "buildings/shop", at: [X + -4.8, -11.0], s: 1.05, ry: 0.35, drop: false }, { asset: "kit/prison", at: [X + 0, -12.0], s: 1.0, drop: false }, { asset: "kit/volcano", at: [X + 0, -120], s: 9.0, drop: false }, { asset: "kit/prison_mini", at: [X + -1.7, -0.5], s: 1.3, drop: false }], fx: [{ k: 'stars', a: A[10] + 6, b: A[10] + 40, at: [X + -1.7, DK + 1.6, 0.0], s: 0.8 }, { k: 'birds', a: A[10], b: A[11] - 1, at: [X, DK + 6.0, -30], n: 5, dir: -1, off: 8 }] })
   ],
 };
+
+// FOLHA3 bee4b113175e 26 acoes=26 faltando=0

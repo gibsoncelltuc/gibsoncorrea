@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Foi a pior ideia possível. Com música, mais gente entrou na dança, e muitos caíram de exaustão.
 - Som ambiente: sea
 - Efeitos sonoros marcados: thump@50, sting@110
-- Efeito + som nas palavras-chave: música -> stars + som de sino; dança -> stars + som de sino; caíram -> dust + som de impacto; encena: pensa (think) -> acao + som de efeito
+- Efeito + som nas palavras-chave: música -> stars + som de sino; dança -> stars + som de sino; caíram -> dust + som de impacto; encena: pensa (think) -> acao + som de efeito; encena: x_canta (up) -> acao + som de efeito
 - Efeito visual marcado: dust@50, puff@110
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Um dia, um fazendeiro americano encontrou um porco comendo as batatas da horta dele.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: animal: pig come -> acao + som de efeito; encena: examina (think) -> acao + som de efeito
+- Efeito + som nas palavras-chave: animal: pig come -> acao + som de efeito; encena: examina (think) -> acao + som de efeito; encena: x_come (lift) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: O fazendeiro foi até a casa do vizinho, com as notas na mão. "Eu pago dez dólares", ofereceu ele.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_entrega (reach) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: $10
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: O almirante inglês recebeu a ordem de atacar. "Não vou começar uma guerra por causa de um porco", respondeu ele.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: atacar -> ring + som de alerta
+- Efeito + som nas palavras-chave: atacar -> ring + som de alerta; encena: x_entrega (reach) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Os soldados passaram meses trocando insultos, e depois, festas. Ninguém deu um tiro.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124
-- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (ING) -> acao + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito; tiro -> burst + som de tiro/explosao
+- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (ING) -> acao + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito; tiro -> burst + som de tiro/explosao; encena: x_entrega (reach) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

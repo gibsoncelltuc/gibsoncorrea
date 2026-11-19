@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 03 - A Guerra de Toledo
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.7s - 13 palavras - plano two
@@ -67,10 +67,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | mandou (40.5s) | ACAO: fala | aponta explicando | OK |
-| 2 | - | CENA | pedido: plano medio dos dois, um pede ao outro | OK |
-| 3 | - | INTERACAO | pedir | OK |
-| 4 | - | ATUACAO | reagir | OK |
-| 5 | - | PLACA | ACORDO | OK |
+| 2 | ofereceu (42.5s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 3 | - | CENA | pedido: plano medio dos dois, um pede ao outro | OK |
+| 4 | - | INTERACAO | pedir | OK |
+| 5 | - | ATUACAO | reagir | OK |
+| 6 | - | PLACA | ACORDO | OK |
 
 ## Cena b7 - 46.2s a 52.6s - 16 palavras - plano group
 > "Ohio ficou com Toledo. Michigan levou, de consolação, um pedaço de floresta gelada que ninguém queria."

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 14 - O Químico que Sonhou com uma Cobra
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 4.4s - 17 palavras - plano two
@@ -60,15 +60,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | pulo (35.1s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 1 | acordou (34.4s) | ACAO: x_acorda | estava dormindo e acorda na palavra | OK |
+| 2 | pulo (35.1s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
+| 3 | - | ATUACAO | reagir | OK |
 
 ## Cena b7 - 42.0s a 46.5s - 15 palavras - plano two
 > "Passou o resto da noite desenhando o anel de seis carbonos. E a conta fechou."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
+| 1 | fechou (46.5s) | ACAO: x_abre | empurra a porta | OK |
 
 ## Cena b8 - 47.6s a 52.9s - 15 palavras - plano two
 > "Os colegas ficaram de boca aberta. O anel explicava dezenas de substâncias de uma vez."
@@ -84,10 +85,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | festa (55.6s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | ATUACAO | comemorar | OK |
-| 5 | - | PLACA | FESTA | OK |
+| 2 | contou (57.6s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+| 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 5 | - | ATUACAO | comemorar | OK |
+| 6 | - | PLACA | FESTA | OK |
 
 ## Cena b10 - 60.0s a 65.7s - 19 palavras - plano two
 > "Até hoje há quem duvide da história. Mas o anel do benzeno virou base de remédios, tintas e plásticos."

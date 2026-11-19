@@ -28,3 +28,5 @@ const SPEC = {
     S('b11', A[11], A[12] - 1, X, "day", { h: 2.4, d0: 5.6, d1: 4.9, hero: { hero: 'any', frame: 'medium', minH: 0.07, main: 1 }, trans: 'dissolve', actors: [pp(X, "ETI", 0, 0.0, 1.3, "smile", { pose: 'talk' }), { animal: "sheep", at: [X + 1.6, 0.6], state: "stand", s: 1.0, flip: true, seed: 1 }], props: [{ asset: "kit/balloon", at: [X + -1.6, -1.6], s: 0.8, drop: false }, { asset: "kit/marco_versalhes", at: [X + 0, -90], s: 1.0, drop: false }], fx: [{ k: 'stars', a: A[11] + 6, b: A[11] + 40, at: [X + -1.6, DK + 1.6, -1.1], s: 0.8 }] })
   ],
 };
+
+// FOLHA3 1dc11650d702 28 acoes=28 faltando=0

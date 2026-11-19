@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - A Guerra do Cachorro Perdido
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 5.6s - 16 palavras - plano two
@@ -36,20 +36,22 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | viu (17.0s) | ACAO: olha | aponta/olha | OK |
-| 2 | atirou (18.5s) | EFEITO: burst | estouro/clarao + som | OK |
-| 3 | atirou (18.5s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 4 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 6 | - | ATUACAO | reagir | OK |
+| 1 | sentinela (16.3s) | ACAO: x_vigia | vigia de bracos cruzados | OK |
+| 2 | viu (17.0s) | ACAO: olha | aponta/olha | OK |
+| 3 | atirou (18.5s) | EFEITO: burst | estouro/clarao + som | OK |
+| 4 | atirou (18.5s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 5 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 7 | - | ATUACAO | reagir | OK |
 
 ## Cena b4 - 18.9s a 21.5s - 8 palavras - plano close
 > "A Grécia ficou furiosa, e deu um ultimato."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-| 2 | - | PLACA | ULTIMATO | OK |
+| 1 | deu (20.7s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | ULTIMATO | OK |
 
 ## Cena b5 - 21.9s a 27.0s - 15 palavras - plano track
 > "Poucos dias depois, o exército grego invadiu a Bulgária e ocupou a região de Petrich."

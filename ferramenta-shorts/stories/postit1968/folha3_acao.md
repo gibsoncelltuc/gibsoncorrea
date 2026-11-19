@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 15 - A Cola que Não Colava
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.4s - 19 palavras - plano two
@@ -51,7 +51,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | cantando (33.1s) | ACAO: x_canta | canta de bracos abertos + onda de som | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
 ## Cena b6 - 35.3s a 40.4s - 16 palavras - plano two
 > "Os papeizinhos que marcavam as páginas do hinário viviam caindo no chão. E ele ficava perdido."
@@ -107,6 +108,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | chegou (72.8s) | EFEITO: dust | poeira + som | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | 1980 | OK |
+| 2 | deu (76.0s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | 1980 | OK |
 

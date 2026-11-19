@@ -414,6 +414,37 @@ ENC = [(r'^(misturou|misturaram|misturando|mistura|misturar|mexeu|mexendo|mexia|
        (r'^(empurrou|empurraram|empurrando|puxou|puxaram|puxando|arrastou|arrastaram|arrastando)$', 'push', 'empurra'),
        (r'^(deitou|deitaram|deitado|deitada|ajoelhou|ajoelharam|ajoelhado)$', None, 'senta'),
        (r'^(levantou-se|levantaram-se|levantou|ergueu-se)$', 'lift', 'pega'),
+       (r'^(bebeu|beberam|bebendo|bebia|bebiam|tomou|tomaram|tomando|goles?|engoliu)$', 'lift', 'x_bebe'),
+       (r'^(comeu|comeram|comendo|comia|comiam|almocou|jantou|devorou|mastigou|provou|experimentou)$', 'lift', 'x_come'),
+       (r'^(chorou|choraram|chorando|chorava|lagrimas|soluco|solucou)$', 'facepalm', 'x_chora'),
+       (r'^(cantou|cantaram|cantando|cantava|cantavam|musica|hino|cancao)$', 'up', 'x_canta'),
+       (r'^(leu|leram|lendo|lia|liam|ler|jornal|carta|livro)$', 'think', 'x_le'),
+       (r'^(telefonou|ligou|ligaram|ligando|telefone|celular|mensagem|twittou|postou|publicou|tuitou)$', 'lift', 'x_fone'),
+       (r'^(lavou|lavaram|lavar|lavando|limpou|limparam|esfregou)$', 'stir', 'x_lava'),
+       (r'^(beijou|beijaram|beijo)$', None, 'x_beija'),
+       (r'^(plantou|plantaram|plantar|plantando|semeou|regou|regaram|colheu|colheram|colheita)$', 'hammer', 'x_planta'),
+       (r'^(pescou|pescaram|pescar|pescando|pescador|anzol|rede)$', 'lift', 'x_pesca'),
+       (r'^(costurou|costurar|costurando|tricotou|bordou)$', 'write', 'x_costura'),
+       (r'^(pintou|pintaram|pintar|pintando|desenhou|desenhar|rabiscou)$', 'write', 'x_pinta'),
+       (r'^(cozinhou|cozinhar|cozinhando|assou|fritou|temperou)$', 'stir', 'mistura'),
+       (r'^(bateu|bateram|batendo|batia)$', 'punch', 'x_bate'),
+       (r'^(procurou|procuraram|procurando|procurava|buscou|buscaram|vasculhou|investigaram)$', 'think', 'x_procura'),
+       (r'^(vigiava|vigiavam|vigiar|guardava|guardavam|patrulhava|patrulhavam|sentinela)$', 'cross', 'x_vigia'),
+       (r'^(continencia|saudou|saudaram|saudacao|bateu continencia)$', 'salute', 'x_saluda'),
+       (r'^(rezou|rezaram|rezando|orou|oraram|rezava)$', 'think', 'x_reza'),
+       (r'^(aplaudiu|aplaudiram|aplausos?|aplaudindo|palmas)$', 'up', 'x_aplaude'),
+       (r'^(abracou|abracaram|abraco|abracando)$', None, 'x_abraca'),
+       (r'^(acordou|acordaram|despertou|acordar)$', 'up', 'x_acorda'),
+       (r'^(esperou|esperaram|esperando|esperava|esperavam|aguardou|aguardaram)$', 'cross', 'x_espera'),
+       (r'^(tremeu|tremeram|tremendo|tremia|arrepiou|congelou)$', None, 'x_treme'),
+       (r'^(espirrou|tossiu|tossia|tossindo|espirrando)$', 'facepalm', 'x_tosse'),
+       (r'^(mergulhou|mergulharam|nadou|nadaram|nadando|nadar|afogou)$', 'up', 'x_nada'),
+       (r'^(riu|riram|rindo|ria|riam|gargalhou|gargalhada)$', 'up', 'x_ri'),
+       (r'^(abriu|abriram|abrindo|fechou|fecharam|trancou|destrancou)$', 'push', 'x_abre'),
+       (r'^(soltou|soltaram|libertou|libertaram|liberou)$', 'up', 'x_solta'),
+       (r'^(entregou|entregaram|deu|deram|ofereceu|ofereceram|recebeu|receberam)$', 'reach', 'x_entrega'),
+       (r'^(mediu|mediram|pesou|calculou|contou|contaram)$', 'think', 'examina'),
+       (r'^(apresentou|mostrou|exibiu|revelou|lancou|anunciou)$', 'point', 'fala'),
        (r'^(pegou|pegaram|segurou|ergueu|levantou|levantaram|carregou|carregaram)$', 'lift', 'pega')]
 ENC_MAT = [(r'borracha|latex|seiva|goma|gosma|massa|pasta|cola|mistura', 'kit/gosma'), (r'enxofre|polvora|\bpo\b', 'kit/enxofre'), (r'quimic|acido|liquido|reagente', 'kit/frasco'), (r'ovo', 'kit/egg'), (r'chocolate', 'kit/chocolate')]
 ENC_RES = [(r'borracha|elastic|firme|couro|vulcaniz', 'kit/borracha'), (r'pneu', 'kit/tires'), (r'\bbola\b', 'kit/ball'), (r'pipoca', 'kit/popcorn'), (r'chocolate', 'kit/chocolate'),
@@ -1063,6 +1094,7 @@ def build_beat(k, b):
                 else: pr[:] = [p__.replace(f"a: WS(", f"b: WS({wi_}) - 1, a: WS(", 1).replace(f"b: {bb},", "", 1) if _st.get('mat') and json.dumps(_st['mat']) in p__ else p__ for p__ in pr]
                 rx_, rz_ = px_ * 0.6 + sl[0] * 0.4, max(pz_, _z0) + 0.9   # o RESULTADO sobe do processo e vem para a frente, entre o personagem e o objeto, na altura do peito (destaque)
                 pr.append(f"{{ asset: {json.dumps(res_)}, a: WS({wi_}), at: [X + {num(px_)}, {num(pz_)}], move: [[X + {num(rx_)}, {num(rz_)}], WS({wi_}) + 4, WS({wi_}) + 22, 'lin'], align: false, y: (f) => DK + {num(py_)} + {num(1.5 - py_)} * Math.min(1, Math.max(0, (f - WS({wi_})) / 18)) + 0.08 * Math.sin(f * 0.15), spinY: 0.9, s: (f) => {num(1.25)} * Math.min(1, 0.2 + (f - WS({wi_})) / 10) * (1 + 0.15 * Math.max(0, 1 - (f - WS({wi_})) / 20)), drop: false }}")
+                if HEROI and re.sub(r'_(red|yellow|purple|striped)$', '', res_) == re.sub(r'_(red|yellow|purple|striped)$', '', HEROI): b['_det_heroi'] = True   # o produto do processo surge em destaque na frente da camera = close do objeto heroi
                 fx.append(f"{{ k: 'ring', a: WS({wi_}), b: WS({wi_}) + 30, at: [X + {num(px_)}, DK + {num(py_ + 0.6)}, {num(pz_ + 0.4)}], s: 1.2 }}"); fx.append(f"{{ k: 'stars', a: WS({wi_}) + 4, b: WS({wi_}) + 40, at: [X + {num(px_)}, DK + {num(py_ + 1.0)}, {num(pz_ + 0.4)}], s: 1.0 }}"); KWSFX.append((wi_, 'ding'))
                 _st['mat'] = None; _st['mat_em'] = None
             elif tipo_ == 'constroi':
@@ -1144,11 +1176,24 @@ def build_beat(k, b):
                             d_ = (i_ * 3) % 7; acts[i_] = f"Object.assign({acts[i_]}, {{ y: (f) => {{ const t = (f - WS({wi_}) - {d_}) / 30; if (t < 0 || t > {num(2 * GPULO_T)}) return 0; const u = t % {num(GPULO_T)}; return Math.max(0, {num(GPULO_V0)} * u - 0.5 * {num(GRAV)} * u * u); }} }})" 
             elif tipo_ == 'acena': KWSFX.append((wi_, 'tick'))
             elif tipo_ == 'empurra': KWSFX.append((wi_, 'thump'))
+            elif tipo_.startswith('x_'):   # ACOES GERAIS: gesto + objeto/efeito + som na palavra
+                _X = {'x_bebe': ('tick', None, 'kit/kettle' if 0 else None), 'x_come': ('tick', 'stars', None), 'x_chora': ('sting', 'splash', None), 'x_canta': ('ding', 'ring', None), 'x_le': ('tick', None, 'kit/scroll'),
+                      'x_fone': ('ding', 'ring', 'kit/phone'), 'x_lava': ('creak', 'splash', 'kit/wash_basin'), 'x_beija': ('ding', 'stars', None), 'x_planta': ('thump', 'dust', None), 'x_pesca': ('tick', 'splash', None),
+                      'x_costura': ('tick', None, None), 'x_pinta': ('tick', 'stars', None), 'x_bate': ('thump', 'burst', None), 'x_procura': ('tick', None, 'kit/lupa'), 'x_vigia': ('tick', None, None), 'x_saluda': ('sting', None, None),
+                      'x_reza': ('ding', 'stars', None), 'x_aplaude': ('ding', 'stars', None), 'x_abraca': ('ding', 'stars', None), 'x_acorda': ('ding', 'stars', None), 'x_espera': ('tick', None, None), 'x_treme': ('creak', None, None),
+                      'x_tosse': ('thump', 'puff', None), 'x_nada': ('creak', 'splash', None), 'x_ri': ('ding', 'stars', None), 'x_abre': ('creak', None, None), 'x_solta': ('ding', 'stars', None), 'x_entrega': ('tick', None, None)}.get(tipo_, ('tick', None, None))
+                if _X[2] and _X[2] not in ' '.join(pr): pr.append(f"{{ asset: {json.dumps(_X[2])}, a: WS({wi_}) - 4, b: {bb}, at: [X + {num(_hx)}, {num(_z0 + 0.6)}], y: DK + {1.9 if _X[2] in ('kit/phone', 'kit/scroll', 'kit/lupa') else 0}, s: {0.35 if _X[2] in ('kit/phone', 'kit/scroll', 'kit/lupa') else 0.6}, drop: false }}")
+                if _X[1]: fx.append(f"{{ k: {json.dumps(_X[1])}, a: WS({wi_}) + 3, b: WS({wi_}) + 30, at: [X + {num(sl[0] + (0.6 if _X[1] in ('splash', 'puff') else 0))}, DK + {2.6 if _X[1] in ('stars', 'ring') else 1.6}, {num(_z0 + 0.4)}], s: 0.6 }}")
+                if tipo_ == 'x_treme' and acts: _gst.setdefault('inter', []).append(f"inter: {{ k: 'shiver', a: WS({wi_}), b: WS({wi_}) + 50, dir: 1, n: 3, ph: 0 }}")
+                if tipo_ in ('x_beija', 'x_abraca') and len(persons) > 1 and not b.get('interacao'): b['interacao'] = 'abracar'
+                if tipo_ == 'x_acorda': _gst.setdefault(('poses', 0), []).append(f"[{a}, WS({wi_}), 'sleep']")
+                KWSFX.append((wi_, _X[0]))
             PLANO.append((k, f'encena: {tipo_}' + (f' ({gest_})' if gest_ else ''), 'acao'))
         if _encs or (persons and persons[0][3]): b['_acao'] = b.get('_acao') or ('atira' if persons[0][3] == 'rifle' else 'encena')   # quem faz o processo / segura o objeto NAO esta parado
         if _gst.get(0) and acts: acts[0] = f"Object.assign({acts[0]}, {{ gests: [{', '.join(_gst[0])}] }})"
         if _gst.get('sai') and acts: acts[0] = f"Object.assign({acts[0]}, {{ {_gst['sai'][0]} }})"   # FOI EMBORA: sai andando pela lateral
         if _gst.get('y') and acts: acts[0] = f"Object.assign({acts[0]}, {{ y: {_gst['y'][0]} }})"   # pulo com gravidade
+        if _gst.get('inter') and acts and acts[0].startswith(('pp(', 'Object.assign(pp(')) and 'inter:' not in acts[0]: acts[0] = f"Object.assign({acts[0]}, {{ {_gst['inter'][0]} }})"
         for _w in (0, 1):
             if _gst.get(('poses', _w)) and len(acts) > _w and len(persons) > _w: acts[_w] = f"Object.assign({acts[_w]}, {{ poses: [{', '.join(_gst[('poses', _w)])}] }})"   # caiu/dormindo/sentou na palavra
         if _encs and not wide: opts.append('vary: false')   # a acao acontece numa tomada so' (sem sub-corte no meio do processo)
@@ -1350,7 +1395,8 @@ _pl = ['# Plano de acao - ' + str(B.get('title', ID)), '', 'Cena | Plano | Luz/c
 _sem = 0
 for k, b in enumerate(beats):
     _kw = [f"{w} ({kind} + som de {_SOM.get(kind, 'efeito')})" for kk, w, kind in PLANO if kk == k]; _ok = {nrm(w) for kk, w, kind in PLANO if kk == k}
-    _falta = [] if (b.get('impact') or b.get('sfx') or b.get('fx')) else sorted({w.strip('.,!?"') for w in b['say'].split() if _ACAO.match(nrm(w)) and nrm(w) not in _ok and len(nrm(w)) > 3})[:4]
+    _ok |= set(b.get('_enc_words', []))
+    _falta = [] if (b.get('impact') or b.get('sfx') or b.get('fx')) else sorted({w.strip('.,!?"') for w in b['say'].split() if _ACAO.match(nrm(w)) and nrm(w) not in _ok and len(nrm(w)) > 3 and not (b.get('_chega') and re.match(r'cheg|entr|invad', nrm(w))) and not (b.get('_acao') and re.match(r'conver|discut|brig|danc|comemor', nrm(w)))})[:4]
     _ap = [x for x in (('batalha aberta com tiros' if b.get('impact') else ''), ('tropa' if b.get('crowd') else ''), ('animais' if b.get('emus') or b.get('animals') else ''), ('interior' if b.get('interior') else ''), ('veiculo' if b.get('veiculo') or b.get('caminhoes') else ''), ('placa: ' + str(b['text']) if b.get('text') else ''), ('mapa' if b.get('mapa') else ''), ('objeto na mao' if any(len(w.split(':')) > 3 for w in b.get('who', [])) else '')) if x]
     _sem += len(_falta)
     _pl.append(f"b{k} | {b.get('shot')} | {b.get('hora') or b.get('light') or '-'} {b.get('clima') or ''} | {', '.join(_ap) or '-'} | {'; '.join(_kw) or '-'} | {', '.join(_falta) or '-'}")
@@ -1482,7 +1528,12 @@ _ENC_DESC = {'mistura': 'mexe a panela (borbulhando)', 'cai': 'o material voa da
     'protesto': 'punho para cima (protesto)', 'fala': 'aponta explicando', 'olha': 'aponta/olha', 'sai': 'sai andando pela lateral', 'tomba': 'cai sentado no chao + poeira', 'dorme': 'dormindo', 'senta': 'senta',
     'raspa': 'maquina na cabeca + cabelo voando', 'prende': 'empurra/prende', 'escala': 'escala (bracos para cima)', 'espeta': 'espeta + estouro', 'bola': 'chuta a bola: parabola pela GRAVIDADE (0,67 s)', 'negocio': 'moeda girando (compra/venda)',
     'tira': 'tira foto (celular + flash)', 'rende': 'maos para cima (rendicao)', 'voa': 'decola: poeira no chao, olha para cima', 'cava': 'cava: poeira', 'vence': 'bracos para cima + brilho', 'perde': 'mao na testa',
-    'toca': 'onda de som (sirene/sino)', 'queima': 'fogo + fumaca', 'grita': 'grita de bracos para cima', 'atira': 'arma na mao, aponta, clarao e som de tiro', 'corre': 'sai correndo pela lateral + poeira', 'pula': f'pula 2 vezes: sobe {GPULO_H} m e volta pela GRAVIDADE em {GPULO_T:.2f} s cada pulo', 'acena': 'acena com a mao', 'empurra': 'empurra/puxa'}
+    'toca': 'onda de som (sirene/sino)', 'queima': 'fogo + fumaca', 'grita': 'grita de bracos para cima', 'atira': 'arma na mao, aponta, clarao e som de tiro', 'corre': 'sai correndo pela lateral + poeira', 'pula': f'pula 2 vezes: sobe {GPULO_H} m e volta pela GRAVIDADE em {GPULO_T:.2f} s cada pulo', 'acena': 'acena com a mao', 'empurra': 'empurra/puxa',
+    'x_bebe': 'leva o copo a boca', 'x_come': 'leva a comida a boca', 'x_chora': 'mao no rosto + lagrimas', 'x_canta': 'canta de bracos abertos + onda de som', 'x_le': 'le o papel', 'x_fone': 'celular na mao + toque',
+    'x_lava': 'lava/esfrega na bacia + respingo', 'x_beija': 'beijo/abraco + brilho', 'x_planta': 'cava/planta + terra', 'x_pesca': 'puxa a linha + respingo', 'x_costura': 'costura', 'x_pinta': 'pinta/desenha + brilho',
+    'x_bate': 'bate + estouro', 'x_procura': 'procura com a lupa', 'x_vigia': 'vigia de bracos cruzados', 'x_saluda': 'bate continencia', 'x_reza': 'reza + brilho', 'x_aplaude': 'aplaude de bracos para cima',
+    'x_abraca': 'abraco', 'x_acorda': 'estava dormindo e acorda na palavra', 'x_espera': 'espera de bracos cruzados', 'x_treme': 'treme', 'x_tosse': 'tosse/espirra + nuvenzinha', 'x_nada': 'braco para cima + respingo',
+    'x_ri': 'ri de bracos para cima + brilho', 'x_abre': 'empurra a porta', 'x_solta': 'solta/liberta + brilho', 'x_entrega': 'estende a mao entregando'}
 _KIND_DESC = {'burst': 'estouro/clarao + som', 'dust': 'poeira + som', 'puff': 'fumaca + som', 'stars': 'estrelinhas + som', 'ring': 'onda + som', 'splash': 'respingo + som', 'creak': 'rangido', 'expr': 'o ROSTO muda na palavra'}
 def _tempo_palavras():
     try: return [w_['s'] for w_ in json.load(open(f'stories/{ID}/work/words.json'))]
@@ -1521,7 +1572,12 @@ for k, b in enumerate(beats):
     _f3.append('')
 _f3[3:3] = [f'**Resumo:** {len(beats)} frases, {_ntot} acoes catalogadas, {_nok} com animacao, {_nfal} faltando' + (' -> NAO RENDERIZAR ate zerar' if _nfal else ' -> pronto para renderizar'), '']
 open(f'stories/{ID}/folha3_acao.md', 'w', encoding='utf-8').write('\n'.join(_f3) + '\n')
+import hashlib as _hl
+_F3_LIST = [l_ for l_ in _f3 if l_.startswith('| ') and not l_.startswith('| #')]
+_F3_HASH = _hl.sha1('\n'.join(_F3_LIST).encode()).hexdigest()[:12]
 open(f'stories/{ID}/folha1_roteiro.md', 'w', encoding='utf-8').write('\n'.join(_f1) + '\n'); open(f'stories/{ID}/folha2_producao.md', 'w', encoding='utf-8').write('\n'.join(_f2) + '\n')
+json.dump({'riscos': _tot_r + len(_glob), 'acoes': _nok, 'faltando': _nfal, 'hash_folha3': _F3_HASH, 'linhas_folha3': len(_F3_LIST)}, open(f'stories/{ID}/folhas.json', 'w'))
+with open(f'stories/{ID}/spec.js', 'a', encoding='utf-8') as _sf: _sf.write(f'\n// FOLHA3 {_F3_HASH} {len(_F3_LIST)} acoes={_nok} faltando={_nfal}\n')   # o video que vai ao render carrega a assinatura da folha 3 que o gerou
 print(f'TRES FOLHAS: stories/{ID}/folha1_roteiro.md (historia e som), stories/{ID}/folha2_producao.md (producao) e stories/{ID}/folha3_acao.md ({_nok} acoes, {_nfal} faltando) -> {_tot_r + len(_glob)} RISCO(S) em aberto' + (': ' + '; '.join([f'b{k} {r}' for k, (r, c) in _allr] + [r for r, c in _glob])[:600] if _tot_r + len(_glob) else ''))
 
 open(f'stories/{ID}/riscos.txt', 'w').write(str(_tot_r + len(_glob) + _sem) + '\n')   # lido por novo_video.sh e conferir.sh

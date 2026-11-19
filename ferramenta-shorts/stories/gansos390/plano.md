@@ -7,9 +7,9 @@ b1 | crowd | -  | batalha aberta com tiros, tropa, mapa, objeto na mao | (rosto)
 b2 | group | -  | placa: CAPITÓLIO | - | -
 b3 | orbit | -  | tropa, animais | (rosto) pleading (expr + som de efeito) | -
 b4 | group | noite  | - | encena: escala (lift) (acao + som de efeito); encena: dorme (acao + som de efeito) | -
-b5 | low | -  | animais, placa: QUÁ! QUÁ! | encena: grita (up) (acao + som de efeito) | -
+b5 | low | -  | animais, placa: QUÁ! QUÁ! | encena: x_acorda (up) (acao + som de efeito); encena: grita (up) (acao + som de efeito) | -
 b6 | two | -  | - | caiu (dust + som de impacto); encena: pula (acao + som de efeito); encena: empurra (push) (acao + som de efeito) | -
-b7 | orbit | -  | batalha aberta com tiros, tropa | alarme (ring + som de alerta); correram (dust + som de impacto); ataque (ring + som de alerta); encena: corre (acao + som de efeito); encena: perde (facepalm) (acao + som de efeito) | -
+b7 | orbit | -  | batalha aberta com tiros, tropa | alarme (ring + som de alerta); correram (dust + som de impacto); ataque (ring + som de alerta); encena: x_acorda (up) (acao + som de efeito); encena: corre (acao + som de efeito); encena: perde (facepalm) (acao + som de efeito) | -
 b8 | two | dia  | animais, placa: DESFILE | - | -
 b9 | close | dia  | - | ganharam (stars + som de sino); encena: vence (up) (acao + som de efeito) | -
 

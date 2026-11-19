@@ -66,12 +66,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): AME (variante 0, expressao stern); AME (variante 1, expressao stern) | multidao: 16 de AME
+- Personagens principais (3): AME (variante 0, expressao stern); AME (variante 1, expressao stern); FAZ (variante 0, expressao scared) | multidao: 16 de AME
 - Animacao: discutir | interacao: empurrar
 - Objetos/modelos: buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estados, fazendeiro, ilha, ingleses
-- RISCOS: 
-  - a narracao cita "fazendeiro" e ninguem em cena esta vestido a carater -> CORRECAO: por no "who" um personagem com "profissao": "agricultor" no figurino (coroa/farda/chapeu proprios)
+- RISCOS: nenhum
 
 ## Cena b7 - Acontece que a Inglaterra respondeu com navios de guerra. Logo eram ce...
 - Cenario: harbor | luz: day | clima: limpo
@@ -146,8 +145,7 @@ kit/cross | b11 | pronto | conferir na folha de contato se le bem; se parecer ca
 - Interacoes: b0 o outro se aproxima, b4 entregar, b5 discutir, b6 empurrar, b8 vai ate o outro, b10 insiste
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- b6: a narracao cita "fazendeiro" e ninguem em cena esta vestido a carater
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh porco1859 bN bM` (so essas cenas).

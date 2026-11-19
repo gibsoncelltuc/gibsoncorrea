@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 19 - O Caderno que Ainda Brilha
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.6s - 18 palavras - plano two
@@ -51,8 +51,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | o outro se aproxima | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 1 | guardava (31.7s) | ACAO: x_vigia | vigia de bracos cruzados | OK |
+| 2 | - | INTERACAO | o outro se aproxima | OK |
+| 3 | - | ATUACAO | reagir | OK |
 
 ## Cena b6 - 35.9s a 41.5s - 19 palavras - plano crowd
 > "Marie ganhou dois prêmios Nobel, em física e em química. Foi a primeira pessoa da história a conseguir isso."
@@ -88,8 +89,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | assinar (57.8s) | ACAO: escreve | escreve/assina | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | ler (57.2s) | ACAO: x_le | le o papel | OK |
+| 2 | assinar (57.8s) | ACAO: escreve | escreve/assina | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b10 - 61.7s a 65.3s - 16 palavras - plano orbit
 > "E o rádio leva cerca de mil e seiscentos anos só para perder metade da força."

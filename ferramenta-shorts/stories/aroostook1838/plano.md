@@ -11,7 +11,7 @@ b5 | two | -  | - | encena: prende (push) (acao + som de efeito) | -
 b6 | orbit | -  | batalha aberta com tiros, tropa | cavalaria: 4 soldados a cavalo (MIL) (acao + som de efeito); tiros: 5 soldados caem no chao (acao + som de efeito); encena: fala (point) (acao + som de efeito) | -
 b7 | two | -  | interior, objeto na mao | atirou (burst + som de tiro/explosao); tiro (burst + som de tiro/explosao); encena: atira (acao + som de efeito) | -
 b8 | two | -  | interior, objeto na mao | - | -
-b9 | close | -  | tropa, animais | animal: pig come (acao + som de efeito) | -
+b9 | close | -  | tropa, animais | animal: pig come (acao + som de efeito); encena: x_come (lift) (acao + som de efeito) | -
 
 Mistura de planos: close 23% | medio 60% | aberto 14% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

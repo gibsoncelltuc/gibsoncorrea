@@ -15,6 +15,8 @@ VOICE=$(j voice); RATE=$(j rate); T=$(j file)
 if st voice && [ -f stories/$ID/voice.mp3 ] && [ ! -f stories/$ID/work/phrases.json ]; then log "refazendo so a temporizacao (work/ ausente)"; (cd stories/$ID && python3 ../../timing.py voice.mp3 script.txt --out work >> ../../$L 2>&1); fi
 if ! st voice || [ ! -f stories/$ID/voice.mp3 ]; then log "voz"; rm -f stories/$ID/voice.mp3; ./produce_voice.sh $ID "$VOICE" "$RATE" >> $L 2>&1; mark voice; fi
 if [ -f stories/$ID/VOICE_PLACEHOLDER ] && [ "${ALLOW_TEST_VOICE:-0}" != "1" ]; then log "PARADO: voz de TESTE (espeak, robotica). NAO se entrega video assim. Conserte a rede/certificado do edge-tts (veja OPERACAO.md) e apague stories/$ID/stages/voice e stories/$ID/voice.mp3"; rm -f stories/$ID/stages/voice; exit 3; fi
+python3 mkvideo.py $ID >> $L 2>&1   # de novo, com a voz pronta: a folha 3 sai com o instante exato de cada acao
+if ! python3 verificar_folhas.py $ID >> $L 2>&1; then log "BLOQUEADO: as 3 folhas nao foram lidas/seguidas (veja $L)"; tail -6 $L; exit 1; fi; log "3 folhas lidas e seguidas"
 if ! st style; then log "estilo (autoajuste)"; python3 autostyle.py $ID >> $L 2>&1 || log "AVISO: estilo nao convergiu"; mark style; fi
 if ! st fit; then log "enquadramento"; ./fit.sh $ID >> $L 2>&1; mark fit; fi
 if ! st gate; then
@@ -22,7 +24,7 @@ if ! st gate; then
   if ! { grep -q "camera OK" $G && grep -q "ALL TAKES OK" $G && grep -q "STYLE OK" $G; }; then log "GATE FALHOU (veja $G)"; cat $G >> $L; exit 1; fi
   mark gate
 fi
-./build3.sh $ID >/dev/null 2>&1; N=$(python3 -c "import json;print(json.load(open('stories/$ID/work/phrases.json'))['frames30'])")
+./build3.sh $ID >/dev/null 2>&1; python3 verificar_folhas.py $ID --render >> $L 2>&1 || { log "BLOQUEADO: o render nao carrega a folha 3"; exit 1; }; N=$(python3 -c "import json;print(json.load(open('stories/$ID/work/phrases.json'))['frames30'])")
 ./snap.sh $ID $N >> $L 2>&1; (cd stories/$ID && python3 ../../caps.py >/dev/null)
 log "render $N quadros (trechos de 150, retomavel)"
 set +e; node render_pool.mjs $ID $N >> $L 2>&1; RC=$?; set -e; tail -3 $L

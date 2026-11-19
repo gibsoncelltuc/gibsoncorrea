@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - A Morte Branca
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 23 acoes catalogadas, 23 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 25 acoes catalogadas, 25 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 6.3s - 18 palavras - plano track
@@ -33,8 +33,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | CENA | tiros: 4 soldados caem no chao | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | esperava (19.6s) | ACAO: x_espera | espera de bracos cruzados | OK |
+| 2 | - | CENA | tiros: 4 soldados caem no chao | OK |
+| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
 ## Cena b4 - 23.0s a 28.9s - 17 palavras - plano close
 > "Dizem que ele mantinha neve na boca, para o vapor da respiração não entregar a sua posição."
@@ -67,10 +68,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | bala (43.0s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | - | CENA | tiros: 3 soldados caem no chao | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | INTERACAO | cochichar | OK |
-| 5 | - | ATUACAO | conversar | OK |
+| 2 | acordou (45.9s) | ACAO: x_acorda | estava dormindo e acorda na palavra | OK |
+| 3 | - | CENA | tiros: 3 soldados caem no chao | OK |
+| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 5 | - | INTERACAO | cochichar | OK |
+| 6 | - | ATUACAO | conversar | OK |
 
 ## Cena b8 - 48.9s a 55.9s - 20 palavras - plano two
 > "Viveu até os noventa e seis anos, e nunca se achou herói. Dizia que só tinha feito o seu trabalho."

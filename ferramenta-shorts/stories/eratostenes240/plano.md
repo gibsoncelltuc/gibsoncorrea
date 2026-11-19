@@ -4,7 +4,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | -  | - | encena: examina (think) (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
-b2 | two | -  | objeto na mao | - | -
+b2 | two | -  | objeto na mao | encena: x_le (think) (acao + som de efeito) | -
 b3 | two | - calor | - | - | -
 b4 | two | - calor | - | encena: tomba (acao + som de efeito) | -
 b5 | close | -  | - | encena: pensa (think) (acao + som de efeito) | -

@@ -53,3 +53,11 @@ A folha 3 mostra a fisica de cada uma dessas acoes.
 ## 8. Mais acoes do corpo
 correr / sair correndo / fugir -> sai correndo pela lateral + poeira | pular / saltar -> pulo com gravidade | acenar / despedir -> acena | empurrar / puxar / arrastar -> empurra |
 deitar / ajoelhar -> abaixa | atirar / disparar -> arma na mao, aponta, clarao e som.
+
+## 9. BLOQUEIO DAS 3 FOLHAS (o render nao roda sem elas)
+`make_video.sh` roda `python3 verificar_folhas.py <id>` antes do render e `--render` depois de montar: BLOQUEIA se faltar folha, se alguma estiver desatualizada,
+se a folha 2 tiver risco, se a folha 3 tiver acao FALTANDO, se a folha 3 tiver sido mexida a mao ou se a producao (spec.js / web/story.js) nao carregar a assinatura da folha 3 atual.
+Conferir na mao: `python3 verificar_folhas.py <id>` -> "3 FOLHAS OK: lidas e seguidas".
+## 10. Mais acoes gerais (gesto + objeto/efeito + som na palavra)
+beber, comer, chorar, cantar, ler, telefonar/postar, lavar/limpar, beijar/abracar, plantar/colher, pescar, costurar, pintar/desenhar, cozinhar, bater, procurar, vigiar, bater continencia, rezar,
+aplaudir, acordar (estava dormindo), esperar (bracos cruzados), tremer, tossir/espirrar, nadar/mergulhar, rir, abrir/fechar, soltar/libertar, entregar/receber, medir/contar, apresentar/mostrar.

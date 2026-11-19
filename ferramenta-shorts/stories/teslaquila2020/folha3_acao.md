@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 20 - A Piada que Virou Tequila
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.5s - 20 palavras - plano two
@@ -25,10 +25,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | apareceu (16.0s) | EFEITO: dust | poeira + som | OK |
-| 2 | - | INTERACAO | discutir | OK |
-| 3 | - | ATUACAO | discutir | OK |
-| 4 | - | CHEGADA | alguem entra andando | OK |
+| 1 | postou (13.8s) | ACAO: x_fone | celular na mao + toque | OK |
+| 2 | apareceu (16.0s) | EFEITO: dust | poeira + som | OK |
+| 3 | - | INTERACAO | discutir | OK |
+| 4 | - | ATUACAO | discutir | OK |
+| 5 | - | CHEGADA | alguem entra andando | OK |
 
 ## Cena b3 - 19.5s a 24.6s - 16 palavras - plano two
 > "Muita gente riu. Mas ele resolveu levar a ideia a sério, e tentou registrar o nome."
@@ -36,10 +37,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | riu (20.2s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | ideia (22.6s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
-| 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 4 | - | INTERACAO | entregar | OK |
-| 5 | - | ATUACAO | comemorar | OK |
+| 2 | riu (20.2s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
+| 3 | ideia (22.6s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
+| 4 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 5 | - | INTERACAO | entregar | OK |
+| 6 | - | ATUACAO | comemorar | OK |
 
 ## Cena b4 - 25.6s a 32.2s - 24 palavras - plano low
 > "Acontece que o conselho que protege a tequila no México reclamou: o nome tequila tem regras, e não podia ser usado de qualquer jeito."

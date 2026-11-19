@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 10 - A Pia no Twitter
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 8 frases, 19 acoes catalogadas, 19 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 8 frases, 21 acoes catalogadas, 21 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.3s - 22 palavras - plano track
@@ -17,7 +17,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | filmou (7.6s) | ACAO: tira | tira foto (celular + flash) | OK |
-| 2 | - | MAPA | ESTADOS UNIDOS | OK |
+| 2 | postou (8.8s) | ACAO: x_fone | celular na mao + toque | OK |
+| 3 | - | MAPA | ESTADOS UNIDOS | OK |
 
 ## Cena b2 - 10.9s a 14.9s - 11 palavras - plano two
 > "A legenda dizia: Entrando na sede do Twitter. Deixe isso afundar."
@@ -60,8 +61,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 1 | deu (32.0s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | ATUACAO | reagir | OK |
 
 ## Cena b7 - 34.3s a 36.9s - 10 palavras - plano two
 > "Uma pia, uma legenda e uma piada que ninguém esqueceu."

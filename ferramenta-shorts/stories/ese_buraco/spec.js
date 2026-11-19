@@ -24,3 +24,5 @@ const SPEC = {
     S('b10', A[10], A[11] - 1, X, "day", { h: 2.4, d0: 5.6, d1: 4.9, vary: false, hero: { hero: 'any', frame: 'medium', minH: 0.07, main: 1 }, trans: 'dissolve', actors: [Object.assign(pp(X, "PRO", 0, 0.0, 1.3, "smile", { pose: 'talk' }), { gests: [[WS(161) - 4, WS(161) + 46, 'reach']] })], props: [{ asset: "buildings/house_small", at: [X + -4.8, -11.0], s: 1.05, ry: 0.35, drop: false }, { asset: "kit/globe", at: [X + -1.4, -0.8], s: 1.0, drop: false }, { asset: 'kit/coin', a: WS(161) - 2, b: WS(161) + 50, at: [X + 1.25, 1.9], y: (f) => DK + 1.5 + 0.25 * Math.sin(f * 0.2), spinY: 2, s: 0.35, drop: false }], fx: [{ k: 'stars', a: A[10] + 6, b: A[10] + 40, at: [X + -1.4, DK + 1.6, -0.3], s: 0.8 }, { k: 'birds', a: A[10], b: A[11] - 1, at: [X, DK + 6.0, -30], n: 5, dir: -1, off: 8 }, { k: "stars", a: A[10] + 40, b: A[10] + 66, at: [X, DK + 0.5, 1.2], s: 1.1 }] })
   ],
 };
+
+// FOLHA3 26afcbb3d17c 27 acoes=27 faltando=0

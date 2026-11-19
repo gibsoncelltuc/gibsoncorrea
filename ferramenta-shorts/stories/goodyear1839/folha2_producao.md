@@ -135,11 +135,9 @@ kit/ball | b10 | pronto | conferir na folha de contato se le bem; se parecer cai
 ## Video inteiro
 - Objeto heroi: kit/borracha | grandes momentos: b2, b10 | planos abertos: 3 | mistura: close 12% | medio 78% | aberto 10% | detalhe 0%
 - Interacoes: b0 avanca e o outro recua, b3 o outro se aproxima, b4 empurrar, b5 insiste, b8 abracar, b9 discutir
-- RISCOS GERAIS: 
-  - objeto heroi (kit/borracha) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: objeto heroi (kit/borracha) sem close de camera
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh goodyear1839 bN bM` (so essas cenas).

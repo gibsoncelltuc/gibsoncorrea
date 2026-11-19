@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 23 - O Martelo da Meia-Noite
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.0s - 21 palavras - plano two
@@ -71,8 +71,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | bombas (46.6s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | soltaram (45.6s) | ACAO: x_solta | solta/liberta + brilho | OK |
+| 2 | bombas (46.6s) | EFEITO: burst | estouro/clarao + som | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b8 - 51.7s a 57.0s - 15 palavras - plano two
 > "Um submarino ainda disparou mísseis contra uma terceira usina. Todos os aviões voltaram para casa."

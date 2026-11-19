@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: A Islândia só tinha uns barquinhos da guarda costeira, mas eles tinham uma arma secreta: cortadores de rede.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_pesca (lift) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: CORTADORES DE REDE
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Foi uma guerra de navios batendo e de redes cortadas, e tudo por causa de um peixe.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_bate (punch) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: TUDO POR UM PEIXE
 - Funcao na historia: FECHO/PIADA FINAL

@@ -4,9 +4,9 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | -  | placa: E SE... | - | -
 b1 | reveal | -  | tropa, mapa | (rosto) shock (expr + som de efeito); impossível (ring + som de alerta) | -
-b2 | two | -  | - | caíram (dust + som de impacto) | -
+b2 | two | -  | - | caíram (dust + som de impacto); encena: x_fone (lift) (acao + som de efeito) | -
 b3 | crowd | -  | batalha aberta com tiros, tropa, placa: PANE | - | -
-b4 | two | -  | interior | dinheiro (stars + som de sino) | -
+b4 | two | -  | interior | dinheiro (stars + som de sino); encena: x_fone (lift) (acao + som de efeito) | -
 b5 | two | -  | objeto na mao | - | -
 b6 | low | -  | - | - | -
 b7 | two | -  | - | encena: olha (point) (acao + som de efeito) | -
