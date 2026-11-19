@@ -8,7 +8,7 @@
  "set": "mountain",
  "light": "golden",
  "mood": "playful",
- "heroi": "kit/dog_sit",
+ "heroi": "",
  "outfits": {
   "GRE": {
    "profissao": "soldado",
@@ -160,7 +160,7 @@
      1.0
     ]
    ],
-   "detalhe": true
+   "detalhe": false
   },
   {
    "shot": "crowd",

@@ -84,7 +84,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Um submarino ainda disparou mísseis contra uma terceira usina. Todos o...
 - Cenario: hall | luz: noite | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): TRU (variante 0, expressao stern); GEN (variante 0, expressao grin, segura paper)
 - Animacao: conversar | interacao: insiste
@@ -128,7 +128,7 @@ nature/tree_oak | b8 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/bunker_bomb | grandes momentos: b5, b9 | planos abertos: 3 | mistura: close 29% | medio 50% | aberto 12% | detalhe 9%
+- Objeto heroi: kit/bunker_bomb | grandes momentos: b5, b9 | planos abertos: 3 | mistura: close 38% | medio 41% | aberto 12% | detalhe 9%
 - Interacoes: b0 o outro se aproxima, b2 discutir, b4 entregar, b6 cochichar, b8 insiste
 - RISCOS GERAIS: nenhum
 

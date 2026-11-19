@@ -15,7 +15,7 @@ b7 | interior madeira | two | 2 | reagir, INTERAGEM: susto | - | paper | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | - | paper | -
 b9 | mountain | close | 1 | conversar | kit/dog_sit, dog | - | -
 
-OBJETO HEROI: kit/dog_sit - aparece em 3 cena(s), close nele em 1
+OBJETO HEROI: nenhum achado (ponha "heroi": "kit/..." no topo do roteiro)
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b6
 Interacoes entre personagens: b4 empurrar, b5 susto, b7 susto, b8 entregar
 

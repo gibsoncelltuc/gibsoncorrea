@@ -10,9 +10,9 @@ b4 | two | -  | interior | - | -
 b5 | crowd | noite  | batalha aberta com tiros, tropa, placa: B-2 | encena: voa (point) @3 (acao + som de efeito); explosao: 3 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) (acao + som de efeito) | -
 b6 | two | noite  | - | - | -
 b7 | low | noite  | - | bombas (burst + som de tiro/explosao); encena: x_solta (up) @6 (acao + som de efeito); encena: atira @8 (acao + som de efeito) | -
-b8 | two | noite  | objeto na mao | disparou (burst + som de tiro/explosao); encena: atira @3 (acao + som de efeito); voltam para casa (saem andando) (acao + som de efeito) | -
+b8 | close | noite  | objeto na mao | disparou (burst + som de tiro/explosao); encena: atira @3 (acao + som de efeito); voltam para casa (saem andando) (acao + som de efeito) | -
 b9 | orbit | noite  | batalha aberta com tiros, tropa, placa: FORDOW | - | -
 b10 | close | noite  | - | bomba (burst + som de tiro/explosao); encena: atira @8 (acao + som de efeito) | -
 
-Mistura de planos: close 29% | medio 50% | aberto 12% | detalhe 9%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 38% | medio 41% | aberto 12% | detalhe 9%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

@@ -53,8 +53,8 @@
    "props": [
     [
      "kit/bunker_bomb",
-     0,
-     -1.6,
+     0.5,
+     -0.8,
      0.9
     ],
     [
@@ -233,7 +233,7 @@
    "say": "Acontece que, de madrugada, os aviões soltaram catorze bombas. Doze delas em cima de Fordow, pelos respiros do bunker."
   },
   {
-   "shot": "two",
+   "shot": "close",
    "interior": "loja",
    "who": [
     "TRU:0:stern",
@@ -320,5 +320,5 @@
   "https://www.csis.org/analysis/what-operation-midnight-hammer-means-future-irans-nuclear-ambitions"
  ],
  "cinf": 1.5,
- "exp": 1.404
+ "exp": 2.209
 }
