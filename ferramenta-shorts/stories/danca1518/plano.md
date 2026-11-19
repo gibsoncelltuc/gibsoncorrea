@@ -7,11 +7,11 @@ b1 | reveal | dia  | tropa, mapa | dançou (stars + som de sino); encena: danca 
 b2 | group | -  | - | dançando (stars + som de sino); encena: danca (up) @8 (acao + som de efeito) | -
 b3 | crowd | -  | batalha aberta com tiros, tropa, placa: 400 | (rosto) shout (expr + som de efeito); socorro (ring + som de alerta); encena: grita (up) @10 (acao + som de efeito) | -
 b4 | two | -  | interior, objeto na mao | dançar (stars + som de sino); encena: danca (up) @13 (acao + som de efeito) | -
-b5 | two | -  | placa: PALCO, objeto na mao | músicos (stars + som de sino); encena: constroi (hammer) @8 (acao + som de efeito); encena: danca (up) @13 (acao + som de efeito) | -
+b5 | wide | -  | placa: PALCO, objeto na mao | músicos (stars + som de sino); encena: constroi (hammer) @8 (acao + som de efeito); encena: danca (up) @13 (acao + som de efeito) | -
 b6 | two | -  | tropa | música (stars + som de sino); dança (stars + som de sino); encena: pensa (think) @3 (acao + som de efeito); encena: x_canta (up) @6 (acao + som de efeito); encena: chega (point) @9 (acao + som de efeito); encena: danca (up) @11 (acao + som de efeito); encena: tomba @14 (acao + som de efeito) | -
 b7 | crowd | -  | batalha aberta com tiros, tropa | - | -
 b8 | track | -  | - | dançarinos (stars + som de sino); dança (stars + som de sino); encena: danca (up) @3 (acao + som de efeito) | -
 b9 | close | -  | - | - | -
 
-Mistura de planos: close 11% | medio 70% | aberto 13% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | dentro do padrao do canal
+Mistura de planos: close 11% | medio 61% | aberto 25% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 4 | dentro do padrao do canal

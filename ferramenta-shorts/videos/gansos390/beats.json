@@ -210,9 +210,9 @@
     "thump@66",
     "whoosh@60"
    ],
-   "d0": 12.5,
-   "d1": 11.5,
-   "cx": 0.8,
+   "d0": 11.0,
+   "d1": 10.0,
+   "cx": 0.0,
    "shot_lock": true,
    "interior": false
   },

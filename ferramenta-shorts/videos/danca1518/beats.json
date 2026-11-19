@@ -129,7 +129,7 @@
    "acao": "nenhuma"
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "MUS:0:grin:flag",
     "PRE:0:grin"
@@ -139,29 +139,47 @@
    "props": [
     [
      "war/drum",
-     -1.8,
+     -2.2,
      -0.2,
      1.0
     ],
     [
-     "kit/podium",
-     1.2,
-     -1.6,
-     1.9,
+     "mk/Table_Large",
+     0.0,
+     -4.5,
+     2.6,
+     {
+      "drop": true
+     }
+    ],
+    [
+     "mk/Crate_Wooden",
+     -3.4,
+     -4.5,
+     1.6,
+     {
+      "drop": true
+     }
+    ],
+    [
+     "mk/Crate_Wooden",
+     3.4,
+     -4.5,
+     1.6,
      {
       "drop": true
      }
     ],
     [
      "buildings/church",
-     6.0,
-     -12.0,
+     8.0,
+     -14.0,
      1.2
     ],
     [
      "buildings/house_small",
-     -6.0,
-     -11.0,
+     -8.0,
+     -13.0,
      1.25
     ]
    ],
