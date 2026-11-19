@@ -5,7 +5,7 @@
  "ep": 24,
  "title": "O Foguete que Voltou de Ré",
  "titulo_base": "O Foguete que Voltou de Ré",
- "set": "harbor",
+ "set": "countryside",
  "light": "day",
  "mood": "playful",
  "heroi": "kit/rocket",
@@ -70,7 +70,8 @@
     "ding@30"
    ],
    "say": "Durante sessenta anos, todo foguete era jogado fora depois de um voo. Até que um deles voltou e pousou de ré.",
-   "detalhe": false
+   "detalhe": false,
+   "set": "countryside"
   },
   {
    "shot": "reveal",
@@ -80,7 +81,8 @@
    ],
    "mapa": "ESTADOS UNIDOS",
    "mapa_at": 3,
-   "say": "Foi em dezembro de dois mil e quinze, no Cabo Canaveral, na Flórida."
+   "say": "Foi em dezembro de dois mil e quinze, no Cabo Canaveral, na Flórida.",
+   "set": "countryside"
   },
   {
    "shot": "two",
@@ -98,33 +100,64 @@
      1.1
     ]
    ],
-   "detalhe": false
+   "detalhe": false,
+   "set": "street"
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "ENA:0:sad",
     "MUS:0:nervous"
    ],
    "fx": [
-    "burst@30",
-    "puff@50"
+    "burst@25",
+    "burst@40",
+    "puff@30",
+    "puff@55"
    ],
    "sfx": [
-    "cannon@30",
+    "cannon@25",
+    "cannon@40",
     "thump@50"
    ],
    "say": "As primeiras tentativas de pouso deram errado. Foguetes tombaram, e explodiram no mar.",
    "props": [
     [
      "kit/rocket",
-     2.0,
-     -9.0,
+     -2.5,
+     -6.5,
      1.0
+    ],
+    [
+     "kit/rocket",
+     2.8,
+     -8.0,
+     1.0
+    ],
+    [
+     "kit/fire",
+     -2.5,
+     -6.0,
+     2.4
+    ],
+    [
+     "kit/fire",
+     2.8,
+     -7.5,
+     2.4
+    ],
+    [
+     "kit/fire",
+     0.2,
+     -7.0,
+     3.0
     ]
    ],
    "detalhe": false,
-   "set": "harbor"
+   "set": "countryside",
+   "shot_lock": true,
+   "impact": true,
+   "riscos_ok": true
   },
   {
    "shot": "two",
@@ -147,7 +180,8 @@
      -0.3,
      0.3
     ]
-   ]
+   ],
+   "set": "street"
   },
   {
    "shot": "crowd",
@@ -182,7 +216,8 @@
     "whoosh@20",
     "thump@40"
    ],
-   "say": "Depois de soltar a parte de cima, a parte de baixo virou no céu, e começou a voltar para a Terra."
+   "say": "Depois de soltar a parte de cima, a parte de baixo virou no céu, e começou a voltar para a Terra.",
+   "set": "street"
   },
   {
    "shot": "wide",
@@ -195,15 +230,20 @@
     [
      "kit/falcon9_land",
      0,
-     -7.0,
-     1.1
+     -6.0,
+     1.1,
+     {
+      "drop": true
+     }
     ]
    ],
    "fx": [
-    "ring@20"
+    "ring@20",
+    "dust@70"
    ],
    "sfx": [
-    "sting@20"
+    "sting@20",
+    "thump@70"
    ],
    "say": "Acontece que ela desceu de ré, de pé, com o motor aceso freando a queda.",
    "detalhe": false,
@@ -219,18 +259,21 @@
    "props": [
     [
      "kit/falcon9_land",
-     1.8,
-     -8.0,
-     1.0
+     1.2,
+     -6.0,
+     1.0,
+     {
+      "drop": true
+     }
     ]
    ],
    "fx": [
-    "stars@30",
-    "puff@50"
+    "puff@30",
+    "dust@50"
    ],
    "sfx": [
-    "ding@30",
-    "thump@50"
+    "thump@30",
+    "ding@50"
    ],
    "say": "E pousou certinho no meio da plataforma, abrindo as pernas no último segundo.",
    "detalhe": false

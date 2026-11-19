@@ -31,7 +31,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | INTERACAO | discutir | OK |
 | 5 | - | ATUACAO | discutir | OK |
 
-## Cena b3 - 19.6s a 24.6s - 13 palavras - plano two
+## Cena b3 - 19.6s a 24.6s - 13 palavras - plano wide
 > "As primeiras tentativas de pouso deram errado. Foguetes tombaram, e explodiram no mar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -39,8 +39,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | deram (21.1s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 2 | explodiram (24.0s) | EFEITO: burst | estouro/clarao + som | OK |
 | 3 | explodiram (24.0s) | ACAO: desaba | desaba: nuvem de poeira + tremor | OK |
-| 4 | - | INTERACAO | susto | OK |
-| 5 | - | ATUACAO | conversar | OK |
+| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 5 | - | ATUACAO | reagir | OK |
 
 ## Cena b4 - 25.6s a 30.7s - 16 palavras - plano two
 > "Mas a equipe insistiu. Em vinte e um de dezembro, o Falcon nove decolou levando satélites."

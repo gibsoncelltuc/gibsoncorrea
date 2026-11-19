@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - A Praga da Dança
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 45 acoes catalogadas, 45 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 46 acoes catalogadas, 46 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 3.5s - 14 palavras - plano two
@@ -57,7 +57,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | avanca e o outro recua | OK |
 | 4 | - | ATUACAO | reagir | OK |
 
-## Cena b5 - 31.1s a 36.9s - 18 palavras - plano low
+## Cena b5 - 31.1s a 36.9s - 18 palavras - plano crowd
 > "Acontece que a cidade levou isso a sério. Construiu um palco, e contratou músicos para animar a multidão."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -65,12 +65,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | Construiu (34.1s) | ACAO: constroi | martela e o objeto cresce | OK |
 | 2 | músicos (35.8s) | EFEITO: stars | estrelinhas + som | OK |
 | 3 | músicos (35.8s) | ACAO: danca | danca de bracos para cima | OK |
-| 4 | - | INTERACAO | discutir | OK |
+| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 5 | - | ATUACAO | construir | OK |
 | 6 | - | PLACA | PALCO | OK |
 
-## Cena b6 - 38.2s a 43.6s - 17 palavras - plano orbit
-> "Foi a pior ideia possível. Com música, mais gente entrou na dança, e muitos caíram de exaustão."
+## Cena b6 - 38.2s a 43.6s - 17 palavras - plano two
+> "Foi a pior ideia possível. Com música, mais gente entrou na dança, e muitos desmaiaram de exaustão."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -80,9 +80,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | entrou (41.5s) | ACAO: chega | entra andando pela lateral | OK |
 | 5 | dança (42.0s) | EFEITO: stars | estrelinhas + som | OK |
 | 6 | dança (42.0s) | ACAO: danca | danca de bracos para cima | OK |
-| 7 | caíram (43.1s) | EFEITO: dust | poeira + som | OK |
-| 8 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 7 | desmaiaram (43.1s) | ACAO: tomba | cai sentado no chao + poeira | OK |
+| 8 | - | INTERACAO | discutir | OK |
 | 9 | - | ATUACAO | dancar | OK |
+| 10 | - | CHEGADA | alguem entra andando | OK |
 
 ## Cena b7 - 45.0s a 49.4s - 15 palavras - plano two
 > "As crônicas da época falam em mortes, mas os historiadores discutem quantas foram de verdade."

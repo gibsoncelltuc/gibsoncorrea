@@ -139,16 +139,19 @@
    "say": "Acontece que a cidade levou isso a sério. Construiu um palco, e contratou músicos para animar a multidão.",
    "props": [
     [
-     "kit/podium",
-     1.6,
-     -0.6,
-     1.2
-    ],
-    [
      "war/drum",
      -1.5,
      -0.5,
      1.0
+    ],
+    [
+     "kit/podium",
+     1.6,
+     -0.6,
+     1.5,
+     {
+      "drop": true
+     }
     ]
    ],
    "acao": "construir",
@@ -158,10 +161,11 @@
    "sfx": [
     "thump@50"
    ],
-   "set": "medieval"
+   "set": "medieval",
+   "fachada": false
   },
   {
-   "shot": "orbit",
+   "shot": "two",
    "who": [
     "POV:2:pained",
     "POV:3:pained"
@@ -185,7 +189,17 @@
     "thump@50",
     "sting@110"
    ],
-   "say": "Foi a pior ideia possível. Com música, mais gente entrou na dança, e muitos caíram de exaustão."
+   "say": "Foi a pior ideia possível. Com música, mais gente entrou na dança, e muitos desmaiaram de exaustão.",
+   "shot_lock": true,
+   "props": [
+    [
+     "war/drum",
+     -1.4,
+     -0.5,
+     1.0
+    ]
+   ],
+   "detalhe": true
   },
   {
    "shot": "two",

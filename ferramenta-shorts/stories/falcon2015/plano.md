@@ -5,7 +5,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | -  | placa: 2015 | - | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | objeto na mao | (rosto) shock (expr + som de efeito); impossível (ring + som de alerta); encena: duvida (shrug) @15 (acao + som de efeito) | -
-b3 | two | -  | - | explodiram (burst + som de tiro/explosao); encena: x_entrega (reach) @5 (acao + som de efeito); encena: desaba @10 (acao + som de efeito) | -
+b3 | wide | -  | batalha aberta com tiros | explodiram (burst + som de tiro/explosao); encena: x_entrega (reach) @5 (acao + som de efeito); encena: desaba @10 (acao + som de efeito) | -
 b4 | two | -  | objeto na mao | encena: voa (point) @13 (acao + som de efeito) | -
 b5 | crowd | -  | batalha aberta com tiros, tropa | - | -
 b6 | wide | noite  | - | - | -
@@ -14,5 +14,5 @@ b8 | orbit | -  | batalha aberta com tiros, tropa, placa: POUSOU! | (rosto) shou
 b9 | two | -  | - | - | -
 b10 | close | -  | - | - | -
 
-Mistura de planos: close 14% | medio 62% | aberto 19% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 4 | dentro do padrao do canal
+Mistura de planos: close 16% | medio 58% | aberto 22% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 5 | dentro do padrao do canal

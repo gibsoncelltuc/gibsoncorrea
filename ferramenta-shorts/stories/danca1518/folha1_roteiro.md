@@ -49,21 +49,21 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval
 
 ## Cena b5  (~6.2 s)
 - Narracao: Acontece que a cidade levou isso a sério. Construiu um palco, e contratou músicos para animar a multidão.
-- Som ambiente: birds
+- Som ambiente: birds | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: thump@50
 - Efeito + som nas palavras-chave: músicos -> stars + som de sino; encena: constroi (hammer) @8 -> acao + som de efeito; encena: danca (up) @13 -> acao + som de efeito
 - Efeito visual marcado: puff@50
 - Texto na tela: PALCO
-- Funcao na historia: VIRADA
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b6  (~5.9 s)
-- Narracao: Foi a pior ideia possível. Com música, mais gente entrou na dança, e muitos caíram de exaustão.
+- Narracao: Foi a pior ideia possível. Com música, mais gente entrou na dança, e muitos desmaiaram de exaustão.
 - Som ambiente: birds
 - Efeitos sonoros marcados: thump@50, sting@110
-- Efeito + som nas palavras-chave: música -> stars + som de sino; dança -> stars + som de sino; caíram -> dust + som de impacto; encena: pensa (think) @3 -> acao + som de efeito; encena: x_canta (up) @6 -> acao + som de efeito; encena: chega (point) @9 -> acao + som de efeito; encena: danca (up) @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: música -> stars + som de sino; dança -> stars + som de sino; encena: pensa (think) @3 -> acao + som de efeito; encena: x_canta (up) @6 -> acao + som de efeito; encena: chega (point) @9 -> acao + som de efeito; encena: danca (up) @11 -> acao + som de efeito; encena: tomba @14 -> acao + som de efeito
 - Efeito visual marcado: dust@50, puff@110
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b7  (~5.2 s)
 - Narracao: As crônicas da época falam em mortes, mas os historiadores discutem quantas foram de verdade.
