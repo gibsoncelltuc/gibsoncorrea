@@ -98,7 +98,7 @@ Toda revisao com defeito achado vira linha "CORRIGIDO" no revisao_storyboard.md,
 ## 14. REFACAO DOS VIDEOS JA PRONTOS (ordem do Gibson 19/11)
 Os 63 roteiros que ja tinham video sao TODOS refeitos com a ferramenta final, divididos assim:
 sessao principal = queue.txt (24) | sessao A = fila_sessao_A.txt (20) | sessao B = fila_sessao_B.txt (19).
-NADA de tema novo ate terminar a refacao. Cada video: storyboard + grade de acoes + revisao_storyboard.md + verificar_execucao; so depois render; entrega so depois de conferir.sh e olhar a folha de contato.
+ORDEM DE PRIORIDADE (Gibson, 19/11 tarde): 1o GUERRAS INUSITADAS e PODER E FAMA; depois Curiosidade e Ciencia; a serie "E SE" (tema novo) SO DEPOIS de todos os outros. NADA de tema novo ate terminar a refacao. Cada video: storyboard + grade de acoes + revisao_storyboard.md + verificar_execucao; so depois render; entrega so depois de conferir.sh e olhar a folha de contato.
 
 ## 15. WATCHDOG (ordem do Gibson 19/11)
 - Toda sessao: o hook de inicio (boot.sh) relanca a FILA e, nas sessoes A/B, o loop do sync_ferramenta.sh assim que a maquina reinicia.
