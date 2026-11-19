@@ -42,14 +42,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, setembro, valer
 - RISCOS: nenhum
 
-## Cena b4 - Com isso, dava para pagar as compras com bitcoin.
+## Cena b4 - Com isso, dava para pagar tudo com bitcoin.
 - Cenario: street | luz: dia | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): CLI (variante 0, expressao smile, segura coin); POV (variante 0, expressao grin)
 - Animacao: conversar | interacao: entregar
 - Objetos/modelos: kit/bitcoin, kit/volcano
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bitcoin, compras, isso
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bitcoin, isso
 - RISCOS: nenhum
 
 ## Cena b5 - O governo lançou até uma carteira digital, chamada Chivo.

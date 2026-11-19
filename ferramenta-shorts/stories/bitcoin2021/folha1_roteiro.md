@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 09 - O País do Bitcoin
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 9 cenas, 124 palavras (~43 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 9 cenas, 123 palavras (~42 s)
 
 ## Cena b0  (~7.6 s)
 - Narracao: Em dois mil e vinte e um, um país fez algo que nenhum outro tinha feito: aceitou o bitcoin como dinheiro oficial.
@@ -38,11 +38,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: 7 DE SETEMBRO DE 2021
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b4  (~3.1 s)
-- Narracao: Com isso, dava para pagar as compras com bitcoin.
+## Cena b4  (~2.8 s)
+- Narracao: Com isso, dava para pagar tudo com bitcoin.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@3
-- Efeito + som nas palavras-chave: pagar -> stars + som de sino; encena: paga (reach) @4 -> acao + som de efeito; encena: negocio (reach) @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: pagar -> stars + som de sino; encena: paga (reach) @4 -> acao + som de efeito
 - Efeito visual marcado: stars@3
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
