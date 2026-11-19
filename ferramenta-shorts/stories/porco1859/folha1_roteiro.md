@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b4  (~6.6 s)
 - Narracao: O fazendeiro foi até a casa do vizinho, com as notas na mão. "Eu pago dez dólares", ofereceu ele.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -49,9 +49,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b5  (~4.8 s)
 - Narracao: "Dez? Ele vale cem!", gritou o dono, empurrando o dinheiro de volta. Ninguém cedeu.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: gritou -> ring + som de alerta; dinheiro -> stars + som de sino
+- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou -> ring + som de alerta; dinheiro -> stars + som de sino
 - Efeito visual marcado: -
 - Texto na tela: $100
 - Funcao na historia: desenvolvimento
@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b9  (~4.5 s)
 - Narracao: Os soldados passaram meses trocando insultos, e depois, festas. Ninguém deu um tiro.
-- Som ambiente: birds | batalha: tiros e gritos a cena inteira
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124
 - Efeito + som nas palavras-chave: tiro -> burst + som de tiro/explosao
 - Efeito visual marcado: -
