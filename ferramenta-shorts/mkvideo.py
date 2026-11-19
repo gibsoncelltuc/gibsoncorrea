@@ -130,7 +130,7 @@ _MARCOS = ((r'cabo canaveral|plataforma de lancamento|base de lancamento|kennedy
            (r'londres|big ben|tamisa', 'kit/marco_bigben', 16, -58, 1.0), (r'\bparis\b|torre eiffel', 'kit/marco_eiffel', 18, -66, 1.1),
            (r'nova york|estatua da liberdade|manhattan', 'kit/marco_liberdade', 20, -70, 1.0), (r'\broma\b|coliseu|gladiador', 'kit/marco_coliseu', 0, -82, 1.0),
            (r'rio de janeiro|cristo redentor|corcovado', 'kit/marco_cristo', 24, -96, 1.2))
-_mt = __import__('unicodedata').normalize('NFKD', (B.get('title', '') + ' ' + ' '.join(str(b_.get('mapa') or '') + ' ' + b_['say'] for b_ in B['beats'])).lower()).encode('ascii', 'ignore').decode()
+_mt = __import__('unicodedata').normalize('NFKD', (B.get('title', '') + ' ' + ' '.join(str(b_.get('mapa') or '') for b_ in B['beats']) + ' ' + ' '.join(b_['say'] for b_ in B['beats'][:3])).lower()).encode('ascii', 'ignore').decode()   # so o LUGAR da historia (titulo, mapa, comeco), nao qualquer citacao
 MARCO = None if B.get('marco') is False else (B.get('marco') or next(((a_, dx_, z_, s_) for rx_, a_, dx_, z_, s_ in _MARCOS if re.search(rx_, _mt)), None))
 if MARCO and isinstance(MARCO, str): MARCO = (MARCO, 18, -70, 1.0)
 if MARCO:
@@ -177,7 +177,32 @@ PROFISSOES = {  # "profissao" no figurino -> roupa, chapeu e tracos tipicos (o q
     'padre': {'jacket': '#1b1b1f', 'pants': '#1b1b1f', 'boots': '#1b1b1f', 'hat': 'hair', 'hair': '#8a8a86', 'sash': '#f4f1e8'},
     'camponesa': {'jacket': '#b0524a', 'pants': '#6a4a2a', 'boots': '#2a2218', 'hat': 'bonnet'},
     'jornalista': {'jacket': '#6a5a8a', 'pants': '#3b3f52', 'boots': '#1b1b1f', 'hat': 'bowler', 'glasses': True, 'tie': '#1b1b1f'},
+    # PATENTES E CARGOS (19/11: distinguir quem e quem)
+    'coronel': {'jacket': '#2f3a5a', 'pants': '#2a2d33', 'boots': '#1b1b1f', 'hat': 'shako', 'epaulets': '#e8c45a', 'medals': 2, 'buttons': '#e8c45a', 'moustache': '#3a2a1f'},
+    'capitao': {'jacket': '#2f3a5a', 'pants': '#2a2d33', 'boots': '#1b1b1f', 'hat': 'shako', 'epaulets': '#d4d4d8', 'medals': 1, 'buttons': '#d4d4d8'},
+    'imperador': {'jacket': '#1f2f6a', 'pants': '#f1efe6', 'boots': '#1b1b1f', 'hat': 'crown', 'collar': '#f4f1e8', 'sash': '#c8302a', 'epaulets': '#e8c45a', 'medals': 3, 'buttons': '#e8c45a', 'build': 'stout'},
+    'rainha': {'jacket': '#7a2a5a', 'pants': '#7a2a5a', 'boots': '#1b1b1f', 'hat': 'crown', 'hairStyle': 'bun', 'collar': '#f4f1e8', 'dress': True, 'medals': 1},
+    'presidente': {'jacket': '#1f2a44', 'pants': '#1f2a44', 'boots': '#1b1b1f', 'hat': 'hair', 'tie': '#c0262d', 'collar': '#f4f4f2', 'medals': 0},
+    'funcionario': {'jacket': '#dfe8f0', 'pants': '#3b3f52', 'boots': '#1b1b1f', 'hat': 'hair', 'tie': '#2f4a6a', 'collar': '#f4f4f2'},
+    'operario': {'jacket': '#d9822b', 'pants': '#3a4a6a', 'boots': '#2a2218', 'hat': 'helmet', 'cap': '#f2c84a', 'belt': '#2b2b30'},
+    'policial': {'jacket': '#1f2a44', 'pants': '#1f2a44', 'boots': '#1b1b1f', 'hat': 'cap', 'cap': '#1f2a44', 'belt': '#1b1b1f', 'epaulets': '#1f2a44', 'buttons': '#d4d4d8'},
+    'carcereiro': {'jacket': '#3a3f48', 'pants': '#2a2d33', 'boots': '#1b1b1f', 'hat': 'cap', 'cap': '#2a2d33', 'belt': '#1b1b1f', 'buttons': '#d4d4d8'},
+    'enfermeira': {'jacket': '#f4f8f8', 'pants': '#f4f8f8', 'boots': '#f4f4f2', 'hat': 'bonnet', 'cap': '#f4f8f8', 'hairStyle': 'bun', 'sash': '#c8302a'},
+    'engenheiro': {'jacket': '#3a5a8a', 'pants': '#2a2d33', 'boots': '#2a2218', 'hat': 'helmet', 'cap': '#f2c84a', 'glasses': True},
+    'astronauta': {'jacket': '#f4f4f2', 'pants': '#f4f4f2', 'boots': '#d4d4d8', 'hat': 'helmet', 'cap': '#f4f4f2', 'sash': '#2f6fd0'},
 }
+PROFISSOES['general'].update({'epaulets': '#e8c45a', 'medals': 4}); PROFISSOES['rei'].update({'collar': '#f4f1e8', 'medals': 2}); PROFISSOES['empresario'].update({'collar': '#f4f4f2'}); PROFISSOES['politico'].update({'collar': '#f4f4f2'})
+# UNIFORME DA EPOCA (19/11: soldado de 1600, 1915 e 2020 nao usam a mesma roupa) -- "ano" no topo do roteiro ou o ano do titulo/id
+_anoM = re.search(r'\b(1[0-9]{3}|20[0-9]{2}|[2-9][0-9]{2})\b', str(B.get('ano', '')) + ' ' + B.get('title', '') + ' ' + ID)
+ANO = int(_anoM.group(1)) if _anoM else None
+_GUERRA_COR = {'alemanha': '#6a6e5a', 'franca': '#7a8aa8', 'eua': '#7a6a4a', 'inglaterra': '#7a7052', 'russia': '#6a6a4a', 'japao': '#8a7a4a', 'italia': '#7a7a62', 'brasil': '#6a7a5a'}
+for _k, _o in B.get('outfits', {}).items():
+    _pf = str(_o.get('profissao', '')).lower()
+    if not (_o.get('rifle') or _pf in ('soldado', 'general', 'coronel', 'capitao')) or _o.get('uniforme_fixo') or ANO is None: continue
+    if ANO >= 1960: _o.update({'hat': 'cap' if _pf in ('general', 'coronel', 'capitao') else 'helmet', 'cap': _o.get('cap') if _o.get('hat') == 'helmet' else '#4a5a3a', 'jacket': '#6a7a4a', 'pants': '#5a6a3a', 'camo': '#3e4a2e', 'boots': '#2a2218'})
+    elif ANO >= 1914: _c = _GUERRA_COR.get(str(_o.get('pais', '')).lower(), '#7a7052'); _o.update({'hat': 'cap' if _pf in ('general', 'coronel', 'capitao') else 'helmet', 'cap': _c, 'jacket': _c, 'pants': _c, 'boots': '#2a2218'})   # oficial de quepe, soldado de capacete
+    elif ANO >= 1850 and _o.get('hat') in ('shako_tall',): _o['hat'] = 'shako'
+
 _FAMHAIR = {str(o_.get('hair', '')).lower() for o_ in B.get('outfits', {}).values() if o_.get('pele')} - {''}
 for _k, _o in B.get('outfits', {}).items():   # SEM SOSIA (ordem do Gibson): em video com famoso, ninguem mais usa a cor de cabelo dele (loiro do Trump so no Trump)
     if not _o.get('pele') and str(_o.get('hair', '')).lower() in _FAMHAIR: _o['hair'] = '#5a3a22'
@@ -528,6 +553,12 @@ def build_beat(k, b):
         if vc.get('motorista'):   # motorista DENTRO do carro: carta cortada (cabeca e ombros) encostada na janela do lado da camera
             mo_ = vc['motorista'].split(':'); k_ = sv; zd = zv + 0.1 * sv; dxd = -0.45 * sv * dirv   # sentado no banco, dentro da cabine aberta
             acts.append(f"{{ outfit: {json.dumps(mo_[0])}, v: {int(mo_[1]) if len(mo_) > 1 and mo_[1] else 0}, at: [X + {num(x0v + dxd)}, {num(zd)}], move: [[X + {num(x1v + dxd)}, {num(zd)}], {a}, {bb}, 'lin'], pose: 'stand', acting: 'low', expr: {json.dumps(mo_[2] if len(mo_) > 2 else 'smile')}, s: {num(0.86 * k_)}, y: {num(-0.42 * k_)}, crop: 0.5, flip: {'false' if dirv > 0 else 'true'} }}")
+    # TORCIDA DE VERDADE no estadio (19/11): bonequinhos iguais aos personagens, pulando e torcendo nas arquibancadas (nada de bolinhas coloridas)
+    if b.get('set', SET) == 'stadium' and not b.get('interior') and b.get('torcida') is not False:
+        _tor = [k_ for k_, o_ in B.get('outfits', {}).items() if not o_.get('pele') and not o_.get('fixo')] or list(B.get('outfits', {}))
+        for r_ in range(4):
+            for i_ in range(18):
+                acts.append(f"{{ outfit: {json.dumps(_tor[(i_ + r_ * 5) % len(_tor)])}, v: {(i_ * 3 + r_) % 4}, at: [X + {num(-30 + i_ * 3.5 + (r_ % 2) * 1.7)}, {num(-33.5 - r_ * 3.2)}], y: {num(0.75 + r_ * 1.2)}, pose: 'cheer', expr: {json.dumps(['laugh', 'grin', 'shout', 'laugh'][(i_ + r_) % 4])}, s: 0.85, seed: {r_ * 13 + i_} }}")
     # INTERIOR: "interior": "madeira" | "pedra" | "loja"  -> sala com parede a ~5 m, janela, porta, quadros, chao com juntas + moveis
     it = b.get('interior')
     if it:
