@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 04 - A Guerra do Balde
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval | 11 cenas, 166 palavras (~57 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval | 11 cenas, 165 palavras (~57 s)
 
 ## Cena b0  (~4.5 s)
 - Narracao: Duas cidades italianas foram à guerra por causa de um balde de madeira.
@@ -20,18 +20,18 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Texto na tela: - | mapa: ITÁLIA
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~5.9 s)
-- Narracao: Um soldado de Módena empurrou o de Bolonha, que foi derrubado no chão, no meio da praça.
+## Cena b2  (~5.5 s)
+- Narracao: Um soldado de Módena empurrou o de Bolonha, que foi derrubado no chão, e todos riram.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: empurra (push) @4 -> acao + som de efeito; encena: tomba @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; riram -> stars + som de sino; encena: empurra (push) @4 -> acao + som de efeito; encena: tomba @10 -> acao + som de efeito; encena: x_ri (up) @15 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b3  (~4.1 s)
 - Narracao: Numa noite, diz a lenda, soldados de Módena entraram escondidos em Bolonha.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: chega (point) @8 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 
 ## Cena b4  (~6.2 s)
 - Narracao: Não roubaram ouro, nem armas. Levaram o balde velho do poço da praça, e voltaram para casa rindo.
-- Som ambiente: birds | batalha: tiros e gritos a cena inteira
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160, gun@164, gun@168, gun@176, gun@180
 - Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (MOD) -> acao + som de efeito; tiros: 2 soldados caem no chao -> acao + som de efeito; rindo -> stars + som de sino; encena: x_ri (up) @17 -> acao + som de efeito
 - Efeito visual marcado: ring@12, dust@40
@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 
 ## Cena b9  (~5.9 s)
 - Narracao: Módena perseguiu os inimigos até os portões de Bolonha, e ainda zombou deles do lado de fora.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -

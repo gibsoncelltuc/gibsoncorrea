@@ -235,7 +235,7 @@
   },
   {
    "shot": "crowd",
-   "set": "street",
+   "set": "mountain",
    "who": [
     "MIL:0:angry",
     "ING:0:angry"
@@ -253,7 +253,8 @@
    },
    "text": "MILÍCIA",
    "titulo": true,
-   "say": "O Maine chamou milhares de soldados, e a Inglaterra mandou os seus."
+   "say": "O Maine chamou milhares de soldados, e a Inglaterra mandou os seus.",
+   "objetos": false
   },
   {
    "shot": "two",
@@ -275,7 +276,7 @@
   },
   {
    "shot": "two",
-   "set": "palace",
+   "set": "countryside",
    "who": [
     "GEN:0:stern",
     "MIL:0:nervous"
@@ -305,7 +306,7 @@
   },
   {
    "shot": "close",
-   "set": "countryside",
+   "set": "mountain",
    "who": [
     "AME:0:smile"
    ],
@@ -349,7 +350,7 @@
   },
   {
    "shot": "two",
-   "set": "countryside",
+   "set": "mountain",
    "who": [
     "AME:0:smile",
     "CAN:0:smile"

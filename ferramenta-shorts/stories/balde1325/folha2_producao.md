@@ -23,17 +23,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Um soldado de Módena empurrou o de Bolonha, que foi derrubado no chão,...
-- Cenario: countryside | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Cenario: medieval | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): MOD (variante 0, expressao angry); BOL (variante 0, expressao angry)
-- Animacao: conversar | interacao: empurrar
-- Objetos/modelos: kit/marco_ghirlandina, nature/fountain, nature/bench
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bolonha, chao, modena, praca, soldado
+- Animacao: comemorar | interacao: empurrar
+- Objetos/modelos: kit/marco_ghirlandina
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bolonha, chao, modena, soldado
 - RISCOS: nenhum
 
 ## Cena b3 - Numa noite, diz a lenda, soldados de Módena entraram escondidos em Bol...
-- Cenario: countryside | luz: noite | clima: limpo
+- Cenario: mountain | luz: noite | clima: limpo
 - Camera: track = travelling lateral acompanhando quem anda
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): MOD (variante 0, expressao grin); MOD (variante 1, expressao nervous)
@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Não roubaram ouro, nem armas. Levaram o balde velho do poço da praça, ...
-- Cenario: countryside | luz: noite | clima: limpo
+- Cenario: mountain | luz: noite | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): MOD (variante 0, expressao laugh, segura bag); MOD (variante 1, expressao grin) | multidao: 6 de MOD/POV
@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Módena tinha só sete mil soldados. Parecia uma derrota certa, e rápida...
-- Cenario: medieval | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): MOD (variante 0, expressao nervous); MOD (variante 1, expressao pained) | multidao: 5 de MOD/POV
@@ -93,7 +93,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - Módena perseguiu os inimigos até os portões de Bolonha, e ainda zombou...
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: track = travelling lateral acompanhando quem anda
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): MOD (variante 0, expressao laugh, segura flag); MOD (variante 1, expressao grin)
@@ -122,8 +122,6 @@ tools/bucket | b0, b4, b5, b10 | pronto (HEROI: aparece em close) | conferir na 
 buildings/apartment | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/fountain | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/bench | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/well | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_small | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -131,7 +129,7 @@ nature/tree_oak | b4 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: tools/bucket | grandes momentos: b4, b8 | planos abertos: 3 | mistura: close 19% | medio 61% | aberto 15% | detalhe 4%
+- Objeto heroi: tools/bucket | grandes momentos: b4, b8 | planos abertos: 3 | mistura: close 19% | medio 64% | aberto 16% | detalhe 2%
 - Interacoes: b0 susto, b1 discutir, b2 empurrar, b5 discutir, b7 insiste
 - RISCOS GERAIS: nenhum
 

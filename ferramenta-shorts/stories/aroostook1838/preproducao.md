@@ -9,13 +9,13 @@ b1 | countryside | reveal | 10 | parados (so fala e pisca) | - | - | -
 b2 | mountain | two | 2 | discutir, INTERAGEM: vai ate o outro | nature/tree_pine, kit/logs, nature/tree_oak, nature/bush | bag, bag | -
 b3 | countryside | two | 2 | discutir, INTERAGEM: cochichar, batalha | nature/tree_pine | - | -
 b4 | countryside | two | 2 | conversar, INTERAGEM: empurrar | nature/tree_pine, nature/tree_oak, nature/bush | - | -
-b5 | street | crowd | 32 | encena, batalha | - | - | -
+b5 | mountain | crowd | 32 | encena, batalha | - | - | -
 b6 | interior pedra | two | 2 | conversar, INTERAGEM: empurrar | kit/prison_mini | - | -
-b7 | palace | two | 2 | conversar, INTERAGEM: cochichar | - | - | -
+b7 | countryside | two | 2 | conversar, INTERAGEM: cochichar | - | - | -
 b8 | interior madeira | two | 2 | conversar, INTERAGEM: entregar | - | paper | -
 b9 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | kit/scroll | paper | -
-b10 | countryside | group | 1 | conversar | kit/logs, nature/tree_pine, pig | - | -
-b11 | countryside | two | 2 | conversar, INTERAGEM: aproxima-se | nature/tree_pine | - | -
+b10 | mountain | group | 1 | conversar | kit/logs, nature/tree_pine, pig | - | -
+b11 | mountain | two | 2 | conversar, INTERAGEM: aproxima-se | nature/tree_pine | - | -
 
 OBJETO HEROI: kit/logs - aparece em 3 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b5
