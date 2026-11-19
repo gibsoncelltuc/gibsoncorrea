@@ -1324,6 +1324,14 @@ def build_beat(k, b):
     elif k > 0: opts.append("trans: 'dissolve'")   # canal: quase sem corte seco; troca de cena por fusao curta
     if b.get('vary') is False and not wide: opts.append('vary: false')
     opts.append(f"actors: [{', '.join(acts)}]")
+    if pr:   # 19/11 ZERO RESSALVA: o mesmo objeto grande (balao, foguete, navio) nao aparece duplicado na cena (roteiro + automatico)
+        _vis = set(); _pr2 = []
+        for _p in pr:
+            _m = re.search(r"asset: [\"']kit/(balloon\w*|rocket\w*|booster\w*|falcon\w*|navio\w*|roadster\w*|cybertruck\w*|aviao\w*|jato\w*|biplano\w*|helicopter\w*)", _p)
+            if _m and _m.group(1) in _vis: continue
+            if _m: _vis.add(_m.group(1))
+            _pr2.append(_p)
+        pr = _pr2
     if pr: opts.append(f"props: [{', '.join(pr)}]")
     if fx: opts.append(f"fx: [{', '.join(fx)}]")
     call = f"S('b{k}', {a}, {bb}, X, {json.dumps(light)}, {{ {', '.join(opts)} }})"

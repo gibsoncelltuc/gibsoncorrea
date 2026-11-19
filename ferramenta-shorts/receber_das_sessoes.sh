@@ -2,7 +2,7 @@
 # SESSAO PRINCIPAL: busca nos branches A/B as entregas em pedacos, remonta o mp4, confere o sha256 e poe em videos_prontos/<serie>/.
 # Lista na saida os arquivos novos (a principal OLHA a folha de contato e manda pelo chat). Ja recebidos ficam em logs/recebidos.txt.
 cd "$(dirname "$0")/.."; R=ferramenta-shorts/logs/recebidos.txt; touch $R
-git fetch -q origin claude/prod-a-karansebes claude/prod-b-emus
+git fetch -q --depth=1 origin claude/prod-a-karansebes claude/prod-b-emus   # so a ponta (disco: o historico dos pedacos de mp4 nao vem)
 for BR in claude/prod-a-karansebes claude/prod-b-emus; do
   for nf in $(git ls-tree -r --name-only origin/$BR entregas | grep '/mp4.nome$'); do
     d=$(dirname $nf); id=$(basename $d); sha=$(git show origin/$BR:$d/mp4.sha256 2>/dev/null)
