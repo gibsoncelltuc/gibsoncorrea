@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 11 - A Guerra da Lagosta
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.0s - 14 palavras - plano two
@@ -63,11 +63,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | tiro (38.0s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | - | CENA | tiros: 3 soldados caem no chao | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | INTERACAO | susto | OK |
-| 5 | - | ATUACAO | discutir | OK |
+| 1 | esperou (37.1s) | ACAO: x_espera | espera de bracos cruzados | OK |
+| 2 | tiro (38.0s) | EFEITO: burst | estouro/clarao + som | OK |
+| 3 | - | CENA | tiros: 3 soldados caem no chao | OK |
+| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 5 | - | INTERACAO | susto | OK |
+| 6 | - | ATUACAO | discutir | OK |
 
 ## Cena b7 - 39.1s a 44.0s - 16 palavras - plano two
 > "Mas o tiro nunca veio. Os dois governos se reuniram e conversaram, em vez de brigar."
@@ -85,9 +86,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | insiste | OK |
-| 2 | - | ATUACAO | comemorar | OK |
-| 3 | - | PLACA | 1963 | OK |
+| 1 | fecharam (47.0s) | ACAO: x_abre | empurra a porta | OK |
+| 2 | pescar (49.9s) | ACAO: x_pesca | puxa a linha + respingo | OK |
+| 3 | - | INTERACAO | insiste | OK |
+| 4 | - | ATUACAO | comemorar | OK |
+| 5 | - | PLACA | 1963 | OK |
 
 ## Cena b9 - 52.0s a 55.2s - 13 palavras - plano close
 > "No fim, ninguém perguntou para a lagosta de que lado ela queria ficar."

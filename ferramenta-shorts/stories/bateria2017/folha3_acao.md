@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 05 - Cem Dias ou de Graça
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 25 acoes catalogadas, 25 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.5s - 18 palavras - plano close
@@ -9,7 +9,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | rede (3.4s) | ACAO: x_pesca | puxa a linha + respingo | OK |
+| 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b1 - 7.1s a 12.3s - 19 palavras - plano reveal
 > "Musk escreveu que a Tesla instalaria baterias gigantes na Austrália do Sul em cem dias, ou seria de graça."
@@ -71,15 +72,17 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | rede (39.9s) | ACAO: x_pesca | puxa a linha + respingo | OK |
+| 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b8 - 43.2s a 45.9s - 10 palavras - plano two
 > "E tudo começou com uma resposta curta, escrita no celular."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | susto | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | celular (45.9s) | ACAO: x_fone | celular na mao + toque | OK |
+| 2 | - | INTERACAO | susto | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b9 - 47.1s a 50.9s - 13 palavras - plano two
 > "Moral da história: antes de apostar cinquenta milhões num prazo, leia o contrato."

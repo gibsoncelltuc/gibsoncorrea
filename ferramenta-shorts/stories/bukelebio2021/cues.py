@@ -28,4 +28,6 @@ gibber(F(_A[8] + int((_A[9] - _A[8]) * 0.2)), 4, 260, 0.12); gibber(F(_A[8] + in
 whoosh(F(_A[9]), 0.4, 0.35)
 gibber(F(_A[9] + int((_A[10] - _A[9]) * 0.2)), 4, 230, 0.12); gibber(F(_A[9] + int((_A[10] - _A[9]) * 0.58)), 4, 170, 0.12)
 tick(F(int(_W(16))))
+tick(F(int(_W(67))))
+tick(F(int(_W(91))))
 tick(F(int(_W(106))))

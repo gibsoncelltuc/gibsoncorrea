@@ -8,7 +8,7 @@ b0 | interior pedra | two | 1 | conversar | kit/phone | - | -
 b1 | street | crowd | 31 | batalha | kit/volcano | - | -
 b2 | interior pedra | close | 1 | conversar | kit/phone | - | -
 b3 | interior loja | group | 3 | conversar, INTERAGEM: entregar, batalha | - | - | -
-b4 | street | reveal | 11 | parados (so fala e pisca) | kit/volcano | - | -
+b4 | street | reveal | 11 | encena | kit/volcano | - | -
 b5 | street | two | 2 | discutir, INTERAGEM: discutir | kit/phone, kit/volcano | - | -
 b6 | interior loja | two | 2 | conversar, INTERAGEM: insiste | - | - | -
 b7 | interior pedra | close | 1 | conversar | kit/phone | - | -
@@ -19,5 +19,5 @@ OBJETO HEROI: kit/phone - aparece em 5 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b1, b3
 Interacoes entre personagens: b3 entregar, b5 discutir, b6 insiste, b8 vai ate o outro
 
-Cenas com personagens parados: 1 de 10
+Cenas com personagens parados: 0 de 10
 FALTA MODELAR: nada

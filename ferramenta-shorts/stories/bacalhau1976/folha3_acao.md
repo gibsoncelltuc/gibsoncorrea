@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 15 - A Guerra do Bacalhau
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 25 acoes catalogadas, 25 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.4s - 15 palavras - plano two
@@ -52,11 +52,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | gritou (32.4s) | EFEITO: ring | onda + som | OK |
-| 2 | gritou (32.4s) | ACAO: grita | grita de bracos para cima | OK |
-| 3 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
-| 4 | - | INTERACAO | susto | OK |
-| 5 | - | ATUACAO | discutir | OK |
+| 1 | rede (32.0s) | ACAO: x_pesca | puxa a linha + respingo | OK |
+| 2 | gritou (32.4s) | EFEITO: ring | onda + som | OK |
+| 3 | gritou (32.4s) | ACAO: grita | grita de bracos para cima | OK |
+| 4 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
+| 5 | - | INTERACAO | susto | OK |
+| 6 | - | ATUACAO | discutir | OK |
 
 ## Cena b6 - 34.1s a 37.6s - 13 palavras - plano orbit
 > "Eles cortavam as redes dos ingleses, e os navios batiam uns nos outros."

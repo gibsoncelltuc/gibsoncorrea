@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 13 - A Guerra do Banquinho Dourado
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.7s - 13 palavras - plano two
@@ -72,9 +72,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | venceram (42.4s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | venceram (42.4s) | ACAO: vence | bracos para cima + brilho | OK |
-| 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 4 | - | INTERACAO | entregar | OK |
-| 5 | - | ATUACAO | conversar | OK |
+| 3 | tomaram (43.4s) | ACAO: x_bebe | leva o copo a boca | OK |
+| 4 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 5 | - | INTERACAO | entregar | OK |
+| 6 | - | ATUACAO | conversar | OK |
 
 ## Cena b8 - 46.6s a 50.2s - 12 palavras - plano two
 > "Mas os ashanti esconderam o banquinho, e os ingleses nunca conseguiram levá-lo."

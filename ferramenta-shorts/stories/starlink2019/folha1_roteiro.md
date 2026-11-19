@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Ele contou pelo menos cinquenta e seis objetos brilhando em linha.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: examina (think) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 56
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que o site holandês de avistamentos de OVNIs recebeu mais de cento e cinquenta relatos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_entrega (reach) -> acao + som de efeito
 - Efeito visual marcado: burst@40
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

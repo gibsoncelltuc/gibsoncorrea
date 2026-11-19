@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Em julho de dois mil e vinte e três, o Twitter acordou com outro nome: X, e o passarinho azul saiu de cena.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: sai -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_acorda (up) -> acao + som de efeito; encena: sai -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: X
 - Funcao na historia: GANCHO
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: A prefeitura recebeu vinte e quatro reclamações em um fim de semana e abriu uma investigação, porque aquela placa também não tinha permissão.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_entrega (reach) -> acao + som de efeito; encena: x_abre (push) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

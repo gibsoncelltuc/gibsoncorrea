@@ -9,7 +9,7 @@ b3 | two | -  | interior, objeto na mao | encena: senta (acao + som de efeito) |
 b4 | two | -  | - | - | -
 b5 | crowd | -  | batalha aberta com tiros, tropa, placa: REVOLTA | - | -
 b6 | orbit | -  | batalha aberta com tiros, tropa | cavalaria: 4 soldados a cavalo (SOL) (acao + som de efeito); tiros: 5 soldados caem no chao (acao + som de efeito); marcharam (dust + som de impacto); encena: prende (push) (acao + som de efeito) | -
-b7 | two | -  | interior, objeto na mao | (rosto) laugh (expr + som de efeito); venceram (stars + som de sino); encena: vence (up) (acao + som de efeito) | -
+b7 | two | -  | interior, objeto na mao | (rosto) laugh (expr + som de efeito); venceram (stars + som de sino); encena: vence (up) (acao + som de efeito); encena: x_bebe (lift) (acao + som de efeito) | -
 b8 | two | -  | interior | (rosto) laugh (expr + som de efeito) | -
 b9 | close | -  | - | ganhou (stars + som de sino); encena: vence (up) (acao + som de efeito) | -
 

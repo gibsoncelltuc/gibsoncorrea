@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 02 - O Cameo de Sete Segundos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 20 acoes catalogadas, 20 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 22 acoes catalogadas, 22 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.8s - 22 palavras - plano close
@@ -41,8 +41,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | avanca e o outro recua | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | contou (21.8s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+| 2 | - | INTERACAO | avanca e o outro recua | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b5 - 27.1s a 30.6s - 14 palavras - plano wide
 > "Segundo o diretor, a participação de Trump foi o preço para usar o hotel."
@@ -66,9 +67,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | o outro se aproxima | OK |
-| 2 | - | ATUACAO | reagir | OK |
-| 3 | - | MAPA | CANADÁ | OK |
+| 1 | exibiu (39.1s) | ACAO: fala | aponta explicando | OK |
+| 2 | - | INTERACAO | o outro se aproxima | OK |
+| 3 | - | ATUACAO | reagir | OK |
+| 4 | - | MAPA | CANADÁ | OK |
 
 ## Cena b8 - 41.7s a 45.0s - 13 palavras - plano reveal
 > "O corte virou assunto por lá, e a discussão ainda dura até hoje."

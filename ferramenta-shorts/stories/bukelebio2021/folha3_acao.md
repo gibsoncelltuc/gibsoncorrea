@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 01 - O Ditador Mais Legal do Mundo
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 22 acoes catalogadas, 22 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 24 acoes catalogadas, 24 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 7.2s - 26 palavras - plano two
@@ -44,7 +44,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | MAPA | MUNDO | OK |
+| 1 | deu (24.2s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | - | MAPA | MUNDO | OK |
 
 ## Cena b5 - 26.1s a 30.9s - 17 palavras - plano two
 > "Jornais de vários países publicaram a frase, e muita gente ficou discutindo se era piada ou não."
@@ -59,8 +60,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | insiste | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | leram (32.7s) | ACAO: x_le | le o papel | OK |
+| 2 | - | INTERACAO | insiste | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 36.6s a 41.2s - 19 palavras - plano close
 > "Anos depois, no dia da eleição de dois mil e vinte e quatro, o perfil dele dizia: rei filósofo."

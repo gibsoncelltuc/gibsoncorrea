@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 03 - O X no Prédio do Twitter
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 23 acoes catalogadas, 23 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 5.8s - 23 palavras - plano close
@@ -9,9 +9,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | saiu (5.5s) | ACAO: sai | sai andando pela lateral | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | X | OK |
+| 1 | acordou (2.4s) | ACAO: x_acorda | estava dormindo e acorda na palavra | OK |
+| 2 | saiu (5.5s) | ACAO: sai | sai andando pela lateral | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | X | OK |
 
 ## Cena b1 - 6.9s a 12.1s - 18 palavras - plano two
 > "O dono, Elon Musk, anunciou a mudança projetando um grande X no prédio da empresa, em São Francisco."
@@ -61,8 +62,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | vai ate o outro | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | recebeu (32.6s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | abriu (35.2s) | ACAO: x_abre | empurra a porta | OK |
+| 3 | - | INTERACAO | vai ate o outro | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 39.6s a 44.1s - 18 palavras - plano two
 > "A empresa disse que era uma placa luminosa temporária para um evento, e Musk a chamou de provisória."

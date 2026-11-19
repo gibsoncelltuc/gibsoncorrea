@@ -24,3 +24,5 @@ const SPEC = {
     S('b9', A[9], A[10] - 1, X_hall, "study", { h: 2.4, d0: 5.6, d1: 4.9, hero: { hero: 'any', frame: 'medium', minH: 0.07, main: 1 }, trans: 'dissolve', shots: [WS(146)], actors: [pp(X_hall, "CAN", 0, 0.0, 1.3, "smile", { over: { hold: "bottle" }, pose: 'cheer' })], props: [{ asset: "kit/room_oriente_stone", at: [X_hall, 0], s: 1, drop: false }, { asset: "mk/Bookcase_2", at: [X_hall + 7.4, -3.4], s: 2.4, drop: false }, { asset: "mk/Table_Large", at: [X_hall + -6.6, -1.6], s: 2.2, drop: false }, { asset: "mk/Chair_1", at: [X_hall + -4.4, -1.2], s: 2.2, drop: false }, { asset: "mk/Chest_Wood", at: [X_hall + 6.9, 0.6], s: 2.2, drop: false }, { asset: "kit/whisky", at: [X_hall + 2.0, 0.5], s: 1.3, drop: false }], fx: [{ k: 'stars', a: A[9] + 6, b: A[9] + 40, at: [X_hall + 1.0, DK + 1.6, 1.0], s: 0.8 }, { k: 'flash', a: WS(146), b: WS(146) + 8, at: [X_hall + 1.55, DK - 0.55, 1.7], s: 1.6 }, { k: 'puff', a: WS(146) + 3, b: WS(146) + 24, at: [X_hall + 1.8, DK + 1.9, 1.7], s: 0.5 }] })
   ],
 };
+
+// FOLHA3 49d48769619e 24 acoes=24 faltando=0

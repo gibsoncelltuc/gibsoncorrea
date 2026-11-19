@@ -6,9 +6,9 @@ b0 | two | -  | interior, mapa | encena: mistura (stir) (acao + som de efeito) |
 b1 | crowd | -  | batalha aberta com tiros, tropa | - | -
 b2 | close | -  | interior, placa: DITADOR | encena: escreve (write) (acao + som de efeito) | -
 b3 | group | -  | batalha aberta com tiros, interior, placa: O DITADOR MAIS LEGAL DO MUNDO | - | -
-b4 | reveal | -  | tropa, mapa | - | -
+b4 | reveal | -  | tropa, mapa | encena: x_entrega (reach) (acao + som de efeito) | -
 b5 | two | -  | - | - | -
-b6 | two | -  | interior | - | -
+b6 | two | -  | interior | encena: x_le (think) (acao + som de efeito) | -
 b7 | close | -  | interior, placa: REI FILÓSOFO | encena: voto (reach) (acao + som de efeito) | -
 b8 | two | -  | interior | - | -
 b9 | close | -  | - | - | -

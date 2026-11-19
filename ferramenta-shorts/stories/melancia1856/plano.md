@@ -4,8 +4,8 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | -  | placa: 1856 | pagar (stars + som de sino); briga (puff + som de baque) | -
 b1 | reveal | -  | tropa, mapa | ouro (stars + som de sino) | -
-b2 | two | -  | - | pagar (stars + som de sino); encena: sai (acao + som de efeito) | -
-b3 | two | -  | - | (rosto) pleading (expr + som de efeito); gritou (ring + som de alerta); riu (stars + som de sino); encena: grita (up) (acao + som de efeito) | -
+b2 | two | -  | - | pagar (stars + som de sino); encena: x_come (lift) (acao + som de efeito); encena: sai (acao + som de efeito) | -
+b3 | two | -  | - | (rosto) pleading (expr + som de efeito); gritou (ring + som de alerta); riu (stars + som de sino); encena: grita (up) (acao + som de efeito); encena: x_ri (up) (acao + som de efeito) | -
 b4 | group | -  | tropa | confusão (puff + som de baque) | -
 b5 | crowd | -  | batalha aberta com tiros, tropa, placa: BRIGA | briga (puff + som de baque) | -
 b6 | two | -  | interior, objeto na mao | (rosto) sad (expr + som de efeito); morreram (puff + som de baque) | -

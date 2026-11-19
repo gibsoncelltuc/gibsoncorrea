@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 16 - A Guerra da Melancia
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 40 acoes catalogadas, 40 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.9s - 16 palavras - plano two
@@ -29,10 +29,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | embora (16.7s) | ACAO: sai | sai andando pela lateral | OK |
-| 2 | pagar (17.2s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | - | INTERACAO | empurrar | OK |
-| 4 | - | ATUACAO | reagir | OK |
+| 1 | comeu (15.1s) | ACAO: x_come | leva a comida a boca | OK |
+| 2 | embora (16.7s) | ACAO: sai | sai andando pela lateral | OK |
+| 3 | pagar (17.2s) | EFEITO: stars | estrelinhas + som | OK |
+| 4 | - | INTERACAO | empurrar | OK |
+| 5 | - | ATUACAO | reagir | OK |
 
 ## Cena b3 - 18.3s a 22.8s - 15 palavras - plano two
 > "O vendedor pediu o pagamento: "Pague a fatia!", gritou ele, e o viajante só riu."
@@ -42,9 +43,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | gritou (21.0s) | EFEITO: ring | onda + som | OK |
 | 2 | gritou (21.0s) | ACAO: grita | grita de bracos para cima | OK |
 | 3 | riu (22.8s) | EFEITO: stars | estrelinhas + som | OK |
-| 4 | - | EMOCAO: pleading | o rosto vira "pleading" na palavra | OK |
-| 5 | - | INTERACAO | discutir | OK |
-| 6 | - | ATUACAO | discutir | OK |
+| 4 | riu (22.8s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
+| 5 | - | EMOCAO: pleading | o rosto vira "pleading" na palavra | OK |
+| 6 | - | INTERACAO | discutir | OK |
+| 7 | - | ATUACAO | discutir | OK |
 
 ## Cena b4 - 23.9s a 29.0s - 17 palavras - plano group
 > "Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo, na frente de todo mundo."

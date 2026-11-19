@@ -6,8 +6,8 @@ b0 | two | -  | - | encena: cai (throw) (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | - | encena: tira (lift) (acao + som de efeito) | -
 b3 | group | noite  | batalha aberta com tiros, tropa, placa: 3 MINUTOS | - | -
-b4 | wide | noite  | tropa, placa: 56 | - | -
-b5 | crowd | -  | batalha aberta com tiros, tropa | - | -
+b4 | wide | noite  | tropa, placa: 56 | encena: examina (think) (acao + som de efeito) | -
+b5 | crowd | -  | batalha aberta com tiros, tropa | encena: x_entrega (reach) (acao + som de efeito) | -
 b6 | two | -  | interior, mapa | - | -
 b7 | two | -  | - | - | -
 b8 | group | -  | tropa | encena: vira (up) (acao + som de efeito) | -

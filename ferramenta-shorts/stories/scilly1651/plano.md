@@ -7,7 +7,7 @@ b1 | group | -  | tropa, mapa | - | -
 b2 | crowd | -  | batalha aberta com tiros, tropa | - | -
 b3 | group | -  | batalha aberta com tiros, tropa | dinheiro (stars + som de sino); encena: fala (point) (acao + som de efeito) | -
 b4 | crowd | -  | batalha aberta com tiros, tropa, placa: GUERRA | pagou (stars + som de sino); encena: negocio (reach) (acao + som de efeito); encena: fala (point) (acao + som de efeito) | -
-b5 | group | -  | tropa, objeto na mao | - | -
+b5 | group | -  | tropa, objeto na mao | encena: x_bebe (lift) (acao + som de efeito) | -
 b6 | two | -  | - | tiro (burst + som de tiro/explosao) | -
 b7 | two | -  | - | - | -
 b8 | two | -  | interior, objeto na mao | aperto de mao (acao + som de efeito) | -

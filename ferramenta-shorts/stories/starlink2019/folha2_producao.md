@@ -47,7 +47,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): AST (variante 0, expressao grin) | multidao: 6 de POV
-- Animacao: -
+- Animacao: encena
 - Objetos/modelos: kit/starlink_train, kit/marco_canaveral
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum

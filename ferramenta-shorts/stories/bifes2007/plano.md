@@ -9,7 +9,7 @@ b3 | two | -  | interior | pedido: plano medio dos dois, um pede ao outro (shot 
 b4 | wide | -  | batalha aberta com tiros, tropa, placa: $ 50 MIL | encena: negocio (reach) (acao + som de efeito) | -
 b5 | two | -  | interior | apareceu (dust + som de impacto) | -
 b6 | two | -  | interior | - | -
-b7 | two | -  | interior | - | -
+b7 | two | -  | interior | encena: x_pesca (lift) (acao + som de efeito) | -
 b8 | orbit | -  | tropa | encena: sai (acao + som de efeito) | -
 b9 | close | -  | - | - | -
 

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 12 - A Guerra da Orelha de Jenkins
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.9s - 15 palavras - plano two
@@ -44,9 +44,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | EMOCAO: angry | o rosto vira "angry" na palavra | OK |
-| 2 | - | INTERACAO | susto | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 1 | contou (23.5s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+| 2 | - | EMOCAO: angry | o rosto vira "angry" na palavra | OK |
+| 3 | - | INTERACAO | susto | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b5 - 28.2s a 32.8s - 18 palavras - plano two
 > "Acontece que a Inglaterra queria uma desculpa para brigar com a Espanha por causa do comércio no Caribe."
@@ -92,8 +93,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | entregar | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | deu (49.0s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | - | INTERACAO | entregar | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b10 - 54.0s a 57.3s - 13 palavras - plano close
 > "A orelha custou dez anos de guerra, e Jenkins ainda ficou sem ela."

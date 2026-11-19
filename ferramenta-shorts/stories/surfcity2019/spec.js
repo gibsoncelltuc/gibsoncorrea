@@ -24,3 +24,5 @@ const SPEC = {
     S('b9', A[9], A[10] - 1, X_street, "golden", { h: 2.4, d0: 5.6, d1: 4.9, hero: { hero: 'any', frame: 'medium', minH: 0.07, main: 1 }, trans: 'dissolve', actors: [pp(X_street, "BUK", 0, 0.0, 1.3, "smug", { pose: 'talk' })], props: [{ asset: "buildings/house_two", at: [X_street + 4.8, -11.0], s: 1.05, ry: -0.35, drop: false }, { asset: "kit/surfboard", at: [X_street + 2.0, 0.9], s: 0.6, drop: false }, { asset: "kit/volcano", at: [X_street + 0, -120], s: 9.0, drop: false }], fx: [{ k: 'stars', a: A[9] + 6, b: A[9] + 40, at: [X_street + 0.8, DK + 1.6, 1.5], s: 0.8 }] })
   ],
 };
+
+// FOLHA3 1159a03c084d 21 acoes=21 faltando=0

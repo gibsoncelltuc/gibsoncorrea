@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Um deles parou numa barraca, comeu uma fatia de melancia e foi embora sem pagar.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: pagar -> stars + som de sino; encena: sai -> acao + som de efeito
+- Efeito + som nas palavras-chave: pagar -> stars + som de sino; encena: x_come (lift) -> acao + som de efeito; encena: sai -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O vendedor pediu o pagamento: "Pague a fatia!", gritou ele, e o viajante só riu.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; gritou -> ring + som de alerta; riu -> stars + som de sino; encena: grita (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; gritou -> ring + som de alerta; riu -> stars + som de sino; encena: grita (up) -> acao + som de efeito; encena: x_ri (up) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
