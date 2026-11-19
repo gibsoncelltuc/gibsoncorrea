@@ -49,7 +49,7 @@ const SPEC = {
     S('b10', A[10], A[11] - 1, X_hall, "study", { h: 2.4, d0: 5.6, d1: 4.9, hero: { hero: 'any', frame: 'medium', minH: 0.07, main: 1 }, trans: 'dissolve', actors: [pp(X_hall, "BUK", 0, 0.0, 1.3, "smug", { pose: 'talk' })], props: [{ asset: "kit/room_stone", at: [X_hall, 0], s: 1, drop: false }, { asset: "mk/Bookcase_2", at: [X_hall + 7.4, -3.4], s: 2.4, drop: false }, { asset: "mk/Table_Large", at: [X_hall + -6.6, -1.6], s: 2.2, drop: false }, { asset: "mk/Chair_1", at: [X_hall + -4.4, -1.2], s: 2.2, drop: false }, { asset: "mk/Chest_Wood", at: [X_hall + 6.9, 0.6], s: 2.2, drop: false }, { asset: "kit/phone", at: [X_hall + 1.0, 0.4], s: 1.4, drop: false }, { asset: "kit/un_wall", at: [X_hall + 0, -2.2], s: 0.8, drop: false }, { asset: "kit/un_flags", at: [X_hall + 0, -1.8], s: 0.55, drop: false }] })
   ],
 };
-SPEC.fit = {"b0":1.12,"b10~2":1.12,"b2":1.12,"b7":1.12,"b9~3":1.12};
+SPEC.fit = {"b1":1.12,"b10":1.12,"b10~1":1.12,"b6~2":1.12,"b7":1.12,"b9~3":1.12};
 // ===== STORY RUNTIME (generic): turns a declarative SPEC (stories/<id>.spec.js, concatenated before this file) into the story.js interface the engine expects =====
 import { camFromKeys, clamp, lerp, ramp, q, blinkAt, idle, M } from './motion.js';
 export const FPS = 30, TOTAL = SPEC.total, DECK = 6;
