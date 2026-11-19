@@ -100,8 +100,8 @@
    "props": [
     [
      "buildings/bridge",
-     0,
-     -9.0,
+     3.5,
+     -18.0,
      1.4
     ]
    ],
@@ -111,7 +111,8 @@
    "sfx": [
     "thump@40"
    ],
-   "say": "Construiu uma das primeiras grandes pontes do Brasil, e a cidade ganhou a primeira sinagoga das Américas."
+   "say": "Construiu uma das primeiras grandes pontes do Brasil, e a cidade ganhou a primeira sinagoga das Américas.",
+   "detalhe": false
   },
   {
    "shot": "crowd",

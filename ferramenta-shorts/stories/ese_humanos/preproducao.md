@@ -6,7 +6,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | street | two | 2 | conversar, INTERAGEM: aproxima-se | kit/globe, buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b1 | street | reveal | 8 | parados (so fala e pisca) | - | - | -
-b2 | street | two | 2 | conversar, INTERAGEM: entregar | buildings/apartment, buildings/house_two, nature/lamppost | - | -
+b2 | street | two | 2 | reagir, INTERAGEM: entregar | buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b3 | street | two | 1 | conversar | dog, cat | - | -
 b4 | street | low | 1 | usa o objeto da mao | - | paper | -
 b5 | street | crowd | 2 | reagir, batalha | nature/tree_oak, nature/tree_pine, nature/bush, deer, wolf | - | -

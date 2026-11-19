@@ -34,8 +34,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Construiu uma das primeiras grandes pontes do Brasil, e a cidade ganho...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): NAS (variante 0, expressao smug); POV (variante 0, expressao surprised)
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: buildings/bridge, buildings/apartment, buildings/house_two, nature/lamppost
@@ -131,7 +131,7 @@ buildings/skyscraper | b9 | pronto | conferir na folha de contato se le bem; se 
 
 
 ## Video inteiro
-- Objeto heroi: kit/flag_pole | grandes momentos: b4, b9 | planos abertos: 3 | mistura: close 22% | medio 59% | aberto 10% | detalhe 9%
+- Objeto heroi: kit/flag_pole | grandes momentos: b4, b9 | planos abertos: 3 | mistura: close 22% | medio 62% | aberto 10% | detalhe 6%
 - Interacoes: b0 vai ate o outro, b2 aproxima-se, b3 avanca e o outro recua, b5 o outro se aproxima, b6 discutir, b8 entregar
 - RISCOS GERAIS: nenhum
 

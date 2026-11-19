@@ -149,7 +149,16 @@
    "sfx": [
     "thump@40"
    ],
-   "say": "Agora imagina o mundo todo. Sem pagamento pelo celular, sem cartão. Só dinheiro de papel."
+   "say": "Agora imagina o mundo todo. Sem pagamento pelo celular, sem cartão. Só dinheiro de papel.",
+   "detalhe": false,
+   "props": [
+    [
+     "kit/coin",
+     1.2,
+     -0.8,
+     1.0
+    ]
+   ]
   },
   {
    "shot": "two",
