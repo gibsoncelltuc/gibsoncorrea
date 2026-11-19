@@ -2,12 +2,12 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | placa: 1984, objeto na mao | brigaram (puff + som de baque) | -
+b0 | two | -  | placa: 1984, objeto na mao | brigaram (puff + som de baque); encena: golpe (punch) (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | - | - | -
 b3 | crowd | -  | batalha aberta com tiros, tropa, objeto na mao | chegaram (dust + som de impacto) | -
 b4 | two | -  | objeto na mao | - | -
-b5 | low | -  | tropa, objeto na mao | - | -
+b5 | low | -  | tropa, objeto na mao | encena: tira (lift) (acao + som de efeito) | -
 b6 | orbit | -  | batalha aberta com tiros, tropa, objeto na mao | - | -
 b7 | two | -  | - | - | -
 b8 | two | -  | interior, objeto na mao | - | -

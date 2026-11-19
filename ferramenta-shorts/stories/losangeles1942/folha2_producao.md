@@ -118,11 +118,9 @@ cannon | b4, b6 | pronto | conferir na folha de contato se le bem; se parecer ca
 ## Video inteiro
 - Objeto heroi: kit/searchlight | grandes momentos: b2, b4, b6 | planos abertos: 3 | mistura: close 23% | medio 58% | aberto 15% | detalhe 5%
 - Interacoes: b0 susto, b2 cochichar, b3 entregar, b5 discutir, b7 susto, b8 entregar
-- RISCOS GERAIS: 
-  - pouca variedade de cenario ({'street': 8, 'interior madeira': 1, 'interior pedra': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: pouca variedade de cenario ({'street': 8, 'interior madeira': 1, 'interior pedra': 1}): o video fica parecendo todos os outros
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh losangeles1942 bN bM` (so essas cenas).

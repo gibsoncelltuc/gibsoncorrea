@@ -152,8 +152,16 @@
    ],
    "interacao": "susto",
    "say": "Acontece que o soldado morreu, e a Grécia deu um ultimato furioso à Bulgária.",
-   "props": [],
-   "set": "countryside"
+   "props": [
+    [
+     "kit/dog_sit",
+     -1.4,
+     -0.2,
+     1.1
+    ]
+   ],
+   "set": "countryside",
+   "detalhe": true
   },
   {
    "shot": "crowd",

@@ -4,16 +4,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 11 frases, 52 acoes catalogadas, 52 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 2.7s - 12 palavras - plano two
+## Cena b0 - 0.2s a 2.7s - 12 palavras - plano crowd
 > "A França invadiu o México por causa de uma conta de confeitaria."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | invadiu (0.6s) | EFEITO: dust | poeira + som | OK |
-| 2 | - | CENA | cavalaria: 2 soldados a cavalo (OFI) | OK |
-| 3 | - | INTERACAO | entregar | OK |
-| 4 | - | ATUACAO | reagir | OK |
-| 5 | - | CHEGADA | alguem entra andando | OK |
+| 2 | - | CENA | cavalaria: 4 soldados a cavalo (OFI) | OK |
+| 3 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 5 | - | ATUACAO | reagir | OK |
 | 6 | - | PLACA | 1838 | OK |
 
 ## Cena b1 - 4.2s a 8.3s - 14 palavras - plano reveal
@@ -32,7 +32,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | quebraram (13.5s) | ACAO: quebra | quebra + estouro + tremor | OK |
 | 3 | saíram (14.7s) | ACAO: sai | sai andando pela lateral | OK |
 | 4 | pagar (15.3s) | EFEITO: stars | estrelinhas + som | OK |
-| 5 | - | INTERACAO | vai ate o outro | OK |
+| 5 | - | INTERACAO | entregar | OK |
 | 6 | - | ATUACAO | conversar | OK |
 | 7 | - | CHEGADA | alguem entra andando | OK |
 
@@ -64,10 +64,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | pagou (33.9s) | EFEITO: stars | estrelinhas + som | OK |
 | 3 | pagou (33.9s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 4 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 5 | - | INTERACAO | cochichar | OK |
+| 5 | - | INTERACAO | vai ate o outro | OK |
 | 6 | - | ATUACAO | comemorar | OK |
 
-## Cena b6 - 35.6s a 40.9s - 15 palavras - plano crowd
+## Cena b6 - 35.6s a 40.9s - 15 palavras - plano orbit
 > "Acontece que a França mandou mesmo. Navios de guerra fecharam todos os portos do país."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -77,7 +77,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 4 | - | PLACA | A MARINHA | OK |
 
-## Cena b7 - 41.9s a 46.5s - 14 palavras - plano orbit
+## Cena b7 - 41.9s a 46.5s - 14 palavras - plano crowd
 > "Os canhões franceses bombardearam a fortaleza de Veracruz, e os soldados tomaram a cidade."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -89,7 +89,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
 | 6 | - | ATUACAO | reagir | OK |
 
-## Cena b8 - 47.6s a 51.5s - 16 palavras - plano crowd
+## Cena b8 - 47.6s a 51.5s - 16 palavras - plano orbit
 > "Um general mexicano correu para o combate, e perdeu uma perna para um tiro de canhão."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -113,7 +113,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | pagou (54.1s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | pagou (54.1s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 3 | embora (56.6s) | ACAO: sai | sai andando pela lateral | OK |
-| 4 | - | INTERACAO | susto | OK |
+| 4 | - | INTERACAO | cochichar | OK |
 | 5 | - | PLACA | 600.000 | OK |
 
 ## Cena b10 - 57.9s a 59.2s - 6 palavras - plano close

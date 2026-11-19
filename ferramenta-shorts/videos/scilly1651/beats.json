@@ -77,7 +77,7 @@
    "interacao": "discutir",
    "acao": "discutir",
    "say": "Uma ilha minúscula ficou em guerra com a Holanda por 335 anos, e ninguém atirou.",
-   "set": "street"
+   "set": "harbor"
   },
   {
    "shot": "reveal",
@@ -180,7 +180,7 @@
   },
   {
    "shot": "crowd",
-   "set": "harbor",
+   "set": "street",
    "who": [
     "PRE:0:smug:paper",
     "ILH:0:shock"

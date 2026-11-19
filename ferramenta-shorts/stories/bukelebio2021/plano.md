@@ -9,7 +9,7 @@ b3 | group | -  | batalha aberta com tiros, interior, placa: O DITADOR MAIS LEGA
 b4 | reveal | -  | tropa, mapa | - | -
 b5 | two | -  | - | - | -
 b6 | two | -  | interior | - | -
-b7 | close | -  | interior, placa: REI FILÓSOFO | - | -
+b7 | close | -  | interior, placa: REI FILÓSOFO | encena: voto (reach) (acao + som de efeito) | -
 b8 | two | -  | interior | - | -
 b9 | close | -  | - | - | -
 

@@ -4,7 +4,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | -  | - | encena: cai (throw) (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
-b2 | two | -  | - | - | -
+b2 | two | -  | - | encena: tira (lift) (acao + som de efeito) | -
 b3 | group | noite  | batalha aberta com tiros, tropa, placa: 3 MINUTOS | - | -
 b4 | wide | noite  | tropa, placa: 56 | - | -
 b5 | crowd | -  | batalha aberta com tiros, tropa | - | -

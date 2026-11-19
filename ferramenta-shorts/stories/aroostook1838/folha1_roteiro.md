@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b2  (~6.2 s)
 - Narracao: Na floresta de Aroostook, lenhadores americanos e ingleses cortavam as mesmas árvores, e cada lado queria a madeira.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: corta (hammer) -> acao + som de efeito
 - Efeito visual marcado: -
@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b5  (~5.2 s)
 - Narracao: Acontece que um agente do Maine foi preso pelos ingleses, e o clima ficou perigoso.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: prende (push) -> acao + som de efeito
 - Efeito visual marcado: -
@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b9  (~5.2 s)
 - Narracao: Chamaram de Guerra do Porco com Feijão, porque era só isso que as tropas comiam.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: animal: pig come -> acao + som de efeito
 - Efeito visual marcado: -

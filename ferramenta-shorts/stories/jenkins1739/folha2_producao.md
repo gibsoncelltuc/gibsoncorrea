@@ -44,10 +44,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - Sete anos depois, Jenkins contou a história ao Parlamento inglês, e os...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (1): PRE (variante 0, expressao angry, segura paper)
-- Animacao: -
+- Personagens principais (2): PRE (variante 0, expressao angry, segura paper); JEN (variante 0, expressao sad)
+- Animacao: conversar | interacao: susto
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): deputados
 - RISCOS: nenhum
@@ -67,7 +67,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): SOL (variante 0, expressao angry); SOL (variante 1, expressao shout) | multidao: 20 de SOL
-- Animacao: - | batalha encenada
+- Animacao: encena | batalha encenada
 - Objetos/modelos: ship, navios ao fundo
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): oceano
 - RISCOS: nenhum
@@ -77,7 +77,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): SOL (variante 0, expressao nervous); ING (variante 0, expressao pained) | multidao: 10 de SOL/ING
-- Animacao: discutir | interacao: susto | batalha encenada
+- Animacao: discutir | interacao: insiste | batalha encenada
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): europa
 - RISCOS: nenhum
@@ -87,7 +87,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): ESP (variante 0, expressao relief, segura paper); ING (variante 0, expressao relief)
-- Animacao: conversar | interacao: entregar
+- Animacao: conversar | interacao: apertar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois
 - RISCOS: nenhum
@@ -97,7 +97,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): PRE (variante 0, expressao smile, segura book); ING (variante 0, expressao grin)
-- Animacao: conversar | interacao: insiste
+- Animacao: conversar | interacao: entregar
 - Objetos/modelos: kit/ear_jar
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): escritor, jenkins, orelha
 - RISCOS: nenhum
@@ -122,8 +122,8 @@ ship | b1, b6 | pronto | conferir na folha de contato se le bem; se parecer caix
 
 
 ## Video inteiro
-- Objeto heroi: kit/ear_jar | grandes momentos: b6, b7 | planos abertos: 2 | mistura: close 24% | medio 57% | aberto 12% | detalhe 7%
-- Interacoes: b0 discutir, b2 empurrar, b3 cochichar, b5 cochichar, b7 susto, b8 entregar, b9 insiste
+- Objeto heroi: kit/ear_jar | grandes momentos: b6, b7 | planos abertos: 2 | mistura: close 15% | medio 66% | aberto 12% | detalhe 7%
+- Interacoes: b0 discutir, b2 empurrar, b3 cochichar, b4 susto, b5 cochichar, b7 insiste, b8 apertar, b9 entregar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

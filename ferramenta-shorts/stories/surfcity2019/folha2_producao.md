@@ -18,7 +18,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): BUK (variante 0, expressao grin); JOR (variante 0, expressao laugh)
 - Animacao: conversar | interacao: cochichar
-- Objetos/modelos: kit/surfboard
+- Objetos/modelos: kit/surfboard, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): plano, praias
 - RISCOS: nenhum
 
@@ -38,7 +38,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): JOR (variante 0, expressao shock); JOR2 (variante 0, expressao laugh)
 - Animacao: reagir | interacao: insiste
-- Objetos/modelos: -
+- Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): olimpiadas, praias, toquio
 - RISCOS: nenhum
 
@@ -64,14 +64,13 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Críticos dizem que as obras na costa preocupam moradores e ambientalis...
 - Cenario: harbor | luz: golden | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (1): JOR (variante 0, expressao worried)
-- Animacao: -
-- Objetos/modelos: -
+- Personagens principais (3): JOR (variante 0, expressao worried); JOR2 (variante 0, expressao suspicious); POV (variante 0, expressao worried)
+- Animacao: conversar | interacao: discutir
+- Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): costa, obras
-- RISCOS: 
-  - personagens parados (so falam e piscam) -> CORRECAO: "acao": "conversar|discutir|comemorar", "interacao": "empurrar|cochichar|entregar|susto", objeto na mao (4o campo do "who") ou "chega": true
+- RISCOS: nenhum
 
 ## Cena b7 - A Surf City dois leva o projeto para o leste do país.
 - Cenario: countryside | luz: golden | clima: limpo
@@ -79,7 +78,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): BUK (variante 0, expressao grin); JOR (variante 0, expressao shock)
 - Animacao: conversar | interacao: susto
-- Objetos/modelos: kit/surfboard
+- Objetos/modelos: kit/volcano, kit/surfboard
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): leste, projeto, surf
 - RISCOS: nenhum
 
@@ -89,7 +88,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (3): BUK (variante 0, expressao laugh); JOR (variante 0, expressao grin); JOR2 (variante 0, expressao laugh)
 - Animacao: conversar | interacao: aproxima-se
-- Objetos/modelos: kit/surfboard
+- Objetos/modelos: kit/surfboard, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): mundial
 - RISCOS: nenhum
 
@@ -99,7 +98,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): BUK (variante 0, expressao smug)
 - Animacao: conversar
-- Objetos/modelos: kit/surfboard
+- Objetos/modelos: kit/surfboard, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
@@ -109,15 +108,15 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/surfboard | b0, b1, b2, b4, b5, b7, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/volcano | b1, b3, b6, b7, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/surfboard | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 31% | medio 53% | aberto 9% | detalhe 7%
-- Interacoes: b1 cochichar, b3 insiste, b5 vai ate o outro, b7 susto, b8 aproxima-se
+- Objeto heroi: kit/surfboard | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 24% | medio 60% | aberto 9% | detalhe 7%
+- Interacoes: b1 cochichar, b3 insiste, b5 vai ate o outro, b6 discutir, b7 susto, b8 aproxima-se
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- b6: personagens parados (so falam e piscam)
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh surfcity2019 bN bM` (so essas cenas).

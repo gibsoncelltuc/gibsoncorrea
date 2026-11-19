@@ -2,9 +2,9 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | close | -  | placa: X | - | -
-b1 | two | -  | interior, mapa | - | -
-b2 | group | -  | batalha aberta com tiros, tropa | - | -
+b0 | close | -  | placa: X | encena: sai (acao + som de efeito) | -
+b1 | two | -  | interior, mapa | encena: fala (point) (acao + som de efeito) | -
+b2 | group | -  | batalha aberta com tiros, tropa | encena: tira (lift) (acao + som de efeito) | -
 b3 | two | -  | interior | - | -
 b4 | wide | -  | tropa, placa: E R | - | -
 b5 | crowd | -  | batalha aberta com tiros, tropa, placa: X | - | -

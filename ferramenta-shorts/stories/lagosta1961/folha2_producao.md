@@ -8,7 +8,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): BRA (variante 0, expressao angry); FRA (variante 0, expressao smug)
 - Animacao: discutir | interacao: discutir | o ultimo personagem ENTRA andando
-- Objetos/modelos: kit/lobster
+- Objetos/modelos: kit/lobster, kit/marco_olinda
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brasil, franca, lagosta
 - RISCOS: nenhum
 
@@ -18,7 +18,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): PES (variante 0, expressao stern); PES (variante 1, expressao angry) | multidao: 8 de PES
 - Animacao: -
-- Objetos/modelos: boat
+- Objetos/modelos: boat, kit/marco_olinda
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barcos, costa, pernambuco, pescadores
 - RISCOS: nenhum
 
@@ -28,7 +28,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): BRA (variante 0, expressao angry); PES (variante 0, expressao stern)
 - Animacao: discutir | interacao: cochichar
-- Objetos/modelos: -
+- Objetos/modelos: kit/marco_olinda
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brasil, fundo
 - RISCOS: nenhum
 
@@ -38,7 +38,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): FRA (variante 0, expressao smug); FRA (variante 1, expressao laugh) | multidao: 30 de FRA/PES
 - Animacao: conversar
-- Objetos/modelos: -
+- Objetos/modelos: kit/marco_olinda
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca
 - RISCOS: nenhum
 
@@ -57,8 +57,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): MAR (variante 0, expressao angry); MAR (variante 1, expressao shout) | multidao: 20 de MAR/BRA
-- Animacao: - | batalha encenada
-- Objetos/modelos: ship, vehicles/airplane, navios ao fundo
+- Animacao: encena | batalha encenada
+- Objetos/modelos: ship, vehicles/airplane, kit/marco_olinda, navios ao fundo
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brasil, costa, tensao
 - RISCOS: nenhum
 
@@ -68,7 +68,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): MAR (variante 0, expressao stern); MAR (variante 1, expressao nervous) | multidao: 10 de MAR/PES
 - Animacao: discutir | interacao: susto | batalha encenada
-- Objetos/modelos: -
+- Objetos/modelos: kit/marco_olinda
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois
 - RISCOS: nenhum
 
@@ -77,7 +77,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): FRA (variante 0, expressao relief, segura paper); BRA (variante 0, expressao smile)
-- Animacao: discutir | interacao: entregar | o ultimo personagem ENTRA andando
+- Animacao: conversar | interacao: entregar | o ultimo personagem ENTRA andando
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brigar, dois, tiro
 - RISCOS: nenhum
@@ -88,7 +88,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): PES (variante 0, expressao laugh); FRA (variante 0, expressao relief)
 - Animacao: comemorar | interacao: insiste
-- Objetos/modelos: -
+- Objetos/modelos: kit/marco_olinda
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): acordo, limite
 - RISCOS: nenhum
 
@@ -108,6 +108,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/lobster | b0, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_olinda | b0, b1, b2, b3, b5, b6, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 boat | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 ship | b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 vehicles/airplane | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py

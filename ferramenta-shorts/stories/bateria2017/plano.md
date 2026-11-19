@@ -3,7 +3,7 @@
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
 b0 | close | -  | interior | - | -
-b1 | reveal | -  | tropa, placa: 100 DIAS, mapa | - | -
+b1 | reveal | -  | tropa, placa: 100 DIAS, mapa | encena: escreve (write) (acao + som de efeito) | -
 b2 | group | -  | batalha aberta com tiros, tropa, placa: 50 MILHÕES | perder (dust + som de impacto) | -
 b3 | two | -  | interior | - | -
 b4 | wide | -  | batalha aberta com tiros, tropa, placa: 55 DIAS | - | -

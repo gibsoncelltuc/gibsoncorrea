@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: A Inglaterra mandou navios de guerra para proteger seus barcos, e a Islândia só tinha barquinhos da guarda costeira.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: fala (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: MARINHA
 - Funcao na historia: GRANDE MOMENTO
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Acontece que os islandeses tinham uma arma secreta: "Cortadores de rede!", gritou um deles.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou -> ring + som de alerta
+- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou -> ring + som de alerta; encena: grita (up) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Eles cortavam as redes dos ingleses, e os navios batiam uns nos outros.
 - Som ambiente: sea
 - Efeitos sonoros marcados: thump@60
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: corta (hammer) -> acao + som de efeito
 - Efeito visual marcado: burst@60
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

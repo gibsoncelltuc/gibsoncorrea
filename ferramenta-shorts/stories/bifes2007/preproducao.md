@@ -12,12 +12,12 @@ b4 | street | wide | 11 | reagir, batalha | - | - | -
 b5 | interior loja | two | 2 | conversar, INTERAGEM: vai ate o outro, alguem chega andando | kit/tv | - | -
 b6 | interior pedra | two | 2 | conversar, INTERAGEM: aproxima-se | - | - | -
 b7 | interior pedra | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/steak | - | -
-b8 | street | orbit | 10 | parados (so fala e pisca) | buildings/shop, kit/stall | - | -
+b8 | street | orbit | 10 | encena | buildings/shop, kit/stall | - | -
 b9 | street | close | 1 | conversar | kit/steak | - | -
 
 OBJETO HEROI: kit/steak - aparece em 5 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b2, b4
 Interacoes entre personagens: b0 o outro se aproxima, b1 insiste, b2 susto, b3 pedir, b5 vai ate o outro, b6 aproxima-se, b7 avanca e o outro recua
 
-Cenas com personagens parados: 1 de 10
+Cenas com personagens parados: 0 de 10
 FALTA MODELAR: nada

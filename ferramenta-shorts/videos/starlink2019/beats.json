@@ -157,10 +157,9 @@
    "batalha": false,
    "impact": false,
    "say": "Ele contou pelo menos cinquenta e seis objetos brilhando em linha.",
-   "shot": "two",
+   "shot": "close",
    "who": [
-    "AST:0:grin",
-    "JOR:0:shock"
+    "AST:0:grin"
    ],
    "text": "56",
    "hora": "noite",

@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: Musk escreveu que a Tesla instalaria baterias gigantes na Austrália do Sul em cem dias, ou seria de graça.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: escreve (write) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 100 DIAS | mapa: AUSTRÁLIA
 - Funcao na historia: desenvolvimento

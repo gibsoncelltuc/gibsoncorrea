@@ -4,15 +4,15 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | street | two | 2 | discutir, INTERAGEM: discutir, alguem chega andando | kit/lobster | - | -
-b1 | harbor | reveal | 10 | parados (so fala e pisca) | boat | - | -
-b2 | harbor | two | 2 | discutir, INTERAGEM: cochichar | - | - | -
-b3 | countryside | orbit | 32 | conversar | - | - | -
+b0 | street | two | 2 | discutir, INTERAGEM: discutir, alguem chega andando | kit/lobster, kit/marco_olinda | - | -
+b1 | harbor | reveal | 10 | parados (so fala e pisca) | boat, kit/marco_olinda | - | -
+b2 | harbor | two | 2 | discutir, INTERAGEM: cochichar | kit/marco_olinda | - | -
+b3 | countryside | orbit | 32 | conversar | kit/marco_olinda | - | -
 b4 | interior pedra | group | 3 | conversar, INTERAGEM: avanca e o outro recua | ship | - | -
-b5 | harbor | crowd | 22 | batalha | ship, vehicles/airplane, navios ao fundo | - | -
-b6 | harbor | group | 12 | discutir, INTERAGEM: susto, batalha | - | - | -
-b7 | interior madeira | two | 2 | discutir, INTERAGEM: entregar, alguem chega andando | - | paper | -
-b8 | harbor | two | 2 | comemorar, INTERAGEM: insiste | - | - | -
+b5 | harbor | crowd | 22 | encena, batalha | ship, vehicles/airplane, kit/marco_olinda, navios ao fundo | - | -
+b6 | harbor | group | 12 | discutir, INTERAGEM: susto, batalha | kit/marco_olinda | - | -
+b7 | interior madeira | two | 2 | conversar, INTERAGEM: entregar, alguem chega andando | - | paper | -
+b8 | harbor | two | 2 | comemorar, INTERAGEM: insiste | kit/marco_olinda | - | -
 b9 | interior pedra | close | 1 | reagir | kit/lobster | - | -
 
 OBJETO HEROI: kit/lobster - aparece em 2 cena(s), close nele em 1

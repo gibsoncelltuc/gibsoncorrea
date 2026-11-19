@@ -8,7 +8,7 @@ b0 | street | two | 1 | conversar | kit/falcon_air, kit/marco_canaveral, kit/roc
 b1 | street | reveal | 10 | parados (so fala e pisca) | kit/falcon_air, kit/marco_canaveral, kit/starlink_sat | - | -
 b2 | countryside | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/rocket, kit/marco_canaveral, kit/starlink_sat | - | -
 b3 | countryside | group | 13 | reagir, INTERAGEM: susto, batalha | kit/starlink_train, kit/marco_canaveral, nature/picket_fence | - | -
-b4 | countryside | wide | 8 | reagir | kit/starlink_train, kit/marco_canaveral | - | -
+b4 | countryside | wide | 7 | parados (so fala e pisca) | kit/starlink_train, kit/marco_canaveral | - | -
 b5 | street | crowd | 11 | reagir, batalha | kit/marco_canaveral | - | -
 b6 | interior loja | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/starlink_sat | - | -
 b7 | street | two | 2 | conversar, INTERAGEM: insiste | kit/falcon_air, kit/marco_canaveral, kit/starlink_sat | - | -
@@ -19,5 +19,5 @@ OBJETO HEROI: kit/rocket - aparece em 3 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b5
 Interacoes entre personagens: b2 avanca e o outro recua, b3 susto, b6 o outro se aproxima, b7 insiste, b9 vai ate o outro
 
-Cenas com personagens parados: 1 de 10
+Cenas com personagens parados: 2 de 10
 FALTA MODELAR: nada

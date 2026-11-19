@@ -4,9 +4,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b0  (~4.1 s)
 - Narracao: A França invadiu o México por causa de uma conta de confeitaria.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: cavalaria: 2 soldados a cavalo (OFI) -> acao + som de efeito; invadiu -> dust + som de impacto
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116
+- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (OFI) -> acao + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito; invadiu -> dust + som de impacto
 - Efeito visual marcado: -
 - Texto na tela: 1838
 - Funcao na historia: GANCHO
@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b5  (~3.4 s)
 - Narracao: O México riu da cobrança, e não pagou um centavo.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; riu -> stars + som de sino; pagou -> stars + som de sino; encena: negocio (reach) -> acao + som de efeito
 - Efeito visual marcado: -

@@ -7,7 +7,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | arctic | two | 2 | discutir, INTERAGEM: discutir | kit/whisky | flag | -
 b1 | arctic | reveal | 8 | parados (so fala e pisca) | - | - | -
 b2 | harbor | two | 2 | conversar, INTERAGEM: empurrar | - | - | -
-b3 | arctic | crowd | 12 | batalha | vehicles/helicopter | flag | -
+b3 | arctic | crowd | 12 | encena, batalha | vehicles/helicopter | flag | -
 b4 | arctic | two | 2 | comemorar, INTERAGEM: pular | war/flagpole, kit/whisky, kit/tequila_bolt | flag | -
 b5 | arctic | low | 12 | conversar, INTERAGEM: o outro se aproxima, alguem chega andando | war/flagpole | flag | -
 b6 | mountain | orbit | 14 | conversar, batalha | kit/whisky, kit/tequila_bolt | paper | -

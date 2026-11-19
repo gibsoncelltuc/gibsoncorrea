@@ -8,14 +8,14 @@ b0 | mountain | track | 2 | discutir, andando | kit/dog_sit, dog | - | -
 b1 | mountain | reveal | 10 | parados (so fala e pisca) | - | - | -
 b2 | mountain | track | 2 | encena, andando | dog | - | -
 b3 | mountain | track | 2 | encena, andando | dog | - | -
-b4 | mountain | group | 12 | conversar, INTERAGEM: empurrar, batalha | - | - | -
-b5 | mountain | low | 2 | conversar, INTERAGEM: susto | - | - | -
+b4 | countryside | group | 12 | conversar, INTERAGEM: empurrar, batalha | - | - | -
+b5 | countryside | low | 2 | conversar, INTERAGEM: susto | kit/dog_sit | - | -
 b6 | mountain | orbit | 22 | batalha | - | - | -
 b7 | interior madeira | two | 2 | reagir, INTERAGEM: susto | - | paper | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | - | paper | -
-b9 | mountain | close | 1 | conversar | kit/dog_sit, dog | - | -
+b9 | street | close | 1 | conversar | kit/dog_sit, dog | - | -
 
-OBJETO HEROI: kit/dog_sit - aparece em 2 cena(s), close nele em 0  << AVISO: sem close no objeto heroi
+OBJETO HEROI: kit/dog_sit - aparece em 3 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b6
 Interacoes entre personagens: b4 empurrar, b5 susto, b7 susto, b8 entregar
 

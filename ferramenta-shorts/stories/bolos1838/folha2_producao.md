@@ -4,14 +4,13 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - A França invadiu o México por causa de uma conta de confeitaria.
 - Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): CON (variante 0, expressao shock); OFI (variante 0, expressao laugh) | multidao: 5 de CON/OFI
-- Animacao: reagir | interacao: entregar | o ultimo personagem ENTRA andando
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (2): CON (variante 0, expressao shock); OFI (variante 0, expressao laugh) | multidao: 18 de CON/OFI
+- Animacao: reagir | batalha encenada
 - Objetos/modelos: kit/marco_ulua, kit/cake_table
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): confeitaria, franca, mexico
-- RISCOS: 
-  - a narracao fala de BATALHA/ATAQUE e a cena nao encena a luta -> CORRECAO: "batalha": true nesta cena (tropa dos dois lados no "crowd", tiros/golpes e gente fugindo); cada batalha citada no roteiro = uma cena com "batalha": true
+- RISCOS: nenhum
 
 ## Cena b1 - Um confeiteiro francês tinha uma loja perto da Cidade do México, famos...
 - Cenario: street | luz: day | clima: limpo
@@ -19,7 +18,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): CON (variante 0, expressao smile); OFI (variante 1, expressao neutral) | multidao: 8 de CON/OFI
 - Animacao: -
-- Objetos/modelos: kit/marco_ulua, kit/cake_table, buildings/shop, kit/stall
+- Objetos/modelos: kit/cake_table, kit/marco_ulua, buildings/shop, kit/stall
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, confeiteiro, loja, mexico
 - RISCOS: nenhum
 
@@ -28,7 +27,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (3): OFI (variante 0, expressao laugh); OFI (variante 1, expressao grin); CON (variante 0, expressao shock)
-- Animacao: conversar | interacao: vai ate o outro | o ultimo personagem ENTRA andando
+- Animacao: conversar | interacao: entregar | o ultimo personagem ENTRA andando
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): loja
 - RISCOS: nenhum
@@ -54,18 +53,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - O México riu da cobrança, e não pagou um centavo.
-- Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Cenario: countryside | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): GEN (variante 0, expressao laugh); OFI (variante 0, expressao grin)
-- Animacao: comemorar | interacao: cochichar
-- Objetos/modelos: -
+- Animacao: comemorar | interacao: vai ate o outro
+- Objetos/modelos: kit/cake_table, kit/marco_ulua
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): centavo, cobranca, mexico
 - RISCOS: nenhum
 
 ## Cena b6 - Acontece que a França mandou mesmo. Navios de guerra fecharam todos os...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): FRA (variante 0, expressao stern); FRA (variante 1, expressao stern) | multidao: 18 de FRA
 - Animacao: encena | batalha encenada
@@ -75,7 +74,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Os canhões franceses bombardearam a fortaleza de Veracruz, e os soldad...
 - Cenario: street | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): FRA (variante 0, expressao stern); OFI (variante 0, expressao shock) | multidao: 20 de FRA/OFI
 - Animacao: reagir | batalha encenada
@@ -85,7 +84,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Um general mexicano correu para o combate, e perdeu uma perna para um ...
 - Cenario: street | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): GEN (variante 0, expressao pained); OFI (variante 1, expressao shock) | multidao: 18 de GEN/OFI
 - Animacao: reagir | batalha encenada
@@ -98,7 +97,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): GEN (variante 0, expressao pained, segura paper); FRA (variante 0, expressao grin, segura coin)
-- Animacao: encena | interacao: susto
+- Animacao: encena | interacao: cochichar
 - Objetos/modelos: kit/marco_ulua
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca, mexico, seiscentos
 - RISCOS: nenhum
@@ -118,8 +117,8 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/marco_ulua | b0, b1, b6, b7, b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/cake_table | b0, b1, b3, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_ulua | b0, b1, b5, b6, b7, b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/cake_table | b0, b1, b3, b5, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/shop | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/stall | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 cannon | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -127,12 +126,11 @@ buildings/castle_tower | b7 | pronto | conferir na folha de contato se le bem; s
 
 
 ## Video inteiro
-- Objeto heroi: kit/cake_table | grandes momentos: b6, b7, b8 | planos abertos: 4 | mistura: close 22% | medio 58% | aberto 15% | detalhe 4%
-- Interacoes: b0 entregar, b2 vai ate o outro, b3 aproxima-se, b5 cochichar, b9 susto
+- Objeto heroi: kit/cake_table | grandes momentos: b0, b6, b7, b8 | planos abertos: 5 | mistura: close 24% | medio 55% | aberto 18% | detalhe 4%
+- Interacoes: b2 entregar, b3 aproxima-se, b5 vai ate o outro, b9 cochichar
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- b0: a narracao fala de BATALHA/ATAQUE e a cena nao encena a luta
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh bolos1838 bN bM` (so essas cenas).

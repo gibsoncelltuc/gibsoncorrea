@@ -10,7 +10,7 @@ b2 | countryside | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/gol
 b3 | interior madeira | two | 2 | discutir, INTERAGEM: empurrar | kit/golden_stool | paper | -
 b4 | street | two | 2 | reagir, INTERAGEM: susto | - | - | -
 b5 | street | crowd | 22 | batalha | buildings/castle_tower | - | -
-b6 | street | orbit | 22 | batalha | - | - | -
+b6 | street | orbit | 22 | encena, batalha | - | - | -
 b7 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | - | paper | -
 b8 | interior loja | two | 2 | conversar, INTERAGEM: cochichar | kit/golden_stool | - | -
 b9 | street | close | 1 | conversar | kit/golden_stool | - | -

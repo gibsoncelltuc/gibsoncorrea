@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Anos depois, no dia da eleição de dois mil e vinte e quatro, o perfil dele dizia: rei filósofo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@8
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: voto (reach) -> acao + som de efeito
 - Efeito visual marcado: puff@8
 - Texto na tela: REI FILÓSOFO
 - Funcao na historia: desenvolvimento

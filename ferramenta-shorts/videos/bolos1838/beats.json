@@ -60,7 +60,8 @@
     "OFI:0:laugh"
    ],
    "text": "1838",
-   "say": "A França invadiu o México por causa de uma conta de confeitaria."
+   "say": "A França invadiu o México por causa de uma conta de confeitaria.",
+   "batalha": true
   },
   {
    "shot": "two",
@@ -70,7 +71,15 @@
    ],
    "mapa": "MÉXICO",
    "mapa_at": 6,
-   "say": "Um confeiteiro francês tinha uma loja perto da Cidade do México, famosa pelos doces."
+   "say": "Um confeiteiro francês tinha uma loja perto da Cidade do México, famosa pelos doces.",
+   "props": [
+    [
+     "kit/cake_table",
+     1.4,
+     0.5,
+     1.0
+    ]
+   ]
   },
   {
    "shot": "group",
@@ -111,7 +120,15 @@
     "GEN:0:laugh",
     "OFI:0:grin"
    ],
-   "say": "O México riu da cobrança, e não pagou um centavo."
+   "say": "O México riu da cobrança, e não pagou um centavo.",
+   "props": [
+    [
+     "kit/cake_table",
+     1.4,
+     0.5,
+     1.0
+    ]
+   ]
   },
   {
    "shot": "reveal",
@@ -179,5 +196,6 @@
    "say": "Nunca um doce custou tão caro."
   }
  ],
- "marco": "kit/marco_ulua"
+ "marco": "kit/marco_ulua",
+ "heroi": "kit/cake_table"
 }

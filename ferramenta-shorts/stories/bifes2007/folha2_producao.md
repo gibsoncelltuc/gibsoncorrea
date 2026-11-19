@@ -87,7 +87,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): TRU (variante 0, expressao grin); CLI (variante 0, expressao laugh) | multidao: 8 de POV
-- Animacao: -
+- Animacao: encena
 - Objetos/modelos: buildings/shop, kit/stall
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cardapio, carne, loja
 - RISCOS: nenhum

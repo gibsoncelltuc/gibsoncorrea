@@ -7,10 +7,10 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | street | close | 1 | conversar | kit/tv, kit/marco_liberdade | - | -
 b1 | interior pedra | two | 2 | conversar, INTERAGEM: aproxima-se | - | - | -
 b2 | street | group | 13 | conversar, INTERAGEM: susto, batalha | kit/marco_liberdade, nature/picket_fence | - | -
-b3 | interior pedra | close | 1 | parados (so fala e pisca) | kit/tv | - | -
+b3 | interior pedra | close | 1 | conversar | kit/tv | - | -
 b4 | interior loja | two | 2 | conversar, INTERAGEM: avanca e o outro recua | - | - | -
 b5 | street | wide | 13 | reagir, batalha | kit/marco_liberdade, buildings/apartment, buildings/house_two, nature/lamppost | - | -
-b6 | interior loja | two | 2 | reagir, INTERAGEM: discutir | - | - | -
+b6 | interior loja | two | 2 | conversar, INTERAGEM: discutir | - | - | -
 b7 | interior loja | two | 2 | reagir, INTERAGEM: o outro se aproxima | kit/tv | - | -
 b8 | street | reveal | 11 | parados (so fala e pisca) | kit/marco_liberdade | - | -
 b9 | street | close | 1 | conversar | kit/tv, kit/marco_liberdade | - | -
@@ -19,5 +19,5 @@ OBJETO HEROI: kit/tv - aparece em 4 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b2, b5
 Interacoes entre personagens: b1 aproxima-se, b2 susto, b4 avanca e o outro recua, b6 discutir, b7 o outro se aproxima
 
-Cenas com personagens parados: 2 de 10
+Cenas com personagens parados: 1 de 10
 FALTA MODELAR: nada

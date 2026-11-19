@@ -37,7 +37,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (1): TRU (variante 0, expressao laugh)
-- Animacao: -
+- Animacao: conversar
 - Objetos/modelos: kit/tv
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): epoca, plaza, trump
 - RISCOS: nenhum
@@ -67,7 +67,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): TRU (variante 0, expressao suspicious); DIR (variante 0, expressao shock)
-- Animacao: reagir | interacao: discutir
+- Animacao: conversar | interacao: discutir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): equipe
 - RISCOS: nenhum

@@ -4,9 +4,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b0  (~5.2 s)
 - Narracao: Uma ilha minúscula ficou em guerra com a Holanda por 335 anos, e ninguém atirou.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: atirou -> burst + som de tiro/explosao
+- Efeito + som nas palavras-chave: atirou -> burst + som de tiro/explosao; encena: atira -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 335 ANOS
 - Funcao na historia: GANCHO
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Ela mandou uma frota de navios de guerra e exigiu o dinheiro de volta.
 - Som ambiente: sea | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino
+- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino; encena: fala (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -42,14 +42,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Dizem que, como ninguém pagou, o almirante holandês declarou guerra às ilhas.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: pagou -> stars + som de sino
+- Efeito + som nas palavras-chave: pagou -> stars + som de sino; encena: negocio (reach) -> acao + som de efeito; encena: fala (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: GUERRA
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b5  (~5.9 s)
 - Narracao: Acontece que os ingleses tomaram as ilhas pouco depois, e ninguém se lembrou de fazer a paz.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Os dois fizeram a paz num tratado, e a guerra de 335 anos terminou.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: aperto de mao -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

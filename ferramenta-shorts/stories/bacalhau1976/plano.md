@@ -6,9 +6,9 @@ b0 | two | -  | placa: 1958 | - | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | - | - | -
 b3 | two | -  | objeto na mao | - | -
-b4 | crowd | -  | batalha aberta com tiros, tropa, placa: MARINHA | - | -
-b5 | two | -  | interior, objeto na mao | (rosto) shout (expr + som de efeito); gritou (ring + som de alerta) | -
-b6 | orbit | -  | batalha aberta com tiros, tropa | - | -
+b4 | crowd | -  | batalha aberta com tiros, tropa, placa: MARINHA | encena: fala (point) (acao + som de efeito) | -
+b5 | two | -  | interior, objeto na mao | (rosto) shout (expr + som de efeito); gritou (ring + som de alerta); encena: grita (up) (acao + som de efeito) | -
+b6 | orbit | -  | batalha aberta com tiros, tropa | encena: corta (hammer) (acao + som de efeito) | -
 b7 | two | -  | interior, objeto na mao | - | -
 b8 | two | -  | interior, objeto na mao | - | -
 b9 | close | -  | interior | - | -

@@ -5,7 +5,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | street | close | 1 | conversar | kit/phone, kit/marco_goldengate, kit/finch | - | -
-b1 | interior pedra | two | 2 | conversar, INTERAGEM: susto | - | - | -
+b1 | interior pedra | two | 2 | dancar, INTERAGEM: susto | - | - | -
 b2 | street | group | 13 | reagir, INTERAGEM: o outro se aproxima, batalha | kit/marco_goldengate, kit/finch, buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b3 | interior loja | two | 2 | reagir, INTERAGEM: insiste | - | - | -
 b4 | street | wide | 7 | parados (so fala e pisca) | kit/phone, kit/marco_goldengate | - | -

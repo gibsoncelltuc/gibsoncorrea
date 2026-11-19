@@ -13,5 +13,5 @@ b7 | two | -  | interior, objeto na mao | (rosto) pleading (expr + som de efeito
 b8 | two | -  | interior, objeto na mao | pagar (stars + som de sino); encena: fala (point) (acao + som de efeito) | -
 b9 | close | -  | animais | - | -
 
-Mistura de planos: close 19% | medio 67% | aberto 14% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 2 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
+Mistura de planos: close 17% | medio 67% | aberto 14% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 2 | dentro do padrao do canal
