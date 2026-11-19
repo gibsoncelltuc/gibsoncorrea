@@ -104,10 +104,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b10 - Humanos, zero. Emus, um.
 - Cenario: outback | luz: golden | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (1): AUS (variante 0, expressao pained)
-- Animacao: conversar
+- Personagens principais (2): AUS (variante 0, expressao pained); AUS (variante 1, expressao sad)
+- Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: emus
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
@@ -128,8 +128,8 @@ vehicles/truck | b5 | pronto | conferir na folha de contato se le bem; se parece
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b3, b4, b8 | planos abertos: 4 | mistura: close 8% | medio 72% | aberto 18% | detalhe 2%
-- Interacoes: b2 vai ate o outro, b6 susto, b9 pedir
+- Objeto heroi: - | grandes momentos: b3, b4, b8 | planos abertos: 4 | mistura: close 6% | medio 74% | aberto 18% | detalhe 2%
+- Interacoes: b2 vai ate o outro, b6 susto, b9 pedir, b10 aproxima-se
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

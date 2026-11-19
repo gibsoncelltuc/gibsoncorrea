@@ -1,59 +1,73 @@
 {
  "fails": [
   {
-   "f": 1759,
-   "shot": "b9_d",
+   "f": 1888,
+   "shot": "b10",
    "why": [
-    "empty: characters are in the scene but none is in frame"
+    "aus: head/torso cropped (box -0.317, 0.357, 0.076, 0.891)"
    ]
   },
   {
-   "f": 1760,
-   "shot": "b9_d",
+   "f": 1890,
+   "shot": "b10",
    "why": [
-    "empty: characters are in the scene but none is in frame"
+    "aus: head/torso cropped (box -0.336, 0.339, 0.085, 0.898)"
    ]
   },
   {
-   "f": 1764,
-   "shot": "b9_d",
+   "f": 1892,
+   "shot": "b10",
    "why": [
-    "empty: characters are in the scene but none is in frame"
+    "aus: head/torso cropped (box -0.36, 0.336, 0.069, 0.905)"
    ]
   },
   {
-   "f": 1768,
-   "shot": "b9_d",
+   "f": 1896,
+   "shot": "b10",
    "why": [
-    "empty: characters are in the scene but none is in frame"
+    "aus: head/torso cropped (box -0.397, 0.33, 0.047, 0.919)"
    ]
   },
   {
-   "f": 1772,
-   "shot": "b9_d",
+   "f": 1900,
+   "shot": "b10",
    "why": [
-    "empty: characters are in the scene but none is in frame"
+    "aus: head/torso cropped (box -0.428, 0.328, -0.005, 0.931)"
    ]
   },
   {
-   "f": 1776,
-   "shot": "b9_d",
+   "f": 1904,
+   "shot": "b10",
    "why": [
-    "empty: characters are in the scene but none is in frame"
+    "aus: head/torso cropped (box -0.45, 0.349, -0.044, 0.94)"
    ]
   },
   {
-   "f": 1780,
-   "shot": "b9_d",
+   "f": 1908,
+   "shot": "b10",
    "why": [
-    "empty: characters are in the scene but none is in frame"
+    "aus: head/torso cropped (box -0.498, 0.358, -0.088, 0.95)"
    ]
   },
   {
-   "f": 1782,
-   "shot": "b9_d",
+   "f": 1912,
+   "shot": "b10",
    "why": [
-    "empty: characters are in the scene but none is in frame"
+    "aus: head/torso cropped (box -0.52, 0.355, -0.099, 0.956)"
+   ]
+  },
+  {
+   "f": 1916,
+   "shot": "b10",
+   "why": [
+    "aus: head/torso cropped (box -0.533, 0.354, -0.087, 0.959)"
+   ]
+  },
+  {
+   "f": 1918,
+   "shot": "b10",
+   "why": [
+    "aus: head/torso cropped (box -0.528, 0.355, -0.076, 0.958)"
    ]
   }
  ],

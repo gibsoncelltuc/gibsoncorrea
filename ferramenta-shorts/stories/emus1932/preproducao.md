@@ -14,11 +14,11 @@ b6 | mountain | group | 7 | conversar, INTERAGEM: susto | emus | - | -
 b7 | mountain | track | 8 | conversar, andando | - | paper | -
 b8 | outback | crowd | 26 | batalha | emus | - | -
 b9 | outback | two | 2 | conversar, INTERAGEM: pedir | buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow, emus | - | -
-b10 | outback | close | 1 | conversar | emus | - | -
+b10 | outback | two | 2 | conversar, INTERAGEM: aproxima-se | emus | - | -
 
 OBJETO HEROI: nenhum achado (ponha "heroi": "kit/..." no topo do roteiro)
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 3 -> b3, b4, b8
-Interacoes entre personagens: b2 vai ate o outro, b6 susto, b9 pedir
+Interacoes entre personagens: b2 vai ate o outro, b6 susto, b9 pedir, b10 aproxima-se
 
 Cenas com personagens parados: 1 de 11
 FALTA MODELAR: nada

@@ -12,7 +12,7 @@ b6 | group | -  | tropa, animais, placa: 1 SEMANA | balas (burst + som de tiro/e
 b7 | track | -  | tropa, placa: HA HA HA, objeto na mao | (rosto) laugh (expr + som de efeito); fugiu (dust + som de impacto); gargalhou (stars + som de sino); bala (burst + som de tiro/explosao); encena: corre @2 (acao + som de efeito); encena: x_ri (up) @5 (acao + som de efeito); encena: atira @12 (acao + som de efeito) | -
 b8 | crowd | -  | batalha aberta com tiros, tropa, animais, placa: CENTENAS | tiros: 5 soldados caem no chao (acao + som de efeito) | -
 b9 | two | golden  | animais, placa: PRÊMIO | pedido: plano medio dos dois, um pede ao outro (shot + som de efeito); desistiu (puff + som de baque); prêmio (stars + som de sino); encena: perde (facepalm) @4 (acao + som de efeito); encena: vence (up) @12 (acao + som de efeito) | -
-b10 | close | golden  | animais, placa: HUMANOS 0 - 1 EMUS | - | -
+b10 | two | golden  | animais, placa: HUMANOS 0 - 1 EMUS | - | -
 
-Mistura de planos: close 8% | medio 72% | aberto 18% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 4 | dentro do padrao do canal
+Mistura de planos: close 6% | medio 74% | aberto 18% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 4 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)

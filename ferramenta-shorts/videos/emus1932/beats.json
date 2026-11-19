@@ -244,22 +244,24 @@
   },
   {
    "say": "Humanos, zero. Emus, um.",
-   "shot": "close",
+   "shot": "group",
    "who": [
-    "AUS:0:pained"
+    "AUS:0:pained",
+    "AUS:1:sad"
    ],
    "emus": {
     "n": 3,
     "mode": "stand",
-    "x": 2.8,
-    "z": 0.3,
+    "x": 3.5,
+    "z": 0.5,
     "cols": 3
    },
    "text": "HUMANOS 0 - 1 EMUS",
    "tat": 0,
    "tstyle": "gold",
    "light": "golden",
-   "titulo": true
+   "titulo": true,
+   "detalhe": false
   }
  ],
  "heroi": null,
