@@ -49,19 +49,16 @@ Fila: `cd ferramenta-shorts && bash status.sh` | `bash run_queue.sh` (ids em `qu
 **Branch:** claude/bold-sagan-dskrsj
 
 **Recent commits:**
-- 34313680 ckpt(porco1859): trecho 2
-- 02f91665 ckpt(porco1859): trecho 1
-- d3b772b6 ckpt(porco1859): trecho 0
-- 5aa0d496 aprovacao do storyboard vale para a producao inteira (visual + acoes): hash_producao; storyboards regerados
-- 07951639 nariz de metal (Tycho); golpe/juiz nao viram estadio; lupa na mao; trechos de versao antiga descartados antes do render (Porco refeito do zero)
-
-**In-progress files (1):**
-- ferramenta-shorts/blender/veiculos_epoca.py
+- 557948fb7 ckpt(montgolfier1783): trecho 11
+- 736bb2424 ckpt(montgolfier1783): trecho 10
+- a5eed04e9 ckpt(montgolfier1783): trecho 7
+- f2dcdde4f ckpt(montgolfier1783): trecho 6
+- a6f8f0fc3 ckpt(montgolfier1783): trecho 5
 
 **Project reminders:**
 - Verify the file content before claiming an edit is done
 - Run tests before declaring task complete
 - Re-read CLAUDE.md if you're unsure of project conventions
 
-**Hook generated:** 2026-11-19 13:08:55 UTC
+**Hook generated:** 2026-11-19 17:03:29 UTC
 <!-- post-compact-recovery-end -->
