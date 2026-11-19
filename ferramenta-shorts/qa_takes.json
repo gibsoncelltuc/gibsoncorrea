@@ -1,31 +1,24 @@
 {
  "fails": [
   {
-   "f": 1515,
-   "shot": "b8_v",
+   "f": 196,
+   "shot": "b0_v~1",
    "why": [
-    "off: head/torso cropped (box -10.3, -1.932, -2.044, 1.55)"
+    "mus: head/torso cropped (box -0.057, 0.474, 0.14, 0.667)"
    ]
   },
   {
-   "f": 1516,
-   "shot": "b8_v",
+   "f": 200,
+   "shot": "b0_v~1",
    "why": [
-    "off: head/torso cropped (box -10.261, -1.956, -2.046, 1.531)"
+    "mus: head/torso cropped (box -0.116, 0.474, 0.082, 0.666)"
    ]
   },
   {
-   "f": 1520,
-   "shot": "b8_v",
+   "f": 204,
+   "shot": "b0_v~1",
    "why": [
-    "off: head/torso cropped (box -7.553, -1.387, -1.839, 1.425)"
-   ]
-  },
-  {
-   "f": 1524,
-   "shot": "b8_v",
-   "why": [
-    "off: head/torso cropped (box -3.733, -0.466, -1.268, 1.247)"
+    "mus: head/torso cropped (box -0.176, 0.474, 0.024, 0.665)"
    ]
   }
  ],
