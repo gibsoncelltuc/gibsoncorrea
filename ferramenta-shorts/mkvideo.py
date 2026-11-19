@@ -89,6 +89,34 @@ if _N >= 6 and B.get('variar_cenario') is not False:
 for _b in B['beats']:
     if _b.get('interior') and not _b.get('set'): _b['set'] = 'hall'      # interior fica no cenario 'hall' (sem arbusto/pedrinha de area externa)
 USED_SETS = [SET] + sorted({b['set'] for b in B['beats'] if b.get('set') and b['set'] != SET and b['set'] in SETS_X})   # cenario por cena: "set" dentro do beat
+# ===== CIDADE DA REGIAO (ordem do Gibson 19/11): os predios de fundo seguem o pais/epoca da historia =====
+# "regiao" no topo do roteiro (europa, franca, holanda, eua, oriente, colonial, japao, russia, africa, classico) ou deduzida do "mapa"/titulo/narracao.
+_REG_PAIS = (('franca', r'franc|paris'), ('holanda', r'holand|amsterd|paises baixos'),
+    ('eua', r'estados unidos|\beua\b|america\b|nova york|california|texas|florida|maine|chicago|los angeles|washington|hollywood|las vegas'),
+    ('oriente', r'egito|egipc|ira\b|irao|iraque|arabia|marrocos|turquia|israel|palestin|dubai|siria|jordania|persia|babilon|meca|cairo'),
+    ('colonial', r'brasil|pernambuco|recife|bahia|rio de janeiro|sao paulo|minas|mexic|el salvador|peru|argentin|colombia|cuba|venezuel|chile|portugal|lisboa|espanha|madri|bolivia|paraguai|uruguai|honduras|guatemala'),
+    ('japao', r'japa|toquio|china|chines|coreia|pequim|xangai'), ('russia', r'russi|ucrani|moscou|sibéria|siberia|soviet'),
+    ('africa', r'africa|zanzibar|quenia|nigeria|gana|mali|etiopia|congo|angola|mocambique|somalia|sudao|tanzania'),
+    ('classico', r'roma antiga|grecia antiga|romanos|imperio romano|atenas|esparta|cesar\b|gladiador'),
+    ('europa', r'polon|alemanh|hungri|austri|romeni|belgic|inglaterr|londres|escoci|irland|italia|suic|bulgari|grecia|servia|croacia|tchec|europa|prussia|suecia|noruega|dinamarca|finland|bosnia|islandia|escandinav|viking|medieval'))
+_REG_BASE = {'buildings/house_small': 1, 'buildings/house_two': 2, 'buildings/house_blue': 1, 'buildings/shop': 3, 'buildings/apartment': 1, 'buildings/church': 3, 'buildings/barn': 1}
+_REG_N = {'europa': 3, 'franca': 3, 'holanda': 3, 'eua': 3, 'oriente': 3, 'colonial': 3, 'japao': 3, 'russia': 2, 'africa': 2, 'classico': 2}
+_REG_CHAO = {'europa': '#b9a99a', 'franca': '#cfc6b6', 'holanda': '#b07a62', 'eua': '#8a8c93', 'oriente': '#e6c99a', 'colonial': '#d2b892', 'japao': '#bdb5a6', 'russia': '#a8a39a', 'africa': '#c98e5a', 'classico': '#e2d8c4'}
+REGIAO = B.get('regiao')
+if REGIAO is None:
+    _rt = __import__('unicodedata').normalize('NFKD', (' '.join(str(b_.get('mapa') or '') for b_ in B['beats']) + ' ' + B.get('title', '') + ' ' + ' '.join(b_['say'] for b_ in B['beats'][:4])).lower()).encode('ascii', 'ignore').decode()
+    REGIAO = next((r_ for r_, rx_ in _REG_PAIS if re.search(rx_, _rt)), None)
+    _ano = re.search(r'\b(1[0-9]{3}|[2-9][0-9]{2})\b', B.get('title', '') + ' ' + ID)
+    if REGIAO == 'eua' and _ano and int(_ano.group(1)) < 1850: REGIAO = 'colonial'
+    if REGIAO in ('europa', None) and _ano and int(_ano.group(1)) < 500 and re.search(r'roma|grec|cesar|gladiad', _rt): REGIAO = 'classico'
+_regmap = {}
+if REGIAO in _REG_N:
+    _ks = [f'kit/rg_{REGIAO}_{i}' for i in range(1, _REG_N[REGIAO] + 1)]
+    for b_, i_ in _REG_BASE.items(): _regmap[b_] = _ks[i_ - 1:] + _ks[:i_ - 1]
+    _regmap['buildings/castle_tower'] = [_ks[-1]]
+    if REGIAO not in ('holanda', 'europa'): _regmap['buildings/windmill'] = [_ks[0]]
+_REG_JS = f"globalThis.REGMAP = {json.dumps(_regmap)}; globalThis.REGCHAO = {json.dumps(_REG_CHAO.get(REGIAO))};\n" if _regmap else "globalThis.REGMAP = null; globalThis.REGCHAO = null;\n"
+
 if B.get('serie') and B.get('ep'): B['titulo_base'] = B.get('titulo_base') or B.get('title', ID); B['title'] = f"{B['serie']} EP {int(B['ep']):02d} - {B['titulo_base']}"   # serie com episodio numerado no titulo e no nome do arquivo
 beats = B['beats']
 for _b0 in beats: _b0['_crowd_roteiro'] = 'crowd' in _b0   # multidao escrita no roteiro; as outras sao do diretor
@@ -466,7 +494,9 @@ def build_beat(k, b):
     # INTERIOR: "interior": "madeira" | "pedra" | "loja"  -> sala com parede a ~5 m, janela, porta, quadros, chao com juntas + moveis
     it = b.get('interior')
     if it:
-        kit = {'madeira': 'kit/room_wood', 'pedra': 'kit/room_stone', 'loja': 'kit/room_shop'}.get(it, 'kit/room_wood')
+        _tp = {'madeira': 'wood', 'pedra': 'stone', 'loja': 'shop'}.get(it, 'wood')
+        _rr = REGIAO if REGIAO in _REG_N else ['azul', 'verde', 'rosa', 'europa', 'colonial'][sum(map(ord, ID)) % 5]   # sala da regiao (ou uma cor por video): nunca a mesma sala marrom em todos
+        kit = f'kit/room_{_rr}_{_tp}' if os.path.exists(f'web/assets/library/kit/room_{_rr}_{_tp}.glb') else {'madeira': 'kit/room_wood', 'pedra': 'kit/room_stone', 'loja': 'kit/room_shop'}.get(it, 'kit/room_wood')
         pr.append(f"{{ asset: {json.dumps(kit)}, at: [X, 0], s: 1, drop: false }}")
         for nm_, dx_, z_, s_ in (b.get('moveis') or ([] if it == 'loja' else [('mk/Bookcase_2', 7.4, -3.4, 2.4), ('mk/Table_Large', -6.6, -1.6, 2.2), ('mk/Chair_1', -4.4, -1.2, 2.2), ('mk/Chest_Wood', 6.9, 0.6, 2.2)])):
             pr.append(f"{{ asset: {json.dumps(nm_)}, at: [X + {num(dx_)}, {num(z_)}], s: {num(s_)}, drop: false }}")
@@ -701,7 +731,7 @@ A_js = ', '.join(['0'] + [f"WS({starts[k]}, -3)" for k in range(1, len(beats))] 
 assets = sorted(set(B.get('assets', []) + re.findall(r'asset: "([^"]+)"', ' '.join(shots)) + [p[0] for b in beats for p in b.get('props', [])] + [b['veiculo'].get('asset', 'vehicles/car') for b in beats if b.get('veiculo')]))
 
 spec = f"""// {B.get('title', ID)} -- GERADO por mkvideo.py a partir de videos/{ID}/beats.json (edite o beats.json, nao este arquivo)
-const X = {SETX}, DK = 6;{''.join(f' const X_{n} = {SETS_X[n]};' for n in USED_SETS[1:])}
+{_REG_JS}const X = {SETX}, DK = 6;{''.join(f' const X_{n} = {SETS_X[n]};' for n in USED_SETS[1:])}
 const WS = (i, off = 0) => TIMING.words[Math.min(i, TIMING.words.length - 1)][0] + off;   // frame em que a palavra de indice i comeca
 const A = [{A_js}];
 const SPEC = {{

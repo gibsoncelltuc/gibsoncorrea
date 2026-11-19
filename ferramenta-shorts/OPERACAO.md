@@ -16,6 +16,8 @@ ENTREGA (lição de 19/11): o chat busca o mp4 NO SERVIDOR quando o Gibson toca 
 
 CENÁRIOS VARIADOS (ordem do Gibson 19/11): todo vídeo tem 3+ lugares e nenhum em mais da metade das cenas. A ferramenta escolhe o lugar pela narração (deserto→outback, floresta→jungle, castelo→medieval, estádio→stadium, fazenda→countryside, palácio/ONU/congresso→interior pedra, escritório/loja/banco→interior loja, casa→interior madeira, cidade→street) e alterna sozinha se um lugar dominar; se o roteiro fixar tudo no mesmo lugar, a folha 2 acusa RISCO. Para desligar num vídeo: "variar_cenario": false.
 
+CIDADE DA REGIÃO (ordem do Gibson 19/11): os prédios de fundo, o chão e as salas seguem o país/época da história. A ferramenta deduz pelo "mapa"/título/narração ou use "regiao" no topo do roteiro: europa, franca, holanda, eua, oriente (Egito/Oriente Médio), colonial (Brasil/América Latina/Portugal/Espanha), japao (Japão/China), russia, africa, classico (Roma/Grécia antigas). Faltou a região da sua história? Modele o pacote em blender/objetos_regioes.py (3 prédios, referência real) e cadastre em mkvideo.py (_REG_PAIS/_REG_N/_REG_CHAO).
+
 ## Os 7 passos (não pule nenhum)
 
 1. **Ler** `CAPACIDADES.md` (o que a ferramenta tem) e `MODO_RICKS.md` (como o roteiro é escrito).
