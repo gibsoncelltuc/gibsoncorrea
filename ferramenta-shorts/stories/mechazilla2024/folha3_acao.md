@@ -57,14 +57,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | decolou (36.1s) | ACAO: voa | decola: poeira no chao, olha para cima | OK |
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
-## Cena b6 - 40.1s a 44.9s - 14 palavras - plano low
+## Cena b6 - 40.1s a 44.9s - 14 palavras - plano reveal
 > "Minutos depois, ele voltou do espaço, descendo de ré, direto na direção da torre."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | reagir | OK |
 
-## Cena b7 - 45.9s a 50.8s - 15 palavras - plano low
+## Cena b7 - 45.9s a 50.8s - 15 palavras - plano two
 > "Acontece que, no último segundo, os braços se fecharam, e seguraram o foguete no ar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

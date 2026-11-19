@@ -8,12 +8,12 @@ b2 | two | -  | objeto na mao | - | -
 b3 | two | -  | - | encena: pensa (think) @1 (acao + som de efeito); encena: tira (lift) @4 (acao + som de efeito) | -
 b4 | two | -  | - | - | -
 b5 | crowd | -  | batalha aberta com tiros, tropa | encena: voa (point) @7 (acao + som de efeito) | -
-b6 | low | -  | - | - | -
-b7 | low | -  | - | encena: x_abre (push) @8 (acao + som de efeito) | -
+b6 | reveal | -  | - | - | -
+b7 | two | -  | - | encena: x_abre (push) @8 (acao + som de efeito) | -
 b8 | orbit | -  | batalha aberta com tiros, tropa, placa: PEGOU! | (rosto) laugh (expr + som de efeito); comemoraram (stars + som de sino); encena: vence (up) @2 (acao + som de efeito) | -
 b9 | two | -  | interior | (rosto) laugh (expr + som de efeito); encena: vence (up) @1 (acao + som de efeito) | -
 b10 | two | -  | objeto na mao | - | -
 b11 | close | -  | - | - | -
 
-Mistura de planos: close 18% | medio 67% | aberto 11% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | dentro do padrao do canal
+Mistura de planos: close 12% | medio 69% | aberto 15% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 4 | dentro do padrao do canal
