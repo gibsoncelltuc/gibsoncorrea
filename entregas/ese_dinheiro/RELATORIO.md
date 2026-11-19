@@ -1,0 +1,5 @@
+# E Se 6 — E Se o Dinheiro Sumisse do Mundo? (série "E Se")
+**Fatos:** roteiro e fontes preparados e conferidos pela sessão principal (campo "fontes" do beats.json, saem na Folha 1); narração idêntica, sem corte. Tom de curiosidade. A Folha 1 traz as pedras de Yap (Rai) como exemplo histórico de dinheiro baseado em confiança.
+**Passou:** conferir.sh OK (62 s, 1080x1920, 0 riscos). Placa "E SE..." no 1º segundo (gancho); moeda (herói) em close no começo, no meio e no fim; padaria de interior (primeira manhã sem dinheiro); troca de galinha com cesta; mapa "ILHA DE YAP"; pedras gigantes em cena; 2 grandes momentos em plano aberto com placas "TROCA" e "DINHEIRO"; feira de troca (barracas) na praça; padeiro e agricultor; expressões variadas.
+**Não passou / limitações:** só um cenário de praça repetido na maior parte do vídeo; as pedras de Yap aparecem como pedras comuns (sem o furo no meio); "sal, ouro e figurinha" são citados sem imagem própria; transição esmaecida em ~52,5 s.
+**Refeito:** nenhuma cena. Pré-checagem e câmera passaram de primeira.
