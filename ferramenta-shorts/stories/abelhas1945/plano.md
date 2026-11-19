@@ -6,7 +6,7 @@ b0 | two | -  | placa: DANÇA | dançando (stars + som de sino); descobriu (ring
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | - | encena: constroi (hammer) (acao + som de efeito) | -
 b3 | two | -  | objeto na mao | encena: x_pinta (write) (acao + som de efeito) | -
-b4 | low | -  | - | - | -
+b4 | low | -  | - | encena: danca (up) (acao + som de efeito) | -
 b5 | two | -  | - | - | -
 b6 | orbit | -  | tropa | (rosto) shock (expr + som de efeito) | -
 b7 | two | -  | - | dança (stars + som de sino); encena: danca (up) (acao + som de efeito) | -

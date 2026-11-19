@@ -1177,7 +1177,7 @@ def build_beat(k, b):
             elif tipo_ == 'morre':
                 if re.search(r'porco|cavalo|vaca|cachorro|\bcao\b|animal|bicho|galinha|emu|urso|lobo|ovelha|cabra|boi|ganso', _sy_): pass   # animal morrendo: o bloco dos animais cuida
                 elif re.search(r'(morreu|faleceu)\s+(em|no ano)\s+(mil|\d)', unicodedata.normalize('NFKD', b['say'].lower()).encode('ascii', 'ignore').decode()):   # morte anos depois: tumulo com cruz e flores
-                    pr.append(f"{{ asset: 'kit/grave', a: {a}, b: {bb}, at: [X + {num(_hx + _side * 0.9)}, {num(_z0 - 0.4)}], s: 1.0, drop: false }}"); KWSFX.append((wi_, 'sting'))
+                    pr.append(f"{{ asset: 'kit/grave', a: {a}, b: {bb}, at: [X + {num(sl[0] - _side * 1.7)}, -0.9], s: 0.55, ry: 1.3, drop: false }}")   # ao lado e atras do personagem (na frente tapava a cena); KWSFX.append((wi_, 'sting'))
                 else:
                     _gst.setdefault(('poses', 0), []).append(f"[WS({wi_}) + 2, {bb}, 'fall']"); fx.append(f"{{ k: 'dust', a: WS({wi_}) + 4, b: WS({wi_}) + 30, at: [X + {num(sl[0] + 0.6)}, DK + 0.1, {num(_z0 + 0.3)}], s: 0.8 }}"); KWSFX.append((wi_, 'thump'))
             elif tipo_ in ('tomba', 'dorme', 'senta', 'ajoelha'):
@@ -1221,7 +1221,7 @@ def build_beat(k, b):
                 KWSFX.append((wi_, 'ding'))
             elif tipo_ == 'paga':   # dinheiro/pagar/vender: moedas na mao estendida + brilho
                 pr.append(f"{{ asset: 'kit/coin', a: Math.max({a} + 4, WS({wi_}) - 20), b: {bb}, at: [X + {num(_hx + _side * 0.25)}, {num(_z0 + 0.5)}], y: DK + 1.25, s: 0.32, drop: false }}"); KWSFX.append((wi_, 'ding'))
-            elif tipo_ == 'chega' and acts and not b.get('_chega') and not (shot == 'track' or mv) and 'move:' not in acts[0] and acts[0].startswith(('pp(', 'Object.assign(pp(')):   # chegou/apareceu: entra andando pela lateral e para no lugar
+            elif tipo_ == 'chega' and j_ <= 4 and not re.search(r'(entrou|entraram)(para|na|em|no)(a)?(historia|guerra|moda|panico|acordo|crise|falencia|vigor|campo)|apareceu(na|no)(tv|televisao|jornal|foto)', _sy_) and acts and not b.get('_chega') and not (shot == 'track' or mv) and 'move:' not in acts[0] and acts[0].startswith(('pp(', 'Object.assign(pp(')):   # chegou/apareceu: entra andando pela lateral e para no lugar
                 _gst.setdefault('sai', []).append(f"at: [X + {num(sl[0] + _side * 6)}, {num(_z0 - 0.8)}], move: [[X + {num(sl[0])}, {num(_z0)}], Math.max({a}, WS({wi_}) - 30), WS({wi_}) + 20, 'lin'], walk: 'stroll'")
             elif tipo_ == 'atira':
                 if not (persons[0][3] == 'rifle' or B.get('outfits', {}).get(persons[0][0], {}).get('rifle')) and acts: acts[0] = f"Object.assign({acts[0]}, {{ over: {{ rifle: true }} }})"
