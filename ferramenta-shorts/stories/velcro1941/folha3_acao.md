@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 16 - O Cachorro que Inventou o Velcro
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.3s - 14 palavras - plano two
@@ -27,12 +27,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 
-## Cena b3 - 12.7s a 17.6s - 16 palavras - plano two
+## Cena b3 - 12.7s a 17.6s - 16 palavras - plano crowd
 > "O pelo do cachorro e a calça dele estavam cheios de carrapichos. Dava um trabalhão arrancar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
 ## Cena b4 - 18.8s a 21.7s - 11 palavras - plano two
 > "Curioso, ele levou um carrapicho para casa e olhou no microscópio."
@@ -89,14 +89,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | vendas (53.9s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
-## Cena b10 - 55.7s a 61.3s - 18 palavras - plano orbit
+## Cena b10 - 55.7s a 61.3s - 18 palavras - plano two
 > "Até que astronautas passaram a usar o velcro para prender coisas no espaço. E o mundo inteiro quis."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | ATUACAO | comemorar | OK |
-| 3 | - | PLACA | VELCRO | OK |
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | PLACA | VELCRO | OK |
 
 ## Cena b11 - 62.3s a 67.4s - 17 palavras - plano close
 > "Hoje ele está em tênis, mochilas e roupas. E tudo começou com um cachorro cheio de carrapichos."

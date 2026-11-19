@@ -22,11 +22,12 @@
    "profissao": "comerciante"
   },
   "AST": {
-   "jacket": "#e8e8e8",
-   "pants": "#e8e8e8",
-   "boots": "#9a9aa0",
-   "hat": "hair",
-   "hair": "#3a2a1f"
+   "jacket": "#f4f4f2",
+   "pants": "#f4f4f2",
+   "boots": "#d4d4d8",
+   "hat": "helmet",
+   "cap": "#f4f4f2",
+   "sash": "#2f6fd0"
   },
   "POV": {
    "jacket": "#3f6fb5",
@@ -244,30 +245,28 @@
    }
   },
   {
-   "shot": "crowd",
+   "shot": "two",
    "who": [
-    "AST:0:laugh",
-    "MES:0:grin",
-    "POV:0:laugh"
+    "AST:0:laugh"
    ],
-   "batalha": true,
-   "tiros": false,
-   "acao": "comemorar",
-   "crowd": {
-    "n": 18,
-    "outfits": [
-     "POV",
-     "AST"
-    ],
-    "march": false,
-    "expr": "laugh"
-   },
    "props": [
     [
      "kit/burr",
-     0,
-     -3.0,
-     1.4
+     1.4,
+     -0.6,
+     1.0
+    ],
+    [
+     "kit/rocket",
+     -4.5,
+     -7,
+     1.0
+    ],
+    [
+     "kit/moon",
+     5,
+     -28,
+     5.0
     ]
    ],
    "fx": [
@@ -280,7 +279,8 @@
    ],
    "text": "VELCRO",
    "titulo": true,
-   "say": "Até que astronautas passaram a usar o velcro para prender coisas no espaço. E o mundo inteiro quis."
+   "say": "Até que astronautas passaram a usar o velcro para prender coisas no espaço. E o mundo inteiro quis.",
+   "set": "arctic"
   },
   {
    "shot": "close",

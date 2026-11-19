@@ -273,7 +273,7 @@ _FARDA = [
 _OFICIAL = ('general', 'coronel', 'capitao', 'tenente', 'major', 'marechal', 'comandante', 'oficial', 'almirante', 'sargento')
 for _k, _o in B.get('outfits', {}).items():
     _pf = str(_o.get('profissao', '')).lower()
-    _milh = _o.get('hat') in ('shako', 'shako_tall', 'helmet') and not _o.get('pele') and not _k.lower().startswith('hus')   # chapeu militar generico = militar (hussardo fica com a barretina alta)
+    _milh = _o.get('hat') in ('shako', 'shako_tall', 'helmet') and not _o.get('pele') and not _k.lower().startswith('hus') and not (_k.lower().startswith(('ast', 'cos', 'bomb', 'mine', 'pil')) or str(_o.get('jacket', '')).lower() in ('#f4f4f2', '#e8e8e8', '#ffffff') or _pf in ('astronauta', 'bombeiro', 'mineiro', 'piloto'))   # capacete de astronauta/bombeiro/mineiro nao e' farda; chapeu militar generico = militar (hussardo fica com a barretina alta)
     if not (_o.get('rifle') or _milh or _pf in ('soldado', 'cavaleiro', 'cavalaria') + _OFICIAL) or _o.get('uniforme_fixo') or ANO is None: continue
     _pa = _pais_de(_k, _o); _tab = next(t_ for a_, t_ in _FARDA if ANO <= a_); _f = _tab.get(_pa) or _tab['*']
     if not _pa and _o.get('hat') in ('fez', 'turban', 'slouch', 'straw', 'beret', 'crown', 'bowler', 'tophat'): continue   # exercito sem tabela (guarda do sultao, milicia): fica com o chapeu proprio
@@ -676,6 +676,9 @@ for _b in beats:   # "entraram escondidos" -> alguem chega andando; "as luzes se
     if re.search(r'marchav|marcharam|marchou|marchando|desfil', _sy) and _EXERC and not _b.get('crowd'): _b['crowd'] = {'n': 10, 'outfits': [([w_.split(':')[0] for w_ in _b.get('who', []) if w_.split(':')[0] in _EXERC] or _EXERC)[0]], 'march': True}
     if re.search(r'danca|dancav|dancaram|dancou', _sy) and not _b.get('acao') and not re.search(_DANCA_OUTRO, _sy): _b['acao'] = 'dancar'
     if 'hora' not in _b and re.search(r'apagar|apagou|apagaram|escuridao|breu|semluz|blecaute|apagao', _sy): _b['hora'] = 'noite'
+for _b in beats:   # ESPACO (19/11): "no espaco/em orbita/na lua" -> chao lunar (arctic acinzentado) + ceu preto estrelado
+    if not _b.get('interior') and re.search(r'noespaco|emorbita|naorbita|nalua|superficiedalua|estacaoespacial|gravidadezero|semgravidade', nrm(_b['say'])):
+        _b.setdefault('set', 'arctic'); _b.setdefault('hora', 'espaco')
 _noite_ = 0   # CONTINUIDADE DA NOITE (19/11): "numa noite..." vale para as frases seguintes do mesmo episodio, ate a narracao mudar o tempo
 for _b in beats:
     _sy = nrm(_b['say'])
@@ -721,7 +724,7 @@ def build_beat(k, b):
     light = b.get('light')
     _sy = nrm(b['say']); global AMB
     # HORA DO DIA e CLIMA: campos "hora" (dia|tarde|pordosol|noite|amanhecer) e "clima" (sol|calor|chuva|tempestade|neve|neblina|vento|limpo), ou pelas palavras da narracao. Ficam valendo ate mudar.
-    _h = b.get('hora') or ('noite' if re.search(r'noite|noescuro|madrugada|meianoite', _sy) else 'amanhecer' if re.search(r'amanhecer|manhaseguinte|nascerdosol|aurora|demanha', _sy) else 'pordosol' if re.search(r'pordosol|entardecer|anoitecer|fimdetarde|finaldetarde|fimdodia', _sy) else 'tarde' if re.search(r'atarde|detarde|natarde', _sy) else 'dia' if re.search(r'diaseguinte|diasdepois|semanasdepois|mesesdepois|anosdepois|meiodia|duranteodia', _sy) else None)
+    _h = b.get('hora') or ('espaco' if re.search(r'noespaco|noespacosideral|emorbita|naorbita|nalua|superficiedalua|estacaoespacial|gravidadezero|semgravidade|flutuavam|flutuando', _sy) and not b.get('interior') else None) or ('noite' if re.search(r'noite|noescuro|madrugada|meianoite', _sy) else 'amanhecer' if re.search(r'amanhecer|manhaseguinte|nascerdosol|aurora|demanha', _sy) else 'pordosol' if re.search(r'pordosol|entardecer|anoitecer|fimdetarde|finaldetarde|fimdodia', _sy) else 'tarde' if re.search(r'atarde|detarde|natarde', _sy) else 'dia' if re.search(r'diaseguinte|diasdepois|semanasdepois|mesesdepois|anosdepois|meiodia|duranteodia', _sy) else None)
     _c = b.get('clima') or ('tempestade' if re.search(r'tempestade|temporal|trovao|raios', _sy) else 'chuva' if re.search(r'chuva|chovia|chovendo|choveu|aguaceiro', _sy) else 'neve' if re.search(r'neve|nevasca|nevava|nevando|inverno|congel|geada|muitofrio|friointenso|frioextremo|gelado|gelada', _sy) else 'neblina' if re.search(r'neblina|nevoeiro|nevoa|cerracao', _sy) else 'calor' if re.search(r'calor|solforte|solquente|escaldante|\\bseca\\b|sedeinsuport|muitoquente|deserto', _sy) else 'vento' if re.search(r'ventania|vendaval|furacao|ventoforte|\\bvento\\b|ventava|ventando', _sy) else None)
     AMB['hora'] = B.get('hora'); AMB['clima'] = None if B.get('clima') in (None, 'limpo', 'sol') else B.get('clima')   # hora/clima valem SO na cena onde aparecem (campo ou narracao); fora disso, o padrao do topo do roteiro -- a noite/neve de uma cena nao vaza para o resto do video
     if _h: AMB['hora'] = _h
@@ -729,7 +732,7 @@ def build_beat(k, b):
     b['_frio'] = AMB.get('clima') == 'neve'; b['_calor'] = AMB.get('clima') == 'calor'   # frio: os personagens tremem; calor: suam (luz de deserto)
     wx = {}
     if not light:
-        light = {'noite': 'night', 'amanhecer': 'dawn', 'pordosol': 'dusk', 'tarde': 'golden'}.get(AMB.get('hora'), LIGHT)
+        light = {'noite': 'night', 'espaco': 'space', 'amanhecer': 'dawn', 'pordosol': 'dusk', 'tarde': 'golden'}.get(AMB.get('hora'), LIGHT)
         cl = AMB.get('clima')
         if cl in ('chuva', 'tempestade') and light != 'night': light = 'storm' if cl == 'tempestade' else 'overcast'
         elif cl == 'neve' and light not in ('night', 'dusk', 'dawn'): light = 'arctic'
@@ -1106,7 +1109,7 @@ def build_beat(k, b):
                 _st['mat'] = mat_ or 'kit/gosma'; KWSFX.append((wi_, 'tick'))
             elif tipo_ == 'cai':
                 m_ = mat_ or _st.get('mat') or 'kit/gosma'; ty_ = 0.95 if _alvo and re.search('stove|kettle|bancada', _alvo[2]) else 0.05
-                pr.append(f"{{ asset: {json.dumps(m_)}, a: WS({wi_}) - 6, b: {bb}, at: [X + {num(_hx)}, {num(_z0 + 0.5)}], move: [[X + {num(_tx)}, {num(_tz + 0.1)}], WS({wi_}), WS({wi_}) + 16, 'lin'], align: false, y: {grav_js(f'WS({wi_})', 16 / 30, 1.5, ty_)}, s: 0.55, drop: false }}")   # cai pela gravidade
+                pr.append(f"{{ asset: {json.dumps(m_)}, a: Math.max({a} + 4, WS({wi_}) - 30), b: {bb}, at: [X + {num(_hx)}, {num(_z0 + 0.5)}], move: [[X + {num(_tx)}, {num(_tz + 0.1)}], WS({wi_}), WS({wi_}) + 16, 'lin'], align: false, y: {grav_js(f'WS({wi_})', 16 / 30, 1.5, ty_)}, s: 0.55, drop: false }}")   # cai pela gravidade
                 fx.append(f"{{ k: 'splash', a: WS({wi_}) + 15, b: WS({wi_}) + 40, at: [X + {num(_tx)}, DK + {num(ty_ + 0.3)}, {num(_tz + 0.4)}], s: 0.9 }}"); KWSFX.append((wi_, 'thump'))
                 _st['mat'] = m_; _st['mat_em'] = (_tx, _tz + 0.1, ty_, k)
             elif tipo_ == 'calor':
@@ -1133,20 +1136,20 @@ def build_beat(k, b):
                 KWSFX.append((wi_, 'thump'))
             elif tipo_ == 'examina':
                 ins_ = 'kit/microscopio' if re.search(r'microsc|celula|bacter|germe|lamina', nrm(b['say'])) else 'kit/balanca' if re.search(r'pes|balanca', nrm(b['say'])) else 'kit/lupa'
-                pr.append(f"{{ asset: {json.dumps(ins_)}, a: WS({wi_}) - 6, b: {bb}, at: [X + {num(_hx + _side * (0.3 if ins_ == 'kit/lupa' else 0.6))}, {num(_z0 + 0.7)}], y: DK + {1.9 if ins_ == 'kit/lupa' else 0}, s: {0.4 if ins_ == 'kit/lupa' else 0.75}, drop: false }}"); KWSFX.append((wi_, 'tick'))   # lupa NA MAO, na altura do rosto
+                pr.append(f"{{ asset: {json.dumps(ins_)}, a: Math.max({a} + 4, WS({wi_}) - 30), b: {bb}, at: [X + {num(_hx + _side * (0.3 if ins_ == 'kit/lupa' else 0.15))}, {num(_z0 + (0.7 if ins_ == 'kit/lupa' else 0.35))}], y: DK + {1.9 if ins_ == 'kit/lupa' else 0}, s: {0.4 if ins_ == 'kit/lupa' else 1.05}, drop: false }}"); KWSFX.append((wi_, 'tick'))   # lupa NA MAO, na altura do rosto
             elif tipo_ == 'quimico':
-                pr.append(f"{{ asset: 'kit/frasco', a: WS({wi_}) - 6, b: {bb}, at: [X + {num(_hx)}, {num(_z0 + 0.6)}], s: 0.6, drop: false }}"); pr.append(f"{{ asset: 'kit/tubos', a: WS({wi_}) - 6, b: {bb}, at: [X + {num(_hx + _side * 1.1)}, {num(_z0 + 0.3)}], s: 0.6, drop: false }}")
+                pr.append(f"{{ asset: 'kit/frasco', a: Math.max({a} + 4, WS({wi_}) - 30), b: {bb}, at: [X + {num(_hx)}, {num(_z0 + 0.6)}], s: 0.6, drop: false }}"); pr.append(f"{{ asset: 'kit/tubos', a: Math.max({a} + 4, WS({wi_}) - 30), b: {bb}, at: [X + {num(_hx + _side * 1.1)}, {num(_z0 + 0.3)}], s: 0.6, drop: false }}")
                 fx.append(f"{{ k: 'puff', a: WS({wi_}) + 6, b: WS({wi_}) + 30, at: [X + {num(_hx)}, DK + 1.3, {num(_z0 + 0.8)}], s: 0.6 }}"); KWSFX.append((wi_, 'tick'))
             elif tipo_ == 'golpe':
                 fx.append(f"{{ k: 'burst', a: WS({wi_}) + 4, b: WS({wi_}) + 22, at: [X + {num(sl[0] + _side * 1.6)}, DK + 2.0, {num(_z0 + 0.5)}], s: 1.0 }}"); KWSFX.append((wi_, 'thump'))
             elif tipo_ == 'corta' and re.search(r'dedo|bisturi|faca|tesoura|navalha|semachucou|mao|nariz|orelha|espada', _sy_):   # corte pequeno (dedo, bisturi): susto + estrelinhas na mao, sem machado nem toras
                 fx.append(f"{{ k: 'stars', a: WS({wi_}) + 2, b: WS({wi_}) + 26, at: [X + {num(sl[0] + 0.4)}, DK + 1.4, {num(_z0 + 0.3)}], s: 0.5 }}"); KWSFX.append((wi_, 'sting'))
             elif tipo_ == 'corta':
-                if 'kit/logs' not in ' '.join(pr): pr.append(f"{{ asset: 'kit/logs', a: WS({wi_}) - 6, b: {bb}, at: [X + {num(_tx)}, {num(_tz)}], s: 0.8, drop: false }}")
+                if 'kit/logs' not in ' '.join(pr): pr.append(f"{{ asset: 'kit/logs', a: Math.max({a} + 4, WS({wi_}) - 30), b: {bb}, at: [X + {num(_tx)}, {num(_tz)}], s: 0.8, drop: false }}")
                 for q_ in range(3): fx.append(f"{{ k: 'dust', a: WS({wi_}) + {q_ * 9}, b: WS({wi_}) + {q_ * 9 + 16}, at: [X + {num(_tx)}, DK + 0.2, {num(_tz + 0.4)}], s: 0.5 }}")
                 KWSFX.append((wi_, 'thump'))
             elif tipo_ == 'voto':
-                pr.append(f"{{ asset: 'kit/ballot_box', a: WS({wi_}) - 6, b: {bb}, at: [X + {num(_hx + _side * 0.4)}, {num(_z0 + 0.6)}], s: 0.7, drop: false }}"); KWSFX.append((wi_, 'tick'))
+                pr.append(f"{{ asset: 'kit/ballot_box', a: Math.max({a} + 4, WS({wi_}) - 30), b: {bb}, at: [X + {num(_hx + _side * 0.4)}, {num(_z0 + 0.6)}], s: 0.7, drop: false }}"); KWSFX.append((wi_, 'tick'))
             elif tipo_ == 'quebra':
                 fx.append(f"{{ k: 'burst', a: WS({wi_}) + 2, b: WS({wi_}) + 20, at: [X + {num(_tx)}, DK + 1.6, {num(_tz + 0.3)}], s: 1.1 }}"); fx.append(f"{{ k: 'stars', a: WS({wi_}) + 4, b: WS({wi_}) + 30, at: [X + {num(_tx)}, DK + 1.8, {num(_tz + 0.3)}], s: 0.8 }}"); KWSFX.append((wi_, 'thump')); KICKS.append(f"{{ f: WS({wi_}) + 2, a: 0.04 }}")
             elif tipo_ == 'desaba':

@@ -34,10 +34,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - O pelo do cachorro e a calça dele estavam cheios de carrapichos. Dava ...
 - Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (1): MES (variante 0, expressao angry)
-- Animacao: conversar
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (1): MES (variante 0, expressao angry) | multidao: 12 de POV
+- Animacao: - | batalha encenada
 - Objetos/modelos: kit/burr, kit/marco_alpes, dog
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, calca, carrapichos, trabalhao
 - RISCOS: nenhum
@@ -103,12 +103,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b10 - Até que astronautas passaram a usar o velcro para prender coisas no es...
-- Cenario: street | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): AST (variante 0, expressao laugh); MES (variante 0, expressao grin); POV (variante 0, expressao laugh) | multidao: 18 de POV/AST
-- Animacao: comemorar | batalha encenada
-- Objetos/modelos: kit/burr, kit/marco_alpes
+- Cenario: arctic | luz: espaco | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (1): AST (variante 0, expressao laugh)
+- Animacao: conversar
+- Objetos/modelos: kit/burr, kit/rocket, kit/moon
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): espaco, usar, velcro
 - RISCOS: nenhum
 
@@ -128,12 +128,14 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/burr | b0, b3, b4, b5, b6, b8, b9, b10, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_alpes | b0, b1, b2, b3, b9, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_alpes | b0, b1, b2, b3, b9, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 dog | b0, b2, b3, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/rocket | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/moon | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/burr | grandes momentos: b9, b10 | planos abertos: 3 | mistura: close 21% | medio 66% | aberto 9% | detalhe 4%
+- Objeto heroi: kit/burr | grandes momentos: b3, b9 | planos abertos: 3 | mistura: close 21% | medio 66% | aberto 8% | detalhe 4%
 - Interacoes: b0 insiste, b7 discutir, b8 entregar
 - RISCOS GERAIS: nenhum
 
