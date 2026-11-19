@@ -1,7 +1,7 @@
 {
- "duration": 53.04,
- "frames30": 1591,
- "source": "silence-align (cost 0.46)",
+ "duration": 58.248,
+ "frames30": 1747,
+ "source": "silence-align (cost 0.48)",
  "segments": [
   [
    0.155333,
@@ -12,7 +12,7 @@
    4.72662
   ],
   [
-   5.57904,
+   5.57958,
    7.03225
   ],
   [
@@ -21,7 +21,7 @@
   ],
   [
    11.6258,
-   12.9113
+   12.909
   ],
   [
    13.1523,
@@ -29,7 +29,7 @@
   ],
   [
    16.5339,
-   17.8605
+   17.8595
   ],
   [
    18.7274,
@@ -44,56 +44,68 @@
    23.1024
   ],
   [
-   23.9306,
-   25.7116
+   23.9238,
+   25.306
   ],
   [
-   25.98,
-   27.3633
+   25.5927,
+   27.0832
   ],
   [
-   28.2299,
-   30.9985
+   27.3517,
+   28.3083
   ],
   [
-   31.2715,
-   32.498
+   29.1555,
+   30.9399
   ],
   [
-   33.3651,
-   35.2886
+   31.2049,
+   32.59
   ],
   [
-   35.5214,
-   37.5995
+   33.4547,
+   36.2236
   ],
   [
-   38.4001,
-   40.3016
+   36.4964,
+   37.7229
   ],
   [
-   40.5337,
-   41.9807
+   38.59,
+   40.5135
   ],
   [
-   42.862,
-   43.963
+   40.7462,
+   42.8251
   ],
   [
-   44.2263,
-   45.692
+   43.625,
+   45.5235
   ],
   [
-   45.9399,
-   47.2926
+   45.7586,
+   47.2055
   ],
   [
-   48.1452,
-   50.0463
+   48.087,
+   49.1878
   ],
   [
-   50.3586,
-   52.2152
+   49.4511,
+   50.9169
+  ],
+  [
+   51.1647,
+   52.5175
+  ],
+  [
+   53.3706,
+   55.277
+  ],
+  [
+   55.5835,
+   57.4398
   ]
  ],
  "phrases": [
@@ -109,7 +121,7 @@
   },
   {
    "text": "Em mil oitocentos e trinta e oito,",
-   "s": 5.579,
+   "s": 5.58,
    "e": 7.032
   },
   {
@@ -120,7 +132,7 @@
   {
    "text": "Na floresta de Aroostook,",
    "s": 11.626,
-   "e": 12.911
+   "e": 12.909
   },
   {
    "text": "lenhadores americanos e ingleses cortavam as mesmas \u00e1rvores,",
@@ -148,69 +160,84 @@
    "e": 23.102
   },
   {
+   "text": "Um lenhador empurrou o outro,",
+   "s": 23.924,
+   "e": 25.306
+  },
+  {
+   "text": "e o outro foi derrubado no ch\u00e3o,",
+   "s": 25.593,
+   "e": 27.083
+  },
+  {
+   "text": "no meio da floresta.",
+   "s": 27.352,
+   "e": 28.308
+  },
+  {
    "text": "O Maine chamou milhares de soldados,",
-   "s": 23.931,
-   "e": 25.712
+   "s": 29.155,
+   "e": 30.94
   },
   {
    "text": "e a Inglaterra mandou os seus.",
-   "s": 25.98,
-   "e": 27.363
+   "s": 31.205,
+   "e": 32.59
   },
   {
    "text": "Acontece que um agente do Maine foi preso pelos ingleses,",
-   "s": 28.23,
-   "e": 30.998
+   "s": 33.455,
+   "e": 36.224
   },
   {
    "text": "e o clima ficou perigoso.",
-   "s": 31.271,
-   "e": 32.498
+   "s": 36.496,
+   "e": 37.723
   },
   {
    "text": "Mas ningu\u00e9m queria uma guerra de verdade,",
-   "s": 33.365,
-   "e": 35.289
+   "s": 38.59,
+   "e": 40.514
   },
   {
    "text": "ent\u00e3o o governo mandou um general conversar.",
-   "s": 35.521,
-   "e": 37.599
+   "s": 40.746,
+   "e": 42.825
   },
   {
    "text": "Ele convenceu os dois lados a parar,",
-   "s": 38.4,
-   "e": 40.302
+   "s": 43.625,
+   "e": 45.523
   },
   {
    "text": "e ningu\u00e9m atirou um \u00fanico tiro.",
-   "s": 40.534,
-   "e": 41.981
+   "s": 45.759,
+   "e": 47.206
   },
   {
    "text": "Alguns anos depois,",
-   "s": 42.862,
-   "e": 43.963
+   "s": 48.087,
+   "e": 49.188
   },
   {
    "text": "um tratado dividiu a floresta,",
-   "s": 44.226,
-   "e": 45.692
+   "s": 49.451,
+   "e": 50.917
   },
   {
    "text": "e a fronteira ficou definida.",
-   "s": 45.94,
-   "e": 47.293
+   "s": 51.165,
+   "e": 52.517
   },
   {
    "text": "Chamaram de Guerra do Porco com Feij\u00e3o,",
-   "s": 48.145,
-   "e": 50.046
+   "s": 53.371,
+   "e": 55.277
   },
   {
    "text": "porque era s\u00f3 isso que as tropas comiam.",
-   "s": 50.359,
-   "e": 52.215
+   "s": 55.584,
+   "e": 57.44
   }
  ]
 }
