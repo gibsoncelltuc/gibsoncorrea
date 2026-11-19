@@ -13,71 +13,71 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b1 - Na apresentação, Musk disse que as janelas eram feitas de um vidro sup...
-- Cenario: harbor | luz: golden | clima: limpo
+- Cenario: hall | luz: golden | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): MUS (variante 0, expressao smug) | multidao: 8 de POV
 - Animacao: -
-- Objetos/modelos: kit/cybertruck, kit/marco_hollywood
+- Objetos/modelos: kit/cybertruck
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): apresentacao, janelas, vidro
 - RISCOS: nenhum
 
 ## Cena b2 - Para provar, o designer Franz von Holzhausen jogou uma esfera de aço n...
-- Cenario: harbor | luz: golden | clima: limpo
+- Cenario: hall | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): DSG (variante 0, expressao stern, segura ball); MUS (variante 0, expressao smile)
 - Animacao: conversar | interacao: avanca e o outro recua
-- Objetos/modelos: kit/steel_ball, kit/cybertruck, kit/marco_hollywood
+- Objetos/modelos: kit/steel_ball, kit/cybertruck
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): designer, esfera, janela
 - RISCOS: nenhum
 
 ## Cena b3 - E o vidro rachou, ao vivo, na frente de todo mundo.
-- Cenario: harbor | luz: golden | clima: limpo
+- Cenario: street | luz: golden | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): MUS (variante 0, expressao shock); DSG (variante 0, expressao scared) | multidao: 30 de POV
+- Personagens principais (1): MUS (variante 0, expressao shock) | multidao: 30 de POV
 - Animacao: reagir | batalha encenada
-- Objetos/modelos: kit/cybertruck, kit/marco_hollywood
+- Objetos/modelos: kit/window_crack, kit/marco_hollywood
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frente, vidro
 - RISCOS: nenhum
 
 ## Cena b4 - Ele tentou de novo, em outra janela, e ela também rachou.
-- Cenario: harbor | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Cenario: street | luz: golden | clima: limpo
+- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): DSG (variante 0, expressao nervous); MUS (variante 0, expressao surprised)
-- Animacao: reagir | interacao: o outro se aproxima
-- Objetos/modelos: kit/cybertruck, kit/marco_hollywood
+- Personagens principais (1): DSG (variante 0, expressao nervous)
+- Animacao: reagir
+- Objetos/modelos: kit/window_crack, kit/marco_hollywood
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): novo
 - RISCOS: nenhum
 
 ## Cena b5 - Depois, Musk explicou na internet que, nos ensaios, a mesma esfera tin...
-- Cenario: street | luz: golden | clima: limpo
+- Cenario: hall | luz: golden | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): MUS (variante 0, expressao smile)
 - Animacao: conversar
-- Objetos/modelos: kit/steel_ball, kit/marco_hollywood
+- Objetos/modelos: kit/steel_ball
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ensaios, internet
 - RISCOS: nenhum
 
 ## Cena b6 - A plateia riu, a internet também, e a cena deu o que falar no mundo in...
-- Cenario: stadium | luz: golden | clima: limpo
+- Cenario: street | luz: golden | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): MUS (variante 0, expressao laugh); DSG (variante 0, expressao grin) | multidao: 30 de POV
 - Animacao: comemorar | batalha encenada
-- Objetos/modelos: kit/globe
+- Objetos/modelos: kit/globe, kit/marco_hollywood
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cena, internet, plateia
 - RISCOS: nenhum
 
 ## Cena b7 - Uma picape, uma esfera de aço e uma janela que não aguentou: um lançam...
-- Cenario: street | luz: golden | clima: limpo
+- Cenario: countryside | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): MUS (variante 0, expressao laugh); DSG (variante 0, expressao smile)
-- Animacao: conversar | interacao: insiste
+- Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/cybertruck, kit/steel_ball, kit/marco_hollywood
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): esfera, janela, lancamento, picape
 - RISCOS: nenhum
@@ -87,15 +87,16 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/cybertruck | b0, b1, b2, b3, b4, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_hollywood | b0, b1, b2, b3, b4, b5, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/cybertruck | b0, b1, b2, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_hollywood | b0, b3, b4, b6, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/steel_ball | b2, b5, b7 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/window_crack | b3, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/globe | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/steel_ball | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 20% | medio 56% | aberto 14% | detalhe 9%
-- Interacoes: b0 aproxima-se, b2 avanca e o outro recua, b4 o outro se aproxima, b7 insiste
+- Objeto heroi: kit/steel_ball | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 27% | medio 49% | aberto 14% | detalhe 9%
+- Interacoes: b0 aproxima-se, b2 avanca e o outro recua, b7 o outro se aproxima
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
