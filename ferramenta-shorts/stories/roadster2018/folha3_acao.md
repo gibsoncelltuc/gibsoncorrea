@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 08 - O Carro que Foi Parar no Espaço
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 25 acoes catalogadas, 25 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 3.9s - 16 palavras - plano two
@@ -54,16 +54,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b6 - 31.9s a 34.2s - 8 palavras - plano orbit
+## Cena b6 - 31.9s a 34.2s - 8 palavras - plano group
 > "No painel, estava escrito: Não entre em pânico."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | pânico (34.2s) | EFEITO: dust | poeira + som | OK |
-| 2 | pânico (34.2s) | ACAO: grita | grita de bracos para cima | OK |
-| 3 | - | EMOCAO: scared | o rosto vira "scared" na palavra | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | PLACA | NÃO ENTRE EM PÂNICO | OK |
+| 1 | - | EMOCAO: scared | o rosto vira "scared" na palavra | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | NÃO ENTRE EM PÂNICO | OK |
 
 ## Cena b7 - 35.4s a 39.2s - 15 palavras - plano group
 > "O Roadster saiu da órbita da Terra, e seguiu em órbita ao redor do Sol."
@@ -82,7 +80,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | aproxima-se | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 44.2s a 49.0s - 17 palavras - plano crowd
+## Cena b9 - 44.2s a 49.0s - 17 palavras - plano orbit
 > "Um Roadster, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

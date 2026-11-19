@@ -10,7 +10,7 @@ b4 | close | -  | interior, objeto na mao | (rosto) laugh (expr + som de efeito)
 b5 | crowd | -  | batalha aberta com tiros, tropa, placa: 312 VOTOS | (rosto) laugh (expr + som de efeito); comemoraram (stars + som de sino); vitória (stars + som de sino); encena: vence (up) (acao + som de efeito); encena: escala (lift) (acao + som de efeito); encena: fala (point) (acao + som de efeito) | -
 b6 | two | noite  | objeto na mao | - | -
 b7 | two | -  | interior, objeto na mao | - | -
-b8 | two | noite  | - | encena: x_bebe (lift) (acao + som de efeito) | -
+b8 | two | noite  | - | - | -
 b9 | orbit | noite  | batalha aberta com tiros, tropa, placa: 47º | - | -
 b10 | close | noite  | - | Perdeu (puff + som de baque); ganhou (stars + som de sino); encena: perde (facepalm) (acao + som de efeito); encena: vence (up) (acao + som de efeito) | -
 

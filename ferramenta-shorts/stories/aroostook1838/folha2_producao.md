@@ -24,10 +24,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - Na floresta de Aroostook, lenhadores americanos e ingleses cortavam as...
 - Cenario: mountain | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): AME (variante 0, expressao smug); CAN (variante 0, expressao smug)
-- Animacao: discutir | interacao: vai ate o outro
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (2): AME (variante 0, expressao smug); CAN (variante 0, expressao smug) | multidao: 12 de AME/CAN
+- Animacao: discutir | batalha encenada
 - Objetos/modelos: nature/tree_pine, kit/logs, nature/tree_oak, nature/bush
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aroostook, floresta, madeira, mesmas
 - RISCOS: nenhum
@@ -64,10 +64,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Mas ninguém queria uma guerra de verdade, então o governo mandou um ge...
 - Cenario: palace | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): GEN (variante 0, expressao stern); MIL (variante 0, expressao nervous) | multidao: 18 de GEN/MIL
-- Animacao: conversar | batalha encenada
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (2): GEN (variante 0, expressao stern); MIL (variante 0, expressao nervous)
+- Animacao: conversar | interacao: cochichar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): general, governo
 - RISCOS: nenhum
@@ -116,8 +116,8 @@ pig | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, 
 
 
 ## Video inteiro
-- Objeto heroi: kit/logs | grandes momentos: b4, b6 | planos abertos: 3 | mistura: close 23% | medio 57% | aberto 14% | detalhe 5%
-- Interacoes: b0 discutir, b2 vai ate o outro, b3 empurrar, b5 empurrar, b7 entregar, b8 entregar
+- Objeto heroi: kit/logs | grandes momentos: b2, b4 | planos abertos: 3 | mistura: close 24% | medio 59% | aberto 15% | detalhe 3%
+- Interacoes: b0 discutir, b3 empurrar, b5 empurrar, b6 cochichar, b7 entregar, b8 entregar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

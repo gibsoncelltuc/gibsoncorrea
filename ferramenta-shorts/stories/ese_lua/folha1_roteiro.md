@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Sem ela, as marés perderiam mais da metade da força. Só o Sol continuaria puxando.
 - Som ambiente: birds
 - Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: encena: perde (facepalm) -> acao + som de efeito; encena: empurra (push) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: empurra (push) -> acao + som de efeito
 - Efeito visual marcado: ring@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Boa notícia: ela não vai embora. Só se afasta uns quatro centímetros por ano.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: encena: sai -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: OBRIGADO, LUA
 - Funcao na historia: GRANDE MOMENTO

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - O Sino (benchmark)
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 39 acoes catalogadas, 36 com animacao, 3 faltando -> NAO RENDERIZAR ate zerar
+**Resumo:** 11 frases, 38 acoes catalogadas, 35 com animacao, 3 faltando -> NAO RENDERIZAR ate zerar
 
 
 ## Cena b0 - 0.2s a 2.8s - 10 palavras - plano two
@@ -69,8 +69,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | morto (46.6s) | EFEITO: puff | fumaca + som | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
 ## Cena b7 - 47.8s a 55.4s - 23 palavras - plano group
 > "Devia dinheiro para meia cidade, então fingiu a própria morte. Quando o sino tocasse, ela ia desenterrar o marido, e fugir com ele."

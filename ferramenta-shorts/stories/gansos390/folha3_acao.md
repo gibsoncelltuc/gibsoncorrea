@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 05 - Os Gansos que Salvaram Roma
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 44 acoes catalogadas, 44 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.4s - 10 palavras - plano two
@@ -19,13 +19,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | queimado (6.1s) | ACAO: queima | fogo + fumaca | OK |
-| 2 | fugiu (8.4s) | EFEITO: dust | poeira + som | OK |
-| 3 | fugiu (8.4s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
-| 4 | morreu (9.1s) | EFEITO: puff | fumaca + som | OK |
-| 5 | morreu (9.1s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
-| 6 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 8 | - | MAPA | ROMA | OK |
+| 2 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | MAPA | ROMA | OK |
 
 ## Cena b2 - 10.3s a 15.9s - 18 palavras - plano group
 > "Os romanos que sobraram se trancaram no Capitólio, uma colina cercada de muralhas, sem comida, e sem saída."
@@ -49,10 +45,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | escalaram (27.8s) | ACAO: escala | escala (bracos para cima) | OK |
-| 2 | dormiam (30.9s) | ACAO: dorme | dormindo | OK |
-| 3 | - | INTERACAO | aproxima-se | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 1 | dormiam (30.9s) | ACAO: dorme | dormindo | OK |
+| 2 | - | INTERACAO | aproxima-se | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b5 - 34.1s a 37.9s - 14 palavras - plano low
 > "Acontece que os gansos acordaram, e começaram a gritar e a bater as asas."

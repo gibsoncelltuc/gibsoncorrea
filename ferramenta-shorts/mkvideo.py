@@ -382,6 +382,15 @@ def _neg_idx(say):   # NEGACAO (19/11): "ninguem deu um tiro", "sem dar um unico
     for i_, w_ in enumerate(ws_):
         if w_ in _NEGW: out_.update(range(i_ + 1, min(len(ws_), i_ + 5)))
     return out_
+def _idiom_idx(say):   # EXPRESSOES (19/11): "o panico tomou o acampamento", "a noticia correu o mundo", "o preco caiu" -> nao sao beber/correr/cair
+    ws_ = say.split(); out_ = set(); n_ = lambda t: re.sub(r'[^a-z]', '', unicodedata.normalize('NFKD', t.lower()).encode('ascii', 'ignore').decode())
+    for j_, w_ in enumerate(ws_):
+        nw_ = n_(w_); ant_ = n_(' '.join(ws_[max(0, j_ - 2):j_])); dep_ = n_(' '.join(ws_[j_ + 1:j_ + 4]))
+        if (re.match(r'^(tomou|tomaram|tomava)$', nw_) and not re.search(r'cafe|cha|agua|vinho|cerveja|remedio|leite|sopa|suco|aguardente|rum|whisky|uisque|tequila|cachaca|veneno|pocao|gole|banho', dep_)) \
+           or (re.match(r'^(correu|correram|corria|corre)$', nw_) and re.search(r'noticia|fama|boato|rumor|tempo|historia|sangue|dinheiro|agua|lagrima|suor|risco|perigo|video|mensagem', ant_ + dep_)) \
+           or (re.match(r'^(caiu|cairam)$', nw_) and re.search(r'preco|venda|bolsa|acoes|ficha|noite|chuva|neve|valor|audiencia|popularidade', ant_ + dep_)):
+            out_.add(j_)
+    return out_
 ENC = [(r'^(misturou|misturaram|misturando|mistura|misturar|mexeu|mexendo|mexia|combinou|batia|bateu a massa|cozinhou|cozinhava)$', 'stir', 'mistura'),
        (r'^(caiu|cairam|derrubou|derrubaram|derramou|jogou|jogaram|atirou o|despejou|despejaram|lancou|deixou)$', 'throw', 'cai'),
        (r'^(esquentou|aqueceu|aquecer|esquentar|ferveu|ferver|fervendo|quente|aquecido|queimou|assou|fogao|forno|fogo|chamas?)$', 'reach', 'calor'),
@@ -1040,7 +1049,7 @@ def build_beat(k, b):
         _ngK = _neg_idx(b['say'])
         for j, w in enumerate(b['say'].split()):
             nw = nrm(w)
-            if j in _ngK: continue   # "ninguem deu um tiro": sem estouro de tiro
+            if j in _ngK or j in _idiom_idx(b['say']): continue   # "ninguem deu um tiro" / "a noticia correu": sem efeito de acao
             for rx, kind, kick in KW:
                 if rx.match(nw) and kfx < 3 and not (b.get('_enc') and kind in ('puff', 'dust', 'splash')):
                     kfx += 1; wi = starts[k] + j; PLANO.append((k, w.strip('.,!?"'), kind)); KWSFX.append((wi, 'cannon' if re.match(r'canh|explo|bomb', nw) else {'burst': 'gun', 'ring': 'sting', 'dust': 'thump', 'puff': 'thump', 'stars': 'ding'}.get(kind, 'tick')))   # SOM na mesma palavra do efeito
@@ -1106,6 +1115,7 @@ def build_beat(k, b):
         for j_, w_ in enumerate(_ws):
             nw_ = nrm(w_); wi_ = starts[k] + j_
             if j_ in _negi: b.setdefault('_enc_words', []).append(nw_); continue   # acao NEGADA na frase: nao encena (e nao conta como falta)
+            if j_ in _idiom_idx(b['say']): b.setdefault('_enc_words', []).append(nw_); continue   # EXPRESSAO: "o panico tomou", "a noticia correu", "o preco caiu"
             for rx_, gest_, tipo_ in ENC:
                 if not re.match(rx_, nw_): continue
                 if tipo_ in _feitos: _mesmos.append((tipo_, nw_)); break   # 2a palavra da mesma acao (sirenes... tocaram): ja encenada

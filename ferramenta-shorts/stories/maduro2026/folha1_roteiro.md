@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Nenhum militar americano morreu. A notícia parou o mundo, e dividiu opiniões entre países.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; encena: morre -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: MUNDO
 - Funcao na historia: GRANDE MOMENTO

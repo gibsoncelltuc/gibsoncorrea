@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Acontece que, num leilão de fevereiro, o vendedor abriu os lances, e ninguém levantou a mão.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: negocio (reach) -> acao + som de efeito; encena: x_abre (push) -> acao + som de efeito; encena: pega (lift) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: negocio (reach) -> acao + som de efeito; encena: x_abre (push) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: LEILÃO
 - Funcao na historia: VIRADA
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: A notícia correu. Em poucos dias, todo mundo quis vender, e não havia mais comprador.
 - Som ambiente: birds
 - Efeitos sonoros marcados: sting@20, thump@40, thump@90
-- Efeito + som nas palavras-chave: correu -> dust + som de impacto; vender -> stars + som de sino; comprador -> stars + som de sino; encena: corre -> acao + som de efeito; encena: negocio (reach) -> acao + som de efeito; encena: paga (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: vender -> stars + som de sino; encena: negocio (reach) -> acao + som de efeito
 - Efeito visual marcado: dust@40, puff@90
 - Texto na tela: PÂNICO
 - Funcao na historia: GRANDE MOMENTO

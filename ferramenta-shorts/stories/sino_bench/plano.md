@@ -8,7 +8,7 @@ b2 | two | noite  | - | sino (stars + som de sino); tocar (stars + som de sino);
 b3 | group | -  | objeto na mao | - | -
 b4 | wide | -  | tropa, objeto na mao | morto (puff + som de baque) | assinei
 b5 | close | -  | interior, objeto na mao | encena: senta (acao + som de efeito) | -
-b6 | orbit | dia  | batalha aberta com tiros, tropa, interior | morto (puff + som de baque) | -
+b6 | orbit | dia  | batalha aberta com tiros, tropa, interior | - | -
 b7 | group | dia  | objeto na mao | dinheiro (stars + som de sino); sino (stars + som de sino); encena: paga (reach) (acao + som de efeito); encena: toca (acao + som de efeito); encena: corre (acao + som de efeito) | -
 b8 | close | noite  | interior | sino (stars + som de sino); tocar (stars + som de sino); encena: toca (acao + som de efeito); encena: danca (up) (acao + som de efeito) | -
 b9 | orbit | amanhecer  | tropa, objeto na mao | - | -
