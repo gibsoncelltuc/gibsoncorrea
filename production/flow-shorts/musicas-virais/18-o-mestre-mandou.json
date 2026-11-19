@@ -1,0 +1,15 @@
+{
+  "lm_model": "acestep-5Hz-lm-1.7B-Q8_0.gguf",
+  "synth_model": "acestep-v15-turbo-Q8_0.gguf",
+  "caption": "Gentle cheerful Brazilian nursery-rhyme style children's song for babies and toddlers up to 5 years old, sweet and soft, extremely catchy singalong, warm friendly adult male lead vocal with a sweet kids choir answering the hook, bright and playful but calm and cute, clean polished mix, the hook starts right on the first beat with no intro, every section lasts exactly 4 bars, short repeated chorus, simple melody in small steps, call and response with the kids choir, the last chorus goes up by a whole step (key change), clear Portuguese pronunciation of every word, gentle ukulele strums, soft hand claps, bright glockenspiel, light shaker, soft bouncy bass, sweet kids choir answering the commands",
+  "lyrics": "[Chorus]\nO mestre mandou, mandou, mandou,\nlevanta as mãos, que ele falou,\no mestre mandou, mandou, mandou,\ndá um pulinho, e todo mundo pulou!\n\n[Verse 1]\nO mestre mandou: bate palma,\no mestre mandou: pé no chão,\no mestre mandou: dá uma volta,\ne fecha os olhos, sem confusão!\n\n[Chorus]\nO mestre mandou, mandou, mandou,\nlevanta as mãos, que ele falou,\no mestre mandou, mandou, mandou,\ndá um pulinho, e todo mundo pulou!\n\n[Verse 2]\nSó vale se o mestre mandou,\nse ele não falou, não vale, não,\nescuta com muita atenção,\nquem errou, ri, não tem confusão!\n\n[Bridge]\nMão pra cima, mão pra baixo,\npé pra frente, pé pra trás,\no mestre mandou, vai com jeito,\no mestre mandou, mais e mais!\n\n[Chorus]\nO mestre mandou, mandou, mandou,\nlevanta as mãos, que ele falou,\no mestre mandou, mandou, mandou,\ndá um pulinho, e todo mundo pulou!",
+  "duration": 60,
+  "bpm": 108,
+  "vocal_language": "pt",
+  "keyscale": "C major",
+  "timesignature": "4",
+  "inference_steps": 8,
+  "guidance_scale": 1.0,
+  "shift": 3.0,
+  "seed": 23
+}

@@ -35,7 +35,7 @@ def make(S):
          "Pula, pula, pula, pula,\na corda gira, ninguém se cansa,\npula, pula, pula, pula,\npula corda e dança!"),
     17: ("Dança das Cadeiras", "danca-das-cadeiras", 112, "F major",
          "Roda, roda, roda a cadeira,\ndança, dança, a tarde inteira,\nquando a música acabar,\ncorre e senta, vai sentar!",
-         "Tira uma cadeira, ficou a menos,\nninguém fica triste, todos serenos,\ndança de novo, dança com a gente,\ntodo mundo brinca, todo mundo contente!",
+         "Uma cadeira a menos, é a regra,\nquem não sentou também se alegra,\ndança de novo, vem com a gente,\ntodo mundo brinca contente!",
          "A música parou, olha a pressa,\ncorre pra cadeira, que beleza,\nquem sentou bate uma palma,\nquem não sentou, torce com a alma!",
          "Dança, dança, dança, dança,\na música vai parar,\ndança, dança, dança, dança,\ncorre e vai sentar!"),
     18: ("O Mestre Mandou", "o-mestre-mandou", 108, "C major",
