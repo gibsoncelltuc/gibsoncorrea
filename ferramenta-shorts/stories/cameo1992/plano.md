@@ -9,7 +9,7 @@ b3 | close | -  | interior | - | -
 b4 | two | -  | interior | - | -
 b5 | wide | -  | batalha aberta com tiros, tropa | - | -
 b6 | two | -  | interior | (rosto) pleading (expr + som de efeito) | -
-b7 | two | -  | interior, mapa | encena: fala (point) (acao + som de efeito) | -
+b7 | two | -  | interior, mapa | encena: fala (point) @8 (acao + som de efeito) | -
 b8 | reveal | -  | tropa | discussão (puff + som de baque) | -
 b9 | close | -  | - | - | -
 
