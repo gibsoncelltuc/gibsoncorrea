@@ -40,6 +40,7 @@ const SPEC = {
     S('b6', A[6], A[7] - 1, X, "golden", { h: 2.3, d0: 9.492, d1: 8.362, hero: { hero: 'any', frame: 'medium', minH: 0.07, main: 3 }, trans: 'dissolve', actors: [pp(X, "MUS", 0, -2.1, 1.3, "laugh", { over: { hold: "coin" }, inter: { k: 'step', a: Math.round(A[6] + (A[7] - 1 - (A[6])) * 0.12), b: Math.round(A[6] + (A[7] - 1 - (A[6])) * 0.82), dir: 1, n: 2, ph: 0 } }), pp(X, "EBY", 0, 0.0, 1.0, "smile", { pose: 'talk', inter: { k: 'nod', a: Math.round(A[6] + (A[7] - 1 - (A[6])) * 0.2), b: Math.round(A[6] + (A[7] - 1 - (A[6])) * 0.9), dir: -1, n: 2, ph: 3.14 } }), pp(X, "POV", 0, 2.1, 1.6, "grin", { pose: 'talk' })], props: [{ asset: "buildings/shop", at: [X + -4.8, -11.0], s: 1.05, ry: 0.35, drop: false }, { asset: "kit/coin", at: [X + 1.8, -0.3], s: 1.0, drop: false }, { asset: "kit/rocket", at: [X + 3.0, -10.0], s: 1.1, drop: false }], fx: [{ k: 'birds', a: A[6], b: A[7] - 1, at: [X, DK + 4.5, -30], n: 4, dir: -1, off: 8 }, { k: "stars", a: A[6] + 3, b: A[6] + 29, at: [X, DK + 0.5, 1.2], s: 1.1 }, { k: "stars", a: WS(89), b: WS(89) + 28, at: [X + -2.1, DK + 0.5, 2.5], s: 1.1 }] })
   ],
 };
+SPEC.fit = {"b2":1.404,"b3":1.12,"b5":1.12};
 // ===== STORY RUNTIME (generic): turns a declarative SPEC (stories/<id>.spec.js, concatenated before this file) into the story.js interface the engine expects =====
 import { camFromKeys, clamp, lerp, ramp, q, blinkAt, idle, M } from './motion.js';
 export const FPS = 30, TOTAL = SPEC.total, DECK = 6;
