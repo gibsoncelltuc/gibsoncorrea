@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 17 - A Borracha que Caiu no Fogão
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 41 acoes catalogadas, 41 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 42 acoes catalogadas, 42 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 5.3s - 17 palavras - plano two
@@ -37,8 +37,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | Misturou (19.9s) | ACAO: mistura | mexe a panela (borbulhando) | OK |
 | 2 | dinheiro (23.1s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | - | INTERACAO | o outro se aproxima | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 3 | dinheiro (23.1s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 4 | - | INTERACAO | o outro se aproxima | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
 ## Cena b4 - 24.9s a 29.2s - 14 palavras - plano two
 > "Fez tantas dívidas que foi parar na prisão. E lá dentro continuou fazendo experiências."

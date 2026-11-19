@@ -5,7 +5,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | -  | interior, placa: 1839 | encena: cai (throw) (acao + som de efeito); encena: calor (reach) (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | crowd | desert  | batalha aberta com tiros, tropa | - | -
-b3 | two | -  | interior, objeto na mao | dinheiro (stars + som de sino); encena: mistura (stir) (acao + som de efeito) | -
+b3 | two | -  | interior, objeto na mao | dinheiro (stars + som de sino); encena: mistura (stir) (acao + som de efeito); encena: paga (reach) (acao + som de efeito) | -
 b4 | two | -  | interior | encena: quimico (pour) (acao + som de efeito) | -
 b5 | two | -  | interior | encena: mistura (stir) (acao + som de efeito) | -
 b6 | two | -  | interior | encena: cai (throw) (acao + som de efeito); encena: calor (reach) (acao + som de efeito); encena: x_espera (cross) (acao + som de efeito) | -
