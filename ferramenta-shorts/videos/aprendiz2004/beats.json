@@ -205,7 +205,8 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "O formato se espalhou pelo mundo. No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus."
+   "say": "O formato se espalhou pelo mundo. No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus.",
+   "set": "countryside"
   },
   {
    "shot": "group",
@@ -215,7 +216,8 @@
    ],
    "props": [],
    "say": "Trump apresentou o programa por mais de dez anos, até dois mil e quinze, quando foi para a política.",
-   "acao": "conversar"
+   "acao": "conversar",
+   "set": "street"
   },
   {
    "shot": "close",
@@ -231,7 +233,8 @@
     ]
    ],
    "acao": "comemorar",
-   "say": "Um programa de emprego que acabou ficando famoso justamente por demitir."
+   "say": "Um programa de emprego que acabou ficando famoso justamente por demitir.",
+   "set": "hall"
   }
  ],
  "heroi": "kit/tv",
