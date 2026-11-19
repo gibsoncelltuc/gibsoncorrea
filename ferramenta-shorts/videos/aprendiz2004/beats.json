@@ -57,8 +57,8 @@
    "props": [
     [
      "kit/tv",
-     0,
-     -1.2,
+     2.4,
+     -2.2,
      1.1
     ]
    ],
@@ -91,7 +91,7 @@
    "say": "Dezesseis candidatos disputavam um prêmio raro: um emprego de verdade numa empresa de Donald Trump."
   },
   {
-   "shot": "two",
+   "shot": "group",
    "who": [
     "CND:0:grin",
     "POV:0:surprised"
@@ -99,8 +99,8 @@
    "props": [
     [
      "kit/stall",
-     1.8,
-     -1.4,
+     2.4,
+     -1.8,
      1.0
     ]
    ],
@@ -216,7 +216,7 @@
    "say": "O formato se espalhou pelo mundo. No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus."
   },
   {
-   "shot": "two",
+   "shot": "group",
    "who": [
     "TRU:0:smug",
     "POV:0:surprised"
@@ -224,8 +224,8 @@
    "props": [
     [
      "kit/tv",
-     1.6,
-     -0.8,
+     2.4,
+     -1.8,
      1.0
     ]
    ],

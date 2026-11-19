@@ -32,7 +32,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | aproxima-se | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b3 - 17.4s a 22.4s - 18 palavras - plano two
+## Cena b3 - 17.4s a 22.4s - 18 palavras - plano group
 > "Toda semana, as equipes tinham uma tarefa de negócios, como vender limonada na rua ou criar uma propaganda."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -88,7 +88,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | MAPA | BRASIL | OK |
 
-## Cena b9 - 54.7s a 59.4s - 21 palavras - plano two
+## Cena b9 - 54.7s a 59.4s - 21 palavras - plano group
 > "Trump apresentou o programa por mais de dez anos, e só saiu em dois mil e quinze, quando entrou na política."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
