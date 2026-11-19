@@ -125,7 +125,8 @@ const SETS_BUILT = new Set();
 const gltf = new GLTFLoader(); const LIBA = {};
 async function loadLib(names) { await Promise.all(names.map(async (n) => { if (LIBA[n]) return; const g = await gltf.loadAsync(n.startsWith('mk/') ? 'assets/library/megakit/' + n.slice(3) + '.gltf' : (n.includes('/') ? 'assets/library/' : 'assets/') + n + '.glb'); LIBA[n] = g.scene;
   g.scene.traverse((o) => { if (o.isMesh) { const c = o.material.color ? o.material.color.clone() : new THREE.Color('#aaaaaa'); const mp = o.material.map || null; const em = o.material.emissive && o.material.emissive.getHex() ? { emissive: o.material.emissive.clone(), emissiveIntensity: 2.6 } : {}; o.material = toon({ color: c, ...(mp ? { map: mp } : {}), ...em, side: o.name.startsWith('sail') || n.startsWith('mk/') ? THREE.DoubleSide : THREE.FrontSide }); o.castShadow = true; o.receiveShadow = true; o.userData.c0 = c.clone(); if (n === 'bear' || n.startsWith('vehicles/')) o.material.userData.noPaint = true; /* lataria lisa como no canal */ } }); })); }
-const libInst = (n, x, y, z, ry = 0, s = 1, parent = world, tint = null) => { const o = LIBA[n].clone(true); o.position.set(x, y, z); o.rotation.y = ry; o.scale.setScalar(s);
+const _rgN = (n, x, z) => { const R = globalThis.REGMAP && globalThis.REGMAP[n]; return R ? R[Math.abs(Math.round(x * 0.37 + z * 0.73)) % R.length] : n; };   // CIDADE DA REGIAO: troca o predio de fundo pelo do pais/epoca da historia
+const libInst = (n, x, y, z, ry = 0, s = 1, parent = world, tint = null) => { n = _rgN(n, x, z); const o = LIBA[n].clone(true); o.position.set(x, y, z); o.rotation.y = ry; o.scale.setScalar(s);
   o.traverse((m) => { if (m.isMesh) { m.material = m.material.clone(); if (tint) m.material.color.set(tint); } }); parent.add(o); return o; };
 // ---- materials ----
 const MW = {
@@ -178,7 +179,7 @@ const clouds = [];
 { const r = P.rng(90); for (let i = 0; i < 12; i++) { const c = document.createElement('canvas'); c.width = 600; c.height = 400; const pen = new T.Pen(c.getContext('2d')); pen.ol = 0; pen.g.translate(300, 200); pen.g.scale(1.4, 1.2); pen.g.translate(-300, -200); T.fxCloud(pen, i + 1); { const cg = c.getContext('2d'); cg.save(); cg.globalCompositeOperation = 'source-atop'; const gr = cg.createLinearGradient(0, 120, 0, 330); gr.addColorStop(0, 'rgba(255,255,255,0)'); gr.addColorStop(1, 'rgba(190,176,236,0.55)'); cg.fillStyle = gr; cg.fillRect(0, 0, 600, 400); cg.restore(); }
   const m = new THREE.Mesh(new THREE.PlaneGeometry(1, 0.667), new THREE.MeshBasicMaterial({ map: P.tex(c), transparent: true, fog: false, depthWrite: false })); const a = -1.2 + r() * 2.4 - Math.PI / 2, d = 420 + r() * 300; m.position.set(Math.cos(a) * d, 90 + r() * 170, Math.sin(a) * d); m.scale.setScalar(70 + r() * 90); m.userData.x0 = m.position.x; m.userData.sp = 0.5 + r() * 0.9; m.userData.ndSkip = true; m.renderOrder = -1; scene.add(m); clouds.push(m); } }
 // ---- helpers for sets ----
-const groundPlane = (cx, cz, w, d, mat, y = DECK, rep = 8) => { const g = new THREE.PlaneGeometry(w, d); const uv = g.attributes.uv; for (let i = 0; i < uv.count; i++) uv.setXY(i, uv.getX(i) * w / rep, uv.getY(i) * d / rep); const m = add(g, mat, cx, y, cz, world, { cast: false }); m.rotation.x = -Math.PI / 2; return m; };
+const _rgChao = {}; const groundPlane = (cx, cz, w, d, mat, y = DECK, rep = 8) => { if (globalThis.REGCHAO && (mat === MW.cobble || mat === MW.marble)) { const k = mat === MW.cobble ? 'c' : 'm'; mat = _rgChao[k] || (_rgChao[k] = mat.clone()); mat.color.set(globalThis.REGCHAO); } const g = new THREE.PlaneGeometry(w, d); const uv = g.attributes.uv; for (let i = 0; i < uv.count; i++) uv.setXY(i, uv.getX(i) * w / rep, uv.getY(i) * d / rep); const m = add(g, mat, cx, y, cz, world, { cast: false }); m.rotation.x = -Math.PI / 2; return m; };
 const pineAt = (x, y, z, s = 1, parent = world) => { const g = new THREE.Group(); g.position.set(x, y, z); parent.add(g); add(new THREE.CylinderGeometry(0.18 * s, 0.26 * s, 1.4 * s, 7), MW.trunk, 0, 0.7 * s, 0, g);
   for (let i = 0; i < 4; i++) add(new THREE.ConeGeometry((1.7 - i * 0.32) * s, 1.9 * s, 9), i % 2 ? MW.pine2 : MW.pine, 0, (1.7 + i * 1.05) * s, 0, g); g.userData.sw = rnd() * 6; trees.push(g); return g; };
 const trees = [];
@@ -299,7 +300,7 @@ SETDEF.stadium = (X) => {
   groundPlane(X, 0, 200, 140, MW.grass, DECK, 4); groundPlane(X, 0, 200, 4, MW.white, DECK + 0.03, 4);
   const fans = []; const rf = P.rng(77), cols = ['#d8282f', '#27408b', '#f1ece0', '#e8c45a', '#2f8a4a', '#7b5ac9'];
   for (let r = 0; r < 5; r++) { add(box(160, 1.2, 3.2), toon({ color: '#9a9a9f' }), X, DECK + 0.6 + r * 1.2, -34 - r * 3.2, world);
-    for (let i = 0; i < 52; i++) { const m = add(new THREE.SphereGeometry(0.55, 8, 6), toon({ color: cols[(i * 7 + r * 3 + Math.floor(rf() * 3)) % 6] }), X - 62 + i * 2.4 + (r % 2) * 1.2, DECK + 1.9 + r * 1.2, -34 - r * 3.2, world, { cast: false }); m.userData.fan = [r, i]; fans.push(m); } }
+    /* torcida de bolinhas removida (19/11): a torcida agora sao personagens de verdade torcendo (mkvideo poe nas arquibancadas) */ }
   for (const sx of [-1, 1]) { add(new THREE.CylinderGeometry(0.1, 0.1, 3, 8), MW.white, X + sx * 24, DECK + 1.5, 0, world); add(new THREE.CylinderGeometry(0.1, 0.1, 3, 8), MW.white, X + sx * 24, DECK + 3, 3, world).rotation.x = Math.PI / 2; }
   UPD.push((W, f, t) => { fans.forEach((m, k) => { const [r, i] = m.userData.fan; m.position.y = DECK + 1.9 + r * 1.2 + 0.28 * Math.abs(Math.sin(t * 4 + i * 1.7 + r)); }); });
   makeTufts(X, 0, 190, 130, 1800, ['#4f9a3e', '#5aa844'], () => true, 0.2); farHills(X, -150, '#8a96b8', '#9aa6c8', 8, 300);
@@ -363,7 +364,7 @@ function dressSet(name, X) {
 }
 // ---------- boot: load assets, build the sets this story uses ----------
 const DRESS_ASSETS = [...new Set(SETS_USED.flatMap((s) => DRESS[s] || []))];
-await loadLib([...new Set([...ASSETS, ...DRESS_ASSETS])]);
+await loadLib([...new Set([...ASSETS, ...DRESS_ASSETS, ...Object.values(globalThis.REGMAP || {}).flat()])]);
 for (const s of SETS_USED) { SETDEF[s](SETX[s] ?? 0); SETS_BUILT.add(s); if (!window.NODRESS) dressSet(s, SETX[s] ?? 0); }
 // ---------- weather + lighting extras (shared by every story): rim light, sun glow, light shafts, WEATHER (wind/rain/snow/fog/leaves) ----------
 const rimLight = new THREE.DirectionalLight('#8fb4ff', 0); rimLight.castShadow = false; scene.add(rimLight); scene.add(rimLight.target);
