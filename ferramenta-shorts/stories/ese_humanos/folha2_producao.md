@@ -24,10 +24,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - Em poucas horas, as luzes começariam a se apagar, cidade por cidade.
 - Cenario: street | luz: noite | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): PRO (variante 0, expressao worried); POV (variante 0, expressao nervous)
-- Animacao: conversar | interacao: entregar
+- Animacao: reagir | interacao: entregar
 - Objetos/modelos: buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): luzes
 - RISCOS: nenhum
@@ -134,7 +134,7 @@ fox | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, 
 
 
 ## Video inteiro
-- Objeto heroi: kit/globe | grandes momentos: b5, b9 | planos abertos: 3 | mistura: close 11% | medio 75% | aberto 9% | detalhe 5%
+- Objeto heroi: kit/globe | grandes momentos: b5, b9 | planos abertos: 3 | mistura: close 11% | medio 76% | aberto 9% | detalhe 3%
 - Interacoes: b0 aproxima-se, b2 entregar, b7 avanca e o outro recua, b8 cochichar
 - RISCOS GERAIS: nenhum
 

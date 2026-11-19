@@ -79,7 +79,7 @@
     "thump@30"
    ],
    "say": "Em poucas horas, as luzes começariam a se apagar, cidade por cidade.",
-   "acao": "conversar"
+   "detalhe": false
   },
   {
    "shot": "two",
@@ -191,7 +191,6 @@
     "PRO:0:suspicious:paper",
     "POV:0:worried"
    ],
-   "acao": "conversar",
    "say": "O que sobraria? Construções de pedra, como as pirâmides, que já resistem há mais de quatro mil anos.",
    "fx": [
     "stars@40"
@@ -273,13 +272,13 @@
    "props": [
     [
      "kit/globe",
-     1.4,
-     -0.8,
+     1.6,
+     -1.2,
      1.0
     ]
    ],
-   "acao": "conversar",
    "say": "O planeta seguiria girando, tranquilo. Somos nós que precisamos dele, não o contrário."
   }
- ]
+ ],
+ "exp": 1.0
 }
