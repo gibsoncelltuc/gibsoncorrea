@@ -1,0 +1,11 @@
+b0: OK - "A França invadiu o México por causa de uma conta de confeitaria": porto com a placa 1838, bolo rosa na mesa e os soldados franceses de azul ao lado do confeiteiro assustado; ninguém cortado.
+b1: OK - "Um confeiteiro francês tinha uma loja perto da Cidade do México, famosa pelos doces": rua de pedra com cactos, o confeiteiro de chapéu branco sorrindo e a multidão de clientes ao fundo com caixas de doces.
+b2: OK - "oficiais mexicanos entraram, comeram tudo, quebraram a loja, e saíram sem pagar": interior da loja com prateleiras de potes, os dois oficiais de azul no balcão e o confeiteiro ao lado, com poeira e estrelinha da quebradeira (ação golpe/quebra).
+b3: OK - "O confeiteiro escreveu ao rei da França. Quero sessenta mil pesos, pediu ele. A loja inteira valia mil": interior de pedra em piso xadrez, o confeiteiro com o papel na mão (carta) diante do rei de coroa, bolos na mesa.
+b4: OK - "O rei gostou da ideia, juntou outras queixas, e cobrou seiscentos mil. Paguem, ou mandamos a marinha": close do rei de coroa pensativo e depois sério com o balde ao lado; a palavra MARINHA aparece na tela logo depois.
+b5: OK - "O México riu da cobrança, e não pagou um centavo": os dois soldados mexicanos rindo na rua, um com a mão no alto, cactos ao fundo; expressão de riso coerente.
+b6: OK - "a França mandou mesmo. Navios de guerra fecharam todos os portos do país": plano aberto do porto com o texto A MARINHA, os soldados de quepe vermelho marchando no cais e navio ao fundo.
+b7: OK - "Os canhões franceses bombardearam a fortaleza de Veracruz, e os soldados tomaram a cidade": o bunker/fortaleza cinza com canhão, explosões, soldados voando e cavalos no meio da tropa em plano aberto.
+b8: OK - "Um general mexicano correu para o combate, e perdeu uma perna para um tiro de canhão": o general de azul assustado ao lado do canhão com explosão e o outro lado correndo; ação de susto e tiro visíveis.
+b9: OK - "Meses depois, o México pagou os seiscentos mil pesos, e a França foi embora": campo verde com a placa 600.000, o soldado azul entregando a moeda ao francês de quepe vermelho, que sorri.
+b10: OK - "Nunca um doce custou tão caro": close do confeiteiro sorrindo ao lado do bolo rosa na mesa, com a cidade ao fundo; fecho da história.
