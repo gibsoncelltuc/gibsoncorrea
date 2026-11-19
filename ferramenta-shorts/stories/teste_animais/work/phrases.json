@@ -1,0 +1,63 @@
+{
+ "duration": 15.96,
+ "frames30": 479,
+ "source": "silence-align (cost 0.11)",
+ "segments": [
+  [
+   0.159542,
+   1.78062
+  ],
+  [
+   2.08213,
+   4.18775
+  ],
+  [
+   5.02004,
+   8.18179
+  ],
+  [
+   9.033,
+   12.2902
+  ],
+  [
+   13.1514,
+   14.1072
+  ],
+  [
+   14.358,
+   15.1443
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Em mil oitocentos e cinquenta e nove,",
+   "s": 0.16,
+   "e": 1.781
+  },
+  {
+   "text": "um fazendeiro viu um porco fu\u00e7ando a horta.",
+   "s": 2.082,
+   "e": 4.188
+  },
+  {
+   "text": "Uma galinha ciscava no quintal enquanto um emu corria pelo campo.",
+   "s": 5.02,
+   "e": 8.182
+  },
+  {
+   "text": "De repente um urso apareceu na cerca e o fazendeiro levou um susto.",
+   "s": 9.033,
+   "e": 12.29
+  },
+  {
+   "text": "Ele atirou no porco,",
+   "s": 13.151,
+   "e": 14.107
+  },
+  {
+   "text": "que caiu no ch\u00e3o.",
+   "s": 14.358,
+   "e": 15.144
+  }
+ ]
+}
