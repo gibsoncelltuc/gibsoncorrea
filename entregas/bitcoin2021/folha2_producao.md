@@ -8,7 +8,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): BUK (variante 0, expressao smile); POV (variante 0, expressao surprised)
 - Animacao: conversar | interacao: avanca e o outro recua
-- Objetos/modelos: kit/bitcoin
+- Objetos/modelos: kit/bitcoin, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bitcoin
 - RISCOS: nenhum
 
@@ -17,15 +17,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): BUK (variante 0, expressao smug) | multidao: 8 de POV
-- Animacao: -
-- Objetos/modelos: -
+- Animacao: encena
+- Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): america, presidente
 - RISCOS: nenhum
 
 ## Cena b2 - A lei foi aprovada pelo congresso em junho daquele ano.
 - Cenario: interior pedra | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (3): DEP (variante 0, expressao neutral); BUK (variante 0, expressao smile); CLI (variante 0, expressao neutral)
 - Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/bitcoin
@@ -33,23 +33,23 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - E passou a valer em sete de setembro de dois mil e vinte e um.
-- Cenario: street | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): BUK (variante 0, expressao grin); POV (variante 0, expressao smile) | multidao: 8 de POV/CLI/DEP
 - Animacao: - | batalha encenada
-- Objetos/modelos: -
+- Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, setembro, valer
 - RISCOS: nenhum
 
-## Cena b4 - Com isso, dava para pagar as compras com bitcoin.
-- Cenario: street | luz: day | clima: limpo
+## Cena b4 - Com isso, o bitcoin podia ser usado no dia a dia, em qualquer lugar do...
+- Cenario: street | luz: dia | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): CLI (variante 0, expressao smile, segura coin); POV (variante 0, expressao grin)
-- Animacao: conversar | interacao: entregar
-- Objetos/modelos: kit/stall, kit/bitcoin
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bitcoin, compras, isso
+- Animacao: conversar | interacao: insiste
+- Objetos/modelos: kit/stall, kit/bitcoin, kit/volcano
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bitcoin, isso
 - RISCOS: nenhum
 
 ## Cena b5 - O governo lançou até uma carteira digital, chamada Chivo.
@@ -58,37 +58,37 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (1): CLI (variante 0, expressao surprised) | multidao: 12 de POV
 - Animacao: - | batalha encenada
-- Objetos/modelos: -
+- Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): carteira, governo
 - RISCOS: nenhum
 
 ## Cena b6 - Nas primeiras horas, o aplicativo ficou fora do ar, por excesso de ace...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): CLI (variante 0, expressao nervous); POV (variante 0, expressao shock)
 - Animacao: discutir | interacao: discutir
-- Objetos/modelos: -
+- Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): acessos, aplicativo, primeiras
 - RISCOS: nenhum
 
 ## Cena b7 - Foi o primeiro país do mundo a fazer isso, e o assunto virou conversa ...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): BUK (variante 0, expressao grin); DEP (variante 0, expressao laugh) | multidao: 6 de POV/CLI
 - Animacao: -
-- Objetos/modelos: kit/globe
+- Objetos/modelos: kit/globe, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): assunto, fazer, planeta
 - RISCOS: nenhum
 
 ## Cena b8 - Uma moeda digital, uma lei nova e um país no centro das atenções.
-- Cenario: street | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (3): BUK (variante 0, expressao smile); POV (variante 0, expressao grin); CLI (variante 0, expressao laugh)
-- Animacao: conversar | interacao: insiste
-- Objetos/modelos: kit/bitcoin, kit/coin
+- Animacao: conversar | interacao: vai ate o outro
+- Objetos/modelos: kit/bitcoin, kit/volcano, kit/coin
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): atencoes, centro, moeda
 - RISCOS: nenhum
 
@@ -98,14 +98,15 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/bitcoin | b0, b2, b4, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/volcano | b0, b1, b3, b4, b5, b6, b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/stall | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/globe | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/coin | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/bitcoin | grandes momentos: b3, b5 | planos abertos: 4 | mistura: close 4% | medio 60% | aberto 28% | detalhe 8%
-- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b4 entregar, b6 discutir, b8 insiste
+- Objeto heroi: kit/bitcoin | grandes momentos: b3, b5 | planos abertos: 4 | mistura: close 4% | medio 63% | aberto 27% | detalhe 7%
+- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b4 insiste, b6 discutir, b8 vai ate o outro
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
