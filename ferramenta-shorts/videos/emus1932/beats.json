@@ -190,14 +190,19 @@
   },
   {
    "say": "A tropa fugiu. A imprensa gargalhou, e o comandante admitiu: \"Eles aguentam bala como tanques.\"",
-   "shot": "two",
+   "shot": "track",
    "who": [
     "AUS:0:pained",
     "PRESS:0:grin:paper"
    ],
    "text": "HA HA HA",
    "tat": 8,
-   "tstyle": "gold"
+   "tstyle": "gold",
+   "crowd": {
+    "n": 6,
+    "outfit": "AUS",
+    "march": true
+   }
   },
   {
    "say": "O exército tentou de novo, abateu algumas centenas, e os emus continuaram voltando.",
