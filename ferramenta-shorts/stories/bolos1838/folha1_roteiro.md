@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O confeiteiro escreveu ao rei da França. "Quero sessenta mil pesos", pediu ele. A loja inteira valia mil.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O México riu da cobrança, e não pagou um centavo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: riu -> stars + som de sino; pagou -> stars + som de sino
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; riu -> stars + som de sino; pagou -> stars + som de sino
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -76,16 +76,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b8  (~5.5 s)
 - Narracao: Um general mexicano correu para o combate, e perdeu uma perna para um tiro de canhão.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: cannon@30
-- Efeito + som nas palavras-chave: correu -> dust + som de impacto; perdeu -> puff + som de baque; tiro -> burst + som de tiro/explosao
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; correu -> dust + som de impacto; perdeu -> puff + som de baque; tiro -> burst + som de tiro/explosao
 - Efeito visual marcado: burst@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b9  (~4.8 s)
 - Narracao: Meses depois, o México pagou os seiscentos mil pesos, e a França foi embora.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: pagou -> stars + som de sino
 - Efeito visual marcado: -

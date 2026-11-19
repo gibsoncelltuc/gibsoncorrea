@@ -33,7 +33,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - Soldados, duas metralhadoras, e dez mil balas. Contra emus.
-- Cenario: outback | luz: desert | clima: limpo
+- Cenario: mountain | luz: desert | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): AUS (variante 0, expressao stern); AUS (variante 1, expressao grin); AUS (variante 2, expressao neutral) | multidao: 14 de 
@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Acontece que emu é rápido, e não fica parado. Os soldados atiravam, e ...
-- Cenario: outback | luz: desert | clima: limpo
+- Cenario: countryside | luz: desert | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): AUS (variante 0, expressao stern); AUS (variante 1, expressao stern) | multidao: 24 de AUS
@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Um atirador montou a metralhadora num caminhão. Mas o caminhão pulava ...
-- Cenario: outback | luz: desert | clima: limpo
+- Cenario: mountain | luz: desert | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): AUS (variante 2, expressao grin)
@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Depois de uma semana, milhares de balas gastas, e os emus quase sem um...
-- Cenario: outback | luz: desert | clima: limpo
+- Cenario: mountain | luz: desert | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): AUS (variante 0, expressao pained); AUS (variante 1, expressao pained)
@@ -73,14 +73,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - A tropa bateu em retirada. A imprensa gargalhou, e o comandante admiti...
-- Cenario: outback | luz: desert | clima: limpo
+- Cenario: mountain | luz: desert | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (3): AUS (variante 0, expressao pained); PRESS (variante 0, expressao grin, segura paper); PRESS (variante 1, expressao smile) | multidao: 12 de 
 - Animacao: comemorar | interacao: empurrar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comandante, imprensa, tropa
-- RISCOS: nenhum
+- RISCOS: 
+  - a narracao fala de FUGA/CORRERIA e ninguem corre -> CORRECAO: "shot": "track" (os personagens atravessam a tela andando/correndo) ou "batalha": true (a tropa foge no plano aberto)
+  - a narracao cita "comandante" e ninguem em cena esta vestido a carater -> CORRECAO: por no "who" um personagem com "profissao": "general" no figurino (coroa/farda/chapeu proprios)
 
 ## Cena b8 - O exército tentou de novo, abateu algumas centenas, e os emus continua...
 - Cenario: outback | luz: desert | clima: limpo
@@ -100,7 +102,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: conversar | interacao: entregar
 - Objetos/modelos: buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow, emus
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): governo, pagar
-- RISCOS: nenhum
+- RISCOS: 
+  - a narracao cita "fazendeiro" e ninguem em cena esta vestido a carater -> CORRECAO: por no "who" um personagem com "profissao": "agricultor" no figurino (coroa/farda/chapeu proprios)
 
 ## Cena b10 - Humanos, zero. Emus, um.
 - Cenario: outback | luz: golden | clima: limpo
@@ -132,7 +135,10 @@ vehicles/truck | b5 | pronto | conferir na folha de contato se le bem; se parece
 - Interacoes: b2 vai ate o outro, b6 susto, b7 empurrar, b9 entregar
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 3 risco(s) em aberto
+- b7: a narracao fala de FUGA/CORRERIA e ninguem corre
+- b7: a narracao cita "comandante" e ninguem em cena esta vestido a carater
+- b9: a narracao cita "fazendeiro" e ninguem em cena esta vestido a carater
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh emus1932 bN bM` (so essas cenas).

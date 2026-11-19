@@ -4,9 +4,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 
 ## Cena b0  (~5.2 s)
 - Narracao: O presidente de El Salvador resolveu fabricar dinheiro digital com a energia de um vulcão.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino
+- Efeito + som nas palavras-chave: (rosto) determined -> expr + som de efeito; dinheiro -> stars + som de sino
 - Efeito visual marcado: stars@30
 - Texto na tela: 2021
 - Funcao na historia: GANCHO
@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 
 ## Cena b4  (~5.2 s)
 - Narracao: Então ele mandou a empresa de energia do governo usar o calor do vulcão Tecapa.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@40
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@40
@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 
 ## Cena b7  (~5.5 s)
 - Narracao: Em outubro saiu o primeiro: um pedacinho de bitcoin que valia uns duzentos e setenta dólares.
-- Som ambiente: birds
+- Som ambiente: sea
 - Efeitos sonoros marcados: ding@20, sting@50
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20, ring@50
@@ -76,9 +76,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 
 ## Cena b8  (~4.1 s)
 - Narracao: Bukele comemorou nas redes sociais, com um vídeo da usina no vulcão.
-- Som ambiente: birds
+- Som ambiente: sea
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: VULCÃO
 - Funcao na historia: GRANDE MOMENTO
@@ -94,7 +94,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 
 ## Cena b10  (~5.5 s)
 - Narracao: E ele ainda anunciou o plano de uma Cidade Bitcoin, construída aos pés de outro vulcão.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@30

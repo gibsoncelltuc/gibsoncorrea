@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: Os gauleses tinham invadido a cidade, e queimado quase tudo. Quem não fugiu, morreu.
 - Som ambiente: birds
 - Efeitos sonoros marcados: thump@20, thump@55, whoosh@18
-- Efeito + som nas palavras-chave: fugiu -> dust + som de impacto; morreu -> puff + som de baque
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; fugiu -> dust + som de impacto; morreu -> puff + som de baque
 - Efeito visual marcado: dust@20, burst@55, puff@20, puff@60
 - Texto na tela: - | mapa: ROMA
 - Funcao na historia: GRANDE MOMENTO
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: Lá em cima, a fome apertava. "Vamos comer os gansos", pediu um soldado. "São sagrados", respondeu o sacerdote.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -76,7 +76,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 
 ## Cena b8  (~4.5 s)
 - Narracao: Desde então, todo ano, os gansos ganhavam um desfile pelas ruas de Roma.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -

@@ -4,10 +4,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Um cachorro fugiu, e por causa dele dois países entraram em guerra, e ...
 - Cenario: mountain | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): GRE (variante 0, expressao shock); BUL (variante 0, expressao neutral) | multidao: 5 de GRE/BUL
-- Animacao: discutir | interacao: discutir | o ultimo personagem ENTRA andando
+- Camera: track = travelling lateral acompanhando quem anda
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Personagens principais (2): GRE (variante 0, expressao shock); BUL (variante 0, expressao neutral)
+- Animacao: discutir
 - Objetos/modelos: kit/dog_sit, dog
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, pessoas
 - RISCOS: nenhum
@@ -54,10 +54,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Acontece que o soldado morreu, e a Grécia deu um ultimato furioso à Bu...
 - Cenario: mountain | luz: golden | clima: limpo
-- Camera: low = camera baixa, dramatica (virada)
+- Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): GRE (variante 0, expressao sad); GRE (variante 1, expressao angry)
-- Animacao: conversar | interacao: susto
+- Personagens principais (1): GRE (variante 0, expressao sad)
+- Animacao: conversar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bulgaria, grecia, soldado, ultimato
 - RISCOS: nenhum
@@ -112,11 +112,15 @@ dog | b0, b2, b3, b9 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/dog_sit | grandes momentos: b4, b6 | planos abertos: 2 | mistura: close 19% | medio 64% | aberto 14% | detalhe 3%
-- Interacoes: b0 discutir, b4 empurrar, b5 susto, b7 susto, b8 entregar
-- RISCOS GERAIS: nenhum
+- Objeto heroi: kit/dog_sit | grandes momentos: b4, b6 | planos abertos: 2 | mistura: close 19% | medio 67% | aberto 14% | detalhe 0%
+- Interacoes: b4 empurrar, b7 susto, b8 entregar
+- RISCOS GERAIS: 
+  - objeto heroi (kit/dog_sit) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
+  - pouca variedade de cenario ({'mountain': 8, 'interior madeira': 1, 'interior pedra': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 2 risco(s) em aberto
+- geral: objeto heroi (kit/dog_sit) sem close de camera
+- geral: pouca variedade de cenario ({'mountain': 8, 'interior madeira': 1, 'interior pedra': 1}): o video fica parecendo todos os outros
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh cachorro1925 bN bM` (so essas cenas).

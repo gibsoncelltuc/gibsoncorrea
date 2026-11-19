@@ -3,9 +3,9 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/semmelweis1847/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py semmelweis1847` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Um médico pediu uma coisa simples aos colegas: lavem as mãos. E foi ex...
-- Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Cenario: interior hospital | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): SEM (variante 0, expressao stern); DIR (variante 0, expressao angry)
 - Animacao: discutir | interacao: empurrar
 - Objetos/modelos: kit/wash_basin
@@ -23,7 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - O hospital tinha duas alas de parto. Numa, as mães eram atendidas por ...
-- Cenario: interior madeira | luz: day | clima: limpo
+- Cenario: interior hospital | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): SEM (variante 0, expressao worried); PAR (variante 0, expressao sad)
@@ -33,7 +33,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - E acontece que, na ala dos médicos, morriam muito mais mães, de uma fe...
-- Cenario: interior madeira | luz: day | clima: limpo
+- Cenario: interior hospital | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): MAE (variante 0, expressao scared); SEM (variante 0, expressao sad)
@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Um dia, o amigo dele, Kolletschka, cortou o dedo com um bisturi, exami...
-- Cenario: interior madeira | luz: day | clima: limpo
+- Cenario: interior hospital | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): KOL (variante 0, expressao shock); SEM (variante 0, expressao surprised)
@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Semmelweis entendeu tudo: os médicos saíam das autópsias e iam direto ...
-- Cenario: interior madeira | luz: day | clima: limpo
+- Cenario: interior hospital | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): SEM (variante 0, expressao surprised)
@@ -73,9 +73,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Ele colocou uma bacia com água e cloro na porta, e obrigou todo mundo ...
-- Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Cenario: interior hospital | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): SEM (variante 0, expressao grin); KOL (variante 0, expressao smile)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/wash_basin
@@ -86,14 +86,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): SEM (variante 0, expressao laugh); MAE (variante 0, expressao laugh); PAR (variante 0, expressao grin) | multidao: 16 de MAE/POV
+- Personagens principais (3): SEM (variante 0, expressao laugh); MAE (variante 0, expressao laugh); PAR (variante 0, expressao grin) | multidao: 30 de MAE/POV
 - Animacao: comemorar | batalha encenada
 - Objetos/modelos: kit/wash_basin
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): maes, mortes
 - RISCOS: nenhum
 
 ## Cena b9 - Mas os médicos se ofenderam. Um cavalheiro, diziam, tem as mãos limpas...
-- Cenario: interior madeira | luz: day | clima: limpo
+- Cenario: interior hospital | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): DIR (variante 0, expressao angry); SEM (variante 0, expressao shout)
@@ -131,11 +131,13 @@ kit/wash_basin | b0, b7, b8, b10, b11 | pronto (HEROI: aparece em close) | confe
 
 
 ## Video inteiro
-- Objeto heroi: kit/wash_basin | grandes momentos: b4, b8 | planos abertos: 3 | mistura: close 19% | medio 66% | aberto 8% | detalhe 7%
+- Objeto heroi: kit/wash_basin | grandes momentos: b4, b8 | planos abertos: 3 | mistura: close 19% | medio 71% | aberto 8% | detalhe 2%
 - Interacoes: b0 empurrar, b2 aproxima-se, b3 avanca e o outro recua, b5 o outro se aproxima, b7 discutir, b9 empurrar
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - pouca variedade de cenario ({'interior hospital': 7, 'street': 5}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: pouca variedade de cenario ({'interior hospital': 7, 'street': 5}): o video fica parecendo todos os outros
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh semmelweis1847 bN bM` (so essas cenas).
