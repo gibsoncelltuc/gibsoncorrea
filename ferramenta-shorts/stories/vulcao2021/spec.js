@@ -26,3 +26,5 @@ const SPEC = {
     S('b11', A[11], A[12] - 1, X, "day", { h: 2.4, d0: 5.6, d1: 4.9, hero: { hero: 'any', frame: 'medium', minH: 0.07, main: 1 }, trans: 'dissolve', actors: [pp(X, "BUK", 0, 0.0, 1.3, "smile", { over: { hold: "coin" }, pose: 'cheer' })], props: [{ asset: "kit/bitcoin", at: [X + -1.4, -0.8], s: 1.0, drop: false }, { asset: "kit/volcano", at: [X + 0, -120], s: 9.0, drop: false }], fx: [{ k: 'stars', a: A[11] + 6, b: A[11] + 40, at: [X + -1.4, DK + 1.6, -0.3], s: 0.8 }, { k: "stars", a: WS(166), b: WS(166) + 28, at: [X + 0.0, DK + 0.5, 2.5], s: 1.1 }] })
   ],
 };
+
+// FOLHA3 76b3e3294c6f 31 acoes=31 faltando=0

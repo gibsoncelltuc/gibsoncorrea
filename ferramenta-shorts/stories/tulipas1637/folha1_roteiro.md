@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Contam que um marinheiro comeu um bulbo no almoço, achando que era cebola. Valia uma fortuna.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: fortuna -> stars + som de sino
+- Efeito + som nas palavras-chave: fortuna -> stars + som de sino; encena: x_come (lift) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Acontece que, num leilão de fevereiro, o vendedor abriu os lances, e ninguém levantou a mão.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: negocio (reach) -> acao + som de efeito; encena: pega (lift) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: negocio (reach) -> acao + som de efeito; encena: x_abre (push) -> acao + som de efeito; encena: pega (lift) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: LEILÃO
 - Funcao na historia: VIRADA
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: O marinheiro, pelo menos, almoçou bem.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_come (lift) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

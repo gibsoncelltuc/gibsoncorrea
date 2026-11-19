@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: A gosma caiu em cima do fogão quente. Ele esperava que derretesse.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@20, sting@40
-- Efeito + som nas palavras-chave: encena: cai (throw) -> acao + som de efeito; encena: calor (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: cai (throw) -> acao + som de efeito; encena: calor (reach) -> acao + som de efeito; encena: x_espera (cross) -> acao + som de efeito
 - Efeito visual marcado: puff@20, ring@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Ele abraçou a esposa. Finalmente a borracha aguentava calor e frio.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_abraca -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

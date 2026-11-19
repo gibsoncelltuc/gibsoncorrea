@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: As primeiras tentativas de pouso deram errado. Foguetes tombaram, e explodiram no mar.
 - Som ambiente: birds
 - Efeitos sonoros marcados: cannon@30, thump@50
-- Efeito + som nas palavras-chave: explodiram -> burst + som de tiro/explosao; encena: desaba -> acao + som de efeito
+- Efeito + som nas palavras-chave: explodiram -> burst + som de tiro/explosao; encena: x_entrega (reach) -> acao + som de efeito; encena: desaba -> acao + som de efeito
 - Efeito visual marcado: burst@30, puff@50
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: E pousou certinho no meio da plataforma, abrindo as pernas no último segundo.
 - Som ambiente: sea
 - Efeitos sonoros marcados: ding@30, thump@50
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_abre (push) -> acao + som de efeito
 - Efeito visual marcado: stars@30, puff@50
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

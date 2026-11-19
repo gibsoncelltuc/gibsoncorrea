@@ -29,3 +29,5 @@ const SPEC = {
     S('b11', A[11], A[12] - 1, X, "day", { h: 2.4, d0: 5.6, d1: 4.9, hero: { hero: 'any', frame: 'medium', minH: 0.07, main: 1 }, trans: 'dissolve', actors: [pp(X, "TRU", 0, 0.0, 1.3, "smile", { pose: 'cheer' })], props: [{ asset: "kit/clipper", at: [X + -1.4, -0.8], s: 1.0, drop: false }], fx: [{ k: 'stars', a: A[11] + 6, b: A[11] + 40, at: [X + -1.4, DK + 1.6, -0.3], s: 0.8 }, txt(X, WS(175, -2), A[12] - 1, "HALL DA FAMA", '#e8c45a', '#7a1c1c', 4.6, { s: 1.5, up: 0.55 })] })
   ],
 };
+
+// FOLHA3 803cb3df2db5 38 acoes=38 faltando=0

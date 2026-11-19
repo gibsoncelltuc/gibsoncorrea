@@ -8,7 +8,7 @@ b0 | palace | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/marco
 b1 | palace | reveal | 10 | parados (so fala e pisca) | kit/marco_zanzibar | - | -
 b2 | interior pedra | two | 2 | conversar, INTERAGEM: o outro se aproxima, alguem chega andando | kit/throne | - | -
 b3 | interior pedra | two | 2 | conversar, INTERAGEM: insiste | - | paper | -
-b4 | palace | crowd | 20 | batalha | kit/marco_zanzibar, cannon | - | -
+b4 | palace | crowd | 20 | encena, batalha | kit/marco_zanzibar, cannon | - | -
 b5 | interior pedra | close | 1 | conversar | - | - | -
 b6 | harbor | orbit | 22 | reagir, batalha | kit/marco_zanzibar, navios ao fundo, buildings/castle_tower | - | -
 b7 | palace | track | 2 | discutir, andando | kit/marco_zanzibar, buildings/house_two, nature/lamppost, nature/bench | - | -

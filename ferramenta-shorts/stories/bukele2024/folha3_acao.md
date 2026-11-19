@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 26 - O Presidente dos 85 por Cento
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 7.0s - 20 palavras - plano two
@@ -34,8 +34,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | discutir | OK |
-| 2 | - | ATUACAO | discutir | OK |
+| 1 | liberou (27.8s) | ACAO: x_solta | solta/liberta + brilho | OK |
+| 2 | - | INTERACAO | discutir | OK |
+| 3 | - | ATUACAO | discutir | OK |
 
 ## Cena b4 - 28.1s a 33.0s - 14 palavras - plano crowd
 > "Críticos e opositores disseram que a candidatura era ilegal. O governo defendeu a decisão."

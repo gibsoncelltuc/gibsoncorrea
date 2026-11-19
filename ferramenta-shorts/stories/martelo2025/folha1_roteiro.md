@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: Acontece que, de madrugada, os aviões soltaram catorze bombas. Doze delas em cima de Fordow, pelos respiros do bunker.
 - Som ambiente: birds
 - Efeitos sonoros marcados: cannon@25, cannon@45, thump@60
-- Efeito + som nas palavras-chave: bombas -> burst + som de tiro/explosao
+- Efeito + som nas palavras-chave: bombas -> burst + som de tiro/explosao; encena: x_solta (up) -> acao + som de efeito
 - Efeito visual marcado: burst@25, burst@45, puff@60
 - Texto na tela: -
 - Funcao na historia: VIRADA

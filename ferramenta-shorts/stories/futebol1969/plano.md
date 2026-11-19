@@ -5,8 +5,8 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | -  | placa: 1969 | encena: bola (throw) (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | encena: golpe (punch) (acao + som de efeito) | -
 b2 | two | -  | - | - | -
-b3 | crowd | -  | batalha aberta com tiros, tropa, placa: 1 x 0 | (rosto) laugh (expr + som de efeito); venceu (stars + som de sino); encena: vence (up) (acao + som de efeito) | -
-b4 | two | dia  | - | brigaram (puff + som de baque); encena: golpe (punch) (acao + som de efeito) | -
+b3 | crowd | -  | batalha aberta com tiros, tropa, placa: 1 x 0 | (rosto) laugh (expr + som de efeito); venceu (stars + som de sino); encena: vence (up) (acao + som de efeito); encena: x_bate (punch) (acao + som de efeito) | -
+b4 | two | dia  | - | brigaram (puff + som de baque); encena: x_entrega (reach) (acao + som de efeito); encena: golpe (punch) (acao + som de efeito) | -
 b5 | two | dia  | interior, objeto na mao | encena: corta (hammer) (acao + som de efeito) | -
 b6 | group | dia  | - | ganhou (stars + som de sino); encena: vence (up) (acao + som de efeito) | -
 b7 | orbit | dia  | batalha aberta com tiros, tropa, placa: GUERRA | tiros: 5 soldados caem no chao (acao + som de efeito) | -

@@ -69,7 +69,8 @@
    "text": "1788",
    "tat": 4,
    "light": "golden",
-   "mood": "march"
+   "mood": "march",
+   "batalha": true
   },
   {
    "say": "Era o exército austríaco, marchando contra os turcos, com soldados de vários países, que mal se entendiam.",
@@ -246,5 +247,6 @@
    "light": "dawn",
    "mood": "calm"
   }
- ]
+ ],
+ "variar_cenario": false
 }

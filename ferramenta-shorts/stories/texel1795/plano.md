@@ -3,7 +3,7 @@
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
 b0 | two | -  | placa: 1795, mapa | absurdo (ring + som de alerta) | invadia
-b1 | crowd | -  | tropa, placa: FROTA CONGELADA | - | -
+b1 | crowd | -  | tropa, placa: FROTA CONGELADA | encena: x_treme (acao + som de efeito) | -
 b2 | wide | -  | tropa | encena: prende (push) (acao + som de efeito) | -
 b3 | group | -  | animais | - | -
 b4 | group | -  | tropa, animais, placa: A CAVALO? | atacar (ring + som de alerta); encena: pensa (think) (acao + som de efeito) | -

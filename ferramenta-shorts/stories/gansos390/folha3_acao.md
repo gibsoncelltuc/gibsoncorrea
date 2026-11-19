@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 05 - Os Gansos que Salvaram Roma
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 41 acoes catalogadas, 41 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.4s - 10 palavras - plano two
@@ -58,9 +58,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | gritar (36.9s) | ACAO: grita | grita de bracos para cima | OK |
-| 2 | - | ATUACAO | reagir | OK |
-| 3 | - | PLACA | QUÁ! QUÁ! | OK |
+| 1 | acordaram (35.2s) | ACAO: x_acorda | estava dormindo e acorda na palavra | OK |
+| 2 | gritar (36.9s) | ACAO: grita | grita de bracos para cima | OK |
+| 3 | - | ATUACAO | reagir | OK |
+| 4 | - | PLACA | QUÁ! QUÁ! | OK |
 
 ## Cena b6 - 39.0s a 46.2s - 21 palavras - plano two
 > "Um soldado chamado Mânlio pulou da cama, e empurrou o primeiro invasor muralha abaixo. O gaulês caiu, levando os outros junto."
@@ -79,11 +80,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | alarme (47.5s) | EFEITO: ring | onda + som | OK |
-| 2 | correram (49.6s) | EFEITO: dust | poeira + som | OK |
-| 3 | correram (49.6s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
-| 4 | ataque (51.2s) | EFEITO: ring | onda + som | OK |
-| 5 | fracassou (51.5s) | ACAO: perde | mao na testa | OK |
-| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | acordou (47.8s) | ACAO: x_acorda | estava dormindo e acorda na palavra | OK |
+| 3 | correram (49.6s) | EFEITO: dust | poeira + som | OK |
+| 4 | correram (49.6s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
+| 5 | ataque (51.2s) | EFEITO: ring | onda + som | OK |
+| 6 | fracassou (51.5s) | ACAO: perde | mao na testa | OK |
+| 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
 ## Cena b8 - 52.9s a 56.7s - 13 palavras - plano two
 > "Desde então, todo ano, os gansos ganhavam um desfile pelas ruas de Roma."

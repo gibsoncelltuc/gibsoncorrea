@@ -120,15 +120,13 @@ camelo (citado na narracao) | b5 | FALTA | pesquisar referencia (referencias/LEI
 - Interacoes: b0 susto, b2 avanca e o outro recua
 - RISCOS GERAIS: 
   - video sem objeto heroi -> CORRECAO: "heroi": "kit/<objeto>" no topo do roteiro (modele se nao existir)
-  - 1 palavra(s) de acao sem efeito + som -> CORRECAO: ver plano.md e por "fx"/"sfx" na cena
 
-## RESUMO: 6 risco(s) em aberto
+## RESUMO: 5 risco(s) em aberto
 - b2: animal sem modelo: ratos
 - b5: animal sem modelo: camelo
 - b5: multidao/batalha dentro de sala: nao cabe
 - b6: animal sem modelo: ratos
 - geral: video sem objeto heroi
-- geral: 1 palavra(s) de acao sem efeito + som
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh paris1870 bN bM` (so essas cenas).

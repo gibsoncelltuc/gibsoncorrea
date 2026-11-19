@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 10 - A Guerra da Chaleira
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 4.1s - 14 palavras - plano two
@@ -54,11 +54,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | tiro (38.6s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | canhão (39.2s) | EFEITO: burst | estouro/clarao + som | OK |
-| 3 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 4 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
-| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
+| 1 | esperando (35.4s) | ACAO: x_espera | espera de bracos cruzados | OK |
+| 2 | deu (37.9s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 3 | tiro (38.6s) | EFEITO: burst | estouro/clarao + som | OK |
+| 4 | canhão (39.2s) | EFEITO: burst | estouro/clarao + som | OK |
+| 5 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 6 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
+| 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
 
 ## Cena b6 - 40.5s a 44.2s - 15 palavras - plano two
 > "A bala atravessou o convés, e acertou em cheio a chaleira de sopa do cozinheiro."

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - E Se EP 01 - E Se Todo Mundo Pulasse ao Mesmo Tempo?
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.5s - 17 palavras - plano two
@@ -60,10 +60,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | chão (37.0s) | ACAO: tomba | cai sentado no chao + poeira | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | ATUACAO | reagir | OK |
-| 4 | - | PLACA | BUM! | OK |
+| 1 | batendo (36.3s) | ACAO: x_bate | bate + estouro | OK |
+| 2 | chão (37.0s) | ACAO: tomba | cai sentado no chao + poeira | OK |
+| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | ATUACAO | reagir | OK |
+| 5 | - | PLACA | BUM! | OK |
 
 ## Cena b7 - 39.7s a 44.1s - 14 palavras - plano group
 > "E se, para facilitar, todo mundo se juntasse num lugar só, para pular junto?"

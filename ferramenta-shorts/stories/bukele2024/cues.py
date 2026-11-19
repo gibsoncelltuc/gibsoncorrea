@@ -43,6 +43,7 @@ gibber(F(_A[9] + int((_A[10] - _A[9]) * 0.15)), 5, 250, 0.2); whoosh(F(_A[9] + i
 whoosh(F(_A[10]), 0.4, 0.35)
 birds(F(_A[10]), F(_A[11]), 6, 0.08)
 laughs(F(_A[10] + int((_A[11] - _A[10]) * 0.2))); laughs(F(_A[10] + int((_A[11] - _A[10]) * 0.6)), 5, 360)
+ding(F(int(_W(75))))
 sting(F(int(_W(84))))
 tick(F(int(_W(93))))
 tick(F(int(_W(132))))

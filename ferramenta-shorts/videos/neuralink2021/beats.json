@@ -70,7 +70,8 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Uma empresa de Elon Musk mostrou um macaco jogando videogame. Sem as mãos, só com o pensamento."
+   "say": "Uma empresa de Elon Musk mostrou um macaco jogando videogame. Sem as mãos, só com o pensamento.",
+   "set": "street"
   },
   {
    "shot": "reveal",
@@ -284,5 +285,6 @@
   "https://neuralink.com/updates/pager-plays-mindpong/",
   "https://www.bbc.com/news/technology-56688812"
  ],
- "exp": 1.0
+ "exp": 1.0,
+ "variar_cenario": false
 }

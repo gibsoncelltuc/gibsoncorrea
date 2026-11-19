@@ -38,6 +38,7 @@ gibber(F(_A[11] + int((_A[12] - _A[11]) * 0.2)), 4, 260, 0.12); gibber(F(_A[11] 
 tick(F(int(_W(64))))
 ding(F(int(_W(81))))
 ding(F(int(_W(102))))
+ding(F(int(_W(102))))
 ding(F(int(_W(104))))
 sting(F(int(_W(116))))
 tick(F(int(_W(136))))

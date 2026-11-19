@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: A plateia riu, a internet também, e a cena deu o que falar no mundo inteiro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@10, thump@40
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; riu -> stars + som de sino
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; riu -> stars + som de sino; encena: x_ri (up) -> acao + som de efeito; encena: x_entrega (reach) -> acao + som de efeito
 - Efeito visual marcado: ring@12, dust@40
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Perto da meia-noite, o vigia gritou: iceberg à frente! Não deu tempo de desviar.
 - Som ambiente: birds
 - Efeitos sonoros marcados: sting@20
-- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou: -> ring + som de alerta; encena: grita (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou: -> ring + som de alerta; encena: grita (up) -> acao + som de efeito; encena: x_entrega (reach) -> acao + som de efeito
 - Efeito visual marcado: ring@20
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: E criaram uma patrulha só para vigiar icebergs. Ela existe até hoje.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_vigia (cross) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

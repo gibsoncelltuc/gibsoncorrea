@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - A Cavalaria que Capturou uma Frota
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 22 acoes catalogadas, 22 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 23 acoes catalogadas, 23 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 4.5s - 17 palavras - plano two
@@ -18,8 +18,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | reagir | OK |
-| 2 | - | PLACA | FROTA CONGELADA | OK |
+| 1 | congelou (9.1s) | ACAO: x_treme | treme | OK |
+| 2 | - | ATUACAO | reagir | OK |
+| 3 | - | PLACA | FROTA CONGELADA | OK |
 
 ## Cena b2 - 11.0s a 13.6s - 10 palavras - plano wide
 > "Os navios ficaram presos no gelo, como carros num congestionamento."

@@ -25,3 +25,5 @@ const SPEC = {
     S('b9', A[9], A[10] - 1, X_harbor, "dawn", { h: 2.4, d0: 5.6, d1: 4.9, hero: { hero: 'any', frame: 'medium', minH: 0.07, main: 1 }, trans: 'dissolve', actors: [pp(X_harbor, "CID", 0, 0.0, 1.3, "smile", { pose: 'talk' })], props: [{ asset: "buildings/lighthouse", at: [X_harbor + 4.8, -11.0], s: 1.05, ry: -0.35, drop: false }, { asset: "kit/searchlight", at: [X_harbor + 1.8, -1.2], s: 1.0, drop: false }, { asset: "kit/marco_hollywood", at: [X_harbor + 0, -110], s: 1.0, drop: false }], fx: [{ k: 'stars', a: A[9] + 6, b: A[9] + 40, at: [X_harbor + 1.8, DK + 1.6, -0.7], s: 0.8 }, { k: "puff", a: WS(143), b: WS(143) + 28, at: [X_harbor + 0.9, DK + 0.12, 1.7], s: 0.7 }] })
   ],
 };
+
+// FOLHA3 772d2afd49e3 43 acoes=43 faltando=0

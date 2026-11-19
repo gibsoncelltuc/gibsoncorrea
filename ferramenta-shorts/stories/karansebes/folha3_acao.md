@@ -1,19 +1,22 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 01 - A Batalha de Karánsebes
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 58 acoes catalogadas, 58 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 64 acoes catalogadas, 64 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.1s a 2.9s - 10 palavras - plano track
+## Cena b0 - 0.1s a 2.9s - 10 palavras - plano crowd
 > "Um exército inteiro conseguiu perder uma batalha contra si mesmo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | perder (1.5s) | EFEITO: dust | poeira + som | OK |
 | 2 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 3 | - | PLACA | 1788 | OK |
+| 3 | - | CENA | cavalaria: 4 soldados a cavalo (AUT) | OK |
+| 4 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 6 | - | PLACA | 1788 | OK |
 
-## Cena b1 - 4.1s a 9.3s - 17 palavras - plano crowd
+## Cena b1 - 4.1s a 9.3s - 17 palavras - plano orbit
 > "Era o exército austríaco, marchando contra os turcos, com soldados de vários países, que mal se entendiam."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -48,11 +51,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | Compraram (19.4s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | Compraram (19.4s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 3 | beberam (20.4s) | EFEITO: stars | estrelinhas + som | OK |
-| 4 | festa (21.5s) | EFEITO: stars | estrelinhas + som | OK |
-| 5 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 6 | - | INTERACAO | brindar | OK |
-| 7 | - | ATUACAO | comemorar | OK |
-| 8 | - | PLACA | AGUARDENTE | OK |
+| 4 | beberam (20.4s) | ACAO: x_bebe | leva o copo a boca | OK |
+| 5 | festa (21.5s) | EFEITO: stars | estrelinhas + som | OK |
+| 6 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 7 | - | INTERACAO | brindar | OK |
+| 8 | - | ATUACAO | comemorar | OK |
+| 9 | - | PLACA | AGUARDENTE | OK |
 
 ## Cena b5 - 23.0s a 32.3s - 24 palavras - plano group
 > "Aí chegou a infantaria, querendo a parte dela. "Não tem pra vocês", disseram os hussardos. A discussão virou empurra-empurra, e alguém deu um tiro."
@@ -61,13 +65,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | chegou (23.2s) | EFEITO: dust | poeira + som | OK |
 | 2 | discussão (29.8s) | EFEITO: puff | fumaca + som | OK |
-| 3 | tiro (32.3s) | EFEITO: burst | estouro/clarao + som | OK |
-| 4 | - | CENA | cavalaria: 2 soldados a cavalo (AUT) | OK |
-| 5 | - | INTERACAO | empurrar | OK |
-| 6 | - | ATUACAO | conversar | OK |
-| 7 | - | CHEGADA | alguem entra andando | OK |
+| 3 | deu (32.0s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 4 | tiro (32.3s) | EFEITO: burst | estouro/clarao + som | OK |
+| 5 | - | CENA | cavalaria: 2 soldados a cavalo (AUT) | OK |
+| 6 | - | INTERACAO | empurrar | OK |
+| 7 | - | ATUACAO | conversar | OK |
+| 8 | - | CHEGADA | alguem entra andando | OK |
 
-## Cena b6 - 33.4s a 38.8s - 12 palavras - plano group
+## Cena b6 - 33.4s a 38.8s - 12 palavras - plano orbit
 > "No escuro, alguém gritou: "Turcos! Turcos!" E o pânico tomou o acampamento."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -75,12 +80,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | gritou: (34.5s) | EFEITO: ring | onda + som | OK |
 | 2 | gritou (34.5s) | ACAO: grita | grita de bracos para cima | OK |
 | 3 | pânico (38.1s) | EFEITO: dust | poeira + som | OK |
-| 4 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
-| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 6 | - | ATUACAO | conversar | OK |
-| 7 | - | PLACA | TURCOS! | OK |
+| 4 | tomou (38.4s) | ACAO: x_bebe | leva o copo a boca | OK |
+| 5 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
+| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 7 | - | ATUACAO | conversar | OK |
+| 8 | - | PLACA | TURCOS! | OK |
 
-## Cena b7 - 40.3s a 46.3s - 19 palavras - plano orbit
+## Cena b7 - 40.3s a 46.3s - 19 palavras - plano crowd
 > "Acontece que ninguém entendia a língua do vizinho. Todo mundo atirava em todo mundo, achando que eram os turcos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

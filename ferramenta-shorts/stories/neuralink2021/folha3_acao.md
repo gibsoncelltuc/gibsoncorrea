@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 19 - O Macaco que Jogou Videogame com a Mente
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.5s - 17 palavras - plano two
@@ -81,9 +81,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | pensando (61.2s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
-| 2 | - | INTERACAO | entregar | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 1 | recebeu (58.5s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | pensando (61.2s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
+| 3 | - | INTERACAO | entregar | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b10 - 62.5s a 66.2s - 13 palavras - plano orbit
 > "Ele não mexia o corpo do pescoço para baixo. E voltou a jogar."

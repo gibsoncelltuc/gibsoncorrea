@@ -138,11 +138,9 @@ kit/campfire | b4 | pronto | conferir na folha de contato se le bem; se parecer 
 ## Video inteiro
 - Objeto heroi: kit/snake_ring | grandes momentos: b1, b9 | planos abertos: 2 | mistura: close 18% | medio 72% | aberto 6% | detalhe 4%
 - Interacoes: b0 cochichar, b2 discutir, b3 entregar, b8 entregar, b10 insiste
-- RISCOS GERAIS: 
-  - pouca variedade de cenario ({'street': 5, 'interior madeira': 7}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: pouca variedade de cenario ({'street': 5, 'interior madeira': 7}): o video fica parecendo todos os outros
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh kekule1865 bN bM` (so essas cenas).

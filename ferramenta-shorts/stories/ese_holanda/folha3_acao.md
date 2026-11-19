@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - E Se EP 03 - E Se o Brasil Tivesse Sido Holandês?
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.7s - 17 palavras - plano two
@@ -18,7 +18,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | MAPA | PERNAMBUCO | OK |
+| 1 | tomaram (9.3s) | ACAO: x_bebe | leva o copo a boca | OK |
+| 2 | - | MAPA | PERNAMBUCO | OK |
 
 ## Cena b2 - 13.5s a 17.7s - 12 palavras - plano two
 > "O governador Maurício de Nassau trouxe pintores, cientistas e engenheiros para Recife."
@@ -80,8 +81,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | entregar | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | entregou (56.3s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | - | INTERACAO | entregar | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b9 - 58.8s a 60.5s - 7 palavras - plano orbit
 > "Essa vila hoje se chama Nova York."

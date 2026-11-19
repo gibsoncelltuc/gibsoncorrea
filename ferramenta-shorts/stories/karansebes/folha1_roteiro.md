@@ -4,9 +4,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 
 ## Cena b0  (~3.4 s)
 - Narracao: Um exército inteiro conseguiu perder uma batalha contra si mesmo.
-- Som ambiente: birds
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; perder -> dust + som de impacto
+- Som ambiente: birds | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; cavalaria: 4 soldados a cavalo (AUT) -> acao + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito; perder -> dust + som de impacto
 - Efeito visual marcado: -
 - Texto na tela: 1788
 - Funcao na historia: GANCHO
@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 
 ## Cena b2  (~3.4 s)
 - Narracao: Numa noite, os hussardos foram na frente procurar o inimigo.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: cavalaria: 2 soldados a cavalo (HUS) -> acao + som de efeito
 - Efeito visual marcado: -
@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 
 ## Cena b3  (~2.8 s)
 - Narracao: Não acharam turco nenhum. Acharam moradores vendendo aguardente.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: vendendo -> stars + som de sino; encena: examina (think) -> acao + som de efeito
 - Efeito visual marcado: -
@@ -40,18 +40,18 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 
 ## Cena b4  (~2.4 s)
 - Narracao: Compraram tudo, beberam, e a festa começou.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; Compraram -> stars + som de sino; beberam -> stars + som de sino; festa -> stars + som de sino; encena: negocio (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; Compraram -> stars + som de sino; beberam -> stars + som de sino; festa -> stars + som de sino; encena: negocio (reach) -> acao + som de efeito; encena: x_bebe (lift) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: AGUARDENTE
 - Funcao na historia: desenvolvimento
 
 ## Cena b5  (~8.3 s)
 - Narracao: Aí chegou a infantaria, querendo a parte dela. "Não tem pra vocês", disseram os hussardos. A discussão virou empurra-empurra, e alguém deu um tiro.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: cavalaria: 2 soldados a cavalo (AUT) -> acao + som de efeito; chegou -> dust + som de impacto; discussão -> puff + som de baque; tiro -> burst + som de tiro/explosao
+- Efeito + som nas palavras-chave: cavalaria: 2 soldados a cavalo (AUT) -> acao + som de efeito; chegou -> dust + som de impacto; discussão -> puff + som de baque; tiro -> burst + som de tiro/explosao; encena: x_entrega (reach) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 - Narracao: No escuro, alguém gritou: "Turcos! Turcos!" E o pânico tomou o acampamento.
 - Som ambiente: birds | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou: -> ring + som de alerta; pânico -> dust + som de impacto; encena: grita (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou: -> ring + som de alerta; pânico -> dust + som de impacto; encena: grita (up) -> acao + som de efeito; encena: x_bebe (lift) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: TURCOS!
 - Funcao na historia: GRANDE MOMENTO
@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 
 ## Cena b9  (~9.0 s)
 - Narracao: Dois dias depois, os turcos chegaram de verdade, e acharam o acampamento abandonado. Contam que foram até dez mil baixas, mas os historiadores duvidam desse número.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: examina (think) -> acao + som de efeito
 - Efeito visual marcado: -

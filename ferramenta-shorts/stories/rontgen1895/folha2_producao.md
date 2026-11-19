@@ -137,11 +137,9 @@ kit/crookes_tube | b2, b3, b5 | pronto | conferir na folha de contato se le bem;
 ## Video inteiro
 - Objeto heroi: kit/xray_plate | grandes momentos: b8, b10 | planos abertos: 3 | mistura: close 11% | medio 77% | aberto 10% | detalhe 2%
 - Interacoes: b0 aproxima-se, b6 entregar, b9 avanca e o outro recua
-- RISCOS GERAIS: 
-  - pouca variedade de cenario ({'street': 5, 'interior madeira': 7}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: pouca variedade de cenario ({'street': 5, 'interior madeira': 7}): o video fica parecendo todos os outros
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh rontgen1895 bN bM` (so essas cenas).

@@ -9,7 +9,7 @@ b1 | street | reveal | 8 | parados (so fala e pisca) | - | - | -
 b2 | interior madeira | two | 1 | encena | - | paper | -
 b3 | interior madeira | close | 1 | reagir | - | paper | -
 b4 | interior madeira | two | 2 | conversar, INTERAGEM: entregar | - | paper | -
-b5 | street | crowd | 19 | batalha | buildings/church | - | -
+b5 | street | crowd | 19 | encena, batalha | buildings/church | - | -
 b6 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/postit | paper | -
 b7 | harbor | close | 1 | conversar | kit/postit | - | -
 b8 | interior madeira | two | 2 | conversar, INTERAGEM: abracar | kit/postit | - | -

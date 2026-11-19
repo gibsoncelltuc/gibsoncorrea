@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: Acontece que os gansos acordaram, e começaram a gritar e a bater as asas.
 - Som ambiente: birds
 - Efeitos sonoros marcados: squeal@20, squeal@55, squeal@90
-- Efeito + som nas palavras-chave: encena: grita (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_acorda (up) -> acao + som de efeito; encena: grita (up) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: QUÁ! QUÁ!
 - Funcao na historia: VIRADA
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: O alarme acordou todo mundo, os romanos correram para a muralha, e o ataque fracassou.
 - Som ambiente: birds
 - Efeitos sonoros marcados: thump@30, sting@10, thump@70
-- Efeito + som nas palavras-chave: alarme -> ring + som de alerta; correram -> dust + som de impacto; ataque -> ring + som de alerta; encena: corre -> acao + som de efeito; encena: perde (facepalm) -> acao + som de efeito
+- Efeito + som nas palavras-chave: alarme -> ring + som de alerta; correram -> dust + som de impacto; ataque -> ring + som de alerta; encena: x_acorda (up) -> acao + som de efeito; encena: corre -> acao + som de efeito; encena: perde (facepalm) -> acao + som de efeito
 - Efeito visual marcado: burst@30, dust@70
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

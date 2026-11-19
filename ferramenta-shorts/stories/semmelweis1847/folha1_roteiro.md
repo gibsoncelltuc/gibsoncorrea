@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Ele colocou uma bacia com água e cloro na porta, e obrigou todo mundo a lavar as mãos antes de entrar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_lava (stir) -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -105,7 +105,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Anos depois, a ciência provou os micróbios. Hoje, ele é chamado de salvador das mães.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_come (lift) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: LAVE AS MÃOS
 - Funcao na historia: FECHO/PIADA FINAL

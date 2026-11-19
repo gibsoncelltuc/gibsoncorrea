@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Ele filmou a própria entrada e postou o vídeo na internet.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: tira (lift) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: tira (lift) -> acao + som de efeito; encena: x_fone (lift) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: ESTADOS UNIDOS
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: A cena deu o que falar no mundo inteiro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@10, thump@40
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_entrega (reach) -> acao + som de efeito
 - Efeito visual marcado: ring@12, dust@40
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

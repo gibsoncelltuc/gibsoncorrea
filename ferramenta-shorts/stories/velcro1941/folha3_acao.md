@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 16 - O Cachorro que Inventou o Velcro
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.3s - 14 palavras - plano two
@@ -64,10 +64,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | riram (36.5s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | ideia (37.0s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
-| 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 4 | - | INTERACAO | discutir | OK |
-| 5 | - | ATUACAO | discutir | OK |
+| 2 | riram (36.5s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
+| 3 | ideia (37.0s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
+| 4 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 5 | - | INTERACAO | discutir | OK |
+| 6 | - | ATUACAO | discutir | OK |
 
 ## Cena b8 - 42.2s a 49.6s - 17 palavras - plano two
 > "O segredo foi o náilon. E o nome veio do francês: velours, veludo, e crochet, gancho. Velcro!"

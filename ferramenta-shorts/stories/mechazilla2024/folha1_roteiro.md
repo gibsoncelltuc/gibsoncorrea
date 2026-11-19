@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Elon Musk mandou construir uma torre com braços gigantes, para pegar um foguete no ar. E deu certo.
 - Som ambiente: sea
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: encena: fala (point) -> acao + som de efeito; encena: constroi (hammer) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) -> acao + som de efeito; encena: constroi (hammer) -> acao + som de efeito; encena: x_entrega (reach) -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 2024
 - Funcao na historia: GANCHO
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Acontece que, no último segundo, os braços se fecharam, e seguraram o foguete no ar.
 - Som ambiente: sea
 - Efeitos sonoros marcados: sting@20, ding@50
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_abre (push) -> acao + som de efeito
 - Efeito visual marcado: ring@20, stars@50
 - Texto na tela: -
 - Funcao na historia: VIRADA

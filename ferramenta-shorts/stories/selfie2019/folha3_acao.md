@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 28 - A Selfie na ONU
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 5.6s - 16 palavras - plano two
@@ -46,8 +46,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | tirou (26.3s) | ACAO: tira | tira foto (celular + flash) | OK |
-| 2 | - | EMOCAO: pleading | o rosto vira "pleading" na palavra | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 2 | celular (27.0s) | ACAO: x_fone | celular na mao + toque | OK |
+| 3 | - | EMOCAO: pleading | o rosto vira "pleading" na palavra | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b5 - 28.1s a 33.3s - 15 palavras - plano low
 > "Virou de costas para a plateia, e tirou uma selfie com o plenário inteiro atrás."

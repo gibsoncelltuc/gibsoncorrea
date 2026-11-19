@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 02 - A Guerra dos Emus
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 46 acoes catalogadas, 46 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 49 acoes catalogadas, 49 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.7s - 11 palavras - plano two
@@ -75,17 +75,20 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | 1 SEMANA | OK |
 
-## Cena b7 - 43.2s a 49.5s - 17 palavras - plano track
+## Cena b7 - 43.2s a 49.5s - 17 palavras - plano group
 > "A tropa bateu em retirada. A imprensa gargalhou, e o comandante admitiu: "Eles aguentam bala como tanques.""
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | bateu (43.6s) | EFEITO: dust | poeira + som | OK |
-| 2 | retirada (44.0s) | EFEITO: dust | poeira + som | OK |
-| 3 | gargalhou (46.0s) | EFEITO: stars | estrelinhas + som | OK |
-| 4 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 5 | - | ATUACAO | comemorar | OK |
-| 6 | - | PLACA | HA HA HA | OK |
+| 2 | bateu (43.6s) | ACAO: x_bate | bate + estouro | OK |
+| 3 | retirada (44.0s) | EFEITO: dust | poeira + som | OK |
+| 4 | gargalhou (46.0s) | EFEITO: stars | estrelinhas + som | OK |
+| 5 | gargalhou (46.0s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
+| 6 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 7 | - | INTERACAO | empurrar | OK |
+| 8 | - | ATUACAO | comemorar | OK |
+| 9 | - | PLACA | HA HA HA | OK |
 
 ## Cena b8 - 50.6s a 54.9s - 13 palavras - plano crowd
 > "O exército tentou de novo, abateu algumas centenas, e os emus continuaram voltando."

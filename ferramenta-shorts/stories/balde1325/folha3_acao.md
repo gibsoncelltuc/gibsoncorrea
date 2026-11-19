@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 04 - A Guerra do Balde
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.0s - 13 palavras - plano two
@@ -37,11 +37,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | roubaram (18.1s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | ouro (18.5s) | EFEITO: stars | estrelinhas + som | OK |
 | 3 | rindo (23.9s) | EFEITO: stars | estrelinhas + som | OK |
-| 4 | - | CENA | cavalaria: 4 soldados a cavalo (MOD) | OK |
-| 5 | - | CENA | tiros: 4 soldados caem no chao | OK |
-| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 7 | - | ATUACAO | comemorar | OK |
-| 8 | - | PLACA | O BALDE | OK |
+| 4 | rindo (23.9s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
+| 5 | - | CENA | cavalaria: 4 soldados a cavalo (MOD) | OK |
+| 6 | - | CENA | tiros: 4 soldados caem no chao | OK |
+| 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 8 | - | ATUACAO | comemorar | OK |
+| 9 | - | PLACA | O BALDE | OK |
 
 ## Cena b4 - 25.0s a 29.8s - 10 palavras - plano close
 > ""Devolvam o nosso balde", exigiu Bolonha. "Venham buscar", respondeu Módena."

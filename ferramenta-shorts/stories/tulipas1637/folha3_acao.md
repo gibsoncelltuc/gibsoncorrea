@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - A Febre das Tulipas
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.3s - 11 palavras - plano two
@@ -55,9 +55,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | fortuna (37.5s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | - | INTERACAO | aproxima-se | OK |
-| 3 | - | ATUACAO | discutir | OK |
+| 1 | comeu (33.7s) | ACAO: x_come | leva a comida a boca | OK |
+| 2 | fortuna (37.5s) | EFEITO: stars | estrelinhas + som | OK |
+| 3 | - | INTERACAO | aproxima-se | OK |
+| 4 | - | ATUACAO | discutir | OK |
 
 ## Cena b6 - 38.8s a 43.8s - 16 palavras - plano group
 > "Acontece que, num leilão de fevereiro, o vendedor abriu os lances, e ninguém levantou a mão."
@@ -65,10 +66,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | leilão (40.0s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 2 | levantou (43.3s) | ACAO: pega | levanta/segura | OK |
-| 3 | - | INTERACAO | vai ate o outro | OK |
-| 4 | - | ATUACAO | reagir | OK |
-| 5 | - | PLACA | LEILÃO | OK |
+| 2 | abriu (41.9s) | ACAO: x_abre | empurra a porta | OK |
+| 3 | levantou (43.3s) | ACAO: pega | levanta/segura | OK |
+| 4 | - | INTERACAO | vai ate o outro | OK |
+| 5 | - | ATUACAO | reagir | OK |
+| 6 | - | PLACA | LEILÃO | OK |
 
 ## Cena b7 - 44.8s a 50.0s - 15 palavras - plano orbit
 > "A notícia correu. Em poucos dias, todo mundo quis vender, e não havia mais comprador."
@@ -97,5 +99,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | almoçou (59.5s) | ACAO: x_come | leva a comida a boca | OK |
+| 2 | - | ATUACAO | conversar | OK |
 

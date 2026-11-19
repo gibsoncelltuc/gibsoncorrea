@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 - Narracao: A tropa bateu em retirada. A imprensa gargalhou, e o comandante admitiu: "Eles aguentam bala como tanques."
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; bateu -> dust + som de impacto; retirada -> dust + som de impacto; gargalhou -> stars + som de sino
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; bateu -> dust + som de impacto; retirada -> dust + som de impacto; gargalhou -> stars + som de sino; encena: x_bate (punch) -> acao + som de efeito; encena: x_ri (up) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: HA HA HA
 - Funcao na historia: desenvolvimento
