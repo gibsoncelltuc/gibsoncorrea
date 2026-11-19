@@ -98,7 +98,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): ERA (variante 0, expressao laugh); BIB (variante 0, expressao laugh) | multidao: 14 de BIB/POV/CAM
 - Animacao: comemorar | interacao: pular | batalha encenada
-- Objetos/modelos: kit/globe, nature/tree_palm
+- Objetos/modelos: kit/globe, nature/tree_palm, kit/starlink_sat
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois
 - RISCOS: nenhum
 
@@ -108,7 +108,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): ERA (variante 0, expressao smug)
 - Animacao: conversar
-- Objetos/modelos: kit/stick, kit/well, nature/tree_palm, tools/bucket
+- Objetos/modelos: kit/stick, kit/well, nature/tree_palm, tools/bucket, kit/starlink_sat
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): poco, satelite, trabalho, vara
 - RISCOS: nenhum
 
@@ -125,6 +125,7 @@ buildings/house_two | b1, b7 | pronto | conferir na folha de contato se le bem; 
 nature/lamppost | b1, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/well | b2, b3, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 tools/bucket | b2, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/starlink_sat | b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
