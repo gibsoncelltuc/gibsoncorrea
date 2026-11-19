@@ -103,6 +103,7 @@ def porco():
     import animais
     def focinho(d):   # porco: disco do focinho chato e rosado com narinas, orelhas triangulares caidas para frente, rabo enrolado, papada
         mc, hr = d['mc'], d['hr']
+        bola((0, d['yc'] + d['bh'] * .02, -d['L'] * .02), 1, d['cor'], esc=(d['bw'] * .53, d['bh'] * .52, d['L'] * .56), seg=28)   # barril liso (sem emendas/listras no contorno)
         cil((0, mc[1], mc[2] + .1), hr * .42, .06, '#f08aa0', rot=(m.pi / 2, 0, 0), lados=20)
         for s in (-1, 1): bola((s * hr * .14, mc[1], mc[2] + .135), hr * .08, '#a8485e')
         for s in (-1, 1): bola((s * hr * .6, d['hc'][1] + hr * .75, d['hc'][2] + hr * .25), hr * .38, '#f2a2b4', esc=(.8, .2, 1.1), rot=(.9, 0, -s * .5))
