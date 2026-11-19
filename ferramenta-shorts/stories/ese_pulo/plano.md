@@ -7,7 +7,7 @@ b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | objeto na mao | - | -
 b3 | crowd | -  | batalha aberta com tiros, tropa, placa: 3, 2, 1... | encena: pula (acao + som de efeito) | -
 b4 | close | -  | - | - | -
-b5 | two | -  | - | encena: examina (think) (acao + som de efeito) | -
+b5 | two | -  | - | - | -
 b6 | orbit | -  | batalha aberta com tiros, tropa, placa: BUM! | encena: x_bate (punch) (acao + som de efeito); encena: tomba (acao + som de efeito) | -
 b7 | group | -  | tropa | encena: pula (acao + som de efeito) | -
 b8 | two | -  | objeto na mao | caos: (puff + som de baque); encena: grita (up) (acao + som de efeito) | -

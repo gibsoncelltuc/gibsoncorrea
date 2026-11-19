@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 10 - Eratóstenes Mede a Terra
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.3s - 15 palavras - plano two
@@ -68,6 +68,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | mediu (37.9s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+| 2 | contou (39.5s) | ACAO: fala | aponta explicando | OK |
 
 ## Cena b8 - 42.3s a 46.0s - 15 palavras - plano two
 > "Com uma conta simples, chegou a um número muito perto do tamanho real da Terra."

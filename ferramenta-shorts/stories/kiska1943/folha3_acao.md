@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - A Invasão da Ilha Vazia
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 22 acoes catalogadas, 22 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 21 acoes catalogadas, 21 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 8.1s - 23 palavras - plano two
@@ -77,7 +77,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | tomou (44.1s) | ACAO: x_bebe | leva o copo a boca | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | OPERAÇÃO ILHA VAZIA | OK |
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | PLACA | OPERAÇÃO ILHA VAZIA | OK |
 

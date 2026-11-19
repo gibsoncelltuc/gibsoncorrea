@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - A Febre das Tulipas
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 43 acoes catalogadas, 43 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.3s - 11 palavras - plano two
@@ -71,25 +71,20 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | leilão (40.0s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 2 | abriu (41.9s) | ACAO: x_abre | empurra a porta | OK |
-| 3 | levantou (43.3s) | ACAO: pega | levanta/segura | OK |
-| 4 | - | INTERACAO | vai ate o outro | OK |
-| 5 | - | ATUACAO | reagir | OK |
-| 6 | - | PLACA | LEILÃO | OK |
+| 3 | - | INTERACAO | vai ate o outro | OK |
+| 4 | - | ATUACAO | reagir | OK |
+| 5 | - | PLACA | LEILÃO | OK |
 
 ## Cena b7 - 44.8s a 50.0s - 15 palavras - plano orbit
 > "A notícia correu. Em poucos dias, todo mundo quis vender, e não havia mais comprador."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | correu (45.3s) | EFEITO: dust | poeira + som | OK |
-| 2 | correu (45.3s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
-| 3 | vender (48.5s) | EFEITO: stars | estrelinhas + som | OK |
-| 4 | vender (48.5s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 5 | vender (48.5s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 6 | comprador (50.0s) | EFEITO: stars | estrelinhas + som | OK |
-| 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 8 | - | ATUACAO | discutir | OK |
-| 9 | - | PLACA | PÂNICO | OK |
+| 1 | vender (48.5s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | vender (48.5s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | ATUACAO | discutir | OK |
+| 5 | - | PLACA | PÂNICO | OK |
 
 ## Cena b8 - 51.3s a 56.7s - 18 palavras - plano two
 > "Os preços desabaram. Quem tinha trocado a casa por flores ficou só com as flores, e as dívidas."

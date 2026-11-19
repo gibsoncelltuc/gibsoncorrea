@@ -11,7 +11,7 @@ b5 | low | -  | - | - | -
 b6 | two | -  | interior | - | -
 b7 | group | -  | tropa | encena: sai (acao + som de efeito) | -
 b8 | crowd | -  | batalha aberta com tiros, tropa, placa: VULCÃO | (rosto) laugh (expr + som de efeito); encena: vence (up) (acao + som de efeito) | -
-b9 | two | -  | objeto na mao | - | -
+b9 | two | -  | objeto na mao | encena: fala (point) (acao + som de efeito) | -
 b10 | orbit | -  | batalha aberta com tiros, tropa, placa: CIDADE BITCOIN | encena: fala (point) (acao + som de efeito); encena: constroi (hammer) (acao + som de efeito) | -
 b11 | close | -  | - | Dinheiro (stars + som de sino); encena: paga (reach) (acao + som de efeito) | -
 

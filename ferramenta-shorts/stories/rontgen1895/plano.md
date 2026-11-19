@@ -10,7 +10,7 @@ b4 | low | noite  | interior | encena: brilha (point) (acao + som de efeito) | -
 b5 | two | noite  | interior | encena: olha (point) (acao + som de efeito) | -
 b6 | two | dia  | interior | encena: tira (lift) (acao + som de efeito) | -
 b7 | close | -  | interior | encena: olha (point) (acao + som de efeito) | -
-b8 | crowd | -  | batalha aberta com tiros, tropa, placa: NOTÍCIA, objeto na mao | correu (dust + som de impacto); encena: corre (acao + som de efeito) | -
+b8 | crowd | -  | batalha aberta com tiros, tropa, placa: NOTÍCIA, objeto na mao | - | -
 b9 | two | -  | interior, placa: RAIO X, objeto na mao | - | -
 b10 | orbit | -  | batalha aberta com tiros, tropa, placa: NOBEL | ganhou (stars + som de sino); Prêmio (stars + som de sino); encena: vence (up) (acao + som de efeito) | -
 b11 | two | -  | tropa | - | -

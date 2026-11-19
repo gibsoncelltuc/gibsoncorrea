@@ -9,7 +9,7 @@ b3 | two | - calor | - | - | -
 b4 | two | - calor | - | encena: tomba (acao + som de efeito) | -
 b5 | close | -  | - | encena: pensa (think) (acao + som de efeito) | -
 b6 | orbit | -  | batalha aberta com tiros, tropa | - | -
-b7 | track | -  | - | encena: examina (think) (acao + som de efeito) | -
+b7 | track | -  | - | encena: examina (think) (acao + som de efeito); encena: fala (point) (acao + som de efeito) | -
 b8 | two | -  | interior, objeto na mao | chegou (dust + som de impacto); encena: chega (point) (acao + som de efeito) | -
 b9 | group | -  | batalha aberta com tiros, tropa, placa: 40.000 KM | - | -
 b10 | close | -  | - | - | -

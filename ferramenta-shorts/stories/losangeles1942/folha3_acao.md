@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 20 - A Batalha de Los Angeles
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 49 acoes catalogadas, 49 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 47 acoes catalogadas, 47 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.9s - 14 palavras - plano two
@@ -97,12 +97,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | morreram (48.0s) | EFEITO: puff | fumaca + som | OK |
 | 2 | morreram (48.0s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
-| 3 | apareceu (51.0s) | EFEITO: dust | poeira + som | OK |
-| 4 | apareceu (51.0s) | ACAO: chega | entra andando pela lateral | OK |
-| 5 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 6 | - | INTERACAO | entregar | OK |
-| 7 | - | ATUACAO | conversar | OK |
-| 8 | - | CHEGADA | alguem entra andando | OK |
+| 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 4 | - | INTERACAO | entregar | OK |
+| 5 | - | ATUACAO | conversar | OK |
+| 6 | - | CHEGADA | alguem entra andando | OK |
 
 ## Cena b9 - 52.4s a 55.1s - 12 palavras - plano close
 > "O único alvo derrotado naquela noite foi o sono de Los Angeles."

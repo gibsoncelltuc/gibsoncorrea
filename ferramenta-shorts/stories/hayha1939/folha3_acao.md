@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - A Morte Branca
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 6.3s - 18 palavras - plano track
@@ -18,8 +18,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | reagir | OK |
-| 2 | - | PLACA | -40 °C | OK |
+| 1 | - | CENA | tiros: 3 soldados caem no chao | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | ATUACAO | reagir | OK |
+| 4 | - | PLACA | -40 °C | OK |
 
 ## Cena b2 - 14.8s a 17.8s - 9 palavras - plano close
 > "Um deles era um fazendeiro baixinho chamado Simo Häyhä."
@@ -29,14 +31,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | SIMO HÄYHÄ | OK |
 
-## Cena b3 - 18.1s a 22.6s - 13 palavras - plano crowd
+## Cena b3 - 18.1s a 22.6s - 13 palavras - plano low
 > "Vestido de branco, ele esperava imóvel no meio da neve, horas a fio."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | esperava (19.6s) | ACAO: x_espera | espera de bracos cruzados | OK |
-| 2 | - | CENA | tiros: 4 soldados caem no chao | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b4 - 23.0s a 28.9s - 17 palavras - plano close
 > "Dizem que ele mantinha neve na boca, para o vapor da respiração não entregar a sua posição."
@@ -63,7 +64,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | ATUACAO | reagir | OK |
 | 2 | - | PLACA | MORTE BRANCA | OK |
 
-## Cena b7 - 40.0s a 48.5s - 24 palavras - plano group
+## Cena b7 - 40.0s a 48.5s - 24 palavras - plano orbit
 > "Em março de mil novecentos e quarenta, uma bala atingiu o rosto dele. Ele sobreviveu, e acordou no dia em que a guerra terminou."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -73,15 +74,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | acordou (45.9s) | ACAO: x_acorda | estava dormindo e acorda na palavra | OK |
 | 4 | - | CENA | tiros: 3 soldados caem no chao | OK |
 | 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 6 | - | INTERACAO | cochichar | OK |
-| 7 | - | ATUACAO | conversar | OK |
+| 6 | - | ATUACAO | reagir | OK |
 
 ## Cena b8 - 48.9s a 55.9s - 20 palavras - plano close
 > "Viveu até os noventa e seis anos, e nunca se achou herói. Dizia que só tinha feito o seu trabalho."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | achou (52.6s) | ACAO: olha | aponta/olha | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | SÓ FEZ O SEU TRABALHO | OK |
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | PLACA | SÓ FEZ O SEU TRABALHO | OK |
 

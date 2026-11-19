@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Muita gente comprou só de presente, ou de curiosidade, e nunca tirou as peças da caixa.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
-- Efeito + som nas palavras-chave: comprou -> stars + som de sino; encena: negocio (reach) -> acao + som de efeito; encena: tira (lift) -> acao + som de efeito
+- Efeito + som nas palavras-chave: comprou -> stars + som de sino; encena: negocio (reach) -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

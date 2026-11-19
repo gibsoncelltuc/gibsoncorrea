@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Em mil seiscentos e trinta, navios holandeses tomaram Pernambuco, atrás do açúcar mais valioso do mundo.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_bebe (lift) -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: PERNAMBUCO
 - Funcao na historia: desenvolvimento
