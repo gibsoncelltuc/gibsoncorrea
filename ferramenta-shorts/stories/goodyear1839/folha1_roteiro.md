@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Charles Goodyear ficou obcecado. Misturou a borracha com tudo que encontrava, e gastou todo o dinheiro da família.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
-- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino; encena: mistura (stir) -> acao + som de efeito
+- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino; encena: mistura (stir) -> acao + som de efeito; encena: paga (reach) -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
