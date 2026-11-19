@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 - Narracao: O presidente de El Salvador resolveu fabricar dinheiro digital com a energia de um vulcão.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino
+- Efeito + som nas palavras-chave: (rosto) determined -> expr + som de efeito; dinheiro -> stars + som de sino; encena: paga (reach) @7 -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 2021
 - Funcao na historia: GANCHO
@@ -22,9 +22,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 
 ## Cena b2  (~7.2 s)
 - Narracao: Em dois mil e vinte e um, Nayib Bukele fez do bitcoin uma moeda oficial do país, ao lado do dólar.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: paga (reach) @13 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,14 +42,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 - Narracao: Então ele mandou a empresa de energia do governo usar o calor do vulcão Tecapa.
 - Som ambiente: birds
 - Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito
 - Efeito visual marcado: ring@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b5  (~5.2 s)
 - Narracao: O vapor quente que sai de dentro da terra gira turbinas, e vira eletricidade limpa.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@20, whoosh@50
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: puff@20, puff@50
@@ -67,18 +67,18 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 
 ## Cena b7  (~5.5 s)
 - Narracao: Em outubro saiu o primeiro: um pedacinho de bitcoin que valia uns duzentos e setenta dólares.
-- Som ambiente: birds
+- Som ambiente: sea
 - Efeitos sonoros marcados: ding@20, sting@50
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: sai @2 -> acao + som de efeito
 - Efeito visual marcado: stars@20, ring@50
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b8  (~4.1 s)
 - Narracao: Bukele comemorou nas redes sociais, com um vídeo da usina no vulcão.
-- Som ambiente: birds
+- Som ambiente: sea
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; encena: vence (up) @1 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: VULCÃO
 - Funcao na historia: GRANDE MOMENTO
@@ -87,16 +87,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 - Narracao: Anos depois, o governo contava quase quinhentos bitcoins minerados com a força do vulcão.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: fala (point) @4 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b10  (~5.5 s)
 - Narracao: E ele ainda anunciou o plano de uma Cidade Bitcoin, construída aos pés de outro vulcão.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: fala (point) @3 -> acao + som de efeito; encena: constroi (hammer) @10 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: CIDADE BITCOIN
 - Funcao na historia: GRANDE MOMENTO
@@ -105,7 +105,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 - Narracao: Dinheiro tirado de vulcão. Parece ficção, mas aconteceu de verdade.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: Dinheiro -> stars + som de sino
+- Efeito + som nas palavras-chave: Dinheiro -> stars + som de sino; encena: paga (reach) @0 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL
