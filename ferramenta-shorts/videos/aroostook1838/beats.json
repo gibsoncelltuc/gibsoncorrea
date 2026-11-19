@@ -160,7 +160,7 @@
    "shot": "two",
    "set": "countryside",
    "who": [
-    "AME:0:angry",
+    "AME:0:shout",
     "CAN:0:angry"
    ],
    "say": "\"Essa árvore é minha!\", gritou um lenhador, e logo os dois lados começaram a brigar.",
@@ -193,19 +193,45 @@
    "sfx": [
     "thump@60"
    ],
-   "batalha": true,
-   "interacao": "discutir",
+   "batalha": false,
    "shot_lock": true,
-   "tiros": false,
-   "crowd": {
-    "n": 10,
-    "outfits": [
-     "AME",
-     "CAN"
+   "d0": 9.0,
+   "d1": 8.0
+  },
+  {
+   "shot": "two",
+   "set": "countryside",
+   "who": [
+    "AME:0:angry",
+    "CAN:0:angry"
+   ],
+   "say": "Um lenhador empurrou o outro, e o outro foi derrubado no chão, no meio da floresta.",
+   "fachada": false,
+   "props": [
+    [
+     "nature/tree_pine",
+     -3.0,
+     -7.5,
+     1.6
     ],
-    "march": true,
-    "expr": "angry"
-   }
+    [
+     "nature/tree_pine",
+     3.2,
+     -8.0,
+     1.7
+    ],
+    [
+     "nature/tree_pine",
+     -1.0,
+     -10.0,
+     1.8
+    ]
+   ],
+   "batalha": false,
+   "shot_lock": true,
+   "d0": 11.5,
+   "d1": 10.5,
+   "cx": 0.6
   },
   {
    "shot": "crowd",

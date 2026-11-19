@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 19 - A Guerra de Aroostook
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 41 acoes catalogadas, 41 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.4s - 16 palavras - plano two
@@ -43,38 +43,49 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | brigar (22.8s) | ACAO: golpe | soco + estouro | OK |
 | 6 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
 | 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 8 | - | INTERACAO | discutir | OK |
+| 8 | - | INTERACAO | cochichar | OK |
 | 9 | - | ATUACAO | discutir | OK |
 
-## Cena b4 - 23.9s a 27.2s - 12 palavras - plano crowd
+## Cena b4 - 23.9s a 29.0s - 16 palavras - plano two
+> "Um lenhador empurrou o outro, e o outro foi derrubado no chão, no meio da floresta."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | lenhador (24.1s) | ACAO: corta | machado e toras + poeira | OK |
+| 2 | empurrou (24.3s) | ACAO: empurra | empurra/puxa | OK |
+| 3 | derrubado (26.8s) | ACAO: tomba | cai sentado no chao + poeira | OK |
+| 4 | - | INTERACAO | empurrar | OK |
+| 5 | - | ATUACAO | conversar | OK |
+
+## Cena b5 - 29.4s a 33.4s - 12 palavras - plano crowd
 > "O Maine chamou milhares de soldados, e a Inglaterra mandou os seus."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | mandou (26.8s) | ACAO: fala | aponta explicando | OK |
+| 1 | mandou (31.8s) | ACAO: fala | aponta explicando | OK |
 | 2 | - | CENA | cavalaria: 4 soldados a cavalo (MIL) | OK |
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 4 | - | PLACA | MILÍCIA | OK |
 
-## Cena b5 - 28.2s a 32.0s - 15 palavras - plano two
+## Cena b6 - 33.5s a 38.7s - 15 palavras - plano two
 > "Acontece que um agente do Maine foi preso pelos ingleses, e o clima ficou perigoso."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | preso (29.9s) | ACAO: prende | empurra/prende | OK |
+| 1 | preso (35.8s) | ACAO: prende | empurra/prende | OK |
 | 2 | - | INTERACAO | empurrar | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b6 - 33.4s a 37.2s - 14 palavras - plano two
+## Cena b7 - 39.2s a 43.6s - 14 palavras - plano two
 > "Mas ninguém queria uma guerra de verdade, então o governo mandou um general conversar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | mandou (36.4s) | ACAO: fala | aponta explicando | OK |
+| 1 | mandou (41.7s) | ACAO: fala | aponta explicando | OK |
 | 2 | - | INTERACAO | cochichar | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b7 - 38.4s a 41.7s - 13 palavras - plano two
+## Cena b8 - 44.2s a 48.8s - 13 palavras - plano two
 > "Ele convenceu os dois lados a parar, e ninguém atirou um único tiro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -82,7 +93,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | entregar | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b8 - 42.9s a 46.8s - 13 palavras - plano two
+## Cena b9 - 49.1s a 51.9s - 13 palavras - plano two
 > "Alguns anos depois, um tratado dividiu a floresta, e a fronteira ficou definida."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -90,14 +101,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | entregar | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 48.1s a 49.7s - 7 palavras - plano group
+## Cena b10 - 51.9s a 51.9s - 7 palavras - plano group
 > "Chamaram de Guerra do Porco com Feijão,"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 50.4s a 51.9s - 8 palavras - plano two
+## Cena b11 - 51.9s a 51.9s - 8 palavras - plano two
 > "porque era só isso que as tropas comiam."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

@@ -81,6 +81,20 @@
    }
   },
   {
+   "shot": "two",
+   "shot_lock": true,
+   "who": [
+    "MOD:0:angry",
+    "BOL:0:angry"
+   ],
+   "say": "Um soldado de Módena empurrou o de Bolonha, que foi derrubado no chão, no meio da praça.",
+   "d0": 11.5,
+   "d1": 10.5,
+   "cx": 0.6,
+   "interacao": "empurrar",
+   "batalha": false
+  },
+  {
    "shot": "track",
    "who": [
     "MOD:0:grin",
