@@ -1,0 +1,10 @@
+01 Pé, Pé, Bate o Pezinho! | palavras da letra reconhecidas 94% | LUFS -13.9 pico -1.7 dB | bpm 110 (pedido 112) | prazer 7.5 utilidade 7.9 complexidade 6.7 produção 8.4
+02 Quem É o Bichinho? | palavras da letra reconhecidas 91% | LUFS -13.5 pico -1.6 dB | bpm 99 (pedido 100) | prazer 7.4 utilidade 7.9 complexidade 6.5 produção 8.4
+03 Cores do Arco-Íris | palavras da letra reconhecidas 96% | LUFS -13.9 pico -1.6 dB | bpm 104 (pedido 104) | prazer 7.1 utilidade 7.9 complexidade 6.4 produção 8.4
+04 Abraça, Abraça, Abraça! | palavras da letra reconhecidas 96% | LUFS -13.8 pico -1.6 dB | bpm 110 (pedido 108) | prazer 7.3 utilidade 8.0 complexidade 6.6 produção 8.3
+05 Bolha, Bolha, Banho de Bolhas! | palavras da letra reconhecidas 83% | LUFS -13.0 pico -1.4 dB | bpm 125 (pedido 120) | prazer 7.3 utilidade 7.8 complexidade 6.1 produção 8.4
+06 Ma-Ma, Pa-Pa! | palavras da letra reconhecidas 80% | LUFS -13.8 pico -1.3 dB | bpm 99 (pedido 100) | prazer 7.2 utilidade 8.0 complexidade 6.4 produção 8.4
+07 Bom Dia, Sol! | palavras da letra reconhecidas 93% | LUFS -13.6 pico -1.9 dB | bpm 110 (pedido 112) | prazer 7.4 utilidade 8.0 complexidade 6.4 produção 8.4
+08 Só Mais Cinco Minutinhos! | palavras da letra reconhecidas 91% | LUFS -13.4 pico -1.4 dB | bpm 117 (pedido 120) | prazer 7.4 utilidade 7.9 complexidade 6.1 produção 8.4
+09 Parabéns, Que Festa! | palavras da letra reconhecidas 86% | LUFS -14.0 pico -1.8 dB | bpm 117 (pedido 116) | prazer 7.6 utilidade 8.0 complexidade 6.7 produção 8.4
+10 Tchu-Tchu, Trenzinho! | palavras da letra reconhecidas 88% | LUFS -13.7 pico -1.5 dB | bpm 110 (pedido 108) | prazer 7.3 utilidade 7.7 complexidade 6.8 produção 8.3

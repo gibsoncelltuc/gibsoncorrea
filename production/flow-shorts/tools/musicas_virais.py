@@ -60,3 +60,8 @@ def build(n, seed):
 
 if __name__ == "__main__":
     json.dump(build(int(sys.argv[1]), int(sys.argv[2])), open(sys.argv[3], "w"), ensure_ascii=False, indent=2)
+
+
+# músicas 11 a 20: brincadeiras de infância
+from musicas_brincadeiras import make as _make_brincadeiras
+SONGS.update(_make_brincadeiras(S))
