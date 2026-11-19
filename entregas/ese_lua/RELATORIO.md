@@ -1,0 +1,5 @@
+# E Se 7 — E Se a Lua Desaparecesse? (série "E Se")
+**Fatos:** roteiro e fontes preparados e conferidos pela sessão principal (campo "fontes" do beats.json, saem na Folha 1: NASA/NOAA, marés e afastamento da Lua de ~3,8 cm/ano); narração idêntica, sem corte. Tom de curiosidade.
+**Passou:** conferir.sh OK (61 s, 1080x1920, 0 riscos). Placa "E SE..." no 1º segundo; Lua (herói) em close no começo e no fim e em plano aberto no meio; noite escura só nas cenas de noite; mapa "OCEANOS"; cenário de porto com mar, farol e barco (marés); gaivota nas cenas de animais; 2 grandes momentos em plano aberto ("SEM LUA" e "OBRIGADO, LUA") com multidão; globo em close para o eixo da Terra.
+**Não passou / limitações:** a Lua é o modelo da biblioteca (esfera com crateras e pedestal), então não fica solta no céu; para ela aparecer aumentei a escala e a posição nas cenas b0, b9 e b10. A narração de "marés perderiam mais da metade da força" só aparece como mar calmo (sem animação de maré); "animais iam sofrer" é só uma gaivota; transições esmaecidas (~22 s).
+**Refeito:** nenhuma cena no render; antes do render só ajustei posição e escala da Lua (herói) depois da pré-checagem.
