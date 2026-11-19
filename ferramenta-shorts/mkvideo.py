@@ -1585,7 +1585,8 @@ import hashlib as _hl
 _F3_LIST = [l_ for l_ in _f3 if l_.startswith('| ') and not l_.startswith('| #')]
 _F3_HASH = _hl.sha1('\n'.join(_F3_LIST).encode()).hexdigest()[:12]
 open(f'stories/{ID}/folha1_roteiro.md', 'w', encoding='utf-8').write('\n'.join(_f1) + '\n'); open(f'stories/{ID}/folha2_producao.md', 'w', encoding='utf-8').write('\n'.join(_f2) + '\n')
-json.dump({'riscos': _tot_r + len(_glob), 'acoes': _nok, 'faltando': _nfal, 'hash_folha3': _F3_HASH, 'linhas_folha3': len(_F3_LIST)}, open(f'stories/{ID}/folhas.json', 'w'))
+_HPROD = _hl.sha1((open(f'stories/{ID}/spec.js', encoding='utf-8').read() + _F3_HASH).encode()).hexdigest()[:12]   # assinatura da PRODUCAO inteira (visual + acoes): storyboard e aprovacao valem so' para ela
+json.dump({'riscos': _tot_r + len(_glob), 'acoes': _nok, 'faltando': _nfal, 'hash_folha3': _F3_HASH, 'hash_producao': _HPROD, 'linhas_folha3': len(_F3_LIST)}, open(f'stories/{ID}/folhas.json', 'w'))
 with open(f'stories/{ID}/spec.js', 'a', encoding='utf-8') as _sf: _sf.write(f'\n// FOLHA3 {_F3_HASH} {len(_F3_LIST)} acoes={_nok} faltando={_nfal}\n')   # o video que vai ao render carrega a assinatura da folha 3 que o gerou
 print(f'TRES FOLHAS: stories/{ID}/folha1_roteiro.md (historia e som), stories/{ID}/folha2_producao.md (producao) e stories/{ID}/folha3_acao.md ({_nok} acoes, {_nfal} faltando) -> {_tot_r + len(_glob)} RISCO(S) em aberto' + (': ' + '; '.join([f'b{k} {r}' for k, (r, c) in _allr] + [r for r, c in _glob])[:600] if _tot_r + len(_glob) else ''))
 
