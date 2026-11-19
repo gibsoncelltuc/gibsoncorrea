@@ -14,10 +14,10 @@ b6 | interior hospital | close | 1 | conversar | - | - | -
 b7 | interior hospital | two | 2 | discutir, INTERAGEM: discutir | kit/wash_basin | - | -
 b8 | street | crowd | 33 | comemorar, batalha | kit/wash_basin, kit/marco_viena | - | -
 b9 | interior hospital | two | 2 | discutir, INTERAGEM: empurrar | - | - | -
-b10 | street | two | 1 | conversar | kit/wash_basin, kit/marco_viena | - | -
+b10 | street | two | 1 | conversar | kit/marco_viena | - | -
 b11 | street | close | 1 | conversar | kit/wash_basin, kit/marco_viena | - | -
 
-OBJETO HEROI: kit/wash_basin - aparece em 5 cena(s), close nele em 2
+OBJETO HEROI: kit/wash_basin - aparece em 4 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b1, b8
 Interacoes entre personagens: b0 empurrar, b2 aproxima-se, b3 avanca e o outro recua, b4 o outro se aproxima, b5 insiste, b7 discutir, b9 empurrar
 
