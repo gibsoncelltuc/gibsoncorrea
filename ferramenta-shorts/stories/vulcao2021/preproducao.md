@@ -4,12 +4,12 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | interior loja | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/bitcoin, kit/volcano | - | -
+b0 | jungle | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/bitcoin, kit/volcano | - | -
 b1 | jungle | reveal | 8 | parados (so fala e pisca) | kit/volcano | - | -
-b2 | jungle | two | 2 | conversar, INTERAGEM: insiste | kit/bitcoin, kit/volcano, kit/coin | - | -
+b2 | mountain | two | 2 | conversar, INTERAGEM: insiste | kit/bitcoin, kit/volcano, kit/coin | - | -
 b3 | interior loja | two | 2 | discutir, INTERAGEM: discutir | kit/miners, kit/bitcoin | paper | -
-b4 | interior loja | two | 2 | conversar, INTERAGEM: entregar | kit/volcano | - | -
-b5 | jungle | low | 1 | conversar | kit/volcano | - | -
+b4 | jungle | two | 2 | conversar, INTERAGEM: entregar | kit/volcano | - | -
+b5 | mountain | low | 1 | conversar | kit/volcano | - | -
 b6 | interior loja | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/miners, kit/bitcoin | - | -
 b7 | harbor | group | 7 | comemorar | kit/bitcoin, kit/volcano | - | -
 b8 | harbor | crowd | 21 | comemorar, batalha | kit/volcano | - | -

@@ -53,7 +53,7 @@ _LUGAR = ((r'desert|areia|egito|egipci|piramide|arabia|saara|australia|faraó|fa
           (r'fazenda|\bcampo\b|plantac|colheit|lavoura|agricult|\bsitio\b|pasto', 'set', 'countryside'),
           (r'palacio|congresso|parlamento|\bonu\b|assembleia|tribunal|senado|discurso|coletiva|casa branca|gabinete', 'interior', 'pedra'),
           (r'hospital|enfermaria|pronto.socorro|\buti\b|internad|cirurgia|\bmaca\b|leito|maternidade|clinica|paciente|enfermeir|parteir|\bparto\b', 'interior', 'hospital'),
-          (r'escritorio|empresa\b|reuniao|laboratorio|\bloja\b|mercado|padaria|\bbanco\b|restaurante|bar\b|fabrica', 'interior', 'loja'),
+          (r'escritorio|empresa\b|reuniao|laboratorio|\bloja\b|mercado|padaria|\bbanco\b|restaurante|bar\b|fabrica\b|fabricas\b', 'interior', 'loja'),
           (r'(?<!para )\bcasa\b|\bsala\b|quarto|cozinha|familia|jantar', 'interior', 'madeira'),
           (r'\bpraia\b|\bareia\b|\bcosta\b|desembarc|\bcais\b|\bporto\b|navios?\b', 'set', 'harbor'),
           (r'\bcidade\b|\bruas?\b|predio|avenida|transito|metro\b|bairro', 'set', 'street'))
@@ -65,6 +65,7 @@ for i_, _b in enumerate(B['beats']):
             _b['_lug_ok'] = True   # a narracao CITOU o lugar: a variedade nunca tira a cena dele (estadio lotado continua no estadio)
             if k_ == 'interior' and (_b.get('shot') in ('reveal', 'crowd', 'orbit', 'track') or _b.get('batalha') or _b.get('veiculo') or _b.get('crowd')): continue
             if k_ == 'set' and v_ == SET: break
+            if _b.get(k_) is False: break   # o roteiro proibiu (interior: false): o lugar citado nao manda a cena para dentro
             _b[k_] = v_; break
 _tema = __import__('unicodedata').normalize('NFKD', ' '.join(b_['say'] for b_ in B['beats'][:3]).lower()).encode('ascii', 'ignore').decode()
 if re.search(r'hospital|maternidade|enfermaria|clinica', _tema) and B.get('hospital') is not False:   # historia que se passa num hospital: as salas sao o hospital (branco, macas), nao a sala marrom

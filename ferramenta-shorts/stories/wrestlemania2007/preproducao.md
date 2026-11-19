@@ -13,13 +13,13 @@ b5 | stadium | two | 2 | conversar, INTERAGEM: empurrar | kit/ring | - | -
 b6 | stadium | low | 7 | conversar, INTERAGEM: susto | kit/ring | - | -
 b7 | stadium | orbit | 25 | comemorar, batalha | kit/ring, kit/ball | - | -
 b8 | stadium | two | 2 | conversar, INTERAGEM: empurrar | kit/ring, kit/clipper | - | -
-b9 | stadium | close | 1 | conversar | kit/clipper | - | -
+b9 | stadium | two | 2 | conversar, INTERAGEM: insiste | kit/clipper | - | -
 b10 | stadium | two | 2 | conversar, INTERAGEM: empurrar | kit/ring | - | -
 b11 | stadium | close | 1 | comemorar | kit/clipper | - | -
 
-OBJETO HEROI: kit/clipper - aparece em 5 cena(s), close nele em 2
+OBJETO HEROI: kit/clipper - aparece em 5 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b7
-Interacoes entre personagens: b0 susto, b2 discutir, b3 entregar, b5 empurrar, b6 susto, b8 empurrar, b10 empurrar
+Interacoes entre personagens: b0 susto, b2 discutir, b3 entregar, b5 empurrar, b6 susto, b8 empurrar, b9 insiste, b10 empurrar
 
 Cenas com personagens parados: 1 de 12
 FALTA MODELAR: nada

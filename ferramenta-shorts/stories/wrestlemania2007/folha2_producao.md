@@ -4,8 +4,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Antes de virar presidente, Donald Trump entrou num ringue de luta livr...
 - Cenario: stadium | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): TRU (variante 0, expressao smug); VIN (variante 0, expressao shock)
 - Animacao: conversar | interacao: susto | o ultimo personagem ENTRA andando
 - Objetos/modelos: kit/clipper
@@ -34,8 +34,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - A aposta era maluca: cada um escolheu um lutador, e o dono de quem per...
 - Cenario: stadium | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): VIN (variante 0, expressao smug); TRU (variante 0, expressao suspicious)
 - Animacao: conversar | interacao: entregar
 - Objetos/modelos: kit/clipper
@@ -54,8 +54,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - No ringue, o lutador de Trump, Bobby Lashley, enfrentou o gigante Umag...
 - Cenario: stadium | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): LAS (variante 0, expressao angry); UMA (variante 0, expressao shout)
 - Animacao: conversar | interacao: empurrar
 - Objetos/modelos: kit/ring
@@ -64,8 +64,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Acontece que o juiz convidado era Steve Austin, famoso por derrubar to...
 - Cenario: stadium | luz: day | clima: limpo
-- Camera: low = camera baixa, dramatica (virada)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Camera: low = camera baixa, dramatica (virada) + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): JUI (variante 0, expressao smug); UMA (variante 0, expressao angry) | multidao: 5 de POV
 - Animacao: conversar | interacao: susto
 - Objetos/modelos: kit/ring
@@ -84,8 +84,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Trump e Lashley seguraram McMahon, e passaram a máquina de raspar na c...
 - Cenario: stadium | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): TRU (variante 0, expressao laugh); VIN (variante 0, expressao scared)
 - Animacao: conversar | interacao: empurrar
 - Objetos/modelos: kit/ring, kit/clipper
@@ -94,18 +94,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - O dono da luta livre saiu do ringue completamente careca.
 - Cenario: stadium | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (1): VIB (variante 0, expressao cry)
-- Animacao: conversar
+- Personagens principais (2): VIB (variante 0, expressao cry); TRU (variante 0, expressao laugh)
+- Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/clipper
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dono, luta, ringue
 - RISCOS: nenhum
 
 ## Cena b10 - E ainda sobrou para Trump: o juiz aplicou um golpe nele também, e ele ...
 - Cenario: stadium | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): JUI (variante 0, expressao smug); TRU (variante 0, expressao shock)
 - Animacao: conversar | interacao: empurrar
 - Objetos/modelos: kit/ring
@@ -133,8 +133,8 @@ kit/ring | b5, b6, b7, b8, b10 | pronto | conferir na folha de contato se le bem
 
 
 ## Video inteiro
-- Objeto heroi: kit/clipper | grandes momentos: b4, b7 | planos abertos: 3 | mistura: close 27% | medio 56% | aberto 10% | detalhe 7%
-- Interacoes: b0 susto, b2 discutir, b3 entregar, b5 empurrar, b6 susto, b8 empurrar, b10 empurrar
+- Objeto heroi: kit/clipper | grandes momentos: b4, b7 | planos abertos: 3 | mistura: close 20% | medio 64% | aberto 10% | detalhe 6%
+- Interacoes: b0 susto, b2 discutir, b3 entregar, b5 empurrar, b6 susto, b8 empurrar, b9 insiste, b10 empurrar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
