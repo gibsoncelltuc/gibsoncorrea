@@ -66,7 +66,6 @@ laughs(F(_A[8] + int((_A[9] - _A[8]) * 0.2))); laughs(F(_A[8] + int((_A[9] - _A[
 whoosh(F(_A[9]), 0.4, 0.35)
 sea(F(_A[9]), F(_A[10]), 0.14); gulls(F(_A[9]), F(_A[10]), 3, 0.1)
 thump(F(int(_W(58))))
-thump(F(int(_W(79))))
 gun(F(int(_W(105))))
 tick(F(int(_W(102))))
 gun(F(int(_W(105))))

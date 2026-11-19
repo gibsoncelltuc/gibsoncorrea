@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Os bifes apareceram na loja Sharper Image, a partir de oito de maio.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: chega (point) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: chega (point) @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: ESTADOS UNIDOS
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Uma reportagem estimou que as vendas totais nunca passaram de cinquenta mil dólares.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
-- Efeito + som nas palavras-chave: encena: negocio (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: negocio (reach) @5 -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: $ 50 MIL
 - Funcao na historia: GRANDE MOMENTO
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: A marca também apareceu na QVC, um canal de televisão.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: apareceu -> dust + som de impacto; encena: chega (point) -> acao + som de efeito
+- Efeito + som nas palavras-chave: apareceu -> dust + som de impacto; encena: chega (point) @3 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Em resumo, a carne saiu da loja depressa, mas o nome ficou no cardápio.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: sai -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: sai @4 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

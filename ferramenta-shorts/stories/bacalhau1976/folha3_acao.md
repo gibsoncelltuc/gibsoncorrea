@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 15 - A Guerra do Bacalhau
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.4s - 15 palavras - plano two
@@ -9,11 +9,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | entraram (1.4s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | - | INTERACAO | discutir | OK |
-| 3 | - | ATUACAO | discutir | OK |
-| 4 | - | CHEGADA | alguem entra andando | OK |
-| 5 | - | PLACA | 1958 | OK |
+| 1 | - | INTERACAO | discutir | OK |
+| 2 | - | ATUACAO | discutir | OK |
+| 3 | - | CHEGADA | alguem entra andando | OK |
+| 4 | - | PLACA | 1958 | OK |
 
 ## Cena b1 - 4.7s a 9.1s - 19 palavras - plano reveal
 > "A Islândia é uma ilha pequena no gelo do Atlântico, e quase toda a sua riqueza vinha da pesca."

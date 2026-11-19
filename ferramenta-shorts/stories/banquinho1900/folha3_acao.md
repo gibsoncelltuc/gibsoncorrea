@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 13 - A Guerra do Banquinho Dourado
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.7s - 13 palavras - plano two
@@ -34,9 +34,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | sentado (22.5s) | ACAO: senta | senta | OK |
-| 2 | - | INTERACAO | empurrar | OK |
-| 3 | - | ATUACAO | discutir | OK |
+| 1 | - | INTERACAO | empurrar | OK |
+| 2 | - | ATUACAO | discutir | OK |
 
 ## Cena b4 - 24.0s a 28.4s - 16 palavras - plano two
 > "Os líderes ashanti ficaram em choque, porque isso era como pedir para sentar na alma deles."

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 11 - A Guerra da Lagosta
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.0s - 14 palavras - plano two
@@ -9,11 +9,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | entraram (1.3s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | - | INTERACAO | discutir | OK |
-| 3 | - | ATUACAO | discutir | OK |
-| 4 | - | CHEGADA | alguem entra andando | OK |
-| 5 | - | PLACA | 1961 | OK |
+| 1 | - | INTERACAO | discutir | OK |
+| 2 | - | ATUACAO | discutir | OK |
+| 3 | - | CHEGADA | alguem entra andando | OK |
+| 4 | - | PLACA | 1961 | OK |
 
 ## Cena b1 - 4.3s a 11.6s - 21 palavras - plano reveal
 > "Era mil novecentos e sessenta e um. Barcos franceses pescavam lagostas na costa de Pernambuco, e os pescadores brasileiros não gostaram."
@@ -52,11 +51,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | recuou (30.0s) | EFEITO: dust | poeira + som | OK |
-| 2 | Mandou (30.3s) | ACAO: fala | aponta explicando | OK |
-| 3 | subiu (33.9s) | ACAO: escala | escala (bracos para cima) | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | PLACA | NAVIOS E AVIÕES | OK |
+| 1 | subiu (33.9s) | ACAO: escala | escala (bracos para cima) | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | PLACA | NAVIOS E AVIÕES | OK |
 
 ## Cena b6 - 34.5s a 39.1s - 15 palavras - plano group
 > "Marinheiros dos dois lados se encararam no mar, e todo mundo esperou o primeiro tiro."

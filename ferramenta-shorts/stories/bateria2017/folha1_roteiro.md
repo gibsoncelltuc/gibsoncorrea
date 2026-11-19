@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: Musk escreveu que a Tesla instalaria baterias gigantes na Austrália do Sul em cem dias, ou seria de graça.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: escreve (write) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: escreve (write) @1 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 100 DIAS | mapa: AUSTRÁLIA
 - Funcao na historia: desenvolvimento
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: Os jornais calcularam que ele podia perder mais de cinquenta milhões de dólares.
 - Som ambiente: birds
 - Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: perder -> dust + som de impacto; encena: perde (facepalm) -> acao + som de efeito
+- Efeito + som nas palavras-chave: perder -> dust + som de impacto; encena: perde (facepalm) @6 -> acao + som de efeito
 - Efeito visual marcado: burst@40
 - Texto na tela: 50 MILHÕES
 - Funcao na historia: GRANDE MOMENTO
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: Mike Cannon-Brookes disse que nunca tinha ficado tão feliz de perder uma aposta.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) happy -> expr + som de efeito; perder -> dust + som de impacto; encena: perde (facepalm) -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) happy -> expr + som de efeito; perder -> dust + som de impacto; encena: perde (facepalm) @10 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: E tudo começou com uma resposta curta, escrita no celular.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_fone (lift) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_fone (lift) @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

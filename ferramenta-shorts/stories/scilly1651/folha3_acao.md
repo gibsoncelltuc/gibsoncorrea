@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 14 - A Guerra de 335 Anos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.2s - 18 palavras - plano two
@@ -46,11 +46,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | pagou (24.9s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | pagou (24.9s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 3 | declarou (26.1s) | ACAO: fala | aponta explicando | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | PLACA | GUERRA | OK |
+| 1 | declarou (26.1s) | ACAO: fala | aponta explicando | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | PLACA | GUERRA | OK |
 
 ## Cena b5 - 28.0s a 33.3s - 17 palavras - plano group
 > "Acontece que os ingleses assumiram as ilhas pouco depois, e ninguém se lembrou de fazer a paz."
@@ -65,10 +63,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | tiro (37.8s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | tiro (37.8s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 3 | - | INTERACAO | pular | OK |
-| 4 | - | ATUACAO | comemorar | OK |
+| 1 | - | INTERACAO | pular | OK |
+| 2 | - | ATUACAO | comemorar | OK |
 
 ## Cena b7 - 38.3s a 46.0s - 22 palavras - plano two
 > "Em mil novecentos e oitenta e seis, alguém perguntou: "Será que ainda estamos em guerra?" E o embaixador holandês visitou as ilhas."

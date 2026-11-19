@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 17 - A Guerra do Uísque
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 24 acoes catalogadas, 24 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 4.3s - 15 palavras - plano two
@@ -86,7 +86,5 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | tiro (50.6s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | tiro (50.6s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 3 | - | ATUACAO | comemorar | OK |
+| 1 | - | ATUACAO | comemorar | OK |
 

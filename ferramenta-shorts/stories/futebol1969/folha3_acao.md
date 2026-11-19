@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 09 - A Guerra do Futebol
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.6s - 11 palavras - plano two
@@ -9,12 +9,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | entraram (0.6s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | jogo (2.1s) | ACAO: bola | chuta a bola: parabola pela GRAVIDADE (0,67 s) | OK |
-| 3 | - | INTERACAO | discutir | OK |
-| 4 | - | ATUACAO | discutir | OK |
-| 5 | - | CHEGADA | alguem entra andando | OK |
-| 6 | - | PLACA | 1969 | OK |
+| 1 | jogo (2.1s) | ACAO: bola | chuta a bola: parabola pela GRAVIDADE (0,67 s) | OK |
+| 2 | - | INTERACAO | discutir | OK |
+| 3 | - | ATUACAO | discutir | OK |
+| 4 | - | CHEGADA | alguem entra andando | OK |
+| 5 | - | PLACA | 1969 | OK |
 
 ## Cena b1 - 3.9s a 10.5s - 21 palavras - plano reveal
 > "Era mil novecentos e sessenta e nove. Honduras e El Salvador, dois vizinhos, já viviam brigando por terra e por fronteira."

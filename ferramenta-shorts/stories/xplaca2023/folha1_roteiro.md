@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Em julho de dois mil e vinte e três, o Twitter acordou com outro nome: X, e o passarinho azul saiu de cena.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_acorda (up) -> acao + som de efeito; encena: sai -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_acorda (up) @11 -> acao + som de efeito; encena: sai @20 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: X
 - Funcao na historia: GANCHO
@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O dono, Elon Musk, anunciou a mudança projetando um grande X no prédio da empresa, em São Francisco.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @4 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: SÃO FRANCISCO
 - Funcao na historia: desenvolvimento

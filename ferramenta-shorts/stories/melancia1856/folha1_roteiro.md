@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Uma fatia de melancia sem pagar começou uma briga entre o Panamá e os Estados Unidos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: pagar -> stars + som de sino; briga -> puff + som de baque; encena: paga (reach) -> acao + som de efeito; encena: golpe (punch) -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: 1856
 - Funcao na historia: GANCHO
@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Em mil oitocentos e cinquenta e seis, viajantes cruzavam o Panamá de trem, a caminho do ouro da Califórnia, em uma viagem cheia de gente.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: ouro -> stars + som de sino; encena: paga (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: ouro -> stars + som de sino; encena: paga (reach) @16 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: PANAMÁ
 - Funcao na historia: desenvolvimento
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Um deles parou numa barraca, comeu uma fatia de melancia e foi embora sem pagar.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: pagar -> stars + som de sino; encena: x_come (lift) -> acao + som de efeito; encena: sai -> acao + som de efeito; encena: paga (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_come (lift) @5 -> acao + som de efeito; encena: sai @12 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O vendedor pediu o pagamento: "Pague a fatia!", gritou ele, e o viajante só riu.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; gritou -> ring + som de alerta; riu -> stars + som de sino; encena: grita (up) -> acao + som de efeito; encena: x_ri (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; gritou -> ring + som de alerta; riu -> stars + som de sino; encena: grita (up) @8 -> acao + som de efeito; encena: x_ri (up) @14 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Em poucos minutos, a rua virou uma briga enorme entre moradores e viajantes.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: briga -> puff + som de baque; encena: golpe (punch) -> acao + som de efeito
+- Efeito + som nas palavras-chave: briga -> puff + som de baque; encena: golpe (punch) @7 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: BRIGA
 - Funcao na historia: GRANDE MOMENTO
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que mais de quinze pessoas morreram naquele dia, e a cidade ficou em choque.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreram -> puff + som de baque; encena: morre -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreram -> puff + som de baque; encena: morre @6 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: No fim, o governo local pagou uma indenização enorme pelas mortes, e a cidade nunca esqueceu.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160
-- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (SOL) -> acao + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito; pagou -> stars + som de sino; encena: negocio (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (SOL) -> acao + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito; pagou -> stars + som de sino; encena: negocio (reach) @5 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: No fim, o governo local pagou uma indenização enorme pelas mortes.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: pagou -> stars + som de sino; encena: negocio (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: pagou -> stars + som de sino; encena: negocio (reach) @5 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

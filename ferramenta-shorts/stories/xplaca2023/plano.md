@@ -2,8 +2,8 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | close | -  | placa: X | encena: x_acorda (up) (acao + som de efeito); encena: sai (acao + som de efeito) | -
-b1 | two | -  | interior, mapa | encena: fala (point) (acao + som de efeito) | -
+b0 | close | -  | placa: X | encena: x_acorda (up) @11 (acao + som de efeito); encena: sai @20 (acao + som de efeito) | -
+b1 | two | -  | interior, mapa | encena: fala (point) @4 (acao + som de efeito) | -
 b2 | group | -  | batalha aberta com tiros, tropa | - | -
 b3 | two | -  | interior | - | -
 b4 | wide | -  | tropa, placa: E R | - | -

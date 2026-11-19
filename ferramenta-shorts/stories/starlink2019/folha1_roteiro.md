@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Em maio de dois mil e dezenove, a SpaceX decolou com um foguete Falcon 9 com sessenta satélites de uma vez.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: voa (point) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: voa (point) @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GANCHO
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Um dia depois, um rastreador de satélites holandês, Marco Langbroek, filmou o céu.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: tira (lift) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: tira (lift) @10 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Ele viu pelo menos cinquenta e seis objetos brilhando em linha.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: olha (point) -> acao + som de efeito; encena: brilha (point) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: olha (point) @1 -> acao + som de efeito; encena: brilha (point) @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 56
 - Funcao na historia: desenvolvimento

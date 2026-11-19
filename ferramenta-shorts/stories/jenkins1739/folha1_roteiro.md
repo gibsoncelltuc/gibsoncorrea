@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Acontece que a Inglaterra queria uma desculpa para brigar com a Espanha por causa do comércio no Caribe.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: brigar -> puff + som de baque; encena: golpe (punch) -> acao + som de efeito
+- Efeito + som nas palavras-chave: brigar -> puff + som de baque; encena: golpe (punch) @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Em mil setecentos e trinta e nove, declarou guerra, e navios e soldados ingleses cruzaram o oceano.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @7 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: GUERRA
 - Funcao na historia: GRANDE MOMENTO

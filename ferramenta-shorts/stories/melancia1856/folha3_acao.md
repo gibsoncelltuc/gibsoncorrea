@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 16 - A Guerra da Melancia
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 46 acoes catalogadas, 46 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 40 acoes catalogadas, 40 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.9s - 16 palavras - plano two
@@ -9,13 +9,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | pagar (1.4s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | pagar (1.4s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 3 | briga (2.3s) | EFEITO: puff | fumaca + som | OK |
-| 4 | briga (2.3s) | ACAO: golpe | soco + estouro | OK |
-| 5 | - | INTERACAO | discutir | OK |
-| 6 | - | ATUACAO | discutir | OK |
-| 7 | - | PLACA | 1856 | OK |
+| 1 | - | INTERACAO | discutir | OK |
+| 2 | - | ATUACAO | discutir | OK |
+| 3 | - | PLACA | 1856 | OK |
 
 ## Cena b1 - 5.2s a 12.3s - 25 palavras - plano reveal
 > "Em mil oitocentos e cinquenta e seis, viajantes cruzavam o Panamá de trem, a caminho do ouro da Califórnia, em uma viagem cheia de gente."
@@ -34,10 +30,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | comeu (15.1s) | ACAO: x_come | leva a comida a boca | OK |
 | 2 | embora (16.7s) | ACAO: sai | sai andando pela lateral | OK |
-| 3 | pagar (17.2s) | EFEITO: stars | estrelinhas + som | OK |
-| 4 | pagar (17.2s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 5 | - | INTERACAO | empurrar | OK |
-| 6 | - | ATUACAO | reagir | OK |
+| 3 | - | INTERACAO | empurrar | OK |
+| 4 | - | ATUACAO | reagir | OK |
 
 ## Cena b3 - 18.3s a 22.8s - 15 palavras - plano two
 > "O vendedor pediu o pagamento: "Pague a fatia!", gritou ele, e o viajante só riu."

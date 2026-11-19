@@ -2,15 +2,15 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | placa: 1856 | pagar (stars + som de sino); briga (puff + som de baque); encena: paga (reach) (acao + som de efeito); encena: golpe (punch) (acao + som de efeito) | -
-b1 | reveal | -  | tropa, mapa | ouro (stars + som de sino); encena: paga (reach) (acao + som de efeito) | -
-b2 | two | -  | - | pagar (stars + som de sino); encena: x_come (lift) (acao + som de efeito); encena: sai (acao + som de efeito); encena: paga (reach) (acao + som de efeito) | -
-b3 | two | -  | - | (rosto) pleading (expr + som de efeito); gritou (ring + som de alerta); riu (stars + som de sino); encena: grita (up) (acao + som de efeito); encena: x_ri (up) (acao + som de efeito) | -
+b0 | two | -  | placa: 1856 | - | -
+b1 | reveal | -  | tropa, mapa | ouro (stars + som de sino); encena: paga (reach) @16 (acao + som de efeito) | -
+b2 | two | -  | - | encena: x_come (lift) @5 (acao + som de efeito); encena: sai @12 (acao + som de efeito) | -
+b3 | two | -  | - | (rosto) pleading (expr + som de efeito); gritou (ring + som de alerta); riu (stars + som de sino); encena: grita (up) @8 (acao + som de efeito); encena: x_ri (up) @14 (acao + som de efeito) | -
 b4 | group | -  | tropa | confusão (puff + som de baque) | -
-b5 | crowd | -  | batalha aberta com tiros, tropa, placa: BRIGA | briga (puff + som de baque); encena: golpe (punch) (acao + som de efeito) | -
-b6 | two | -  | interior, objeto na mao | (rosto) sad (expr + som de efeito); morreram (puff + som de baque); encena: morre (acao + som de efeito) | -
-b7 | orbit | -  | batalha aberta com tiros, tropa | cavalaria: 4 soldados a cavalo (SOL) (acao + som de efeito); tiros: 5 soldados caem no chao (acao + som de efeito); pagou (stars + som de sino); encena: negocio (reach) (acao + som de efeito) | -
-b8 | two | -  | interior, objeto na mao | pagou (stars + som de sino); encena: negocio (reach) (acao + som de efeito) | -
+b5 | crowd | -  | batalha aberta com tiros, tropa, placa: BRIGA | briga (puff + som de baque); encena: golpe (punch) @7 (acao + som de efeito) | -
+b6 | two | -  | interior, objeto na mao | (rosto) sad (expr + som de efeito); morreram (puff + som de baque); encena: morre @6 (acao + som de efeito) | -
+b7 | orbit | -  | batalha aberta com tiros, tropa | cavalaria: 4 soldados a cavalo (SOL) (acao + som de efeito); tiros: 5 soldados caem no chao (acao + som de efeito); pagou (stars + som de sino); encena: negocio (reach) @5 (acao + som de efeito) | -
+b8 | two | -  | interior, objeto na mao | pagou (stars + som de sino); encena: negocio (reach) @5 (acao + som de efeito) | -
 b9 | close | -  | - | - | -
 
 Mistura de planos: close 18% | medio 58% | aberto 16% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)

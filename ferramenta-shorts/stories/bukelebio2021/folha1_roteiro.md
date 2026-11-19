@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Em setembro de dois mil e vinte e um, o presidente de El Salvador, Nayib Bukele, usou o celular para trocar a descrição do perfil.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_fone (lift) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_fone (lift) @18 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: EL SALVADOR
 - Funcao na historia: GANCHO
@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Poucos dias antes, milhares de pessoas gritaram em protesto nas ruas de San Salvador.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: gibber@10
-- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritaram -> ring + som de alerta; encena: grita (up) -> acao + som de efeito; encena: protesto (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritaram -> ring + som de alerta; encena: grita (up) @6 -> acao + som de efeito; encena: protesto (up) @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Primeiro, ele escreveu só uma palavra no perfil: ditador.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@8
-- Efeito + som nas palavras-chave: encena: escreve (write) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: escreve (write) @2 -> acao + som de efeito
 - Efeito visual marcado: puff@8
 - Texto na tela: DITADOR
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Um jornal de cada país publicou a frase, e muita gente ficou discutindo se era piada ou não.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_le (think) -> acao + som de efeito; encena: x_fone (lift) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_le (think) @1 -> acao + som de efeito; encena: x_fone (lift) @5 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Vários comentaristas leram aquilo como uma ironia, feita para os críticos dele.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_le (think) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_le (think) @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Anos depois, no dia da eleição de dois mil e vinte e quatro, o perfil dele dizia: rei filósofo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@8
-- Efeito + som nas palavras-chave: encena: voto (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: voto (reach) @5 -> acao + som de efeito
 - Efeito visual marcado: puff@8
 - Texto na tela: REI FILÓSOFO
 - Funcao na historia: desenvolvimento
