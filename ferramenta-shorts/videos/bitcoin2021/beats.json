@@ -118,16 +118,23 @@
    "impact": false
   },
   {
-   "say": "Com isso, dava para pagar tudo com bitcoin.",
-   "shot": "close",
+   "say": "Com isso, o bitcoin podia ser usado no dia a dia, em qualquer lugar do país.",
+   "shot": "two",
    "who": [
-    "CLI:0:smile:coin"
+    "CLI:0:smile:coin",
+    "POV:0:grin"
    ],
    "props": [
     [
+     "kit/stall",
+     1.7,
+     -0.5,
+     1.2
+    ],
+    [
      "kit/bitcoin",
-     -1.5,
-     0.2,
+     -1.6,
+     0.3,
      1.0
     ]
    ],
@@ -141,7 +148,8 @@
    ],
    "impact": false,
    "set": "street",
-   "hora": "dia"
+   "hora": "dia",
+   "acao": "conversar"
   },
   {
    "say": "O governo lançou até uma carteira digital, chamada Chivo.",
