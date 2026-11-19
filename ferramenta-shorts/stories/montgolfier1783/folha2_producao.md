@@ -23,12 +23,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Os irmãos Montgolfier, donos de uma fábrica de papel, repararam que a ...
-- Cenario: interior loja | luz: day | clima: limpo
+- Cenario: medieval | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): JOS (variante 0, expressao surprised); ETI (variante 0, expressao suspicious)
 - Animacao: conversar | interacao: avanca e o outro recua
-- Objetos/modelos: kit/campfire
+- Objetos/modelos: kit/campfire, kit/marco_versalhes
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fabrica, fumaca, irmaos, papel
 - RISCOS: nenhum
 
@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Acontece que o balão levantou voo de verdade, e foi embora pelo céu, c...
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: medieval | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): POV (variante 0, expressao shock); POV (variante 1, expressao surprised)
@@ -103,7 +103,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b10 - Dois meses depois, foi a vez de dois homens voarem sobre Paris. A huma...
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: medieval | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao laugh); JOS (variante 0, expressao laugh); ETI (variante 0, expressao grin) | multidao: 18 de POV
@@ -128,7 +128,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/balloon | b0, b3, b5, b6, b7, b8, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_versalhes | b0, b1, b4, b5, b6, b7, b8, b9, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_versalhes | b0, b1, b2, b4, b5, b6, b7, b8, b9, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 sheep | b0, b5, b9, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/campfire | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 duck | b5, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -142,9 +142,11 @@ nature/bush | b8 | pronto | conferir na folha de contato se le bem; se parecer c
 ## Video inteiro
 - Objeto heroi: kit/balloon | grandes momentos: b6, b10 | planos abertos: 3 | mistura: close 20% | medio 66% | aberto 9% | detalhe 4%
 - Interacoes: b0 susto, b2 avanca e o outro recua, b3 o outro se aproxima, b4 discutir, b7 insiste, b8 vai ate o outro, b9 abracar
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - pouca variedade de cenario ({'medieval': 9, 'interior madeira': 1, 'countryside': 2}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: pouca variedade de cenario ({'medieval': 9, 'interior madeira': 1, 'countryside': 2}): o video fica parecendo todos os outros
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh montgolfier1783 bN bM` (so essas cenas).
