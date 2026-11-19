@@ -13,12 +13,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b1  (~6.9 s)
 - Narracao: Era mil setecentos e oitenta e quatro. A Holanda tinha fechado um rio, e nenhum navio estrangeiro passava por ali.
-- Som ambiente: sea
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
+- Som ambiente: sea | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160, gun@164, gun@168, gun@176, gun@180, gun@184, gun@188, gun@196, gun@200, gun@204
+- Efeito + som nas palavras-chave: tiros: 2 soldados caem no chao -> acao + som de efeito
+- Efeito visual marcado: ring@12, dust@40
 - Texto na tela: - | mapa: HOLANDA
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b2  (~5.2 s)
 - Narracao: O imperador da Áustria ficou furioso. Ele queria o rio aberto para os navios dele.
@@ -59,20 +59,20 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 ## Cena b6  (~5.2 s)
 - Narracao: A bala atravessou o convés, e acertou em cheio a chaleira de sopa do cozinheiro.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: thump@20, ding@24
+- Efeitos sonoros marcados: thump@40, ding@44, thump@54
 - Efeito + som nas palavras-chave: bala -> burst + som de tiro/explosao; encena: atira @1 -> acao + som de efeito
-- Efeito visual marcado: burst@20, puff@26
+- Efeito visual marcado: burst@40, splash@44, puff@50, burst@54
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b7  (~4.8 s)
 - Narracao: O capitão austríaco olhou para a sopa derramada, e se rendeu na mesma hora.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: sting@10, thump@40, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140
-- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (GEN) -> acao + som de efeito; tiros: 4 soldados caem no chao -> acao + som de efeito; encena: olha (point) @3 -> acao + som de efeito; encena: rende (up) @10 -> acao + som de efeito
-- Efeito visual marcado: ring@12, dust@40
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: encena: olha (point) @3 -> acao + som de efeito; encena: rende (up) @10 -> acao + som de efeito
+- Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b8  (~4.8 s)
 - Narracao: O imperador desistiu do rio. Em troca, a Holanda pagou uma indenização em dinheiro.
