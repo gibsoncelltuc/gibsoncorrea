@@ -49,19 +49,12 @@
  },
  "beats": [
   {
-   "shot": "group",
+   "shot": "two",
    "who": [
     "TRU:0:smug",
     "CND:0:shock"
    ],
-   "props": [
-    [
-     "kit/tv",
-     -2.6,
-     -2.6,
-     1.0
-    ]
-   ],
+   "props": [],
    "text": "2004",
    "fx": [
     "stars@30"

@@ -4,7 +4,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | street | group | 2 | conversar, INTERAGEM: susto | kit/tv, kit/marco_trumptower | - | -
+b0 | street | two | 2 | conversar, INTERAGEM: susto | kit/marco_trumptower | - | -
 b1 | street | reveal | 8 | parados (so fala e pisca) | kit/marco_trumptower | - | -
 b2 | interior loja | two | 2 | conversar, INTERAGEM: aproxima-se | - | - | -
 b3 | street | crowd | 14 | conversar, batalha | kit/stall, kit/marco_trumptower | - | -
@@ -16,7 +16,7 @@ b8 | street | group | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/mar
 b9 | harbor | group | 2 | conversar, INTERAGEM: o outro se aproxima, alguem chega andando | kit/marco_trumptower | - | -
 b10 | street | close | 1 | comemorar | kit/tv, kit/marco_trumptower | - | -
 
-OBJETO HEROI: kit/tv - aparece em 3 cena(s), close nele em 1
+OBJETO HEROI: kit/tv - aparece em 2 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b6
 Interacoes entre personagens: b0 susto, b2 aproxima-se, b4 discutir, b7 vai ate o outro, b8 avanca e o outro recua, b9 o outro se aproxima
 

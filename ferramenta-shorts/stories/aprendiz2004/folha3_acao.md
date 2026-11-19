@@ -4,7 +4,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 11 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 4.7s - 14 palavras - plano group
+## Cena b0 - 0.2s a 4.7s - 14 palavras - plano two
 > "Duas palavras transformaram um empresário de Nova York numa estrela mundial: você está demitido."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

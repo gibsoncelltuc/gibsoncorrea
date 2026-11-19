@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | group | -  | placa: 2004 | - | -
+b0 | two | -  | placa: 2004 | - | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | interior | prêmio (stars + som de sino); encena: vence (up) @4 (acao + som de efeito) | -
 b3 | crowd | -  | batalha aberta com tiros, tropa | vender (stars + som de sino); encena: negocio (reach) @10 (acao + som de efeito) | -
