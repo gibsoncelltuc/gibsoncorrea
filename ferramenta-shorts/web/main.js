@@ -95,13 +95,15 @@ const tbox = (w, h, d, t = 2) => {
 };
 
 // ---------- sky ----------
-const skyU = { top: { value: new THREE.Color() }, hor: { value: new THREE.Color() }, sunDir: { value: new THREE.Vector3() }, sunCol: { value: new THREE.Color() }, sunSize: { value: 0 } };
+const skyU = { top: { value: new THREE.Color() }, hor: { value: new THREE.Color() }, sunDir: { value: new THREE.Vector3() }, sunCol: { value: new THREE.Color() }, sunSize: { value: 0 }, stars: { value: 0 } };
 const sky = new THREE.Mesh(new THREE.SphereGeometry(1200, 32, 16), new THREE.ShaderMaterial({
   uniforms: skyU, side: THREE.BackSide, depthWrite: false, fog: false,
   vertexShader: `varying vec3 vP; void main(){ vP = normalize(position); gl_Position = projectionMatrix*modelViewMatrix*vec4(position,1.); }`,
-  fragmentShader: `uniform vec3 top, hor, sunDir, sunCol; uniform float sunSize; varying vec3 vP;
+  fragmentShader: `uniform vec3 top, hor, sunDir, sunCol; uniform float sunSize, stars; varying vec3 vP;
     void main(){ float h = clamp(vP.y,0.,1.); vec3 c = mix(hor, top, pow(h, .42)); if(vP.y<0.) c = hor;
       float s = dot(normalize(vP), normalize(sunDir)); c += sunCol * (smoothstep(1.-sunSize, 1.-sunSize*.6, s) + .35*pow(max(s,0.), 24.)*step(.001,sunSize));
+      if (stars > 0.) { vec3 d = normalize(vP); vec2 uv = vec2(atan(d.z, d.x) * 70., d.y * 140.); vec2 g = floor(uv); float r = fract(sin(dot(g, vec2(12.9898, 78.233))) * 43758.5453);   /* CEU ESTRELADO a noite (19/11) */
+        vec2 f = fract(uv) - .5; float st = step(.982, r) * smoothstep(.22, .0, length(f)) * smoothstep(.04, .22, d.y); c += vec3(1., .97, .88) * st * stars * (.55 + .45 * fract(r * 91.)); }
       gl_FragColor = vec4(c,1.); }`,
 }));
 sky.userData.sky = true; scene.add(sky);
@@ -575,7 +577,7 @@ function applyLight(L, f) {
   hemi.color.set(L.sky); hemi.groundColor.set(L.ground); hemi.intensity = L.hemi;
   sun.color.set(L.sun); sun.intensity = L.sunI;
   scene.fog.color.set(L.fog); scene.fog.near = L.fogNear; scene.fog.far = L.fogFar;
-  skyU.top.value.set(L.skyTop); skyU.hor.value.set(L.skyHor); skyU.sunCol.value.set(L.sunDisc || '#000'); skyU.sunSize.value = L.sunSize || 0;
+  skyU.top.value.set(L.skyTop); skyU.hor.value.set(L.skyHor); skyU.sunCol.value.set(L.sunDisc || '#000'); skyU.sunSize.value = L.sunSize || 0; skyU.stars.value = L.stars || 0;
   inkU.sat.value = L.sat; inkU.gain.value.set(L.gain || '#ffffff'); inkU.lift.value.set(L.lift || '#000000');
 }
 function placeSun(L, focus) {

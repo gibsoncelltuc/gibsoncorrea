@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 13 - O Médico que Mandou Lavar as Mãos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 6.0s - 18 palavras - plano two
@@ -35,15 +35,17 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | avanca e o outro recua | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | morriam (23.0s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
+| 2 | - | INTERACAO | avanca e o outro recua | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b4 - 26.5s a 29.6s - 13 palavras - plano crowd
 > "As mulheres imploravam de joelhos para não ir para a ala dos médicos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | joelhos (27.9s) | ACAO: senta | senta | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
 ## Cena b5 - 30.8s a 37.2s - 20 palavras - plano two
 > "Um dia, o amigo dele, Kolletschka, cortou o dedo com um bisturi, examinando um corpo, e morreu da mesma febre."
@@ -52,9 +54,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | cortou (33.3s) | ACAO: corta | machado e toras + poeira | OK |
 | 2 | morreu (36.3s) | EFEITO: puff | fumaca + som | OK |
-| 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 4 | - | INTERACAO | o outro se aproxima | OK |
-| 5 | - | ATUACAO | reagir | OK |
+| 3 | morreu (36.3s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
+| 4 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 5 | - | INTERACAO | o outro se aproxima | OK |
+| 6 | - | ATUACAO | reagir | OK |
 
 ## Cena b6 - 38.2s a 43.7s - 18 palavras - plano close
 > "Semmelweis entendeu tudo: os médicos saíam das autópsias e iam direto para os partos, com as mãos sujas."
@@ -97,8 +100,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | morreu (66.4s) | EFEITO: puff | fumaca + som | OK |
-| 2 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 2 | morreu (66.4s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
+| 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b11 - 71.0s a 76.5s - 15 palavras - plano close
 > "Anos depois, a ciência provou os micróbios. Hoje, ele é chamado de salvador das mães."

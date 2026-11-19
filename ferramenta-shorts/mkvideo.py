@@ -273,7 +273,7 @@ _FARDA = [
 _OFICIAL = ('general', 'coronel', 'capitao', 'tenente', 'major', 'marechal', 'comandante', 'oficial', 'almirante', 'sargento')
 for _k, _o in B.get('outfits', {}).items():
     _pf = str(_o.get('profissao', '')).lower()
-    _milh = _o.get('hat') in ('shako', 'shako_tall', 'helmet') and not _o.get('pele') and not _k.lower().startswith('hus')   # chapeu militar generico = militar (hussardo fica com a barretina alta)
+    _milh = _o.get('hat') in ('shako', 'shako_tall', 'helmet') and not _o.get('pele') and not _k.lower().startswith('hus') and not (_k.lower().startswith(('ast', 'cos', 'bomb', 'mine', 'pil')) or str(_o.get('jacket', '')).lower() in ('#f4f4f2', '#e8e8e8', '#ffffff') or _pf in ('astronauta', 'bombeiro', 'mineiro', 'piloto'))   # capacete de astronauta/bombeiro/mineiro nao e' farda; chapeu militar generico = militar (hussardo fica com a barretina alta)
     if not (_o.get('rifle') or _milh or _pf in ('soldado', 'cavaleiro', 'cavalaria') + _OFICIAL) or _o.get('uniforme_fixo') or ANO is None: continue
     _pa = _pais_de(_k, _o); _tab = next(t_ for a_, t_ in _FARDA if ANO <= a_); _f = _tab.get(_pa) or _tab['*']
     if not _pa and _o.get('hat') in ('fez', 'turban', 'slouch', 'straw', 'beret', 'crown', 'bowler', 'tophat'): continue   # exercito sem tabela (guarda do sultao, milicia): fica com o chapeu proprio
@@ -397,6 +397,7 @@ ENC = [(r'^(misturou|misturaram|misturando|mistura|misturar|mexeu|mexendo|mexia|
        (r'^(chao|nocauteado|nocaute|desmaiou|desmaiaram|tombou|tropecou|escorregou|derrubado|derrubada|derrubados)$', None, 'tomba'),
        (r'^(dormiam|dormia|dormindo|dormiu|cochilou|cochilavam|adormeceu|adormeceram)$', None, 'dorme'),
        (r'^(sentou|sentaram|sentado|sentada|sentados)$', None, 'senta'),
+       (r'^(morreu|morreram|morriam|morria|faleceu|faleceram|faleciam)$', None, 'morre'),   # 19/11: quem morre CAI (ou tumulo, se 'morreu em <ano>')
        (r'^(raspar|raspou|rasparam|raspada|raspado|careca|tosquiou)$', 'reach', 'raspa'),
        (r'^(enfrentou|enfrentaram|lutou|lutaram|lutando|brigaram|brigou|brigando|brigavam|golpe|golpes)$', 'punch', 'golpe'),
        (r'^(capturado|capturada|capturaram|capturou|preso|presa|presos|prenderam|prendeu|algemado|algemaram|detido|detidos)$', 'push', 'prende'),
@@ -422,7 +423,7 @@ ENC = [(r'^(misturou|misturaram|misturando|mistura|misturar|mexeu|mexendo|mexia|
        (r'^(pulou|pularam|pulando|pulava|pulavam|pular|pulasse|pulassem|pulam|pula|pulem|saltou|saltaram|saltando|saltar|saltasse|pulo|pulos|saltos?|quicou)$', None, 'pula'),
        (r'^(acenou|acenaram|acenando|tchau|despediu|despediram)$', 'wave2', 'acena'),
        (r'^(empurrou|empurraram|empurrando|puxou|puxaram|puxando|arrastou|arrastaram|arrastando)$', 'push', 'empurra'),
-       (r'^(deitou|deitaram|deitado|deitada|ajoelhou|ajoelharam|ajoelhado)$', None, 'senta'),
+       (r'^(deitou|deitaram|deitado|deitada|ajoelhou|ajoelharam|ajoelhado|ajoelhada|joelhos)$', None, 'senta'),
        (r'^(levantou-se|levantaram-se|levantou|ergueu-se)$', 'lift', 'pega'),
        (r'^(bebeu|beberam|bebendo|bebia|bebiam|tomou|tomaram|tomando|goles?|engoliu)$', 'lift', 'x_bebe'),
        (r'^(comeu|comeram|comendo|comia|comiam|almocou|jantou|devorou|mastigou|provou|experimentou)$', 'lift', 'x_come'),
@@ -461,6 +462,7 @@ ENC_MAT = [(r'borracha|latex|seiva|goma|gosma|massa|pasta|cola|mistura', 'kit/go
 ENC_RES = [(r'borracha|elastic|firme|couro|vulcaniz', 'kit/borracha'), (r'pneu', 'kit/tires'), (r'\bbola\b', 'kit/ball'), (r'pipoca', 'kit/popcorn'), (r'chocolate', 'kit/chocolate'),
            (r'post.?it|bilhete', 'kit/postit'), (r'velcro|carrapicho', 'kit/burr'), (r'penicilina|mofo|bolor|placa', 'kit/petri'), (r'raio.?x|radiograf', 'kit/xray_plate'), (r'vacina|seringa', 'kit/syringe'),
            (r'foguete', 'kit/rocket'), (r'balao', 'kit/balloon'), (r'para.?raio', 'kit/lightning_rod'), (r'microondas', 'kit/microwave'), (r'telefone|celular', 'kit/phone'), (r'televis', 'kit/tv'), (r'moeda|bitcoin', 'kit/bitcoin')]
+_DANCA_OUTRO = r'(atomos|moleculas|cobras|chamas|estrelas|folhas|ondas|particulas|letras|numeros)\s*(\w{0,12}\s*)?danc|danc\w*\s*como|sonho'   # quem danca e' a coisa (sonho, atomos...), nao o personagem
 OBJ_DICT = [  # (palavra na narracao, objeto 3D da biblioteca, escala, grande?) -- usado para por objetos em cena e na pre-producao
     (r'\bbarril\b|\bbarris\b|aguardente|cerveja|\bvinho\b|\brum\b', 'barrel', 1.1, False), (r'caixote|\bcaixas\b|\bcarga\b|mercadoria', 'crate', 1.0, False), (r'\bcanhao\b|\bcanhoes\b|artilharia', 'cannon', 1.0, False),
     (r'\bbaldes?\b|\bpoco\b', 'tools/bucket', 1.8, False), (r'\bfonte\b|chafariz', 'nature/fountain', 1.2, False), (r'\bbandeiras?\b|estandarte', 'war/flagpole', 1.3, False), (r'\btambor\b|\btambores\b', 'war/drum', 1.4, False),
@@ -470,7 +472,7 @@ OBJ_DICT = [  # (palavra na narracao, objeto 3D da biblioteca, escala, grande?) 
     (r'\bbola\b|futebol|\bgol\b|partida|estadio', 'kit/ball', 1.0, False), (r'\bchaleira\b|\bpanelas?\b|\bsopa\b|caldeirao', 'kit/kettle', 1.0, False), (r'\bcerca\b|cercado|curral|fazenda|\bhorta\b', 'nature/picket_fence', 1.2, False),
     (r'\bbolos?\b|\bdoces?\b|confeit|padaria|\bpastel\b|\bpasteis\b', 'kit/cake_table', 1.0, False), (r'\btrono\b|coroad', 'kit/throne', 1.0, 'in'), (r'fogueira|acampamento|acamparam', 'kit/campfire', 1.2, False),
     (r'\btenda|barraca de campanha|acampamento', 'kit/tent', 1.3, True), (r'\bbau\b|tesouro|\bcofre', 'kit/chest', 1.2, False), (r'\bfeira\b|\bmercado\b|\bbarracas?\b|\bvendedor\b', 'kit/stall', 1.0, False),
-    (r'\btrem\b|locomotiva|ferrovia', 'vehicles/locomotive', 1.3, True), (r'\bcarrocas?\b', 'vehicles/wagon', 1.2, True), (r'tanque de guerra|blindado', 'vehicles/tank', 1.2, True), (r'\baviao\b|\bavioes\b|biplano|bombardeiro|aeronave', 'vehicles/airplane', 1.2, True),
+    (r'lareira', 'kit/fireplace', 1.3, False), (r'\bcadeira\b|poltrona', 'mk/Chair_1', 1.2, False), (r'\btrem\b|locomotiva|ferrovia', 'vehicles/locomotive', 1.3, True), (r'\bcarrocas?\b', 'vehicles/wagon', 1.2, True), (r'tanque de guerra|blindado', 'vehicles/tank', 1.2, True), (r'\baviao\b|\bavioes\b|biplano|bombardeiro|aeronave', 'vehicles/airplane', 1.2, True),
     (r'\btorres?\b|\bmuralhas?\b|\bcastelo\b|\bfortaleza\b|\bpalacio\b', 'buildings/castle_tower', 1.3, True), (r'\bmoinhos?\b', 'buildings/windmill', 1.2, True), (r'\bigreja\b|\bcatedral\b', 'buildings/church', 1.2, True), (r'\bfarol\b', 'buildings/lighthouse', 1.2, True), (r'\bponte\b', 'buildings/bridge', 1.2, True),
 ]
 LUGARES = [  # (palavra na narracao, [(modelo, x, z, escala), ...]) -- cenografia de fundo do lugar citado
@@ -672,8 +674,17 @@ for _b in beats:   # "entraram escondidos" -> alguem chega andando; "as luzes se
     _sy = nrm(_b['say'])
     if 'chega' not in _b and (re.search(r'escondid|sorrateir|pontadospes|invadiu|invadiram|invadia|entraram|entrou|chegado|chegava|chegou|chegaram', _sy) or re.search(r'\bchega\b|\bchegam\b', _b['say'].lower())): _b['chega'] = True
     if re.search(r'marchav|marcharam|marchou|marchando|desfil', _sy) and _EXERC and not _b.get('crowd'): _b['crowd'] = {'n': 10, 'outfits': [([w_.split(':')[0] for w_ in _b.get('who', []) if w_.split(':')[0] in _EXERC] or _EXERC)[0]], 'march': True}
-    if re.search(r'danca|dancav|dancaram|dancou', _sy) and not _b.get('acao'): _b['acao'] = 'dancar'
+    if re.search(r'danca|dancav|dancaram|dancou', _sy) and not _b.get('acao') and not re.search(_DANCA_OUTRO, _sy): _b['acao'] = 'dancar'
     if 'hora' not in _b and re.search(r'apagar|apagou|apagaram|escuridao|breu|semluz|blecaute|apagao', _sy): _b['hora'] = 'noite'
+for _b in beats:   # ESPACO (19/11): "no espaco/em orbita/na lua" -> chao lunar (arctic acinzentado) + ceu preto estrelado
+    if not _b.get('interior') and re.search(r'noespaco|emorbita|naorbita|nalua|superficiedalua|estacaoespacial|gravidadezero|semgravidade', nrm(_b['say'])):
+        _b.setdefault('set', 'arctic'); _b.setdefault('hora', 'espaco')
+_noite_ = 0   # CONTINUIDADE DA NOITE (19/11): "numa noite..." vale para as frases seguintes do mesmo episodio, ate a narracao mudar o tempo
+for _b in beats:
+    _sy = nrm(_b['say'])
+    if re.search(r'diasdepois|anosdepois|mesesdepois|semanasdepois|horasdepois|diaseguinte|amanhec|demanha|manhaseguinte|nascerdosol|aodia|durante odia|duranteodia|maistarde|tempodepois|ateh?oje|atehoje', _sy) or _b.get('hora') not in (None, 'noite') or _b.get('light') or _b.get('mapa'): _noite_ = 0
+    elif re.search(r'numanoite|naquelanoite|anoite|denoite|aquelanoite|madrugada|noescuro', _sy): _noite_ = 6
+    elif _noite_ > 0 and 'hora' not in _b and not _b.get('interior'): _b['hora'] = 'noite'; _noite_ -= 1
 # EMOCAO EM CLOSE + PEDIDO EM PLANO DE AMBIENTE (ordem do Gibson 19/11): "se a narracao diz que ele esta muito preocupado, close no personagem mostrando que esta preocupado";
 # "quando for fazer um pedido, mostrar a ambientacao com ele fazendo o pedido". 'emocao_close': false no beat (ou no arquivo) desliga.
 _EMO = re.compile(r'preocup|aflit|ansios|nervos|desconfi|suspeit|desesper|apavor|assust|triste|tristeza|chorou|choro|lagrima|furios|raiva|irritad|indignad|insatisf|frustr|decepcion|alegr|feliz|contente|emocion|orgulh|aliviad|surpres|chocad|espantad|determinad|decidid|envergonh|humilh|com medo|medo de|ciume|inveja')
@@ -713,7 +724,7 @@ def build_beat(k, b):
     light = b.get('light')
     _sy = nrm(b['say']); global AMB
     # HORA DO DIA e CLIMA: campos "hora" (dia|tarde|pordosol|noite|amanhecer) e "clima" (sol|calor|chuva|tempestade|neve|neblina|vento|limpo), ou pelas palavras da narracao. Ficam valendo ate mudar.
-    _h = b.get('hora') or ('noite' if re.search(r'noite|noescuro|madrugada|meianoite', _sy) else 'amanhecer' if re.search(r'amanhecer|manhaseguinte|nascerdosol|aurora|demanha', _sy) else 'pordosol' if re.search(r'pordosol|entardecer|anoitecer|fimdetarde|finaldetarde|fimdodia', _sy) else 'tarde' if re.search(r'atarde|detarde|natarde', _sy) else 'dia' if re.search(r'diaseguinte|diasdepois|semanasdepois|mesesdepois|anosdepois|meiodia|duranteodia', _sy) else None)
+    _h = b.get('hora') or ('espaco' if re.search(r'noespaco|noespacosideral|emorbita|naorbita|nalua|superficiedalua|estacaoespacial|gravidadezero|semgravidade|flutuavam|flutuando', _sy) and not b.get('interior') else None) or ('noite' if re.search(r'noite|noescuro|madrugada|meianoite', _sy) else 'amanhecer' if re.search(r'amanhecer|manhaseguinte|nascerdosol|aurora|demanha', _sy) else 'pordosol' if re.search(r'pordosol|entardecer|anoitecer|fimdetarde|finaldetarde|fimdodia', _sy) else 'tarde' if re.search(r'atarde|detarde|natarde', _sy) else 'dia' if re.search(r'diaseguinte|diasdepois|semanasdepois|mesesdepois|anosdepois|meiodia|duranteodia', _sy) else None)
     _c = b.get('clima') or ('tempestade' if re.search(r'tempestade|temporal|trovao|raios', _sy) else 'chuva' if re.search(r'chuva|chovia|chovendo|choveu|aguaceiro', _sy) else 'neve' if re.search(r'neve|nevasca|nevava|nevando|inverno|congel|geada|muitofrio|friointenso|frioextremo|gelado|gelada', _sy) else 'neblina' if re.search(r'neblina|nevoeiro|nevoa|cerracao', _sy) else 'calor' if re.search(r'calor|solforte|solquente|escaldante|\\bseca\\b|sedeinsuport|muitoquente|deserto', _sy) else 'vento' if re.search(r'ventania|vendaval|furacao|ventoforte|\\bvento\\b|ventava|ventando', _sy) else None)
     AMB['hora'] = B.get('hora'); AMB['clima'] = None if B.get('clima') in (None, 'limpo', 'sol') else B.get('clima')   # hora/clima valem SO na cena onde aparecem (campo ou narracao); fora disso, o padrao do topo do roteiro -- a noite/neve de uma cena nao vaza para o resto do video
     if _h: AMB['hora'] = _h
@@ -721,7 +732,7 @@ def build_beat(k, b):
     b['_frio'] = AMB.get('clima') == 'neve'; b['_calor'] = AMB.get('clima') == 'calor'   # frio: os personagens tremem; calor: suam (luz de deserto)
     wx = {}
     if not light:
-        light = {'noite': 'night', 'amanhecer': 'dawn', 'pordosol': 'dusk', 'tarde': 'golden'}.get(AMB.get('hora'), LIGHT)
+        light = {'noite': 'night', 'espaco': 'space', 'amanhecer': 'dawn', 'pordosol': 'dusk', 'tarde': 'golden'}.get(AMB.get('hora'), LIGHT)
         cl = AMB.get('clima')
         if cl in ('chuva', 'tempestade') and light != 'night': light = 'storm' if cl == 'tempestade' else 'overcast'
         elif cl == 'neve' and light not in ('night', 'dusk', 'dawn'): light = 'arctic'
@@ -733,14 +744,14 @@ def build_beat(k, b):
     if 'wind' in b: wx['wind'] = b['wind']
     who = b.get('who', []); animals = b.get('animals', []); props = b.get('props', [])
     wide_pre = shot in WIDE
-    if b.get('interior') and not b.get('light'): light = 'study_dark' if (b.get('hora') == 'noite' or re.search(r'apagou a luz|apagaram a luz|apagou as luzes|no escuro|escurid|luz apagada|a noite toda|madrugada|de noite|\bnoite\b', b['say'].lower())) else 'study'   # dentro de casa a noite/luz apagada: sala na penumbra
+    if b.get('interior') and not b.get('light'): light = 'study_dark' if (b.get('hora') == 'noite' or re.search(r'apagou a luz|apagaram a luz|apagou as luzes|no escuro|escurid|luz apagada|a noite toda|madrugada|de noite|\bnoites?\b', b['say'].lower())) else 'study'   # dentro de casa a noite/luz apagada: sala na penumbra
     mv = b.get('move', 8 if shot == 'track' else 0)
     a, bb = f'A[{k}]', f'A[{k + 1}] - 1'
     # elenco de pessoas
     HOLDS = (('rifle', r'espingarda|fuzil|mosquete|carabina|pegou a arma|sacou a arma'), ('mug', r'beber|bebeu|bebia|brind|caneca|cerveja|\bcha\b'), ('bottle', r'garrafa|aguardente|vinho|bebida|\brum\b|whisky|uisque'), ('paper', r'carta|jornal|imprensa|ordem|documento|mapa|contrato|telegrama|relatorio|\blista\b|assinou|lei\b'), ('book', r'livro|biblia|diario'), ('lantern', r'lanterna|lampiao|lamparina'), ('torch', r'tocha|incendi'), ('flag', r'bandeira|rendeu|rendicao'), ('sword', r'\bespadas?\b|\bduelo\b|\bduelaram\b|esgrima|\bsabre\b'), ('money', r'dolar|dolares|libras|notas|cedulas|\\bpago\\b'), ('coin', r'dinheiro|moeda|\bouro\b|recompensa|pagou|pagar|fortuna|salario|imposto'), ('shovel', r'cavou|cavaram|cavando|cavar|trincheira|enterrou|enterraram|\\bcova\\b'), ('bag', r'saco|mala|bagagem|sacola'), ('spyglass', r'luneta|avistou|avistaram|procurar|vigia|observ'), ('tulip', r'tulipa|bulbo|flor\b|flores'))
     _say_sp = re.sub(r'[^a-z0-9 ]', '', unicodedata.normalize('NFKD', b['say'].lower()).encode('ascii', 'ignore').decode())
     auto_hold = next((h for h, rx in HOLDS if re.search(rx, _say_sp)), None) if b.get('maos') is not False else None
-    _acao = b.get('acao') or ('dancar' if re.search(r'\bdanc', _say_sp) else 'discutir' if (re.search(r'discut|brig|exigi|respondeu|gritou|ameac|insult', _say_sp) and len(b.get('who', [])) >= 2) else None)
+    _acao = b.get('acao') or ('dancar' if re.search(r'\bdanc', _say_sp) and not re.search(_DANCA_OUTRO, _say_sp) else 'discutir' if (re.search(r'discut|brig|exigi|respondeu|gritou|ameac|insult', _say_sp) and len(b.get('who', [])) >= 2) else None)
     if not _acao: _acao = 'comemorar' if not IMPACT.search(_say_sp) and re.search(r'\bfesta|comemor|venceu|venceram|vitoria|\bbrind|gargalh|\briu\b|\briram\b|\brindo\b', _say_sp) else 'conversar' if '"' in b['say'] else None
     if _acao == 'nenhuma': _acao = None
     b['_acao'] = _acao
@@ -803,8 +814,11 @@ def build_beat(k, b):
             _w_alert = _af(r'^(assustou|assustado|assustada|espantou|latiu|latia|grunhiu|mugiu|berrou|uivou)$')
             _seq = sorted([(w_, s_) for w_, s_ in ((_w_come, 'root' if key == 'animal' else 'peck'), (_w_tiro, 'fall'), (_w_alert, 'alert'), (_w_foge, 'trot')) if w_ is not None])
             if _w_tiro is not None: _seq = [x_ for x_ in _seq if x_[0] <= _w_tiro or x_[1] == 'fall']
-            if _w_tiro is not None: STATE.setdefault('mortos', set()).add(sp)   # o animal que levou o tiro fica caido nas cenas seguintes (coerencia da historia)
-            elif sp in STATE.get('mortos', set()): _seq = []; _w_entra = _w_foge = None; st = 'fall'
+            _onde_ = (b.get('set') or SET, bool(b.get('interior')))
+            if _w_tiro is not None: STATE.setdefault('mortos', set()).add(sp); STATE.setdefault('morto_onde', {})[sp] = _onde_   # o animal que levou o tiro fica caido nas cenas seguintes (coerencia da historia)
+            elif sp in STATE.get('mortos', set()):
+                if STATE.get('morto_onde', {}).get(sp, _onde_) != _onde_: continue   # morto fica ONDE morreu: em outro lugar (gabinete, porto) ele nao aparece
+                _seq = []; _w_entra = _w_foge = None; st = 'fall'
             _st0 = 'trot' if _w_entra is not None else st
             _stjs = json.dumps(_st0) if not _seq else "(f) => " + ''.join(f"f >= WS({w_}) ? {json.dumps(s_)} : " for w_, s_ in sorted(_seq, reverse=True)) + (f"f >= WS({_w_entra}) + 40 ? 'stand' : 'trot'" if _w_entra is not None else json.dumps(st))
             _mvjs = ''
@@ -905,7 +919,7 @@ def build_beat(k, b):
         for nm_, dx_, z_, s_ in (b.get('moveis') or ([('kit/maca', 4.2, -3.2, 1.4), ('kit/maca', -4.4, -3.0, 1.4), ('kit/maca', 8.0, -2.6, 1.4)] if it == 'hospital' else [] if it == 'loja' else [('mk/Bookcase_2', 7.4, -3.4, 2.4), ('mk/Table_Large', -6.6, -1.6, 2.2), ('mk/Chair_1', -4.4, -1.2, 2.2), ('mk/Chest_Wood', 6.9, 0.6, 2.2)])):
             pr.append(f"{{ asset: {json.dumps(nm_)}, at: [X + {num(dx_)}, {num(z_)}], s: {num(s_)}, drop: false }}")
     # FACHADA: em plano medio ao ar livre, uma construcao logo atras dos personagens (canal: parede/fachada perto em 85% dos quadros)
-    elif not wide_pre and b.get('fachada') is not False and not b.get('veiculo'):
+    elif not wide_pre and b.get('fachada') is not False and not b.get('veiculo') and not any(str(p_[0]).startswith('kit/marco_') for p_ in (b.get('props') or [])):   # marco no roteiro = ele e' o fundo (sem fachada tapando)
         fb = {'countryside': ['buildings/house_small', 'buildings/house_two'], 'outback': ['buildings/house_small', 'buildings/windmill'], 'street': ['buildings/shop', 'buildings/house_two'], 'medieval': ['buildings/castle_tower', 'buildings/house_small'], 'harbor': ['buildings/shop', 'buildings/lighthouse']}.get(b.get('set', SET))
         if fb: pr.append(f"{{ asset: {json.dumps(fb[k % 2])}, at: [X + {num(4.8 if k % 2 else -4.8)}, -11.0], s: 1.05, ry: {num(-0.35 if k % 2 else 0.35)}, drop: false }}")
     # OBJETOS DA HISTORIA: o que a narracao cita e existe na biblioteca entra em cena sozinho (ate 2 por cena)
@@ -917,6 +931,7 @@ def build_beat(k, b):
         for rx_, as_, sc_, big_ in OBJ_DICT:
             if n_auto >= 2 or as_ in tem_ or any(_fam(t_) == _fam(as_) for t_ in tem_) or not re.search(rx_, _say_sp): continue
             if (big_ is True and (b.get('interior') or wide_pre)) or (big_ == 'in' and not b.get('interior')): continue
+            if as_ == 'buildings/castle_tower' and any(str(t_).startswith('kit/marco_') for t_ in tem_): continue   # marco do roteiro ja e' o castelo/palacio
             if as_ == 'kit/throne': props = props + [[as_, 0, -2.6, sc_]]; tem_.add(as_); n_auto += 1; b.setdefault('_auto_obj', []).append(as_); continue
             if big_ is True: props = props + [[as_, (6.0 if k % 2 else -6.0), -9.5, sc_]]; b['fachada'] = False
             elif as_.startswith('kit/') and as_ != 'kit/grave' and 'tulip' not in as_: props = props + [[as_, (0.25 if shot == 'close' else 0.0) + (1.7 if (k + n_auto) % 2 else -1.7) * (0.0 if len(b.get('who', [])) == 2 else 1.0), -2.3, sc_]]   # movel/objeto grande da historia: atras dos personagens, dentro do quadro
@@ -935,7 +950,7 @@ def build_beat(k, b):
         tem2_ = {str(p_[0]) for p_ in props}; sd2_ = 1 if k % 2 else -1
         for rx_, itens_ in LUGARES:
             if not re.search(rx_, _say_sp): continue
-            novos_ = [it_ for it_ in itens_ if it_[0] not in tem2_]
+            novos_ = [it_ for it_ in itens_ if it_[0] not in tem2_ and not (it_[0] == 'buildings/castle_tower' and any(t_.startswith('kit/marco_') for t_ in tem2_))]   # o marco do roteiro ja e' o castelo: sem torre generica na frente
             for as_, x_, z_, sc_ in novos_: props = props + [[as_, x_ * sd2_, z_ - (4 if wide_pre else 0), sc_]]; tem2_.add(as_)
             if novos_: b.setdefault('_auto_obj', []).extend(a_[0] for a_ in novos_); b['fachada'] = False
             break
@@ -1073,6 +1088,9 @@ def build_beat(k, b):
                 if tipo_ in _feitos: _mesmos.append((tipo_, nw_)); break   # 2a palavra da mesma acao (sirenes... tocaram): ja encenada
                 _feitos.add(tipo_); _encs.append((wi_, gest_, tipo_, j_)); break
         _resto = lambda j0: nrm(' '.join(_ws[j0:j0 + 7]))
+        if _st.get('dorme') and not any(t_ in ('dorme', 'x_acorda') for _, _, t_, _ in _encs):   # SONO CONTINUA (cochilou -> "no sonho..." -> acordou): segue deitado dormindo
+            _gst.setdefault(('poses', 0), []).append(f"[{a}, {bb}, 'sleep']")
+        if any(t_ == 'x_acorda' for _, _, t_, _ in _encs): _st['dorme'] = False
         _sy_ = nrm(b['say']); _mat_ok = bool(_alvo) or any(re.search(r_, _sy_) for r_, a_ in ENC_MAT + ENC_RES) or bool(_st.get('mat'))
         _ok = {'cai': _mat_ok, 'vira': _mat_ok, 'calor': _mat_ok or bool(re.search(r'fogao|forno|panela|ferv|aquec|esquent|caldeir', _sy_)), 'golpe': bool(re.search(r'ringue|luta|boxe|lutador|briga|soco|golpe|enfrent', _sy_)), 'bola': bool(re.search(r'futebol|\bcopa\b|\bbola\b|\bgol\b|estadio|chut', _sy_)), 'raspa': bool(re.search(r'cabeca|cabelo|careca|maquina|barba', _sy_)), 'x_come': not (b.get('animals') and re.search(r'porco|vaca|cavalo|cachorro|gato|galinha|ganso|emu|ovelha|cabra|bicho|animal|rato|passaro', _sy_))}
         _encs = [e_ for e_ in _encs if _ok.get(e_[2], True)]
@@ -1080,6 +1098,7 @@ def build_beat(k, b):
         for n_e, (wi_, gest_, tipo_, j_) in enumerate(_encs[:6]):
             b.setdefault('_enc_words', []).append(nrm(_ws[j_]))
             _ate = f"WS({_encs[n_e + 1][0]}) - 4" if n_e + 1 < len(_encs[:6]) else f"WS({wi_}) + 46"
+            if tipo_ == 'corta' and re.search(r'dedo|bisturi|faca|tesoura|navalha|semachucou|mao|nariz|orelha|espada', _sy_): gest_ = 'reach'   # corte no dedo: estende a mao machucada (nao martela)
             if gest_ and not (persons[0][3] == 'rifle' and tipo_ in ('pega', 'golpe')): _gst.setdefault(0, []).append(f"[WS({wi_}) - 4, {_ate}, '{gest_}']")
             mat_ = next((a_ for rx2_, a_ in ENC_MAT if re.search(rx2_, _resto(j_) + ' ' + nrm(b['say']))), None)
             if tipo_ == 'mistura':
@@ -1090,7 +1109,7 @@ def build_beat(k, b):
                 _st['mat'] = mat_ or 'kit/gosma'; KWSFX.append((wi_, 'tick'))
             elif tipo_ == 'cai':
                 m_ = mat_ or _st.get('mat') or 'kit/gosma'; ty_ = 0.95 if _alvo and re.search('stove|kettle|bancada', _alvo[2]) else 0.05
-                pr.append(f"{{ asset: {json.dumps(m_)}, a: WS({wi_}) - 6, b: {bb}, at: [X + {num(_hx)}, {num(_z0 + 0.5)}], move: [[X + {num(_tx)}, {num(_tz + 0.1)}], WS({wi_}), WS({wi_}) + 16, 'lin'], align: false, y: {grav_js(f'WS({wi_})', 16 / 30, 1.5, ty_)}, s: 0.55, drop: false }}")   # cai pela gravidade
+                pr.append(f"{{ asset: {json.dumps(m_)}, a: Math.max({a} + 4, WS({wi_}) - 30), b: {bb}, at: [X + {num(_hx)}, {num(_z0 + 0.5)}], move: [[X + {num(_tx)}, {num(_tz + 0.1)}], WS({wi_}), WS({wi_}) + 16, 'lin'], align: false, y: {grav_js(f'WS({wi_})', 16 / 30, 1.5, ty_)}, s: 0.55, drop: false }}")   # cai pela gravidade
                 fx.append(f"{{ k: 'splash', a: WS({wi_}) + 15, b: WS({wi_}) + 40, at: [X + {num(_tx)}, DK + {num(ty_ + 0.3)}, {num(_tz + 0.4)}], s: 0.9 }}"); KWSFX.append((wi_, 'thump'))
                 _st['mat'] = m_; _st['mat_em'] = (_tx, _tz + 0.1, ty_, k)
             elif tipo_ == 'calor':
@@ -1117,18 +1136,20 @@ def build_beat(k, b):
                 KWSFX.append((wi_, 'thump'))
             elif tipo_ == 'examina':
                 ins_ = 'kit/microscopio' if re.search(r'microsc|celula|bacter|germe|lamina', nrm(b['say'])) else 'kit/balanca' if re.search(r'pes|balanca', nrm(b['say'])) else 'kit/lupa'
-                pr.append(f"{{ asset: {json.dumps(ins_)}, a: WS({wi_}) - 6, b: {bb}, at: [X + {num(_hx + _side * (0.3 if ins_ == 'kit/lupa' else 0.6))}, {num(_z0 + 0.7)}], y: DK + {1.9 if ins_ == 'kit/lupa' else 0}, s: {0.4 if ins_ == 'kit/lupa' else 0.75}, drop: false }}"); KWSFX.append((wi_, 'tick'))   # lupa NA MAO, na altura do rosto
+                pr.append(f"{{ asset: {json.dumps(ins_)}, a: Math.max({a} + 4, WS({wi_}) - 30), b: {bb}, at: [X + {num(_hx + _side * (0.3 if ins_ == 'kit/lupa' else 0.15))}, {num(_z0 + (0.7 if ins_ == 'kit/lupa' else 0.35))}], y: DK + {1.9 if ins_ == 'kit/lupa' else 0}, s: {0.4 if ins_ == 'kit/lupa' else 1.05}, drop: false }}"); KWSFX.append((wi_, 'tick'))   # lupa NA MAO, na altura do rosto
             elif tipo_ == 'quimico':
-                pr.append(f"{{ asset: 'kit/frasco', a: WS({wi_}) - 6, b: {bb}, at: [X + {num(_hx)}, {num(_z0 + 0.6)}], s: 0.6, drop: false }}"); pr.append(f"{{ asset: 'kit/tubos', a: WS({wi_}) - 6, b: {bb}, at: [X + {num(_hx + _side * 1.1)}, {num(_z0 + 0.3)}], s: 0.6, drop: false }}")
+                pr.append(f"{{ asset: 'kit/frasco', a: Math.max({a} + 4, WS({wi_}) - 30), b: {bb}, at: [X + {num(_hx)}, {num(_z0 + 0.6)}], s: 0.6, drop: false }}"); pr.append(f"{{ asset: 'kit/tubos', a: Math.max({a} + 4, WS({wi_}) - 30), b: {bb}, at: [X + {num(_hx + _side * 1.1)}, {num(_z0 + 0.3)}], s: 0.6, drop: false }}")
                 fx.append(f"{{ k: 'puff', a: WS({wi_}) + 6, b: WS({wi_}) + 30, at: [X + {num(_hx)}, DK + 1.3, {num(_z0 + 0.8)}], s: 0.6 }}"); KWSFX.append((wi_, 'tick'))
             elif tipo_ == 'golpe':
                 fx.append(f"{{ k: 'burst', a: WS({wi_}) + 4, b: WS({wi_}) + 22, at: [X + {num(sl[0] + _side * 1.6)}, DK + 2.0, {num(_z0 + 0.5)}], s: 1.0 }}"); KWSFX.append((wi_, 'thump'))
+            elif tipo_ == 'corta' and re.search(r'dedo|bisturi|faca|tesoura|navalha|semachucou|mao|nariz|orelha|espada', _sy_):   # corte pequeno (dedo, bisturi): susto + estrelinhas na mao, sem machado nem toras
+                fx.append(f"{{ k: 'stars', a: WS({wi_}) + 2, b: WS({wi_}) + 26, at: [X + {num(sl[0] + 0.4)}, DK + 1.4, {num(_z0 + 0.3)}], s: 0.5 }}"); KWSFX.append((wi_, 'sting'))
             elif tipo_ == 'corta':
-                if 'kit/logs' not in ' '.join(pr): pr.append(f"{{ asset: 'kit/logs', a: WS({wi_}) - 6, b: {bb}, at: [X + {num(_tx)}, {num(_tz)}], s: 0.8, drop: false }}")
+                if 'kit/logs' not in ' '.join(pr): pr.append(f"{{ asset: 'kit/logs', a: Math.max({a} + 4, WS({wi_}) - 30), b: {bb}, at: [X + {num(_tx)}, {num(_tz)}], s: 0.8, drop: false }}")
                 for q_ in range(3): fx.append(f"{{ k: 'dust', a: WS({wi_}) + {q_ * 9}, b: WS({wi_}) + {q_ * 9 + 16}, at: [X + {num(_tx)}, DK + 0.2, {num(_tz + 0.4)}], s: 0.5 }}")
                 KWSFX.append((wi_, 'thump'))
             elif tipo_ == 'voto':
-                pr.append(f"{{ asset: 'kit/ballot_box', a: WS({wi_}) - 6, b: {bb}, at: [X + {num(_hx + _side * 0.4)}, {num(_z0 + 0.6)}], s: 0.7, drop: false }}"); KWSFX.append((wi_, 'tick'))
+                pr.append(f"{{ asset: 'kit/ballot_box', a: Math.max({a} + 4, WS({wi_}) - 30), b: {bb}, at: [X + {num(_hx + _side * 0.4)}, {num(_z0 + 0.6)}], s: 0.7, drop: false }}"); KWSFX.append((wi_, 'tick'))
             elif tipo_ == 'quebra':
                 fx.append(f"{{ k: 'burst', a: WS({wi_}) + 2, b: WS({wi_}) + 20, at: [X + {num(_tx)}, DK + 1.6, {num(_tz + 0.3)}], s: 1.1 }}"); fx.append(f"{{ k: 'stars', a: WS({wi_}) + 4, b: WS({wi_}) + 30, at: [X + {num(_tx)}, DK + 1.8, {num(_tz + 0.3)}], s: 0.8 }}"); KWSFX.append((wi_, 'thump')); KICKS.append(f"{{ f: WS({wi_}) + 2, a: 0.04 }}")
             elif tipo_ == 'desaba':
@@ -1140,9 +1161,17 @@ def build_beat(k, b):
                 fx.append(f"{{ k: 'stars', a: WS({wi_}), b: WS({wi_}) + 26, at: [X + {num(sl[0])}, DK + 3.2, {num(_z0)}], s: 0.6 }}"); KWSFX.append((wi_, 'sting'))
             elif tipo_ == 'sai' and acts and acts[0].startswith(('pp(', 'Object.assign(pp(')):
                 _gst.setdefault('sai', []).append(f"move: [[X + {num(sl[0] - _side * 9)}, {num(_z0 - 0.6)}], WS({wi_}) + 2, WS({wi_}) + 70, 'lin'], walk: 'stroll'")
+            elif tipo_ == 'morre':
+                if re.search(r'porco|cavalo|vaca|cachorro|\bcao\b|animal|bicho|galinha|emu|urso|lobo|ovelha|cabra|boi|ganso', _sy_): pass   # animal morrendo: o bloco dos animais cuida
+                elif re.search(r'(morreu|faleceu)\s+(em|no ano)\s+(mil|\d)', unicodedata.normalize('NFKD', b['say'].lower()).encode('ascii', 'ignore').decode()):   # morte anos depois: tumulo com cruz e flores
+                    pr.append(f"{{ asset: 'kit/grave', a: {a}, b: {bb}, at: [X + {num(_hx + _side * 0.9)}, {num(_z0 - 0.4)}], s: 1.0, drop: false }}"); KWSFX.append((wi_, 'sting'))
+                else:
+                    _gst.setdefault(('poses', 0), []).append(f"[WS({wi_}) + 2, {bb}, 'fall']"); fx.append(f"{{ k: 'dust', a: WS({wi_}) + 4, b: WS({wi_}) + 30, at: [X + {num(sl[0] + 0.6)}, DK + 0.1, {num(_z0 + 0.3)}], s: 0.8 }}"); KWSFX.append((wi_, 'thump'))
             elif tipo_ in ('tomba', 'dorme', 'senta'):
                 _who_ = 1 if (tipo_ == 'tomba' and len(persons) > 1 and re.search(r'derrub|nocaute|golpe', _sy_) and not re.search(r'\bele foi ao chao', _sy_)) else 0
-                _gst.setdefault(('poses', _who_), []).append(f"[WS({wi_}) + 2, {bb}, '{ {'tomba': 'fall', 'dorme': 'sleep', 'senta': 'sit'}[tipo_] }']")
+                _ini_ = f"WS({wi_}) + 2" if tipo_ == 'tomba' else f"Math.max({a} + 6, WS({wi_}) - 36)"   # dormir/sentar comeca antes da palavra (palavra no fim da frase sumia)
+                _gst.setdefault(('poses', _who_), []).append(f"[{_ini_}, {bb}, '{ {'tomba': 'fall', 'dorme': 'sleep', 'senta': 'sit'}[tipo_] }']")
+                if tipo_ == 'dorme' and _who_ == 0: _st['dorme'] = True   # continua dormindo nas proximas frases ate 'acordou'
                 if tipo_ == 'tomba': fx.append(f"{{ k: 'dust', a: WS({wi_}) + 4, b: WS({wi_}) + 30, at: [X + {num(sl[_who_] + 0.6)}, DK + 0.1, {num(_z0 + 0.3)}], s: 0.8 }}"); KWSFX.append((wi_, 'thump'))
             elif tipo_ == 'raspa':
                 if HEROI and 'clip' in HEROI: pr.append(f"{{ asset: {json.dumps(HEROI)}, a: WS({wi_}) - 4, b: {bb}, at: [X + {num(_hx)}, {num(_z0 + 0.4)}], y: DK + 2.4, s: 0.45, drop: false }}")
@@ -1543,7 +1572,7 @@ _f1 += (['', '## Fontes (fatos conferidos)'] + [f'- {u_}' for u_ in B['fontes']]
 _ENC_DESC = {'mistura': 'mexe a panela (borbulhando)', 'cai': 'o material voa da mao e cai no alvo pela GRAVIDADE (parabola, 0,53 s) + respingo', 'calor': 'vapor/calor saindo', 'vira': 'o material vira o produto, que surge girando em destaque',
     'constroi': 'martela e o objeto cresce', 'examina': 'examina com lupa/microscopio/balanca', 'quimico': 'frasco e tubos de ensaio + fumacinha', 'escreve': 'escreve/assina', 'golpe': 'soco + estouro', 'pega': 'levanta/segura',
     'corta': 'machado e toras + poeira', 'voto': 'poe o voto na urna', 'quebra': 'quebra + estouro + tremor', 'desaba': 'desaba: nuvem de poeira + tremor', 'pensa': 'mao no queixo + brilho de ideia',
-    'protesto': 'punho para cima (protesto)', 'fala': 'aponta explicando', 'olha': 'aponta/olha', 'sai': 'sai andando pela lateral', 'tomba': 'cai sentado no chao + poeira', 'dorme': 'dormindo', 'senta': 'senta',
+    'protesto': 'punho para cima (protesto)', 'fala': 'aponta explicando', 'olha': 'aponta/olha', 'sai': 'sai andando pela lateral', 'tomba': 'cai sentado no chao + poeira', 'morre': 'cai no chao (ou tumulo se morreu anos depois)', 'dorme': 'dormindo', 'senta': 'senta',
     'raspa': 'maquina na cabeca + cabelo voando', 'prende': 'empurra/prende', 'escala': 'escala (bracos para cima)', 'espeta': 'espeta + estouro', 'bola': 'chuta a bola: parabola pela GRAVIDADE (0,67 s)', 'negocio': 'moeda girando (compra/venda)',
     'tira': 'tira foto (celular + flash)', 'rende': 'maos para cima (rendicao)', 'voa': 'decola: poeira no chao, olha para cima', 'cava': 'cava: poeira', 'vence': 'bracos para cima + brilho', 'perde': 'mao na testa',
     'toca': 'onda de som (sirene/sino)', 'queima': 'fogo + fumaca', 'grita': 'grita de bracos para cima', 'atira': 'arma na mao, aponta, clarao e som de tiro', 'corre': 'sai correndo pela lateral + poeira', 'pula': f'pula 2 vezes: sobe {GPULO_H} m e volta pela GRAVIDADE em {GPULO_T:.2f} s cada pulo', 'acena': 'acena com a mao', 'empurra': 'empurra/puxa', 'brilha': 'o objeto brilha na palavra (ondas de luz + estrelas)',

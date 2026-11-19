@@ -8,7 +8,7 @@ b0 | street | two | 2 | discutir, INTERAGEM: empurrar | kit/wash_basin, kit/marc
 b1 | street | reveal | 8 | parados (so fala e pisca) | kit/marco_viena | - | -
 b2 | interior hospital | two | 2 | conversar, INTERAGEM: aproxima-se | - | - | -
 b3 | interior hospital | two | 2 | conversar, INTERAGEM: avanca e o outro recua | - | - | -
-b4 | street | crowd | 16 | batalha | kit/marco_viena | - | -
+b4 | street | crowd | 16 | encena, batalha | kit/marco_viena | - | -
 b5 | interior hospital | two | 2 | reagir, INTERAGEM: o outro se aproxima | - | - | -
 b6 | interior hospital | close | 1 | conversar | - | - | -
 b7 | interior hospital | two | 2 | discutir, INTERAGEM: discutir | kit/wash_basin | - | -

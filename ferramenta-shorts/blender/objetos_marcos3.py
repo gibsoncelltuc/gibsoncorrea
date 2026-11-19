@@ -83,6 +83,24 @@ def yap():   # pedras rai de Yap: discos de pedra calcaria com furo no meio, enc
     caixa((0, 3, -12), (10, 6, 7), '#8a6a4a'); prisma((0, 6, -8.4), [(-6, 0), (6, 0), (0, 7)], 7.4, '#b8a070')
     fim(.02)
 
-E = dict(texas=texas, mexico=mexico, detroit=detroit, wurzburg=wurzburg, rostock=rostock, amsterdam=amsterdam, yap=yap)
+def uraniborg():   # Uraniborg (ilha de Hven, 1576-80, Tycho Brahe): palacio renascentista quadrado de tijolo vermelho com frisos claros, cupula central com lanterna,
+    # duas torres redondas de observacao com telhado conico, galerias; jardim quadrado com muro em volta
+    novo('marco_uraniborg'); T, C, V = '#b24a36', '#efe6d0', '#3f6a5a'
+    caixa((0, .3, 0), (40, .6, 40), '#5a8a3a'); 
+    for s in (-1, 1): caixa((0, 1.2, s * 19), (40, 2.4, .8), C); caixa((s * 19, 1.2, 0), (.8, 2.4, 40), C)
+    caixa((0, 6, 0), (14, 12, 14), T)
+    for y in (4, 9): caixa((0, y, 7.1), (14.2, .4, .3), C); caixa((0, y, -7.1), (14.2, .4, .3), C)
+    for x in (-4.5, 0, 4.5):
+        for y in (2.5, 7.5): caixa((x, y, 7.15), (1.4, 2.4, .3), '#2a3440'); caixa((x, y + 1.4, 7.2), (1.8, .3, .3), C)
+    caixa((0, 13, 0), (12, 2, 12), V, afina=.6); torno((0, 14, 0), [(3.2, 0), (3.2, 1.5), (2.6, 3), (1.4, 4.3), (0, 4.8)], V, lados=24)
+    cil((0, 19.5, 0), .7, 1.6, C, lados=12); torno((0, 20.3, 0), [(.9, 0), (0, 2)], V, lados=12); cil((0, 22.8, 0), .1, 1.4, '#d9b84a')
+    for s in (-1, 1):
+        cil((s * 9.5, 7, 0), 3, 14, T, lados=20); cil((s * 9.5, 14.2, 0), 3.3, .5, C, lados=20)
+        torno((s * 9.5, 14.4, 0), [(3.3, 0), (0, 5)], V, lados=20); cil((s * 9.5, 19.6, 0), .08, 1.2, '#d9b84a')
+        for k in range(6): a = k / 6 * 2 * m.pi; caixa((s * 9.5 + 3.05 * m.cos(a), 10, 3.05 * m.sin(a)), (.8, 1.8, .2), '#2a3440', rot=(0, -a, 0))
+    caixa((0, 1.6, 7.6), (3, 3.2, .6), '#5a3a22'); prisma((0, 3.2, 7.9), [(-2, 0), (2, 0), (0, 1.4)], .4, C)
+    fim(.02)
+
+E = dict(uraniborg=uraniborg, texas=texas, mexico=mexico, detroit=detroit, wurzburg=wurzburg, rostock=rostock, amsterdam=amsterdam, yap=yap)
 alvo = sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else list(E)
 for k in alvo: E[k]()

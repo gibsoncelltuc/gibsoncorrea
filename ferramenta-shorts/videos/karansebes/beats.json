@@ -245,13 +245,15 @@
    "say": "Os turcos venceram sem dar um único tiro.",
    "shot": "close",
    "who": [
-    "OFF:0:pained"
+    "TUR:0:laugh",
+    "TUR:1:grin"
    ],
    "text": "FOGO AMIGO",
    "tat": 3,
    "tstyle": "red",
    "light": "dawn",
-   "mood": "calm"
+   "mood": "calm",
+   "acao": "comemorar"
   }
  ],
  "variar_cenario": false,

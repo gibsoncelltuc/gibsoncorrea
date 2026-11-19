@@ -120,7 +120,7 @@ function applyLight(L, f) {
   hemi.color.set(L.sky); hemi.groundColor.set(L.ground); hemi.intensity = L.hemi;
   sun.color.set(L.sun); sun.intensity = L.sunI;
   scene.fog.color.set(L.fog); scene.fog.near = L.fogNear; scene.fog.far = L.fogFar;
-  skyU.top.value.set(L.skyTop); skyU.hor.value.set(L.skyHor); skyU.sunCol.value.set(L.sunDisc || '#000'); skyU.sunSize.value = L.sunSize || 0;
+  skyU.top.value.set(L.skyTop); skyU.hor.value.set(L.skyHor); skyU.sunCol.value.set(L.sunDisc || '#000'); skyU.sunSize.value = L.sunSize || 0; skyU.stars.value = L.stars || 0;
   inkU.sat.value = L.sat; inkU.gain.value.set(L.gain || '#ffffff'); inkU.lift.value.set(L.lift || '#000000');
 }
 function placeSun(L, focus) {
@@ -234,7 +234,7 @@ const renderCore = (f) => {
   const ACTS = actorsAt(f, T);
   drawActors([...ACTS, ...fxAt(f, T)], camera);
   sky.position.copy(camera.position);
-  clouds.forEach((c) => { c.position.x = camera.position.x + (c.userData.rx ?? 0); c.position.z = camera.position.z + (c.userData.rz ?? -400); c.material.color.set(L.cloud || '#ffffff'); });   /* nuvem acompanha a luz (escura de noite e na chuva) */
+  clouds.forEach((c) => { c.position.x = camera.position.x + (c.userData.rx ?? 0); c.position.z = camera.position.z + (c.userData.rz ?? -400); c.visible = !L.noClouds; c.material.color.set(L.cloud || '#ffffff'); });   /* nuvem acompanha a luz (escura de noite e na chuva) */
   // pass A: colour
   renderer.setRenderTarget(rtColor); renderer.setClearColor(0x000000, 1); renderer.clear(); renderer.render(scene, camera);
   // pass B: normal + depth

@@ -31,12 +31,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b3  (~5.5 s)
 - Narracao: O pelo do cachorro e a calça dele estavam cheios de carrapichos. Dava um trabalhão arrancar.
-- Som ambiente: silencio/sala
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: thump@40
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: puff@40
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b4  (~3.8 s)
 - Narracao: Curioso, ele levou um carrapicho para casa e olhou no microscópio.
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: No começo, muita gente achou o velcro feio, e as vendas foram fracas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@30
-- Efeito + som nas palavras-chave: encena: examina (think) -> acao + som de efeito; encena: negocio (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: olha (point) -> acao + som de efeito; encena: negocio (reach) -> acao + som de efeito
 - Efeito visual marcado: puff@30
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -99,7 +99,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: VELCRO
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b11  (~5.9 s)
 - Narracao: Hoje ele está em tênis, mochilas e roupas. E tudo começou com um cachorro cheio de carrapichos.

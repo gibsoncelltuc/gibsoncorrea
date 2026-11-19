@@ -1,6 +1,12 @@
 # Projeto: shorts animados (ferramenta-shorts/)
 Usuário: Gibson, fala português. Responda sempre em português, curto e honesto. NÃO use agentes/subagentes nem workflows (consomem a cota dele).
 **Antes de qualquer coisa leia `ferramenta-shorts/OPERACAO.md` e `ferramenta-shorts/PROTOCOLO_ACAO.md`** (os 7 passos da fábrica, o que todo vídeo tem, o que é proibido, o que fazer quando dá errado). Depois `CAPACIDADES.md`, `GUIA_DO_ROTEIRISTA.md` e `MODO_RICKS.md`.
+## REGRA MESTRA (ordem do Gibson, 19/11) — vale acima de todas as outras
+1. **Nunca informe um problema ao Gibson sem antes já ter resolvido.** Achou o defeito: corrige, confere (teste, quadro, folha de contato) e só então conta o que estava errado e como ficou.
+2. **Todo erro encontrado é PRIORIDADE MÁXIMA:** para o que estiver fazendo, resolve primeiro, depois informa as falhas (já corrigidas) no relatório.
+- Não pergunte se deve corrigir; não entregue "achei X, quer que eu arrume?"; não deixe nada pela metade. Ordem dele = fazer tudo de uma vez.
+- Só fale de um problema ainda aberto se for IMPOSSÍVEL resolver daqui (ex.: acesso/credencial que só ele tem). Aí diga o que já fez, o que bloqueia e o único passo que falta dele.
+
 Resumo das ordens do Gibson (valem para toda sessão):
 - TRÊS FOLHAS por vídeo: `./novo_video.sh <id>` gera `stories/<id>/folha1_roteiro.md` (história, narração, som), `folha2_producao.md` (cenário, câmera, takes, personagens, objetos, RISCOS com a correção) e `folha3_acao.md` (CATÁLOGO DE AÇÕES frase por frase: cada ação do roteiro, o instante e a animação executada; "FALTA" trava o render). Só renderiza com 0 risco e 0 ação faltando. Catálogo geral: `CATALOGO_ACOES.md`. Ao escrever o roteiro pense nos contras: cada frase precisa de algo que a ferramenta mostra (ex.: chegada de barco/tropa = plano aberto no `harbor`).
 - BIBLIOTECA 3D PRIMEIRO: animais (todos) e 80+ objetos JÁ ESTÃO PRONTOS e entram sozinhos quando a narração cita (veja `CAPACIDADES.md`). NUNCA modele animal; só modele objeto que a folha 2 marcar como FALTA. Pré-checagem antes do render (OPERACAO.md, "Lições de 18/11").
