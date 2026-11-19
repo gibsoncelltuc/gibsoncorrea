@@ -1,640 +1,612 @@
 {
  "fails": [
   {
+   "f": 76,
+   "shot": "b0_d",
+   "why": [
+    "camera inside geometry (inside solid red_navio_vapor)"
+   ]
+  },
+  {
+   "f": 80,
+   "shot": "b0_d",
+   "why": [
+    "camera inside geometry (inside solid red_navio_vapor)"
+   ]
+  },
+  {
+   "f": 82,
+   "shot": "b0_d",
+   "why": [
+    "camera inside geometry (inside solid red_navio_vapor)"
+   ]
+  },
+  {
+   "f": 84,
+   "shot": "b0_d",
+   "why": [
+    "camera inside geometry (inside solid red_navio_vapor)"
+   ]
+  },
+  {
+   "f": 88,
+   "shot": "b0_d",
+   "why": [
+    "camera inside geometry (inside solid red_navio_vapor)"
+   ]
+  },
+  {
+   "f": 92,
+   "shot": "b0_d",
+   "why": [
+    "camera inside geometry (inside solid red_navio_vapor)"
+   ]
+  },
+  {
+   "f": 96,
+   "shot": "b0_d",
+   "why": [
+    "camera inside geometry (inside solid red_navio_vapor)"
+   ]
+  },
+  {
+   "f": 100,
+   "shot": "b0_d",
+   "why": [
+    "camera inside geometry (inside solid red_navio_vapor)"
+   ]
+  },
+  {
+   "f": 102,
+   "shot": "b0_d",
+   "why": [
+    "camera inside geometry (inside solid red_navio_vapor)"
+   ]
+  },
+  {
+   "f": 103,
+   "shot": "b0_v",
+   "why": [
+    "camera inside geometry (inside solid red_navio_vapor)"
+   ]
+  },
+  {
+   "f": 104,
+   "shot": "b0_v",
+   "why": [
+    "camera inside geometry (inside solid red_navio_vapor)"
+   ]
+  },
+  {
+   "f": 108,
+   "shot": "b0_v",
+   "why": [
+    "camera inside geometry (inside solid red_navio_vapor)"
+   ]
+  },
+  {
+   "f": 112,
+   "shot": "b0_v",
+   "why": [
+    "camera inside geometry (inside solid red_navio_vapor)"
+   ]
+  },
+  {
+   "f": 116,
+   "shot": "b0_v",
+   "why": [
+    "camera inside geometry (inside solid red_navio_vapor)"
+   ]
+  },
+  {
+   "f": 120,
+   "shot": "b0_v",
+   "why": [
+    "camera inside geometry (inside solid red_navio_vapor)"
+   ]
+  },
+  {
+   "f": 124,
+   "shot": "b0_v",
+   "why": [
+    "camera inside geometry (inside solid red_navio_vapor)"
+   ]
+  },
+  {
+   "f": 128,
+   "shot": "b0_v",
+   "why": [
+    "camera inside geometry (inside solid red_navio_vapor)"
+   ]
+  },
+  {
+   "f": 132,
+   "shot": "b0_v",
+   "why": [
+    "camera inside geometry (inside solid red_navio_vapor)"
+   ]
+  },
+  {
+   "f": 136,
+   "shot": "b0_v",
+   "why": [
+    "camera inside geometry (inside solid red_navio_vapor)"
+   ]
+  },
+  {
+   "f": 137,
+   "shot": "b0_v",
+   "why": [
+    "camera inside geometry (inside solid red_navio_vapor)"
+   ]
+  },
+  {
+   "f": 140,
+   "shot": "b0_v",
+   "why": [
+    "camera inside geometry (inside solid red_navio_vapor)"
+   ]
+  },
+  {
+   "f": 144,
+   "shot": "b0_v",
+   "why": [
+    "camera inside geometry (inside solid red_navio_vapor)"
+   ]
+  },
+  {
    "f": 148,
-   "shot": "b0~2",
+   "shot": "b0_v",
    "why": [
-    "tru: head/torso cropped (box -0.026, 0.476, 0.386, 0.911)"
-   ]
-  },
-  {
-   "f": 150,
-   "shot": "b0~2",
-   "why": [
-    "tru: head/torso cropped (box -0.031, 0.476, 0.381, 0.912)"
-   ]
-  },
-  {
-   "f": 151,
-   "shot": "b0~3",
-   "why": [
-    "tru: head/torso cropped (box -0.034, 0.476, 0.388, 0.911)"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
    "f": 152,
-   "shot": "b0~3",
+   "shot": "b0_v",
    "why": [
-    "tru: head/torso cropped (box -0.037, 0.476, 0.381, 0.911)"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 728,
+   "f": 156,
+   "shot": "b0_v",
+   "why": [
+    "camera inside geometry (inside solid red_navio_vapor)"
+   ]
+  },
+  {
+   "f": 160,
+   "shot": "b0_v",
+   "why": [
+    "camera inside geometry (inside solid red_navio_vapor)"
+   ]
+  },
+  {
+   "f": 164,
+   "shot": "b0_v",
+   "why": [
+    "camera inside geometry (inside solid red_navio_vapor)"
+   ]
+  },
+  {
+   "f": 168,
+   "shot": "b0_v",
+   "why": [
+    "camera inside geometry (inside solid red_navio_vapor)"
+   ]
+  },
+  {
+   "f": 171,
+   "shot": "b0_v",
+   "why": [
+    "camera inside geometry (inside solid red_navio_vapor)"
+   ]
+  },
+  {
+   "f": 458,
+   "shot": "b3",
+   "why": [
+    "fra: head/torso cropped (box -1.477, 0.662, -0.743, 0.995)"
+   ]
+  },
+  {
+   "f": 460,
+   "shot": "b3",
+   "why": [
+    "fra: head/torso cropped (box -1.479, 0.662, -0.744, 0.996)"
+   ]
+  },
+  {
+   "f": 464,
+   "shot": "b3",
+   "why": [
+    "fra: head/torso cropped (box -1.48, 0.662, -0.749, 0.995)"
+   ]
+  },
+  {
+   "f": 468,
+   "shot": "b3",
+   "why": [
+    "fra: head/torso cropped (box -1.513, 0.685, -0.836, 0.999)"
+   ]
+  },
+  {
+   "f": 472,
+   "shot": "b3",
+   "why": [
+    "fra: head/torso cropped (box -1.559, 0.684, -0.862, 1.002)"
+   ]
+  },
+  {
+   "f": 476,
+   "shot": "b3",
+   "why": [
+    "fra: head/torso cropped (box -1.644, 0.684, -0.911, 1.01)"
+   ]
+  },
+  {
+   "f": 480,
+   "shot": "b3",
+   "why": [
+    "fra: head/torso cropped (box -1.755, 0.686, -0.971, 1.024)"
+   ]
+  },
+  {
+   "f": 484,
+   "shot": "b3",
+   "why": [
+    "fra: head/torso cropped (box -1.856, 0.685, -1.029, 1.032)"
+   ]
+  },
+  {
+   "f": 572,
    "shot": "b3~2",
    "why": [
-    "vin: head/torso cropped (box -0.131, 0.415, 0.312, 0.957)"
+    "fra: head/torso cropped (box -1.625, 0.515, -1.069, 0.879)"
    ]
   },
   {
-   "f": 732,
+   "f": 576,
    "shot": "b3~2",
    "why": [
-    "vin: head/torso cropped (box -0.148, 0.414, 0.301, 0.963)"
+    "fra: head/torso cropped (box -2.03, 0.575, -1.259, 1.004)"
    ]
   },
   {
-   "f": 736,
+   "f": 580,
    "shot": "b3~2",
    "why": [
-    "vin: head/torso cropped (box -0.158, 0.413, 0.295, 0.966)"
+    "fra: head/torso cropped (box -2.333, 0.62, -1.39, 1.098)"
    ]
   },
   {
-   "f": 740,
+   "f": 584,
    "shot": "b3~2",
    "why": [
-    "vin: head/torso cropped (box -0.168, 0.413, 0.293, 0.969)"
+    "fra: head/torso cropped (box -2.535, 0.629, -1.496, 1.131)"
    ]
   },
   {
-   "f": 742,
+   "f": 588,
    "shot": "b3~2",
    "why": [
-    "vin: head/torso cropped (box -0.162, 0.413, 0.293, 0.969)"
+    "fra: head/torso cropped (box -2.722, 0.632, -1.599, 1.154)"
    ]
   },
   {
-   "f": 1024,
-   "shot": "b5~2",
+   "f": 589,
+   "shot": "b3~2",
    "why": [
-    "las: head/torso cropped (box -0.036, 0.474, 0.313, 0.855)"
+    "fra: head/torso cropped (box -2.78, 0.634, -1.629, 1.162)"
    ]
   },
   {
-   "f": 1028,
-   "shot": "b5~2",
+   "f": 592,
+   "shot": "b3~2",
    "why": [
-    "las: head/torso cropped (box -0.155, 0.473, 0.339, 0.868)"
+    "fra: head/torso cropped (box -2.914, 0.636, -1.707, 1.178)"
    ]
   },
   {
-   "f": 1032,
-   "shot": "b5~2",
+   "f": 596,
+   "shot": "b3~2",
    "why": [
-    "las: head/torso cropped (box -0.084, 0.473, 0.251, 0.868)"
+    "fra: head/torso cropped (box -3.101, 0.638, -1.797, 1.201)"
    ]
   },
   {
-   "f": 1036,
-   "shot": "b5~2",
+   "f": 600,
+   "shot": "b3~2",
    "why": [
-    "las: head/torso cropped (box -0.093, 0.472, 0.246, 0.87)"
+    "fra: head/torso cropped (box -3.401, 0.629, -1.806, 1.245)"
    ]
   },
   {
-   "f": 1039,
-   "shot": "b5~2",
+   "f": 604,
+   "shot": "b3~2",
    "why": [
-    "las: head/torso cropped (box -0.094, 0.472, 0.245, 0.871)"
+    "fra: head/torso cropped (box -3.341, 0.639, -1.921, 1.225)"
    ]
   },
   {
-   "f": 1040,
-   "shot": "b5~3",
+   "f": 608,
+   "shot": "b3~2",
    "why": [
-    "las: head/torso cropped (box -0.094, 0.472, 0.245, 0.871)"
+    "fra: head/torso cropped (box -3.404, 0.64, -1.961, 1.232)"
    ]
   },
   {
-   "f": 1044,
-   "shot": "b5~3",
+   "f": 612,
+   "shot": "b3~2",
    "why": [
-    "las: head/torso cropped (box -0.106, 0.471, 0.239, 0.879)"
+    "fra: head/torso cropped (box -3.446, 0.642, -1.983, 1.239)"
    ]
   },
   {
-   "f": 1048,
-   "shot": "b5~3",
+   "f": 614,
+   "shot": "b3~2",
    "why": [
-    "las: head/torso cropped (box -0.136, 0.467, 0.223, 0.903)"
+    "fra: head/torso cropped (box -3.451, 0.642, -1.986, 1.24)"
    ]
   },
   {
-   "f": 1052,
-   "shot": "b5~3",
+   "f": 1227,
+   "shot": "b8",
    "why": [
-    "las: head/torso cropped (box -0.146, 0.465, 0.221, 0.926)"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1056,
-   "shot": "b5~3",
+   "f": 1228,
+   "shot": "b8",
    "why": [
-    "las: head/torso cropped (box -0.118, 0.467, 0.245, 0.933)"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1060,
-   "shot": "b5~3",
+   "f": 1232,
+   "shot": "b8",
    "why": [
-    "las: head/torso cropped (box -0.079, 0.468, 0.276, 0.926)"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1064,
-   "shot": "b5~3",
+   "f": 1236,
+   "shot": "b8",
    "why": [
-    "las: head/torso cropped (box -0.04, 0.469, 0.306, 0.917)"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1188,
-   "shot": "b6_d",
+   "f": 1240,
+   "shot": "b8",
    "why": [
-    "camera inside geometry (red_ring_5@0.02)"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1189,
-   "shot": "b6_d",
+   "f": 1244,
+   "shot": "b8",
    "why": [
-    "camera inside geometry (red_ring_5@0.15)"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1547,
-   "shot": "b8_v",
+   "f": 1248,
+   "shot": "b8",
    "why": [
-    "empty take: no character in the take"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1548,
-   "shot": "b8_v",
+   "f": 1252,
+   "shot": "b8",
    "why": [
-    "empty take: no character in the take"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1552,
-   "shot": "b8_v",
+   "f": 1256,
+   "shot": "b8",
    "why": [
-    "empty take: no character in the take"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1556,
-   "shot": "b8_v",
+   "f": 1260,
+   "shot": "b8",
    "why": [
-    "empty take: no character in the take"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1560,
-   "shot": "b8_v",
+   "f": 1264,
+   "shot": "b8",
    "why": [
-    "empty take: no character in the take"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1564,
-   "shot": "b8_v",
+   "f": 1268,
+   "shot": "b8",
    "why": [
-    "tru: head/torso cropped (box -0.705, 0.257, 0.023, 0.981)"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1568,
-   "shot": "b8_v",
+   "f": 1272,
+   "shot": "b8",
    "why": [
-    "tru: head/torso cropped (box -0.25, 0.379, 0.236, 0.894)"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1572,
-   "shot": "b8_v",
+   "f": 1276,
+   "shot": "b8",
    "why": [
-    "tru: head/torso cropped (box -0.048, 0.444, 0.348, 0.868)"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1800,
-   "shot": "b10_d",
+   "f": 1280,
+   "shot": "b8",
    "why": [
-    "empty: characters are in the scene but none is in frame"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1801,
-   "shot": "b10_d",
+   "f": 1284,
+   "shot": "b8",
    "why": [
-    "empty: characters are in the scene but none is in frame"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1820,
-   "shot": "b10_v",
+   "f": 1288,
+   "shot": "b8",
    "why": [
-    "empty take: no character in the take"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1824,
-   "shot": "b10_v",
+   "f": 1292,
+   "shot": "b8",
    "why": [
-    "empty take: no character in the take"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1828,
-   "shot": "b10_v",
+   "f": 1293,
+   "shot": "b8~1",
    "why": [
-    "tru: head/torso cropped (box 1.341, -0.122, 2.292, 0.826)"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1832,
-   "shot": "b10_v",
+   "f": 1296,
+   "shot": "b8~1",
    "why": [
-    "tru: head/torso cropped (box 1.201, 0.088, 1.882, 0.808)"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1836,
-   "shot": "b10_v",
+   "f": 1300,
+   "shot": "b8~1",
    "why": [
-    "jui: head/torso cropped (box -0.212, 0.189, 0.3, 0.88)"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1840,
-   "shot": "b10_v",
+   "f": 1304,
+   "shot": "b8~1",
    "why": [
-    "jui: head/torso cropped (box -0.064, 0.32, 0.322, 0.863)"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1856,
-   "shot": "b10_v",
+   "f": 1308,
+   "shot": "b8~1",
    "why": [
-    "jui: head/torso cropped (box -0.049, 0.434, 0.382, 0.868)"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1920,
-   "shot": "b11",
+   "f": 1312,
+   "shot": "b8~1",
    "why": [
-    "tru: head/torso cropped (box -0.023, 0.48, 0.158, 0.698)"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1924,
-   "shot": "b11",
+   "f": 1316,
+   "shot": "b8~1",
    "why": [
-    "tru: head/torso cropped (box -0.081, 0.483, 0.105, 0.705)"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1928,
-   "shot": "b11",
+   "f": 1320,
+   "shot": "b8~1",
    "why": [
-    "tru: head/torso cropped (box -0.169, 0.48, 0.046, 0.706)"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1932,
-   "shot": "b11",
+   "f": 1324,
+   "shot": "b8~1",
    "why": [
-    "tru: head/torso cropped (box -0.268, 0.482, -0.018, 0.711)"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1935,
-   "shot": "b11",
+   "f": 1326,
+   "shot": "b8~1",
    "why": [
-    "tru: head/torso cropped (box -0.335, 0.476, -0.083, 0.707)"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1936,
-   "shot": "b11~1",
+   "f": 1328,
+   "shot": "b8~1",
    "why": [
-    "tru: head/torso cropped (box -0.347, 0.48, -0.097, 0.711)"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1940,
-   "shot": "b11~1",
+   "f": 1332,
+   "shot": "b8~1",
    "why": [
-    "tru: head/torso cropped (box -0.42, 0.483, -0.162, 0.715)"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1944,
-   "shot": "b11~1",
+   "f": 1336,
+   "shot": "b8~1",
    "why": [
-    "tru: head/torso cropped (box -0.469, 0.498, -0.19, 0.729)"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1948,
-   "shot": "b11~1",
+   "f": 1340,
+   "shot": "b8~1",
    "why": [
-    "tru: head/torso cropped (box -0.462, 0.525, -0.168, 0.746)"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1952,
-   "shot": "b11~1",
+   "f": 1344,
+   "shot": "b8~1",
    "why": [
-    "tru: head/torso cropped (box -0.366, 0.545, -0.095, 0.747)"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1956,
-   "shot": "b11~1",
+   "f": 1348,
+   "shot": "b8~1",
    "why": [
-    "tru: head/torso cropped (box -0.318, 0.544, -0.061, 0.739)"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1960,
-   "shot": "b11~1",
+   "f": 1352,
+   "shot": "b8~1",
    "why": [
-    "tru: head/torso cropped (box -0.292, 0.545, -0.044, 0.735)"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1962,
-   "shot": "b11~1",
+   "f": 1356,
+   "shot": "b8~1",
    "why": [
-    "tru: head/torso cropped (box -0.278, 0.551, -0.034, 0.737)"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   },
   {
-   "f": 1964,
-   "shot": "b11~1",
+   "f": 1358,
+   "shot": "b8~1",
    "why": [
-    "tru: head/torso cropped (box -0.281, 0.541, -0.032, 0.727)"
-   ]
-  },
-  {
-   "f": 1968,
-   "shot": "b11~1",
-   "why": [
-    "tru: head/torso cropped (box -0.253, 0.543, -0.014, 0.724)"
-   ]
-  },
-  {
-   "f": 1972,
-   "shot": "b11~1",
-   "why": [
-    "tru: head/torso cropped (box -0.233, 0.538, -0.005, 0.716)"
-   ]
-  },
-  {
-   "f": 1976,
-   "shot": "b11~1",
-   "why": [
-    "tru: head/torso cropped (box -0.219, 0.543, -0.004, 0.717)"
-   ]
-  },
-  {
-   "f": 1980,
-   "shot": "b11~1",
-   "why": [
-    "tru: head/torso cropped (box -0.23, 0.542, -0.038, 0.713)"
-   ]
-  },
-  {
-   "f": 1984,
-   "shot": "b11~1",
-   "why": [
-    "tru: head/torso cropped (box -0.216, 0.547, -0.036, 0.716)"
-   ]
-  },
-  {
-   "f": 1987,
-   "shot": "b11~1",
-   "why": [
-    "tru: head/torso cropped (box -0.213, 0.542, -0.02, 0.713)"
-   ]
-  },
-  {
-   "f": 1988,
-   "shot": "b11~2",
-   "why": [
-    "tru: head/torso cropped (box -0.212, 0.539, -0.021, 0.71)"
-   ]
-  },
-  {
-   "f": 1992,
-   "shot": "b11~2",
-   "why": [
-    "tru: head/torso cropped (box -0.244, 0.538, -0.05, 0.711)"
-   ]
-  },
-  {
-   "f": 1996,
-   "shot": "b11~2",
-   "why": [
-    "tru: head/torso cropped (box -0.322, 0.504, -0.133, 0.684)"
-   ]
-  },
-  {
-   "f": 2000,
-   "shot": "b11~2",
-   "why": [
-    "tru: head/torso cropped (box -0.321, 0.483, -0.162, 0.659)"
-   ]
-  },
-  {
-   "f": 2004,
-   "shot": "b11~2",
-   "why": [
-    "tru: head/torso cropped (box -0.297, 0.461, -0.129, 0.634)"
-   ]
-  },
-  {
-   "f": 2008,
-   "shot": "b11~2",
-   "why": [
-    "tru: head/torso cropped (box -0.33, 0.467, -0.155, 0.643)"
-   ]
-  },
-  {
-   "f": 2012,
-   "shot": "b11~2",
-   "why": [
-    "tru: head/torso cropped (box -0.386, 0.455, -0.2, 0.637)"
-   ]
-  },
-  {
-   "f": 2013,
-   "shot": "b11~2",
-   "why": [
-    "tru: head/torso cropped (box -0.394, 0.454, -0.206, 0.638)"
-   ]
-  },
-  {
-   "f": 2016,
-   "shot": "b11~2",
-   "why": [
-    "tru: head/torso cropped (box -0.38, 0.466, -0.205, 0.652)"
-   ]
-  },
-  {
-   "f": 2020,
-   "shot": "b11~2",
-   "why": [
-    "tru: head/torso cropped (box -0.408, 0.454, -0.213, 0.644)"
-   ]
-  },
-  {
-   "f": 2024,
-   "shot": "b11~2",
-   "why": [
-    "tru: head/torso cropped (box -0.435, 0.465, -0.212, 0.66)"
-   ]
-  },
-  {
-   "f": 2028,
-   "shot": "b11~2",
-   "why": [
-    "tru: head/torso cropped (box -0.468, 0.451, -0.251, 0.65)"
-   ]
-  },
-  {
-   "f": 2032,
-   "shot": "b11~2",
-   "why": [
-    "tru: head/torso cropped (box -0.49, 0.464, -0.281, 0.665)"
-   ]
-  },
-  {
-   "f": 2036,
-   "shot": "b11~2",
-   "why": [
-    "tru: head/torso cropped (box -0.466, 0.451, -0.259, 0.651)"
-   ]
-  },
-  {
-   "f": 2038,
-   "shot": "b11~2",
-   "why": [
-    "tru: head/torso cropped (box -0.471, 0.455, -0.265, 0.655)"
-   ]
-  },
-  {
-   "f": 2039,
-   "shot": "b11~3",
-   "why": [
-    "tru: head/torso cropped (box -0.48, 0.46, -0.271, 0.661)"
-   ]
-  },
-  {
-   "f": 2040,
-   "shot": "b11~3",
-   "why": [
-    "tru: head/torso cropped (box -0.492, 0.465, -0.284, 0.668)"
-   ]
-  },
-  {
-   "f": 2044,
-   "shot": "b11~3",
-   "why": [
-    "tru: head/torso cropped (box -0.526, 0.452, -0.315, 0.658)"
-   ]
-  },
-  {
-   "f": 2048,
-   "shot": "b11~3",
-   "why": [
-    "tru: head/torso cropped (box -0.524, 0.478, -0.321, 0.688)"
-   ]
-  },
-  {
-   "f": 2052,
-   "shot": "b11~3",
-   "why": [
-    "tru: head/torso cropped (box -0.507, 0.473, -0.307, 0.684)"
-   ]
-  },
-  {
-   "f": 2056,
-   "shot": "b11~3",
-   "why": [
-    "tru: head/torso cropped (box -0.52, 0.494, -0.31, 0.707)"
-   ]
-  },
-  {
-   "f": 2060,
-   "shot": "b11~3",
-   "why": [
-    "tru: head/torso cropped (box -0.499, 0.479, -0.27, 0.689)"
-   ]
-  },
-  {
-   "f": 2064,
-   "shot": "b11~3",
-   "why": [
-    "tru: head/torso cropped (box -0.448, 0.493, -0.238, 0.697)"
-   ]
-  },
-  {
-   "f": 2065,
-   "shot": "b11~3",
-   "why": [
-    "tru: head/torso cropped (box -0.441, 0.487, -0.228, 0.69)"
-   ]
-  },
-  {
-   "f": 2068,
-   "shot": "b11~3",
-   "why": [
-    "tru: head/torso cropped (box -0.422, 0.48, -0.225, 0.679)"
-   ]
-  },
-  {
-   "f": 2072,
-   "shot": "b11~3",
-   "why": [
-    "tru: head/torso cropped (box -0.419, 0.493, -0.232, 0.69)"
-   ]
-  },
-  {
-   "f": 2076,
-   "shot": "b11~3",
-   "why": [
-    "tru: head/torso cropped (box -0.42, 0.481, -0.232, 0.676)"
-   ]
-  },
-  {
-   "f": 2080,
-   "shot": "b11~3",
-   "why": [
-    "tru: head/torso cropped (box -0.382, 0.492, -0.199, 0.684)"
-   ]
-  },
-  {
-   "f": 2084,
-   "shot": "b11~3",
-   "why": [
-    "tru: head/torso cropped (box -0.357, 0.481, -0.179, 0.671)"
-   ]
-  },
-  {
-   "f": 2088,
-   "shot": "b11~3",
-   "why": [
-    "tru: head/torso cropped (box -0.386, 0.491, -0.205, 0.683)"
-   ]
-  },
-  {
-   "f": 2090,
-   "shot": "b11~3",
-   "why": [
-    "tru: head/torso cropped (box -0.4, 0.482, -0.216, 0.674)"
+    "camera inside geometry (inside solid red_navio_vapor)"
    ]
   }
  ],
