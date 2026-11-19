@@ -13,7 +13,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b1 - Primeiro, os parisienses comeram os cavalos. Depois, os cachorros e os...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): PAR (variante 2, expressao pained); PAR (variante 3, expressao nervous) | multidao: 8 de PAR
@@ -23,12 +23,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Depois, os roedores, que viraram um prato chique.
-- Cenario: interior loja | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): PAR (variante 0, expressao shock); CHF (variante 0, expressao grin)
 - Animacao: reagir | interacao: avanca e o outro recua
-- Objetos/modelos: barrel
+- Objetos/modelos: barrel, kit/marco_notredame
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): prato, roedores
 - RISCOS: nenhum
 
@@ -48,27 +48,27 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): BUT (variante 0, expressao grin)
 - Animacao: conversar
-- Objetos/modelos: kit/steak, elephant
+- Objetos/modelos: elephant
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): acougueiro, carne
 - RISCOS: nenhum
 
-## Cena b5 - No Natal, um restaurante famoso serviu consomê de elefante, costela de...
-- Cenario: hall | luz: day | clima: limpo
+## Cena b5 - No Natal, um restaurante famoso serviu consomê de elefante, dromedário...
+- Cenario: street | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): CHF (variante 0, expressao grin); PAR (variante 2, expressao shock) | multidao: 12 de CHF/PAR
 - Animacao: reagir | batalha encenada
-- Objetos/modelos: kit/steak, elephant, bear
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canguru, elefante, natal, restaurante, urso
+- Objetos/modelos: kit/marco_notredame, elephant
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canguru, elefante, natal, restaurante
 - RISCOS: nenhum
 
-## Cena b6 - Tinha até gato cercado de roedores, e pernil de lobo.
-- Cenario: street | luz: day | clima: limpo
+## Cena b6 - Tinha até gato com roedores, e pernil de lobo.
+- Cenario: interior loja | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): PAR (variante 3, expressao shock)
 - Animacao: reagir
-- Objetos/modelos: kit/marco_notredame, nature/picket_fence, cat, wolf
+- Objetos/modelos: cat, wolf
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lobo, roedores
 - RISCOS: nenhum
 
@@ -97,7 +97,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/marco_notredame | b0, b1, b3, b6, b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_notredame | b0, b1, b2, b3, b5, b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 dog | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 cat | b1, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 barrel | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -112,7 +112,7 @@ kit/balloon | b7 | pronto | conferir na folha de contato se le bem; se parecer c
 
 
 ## Video inteiro
-- Objeto heroi: kit/steak | grandes momentos: b3, b5 | planos abertos: 4 | mistura: close 42% | medio 33% | aberto 22% | detalhe 4%
+- Objeto heroi: kit/panela | grandes momentos: b3, b5 | planos abertos: 4 | mistura: close 42% | medio 33% | aberto 22% | detalhe 4%
 - Interacoes: b0 susto, b2 avanca e o outro recua
 - RISCOS GERAIS: nenhum
 

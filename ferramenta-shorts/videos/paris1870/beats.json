@@ -125,7 +125,7 @@
    ]
   },
   {
-   "say": "No Natal, um restaurante famoso serviu consomê de elefante, costela de urso e ensopado de canguru.",
+   "say": "No Natal, um restaurante famoso serviu consomê de elefante, dromedário assado e ensopado de canguru.",
    "shot": "two",
    "who": [
     "CHF:0:grin",
@@ -135,19 +135,10 @@
    "tat": 3,
    "tstyle": "brown",
    "mood": "playful",
-   "props": [
-    [
-     "kit/steak",
-     1.2,
-     0.6,
-     1.1
-    ]
-   ],
-   "detalhe": true,
-   "set": "hall"
+   "interior": false
   },
   {
-   "say": "Tinha até gato cercado de roedores, e pernil de lobo.",
+   "say": "Tinha até gato com roedores, e pernil de lobo.",
    "shot": "close",
    "who": [
     "PAR:3:shock"
@@ -184,7 +175,5 @@
    "set": "street"
   }
  ],
- "ano": 1870,
- "regiao": "franca",
- "heroi": "kit/steak"
+ "heroi": "kit/panela"
 }

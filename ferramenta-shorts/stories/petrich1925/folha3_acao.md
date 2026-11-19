@@ -60,7 +60,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | invadiu (24.1s) | EFEITO: dust | poeira + som | OK |
 | 2 | invadiu (24.1s) | ACAO: chega | entra andando pela lateral | OK |
-| 3 | - | CENA | tiros: 4 soldados caem no chao | OK |
+| 3 | - | CENA | tiros: 5 soldados caem no chao | OK |
 | 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 5 | - | PLACA | INVASÃO | OK |
 

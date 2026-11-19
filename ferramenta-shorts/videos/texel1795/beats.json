@@ -33,10 +33,16 @@
    "sash": "#e8c45a",
    "buttons": "#e8c45a",
    "moustache_on": "#4a3020",
-   "build": "stout",
-   "profissao": "general",
-   "uniforme_fixo": true,
-   "pais": "FRA"
+   "build": "stout"
+  },
+  "GEN": {
+   "jacket": "#2b4a9c",
+   "pants": "#c0262d",
+   "boots": "#1b1b1f",
+   "hat": "shako_tall",
+   "sash": "#e8c45a",
+   "buttons": "#e8c45a",
+   "build": "stout"
   }
  },
  "beats": [
@@ -64,10 +70,13 @@
    "text": "1795",
    "tat": 0,
    "mood": "epic",
-   "set": "harbor",
-   "mapa": "HOLANDA",
-   "mapa_at": 1,
-   "interacao": "cochichar"
+   "acao": "conversar",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ]
   },
   {
    "say": "A frota holandesa estava ancorada perto de Den Helder, e o mar congelou em volta dela.",
@@ -87,8 +96,7 @@
    "text": "FROTA CONGELADA",
    "tat": 7,
    "tstyle": "white",
-   "set": "harbor",
-   "interacao": "susto"
+   "set": "harbor"
   },
   {
    "say": "Os navios ficaram presos no gelo, um ao lado do outro.",
@@ -114,6 +122,12 @@
      9,
      -9,
      1.3
+    ],
+    [
+     "vehicles/truck",
+     1.6,
+     -1.6,
+     1.0
     ]
    ],
    "set": "harbor"
@@ -136,14 +150,13 @@
     ]
    ],
    "mood": "march",
-   "set": "countryside",
-   "interacao": "cochichar"
+   "set": "countryside"
   },
   {
-   "say": "O comandante teve uma ideia maluca: atacar a frota a cavalo.",
+   "say": "O chefe da cavalaria teve uma ideia maluca: atacar a frota a cavalo.",
    "shot": "close",
    "who": [
-    "OFF:1:grin"
+    "GEN:0:grin"
    ],
    "text": "A CAVALO?",
    "tat": 9,
@@ -176,20 +189,8 @@
    "move": 10,
    "light": "tense",
    "mood": "tense",
-   "set": "arctic",
-   "impact": true,
-   "crowd": {
-    "n": 10,
-    "outfits": [
-     "FRA"
-    ]
-   },
-   "fx": [
-    "burst@40"
-   ],
-   "sfx": [
-    "whoosh@40"
-   ]
+   "batalha": true,
+   "set": "countryside"
   },
   {
    "say": "Os marinheiros holandeses viram a cavalaria chegar, e a frota se rendeu.",
@@ -203,16 +204,7 @@
    "tstyle": "red",
    "light": "arctic",
    "mood": "playful",
-   "set": "harbor",
-   "props": [
-    [
-     "war/flagpole",
-     1.3,
-     0.6,
-     1.2
-    ]
-   ],
-   "detalhe": true
+   "batalha": true
   },
   {
    "say": "Foram mais de uma dezena de navios capturados por soldados a cavalo.",
@@ -245,21 +237,7 @@
     ]
    ],
    "mood": "playful",
-   "set": "street",
-   "impact": true,
-   "crowd": {
-    "n": 10,
-    "outfits": [
-     "FRA",
-     "NED"
-    ]
-   },
-   "fx": [
-    "burst@40"
-   ],
-   "sfx": [
-    "sting@40"
-   ]
+   "set": "mountain"
   },
   {
    "say": "Dizem que foi a única vez na história em que uma cavalaria capturou uma frota.",
@@ -270,11 +248,8 @@
    "text": "CAVALARIA 1 X 0 MARINHA",
    "tat": 12,
    "tstyle": "gold",
-   "set": "hall",
-   "acao": "comemorar"
+   "interior": "madeira"
   }
  ],
- "ano": 1795,
- "regiao": "holanda",
- "heroi": "war/flagpole"
+ "heroi": "kit/navio_vapor"
 }

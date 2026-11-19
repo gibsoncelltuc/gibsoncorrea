@@ -9,12 +9,12 @@ b1 | countryside | track | 1 | encena, andando | kit/dog_sit, dog | - | -
 b2 | countryside | track | 1 | encena, andando | dog | - | -
 b3 | countryside | crowd | 19 | reagir, batalha | - | - | -
 b4 | countryside | close | 1 | conversar | - | - | -
-b5 | mountain | orbit | 15 | encena, andando, batalha | - | - | -
+b5 | mountain | orbit | 21 | encena, andando, batalha | - | - | -
 b6 | interior pedra | two | 2 | reagir, INTERAGEM: susto | - | - | -
 b7 | mountain | group | 7 | reagir, INTERAGEM: entregar | - | - | -
-b8 | mountain | close | 1 | conversar | kit/dog_sit, dog | - | -
+b8 | mountain | close | 1 | conversar | dog | - | -
 
-OBJETO HEROI: kit/dog_sit - aparece em 2 cena(s), close nele em 1
+OBJETO HEROI: kit/dog_sit - aparece em 0 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b5
 Interacoes entre personagens: b0 aproxima-se, b6 susto, b7 entregar
 

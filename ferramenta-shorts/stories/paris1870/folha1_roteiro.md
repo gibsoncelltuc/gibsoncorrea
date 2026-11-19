@@ -13,16 +13,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b1  (~4.1 s)
 - Narracao: Primeiro, os parisienses comeram os cavalos. Depois, os cachorros e os gatos.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (PAR) -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: CAVALOS, CÃES, GATOS
 - Funcao na historia: desenvolvimento
 
 ## Cena b2  (~2.8 s)
 - Narracao: Depois, os roedores, que viraram um prato chique.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -47,8 +47,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: CASTOR E PÓLUX
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~5.5 s)
-- Narracao: No Natal, um restaurante famoso serviu consomê de elefante, costela de urso e ensopado de canguru.
+## Cena b5  (~5.2 s)
+- Narracao: No Natal, um restaurante famoso serviu consomê de elefante, dromedário assado e ensopado de canguru.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -56,8 +56,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: NATAL DE 1870
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b6  (~3.4 s)
-- Narracao: Tinha até gato cercado de roedores, e pernil de lobo.
+## Cena b6  (~3.1 s)
+- Narracao: Tinha até gato com roedores, e pernil de lobo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

@@ -134,15 +134,7 @@
    "tat": 8,
    "tstyle": "red",
    "move": 9,
-   "batalha": true,
-   "impact": true,
-   "crowd": {
-    "n": 12,
-    "outfits": [
-     "GRE",
-     "BUL"
-    ]
-   }
+   "batalha": true
   },
   {
    "say": "A Bulgária apelou para a Liga das Nações, o antecessor da ONU.",
@@ -196,7 +188,5 @@
    ]
   }
  ],
- "ano": 1925,
- "regiao": "europa",
  "heroi": "kit/dog_sit"
 }

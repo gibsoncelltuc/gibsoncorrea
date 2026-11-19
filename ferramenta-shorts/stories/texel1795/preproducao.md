@@ -4,19 +4,19 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | harbor | two | 2 | conversar, INTERAGEM: cochichar, alguem chega andando | ship, kit/marco_amsterdam | - | -
+b0 | arctic | two | 0 | conversar | ship | - | -
 b1 | harbor | crowd | 12 | reagir | ship, kit/marco_amsterdam, navios ao fundo | - | -
-b2 | harbor | wide | 7 | encena | ship, kit/marco_amsterdam, navios ao fundo | - | -
-b3 | countryside | group | 3 | conversar, INTERAGEM: cochichar | kit/marco_amsterdam, horse | - | -
-b4 | hall | group | 6 | conversar | horse | - | -
-b5 | arctic | group | 12 | andando, batalha | horse | - | -
-b6 | harbor | reveal | 2 | reagir | war/flagpole, kit/marco_amsterdam, navios ao fundo, navio em movimento | - | -
-b7 | street | group | 12 | conversar, INTERAGEM: aproxima-se, batalha | ship, kit/marco_amsterdam, horse | - | -
-b8 | hall | close | 11 | comemorar | - | - | -
+b2 | arctic | wide | 7 | encena | ship, vehicles/truck | - | -
+b3 | countryside | group | 3 | conversar, INTERAGEM: aproxima-se | kit/marco_amsterdam, horse | - | -
+b4 | arctic | group | 6 | conversar | horse | - | -
+b5 | countryside | crowd | 20 | andando, batalha | kit/marco_amsterdam, horse | - | -
+b6 | arctic | orbit | 20 | reagir, batalha | - | - | -
+b7 | mountain | group | 7 | conversar, INTERAGEM: avanca e o outro recua | ship, kit/marco_amsterdam, horse | - | -
+b8 | interior madeira | close | 1 | conversar | - | - | -
 
-OBJETO HEROI: war/flagpole - aparece em 1 cena(s), close nele em 1
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b5, b7
-Interacoes entre personagens: b0 cochichar, b3 cochichar, b7 aproxima-se
+OBJETO HEROI: kit/navio_vapor - aparece em 0 cena(s), close nele em 1
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b5, b6
+Interacoes entre personagens: b3 aproxima-se, b7 avanca e o outro recua
 
 Cenas com personagens parados: 0 de 9
 FALTA MODELAR: nada
