@@ -112,7 +112,7 @@
    "impact": false
   },
   {
-   "say": "Cada compra vinha com um extintor de incêndio de brinde.",
+   "say": "Cada compra vinha com um extintor de brinde.",
    "shot": "two",
    "who": [
     "MUS:0:smile",
@@ -121,9 +121,9 @@
    "props": [
     [
      "kit/extinguisher",
-     1.5,
-     0.2,
-     1.3
+     1.0,
+     0.3,
+     1.8
     ]
    ],
    "fx": [
@@ -135,7 +135,8 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "detalhe": false
+   "detalhe": false,
+   "set": "street"
   },
   {
    "say": "Foram vinte mil unidades à venda.",
@@ -159,7 +160,7 @@
    "tat": 6
   },
   {
-   "say": "E elas esgotaram em poucos dias, rendendo cerca de dez milhões de dólares.",
+   "say": "E elas esgotaram em poucos dias, e faturaram cerca de dez milhões de dólares.",
    "shot": "crowd",
    "who": [
     "CMP:0:shock",
