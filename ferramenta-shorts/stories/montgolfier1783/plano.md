@@ -4,7 +4,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | -  | animais, placa: 1783 | - | -
 b1 | reveal | -  | tropa, mapa | - | -
-b2 | two | -  | interior | encena: calor (reach) @13 (acao + som de efeito) | -
+b2 | two | -  | - | encena: calor (reach) @13 (acao + som de efeito) | -
 b3 | two | -  | interior, objeto na mao | encena: calor (reach) @13 (acao + som de efeito) | -
 b4 | low | -  | - | - | -
 b5 | two | -  | animais | encena: chega (point) @13 (acao + som de efeito) | -

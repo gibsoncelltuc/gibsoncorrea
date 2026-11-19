@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval
 
 ## Cena b2  (~6.6 s)
 - Narracao: Os irmãos Montgolfier, donos de uma fábrica de papel, repararam que a fumaça quente fazia sacos de papel flutuarem.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: whoosh@40
 - Efeito + som nas palavras-chave: encena: calor (reach) @13 -> acao + som de efeito
 - Efeito visual marcado: puff@40
@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval
 
 ## Cena b7  (~5.9 s)
 - Narracao: Acontece que o balão levantou voo de verdade, e foi embora pelo céu, com os bichos dentro.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: whoosh@20, ding@50
 - Efeito + som nas palavras-chave: encena: pega (lift) @4 -> acao + som de efeito; encena: sai @10 -> acao + som de efeito
 - Efeito visual marcado: whoosh@20, stars@50
@@ -94,7 +94,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval
 
 ## Cena b10  (~6.2 s)
 - Narracao: Dois meses depois, foi a vez de dois homens voarem sobre Paris. A humanidade tinha chegado ao céu.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: ding@20, ding@60
 - Efeito + som nas palavras-chave: encena: voa (point) @9 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60

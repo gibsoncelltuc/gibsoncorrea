@@ -1,0 +1,171 @@
+{
+ "duration": 38.904,
+ "frames30": 1167,
+ "source": "silence-align (cost 0.37)",
+ "segments": [
+  [
+   0.160125,
+   2.02871
+  ],
+  [
+   2.28758,
+   4.0645
+  ],
+  [
+   4.90133,
+   6.56221
+  ],
+  [
+   6.80317,
+   9.31154
+  ],
+  [
+   10.1538,
+   11.9169
+  ],
+  [
+   12.2163,
+   13.4
+  ],
+  [
+   14.2371,
+   16.1465
+  ],
+  [
+   16.4167,
+   16.8749
+  ],
+  [
+   17.7208,
+   18.9999
+  ],
+  [
+   19.2865,
+   20.171
+  ],
+  [
+   21.046,
+   22.0922
+  ],
+  [
+   22.3101,
+   25.57
+  ],
+  [
+   26.4216,
+   28.264
+  ],
+  [
+   28.4997,
+   29.5326
+  ],
+  [
+   30.4084,
+   31.744
+  ],
+  [
+   31.9584,
+   33.9892
+  ],
+  [
+   34.837,
+   35.797
+  ],
+  [
+   36.096,
+   38.1053
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Outubro de mil novecentos e vinte e cinco,",
+   "s": 0.16,
+   "e": 2.029
+  },
+  {
+   "text": "na fronteira entre a Gr\u00e9cia e a Bulg\u00e1ria.",
+   "s": 2.288,
+   "e": 4.064
+  },
+  {
+   "text": "Um soldado grego estava de guarda,",
+   "s": 4.901,
+   "e": 6.562
+  },
+  {
+   "text": "e o cachorro dele fugiu para o outro lado da fronteira.",
+   "s": 6.803,
+   "e": 9.312
+  },
+  {
+   "text": "O soldado correu atr\u00e1s do cachorro,",
+   "s": 10.154,
+   "e": 11.917
+  },
+  {
+   "text": "e atravessou a fronteira.",
+   "s": 12.216,
+   "e": 13.4
+  },
+  {
+   "text": "Uma sentinela b\u00falgara viu o soldado,",
+   "s": 14.237,
+   "e": 16.146
+  },
+  {
+   "text": "e atirou.",
+   "s": 16.417,
+   "e": 16.875
+  },
+  {
+   "text": "A Gr\u00e9cia ficou furiosa,",
+   "s": 17.721,
+   "e": 19.0
+  },
+  {
+   "text": "e deu um ultimato.",
+   "s": 19.287,
+   "e": 20.171
+  },
+  {
+   "text": "Poucos dias depois,",
+   "s": 21.046,
+   "e": 22.092
+  },
+  {
+   "text": "o ex\u00e9rcito grego invadiu a Bulg\u00e1ria e ocupou a regi\u00e3o de Petrich.",
+   "s": 22.31,
+   "e": 25.57
+  },
+  {
+   "text": "A Bulg\u00e1ria apelou para a Liga das Na\u00e7\u00f5es,",
+   "s": 26.422,
+   "e": 28.264
+  },
+  {
+   "text": "o antecessor da ONU.",
+   "s": 28.5,
+   "e": 29.533
+  },
+  {
+   "text": "A Liga mandou a Gr\u00e9cia parar,",
+   "s": 30.408,
+   "e": 31.744
+  },
+  {
+   "text": "retirar as tropas e pagar uma indeniza\u00e7\u00e3o.",
+   "s": 31.958,
+   "e": 33.989
+  },
+  {
+   "text": "A Gr\u00e9cia obedeceu,",
+   "s": 34.837,
+   "e": 35.797
+  },
+  {
+   "text": "e ningu\u00e9m sabe o que aconteceu com o cachorro.",
+   "s": 36.096,
+   "e": 38.105
+  }
+ ]
+}
