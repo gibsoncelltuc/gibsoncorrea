@@ -23,17 +23,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Normalmente, a parte de baixo de um foguete é descartada, ou pousa sob...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: interior loja | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): ENG (variante 0, expressao worried, segura paper); MUS (variante 0, expressao suspicious)
 - Animacao: discutir | interacao: discutir
-- Objetos/modelos: kit/booster_air, kit/tower
+- Objetos/modelos: kit/booster_air
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): baixo, foguete
 - RISCOS: nenhum
 
 ## Cena b3 - A ideia de Musk: tirar as pernas do foguete, e fazer a própria torre d...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: interior loja | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): MUS (variante 0, expressao smug); ENA (variante 0, expressao shock)
@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Os engenheiros apelidaram os braços de pauzinhos, como os de comida ja...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: interior loja | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): ENA (variante 0, expressao laugh); ENG (variante 0, expressao grin)
@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - No dia do teste, o propulsor gigante decolou com trinta e três motores...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): ENG (variante 0, expressao surprised); ENA (variante 0, expressao surprised); MUS (variante 0, expressao grin) | multidao: 18 de POV
@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Minutos depois, ele voltou do espaço, descendo de ré, direto na direçã...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): ENG (variante 0, expressao nervous)
@@ -73,17 +73,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Acontece que, no último segundo, os braços se fecharam, e seguraram o ...
-- Cenario: countryside | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Cenario: harbor | luz: day | clima: limpo
+- Camera: low = camera baixa, dramatica (virada)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): ENA (variante 0, expressao scared); MUS (variante 0, expressao nervous)
 - Animacao: conversar | interacao: susto
-- Objetos/modelos: kit/tower_catch, kit/tower_mini, kit/tower
+- Objetos/modelos: kit/tower_catch, kit/tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bracos, foguete
 - RISCOS: nenhum
 
 ## Cena b8 - Os engenheiros comemoraram aos gritos. Era a primeira vez que alguém f...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: outback | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): ENG (variante 0, expressao laugh); ENA (variante 0, expressao laugh); MUS (variante 0, expressao laugh) | multidao: 20 de POV
@@ -127,14 +127,14 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/tower_mini | b0, b7, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/tower_mini | b0, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tower_catch | b0, b7, b8, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/tower | b0, b1, b2, b3, b4, b6, b7, b8, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/tower | b0, b1, b3, b4, b6, b7, b8, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/booster_air | b2, b5, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/tower_mini | grandes momentos: b5, b8 | planos abertos: 4 | mistura: close 12% | medio 69% | aberto 15% | detalhe 4%
+- Objeto heroi: kit/tower_mini | grandes momentos: b5, b8 | planos abertos: 4 | mistura: close 12% | medio 71% | aberto 15% | detalhe 2%
 - Interacoes: b0 entregar, b2 discutir, b3 entregar, b4 aproxima-se, b7 susto, b9 abracar, b10 avanca e o outro recua
 - RISCOS GERAIS: nenhum
 
