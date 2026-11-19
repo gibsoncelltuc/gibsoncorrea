@@ -5,7 +5,7 @@
  "segments": [
   [
    0.158583,
-   1.28783
+   1.28696
   ],
   [
    1.52004,
@@ -105,7 +105,7 @@
   ],
   [
    57.115,
-   57.4297
+   57.4288
   ],
   [
    57.5691,
@@ -120,7 +120,7 @@
   {
    "text": "Durante sessenta anos,",
    "s": 0.159,
-   "e": 1.288
+   "e": 1.287
   },
   {
    "text": "todo foguete era jogado fora depois de um voo.",
@@ -245,7 +245,7 @@
   {
    "text": "Hoje,",
    "s": 57.115,
-   "e": 57.43
+   "e": 57.429
   },
   {
    "text": "os foguetes da SpaceX pousam quase toda semana.",

@@ -43,24 +43,19 @@ Fila: `cd ferramenta-shorts && bash status.sh` | `bash run_queue.sh` (ids em `qu
 **Branch:** claude/bold-sagan-dskrsj
 
 **Recent commits:**
-- 2013a09f build: main.js/toon.js e modelos reexportados
-- d4cb8205 refacao geral: 41 videos da sessao principal de volta na fila com a ferramenta nova
-- 688eecf4 ferramenta: carro da epoca (antigo ate 1935, anos 50 ate 1975, moderno depois); colarinho branco em todo terno com gravata
-- 797b84ed ferramenta: patentes e cargos (dragonas, medalhas, gola, camuflado; coronel, capitao, imperador, presidente, funcionario, policial...), uniforme da epoca (1914+ caqui/capacete, 1960+ camuflado), animais 3D arredondados, torcida de verdade no estadio, marco so do lugar da historia
-- c13224f5 previas: mapa real (Franca, Egito) e hospital (Semmelweis)
+- 34313680 ckpt(porco1859): trecho 2
+- 02f91665 ckpt(porco1859): trecho 1
+- d3b772b6 ckpt(porco1859): trecho 0
+- 5aa0d496 aprovacao do storyboard vale para a producao inteira (visual + acoes): hash_producao; storyboards regerados
+- 07951639 nariz de metal (Tycho); golpe/juiz nao viram estadio; lupa na mao; trechos de versao antiga descartados antes do render (Porco refeito do zero)
 
-**In-progress files (6):**
-- ferramenta-shorts/web/story.js
-- ferramenta-shorts/blender/animais.py
-- ferramenta-shorts/stories/porco1859/READY
-- ferramenta-shorts/stories/porco1859/fit.js
-- ferramenta-shorts/stories/porco1859/stages/fit
-- ferramenta-shorts/stories/porco1859/stages/gate
+**In-progress files (1):**
+- ferramenta-shorts/blender/veiculos_epoca.py
 
 **Project reminders:**
 - Verify the file content before claiming an edit is done
 - Run tests before declaring task complete
 - Re-read CLAUDE.md if you're unsure of project conventions
 
-**Hook generated:** 2026-11-19 10:51:03 UTC
+**Hook generated:** 2026-11-19 13:08:55 UTC
 <!-- post-compact-recovery-end -->
