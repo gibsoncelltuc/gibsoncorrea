@@ -2,7 +2,7 @@
  "voice": "pt-BR-AntonioNeural",
  "rate": "+10%",
  "title": "A Praga da Dança",
- "set": "street",
+ "set": "medieval",
  "light": "day",
  "mood": "playful",
  "outfits": {
@@ -64,7 +64,8 @@
      1.0
     ]
    ],
-   "detalhe": false
+   "detalhe": false,
+   "set": "medieval"
   },
   {
    "shot": "two",
@@ -156,7 +157,8 @@
    ],
    "sfx": [
     "thump@50"
-   ]
+   ],
+   "set": "medieval"
   },
   {
    "shot": "orbit",

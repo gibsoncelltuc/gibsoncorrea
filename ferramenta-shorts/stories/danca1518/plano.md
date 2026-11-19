@@ -9,7 +9,7 @@ b3 | crowd | -  | batalha aberta com tiros, tropa, placa: 400 | (rosto) shout (e
 b4 | two | -  | interior, objeto na mao | dançar (stars + som de sino); encena: danca (up) @13 (acao + som de efeito) | -
 b5 | low | -  | tropa, placa: PALCO, objeto na mao | músicos (stars + som de sino); encena: constroi (hammer) @8 (acao + som de efeito); encena: danca (up) @13 (acao + som de efeito) | -
 b6 | orbit | -  | batalha aberta com tiros, tropa | música (stars + som de sino); dança (stars + som de sino); caíram (dust + som de impacto); encena: pensa (think) @3 (acao + som de efeito); encena: x_canta (up) @6 (acao + som de efeito); encena: chega (point) @9 (acao + som de efeito); encena: danca (up) @11 (acao + som de efeito) | -
-b7 | two | -  | interior | - | -
+b7 | two | -  | - | - | -
 b8 | track | -  | - | dançarinos (stars + som de sino); dança (stars + som de sino); encena: danca (up) @3 (acao + som de efeito) | -
 b9 | close | -  | - | - | -
 
