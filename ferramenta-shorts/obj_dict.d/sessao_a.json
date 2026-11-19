@@ -58,5 +58,11 @@
   "kit/steak",
   1.0,
   false
+ ],
+ [
+  "\\b(pranchas?|surfe|surf|surfistas?)\\b",
+  "kit/surfboard",
+  1.0,
+  false
  ]
 ]

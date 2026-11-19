@@ -118,3 +118,10 @@ caixa((-.05, .355, 0), (.05, .02, .46), '#2a120a'); caixa((.12, .35, 0), (.05, .
 caixa((.3, .345, 0), (.05, .03, .46), '#f4ead2'); caixa((.14, .35, 0), (.3, .03, .06), '#f4ead2')    # osso em T
 bola((.38, .2, .28), .07, '#e8c64a', .6); bola((-.36, .2, -.26), .09, '#4a8a3a', .5)                  # manteiga e raminho
 fim(.02)
+novo('surfboard')                                      # prancha de surf em pe na areia (herói do PF 07)
+bola((0, .06, 0), .55, '#e6cf8f', .18, esc=(1, .7, 1))                                       # montinho de areia
+bola((0, 1.0, 0), .5, '#f6f6f0', 1.0, esc=(.5, 1.8, .09))                                    # corpo da prancha
+bola((0, 1.0, .005), .5, '#2f9bd6', 1.0, esc=(.1, 1.7, .095))                                # listra azul
+caixa((0, .75, .06), (.34, .1, .02), '#f2c230'); caixa((0, 1.15, .06), (.3, .08, .02), '#e8553a')   # faixas
+caixa((0, .42, -.09), (.04, .22, .1), '#1f1f24', afina=.4)                                   # quilha
+fim(.02)
