@@ -13,12 +13,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b1  (~5.2 s)
 - Narracao: Em janeiro de dois mil e quatro, estreou nos Estados Unidos o programa O Aprendiz.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: sting@10, thump@40
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: ring@12, dust@40
+- Efeito visual marcado: -
 - Texto na tela: - | mapa: ESTADOS UNIDOS
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b2  (~5.2 s)
 - Narracao: Dezesseis candidatos disputavam um prêmio raro: um emprego de verdade numa empresa de Donald Trump.
@@ -31,12 +31,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b3  (~6.2 s)
 - Narracao: Toda semana, as equipes tinham uma tarefa de negócios, como vender limonada na rua ou criar uma propaganda.
-- Som ambiente: silencio/sala
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: thump@40
 - Efeito + som nas palavras-chave: vender -> stars + som de sino; encena: negocio (reach) @10 -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b4  (~5.9 s)
 - Narracao: No fim, a equipe perdedora ia para a sala de reunião, e alguém tinha que ir embora.

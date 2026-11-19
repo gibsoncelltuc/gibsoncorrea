@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Com isso, dava para pagar as compras com bitcoin.
-- Cenario: harbor | luz: noite | clima: limpo
+- Cenario: street | luz: dia | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): CLI (variante 0, expressao smile, segura coin); POV (variante 0, expressao grin)
@@ -63,12 +63,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Nas primeiras horas, o aplicativo ficou fora do ar, por excesso de ace...
-- Cenario: interior loja | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): CLI (variante 0, expressao nervous); POV (variante 0, expressao shock)
 - Animacao: discutir | interacao: discutir
-- Objetos/modelos: -
+- Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): acessos, aplicativo, primeiras
 - RISCOS: nenhum
 
@@ -83,7 +83,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - Uma moeda digital, uma lei nova e um país no centro das atenções.
-- Cenario: street | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (3): BUK (variante 0, expressao smile); POV (variante 0, expressao grin); CLI (variante 0, expressao laugh)
@@ -98,7 +98,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/bitcoin | b0, b2, b4, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/volcano | b0, b1, b3, b4, b5, b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/volcano | b0, b1, b3, b4, b5, b6, b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/stall | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/globe | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/coin | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py

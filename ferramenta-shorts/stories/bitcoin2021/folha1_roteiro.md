@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b4  (~3.1 s)
 - Narracao: Com isso, dava para pagar as compras com bitcoin.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@3
 - Efeito + som nas palavras-chave: pagar -> stars + som de sino; encena: paga (reach) @4 -> acao + som de efeito; encena: negocio (reach) @6 -> acao + som de efeito
 - Efeito visual marcado: stars@3
@@ -58,7 +58,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b6  (~4.5 s)
 - Narracao: Nas primeiras horas, o aplicativo ficou fora do ar, por excesso de acessos.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: thump@3
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: burst@3
@@ -76,7 +76,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b8  (~4.5 s)
 - Narracao: Uma moeda digital, uma lei nova e um país no centro das atenções.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: paga (reach) @1 -> acao + som de efeito
 - Efeito visual marcado: -

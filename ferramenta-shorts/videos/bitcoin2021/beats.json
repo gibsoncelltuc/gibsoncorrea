@@ -147,7 +147,9 @@
    "sfx": [
     "ding@3"
    ],
-   "impact": false
+   "impact": false,
+   "set": "street",
+   "hora": "dia"
   },
   {
    "say": "O governo lançou até uma carteira digital, chamada Chivo.",
@@ -230,7 +232,9 @@
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "set": "countryside"
   }
- ]
+ ],
+ "hora": "dia"
 }

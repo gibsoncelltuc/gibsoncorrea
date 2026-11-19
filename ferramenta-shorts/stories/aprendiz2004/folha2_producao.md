@@ -14,10 +14,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b1 - Em janeiro de dois mil e quatro, estreou nos Estados Unidos o programa...
 - Cenario: street | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
-- Animacao: - | batalha encenada
+- Animacao: -
 - Objetos/modelos: kit/marco_trumptower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aprendiz, dois, estados, programa
 - RISCOS: nenhum
@@ -34,10 +34,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Toda semana, as equipes tinham uma tarefa de negócios, como vender lim...
 - Cenario: street | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): CND (variante 0, expressao grin); POV (variante 0, expressao surprised)
-- Animacao: conversar | interacao: entregar
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (2): CND (variante 0, expressao grin); POV (variante 0, expressao surprised) | multidao: 12 de POV
+- Animacao: conversar | batalha encenada
 - Objetos/modelos: kit/stall, kit/marco_trumptower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): equipes, negocios, propaganda, tarefa
 - RISCOS: nenhum
@@ -94,10 +94,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Trump apresentou o programa por mais de dez anos, e só saiu em dois mi...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): TRU (variante 0, expressao smug); POV (variante 0, expressao surprised)
-- Animacao: conversar | interacao: avanca e o outro recua | o ultimo personagem ENTRA andando
+- Personagens principais (1): TRU (variante 0, expressao smug)
+- Animacao: conversar
 - Objetos/modelos: kit/tv, kit/marco_trumptower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): politica, programa
 - RISCOS: nenhum
@@ -124,8 +124,8 @@ nature/picket_fence | b6 | pronto | conferir na folha de contato se le bem; se p
 
 
 ## Video inteiro
-- Objeto heroi: kit/tv | grandes momentos: b1, b6 | planos abertos: 2 | mistura: close 20% | medio 67% | aberto 6% | detalhe 7%
-- Interacoes: b0 susto, b2 aproxima-se, b3 entregar, b4 discutir, b7 abracar, b8 vai ate o outro, b9 avanca e o outro recua
+- Objeto heroi: kit/tv | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 29% | medio 55% | aberto 11% | detalhe 5%
+- Interacoes: b0 susto, b2 aproxima-se, b4 discutir, b7 abracar, b8 vai ate o outro
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

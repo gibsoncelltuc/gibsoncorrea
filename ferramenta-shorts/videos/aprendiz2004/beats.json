@@ -91,7 +91,7 @@
    "say": "Dezesseis candidatos disputavam um prêmio raro: um emprego de verdade numa empresa de Donald Trump."
   },
   {
-   "shot": "group",
+   "shot": "two",
    "who": [
     "CND:0:grin",
     "POV:0:surprised"
@@ -99,19 +99,19 @@
    "props": [
     [
      "kit/stall",
-     2.4,
-     -1.8,
+     1.4,
+     -1.0,
      1.0
     ]
    ],
-   "interacao": "entregar",
    "fx": [
     "puff@40"
    ],
    "sfx": [
     "thump@40"
    ],
-   "say": "Toda semana, as equipes tinham uma tarefa de negócios, como vender limonada na rua ou criar uma propaganda."
+   "say": "Toda semana, as equipes tinham uma tarefa de negócios, como vender limonada na rua ou criar uma propaganda.",
+   "acao": "conversar"
   },
   {
    "shot": "two",
@@ -216,16 +216,15 @@
    "say": "O formato se espalhou pelo mundo. No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus."
   },
   {
-   "shot": "group",
+   "shot": "close",
    "who": [
-    "TRU:0:smug",
-    "POV:0:surprised"
+    "TRU:0:smug"
    ],
    "props": [
     [
      "kit/tv",
-     2.4,
-     -1.8,
+     1.6,
+     -0.8,
      1.0
     ]
    ],
