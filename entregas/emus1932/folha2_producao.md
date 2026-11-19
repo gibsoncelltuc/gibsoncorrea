@@ -33,27 +33,27 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - Soldados, duas metralhadoras, e dez mil balas. Contra emus.
-- Cenario: outback | luz: desert | clima: limpo
+- Cenario: mountain | luz: desert | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): AUS (variante 0, expressao stern); AUS (variante 1, expressao grin); AUS (variante 2, expressao neutral) | multidao: 14 de 
-- Animacao: - | batalha encenada
+- Animacao: encena | batalha encenada
 - Objetos/modelos: war/sandbags, cannon, emus
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
 ## Cena b4 - Acontece que emu é rápido, e não fica parado. Os soldados atiravam, e ...
-- Cenario: outback | luz: desert | clima: limpo
+- Cenario: countryside | luz: desert | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): AUS (variante 0, expressao stern); AUS (variante 1, expressao stern) | multidao: 24 de AUS
-- Animacao: - | batalha encenada
+- Animacao: encena | batalha encenada
 - Objetos/modelos: nature/picket_fence, buildings/barn, nature/haybale, nature/scarecrow, emus
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): passaros, poeira, soldados
 - RISCOS: nenhum
 
 ## Cena b5 - Um atirador montou a metralhadora num caminhão. Mas o caminhão pulava ...
-- Cenario: outback | luz: desert | clima: limpo
+- Cenario: mountain | luz: desert | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): AUS (variante 2, expressao grin)
@@ -63,21 +63,21 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Depois de uma semana, milhares de balas gastas, e os emus quase sem um...
-- Cenario: outback | luz: desert | clima: limpo
+- Cenario: mountain | luz: desert | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): AUS (variante 0, expressao pained); AUS (variante 1, expressao pained)
+- Personagens principais (2): AUS (variante 0, expressao pained); AUS (variante 1, expressao pained) | multidao: 5 de FARM
 - Animacao: conversar | interacao: susto
 - Objetos/modelos: emus
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): arranhao, balas, emus, semana
 - RISCOS: nenhum
 
-## Cena b7 - A tropa bateu em retirada. A imprensa gargalhou, e o comandante admiti...
-- Cenario: outback | luz: desert | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (3): AUS (variante 0, expressao pained); PRESS (variante 0, expressao grin, segura paper); PRESS (variante 1, expressao smile) | multidao: 12 de 
-- Animacao: comemorar | interacao: empurrar
+## Cena b7 - A tropa fugiu. A imprensa gargalhou, e o comandante admitiu: "Eles agu...
+- Cenario: mountain | luz: desert | clima: limpo
+- Camera: track = travelling lateral acompanhando quem anda
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Personagens principais (2): AUS (variante 0, expressao pained); PRESS (variante 0, expressao grin, segura paper) | multidao: 6 de 
+- Animacao: conversar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comandante, imprensa, tropa
 - RISCOS: nenhum
@@ -92,22 +92,22 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): emus, exercito, novo
 - RISCOS: nenhum
 
-## Cena b9 - No fim, o governo desistiu da guerra, e passou a pagar recompensa aos ...
+## Cena b9 - No fim, o governo desistiu da guerra, e passou a oferecer um prêmio ao...
 - Cenario: outback | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): FARM (variante 0, expressao smile); FARM (variante 1, expressao grin)
-- Animacao: conversar | interacao: entregar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Personagens principais (2): FARM (variante 0, expressao pleading); FARM (variante 1, expressao grin)
+- Animacao: conversar | interacao: pedir
 - Objetos/modelos: buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow, emus
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): governo, pagar
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): governo, oferecer, premio
 - RISCOS: nenhum
 
 ## Cena b10 - Humanos, zero. Emus, um.
 - Cenario: outback | luz: golden | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (1): AUS (variante 0, expressao pained)
-- Animacao: conversar
+- Personagens principais (2): AUS (variante 0, expressao pained); AUS (variante 1, expressao sad)
+- Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: emus
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
@@ -128,8 +128,8 @@ vehicles/truck | b5 | pronto | conferir na folha de contato se le bem; se parece
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b3, b4, b8 | planos abertos: 4 | mistura: close 8% | medio 66% | aberto 18% | detalhe 8%
-- Interacoes: b2 vai ate o outro, b6 susto, b7 empurrar, b9 entregar
+- Objeto heroi: - | grandes momentos: b3, b4, b8 | planos abertos: 4 | mistura: close 6% | medio 74% | aberto 18% | detalhe 2%
+- Interacoes: b2 vai ate o outro, b6 susto, b9 pedir, b10 aproxima-se
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
