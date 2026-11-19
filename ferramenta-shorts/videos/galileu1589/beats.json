@@ -52,7 +52,7 @@
  },
  "beats": [
   {
-   "say": "Uma bola pesada e outra leve caíram juntas e bateram no chão ao mesmo tempo.",
+   "say": "Uma bola pesada e outra leve foram soltas juntas e caíram no chão ao mesmo tempo.",
    "shot": "two",
    "who": [
     "GAL:0:grin",
@@ -152,7 +152,7 @@
    ]
   },
   {
-   "say": "Acontece que, quando ele soltou as duas, elas bateram no chão ao mesmo tempo.",
+   "say": "Acontece que, quando ele soltou as duas, elas caíram no chão ao mesmo tempo.",
    "shot": "orbit",
    "who": [
     "GAL:0:shock",

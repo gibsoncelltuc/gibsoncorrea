@@ -74,14 +74,13 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Joseph sobreviveu, e a notícia correu o mundo.
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: track = travelling lateral acompanhando quem anda
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): MAE (variante 0, expressao relief); PAS (variante 0, expressao smile)
-- Animacao: conversar | interacao: reverencia
+- Animacao: encena
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): noticia
-- RISCOS: 
-  - a narracao fala de FUGA/CORRERIA e ninguem corre -> CORRECAO: "shot": "track" (os personagens atravessam a tela andando/correndo) ou "batalha": true (a tropa foge no plano aberto)
+- RISCOS: nenhum
 
 ## Cena b8 - Anos depois, ele virou o guarda do instituto de Pasteur, e cuidou do l...
 - Cenario: street | luz: day | clima: limpo
@@ -123,11 +122,10 @@ kit/syringe | b0, b3, b6, b9 | pronto (HEROI: aparece em close) | conferir na fo
 
 ## Video inteiro
 - Objeto heroi: kit/syringe | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 16% | medio 72% | aberto 10% | detalhe 2%
-- Interacoes: b0 susto, b2 avanca e o outro recua, b3 cochichar, b4 o outro se aproxima, b7 reverencia, b8 cochichar, b9 pular
+- Interacoes: b0 susto, b2 avanca e o outro recua, b3 cochichar, b4 o outro se aproxima, b8 cochichar, b9 pular
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- b7: a narracao fala de FUGA/CORRERIA e ninguem corre
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh pasteur1885 bN bM` (so essas cenas).

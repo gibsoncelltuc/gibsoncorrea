@@ -11,8 +11,8 @@ b5 | orbit | -  | batalha aberta com tiros, tropa | tiros: 5 soldados caem no ch
 b6 | two | -  | - | (rosto) sad (expr + som de efeito); morreu (puff + som de baque) | -
 b7 | two | -  | interior, objeto na mao | - | -
 b8 | close | -  | interior | encena: perde (facepalm) (acao + som de efeito) | -
-b9 | two | -  | tropa, interior, objeto na mao | - | -
+b9 | group | -  | tropa, objeto na mao | - | -
 b10 | close | -  | - | - | -
 
-Mistura de planos: close 24% | medio 58% | aberto 14% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 24% | medio 56% | aberto 14% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | dentro do padrao do canal

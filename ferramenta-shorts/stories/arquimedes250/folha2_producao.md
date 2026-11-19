@@ -18,7 +18,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao neutral) | multidao: 8 de POV
 - Animacao: -
-- Objetos/modelos: -
+- Objetos/modelos: kit/bathtub
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cristo, duzentos, sicilia, suspeita
 - RISCOS: nenhum
 
@@ -54,11 +54,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Arquimedes pensou por dias e dias, e a resposta não vinha.
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): ARQ (variante 0, expressao sad)
 - Animacao: conversar
-- Objetos/modelos: -
+- Objetos/modelos: kit/bathtub
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
@@ -104,21 +104,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b10 - No fim, dá para enganar um rei, mas não uma banheira.
 - Cenario: street | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (1): OUR (variante 0, expressao sad)
-- Animacao: conversar
+- Personagens principais (2): REI (variante 0, expressao smile); OUR (variante 0, expressao sad)
+- Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/bathtub
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): banheira
-- RISCOS: 
-  - a narracao cita "rei" e ninguem em cena esta vestido a carater -> CORRECAO: por no "who" um personagem com "profissao": "rei" no figurino (coroa/farda/chapeu proprios)
+- RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
 Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito no Blender; a ferramenta so' poe em cena, pinta o contorno e anima. Nada de objeto "quadradao": use `blender/formas.py` (cil, bola, torno, tubo, arco, caixa com chanfro).
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/bathtub | b0, b6, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/bathtub | b0, b1, b5, b6, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/crown | b2, b4, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/apartment | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -126,14 +125,11 @@ nature/lamppost | b9 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/bathtub | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 16% | medio 71% | aberto 11% | detalhe 2%
-- Interacoes: b2 discutir, b3 o outro se aproxima, b4 entregar, b7 cochichar, b8 susto, b9 pular
-- RISCOS GERAIS: 
-  - objeto heroi (kit/bathtub) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
+- Objeto heroi: kit/bathtub | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 7% | medio 78% | aberto 11% | detalhe 4%
+- Interacoes: b2 discutir, b3 o outro se aproxima, b4 entregar, b7 cochichar, b8 susto, b9 pular, b10 insiste
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 2 risco(s) em aberto
-- b10: a narracao cita "rei" e ninguem em cena esta vestido a carater
-- geral: objeto heroi (kit/bathtub) sem close de camera
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh arquimedes250 bN bM` (so essas cenas).

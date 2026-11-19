@@ -9,7 +9,7 @@ b3 | two | -  | interior | - | -
 b4 | two | -  | interior | (rosto) pleading (expr + som de efeito); chegou (dust + som de impacto) | -
 b5 | close | -  | - | (rosto) scared (expr + som de efeito) | -
 b6 | orbit | -  | batalha aberta com tiros, tropa | - | -
-b7 | two | -  | interior | correu (dust + som de impacto); encena: corre (acao + som de efeito) | -
+b7 | track | -  | interior | correu (dust + som de impacto); encena: corre (acao + som de efeito) | -
 b8 | two | -  | - | - | -
 b9 | group | -  | batalha aberta com tiros, tropa, placa: VACINA | - | -
 b10 | close | -  | interior | (rosto) relief (expr + som de efeito) | -

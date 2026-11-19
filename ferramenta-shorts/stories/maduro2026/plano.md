@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | interior, placa: 2026 | - | -
+b0 | two | -  | placa: 2026 | - | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | - | - | -
 b3 | two | -  | interior, objeto na mao | segredo (ring + som de alerta); encena: examina (think) (acao + som de efeito) | -
@@ -14,5 +14,5 @@ b8 | two | -  | - | - | -
 b9 | orbit | -  | batalha aberta com tiros, tropa, placa: MUNDO | (rosto) sad (expr + som de efeito); morreu (puff + som de baque) | -
 b10 | close | -  | - | ganhou (stars + som de sino); encena: vence (up) (acao + som de efeito) | -
 
-Mistura de planos: close 21% | medio 66% | aberto 10% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 21% | medio 63% | aberto 10% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

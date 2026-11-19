@@ -16,7 +16,7 @@ b8 | interior loja | two | 2 | conversar, INTERAGEM: entregar | kit/roadster26, 
 b9 | outback | orbit | 33 | comemorar, batalha | kit/roadster26_air | - | -
 b10 | outback | close | 1 | comemorar | kit/roadster26_air | - | -
 
-OBJETO HEROI: kit/roadster26_air - aparece em 5 cena(s), close nele em 0  << AVISO: sem close no objeto heroi
+OBJETO HEROI: kit/roadster26_air - aparece em 5 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b9
 Interacoes entre personagens: b0 insiste, b2 discutir, b3 cochichar, b6 pular, b7 reverencia, b8 entregar
 

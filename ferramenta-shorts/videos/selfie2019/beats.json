@@ -69,7 +69,6 @@
  "beats": [
   {
    "shot": "two",
-   "interior": "pedra",
    "who": [
     "BUK:0:grin",
     "DE1:0:surprised"
@@ -178,7 +177,6 @@
   },
   {
    "shot": "two",
-   "interior": "pedra",
    "who": [
     "BUK:0:smile",
     "REP:0:surprised"
@@ -207,7 +205,8 @@
    "say": "Nayib Bukele, o novo presidente de El Salvador, tinha só trinta e oito anos.",
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "set": "street"
   },
   {
    "shot": "close",
@@ -367,7 +366,6 @@
   },
   {
    "shot": "two",
-   "interior": "pedra",
    "who": [
     "DE2:0:angry",
     "DE3:0:laugh"
@@ -390,11 +388,11 @@
    "say": "Alguns acharam falta de respeito com a ONU. Outros acharam genial.",
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "set": "street"
   },
   {
    "shot": "two",
-   "interior": "pedra",
    "who": [
     "BUK:0:smile",
     "DE1:0:neutral"
@@ -423,7 +421,8 @@
    "say": "No discurso, ele defendeu justamente isso: que as reuniões antigas deviam se adaptar à era da internet.",
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "set": "harbor"
   },
   {
    "shot": "close",

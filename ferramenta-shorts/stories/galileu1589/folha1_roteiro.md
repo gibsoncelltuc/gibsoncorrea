@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 03 - Galileu e a Torre de Pisa
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 163 palavras (~56 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 164 palavras (~57 s)
 
-## Cena b0  (~5.2 s)
-- Narracao: Uma bola pesada e outra leve caíram juntas e bateram no chão ao mesmo tempo.
+## Cena b0  (~5.5 s)
+- Narracao: Uma bola pesada e outra leve foram soltas juntas e caíram no chão ao mesmo tempo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@30
 - Efeito + som nas palavras-chave: caíram -> dust + som de impacto; encena: tomba -> acao + som de efeito
@@ -57,10 +57,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Funcao na historia: desenvolvimento
 
 ## Cena b6  (~4.8 s)
-- Narracao: Acontece que, quando ele soltou as duas, elas bateram no chão ao mesmo tempo.
+- Narracao: Acontece que, quando ele soltou as duas, elas caíram no chão ao mesmo tempo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40, ding@60
-- Efeito + som nas palavras-chave: encena: tomba -> acao + som de efeito
+- Efeito + som nas palavras-chave: caíram -> dust + som de impacto; encena: tomba -> acao + som de efeito
 - Efeito visual marcado: ring@40, stars@60
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

@@ -80,8 +80,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: conversar | interacao: discutir
 - Objetos/modelos: kit/egg
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cara, colega
-- RISCOS: 
-  - a narracao fala de EXPLOSAO e nao ha explosao -> CORRECAO: "fx": ["burst@30"], "sfx": ["cannon@30"] (acerte o numero para o quadro da palavra)
+- RISCOS: nenhum
 
 ## Cena b8 - Dois anos depois, saiu o primeiro forno, mais alto que uma pessoa e co...
 - Cenario: street | luz: day | clima: limpo
@@ -129,8 +128,7 @@ kit/egg | b7 | pronto | conferir na folha de contato se le bem; se parecer caixo
 - Interacoes: b0 o outro se aproxima, b2 insiste, b3 vai ate o outro, b4 susto, b7 discutir, b8 aproxima-se, b9 pular
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- b7: a narracao fala de EXPLOSAO e nao ha explosao
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh microondas1945 bN bM` (so essas cenas).

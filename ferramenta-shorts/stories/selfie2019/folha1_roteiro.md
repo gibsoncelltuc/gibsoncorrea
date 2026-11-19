@@ -4,7 +4,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 
 ## Cena b0  (~5.5 s)
 - Narracao: Um presidente chegou ao palco mais importante do mundo, e antes de falar, tirou uma selfie.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: ding@6
 - Efeito + som nas palavras-chave: chegou -> dust + som de impacto; encena: tira (lift) -> acao + som de efeito
 - Efeito visual marcado: stars@6
@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 
 ## Cena b9  (~5.9 s)
 - Narracao: No discurso, ele defendeu justamente isso: que as reuniões antigas deviam se adaptar à era da internet.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -

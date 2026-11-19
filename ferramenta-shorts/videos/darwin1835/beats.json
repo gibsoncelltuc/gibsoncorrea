@@ -92,7 +92,8 @@
      0.6,
      1.3
     ]
-   ]
+   ],
+   "set": "harbor"
   },
   {
    "say": "Darwin achou que eram aves bem diferentes entre si, e nem anotou de qual ilha vinha cada uma.",
@@ -101,7 +102,8 @@
     "DAR:0:suspicious:paper",
     "MAR:0:bored"
    ],
-   "acao": "conversar"
+   "acao": "conversar",
+   "set": "harbor"
   },
   {
    "say": "De volta à Inglaterra, o especialista John Gould disse: \"São todos tentilhões, de espécies diferentes!\"",
@@ -189,7 +191,8 @@
    "sfx": [
     "ding@40",
     "sting@60"
-   ]
+   ],
+   "set": "harbor"
   },
   {
    "say": "Os bichos com o bico certo sobreviviam melhor, e passavam isso para os filhos.",
@@ -261,7 +264,8 @@
     "ding@30",
     "sting@70"
    ],
-   "acao": "comemorar"
+   "acao": "comemorar",
+   "set": "street"
   },
   {
    "say": "No fim, o erro das etiquetas virou um acerto de bico.",
@@ -276,7 +280,8 @@
      0.3,
      1.3
     ]
-   ]
+   ],
+   "set": "countryside"
   }
  ]
 }

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 06 - Pasteur e a Vacina da Raiva
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 3.1s - 15 palavras - plano two
@@ -63,15 +63,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
-## Cena b7 - 42.2s a 44.5s - 8 palavras - plano two
+## Cena b7 - 42.2s a 44.5s - 8 palavras - plano track
 > "Joseph sobreviveu, e a notícia correu o mundo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | correu (44.1s) | EFEITO: dust | poeira + som | OK |
 | 2 | correu (44.1s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
-| 3 | - | INTERACAO | reverencia | OK |
-| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b8 - 45.6s a 50.3s - 19 palavras - plano two
 > "Anos depois, ele virou o guarda do instituto de Pasteur, e cuidou do lugar até o fim da vida."

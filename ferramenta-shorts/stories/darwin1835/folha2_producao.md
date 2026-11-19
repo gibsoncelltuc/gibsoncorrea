@@ -63,15 +63,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Acontece que Darwin entendeu que, em cada ilha, o bico tinha mudado de...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): DAR (variante 0, expressao shock); GOU (variante 0, expressao surprised) | multidao: 10 de MAR/POV
 - Animacao: reagir | batalha encenada
 - Objetos/modelos: kit/finch_thick, kit/finch_long, kit/finch
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): acordo, bico, comida
-- RISCOS: 
-  - a narracao cita agua e o cenario "street" nao tem agua -> CORRECAO: "set": "harbor" (cais com mar e navio) ou "set": "palace" (praia), ou "mapa" para so situar
+- RISCOS: nenhum
 
 ## Cena b7 - Os bichos com o bico certo sobreviviam melhor, e passavam isso para os...
 - Cenario: interior madeira | luz: day | clima: limpo
@@ -104,7 +103,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b10 - No fim, o erro das etiquetas virou um acerto de bico.
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): DAR (variante 0, expressao smug)
@@ -128,8 +127,7 @@ kit/finch_long | b5, b6, b9 | pronto | conferir na folha de contato se le bem; s
 - Interacoes: b0 vai ate o outro, b2 aproxima-se, b3 avanca e o outro recua, b4 discutir, b5 o outro se aproxima, b7 cochichar, b8 pular
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- b6: a narracao cita agua e o cenario "street" nao tem agua
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh darwin1835 bN bM` (so essas cenas).

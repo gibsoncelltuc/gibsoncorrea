@@ -2,7 +2,7 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/galileu1589/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py galileu1589` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Uma bola pesada e outra leve caíram juntas e bateram no chão ao mesmo ...
+## Cena b0 - Uma bola pesada e outra leve foram soltas juntas e caíram no chão ao m...
 - Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
@@ -10,8 +10,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: conversar | interacao: susto
 - Objetos/modelos: kit/pisa_tower, kit/marco_pisa, kit/ball
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bola, chao
-- RISCOS: 
-  - ACAO SEM ANIMACAO na narracao: bateram -> CORRECAO: a cena precisa MOSTRAR a acao: reescreva com um verbo que a ferramenta encena (veja OPERACAO.md "MODO DE ACAO") ou marque a cena ("batalha", "interacao", "acao", "animals", "props")
+- RISCOS: nenhum
 
 ## Cena b1 - Conta a história que, em Pisa, na Itália, por volta de mil quinhentos ...
 - Cenario: street | luz: day | clima: limpo
@@ -63,7 +62,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): duas, pesos, pisa, torre
 - RISCOS: nenhum
 
-## Cena b6 - Acontece que, quando ele soltou as duas, elas bateram no chão ao mesmo...
+## Cena b6 - Acontece que, quando ele soltou as duas, elas caíram no chão ao mesmo ...
 - Cenario: street | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
@@ -71,8 +70,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: reagir | batalha encenada
 - Objetos/modelos: kit/pisa_tower, kit/ball, war/cannonballs, kit/marco_pisa
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chao, duas
-- RISCOS: 
-  - ACAO SEM ANIMACAO na narracao: bateram -> CORRECAO: a cena precisa MOSTRAR a acao: reescreva com um verbo que a ferramenta encena (veja OPERACAO.md "MODO DE ACAO") ou marque a cena ("batalha", "interacao", "acao", "animals", "props")
+- RISCOS: nenhum
 
 ## Cena b7 - A plateia ficou de boca aberta, e os professores ficaram bravos.
 - Cenario: stadium | luz: day | clima: limpo
@@ -129,13 +127,11 @@ kit/feather | b9 | pronto | conferir na folha de contato se le bem; se parecer c
 
 
 ## Video inteiro
-- Objeto heroi: kit/pisa_tower | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 7% | medio 79% | aberto 11% | detalhe 2%
+- Objeto heroi: kit/pisa_tower | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 7% | medio 80% | aberto 11% | detalhe 2%
 - Interacoes: b0 susto, b2 vai ate o outro, b3 aproxima-se, b4 discutir, b5 avanca e o outro recua, b7 susto, b8 cochichar, b9 pular
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 2 risco(s) em aberto
-- b0: ACAO SEM ANIMACAO na narracao: bateram
-- b6: ACAO SEM ANIMACAO na narracao: bateram
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh galileu1589 bN bM` (so essas cenas).

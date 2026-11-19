@@ -1,12 +1,12 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 09 - Mendel e as Ervilhas
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 11 cenas, 155 palavras (~53 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 11 cenas, 154 palavras (~53 s)
 
-## Cena b0  (~5.2 s)
-- Narracao: Um monge passou oito anos contando ervilhas e acabou descobrindo como herdamos o que somos.
+## Cena b0  (~4.8 s)
+- Narracao: Um monge passou oito anos contando ervilhas e descobriu como herdamos o que somos.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@60
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: descobriu -> ring + som de alerta; encena: examina (think) -> acao + som de efeito
 - Efeito visual marcado: stars@60
 - Texto na tela: -
 - Funcao na historia: GANCHO

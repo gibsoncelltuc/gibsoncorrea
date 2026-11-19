@@ -4,7 +4,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | interior loja | two | 2 | conversar, INTERAGEM: aproxima-se | kit/helicopter_air | - | -
+b0 | street | two | 2 | conversar, INTERAGEM: aproxima-se | kit/helicopter_air | - | -
 b1 | street | reveal | 8 | reagir | buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b2 | countryside | two | 2 | discutir, INTERAGEM: discutir | - | - | -
 b3 | interior loja | two | 2 | conversar, INTERAGEM: cochichar | - | paper | -
@@ -16,7 +16,7 @@ b8 | street | two | 2 | conversar, INTERAGEM: entregar | kit/scroll, vehicles/ai
 b9 | street | orbit | 21 | reagir, batalha | - | - | -
 b10 | street | close | 1 | comemorar | kit/helicopter_air | - | -
 
-OBJETO HEROI: kit/helicopter_air - aparece em 4 cena(s), close nele em 0  << AVISO: sem close no objeto heroi
+OBJETO HEROI: kit/scroll - aparece em 1 cena(s), close nele em 2
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b9
 Interacoes entre personagens: b0 aproxima-se, b2 discutir, b3 cochichar, b6 empurrar, b7 avanca e o outro recua, b8 entregar
 

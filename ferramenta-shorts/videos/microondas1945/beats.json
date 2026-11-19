@@ -150,6 +150,7 @@
     "COL:0:shock"
    ],
    "fx": [
+    "burst@50",
     "puff@50"
    ],
    "sfx": [

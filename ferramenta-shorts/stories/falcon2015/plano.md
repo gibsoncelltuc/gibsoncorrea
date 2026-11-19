@@ -11,8 +11,8 @@ b5 | crowd | -  | batalha aberta com tiros, tropa | - | -
 b6 | low | noite  | - | - | -
 b7 | two | noite  | - | - | -
 b8 | orbit | -  | batalha aberta com tiros, tropa, placa: POUSOU! | (rosto) shout (expr + som de efeito); gritaram (ring + som de alerta); encena: grita (up) (acao + som de efeito) | -
-b9 | two | -  | interior | - | -
+b9 | two | -  | - | - | -
 b10 | close | -  | - | - | -
 
-Mistura de planos: close 14% | medio 73% | aberto 11% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 14% | medio 71% | aberto 11% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

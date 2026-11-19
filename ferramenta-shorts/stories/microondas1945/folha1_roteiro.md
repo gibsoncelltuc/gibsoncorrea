@@ -70,7 +70,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: squeal@50
 - Efeito + som nas palavras-chave: explodiu -> burst + som de tiro/explosao; encena: desaba -> acao + som de efeito
-- Efeito visual marcado: puff@50
+- Efeito visual marcado: burst@50, puff@50
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 

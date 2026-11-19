@@ -74,7 +74,15 @@
     "march": false
    },
    "mapa": "SICÍLIA",
-   "mapa_at": 2
+   "mapa_at": 2,
+   "props": [
+    [
+     "kit/bathtub",
+     1.5,
+     -0.5,
+     1.0
+    ]
+   ]
   },
   {
    "say": "O rei Hierão mandou fazer uma coroa de ouro puro, mas desconfiou do ourives.",
@@ -116,7 +124,15 @@
     "ARQ:0:sad"
    ],
    "impact": false,
-   "batalha": false
+   "batalha": false,
+   "props": [
+    [
+     "kit/bathtub",
+     1.5,
+     -0.5,
+     1.0
+    ]
+   ]
   },
   {
    "say": "Acontece que, numa tarde, ele entrou na banheira, e a água transbordou pelas bordas.",
@@ -209,9 +225,18 @@
   },
   {
    "say": "No fim, dá para enganar um rei, mas não uma banheira.",
-   "shot": "close",
+   "shot": "two",
    "who": [
+    "REI:0:smile",
     "OUR:0:sad"
+   ],
+   "props": [
+    [
+     "kit/bathtub",
+     1.5,
+     -0.5,
+     1.0
+    ]
    ]
   }
  ]

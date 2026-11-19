@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | objeto na mao | - | -
+b0 | two | -  | objeto na mao | descobriu (ring + som de alerta); encena: examina (think) (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | - | - | -
 b3 | two | -  | - | encena: sai (acao + som de efeito) | -

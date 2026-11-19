@@ -10,11 +10,11 @@ b2 | harbor | two | 2 | conversar, INTERAGEM: aproxima-se | kit/finch | bag | -
 b3 | harbor | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/finch | paper | -
 b4 | interior pedra | two | 2 | conversar, INTERAGEM: discutir | kit/finch | - | -
 b5 | interior madeira | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/finch_thick, kit/finch_long | - | -
-b6 | street | wide | 12 | reagir, batalha | kit/finch_thick, kit/finch_long, kit/finch | - | -
+b6 | harbor | wide | 12 | reagir, batalha | kit/finch_thick, kit/finch_long, kit/finch | - | -
 b7 | interior madeira | two | 2 | conversar, INTERAGEM: cochichar | kit/finch_thick | - | -
 b8 | interior madeira | two | 2 | comemorar, INTERAGEM: pular | - | book | -
 b9 | street | crowd | 16 | comemorar, batalha | kit/finch_thick, kit/finch_long | - | -
-b10 | harbor | close | 1 | conversar | kit/finch | - | -
+b10 | countryside | close | 1 | conversar | kit/finch | - | -
 
 OBJETO HEROI: kit/finch - aparece em 6 cena(s), close nele em 3
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b6, b9

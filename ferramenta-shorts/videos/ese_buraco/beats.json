@@ -191,7 +191,7 @@
     "whoosh@50"
    ],
    "say": "Você cairia cada vez mais rápido, e passaria pelo centro do planeta a milhares de quilômetros por hora.",
-   "set": "mountain"
+   "set": "countryside"
   },
   {
    "shot": "two",
@@ -255,7 +255,8 @@
    ],
    "text": "40 MINUTOS",
    "titulo": true,
-   "say": "Os cientistas chamam isso de túnel da gravidade."
+   "say": "Os cientistas chamam isso de túnel da gravidade.",
+   "set": "street"
   },
   {
    "shot": "close",

@@ -12,7 +12,7 @@ b6 | orbit | -  | batalha aberta com tiros, tropa | - | -
 b7 | two | -  | interior | percebeu (ring + som de alerta); encena: pensa (think) (acao + som de efeito) | -
 b8 | prop | -  | - | ouro (stars + som de sino); encena: examina (think) (acao + som de efeito) | -
 b9 | group | -  | batalha aberta com tiros, tropa, placa: EUREKA | (rosto) shout (expr + som de efeito); gritou (ring + som de alerta); correu (dust + som de impacto); encena: grita (up) (acao + som de efeito); encena: corre (acao + som de efeito) | -
-b10 | close | -  | - | - | -
+b10 | two | -  | - | - | -
 
-Mistura de planos: close 16% | medio 71% | aberto 11% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 7% | medio 78% | aberto 11% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 2 | dentro do padrao do canal

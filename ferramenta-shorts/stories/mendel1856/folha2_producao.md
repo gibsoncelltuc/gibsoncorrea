@@ -2,7 +2,7 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/mendel1856/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py mendel1856` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Um monge passou oito anos contando ervilhas e acabou descobrindo como ...
+## Cena b0 - Um monge passou oito anos contando ervilhas e descobriu como herdamos ...
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
@@ -10,8 +10,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/pea_green
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): monge
-- RISCOS: 
-  - ACAO SEM ANIMACAO na narracao: descobrindo -> CORRECAO: a cena precisa MOSTRAR a acao: reescreva com um verbo que a ferramenta encena (veja OPERACAO.md "MODO DE ACAO") ou marque a cena ("batalha", "interacao", "acao", "animals", "props")
+- RISCOS: nenhum
 
 ## Cena b1 - Era mil oitocentos e cinquenta e seis, num mosteiro de Brno, e o monge...
 - Cenario: countryside | luz: day | clima: limpo
@@ -132,8 +131,7 @@ kit/pea_yellow | b2, b3, b5, b6, b9 | pronto | conferir na folha de contato se l
 - Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b3 susto, b4 discutir, b5 insiste, b7 cochichar, b8 vai ate o outro, b9 pular
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- b0: ACAO SEM ANIMACAO na narracao: descobrindo
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh mendel1856 bN bM` (so essas cenas).

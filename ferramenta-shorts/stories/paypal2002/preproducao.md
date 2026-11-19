@@ -7,8 +7,8 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | street | two | 2 | conversar, INTERAGEM: insiste | kit/coin | - | -
 b1 | harbor | reveal | 10 | conversar | kit/coin | - | -
 b2 | harbor | close | 1 | reagir | kit/coin | - | -
-b3 | harbor | reveal | 12 | batalha | - | - | -
-b4 | harbor | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/rocket, kit/roadster | - | -
+b3 | countryside | reveal | 12 | batalha | - | - | -
+b4 | street | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/rocket, kit/roadster | - | -
 b5 | countryside | crowd | 12 | reagir, batalha | kit/rocket | - | -
 b6 | street | two | 3 | conversar, INTERAGEM: entregar | kit/coin, kit/rocket | - | -
 
