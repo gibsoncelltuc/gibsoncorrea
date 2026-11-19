@@ -39,6 +39,53 @@ for _b in B['beats']:   # NAVIO CHEGANDO/PARTINDO: plano aberto no cais para ver
 for _b in B['beats']:   # MONTANHA: cena que fala de colina/montanha/morro acontece no cenario de montanha
     _t = re.sub(r'[^a-z ]', '', __import__('unicodedata').normalize('NFKD', _b['say'].lower()).encode('ascii', 'ignore').decode())
     if re.search(r'\bcolinas?\b|\bmontanhas?\b|\bmorros?\b|\bserra\b|\bpenhasco\b|\bencosta\b', _t) and not _b.get('set') and not _b.get('interior') and B.get('montanha_cenario') is not False: _b['set'] = 'mountain'
+# ===== VARIEDADE DE CENARIO (ordem do Gibson 19/11: "cada video tem que ter cenarios diferentes") =====
+# 1) a narracao escolhe o lugar da cena; 2) nenhum lugar ocupa mais da metade do video e todo video tem pelo menos 3 lugares
+_EXPL = {i_ for i_, b_ in enumerate(B['beats']) if b_.get('set') or b_.get('interior')}   # o que o roteiro fixou nao muda
+_LUGAR = ((r'desert|areia|egito|egipci|piramide|arabia|saara|australia|faraó|farao|seca\b|caravana', 'set', 'outback'),
+          (r'florest|selva|amazon|\bmata\b|tribo|aldeia|indigena', 'set', 'jungle'),
+          (r'castelo|cavaleir|medieval|reino\b|rainha|imperador|\bcorte\b|trono', 'set', 'medieval'),
+          (r'estadio|torcida|futebol|\bpartida\b|ringue|\bluta\b|campeonato|\bcopa\b|lutador', 'set', 'stadium'),
+          (r'fazenda|\bcampo\b|plantac|colheit|lavoura|agricult|\bsitio\b|pasto', 'set', 'countryside'),
+          (r'palacio|congresso|parlamento|\bonu\b|assembleia|tribunal|senado|discurso|coletiva|casa branca|gabinete', 'interior', 'pedra'),
+          (r'escritorio|empresa\b|reuniao|laboratorio|\bloja\b|mercado|padaria|\bbanco\b|restaurante|bar\b|fabrica', 'interior', 'loja'),
+          (r'\bcasa\b|\bsala\b|quarto|cozinha|familia|jantar', 'interior', 'madeira'),
+          (r'\bcidade\b|\bruas?\b|predio|avenida|transito|metro\b|bairro', 'set', 'street'))
+for i_, _b in enumerate(B['beats']):
+    if i_ in _EXPL or _b.get('mapa') or B.get('variar_cenario') is False: continue
+    _t = __import__('unicodedata').normalize('NFKD', _b['say'].lower()).encode('ascii', 'ignore').decode()
+    for rx_, k_, v_ in _LUGAR:
+        if re.search(rx_, _t):
+            if k_ == 'interior' and (_b.get('shot') in ('reveal', 'crowd', 'orbit', 'track') or _b.get('batalha') or _b.get('veiculo') or _b.get('crowd')): continue
+            if k_ == 'set' and v_ == SET: break
+            _b[k_] = v_; break
+_ALT = {'street': ['interior loja', 'harbor', 'countryside', 'interior madeira'], 'harbor': ['street', 'interior madeira', 'countryside'],
+        'countryside': ['mountain', 'interior madeira', 'street'], 'outback': ['mountain', 'interior pedra', 'countryside'],
+        'palace': ['interior pedra', 'street', 'harbor'], 'jungle': ['harbor', 'mountain', 'interior madeira'], 'medieval': ['interior pedra', 'countryside', 'mountain'],
+        'arctic': ['harbor', 'interior madeira', 'mountain'], 'mountain': ['countryside', 'interior madeira', 'outback'], 'stadium': ['street', 'interior loja', 'countryside'],
+        'hall': ['street', 'interior pedra', 'harbor']}
+_lug = lambda b_: ('interior ' + str(b_['interior'])) if b_.get('interior') else b_.get('set', SET)
+_N = len(B['beats'])
+if _N >= 6 and B.get('variar_cenario') is not False:
+    for _volta in range(3):
+        _cont = __import__('collections').Counter(_lug(b_) for b_ in B['beats'])
+        _dom, _qt = _cont.most_common(1)[0]
+        if len(_cont) >= 3 and _qt <= _N // 2: break
+        _livres = [i_ for i_, b_ in enumerate(B['beats']) if _lug(b_) == _dom and i_ not in _EXPL and i_ not in (0, _N - 1) and not b_.get('mapa')]
+        _opc = [o_ for o_ in _ALT.get(_dom.replace('interior ', ''), _ALT['street']) if o_ not in _cont] or _ALT.get(SET, _ALT['street'])
+        _bl = [_livres[j_:j_ + 2] for j_ in range(0, len(_livres), 2)]
+        _bl = _bl[1::2] + _bl[0::2]   # blocos de 2 cenas seguidas, primeiro um sim um nao (o lugar muda junto com a historia)
+        for n_, bl_ in enumerate(_bl):
+            if _cont[_dom] <= _N // 2 and len(_cont) >= 3: break
+            o_ = _opc[n_ % len(_opc)]
+            for i_ in bl_:
+                b_ = B['beats'][i_]
+                _o = o_
+                if _o.startswith('interior') and (b_.get('shot') in ('reveal', 'crowd', 'orbit', 'track') or b_.get('batalha') or b_.get('veiculo') or b_.get('crowd') or b_.get('props')):
+                    _o = next((x_ for x_ in _opc if not x_.startswith('interior')), 'harbor')
+                if _o.startswith('interior'): b_['interior'] = _o.split()[1]
+                else: b_['set'] = _o
+                _cont[_dom] -= 1; _cont[_o] += 1
 for _b in B['beats']:
     if _b.get('interior') and not _b.get('set'): _b['set'] = 'hall'      # interior fica no cenario 'hall' (sem arbusto/pedrinha de area externa)
 USED_SETS = [SET] + sorted({b['set'] for b in B['beats'] if b.get('set') and b['set'] != SET and b['set'] in SETS_X})   # cenario por cena: "set" dentro do beat
@@ -816,6 +863,9 @@ _glob = []
 if not any(b.get('mapa') for b in beats): _glob.append(('nenhum mapa no video (o canal situa o lugar com mapa rapido)', '"mapa": "NOME DO LUGAR" na cena 1 ou 2'))
 if sum(1 for b in beats if b.get('impact')) < 2: _glob.append(('menos de 2 grandes momentos', '"batalha": true (ou "impact": true) em duas cenas de acao'))
 if HEROI and not any(b.get('_det_heroi') for b in beats): _glob.append((f'objeto heroi ({HEROI}) sem close de camera', 'por o objeto em "props" de uma cena media de 8+ palavras'))
+_cl = __import__('collections').Counter(_lug(b_) for b_ in beats)
+if len(beats) >= 6 and B.get('variar_cenario') is not False and (len(_cl) < 3 or _cl.most_common(1)[0][1] > len(beats) // 2):
+    _glob.append((f'pouca variedade de cenario ({dict(_cl)}): o video fica parecendo todos os outros', 'pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: ' + ', '.join(SETS_X) + ' | interior: madeira, pedra, loja)'))
 if not HEROI and 'heroi' not in B: _glob.append(('video sem objeto heroi', '"heroi": "kit/<objeto>" no topo do roteiro (modele se nao existir)'))
 _cx = sorted({o_ for b in beats for o_ in [str(p_[0]) for p_ in b.get('props', [])] + b.get('_auto_obj', []) if '/' in str(o_) and not _redondo(str(o_))})
 if _cx: _glob.append((f'objeto montado com caixas (estilo Minecraft): {", ".join(_cx)}', 'refazer com formas redondas: blender/objetos_<sessao>.py usando blender/formas.py (cil, bola, torno, tubo, arco), mesmo nome de arquivo; rodar o blender e este roteiro de novo'))

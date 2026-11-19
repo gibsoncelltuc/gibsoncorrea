@@ -14,6 +14,8 @@ DURAÇÃO (ordem do Gibson, 18/11): roteiro bem amarrado pode passar de 60 s (ex
 
 ENTREGA (lição de 19/11): o chat busca o mp4 NO SERVIDOR quando o Gibson toca nele. NUNCA apague o mp4 enviado: copie para `videos_prontos/<Série>/` e mande de lá. Só apague depois que ele disser que baixou.
 
+CENÁRIOS VARIADOS (ordem do Gibson 19/11): todo vídeo tem 3+ lugares e nenhum em mais da metade das cenas. A ferramenta escolhe o lugar pela narração (deserto→outback, floresta→jungle, castelo→medieval, estádio→stadium, fazenda→countryside, palácio/ONU/congresso→interior pedra, escritório/loja/banco→interior loja, casa→interior madeira, cidade→street) e alterna sozinha se um lugar dominar; se o roteiro fixar tudo no mesmo lugar, a folha 2 acusa RISCO. Para desligar num vídeo: "variar_cenario": false.
+
 ## Os 7 passos (não pule nenhum)
 
 1. **Ler** `CAPACIDADES.md` (o que a ferramenta tem) e `MODO_RICKS.md` (como o roteiro é escrito).
