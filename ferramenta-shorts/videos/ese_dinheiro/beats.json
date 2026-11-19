@@ -68,12 +68,6 @@
     "PAD:0:shock",
     "POV:0:nervous"
    ],
-   "fx": [
-    "ring@30"
-   ],
-   "sfx": [
-    "sting@30"
-   ],
    "say": "Primeira manhã: você chega na padaria e não tem como pagar o café.",
    "detalhe": false,
    "verificador": false
