@@ -131,9 +131,11 @@ crate | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote
 ## Video inteiro
 - Objeto heroi: kit/campfire | grandes momentos: b0, b6, b7 | planos abertos: 4 | mistura: close 10% | medio 63% | aberto 20% | detalhe 6%
 - Interacoes: b3 aproxima-se, b4 brindar, b5 empurrar, b8 susto, b9 avanca e o outro recua
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - objeto heroi (kit/campfire) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: objeto heroi (kit/campfire) sem close de camera
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh karansebes bN bM` (so essas cenas).

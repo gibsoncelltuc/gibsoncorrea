@@ -16,7 +16,7 @@ b8 | countryside | group | 7 | reagir, INTERAGEM: susto | cannon | - | -
 b9 | countryside | group | 7 | reagir, INTERAGEM: avanca e o outro recua, alguem chega andando | crate, barrel, kit/campfire, kit/tent | spyglass | -
 b10 | countryside | close | 1 | conversar | - | - | -
 
-OBJETO HEROI: kit/campfire - aparece em 2 cena(s), close nele em 1
+OBJETO HEROI: kit/campfire - aparece em 2 cena(s), close nele em 0  << AVISO: sem close no objeto heroi
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 3 -> b0, b6, b7
 Interacoes entre personagens: b3 aproxima-se, b4 brindar, b5 empurrar, b8 susto, b9 avanca e o outro recua
 

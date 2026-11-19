@@ -49,7 +49,6 @@ const SPEC = {
 };
 
 // FOLHA3 bb50d8c28e6b 35 acoes=35 faltando=0
-SPEC.fit = {"b0":1.12,"b4":1.254,"b4_v":1.254,"b7":1.12,"b7_1":1.12,"b8":1.404,"b8~1":1.254,"b8~2":1.254,"b9":1.12,"b9_1":1.12};
 // ===== STORY RUNTIME (generic): turns a declarative SPEC (stories/<id>.spec.js, concatenated before this file) into the story.js interface the engine expects =====
 import { camFromKeys, clamp, lerp, ramp, q, blinkAt, idle, M } from './motion.js';
 export const FPS = 30, TOTAL = SPEC.total, DECK = 6;
@@ -84,6 +83,7 @@ const LIB_LIGHTS = {
   overcast: { cloud: '#c2c8d2', az: 180, el: 45, sky: '#c8d0da', ground: '#7a7a72', hemi: 1.25, sun: '#e8eef4', sunI: 1.4, fog: '#c4ccd6', fogNear: 60, fogFar: 520, skyTop: '#8a98ac', skyHor: '#c9d2dc', sat: 0.95, vig: 0.28, shadowExt: 24, rimC: '#bcd0ee', rimI: 0.3 },
   night: { exp: 1.08, cloud: '#3c4a80', az: 220, el: 38, sky: '#33447c', ground: '#222c52', hemi: 0.98, sun: '#b4c0ff', sunI: 1.35, fog: '#101a3a', fogNear: 40, fogFar: 420, skyTop: '#0b1438', skyHor: '#263a74', sat: 0.6, gain: '#a9b8f0', vig: 0.4, shadowExt: 24, rimC: '#6a8aff', rimI: 0.7 },
   deck: { az: 150, el: 40, sky: '#d6e6f8', ground: '#8a7a5a', hemi: 1.2, sun: '#fff1d4', sunI: 2.5, fog: '#d3e3f2', fogNear: 100, fogFar: 700, skyTop: '#4d88d8', skyHor: '#cfe2f5', sat: 1.1, vig: 0.24, shadowExt: 22, rimC: '#bcd8ff', rimI: 0.3 },
+  study_dark: { exp: 0.82, az: 250, el: 38, sky: '#3a3550', ground: '#2a2230', hemi: 0.6, sun: '#ffc890', sunI: 0.75, fog: '#151020', fogNear: 30, fogFar: 220, skyTop: '#100c1c', skyHor: '#1c1830', sat: 0.85, gain: '#c4b4e6', vig: 0.58, shadowExt: 18, rimC: '#9ab0ff', rimI: 0.85 },   /* SALA NO ESCURO (luz apagada / noite dentro de casa) */
   study: { az: 250, el: 38, sky: '#ffe9c4', ground: '#8a6a4a', hemi: 1.15, sun: '#ffe2b0', sunI: 2.1, fog: '#7a5a46', fogNear: 60, fogFar: 400, skyTop: '#3a2a36', skyHor: '#5a3a3a', sat: 1.12, gain: '#fff0dc', vig: 0.34, shadowExt: 18, rimC: '#ffc880', rimI: 0.55, shafts: 0.55 },
   dusk: { cloud: '#ffc9a8', az: 275, el: 7, sky: '#b498c8', ground: '#5a4658', hemi: 0.95, sun: '#ff9060', sunI: 2.8, fog: '#d88a78', fogNear: 80, fogFar: 600, skyTop: '#5a4a94', skyHor: '#ff9a6a', sunDisc: '#ffd8a0', sunSize: 0.0045, sat: 1.2, gain: '#ffe2d0', vig: 0.34, shadowExt: 26, rimC: '#7a8cff', rimI: 0.65, glow: 1.0 },
   arctic: { exp: 0.80, az: 200, el: 12, sky: '#c9b8ec', ground: '#7a8cc8', hemi: 0.9, sun: '#ffd9a8', sunI: 3.1, fog: '#f2d2c8', fogNear: 120, fogFar: 800, skyTop: '#3a58e0', skyHor: '#ffc3a0', sunDisc: '#fff0c8', sunSize: 0.006, glow: 0.9, sat: 1.9, gain: '#fff0e0', vig: 0.24, shadowExt: 26, rimC: '#ffc890', rimI: 0.6, shafts: 0.6, gsel: 1 },
