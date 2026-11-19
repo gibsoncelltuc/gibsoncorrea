@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Wilhelm Röntgen passava as noites no laboratório, testando um tubo de vidro que soltava faíscas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: encena: quimico (pour) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: quimico (pour) -> acao + som de efeito; encena: brilha (point) -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que, do outro lado da sala, uma tela começou a brilhar no escuro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, sting@24
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: brilha (point) -> acao + som de efeito
 - Efeito visual marcado: stars@20, ring@24
 - Texto na tela: -
 - Funcao na historia: VIRADA

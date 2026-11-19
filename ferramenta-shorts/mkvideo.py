@@ -446,6 +446,7 @@ ENC = [(r'^(misturou|misturaram|misturando|mistura|misturar|mexeu|mexendo|mexia|
        (r'^(entregou|entregaram|deu|deram|ofereceu|ofereceram|recebeu|receberam)$', 'reach', 'x_entrega'),
        (r'^(mediu|mediram|pesou|calculou|contou|contaram)$', 'think', 'examina'),
        (r'^(apresentou|mostrou|exibiu|revelou|lancou|anunciou)$', 'point', 'fala'),
+       (r'^(brilhar|brilhou|brilhava|brilhando|brilho|acendeu|acenderam|acendia|reluzia|reluziu|iluminou|cintilou|faiscas?|faiscava)$', 'point', 'brilha'),
        (r'^(pegou|pegaram|segurou|ergueu|levantou|levantaram|carregou|carregaram)$', 'lift', 'pega')]
 ENC_MAT = [(r'borracha|latex|seiva|goma|gosma|massa|pasta|cola|mistura', 'kit/gosma'), (r'enxofre|polvora|\bpo\b', 'kit/enxofre'), (r'quimic|acido|liquido|reagente', 'kit/frasco'), (r'ovo', 'kit/egg'), (r'chocolate', 'kit/chocolate')]
 ENC_RES = [(r'borracha|elastic|firme|couro|vulcaniz', 'kit/borracha'), (r'pneu', 'kit/tires'), (r'\bbola\b', 'kit/ball'), (r'pipoca', 'kit/popcorn'), (r'chocolate', 'kit/chocolate'),
@@ -723,7 +724,7 @@ def build_beat(k, b):
     if 'wind' in b: wx['wind'] = b['wind']
     who = b.get('who', []); animals = b.get('animals', []); props = b.get('props', [])
     wide_pre = shot in WIDE
-    if b.get('interior') and not b.get('light'): light = 'study'
+    if b.get('interior') and not b.get('light'): light = 'study_dark' if (b.get('hora') == 'noite' or re.search(r'apagou a luz|apagaram a luz|apagou as luzes|no escuro|escurid|luz apagada|a noite toda|madrugada|de noite|\bnoite\b', b['say'].lower())) else 'study'   # dentro de casa a noite/luz apagada: sala na penumbra
     mv = b.get('move', 8 if shot == 'track' else 0)
     a, bb = f'A[{k}]', f'A[{k + 1}] - 1'
     # elenco de pessoas
@@ -1191,6 +1192,11 @@ def build_beat(k, b):
                 if tipo_ in ('x_beija', 'x_abraca') and len(persons) > 1 and not b.get('interacao'): b['interacao'] = 'abracar'
                 if tipo_ == 'x_acorda': _gst.setdefault(('poses', 0), []).append(f"[{a}, WS({wi_}), 'sleep']")
                 KWSFX.append((wi_, _X[0]))
+            elif tipo_ == 'brilha':   # o objeto da cena (heroi ou o que estiver em props) brilha na palavra
+                _po = next((p_ for p_ in (b.get('props') or []) if not str(p_[0]).startswith(('kit/room', 'kit/marco', 'buildings/', 'mk/'))), None)
+                _bx, _bz = (float(_po[1]), float(_po[2])) if _po else (_tx, _tz)
+                for q_ in range(3): fx.append(f"{{ k: {json.dumps(['ring', 'stars', 'ring'][q_])}, a: WS({wi_}) + {q_ * 10}, b: WS({wi_}) + {q_ * 10 + 30}, at: [X + {num(_bx)}, DK + 1.4, {num(_bz + 0.4)}], s: {num(1.1 - q_ * 0.2)} }}")
+                KWSFX.append((wi_, 'ding'))
             PLANO.append((k, f'encena: {tipo_}' + (f' ({gest_})' if gest_ else ''), 'acao'))
         if _encs or (persons and persons[0][3]): b['_acao'] = b.get('_acao') or ('atira' if persons[0][3] == 'rifle' else 'encena')   # quem faz o processo / segura o objeto NAO esta parado
         if _gst.get(0) and acts: acts[0] = f"Object.assign({acts[0]}, {{ gests: [{', '.join(_gst[0])}] }})"
@@ -1531,7 +1537,7 @@ _ENC_DESC = {'mistura': 'mexe a panela (borbulhando)', 'cai': 'o material voa da
     'protesto': 'punho para cima (protesto)', 'fala': 'aponta explicando', 'olha': 'aponta/olha', 'sai': 'sai andando pela lateral', 'tomba': 'cai sentado no chao + poeira', 'dorme': 'dormindo', 'senta': 'senta',
     'raspa': 'maquina na cabeca + cabelo voando', 'prende': 'empurra/prende', 'escala': 'escala (bracos para cima)', 'espeta': 'espeta + estouro', 'bola': 'chuta a bola: parabola pela GRAVIDADE (0,67 s)', 'negocio': 'moeda girando (compra/venda)',
     'tira': 'tira foto (celular + flash)', 'rende': 'maos para cima (rendicao)', 'voa': 'decola: poeira no chao, olha para cima', 'cava': 'cava: poeira', 'vence': 'bracos para cima + brilho', 'perde': 'mao na testa',
-    'toca': 'onda de som (sirene/sino)', 'queima': 'fogo + fumaca', 'grita': 'grita de bracos para cima', 'atira': 'arma na mao, aponta, clarao e som de tiro', 'corre': 'sai correndo pela lateral + poeira', 'pula': f'pula 2 vezes: sobe {GPULO_H} m e volta pela GRAVIDADE em {GPULO_T:.2f} s cada pulo', 'acena': 'acena com a mao', 'empurra': 'empurra/puxa',
+    'toca': 'onda de som (sirene/sino)', 'queima': 'fogo + fumaca', 'grita': 'grita de bracos para cima', 'atira': 'arma na mao, aponta, clarao e som de tiro', 'corre': 'sai correndo pela lateral + poeira', 'pula': f'pula 2 vezes: sobe {GPULO_H} m e volta pela GRAVIDADE em {GPULO_T:.2f} s cada pulo', 'acena': 'acena com a mao', 'empurra': 'empurra/puxa', 'brilha': 'o objeto brilha na palavra (ondas de luz + estrelas)',
     'x_bebe': 'leva o copo a boca', 'x_come': 'leva a comida a boca', 'x_chora': 'mao no rosto + lagrimas', 'x_canta': 'canta de bracos abertos + onda de som', 'x_le': 'le o papel', 'x_fone': 'celular na mao + toque',
     'x_lava': 'lava/esfrega na bacia + respingo', 'x_beija': 'beijo/abraco + brilho', 'x_planta': 'cava/planta + terra', 'x_pesca': 'puxa a linha + respingo', 'x_costura': 'costura', 'x_pinta': 'pinta/desenha + brilho',
     'x_bate': 'bate + estouro', 'x_procura': 'procura com a lupa', 'x_vigia': 'vigia de bracos cruzados', 'x_saluda': 'bate continencia', 'x_reza': 'reza + brilho', 'x_aplaude': 'aplaude de bracos para cima',

@@ -4,9 +4,9 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | -  | placa: 1895, objeto na mao | (rosto) scared (expr + som de efeito); encena: tira (lift) (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
-b2 | two | -  | interior | encena: quimico (pour) (acao + som de efeito) | -
+b2 | two | -  | interior | encena: quimico (pour) (acao + som de efeito); encena: brilha (point) (acao + som de efeito) | -
 b3 | two | noite  | interior, objeto na mao | - | -
-b4 | low | noite  | interior | - | -
+b4 | low | noite  | interior | encena: brilha (point) (acao + som de efeito) | -
 b5 | two | noite  | interior | encena: olha (point) (acao + som de efeito) | -
 b6 | two | dia  | interior | encena: tira (lift) (acao + som de efeito) | -
 b7 | close | -  | interior | encena: olha (point) (acao + som de efeito) | -
