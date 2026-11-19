@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Acontece que o primo acertou um golpe certeiro, e cortou fora um pedaç...
-- Cenario: stadium | luz: pordosol | clima: limpo
+- Cenario: street | luz: pordosol | clima: limpo
 - Camera: low = camera baixa, dramatica (virada) + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): PAR (variante 0, expressao angry, segura sword); TYC (variante 0, expressao pained, segura sword)

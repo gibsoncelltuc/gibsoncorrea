@@ -145,3 +145,10 @@ gun, cannon, squeal, snuffle, gibber, laughs, whoosh, ding, sting, thump, tick, 
 
 ## NAO existe (nao escreva cena que dependa disto)
 nadar, cavalgar, escalar, sentar, deitar (mostre o resultado ou reescreva a frase); personagem dentro de veiculo aparecendo; mais de 4 personagens principais na mesma cena fechada.
+
+## Novidades 19/11 (os 5 pontos do Gibson)
+- **Veiculos da epoca** (`blender/veiculos_epoca.py`): tanque Mark I (ate 1924), tanque WW2 (ate 1954), tanque moderno; biplano (ate 1935), caca WW2 (ate 1954); caminhao antigo (ate 1949); navio a vapor (1840-1954) e navio de guerra moderno (1955+). Troca AUTOMATICA pelo ano da historia (`vehicles/tank`, `vehicles/airplane`, `vehicles/truck`, `ship`). "aviao/biplano/bombardeiro" na narracao poe o aviao em cena. Desligar: `"veiculos_epoca": false`.
+- **Animais com anatomia** (`blender/animais_rig.py`): urso (corcova), porco 3D (focinho chato, pernas curtas, rabo enrolado), emu e galinha articulados (pescoco bica, pernas andam). Bicho 3D DEITA de lado quando leva tiro e abaixa o focinho quando fuca.
+- **Musk identificavel**: `"logo": "X"` ou `"T"` na roupa (camiseta preta com logo no peito); 2002 = terno com gravata. Ver FIGURINOS_FAMOSOS.md.
+- **Marcos novos** (`blender/objetos_marcos3.py`): Texas (Capitolio), Mexico (Catedral), Detroit (Renaissance Center, 1977+), Wurzburg (Residenz), Rostock (Marienkirche), Amsterda/Holanda (canal + Westerkerk), Yap (pedras rai). Austria -> Viena; California -> Hollywood; Alasca -> montanhas.
+- **Objetos refeitos com referencia**: Roadster (esportivo baixo, nao caixote), bola de futebol (12 gomos pretos lisos), maquina de cortar cabelo, garrafa Teslaquila.

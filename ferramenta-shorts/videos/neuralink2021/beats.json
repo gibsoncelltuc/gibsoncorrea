@@ -16,7 +16,8 @@
    "boots": "#1b1b1f",
    "hat": "hair",
    "hair": "#3a2a1f",
-   "pele": "#f2e2d2"
+   "pele": "#f2e2d2",
+   "logo": "X"
   },
   "CIE": {
    "profissao": "medico",

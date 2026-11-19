@@ -25,12 +25,14 @@ if ! st gate; then
   mark gate
 fi
 # STORYBOARD OBRIGATORIO (ordem do Gibson 19/11): antes do render completo, o video inteiro vira storyboard e ESPERA aprovacao (./aprovar_storyboard.sh <id>)
-H3=$(python3 -c "import json;print(json.load(open('stories/$ID/folhas.json'))['hash_folha3'])")
+H3=$(python3 -c "import json;print(json.load(open('stories/$ID/folhas.json'))['hash_producao'])")
 if [ "$(cat stories/$ID/STORYBOARD_OK 2>/dev/null)" != "$H3" ]; then
   if [ ! -f stories/$ID/storyboard.jpg ] || [ "$(cat stories/$ID/storyboard.hash 2>/dev/null)" != "$H3" ]; then log "storyboard (video inteiro, 1 quadro a cada ~1,5 s)"; ./prechecar.sh $ID >> $L 2>&1 && cp stories/$ID/precheck.jpg stories/$ID/storyboard.jpg && echo "$H3" > stories/$ID/storyboard.hash; fi
   touch stories/$ID/AGUARDA_STORYBOARD; log "AGUARDANDO APROVACAO DO STORYBOARD: abra stories/$ID/storyboard.jpg, confira com a folha 3 e rode ./aprovar_storyboard.sh $ID"; exit 76
 fi
 rm -f stories/$ID/AGUARDA_STORYBOARD
+# trechos ja renderizados de OUTRA versao das folhas nao servem: apaga e renderiza de novo (nunca juntar quadro antigo no video novo)
+if [ "$(cat ckpt/$ID/folha3.hash 2>/dev/null)" != "$H3" ]; then rm -rf ckpt/$ID out/$ID/frames; mkdir -p ckpt/$ID; echo "$H3" > ckpt/$ID/folha3.hash; log "trechos antigos descartados (versao nova das folhas)"; fi
 ./build3.sh $ID >/dev/null 2>&1; python3 verificar_folhas.py $ID --render >> $L 2>&1 || { log "BLOQUEADO: o render nao carrega a folha 3"; exit 1; }; N=$(python3 -c "import json;print(json.load(open('stories/$ID/work/phrases.json'))['frames30'])")
 ./snap.sh $ID $N >> $L 2>&1; (cd stories/$ID && python3 ../../caps.py >/dev/null)
 log "render $N quadros (trechos de 150, retomavel)"

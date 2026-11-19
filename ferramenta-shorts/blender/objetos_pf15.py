@@ -12,7 +12,7 @@ for h, col in ((.6, '#d8282f'), (.95, '#f4f1e8'), (1.3, '#1f4fa8')):    # 3 cord
     for x in (-3, 3): cil((x, h, 0), .035, 6.0, col, rot=(math.pi / 2, 0, 0), lados=10)
 fim(0.01)
 novo('clipper')
-caixa((0, .5, 0), (.34, .9, .24), '#2a2a30', 1.0)                         # corpo
+bola((0, .5, 0), 1, '#2a2a30', esc=(.18, .46, .13), seg=24); bola((0, .5, .02), 1, '#3a3a42', esc=(.15, .3, .12), seg=20)   # corpo arredondado de maquina de cortar cabelo (pega ergonomica)
 bola((0, .95, 0), .17, '#2a2a30', esc=(1, .5, .7))                        # cabeca arredondada
 caixa((0, 1.0, 0), (.38, .08, .26), '#c8ccd2', 1.0)                       # lamina
 for i in range(7): caixa((-.15 + i * .05, 1.07, 0), (.02, .06, .24), '#e8ecf0', 1.0)   # dentes

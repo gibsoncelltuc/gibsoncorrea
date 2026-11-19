@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 11 - O Raio X de Röntgen
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.3s - 16 palavras - plano two
@@ -28,7 +28,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | laboratório (11.3s) | ACAO: quimico | frasco e tubos de ensaio + fumacinha | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | faíscas (14.2s) | ACAO: brilha | o objeto brilha na palavra (ondas de luz + estrelas) | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b3 - 15.3s a 18.8s - 13 palavras - plano two
 > "Numa noite, ele cobriu o tubo com papelão preto, e apagou a luz."
@@ -42,7 +43,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | brilhar (23.3s) | ACAO: brilha | o objeto brilha na palavra (ondas de luz + estrelas) | OK |
+| 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b5 - 25.0s a 28.2s - 15 palavras - plano two
 > "Ele pôs a mão na frente do tubo, e viu os próprios ossos na tela."

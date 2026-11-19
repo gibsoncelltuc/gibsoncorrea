@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 01 - A Batalha de Karánsebes
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 64 acoes catalogadas, 64 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 66 acoes catalogadas, 66 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 2.9s - 10 palavras - plano crowd
@@ -38,7 +38,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | acharam (14.6s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+| 1 | acharam (14.6s) | ACAO: olha | aponta/olha | OK |
 | 2 | vendendo (17.7s) | EFEITO: stars | estrelinhas + som | OK |
 | 3 | - | INTERACAO | aproxima-se | OK |
 | 4 | - | ATUACAO | reagir | OK |
@@ -116,11 +116,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | acharam (55.8s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 2 | - | INTERACAO | avanca e o outro recua | OK |
-| 3 | - | ATUACAO | reagir | OK |
-| 4 | - | CHEGADA | alguem entra andando | OK |
-| 5 | - | PLACA | 10.000? | OK |
+| 1 | chegaram (54.5s) | EFEITO: dust | poeira + som | OK |
+| 2 | acharam (55.8s) | ACAO: olha | aponta/olha | OK |
+| 3 | baixas (59.8s) | EFEITO: puff | fumaca + som | OK |
+| 4 | - | INTERACAO | avanca e o outro recua | OK |
+| 5 | - | ATUACAO | reagir | OK |
+| 6 | - | CHEGADA | alguem entra andando | OK |
+| 7 | - | PLACA | 10.000? | OK |
 
 ## Cena b10 - 63.3s a 65.1s - 8 palavras - plano close
 > "Os turcos venceram sem dar um único tiro."
