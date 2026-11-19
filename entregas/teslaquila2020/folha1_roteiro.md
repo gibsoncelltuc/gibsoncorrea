@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b2  (~6.6 s)
 - Narracao: De brincadeira, Musk postou que a Tesla tinha falido, e apareceu cercado de garrafas de uma tal de Teslaquila.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: apareceu -> dust + som de impacto; encena: x_fone (lift) @3 -> acao + som de efeito; encena: chega (point) @10 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b4  (~8.3 s)
 - Narracao: Acontece que o conselho que protege a tequila no México reclamou: o nome tequila tem regras, e não podia ser usado de qualquer jeito.
-- Som ambiente: sea
+- Som ambiente: birds
 - Efeitos sonoros marcados: sting@30
 - Efeito + som nas palavras-chave: (rosto) annoyed -> expr + som de efeito
 - Efeito visual marcado: ring@30
@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b5  (~5.5 s)
 - Narracao: Em dois mil e vinte, saiu com outro nome: Tesla Tequila, feita no México, com agave.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: sai @5 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b7  (~4.1 s)
 - Narracao: Cada uma custava duzentos e cinquenta dólares. E esgotou em poucas horas.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, sting@50
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20, ring@50
@@ -94,7 +94,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b10  (~4.8 s)
 - Narracao: A garrafa em forma de raio virou item de colecionador dos fãs da marca.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20, stars@60
