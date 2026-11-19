@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # SESSAO PRINCIPAL: busca nos branches A/B as entregas em pedacos, remonta o mp4, confere o sha256 e poe em videos_prontos/<serie>/.
+# Reprovado: deixe a linha "id sha" em logs/recebidos.txt (o mesmo arquivo nao volta); versao corrigida tem outro sha e chega como NOVO.
 # Lista na saida os arquivos novos (a principal OLHA a folha de contato e manda pelo chat). Ja recebidos ficam em logs/recebidos.txt.
 cd "$(dirname "$0")/.."; R=ferramenta-shorts/logs/recebidos.txt; touch $R
 git fetch -q --depth=1 origin claude/prod-a-karansebes claude/prod-b-emus   # so a ponta (disco: o historico dos pedacos de mp4 nao vem)
