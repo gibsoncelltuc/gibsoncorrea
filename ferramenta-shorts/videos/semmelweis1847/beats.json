@@ -249,17 +249,11 @@
   {
    "shot": "two",
    "who": [
-    "MAE:0:sad"
+    "MAE:0:cry"
    ],
-   "props": [
-    [
-     "kit/wash_basin",
-     1.6,
-     -0.8,
-     1.0
-    ]
-   ],
-   "say": "Ele morreu em mil oitocentos e sessenta e cinco, sem ver ninguém dar razão a ele."
+   "props": [],
+   "say": "Ele morreu em mil oitocentos e sessenta e cinco, sem ver ninguém dar razão a ele.",
+   "detalhe": true
   },
   {
    "shot": "close",

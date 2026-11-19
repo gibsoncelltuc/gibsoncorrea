@@ -104,11 +104,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b10 - Ele morreu em mil oitocentos e sessenta e cinco, sem ver ninguém dar r...
 - Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (1): MAE (variante 0, expressao sad)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (1): MAE (variante 0, expressao cry)
 - Animacao: conversar
-- Objetos/modelos: kit/wash_basin, kit/marco_viena
+- Objetos/modelos: kit/marco_viena
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
@@ -127,12 +127,12 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/wash_basin | b0, b7, b8, b10, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/wash_basin | b0, b7, b8, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_viena | b0, b1, b4, b8, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/wash_basin | grandes momentos: b1, b8 | planos abertos: 2 | mistura: close 19% | medio 73% | aberto 4% | detalhe 4%
+- Objeto heroi: kit/wash_basin | grandes momentos: b1, b8 | planos abertos: 2 | mistura: close 19% | medio 74% | aberto 4% | detalhe 2%
 - Interacoes: b0 empurrar, b2 aproxima-se, b3 avanca e o outro recua, b4 o outro se aproxima, b5 insiste, b7 discutir, b9 empurrar
 - RISCOS GERAIS: nenhum
 

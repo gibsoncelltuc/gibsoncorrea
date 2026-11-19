@@ -15,5 +15,5 @@ b9 | two | -  | interior | encena: sai @19 (acao + som de efeito) | -
 b10 | two | -  | - | (rosto) sad (expr + som de efeito); morreu (puff + som de baque); encena: morre @1 (acao + som de efeito) | -
 b11 | close | -  | placa: LAVE AS MÃOS | encena: fala (point) @4 (acao + som de efeito) | -
 
-Mistura de planos: close 19% | medio 73% | aberto 4% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 19% | medio 74% | aberto 4% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 2 | dentro do padrao do canal
