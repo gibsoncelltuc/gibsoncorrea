@@ -1,5 +1,11 @@
 # OPERAÇÃO DA FÁBRICA (leia isto primeiro, sempre)
 
+## REGRA MESTRA (ordem do Gibson, 19/11) — vale acima de todas as outras
+1. **Nunca informe um problema ao Gibson sem antes já ter resolvido.** Achou o defeito: corrige, confere (teste, quadro, folha de contato) e só então conta o que estava errado e como ficou.
+2. **Todo erro encontrado é PRIORIDADE MÁXIMA:** para o que estiver fazendo, resolve primeiro, depois informa as falhas (já corrigidas) no relatório.
+- Não pergunte se deve corrigir; não entregue "achei X, quer que eu arrume?"; não deixe nada pela metade. Ordem dele = fazer tudo de uma vez.
+- Só fale de um problema ainda aberto se for IMPOSSÍVEL resolver daqui (ex.: acesso/credencial que só ele tem). Aí diga o que já fez, o que bloqueia e o único passo que falta dele.
+
 Série atual: **Guerras Inusitadas** (EP numerado; `"serie": "Guerras Inusitadas", "ep": N` no topo do roteiro). Histórias reais e curiosas de guerras/conflitos absurdos, personagens originais, 150–175 palavras narradas (~60 s).
 EPs já feitos: 01 Karánsebes, 02 Emus, 03 Toledo, 04 Balde, 05 Gansos, 06 Porco, 07 Bolos, 08 Zanzibar (38 minutos), 09 Futebol (1969), 10 Chaleira (1784). Não repita tema. Dança e Tulipas ficaram FORA da série (pasta `fora_do_tema/`): só entra guerra/conflito.
 Ideias ainda livres: Orelha de Jenkins (1739), Banquinho Dourado (1900), 335 anos de Scilly, Guerra do Bacalhau, Guerra do Uísque, Guerra das Laranjas (1801), Guerra dos Pastéis não (já é Bolos).

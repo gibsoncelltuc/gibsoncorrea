@@ -1,5 +1,11 @@
 # PROTOCOLO DE ACAO (ordem do Gibson, 19/11) — o video MOSTRA tudo o que a narracao conta
 
+## REGRA MESTRA (ordem do Gibson, 19/11) — vale acima de todas as outras
+1. **Nunca informe um problema ao Gibson sem antes já ter resolvido.** Achou o defeito: corrige, confere (teste, quadro, folha de contato) e só então conta o que estava errado e como ficou.
+2. **Todo erro encontrado é PRIORIDADE MÁXIMA:** para o que estiver fazendo, resolve primeiro, depois informa as falhas (já corrigidas) no relatório.
+- Não pergunte se deve corrigir; não entregue "achei X, quer que eu arrume?"; não deixe nada pela metade. Ordem dele = fazer tudo de uma vez.
+- Só fale de um problema ainda aberto se for IMPOSSÍVEL resolver daqui (ex.: acesso/credencial que só ele tem). Aí diga o que já fez, o que bloqueia e o único passo que falta dele.
+
 Regra de ouro: **cada frase do roteiro e' uma cena, e cada verbo de acao da frase acontece na tela, no instante da palavra.**
 A ferramenta faz isso sozinha (MODO DE ACAO no mkvideo.py) e TRAVA o render quando nao consegue (risco "ACAO SEM ANIMACAO").
 

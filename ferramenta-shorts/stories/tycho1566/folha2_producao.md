@@ -8,7 +8,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): TYC (variante 0, expressao angry); PAR (variante 0, expressao shout)
 - Animacao: discutir | interacao: discutir
-- Objetos/modelos: kit/brass_nose
+- Objetos/modelos: kit/brass_nose, kit/marco_rostock
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): maiores, matematica, nariz
 - RISCOS: nenhum
 
@@ -18,7 +18,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): TYC (variante 0, expressao smile); POV (variante 0, expressao grin) | multidao: 6 de POV
 - Animacao: encena
-- Objetos/modelos: buildings/apartment, buildings/house_two, nature/lamppost
+- Objetos/modelos: kit/marco_rostock, buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alemanha, dinamarca, jovem
 - RISCOS: nenhum
 
@@ -38,7 +38,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): TYC (variante 0, expressao angry, segura sword); PAR (variante 0, expressao shout, segura sword)
 - Animacao: discutir | interacao: discutir
-- Objetos/modelos: -
+- Objetos/modelos: kit/marco_rostock
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): briga, dois, escuro, espadas
 - RISCOS: nenhum
 
@@ -48,7 +48,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): PAR (variante 0, expressao angry, segura sword); TYC (variante 0, expressao pained, segura sword)
 - Animacao: encena | interacao: empurrar
-- Objetos/modelos: kit/brass_nose
+- Objetos/modelos: kit/marco_rostock, kit/brass_nose
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): golpe, nariz, pedaco, primo, tycho
 - RISCOS: nenhum
 
@@ -58,7 +58,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): TYC (variante 0, expressao sad)
 - Animacao: conversar
-- Objetos/modelos: kit/brass_nose
+- Objetos/modelos: kit/brass_nose, kit/marco_rostock
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): buraco, metal, nariz, rosto, usar
 - RISCOS: nenhum
 
@@ -68,7 +68,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): REI (variante 0, expressao grin); TYC (variante 0, expressao surprised) | multidao: 6 de POV
 - Animacao: conversar | interacao: entregar
-- Objetos/modelos: -
+- Objetos/modelos: kit/marco_rostock
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dinamarca, ilha
 - RISCOS: nenhum
 
@@ -78,7 +78,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): TYC (variante 0, expressao grin, segura spyglass); POV (variante 0, expressao surprised); POV (variante 1, expressao grin) | multidao: 14 de POV
 - Animacao: encena | batalha encenada
-- Objetos/modelos: buildings/castle_tower
+- Objetos/modelos: kit/marco_rostock, buildings/castle_tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): castelo, posicao
 - RISCOS: nenhum
 
@@ -98,7 +98,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): KEP (variante 0, expressao laugh); POV (variante 0, expressao grin); POV (variante 1, expressao laugh) | multidao: 16 de POV
 - Animacao: comemorar | batalha encenada
-- Objetos/modelos: -
+- Objetos/modelos: kit/marco_rostock
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): astronomia
 - RISCOS: nenhum
 
@@ -108,7 +108,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): TYC (variante 0, expressao smug)
 - Animacao: conversar
-- Objetos/modelos: kit/brass_nose
+- Objetos/modelos: kit/brass_nose, kit/marco_rostock
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabeca, estrelas, metal, nariz
 - RISCOS: nenhum
 
@@ -118,6 +118,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/brass_nose | b0, b4, b5, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_rostock | b0, b1, b3, b4, b5, b6, b7, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/apartment | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
