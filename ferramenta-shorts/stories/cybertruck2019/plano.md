@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | mapa | encena: fala (point) @14 (acao + som de efeito) | -
+b0 | group | -  | mapa | encena: fala (point) @14 (acao + som de efeito) | -
 b1 | reveal | -  | tropa | - | -
 b2 | two | -  | objeto na mao | - | -
 b3 | crowd | -  | batalha aberta com tiros, tropa | encena: quebra (throw) @3 (acao + som de efeito) | -

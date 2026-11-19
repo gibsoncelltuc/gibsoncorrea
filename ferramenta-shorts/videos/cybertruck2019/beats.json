@@ -38,7 +38,7 @@
  "beats": [
   {
    "say": "Em novembro de dois mil e dezenove, na Califórnia, a empresa de Elon Musk apresentou o Cybertruck, uma picape elétrica de aço.",
-   "shot": "two",
+   "shot": "group",
    "who": [
     "MUS:0:grin",
     "DSG:0:smile"
@@ -46,9 +46,9 @@
    "props": [
     [
      "kit/cybertruck",
-     2.2,
-     -2.0,
-     0.75
+     1.6,
+     -3.0,
+     0.8
     ]
    ],
    "tiros": false,
