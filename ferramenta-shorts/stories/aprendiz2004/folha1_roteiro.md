@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 13 - Você Está Demitido
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 181 palavras (~62 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 179 palavras (~62 s)
 
 ## Cena b0  (~4.8 s)
 - Narracao: Duas palavras transformaram um empresário de Nova York numa estrela mundial: você está demitido.
@@ -38,11 +38,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b4  (~5.9 s)
-- Narracao: No fim, a equipe perdedora ia para a sala de reunião, e alguém tinha que ir embora.
+## Cena b4  (~5.2 s)
+- Narracao: No fim, a equipe perdedora ia para a sala de reunião, e alguém era eliminado.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: encena: perde (facepalm) @4 -> acao + som de efeito; encena: sai @16 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: perde (facepalm) @4 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

@@ -42,7 +42,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): equipes, negocios, propaganda, tarefa
 - RISCOS: nenhum
 
-## Cena b4 - No fim, a equipe perdedora ia para a sala de reunião, e alguém tinha q...
+## Cena b4 - No fim, a equipe perdedora ia para a sala de reunião, e alguém era eli...
 - Cenario: interior loja | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
