@@ -52,7 +52,6 @@
     "GRE:0:shock",
     "BUL:0:neutral"
    ],
-   "text": "1925",
    "interacao": "discutir",
    "acao": "discutir",
    "say": "Um cachorro fugiu, e por causa dele dois países entraram em guerra, e dezenas de pessoas morreram.",
@@ -71,7 +70,7 @@
      1.2
     ]
    ],
-   "detalhe": true
+   "text": "1925"
   },
   {
    "shot": "reveal",
@@ -156,8 +155,8 @@
    "props": [
     [
      "kit/dog_sit",
-     0.9,
-     -0.2,
+     0.0,
+     0.2,
      1.0
     ]
    ],
