@@ -23,7 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Os ashanti tinham um banquinho dourado sagrado, que representava a alm...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): CHE (variante 0, expressao stern); ASH (variante 0, expressao smile)
@@ -83,9 +83,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - Mas os ashanti esconderam o banquinho, e os ingleses nunca conseguiram...
-- Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Cenario: interior loja | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): CHE (variante 0, expressao smug); ASH (variante 0, expressao grin)
 - Animacao: conversar | interacao: cochichar
 - Objetos/modelos: kit/golden_stool
@@ -112,13 +112,13 @@ buildings/castle_tower | b5 | pronto | conferir na folha de contato se le bem; s
 
 
 ## Video inteiro
-- Objeto heroi: kit/golden_stool | grandes momentos: b5, b6 | planos abertos: 3 | mistura: close 11% | medio 67% | aberto 14% | detalhe 7%
+- Objeto heroi: kit/golden_stool | grandes momentos: b5, b6 | planos abertos: 3 | mistura: close 11% | medio 69% | aberto 14% | detalhe 5%
 - Interacoes: b0 discutir, b2 o outro se aproxima, b3 empurrar, b4 susto, b7 entregar, b8 cochichar
 - RISCOS GERAIS: 
-  - pouca variedade de cenario ({'street': 8, 'interior madeira': 1, 'interior pedra': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
+  - pouca variedade de cenario ({'street': 6, 'countryside': 1, 'interior madeira': 1, 'interior pedra': 1, 'interior loja': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
 
 ## RESUMO: 1 risco(s) em aberto
-- geral: pouca variedade de cenario ({'street': 8, 'interior madeira': 1, 'interior pedra': 1}): o video fica parecendo todos os outros
+- geral: pouca variedade de cenario ({'street': 6, 'countryside': 1, 'interior madeira': 1, 'interior pedra': 1, 'interior loja': 1}): o video fica parecendo todos os outros
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh banquinho1900 bN bM` (so essas cenas).
