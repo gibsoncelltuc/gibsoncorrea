@@ -388,7 +388,8 @@ def _idiom_idx(say):   # EXPRESSOES (19/11): "o panico tomou o acampamento", "a 
         nw_ = n_(w_); ant_ = n_(' '.join(ws_[max(0, j_ - 2):j_])); dep_ = n_(' '.join(ws_[j_ + 1:j_ + 4]))
         if (re.match(r'^(tomou|tomaram|tomava)$', nw_) and not re.search(r'cafe|cha|agua|vinho|cerveja|remedio|leite|sopa|suco|aguardente|rum|whisky|uisque|tequila|cachaca|veneno|pocao|gole|banho', dep_)) \
            or (re.match(r'^(correu|correram|corria|corre)$', nw_) and re.search(r'noticia|fama|boato|rumor|tempo|historia|sangue|dinheiro|agua|lagrima|suor|risco|perigo|video|mensagem', ant_ + dep_)) \
-           or (re.match(r'^(caiu|cairam)$', nw_) and re.search(r'preco|venda|bolsa|acoes|ficha|noite|chuva|neve|valor|audiencia|popularidade', ant_ + dep_)):
+           or (re.match(r'^(caiu|cairam)$', nw_) and re.search(r'preco|venda|bolsa|acoes|ficha|noite|chuva|neve|valor|audiencia|popularidade', ant_ + dep_)) \
+           or (re.match(r'^(entrou|entraram|entrava|entraria|entrariam)$', nw_) and re.match(r'^(para|em|na|no)(a|o)?(historia|guerra|moda|panico|acordo|crise|falencia|vigor|campo|conflito|greve|colapso)', dep_)):
             out_.add(j_)
     return out_
 ENC = [(r'^(misturou|misturaram|misturando|mistura|misturar|mexeu|mexendo|mexia|combinou|batia|bateu a massa|cozinhou|cozinhava)$', 'stir', 'mistura'),
