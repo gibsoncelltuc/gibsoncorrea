@@ -1,5 +1,7 @@
 # OPERAÇÃO DA FÁBRICA (leia isto primeiro, sempre)
 
+**Storyboard: so aprova com REVISAO ESCRITA frase por frase (`stories/<id>/revisao_storyboard.md`, PROTOCOLO_ACAO.md secao 12).**
+
 ## REGRA MESTRA (ordem do Gibson, 19/11) — vale acima de todas as outras
 1. **Nunca informe um problema ao Gibson sem antes já ter resolvido.** Achou o defeito: corrige, confere (teste, quadro, folha de contato) e só então conta o que estava errado e como ficou.
 2. **Todo erro encontrado é PRIORIDADE MÁXIMA:** para o que estiver fazendo, resolve primeiro, depois informa as falhas (já corrigidas) no relatório.
