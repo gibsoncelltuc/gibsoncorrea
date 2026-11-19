@@ -13,5 +13,5 @@ b7 | two | -  | - | - | -
 b8 | two | -  | interior, objeto na mao | - | -
 b9 | close | -  | - | - | -
 
-Mistura de planos: close 26% | medio 64% | aberto 6% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 26% | medio 66% | aberto 6% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 2 | dentro do padrao do canal

@@ -265,5 +265,8 @@
  ],
  "cinf": 4.5,
  "exp": 1.12,
- "heroi": null
+ "heroi": null,
+ "ano": 390,
+ "regiao": "classico",
+ "light": "golden"
 }

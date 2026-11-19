@@ -7,7 +7,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | harbor | two | 2 | discutir, INTERAGEM: discutir, alguem chega andando | kit/lobster | - | -
 b1 | harbor | reveal | 10 | parados (so fala e pisca) | boat | - | -
 b2 | harbor | two | 2 | discutir, INTERAGEM: cochichar | - | - | -
-b3 | harbor | orbit | 12 | conversar | - | - | -
+b3 | harbor | orbit | 32 | conversar | - | - | -
 b4 | harbor | group | 3 | conversar, INTERAGEM: avanca e o outro recua | ship | - | -
 b5 | harbor | crowd | 22 | batalha | ship, vehicles/airplane, navios ao fundo | - | -
 b6 | harbor | group | 12 | discutir, INTERAGEM: susto, batalha | - | - | -

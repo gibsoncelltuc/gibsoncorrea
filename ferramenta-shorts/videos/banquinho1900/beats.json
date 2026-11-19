@@ -211,5 +211,8 @@
    ],
    "say": "O governador ganhou a guerra, mas o banquinho nunca foi dele."
   }
- ]
+ ],
+ "ano": 1900,
+ "regiao": "africa",
+ "exp": 1.0
 }

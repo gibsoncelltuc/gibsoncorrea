@@ -4,16 +4,16 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | street | two | 2 | discutir, INTERAGEM: discutir, alguem chega andando | kit/ball | - | -
-b1 | street | reveal | 10 | discutir | - | - | -
+b0 | stadium | two | 2 | discutir, INTERAGEM: discutir, alguem chega andando | kit/ball | - | -
+b1 | street | reveal | 10 | discutir | buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
 b2 | stadium | two | 2 | conversar, INTERAGEM: aproxima-se, alguem chega andando | kit/ball | - | -
-b3 | stadium | crowd | 20 | comemorar, batalha | kit/kettle | - | -
+b3 | stadium | crowd | 32 | comemorar, batalha | kit/kettle, buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
 b4 | street | two | 2 | discutir, INTERAGEM: empurrar | - | - | -
 b5 | interior madeira | two | 2 | reagir, INTERAGEM: susto | - | paper | -
 b6 | stadium | group | 3 | comemorar, INTERAGEM: pular | kit/ball | - | -
 b7 | street | orbit | 22 | batalha | vehicles/tank, vehicles/airplane | - | -
 b8 | street | two | 2 | discutir, INTERAGEM: avanca e o outro recua | - | paper | -
-b9 | street | close | 1 | conversar | kit/ball | - | -
+b9 | stadium | close | 1 | conversar | kit/ball | - | -
 
 OBJETO HEROI: kit/ball - aparece em 4 cena(s), close nele em 3
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b7

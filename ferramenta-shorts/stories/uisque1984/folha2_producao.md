@@ -47,15 +47,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): CAN (variante 0, expressao smile, segura flag); CAN (variante 1, expressao laugh)
-- Animacao: comemorar | interacao: tremem de frio
-- Objetos/modelos: war/flagpole, kit/whisky
+- Animacao: comemorar | interacao: pular
+- Objetos/modelos: war/flagpole, kit/whisky, kit/tequila_bolt
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bandeira, canada, garrafa, uisque
 - RISCOS: nenhum
 
 ## Cena b5 - Acontece que, pouco depois, os dinamarqueses apareceram, tiraram a ban...
 - Cenario: arctic | luz: day | clima: limpo
-- Camera: low = camera baixa, dramatica (virada) + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: low = camera baixa, dramatica (virada)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): DIN (variante 0, expressao smug, segura flag); DIN (variante 1, expressao smug) | multidao: 10 de DIN
 - Animacao: conversar | interacao: o outro se aproxima | o ultimo personagem ENTRA andando
 - Objetos/modelos: war/flagpole
@@ -68,17 +68,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): DIN (variante 0, expressao grin, segura paper); CAN (variante 0, expressao shock) | multidao: 12 de DIN/CAN
 - Animacao: conversar | batalha encenada
-- Objetos/modelos: kit/whisky
+- Objetos/modelos: kit/whisky, kit/tequila_bolt
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bilhete, garrafa, licor, terra
 - RISCOS: nenhum
 
 ## Cena b7 - Durante anos, os dois lados voltaram lá para trocar bandeira e garrafa...
 - Cenario: arctic | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): CAN (variante 0, expressao smug); DIN (variante 0, expressao smug)
 - Animacao: conversar | interacao: cochichar
-- Objetos/modelos: war/flagpole, kit/whisky
+- Objetos/modelos: war/flagpole, kit/tequila_bolt
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois
 - RISCOS: nenhum
 
@@ -107,17 +107,20 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/whisky | b0, b4, b6, b7, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/whisky | b0, b4, b6, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 vehicles/helicopter | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 war/flagpole | b4, b5, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/tequila_bolt | b4, b6, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/whisky | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 20% | medio 59% | aberto 14% | detalhe 7%
-- Interacoes: b0 discutir, b2 empurrar, b4 tremem de frio, b5 o outro se aproxima, b7 cochichar, b8 entregar
-- RISCOS GERAIS: nenhum
+- Objeto heroi: kit/whisky | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 22% | medio 57% | aberto 14% | detalhe 7%
+- Interacoes: b0 discutir, b2 empurrar, b4 pular, b5 o outro se aproxima, b7 cochichar, b8 entregar
+- RISCOS GERAIS: 
+  - pouca variedade de cenario ({'arctic': 9, 'interior pedra': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: pouca variedade de cenario ({'arctic': 9, 'interior pedra': 1}): o video fica parecendo todos os outros
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh uisque1984 bN bM` (so essas cenas).

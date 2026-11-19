@@ -7,7 +7,7 @@ b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | - | - | -
 b3 | two | -  | objeto na mao | - | -
 b4 | crowd | -  | batalha aberta com tiros, tropa, placa: MARINHA | - | -
-b5 | two | -  | objeto na mao | gritou (ring + som de alerta) | -
+b5 | two | -  | objeto na mao | (rosto) shout (expr + som de efeito); gritou (ring + som de alerta) | -
 b6 | orbit | -  | batalha aberta com tiros, tropa | - | -
 b7 | two | -  | interior, objeto na mao | - | -
 b8 | two | -  | interior, objeto na mao | - | -

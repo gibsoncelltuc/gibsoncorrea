@@ -115,9 +115,11 @@ ship | b4, b6 | pronto | conferir na folha de contato se le bem; se parecer caix
 ## Video inteiro
 - Objeto heroi: kit/cod | grandes momentos: b4, b6 | planos abertos: 3 | mistura: close 19% | medio 61% | aberto 15% | detalhe 5%
 - Interacoes: b0 discutir, b2 empurrar, b3 cochichar, b5 susto, b7 empurrar, b8 entregar
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - pouca variedade de cenario ({'harbor': 7, 'arctic': 1, 'interior madeira': 1, 'interior pedra': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: pouca variedade de cenario ({'harbor': 7, 'arctic': 1, 'interior madeira': 1, 'interior pedra': 1}): o video fica parecendo todos os outros
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh bacalhau1976 bN bM` (so essas cenas).

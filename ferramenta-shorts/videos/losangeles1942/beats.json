@@ -251,5 +251,8 @@
   }
  ],
  "cinf": 1.5,
- "exp": 1.404
+ "exp": 1.404,
+ "ano": 1942,
+ "regiao": "eua",
+ "light": "golden"
 }

@@ -5,7 +5,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | street | two | 2 | discutir, INTERAGEM: discutir | kit/golden_stool | - | -
-b1 | street | reveal | 10 | parados (so fala e pisca) | - | - | -
+b1 | street | reveal | 32 | parados (so fala e pisca) | - | - | -
 b2 | street | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/golden_stool | - | -
 b3 | interior madeira | two | 2 | discutir, INTERAGEM: empurrar | kit/golden_stool | paper | -
 b4 | street | two | 2 | reagir, INTERAGEM: susto | - | - | -

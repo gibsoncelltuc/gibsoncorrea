@@ -46,7 +46,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): VIA (variante 0, expressao angry); VEN (variante 0, expressao scared) | multidao: 10 de VIA/VEN
+- Personagens principais (2): VIA (variante 0, expressao angry); VEN (variante 0, expressao scared) | multidao: 30 de VIA/VEN
 - Animacao: conversar | interacao: empurrar
 - Objetos/modelos: war/pistol
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): arma, confusao, frente, viajante
@@ -120,9 +120,11 @@ nature/lamppost | b7 | pronto | conferir na folha de contato se le bem; se parec
 ## Video inteiro
 - Objeto heroi: kit/melon | grandes momentos: b5, b7 | planos abertos: 3 | mistura: close 18% | medio 58% | aberto 16% | detalhe 7%
 - Interacoes: b0 discutir, b2 empurrar, b3 discutir, b4 empurrar, b6 susto, b8 entregar
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - pouca variedade de cenario ({'street': 8, 'interior madeira': 1, 'interior pedra': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: pouca variedade de cenario ({'street': 8, 'interior madeira': 1, 'interior pedra': 1}): o video fica parecendo todos os outros
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh melancia1856 bN bM` (so essas cenas).
