@@ -143,3 +143,15 @@ for j in range(15):
 for k in range(6): tubo([(-.1 + k * .09, .72, 0), (-.12 + k * .09, .55, .04 * (k % 2)), (-.08 + k * .09, .42, .02)], .012, CD)   # cabos cortados pendurados
 for j in range(8): bola((-1.0 + j * .3, 1.55, 0), .075, BO)                         # boias
 fim(.02)
+novo('window_crack')                                  # janela de vidro do Cybertruck rachada: moldura de aco angular, vidro azulado com rachaduras em estrela e a esfera de aco cravada (heroi do PF 11)
+AC, VI, RA = '#9aa0a8', '#9fd0e8', '#10202c'
+cil((0, .06, 0), .9, .12, '#555a62')
+for x in (-.8, .8): cil((x, .75, 0), .07, 1.3, AC)
+cil((0, 1.42, 0), .07, 1.7, AC, rot=(0, 0, math.pi / 2)); cil((0, .12, 0), .07, 1.7, AC, rot=(0, 0, math.pi / 2))
+cil((0, .78, 0), .74, .05, VI, rot=(math.pi / 2, 0, 0))                                      # vidro
+for k in range(9):                                                                           # rachaduras em estrela a partir do ponto de impacto
+    a = k * math.pi * 2 / 9; L = .55 + .12 * (k % 3)
+    tubo([(0, .78, .05), (math.cos(a) * L * .5, .78 + math.sin(a) * L * .5, .05), (math.cos(a + .25) * L, .78 + math.sin(a + .25) * L, .05)], .018, RA)
+for r in (.18, .34): arco((0, .78, .055), r, RA, .014, de=0, ate=math.pi * 1.7)
+bola((0, .78, .12), .17, '#c9ced6', 1.0)                                                       # esfera de aco cravada no vidro
+fim(.02)

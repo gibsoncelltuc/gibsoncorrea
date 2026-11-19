@@ -55,7 +55,8 @@
    "batalha": false,
    "impact": false,
    "mapa": "CALIFÓRNIA",
-   "mapa_at": 3
+   "mapa_at": 3,
+   "set": "street"
   },
   {
    "say": "Na apresentação, Musk disse que as janelas eram feitas de um vidro super resistente.",
@@ -73,7 +74,8 @@
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "set": "hall"
   },
   {
    "say": "Para provar, o designer Franz von Holzhausen jogou uma esfera de aço na janela.",
@@ -91,54 +93,49 @@
     ],
     [
      "kit/cybertruck",
-     2.2,
-     -2.0,
+     2.6,
+     -3.0,
      0.75
     ]
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "set": "street"
   },
   {
    "say": "E o vidro rachou, ao vivo, na frente de todo mundo.",
-   "shot": "reveal",
+   "shot": "close",
    "who": [
-    "MUS:0:shock",
-    "DSG:0:scared"
+    "MUS:0:shock"
    ],
    "fx": [
-    "burst@3"
+    "burst@3",
+    "stars@6"
    ],
    "sfx": [
-    "thump@3"
+    "thump@3",
+    "ding@6"
    ],
    "impact": true,
-   "crowd": {
-    "n": 10,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "shock"
-   },
    "props": [
     [
-     "kit/cybertruck",
-     2.2,
-     -2.0,
-     0.75
+     "kit/window_crack",
+     0.9,
+     0.9,
+     2.2
     ]
    ],
    "tiros": false,
-   "batalha": false
+   "batalha": false,
+   "set": "street",
+   "crowd_off": true
   },
   {
    "say": "Ele tentou de novo, em outra janela, e ela também rachou.",
-   "shot": "two",
+   "shot": "close",
    "who": [
-    "DSG:0:nervous",
-    "MUS:0:surprised"
+    "DSG:0:nervous"
    ],
    "fx": [
     "burst@4"
@@ -148,15 +145,16 @@
    ],
    "props": [
     [
-     "kit/cybertruck",
-     2.2,
-     -2.0,
-     0.75
+     "kit/window_crack",
+     0.9,
+     0.9,
+     2.2
     ]
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "set": "street"
   },
   {
    "say": "Depois, Musk explicou na internet que, nos ensaios, a mesma esfera tinha batido na mesma janela sem nem arranhar.",
@@ -174,7 +172,8 @@
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "set": "hall"
   },
   {
    "say": "A plateia riu, a internet também, e a cena deu o que falar no mundo inteiro.",
@@ -201,7 +200,8 @@
    },
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "set": "street"
   },
   {
    "say": "Uma picape, uma esfera de aço e uma janela que não aguentou: um lançamento inesquecível.",
@@ -226,7 +226,8 @@
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "set": "countryside"
   }
  ],
  "exp": 0.9,
