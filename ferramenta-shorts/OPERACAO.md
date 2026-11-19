@@ -18,6 +18,8 @@ CENÁRIOS VARIADOS (ordem do Gibson 19/11): todo vídeo tem 3+ lugares e nenhum 
 
 CIDADE DA REGIÃO (ordem do Gibson 19/11): os prédios de fundo, o chão e as salas seguem o país/época da história. A ferramenta deduz pelo "mapa"/título/narração ou use "regiao" no topo do roteiro: europa, franca, holanda, eua, oriente (Egito/Oriente Médio), colonial (Brasil/América Latina/Portugal/Espanha), japao (Japão/China), russia, africa, classico (Roma/Grécia antigas). Faltou a região da sua história? Modele o pacote em blender/objetos_regioes.py (3 prédios, referência real) e cadastre em mkvideo.py (_REG_PAIS/_REG_N/_REG_CHAO).
 
+SINCRONISMO COM A NARRAÇÃO (19/11): a cara muda no instante da palavra (gritou→gritando, chorou→chorando, riu, assustou, raiva, triste, nervoso, aliviado); "correu/fugiu" vira cena correndo; "entrou no carro/de carro/dirigiu" põe o carro redondo andando com o motorista dentro; palavras de impacto têm efeito + som na palavra. MAPA: contorno real do país (mapas/mapas.py; lugar novo = 1 linha em LUGAR). MARCOS: pirâmides, Cabo Canaveral, Big Ben, Eiffel, Liberdade, Coliseu, Cristo entram sozinhos ao fundo. HOSPITAL: sala branca com macas e placa.
+
 ## Os 7 passos (não pule nenhum)
 
 1. **Ler** `CAPACIDADES.md` (o que a ferramenta tem) e `MODO_RICKS.md` (como o roteiro é escrito).
