@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 18 - Os Primeiros Passageiros do Céu
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace | 12 cenas, 187 palavras (~64 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval | 12 cenas, 187 palavras (~64 s)
 
 ## Cena b0  (~5.9 s)
 - Narracao: Os primeiros passageiros de um balão não foram pessoas. Foram uma ovelha, um pato e um galo.
