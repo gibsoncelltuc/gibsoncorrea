@@ -12,7 +12,7 @@
    4.72662
   ],
   [
-   5.57958,
+   5.57929,
    7.03225
   ],
   [
@@ -24,7 +24,7 @@
    12.9112
   ],
   [
-   13.1523,
+   13.1524,
    16.26
   ],
   [
@@ -45,7 +45,7 @@
   ],
   [
    23.9306,
-   25.7147
+   25.7129
   ],
   [
    25.98,
@@ -65,7 +65,7 @@
   ],
   [
    35.5214,
-   37.5995
+   37.6082
   ],
   [
    38.4001,
@@ -73,7 +73,7 @@
   ],
   [
    40.5337,
-   41.9806
+   41.9805
   ],
   [
    42.862,
@@ -81,7 +81,7 @@
   ],
   [
    44.2263,
-   45.692
+   45.6928
   ],
   [
    45.9399,
@@ -109,7 +109,7 @@
   },
   {
    "text": "Em mil oitocentos e trinta e oito,",
-   "s": 5.58,
+   "s": 5.579,
    "e": 7.032
   },
   {
@@ -150,7 +150,7 @@
   {
    "text": "O Maine chamou milhares de soldados,",
    "s": 23.931,
-   "e": 25.715
+   "e": 25.713
   },
   {
    "text": "e a Inglaterra mandou os seus.",
@@ -175,7 +175,7 @@
   {
    "text": "ent\u00e3o o governo mandou um general conversar.",
    "s": 35.521,
-   "e": 37.599
+   "e": 37.608
   },
   {
    "text": "Ele convenceu os dois lados a parar,",
@@ -185,7 +185,7 @@
   {
    "text": "e ningu\u00e9m atirou um \u00fanico tiro.",
    "s": 40.534,
-   "e": 41.981
+   "e": 41.98
   },
   {
    "text": "Alguns anos depois,",
@@ -195,7 +195,7 @@
   {
    "text": "um tratado dividiu a floresta,",
    "s": 44.226,
-   "e": 45.692
+   "e": 45.693
   },
   {
    "text": "e a fronteira ficou definida.",
