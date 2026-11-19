@@ -31,7 +31,9 @@ def verifica(i):
         js = [j for j, x in enumerate(ws) if x == w]
         if not js: continue
         tot += 1; idx = starts[cena] + js[0] if cena < len(starts) else None
-        if idx is not None and re.search(rf'WS\({idx}\)|WS\({idx},|WS\({idx}\s*[-+]', S): ok += 1
+        cena_txt = ' '.join(re.findall(rf"S\('b{cena}(?:[_~][^']*)?'.*", S))
+        corre_tudo = re.search(r'(sai|corre|chega|anda|foge)', r.group(3)) and re.search(r'pose: "(run|march)"|move: \[\[', cena_txt)   # cena inteira correndo/andando (modo corrida) = acao feita
+        if (idx is not None and re.search(rf'WS\({idx}\)|WS\({idx},|WS\({idx}\s*[-+]', S)) or corre_tudo: ok += 1
         else: falhas.append(f'b{cena} "{r.group(1)}" ({r.group(3)[:30]})')
     # 2) cenario
     ctot = cok = 0; cfal = []

@@ -87,3 +87,10 @@ O que procurar em CADA frase (defeitos reais achados em 19/11):
 - QUEM faz a acao: atomos/cobras dancando no sonho nao fazem o personagem dancar; "os turcos venceram" mostra os turcos
 - OBJETO certo: corte no dedo nao e machado; lareira, cadeira, microscopio citados aparecem grandes e perto
 - roupa certa: astronauta de branco (nao farda); epoca e pais certos
+
+## 13. SESSOES EM AUTOMATICO (ordem do Gibson 19/11)
+Cada sessao de producao deixa rodando em segundo plano, desde o inicio:
+`nohup bash -c 'while true; do ./sync_ferramenta.sh >> logs/sync.log 2>&1; sleep 600; done' > /dev/null 2>&1 &`
+A cada 10 min ela puxa a ferramenta do branch principal, regenera as folhas dos videos ainda nao prontos e roda `verificar_execucao.py`.
+Storyboard que mudou volta para a fila; a sessao REVISA de novo (grade de acoes + revisao_storyboard.md). Falha de execucao no log = corrigir na hora (REGRA MESTRA).
+Toda revisao com defeito achado vira linha "CORRIGIDO" no revisao_storyboard.md, e o commit diz o que foi corrigido (a sessao principal confere pelo git).
