@@ -23,12 +23,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Para provar, o designer Franz von Holzhausen jogou uma esfera de aço n...
-- Cenario: street | luz: golden | clima: limpo
+- Cenario: hall | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): DSG (variante 0, expressao stern, segura ball); MUS (variante 0, expressao smile)
 - Animacao: conversar | interacao: avanca e o outro recua
-- Objetos/modelos: kit/steel_ball, kit/cybertruck, kit/marco_hollywood
+- Objetos/modelos: kit/steel_ball, kit/cybertruck
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): designer, esfera, janela
 - RISCOS: nenhum
 
@@ -88,7 +88,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/cybertruck | b0, b1, b2, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_hollywood | b0, b2, b3, b4, b6, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_hollywood | b0, b3, b4, b6, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/steel_ball | b2, b5, b7 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/window_crack | b3, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/globe | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -97,11 +97,9 @@ kit/globe | b6 | pronto | conferir na folha de contato se le bem; se parecer cai
 ## Video inteiro
 - Objeto heroi: kit/steel_ball | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 27% | medio 49% | aberto 14% | detalhe 9%
 - Interacoes: b0 aproxima-se, b2 avanca e o outro recua, b7 o outro se aproxima
-- RISCOS GERAIS: 
-  - pouca variedade de cenario ({'street': 5, 'hall': 2, 'countryside': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: pouca variedade de cenario ({'street': 5, 'hall': 2, 'countryside': 1}): o video fica parecendo todos os outros
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh cybertruck2019 bN bM` (so essas cenas).

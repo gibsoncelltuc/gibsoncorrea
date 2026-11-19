@@ -6,7 +6,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | street | group | 2 | conversar, INTERAGEM: aproxima-se | kit/cybertruck, kit/marco_hollywood | - | -
 b1 | hall | reveal | 9 | parados (so fala e pisca) | kit/cybertruck | - | -
-b2 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/steel_ball, kit/cybertruck, kit/marco_hollywood | ball | -
+b2 | hall | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/steel_ball, kit/cybertruck | ball | -
 b3 | street | crowd | 31 | reagir, batalha | kit/window_crack, kit/marco_hollywood | - | -
 b4 | street | close | 1 | reagir | kit/window_crack, kit/marco_hollywood | - | -
 b5 | hall | close | 1 | conversar | kit/steel_ball | - | -
