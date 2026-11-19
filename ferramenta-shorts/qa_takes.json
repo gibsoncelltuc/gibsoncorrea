@@ -1,33 +1,4 @@
 {
- "fails": [
-  {
-   "f": 86,
-   "shot": "b0_v",
-   "why": [
-    "empty take: no character in the take"
-   ]
-  },
-  {
-   "f": 88,
-   "shot": "b0_v",
-   "why": [
-    "empty take: no character in the take"
-   ]
-  },
-  {
-   "f": 92,
-   "shot": "b0_v",
-   "why": [
-    "empty take: no character in the take"
-   ]
-  },
-  {
-   "f": 96,
-   "shot": "b0_v",
-   "why": [
-    "tru: head/torso cropped (box 0.714, 0.351, 1.074, 0.686)"
-   ]
-  }
- ],
+ "fails": [],
  "tiny": []
 }
