@@ -34,10 +34,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Em dois mil e vinte e dois, o presidente Nayib Bukele decretou estado ...
 - Cenario: street | luz: day | clima: limpo
-- Camera: track = travelling lateral acompanhando quem anda
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (1): GUA (variante 0, expressao stern) | multidao: 14 de PRE
-- Animacao: encena
+- Personagens principais (4): PRE (variante 0, expressao sad); PRE (variante 1, expressao scared); PRE (variante 2, expressao sad); GUA (variante 0, expressao stern)
+- Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): excecao, presidente, suspeitos
 - RISCOS: nenhum
@@ -67,7 +67,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): REP (variante 0, expressao surprised, segura paper); BUK (variante 0, expressao smug)
-- Animacao: conversar | interacao: avanca e o outro recua
+- Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): assassinatos, numero
 - RISCOS: nenhum
@@ -124,7 +124,7 @@ buildings/castle_tower | b5 | pronto | conferir na folha de contato se le bem; s
 
 ## Video inteiro
 - Objeto heroi: kit/scroll | grandes momentos: b4, b9 | planos abertos: 3 | mistura: close 20% | medio 65% | aberto 13% | detalhe 2%
-- Interacoes: b0 aproxima-se, b2 discutir, b6 avanca e o outro recua, b7 vai ate o outro, b8 cochichar
+- Interacoes: b0 aproxima-se, b2 discutir, b3 avanca e o outro recua, b6 o outro se aproxima, b7 vai ate o outro, b8 cochichar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

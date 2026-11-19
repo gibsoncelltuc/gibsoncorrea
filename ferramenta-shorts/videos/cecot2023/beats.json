@@ -101,21 +101,18 @@
    "say": "Por anos, El Salvador teve uma das maiores taxas de assassinato do mundo, por causa das gangues."
   },
   {
-   "shot": "track",
+   "shot": "group",
    "who": [
-    "GUA:0:stern"
+    "GUA:0:stern",
+    "PRE:0:sad",
+    "PRE:1:scared",
+    "PRE:2:sad"
    ],
    "say": "Em dois mil e vinte e dois, o presidente Nayib Bukele decretou estado de exceção, e milhares de suspeitos foram presos.",
    "props": [],
    "set": "street",
-   "crowd": {
-    "n": 14,
-    "outfits": [
-     "PRE"
-    ],
-    "march": true,
-    "expr": "sad"
-   }
+   "shot_lock": true,
+   "move": 0
   },
   {
    "shot": "crowd",
