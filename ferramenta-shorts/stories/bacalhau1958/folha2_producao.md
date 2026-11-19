@@ -92,7 +92,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): duzentas, ingleses, zona
 - RISCOS: nenhum
 
-## Cena b9 - Foi uma guerra de navios batendo e de redes cortadas, e tudo por causa...
+## Cena b9 - Foi uma guerra de navios e de redes, e tudo por causa de um peixe.
 - Cenario: street | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
@@ -114,7 +114,7 @@ kit/fishing_net | b5 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/cod | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 25% | medio 54% | aberto 15% | detalhe 7%
+- Objeto heroi: kit/cod | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 24% | medio 54% | aberto 15% | detalhe 7%
 - Interacoes: b0 o outro se aproxima, b1 insiste, b5 susto, b7 discutir, b8 vai ate o outro
 - RISCOS GERAIS: nenhum
 

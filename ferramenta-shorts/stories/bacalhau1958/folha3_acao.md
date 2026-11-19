@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - As Guerras do Bacalhau
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 7.6s - 26 palavras - plano two
@@ -82,12 +82,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | VITÓRIA ISLANDESA | OK |
 
-## Cena b9 - 48.7s a 52.6s - 17 palavras - plano close
-> "Foi uma guerra de navios batendo e de redes cortadas, e tudo por causa de um peixe."
+## Cena b9 - 48.7s a 52.3s - 15 palavras - plano close
+> "Foi uma guerra de navios e de redes, e tudo por causa de um peixe."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | batendo (49.8s) | ACAO: x_bate | bate + estouro | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | TUDO POR UM PEIXE | OK |
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | PLACA | TUDO POR UM PEIXE | OK |
 

@@ -11,7 +11,7 @@ b5 | two | -  | - | encena: corta (hammer) @1 (acao + som de efeito) | -
 b6 | wide | -  | batalha aberta com tiros | - | -
 b7 | two | -  | interior, placa: OTAN | - | -
 b8 | two | -  | interior, placa: VITÓRIA ISLANDESA | encena: pensa (think) @12 (acao + som de efeito) | -
-b9 | close | -  | placa: TUDO POR UM PEIXE | encena: x_bate (punch) @5 (acao + som de efeito) | -
+b9 | close | -  | placa: TUDO POR UM PEIXE | - | -
 
-Mistura de planos: close 25% | medio 54% | aberto 15% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 24% | medio 54% | aberto 15% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

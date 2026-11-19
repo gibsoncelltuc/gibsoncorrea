@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: As Guerras do Bacalhau
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 10 cenas, 156 palavras (~54 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 10 cenas, 154 palavras (~53 s)
 
 ## Cena b0  (~9.0 s)
 - Narracao: Entre mil novecentos e cinquenta e oito e mil novecentos e setenta e seis, a Islândia e a Inglaterra travaram três guerras. Por causa de peixe.
@@ -83,11 +83,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: VITÓRIA ISLANDESA
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~5.9 s)
-- Narracao: Foi uma guerra de navios batendo e de redes cortadas, e tudo por causa de um peixe.
+## Cena b9  (~5.2 s)
+- Narracao: Foi uma guerra de navios e de redes, e tudo por causa de um peixe.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_bate (punch) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: TUDO POR UM PEIXE
 - Funcao na historia: FECHO/PIADA FINAL
