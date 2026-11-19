@@ -52,5 +52,11 @@
   "kit/megapack",
   1.0,
   false
+ ],
+ [
+  "\\\\b(bifes?|steaks?)\\\\b",
+  "kit/steak",
+  1.0,
+  false
  ]
 ]

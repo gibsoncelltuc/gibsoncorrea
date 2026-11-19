@@ -111,3 +111,10 @@ for x in (-1.2, 0, 1.2):
     for k in range(4): caixa((x + .02, .26 + k * .06, .395), (.5, .02, .02), PT)     # grade de ventilação
     bola((x + .3, .86, .4), .035, '#4fd16a', .6)                            # luz de estado
 fim(.025)
+novo('steak')                                          # bife T-bone no prato (herói do PF 06)
+cil((0, .04, 0), .62, .08, '#f4f4f0', raio_topo=.5); cil((0, .09, 0), .44, .03, '#e6e6e0')        # prato com borda
+bola((0, .2, 0), .42, '#7a3a22', .34, esc=(1.15, 1.0, .9)); bola((.05, .27, .02), .36, '#9a4a2a', .25, esc=(1.1, 1.0, .85))   # carne
+caixa((-.05, .355, 0), (.05, .02, .46), '#2a120a'); caixa((.12, .35, 0), (.05, .02, .42), '#2a120a'); caixa((-.22, .34, 0), (.05, .02, .36), '#2a120a')   # marcas da grelha
+caixa((.3, .345, 0), (.05, .03, .46), '#f4ead2'); caixa((.14, .35, 0), (.3, .03, .06), '#f4ead2')    # osso em T
+bola((.38, .2, .28), .07, '#e8c64a', .6); bola((-.36, .2, -.26), .09, '#4a8a3a', .5)                  # manteiga e raminho
+fim(.02)

@@ -8,7 +8,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): TRU (variante 0, expressao grin); VEN (variante 0, expressao smug)
 - Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: kit/stove
+- Objetos/modelos: kit/steak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): carnes, linha, proprio, trump
 - RISCOS: nenhum
 
@@ -18,7 +18,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): TRU (variante 0, expressao smug); VEN (variante 0, expressao grin) | multidao: 8 de POV
 - Animacao: -
-- Objetos/modelos: buildings/shop, kit/stall
+- Objetos/modelos: kit/steak, buildings/shop, kit/stall
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bifes, loja, maio, oito, partir
 - RISCOS: nenhum
 
@@ -38,7 +38,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): VEN (variante 0, expressao worried); CLI (variante 0, expressao suspicious)
 - Animacao: conversar | interacao: insiste
-- Objetos/modelos: kit/stove, nature/picket_fence, buildings/shop, kit/stall
+- Objetos/modelos: kit/steak, nature/picket_fence, buildings/shop, kit/stall
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bifes, dois, loja, oferecer
 - RISCOS: nenhum
 
@@ -78,7 +78,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): TRU (variante 0, expressao laugh); CLI (variante 0, expressao smug)
 - Animacao: conversar | interacao: avanca e o outro recua
-- Objetos/modelos: kit/stove
+- Objetos/modelos: kit/steak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bifes, rede
 - RISCOS: nenhum
 
@@ -98,7 +98,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): VEN (variante 0, expressao laugh)
 - Animacao: conversar
-- Objetos/modelos: kit/stove
+- Objetos/modelos: kit/steak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): promocao
 - RISCOS: nenhum
 
@@ -107,7 +107,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/stove | b0, b3, b7, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/steak | b0, b1, b3, b7, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/shop | b1, b3, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/stall | b1, b3, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -115,7 +115,7 @@ kit/tv | b5 | pronto | conferir na folha de contato se le bem; se parecer caixot
 
 
 ## Video inteiro
-- Objeto heroi: kit/stove | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 20% | medio 63% | aberto 9% | detalhe 8%
+- Objeto heroi: kit/steak | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 20% | medio 63% | aberto 9% | detalhe 8%
 - Interacoes: b0 o outro se aproxima, b2 susto, b3 insiste, b5 vai ate o outro, b6 aproxima-se, b7 avanca e o outro recua, b8 discutir
 - RISCOS GERAIS: nenhum
 

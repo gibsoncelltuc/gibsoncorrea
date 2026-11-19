@@ -7,7 +7,7 @@
  "titulo_base": "Os Bifes com o Nome do Trump",
  "set": "street",
  "mood": "playful",
- "heroi": "kit/stove",
+ "heroi": "kit/steak",
  "outfits": {
   "JOR": {
    "jacket": "#4a6a9a",
@@ -79,10 +79,10 @@
    ],
    "props": [
     [
-     "kit/stove",
-     0.4,
-     1.2,
-     1.0
+     "kit/steak",
+     0.5,
+     1.1,
+     1.3
     ]
    ]
   },
@@ -97,7 +97,15 @@
     "VEN:0:grin"
    ],
    "mapa": "ESTADOS UNIDOS",
-   "mapa_at": 1
+   "mapa_at": 1,
+   "props": [
+    [
+     "kit/steak",
+     -1.5,
+     0.6,
+     1.2
+    ]
+   ]
   },
   {
    "tiros": false,
@@ -136,10 +144,10 @@
    ],
    "props": [
     [
-     "kit/stove",
-     -1.5,
-     0.3,
-     1.2
+     "kit/steak",
+     -1.4,
+     0.5,
+     1.4
     ]
    ]
   },
@@ -200,10 +208,10 @@
    ],
    "props": [
     [
-     "kit/stove",
-     0.4,
-     1.2,
-     1.0
+     "kit/steak",
+     0.5,
+     1.1,
+     1.3
     ]
    ]
   },
@@ -229,10 +237,10 @@
    ],
    "props": [
     [
-     "kit/stove",
-     0.4,
-     1.2,
-     1.0
+     "kit/steak",
+     0.5,
+     1.1,
+     1.3
     ]
    ]
   }
