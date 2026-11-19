@@ -124,18 +124,11 @@
     "CLI:0:smile:coin",
     "POV:0:grin"
    ],
-   "acao": "conversar",
    "props": [
     [
-     "kit/stall",
-     1.7,
-     -0.5,
-     1.2
-    ],
-    [
      "kit/bitcoin",
-     -1.6,
-     0.3,
+     -1.2,
+     0.5,
      1.0
     ]
    ],
@@ -149,7 +142,8 @@
    ],
    "impact": false,
    "set": "street",
-   "hora": "dia"
+   "hora": "dia",
+   "acao": "conversar"
   },
   {
    "say": "O governo lançou até uma carteira digital, chamada Chivo.",
