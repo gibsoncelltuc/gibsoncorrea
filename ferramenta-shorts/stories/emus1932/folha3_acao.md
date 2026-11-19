@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 02 - A Guerra dos Emus
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 53 acoes catalogadas, 53 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 54 acoes catalogadas, 54 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.7s - 11 palavras - plano two
@@ -103,19 +103,20 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 3 | - | PLACA | CENTENAS | OK |
 
-## Cena b9 - 55.6s a 60.8s - 18 palavras - plano two
-> "No fim, o governo desistiu da guerra, e passou a oferecer recompensa aos fazendeiros por cada emu abatido."
+## Cena b9 - 55.6s a 62.2s - 19 palavras - plano two
+> "No fim, o governo desistiu da guerra, e passou a oferecer um prêmio aos fazendeiros por cada emu abatido."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | desistiu (56.9s) | EFEITO: puff | fumaca + som | OK |
 | 2 | desistiu (56.9s) | ACAO: perde | mao na testa | OK |
-| 3 | recompensa (58.9s) | EFEITO: stars | estrelinhas + som | OK |
-| 4 | recompensa (58.9s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 3 | prêmio (59.5s) | EFEITO: stars | estrelinhas + som | OK |
+| 4 | prêmio (59.5s) | ACAO: vence | bracos para cima + brilho | OK |
 | 5 | - | INTERACAO | entregar | OK |
-| 6 | - | PLACA | RECOMPENSA | OK |
+| 6 | - | ATUACAO | conversar | OK |
+| 7 | - | PLACA | RECOMPENSA | OK |
 
-## Cena b10 - 62.2s a 65.0s - 4 palavras - plano close
+## Cena b10 - 63.0s a 65.0s - 4 palavras - plano close
 > "Humanos, zero. Emus, um."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

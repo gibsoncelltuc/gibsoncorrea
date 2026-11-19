@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 02 - A Guerra dos Emus
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 11 cenas, 154 palavras (~53 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 11 cenas, 155 palavras (~53 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: A Austrália declarou guerra a um bando de pássaros. E perdeu.
@@ -83,11 +83,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 - Texto na tela: CENTENAS
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b9  (~6.2 s)
-- Narracao: No fim, o governo desistiu da guerra, e passou a oferecer recompensa aos fazendeiros por cada emu abatido.
+## Cena b9  (~6.6 s)
+- Narracao: No fim, o governo desistiu da guerra, e passou a oferecer um prêmio aos fazendeiros por cada emu abatido.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: desistiu -> puff + som de baque; recompensa -> stars + som de sino; encena: perde (facepalm) @4 -> acao + som de efeito; encena: paga (reach) @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: desistiu -> puff + som de baque; prêmio -> stars + som de sino; encena: perde (facepalm) @4 -> acao + som de efeito; encena: vence (up) @12 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: RECOMPENSA
 - Funcao na historia: desenvolvimento

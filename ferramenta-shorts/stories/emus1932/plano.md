@@ -11,7 +11,7 @@ b5 | two | -  | animais | metralhadora (burst + som de tiro/explosao); encena: c
 b6 | group | -  | tropa, animais, placa: 1 SEMANA | balas (burst + som de tiro/explosao); encena: atira @6 (acao + som de efeito) | -
 b7 | track | -  | tropa, placa: HA HA HA, objeto na mao | (rosto) laugh (expr + som de efeito); fugiu (dust + som de impacto); gargalhou (stars + som de sino); bala (burst + som de tiro/explosao); encena: corre @2 (acao + som de efeito); encena: x_ri (up) @5 (acao + som de efeito); encena: atira @12 (acao + som de efeito) | -
 b8 | crowd | -  | batalha aberta com tiros, tropa, animais, placa: CENTENAS | tiros: 5 soldados caem no chao (acao + som de efeito) | -
-b9 | two | golden  | animais, placa: RECOMPENSA, objeto na mao | desistiu (puff + som de baque); recompensa (stars + som de sino); encena: perde (facepalm) @4 (acao + som de efeito); encena: paga (reach) @11 (acao + som de efeito) | -
+b9 | two | golden  | animais, placa: RECOMPENSA, objeto na mao | desistiu (puff + som de baque); prêmio (stars + som de sino); encena: perde (facepalm) @4 (acao + som de efeito); encena: vence (up) @12 (acao + som de efeito) | -
 b10 | close | golden  | animais, placa: HUMANOS 0 - 1 EMUS | - | -
 
 Mistura de planos: close 8% | medio 69% | aberto 18% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
