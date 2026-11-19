@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que mais de quinze pessoas morreram naquele dia, e a cidade ficou em choque.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreram -> puff + som de baque
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreram -> puff + som de baque; encena: morre -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: VIRADA

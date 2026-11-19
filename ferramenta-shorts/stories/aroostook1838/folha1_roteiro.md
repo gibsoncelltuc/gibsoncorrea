@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Uma guerra entre os Estados Unidos e a Inglaterra foi travada por lenhadores, e ninguém morreu.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; encena: corta (hammer) -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; encena: corta (hammer) -> acao + som de efeito; encena: morre -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1838
 - Funcao na historia: GANCHO

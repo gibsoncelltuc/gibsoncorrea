@@ -8,7 +8,7 @@ b2 | two | -  | - | pagar (stars + som de sino); encena: x_come (lift) (acao + s
 b3 | two | -  | - | (rosto) pleading (expr + som de efeito); gritou (ring + som de alerta); riu (stars + som de sino); encena: grita (up) (acao + som de efeito); encena: x_ri (up) (acao + som de efeito) | -
 b4 | group | -  | tropa | confusão (puff + som de baque) | -
 b5 | crowd | -  | batalha aberta com tiros, tropa, placa: BRIGA | briga (puff + som de baque) | -
-b6 | two | -  | interior, objeto na mao | (rosto) sad (expr + som de efeito); morreram (puff + som de baque) | -
+b6 | two | -  | interior, objeto na mao | (rosto) sad (expr + som de efeito); morreram (puff + som de baque); encena: morre (acao + som de efeito) | -
 b7 | orbit | -  | batalha aberta com tiros, tropa | cavalaria: 4 soldados a cavalo (SOL) (acao + som de efeito); tiros: 5 soldados caem no chao (acao + som de efeito); pagou (stars + som de sino); encena: negocio (reach) (acao + som de efeito) | -
 b8 | two | -  | interior, objeto na mao | pagou (stars + som de sino); encena: negocio (reach) (acao + som de efeito) | -
 b9 | close | -  | - | - | -

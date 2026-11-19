@@ -78,7 +78,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): FRA (variante 0, expressao stern); OFI (variante 0, expressao shock) | multidao: 20 de FRA/OFI
 - Animacao: reagir | batalha encenada
-- Objetos/modelos: kit/marco_ulua, cannon, buildings/castle_tower
+- Objetos/modelos: kit/marco_ulua, cannon
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canhoes, cidade, fortaleza, soldados, veracruz
 - RISCOS: nenhum
 
@@ -122,7 +122,6 @@ kit/cake_table | b0, b1, b3, b5, b10 | pronto (HEROI: aparece em close) | confer
 buildings/shop | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/stall | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 cannon | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/castle_tower | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 16 - A Guerra da Melancia
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 40 acoes catalogadas, 40 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 41 acoes catalogadas, 41 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.9s - 16 palavras - plano two
@@ -73,9 +73,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | morreram (36.7s) | EFEITO: puff | fumaca + som | OK |
-| 2 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 3 | - | INTERACAO | susto | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 2 | morreram (36.7s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
+| 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 4 | - | INTERACAO | susto | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 40.4s a 45.1s - 16 palavras - plano orbit
 > "No fim, o governo local pagou uma indenização enorme pelas mortes, e a cidade nunca esqueceu."

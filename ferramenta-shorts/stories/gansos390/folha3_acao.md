@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 05 - Os Gansos que Salvaram Roma
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 40 acoes catalogadas, 40 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.4s - 10 palavras - plano two
@@ -22,9 +22,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | fugiu (8.4s) | EFEITO: dust | poeira + som | OK |
 | 3 | fugiu (8.4s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
 | 4 | morreu (9.1s) | EFEITO: puff | fumaca + som | OK |
-| 5 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 7 | - | MAPA | ROMA | OK |
+| 5 | morreu (9.1s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
+| 6 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 8 | - | MAPA | ROMA | OK |
 
 ## Cena b2 - 10.3s a 15.9s - 18 palavras - plano group
 > "Os romanos que sobraram se trancaram no Capitólio, uma colina cercada de muralhas, sem comida, e sem saída."

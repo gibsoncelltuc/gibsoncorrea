@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 19 - A Guerra de Aroostook
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.4s - 16 palavras - plano two
@@ -11,10 +11,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | lenhadores (3.3s) | ACAO: corta | machado e toras + poeira | OK |
 | 2 | morreu (4.4s) | EFEITO: puff | fumaca + som | OK |
-| 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 4 | - | INTERACAO | discutir | OK |
-| 5 | - | ATUACAO | discutir | OK |
-| 6 | - | PLACA | 1838 | OK |
+| 3 | morreu (4.4s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
+| 4 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 5 | - | INTERACAO | discutir | OK |
+| 6 | - | ATUACAO | discutir | OK |
+| 7 | - | PLACA | 1838 | OK |
 
 ## Cena b1 - 5.6s a 10.4s - 21 palavras - plano reveal
 > "Em mil oitocentos e trinta e oito, a fronteira entre o estado do Maine e uma colônia inglesa ainda era confusa."

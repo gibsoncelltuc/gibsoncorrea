@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | placa: 1838 | (rosto) sad (expr + som de efeito); morreu (puff + som de baque); encena: corta (hammer) (acao + som de efeito) | -
+b0 | two | -  | placa: 1838 | (rosto) sad (expr + som de efeito); morreu (puff + som de baque); encena: corta (hammer) (acao + som de efeito); encena: morre (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | - | encena: corta (hammer) (acao + som de efeito) | -
 b3 | two | -  | - | (rosto) shout (expr + som de efeito); gritou (ring + som de alerta); brigar (puff + som de baque); encena: grita (up) (acao + som de efeito); encena: corta (hammer) (acao + som de efeito) | -

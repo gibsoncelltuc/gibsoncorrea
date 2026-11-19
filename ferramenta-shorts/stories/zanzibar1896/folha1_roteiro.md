@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: palace | 1
 - Narracao: O sultão morreu de repente, e um primo dele correu para o palácio, e se sentou no trono sem pedir licença.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; correu -> dust + som de impacto; encena: corre -> acao + som de efeito; encena: senta -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; correu -> dust + som de impacto; encena: morre -> acao + som de efeito; encena: corre -> acao + som de efeito; encena: senta -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

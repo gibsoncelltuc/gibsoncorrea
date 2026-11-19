@@ -67,7 +67,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): GRE (variante 0, expressao angry); BUL (variante 0, expressao shout) | multidao: 20 de GRE/BUL
-- Animacao: - | batalha encenada
+- Animacao: encena | batalha encenada
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bulgaria, combates, exercito, pessoas, petrich, regiao
 - RISCOS: nenhum

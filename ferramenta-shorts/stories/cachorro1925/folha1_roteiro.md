@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: Um cachorro fugiu, e por causa dele dois países entraram em guerra, e dezenas de pessoas morreram.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; fugiu -> dust + som de impacto; morreram -> puff + som de baque; encena: corre -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; fugiu -> dust + som de impacto; morreram -> puff + som de baque; encena: corre -> acao + som de efeito; encena: morre -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1925
 - Funcao na historia: GANCHO
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: Acontece que o soldado morreu, e a Grécia fez um ultimato furioso à Bulgária.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; encena: morre -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: Poucos dias depois, o exército grego invadiu a Bulgária e ocupou a região de Petrich, e dezenas de pessoas morreram nos combates.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; invadiu -> dust + som de impacto; morreram -> puff + som de baque
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; invadiu -> dust + som de impacto; morreram -> puff + som de baque; encena: morre -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: INVASÃO
 - Funcao na historia: GRANDE MOMENTO
