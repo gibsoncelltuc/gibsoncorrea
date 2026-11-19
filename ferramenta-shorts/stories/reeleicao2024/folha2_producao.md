@@ -24,11 +24,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - Milhões de americanos escolheram entre Trump e a vice-presidente Kamal...
 - Cenario: street | luz: day | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): TRU (variante 0, expressao smug); POV (variante 0, expressao grin) | multidao: 30 de POV
-- Animacao: encena
-- Objetos/modelos: kit/marco_casabranca
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (2): TRU (variante 0, expressao smug); POV (variante 0, expressao grin)
+- Animacao: conversar | interacao: insiste
+- Objetos/modelos: kit/ballot_box, kit/marco_casabranca
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): americanos, vicepresidente
 - RISCOS: nenhum
 
@@ -77,18 +77,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): REP (variante 0, expressao smile, segura paper); POV (variante 1, expressao suspicious)
-- Animacao: conversar | interacao: insiste
+- Animacao: conversar | interacao: vai ate o outro
 - Objetos/modelos: kit/scroll
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cento
 - RISCOS: nenhum
 
 ## Cena b8 - Em vinte de janeiro de dois mil e vinte e cinco, ele voltou ao cargo.
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): TRU (variante 0, expressao grin); GEN (variante 0, expressao stern)
 - Animacao: comemorar | interacao: pular
-- Objetos/modelos: kit/white_house, kit/ballot_box, kit/marco_casabranca
+- Objetos/modelos: kit/white_house, kit/marco_casabranca
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, janeiro
 - RISCOS: nenhum
 
@@ -117,15 +117,15 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/ballot_box | b0, b8, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/ballot_box | b0, b2, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/white_house | b0, b1, b5, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_casabranca | b1, b2, b5, b6, b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/scroll | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/ballot_box | grandes momentos: b5, b9 | planos abertos: 4 | mistura: close 33% | medio 49% | aberto 16% | detalhe 2%
-- Interacoes: b0 o outro se aproxima, b3 discutir, b7 insiste, b8 pular
+- Objeto heroi: kit/ballot_box | grandes momentos: b5, b9 | planos abertos: 3 | mistura: close 33% | medio 54% | aberto 12% | detalhe 2%
+- Interacoes: b0 o outro se aproxima, b2 insiste, b3 discutir, b7 vai ate o outro, b8 pular
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
