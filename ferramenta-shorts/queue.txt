@@ -11,6 +11,3 @@ pia2022
 roadster2018
 selfie2019
 eratostenes240
-ese_dinheiro
-ese_lua
-ese_napoleao
