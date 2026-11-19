@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 11 - A Guerra da Lagosta
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.0s - 14 palavras - plano two
@@ -9,10 +9,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | discutir | OK |
-| 2 | - | ATUACAO | discutir | OK |
-| 3 | - | CHEGADA | alguem entra andando | OK |
-| 4 | - | PLACA | 1961 | OK |
+| 1 | entraram (1.3s) | ACAO: chega | entra andando pela lateral | OK |
+| 2 | - | INTERACAO | discutir | OK |
+| 3 | - | ATUACAO | discutir | OK |
+| 4 | - | CHEGADA | alguem entra andando | OK |
+| 5 | - | PLACA | 1961 | OK |
 
 ## Cena b1 - 4.3s a 11.6s - 21 palavras - plano reveal
 > "Era mil novecentos e sessenta e um. Barcos franceses pescavam lagostas na costa de Pernambuco, e os pescadores brasileiros não gostaram."
@@ -64,10 +65,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | esperou (37.5s) | ACAO: x_espera | espera de bracos cruzados | OK |
 | 2 | tiro (39.1s) | EFEITO: burst | estouro/clarao + som | OK |
-| 3 | - | CENA | tiros: 3 soldados caem no chao | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | INTERACAO | susto | OK |
-| 6 | - | ATUACAO | discutir | OK |
+| 3 | tiro (39.1s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 4 | - | CENA | tiros: 3 soldados caem no chao | OK |
+| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 6 | - | INTERACAO | susto | OK |
+| 7 | - | ATUACAO | discutir | OK |
 
 ## Cena b7 - 39.2s a 45.2s - 16 palavras - plano two
 > "Mas o tiro nunca veio. Os dois governos se reuniram e conversaram, em vez de brigar."
@@ -75,10 +77,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | tiro (39.8s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | brigar (45.2s) | EFEITO: puff | fumaca + som | OK |
-| 3 | - | INTERACAO | entregar | OK |
-| 4 | - | ATUACAO | conversar | OK |
-| 5 | - | CHEGADA | alguem entra andando | OK |
+| 2 | tiro (39.8s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 3 | brigar (45.2s) | EFEITO: puff | fumaca + som | OK |
+| 4 | brigar (45.2s) | ACAO: golpe | soco + estouro | OK |
+| 5 | - | INTERACAO | entregar | OK |
+| 6 | - | ATUACAO | conversar | OK |
+| 7 | - | CHEGADA | alguem entra andando | OK |
 
 ## Cena b8 - 45.3s a 52.2s - 18 palavras - plano reveal
 > "Em mil novecentos e sessenta e três, chegaram a um acordo: alguns barcos franceses podiam pescar, com limite."
@@ -86,9 +90,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | chegaram (47.4s) | EFEITO: dust | poeira + som | OK |
-| 2 | pescar (50.7s) | ACAO: x_pesca | puxa a linha + respingo | OK |
-| 3 | - | ATUACAO | comemorar | OK |
-| 4 | - | PLACA | 1963 | OK |
+| 2 | chegaram (47.4s) | ACAO: chega | entra andando pela lateral | OK |
+| 3 | pescar (50.7s) | ACAO: x_pesca | puxa a linha + respingo | OK |
+| 4 | - | ATUACAO | comemorar | OK |
+| 5 | - | PLACA | 1963 | OK |
 
 ## Cena b9 - 52.6s a 55.2s - 13 palavras - plano close
 > "No fim, ninguém perguntou para a lagosta de que lado ela queria ficar."

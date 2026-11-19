@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: A França e o Brasil quase entraram em guerra por causa de uma lagosta.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: chega (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1961
 - Funcao na historia: GANCHO
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Marinheiros dos dois lados se encararam no mar, e todo mundo esperou o primeiro tiro.
 - Som ambiente: sea | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: tick@40, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148
-- Efeito + som nas palavras-chave: tiros: 3 soldados caem no chao -> acao + som de efeito; tiro -> burst + som de tiro/explosao; encena: x_espera (cross) -> acao + som de efeito
+- Efeito + som nas palavras-chave: tiros: 3 soldados caem no chao -> acao + som de efeito; tiro -> burst + som de tiro/explosao; encena: x_espera (cross) -> acao + som de efeito; encena: atira -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Mas o tiro nunca veio. Os dois governos se reuniram e conversaram, em vez de brigar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: tiro -> burst + som de tiro/explosao; brigar -> puff + som de baque
+- Efeito + som nas palavras-chave: tiro -> burst + som de tiro/explosao; brigar -> puff + som de baque; encena: atira -> acao + som de efeito; encena: golpe (punch) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Em mil novecentos e sessenta e três, chegaram a um acordo: alguns barcos franceses podiam pescar, com limite.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: chegaram -> dust + som de impacto; encena: x_pesca (lift) -> acao + som de efeito
+- Efeito + som nas palavras-chave: chegaram -> dust + som de impacto; encena: chega (point) -> acao + som de efeito; encena: x_pesca (lift) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1963
 - Funcao na historia: desenvolvimento

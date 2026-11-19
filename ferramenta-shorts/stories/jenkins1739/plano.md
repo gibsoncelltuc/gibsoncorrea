@@ -7,7 +7,7 @@ b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | - | - | -
 b3 | two | -  | - | - | -
 b4 | two | -  | interior, objeto na mao | (rosto) angry (expr + som de efeito) | -
-b5 | two | -  | interior | brigar (puff + som de baque) | -
+b5 | two | -  | interior | brigar (puff + som de baque); encena: golpe (punch) (acao + som de efeito) | -
 b6 | crowd | -  | batalha aberta com tiros, tropa, placa: GUERRA | encena: fala (point) (acao + som de efeito) | -
 b7 | group | -  | batalha aberta com tiros, tropa | cavalaria: 2 soldados a cavalo (SOL) (acao + som de efeito); tiros: 3 soldados caem no chao (acao + som de efeito) | -
 b8 | two | -  | interior, objeto na mao | aperto de mao (acao + som de efeito) | -

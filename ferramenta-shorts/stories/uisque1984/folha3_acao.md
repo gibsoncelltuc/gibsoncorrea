@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 17 - A Guerra do Uísque
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 23 acoes catalogadas, 23 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 4.3s - 15 palavras - plano two
@@ -36,7 +36,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | chegaram (19.3s) | EFEITO: dust | poeira + som | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | chegaram (19.3s) | ACAO: chega | entra andando pela lateral | OK |
+| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
 ## Cena b4 - 21.4s a 24.7s - 13 palavras - plano two
 > "Eles fincaram a bandeira do Canadá e deixaram uma garrafa de uísque canadense."
@@ -51,9 +52,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | o outro se aproxima | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | CHEGADA | alguem entra andando | OK |
+| 1 | apareceram (28.9s) | ACAO: chega | entra andando pela lateral | OK |
+| 2 | - | INTERACAO | o outro se aproxima | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | CHEGADA | alguem entra andando | OK |
 
 ## Cena b6 - 32.4s a 36.8s - 15 palavras - plano orbit
 > "E deixaram um bilhete: "Bem-vindos à terra dinamarquesa", ao lado de uma garrafa de licor."
@@ -85,5 +87,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | tiro (50.6s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | - | ATUACAO | comemorar | OK |
+| 2 | tiro (50.6s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 3 | - | ATUACAO | comemorar | OK |
 

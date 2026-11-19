@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: A Inglaterra e a Islândia entraram em guerra três vezes por causa de um bacalhau.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: chega (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1958
 - Funcao na historia: GANCHO

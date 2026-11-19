@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic |
 - Narracao: Em mil novecentos e oitenta e quatro, soldados canadenses chegaram lá de helicóptero.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: chegaram -> dust + som de impacto
+- Efeito + som nas palavras-chave: chegaram -> dust + som de impacto; encena: chega (point) -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic |
 - Narracao: Acontece que, pouco depois, os dinamarqueses apareceram, arrancaram a bandeira e puseram a deles.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: chega (point) -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic |
 - Narracao: A guerra mais educada da história acabou sem um tiro e com muito uísque.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: tiro -> burst + som de tiro/explosao
+- Efeito + som nas palavras-chave: tiro -> burst + som de tiro/explosao; encena: atira -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

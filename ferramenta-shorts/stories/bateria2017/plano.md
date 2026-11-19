@@ -4,11 +4,11 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | close | -  | interior | - | -
 b1 | reveal | -  | tropa, placa: 100 DIAS, mapa | encena: escreve (write) (acao + som de efeito) | -
-b2 | group | -  | batalha aberta com tiros, tropa, placa: 50 MILHÕES | perder (dust + som de impacto) | -
+b2 | group | -  | batalha aberta com tiros, tropa, placa: 50 MILHÕES | perder (dust + som de impacto); encena: perde (facepalm) (acao + som de efeito) | -
 b3 | two | -  | interior | - | -
 b4 | wide | -  | batalha aberta com tiros, tropa, placa: 55 DIAS | - | -
 b5 | two | -  | mapa | - | -
-b6 | close | -  | interior | (rosto) happy (expr + som de efeito); perder (dust + som de impacto) | -
+b6 | close | -  | interior | (rosto) happy (expr + som de efeito); perder (dust + som de impacto); encena: perde (facepalm) (acao + som de efeito) | -
 b7 | close | -  | - | - | -
 b8 | two | -  | - | encena: x_fone (lift) (acao + som de efeito) | -
 b9 | two | -  | - | - | -

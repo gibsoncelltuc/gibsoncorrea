@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Acontece que a Inglaterra queria uma desculpa para brigar com a Espanha por causa do comércio no Caribe.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: brigar -> puff + som de baque
+- Efeito + som nas palavras-chave: brigar -> puff + som de baque; encena: golpe (punch) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: VIRADA

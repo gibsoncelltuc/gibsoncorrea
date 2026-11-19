@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 05 - Cem Dias ou de Graça
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.4s - 17 palavras - plano close
@@ -27,10 +27,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | perder (15.0s) | EFEITO: dust | poeira + som | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | INTERACAO | aproxima-se | OK |
-| 4 | - | ATUACAO | conversar | OK |
-| 5 | - | PLACA | 50 MILHÕES | OK |
+| 2 | perder (15.0s) | ACAO: perde | mao na testa | OK |
+| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | INTERACAO | aproxima-se | OK |
+| 5 | - | ATUACAO | conversar | OK |
+| 6 | - | PLACA | 50 MILHÕES | OK |
 
 ## Cena b3 - 16.9s a 21.6s - 15 palavras - plano two
 > "O contrato foi fechado no fim de setembro, e o prazo de cem dias começou."
@@ -63,8 +64,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | perder (36.0s) | EFEITO: dust | poeira + som | OK |
-| 2 | - | EMOCAO: happy | o rosto vira "happy" na palavra | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 2 | perder (36.0s) | ACAO: perde | mao na testa | OK |
+| 3 | - | EMOCAO: happy | o rosto vira "happy" na palavra | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 36.7s a 41.8s - 14 palavras - plano close
 > "Ou seja, uma conversa no Twitter virou uma obra de cinquenta e cinco dias."

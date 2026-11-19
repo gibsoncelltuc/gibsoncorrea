@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 06 - Os Bifes com o Nome do Trump
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.8s - 19 palavras - plano two
@@ -17,10 +17,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | insiste | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | CHEGADA | alguem entra andando | OK |
-| 4 | - | MAPA | ESTADOS UNIDOS | OK |
+| 1 | apareceram (6.4s) | ACAO: chega | entra andando pela lateral | OK |
+| 2 | - | INTERACAO | insiste | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | CHEGADA | alguem entra andando | OK |
+| 5 | - | MAPA | ESTADOS UNIDOS | OK |
 
 ## Cena b2 - 10.5s a 15.1s - 20 palavras - plano group
 > "Os pacotes custavam de cento e noventa e nove a novecentos e noventa e nove dólares, com bifes e hambúrgueres."
@@ -57,9 +58,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | apareceu (27.6s) | EFEITO: dust | poeira + som | OK |
-| 2 | - | INTERACAO | vai ate o outro | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| 4 | - | CHEGADA | alguem entra andando | OK |
+| 2 | apareceu (27.6s) | ACAO: chega | entra andando pela lateral | OK |
+| 3 | - | INTERACAO | vai ate o outro | OK |
+| 4 | - | ATUACAO | conversar | OK |
+| 5 | - | CHEGADA | alguem entra andando | OK |
 
 ## Cena b6 - 31.0s a 34.6s - 12 palavras - plano two
 > "Segundo registros, a marca registrada foi cancelada em dois mil e catorze."

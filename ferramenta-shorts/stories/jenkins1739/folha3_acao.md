@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 12 - A Guerra da Orelha de Jenkins
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.9s - 15 palavras - plano two
@@ -52,8 +52,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | brigar (30.8s) | EFEITO: puff | fumaca + som | OK |
-| 2 | - | INTERACAO | cochichar | OK |
-| 3 | - | ATUACAO | discutir | OK |
+| 2 | brigar (30.8s) | ACAO: golpe | soco + estouro | OK |
+| 3 | - | INTERACAO | cochichar | OK |
+| 4 | - | ATUACAO | discutir | OK |
 
 ## Cena b6 - 33.9s a 38.8s - 17 palavras - plano crowd
 > "Em mil setecentos e trinta e nove, declarou guerra, e navios e soldados ingleses cruzaram o oceano."

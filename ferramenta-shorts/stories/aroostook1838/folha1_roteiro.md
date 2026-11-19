@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b9  (~5.2 s)
 - Narracao: Chamaram de Guerra do Porco com Feijão, porque era só isso que as tropas comiam.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: animal: pig come -> acao + som de efeito
 - Efeito visual marcado: -

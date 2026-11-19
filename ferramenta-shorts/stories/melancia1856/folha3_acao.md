@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 16 - A Guerra da Melancia
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 41 acoes catalogadas, 41 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 46 acoes catalogadas, 46 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.9s - 16 palavras - plano two
@@ -10,10 +10,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | pagar (1.4s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | briga (2.3s) | EFEITO: puff | fumaca + som | OK |
-| 3 | - | INTERACAO | discutir | OK |
-| 4 | - | ATUACAO | discutir | OK |
-| 5 | - | PLACA | 1856 | OK |
+| 2 | pagar (1.4s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 3 | briga (2.3s) | EFEITO: puff | fumaca + som | OK |
+| 4 | briga (2.3s) | ACAO: golpe | soco + estouro | OK |
+| 5 | - | INTERACAO | discutir | OK |
+| 6 | - | ATUACAO | discutir | OK |
+| 7 | - | PLACA | 1856 | OK |
 
 ## Cena b1 - 5.2s a 12.3s - 25 palavras - plano reveal
 > "Em mil oitocentos e cinquenta e seis, viajantes cruzavam o Panamá de trem, a caminho do ouro da Califórnia, em uma viagem cheia de gente."
@@ -21,8 +23,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | ouro (9.9s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | - | ATUACAO | reagir | OK |
-| 3 | - | MAPA | PANAMÁ | OK |
+| 2 | ouro (9.9s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 3 | - | ATUACAO | reagir | OK |
+| 4 | - | MAPA | PANAMÁ | OK |
 
 ## Cena b2 - 13.4s a 17.2s - 15 palavras - plano two
 > "Um deles parou numa barraca, comeu uma fatia de melancia e foi embora sem pagar."
@@ -32,8 +35,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | comeu (15.1s) | ACAO: x_come | leva a comida a boca | OK |
 | 2 | embora (16.7s) | ACAO: sai | sai andando pela lateral | OK |
 | 3 | pagar (17.2s) | EFEITO: stars | estrelinhas + som | OK |
-| 4 | - | INTERACAO | empurrar | OK |
-| 5 | - | ATUACAO | reagir | OK |
+| 4 | pagar (17.2s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 5 | - | INTERACAO | empurrar | OK |
+| 6 | - | ATUACAO | reagir | OK |
 
 ## Cena b3 - 18.3s a 22.8s - 15 palavras - plano two
 > "O vendedor pediu o pagamento: "Pague a fatia!", gritou ele, e o viajante só riu."
@@ -63,9 +67,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | briga (32.2s) | EFEITO: puff | fumaca + som | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | ATUACAO | discutir | OK |
-| 4 | - | PLACA | BRIGA | OK |
+| 2 | briga (32.2s) | ACAO: golpe | soco + estouro | OK |
+| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | ATUACAO | discutir | OK |
+| 5 | - | PLACA | BRIGA | OK |
 
 ## Cena b6 - 35.0s a 39.3s - 15 palavras - plano two
 > "Acontece que mais de quinze pessoas morreram naquele dia, e a cidade ficou em choque."

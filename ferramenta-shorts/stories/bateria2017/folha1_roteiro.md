@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: Os jornais calcularam que ele podia perder mais de cinquenta milhões de dólares.
 - Som ambiente: birds
 - Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: perder -> dust + som de impacto
+- Efeito + som nas palavras-chave: perder -> dust + som de impacto; encena: perde (facepalm) -> acao + som de efeito
 - Efeito visual marcado: burst@40
 - Texto na tela: 50 MILHÕES
 - Funcao na historia: GRANDE MOMENTO
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: Mike Cannon-Brookes disse que nunca tinha ficado tão feliz de perder uma aposta.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) happy -> expr + som de efeito; perder -> dust + som de impacto
+- Efeito + som nas palavras-chave: (rosto) happy -> expr + som de efeito; perder -> dust + som de impacto; encena: perde (facepalm) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

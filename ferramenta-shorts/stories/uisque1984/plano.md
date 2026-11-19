@@ -5,13 +5,13 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | -  | placa: 1984, objeto na mao | brigaram (puff + som de baque); encena: golpe (punch) (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | - | - | -
-b3 | crowd | -  | batalha aberta com tiros, tropa, objeto na mao | chegaram (dust + som de impacto) | -
+b3 | crowd | -  | batalha aberta com tiros, tropa, objeto na mao | chegaram (dust + som de impacto); encena: chega (point) (acao + som de efeito) | -
 b4 | two | -  | objeto na mao | - | -
-b5 | low | -  | tropa, objeto na mao | - | -
+b5 | low | -  | tropa, objeto na mao | encena: chega (point) (acao + som de efeito) | -
 b6 | orbit | -  | batalha aberta com tiros, tropa, objeto na mao | - | -
 b7 | two | -  | - | - | -
 b8 | two | -  | interior, objeto na mao | - | -
-b9 | close | -  | interior | tiro (burst + som de tiro/explosao) | -
+b9 | close | -  | interior | tiro (burst + som de tiro/explosao); encena: atira (acao + som de efeito) | -
 
 Mistura de planos: close 22% | medio 57% | aberto 14% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Uma fatia de melancia sem pagar começou uma briga entre o Panamá e os Estados Unidos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: pagar -> stars + som de sino; briga -> puff + som de baque
+- Efeito + som nas palavras-chave: pagar -> stars + som de sino; briga -> puff + som de baque; encena: paga (reach) -> acao + som de efeito; encena: golpe (punch) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1856
 - Funcao na historia: GANCHO
@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Em mil oitocentos e cinquenta e seis, viajantes cruzavam o Panamá de trem, a caminho do ouro da Califórnia, em uma viagem cheia de gente.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: ouro -> stars + som de sino
+- Efeito + som nas palavras-chave: ouro -> stars + som de sino; encena: paga (reach) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: PANAMÁ
 - Funcao na historia: desenvolvimento
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Um deles parou numa barraca, comeu uma fatia de melancia e foi embora sem pagar.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: pagar -> stars + som de sino; encena: x_come (lift) -> acao + som de efeito; encena: sai -> acao + som de efeito
+- Efeito + som nas palavras-chave: pagar -> stars + som de sino; encena: x_come (lift) -> acao + som de efeito; encena: sai -> acao + som de efeito; encena: paga (reach) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Em poucos minutos, a rua virou uma briga enorme entre moradores e viajantes.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: briga -> puff + som de baque
+- Efeito + som nas palavras-chave: briga -> puff + som de baque; encena: golpe (punch) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: BRIGA
 - Funcao na historia: GRANDE MOMENTO

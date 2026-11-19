@@ -11,7 +11,7 @@ b5 | low | noite  | animais, placa: QUÁ! QUÁ! | encena: x_acorda (up) (acao + 
 b6 | two | noite  | - | caiu (dust + som de impacto); encena: pula (acao + som de efeito); encena: empurra (push) (acao + som de efeito) | -
 b7 | orbit | noite  | batalha aberta com tiros, tropa | alarme (ring + som de alerta); correram (dust + som de impacto); ataque (ring + som de alerta); encena: grita (up) (acao + som de efeito); encena: x_acorda (up) (acao + som de efeito); encena: corre (acao + som de efeito); encena: atira (acao + som de efeito); encena: perde (facepalm) (acao + som de efeito) | -
 b8 | two | dia  | animais, placa: DESFILE | - | -
-b9 | close | dia  | - | ganharam (stars + som de sino); encena: vence (up) (acao + som de efeito) | -
+b9 | close | dia  | - | - | -
 
-Mistura de planos: close 18% | medio 56% | aberto 18% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 18% | medio 57% | aberto 19% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

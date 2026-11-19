@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Ela mandou uma frota de navios de guerra e exigiu o dinheiro de volta.
 - Som ambiente: sea | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino; encena: fala (point) -> acao + som de efeito
+- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino; encena: fala (point) -> acao + som de efeito; encena: paga (reach) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: A guerra seguiu esquecida por mais de trezentos anos, sem um único tiro.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: tiro -> burst + som de tiro/explosao
+- Efeito + som nas palavras-chave: tiro -> burst + som de tiro/explosao; encena: atira -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
