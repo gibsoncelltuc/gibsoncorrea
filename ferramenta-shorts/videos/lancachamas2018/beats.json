@@ -54,21 +54,23 @@
    "say": "O nome dele era Não é um lança-chamas.",
    "shot": "two",
    "who": [
-    "MUS:0:grin",
+    "MUS:0:smug",
     "CMP:0:surprised"
    ],
    "props": [
     [
      "kit/flamethrower",
-     1.0,
-     0.3,
-     1.8
+     0.9,
+     0.9,
+     0.9
     ]
    ],
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "acao": "conversar"
+   "acao": "conversar",
+   "set": "street",
+   "shot_lock": true
   },
   {
    "say": "O preço era de quinhentos dólares.",

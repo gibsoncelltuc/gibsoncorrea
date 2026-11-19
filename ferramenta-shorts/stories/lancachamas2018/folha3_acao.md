@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 12 - O Não é um Lança-Chamas
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 25 acoes catalogadas, 25 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.7s - 25 palavras - plano two
@@ -15,19 +15,20 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | MAPA | ESTADOS UNIDOS | OK |
 
-## Cena b1 - 8.0s a 9.3s - 8 palavras - plano reveal
+## Cena b1 - 8.0s a 9.3s - 8 palavras - plano two
 > "O nome dele era Não é um lança-chamas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | - | INTERACAO | avanca e o outro recua | OK |
+| 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b2 - 10.8s a 12.2s - 6 palavras - plano two
 > "O preço era de quinhentos dólares."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | avanca e o outro recua | OK |
+| 1 | - | INTERACAO | o outro se aproxima | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | US$ 500 | OK |
 
@@ -54,7 +55,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | venda (22.8s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 2 | - | INTERACAO | o outro se aproxima | OK |
+| 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | 20.000 UNIDADES | OK |
 
@@ -72,7 +73,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | insiste | OK |
+| 1 | - | INTERACAO | vai ate o outro | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b8 - 31.2s a 34.8s - 11 palavras - plano two
@@ -80,6 +81,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | vai ate o outro | OK |
+| 1 | - | INTERACAO | cochichar | OK |
 | 2 | - | ATUACAO | conversar | OK |
 

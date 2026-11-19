@@ -13,7 +13,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b1  (~2.8 s)
 - Narracao: O nome dele era Não é um lança-chamas.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -58,7 +58,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b6  (~4.8 s)
 - Narracao: E elas esgotaram em poucos dias, e faturaram cerca de dez milhões de dólares.
-- Som ambiente: birds
+- Som ambiente: sea
 - Efeitos sonoros marcados: ding@3
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: burst@3
