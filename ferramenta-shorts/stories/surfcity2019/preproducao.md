@@ -4,16 +4,16 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | harbor | close | 1 | conversar | kit/surfboard | - | -
+b0 | interior pedra | close | 1 | conversar | kit/surfboard | - | -
 b1 | harbor | two | 2 | conversar, INTERAGEM: cochichar | kit/surfboard | - | -
-b2 | harbor | crowd | 11 | batalha | kit/surfboard | - | -
+b2 | stadium | crowd | 11 | batalha | kit/surfboard | - | -
 b3 | harbor | two | 2 | reagir, INTERAGEM: insiste | - | - | -
-b4 | harbor | crowd | 11 | batalha | kit/surfboard | - | -
-b5 | harbor | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/surfboard | - | -
+b4 | stadium | crowd | 11 | batalha | kit/surfboard | - | -
+b5 | interior loja | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/surfboard | - | -
 b6 | harbor | two | 2 | conversar, INTERAGEM: aproxima-se | - | - | -
-b7 | harbor | two | 2 | conversar, INTERAGEM: susto | kit/surfboard | - | -
+b7 | countryside | two | 2 | conversar, INTERAGEM: susto | kit/surfboard | - | -
 b8 | harbor | group | 3 | conversar, INTERAGEM: avanca e o outro recua | kit/surfboard | - | -
-b9 | harbor | close | 1 | conversar | kit/surfboard | - | -
+b9 | street | close | 1 | conversar | kit/surfboard | - | -
 
 OBJETO HEROI: kit/surfboard - aparece em 8 cena(s), close nele em 3
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b2, b4

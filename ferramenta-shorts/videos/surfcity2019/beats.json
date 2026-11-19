@@ -6,7 +6,7 @@
  "title": "A Cidade do Surfe",
  "titulo_base": "A Cidade do Surfe",
  "set": "harbor",
- "hora": "pordosol",
+ "hora": "dia",
  "light": "golden",
  "exp": 1.0,
  "mood": "playful",
@@ -16,11 +16,11 @@
    "jacket": "#22252c",
    "pants": "#2a2d33",
    "boots": "#f4f1e8",
-   "hat": "cap",
-   "cap": "#f4f1e8",
+   "hat": "hair",
    "beard": "#2a201a",
    "pele": "#e8c8a8",
-   "fixo": true
+   "fixo": true,
+   "hair": "#1a1410"
   },
   "JOR": {
    "jacket": "#4a6a9a",
@@ -70,7 +70,8 @@
     ]
    ],
    "mapa": "EL SALVADOR",
-   "mapa_at": 1
+   "mapa_at": 1,
+   "interior": "pedra"
   },
   {
    "tiros": false,
@@ -89,7 +90,8 @@
      0.6,
      1.3
     ]
-   ]
+   ],
+   "set": "harbor"
   },
   {
    "tiros": false,
@@ -126,7 +128,8 @@
      -8.0,
      2.0
     ]
-   ]
+   ],
+   "set": "stadium"
   },
   {
    "tiros": false,
@@ -137,7 +140,8 @@
    "who": [
     "JOR:0:shock",
     "JOR2:0:laugh"
-   ]
+   ],
+   "set": "harbor"
   },
   {
    "tiros": false,
@@ -174,7 +178,8 @@
      -8.0,
      2.0
     ]
-   ]
+   ],
+   "set": "stadium"
   },
   {
    "tiros": false,
@@ -194,7 +199,8 @@
      0.5,
      0.7
     ]
-   ]
+   ],
+   "interior": "loja"
   },
   {
    "tiros": false,
@@ -205,7 +211,8 @@
    "who": [
     "JOR:0:worried",
     "JOR2:0:suspicious"
-   ]
+   ],
+   "set": "harbor"
   },
   {
    "tiros": false,
@@ -218,7 +225,8 @@
     "JOR:0:shock"
    ],
    "mapa": "EL SALVADOR",
-   "mapa_at": 1
+   "mapa_at": 1,
+   "set": "countryside"
   },
   {
    "tiros": false,
@@ -238,7 +246,8 @@
      0.6,
      1.2
     ]
-   ]
+   ],
+   "set": "harbor"
   },
   {
    "tiros": false,
@@ -256,7 +265,8 @@
      1.0,
      0.6
     ]
-   ]
+   ],
+   "set": "street"
   }
  ],
  "fontes": [
@@ -266,5 +276,7 @@
   "https://www.wikiwand.com/en/articles/2023_ISA_World_Surfing_Games",
   "https://www.sportspolitika.news/p/the-worlds-coolest-dictator-wants",
   "https://ticotimes.net/2025/12/07/el-salvadors-surf-city-reshapes-coastline-amid-tourism-boom"
- ]
+ ],
+ "ano": 2019,
+ "regiao": "colonial"
 }
