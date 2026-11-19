@@ -1,0 +1,5 @@
+# E Se 8 — E Se Napoleão Tivesse Vencido em Waterloo? (série "E Se")
+**Fatos:** roteiro e fontes preparados e conferidos pela sessão principal (campo "fontes" do beats.json, saem na Folha 1: Waterloo 18/06/1815, Cem Dias, exílio em Santa Helena, exércitos russo e austríaco já em marcha); narração idêntica, sem corte. Tom de curiosidade, sem apologia.
+**Passou:** conferir.sh OK (63 s, 1080x1920, 0 riscos). Placa "1815" no 1º segundo; coroa (herói) em close no começo, no meio e no fim; mapa "BÉLGICA"; batalha encenada em plano aberto com placa "WATERLOO" e explosões; ingleses de vermelho (Wellington) e franceses de azul (Napoleão); Santa Helena em porto com navios e a coroa no chão; interior de madeira com pergaminho nas cenas de "e se ele tivesse ganhado"; expressões variadas; sem quadro de cor única na folha de contato.
+**Não passou / limitações:** Napoleão usa chapéu alto em vez do bicórnio; a chegada dos prussianos aparece só como tropa sem identificação própria; "império francês dominando a Europa" não tem mapa; cenário de campo repetido.
+**Refeito:** nenhuma cena no render.
