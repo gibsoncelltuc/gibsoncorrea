@@ -1,0 +1,198 @@
+{
+ "duration": 50.4,
+ "frames30": 1512,
+ "source": "silence-align (cost 0.63)",
+ "segments": [
+  [
+   0.160208,
+   0.987208
+  ],
+  [
+   1.23758,
+   4.00437
+  ],
+  [
+   4.29012,
+   5.11308
+  ],
+  [
+   5.96479,
+   8.14892
+  ],
+  [
+   8.37862,
+   9.64996
+  ],
+  [
+   10.488,
+   14.204
+  ],
+  [
+   14.4219,
+   15.6758
+  ],
+  [
+   16.5435,
+   19.372
+  ],
+  [
+   19.6237,
+   21.067
+  ],
+  [
+   21.9215,
+   26.0388
+  ],
+  [
+   26.886,
+   28.7122
+  ],
+  [
+   29.0106,
+   30.0682
+  ],
+  [
+   30.9541,
+   32.0277
+  ],
+  [
+   32.2463,
+   34.9145
+  ],
+  [
+   35.772,
+   36.3963
+  ],
+  [
+   36.6562,
+   39.734
+  ],
+  [
+   40.6078,
+   41.1707
+  ],
+  [
+   41.4036,
+   42.992
+  ],
+  [
+   43.2155,
+   44.5988
+  ],
+  [
+   45.4506,
+   46.3075
+  ],
+  [
+   46.5187,
+   49.5929
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Em dois mil e sete,",
+   "s": 0.16,
+   "e": 0.987
+  },
+  {
+   "text": "Donald Trump lan\u00e7ou uma linha de carnes com o pr\u00f3prio nome:",
+   "s": 1.238,
+   "e": 4.004
+  },
+  {
+   "text": "a Trump Steaks.",
+   "s": 4.29,
+   "e": 5.113
+  },
+  {
+   "text": "Os bifes apareceram na loja Sharper Image,",
+   "s": 5.965,
+   "e": 8.149
+  },
+  {
+   "text": "a partir de oito de maio.",
+   "s": 8.379,
+   "e": 9.65
+  },
+  {
+   "text": "Os pacotes custavam de cento e noventa e nove a novecentos e noventa e nove d\u00f3lares,",
+   "s": 10.488,
+   "e": 14.204
+  },
+  {
+   "text": "com bifes e hamb\u00fargueres.",
+   "s": 14.422,
+   "e": 15.676
+  },
+  {
+   "text": "Acontece que a loja deixou de oferecer os bifes em julho,",
+   "s": 16.544,
+   "e": 19.372
+  },
+  {
+   "text": "cerca de dois meses depois.",
+   "s": 19.624,
+   "e": 21.067
+  },
+  {
+   "text": "Uma reportagem estimou que as vendas totais nunca passaram de cinquenta mil d\u00f3lares.",
+   "s": 21.922,
+   "e": 26.039
+  },
+  {
+   "text": "A marca tamb\u00e9m apareceu na QVC,",
+   "s": 26.886,
+   "e": 28.712
+  },
+  {
+   "text": "um canal de televis\u00e3o.",
+   "s": 29.011,
+   "e": 30.068
+  },
+  {
+   "text": "Segundo registros,",
+   "s": 30.954,
+   "e": 32.028
+  },
+  {
+   "text": "a marca registrada foi cancelada em dois mil e catorze.",
+   "s": 32.246,
+   "e": 34.914
+  },
+  {
+   "text": "Mesmo assim,",
+   "s": 35.772,
+   "e": 36.396
+  },
+  {
+   "text": "os bifes continuaram sendo servidos em hot\u00e9is da rede Trump.",
+   "s": 36.656,
+   "e": 39.734
+  },
+  {
+   "text": "Em resumo,",
+   "s": 40.608,
+   "e": 41.171
+  },
+  {
+   "text": "a carne saiu da loja depressa,",
+   "s": 41.404,
+   "e": 42.992
+  },
+  {
+   "text": "mas o nome ficou no card\u00e1pio.",
+   "s": 43.215,
+   "e": 44.599
+  },
+  {
+   "text": "Moral da hist\u00f3ria:",
+   "s": 45.451,
+   "e": 46.307
+  },
+  {
+   "text": "nem todo produto com nome famoso dura mais que uma promo\u00e7\u00e3o.",
+   "s": 46.519,
+   "e": 49.593
+  }
+ ]
+}
