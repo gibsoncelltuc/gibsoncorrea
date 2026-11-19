@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 09 - O País do Bitcoin
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 19 acoes catalogadas, 19 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 22 acoes catalogadas, 22 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.4s - 22 palavras - plano two
@@ -10,8 +10,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | dinheiro (5.0s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | - | INTERACAO | avanca e o outro recua | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 2 | dinheiro (5.0s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 3 | - | INTERACAO | avanca e o outro recua | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b1 - 6.7s a 11.0s - 16 palavras - plano reveal
 > "O país era El Salvador, na América Central, e a ideia foi do presidente Nayib Bukele."
@@ -43,9 +44,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | pagar (20.8s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | compras (21.2s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 3 | - | INTERACAO | entregar | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 2 | pagar (20.8s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 3 | compras (21.2s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 4 | - | INTERACAO | entregar | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
 ## Cena b5 - 22.8s a 25.7s - 9 palavras - plano orbit
 > "O governo lançou até uma carteira digital, chamada Chivo."
@@ -75,6 +77,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | insiste | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | moeda (37.5s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 2 | - | INTERACAO | insiste | OK |
+| 3 | - | ATUACAO | conversar | OK |
 

@@ -18,7 +18,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao smile, segura tulip); RIC (variante 0, expressao grin) | multidao: 6 de POV
 - Animacao: encena
-- Objetos/modelos: kit/tulip_bed, buildings/windmill, kit/tulip_red
+- Objetos/modelos: kit/tulip_bed, buildings/windmill, kit/marco_amsterdam, kit/tulip_red
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chegar, holanda, moda, oriente, tulipa
 - RISCOS: nenhum
 
@@ -38,7 +38,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao grin, segura tulip); POV (variante 1, expressao laugh, segura coin); MER (variante 0, expressao grin) | multidao: 20 de POV/RIC
 - Animacao: encena | batalha encenada
-- Objetos/modelos: kit/tulip_bed
+- Objetos/modelos: kit/tulip_bed, kit/marco_amsterdam
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
@@ -48,7 +48,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): POV (variante 2, expressao grin, segura paper); POV (variante 3, expressao smile, segura coin)
 - Animacao: discutir | interacao: reverencia
-- Objetos/modelos: kit/tulip_yellow, kit/tulip_purple
+- Objetos/modelos: kit/tulip_yellow, kit/tulip_purple, kit/marco_amsterdam
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): flor, papel, semana
 - RISCOS: nenhum
 
@@ -78,7 +78,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): POV (variante 2, expressao shock, segura tulip); RIC (variante 0, expressao pained, segura paper) | multidao: 30 de POV/RIC/MER
 - Animacao: discutir | batalha encenada
-- Objetos/modelos: kit/tulip_bed
+- Objetos/modelos: kit/tulip_bed, kit/marco_amsterdam
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): noticia
 - RISCOS: nenhum
 
@@ -98,7 +98,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): MAR (variante 0, expressao grin)
 - Animacao: conversar
-- Objetos/modelos: -
+- Objetos/modelos: kit/marco_amsterdam
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): marinheiro
 - RISCOS: nenhum
 
@@ -110,6 +110,7 @@ Objeto | Cenas | Situacao | O que fazer
 kit/tulip_bed | b0, b1, b3, b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/windmill | b0, b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tulip_red | b0, b1, b5, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_amsterdam | b1, b3, b4, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tulip_striped | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/coin | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tulip_yellow | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py

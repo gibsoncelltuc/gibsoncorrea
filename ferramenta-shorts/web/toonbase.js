@@ -1191,7 +1191,7 @@ export const bodyFront = (p, o, opts)=>{
     const H = headBlob(seed, Bd.a, facing), W = 2 * H.a, HH = 2 * H.b, u = W / 100;
     const tall = (1 + Bd.torso + Bd.legs) * HH, sole = 975;
     const bob = mode === "march" ? 0.025 * tall * Math.cos(2 * two * phase) : mode === "stroll" ? 0.015 * tall * Math.cos(2 * two * phase) : 0;
-    const torsoBot = mode === "sit" ? sole - 0.2 * HH : sole - Bd.legs * HH + bob;
+    const torsoBot = mode === "sit" ? sole - 0.2 * HH : mode === "kneel" ? sole - 0.5 * Bd.legs * HH : sole - Bd.legs * HH + bob;   /* kneel (19/11): DE JOELHOS, corpo mais baixo */
     const chin = torsoBot - Bd.torso * HH, hc = chin - H.b, crown = hc - H.b, hipY = torsoBot - 0.12 * HH;
     const thick = thickAngle(light), ow = 5 * u;
     const legCol = mix(o.pants, INK, 0.86), armCol = mix(o.jacket, INK, 0.84), footCol = o.boots;   // pernas/bracos = traco de TINTA escura (canal: contraste 115-150 contra o chao)
@@ -1220,6 +1220,13 @@ export const bodyFront = (p, o, opts)=>{
                 f[0] + side * 12 * u,
                 f[1] - 5 * u
             ], footW, footCol);
+        }
+    } else if (mode === "kneel") {   /* DE JOELHOS: coxa desce reta ate o joelho no chao, canela e pe para tras (curtinhos, vistos de frente) */
+        for (const side of [-1, 1]) {
+            const h = [300 + side * 14 * u, hipY], k = [300 + side * 20 * u, sole - 6 * u];
+            p.stroke(curve(h, [300 + side * 18 * u, (hipY + k[1]) / 2], k), legW, legCol);
+            p.ell(k[0], k[1] - 2 * u, 5 * u, 4 * u, legCol, 0, 0, 360, 0);
+            footStroke(p, [k[0] + side * 4 * u, sole - 3 * u], [k[0] + side * 13 * u, sole - 1 * u], footW * 0.8, footCol);
         }
     } else if (mode === "fall") {
         const legs = [
@@ -1489,7 +1496,7 @@ export const bodyFront = (p, o, opts)=>{
         const hx = rest[0] + (use[0] - rest[0]) * h, hy = rest[1] + (use[1] - rest[1]) * h;
         arms[arms.length - 1] = { pts: [Qh(0.36, 0.12), Qh(0.36 + (hx - 0.36) * 0.55 + 0.12, 0.12 + (hy - 0.12) * 0.5 + 0.16), Qh(hx, hy)], front: true, top: hy < 0.08 };   /* mao perto do rosto fica na frente da cabeca */
     }
-    if (gest && mode !== "sit" && mode !== "fall") {
+    if (gest && mode !== "sit" && mode !== "fall") {   /* kneel aceita gesto (maos de suplica) */
         const Q = (s, xr, yr)=>[tcx + s * xr * HH, chin + yr * HH];
         const wob = 0.035 * Math.sin(gt * 9), fs = (facing || 1) > 0 ? 1 : -1;
         const G = {
@@ -1504,6 +1511,7 @@ export const bodyFront = (p, o, opts)=>{
             facepalm: (s)=>s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.62, -0.02), Q(s, 0.04, -0.86)], front: true, top: true } : null,
             salute: (s)=>s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.78, -0.1), Q(s, 0.3, -0.97)], front: true, top: true } : null,
             /* GESTOS DE ACAO (19/11: a cena faz o que a narracao conta) */
+            plead: (s)=>({ pts: [Q(s, 0.36, 0.12), Q(s, 0.42, 0.34), Q(s, 0.06, 0.02 + wob)], front: true }),   /* SUPLICA (19/11): as duas maos juntas na frente do peito */
             reach: (s)=>s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.72, 0.2), Q(s, 1.08, 0.34 + wob)], front: true } : null,
             pour: (s)=>s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.74, 0.0), Q(s, 1.0, -0.12 + 0.12 * Math.sin(gt * 3))], front: true } : null,
             stir: (s)=>s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.7, 0.28), Q(s, 0.92 + 0.14 * Math.cos(gt * 9), 0.46 + 0.06 * Math.sin(gt * 9))], front: true } : null,

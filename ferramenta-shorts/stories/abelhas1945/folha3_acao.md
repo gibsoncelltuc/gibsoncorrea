@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 20 - As Abelhas que Dançam um Mapa
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.0s - 15 palavras - plano two
@@ -10,11 +10,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | dançando (1.3s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | descobriu (4.0s) | EFEITO: ring | onda + som | OK |
-| 3 | descobriu (4.0s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 4 | - | INTERACAO | avanca e o outro recua | OK |
-| 5 | - | ATUACAO | dancar | OK |
-| 6 | - | PLACA | DANÇA | OK |
+| 2 | dançando (1.3s) | ACAO: danca | danca de bracos para cima | OK |
+| 3 | descobriu (4.0s) | EFEITO: ring | onda + som | OK |
+| 4 | descobriu (4.0s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+| 5 | - | INTERACAO | avanca e o outro recua | OK |
+| 6 | - | ATUACAO | dancar | OK |
+| 7 | - | PLACA | DANÇA | OK |
 
 ## Cena b1 - 6.2s a 9.6s - 13 palavras - plano reveal
 > "Karl von Frisch nasceu na Áustria, e passou a vida inteira estudando abelhas."
@@ -70,8 +71,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | dança (45.4s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | - | INTERACAO | entregar | OK |
-| 3 | - | ATUACAO | dancar | OK |
+| 2 | dança (45.4s) | ACAO: danca | danca de bracos para cima | OK |
+| 3 | - | INTERACAO | entregar | OK |
+| 4 | - | ATUACAO | dancar | OK |
 
 ## Cena b8 - 46.5s a 51.7s - 9 palavras - plano two
 > "Muitos cientistas não acreditaram. Inseto com linguagem? Parecia piada."
@@ -108,6 +110,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | segredo (68.3s) | EFEITO: ring | onda + som | OK |
-| 2 | dançando (68.7s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | - | ATUACAO | dancar | OK |
+| 2 | segredo (68.3s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
+| 3 | dançando (68.7s) | EFEITO: stars | estrelinhas + som | OK |
+| 4 | dançando (68.7s) | ACAO: danca | danca de bracos para cima | OK |
+| 5 | - | ATUACAO | dancar | OK |
 

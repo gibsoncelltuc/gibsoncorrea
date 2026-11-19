@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Os engenheiros comemoraram aos gritos. Era a primeira vez que alguém fazia isso na história.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; comemoraram -> stars + som de sino
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; comemoraram -> stars + som de sino; encena: vence (up) -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: PEGOU!
 - Funcao na historia: GRANDE MOMENTO
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Musk comemorou nas redes sociais: a torre tinha pegado o foguete.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; encena: vence (up) -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

@@ -5,9 +5,9 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | -  | interior, placa: 2024, objeto na mao | (rosto) sad (expr + som de efeito); perdeu (puff + som de baque); encena: perde (facepalm) (acao + som de efeito); encena: voto (reach) (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | - | encena: voto (reach) (acao + som de efeito) | -
-b3 | two | -  | interior, objeto na mao | - | -
+b3 | two | -  | interior, objeto na mao | encena: chega (point) (acao + som de efeito) | -
 b4 | close | -  | interior, objeto na mao | (rosto) laugh (expr + som de efeito); venceu (stars + som de sino); encena: vence (up) (acao + som de efeito) | -
-b5 | crowd | -  | batalha aberta com tiros, tropa, placa: 312 VOTOS | (rosto) laugh (expr + som de efeito); comemoraram (stars + som de sino); vitória (stars + som de sino); encena: escala (lift) (acao + som de efeito); encena: fala (point) (acao + som de efeito); encena: vence (up) (acao + som de efeito) | -
+b5 | crowd | -  | batalha aberta com tiros, tropa, placa: 312 VOTOS | (rosto) laugh (expr + som de efeito); comemoraram (stars + som de sino); vitória (stars + som de sino); encena: vence (up) (acao + som de efeito); encena: escala (lift) (acao + som de efeito); encena: fala (point) (acao + som de efeito) | -
 b6 | two | noite  | objeto na mao | - | -
 b7 | two | -  | interior, objeto na mao | - | -
 b8 | two | noite  | - | encena: x_bebe (lift) (acao + som de efeito) | -

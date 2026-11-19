@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 15 - Trump na Batalha dos Bilionários
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 40 acoes catalogadas, 40 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 5.4s - 19 palavras - plano two
@@ -9,11 +9,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | raspou (4.1s) | ACAO: raspa | maquina na cabeca + cabelo voando | OK |
-| 2 | - | INTERACAO | susto | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| 4 | - | CHEGADA | alguem entra andando | OK |
-| 5 | - | PLACA | 2007 | OK |
+| 1 | entrou (2.2s) | ACAO: chega | entra andando pela lateral | OK |
+| 2 | raspou (4.1s) | ACAO: raspa | maquina na cabeca + cabelo voando | OK |
+| 3 | - | INTERACAO | susto | OK |
+| 4 | - | ATUACAO | conversar | OK |
+| 5 | - | CHEGADA | alguem entra andando | OK |
+| 6 | - | PLACA | 2007 | OK |
 
 ## Cena b1 - 6.8s a 10.7s - 18 palavras - plano reveal
 > "Foi em abril de dois mil e sete, em Detroit, no maior show de luta livre do mundo."
@@ -111,6 +112,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | comemorar | OK |
-| 2 | - | PLACA | HALL DA FAMA | OK |
+| 1 | entrou (64.3s) | ACAO: chega | entra andando pela lateral | OK |
+| 2 | - | ATUACAO | comemorar | OK |
+| 3 | - | PLACA | HALL DA FAMA | OK |
 

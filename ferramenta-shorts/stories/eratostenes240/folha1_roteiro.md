@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 - Narracao: Com uma conta simples, chegou a um número muito perto do tamanho real da Terra.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: chegou -> dust + som de impacto
+- Efeito + som nas palavras-chave: chegou -> dust + som de impacto; encena: chega (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

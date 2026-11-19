@@ -4,7 +4,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | -  | placa: 2015 | - | -
 b1 | reveal | -  | tropa, mapa | - | -
-b2 | two | -  | objeto na mao | (rosto) shock (expr + som de efeito); impossível (ring + som de alerta) | -
+b2 | two | -  | objeto na mao | (rosto) shock (expr + som de efeito); impossível (ring + som de alerta); encena: duvida (shrug) (acao + som de efeito) | -
 b3 | two | -  | - | explodiram (burst + som de tiro/explosao); encena: x_entrega (reach) (acao + som de efeito); encena: desaba (acao + som de efeito) | -
 b4 | two | -  | objeto na mao | encena: voa (point) (acao + som de efeito) | -
 b5 | crowd | -  | batalha aberta com tiros, tropa | - | -

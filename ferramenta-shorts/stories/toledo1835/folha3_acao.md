@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 03 - A Guerra de Toledo
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.7s - 13 palavras - plano two
@@ -35,10 +35,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | chegaram (23.7s) | EFEITO: dust | poeira + som | OK |
-| 2 | - | CENA | cavalaria: 4 soldados a cavalo (OHI) | OK |
-| 3 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
-| 5 | - | ATUACAO | discutir | OK |
+| 2 | chegaram (23.7s) | ACAO: chega | entra andando pela lateral | OK |
+| 3 | - | CENA | cavalaria: 4 soldados a cavalo (OHI) | OK |
+| 4 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
+| 6 | - | ATUACAO | discutir | OK |
 
 ## Cena b4 - 26.8s a 32.5s - 12 palavras - plano orbit
 > "Houve gritos, ameaças, e tiros. Todos para o alto. Ninguém acertou ninguém."
@@ -46,11 +47,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | tiros (28.7s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | - | CENA | cavalaria: 4 soldados a cavalo (OHI) | OK |
-| 3 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | ATUACAO | discutir | OK |
-| 6 | - | PLACA | PARA O ALTO | OK |
+| 2 | tiros (28.7s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 3 | - | CENA | cavalaria: 4 soldados a cavalo (OHI) | OK |
+| 4 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 6 | - | ATUACAO | discutir | OK |
+| 7 | - | PLACA | PARA O ALTO | OK |
 
 ## Cena b5 - 33.8s a 38.5s - 19 palavras - plano two
 > "Acontece que a única baixa foi um xerife de Michigan, espetado na perna por um rapaz com um canivete."
@@ -87,8 +89,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | fortuna (57.4s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | - | INTERACAO | cochichar | OK |
-| 3 | - | ATUACAO | reagir | OK |
+| 2 | fortuna (57.4s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 3 | - | INTERACAO | cochichar | OK |
+| 4 | - | ATUACAO | reagir | OK |
 
 ## Cena b9 - 58.7s a 61.9s - 11 palavras - plano close
 > "No fim das contas, Michigan perdeu a guerra, e ficou rico."

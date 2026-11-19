@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O rádio brilhava no escuro, com uma luz esverdeada. Marie adorava olhar os frascos à noite.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, sting@50
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: brilha (point) -> acao + som de efeito
 - Efeito visual marcado: stars@20, ring@50
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que a radiação foi destruindo a saúde dela, aos poucos. Em mil novecentos e trinta e quatro, ela morreu.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; encena: morre -> acao + som de efeito
 - Efeito visual marcado: ring@40
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: E o rádio leva cerca de mil e seiscentos anos só para perder metade da força.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: perder -> dust + som de impacto
+- Efeito + som nas palavras-chave: perder -> dust + som de impacto; encena: perde (facepalm) -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 1.600 ANOS
 - Funcao na historia: GRANDE MOMENTO
@@ -105,7 +105,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Ou seja: os cadernos de Marie Curie vão continuar brilhando por muitos e muitos séculos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: brilha (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

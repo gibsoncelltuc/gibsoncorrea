@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 07 - A Guerra dos Bolos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 56 acoes catalogadas, 56 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 61 acoes catalogadas, 61 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.7s - 12 palavras - plano two
@@ -10,11 +10,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | invadiu (0.6s) | EFEITO: dust | poeira + som | OK |
-| 2 | - | CENA | cavalaria: 2 soldados a cavalo (OFI) | OK |
-| 3 | - | INTERACAO | entregar | OK |
-| 4 | - | ATUACAO | reagir | OK |
-| 5 | - | CHEGADA | alguem entra andando | OK |
-| 6 | - | PLACA | 1838 | OK |
+| 2 | invadiu (0.6s) | ACAO: chega | entra andando pela lateral | OK |
+| 3 | - | CENA | cavalaria: 2 soldados a cavalo (OFI) | OK |
+| 4 | - | INTERACAO | entregar | OK |
+| 5 | - | ATUACAO | reagir | OK |
+| 6 | - | CHEGADA | alguem entra andando | OK |
+| 7 | - | PLACA | 1838 | OK |
 
 ## Cena b1 - 4.2s a 8.3s - 14 palavras - plano reveal
 > "Um confeiteiro francês tinha uma loja perto da Cidade do México, famosa pelos doces."
@@ -28,14 +29,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | comeram (12.1s) | ACAO: x_come | leva a comida a boca | OK |
-| 2 | quebraram (13.5s) | EFEITO: dust | poeira + som | OK |
-| 3 | quebraram (13.5s) | ACAO: quebra | quebra + estouro + tremor | OK |
-| 4 | saíram (14.7s) | ACAO: sai | sai andando pela lateral | OK |
-| 5 | pagar (15.3s) | EFEITO: stars | estrelinhas + som | OK |
-| 6 | - | INTERACAO | vai ate o outro | OK |
-| 7 | - | ATUACAO | conversar | OK |
-| 8 | - | CHEGADA | alguem entra andando | OK |
+| 1 | entraram (11.3s) | ACAO: chega | entra andando pela lateral | OK |
+| 2 | comeram (12.1s) | ACAO: x_come | leva a comida a boca | OK |
+| 3 | quebraram (13.5s) | EFEITO: dust | poeira + som | OK |
+| 4 | quebraram (13.5s) | ACAO: quebra | quebra + estouro + tremor | OK |
+| 5 | saíram (14.7s) | ACAO: sai | sai andando pela lateral | OK |
+| 6 | pagar (15.3s) | EFEITO: stars | estrelinhas + som | OK |
+| 7 | pagar (15.3s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 8 | - | INTERACAO | vai ate o outro | OK |
+| 9 | - | ATUACAO | conversar | OK |
+| 10 | - | CHEGADA | alguem entra andando | OK |
 
 ## Cena b3 - 16.5s a 23.4s - 18 palavras - plano two
 > "O confeiteiro escreveu ao rei da França. "Quero sessenta mil pesos", pediu ele. A loja inteira valia mil."
@@ -86,12 +89,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | canhões (42.1s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | tomaram (46.0s) | ACAO: x_bebe | leva o copo a boca | OK |
-| 3 | - | CENA | cavalaria: 4 soldados a cavalo (FRA) | OK |
-| 4 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 5 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
-| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
-| 7 | - | ATUACAO | reagir | OK |
+| 2 | canhões (42.1s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 3 | tomaram (46.0s) | ACAO: x_bebe | leva o copo a boca | OK |
+| 4 | - | CENA | cavalaria: 4 soldados a cavalo (FRA) | OK |
+| 5 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 6 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
+| 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
+| 8 | - | ATUACAO | reagir | OK |
 
 ## Cena b8 - 47.6s a 51.5s - 16 palavras - plano crowd
 > "Um general mexicano correu para o combate, e perdeu uma perna para um tiro de canhão."
@@ -103,11 +107,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | perdeu (50.0s) | EFEITO: puff | fumaca + som | OK |
 | 4 | perdeu (50.0s) | ACAO: perde | mao na testa | OK |
 | 5 | tiro (51.1s) | EFEITO: burst | estouro/clarao + som | OK |
-| 6 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 7 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 8 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
-| 9 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
-| 10 | - | ATUACAO | reagir | OK |
+| 6 | tiro (51.1s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 7 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 8 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 9 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
+| 10 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
+| 11 | - | ATUACAO | reagir | OK |
 
 ## Cena b9 - 52.6s a 56.6s - 14 palavras - plano two
 > "Meses depois, o México pagou os seiscentos mil pesos, e a França foi embora."

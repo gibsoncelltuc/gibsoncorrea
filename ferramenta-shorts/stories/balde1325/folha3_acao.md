@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 04 - A Guerra do Balde
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.0s - 13 palavras - plano two
@@ -19,15 +19,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | brigar (11.8s) | EFEITO: puff | fumaca + som | OK |
-| 2 | - | ATUACAO | discutir | OK |
-| 3 | - | MAPA | ITÁLIA | OK |
+| 2 | brigar (11.8s) | ACAO: golpe | soco + estouro | OK |
+| 3 | - | ATUACAO | discutir | OK |
+| 4 | - | MAPA | ITÁLIA | OK |
 
 ## Cena b2 - 12.9s a 16.6s - 12 palavras - plano track
 > "Numa noite, diz a lenda, soldados de Módena entraram escondidos em Bolonha."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
+| 1 | entraram (15.5s) | ACAO: chega | entra andando pela lateral | OK |
 
 ## Cena b3 - 17.9s a 23.9s - 18 palavras - plano crowd
 > "Não roubaram ouro, nem armas. Levaram o balde velho do poço da praça, e voltaram para casa rindo."
@@ -35,14 +36,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | roubaram (18.1s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | ouro (18.5s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | rindo (23.9s) | EFEITO: stars | estrelinhas + som | OK |
-| 4 | rindo (23.9s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
-| 5 | - | CENA | cavalaria: 4 soldados a cavalo (MOD) | OK |
-| 6 | - | CENA | tiros: 4 soldados caem no chao | OK |
-| 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 8 | - | ATUACAO | comemorar | OK |
-| 9 | - | PLACA | O BALDE | OK |
+| 2 | roubaram (18.1s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 3 | ouro (18.5s) | EFEITO: stars | estrelinhas + som | OK |
+| 4 | rindo (23.9s) | EFEITO: stars | estrelinhas + som | OK |
+| 5 | rindo (23.9s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
+| 6 | - | CENA | cavalaria: 4 soldados a cavalo (MOD) | OK |
+| 7 | - | CENA | tiros: 4 soldados caem no chao | OK |
+| 8 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 9 | - | ATUACAO | comemorar | OK |
+| 10 | - | PLACA | O BALDE | OK |
 
 ## Cena b4 - 25.0s a 29.8s - 10 palavras - plano close
 > ""Devolvam o nosso balde", exigiu Bolonha. "Venham buscar", respondeu Módena."
@@ -64,8 +66,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | derrota (39.2s) | EFEITO: puff | fumaca + som | OK |
-| 2 | - | INTERACAO | insiste | OK |
-| 3 | - | ATUACAO | reagir | OK |
+| 2 | derrota (39.2s) | ACAO: perde | mao na testa | OK |
+| 3 | - | INTERACAO | insiste | OK |
+| 4 | - | ATUACAO | reagir | OK |
 
 ## Cena b7 - 41.5s a 47.5s - 19 palavras - plano crowd
 > "Acontece que, numa única tarde de batalha, os sete mil atacaram de surpresa, e o exército gigante fugiu correndo."
@@ -74,13 +77,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | atacaram (44.6s) | EFEITO: ring | onda + som | OK |
 | 2 | surpresa (45.4s) | EFEITO: ring | onda + som | OK |
-| 3 | fugiu (47.2s) | EFEITO: dust | poeira + som | OK |
-| 4 | fugiu (47.2s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
-| 5 | - | EMOCAO: shock | o rosto vira "shock" na palavra | OK |
-| 6 | - | CENA | cavalaria: 4 soldados a cavalo (MOD) | OK |
-| 7 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 8 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
-| 9 | - | ATUACAO | reagir | OK |
+| 3 | surpresa (45.4s) | ACAO: grita | grita de bracos para cima | OK |
+| 4 | fugiu (47.2s) | EFEITO: dust | poeira + som | OK |
+| 5 | fugiu (47.2s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
+| 6 | - | EMOCAO: shock | o rosto vira "shock" na palavra | OK |
+| 7 | - | CENA | cavalaria: 4 soldados a cavalo (MOD) | OK |
+| 8 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 9 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
+| 10 | - | ATUACAO | reagir | OK |
 
 ## Cena b8 - 48.8s a 53.6s - 17 palavras - plano track
 > "Módena perseguiu os inimigos até os portões de Bolonha, e ainda zombou deles do lado de fora."

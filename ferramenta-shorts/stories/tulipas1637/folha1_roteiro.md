@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Os ricos queriam as mais raras. "Dou mil moedas por esse bulbo", dizia um. "Dou duas mil", gritava outro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; moedas -> stars + som de sino; gritava -> ring + som de alerta
+- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; moedas -> stars + som de sino; gritava -> ring + som de alerta; encena: paga (reach) -> acao + som de efeito; encena: grita (up) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Logo, o país inteiro estava comprando. Padeiros, sapateiros, gente que nunca tinha plantado nada.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@30, ding@80
-- Efeito + som nas palavras-chave: comprando -> stars + som de sino
+- Efeito + som nas palavras-chave: comprando -> stars + som de sino; encena: paga (reach) -> acao + som de efeito
 - Efeito visual marcado: stars@30, stars@80
 - Texto na tela: TODO MUNDO
 - Funcao na historia: GRANDE MOMENTO
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Contam que um marinheiro comeu um bulbo no almoço, achando que era cebola. Valia uma fortuna.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: fortuna -> stars + som de sino; encena: x_come (lift) -> acao + som de efeito
+- Efeito + som nas palavras-chave: fortuna -> stars + som de sino; encena: x_come (lift) -> acao + som de efeito; encena: paga (reach) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: A notícia correu. Em poucos dias, todo mundo quis vender, e não havia mais comprador.
 - Som ambiente: birds
 - Efeitos sonoros marcados: sting@20, thump@40, thump@90
-- Efeito + som nas palavras-chave: correu -> dust + som de impacto; vender -> stars + som de sino; comprador -> stars + som de sino; encena: corre -> acao + som de efeito; encena: negocio (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: correu -> dust + som de impacto; vender -> stars + som de sino; comprador -> stars + som de sino; encena: corre -> acao + som de efeito; encena: negocio (reach) -> acao + som de efeito; encena: paga (reach) -> acao + som de efeito
 - Efeito visual marcado: dust@40, puff@90
 - Texto na tela: PÂNICO
 - Funcao na historia: GRANDE MOMENTO

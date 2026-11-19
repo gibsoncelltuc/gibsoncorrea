@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - E Se EP 04 - E Se a Internet Acabasse por Um Dia?
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 4.1s - 16 palavras - plano two
@@ -19,9 +19,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | impossível (5.6s) | EFEITO: ring | onda + som | OK |
-| 2 | - | EMOCAO: shock | o rosto vira "shock" na palavra | OK |
-| 3 | - | ATUACAO | reagir | OK |
-| 4 | - | MAPA | MUNDO | OK |
+| 2 | impossível (5.6s) | ACAO: duvida | ombros para cima (nao acredita) | OK |
+| 3 | - | EMOCAO: shock | o rosto vira "shock" na palavra | OK |
+| 4 | - | ATUACAO | reagir | OK |
+| 5 | - | MAPA | MUNDO | OK |
 
 ## Cena b2 - 10.0s a 16.2s - 19 palavras - plano two
 > "Em dois mil e vinte e um, Facebook, Instagram e WhatsApp caíram por seis horas. Bilhões ficaram sem mensagem."
@@ -48,8 +49,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | celular (28.4s) | ACAO: x_fone | celular na mao + toque | OK |
 | 2 | dinheiro (30.7s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | - | INTERACAO | discutir | OK |
-| 4 | - | ATUACAO | reagir | OK |
+| 3 | dinheiro (30.7s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 4 | - | INTERACAO | discutir | OK |
+| 5 | - | ATUACAO | reagir | OK |
 
 ## Cena b5 - 31.5s a 36.1s - 15 palavras - plano two
 > "Hospitais e bancos voltariam para o papel e a caneta. Fila dando volta no quarteirão."
@@ -89,9 +91,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | correria (56.0s) | EFEITO: dust | poeira + som | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | ATUACAO | comemorar | OK |
-| 4 | - | PLACA | VOLTOU! | OK |
+| 2 | correria (56.0s) | ACAO: grita | grita de bracos para cima | OK |
+| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | ATUACAO | comemorar | OK |
+| 5 | - | PLACA | VOLTOU! | OK |
 
 ## Cena b10 - 59.3s a 63.4s - 10 palavras - plano close
 > "Você aguentaria um dia? Responde aí, enquanto ainda tem internet."

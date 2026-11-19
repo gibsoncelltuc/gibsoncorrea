@@ -6,7 +6,7 @@ b0 | two | noite  | placa: E SE... | - | -
 b1 | two | noite  | - | - | -
 b2 | reveal | -  | tropa, mapa | - | -
 b3 | two | -  | objeto na mao | encena: perde (facepalm) (acao + som de efeito); encena: empurra (push) (acao + som de efeito) | -
-b4 | two | -  | animais | perder (dust + som de impacto) | -
+b4 | two | -  | animais | perder (dust + som de impacto); encena: perde (facepalm) (acao + som de efeito) | -
 b5 | crowd | noite  | batalha aberta com tiros, tropa, placa: SEM LUA | - | -
 b6 | two | noite  | - | encena: vira (up) (acao + som de efeito) | -
 b7 | two | noite  | objeto na mao | - | -

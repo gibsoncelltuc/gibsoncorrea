@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - A Invasão da Ilha Vazia
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 21 acoes catalogadas, 21 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 22 acoes catalogadas, 22 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 8.1s - 23 palavras - plano two
@@ -58,16 +58,17 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | atirar (34.8s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | - | INTERACAO | susto | OK |
-| 3 | - | ATUACAO | reagir | OK |
-| 4 | - | PLACA | FOGO AMIGO | OK |
+| 2 | atirar (34.8s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 3 | - | INTERACAO | susto | OK |
+| 4 | - | ATUACAO | reagir | OK |
+| 5 | - | PLACA | FOGO AMIGO | OK |
 
 ## Cena b7 - 38.1s a 41.1s - 9 palavras - plano two
 > "No fim, só acharam na ilha alguns cachorros abandonados."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | acharam (39.3s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+| 1 | acharam (39.3s) | ACAO: olha | aponta/olha | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | SÓ CACHORROS | OK |
 

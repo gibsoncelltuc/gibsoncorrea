@@ -5,11 +5,11 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | arctic | two | 0 | parados (so fala e pisca) | ship | - | -
-b1 | harbor | reveal | 11 | parados (so fala e pisca) | navios ao fundo | - | -
-b2 | arctic | group | 11 | conversar, batalha | cannon | - | -
-b3 | arctic | orbit | 21 | andando, batalha | - | - | -
+b1 | harbor | reveal | 11 | parados (so fala e pisca) | kit/marco_alpes, navios ao fundo | - | -
+b2 | arctic | group | 11 | conversar, batalha | cannon, kit/marco_alpes | - | -
+b3 | arctic | orbit | 21 | andando, batalha | kit/marco_alpes | - | -
 b4 | interior madeira | close | 1 | reagir | - | - | -
-b5 | mountain | orbit | 11 | parados (so fala e pisca) | ship, nature/picket_fence | - | -
+b5 | mountain | orbit | 11 | parados (so fala e pisca) | ship, kit/marco_alpes, nature/picket_fence | - | -
 b6 | arctic | group | 3 | reagir, INTERAGEM: susto | - | - | -
 b7 | arctic | two | 1 | conversar | dog | - | -
 b8 | arctic | close | 1 | conversar | - | - | -

@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Narracao: Antes de virar presidente, Donald Trump entrou num ringue de luta livre, e raspou a cabeça de outro bilionário.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: encena: raspa (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: chega (point) -> acao + som de efeito; encena: raspa (reach) -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 2007
 - Funcao na historia: GANCHO
@@ -105,7 +105,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Narracao: Seis anos depois, Trump entrou para o Hall da Fama da luta livre. Tudo por causa de um corte de cabelo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: chega (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: HALL DA FAMA
 - Funcao na historia: FECHO/PIADA FINAL

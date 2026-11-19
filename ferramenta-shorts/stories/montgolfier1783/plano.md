@@ -7,7 +7,7 @@ b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | interior | encena: calor (reach) (acao + som de efeito) | -
 b3 | two | -  | interior, objeto na mao | encena: calor (reach) (acao + som de efeito) | -
 b4 | low | -  | - | - | -
-b5 | two | -  | animais | encena: quimico (pour) (acao + som de efeito) | -
+b5 | two | -  | animais | encena: quimico (pour) (acao + som de efeito); encena: chega (point) (acao + som de efeito) | -
 b6 | crowd | -  | batalha aberta com tiros, tropa | - | -
 b7 | group | -  | - | encena: pega (lift) (acao + som de efeito); encena: sai (acao + som de efeito) | -
 b8 | track | -  | - | correram (dust + som de impacto); encena: corre (acao + som de efeito) | -

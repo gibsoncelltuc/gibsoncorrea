@@ -44,7 +44,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | joelhos (27.9s) | ACAO: senta | senta | OK |
+| 1 | imploravam (27.1s) | ACAO: ajoelha | de joelhos, maos de suplica | OK |
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
 ## Cena b5 - 30.8s a 37.2s - 20 palavras - plano two

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 20 - A Piada que Virou Tequila
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.5s - 20 palavras - plano two
@@ -27,9 +27,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | postou (13.8s) | ACAO: x_fone | celular na mao + toque | OK |
 | 2 | apareceu (16.0s) | EFEITO: dust | poeira + som | OK |
-| 3 | - | INTERACAO | discutir | OK |
-| 4 | - | ATUACAO | discutir | OK |
-| 5 | - | CHEGADA | alguem entra andando | OK |
+| 3 | apareceu (16.0s) | ACAO: chega | entra andando pela lateral | OK |
+| 4 | - | INTERACAO | discutir | OK |
+| 5 | - | ATUACAO | discutir | OK |
+| 6 | - | CHEGADA | alguem entra andando | OK |
 
 ## Cena b3 - 19.5s a 24.6s - 16 palavras - plano two
 > "Muita gente riu. Mas ele resolveu levar a ideia a sério, e tentou registrar o nome."
@@ -84,9 +85,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | apareceu (50.4s) | EFEITO: dust | poeira + som | OK |
-| 2 | - | INTERACAO | entregar | OK |
-| 3 | - | ATUACAO | reagir | OK |
-| 4 | - | CHEGADA | alguem entra andando | OK |
+| 2 | apareceu (50.4s) | ACAO: chega | entra andando pela lateral | OK |
+| 3 | - | INTERACAO | entregar | OK |
+| 4 | - | ATUACAO | reagir | OK |
+| 5 | - | CHEGADA | alguem entra andando | OK |
 
 ## Cena b9 - 56.8s a 60.9s - 15 palavras - plano two
 > "Um anúncio passou de mil e quatrocentos dólares, por uma garrafa sem nenhuma gota dentro."

@@ -7,7 +7,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: track = travelling lateral acompanhando quem anda
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (4): SOV (variante 0, expressao stern); SOV (variante 1, expressao stern); SOV (variante 2, expressao neutral); SOV (variante 3, expressao stern)
-- Animacao: -
+- Animacao: encena
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): exercito, finlandia, uniao
 - RISCOS: 
@@ -86,7 +86,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Viveu até os noventa e seis anos, e nunca se achou herói. Dizia que só...
 - Cenario: arctic | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: close = close no rosto; empurra devagar
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): FIN (variante 3, expressao smile)
 - Animacao: conversar
@@ -109,7 +109,7 @@ nature/scarecrow | b2 | pronto | conferir na folha de contato se le bem; se pare
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b3, b7 | planos abertos: 2 | mistura: close 16% | medio 60% | aberto 17% | detalhe 6%
+- Objeto heroi: - | grandes momentos: b3, b7 | planos abertos: 2 | mistura: close 29% | medio 47% | aberto 17% | detalhe 6%
 - Interacoes: b5 susto, b7 cochichar
 - RISCOS GERAIS: 
   - nenhum mapa no video (o canal situa o lugar com mapa rapido) -> CORRECAO: "mapa": "NOME DO LUGAR" na cena 1 ou 2

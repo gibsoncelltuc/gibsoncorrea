@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 14 - O Químico que Sonhou com uma Cobra
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 32 acoes catalogadas, 31 com animacao, 1 faltando -> NAO RENDERIZAR ate zerar
+**Resumo:** 12 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 4.4s - 17 palavras - plano two
@@ -9,11 +9,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | química (1.3s) | ACAO: quimico | frasco e tubos de ensaio + fumacinha | OK |
-| 2 | - | EMOCAO: pleading | o rosto vira "pleading" na palavra | OK |
-| 3 | - | INTERACAO | cochichar | OK |
-| 4 | - | ATUACAO | conversar | OK |
-| 5 | - | PLACA | 1865 | OK |
+| 1 | segredos (0.7s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
+| 2 | química (1.3s) | ACAO: quimico | frasco e tubos de ensaio + fumacinha | OK |
+| 3 | - | EMOCAO: pleading | o rosto vira "pleading" na palavra | OK |
+| 4 | - | INTERACAO | cochichar | OK |
+| 5 | - | ATUACAO | conversar | OK |
+| 6 | - | PLACA | 1865 | OK |
 
 ## Cena b1 - 5.5s a 8.8s - 13 palavras - plano crowd
 > "Era mil oitocentos e sessenta e cinco, na cidade de Gante, na Bélgica."
@@ -53,8 +54,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-| ! | dançavam | ACAO SEM ANIMACAO | (nenhuma) - corrigir o roteiro ou marcar a cena | FALTA |
+| 1 | dançavam (29.4s) | ACAO: danca | danca de bracos para cima | OK |
+| 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b6 - 34.1s a 40.8s - 19 palavras - plano low
 > "Kekulé acordou num pulo, como se tivesse levado um raio. O benzeno não era uma corrente. Era um anel!"
@@ -86,11 +87,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | festa (55.6s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | contou (57.6s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | ATUACAO | comemorar | OK |
-| 6 | - | PLACA | FESTA | OK |
+| 2 | festa (55.6s) | ACAO: vence | bracos para cima + brilho | OK |
+| 3 | contou (57.6s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+| 4 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 6 | - | ATUACAO | comemorar | OK |
+| 7 | - | PLACA | FESTA | OK |
 
 ## Cena b10 - 60.0s a 65.7s - 19 palavras - plano two
 > "Até hoje há quem duvide da história. Mas o anel do benzeno virou base de remédios, tintas e plásticos."

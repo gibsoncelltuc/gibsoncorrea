@@ -10,8 +10,8 @@ b4 | two | -  | - | - | -
 b5 | crowd | -  | batalha aberta com tiros, tropa | encena: voa (point) (acao + som de efeito) | -
 b6 | low | -  | - | - | -
 b7 | low | -  | - | encena: x_abre (push) (acao + som de efeito) | -
-b8 | orbit | -  | batalha aberta com tiros, tropa, placa: PEGOU! | (rosto) laugh (expr + som de efeito); comemoraram (stars + som de sino) | -
-b9 | two | -  | interior | (rosto) laugh (expr + som de efeito) | -
+b8 | orbit | -  | batalha aberta com tiros, tropa, placa: PEGOU! | (rosto) laugh (expr + som de efeito); comemoraram (stars + som de sino); encena: vence (up) (acao + som de efeito) | -
+b9 | two | -  | interior | (rosto) laugh (expr + som de efeito); encena: vence (up) (acao + som de efeito) | -
 b10 | two | -  | objeto na mao | - | -
 b11 | close | -  | - | - | -
 

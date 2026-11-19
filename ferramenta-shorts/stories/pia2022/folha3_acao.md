@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 10 - A Pia no Twitter
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 8 frases, 21 acoes catalogadas, 21 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 8 frases, 22 acoes catalogadas, 22 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.3s - 22 palavras - plano track
@@ -10,6 +10,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | apareceu (2.5s) | EFEITO: dust | poeira + som | OK |
+| 2 | apareceu (2.5s) | ACAO: chega | entra andando pela lateral | OK |
 
 ## Cena b1 - 7.3s a 9.6s - 11 palavras - plano reveal
 > "Ele filmou a própria entrada e postou o vídeo na internet."

@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Acontece que os gansos acordaram, e começaram a gritar e a bater as as...
-- Cenario: medieval | luz: day | clima: limpo
+- Cenario: medieval | luz: noite | clima: limpo
 - Camera: low = camera baixa, dramatica (virada) + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): ROM (variante 2, expressao shock)
@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Um soldado chamado Mânlio pulou da cama, e empurrou o primeiro invasor...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: countryside | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): MAN (variante 0, expressao angry); GAU (variante 0, expressao scared)
@@ -73,12 +73,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - O alarme acordou todo mundo, os romanos correram para a muralha, e o a...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: countryside | luz: noite | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): ROM (variante 0, expressao angry); MAN (variante 0, expressao shout); GAU (variante 0, expressao scared) | multidao: 30 de ROM/GAU
 - Animacao: encena | batalha encenada
-- Objetos/modelos: kit/marco_coliseu, buildings/castle_tower
+- Objetos/modelos: kit/marco_coliseu
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alarme, ataque, muralha, romanos
 - RISCOS: nenhum
 
@@ -113,7 +113,7 @@ kit/fire | b1 | pronto | conferir na folha de contato se le bem; se parecer caix
 buildings/apartment | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/castle_tower | b2, b6, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/castle_tower | b2, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro

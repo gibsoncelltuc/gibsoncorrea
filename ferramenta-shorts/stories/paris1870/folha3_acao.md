@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - O Cardápio do Zoológico
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 25 acoes catalogadas, 25 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 5.9s - 17 palavras - plano two
@@ -19,10 +19,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | comeram (7.4s) | ACAO: x_come | leva a comida a boca | OK |
-| 2 | - | CENA | cavalaria: 4 soldados a cavalo (PAR) | OK |
-| 3 | - | ATUACAO | reagir | OK |
-| 4 | - | PLACA | CAVALOS, CÃES, GATOS | OK |
+| 1 | - | CENA | cavalaria: 4 soldados a cavalo (PAR) | OK |
+| 2 | - | ATUACAO | reagir | OK |
+| 3 | - | PLACA | CAVALOS, CÃES, GATOS | OK |
 
 ## Cena b2 - 10.7s a 13.3s - 8 palavras - plano two
 > "Depois, os ratos, que viraram um prato chique."

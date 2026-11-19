@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: No painel, estava escrito: Não entre em pânico.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) scared -> expr + som de efeito; pânico -> dust + som de impacto
+- Efeito + som nas palavras-chave: (rosto) scared -> expr + som de efeito; pânico -> dust + som de impacto; encena: grita (up) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: NÃO ENTRE EM PÂNICO
 - Funcao na historia: GRANDE MOMENTO

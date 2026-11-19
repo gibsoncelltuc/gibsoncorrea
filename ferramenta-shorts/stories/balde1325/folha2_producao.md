@@ -27,13 +27,13 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: track = travelling lateral acompanhando quem anda
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): MOD (variante 0, expressao grin); MOD (variante 1, expressao nervous)
-- Animacao: -
+- Animacao: encena
 - Objetos/modelos: kit/marco_ghirlandina
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lenda, modena
 - RISCOS: nenhum
 
 ## Cena b3 - Não roubaram ouro, nem armas. Levaram o balde velho do poço da praça, ...
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: mountain | luz: noite | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): MOD (variante 0, expressao laugh, segura bag); MOD (variante 1, expressao grin) | multidao: 12 de POV

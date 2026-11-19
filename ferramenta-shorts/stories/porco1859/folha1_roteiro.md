@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Dois países quase entraram em guerra por causa de um porco.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: chega (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1859
 - Funcao na historia: GANCHO
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: O fazendeiro foi até a casa do vizinho, com as notas na mão. "Eu pago dez dólares", ofereceu ele.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: paga (reach) -> acao + som de efeito; encena: x_entrega (reach) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: $10
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: "Dez? Ele vale cem!", gritou o dono, empurrando o dinheiro de volta. Ninguém cedeu.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou -> ring + som de alerta; dinheiro -> stars + som de sino; encena: grita (up) -> acao + som de efeito; encena: empurra (push) -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou -> ring + som de alerta; dinheiro -> stars + som de sino; encena: grita (up) -> acao + som de efeito; encena: empurra (push) -> acao + som de efeito; encena: paga (reach) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: $100
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Acontece que a Inglaterra respondeu com navios de guerra. Logo eram centenas de soldados e dezenas de canhões, apontados uns para os outros.
 - Som ambiente: sea
 - Efeitos sonoros marcados: sting@10, thump@40
-- Efeito + som nas palavras-chave: canhões -> burst + som de tiro/explosao; explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
+- Efeito + som nas palavras-chave: canhões -> burst + som de tiro/explosao; encena: atira -> acao + som de efeito; explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
 - Efeito visual marcado: dust@40
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Os soldados passaram meses trocando insultos, e depois, festas. Ninguém deu um tiro.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124
-- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (ING) -> acao + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito; tiro -> burst + som de tiro/explosao; encena: x_entrega (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (ING) -> acao + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito; tiro -> burst + som de tiro/explosao; encena: vence (up) -> acao + som de efeito; encena: x_entrega (reach) -> acao + som de efeito; encena: atira -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

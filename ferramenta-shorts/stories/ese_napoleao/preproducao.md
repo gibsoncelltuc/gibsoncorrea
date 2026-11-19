@@ -6,15 +6,15 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | countryside | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/crown | - | -
 b1 | countryside | reveal | 8 | parados (so fala e pisca) | - | - | -
-b2 | palace | group | 12 | conversar, INTERAGEM: entregar, batalha | - | - | -
+b2 | countryside | group | 12 | conversar, INTERAGEM: entregar, batalha | - | - | -
 b3 | countryside | orbit | 23 | encena, batalha | cannon | - | -
 b4 | countryside | crowd | 18 | reagir, batalha | - | - | -
-b5 | countryside | orbit | 21 | batalha | - | - | -
+b5 | mountain | orbit | 21 | encena, batalha | - | - | -
 b6 | harbor | two | 2 | conversar, INTERAGEM: empurrar | kit/crown | - | -
 b7 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | - | paper | -
 b8 | interior madeira | close | 1 | conversar | kit/crown | - | -
-b9 | street | group | 7 | conversar, INTERAGEM: aproxima-se | kit/scroll | paper | -
-b10 | harbor | close | 1 | conversar | kit/crown | - | -
+b9 | interior madeira | two | 12 | conversar, INTERAGEM: aproxima-se | kit/scroll | paper | -
+b10 | countryside | close | 1 | conversar | kit/crown | - | -
 
 OBJETO HEROI: kit/crown - aparece em 4 cena(s), close nele em 2
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 4 -> b2, b3, b4, b5

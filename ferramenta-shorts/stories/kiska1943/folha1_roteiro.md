@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 9
 - Narracao: Sem inimigo à vista, os Aliados começaram a atirar uns nos outros, no escuro e na neblina.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: gun@30, gun@50, gun@65
-- Efeito + som nas palavras-chave: atirar -> burst + som de tiro/explosao
+- Efeito + som nas palavras-chave: atirar -> burst + som de tiro/explosao; encena: atira -> acao + som de efeito
 - Efeito visual marcado: burst@30, burst@60
 - Texto na tela: FOGO AMIGO
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 9
 - Narracao: No fim, só acharam na ilha alguns cachorros abandonados.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: examina (think) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: olha (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: SÓ CACHORROS
 - Funcao na historia: desenvolvimento

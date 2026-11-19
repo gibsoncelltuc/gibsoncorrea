@@ -5,9 +5,9 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | -  | placa: 2026 | - | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | - | - | -
-b3 | two | -  | interior, objeto na mao | segredo (ring + som de alerta); encena: examina (think) (acao + som de efeito) | -
+b3 | two | -  | interior, objeto na mao | segredo (ring + som de alerta); encena: examina (think) (acao + som de efeito); encena: pensa (think) (acao + som de efeito) | -
 b4 | crowd | noite  | batalha aberta com tiros, tropa, placa: DELTA | - | -
-b5 | low | noite  | - | - | -
+b5 | low | noite  | - | encena: atira (acao + som de efeito) | -
 b6 | low | noite  | - | encena: prende (push) (acao + som de efeito) | -
 b7 | two | -  | interior | - | -
 b8 | two | -  | - | - | -
