@@ -1,0 +1,15 @@
+{
+  "lm_model": "acestep-5Hz-lm-1.7B-Q8_0.gguf",
+  "synth_model": "acestep-v15-turbo-Q8_0.gguf",
+  "caption": "Gentle cheerful Brazilian nursery-rhyme style children's song for babies and toddlers up to 5 years old, sweet and soft, extremely catchy singalong, warm friendly adult male lead vocal with a sweet kids choir answering the hook, bright and playful but calm and cute, clean polished mix, the hook starts right on the first beat with no intro, every section lasts exactly 4 bars, short repeated chorus, simple melody in small steps, call and response with the kids choir, the last chorus goes up by a whole step (key change), clear Portuguese pronunciation of every word, gentle ukulele strums, soft hand claps, bright glockenspiel, light shaker, soft bouncy bass, sweet kids choir answering the commands",
+  "lyrics": "[Chorus]\nCochicha no ouvido, bem baixinho,\npassa pra frente, devagarinho,\ntelefone sem fio, vai passar,\na mensagem vai chegar!\n\n[Verse 1]\nO primeiro cochicha pro segundo,\no segundo cochicha pro terceiro,\na palavra vai rodando pelo mundo,\ne chega no final, bem ligeiro!\n\n[Chorus]\nCochicha no ouvido, bem baixinho,\npassa pra frente, devagarinho,\ntelefone sem fio, vai passar,\na mensagem vai chegar!\n\n[Verse 2]\nO último escuta e fala bem alto,\na palavra mudou, que sobressalto!\nEra gato, virou pato,\ntodo mundo ri, que barato!\n\n[Bridge]\nBaixinho, baixinho, vai passando,\nouvidinho atento, vai escutando,\nbaixinho, baixinho, vai passando,\nde boca em boca, vai rodando!\n\n[Chorus]\nCochicha no ouvido, bem baixinho,\npassa pra frente, devagarinho,\ntelefone sem fio, vai passar,\na mensagem vai chegar!",
+  "duration": 60,
+  "bpm": 108,
+  "vocal_language": "pt",
+  "keyscale": "D major",
+  "timesignature": "4",
+  "inference_steps": 8,
+  "guidance_scale": 1.0,
+  "shift": 3.0,
+  "seed": 23
+}

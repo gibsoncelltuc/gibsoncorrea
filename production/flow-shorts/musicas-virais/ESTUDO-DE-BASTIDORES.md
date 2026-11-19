@@ -182,3 +182,26 @@ Estilo escolhido pelo cliente: **infantil de bebê** (ukulele, glockenspiel, pal
 | 10 | Tchu-Tchu, Trenzinho! | 88% |
 
 **Lições aprendidas:** o cantor erra sons inventados ("miau", "pop") e palavras longas; trocar por palavras reais resolveu. Letras longas demais para 60 s têm o final cortado. A conferência por transcrição acha erro de palavra, não julga se a música é bonita ou chiclete: isso é a escuta do cliente.
+
+---
+
+# 9. Estudo do "Morto-Vivo" e as 10 músicas de brincadeira (19/11/2026)
+
+**Morto-Vivo (Animadinhos):** publicada em fev/2025, 3:05, **201 milhões de views**, 338 mil curtidas; a busca pela letra tem 15,7 milhões de publicações no TikTok. O áudio não foi baixado (direitos reservados); a estrutura foi estudada pela letra e pelos dados públicos.
+
+**Receita observada:** (1) anúncio da brincadeira repetido no começo; (2) uma regra simples que a criança obedece; (3) respostas rápidas em coro; (4) verso de recompensa ("quem tá feliz, bate palminha"); (5) palavras reais e curtas.
+
+**Outros hits de comando/brincadeira vistos:** Pula Pipoquinha (Bob Zoom, 1,58 bi), Zum Zum Zum (Yasmin Verissimo, 902 mi), Tchutchuê (282 mi), Anda pra Frente, Anda pra Trás (339 mi), Dança da Imitação (77 mi), Sim ou Não (77 mi).
+
+| # | Brincadeira | Palavras reconhecidas |
+|---|---|---|
+| 11 | Estátua! | 98% |
+| 12 | Esconde-Esconde | 94% |
+| 13 | Pega-Pega | 94% |
+| 14 | Batata Quente | 91% |
+| 15 | Amarelinha | 93% |
+| 16 | Pula Corda | 98% |
+| 17 | Dança das Cadeiras | 93% (a 1ª versão pulou uma estrofe; letra simplificada) |
+| 18 | O Mestre Mandou | 98% |
+| 19 | Cabra-Cega | 91% |
+| 20 | Telefone Sem Fio | 86% |
