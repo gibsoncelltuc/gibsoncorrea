@@ -6,10 +6,10 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | street | two | 2 | reagir, INTERAGEM: susto | kit/searchlight, buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b1 | street | reveal | 10 | reagir | - | - | -
-b2 | street | group | 12 | conversar, INTERAGEM: cochichar, batalha | - | - | -
+b2 | harbor | group | 12 | conversar, INTERAGEM: cochichar, batalha | - | - | -
 b3 | street | two | 2 | conversar, INTERAGEM: entregar | kit/searchlight, buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b4 | street | orbit | 22 | batalha | cannon | - | -
-b5 | street | two | 2 | discutir, INTERAGEM: discutir | - | - | -
+b5 | countryside | two | 2 | discutir, INTERAGEM: discutir | - | - | -
 b6 | street | crowd | 22 | batalha | cannon, buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b7 | interior madeira | two | 2 | discutir, INTERAGEM: susto | - | paper | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: entregar, alguem chega andando | - | paper | -

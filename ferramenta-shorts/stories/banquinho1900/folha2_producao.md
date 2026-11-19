@@ -3,7 +3,7 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/banquinho1900/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py banquinho1900` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Um governador inglês pediu para sentar num banquinho, e isso começou u...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): GOV (variante 0, expressao smug); ASH (variante 0, expressao shock)
@@ -114,11 +114,9 @@ buildings/castle_tower | b5 | pronto | conferir na folha de contato se le bem; s
 ## Video inteiro
 - Objeto heroi: kit/golden_stool | grandes momentos: b5, b6 | planos abertos: 3 | mistura: close 11% | medio 69% | aberto 14% | detalhe 5%
 - Interacoes: b0 discutir, b2 o outro se aproxima, b3 empurrar, b4 susto, b7 entregar, b8 cochichar
-- RISCOS GERAIS: 
-  - pouca variedade de cenario ({'street': 6, 'countryside': 1, 'interior madeira': 1, 'interior pedra': 1, 'interior loja': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: pouca variedade de cenario ({'street': 6, 'countryside': 1, 'interior madeira': 1, 'interior pedra': 1, 'interior loja': 1}): o video fica parecendo todos os outros
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh banquinho1900 bN bM` (so essas cenas).

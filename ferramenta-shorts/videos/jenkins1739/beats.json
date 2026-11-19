@@ -58,6 +58,16 @@
    "pants": "#2a2d33",
    "boots": "#1b1b1f",
    "fixo": true
+  },
+  "CAP": {
+   "profissao": "general",
+   "jacket": "#8a1f1f",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "pais": "ESP",
+   "fixo": true,
+   "hat": "shako",
+   "uniforme_fixo": true
   }
  },
  "beats": [
@@ -110,7 +120,7 @@
   {
    "shot": "two",
    "who": [
-    "ESP:0:angry",
+    "CAP:0:angry",
     "JEN:0:scared"
    ],
    "interacao": "empurrar",

@@ -48,7 +48,6 @@
  "beats": [
   {
    "shot": "two",
-   "set": "street",
    "who": [
     "GOV:0:smug",
     "ASH:0:shock"
@@ -64,7 +63,8 @@
    "text": "1900",
    "interacao": "discutir",
    "acao": "discutir",
-   "say": "Um governador inglês pediu para sentar num banquinho, e isso começou uma guerra."
+   "say": "Um governador inglês pediu para sentar num banquinho, e isso começou uma guerra.",
+   "set": "countryside"
   },
   {
    "shot": "reveal",

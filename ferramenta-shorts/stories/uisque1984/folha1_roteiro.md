@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic |
 
 ## Cena b2  (~5.5 s)
 - Narracao: Os dois países achavam que ela era sua, mas ninguém queria começar uma guerra de verdade.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -

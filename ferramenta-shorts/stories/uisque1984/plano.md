@@ -11,7 +11,7 @@ b5 | low | -  | tropa, objeto na mao | - | -
 b6 | orbit | -  | batalha aberta com tiros, tropa, objeto na mao | - | -
 b7 | two | -  | - | - | -
 b8 | two | -  | interior, objeto na mao | - | -
-b9 | close | -  | - | tiro (burst + som de tiro/explosao) | -
+b9 | close | -  | interior | tiro (burst + som de tiro/explosao) | -
 
 Mistura de planos: close 22% | medio 57% | aberto 14% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

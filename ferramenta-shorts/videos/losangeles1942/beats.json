@@ -234,7 +234,6 @@
   },
   {
    "shot": "close",
-   "set": "street",
    "hora": "amanhecer",
    "who": [
     "CID:0:smile"
@@ -247,7 +246,8 @@
      1.0
     ]
    ],
-   "say": "O único alvo derrotado naquela noite foi o sono de Los Angeles."
+   "say": "O único alvo derrotado naquela noite foi o sono de Los Angeles.",
+   "set": "harbor"
   }
  ],
  "cinf": 1.5,

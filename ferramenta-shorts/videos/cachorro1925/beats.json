@@ -70,7 +70,8 @@
      -2.4,
      1.2
     ]
-   ]
+   ],
+   "detalhe": true
   },
   {
    "shot": "reveal",
@@ -145,14 +146,14 @@
   },
   {
    "shot": "two",
-   "set": "mountain",
    "who": [
     "GRE:0:sad",
     "GRE:1:angry"
    ],
    "interacao": "susto",
    "say": "Acontece que o soldado morreu, e a Grécia deu um ultimato furioso à Bulgária.",
-   "props": []
+   "props": [],
+   "set": "countryside"
   },
   {
    "shot": "crowd",

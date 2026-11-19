@@ -195,13 +195,13 @@
   },
   {
    "shot": "two",
-   "set": "arctic",
    "who": [
     "CAN:0:smug",
     "DIN:0:smug"
    ],
    "interacao": "cochichar",
-   "say": "Durante anos, os dois lados voltaram lá para trocar bandeira e garrafa, sempre muito educados."
+   "say": "Durante anos, os dois lados voltaram lá para trocar bandeira e garrafa, sempre muito educados.",
+   "set": "harbor"
   },
   {
    "shot": "two",

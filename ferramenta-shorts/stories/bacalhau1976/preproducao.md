@@ -4,16 +4,16 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | harbor | two | 2 | discutir, INTERAGEM: discutir, alguem chega andando | kit/cod | - | -
-b1 | arctic | reveal | 10 | reagir | - | - | -
+b0 | street | two | 2 | discutir, INTERAGEM: discutir, alguem chega andando | kit/cod | - | -
+b1 | harbor | reveal | 10 | reagir | - | - | -
 b2 | harbor | two | 2 | conversar, INTERAGEM: empurrar | boat, kit/cod | - | -
 b3 | harbor | two | 2 | conversar, INTERAGEM: cochichar | - | paper | -
 b4 | harbor | crowd | 22 | batalha | ship, navios ao fundo | - | -
-b5 | harbor | two | 2 | discutir, INTERAGEM: susto | - | bag | -
+b5 | interior pedra | two | 2 | discutir, INTERAGEM: susto | - | bag | -
 b6 | harbor | orbit | 20 | batalha | ship, navios ao fundo | - | -
 b7 | interior madeira | two | 2 | discutir, INTERAGEM: empurrar | - | paper | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | - | paper | -
-b9 | harbor | close | 1 | conversar | kit/cod | - | -
+b9 | interior pedra | close | 1 | conversar | kit/cod | - | -
 
 OBJETO HEROI: kit/cod - aparece em 3 cena(s), close nele em 2
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b6

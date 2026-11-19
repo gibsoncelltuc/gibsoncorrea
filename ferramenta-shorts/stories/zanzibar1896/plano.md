@@ -11,7 +11,7 @@ b5 | close | -  | interior | atirar (burst + som de tiro/explosao) | -
 b6 | orbit | -  | batalha aberta com tiros, tropa, placa: 9:02 | fogo (burst + som de tiro/explosao); fogo (burst + som de tiro/explosao) | -
 b7 | track | -  | - | fugiu (dust + som de impacto) | -
 b8 | two | -  | interior, placa: 9:40, objeto na mao | caiu (dust + som de impacto); canhões (burst + som de tiro/explosao) | -
-b9 | group | -  | objeto na mao | - | -
+b9 | group | -  | - | - | -
 b10 | close | -  | interior | balas (burst + som de tiro/explosao) | -
 
 Mistura de planos: close 15% | medio 70% | aberto 13% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)

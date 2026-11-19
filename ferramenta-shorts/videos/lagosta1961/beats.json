@@ -51,7 +51,6 @@
  "beats": [
   {
    "shot": "two",
-   "set": "harbor",
    "who": [
     "BRA:0:angry",
     "FRA:0:smug"
@@ -67,7 +66,8 @@
    "text": "1961",
    "interacao": "discutir",
    "acao": "discutir",
-   "say": "A França e o Brasil quase entraram em guerra por causa de uma lagosta."
+   "say": "A França e o Brasil quase entraram em guerra por causa de uma lagosta.",
+   "set": "street"
   },
   {
    "shot": "reveal",
@@ -109,17 +109,17 @@
    ],
    "acao": "discutir",
    "say": "O Brasil dizia: \"Lagosta anda no fundo do mar, então é nossa.\"",
-   "set": "street"
+   "set": "harbor"
   },
   {
    "shot": "two",
-   "set": "harbor",
    "who": [
     "FRA:0:smug",
     "FRA:1:laugh"
    ],
    "interacao": "cochichar",
-   "say": "A França respondia: \"Lagosta nada, então é de todo mundo.\""
+   "say": "A França respondia: \"Lagosta nada, então é de todo mundo.\"",
+   "set": "countryside"
   },
   {
    "shot": "group",
@@ -210,11 +210,10 @@
    "acao": "comemorar",
    "text": "1963",
    "say": "Em mil novecentos e sessenta e três, fecharam um acordo: alguns barcos franceses podiam pescar, com limite.",
-   "set": "countryside"
+   "set": "harbor"
   },
   {
    "shot": "close",
-   "set": "harbor",
    "who": [
     "BRA:0:nervous"
    ],
@@ -226,7 +225,8 @@
      0.65
     ]
    ],
-   "say": "No fim, ninguém perguntou para a lagosta de que lado ela queria ficar."
+   "say": "No fim, ninguém perguntou para a lagosta de que lado ela queria ficar.",
+   "interior": "pedra"
   }
  ],
  "ano": 1961,

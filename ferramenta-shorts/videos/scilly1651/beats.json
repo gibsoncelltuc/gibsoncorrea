@@ -61,7 +61,6 @@
  "beats": [
   {
    "shot": "two",
-   "set": "harbor",
    "who": [
     "ILH:0:laugh",
     "HOL:0:smug"
@@ -77,7 +76,8 @@
    "text": "335 ANOS",
    "interacao": "discutir",
    "acao": "discutir",
-   "say": "Uma ilha minúscula ficou em guerra com a Holanda por 335 anos, e ninguém atirou."
+   "say": "Uma ilha minúscula ficou em guerra com a Holanda por 335 anos, e ninguém atirou.",
+   "set": "street"
   },
   {
    "shot": "reveal",
@@ -147,7 +147,7 @@
     ]
    ],
    "say": "Ela mandou uma frota de navios de guerra e exigiu o dinheiro de volta.",
-   "set": "countryside"
+   "set": "harbor"
   },
   {
    "shot": "crowd",
@@ -197,13 +197,13 @@
   },
   {
    "shot": "two",
-   "set": "harbor",
    "who": [
     "ILH:0:smile",
     "ILH:1:grin"
    ],
    "acao": "comemorar",
-   "say": "A guerra seguiu esquecida por mais de trezentos anos, sem um único tiro."
+   "say": "A guerra seguiu esquecida por mais de trezentos anos, sem um único tiro.",
+   "set": "countryside"
   },
   {
    "shot": "two",
@@ -235,7 +235,6 @@
   },
   {
    "shot": "close",
-   "set": "harbor",
    "who": [
     "ILH:0:smile"
    ],
@@ -247,7 +246,8 @@
      1.2
     ]
    ],
-   "say": "Foi a guerra mais longa e mais calma da história, dizem."
+   "say": "Foi a guerra mais longa e mais calma da história, dizem.",
+   "set": "street"
   }
  ],
  "ano": 1651,

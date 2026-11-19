@@ -10,11 +10,12 @@
    "jacket": "#8a7a4a",
    "pants": "#6e6038",
    "boots": "#2a2218",
-   "hat": "slouch",
+   "hat": "shako",
    "cap": "#8a7a50",
    "belt": "#4a3a24",
    "rifle": true,
-   "profissao": "general"
+   "profissao": "general",
+   "uniforme_fixo": true
   },
   "FARM": {
    "jacket": "#7a9ac2",

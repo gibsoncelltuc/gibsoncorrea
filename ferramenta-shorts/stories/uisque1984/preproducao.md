@@ -6,14 +6,14 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | arctic | two | 2 | discutir, INTERAGEM: discutir | kit/whisky | flag | -
 b1 | arctic | reveal | 8 | parados (so fala e pisca) | - | - | -
-b2 | arctic | two | 2 | conversar, INTERAGEM: empurrar | - | - | -
+b2 | harbor | two | 2 | conversar, INTERAGEM: empurrar | - | - | -
 b3 | arctic | crowd | 12 | batalha | vehicles/helicopter | flag | -
 b4 | arctic | two | 2 | comemorar, INTERAGEM: pular | war/flagpole, kit/whisky, kit/tequila_bolt | flag | -
 b5 | arctic | low | 12 | conversar, INTERAGEM: o outro se aproxima, alguem chega andando | war/flagpole | flag | -
-b6 | arctic | orbit | 14 | conversar, batalha | kit/whisky, kit/tequila_bolt | paper | -
+b6 | mountain | orbit | 14 | conversar, batalha | kit/whisky, kit/tequila_bolt | paper | -
 b7 | arctic | two | 2 | conversar, INTERAGEM: cochichar | war/flagpole, kit/tequila_bolt | - | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | - | paper | -
-b9 | arctic | close | 1 | comemorar | kit/whisky | - | -
+b9 | interior pedra | close | 1 | comemorar | kit/whisky | - | -
 
 OBJETO HEROI: kit/whisky - aparece em 4 cena(s), close nele em 2
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b6

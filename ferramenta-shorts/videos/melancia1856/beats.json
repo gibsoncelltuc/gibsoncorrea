@@ -213,7 +213,6 @@
   },
   {
    "shot": "close",
-   "set": "street",
    "who": [
     "VEN:0:sad"
    ],
@@ -225,7 +224,8 @@
      1.3
     ]
    ],
-   "say": "Tudo isso por uma fatia de melancia que custava poucos centavos."
+   "say": "Tudo isso por uma fatia de melancia que custava poucos centavos.",
+   "set": "countryside"
   }
  ],
  "ano": 1856,

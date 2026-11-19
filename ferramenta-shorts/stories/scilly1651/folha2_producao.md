@@ -3,14 +3,15 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/scilly1651/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py scilly1651` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Uma ilha minúscula ficou em guerra com a Holanda por 335 anos, e ningu...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ILH (variante 0, expressao laugh); HOL (variante 0, expressao smug)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/scroll
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): holanda, ilha
-- RISCOS: nenhum
+- RISCOS: 
+  - a narracao cita agua e o cenario "street" nao tem agua -> CORRECAO: "set": "harbor" (cais com mar e navio) ou "set": "palace" (praia), ou "mapa" para so situar
 
 ## Cena b1 - Dizem que tudo começou em mil seiscentos e cinquenta e um, nas ilhas S...
 - Cenario: harbor | luz: day | clima: limpo
@@ -63,7 +64,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - A guerra seguiu esquecida por mais de trezentos anos, sem um único tir...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): ILH (variante 0, expressao smile); ILH (variante 1, expressao grin)
@@ -73,7 +74,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Em mil novecentos e oitenta e seis, alguém perguntou: "Será que ainda ...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): EMB (variante 0, expressao smile); PRE (variante 0, expressao nervous)
@@ -93,7 +94,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - Foi a guerra mais longa e mais calma da história, dizem.
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): ILH (variante 0, expressao smile)
@@ -114,11 +115,10 @@ ship | b2, b3, b4 | pronto | conferir na folha de contato se le bem; se parecer 
 ## Video inteiro
 - Objeto heroi: kit/scroll | grandes momentos: b2, b3, b4 | planos abertos: 2 | mistura: close 26% | medio 66% | aberto 6% | detalhe 2%
 - Interacoes: b0 discutir, b1 susto, b3 avanca e o outro recua, b5 o outro se aproxima, b6 pular, b7 reverencia, b8 entregar
-- RISCOS GERAIS: 
-  - pouca variedade de cenario ({'harbor': 9, 'interior pedra': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
+- RISCOS GERAIS: nenhum
 
 ## RESUMO: 1 risco(s) em aberto
-- geral: pouca variedade de cenario ({'harbor': 9, 'interior pedra': 1}): o video fica parecendo todos os outros
+- b0: a narracao cita agua e o cenario "street" nao tem agua
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh scilly1651 bN bM` (so essas cenas).

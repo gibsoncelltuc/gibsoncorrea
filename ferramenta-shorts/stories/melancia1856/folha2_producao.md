@@ -23,7 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Um deles parou numa barraca, comeu uma fatia de melancia e foi embora ...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): VIA (variante 0, expressao grin); VEN (variante 0, expressao shock)
@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo, n...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): VIA (variante 0, expressao angry); VEN (variante 0, expressao scared) | multidao: 30 de VIA/VEN
@@ -121,10 +121,10 @@ nature/lamppost | b7 | pronto | conferir na folha de contato se le bem; se parec
 - Objeto heroi: kit/melon | grandes momentos: b5, b7 | planos abertos: 3 | mistura: close 18% | medio 58% | aberto 16% | detalhe 7%
 - Interacoes: b0 discutir, b2 empurrar, b3 discutir, b4 empurrar, b6 susto, b8 entregar
 - RISCOS GERAIS: 
-  - pouca variedade de cenario ({'street': 8, 'interior madeira': 1, 'interior pedra': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
+  - pouca variedade de cenario ({'street': 6, 'countryside': 1, 'harbor': 1, 'interior madeira': 1, 'interior pedra': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
 
 ## RESUMO: 1 risco(s) em aberto
-- geral: pouca variedade de cenario ({'street': 8, 'interior madeira': 1, 'interior pedra': 1}): o video fica parecendo todos os outros
+- geral: pouca variedade de cenario ({'street': 6, 'countryside': 1, 'harbor': 1, 'interior madeira': 1, 'interior pedra': 1}): o video fica parecendo todos os outros
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh melancia1856 bN bM` (so essas cenas).

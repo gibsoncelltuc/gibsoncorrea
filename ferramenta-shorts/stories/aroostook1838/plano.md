@@ -11,7 +11,7 @@ b5 | two | -  | - | - | -
 b6 | orbit | -  | batalha aberta com tiros, tropa | cavalaria: 4 soldados a cavalo (MIL) (acao + som de efeito) | -
 b7 | two | -  | interior, objeto na mao | pedido: plano medio dos dois, um pede ao outro (shot + som de efeito); atirou (burst + som de tiro/explosao); tiro (burst + som de tiro/explosao) | -
 b8 | two | -  | interior, objeto na mao | - | -
-b9 | close | -  | tropa, animais | - | -
+b9 | close | -  | animais, interior | - | -
 
 Mistura de planos: close 23% | medio 60% | aberto 14% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

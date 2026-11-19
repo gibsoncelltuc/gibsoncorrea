@@ -214,7 +214,8 @@
     "JOR2:0:suspicious",
     "POV:0:worried"
    ],
-   "set": "harbor"
+   "set": "harbor",
+   "interacao": "discutir"
   },
   {
    "tiros": false,

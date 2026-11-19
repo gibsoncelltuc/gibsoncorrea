@@ -13,7 +13,7 @@ b5 | interior pedra | close | 1 | conversar | - | - | -
 b6 | palace | orbit | 22 | reagir, batalha | navios ao fundo, buildings/castle_tower | - | -
 b7 | palace | track | 2 | discutir, andando | buildings/house_two, nature/lamppost, nature/bench | - | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: vai ate o outro | cannon, war/flagpole | flag | -
-b9 | medieval | group | 3 | conversar, INTERAGEM: aproxima-se | - | paper | -
+b9 | medieval | group | 3 | conversar, INTERAGEM: aproxima-se | - | - | -
 b10 | interior loja | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: cannon - aparece em 2 cena(s), close nele em 1

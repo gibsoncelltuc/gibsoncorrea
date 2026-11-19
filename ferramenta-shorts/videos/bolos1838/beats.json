@@ -72,7 +72,15 @@
    ],
    "mapa": "MÉXICO",
    "mapa_at": 6,
-   "say": "Um confeiteiro francês tinha uma loja perto da Cidade do México, famosa pelos doces."
+   "say": "Um confeiteiro francês tinha uma loja perto da Cidade do México, famosa pelos doces.",
+   "props": [
+    [
+     "kit/cake_table",
+     1.4,
+     0.5,
+     1.0
+    ]
+   ]
   },
   {
    "shot": "group",
@@ -113,7 +121,15 @@
     "GEN:0:laugh",
     "OFI:0:grin"
    ],
-   "say": "O México riu da cobrança, e não pagou um centavo."
+   "say": "O México riu da cobrança, e não pagou um centavo.",
+   "props": [
+    [
+     "kit/cake_table",
+     1.4,
+     0.5,
+     1.0
+    ]
+   ]
   },
   {
    "shot": "reveal",
@@ -184,5 +200,6 @@
  ],
  "exp": 1.0,
  "ano": 1838,
- "regiao": "colonial"
+ "regiao": "colonial",
+ "heroi": "kit/cake_table"
 }

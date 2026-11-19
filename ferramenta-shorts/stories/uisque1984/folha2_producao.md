@@ -23,7 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Os dois países achavam que ela era sua, mas ninguém queria começar uma...
-- Cenario: arctic | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): CAN (variante 0, expressao angry); DIN (variante 0, expressao angry)
@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - E deixaram um bilhete: "Bem-vindos à terra dinamarquesa", ao lado de u...
-- Cenario: arctic | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): DIN (variante 0, expressao grin, segura paper); CAN (variante 0, expressao shock) | multidao: 12 de DIN/CAN
@@ -93,7 +93,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - A guerra mais educada da história acabou sem um tiro e com muito uísqu...
-- Cenario: arctic | luz: day | clima: limpo
+- Cenario: interior pedra | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): CAN (variante 0, expressao smile)
@@ -117,10 +117,10 @@ kit/tequila_bolt | b4, b6, b7 | pronto | conferir na folha de contato se le bem;
 - Objeto heroi: kit/whisky | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 22% | medio 57% | aberto 14% | detalhe 7%
 - Interacoes: b0 discutir, b2 empurrar, b4 pular, b5 o outro se aproxima, b7 cochichar, b8 entregar
 - RISCOS GERAIS: 
-  - pouca variedade de cenario ({'arctic': 9, 'interior pedra': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
+  - pouca variedade de cenario ({'arctic': 6, 'harbor': 1, 'mountain': 1, 'interior pedra': 2}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
 
 ## RESUMO: 1 risco(s) em aberto
-- geral: pouca variedade de cenario ({'arctic': 9, 'interior pedra': 1}): o video fica parecendo todos os outros
+- geral: pouca variedade de cenario ({'arctic': 6, 'harbor': 1, 'mountain': 1, 'interior pedra': 2}): o video fica parecendo todos os outros
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh uisque1984 bN bM` (so essas cenas).

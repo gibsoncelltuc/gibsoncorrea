@@ -6,9 +6,9 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | street | two | 2 | discutir, INTERAGEM: discutir | kit/melon | - | -
 b1 | street | reveal | 10 | reagir | vehicles/locomotive | - | -
-b2 | street | two | 2 | reagir, INTERAGEM: empurrar | kit/stall, kit/melon | - | -
+b2 | countryside | two | 2 | reagir, INTERAGEM: empurrar | kit/stall, kit/melon | - | -
 b3 | street | two | 2 | discutir, INTERAGEM: discutir | kit/stall, buildings/shop | - | -
-b4 | street | group | 32 | conversar, INTERAGEM: empurrar | war/pistol | - | -
+b4 | harbor | group | 32 | conversar, INTERAGEM: empurrar | war/pistol | - | -
 b5 | street | crowd | 22 | discutir, batalha | - | - | -
 b6 | interior madeira | two | 2 | conversar, INTERAGEM: susto | - | paper | -
 b7 | street | orbit | 22 | batalha | vehicles/locomotive, buildings/apartment, buildings/house_two, nature/lamppost | - | -

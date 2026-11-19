@@ -7,11 +7,11 @@ b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | - | - | -
 b3 | two | -  | objeto na mao | - | -
 b4 | crowd | -  | batalha aberta com tiros, tropa, placa: MARINHA | - | -
-b5 | two | -  | objeto na mao | (rosto) shout (expr + som de efeito); gritou (ring + som de alerta) | -
+b5 | two | -  | interior, objeto na mao | (rosto) shout (expr + som de efeito); gritou (ring + som de alerta) | -
 b6 | orbit | -  | batalha aberta com tiros, tropa | - | -
 b7 | two | -  | interior, objeto na mao | - | -
 b8 | two | -  | interior, objeto na mao | - | -
-b9 | close | -  | - | - | -
+b9 | close | -  | interior | - | -
 
-Mistura de planos: close 19% | medio 61% | aberto 15% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 10% | medio 70% | aberto 15% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

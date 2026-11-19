@@ -26,12 +26,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): ESP (variante 0, expressao angry); JEN (variante 0, expressao scared)
+- Personagens principais (2): CAP (variante 0, expressao angry); JEN (variante 0, expressao scared)
 - Animacao: conversar | interacao: empurrar
 - Objetos/modelos: kit/ear_jar
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): capitao, espanhois
-- RISCOS: 
-  - a narracao cita "capitao" e ninguem em cena esta vestido a carater -> CORRECAO: por no "who" um personagem com "profissao": "general" no figurino (coroa/farda/chapeu proprios)
+- RISCOS: nenhum
 
 ## Cena b3 - "Vá levar isso ao seu rei", teria dito o espanhol.
 - Cenario: harbor | luz: day | clima: limpo
@@ -127,8 +126,7 @@ ship | b1, b6 | pronto | conferir na folha de contato se le bem; se parecer caix
 - Interacoes: b0 discutir, b2 empurrar, b3 cochichar, b5 cochichar, b7 susto, b8 entregar, b9 insiste
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- b2: a narracao cita "capitao" e ninguem em cena esta vestido a carater
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh jenkins1739 bN bM` (so essas cenas).

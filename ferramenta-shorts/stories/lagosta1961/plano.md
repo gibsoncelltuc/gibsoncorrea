@@ -11,7 +11,7 @@ b5 | crowd | -  | batalha aberta com tiros, tropa, placa: NAVIOS E AVIÕES | rec
 b6 | group | -  | batalha aberta com tiros, tropa | tiro (burst + som de tiro/explosao) | -
 b7 | two | -  | interior, objeto na mao | tiro (burst + som de tiro/explosao); brigar (puff + som de baque) | -
 b8 | two | -  | placa: 1963 | - | -
-b9 | close | -  | - | - | -
+b9 | close | -  | interior | - | -
 
 Mistura de planos: close 19% | medio 57% | aberto 19% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal
