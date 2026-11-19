@@ -96,8 +96,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: outback | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): FARM (variante 0, expressao smile); FARM (variante 1, expressao grin, segura money)
-- Animacao: conversar | interacao: entregar
+- Personagens principais (2): FARM (variante 0, expressao pleading); FARM (variante 1, expressao grin)
+- Animacao: comemorar | interacao: pedir
 - Objetos/modelos: buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow, emus
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): governo, oferecer, premio
 - RISCOS: nenhum
@@ -129,7 +129,7 @@ vehicles/truck | b5 | pronto | conferir na folha de contato se le bem; se parece
 
 ## Video inteiro
 - Objeto heroi: - | grandes momentos: b3, b4, b8 | planos abertos: 4 | mistura: close 8% | medio 69% | aberto 18% | detalhe 5%
-- Interacoes: b2 vai ate o outro, b6 susto, b9 entregar
+- Interacoes: b2 vai ate o outro, b6 susto, b9 pedir
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 - Narracao: No fim, o governo desistiu da guerra, e passou a oferecer um prêmio aos fazendeiros por cada emu abatido.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: desistiu -> puff + som de baque; prêmio -> stars + som de sino; encena: perde (facepalm) @4 -> acao + som de efeito; encena: vence (up) @12 -> acao + som de efeito
+- Efeito + som nas palavras-chave: pedido: plano medio dos dois, um pede ao outro -> shot + som de efeito; desistiu -> puff + som de baque; prêmio -> stars + som de sino; encena: perde (facepalm) @4 -> acao + som de efeito; encena: vence (up) @12 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: RECOMPENSA
 - Funcao na historia: desenvolvimento

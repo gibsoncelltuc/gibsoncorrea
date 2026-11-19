@@ -232,18 +232,18 @@
   },
   {
    "say": "No fim, o governo desistiu da guerra, e passou a oferecer um prêmio aos fazendeiros por cada emu abatido.",
-   "shot": "two",
+   "shot": "group",
    "who": [
     "FARM:0:smile",
-    "FARM:1:grin:money"
+    "FARM:1:grin"
    ],
    "text": "RECOMPENSA",
    "tat": 9,
    "light": "golden",
-   "interacao": "entregar",
    "emus": {
     "n": 0
-   }
+   },
+   "acao": "comemorar"
   },
   {
    "say": "Humanos, zero. Emus, um.",
