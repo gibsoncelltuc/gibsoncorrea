@@ -163,11 +163,19 @@ export const fxAt = (f, T) => { const out = [];
           g.fillStyle = '#f1dfb0'; g.strokeStyle = '#241726'; g.lineWidth = 12; g.beginPath(); g.roundRect(34, 170, 532, 660, 18); g.fill(); g.stroke();
           g.save(); g.beginPath(); g.roundRect(46, 182, 508, 520, 10); g.clip(); g.fillStyle = '#9fd0e6'; g.fillRect(46, 182, 508, 520);
           g.strokeStyle = 'rgba(255,255,255,.55)'; g.lineWidth = 4; for (let i = 0; i < 9; i++) { const y = 205 + i * 58, x = 70 + rr(i) * 380; g.beginPath(); g.moveTo(x, y); g.quadraticCurveTo(x + 18, y - 9, x + 36, y); g.stroke(); }
+          if (e.geo) {   /* MAPA DE VERDADE: contorno real dos paises, o lugar em destaque e o alfinete no ponto certo */
+            const G = e.geo, hl = new Set(G.hl);
+            G.polys.forEach((pp, i) => { if (hl.has(i)) return; g.beginPath(); for (let k = 0; k < pp.length; k += 2) { const x = 46 + pp[k], y = 182 + pp[k + 1]; k ? g.lineTo(x, y) : g.moveTo(x, y); } g.closePath(); g.fillStyle = '#ece0b8'; g.fill(); g.strokeStyle = '#8a7a5a'; g.lineWidth = 2.5; g.stroke(); });
+            G.polys.forEach((pp, i) => { if (!hl.has(i)) return; g.beginPath(); for (let k = 0; k < pp.length; k += 2) { const x = 46 + pp[k], y = 182 + pp[k + 1]; k ? g.lineTo(x, y) : g.moveTo(x, y); } g.closePath(); g.fillStyle = '#9fcf6a'; g.fill(); g.strokeStyle = '#241726'; g.lineWidth = 5; g.stroke(); });
+            const px = 46 + G.pin[0], py = 182 + G.pin[1]; g.restore();
+            g.fillStyle = '#d8282f'; g.strokeStyle = '#241726'; g.lineWidth = 6; g.beginPath(); g.arc(px, py - 48, 26, Math.PI, 0); g.lineTo(px, py); g.closePath(); g.fill(); g.stroke(); g.fillStyle = '#fff6e0'; g.beginPath(); g.arc(px, py - 50, 9, 0, 6.2832); g.fill();
+          } else {
           const blob = (cx, cy, R, k) => { g.beginPath(); for (let i = 0; i <= 14; i++) { const a = i / 14 * 6.2832, r = R * (0.72 + 0.5 * rr(k * 20 + i % 14)); const x = cx + Math.cos(a) * r * 1.15, y = cy + Math.sin(a) * r * 0.9; i ? g.lineTo(x, y) : g.moveTo(x, y); } g.closePath(); g.fillStyle = '#b9d98a'; g.fill(); g.strokeStyle = '#241726'; g.lineWidth = 7; g.stroke(); };
           blob(300, 440, 170, 1); blob(120 + rr(3) * 60, 260, 62, 2); blob(470, 610, 54, 3);
           g.strokeStyle = '#7fa860'; g.lineWidth = 5; for (let i = 0; i < 5; i++) { const x = 220 + rr(40 + i) * 170, y = 380 + rr(50 + i) * 130; g.beginPath(); g.moveTo(x - 14, y + 8); g.lineTo(x, y - 12); g.lineTo(x + 14, y + 8); g.stroke(); }
           g.setLineDash([14, 12]); g.strokeStyle = '#b3262d'; g.lineWidth = 6; g.beginPath(); g.moveTo(90, 650); g.quadraticCurveTo(160, 470, 300, 430); g.stroke(); g.setLineDash([]); g.restore();
           g.fillStyle = '#d8282f'; g.strokeStyle = '#241726'; g.lineWidth = 6; g.beginPath(); g.arc(300, 392, 26, Math.PI, 0); g.lineTo(300, 440); g.closePath(); g.fill(); g.stroke(); g.fillStyle = '#fff6e0'; g.beginPath(); g.arc(300, 390, 9, 0, 6.2832); g.fill();
+          }
           g.strokeStyle = '#241726'; g.lineWidth = 5; g.beginPath(); g.arc(500, 240, 26, 0, 6.2832); g.stroke(); g.beginPath(); g.moveTo(500, 206); g.lineTo(508, 240); g.lineTo(500, 274); g.lineTo(492, 240); g.closePath(); g.fillStyle = '#241726'; g.fill();
           let size = 84; g.font = `900 ${size}px Impact, "Arial Black", sans-serif`; const w = g.measureText(e.text).width; if (w > 470) { size = Math.floor(size * 470 / w); g.font = `900 ${size}px Impact, "Arial Black", sans-serif`; } g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillStyle = '#3a2416'; g.fillText(e.text, 300, 766);
         }, [C.pos[0] + fw[0] / L * dd, C.pos[1] + fw[1] / L * dd - 0.72 * s, C.pos[2] + fw[2] / L * dd], s, { front: true, shadow: false, order: 9 })); } }   /* mapa um pouco acima do centro: nao cobre a legenda */
