@@ -1,0 +1,297 @@
+{
+ "duration": 68.784,
+ "frames30": 2064,
+ "source": "silence-align (cost 1.00)",
+ "segments": [
+  [
+   0.153792,
+   2.80629
+  ],
+  [
+   3.716,
+   4.39621
+  ],
+  [
+   4.52175,
+   5.45692
+  ],
+  [
+   6.31475,
+   8.17796
+  ],
+  [
+   8.35088,
+   8.96433
+  ],
+  [
+   9.82946,
+   10.9218
+  ],
+  [
+   11.1124,
+   12.5697
+  ],
+  [
+   12.8488,
+   15.8206
+  ],
+  [
+   16.6774,
+   19.3253
+  ],
+  [
+   19.624,
+   20.7108
+  ],
+  [
+   21.5815,
+   24.2773
+  ],
+  [
+   25.1425,
+   26.5315
+  ],
+  [
+   27.384,
+   27.9692
+  ],
+  [
+   28.2284,
+   29.482
+  ],
+  [
+   30.3291,
+   30.8546
+  ],
+  [
+   31.0414,
+   32.772
+  ],
+  [
+   33.6251,
+   34.8845
+  ],
+  [
+   35.1692,
+   38.3476
+  ],
+  [
+   38.6537,
+   39.3461
+  ],
+  [
+   40.2087,
+   42.526
+  ],
+  [
+   42.8422,
+   43.9694
+  ],
+  [
+   44.2839,
+   45.2352
+  ],
+  [
+   46.0857,
+   47.1672
+  ],
+  [
+   47.3659,
+   49.7029
+  ],
+  [
+   50.5656,
+   51.9556
+  ],
+  [
+   52.7797,
+   54.7633
+  ],
+  [
+   55.6144,
+   57.0337
+  ],
+  [
+   57.8909,
+   58.9245
+  ],
+  [
+   59.1768,
+   61.4038
+  ],
+  [
+   62.2621,
+   63.996
+  ],
+  [
+   64.8742,
+   66.2113
+  ],
+  [
+   66.4206,
+   67.9898
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Os primeiros passageiros de um bal\u00e3o n\u00e3o foram pessoas.",
+   "s": 0.154,
+   "e": 2.806
+  },
+  {
+   "text": "Foram uma ovelha,",
+   "s": 3.716,
+   "e": 4.396
+  },
+  {
+   "text": "um pato e um galo.",
+   "s": 4.522,
+   "e": 5.457
+  },
+  {
+   "text": "Era mil setecentos e oitenta e tr\u00eas,",
+   "s": 6.315,
+   "e": 8.178
+  },
+  {
+   "text": "na Fran\u00e7a.",
+   "s": 8.351,
+   "e": 8.964
+  },
+  {
+   "text": "Os irm\u00e3os Montgolfier,",
+   "s": 9.829,
+   "e": 10.922
+  },
+  {
+   "text": "donos de uma f\u00e1brica de papel,",
+   "s": 11.112,
+   "e": 12.57
+  },
+  {
+   "text": "repararam que a fuma\u00e7a quente fazia sacos de papel flutuarem.",
+   "s": 12.849,
+   "e": 15.821
+  },
+  {
+   "text": "Ent\u00e3o costuraram um bal\u00e3o gigante de pano e papel,",
+   "s": 16.677,
+   "e": 19.325
+  },
+  {
+   "text": "e encheram de ar quente.",
+   "s": 19.624,
+   "e": 20.711
+  },
+  {
+   "text": "S\u00f3 que ningu\u00e9m sabia se dava para respirar l\u00e1 em cima.",
+   "s": 21.581,
+   "e": 24.277
+  },
+  {
+   "text": "E se o ar do c\u00e9u matasse?",
+   "s": 25.142,
+   "e": 26.532
+  },
+  {
+   "text": "A solu\u00e7\u00e3o:",
+   "s": 27.384,
+   "e": 27.969
+  },
+  {
+   "text": "mandar bichos na frente.",
+   "s": 28.228,
+   "e": 29.482
+  },
+  {
+   "text": "Uma ovelha,",
+   "s": 30.329,
+   "e": 30.855
+  },
+  {
+   "text": "um pato e um galo entraram na cesta.",
+   "s": 31.041,
+   "e": 32.772
+  },
+  {
+   "text": "No pal\u00e1cio de Versalhes,",
+   "s": 33.625,
+   "e": 34.885
+  },
+  {
+   "text": "o rei Lu\u00eds dezesseis e a rainha Maria Antonieta vieram assistir,",
+   "s": 35.169,
+   "e": 38.348
+  },
+  {
+   "text": "com uma multid\u00e3o.",
+   "s": 38.654,
+   "e": 39.346
+  },
+  {
+   "text": "Acontece que o bal\u00e3o levantou voo de verdade,",
+   "s": 40.209,
+   "e": 42.526
+  },
+  {
+   "text": "e foi embora pelo c\u00e9u,",
+   "s": 42.842,
+   "e": 43.969
+  },
+  {
+   "text": "com os bichos dentro.",
+   "s": 44.284,
+   "e": 45.235
+  },
+  {
+   "text": "Oito minutos depois,",
+   "s": 46.086,
+   "e": 47.167
+  },
+  {
+   "text": "ele desceu num bosque a uns tr\u00eas quil\u00f4metros dali.",
+   "s": 47.366,
+   "e": 49.703
+  },
+  {
+   "text": "Os irm\u00e3os correram para ver.",
+   "s": 50.566,
+   "e": 51.956
+  },
+  {
+   "text": "Os tr\u00eas bichos estavam vivos e bem!",
+   "s": 52.78,
+   "e": 54.763
+  },
+  {
+   "text": "Dava para respirar no c\u00e9u.",
+   "s": 55.614,
+   "e": 57.034
+  },
+  {
+   "text": "Dois meses depois,",
+   "s": 57.891,
+   "e": 58.925
+  },
+  {
+   "text": "foi a vez de dois homens voarem sobre Paris.",
+   "s": 59.177,
+   "e": 61.404
+  },
+  {
+   "text": "A humanidade tinha chegado ao c\u00e9u.",
+   "s": 62.262,
+   "e": 63.996
+  },
+  {
+   "text": "E tudo gra\u00e7as a uma ovelha,",
+   "s": 64.874,
+   "e": 66.211
+  },
+  {
+   "text": "um pato e um galo corajosos.",
+   "s": 66.421,
+   "e": 67.99
+  }
+ ]
+}

@@ -1,0 +1,378 @@
+{
+ "duration": 77.472,
+ "frames30": 2324,
+ "source": "silence-align (cost 1.50)",
+ "segments": [
+  [
+   0.150375,
+   2.66213
+  ],
+  [
+   2.84483,
+   3.71042
+  ],
+  [
+   4.56537,
+   6.27637
+  ],
+  [
+   7.14629,
+   8.93617
+  ],
+  [
+   9.1815,
+   10.5257
+  ],
+  [
+   10.7014,
+   11.2175
+  ],
+  [
+   12.0879,
+   14.0192
+  ],
+  [
+   14.8687,
+   15.2357
+  ],
+  [
+   15.4482,
+   17.4696
+  ],
+  [
+   18.3227,
+   18.8069
+  ],
+  [
+   19.1118,
+   19.7558
+  ],
+  [
+   20.6067,
+   21.4842
+  ],
+  [
+   21.6844,
+   22.6919
+  ],
+  [
+   22.9938,
+   24.2635
+  ],
+  [
+   24.4667,
+   25.6556
+  ],
+  [
+   26.5267,
+   29.9405
+  ],
+  [
+   30.792,
+   31.2451
+  ],
+  [
+   31.4805,
+   32.224
+  ],
+  [
+   32.5072,
+   33.0493
+  ],
+  [
+   33.3167,
+   34.6466
+  ],
+  [
+   34.8455,
+   35.8065
+  ],
+  [
+   36.1594,
+   37.3517
+  ],
+  [
+   38.2355,
+   39.5884
+  ],
+  [
+   39.9028,
+   42.8543
+  ],
+  [
+   43.1095,
+   44.0935
+  ],
+  [
+   44.9537,
+   47.3326
+  ],
+  [
+   47.5921,
+   50.1318
+  ],
+  [
+   50.9446,
+   53.1751
+  ],
+  [
+   54.0504,
+   55.7858
+  ],
+  [
+   56.6417,
+   58.1025
+  ],
+  [
+   58.9584,
+   59.6752
+  ],
+  [
+   59.9013,
+   60.3927
+  ],
+  [
+   60.7061,
+   61.7063
+  ],
+  [
+   62.591,
+   64.1021
+  ],
+  [
+   64.2846,
+   65.3064
+  ],
+  [
+   66.1637,
+   68.2569
+  ],
+  [
+   68.501,
+   70.1007
+  ],
+  [
+   70.9581,
+   71.7112
+  ],
+  [
+   71.8637,
+   73.5139
+  ],
+  [
+   74.3731,
+   74.698
+  ],
+  [
+   74.8867,
+   76.6552
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um m\u00e9dico pediu uma coisa simples aos colegas:",
+   "s": 0.15,
+   "e": 2.662
+  },
+  {
+   "text": "lavem as m\u00e3os.",
+   "s": 2.845,
+   "e": 3.71
+  },
+  {
+   "text": "E foi expulso do hospital por isso.",
+   "s": 4.565,
+   "e": 6.276
+  },
+  {
+   "text": "Era mil oitocentos e quarenta e sete,",
+   "s": 7.146,
+   "e": 8.936
+  },
+  {
+   "text": "no grande hospital de Viena,",
+   "s": 9.181,
+   "e": 10.526
+  },
+  {
+   "text": "na \u00c1ustria.",
+   "s": 10.701,
+   "e": 11.217
+  },
+  {
+   "text": "O hospital tinha duas alas de parto.",
+   "s": 12.088,
+   "e": 14.019
+  },
+  {
+   "text": "Numa,",
+   "s": 14.869,
+   "e": 15.236
+  },
+  {
+   "text": "as m\u00e3es eram atendidas por parteiras.",
+   "s": 15.448,
+   "e": 17.47
+  },
+  {
+   "text": "Na outra,",
+   "s": 18.323,
+   "e": 18.807
+  },
+  {
+   "text": "por m\u00e9dicos.",
+   "s": 19.112,
+   "e": 19.756
+  },
+  {
+   "text": "E acontece que,",
+   "s": 20.607,
+   "e": 21.484
+  },
+  {
+   "text": "na ala dos m\u00e9dicos,",
+   "s": 21.684,
+   "e": 22.692
+  },
+  {
+   "text": "morriam muito mais m\u00e3es,",
+   "s": 22.994,
+   "e": 24.264
+  },
+  {
+   "text": "de uma febre misteriosa.",
+   "s": 24.467,
+   "e": 25.656
+  },
+  {
+   "text": "As mulheres imploravam de joelhos para n\u00e3o ir para a ala dos m\u00e9dicos.",
+   "s": 26.527,
+   "e": 29.941
+  },
+  {
+   "text": "Um dia,",
+   "s": 30.792,
+   "e": 31.245
+  },
+  {
+   "text": "o amigo dele,",
+   "s": 31.48,
+   "e": 32.224
+  },
+  {
+   "text": "Kolletschka,",
+   "s": 32.507,
+   "e": 33.049
+  },
+  {
+   "text": "cortou o dedo com um bisturi,",
+   "s": 33.317,
+   "e": 34.647
+  },
+  {
+   "text": "examinando um corpo,",
+   "s": 34.846,
+   "e": 35.806
+  },
+  {
+   "text": "e morreu da mesma febre.",
+   "s": 36.159,
+   "e": 37.352
+  },
+  {
+   "text": "Semmelweis entendeu tudo:",
+   "s": 38.236,
+   "e": 39.588
+  },
+  {
+   "text": "os m\u00e9dicos sa\u00edam das aut\u00f3psias e iam direto para os partos,",
+   "s": 39.903,
+   "e": 42.854
+  },
+  {
+   "text": "com as m\u00e3os sujas.",
+   "s": 43.109,
+   "e": 44.093
+  },
+  {
+   "text": "Ele colocou uma bacia com \u00e1gua e cloro na porta,",
+   "s": 44.954,
+   "e": 47.333
+  },
+  {
+   "text": "e obrigou todo mundo a lavar as m\u00e3os antes de entrar.",
+   "s": 47.592,
+   "e": 50.132
+  },
+  {
+   "text": "As mortes despencaram quase dez vezes.",
+   "s": 50.945,
+   "e": 53.175
+  },
+  {
+   "text": "Centenas de m\u00e3es foram salvas.",
+   "s": 54.05,
+   "e": 55.786
+  },
+  {
+   "text": "Mas os m\u00e9dicos se ofenderam.",
+   "s": 56.642,
+   "e": 58.102
+  },
+  {
+   "text": "Um cavalheiro,",
+   "s": 58.958,
+   "e": 59.675
+  },
+  {
+   "text": "diziam,",
+   "s": 59.901,
+   "e": 60.393
+  },
+  {
+   "text": "tem as m\u00e3os limpas.",
+   "s": 60.706,
+   "e": 61.706
+  },
+  {
+   "text": "Semmelweis brigou com todos,",
+   "s": 62.591,
+   "e": 64.102
+  },
+  {
+   "text": "e foi mandado embora.",
+   "s": 64.285,
+   "e": 65.306
+  },
+  {
+   "text": "Ele morreu em mil oitocentos e sessenta e cinco,",
+   "s": 66.164,
+   "e": 68.257
+  },
+  {
+   "text": "sem ver ningu\u00e9m dar raz\u00e3o a ele.",
+   "s": 68.501,
+   "e": 70.101
+  },
+  {
+   "text": "Anos depois,",
+   "s": 70.958,
+   "e": 71.711
+  },
+  {
+   "text": "a ci\u00eancia provou os micr\u00f3bios.",
+   "s": 71.864,
+   "e": 73.514
+  },
+  {
+   "text": "Hoje,",
+   "s": 74.373,
+   "e": 74.698
+  },
+  {
+   "text": "ele \u00e9 chamado de salvador das m\u00e3es.",
+   "s": 74.887,
+   "e": 76.655
+  }
+ ]
+}

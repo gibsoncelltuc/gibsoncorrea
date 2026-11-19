@@ -117,7 +117,7 @@
    "say": "E acontece que, na ala dos médicos, morriam muito mais mães, de uma febre misteriosa."
   },
   {
-   "shot": "crowd",
+   "shot": "group",
    "who": [
     "MAE:0:scared",
     "POV:0:cry"
@@ -132,8 +132,10 @@
     "expr": "scared"
    },
    "say": "As mulheres imploravam de joelhos para não ir para a ala dos médicos.",
-   "batalha": true,
-   "tiros": false
+   "batalha": false,
+   "tiros": false,
+   "shot_lock": true,
+   "impact": false
   },
   {
    "shot": "two",
