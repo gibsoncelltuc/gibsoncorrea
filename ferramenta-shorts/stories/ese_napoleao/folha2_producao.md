@@ -37,7 +37,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): FRA (variante 0, expressao angry); ING (variante 0, expressao shout); FRA (variante 1, expressao shout) | multidao: 20 de FRA/ING
-- Animacao: - | batalha encenada
+- Animacao: encena | batalha encenada
 - Objetos/modelos: cannon
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): batalha, duque, ingleses, wellington
 - RISCOS: nenhum
@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - No fim da tarde, chegou o exército prussiano para ajudar Wellington. E...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): ING (variante 0, expressao shout); ING (variante 1, expressao grin); FRA (variante 0, expressao scared) | multidao: 18 de ING/FRA
@@ -84,8 +84,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Acontece que a maioria dos historiadores pensa diferente: ele provavel...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: close = close no rosto; empurra devagar
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): PRO (variante 0, expressao smug)
 - Animacao: conversar
 - Objetos/modelos: kit/crown
@@ -96,11 +96,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): PRO (variante 0, expressao stern, segura paper); POV (variante 1, expressao worried)
+- Personagens principais (2): PRO (variante 0, expressao stern, segura paper); POV (variante 1, expressao worried) | multidao: 10 de FRA/POV
 - Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/scroll
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): austria, russia
-- RISCOS: nenhum
+- RISCOS: 
+  - multidao/batalha dentro de sala: nao cabe -> CORRECAO: tirar "interior" desta cena (faz na rua/campo) ou reduzir o "crowd"
 
 ## Cena b10 - Às vezes, um dia famoso não muda o destino. Só escolhe a data em que e...
 - Cenario: countryside | luz: day | clima: limpo
@@ -123,11 +124,14 @@ kit/scroll | b9 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/crown | grandes momentos: b2, b3, b4, b5 | planos abertos: 4 | mistura: close 22% | medio 58% | aberto 14% | detalhe 6%
+- Objeto heroi: kit/crown | grandes momentos: b2, b3, b4, b5 | planos abertos: 4 | mistura: close 24% | medio 58% | aberto 14% | detalhe 4%
 - Interacoes: b0 vai ate o outro, b2 entregar, b6 empurrar, b7 discutir, b9 aproxima-se
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - pouca variedade de cenario ({'countryside': 6, 'mountain': 1, 'harbor': 1, 'interior madeira': 3}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 2 risco(s) em aberto
+- b9: multidao/batalha dentro de sala: nao cabe
+- geral: pouca variedade de cenario ({'countryside': 6, 'mountain': 1, 'harbor': 1, 'interior madeira': 3}): o video fica parecendo todos os outros
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh ese_napoleao bN bM` (so essas cenas).

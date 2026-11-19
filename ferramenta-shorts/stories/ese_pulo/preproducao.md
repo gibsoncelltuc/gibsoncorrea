@@ -6,14 +6,14 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | street | two | 2 | conversar, INTERAGEM: aproxima-se | kit/globe | - | -
 b1 | street | reveal | 8 | parados (so fala e pisca) | - | - | -
-b2 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua | - | paper | -
-b3 | street | crowd | 27 | comemorar, batalha | - | - | -
-b4 | street | close | 1 | conversar | kit/globe | - | -
-b5 | street | two | 2 | reagir, INTERAGEM: susto | kit/globe | - | -
+b2 | countryside | two | 2 | conversar, INTERAGEM: avanca e o outro recua | - | paper | -
+b3 | countryside | crowd | 33 | comemorar, batalha | - | - | -
+b4 | harbor | close | 1 | conversar | kit/globe | - | -
+b5 | harbor | two | 2 | conversar, INTERAGEM: susto | kit/globe | - | -
 b6 | street | orbit | 25 | reagir, batalha | - | - | -
 b7 | street | group | 7 | discutir, INTERAGEM: discutir | - | - | -
-b8 | street | two | 2 | reagir, INTERAGEM: o outro se aproxima | buildings/house_small, nature/picket_fence, nature/tree_oak | paper | -
-b9 | street | two | 2 | conversar, INTERAGEM: abracar | - | - | -
+b8 | harbor | two | 2 | reagir, INTERAGEM: o outro se aproxima | buildings/house_small, nature/picket_fence, nature/tree_oak | paper | -
+b9 | harbor | two | 2 | conversar, INTERAGEM: abracar | - | - | -
 b10 | street | close | 1 | comemorar | kit/globe | - | -
 
 OBJETO HEROI: kit/globe - aparece em 4 cena(s), close nele em 3

@@ -11,9 +11,9 @@ b5 | two | -  | interior | encena: mistura (stir) (acao + som de efeito) | -
 b6 | two | -  | interior | encena: cai (throw) (acao + som de efeito); encena: calor (reach) (acao + som de efeito) | -
 b7 | low | -  | interior | encena: vira (up) (acao + som de efeito) | -
 b8 | two | -  | interior | - | -
-b9 | group | -  | tropa | (rosto) sad (expr + som de efeito); Morreu (puff + som de baque) | -
+b9 | group | -  | tropa | (rosto) sad (expr + som de efeito); Morreu (puff + som de baque); encena: pensa (think) (acao + som de efeito); encena: golpe (punch) (acao + som de efeito) | -
 b10 | crowd | -  | batalha aberta com tiros, tropa, placa: PNEUS | - | -
-b11 | close | -  | interior, placa: GOODYEAR | ganhou (stars + som de sino) | -
+b11 | close | -  | interior, placa: GOODYEAR | ganhou (stars + som de sino); encena: vence (up) (acao + som de efeito) | -
 
 Mistura de planos: close 12% | medio 78% | aberto 10% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

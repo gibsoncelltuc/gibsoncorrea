@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Duas palavras transformaram um empresário de Nova York numa estrela da televisão mundial: você está demitido.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: vira (up) -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 2004
 - Funcao na historia: GANCHO
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Toda semana, as equipes tinham uma tarefa de negócios, como vender limonada na rua ou criar uma propaganda.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: thump@40
-- Efeito + som nas palavras-chave: vender -> stars + som de sino
+- Efeito + som nas palavras-chave: vender -> stars + som de sino; encena: negocio (reach) -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: No fim, a equipe perdedora ia para a sala de reunião, e alguém tinha que ir embora.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: perde (facepalm) -> acao + som de efeito; encena: sai -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -58,7 +58,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b6  (~5.5 s)
 - Narracao: A final da primeira temporada foi vista por cerca de vinte e oito milhões de americanos.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: ding@20, ding@60
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20, stars@60
@@ -67,9 +67,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b7  (~5.9 s)
 - Narracao: O vencedor, Bill Rancic, ganhou o emprego, com salário de duzentos e cinquenta mil dólares por ano.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: ganhou -> stars + som de sino
+- Efeito + som nas palavras-chave: ganhou -> stars + som de sino; encena: vence (up) -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -85,9 +85,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b9  (~7.2 s)
 - Narracao: Trump apresentou o programa por mais de dez anos, e só saiu em dois mil e quinze, quando entrou na política.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: fala (point) -> acao + som de efeito; encena: sai -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

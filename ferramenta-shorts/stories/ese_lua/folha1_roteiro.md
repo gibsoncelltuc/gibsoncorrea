@@ -13,7 +13,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b1  (~4.8 s)
 - Narracao: A primeira mudança seria a escuridão. Noite de lua cheia, preta como uma caverna.
-- Som ambiente: sea
+- Som ambiente: birds
 - Efeitos sonoros marcados: thump@30, sting@50
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: puff@30, ring@50
@@ -31,9 +31,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b3  (~5.2 s)
 - Narracao: Sem ela, as marés perderiam mais da metade da força. Só o Sol continuaria puxando.
-- Som ambiente: sea
+- Som ambiente: birds
 - Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: perde (facepalm) -> acao + som de efeito; encena: empurra (push) -> acao + som de efeito
 - Efeito visual marcado: ring@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b5  (~2.8 s)
 - Narracao: O mundo inteiro olharia para cima, sem acreditar.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: cannon@30, thump@50
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: burst@30, puff@50
@@ -58,16 +58,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b6  (~6.2 s)
 - Narracao: Acontece que o pior viria devagar. A Lua funciona como um peso que mantém a Terra girando firme.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@20, ding@50
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: vira (up) -> acao + som de efeito
 - Efeito visual marcado: ring@20, stars@50
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
 ## Cena b7  (~6.2 s)
 - Narracao: Sem ela, em milhões de anos, o eixo do planeta iria balançar, e as estações podiam ficar extremas.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -76,7 +76,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b8  (~6.2 s)
 - Narracao: E os dias parariam de ficar mais compridos, porque é a Lua que freia a Terra, bem devagar.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@40
@@ -85,9 +85,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b9  (~4.8 s)
 - Narracao: Boa notícia: ela não vai embora. Só se afasta uns quatro centímetros por ano.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: sai -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: OBRIGADO, LUA
 - Funcao na historia: GRANDE MOMENTO

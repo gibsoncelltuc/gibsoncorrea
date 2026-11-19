@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - A bala atravessou o convés, e acertou em cheio a chaleira de sopa do c...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): COZ (variante 0, expressao scared); AUS (variante 0, expressao surprised)
@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - O capitão austríaco olhou para a sopa derramada, e se rendeu na mesma ...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): GEN (variante 0, expressao scared, segura flag); AUS (variante 0, expressao nervous); COZ (variante 0, expressao cry) | multidao: 12 de GEN/AUS/COZ
@@ -83,11 +83,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - O imperador desistiu do rio. Em troca, a Holanda pagou uma indenização...
-- Cenario: interior pedra | luz: day | clima: limpo
+- Cenario: interior pedra | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): IMP (variante 0, expressao sad); HOL (variante 0, expressao smug, segura money)
-- Animacao: - | interacao: entregar
+- Animacao: encena | interacao: entregar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): holanda, imperador, indenizacao
 - RISCOS: nenhum
@@ -101,6 +101,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/kettle
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): almoco
 - RISCOS: nenhum
+
+## PARA O BLENDER (objetos 3D deste video)
+Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito no Blender; a ferramenta so' poe em cena, pinta o contorno e anima. Nada de objeto "quadradao": use `blender/formas.py` (cil, bola, torno, tubo, arco, caixa com chanfro).
+
+Objeto | Cenas | Situacao | O que fazer
+---|---|---|---
+kit/kettle | b0, b6, b7, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+war/flagpole | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+cannon | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+
 
 ## Video inteiro
 - Objeto heroi: kit/kettle | grandes momentos: b5, b7 | planos abertos: 3 | mistura: close 8% | medio 69% | aberto 16% | detalhe 8%

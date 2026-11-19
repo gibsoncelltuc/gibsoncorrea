@@ -170,3 +170,10 @@ Quadrado só o que é quadrado de verdade: placa, casa, caixote, mesa, livro. To
 - Objeto heroi: brilho de estrelinhas quando entra em cena; produto que nasce no processo sobe girando na altura do peito.
 - Lutador/boxeador: "profissao": "lutador" ou "boxeador" (sem camisa, short colorido com faixa, luvas de boxe, bota). Cores: "trunks", "gloves", "boots". Juiz: camisa branca.
 - Famosos: Trump com topete ("swoop": true), Bukele com bone virado para tras ("capBack": true) - ja aplicado nos roteiros. Copie de FIGURINOS_FAMOSOS.md.
+
+## FERRAMENTA v4 (19/11 noite) — pendencias resolvidas
+- Vegetacao/flores/chao da regiao e da epoca (automatico): oliveira/cipreste/lavanda (Mediterraneo), cerejeira/bambu (Japao/China), acacia/baoba (Africa), bananeira/hibisco (tropical), cacto (Mexico/deserto), pinheiro/betula (frio), tulipas (Holanda), girassol (pradaria). Rua moderna = asfalto com faixa e calcada; rua antiga = pedra/terra. Desligar: "vegetacao": false / "asfalto": false.
+- Marco do lugar exato com TRAVA DE EPOCA (so aparece se ja existia): + Farol de Alexandria, Notre-Dame, Versalhes, Leao de Waterloo, ONU, Casa das Maravilhas (Zanzibar), Torre Ghirlandina (Modena), Forte de San Juan de Ulua (Veracruz), Trump Tower, vulcao (El Salvador), torre da Starbase. Para fixar: "marco": "kit/marco_..." no topo do roteiro.
+- Encenacao ampliada: cortar arvore, votar, quebrar/rachar, desabar, pensar, protestar, explicar/apontar, olhar, ir embora (sai andando), cair no chao, dormir, sentar, raspar a cabeca, lutar/golpe, ser preso, escalar, espetar, jogar bola; "entraram escondidos" -> chega andando; "as luzes se apagaram" -> noite.
+- Nada na frente de personagem (fogueira, barril, caixa vao para o lado); poeira/fumaca da palavra-chave sai nos pes.
+- "pegou a espingarda/fuzil" -> arma na mao, aponta e o clarao sai do cano.

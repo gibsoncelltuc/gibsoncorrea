@@ -4,11 +4,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - El Salvador construiu uma prisão tão grande que virou notícia no mundo...
 - Cenario: outback | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): BUK (variante 0, expressao stern); REP (variante 0, expressao surprised, segura paper)
 - Animacao: conversar | interacao: aproxima-se
-- Objetos/modelos: kit/prison
+- Objetos/modelos: kit/prison, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): prisao
 - RISCOS: nenhum
 
@@ -18,16 +18,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao surprised); POV (variante 1, expressao nervous) | multidao: 6 de POV
 - Animacao: reagir
-- Objetos/modelos: kit/prison
+- Objetos/modelos: kit/prison, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois
 - RISCOS: nenhum
 
 ## Cena b2 - Por anos, El Salvador teve uma das maiores taxas de assassinato do mun...
-- Cenario: outback | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): REP (variante 0, expressao worried, segura paper); POV (variante 0, expressao scared) | multidao: 10 de POV
-- Animacao: discutir
+- Cenario: interior pedra | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (2): REP (variante 0, expressao worried, segura paper); POV (variante 0, expressao scared)
+- Animacao: discutir | interacao: discutir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): assassinato, gangues, maiores
 - RISCOS: nenhum
@@ -43,32 +43,32 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Para guardar tanta gente, ergueram o Centro de Confinamento do Terrori...
-- Cenario: outback | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): GUA (variante 0, expressao stern); GUA (variante 1, expressao stern); GUA (variante 2, expressao angry) | multidao: 16 de GUA
-- Animacao: - | batalha encenada
-- Objetos/modelos: kit/prison
+- Animacao: encena | batalha encenada
+- Objetos/modelos: kit/prison, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): centro, confinamento, terrorismo, vagas
 - RISCOS: nenhum
 
 ## Cena b5 - Muralhas altas, cercas elétricas e torres de vigia por todos os lados.
-- Cenario: outback | luz: day | clima: limpo
-- Camera: low = camera baixa, dramatica (virada) + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Cenario: mountain | luz: day | clima: limpo
+- Camera: low = camera baixa, dramatica (virada)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): GUA (variante 0, expressao stern)
 - Animacao: conversar
-- Objetos/modelos: kit/prison, buildings/castle_tower
+- Objetos/modelos: kit/prison, kit/volcano, buildings/castle_tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lados, vigia
 - RISCOS: nenhum
 
 ## Cena b6 - Acontece que, nos anos seguintes, o número de assassinatos no país des...
-- Cenario: outback | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): REP (variante 0, expressao surprised, segura paper); BUK (variante 0, expressao smug)
 - Animacao: conversar | interacao: avanca e o outro recua
-- Objetos/modelos: -
+- Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): assassinatos, numero
 - RISCOS: nenhum
 
@@ -77,8 +77,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): REP (variante 0, expressao suspicious); POV (variante 0, expressao worried)
-- Animacao: discutir | interacao: discutir
-- Objetos/modelos: -
+- Animacao: discutir | interacao: vai ate o outro
+- Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): direitos
 - RISCOS: nenhum
 
@@ -87,7 +87,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): BUK (variante 0, expressao stern); REP (variante 0, expressao nervous, segura paper)
-- Animacao: discutir | interacao: vai ate o outro
+- Animacao: discutir | interacao: cochichar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): governo, maioria, populacao, ruas
 - RISCOS: nenhum
@@ -98,7 +98,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao surprised); POV (variante 1, expressao grin); POV (variante 2, expressao worried) | multidao: 18 de POV
 - Animacao: - | batalha encenada
-- Objetos/modelos: kit/prison
+- Objetos/modelos: kit/prison, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): excesso, prisao, seguranca
 - RISCOS: nenhum
 
@@ -108,7 +108,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): BUK (variante 0, expressao stern)
 - Animacao: conversar
-- Objetos/modelos: kit/prison
+- Objetos/modelos: kit/prison, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): modelo
 - RISCOS: nenhum
 
@@ -118,15 +118,18 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/prison | b0, b1, b4, b5, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/volcano | b0, b1, b4, b5, b6, b7, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/castle_tower | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/prison | grandes momentos: b4, b9 | planos abertos: 4 | mistura: close 20% | medio 53% | aberto 23% | detalhe 4%
-- Interacoes: b0 aproxima-se, b3 entregar, b6 avanca e o outro recua, b7 discutir, b8 vai ate o outro
-- RISCOS GERAIS: nenhum
+- Objeto heroi: kit/prison | grandes momentos: b4, b9 | planos abertos: 3 | mistura: close 20% | medio 67% | aberto 13% | detalhe 0%
+- Interacoes: b0 aproxima-se, b2 discutir, b3 entregar, b6 avanca e o outro recua, b7 vai ate o outro, b8 cochichar
+- RISCOS GERAIS: 
+  - objeto heroi (kit/prison) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: objeto heroi (kit/prison) sem close de camera
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh cecot2023 bN bM` (so essas cenas).

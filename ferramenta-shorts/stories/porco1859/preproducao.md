@@ -6,8 +6,8 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | countryside | two | 2 | reagir, INTERAGEM: o outro se aproxima, alguem chega andando | nature/picket_fence, nature/haybale, pig | pitchfork | -
 b1 | countryside | reveal | 10 | parados (so fala e pisca) | - | - | -
-b2 | countryside | two | 1 | usa o objeto da mao | nature/flowerbed, nature/picket_fence, nature/scarecrow, tools/wheelbarrow, buildings/barn, nature/haybale, pig | pitchfork | -
-b3 | countryside | two | 1 | conversar | nature/picket_fence, nature/haybale, buildings/house_small, nature/tree_oak, pig | - | -
+b2 | countryside | two | 1 | encena | nature/flowerbed, nature/picket_fence, nature/scarecrow, tools/wheelbarrow, buildings/barn, nature/haybale, pig | pitchfork | -
+b3 | countryside | two | 1 | atira | nature/picket_fence, nature/haybale, buildings/house_small, nature/tree_oak, pig | - | -
 b4 | interior madeira | two | 2 | conversar, INTERAGEM: entregar | nature/picket_fence, nature/haybale, tools/wheelbarrow | money | -
 b5 | mountain | two | 2 | discutir, INTERAGEM: discutir | nature/picket_fence | money | -
 b6 | harbor | group | 18 | discutir, INTERAGEM: empurrar | buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow | - | -

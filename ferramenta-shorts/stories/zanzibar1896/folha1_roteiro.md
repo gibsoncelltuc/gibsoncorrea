@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: palace | 1
 - Narracao: O sultão morreu de repente, e um primo dele correu para o palácio, e se sentou no trono sem pedir licença.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; correu -> dust + som de impacto
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; correu -> dust + som de impacto; encena: corre -> acao + som de efeito; encena: senta -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: palace | 1
 - Narracao: O novo sultão juntou quase três mil homens, alguns canhões velhos, e se trancou lá dentro.
 - Som ambiente: birds | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160
-- Efeito + som nas palavras-chave: canhões -> burst + som de tiro/explosao
+- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; canhões -> burst + som de tiro/explosao; explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 3.000
 - Funcao na historia: GRANDE MOMENTO
@@ -58,9 +58,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: palace | 1
 
 ## Cena b6  (~7.6 s)
 - Narracao: Acontece que, às nove e dois, os navios ingleses abriram fogo. O palácio de madeira começou a desabar, e a pegar fogo.
-- Som ambiente: birds | batalha: tiros e gritos a cena inteira
+- Som ambiente: sea | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160, gun@164, gun@168, gun@176, gun@180, gun@184, gun@188, gun@196, gun@200, gun@204
-- Efeito + som nas palavras-chave: fogo -> burst + som de tiro/explosao; fogo -> burst + som de tiro/explosao
+- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; fogo -> burst + som de tiro/explosao; fogo -> burst + som de tiro/explosao
 - Efeito visual marcado: -
 - Texto na tela: 9:02
 - Funcao na historia: GRANDE MOMENTO
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: palace | 1
 - Narracao: O sultão fugiu pela porta dos fundos, e foi pedir abrigo no consulado da Alemanha.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: fugiu -> dust + som de impacto
+- Efeito + som nas palavras-chave: fugiu -> dust + som de impacto; encena: corre -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: palace | 1
 - Narracao: Às nove e quarenta, a bandeira do palácio caiu, e os canhões pararam.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
-- Efeito + som nas palavras-chave: caiu -> dust + som de impacto; canhões -> burst + som de tiro/explosao
+- Efeito + som nas palavras-chave: caiu -> dust + som de impacto; canhões -> burst + som de tiro/explosao; explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
 - Efeito visual marcado: dust@40
 - Texto na tela: 9:40
 - Funcao na historia: desenvolvimento

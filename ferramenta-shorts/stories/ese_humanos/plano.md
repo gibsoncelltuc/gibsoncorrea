@@ -8,10 +8,10 @@ b2 | two | noite  | - | - | -
 b3 | two | -  | animais | - | -
 b4 | low | -  | objeto na mao | - | -
 b5 | crowd | -  | batalha aberta com tiros, tropa, animais, placa: 20 ANOS | - | -
-b6 | low | -  | - | - | -
-b7 | two | -  | objeto na mao | - | -
-b8 | two | -  | - | - | -
-b9 | orbit | -  | batalha aberta com tiros, tropa, animais, placa: NATUREZA | - | -
+b6 | low | -  | - | encena: desaba (acao + som de efeito) | -
+b7 | two | -  | objeto na mao | encena: constroi (hammer) (acao + som de efeito) | -
+b8 | two | -  | interior | - | -
+b9 | orbit | -  | batalha aberta com tiros, tropa, animais, placa: NATUREZA | encena: constroi (hammer) (acao + som de efeito) | -
 b10 | close | -  | - | - | -
 
 Mistura de planos: close 11% | medio 76% | aberto 9% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)

@@ -1,0 +1,103 @@
+{
+ "title": "Teste do Modo de Acao",
+ "serie": "Teste",
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "set": "harbor",
+ "ano": 1812,
+ "outfits": {
+  "ING": {
+   "pais": "inglaterra",
+   "profissao": "soldado",
+   "jacket": "#b8282c",
+   "pants": "#ece8dc",
+   "boots": "#2a2218",
+   "hat": "shako",
+   "rifle": true
+  },
+  "FRA": {
+   "pais": "franca",
+   "profissao": "soldado",
+   "jacket": "#2a3a7a",
+   "pants": "#ece8dc",
+   "boots": "#2a2218",
+   "hat": "shako",
+   "rifle": true
+  },
+  "GEI": {
+   "pais": "inglaterra",
+   "profissao": "general",
+   "jacket": "#b8282c",
+   "pants": "#ece8dc",
+   "boots": "#2a2218",
+   "hat": "bicorne"
+  },
+  "GEF": {
+   "pais": "franca",
+   "profissao": "general",
+   "jacket": "#2a3a7a",
+   "pants": "#ece8dc",
+   "boots": "#2a2218",
+   "hat": "bicorne"
+  }
+ },
+ "beats": [
+  {
+   "say": "Em mil oitocentos e doze, uma batalha estranha aconteceu na costa de Portugal.",
+   "who": [
+    "GEI:0:stern",
+    "GEF:0:stern"
+   ]
+  },
+  {
+   "say": "Os navios ingleses chegaram na praia, e o batalhão desembarcou na areia.",
+   "who": [
+    "ING:0:stern",
+    "ING:1:stern"
+   ]
+  },
+  {
+   "say": "Mas o batalhão francês do general Dupont já estava esperando atrás das dunas.",
+   "who": [
+    "FRA:0:stern",
+    "FRA:1:smug"
+   ]
+  },
+  {
+   "say": "Começou a batalha. Os dois exércitos avançaram um contra o outro, com tiros, canhões e explosões.",
+   "who": [
+    "ING:0:shout",
+    "FRA:0:angry"
+   ]
+  },
+  {
+   "say": "Uma bomba explodiu no meio da praia, e soldados voaram pelos ares.",
+   "who": [
+    "ING:1:shock",
+    "FRA:1:scared"
+   ]
+  },
+  {
+   "say": "No fim da tarde, os dois generais decidiram conversar no meio do campo.",
+   "who": [
+    "GEI:0:stern",
+    "GEF:0:suspicious"
+   ]
+  },
+  {
+   "say": "Depois de horas negociando, eles apertaram as mãos e fizeram as pazes.",
+   "who": [
+    "GEI:0:smile",
+    "GEF:0:smile"
+   ]
+  },
+  {
+   "say": "Os soldados comemoraram, e cada exército voltou para casa.",
+   "who": [
+    "ING:0:laugh",
+    "FRA:0:laugh"
+   ]
+  }
+ ],
+ "heroi": "ship"
+}

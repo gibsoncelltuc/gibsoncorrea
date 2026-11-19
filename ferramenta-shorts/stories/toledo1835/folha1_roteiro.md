@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Dois estados americanos foram à guerra, e o único ferido levou uma canivetada.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: espeta (punch) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1835
 - Funcao na historia: GANCHO
@@ -24,25 +24,25 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: O governador de Michigan tinha vinte e três anos. "Mandem a milícia", ordenou ele.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: fala (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b3  (~6.2 s)
 - Narracao: Ohio respondeu com a própria milícia, e as duas tropas chegaram à beira do rio, frente a frente.
-- Som ambiente: birds
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: cavalaria: 2 soldados a cavalo (OHI) -> acao + som de efeito; chegaram -> dust + som de impacto
+- Som ambiente: birds | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160, gun@164, gun@168, gun@176, gun@180
+- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (OHI) -> acao + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito; chegaram -> dust + som de impacto
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b4  (~4.1 s)
 - Narracao: Houve gritos, ameaças, e tiros. Todos para o alto. Ninguém acertou ninguém.
 - Som ambiente: birds | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116
-- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (OHI) -> acao + som de efeito; tiros -> burst + som de tiro/explosao
+- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (OHI) -> acao + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito; tiros -> burst + som de tiro/explosao
 - Efeito visual marcado: -
 - Texto na tela: PARA O ALTO
 - Funcao na historia: GRANDE MOMENTO
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Acontece que a única baixa foi um xerife de Michigan, espetado na perna por um rapaz com um canivete.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@60
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: espeta (punch) -> acao + som de efeito
 - Efeito visual marcado: stars@60
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: O presidente mandou os dois pararem, e o Congresso ofereceu um acordo. Ninguém queria ceder.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: pedido: plano medio dos dois, um pede ao outro -> shot + som de efeito
+- Efeito + som nas palavras-chave: pedido: plano medio dos dois, um pede ao outro -> shot + som de efeito; encena: fala (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: ACORDO
 - Funcao na historia: desenvolvimento
@@ -76,18 +76,18 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b8  (~3.8 s)
 - Narracao: Só que debaixo daquela floresta havia cobre e ferro. Uma fortuna.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: sting@10, thump@40, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: fortuna -> stars + som de sino
-- Efeito visual marcado: ring@12, dust@40
+- Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: VIRADA
 
 ## Cena b9  (~3.8 s)
 - Narracao: No fim das contas, Michigan perdeu a guerra, e ficou rico.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; perdeu -> puff + som de baque
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; perdeu -> puff + som de baque; encena: perde (facepalm) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

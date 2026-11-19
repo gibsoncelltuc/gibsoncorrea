@@ -7,13 +7,13 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | street | two | 2 | conversar, INTERAGEM: aproxima-se | kit/globe, buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b1 | street | reveal | 8 | parados (so fala e pisca) | - | - | -
 b2 | street | two | 2 | reagir, INTERAGEM: entregar | buildings/apartment, buildings/house_two, nature/lamppost | - | -
-b3 | street | two | 1 | conversar | dog, cat | - | -
-b4 | street | low | 1 | usa o objeto da mao | - | paper | -
-b5 | street | crowd | 2 | reagir, batalha | nature/tree_oak, nature/tree_pine, nature/bush, deer, wolf | - | -
-b6 | street | low | 1 | conversar | - | - | -
-b7 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua | - | paper | -
-b8 | street | two | 2 | conversar, INTERAGEM: cochichar | - | - | -
-b9 | street | orbit | 2 | batalha | nature/tree_oak, nature/tree_birch, deer, rabbit, fox | - | -
+b3 | harbor | two | 1 | conversar | dog, cat | - | -
+b4 | street | low | 1 | encena | - | paper | -
+b5 | jungle | crowd | 2 | reagir, batalha | nature/tree_oak, nature/tree_pine, nature/bush, deer, wolf | - | -
+b6 | harbor | low | 1 | conversar | - | - | -
+b7 | outback | two | 2 | conversar, INTERAGEM: avanca e o outro recua | - | paper | -
+b8 | interior loja | two | 2 | conversar, INTERAGEM: cochichar | - | - | -
+b9 | harbor | orbit | 2 | encena, batalha | nature/tree_oak, nature/tree_birch, deer, rabbit, fox | - | -
 b10 | street | close | 1 | conversar | kit/globe | - | -
 
 OBJETO HEROI: kit/globe - aparece em 2 cena(s), close nele em 1

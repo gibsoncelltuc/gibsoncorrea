@@ -4,14 +4,14 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | street | two | 2 | conversar, INTERAGEM: aproxima-se | kit/cybertruck | - | -
-b1 | street | reveal | 9 | parados (so fala e pisca) | kit/cybertruck | - | -
-b2 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/steel_ball, kit/cybertruck | ball | -
-b3 | street | crowd | 12 | reagir, batalha | kit/cybertruck | - | -
-b4 | street | two | 2 | reagir, INTERAGEM: o outro se aproxima | kit/cybertruck | - | -
-b5 | street | close | 1 | conversar | kit/steel_ball | - | -
-b6 | street | crowd | 10 | comemorar, batalha | kit/globe | - | -
-b7 | street | two | 2 | conversar, INTERAGEM: insiste | kit/cybertruck, kit/steel_ball | - | -
+b0 | street | two | 2 | conversar, INTERAGEM: aproxima-se | kit/cybertruck, kit/marco_hollywood | - | -
+b1 | harbor | reveal | 9 | parados (so fala e pisca) | kit/cybertruck, kit/marco_hollywood | - | -
+b2 | harbor | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/steel_ball, kit/cybertruck, kit/marco_hollywood | ball | -
+b3 | harbor | crowd | 32 | reagir, batalha | kit/cybertruck, kit/marco_hollywood | - | -
+b4 | harbor | two | 2 | reagir, INTERAGEM: o outro se aproxima | kit/cybertruck, kit/marco_hollywood | - | -
+b5 | street | close | 1 | conversar | kit/steel_ball, kit/marco_hollywood | - | -
+b6 | stadium | crowd | 32 | comemorar, batalha | kit/globe | - | -
+b7 | street | two | 2 | conversar, INTERAGEM: insiste | kit/cybertruck, kit/steel_ball, kit/marco_hollywood | - | -
 
 OBJETO HEROI: kit/steel_ball - aparece em 3 cena(s), close nele em 2
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b6

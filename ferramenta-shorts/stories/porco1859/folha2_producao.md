@@ -27,7 +27,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): FAZ (variante 0, expressao angry, segura pitchfork)
-- Animacao: -
+- Animacao: encena
 - Objetos/modelos: nature/flowerbed, nature/picket_fence, nature/scarecrow, tools/wheelbarrow, buildings/barn, nature/haybale, pig
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): batatas, fazendeiro, horta, porco
 - RISCOS: nenhum
@@ -37,7 +37,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): FAZ (variante 0, expressao angry)
-- Animacao: conversar
+- Animacao: atira
 - Objetos/modelos: nature/picket_fence, nature/haybale, buildings/house_small, nature/tree_oak, pig
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): espingarda, porco, vizinho
 - RISCOS: nenhum

@@ -181,5 +181,74 @@ def pipoca():
     escala(3.2)
     fim(.01)
 E.update(chocolate=chocolate, egg=ovo, popcorn=pipoca)
+
+# ===== 3a leva (19/11): lugar exato de cada roteiro =====
+def farol_alexandria():
+    novo('marco_alexandria')   # Farol de Alexandria (Egito antigo): base quadrada, meio octogonal, topo redondo com fogo
+    caixa((0, 1, 0), (40, 2, 40), '#d8c8a0'); caixa((0, 16, 0), (18, 28, 18), '#e8dcc0', afina=.86); caixa((0, 30.6, 0), (16, 1.2, 16), '#d0c098')
+    cil((0, 38, 0), 6.5, 14, '#e8dcc0', raio_topo=5.5, lados=8); cil((0, 45.6, 0), 6.2, 1.2, '#d0c098', lados=8)
+    cil((0, 50, 0), 3.4, 8, '#e8dcc0', lados=16); torno((0, 54, 0), [(3.6, 0), (3.6, .6), (0, 2.6)], '#d0c098', lados=16)
+    luz(); bola((0, 57.6, 0), 1.6, '#ffb03a', esc=(1, 1.4, 1)); luz(False); cil((0, 61, 0), .3, 3, '#c9a24a')
+    bola((0, -1, 18), 34, '#3a7ab0', esc=(1.6, .05, .4)); fim(.02)
+def notredame():
+    novo('marco_notredame')    # Notre-Dame de Paris: fachada com 2 torres quadradas, rosacea, nave atras com agulha
+    caixa((0, 14, 0), (34, 28, 10), '#d8cfb8')
+    for x in (-11.5, 11.5): caixa((x, 34, 0), (11, 12, 10), '#d8cfb8'); caixa((x, 40.4, 0), (11.6, .8, 10.6), '#c8bea6')
+    cil((0, 24, 5.1), 5, .4, '#5a6aa0', lados=24, rot=(m.pi / 2, 0, 0)); cil((0, 24, 5.2), 3.2, .4, '#c8302a', lados=16, rot=(m.pi / 2, 0, 0))
+    for x in (-10, 0, 10): caixa((x, 5, 5.1), (6, 9, .3), '#4a3a2a', afina=.75)
+    caixa((0, 13, 5.1), (30, 1.4, .4), '#c8bea6')
+    caixa((0, 16, -26), (20, 22, 44), '#d0c6ae'); caixa((0, 30, -26), (21, 6, 44.6), '#5a6a72', afina=.08)
+    cil((0, 44, -30), 1.2, 22, '#5a6a72', raio_topo=.05, lados=8); fim(.02)
+def versalhes():
+    novo('marco_versalhes')    # Palacio de Versalhes: fachada longa clara, telhado azul-ardosia, dourado no portao
+    caixa((0, 9, 0), (90, 18, 14), '#e8dcc0'); caixa((0, 19.5, 0), (91, 3, 14.6), '#5a6a80', afina=.7)
+    for x in (-38, 38): caixa((x, 9, 14), (14, 18, 16), '#e8dcc0'); caixa((x, 19.5, 14), (14.6, 3, 16.6), '#5a6a80', afina=.7)
+    for i in range(-20, 21):
+        caixa((i * 2.1, 8, 7.05), (1.1, 4, .1), '#5a6aa0')
+    for i in range(-14, 15): cil((i * 2.4, 1.2, 30), .08, 2.4, '#c9a24a', lados=6)
+    caixa((0, 2.6, 30), (70, .3, .2), '#c9a24a'); fim(.02)
+def waterloo():
+    novo('marco_waterloo')     # Monte do Leao de Waterloo: colina conica de grama com leao no topo
+    cil((0, 20, 0), 40, 40, '#6aa04a', raio_topo=5, lados=28); cil((0, 41, 0), 3, 2, '#bdb5a2')
+    bola((0, 43.4, 0), 1.6, '#4a4a52', esc=(1.8, 1, .9)); bola((1.9, 44.6, 0), 1.0, '#4a4a52'); bola((2.4, 44.8, 0), .9, '#3a3a42', esc=(.6, 1.2, 1.2))
+    for x in (-1.2, 1.0): cil((x, 42.4, 0), .3, 1.2, '#4a4a52')
+    fim(.02)
+def onu():
+    novo('marco_onu')          # Sede da ONU em Nova York: laje alta de vidro esverdeado + cupula baixa da Assembleia
+    caixa((0, 77, 0), (22, 154, 6), '#7aa8a8'); caixa((0, 77, 3.05), (22.2, 154, .1), '#8ab8b8')
+    for y in range(4, 154, 4): caixa((0, y, 3.12), (22, .25, .05), '#5a7a7a')
+    caixa((30, 8, 6), (40, 16, 26), '#e8e4d8', afina=.85); torno((30, 16, 6), [(6, 0), (0, 3)], '#9aa2a8', lados=20)
+    for i in range(8): cil((-26 + i * 4, 9, 22), .08, 18, '#9a9a9a', lados=6)
+    fim(.02)
+def zanzibar_palacio():
+    novo('marco_zanzibar')     # Casa das Maravilhas (Zanzibar): palacio branco de varandas em volta e torre do relogio
+    caixa((0, 12, 0), (40, 24, 30), '#f2efe6')
+    for y in (8, 16, 24):
+        caixa((0, y, 15.6), (42, .6, 3), '#e2ded2')
+        for i in range(-10, 11): cil((i * 2, y - 4, 16.8), .35, 8, '#f2efe6', lados=8)
+    caixa((0, 31, 0), (8, 14, 8), '#f2efe6'); cil((0, 33, 4.1), 2.4, .3, '#f4f4f2', rot=(m.pi / 2, 0, 0)); cil((0, 33, 4.2), .3, .4, '#2a2a30', rot=(m.pi / 2, 0, 0))
+    caixa((0, 39, 0), (9, 2, 9), '#c8302a', afina=.2); fim(.02)
+def ghirlandina():
+    novo('marco_ghirlandina')  # Torre Ghirlandina (Modena, Italia): campanario romanico alto com agulha octogonal
+    caixa((0, 22, 0), (10, 44, 10), '#e0d4bc')
+    for y in range(6, 44, 7): caixa((0, y, 5.06), (2.4, 3, .1), '#4a3a2a', afina=.8)
+    cil((0, 47, 0), 4.8, 6, '#d8ccb2', lados=8); cil((0, 58, 0), 4.4, 16, '#d0c4aa', raio_topo=.3, lados=8)
+    caixa((-14, 10, -8), (20, 20, 30), '#d8ccb2'); caixa((-14, 21.5, -8), (21, 3, 31), '#a85a3a', afina=.2); fim(.02)
+def ulua():
+    novo('marco_ulua')         # Forte de San Juan de Ulua (Veracruz, Mexico): fortaleza de pedra no mar
+    caixa((0, 6, 0), (60, 12, 40), '#9a9488')
+    for x in (-30, 30):
+        for z in (-20, 20): cil((x, 7, z), 6, 14, '#a8a294', lados=6)
+    for i in range(-14, 15): caixa((i * 2, 12.8, 20.2), (1.1, 1.6, .5), '#9a9488')
+    caixa((0, 16, 0), (14, 8, 10), '#b0aa9c'); cil((0, 23, 0), .2, 6, '#7a7a7a'); pano((.2, 26, 0), 3.6, 2.2, ['#2a8a4a', '#f4f4f2', '#c8302a'])
+    bola((0, -1, 16), 50, '#3a7ab0', esc=(1.6, .04, .6)); fim(.02)
+def trump_tower():
+    novo('marco_trumptower')   # Trump Tower (Nova York): torre de vidro escuro em degraus, letreiro dourado
+    for k, (w, h) in enumerate(((26, 40), (22, 40), (18, 40), (14, 40))):
+        caixa((-k * 2, 20 + k * 40, -k * 2), (w, 40, w), '#2a2e36')
+    for y in range(3, 160, 3): caixa((0, y, 13.05), (26, .3, .1), '#4a5262')
+    caixa((0, 12, 13.2), (16, 2.2, .3), '#c9a24a'); fim(.02)
+
+E.update(alexandria=farol_alexandria, notredame=notredame, versalhes=versalhes, waterloo=waterloo, onu=onu, zanzibar=zanzibar_palacio, ghirlandina=ghirlandina, ulua=ulua, trumptower=trump_tower)
 alvo = sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else list(E)
 for k in alvo: E[k]()

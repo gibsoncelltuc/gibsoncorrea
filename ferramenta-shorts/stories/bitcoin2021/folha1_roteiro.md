@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O país era El Salvador, na América Central, e a ideia foi do presidente Nayib Bukele.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: pensa (think) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: EL SALVADOR
 - Funcao na historia: desenvolvimento
@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b3  (~5.2 s)
 - Narracao: E passou a valer em sete de setembro de dois mil e vinte e um.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@12, dust@40
@@ -40,9 +40,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b4  (~3.1 s)
 - Narracao: Com isso, dava para pagar as compras com bitcoin.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: ding@3
-- Efeito + som nas palavras-chave: pagar -> stars + som de sino
+- Efeito + som nas palavras-chave: pagar -> stars + som de sino; encena: negocio (reach) -> acao + som de efeito
 - Efeito visual marcado: stars@3
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

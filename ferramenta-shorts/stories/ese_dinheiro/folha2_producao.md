@@ -3,27 +3,27 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/ese_dinheiro/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py ese_dinheiro` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - E se todo o dinheiro do mundo sumisse de uma vez? Nota, moeda, cartão ...
-- Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Cenario: interior loja | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): PRO (variante 0, expressao grin); POV (variante 0, expressao surprised)
 - Animacao: conversar | interacao: entregar
-- Objetos/modelos: kit/coin, buildings/house_two, nature/lamppost, nature/bench
+- Objetos/modelos: kit/coin
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): banco, dinheiro
 - RISCOS: nenhum
 
 ## Cena b1 - Primeira manhã: você chega na padaria e não tem como pagar o café.
 - Cenario: interior loja | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): PAD (variante 0, expressao shock); POV (variante 0, expressao nervous)
-- Animacao: reagir | interacao: discutir
+- Animacao: reagir | interacao: discutir | o ultimo personagem ENTRA andando
 - Objetos/modelos: kit/cake_table
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cafe, padaria
 - RISCOS: nenhum
 
 ## Cena b2 - A saída seria a mais antiga de todas: a troca. Uma galinha por uma ces...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): FAZ (variante 0, expressao grin); PAD (variante 0, expressao suspicious)
@@ -33,8 +33,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - Acontece que a troca tem um problema: o padeiro pode não querer galinh...
-- Cenario: street | luz: day | clima: limpo
-- Camera: low = camera baixa, dramatica (virada)
+- Cenario: interior madeira | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): PAD (variante 0, expressao angry); FAZ (variante 0, expressao shout)
 - Animacao: discutir | interacao: o outro se aproxima
@@ -47,23 +47,23 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao surprised); POV (variante 1, expressao grin) | multidao: 6 de POV
-- Animacao: -
+- Animacao: encena
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dinheiro, ilha, pacifico, povos
 - RISCOS: nenhum
 
 ## Cena b5 - Algumas eram tão pesadas que nunca saíam do lugar. Todo mundo só lembr...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): PRO (variante 0, expressao smug, segura paper); POV (variante 0, expressao surprised) | multidao: 10 de POV
+- Personagens principais (2): PRO (variante 0, expressao smug, segura paper); POV (variante 0, expressao surprised) | multidao: 30 de POV
 - Animacao: conversar | interacao: cochichar
 - Objetos/modelos: nature/rocks
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dono, lugar
 - RISCOS: nenhum
 
 ## Cena b6 - Em poucas semanas, as feiras de troca tomariam as praças.
-- Cenario: street | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao grin); POV (variante 1, expressao smile); PAD (variante 0, expressao grin) | multidao: 20 de POV
@@ -93,7 +93,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - Ou seja: dinheiro não é papel. É confiança entre as pessoas.
-- Cenario: street | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao laugh); POV (variante 1, expressao laugh); FAZ (variante 0, expressao grin) | multidao: 18 de POV
@@ -118,18 +118,16 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/coin | b0, b7, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/house_two | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/lamppost | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/bench | b0, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/cake_table | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 chicken | b2, b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/rocks | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/stall | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/fountain | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/bench | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/coin | grandes momentos: b6, b9 | planos abertos: 3 | mistura: close 31% | medio 48% | aberto 15% | detalhe 7%
+- Objeto heroi: kit/coin | grandes momentos: b6, b9 | planos abertos: 3 | mistura: close 20% | medio 63% | aberto 15% | detalhe 2%
 - Interacoes: b0 entregar, b1 discutir, b2 entregar, b3 o outro se aproxima, b5 cochichar, b7 vai ate o outro
 - RISCOS GERAIS: nenhum
 

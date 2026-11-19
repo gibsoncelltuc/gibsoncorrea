@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Uma grande fábrica de brinquedos fez o jogo: comprar e vender prédios, cassinos e hotéis, até ficar o mais rico.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: vender -> stars + som de sino
+- Efeito + som nas palavras-chave: vender -> stars + som de sino; encena: negocio (reach) -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Muita gente comprou só de presente, ou de curiosidade, e nunca tirou as peças da caixa.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
-- Efeito + som nas palavras-chave: comprou -> stars + som de sino
+- Efeito + som nas palavras-chave: comprou -> stars + som de sino; encena: negocio (reach) -> acao + som de efeito; encena: tira (lift) -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: A fábrica esperava vender dois milhões de jogos. Vendeu oitocentos mil. Foi considerado um fracasso.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: vender -> stars + som de sino; Vendeu -> stars + som de sino; fracasso -> puff + som de baque
+- Efeito + som nas palavras-chave: vender -> stars + som de sino; Vendeu -> stars + som de sino; fracasso -> puff + som de baque; encena: negocio (reach) -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: 800 MIL
 - Funcao na historia: GRANDE MOMENTO
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O jogo saiu das lojas, e ficou esquecido por anos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: sai -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

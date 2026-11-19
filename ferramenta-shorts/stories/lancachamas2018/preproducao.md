@@ -4,15 +4,15 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | street | two | 2 | conversar, INTERAGEM: aproxima-se | - | - | -
-b1 | street | reveal | 10 | conversar | kit/flamethrower | - | -
-b2 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/flamethrower | - | -
-b3 | street | crowd | 14 | conversar, batalha | kit/flamethrower | - | -
-b4 | street | wide | 8 | comemorar | kit/extinguisher | - | -
-b5 | street | group | 3 | conversar, INTERAGEM: o outro se aproxima | - | - | -
-b6 | street | crowd | 14 | reagir, batalha | nature/picket_fence | - | -
-b7 | street | two | 8 | conversar, INTERAGEM: insiste | kit/globe | - | -
-b8 | street | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/flamethrower, kit/extinguisher | - | -
+b0 | street | two | 2 | conversar, INTERAGEM: aproxima-se | kit/marco_hollywood | - | -
+b1 | countryside | reveal | 10 | conversar | kit/flamethrower, kit/marco_hollywood | - | -
+b2 | countryside | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/flamethrower, kit/marco_hollywood | - | -
+b3 | harbor | crowd | 14 | conversar, batalha | kit/flamethrower, kit/marco_hollywood | - | -
+b4 | harbor | wide | 8 | comemorar | kit/extinguisher, kit/marco_hollywood | - | -
+b5 | street | group | 3 | conversar, INTERAGEM: o outro se aproxima | kit/marco_hollywood | - | -
+b6 | street | crowd | 32 | reagir, batalha | kit/marco_hollywood, nature/picket_fence | - | -
+b7 | harbor | two | 8 | conversar, INTERAGEM: insiste | kit/globe, kit/marco_hollywood | - | -
+b8 | street | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/flamethrower, kit/extinguisher, kit/marco_hollywood | - | -
 
 OBJETO HEROI: kit/flamethrower - aparece em 4 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b6

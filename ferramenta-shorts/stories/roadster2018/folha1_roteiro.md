@@ -13,9 +13,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b1  (~5.5 s)
 - Narracao: Era um Roadster vermelho, e quem teve a ideia foi Elon Musk, o dono da SpaceX.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: pensa (think) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -31,36 +31,36 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b3  (~5.9 s)
 - Narracao: Como era só um teste, em vez de colocar peso de concreto, Musk resolveu mandar o Roadster.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: (rosto) determined -> expr + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b4  (~2.1 s)
 - Narracao: O foguete decolou com um estrondo!
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@10, thump@30, sting@50
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: voa (point) -> acao + som de efeito
 - Efeito visual marcado: whoosh@10, puff@30, ring@50
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b5  (~4.1 s)
 - Narracao: No banco do motorista foi sentado um boneco de astronauta, chamado Starman.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: senta -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b6  (~2.8 s)
 - Narracao: No painel, estava escrito: Não entre em pânico.
-- Som ambiente: sea | batalha: tiros e gritos a cena inteira
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: pânico -> dust + som de impacto
+- Efeito + som nas palavras-chave: (rosto) scared -> expr + som de efeito; pânico -> dust + som de impacto
 - Efeito visual marcado: -
 - Texto na tela: NÃO ENTRE EM PÂNICO
 - Funcao na historia: GRANDE MOMENTO
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: O Roadster saiu da órbita da Terra, e seguiu em órbita ao redor do Sol.
 - Som ambiente: sea
 - Efeitos sonoros marcados: ding@20
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: sai -> acao + som de efeito
 - Efeito visual marcado: stars@20
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

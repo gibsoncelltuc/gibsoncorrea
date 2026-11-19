@@ -6,14 +6,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: No começo de dois mil e dezoito, nos Estados Unidos, a Boring Company, a empresa de túneis de Elon Musk, começou a vender um produto.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: vender -> stars + som de sino
+- Efeito + som nas palavras-chave: vender -> stars + som de sino; encena: negocio (reach) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: ESTADOS UNIDOS
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~2.8 s)
 - Narracao: O nome dele era Não é um lança-chamas.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b2  (~2.1 s)
 - Narracao: O preço era de quinhentos dólares.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b3  (~6.2 s)
 - Narracao: O nome dizia que não era, mas o aparelho tinha cara de lança-chamas, e essa era a piada.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@12, dust@40
@@ -40,9 +40,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b4  (~3.4 s)
 - Narracao: Cada compra vinha com um extintor de incêndio de brinde.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: ding@4
-- Efeito + som nas palavras-chave: incêndio -> burst + som de tiro/explosao
+- Efeito + som nas palavras-chave: incêndio -> burst + som de tiro/explosao; encena: negocio (reach) -> acao + som de efeito; encena: pega (lift) -> acao + som de efeito
 - Efeito visual marcado: stars@4
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Foram vinte mil unidades à venda.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@3
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: negocio (reach) -> acao + som de efeito
 - Efeito visual marcado: stars@3
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,14 +60,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: E elas esgotaram em poucos dias, rendendo cerca de dez milhões de dólares.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@3
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: rende (up) -> acao + som de efeito
 - Efeito visual marcado: burst@3
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b7  (~2.4 s)
 - Narracao: A notícia se espalhou pelo mundo inteiro.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
