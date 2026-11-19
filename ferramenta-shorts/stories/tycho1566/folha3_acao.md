@@ -47,21 +47,21 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | discutir | OK |
 | 4 | - | ATUACAO | discutir | OK |
 
-## Cena b4 - 24.3s a 28.5s - 17 palavras - plano crowd
+## Cena b4 - 24.3s a 28.5s - 17 palavras - plano low
 > "Acontece que o primo acertou um golpe certeiro, e cortou fora um pedaço do nariz de Tycho."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | golpe (26.0s) | ACAO: golpe | soco + estouro | OK |
 | 2 | cortou (27.0s) | ACAO: corta | machado e toras + poeira | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | INTERACAO | empurrar | OK |
 
-## Cena b5 - 29.7s a 33.5s - 15 palavras - plano two
+## Cena b5 - 29.7s a 33.5s - 15 palavras - plano crowd
 > "Para esconder o buraco, ele passou a usar um nariz de metal, colado no rosto."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
 ## Cena b6 - 34.6s a 38.9s - 17 palavras - plano orbit
 > "Anos depois, o rei da Dinamarca deu a ele uma ilha inteira, só para estudar o céu."

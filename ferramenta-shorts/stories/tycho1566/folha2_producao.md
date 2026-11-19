@@ -44,20 +44,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - Acontece que o primo acertou um golpe certeiro, e cortou fora um pedaç...
 - Cenario: street | luz: noite | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): PAR (variante 0, expressao angry, segura sword); TYC (variante 0, expressao pained, segura sword) | multidao: 12 de POV
-- Animacao: encena | batalha encenada
+- Camera: low = camera baixa, dramatica (virada) + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (2): PAR (variante 0, expressao angry, segura sword); TYC (variante 0, expressao pained, segura sword)
+- Animacao: encena | interacao: empurrar
 - Objetos/modelos: kit/marco_rostock, kit/brass_nose
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): golpe, nariz, pedaco, primo, tycho
 - RISCOS: nenhum
 
 ## Cena b5 - Para esconder o buraco, ele passou a usar um nariz de metal, colado no...
 - Cenario: street | luz: dia | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (1): TYC (variante 0, expressao sad)
-- Animacao: conversar
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (1): TYC (variante 0, expressao sad) | multidao: 12 de POV
+- Animacao: - | batalha encenada
 - Objetos/modelos: kit/brass_nose, kit/marco_rostock
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): buraco, metal, nariz, rosto, usar
 - RISCOS: nenhum
@@ -126,8 +126,8 @@ kit/marco_uraniborg | b7 | pronto | conferir na folha de contato se le bem; se p
 
 
 ## Video inteiro
-- Objeto heroi: kit/brass_nose | grandes momentos: b4, b9 | planos abertos: 4 | mistura: close 13% | medio 62% | aberto 21% | detalhe 4%
-- Interacoes: b0 discutir, b2 avanca e o outro recua, b3 discutir, b8 entregar
+- Objeto heroi: kit/brass_nose | grandes momentos: b5, b9 | planos abertos: 4 | mistura: close 20% | medio 55% | aberto 21% | detalhe 4%
+- Interacoes: b0 discutir, b2 avanca e o outro recua, b3 discutir, b4 empurrar, b8 entregar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
