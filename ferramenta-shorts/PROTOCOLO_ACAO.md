@@ -78,6 +78,7 @@ A aprovacao vale so' para aquela versao das folhas; o render tambem confere isso
 `./aprovar_storyboard.sh <id>` so aprova com `stories/<id>/revisao_storyboard.md` feito DEPOIS do storyboard atual, com UMA linha por frase:
 `bN: OK - <o que aparece na tela nessa frase>` ou `bN: CORRIGIDO - <defeito> -> <correcao feita>`. Linha curta, sem citar a frase, ou defeito sem correcao = nao aprova.
 "Igual ao que ja conferi" NAO vale: storyboard novo = revisao nova. Achou defeito: corrija (ferramenta ou roteiro), gere de novo e revise de novo (REGRA MESTRA).
+GRADE DE ACOES: `stories/<id>/grade_acoes.jpg` (a fila gera junto com o storyboard; ou `./prechecar.sh <id> acoes`) tem 1 quadro no INSTANTE EXATO de cada acao da folha 3, com a palavra e a animacao escritas embaixo. Olhe quadro por quadro: a acao escrita esta acontecendo na tela? Se nao, corrija antes de aprovar. Sem grade atualizada a aprovacao e' recusada.
 O que procurar em CADA frase (defeitos reais achados em 19/11):
 - a acao da frase acontece? (cochilou = dormindo; morreu = cai; de joelhos = ajoelhado; atirou = arma + clarao; chegou = entra andando)
 - a acao aparece a tempo? (palavra no fim da frase: objeto/pose tem que aparecer antes)

@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 - Narracao: Não acharam turco nenhum. Acharam moradores vendendo aguardente.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: vendendo -> stars + som de sino; encena: olha (point) -> acao + som de efeito; encena: paga (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 - Narracao: Os turcos venceram sem dar um único tiro.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; venceram -> stars + som de sino; tiro -> burst + som de tiro/explosao; encena: vence (up) -> acao + som de efeito; encena: atira -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; venceram -> stars + som de sino; encena: vence (up) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: FOGO AMIGO
 - Funcao na historia: FECHO/PIADA FINAL

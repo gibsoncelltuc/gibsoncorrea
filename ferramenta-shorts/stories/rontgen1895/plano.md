@@ -13,7 +13,7 @@ b7 | close | -  | interior | encena: olha (point) (acao + som de efeito) | -
 b8 | crowd | -  | batalha aberta com tiros, tropa, placa: NOTÍCIA, objeto na mao | correu (dust + som de impacto); encena: corre (acao + som de efeito) | -
 b9 | two | -  | interior, placa: RAIO X, objeto na mao | - | -
 b10 | orbit | -  | batalha aberta com tiros, tropa, placa: NOBEL | ganhou (stars + som de sino); Prêmio (stars + som de sino); encena: vence (up) (acao + som de efeito) | -
-b11 | two | -  | tropa | encena: examina (think) (acao + som de efeito) | -
+b11 | two | -  | tropa | - | -
 
 Mistura de planos: close 11% | medio 77% | aberto 10% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 01 - A Batalha de Karánsebes
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 75 acoes catalogadas, 75 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 70 acoes catalogadas, 70 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 2.9s - 10 palavras - plano crowd
@@ -39,11 +39,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | acharam (14.6s) | ACAO: olha | aponta/olha | OK |
-| 2 | vendendo (17.7s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | vendendo (17.7s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 4 | - | INTERACAO | aproxima-se | OK |
-| 5 | - | ATUACAO | reagir | OK |
+| 1 | - | INTERACAO | aproxima-se | OK |
+| 2 | - | ATUACAO | reagir | OK |
 
 ## Cena b4 - 19.4s a 21.8s - 7 palavras - plano two
 > "Compraram tudo, beberam, e a festa começou."
@@ -138,10 +135,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | venceram (63.8s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | venceram (63.8s) | ACAO: vence | bracos para cima + brilho | OK |
-| 3 | tiro (65.1s) | EFEITO: burst | estouro/clarao + som | OK |
-| 4 | tiro (65.1s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 5 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 6 | - | INTERACAO | pular | OK |
-| 7 | - | ATUACAO | comemorar | OK |
-| 8 | - | PLACA | FOGO AMIGO | OK |
+| 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 4 | - | INTERACAO | pular | OK |
+| 5 | - | ATUACAO | comemorar | OK |
+| 6 | - | PLACA | FOGO AMIGO | OK |
 
