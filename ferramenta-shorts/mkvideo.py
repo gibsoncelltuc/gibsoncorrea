@@ -128,7 +128,7 @@ if REGIAO in _REG_N:
     if REGIAO not in ('holanda', 'europa'): _regmap['buildings/windmill'] = [_ks[0]]
 # ===== MARCOS DO LUGAR (19/11): a historia no Egito tem as piramides ao fundo, no Cabo Canaveral a plataforma de lancamento... =====
 _MARCOS = ((r'cabo canaveral|plataforma de lancamento|base de lancamento|kennedy space|falcon|foguete da spacex', 'kit/marco_canaveral', 16, -42, 1.0),
-           (r'starbase|boca chica|mechazilla', 'kit/tower', 18, -60, 4.0),
+           (r'starbase|boca chica|mechazilla|base de testes? da spacex', 'kit/tower', 18, -60, 4.0),
            (r'alexandria|eratostenes', 'kit/marco_alexandria', 20, -80, 1.0),
            (r'piramide|egito|egipc|\bgize\b|farao|\bcairo\b|esfinge', 'kit/marco_piramides', 22, -78, 1.6),
            (r'londres|big ben|tamisa', 'kit/marco_bigben', 16, -58, 1.0),
@@ -139,16 +139,19 @@ _MARCOS = ((r'cabo canaveral|plataforma de lancamento|base de lancamento|kennedy
            (r'nova york|estatua da liberdade|manhattan', 'kit/marco_liberdade', 20, -70, 1.0), (r'\broma\b|coliseu|gladiador', 'kit/marco_coliseu', 0, -82, 1.0),
            (r'rio de janeiro|cristo redentor|corcovado', 'kit/marco_cristo', 24, -96, 1.2),
            (r'casa branca|washington|presidente dos estados unidos|presidente americano|biden|obama', 'kit/marco_casabranca', 18, -70, 1.0),
-           (r'capitolio|congresso americano', 'kit/marco_capitolio', 18, -80, 1.0), (r'hollywood|los angeles', 'kit/marco_hollywood', 0, -110, 1.0),
+           (r'capitolio|congresso americano', 'kit/marco_capitolio', 18, -80, 1.0), (r'hollywood|los angeles|california|hawthorne', 'kit/marco_hollywood', 0, -110, 1.0),
            (r'sao francisco|san francisco|golden gate|vale do silicio|palo alto|twitter', 'kit/marco_goldengate', 0, -120, 1.0), (r'\bberlim|brandemburgo', 'kit/marco_brandemburgo', 18, -70, 1.0),
            (r'\bpisa\b|toscana|florenca', 'kit/marco_pisa', 20, -70, 1.0), (r'modena|bolonha', 'kit/marco_ghirlandina', 20, -70, 1.0),
-           (r'\bviena\b|estrasburgo|\bgante\b|\bgent\b|catedral gotica', 'kit/marco_viena', 20, -80, 1.0), (r'bruxelas', 'kit/marco_atomium', 20, -80, 1.0), (r'waterloo', 'kit/marco_waterloo', 0, -110, 1.0),
-           (r'suica|\balpes\b|genebra|zurique', 'kit/marco_alpes', 0, -110, 1.0), (r'\bmaias?\b|chichen|yucatan', 'kit/marco_chichenitza', 20, -80, 1.0),
+           (r'\bviena\b|austria|estrasburgo|\bgante\b|\bgent\b|catedral gotica', 'kit/marco_viena', 20, -80, 1.0), (r'bruxelas', 'kit/marco_atomium', 20, -80, 1.0), (r'waterloo', 'kit/marco_waterloo', 0, -110, 1.0),
+           (r'suica|\balpes\b|genebra|zurique|alasca|kiska', 'kit/marco_alpes', 0, -110, 1.0), (r'\bmaias?\b|chichen|yucatan', 'kit/marco_chichenitza', 20, -80, 1.0),
            (r'veracruz|ulua', 'kit/marco_ulua', 0, -100, 1.0), (r'el salvador|san salvador|vulcao', 'kit/volcano', 0, -120, 9.0),
            (r'moscou|kremlin|praca vermelha', 'kit/marco_saobasilio', 20, -80, 1.0), (r'sydney', 'kit/marco_operasydney', 0, -100, 1.0), (r'zanzibar', 'kit/marco_zanzibar', 18, -80, 1.0),
-           (r'teera|\bira\b|\birao\b|istambul|constantinopla|mesquita', 'kit/marco_mesquita', 20, -80, 1.0), (r'olinda|recife|pernambuco', 'kit/marco_olinda', 20, -90, 1.0))
+           (r'teera|\bira\b|\birao\b|istambul|constantinopla|mesquita', 'kit/marco_mesquita', 20, -80, 1.0), (r'olinda|recife|pernambuco', 'kit/marco_olinda', 20, -90, 1.0),
+           (r'\btexas\b', 'kit/marco_texas', 20, -90, 1.0), (r'\bmexico\b|mexicano|tequila', 'kit/marco_mexico', 20, -90, 1.0), (r'detroit', 'kit/marco_detroit', 0, -120, 1.0),
+           (r'wurzburg|rontgen|roentgen', 'kit/marco_wurzburg', 0, -100, 1.0), (r'rostock|tycho', 'kit/marco_rostock', 20, -90, 1.0),
+           (r'amsterd|holand|paises baixos|den helder|\btexel\b', 'kit/marco_amsterdam', 0, -70, 1.0), (r'\byap\b|pedras? rai', 'kit/marco_yap', 0, -40, 1.0))   # 3a leva (19/11): blender/objetos_marcos3.py
 # o marco so' aparece se JA EXISTIA no ano da historia (Torre Eiffel 1889, Estatua da Liberdade 1886, Golden Gate 1937...); o Farol de Alexandria caiu em 1323
-_MARCO_ANO = {'kit/marco_eiffel': (1889, 9999), 'kit/marco_liberdade': (1886, 9999), 'kit/marco_goldengate': (1937, 9999), 'kit/marco_hollywood': (1923, 9999), 'kit/marco_atomium': (1958, 9999),
+_MARCO_ANO = {'kit/marco_detroit': (1977, 9999), 'kit/marco_texas': (1888, 9999), 'kit/marco_mexico': (1791, 9999), 'kit/marco_wurzburg': (1744, 9999), 'kit/marco_amsterdam': (1631, 9999), 'kit/marco_rostock': (1290, 9999), 'kit/marco_eiffel': (1889, 9999), 'kit/marco_liberdade': (1886, 9999), 'kit/marco_goldengate': (1937, 9999), 'kit/marco_hollywood': (1923, 9999), 'kit/marco_atomium': (1958, 9999),
               'kit/marco_operasydney': (1973, 9999), 'kit/marco_cristo': (1931, 9999), 'kit/marco_brandemburgo': (1791, 9999), 'kit/marco_bigben': (1859, 9999), 'kit/marco_canaveral': (1950, 9999),
               'kit/marco_casabranca': (1800, 9999), 'kit/marco_capitolio': (1800, 9999), 'kit/marco_onu': (1952, 9999), 'kit/marco_trumptower': (1983, 9999), 'kit/marco_versalhes': (1682, 9999),
               'kit/marco_waterloo': (1826, 9999), 'kit/marco_zanzibar': (1883, 9999), 'kit/marco_alexandria': (-300, 1323), 'kit/marco_notredame': (1260, 9999), 'kit/tower': (2019, 9999)}
