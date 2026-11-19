@@ -4,7 +4,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | interior pedra | close | 1 | conversar | kit/phone | - | -
+b0 | interior pedra | two | 1 | conversar | kit/phone | - | -
 b1 | street | crowd | 31 | batalha | - | - | -
 b2 | interior pedra | close | 1 | conversar | kit/phone | - | -
 b3 | interior loja | group | 3 | conversar, INTERAGEM: entregar, batalha | - | - | -

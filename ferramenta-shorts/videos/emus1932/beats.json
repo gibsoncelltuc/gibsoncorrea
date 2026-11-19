@@ -13,7 +13,8 @@
    "hat": "slouch",
    "cap": "#8a7a50",
    "belt": "#4a3a24",
-   "rifle": true
+   "rifle": true,
+   "profissao": "general"
   },
   "FARM": {
    "jacket": "#7a9ac2",
@@ -25,7 +26,8 @@
     "cap",
     "straw"
    ],
-   "cap": "#d8c070"
+   "cap": "#d8c070",
+   "profissao": "agricultor"
   },
   "PRESS": {
    "jacket": "#7a4a8a",
@@ -194,11 +196,10 @@
   },
   {
    "say": "A tropa bateu em retirada. A imprensa gargalhou, e o comandante admitiu: \"Eles aguentam bala como tanques.\"",
-   "shot": "group",
+   "shot": "track",
    "who": [
     "AUS:0:pained",
-    "PRESS:0:grin:paper",
-    "PRESS:1:smile"
+    "PRESS:0:grin:paper"
    ],
    "text": "HA HA HA",
    "tat": 8,

@@ -101,14 +101,14 @@
   },
   {
    "shot": "two",
-   "set": "street",
    "hora": "pordosol",
    "who": [
     "CID:0:scared",
     "SOL:0:nervous"
    ],
    "interacao": "cochichar",
-   "say": "Na véspera, um submarino japonês tinha atirado na Califórnia, e todo mundo achava que vinha mais."
+   "say": "Na véspera, um submarino japonês tinha atirado na Califórnia, e todo mundo achava que vinha mais.",
+   "set": "harbor"
   },
   {
    "shot": "two",
@@ -174,14 +174,14 @@
   },
   {
    "shot": "two",
-   "set": "street",
    "hora": "amanhecer",
    "who": [
     "SOL:0:shout",
     "GEN:0:surprised"
    ],
    "acao": "discutir",
-   "say": "\"É um inimigo!\", gritou um soldado. Acontece que não havia nada ali, só nuvens e fumaça."
+   "say": "\"É um inimigo!\", gritou um soldado. Acontece que não havia nada ali, só nuvens e fumaça.",
+   "set": "countryside"
   },
   {
    "shot": "crowd",

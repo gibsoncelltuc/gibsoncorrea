@@ -92,7 +92,6 @@
   },
   {
    "shot": "two",
-   "set": "street",
    "who": [
     "CHE:0:stern",
     "ASH:0:smile"
@@ -106,7 +105,8 @@
     ]
    ],
    "acao": "conversar",
-   "say": "Os ashanti tinham um banquinho dourado sagrado, que representava a alma do povo. Nem o rei podia sentar nele."
+   "say": "Os ashanti tinham um banquinho dourado sagrado, que representava a alma do povo. Nem o rei podia sentar nele.",
+   "set": "countryside"
   },
   {
    "shot": "two",
@@ -187,13 +187,13 @@
   },
   {
    "shot": "two",
-   "set": "street",
    "who": [
     "CHE:0:smug",
     "ASH:0:grin"
    ],
    "interacao": "cochichar",
-   "say": "Mas os ashanti esconderam o banquinho, e os ingleses nunca conseguiram levá-lo."
+   "say": "Mas os ashanti esconderam o banquinho, e os ingleses nunca conseguiram levá-lo.",
+   "interior": "loja"
   },
   {
    "shot": "close",

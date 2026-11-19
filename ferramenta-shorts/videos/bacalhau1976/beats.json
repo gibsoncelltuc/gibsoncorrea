@@ -92,7 +92,6 @@
   },
   {
    "shot": "two",
-   "set": "harbor",
    "who": [
     "ING:0:smug",
     "ISL:0:angry"
@@ -106,7 +105,8 @@
     ]
    ],
    "interacao": "empurrar",
-   "say": "Só que barcos ingleses pescavam bacalhau bem pertinho da costa dela, e os pescadores islandeses não gostaram nada."
+   "say": "Só que barcos ingleses pescavam bacalhau bem pertinho da costa dela, e os pescadores islandeses não gostaram nada.",
+   "set": "street"
   },
   {
    "shot": "two",
@@ -150,13 +150,13 @@
   },
   {
    "shot": "two",
-   "set": "harbor",
    "who": [
     "GUA:0:smug:bag",
     "NAV:0:shock"
    ],
    "interacao": "susto",
-   "say": "Acontece que os islandeses tinham uma arma secreta: \"Cortadores de rede!\", gritou um deles."
+   "say": "Acontece que os islandeses tinham uma arma secreta: \"Cortadores de rede!\", gritou um deles.",
+   "interior": "pedra"
   },
   {
    "shot": "crowd",

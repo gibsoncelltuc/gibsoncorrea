@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | - | - | -
+b0 | two | -  | - | encena: cai (throw) (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | - | - | -
 b3 | group | noite  | batalha aberta com tiros, tropa, placa: 3 MINUTOS | - | -
@@ -10,7 +10,7 @@ b4 | wide | noite  | tropa, placa: 56 | - | -
 b5 | crowd | -  | batalha aberta com tiros, tropa | - | -
 b6 | two | -  | interior, mapa | - | -
 b7 | two | -  | - | - | -
-b8 | group | -  | tropa | - | -
+b8 | group | -  | tropa | encena: vira (up) (acao + som de efeito) | -
 b9 | two | -  | - | - | -
 
 Mistura de planos: close 2% | medio 76% | aberto 18% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)

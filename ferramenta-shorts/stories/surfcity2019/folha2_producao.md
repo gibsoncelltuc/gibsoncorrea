@@ -64,13 +64,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Críticos dizem que as obras na costa preocupam moradores e ambientalis...
 - Cenario: harbor | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): JOR (variante 0, expressao worried); JOR2 (variante 0, expressao suspicious)
-- Animacao: conversar | interacao: aproxima-se
+- Personagens principais (1): JOR (variante 0, expressao worried)
+- Animacao: -
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): costa, obras
-- RISCOS: nenhum
+- RISCOS: 
+  - personagens parados (so falam e piscam) -> CORRECAO: "acao": "conversar|discutir|comemorar", "interacao": "empurrar|cochichar|entregar|susto", objeto na mao (4o campo do "who") ou "chega": true
 
 ## Cena b7 - A Surf City dois leva o projeto para o leste do país.
 - Cenario: countryside | luz: golden | clima: limpo
@@ -87,7 +88,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (3): BUK (variante 0, expressao laugh); JOR (variante 0, expressao grin); JOR2 (variante 0, expressao laugh)
-- Animacao: conversar | interacao: avanca e o outro recua
+- Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/surfboard
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): mundial
 - RISCOS: nenhum
@@ -111,11 +112,12 @@ kit/surfboard | b0, b1, b2, b4, b5, b7, b8, b9 | pronto (HEROI: aparece em close
 
 
 ## Video inteiro
-- Objeto heroi: kit/surfboard | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 24% | medio 60% | aberto 9% | detalhe 7%
-- Interacoes: b1 cochichar, b3 insiste, b5 vai ate o outro, b6 aproxima-se, b7 susto, b8 avanca e o outro recua
+- Objeto heroi: kit/surfboard | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 31% | medio 53% | aberto 9% | detalhe 7%
+- Interacoes: b1 cochichar, b3 insiste, b5 vai ate o outro, b7 susto, b8 aproxima-se
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- b6: personagens parados (so falam e piscam)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh surfcity2019 bN bM` (so essas cenas).

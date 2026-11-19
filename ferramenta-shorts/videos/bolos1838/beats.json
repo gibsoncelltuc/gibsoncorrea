@@ -49,7 +49,8 @@
    "hat": "shako_tall",
    "buttons": "#e8c45a",
    "sash": "#c0262d",
-   "moustache_on": "#2a1c12"
+   "moustache_on": "#2a1c12",
+   "profissao": "general"
   }
  },
  "beats": [
@@ -60,7 +61,8 @@
     "OFI:0:laugh"
    ],
    "text": "1838",
-   "say": "A França invadiu o México por causa de uma conta de confeitaria."
+   "say": "A França invadiu o México por causa de uma conta de confeitaria.",
+   "batalha": true
   },
   {
    "shot": "two",
@@ -160,7 +162,8 @@
    "sfx": [
     "cannon@30"
    ],
-   "say": "Um general mexicano correu para o combate, e perdeu uma perna para um tiro de canhão."
+   "say": "Um general mexicano correu para o combate, e perdeu uma perna para um tiro de canhão.",
+   "batalha": true
   },
   {
    "shot": "two",

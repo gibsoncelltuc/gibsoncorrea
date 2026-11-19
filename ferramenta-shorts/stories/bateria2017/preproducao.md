@@ -10,14 +10,14 @@ b2 | outback | group | 13 | conversar, INTERAGEM: aproxima-se, batalha | kit/meg
 b3 | interior pedra | two | 2 | reagir, INTERAGEM: avanca e o outro recua | kit/megapack | - | -
 b4 | outback | wide | 11 | batalha | kit/megapack, nature/picket_fence | - | -
 b5 | outback | two | 2 | reagir, INTERAGEM: o outro se aproxima | kit/megapack | - | -
-b6 | interior loja | two | 2 | conversar, INTERAGEM: insiste | - | - | -
+b6 | interior loja | close | 1 | conversar | - | - | -
 b7 | outback | close | 1 | conversar | kit/megapack | - | -
 b8 | countryside | two | 2 | conversar, INTERAGEM: susto | kit/megapack, kit/phone | - | -
-b9 | countryside | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/megapack | - | -
+b9 | countryside | two | 2 | conversar, INTERAGEM: insiste | kit/megapack | - | -
 
 OBJETO HEROI: kit/megapack - aparece em 9 cena(s), close nele em 3
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b2, b4
-Interacoes entre personagens: b2 aproxima-se, b3 avanca e o outro recua, b5 o outro se aproxima, b6 insiste, b8 susto, b9 vai ate o outro
+Interacoes entre personagens: b2 aproxima-se, b3 avanca e o outro recua, b5 o outro se aproxima, b8 susto, b9 insiste
 
 Cenas com personagens parados: 0 de 10
 FALTA MODELAR: nada

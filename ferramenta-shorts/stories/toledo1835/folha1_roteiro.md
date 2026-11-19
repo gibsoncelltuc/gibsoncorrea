@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Ohio respondeu com a própria milícia, e as duas tropas chegaram à beira do rio, frente a frente.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: chegaram -> dust + som de impacto
+- Efeito + som nas palavras-chave: cavalaria: 2 soldados a cavalo (OHI) -> acao + som de efeito; chegaram -> dust + som de impacto
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,14 +42,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Houve gritos, ameaças, e tiros. Todos para o alto. Ninguém acertou ninguém.
 - Som ambiente: birds | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116
-- Efeito + som nas palavras-chave: tiros -> burst + som de tiro/explosao
+- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (OHI) -> acao + som de efeito; tiros -> burst + som de tiro/explosao
 - Efeito visual marcado: -
 - Texto na tela: PARA O ALTO
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b5  (~6.6 s)
 - Narracao: Acontece que a única baixa foi um xerife de Michigan, espetado na perna por um rapaz com um canivete.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@60
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@60
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: O presidente mandou os dois pararem, e o Congresso ofereceu um acordo. Ninguém queria ceder.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: pedido: plano medio dos dois, um pede ao outro -> shot + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: ACORDO
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: No fim das contas, Michigan perdeu a guerra, e ficou rico.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: perdeu -> puff + som de baque
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; perdeu -> puff + som de baque
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

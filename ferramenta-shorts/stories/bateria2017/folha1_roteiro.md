@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: Mike Cannon-Brookes disse que nunca tinha ficado tão feliz de perder uma aposta.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: perder -> dust + som de impacto
+- Efeito + som nas palavras-chave: (rosto) happy -> expr + som de efeito; perder -> dust + som de impacto
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

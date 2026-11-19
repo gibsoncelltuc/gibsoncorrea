@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Em setembro de dois mil e vinte e um, o presidente de El Salvador, Nayib Bukele, mexeu numa coisa bem pequena: a descrição do próprio perfil.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: mistura (stir) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: EL SALVADOR
 - Funcao na historia: GANCHO
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Primeiro, ele escreveu só uma palavra no perfil: ditador.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@8
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: escreve (write) -> acao + som de efeito
 - Efeito visual marcado: puff@8
 - Texto na tela: DITADOR
 - Funcao na historia: desenvolvimento

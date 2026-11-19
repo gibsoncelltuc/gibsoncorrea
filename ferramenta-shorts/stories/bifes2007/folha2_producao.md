@@ -37,7 +37,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): VEN (variante 0, expressao worried); CLI (variante 0, expressao suspicious)
-- Animacao: conversar | interacao: vai ate o outro
+- Animacao: conversar | interacao: pedir
 - Objetos/modelos: kit/steak, nature/picket_fence
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bifes, dois, loja, oferecer
 - RISCOS: nenhum
@@ -57,7 +57,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): TRU (variante 0, expressao smug); VEN (variante 0, expressao laugh)
-- Animacao: conversar | interacao: aproxima-se | o ultimo personagem ENTRA andando
+- Animacao: conversar | interacao: vai ate o outro | o ultimo personagem ENTRA andando
 - Objetos/modelos: kit/tv
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canal, marca, televisao
 - RISCOS: nenhum
@@ -67,7 +67,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): CLI (variante 0, expressao suspicious); VEN (variante 0, expressao stern)
-- Animacao: conversar | interacao: avanca e o outro recua
+- Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): marca
 - RISCOS: nenhum
@@ -77,7 +77,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): TRU (variante 0, expressao laugh); CLI (variante 0, expressao smug)
-- Animacao: conversar | interacao: discutir
+- Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/steak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bifes, rede
 - RISCOS: nenhum
@@ -116,7 +116,7 @@ kit/stall | b8 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 ## Video inteiro
 - Objeto heroi: kit/steak | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 12% | medio 72% | aberto 13% | detalhe 3%
-- Interacoes: b0 o outro se aproxima, b1 insiste, b2 susto, b3 vai ate o outro, b5 aproxima-se, b6 avanca e o outro recua, b7 discutir
+- Interacoes: b0 o outro se aproxima, b1 insiste, b2 susto, b3 pedir, b5 vai ate o outro, b6 aproxima-se, b7 avanca e o outro recua
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

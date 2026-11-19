@@ -98,7 +98,6 @@
   },
   {
    "shot": "two",
-   "set": "street",
    "who": [
     "VIA:0:grin",
     "VEN:0:shock"
@@ -112,7 +111,8 @@
     ]
    ],
    "interacao": "empurrar",
-   "say": "Um deles parou numa barraca, comeu uma fatia de melancia e foi embora sem pagar."
+   "say": "Um deles parou numa barraca, comeu uma fatia de melancia e foi embora sem pagar.",
+   "set": "countryside"
   },
   {
    "shot": "two",
@@ -127,7 +127,6 @@
   },
   {
    "shot": "two",
-   "set": "street",
    "who": [
     "VIA:0:angry",
     "VEN:0:scared"
@@ -141,7 +140,8 @@
      1.4,
      2.2
     ]
-   ]
+   ],
+   "set": "harbor"
   },
   {
    "shot": "crowd",

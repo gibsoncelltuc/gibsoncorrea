@@ -128,7 +128,6 @@
   },
   {
    "shot": "two",
-   "set": "mountain",
    "who": [
     "BUL:0:angry",
     "GRE:0:scared"
@@ -141,7 +140,8 @@
     "gun@60"
    ],
    "say": "Do outro lado, uma sentinela búlgara viu um estranho armado, e atirou.",
-   "props": []
+   "props": [],
+   "set": "countryside"
   },
   {
    "shot": "two",
@@ -201,7 +201,6 @@
   },
   {
    "shot": "close",
-   "set": "mountain",
    "who": [
     "GRE:0:sad"
    ],
@@ -220,7 +219,8 @@
      1.5,
      1.5
     ]
-   ]
+   ],
+   "set": "street"
   }
  ],
  "exp": 1.0,

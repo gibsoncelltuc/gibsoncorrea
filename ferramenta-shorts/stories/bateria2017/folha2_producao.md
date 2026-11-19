@@ -64,10 +64,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Mike Cannon-Brookes disse que nunca tinha ficado tão feliz de perder u...
 - Cenario: interior loja | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): CAN (variante 0, expressao laugh); MUS (variante 0, expressao smug)
-- Animacao: conversar | interacao: insiste
+- Personagens principais (1): CAN (variante 0, expressao laugh)
+- Animacao: conversar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aposta, perder
 - RISCOS: nenhum
@@ -97,7 +97,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): MUS (variante 0, expressao laugh); CAN (variante 0, expressao grin)
-- Animacao: conversar | interacao: vai ate o outro
+- Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/megapack
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): apostar, contrato
 - RISCOS: nenhum
@@ -114,8 +114,8 @@ kit/phone | b8 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/megapack | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 22% | medio 60% | aberto 12% | detalhe 6%
-- Interacoes: b2 aproxima-se, b3 avanca e o outro recua, b5 o outro se aproxima, b6 insiste, b8 susto, b9 vai ate o outro
+- Objeto heroi: kit/megapack | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 31% | medio 51% | aberto 12% | detalhe 6%
+- Interacoes: b2 aproxima-se, b3 avanca e o outro recua, b5 o outro se aproxima, b8 susto, b9 insiste
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

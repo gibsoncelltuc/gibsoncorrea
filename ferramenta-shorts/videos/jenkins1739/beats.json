@@ -22,7 +22,8 @@
    "pants": "#7a2a2a",
    "boots": "#1b1b1f",
    "hat": "slouch",
-   "cap": "#7a2a2a"
+   "cap": "#7a2a2a",
+   "profissao": "general"
   },
   "ING": {
    "jacket": "#b02a2a",
@@ -50,6 +51,13 @@
    "boots": "#1b1b1f",
    "hat": "bowler",
    "build": "stout"
+  },
+  "REI": {
+   "profissao": "rei",
+   "jacket": "#7a1f2b",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "fixo": true
   }
  },
  "beats": [
@@ -101,7 +109,6 @@
   },
   {
    "shot": "two",
-   "set": "harbor",
    "who": [
     "ESP:0:angry",
     "JEN:0:scared"
@@ -113,13 +120,14 @@
    "sfx": [
     "whoosh@70"
    ],
-   "say": "Os espanhóis acharam que ele fazia contrabando, e Jenkins contou que o capitão deles cortou sua orelha."
+   "say": "Os espanhóis acharam que ele fazia contrabando, e Jenkins contou que o capitão deles cortou sua orelha.",
+   "set": "street"
   },
   {
    "shot": "two",
    "set": "harbor",
    "who": [
-    "ESP:0:smug",
+    "REI:0:smug",
     "JEN:0:pained"
    ],
    "acao": "discutir",

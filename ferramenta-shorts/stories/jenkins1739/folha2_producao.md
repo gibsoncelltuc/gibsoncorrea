@@ -23,7 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Os espanhóis acharam que ele fazia contrabando, e Jenkins contou que o...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ESP (variante 0, expressao angry); JEN (variante 0, expressao scared)
@@ -37,12 +37,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): ESP (variante 0, expressao smug); JEN (variante 0, expressao pained)
+- Personagens principais (2): REI (variante 0, expressao smug); JEN (variante 0, expressao pained)
 - Animacao: discutir | interacao: cochichar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): espanhol
-- RISCOS: 
-  - a narracao cita "rei" e ninguem em cena esta vestido a carater -> CORRECAO: por no "who" um personagem com "profissao": "rei" no figurino (coroa/farda/chapeu proprios)
+- RISCOS: nenhum
 
 ## Cena b4 - Sete anos depois, Jenkins contou a história ao Parlamento inglês, e os...
 - Cenario: interior madeira | luz: day | clima: limpo
@@ -126,13 +125,10 @@ ship | b1, b6 | pronto | conferir na folha de contato se le bem; se parecer caix
 ## Video inteiro
 - Objeto heroi: kit/ear_jar | grandes momentos: b6, b7 | planos abertos: 2 | mistura: close 24% | medio 57% | aberto 12% | detalhe 7%
 - Interacoes: b0 discutir, b2 empurrar, b3 cochichar, b5 cochichar, b7 susto, b8 entregar, b9 insiste
-- RISCOS GERAIS: 
-  - pouca variedade de cenario ({'harbor': 6, 'interior madeira': 2, 'interior pedra': 1, 'street': 2}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 3 risco(s) em aberto
+## RESUMO: 1 risco(s) em aberto
 - b2: a narracao cita "capitao" e ninguem em cena esta vestido a carater
-- b3: a narracao cita "rei" e ninguem em cena esta vestido a carater
-- geral: pouca variedade de cenario ({'harbor': 6, 'interior madeira': 2, 'interior pedra': 1, 'street': 2}): o video fica parecendo todos os outros
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh jenkins1739 bN bM` (so essas cenas).

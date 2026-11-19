@@ -81,13 +81,13 @@
   },
   {
    "shot": "two",
-   "set": "arctic",
    "who": [
     "CAN:0:angry",
     "DIN:0:angry"
    ],
    "interacao": "empurrar",
-   "say": "Os dois países achavam que ela era sua, mas ninguém queria começar uma guerra de verdade."
+   "say": "Os dois países achavam que ela era sua, mas ninguém queria começar uma guerra de verdade.",
+   "set": "harbor"
   },
   {
    "shot": "crowd",
@@ -177,7 +177,6 @@
   },
   {
    "shot": "two",
-   "set": "arctic",
    "who": [
     "DIN:0:grin:paper",
     "CAN:0:shock"
@@ -191,7 +190,8 @@
      1.2
     ]
    ],
-   "say": "E deixaram um bilhete: \"Bem-vindos à terra dinamarquesa\", ao lado de uma garrafa de licor."
+   "say": "E deixaram um bilhete: \"Bem-vindos à terra dinamarquesa\", ao lado de uma garrafa de licor.",
+   "set": "mountain"
   },
   {
    "shot": "two",
@@ -215,7 +215,6 @@
   },
   {
    "shot": "close",
-   "set": "arctic",
    "who": [
     "CAN:0:smile"
    ],
@@ -228,7 +227,8 @@
     ]
    ],
    "say": "A guerra mais educada da história acabou sem um tiro e com muito uísque.",
-   "acao": "comemorar"
+   "acao": "comemorar",
+   "interior": "pedra"
   }
  ],
  "ano": 1984,

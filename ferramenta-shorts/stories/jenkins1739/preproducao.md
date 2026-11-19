@@ -6,7 +6,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | harbor | two | 2 | discutir, INTERAGEM: discutir | kit/ear_jar | - | -
 b1 | harbor | reveal | 10 | reagir | ship, navios ao fundo | - | -
-b2 | harbor | two | 2 | conversar, INTERAGEM: empurrar | kit/ear_jar | - | -
+b2 | street | two | 2 | conversar, INTERAGEM: empurrar | kit/ear_jar | - | -
 b3 | harbor | two | 2 | discutir, INTERAGEM: cochichar | - | - | -
 b4 | interior madeira | close | 1 | usa o objeto da mao | - | paper | -
 b5 | interior pedra | two | 2 | discutir, INTERAGEM: cochichar | - | - | -

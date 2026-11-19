@@ -120,7 +120,6 @@
   },
   {
    "shot": "two",
-   "set": "countryside",
    "who": [
     "AME:0:smug",
     "CAN:0:smug"
@@ -147,7 +146,8 @@
      -9.0,
      1.8
     ]
-   ]
+   ],
+   "set": "street"
   },
   {
    "shot": "two",
@@ -204,13 +204,13 @@
   },
   {
    "shot": "two",
-   "set": "countryside",
    "who": [
     "AME:0:scared",
     "ING:0:smug"
    ],
    "interacao": "empurrar",
-   "say": "Acontece que um agente do Maine foi preso pelos ingleses, e o clima ficou perigoso."
+   "say": "Acontece que um agente do Maine foi preso pelos ingleses, e o clima ficou perigoso.",
+   "set": "mountain"
   },
   {
    "shot": "two",
@@ -244,7 +244,6 @@
   },
   {
    "shot": "close",
-   "set": "countryside",
    "who": [
     "AME:0:smile"
    ],
@@ -284,7 +283,8 @@
      1.0
     ]
    ],
-   "fachada": false
+   "fachada": false,
+   "interior": "pedra"
   }
  ],
  "ano": 1838,

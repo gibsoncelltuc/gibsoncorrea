@@ -208,10 +208,11 @@
    "batalha": false,
    "impact": false,
    "say": "Críticos dizem que as obras na costa preocupam moradores e ambientalistas.",
-   "shot": "two",
+   "shot": "group",
    "who": [
     "JOR:0:worried",
-    "JOR2:0:suspicious"
+    "JOR2:0:suspicious",
+    "POV:0:worried"
    ],
    "set": "harbor"
   },

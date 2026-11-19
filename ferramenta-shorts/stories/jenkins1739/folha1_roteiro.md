@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b2  (~5.9 s)
 - Narracao: Os espanhóis acharam que ele fazia contrabando, e Jenkins contou que o capitão deles cortou sua orelha.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@70
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: puff@70

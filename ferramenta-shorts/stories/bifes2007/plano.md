@@ -5,7 +5,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | -  | - | - | -
 b1 | two | -  | interior, mapa | - | -
 b2 | group | -  | batalha aberta com tiros, tropa, placa: $ 999 | - | -
-b3 | two | -  | interior | - | -
+b3 | two | -  | interior | pedido: plano medio dos dois, um pede ao outro (shot + som de efeito) | -
 b4 | wide | -  | batalha aberta com tiros, tropa, placa: $ 50 MIL | - | -
 b5 | two | -  | interior | apareceu (dust + som de impacto) | -
 b6 | two | -  | interior | - | -

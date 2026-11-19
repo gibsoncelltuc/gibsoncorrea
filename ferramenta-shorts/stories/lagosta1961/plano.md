@@ -6,7 +6,7 @@ b0 | two | -  | placa: 1961 | - | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | - | - | -
 b3 | orbit | -  | tropa | - | -
-b4 | group | -  | - | discussão (puff + som de baque); encena: calor (reach) (acao + som de efeito) | -
+b4 | group | -  | interior | discussão (puff + som de baque); encena: calor (reach) (acao + som de efeito) | -
 b5 | crowd | -  | batalha aberta com tiros, tropa, placa: NAVIOS E AVIÕES | recuou (dust + som de impacto) | -
 b6 | group | -  | batalha aberta com tiros, tropa | tiro (burst + som de tiro/explosao) | -
 b7 | two | -  | interior, objeto na mao | tiro (burst + som de tiro/explosao); brigar (puff + som de baque) | -
