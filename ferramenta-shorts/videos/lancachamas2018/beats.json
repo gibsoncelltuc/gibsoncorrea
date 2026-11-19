@@ -60,16 +60,19 @@
    "props": [
     [
      "kit/flamethrower",
-     0.9,
-     0.9,
-     0.9
+     -0.6,
+     1.2,
+     2.4,
+     {
+      "alto": 1.0
+     }
     ]
    ],
    "tiros": false,
    "batalha": false,
    "impact": false,
    "acao": "conversar",
-   "set": "street",
+   "set": "harbor",
    "shot_lock": true
   },
   {
@@ -82,9 +85,9 @@
    "props": [
     [
      "kit/flamethrower",
-     1.3,
-     0.2,
-     1.3
+     0.0,
+     1.1,
+     1.1
     ]
    ],
    "text": "US$ 500",
