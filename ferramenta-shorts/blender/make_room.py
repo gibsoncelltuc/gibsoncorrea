@@ -64,3 +64,4 @@ for rg, (wd, st) in _R.items():
     build(f'room_{rg}_wood', dict(bw=0.7, tile=False, floor=[wd[2], wd[3]], joint='#5a3a24', wall=wd[0], wall2=wd[1], base=wd[4], frame=wd[4], door='#a8733f', door2='#96642f'))
     build(f'room_{rg}_stone', dict(bw=1.3, tile=True, floor=[st[2], st[3]], joint='#5d584f', wall=st[0], wall2=st[1], base='#7d766a', frame='#5a4a3a', door='#7a5a3a', door2='#6a4c30'))
     build(f'room_{rg}_shop', dict(bw=1.1, tile=True, floor=[st[2], wd[2]], joint='#56727a', wall=wd[0], wall2=wd[1], base=wd[4], frame='#8b3a2a', door='#b9643a', door2='#a2532c', shop=True))
+build('room_hospital', dict(bw=1.1, tile=True, floor=['#eef6f8', '#bfe0e8'], joint='#8ab0bc', wall='#e2f2f4', wall2='#a8dcd4', base='#7ab8a8', frame='#8aa8b8', door='#bcd8e4', door2='#a8c8d6'))
