@@ -44,11 +44,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - Com isso, dava para pagar tudo com bitcoin.
 - Cenario: street | luz: dia | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): CLI (variante 0, expressao smile, segura coin); POV (variante 0, expressao grin)
-- Animacao: conversar | interacao: entregar
-- Objetos/modelos: kit/stall, kit/bitcoin, kit/volcano
+- Personagens principais (1): CLI (variante 0, expressao smile, segura coin)
+- Animacao: encena
+- Objetos/modelos: kit/bitcoin, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bitcoin, isso
 - RISCOS: nenhum
 
@@ -99,14 +99,13 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/bitcoin | b0, b2, b4, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/volcano | b0, b1, b3, b4, b5, b6, b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/stall | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/globe | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/coin | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/bitcoin | grandes momentos: b3, b5 | planos abertos: 4 | mistura: close 4% | medio 62% | aberto 28% | detalhe 6%
-- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b4 entregar, b6 discutir, b8 insiste
+- Objeto heroi: kit/bitcoin | grandes momentos: b3, b5 | planos abertos: 4 | mistura: close 9% | medio 57% | aberto 28% | detalhe 6%
+- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b6 discutir, b8 insiste
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

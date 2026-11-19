@@ -119,22 +119,15 @@
   },
   {
    "say": "Com isso, dava para pagar tudo com bitcoin.",
-   "shot": "two",
+   "shot": "close",
    "who": [
-    "CLI:0:smile:coin",
-    "POV:0:grin"
+    "CLI:0:smile:coin"
    ],
    "props": [
     [
-     "kit/stall",
-     1.7,
-     -0.5,
-     1.2
-    ],
-    [
      "kit/bitcoin",
-     -1.6,
-     0.3,
+     -1.5,
+     0.2,
      1.0
     ]
    ],
@@ -148,8 +141,7 @@
    ],
    "impact": false,
    "set": "street",
-   "hora": "dia",
-   "acao": "conversar"
+   "hora": "dia"
   },
   {
    "say": "O governo lançou até uma carteira digital, chamada Chivo.",

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 09 - O País do Bitcoin
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 21 acoes catalogadas, 21 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 19 acoes catalogadas, 19 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.4s - 22 palavras - plano two
@@ -38,15 +38,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 2 | - | PLACA | 7 DE SETEMBRO DE 2021 | OK |
 
-## Cena b4 - 19.5s a 21.5s - 8 palavras - plano two
+## Cena b4 - 19.5s a 21.5s - 8 palavras - plano close
 > "Com isso, dava para pagar tudo com bitcoin."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | pagar (20.8s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | pagar (20.8s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 3 | - | INTERACAO | entregar | OK |
-| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b5 - 21.7s a 25.3s - 9 palavras - plano orbit
 > "O governo lançou até uma carteira digital, chamada Chivo."
