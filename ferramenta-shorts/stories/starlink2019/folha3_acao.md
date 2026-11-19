@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 04 - A Fila de Luzes no Céu
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 22 acoes catalogadas, 22 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 23 acoes catalogadas, 23 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.4s - 21 palavras - plano two
@@ -44,7 +44,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | viu (24.7s) | ACAO: olha | aponta/olha | OK |
-| 2 | - | PLACA | 56 | OK |
+| 2 | brilhando (26.7s) | ACAO: brilha | o objeto brilha na palavra (ondas de luz + estrelas) | OK |
+| 3 | - | PLACA | 56 | OK |
 
 ## Cena b5 - 28.5s a 33.6s - 16 palavras - plano crowd
 > "Acontece que o site holandês de avistamentos de OVNIs registrou mais de cento e cinquenta relatos."

@@ -8,7 +8,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ILH (variante 0, expressao laugh); HOL (variante 0, expressao smug) | multidao: 5 de ILH/HOL
 - Animacao: discutir | interacao: discutir
-- Objetos/modelos: kit/scroll
+- Objetos/modelos: kit/scroll, kit/marco_amsterdam
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): holanda, ilha
 - RISCOS: nenhum
 
@@ -18,7 +18,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): ILH (variante 0, expressao neutral); ILH (variante 1, expressao nervous) | multidao: 8 de ILH
 - Animacao: conversar | interacao: susto
-- Objetos/modelos: -
+- Objetos/modelos: kit/marco_amsterdam
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ilhas, inglaterra
 - RISCOS: nenhum
 
@@ -28,7 +28,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): ILH (variante 0, expressao grin); HOL (variante 0, expressao angry) | multidao: 18 de ILH/MAR
 - Animacao: - | batalha encenada
-- Objetos/modelos: ship, navios ao fundo
+- Objetos/modelos: ship, kit/marco_amsterdam, navios ao fundo
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comercio, holanda, ilhas
 - RISCOS: nenhum
 
@@ -38,7 +38,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (3): HOL (variante 0, expressao stern); MAR (variante 0, expressao angry); MAR (variante 1, expressao stern) | multidao: 10 de HOL/MAR
 - Animacao: discutir | interacao: avanca e o outro recua | batalha encenada
-- Objetos/modelos: ship
+- Objetos/modelos: ship, kit/marco_amsterdam
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dinheiro, frota, navios
 - RISCOS: nenhum
 
@@ -48,7 +48,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): MAR (variante 0, expressao angry); MAR (variante 1, expressao shout) | multidao: 20 de MAR
 - Animacao: encena | batalha encenada
-- Objetos/modelos: ship
+- Objetos/modelos: ship, kit/marco_amsterdam
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): almirante, ilhas
 - RISCOS: nenhum
 
@@ -58,7 +58,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): PRE (variante 0, expressao smug, segura paper); ILH (variante 0, expressao shock) | multidao: 16 de SOL
 - Animacao: reagir | interacao: o outro se aproxima
-- Objetos/modelos: -
+- Objetos/modelos: kit/marco_amsterdam
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fazer, ilhas, ingleses
 - RISCOS: nenhum
 
@@ -68,7 +68,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): ILH (variante 0, expressao smile); ILH (variante 1, expressao grin)
 - Animacao: comemorar | interacao: pular
-- Objetos/modelos: -
+- Objetos/modelos: kit/marco_amsterdam
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): trezentos
 - RISCOS: nenhum
 
@@ -78,7 +78,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): EMB (variante 0, expressao smile); PRE (variante 0, expressao nervous)
 - Animacao: conversar | interacao: reverencia
-- Objetos/modelos: -
+- Objetos/modelos: kit/marco_amsterdam
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): embaixador, ilhas
 - RISCOS: nenhum
 
@@ -98,7 +98,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): ILH (variante 0, expressao smile)
 - Animacao: conversar
-- Objetos/modelos: kit/scroll
+- Objetos/modelos: kit/scroll, kit/marco_amsterdam
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
@@ -108,6 +108,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/scroll | b0, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_amsterdam | b0, b1, b2, b3, b4, b5, b6, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 ship | b2, b3, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 

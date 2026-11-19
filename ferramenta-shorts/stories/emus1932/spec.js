@@ -1,5 +1,5 @@
 // Guerras Inusitadas EP 02 - A Guerra dos Emus -- GERADO por mkvideo.py a partir de videos/emus1932/beats.json (edite o beats.json, nao este arquivo)
-globalThis.REGMAP = {"nature/tree_oak": ["kit/veg_acacia", "nature/tree_oak"], "nature/flowerbed": ["nature/rocks"]}; globalThis.REGCHAO = null; globalThis.ASFALTO = false; globalThis.PRAIA = false;
+globalThis.REGMAP = {"nature/tree_oak": ["kit/veg_acacia", "nature/tree_oak"], "nature/flowerbed": ["nature/rocks"], "vehicles/tank": ["kit/tanque_ww2"], "vehicles/airplane": ["kit/biplano"], "vehicles/truck": ["kit/caminhao_antigo"], "ship": ["kit/navio_vapor"]}; globalThis.REGCHAO = null; globalThis.ASFALTO = false; globalThis.PRAIA = false;
 const X = 2000, DK = 6; const X_countryside = 1000; const X_hall = 8000; const X_mountain = 3000;
 const WS = (i, off = 0) => TIMING.words[Math.min(i, TIMING.words.length - 1)][0] + off;   // frame em que a palavra de indice i comeca
 const A = [0, WS(11, -3), WS(32, -3), WS(41, -3), WS(50, -3), WS(72, -3), WS(89, -3), WS(104, -3), WS(119, -3), WS(132, -3), WS(150, -3), TOTAL_F()];

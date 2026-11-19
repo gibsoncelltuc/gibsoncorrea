@@ -195,7 +195,7 @@ function placeProps(list) {
   for (const k in propPool) for (const o of propPool[k]) o.visible = false;
   const used = {};
   for (const p of list || []) { const n = p.asset; used[n] = (used[n] || 0); const i = used[n]++; propPool[n] = propPool[n] || []; if (!propPool[n][i]) { const o = libInst(n, 0, 0, 0); o.traverse((m) => { if (m.isMesh) m.userData.c0 = m.material.color.clone(); }); propPool[n][i] = o; }
-    const o = propPool[n][i]; o.visible = true; o.position.set(p.x, p.y ?? DECK, p.z); o.rotation.set(0, p.ry || 0, 0); o.scale.set(p.s || 1, (p.s || 1) * (p.sy ?? 1), p.s || 1);
+    const o = propPool[n][i]; o.visible = true; o.position.set(p.x, p.y ?? DECK, p.z); o.rotation.set(p.rx || 0, p.ry || 0, p.rz || 0); o.scale.set(p.s || 1, (p.s || 1) * (p.sy ?? 1), p.s || 1);
     o.traverse((m) => { if (m.isMesh) { if (p.tint) m.material.color.set(p.tint); else if (m.userData.c0) m.material.color.copy(m.userData.c0); } });
     const t = p.t || 0; o.traverse((c) => { const nm = c.name || '';
       if (nm.startsWith('wheel')) c.rotation.x = -(p.dist || 0) / 0.45; if (nm === 'propeller' || nm === 'blades') c.rotation.z = t * 28; if (nm === 'rotor') c.rotation.y = t * 24; if (nm === 'turret') c.rotation.y = p.turret || 0; if (nm === 'barrel') { c.rotation.y = p.turret || 0; c.rotation.x = p.pitch || 0; c.position.z = (p.recoil || 0) * 0.4; } if (nm === 'body' && p.bob) c.position.y = Math.sin(t * 9) * p.bob; if (p.walk) { if (nm === 'legL') c.rotation.x = Math.sin(t * p.walk) * 0.7; if (nm === 'legR') c.rotation.x = -Math.sin(t * p.walk) * 0.7; if (nm === 'head') c.rotation.x = 0.12 * Math.sin(t * p.walk * 2); } if (p.peck && nm === 'head') c.rotation.x = 0.9 * Math.max(0, Math.sin(t * 3.2 + (p.t0 || 0)));

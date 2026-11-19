@@ -1,5 +1,5 @@
 // Poder e Fama EP 05 - Cem Dias ou de Graça -- GERADO por mkvideo.py a partir de videos/bateria2017/beats.json (edite o beats.json, nao este arquivo)
-globalThis.REGMAP = {"nature/tree_oak": ["kit/veg_acacia", "nature/tree_oak"], "nature/flowerbed": ["nature/rocks"]}; globalThis.REGCHAO = null; globalThis.ASFALTO = true; globalThis.PRAIA = false;
+globalThis.REGMAP = {"nature/tree_oak": ["kit/veg_acacia", "nature/tree_oak"], "nature/flowerbed": ["nature/rocks"], "vehicles/tank": ["kit/tanque_moderno"], "ship": ["kit/navio_moderno"]}; globalThis.REGCHAO = null; globalThis.ASFALTO = true; globalThis.PRAIA = false;
 const X = 2000, DK = 6; const X_countryside = 1000; const X_hall = 8000;
 const WS = (i, off = 0) => TIMING.words[Math.min(i, TIMING.words.length - 1)][0] + off;   // frame em que a palavra de indice i comeca
 const A = [0, WS(17, -3), WS(36, -3), WS(49, -3), WS(64, -3), WS(81, -3), WS(95, -3), WS(108, -3), WS(122, -3), WS(132, -3), TOTAL_F()];

@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Ele viu pelo menos cinquenta e seis objetos brilhando em linha.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: olha (point) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: olha (point) -> acao + som de efeito; encena: brilha (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 56
 - Funcao na historia: desenvolvimento
