@@ -84,7 +84,8 @@
    ],
    "mapa": "OCEANOS",
    "mapa_at": 3,
-   "say": "A segunda, no mar. Quem mais puxa as marés é a Lua."
+   "say": "A segunda, no mar. Quem mais puxa as marés é a Lua.",
+   "hora": "noite"
   },
   {
    "shot": "two",
@@ -107,7 +108,9 @@
    ],
    "sfx": [
     "sting@40"
-   ]
+   ],
+   "hora": "noite",
+   "set": "harbor"
   },
   {
    "shot": "two",

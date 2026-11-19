@@ -13,7 +13,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b1  (~4.8 s)
 - Narracao: A primeira mudança seria a escuridão. Noite de lua cheia, preta como uma caverna.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@30, sting@50
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: puff@30, ring@50
@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b3  (~5.2 s)
 - Narracao: Sem ela, as marés perderiam mais da metade da força. Só o Sol continuaria puxando.
-- Som ambiente: birds
+- Som ambiente: sea
 - Efeitos sonoros marcados: sting@40
 - Efeito + som nas palavras-chave: encena: empurra (push) -> acao + som de efeito
 - Efeito visual marcado: ring@40
@@ -76,7 +76,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b8  (~6.2 s)
 - Narracao: E os dias parariam de ficar mais compridos, porque é a Lua que freia a Terra, bem devagar.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: ding@40
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@40
@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b9  (~4.8 s)
 - Narracao: Boa notícia: ela não vai embora. Só se afasta uns quatro centímetros por ano.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: ding@20, ding@60
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20, stars@60

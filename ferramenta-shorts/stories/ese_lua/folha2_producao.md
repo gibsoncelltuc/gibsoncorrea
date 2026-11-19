@@ -13,7 +13,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b1 - A primeira mudança seria a escuridão. Noite de lua cheia, preta como u...
-- Cenario: countryside | luz: noite | clima: limpo
+- Cenario: interior madeira | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): POV (variante 0, expressao shock); POV (variante 1, expressao scared)
@@ -23,7 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - A segunda, no mar. Quem mais puxa as marés é a Lua.
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: harbor | luz: noite | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): PES (variante 0, expressao surprised); POV (variante 0, expressao grin) | multidao: 6 de PES/POV
@@ -33,7 +33,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - Sem ela, as marés perderiam mais da metade da força. Só o Sol continua...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: harbor | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): PES (variante 0, expressao worried); PRO (variante 0, expressao stern, segura paper)
@@ -83,7 +83,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - E os dias parariam de ficar mais compridos, porque é a Lua que freia a...
-- Cenario: street | luz: noite | clima: limpo
+- Cenario: countryside | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): POV (variante 0, expressao surprised); POV (variante 1, expressao grin)
@@ -93,7 +93,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - Boa notícia: ela não vai embora. Só se afasta uns quatro centímetros p...
-- Cenario: street | luz: noite | clima: limpo
+- Cenario: countryside | luz: noite | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao smile); PES (variante 0, expressao grin); PRO (variante 0, expressao smile) | multidao: 18 de POV
