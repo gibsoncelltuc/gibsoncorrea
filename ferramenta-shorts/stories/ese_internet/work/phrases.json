@@ -1,0 +1,270 @@
+{
+ "duration": 64.68,
+ "frames30": 1940,
+ "source": "silence-align (cost 1.36)",
+ "segments": [
+  [
+   0.147875,
+   0.442708
+  ],
+  [
+   0.67275,
+   1.49317
+  ],
+  [
+   1.69883,
+   4.39562
+  ],
+  [
+   5.25662,
+   6.20375
+  ],
+  [
+   7.11725,
+   9.09375
+  ],
+  [
+   9.96496,
+   10.8627
+  ],
+  [
+   11.206,
+   11.7277
+  ],
+  [
+   11.9697,
+   14.2557
+  ],
+  [
+   15.1082,
+   16.7779
+  ],
+  [
+   17.6454,
+   18.6917
+  ],
+  [
+   18.9592,
+   22.1249
+  ],
+  [
+   22.9846,
+   24.1931
+  ],
+  [
+   25.0605,
+   26.4913
+  ],
+  [
+   27.366,
+   28.8591
+  ],
+  [
+   29.0747,
+   29.7013
+  ],
+  [
+   30.5908,
+   34.03
+  ],
+  [
+   34.9547,
+   36.5268
+  ],
+  [
+   37.3966,
+   39.7829
+  ],
+  [
+   40.1016,
+   42.7915
+  ],
+  [
+   43.632,
+   44.9073
+  ],
+  [
+   45.1702,
+   45.9097
+  ],
+  [
+   46.1336,
+   47.0088
+  ],
+  [
+   47.9015,
+   50.5981
+  ],
+  [
+   51.4552,
+   52.728
+  ],
+  [
+   53.5554,
+   54.5092
+  ],
+  [
+   55.3629,
+   58.4466
+  ],
+  [
+   59.3196,
+   60.535
+  ],
+  [
+   61.4375,
+   62.1397
+  ],
+  [
+   62.4114,
+   63.8725
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "E se,",
+   "s": 0.148,
+   "e": 0.443
+  },
+  {
+   "text": "amanh\u00e3 de manh\u00e3,",
+   "s": 0.673,
+   "e": 1.493
+  },
+  {
+   "text": "a internet do mundo inteiro ca\u00edsse por vinte e quatro horas?",
+   "s": 1.699,
+   "e": 4.396
+  },
+  {
+   "text": "Parece imposs\u00edvel.",
+   "s": 5.257,
+   "e": 6.204
+  },
+  {
+   "text": "Mas peda\u00e7os disso j\u00e1 aconteceram.",
+   "s": 7.117,
+   "e": 9.094
+  },
+  {
+   "text": "Em dois mil e vinte e um,",
+   "s": 9.965,
+   "e": 10.863
+  },
+  {
+   "text": "Facebook,",
+   "s": 11.206,
+   "e": 11.728
+  },
+  {
+   "text": "Instagram e WhatsApp ca\u00edram por seis horas.",
+   "s": 11.97,
+   "e": 14.256
+  },
+  {
+   "text": "Bilh\u00f5es ficaram sem mensagem.",
+   "s": 15.108,
+   "e": 16.778
+  },
+  {
+   "text": "Em dois mil e vinte e quatro,",
+   "s": 17.645,
+   "e": 18.692
+  },
+  {
+   "text": "uma atualiza\u00e7\u00e3o com defeito travou oito milh\u00f5es de computadores.",
+   "s": 18.959,
+   "e": 22.125
+  },
+  {
+   "text": "Aeroportos pararam.",
+   "s": 22.985,
+   "e": 24.193
+  },
+  {
+   "text": "Agora imagina o mundo todo.",
+   "s": 25.061,
+   "e": 26.491
+  },
+  {
+   "text": "Sem pagamento pelo celular,",
+   "s": 27.366,
+   "e": 28.859
+  },
+  {
+   "text": "sem cart\u00e3o.",
+   "s": 29.075,
+   "e": 29.701
+  },
+  {
+   "text": "S\u00f3 dinheiro de papel. Hospitais e bancos voltariam para o papel e a caneta.",
+   "s": 30.591,
+   "e": 34.03
+  },
+  {
+   "text": "Fila dando volta no quarteir\u00e3o.",
+   "s": 34.955,
+   "e": 36.527
+  },
+  {
+   "text": "Acontece que o mais estranho seria outra coisa:",
+   "s": 37.397,
+   "e": 39.783
+  },
+  {
+   "text": "bilh\u00f5es de pessoas sem saber o que fazer com as m\u00e3os.",
+   "s": 40.102,
+   "e": 42.791
+  },
+  {
+   "text": "Gente conversando na rua,",
+   "s": 43.632,
+   "e": 44.907
+  },
+  {
+   "text": "jogando bola,",
+   "s": 45.17,
+   "e": 45.91
+  },
+  {
+   "text": "olhando para o c\u00e9u.",
+   "s": 46.134,
+   "e": 47.009
+  },
+  {
+   "text": "Pesquisadores chamam isso de desintoxica\u00e7\u00e3o digital.",
+   "s": 47.901,
+   "e": 50.598
+  },
+  {
+   "text": "Muita gente dorme melhor.",
+   "s": 51.455,
+   "e": 52.728
+  },
+  {
+   "text": "E quando voltasse?",
+   "s": 53.555,
+   "e": 54.509
+  },
+  {
+   "text": "Todo mundo correria para postar como foi ficar sem internet.",
+   "s": 55.363,
+   "e": 58.447
+  },
+  {
+   "text": "Voc\u00ea aguentaria um dia?",
+   "s": 59.32,
+   "e": 60.535
+  },
+  {
+   "text": "Responde a\u00ed,",
+   "s": 61.438,
+   "e": 62.14
+  },
+  {
+   "text": "enquanto ainda tem internet.",
+   "s": 62.411,
+   "e": 63.873
+  }
+ ]
+}

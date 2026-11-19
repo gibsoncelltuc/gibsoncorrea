@@ -1,0 +1,297 @@
+{
+ "duration": 65.544,
+ "frames30": 1966,
+ "source": "silence-align (cost 0.79)",
+ "segments": [
+  [
+   0.156375,
+   0.509333
+  ],
+  [
+   0.731875,
+   1.78337
+  ],
+  [
+   2.04483,
+   3.99692
+  ],
+  [
+   4.83983,
+   6.54692
+  ],
+  [
+   7.39033,
+   8.157
+  ],
+  [
+   8.35021,
+   10.4985
+  ],
+  [
+   11.3356,
+   12.2719
+  ],
+  [
+   12.4782,
+   14.1412
+  ],
+  [
+   14.3872,
+   15.4254
+  ],
+  [
+   16.2935,
+   19.2338
+  ],
+  [
+   20.0879,
+   21.4223
+  ],
+  [
+   22.213,
+   22.928
+  ],
+  [
+   23.1712,
+   25.0892
+  ],
+  [
+   25.427,
+   28.0446
+  ],
+  [
+   28.8598,
+   29.6181
+  ],
+  [
+   29.836,
+   31.2963
+  ],
+  [
+   32.1401,
+   34.6884
+  ],
+  [
+   35.5503,
+   36.3675
+  ],
+  [
+   36.5749,
+   37.9047
+  ],
+  [
+   38.0695,
+   39.9385
+  ],
+  [
+   40.2324,
+   41.3223
+  ],
+  [
+   42.1895,
+   42.9894
+  ],
+  [
+   43.8336,
+   44.8705
+  ],
+  [
+   45.1634,
+   46.0628
+  ],
+  [
+   46.2789,
+   48.4932
+  ],
+  [
+   49.3605,
+   50.079
+  ],
+  [
+   50.937,
+   53.8582
+  ],
+  [
+   54.7117,
+   55.4997
+  ],
+  [
+   55.7264,
+   58.5193
+  ],
+  [
+   59.383,
+   61.3822
+  ],
+  [
+   62.2488,
+   63.8195
+  ],
+  [
+   63.9907,
+   64.75
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "E se,",
+   "s": 0.156,
+   "e": 0.509
+  },
+  {
+   "text": "de uma hora para outra,",
+   "s": 0.732,
+   "e": 1.783
+  },
+  {
+   "text": "todos os seres humanos sumissem da Terra?",
+   "s": 2.045,
+   "e": 3.997
+  },
+  {
+   "text": "O que aconteceria com as cidades?",
+   "s": 4.84,
+   "e": 6.547
+  },
+  {
+   "text": "No primeiro dia,",
+   "s": 7.39,
+   "e": 8.157
+  },
+  {
+   "text": "ningu\u00e9m mais estaria nas usinas de energia.",
+   "s": 8.35,
+   "e": 10.498
+  },
+  {
+   "text": "Em poucas horas,",
+   "s": 11.336,
+   "e": 12.272
+  },
+  {
+   "text": "as luzes come\u00e7ariam a se apagar,",
+   "s": 12.478,
+   "e": 14.141
+  },
+  {
+   "text": "cidade por cidade.",
+   "s": 14.387,
+   "e": 15.425
+  },
+  {
+   "text": "Cachorros e gatos de estima\u00e7\u00e3o teriam que se virar sozinhos.",
+   "s": 16.294,
+   "e": 19.234
+  },
+  {
+   "text": "Muitos voltariam a ca\u00e7ar.",
+   "s": 20.088,
+   "e": 21.422
+  },
+  {
+   "text": "Em dois dias,",
+   "s": 22.213,
+   "e": 22.928
+  },
+  {
+   "text": "o metr\u00f4 de Nova York ficaria inundado,",
+   "s": 23.171,
+   "e": 25.089
+  },
+  {
+   "text": "porque as m\u00e1quinas que tiram a \u00e1gua dos t\u00faneis iriam parar.",
+   "s": 25.427,
+   "e": 28.045
+  },
+  {
+   "text": "Em vinte anos,",
+   "s": 28.86,
+   "e": 29.618
+  },
+  {
+   "text": "as ruas virariam florestas.",
+   "s": 29.836,
+   "e": 31.296
+  },
+  {
+   "text": "Veados e lobos andariam pelo meio das avenidas.",
+   "s": 32.14,
+   "e": 34.688
+  },
+  {
+   "text": "Acontece que,",
+   "s": 35.55,
+   "e": 36.367
+  },
+  {
+   "text": "em algumas centenas de anos,",
+   "s": 36.575,
+   "e": 37.905
+  },
+  {
+   "text": "at\u00e9 as grandes pontes de a\u00e7o cairiam,",
+   "s": 38.069,
+   "e": 39.938
+  },
+  {
+   "text": "comidas pela ferrugem.",
+   "s": 40.232,
+   "e": 41.322
+  },
+  {
+   "text": "O que sobraria?",
+   "s": 42.19,
+   "e": 42.989
+  },
+  {
+   "text": "Constru\u00e7\u00f5es de pedra,",
+   "s": 43.834,
+   "e": 44.87
+  },
+  {
+   "text": "como as pir\u00e2mides,",
+   "s": 45.163,
+   "e": 46.063
+  },
+  {
+   "text": "que j\u00e1 resistem h\u00e1 mais de quatro mil anos.",
+   "s": 46.279,
+   "e": 48.493
+  },
+  {
+   "text": "E o pl\u00e1stico.",
+   "s": 49.361,
+   "e": 50.079
+  },
+  {
+   "text": "Alguns tipos levariam s\u00e9culos para se desfazer na natureza.",
+   "s": 50.937,
+   "e": 53.858
+  },
+  {
+   "text": "Em pouco tempo,",
+   "s": 54.712,
+   "e": 55.5
+  },
+  {
+   "text": "a natureza tomaria de volta quase tudo o que constru\u00edmos.",
+   "s": 55.726,
+   "e": 58.519
+  },
+  {
+   "text": "O planeta seguiria girando, tranquilo.",
+   "s": 59.383,
+   "e": 61.382
+  },
+  {
+   "text": "Somos n\u00f3s que precisamos dele,",
+   "s": 62.249,
+   "e": 63.819
+  },
+  {
+   "text": "n\u00e3o o contr\u00e1rio.",
+   "s": 63.991,
+   "e": 64.75
+  }
+ ]
+}
