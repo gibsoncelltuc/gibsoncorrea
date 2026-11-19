@@ -122,7 +122,8 @@
    "text": "INVASÃO",
    "tat": 8,
    "tstyle": "red",
-   "move": 9
+   "move": 9,
+   "batalha": true
   },
   {
    "say": "A Bulgária apelou para a Liga das Nações, o antecessor da ONU.",
@@ -167,5 +168,6 @@
    "tstyle": "brown",
    "mood": "playful"
   }
- ]
+ ],
+ "heroi": "kit/dog_sit"
 }

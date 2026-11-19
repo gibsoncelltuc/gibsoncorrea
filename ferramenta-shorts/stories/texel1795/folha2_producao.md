@@ -4,25 +4,23 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Em mil setecentos e noventa e cinco, a França invadia a Holanda, e faz...
 - Cenario: arctic | luz: arctic | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (0): -
-- Animacao: -
+- Animacao: conversar
 - Objetos/modelos: ship
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca, frio, holanda
-- RISCOS: 
-  - personagens parados (so falam e piscam) -> CORRECAO: "acao": "conversar|discutir|comemorar", "interacao": "empurrar|cochichar|entregar|susto", objeto na mao (4o campo do "who") ou "chega": true
+- RISCOS: nenhum
 
 ## Cena b1 - A frota holandesa estava ancorada perto de Den Helder, e o mar congelo...
-- Cenario: arctic | luz: arctic | clima: limpo
+- Cenario: harbor | luz: arctic | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): NED (variante 0, expressao nervous); NED (variante 1, expressao shock) | multidao: 10 de NED
 - Animacao: reagir
-- Objetos/modelos: ship
+- Objetos/modelos: ship, kit/marco_amsterdam, navios ao fundo
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frota
-- RISCOS: 
-  - a narracao cita agua e o cenario "arctic" nao tem agua -> CORRECAO: "set": "harbor" (cais com mar e navio) ou "set": "palace" (praia), ou "mapa" para so situar
+- RISCOS: nenhum
 
 ## Cena b2 - Os navios ficaram presos no gelo, como carros num congestionamento.
 - Cenario: arctic | luz: arctic | clima: limpo
@@ -30,67 +28,65 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): NED (variante 2, expressao pained) | multidao: 6 de NED
 - Animacao: encena
-- Objetos/modelos: ship
+- Objetos/modelos: ship, vehicles/truck
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gelo, navios
-- RISCOS: 
-  - veiculo citado e nao aparece -> CORRECAO: "veiculo": {"asset": "vehicles/truck"} (ou wagon, locomotive, car, tank, airplane) ou "caminhoes": true na batalha
+- RISCOS: nenhum
 
 ## Cena b3 - Do outro lado, os franceses tinham cavalaria, os hussardos, e nenhum n...
-- Cenario: arctic | luz: arctic | clima: limpo
+- Cenario: countryside | luz: arctic | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (3): FRA (variante 0, expressao stern); FRA (variante 1, expressao neutral); OFF (variante 0, expressao stern)
 - Animacao: conversar | interacao: aproxima-se
-- Objetos/modelos: horse
+- Objetos/modelos: kit/marco_amsterdam, horse
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franceses, hussardos
 - RISCOS: nenhum
 
-## Cena b4 - O comandante teve uma ideia maluca: atacar a frota a cavalo.
+## Cena b4 - O chefe da cavalaria teve uma ideia maluca: atacar a frota a cavalo.
 - Cenario: arctic | luz: arctic | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (1): OFF (variante 1, expressao grin) | multidao: 5 de OFF
+- Personagens principais (1): GEN (variante 0, expressao grin) | multidao: 5 de GEN
 - Animacao: conversar
 - Objetos/modelos: horse
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalo, comandante, frota
-- RISCOS: 
-  - a narracao cita "comandante" e ninguem em cena esta vestido a carater -> CORRECAO: por no "who" um personagem com "profissao": "general" no figurino (coroa/farda/chapeu proprios)
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalaria, cavalo, chefe, frota
+- RISCOS: nenhum
 
 ## Cena b5 - Na noite de vinte e três de janeiro, os hussardos atravessaram o gelo,...
-- Cenario: arctic | luz: tense | clima: limpo
-- Camera: track = travelling lateral acompanhando quem anda
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): FRA (variante 0, expressao stern); FRA (variante 2, expressao neutral)
-- Animacao: -
-- Objetos/modelos: horse
+- Cenario: countryside | luz: tense | clima: limpo
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (2): FRA (variante 0, expressao stern); FRA (variante 2, expressao neutral) | multidao: 18 de FRA
+- Animacao: - | batalha encenada
+- Objetos/modelos: kit/marco_amsterdam, horse
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cascos, cavalos, gelo, hussardos, janeiro, panos, vinte
 - RISCOS: nenhum
 
 ## Cena b6 - Os marinheiros holandeses viram a cavalaria chegar, e a frota se rende...
 - Cenario: arctic | luz: arctic | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): NED (variante 0, expressao shock); FRA (variante 1, expressao grin) | multidao: 5 de NED/FRA
+- Personagens principais (2): NED (variante 0, expressao shock); FRA (variante 1, expressao grin) | multidao: 18 de NED/FRA
 - Animacao: reagir | batalha encenada
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalaria, frota, marinheiros
 - RISCOS: nenhum
 
 ## Cena b7 - Foram mais de uma dezena de navios capturados por soldados a cavalo.
-- Cenario: arctic | luz: arctic | clima: limpo
+- Cenario: mountain | luz: arctic | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): FRA (variante 0, expressao laugh); FRA (variante 2, expressao grin) | multidao: 5 de FRA
 - Animacao: conversar | interacao: avanca e o outro recua
-- Objetos/modelos: ship, horse
+- Objetos/modelos: ship, kit/marco_amsterdam, horse
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalo, dezena, navios
 - RISCOS: nenhum
 
 ## Cena b8 - Dizem que foi a única vez na história em que uma cavalaria capturou um...
-- Cenario: arctic | luz: arctic | clima: limpo
+- Cenario: interior madeira | luz: arctic | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
-- Personagens principais (1): OFF (variante 0, expressao laugh) | multidao: 10 de OFF
+- Personagens principais (1): OFF (variante 0, expressao laugh)
 - Animacao: conversar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalaria, frota
@@ -102,27 +98,17 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 ship | b0, b1, b2, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_amsterdam | b1, b3, b5, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+vehicles/truck | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 horse | b3, b4, b5, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b6 | planos abertos: 3 | mistura: close 14% | medio 61% | aberto 24% | detalhe 2%
+- Objeto heroi: kit/navio_vapor | grandes momentos: b5, b6 | planos abertos: 4 | mistura: close 17% | medio 48% | aberto 29% | detalhe 6%
 - Interacoes: b3 aproxima-se, b7 avanca e o outro recua
-- RISCOS GERAIS: 
-  - menos de 2 grandes momentos -> CORRECAO: "batalha": true (ou "impact": true) em duas cenas de acao
-  - pouca variedade de cenario ({'arctic': 9}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
-  - video sem objeto heroi -> CORRECAO: "heroi": "kit/<objeto>" no topo do roteiro (modele se nao existir)
-  - 1 palavra(s) de acao sem efeito + som -> CORRECAO: ver plano.md e por "fx"/"sfx" na cena
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 8 risco(s) em aberto
-- b0: personagens parados (so falam e piscam)
-- b1: a narracao cita agua e o cenario "arctic" nao tem agua
-- b2: veiculo citado e nao aparece
-- b4: a narracao cita "comandante" e ninguem em cena esta vestido a carater
-- geral: menos de 2 grandes momentos
-- geral: pouca variedade de cenario ({'arctic': 9}): o video fica parecendo todos os outros
-- geral: video sem objeto heroi
-- geral: 1 palavra(s) de acao sem efeito + som
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh texel1795 bN bM` (so essas cenas).
