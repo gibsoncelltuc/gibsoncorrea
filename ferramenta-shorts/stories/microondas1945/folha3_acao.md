@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 05 - O Micro-ondas e o Chocolate
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.5s - 12 palavras - plano two
@@ -35,9 +35,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | chegou (18.7s) | EFEITO: dust | poeira + som | OK |
-| 2 | - | INTERACAO | vai ate o outro | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| 4 | - | CHEGADA | alguem entra andando | OK |
+| 2 | chegou (18.7s) | ACAO: chega | entra andando pela lateral | OK |
+| 3 | - | INTERACAO | vai ate o outro | OK |
+| 4 | - | ATUACAO | conversar | OK |
+| 5 | - | CHEGADA | alguem entra andando | OK |
 
 ## Cena b4 - 22.3s a 25.8s - 12 palavras - plano two
 > "Pouco depois, sentiu o bolso quente e disse: "O meu chocolate derreteu!""

@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O rei Hierão mandou fazer uma coroa de ouro puro, mas desconfiou do ourives.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) distrust -> expr + som de efeito; ouro -> stars + som de sino; encena: fala (point) -> acao + som de efeito; encena: pensa (think) -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) distrust -> expr + som de efeito; ouro -> stars + som de sino; encena: fala (point) -> acao + som de efeito; encena: paga (reach) -> acao + som de efeito; encena: pensa (think) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Será que ele trocou parte do ouro por prata e guardou o resto para si?
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: ouro -> stars + som de sino
+- Efeito + som nas palavras-chave: ouro -> stars + som de sino; encena: paga (reach) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que, numa tarde, ele entrou na banheira, e a água transbordou pelas bordas.
 - Som ambiente: sea
 - Efeitos sonoros marcados: whoosh@50, ding@70
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: chega (point) -> acao + som de efeito
 - Efeito visual marcado: ring@50, stars@70
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Assim dava para medir a coroa, e comparar com o mesmo peso de ouro puro.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: ouro -> stars + som de sino; encena: examina (think) -> acao + som de efeito
+- Efeito + som nas palavras-chave: ouro -> stars + som de sino; encena: examina (think) -> acao + som de efeito; encena: paga (reach) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

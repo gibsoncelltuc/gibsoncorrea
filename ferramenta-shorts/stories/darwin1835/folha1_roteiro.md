@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Era mil oitocentos e trinta e cinco, e o inglês Charles Darwin chegou às ilhas Galápagos, a bordo do navio Beagle.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: chegou -> dust + som de impacto
+- Efeito + som nas palavras-chave: chegou -> dust + som de impacto; encena: chega (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: GALÁPAGOS
 - Funcao na historia: desenvolvimento

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 08 - Darwin e os Tentilhões
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 4.1s - 15 palavras - plano two
@@ -20,7 +20,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | chegou (8.3s) | EFEITO: dust | poeira + som | OK |
-| 2 | - | MAPA | GALÁPAGOS | OK |
+| 2 | chegou (8.3s) | ACAO: chega | entra andando pela lateral | OK |
+| 3 | - | MAPA | GALÁPAGOS | OK |
 
 ## Cena b2 - 11.8s a 16.2s - 14 palavras - plano two
 > "Ele passou semanas coletando animais, plantas e uns passarinhos pequenos, de ilha em ilha."

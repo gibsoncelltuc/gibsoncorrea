@@ -6,7 +6,7 @@ b0 | two | -  | - | (rosto) angry (expr + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | interior | (rosto) angry (expr + som de efeito) | -
 b3 | two | -  | interior | - | -
-b4 | two | -  | interior | (rosto) pleading (expr + som de efeito); chegou (dust + som de impacto) | -
+b4 | two | -  | interior | (rosto) pleading (expr + som de efeito); chegou (dust + som de impacto); encena: chega (point) (acao + som de efeito) | -
 b5 | close | -  | - | (rosto) scared (expr + som de efeito) | -
 b6 | orbit | -  | batalha aberta com tiros, tropa | - | -
 b7 | track | -  | interior | correu (dust + som de impacto); encena: corre (acao + som de efeito) | -

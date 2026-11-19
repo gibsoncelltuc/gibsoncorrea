@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 06 - Pasteur e a Vacina da Raiva
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 3.1s - 15 palavras - plano two
@@ -43,10 +43,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | chegou (23.4s) | EFEITO: dust | poeira + som | OK |
-| 2 | - | EMOCAO: pleading | o rosto vira "pleading" na palavra | OK |
-| 3 | - | INTERACAO | o outro se aproxima | OK |
-| 4 | - | ATUACAO | conversar | OK |
-| 5 | - | CHEGADA | alguem entra andando | OK |
+| 2 | chegou (23.4s) | ACAO: chega | entra andando pela lateral | OK |
+| 3 | - | EMOCAO: pleading | o rosto vira "pleading" na palavra | OK |
+| 4 | - | INTERACAO | o outro se aproxima | OK |
+| 5 | - | ATUACAO | conversar | OK |
+| 6 | - | CHEGADA | alguem entra andando | OK |
 
 ## Cena b5 - 29.8s a 34.2s - 17 palavras - plano close
 > "Pasteur não era médico, e ficou com medo, mas depois de ouvir os médicos ele decidiu tentar."

@@ -5,7 +5,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | -  | - | encena: vira (up) (acao + som de efeito); encena: calor (reach) (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | interior | - | -
-b3 | two | -  | interior | chegou (dust + som de impacto) | -
+b3 | two | -  | interior | chegou (dust + som de impacto); encena: chega (point) (acao + som de efeito) | -
 b4 | two | -  | interior | encena: calor (reach) (acao + som de efeito); encena: vira (up) (acao + som de efeito) | -
 b5 | close | -  | - | - | -
 b6 | orbit | -  | batalha aberta com tiros, tropa | - | -

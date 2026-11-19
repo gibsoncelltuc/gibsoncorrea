@@ -4,13 +4,13 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | track | -  | placa: EUREKA | encena: pula (acao + som de efeito); encena: sai (acao + som de efeito); encena: corre (acao + som de efeito); encena: grita (up) (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | (rosto) distrust (expr + som de efeito) | -
-b2 | two | -  | interior | (rosto) distrust (expr + som de efeito); ouro (stars + som de sino); encena: fala (point) (acao + som de efeito); encena: pensa (think) (acao + som de efeito) | -
-b3 | two | -  | interior | ouro (stars + som de sino) | -
+b2 | two | -  | interior | (rosto) distrust (expr + som de efeito); ouro (stars + som de sino); encena: fala (point) (acao + som de efeito); encena: paga (reach) (acao + som de efeito); encena: pensa (think) (acao + som de efeito) | -
+b3 | two | -  | interior | ouro (stars + som de sino); encena: paga (reach) (acao + som de efeito) | -
 b4 | two | -  | interior, objeto na mao | - | -
 b5 | close | -  | - | encena: pensa (think) (acao + som de efeito) | -
-b6 | orbit | -  | batalha aberta com tiros, tropa | - | -
+b6 | orbit | -  | batalha aberta com tiros, tropa | encena: chega (point) (acao + som de efeito) | -
 b7 | two | -  | interior | percebeu (ring + som de alerta); encena: pensa (think) (acao + som de efeito) | -
-b8 | prop | -  | - | ouro (stars + som de sino); encena: examina (think) (acao + som de efeito) | -
+b8 | prop | -  | - | ouro (stars + som de sino); encena: examina (think) (acao + som de efeito); encena: paga (reach) (acao + som de efeito) | -
 b9 | group | -  | batalha aberta com tiros, tropa, placa: EUREKA | (rosto) shout (expr + som de efeito); gritou (ring + som de alerta); correu (dust + som de impacto); encena: grita (up) (acao + som de efeito); encena: corre (acao + som de efeito) | -
 b10 | two | -  | - | - | -
 

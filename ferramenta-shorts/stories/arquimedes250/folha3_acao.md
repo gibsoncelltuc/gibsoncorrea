@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 02 - Arquimedes e o Eureca
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 41 acoes catalogadas, 41 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 45 acoes catalogadas, 45 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 3.9s - 14 palavras - plano track
@@ -30,10 +30,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | mandou (13.1s) | ACAO: fala | aponta explicando | OK |
 | 2 | ouro (14.4s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | desconfiou (15.4s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
-| 4 | - | EMOCAO: distrust | o rosto vira "distrust" na palavra | OK |
-| 5 | - | INTERACAO | discutir | OK |
-| 6 | - | ATUACAO | reagir | OK |
+| 3 | ouro (14.4s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 4 | desconfiou (15.4s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
+| 5 | - | EMOCAO: distrust | o rosto vira "distrust" na palavra | OK |
+| 6 | - | INTERACAO | discutir | OK |
+| 7 | - | ATUACAO | reagir | OK |
 
 ## Cena b3 - 17.5s a 20.7s - 15 palavras - plano two
 > "Será que ele trocou parte do ouro por prata e guardou o resto para si?"
@@ -41,8 +42,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | ouro (18.7s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | - | INTERACAO | o outro se aproxima | OK |
-| 3 | - | ATUACAO | discutir | OK |
+| 2 | ouro (18.7s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 3 | - | INTERACAO | o outro se aproxima | OK |
+| 4 | - | ATUACAO | discutir | OK |
 
 ## Cena b4 - 21.7s a 25.2s - 12 palavras - plano two
 > "O rei chamou Arquimedes e disse: "Descubra, mas sem estragar a coroa.""
@@ -65,8 +67,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 1 | entrou (32.7s) | ACAO: chega | entra andando pela lateral | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | ATUACAO | reagir | OK |
 
 ## Cena b7 - 36.2s a 39.6s - 17 palavras - plano two
 > "Ele percebeu que o tanto de água que sai é igual ao tamanho do corpo que entra."
@@ -85,8 +88,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | medir (41.6s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
 | 2 | ouro (44.1s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | - | INTERACAO | susto | OK |
-| 4 | - | ATUACAO | reagir | OK |
+| 3 | ouro (44.1s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 4 | - | INTERACAO | susto | OK |
+| 5 | - | ATUACAO | reagir | OK |
 
 ## Cena b9 - 45.5s a 50.6s - 14 palavras - plano group
 > ""Eureca!", gritou ele, e a cidade inteira correu atrás. A coroa tinha prata misturada."

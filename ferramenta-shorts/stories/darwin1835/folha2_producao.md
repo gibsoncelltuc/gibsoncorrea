@@ -17,7 +17,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): MAR (variante 0, expressao neutral); MAR (variante 1, expressao smile) | multidao: 8 de MAR/POV
-- Animacao: -
+- Animacao: encena
 - Objetos/modelos: navios ao fundo, navio em movimento
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bordo, ilhas, ingles, navio
 - RISCOS: nenhum

@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Um dia, uma mãe chegou à porta dele, com o filho Joseph, mordido por um animal, e pediu: "Salve o meu filho!"
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; chegou -> dust + som de impacto
+- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; chegou -> dust + som de impacto; encena: chega (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
