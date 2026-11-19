@@ -8,7 +8,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ROE (variante 0, expressao grin, segura paper); ANA (variante 0, expressao surprised)
 - Animacao: conversar | interacao: aproxima-se
-- Objetos/modelos: kit/xray_plate
+- Objetos/modelos: kit/xray_plate, kit/marco_wurzburg
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cientista, corpo, dentro, primeira, propria
 - RISCOS: nenhum
 
@@ -18,14 +18,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
 - Animacao: -
-- Objetos/modelos: buildings/apartment, buildings/house_two, nature/lamppost
+- Objetos/modelos: kit/marco_wurzburg, buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alemanha
 - RISCOS: nenhum
 
 ## Cena b2 - Wilhelm Röntgen passava as noites no laboratório, testando um tubo de ...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): ROE (variante 0, expressao stern)
 - Animacao: conversar
 - Objetos/modelos: kit/crookes_tube
@@ -34,10 +34,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Numa noite, ele cobriu o tubo com papelão preto, e apagou a luz.
 - Cenario: interior madeira | luz: noite | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): ROE (variante 0, expressao suspicious, segura paper)
-- Animacao: -
+- Animacao: encena
 - Objetos/modelos: kit/crookes_tube
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): papelao, tubo
 - RISCOS: nenhum
@@ -88,7 +88,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): JOR (variante 0, expressao surprised, segura paper); MED (variante 0, expressao grin); POV (variante 0, expressao shock) | multidao: 18 de POV/JOR/MED
 - Animacao: reagir | batalha encenada
-- Objetos/modelos: kit/xray_plate
+- Objetos/modelos: kit/xray_plate, kit/marco_wurzburg
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): noticia, raio
 - RISCOS: nenhum
 
@@ -108,17 +108,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): ROE (variante 0, expressao laugh); MED (variante 0, expressao grin); POV (variante 0, expressao laugh) | multidao: 18 de POV/MED/JOR
 - Animacao: comemorar | batalha encenada
-- Objetos/modelos: -
+- Objetos/modelos: kit/marco_wurzburg
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fisica, rontgen
 - RISCOS: nenhum
 
 ## Cena b11 - E nunca quis patentear a descoberta. O raio X era de todo mundo.
 - Cenario: street | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (1): ROE (variante 0, expressao smile) | multidao: 10 de ROE
+- Personagens principais (1): ROE (variante 0, expressao smile) | multidao: 30 de POV
 - Animacao: conversar
-- Objetos/modelos: kit/xray_plate
+- Objetos/modelos: kit/marco_wurzburg, kit/xray_plate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): descoberta, raio
 - RISCOS: nenhum
 
@@ -128,6 +128,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/xray_plate | b0, b4, b5, b6, b7, b8, b9, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_wurzburg | b0, b1, b8, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/apartment | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -135,7 +136,7 @@ kit/crookes_tube | b2, b3, b5 | pronto | conferir na folha de contato se le bem;
 
 
 ## Video inteiro
-- Objeto heroi: kit/xray_plate | grandes momentos: b8, b10 | planos abertos: 3 | mistura: close 19% | medio 65% | aberto 10% | detalhe 6%
+- Objeto heroi: kit/xray_plate | grandes momentos: b8, b10 | planos abertos: 3 | mistura: close 11% | medio 77% | aberto 10% | detalhe 2%
 - Interacoes: b0 aproxima-se, b6 entregar, b9 avanca e o outro recua
 - RISCOS GERAIS: nenhum
 
