@@ -2966,6 +2966,17 @@ const AN = {
   cat:    { body: "#ec9a44", shade: [0.78, 0.62, 0.62], belly: "#fbe3c0", dark: "#c0702a", snout: "#fbe3c0", nose: "#f08aa0", ear: "pointcat", tail: "catlong", hoof: "#fbe3c0", sock: null, a: 150, b: 74, hipY: 840, kneeY: 905, legW: 24, neck: 46, head: { a: 62, b: 58, sn: 26, sh: 24 }, stripes: true, whiskers: true },
   donkey: { body: "#9a958f", shade: [0.74, 0.7, 0.78], belly: "#d8d2c8", dark: "#6e6a66", snout: "#e1dad0", nose: "#3a3330", ear: "long", tail: "tuft", hoof: "#3a3330", sock: null, a: 200, b: 100, hipY: 760, kneeY: 860, legW: 32, neck: 66, head: { a: 74, b: 84, sn: 70, sh: 36 }, mane: "#6e6a66" },
 };
+
+// animais sem desenho 2D proprio: derivados de um parecido, com cor e orelha certas (antes: travava com "hipY")
+Object.assign(AN, {
+  wolf:     { ...AN.dog, body: "#8a8f98", belly: "#d8dce2", dark: "#5f646c", snout: "#c9ccd2", ear: "pointcat", tail: "long" },
+  fox:      { ...AN.dog, body: "#e0782a", belly: "#fbeede", dark: "#a8501a", snout: "#fbeede", ear: "pointcat", tail: "flow" },
+  deer:     { ...AN.goat, body: "#b07a48", belly: "#efe0c8", dark: "#7e5530", snout: "#d9b48a", nose: "#2b2430", tail: "stub", horns: true },
+  rabbit:   { ...AN.cat, body: "#e8e2da", belly: "#ffffff", dark: "#bdb4aa", snout: "#ffffff", ear: "long", tail: "stub" },
+  lion:     { ...AN.dog, body: "#d9a24a", belly: "#f2d49a", dark: "#a8742c", snout: "#f2d49a", ear: "pointcat", tail: "tuft", a: 220, b: 118, mane: "#8a4f1c" },
+  elephant: { ...AN.cow, body: "#9aa0a8", belly: "#b6bbc2", dark: "#70757c", snout: "#9aa0a8", nose: "#70757c", ear: "cow", tail: "tuft", udder: false, horns: false, extra: null },
+});
+
 export const animalSide = (p, o = {}) => {
   if ((o.species || "pig") === "pig") return pigToon(p, o);
   const A = AN[o.species || "pig"], g = p.g, light = o.light ?? rad(-120), thick = thickAngle(light), ow = 6.5;
