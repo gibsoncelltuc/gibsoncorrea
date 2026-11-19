@@ -69,8 +69,6 @@ gibber(F(_A[10] + int((_A[11] - _A[10]) * 0.2)), 4, 200, 0.12); gibber(F(_A[10] 
 whoosh(F(_A[11]), 0.4, 0.35)
 birds(F(_A[11]), F(_A[12]), 6, 0.08)
 gibber(F(_A[11] + int((_A[12] - _A[11]) * 0.2)), 4, 260, 0.12); gibber(F(_A[11] + int((_A[12] - _A[11]) * 0.58)), 4, 185, 0.12)
-tick(F(int(_W(34))))
-tick(F(int(_W(37))))
 gun(F(int(_W(48))))
 gun(F(int(_W(48))))
 tick(F(int(_W(73))))

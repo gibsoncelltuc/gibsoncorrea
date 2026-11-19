@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Um dia, um fazendeiro americano encontrou um porco comendo as batatas da horta dele.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: animal: pig come -> acao + som de efeito; encena: examina (think) -> acao + som de efeito; encena: x_come (lift) -> acao + som de efeito
+- Efeito + som nas palavras-chave: animal: pig come -> acao + som de efeito; encena: olha (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
