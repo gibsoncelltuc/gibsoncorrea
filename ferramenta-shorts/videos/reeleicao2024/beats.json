@@ -101,16 +101,15 @@
    "say": "Foi em cinco de novembro de dois mil e vinte e quatro, nos Estados Unidos."
   },
   {
-   "shot": "two",
+   "shot": "reveal",
    "who": [
-    "POV:0:suspicious",
-    "POV:1:grin"
+    "TRU:0:smug",
+    "POV:0:grin"
    ],
    "props": [],
    "say": "Milhões de americanos escolheram entre Trump e a vice-presidente Kamala Harris.",
    "text": "TRUMP x HARRIS",
-   "tat": 10,
-   "acao": "conversar"
+   "tat": 10
   },
   {
    "shot": "two",

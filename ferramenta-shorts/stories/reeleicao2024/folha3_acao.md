@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 21 - A Volta de Trump
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 41 acoes catalogadas, 41 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.7s - 18 palavras - plano two
@@ -24,14 +24,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | MAPA | ESTADOS UNIDOS | OK |
 
-## Cena b2 - 11.1s a 13.9s - 11 palavras - plano two
+## Cena b2 - 11.1s a 13.9s - 11 palavras - plano reveal
 > "Milhões de americanos escolheram entre Trump e a vice-presidente Kamala Harris."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | insiste | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | TRUMP x HARRIS | OK |
+| 1 | - | PLACA | TRUMP x HARRIS | OK |
 
 ## Cena b3 - 14.1s a 19.5s - 11 palavras - plano two
 > "A contagem entrou pela madrugada. Os estados indecisos iam decidir tudo."
@@ -73,7 +71,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | vai ate o outro | OK |
+| 1 | - | INTERACAO | insiste | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 38.2s a 42.4s - 12 palavras - plano two
@@ -81,7 +79,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | aproxima-se | OK |
+| 1 | - | INTERACAO | vai ate o outro | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b8 - 42.7s a 46.8s - 16 palavras - plano two

@@ -1,52 +1,45 @@
 {
  "fails": [
   {
-   "f": 426,
+   "f": 88,
+   "shot": "b0_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 384,
    "shot": "b2_v",
    "why": [
     "empty take: no character in the take"
    ]
   },
   {
-   "f": 428,
+   "f": 388,
    "shot": "b2_v",
    "why": [
     "empty take: no character in the take"
    ]
   },
   {
-   "f": 432,
+   "f": 392,
    "shot": "b2_v",
    "why": [
     "empty take: no character in the take"
    ]
   },
   {
-   "f": 436,
+   "f": 396,
    "shot": "b2_v",
    "why": [
-    "empty take: no character in the take"
+    "pov: head/torso cropped (box 0.768, 0.519, 1.088, 1.061)"
    ]
   },
   {
-   "f": 440,
+   "f": 400,
    "shot": "b2_v",
    "why": [
-    "empty take: no character in the take"
-   ]
-  },
-  {
-   "f": 444,
-   "shot": "b2_v",
-   "why": [
-    "empty take: no character in the take"
-   ]
-  },
-  {
-   "f": 448,
-   "shot": "b2_v",
-   "why": [
-    "pov: head/torso cropped (box -0.079, 0.35, 0.443, 0.926)"
+    "pov: head/torso cropped (box -0.14, 0.525, 0.469, 1.073)"
    ]
   }
  ],
