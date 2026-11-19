@@ -1,0 +1,333 @@
+{
+ "duration": 65.904,
+ "frames30": 1977,
+ "source": "silence-align (cost 0.92)",
+ "segments": [
+  [
+   0.15575,
+   2.63346
+  ],
+  [
+   3.48629,
+   4.05962
+  ],
+  [
+   4.92983,
+   8.61871
+  ],
+  [
+   8.90633,
+   11.16
+  ],
+  [
+   12.0051,
+   12.9197
+  ],
+  [
+   13.1638,
+   13.9533
+  ],
+  [
+   14.8095,
+   15.769
+  ],
+  [
+   16.6653,
+   17.3175
+  ],
+  [
+   17.6032,
+   18.7589
+  ],
+  [
+   18.9886,
+   20.0426
+  ],
+  [
+   20.9087,
+   21.6253
+  ],
+  [
+   22.4923,
+   23.9275
+  ],
+  [
+   24.1695,
+   25.1417
+  ],
+  [
+   25.9963,
+   27.0933
+  ],
+  [
+   27.3992,
+   29.198
+  ],
+  [
+   29.4075,
+   30.3233
+  ],
+  [
+   31.1551,
+   33.3486
+  ],
+  [
+   34.2202,
+   35.5892
+  ],
+  [
+   35.8705,
+   36.9886
+  ],
+  [
+   37.8556,
+   38.9454
+  ],
+  [
+   39.1442,
+   40.5412
+  ],
+  [
+   40.7708,
+   42.3312
+  ],
+  [
+   43.19,
+   44.0156
+  ],
+  [
+   44.8757,
+   45.9597
+  ],
+  [
+   46.285,
+   47.4127
+  ],
+  [
+   47.6935,
+   49.2427
+  ],
+  [
+   50.0921,
+   51.502
+  ],
+  [
+   51.7537,
+   53.0704
+  ],
+  [
+   53.3106,
+   54.776
+  ],
+  [
+   55.6246,
+   56.0382
+  ],
+  [
+   56.3304,
+   57.7595
+  ],
+  [
+   58.1124,
+   61.2737
+  ],
+  [
+   62.128,
+   62.6632
+  ],
+  [
+   62.9058,
+   63.279
+  ],
+  [
+   64.1205,
+   64.6115
+  ],
+  [
+   64.9235,
+   65.0915
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "A Austr\u00e1lia declarou guerra a um bando de p\u00e1ssaros.",
+   "s": 0.156,
+   "e": 2.633
+  },
+  {
+   "text": "E perdeu.",
+   "s": 3.486,
+   "e": 4.06
+  },
+  {
+   "text": "Vinte mil emus estavam devorando as planta\u00e7\u00f5es de trigo no oeste do pa\u00eds,",
+   "s": 4.93,
+   "e": 8.619
+  },
+  {
+   "text": "e os fazendeiros foram pedir socorro ao governo.",
+   "s": 8.906,
+   "e": 11.16
+  },
+  {
+   "text": "\"Mande o ex\u00e9rcito\",",
+   "s": 12.005,
+   "e": 12.92
+  },
+  {
+   "text": "pediram eles.",
+   "s": 13.164,
+   "e": 13.953
+  },
+  {
+   "text": "E o ministro mandou.",
+   "s": 14.809,
+   "e": 15.769
+  },
+  {
+   "text": "Soldados,",
+   "s": 16.665,
+   "e": 17.317
+  },
+  {
+   "text": "duas metralhadoras,",
+   "s": 17.603,
+   "e": 18.759
+  },
+  {
+   "text": "e dez mil balas.",
+   "s": 18.989,
+   "e": 20.043
+  },
+  {
+   "text": "Contra emus.",
+   "s": 20.909,
+   "e": 21.625
+  },
+  {
+   "text": "Acontece que emu \u00e9 r\u00e1pido,",
+   "s": 22.492,
+   "e": 23.927
+  },
+  {
+   "text": "e n\u00e3o fica parado.",
+   "s": 24.169,
+   "e": 25.142
+  },
+  {
+   "text": "Os soldados atiravam,",
+   "s": 25.996,
+   "e": 27.093
+  },
+  {
+   "text": "e os p\u00e1ssaros se espalhavam pela fazenda,",
+   "s": 27.399,
+   "e": 29.198
+  },
+  {
+   "text": "sumindo na poeira.",
+   "s": 29.407,
+   "e": 30.323
+  },
+  {
+   "text": "Um atirador montou a metralhadora num caminh\u00e3o.",
+   "s": 31.155,
+   "e": 33.349
+  },
+  {
+   "text": "Mas o caminh\u00e3o pulava tanto,",
+   "s": 34.22,
+   "e": 35.589
+  },
+  {
+   "text": "que ele n\u00e3o acertou nenhum.",
+   "s": 35.87,
+   "e": 36.989
+  },
+  {
+   "text": "Depois de uma semana,",
+   "s": 37.856,
+   "e": 38.945
+  },
+  {
+   "text": "milhares de balas gastas,",
+   "s": 39.144,
+   "e": 40.541
+  },
+  {
+   "text": "e os emus quase sem um arranh\u00e3o.",
+   "s": 40.771,
+   "e": 42.331
+  },
+  {
+   "text": "A tropa fugiu.",
+   "s": 43.19,
+   "e": 44.016
+  },
+  {
+   "text": "A imprensa gargalhou,",
+   "s": 44.876,
+   "e": 45.96
+  },
+  {
+   "text": "e o comandante admitiu:",
+   "s": 46.285,
+   "e": 47.413
+  },
+  {
+   "text": "\"Eles aguentam bala como tanques.\"",
+   "s": 47.694,
+   "e": 49.243
+  },
+  {
+   "text": "O ex\u00e9rcito tentou de novo,",
+   "s": 50.092,
+   "e": 51.502
+  },
+  {
+   "text": "abateu algumas centenas,",
+   "s": 51.754,
+   "e": 53.07
+  },
+  {
+   "text": "e os emus continuaram voltando.",
+   "s": 53.311,
+   "e": 54.776
+  },
+  {
+   "text": "No fim,",
+   "s": 55.625,
+   "e": 56.038
+  },
+  {
+   "text": "o governo desistiu da guerra,",
+   "s": 56.33,
+   "e": 57.76
+  },
+  {
+   "text": "e passou a oferecer um pr\u00eamio aos fazendeiros por cada emu abatido.",
+   "s": 58.112,
+   "e": 61.274
+  },
+  {
+   "text": "Humanos,",
+   "s": 62.128,
+   "e": 62.663
+  },
+  {
+   "text": "zero.",
+   "s": 62.906,
+   "e": 63.279
+  },
+  {
+   "text": "Emus,",
+   "s": 64.121,
+   "e": 64.612
+  },
+  {
+   "text": "um.",
+   "s": 64.924,
+   "e": 65.091
+  }
+ ]
+}

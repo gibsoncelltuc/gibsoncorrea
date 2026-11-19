@@ -103,20 +103,20 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 3 | - | PLACA | CENTENAS | OK |
 
-## Cena b9 - 55.6s a 62.2s - 19 palavras - plano two
+## Cena b9 - 55.6s a 60.7s - 19 palavras - plano two
 > "No fim, o governo desistiu da guerra, e passou a oferecer um prêmio aos fazendeiros por cada emu abatido."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | desistiu (56.9s) | EFEITO: puff | fumaca + som | OK |
 | 2 | desistiu (56.9s) | ACAO: perde | mao na testa | OK |
-| 3 | prêmio (59.5s) | EFEITO: stars | estrelinhas + som | OK |
-| 4 | prêmio (59.5s) | ACAO: vence | bracos para cima + brilho | OK |
+| 3 | prêmio (59.3s) | EFEITO: stars | estrelinhas + som | OK |
+| 4 | prêmio (59.3s) | ACAO: vence | bracos para cima + brilho | OK |
 | 5 | - | INTERACAO | entregar | OK |
 | 6 | - | ATUACAO | conversar | OK |
 | 7 | - | PLACA | RECOMPENSA | OK |
 
-## Cena b10 - 63.0s a 65.0s - 4 palavras - plano close
+## Cena b10 - 62.1s a 64.9s - 4 palavras - plano close
 > "Humanos, zero. Emus, um."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
