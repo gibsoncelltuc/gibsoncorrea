@@ -38,7 +38,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 2 | - | PLACA | 7 DE SETEMBRO DE 2021 | OK |
 
-## Cena b4 - 19.5s a 24.5s - 16 palavras - plano two
+## Cena b4 - 19.5s a 23.6s - 16 palavras - plano two
 > "Com isso, o bitcoin podia ser usado no dia a dia, em qualquer lugar do país."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -46,7 +46,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | insiste | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b5 - 25.3s a 29.2s - 9 palavras - plano orbit
+## Cena b5 - 24.6s a 27.5s - 9 palavras - plano orbit
 > "O governo lançou até uma carteira digital, chamada Chivo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -54,7 +54,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 2 | - | PLACA | CARTEIRA CHIVO | OK |
 
-## Cena b6 - 29.5s a 33.3s - 13 palavras - plano two
+## Cena b6 - 28.7s a 32.6s - 13 palavras - plano two
 > "Nas primeiras horas, o aplicativo ficou fora do ar, por excesso de acessos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -62,19 +62,19 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | discutir | OK |
 | 2 | - | ATUACAO | discutir | OK |
 
-## Cena b7 - 33.4s a 39.3s - 17 palavras - plano orbit
+## Cena b7 - 33.9s a 37.7s - 17 palavras - plano orbit
 > "Foi o primeiro país do mundo a fazer isso, e o assunto virou conversa no planeta inteiro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b8 - 39.5s a 40.5s - 13 palavras - plano two
+## Cena b8 - 39.0s a 42.3s - 13 palavras - plano two
 > "Uma moeda digital, uma lei nova e um país no centro das atenções."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | moeda (39.6s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 1 | moeda (39.3s) | ACAO: paga | estende a mao com moedas + brilho | OK |
 | 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | conversar | OK |
 

@@ -47,6 +47,14 @@
    "boots": "#2a2218",
    "hat": "bonnet",
    "build": "stout"
+  },
+  "CAPT": {
+   "jacket": "#f1efe6",
+   "pants": "#3b3f52",
+   "boots": "#1b1b1f",
+   "hat": "shako_tall",
+   "buttons": "#e8c45a",
+   "uniforme_fixo": true
   }
  },
  "beats": [
@@ -153,9 +161,9 @@
    "props": [
     [
      "kit/kettle",
-     0.0,
-     0.25,
-     1.2
+     -1.5,
+     -0.5,
+     1.3
     ]
    ],
    "fx": [
@@ -166,24 +174,27 @@
     "thump@20",
     "ding@24"
    ],
-   "say": "A bala atravessou o convés, e acertou em cheio a chaleira de sopa do cozinheiro."
+   "say": "A bala atravessou o convés, e acertou em cheio a chaleira de sopa do cozinheiro.",
+   "shot_lock": true,
+   "move": 0
   },
   {
-   "shot": "group",
+   "shot": "two",
    "who": [
-    "GEN:0:scared:flag",
-    "AUS:0:nervous",
-    "COZ:0:cry"
+    "COZ:0:cry",
+    "CAPT:0:scared:flag"
    ],
    "say": "O capitão austríaco olhou para a sopa derramada, e se rendeu na mesma hora.",
    "props": [
     [
      "kit/kettle",
-     0.1,
-     0.25,
-     1.2
+     -1.5,
+     -0.5,
+     1.3
     ]
-   ]
+   ],
+   "shot_lock": true,
+   "move": 0
   },
   {
    "shot": "two",
