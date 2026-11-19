@@ -6,7 +6,7 @@ b0 | two | -  | objeto na mao | - | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | interior, placa: HOSPITAL, objeto na mao | encena: examina (think) (acao + som de efeito) | -
 b3 | two | -  | interior, objeto na mao | encena: sai (acao + som de efeito); encena: x_lava (stir) (acao + som de efeito) | -
-b4 | two | -  | interior | encena: examina (think) (acao + som de efeito) | -
+b4 | two | -  | interior | encena: olha (point) (acao + som de efeito) | -
 b5 | close | -  | - | encena: olha (point) (acao + som de efeito) | -
 b6 | orbit | -  | batalha aberta com tiros, tropa | - | -
 b7 | two | -  | interior | encena: x_entrega (reach) (acao + som de efeito) | -

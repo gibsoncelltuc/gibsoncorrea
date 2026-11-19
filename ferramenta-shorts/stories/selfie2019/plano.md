@@ -10,7 +10,7 @@ b4 | close | -  | interior | (rosto) pleading (expr + som de efeito); encena: ti
 b5 | low | -  | interior | encena: tira (lift) (acao + som de efeito) | -
 b6 | two | -  | interior | encena: tira (lift) (acao + som de efeito) | -
 b7 | orbit | -  | batalha aberta com tiros, tropa, placa: SELFIE | encena: tira (lift) (acao + som de efeito) | -
-b8 | two | -  | - | encena: examina (think) (acao + som de efeito) | -
+b8 | two | -  | - | encena: olha (point) (acao + som de efeito) | -
 b9 | two | -  | - | - | -
 b10 | close | -  | interior | encena: tira (lift) (acao + som de efeito) | -
 

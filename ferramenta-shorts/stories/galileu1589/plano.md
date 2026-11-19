@@ -6,7 +6,7 @@ b0 | two | -  | - | caíram (dust + som de impacto); encena: tomba (acao + som d
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | interior | - | -
 b3 | group | -  | interior | - | -
-b4 | two | -  | interior | encena: examina (think) (acao + som de efeito) | -
+b4 | two | -  | interior | encena: olha (point) (acao + som de efeito) | -
 b5 | two | -  | - | - | -
 b6 | orbit | -  | batalha aberta com tiros, tropa | caíram (dust + som de impacto); encena: x_solta (up) (acao + som de efeito); encena: tomba (acao + som de efeito) | -
 b7 | group | -  | - | - | -

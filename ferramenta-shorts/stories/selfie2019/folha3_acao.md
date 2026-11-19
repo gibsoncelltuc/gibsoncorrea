@@ -80,7 +80,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | acharam (44.5s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+| 1 | acharam (44.5s) | ACAO: olha | aponta/olha | OK |
 | 2 | - | INTERACAO | discutir | OK |
 | 3 | - | ATUACAO | discutir | OK |
 
