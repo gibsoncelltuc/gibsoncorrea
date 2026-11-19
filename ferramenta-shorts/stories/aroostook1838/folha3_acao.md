@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 19 - A Guerra de Aroostook
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.4s - 16 palavras - plano two
@@ -31,7 +31,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | discutir | OK |
 
-## Cena b3 - 18.7s a 22.8s - 15 palavras - plano crowd
+## Cena b3 - 18.7s a 22.8s - 15 palavras - plano group
 > ""Essa árvore é minha!", gritou um lenhador, e logo os dois lados começaram a brigar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -43,9 +43,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | brigar (22.8s) | ACAO: golpe | soco + estouro | OK |
 | 6 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
 | 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 8 | - | ATUACAO | discutir | OK |
+| 8 | - | INTERACAO | empurrar | OK |
+| 9 | - | ATUACAO | discutir | OK |
 
-## Cena b4 - 23.9s a 27.2s - 12 palavras - plano orbit
+## Cena b4 - 23.9s a 27.2s - 12 palavras - plano crowd
 > "O Maine chamou milhares de soldados, e a Inglaterra mandou os seus."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

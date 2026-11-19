@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b3  (~5.2 s)
 - Narracao: "Essa árvore é minha!", gritou um lenhador, e logo os dois lados começaram a brigar.
-- Som ambiente: birds
+- Som ambiente: birds | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: thump@60
 - Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou -> ring + som de alerta; brigar -> puff + som de baque; encena: grita (up) @4 -> acao + som de efeito; encena: corta (hammer) @6 -> acao + som de efeito; encena: golpe (punch) @14 -> acao + som de efeito
 - Efeito visual marcado: stars@60, puff@60
