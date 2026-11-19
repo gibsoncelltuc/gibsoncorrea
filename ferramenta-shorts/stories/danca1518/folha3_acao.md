@@ -57,7 +57,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | avanca e o outro recua | OK |
 | 4 | - | ATUACAO | reagir | OK |
 
-## Cena b5 - 31.1s a 36.9s - 18 palavras - plano two
+## Cena b5 - 31.1s a 36.8s - 18 palavras - plano two
 > "Acontece que a cidade levou isso a sério. Construiu um palco, e contratou músicos para animar o povo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -69,18 +69,18 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | - | ATUACAO | construir | OK |
 | 6 | - | PLACA | PALCO | OK |
 
-## Cena b6 - 38.2s a 43.6s - 17 palavras - plano two
+## Cena b6 - 38.0s a 43.6s - 17 palavras - plano two
 > "Foi a pior ideia possível. Com música, mais gente entrou na dança, e muitos desmaiaram de exaustão."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ideia (38.7s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
-| 2 | música (40.6s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | música (40.6s) | ACAO: x_canta | canta de bracos abertos + onda de som | OK |
-| 4 | entrou (41.5s) | ACAO: chega | entra andando pela lateral | OK |
-| 5 | dança (42.0s) | EFEITO: stars | estrelinhas + som | OK |
-| 6 | dança (42.0s) | ACAO: danca | danca de bracos para cima | OK |
-| 7 | desmaiaram (43.1s) | ACAO: tomba | cai sentado no chao + poeira | OK |
+| 1 | ideia (38.5s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
+| 2 | música (40.4s) | EFEITO: stars | estrelinhas + som | OK |
+| 3 | música (40.4s) | ACAO: x_canta | canta de bracos abertos + onda de som | OK |
+| 4 | entrou (41.3s) | ACAO: chega | entra andando pela lateral | OK |
+| 5 | dança (41.9s) | EFEITO: stars | estrelinhas + som | OK |
+| 6 | dança (41.9s) | ACAO: danca | danca de bracos para cima | OK |
+| 7 | desmaiaram (43.0s) | ACAO: tomba | cai sentado no chao + poeira | OK |
 | 8 | - | INTERACAO | o outro se aproxima | OK |
 | 9 | - | ATUACAO | dancar | OK |
 | 10 | - | CHEGADA | alguem entra andando | OK |

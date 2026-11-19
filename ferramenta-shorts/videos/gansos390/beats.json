@@ -195,7 +195,7 @@
     [
      "buildings/castle_tower",
      3.5,
-     -7,
+     -9,
      1.2
     ]
    ],
@@ -209,7 +209,12 @@
    "sfx": [
     "thump@66",
     "whoosh@60"
-   ]
+   ],
+   "d0": 12.5,
+   "d1": 11.5,
+   "cx": 0.8,
+   "shot_lock": true,
+   "interior": false
   },
   {
    "shot": "crowd",

@@ -1,0 +1,280 @@
+{
+ "title": "Os Gansos que Salvaram Roma",
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "set": "medieval",
+ "mood": "march",
+ "outfits": {
+  "ROM": {
+   "jacket": "#c0262d",
+   "pants": "#e8e0c8",
+   "boots": "#6a4a2a",
+   "hat": "helmet",
+   "cap": "#c9a23a",
+   "belt": "#b88a3a",
+   "buttons": "#e8c45a",
+   "moustache_on": "#3a2a1f"
+  },
+  "GAU": {
+   "jacket": "#3a6aa0",
+   "pants": "#8a6a3a",
+   "boots": "#3a2a1a",
+   "hat": "hair",
+   "hair": "#c07a2a",
+   "belt": "#2a2218",
+   "moustache_on": "#c07a2a"
+  },
+  "MAN": {
+   "jacket": "#c0262d",
+   "pants": "#e8e0c8",
+   "boots": "#6a4a2a",
+   "hat": "helmet",
+   "cap": "#c9a23a",
+   "belt": "#b88a3a",
+   "buttons": "#e8c45a",
+   "build": "stout",
+   "moustache_on": "#3a2a1f"
+  }
+ },
+ "serie": "Guerras Inusitadas",
+ "ep": 5,
+ "titulo_base": "Os Gansos que Salvaram Roma",
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "ROM:0:nervous",
+    "ROM:1:pained"
+   ],
+   "animals": [
+    [
+     "goose",
+     3.0,
+     1.0,
+     "stand",
+     1.2
+    ]
+   ],
+   "hora": "dia",
+   "text": "390 a.C.",
+   "say": "Roma inteira foi salva por um bando de gansos barulhentos."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "GAU:0:angry:torch",
+    "GAU:1:shout:torch",
+    "GAU:2:grin:torch"
+   ],
+   "mapa": "ROMA",
+   "say": "Os gauleses tinham invadido a cidade, e queimado quase tudo. Quem não fugiu, morreu.",
+   "fx": [
+    "dust@20",
+    "burst@55"
+   ],
+   "sfx": [
+    "thump@20",
+    "thump@55"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 16,
+    "outfits": [
+     "GAU",
+     "ROM"
+    ],
+    "march": false,
+    "expr": "shock"
+   }
+  },
+  {
+   "shot": "group",
+   "who": [
+    "ROM:0:nervous",
+    "ROM:1:pained",
+    "MAN:0:stern"
+   ],
+   "props": [
+    [
+     "buildings/castle_tower",
+     0,
+     -9,
+     1.4
+    ]
+   ],
+   "fachada": false,
+   "text": "CAPITÓLIO",
+   "say": "Os romanos que sobraram se trancaram no Capitólio, uma colina cercada de muralhas, sem comida, e sem saída."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "ROM:1:pained",
+    "ROM:2:stern"
+   ],
+   "animals": [
+    [
+     "goose",
+     2.6,
+     1.2,
+     "stand",
+     1.2
+    ],
+    [
+     "goose",
+     -2.8,
+     0.8,
+     "stand",
+     1.1
+    ]
+   ],
+   "say": "Lá em cima, a fome apertava. \"Vamos comer os gansos\", pediu um soldado. \"São sagrados\", respondeu o sacerdote."
+  },
+  {
+   "shot": "group",
+   "who": [
+    "ROM:0:neutral"
+   ],
+   "hora": "noite",
+   "say": "Numa noite sem lua, os gauleses escalaram a colina em silêncio. Os guardas dormiam. Ninguém ouviu nada.",
+   "shot_lock": true,
+   "riscos_ok": true,
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "GAU"
+    ],
+    "march": true,
+    "expr": "stern"
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "ROM:2:shock"
+   ],
+   "animals": [
+    [
+     "goose",
+     2.0,
+     1.2,
+     "walk",
+     1.3
+    ],
+    [
+     "goose",
+     -2.0,
+     1.0,
+     "walk",
+     1.2
+    ],
+    [
+     "goose",
+     0.2,
+     2.2,
+     "walk",
+     1.2
+    ]
+   ],
+   "sfx": [
+    "squeal@20",
+    "squeal@55",
+    "squeal@90"
+   ],
+   "text": "QUÁ! QUÁ!",
+   "say": "Acontece que os gansos acordaram, e começaram a gritar e a bater as asas."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MAN:0:angry",
+    "GAU:0:scared"
+   ],
+   "props": [
+    [
+     "buildings/castle_tower",
+     3.5,
+     -9,
+     1.2
+    ]
+   ],
+   "fachada": false,
+   "say": "Um soldado chamado Mânlio pulou da cama, e empurrou o primeiro invasor muralha abaixo. O gaulês foi derrubado, levando os outros junto.",
+   "interacao": "empurrar",
+   "fx": [
+    "dust@70",
+    "puff@80"
+   ],
+   "sfx": [
+    "thump@66",
+    "whoosh@60"
+   ],
+   "d0": 12.5,
+   "d1": 11.5,
+   "cx": 0.8,
+   "shot_lock": true,
+   "interior": false
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "ROM:0:angry",
+    "MAN:0:shout",
+    "GAU:0:scared"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "fx": [
+    "burst@30",
+    "dust@70"
+   ],
+   "sfx": [
+    "thump@30",
+    "sting@10",
+    "thump@70"
+   ],
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "ROM",
+     "GAU"
+    ],
+    "march": false,
+    "expr": "angry"
+   },
+   "say": "O alarme acordou todo mundo, os romanos correram para a muralha, e o ataque fracassou.",
+   "interacao": false
+  },
+  {
+   "shot": "two",
+   "who": [
+    "ROM:0:smile",
+    "ROM:1:grin"
+   ],
+   "animals": [
+    [
+     "goose",
+     2.6,
+     1.0,
+     "walk",
+     1.3
+    ]
+   ],
+   "hora": "dia",
+   "text": "DESFILE",
+   "say": "Desde então, todo ano, os gansos ganhavam um desfile pelas ruas de Roma."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "ROM:2:grin"
+   ],
+   "say": "E os guardas, que dormiram a noite inteira, ganharam um castigo.",
+   "hora": "dia"
+  }
+ ],
+ "cinf": 4.5,
+ "exp": 1.12,
+ "heroi": null
+}
