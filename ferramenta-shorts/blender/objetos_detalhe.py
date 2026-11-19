@@ -118,6 +118,22 @@ def lapide():
         cil((x, .2, .32), .012, .22, '#3f7a2a'); bola((x, .33, .32), .06, c)                          # flores
     fim(.02)
 
-E = dict(bitcoin=bitcoin, roadster=roadster, ball=ball, fireplace=fireplace, chess_pc=chess_pc, lapide=lapide)
+def bee():
+    # abelha de desenho (19/11, abelhas1945): corpo listrado amarelo e preto, cabeca preta com olhos grandes, antenas, 2 pares de asas translucidas, ferrao
+    novo('bee'); Y, K = '#f2c230', '#1e1a16'
+    bola((0, .5, 0), .32, Y, esc=(1.35, .95, .95))                               # abdomen
+    for x in (-.18, .05, .27): bola((x, .5, 0), .3, K, esc=(.12, .98, .98))       # listras
+    bola((-.5, .55, 0), .2, K)                                                   # cabeca
+    for z in (-.1, .1): bola((-.62, .6, z), .07, '#ffffff'); bola((-.66, .61, z), .035, K)   # olhos
+    for z in (-.07, .07): cil((-.6, .78, z), .012, .22, K, rot=(0, 0, .5)); bola((-.66, .89, z), .03, K)   # antenas
+    for z, r_ in ((-.22, -.5), (.22, .5)):
+        bola((-.05, .82, z), .26, '#dff3ff', esc=(1.1, .1, .55), rot=(r_, 0, -.3))   # asa de cima
+        bola((.12, .78, z * .9), .18, '#e8f7ff', esc=(1.1, .1, .5), rot=(r_, 0, -.5))  # asa de baixo
+    cil((.48, .48, 0), .03, .14, K, rot=(0, 0, H))                               # ferrao
+    for x in (-.25, -.1, .05):
+        for z in (-.18, .18): cil((x, .25, z), .015, .26, K)                       # perninhas
+    fim(.01)
+
+E = dict(bitcoin=bitcoin, roadster=roadster, ball=ball, fireplace=fireplace, chess_pc=chess_pc, lapide=lapide, bee=bee)
 alvo = sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else list(E)
 for k in alvo: E[k]()

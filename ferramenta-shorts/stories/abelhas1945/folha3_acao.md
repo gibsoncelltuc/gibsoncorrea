@@ -42,7 +42,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b4 - 22.3s a 26.8s - 16 palavras - plano low
+## Cena b4 - 22.3s a 26.8s - 16 palavras - plano close
 > "Acontece que, quando uma abelha achava o açúcar, ela voltava e dançava em cima do favo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -58,7 +58,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | discutir | OK |
 | 2 | - | ATUACAO | discutir | OK |
 
-## Cena b6 - 35.1s a 39.4s - 15 palavras - plano orbit
+## Cena b6 - 35.1s a 39.4s - 15 palavras - plano low
 > "E o mais incrível: o ângulo da rebolada mostrava a direção, comparada com o sol."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
