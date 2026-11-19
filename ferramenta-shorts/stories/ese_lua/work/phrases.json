@@ -1,7 +1,7 @@
 {
  "duration": 61.392,
  "frames30": 1842,
- "source": "silence-align (cost 1.22)",
+ "source": "silence-align (cost 1.21)",
  "segments": [
   [
    0.159042,
@@ -9,7 +9,7 @@
   ],
   [
    0.764958,
-   1.46517
+   1.46412
   ],
   [
    1.63967,
@@ -25,7 +25,7 @@
   ],
   [
    8.65883,
-   9.74962
+   9.74992
   ],
   [
    10.6186,
@@ -52,7 +52,7 @@
    20.7121
   ],
   [
-   21.5588,
+   21.5589,
    24.5925
   ],
   [
@@ -69,14 +69,14 @@
   ],
   [
    31.2645,
-   33.0919
+   33.0932
   ],
   [
    33.8828,
    36.9113
   ],
   [
-   37.7861,
+   37.7844,
    38.3698
   ],
   [
@@ -85,7 +85,7 @@
   ],
   [
    39.7212,
-   41.2631
+   41.2721
   ],
   [
    41.5297,
@@ -137,7 +137,7 @@
   {
    "text": "hoje \u00e0 noite,",
    "s": 0.765,
-   "e": 1.465
+   "e": 1.464
   },
   {
    "text": "a Lua simplesmente desaparecesse do c\u00e9u?",
@@ -212,7 +212,7 @@
   {
    "text": "Acontece que o pior viria devagar.",
    "s": 31.265,
-   "e": 33.092
+   "e": 33.093
   },
   {
    "text": "A Lua funciona como um peso que mant\u00e9m a Terra girando firme.",
@@ -221,7 +221,7 @@
   },
   {
    "text": "Sem ela,",
-   "s": 37.786,
+   "s": 37.784,
    "e": 38.37
   },
   {
@@ -232,7 +232,7 @@
   {
    "text": "o eixo do planeta iria balan\u00e7ar,",
    "s": 39.721,
-   "e": 41.263
+   "e": 41.272
   },
   {
    "text": "e as esta\u00e7\u00f5es podiam ficar extremas.",
