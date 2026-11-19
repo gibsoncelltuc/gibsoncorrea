@@ -22,9 +22,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b2  (~6.6 s)
 - Narracao: De brincadeira, Musk postou que a Tesla tinha falido, e apareceu cercado de garrafas de uma tal de Teslaquila.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: apareceu -> dust + som de impacto
+- Efeito + som nas palavras-chave: apareceu -> dust + som de impacto; encena: x_fone (lift) @3 -> acao + som de efeito; encena: chega (point) @10 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -33,16 +33,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Muita gente riu. Mas ele resolveu levar a ideia a sério, e tentou registrar o nome.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: riu -> stars + som de sino
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; riu -> stars + som de sino; encena: x_ri (up) @2 -> acao + som de efeito; encena: pensa (think) @8 -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b4  (~8.3 s)
 - Narracao: Acontece que o conselho que protege a tequila no México reclamou: o nome tequila tem regras, e não podia ser usado de qualquer jeito.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: (rosto) annoyed -> expr + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Em dois mil e vinte, saiu com outro nome: Tesla Tequila, feita no México, com agave.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: sai @5 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,14 +60,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: A garrafa era de vidro soprado à mão, em forma de raio, presa num suporte de metal.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, sting@50
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: prende (push) @12 -> acao + som de efeito
 - Efeito visual marcado: stars@20, ring@50
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b7  (~4.1 s)
 - Narracao: Cada uma custava duzentos e cinquenta dólares. E esgotou em poucas horas.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: ding@20, sting@50
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20, ring@50
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Logo apareceu gente revendendo na internet. Até garrafas vazias, por centenas de dólares.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: apareceu -> dust + som de impacto
+- Efeito + som nas palavras-chave: apareceu -> dust + som de impacto; encena: chega (point) @1 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -94,7 +94,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b10  (~4.8 s)
 - Narracao: A garrafa em forma de raio virou item de colecionador dos fãs da marca.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: ding@20, ding@60
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20, stars@60
