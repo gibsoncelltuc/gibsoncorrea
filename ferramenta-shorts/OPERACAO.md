@@ -169,3 +169,4 @@ Quadrado só o que é quadrado de verdade: placa, casa, caixote, mesa, livro. To
 - Cena de processo fica em plano medio (sem close que esconde as maos) e numa tomada so'. Desligar numa cena: "encena": false.
 - Objeto heroi: brilho de estrelinhas quando entra em cena; produto que nasce no processo sobe girando na altura do peito.
 - Lutador/boxeador: "profissao": "lutador" ou "boxeador" (sem camisa, short colorido com faixa, luvas de boxe, bota). Cores: "trunks", "gloves", "boots". Juiz: camisa branca.
+- Famosos: Trump com topete ("swoop": true), Bukele com bone virado para tras ("capBack": true) - ja aplicado nos roteiros. Copie de FIGURINOS_FAMOSOS.md.

@@ -18,7 +18,8 @@
    "hair": "#f2c84a",
    "tie": "#d8282f",
    "pele": "#f5c49a",
-   "build": "stout"
+   "build": "stout",
+   "swoop": true
   },
   "VIN": {
    "jacket": "#2a2a30",

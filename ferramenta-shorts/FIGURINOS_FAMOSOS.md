@@ -3,8 +3,8 @@
 Bonecos no estilo da ferramenta: a semelhança vem do cabelo, da roupa e de um acessório (não do rosto). Copie para `"outfits"` do roteiro:
 
 ```json
-"TRU": {"jacket": "#1f2f5c", "pants": "#1f2f5c", "boots": "#1b1b1f", "hat": "hair", "hair": "#f2c84a", "tie": "#d8282f", "pele": "#f5c49a", "build": "stout"},
-"BUK": {"jacket": "#22252c", "pants": "#2a2d33", "boots": "#f4f1e8", "hat": "cap", "cap": "#f4f1e8", "beard": "#2a201a", "pele": "#e8c8a8"},
+"TRU": {"jacket": "#1f2f5c", "pants": "#1f2f5c", "boots": "#1b1b1f", "hat": "hair", "hair": "#f2c84a", "tie": "#d8282f", "pele": "#f5c49a", "build": "stout", "swoop": true},
+"BUK": {"jacket": "#22252c", "pants": "#2a2d33", "boots": "#f4f1e8", "hat": "cap", "cap": "#1b1b1f", "capBack": true, "beard": "#2a201a", "pele": "#e8c8a8"},
 "MUS": {"jacket": "#16181d", "pants": "#22252c", "boots": "#1b1b1f", "hat": "hair", "hair": "#3a2a1f", "pele": "#f2e2d2"}
 ```
 
