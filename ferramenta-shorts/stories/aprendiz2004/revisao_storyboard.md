@@ -1,11 +1,11 @@
-b0: OK - rua de Nova York com placa 2004 e os dois personagens, o apresentador loiro de gravata vermelha surpreso, abertura sobre o empresário que virou estrela.
-b1: OK - mapa dos ESTADOS UNIDOS com marcador e depois um grupo de pessoas na rua, estreia do programa O Aprendiz em janeiro de dois mil e quatro.
-b2: OK - sala com estrelas de vitória ao redor do apresentador, o candidato ao lado, cena do prêmio raro de um emprego na empresa de Donald Trump.
-b3: OK - multidão de candidatos diante de uma barraca de limonada na rua, a tarefa semanal de vender limonada aparece com gestos de negócio.
-b4: OK - sala de reunião com o apresentador e o candidato perdedor de braços cruzados, depois o plano médio dele saindo, a equipe perdedora vai embora.
-b5: OK - close do apresentador na sala com a placa VOCÊ ESTÁ DEMITIDO! e estrelas, o jeito de eliminar virou a marca do programa.
-b6: OK - multidão no campo com a placa 28 MILHÕES e rostos felizes, a final vista por vinte e oito milhões de americanos.
-b7: OK - vencedor segurando notas de dinheiro ao lado do apresentador com estrelas, Bill Rancic ganhou o emprego com salário alto.
-b8: OK - mapa do BRASIL com marcador e depois dois personagens na rua conversando, o formato se espalhou pelo mundo com Roberto Justus.
-b9: OK - dois personagens num cais conversando, o apresentador entra e sai da cena, Trump apresentou o programa por mais de dez anos.
-b10: OK - close do apresentador sorrindo de braços erguidos com a TV heroi atrás, um programa de emprego famoso por demitir.
+b0: OK - rua de Nova York com a placa 2004, o apresentador loiro de gravata vermelha e o candidato surpreso, empresario que virou estrela mundial e a frase voce esta demitido.
+b1: OK - mapa dos ESTADOS UNIDOS com marcador e depois grupo de candidatos na rua, o programa O Aprendiz estreou nos Estados Unidos em janeiro de dois mil e quatro.
+b2: OK - sala com estrelas de vitoria ao redor do apresentador e o candidato ao lado, dezesseis candidatos disputavam um prêmio raro, um emprego na empresa de Donald Trump.
+b3: OK - multidao de candidatos diante da barraca de limonada com gestos de negocio, a tarefa semanal de vender limonada na rua e criar uma propaganda.
+b4: OK - sala de reuniao com o apresentador e o candidato perdedor de bracos cruzados, a equipe perdedora ia para a sala e alguem tinha que ir embora.
+b5: OK - close do apresentador na sala com a placa VOCE ESTA DEMITIDO! e estrelas, ele apontava o dedo e dizia voce esta demitido, marca do programa.
+b6: OK - multidao no campo com a placa 28 MILHOES e rostos felizes comemorando, a final da primeira temporada vista por vinte e oito milhoes de americanos.
+b7: OK - vencedor Bill Rancic com notas de dinheiro ao lado do apresentador e estrelas, ele ganhou o emprego com salario de duzentos e cinquenta mil dolares por ano.
+b8: OK - mapa do BRASIL com marcador e dois personagens na rua conversando, o formato se espalhou pelo mundo e no Brasil estreou no mesmo ano com Roberto Justus.
+b9: OK - apresentador e outro personagem no cais, um chega e outro sai andando, Trump apresentou o programa por mais de dez anos e saiu em dois mil e quinze.
+b10: OK - close do apresentador sorrindo de bracos erguidos com a TV heroi inteira ao fundo na rua, um programa de emprego famoso justamente por demitir.
