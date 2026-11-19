@@ -10,7 +10,7 @@ b4 | low | -  | - | - | -
 b5 | two | -  | animais | encena: chega (point) @13 (acao + som de efeito) | -
 b6 | crowd | -  | batalha aberta com tiros, tropa | - | -
 b7 | group | -  | - | encena: pega (lift) @4 (acao + som de efeito); encena: sai @10 (acao + som de efeito) | -
-b8 | track | -  | - | correram (dust + som de impacto); encena: corre @14 (acao + som de efeito) | -
+b8 | two | -  | - | correram (dust + som de impacto); encena: corre @14 (acao + som de efeito) | -
 b9 | two | -  | animais | - | -
 b10 | orbit | -  | batalha aberta com tiros, tropa, placa: VOAMOS | encena: voa (point) @9 (acao + som de efeito) | -
 b11 | close | -  | animais | - | -

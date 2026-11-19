@@ -110,3 +110,6 @@ ORDEM DE PRIORIDADE (Gibson, 19/11 tarde): 1o GUERRAS INUSITADAS e PODER E FAMA;
 O Gibson baixa TODOS os videos na conversa da sessao principal. Sessao A/B: depois de conferir.sh e de OLHAR a folha de contato,
 rode `./enviar_para_principal.sh <id>` (manda o mp4 em pedacos de 90 MB + sha256 + folha de contato pelo git). A principal roda
 `./receber_das_sessoes.sh`, remonta, confere o sha256, olha a folha e manda o video no chat. Video com defeito conhecido NAO e' enviado.
+
+## 17. ZERO RESSALVA (ordem do Gibson 19/11, acima de tudo depois da regra mestra)
+Nenhum vídeo sai com ressalva. Defeito de acabamento também se corrige antes de entregar: prédio/objeto de outra época, árvore ou objeto tapando a câmera, ação que não aparece (briga parada, tiro sem tiro), cenário que não é o lugar citado. Vídeo de sessão com qualquer defeito volta para a sessão; só vai para o Gibson corrigido. Verificação completa (storyboard + grade de ações + revisão escrita + folha de contato) em TODO vídeo, sem economizar cota.

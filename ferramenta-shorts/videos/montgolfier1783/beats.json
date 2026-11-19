@@ -236,13 +236,16 @@
    ],
    "props": [
     [
-     "kit/balloon_air",
-     1.4,
-     -3.0,
-     1.0
+     "kit/balloon",
+     1.6,
+     -2.6,
+     0.9
     ]
    ],
-   "say": "Oito minutos depois, ele desceu num bosque a uns três quilômetros dali. Os irmãos correram para ver."
+   "say": "Oito minutos depois, ele desceu num bosque a uns três quilômetros dali. Os irmãos correram para ver.",
+   "shot_lock": true,
+   "detalhe": false,
+   "set": "countryside"
   },
   {
    "shot": "two",
@@ -274,7 +277,8 @@
    "sfx": [
     "ding@40"
    ],
-   "say": "Os três bichos estavam vivos e bem! Dava para respirar no céu."
+   "say": "Os três bichos estavam vivos e bem! Dava para respirar no céu.",
+   "set": "countryside"
   },
   {
    "shot": "crowd",

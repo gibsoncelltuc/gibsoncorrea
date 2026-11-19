@@ -510,7 +510,7 @@ LUGARES = [  # (palavra na narracao, [(modelo, x, z, escala), ...]) -- cenografi
     (r'\bcasa\b|\bcasas\b|vizinho|aldeia|vila\b|vilarejo', [('buildings/house_small', -5.5, -10.0, 1.25), ('nature/picket_fence', 3.4, -2.8, 1.3), ('nature/tree_oak', 6.5, -7.0, 1.3)]),
     (r'\bigreja\b|\bcatedral\b|\bpadre\b|\bsino\b', [('buildings/church', 5.5, -11.0, 1.2)]),
     (r'\bmercado\b|\bfeira\b|\bloja\b|comerciante|\bvendedor\b', [('buildings/shop', -5.0, -9.5, 1.25), ('kit/stall', 3.6, -2.6, 1.0)]),
-    (r'\bflorestas?\b|\bmata\b|\bbosque\b|\bselva\b', [('nature/tree_pine', -4.0, -5.0, 1.5), ('nature/tree_oak', 4.5, -6.0, 1.5), ('nature/tree_pine', 6.5, -3.5, 1.3), ('nature/bush', -5.5, -2.0, 1.2)]),
+    (r'\bflorestas?\b|\bmata\b|\bbosque\b|\bselva\b', [('nature/tree_pine', -5.5, -8.5, 1.5), ('nature/tree_oak', 5.0, -9.0, 1.5), ('nature/tree_pine', 8.0, -7.5, 1.3), ('nature/bush', -6.5, -4.5, 1.2)]),
     (r'\bacampamento\b|acamparam|\bbarracas\b', [('kit/tent', -4.5, -5.0, 1.3), ('kit/tent', 5.0, -6.5, 1.3), ('kit/campfire', 3.0, -1.2, 1.2)]),
     (r'\bcastelo\b|\bfortaleza\b|\bforte\b|\bmuralhas?\b|\bpalacio\b', [('buildings/castle_tower', 6.0, -10.5, 1.3)]),
     (r'\bcartorio\b|\bprefeitura\b|\btribunal\b|\bbanco\b|\bescritorio\b|\bconsulado\b|\bembaixada\b', [('buildings/house_two', -5.0, -9.5, 1.3), ('nature/lamppost', 3.4, -2.6, 1.2), ('nature/bench', -3.6, -2.2, 1.2)]),
