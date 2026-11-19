@@ -71,6 +71,24 @@ def ball():
             for fc in ((cen, mid[i], mid[j]), (mid[i], out[i], out[j], mid[j])): f = bm.faces.new(fc); f.material_index = k
     fim(0)
 
-E = dict(bitcoin=bitcoin, roadster=roadster, ball=ball)
+def fireplace():
+    # lareira de casa do seculo XIX (referencia: lareiras de pedra/tijolo com consolo de madeira): moldura de pedra, boca escura em arco,
+    # toras com fogo, consolo (prateleira) com castical e relogio, grelha na frente. Tamanho de boneco (~1,6 m de largura).
+    novo('fireplace'); P, P2 = '#b8ab98', '#9a8e7c'
+    caixa((0, .75, -.1), (1.7, 1.5, .5), P); caixa((0, 1.55, 0), (1.95, .12, .62), '#6a4426')
+    caixa((0, .03, .25), (1.9, .06, .5), P2)                                            # soleira
+    caixa((0, .45, .13), (.9, .8, .1), '#1e1814'); bola((0, .85, .13), .45, '#1e1814', esc=(1, .5, .2))   # boca em arco
+    for i in range(8): a = i / 7 * m.pi; caixa((.56 * m.cos(a), .85 + .5 * m.sin(a) * .9, .17), (.14, .12, .06), P2, rot=(0, 0, a - m.pi / 2))   # pedras do arco
+    for z, r_ in ((.22, .2), (.28, -.2)): cil((r_ * .2, .1, z), .07, .6, '#6a4426', rot=(0, 0, m.pi / 2 + r_))   # toras
+    luz(True)   # fogo brilha na sala escura
+    torno((0, .12, .24), [(.02, 0), (.17, .08), (.19, .24), (.1, .44), (.02, .6)], '#f08a2a', 12); torno((.04, .14, .3), [(.02, 0), (.1, .07), (.11, .19), (.04, .38), (.01, .47)], '#f2c230', 10)
+    luz(False)
+    cil((-.6, 1.72, 0), .05, .22, '#e8e2d0'); bola((-.6, 1.86, 0), .03, '#f2c230')      # vela
+    caixa((.5, 1.74, 0), (.26, .3, .14), '#5a3a22'); cil((.5, 1.76, .075), .09, .02, '#f2efe6', rot=(m.pi / 2, 0, 0))   # relogio
+    for x in (-.35, -.12, .12, .35): cil((x, .25, .4), .015, .4, '#2a2a2e')        # grelha
+    caixa((0, .44, .4), (.8, .03, .03), '#2a2a2e')
+    fim(.02)
+
+E = dict(bitcoin=bitcoin, roadster=roadster, ball=ball, fireplace=fireplace)
 alvo = sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else list(E)
 for k in alvo: E[k]()

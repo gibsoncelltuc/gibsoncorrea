@@ -50,7 +50,7 @@ const SPEC = {
 };
 
 // FOLHA3 580af9396a8d 36 acoes=35 faltando=0
-SPEC.fit = {"b0":1.12,"b10":1.12,"b4~2":1.12,"b5":1.12,"b9~3":1.254};
+SPEC.fit = {"b10":1.12,"b3":3.104,"b3~1":3.104,"b3~2":3.104,"b4~2":1.12,"b5":1.12,"b6_v":1.12,"b9~3":1.254};
 // ===== STORY RUNTIME (generic): turns a declarative SPEC (stories/<id>.spec.js, concatenated before this file) into the story.js interface the engine expects =====
 import { camFromKeys, clamp, lerp, ramp, q, blinkAt, idle, M } from './motion.js';
 export const FPS = 30, TOTAL = SPEC.total, DECK = 6;
