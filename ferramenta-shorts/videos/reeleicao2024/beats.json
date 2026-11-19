@@ -226,9 +226,9 @@
      1.2
     ]
    ],
-   "interacao": "entregar",
    "say": "Em vinte de janeiro de dois mil e vinte e cinco, ele tomou posse de novo.",
-   "detalhe": true
+   "detalhe": true,
+   "acao": "comemorar"
   },
   {
    "shot": "crowd",

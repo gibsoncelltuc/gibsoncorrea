@@ -86,8 +86,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | entregar | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | - | INTERACAO | pular | OK |
+| 2 | - | ATUACAO | comemorar | OK |
 
 ## Cena b9 - 47.1s a 52.3s - 16 palavras - plano orbit
 > "Ele tinha sido o presidente número quarenta e cinco. Agora era o número quarenta e sete."
