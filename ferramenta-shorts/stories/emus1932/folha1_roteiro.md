@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 - Narracao: A Austrália declarou guerra a um bando de pássaros. E perdeu.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: perdeu -> puff + som de baque
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; perdeu -> puff + som de baque
 - Efeito visual marcado: -
 - Texto na tela: 1932
 - Funcao na historia: GANCHO
@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 - Narracao: Vinte mil emus estavam devorando as plantações de trigo no oeste do país, e os fazendeiros foram pedir socorro ao governo.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: socorro -> ring + som de alerta
+- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; socorro -> ring + som de alerta
 - Efeito visual marcado: -
 - Texto na tela: 20.000 EMUS | mapa: AUSTRÁLIA
 - Funcao na historia: desenvolvimento
@@ -24,14 +24,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 - Narracao: "Mande o exército", pediram eles. E o ministro mandou.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b3  (~3.1 s)
 - Narracao: Soldados, duas metralhadoras, e dez mil balas. Contra emus.
-- Som ambiente: birds | batalha: tiros e gritos a cena inteira
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80
 - Efeito + som nas palavras-chave: metralhadoras -> burst + som de tiro/explosao; balas -> burst + som de tiro/explosao
 - Efeito visual marcado: -
@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 
 ## Cena b5  (~5.9 s)
 - Narracao: Um atirador montou a metralhadora num caminhão. Mas o caminhão pulava tanto, que ele não acertou nenhum.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: metralhadora -> burst + som de tiro/explosao
 - Efeito visual marcado: -
@@ -58,7 +58,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 
 ## Cena b6  (~5.2 s)
 - Narracao: Depois de uma semana, milhares de balas gastas, e os emus quase sem um arranhão.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: balas -> burst + som de tiro/explosao
 - Efeito visual marcado: -
@@ -67,9 +67,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 
 ## Cena b7  (~5.9 s)
 - Narracao: A tropa bateu em retirada. A imprensa gargalhou, e o comandante admitiu: "Eles aguentam bala como tanques."
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: bateu -> dust + som de impacto; retirada -> dust + som de impacto; gargalhou -> stars + som de sino
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; bateu -> dust + som de impacto; retirada -> dust + som de impacto; gargalhou -> stars + som de sino
 - Efeito visual marcado: -
 - Texto na tela: HA HA HA
 - Funcao na historia: desenvolvimento

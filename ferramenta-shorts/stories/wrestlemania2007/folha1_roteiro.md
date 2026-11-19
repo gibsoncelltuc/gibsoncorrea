@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Narracao: No fim, o lutador de Trump venceu. O estádio inteiro foi abaixo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: venceu -> stars + som de sino
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; venceu -> stars + som de sino
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: VITÓRIA
 - Funcao na historia: GRANDE MOMENTO
@@ -103,7 +103,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 
 ## Cena b11  (~7.2 s)
 - Narracao: Seis anos depois, Trump entrou para o Hall da Fama da luta livre. Tudo por causa de um corte de cabelo.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -

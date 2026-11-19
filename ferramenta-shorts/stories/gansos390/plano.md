@@ -3,9 +3,9 @@
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
 b0 | two | dia  | animais, placa: 390 a.C. | - | -
-b1 | crowd | -  | batalha aberta com tiros, tropa, mapa, objeto na mao | fugiu (dust + som de impacto); morreu (puff + som de baque) | -
+b1 | crowd | -  | batalha aberta com tiros, tropa, mapa, objeto na mao | (rosto) sad (expr + som de efeito); fugiu (dust + som de impacto); morreu (puff + som de baque) | -
 b2 | group | -  | placa: CAPITÓLIO | - | -
-b3 | orbit | -  | tropa, animais | - | -
+b3 | orbit | -  | tropa, animais | (rosto) pleading (expr + som de efeito) | -
 b4 | group | noite  | - | - | -
 b5 | low | -  | animais, placa: QUÁ! QUÁ! | - | -
 b6 | two | -  | - | caiu (dust + som de impacto) | -

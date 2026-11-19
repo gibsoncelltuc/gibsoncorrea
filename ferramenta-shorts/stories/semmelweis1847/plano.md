@@ -2,18 +2,18 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | placa: 1847 | - | -
+b0 | two | -  | interior, placa: 1847 | (rosto) pleading (expr + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
-b2 | two | -  | interior | - | -
+b2 | two | -  | interior, placa: HOSPITAL | - | -
 b3 | two | -  | interior | - | -
 b4 | crowd | -  | batalha aberta com tiros, tropa | - | -
-b5 | two | -  | interior | morreu (puff + som de baque) | -
+b5 | two | -  | interior | (rosto) sad (expr + som de efeito); morreu (puff + som de baque) | -
 b6 | close | -  | interior | - | -
 b7 | two | -  | interior | - | -
 b8 | orbit | -  | batalha aberta com tiros, tropa, placa: VIDAS SALVAS | - | -
 b9 | two | -  | interior | - | -
-b10 | two | -  | - | morreu (puff + som de baque) | -
+b10 | two | -  | - | (rosto) sad (expr + som de efeito); morreu (puff + som de baque) | -
 b11 | close | -  | placa: LAVE AS MÃOS | - | -
 
-Mistura de planos: close 19% | medio 66% | aberto 8% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | dentro do padrao do canal
+Mistura de planos: close 19% | medio 71% | aberto 8% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 3 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

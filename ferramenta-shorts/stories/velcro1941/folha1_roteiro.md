@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Os tecelões riram da ideia. Levou quase dez anos de tentativas até acertar o material.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: riram -> stars + som de sino
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; riram -> stars + som de sino
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

@@ -24,14 +24,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: palace | 1
 - Narracao: O sultão morreu de repente, e um primo dele correu para o palácio, e se sentou no trono sem pedir licença.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: morreu -> puff + som de baque; correu -> dust + som de impacto
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; correu -> dust + som de impacto
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b3  (~4.8 s)
 - Narracao: Os ingleses não gostaram. "Saia do palácio até as nove da manhã", avisaram eles.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -76,7 +76,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: palace | 1
 
 ## Cena b8  (~4.5 s)
 - Narracao: Às nove e quarenta, a bandeira do palácio caiu, e os canhões pararam.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
 - Efeito + som nas palavras-chave: caiu -> dust + som de impacto; canhões -> burst + som de tiro/explosao
 - Efeito visual marcado: dust@40
@@ -94,7 +94,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: palace | 1
 
 ## Cena b10  (~3.1 s)
 - Narracao: E ainda mandaram a conta das balas para Zanzibar.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: balas -> burst + som de tiro/explosao
 - Efeito visual marcado: -

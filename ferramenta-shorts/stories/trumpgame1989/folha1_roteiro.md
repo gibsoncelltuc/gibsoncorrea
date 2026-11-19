@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b9  (~6.9 s)
 - Narracao: E o jogo voltou às lojas, com regras mais simples, e com a frase famosa do programa: você está demitido.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: sting@20
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@20
@@ -94,7 +94,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b10  (~5.2 s)
 - Narracao: Hoje, as caixas originais de mil novecentos e oitenta e nove viraram item de colecionador.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: ding@20, ding@60
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20, stars@60
