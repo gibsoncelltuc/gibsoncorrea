@@ -57,34 +57,34 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | avanca e o outro recua | OK |
 | 4 | - | ATUACAO | reagir | OK |
 
-## Cena b5 - 31.1s a 36.8s - 18 palavras - plano low
+## Cena b5 - 31.1s a 36.9s - 18 palavras - plano low
 > "Acontece que a cidade levou isso a sério. Construiu um palco, e contratou músicos para animar a multidão."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | Construiu (34.1s) | ACAO: constroi | martela e o objeto cresce | OK |
-| 2 | músicos (35.7s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | músicos (35.7s) | ACAO: danca | danca de bracos para cima | OK |
+| 2 | músicos (35.8s) | EFEITO: stars | estrelinhas + som | OK |
+| 3 | músicos (35.8s) | ACAO: danca | danca de bracos para cima | OK |
 | 4 | - | INTERACAO | discutir | OK |
 | 5 | - | ATUACAO | construir | OK |
 | 6 | - | PLACA | PALCO | OK |
 
-## Cena b6 - 38.1s a 43.5s - 17 palavras - plano orbit
+## Cena b6 - 38.2s a 43.6s - 17 palavras - plano orbit
 > "Foi a pior ideia possível. Com música, mais gente entrou na dança, e muitos caíram de exaustão."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ideia (38.6s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
-| 2 | música (40.5s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | música (40.5s) | ACAO: x_canta | canta de bracos abertos + onda de som | OK |
-| 4 | entrou (41.4s) | ACAO: chega | entra andando pela lateral | OK |
-| 5 | dança (41.9s) | EFEITO: stars | estrelinhas + som | OK |
-| 6 | dança (41.9s) | ACAO: danca | danca de bracos para cima | OK |
-| 7 | caíram (43.0s) | EFEITO: dust | poeira + som | OK |
+| 1 | ideia (38.7s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
+| 2 | música (40.6s) | EFEITO: stars | estrelinhas + som | OK |
+| 3 | música (40.6s) | ACAO: x_canta | canta de bracos abertos + onda de som | OK |
+| 4 | entrou (41.5s) | ACAO: chega | entra andando pela lateral | OK |
+| 5 | dança (42.0s) | EFEITO: stars | estrelinhas + som | OK |
+| 6 | dança (42.0s) | ACAO: danca | danca de bracos para cima | OK |
+| 7 | caíram (43.1s) | EFEITO: dust | poeira + som | OK |
 | 8 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 9 | - | ATUACAO | dancar | OK |
 
-## Cena b7 - 44.9s a 49.3s - 15 palavras - plano two
+## Cena b7 - 45.0s a 49.4s - 15 palavras - plano two
 > "As crônicas da época falam em mortes, mas os historiadores discutem quantas foram de verdade."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -92,17 +92,17 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | o outro se aproxima | OK |
 | 2 | - | ATUACAO | reagir | OK |
 
-## Cena b8 - 50.5s a 54.8s - 15 palavras - plano track
+## Cena b8 - 50.6s a 54.9s - 15 palavras - plano track
 > "No fim, os dançarinos foram levados para um santuário nas montanhas, e a dança parou."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | dançarinos (51.3s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | dançarinos (51.3s) | ACAO: danca | danca de bracos para cima | OK |
-| 3 | dança (54.5s) | EFEITO: stars | estrelinhas + som | OK |
+| 1 | dançarinos (51.4s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | dançarinos (51.4s) | ACAO: danca | danca de bracos para cima | OK |
+| 3 | dança (54.6s) | EFEITO: stars | estrelinhas + som | OK |
 | 4 | - | ATUACAO | dancar | OK |
 
-## Cena b9 - 55.9s a 59.1s - 11 palavras - plano close
+## Cena b9 - 56.0s a 59.2s - 11 palavras - plano close
 > "Até hoje, ninguém sabe explicar direito o que aconteceu naquele verão."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
