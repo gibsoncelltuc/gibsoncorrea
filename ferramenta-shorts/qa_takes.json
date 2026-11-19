@@ -1,17 +1,38 @@
 {
  "fails": [
   {
-   "f": 1268,
-   "shot": "b7",
+   "f": 953,
+   "shot": "b5_v",
    "why": [
-    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
+    "empty take: no character in the take"
    ]
   },
   {
-   "f": 1272,
-   "shot": "b7",
+   "f": 956,
+   "shot": "b5_v",
    "why": [
-    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 960,
+   "shot": "b5_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 964,
+   "shot": "b5_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 976,
+   "shot": "b5_v",
+   "why": [
+    "gre: head/torso cropped (box -0.102, 0.239, 0.353, 0.613)"
    ]
   }
  ],
