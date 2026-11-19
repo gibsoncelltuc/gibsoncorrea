@@ -8,7 +8,7 @@ b0 | medieval | two | 2 | discutir, INTERAGEM: discutir | kit/brass_nose | - | -
 b1 | street | reveal | 8 | encena | buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b2 | interior madeira | group | 3 | discutir, INTERAGEM: avanca e o outro recua | - | mug | -
 b3 | street | two | 2 | discutir, INTERAGEM: discutir | - | sword, sword | -
-b4 | stadium | low | 2 | encena, INTERAGEM: empurrar | kit/brass_nose | sword, sword | -
+b4 | street | low | 2 | encena, INTERAGEM: empurrar | kit/brass_nose | sword, sword | -
 b5 | street | two | 1 | conversar | kit/brass_nose | - | -
 b6 | harbor | group | 8 | conversar, INTERAGEM: entregar | - | - | -
 b7 | medieval | crowd | 17 | encena, batalha | buildings/castle_tower | spyglass | -

@@ -11,12 +11,14 @@
  "heroi": "kit/coin",
  "outfits": {
   "MUS": {
-   "jacket": "#16181d",
-   "pants": "#22252c",
+   "jacket": "#3a3d45",
+   "pants": "#3a3d45",
    "boots": "#1b1b1f",
    "hat": "hair",
    "hair": "#3a2a1f",
-   "pele": "#f2e2d2"
+   "pele": "#f2e2d2",
+   "tie": "#2a3a5a",
+   "collar": "#f4f4f2"
   },
   "EBY": {
    "profissao": "comerciante",

@@ -1,6 +1,7 @@
 # OBJETOS COM DETALHE DE REFERENCIA REAL (19/11, ordem do Gibson: "todo objeto sem referencia: pesquisar na internet e modelar igual").
 # Referencia baixada em /tmp/claude-0/ref/<nome>.png (pesquisa de imagem + print). blender -b --python blender/objetos_detalhe.py [nome ...]
 import sys, os, math as m; sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); from formas import *
+import formas
 H = m.pi / 2
 
 def bitcoin():
@@ -30,6 +31,46 @@ def bitcoin():
             caixa((xb + .07, .6 + .3, zz), (.04, .1, t), '#fff1b8', rot=(0, 0, -.24)); caixa((xb - .06, .6 - .3, zz), (.04, .1, t), '#fff1b8', rot=(0, 0, -.24))
     fim(.004)
 
-E = dict(bitcoin=bitcoin)
+def roadster():
+    # Tesla Roadster vermelho (referencia: fotos de perfil/frente): esportivo baixo em cunha, conversivel, para-lamas arredondados, farois puxados para tras,
+    # capo curto e liso, santantonio atras dos bancos, rodas grandes de liga. Mesmo tamanho e direcao do antigo (2,2 m ao longo de x, frente em -x).
+    novo('roadster'); R, R2 = '#d21f2a', '#a8141e'
+    bola((0, .45, 0), 1, R, esc=(1.12, .2, .47))                                   # corpo baixo e liso
+    bola((-.62, .47, 0), 1, R, esc=(.52, .14, .44), rot=(0, 0, .1))               # capo descendo para o bico
+    bola((.62, .52, 0), 1, R, esc=(.5, .2, .46))                                    # traseira alta
+    for x in (-.7, .7):
+        for z in (-.36, .36): bola((x, .5, z), .3, R, esc=(1.25, .75, .45))         # para-lamas
+    bola((.1, .6, 0), 1, '#1b1b1f', esc=(.42, .08, .36))                            # cockpit aberto
+    for z in (-.18, .18): bola((.18, .66, z), .14, '#2a2a30', esc=(.6, 1.3, .9))    # bancos
+    caixa((.38, .74, 0), (.06, .22, .7), '#1b1b1f')                                 # santantonio
+    caixa((-.22, .7, 0), (.04, .2, .82), '#9fd4ee', rot=(0, 0, .75))               # para-brisa inclinado
+    caixa((-.22, .7, 0), (.06, .22, .86), '#1b1b1f', rot=(0, 0, .75)) if False else None
+    for z in (-.3, .3): bola((-1.0, .5, z), .1, '#f2f0e0', esc=(1.6, .5, 1))         # farois puxados
+    for z in (-.32, .32): bola((1.08, .55, z), .08, '#c8202a', esc=(.5, .6, 1.4))    # lanternas
+    caixa((-1.1, .38, 0), (.05, .08, .5), '#1b1b1f')                                # grade baixa
+    for x in (-.7, .7):
+        for z in (-.47, .47):
+            cil((x, .26, z), .26, .16, '#15151a', rot=(m.pi / 2, 0, 0), lados=24); cil((x, .26, z), .17, .18, '#c8ccd2', rot=(m.pi / 2, 0, 0), lados=20)
+            for k in range(5): a = k / 5 * 2 * m.pi; caixa((x + .09 * m.cos(a), .26 + .09 * m.sin(a), z), (.15, .03, .19), '#8a8e96', rot=(0, 0, a))
+    fim(.02)
+
+def ball():
+    # bola de futebol classica (Telstar): esfera branca com 12 pentagonos pretos lisos nos vertices de um icosaedro (sem espetos)
+    import bmesh as _b
+    from mathutils import Vector as V
+    novo('ball'); r = .42; bola((0, r, 0), r, '#f4f1e8', seg=32)
+    p = (1 + 5 ** .5) / 2; vs = [(0, 1, p), (0, -1, p), (0, 1, -p), (0, -1, -p), (1, p, 0), (-1, p, 0), (1, -p, 0), (-1, -p, 0), (p, 0, 1), (-p, 0, 1), (p, 0, -1), (-p, 0, -1)]
+    bm = formas._S['bm']; k = formas._mat('#22252c')
+    for v in vs:
+        d = V(v).normalized(); t1 = d.orthogonal().normalized(); t2 = d.cross(t1); rr = r * .36
+        def pt(f_, a_, h_):   # ponto na superficie (curvo), a f_ do raio do pentagono
+            q = (d + (t1 * m.cos(a_) + t2 * m.sin(a_)) * (f_ * .36)).normalized() * (r * h_); return bm.verts.new((q.x, -q.z, q.y + r))
+        cen = pt(0, 0, 1.03); mid = [pt(.5, i / 5 * 2 * m.pi, 1.03) for i in range(5)]; out = [pt(1, i / 5 * 2 * m.pi, 1.025) for i in range(5)]
+        for i in range(5):
+            j = (i + 1) % 5
+            for fc in ((cen, mid[i], mid[j]), (mid[i], out[i], out[j], mid[j])): f = bm.faces.new(fc); f.material_index = k
+    fim(0)
+
+E = dict(bitcoin=bitcoin, roadster=roadster, ball=ball)
 alvo = sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else list(E)
 for k in alvo: E[k]()

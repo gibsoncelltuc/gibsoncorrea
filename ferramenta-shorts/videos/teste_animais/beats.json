@@ -1,0 +1,48 @@
+{
+ "title": "Teste de Animais",
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "set": "countryside",
+ "light": "day",
+ "mood": "playful",
+ "director": false,
+ "outfits": {
+  "FAZ": {
+   "jacket": "#8a5a3a",
+   "pants": "#3a4a6a",
+   "boots": "#2a2218",
+   "hat": "straw"
+  }
+ },
+ "beats": [
+  {
+   "say": "Em mil oitocentos e cinquenta e nove, um fazendeiro viu um porco fuçando a horta.",
+   "shot": "two",
+   "who": [
+    "FAZ"
+   ]
+  },
+  {
+   "say": "Uma galinha ciscava no quintal enquanto um emu corria pelo campo.",
+   "shot": "wide",
+   "who": [
+    "FAZ"
+   ]
+  },
+  {
+   "say": "De repente um urso apareceu na cerca e o fazendeiro levou um susto.",
+   "shot": "two",
+   "who": [
+    "FAZ"
+   ]
+  },
+  {
+   "say": "Ele atirou no porco, que caiu no chão.",
+   "shot": "two",
+   "who": [
+    "FAZ"
+   ]
+  }
+ ],
+ "exp": 1.0
+}

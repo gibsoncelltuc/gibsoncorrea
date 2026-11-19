@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 - Narracao: Não acharam turco nenhum. Acharam moradores vendendo aguardente.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: vendendo -> stars + som de sino; encena: examina (think) -> acao + som de efeito
+- Efeito + som nas palavras-chave: vendendo -> stars + som de sino; encena: olha (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 - Narracao: Dois dias depois, os turcos chegaram de verdade, e acharam o acampamento abandonado. Contam que foram até dez mil baixas, mas os historiadores duvidam desse número.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: examina (think) -> acao + som de efeito
+- Efeito + som nas palavras-chave: chegaram -> dust + som de impacto; baixas -> puff + som de baque; encena: olha (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 10.000?
 - Funcao na historia: desenvolvimento

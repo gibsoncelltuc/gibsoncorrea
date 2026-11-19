@@ -22,7 +22,7 @@ if J:
     m = re.search(r'// FOLHA3 (\w+) (\d+)', sp)
     if not m or m.group(1) != h: erros.append('a producao (spec.js) NAO segue a folha 3 atual: rode python3 mkvideo.py ' + ID)
     if '--render' in sys.argv:
-        if open(f'{D}/STORYBOARD_OK').read().strip() != h if os.path.exists(f'{D}/STORYBOARD_OK') else True: erros.append('STORYBOARD NAO APROVADO para esta versao das folhas (olhe stories/' + ID + '/storyboard.jpg e rode ./aprovar_storyboard.sh ' + ID + ')')
+        if open(f'{D}/STORYBOARD_OK').read().strip() != J.get('hash_producao') if os.path.exists(f'{D}/STORYBOARD_OK') else True: erros.append('STORYBOARD NAO APROVADO para esta versao das folhas (olhe stories/' + ID + '/storyboard.jpg e rode ./aprovar_storyboard.sh ' + ID + ')')
         st = open('web/story.js', encoding='utf-8').read() if os.path.exists('web/story.js') else ''
         if f'// FOLHA3 {h}' not in st: erros.append('o que vai para o render (web/story.js) nao carrega a folha 3 deste video')
     n_acoes = len([l for l in L if l.rstrip().endswith('| OK |')])
