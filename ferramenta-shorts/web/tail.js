@@ -212,7 +212,7 @@ window.inspectFrame = (f) => {
     const bx0 = Math.min(...xs), bx1 = Math.max(...xs), by0 = Math.min(...ys), by1 = Math.max(...ys), ix = Math.max(0, Math.min(1, bx1) - Math.max(0, bx0)), iy = Math.max(0, Math.min(1, by1) - Math.max(0, by0)), area = (bx1 - bx0) * (by1 - by0);
     out.placas = out.placas || []; out.placas.push({ box: [+bx0.toFixed(3), +by0.toFixed(3), +bx1.toFixed(3), +by1.toFixed(3)], visible: +(area > 0 ? (ix * iy) / area : 0).toFixed(3), behind }); }
   // 3D animals (props from the pool): project their world bounding boxes so the take inspector covers them too
-  for (const nm of ['bear', 'horse', 'emu']) for (const o of (propPool[nm] || [])) { if (!o.visible) continue; const bb3 = new THREE.Box3().setFromObject(o); if (bb3.isEmpty()) continue;
+  for (const nm of ['bear', 'horse', 'horse_sela', 'emu']) for (const o of (propPool[nm] || [])) { if (!o.visible) continue; const bb3 = new THREE.Box3().setFromObject(o); if (bb3.isEmpty()) continue;
     const cs = []; for (const x of [bb3.min.x, bb3.max.x]) for (const y of [bb3.min.y, bb3.max.y]) for (const z of [bb3.min.z, bb3.max.z]) cs.push(new THREE.Vector3(x, y, z).project(camera));
     const behind = cs.every((p) => p.z > 1 || p.z < -1), xs = cs.map((p) => (p.x + 1) / 2), ys = cs.map((p) => (1 - p.y) / 2), bx0 = Math.min(...xs), bx1 = Math.max(...xs), by0 = Math.min(...ys), by1 = Math.max(...ys);
     const ix = Math.max(0, Math.min(1, bx1) - Math.max(0, bx0)), iy = Math.max(0, Math.min(1, by1) - Math.max(0, by0)), area = (bx1 - bx0) * (by1 - by0), vis = area > 0 ? (ix * iy) / area : 0;
@@ -246,7 +246,7 @@ const renderCore = (f) => {
   const D = window.TESTCAM ? { focus: window.TESTCAM.focus || 5, cinf: window.TESTCAM.cinf || 4 } : dofAt(f);
   if (!window.TESTCAM && !(S.dof && S.dof.focus !== undefined)) {   // the lens always focuses on the NEAREST character in the middle of the frame (faces never go soft); only the background / foreground props blur
     const fw = new THREE.Vector3(); camera.getWorldDirection(fw); const cp_ = camera.position; let best = Infinity;
-    const cand = [...ACTS.map((a) => [a.x, a.y + 1.1 * (a.s || 1), a.z]), ...(W_.props || []).filter((p) => p.asset === 'bear' || p.asset === 'horse' || p.asset === 'emu').map((p) => [p.x, p.y + 1.0, p.z])];
+    const cand = [...ACTS.map((a) => [a.x, a.y + 1.1 * (a.s || 1), a.z]), ...(W_.props || []).filter((p) => p.asset === 'bear' || p.asset === 'horse' || p.asset === 'horse_sela' || p.asset === 'emu').map((p) => [p.x, p.y + 1.0, p.z])];
     for (const q of cand) { const v = new THREE.Vector3(q[0] - cp_.x, q[1] - cp_.y, q[2] - cp_.z), dep = v.dot(fw); if (dep < 0.6) continue; const pr = new THREE.Vector3(q[0], q[1], q[2]).project(camera); if (Math.abs(pr.x) > 0.85 || Math.abs(pr.y) > 0.92) continue; if (dep < best) best = dep; }
     if (best < Infinity && best < D.focus * 1.05) D.focus = best; else if (best < Infinity) D.focus = Math.min(D.focus, Math.max(best, D.focus * 0.6));
     D.near = 0.45; }

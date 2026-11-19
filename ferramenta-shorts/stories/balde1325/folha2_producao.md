@@ -14,38 +14,38 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b1 - Módena e Bolonha se odiavam havia séculos. Uma apoiava o imperador, a ...
 - Cenario: medieval | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): NOB (variante 0, expressao stern); BOL (variante 1, expressao stern)
-- Animacao: discutir | interacao: discutir
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (2): NOB (variante 0, expressao stern); BOL (variante 1, expressao stern) | multidao: 12 de POV
+- Animacao: discutir | batalha encenada
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): apoiava, imperador, papa
 - RISCOS: nenhum
 
 ## Cena b2 - Numa noite, diz a lenda, soldados de Módena entraram escondidos em Bol...
-- Cenario: medieval | luz: noite | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): MOD (variante 0, expressao grin); MOD (variante 1, expressao nervous) | multidao: 10 de MOD
-- Animacao: reagir
+- Cenario: mountain | luz: noite | clima: limpo
+- Camera: track = travelling lateral acompanhando quem anda
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Personagens principais (2): MOD (variante 0, expressao grin); MOD (variante 1, expressao nervous)
+- Animacao: -
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lenda, modena
 - RISCOS: nenhum
 
 ## Cena b3 - Não roubaram ouro, nem armas. Levaram o balde velho do poço da praça, ...
-- Cenario: medieval | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): MOD (variante 0, expressao laugh, segura bag); MOD (variante 1, expressao grin) | multidao: 12 de MOD/MOD
-- Animacao: comemorar | batalha encenada
-- Objetos/modelos: barrel, tools/bucket, buildings/house_small, nature/picket_fence, nature/tree_oak
+- Cenario: interior madeira | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (2): MOD (variante 0, expressao laugh, segura bag); MOD (variante 1, expressao grin)
+- Animacao: comemorar | interacao: pular
+- Objetos/modelos: barrel, tools/bucket
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balde, poco, praca
 - RISCOS: nenhum
 
 ## Cena b4 - "Devolvam o nosso balde", exigiu Bolonha. "Venham buscar", respondeu M...
 - Cenario: interior pedra | luz: dia | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: close = close no rosto; empurra devagar
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): NOB (variante 0, expressao stern)
 - Animacao: conversar
 - Objetos/modelos: tools/bucket
@@ -53,8 +53,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Bolonha juntou um exército de trinta mil homens, e marchou contra a vi...
-- Cenario: medieval | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Cenario: mountain | luz: day | clima: limpo
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): BOL (variante 0, expressao stern); BOL (variante 1, expressao stern) | multidao: 18 de BOL
 - Animacao: -
@@ -63,17 +63,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Módena tinha só sete mil soldados. Parecia uma derrota certa, e rápida...
-- Cenario: medieval | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (2): MOD (variante 0, expressao nervous); MOD (variante 1, expressao pained) | multidao: 5 de MOD
+- Personagens principais (2): MOD (variante 0, expressao nervous); MOD (variante 1, expressao pained) | multidao: 10 de MOD/POV
 - Animacao: reagir | interacao: insiste
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): derrota
 - RISCOS: nenhum
 
 ## Cena b7 - Acontece que, numa única tarde de batalha, os sete mil atacaram de sur...
-- Cenario: medieval | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): MOD (variante 0, expressao stern); BOL (variante 0, expressao shock) | multidao: 18 de MOD/BOL
@@ -84,10 +84,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Módena perseguiu os inimigos até os portões de Bolonha, e ainda zombou...
 - Cenario: medieval | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: track = travelling lateral acompanhando quem anda
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): MOD (variante 0, expressao laugh, segura flag); MOD (variante 1, expressao grin)
-- Animacao: conversar | interacao: o outro se aproxima
+- Animacao: -
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bolonha, fora, inimigos, portoes
 - RISCOS: nenhum
@@ -102,9 +102,21 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balde
 - RISCOS: nenhum
 
+## PARA O BLENDER (objetos 3D deste video)
+Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito no Blender; a ferramenta so' poe em cena, pinta o contorno e anima. Nada de objeto "quadradao": use `blender/formas.py` (cil, bola, torno, tubo, arco, caixa com chanfro).
+
+Objeto | Cenas | Situacao | O que fazer
+---|---|---|---
+tools/bucket | b0, b3, b4, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/apartment | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/house_two | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/lamppost | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+barrel | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+
+
 ## Video inteiro
-- Objeto heroi: tools/bucket | grandes momentos: b3, b7 | planos abertos: 4 | mistura: close 19% | medio 52% | aberto 25% | detalhe 4%
-- Interacoes: b0 susto, b1 discutir, b6 insiste, b8 o outro se aproxima
+- Objeto heroi: tools/bucket | grandes momentos: b1, b7 | planos abertos: 3 | mistura: close 21% | medio 59% | aberto 18% | detalhe 2%
+- Interacoes: b0 susto, b3 pular, b6 insiste
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

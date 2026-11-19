@@ -22,7 +22,7 @@ def membro(pts, raios, col):   # perna/tromba: cones lisos + bola em cada articu
 def tubo(pts, r, col, passo=1):   # versao lisa (substitui a de formas): afina ate 70% na ponta
     membro(pts, [r * (1 - .3 * i / max(1, len(pts) - 1)) for i in range(len(pts))], col)
 
-def bicho(nome, L, H, bw, bh, nl, na, hr, ml, mr, cor, barriga, pata, orelha='tri', cauda='fino', olho='#2b2430', extra=None, casco=False, nariz='#2b2430', reto=False):
+def bicho(nome, L, H, bw, bh, nl, na, hr, ml, mr, cor, barriga, pata, orelha='tri', cauda='fino', olho='#2b2430', extra=None, casco=False, nariz='#2b2430', reto=False, girar=False):
     """L corpo (m), H altura da perna, bw/bh largura/altura do tronco, nl/na pescoco (comprimento, angulo p/ frente rad), hr raio da cabeca, ml/mr focinho"""
     novo(nome)
     yc = H + bh * .45
@@ -68,7 +68,9 @@ def bicho(nome, L, H, bw, bh, nl, na, hr, ml, mr, cor, barriga, pata, orelha='tr
     elif cauda == 'curto': bola((0, ty + .02, tz - .05), bw * .14, barriga)
     elif cauda == 'pompom': bola((0, ty, tz - .02), bw * .25, '#ffffff')
     elif cauda == 'gato': tubo([(0, ty, tz), (0, ty + .25, tz - .2), (0, ty + .55, tz - .25), (0, ty + .7, tz - .1)], bw * .07, cor)
-    if extra: extra(dict(L=L, H=H, bw=bw, bh=bh, yc=yc, hc=hc, hr=hr, mc=mc, cor=cor, pata=pata, barriga=barriga))
+    if extra: extra(dict(L=L, H=H, bw=bw, bh=bh, yc=yc, hc=hc, hr=hr, mc=mc, cor=cor, pata=pata, barriga=barriga, nb=nb, nl=nl, na=na))
+    if girar:   # cavalo: o motor antigo vira o modelo 180 graus (convencao do cavalo velho) -> exporta de frente para -z
+        for v in formas._S['bm'].verts: v.co.x, v.co.y = -v.co.x, -v.co.y
     fim(.01)
 
 def juba(d):
@@ -102,6 +104,32 @@ def bigode(d):
     for s in (-1, 1):
         for k in (-1, 0, 1): tubo([(s * d['mr'] * .6 if 'mr' in d else s * .05, d['mc'][1] + k * .015, d['mc'][2] + .05), (s * .22, d['mc'][1] + k * .04, d['mc'][2] + .02)], .006, '#2b2430', passo=.3)
 
+def crina(d):   # cavalo: pescoco grosso, cabeca longa inclinada para baixo, crina pela nuca + topete, rabo longo e cheio
+    nb, nl, na, hc, hr = d['nb'], d['nl'], d['na'], d['hc'], d['hr']
+    membro([(0, nb[1] - .1, nb[2] - .1), (0, hc[1] - hr * .2, hc[2] - hr * .4)], [d['bw'] * .42, hr * .75], d['cor'])
+    bola((0, hc[1] - hr * .55, hc[2] + hr * 1.0), hr * .62, d['cor'], esc=(.85, .9, 1.9), rot=(.75, 0, 0))   # cara longa
+    bola((0, hc[1] - hr * 1.2, hc[2] + hr * 1.75), hr * .5, d['barriga'], esc=(.95, .9, 1.1))                   # focinho
+    for sx in (-1, 1): bola((sx * hr * .25, hc[1] - hr * 1.15, hc[2] + hr * 2.2), hr * .09, '#2b2430')     # narinas
+    for i in range(9):
+        t = i / 8; y = nb[1] + m.cos(na) * nl * t + d['bw'] * .22; z = nb[2] + m.sin(na) * nl * t - d['bw'] * .12
+        bola((0, y, z), d['bw'] * .16, '#3a2418', esc=(.5, 1.3, 1))
+    bola((0, hc[1] + hr * .9, hc[2] + hr * .2), hr * .35, '#3a2418', esc=(.6, .8, 1.2))
+    tz = -d['L'] * .52; ty = d['yc'] + d['bh'] * .25
+    tubo([(0, ty, tz), (0, ty - .15, tz - .25), (0, ty - .7, tz - .35), (0, ty - 1.05, tz - .3)], d['bw'] * .14, '#3a2418')
+def sela(d):
+    crina(d)
+    y0 = d['yc'] + d['bh'] * .5; z0 = d['L'] * .02
+    bola((0, y0 - .02, z0), d['bw'] * .62, '#7a2a2a', esc=(1.05, .25, 1.15))          # manta
+    bola((0, y0 + .06, z0), d['bw'] * .48, '#6a4226', esc=(1.05, .35, 1.0))           # sela
+    bola((0, y0 + .16, z0 + d['bw'] * .42), d['bw'] * .12, '#5a361e')                   # cabeca da sela
+    for sx in (-1, 1):
+        tubo([(sx * d['bw'] * .5, y0, z0), (sx * d['bw'] * .55, y0 - .45, z0)], .015, '#2a2018')     # loro
+        cil((sx * d['bw'] * .55, y0 - .5, z0), .07, .03, '#9a9aa2', lados=10)                       # estribo
+    hc, hr = d['hc'], d['hr']
+    tubo([(-hr * .55, hc[1] - hr * .35, hc[2] + hr * .7), (-d['bw'] * .3, y0 + .12, z0 + d['bw'] * .45)], .018, '#2a2018')   # redeas
+    tubo([(hr * .55, hc[1] - hr * .35, hc[2] + hr * .7), (d['bw'] * .3, y0 + .12, z0 + d['bw'] * .45)], .018, '#2a2018')
+    tubo([(-hr * .6, hc[1] + hr * .1, hc[2] + hr * .6), (hr * .6, hc[1] + hr * .1, hc[2] + hr * .6)], .02, '#2a2018')       # cabecada
+
 E = {
  'dog':      lambda: bicho('dog', .95, .5, .38, .42, .3, .7, .2, .16, .1, '#d49a5c', '#f4e2c4', '#5a3a24', orelha='caido', cauda='fino'),
  'wolf':     lambda: bicho('wolf', 1.15, .62, .4, .44, .34, .8, .22, .22, .1, '#8a8f98', '#e2e5ea', '#3a3d45', orelha='tri', cauda='grosso'),
@@ -114,6 +142,8 @@ E = {
  'goat':     lambda: bicho('goat', 1.0, .62, .4, .45, .3, .55, .2, .2, .1, '#efe3cf', '#f7efe0', '#4a3a30', orelha='lateral', cauda='curto', casco=True, extra=chifres_cabra),
  'sheep':    lambda: bicho('sheep', 1.05, .5, .55, .55, .22, .8, .2, .16, .11, '#f6f2ea', '#f6f2ea', '#2b2430', orelha='lateral', cauda='curto', casco=True, nariz='#3d343b', extra=la),
  'rabbit':   lambda: bicho('rabbit', .45, .14, .28, .3, .08, .4, .15, .06, .07, '#e8e2da', '#ffffff', '#d4ccc0', orelha='longo', cauda='pompom', nariz='#f08aa0'),
+ 'horse':    lambda: bicho('horse', 1.9, 1.2, .58, .74, .8, .62, .26, .02, .02, '#8a5a34', '#a8774a', '#2a2018', orelha='tri', cauda=None, casco=True, extra=crina),
+ 'horse_sela': lambda: bicho('horse_sela', 1.9, 1.2, .58, .74, .8, .62, .26, .02, .02, '#8a5a34', '#a8774a', '#2a2018', orelha='tri', cauda=None, casco=True, extra=sela),
  'elephant': lambda: bicho('elephant', 2.6, 1.4, 1.5, 1.6, .2, .9, .7, .1, .3, '#9aa0a8', '#b6bbc2', '#70757c', orelha=None, cauda='fino', casco=True, nariz='#70757c', extra=tromba, reto=True),
 }
 alvo = [a for a in sys.argv[sys.argv.index('--') + 1:]] if '--' in sys.argv else list(E)

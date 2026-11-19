@@ -77,7 +77,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): ING (variante 0, expressao stern); AME (variante 0, expressao stern) | multidao: 20 de ING/AME
+- Personagens principais (2): ING (variante 0, expressao stern); AME (variante 0, expressao stern) | multidao: 30 de ING/AME
 - Animacao: discutir | batalha encenada
 - Objetos/modelos: cannon, navios ao fundo
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canhoes, inglaterra, navios, soldados

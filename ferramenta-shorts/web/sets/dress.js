@@ -8,7 +8,7 @@ const DRESS = {
   medieval: ['barrel', 'crate', 'tools/lantern', 'war/shield', 'war/sandbags', 'tools/anvil', 'nature/haybale'],
   street: ['barrel', 'crate', 'tools/lantern', 'nature/bench', 'nature/bush', 'tools/ladder'],
   hall: ['barrel', 'crate', 'tools/lantern', 'war/drum', 'mk/Bench'],
-  stadium: ['crate', 'barrel', 'tools/bucket', 'nature/bench'],
+  stadium: ['nature/bench'],
   harbor: ['crate', 'barrel', 'tools/lantern', 'war/cannonballs', 'tools/bucket'],
   mountain: ['nature/rocks', 'war/sandbags', 'crate', 'barrel', 'tools/shovel', 'tools/lantern'],
 };

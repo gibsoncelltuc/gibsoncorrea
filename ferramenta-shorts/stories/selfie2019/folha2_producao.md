@@ -8,34 +8,34 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): BUK (variante 0, expressao grin); DIP (variante 0, expressao surprised)
 - Animacao: conversar | interacao: avanca e o outro recua | o ultimo personagem ENTRA andando
-- Objetos/modelos: kit/phone
+- Objetos/modelos: kit/phone, kit/marco_liberdade
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): falar, presidente, selfie
 - RISCOS: nenhum
 
 ## Cena b1 - Foi em setembro de dois mil e dezenove, na Assembleia Geral da ONU, em...
 - Cenario: street | luz: day | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
-- Animacao: -
-- Objetos/modelos: -
+- Animacao: - | batalha encenada
+- Objetos/modelos: kit/marco_liberdade
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): assembleia, dois
 - RISCOS: nenhum
 
 ## Cena b2 - Ali, os líderes de quase todos os países fazem discursos longos e séri...
-- Cenario: street | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): DIP (variante 0, expressao bored); REP (variante 0, expressao suspicious, segura paper) | multidao: 12 de POV
-- Animacao: conversar | batalha encenada
+- Cenario: interior pedra | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Personagens principais (2): DIP (variante 0, expressao bored); REP (variante 0, expressao suspicious, segura paper)
+- Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lideres
 - RISCOS: nenhum
 
 ## Cena b3 - Nayib Bukele, o novo presidente de El Salvador, tinha só trinta e oito...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): BUK (variante 0, expressao smug); DIP (variante 0, expressao suspicious)
 - Animacao: conversar | interacao: cochichar
 - Objetos/modelos: kit/phone
@@ -44,8 +44,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - Acontece que, no púlpito, ele pediu: só um segundo, por favor. E tirou...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: close = close no rosto; empurra devagar
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): BUK (variante 0, expressao grin)
 - Animacao: conversar
 - Objetos/modelos: kit/phone
@@ -78,12 +78,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao laugh); POV (variante 1, expressao surprised); REP (variante 0, expressao grin) | multidao: 20 de POV
 - Animacao: comemorar | batalha encenada
-- Objetos/modelos: kit/phone, kit/globe
+- Objetos/modelos: kit/phone, kit/marco_liberdade, kit/globe
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): foto, planeta
 - RISCOS: nenhum
 
 ## Cena b8 - Alguns acharam falta de respeito com a ONU. Outros acharam genial.
-- Cenario: street | luz: day | clima: limpo
+- Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): REP (variante 0, expressao suspicious, segura paper); DIP (variante 0, expressao bored)
@@ -93,17 +93,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - No discurso, ele defendeu justamente isso: que as reuniões antigas dev...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): BUK (variante 0, expressao smug); REP (variante 0, expressao surprised)
-- Animacao: conversar | interacao: o outro se aproxima
+- Animacao: conversar | interacao: insiste
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): discurso, internet, reunioes
 - RISCOS: nenhum
 
 ## Cena b10 - Uma selfie de um segundo, que ficou mais famosa que muitos discursos i...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: interior pedra | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): BUK (variante 0, expressao smile)
@@ -118,12 +118,13 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/phone | b0, b3, b4, b5, b6, b7, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_liberdade | b0, b1, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/globe | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/phone | grandes momentos: b2, b7 | planos abertos: 3 | mistura: close 19% | medio 62% | aberto 11% | detalhe 7%
-- Interacoes: b0 avanca e o outro recua, b3 cochichar, b6 pular, b8 discutir, b9 o outro se aproxima
+- Objeto heroi: kit/phone | grandes momentos: b1, b7 | planos abertos: 2 | mistura: close 22% | medio 69% | aberto 6% | detalhe 2%
+- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b3 cochichar, b6 pular, b8 discutir, b9 insiste
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

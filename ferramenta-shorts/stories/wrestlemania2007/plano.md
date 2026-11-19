@@ -9,7 +9,7 @@ b3 | two | -  | - | - | -
 b4 | crowd | -  | batalha aberta com tiros, tropa, placa: 80 MIL | - | -
 b5 | two | -  | - | - | -
 b6 | low | -  | tropa | - | -
-b7 | orbit | -  | batalha aberta com tiros, tropa, placa: VITÓRIA | venceu (stars + som de sino) | -
+b7 | orbit | -  | batalha aberta com tiros, tropa, placa: VITÓRIA | (rosto) laugh (expr + som de efeito); venceu (stars + som de sino) | -
 b8 | two | -  | - | - | -
 b9 | close | -  | - | - | -
 b10 | two | -  | - | - | -

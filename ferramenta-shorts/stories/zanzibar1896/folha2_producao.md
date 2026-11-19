@@ -24,8 +24,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - O sultão morreu de repente, e um primo dele correu para o palácio, e s...
 - Cenario: interior pedra | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): SUL (variante 0, expressao grin); GUA (variante 1, expressao stern)
 - Animacao: conversar | interacao: o outro se aproxima | o ultimo personagem ENTRA andando
 - Objetos/modelos: kit/throne
@@ -33,12 +33,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - Os ingleses não gostaram. "Saia do palácio até as nove da manhã", avis...
-- Cenario: palace | luz: day | clima: limpo
+- Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): ALM (variante 0, expressao stern, segura paper); ING (variante 0, expressao stern)
 - Animacao: conversar | interacao: insiste
-- Objetos/modelos: buildings/castle_tower
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ingleses, nove, palacio
 - RISCOS: nenhum
 
@@ -78,32 +78,33 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): SUL (variante 0, expressao shock); GUA (variante 1, expressao shock)
 - Animacao: discutir
-- Objetos/modelos: -
+- Objetos/modelos: buildings/house_two, nature/lamppost, nature/bench
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alemanha, consulado, fundos, sultao
 - RISCOS: nenhum
 
 ## Cena b8 - Às nove e quarenta, a bandeira do palácio caiu, e os canhões pararam.
-- Cenario: palace | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): GUA (variante 0, expressao pained, segura flag); ING (variante 1, expressao stern) | multidao: 5 de GUA/ING
+- Cenario: interior pedra | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Personagens principais (2): GUA (variante 0, expressao pained, segura flag); ING (variante 1, expressao stern)
 - Animacao: conversar | interacao: vai ate o outro
-- Objetos/modelos: cannon, war/flagpole, buildings/castle_tower
+- Objetos/modelos: cannon, war/flagpole
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bandeira, canhoes, nove, palacio
 - RISCOS: nenhum
 
 ## Cena b9 - Trinta e oito minutos. No mesmo dia, os ingleses colocaram outro sultã...
-- Cenario: palace | luz: day | clima: limpo
+- Cenario: medieval | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (3): ALM (variante 0, expressao smile, segura paper); ING (variante 0, expressao grin); POV (variante 0, expressao nervous)
 - Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ingleses, trono
-- RISCOS: nenhum
+- RISCOS: 
+  - a narracao cita "sultao" e ninguem em cena esta vestido a carater -> CORRECAO: por no "who" um personagem com "profissao": "rei" no figurino (coroa/farda/chapeu proprios)
 
 ## Cena b10 - E ainda mandaram a conta das balas para Zanzibar.
-- Cenario: palace | luz: day | clima: limpo
+- Cenario: interior loja | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): ALM (variante 0, expressao grin)
@@ -112,12 +113,27 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balas
 - RISCOS: nenhum
 
+## PARA O BLENDER (objetos 3D deste video)
+Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito no Blender; a ferramenta so' poe em cena, pinta o contorno e anima. Nada de objeto "quadradao": use `blender/formas.py` (cil, bola, torno, tubo, arco, caixa com chanfro).
+
+Objeto | Cenas | Situacao | O que fazer
+---|---|---|---
+kit/throne | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+cannon | b4, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/castle_tower | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/house_two | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/lamppost | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/bench | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+war/flagpole | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+
+
 ## Video inteiro
-- Objeto heroi: cannon | grandes momentos: b4, b6 | planos abertos: 3 | mistura: close 24% | medio 56% | aberto 13% | detalhe 7%
+- Objeto heroi: cannon | grandes momentos: b4, b6 | planos abertos: 3 | mistura: close 15% | medio 70% | aberto 13% | detalhe 2%
 - Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b3 insiste, b8 vai ate o outro, b9 aproxima-se
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- b9: a narracao cita "sultao" e ninguem em cena esta vestido a carater
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh zanzibar1896 bN bM` (so essas cenas).

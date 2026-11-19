@@ -61,6 +61,7 @@ for i_, _b in enumerate(B['beats']):
     _t = __import__('unicodedata').normalize('NFKD', _b['say'].lower()).encode('ascii', 'ignore').decode()
     for rx_, k_, v_ in _LUGAR:
         if re.search(rx_, _t):
+            _b['_lug_ok'] = True   # a narracao CITOU o lugar: a variedade nunca tira a cena dele (estadio lotado continua no estadio)
             if k_ == 'interior' and (_b.get('shot') in ('reveal', 'crowd', 'orbit', 'track') or _b.get('batalha') or _b.get('veiculo') or _b.get('crowd')): continue
             if k_ == 'set' and v_ == SET: break
             _b[k_] = v_; break
@@ -80,7 +81,7 @@ if _N >= 6 and B.get('variar_cenario') is not False:
         _cont = __import__('collections').Counter(_lug(b_) for b_ in B['beats'])
         _dom, _qt = _cont.most_common(1)[0]
         if len(_cont) >= 3 and _qt <= _N // 2: break
-        _livres = [i_ for i_, b_ in enumerate(B['beats']) if _lug(b_) == _dom and i_ not in _EXPL and i_ not in (0, _N - 1) and not b_.get('mapa')]
+        _livres = [i_ for i_, b_ in enumerate(B['beats']) if _lug(b_) == _dom and i_ not in _EXPL and not b_.get('_lug_ok') and i_ not in (0, _N - 1) and not b_.get('mapa')]
         _opc = [o_ for o_ in _ALT.get(_dom.replace('interior ', ''), _ALT['street']) if o_ not in _cont] or _ALT.get(SET, _ALT['street'])
         _bl = [_livres[j_:j_ + 2] for j_ in range(0, len(_livres), 2)]
         _bl = _bl[1::2] + _bl[0::2]   # blocos de 2 cenas seguidas, primeiro um sim um nao (o lugar muda junto com a historia)
@@ -129,13 +130,20 @@ _MARCOS = ((r'cabo canaveral|plataforma de lancamento|base de lancamento|kennedy
            (r'piramide|egito|egipc|\bgize\b|farao|\bcairo\b|esfinge', 'kit/marco_piramides', 22, -78, 1.6),
            (r'londres|big ben|tamisa', 'kit/marco_bigben', 16, -58, 1.0), (r'\bparis\b|torre eiffel', 'kit/marco_eiffel', 18, -66, 1.1),
            (r'nova york|estatua da liberdade|manhattan', 'kit/marco_liberdade', 20, -70, 1.0), (r'\broma\b|coliseu|gladiador', 'kit/marco_coliseu', 0, -82, 1.0),
-           (r'rio de janeiro|cristo redentor|corcovado', 'kit/marco_cristo', 24, -96, 1.2))
+           (r'rio de janeiro|cristo redentor|corcovado', 'kit/marco_cristo', 24, -96, 1.2),
+           (r'casa branca|washington|presidente dos estados unidos|presidente americano|biden|obama', 'kit/marco_casabranca', 18, -70, 1.0),
+           (r'capitolio|congresso americano', 'kit/marco_capitolio', 18, -80, 1.0), (r'hollywood', 'kit/marco_hollywood', 0, -110, 1.0),
+           (r'sao francisco|san francisco|golden gate', 'kit/marco_goldengate', 0, -120, 1.0), (r'\bberlim|brandemburgo', 'kit/marco_brandemburgo', 18, -70, 1.0),
+           (r'\bpisa\b|toscana|florenca', 'kit/marco_pisa', 20, -70, 1.0), (r'\bviena\b', 'kit/marco_viena', 20, -80, 1.0), (r'bruxelas', 'kit/marco_atomium', 20, -80, 1.0),
+           (r'suica|\balpes\b|genebra|zurique', 'kit/marco_alpes', 0, -110, 1.0), (r'\bmaias?\b|chichen|yucatan', 'kit/marco_chichenitza', 20, -80, 1.0),
+           (r'moscou|kremlin|praca vermelha', 'kit/marco_saobasilio', 20, -80, 1.0), (r'sydney', 'kit/marco_operasydney', 0, -100, 1.0),
+           (r'teera|istambul|constantinopla|mesquita', 'kit/marco_mesquita', 20, -80, 1.0), (r'olinda|recife colonial|pernambuco colonial', 'kit/marco_olinda', 20, -90, 1.0))
 _mt = __import__('unicodedata').normalize('NFKD', (B.get('title', '') + ' ' + ' '.join(str(b_.get('mapa') or '') for b_ in B['beats']) + ' ' + ' '.join(b_['say'] for b_ in B['beats'][:3])).lower()).encode('ascii', 'ignore').decode()   # so o LUGAR da historia (titulo, mapa, comeco), nao qualquer citacao
 MARCO = None if B.get('marco') is False else (B.get('marco') or next(((a_, dx_, z_, s_) for rx_, a_, dx_, z_, s_ in _MARCOS if re.search(rx_, _mt)), None))
 if MARCO and isinstance(MARCO, str): MARCO = (MARCO, 18, -70, 1.0)
 if MARCO:
     for k_, b_ in enumerate(B['beats']):
-        if b_.get('interior') or b_.get('marco') is False or b_.get('set') in ('hall', 'arctic', 'jungle'): continue
+        if b_.get('interior') or b_.get('marco') is False or b_.get('set', SET) in ('hall', 'arctic', 'jungle', 'stadium'): continue
         b_['props'] = list(b_.get('props', [])) + [[MARCO[0], MARCO[1] * (1 if k_ % 2 else -1), MARCO[2], MARCO[3]]]
 _hosp = next((b_ for b_ in B['beats'] if b_.get('interior') == 'hospital' and not b_.get('text')), None)
 if _hosp is not None and not any(b_.get('text') == 'HOSPITAL' for b_ in B['beats']): _hosp['text'] = 'HOSPITAL'
@@ -193,15 +201,70 @@ PROFISSOES = {  # "profissao" no figurino -> roupa, chapeu e tracos tipicos (o q
 }
 PROFISSOES['general'].update({'epaulets': '#e8c45a', 'medals': 4}); PROFISSOES['rei'].update({'collar': '#f4f1e8', 'medals': 2}); PROFISSOES['empresario'].update({'collar': '#f4f4f2'}); PROFISSOES['politico'].update({'collar': '#f4f4f2'})
 # UNIFORME DA EPOCA (19/11: soldado de 1600, 1915 e 2020 nao usam a mesma roupa) -- "ano" no topo do roteiro ou o ano do titulo/id
-_anoM = re.search(r'\b(1[0-9]{3}|20[0-9]{2}|[2-9][0-9]{2})\b', str(B.get('ano', '')) + ' ' + B.get('title', '') + ' ' + ID)
-ANO = int(_anoM.group(1)) if _anoM else None
-_GUERRA_COR = {'alemanha': '#6a6e5a', 'franca': '#7a8aa8', 'eua': '#7a6a4a', 'inglaterra': '#7a7052', 'russia': '#6a6a4a', 'japao': '#8a7a4a', 'italia': '#7a7a62', 'brasil': '#6a7a5a'}
+def _ano_por_extenso(t_):   # "mil setecentos e oitenta e oito" -> 1788 (a narracao escreve o ano por extenso)
+    t_ = __import__('unicodedata').normalize('NFKD', t_.lower()).encode('ascii', 'ignore').decode()
+    m_ = re.search(r'\b(mil|dois mil)( e)? ?(cento|duzentos|trezentos|quatrocentos|quinhentos|seiscentos|setecentos|oitocentos|novecentos)?( e)? ?(dez|onze|doze|treze|quatorze|catorze|quinze|dezesseis|dezessete|dezoito|dezenove|vinte|trinta|quarenta|cinquenta|sessenta|setenta|oitenta|noventa)?( e)? ?(um|uma|dois|duas|tres|quatro|cinco|seis|sete|oito|nove)?\b', t_)
+    if not m_ or not (m_.group(3) or m_.group(1) == 'dois mil'): return None
+    C = dict(cento=100, duzentos=200, trezentos=300, quatrocentos=400, quinhentos=500, seiscentos=600, setecentos=700, oitocentos=800, novecentos=900)
+    D = dict(dez=10, onze=11, doze=12, treze=13, quatorze=14, catorze=14, quinze=15, dezesseis=16, dezessete=17, dezoito=18, dezenove=19, vinte=20, trinta=30, quarenta=40, cinquenta=50, sessenta=60, setenta=70, oitenta=80, noventa=90)
+    U = dict(um=1, uma=1, dois=2, duas=2, tres=3, quatro=4, cinco=5, seis=6, sete=7, oito=8, nove=9)
+    return (2000 if m_.group(1) == 'dois mil' else 1000) + C.get(m_.group(3) or '', 0) + D.get(m_.group(5) or '', 0) + U.get(m_.group(7) or '', 0)
+_anoM = re.search(r'(?<!\d)(1[0-9]{3}|20[0-9]{2})(?!\d)', ' '.join([str(B.get('ano', '')), B.get('title', ''), ID] + [str(b_.get('text', '')) for b_ in B['beats'][:4]]))
+ANO = int(_anoM.group(1)) if _anoM else next((a_ for a_ in (_ano_por_extenso(b_['say']) for b_ in B['beats'][:4]) if a_), None)
+# FARDA POR EPOCA E EXERCITO (19/11, referencias reais de museu/foto): chapeu/capacete, cor do casaco e da calca. Pais do personagem: "pais" no figurino,
+# ou o codigo (ALE, FRA, ING, EUA, RUS, JAP, PRU, AUS, ITA, TUR, BRA, GRE, BUL, ESP, CON=confederado...), ou "pais" no topo do roteiro.
+_PAIS_COD = {'ale': 'alemanha', 'ger': 'alemanha', 'pru': 'alemanha', 'naz': 'alemanha', 'fra': 'franca', 'ing': 'inglaterra', 'bri': 'inglaterra', 'uk': 'inglaterra', 'eua': 'eua', 'ame': 'eua', 'usa': 'eua', 'uni': 'eua', 'yan': 'eua',
+             'con': 'confederados', 'sul': 'confederados', 'rus': 'russia', 'sov': 'russia', 'urs': 'russia', 'jap': 'japao', 'ita': 'italia', 'aus': 'austria', 'tur': 'turquia', 'oto': 'turquia', 'bra': 'brasil', 'par': 'paraguai',
+             'gre': 'grecia', 'bul': 'bulgaria', 'esp': 'espanha', 'por': 'portugal', 'chi': 'china', 'mex': 'mexico', 'arg': 'argentina', 'pol': 'polonia', 'zan': 'zanzibar', 'emu': 'australia', 'aut': 'austria', 'hab': 'austria', 'hun': 'austria', 'osm': 'turquia'}
+def _pais_de(k_, o_):
+    p_ = str(o_.get('pais') or '').lower()
+    if p_: return p_
+    if k_.lower().startswith('aus'): return 'australia' if (ANO or 0) >= 1900 else 'austria'
+    for c_, v_ in _PAIS_COD.items():
+        if k_.lower().startswith(c_): return v_
+    return str(B.get('pais') or '').lower()
+#                  (ate o ano, {pais: (chapeu soldado, chapeu oficial, casaco, calca, cor do chapeu)})   '*' = demais paises
+_FARDA = [
+ (1699, {'*': ('slouch', 'slouch', '#7a3a2a', '#4a3a2a', '#3a2a1f')}),
+ (1795, {'inglaterra': ('tricorn', 'tricorn', '#b8282c', '#ece8dc', None), 'franca': ('tricorn', 'tricorn', '#e8e4d8', '#ece8dc', None), 'eua': ('tricorn', 'tricorn', '#2a3a6a', '#ece8dc', None),
+         'alemanha': ('tricorn', 'tricorn', '#2a3a6a', '#ece8dc', None), 'austria': ('tricorn', 'tricorn', '#ece8dc', '#ece8dc', None), 'turquia': ('turban', 'turban', '#b5333a', '#ece8dc', '#f1ece0'), 'russia': ('tricorn', 'tricorn', '#2f5a3a', '#ece8dc', None), 'espanha': ('tricorn', 'tricorn', '#e8e4d8', '#ece8dc', None), '*': ('tricorn', 'tricorn', '#2a3a6a', '#ece8dc', None)}),
+ (1815, {'franca': ('shako_tall', 'bicorne', '#2a3a7a', '#ece8dc', None), 'inglaterra': ('shako', 'bicorne', '#b8282c', '#ece8dc', None), 'russia': ('shako_tall', 'bicorne', '#2f5a3a', '#ece8dc', None),
+         'alemanha': ('shako', 'bicorne', '#22304a', '#3a3a42', None), 'austria': ('shako', 'bicorne', '#ece8dc', '#ece8dc', None), 'eua': ('shako', 'bicorne', '#2a3a6a', '#ece8dc', None), '*': ('shako', 'bicorne', '#2a3a7a', '#ece8dc', None)}),
+ (1860, {'inglaterra': ('shako', 'quepe', '#b8282c', '#2a2a30', None), 'eua': ('kepi', 'kepi', '#2a3a6a', '#7a8fb5', '#2a3a6a'), 'franca': ('kepi', 'kepi', '#2a3a7a', '#b8282c', '#b8282c'), 'russia': ('quepe', 'quepe', '#2f5a3a', '#2f5a3a', '#2f5a3a'),
+         'alemanha': ('pickelhaube', 'pickelhaube', '#22304a', '#2a2a30', None), 'austria': ('shako', 'quepe', '#ece8dc', '#7a8fb5', None), '*': ('shako', 'quepe', '#2a3a6a', '#7a8fb5', None)}),
+ (1865, {'eua': ('kepi', 'kepi', '#2a3a6a', '#7a8fb5', '#2a3a6a'), 'confederados': ('kepi', 'slouch', '#8a8a86', '#8a8a86', '#8a8a86'), 'franca': ('kepi', 'kepi', '#2a3a7a', '#b8282c', '#b8282c'),
+         'alemanha': ('pickelhaube', 'pickelhaube', '#22304a', '#2a2a30', None), 'brasil': ('kepi', 'kepi', '#2a3a6a', '#ece8dc', '#2a3a6a'), 'paraguai': ('kepi', 'kepi', '#b8282c', '#ece8dc', '#b8282c'), '*': ('kepi', 'quepe', '#2a3a6a', '#7a8fb5', '#2a3a6a')}),
+ (1913, {'alemanha': ('pickelhaube', 'pickelhaube', '#22304a', '#2a2a30', None), 'franca': ('kepi', 'kepi', '#2a3a7a', '#b8282c', '#b8282c'), 'inglaterra': ('colonial', 'colonial', '#b8282c', '#2a2a30', '#efe6cc'),
+         'eua': ('slouch', 'slouch', '#2a3a6a', '#7a8fb5', '#8a7a50'), 'russia': ('quepe', 'quepe', '#e8e4d8', '#2a2a30', '#2f5a3a'), 'japao': ('kepi', 'kepi', '#22304a', '#22304a', '#22304a'), 'zanzibar': ('turban', 'turban', '#ece8dc', '#ece8dc', '#ece8dc'),
+         'brasil': ('kepi', 'kepi', '#2a3a6a', '#ece8dc', '#2a3a6a'), '*': ('kepi', 'quepe', '#2a3a6a', '#3a3a42', '#2a3a6a')}),
+ (1918, {'alemanha': ('stahlhelm', 'quepe', '#6a6e5a', '#5a5e4e', '#5d6355'), 'austria': ('stahlhelm', 'quepe', '#7a8288', '#6a7278', '#6a7278'), 'franca': ('adrian', 'kepi', '#7a8aa8', '#7a8aa8', '#7a8aa8'),
+         'inglaterra': ('brodie', 'quepe', '#7a7052', '#7a7052', '#6a6a4a'), 'eua': ('brodie', 'quepe', '#6a6040', '#6a6040', '#6a6a4a'), 'russia': ('quepe', 'quepe', '#7a7a52', '#5a5a42', '#7a7a52'),
+         'italia': ('adrian', 'quepe', '#7a7a62', '#7a7a62', '#6a6a52'), 'turquia': ('bibico', 'quepe', '#8a7a4a', '#7a6a42', '#8a7a4a'), 'australia': ('slouch', 'slouch', '#7a7052', '#7a7052', '#7a6a4a'), '*': ('adrian', 'quepe', '#7a7052', '#7a7052', '#6a6a4a')}),
+ (1940, {'alemanha': ('stahlhelm', 'quepe', '#6a6e5a', '#5a5e4e', '#5d6355'), 'franca': ('adrian', 'kepi', '#8a7a52', '#8a7a52', '#7a7a52'), 'inglaterra': ('brodie', 'quepe', '#7a7052', '#7a7052', '#6a6a4a'),
+         'eua': ('brodie', 'quepe', '#6a6040', '#6a6040', '#6a6a4a'), 'russia': ('m1', 'quepe', '#7a7a52', '#5a5a42', '#55593a'), 'japao': ('m1', 'quepe', '#8a7a4a', '#8a7a4a', '#7a7a4a'), 'italia': ('adrian', 'quepe', '#7a7a62', '#7a7a62', '#6a6a52'),
+         'grecia': ('adrian', 'quepe', '#7a7052', '#7a7052', '#6a6a4a'), 'bulgaria': ('stahlhelm', 'quepe', '#5d6a4e', '#5d6a4e', '#55603f'), 'polonia': ('adrian', 'quepe', '#6a6e5a', '#6a6e5a', '#5d6355'), 'australia': ('slouch', 'slouch', '#7a7052', '#7a7052', '#7a6a4a'), '*': ('brodie', 'quepe', '#7a7052', '#7a7052', '#6a6a4a')}),
+ (1945, {'alemanha': ('stahlhelm', 'quepe', '#6a6e5a', '#5a5e4e', '#5d6355'), 'eua': ('m1', 'quepe', '#5e5a3a', '#6a6040', '#4f5338'), 'brasil': ('m1', 'quepe', '#5e5a3a', '#6a6040', '#4f5338'), 'inglaterra': ('brodie', 'quepe', '#7a7052', '#7a7052', '#6a6a4a'),
+         'russia': ('m1', 'quepe', '#7a7a52', '#5a5a42', '#55593a'), 'japao': ('m1', 'quepe', '#8a7a4a', '#8a7a4a', '#7a7a4a'), 'italia': ('adrian', 'quepe', '#7a7a62', '#7a7a62', '#6a6a52'), 'australia': ('slouch', 'slouch', '#7a7052', '#7a7052', '#7a6a4a'), '*': ('m1', 'quepe', '#5e5a3a', '#6a6040', '#4f5338')}),
+ (1959, {'*': ('m1', 'quepe', '#5e5a3a', '#5e5a3a', '#4f5338'), 'russia': ('m1', 'quepe', '#6a6a4a', '#5a5a42', '#4a5a3a')}),
+ (1999, {'*': ('m1', 'quepe', '#6a7a4a', '#5a6a3a', '#4a5a3a', 'camo'), 'eua': ('m1', 'quepe', '#6a7a4a', '#5a6a3a', '#4a5a3a', 'camo')}),
+ (9999, {'*': ('m1', 'beret', '#8a7f62', '#7a705a', '#7a705a', 'camo')}),
+]
+_OFICIAL = ('general', 'coronel', 'capitao', 'tenente', 'major', 'marechal', 'comandante', 'oficial', 'almirante', 'sargento')
 for _k, _o in B.get('outfits', {}).items():
     _pf = str(_o.get('profissao', '')).lower()
-    if not (_o.get('rifle') or _pf in ('soldado', 'general', 'coronel', 'capitao')) or _o.get('uniforme_fixo') or ANO is None: continue
-    if ANO >= 1960: _o.update({'hat': 'cap' if _pf in ('general', 'coronel', 'capitao') else 'helmet', 'cap': _o.get('cap') if _o.get('hat') == 'helmet' else '#4a5a3a', 'jacket': '#6a7a4a', 'pants': '#5a6a3a', 'camo': '#3e4a2e', 'boots': '#2a2218'})
-    elif ANO >= 1914: _c = _GUERRA_COR.get(str(_o.get('pais', '')).lower(), '#7a7052'); _o.update({'hat': 'cap' if _pf in ('general', 'coronel', 'capitao') else 'helmet', 'cap': _c, 'jacket': _c, 'pants': _c, 'boots': '#2a2218'})   # oficial de quepe, soldado de capacete
-    elif ANO >= 1850 and _o.get('hat') in ('shako_tall',): _o['hat'] = 'shako'
+    _milh = _o.get('hat') in ('shako', 'shako_tall', 'helmet') and not _o.get('pele') and not _k.lower().startswith('hus')   # chapeu militar generico = militar (hussardo fica com a barretina alta)
+    if not (_o.get('rifle') or _milh or _pf in ('soldado', 'cavaleiro', 'cavalaria') + _OFICIAL) or _o.get('uniforme_fixo') or ANO is None: continue
+    _pa = _pais_de(_k, _o); _tab = next(t_ for a_, t_ in _FARDA if ANO <= a_); _f = _tab.get(_pa) or _tab['*']
+    if not _pa and _o.get('hat') in ('fez', 'turban', 'slouch', 'straw', 'beret', 'crown', 'bowler', 'tophat'): continue   # exercito sem tabela (guarda do sultao, milicia): fica com o chapeu proprio
+    _of = (_pf in _OFICIAL and _pf != 'sargento') or bool(re.match(r'(off|ofi|gen|cor|cap|ten|maj|com|mar|alm)', _k.lower())) or bool(_o.get('sword') and not _o.get('rifle'))
+    _o.update({'hat': _f[1] if _of else _f[0], 'jacket': _f[2], 'pants': _f[3], 'boots': '#2a2218'})
+    if _f[4]: _o['cap'] = _f[4]
+    else: _o.pop('cap', None)
+    if len(_f) > 5 and _f[5] == 'camo': _o['camo'] = '#3e4a2e' if ANO < 2000 else '#6a604a'
+    if _of and _o['hat'] == 'quepe': _o['cap'] = _o.get('cap') or _f[2]; _o['capBand'] = '#e8c45a' if _pf in ('general', 'marechal', 'almirante', 'coronel') else _o.get('capBand')
+    if ANO < 1870 and not _of: _o.setdefault('belt', '#f1efe6')   # correias brancas cruzadas ate 1870
+    elif ANO >= 1870: _o.pop('belt', None) if _o.get('belt') == '#f1efe6' else None
+    if re.search(r'paraquedis|boina|forcas especiais|comando', ' '.join(b_['say'].lower() for b_ in B['beats'])) and not _of and ANO >= 1940: _o['hat'] = 'beret'; _o['cap'] = '#8a2b2b'
 
 _FAMHAIR = {str(o_.get('hair', '')).lower() for o_ in B.get('outfits', {}).values() if o_.get('pele')} - {''}
 for _k, _o in B.get('outfits', {}).items():   # SEM SOSIA (ordem do Gibson): em video com famoso, ninguem mais usa a cor de cabelo dele (loiro do Trump so no Trump)
@@ -344,6 +407,9 @@ def direct(beats):
                 army = persons_out[0] if persons_out else (outs[0] if outs else 'X')
                 b['crowd'] = {'n': (12 if b.get('impact') else 5) if b.get('emus') else (18 if (b.get('impact') or (mass and (arrive or first))) else 10 if mass else 6), 'outfits': list(dict.fromkeys(persons_out + [army])), 'march': bool(arrive or first or (shot == 'reveal' and mass)) and not (b.get('impact') and any(SHOOT.match(w_) for w_ in words))}
             if not b.get('who'): b['who'] = [f"{b['crowd']['outfits'][0]}:0:neutral"]
+            _sy = __import__('unicodedata').normalize('NFKD', b.get('say', '').lower()).encode('ascii', 'ignore').decode()
+            if re.search(r'multid|milhares|milhoes|\bmil pessoas|lotad|lotou|lotaram|centenas|todo mundo|populac|\bpovo\b|torcida|plateia|publico|cheio de gente|aglomer|protesto|manifesta|fila enorme', _sy) and not b.get('emus'):
+                b['crowd']['n'] = max(int(b['crowd'].get('n', 0)), 30); b['crowd']['lotado'] = True   # "varias pessoas" na narracao: encher a tela de gente (ordem do Gibson 19/11)
         else:
             run += 1
             if b.get('impact') and not b.get('crowd') and b.get('who') and not b.get('emus'):
@@ -401,6 +467,34 @@ if B.get('director') is not False and len(beats) >= 5:
         if not _b.get('emus'): _b.setdefault('crowd', {'n': 8, 'outfits': list(dict.fromkeys(_o)), 'march': False})
         _w.append(i)
     if len(_w) < MIN_WIDE: print(f'AVISO: so {len(_w)} plano(s) aberto(s); a regra pede {MIN_WIDE}. Tire shot_lock/interior de alguma cena.')
+# CAVALARIA AUTOMATICA (ordem do Gibson 19/11): ate 1918 tropa chegando/atacando vem com soldados a cavalo; a narracao citar cavalo/cavalaria sempre poe.
+_CAVW = re.compile(r'cavalari|a cavalo|montad|galop|cavaleiros|hussard|lanceiro|dragoes|cossaco|cavalos')
+if B.get('cavalaria') is not False and ANO and ANO <= 1918:
+    _ncav = 0
+    for _k, _b in enumerate(beats):
+        if _b.get('cavalaria') is not None or _b.get('interior') or _b.get('veiculo') or _b.get('set', SET) in ('harbor', 'arctic', 'palace'): continue   # mar/porto: nao tem cavalaria
+        _sy = nrm(_b['say'])
+        _mil = any(B.get('outfits', {}).get(w_.split(':')[0], {}).get('rifle') for w_ in _b.get('who', []))
+        if _CAVW.search(_sy) or (_mil and _ncav < 2 and (_b.get('impact') or (MASS.search(_sy) and ARRIVE.search(_sy)))):
+            _b['cavalaria'] = {'n': 4 if _b.get('shot') in WIDE else 2}; _ncav += 1
+# EMOCAO EM CLOSE + PEDIDO EM PLANO DE AMBIENTE (ordem do Gibson 19/11): "se a narracao diz que ele esta muito preocupado, close no personagem mostrando que esta preocupado";
+# "quando for fazer um pedido, mostrar a ambientacao com ele fazendo o pedido". 'emocao_close': false no beat (ou no arquivo) desliga.
+_EMO = re.compile(r'preocup|aflit|ansios|nervos|desconfi|suspeit|desesper|apavor|assust|triste|tristeza|chorou|choro|lagrima|furios|raiva|irritad|indignad|insatisf|frustr|decepcion|alegr|feliz|contente|emocion|orgulh|aliviad|surpres|chocad|espantad|determinad|decidid|envergonh|humilh|com medo|medo de|ciume|inveja')
+_PED = re.compile(r'\bpediu|\bpedir|\bpedindo|\bpediram|implor|suplic|\bpedido|ajuda|socorro|por favor|convenc|negoci|propos|oferec')
+if B.get('director') is not False and B.get('emocao_close') is not False:
+    _seq = 0
+    for _k, _b in enumerate(beats):
+        _sy = nrm(_b['say'])
+        _livre = not (_b.get('shot_lock') or _b.get('impact') or _b.get('batalha') or _b.get('veiculo') or _b.get('mapa') or _b.get('emocao_close') is False or _b.get('shot') in WIDE or _b.get('crowd', {}).get('n', 0) > 6)
+        if _livre and _PED.search(_sy) and len(_b.get('who', [])) >= 2:
+            _b['shot'] = 'two'; _b.setdefault('interacao', 'pedir'); _b['_pedido'] = True; _seq = 0
+            _w0 = _b['who'][0].split(':'); _w0 += [''] * (3 - len(_w0))
+            if _w0[2] in ('', 'neutral', 'smile', 'stern'): _w0[2] = 'pleading'; _b['who'][0] = ':'.join(_w0)
+            PLANO.append((_k, 'pedido: plano medio dos dois, um pede ao outro', 'shot'))
+        elif _livre and _EMO.search(_sy) and _seq < 2 and _k > 0:
+            _b['shot'] = 'close'; _b['_emo_close'] = True; _b.pop('perto', None); _seq += 1
+            if len(_b.get('who', [])) > 1: _b['_who_todo'] = list(_b['who']); _b['who'] = _b['who'][:1]   # o close e' de quem sente: so' ele no quadro, centralizado
+        else: _seq = 0
 # MULTIDAO SEM CLONES (ordem do Gibson): multidao criada pelo diretor usa o figurino de POVO; rei, nobre, cientista, medico, padre, general... sao pessoas unicas e nao viram 12 copias
 _POVO = [k_ for k_, o_ in B.get('outfits', {}).items() if k_ in ('POV', 'POVO') or o_.get('hats')]
 _UNICO = {k_ for k_, o_ in B.get('outfits', {}).items() if str(o_.get('profissao', '')).lower() in ('rei', 'nobre', 'general', 'cientista', 'medico', 'padre', 'politico', 'empresario', 'jornalista') or o_.get('hat') == 'crown' or (k_ not in _POVO and not str(o_.get('profissao', '')).lower() in ('soldado', 'marinheiro', 'agricultor', 'camponesa', 'pescador', 'comerciante', 'padeiro') and not B.get('serie', '').lower().startswith('guerras'))}
@@ -415,6 +509,7 @@ def build_beat(k, b):
     if b.get('impact') and shot in WIDE and b.get('caminhoes'): T.update(d0=13.0, d1=31.0, el=11, h=2.6); T.pop('az0', None); T.pop('az1', None)   # comeca na tropa subindo nos caminhoes e ABRE para a fazenda inteira
     elif b.get('impact') and shot in WIDE: T.update(d0=25.0, d1=19.0, el=11, h=2.6)   # BATALHA: visao ampla de verdade (cenario, tropa inteira, inimigo fugindo ao fundo)
     elif shot == 'reveal': T.update(d0=11.0, d1=27.0, el=10)
+    if b.get('_emo_close') and shot == 'close': T.update(d0=3.5, d1=2.9, h=2.55)   # EMOCAO: camera chega no rosto (a cara diz o que ele sente)
     if b.get('perto') and shot in ('two', 'group', 'low', 'close'): T['d0'] *= b['perto']; T['d1'] *= b['perto'] * 0.94
     _n = len(b.get('who', []))
     if shot in ('two', 'group', 'low') and _n >= 3: T['d0'] *= 1 + 0.13 * (_n - 2); T['d1'] *= 1 + 0.13 * (_n - 2)   # 3+ pessoas: abre o suficiente para caber todo mundo
@@ -465,7 +560,11 @@ def build_beat(k, b):
     _WEX = ((r'^(gritou|gritaram|gritava|berrou|berraram|socorro)$', 'shout'), (r'^(chorou|choraram|chorava|lagrimas|choro)$', 'cry'), (r'^(riu|riram|gargalhou|gargalhada|gargalhadas|risada|risadas)$', 'laugh'),
             (r'^(assustou|assustaram|assustado|assustados|medo|apavorado|apavorados|panico|pavor)$', 'scared'), (r'^(chocado|chocou|espantado|espanto|surpreso|surpresa|incrivel|impossivel)$', 'shock'),
             (r'^(raiva|furioso|furiosos|irritado|irritou|bravo|odio|indignado)$', 'angry'), (r'^(comemorou|comemoraram|vitoria|venceu|venceram|festa|conseguiu|conseguiram)$', 'laugh'),
-            (r'^(triste|tristeza|morreu|morreram|perdeu|perderam|luto)$', 'sad'), (r'^(nervoso|nervosos|ansioso|preocupado|preocupados|tenso)$', 'nervous'), (r'^(aliviado|alivio|salvos|salvou)$', 'relief'))
+            (r'^(triste|tristeza|morreu|morreram|perdeu|perderam|luto)$', 'sad'), (r'^(nervoso|nervosa|nervosos|ansioso|ansiosa|tenso|tensa)$', 'nervous'), (r'^(aliviado|alivio|salvos|salvou)$', 'relief'),
+            (r'^(preocupado|preocupada|preocupados|preocupadas|preocupacao|aflito|aflita|angustiado|angustia)$', 'worried'), (r'^(desconfiado|desconfiada|desconfiou|desconfianca|suspeitou|suspeita|duvidou)$', 'distrust'),
+            (r'^(insatisfeito|insatisfeita|insatisfeitos|reclamou|reclamaram|frustrado|frustrada|decepcionado|decepcionada|chateado|chateada)$', 'annoyed'),
+            (r'^(decidiu|decidiram|determinado|determinada|resolver|resolveu|enfrentar|jurou)$', 'determined'), (r'^(feliz|felizes|alegre|alegria|contente|animado|animada|empolgado)$', 'happy'),
+            (r'^(pediu|pediram|implorou|imploraram|suplicou|ajuda|socorro|favor)$', 'pleading'))
     _wx = None
     if b.get('rosto_palavra') is not False:
         for j_, w_ in enumerate(b['say'].split()):
@@ -499,6 +598,19 @@ def build_beat(k, b):
             acts.append(f"{{ {key}: {json.dumps(sp)}, at: [X + {num(dxa - mv / 2)}, {num(za)}], move: [[X + {num(dxa + mv / 2)}, {num(za)}], {a}, {bb}, 'lin'], state: 'trot', spd: 0.09, s: {num(sc)}, flip: {_fl}, seed: {j * 3 + 1} }}")
         else:
             acts.append(f"{{ {key}: {json.dumps(sp)}, at: [X + {num(dxa)}, {num(za)}], state: {json.dumps(st)}, s: {num(sc)}, flip: {fl}, seed: {j * 3 + 1} }}")
+    # CAVALARIA (ordem do Gibson 19/11): soldados A CAVALO cruzando a cena (cavalo 3D com sela + cavaleiro da tropa montado). "cavalaria": {"n": 4, "outfit": "OFF", "dir": 1}
+    cav = b.get('cavalaria')
+    if cav:
+        cav = cav if isinstance(cav, dict) else {'n': int(cav) if not isinstance(cav, bool) else 4}
+        _mil = [w_.split(':')[0] for w_ in b.get('who', []) if B.get('outfits', {}).get(w_.split(':')[0], {}).get('rifle') or B.get('outfits', {}).get(w_.split(':')[0], {}).get('hat') in ('shako', 'shako_tall', 'tricorn', 'bicorne', 'kepi', 'pickelhaube', 'quepe', 'colonial', 'stahlhelm', 'adrian', 'brodie')]
+        _co = cav.get('outfit') or (_mil[0] if _mil else ((b.get('crowd') or {}).get('outfits') or [None])[0]) or (persons[0][0] if persons else list(B.get('outfits', {'X': 0}))[0])
+        _dr = cav.get('dir', 1 if k % 2 == 0 else -1); _wide_c = shot in WIDE
+        for i_ in range(int(cav.get('n', 4))):
+            zc = (-3.6 if not _wide_c else -2.0) - (i_ % 2) * 2.6 - (i_ // 2) * 0.4; off = i_ * 3.4
+            xa, xb = (-15.0 - off, 9.0 - off) if _dr > 0 else (15.0 + off, -9.0 + off)
+            acts.append(f"{{ animal: 'horse_sela', at: [X + {num(xa)}, {num(zc)}], move: [[X + {num(xb)}, {num(zc)}], {a}, {bb}, 'lin'], state: 'trot', s: 0.85, seed: {i_ * 5 + 2} }}")
+            acts.append(f"{{ outfit: {json.dumps(_co)}, v: {i_ % 4}, at: [X + {num(xa + 0.15 * _dr)}, {num(zc + 0.05)}], move: [[X + {num(xb + 0.15 * _dr)}, {num(zc + 0.05)}], {a}, {bb}, 'lin'], pose: 'stand', acting: 'low', expr: {json.dumps(['stern', 'shout', 'determined', 'stern'][i_ % 4])}, s: 0.86, y: (f) => {num(cav.get('y', 1.62))} + 0.07 * Math.abs(Math.sin(f * 0.55 + {i_})), crop: 0.52, flip: {'false' if _dr > 0 else 'true'}, seed: {i_ + 1} }}")
+        PLANO.append((k, f'cavalaria: {int(cav.get("n", 4))} soldados a cavalo ({_co})', 'acao'))
     # bando de emus: "emus": {"n":10, "mode":"stand|run|scatter", "x":3, "z":-1, "cols":4, "dir":1}
     em = b.get('emus'); DUST = []
     if em and b.get('impact'): em = {**em, 'n': max(int(em.get('n', 10)), 26), 'mode': 'scatter'}
@@ -528,7 +640,7 @@ def build_beat(k, b):
             row, col = i // cols, i % cols
             jx = ((i * 37) % 11 - 5) * 0.09; jz = ((i * 53) % 7 - 3) * 0.12
             x0 = (col - (cols - 1) / 2) * (1.9 if wide else 1.7) + (row % 2) * 0.9 + jx + (-6.5 if (b.get('impact') and b.get('emus') and wide) else 0); z0 = (1.2 if wide else -3.0) - row * 2.1 + jz
-            out = outs_c[i % len(outs_c)]; ex = c.get('expr', 'neutral' if not c.get('march') else 'stern'); look = (-0.25, 0.25, 0.0, 0.15)[i % 4]
+            out = outs_c[i % len(outs_c)]; ex = c.get('expr', ('neutral' if not c.get('lotado') else ['shout', 'laugh', 'surprised', 'grin', 'shock', 'smile'][(i * 5) % 6]) if not c.get('march') else 'stern'); look = (-0.25, 0.25, 0.0, 0.15)[i % 4]
             crowd_pos.append((x0, z0))
             if c.get('march'):
                 acts.append(f"{{ outfit: {json.dumps(out)}, v: {i % 4}, at: [X + {num(x0 - 9)}, {num(z0)}], move: [[X + {num(x0 + 3)}, {num(z0)}], {a}, {bb}, 'lin'], pose: 'march', speed: 0.034, expr: {_exj(ex)}, seed: {i % 4}, look: {look} }}")
@@ -557,12 +669,7 @@ def build_beat(k, b):
         if vc.get('motorista'):   # motorista DENTRO do carro: carta cortada (cabeca e ombros) encostada na janela do lado da camera
             mo_ = vc['motorista'].split(':'); k_ = sv; zd = zv + 0.1 * sv; dxd = -0.45 * sv * dirv   # sentado no banco, dentro da cabine aberta
             acts.append(f"{{ outfit: {json.dumps(mo_[0])}, v: {int(mo_[1]) if len(mo_) > 1 and mo_[1] else 0}, at: [X + {num(x0v + dxd)}, {num(zd)}], move: [[X + {num(x1v + dxd)}, {num(zd)}], {a}, {bb}, 'lin'], pose: 'stand', acting: 'low', expr: {json.dumps(mo_[2] if len(mo_) > 2 else 'smile')}, s: {num(0.86 * k_)}, y: {num(-0.42 * k_)}, crop: 0.5, flip: {'false' if dirv > 0 else 'true'} }}")
-    # TORCIDA DE VERDADE no estadio (19/11): bonequinhos iguais aos personagens, pulando e torcendo nas arquibancadas (nada de bolinhas coloridas)
-    if b.get('set', SET) == 'stadium' and not b.get('interior') and b.get('torcida') is not False:
-        _tor = [k_ for k_, o_ in B.get('outfits', {}).items() if not o_.get('pele') and not o_.get('fixo')] or list(B.get('outfits', {}))
-        for r_ in range(4):
-            for i_ in range(18):
-                acts.append(f"{{ outfit: {json.dumps(_tor[(i_ + r_ * 5) % len(_tor)])}, v: {(i_ * 3 + r_) % 4}, at: [X + {num(-30 + i_ * 3.5 + (r_ % 2) * 1.7)}, {num(-33.5 - r_ * 3.2)}], y: {num(0.75 + r_ * 1.2)}, pose: 'cheer', expr: {json.dumps(['laugh', 'grin', 'shout', 'laugh'][(i_ + r_) % 4])}, s: 0.85, seed: {r_ * 13 + i_} }}")
+    # TORCIDA: a arquibancada do estadio ja vem LOTADA (centenas de torcedores pulando, web/sets/more.js); nada a fazer aqui
     # INTERIOR: "interior": "madeira" | "pedra" | "loja"  -> sala com parede a ~5 m, janela, porta, quadros, chao com juntas + moveis
     it = b.get('interior')
     if it:
@@ -679,7 +786,7 @@ def build_beat(k, b):
     if wx: opts.append('wx: ' + json.dumps(wx))
     # INTERACAO FISICA: em cena media com 2+ pessoas, os dois principais agem um SOBRE o outro (nao so' falam para a camera). Escolhida pelo texto; sem pista no texto, roda uma lista sem repetir (comeca num ponto diferente em cada video).
     if not wide and len(persons) >= 2 and b.get('interacao') is not False and not b.get('veiculo') and not (shot == 'track' or mv) and len(acts) >= 2:
-        if b.get('interacao'): pair = {'empurrar': ('shove', 'stagger'), 'discutir': ('lunge', 'lunge'), 'cochichar': ('lean', 'lean'), 'entregar': ('step', 'nod'), 'susto': ('lean', 'recoil'), 'reverencia': ('nod', 'bow'), 'pular': ('hop', 'hop'), 'abracar': ('hug', 'hug'), 'tremer': ('shiver', 'shiver')}.get(b['interacao'], ('lean', 'nod')); nome = b['interacao']
+        if b.get('interacao'): pair = {'empurrar': ('shove', 'stagger'), 'discutir': ('lunge', 'lunge'), 'cochichar': ('lean', 'lean'), 'entregar': ('step', 'nod'), 'susto': ('lean', 'recoil'), 'reverencia': ('nod', 'bow'), 'pular': ('hop', 'hop'), 'abracar': ('hug', 'hug'), 'tremer': ('shiver', 'shiver'), 'pedir': ('lean', 'nod')}.get(b['interacao'], ('lean', 'nod')); nome = b['interacao']
         elif re.search(r'abrac', _say_sp): pair, nome = ('hug', 'hug'), 'abracar'
         elif re.search(r'beberam|brindaram|brinde|beb(e|i)am juntos', _say_sp): pair, nome = ('hop', 'hop'), 'brindar'
         elif b.get('_frio'): pair, nome = ('shiver', 'shiver'), 'tremem de frio'

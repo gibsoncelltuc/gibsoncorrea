@@ -8,7 +8,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): ROM (variante 0, expressao nervous); ROM (variante 1, expressao pained)
 - Animacao: reagir | interacao: susto
-- Objetos/modelos: goose
+- Objetos/modelos: kit/marco_coliseu, goose
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bando, gansos
 - RISCOS: nenhum
 
@@ -18,7 +18,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): GAU (variante 0, expressao angry, segura torch); GAU (variante 1, expressao shout, segura torch); GAU (variante 2, expressao grin, segura torch) | multidao: 16 de GAU/ROM
 - Animacao: - | batalha encenada
-- Objetos/modelos: kit/fire, buildings/apartment, buildings/house_two, nature/lamppost
+- Objetos/modelos: kit/marco_coliseu, kit/fire, buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, gauleses
 - RISCOS: nenhum
 
@@ -28,7 +28,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (3): ROM (variante 0, expressao nervous); ROM (variante 1, expressao pained); MAN (variante 0, expressao stern)
 - Animacao: reagir | interacao: insiste
-- Objetos/modelos: buildings/castle_tower
+- Objetos/modelos: buildings/castle_tower, kit/marco_coliseu
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): capitolio, colina, muralhas, romanos
 - RISCOS: nenhum
 
@@ -38,7 +38,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): ROM (variante 1, expressao pained); ROM (variante 2, expressao stern) | multidao: 10 de ROM
 - Animacao: discutir
-- Objetos/modelos: goose
+- Objetos/modelos: kit/marco_coliseu, goose
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fome, gansos, sacerdote, soldado
 - RISCOS: nenhum
 
@@ -48,7 +48,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (3): GAU (variante 0, expressao stern); GAU (variante 1, expressao nervous); GAU (variante 2, expressao stern)
 - Animacao: conversar | interacao: aproxima-se
-- Objetos/modelos: -
+- Objetos/modelos: kit/marco_coliseu
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): colina, gauleses, guardas
 - RISCOS: nenhum
 
@@ -58,37 +58,37 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): ROM (variante 2, expressao shock)
 - Animacao: reagir
-- Objetos/modelos: goose
+- Objetos/modelos: kit/marco_coliseu, goose
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): asas, bater, gansos, gritar
 - RISCOS: nenhum
 
 ## Cena b6 - Um soldado chamado Mânlio pulou da cama, e empurrou o primeiro invasor...
-- Cenario: medieval | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): MAN (variante 0, expressao angry); GAU (variante 0, expressao scared)
 - Animacao: conversar | interacao: empurrar
-- Objetos/modelos: buildings/castle_tower
+- Objetos/modelos: buildings/castle_tower, kit/marco_coliseu
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cama, gaules, soldado
 - RISCOS: nenhum
 
 ## Cena b7 - O alarme acordou todo mundo, os romanos correram para a muralha, e o a...
-- Cenario: medieval | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): ROM (variante 0, expressao angry); MAN (variante 0, expressao shout); GAU (variante 0, expressao scared) | multidao: 18 de ROM/GAU
+- Personagens principais (3): ROM (variante 0, expressao angry); MAN (variante 0, expressao shout); GAU (variante 0, expressao scared) | multidao: 30 de ROM/GAU
 - Animacao: - | batalha encenada
-- Objetos/modelos: buildings/castle_tower
+- Objetos/modelos: kit/marco_coliseu, buildings/castle_tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alarme, ataque, muralha, romanos
 - RISCOS: nenhum
 
 ## Cena b8 - Desde então, todo ano, os gansos ganhavam um desfile pelas ruas de Rom...
-- Cenario: medieval | luz: dia | clima: limpo
+- Cenario: street | luz: dia | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ROM (variante 0, expressao smile); ROM (variante 1, expressao grin)
 - Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: goose
+- Objetos/modelos: kit/marco_coliseu, goose
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): desfile, gansos, roma
 - RISCOS: nenhum
 
@@ -98,7 +98,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): ROM (variante 2, expressao grin)
 - Animacao: conversar
-- Objetos/modelos: -
+- Objetos/modelos: kit/marco_coliseu
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): castigo, guardas
 - RISCOS: nenhum
 
@@ -107,6 +107,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
+kit/marco_coliseu | b0, b1, b2, b3, b4, b5, b6, b7, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 goose | b0, b3, b5, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/fire | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/apartment | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
