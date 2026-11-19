@@ -443,7 +443,7 @@ ENC = [(r'^(misturou|misturaram|misturando|mistura|misturar|mexeu|mexendo|mexia|
        (r'^(deitou|deitaram|deitado|deitada)$', None, 'senta'), (r'^(ajoelhou|ajoelharam|ajoelhado|ajoelhada|ajoelhados|joelhos|implorou|imploravam|implorava|suplicou|suplicavam)$', 'plead', 'ajoelha'),
        (r'^(levantou-se|levantaram-se|levantou|ergueu-se)$', 'lift', 'pega'),
        (r'^(bebeu|beberam|bebendo|bebia|bebiam|tomou|tomaram|tomando|goles?|engoliu)$', 'lift', 'x_bebe'),
-       (r'^(comeu|comeram|comendo|comia|comiam|almocou|jantou|devorou|mastigou)$', 'lift', 'x_come'), (r'^(provou|provaram|comprovou|demonstrou)$', 'point', 'fala'),   # provou que/os microbios = demonstrou (nao e' comer)
+       (r'^(comeu|comeram|comendo|comia|comiam|almocou|jantou|devorou|mastigou)$', 'eat', 'x_come'), (r'^(provou|provaram|comprovou|demonstrou)$', 'point', 'fala'),   # provou que/os microbios = demonstrou (nao e' comer)
        (r'^(chorou|choraram|chorando|chorava|lagrimas|soluco|solucou)$', 'facepalm', 'x_chora'),
        (r'^(cantou|cantaram|cantando|cantava|cantavam|musica|hino|cancao)$', 'up', 'x_canta'),
        (r'^(leu|leram|lendo|lia|liam|ler|jornal|carta|livro)$', 'think', 'x_le'),
