@@ -9,11 +9,11 @@ b3 | two | -  | animais | - | -
 b4 | two | -  | interior | - | -
 b5 | close | -  | interior | - | -
 b6 | low | -  | interior | - | -
-b7 | two | -  | interior | riram (stars + som de sino) | -
+b7 | two | -  | interior | (rosto) laugh (expr + som de efeito); riram (stars + som de sino) | -
 b8 | two | -  | interior | segredo (ring + som de alerta) | -
 b9 | crowd | -  | batalha aberta com tiros, tropa | - | -
 b10 | orbit | -  | batalha aberta com tiros, tropa, placa: VELCRO | - | -
 b11 | close | -  | animais | - | -
 
-Mistura de planos: close 21% | medio 64% | aberto 9% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 21% | medio 66% | aberto 9% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

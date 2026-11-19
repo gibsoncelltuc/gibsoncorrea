@@ -42,16 +42,24 @@ Fila: `cd ferramenta-shorts && bash status.sh` | `bash run_queue.sh` (ids em `qu
 **Branch:** claude/bold-sagan-dskrsj
 
 **Recent commits:**
-- 5c58dfbf ckpt(trumpgame1989): trecho 2
-- 3794d947 catalogo: Como Funciona (15) e Historias de Empresas (10), para depois
-- da5751eb ckpt(trumpgame1989): trecho 1
-- b4c7da34 ckpt(trumpgame1989): trecho 0
-- 7aefcd95 etapas da fila
+- 2013a09f build: main.js/toon.js e modelos reexportados
+- d4cb8205 refacao geral: 41 videos da sessao principal de volta na fila com a ferramenta nova
+- 688eecf4 ferramenta: carro da epoca (antigo ate 1935, anos 50 ate 1975, moderno depois); colarinho branco em todo terno com gravata
+- 797b84ed ferramenta: patentes e cargos (dragonas, medalhas, gola, camuflado; coronel, capitao, imperador, presidente, funcionario, policial...), uniforme da epoca (1914+ caqui/capacete, 1960+ camuflado), animais 3D arredondados, torcida de verdade no estadio, marco so do lugar da historia
+- c13224f5 previas: mapa real (Franca, Egito) e hospital (Semmelweis)
+
+**In-progress files (6):**
+- ferramenta-shorts/web/story.js
+- ferramenta-shorts/blender/animais.py
+- ferramenta-shorts/stories/porco1859/READY
+- ferramenta-shorts/stories/porco1859/fit.js
+- ferramenta-shorts/stories/porco1859/stages/fit
+- ferramenta-shorts/stories/porco1859/stages/gate
 
 **Project reminders:**
 - Verify the file content before claiming an edit is done
 - Run tests before declaring task complete
 - Re-read CLAUDE.md if you're unsure of project conventions
 
-**Hook generated:** 2026-11-18 21:15:14 UTC
+**Hook generated:** 2026-11-19 10:51:03 UTC
 <!-- post-compact-recovery-end -->

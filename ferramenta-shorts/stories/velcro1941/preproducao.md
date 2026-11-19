@@ -17,7 +17,7 @@ b9 | street | crowd | 18 | batalha | kit/burr | - | -
 b10 | street | orbit | 21 | comemorar, batalha | kit/burr | - | -
 b11 | street | close | 1 | conversar | kit/burr, dog | - | -
 
-OBJETO HEROI: kit/burr - aparece em 9 cena(s), close nele em 3
+OBJETO HEROI: kit/burr - aparece em 9 cena(s), close nele em 2
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b9, b10
 Interacoes entre personagens: b0 insiste, b7 discutir, b8 entregar
 
