@@ -79,8 +79,7 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Donald Trump perdeu a eleição de dois mil e vinte. Quatro anos depois, voltou para a Casa Branca.",
-   "detalhe": true
+   "say": "Donald Trump perdeu a eleição de dois mil e vinte. Quatro anos depois, voltou para a Casa Branca."
   },
   {
    "shot": "reveal",
@@ -178,12 +177,10 @@
    "hora": "dia"
   },
   {
-   "shot": "two",
+   "shot": "close",
    "who": [
-    "TRU:0:smug",
-    "POV:0:grin"
+    "TRU:0:smug"
    ],
-   "acao": "conversar",
    "say": "Foi um feito raro: ele virou só o segundo presidente da história com dois mandatos separados."
   },
   {
@@ -221,10 +218,17 @@
      0,
      -14.0,
      1.4
+    ],
+    [
+     "kit/ballot_box",
+     1.3,
+     0.3,
+     1.2
     ]
    ],
    "interacao": "entregar",
-   "say": "Em vinte de janeiro de dois mil e vinte e cinco, ele tomou posse de novo."
+   "say": "Em vinte de janeiro de dois mil e vinte e cinco, ele tomou posse de novo.",
+   "detalhe": true
   },
   {
    "shot": "crowd",

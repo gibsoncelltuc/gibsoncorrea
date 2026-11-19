@@ -8,11 +8,11 @@ b2 | reveal | -  | tropa, placa: TRUMP x HARRIS | - | -
 b3 | two | -  | interior, objeto na mao | encena: chega (point) @2 (acao + som de efeito) | -
 b4 | close | dia  | interior, objeto na mao | (rosto) laugh (expr + som de efeito); venceu (stars + som de sino); encena: vence (up) @3 (acao + som de efeito) | -
 b5 | crowd | dia  | batalha aberta com tiros, tropa, placa: 312 VOTOS | (rosto) laugh (expr + som de efeito); comemoraram (stars + som de sino); vitória (stars + som de sino); encena: vence (up) @2 (acao + som de efeito); encena: escala (lift) @7 (acao + som de efeito); encena: fala (point) @11 (acao + som de efeito) | -
-b6 | two | -  | - | - | -
+b6 | close | -  | - | - | -
 b7 | two | -  | interior, objeto na mao | - | -
 b8 | two | -  | - | - | -
 b9 | orbit | -  | batalha aberta com tiros, tropa, placa: 47º | - | -
 b10 | close | -  | - | Perdeu (puff + som de baque); ganhou (stars + som de sino); encena: perde (facepalm) @0 (acao + som de efeito); encena: vence (up) @3 (acao + som de efeito) | -
 
-Mistura de planos: close 22% | medio 59% | aberto 16% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 32% | medio 49% | aberto 16% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | dentro do padrao do canal

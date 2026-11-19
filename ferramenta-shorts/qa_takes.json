@@ -8,38 +8,10 @@
    ]
   },
   {
-   "f": 384,
-   "shot": "b2_v",
+   "f": 1120,
+   "shot": "b6~2",
    "why": [
-    "empty take: no character in the take"
-   ]
-  },
-  {
-   "f": 388,
-   "shot": "b2_v",
-   "why": [
-    "empty take: no character in the take"
-   ]
-  },
-  {
-   "f": 392,
-   "shot": "b2_v",
-   "why": [
-    "empty take: no character in the take"
-   ]
-  },
-  {
-   "f": 396,
-   "shot": "b2_v",
-   "why": [
-    "pov: head/torso cropped (box 0.768, 0.519, 1.088, 1.061)"
-   ]
-  },
-  {
-   "f": 400,
-   "shot": "b2_v",
-   "why": [
-    "pov: head/torso cropped (box -0.14, 0.525, 0.469, 1.073)"
+    "tru: head/torso cropped (box -0.065, 0.481, 0.411, 0.918)"
    ]
   }
  ],

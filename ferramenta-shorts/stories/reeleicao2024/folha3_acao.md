@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 21 - A Volta de Trump
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.7s - 18 palavras - plano two
@@ -66,20 +66,19 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 8 | - | ATUACAO | comemorar | OK |
 | 9 | - | PLACA | 312 VOTOS | OK |
 
-## Cena b6 - 32.8s a 38.1s - 16 palavras - plano two
+## Cena b6 - 32.8s a 38.1s - 16 palavras - plano close
 > "Foi um feito raro: ele virou só o segundo presidente da história com dois mandatos separados."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | insiste | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 38.2s a 42.4s - 12 palavras - plano two
 > "O primeiro foi Grover Cleveland, há mais de cento e trinta anos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | vai ate o outro | OK |
+| 1 | - | INTERACAO | insiste | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b8 - 42.7s a 46.8s - 16 palavras - plano two
