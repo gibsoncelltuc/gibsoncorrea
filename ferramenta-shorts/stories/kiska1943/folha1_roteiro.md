@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 9
 - Narracao: Mas teve um problema: os japoneses já tinham ido embora.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: sai -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: sai @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: ILHA VAZIA
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 9
 - Narracao: Sem inimigo à vista, os Aliados começaram a atirar uns nos outros, no escuro e na neblina.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: gun@30, gun@50, gun@65
-- Efeito + som nas palavras-chave: atirar -> burst + som de tiro/explosao; encena: atira -> acao + som de efeito
+- Efeito + som nas palavras-chave: atirar -> burst + som de tiro/explosao; encena: atira @8 -> acao + som de efeito
 - Efeito visual marcado: burst@30, burst@60
 - Texto na tela: FOGO AMIGO
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 9
 - Narracao: No fim, só acharam na ilha alguns cachorros abandonados.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: olha (point) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: olha (point) @3 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: SÓ CACHORROS
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 9
 - Narracao: Uma das maiores invasões do Pacífico Norte tomou uma ilha completamente vazia.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_bebe (lift) -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: OPERAÇÃO ILHA VAZIA
 - Funcao na historia: FECHO/PIADA FINAL

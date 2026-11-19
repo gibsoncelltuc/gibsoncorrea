@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 - Narracao: A Constituição proibia a reeleição seguida. Mas, em dois mil e vinte e um, a Suprema Corte mudou a interpretação, e liberou.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_solta (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_solta (up) @21 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 - Narracao: Críticos e opositores disseram que a candidatura era ilegal. O governo defendeu a decisão.
 - Som ambiente: birds | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: ilegal -> ring + som de alerta; encena: duvida (shrug) -> acao + som de efeito
+- Efeito + som nas palavras-chave: ilegal -> ring + som de alerta; encena: duvida (shrug) @8 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 - Narracao: No dia da eleição, os salvadorenhos foram às urnas.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: voto (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: voto (reach) @3 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 - Narracao: Os apoiadores lotaram as ruas. Ele comemorou numa sacada, diante de uma multidão.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; encena: vence (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; encena: vence (up) @6 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: 84,6%
 - Funcao na historia: GRANDE MOMENTO
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 - Narracao: O motivo mais citado pelos eleitores: a queda enorme no número de assassinatos no país.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: voto (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: voto (reach) @5 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: HOSPITAL
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 - Narracao: Organizações de direitos humanos, porém, criticaram as prisões em massa e o estado de exceção.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: protesto (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: protesto (up) @5 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Parece impossível. Mas pedaços disso já aconteceram.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) shock -> expr + som de efeito; impossível -> ring + som de alerta; encena: duvida (shrug) -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) shock -> expr + som de efeito; impossível -> ring + som de alerta; encena: duvida (shrug) @1 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: MUNDO
 - Funcao na historia: desenvolvimento
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Em dois mil e vinte e um, Facebook, Instagram e WhatsApp caíram por seis horas. Bilhões ficaram sem mensagem.
 - Som ambiente: birds
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: caíram -> dust + som de impacto; encena: x_fone (lift) -> acao + som de efeito
+- Efeito + som nas palavras-chave: caíram -> dust + som de impacto
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Agora imagina o mundo todo. Sem pagamento pelo celular, sem cartão. Só dinheiro de papel.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
-- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino; encena: x_fone (lift) -> acao + som de efeito; encena: paga (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Gente conversando na rua, jogando bola, olhando para o céu.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: olha (point) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: olha (point) @6 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: E quando voltasse? Todo mundo correria para postar como foi ficar sem internet.
 - Som ambiente: sea
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: correria -> dust + som de impacto; encena: grita (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: correria -> dust + som de impacto; encena: grita (up) @5 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: VOLTOU!
 - Funcao na historia: GRANDE MOMENTO

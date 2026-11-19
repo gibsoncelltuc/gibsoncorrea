@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: E se todas as pessoas do planeta pulassem exatamente no mesmo segundo? A Terra sairia do lugar?
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: encena: pula -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: pula @7 -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: E SE...
 - Funcao na historia: GANCHO
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Então todo mundo conta até três, e pula ao mesmo tempo!
 - Som ambiente: birds
 - Efeitos sonoros marcados: whoosh@20, thump@40
-- Efeito + som nas palavras-chave: encena: pula -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: pula @7 -> acao + som de efeito
 - Efeito visual marcado: puff@20, ring@40
 - Texto na tela: 3, 2, 1...
 - Funcao na historia: GRANDE MOMENTO
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Ela se mexeria menos que a largura de um átomo. Nenhum instrumento conseguiria medir.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: examina (think) -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O que daria para notar seria o barulho. Bilhões de pés batendo no chão, como um trovão ao redor do mundo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: cannon@20, thump@40
-- Efeito + som nas palavras-chave: encena: x_bate (punch) -> acao + som de efeito; encena: tomba -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_bate (punch) @11 -> acao + som de efeito; encena: tomba @13 -> acao + som de efeito
 - Efeito visual marcado: burst@20, puff@40
 - Texto na tela: BUM!
 - Funcao na historia: GRANDE MOMENTO
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: E se, para facilitar, todo mundo se juntasse num lugar só, para pular junto?
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: pula -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: pula @12 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Aí seria o caos: bilhões de pessoas presas no mesmo lugar, sem estrada, comida ou água para todos voltarem para casa.
 - Som ambiente: sea
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: caos: -> puff + som de baque; encena: grita (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: caos: -> puff + som de baque; encena: grita (up) @3 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Ou seja: pular junto é fácil. Difícil seria a volta.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: pula -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: pula @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: A Terra não liga para o nosso pulo. Mas pode pular aí: ninguém vai sentir.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: pula -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: pula @7 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

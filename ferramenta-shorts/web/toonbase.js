@@ -1191,7 +1191,7 @@ export const bodyFront = (p, o, opts)=>{
     const H = headBlob(seed, Bd.a, facing), W = 2 * H.a, HH = 2 * H.b, u = W / 100;
     const tall = (1 + Bd.torso + Bd.legs) * HH, sole = 975;
     const bob = mode === "march" ? 0.025 * tall * Math.cos(2 * two * phase) : mode === "stroll" ? 0.015 * tall * Math.cos(2 * two * phase) : 0;
-    const torsoBot = mode === "sit" ? sole - 0.2 * HH : mode === "kneel" ? sole - 0.5 * Bd.legs * HH : sole - Bd.legs * HH + bob;   /* kneel (19/11): DE JOELHOS, corpo mais baixo */
+    const torsoBot = mode === "sit" ? sole - 0.2 * HH : mode === "kneel" ? sole - 0.36 * Bd.legs * HH : sole - Bd.legs * HH + bob;   /* kneel (19/11): DE JOELHOS, corpo mais baixo */
     const chin = torsoBot - Bd.torso * HH, hc = chin - H.b, crown = hc - H.b, hipY = torsoBot - 0.12 * HH;
     const thick = thickAngle(light), ow = 5 * u;
     const legCol = mix(o.pants, INK, 0.86), armCol = mix(o.jacket, INK, 0.84), footCol = o.boots;   // pernas/bracos = traco de TINTA escura (canal: contraste 115-150 contra o chao)
@@ -1221,13 +1221,15 @@ export const bodyFront = (p, o, opts)=>{
                 f[1] - 5 * u
             ], footW, footCol);
         }
-    } else if (mode === "kneel") {   /* DE JOELHOS: coxa desce reta ate o joelho no chao, canela e pe para tras (curtinhos, vistos de frente) */
+    } else if (mode === "kneel") {   /* DE JOELHOS (19/11 v2): coxas abertas descendo ate os JOELHOS no chao (bolinhas marcadas), canelas deitadas para tras e para fora, sola do sapato aparecendo atras */
         for (const side of [-1, 1]) {
-            const h = [300 + side * 14 * u, hipY], k = [300 + side * 20 * u, sole - 6 * u];
-            p.stroke(curve(h, [300 + side * 18 * u, (hipY + k[1]) / 2], k), legW, legCol);
-            p.ell(k[0], k[1] - 2 * u, 5 * u, 4 * u, legCol, 0, 0, 360, 0);
-            footStroke(p, [k[0] + side * 4 * u, sole - 3 * u], [k[0] + side * 13 * u, sole - 1 * u], footW * 0.8, footCol);
+            const h = [300 + side * 13 * u, hipY], k = [300 + side * 30 * u, sole - 7 * u], ft = [300 + side * 58 * u, sole - 16 * u];
+            p.stroke(curve(h, [300 + side * 24 * u, (hipY + k[1]) / 2], k), legW * 1.15, legCol);
+            p.stroke(curve(k, [300 + side * 44 * u, sole - 6 * u], ft), legW, legCol);
+            p.ell(k[0], k[1], 7 * u, 5.5 * u, mix(o.pants, INK, 0.55), 1.4 * u, 0, 360, 0);
+            p.ell(ft[0] + side * 3 * u, ft[1] - 2 * u, 7 * u, 4 * u, footCol, 1.2 * u, 0, 360, side * 35);
         }
+        p.ell(300, sole - 1 * u, 52 * u, 5 * u, "rgba(0,0,0,0.18)", 0, 0, 360, 0);
     } else if (mode === "fall") {
         const legs = [
             [

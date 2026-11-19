@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 01 - A Batalha de Karánsebes
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 75 acoes catalogadas, 75 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 69 acoes catalogadas, 69 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 2.9s - 10 palavras - plano crowd
@@ -39,11 +39,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | acharam (14.6s) | ACAO: olha | aponta/olha | OK |
-| 2 | vendendo (17.7s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | vendendo (17.7s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 4 | - | INTERACAO | aproxima-se | OK |
-| 5 | - | ATUACAO | reagir | OK |
+| 1 | - | INTERACAO | aproxima-se | OK |
+| 2 | - | ATUACAO | reagir | OK |
 
 ## Cena b4 - 19.4s a 21.8s - 7 palavras - plano two
 > "Compraram tudo, beberam, e a festa começou."
@@ -85,11 +82,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | gritou: (34.5s) | EFEITO: ring | onda + som | OK |
 | 2 | gritou (34.5s) | ACAO: grita | grita de bracos para cima | OK |
 | 3 | pânico (38.1s) | EFEITO: dust | poeira + som | OK |
-| 4 | tomou (38.4s) | ACAO: x_bebe | leva o copo a boca | OK |
-| 5 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
-| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 7 | - | ATUACAO | conversar | OK |
-| 8 | - | PLACA | TURCOS! | OK |
+| 4 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
+| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 6 | - | ATUACAO | conversar | OK |
+| 7 | - | PLACA | TURCOS! | OK |
 
 ## Cena b7 - 40.3s a 46.3s - 19 palavras - plano crowd
 > "Acontece que ninguém entendia a língua do vizinho. Todo mundo atirava em todo mundo, achando que eram os turcos."
@@ -138,10 +134,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | venceram (63.8s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | venceram (63.8s) | ACAO: vence | bracos para cima + brilho | OK |
-| 3 | tiro (65.1s) | EFEITO: burst | estouro/clarao + som | OK |
-| 4 | tiro (65.1s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 5 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 6 | - | INTERACAO | pular | OK |
-| 7 | - | ATUACAO | comemorar | OK |
-| 8 | - | PLACA | FOGO AMIGO | OK |
+| 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 4 | - | INTERACAO | pular | OK |
+| 5 | - | ATUACAO | comemorar | OK |
+| 6 | - | PLACA | FOGO AMIGO | OK |
 

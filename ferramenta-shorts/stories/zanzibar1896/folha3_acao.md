@@ -61,9 +61,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | atirar (27.2s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | atirar (27.2s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | conversar | OK |
 
 ## Cena b6 - 29.3s a 37.8s - 23 palavras - plano orbit
 > "Acontece que, às nove e dois, os navios ingleses começaram a disparar. O palácio de madeira começou a desabar, e a pegar fogo."

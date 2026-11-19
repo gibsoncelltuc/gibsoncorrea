@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 05 - Os Gansos que Salvaram Roma
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval | 10 cenas, 150 palavras (~52 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval | 10 cenas, 151 palavras (~52 s)
 
 ## Cena b0  (~3.4 s)
 - Narracao: Roma inteira foi salva por um bando de gansos barulhentos.
@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: Os gauleses tinham invadido a cidade, e queimado quase tudo. Quem não fugiu, morreu.
 - Som ambiente: birds
 - Efeitos sonoros marcados: thump@20, thump@55, whoosh@18
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; fugiu -> dust + som de impacto; morreu -> puff + som de baque; encena: queima -> acao + som de efeito; encena: corre -> acao + som de efeito; encena: morre -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; encena: queima @7 -> acao + som de efeito
 - Efeito visual marcado: dust@20, burst@55, puff@20, puff@60
 - Texto na tela: - | mapa: ROMA
 - Funcao na historia: GRANDE MOMENTO
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: Numa noite sem lua, os gauleses escalaram a colina em silêncio. Os guardas dormiam. Ninguém ouviu nada.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: escala (lift) -> acao + som de efeito; encena: dorme -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: dorme @13 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: Acontece que os gansos acordaram, e começaram a gritar e a bater as asas.
 - Som ambiente: birds
 - Efeitos sonoros marcados: squeal@20, squeal@55, squeal@90
-- Efeito + som nas palavras-chave: encena: x_acorda (up) -> acao + som de efeito; encena: grita (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_acorda (up) @4 -> acao + som de efeito; encena: grita (up) @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: QUÁ! QUÁ!
 - Funcao na historia: VIRADA
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: Um soldado chamado Mânlio pulou da cama, e empurrou o primeiro invasor muralha abaixo. O gaulês caiu, levando os outros junto.
 - Som ambiente: birds
 - Efeitos sonoros marcados: thump@66, whoosh@60
-- Efeito + som nas palavras-chave: caiu -> dust + som de impacto; encena: pula -> acao + som de efeito; encena: empurra (push) -> acao + som de efeito
+- Efeito + som nas palavras-chave: caiu -> dust + som de impacto; encena: pula @4 -> acao + som de efeito; encena: empurra (push) @8 -> acao + som de efeito
 - Efeito visual marcado: dust@70, puff@80
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: O alarme acordou todo mundo, os romanos correram para a muralha, e o ataque fracassou.
 - Som ambiente: birds
 - Efeitos sonoros marcados: thump@30, sting@10, thump@70
-- Efeito + som nas palavras-chave: alarme -> ring + som de alerta; correram -> dust + som de impacto; ataque -> ring + som de alerta; encena: grita (up) -> acao + som de efeito; encena: x_acorda (up) -> acao + som de efeito; encena: corre -> acao + som de efeito; encena: atira -> acao + som de efeito; encena: perde (facepalm) -> acao + som de efeito
+- Efeito + som nas palavras-chave: alarme -> ring + som de alerta; correram -> dust + som de impacto; ataque -> ring + som de alerta; encena: grita (up) @1 -> acao + som de efeito; encena: x_acorda (up) @2 -> acao + som de efeito; encena: corre @7 -> acao + som de efeito; encena: atira @13 -> acao + som de efeito; encena: perde (facepalm) @14 -> acao + som de efeito
 - Efeito visual marcado: burst@30, dust@70
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -83,11 +83,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Texto na tela: DESFILE
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~3.4 s)
-- Narracao: E os guardas, que dormiram a noite inteira, foram castigados.
+## Cena b9  (~3.8 s)
+- Narracao: E os guardas, que dormiram a noite inteira, ganharam um castigo.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: ganharam -> stars + som de sino; encena: vence (up) @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

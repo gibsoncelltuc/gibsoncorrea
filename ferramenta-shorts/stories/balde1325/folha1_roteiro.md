@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: Módena e Bolonha se odiavam havia séculos. Uma apoiava o imperador, a outra, o papa, e qualquer desculpa servia para brigar.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: brigar -> puff + som de baque; encena: golpe (punch) -> acao + som de efeito
+- Efeito + som nas palavras-chave: brigar -> puff + som de baque; encena: golpe (punch) @20 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: ITÁLIA
 - Funcao na historia: desenvolvimento
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: Numa noite, diz a lenda, soldados de Módena entraram escondidos em Bolonha.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: chega (point) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: chega (point) @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: Não roubaram ouro, nem armas. Levaram o balde velho do poço da praça, e voltaram para casa rindo.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160, gun@164, gun@168, gun@176, gun@180
-- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (MOD) -> acao + som de efeito; tiros: 4 soldados caem no chao -> acao + som de efeito; roubaram -> stars + som de sino; ouro -> stars + som de sino; rindo -> stars + som de sino; encena: paga (reach) -> acao + som de efeito; encena: x_ri (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (MOD) -> acao + som de efeito; tiros: 4 soldados caem no chao -> acao + som de efeito; rindo -> stars + som de sino; encena: x_ri (up) @17 -> acao + som de efeito
 - Efeito visual marcado: ring@12, dust@40
 - Texto na tela: O BALDE
 - Funcao na historia: GRANDE MOMENTO
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: Módena tinha só sete mil soldados. Parecia uma derrota certa, e rápida.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: derrota -> puff + som de baque; encena: perde (facepalm) -> acao + som de efeito
+- Efeito + som nas palavras-chave: derrota -> puff + som de baque; encena: perde (facepalm) @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: Acontece que, numa única tarde de batalha, os sete mil atacaram de surpresa, e o exército gigante fugiu correndo.
 - Som ambiente: birds | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160, gun@164, gun@168, gun@176, gun@180, gun@184, gun@188, gun@196
-- Efeito + som nas palavras-chave: (rosto) shock -> expr + som de efeito; cavalaria: 4 soldados a cavalo (MOD) -> acao + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito; atacaram -> ring + som de alerta; surpresa -> ring + som de alerta; fugiu -> dust + som de impacto; encena: grita (up) -> acao + som de efeito; encena: corre -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) shock -> expr + som de efeito; cavalaria: 4 soldados a cavalo (MOD) -> acao + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito; atacaram -> ring + som de alerta; surpresa -> ring + som de alerta; fugiu -> dust + som de impacto; encena: grita (up) @12 -> acao + som de efeito; encena: corre @17 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

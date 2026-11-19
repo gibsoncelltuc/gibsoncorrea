@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 06 - A Guerra do Porco
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 52 acoes catalogadas, 52 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 49 acoes catalogadas, 49 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 2.6s - 11 palavras - plano two
@@ -15,20 +15,23 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | CHEGADA | alguem entra andando | OK |
 | 5 | - | PLACA | 1859 | OK |
 
-## Cena b1 - 3.7s a 8.1s - 18 palavras - plano reveal
+## Cena b1 - 3.7s a 8.1s - 18 palavras - plano two
 > "Era uma ilha pequena, entre os Estados Unidos e o Canadá, e ninguém sabia de quem ela era."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | MAPA | ILHA DE SAN JUAN | OK |
+| 1 | - | INTERACAO | insiste | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | MAPA | ILHA DE SAN JUAN | OK |
 
-## Cena b2 - 9.2s a 13.2s - 14 palavras - plano two
+## Cena b2 - 9.2s a 13.2s - 14 palavras - plano crowd
 > "Um dia, um fazendeiro americano encontrou um porco comendo as batatas da horta dele."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | encontrou (11.2s) | ACAO: olha | aponta/olha | OK |
 | 2 | - | CENA | animal: pig come | OK |
+| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
 ## Cena b3 - 14.3s a 18.6s - 13 palavras - plano two
 > "Ele pegou a espingarda, e atirou. O porco era de um vizinho inglês."
@@ -103,13 +106,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | festas (60.0s) | ACAO: vence | bracos para cima + brilho | OK |
-| 2 | deu (61.7s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 3 | tiro (62.1s) | EFEITO: burst | estouro/clarao + som | OK |
-| 4 | tiro (62.1s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 5 | - | CENA | cavalaria: 4 soldados a cavalo (ING) | OK |
-| 6 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 8 | - | ATUACAO | discutir | OK |
+| 2 | - | ATUACAO | discutir | OK |
 
 ## Cena b10 - 63.3s a 66.0s - 11 palavras - plano two
 > "Treze anos depois, um árbitro decidiu que a ilha era americana."
@@ -117,7 +114,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | EMOCAO: determined | o rosto vira "determined" na palavra | OK |
-| 2 | - | INTERACAO | insiste | OK |
+| 2 | - | INTERACAO | cochichar | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | 13 ANOS | OK |
 

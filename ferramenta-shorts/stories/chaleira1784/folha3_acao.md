@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 10 - A Guerra da Chaleira
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 46 acoes catalogadas, 46 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 44 acoes catalogadas, 44 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 4.1s - 14 palavras - plano two
@@ -96,8 +96,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | desistiu (52.0s) | ACAO: perde | mao na testa | OK |
 | 3 | pagou (55.1s) | EFEITO: stars | estrelinhas + som | OK |
 | 4 | pagou (55.1s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 5 | pagou (55.1s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 6 | dinheiro (56.5s) | EFEITO: stars | estrelinhas + som | OK |
+| 5 | dinheiro (56.5s) | EFEITO: stars | estrelinhas + som | OK |
+| 6 | dinheiro (56.5s) | ACAO: paga | estende a mao com moedas + brilho | OK |
 | 7 | - | INTERACAO | entregar | OK |
 
 ## Cena b9 - 57.9s a 60.2s - 5 palavras - plano close
@@ -105,8 +105,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | morreu (58.4s) | EFEITO: puff | fumaca + som | OK |
-| 2 | morreu (58.4s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
-| 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 1 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 2 | - | ATUACAO | conversar | OK |
 

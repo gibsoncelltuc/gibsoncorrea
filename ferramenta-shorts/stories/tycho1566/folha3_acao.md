@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 12 - O Astrônomo do Nariz de Metal
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.7s - 15 palavras - plano two
@@ -18,13 +18,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 7 | - | ATUACAO | discutir | OK |
 | 8 | - | PLACA | 1566 | OK |
 
-## Cena b1 - 5.1s a 11.4s - 19 palavras - plano reveal
+## Cena b1 - 5.1s a 11.4s - 19 palavras - plano crowd
 > "Era mil quinhentos e sessenta e seis. Tycho Brahe, um jovem nobre da Dinamarca, estudava numa cidade da Alemanha."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | estudava (10.2s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 2 | - | MAPA | DINAMARCA | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | MAPA | DINAMARCA | OK |
 
 ## Cena b2 - 12.8s a 15.9s - 14 palavras - plano group
 > "Numa festa, ele discutiu com um primo sobre quem era o melhor em matemática."
@@ -47,14 +48,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | discutir | OK |
 | 4 | - | ATUACAO | discutir | OK |
 
-## Cena b4 - 24.3s a 28.5s - 17 palavras - plano crowd
+## Cena b4 - 24.3s a 28.5s - 17 palavras - plano two
 > "Acontece que o primo acertou um golpe certeiro, e cortou fora um pedaço do nariz de Tycho."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | golpe (26.0s) | ACAO: golpe | soco + estouro | OK |
 | 2 | cortou (27.0s) | ACAO: corta | machado e toras + poeira | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | INTERACAO | susto | OK |
 
 ## Cena b5 - 29.7s a 33.5s - 15 palavras - plano two
 > "Para esconder o buraco, ele passou a usar um nariz de metal, colado no rosto."

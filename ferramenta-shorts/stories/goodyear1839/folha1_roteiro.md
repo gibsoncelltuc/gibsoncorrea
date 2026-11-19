@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Um inventor falido deixou cair uma gosma no fogão da cozinha. E mudou o mundo para sempre.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: encena: cai (throw) -> acao + som de efeito; encena: calor (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: cai (throw) @3 -> acao + som de efeito; encena: calor (reach) @8 -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 1839
 - Funcao na historia: GANCHO
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Charles Goodyear ficou obcecado. Misturou a borracha com tudo que encontrava, e gastou todo o dinheiro da família.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
-- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino; encena: mistura (stir) -> acao + som de efeito
+- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino; encena: mistura (stir) @4 -> acao + som de efeito; encena: paga (reach) @15 -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Fez tantas dívidas que foi parar na prisão. E lá dentro continuou fazendo experiências.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: quimico (pour) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: quimico (pour) @13 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Até que um dia, mexendo numa mistura de borracha com enxofre, ele se atrapalhou.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: mistura (stir) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: mistura (stir) @4 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: A gosma caiu em cima do fogão quente. Ele esperava que derretesse.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@20, sting@40
-- Efeito + som nas palavras-chave: encena: cai (throw) -> acao + som de efeito; encena: calor (reach) -> acao + som de efeito; encena: x_espera (cross) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: cai (throw) @2 -> acao + som de efeito; encena: calor (reach) @6 -> acao + som de efeito; encena: x_espera (cross) @9 -> acao + som de efeito
 - Efeito visual marcado: puff@20, ring@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que não derreteu. Ficou firme e elástica, como couro. Tinha nascido a borracha vulcanizada.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20
-- Efeito + som nas palavras-chave: encena: vira (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: vira (up) @7 -> acao + som de efeito
 - Efeito visual marcado: stars@20
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Ele abraçou a esposa. Finalmente a borracha aguentava calor e frio.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: encena: x_abraca -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_abraca @1 -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Mas outros copiaram a ideia, e ele passou anos brigando na justiça. Morreu cheio de dívidas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; Morreu -> puff + som de baque; encena: pensa (think) -> acao + som de efeito; encena: golpe (punch) -> acao + som de efeito; encena: morre -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; Morreu -> puff + som de baque; encena: pensa (think) @4 -> acao + som de efeito; encena: golpe (punch) @9 -> acao + som de efeito; encena: morre @12 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -105,7 +105,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: E uma fábrica de pneus famosa ganhou o nome dele em homenagem. Ele nunca soube.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: ganhou -> stars + som de sino; encena: vence (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: ganhou -> stars + som de sino; encena: vence (up) @6 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: GOODYEAR
 - Funcao na historia: FECHO/PIADA FINAL

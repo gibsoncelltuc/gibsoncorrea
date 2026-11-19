@@ -376,6 +376,21 @@ def grav_js(f0, T, y0, y1):   # trajetoria de projetil: sai de y0 no quadro f0 e
     v0 = (y1 - y0 + 0.5 * GRAV * T * T) / T
     return f"(f) => {{ const t = Math.max(0, Math.min({T:.3f}, (f - ({f0})) / 30)); return DK + {y0:.3f} + {v0:.3f} * t - {0.5 * GRAV:.3f} * t * t; }}"
 # ENCENACAO: verbo da narracao -> (gesto, tipo de acao). Ordem importa (o primeiro que casa).
+_NEGW = {'nao', 'ninguem', 'nenhum', 'nenhuma', 'sem', 'nunca', 'jamais', 'nem'}
+def _neg_idx(say):   # NEGACAO (19/11): "ninguem deu um tiro", "sem dar um unico tiro", "nao atacou" -> as 4 palavras seguintes NAO sao encenadas
+    ws_ = [re.sub(r'[^a-z]', '', unicodedata.normalize('NFKD', w_.lower()).encode('ascii', 'ignore').decode()) for w_ in say.split()]; out_ = set()
+    for i_, w_ in enumerate(ws_):
+        if w_ in _NEGW: out_.update(range(i_ + 1, min(len(ws_), i_ + 5)))
+    return out_
+def _idiom_idx(say):   # EXPRESSOES (19/11): "o panico tomou o acampamento", "a noticia correu o mundo", "o preco caiu" -> nao sao beber/correr/cair
+    ws_ = say.split(); out_ = set(); n_ = lambda t: re.sub(r'[^a-z]', '', unicodedata.normalize('NFKD', t.lower()).encode('ascii', 'ignore').decode())
+    for j_, w_ in enumerate(ws_):
+        nw_ = n_(w_); ant_ = n_(' '.join(ws_[max(0, j_ - 2):j_])); dep_ = n_(' '.join(ws_[j_ + 1:j_ + 4]))
+        if (re.match(r'^(tomou|tomaram|tomava)$', nw_) and not re.search(r'cafe|cha|agua|vinho|cerveja|remedio|leite|sopa|suco|aguardente|rum|whisky|uisque|tequila|cachaca|veneno|pocao|gole|banho', dep_)) \
+           or (re.match(r'^(correu|correram|corria|corre)$', nw_) and re.search(r'noticia|fama|boato|rumor|tempo|historia|sangue|dinheiro|agua|lagrima|suor|risco|perigo|video|mensagem', ant_ + dep_)) \
+           or (re.match(r'^(caiu|cairam)$', nw_) and re.search(r'preco|venda|bolsa|acoes|ficha|noite|chuva|neve|valor|audiencia|popularidade', ant_ + dep_)):
+            out_.add(j_)
+    return out_
 ENC = [(r'^(misturou|misturaram|misturando|mistura|misturar|mexeu|mexendo|mexia|combinou|batia|bateu a massa|cozinhou|cozinhava)$', 'stir', 'mistura'),
        (r'^(caiu|cairam|derrubou|derrubaram|derramou|jogou|jogaram|atirou o|despejou|despejaram|lancou|deixou)$', 'throw', 'cai'),
        (r'^(esquentou|aqueceu|aquecer|esquentar|ferveu|ferver|fervendo|quente|aquecido|queimou|assou|fogao|forno|fogo|chamas?)$', 'reach', 'calor'),
@@ -426,7 +441,7 @@ ENC = [(r'^(misturou|misturaram|misturando|mistura|misturar|mexeu|mexendo|mexia|
        (r'^(deitou|deitaram|deitado|deitada)$', None, 'senta'), (r'^(ajoelhou|ajoelharam|ajoelhado|ajoelhada|ajoelhados|joelhos|implorou|imploravam|implorava|suplicou|suplicavam)$', 'plead', 'ajoelha'),
        (r'^(levantou-se|levantaram-se|levantou|ergueu-se)$', 'lift', 'pega'),
        (r'^(bebeu|beberam|bebendo|bebia|bebiam|tomou|tomaram|tomando|goles?|engoliu)$', 'lift', 'x_bebe'),
-       (r'^(comeu|comeram|comendo|comia|comiam|almocou|jantou|devorou|mastigou|provou|experimentou)$', 'lift', 'x_come'),
+       (r'^(comeu|comeram|comendo|comia|comiam|almocou|jantou|devorou|mastigou)$', 'lift', 'x_come'), (r'^(provou|provaram|comprovou|demonstrou)$', 'point', 'fala'),   # provou que/os microbios = demonstrou (nao e' comer)
        (r'^(chorou|choraram|chorando|chorava|lagrimas|soluco|solucou)$', 'facepalm', 'x_chora'),
        (r'^(cantou|cantaram|cantando|cantava|cantavam|musica|hino|cancao)$', 'up', 'x_canta'),
        (r'^(leu|leram|lendo|lia|liam|ler|jornal|carta|livro)$', 'think', 'x_le'),
@@ -454,7 +469,8 @@ ENC = [(r'^(misturou|misturaram|misturando|mistura|misturar|mexeu|mexendo|mexia|
        (r'^(abriu|abriram|abrindo|fechou|fecharam|trancou|destrancou)$', 'push', 'x_abre'),
        (r'^(soltou|soltaram|libertou|libertaram|liberou)$', 'up', 'x_solta'),
        (r'^(entregou|entregaram|deu|deram|ofereceu|ofereceram|recebeu|receberam)$', 'reach', 'x_entrega'),
-       (r'^(mediu|mediram|pesou|calculou|contou|contaram)$', 'think', 'examina'),
+       (r'^(contou|contaram|contava)$', 'point', 'fala'),   # contou o sonho/a historia = falou (contar numeros e' raro)
+       (r'^(mediu|mediram|pesou|calculou)$', 'think', 'examina'),
        (r'^(apresentou|mostrou|exibiu|revelou|lancou|anunciou)$', 'point', 'fala'),
        (r'^(brilhar|brilhou|brilhava|brilhando|brilho|acendeu|acenderam|acendia|reluzia|reluziu|iluminou|cintilou|faiscas?|faiscava)$', 'point', 'brilha'),
        (r'^(pegou|pegaram|segurou|ergueu|levantou|levantaram|carregou|carregaram)$', 'lift', 'pega'),
@@ -543,7 +559,7 @@ def direct(beats):
             run = 0 if b.get('shot', 'two') in WIDE else run + 1; continue
         if b.get('interior'):   # dentro de casa: sempre plano medio, sem multidao automatica
             b['shot'] = b.get('shot') if b.get('shot') in ('two', 'close', 'group', 'low') else 'two'; run += 1; wrun = 0; continue
-        say = nrm(b['say']); words = [nrm(w) for w in b['say'].split()]
+        say = nrm(b['say']); _ng = _neg_idx(b['say']); words = [nrm(w) for i_, w in enumerate(b['say'].split()) if i_ not in _ng]   # palavra negada nao vira batalha
         mass = bool(MASS.search(say)); arrive = bool(ARRIVE.search(say))
         shot = b.get('shot', 'two'); first = (k == 0); last = (k == len(beats) - 1)
         if first: shot = shot if shot in ('two', 'close', 'group', 'low', 'track') else ('group' if len(b.get('who', [])) > 2 else 'two')   # MODO RICKS: abre em plano medio/fechado (18 de 20 videos do canal)
@@ -624,7 +640,7 @@ if B.get('director') is not False and not any(b.get('impact') for b in beats) an
 # DOIS GRANDES MOMENTOS (ordem do Gibson): todo video tem 2 pontos de impacto encenados em plano aberto com multidao, efeito e som. Se o roteiro so' rendeu 1, a virada ("Acontece que") ou a cena a 1/3 do video vira o segundo.
 if B.get('director') is not False and len(beats) > 6 and sum(1 for b in beats if b.get('impact')) < int(B.get('min_momentos', 2)):
     _im = [i for i, b in enumerate(beats) if b.get('impact')]
-    _cand = [i for i, b in enumerate(beats) if 0 < i < len(beats) - 1 and not b.get('impact') and not b.get('shot_lock') and not b.get('interior') and not b.get('veiculo') and all(abs(i - j) > 1 for j in _im)]
+    _cand = [i for i, b in enumerate(beats) if 0 < i < len(beats) - 1 and not re.search(r'ninguemdeu|ninguematirou|semdar|nenhumtiro|naoatir|semtiro|empaz|festa', nrm(b['say'])) and not b.get('interacao') and b.get('shot') not in ('low', 'close') and not b.get('impact') and not b.get('shot_lock') and not b.get('interior') and not b.get('veiculo') and all(abs(i - j) > 1 for j in _im)]
     _vir = [i for i in _cand if re.match(r'acontece que|na verdade|so que|o problema', re.sub(r'[^a-z ]', '', unicodedata.normalize('NFKD', beats[i]['say'].lower()).encode('ascii', 'ignore').decode()))]
     _pick = (_vir or sorted(_cand, key=lambda i: abs(i - (len(beats) * (0.3 if (_im and _im[0] > len(beats) / 2) else 0.7)))) or [None])[0]
     if _pick is not None:
@@ -818,7 +834,7 @@ def build_beat(k, b):
             acts.append(f"{{ {key}: {json.dumps(sp)}, at: [X + {num(dxa - mv / 2)}, {num(za)}], move: [[X + {num(dxa + mv / 2)}, {num(za)}], {a}, {bb}, 'lin'], state: 'trot', spd: 0.09, s: {num(sc)}, flip: {_fl}, seed: {j * 3 + 1} }}")
         else:
             # ACOES DO ANIMAL NA PALAVRA (ordem do Gibson: "o porco entrando na fazenda caminhando... o fazendeiro atirando no porco")
-            _aw = b['say'].split(); _af = lambda rx_: next((starts[k] + j_ for j_, w_ in enumerate(_aw) if re.match(rx_, nrm(w_))), None)
+            _aw = b['say'].split(); _ngA = _neg_idx(b['say']); _af = lambda rx_: next((starts[k] + j_ for j_, w_ in enumerate(_aw) if j_ not in _ngA and re.match(rx_, nrm(w_))), None)
             _w_come = _af(r'^(comendo|comeu|comia|comiam|fucando|fucava|pastando|pastava|bicando|roendo|devorou|mastigando)$')
             _w_entra = _af(r'^(entrando|entrou|invadiu|invadindo|chegou|chegando|apareceu|caminhava|caminhando|andava|andando|passeava|fugido|escapou|soltou)$')
             _w_foge = _af(r'^(fugiu|fugindo|correu|correndo|disparou|sumiu)$')
@@ -1030,8 +1046,10 @@ def build_beat(k, b):
     # animacao nas palavras-chave: golpe de camera + efeito no instante da palavra
     kfx = 0
     if b.get('kw') is not False:
+        _ngK = _neg_idx(b['say'])
         for j, w in enumerate(b['say'].split()):
             nw = nrm(w)
+            if j in _ngK or j in _idiom_idx(b['say']): continue   # "ninguem deu um tiro" / "a noticia correu": sem efeito de acao
             for rx, kind, kick in KW:
                 if rx.match(nw) and kfx < 3 and not (b.get('_enc') and kind in ('puff', 'dust', 'splash')):
                     kfx += 1; wi = starts[k] + j; PLANO.append((k, w.strip('.,!?"'), kind)); KWSFX.append((wi, 'cannon' if re.match(r'canh|explo|bomb', nw) else {'burst': 'gun', 'ring': 'sting', 'dust': 'thump', 'puff': 'thump', 'stars': 'ding'}.get(kind, 'tick')))   # SOM na mesma palavra do efeito
@@ -1093,8 +1111,11 @@ def build_beat(k, b):
         _z0 = ZS[0]; _hx = sl[0] + _side * 1.25
         _tx, _tz = (_alvo[0], _alvo[1]) if _alvo else (sl[0] + _side * 2.3, _z0 + 0.9)
         _feitos = set(); _encs = []; _mesmos = []
+        _negi = _neg_idx(b['say'])
         for j_, w_ in enumerate(_ws):
             nw_ = nrm(w_); wi_ = starts[k] + j_
+            if j_ in _negi: b.setdefault('_enc_words', []).append(nw_); continue   # acao NEGADA na frase: nao encena (e nao conta como falta)
+            if j_ in _idiom_idx(b['say']): b.setdefault('_enc_words', []).append(nw_); continue   # EXPRESSAO: "o panico tomou", "a noticia correu", "o preco caiu"
             for rx_, gest_, tipo_ in ENC:
                 if not re.match(rx_, nw_): continue
                 if tipo_ in _feitos: _mesmos.append((tipo_, nw_)); break   # 2a palavra da mesma acao (sirenes... tocaram): ja encenada
@@ -1112,6 +1133,7 @@ def build_beat(k, b):
             _ate = f"WS({_encs[n_e + 1][0]}) - 4" if n_e + 1 < len(_encs[:6]) else f"WS({wi_}) + 46"
             if tipo_ == 'corta' and re.search(r'dedo|bisturi|faca|tesoura|navalha|semachucou|mao|nariz|orelha|espada', _sy_): gest_ = 'reach'
             if tipo_ == 'danca' and re.search(_DANCA_OUTRO, _sy_): gest_ = None   # corte no dedo: estende a mao machucada (nao martela)
+            if tipo_ == 'pega' and (persons[0][3] == 'rifle' or B.get('outfits', {}).get(persons[0][0], {}).get('rifle')): b.setdefault('_shots', []).append(f"WS({wi_}) + 8")   # pegou a espingarda: ergue e mira a arma na palavra (sem tiro)
             if gest_ and not (persons[0][3] == 'rifle' and tipo_ in ('pega', 'golpe')): _gst.setdefault(0, []).append(f"[WS({wi_}) - 4, {_ate}, '{gest_}']")
             mat_ = next((a_ for rx2_, a_ in ENC_MAT if re.search(rx2_, _resto(j_) + ' ' + nrm(b['say']))), None)
             if tipo_ == 'mistura':
@@ -1177,7 +1199,7 @@ def build_beat(k, b):
             elif tipo_ == 'morre':
                 if re.search(r'porco|cavalo|vaca|cachorro|\bcao\b|animal|bicho|galinha|emu|urso|lobo|ovelha|cabra|boi|ganso', _sy_): pass   # animal morrendo: o bloco dos animais cuida
                 elif re.search(r'(morreu|faleceu)\s+(em|no ano)\s+(mil|\d)', unicodedata.normalize('NFKD', b['say'].lower()).encode('ascii', 'ignore').decode()):   # morte anos depois: tumulo com cruz e flores
-                    pr.append(f"{{ asset: 'kit/grave', a: {a}, b: {bb}, at: [X + {num(_hx + _side * 0.9)}, {num(_z0 - 0.4)}], s: 1.0, drop: false }}"); KWSFX.append((wi_, 'sting'))
+                    pr.append(f"{{ asset: 'kit/grave', a: {a}, b: {bb}, at: [X + {num(sl[0] - _side * 1.7)}, -0.9], s: 0.55, ry: 1.3, drop: false }}")   # ao lado e atras do personagem (na frente tapava a cena); KWSFX.append((wi_, 'sting'))
                 else:
                     _gst.setdefault(('poses', 0), []).append(f"[WS({wi_}) + 2, {bb}, 'fall']"); fx.append(f"{{ k: 'dust', a: WS({wi_}) + 4, b: WS({wi_}) + 30, at: [X + {num(sl[0] + 0.6)}, DK + 0.1, {num(_z0 + 0.3)}], s: 0.8 }}"); KWSFX.append((wi_, 'thump'))
             elif tipo_ in ('tomba', 'dorme', 'senta', 'ajoelha'):
@@ -1221,7 +1243,7 @@ def build_beat(k, b):
                 KWSFX.append((wi_, 'ding'))
             elif tipo_ == 'paga':   # dinheiro/pagar/vender: moedas na mao estendida + brilho
                 pr.append(f"{{ asset: 'kit/coin', a: Math.max({a} + 4, WS({wi_}) - 20), b: {bb}, at: [X + {num(_hx + _side * 0.25)}, {num(_z0 + 0.5)}], y: DK + 1.25, s: 0.32, drop: false }}"); KWSFX.append((wi_, 'ding'))
-            elif tipo_ == 'chega' and acts and not b.get('_chega') and not (shot == 'track' or mv) and 'move:' not in acts[0] and acts[0].startswith(('pp(', 'Object.assign(pp(')):   # chegou/apareceu: entra andando pela lateral e para no lugar
+            elif tipo_ == 'chega' and j_ <= 4 and not re.search(r'(entrou|entraram)(para|na|em|no)(a)?(historia|guerra|moda|panico|acordo|crise|falencia|vigor|campo)|apareceu(na|no)(tv|televisao|jornal|foto)', _sy_) and acts and not b.get('_chega') and not (shot == 'track' or mv) and 'move:' not in acts[0] and acts[0].startswith(('pp(', 'Object.assign(pp(')):   # chegou/apareceu: entra andando pela lateral e para no lugar
                 _gst.setdefault('sai', []).append(f"at: [X + {num(sl[0] + _side * 6)}, {num(_z0 - 0.8)}], move: [[X + {num(sl[0])}, {num(_z0)}], Math.max({a}, WS({wi_}) - 30), WS({wi_}) + 20, 'lin'], walk: 'stroll'")
             elif tipo_ == 'atira':
                 if not (persons[0][3] == 'rifle' or B.get('outfits', {}).get(persons[0][0], {}).get('rifle')) and acts: acts[0] = f"Object.assign({acts[0]}, {{ over: {{ rifle: true }} }})"
@@ -1256,7 +1278,7 @@ def build_beat(k, b):
                 _bx, _bz = (float(_po[1]), float(_po[2])) if _po else (_tx, _tz)
                 for q_ in range(3): fx.append(f"{{ k: {json.dumps(['ring', 'stars', 'ring'][q_])}, a: WS({wi_}) + {q_ * 10}, b: WS({wi_}) + {q_ * 10 + 30}, at: [X + {num(_bx)}, DK + 1.4, {num(_bz + 0.4)}], s: {num(1.1 - q_ * 0.2)} }}")
                 KWSFX.append((wi_, 'ding'))
-            PLANO.append((k, f'encena: {tipo_}' + (f' ({gest_})' if gest_ else ''), 'acao'))
+            PLANO.append((k, f'encena: {tipo_}' + (f' ({gest_})' if gest_ else '') + f' @{j_}', 'acao'))   # @j = palavra exata executada (a folha 3 mostra ESTA palavra)
         if _encs or (persons and persons[0][3]): b['_acao'] = b.get('_acao') or ('atira' if persons[0][3] == 'rifle' else 'encena')   # quem faz o processo / segura o objeto NAO esta parado
         if _gst.get(0) and acts: acts[0] = f"Object.assign({acts[0]}, {{ gests: [{', '.join(_gst[0])}] }})"
         if _gst.get('sai') and acts: acts[0] = f"Object.assign({acts[0]}, {{ {_gst['sai'][0]} }})"   # FOI EMBORA: sai andando pela lateral
@@ -1619,7 +1641,7 @@ for k, b in enumerate(beats):
         if kk_ != k: continue
         if w_.startswith('encena: '):
             t_ = w_.split(': ')[1].split(' ')[0]; rxs_ = [r__ for r__, g__, tt__ in ENC if tt__ == t_]
-            j_ = next((j__ for j__, ww__ in enumerate(_ws3) if any(re.match(r__, nrm(ww__)) for r__ in rxs_)), 0); _rows.append((j_, _ws3[j_].strip('.,!?":;') if _ws3 else '-', 'ACAO: ' + t_, _ENC_DESC.get(t_, t_)))
+            _mj = re.search(r' @(\d+)$', w_); j_ = int(_mj.group(1)) if _mj else next((j__ for j__, ww__ in enumerate(_ws3) if any(re.match(r__, nrm(ww__)) for r__ in rxs_)), 0); j_ = min(j_, max(0, len(_ws3) - 1)); _rows.append((j_, _ws3[j_].strip('.,!?":;') if _ws3 else '-', 'ACAO: ' + t_, _ENC_DESC.get(t_, t_)))
         elif w_.startswith('(rosto) '):
             ex_ = w_.split(' ', 1)[1]; j_ = next((j__ for j__, ww__ in enumerate(_ws3) if any(re.match(r__, nrm(ww__)) and e__ == ex_ for r__, e__ in [])), None)
             _rows.append((None, '-', 'EMOCAO: ' + ex_, 'o rosto vira "' + ex_ + '" na palavra'))

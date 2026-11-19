@@ -14,20 +14,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b1 - Era uma ilha pequena, entre os Estados Unidos e o Canadá, e ninguém sa...
 - Cenario: countryside | luz: day | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): FAZ (variante 0, expressao neutral); IRL (variante 0, expressao neutral) | multidao: 8 de FAZ/IRL
-- Animacao: -
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Personagens principais (2): FAZ (variante 0, expressao neutral); IRL (variante 0, expressao neutral)
+- Animacao: conversar | interacao: insiste
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canada, estados, ilha
 - RISCOS: nenhum
 
 ## Cena b2 - Um dia, um fazendeiro americano encontrou um porco comendo as batatas ...
 - Cenario: countryside | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (1): FAZ (variante 0, expressao angry, segura pitchfork)
-- Animacao: encena
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (1): FAZ (variante 0, expressao angry, segura pitchfork) | multidao: 12 de FAZ
+- Animacao: encena | batalha encenada
 - Objetos/modelos: nature/flowerbed, nature/picket_fence, nature/scarecrow, tools/wheelbarrow, buildings/barn, nature/haybale, pig
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): batatas, fazendeiro, horta, porco
 - RISCOS: nenhum
@@ -95,9 +95,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b9 - Os soldados passaram meses trocando insultos, e depois, festas. Ningué...
 - Cenario: mountain | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): ING (variante 0, expressao grin); AME (variante 0, expressao laugh); ING (variante 1, expressao smile) | multidao: 18 de ING/AME
-- Animacao: discutir | batalha encenada
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (3): ING (variante 0, expressao grin); AME (variante 0, expressao laugh); ING (variante 1, expressao smile) | multidao: 10 de ING/AME
+- Animacao: discutir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): soldados, tiro
 - RISCOS: nenhum
@@ -107,7 +107,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ALM (variante 0, expressao smile, segura paper); AME (variante 1, expressao smile)
-- Animacao: conversar | interacao: insiste
+- Animacao: conversar | interacao: cochichar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): arbitro, ilha
 - RISCOS: nenhum
@@ -141,8 +141,8 @@ kit/cross | b11 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b7, b9 | planos abertos: 3 | mistura: close 8% | medio 77% | aberto 13% | detalhe 1%
-- Interacoes: b0 o outro se aproxima, b4 entregar, b5 discutir, b6 empurrar, b8 vai ate o outro, b10 insiste
+- Objeto heroi: - | grandes momentos: b2, b7 | planos abertos: 3 | mistura: close 9% | medio 76% | aberto 14% | detalhe 1%
+- Interacoes: b0 o outro se aproxima, b1 insiste, b4 entregar, b5 discutir, b6 empurrar, b8 vai ate o outro, b10 cochichar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

@@ -8,6 +8,7 @@ cd "$(dirname "$0")"; ID="${1:?id}"
 python3 verificar_folhas.py $ID || exit 1
 H=$(python3 -c "import json;print(json.load(open('stories/$ID/folhas.json'))['hash_producao'])")
 [ "$(cat stories/$ID/storyboard.hash 2>/dev/null)" = "$H" ] || { echo "o storyboard e' de uma versao ANTIGA das folhas: gere de novo (rm stories/$ID/storyboard.jpg e relance a fila)"; exit 1; }
+if [ ! -f stories/$ID/grade_acoes.jpg ] || [ stories/$ID/grade_acoes.jpg -ot stories/$ID/storyboard.jpg ]; then echo "FALTA A GRADE DE ACOES: ./prechecar.sh $ID acoes  (1 quadro no INSTANTE de cada acao da folha 3) e OLHE cada quadro: a acao escrita embaixo esta acontecendo?"; exit 1; fi
 python3 - "$ID" <<'PYR' || exit 1
 # REVISAO ESCRITA OBRIGATORIA (ordem do Gibson 19/11: toda sessao revisa e corrige como a principal). stories/<id>/revisao_storyboard.md,
 # feita DEPOIS do storyboard atual, com UMA linha por frase: "bN: OK - <o que aparece na tela nessa frase>" ou "bN: CORRIGIDO - <defeito> -> <correcao>".

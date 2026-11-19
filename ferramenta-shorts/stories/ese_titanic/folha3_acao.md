@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - E Se EP 10 - E Se o Titanic Não Tivesse Afundado?
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 6.3s - 18 palavras - plano two
@@ -32,10 +32,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | gritou: (14.8s) | EFEITO: ring | onda + som | OK |
 | 2 | gritou (14.8s) | ACAO: grita | grita de bracos para cima | OK |
-| 3 | deu (16.7s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 4 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
-| 5 | - | INTERACAO | discutir | OK |
-| 6 | - | ATUACAO | discutir | OK |
+| 3 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
+| 4 | - | INTERACAO | discutir | OK |
+| 5 | - | ATUACAO | discutir | OK |
 
 ## Cena b3 - 18.1s a 23.7s - 16 palavras - plano close
 > "O gelo rasgou o casco por baixo da água, onde fica a maior parte do iceberg."

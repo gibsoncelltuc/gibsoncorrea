@@ -15,10 +15,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b1 - Os soldados finlandeses eram poucos, mas conheciam a floresta, a neve ...
 - Cenario: arctic | luz: arctic | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): FIN (variante 0, expressao stern); FIN (variante 1, expressao nervous); FIN (variante 2, expressao stern) | multidao: 10 de FIN
-- Animacao: reagir
+- Animacao: reagir | batalha encenada
 - Objetos/modelos: nature/tree_pine, nature/tree_oak, nature/bush
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): floresta, frio, neve, quarenta, soldados, zero
 - RISCOS: nenhum
@@ -36,10 +36,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Vestido de branco, ele esperava imóvel no meio da neve, horas a fio.
 - Cenario: arctic | luz: arctic | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (1): FIN (variante 3, expressao stern) | multidao: 12 de FIN
-- Animacao: encena | batalha encenada
+- Camera: low = camera baixa, dramatica (virada)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Personagens principais (1): FIN (variante 3, expressao stern)
+- Animacao: conversar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): branco, neve
 - RISCOS: nenhum
@@ -76,10 +76,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Em março de mil novecentos e quarenta, uma bala atingiu o rosto dele. ...
 - Cenario: arctic | luz: arctic | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 5 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): FIN (variante 3, expressao pained); FIN (variante 1, expressao nervous) | multidao: 10 de FIN
-- Animacao: conversar | interacao: cochichar | batalha encenada
+- Animacao: reagir | batalha encenada
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bala, rosto
 - RISCOS: nenhum
@@ -109,21 +109,19 @@ nature/scarecrow | b2 | pronto | conferir na folha de contato se le bem; se pare
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b3, b7 | planos abertos: 2 | mistura: close 29% | medio 47% | aberto 17% | detalhe 6%
-- Interacoes: b5 susto, b7 cochichar
+- Objeto heroi: - | grandes momentos: b1, b7 | planos abertos: 2 | mistura: close 34% | medio 50% | aberto 10% | detalhe 6%
+- Interacoes: b5 susto
 - RISCOS GERAIS: 
   - nenhum mapa no video (o canal situa o lugar com mapa rapido) -> CORRECAO: "mapa": "NOME DO LUGAR" na cena 1 ou 2
   - pouca variedade de cenario ({'arctic': 9}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
   - video sem objeto heroi -> CORRECAO: "heroi": "kit/<objeto>" no topo do roteiro (modele se nao existir)
-  - 1 palavra(s) de acao sem efeito + som -> CORRECAO: ver plano.md e por "fx"/"sfx" na cena
 
-## RESUMO: 6 risco(s) em aberto
+## RESUMO: 5 risco(s) em aberto
 - b0: a narracao fala de BATALHA/ATAQUE e a cena nao encena a luta
 - b2: a narracao cita "fazendeiro" e ninguem em cena esta vestido a carater
 - geral: nenhum mapa no video (o canal situa o lugar com mapa rapido)
 - geral: pouca variedade de cenario ({'arctic': 9}): o video fica parecendo todos os outros
 - geral: video sem objeto heroi
-- geral: 1 palavra(s) de acao sem efeito + som
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh hayha1939 bN bM` (so essas cenas).

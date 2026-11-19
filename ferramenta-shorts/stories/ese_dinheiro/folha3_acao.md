@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - E Se EP 06 - E Se o Dinheiro Sumisse do Mundo?
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 6.3s - 18 palavras - plano two
@@ -20,11 +20,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | pagar (10.4s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | pagar (10.4s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 3 | - | INTERACAO | discutir | OK |
-| 4 | - | ATUACAO | reagir | OK |
-| 5 | - | CHEGADA | alguem entra andando | OK |
+| 1 | - | INTERACAO | discutir | OK |
+| 2 | - | ATUACAO | reagir | OK |
+| 3 | - | CHEGADA | alguem entra andando | OK |
 
 ## Cena b2 - 11.5s a 17.4s - 17 palavras - plano two
 > "A saída seria a mais antiga de todas: a troca. Uma galinha por uma cesta de comida."

@@ -88,7 +88,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | festa (55.6s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | festa (55.6s) | ACAO: vence | bracos para cima + brilho | OK |
-| 3 | contou (57.6s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+| 3 | contou (57.6s) | ACAO: fala | aponta explicando | OK |
 | 4 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
 | 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 6 | - | ATUACAO | comemorar | OK |

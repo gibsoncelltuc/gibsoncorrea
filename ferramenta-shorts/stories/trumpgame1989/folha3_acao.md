@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 18 - O Jogo de Tabuleiro do Trump
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.4s - 21 palavras - plano two
@@ -54,9 +54,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | comprou (35.8s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | comprou (35.8s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 3 | tirou (38.8s) | ACAO: tira | tira foto (celular + flash) | OK |
-| 4 | - | INTERACAO | empurrar | OK |
-| 5 | - | ATUACAO | conversar | OK |
+| 3 | - | INTERACAO | empurrar | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b6 - 40.7s a 47.4s - 15 palavras - plano crowd
 > "A fábrica esperava vender dois milhões de jogos. Vendeu oitocentos mil. Foi considerado um fracasso."

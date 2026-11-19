@@ -24,6 +24,7 @@ gibber(F(_A[5] + int((_A[6] - _A[5]) * 0.2)), 4, 260, 0.12); gibber(F(_A[5] + in
 whoosh(F(_A[6]), 0.4, 0.35)
 sea(F(_A[6]), F(_A[7]), 0.14); gulls(F(_A[6]), F(_A[7]), 3, 0.1)
 ding(F(int(_W(90) - 2)), 0.5, 880)
+gibber(F(_A[6] + int((_A[7] - _A[6]) * 0.2)), 4, 230, 0.12); gibber(F(_A[6] + int((_A[7] - _A[6]) * 0.58)), 4, 170, 0.12)
 whoosh(F(_A[7]), 0.4, 0.35)
 sea(F(_A[7]), F(_A[8]), 0.14); gulls(F(_A[7]), F(_A[8]), 3, 0.1)
 gibber(F(_A[7] + int((_A[8] - _A[7]) * 0.2)), 4, 200, 0.12); gibber(F(_A[7] + int((_A[8] - _A[7]) * 0.58)), 4, 290, 0.12)
@@ -39,5 +40,3 @@ laughs(F(_A[9] + int((_A[10] - _A[9]) * 0.2))); laughs(F(_A[9] + int((_A[10] - _
 ding(F(_A[9] + 20))
 ding(F(int(_W(24))))
 sting(F(int(_W(74))))
-thump(F(int(_W(97))))
-sting(F(int(_W(97))))

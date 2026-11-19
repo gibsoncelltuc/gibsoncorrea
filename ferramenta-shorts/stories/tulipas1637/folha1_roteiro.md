@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Os ricos queriam as mais raras. "Dou mil moedas por esse bulbo", dizia um. "Dou duas mil", gritava outro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; moedas -> stars + som de sino; gritava -> ring + som de alerta; encena: paga (reach) -> acao + som de efeito; encena: grita (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; moedas -> stars + som de sino; gritava -> ring + som de alerta; encena: paga (reach) @8 -> acao + som de efeito; encena: grita (up) @17 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Logo, o país inteiro estava comprando. Padeiros, sapateiros, gente que nunca tinha plantado nada.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@30, ding@80
-- Efeito + som nas palavras-chave: comprando -> stars + som de sino; encena: paga (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: comprando -> stars + som de sino; encena: paga (reach) @5 -> acao + som de efeito
 - Efeito visual marcado: stars@30, stars@80
 - Texto na tela: TODO MUNDO
 - Funcao na historia: GRANDE MOMENTO
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Ninguém queria a flor de verdade. Queriam vender o papel mais caro na semana seguinte, e ficar ricos.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: vender -> stars + som de sino; encena: negocio (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: vender -> stars + som de sino; encena: negocio (reach) @7 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Contam que um marinheiro comeu um bulbo no almoço, achando que era cebola. Valia uma fortuna.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: fortuna -> stars + som de sino; encena: x_come (lift) -> acao + som de efeito; encena: paga (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: fortuna -> stars + som de sino; encena: x_come (lift) @4 -> acao + som de efeito; encena: paga (reach) @15 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Acontece que, num leilão de fevereiro, o vendedor abriu os lances, e ninguém levantou a mão.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: negocio (reach) -> acao + som de efeito; encena: x_abre (push) -> acao + som de efeito; encena: pega (lift) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: negocio (reach) @3 -> acao + som de efeito; encena: x_abre (push) @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: LEILÃO
 - Funcao na historia: VIRADA
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: A notícia correu. Em poucos dias, todo mundo quis vender, e não havia mais comprador.
 - Som ambiente: birds
 - Efeitos sonoros marcados: sting@20, thump@40, thump@90
-- Efeito + som nas palavras-chave: correu -> dust + som de impacto; vender -> stars + som de sino; comprador -> stars + som de sino; encena: corre -> acao + som de efeito; encena: negocio (reach) -> acao + som de efeito; encena: paga (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: vender -> stars + som de sino; encena: negocio (reach) @9 -> acao + som de efeito
 - Efeito visual marcado: dust@40, puff@90
 - Texto na tela: PÂNICO
 - Funcao na historia: GRANDE MOMENTO
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Os preços desabaram. Quem tinha trocado a casa por flores ficou só com as flores, e as dívidas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: desaba -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: desaba @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: O marinheiro, pelo menos, almoçou bem.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_come (lift) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_come (lift) @4 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

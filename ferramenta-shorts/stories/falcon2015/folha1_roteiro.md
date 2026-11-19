@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Elon Musk queria reaproveitar os foguetes da SpaceX, como se reaproveita um avião. Muitos achavam impossível.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) shock -> expr + som de efeito; impossível -> ring + som de alerta; encena: duvida (shrug) -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) shock -> expr + som de efeito; impossível -> ring + som de alerta; encena: duvida (shrug) @15 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: As primeiras tentativas de pouso deram errado. Foguetes tombaram, e explodiram no mar.
 - Som ambiente: birds
 - Efeitos sonoros marcados: cannon@30, thump@50
-- Efeito + som nas palavras-chave: explodiram -> burst + som de tiro/explosao; encena: x_entrega (reach) -> acao + som de efeito; encena: desaba -> acao + som de efeito
+- Efeito + som nas palavras-chave: explodiram -> burst + som de tiro/explosao; encena: x_entrega (reach) @5 -> acao + som de efeito; encena: desaba @10 -> acao + som de efeito
 - Efeito visual marcado: burst@30, puff@50
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Mas a equipe insistiu. Em vinte e um de dezembro, o Falcon nove decolou levando satélites.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: voa (point) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: voa (point) @13 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: E pousou certinho no meio da plataforma, abrindo as pernas no último segundo.
 - Som ambiente: sea
 - Efeitos sonoros marcados: ding@30, thump@50
-- Efeito + som nas palavras-chave: encena: x_abre (push) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_abre (push) @7 -> acao + som de efeito
 - Efeito visual marcado: stars@30, puff@50
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Os funcionários da SpaceX gritaram como em final de Copa do Mundo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritaram -> ring + som de alerta; encena: grita (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritaram -> ring + som de alerta; encena: grita (up) @4 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: POUSOU!
 - Funcao na historia: GRANDE MOMENTO

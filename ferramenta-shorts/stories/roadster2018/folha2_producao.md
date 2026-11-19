@@ -64,10 +64,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - No painel, estava escrito: Não entre em pânico.
 - Cenario: street | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (1): STA (variante 0, expressao neutral) | multidao: 18 de POV
-- Animacao: encena | batalha encenada
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Personagens principais (1): STA (variante 0, expressao neutral) | multidao: 5 de POV
+- Animacao: conversar
 - Objetos/modelos: kit/roadster, kit/marco_canaveral
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): painel
 - RISCOS: nenhum
@@ -94,7 +94,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Um Roadster, um boneco e um aviso no painel: uma das maiores brincadei...
 - Cenario: harbor | luz: noite | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): MUS (variante 0, expressao laugh); ENG (variante 0, expressao smile); STA (variante 0, expressao grin) | multidao: 18 de POV
 - Animacao: comemorar | batalha encenada
@@ -115,7 +115,7 @@ kit/globe | b7 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/roadster | grandes momentos: b4, b6, b9 | planos abertos: 4 | mistura: close 16% | medio 59% | aberto 17% | detalhe 8%
+- Objeto heroi: kit/roadster | grandes momentos: b4, b9 | planos abertos: 3 | mistura: close 15% | medio 62% | aberto 15% | detalhe 8%
 - Interacoes: b0 avanca e o outro recua, b3 o outro se aproxima, b5 insiste, b7 vai ate o outro, b8 aproxima-se
 - RISCOS GERAIS: nenhum
 

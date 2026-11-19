@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Um químico inventou a cola mais fraca do mundo. E ela virou um dos produtos mais vendidos do planeta.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: encena: quimico (pour) -> acao + som de efeito; encena: negocio (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: quimico (pour) @1 -> acao + som de efeito; encena: negocio (reach) @16 -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 1968
 - Funcao na historia: GANCHO
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que saiu o contrário: uma cola que grudava, mas soltava fácil, sem deixar marca.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: encena: sai -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: sai @2 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Durante anos, ele mostrou a cola para todo mundo na empresa. Ninguém via utilidade.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @3 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Até que, em mil novecentos e setenta e quatro, o colega Art Fry estava cantando no coral da igreja.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_canta (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_canta (up) @14 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Os papeizinhos que marcavam as páginas do hinário viviam caindo no chão. E ele ficava perdido.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@30
-- Efeito + som nas palavras-chave: encena: desaba -> acao + som de efeito; encena: tomba -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: desaba @9 -> acao + som de efeito; encena: tomba @11 -> acao + som de efeito
 - Efeito visual marcado: puff@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Aí veio a ideia: marcadores com a cola fraca do Silver. Grudam, não caem, e saem sem rasgar a página.
 - Som ambiente: sea
 - Efeitos sonoros marcados: ding@20, sting@40
-- Efeito + som nas palavras-chave: encena: pensa (think) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: pensa (think) @3 -> acao + som de efeito
 - Efeito visual marcado: stars@20, ring@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Os dois se juntaram. E o papel saiu amarelo por acaso: era o único papel de rascunho que tinha no laboratório vizinho.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: sai -> acao + som de efeito; encena: quimico (pour) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: sai @7 -> acao + som de efeito; encena: quimico (pour) @20 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O primeiro teste de vendas foi um fracasso. Ninguém entendia para que servia um bloquinho que descolava.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: fracasso -> puff + som de baque; encena: negocio (reach) -> acao + som de efeito; encena: perde (facepalm) -> acao + som de efeito
+- Efeito + som nas palavras-chave: fracasso -> puff + som de baque; encena: negocio (reach) @4 -> acao + som de efeito; encena: perde (facepalm) @7 -> acao + som de efeito
 - Efeito visual marcado: ring@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Então distribuíram amostras de graça numa cidade inteira. Quase todo mundo que testou quis comprar mais.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: encena: negocio (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: negocio (reach) @14 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: POST-IT
 - Funcao na historia: GRANDE MOMENTO
@@ -105,7 +105,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Em mil novecentos e oitenta, o post-it chegou às lojas. Tudo graças a uma cola que deu errado.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: chegou -> dust + som de impacto; encena: chega (point) -> acao + som de efeito; encena: x_entrega (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: chegou -> dust + som de impacto; encena: chega (point) @7 -> acao + som de efeito; encena: x_entrega (reach) @16 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1980
 - Funcao na historia: FECHO/PIADA FINAL

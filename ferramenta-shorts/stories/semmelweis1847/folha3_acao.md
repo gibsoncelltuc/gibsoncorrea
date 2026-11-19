@@ -109,7 +109,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | provou (72.5s) | ACAO: x_come | leva a comida a boca | OK |
+| 1 | provou (72.5s) | ACAO: fala | aponta explicando | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | LAVE AS MÃOS | OK |
 
