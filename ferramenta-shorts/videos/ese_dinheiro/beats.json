@@ -68,6 +68,12 @@
     "PAD:0:shock",
     "POV:0:nervous"
    ],
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
    "say": "Primeira manhã: você chega na padaria e não tem como pagar o café.",
    "detalhe": false,
    "verificador": false
@@ -163,8 +169,7 @@
     "ding@30"
    ],
    "say": "Algumas eram tão pesadas que nunca saíam do lugar. Todo mundo só lembrava quem era o dono.",
-   "set": "harbor",
-   "detalhe": false
+   "set": "harbor"
   },
   {
    "shot": "crowd",
@@ -220,17 +225,10 @@
      -1.6,
      -0.5,
      1.0
-    ],
-    [
-     "kit/coin",
-     1.0,
-     -0.2,
-     1.3
     ]
    ],
    "acao": "conversar",
-   "say": "Em poucos meses, alguma coisa viraria o novo dinheiro: sal, ouro, ou até figurinha.",
-   "detalhe": true
+   "say": "Em poucos meses, alguma coisa viraria o novo dinheiro: sal, ouro, ou até figurinha."
   },
   {
    "shot": "close",
@@ -286,7 +284,7 @@
     "ding@60"
    ],
    "text": "DINHEIRO",
-   "titulo": false,
+   "titulo": true,
    "say": "Ou seja: dinheiro não é papel. É confiança entre as pessoas."
   },
   {

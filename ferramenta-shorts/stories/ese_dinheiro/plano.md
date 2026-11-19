@@ -14,5 +14,5 @@ b8 | close | -  | - | dinheiro (stars + som de sino); encena: paga (reach) @10 (
 b9 | orbit | -  | batalha aberta com tiros, tropa, placa: DINHEIRO | dinheiro (stars + som de sino); encena: paga (reach) @2 (acao + som de efeito) | -
 b10 | close | -  | - | - | -
 
-Mistura de planos: close 28% | medio 52% | aberto 15% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 28% | medio 50% | aberto 15% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

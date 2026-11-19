@@ -14,9 +14,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 ## Cena b1  (~4.5 s)
 - Narracao: Primeira manhã: você chega na padaria e não tem como pagar o café.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
+- Efeitos sonoros marcados: sting@30
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
+- Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
