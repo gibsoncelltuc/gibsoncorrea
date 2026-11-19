@@ -397,6 +397,7 @@ ENC = [(r'^(misturou|misturaram|misturando|mistura|misturar|mexeu|mexendo|mexia|
        (r'^(chao|nocauteado|nocaute|desmaiou|desmaiaram|tombou|tropecou|escorregou|derrubado|derrubada|derrubados)$', None, 'tomba'),
        (r'^(dormiam|dormia|dormindo|dormiu|cochilou|cochilavam|adormeceu|adormeceram)$', None, 'dorme'),
        (r'^(sentou|sentaram|sentado|sentada|sentados)$', None, 'senta'),
+       (r'^(morreu|morreram|morriam|morria|faleceu|faleceram|faleciam)$', None, 'morre'),   # 19/11: quem morre CAI (ou tumulo, se 'morreu em <ano>')
        (r'^(raspar|raspou|rasparam|raspada|raspado|careca|tosquiou)$', 'reach', 'raspa'),
        (r'^(enfrentou|enfrentaram|lutou|lutaram|lutando|brigaram|brigou|brigando|brigavam|golpe|golpes)$', 'punch', 'golpe'),
        (r'^(capturado|capturada|capturaram|capturou|preso|presa|presos|prenderam|prendeu|algemado|algemaram|detido|detidos)$', 'push', 'prende'),
@@ -422,7 +423,7 @@ ENC = [(r'^(misturou|misturaram|misturando|mistura|misturar|mexeu|mexendo|mexia|
        (r'^(pulou|pularam|pulando|pulava|pulavam|pular|pulasse|pulassem|pulam|pula|pulem|saltou|saltaram|saltando|saltar|saltasse|pulo|pulos|saltos?|quicou)$', None, 'pula'),
        (r'^(acenou|acenaram|acenando|tchau|despediu|despediram)$', 'wave2', 'acena'),
        (r'^(empurrou|empurraram|empurrando|puxou|puxaram|puxando|arrastou|arrastaram|arrastando)$', 'push', 'empurra'),
-       (r'^(deitou|deitaram|deitado|deitada|ajoelhou|ajoelharam|ajoelhado)$', None, 'senta'),
+       (r'^(deitou|deitaram|deitado|deitada|ajoelhou|ajoelharam|ajoelhado|ajoelhada|joelhos)$', None, 'senta'),
        (r'^(levantou-se|levantaram-se|levantou|ergueu-se)$', 'lift', 'pega'),
        (r'^(bebeu|beberam|bebendo|bebia|bebiam|tomou|tomaram|tomando|goles?|engoliu)$', 'lift', 'x_bebe'),
        (r'^(comeu|comeram|comendo|comia|comiam|almocou|jantou|devorou|mastigou|provou|experimentou)$', 'lift', 'x_come'),
@@ -675,6 +676,12 @@ for _b in beats:   # "entraram escondidos" -> alguem chega andando; "as luzes se
     if re.search(r'marchav|marcharam|marchou|marchando|desfil', _sy) and _EXERC and not _b.get('crowd'): _b['crowd'] = {'n': 10, 'outfits': [([w_.split(':')[0] for w_ in _b.get('who', []) if w_.split(':')[0] in _EXERC] or _EXERC)[0]], 'march': True}
     if re.search(r'danca|dancav|dancaram|dancou', _sy) and not _b.get('acao') and not re.search(_DANCA_OUTRO, _sy): _b['acao'] = 'dancar'
     if 'hora' not in _b and re.search(r'apagar|apagou|apagaram|escuridao|breu|semluz|blecaute|apagao', _sy): _b['hora'] = 'noite'
+_noite_ = 0   # CONTINUIDADE DA NOITE (19/11): "numa noite..." vale para as frases seguintes do mesmo episodio, ate a narracao mudar o tempo
+for _b in beats:
+    _sy = nrm(_b['say'])
+    if re.search(r'diasdepois|anosdepois|mesesdepois|semanasdepois|horasdepois|diaseguinte|amanhec|demanha|manhaseguinte|nascerdosol|aodia|durante odia|duranteodia|maistarde|tempodepois|ateh?oje|atehoje', _sy) or _b.get('hora') not in (None, 'noite') or _b.get('light') or _b.get('mapa'): _noite_ = 0
+    elif re.search(r'numanoite|naquelanoite|anoite|denoite|aquelanoite|madrugada|noescuro', _sy): _noite_ = 6
+    elif _noite_ > 0 and 'hora' not in _b and not _b.get('interior'): _b['hora'] = 'noite'; _noite_ -= 1
 # EMOCAO EM CLOSE + PEDIDO EM PLANO DE AMBIENTE (ordem do Gibson 19/11): "se a narracao diz que ele esta muito preocupado, close no personagem mostrando que esta preocupado";
 # "quando for fazer um pedido, mostrar a ambientacao com ele fazendo o pedido". 'emocao_close': false no beat (ou no arquivo) desliga.
 _EMO = re.compile(r'preocup|aflit|ansios|nervos|desconfi|suspeit|desesper|apavor|assust|triste|tristeza|chorou|choro|lagrima|furios|raiva|irritad|indignad|insatisf|frustr|decepcion|alegr|feliz|contente|emocion|orgulh|aliviad|surpres|chocad|espantad|determinad|decidid|envergonh|humilh|com medo|medo de|ciume|inveja')
@@ -734,7 +741,7 @@ def build_beat(k, b):
     if 'wind' in b: wx['wind'] = b['wind']
     who = b.get('who', []); animals = b.get('animals', []); props = b.get('props', [])
     wide_pre = shot in WIDE
-    if b.get('interior') and not b.get('light'): light = 'study_dark' if (b.get('hora') == 'noite' or re.search(r'apagou a luz|apagaram a luz|apagou as luzes|no escuro|escurid|luz apagada|a noite toda|madrugada|de noite|\bnoite\b', b['say'].lower())) else 'study'   # dentro de casa a noite/luz apagada: sala na penumbra
+    if b.get('interior') and not b.get('light'): light = 'study_dark' if (b.get('hora') == 'noite' or re.search(r'apagou a luz|apagaram a luz|apagou as luzes|no escuro|escurid|luz apagada|a noite toda|madrugada|de noite|\bnoites?\b', b['say'].lower())) else 'study'   # dentro de casa a noite/luz apagada: sala na penumbra
     mv = b.get('move', 8 if shot == 'track' else 0)
     a, bb = f'A[{k}]', f'A[{k + 1}] - 1'
     # elenco de pessoas
@@ -1087,6 +1094,7 @@ def build_beat(k, b):
         for n_e, (wi_, gest_, tipo_, j_) in enumerate(_encs[:6]):
             b.setdefault('_enc_words', []).append(nrm(_ws[j_]))
             _ate = f"WS({_encs[n_e + 1][0]}) - 4" if n_e + 1 < len(_encs[:6]) else f"WS({wi_}) + 46"
+            if tipo_ == 'corta' and re.search(r'dedo|bisturi|faca|tesoura|navalha|semachucou|mao', _sy_): gest_ = 'reach'   # corte no dedo: estende a mao machucada (nao martela)
             if gest_ and not (persons[0][3] == 'rifle' and tipo_ in ('pega', 'golpe')): _gst.setdefault(0, []).append(f"[WS({wi_}) - 4, {_ate}, '{gest_}']")
             mat_ = next((a_ for rx2_, a_ in ENC_MAT if re.search(rx2_, _resto(j_) + ' ' + nrm(b['say']))), None)
             if tipo_ == 'mistura':
@@ -1130,6 +1138,8 @@ def build_beat(k, b):
                 fx.append(f"{{ k: 'puff', a: WS({wi_}) + 6, b: WS({wi_}) + 30, at: [X + {num(_hx)}, DK + 1.3, {num(_z0 + 0.8)}], s: 0.6 }}"); KWSFX.append((wi_, 'tick'))
             elif tipo_ == 'golpe':
                 fx.append(f"{{ k: 'burst', a: WS({wi_}) + 4, b: WS({wi_}) + 22, at: [X + {num(sl[0] + _side * 1.6)}, DK + 2.0, {num(_z0 + 0.5)}], s: 1.0 }}"); KWSFX.append((wi_, 'thump'))
+            elif tipo_ == 'corta' and re.search(r'dedo|bisturi|faca|tesoura|navalha|semachucou|mao', _sy_):   # corte pequeno (dedo, bisturi): susto + estrelinhas na mao, sem machado nem toras
+                fx.append(f"{{ k: 'stars', a: WS({wi_}) + 2, b: WS({wi_}) + 26, at: [X + {num(sl[0] + 0.4)}, DK + 1.4, {num(_z0 + 0.3)}], s: 0.5 }}"); KWSFX.append((wi_, 'sting'))
             elif tipo_ == 'corta':
                 if 'kit/logs' not in ' '.join(pr): pr.append(f"{{ asset: 'kit/logs', a: WS({wi_}) - 6, b: {bb}, at: [X + {num(_tx)}, {num(_tz)}], s: 0.8, drop: false }}")
                 for q_ in range(3): fx.append(f"{{ k: 'dust', a: WS({wi_}) + {q_ * 9}, b: WS({wi_}) + {q_ * 9 + 16}, at: [X + {num(_tx)}, DK + 0.2, {num(_tz + 0.4)}], s: 0.5 }}")
@@ -1147,6 +1157,12 @@ def build_beat(k, b):
                 fx.append(f"{{ k: 'stars', a: WS({wi_}), b: WS({wi_}) + 26, at: [X + {num(sl[0])}, DK + 3.2, {num(_z0)}], s: 0.6 }}"); KWSFX.append((wi_, 'sting'))
             elif tipo_ == 'sai' and acts and acts[0].startswith(('pp(', 'Object.assign(pp(')):
                 _gst.setdefault('sai', []).append(f"move: [[X + {num(sl[0] - _side * 9)}, {num(_z0 - 0.6)}], WS({wi_}) + 2, WS({wi_}) + 70, 'lin'], walk: 'stroll'")
+            elif tipo_ == 'morre':
+                if re.search(r'porco|cavalo|vaca|cachorro|\bcao\b|animal|bicho|galinha|emu|urso|lobo|ovelha|cabra|boi|ganso', _sy_): pass   # animal morrendo: o bloco dos animais cuida
+                elif re.search(r'(morreu|faleceu)\s+(em|no ano)\s+(mil|\d)', unicodedata.normalize('NFKD', b['say'].lower()).encode('ascii', 'ignore').decode()):   # morte anos depois: tumulo com cruz e flores
+                    pr.append(f"{{ asset: 'kit/grave', a: {a}, b: {bb}, at: [X + {num(_hx + _side * 0.9)}, {num(_z0 - 0.4)}], s: 1.0, drop: false }}"); KWSFX.append((wi_, 'sting'))
+                else:
+                    _gst.setdefault(('poses', 0), []).append(f"[WS({wi_}) + 2, {bb}, 'fall']"); fx.append(f"{{ k: 'dust', a: WS({wi_}) + 4, b: WS({wi_}) + 30, at: [X + {num(sl[0] + 0.6)}, DK + 0.1, {num(_z0 + 0.3)}], s: 0.8 }}"); KWSFX.append((wi_, 'thump'))
             elif tipo_ in ('tomba', 'dorme', 'senta'):
                 _who_ = 1 if (tipo_ == 'tomba' and len(persons) > 1 and re.search(r'derrub|nocaute|golpe', _sy_) and not re.search(r'\bele foi ao chao', _sy_)) else 0
                 _ini_ = f"WS({wi_}) + 2" if tipo_ == 'tomba' else f"Math.max({a} + 6, WS({wi_}) - 36)"   # dormir/sentar comeca antes da palavra (palavra no fim da frase sumia)
@@ -1552,7 +1568,7 @@ _f1 += (['', '## Fontes (fatos conferidos)'] + [f'- {u_}' for u_ in B['fontes']]
 _ENC_DESC = {'mistura': 'mexe a panela (borbulhando)', 'cai': 'o material voa da mao e cai no alvo pela GRAVIDADE (parabola, 0,53 s) + respingo', 'calor': 'vapor/calor saindo', 'vira': 'o material vira o produto, que surge girando em destaque',
     'constroi': 'martela e o objeto cresce', 'examina': 'examina com lupa/microscopio/balanca', 'quimico': 'frasco e tubos de ensaio + fumacinha', 'escreve': 'escreve/assina', 'golpe': 'soco + estouro', 'pega': 'levanta/segura',
     'corta': 'machado e toras + poeira', 'voto': 'poe o voto na urna', 'quebra': 'quebra + estouro + tremor', 'desaba': 'desaba: nuvem de poeira + tremor', 'pensa': 'mao no queixo + brilho de ideia',
-    'protesto': 'punho para cima (protesto)', 'fala': 'aponta explicando', 'olha': 'aponta/olha', 'sai': 'sai andando pela lateral', 'tomba': 'cai sentado no chao + poeira', 'dorme': 'dormindo', 'senta': 'senta',
+    'protesto': 'punho para cima (protesto)', 'fala': 'aponta explicando', 'olha': 'aponta/olha', 'sai': 'sai andando pela lateral', 'tomba': 'cai sentado no chao + poeira', 'morre': 'cai no chao (ou tumulo se morreu anos depois)', 'dorme': 'dormindo', 'senta': 'senta',
     'raspa': 'maquina na cabeca + cabelo voando', 'prende': 'empurra/prende', 'escala': 'escala (bracos para cima)', 'espeta': 'espeta + estouro', 'bola': 'chuta a bola: parabola pela GRAVIDADE (0,67 s)', 'negocio': 'moeda girando (compra/venda)',
     'tira': 'tira foto (celular + flash)', 'rende': 'maos para cima (rendicao)', 'voa': 'decola: poeira no chao, olha para cima', 'cava': 'cava: poeira', 'vence': 'bracos para cima + brilho', 'perde': 'mao na testa',
     'toca': 'onda de som (sirene/sino)', 'queima': 'fogo + fumaca', 'grita': 'grita de bracos para cima', 'atira': 'arma na mao, aponta, clarao e som de tiro', 'corre': 'sai correndo pela lateral + poeira', 'pula': f'pula 2 vezes: sobe {GPULO_H} m e volta pela GRAVIDADE em {GPULO_T:.2f} s cada pulo', 'acena': 'acena com a mao', 'empurra': 'empurra/puxa', 'brilha': 'o objeto brilha na palavra (ondas de luz + estrelas)',

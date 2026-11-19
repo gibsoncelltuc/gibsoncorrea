@@ -14,11 +14,11 @@ b6 | countryside | orbit | 19 | conversar, batalha | kit/marco_viena, kit/campfi
 b7 | countryside | crowd | 33 | reagir, batalha | kit/marco_viena, buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
 b8 | countryside | group | 7 | reagir, INTERAGEM: susto | cannon, kit/marco_viena | - | -
 b9 | countryside | group | 7 | reagir, INTERAGEM: avanca e o outro recua, alguem chega andando | crate, barrel, kit/marco_viena, kit/campfire, kit/tent | spyglass | -
-b10 | countryside | close | 1 | conversar | kit/marco_viena | - | -
+b10 | countryside | two | 2 | comemorar, INTERAGEM: pular | kit/marco_viena | - | -
 
 OBJETO HEROI: kit/barrel_r - aparece em 1 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 3 -> b0, b6, b7
-Interacoes entre personagens: b3 aproxima-se, b4 brindar, b5 empurrar, b8 susto, b9 avanca e o outro recua
+Interacoes entre personagens: b3 aproxima-se, b4 brindar, b5 empurrar, b8 susto, b9 avanca e o outro recua, b10 pular
 
 Cenas com personagens parados: 0 de 11
 FALTA MODELAR: nada

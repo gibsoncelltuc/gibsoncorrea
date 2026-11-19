@@ -33,7 +33,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - Não acharam turco nenhum. Acharam moradores vendendo aguardente.
-- Cenario: countryside | luz: dusk | clima: limpo
+- Cenario: countryside | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): HUS (variante 0, expressao shock); LOC (variante 0, expressao grin, segura bottle)
@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Compraram tudo, beberam, e a festa começou.
-- Cenario: countryside | luz: dusk | clima: limpo
+- Cenario: countryside | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa
 - Personagens principais (2): HUS (variante 0, expressao laugh, segura mug); HUS (variante 1, expressao grin, segura bottle)
@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Aí chegou a infantaria, querendo a parte dela. "Não tem pra vocês", di...
-- Cenario: countryside | luz: dusk | clima: limpo
+- Cenario: countryside | luz: noite | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 5 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (3): AUT (variante 0, expressao stern); HUS (variante 0, expressao laugh); AUT (variante 1, expressao shock) | multidao: 5 de AUT/HUS/TUR
@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Acontece que ninguém entendia a língua do vizinho. Todo mundo atirava ...
-- Cenario: countryside | luz: dusk | clima: limpo
+- Cenario: countryside | luz: noite | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): AUT (variante 0, expressao shock); AUT (variante 1, expressao pained); HUS (variante 0, expressao shock) | multidao: 30 de 
@@ -83,7 +83,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - Um oficial mandou usar a artilharia, e os canhões dispararam contra o ...
-- Cenario: countryside | luz: dusk | clima: limpo
+- Cenario: countryside | luz: noite | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): OFF (variante 0, expressao shock); AUT (variante 0, expressao pained) | multidao: 5 de OFF/AUT/TUR
@@ -104,10 +104,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b10 - Os turcos venceram sem dar um único tiro.
 - Cenario: countryside | luz: dawn | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (1): OFF (variante 0, expressao pained)
-- Animacao: conversar
+- Personagens principais (2): TUR (variante 0, expressao laugh); TUR (variante 1, expressao grin)
+- Animacao: comemorar | interacao: pular
 - Objetos/modelos: kit/marco_viena
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): turcos
 - RISCOS: nenhum
@@ -131,8 +131,8 @@ crate | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote
 
 
 ## Video inteiro
-- Objeto heroi: kit/barrel_r | grandes momentos: b0, b6, b7 | planos abertos: 4 | mistura: close 10% | medio 62% | aberto 20% | detalhe 7%
-- Interacoes: b3 aproxima-se, b4 brindar, b5 empurrar, b8 susto, b9 avanca e o outro recua
+- Objeto heroi: kit/barrel_r | grandes momentos: b0, b6, b7 | planos abertos: 4 | mistura: close 5% | medio 67% | aberto 20% | detalhe 7%
+- Interacoes: b3 aproxima-se, b4 brindar, b5 empurrar, b8 susto, b9 avanca e o outro recua, b10 pular
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
