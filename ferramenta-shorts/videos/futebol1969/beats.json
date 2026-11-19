@@ -123,18 +123,29 @@
     "ding@30",
     "thump@70"
    ],
-   "say": "No primeiro, Honduras venceu em casa. A torcida passou a noite batendo panelas na porta do hotel dos visitantes."
+   "say": "No primeiro, Honduras venceu em casa. A torcida passou a noite batendo panelas na porta do hotel dos visitantes.",
+   "hora": "dia"
   },
   {
-   "shot": "two",
+   "shot": "group",
    "who": [
     "TOR:0:angry",
-    "TOR:1:shout"
+    "TOR:1:shout",
+    "TOR:2:angry",
+    "TOR:3:shout"
    ],
    "interacao": "empurrar",
    "acao": "discutir",
    "say": "No segundo, El Salvador revidou. Torcedores se empurraram nas ruas, e os dois governos trocaram insultos.",
-   "hora": "dia"
+   "hora": "dia",
+   "fx": [
+    "burst@45",
+    "burst@75"
+   ],
+   "sfx": [
+    "thump@45",
+    "thump@75"
+   ]
   },
   {
    "shot": "two",

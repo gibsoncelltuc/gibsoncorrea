@@ -8,7 +8,7 @@ b0 | stadium | two | 2 | discutir, INTERAGEM: discutir, alguem chega andando | k
 b1 | street | reveal | 10 | discutir | kit/volcano, buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
 b2 | stadium | two | 2 | conversar, INTERAGEM: aproxima-se, alguem chega andando | kit/ball | - | -
 b3 | stadium | crowd | 32 | comemorar, batalha | kit/kettle, buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
-b4 | street | two | 2 | discutir, INTERAGEM: empurrar | kit/volcano | - | -
+b4 | street | group | 4 | discutir, INTERAGEM: empurrar | kit/volcano | - | -
 b5 | interior madeira | two | 2 | reagir, INTERAGEM: susto | - | paper | -
 b6 | stadium | group | 3 | comemorar, INTERAGEM: pular | kit/ball | - | -
 b7 | street | orbit | 22 | batalha | vehicles/tank, vehicles/airplane, kit/volcano | - | -

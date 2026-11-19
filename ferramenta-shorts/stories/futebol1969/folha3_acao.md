@@ -45,7 +45,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 6 | - | ATUACAO | comemorar | OK |
 | 7 | - | PLACA | 1 x 0 | OK |
 
-## Cena b4 - 25.3s a 31.4s - 16 palavras - plano two
+## Cena b4 - 25.3s a 31.4s - 16 palavras - plano group
 > "No segundo, El Salvador revidou. Torcedores se empurraram nas ruas, e os dois governos trocaram insultos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

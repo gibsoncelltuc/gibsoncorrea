@@ -41,9 +41,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 ## Cena b4  (~5.5 s)
 - Narracao: No segundo, El Salvador revidou. Torcedores se empurraram nas ruas, e os dois governos trocaram insultos.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
+- Efeitos sonoros marcados: thump@45, thump@75
 - Efeito + som nas palavras-chave: encena: empurra (push) @7 -> acao + som de efeito
-- Efeito visual marcado: -
+- Efeito visual marcado: burst@45, burst@75
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
