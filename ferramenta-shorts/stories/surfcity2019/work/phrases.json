@@ -1,6 +1,6 @@
 {
- "duration": 52.44,
- "frames30": 1573,
+ "duration": 52.416,
+ "frames30": 1572,
  "source": "silence-align (cost 0.45)",
  "segments": [
   [
@@ -12,8 +12,8 @@
    4.41617
   ],
   [
-   5.23692,
-   5.67325
+   5.23704,
+   5.69121
   ],
   [
    5.9665,
@@ -24,7 +24,7 @@
    9.30396
   ],
   [
-   9.5125,
+   9.51137,
    9.96588
   ],
   [
@@ -33,7 +33,7 @@
   ],
   [
    12.0364,
-   13.6978
+   13.7096
   ],
   [
    13.9682,
@@ -45,7 +45,7 @@
   ],
   [
    19.5165,
-   20.996
+   20.9959
   ],
   [
    21.8552,
@@ -53,10 +53,10 @@
   ],
   [
    23.1249,
-   25.3948
+   25.3917
   ],
   [
-   25.5802,
+   25.5801,
    26.4432
   ],
   [
@@ -72,32 +72,32 @@
    32.8746
   ],
   [
-   33.7213,
-   37.5099
+   33.7299,
+   37.4915
   ],
   [
-   38.3556,
-   41.1838
+   38.3442,
+   41.1747
   ],
   [
-   42.0347,
-   43.096
+   42.0233,
+   43.0846
   ],
   [
-   43.3966,
-   45.5556
+   43.3853,
+   45.5441
   ],
   [
-   46.396,
-   48.0964
+   46.3846,
+   48.0943
   ],
   [
-   48.3595,
-   49.3056
+   48.3481,
+   49.2943
   ],
   [
-   49.5713,
-   51.6259
+   49.56,
+   51.6144
   ]
  ],
  "phrases": [
@@ -114,7 +114,7 @@
   {
    "text": "O plano:",
    "s": 5.237,
-   "e": 5.673
+   "e": 5.691
   },
   {
    "text": "mostrar as praias de La Libertad,",
@@ -128,7 +128,7 @@
   },
   {
    "text": "ao mundo.",
-   "s": 9.512,
+   "s": 9.511,
    "e": 9.966
   },
   {
@@ -139,7 +139,7 @@
   {
    "text": "o pa\u00eds sediou o Mundial de Surfe,",
    "s": 12.036,
-   "e": 13.698
+   "e": 13.71
   },
   {
    "text": "com duzentos e cinquenta e sete atletas.",
@@ -164,7 +164,7 @@
   {
    "text": "vieram duzentos e noventa e quatro competidores,",
    "s": 23.125,
-   "e": 25.395
+   "e": 25.392
   },
   {
    "text": "de olho em Paris.",
@@ -187,39 +187,39 @@
    "e": 32.875
   },
   {
-   "text": "Cr\u00edticos dizem que as obras na costa preocupam moradores e ambientalistas.",
-   "s": 33.721,
-   "e": 37.51
+   "text": "Cr\u00edticos dizem que o projeto na costa preocupa moradores e ambientalistas.",
+   "s": 33.73,
+   "e": 37.492
   },
   {
    "text": "A Surf City dois leva o projeto para o leste do pa\u00eds.",
-   "s": 38.356,
-   "e": 41.184
+   "s": 38.344,
+   "e": 41.175
   },
   {
    "text": "Em dois mil e vinte e cinco,",
-   "s": 42.035,
-   "e": 43.096
+   "s": 42.023,
+   "e": 43.085
   },
   {
    "text": "o Mundial voltou a La Bocana e El Sunzal.",
-   "s": 43.397,
-   "e": 45.556
+   "s": 43.385,
+   "e": 45.544
   },
   {
    "text": "Entre n\u00fameros otimistas e d\u00favidas,",
-   "s": 46.396,
-   "e": 48.096
+   "s": 46.385,
+   "e": 48.094
   },
   {
    "text": "uma coisa \u00e9 certa:",
-   "s": 48.359,
-   "e": 49.306
+   "s": 48.348,
+   "e": 49.294
   },
   {
    "text": "El Salvador virou assunto entre surfistas.",
-   "s": 49.571,
-   "e": 51.626
+   "s": 49.56,
+   "e": 51.614
   }
  ]
 }

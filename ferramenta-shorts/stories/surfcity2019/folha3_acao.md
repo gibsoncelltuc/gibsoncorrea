@@ -61,7 +61,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | discutir | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b7 - 38.4s a 41.0s - 12 palavras - plano two
+## Cena b7 - 38.3s a 41.0s - 12 palavras - plano two
 > "A Surf City dois leva o projeto para o leste do país."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -78,7 +78,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | aproxima-se | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 46.4s a 51.2s - 15 palavras - plano close
+## Cena b9 - 46.4s a 51.1s - 15 palavras - plano close
 > "Entre números otimistas e dúvidas, uma coisa é certa: El Salvador virou assunto entre surfistas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
