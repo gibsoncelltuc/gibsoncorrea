@@ -199,9 +199,9 @@
    "tat": 8,
    "tstyle": "gold",
    "crowd": {
-    "n": 12,
+    "n": 6,
     "outfit": "AUS",
-    "march": false
+    "march": true
    }
   },
   {
@@ -235,11 +235,12 @@
    "shot": "two",
    "who": [
     "FARM:0:smile",
-    "FARM:1:grin"
+    "FARM:1:grin:money"
    ],
    "text": "RECOMPENSA",
    "tat": 9,
-   "light": "golden"
+   "light": "golden",
+   "interacao": "entregar"
   },
   {
    "say": "Humanos, zero. Emus, um.",

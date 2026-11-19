@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 02 - A Guerra dos Emus
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 55 acoes catalogadas, 55 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 54 acoes catalogadas, 54 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.7s - 11 palavras - plano two
@@ -114,8 +114,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | pagar (58.7s) | ACAO: paga | estende a mao com moedas + brilho | OK |
 | 5 | recompensa (58.9s) | EFEITO: stars | estrelinhas + som | OK |
 | 6 | - | INTERACAO | entregar | OK |
-| 7 | - | ATUACAO | conversar | OK |
-| 8 | - | PLACA | RECOMPENSA | OK |
+| 7 | - | PLACA | RECOMPENSA | OK |
 
 ## Cena b10 - 62.2s a 65.0s - 4 palavras - plano close
 > "Humanos, zero. Emus, um."
