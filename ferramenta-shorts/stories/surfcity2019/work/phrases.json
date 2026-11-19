@@ -5,7 +5,7 @@
  "segments": [
   [
    0.16175,
-   1.11254
+   1.11383
   ],
   [
    1.42837,
@@ -13,7 +13,7 @@
   ],
   [
    5.23692,
-   5.692
+   5.67325
   ],
   [
    5.9665,
@@ -21,10 +21,10 @@
   ],
   [
    7.81787,
-   9.30396
+   9.304
   ],
   [
-   9.51271,
+   9.5125,
    9.96588
   ],
   [
@@ -33,7 +33,7 @@
   ],
   [
    12.0364,
-   13.6989
+   13.6977
   ],
   [
    13.9682,
@@ -53,7 +53,7 @@
   ],
   [
    23.1249,
-   25.3909
+   25.395
   ],
   [
    25.5801,
@@ -73,11 +73,11 @@
   ],
   [
    33.7213,
-   37.5069
+   37.5057
   ],
   [
    38.3556,
-   41.1846
+   41.1848
   ],
   [
    42.0347,
@@ -85,7 +85,7 @@
   ],
   [
    43.3966,
-   45.5555
+   45.5556
   ],
   [
    46.396,
@@ -104,7 +104,7 @@
   {
    "text": "Em dois mil e dezenove,",
    "s": 0.162,
-   "e": 1.113
+   "e": 1.114
   },
   {
    "text": "o presidente Nayib Bukele lan\u00e7ou a Surf City El Salvador.",
@@ -114,7 +114,7 @@
   {
    "text": "O plano:",
    "s": 5.237,
-   "e": 5.692
+   "e": 5.673
   },
   {
    "text": "mostrar as praias de La Libertad,",
@@ -128,7 +128,7 @@
   },
   {
    "text": "ao mundo.",
-   "s": 9.513,
+   "s": 9.512,
    "e": 9.966
   },
   {
@@ -139,7 +139,7 @@
   {
    "text": "o pa\u00eds sediou o Mundial de Surfe,",
    "s": 12.036,
-   "e": 13.699
+   "e": 13.698
   },
   {
    "text": "com duzentos e cinquenta e sete atletas.",
@@ -164,7 +164,7 @@
   {
    "text": "vieram duzentos e noventa e quatro competidores,",
    "s": 23.125,
-   "e": 25.391
+   "e": 25.395
   },
   {
    "text": "de olho em Paris.",
@@ -189,7 +189,7 @@
   {
    "text": "Cr\u00edticos dizem que as obras na costa preocupam moradores e ambientalistas.",
    "s": 33.721,
-   "e": 37.507
+   "e": 37.506
   },
   {
    "text": "A Surf City dois leva o projeto para o leste do pa\u00eds.",
