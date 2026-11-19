@@ -10,7 +10,7 @@ b4 | crowd | -  | batalha aberta com tiros, tropa, placa: PULOU! | encena: pula 
 b5 | low | -  | - | - | -
 b6 | two | -  | - | - | -
 b7 | two | -  | - | encena: pula @6 (acao + som de efeito) | -
-b8 | two | -  | interior, objeto na mao | - | -
+b8 | two | -  | objeto na mao | - | -
 b9 | orbit | -  | batalha aberta com tiros, tropa, placa: VOOU? | (rosto) distrust (expr + som de efeito) | -
 b10 | close | -  | - | encena: pula @5 (acao + som de efeito) | -
 
