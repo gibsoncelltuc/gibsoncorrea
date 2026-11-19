@@ -1520,6 +1520,7 @@ export const bodyFront = (p, o, opts)=>{
             throw: (s)=>{ const k = Math.min(1, gt * 2.2); return s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.5 + 0.3 * k, -0.3 + 0.35 * k), Q(s, 0.34 + 0.9 * k, -0.86 + 0.9 * k)], front: false } : null; },
             hammer: (s)=>{ const k = Math.abs(Math.sin(gt * 7)); return s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.7, -0.1 + 0.2 * k), Q(s, 0.86, -0.62 + 0.9 * k)], front: false } : null; },
             write: (s)=>s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.6, 0.36), Q(s, 0.44 + 0.08 * Math.sin(gt * 14), 0.36 + 0.03 * Math.cos(gt * 14))], front: true } : null,
+            eat: (s)=>s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.62, 0.1), Q(s, 0.16, -0.36 + 0.06 * Math.sin(gt * 13))], front: true, top: true, food: true } : null,   /* COMER (19/11): leva a comida a boca e mastiga */
             lift: (s)=>({ pts: [Q(s, 0.36, 0.12), Q(s, 0.6, -0.2), Q(s, 0.42, -0.62 + wob)], front: false }),
             push: (s)=>({ pts: [Q(s, 0.36, 0.12), Q(s, 0.7, 0.12), Q(s, 1.04, 0.06 + wob)], front: true }),
             punch: (s)=>{ const k = Math.max(0, Math.sin(gt * 8)); return s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.6 + 0.2 * k, 0.1), Q(s, 0.7 + 0.62 * k, 0.0)], front: true } : null; },
@@ -1533,7 +1534,7 @@ export const bodyFront = (p, o, opts)=>{
                 if (!ga) continue;
                 const base = s < 0 ? arms[0] : arms[arms.length - 1];
                 const pts = mixp(base.pts, ga.pts);
-                const entry = { pts, front: ga.front && kk > 0.35, top: !!ga.top && kk > 0.35 };
+                const entry = { pts, front: ga.front && kk > 0.35, top: !!ga.top && kk > 0.35, food: !!ga.food && kk > 0.35 };
                 if (s < 0) arms[0] = entry; else arms[arms.length - 1] = entry;
             }
         }
@@ -1562,6 +1563,7 @@ export const bodyFront = (p, o, opts)=>{
     const drawArm = (a)=>{
         p.stroke(curve(a.pts[0], a.pts[1], a.pts[2]), 5.2 * u, armCol);
         if (o.hold && a === (arms.find((q)=>q.front) || arms[arms.length - 1])) drawHeld(a.pts[2][0], a.pts[2][1]);
+        if (a.food) { const fx = a.pts[2][0], fy = a.pts[2][1] - 4 * u; p.dot(fx, fy, 11 * u, INK); p.dot(fx, fy, 9 * u, '#e8d9a8'); p.dot(fx - 3 * u, fy - 3 * u, 3 * u, '#fff6d8'); p.band([[fx, fy - 9 * u], [fx + 2 * u, fy - 16 * u]], '#6aa84f', 3 * u, 1.2 * u, 'round'); }   /* bulbo/cebola na mao ao comer */
         p.dot(a.pts[2][0], a.pts[2][1], 5.5 * u);
         if (o.gloves) { p.dot(a.pts[2][0], a.pts[2][1], 15 * u, INK); p.dot(a.pts[2][0], a.pts[2][1], 12.8 * u, o.gloves); p.dot(a.pts[2][0] - 3 * u, a.pts[2][1] - 4 * u, 3.5 * u, mix(o.gloves, '#ffffff', 0.45)); }   /* LUVA DE BOXE */
     };
