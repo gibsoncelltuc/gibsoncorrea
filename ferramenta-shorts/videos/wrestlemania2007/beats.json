@@ -108,7 +108,8 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Antes de virar presidente, Donald Trump entrou num ringue de luta livre, e raspou a cabeça de outro bilionário."
+   "say": "Antes de virar presidente, Donald Trump entrou num ringue de luta livre, e raspou a cabeça de outro bilionário.",
+   "detalhe": false
   },
   {
    "shot": "reveal",
@@ -150,7 +151,8 @@
    "sfx": [
     "sting@40"
    ],
-   "say": "A aposta era maluca: cada um escolheu um lutador, e o dono de quem perdesse teria a cabeça raspada."
+   "say": "A aposta era maluca: cada um escolheu um lutador, e o dono de quem perdesse teria a cabeça raspada.",
+   "detalhe": false
   },
   {
    "shot": "crowd",
@@ -201,7 +203,8 @@
    "sfx": [
     "thump@30"
    ],
-   "say": "No ringue, o lutador de Trump, Bobby Lashley, enfrentou o gigante Umaga, do lado de McMahon."
+   "say": "No ringue, o lutador de Trump, Bobby Lashley, enfrentou o gigante Umaga, do lado de McMahon.",
+   "detalhe": false
   },
   {
    "shot": "low",
@@ -294,9 +297,10 @@
    "say": "Trump e Lashley seguraram McMahon, e passaram a máquina de raspar na cabeça dele."
   },
   {
-   "shot": "close",
+   "shot": "two",
    "who": [
-    "VIB:0:cry"
+    "VIB:0:cry",
+    "TRU:0:laugh"
    ],
    "props": [
     [
@@ -312,7 +316,9 @@
    "sfx": [
     "sting@20"
    ],
-   "say": "O dono da luta livre saiu do ringue completamente careca."
+   "say": "O dono da luta livre saiu do ringue completamente careca.",
+   "shot_lock": true,
+   "detalhe": false
   },
   {
    "shot": "two",
