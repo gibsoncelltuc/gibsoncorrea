@@ -129,26 +129,25 @@
    "acao": "nenhuma"
   },
   {
-   "shot": "group",
+   "shot": "two",
    "who": [
     "MUS:0:grin:flag",
-    "MUS:1:laugh",
     "PRE:0:grin"
    ],
    "text": "PALCO",
-   "say": "Acontece que a cidade levou isso a sério. Construiu um palco, e contratou músicos para animar a multidão.",
+   "say": "Acontece que a cidade levou isso a sério. Construiu um palco, e contratou músicos para animar o povo.",
    "props": [
     [
      "war/drum",
-     -1.5,
-     -0.5,
+     -1.8,
+     -0.2,
      1.0
     ],
     [
      "kit/podium",
-     1.6,
-     -0.6,
-     1.5,
+     1.2,
+     -1.6,
+     1.9,
      {
       "drop": true
      }
@@ -175,7 +174,9 @@
    ],
    "set": "medieval",
    "fachada": false,
-   "objetos": false
+   "objetos": false,
+   "shot_lock": true,
+   "batalha": false
   },
   {
    "shot": "two",

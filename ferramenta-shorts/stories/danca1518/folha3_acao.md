@@ -57,15 +57,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | avanca e o outro recua | OK |
 | 4 | - | ATUACAO | reagir | OK |
 
-## Cena b5 - 31.1s a 36.9s - 18 palavras - plano crowd
-> "Acontece que a cidade levou isso a sério. Construiu um palco, e contratou músicos para animar a multidão."
+## Cena b5 - 31.1s a 36.9s - 18 palavras - plano two
+> "Acontece que a cidade levou isso a sério. Construiu um palco, e contratou músicos para animar o povo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | Construiu (34.1s) | ACAO: constroi | martela e o objeto cresce | OK |
 | 2 | músicos (35.8s) | EFEITO: stars | estrelinhas + som | OK |
 | 3 | músicos (35.8s) | ACAO: danca | danca de bracos para cima | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | INTERACAO | discutir | OK |
 | 5 | - | ATUACAO | construir | OK |
 | 6 | - | PLACA | PALCO | OK |
 
@@ -81,16 +81,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | dança (42.0s) | EFEITO: stars | estrelinhas + som | OK |
 | 6 | dança (42.0s) | ACAO: danca | danca de bracos para cima | OK |
 | 7 | desmaiaram (43.1s) | ACAO: tomba | cai sentado no chao + poeira | OK |
-| 8 | - | INTERACAO | discutir | OK |
+| 8 | - | INTERACAO | o outro se aproxima | OK |
 | 9 | - | ATUACAO | dancar | OK |
 | 10 | - | CHEGADA | alguem entra andando | OK |
 
-## Cena b7 - 45.0s a 49.4s - 15 palavras - plano two
+## Cena b7 - 45.0s a 49.4s - 15 palavras - plano crowd
 > "As crônicas da época falam em mortes, mas os historiadores discutem quantas foram de verdade."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | o outro se aproxima | OK |
+| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 2 | - | ATUACAO | reagir | OK |
 
 ## Cena b8 - 50.6s a 54.9s - 15 palavras - plano track
