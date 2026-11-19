@@ -2,11 +2,11 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | placa: 1912 | impossível (ring + som de alerta); Afundou (dust + som de impacto) | -
+b0 | two | -  | placa: 1912 | (rosto) shock (expr + som de efeito); impossível (ring + som de alerta); Afundou (dust + som de impacto) | -
 b1 | reveal | -  | tropa, mapa | - | -
-b2 | two | noite  | - | gritou: (ring + som de alerta) | -
+b2 | two | noite  | - | (rosto) shout (expr + som de efeito); gritou: (ring + som de alerta) | -
 b3 | close | noite  | - | - | -
-b4 | crowd | noite  | batalha aberta com tiros, tropa, placa: BOTES | morreram (puff + som de baque) | -
+b4 | crowd | noite  | batalha aberta com tiros, tropa, placa: BOTES | (rosto) sad (expr + som de efeito); morreram (puff + som de baque) | -
 b5 | two | -  | objeto na mao | - | -
 b6 | two | -  | - | - | -
 b7 | close | -  | - | - | -

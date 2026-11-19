@@ -150,3 +150,14 @@ cil((0, .85, 0), .55, .45, '#cfe8f6', raio_topo=.15, lados=7); cil((.5, .78, .1)
 cil((0, 1.25, 0), .3, .5, '#ffffff', raio_topo=.02, lados=6)
 cil((-.35, .35, .1), .5, .3, '#b8dcf2', raio_topo=.7, lados=8)
 fim()
+novo('titanic')            # transatlantico Titanic: casco preto com faixa branca e vermelha embaixo, superestrutura branca, 4 chamines amarelas com topo preto, mastros
+bola((0, .78, 0), 1.0, '#15151a', esc=(3.6, .3, .6))                       # casco preto arredondado (proa e popa)
+caixa((0, .62, 0), (6.0, .5, 1.12), '#15151a')                               # corpo central do casco
+caixa((0, .39, 0), (6.1, .1, 1.16), '#a8261f')                               # faixa vermelha na linha dagua
+caixa((0, .93, 0), (6.1, .08, 1.14), '#f4f1e8')                              # faixa branca do convés
+caixa((0, 1.2, 0), (5.2, .5, .95), '#f4f1e8'); caixa((0, 1.5, 0), (4.4, .22, .8), '#ece6d6'); caixa((-.4, 1.72, 0), (2.6, .2, .6), '#f4f1e8')   # decks brancos empilhados
+for i in range(14): caixa((-2.4 + i * .36, 1.2, .485), (.12, .12, .02), '#2a3a52'); caixa((-2.4 + i * .36, 1.2, -.485), (.12, .12, .02), '#2a3a52')   # janelinhas
+for i, x in enumerate((-1.5, -.5, .5, 1.5)): cil((x, 2.1, 0), .24, .9, '#e8b830', raio_topo=.22, lados=14); cil((x, 2.58, 0), .245, .16, '#15151a', lados=14)   # 4 chamines amarelas, topo preto
+cil((2.3, 2.0, 0), .03, 1.6, '#8a6a4a'); cil((-2.6, 1.9, 0), .03, 1.4, '#8a6a4a')   # mastros
+caixa((2.6, 1.0, 0), (.7, .3, .6), '#e0d8c4')
+fim()

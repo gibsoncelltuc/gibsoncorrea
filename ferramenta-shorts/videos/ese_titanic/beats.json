@@ -81,10 +81,10 @@
    "mapa_at": 3,
    "props": [
     [
-     "ship",
+     "kit/titanic",
      0,
      -14.0,
-     1.0
+     1.3
     ]
    ],
    "say": "Abril de mil novecentos e doze. O Titanic levava mais de duas mil pessoas para Nova York."
@@ -203,10 +203,10 @@
    ],
    "props": [
     [
-     "ship",
+     "kit/titanic",
      2.0,
      -12.0,
-     0.9
+     1.3
     ]
    ],
    "interacao": "cochichar",
@@ -233,7 +233,8 @@
     "sting@20",
     "ding@50"
    ],
-   "say": "Por causa do naufrágio, os países fizeram em mil novecentos e catorze o primeiro grande tratado de segurança no mar: bote para todos."
+   "say": "Por causa do naufrágio, os países fizeram em mil novecentos e catorze o primeiro grande tratado de segurança no mar: bote para todos.",
+   "set": "harbor"
   },
   {
    "shot": "two",
@@ -278,10 +279,10 @@
    },
    "props": [
     [
-     "ship",
+     "kit/titanic",
      0,
      -14.0,
-     1.0
+     1.3
     ]
    ],
    "fx": [
@@ -312,5 +313,7 @@
    "acao": "conversar",
    "say": "Às vezes, o pior dia da história é o que deixa o futuro mais seguro."
   }
- ]
+ ],
+ "ano": 1912,
+ "regiao": "europa"
 }

@@ -160,5 +160,11 @@ false
 "kit/sink",
 1.6,
 false
+],
+[
+"\\btitanic\\b",
+"kit/titanic",
+1.3,
+false
 ]
 ]
