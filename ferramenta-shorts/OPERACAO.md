@@ -158,3 +158,14 @@ Quadrado só o que é quadrado de verdade: placa, casa, caixote, mesa, livro. To
 - **Multidao**: "milhares, lotado, multidao, torcida, plateia, povo, protesto" -> 30 pessoas com rostos variados. **Estadio**: arquibancada LOTADA de torcedores pulando com os bracos para cima (automatico no set "stadium").
 - **Lugar exato (marco ao fundo)** pelo titulo/mapa/comeco da narracao: Egito (piramides), Cabo Canaveral, Londres, Paris, Nova York, Roma, Rio, Casa Branca/Washington, Capitolio, Hollywood, Sao Francisco, Berlim, Pisa/Toscana, Viena, Bruxelas, Suica/Alpes, maias/Chichen Itza, Moscou, Sydney, Istambul/Teera (mesquita), Olinda/Recife colonial. Desligar: `"marco": false`. Cidade sem marco usa os predios tipicos da regiao (`"regiao"`).
 - **Animais** com anatomia (12 especies + cavalo e cavalo com sela). Animal continua NUNCA modelado por roteirista.
+
+## FERRAMENTA v3 (19/11 tarde) — A CENA FAZ O QUE A NARRACAO CONTA (encenacao automatica, frase por frase)
+- Cada verbo de ACAO/PROCESSO da frase vira gesto do personagem NA PALAVRA + objeto + efeito + som (tabela ENC no mkvideo):
+  misturou/mexeu -> mexe a panela (no fogao, se houver) + po (enxofre/farinha) + bolhas | caiu/jogou/derramou -> o material voa da mao e cai no alvo (fogao, panela) + respingo |
+  esquentou/ferveu/fogao/forno -> vapor saindo | virou/endureceu/nasceu/criou (com material ou produto na frase) -> o material some e o PRODUTO surge girando e vem para a frente (destaque) |
+  construiu/montou -> martela e o objeto cresce | examinou/observou/mediu -> lupa/microscopio/balanca | quimico/experiencia/laboratorio -> frasco + tubos + fumacinha | escreveu/anotou -> escreve | socou/nocauteou (luta) -> soco.
+- Objetos de processo prontos: kit/panela, kit/frasco, kit/tubos, kit/enxofre, kit/gosma, kit/borracha, kit/microscopio, kit/balanca, kit/lupa, kit/bancada (+ carrapicho kit/burr refeito).
+- Para o processo aparecer, ESCREVA o roteiro com o verbo e o material: "misturou a borracha com enxofre", "a gosma caiu no fogao", "virou borracha firme". Ponha o fogao/mesa em "props" se a historia tiver; a ferramenta tira do caminho de outro personagem.
+- Cena de processo fica em plano medio (sem close que esconde as maos) e numa tomada so'. Desligar numa cena: "encena": false.
+- Objeto heroi: brilho de estrelinhas quando entra em cena; produto que nasce no processo sobe girando na altura do peito.
+- Lutador/boxeador: "profissao": "lutador" ou "boxeador" (sem camisa, short colorido com faixa, luvas de boxe, bota). Cores: "trunks", "gloves", "boots". Juiz: camisa branca.

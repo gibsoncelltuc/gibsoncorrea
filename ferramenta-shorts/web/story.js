@@ -48,7 +48,7 @@ const SPEC = {
     S('b11', A[11], A[12] - 1, X, "day", { h: 2.4, d0: 5.6, d1: 4.9, hero: { hero: 'any', frame: 'medium', minH: 0.07, main: 1 }, trans: 'dissolve', actors: [pp(X, "FAZ", 0, 0.0, 1.3, "sad", { pose: 'talk' }), { animal: "pig", at: [X + 1.9, 0.8], state: "stand", s: 1.0, flip: true, seed: 1 }], props: [{ asset: "buildings/house_two", at: [X + 4.8, -11.0], s: 1.05, ry: -0.35, drop: false }, { asset: "kit/cross", at: [X + 1.5, -0.9], s: 0.8, drop: false }, { asset: "nature/picket_fence", at: [X + -2.6, -2.4], s: 1.2 }] })
   ],
 };
-SPEC.fit = {"b0":1.254,"b11":1.572,"b2~1":1.12,"b2~2":1.12,"b3~1":1.12,"b4~1":1.254,"b4~2":1.254,"b4~3":1.254,"b5":1.12,"b5~1":1.12,"b5~2":1.12,"b5~3":1.12,"b7":1.12,"b9":1.12,"b9_1":1.12};
+SPEC.fit = {"b0":1.254,"b10":1.12,"b11":1.572,"b2~1":1.12,"b2~2":1.12,"b3~1":1.12,"b4~1":1.254,"b4~2":1.254,"b4~3":1.254,"b5":1.12,"b5~1":1.12,"b5~2":1.12,"b5~3":1.12,"b7":1.12,"b9":1.12};
 // ===== STORY RUNTIME (generic): turns a declarative SPEC (stories/<id>.spec.js, concatenated before this file) into the story.js interface the engine expects =====
 import { camFromKeys, clamp, lerp, ramp, q, blinkAt, idle, M } from './motion.js';
 export const FPS = 30, TOTAL = SPEC.total, DECK = 6;

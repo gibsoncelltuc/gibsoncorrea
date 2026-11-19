@@ -3,9 +3,9 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/goodyear1839/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py goodyear1839` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Um inventor falido deixou cair uma gosma no fogão da cozinha. E mudou ...
-- Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Cenario: interior madeira | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): GOO (variante 0, expressao shock); CLA (variante 0, expressao surprised)
 - Animacao: reagir | interacao: avanca e o outro recua
 - Objetos/modelos: kit/stove
@@ -34,8 +34,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Charles Goodyear ficou obcecado. Misturou a borracha com tudo que enco...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): GOO (variante 0, expressao stern, segura paper); CLA (variante 0, expressao worried)
 - Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/stove
@@ -54,8 +54,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Até que um dia, mexendo numa mistura de borracha com enxofre, ele se a...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): GOO (variante 0, expressao grin); CLA (variante 0, expressao suspicious)
 - Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/stove
@@ -64,7 +64,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - A gosma caiu em cima do fogão quente. Ele esperava que derretesse.
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): GOO (variante 0, expressao shock)
 - Animacao: reagir
@@ -113,7 +113,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b11 - E uma fábrica de pneus famosa ganhou o nome dele em homenagem. Ele nun...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: interior loja | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (1): GOO (variante 0, expressao smile)
@@ -127,17 +127,19 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/stove | b0, b2, b3, b5, b6, b7, b8, b10, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/stove | b0, b2, b3, b5, b6, b7, b8, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tires | b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/ball | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/stove | grandes momentos: b2, b10 | planos abertos: 3 | mistura: close 19% | medio 64% | aberto 10% | detalhe 7%
+- Objeto heroi: kit/borracha | grandes momentos: b2, b10 | planos abertos: 3 | mistura: close 12% | medio 78% | aberto 10% | detalhe 0%
 - Interacoes: b0 avanca e o outro recua, b3 o outro se aproxima, b4 empurrar, b5 insiste, b8 abracar, b9 discutir
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - objeto heroi (kit/borracha) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: objeto heroi (kit/borracha) sem close de camera
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh goodyear1839 bN bM` (so essas cenas).

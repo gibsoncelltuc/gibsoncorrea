@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Mexendo em toneladas de minério, eles descobriram dois elementos novos: o polônio e o rádio.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: descobriram -> ring + som de alerta
+- Efeito + som nas palavras-chave: descobriram -> ring + som de alerta; encena: mistura (stir) -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que a radiação foi destruindo a saúde dela, aos poucos. Em mil novecentos e trinta e quatro, ela morreu.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: morreu -> puff + som de baque
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque
 - Efeito visual marcado: ring@40
 - Texto na tela: -
 - Funcao na historia: VIRADA
