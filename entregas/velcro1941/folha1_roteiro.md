@@ -31,18 +31,18 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b3  (~5.5 s)
 - Narracao: O pelo do cachorro e a calça dele estavam cheios de carrapichos. Dava um trabalhão arrancar.
-- Som ambiente: silencio/sala
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: thump@40
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: puff@40
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b4  (~3.8 s)
 - Narracao: Curioso, ele levou um carrapicho para casa e olhou no microscópio.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: olha (point) -> acao + som de efeito; encena: examina (think) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Ele pensou: e se eu fizer uma fita de ganchinhos, e outra de voltinhas? Gruda e solta quantas vezes quiser.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@20
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: pensa (think) -> acao + som de efeito
 - Efeito visual marcado: ring@20
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Os tecelões riram da ideia. Levou quase dez anos de tentativas até acertar o material.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: riram -> stars + som de sino
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; riram -> stars + som de sino; encena: x_ri (up) -> acao + som de efeito; encena: pensa (think) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O segredo foi o náilon. E o nome veio do francês: velours, veludo, e crochet, gancho. Velcro!
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: segredo -> ring + som de alerta
+- Efeito + som nas palavras-chave: segredo -> ring + som de alerta; encena: pensa (think) -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: No começo, muita gente achou o velcro feio, e as vendas foram fracas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: olha (point) -> acao + som de efeito; encena: negocio (reach) -> acao + som de efeito
 - Efeito visual marcado: puff@30
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -99,7 +99,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: VELCRO
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b11  (~5.9 s)
 - Narracao: Hoje ele está em tênis, mochilas e roupas. E tudo começou com um cachorro cheio de carrapichos.
