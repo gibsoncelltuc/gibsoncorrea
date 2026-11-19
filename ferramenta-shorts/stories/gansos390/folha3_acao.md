@@ -58,33 +58,33 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | ATUACAO | reagir | OK |
 | 4 | - | PLACA | QUÁ! QUÁ! | OK |
 
-## Cena b6 - 39.0s a 47.3s - 22 palavras - plano two
+## Cena b6 - 39.0s a 46.5s - 22 palavras - plano two
 > "Um soldado chamado Mânlio pulou da cama, e empurrou o primeiro invasor muralha abaixo. O gaulês foi derrubado, levando os outros junto."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | pulou (40.2s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
 | 2 | empurrou (41.4s) | ACAO: empurra | empurra/puxa | OK |
-| 3 | derrubado (45.3s) | ACAO: tomba | cai sentado no chao + poeira | OK |
+| 3 | derrubado (44.7s) | ACAO: tomba | cai sentado no chao + poeira | OK |
 | 4 | - | INTERACAO | empurrar | OK |
 | 5 | - | ATUACAO | conversar | OK |
 
-## Cena b7 - 47.5s a 52.9s - 15 palavras - plano orbit
+## Cena b7 - 47.6s a 51.8s - 15 palavras - plano orbit
 > "O alarme acordou todo mundo, os romanos correram para a muralha, e o ataque fracassou."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | alarme (47.8s) | EFEITO: ring | onda + som | OK |
 | 2 | alarme (47.8s) | ACAO: grita | grita de bracos para cima | OK |
-| 3 | acordou (48.2s) | ACAO: x_acorda | estava dormindo e acorda na palavra | OK |
+| 3 | acordou (48.1s) | ACAO: x_acorda | estava dormindo e acorda na palavra | OK |
 | 4 | correram (49.9s) | EFEITO: dust | poeira + som | OK |
 | 5 | correram (49.9s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
 | 6 | ataque (51.5s) | EFEITO: ring | onda + som | OK |
 | 7 | ataque (51.5s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 8 | fracassou (52.9s) | ACAO: perde | mao na testa | OK |
+| 8 | fracassou (51.8s) | ACAO: perde | mao na testa | OK |
 | 9 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
-## Cena b8 - 53.1s a 57.9s - 13 palavras - plano two
+## Cena b8 - 53.2s a 57.1s - 13 palavras - plano two
 > "Desde então, todo ano, os gansos ganhavam um desfile pelas ruas de Roma."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -93,12 +93,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | DESFILE | OK |
 
-## Cena b9 - 58.1s a 60.9s - 11 palavras - plano close
+## Cena b9 - 58.2s a 61.2s - 11 palavras - plano close
 > "E os guardas, que dormiram a noite inteira, ganharam um castigo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ganharam (60.7s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | ganharam (60.7s) | ACAO: vence | bracos para cima + brilho | OK |
+| 1 | ganharam (60.6s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | ganharam (60.6s) | ACAO: vence | bracos para cima + brilho | OK |
 | 3 | - | ATUACAO | conversar | OK |
 

@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 19 - A Guerra de Aroostook
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 10 cenas, 152 palavras (~52 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 11 cenas, 152 palavras (~52 s)
 
 ## Cena b0  (~5.5 s)
 - Narracao: Uma guerra entre os Estados Unidos e a Inglaterra foi travada por lenhadores, e ninguém morreu.
@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b3  (~5.2 s)
 - Narracao: "Essa árvore é minha!", gritou um lenhador, e logo os dois lados começaram a brigar.
-- Som ambiente: birds | batalha: tiros e gritos a cena inteira
+- Som ambiente: birds
 - Efeitos sonoros marcados: thump@60
 - Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou -> ring + som de alerta; brigar -> puff + som de baque; encena: grita (up) @4 -> acao + som de efeito; encena: corta (hammer) @6 -> acao + som de efeito; encena: golpe (punch) @14 -> acao + som de efeito
 - Efeito visual marcado: stars@60, puff@60
@@ -83,11 +83,20 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~5.2 s)
-- Narracao: Chamaram de Guerra do Porco com Feijão, porque era só isso que as tropas comiam.
+## Cena b9  (~2.4 s)
+- Narracao: Chamaram de Guerra do Porco com Feijão,
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: animal: pig come -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b10  (~2.8 s)
+- Narracao: porque era só isso que as tropas comiam.
+- Som ambiente: birds
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: encena: x_come (eat) @7 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL
