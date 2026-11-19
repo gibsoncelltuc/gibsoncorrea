@@ -43,17 +43,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - O fazendeiro foi até a casa do vizinho, com as notas na mão. "Eu pago ...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): FAZ (variante 0, expressao nervous, segura money); IRL (variante 0, expressao angry)
 - Animacao: conversar | interacao: entregar
-- Objetos/modelos: nature/picket_fence, nature/haybale, tools/wheelbarrow, buildings/barn, nature/scarecrow
+- Objetos/modelos: nature/picket_fence, nature/haybale, tools/wheelbarrow
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): casa, fazendeiro, notas, vizinho
 - RISCOS: nenhum
 
 ## Cena b5 - "Dez? Ele vale cem!", gritou o dono, empurrando o dinheiro de volta. N...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): IRL (variante 0, expressao shout); FAZ (variante 0, expressao surprised, segura money)
@@ -70,7 +70,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: discutir | interacao: empurrar
 - Objetos/modelos: buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estados, fazendeiro, ilha, ingleses
-- RISCOS: nenhum
+- RISCOS: 
+  - a narracao cita "fazendeiro" e ninguem em cena esta vestido a carater -> CORRECAO: por no "who" um personagem com "profissao": "agricultor" no figurino (coroa/farda/chapeu proprios)
 
 ## Cena b7 - Acontece que a Inglaterra respondeu com navios de guerra. Logo eram ce...
 - Cenario: harbor | luz: day | clima: limpo
@@ -88,12 +89,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): ALM (variante 0, expressao stern); ING (variante 1, expressao nervous)
 - Animacao: discutir | interacao: vai ate o outro
-- Objetos/modelos: -
+- Objetos/modelos: pig
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): almirante, atacar, porco
 - RISCOS: nenhum
 
 ## Cena b9 - Os soldados passaram meses trocando insultos, e depois, festas. Ningué...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): ING (variante 0, expressao grin); AME (variante 0, expressao laugh); ING (variante 1, expressao smile) | multidao: 18 de ING/AME
@@ -118,16 +119,35 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): FAZ (variante 0, expressao sad)
 - Animacao: conversar
-- Objetos/modelos: kit/cross, nature/picket_fence
+- Objetos/modelos: kit/cross, nature/picket_fence, pig
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): porco
 - RISCOS: nenhum
+
+## PARA O BLENDER (objetos 3D deste video)
+Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito no Blender; a ferramenta so' poe em cena, pinta o contorno e anima. Nada de objeto "quadradao": use `blender/formas.py` (cil, bola, torno, tubo, arco, caixa com chanfro).
+
+Objeto | Cenas | Situacao | O que fazer
+---|---|---|---
+nature/picket_fence | b0, b2, b3, b4, b5, b6, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/haybale | b0, b2, b3, b4, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+pig | b0, b2, b3, b8, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/flowerbed | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/scarecrow | b2, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+tools/wheelbarrow | b2, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/barn | b2, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/house_small | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/tree_oak | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+cannon | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/cross | b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+
 
 ## Video inteiro
 - Objeto heroi: - | grandes momentos: b7, b9 | planos abertos: 3 | mistura: close 8% | medio 77% | aberto 13% | detalhe 1%
 - Interacoes: b0 o outro se aproxima, b4 entregar, b5 discutir, b6 empurrar, b8 vai ate o outro, b10 insiste
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- b6: a narracao cita "fazendeiro" e ninguem em cena esta vestido a carater
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh porco1859 bN bM` (so essas cenas).

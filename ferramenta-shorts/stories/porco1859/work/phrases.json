@@ -1,7 +1,7 @@
 {
  "duration": 70.08,
  "frames30": 2102,
- "source": "silence-align (cost 1.10)",
+ "source": "silence-align (cost 1.11)",
  "segments": [
   [
    0.148625,
@@ -21,11 +21,11 @@
   ],
   [
    9.22758,
-   9.69117
+   9.69887
   ],
   [
    9.93025,
-   13.4727
+   13.4726
   ],
   [
    14.3331,
@@ -53,7 +53,7 @@
   ],
   [
    25.1652,
-   25.8794
+   25.8795
   ],
   [
    26.7368,
@@ -160,7 +160,7 @@
   {
    "text": "Um dia,",
    "s": 9.228,
-   "e": 9.691
+   "e": 9.699
   },
   {
    "text": "um fazendeiro americano encontrou um porco comendo as batatas da horta dele.",
@@ -200,7 +200,7 @@
   {
    "text": "ofereceu ele.",
    "s": 25.165,
-   "e": 25.879
+   "e": 25.88
   },
   {
    "text": "\"Dez?",

@@ -1618,6 +1618,10 @@ export const bodyFront = (p, o, opts)=>{
                 p.dot(tcx + 2 * u * facing, y, 2.2 * u + 0.8 * u, INK);
                 p.dot(tcx + 2 * u * facing, y, 2.2 * u, o.buttons ?? shade(o.jacket, 0.7));
             }
+            if (o.camo) for (let i = 0; i < 16; i++) { const rx = ((i * 37) % 17) / 17 - 0.5, ry = ((i * 53) % 13) / 13; p.dot(tcx + rx * 2.6 * T.a, chin + 0.05 * HH + ry * (torsoBot - chin), (4 + (i % 3) * 1.6) * u, i % 2 ? o.camo : shade(o.camo, 0.75)); }   /* CAMUFLADO (soldado moderno) */
+            if (o.collar) p.band([[tcx - 1.4 * T.a, chin + 0.04 * HH], [tcx + 1.4 * T.a, chin + 0.04 * HH]], o.collar, 0.1 * HH, 1.6 * u);   /* gola (arminho do rei/imperador, colarinho branco do terno) */
+            if (o.medals) for (let i = 0; i < o.medals; i++) { const mx = tcx - (0.35 + 0.24 * i) * T.a, my = chin + 0.24 * HH; p.poly([[mx - 2.4 * u, my - 5 * u], [mx + 2.4 * u, my - 5 * u], [mx + 2.4 * u, my + 1 * u], [mx - 2.4 * u, my + 1 * u]], ['#c8302a', '#27408b', '#2f8a4a', '#e8c45a'][i % 4], 1.1 * u); p.dot(mx, my + 4 * u, 3 * u, INK); p.dot(mx, my + 4 * u, 2.3 * u, '#e8c45a'); }   /* MEDALHAS (patente) */
+            if (o.epaulets) for (const s of [-1, 1]) { p.dot(tcx + s * 1.05 * T.a, chin + 0.06 * HH, 6.5 * u, INK); p.dot(tcx + s * 1.05 * T.a, chin + 0.06 * HH, 5.6 * u, o.epaulets); for (let k = -2; k <= 2; k++) p.stroke([[tcx + s * 1.05 * T.a + k * 2 * u, chin + 0.06 * HH + 4 * u], [tcx + s * 1.05 * T.a + k * 2.2 * u, chin + 0.06 * HH + 9 * u]], 1.4 * u, o.epaulets); }   /* DRAGONAS douradas (oficial) */
         });
         if (o.sash) {
             const s = facing || 1;
@@ -2051,6 +2055,10 @@ export const bodySide = (p, o, opts)=>{
             p.dot(tcx + 0.8 * T.a, y, 3 * u, INK);
             p.dot(tcx + 0.8 * T.a, y, 2.2 * u, o.buttons ?? shade(o.jacket, 0.7));
         }
+        if (o.camo) for (let i = 0; i < 16; i++) { const rx = ((i * 37) % 17) / 17 - 0.5, ry = ((i * 53) % 13) / 13; p.dot(tcx + rx * 2.6 * T.a, chin + 0.05 * HH + ry * (torsoBot - chin), (4 + (i % 3) * 1.6) * u, i % 2 ? o.camo : shade(o.camo, 0.75)); }   /* CAMUFLADO (soldado moderno) */
+        if (o.collar) p.band([[tcx - 1.4 * T.a, chin + 0.04 * HH], [tcx + 1.4 * T.a, chin + 0.04 * HH]], o.collar, 0.1 * HH, 1.6 * u);   /* gola (arminho do rei/imperador, colarinho branco do terno) */
+        if (o.medals) for (let i = 0; i < o.medals; i++) { const mx = tcx - (0.35 + 0.24 * i) * T.a, my = chin + 0.24 * HH; p.poly([[mx - 2.4 * u, my - 5 * u], [mx + 2.4 * u, my - 5 * u], [mx + 2.4 * u, my + 1 * u], [mx - 2.4 * u, my + 1 * u]], ['#c8302a', '#27408b', '#2f8a4a', '#e8c45a'][i % 4], 1.1 * u); p.dot(mx, my + 4 * u, 3 * u, INK); p.dot(mx, my + 4 * u, 2.3 * u, '#e8c45a'); }   /* MEDALHAS (patente) */
+        if (o.epaulets) for (const s of [-1, 1]) { p.dot(tcx + s * 1.05 * T.a, chin + 0.06 * HH, 6.5 * u, INK); p.dot(tcx + s * 1.05 * T.a, chin + 0.06 * HH, 5.6 * u, o.epaulets); for (let k = -2; k <= 2; k++) p.stroke([[tcx + s * 1.05 * T.a + k * 2 * u, chin + 0.06 * HH + 4 * u], [tcx + s * 1.05 * T.a + k * 2.2 * u, chin + 0.06 * HH + 9 * u]], 1.4 * u, o.epaulets); }   /* DRAGONAS douradas (oficial) */
     });
     p.inkRing(tp, ow, thick);
     if (rifle) drawRifle(p, B0, B1, u);
