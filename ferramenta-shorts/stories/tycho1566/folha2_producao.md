@@ -33,7 +33,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - A briga não acabou ali. Dias depois, os dois resolveram tudo num duelo...
-- Cenario: street | luz: pordosol | clima: limpo
+- Cenario: street | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): TYC (variante 0, expressao angry, segura sword); PAR (variante 0, expressao shout, segura sword)
@@ -43,11 +43,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Acontece que o primo acertou um golpe certeiro, e cortou fora um pedaç...
-- Cenario: street | luz: pordosol | clima: limpo
-- Camera: low = camera baixa, dramatica (virada) + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): PAR (variante 0, expressao angry, segura sword); TYC (variante 0, expressao pained, segura sword)
-- Animacao: encena | interacao: empurrar
+- Cenario: street | luz: noite | clima: limpo
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (2): PAR (variante 0, expressao angry, segura sword); TYC (variante 0, expressao pained, segura sword) | multidao: 12 de POV
+- Animacao: encena | batalha encenada
 - Objetos/modelos: kit/marco_rostock, kit/brass_nose
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): golpe, nariz, pedaco, primo, tycho
 - RISCOS: nenhum
@@ -64,21 +64,21 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Anos depois, o rei da Dinamarca deu a ele uma ilha inteira, só para es...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): REI (variante 0, expressao grin); TYC (variante 0, expressao surprised) | multidao: 6 de POV
-- Animacao: conversar | interacao: entregar
+- Animacao: encena
 - Objetos/modelos: kit/marco_rostock
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dinamarca, ilha
 - RISCOS: nenhum
 
 ## Cena b7 - Lá, ele construiu um castelo observatório, e anotou a posição de mais ...
-- Cenario: medieval | luz: noite | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): TYC (variante 0, expressao grin, segura spyglass); POV (variante 0, expressao surprised); POV (variante 1, expressao grin) | multidao: 14 de POV
-- Animacao: encena | batalha encenada
-- Objetos/modelos: kit/marco_rostock, buildings/castle_tower
+- Cenario: countryside | luz: noite | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (1): TYC (variante 0, expressao grin, segura spyglass)
+- Animacao: encena
+- Objetos/modelos: kit/marco_uraniborg, kit/marco_rostock
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): castelo, posicao
 - RISCOS: nenhum
 
@@ -94,7 +94,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Essa descoberta mudou a astronomia para sempre.
 - Cenario: medieval | luz: dia | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): KEP (variante 0, expressao laugh); POV (variante 0, expressao grin); POV (variante 1, expressao laugh) | multidao: 16 de POV
 - Animacao: comemorar | batalha encenada
@@ -122,12 +122,12 @@ kit/marco_rostock | b0, b1, b3, b4, b5, b6, b7, b9, b10 | pronto | conferir na f
 buildings/apartment | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/castle_tower | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_uraniborg | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/brass_nose | grandes momentos: b7, b9 | planos abertos: 3 | mistura: close 20% | medio 62% | aberto 11% | detalhe 7%
-- Interacoes: b0 discutir, b2 avanca e o outro recua, b3 discutir, b4 empurrar, b6 entregar, b8 entregar
+- Objeto heroi: kit/brass_nose | grandes momentos: b4, b9 | planos abertos: 4 | mistura: close 13% | medio 62% | aberto 21% | detalhe 4%
+- Interacoes: b0 discutir, b2 avanca e o outro recua, b3 discutir, b8 entregar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

@@ -87,7 +87,7 @@
   },
   {
    "shot": "two",
-   "hora": "pordosol",
+   "hora": "noite",
    "who": [
     "TYC:0:angry:sword",
     "PAR:0:shout:sword"
@@ -104,7 +104,7 @@
   },
   {
    "shot": "low",
-   "hora": "pordosol",
+   "hora": "noite",
    "who": [
     "PAR:0:angry:sword",
     "TYC:0:pained:sword"
@@ -147,23 +147,11 @@
    "set": "harbor"
   },
   {
-   "shot": "crowd",
+   "shot": "wide",
    "hora": "noite",
    "who": [
-    "TYC:0:grin:spyglass",
-    "POV:0:surprised",
-    "POV:1:grin"
+    "TYC:0:grin:spyglass"
    ],
-   "batalha": true,
-   "tiros": false,
-   "crowd": {
-    "n": 14,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "surprised"
-   },
    "fx": [
     "stars@20",
     "stars@60"
@@ -174,7 +162,16 @@
    ],
    "text": "MIL ESTRELAS",
    "titulo": true,
-   "say": "Lá, ele construiu um castelo observatório, e anotou a posição de mais de mil estrelas, sem telescópio."
+   "say": "Lá, ele construiu um castelo observatório, e anotou a posição de mais de mil estrelas, sem telescópio.",
+   "props": [
+    [
+     "kit/marco_uraniborg",
+     0,
+     -42,
+     0.9
+    ]
+   ],
+   "set": "countryside"
   },
   {
    "shot": "two",
