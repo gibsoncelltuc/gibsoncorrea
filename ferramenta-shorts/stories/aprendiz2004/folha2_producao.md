@@ -47,7 +47,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): TRU (variante 0, expressao stern); CND (variante 0, expressao nervous)
-- Animacao: discutir | interacao: discutir
+- Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): equipe, reuniao, sala
 - RISCOS: nenhum
@@ -87,7 +87,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): POV (variante 0, expressao surprised); POV (variante 1, expressao grin)
-- Animacao: conversar | interacao: avanca e o outro recua
+- Animacao: conversar | interacao: discutir
 - Objetos/modelos: kit/marco_trumptower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aprendiz, brasil, formato, roberto
 - RISCOS: nenhum
@@ -125,7 +125,7 @@ nature/picket_fence | b6 | pronto | conferir na folha de contato se le bem; se p
 
 ## Video inteiro
 - Objeto heroi: kit/tv | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 21% | medio 66% | aberto 11% | detalhe 2%
-- Interacoes: b0 susto, b2 aproxima-se, b4 discutir, b7 vai ate o outro, b8 avanca e o outro recua, b9 o outro se aproxima
+- Interacoes: b0 susto, b2 aproxima-se, b4 avanca e o outro recua, b7 vai ate o outro, b8 discutir, b9 o outro se aproxima
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

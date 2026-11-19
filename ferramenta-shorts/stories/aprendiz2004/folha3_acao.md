@@ -47,8 +47,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | perdedora (24.3s) | ACAO: perde | mao na testa | OK |
 | 2 | embora (27.2s) | ACAO: sai | sai andando pela lateral | OK |
-| 3 | - | INTERACAO | discutir | OK |
-| 4 | - | ATUACAO | discutir | OK |
+| 3 | - | INTERACAO | avanca e o outro recua | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b5 - 28.5s a 34.1s - 20 palavras - plano close
 > "Acontece que o jeito de eliminar virou a marca do programa. Ele apontava o dedo e dizia: você está demitido."
@@ -82,7 +82,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | avanca e o outro recua | OK |
+| 1 | - | INTERACAO | discutir | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | MAPA | BRASIL | OK |
 
