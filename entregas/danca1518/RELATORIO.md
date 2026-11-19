@@ -1,5 +1,4 @@
-# A Praga da Dança (1518) - refeito 19/11, 4a versão (auditoria)
-Passou: 3 folhas (0 risco, 0 ação faltando), storyboard + grade aprovados, conferir.sh OK (1080x1920, 60 s), folha de contato e auditar_acoes.sh olhados, mais quadros extraídos do mp4 em "Construiu" (34-37 s) e "desmaiaram" (42-45 s).
-Defeitos apontados pela auditoria e CORRIGIDOS (conferidos no mp4): (1) prédios modernos atrás do palco: o cenário é medieval, com casas brancas e igreja; (2) "caíram de exaustão": agora "desmaiaram" e a pessoa cai deitada no chão, de olhos fechados, com poeira (43-45 s); (3) palco: placa PALCO e a plataforma de madeira com o emblema aparecem ao lado do músico e do prefeito, com o tambor e a bandeira.
-Limite honesto: o palco é uma plataforma de madeira que aparece (cai no lugar); a ferramenta não monta tábua por tábua. Alterei duas palavras da narração ("animar o povo", "desmaiaram").
-Não passou: nada.
+# A Praga da Dança (1518) - refeito 19/11, 5a versão (auditoria)
+Passou: 3 folhas (0 risco, 0 ação faltando), storyboard + grade aprovados, conferir.sh OK, folha e auditar_acoes.sh olhados, quadros do mp4 em "Construiu" (33-37 s) e "desmaiaram" (42-45 s).
+Defeitos apontados e CORRIGIDOS: (1) palco: agora plano aberto com a placa PALCO e uma plataforma de madeira larga (mesa grande sobre caixotes) no fundo da praça, com poeira/estrelinhas na palavra Construiu, músico e prefeito na frente; (2) exaustão: pessoa cai deitada no chão com poeira (43-45 s); (3) sem prédios modernos (cenário medieval).
+Limite honesto: o palco aparece pronto (cai no lugar), a ferramenta não anima a construção tábua por tábua.
