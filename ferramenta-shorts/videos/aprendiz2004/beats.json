@@ -57,9 +57,9 @@
    "props": [
     [
      "kit/tv",
-     2.4,
-     -2.2,
-     1.1
+     -2.6,
+     -2.6,
+     1.0
     ]
    ],
    "text": "2004",
@@ -69,7 +69,7 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Duas palavras transformaram um empresário de Nova York numa estrela da televisão mundial: você está demitido."
+   "say": "Duas palavras transformaram um empresário de Nova York numa estrela mundial: você está demitido."
   },
   {
    "shot": "reveal",
@@ -216,18 +216,12 @@
    "say": "O formato se espalhou pelo mundo. No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus."
   },
   {
-   "shot": "close",
+   "shot": "two",
    "who": [
-    "TRU:0:smug"
+    "TRU:0:smug",
+    "POV:0:smile"
    ],
-   "props": [
-    [
-     "kit/tv",
-     1.6,
-     -0.8,
-     1.0
-    ]
-   ],
+   "props": [],
    "acao": "conversar",
    "say": "Trump apresentou o programa por mais de dez anos, e só saiu em dois mil e quinze, quando entrou na política."
   },

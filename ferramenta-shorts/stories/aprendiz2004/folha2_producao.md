@@ -2,14 +2,14 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/aprendiz2004/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py aprendiz2004` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Duas palavras transformaram um empresário de Nova York numa estrela da...
+## Cena b0 - Duas palavras transformaram um empresário de Nova York numa estrela mu...
 - Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): TRU (variante 0, expressao smug); CND (variante 0, expressao shock)
 - Animacao: conversar | interacao: susto
 - Objetos/modelos: kit/tv, kit/marco_trumptower
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): empresario, nova, televisao
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): empresario, nova
 - RISCOS: nenhum
 
 ## Cena b1 - Em janeiro de dois mil e quatro, estreou nos Estados Unidos o programa...
@@ -94,11 +94,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Trump apresentou o programa por mais de dez anos, e só saiu em dois mi...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (1): TRU (variante 0, expressao smug)
-- Animacao: conversar
-- Objetos/modelos: kit/tv, kit/marco_trumptower
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
+- Personagens principais (2): TRU (variante 0, expressao smug); POV (variante 0, expressao smile)
+- Animacao: conversar | interacao: avanca e o outro recua | o ultimo personagem ENTRA andando
+- Objetos/modelos: kit/marco_trumptower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): politica, programa
 - RISCOS: nenhum
 
@@ -117,15 +117,15 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/tv | b0, b6, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/tv | b0, b6, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_trumptower | b0, b1, b3, b6, b7, b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/stall | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/tv | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 29% | medio 55% | aberto 11% | detalhe 5%
-- Interacoes: b0 susto, b2 aproxima-se, b4 discutir, b7 abracar, b8 vai ate o outro
+- Objeto heroi: kit/tv | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 21% | medio 66% | aberto 11% | detalhe 2%
+- Interacoes: b0 susto, b2 aproxima-se, b4 discutir, b7 abracar, b8 vai ate o outro, b9 avanca e o outro recua
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

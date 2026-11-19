@@ -13,12 +13,12 @@ b5 | interior loja | close | 1 | conversar | - | - | -
 b6 | countryside | crowd | 33 | comemorar, batalha | kit/tv, kit/marco_trumptower, nature/picket_fence | - | -
 b7 | countryside | two | 2 | conversar, INTERAGEM: abracar | kit/marco_trumptower | - | -
 b8 | street | group | 2 | conversar, INTERAGEM: vai ate o outro | kit/marco_trumptower | - | -
-b9 | harbor | close | 1 | conversar | kit/tv, kit/marco_trumptower | - | -
+b9 | harbor | two | 2 | conversar, INTERAGEM: avanca e o outro recua, alguem chega andando | kit/marco_trumptower | - | -
 b10 | street | close | 1 | comemorar | kit/tv, kit/marco_trumptower | - | -
 
-OBJETO HEROI: kit/tv - aparece em 4 cena(s), close nele em 2
+OBJETO HEROI: kit/tv - aparece em 3 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b6
-Interacoes entre personagens: b0 susto, b2 aproxima-se, b4 discutir, b7 abracar, b8 vai ate o outro
+Interacoes entre personagens: b0 susto, b2 aproxima-se, b4 discutir, b7 abracar, b8 vai ate o outro, b9 avanca e o outro recua
 
 Cenas com personagens parados: 1 de 11
 FALTA MODELAR: nada
