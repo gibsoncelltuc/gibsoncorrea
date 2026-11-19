@@ -16,7 +16,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): TOR (variante 0, expressao stern); TOR (variante 1, expressao angry) | multidao: 8 de TOR
+- Personagens principais (2): HON (variante 0, expressao angry); SAL (variante 0, expressao shout) | multidao: 8 de HON/SAL/TOR
 - Animacao: discutir
 - Objetos/modelos: kit/volcano, buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
@@ -42,7 +42,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): hotel, porta, torcida, visitantes
 - RISCOS: nenhum
 
-## Cena b4 - No segundo, El Salvador revidou. Torcedores brigaram nas ruas, e os do...
+## Cena b4 - No segundo, El Salvador revidou. Torcedores se empurraram nas ruas, e ...
 - Cenario: street | luz: dia | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente

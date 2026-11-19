@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 09 - A Guerra do Futebol
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.6s - 11 palavras - plano two
@@ -16,13 +16,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | - | PLACA | 1969 | OK |
 
 ## Cena b1 - 3.9s a 10.5s - 21 palavras - plano reveal
-> "Era mil novecentos e sessenta e nove. Honduras e El Salvador, dois vizinhos, já viviam brigando por terra e por fronteira."
+> "Era mil novecentos e sessenta e nove. Honduras e El Salvador, dois vizinhos, já viviam discutindo por terra e por fronteira."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | brigando (9.3s) | ACAO: golpe | soco + estouro | OK |
-| 2 | - | ATUACAO | discutir | OK |
-| 3 | - | MAPA | AMÉRICA CENTRAL | OK |
+| 1 | - | ATUACAO | discutir | OK |
+| 2 | - | MAPA | AMÉRICA CENTRAL | OK |
 
 ## Cena b2 - 11.8s a 16.5s - 17 palavras - plano two
 > "Aí veio a disputa por uma vaga na Copa do Mundo. Três jogos, um contra o outro."
@@ -46,17 +45,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 6 | - | ATUACAO | comemorar | OK |
 | 7 | - | PLACA | 1 x 0 | OK |
 
-## Cena b4 - 25.3s a 30.4s - 15 palavras - plano two
-> "No segundo, El Salvador revidou. Torcedores brigaram nas ruas, e os dois governos trocaram insultos."
+## Cena b4 - 25.3s a 30.8s - 16 palavras - plano two
+> "No segundo, El Salvador revidou. Torcedores se empurraram nas ruas, e os dois governos trocaram insultos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | brigaram (26.9s) | EFEITO: puff | fumaca + som | OK |
-| 2 | brigaram (26.9s) | ACAO: golpe | soco + estouro | OK |
-| 3 | - | INTERACAO | empurrar | OK |
-| 4 | - | ATUACAO | discutir | OK |
+| 1 | empurraram (28.1s) | ACAO: empurra | empurra/puxa | OK |
+| 2 | - | INTERACAO | empurrar | OK |
+| 3 | - | ATUACAO | discutir | OK |
 
-## Cena b5 - 30.8s a 36.4s - 14 palavras - plano two
+## Cena b5 - 31.3s a 36.6s - 14 palavras - plano two
 > "Acontece que, no dia do terceiro jogo, El Salvador rompeu relações com o vizinho."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -64,17 +62,17 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | susto | OK |
 | 2 | - | ATUACAO | reagir | OK |
 
-## Cena b6 - 36.6s a 41.1s - 12 palavras - plano group
+## Cena b6 - 36.7s a 41.2s - 12 palavras - plano group
 > "El Salvador ganhou a partida, na prorrogação, e ficou com a vaga."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ganhou (38.1s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | ganhou (38.1s) | ACAO: vence | bracos para cima + brilho | OK |
+| 1 | ganhou (38.2s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | ganhou (38.2s) | ACAO: vence | bracos para cima + brilho | OK |
 | 3 | - | INTERACAO | pular | OK |
 | 4 | - | ATUACAO | comemorar | OK |
 
-## Cena b7 - 41.2s a 46.7s - 13 palavras - plano orbit
+## Cena b7 - 41.3s a 47.0s - 13 palavras - plano orbit
 > "Duas semanas depois, tanques e aviões cruzaram a fronteira. A guerra tinha começado."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -83,7 +81,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 3 | - | PLACA | GUERRA | OK |
 
-## Cena b8 - 47.0s a 52.6s - 13 palavras - plano two
+## Cena b8 - 47.3s a 52.7s - 13 palavras - plano two
 > "Durou cem horas. Os outros países do continente obrigaram os dois a parar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -92,13 +90,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | discutir | OK |
 | 3 | - | PLACA | 100 HORAS | OK |
 
-## Cena b9 - 52.7s a 57.2s - 14 palavras - plano close
+## Cena b9 - 52.9s a 57.3s - 14 palavras - plano close
 > "E na Copa, El Salvador perdeu os três jogos, sem fazer um único gol."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | perdeu (54.8s) | EFEITO: puff | fumaca + som | OK |
-| 2 | perdeu (54.8s) | ACAO: perde | mao na testa | OK |
+| 1 | perdeu (55.0s) | EFEITO: puff | fumaca + som | OK |
+| 2 | perdeu (55.0s) | ACAO: perde | mao na testa | OK |
 | 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
 | 4 | - | ATUACAO | conversar | OK |
 

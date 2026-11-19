@@ -78,7 +78,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (1): BUK (variante 0, expressao grin)
 - Animacao: conversar
-- Objetos/modelos: kit/phone
+- Objetos/modelos: kit/phone, kit/ballot_box
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, eleicao, perfil
 - RISCOS: nenhum
 
@@ -109,6 +109,7 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/phone | b0, b2, b5, b7, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/volcano | b1, b4, b5, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/ballot_box | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro

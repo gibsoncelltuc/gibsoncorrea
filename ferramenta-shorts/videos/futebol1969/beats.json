@@ -61,27 +61,22 @@
    "say": "Dois países entraram em guerra depois de um jogo de futebol."
   },
   {
-   "shot": "reveal",
+   "shot": "two",
    "who": [
-    "TOR:0:stern",
-    "TOR:1:angry"
+    "HON:0:angry",
+    "SAL:0:shout"
    ],
-   "crowd": {
-    "n": 8,
-    "outfits": [
-     "TOR"
-    ],
-    "march": false
-   },
    "mapa": "AMÉRICA CENTRAL",
    "mapa_at": 3,
-   "say": "Era mil novecentos e sessenta e nove. Honduras e El Salvador, dois vizinhos, já viviam brigando por terra e por fronteira.",
+   "say": "Era mil novecentos e sessenta e nove. Honduras e El Salvador, dois vizinhos, já viviam discutindo por terra e por fronteira.",
    "fx": [
     "puff@70"
    ],
    "sfx": [
     "thump@70"
-   ]
+   ],
+   "interacao": "empurrar",
+   "acao": "discutir"
   },
   {
    "shot": "two",
@@ -138,7 +133,7 @@
    ],
    "interacao": "empurrar",
    "acao": "discutir",
-   "say": "No segundo, El Salvador revidou. Torcedores brigaram nas ruas, e os dois governos trocaram insultos.",
+   "say": "No segundo, El Salvador revidou. Torcedores se empurraram nas ruas, e os dois governos trocaram insultos.",
    "hora": "dia"
   },
   {
