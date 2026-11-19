@@ -1,7 +1,7 @@
 b0: OK - placa 2023 com estrelas, Bukele e o deputado gesticulam na rua mostrando que El Salvador construiu uma prisão tão grande, com poeira de obra.
 b1: OK - mapa de EL SALVADOR com marcador e depois multidão ao longe diante do muro, a prisão inaugurada em janeiro numa área isolada do país.
 b2: OK - na sala o deputado e o comerciante conversam com gestos, falando das altas taxas de assassinato por causa das gangues, cena de interior legível.
-b3: OK - em dois mil e vinte e dois Bukele aponta para o soldado no salão, estado de exceção e suspeitos presos, o gesto de prender aparece no quadro da grade.
+b3: CORRIGIDO - prisao em massa nao aparecia (so soldado conversando, depois soldado sozinho) -> guarda de capacete a frente e tres presos de uniforme branco em fila, tristes e assustados, milhares de suspeitos foram presos no estado de excecao decretado por Bukele em dois mil e vinte e dois.
 b4: OK - multidão de presos de capacete com texto 40 MIL e anel de alerta, ergueram o centro de confinamento com vagas para quarenta mil, poeira ao fundo.
 b5: OK - plano baixo com muralhas, rochas e cerca ao fundo, um guarda de capacete observa, muralhas altas e torres de vigia visíveis atrás.
 b6: OK - o deputado e Bukele conversam na rua perto das pedras, nos anos seguintes o número de assassinatos despencou, rostos variados e boa legibilidade.

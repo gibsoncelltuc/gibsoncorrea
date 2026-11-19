@@ -30,13 +30,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | discutir | OK |
 | 2 | - | ATUACAO | discutir | OK |
 
-## Cena b3 - 15.2s a 20.9s - 21 palavras - plano two
+## Cena b3 - 15.2s a 20.9s - 21 palavras - plano group
 > "Em dois mil e vinte e dois, o presidente Nayib Bukele decretou estado de exceção, e milhares de suspeitos foram presos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | presos (20.9s) | ACAO: prende | empurra/prende | OK |
-| 2 | - | INTERACAO | entregar | OK |
+| 2 | - | INTERACAO | avanca e o outro recua | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b4 - 22.0s a 27.4s - 17 palavras - plano crowd
@@ -61,7 +61,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | avanca e o outro recua | OK |
+| 1 | - | INTERACAO | o outro se aproxima | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 38.7s a 43.3s - 12 palavras - plano two

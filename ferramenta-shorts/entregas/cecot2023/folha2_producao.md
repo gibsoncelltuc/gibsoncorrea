@@ -33,12 +33,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - Em dois mil e vinte e dois, o presidente Nayib Bukele decretou estado ...
-- Cenario: interior loja | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): BUK (variante 0, expressao stern); GUA (variante 0, expressao stern)
-- Animacao: conversar | interacao: entregar
-- Objetos/modelos: kit/scroll
+- Cenario: street | luz: day | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Personagens principais (4): GUA (variante 0, expressao stern); PRE (variante 0, expressao sad); PRE (variante 1, expressao scared); PRE (variante 2, expressao sad)
+- Animacao: conversar | interacao: avanca e o outro recua
+- Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): excecao, presidente, suspeitos
 - RISCOS: nenhum
 
@@ -67,7 +67,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): REP (variante 0, expressao surprised, segura paper); BUK (variante 0, expressao smug)
-- Animacao: conversar | interacao: avanca e o outro recua
+- Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): assassinatos, numero
 - RISCOS: nenhum
@@ -118,14 +118,13 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/prison | b0, b1, b4, b5, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/volcano | b0, b1, b4, b5, b6, b7, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/scroll | b3 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/volcano | b0, b1, b3, b4, b5, b6, b7, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/castle_tower | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/scroll | grandes momentos: b4, b9 | planos abertos: 3 | mistura: close 20% | medio 62% | aberto 13% | detalhe 5%
-- Interacoes: b0 aproxima-se, b2 discutir, b3 entregar, b6 avanca e o outro recua, b7 vai ate o outro, b8 cochichar
+- Objeto heroi: kit/scroll | grandes momentos: b4, b9 | planos abertos: 3 | mistura: close 20% | medio 65% | aberto 13% | detalhe 2%
+- Interacoes: b0 aproxima-se, b2 discutir, b3 avanca e o outro recua, b6 o outro se aproxima, b7 vai ate o outro, b8 cochichar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
