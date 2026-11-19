@@ -1,7 +1,7 @@
 {
  "fails": [
   {
-   "f": 404,
+   "f": 408,
    "shot": "b2_d",
    "why": [
     "empty: characters are in the scene but none is in frame"
@@ -32,14 +32,14 @@
    "f": 436,
    "shot": "b2_v",
    "why": [
-    "empty take: no character in the take"
+    "ele: head/torso cropped (box -4.625, -0.703, -1.422, 1.413)"
    ]
   },
   {
    "f": 440,
    "shot": "b2_v",
    "why": [
-    "empty take: no character in the take"
+    "ele: head/torso cropped (box -1.416, 0.113, -0.541, 0.99)"
    ]
   }
  ],

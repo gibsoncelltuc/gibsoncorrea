@@ -24,11 +24,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - Milhões de americanos foram às urnas escolher entre Trump e a vice-pre...
 - Cenario: street | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (3): ELE (variante 0, expressao grin); POV (variante 0, expressao suspicious); POV (variante 1, expressao smile)
+- Personagens principais (2): TRU (variante 0, expressao smug); ELE (variante 0, expressao grin)
 - Animacao: conversar | interacao: insiste
-- Objetos/modelos: kit/ballot_box, kit/marco_casabranca
+- Objetos/modelos: kit/marco_casabranca, kit/ballot_box
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): americanos, urnas, vicepresidente
 - RISCOS: nenhum
 

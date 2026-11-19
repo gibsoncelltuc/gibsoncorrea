@@ -24,7 +24,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | MAPA | ESTADOS UNIDOS | OK |
 
-## Cena b2 - 11.1s a 15.2s - 14 palavras - plano group
+## Cena b2 - 11.1s a 15.2s - 14 palavras - plano two
 > "Milhões de americanos foram às urnas escolher entre Trump e a vice-presidente Kamala Harris."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

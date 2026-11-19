@@ -6,7 +6,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | interior pedra | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/ballot_box, kit/white_house | paper | -
 b1 | street | reveal | 8 | parados (so fala e pisca) | kit/white_house, kit/marco_casabranca | - | -
-b2 | street | group | 3 | conversar, INTERAGEM: insiste | kit/ballot_box, kit/marco_casabranca | - | -
+b2 | street | two | 2 | conversar, INTERAGEM: insiste | kit/marco_casabranca, kit/ballot_box | - | -
 b3 | interior loja | two | 2 | discutir, INTERAGEM: discutir, alguem chega andando | - | paper | -
 b4 | interior loja | close | 1 | comemorar | - | paper | -
 b5 | street | crowd | 25 | comemorar, batalha | kit/white_house, kit/marco_casabranca | - | -
