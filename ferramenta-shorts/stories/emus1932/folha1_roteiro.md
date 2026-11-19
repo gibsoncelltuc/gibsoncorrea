@@ -84,10 +84,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b9  (~6.2 s)
-- Narracao: No fim, o governo desistiu da guerra, e passou a pagar recompensa aos fazendeiros por cada emu abatido.
+- Narracao: No fim, o governo desistiu da guerra, e passou a oferecer recompensa aos fazendeiros por cada emu abatido.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: desistiu -> puff + som de baque; pagar -> stars + som de sino; recompensa -> stars + som de sino; encena: perde (facepalm) @4 -> acao + som de efeito; encena: paga (reach) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: desistiu -> puff + som de baque; recompensa -> stars + som de sino; encena: perde (facepalm) @4 -> acao + som de efeito; encena: paga (reach) @11 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: RECOMPENSA
 - Funcao na historia: desenvolvimento

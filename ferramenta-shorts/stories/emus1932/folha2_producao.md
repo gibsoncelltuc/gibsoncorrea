@@ -76,7 +76,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: mountain | luz: desert | clima: limpo
 - Camera: track = travelling lateral acompanhando quem anda
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (2): AUS (variante 0, expressao pained); PRESS (variante 0, expressao grin, segura paper) | multidao: 4 de 
+- Personagens principais (2): AUS (variante 0, expressao pained); PRESS (variante 0, expressao grin, segura paper)
 - Animacao: conversar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comandante, imprensa, tropa
@@ -92,14 +92,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): emus, exercito, novo
 - RISCOS: nenhum
 
-## Cena b9 - No fim, o governo desistiu da guerra, e passou a pagar recompensa aos ...
-- Cenario: outback | luz: noite | clima: limpo
+## Cena b9 - No fim, o governo desistiu da guerra, e passou a oferecer recompensa a...
+- Cenario: outback | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): FARM (variante 0, expressao smile); FARM (variante 1, expressao grin, segura money)
 - Animacao: encena | interacao: entregar
 - Objetos/modelos: buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow, emus
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): governo, pagar
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): governo, oferecer
 - RISCOS: nenhum
 
 ## Cena b10 - Humanos, zero. Emus, um.

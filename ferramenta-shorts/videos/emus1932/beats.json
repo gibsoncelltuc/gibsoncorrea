@@ -190,19 +190,14 @@
   },
   {
    "say": "A tropa fugiu. A imprensa gargalhou, e o comandante admitiu: \"Eles aguentam bala como tanques.\"",
-   "shot": "track",
+   "shot": "two",
    "who": [
     "AUS:0:pained",
     "PRESS:0:grin:paper"
    ],
    "text": "HA HA HA",
    "tat": 8,
-   "tstyle": "gold",
-   "crowd": {
-    "n": 4,
-    "outfit": "AUS",
-    "march": true
-   }
+   "tstyle": "gold"
   },
   {
    "say": "O exército tentou de novo, abateu algumas centenas, e os emus continuaram voltando.",
@@ -231,7 +226,7 @@
    }
   },
   {
-   "say": "No fim, o governo desistiu da guerra, e passou a pagar recompensa aos fazendeiros por cada emu abatido.",
+   "say": "No fim, o governo desistiu da guerra, e passou a oferecer recompensa aos fazendeiros por cada emu abatido.",
    "shot": "two",
    "who": [
     "FARM:0:smile",
