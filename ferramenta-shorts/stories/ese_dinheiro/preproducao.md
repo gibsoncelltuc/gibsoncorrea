@@ -8,15 +8,15 @@ b0 | street | two | 2 | conversar, INTERAGEM: entregar | kit/coin, buildings/hou
 b1 | interior loja | two | 2 | reagir, INTERAGEM: discutir | kit/cake_table | - | -
 b2 | street | two | 2 | conversar, INTERAGEM: entregar | chicken | - | -
 b3 | street | low | 2 | discutir, INTERAGEM: o outro se aproxima | chicken | - | -
-b4 | street | wide | 8 | parados (so fala e pisca) | - | - | -
-b5 | street | group | 12 | conversar, INTERAGEM: cochichar | nature/rocks | paper | -
+b4 | harbor | wide | 8 | parados (so fala e pisca) | nature/rocks, kit/coin | - | -
+b5 | harbor | group | 12 | conversar, INTERAGEM: cochichar | nature/rocks, kit/coin | paper | -
 b6 | street | crowd | 23 | comemorar, batalha | kit/stall, nature/fountain, nature/bench | - | -
 b7 | street | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/coin | - | -
 b8 | street | close | 1 | reagir | - | - | -
 b9 | street | orbit | 21 | comemorar, batalha | - | - | -
 b10 | street | close | 1 | conversar | kit/coin | - | -
 
-OBJETO HEROI: kit/coin - aparece em 3 cena(s), close nele em 2
+OBJETO HEROI: kit/coin - aparece em 5 cena(s), close nele em 3
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b6, b9
 Interacoes entre personagens: b0 entregar, b1 discutir, b2 entregar, b3 o outro se aproxima, b5 cochichar, b7 vai ate o outro
 

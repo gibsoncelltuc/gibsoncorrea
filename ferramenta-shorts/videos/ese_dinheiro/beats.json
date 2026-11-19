@@ -74,7 +74,8 @@
    "sfx": [
     "sting@30"
    ],
-   "say": "Primeira manhã: você chega na padaria e não tem como pagar o café."
+   "say": "Primeira manhã: você chega na padaria e não tem como pagar o café.",
+   "detalhe": false
   },
   {
    "shot": "two",
@@ -122,7 +123,28 @@
    ],
    "mapa": "ILHA DE YAP",
    "mapa_at": 3,
-   "say": "Por isso, os povos sempre inventaram um dinheiro. Na ilha de Yap, no Pacífico, eram pedras gigantes."
+   "say": "Por isso, os povos sempre inventaram um dinheiro. Na ilha de Yap, no Pacífico, eram pedras gigantes.",
+   "set": "harbor",
+   "props": [
+    [
+     "nature/rocks",
+     -2.0,
+     -3.0,
+     3.2
+    ],
+    [
+     "nature/rocks",
+     2.2,
+     -4.0,
+     3.6
+    ],
+    [
+     "kit/coin",
+     1.6,
+     -0.6,
+     2.2
+    ]
+   ]
   },
   {
    "shot": "two",
@@ -135,7 +157,13 @@
      "nature/rocks",
      1.8,
      -1.6,
-     1.6
+     2.4
+    ],
+    [
+     "kit/coin",
+     -1.7,
+     -0.4,
+     1.8
     ]
    ],
    "interacao": "cochichar",
@@ -145,7 +173,8 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Algumas eram tão pesadas que nunca saíam do lugar. Todo mundo só lembrava quem era o dono."
+   "say": "Algumas eram tão pesadas que nunca saíam do lugar. Todo mundo só lembrava quem era o dono.",
+   "set": "harbor"
   },
   {
    "shot": "crowd",
