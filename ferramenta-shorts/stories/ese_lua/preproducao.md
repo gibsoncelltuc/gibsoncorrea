@@ -10,7 +10,7 @@ b2 | harbor | reveal | 8 | parados (so fala e pisca) | - | - | -
 b3 | harbor | two | 2 | conversar, INTERAGEM: avanca e o outro recua | boat | paper | -
 b4 | harbor | two | 2 | conversar, INTERAGEM: o outro se aproxima | gull | - | -
 b5 | street | crowd | 23 | reagir, batalha | - | - | -
-b6 | street | two | 1 | reagir | kit/globe | - | -
+b6 | street | close | 1 | reagir | kit/globe | - | -
 b7 | street | two | 2 | conversar, INTERAGEM: cochichar | kit/globe | paper | -
 b8 | countryside | two | 2 | conversar, INTERAGEM: insiste | - | - | -
 b9 | countryside | orbit | 21 | comemorar, batalha | kit/moon | - | -

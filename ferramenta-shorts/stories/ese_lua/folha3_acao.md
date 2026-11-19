@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - E Se EP 07 - E Se a Lua Desaparecesse?
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 25 acoes catalogadas, 25 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.7s - 11 palavras - plano two
@@ -56,13 +56,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | reagir | OK |
 | 3 | - | PLACA | SEM LUA | OK |
 
-## Cena b6 - 31.3s a 36.8s - 18 palavras - plano two
+## Cena b6 - 31.3s a 36.8s - 18 palavras - plano close
 > "Acontece que o pior viria devagar. A Lua funciona como um peso que mantém a Terra girando firme."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | firme (36.8s) | ACAO: vira | o material vira o produto, que surge girando em destaque | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 1 | - | ATUACAO | reagir | OK |
 
 ## Cena b7 - 37.8s a 42.9s - 18 palavras - plano two
 > "Sem ela, em milhões de anos, o eixo do planeta iria balançar, e as estações podiam ficar extremas."

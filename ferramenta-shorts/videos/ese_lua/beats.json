@@ -184,7 +184,8 @@
     "sting@20",
     "ding@50"
    ],
-   "say": "Acontece que o pior viria devagar. A Lua funciona como um peso que mantém a Terra girando firme."
+   "say": "Acontece que o pior viria devagar. A Lua funciona como um peso que mantém a Terra girando firme.",
+   "encena": false
   },
   {
    "shot": "two",
