@@ -45,6 +45,14 @@
    "cap": "#8a6a3a",
    "buttons": "#e8c45a",
    "moustache_on": "#3a2a1f"
+  },
+  "RAP": {
+   "jacket": "#3a6ab0",
+   "pants": "#5a4a3a",
+   "boots": "#2a1d14",
+   "hat": "cap",
+   "cap": "#2a3a5a",
+   "build": "lanky"
   }
  },
  "exp": 1.0,
@@ -59,7 +67,8 @@
     "MIC:0:stern"
    ],
    "text": "1835",
-   "say": "Dois estados americanos foram à guerra, e o único ferido levou uma canivetada."
+   "say": "Dois estados americanos foram à guerra, e o único ferido levou uma canivetada.",
+   "set": "countryside"
   },
   {
    "shot": "two",
@@ -69,7 +78,8 @@
    ],
    "mapa": "TOLEDO",
    "mapa_at": 8,
-   "say": "De um lado, Ohio. Do outro, Michigan. Os dois juravam que a cidade de Toledo era deles, por causa de um erro num mapa antigo."
+   "say": "De um lado, Ohio. Do outro, Michigan. Os dois juravam que a cidade de Toledo era deles, por causa de um erro num mapa antigo.",
+   "set": "countryside"
   },
   {
    "shot": "close",
@@ -114,21 +124,27 @@
    },
    "text": "PARA O ALTO",
    "titulo": true,
-   "say": "Houve gritos, ameaças, e tiros. Todos para o alto. Ninguém acertou ninguém."
+   "say": "Houve gritos, ameaças, e tiros. Todos para o alto. Ninguém acertou ninguém.",
+   "set": "countryside"
   },
   {
    "shot": "two",
    "who": [
-    "XER:0:pained",
-    "MIC:1:shock"
+    "RAP:0:angry",
+    "XER:0:pained"
    ],
    "fx": [
-    "stars@60"
+    "stars@60",
+    "burst@55"
    ],
    "sfx": [
-    "sting@60"
+    "sting@60",
+    "thump@55"
    ],
-   "say": "Acontece que a única baixa foi um xerife de Michigan, espetado na perna por um rapaz com um canivete."
+   "say": "Acontece que a única baixa foi um xerife de Michigan, espetado na perna por um rapaz com um canivete.",
+   "set": "countryside",
+   "shot_lock": true,
+   "interacao": "empurrar"
   },
   {
    "shot": "two",
@@ -165,10 +181,10 @@
    ],
    "clima": "limpo",
    "hora": "dia",
-   "say": "No fim das contas, Michigan perdeu a guerra, e ficou rico."
+   "say": "No fim das contas, Michigan perdeu a guerra, e ficou rico.",
+   "interior": "madeira"
   }
  ],
  "heroi": null,
- "ano": 1835,
- "regiao": "eua"
+ "regiao": "generica"
 }

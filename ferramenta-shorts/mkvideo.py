@@ -118,7 +118,7 @@ REGIAO = B.get('regiao')
 if REGIAO is None:
     _rt = __import__('unicodedata').normalize('NFKD', (' '.join(str(b_.get('mapa') or '') for b_ in B['beats']) + ' ' + B.get('title', '') + ' ' + ' '.join(b_['say'] for b_ in B['beats'][:4])).lower()).encode('ascii', 'ignore').decode()
     REGIAO = next((r_ for r_, rx_ in _REG_PAIS if re.search(rx_, _rt)), None)
-    _ano = re.search(r'\b(1[0-9]{3}|[2-9][0-9]{2})\b', B.get('title', '') + ' ' + ID)
+    _ano = re.search(r'(?<![0-9])(1[0-9]{3}|20[0-9]{2})(?![0-9])', B.get('title', '') + ' ' + ID)   # 19/11: 'toledo1835' nao casava com \b (cidade de 1835 ganhava predio moderno dos EUA)
     if REGIAO == 'eua' and _ano and int(_ano.group(1)) < 1850: REGIAO = 'colonial'
     if REGIAO in ('europa', None) and _ano and int(_ano.group(1)) < 500 and re.search(r'roma|grec|cesar|gladiad', _rt): REGIAO = 'classico'
 _regmap = {}
@@ -981,6 +981,7 @@ def build_beat(k, b):
         for rx_, itens_ in LUGARES:
             if not re.search(rx_, _say_sp): continue
             novos_ = [it_ for it_ in itens_ if it_[0] not in tem2_ and not (it_[0] == 'buildings/castle_tower' and any(t_.startswith('kit/marco_') for t_ in tem2_))]   # o marco do roteiro ja e' o castelo: sem torre generica na frente
+            if ANO and ANO < 1900: novos_ = [(('buildings/house_two',) + tuple(it_[1:])) if it_[0] == 'buildings/apartment' else it_ for it_ in novos_]   # 19/11 ZERO RESSALVA: cidade antiga nao tem predio de apartamento moderno
             for as_, x_, z_, sc_ in novos_: props = props + [[as_, x_ * sd2_, z_ - (4 if wide_pre else 0), sc_]]; tem2_.add(as_)
             if novos_: b.setdefault('_auto_obj', []).extend(a_[0] for a_ in novos_); b['fachada'] = False
             break
@@ -1040,7 +1041,8 @@ def build_beat(k, b):
         b.setdefault('sfx', []); b['sfx'] += [f'gun@{_off + i * 5 + (i * 7) % 4}' for i in range(_nf)]
         # NOS TIROS, SOLDADOS CAEM NO CHAO (ordem do Gibson): alguns da tropa caem sentados/deitados ao longo da batalha, cada um num tiro
         _cid = [i_ for i_ in range(_cidx0, len(acts)) if 'outfit' in acts[i_] or acts[i_].startswith('pp(')]
-        for q_, i_ in enumerate(_cid[2::3][:5]):
+        _semq = b.get('sem_mortos') or re.search(r'ninguem (acertou|morreu|se feriu|ficou ferido)|nenhum (morto|ferido)|para o alto|ninguem foi atingido|sem mortos', re.sub(r'[^a-z0-9 ]', '', __import__('unicodedata').normalize('NFKD', b['say'].lower()).encode('ascii', 'ignore').decode()))   # 19/11 ZERO RESSALVA: 'tiros para o alto, ninguem acertou ninguem' nao derruba soldado
+        for q_, i_ in enumerate([] if _semq else _cid[2::3][:5]):
             t_ = _off + 14 + q_ * 17
             acts[i_] = f"Object.assign({acts[i_]}, {{ poses: [[{a} + {t_}, {bb}, 'fall']] }})"
             fx.append(f"{{ k: 'dust', a: {a} + {t_}, b: {a} + {t_ + 20}, at: [X + {num(crowd_pos[min(i_ - _cidx0, len(crowd_pos) - 1)][0])}, DK + 0.1, {num(crowd_pos[min(i_ - _cidx0, len(crowd_pos) - 1)][1] + 0.3)}], s: 0.6 }}")

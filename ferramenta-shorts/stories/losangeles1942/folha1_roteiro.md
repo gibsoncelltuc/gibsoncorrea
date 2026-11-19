@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b3  (~5.5 s)
 - Narracao: Na madrugada, as sirenes tocaram, as luzes da cidade se apagaram, e holofotes varreram o céu.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: ding@40
 - Efeito + som nas palavras-chave: encena: toca @3 -> acao + som de efeito
 - Efeito visual marcado: stars@40
@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b5  (~5.5 s)
 - Narracao: "É um inimigo!", gritou um soldado. Acontece que não havia nada ali, só nuvens e fumaça.
-- Som ambiente: birds
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou -> ring + som de alerta; encena: grita (up) @3 -> acao + som de efeito
 - Efeito visual marcado: -

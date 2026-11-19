@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - No dia do teste, o propulsor gigante decolou com trinta e três motores...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): ENG (variante 0, expressao surprised); ENA (variante 0, expressao surprised); MUS (variante 0, expressao grin) | multidao: 18 de POV
@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Minutos depois, ele voltou do espaço, descendo de ré, direto na direçã...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): ENG (variante 0, expressao nervous)
@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Acontece que, no último segundo, os braços se fecharam, e seguraram o ...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ENA (variante 0, expressao scared); MUS (variante 0, expressao nervous)
@@ -83,7 +83,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - Os engenheiros comemoraram aos gritos. Era a primeira vez que alguém f...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): ENG (variante 0, expressao laugh); ENA (variante 0, expressao laugh); MUS (variante 0, expressao laugh) | multidao: 20 de POV
@@ -103,7 +103,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b10 - Assim, o propulsor que antes ia para o lixo pode ser usado de novo, vá...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): ENA (variante 0, expressao smile, segura paper); ENG (variante 0, expressao grin)
@@ -136,11 +136,9 @@ kit/booster_air | b2, b5, b6 | pronto | conferir na folha de contato se le bem; 
 ## Video inteiro
 - Objeto heroi: kit/tower_mini | grandes momentos: b5, b8 | planos abertos: 4 | mistura: close 12% | medio 69% | aberto 15% | detalhe 4%
 - Interacoes: b0 entregar, b2 discutir, b3 entregar, b4 aproxima-se, b7 susto, b9 abracar, b10 avanca e o outro recua
-- RISCOS GERAIS: 
-  - pouca variedade de cenario ({'harbor': 7, 'street': 4, 'interior True': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: pouca variedade de cenario ({'harbor': 7, 'street': 4, 'interior True': 1}): o video fica parecendo todos os outros
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh mechazilla2024 bN bM` (so essas cenas).

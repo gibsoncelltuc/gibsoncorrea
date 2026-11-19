@@ -9,12 +9,12 @@ b1 | harbor | reveal | 8 | parados (so fala e pisca) | kit/tower | - | -
 b2 | harbor | two | 2 | discutir, INTERAGEM: discutir | kit/booster_air, kit/tower | paper | -
 b3 | harbor | two | 2 | conversar, INTERAGEM: entregar | kit/tower | - | -
 b4 | harbor | two | 2 | conversar, INTERAGEM: aproxima-se | kit/tower | - | -
-b5 | street | crowd | 21 | encena, batalha | kit/booster_air | - | -
-b6 | street | reveal | 1 | reagir | kit/booster_air, kit/tower | - | -
-b7 | street | two | 2 | conversar, INTERAGEM: susto | kit/tower_catch, kit/tower_mini, kit/tower | - | -
-b8 | street | orbit | 23 | comemorar, batalha | kit/tower_catch, kit/tower | - | -
+b5 | countryside | crowd | 21 | encena, batalha | kit/booster_air | - | -
+b6 | countryside | reveal | 1 | reagir | kit/booster_air, kit/tower | - | -
+b7 | countryside | two | 2 | conversar, INTERAGEM: susto | kit/tower_catch, kit/tower_mini, kit/tower | - | -
+b8 | countryside | orbit | 23 | comemorar, batalha | kit/tower_catch, kit/tower | - | -
 b9 | interior True | two | 2 | comemorar, INTERAGEM: abracar | - | - | -
-b10 | harbor | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/tower_catch, kit/tower | paper | -
+b10 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/tower_catch, kit/tower | paper | -
 b11 | harbor | close | 1 | comemorar | kit/tower_catch, kit/tower_mini, kit/tower | - | -
 
 OBJETO HEROI: kit/tower_mini - aparece em 3 cena(s), close nele em 2

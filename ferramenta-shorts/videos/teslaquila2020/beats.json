@@ -291,7 +291,7 @@
    ],
    "interacao": "entregar",
    "say": "Logo apareceu gente revendendo na internet. Até garrafas vazias, por centenas de dólares.",
-   "set": "street"
+   "interior": "loja"
   },
   {
    "shot": "two",
@@ -315,7 +315,7 @@
    ],
    "acao": "conversar",
    "say": "Um anúncio passou de mil e quatrocentos dólares, por uma garrafa sem nenhuma gota dentro.",
-   "set": "street"
+   "interior": "loja"
   },
   {
    "shot": "crowd",

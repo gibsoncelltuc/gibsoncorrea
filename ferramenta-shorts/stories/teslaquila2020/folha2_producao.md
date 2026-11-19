@@ -83,22 +83,22 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - Logo apareceu gente revendendo na internet. Até garrafas vazias, por c...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: interior loja | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): POV (variante 0, expressao smug, segura paper); FAN (variante 0, expressao nervous)
 - Animacao: reagir | interacao: entregar | o ultimo personagem ENTRA andando
-- Objetos/modelos: kit/tequila_bolt, kit/marco_mexico
+- Objetos/modelos: kit/tequila_bolt
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dolares, internet
 - RISCOS: nenhum
 
 ## Cena b9 - Um anúncio passou de mil e quatrocentos dólares, por uma garrafa sem n...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: interior loja | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): FAN (variante 0, expressao shock); POV (variante 1, expressao surprised)
 - Animacao: conversar | interacao: vai ate o outro
-- Objetos/modelos: kit/tequila_bolt, kit/marco_mexico
+- Objetos/modelos: kit/tequila_bolt
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): anuncio, garrafa
 - RISCOS: nenhum
 
@@ -128,7 +128,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/tequila_bolt | b0, b2, b4, b5, b6, b7, b8, b9, b10, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_mexico | b0, b1, b2, b4, b5, b7, b8, b9, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_mexico | b0, b1, b2, b4, b5, b7, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/roadster | b2, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/veg_cacto | b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -137,11 +137,9 @@ kit/veg_cacto | b4, b5 | pronto | conferir na folha de contato se le bem; se par
 ## Video inteiro
 - Objeto heroi: kit/tequila_bolt | grandes momentos: b7, b10 | planos abertos: 3 | mistura: close 27% | medio 56% | aberto 10% | detalhe 8%
 - Interacoes: b0 insiste, b2 discutir, b3 entregar, b4 o outro se aproxima, b5 cochichar, b8 entregar, b9 vai ate o outro
-- RISCOS GERAIS: 
-  - pouca variedade de cenario ({'street': 8, 'interior loja': 2, 'outback': 2}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: pouca variedade de cenario ({'street': 8, 'interior loja': 2, 'outback': 2}): o video fica parecendo todos os outros
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh teslaquila2020 bN bM` (so essas cenas).

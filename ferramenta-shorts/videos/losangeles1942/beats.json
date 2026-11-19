@@ -101,6 +101,7 @@
   },
   {
    "shot": "two",
+   "set": "harbor",
    "hora": "pordosol",
    "who": [
     "CID:0:scared",
@@ -112,7 +113,7 @@
   },
   {
    "shot": "two",
-   "set": "street",
+   "set": "harbor",
    "hora": "pordosol",
    "who": [
     "SOL:0:stern",
@@ -174,6 +175,7 @@
   },
   {
    "shot": "two",
+   "set": "harbor",
    "hora": "amanhecer",
    "who": [
     "SOL:0:shout",
