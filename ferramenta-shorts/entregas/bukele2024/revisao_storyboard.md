@@ -6,6 +6,6 @@ b4: OK - no campo, personagens com ring de alerta e rostos de dúvida mostrando 
 b5: OK - o eleitor deposita o voto na urna azul ao lado do comerciante, os salvadorenhos foram às urnas, urna em primeiro plano e boa legibilidade.
 b6: OK - o deputado de roxo surpreso com o papel na mão, no salão, o resultado impressionou com quase oitenta e cinco por cento dos votos.
 b7: OK - multidão lotando a rua da cidade com texto 84,6% e eleitores comemorando com os braços para cima, apoiadores lotaram as ruas.
-b8: OK - placa HOSPITAL no fundo, o deputado e Bukele conversando ao lado da urna, o motivo citado pelos eleitores foi a queda dos assassinatos.
+b8: CORRIGIDO - placa HOSPITAL sem relacao com a queda enorme no numero de assassinatos citada pelos eleitores -> trocada pela placa MENOS ASSASSINATOS na sala de madeira, deputado e Bukele conversando
 b9: OK - no campo o deputado e o comerciante protestando com gestos largos, organizações de direitos humanos criticaram as prisões em massa e o estado de exceção.
 b10: OK - Bukele sozinho em close no campo com o globo ao lado, sorrindo e acenando, ele virou um dos presidentes mais populares do planeta.
