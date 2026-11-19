@@ -7,7 +7,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | countryside | two | 2 | discutir, INTERAGEM: discutir | kit/logs, nature/tree_pine | - | -
 b1 | countryside | reveal | 10 | parados (so fala e pisca) | - | - | -
 b2 | mountain | two | 2 | discutir, INTERAGEM: vai ate o outro | nature/tree_pine, kit/logs, nature/tree_oak, nature/bush | bag, bag | -
-b3 | countryside | crowd | 18 | discutir, batalha | nature/tree_pine | - | -
+b3 | countryside | crowd | 16 | discutir, batalha | nature/tree_pine | - | -
 b4 | street | orbit | 32 | encena, batalha | - | - | -
 b5 | interior pedra | two | 2 | conversar, INTERAGEM: empurrar | kit/prison_mini | - | -
 b6 | palace | two | 2 | conversar, INTERAGEM: cochichar | - | - | -

@@ -196,12 +196,12 @@
    "batalha": true,
    "tiros": false,
    "crowd": {
-    "n": 16,
+    "n": 14,
     "outfits": [
      "AME",
      "CAN"
     ],
-    "march": false,
+    "march": true,
     "expr": "angry"
    }
   },
