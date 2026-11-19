@@ -34,8 +34,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Pasteur tinha criado uma vacina e testado só em animais, nunca em uma ...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): PAS (variante 0, expressao suspicious); MED (variante 0, expressao nervous)
 - Animacao: conversar | interacao: cochichar
 - Objetos/modelos: kit/syringe
@@ -80,7 +80,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: conversar | interacao: reverencia
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): noticia
-- RISCOS: nenhum
+- RISCOS: 
+  - a narracao fala de FUGA/CORRERIA e ninguem corre -> CORRECAO: "shot": "track" (os personagens atravessam a tela andando/correndo) ou "batalha": true (a tropa foge no plano aberto)
 
 ## Cena b8 - Anos depois, ele virou o guarda do instituto de Pasteur, e cuidou do l...
 - Cenario: street | luz: day | clima: limpo
@@ -103,7 +104,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b10 - No fim, uma picada salvou mais que mil discursos.
-- Cenario: street | luz: day | clima: limpo
+- Cenario: interior pedra | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): PAS (variante 0, expressao smug)
@@ -121,11 +122,12 @@ kit/syringe | b0, b3, b6, b9 | pronto (HEROI: aparece em close) | conferir na fo
 
 
 ## Video inteiro
-- Objeto heroi: kit/syringe | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 16% | medio 70% | aberto 10% | detalhe 4%
+- Objeto heroi: kit/syringe | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 16% | medio 72% | aberto 10% | detalhe 2%
 - Interacoes: b0 susto, b2 avanca e o outro recua, b3 cochichar, b4 o outro se aproxima, b7 reverencia, b8 cochichar, b9 pular
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- b7: a narracao fala de FUGA/CORRERIA e ninguem corre
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh pasteur1885 bN bM` (so essas cenas).

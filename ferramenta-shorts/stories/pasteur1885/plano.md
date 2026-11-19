@@ -2,17 +2,17 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | - | - | -
+b0 | two | -  | - | (rosto) angry (expr + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
-b2 | two | -  | interior | - | -
+b2 | two | -  | interior | (rosto) angry (expr + som de efeito) | -
 b3 | two | -  | interior | - | -
-b4 | two | -  | interior | chegou (dust + som de impacto) | -
-b5 | close | -  | - | - | -
+b4 | two | -  | interior | (rosto) pleading (expr + som de efeito); chegou (dust + som de impacto) | -
+b5 | close | -  | - | (rosto) scared (expr + som de efeito) | -
 b6 | orbit | -  | batalha aberta com tiros, tropa | - | -
-b7 | two | -  | interior | correu (dust + som de impacto) | -
+b7 | two | -  | interior | correu (dust + som de impacto); encena: corre (acao + som de efeito) | -
 b8 | two | -  | - | - | -
 b9 | group | -  | batalha aberta com tiros, tropa, placa: VACINA | - | -
-b10 | close | -  | - | - | -
+b10 | close | -  | interior | (rosto) relief (expr + som de efeito) | -
 
-Mistura de planos: close 16% | medio 70% | aberto 10% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 2 | dentro do padrao do canal
+Mistura de planos: close 16% | medio 72% | aberto 10% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 2 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

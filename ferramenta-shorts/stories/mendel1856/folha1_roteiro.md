@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b2  (~5.2 s)
 - Narracao: Ele cruzou ervilhas amarelas com ervilhas verdes, e esperou para ver a cor dos filhos.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40, ding@60
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: dust@40, stars@60
@@ -31,9 +31,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b3  (~4.1 s)
 - Narracao: Na primeira geração, todas saíram amarelas, como se o verde tivesse sumido.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: sai -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b5  (~4.8 s)
 - Narracao: Ele plantou as amarelas de novo e contou tudo, ervilha por ervilha, durante anos.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@30
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: dust@30
@@ -58,7 +58,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b6  (~5.5 s)
 - Narracao: Acontece que o verde voltou, e sempre na mesma conta: três ervilhas amarelas para uma verde.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40, sting@60
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@40, stars@60
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Ele descobriu que cada filho herda uma instrução do pai e outra da mãe.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: descobriu -> ring + som de alerta
+- Efeito + som nas palavras-chave: descobriu -> ring + som de alerta; encena: examina (think) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Só no ano mil e novecentos, já depois da morte dele, os cientistas viram que ele estava certo.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@30, sting@70
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: olha (point) -> acao + som de efeito
 - Efeito visual marcado: stars@30, burst@70
 - Texto na tela: GENÉTICA
 - Funcao na historia: GRANDE MOMENTO

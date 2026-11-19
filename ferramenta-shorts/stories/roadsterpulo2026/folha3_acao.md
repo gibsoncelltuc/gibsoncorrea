@@ -4,7 +4,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 11 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 7.4s - 21 palavras - plano two
+## Cena b0 - 0.2s a 5.7s - 21 palavras - plano two
 > "Elon Musk prometeu um carro que voa. Em outubro de dois mil e vinte e seis, ele mostrou o que conseguiu."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -15,14 +15,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | PLACA | 2026 | OK |
 
-## Cena b1 - 7.8s a 10.7s - 9 palavras - plano reveal
+## Cena b1 - 7.0s a 9.3s - 9 palavras - plano reveal
 > "Foi numa base de testes da SpaceX, no Texas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | MAPA | ESTADOS UNIDOS | OK |
 
-## Cena b2 - 11.1s a 17.4s - 18 palavras - plano two
+## Cena b2 - 10.6s a 15.8s - 18 palavras - plano two
 > "O novo Roadster da Tesla tinha sido prometido em dois mil e dezessete. Foram nove anos de atraso."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -30,17 +30,17 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | discutir | OK |
 | 2 | - | ATUACAO | discutir | OK |
 
-## Cena b3 - 17.8s a 23.3s - 16 palavras - plano two
+## Cena b3 - 17.0s a 22.7s - 16 palavras - plano two
 > "O segredo eram dez pequenos propulsores da SpaceX, movidos a ar comprimido, escondidos dentro do carro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | segredo (18.1s) | EFEITO: ring | onda + som | OK |
+| 1 | segredo (17.2s) | EFEITO: ring | onda + som | OK |
 | 2 | - | INTERACAO | cochichar | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | CHEGADA | alguem entra andando | OK |
 
-## Cena b4 - 23.7s a 30.4s - 19 palavras - plano crowd
+## Cena b4 - 23.9s a 29.2s - 19 palavras - plano crowd
 > "Acontece que, na frente da plateia, o carro acelerou e pulou por cima de cinco outros carros da Tesla."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -50,14 +50,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | ATUACAO | reagir | OK |
 | 4 | - | PLACA | PULOU! | OK |
 
-## Cena b5 - 30.7s a 34.8s - 12 palavras - plano low
+## Cena b5 - 30.3s a 33.3s - 12 palavras - plano low
 > "Depois, girou no ar e desceu de novo sobre as quatro rodas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | reagir | OK |
 
-## Cena b6 - 35.2s a 40.0s - 14 palavras - plano two
+## Cena b6 - 34.5s a 38.4s - 14 palavras - plano two
 > "Musk disse que nunca tinha visto nada parecido, nem em filme de James Bond."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -65,16 +65,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | pular | OK |
 | 2 | - | ATUACAO | comemorar | OK |
 
-## Cena b7 - 40.4s a 45.6s - 15 palavras - plano two
+## Cena b7 - 39.5s a 44.0s - 15 palavras - plano two
 > "Mas especialistas lembraram: aquilo foi um salto de poucos segundos, não um voo de verdade."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | salto (42.6s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
+| 1 | salto (41.9s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
 | 2 | - | INTERACAO | reverencia | OK |
 | 3 | - | ATUACAO | discutir | OK |
 
-## Cena b8 - 45.9s a 54.4s - 24 palavras - plano two
+## Cena b8 - 45.3s a 51.2s - 24 palavras - plano two
 > "Segundo a Tesla, ele vai de zero a cem em cerca de um segundo. A fabricação ficou para dois mil e vinte e oito."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -82,7 +82,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | entregar | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 54.8s a 60.4s - 16 palavras - plano orbit
+## Cena b9 - 52.3s a 58.0s - 16 palavras - plano orbit
 > "O vídeo foi visto milhões de vezes. Metade do mundo ficou impressionada, a outra metade desconfiada."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -92,11 +92,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | ATUACAO | comemorar | OK |
 | 4 | - | PLACA | VOOU? | OK |
 
-## Cena b10 - 60.7s a 63.3s - 8 palavras - plano close
+## Cena b10 - 59.5s a 62.1s - 8 palavras - plano close
 > "Carro voador ou carro que pula? Você decide."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | pula (62.6s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
+| 1 | pula (60.7s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
 | 2 | - | ATUACAO | comemorar | OK |
 

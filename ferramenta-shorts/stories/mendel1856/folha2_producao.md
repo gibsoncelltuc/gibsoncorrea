@@ -10,7 +10,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/pea_green
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): monge
-- RISCOS: nenhum
+- RISCOS: 
+  - ACAO SEM ANIMACAO na narracao: descobrindo -> CORRECAO: a cena precisa MOSTRAR a acao: reescreva com um verbo que a ferramenta encena (veja OPERACAO.md "MODO DE ACAO") ou marque a cena ("batalha", "interacao", "acao", "animals", "props")
 
 ## Cena b1 - Era mil oitocentos e cinquenta e seis, num mosteiro de Brno, e o monge...
 - Cenario: countryside | luz: day | clima: limpo
@@ -23,7 +24,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Ele cruzou ervilhas amarelas com ervilhas verdes, e esperou para ver a...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): MEN (variante 0, expressao grin); FRE (variante 0, expressao suspicious)
@@ -33,7 +34,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - Na primeira geração, todas saíram amarelas, como se o verde tivesse su...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MEN (variante 0, expressao surprised); FRE (variante 0, expressao shock)
@@ -53,17 +54,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Ele plantou as amarelas de novo e contou tudo, ervilha por ervilha, du...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MEN (variante 0, expressao neutral, segura paper); FRE (variante 0, expressao bored, segura shovel)
-- Animacao: - | interacao: insiste
+- Animacao: encena | interacao: insiste
 - Objetos/modelos: kit/pea_yellow, kit/pea_green
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): amarelas, novo
 - RISCOS: nenhum
 
 ## Cena b6 - Acontece que o verde voltou, e sempre na mesma conta: três ervilhas am...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): MEN (variante 0, expressao shock); FRE (variante 0, expressao surprised) | multidao: 10 de FRE/POV
@@ -131,7 +132,8 @@ kit/pea_yellow | b2, b3, b5, b6, b9 | pronto | conferir na folha de contato se l
 - Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b3 susto, b4 discutir, b5 insiste, b7 cochichar, b8 vai ate o outro, b9 pular
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- b0: ACAO SEM ANIMACAO na narracao: descobrindo
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh mendel1856 bN bM` (so essas cenas).

@@ -8,9 +8,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): GAL (variante 0, expressao grin); ALU (variante 0, expressao shock)
 - Animacao: conversar | interacao: susto
-- Objetos/modelos: kit/pisa_tower, kit/ball
+- Objetos/modelos: kit/pisa_tower, kit/marco_pisa, kit/ball
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bola, chao
-- RISCOS: nenhum
+- RISCOS: 
+  - ACAO SEM ANIMACAO na narracao: bateram -> CORRECAO: a cena precisa MOSTRAR a acao: reescreva com um verbo que a ferramenta encena (veja OPERACAO.md "MODO DE ACAO") ou marque a cena ("batalha", "interacao", "acao", "animals", "props")
 
 ## Cena b1 - Conta a história que, em Pisa, na Itália, por volta de mil quinhentos ...
 - Cenario: street | luz: day | clima: limpo
@@ -18,7 +19,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): ALU (variante 0, expressao smile); ALU (variante 1, expressao neutral) | multidao: 8 de ALU
 - Animacao: -
-- Objetos/modelos: -
+- Objetos/modelos: kit/marco_pisa
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): italia, jovem, sabio
 - RISCOS: nenhum
 
@@ -58,7 +59,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): GAL (variante 0, expressao smile); ALU (variante 0, expressao surprised)
 - Animacao: conversar | interacao: avanca e o outro recua | o ultimo personagem ENTRA andando
-- Objetos/modelos: kit/pisa_tower, kit/ball, war/cannonballs, buildings/castle_tower
+- Objetos/modelos: kit/pisa_tower, kit/ball, war/cannonballs, kit/marco_pisa, buildings/castle_tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): duas, pesos, pisa, torre
 - RISCOS: nenhum
 
@@ -68,12 +69,13 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): GAL (variante 0, expressao shock); ALU (variante 0, expressao surprised) | multidao: 12 de ALU/PRO
 - Animacao: reagir | batalha encenada
-- Objetos/modelos: kit/pisa_tower, kit/ball, war/cannonballs
+- Objetos/modelos: kit/pisa_tower, kit/ball, war/cannonballs, kit/marco_pisa
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chao, duas
-- RISCOS: nenhum
+- RISCOS: 
+  - ACAO SEM ANIMACAO na narracao: bateram -> CORRECAO: a cena precisa MOSTRAR a acao: reescreva com um verbo que a ferramenta encena (veja OPERACAO.md "MODO DE ACAO") ou marque a cena ("batalha", "interacao", "acao", "animals", "props")
 
 ## Cena b7 - A plateia ficou de boca aberta, e os professores ficaram bravos.
-- Cenario: street | luz: day | clima: limpo
+- Cenario: stadium | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (3): PRO (variante 0, expressao angry); PRO (variante 1, expressao angry); ALU (variante 0, expressao laugh)
@@ -108,16 +110,32 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): GAL (variante 0, expressao smug)
 - Animacao: conversar
-- Objetos/modelos: kit/feather
+- Objetos/modelos: kit/marco_pisa
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pena
 - RISCOS: nenhum
+
+## PARA O BLENDER (objetos 3D deste video)
+Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito no Blender; a ferramenta so' poe em cena, pinta o contorno e anima. Nada de objeto "quadradao": use `blender/formas.py` (cil, bola, torno, tubo, arco, caixa com chanfro).
+
+Objeto | Cenas | Situacao | O que fazer
+---|---|---|---
+kit/pisa_tower | b0, b5, b6 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_pisa | b0, b1, b5, b6, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/ball | b0, b5, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+war/cannonballs | b5, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/castle_tower | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+tools/hammer | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/feather | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+
 
 ## Video inteiro
 - Objeto heroi: kit/pisa_tower | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 7% | medio 79% | aberto 11% | detalhe 2%
 - Interacoes: b0 susto, b2 vai ate o outro, b3 aproxima-se, b4 discutir, b5 avanca e o outro recua, b7 susto, b8 cochichar, b9 pular
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 2 risco(s) em aberto
+- b0: ACAO SEM ANIMACAO na narracao: bateram
+- b6: ACAO SEM ANIMACAO na narracao: bateram
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh galileu1589 bN bM` (so essas cenas).

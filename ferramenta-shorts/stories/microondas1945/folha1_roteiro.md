@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Depois testou um ovo, e o ovo explodiu bem na cara de um colega.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: squeal@50
-- Efeito + som nas palavras-chave: explodiu -> burst + som de tiro/explosao
+- Efeito + som nas palavras-chave: explodiu -> burst + som de tiro/explosao; encena: desaba -> acao + som de efeito
 - Efeito visual marcado: puff@50
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Dois anos depois, saiu o primeiro forno, mais alto que uma pessoa e com mais de trezentos quilos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: calor (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: sai -> acao + som de efeito; encena: calor (reach) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: No fim, o chocolate perdeu, mas a pipoca agradece.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; perdeu -> puff + som de baque
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; perdeu -> puff + som de baque; encena: perde (facepalm) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

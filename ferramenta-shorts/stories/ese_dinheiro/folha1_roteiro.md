@@ -58,7 +58,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b6  (~3.4 s)
 - Narracao: Em poucas semanas, as feiras de troca tomariam as praças.
-- Som ambiente: sea
+- Som ambiente: birds
 - Efeitos sonoros marcados: ding@20
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20
@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b7  (~4.8 s)
 - Narracao: Em poucos meses, alguma coisa viraria o novo dinheiro: sal, ouro, ou até figurinha.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: dinheiro: -> stars + som de sino; ouro -> stars + som de sino
 - Efeito visual marcado: -
@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b9  (~3.8 s)
 - Narracao: Ou seja: dinheiro não é papel. É confiança entre as pessoas.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
 - Efeito + som nas palavras-chave: dinheiro -> stars + som de sino
 - Efeito visual marcado: stars@20, stars@60

@@ -2,13 +2,13 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | - | caíram (dust + som de impacto) | -
+b0 | two | -  | - | caíram (dust + som de impacto); encena: tomba (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | interior | - | -
 b3 | group | -  | interior | - | -
-b4 | two | -  | interior | - | -
+b4 | two | -  | interior | encena: examina (think) (acao + som de efeito) | -
 b5 | two | -  | - | - | -
-b6 | orbit | -  | batalha aberta com tiros, tropa | - | -
+b6 | orbit | -  | batalha aberta com tiros, tropa | encena: tomba (acao + som de efeito) | -
 b7 | group | -  | - | - | -
 b8 | two | -  | interior, objeto na mao | - | -
 b9 | group | noite  | batalha aberta com tiros, tropa | caíram (dust + som de impacto) | -

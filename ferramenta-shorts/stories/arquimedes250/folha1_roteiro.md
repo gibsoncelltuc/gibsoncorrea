@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Um homem pulou da banheira e saiu correndo pela rua, gritando uma palavra só.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: steps@10
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: pula -> acao + som de efeito; encena: sai -> acao + som de efeito; encena: corre -> acao + som de efeito; encena: grita (up) -> acao + som de efeito
 - Efeito visual marcado: dust@20
 - Texto na tela: EUREKA
 - Funcao na historia: GANCHO
@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Conta a história que, em Siracusa, na Sicília, por volta de duzentos e cinquenta antes de Cristo, tudo começou com uma suspeita.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: (rosto) distrust -> expr + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: SICÍLIA
 - Funcao na historia: desenvolvimento
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O rei Hierão mandou fazer uma coroa de ouro puro, mas desconfiou do ourives.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: ouro -> stars + som de sino
+- Efeito + som nas palavras-chave: (rosto) distrust -> expr + som de efeito; ouro -> stars + som de sino; encena: fala (point) -> acao + som de efeito; encena: pensa (think) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -49,16 +49,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b5  (~3.8 s)
 - Narracao: Arquimedes pensou por dias e dias, e a resposta não vinha.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: pensa (think) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b6  (~4.8 s)
 - Narracao: Acontece que, numa tarde, ele entrou na banheira, e a água transbordou pelas bordas.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: whoosh@50, ding@70
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@50, stars@70
@@ -69,16 +69,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Ele percebeu que o tanto de água que sai é igual ao tamanho do corpo que entra.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: percebeu -> ring + som de alerta
+- Efeito + som nas palavras-chave: percebeu -> ring + som de alerta; encena: pensa (think) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b8  (~5.2 s)
 - Narracao: Assim dava para medir a coroa, e comparar com o mesmo peso de ouro puro.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: ouro -> stars + som de sino
+- Efeito + som nas palavras-chave: ouro -> stars + som de sino; encena: examina (think) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: "Eureca!", gritou ele, e a cidade inteira correu atrás. A coroa tinha prata misturada.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30, sting@80
-- Efeito + som nas palavras-chave: gritou -> ring + som de alerta; correu -> dust + som de impacto
+- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou -> ring + som de alerta; correu -> dust + som de impacto; encena: grita (up) -> acao + som de efeito; encena: corre -> acao + som de efeito
 - Efeito visual marcado: stars@30, burst@80
 - Texto na tela: EUREKA
 - Funcao na historia: GRANDE MOMENTO

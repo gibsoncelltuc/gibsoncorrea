@@ -8,9 +8,9 @@ b0 | street | two | 2 | conversar, INTERAGEM: susto | kit/kite | - | -
 b1 | street | reveal | 10 | parados (so fala e pisca) | - | - | -
 b2 | interior madeira | group | 3 | conversar, INTERAGEM: aproxima-se | - | - | -
 b3 | interior madeira | two | 2 | conversar, INTERAGEM: discutir | - | - | -
-b4 | street | two | 2 | reagir, INTERAGEM: avanca e o outro recua | kit/kite, kit/key | - | -
-b5 | street | close | 1 | reagir | kit/kite, kit/key | - | -
-b6 | street | orbit | 10 | reagir, batalha | kit/key, kit/kite | - | -
+b4 | harbor | two | 2 | reagir, INTERAGEM: avanca e o outro recua | kit/kite, kit/key | - | -
+b5 | harbor | close | 1 | reagir | kit/kite, kit/key | - | -
+b6 | harbor | orbit | 10 | reagir, batalha | kit/key, kit/kite | - | -
 b7 | interior madeira | two | 2 | discutir, INTERAGEM: cochichar | kit/kite | - | -
 b8 | interior madeira | two | 2 | conversar, INTERAGEM: o outro se aproxima | - | - | -
 b9 | street | group | 16 | comemorar, INTERAGEM: pular, batalha | kit/lightning_rod, buildings/house_small, nature/picket_fence, nature/tree_oak | - | -

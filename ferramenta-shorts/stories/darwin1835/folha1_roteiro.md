@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Um cientista misturou as etiquetas de uns passarinhos, e isso explicou a vida na Terra.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: mistura (stir) -> acao + som de efeito; encena: fala (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GANCHO
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Darwin achou que eram aves bem diferentes entre si, e nem anotou de qual ilha vinha cada uma.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: examina (think) -> acao + som de efeito; encena: escreve (write) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,16 +51,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: A diferença estava no bico: uns grossos para quebrar sementes, outros finos para pegar insetos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40, ding@60
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: quebra (throw) -> acao + som de efeito
 - Efeito visual marcado: dust@40, stars@60
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b6  (~5.9 s)
 - Narracao: Acontece que Darwin entendeu que, em cada ilha, o bico tinha mudado de acordo com a comida.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40, sting@60
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: pensa (think) -> acao + som de efeito
 - Efeito visual marcado: ring@40, stars@60
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -78,16 +78,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Essa ideia foi a seleção natural, e ele publicou o livro em mil oitocentos e cinquenta e nove.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: pensa (think) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b9  (~6.2 s)
 - Narracao: A ideia virou a base da biologia moderna, e mostra como a vida muda ao longo do tempo.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30, sting@70
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: pensa (think) -> acao + som de efeito; encena: vira (up) -> acao + som de efeito
 - Efeito visual marcado: stars@30, burst@70
 - Texto na tela: EVOLUÇÃO
 - Funcao na historia: GRANDE MOMENTO

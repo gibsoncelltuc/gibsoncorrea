@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Uma bola pesada e outra leve caíram juntas e bateram no chão ao mesmo tempo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@30
-- Efeito + som nas palavras-chave: caíram -> dust + som de impacto
+- Efeito + som nas palavras-chave: caíram -> dust + som de impacto; encena: tomba -> acao + som de efeito
 - Efeito visual marcado: dust@30
 - Texto na tela: -
 - Funcao na historia: GANCHO
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Mas Galileu Galilei achou estranho e disse: "Eu vou provar o contrário."
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: examina (think) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que, quando ele soltou as duas, elas bateram no chão ao mesmo tempo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40, ding@60
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: tomba -> acao + som de efeito
 - Efeito visual marcado: ring@40, stars@60
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

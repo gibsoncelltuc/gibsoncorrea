@@ -4,10 +4,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Um homem pulou da banheira e saiu correndo pela rua, gritando uma pala...
 - Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: track = travelling lateral acompanhando quem anda
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): ARQ (variante 0, expressao shout); POV (variante 0, expressao shock)
-- Animacao: conversar | interacao: susto | o ultimo personagem ENTRA andando
+- Animacao: encena
 - Objetos/modelos: kit/bathtub
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): banheira, homem, palavra
 - RISCOS: nenhum
@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Arquimedes pensou por dias e dias, e a resposta não vinha.
-- Cenario: street | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): ARQ (variante 0, expressao sad)
@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Acontece que, numa tarde, ele entrou na banheira, e a água transbordou...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): ARQ (variante 0, expressao shock); POV (variante 0, expressao surprised) | multidao: 10 de POV
@@ -83,11 +83,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - Assim dava para medir a coroa, e comparar com o mesmo peso de ouro pur...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: prop = - + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ARQ (variante 0, expressao grin); OUR (variante 0, expressao nervous)
-- Animacao: reagir | interacao: vai ate o outro
+- Animacao: reagir | interacao: susto
 - Objetos/modelos: kit/crown
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): coroa, ouro
 - RISCOS: nenhum
@@ -110,14 +110,30 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: conversar
 - Objetos/modelos: kit/bathtub
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): banheira
-- RISCOS: nenhum
+- RISCOS: 
+  - a narracao cita "rei" e ninguem em cena esta vestido a carater -> CORRECAO: por no "who" um personagem com "profissao": "rei" no figurino (coroa/farda/chapeu proprios)
+
+## PARA O BLENDER (objetos 3D deste video)
+Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito no Blender; a ferramenta so' poe em cena, pinta o contorno e anima. Nada de objeto "quadradao": use `blender/formas.py` (cil, bola, torno, tubo, arco, caixa com chanfro).
+
+Objeto | Cenas | Situacao | O que fazer
+---|---|---|---
+kit/bathtub | b0, b6, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/crown | b2, b4, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/apartment | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/house_two | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/lamppost | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+
 
 ## Video inteiro
-- Objeto heroi: kit/bathtub | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 16% | medio 69% | aberto 11% | detalhe 4%
-- Interacoes: b0 susto, b2 discutir, b3 o outro se aproxima, b4 entregar, b7 cochichar, b8 vai ate o outro, b9 pular
-- RISCOS GERAIS: nenhum
+- Objeto heroi: kit/bathtub | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 16% | medio 71% | aberto 11% | detalhe 2%
+- Interacoes: b2 discutir, b3 o outro se aproxima, b4 entregar, b7 cochichar, b8 susto, b9 pular
+- RISCOS GERAIS: 
+  - objeto heroi (kit/bathtub) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 2 risco(s) em aberto
+- b10: a narracao cita "rei" e ninguem em cena esta vestido a carater
+- geral: objeto heroi (kit/bathtub) sem close de camera
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh arquimedes250 bN bM` (so essas cenas).

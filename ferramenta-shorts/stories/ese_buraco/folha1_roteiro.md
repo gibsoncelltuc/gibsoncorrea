@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b5  (~4.1 s)
 - Narracao: Nenhuma máquina aguenta. Mas imagine que desse, e você pulasse no buraco.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: cannon@20, thump@50
 - Efeito + som nas palavras-chave: encena: pula -> acao + som de efeito
 - Efeito visual marcado: burst@20, puff@50
@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b9  (~2.8 s)
 - Narracao: Os cientistas chamam isso de túnel da gravidade.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: ding@20, ding@60
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20, stars@60
