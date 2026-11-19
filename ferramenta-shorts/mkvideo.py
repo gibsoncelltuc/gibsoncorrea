@@ -398,7 +398,7 @@ ENC = [(r'^(misturou|misturaram|misturando|mistura|misturar|mexeu|mexendo|mexia|
        (r'^(virou|viraram|transformou|transformaram|endureceu|endureceram|firme|elastica|elastico|solidificou|nasceu|nasciam|surgiu|criou|criaram|inventou|inventaram|derreteu|pronto|pronta)$', 'up', 'vira'),
        (r'^(construir|construimos|construida|construido|construcoes|construcao|construiu|construiram|montou|montaram|fabricou|fabricaram|ergueu|ergueram|soldou|martelou|consertou|consertar)$', 'hammer', 'constroi'),
        (r'^(examinou|observou|observava|analisou|estudou|estudava|mediu|medir|pesou|microscopio|lupa|investigou)$', 'think', 'examina'),
-       (r'^(quimico|quimicos|quimica|acido|reagente|formula|experiencia|experiencias|experimento|experimentos|laboratorio|substancia|solucao)$', 'pour', 'quimico'),
+       (r'^(quimico|quimicos|quimica|acido|reagente|formula|experiencia|experiencias|experimento|experimentos|laboratorio|substancia)$', 'pour', 'quimico'),   # 'solucao' saiu: quase sempre e' 'a resposta' (a solucao: mandar bichos), nao liquido
        (r'^(escreveu|escreveram|anotou|anotava|assinou|assinaram|desenhou|rabiscou|calculou)$', 'write', 'escreve'),
        (r'^(socou|soco|socos|socando|nocauteou|chutou|chute|esmurrou)$', 'punch', 'golpe'),
        (r'^(cortavam|cortava|cortou|cortaram|cortar|serrou|serravam|machado|lenhadores|lenhador|derrubavam)$', 'hammer', 'corta'),
