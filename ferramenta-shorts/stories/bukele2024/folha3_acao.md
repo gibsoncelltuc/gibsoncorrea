@@ -83,7 +83,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | eleitores (49.4s) | ACAO: voto | poe o voto na urna | OK |
 | 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | conversar | OK |
-| 4 | - | PLACA | HOSPITAL | OK |
+| 4 | - | PLACA | MENOS ASSASSINATOS | OK |
 
 ## Cena b9 - 53.4s a 58.3s - 15 palavras - plano two
 > "Organizações de direitos humanos, porém, criticaram as prisões em massa e o estado de exceção."

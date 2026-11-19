@@ -12,7 +12,7 @@ b4 | jungle | crowd | 14 | reagir, batalha | kit/volcano | paper | -
 b5 | jungle | two | 2 | conversar, INTERAGEM: entregar | kit/ballot_box, kit/volcano | - | -
 b6 | interior loja | close | 1 | reagir | - | paper | -
 b7 | street | crowd | 33 | comemorar, batalha | kit/ballot_box, kit/volcano | - | -
-b8 | interior hospital | two | 2 | conversar, INTERAGEM: vai ate o outro | - | paper | -
+b8 | interior madeira | two | 2 | conversar, INTERAGEM: vai ate o outro | - | paper | -
 b9 | jungle | two | 2 | discutir, INTERAGEM: empurrar | kit/volcano | - | -
 b10 | jungle | close | 1 | comemorar | kit/ballot_box, kit/volcano, kit/globe | - | -
 

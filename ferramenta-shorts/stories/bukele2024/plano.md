@@ -10,7 +10,7 @@ b4 | crowd | -  | batalha aberta com tiros, tropa, objeto na mao | ilegal (ring 
 b5 | two | -  | - | encena: voto (reach) @3 (acao + som de efeito) | -
 b6 | close | -  | interior, objeto na mao | - | -
 b7 | crowd | -  | batalha aberta com tiros, tropa, placa: 84,6% | (rosto) laugh (expr + som de efeito); encena: vence (up) @6 (acao + som de efeito) | -
-b8 | two | -  | interior, placa: HOSPITAL, objeto na mao | encena: voto (reach) @5 (acao + som de efeito) | -
+b8 | two | -  | interior, placa: MENOS ASSASSINATOS, objeto na mao | encena: voto (reach) @5 (acao + som de efeito) | -
 b9 | two | -  | - | encena: protesto (up) @5 (acao + som de efeito) | -
 b10 | close | -  | - | - | -
 
