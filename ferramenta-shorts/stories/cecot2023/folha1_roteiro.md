@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: El Salvador construiu uma prisão tão grande que virou notícia no mundo inteiro.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: constroi (hammer) -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 2023
 - Funcao na historia: GANCHO
@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b2  (~5.9 s)
 - Narracao: Por anos, El Salvador teve uma das maiores taxas de assassinato do mundo, por causa das gangues.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b4  (~5.9 s)
 - Narracao: Para guardar tanta gente, ergueram o Centro de Confinamento do Terrorismo, com vagas para quarenta mil presos.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@30
@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b5  (~4.1 s)
 - Narracao: Muralhas altas, cercas elétricas e torres de vigia por todos os lados.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@30
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: puff@30
@@ -58,7 +58,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b6  (~4.1 s)
 - Narracao: Acontece que, nos anos seguintes, o número de assassinatos no país despencou.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@40
@@ -101,3 +101,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL
 
+
+## Fontes (fatos conferidos)
+- https://www.as-coa.org/articles/explainer-el-salvadors-2024-presidential-and-legislative-elections
+- https://www.riotimesonline.com/who-is-nayib-bukele-el-salvador-profile-2026/

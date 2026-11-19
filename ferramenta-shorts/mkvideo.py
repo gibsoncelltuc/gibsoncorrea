@@ -102,8 +102,8 @@ USED_SETS = [SET] + sorted({b['set'] for b in B['beats'] if b.get('set') and b['
 # ===== CIDADE DA REGIAO (ordem do Gibson 19/11): os predios de fundo seguem o pais/epoca da historia =====
 # "regiao" no topo do roteiro (europa, franca, holanda, eua, oriente, colonial, japao, russia, africa, classico) ou deduzida do "mapa"/titulo/narracao.
 _REG_PAIS = (('franca', r'franc|paris'), ('holanda', r'holand|amsterd|paises baixos'),
-    ('eua', r'estados unidos|\beua\b|america\b|nova york|california|texas|florida|maine|chicago|los angeles|washington|hollywood|las vegas'),
-    ('oriente', r'egito|egipc|ira\b|irao|iraque|arabia|marrocos|turquia|israel|palestin|dubai|siria|jordania|persia|babilon|meca|cairo'),
+    ('eua', r'estados unidos|\beua\b|america\b|nova york|california|texas|florida|maine|chicago|los angeles|washington|hollywood|las vegas|ohio|michigan|toledo|detroit|nova jersey|boston|filadelfia|virginia|georgia|alabama|kansas|nebraska|iowa|oregon|montana|colorado|arizona|nevada|novo mexico|alasca|havai|pensilvania|massachusetts|tennessee|kentucky|missouri|minnesota|wisconsin|illinois|indiana|carolina|louisiana|mississippi|oklahoma|utah|idaho'),
+    ('oriente', r'egito|egipc|\bira\b|\birao\b|iraque|arabia|marrocos|turquia|israel|palestin|dubai|siria|jordania|persia|babilon|meca|cairo'),
     ('colonial', r'brasil|pernambuco|recife|bahia|rio de janeiro|sao paulo|minas|mexic|el salvador|peru|argentin|colombia|cuba|venezuel|chile|portugal|lisboa|espanha|madri|bolivia|paraguai|uruguai|honduras|guatemala'),
     ('japao', r'japa|toquio|china|chines|coreia|pequim|xangai'), ('russia', r'russi|ucrani|moscou|sibéria|siberia|soviet'),
     ('africa', r'africa|zanzibar|quenia|nigeria|gana|mali|etiopia|congo|angola|mocambique|somalia|sudao|tanzania'),
@@ -269,6 +269,31 @@ for _k, _o in B.get('outfits', {}).items():
     elif ANO >= 1870: _o.pop('belt', None) if _o.get('belt') == '#f1efe6' else None
     if re.search(r'paraquedis|boina|forcas especiais|comando', ' '.join(b_['say'].lower() for b_ in B['beats'])) and not _of and ANO >= 1940: _o['hat'] = 'beret'; _o['cap'] = '#8a2b2b'
 
+# ===== VEGETACAO, FLORES E CHAO DO LUGAR E DA EPOCA (19/11) =====
+# arvores/arbustos/canteiros genericos da biblioteca viram as plantas do lugar; rua moderna (1930+) vira asfalto, antiga fica de pedra/terra.
+_vt = __import__('unicodedata').normalize('NFKD', (' '.join(str(b_.get('mapa') or '') for b_ in B['beats']) + ' ' + B.get('title', '') + ' ' + ' '.join(b_['say'] for b_ in B['beats'][:5])).lower()).encode('ascii', 'ignore').decode()
+_VEG = ((r'mexic|arizona|nevada|texas|deserto|las vegas|novo mexico', {'nature/tree_oak': ['kit/veg_cacto', 'nature/tree_palm'], 'nature/bush': ['kit/veg_cacto'], 'nature/flowerbed': ['kit/veg_cacto']}),
+        (r'brasil|pernambuco|recife|bahia|rio de janeiro|el salvador|zanzibar|caribe|cuba|haiti|jamaica|tropical|amazon|colombia|venezuel|tailand|indonesia|filipinas|havai|panama|honduras|guatemala|nicaragua', {'nature/tree_oak': ['kit/veg_bananeira', 'nature/tree_palm'], 'nature/bush': ['kit/veg_hibisco'], 'nature/flowerbed': ['kit/veg_hibisco']}),
+        (r'japa|toquio|kyoto', {'nature/tree_oak': ['kit/veg_cerejeira', 'nature/tree_pine'], 'nature/bush': ['kit/veg_bambu'], 'nature/flowerbed': ['kit/veg_cerejeira']}),
+        (r'china|chines|pequim|xangai|vietna|coreia', {'nature/tree_oak': ['kit/veg_bambu', 'kit/veg_cerejeira'], 'nature/bush': ['kit/veg_bambu']}),
+        (r'africa|quenia|tanzania|nigeria|etiopia|congo|angola|mocambique|somalia|sudao|savana', {'nature/tree_oak': ['kit/veg_acacia', 'kit/veg_baoba'], 'nature/bush': ['nature/bush'], 'nature/flowerbed': ['nature/rocks']}),
+        (r'australia|emus', {'nature/tree_oak': ['kit/veg_acacia', 'nature/tree_oak'], 'nature/flowerbed': ['nature/rocks']}),
+        (r'egito|egipc|arabia|iraque|\bira\b|\birao\b|dubai|marrocos|persia|babilon|israel|palestin|siria|jordania|\bindia\b', {'nature/tree_oak': ['nature/tree_palm'], 'nature/bush': ['nature/bush'], 'nature/flowerbed': ['nature/rocks']}),
+        (r'italia|roma|grecia|atenas|esparta|espanha|madri|portugal|lisboa|turquia|croacia|sicilia|mediterr|romanos|gladiad', {'nature/tree_oak': ['kit/veg_oliveira', 'kit/veg_cipreste'], 'nature/flowerbed': ['kit/veg_lavanda']}),
+        (r'\bfranc|paris|provenc', {'nature/tree_oak': ['nature/tree_oak', 'kit/veg_cipreste'], 'nature/flowerbed': ['kit/veg_lavanda']}),
+        (r'holand|amsterd|paises baixos', {'nature/flowerbed': ['kit/tulip_bed']}),
+        (r'russi|moscou|siberia|soviet|ucrani|finland|suecia|noruega|canada|alasca|suica|alpes|escandinav', {'nature/tree_oak': ['nature/tree_pine', 'nature/tree_birch'], 'nature/flowerbed': ['nature/bush']}),
+        (r'kansas|fazenda americana|nebraska|iowa|ucrania', {'nature/flowerbed': ['kit/veg_girassol']}))
+if B.get('vegetacao') is not False:
+    for rx_, mp_ in _VEG:
+        if re.search(rx_, _vt):
+            for k_, v_ in mp_.items(): _regmap.setdefault(k_, v_)
+            break
+_CHAO = _REG_CHAO.get(REGIAO)
+if ANO and ANO >= 1930 and SET in ('street', 'stadium', 'hall'): _CHAO = '#6a6a70'   # rua moderna: asfalto cinza (antes de 1930 fica a pedra/terra da regiao)
+elif ANO and ANO < 1800 and not _CHAO: _CHAO = '#b49a78'                               # rua antiga: terra batida
+_ASF = bool(ANO and (ANO >= 1950 or (ANO >= 1925 and REGIAO == "eua")) and B.get("asfalto") is not False)   # rua asfaltada com faixa e calcada (cidade moderna); antes disso pedra/terra
+_REG_JS = f"globalThis.REGMAP = {json.dumps(_regmap)}; globalThis.REGCHAO = {json.dumps(_CHAO)}; globalThis.ASFALTO = {json.dumps(_ASF)};\n"
 _FAMHAIR = {str(o_.get('hair', '')).lower() for o_ in B.get('outfits', {}).values() if o_.get('pele')} - {''}
 for _k, _o in B.get('outfits', {}).items():   # SEM SOSIA (ordem do Gibson): em video com famoso, ninguem mais usa a cor de cabelo dele (loiro do Trump so no Trump)
     if not _o.get('pele') and str(_o.get('hair', '')).lower() in _FAMHAIR: _o['hair'] = '#5a3a22'
@@ -747,8 +772,13 @@ def build_beat(k, b):
         _parte = bool(re.search(r'zarp|partiu|partiram', _say_sp))   # NAVIO EM MOVIMENTO: chegando (do mar para o cais) ou partindo
         props = props + [['ship', -6 if _parte else -42, -24 if _parte else -34, 0.8, {'mover': [-44, -36] if _parte else [-7, -23]}], ['boat', 9 if _parte else 30, -14 if _parte else -22, 1.0, {'mover': [32, -24] if _parte else [8, -13]}]]
         b.setdefault('_auto_obj', []).append('navio em movimento')
+    _ppos = [(sl[i], (ZSW[i % len(ZSW)] if shot in WIDE else ZS[i % len(ZS)])) for i in range(len(persons))]
     for p in props:
         asset, dx, z, s = p[0], p[1] if len(p) > 1 else 0, p[2] if len(p) > 2 else 0.5, p[3] if len(p) > 3 else 1.0
+        # NADA NA FRENTE DE PERSONAGEM (ordem do Gibson): objeto solto (fogueira, barril, caixa...) que cairia em cima/na frente de alguem vai para o lado livre
+        if _ppos and not str(asset).startswith(('kit/room', 'kit/marco', 'kit/rg_', 'buildings/', 'vehicles/', 'kit/ring', 'kit/hospital_ext', 'kit/prison', 'kit/porch', 'mk/')) and float(z) > -2.6 and not (len(p) > 4 and isinstance(p[4], dict) and (p[4].get('carregado') or p[4].get('fixo'))):
+            if any(abs(float(dx) - px_) < 1.35 and float(z) > pz_ - 1.6 for px_, pz_ in _ppos):
+                _xs = [px_ for px_, pz_ in _ppos]; dx = round((max(_xs) + 2.0) if float(dx) >= sum(_xs) / len(_xs) else (min(_xs) - 2.0), 2); z = min(float(z), min(pz_ for px_, pz_ in _ppos) - 0.4)
         ex = p[4] if len(p) > 4 and isinstance(p[4], dict) else {}
         if asset.startswith(('kit/', 'buildings/')) and 'drop' not in ex: ex = {**ex, 'drop': False}   # peca de cenario nao cai do ceu
         extra = ''.join(f', {kk}: {json.dumps(vv)}' for kk, vv in ex.items() if kk not in ('alto', 'mover', 'carregado') and not (kk == 'y' and ex.get('carregado'))) + (f", y: DK + {num(ex.get('y', 0.7))}, move: [[X + {num(dx + mv / 2)}, {num(z)}], {a}, {bb}, 'lin'], drop: false" if ex.get('carregado') and mv else '')   # OBJETO CARREGADO: ["kit/sink", dx_do_personagem + 0.5, z, escala, {"carregado": true}] em cena "track": anda junto na altura das maos + (f", move: [[X + {num(ex['mover'][0])}, {num(ex['mover'][1])}], {a}, Math.round({a} + ({bb} - ({a})) * 0.85), 'sm'], drop: false" if ex.get('mover') else '')
@@ -783,7 +813,8 @@ def build_beat(k, b):
         kind, _, at = e.partition('@'); at = int(at) if at else 4
         if b.get('_enc') and kind in ('puff', 'dust', 'splash'): continue   # cena de processo: a fumaca sai do objeto (encenacao), nao uma nuvem na frente do personagem
         if kind == 'burst': fx.append(f"{{ k: 'burst', a: {a} + {at}, at: [X + {num(sl[0] if n else 0)}, DK + 1.8, 3.2], s: 1.2 }}")
-        elif kind in ('dust', 'puff', 'stars', 'splash', 'ring', 'creak'): fx.append(f"{{ k: {json.dumps(kind)}, a: {a} + {at}, b: {a} + {at + 26}, at: [X, DK + 0.5, 1.2], s: 1.1 }}")
+        elif kind in ('dust', 'puff'): fx.append(f"{{ k: {json.dumps(kind)}, a: {a} + {at}, b: {a} + {at + 26}, at: [X + 0.9, DK + 0.12, 1.0], s: 0.75 }}")   # nos pes, nao na frente do rosto
+        elif kind in ('stars', 'splash', 'ring', 'creak'): fx.append(f"{{ k: {json.dumps(kind)}, a: {a} + {at}, b: {a} + {at + 26}, at: [X, DK + 0.5, 1.2], s: 1.1 }}")
     _armed = any(B.get('outfits', {}).get(o_, {}).get('rifle') for o_ in ([p_[0] for p_ in persons] + list((b.get('crowd') or {}).get('outfits') or [(b.get('crowd') or {}).get('outfit')])) if o_)
     if b.get('impact') and b.get('tiros') is not False and (any(SHOOT.match(nrm(w_)) for w_ in b['say'].split()) or _armed or b.get('batalha')) and crowd_pos:   # fuzilaria cartunesca: clarões piscando pela tropa + som de tiro
         _off = 46 if b.get('caminhoes') else 8; _dur = int(len(b['say'].split()) / 2.7 * 30); _nf = max(8, min(40, (_dur - _off - 12) // 5))   # tiros durante a tomada INTEIRA (depois de a tropa subir nos caminhoes)
@@ -806,6 +837,7 @@ def build_beat(k, b):
                         if shot == 'track' or mv: fx.append(f"{{ k: 'flash', a: WS({wi}), b: WS({wi}) + 8, follow: {ri_}, dx: 1.7, at: [0, DK - 0.55, 0], s: 1.6 }}"); fx.append(f"{{ k: 'puff', a: WS({wi}) + 3, b: WS({wi}) + 20, follow: {ri_}, dx: 1.9, at: [0, DK + 1.9, 0], s: 0.5 }}")   # correndo e atirando: o clarao acompanha o cano
                         else: fx.append(f"{{ k: 'flash', a: WS({wi}), b: WS({wi}) + 8, at: [X + {num(sl[ri_] + 1.55 * _sd)}, DK - 0.55, {num(ZS[ri_ % len(ZS)] + 0.4)}], s: 1.6 }}"); fx.append(f"{{ k: 'puff', a: WS({wi}) + 3, b: WS({wi}) + 24, at: [X + {num(sl[ri_] + 1.8 * _sd)}, DK + 1.9, {num(ZS[ri_ % len(ZS)] + 0.4)}], s: 0.5 }}")
                     elif kind == 'burst': fx.append(f"{{ k: 'burst', a: WS({wi}), b: WS({wi}) + 22, at: [X + {num(px)}, DK + 1.8, {num(pz + 1.5)}], s: {1.7 if wide else 1.2} }}")
+                    elif kind in ('dust', 'puff'): fx.append(f"{{ k: {json.dumps(kind)}, a: WS({wi}), b: WS({wi}) + 28, at: [X + {num(px + 0.9)}, DK + 0.12, {num(pz + 0.2)}], s: {1.3 if wide else 0.7} }}")   # poeira/fumaca NOS PES, de lado (nunca uma nuvem na frente do rosto)
                     else: fx.append(f"{{ k: {json.dumps(kind)}, a: WS({wi}), b: WS({wi}) + 28, at: [X + {num(px)}, DK + 0.5, {num(pz + 1.0)}], s: {1.9 if wide else 1.1} }}")
                     if kick and kind == 'burst': KICKS.append(f"{{ f: WS({wi}), a: {round(kick * 0.35, 3)} }}")   # golpe de camera so' em impacto fisico e pequeno (canal: 0,23% da altura)
                     break

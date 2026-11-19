@@ -28,7 +28,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: track = travelling lateral acompanhando quem anda
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): HUS (variante 0, expressao stern, segura lantern); HUS (variante 1, expressao neutral)
-- Animacao: -
+- Animacao: encena
 - Objetos/modelos: tools/lantern
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frente, hussardos, inimigo
 - RISCOS: nenhum

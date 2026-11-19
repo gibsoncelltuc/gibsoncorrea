@@ -6,7 +6,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | countryside | track | 4 | andando | - | - | -
 b1 | countryside | crowd | 14 | reagir | - | - | -
-b2 | street | track | 2 | andando | tools/lantern | lantern | -
+b2 | street | track | 2 | encena, andando | tools/lantern | lantern | -
 b3 | street | two | 2 | reagir, INTERAGEM: aproxima-se | barrel | bottle | -
 b4 | mountain | two | 2 | comemorar, INTERAGEM: brindar | barrel, tools/lantern | mug, bottle | -
 b5 | mountain | group | 21 | conversar, INTERAGEM: empurrar, alguem chega andando | - | - | -
