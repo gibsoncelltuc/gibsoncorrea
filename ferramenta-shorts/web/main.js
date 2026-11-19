@@ -298,11 +298,36 @@ SETDEF.hall = (X) => {
 };
 SETDEF.stadium = (X) => {
   groundPlane(X, 0, 200, 140, MW.grass, DECK, 4); groundPlane(X, 0, 200, 4, MW.white, DECK + 0.03, 4);
-  const fans = []; const rf = P.rng(77), cols = ['#d8282f', '#27408b', '#f1ece0', '#e8c45a', '#2f8a4a', '#7b5ac9'];
-  for (let r = 0; r < 5; r++) { add(box(160, 1.2, 3.2), toon({ color: '#9a9a9f' }), X, DECK + 0.6 + r * 1.2, -34 - r * 3.2, world);
-    /* torcida de bolinhas removida (19/11): a torcida agora sao personagens de verdade torcendo (mkvideo poe nas arquibancadas) */ }
+  const NR = 8, Z0 = -18, DZ = 2.7, DY = 1.8;   /* ARQUIBANCADA LOTADA (ordem do Gibson 19/11): 9 degraus altos e perto do campo */
+  for (let r = 0; r < NR; r++) add(box(170, DY, DZ + 0.05), toon({ color: r % 2 ? '#8e8e96' : '#9a9aa2' }), X, DECK + DY / 2 + r * DY, Z0 - r * DZ, world);
+  add(box(170, 3.5, 1), toon({ color: '#c8c8d0' }), X, DECK + 0.6, Z0 + DZ / 2 + 0.6, world);   /* mureta na beira do campo */
+  add(box(170, 2.2, 0.6), toon({ color: '#27408b' }), X, DECK + NR * DY + 1.6, Z0 - NR * DZ, world);   /* faixa do alto */
   for (const sx of [-1, 1]) { add(new THREE.CylinderGeometry(0.1, 0.1, 3, 8), MW.white, X + sx * 24, DECK + 1.5, 0, world); add(new THREE.CylinderGeometry(0.1, 0.1, 3, 8), MW.white, X + sx * 24, DECK + 3, 3, world).rotation.x = Math.PI / 2; }
-  UPD.push((W, f, t) => { fans.forEach((m, k) => { const [r, i] = m.userData.fan; m.position.y = DECK + 1.9 + r * 1.2 + 0.28 * Math.abs(Math.sin(t * 4 + i * 1.7 + r)); }); });
+  /* TORCIDA: atlas com 10 torcedores x 2 quadros (bracos para cima / acenando, gritando, rindo) desenhados com o MESMO tracado dos personagens; centenas de copias na GPU pulando fora de fase */
+  const NV = 10, CWp = 300, CHp = 500, cv = document.createElement('canvas'); cv.width = NV * CWp; cv.height = 2 * CHp; const g = cv.getContext('2d');
+  const camis = ['#d8282f', '#27408b', '#f1ece0', '#e8c45a', '#2f8a4a', '#7b5ac9', '#e07a2a', '#1f2f5c', '#c25a7a', '#3aa0c8'], cab = ['#2b2018', '#5a3a24', '#e8c45a', '#1b1b1f', '#8a4f1c'];
+  for (let v = 0; v < NV; v++) for (let q = 0; q < 2; q++) {
+    const o = { jacket: camis[v], pants: ['#3b3f52', '#2a2a30', '#4a5a7a'][v % 3], boots: '#2a2a30', skin: T.SKINS[v % T.SKINS.length], hat: v % 4 === 3 ? 'cap' : 'hair', hair: cab[v % 5], hatColor: camis[(v + 3) % NV] };
+    g.setTransform(CWp / 600, 0, 0, CHp / 1000, v * CWp, q * CHp);
+    try { T.bodyFront(new T.Pen(g), o, { blink: false, mode: 'stand', phase: 0, expr: q ? (v % 2 ? 'shout' : 'laugh') : (v % 2 ? 'laugh' : 'grin'), gest: q ? 'wave2' : 'up', gk: 1, gt: v * 0.3, tilt: (v % 3 - 1) * 5 }); } catch (e) { console.warn('torcida', e); }
+  }
+  const tex = new THREE.CanvasTexture(cv); tex.colorSpace = THREE.SRGBColorSpace; tex.anisotropy = 4;
+  const FH = 2.5, geo = new THREE.PlaneGeometry(FH * 0.6, FH); geo.translate(0, FH / 2, 0);
+  const pos = [], cell = [], ph = []; const rf = P.rng(77);
+  for (let r = 0; r < NR; r++) for (let x = -84; x <= 84; x += 0.95) { pos.push(X + x + (rf() - 0.5) * 0.3, DECK + (r + 1) * DY - 0.15, Z0 - r * DZ + 0.2 + (rf() - 0.5) * 0.3); cell.push(Math.floor(rf() * NV)); ph.push(rf() * 6.283); }
+  const N = cell.length, ig = new THREE.InstancedBufferGeometry(); ig.index = geo.index; ig.setAttribute('position', geo.attributes.position); ig.setAttribute('uv', geo.attributes.uv);
+  ig.setAttribute('ofs', new THREE.InstancedBufferAttribute(new Float32Array(pos), 3)); ig.setAttribute('cell', new THREE.InstancedBufferAttribute(new Float32Array(cell), 1)); ig.setAttribute('ph', new THREE.InstancedBufferAttribute(new Float32Array(ph), 1)); ig.instanceCount = N;
+  const uT = { value: 0 }, VS = `attribute vec3 ofs; attribute float cell, ph; uniform float tt; varying vec2 vUv; varying float vD;
+    void main(){ float k = step(.5, fract(tt * .9 + ph / 6.283)); vUv = vec2((cell + uv.x) / ${NV}.0, (uv.y + (1. - k)) / 2.);
+      vec3 p = position; float sw = sin(tt * 5. + ph) * .09; p.x += sw * p.y * .25;
+      vec4 mv = modelViewMatrix * vec4(ofs + vec3(0., abs(sin(tt * 7. + ph)) * .32, 0.), 1.); mv.xy += p.xy; vD = -mv.z; gl_Position = projectionMatrix * mv; }`;
+  const mat = new THREE.ShaderMaterial({ uniforms: { map: { value: tex }, tt: uT }, vertexShader: VS, side: THREE.DoubleSide,
+    fragmentShader: `uniform sampler2D map; varying vec2 vUv; varying float vD; void main(){ vec4 c = texture2D(map, vUv); if (c.a < .5) discard; gl_FragColor = vec4(c.rgb * .96, 1.); }` });
+  mat.toneMapped = false;
+  const nd = new THREE.ShaderMaterial({ uniforms: { map: { value: tex }, tt: uT }, vertexShader: VS, side: THREE.DoubleSide,
+    fragmentShader: `uniform sampler2D map; varying vec2 vUv; varying float vD; void main(){ if (texture2D(map, vUv).a < .5) discard; gl_FragColor = vec4(0., 0., 0., vD); }` });
+  const crowd = new THREE.Mesh(ig, mat); crowd.frustumCulled = false; crowd.userData.nd = nd; crowd.castShadow = false; world.add(crowd);
+  UPD.push((W, f, t) => { uT.value = t; });
   makeTufts(X, 0, 190, 130, 1800, ['#4f9a3e', '#5aa844'], () => true, 0.2); farHills(X, -150, '#8a96b8', '#9aa6c8', 8, 300);
 };
 // SET mountain: rocky war-torn slope (Monte Cassino): grey-brown rock ground, boulders, dead trees, ruins, sandbags, smoke-grey sky.
@@ -345,7 +370,7 @@ const DRESS = {
   medieval: ['barrel', 'crate', 'tools/lantern', 'war/shield', 'war/sandbags', 'tools/anvil', 'nature/haybale'],
   street: ['barrel', 'crate', 'tools/lantern', 'nature/bench', 'nature/bush', 'tools/ladder'],
   hall: ['barrel', 'crate', 'tools/lantern', 'war/drum', 'mk/Bench'],
-  stadium: ['crate', 'barrel', 'tools/bucket', 'nature/bench'],
+  stadium: ['nature/bench'],
   harbor: ['crate', 'barrel', 'tools/lantern', 'war/cannonballs', 'tools/bucket'],
   mountain: ['nature/rocks', 'war/sandbags', 'crate', 'barrel', 'tools/shovel', 'tools/lantern'],
 };
@@ -636,7 +661,7 @@ window.inspectFrame = (f) => {
     const bx0 = Math.min(...xs), bx1 = Math.max(...xs), by0 = Math.min(...ys), by1 = Math.max(...ys), ix = Math.max(0, Math.min(1, bx1) - Math.max(0, bx0)), iy = Math.max(0, Math.min(1, by1) - Math.max(0, by0)), area = (bx1 - bx0) * (by1 - by0);
     out.placas = out.placas || []; out.placas.push({ box: [+bx0.toFixed(3), +by0.toFixed(3), +bx1.toFixed(3), +by1.toFixed(3)], visible: +(area > 0 ? (ix * iy) / area : 0).toFixed(3), behind }); }
   // 3D animals (props from the pool): project their world bounding boxes so the take inspector covers them too
-  for (const nm of ['bear', 'horse', 'emu']) for (const o of (propPool[nm] || [])) { if (!o.visible) continue; const bb3 = new THREE.Box3().setFromObject(o); if (bb3.isEmpty()) continue;
+  for (const nm of ['bear', 'horse', 'horse_sela', 'emu']) for (const o of (propPool[nm] || [])) { if (!o.visible) continue; const bb3 = new THREE.Box3().setFromObject(o); if (bb3.isEmpty()) continue;
     const cs = []; for (const x of [bb3.min.x, bb3.max.x]) for (const y of [bb3.min.y, bb3.max.y]) for (const z of [bb3.min.z, bb3.max.z]) cs.push(new THREE.Vector3(x, y, z).project(camera));
     const behind = cs.every((p) => p.z > 1 || p.z < -1), xs = cs.map((p) => (p.x + 1) / 2), ys = cs.map((p) => (1 - p.y) / 2), bx0 = Math.min(...xs), bx1 = Math.max(...xs), by0 = Math.min(...ys), by1 = Math.max(...ys);
     const ix = Math.max(0, Math.min(1, bx1) - Math.max(0, bx0)), iy = Math.max(0, Math.min(1, by1) - Math.max(0, by0)), area = (bx1 - bx0) * (by1 - by0), vis = area > 0 ? (ix * iy) / area : 0;
@@ -670,7 +695,7 @@ const renderCore = (f) => {
   const D = window.TESTCAM ? { focus: window.TESTCAM.focus || 5, cinf: window.TESTCAM.cinf || 4 } : dofAt(f);
   if (!window.TESTCAM && !(S.dof && S.dof.focus !== undefined)) {   // the lens always focuses on the NEAREST character in the middle of the frame (faces never go soft); only the background / foreground props blur
     const fw = new THREE.Vector3(); camera.getWorldDirection(fw); const cp_ = camera.position; let best = Infinity;
-    const cand = [...ACTS.map((a) => [a.x, a.y + 1.1 * (a.s || 1), a.z]), ...(W_.props || []).filter((p) => p.asset === 'bear' || p.asset === 'horse' || p.asset === 'emu').map((p) => [p.x, p.y + 1.0, p.z])];
+    const cand = [...ACTS.map((a) => [a.x, a.y + 1.1 * (a.s || 1), a.z]), ...(W_.props || []).filter((p) => p.asset === 'bear' || p.asset === 'horse' || p.asset === 'horse_sela' || p.asset === 'emu').map((p) => [p.x, p.y + 1.0, p.z])];
     for (const q of cand) { const v = new THREE.Vector3(q[0] - cp_.x, q[1] - cp_.y, q[2] - cp_.z), dep = v.dot(fw); if (dep < 0.6) continue; const pr = new THREE.Vector3(q[0], q[1], q[2]).project(camera); if (Math.abs(pr.x) > 0.85 || Math.abs(pr.y) > 0.92) continue; if (dep < best) best = dep; }
     if (best < Infinity && best < D.focus * 1.05) D.focus = best; else if (best < Infinity) D.focus = Math.min(D.focus, Math.max(best, D.focus * 0.6));
     D.near = 0.45; }
