@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b2  (~6.6 s)
 - Narracao: Normalmente, a parte de baixo de um foguete é descartada, ou pousa sobre pernas. Isso custa caro, e pesa.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b3  (~7.2 s)
 - Narracao: A ideia de Musk: tirar as pernas do foguete, e fazer a própria torre de lançamento agarrar o propulsor na volta.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@40
 - Efeito + som nas palavras-chave: encena: pensa (think) @1 -> acao + som de efeito; encena: tira (lift) @4 -> acao + som de efeito
 - Efeito visual marcado: ring@40
@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b4  (~5.9 s)
 - Narracao: Os engenheiros apelidaram os braços de pauzinhos, como os de comida japonesa. E a torre, de Mechazilla.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b5  (~6.2 s)
 - Narracao: No dia do teste, o propulsor gigante decolou com trinta e três motores acesos, e sumiu no céu.
-- Som ambiente: birds
+- Som ambiente: sea
 - Efeitos sonoros marcados: whoosh@20, thump@40
 - Efeito + som nas palavras-chave: encena: voa (point) @7 -> acao + som de efeito
 - Efeito visual marcado: whoosh@20, puff@40
@@ -58,7 +58,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b6  (~4.8 s)
 - Narracao: Minutos depois, ele voltou do espaço, descendo de ré, direto na direção da torre.
-- Som ambiente: birds
+- Som ambiente: sea
 - Efeitos sonoros marcados: whoosh@30
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: whoosh@30
@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b7  (~5.2 s)
 - Narracao: Acontece que, no último segundo, os braços se fecharam, e seguraram o foguete no ar.
-- Som ambiente: birds
+- Som ambiente: sea
 - Efeitos sonoros marcados: sting@20, ding@50
 - Efeito + som nas palavras-chave: encena: x_abre (push) @8 -> acao + som de efeito
 - Efeito visual marcado: ring@20, stars@50

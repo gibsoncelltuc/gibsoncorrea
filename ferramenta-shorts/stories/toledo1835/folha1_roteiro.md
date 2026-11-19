@@ -49,10 +49,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b5  (~6.6 s)
 - Narracao: Acontece que a única baixa foi um xerife de Michigan, espetado na perna por um rapaz com um canivete.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: sting@60
+- Som ambiente: birds
+- Efeitos sonoros marcados: sting@60, thump@55
 - Efeito + som nas palavras-chave: encena: espeta (punch) @10 -> acao + som de efeito
-- Efeito visual marcado: stars@60
+- Efeito visual marcado: stars@60, burst@55
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b9  (~3.8 s)
 - Narracao: No fim das contas, Michigan perdeu a guerra, e ficou rico.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; perdeu -> puff + som de baque; encena: perde (facepalm) @5 -> acao + som de efeito
 - Efeito visual marcado: -

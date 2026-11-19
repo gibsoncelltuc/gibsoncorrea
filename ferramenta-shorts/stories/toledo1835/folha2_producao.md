@@ -18,7 +18,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): OHI (variante 1, expressao stern); MIC (variante 1, expressao stern) | multidao: 8 de OHI/MIC
 - Animacao: -
-- Objetos/modelos: buildings/apartment, buildings/house_two, nature/lamppost
+- Objetos/modelos: buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, dois, erro, toledo
 - RISCOS: nenhum
 
@@ -53,11 +53,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Acontece que a única baixa foi um xerife de Michigan, espetado na pern...
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): XER (variante 0, expressao pained); MIC (variante 1, expressao shock)
-- Animacao: conversar | interacao: susto
+- Personagens principais (2): RAP (variante 0, expressao angry); XER (variante 0, expressao pained)
+- Animacao: conversar | interacao: empurrar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canivete, michigan, perna, rapaz, xerife
 - RISCOS: nenhum
@@ -93,7 +93,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - No fim das contas, Michigan perdeu a guerra, e ficou rico.
-- Cenario: countryside | luz: dia | clima: limpo
+- Cenario: interior madeira | luz: dia | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (1): GOV (variante 0, expressao laugh, segura coin)
@@ -107,7 +107,6 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-buildings/apartment | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_pine | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -117,7 +116,7 @@ nature/bush | b7, b8 | pronto | conferir na folha de contato se le bem; se parec
 
 ## Video inteiro
 - Objeto heroi: - | grandes momentos: b3, b4 | planos abertos: 3 | mistura: close 27% | medio 56% | aberto 16% | detalhe 0%
-- Interacoes: b0 avanca e o outro recua, b5 susto, b6 pedir, b7 tremem de frio, b8 cochichar
+- Interacoes: b0 avanca e o outro recua, b5 empurrar, b6 pedir, b7 tremem de frio, b8 cochichar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

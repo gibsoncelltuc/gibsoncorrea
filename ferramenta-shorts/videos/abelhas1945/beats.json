@@ -49,6 +49,24 @@
      0,
      -1.4,
      1.0
+    ],
+    [
+     "kit/bee",
+     0.9,
+     -0.6,
+     0.9,
+     {
+      "y": 2.4
+     }
+    ],
+    [
+     "kit/bee",
+     -1.2,
+     -1.4,
+     0.7,
+     {
+      "y": 3.0
+     }
     ]
    ],
    "text": "DANÇA",
@@ -58,7 +76,8 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "As abelhas conversam dançando. E foi um cientista teimoso que descobriu o que elas dizem."
+   "say": "As abelhas conversam dançando. E foi um cientista teimoso que descobriu o que elas dizem.",
+   "set": "countryside"
   },
   {
    "shot": "reveal",
@@ -82,6 +101,24 @@
      1.6,
      -0.8,
      1.0
+    ],
+    [
+     "kit/bee",
+     0.9,
+     -0.6,
+     0.9,
+     {
+      "y": 2.4
+     }
+    ],
+    [
+     "kit/bee",
+     -1.2,
+     -1.4,
+     0.7,
+     {
+      "y": 3.0
+     }
     ]
    ],
    "acao": "conversar",
@@ -91,7 +128,8 @@
    ],
    "sfx": [
     "thump@30"
-   ]
+   ],
+   "set": "countryside"
   },
   {
    "shot": "two",
@@ -105,7 +143,34 @@
    "sfx": [
     "thump@40"
    ],
-   "say": "Depois pintou pontinhos coloridos nas costas das abelhas, para saber quem era quem."
+   "say": "Depois pintou pontinhos coloridos nas costas das abelhas, para saber quem era quem.",
+   "props": [
+    [
+     "kit/bee",
+     0.9,
+     -0.6,
+     0.9,
+     {
+      "y": 2.4
+     }
+    ],
+    [
+     "kit/bee",
+     -1.2,
+     -1.4,
+     0.7,
+     {
+      "y": 3.0
+     }
+    ],
+    [
+     "kit/beehive",
+     1.6,
+     -0.8,
+     1.0
+    ]
+   ],
+   "interior": "madeira"
   },
   {
    "shot": "close",
@@ -115,9 +180,31 @@
    "props": [
     [
      "kit/beehive",
-     1.6,
+     0.0,
+     -1.6,
+     1.6
+    ],
+    [
+     "kit/bee",
      -0.8,
-     1.2
+     -1.2,
+     1.2,
+     {
+      "y": 2.6,
+      "mover": [
+       0.8,
+       -1.2
+      ]
+     }
+    ],
+    [
+     "kit/bee",
+     1.4,
+     -1.0,
+     0.8,
+     {
+      "y": 1.6
+     }
     ]
    ],
    "fx": [
@@ -128,7 +215,10 @@
     "ding@20",
     "sting@50"
    ],
-   "say": "Acontece que, quando uma abelha achava o açúcar, ela voltava e dançava em cima do favo."
+   "say": "Acontece que, quando uma abelha achava o açúcar, ela voltava e dançava em cima do favo.",
+   "set": "countryside",
+   "shot_lock": true,
+   "detalhe": false
   },
   {
    "shot": "two",
@@ -139,13 +229,38 @@
    "props": [
     [
      "kit/beehive",
+     0.0,
      -1.6,
+     1.6
+    ],
+    [
+     "kit/bee",
      -0.8,
-     1.0
+     -1.2,
+     1.2,
+     {
+      "y": 2.6,
+      "mover": [
+       0.8,
+       -1.2
+      ]
+     }
+    ],
+    [
+     "kit/bee",
+     1.4,
+     -1.0,
+     0.8,
+     {
+      "y": 1.6
+     }
     ]
    ],
    "acao": "discutir",
-   "say": "Se a comida estava perto, ela dava voltinhas. Se estava longe, fazia um oito, rebolando no meio."
+   "say": "Se a comida estava perto, ela dava voltinhas. Se estava longe, fazia um oito, rebolando no meio.",
+   "set": "countryside",
+   "shot_lock": true,
+   "detalhe": false
   },
   {
    "shot": "low",
@@ -155,9 +270,31 @@
    "props": [
     [
      "kit/beehive",
-     -1.8,
+     0.0,
+     -1.6,
+     1.6
+    ],
+    [
+     "kit/bee",
+     -0.8,
+     -1.2,
+     1.2,
+     {
+      "y": 2.6,
+      "mover": [
+       0.8,
+       -1.2
+      ]
+     }
+    ],
+    [
+     "kit/bee",
+     1.4,
      -1.0,
-     1.2
+     0.8,
+     {
+      "y": 1.6
+     }
     ]
    ],
    "fx": [
@@ -166,7 +303,10 @@
    "sfx": [
     "sting@20"
    ],
-   "say": "E o mais incrível: o ângulo da rebolada mostrava a direção, comparada com o sol."
+   "say": "E o mais incrível: o ângulo da rebolada mostrava a direção, comparada com o sol.",
+   "set": "countryside",
+   "shot_lock": true,
+   "detalhe": false
   },
   {
    "shot": "two",
@@ -181,7 +321,40 @@
    "sfx": [
     "ding@40"
    ],
-   "say": "Quanto mais tempo ela rebolava, mais longe estava a comida. Era um mapa feito de dança!"
+   "say": "Quanto mais tempo ela rebolava, mais longe estava a comida. Era um mapa feito de dança!",
+   "set": "countryside",
+   "props": [
+    [
+     "kit/beehive",
+     0.0,
+     -1.6,
+     1.6
+    ],
+    [
+     "kit/bee",
+     -0.8,
+     -1.2,
+     1.2,
+     {
+      "y": 2.6,
+      "mover": [
+       0.8,
+       -1.2
+      ]
+     }
+    ],
+    [
+     "kit/bee",
+     1.4,
+     -1.0,
+     0.8,
+     {
+      "y": 1.6
+     }
+    ]
+   ],
+   "shot_lock": true,
+   "detalhe": false
   },
   {
    "shot": "two",
@@ -216,6 +389,24 @@
      0,
      -3.0,
      1.4
+    ],
+    [
+     "kit/bee",
+     0.9,
+     -0.6,
+     0.9,
+     {
+      "y": 2.4
+     }
+    ],
+    [
+     "kit/bee",
+     -1.2,
+     -1.4,
+     0.7,
+     {
+      "y": 3.0
+     }
     ]
    ],
    "fx": [
@@ -226,7 +417,8 @@
    ],
    "text": "TESTE",
    "titulo": true,
-   "say": "Ele repetiu os testes centenas de vezes, mudando o açúcar de lugar. As abelhas sempre acertavam."
+   "say": "Ele repetiu os testes centenas de vezes, mudando o açúcar de lugar. As abelhas sempre acertavam.",
+   "set": "medieval"
   },
   {
    "shot": "crowd",
@@ -256,7 +448,8 @@
    ],
    "text": "NOBEL",
    "titulo": true,
-   "say": "Em mil novecentos e setenta e três, já idoso, ele ganhou o Prêmio Nobel."
+   "say": "Em mil novecentos e setenta e três, já idoso, ele ganhou o Prêmio Nobel.",
+   "set": "medieval"
   },
   {
    "shot": "close",
@@ -269,9 +462,28 @@
      1.4,
      -0.8,
      1.0
+    ],
+    [
+     "kit/bee",
+     0.9,
+     -0.6,
+     0.9,
+     {
+      "y": 2.4
+     }
+    ],
+    [
+     "kit/bee",
+     -1.2,
+     -1.4,
+     0.7,
+     {
+      "y": 3.0
+     }
     ]
    ],
-   "say": "Então, da próxima vez que vir uma abelha, lembre: ela pode estar contando um segredo dançando."
+   "say": "Então, da próxima vez que vir uma abelha, lembre: ela pode estar contando um segredo dançando.",
+   "set": "medieval"
   }
  ]
 }
