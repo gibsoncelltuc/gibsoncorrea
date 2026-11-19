@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: E se todo o dinheiro do mundo sumisse de uma vez? Nota, moeda, cartão e conta no banco.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino
+- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino; encena: paga (reach) -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: E SE...
 - Funcao na historia: GANCHO
@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Primeira manhã: você chega na padaria e não tem como pagar o café.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: pagar -> stars + som de sino
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Por isso, os povos sempre inventaram um dinheiro. Na ilha de Yap, no Pacífico, eram pedras gigantes.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino
+- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino; encena: paga (reach) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: ILHA DE YAP
 - Funcao na historia: desenvolvimento
@@ -58,7 +58,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b6  (~3.4 s)
 - Narracao: Em poucas semanas, as feiras de troca tomariam as praças.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: ding@20
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20
@@ -67,9 +67,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b7  (~4.8 s)
 - Narracao: Em poucos meses, alguma coisa viraria o novo dinheiro: sal, ouro, ou até figurinha.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: dinheiro: -> stars + som de sino; ouro -> stars + som de sino
+- Efeito + som nas palavras-chave: dinheiro: -> stars + som de sino; ouro -> stars + som de sino; encena: paga (reach) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Isso já aconteceu em prisões e em guerras: quando o dinheiro some, as pessoas inventam outro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@20
-- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino
+- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino; encena: paga (reach) -> acao + som de efeito
 - Efeito visual marcado: ring@20
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Ou seja: dinheiro não é papel. É confiança entre as pessoas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino
+- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino; encena: paga (reach) -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: DINHEIRO
 - Funcao na historia: GRANDE MOMENTO
