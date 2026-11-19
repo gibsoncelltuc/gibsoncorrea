@@ -4,21 +4,28 @@
    "f": 1783,
    "shot": "b9_v",
    "why": [
-    "farm: head/torso cropped (box 0.678, 0.516, 1.044, 0.99)"
+    "empty take: no character in the take"
    ]
   },
   {
    "f": 1784,
    "shot": "b9_v",
    "why": [
-    "farm: head/torso cropped (box 0.665, 0.506, 1.029, 0.978)"
+    "empty take: no character in the take"
    ]
   },
   {
    "f": 1788,
    "shot": "b9_v",
    "why": [
-    "farm: head/torso cropped (box 0.67, 0.51, 1.023, 0.973)"
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 1792,
+   "shot": "b9_v",
+   "why": [
+    "empty take: no character in the take"
    ]
   }
  ],
