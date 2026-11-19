@@ -96,7 +96,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: outback | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (3): FARM (variante 0, expressao pleading); FARM (variante 1, expressao grin); FARM (variante 0, expressao laugh)
+- Personagens principais (2): FARM (variante 0, expressao pleading); FARM (variante 1, expressao grin)
 - Animacao: conversar | interacao: pedir
 - Objetos/modelos: buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow, emus
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): governo, oferecer, premio
