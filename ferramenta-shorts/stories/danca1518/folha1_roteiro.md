@@ -48,11 +48,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Funcao na historia: desenvolvimento
 
 ## Cena b5  (~6.2 s)
-- Narracao: Acontece que a cidade levou isso a sério. Montou um palco, e contratou músicos para animar a multidão.
+- Narracao: Acontece que a cidade levou isso a sério. Construiu um palco, e contratou músicos para animar a multidão.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
+- Efeitos sonoros marcados: thump@50
 - Efeito + som nas palavras-chave: músicos -> stars + som de sino; encena: constroi (hammer) @8 -> acao + som de efeito; encena: danca (up) @13 -> acao + som de efeito
-- Efeito visual marcado: -
+- Efeito visual marcado: puff@50
 - Texto na tela: PALCO
 - Funcao na historia: VIRADA
 

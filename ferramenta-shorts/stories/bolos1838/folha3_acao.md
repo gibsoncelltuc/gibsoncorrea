@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 07 - A Guerra dos Bolos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 56 acoes catalogadas, 56 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 57 acoes catalogadas, 57 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.7s - 12 palavras - plano two
@@ -11,7 +11,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | invadiu (0.6s) | EFEITO: dust | poeira + som | OK |
 | 2 | invadiu (0.6s) | ACAO: chega | entra andando pela lateral | OK |
-| 3 | - | CENA | cavalaria: 2 soldados a cavalo (OFI) | OK |
+| 3 | - | CENA | desembarque: navios chegando e tropa descendo na praia | OK |
 | 4 | - | INTERACAO | entregar | OK |
 | 5 | - | ATUACAO | reagir | OK |
 | 6 | - | CHEGADA | alguem entra andando | OK |
@@ -104,10 +104,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | tiro (51.1s) | EFEITO: burst | estouro/clarao + som | OK |
 | 6 | tiro (51.1s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 7 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 8 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 9 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
-| 10 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
-| 11 | - | ATUACAO | reagir | OK |
+| 8 | - | CENA | cavalaria: 4 soldados a cavalo (GEN) | OK |
+| 9 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 10 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
+| 11 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
+| 12 | - | ATUACAO | reagir | OK |
 
 ## Cena b9 - 52.6s a 56.6s - 14 palavras - plano two
 > "Meses depois, o México pagou os seiscentos mil pesos, e a França foi embora."

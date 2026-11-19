@@ -70,7 +70,8 @@
      -2.4,
      1.2
     ]
-   ]
+   ],
+   "detalhe": true
   },
   {
    "shot": "reveal",
@@ -94,7 +95,7 @@
   },
   {
    "shot": "track",
-   "set": "mountain",
+   "set": "countryside",
    "who": [
     "GRE:0:nervous",
     "GRE:1:scared"
@@ -111,7 +112,7 @@
   },
   {
    "shot": "track",
-   "set": "mountain",
+   "set": "countryside",
    "who": [
     "GRE:0:shout",
     "GRE:1:angry"
@@ -145,14 +146,22 @@
   },
   {
    "shot": "two",
-   "set": "mountain",
+   "set": "street",
    "who": [
     "GRE:0:sad",
     "GRE:1:angry"
    ],
    "interacao": "susto",
    "say": "Acontece que o soldado morreu, e a Grécia deu um ultimato furioso à Bulgária.",
-   "props": []
+   "props": [
+    [
+     "kit/dog_sit",
+     1.5,
+     -0.5,
+     1.1
+    ]
+   ],
+   "detalhe": true
   },
   {
    "shot": "crowd",

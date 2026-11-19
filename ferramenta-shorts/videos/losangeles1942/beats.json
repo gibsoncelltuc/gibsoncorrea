@@ -101,7 +101,7 @@
   },
   {
    "shot": "two",
-   "set": "street",
+   "set": "harbor",
    "hora": "pordosol",
    "who": [
     "CID:0:scared",
@@ -174,7 +174,7 @@
   },
   {
    "shot": "two",
-   "set": "street",
+   "set": "countryside",
    "hora": "amanhecer",
    "who": [
     "SOL:0:shout",
@@ -234,7 +234,7 @@
   },
   {
    "shot": "close",
-   "set": "street",
+   "set": "harbor",
    "hora": "amanhecer",
    "who": [
     "CID:0:smile"

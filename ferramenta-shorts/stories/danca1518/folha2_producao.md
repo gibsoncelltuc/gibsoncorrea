@@ -4,11 +4,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Uma mulher começou a dançar no meio da rua, e não conseguiu mais parar...
 - Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): TRO (variante 0, expressao laugh); POV (variante 1, expressao shock)
 - Animacao: dancar | interacao: susto
-- Objetos/modelos: kit/marco_viena
+- Objetos/modelos: war/drum, kit/marco_viena
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dancar, mulher
 - RISCOS: nenhum
 
@@ -52,16 +52,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): medicos, prefeito, remedio
 - RISCOS: nenhum
 
-## Cena b5 - Acontece que a cidade levou isso a sério. Montou um palco, e contratou...
+## Cena b5 - Acontece que a cidade levou isso a sério. Construiu um palco, e contra...
 - Cenario: street | luz: day | clima: limpo
 - Camera: low = camera baixa, dramatica (virada) + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (3): MUS (variante 0, expressao grin, segura flag); MUS (variante 1, expressao laugh); PRE (variante 0, expressao grin) | multidao: 30 de POV
-- Animacao: conversar | interacao: discutir
-- Objetos/modelos: kit/marco_viena, buildings/apartment, buildings/house_two, nature/lamppost
+- Animacao: construir | interacao: discutir
+- Objetos/modelos: kit/podium, war/drum, kit/marco_viena, buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, multidao, palco, serio
-- RISCOS: 
-  - acao sem animacao propria: montou -> CORRECAO: mostrar o RESULTADO (objeto em cena, reacao, efeito + som) ou reescrever a frase com acao que a ferramenta faz (andar, chegar, discutir, empurrar, entregar, comemorar, atirar, fugir)
+- RISCOS: nenhum
 
 ## Cena b6 - Foi a pior ideia possível. Com música, mais gente entrou na dança, e m...
 - Cenario: harbor | luz: day | clima: limpo
@@ -108,24 +107,23 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
+war/drum | b0, b5 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_viena | b0, b1, b2, b3, b5, b6, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_small | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/podium | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/apartment | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 20% | medio 63% | aberto 14% | detalhe 3%
+- Objeto heroi: war/drum | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 20% | medio 61% | aberto 14% | detalhe 5%
 - Interacoes: b0 susto, b2 aproxima-se, b4 avanca e o outro recua, b5 discutir, b7 o outro se aproxima
-- RISCOS GERAIS: 
-  - video sem objeto heroi -> CORRECAO: "heroi": "kit/<objeto>" no topo do roteiro (modele se nao existir)
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 2 risco(s) em aberto
-- b5: acao sem animacao propria: montou
-- geral: video sem objeto heroi
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh danca1518 bN bM` (so essas cenas).

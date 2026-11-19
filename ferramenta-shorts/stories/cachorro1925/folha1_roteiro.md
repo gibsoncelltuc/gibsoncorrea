@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: Um cachorro fugiu, e por causa dele dois países entraram em guerra, e dezenas de pessoas morreram.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; fugiu -> dust + som de impacto; morreram -> puff + som de baque; encena: corre @2 -> acao + som de efeito; encena: chega (point) @9 -> acao + som de efeito; encena: morre @16 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; fugiu -> dust + som de impacto; morreram -> puff + som de baque; encena: corre @2 -> acao + som de efeito; encena: morre @16 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1925
 - Funcao na historia: GANCHO
@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 
 ## Cena b2  (~6.9 s)
 - Narracao: Um soldado grego estava de guarda quando o cachorro dele fugiu para o outro lado da fronteira, atrás de nada.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: fugiu -> dust + som de impacto; encena: corre @10 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 
 ## Cena b3  (~4.1 s)
 - Narracao: O soldado correu atrás do cachorro, e atravessou a fronteira sem pensar.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: correu -> dust + som de impacto; encena: corre @2 -> acao + som de efeito
 - Efeito visual marcado: -

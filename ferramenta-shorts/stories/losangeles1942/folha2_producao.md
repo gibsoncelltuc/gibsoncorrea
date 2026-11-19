@@ -23,7 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Na véspera, um submarino japonês tinha atirado na Califórnia, e todo m...
-- Cenario: street | luz: pordosol | clima: limpo
+- Cenario: harbor | luz: pordosol | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): CID (variante 0, expressao scared); SOL (variante 0, expressao nervous) | multidao: 10 de CID/SOL/POV
@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - "É um inimigo!", gritou um soldado. Acontece que não havia nada ali, s...
-- Cenario: street | luz: amanhecer | clima: limpo
+- Cenario: countryside | luz: amanhecer | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): SOL (variante 0, expressao shout); GEN (variante 0, expressao surprised)
@@ -93,7 +93,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - O único alvo derrotado naquela noite foi o sono de Los Angeles.
-- Cenario: street | luz: amanhecer | clima: limpo
+- Cenario: harbor | luz: amanhecer | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): CID (variante 0, expressao smile)
@@ -118,11 +118,9 @@ cannon | b4, b6 | pronto | conferir na folha de contato se le bem; se parecer ca
 ## Video inteiro
 - Objeto heroi: kit/searchlight | grandes momentos: b2, b4, b6 | planos abertos: 3 | mistura: close 23% | medio 58% | aberto 15% | detalhe 5%
 - Interacoes: b0 susto, b2 cochichar, b3 entregar, b5 discutir, b7 susto, b8 entregar
-- RISCOS GERAIS: 
-  - pouca variedade de cenario ({'street': 8, 'interior madeira': 1, 'interior pedra': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: pouca variedade de cenario ({'street': 8, 'interior madeira': 1, 'interior pedra': 1}): o video fica parecendo todos os outros
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh losangeles1942 bN bM` (so essas cenas).

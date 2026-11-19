@@ -60,7 +60,9 @@
     "OFI:0:laugh"
    ],
    "text": "1838",
-   "say": "A França invadiu o México por causa de uma conta de confeitaria."
+   "say": "A França invadiu o México por causa de uma conta de confeitaria.",
+   "set": "harbor",
+   "desembarque": true
   },
   {
    "shot": "two",

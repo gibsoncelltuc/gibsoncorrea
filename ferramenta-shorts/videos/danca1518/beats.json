@@ -55,7 +55,15 @@
     "POV:1:shock"
    ],
    "text": "1518",
-   "say": "Uma mulher começou a dançar no meio da rua, e não conseguiu mais parar."
+   "say": "Uma mulher começou a dançar no meio da rua, e não conseguiu mais parar.",
+   "props": [
+    [
+     "war/drum",
+     1.5,
+     -0.5,
+     1.0
+    ]
+   ]
   },
   {
    "shot": "two",
@@ -126,7 +134,28 @@
     "PRE:0:grin"
    ],
    "text": "PALCO",
-   "say": "Acontece que a cidade levou isso a sério. Montou um palco, e contratou músicos para animar a multidão."
+   "say": "Acontece que a cidade levou isso a sério. Construiu um palco, e contratou músicos para animar a multidão.",
+   "props": [
+    [
+     "kit/podium",
+     1.6,
+     -0.6,
+     1.2
+    ],
+    [
+     "war/drum",
+     -1.5,
+     -0.5,
+     1.0
+    ]
+   ],
+   "acao": "construir",
+   "fx": [
+    "puff@50"
+   ],
+   "sfx": [
+    "thump@50"
+   ]
   },
   {
    "shot": "orbit",
@@ -181,5 +210,6 @@
    "say": "Até hoje, ninguém sabe explicar direito o que aconteceu naquele verão.",
    "acao": "nenhuma"
   }
- ]
+ ],
+ "heroi": "war/drum"
 }
