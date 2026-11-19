@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b5  (~6.2 s)
 - Narracao: No dia do teste, o propulsor gigante decolou com trinta e três motores acesos, e sumiu no céu.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: whoosh@20, thump@40
 - Efeito + som nas palavras-chave: encena: voa (point) @7 -> acao + som de efeito
 - Efeito visual marcado: whoosh@20, puff@40
@@ -58,7 +58,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b6  (~4.8 s)
 - Narracao: Minutos depois, ele voltou do espaço, descendo de ré, direto na direção da torre.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: whoosh@30
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: whoosh@30
@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b7  (~5.2 s)
 - Narracao: Acontece que, no último segundo, os braços se fecharam, e seguraram o foguete no ar.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: sting@20, ding@50
 - Efeito + som nas palavras-chave: encena: x_abre (push) @8 -> acao + som de efeito
 - Efeito visual marcado: ring@20, stars@50
@@ -76,7 +76,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b8  (~5.2 s)
 - Narracao: Os engenheiros comemoraram aos gritos. Era a primeira vez que alguém fazia isso na história.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: ding@20, ding@60
 - Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; comemoraram -> stars + som de sino; encena: vence (up) @2 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
@@ -94,7 +94,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b10  (~5.5 s)
 - Narracao: Assim, o propulsor que antes ia para o lixo pode ser usado de novo, várias vezes.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -

@@ -138,7 +138,7 @@
    ],
    "acao": "discutir",
    "say": "Só que ninguém sabia se dava para respirar lá em cima. E se o ar do céu matasse?",
-   "set": "medieval"
+   "interior": "madeira"
   },
   {
    "shot": "two",
@@ -207,7 +207,7 @@
     "sting@30"
    ],
    "say": "No palácio de Versalhes, o rei Luís dezesseis e a rainha Maria Antonieta vieram assistir, com uma multidão.",
-   "set": "medieval"
+   "set": "countryside"
   },
   {
    "shot": "reveal",
@@ -346,7 +346,7 @@
     ]
    ],
    "say": "E tudo graças a uma ovelha, um pato e um galo corajosos.",
-   "set": "medieval"
+   "set": "countryside"
   }
  ],
  "exp": 0.81

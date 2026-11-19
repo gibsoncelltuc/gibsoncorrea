@@ -12,8 +12,8 @@ b4 | outback | low | 2 | discutir, INTERAGEM: o outro se aproxima | kit/veg_cact
 b5 | outback | two | 2 | conversar, INTERAGEM: cochichar | kit/tequila_bolt, kit/veg_cacto, kit/marco_mexico, kit/roadster | - | -
 b6 | interior loja | close | 1 | comemorar | kit/tequila_bolt | - | -
 b7 | street | crowd | 23 | comemorar, batalha | kit/tequila_bolt, kit/marco_mexico | - | -
-b8 | street | two | 2 | reagir, INTERAGEM: entregar, alguem chega andando | kit/tequila_bolt, kit/marco_mexico | paper | -
-b9 | street | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/tequila_bolt, kit/marco_mexico | - | -
+b8 | interior loja | two | 2 | reagir, INTERAGEM: entregar, alguem chega andando | kit/tequila_bolt | paper | -
+b9 | interior loja | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/tequila_bolt | - | -
 b10 | street | orbit | 21 | comemorar, batalha | kit/tequila_bolt, kit/marco_mexico | - | -
 b11 | street | close | 1 | comemorar | kit/tequila_bolt, kit/marco_mexico | - | -
 
