@@ -6,7 +6,7 @@
  "title": "O Dia em que o PayPal Foi Vendido",
  "titulo_base": "O Dia em que o PayPal Foi Vendido",
  "set": "street",
- "light": "day",
+ "light": "golden",
  "mood": "playful",
  "heroi": "kit/coin",
  "outfits": {
@@ -221,5 +221,6 @@
  "fontes": [
   "https://en.wikipedia.org/wiki/PayPal",
   "https://en.wikipedia.org/wiki/SpaceX"
- ]
+ ],
+ "exp": 1.0
 }

@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 10 - Eratóstenes Mede a Terra
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback | 11 cenas, 167 palavras (~58 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace | 11 cenas, 167 palavras (~58 s)
 
 ## Cena b0  (~5.2 s)
 - Narracao: Um homem mediu o tamanho do planeta usando só uma vara e a sombra dela.

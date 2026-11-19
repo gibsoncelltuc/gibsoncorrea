@@ -65,3 +65,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL
 
+
+## Fontes (fatos conferidos)
+- https://en.wikipedia.org/wiki/PayPal
+- https://en.wikipedia.org/wiki/SpaceX

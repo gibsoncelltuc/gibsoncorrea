@@ -48,7 +48,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): MUS (variante 0, expressao smile); CMP (variante 0, expressao grin) | multidao: 6 de POV
 - Animacao: comemorar
-- Objetos/modelos: kit/extinguisher, kit/fire
+- Objetos/modelos: kit/extinguisher
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brinde, extintor, incendio
 - RISCOS: nenhum
 
@@ -99,7 +99,6 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/flamethrower | b1, b2, b3, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/extinguisher | b4, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/fire | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/globe | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 

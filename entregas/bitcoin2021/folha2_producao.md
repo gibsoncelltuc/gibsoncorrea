@@ -8,7 +8,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): BUK (variante 0, expressao smile); POV (variante 0, expressao surprised)
 - Animacao: conversar | interacao: avanca e o outro recua
-- Objetos/modelos: kit/coin
+- Objetos/modelos: kit/bitcoin
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bitcoin
 - RISCOS: nenhum
 
@@ -16,7 +16,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): BUK (variante 0, expressao smug) | multidao: 8 de BUK
+- Personagens principais (1): BUK (variante 0, expressao smug) | multidao: 8 de POV
 - Animacao: -
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): america, presidente
@@ -28,7 +28,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (3): DEP (variante 0, expressao neutral); BUK (variante 0, expressao smile); CLI (variante 0, expressao neutral)
 - Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: kit/coin
+- Objetos/modelos: kit/bitcoin
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
@@ -48,7 +48,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): CLI (variante 0, expressao smile, segura coin); POV (variante 0, expressao grin)
 - Animacao: conversar | interacao: entregar
-- Objetos/modelos: kit/stall, kit/coin
+- Objetos/modelos: kit/stall, kit/bitcoin
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bitcoin, compras, isso
 - RISCOS: nenhum
 
@@ -56,7 +56,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (1): CLI (variante 0, expressao surprised) | multidao: 12 de CLI
+- Personagens principais (1): CLI (variante 0, expressao surprised) | multidao: 12 de POV
 - Animacao: - | batalha encenada
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): carteira, governo
@@ -88,7 +88,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (3): BUK (variante 0, expressao smile); POV (variante 0, expressao grin); CLI (variante 0, expressao laugh)
 - Animacao: conversar | interacao: insiste
-- Objetos/modelos: kit/coin
+- Objetos/modelos: kit/bitcoin, kit/coin
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): atencoes, centro, moeda
 - RISCOS: nenhum
 
@@ -97,13 +97,14 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/coin | b0, b2, b4, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/bitcoin | b0, b2, b4, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/stall | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/globe | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/coin | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/coin | grandes momentos: b3, b5 | planos abertos: 4 | mistura: close 4% | medio 60% | aberto 28% | detalhe 8%
+- Objeto heroi: kit/bitcoin | grandes momentos: b3, b5 | planos abertos: 4 | mistura: close 4% | medio 60% | aberto 28% | detalhe 8%
 - Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b4 entregar, b6 discutir, b8 insiste
 - RISCOS GERAIS: nenhum
 

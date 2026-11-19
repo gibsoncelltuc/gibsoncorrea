@@ -3,7 +3,7 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/paypal2002/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py paypal2002` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Em julho de dois mil e dois, nos Estados Unidos, a empresa eBay anunci...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: street | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): EBY (variante 0, expressao grin); MUS (variante 0, expressao surprised)
@@ -13,7 +13,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b1 - O PayPal era um serviço para pagar e receber dinheiro pela internet.
-- Cenario: street | luz: day | clima: limpo
+- Cenario: street | luz: golden | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): MUS (variante 0, expressao smile); EBY (variante 0, expressao neutral) | multidao: 8 de EBY/POV
@@ -23,7 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - O valor do negócio foi de um bilhão e meio de dólares, pagos em ações.
-- Cenario: street | luz: day | clima: limpo
+- Cenario: street | luz: golden | clima: limpo
 - Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): EBY (variante 0, expressao shock)
@@ -33,7 +33,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - Elon Musk era o maior acionista do PayPal.
-- Cenario: street | luz: day | clima: limpo
+- Cenario: street | luz: golden | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): MUS (variante 0, expressao smug); EBY (variante 0, expressao smile) | multidao: 10 de POV
@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Com o dinheiro da venda, ele pôde investir em novos projetos, como a S...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: street | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MUS (variante 0, expressao grin); POV (variante 0, expressao surprised)
@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - A SpaceX foi fundada naquele mesmo ano, em dois mil e dois.
-- Cenario: street | luz: day | clima: limpo
+- Cenario: street | luz: golden | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): MUS (variante 0, expressao laugh); POV (variante 0, expressao shock) | multidao: 10 de POV
@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Uma venda de internet que ajudou a pagar foguetes e carros elétricos.
-- Cenario: street | luz: day | clima: limpo
+- Cenario: street | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (3): MUS (variante 0, expressao laugh); EBY (variante 0, expressao smile); POV (variante 0, expressao grin)

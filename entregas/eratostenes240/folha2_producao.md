@@ -3,17 +3,17 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/eratostenes240/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py eratostenes240` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Um homem mediu o tamanho do planeta usando só uma vara e a sombra dela...
-- Cenario: outback | luz: day | clima: limpo
+- Cenario: palace | luz: desert | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ERA (variante 0, expressao smile); BIB (variante 0, expressao surprised)
 - Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: kit/globe, kit/stick
+- Objetos/modelos: kit/globe, kit/stick, nature/tree_palm
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): homem, planeta, sombra, tamanho, vara
 - RISCOS: nenhum
 
 ## Cena b1 - Era por volta de duzentos e quarenta antes de Cristo, e Eratóstenes er...
-- Cenario: outback | luz: day | clima: limpo
+- Cenario: palace | luz: desert | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): BIB (variante 0, expressao neutral); POV (variante 0, expressao smile) | multidao: 8 de BIB/POV/CAM
@@ -23,67 +23,67 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Ele leu num papiro que, em Siena, ao meio-dia de verão, o sol iluminav...
-- Cenario: outback | luz: day | clima: limpo
+- Cenario: palace | luz: desert | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): ERA (variante 0, expressao surprised, segura paper); BIB (variante 0, expressao suspicious)
 - Animacao: conversar | interacao: insiste
-- Objetos/modelos: kit/well, tools/bucket
+- Objetos/modelos: kit/well, nature/tree_palm, tools/bucket
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fundo, poco, verao
 - RISCOS: nenhum
 
 ## Cena b3 - Isso significava que o sol estava bem em cima, e nada fazia sombra.
-- Cenario: outback | luz: day | clima: calor
+- Cenario: palace | luz: desert | clima: calor
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ERA (variante 0, expressao smile); CAM (variante 0, expressao neutral)
 - Animacao: conversar | interacao: vai ate o outro
-- Objetos/modelos: kit/well
+- Objetos/modelos: kit/well, nature/tree_palm
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
 ## Cena b4 - Em Alexandria, no mesmo dia, uma vara fincada no chão fazia uma sombra...
-- Cenario: outback | luz: day | clima: calor
+- Cenario: palace | luz: desert | clima: calor
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ERA (variante 0, expressao suspicious); BIB (variante 0, expressao neutral)
 - Animacao: conversar | interacao: aproxima-se
-- Objetos/modelos: kit/stick
+- Objetos/modelos: kit/stick, nature/tree_palm
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chao, sombra, vara
 - RISCOS: nenhum
 
 ## Cena b5 - Eratóstenes pensou: "Se a Terra fosse plana, as duas sombras seriam ig...
-- Cenario: outback | luz: day | clima: limpo
+- Cenario: palace | luz: desert | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): ERA (variante 0, expressao suspicious)
 - Animacao: conversar
-- Objetos/modelos: kit/globe
+- Objetos/modelos: kit/globe, nature/tree_palm
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): duas, terra
 - RISCOS: nenhum
 
 ## Cena b6 - Acontece que a sombra era diferente, e isso só podia acontecer se a Te...
-- Cenario: outback | luz: day | clima: limpo
+- Cenario: palace | luz: desert | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): ERA (variante 0, expressao shock); BIB (variante 0, expressao surprised) | multidao: 10 de BIB/POV/CAM
 - Animacao: reagir | batalha encenada
-- Objetos/modelos: kit/globe, kit/stick
+- Objetos/modelos: kit/globe, kit/stick, nature/tree_palm
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): sombra, terra
 - RISCOS: nenhum
 
 ## Cena b7 - Ele mediu o ângulo da sombra, e contou os passos entre as duas cidades...
-- Cenario: outback | luz: day | clima: limpo
+- Cenario: palace | luz: desert | clima: limpo
 - Camera: track = travelling lateral acompanhando quem anda
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): ERA (variante 0, expressao neutral); CAM (variante 0, expressao grin)
 - Animacao: -
-- Objetos/modelos: kit/stick, buildings/apartment, buildings/house_two, nature/lamppost
+- Objetos/modelos: kit/stick, nature/tree_palm, buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): angulo, duas, passos, sombra
 - RISCOS: nenhum
 
 ## Cena b8 - Com uma conta simples, chegou a um número muito perto do tamanho real ...
-- Cenario: interior pedra | luz: day | clima: limpo
+- Cenario: interior pedra | luz: desert | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): ERA (variante 0, expressao grin, segura paper); BIB (variante 0, expressao surprised)
@@ -93,22 +93,22 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - E tudo isso aconteceu mais de dois mil anos atrás, sem satélite e sem ...
-- Cenario: outback | luz: day | clima: limpo
+- Cenario: palace | luz: desert | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): ERA (variante 0, expressao laugh); BIB (variante 0, expressao laugh) | multidao: 14 de BIB/POV/CAM
 - Animacao: comemorar | interacao: pular | batalha encenada
-- Objetos/modelos: kit/globe
+- Objetos/modelos: kit/globe, nature/tree_palm, kit/starlink_sat
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois
 - RISCOS: nenhum
 
 ## Cena b10 - No fim, uma vara e um poço fizeram o trabalho de um satélite.
-- Cenario: outback | luz: day | clima: limpo
+- Cenario: palace | luz: desert | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): ERA (variante 0, expressao smug)
 - Animacao: conversar
-- Objetos/modelos: kit/stick, kit/well, tools/bucket
+- Objetos/modelos: kit/stick, kit/well, nature/tree_palm, tools/bucket, kit/starlink_sat
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): poco, satelite, trabalho, vara
 - RISCOS: nenhum
 
@@ -119,11 +119,13 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/globe | b0, b5, b6, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/stick | b0, b4, b6, b7, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/tree_palm | b0, b2, b3, b4, b5, b6, b7, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/apartment | b1, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b1, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b1, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/well | b2, b3, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 tools/bucket | b2, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/starlink_sat | b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro

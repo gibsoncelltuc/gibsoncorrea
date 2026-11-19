@@ -1,11 +1,11 @@
 {
  "duration": 31.968,
  "frames30": 959,
- "source": "silence-align (cost 0.24)",
+ "source": "silence-align (cost 0.25)",
  "segments": [
   [
    0.160917,
-   1.40183
+   1.40121
   ],
   [
    1.60104,
@@ -13,11 +13,11 @@
   ],
   [
    2.85692,
-   4.98133
+   4.98146
   ],
   [
-   5.85537,
-   9.20833
+   5.85637,
+   9.20879
   ],
   [
    10.0768,
@@ -25,7 +25,7 @@
   ],
   [
    12.9085,
-   13.8523
+   13.857
   ],
   [
    14.7195,
@@ -45,7 +45,7 @@
   ],
   [
    23.4752,
-   25.7548
+   25.7547
   ],
   [
    25.9955,
@@ -60,7 +60,7 @@
   {
    "text": "Em julho de dois mil e dois,",
    "s": 0.161,
-   "e": 1.402
+   "e": 1.401
   },
   {
    "text": "nos Estados Unidos,",
@@ -74,8 +74,8 @@
   },
   {
    "text": "O PayPal era um servi\u00e7o para pagar e receber dinheiro pela internet.",
-   "s": 5.855,
-   "e": 9.208
+   "s": 5.856,
+   "e": 9.209
   },
   {
    "text": "O valor do neg\u00f3cio foi de um bilh\u00e3o e meio de d\u00f3lares,",
@@ -85,7 +85,7 @@
   {
    "text": "pagos em a\u00e7\u00f5es.",
    "s": 12.909,
-   "e": 13.852
+   "e": 13.857
   },
   {
    "text": "Elon Musk era o maior acionista do PayPal.",
