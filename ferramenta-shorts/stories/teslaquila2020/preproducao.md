@@ -6,15 +6,15 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | street | two | 2 | conversar, INTERAGEM: insiste | kit/tequila_bolt | - | -
 b1 | street | reveal | 8 | parados (so fala e pisca) | - | - | -
-b2 | street | two | 2 | discutir, INTERAGEM: discutir, alguem chega andando | kit/tequila_bolt, nature/picket_fence, kit/roadster | - | -
-b3 | street | two | 2 | comemorar, INTERAGEM: entregar | - | paper | -
-b4 | street | low | 2 | discutir, INTERAGEM: o outro se aproxima | kit/tequila_bolt | - | -
+b2 | harbor | two | 2 | discutir, INTERAGEM: discutir, alguem chega andando | kit/tequila_bolt, nature/picket_fence, kit/roadster | - | -
+b3 | interior madeira | two | 2 | comemorar, INTERAGEM: entregar | - | paper | -
+b4 | harbor | low | 2 | discutir, INTERAGEM: o outro se aproxima | kit/tequila_bolt | - | -
 b5 | interior loja | two | 2 | conversar, INTERAGEM: cochichar | kit/tequila_bolt, kit/roadster | - | -
 b6 | interior loja | close | 1 | comemorar | kit/tequila_bolt | - | -
-b7 | street | crowd | 23 | comemorar, batalha | kit/tequila_bolt | - | -
+b7 | harbor | crowd | 23 | comemorar, batalha | kit/tequila_bolt | - | -
 b8 | street | two | 2 | reagir, INTERAGEM: entregar, alguem chega andando | kit/tequila_bolt | paper | -
 b9 | street | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/tequila_bolt | - | -
-b10 | street | orbit | 21 | comemorar, batalha | kit/tequila_bolt | - | -
+b10 | countryside | orbit | 21 | comemorar, batalha | kit/tequila_bolt | - | -
 b11 | street | close | 1 | comemorar | kit/tequila_bolt | - | -
 
 OBJETO HEROI: kit/tequila_bolt - aparece em 10 cena(s), close nele em 3

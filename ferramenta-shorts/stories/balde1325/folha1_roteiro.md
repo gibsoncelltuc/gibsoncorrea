@@ -14,11 +14,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 ## Cena b1  (~7.2 s)
 - Narracao: Módena e Bolonha se odiavam havia séculos. Uma apoiava o imperador, a outra, o papa, e qualquer desculpa servia para brigar.
 - Som ambiente: birds
-- Efeitos sonoros marcados: sting@10, thump@40
-- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (BOL) -> acao + som de efeito; brigar -> puff + som de baque
-- Efeito visual marcado: ring@12, dust@40
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: brigar -> puff + som de baque
+- Efeito visual marcado: -
 - Texto na tela: - | mapa: ITÁLIA
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b2  (~4.1 s)
 - Narracao: Numa noite, diz a lenda, soldados de Módena entraram escondidos em Bolonha.
@@ -31,12 +31,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 
 ## Cena b3  (~6.2 s)
 - Narracao: Não roubaram ouro, nem armas. Levaram o balde velho do poço da praça, e voltaram para casa rindo.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: roubaram -> stars + som de sino; ouro -> stars + som de sino; rindo -> stars + som de sino
-- Efeito visual marcado: -
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160, gun@164, gun@168, gun@176, gun@180
+- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (MOD) -> acao + som de efeito; tiros: 4 soldados caem no chao -> acao + som de efeito; roubaram -> stars + som de sino; ouro -> stars + som de sino; rindo -> stars + som de sino
+- Efeito visual marcado: ring@12, dust@40
 - Texto na tela: O BALDE
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b4  (~3.4 s)
 - Narracao: "Devolvam o nosso balde", exigiu Bolonha. "Venham buscar", respondeu Módena.
@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 
 ## Cena b5  (~4.5 s)
 - Narracao: Bolonha juntou um exército de trinta mil homens, e marchou contra a vizinha.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: Acontece que, numa única tarde de batalha, os sete mil atacaram de surpresa, e o exército gigante fugiu correndo.
 - Som ambiente: birds | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160, gun@164, gun@168, gun@176, gun@180, gun@184, gun@188, gun@196
-- Efeito + som nas palavras-chave: (rosto) shock -> expr + som de efeito; cavalaria: 4 soldados a cavalo (MOD) -> acao + som de efeito; atacaram -> ring + som de alerta; surpresa -> ring + som de alerta; fugiu -> dust + som de impacto
+- Efeito + som nas palavras-chave: (rosto) shock -> expr + som de efeito; cavalaria: 4 soldados a cavalo (MOD) -> acao + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito; atacaram -> ring + som de alerta; surpresa -> ring + som de alerta; fugiu -> dust + som de impacto; encena: corre -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

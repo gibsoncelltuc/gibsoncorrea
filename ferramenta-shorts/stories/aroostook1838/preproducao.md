@@ -8,9 +8,9 @@ b0 | countryside | two | 2 | discutir, INTERAGEM: discutir | kit/logs, nature/tr
 b1 | countryside | reveal | 10 | parados (so fala e pisca) | - | - | -
 b2 | countryside | two | 2 | discutir, INTERAGEM: vai ate o outro | nature/tree_pine, nature/tree_oak, nature/bush | - | -
 b3 | countryside | two | 2 | discutir, INTERAGEM: empurrar | nature/tree_pine | - | -
-b4 | countryside | crowd | 22 | batalha | - | - | -
+b4 | countryside | crowd | 32 | encena, batalha | - | - | -
 b5 | countryside | two | 2 | conversar, INTERAGEM: empurrar | - | - | -
-b6 | countryside | orbit | 20 | reagir, batalha | - | - | -
+b6 | countryside | orbit | 20 | conversar, batalha | - | - | -
 b7 | interior madeira | two | 2 | conversar, INTERAGEM: entregar | - | paper | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | kit/scroll | paper | -
 b9 | countryside | close | 11 | conversar | kit/logs, nature/tree_pine, pig | - | -

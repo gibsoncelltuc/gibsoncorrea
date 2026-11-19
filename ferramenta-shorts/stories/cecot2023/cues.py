@@ -27,3 +27,6 @@ gibber(F(_A[9] + int((_A[10] - _A[9]) * 0.2)), 4, 230, 0.12); gibber(F(_A[9] + i
 sting(F(_A[9] + 30))
 whoosh(F(_A[10]), 0.4, 0.35)
 gibber(F(_A[10] + int((_A[11] - _A[10]) * 0.2)), 4, 200, 0.12); gibber(F(_A[10] + int((_A[11] - _A[10]) * 0.58)), 4, 290, 0.12)
+thump(F(int(_W(2))))
+thump(F(int(_W(72))))
+sting(F(int(_W(113))))

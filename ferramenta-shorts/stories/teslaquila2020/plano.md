@@ -5,10 +5,10 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | -  | placa: 1º DE ABRIL | - | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | - | apareceu (dust + som de impacto) | -
-b3 | two | -  | objeto na mao | riu (stars + som de sino) | -
-b4 | low | -  | - | - | -
-b5 | two | -  | interior | - | -
-b6 | close | -  | interior | - | -
+b3 | two | -  | interior, objeto na mao | (rosto) laugh (expr + som de efeito); riu (stars + som de sino); encena: pensa (think) (acao + som de efeito) | -
+b4 | low | -  | - | (rosto) annoyed (expr + som de efeito) | -
+b5 | two | -  | interior | encena: sai (acao + som de efeito) | -
+b6 | close | -  | interior | encena: prende (push) (acao + som de efeito) | -
 b7 | crowd | -  | batalha aberta com tiros, tropa, placa: ESGOTOU | - | -
 b8 | two | -  | objeto na mao | apareceu (dust + som de impacto) | -
 b9 | two | -  | - | - | -

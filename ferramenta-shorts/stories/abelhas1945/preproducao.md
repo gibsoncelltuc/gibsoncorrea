@@ -6,15 +6,15 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | street | two | 2 | dancar, INTERAGEM: avanca e o outro recua | kit/beehive | - | -
 b1 | street | reveal | 8 | parados (so fala e pisca) | kit/beehive | - | -
-b2 | street | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/beehive | - | -
-b3 | street | two | 2 | conversar, INTERAGEM: insiste | kit/beehive | paper | -
-b4 | street | low | 1 | dancar | kit/beehive | - | -
-b5 | street | two | 2 | discutir, INTERAGEM: discutir | kit/beehive | - | -
+b2 | countryside | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/beehive | - | -
+b3 | countryside | two | 2 | conversar, INTERAGEM: insiste | kit/beehive | paper | -
+b4 | harbor | low | 1 | dancar | kit/beehive | - | -
+b5 | harbor | two | 2 | discutir, INTERAGEM: discutir | kit/beehive | - | -
 b6 | street | orbit | 7 | reagir | kit/beehive | - | -
 b7 | street | two | 2 | dancar, INTERAGEM: entregar | - | - | -
 b8 | interior madeira | two | 2 | discutir, INTERAGEM: empurrar | - | paper | -
-b9 | street | crowd | 19 | reagir, batalha | kit/beehive | - | -
-b10 | street | orbit | 21 | comemorar, batalha | - | - | -
+b9 | harbor | crowd | 33 | reagir, batalha | kit/beehive | - | -
+b10 | harbor | orbit | 21 | comemorar, batalha | - | - | -
 b11 | street | close | 1 | dancar | kit/beehive | - | -
 
 OBJETO HEROI: kit/beehive - aparece em 9 cena(s), close nele em 3

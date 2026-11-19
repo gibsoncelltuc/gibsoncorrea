@@ -22,34 +22,34 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b2  (~5.5 s)
 - Narracao: Elon Musk queria reaproveitar os foguetes da SpaceX, como se reaproveita um avião. Muitos achavam impossível.
-- Som ambiente: sea
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: impossível -> ring + som de alerta
+- Efeito + som nas palavras-chave: (rosto) shock -> expr + som de efeito; impossível -> ring + som de alerta
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b3  (~4.5 s)
 - Narracao: As primeiras tentativas de pouso deram errado. Foguetes tombaram, e explodiram no mar.
-- Som ambiente: sea
+- Som ambiente: birds
 - Efeitos sonoros marcados: cannon@30, thump@50
-- Efeito + som nas palavras-chave: explodiram -> burst + som de tiro/explosao
+- Efeito + som nas palavras-chave: explodiram -> burst + som de tiro/explosao; encena: desaba -> acao + som de efeito
 - Efeito visual marcado: burst@30, puff@50
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b4  (~5.5 s)
 - Narracao: Mas a equipe insistiu. Em vinte e um de dezembro, o Falcon nove decolou levando satélites.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: voa (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b5  (~7.2 s)
 - Narracao: Depois de soltar a parte de cima, a parte de baixo virou no céu, e começou a voltar para a Terra.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@20, thump@40
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: whoosh@20, puff@40
@@ -76,16 +76,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b8  (~4.1 s)
 - Narracao: Os funcionários da SpaceX gritaram como em final de Copa do Mundo.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: gritaram -> ring + som de alerta
+- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritaram -> ring + som de alerta; encena: grita (up) -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: POUSOU!
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b9  (~5.9 s)
 - Narracao: Foi a primeira vez que um foguete desse tamanho voltou do espaço e pousou inteiro em terra.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -

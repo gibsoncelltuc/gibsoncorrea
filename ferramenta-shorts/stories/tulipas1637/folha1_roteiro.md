@@ -4,7 +4,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b0  (~3.8 s)
 - Narracao: Uma única flor já custou o preço de uma casa inteira.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Os ricos queriam as mais raras. "Dou mil moedas por esse bulbo", dizia um. "Dou duas mil", gritava outro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: moedas -> stars + som de sino; gritava -> ring + som de alerta
+- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; moedas -> stars + som de sino; gritava -> ring + som de alerta
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Ninguém queria a flor de verdade. Queriam vender o papel mais caro na semana seguinte, e ficar ricos.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: vender -> stars + som de sino
+- Efeito + som nas palavras-chave: vender -> stars + som de sino; encena: negocio (reach) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Acontece que, num leilão de fevereiro, o vendedor abriu os lances, e ninguém levantou a mão.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: negocio (reach) -> acao + som de efeito; encena: pega (lift) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: LEILÃO
 - Funcao na historia: VIRADA
@@ -69,16 +69,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: A notícia correu. Em poucos dias, todo mundo quis vender, e não havia mais comprador.
 - Som ambiente: birds
 - Efeitos sonoros marcados: sting@20, thump@40, thump@90
-- Efeito + som nas palavras-chave: correu -> dust + som de impacto; vender -> stars + som de sino; comprador -> stars + som de sino
+- Efeito + som nas palavras-chave: correu -> dust + som de impacto; vender -> stars + som de sino; comprador -> stars + som de sino; encena: corre -> acao + som de efeito; encena: negocio (reach) -> acao + som de efeito
 - Efeito visual marcado: dust@40, puff@90
 - Texto na tela: PÂNICO
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b8  (~6.2 s)
 - Narracao: Os preços desabaram. Quem tinha trocado a casa por flores ficou só com as flores, e as dívidas.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: desaba -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

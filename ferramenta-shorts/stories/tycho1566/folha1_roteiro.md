@@ -4,9 +4,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b0  (~5.2 s)
 - Narracao: Um dos maiores astrônomos da história perdeu o nariz numa briga por causa de matemática.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: perdeu -> puff + som de baque; briga -> puff + som de baque
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; perdeu -> puff + som de baque; briga -> puff + som de baque; encena: perde (facepalm) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1566
 - Funcao na historia: GANCHO
@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Era mil quinhentos e sessenta e seis. Tycho Brahe, um jovem nobre da Dinamarca, estudava numa cidade da Alemanha.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: examina (think) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: DINAMARCA
 - Funcao na historia: desenvolvimento
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Numa festa, ele discutiu com um primo sobre quem era o melhor em matemática.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: festa -> stars + som de sino
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; festa -> stars + som de sino
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que o primo acertou um golpe certeiro, e cortou fora um pedaço do nariz de Tycho.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@26, thump@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: golpe (punch) -> acao + som de efeito; encena: corta (hammer) -> acao + som de efeito
 - Efeito visual marcado: burst@30, puff@36
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -67,9 +67,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b7  (~5.9 s)
 - Narracao: Lá, ele construiu um castelo observatório, e anotou a posição de mais de mil estrelas, sem telescópio.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: constroi (hammer) -> acao + som de efeito; encena: escreve (write) -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: MIL ESTRELAS
 - Funcao na historia: GRANDE MOMENTO
@@ -78,16 +78,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: As anotações eram tão precisas, que ajudaram Kepler a descobrir como os planetas giram em volta do Sol.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@50
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: examina (think) -> acao + som de efeito
 - Efeito visual marcado: stars@50
 - Texto na tela: KEPLER
 - Funcao na historia: desenvolvimento
 
 ## Cena b9  (~2.4 s)
 - Narracao: Essa descoberta mudou a astronomia para sempre.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: ding@20, sting@50
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: examina (think) -> acao + som de efeito
 - Efeito visual marcado: stars@20, ring@50
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
