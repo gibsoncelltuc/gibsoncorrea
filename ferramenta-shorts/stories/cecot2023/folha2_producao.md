@@ -36,7 +36,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (4): PRE (variante 0, expressao sad); PRE (variante 1, expressao scared); PRE (variante 2, expressao sad); GUA (variante 0, expressao stern)
+- Personagens principais (4): GUA (variante 0, expressao stern); PRE (variante 0, expressao sad); PRE (variante 1, expressao scared); PRE (variante 2, expressao sad)
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): excecao, presidente, suspeitos
