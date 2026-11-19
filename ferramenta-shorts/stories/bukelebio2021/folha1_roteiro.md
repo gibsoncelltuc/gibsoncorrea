@@ -92,3 +92,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL
 
+
+## Fontes (fatos conferidos)
+- https://news.yahoo.com/el-salvadors-millennial-president-switched-043818079.html
+- https://emisorasunidas.com/2021/09/21/bukele-descripcion-twitter-el-dictador-mas-cool/
+- https://www.britannica.com/biography/Nayib-Bukele

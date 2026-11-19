@@ -13,12 +13,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b1 - O dono, Elon Musk, anunciou a mudança projetando um grande X no prédio...
-- Cenario: street | luz: golden | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): MUS (variante 0, expressao grin); OPE (variante 0, expressao shock) | multidao: 8 de POV
-- Animacao: reagir
-- Objetos/modelos: buildings/apartment, buildings/house_two, nature/lamppost
+- Cenario: interior pedra | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
+- Personagens principais (2): MUS (variante 0, expressao grin); OPE (variante 0, expressao shock)
+- Animacao: conversar | interacao: susto
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dono, empresa, grande, mudanca, predio
 - RISCOS: nenhum
 
@@ -33,7 +33,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - Mas o trabalho parou no meio, porque a empresa não tinha as licenças n...
-- Cenario: street | luz: golden | clima: limpo
+- Cenario: interior loja | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): OPE (variante 0, expressao shock); FIS (variante 0, expressao stern)
@@ -63,17 +63,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - A prefeitura recebeu vinte e quatro reclamações em um fim de semana e ...
-- Cenario: street | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Cenario: interior pedra | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): FIS (variante 0, expressao angry); MUS (variante 0, expressao worried)
 - Animacao: conversar | interacao: vai ate o outro
-- Objetos/modelos: buildings/house_two, nature/lamppost, nature/bench
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): investigacao, prefeitura, semana
 - RISCOS: nenhum
 
 ## Cena b7 - A empresa disse que era uma placa luminosa temporária para um evento, ...
-- Cenario: street | luz: golden | clima: limpo
+- Cenario: interior loja | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): MUS (variante 0, expressao smug); FIS (variante 0, expressao suspicious)
@@ -93,7 +93,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - Moral da história: até trocar de nome precisa de licença da prefeitura...
-- Cenario: street | luz: golden | clima: limpo
+- Cenario: harbor | luz: golden | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (1): MUS (variante 0, expressao laugh)
@@ -109,15 +109,15 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/phone | b0, b4, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/finch | b0, b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/apartment | b1, b2, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/house_two | b1, b2, b5, b6, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/lamppost | b1, b2, b5, b6, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/bench | b6, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/apartment | b2, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/house_two | b2, b5, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/lamppost | b2, b5, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/bench | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/phone | grandes momentos: b2, b5 | planos abertos: 3 | mistura: close 19% | medio 58% | aberto 16% | detalhe 7%
-- Interacoes: b2 o outro se aproxima, b3 insiste, b6 vai ate o outro, b7 aproxima-se, b8 avanca e o outro recua
+- Objeto heroi: kit/phone | grandes momentos: b2, b5 | planos abertos: 2 | mistura: close 19% | medio 68% | aberto 9% | detalhe 3%
+- Interacoes: b1 susto, b2 o outro se aproxima, b3 insiste, b6 vai ate o outro, b7 aproxima-se, b8 avanca e o outro recua
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

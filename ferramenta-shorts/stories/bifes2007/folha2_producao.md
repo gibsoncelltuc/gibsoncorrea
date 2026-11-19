@@ -13,12 +13,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b1 - Os bifes apareceram na loja Sharper Image, a partir de oito de maio.
-- Cenario: street | luz: golden | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): TRU (variante 0, expressao smug); VEN (variante 0, expressao grin) | multidao: 8 de POV
-- Animacao: -
-- Objetos/modelos: kit/steak, buildings/shop, kit/stall
+- Cenario: interior loja | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Personagens principais (2): TRU (variante 0, expressao smug); VEN (variante 0, expressao grin)
+- Animacao: conversar | interacao: insiste | o ultimo personagem ENTRA andando
+- Objetos/modelos: kit/steak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bifes, loja, maio, oito, partir
 - RISCOS: nenhum
 
@@ -33,12 +33,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - Acontece que a loja deixou de oferecer os bifes em julho, cerca de doi...
-- Cenario: street | luz: golden | clima: limpo
-- Camera: low = camera baixa, dramatica (virada) + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Cenario: interior loja | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): VEN (variante 0, expressao worried); CLI (variante 0, expressao suspicious)
-- Animacao: conversar | interacao: insiste
-- Objetos/modelos: kit/steak, nature/picket_fence, buildings/shop, kit/stall
+- Animacao: conversar | interacao: vai ate o outro
+- Objetos/modelos: kit/steak, nature/picket_fence
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bifes, dois, loja, oferecer
 - RISCOS: nenhum
 
@@ -53,41 +53,41 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - A marca também apareceu na QVC, um canal de televisão.
-- Cenario: street | luz: golden | clima: limpo
+- Cenario: interior loja | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): TRU (variante 0, expressao smug); VEN (variante 0, expressao laugh)
-- Animacao: conversar | interacao: vai ate o outro | o ultimo personagem ENTRA andando
+- Animacao: conversar | interacao: aproxima-se | o ultimo personagem ENTRA andando
 - Objetos/modelos: kit/tv
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canal, marca, televisao
 - RISCOS: nenhum
 
 ## Cena b6 - Segundo registros, a marca registrada foi cancelada em dois mil e cato...
-- Cenario: street | luz: golden | clima: limpo
+- Cenario: interior pedra | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): CLI (variante 0, expressao suspicious); VEN (variante 0, expressao stern)
-- Animacao: conversar | interacao: aproxima-se
+- Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): marca
 - RISCOS: nenhum
 
 ## Cena b7 - Mesmo assim, os bifes continuaram sendo servidos em hotéis da rede Tru...
-- Cenario: street | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Cenario: interior pedra | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): TRU (variante 0, expressao laugh); CLI (variante 0, expressao smug)
-- Animacao: conversar | interacao: avanca e o outro recua
+- Animacao: conversar | interacao: discutir
 - Objetos/modelos: kit/steak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bifes, rede
 - RISCOS: nenhum
 
 ## Cena b8 - Em resumo, a carne saiu da loja depressa, mas o nome ficou no cardápio...
 - Cenario: street | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): TRU (variante 0, expressao grin); CLI (variante 0, expressao laugh)
-- Animacao: conversar | interacao: discutir
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): TRU (variante 0, expressao grin); CLI (variante 0, expressao laugh) | multidao: 8 de POV
+- Animacao: -
 - Objetos/modelos: buildings/shop, kit/stall
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cardapio, carne, loja
 - RISCOS: nenhum
@@ -108,15 +108,15 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/steak | b0, b1, b3, b7, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/shop | b1, b3, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/stall | b1, b3, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tv | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/shop | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/stall | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/steak | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 20% | medio 63% | aberto 9% | detalhe 8%
-- Interacoes: b0 o outro se aproxima, b2 susto, b3 insiste, b5 vai ate o outro, b6 aproxima-se, b7 avanca e o outro recua, b8 discutir
+- Objeto heroi: kit/steak | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 12% | medio 72% | aberto 13% | detalhe 3%
+- Interacoes: b0 o outro se aproxima, b1 insiste, b2 susto, b3 vai ate o outro, b5 aproxima-se, b6 avanca e o outro recua, b7 discutir
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

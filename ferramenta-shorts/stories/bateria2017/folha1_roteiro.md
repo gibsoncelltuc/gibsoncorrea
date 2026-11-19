@@ -4,7 +4,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b0  (~6.2 s)
 - Narracao: Em março de dois mil e dezessete, Elon Musk respondeu numa rede social ao empresário australiano Mike Cannon-Brookes.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b3  (~5.2 s)
 - Narracao: O contrato foi fechado no fim de setembro, e o prazo de cem dias começou.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -58,7 +58,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b6  (~4.5 s)
 - Narracao: Mike Cannon-Brookes disse que nunca tinha ficado tão feliz de perder uma aposta.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: perder -> dust + som de impacto
 - Efeito visual marcado: -

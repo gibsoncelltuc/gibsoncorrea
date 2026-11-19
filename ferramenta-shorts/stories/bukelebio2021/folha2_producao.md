@@ -3,9 +3,9 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/bukelebio2021/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py bukelebio2021` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Em setembro de dois mil e vinte e um, o presidente de El Salvador, Nay...
-- Cenario: street | luz: golden | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 5 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Cenario: interior pedra | luz: golden | clima: limpo
+- Camera: close = close no rosto; empurra devagar
+- Takes: 5 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): BUK (variante 0, expressao smug)
 - Animacao: conversar
 - Objetos/modelos: kit/phone
@@ -23,9 +23,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Primeiro, ele escreveu só uma palavra no perfil: ditador.
-- Cenario: street | luz: golden | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Cenario: interior pedra | luz: golden | clima: limpo
+- Camera: close = close no rosto; empurra devagar
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): BUK (variante 0, expressao laugh)
 - Animacao: conversar
 - Objetos/modelos: kit/phone
@@ -33,10 +33,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - Alguns dias depois, trocou por uma frase mais longa: o ditador mais le...
-- Cenario: street | luz: golden | clima: limpo
+- Cenario: interior loja | luz: golden | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (3): BUK (variante 0, expressao grin); POV (variante 0, expressao shock); POV (variante 1, expressao shock) | multidao: 10 de POV
+- Personagens principais (3): BUK (variante 0, expressao grin); POV (variante 0, expressao shock); POV (variante 1, expressao shock)
 - Animacao: conversar | interacao: entregar | batalha encenada
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ditador, frase
@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Vários comentaristas leram aquilo como uma ironia, feita para os críti...
-- Cenario: street | luz: golden | clima: limpo
+- Cenario: interior loja | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): JOR (variante 0, expressao suspicious); BUK (variante 0, expressao smug)
@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Anos depois, no dia da eleição de dois mil e vinte e quatro, o perfil ...
-- Cenario: street | luz: golden | clima: limpo
+- Cenario: interior pedra | luz: golden | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (1): BUK (variante 0, expressao grin)
@@ -83,7 +83,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - Aliás, esse perfil muda bastante: Bukele costuma trocar o nome e a des...
-- Cenario: street | luz: golden | clima: limpo
+- Cenario: interior loja | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): BUK (variante 0, expressao laugh); JOR2 (variante 0, expressao suspicious)
@@ -111,7 +111,7 @@ kit/phone | b0, b2, b5, b7, b9 | pronto (HEROI: aparece em close) | conferir na 
 
 
 ## Video inteiro
-- Objeto heroi: kit/phone | grandes momentos: b1, b3 | planos abertos: 2 | mistura: close 43% | medio 42% | aberto 7% | detalhe 8%
+- Objeto heroi: kit/phone | grandes momentos: b1, b3 | planos abertos: 2 | mistura: close 48% | medio 42% | aberto 7% | detalhe 3%
 - Interacoes: b3 entregar, b5 discutir, b6 insiste, b8 vai ate o outro
 - RISCOS GERAIS: nenhum
 

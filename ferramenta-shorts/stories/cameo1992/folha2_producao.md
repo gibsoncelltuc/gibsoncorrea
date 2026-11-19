@@ -8,17 +8,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): FUN (variante 0, expressao grin)
 - Animacao: conversar
-- Objetos/modelos: kit/tv
+- Objetos/modelos: kit/tv, kit/marco_liberdade
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): filme, garoto
 - RISCOS: nenhum
 
 ## Cena b1 - Numa cena rápida, Kevin pergunta a um homem onde fica o saguão do hote...
-- Cenario: street | luz: golden | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): FUN (variante 0, expressao grin); TRU (variante 0, expressao smug) | multidao: 8 de POV
-- Animacao: -
-- Objetos/modelos: buildings/apartment, buildings/house_two, nature/lamppost
+- Cenario: interior pedra | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (2): FUN (variante 0, expressao grin); TRU (variante 0, expressao smug)
+- Animacao: conversar | interacao: aproxima-se
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): homem, hotel, saguao
 - RISCOS: nenhum
 
@@ -28,56 +28,56 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto
 - Personagens principais (3): TRU (variante 0, expressao grin); POV (variante 0, expressao shock); POV (variante 1, expressao shock) | multidao: 10 de POV
 - Animacao: conversar | interacao: susto | batalha encenada
-- Objetos/modelos: nature/picket_fence
+- Objetos/modelos: kit/marco_liberdade, nature/picket_fence
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cena, sete
 - RISCOS: nenhum
 
 ## Cena b3 - Acontece que aquele hotel, o Plaza, pertencia a Trump na época.
-- Cenario: street | luz: golden | clima: limpo
-- Camera: low = camera baixa, dramatica (virada) + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Cenario: interior pedra | luz: golden | clima: limpo
+- Camera: close = close no rosto; empurra devagar
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (1): TRU (variante 0, expressao laugh)
 - Animacao: -
-- Objetos/modelos: kit/tv, buildings/apartment, buildings/house_two, nature/lamppost
+- Objetos/modelos: kit/tv
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): epoca, plaza, trump
 - RISCOS: nenhum
 
 ## Cena b4 - O diretor Chris Columbus contou, anos depois, que a equipe queria o sa...
-- Cenario: street | luz: golden | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): DIR (variante 0, expressao suspicious); TRU (variante 0, expressao smug) | multidao: 6 de POV
-- Animacao: -
+- Cenario: interior loja | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (2): DIR (variante 0, expressao suspicious); TRU (variante 0, expressao smug)
+- Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): diretor, equipe, saguao
 - RISCOS: nenhum
 
 ## Cena b5 - Segundo o diretor, a participação de Trump foi o preço para usar o hot...
 - Cenario: street | luz: golden | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
+- Camera: wide = ABERTO fixo
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): DIR (variante 0, expressao worried); TRU (variante 0, expressao smug); POV (variante 0, expressao shock) | multidao: 10 de POV
-- Animacao: conversar | interacao: aproxima-se | batalha encenada
-- Objetos/modelos: buildings/apartment, buildings/house_two, nature/lamppost
+- Animacao: reagir | batalha encenada
+- Objetos/modelos: kit/marco_liberdade, buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): diretor, hotel, participacao, preco, trump
 - RISCOS: nenhum
 
 ## Cena b6 - Trump nega isso: diz que a equipe é que pediu, e que ele nem queria ap...
-- Cenario: street | luz: golden | clima: limpo
+- Cenario: interior loja | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): TRU (variante 0, expressao suspicious); DIR (variante 0, expressao shock)
-- Animacao: reagir | interacao: avanca e o outro recua
+- Animacao: reagir | interacao: discutir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): equipe
 - RISCOS: nenhum
 
 ## Cena b7 - Em dois mil e dezenove, uma emissora canadense exibiu o filme sem esse...
-- Cenario: street | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Cenario: interior loja | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): JOR (variante 0, expressao shock); JOR2 (variante 0, expressao suspicious)
-- Animacao: reagir | interacao: discutir
+- Animacao: reagir | interacao: o outro se aproxima
 - Objetos/modelos: kit/tv
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): emissora, filme
 - RISCOS: nenhum
@@ -88,7 +88,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): JOR (variante 0, expressao suspicious) | multidao: 10 de POV
 - Animacao: -
-- Objetos/modelos: -
+- Objetos/modelos: kit/marco_liberdade
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): corte, discussao
 - RISCOS: nenhum
 
@@ -98,7 +98,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (1): TRU (variante 0, expressao laugh)
 - Animacao: conversar
-- Objetos/modelos: kit/tv
+- Objetos/modelos: kit/tv, kit/marco_liberdade
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cameo, sete, trinta
 - RISCOS: nenhum
 
@@ -108,15 +108,16 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/tv | b0, b3, b7, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/apartment | b1, b3, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/house_two | b1, b3, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/lamppost | b1, b3, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_liberdade | b0, b2, b5, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/apartment | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/house_two | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/lamppost | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/tv | grandes momentos: b2, b5 | planos abertos: 3 | mistura: close 26% | medio 41% | aberto 26% | detalhe 8%
-- Interacoes: b2 susto, b5 aproxima-se, b6 avanca e o outro recua, b7 discutir
+- Objeto heroi: kit/tv | grandes momentos: b2, b5 | planos abertos: 2 | mistura: close 30% | medio 58% | aberto 8% | detalhe 3%
+- Interacoes: b1 aproxima-se, b2 susto, b4 avanca e o outro recua, b6 discutir, b7 o outro se aproxima
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

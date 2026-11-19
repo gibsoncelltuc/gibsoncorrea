@@ -3,9 +3,9 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/bateria2017/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py bateria2017` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Em março de dois mil e dezessete, Elon Musk respondeu numa rede social...
-- Cenario: outback | luz: golden | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Cenario: interior loja | luz: golden | clima: limpo
+- Camera: close = close no rosto; empurra devagar
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): MUS (variante 0, expressao smug)
 - Animacao: conversar
 - Objetos/modelos: kit/megapack
@@ -33,9 +33,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - O contrato foi fechado no fim de setembro, e o prazo de cem dias começ...
-- Cenario: outback | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Cenario: interior pedra | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): MUS (variante 0, expressao nervous); JOR (variante 0, expressao suspicious)
 - Animacao: reagir | interacao: avanca e o outro recua
 - Objetos/modelos: kit/megapack
@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Mike Cannon-Brookes disse que nunca tinha ficado tão feliz de perder u...
-- Cenario: outback | luz: golden | clima: limpo
+- Cenario: interior loja | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): CAN (variante 0, expressao laugh); MUS (variante 0, expressao smug)
@@ -74,8 +74,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Ou seja, uma conversa numa rede social virou uma obra de cinquenta e c...
 - Cenario: outback | luz: golden | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): CAN (variante 0, expressao grin)
 - Animacao: conversar
 - Objetos/modelos: kit/megapack
@@ -83,9 +83,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - E tudo começou com uma resposta curta, escrita no celular.
-- Cenario: outback | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
+- Cenario: countryside | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MUS (variante 0, expressao laugh); JOR (variante 0, expressao shock)
 - Animacao: conversar | interacao: susto
 - Objetos/modelos: kit/megapack, kit/phone
@@ -93,7 +93,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - Moral da história: antes de apostar cinquenta milhões num prazo, leia ...
-- Cenario: outback | luz: golden | clima: limpo
+- Cenario: countryside | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): MUS (variante 0, expressao laugh); CAN (variante 0, expressao grin)
@@ -114,7 +114,7 @@ kit/phone | b8 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/megapack | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 22% | medio 59% | aberto 12% | detalhe 8%
+- Objeto heroi: kit/megapack | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 22% | medio 60% | aberto 12% | detalhe 6%
 - Interacoes: b2 aproxima-se, b3 avanca e o outro recua, b5 o outro se aproxima, b6 insiste, b8 susto, b9 vai ate o outro
 - RISCOS GERAIS: nenhum
 
