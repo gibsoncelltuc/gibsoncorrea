@@ -60,9 +60,9 @@
    "props": [
     [
      "kit/flamethrower",
-     1.3,
-     0.2,
-     1.3
+     1.0,
+     0.3,
+     1.8
     ]
    ],
    "tiros": false,
@@ -154,7 +154,9 @@
    ],
    "sfx": [
     "ding@3"
-   ]
+   ],
+   "text": "20.000 UNIDADES",
+   "tat": 6
   },
   {
    "say": "E elas esgotaram em poucos dias, rendendo cerca de dez milhões de dólares.",
@@ -180,7 +182,9 @@
    "tiros": false,
    "batalha": false,
    "detalhe": false,
-   "impact": true
+   "impact": true,
+   "text": "US$ 10 MILHÕES",
+   "tat": 6
   },
   {
    "say": "A notícia se espalhou pelo mundo inteiro.",

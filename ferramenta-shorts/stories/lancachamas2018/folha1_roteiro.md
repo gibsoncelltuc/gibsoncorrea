@@ -53,7 +53,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeitos sonoros marcados: ding@3
 - Efeito + som nas palavras-chave: encena: negocio (reach) @5 -> acao + som de efeito
 - Efeito visual marcado: stars@3
-- Texto na tela: -
+- Texto na tela: 20.000 UNIDADES
 - Funcao na historia: desenvolvimento
 
 ## Cena b6  (~4.5 s)
@@ -62,7 +62,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeitos sonoros marcados: ding@3
 - Efeito + som nas palavras-chave: encena: rende (up) @6 -> acao + som de efeito
 - Efeito visual marcado: burst@3
-- Texto na tela: -
+- Texto na tela: US$ 10 MILHÕES
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b7  (~2.4 s)

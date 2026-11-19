@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 12 - O Não é um Lança-Chamas
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.7s - 25 palavras - plano two
@@ -58,6 +58,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | venda (23.6s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 2 | - | INTERACAO | o outro se aproxima | OK |
 | 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | 20.000 UNIDADES | OK |
 
 ## Cena b6 - 24.7s a 28.5s - 13 palavras - plano crowd
 > "E elas esgotaram em poucos dias, rendendo cerca de dez milhões de dólares."
@@ -67,6 +68,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | rendendo (26.7s) | ACAO: rende | maos para cima (rendicao) | OK |
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 3 | - | ATUACAO | reagir | OK |
+| 4 | - | PLACA | US$ 10 MILHÕES | OK |
 
 ## Cena b7 - 29.7s a 31.2s - 7 palavras - plano two
 > "A notícia se espalhou pelo mundo inteiro."
