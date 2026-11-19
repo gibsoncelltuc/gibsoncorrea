@@ -14,8 +14,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b1 - Primeira manhã: você chega na padaria e não tem como pagar o café.
 - Cenario: interior loja | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): PAD (variante 0, expressao shock); POV (variante 0, expressao nervous)
 - Animacao: reagir | interacao: discutir
 - Objetos/modelos: kit/cake_table
@@ -43,22 +43,22 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Por isso, os povos sempre inventaram um dinheiro. Na ilha de Yap, no P...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao surprised); POV (variante 1, expressao grin) | multidao: 6 de POV
 - Animacao: -
-- Objetos/modelos: -
+- Objetos/modelos: nature/rocks, kit/coin
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dinheiro, ilha, pacifico, povos
 - RISCOS: nenhum
 
 ## Cena b5 - Algumas eram tão pesadas que nunca saíam do lugar. Todo mundo só lembr...
-- Cenario: street | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Cenario: harbor | luz: day | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): PRO (variante 0, expressao smug, segura paper); POV (variante 0, expressao surprised) | multidao: 10 de POV
 - Animacao: conversar | interacao: cochichar
-- Objetos/modelos: nature/rocks
+- Objetos/modelos: nature/rocks, kit/coin
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dono, lugar
 - RISCOS: nenhum
 
@@ -117,19 +117,19 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/coin | b0, b7, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/coin | b0, b4, b5, b7, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/bench | b0, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/cake_table | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 chicken | b2, b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/rocks | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/rocks | b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/stall | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/fountain | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/coin | grandes momentos: b6, b9 | planos abertos: 3 | mistura: close 31% | medio 48% | aberto 15% | detalhe 7%
+- Objeto heroi: kit/coin | grandes momentos: b6, b9 | planos abertos: 3 | mistura: close 31% | medio 47% | aberto 15% | detalhe 7%
 - Interacoes: b0 entregar, b1 discutir, b2 entregar, b3 o outro se aproxima, b5 cochichar, b7 vai ate o outro
 - RISCOS GERAIS: nenhum
 
