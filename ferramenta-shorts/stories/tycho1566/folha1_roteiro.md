@@ -40,12 +40,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b4  (~5.9 s)
 - Narracao: Acontece que o primo acertou um golpe certeiro, e cortou fora um pedaço do nariz de Tycho.
-- Som ambiente: silencio/sala
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: whoosh@26, thump@30
-- Efeito + som nas palavras-chave: encena: golpe (punch) -> acao + som de efeito; encena: corta (hammer) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: golpe (punch) -> acao + som de efeito; encena: corta (reach) -> acao + som de efeito
 - Efeito visual marcado: burst@30, puff@36
 - Texto na tela: -
-- Funcao na historia: VIRADA
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b5  (~5.2 s)
 - Narracao: Para esconder o buraco, ele passou a usar um nariz de metal, colado no rosto.
@@ -72,7 +72,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeito + som nas palavras-chave: encena: constroi (hammer) -> acao + som de efeito; encena: escreve (write) -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: MIL ESTRELAS
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b8  (~6.2 s)
 - Narracao: As anotações eram tão precisas, que ajudaram Kepler a descobrir como os planetas giram em volta do Sol.

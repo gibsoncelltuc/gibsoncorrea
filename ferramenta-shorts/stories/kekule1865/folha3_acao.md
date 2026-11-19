@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 14 - O Químico que Sonhou com uma Cobra
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 32 acoes catalogadas, 31 com animacao, 1 faltando -> NAO RENDERIZAR ate zerar
 
 
 ## Cena b0 - 0.1s a 4.4s - 17 palavras - plano two
@@ -53,7 +53,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | dancar | OK |
+| 1 | - | ATUACAO | conversar | OK |
+| ! | dançavam | ACAO SEM ANIMACAO | (nenhuma) - corrigir o roteiro ou marcar a cena | FALTA |
 
 ## Cena b6 - 34.1s a 40.8s - 19 palavras - plano low
 > "Kekulé acordou num pulo, como se tivesse levado um raio. O benzeno não era uma corrente. Era um anel!"

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 01 - A Batalha de Karánsebes
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 66 acoes catalogadas, 66 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 67 acoes catalogadas, 67 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 2.9s - 10 palavras - plano crowd
@@ -124,7 +124,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 6 | - | CHEGADA | alguem entra andando | OK |
 | 7 | - | PLACA | 10.000? | OK |
 
-## Cena b10 - 63.3s a 65.1s - 8 palavras - plano close
+## Cena b10 - 63.3s a 65.1s - 8 palavras - plano two
 > "Os turcos venceram sem dar um único tiro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -133,6 +133,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | venceram (63.8s) | ACAO: vence | bracos para cima + brilho | OK |
 | 3 | tiro (65.1s) | EFEITO: burst | estouro/clarao + som | OK |
 | 4 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 5 | - | ATUACAO | conversar | OK |
-| 6 | - | PLACA | FOGO AMIGO | OK |
+| 5 | - | INTERACAO | pular | OK |
+| 6 | - | ATUACAO | comemorar | OK |
+| 7 | - | PLACA | FOGO AMIGO | OK |
 

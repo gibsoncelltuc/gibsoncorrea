@@ -48,7 +48,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): KEK (variante 0, expressao bored)
 - Animacao: conversar
-- Objetos/modelos: kit/campfire
+- Objetos/modelos: kit/fireplace, mk/Chair_1
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cadeira, lareira
 - RISCOS: nenhum
 
@@ -57,10 +57,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): KEK (variante 0, expressao surprised)
-- Animacao: dancar
+- Animacao: conversar
 - Objetos/modelos: kit/snake_ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): atomos, proprio, sonho
-- RISCOS: nenhum
+- RISCOS: 
+  - ACAO SEM ANIMACAO na narracao: dançavam -> CORRECAO: a cena precisa MOSTRAR a acao: reescreva com um verbo que a ferramenta encena (veja OPERACAO.md "MODO DE ACAO") ou marque a cena ("batalha", "interacao", "acao", "animals", "props")
 
 ## Cena b6 - Kekulé acordou num pulo, como se tivesse levado um raio. O benzeno não...
 - Cenario: interior madeira | luz: noite | clima: limpo
@@ -132,7 +133,8 @@ kit/marco_viena | b0, b1, b9, b10, b11 | pronto | conferir na folha de contato s
 buildings/apartment | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/campfire | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/fireplace | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+mk/Chair_1 | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
@@ -140,7 +142,8 @@ kit/campfire | b4 | pronto | conferir na folha de contato se le bem; se parecer 
 - Interacoes: b0 cochichar, b2 discutir, b3 entregar, b8 entregar, b10 insiste
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- b5: ACAO SEM ANIMACAO na narracao: dançavam
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh kekule1865 bN bM` (so essas cenas).
