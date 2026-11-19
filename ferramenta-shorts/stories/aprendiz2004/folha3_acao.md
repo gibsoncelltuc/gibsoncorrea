@@ -4,7 +4,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 11 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 4.7s - 14 palavras - plano two
+## Cena b0 - 0.2s a 4.7s - 14 palavras - plano group
 > "Duas palavras transformaram um empresário de Nova York numa estrela mundial: você está demitido."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -67,14 +67,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | comemorar | OK |
 | 3 | - | PLACA | 28 MILHÕES | OK |
 
-## Cena b7 - 39.5s a 45.8s - 17 palavras - plano two
+## Cena b7 - 39.5s a 45.8s - 17 palavras - plano group
 > "O vencedor, Bill Rancic, ganhou o emprego, com salário de duzentos e cinquenta mil dólares por ano."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | vencedor (39.6s) | ACAO: vence | bracos para cima + brilho | OK |
 | 2 | ganhou (42.0s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | - | INTERACAO | abracar | OK |
+| 3 | - | INTERACAO | vai ate o outro | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b8 - 46.1s a 52.7s - 17 palavras - plano group
@@ -82,11 +82,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | vai ate o outro | OK |
+| 1 | - | INTERACAO | avanca e o outro recua | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | MAPA | BRASIL | OK |
 
-## Cena b9 - 52.9s a 59.1s - 21 palavras - plano two
+## Cena b9 - 52.9s a 59.1s - 21 palavras - plano group
 > "Trump apresentou o programa por mais de dez anos, e só saiu em dois mil e quinze, quando entrou na política."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -94,7 +94,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | apresentou (53.5s) | ACAO: fala | aponta explicando | OK |
 | 2 | saiu (57.2s) | ACAO: sai | sai andando pela lateral | OK |
 | 3 | entrou (58.4s) | ACAO: chega | entra andando pela lateral | OK |
-| 4 | - | INTERACAO | avanca e o outro recua | OK |
+| 4 | - | INTERACAO | o outro se aproxima | OK |
 | 5 | - | ATUACAO | conversar | OK |
 | 6 | - | CHEGADA | alguem entra andando | OK |
 

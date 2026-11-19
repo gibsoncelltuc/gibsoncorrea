@@ -4,7 +4,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Duas palavras transformaram um empresário de Nova York numa estrela mu...
 - Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): TRU (variante 0, expressao smug); CND (variante 0, expressao shock)
 - Animacao: conversar | interacao: susto
@@ -74,10 +74,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - O vencedor, Bill Rancic, ganhou o emprego, com salário de duzentos e c...
 - Cenario: countryside | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): RAN (variante 0, expressao laugh); TRU (variante 0, expressao grin)
-- Animacao: conversar | interacao: abracar
+- Animacao: conversar | interacao: vai ate o outro
 - Objetos/modelos: kit/marco_trumptower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): duzentos, emprego, salario, vencedor
 - RISCOS: nenhum
@@ -87,17 +87,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): POV (variante 0, expressao surprised); POV (variante 1, expressao grin)
-- Animacao: conversar | interacao: vai ate o outro
+- Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/marco_trumptower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aprendiz, brasil, formato, roberto
 - RISCOS: nenhum
 
 ## Cena b9 - Trump apresentou o programa por mais de dez anos, e só saiu em dois mi...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): TRU (variante 0, expressao smug); POV (variante 0, expressao smile)
-- Animacao: conversar | interacao: avanca e o outro recua | o ultimo personagem ENTRA andando
+- Animacao: conversar | interacao: o outro se aproxima | o ultimo personagem ENTRA andando
 - Objetos/modelos: kit/marco_trumptower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): politica, programa
 - RISCOS: nenhum
@@ -125,7 +125,7 @@ nature/picket_fence | b6 | pronto | conferir na folha de contato se le bem; se p
 
 ## Video inteiro
 - Objeto heroi: kit/tv | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 21% | medio 66% | aberto 11% | detalhe 2%
-- Interacoes: b0 susto, b2 aproxima-se, b4 discutir, b7 abracar, b8 vai ate o outro, b9 avanca e o outro recua
+- Interacoes: b0 susto, b2 aproxima-se, b4 discutir, b7 vai ate o outro, b8 avanca e o outro recua, b9 o outro se aproxima
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

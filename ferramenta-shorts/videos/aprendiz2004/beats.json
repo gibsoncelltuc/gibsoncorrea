@@ -49,7 +49,7 @@
  },
  "beats": [
   {
-   "shot": "two",
+   "shot": "group",
    "who": [
     "TRU:0:smug",
     "CND:0:shock"
@@ -185,19 +185,19 @@
    "say": "A final da primeira temporada foi vista por cerca de vinte e oito milhões de americanos."
   },
   {
-   "shot": "two",
+   "shot": "group",
    "who": [
     "RAN:0:laugh",
     "TRU:0:grin"
    ],
-   "interacao": "abracar",
    "say": "O vencedor, Bill Rancic, ganhou o emprego, com salário de duzentos e cinquenta mil dólares por ano.",
    "fx": [
     "stars@30"
    ],
    "sfx": [
     "ding@30"
-   ]
+   ],
+   "acao": "conversar"
   },
   {
    "shot": "reveal",
@@ -216,7 +216,7 @@
    "say": "O formato se espalhou pelo mundo. No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus."
   },
   {
-   "shot": "two",
+   "shot": "group",
    "who": [
     "TRU:0:smug",
     "POV:0:smile"
