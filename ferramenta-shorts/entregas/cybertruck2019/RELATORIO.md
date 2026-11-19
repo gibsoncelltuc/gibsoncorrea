@@ -1,5 +1,5 @@
-# Poder e Fama - O Cybertruck (refeito com a ferramenta final)
-- mp4 1080x1920, 43 s, 97 MB; enviado a sessao principal por ./enviar_para_principal.sh.
-- ./conferir.sh OK (folha 2 sem riscos, 3 folhas OK, voz neural, audio) + folha de contato olhada; voz conferida contra o roteiro atual (script_one = script).
-- CORRIGIDO: b0 com personagem cortado e picape escondida -> plano group com a picape ao fundo.
-- Na folha: mapa da CALIFORNIA, picape Cybertruck presente nas cenas da apresentacao, esfera de aco em primeiro plano (b5), vidro rachando com plateia reagindo (b3), plateia rindo no estadio (b6).
+# Poder e Fama EP 11 - A Janela do Cybertruck (refeito com a ferramenta final) - v2 (substitui a enviada antes)
+- mp4 1080x1920, 43 s, 90 MB; enviado por ./enviar_para_principal.sh. Voz conferida contra o roteiro.
+- ./conferir.sh OK + folha de contato olhada + auditar_acoes.sh: 5 acoes visiveis (apresentou/fala, vidro rachou/quebra, tambem rachou/quebra, explicou/fala, riu) -> janela do Cybertruck rachada em close, grande, com a esfera cravada.
+- CORRIGIDO (auditoria): janela rachando nao aparecia -> NOVO objeto kit/window_crack (modelado em blender/objetos_sessao_a.py; a principal pode incorporar na biblioteca), usado em close nas b3/b4; porto/navio de guerra removidos (rua, palco de salao, campo com Hollywood); b0 personagem cortado/picape escondida.
+- Observacao: o palco (set 'hall') aparece como galpao de tabuas de madeira; a esfera de aco entra pequena no canto na cena "jogou uma esfera".
