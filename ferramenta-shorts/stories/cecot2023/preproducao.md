@@ -7,7 +7,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | outback | two | 2 | conversar, INTERAGEM: aproxima-se | kit/prison, kit/volcano | paper | -
 b1 | outback | reveal | 8 | reagir | kit/prison, kit/volcano | - | -
 b2 | interior pedra | two | 2 | discutir, INTERAGEM: discutir | - | paper | -
-b3 | street | track | 13 | encena, andando | kit/volcano | - | -
+b3 | street | track | 15 | encena, andando | kit/volcano | - | -
 b4 | mountain | crowd | 19 | encena, batalha | kit/prison, kit/volcano | - | -
 b5 | mountain | low | 1 | conversar | kit/prison, kit/volcano, buildings/castle_tower | - | -
 b6 | mountain | low | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/volcano | paper | -
