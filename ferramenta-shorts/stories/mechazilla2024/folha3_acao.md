@@ -64,7 +64,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | ATUACAO | reagir | OK |
 
-## Cena b7 - 45.9s a 50.8s - 15 palavras - plano two
+## Cena b7 - 45.9s a 50.8s - 15 palavras - plano low
 > "Acontece que, no último segundo, os braços se fecharam, e seguraram o foguete no ar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

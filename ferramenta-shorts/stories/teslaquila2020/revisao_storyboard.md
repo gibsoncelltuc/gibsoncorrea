@@ -1,12 +1,12 @@
-b0: OK - Musk fez piada de primeiro de abril sobre tequila, garrafa em raio em close e placa 1 DE ABRIL
-b1: OK - primeiro de abril, dia da mentira, mapa dos Estados Unidos e rua com gente em plano aberto
-b2: OK - Musk postou que a Tesla tinha falido, carro vermelho e garrafa de Teslaquila no porto ao lado dele
-b3: OK - muita gente riu e ele resolveu registrar o nome, os dois rindo de bracos erguidos na sala
-b4: OK - conselho que protege a tequila no Mexico reclamou, representante mexicano discute com Musk
-b5: OK - em dois mil e vinte saiu Tesla Tequila feita no Mexico, garrafa de raio no suporte em close
-b6: OK - garrafa de vidro soprado em forma de raio presa num suporte de metal, personagem segura a garrafa
+b0: OK - Musk fez piada de primeiro de abril sobre tequila, placa 1 DE ABRIL e garrafa em raio na rua
+b1: OK - primeiro de abril dia da mentira nos Estados Unidos, mapa e rua com gente em plano aberto
+b2: CORRIGIDO - garrafa unica no porto com navio -> agora Musk cercado de garrafas de Teslaquila na rua ao lado do carro
+b3: OK - muita gente riu e ele resolveu registrar o nome, os dois rindo de braços erguidos dentro da loja
+b4: CORRIGIDO - Mexico no porto com navio de guerra -> agora conselho que protege a tequila reclamou no deserto com agave
+b5: CORRIGIDO - sala sem Mexico -> agora Tesla Tequila feita no Mexico com agave, garrafa de raio no deserto
+b6: OK - garrafa de vidro soprado em forma de raio no suporte de metal, personagem segura a garrafa na loja
 b7: OK - custava duzentos e cinquenta dolares e esgotou em poucas horas, placa ESGOTOU com multidao
-b8: OK - gente revendendo na internet ate garrafas vazias, compradores com papel e garrafa na rua
-b9: OK - anuncio de mil e quatrocentos dolares por garrafa sem gota, dois personagens surpresos com a garrafa
+b8: CORRIGIDO - revenda no porto -> agora gente revendendo na internet ate garrafas vazias, dentro da loja com papel
+b9: OK - anuncio de mil e quatrocentos dolares por garrafa sem gota, dois personagens surpresos na loja
 b10: OK - garrafa em forma de raio virou item de colecionador, placa COLECAO com fas em plano aberto
 b11: OK - piada do dia da mentira terminou numa prateleira de verdade, Musk sorrindo no fim
