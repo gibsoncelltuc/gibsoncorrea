@@ -13,7 +13,7 @@ b5 | mountain | two | 1 | conversar | vehicles/truck, emus | - | -
 b6 | mountain | group | 2 | conversar, INTERAGEM: susto | emus | - | -
 b7 | mountain | track | 14 | conversar, andando | - | paper | -
 b8 | outback | crowd | 26 | batalha | emus | - | -
-b9 | outback | two | 2 | conversar, INTERAGEM: entregar | buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow, emus | - | -
+b9 | outback | group | 2 | conversar, INTERAGEM: entregar | buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow, emus | - | -
 b10 | outback | close | 1 | conversar | emus | - | -
 
 OBJETO HEROI: nenhum achado (ponha "heroi": "kit/..." no topo do roteiro)

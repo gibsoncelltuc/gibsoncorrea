@@ -180,7 +180,7 @@
   },
   {
    "say": "Depois de uma semana, milhares de balas gastas, e os emus quase sem um arranhão.",
-   "shot": "two",
+   "shot": "group",
    "who": [
     "AUS:0:pained",
     "AUS:1:pained"
@@ -188,11 +188,11 @@
    "text": "1 SEMANA",
    "tat": 0,
    "emus": {
-    "n": 6,
+    "n": 4,
     "mode": "stand",
-    "x": 5.0,
+    "x": 3.0,
     "z": 0.5,
-    "cols": 3
+    "cols": 2
    }
   },
   {
@@ -239,7 +239,7 @@
   },
   {
    "say": "No fim, o governo desistiu da guerra, e passou a pagar recompensa aos fazendeiros por cada emu abatido.",
-   "shot": "two",
+   "shot": "group",
    "who": [
     "FARM:0:smile",
     "FARM:1:grin"
@@ -250,7 +250,7 @@
    "emus": {
     "n": 3,
     "mode": "stand",
-    "x": 4.5,
+    "x": 3.0,
     "z": 0.5,
     "cols": 3
    }

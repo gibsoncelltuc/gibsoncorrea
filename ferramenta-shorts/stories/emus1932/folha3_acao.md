@@ -103,7 +103,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 3 | - | PLACA | CENTENAS | OK |
 
-## Cena b9 - 55.6s a 60.8s - 18 palavras - plano two
+## Cena b9 - 55.6s a 60.8s - 18 palavras - plano group
 > "No fim, o governo desistiu da guerra, e passou a pagar recompensa aos fazendeiros por cada emu abatido."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
