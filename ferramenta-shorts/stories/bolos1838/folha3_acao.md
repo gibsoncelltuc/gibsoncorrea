@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 07 - A Guerra dos Bolos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 51 acoes catalogadas, 51 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 52 acoes catalogadas, 52 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.7s - 12 palavras - plano two
@@ -85,7 +85,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | canhões (42.1s) | EFEITO: burst | estouro/clarao + som | OK |
 | 2 | - | CENA | cavalaria: 4 soldados a cavalo (FRA) | OK |
 | 3 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 4 | - | CENA | explosao: 2 soldados voando | OK |
+| 4 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
 | 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
 | 6 | - | ATUACAO | reagir | OK |
 
@@ -95,14 +95,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | correu (48.7s) | EFEITO: dust | poeira + som | OK |
-| 2 | perdeu (50.0s) | EFEITO: puff | fumaca + som | OK |
-| 3 | perdeu (50.0s) | ACAO: perde | mao na testa | OK |
-| 4 | tiro (51.1s) | EFEITO: burst | estouro/clarao + som | OK |
-| 5 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 6 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 7 | - | CENA | explosao: 2 soldados voando | OK |
-| 8 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
-| 9 | - | ATUACAO | reagir | OK |
+| 2 | correu (48.7s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
+| 3 | perdeu (50.0s) | EFEITO: puff | fumaca + som | OK |
+| 4 | perdeu (50.0s) | ACAO: perde | mao na testa | OK |
+| 5 | tiro (51.1s) | EFEITO: burst | estouro/clarao + som | OK |
+| 6 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 7 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 8 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
+| 9 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
+| 10 | - | ATUACAO | reagir | OK |
 
 ## Cena b9 - 52.6s a 56.6s - 14 palavras - plano two
 > "Meses depois, o México pagou os seiscentos mil pesos, e a França foi embora."

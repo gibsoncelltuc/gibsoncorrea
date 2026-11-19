@@ -121,6 +121,7 @@ gibber(F(_A[8] + int((_A[9] - _A[8]) * 0.2)), 4, 260, 0.12); gibber(F(_A[8] + in
 steps(F(_A[8]), F(_A[8] + 40), 0.12, 0.3)
 whoosh(F(_A[9]), 0.4, 0.35)
 gibber(F(_A[9] + int((_A[10] - _A[9]) * 0.2)), 4, 230, 0.12); gibber(F(_A[9] + int((_A[10] - _A[9]) * 0.58)), 4, 170, 0.12)
+gun(F(int(_W(6))))
 ding(F(int(_W(53))))
 gun(F(int(_W(77))))
 cannon(F(int(_W(79))))

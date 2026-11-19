@@ -9,7 +9,7 @@ b3 | crowd | -  | batalha aberta com tiros, tropa, placa: TODO MUNDO, objeto na 
 b4 | two | -  | objeto na mao | vender (stars + som de sino); encena: negocio (reach) (acao + som de efeito) | -
 b5 | two | -  | interior, objeto na mao | fortuna (stars + som de sino) | -
 b6 | group | dia  | interior, placa: LEILÃO, objeto na mao | encena: negocio (reach) (acao + som de efeito); encena: pega (lift) (acao + som de efeito) | -
-b7 | orbit | - limpo | batalha aberta com tiros, tropa, placa: PÂNICO, objeto na mao | correu (dust + som de impacto); vender (stars + som de sino); comprador (stars + som de sino); encena: negocio (reach) (acao + som de efeito) | -
+b7 | orbit | - limpo | batalha aberta com tiros, tropa, placa: PÂNICO, objeto na mao | correu (dust + som de impacto); vender (stars + som de sino); comprador (stars + som de sino); encena: corre (acao + som de efeito); encena: negocio (reach) (acao + som de efeito) | -
 b8 | two | -  | interior, objeto na mao | encena: desaba (acao + som de efeito) | -
 b9 | close | -  | - | - | -
 

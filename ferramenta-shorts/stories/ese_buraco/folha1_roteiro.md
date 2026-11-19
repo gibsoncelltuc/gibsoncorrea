@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: Nenhuma máquina aguenta. Mas imagine que desse, e você pulasse no buraco.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: cannon@20, thump@50
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: pula -> acao + som de efeito
 - Efeito visual marcado: burst@20, puff@50
 - Texto na tela: 5.000 °C
 - Funcao na historia: GRANDE MOMENTO

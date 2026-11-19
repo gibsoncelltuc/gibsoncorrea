@@ -57,7 +57,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | tiro (38.6s) | EFEITO: burst | estouro/clarao + som | OK |
 | 2 | canhão (39.2s) | EFEITO: burst | estouro/clarao + som | OK |
 | 3 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 4 | - | CENA | explosao: 2 soldados voando | OK |
+| 4 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
 | 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
 
 ## Cena b6 - 40.5s a 44.2s - 15 palavras - plano two

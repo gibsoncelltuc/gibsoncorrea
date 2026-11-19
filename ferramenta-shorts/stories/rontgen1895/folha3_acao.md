@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 11 - O Raio X de Röntgen
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.3s - 16 palavras - plano two
@@ -75,9 +75,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | correu (40.0s) | EFEITO: dust | poeira + som | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | ATUACAO | reagir | OK |
-| 4 | - | PLACA | NOTÍCIA | OK |
+| 2 | correu (40.0s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
+| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | ATUACAO | reagir | OK |
+| 5 | - | PLACA | NOTÍCIA | OK |
 
 ## Cena b9 - 45.9s a 49.4s - 14 palavras - plano two
 > "Como ninguém sabia o que era, ele chamou de raio X. X, de desconhecido."

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - A Guerra do Cachorro Perdido
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 5.6s - 16 palavras - plano two
@@ -20,7 +20,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | fugiu (9.6s) | EFEITO: dust | poeira + som | OK |
-| 2 | - | PLACA | O CACHORRO FUGIU | OK |
+| 2 | fugiu (9.6s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
+| 3 | - | PLACA | O CACHORRO FUGIU | OK |
 
 ## Cena b2 - 12.2s a 15.6s - 10 palavras - plano track
 > "O soldado correu atrás do cachorro, e atravessou a fronteira."
@@ -28,6 +29,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | correu (13.0s) | EFEITO: dust | poeira + som | OK |
+| 2 | correu (13.0s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
 
 ## Cena b3 - 15.9s a 18.5s - 8 palavras - plano crowd
 > "Uma sentinela búlgara viu o soldado, e atirou."
@@ -36,9 +38,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | viu (17.0s) | ACAO: olha | aponta/olha | OK |
 | 2 | atirou (18.5s) | EFEITO: burst | estouro/clarao + som | OK |
-| 3 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | ATUACAO | reagir | OK |
+| 3 | atirou (18.5s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 4 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 6 | - | ATUACAO | reagir | OK |
 
 ## Cena b4 - 18.9s a 21.5s - 8 palavras - plano close
 > "A Grécia ficou furiosa, e deu um ultimato."

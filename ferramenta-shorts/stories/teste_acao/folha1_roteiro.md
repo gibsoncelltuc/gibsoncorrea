@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: - | Cenario base: harbor | 8 cen
 - Narracao: Começou a batalha. Os dois exércitos avançaram um contra o outro, com tiros, canhões e explosões.
 - Som ambiente: sea | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160
-- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; tiros -> burst + som de tiro/explosao; canhões -> burst + som de tiro/explosao; explosao: 2 soldados voando -> acao + som de efeito
+- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; tiros -> burst + som de tiro/explosao; canhões -> burst + som de tiro/explosao; explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: - | Cenario base: harbor | 8 cen
 - Narracao: Uma bomba explodiu no meio da praia, e soldados voaram pelos ares.
 - Som ambiente: sea | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116
-- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; bomba -> burst + som de tiro/explosao; explodiu -> burst + som de tiro/explosao; encena: desaba -> acao + som de efeito; explosao: 3 soldados voando -> acao + som de efeito
+- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; bomba -> burst + som de tiro/explosao; explodiu -> burst + som de tiro/explosao; encena: desaba -> acao + som de efeito; explosao: 3 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

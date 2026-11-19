@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 - Narracao: Oito minutos depois, ele desceu num bosque a uns três quilômetros dali. Os irmãos correram para ver.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: correram -> dust + som de impacto
+- Efeito + som nas palavras-chave: correram -> dust + som de impacto; encena: corre -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

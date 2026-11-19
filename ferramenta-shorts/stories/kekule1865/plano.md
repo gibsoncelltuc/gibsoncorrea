@@ -8,7 +8,7 @@ b2 | two | -  | interior, objeto na mao | - | -
 b3 | two | -  | interior, objeto na mao | encena: quimico (pour) (acao + som de efeito) | -
 b4 | two | noite  | interior | encena: dorme (acao + som de efeito) | -
 b5 | close | noite  | interior | - | -
-b6 | low | noite  | interior | - | -
+b6 | low | noite  | interior | encena: pula (acao + som de efeito) | -
 b7 | two | noite  | interior, objeto na mao | - | -
 b8 | two | -  | interior | - | -
 b9 | crowd | -  | batalha aberta com tiros, tropa, placa: FESTA | (rosto) laugh (expr + som de efeito); festa (stars + som de sino) | -

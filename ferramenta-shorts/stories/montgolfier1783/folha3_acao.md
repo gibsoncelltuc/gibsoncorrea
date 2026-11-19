@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 18 - Os Primeiros Passageiros do Céu
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.2s - 17 palavras - plano two
@@ -77,6 +77,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | correram (51.0s) | EFEITO: dust | poeira + som | OK |
+| 2 | correram (51.0s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
 
 ## Cena b9 - 52.8s a 56.9s - 12 palavras - plano two
 > "Os três bichos estavam vivos e bem! Dava para respirar no céu."

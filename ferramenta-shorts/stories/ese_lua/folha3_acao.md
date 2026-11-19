@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - E Se EP 07 - E Se a Lua Desaparecesse?
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 3.7s - 11 palavras - plano two
@@ -34,8 +34,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | perderiam (15.2s) | ACAO: perde | mao na testa | OK |
-| 2 | - | INTERACAO | avanca e o outro recua | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 2 | puxando (18.9s) | ACAO: empurra | empurra/puxa | OK |
+| 3 | - | INTERACAO | avanca e o outro recua | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b4 - 19.3s a 26.7s - 21 palavras - plano two
 > "Bichos da praia que vivem do sobe e desce da água iam sofrer, e muitos animais iam se perder no escuro."

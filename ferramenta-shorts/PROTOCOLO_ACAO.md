@@ -45,3 +45,11 @@ Prechecar a cena (`./prechecar.sh <id> bN 6`) e OLHAR se a acao acontece; para o
 O resumo de todos os videos fica em `CATALOGO_ACOES.md`. A ferramenta so faz o que o ROTEIRO pede: cada video tem as acoes da sua propria historia (o exemplo da batalha na praia era so' um exemplo).
 - Na batalha (tiros/explosoes): soldados caem no chao ao longo da luta; explosao/canhao/bomba joga soldados voando no meio da tropa.
 - Animais: "comendo" -> fuca/bica; "entrou/chegou/apareceu" -> entra caminhando; "fugiu/correu" -> sai correndo; "atirou/matou" o animal -> cai (desenho, sem sangue); "assustou/latiu" -> alerta.
+
+## 7. GRAVIDADE (fisica de verdade)
+Boneco de ~3,15 m representa pessoa de 1,75 m -> escala 1,8 -> g da cena = 9,8 x 1,8 = 17,6 m/s2 (GRAV no mkvideo). Tudo que sobe e cai segue projetil (sobe desacelerando, cai acelerando):
+pulo (sobe 1,2 m, ~0,74 s; "todo mundo pula" -> a multidao inteira pula), soldado arremessado pela explosao (1,6 s no ar, sobe ~5,6 m), material que cai no alvo (parabola), bola chutada (parabola).
+A folha 3 mostra a fisica de cada uma dessas acoes.
+## 8. Mais acoes do corpo
+correr / sair correndo / fugir -> sai correndo pela lateral + poeira | pular / saltar -> pulo com gravidade | acenar / despedir -> acena | empurrar / puxar / arrastar -> empurra |
+deitar / ajoelhar -> abaixa | atirar / disparar -> arma na mao, aponta, clarao e som.

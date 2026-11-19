@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Na batalha, ele enfrentou os ingleses do duque de Wellington. Canhões dispararam o dia inteiro.
 - Som ambiente: birds | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: cannon@20, cannon@50, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148
-- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; Canhões -> burst + som de tiro/explosao; dispararam -> burst + som de tiro/explosao; encena: golpe (punch) -> acao + som de efeito; explosao: 2 soldados voando -> acao + som de efeito
+- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; Canhões -> burst + som de tiro/explosao; dispararam -> burst + som de tiro/explosao; encena: golpe (punch) -> acao + som de efeito; encena: atira -> acao + som de efeito; explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
 - Efeito visual marcado: burst@20, burst@50
 - Texto na tela: WATERLOO
 - Funcao na historia: GRANDE MOMENTO

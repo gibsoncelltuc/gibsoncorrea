@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 14 - O Químico que Sonhou com uma Cobra
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 4.4s - 17 palavras - plano two
@@ -60,7 +60,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | reagir | OK |
+| 1 | pulo (35.1s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
+| 2 | - | ATUACAO | reagir | OK |
 
 ## Cena b7 - 42.0s a 46.5s - 15 palavras - plano two
 > "Passou o resto da noite desenhando o anel de seis carbonos. E a conta fechou."

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 25 - O Carro que Pulou Outros Carros
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 7.4s - 21 palavras - plano two
@@ -45,9 +45,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | ATUACAO | reagir | OK |
-| 3 | - | PLACA | PULOU! | OK |
+| 1 | pulou (27.4s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | ATUACAO | reagir | OK |
+| 4 | - | PLACA | PULOU! | OK |
 
 ## Cena b5 - 30.7s a 34.8s - 12 palavras - plano low
 > "Depois, girou no ar e desceu de novo sobre as quatro rodas."
@@ -69,8 +70,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | reverencia | OK |
-| 2 | - | ATUACAO | discutir | OK |
+| 1 | salto (42.6s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
+| 2 | - | INTERACAO | reverencia | OK |
+| 3 | - | ATUACAO | discutir | OK |
 
 ## Cena b8 - 45.9s a 54.4s - 24 palavras - plano two
 > "Segundo a Tesla, ele vai de zero a cem em cerca de um segundo. A fabricação ficou para dois mil e vinte e oito."
@@ -95,5 +97,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | comemorar | OK |
+| 1 | pula (62.6s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
+| 2 | - | ATUACAO | comemorar | OK |
 

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 23 - O Martelo da Meia-Noite
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.0s - 21 palavras - plano two
@@ -54,7 +54,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | decolaram (33.5s) | ACAO: voa | decola: poeira no chao, olha para cima | OK |
-| 2 | - | CENA | explosao: 3 soldados voando | OK |
+| 2 | - | CENA | explosao: 3 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 4 | - | PLACA | B-2 | OK |
 
@@ -80,9 +80,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | disparou (52.7s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | - | CENA | voltam para casa (saem andando) | OK |
-| 3 | - | INTERACAO | insiste | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 2 | disparou (52.7s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 3 | - | CENA | voltam para casa (saem andando) | OK |
+| 4 | - | INTERACAO | insiste | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
 ## Cena b9 - 58.2s a 63.9s - 15 palavras - plano orbit
 > "Trump disse que as usinas foram destruídas. Avaliações posteriores discutiram o tamanho real do estrago."

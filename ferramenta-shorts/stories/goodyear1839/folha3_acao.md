@@ -9,7 +9,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | deixou (1.2s) | ACAO: cai | o material voa da mao e cai no alvo + respingo | OK |
+| 1 | deixou (1.2s) | ACAO: cai | o material voa da mao e cai no alvo pela GRAVIDADE (parabola, 0,53 s) + respingo | OK |
 | 2 | fogão (2.3s) | ACAO: calor | vapor/calor saindo | OK |
 | 3 | - | INTERACAO | avanca e o outro recua | OK |
 | 4 | - | ATUACAO | reagir | OK |
@@ -63,7 +63,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | caiu (36.1s) | ACAO: cai | o material voa da mao e cai no alvo + respingo | OK |
+| 1 | caiu (36.1s) | ACAO: cai | o material voa da mao e cai no alvo pela GRAVIDADE (parabola, 0,53 s) + respingo | OK |
 | 2 | fogão (37.1s) | ACAO: calor | vapor/calor saindo | OK |
 | 3 | - | ATUACAO | reagir | OK |
 

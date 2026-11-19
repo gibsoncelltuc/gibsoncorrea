@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 01 - A Batalha de Karánsebes
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 56 acoes catalogadas, 56 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 58 acoes catalogadas, 58 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 2.9s - 10 palavras - plano track
@@ -86,9 +86,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | atirava (44.0s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | ATUACAO | reagir | OK |
+| 2 | atirava (44.0s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 3 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 5 | - | ATUACAO | reagir | OK |
 
 ## Cena b8 - 47.4s a 51.5s - 14 palavras - plano group
 > "Um oficial mandou usar a artilharia, e os canhões dispararam contra o próprio exército."
@@ -99,9 +100,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | artilharia (48.7s) | EFEITO: burst | estouro/clarao + som | OK |
 | 3 | canhões (49.9s) | EFEITO: burst | estouro/clarao + som | OK |
 | 4 | dispararam (50.2s) | EFEITO: burst | estouro/clarao + som | OK |
-| 5 | - | CENA | explosao: 2 soldados voando | OK |
-| 6 | - | INTERACAO | susto | OK |
-| 7 | - | ATUACAO | reagir | OK |
+| 5 | dispararam (50.2s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 6 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
+| 7 | - | INTERACAO | susto | OK |
+| 8 | - | ATUACAO | reagir | OK |
 
 ## Cena b9 - 52.7s a 62.1s - 26 palavras - plano group
 > "Dois dias depois, os turcos chegaram de verdade, e acharam o acampamento abandonado. Contam que foram até dez mil baixas, mas os historiadores duvidam desse número."

@@ -7,7 +7,7 @@ b1 | reveal | -  | tropa, mapa | (rosto) shock (expr + som de efeito); surpresa:
 b2 | two | -  | objeto na mao | encena: cava (hammer) (acao + som de efeito) | -
 b3 | two | -  | objeto na mao | - | -
 b4 | low | -  | - | - | -
-b5 | crowd | -  | batalha aberta com tiros, tropa, placa: 5.000 °C | - | -
+b5 | crowd | -  | batalha aberta com tiros, tropa, placa: 5.000 °C | encena: pula (acao + som de efeito) | -
 b6 | group | -  | tropa | - | -
 b7 | two | -  | objeto na mao | - | -
 b8 | two | -  | interior | - | -

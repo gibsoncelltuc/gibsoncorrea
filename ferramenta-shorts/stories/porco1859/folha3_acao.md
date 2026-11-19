@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 06 - A Guerra do Porco
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 41 acoes catalogadas, 41 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 43 acoes catalogadas, 43 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 2.6s - 11 palavras - plano two
@@ -36,8 +36,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | pegou (14.6s) | ACAO: pega | levanta/segura | OK |
 | 2 | atirou (15.9s) | EFEITO: burst | estouro/clarao + som | OK |
-| 3 | - | CENA | animal: pig leva o tiro e cai | OK |
-| 4 | - | ATUACAO | atira | OK |
+| 3 | atirou (15.9s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 4 | - | CENA | animal: pig leva o tiro e cai | OK |
+| 5 | - | ATUACAO | atira | OK |
 
 ## Cena b4 - 19.6s a 25.6s - 19 palavras - plano two
 > "O fazendeiro foi até a casa do vizinho, com as notas na mão. "Eu pago dez dólares", ofereceu ele."
@@ -55,11 +56,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | gritou (29.0s) | EFEITO: ring | onda + som | OK |
 | 2 | gritou (29.0s) | ACAO: grita | grita de bracos para cima | OK |
-| 3 | dinheiro (30.6s) | EFEITO: stars | estrelinhas + som | OK |
-| 4 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
-| 5 | - | INTERACAO | discutir | OK |
-| 6 | - | ATUACAO | discutir | OK |
-| 7 | - | PLACA | $100 | OK |
+| 3 | empurrando (30.0s) | ACAO: empurra | empurra/puxa | OK |
+| 4 | dinheiro (30.6s) | EFEITO: stars | estrelinhas + som | OK |
+| 5 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
+| 6 | - | INTERACAO | discutir | OK |
+| 7 | - | ATUACAO | discutir | OK |
+| 8 | - | PLACA | $100 | OK |
 
 ## Cena b6 - 33.9s a 39.4s - 15 palavras - plano group
 > "Os ingleses ameaçaram prender o fazendeiro. Então os Estados Unidos mandaram soldados para a ilha."
@@ -76,7 +78,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | canhões (46.6s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | - | CENA | explosao: 2 soldados voando | OK |
+| 2 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
 | 4 | - | ATUACAO | discutir | OK |
 

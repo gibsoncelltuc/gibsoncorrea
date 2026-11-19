@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Kekulé acordou num pulo, como se tivesse levado um raio. O benzeno não era uma corrente. Era um anel!
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@20
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: pula -> acao + som de efeito
 - Efeito visual marcado: ring@20
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

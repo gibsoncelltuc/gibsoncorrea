@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: Um soldado grego estava de guarda, e o cachorro dele fugiu para o outro lado da fronteira.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: fugiu -> dust + som de impacto
+- Efeito + som nas palavras-chave: fugiu -> dust + som de impacto; encena: corre -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: O CACHORRO FUGIU
 - Funcao na historia: desenvolvimento
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: O soldado correu atrás do cachorro, e atravessou a fronteira.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: correu -> dust + som de impacto
+- Efeito + som nas palavras-chave: correu -> dust + som de impacto; encena: corre -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: Uma sentinela búlgara viu o soldado, e atirou.
 - Som ambiente: birds | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@50, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68
-- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; atirou -> burst + som de tiro/explosao; encena: olha (point) -> acao + som de efeito
+- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; atirou -> burst + som de tiro/explosao; encena: olha (point) -> acao + som de efeito; encena: atira -> acao + som de efeito
 - Efeito visual marcado: burst@50
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

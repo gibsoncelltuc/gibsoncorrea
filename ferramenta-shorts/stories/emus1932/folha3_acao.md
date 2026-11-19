@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 02 - A Guerra dos Emus
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 45 acoes catalogadas, 45 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 47 acoes catalogadas, 47 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.7s - 11 palavras - plano two
@@ -51,8 +51,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | atiravam (26.5s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | atiravam (26.5s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 3 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
 ## Cena b5 - 31.2s a 36.7s - 17 palavras - plano two
 > "Um atirador montou a metralhadora num caminhão. Mas o caminhão pulava tanto, que ele não acertou nenhum."
@@ -61,7 +62,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | montou (31.8s) | ACAO: constroi | martela e o objeto cresce | OK |
 | 2 | metralhadora (32.2s) | EFEITO: burst | estouro/clarao + som | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 3 | pulava (34.9s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b6 - 37.9s a 41.9s - 15 palavras - plano group
 > "Depois de uma semana, milhares de balas gastas, e os emus quase sem um arranhão."

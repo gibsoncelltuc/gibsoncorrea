@@ -9,7 +9,7 @@ b3 | two | -  | - | (rosto) shout (expr + som de efeito); gritou (ring + som de 
 b4 | crowd | -  | batalha aberta com tiros, tropa, placa: MILÍCIA | cavalaria: 4 soldados a cavalo (MIL) (acao + som de efeito); encena: fala (point) (acao + som de efeito) | -
 b5 | two | -  | - | encena: prende (push) (acao + som de efeito) | -
 b6 | orbit | -  | batalha aberta com tiros, tropa | cavalaria: 4 soldados a cavalo (MIL) (acao + som de efeito); tiros: 5 soldados caem no chao (acao + som de efeito); encena: fala (point) (acao + som de efeito) | -
-b7 | two | -  | interior, objeto na mao | atirou (burst + som de tiro/explosao); tiro (burst + som de tiro/explosao) | -
+b7 | two | -  | interior, objeto na mao | atirou (burst + som de tiro/explosao); tiro (burst + som de tiro/explosao); encena: atira (acao + som de efeito) | -
 b8 | two | -  | interior, objeto na mao | - | -
 b9 | close | -  | tropa, animais | animal: pig come (acao + som de efeito) | -
 

@@ -12,7 +12,7 @@ b4 | street | low | 2 | discutir, INTERAGEM: discutir | kit/marco_versalhes | - 
 b5 | street | two | 1 | conversar | kit/marco_versalhes, sheep, duck, rooster | - | -
 b6 | medieval | crowd | 33 | batalha | kit/balloon, kit/marco_versalhes, buildings/castle_tower | - | -
 b7 | street | group | 2 | reagir, INTERAGEM: insiste | kit/balloon_air, kit/marco_versalhes, kit/balloon | - | -
-b8 | street | track | 2 | andando | kit/balloon_air, kit/marco_versalhes, nature/tree_pine, nature/tree_oak, nature/bush | - | -
+b8 | street | track | 2 | encena, andando | kit/balloon_air, kit/marco_versalhes, nature/tree_pine, nature/tree_oak, nature/bush | - | -
 b9 | palace | two | 2 | conversar, INTERAGEM: abracar | kit/marco_versalhes, sheep, duck, rooster | - | -
 b10 | palace | orbit | 21 | comemorar, batalha | kit/balloon_air, kit/marco_versalhes | - | -
 b11 | palace | close | 1 | conversar | kit/balloon, kit/marco_versalhes, sheep | - | -

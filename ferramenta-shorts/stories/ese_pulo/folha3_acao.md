@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - E Se EP 01 - E Se Todo Mundo Pulasse ao Mesmo Tempo?
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 25 acoes catalogadas, 25 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.5s - 17 palavras - plano two
@@ -9,9 +9,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | aproxima-se | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | E SE... | OK |
+| 1 | pulassem (1.8s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
+| 2 | - | INTERACAO | aproxima-se | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | E SE... | OK |
 
 ## Cena b1 - 6.7s a 10.2s - 12 palavras - plano reveal
 > "Somos mais de oito bilhões de pessoas, espalhadas por todos os continentes."
@@ -33,9 +34,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | ATUACAO | comemorar | OK |
-| 3 | - | PLACA | 3, 2, 1... | OK |
+| 1 | pula (20.6s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | ATUACAO | comemorar | OK |
+| 4 | - | PLACA | 3, 2, 1... | OK |
 
 ## Cena b4 - 22.5s a 26.0s - 14 palavras - plano close
 > "Acontece que a Terra pesa trilhões de vezes mais que toda a humanidade junta."
@@ -68,8 +70,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | discutir | OK |
-| 2 | - | ATUACAO | discutir | OK |
+| 1 | pular (43.8s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
+| 2 | - | INTERACAO | discutir | OK |
+| 3 | - | ATUACAO | discutir | OK |
 
 ## Cena b8 - 45.2s a 51.7s - 21 palavras - plano two
 > "Aí seria o caos: bilhões de pessoas presas no mesmo lugar, sem estrada, comida ou água para todos voltarem para casa."
@@ -85,13 +88,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | abracar | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | pular (53.7s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
+| 2 | - | INTERACAO | abracar | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b10 - 57.6s a 62.0s - 15 palavras - plano close
 > "A Terra não liga para o nosso pulo. Mas pode pular aí: ninguém vai sentir."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | comemorar | OK |
+| 1 | pulo (59.0s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
+| 2 | - | ATUACAO | comemorar | OK |
 

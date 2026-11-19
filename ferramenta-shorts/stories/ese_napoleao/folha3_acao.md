@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - E Se EP 08 - E Se Napoleão Tivesse Vencido em Waterloo?
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 5.2s - 15 palavras - plano two
@@ -37,10 +37,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | enfrentou (18.1s) | ACAO: golpe | soco + estouro | OK |
 | 2 | Canhões (20.7s) | EFEITO: burst | estouro/clarao + som | OK |
 | 3 | dispararam (21.1s) | EFEITO: burst | estouro/clarao + som | OK |
-| 4 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 5 | - | CENA | explosao: 2 soldados voando | OK |
-| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
-| 7 | - | PLACA | WATERLOO | OK |
+| 4 | dispararam (21.1s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 5 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 6 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
+| 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
+| 8 | - | PLACA | WATERLOO | OK |
 
 ## Cena b4 - 22.6s a 26.7s - 12 palavras - plano crowd
 > "Os ingleses resistiram por horas, e o combate ficou por um fio."

@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: Sete bombardeiros invisíveis decolaram do Missouri, e voaram mais de um dia sem parar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@20, whoosh@50
-- Efeito + som nas palavras-chave: encena: voa (point) -> acao + som de efeito; explosao: 3 soldados voando -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: voa (point) -> acao + som de efeito; explosao: 3 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
 - Efeito visual marcado: whoosh@20, whoosh@50
 - Texto na tela: B-2
 - Funcao na historia: GRANDE MOMENTO
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: Um submarino ainda disparou mísseis contra uma terceira usina. Todos os aviões voltaram para casa.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: disparou -> burst + som de tiro/explosao; voltam para casa (saem andando) -> acao + som de efeito
+- Efeito + som nas palavras-chave: disparou -> burst + som de tiro/explosao; encena: atira -> acao + som de efeito; voltam para casa (saem andando) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

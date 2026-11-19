@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 04 - A Guerra do Balde
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.0s - 13 palavras - plano two
@@ -74,11 +74,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | atacaram (44.6s) | EFEITO: ring | onda + som | OK |
 | 2 | surpresa (45.4s) | EFEITO: ring | onda + som | OK |
 | 3 | fugiu (47.2s) | EFEITO: dust | poeira + som | OK |
-| 4 | - | EMOCAO: shock | o rosto vira "shock" na palavra | OK |
-| 5 | - | CENA | cavalaria: 4 soldados a cavalo (MOD) | OK |
-| 6 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
-| 8 | - | ATUACAO | reagir | OK |
+| 4 | fugiu (47.2s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
+| 5 | - | EMOCAO: shock | o rosto vira "shock" na palavra | OK |
+| 6 | - | CENA | cavalaria: 4 soldados a cavalo (MOD) | OK |
+| 7 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 8 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
+| 9 | - | ATUACAO | reagir | OK |
 
 ## Cena b8 - 48.8s a 53.6s - 17 palavras - plano track
 > "Módena perseguiu os inimigos até os portões de Bolonha, e ainda zombou deles do lado de fora."

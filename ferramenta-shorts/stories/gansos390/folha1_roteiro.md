@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: Os gauleses tinham invadido a cidade, e queimado quase tudo. Quem não fugiu, morreu.
 - Som ambiente: birds
 - Efeitos sonoros marcados: thump@20, thump@55, whoosh@18
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; fugiu -> dust + som de impacto; morreu -> puff + som de baque; encena: queima -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; fugiu -> dust + som de impacto; morreu -> puff + som de baque; encena: queima -> acao + som de efeito; encena: corre -> acao + som de efeito
 - Efeito visual marcado: dust@20, burst@55, puff@20, puff@60
 - Texto na tela: - | mapa: ROMA
 - Funcao na historia: GRANDE MOMENTO
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: Um soldado chamado Mânlio pulou da cama, e empurrou o primeiro invasor muralha abaixo. O gaulês caiu, levando os outros junto.
 - Som ambiente: birds
 - Efeitos sonoros marcados: thump@66, whoosh@60
-- Efeito + som nas palavras-chave: caiu -> dust + som de impacto
+- Efeito + som nas palavras-chave: caiu -> dust + som de impacto; encena: pula -> acao + som de efeito; encena: empurra (push) -> acao + som de efeito
 - Efeito visual marcado: dust@70, puff@80
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: O alarme acordou todo mundo, os romanos correram para a muralha, e o ataque fracassou.
 - Som ambiente: birds
 - Efeitos sonoros marcados: thump@30, sting@10, thump@70
-- Efeito + som nas palavras-chave: alarme -> ring + som de alerta; correram -> dust + som de impacto; ataque -> ring + som de alerta; encena: perde (facepalm) -> acao + som de efeito
+- Efeito + som nas palavras-chave: alarme -> ring + som de alerta; correram -> dust + som de impacto; ataque -> ring + som de alerta; encena: corre -> acao + som de efeito; encena: perde (facepalm) -> acao + som de efeito
 - Efeito visual marcado: burst@30, dust@70
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

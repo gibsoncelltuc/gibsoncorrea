@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: A notícia correu. Em poucos dias, todo mundo quis vender, e não havia mais comprador.
 - Som ambiente: birds
 - Efeitos sonoros marcados: sting@20, thump@40, thump@90
-- Efeito + som nas palavras-chave: correu -> dust + som de impacto; vender -> stars + som de sino; comprador -> stars + som de sino; encena: negocio (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: correu -> dust + som de impacto; vender -> stars + som de sino; comprador -> stars + som de sino; encena: corre -> acao + som de efeito; encena: negocio (reach) -> acao + som de efeito
 - Efeito visual marcado: dust@40, puff@90
 - Texto na tela: PÂNICO
 - Funcao na historia: GRANDE MOMENTO

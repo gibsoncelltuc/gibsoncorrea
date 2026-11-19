@@ -5,8 +5,8 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | mountain | two | 2 | conversar, INTERAGEM: aproxima-se | - | - | -
-b1 | countryside | track | 1 | andando | dog | - | -
-b2 | countryside | track | 1 | andando | dog | - | -
+b1 | countryside | track | 1 | encena, andando | dog | - | -
+b2 | countryside | track | 1 | encena, andando | dog | - | -
 b3 | countryside | crowd | 19 | reagir, batalha | - | - | -
 b4 | countryside | close | 1 | conversar | - | - | -
 b5 | mountain | track | 3 | andando | - | - | -

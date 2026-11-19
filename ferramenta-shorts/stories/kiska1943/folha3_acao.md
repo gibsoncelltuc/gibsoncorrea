@@ -24,7 +24,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 2 | - | CENA | explosao: 2 soldados voando | OK |
+| 2 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
 | 4 | - | ATUACAO | conversar | OK |
 

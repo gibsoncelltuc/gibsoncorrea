@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 19 - A Guerra de Aroostook
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.4s - 16 palavras - plano two
@@ -81,9 +81,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | atirou (40.9s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | tiro (41.7s) | EFEITO: burst | estouro/clarao + som | OK |
-| 3 | - | INTERACAO | entregar | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 2 | atirou (40.9s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 3 | tiro (41.7s) | EFEITO: burst | estouro/clarao + som | OK |
+| 4 | - | INTERACAO | entregar | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
 ## Cena b8 - 42.9s a 46.8s - 13 palavras - plano two
 > "Alguns anos depois, um tratado dividiu a floresta, e a fronteira ficou definida."

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 18 - A Guerra do Cão Fugitivo
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.1s - 17 palavras - plano track
@@ -10,10 +10,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | fugiu (0.8s) | EFEITO: dust | poeira + som | OK |
-| 2 | morreram (5.1s) | EFEITO: puff | fumaca + som | OK |
-| 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 4 | - | ATUACAO | discutir | OK |
-| 5 | - | PLACA | 1925 | OK |
+| 2 | fugiu (0.8s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
+| 3 | morreram (5.1s) | EFEITO: puff | fumaca + som | OK |
+| 4 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 5 | - | ATUACAO | discutir | OK |
+| 6 | - | PLACA | 1925 | OK |
 
 ## Cena b1 - 6.4s a 11.8s - 23 palavras - plano reveal
 > "Em mil novecentos e vinte e cinco, a fronteira entre a Grécia e a Bulgária era tensa, e os dois países viviam desconfiados."
@@ -29,6 +30,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | fugiu (15.9s) | EFEITO: dust | poeira + som | OK |
+| 2 | fugiu (15.9s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
 
 ## Cena b3 - 19.4s a 23.0s - 12 palavras - plano track
 > "O soldado correu atrás do cachorro, e atravessou a fronteira sem pensar."
@@ -36,6 +38,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | correu (20.0s) | EFEITO: dust | poeira + som | OK |
+| 2 | correu (20.0s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
 
 ## Cena b4 - 24.1s a 27.6s - 12 palavras - plano group
 > "Do outro lado, uma sentinela búlgara viu um estranho armado, e atirou."
@@ -44,10 +47,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | viu (26.1s) | ACAO: olha | aponta/olha | OK |
 | 2 | atirou (27.6s) | EFEITO: burst | estouro/clarao + som | OK |
-| 3 | - | CENA | tiros: 3 soldados caem no chao | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | INTERACAO | empurrar | OK |
-| 6 | - | ATUACAO | conversar | OK |
+| 3 | atirou (27.6s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 4 | - | CENA | tiros: 3 soldados caem no chao | OK |
+| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 6 | - | INTERACAO | empurrar | OK |
+| 7 | - | ATUACAO | conversar | OK |
 
 ## Cena b5 - 28.8s a 32.7s - 14 palavras - plano low
 > "Acontece que o soldado morreu, e a Grécia deu um ultimato furioso à Bulgária."

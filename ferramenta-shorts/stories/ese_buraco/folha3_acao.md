@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - E Se EP 09 - E Se Você Cavasse um Buraco Até o Outro Lado da Terra?
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 6.3s - 18 palavras - plano two
@@ -52,9 +52,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | ATUACAO | reagir | OK |
-| 3 | - | PLACA | 5.000 °C | OK |
+| 1 | pulasse (35.2s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | ATUACAO | reagir | OK |
+| 4 | - | PLACA | 5.000 °C | OK |
 
 ## Cena b6 - 36.3s a 42.6s - 18 palavras - plano group
 > "Você cairia cada vez mais rápido, e passaria pelo centro do planeta a milhares de quilômetros por hora."

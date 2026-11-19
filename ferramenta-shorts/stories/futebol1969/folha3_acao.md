@@ -9,7 +9,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | jogo (2.2s) | ACAO: bola | chuta a bola | OK |
+| 1 | jogo (2.2s) | ACAO: bola | chuta a bola: parabola pela GRAVIDADE (0,67 s) | OK |
 | 2 | - | INTERACAO | discutir | OK |
 | 3 | - | ATUACAO | discutir | OK |
 | 4 | - | CHEGADA | alguem entra andando | OK |

@@ -87,7 +87,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: track = travelling lateral acompanhando quem anda
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): ETI (variante 0, expressao nervous); JOS (variante 0, expressao worried)
-- Animacao: -
+- Animacao: encena
 - Objetos/modelos: kit/balloon_air, kit/marco_versalhes, nature/tree_pine, nature/tree_oak, nature/bush
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): irmaos
 - RISCOS: nenhum

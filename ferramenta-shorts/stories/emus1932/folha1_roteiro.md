@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 - Narracao: Acontece que emu é rápido, e não fica parado. Os soldados atiravam, e os pássaros se espalhavam pela fazenda, sumindo na poeira.
 - Som ambiente: birds | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@46, gun@54, gun@58, gun@62, gun@66, gun@74, gun@78, gun@82, gun@86, gun@94, gun@98, gun@102, gun@106, gun@114, gun@118, gun@122, gun@126, gun@134, gun@138, gun@142, gun@146, gun@154, gun@158, gun@162, gun@166, gun@174, gun@178, gun@182, gun@186, gun@194, gun@198, gun@202, gun@206, gun@214, gun@218, gun@222, gun@226
-- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; atiravam -> burst + som de tiro/explosao
+- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; atiravam -> burst + som de tiro/explosao; encena: atira -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 - Narracao: Um atirador montou a metralhadora num caminhão. Mas o caminhão pulava tanto, que ele não acertou nenhum.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: metralhadora -> burst + som de tiro/explosao; encena: constroi (hammer) -> acao + som de efeito
+- Efeito + som nas palavras-chave: metralhadora -> burst + som de tiro/explosao; encena: constroi (hammer) -> acao + som de efeito; encena: pula -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

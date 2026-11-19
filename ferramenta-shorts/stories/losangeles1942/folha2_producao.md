@@ -10,8 +10,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: reagir | interacao: susto
 - Objetos/modelos: kit/searchlight, kit/marco_hollywood, buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade
-- RISCOS: 
-  - ACAO SEM ANIMACAO na narracao: atirando -> CORRECAO: a cena precisa MOSTRAR a acao: reescreva com um verbo que a ferramenta encena (veja OPERACAO.md "MODO DE ACAO") ou marque a cena ("batalha", "interacao", "acao", "animals", "props")
+- RISCOS: nenhum
 
 ## Cena b1 - Era fevereiro de mil novecentos e quarenta e dois, logo depois de Pear...
 - Cenario: street | luz: pordosol | clima: limpo
@@ -122,8 +121,7 @@ cannon | b4, b6 | pronto | conferir na folha de contato se le bem; se parecer ca
 - RISCOS GERAIS: 
   - pouca variedade de cenario ({'street': 8, 'interior madeira': 1, 'interior pedra': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
 
-## RESUMO: 2 risco(s) em aberto
-- b0: ACAO SEM ANIMACAO na narracao: atirando
+## RESUMO: 1 risco(s) em aberto
 - geral: pouca variedade de cenario ({'street': 8, 'interior madeira': 1, 'interior pedra': 1}): o video fica parecendo todos os outros
 
 ## Reparos depois do render

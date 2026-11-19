@@ -17,11 +17,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): PAD (variante 0, expressao shock); POV (variante 0, expressao nervous)
-- Animacao: reagir | interacao: discutir
+- Animacao: reagir | interacao: discutir | o ultimo personagem ENTRA andando
 - Objetos/modelos: kit/cake_table
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cafe, padaria
-- RISCOS: 
-  - ACAO SEM ANIMACAO na narracao: chega -> CORRECAO: a cena precisa MOSTRAR a acao: reescreva com um verbo que a ferramenta encena (veja OPERACAO.md "MODO DE ACAO") ou marque a cena ("batalha", "interacao", "acao", "animals", "props")
+- RISCOS: nenhum
 
 ## Cena b2 - A saída seria a mais antiga de todas: a troca. Uma galinha por uma ces...
 - Cenario: interior madeira | luz: day | clima: limpo
@@ -132,8 +131,7 @@ nature/bench | b6 | pronto | conferir na folha de contato se le bem; se parecer 
 - Interacoes: b0 entregar, b1 discutir, b2 entregar, b3 o outro se aproxima, b5 cochichar, b7 vai ate o outro
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- b1: ACAO SEM ANIMACAO na narracao: chega
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh ese_dinheiro bN bM` (so essas cenas).

@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: Um cachorro fugiu, e por causa dele dois países entraram em guerra, e dezenas de pessoas morreram.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; fugiu -> dust + som de impacto; morreram -> puff + som de baque
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; fugiu -> dust + som de impacto; morreram -> puff + som de baque; encena: corre -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1925
 - Funcao na historia: GANCHO
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: Um soldado grego estava de guarda quando o cachorro dele fugiu para o outro lado da fronteira, atrás de nada.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: fugiu -> dust + som de impacto
+- Efeito + som nas palavras-chave: fugiu -> dust + som de impacto; encena: corre -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: O soldado correu atrás do cachorro, e atravessou a fronteira sem pensar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: correu -> dust + som de impacto
+- Efeito + som nas palavras-chave: correu -> dust + som de impacto; encena: corre -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: Do outro lado, uma sentinela búlgara viu um estranho armado, e atirou.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@60, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116
-- Efeito + som nas palavras-chave: tiros: 3 soldados caem no chao -> acao + som de efeito; atirou -> burst + som de tiro/explosao; encena: olha (point) -> acao + som de efeito
+- Efeito + som nas palavras-chave: tiros: 3 soldados caem no chao -> acao + som de efeito; atirou -> burst + som de tiro/explosao; encena: olha (point) -> acao + som de efeito; encena: atira -> acao + som de efeito
 - Efeito visual marcado: burst@60
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

@@ -5,7 +5,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | noite  | placa: E SE... | - | -
 b1 | two | noite  | - | - | -
 b2 | reveal | -  | tropa, mapa | - | -
-b3 | two | -  | objeto na mao | encena: perde (facepalm) (acao + som de efeito) | -
+b3 | two | -  | objeto na mao | encena: perde (facepalm) (acao + som de efeito); encena: empurra (push) (acao + som de efeito) | -
 b4 | two | -  | animais | perder (dust + som de impacto) | -
 b5 | crowd | noite  | batalha aberta com tiros, tropa, placa: SEM LUA | - | -
 b6 | two | -  | - | encena: vira (up) (acao + som de efeito) | -

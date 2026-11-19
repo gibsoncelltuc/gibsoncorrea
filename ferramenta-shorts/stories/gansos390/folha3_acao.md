@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 05 - Os Gansos que Salvaram Roma
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.4s - 10 palavras - plano two
@@ -20,10 +20,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | queimado (6.1s) | ACAO: queima | fogo + fumaca | OK |
 | 2 | fugiu (8.4s) | EFEITO: dust | poeira + som | OK |
-| 3 | morreu (9.1s) | EFEITO: puff | fumaca + som | OK |
-| 4 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 6 | - | MAPA | ROMA | OK |
+| 3 | fugiu (8.4s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
+| 4 | morreu (9.1s) | EFEITO: puff | fumaca + som | OK |
+| 5 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 7 | - | MAPA | ROMA | OK |
 
 ## Cena b2 - 10.3s a 15.9s - 18 palavras - plano group
 > "Os romanos que sobraram se trancaram no Capitólio, uma colina cercada de muralhas, sem comida, e sem saída."
@@ -66,9 +67,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | caiu (44.7s) | EFEITO: dust | poeira + som | OK |
-| 2 | - | INTERACAO | empurrar | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 1 | pulou (40.2s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
+| 2 | empurrou (41.4s) | ACAO: empurra | empurra/puxa | OK |
+| 3 | caiu (44.7s) | EFEITO: dust | poeira + som | OK |
+| 4 | - | INTERACAO | empurrar | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 47.3s a 51.5s - 15 palavras - plano orbit
 > "O alarme acordou todo mundo, os romanos correram para a muralha, e o ataque fracassou."
@@ -77,9 +80,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | alarme (47.5s) | EFEITO: ring | onda + som | OK |
 | 2 | correram (49.6s) | EFEITO: dust | poeira + som | OK |
-| 3 | ataque (51.2s) | EFEITO: ring | onda + som | OK |
-| 4 | fracassou (51.5s) | ACAO: perde | mao na testa | OK |
-| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | correram (49.6s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
+| 4 | ataque (51.2s) | EFEITO: ring | onda + som | OK |
+| 5 | fracassou (51.5s) | ACAO: perde | mao na testa | OK |
+| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
 ## Cena b8 - 52.9s a 56.7s - 13 palavras - plano two
 > "Desde então, todo ano, os gansos ganhavam um desfile pelas ruas de Roma."

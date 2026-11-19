@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 20 - A Batalha de Los Angeles
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 43 acoes catalogadas, 42 com animacao, 1 faltando -> NAO RENDERIZAR ate zerar
+**Resumo:** 10 frases, 43 acoes catalogadas, 43 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.9s - 14 palavras - plano two
@@ -9,10 +9,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | susto | OK |
-| 2 | - | ATUACAO | reagir | OK |
-| 3 | - | PLACA | 1942 | OK |
-| ! | atirando | ACAO SEM ANIMACAO | (nenhuma) - corrigir o roteiro ou marcar a cena | FALTA |
+| 1 | atirando (1.7s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 2 | - | INTERACAO | susto | OK |
+| 3 | - | ATUACAO | reagir | OK |
+| 4 | - | PLACA | 1942 | OK |
 
 ## Cena b1 - 5.0s a 10.3s - 20 palavras - plano reveal
 > "Era fevereiro de mil novecentos e quarenta e dois, logo depois de Pearl Harbor, e Los Angeles vivia com medo."
@@ -51,7 +51,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | atirar (27.5s) | EFEITO: burst | estouro/clarao + som | OK |
 | 3 | canhões (28.1s) | EFEITO: burst | estouro/clarao + som | OK |
 | 4 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 5 | - | CENA | explosao: 2 soldados voando | OK |
+| 5 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
 | 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 7 | - | PLACA | FOGO! | OK |
 
@@ -76,7 +76,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | caíram (39.1s) | EFEITO: dust | poeira + som | OK |
 | 4 | - | EMOCAO: scared | o rosto vira "scared" na palavra | OK |
 | 5 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 6 | - | CENA | explosao: 2 soldados voando | OK |
+| 6 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
 | 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
 ## Cena b7 - 41.9s a 46.1s - 14 palavras - plano two

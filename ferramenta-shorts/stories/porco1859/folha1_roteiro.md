@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Ele pegou a espingarda, e atirou. O porco era de um vizinho inglês.
 - Som ambiente: birds
 - Efeitos sonoros marcados: gun@24, squeal@30
-- Efeito + som nas palavras-chave: animal: pig leva o tiro e cai -> acao + som de efeito; atirou -> burst + som de tiro/explosao; encena: pega (lift) -> acao + som de efeito
+- Efeito + som nas palavras-chave: animal: pig leva o tiro e cai -> acao + som de efeito; atirou -> burst + som de tiro/explosao; encena: pega (lift) -> acao + som de efeito; encena: atira -> acao + som de efeito
 - Efeito visual marcado: burst@24
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: "Dez? Ele vale cem!", gritou o dono, empurrando o dinheiro de volta. Ninguém cedeu.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou -> ring + som de alerta; dinheiro -> stars + som de sino; encena: grita (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou -> ring + som de alerta; dinheiro -> stars + som de sino; encena: grita (up) -> acao + som de efeito; encena: empurra (push) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: $100
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Acontece que a Inglaterra respondeu com navios de guerra. Logo eram centenas de soldados e dezenas de canhões, apontados uns para os outros.
 - Som ambiente: sea
 - Efeitos sonoros marcados: sting@10, thump@40
-- Efeito + som nas palavras-chave: canhões -> burst + som de tiro/explosao; explosao: 2 soldados voando -> acao + som de efeito
+- Efeito + som nas palavras-chave: canhões -> burst + som de tiro/explosao; explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
 - Efeito visual marcado: dust@40
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

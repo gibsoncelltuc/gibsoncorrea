@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: E se todas as pessoas do planeta pulassem exatamente no mesmo segundo? A Terra sairia do lugar?
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: pula -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: E SE...
 - Funcao na historia: GANCHO
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Então todo mundo conta até três, e pula ao mesmo tempo!
 - Som ambiente: birds
 - Efeitos sonoros marcados: whoosh@20, thump@40
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: pula -> acao + som de efeito
 - Efeito visual marcado: puff@20, ring@40
 - Texto na tela: 3, 2, 1...
 - Funcao na historia: GRANDE MOMENTO
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: E se, para facilitar, todo mundo se juntasse num lugar só, para pular junto?
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: pula -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Ou seja: pular junto é fácil. Difícil seria a volta.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: pula -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: A Terra não liga para o nosso pulo. Mas pode pular aí: ninguém vai sentir.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: pula -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

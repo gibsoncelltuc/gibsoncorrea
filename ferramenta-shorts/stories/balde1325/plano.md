@@ -9,7 +9,7 @@ b3 | crowd | -  | batalha aberta com tiros, tropa, placa: O BALDE, objeto na mao
 b4 | close | dia  | interior | - | -
 b5 | crowd | -  | tropa, placa: 32.000 | - | -
 b6 | group | -  | tropa | derrota (puff + som de baque) | -
-b7 | crowd | -  | batalha aberta com tiros, tropa | (rosto) shock (expr + som de efeito); cavalaria: 4 soldados a cavalo (MOD) (acao + som de efeito); tiros: 5 soldados caem no chao (acao + som de efeito); atacaram (ring + som de alerta); surpresa (ring + som de alerta); fugiu (dust + som de impacto) | -
+b7 | crowd | -  | batalha aberta com tiros, tropa | (rosto) shock (expr + som de efeito); cavalaria: 4 soldados a cavalo (MOD) (acao + som de efeito); tiros: 5 soldados caem no chao (acao + som de efeito); atacaram (ring + som de alerta); surpresa (ring + som de alerta); fugiu (dust + som de impacto); encena: corre (acao + som de efeito) | -
 b8 | track | -  | objeto na mao | - | -
 b9 | close | -  | placa: 700 ANOS, objeto na mao | - | -
 

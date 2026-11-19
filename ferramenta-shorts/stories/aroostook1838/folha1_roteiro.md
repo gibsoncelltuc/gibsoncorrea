@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Ele convenceu os dois lados a parar, e ninguém atirou um único tiro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: atirou -> burst + som de tiro/explosao; tiro -> burst + som de tiro/explosao
+- Efeito + som nas palavras-chave: atirou -> burst + som de tiro/explosao; tiro -> burst + som de tiro/explosao; encena: atira -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
