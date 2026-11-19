@@ -1,10 +1,10 @@
-b0: OK - "guerra... lenhadores, ninguem morreu": floresta de pinheiros com a placa "1838", dois lenhadores (azul e laranja) com toras e poeira de corte; ninguem cortado.
-b1: OK - "em 1838, a fronteira entre o Maine e uma colonia inglesa": mapa "MAINE" na tela e campo com lago e casa em plano aberto, lenhadores e toras espalhados; fronteira confusa.
-b2: OK - "lenhadores americanos e ingleses cortavam as mesmas arvores": floresta com os dois lenhadores de cores diferentes, pilha de toras e poeira de corte na grade; os dois lados cortam e querem a madeira.
-b3: OK - "Essa arvore e minha!, gritou um lenhador, e logo brigar": na grade o lenhador grita com onda de som, depois corta a tora e o golpe de briga com puff; dois lados discutindo perto da pilha de toras.
-b4: OK - "O Maine chamou milhares de soldados, e a Inglaterra mandou os seus": placa "MILICIA" com dezenas de soldados e cavalaria marchando, uniformes azuis e vermelhos (os dois lados) na rua; "mandou" aparece como fala na grade.
-b5: CORRIGIDO - "um agente do Maine foi preso pelos ingleses": o agente apenas sorria ao lado do soldado ingles, sem nada de prisao -> entrou uma cela/prisao em miniatura atras do soldado, aparecendo na grade no instante de "preso", com o clima tenso.
-b6: OK - "o governo mandou um general conversar": um general de uniforme com dragonas e outro oficial conversam em plano medio na praia; a grade mostra "mandou" como fala.
-b7: OK - "convenceu os dois lados a parar, ninguem atirou": interior com dois personagens de chapeu preto conversando calmos, ninguem com arma nem tiro.
-b8: OK - "um tratado dividiu a floresta": os dois negociadores seguram o papel do tratado numa sala, plano medio.
-b9: OK - "Guerra do Porco com Feijao, porque era so isso que as tropas comiam": floresta com soldados rindo e o porco rosa 2D ao lado, panelas de feijao ao fundo.
+b0: OK - "guerra... lenhadores, ninguem morreu": floresta de pinheiros com a placa "1838" e dois lenhadores (azul e laranja) com toras e poeira de corte; ninguem cortado.
+b1: OK - "em 1838, a fronteira entre o Maine e uma colonia inglesa": mapa "MAINE" na tela e depois campo com lago e casa em plano aberto, lenhadores e toras espalhados; fronteira confusa.
+b2: CORRIGIDO - "lenhadores americanos e ingleses cortavam as mesmas arvores na floresta": um lenhador aparecia com uma tulipa vermelha na mao (a regra de objeto confundia "floresta" com flores) e a camera de detalhe mostrava uma pedra sem personagem -> deram-lhes sacolas explicitas e desliguei a camera de detalhe; agora os dois lenhadores aparecem em todos os quadros, com toras e pedras ao lado.
+b3: CORRIGIDO - "Essa arvore e minha!, gritou um lenhador, e logo os dois lados comecaram a brigar": os dois lenhadores ficavam parados lado a lado sem golpe nem briga -> virou confronto dos dois lados (lenhadores azuis e laranjas) com ondas de som no grito, impacto com estrelas e a massa dos dois lados brigando com objetos voando na grade.
+b4: OK - "o Maine chamou milhares de soldados, e a Inglaterra mandou os seus": placa "MILICIA" com dezenas de soldados e cavalaria marchando, uniformes azuis e vermelhos (os dois lados) na rua; a grade mostra "mandou" como fala.
+b5: OK - "um agente do Maine foi preso pelos ingleses": a cela (prisao em miniatura) aparece atras do soldado ingles vermelho e do agente azul em interior, clima tenso, no instante de "preso".
+b6: OK - "o governo mandou um general conversar": o general de uniforme com dragonas e o outro oficial conversam em plano medio na praia; a grade mostra "mandou" como fala.
+b7: OK - "convenceu os dois lados a parar, ninguem atirou um unico tiro": interior com dois personagens de chapeu preto conversando calmos, ninguem com arma nem tiro.
+b8: OK - "um tratado dividiu a floresta, e a fronteira ficou definida": os dois negociadores seguram o papel do tratado numa sala, plano medio, parados e em acordo.
+b9: OK - "Guerra do Porco com Feijao, porque era so isso que as tropas comiam": floresta com soldados rindo, o porco rosa 2D ao lado e panelas de feijao ao fundo.

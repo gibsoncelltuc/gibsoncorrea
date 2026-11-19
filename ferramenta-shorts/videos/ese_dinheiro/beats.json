@@ -65,8 +65,8 @@
    "shot": "two",
    "interior": "loja",
    "who": [
-    "PAD:0:shock",
-    "POV:0:nervous"
+    "PAD:0:shock:bag",
+    "POV:0:nervous:bag"
    ],
    "fx": [
     "ring@30"

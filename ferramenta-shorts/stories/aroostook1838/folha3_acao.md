@@ -22,16 +22,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | MAPA | MAINE | OK |
 
-## Cena b2 - 11.6s a 17.5s - 18 palavras - plano crowd
+## Cena b2 - 11.6s a 17.5s - 18 palavras - plano two
 > "Na floresta de Aroostook, lenhadores americanos e ingleses cortavam as mesmas árvores, e cada lado queria a madeira."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | lenhadores (13.2s) | ACAO: corta | machado e toras + poeira | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | discutir | OK |
 
-## Cena b3 - 18.7s a 22.8s - 15 palavras - plano two
+## Cena b3 - 18.7s a 22.8s - 15 palavras - plano crowd
 > ""Essa árvore é minha!", gritou um lenhador, e logo os dois lados começaram a brigar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -42,10 +42,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | brigar (22.8s) | EFEITO: puff | fumaca + som | OK |
 | 5 | brigar (22.8s) | ACAO: golpe | soco + estouro | OK |
 | 6 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
-| 7 | - | INTERACAO | empurrar | OK |
+| 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 8 | - | ATUACAO | discutir | OK |
 
-## Cena b4 - 23.9s a 27.2s - 12 palavras - plano crowd
+## Cena b4 - 23.9s a 27.2s - 12 palavras - plano orbit
 > "O Maine chamou milhares de soldados, e a Inglaterra mandou os seus."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

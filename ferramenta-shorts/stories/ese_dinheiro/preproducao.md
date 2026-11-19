@@ -5,7 +5,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | interior loja | two | 2 | conversar, INTERAGEM: entregar | kit/coin | - | -
-b1 | interior loja | two | 2 | reagir, INTERAGEM: discutir, alguem chega andando | kit/cake_table | - | -
+b1 | interior loja | two | 2 | reagir, INTERAGEM: discutir, alguem chega andando | kit/cake_table | bag, bag | -
 b2 | street | two | 2 | conversar, INTERAGEM: entregar | kit/marco_yap, chicken | - | -
 b3 | street | low | 2 | discutir, INTERAGEM: o outro se aproxima | kit/marco_yap, chicken | - | -
 b4 | harbor | wide | 8 | encena | kit/marco_yap, nature/rocks | - | -

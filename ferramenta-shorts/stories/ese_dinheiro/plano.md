@@ -3,7 +3,7 @@
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
 b0 | two | -  | interior, placa: E SE... | dinheiro (stars + som de sino); encena: paga (reach) @4 (acao + som de efeito) | -
-b1 | two | -  | interior | - | -
+b1 | two | -  | interior, objeto na mao | - | -
 b2 | two | -  | animais | - | -
 b3 | low | -  | animais | - | -
 b4 | wide | -  | tropa, mapa | dinheiro (stars + som de sino); encena: paga (reach) @7 (acao + som de efeito) | -

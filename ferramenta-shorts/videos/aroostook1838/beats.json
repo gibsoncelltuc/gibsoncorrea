@@ -122,8 +122,8 @@
    "shot": "two",
    "set": "mountain",
    "who": [
-    "AME:0:smug",
-    "CAN:0:smug"
+    "AME:0:smug:bag",
+    "CAN:0:smug:bag"
    ],
    "acao": "discutir",
    "say": "Na floresta de Aroostook, lenhadores americanos e ingleses cortavam as mesmas árvores, e cada lado queria a madeira.",
@@ -153,16 +153,16 @@
      -0.6,
      1.0
     ]
-   ]
+   ],
+   "detalhe": false
   },
   {
-   "shot": "two",
+   "shot": "crowd",
    "set": "countryside",
    "who": [
     "AME:0:shout",
     "CAN:0:angry"
    ],
-   "interacao": "empurrar",
    "say": "\"Essa árvore é minha!\", gritou um lenhador, e logo os dois lados começaram a brigar.",
    "fachada": false,
    "props": [
@@ -184,7 +184,26 @@
      -9.0,
      1.8
     ]
-   ]
+   ],
+   "impact": true,
+   "fx": [
+    "stars@60",
+    "puff@60"
+   ],
+   "sfx": [
+    "thump@60"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 16,
+    "outfits": [
+     "AME",
+     "CAN"
+    ],
+    "march": false,
+    "expr": "angry"
+   }
   },
   {
    "shot": "crowd",
