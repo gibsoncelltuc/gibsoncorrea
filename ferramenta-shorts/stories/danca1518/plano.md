@@ -13,5 +13,5 @@ b7 | two | -  | interior | - | -
 b8 | track | -  | - | dançarinos (stars + som de sino); dança (stars + som de sino); encena: danca (up) @3 (acao + som de efeito) | -
 b9 | close | -  | - | - | -
 
-Mistura de planos: close 20% | medio 61% | aberto 14% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 20% | medio 63% | aberto 14% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

@@ -15,7 +15,7 @@ b7 | interior loja | two | 2 | reagir, INTERAGEM: o outro se aproxima | - | - | 
 b8 | mountain | track | 3 | dancar, andando | kit/marco_viena | - | -
 b9 | street | close | 1 | reagir | kit/marco_viena | - | -
 
-OBJETO HEROI: war/drum - aparece em 2 cena(s), close nele em 2
+OBJETO HEROI: war/drum - aparece em 2 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b6
 Interacoes entre personagens: b0 susto, b2 aproxima-se, b4 avanca e o outro recua, b5 discutir, b7 o outro se aproxima
 

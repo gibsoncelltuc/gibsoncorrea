@@ -4,8 +4,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Uma mulher começou a dançar no meio da rua, e não conseguiu mais parar...
 - Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): TRO (variante 0, expressao laugh); POV (variante 1, expressao shock)
 - Animacao: dancar | interacao: susto
 - Objetos/modelos: war/drum, kit/marco_viena
@@ -119,7 +119,7 @@ nature/lamppost | b5 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: war/drum | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 20% | medio 61% | aberto 14% | detalhe 5%
+- Objeto heroi: war/drum | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 20% | medio 63% | aberto 14% | detalhe 3%
 - Interacoes: b0 susto, b2 aproxima-se, b4 avanca e o outro recua, b5 discutir, b7 o outro se aproxima
 - RISCOS GERAIS: nenhum
 
