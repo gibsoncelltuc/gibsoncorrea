@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 06 - A Guerra do Porco
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 49 acoes catalogadas, 49 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 48 acoes catalogadas, 48 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 2.6s - 11 palavras - plano two
@@ -9,11 +9,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | entraram (0.8s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | - | INTERACAO | o outro se aproxima | OK |
-| 3 | - | ATUACAO | reagir | OK |
-| 4 | - | CHEGADA | alguem entra andando | OK |
-| 5 | - | PLACA | 1859 | OK |
+| 1 | - | INTERACAO | o outro se aproxima | OK |
+| 2 | - | ATUACAO | reagir | OK |
+| 3 | - | CHEGADA | alguem entra andando | OK |
+| 4 | - | PLACA | 1859 | OK |
 
 ## Cena b1 - 3.7s a 8.1s - 18 palavras - plano two
 > "Era uma ilha pequena, entre os Estados Unidos e o Canadá, e ninguém sabia de quem ela era."
