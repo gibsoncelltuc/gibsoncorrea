@@ -6,10 +6,10 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | medieval | two | 2 | conversar, INTERAGEM: susto | kit/balloon, kit/marco_versalhes, sheep | - | -
 b1 | medieval | reveal | 8 | parados (so fala e pisca) | kit/marco_versalhes | - | -
-b2 | interior loja | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/campfire | - | -
+b2 | medieval | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/campfire, kit/marco_versalhes | - | -
 b3 | interior madeira | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/balloon | paper | -
-b4 | interior pedra | two | 2 | discutir, INTERAGEM: discutir | - | - | -
-b5 | mountain | two | 1 | conversar | kit/balloon, kit/marco_versalhes, sheep, duck, rooster | - | -
+b4 | medieval | low | 2 | discutir, INTERAGEM: discutir | kit/marco_versalhes | - | -
+b5 | medieval | two | 1 | conversar | kit/balloon, kit/marco_versalhes, sheep, duck, rooster | - | -
 b6 | medieval | crowd | 33 | batalha | kit/balloon, kit/marco_versalhes | - | -
 b7 | medieval | group | 2 | reagir, INTERAGEM: insiste | kit/balloon_air, kit/marco_versalhes, kit/balloon | - | -
 b8 | countryside | two | 2 | reagir, INTERAGEM: vai ate o outro, alguem chega andando | kit/balloon, kit/marco_versalhes, nature/tree_pine, nature/tree_oak, nature/bush | - | -

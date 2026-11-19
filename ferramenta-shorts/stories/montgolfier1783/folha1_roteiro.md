@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval
 
 ## Cena b2  (~6.6 s)
 - Narracao: Os irmãos Montgolfier, donos de uma fábrica de papel, repararam que a fumaça quente fazia sacos de papel flutuarem.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: whoosh@40
 - Efeito + som nas palavras-chave: encena: calor (reach) @13 -> acao + som de efeito
 - Efeito visual marcado: puff@40
@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval
 
 ## Cena b4  (~6.2 s)
 - Narracao: Só que ninguém sabia se dava para respirar lá em cima. E se o ar do céu matasse?
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval
 
 ## Cena b5  (~5.5 s)
 - Narracao: A solução: mandar bichos na frente. Uma ovelha, um pato e um galo entraram na cesta.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: chega (point) @13 -> acao + som de efeito
 - Efeito visual marcado: -

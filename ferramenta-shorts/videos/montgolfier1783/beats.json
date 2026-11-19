@@ -76,7 +76,8 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Os primeiros passageiros de um balão não foram pessoas. Foram uma ovelha, um pato e um galo."
+   "say": "Os primeiros passageiros de um balão não foram pessoas. Foram uma ovelha, um pato e um galo.",
+   "set": "medieval"
   },
   {
    "shot": "reveal",
@@ -108,7 +109,8 @@
    "sfx": [
     "whoosh@40"
    ],
-   "say": "Os irmãos Montgolfier, donos de uma fábrica de papel, repararam que a fumaça quente fazia sacos de papel flutuarem."
+   "say": "Os irmãos Montgolfier, donos de uma fábrica de papel, repararam que a fumaça quente fazia sacos de papel flutuarem.",
+   "set": "medieval"
   },
   {
    "shot": "two",
@@ -135,7 +137,8 @@
     "ETI:0:nervous"
    ],
    "acao": "discutir",
-   "say": "Só que ninguém sabia se dava para respirar lá em cima. E se o ar do céu matasse?"
+   "say": "Só que ninguém sabia se dava para respirar lá em cima. E se o ar do céu matasse?",
+   "set": "medieval"
   },
   {
    "shot": "two",
@@ -168,7 +171,8 @@
      -2.2,
      1.0
     ]
-   ]
+   ],
+   "set": "medieval"
   },
   {
    "shot": "crowd",
@@ -202,7 +206,8 @@
    "sfx": [
     "sting@30"
    ],
-   "say": "No palácio de Versalhes, o rei Luís dezesseis e a rainha Maria Antonieta vieram assistir, com uma multidão."
+   "say": "No palácio de Versalhes, o rei Luís dezesseis e a rainha Maria Antonieta vieram assistir, com uma multidão.",
+   "set": "medieval"
   },
   {
    "shot": "reveal",
@@ -340,7 +345,8 @@
      0.8
     ]
    ],
-   "say": "E tudo graças a uma ovelha, um pato e um galo corajosos."
+   "say": "E tudo graças a uma ovelha, um pato e um galo corajosos.",
+   "set": "medieval"
   }
  ],
  "exp": 0.81
