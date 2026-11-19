@@ -6,15 +6,15 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | street | two | 2 | conversar, INTERAGEM: insiste | kit/tequila_bolt, kit/marco_mexico | - | -
 b1 | street | reveal | 8 | parados (so fala e pisca) | kit/marco_mexico | - | -
-b2 | harbor | two | 2 | discutir, INTERAGEM: discutir, alguem chega andando | kit/tequila_bolt, kit/marco_mexico, nature/picket_fence, kit/roadster | - | -
-b3 | interior madeira | two | 2 | comemorar, INTERAGEM: entregar | - | paper | -
-b4 | harbor | low | 2 | discutir, INTERAGEM: o outro se aproxima | kit/marco_mexico, kit/tequila_bolt | - | -
-b5 | interior loja | two | 2 | conversar, INTERAGEM: cochichar | kit/tequila_bolt, kit/roadster | - | -
+b2 | street | two | 2 | discutir, INTERAGEM: discutir, alguem chega andando | kit/tequila_bolt, kit/marco_mexico, nature/picket_fence, kit/roadster | - | -
+b3 | interior loja | two | 2 | comemorar, INTERAGEM: entregar | - | paper | -
+b4 | outback | low | 2 | discutir, INTERAGEM: o outro se aproxima | kit/veg_cacto, kit/marco_mexico, kit/tequila_bolt | - | -
+b5 | outback | two | 2 | conversar, INTERAGEM: cochichar | kit/tequila_bolt, kit/veg_cacto, kit/marco_mexico, kit/roadster | - | -
 b6 | interior loja | close | 1 | comemorar | kit/tequila_bolt | - | -
-b7 | harbor | crowd | 23 | comemorar, batalha | kit/tequila_bolt, kit/marco_mexico | - | -
+b7 | street | crowd | 23 | comemorar, batalha | kit/tequila_bolt, kit/marco_mexico | - | -
 b8 | street | two | 2 | reagir, INTERAGEM: entregar, alguem chega andando | kit/tequila_bolt, kit/marco_mexico | paper | -
 b9 | street | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/tequila_bolt, kit/marco_mexico | - | -
-b10 | countryside | orbit | 21 | comemorar, batalha | kit/tequila_bolt, kit/marco_mexico | - | -
+b10 | street | orbit | 21 | comemorar, batalha | kit/tequila_bolt, kit/marco_mexico | - | -
 b11 | street | close | 1 | comemorar | kit/tequila_bolt, kit/marco_mexico | - | -
 
 OBJETO HEROI: kit/tequila_bolt - aparece em 10 cena(s), close nele em 3

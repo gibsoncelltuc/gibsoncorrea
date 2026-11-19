@@ -106,6 +106,18 @@ def chess_pc():
     caixa((0, .78, .22), (.6, .025, .18), '#d8d8dc')                                   # teclado
     fim(.01)
 
-E = dict(bitcoin=bitcoin, roadster=roadster, ball=ball, fireplace=fireplace, chess_pc=chess_pc)
+def lapide():
+    # tumulo (19/11): lapide de pedra arredondada em pe com cruz gravada, monte de terra com grama na frente, flores
+    novo('lapide'); P, P2 = '#9a9a96', '#7d7d79'
+    caixa((0, .55, 0), (.7, 1.0, .16), P); cil((0, 1.05, 0), .35, .16, P, lados=24, rot=(H, 0, 0))   # lapide com topo redondo
+    caixa((0, .06, 0), (.9, .12, .3), P2)                                                           # base
+    caixa((0, .78, .085), (.08, .42, .02), '#5e5e5a'); caixa((0, .88, .085), (.28, .08, .02), '#5e5e5a')   # cruz gravada
+    for i in range(3): caixa((0, .5 - i * .08, .085), (.4 - i * .06, .025, .02), '#6a6a66')                # "nome e datas"
+    bola((0, .05, .55), .5, '#6b4a2a', esc=(1, .22, 1.3)); bola((0, .1, .55), .46, '#5e9a3a', esc=(1, .18, 1.2))   # monte de terra com grama
+    for x, c in ((-.25, '#e05a5a'), (0, '#f2d13a'), (.25, '#e8e8f0')):
+        cil((x, .2, .32), .012, .22, '#3f7a2a'); bola((x, .33, .32), .06, c)                          # flores
+    fim(.02)
+
+E = dict(bitcoin=bitcoin, roadster=roadster, ball=ball, fireplace=fireplace, chess_pc=chess_pc, lapide=lapide)
 alvo = sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else list(E)
 for k in alvo: E[k]()
