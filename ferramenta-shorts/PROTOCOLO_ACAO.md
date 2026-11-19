@@ -94,3 +94,8 @@ Cada sessao de producao deixa rodando em segundo plano, desde o inicio:
 A cada 10 min ela puxa a ferramenta do branch principal, regenera as folhas dos videos ainda nao prontos e roda `verificar_execucao.py`.
 Storyboard que mudou volta para a fila; a sessao REVISA de novo (grade de acoes + revisao_storyboard.md). Falha de execucao no log = corrigir na hora (REGRA MESTRA).
 Toda revisao com defeito achado vira linha "CORRIGIDO" no revisao_storyboard.md, e o commit diz o que foi corrigido (a sessao principal confere pelo git).
+
+## 14. REFACAO DOS VIDEOS JA PRONTOS (ordem do Gibson 19/11)
+Os 63 roteiros que ja tinham video sao TODOS refeitos com a ferramenta final, divididos assim:
+sessao principal = queue.txt (24) | sessao A = fila_sessao_A.txt (20) | sessao B = fila_sessao_B.txt (19).
+NADA de tema novo ate terminar a refacao. Cada video: storyboard + grade de acoes + revisao_storyboard.md + verificar_execucao; so depois render; entrega so depois de conferir.sh e olhar a folha de contato.
