@@ -398,7 +398,8 @@ ENC = [(r'^(misturou|misturaram|misturando|mistura|misturar|mexeu|mexendo|mexia|
        (r'^(tirou|tiraram|tirar|fotografou|fotos?|selfie|filmou|filmaram|gravou)$', 'lift', 'tira'),
        (r'^(rendeu|renderam|rendendo|rendicao|renderam-se|rendeu-se)$', 'up', 'rende'),
        (r'^(voarem|voar|voou|voando|decolou|decolaram|decolar|levantou voo|subiu ao ceu)$', 'point', 'voa'),
-       (r'^(descobrir|descobriu|descobriram|descoberta|encontrou|encontraram|achou|acharam)$', 'think', 'examina'),
+       (r'^(descobrir|descobriu|descobriram|descoberta)$', 'think', 'examina'),
+       (r'^(encontrou|encontraram|achou|acharam|flagrou|pegou no flagra)$', 'point', 'olha'),
        (r'^(cavar|cavou|cavaram|cavando|escavou|escavaram)$', 'hammer', 'cava'),
        (r'^(venceu|venceram|vencedor|vencedora|vitoria|ganhou|ganharam|campeao)$', 'up', 'vence'),
        (r'^(perdeu|perderam|perdesse|perderia|perderiam|perdedor|perdedora|fracassou|falhou)$', 'facepalm', 'perde'),
@@ -1061,7 +1062,7 @@ def build_beat(k, b):
                 _feitos.add(tipo_); _encs.append((wi_, gest_, tipo_, j_)); break
         _resto = lambda j0: nrm(' '.join(_ws[j0:j0 + 7]))
         _sy_ = nrm(b['say']); _mat_ok = bool(_alvo) or any(re.search(r_, _sy_) for r_, a_ in ENC_MAT + ENC_RES) or bool(_st.get('mat'))
-        _ok = {'cai': _mat_ok, 'vira': _mat_ok, 'calor': _mat_ok or bool(re.search(r'fogao|forno|panela|ferv|aquec|esquent|caldeir', _sy_)), 'golpe': bool(re.search(r'ringue|luta|boxe|lutador|briga|soco|golpe|enfrent', _sy_)), 'bola': bool(re.search(r'futebol|\bcopa\b|\bbola\b|\bgol\b|estadio|chut', _sy_)), 'raspa': bool(re.search(r'cabeca|cabelo|careca|maquina|barba', _sy_))}
+        _ok = {'cai': _mat_ok, 'vira': _mat_ok, 'calor': _mat_ok or bool(re.search(r'fogao|forno|panela|ferv|aquec|esquent|caldeir', _sy_)), 'golpe': bool(re.search(r'ringue|luta|boxe|lutador|briga|soco|golpe|enfrent', _sy_)), 'bola': bool(re.search(r'futebol|\bcopa\b|\bbola\b|\bgol\b|estadio|chut', _sy_)), 'raspa': bool(re.search(r'cabeca|cabelo|careca|maquina|barba', _sy_)), 'x_come': not (b.get('animals') and re.search(r'porco|vaca|cavalo|cachorro|gato|galinha|ganso|emu|ovelha|cabra|bicho|animal|rato|passaro', _sy_))}
         _encs = [e_ for e_ in _encs if _ok.get(e_[2], True)]
         b.setdefault('_enc_words', []).extend(w__ for t__, w__ in _mesmos if _ok.get(t__, True) and t__ in {e_[2] for e_ in _encs})   # "o imperio caiu", "abriram fogo", "a luta virou bagunca" NAO sao processo fisico
         for n_e, (wi_, gest_, tipo_, j_) in enumerate(_encs[:6]):

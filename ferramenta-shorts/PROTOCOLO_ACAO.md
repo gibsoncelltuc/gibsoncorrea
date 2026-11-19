@@ -61,3 +61,9 @@ Conferir na mao: `python3 verificar_folhas.py <id>` -> "3 FOLHAS OK: lidas e seg
 ## 10. Mais acoes gerais (gesto + objeto/efeito + som na palavra)
 beber, comer, chorar, cantar, ler, telefonar/postar, lavar/limpar, beijar/abracar, plantar/colher, pescar, costurar, pintar/desenhar, cozinhar, bater, procurar, vigiar, bater continencia, rezar,
 aplaudir, acordar (estava dormindo), esperar (bracos cruzados), tremer, tossir/espirrar, nadar/mergulhar, rir, abrir/fechar, soltar/libertar, entregar/receber, medir/contar, apresentar/mostrar.
+
+## 11. STORYBOARD OBRIGATORIO ANTES DO RENDER (ordem do Gibson 19/11)
+A fila (make_video.sh) gera `stories/<id>/storyboard.jpg` (o video inteiro, 1 quadro a cada ~1,5 s) e PARA aquele video ate alguem aprovar; enquanto isso segue com o proximo.
+Quem aprova: a sessao dona do video. ABRA o storyboard.jpg, confira cena por cena com a folha 3 (cada acao acontecendo, ninguem cortado, cenario/lugar/epoca certos, objeto heroi visivel)
+e so' entao rode `./aprovar_storyboard.sh <id>`. Viu defeito -> corrija o roteiro, rode mkvideo, apague storyboard.jpg (a fila gera outro) e olhe de novo.
+A aprovacao vale so' para aquela versao das folhas; o render tambem confere isso (verificar_folhas.py --render bloqueia sem storyboard aprovado).

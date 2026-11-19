@@ -24,6 +24,13 @@ if ! st gate; then
   if ! { grep -q "camera OK" $G && grep -q "ALL TAKES OK" $G && grep -q "STYLE OK" $G; }; then log "GATE FALHOU (veja $G)"; cat $G >> $L; exit 1; fi
   mark gate
 fi
+# STORYBOARD OBRIGATORIO (ordem do Gibson 19/11): antes do render completo, o video inteiro vira storyboard e ESPERA aprovacao (./aprovar_storyboard.sh <id>)
+H3=$(python3 -c "import json;print(json.load(open('stories/$ID/folhas.json'))['hash_folha3'])")
+if [ "$(cat stories/$ID/STORYBOARD_OK 2>/dev/null)" != "$H3" ]; then
+  if [ ! -f stories/$ID/storyboard.jpg ] || [ "$(cat stories/$ID/storyboard.hash 2>/dev/null)" != "$H3" ]; then log "storyboard (video inteiro, 1 quadro a cada ~1,5 s)"; ./prechecar.sh $ID >> $L 2>&1 && cp stories/$ID/precheck.jpg stories/$ID/storyboard.jpg && echo "$H3" > stories/$ID/storyboard.hash; fi
+  touch stories/$ID/AGUARDA_STORYBOARD; log "AGUARDANDO APROVACAO DO STORYBOARD: abra stories/$ID/storyboard.jpg, confira com a folha 3 e rode ./aprovar_storyboard.sh $ID"; exit 76
+fi
+rm -f stories/$ID/AGUARDA_STORYBOARD
 ./build3.sh $ID >/dev/null 2>&1; python3 verificar_folhas.py $ID --render >> $L 2>&1 || { log "BLOQUEADO: o render nao carrega a folha 3"; exit 1; }; N=$(python3 -c "import json;print(json.load(open('stories/$ID/work/phrases.json'))['frames30'])")
 ./snap.sh $ID $N >> $L 2>&1; (cd stories/$ID && python3 ../../caps.py >/dev/null)
 log "render $N quadros (trechos de 150, retomavel)"
