@@ -76,7 +76,7 @@
    ],
    "say": "Primeira manhã: você chega na padaria e não tem como pagar o café.",
    "detalhe": false,
-   "encena": false
+   "verificador": false
   },
   {
    "shot": "two",
