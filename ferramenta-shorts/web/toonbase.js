@@ -1037,7 +1037,9 @@ const hatOn = (p, o, hp, H, cx, hc, light, seed, facing, side)=>{
                 ]
             ], 1.2 * u);
         }
-        if (o.hat === "cap") {
+        if (o.hat === "hair" && o.swoop) { const deg = a * 180 / Math.PI, f_ = facing || 1, q_ = R([[cx - 46 * u * f_, cut + 0.02 * HH], [cx - 40 * u * f_, cut - 0.2 * HH], [cx - 6 * u * f_, cut - 0.31 * HH], [cx + 34 * u * f_, cut - 0.26 * HH], [cx + 52 * u * f_, cut - 0.1 * HH], [cx + 30 * u * f_, cut - 0.13 * HH], [cx - 4 * u * f_, cut - 0.1 * HH], [cx - 30 * u * f_, cut - 0.02 * HH]]); p.shadedFill(q_, o.hair, shade(o.hair, 0.8), light, 50 * u, 0.4); p.poly(q_, null, ow); p.stroke(R([[cx - 30 * u * f_, cut - 0.15 * HH], [cx + 4 * u * f_, cut - 0.22 * HH], [cx + 36 * u * f_, cut - 0.17 * HH]]), 1.4 * u, shade(o.hair, 0.65)); }   /* TOPETE (Trump) */
+        if (o.hat === "cap" && o.capBack) { const deg = a * 180 / Math.PI, [vx, vy] = R([[cx + 8 * u * (facing || 1), cut - 0.25 * HH]])[0]; p.ell(vx, vy, 30 * u, 0.075 * HH, shade(col, 0.75), ow, 180, 360, deg + 12 * (facing || 1)); p.stroke(R([[cx - 14 * u, cut - 0.02 * HH], [cx + 14 * u, cut - 0.02 * HH]]), 3 * u, shade(col, 0.6)); }   /* BONE VIRADO PARA TRAS (Bukele) */
+        else if (o.hat === "cap") {
             const deg = a * 180 / Math.PI;
             if (side) p.poly(R([
                 [
@@ -1183,6 +1185,7 @@ const footStroke = (p, a, b, w, col)=>{
     ], w, col);
 };
 export const bodyFront = (p, o, opts)=>{
+    if (o.shirtless) o = { ...o, jacket: o.skin || SKIN, tie: null, collar: null, buttons: null };   /* sem camisa (lutador): o tronco e' pele */
     const { phase = 0, expr = "neutral", mode = "march", look = 0, blink = false, lift = 60, hp: holdK = 0.3, prop = null, tilt = 0, headTilt = 0, wave, light = DEF_LIGHT, facing = 0, seed = 1, fx = null, gest = null, gk = 1, gt = 0, aim = 0 } = opts;
     const Bd = BUILD[o.build ?? "adult"], skin = o.skin ?? SKIN, two = Math.PI * 2, lid = lidOf(blink);
     const H = headBlob(seed, Bd.a, facing), W = 2 * H.a, HH = 2 * H.b, u = W / 100;
@@ -1500,6 +1503,16 @@ export const bodyFront = (p, o, opts)=>{
             think: (s)=>s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.5, 0.42), Q(s, 0.1, -0.08)], front: true, top: true } : null,
             facepalm: (s)=>s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.62, -0.02), Q(s, 0.04, -0.86)], front: true, top: true } : null,
             salute: (s)=>s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.78, -0.1), Q(s, 0.3, -0.97)], front: true, top: true } : null,
+            /* GESTOS DE ACAO (19/11: a cena faz o que a narracao conta) */
+            reach: (s)=>s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.72, 0.2), Q(s, 1.08, 0.34 + wob)], front: true } : null,
+            pour: (s)=>s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.74, 0.0), Q(s, 1.0, -0.12 + 0.12 * Math.sin(gt * 3))], front: true } : null,
+            stir: (s)=>s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.7, 0.28), Q(s, 0.92 + 0.14 * Math.cos(gt * 9), 0.46 + 0.06 * Math.sin(gt * 9))], front: true } : null,
+            throw: (s)=>{ const k = Math.min(1, gt * 2.2); return s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.5 + 0.3 * k, -0.3 + 0.35 * k), Q(s, 0.34 + 0.9 * k, -0.86 + 0.9 * k)], front: false } : null; },
+            hammer: (s)=>{ const k = Math.abs(Math.sin(gt * 7)); return s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.7, -0.1 + 0.2 * k), Q(s, 0.86, -0.62 + 0.9 * k)], front: false } : null; },
+            write: (s)=>s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.6, 0.36), Q(s, 0.44 + 0.08 * Math.sin(gt * 14), 0.36 + 0.03 * Math.cos(gt * 14))], front: true } : null,
+            lift: (s)=>({ pts: [Q(s, 0.36, 0.12), Q(s, 0.6, -0.2), Q(s, 0.42, -0.62 + wob)], front: false }),
+            push: (s)=>({ pts: [Q(s, 0.36, 0.12), Q(s, 0.7, 0.12), Q(s, 1.04, 0.06 + wob)], front: true }),
+            punch: (s)=>{ const k = Math.max(0, Math.sin(gt * 8)); return s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.6 + 0.2 * k, 0.1), Q(s, 0.7 + 0.62 * k, 0.0)], front: true } : null; },
             wave2: (s)=>s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.78, -0.06 + wob), Q(s, 0.9 + 0.22 * Math.sin(gt * 11), -0.82)], front: false } : null
         };
         const g = G[gest];
@@ -1540,6 +1553,7 @@ export const bodyFront = (p, o, opts)=>{
         p.stroke(curve(a.pts[0], a.pts[1], a.pts[2]), 5.2 * u, armCol);
         if (o.hold && a === (arms.find((q)=>q.front) || arms[arms.length - 1])) drawHeld(a.pts[2][0], a.pts[2][1]);
         p.dot(a.pts[2][0], a.pts[2][1], 5.5 * u);
+        if (o.gloves) { p.dot(a.pts[2][0], a.pts[2][1], 15 * u, INK); p.dot(a.pts[2][0], a.pts[2][1], 12.8 * u, o.gloves); p.dot(a.pts[2][0] - 3 * u, a.pts[2][1] - 4 * u, 3.5 * u, mix(o.gloves, '#ffffff', 0.45)); }   /* LUVA DE BOXE */
     };
     if (rifle) drawRifle(p, R0, R1, u);
     if (o.sword && mode !== "sit") {
@@ -1635,11 +1649,11 @@ export const bodyFront = (p, o, opts)=>{
             ], o.sash, 0.13 * HH, 1.8 * u);
             for(let i = 0; i < 4; i++){
                 const y = chin + 0.12 * HH + i * 0.2 * HH;
-                if (o.sash && Math.abs(y - (torsoBot - 0.32 * HH)) < 0.08 * HH) continue;
+                if (o.shirtless) break; if (o.sash && Math.abs(y - (torsoBot - 0.32 * HH)) < 0.08 * HH) continue;
                 p.dot(tcx + 2 * u * facing, y, 2.2 * u + 0.8 * u, INK);
                 p.dot(tcx + 2 * u * facing, y, 2.2 * u, o.buttons ?? shade(o.jacket, 0.7));
             }
-            if (o.camo) for (let i = 0; i < 16; i++) { const rx = ((i * 37) % 17) / 17 - 0.5, ry = ((i * 53) % 13) / 13; p.dot(tcx + rx * 2.6 * T.a, chin + 0.05 * HH + ry * (torsoBot - chin), (4 + (i % 3) * 1.6) * u, i % 2 ? o.camo : shade(o.camo, 0.75)); }   /* CAMUFLADO (soldado moderno) */
+            if (o.trunks) { p.poly([[tcx - 3 * T.a, torsoBot - 0.2 * HH], [tcx + 3 * T.a, torsoBot - 0.2 * HH], [tcx + 3 * T.a, torsoBot + 0.3 * HH], [tcx - 3 * T.a, torsoBot + 0.3 * HH]], o.trunks, 0); p.band([[tcx - 3 * T.a, torsoBot - 0.2 * HH], [tcx + 3 * T.a, torsoBot - 0.2 * HH]], o.trunkBand || '#f4f4f2', 0.045 * HH, 1.2 * u); }   /* SHORT DE LUTADOR (19/11) */ if (o.shirtless) { for (const s_ of [-1, 1]) p.stroke([[tcx + s_ * 0.15 * T.a, chin + 0.2 * HH], [tcx + s_ * 0.6 * T.a, chin + 0.24 * HH], [tcx + s_ * 0.95 * T.a, chin + 0.17 * HH]], 1.6 * u, shade(o.jacket, 0.62)); p.stroke([[tcx, chin + 0.3 * HH], [tcx, chin + 0.46 * HH]], 1.4 * u, shade(o.jacket, 0.62)); } if (o.camo) for (let i = 0; i < 16; i++) { const rx = ((i * 37) % 17) / 17 - 0.5, ry = ((i * 53) % 13) / 13; p.dot(tcx + rx * 2.6 * T.a, chin + 0.05 * HH + ry * (torsoBot - chin), (4 + (i % 3) * 1.6) * u, i % 2 ? o.camo : shade(o.camo, 0.75)); }   /* CAMUFLADO (soldado moderno) */
             if (o.collar) p.band([[tcx - 1.4 * T.a, chin + 0.04 * HH], [tcx + 1.4 * T.a, chin + 0.04 * HH]], o.collar, 0.1 * HH, 1.6 * u);   /* gola (arminho do rei/imperador, colarinho branco do terno) */
             if (o.medals) for (let i = 0; i < o.medals; i++) { const mx = tcx - (0.35 + 0.24 * i) * T.a, my = chin + 0.24 * HH; p.poly([[mx - 2.4 * u, my - 5 * u], [mx + 2.4 * u, my - 5 * u], [mx + 2.4 * u, my + 1 * u], [mx - 2.4 * u, my + 1 * u]], ['#c8302a', '#27408b', '#2f8a4a', '#e8c45a'][i % 4], 1.1 * u); p.dot(mx, my + 4 * u, 3 * u, INK); p.dot(mx, my + 4 * u, 2.3 * u, '#e8c45a'); }   /* MEDALHAS (patente) */
             if (o.epaulets) for (const s of [-1, 1]) { p.dot(tcx + s * 1.05 * T.a, chin + 0.06 * HH, 6.5 * u, INK); p.dot(tcx + s * 1.05 * T.a, chin + 0.06 * HH, 5.6 * u, o.epaulets); for (let k = -2; k <= 2; k++) p.stroke([[tcx + s * 1.05 * T.a + k * 2 * u, chin + 0.06 * HH + 4 * u], [tcx + s * 1.05 * T.a + k * 2.2 * u, chin + 0.06 * HH + 9 * u]], 1.4 * u, o.epaulets); }   /* DRAGONAS douradas (oficial) */
@@ -1782,6 +1796,7 @@ const drawRifle = (p, R0, R1, u) => {
         p.band([at(0.97), at(1.0)], "#3a3d47", 3.2 * u, 0.8 * u, "round");                                                        /* boca do cano */
     };   /* FUZIL de verdade: coronha, corpo com gatilho, cano de metal */
 export const bodySide = (p, o, opts)=>{
+    if (o.shirtless) o = { ...o, jacket: o.skin || SKIN, tie: null, collar: null, buttons: null };   /* sem camisa (lutador): o tronco e' pele */
     const { phase = 0, expr = "neutral", mode = "march", blink = false, stomp = 1, pose = 0, stride = 1, light = DEF_LIGHT, seed = 1, aim = 0 } = opts;
     const Bd = BUILD[o.build ?? "adult"], skin = o.skin ?? SKIN, two = Math.PI * 2, lid = lidOf(blink);
     const H = {
@@ -2072,11 +2087,11 @@ export const bodySide = (p, o, opts)=>{
             ]
         ], o.sash, 0.13 * HH, 1.8 * u);
         if (!o.dress) for(let i = 0; i < 3; i++){
-            const y = chin + 0.16 * HH + i * 0.24 * HH;
+            const y = chin + 0.16 * HH + i * 0.24 * HH; if (o.shirtless) break;
             p.dot(tcx + 0.8 * T.a, y, 3 * u, INK);
             p.dot(tcx + 0.8 * T.a, y, 2.2 * u, o.buttons ?? shade(o.jacket, 0.7));
         }
-        if (o.camo) for (let i = 0; i < 16; i++) { const rx = ((i * 37) % 17) / 17 - 0.5, ry = ((i * 53) % 13) / 13; p.dot(tcx + rx * 2.6 * T.a, chin + 0.05 * HH + ry * (torsoBot - chin), (4 + (i % 3) * 1.6) * u, i % 2 ? o.camo : shade(o.camo, 0.75)); }   /* CAMUFLADO (soldado moderno) */
+        if (o.trunks) { p.poly([[tcx - 3 * T.a, torsoBot - 0.2 * HH], [tcx + 3 * T.a, torsoBot - 0.2 * HH], [tcx + 3 * T.a, torsoBot + 0.3 * HH], [tcx - 3 * T.a, torsoBot + 0.3 * HH]], o.trunks, 0); p.band([[tcx - 3 * T.a, torsoBot - 0.2 * HH], [tcx + 3 * T.a, torsoBot - 0.2 * HH]], o.trunkBand || '#f4f4f2', 0.045 * HH, 1.2 * u); }   /* SHORT DE LUTADOR (19/11) */ if (o.shirtless) { for (const s_ of [-1, 1]) p.stroke([[tcx + s_ * 0.15 * T.a, chin + 0.2 * HH], [tcx + s_ * 0.6 * T.a, chin + 0.24 * HH], [tcx + s_ * 0.95 * T.a, chin + 0.17 * HH]], 1.6 * u, shade(o.jacket, 0.62)); p.stroke([[tcx, chin + 0.3 * HH], [tcx, chin + 0.46 * HH]], 1.4 * u, shade(o.jacket, 0.62)); } if (o.camo) for (let i = 0; i < 16; i++) { const rx = ((i * 37) % 17) / 17 - 0.5, ry = ((i * 53) % 13) / 13; p.dot(tcx + rx * 2.6 * T.a, chin + 0.05 * HH + ry * (torsoBot - chin), (4 + (i % 3) * 1.6) * u, i % 2 ? o.camo : shade(o.camo, 0.75)); }   /* CAMUFLADO (soldado moderno) */
         if (o.collar) p.band([[tcx - 1.4 * T.a, chin + 0.04 * HH], [tcx + 1.4 * T.a, chin + 0.04 * HH]], o.collar, 0.1 * HH, 1.6 * u);   /* gola (arminho do rei/imperador, colarinho branco do terno) */
         if (o.medals) for (let i = 0; i < o.medals; i++) { const mx = tcx - (0.35 + 0.24 * i) * T.a, my = chin + 0.24 * HH; p.poly([[mx - 2.4 * u, my - 5 * u], [mx + 2.4 * u, my - 5 * u], [mx + 2.4 * u, my + 1 * u], [mx - 2.4 * u, my + 1 * u]], ['#c8302a', '#27408b', '#2f8a4a', '#e8c45a'][i % 4], 1.1 * u); p.dot(mx, my + 4 * u, 3 * u, INK); p.dot(mx, my + 4 * u, 2.3 * u, '#e8c45a'); }   /* MEDALHAS (patente) */
         if (o.epaulets) for (const s of [-1, 1]) { p.dot(tcx + s * 1.05 * T.a, chin + 0.06 * HH, 6.5 * u, INK); p.dot(tcx + s * 1.05 * T.a, chin + 0.06 * HH, 5.6 * u, o.epaulets); for (let k = -2; k <= 2; k++) p.stroke([[tcx + s * 1.05 * T.a + k * 2 * u, chin + 0.06 * HH + 4 * u], [tcx + s * 1.05 * T.a + k * 2.2 * u, chin + 0.06 * HH + 9 * u]], 1.4 * u, o.epaulets); }   /* DRAGONAS douradas (oficial) */

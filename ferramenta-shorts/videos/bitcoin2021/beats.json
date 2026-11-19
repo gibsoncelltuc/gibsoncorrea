@@ -15,9 +15,10 @@
    "pants": "#2a2d33",
    "boots": "#f4f1e8",
    "hat": "cap",
-   "cap": "#f4f1e8",
+   "cap": "#1b1b1f",
    "beard": "#2a201a",
-   "pele": "#e8c8a8"
+   "pele": "#e8c8a8",
+   "capBack": true
   },
   "DEP": {
    "jacket": "#6a4a8a",

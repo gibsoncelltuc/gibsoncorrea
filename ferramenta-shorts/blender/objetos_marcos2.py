@@ -1,6 +1,9 @@
 # MARCOS DOS LUGARES (2a leva, 19/11): o lugar exato da historia ao fundo. blender -b --python blender/objetos_marcos2.py [nome ...]
 # Medidas em metros, de frente para +z. Ficam longe (~60-90 m) atras da cena; o mkvideo escolhe pelo titulo/mapa/comeco da narracao.
 import sys, os, math as m; sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); from formas import *
+import formas
+def escala(F):   # objetos do kit sao no tamanho do boneco (~1 a 1,5 m): amplia antes de exportar
+    for v in formas._S['bm'].verts: v.co *= F
 H = m.pi / 2
 BR, CR, VD = '#f2efe6', '#e2dccb', '#6aa58e'
 
@@ -162,10 +165,12 @@ def chocolate():
     for i in range(4):
         for j in range(2): bola((-.18 + i * .12, .1, -.06 + j * .12), .05, '#6a3e26', esc=(1.05, .45, 1.05))
     caixa((.14, .06, 0), (.24, .125, .275), '#c8102e'); caixa((.14, .125, 0), (.24, .01, .2), '#e8c45a')
+    escala(2.6)
     fim(.015)
 def ovo():
     novo('egg')
     bola((0, .14, 0), .1, '#f6efe2', esc=(1, 1.38, 1), seg=24)
+    escala(4.0)
     fim(.0)
 def pipoca():
     novo('popcorn')
@@ -173,6 +178,7 @@ def pipoca():
     for i in range(8): cil((.11 * m.cos(i * m.pi / 4), .135, .11 * m.sin(i * m.pi / 4)), .018, .27, '#d8282f', raio_topo=.024, lados=6, rot=(0, 0, 0))
     cil((0, .01, 0), .09, .02, '#f4f4f2')
     for i in range(18): a = i * 2.4; r = .1 * ((i % 5) / 5); bola((r * m.cos(a), .28 + .03 * (i % 3), r * m.sin(a)), .032, '#fff3c8' if i % 4 else '#f2d27a')
+    escala(3.2)
     fim(.01)
 E.update(chocolate=chocolate, egg=ovo, popcorn=pipoca)
 alvo = sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else list(E)
