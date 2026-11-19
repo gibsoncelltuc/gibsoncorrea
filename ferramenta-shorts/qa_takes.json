@@ -1,4 +1,82 @@
 {
- "fails": [],
+ "fails": [
+  {
+   "f": 1708,
+   "shot": "b8~3",
+   "why": [
+    "tru: head/torso cropped (box -0.021, 0.464, 0.114, 0.674)"
+   ]
+  },
+  {
+   "f": 1712,
+   "shot": "b8~3",
+   "why": [
+    "tru: head/torso cropped (box -0.071, 0.454, 0.082, 0.664)"
+   ]
+  },
+  {
+   "f": 1716,
+   "shot": "b8~3",
+   "why": [
+    "tru: head/torso cropped (box -0.111, 0.45, 0.047, 0.657)"
+   ]
+  },
+  {
+   "f": 1718,
+   "shot": "b8~3",
+   "why": [
+    "tru: head/torso cropped (box -0.131, 0.451, 0.03, 0.654)"
+   ]
+  },
+  {
+   "f": 1720,
+   "shot": "b8~3",
+   "why": [
+    "tru: head/torso cropped (box -0.149, 0.452, 0.014, 0.651)"
+   ]
+  },
+  {
+   "f": 1724,
+   "shot": "b8~3",
+   "why": [
+    "tru: head/torso cropped (box -0.185, 0.454, -0.022, 0.646)"
+   ]
+  },
+  {
+   "f": 1728,
+   "shot": "b8~3",
+   "why": [
+    "tru: head/torso cropped (box -0.217, 0.461, -0.069, 0.641)"
+   ]
+  },
+  {
+   "f": 1732,
+   "shot": "b8~3",
+   "why": [
+    "tru: head/torso cropped (box -0.256, 0.463, -0.12, 0.637)"
+   ]
+  },
+  {
+   "f": 1736,
+   "shot": "b8~3",
+   "why": [
+    "tru: head/torso cropped (box -0.299, 0.462, -0.164, 0.633)"
+   ]
+  },
+  {
+   "f": 1740,
+   "shot": "b8~3",
+   "why": [
+    "tru: head/torso cropped (box -0.346, 0.462, -0.211, 0.63)"
+   ]
+  },
+  {
+   "f": 1742,
+   "shot": "b8~3",
+   "why": [
+    "tru: head/torso cropped (box -0.37, 0.461, -0.235, 0.629)"
+   ]
+  }
+ ],
  "tiny": []
 }
