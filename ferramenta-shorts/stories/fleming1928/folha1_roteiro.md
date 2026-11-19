@@ -24,9 +24,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Ele estudava bactérias, e deixava os pratos de cultura empilhados na bancada, sem pressa nenhuma.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: examina (think) -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: HOSPITAL
 - Funcao na historia: desenvolvimento
 
 ## Cena b3  (~4.5 s)
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Anos depois, outros cientistas transformaram o bolor em remédio, e ele salvou milhões de pessoas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: (rosto) relief -> expr + som de efeito; encena: vira (up) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
