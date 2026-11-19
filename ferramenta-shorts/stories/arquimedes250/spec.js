@@ -25,3 +25,5 @@ const SPEC = {
     S('b10', A[10], A[11] - 1, X, "day", { h: 2.3, d0: 8.4, d1: 7.4, hero: { hero: 'any', frame: 'medium', minH: 0.07, main: 2 }, trans: 'dissolve', actors: [pp(X, "REI", 0, -1.15, 1.3, "smile", { pose: 'talk', inter: { k: 'lunge', a: Math.round(A[10] + (A[11] - 1 - (A[10])) * 0.12), b: Math.round(A[10] + (A[11] - 1 - (A[10])) * 0.82), dir: 1, n: 2, ph: 0 } }), pp(X, "OUR", 0, 1.15, 1.0, "sad", { pose: 'talk', inter: { k: 'nod', a: Math.round(A[10] + (A[11] - 1 - (A[10])) * 0.2), b: Math.round(A[10] + (A[11] - 1 - (A[10])) * 0.9), dir: -1, n: 2, ph: 3.14 } })], props: [{ asset: "buildings/shop", at: [X + -4.8, -11.0], s: 1.05, ry: 0.35, drop: false }, { asset: "kit/bathtub", at: [X + 3.15, -0.5], s: 1.0, drop: false }], fx: [{ k: 'stars', a: A[10] + 6, b: A[10] + 40, at: [X + 1.5, DK + 1.6, 0.0], s: 0.8 }, { k: 'birds', a: A[10], b: A[11] - 1, at: [X, DK + 6.0, -30], n: 5, dir: -1, off: 8 }] })
   ],
 };
+
+// FOLHA3 7cd7c5b5d535 41 acoes=41 faltando=0

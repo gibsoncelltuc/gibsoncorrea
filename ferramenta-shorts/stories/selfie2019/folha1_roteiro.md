@@ -1,22 +1,22 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 28 - A Selfie na ONU
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 159 palavras (~55 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace | 11 cenas, 159 palavras (~55 s)
 
 ## Cena b0  (~5.5 s)
 - Narracao: Um presidente chegou ao palco mais importante do mundo, e antes de falar, tirou uma selfie.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: ding@30
+- Som ambiente: birds
+- Efeitos sonoros marcados: ding@6
 - Efeito + som nas palavras-chave: chegou -> dust + som de impacto; encena: tira (lift) -> acao + som de efeito
-- Efeito visual marcado: stars@30
-- Texto na tela: 2019
+- Efeito visual marcado: stars@6
+- Texto na tela: -
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~5.5 s)
 - Narracao: Foi em setembro de dois mil e dezenove, na Assembleia Geral da ONU, em Nova York.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: sting@10, thump@40
+- Som ambiente: birds
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: ring@12, dust@40
+- Efeito visual marcado: -
 - Texto na tela: - | mapa: ESTADOS UNIDOS
 - Funcao na historia: GRANDE MOMENTO
 
@@ -41,18 +41,18 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 ## Cena b4  (~5.9 s)
 - Narracao: Acontece que, no púlpito, ele pediu: só um segundo, por favor. E tirou o celular do bolso.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: ding@20, sting@40
+- Efeitos sonoros marcados: ding@8
 - Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; encena: tira (lift) -> acao + som de efeito; encena: x_fone (lift) -> acao + som de efeito
-- Efeito visual marcado: stars@20, ring@40
+- Efeito visual marcado: stars@8
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
 ## Cena b5  (~5.2 s)
 - Narracao: Virou de costas para a plateia, e tirou uma selfie com o plenário inteiro atrás.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: sting@20
+- Efeitos sonoros marcados: sting@10
 - Efeito + som nas palavras-chave: encena: tira (lift) -> acao + som de efeito
-- Efeito visual marcado: ring@20
+- Efeito visual marcado: burst@10
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
@@ -67,10 +67,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b7  (~4.1 s)
 - Narracao: E ele tinha razão. A foto rodou o planeta em poucas horas.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: ding@20, ding@60
+- Som ambiente: birds
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: tira (lift) -> acao + som de efeito
-- Efeito visual marcado: stars@20, stars@60
+- Efeito visual marcado: -
 - Texto na tela: SELFIE
 - Funcao na historia: GRANDE MOMENTO
 
@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b9  (~5.9 s)
 - Narracao: No discurso, ele defendeu justamente isso: que as reuniões antigas deviam se adaptar à era da internet.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -

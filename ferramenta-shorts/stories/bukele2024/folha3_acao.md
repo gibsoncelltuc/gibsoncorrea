@@ -34,7 +34,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | liberou (27.8s) | ACAO: x_solta | solta/liberta + brilho | OK |
+| 1 | liberou (25.5s) | ACAO: x_solta | solta/liberta + brilho | OK |
 | 2 | - | INTERACAO | discutir | OK |
 | 3 | - | ATUACAO | discutir | OK |
 

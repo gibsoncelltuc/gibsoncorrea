@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que, quando ele soltou as duas, elas caíram no chão ao mesmo tempo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40, ding@60
-- Efeito + som nas palavras-chave: caíram -> dust + som de impacto; encena: tomba -> acao + som de efeito
+- Efeito + som nas palavras-chave: caíram -> dust + som de impacto; encena: x_solta (up) -> acao + som de efeito; encena: tomba -> acao + som de efeito
 - Efeito visual marcado: ring@40, stars@60
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Mas em mil novecentos e setenta e um, na Lua, um astronauta soltou um martelo e uma pena, e os dois caíram juntos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40, thump@70
-- Efeito + som nas palavras-chave: caíram -> dust + som de impacto
+- Efeito + som nas palavras-chave: caíram -> dust + som de impacto; encena: x_solta (up) -> acao + som de efeito
 - Efeito visual marcado: stars@40, ring@70
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: No fim, até a pena deu razão ao Galileu.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_entrega (reach) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

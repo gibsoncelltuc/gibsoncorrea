@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 08 - Darwin e os Tentilhões
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 4.1s - 15 palavras - plano two
@@ -80,8 +80,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | ideia (47.0s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
-| 2 | - | INTERACAO | pular | OK |
-| 3 | - | ATUACAO | comemorar | OK |
+| 2 | publicou (49.1s) | ACAO: x_fone | celular na mao + toque | OK |
+| 3 | livro (49.6s) | ACAO: x_le | le o papel | OK |
+| 4 | - | INTERACAO | pular | OK |
+| 5 | - | ATUACAO | comemorar | OK |
 
 ## Cena b9 - 52.2s a 56.6s - 18 palavras - plano crowd
 > "A ideia virou a base da biologia moderna, e mostra como a vida muda ao longo do tempo."

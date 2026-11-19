@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Ele cruzou ervilhas amarelas com ervilhas verdes, e esperou para ver a cor dos filhos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40, ding@60
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_espera (cross) -> acao + som de efeito
 - Efeito visual marcado: dust@40, stars@60
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Ele plantou as amarelas de novo e contou tudo, ervilha por ervilha, durante anos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_planta (hammer) -> acao + som de efeito; encena: examina (think) -> acao + som de efeito
 - Efeito visual marcado: dust@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Publicou tudo em mil oitocentos e sessenta e seis, mas quase ninguém prestou atenção.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_fone (lift) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

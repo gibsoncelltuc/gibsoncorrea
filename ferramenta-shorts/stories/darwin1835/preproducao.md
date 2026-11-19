@@ -16,7 +16,7 @@ b8 | interior madeira | two | 2 | comemorar, INTERAGEM: pular | - | book | -
 b9 | street | crowd | 16 | comemorar, batalha | kit/finch_thick, kit/finch_long | - | -
 b10 | countryside | close | 1 | conversar | kit/finch | - | -
 
-OBJETO HEROI: kit/finch - aparece em 6 cena(s), close nele em 3
+OBJETO HEROI: kit/finch - aparece em 6 cena(s), close nele em 4
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b6, b9
 Interacoes entre personagens: b0 vai ate o outro, b2 aproxima-se, b3 avanca e o outro recua, b4 discutir, b5 o outro se aproxima, b7 cochichar, b8 pular
 

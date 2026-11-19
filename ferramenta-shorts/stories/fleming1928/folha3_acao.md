@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 04 - Fleming e a Penicilina
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.3s - 12 palavras - plano two
@@ -35,9 +35,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | saiu (18.5s) | ACAO: sai | sai andando pela lateral | OK |
-| 2 | - | INTERACAO | susto | OK |
-| 3 | - | ATUACAO | reagir | OK |
-| 4 | - | CHEGADA | alguem entra andando | OK |
+| 2 | limpou (20.3s) | ACAO: x_lava | lava/esfrega na bacia + respingo | OK |
+| 3 | - | INTERACAO | susto | OK |
+| 4 | - | ATUACAO | reagir | OK |
+| 5 | - | CHEGADA | alguem entra andando | OK |
 
 ## Cena b4 - 21.8s a 25.1s - 12 palavras - plano two
 > "Quando voltou, achou um prato com bolor verde e disse: "Que sujeira!""
@@ -69,8 +70,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | cochichar | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | deu (36.9s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | - | INTERACAO | cochichar | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b8 - 39.2s a 44.2s - 15 palavras - plano group
 > "Anos depois, outros cientistas transformaram o bolor em remédio, e ele salvou milhões de pessoas."

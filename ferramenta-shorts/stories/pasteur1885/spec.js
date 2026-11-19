@@ -25,3 +25,5 @@ const SPEC = {
     S('b10', A[10], A[11] - 1, X_hall, "study", { h: 2.4, d0: 5.6, d1: 4.9, hero: { hero: 'any', frame: 'medium', minH: 0.07, main: 1 }, trans: 'dissolve', actors: [pp(X_hall, "PAS", 0, 0.0, 1.3, ((f) => f >= WS(176) - 2 ? "relief" : "smug"), { pose: 'talk' })], props: [{ asset: "kit/room_franca_stone", at: [X_hall, 0], s: 1, drop: false }, { asset: "mk/Bookcase_2", at: [X_hall + 7.4, -3.4], s: 2.4, drop: false }, { asset: "mk/Table_Large", at: [X_hall + -6.6, -1.6], s: 2.2, drop: false }, { asset: "mk/Chair_1", at: [X_hall + -4.4, -1.2], s: 2.2, drop: false }, { asset: "mk/Chest_Wood", at: [X_hall + 6.9, 0.6], s: 2.2, drop: false }, { asset: "kit/syringe", at: [X_hall + -1.7, -0.5], s: 1.3, drop: false }], fx: [{ k: 'stars', a: A[10] + 6, b: A[10] + 40, at: [X_hall + -1.7, DK + 1.6, 0.0], s: 0.8 }] })
   ],
 };
+
+// FOLHA3 645c128c9e7b 27 acoes=27 faltando=0

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 03 - Galileu e a Torre de Pisa
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.8s - 16 palavras - plano two
@@ -60,10 +60,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | caíram (34.1s) | EFEITO: dust | poeira + som | OK |
-| 2 | chão (34.4s) | ACAO: tomba | cai sentado no chao + poeira | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | ATUACAO | reagir | OK |
+| 1 | soltou (32.9s) | ACAO: x_solta | solta/liberta + brilho | OK |
+| 2 | caíram (34.1s) | EFEITO: dust | poeira + som | OK |
+| 3 | chão (34.4s) | ACAO: tomba | cai sentado no chao + poeira | OK |
+| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 5 | - | ATUACAO | reagir | OK |
 
 ## Cena b7 - 36.1s a 40.2s - 11 palavras - plano group
 > "A plateia ficou de boca aberta, e os professores ficaram bravos."
@@ -86,15 +87,17 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | caíram (51.9s) | EFEITO: dust | poeira + som | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | INTERACAO | pular | OK |
-| 4 | - | ATUACAO | comemorar | OK |
+| 1 | soltou (49.5s) | ACAO: x_solta | solta/liberta + brilho | OK |
+| 2 | caíram (51.9s) | EFEITO: dust | poeira + som | OK |
+| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | INTERACAO | pular | OK |
+| 5 | - | ATUACAO | comemorar | OK |
 
 ## Cena b10 - 53.4s a 55.0s - 9 palavras - plano close
 > "No fim, até a pena deu razão ao Galileu."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | deu (54.6s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | - | ATUACAO | conversar | OK |
 

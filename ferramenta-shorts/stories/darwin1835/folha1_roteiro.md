@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Essa ideia foi a seleção natural, e ele publicou o livro em mil oitocentos e cinquenta e nove.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: pensa (think) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: pensa (think) -> acao + som de efeito; encena: x_fone (lift) -> acao + som de efeito; encena: x_le (think) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

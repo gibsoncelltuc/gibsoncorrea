@@ -10,7 +10,7 @@ b4 | two | -  | interior | - | -
 b5 | two | -  | interior | encena: quebra (throw) (acao + som de efeito) | -
 b6 | wide | -  | batalha aberta com tiros, tropa | encena: pensa (think) (acao + som de efeito) | -
 b7 | two | -  | interior | - | -
-b8 | two | -  | interior, objeto na mao | encena: pensa (think) (acao + som de efeito) | -
+b8 | two | -  | interior, objeto na mao | encena: pensa (think) (acao + som de efeito); encena: x_fone (lift) (acao + som de efeito); encena: x_le (think) (acao + som de efeito) | -
 b9 | crowd | -  | batalha aberta com tiros, tropa, placa: EVOLUÇÃO | encena: pensa (think) (acao + som de efeito); encena: vira (up) (acao + som de efeito) | -
 b10 | close | -  | - | - | -
 

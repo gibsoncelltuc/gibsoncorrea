@@ -88,7 +88,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | tomou (47.8s) | ACAO: x_bebe | leva o copo a boca | OK |
+| 1 | tomou (46.8s) | ACAO: x_bebe | leva o copo a boca | OK |
 | 2 | - | INTERACAO | entregar | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
