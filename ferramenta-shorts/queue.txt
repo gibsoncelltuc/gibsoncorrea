@@ -1,5 +1,3 @@
-fleming1928
-franklin1752
 eratostenes240
 ese_dinheiro
 ese_lua

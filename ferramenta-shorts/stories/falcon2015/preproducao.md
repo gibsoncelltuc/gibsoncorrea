@@ -6,7 +6,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | harbor | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/falcon9_land, kit/marco_canaveral, kit/rocket | - | -
 b1 | harbor | reveal | 8 | parados (so fala e pisca) | kit/marco_canaveral | - | -
-b2 | street | two | 2 | discutir, INTERAGEM: discutir | kit/rocket, kit/marco_canaveral | paper | -
+b2 | street | two | 2 | discutir, INTERAGEM: discutir | kit/rocket, kit/marco_canaveral, vehicles/airplane | paper | -
 b3 | harbor | two | 2 | conversar, INTERAGEM: susto | kit/rocket, kit/marco_canaveral | - | -
 b4 | street | two | 2 | conversar, INTERAGEM: entregar | kit/falcon9_land, kit/falcon_air, kit/marco_canaveral, kit/rocket, kit/starlink_sat | paper | -
 b5 | street | crowd | 21 | batalha | kit/falcon_air, kit/marco_canaveral | - | -

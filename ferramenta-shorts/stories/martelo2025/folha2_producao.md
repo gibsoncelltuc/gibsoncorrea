@@ -38,7 +38,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): GEN (variante 0, expressao stern)
 - Animacao: conversar
-- Objetos/modelos: kit/bunker_bomb, kit/b2_air, kit/marco_mesquita
+- Objetos/modelos: kit/bunker_bomb, kit/b2_air, kit/marco_mesquita, vehicles/airplane
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): arma, aviao, bomba, treze
 - RISCOS: nenhum
 
@@ -78,7 +78,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): PIL (variante 0, expressao stern)
 - Animacao: conversar
-- Objetos/modelos: kit/b2_air, kit/mountain_bunker, kit/marco_mesquita, kit/bunker_bomb
+- Objetos/modelos: kit/b2_air, kit/mountain_bunker, kit/marco_mesquita, vehicles/airplane, kit/bunker_bomb
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): avioes, bunker, fordow, madrugada
 - RISCOS: nenhum
 
@@ -88,7 +88,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): TRU (variante 0, expressao stern); GEN (variante 0, expressao grin, segura paper)
 - Animacao: conversar | interacao: insiste
-- Objetos/modelos: kit/b2_air, buildings/house_small, nature/picket_fence, nature/tree_oak
+- Objetos/modelos: kit/b2_air, vehicles/airplane, buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): avioes, submarino, terceira
 - RISCOS: nenhum
 
@@ -121,6 +121,7 @@ kit/bunker_bomb | b0, b3, b7, b10 | pronto (HEROI: aparece em close) | conferir 
 kit/b2_air | b0, b3, b5, b6, b7, b8, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_mesquita | b0, b1, b2, b3, b5, b6, b7, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/mountain_bunker | b1, b2, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+vehicles/airplane | b3, b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_small | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py

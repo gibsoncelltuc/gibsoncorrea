@@ -1,5 +1,5 @@
 // Curiosidade e Ciência EP 08 - Darwin e os Tentilhões -- GERADO por mkvideo.py a partir de videos/darwin1835/beats.json (edite o beats.json, nao este arquivo)
-globalThis.REGMAP = {}; globalThis.REGCHAO = null; globalThis.ASFALTO = false; globalThis.PRAIA = false;
+globalThis.REGMAP = {"vehicles/tank": ["kit/tanque_ww1"], "vehicles/airplane": ["kit/biplano"], "vehicles/truck": ["kit/caminhao_antigo"]}; globalThis.REGCHAO = null; globalThis.ASFALTO = false; globalThis.PRAIA = false;
 const X = 5000, DK = 6; const X_countryside = 1000; const X_hall = 8000; const X_street = 12000;
 const WS = (i, off = 0) => TIMING.words[Math.min(i, TIMING.words.length - 1)][0] + off;   // frame em que a palavra de indice i comeca
 const A = [0, WS(15, -3), WS(36, -3), WS(50, -3), WS(68, -3), WS(83, -3), WS(98, -3), WS(115, -3), WS(129, -3), WS(147, -3), WS(165, -3), TOTAL_F()];

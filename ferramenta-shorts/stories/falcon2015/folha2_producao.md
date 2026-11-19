@@ -28,7 +28,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): ENG (variante 0, expressao worried, segura paper); MUS (variante 0, expressao suspicious)
 - Animacao: discutir | interacao: discutir
-- Objetos/modelos: kit/rocket, kit/marco_canaveral
+- Objetos/modelos: kit/rocket, kit/marco_canaveral, vehicles/airplane
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aviao, foguetes, spacex
 - RISCOS: nenhum
 
@@ -120,6 +120,7 @@ Objeto | Cenas | Situacao | O que fazer
 kit/falcon9_land | b0, b4, b6, b7, b8, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_canaveral | b0, b1, b2, b3, b4, b5, b6, b7, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/rocket | b0, b2, b3, b4, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+vehicles/airplane | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/falcon_air | b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/starlink_sat | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
