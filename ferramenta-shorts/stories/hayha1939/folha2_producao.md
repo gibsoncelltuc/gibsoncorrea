@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Em cerca de cem dias, ele teve mais de quinhentos inimigos confirmados...
-- Cenario: countryside | luz: arctic | clima: limpo
+- Cenario: arctic | luz: arctic | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): FIN (variante 3, expressao stern); FIN (variante 0, expressao shock)
@@ -63,21 +63,21 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Os soviéticos passaram a chamá-lo de Morte Branca.
-- Cenario: harbor | luz: arctic | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (1): SOV (variante 1, expressao shock)
-- Animacao: reagir
+- Cenario: mountain | luz: arctic | clima: limpo
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (1): SOV (variante 1, expressao shock) | multidao: 12 de SOV
+- Animacao: reagir | batalha encenada
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chamalo, morte, sovieticos
 - RISCOS: nenhum
 
 ## Cena b7 - Em março de mil novecentos e quarenta, uma bala atingiu o rosto dele. ...
-- Cenario: harbor | luz: arctic | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): FIN (variante 3, expressao pained); FIN (variante 1, expressao nervous) | multidao: 18 de FIN
-- Animacao: reagir | batalha encenada
+- Cenario: interior hospital | luz: arctic | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 5 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Personagens principais (2): FIN (variante 3, expressao pained); FIN (variante 1, expressao nervous)
+- Animacao: conversar | interacao: cochichar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bala, rosto
 - RISCOS: nenhum
@@ -108,8 +108,8 @@ kit/campfire | b5 | pronto (HEROI: aparece em close) | conferir na folha de cont
 
 
 ## Video inteiro
-- Objeto heroi: kit/campfire | grandes momentos: b0, b7 | planos abertos: 3 | mistura: close 33% | medio 37% | aberto 24% | detalhe 6%
-- Interacoes: b5 susto
+- Objeto heroi: kit/campfire | grandes momentos: b0, b6 | planos abertos: 3 | mistura: close 31% | medio 43% | aberto 20% | detalhe 6%
+- Interacoes: b5 susto, b7 cochichar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

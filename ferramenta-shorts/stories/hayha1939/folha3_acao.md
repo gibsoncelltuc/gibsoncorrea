@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - A Morte Branca
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.3s - 18 palavras - plano crowd
@@ -58,15 +58,17 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | ATUACAO | reagir | OK |
 | 4 | - | PLACA | 100 DIAS | OK |
 
-## Cena b6 - 35.7s a 37.8s - 8 palavras - plano group
+## Cena b6 - 35.7s a 37.8s - 8 palavras - plano crowd
 > "Os soviéticos passaram a chamá-lo de Morte Branca."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | reagir | OK |
-| 2 | - | PLACA | MORTE BRANCA | OK |
+| 1 | - | CENA | tiros: 4 soldados caem no chao | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | ATUACAO | reagir | OK |
+| 4 | - | PLACA | MORTE BRANCA | OK |
 
-## Cena b7 - 39.0s a 46.1s - 24 palavras - plano orbit
+## Cena b7 - 39.0s a 46.1s - 24 palavras - plano two
 > "Em março de mil novecentos e quarenta, uma bala atingiu o rosto dele. Ele sobreviveu, e acordou no dia em que a guerra terminou."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -74,9 +76,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | bala (41.3s) | EFEITO: burst | estouro/clarao + som | OK |
 | 2 | bala (41.3s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 3 | acordou (44.8s) | ACAO: x_acorda | estava dormindo e acorda na palavra | OK |
-| 4 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 6 | - | ATUACAO | reagir | OK |
+| 4 | - | INTERACAO | cochichar | OK |
+| 5 | - | ATUACAO | conversar | OK |
+| 6 | - | PLACA | HOSPITAL | OK |
 
 ## Cena b8 - 47.4s a 52.9s - 20 palavras - plano close
 > "Viveu até os noventa e seis anos, e nunca se achou herói. Dizia que só tinha feito o seu trabalho."

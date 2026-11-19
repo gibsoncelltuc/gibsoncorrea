@@ -59,7 +59,8 @@
    "tat": 0,
    "tstyle": "red",
    "mood": "march",
-   "batalha": true
+   "batalha": true,
+   "set": "arctic"
   },
   {
    "say": "Os soldados finlandeses eram poucos, mas conheciam a floresta, a neve e o frio, de até quarenta graus abaixo de zero.",
@@ -79,7 +80,8 @@
    ],
    "sfx": [
     "whoosh@30"
-   ]
+   ],
+   "set": "arctic"
   },
   {
    "say": "Um deles era um fazendeiro baixinho chamado Simo Häyhä.",
@@ -90,7 +92,8 @@
    "text": "SIMO HÄYHÄ",
    "tat": 8,
    "tstyle": "blue",
-   "props": []
+   "props": [],
+   "set": "arctic"
   },
   {
    "say": "Vestido de branco, ele esperava imóvel no meio da neve, horas a fio.",
@@ -123,7 +126,6 @@
    "text": "100 DIAS",
    "tat": 4,
    "tstyle": "gold",
-   "set": "countryside",
    "props": [
     [
      "kit/campfire",
@@ -132,7 +134,8 @@
      1.0
     ]
    ],
-   "detalhe": true
+   "detalhe": true,
+   "set": "arctic"
   },
   {
    "say": "Os soviéticos passaram a chamá-lo de Morte Branca.",
@@ -143,7 +146,7 @@
    "text": "MORTE BRANCA",
    "tat": 8,
    "tstyle": "red",
-   "set": "harbor"
+   "set": "mountain"
   },
   {
    "say": "Em março de mil novecentos e quarenta, uma bala atingiu o rosto dele. Ele sobreviveu, e acordou no dia em que a guerra terminou.",
@@ -153,7 +156,7 @@
     "FIN:1:nervous"
    ],
    "mood": "calm",
-   "set": "harbor"
+   "interior": "hospital"
   },
   {
    "say": "Viveu até os noventa e seis anos, e nunca se achou herói. Dizia que só tinha feito o seu trabalho.",
