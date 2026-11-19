@@ -82,7 +82,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | VITÓRIA ISLANDESA | OK |
 
-## Cena b9 - 48.7s a 52.3s - 15 palavras - plano close
+## Cena b9 - 48.7s a 51.8s - 15 palavras - plano close
 > "Foi uma guerra de navios e de redes, e tudo por causa de um peixe."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

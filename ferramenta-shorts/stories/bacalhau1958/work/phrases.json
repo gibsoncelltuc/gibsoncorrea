@@ -1,0 +1,216 @@
+{
+ "duration": 52.752,
+ "frames30": 1583,
+ "source": "silence-align (cost 0.75)",
+ "segments": [
+  [
+   0.14775,
+   3.38483
+  ],
+  [
+   3.6335,
+   5.96008
+  ],
+  [
+   6.84788,
+   7.76842
+  ],
+  [
+   8.63262,
+   9.73475
+  ],
+  [
+   9.94171,
+   10.8886
+  ],
+  [
+   11.7225,
+   15.1782
+  ],
+  [
+   16.0195,
+   18.4183
+  ],
+  [
+   18.6029,
+   19.4117
+  ],
+  [
+   19.5999,
+   20.1883
+  ],
+  [
+   20.4375,
+   21.5081
+  ],
+  [
+   22.3709,
+   25.363
+  ],
+  [
+   26.1931,
+   28.61
+  ],
+  [
+   28.8659,
+   30.3541
+  ],
+  [
+   30.6528,
+   31.6716
+  ],
+  [
+   32.5262,
+   34.7101
+  ],
+  [
+   34.9468,
+   36.3475
+  ],
+  [
+   36.5332,
+   37.2104
+  ],
+  [
+   38.0637,
+   40.9248
+  ],
+  [
+   41.7912,
+   43.378
+  ],
+  [
+   43.6316,
+   44.6058
+  ],
+  [
+   44.9172,
+   47.8126
+  ],
+  [
+   48.7299,
+   50.346
+  ],
+  [
+   50.5393,
+   51.9567
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Entre mil novecentos e cinquenta e oito e mil novecentos e setenta e seis,",
+   "s": 0.148,
+   "e": 3.385
+  },
+  {
+   "text": "a Isl\u00e2ndia e a Inglaterra travaram tr\u00eas guerras.",
+   "s": 3.634,
+   "e": 5.96
+  },
+  {
+   "text": "Por causa de peixe.",
+   "s": 6.848,
+   "e": 7.768
+  },
+  {
+   "text": "A Isl\u00e2ndia \u00e9 pequena,",
+   "s": 8.633,
+   "e": 9.735
+  },
+  {
+   "text": "e vivia da pesca.",
+   "s": 9.942,
+   "e": 10.889
+  },
+  {
+   "text": "Mas barcos ingleses pescavam bacalhau bem pertinho da costa dela.",
+   "s": 11.723,
+   "e": 15.178
+  },
+  {
+   "text": "Ent\u00e3o a Isl\u00e2ndia aumentou os limites do seu mar:",
+   "s": 16.02,
+   "e": 18.418
+  },
+  {
+   "text": "doze milhas,",
+   "s": 18.603,
+   "e": 19.412
+  },
+  {
+   "text": "cinquenta,",
+   "s": 19.6,
+   "e": 20.188
+  },
+  {
+   "text": "e por fim duzentas.",
+   "s": 20.438,
+   "e": 21.508
+  },
+  {
+   "text": "A Inglaterra mandou a marinha para proteger os barcos de pesca.",
+   "s": 22.371,
+   "e": 25.363
+  },
+  {
+   "text": "A Isl\u00e2ndia s\u00f3 tinha uns barquinhos da guarda costeira,",
+   "s": 26.193,
+   "e": 28.61
+  },
+  {
+   "text": "mas eles tinham uma arma secreta:",
+   "s": 28.866,
+   "e": 30.354
+  },
+  {
+   "text": "cortadores de rede.",
+   "s": 30.653,
+   "e": 31.672
+  },
+  {
+   "text": "Eles cortavam os cabos das redes inglesas,",
+   "s": 32.526,
+   "e": 34.71
+  },
+  {
+   "text": "e os navios batiam um no outro,",
+   "s": 34.947,
+   "e": 36.347
+  },
+  {
+   "text": "de prop\u00f3sito.",
+   "s": 36.533,
+   "e": 37.21
+  },
+  {
+   "text": "A Isl\u00e2ndia ainda amea\u00e7ou fechar a base da Otan no pa\u00eds.",
+   "s": 38.064,
+   "e": 40.925
+  },
+  {
+   "text": "Em mil novecentos e setenta e seis,",
+   "s": 41.791,
+   "e": 43.378
+  },
+  {
+   "text": "os ingleses cederam,",
+   "s": 43.632,
+   "e": 44.606
+  },
+  {
+   "text": "e a ideia de uma zona de duzentas milhas se espalhou pelo mundo.",
+   "s": 44.917,
+   "e": 47.813
+  },
+  {
+   "text": "Foi uma guerra de navios e de redes,",
+   "s": 48.73,
+   "e": 50.346
+  },
+  {
+   "text": "e tudo por causa de um peixe.",
+   "s": 50.539,
+   "e": 51.957
+  }
+ ]
+}
