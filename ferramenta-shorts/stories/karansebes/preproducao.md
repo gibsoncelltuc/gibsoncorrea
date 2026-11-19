@@ -7,7 +7,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | countryside | crowd | 22 | batalha | - | - | -
 b1 | countryside | orbit | 14 | reagir | - | - | -
 b2 | countryside | track | 2 | encena, andando | tools/lantern | lantern | -
-b3 | countryside | two | 2 | reagir, INTERAGEM: aproxima-se | barrel | bottle | -
+b3 | countryside | two | 2 | reagir, INTERAGEM: aproxima-se | barrel, kit/barrel_r | bottle | -
 b4 | countryside | two | 2 | comemorar, INTERAGEM: brindar | barrel, tools/lantern | mug, bottle | -
 b5 | countryside | group | 8 | conversar, INTERAGEM: empurrar, alguem chega andando | - | - | -
 b6 | countryside | orbit | 19 | conversar, batalha | kit/campfire, kit/tent | - | -
@@ -16,7 +16,7 @@ b8 | countryside | group | 7 | reagir, INTERAGEM: susto | cannon | - | -
 b9 | countryside | group | 7 | reagir, INTERAGEM: avanca e o outro recua, alguem chega andando | crate, barrel, kit/campfire, kit/tent | spyglass | -
 b10 | countryside | close | 1 | conversar | - | - | -
 
-OBJETO HEROI: kit/campfire - aparece em 2 cena(s), close nele em 0  << AVISO: sem close no objeto heroi
+OBJETO HEROI: kit/barrel_r - aparece em 1 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 3 -> b0, b6, b7
 Interacoes entre personagens: b3 aproxima-se, b4 brindar, b5 empurrar, b8 susto, b9 avanca e o outro recua
 

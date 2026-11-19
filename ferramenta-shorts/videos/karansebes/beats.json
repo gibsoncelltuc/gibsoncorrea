@@ -117,6 +117,12 @@
      1.9,
      1.0,
      1.2
+    ],
+    [
+     "kit/barrel_r",
+     1.6,
+     -0.6,
+     1.0
     ]
    ]
   },
@@ -248,5 +254,6 @@
    "mood": "calm"
   }
  ],
- "variar_cenario": false
+ "variar_cenario": false,
+ "heroi": "kit/barrel_r"
 }

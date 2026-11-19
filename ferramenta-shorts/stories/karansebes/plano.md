@@ -14,5 +14,5 @@ b8 | group | -  | tropa | artilharia (burst + som de tiro/explosao); canhões (b
 b9 | group | dawn  | tropa, placa: 10.000?, objeto na mao | chegaram (dust + som de impacto); baixas (puff + som de baque); encena: olha (point) (acao + som de efeito) | -
 b10 | close | dawn  | placa: FOGO AMIGO | (rosto) laugh (expr + som de efeito); venceram (stars + som de sino); tiro (burst + som de tiro/explosao); encena: vence (up) (acao + som de efeito) | -
 
-Mistura de planos: close 10% | medio 63% | aberto 20% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 10% | medio 62% | aberto 20% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | dentro do padrao do canal
