@@ -1,0 +1,10 @@
+b0: OK - "Uma mulher começou a dançar no meio da rua, e não conseguiu mais parar": praça de Estrasburgo com a placa 1518, a mulher de vestido rosa dançando de braços erguidos e o homem de chapéu ao lado; ninguém cortado.
+b1: OK - "Era verão em Estrasburgo. Ela dançou o dia inteiro, a noite inteira": o mapa de ESTRASBURGO com o marcador aparece e depois a praça com a multidão pequena dançando no sol de verão, bancos e arbustos ao fundo.
+b2: OK - "Em uma semana, mais de trinta vizinhos estavam dançando com ela. Ninguém sabia por quê": o cais de madeira com a mulher e os vizinhos rindo e dançando de braços erguidos, casa e navio ao fundo, o grupo aumentando.
+b3: OK - "Em um mês, eram quatrocentas pessoas, de pés sangrando, pedindo socorro": o número 400 na tela com a multidão grande no cais, rostos de aflição e anel de socorro, em plano aberto.
+b4: OK - "O prefeito chamou os médicos. É sangue quente, disseram eles. O remédio é dançar mais": interior com o prefeito de cartola e o médico de chapéu e livro vermelho conversando, depois o prefeito de braços erguidos mandando dançar.
+b5: OK - "Construiu um palco, e contratou músicos para animar a multidão": a placa PALCO com o tambor vermelho e a caixa de som, o músico de casaco amarelo sorrindo e a plateia atrás.
+b6: OK - "Foi a pior ideia possível. Com música, mais gente entrou na dança, e muitos caíram de exaustão": cais cheio de dançarinos com estrelinhas, os rostos cansados e depois a multidão em plano aberto com gente caindo.
+b7: OK - "As crônicas da época falam em mortes, mas os historiadores discutem": interior com a estante de potes, o historiador de cartola discutindo com o outro de óculos, os dois gesticulando e batendo boca.
+b8: OK - "os dançarinos foram levados para um santuário nas montanhas, e a dança parou": colina de pedra com a muralha e o dançarino andando cansado até o santuário, estrelinhas de exaustão.
+b9: OK - "Até hoje, ninguém sabe explicar direito o que aconteceu naquele verão": o homem de chapéu preto e óculos na praça com a mão no queixo, perplexo, o tambor ao lado; fecho da história.
