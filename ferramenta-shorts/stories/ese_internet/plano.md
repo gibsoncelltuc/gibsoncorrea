@@ -14,5 +14,5 @@ b8 | group | -  | - | - | -
 b9 | orbit | -  | batalha aberta com tiros, tropa, placa: VOLTOU! | correria (dust + som de impacto) | -
 b10 | close | -  | - | - | -
 
-Mistura de planos: close 23% | medio 59% | aberto 10% | detalhe 8%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 20% | medio 62% | aberto 10% | detalhe 9%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal
