@@ -157,11 +157,13 @@
    "detalhe": false
   },
   {
-   "shot": "crowd",
+   "shot": "group",
    "set": "countryside",
    "who": [
-    "AME:0:shout",
-    "CAN:0:angry"
+    "AME:0:angry",
+    "CAN:0:angry",
+    "AME:1:angry",
+    "CAN:1:angry"
    ],
    "say": "\"Essa árvore é minha!\", gritou um lenhador, e logo os dois lados começaram a brigar.",
    "fachada": false,
@@ -193,17 +195,8 @@
    "sfx": [
     "thump@60"
    ],
-   "batalha": true,
-   "tiros": false,
-   "crowd": {
-    "n": 14,
-    "outfits": [
-     "AME",
-     "CAN"
-    ],
-    "march": true,
-    "expr": "angry"
-   }
+   "batalha": false,
+   "interacao": "empurrar"
   },
   {
    "shot": "crowd",
