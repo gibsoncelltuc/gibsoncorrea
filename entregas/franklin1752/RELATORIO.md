@@ -16,3 +16,8 @@ Gate: LIBERADO 0 risco; conferir.sh ok.
 - Uma bandeira vermelha e branca aparece de passagem ao lado da pipa (22-27 s) sem ser citada (objeto automatico; origem nao identificada).
 - Alguns personagens com manchas marrons no rosto (barba) lendo como sujeira.
 - Fatos: 1752, Filadelfia, chave na linha da pipa, "contam que"; outros cientistas morreram tentando repetir (Richmann, 1753). Fala de Franklin e parafrase.
+
+## Refeito com a ferramenta final (19/11) - qualidade maxima
+- Checagens: 3 FOLHAS OK (31 acoes, 0 FALTA), 0 risco na folha 2, storyboard conferido e aprovado, conferir.sh OK; 1080x1920, H.264 High, 30 fps, AAC 48 kHz.
+- Passou: tempestade com pipa vermelha, mapa dos Estados Unidos, chave de metal presa na linha, susto/faisca na mao, para-raios com placa e multidao no fim.
+- Nao passou / limitacao: a faisca e' so' um efeito de brilho; o cenario e' a rua generica de tijolos (sem marco da Filadelfia).
