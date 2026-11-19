@@ -260,5 +260,7 @@
    "say": "E ele deixou um conselho: aprendam a sonhar. Mas confiram tudo acordados."
   }
  ],
- "variar_cenario": false
+ "variar_cenario": false,
+ "cinf": 1.5,
+ "exp": 1.761
 }
