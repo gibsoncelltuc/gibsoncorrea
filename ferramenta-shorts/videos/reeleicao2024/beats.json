@@ -100,16 +100,17 @@
    "say": "Foi em cinco de novembro de dois mil e vinte e quatro, nos Estados Unidos."
   },
   {
-   "shot": "two",
+   "shot": "group",
    "who": [
     "ELE:0:grin",
-    "POV:0:suspicious"
+    "POV:0:suspicious",
+    "POV:1:smile"
    ],
    "props": [
     [
      "kit/ballot_box",
-     1.6,
-     -0.8,
+     1.4,
+     -0.6,
      1.1
     ]
    ],
@@ -140,7 +141,8 @@
     "sting@20",
     "ding@50"
    ],
-   "say": "Acontece que Trump venceu em todos os estados decisivos, e somou trezentos e doze votos no colégio eleitoral."
+   "say": "Acontece que Trump venceu em todos os estados decisivos, e somou trezentos e doze votos no colégio eleitoral.",
+   "hora": "dia"
   },
   {
    "shot": "crowd",
@@ -178,7 +180,8 @@
    ],
    "text": "312 VOTOS",
    "titulo": true,
-   "say": "Os apoiadores comemoraram a noite inteira. Trump subiu ao palco e declarou vitória."
+   "say": "Os apoiadores comemoraram a noite inteira. Trump subiu ao palco e declarou vitória.",
+   "hora": "dia"
   },
   {
    "shot": "two",

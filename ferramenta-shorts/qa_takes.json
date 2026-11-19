@@ -1,4 +1,47 @@
 {
- "fails": [],
+ "fails": [
+  {
+   "f": 404,
+   "shot": "b2_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 426,
+   "shot": "b2_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 428,
+   "shot": "b2_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 432,
+   "shot": "b2_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 436,
+   "shot": "b2_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 440,
+   "shot": "b2_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  }
+ ],
  "tiny": []
 }
