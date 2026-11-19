@@ -1,5 +1,5 @@
-# Aroostook (Guerras Inusitadas EP 19) - refeito com a ferramenta final (19/11), 3a versão
-Passou: 3 folhas (0 risco, 0 ação faltando), storyboard + grade aprovados com revisão frase por frase, conferir.sh OK (1080x1920, 53 s, voz neural), folha de contato olhada e quadros extraídos do mp4 nas palavras "brigar" (22-23,6 s) e "comiam" (51-52,4 s).
-Defeitos apontados e CORRIGIDOS: (1) "começaram a brigar": agora os dois lenhadores em primeiro plano gritam e partem um para o outro (soco + estouro na palavra) e, logo atrás, as duas turmas de americanos e ingleses correm, se misturam e se chocam entre os pinheiros; (2) "tropas comiam": cena final separada em duas, e na segunda os lenhadores levam a comida à boca no gesto novo de comer (quadro 52,4 s confirmado); o porco aparece na cena anterior.
-Conferido: placa 1838, mapa do MAINE, lenhadores cortando, MILÍCIA com tropa e cavalos, prisão, general conversando, tratado, fecho.
-Não passou: nada.
+# Aroostook (Guerras Inusitadas EP 19) - refeito 19/11, 4a versão (auditoria)
+Passou: 3 folhas (0 risco, 0 ação faltando), storyboard + grade aprovados com revisão frase por frase, conferir.sh OK (1080x1920, 58 s), folha de contato e auditar_acoes.sh olhados, e quadros extraídos do mp4 de 22,8 a 30 s (brigar, empurrou, derrubado) e em "comiam".
+Defeitos apontados e CORRIGIDOS (conferidos no mp4): (1) briga: "brigar" mostra os dois lenhadores gritando de frente com estrelinhas e poeira; a cena seguinte mostra um lenhador empurrando o outro, que cai deitado no chão (25-30 s, caído à direita do quadro); (2) "tropas comiam": os lenhadores levam a comida à boca (gesto de comer); (3) cenário da milícia e do general sem prédio moderno (montanha de pedras e campo com igreja branca).
+Limites honestos: a ferramenta não tem soco encostando entre personagens (a briga é o empurrão + a queda); no fundo de duas cenas aparece uma casa pequena amarela ao longe, do cenário padrão.
+Não passou: nada além desses limites.
