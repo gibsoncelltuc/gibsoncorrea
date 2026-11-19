@@ -1,0 +1,15 @@
+{
+  "lm_model": "acestep-5Hz-lm-1.7B-Q8_0.gguf",
+  "synth_model": "acestep-v15-turbo-Q8_0.gguf",
+  "caption": "Gentle cheerful Brazilian nursery-rhyme style children's song for babies and toddlers up to 5 years old, sweet and soft, extremely catchy singalong, warm friendly adult male lead vocal with a sweet kids choir answering the hook, bright and playful but calm and cute, clean polished mix, the hook starts right on the first beat with no intro, every section lasts exactly 4 bars, short repeated chorus, simple melody in small steps, call and response with the kids choir, the last chorus goes up by a whole step (key change), clear Portuguese pronunciation of every word, gentle ukulele strums, soft hand claps, bright glockenspiel, light shaker, soft bouncy bass, sweet kids choir answering the commands",
+  "lyrics": "[Chorus]\nA corda gira, gira, gira,\npula, pula, que ela não te tira,\na corda sobe, a corda desce,\npula com força, ninguém esquece!\n\n[Verse 1]\nUm pulinho, dois pulinhos,\npula bem de levinho,\ntrês pulinhos, quatro pulinhos,\npula na ponta do pezinho!\n\n[Chorus]\nA corda gira, gira, gira,\npula, pula, que ela não te tira,\na corda sobe, a corda desce,\npula com força, ninguém esquece!\n\n[Verse 2]\nEntra na corda, bem devagar,\npula sem pressa, vai pular,\nsai da corda, sem tropeçar,\nagora é a vez de outro pular!\n\n[Bridge]\nPula, pula, pula, pula,\na corda gira, ninguém se cansa,\npula, pula, pula, pula,\npula corda e dança!\n\n[Chorus]\nA corda gira, gira, gira,\npula, pula, que ela não te tira,\na corda sobe, a corda desce,\npula com força, ninguém esquece!",
+  "duration": 60,
+  "bpm": 116,
+  "vocal_language": "pt",
+  "keyscale": "G major",
+  "timesignature": "4",
+  "inference_steps": 8,
+  "guidance_scale": 1.0,
+  "shift": 3.0,
+  "seed": 23
+}
