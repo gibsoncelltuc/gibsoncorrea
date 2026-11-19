@@ -14,15 +14,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - objeto sem modelo 3D: peixe -> CORRECAO: modelar em blender/make_objetos.py e por no OBJ_DICT, ou trocar a palavra
 
 ## Cena b1 - A Islândia é pequena, e vivia da pesca. Mas barcos ingleses pescavam b...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ICE (variante 1, expressao nervous); PES (variante 0, expressao grin)
 - Animacao: reagir | interacao: insiste
 - Objetos/modelos: crate, kit/cod
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): costa, islandia, pesca
-- RISCOS: 
-  - a narracao cita agua e o cenario "street" nao tem agua -> CORRECAO: "set": "harbor" (cais com mar e navio) ou "set": "palace" (praia), ou "mapa" para so situar
+- RISCOS: nenhum
 
 ## Cena b2 - Então a Islândia aumentou os limites do seu mar: doze milhas, cinquent...
 - Cenario: street | luz: day | clima: limpo
@@ -40,13 +39,13 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): BRI (variante 1, expressao stern); BRI (variante 2, expressao grin); PES (variante 1, expressao smile) | multidao: 12 de BRI/BRI/PES
-- Animacao: - | batalha encenada
+- Animacao: encena | batalha encenada
 - Objetos/modelos: ship, navios ao fundo
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barcos, inglaterra, marinha, pesca
 - RISCOS: nenhum
 
 ## Cena b4 - A Islândia só tinha uns barquinhos da guarda costeira, mas eles tinham...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: interior madeira | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): ICE (variante 0, expressao grin)
@@ -56,17 +55,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Eles cortavam os cabos das redes inglesas, e os navios batiam um no ou...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (1): ICE (variante 0, expressao neutral) | multidao: 6 de ICE
-- Animacao: - | batalha encenada
-- Objetos/modelos: ship
+- Animacao: encena | batalha encenada
+- Objetos/modelos: ship, navios ao fundo
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabos, navios, proposito, redes
 - RISCOS: nenhum
 
 ## Cena b6 - A Islândia ainda ameaçou fechar a base da Otan no país.
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ICE (variante 1, expressao stern); BRI (variante 0, expressao shock)
@@ -76,7 +75,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Em mil novecentos e setenta e seis, os ingleses cederam, e a ideia de ...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): BRI (variante 0, expressao pained); ICE (variante 0, expressao laugh)
@@ -111,14 +110,13 @@ peixe (citado na narracao) | b0, b8 | FALTA | pesquisar referencia (referencias/
 - Objeto heroi: kit/cod | grandes momentos: b3, b5 | planos abertos: 3 | mistura: close 26% | medio 50% | aberto 16% | detalhe 8%
 - Interacoes: b0 o outro se aproxima, b1 insiste, b6 discutir, b7 vai ate o outro
 - RISCOS GERAIS: 
-  - nenhum mapa no video (o canal situa o lugar com mapa rapido) -> CORRECAO: "mapa": "NOME DO LUGAR" na cena 1 ou 2
+  - pouca variedade de cenario ({'harbor': 5, 'street': 3, 'interior madeira': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
 
-## RESUMO: 5 risco(s) em aberto
+## RESUMO: 4 risco(s) em aberto
 - b0: objeto sem modelo 3D: peixe
-- b1: a narracao cita agua e o cenario "street" nao tem agua
 - b2: a narracao cita agua e o cenario "street" nao tem agua
 - b8: objeto sem modelo 3D: peixe
-- geral: nenhum mapa no video (o canal situa o lugar com mapa rapido)
+- geral: pouca variedade de cenario ({'harbor': 5, 'street': 3, 'interior madeira': 1}): o video fica parecendo todos os outros
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh bacalhau1958 bN bM` (so essas cenas).

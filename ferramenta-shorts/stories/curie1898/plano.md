@@ -5,13 +5,13 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | dia limpo | placa: PERIGO | - | -
 b1 | reveal | dia limpo | tropa, mapa | - | -
 b2 | two | dia limpo | interior, objeto na mao | - | -
-b3 | two | dia limpo | interior | descobriram (ring + som de alerta); encena: mistura (stir) (acao + som de efeito) | -
+b3 | two | dia limpo | interior | descobriram (ring + som de alerta); encena: mistura (stir) (acao + som de efeito); encena: examina (think) (acao + som de efeito) | -
 b4 | close | noite  | interior | - | -
 b5 | two | dia limpo | interior, objeto na mao | - | -
-b6 | crowd | dia limpo | batalha aberta com tiros, tropa, placa: NOBEL | ganhou (stars + som de sino) | -
+b6 | crowd | dia limpo | batalha aberta com tiros, tropa, placa: NOBEL | ganhou (stars + som de sino); encena: vence (up) (acao + som de efeito); encena: quimico (pour) (acao + som de efeito) | -
 b7 | two | dia limpo | - | (rosto) sad (expr + som de efeito); morreu (puff + som de baque) | -
 b8 | two | dia limpo | interior | - | -
-b9 | low | dia limpo | interior | - | -
+b9 | low | dia limpo | interior | encena: escreve (write) (acao + som de efeito) | -
 b10 | orbit | dia limpo | batalha aberta com tiros, tropa, placa: 1.600 ANOS | perder (dust + som de impacto) | -
 b11 | close | dia limpo | - | - | -
 

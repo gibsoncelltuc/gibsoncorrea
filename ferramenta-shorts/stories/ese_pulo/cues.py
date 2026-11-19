@@ -33,4 +33,5 @@ gibber(F(_A[9] + int((_A[10] - _A[9]) * 0.2)), 4, 230, 0.12); gibber(F(_A[9] + i
 whoosh(F(_A[10]), 0.4, 0.35)
 laughs(F(_A[10] + int((_A[11] - _A[10]) * 0.2))); laughs(F(_A[10] + int((_A[11] - _A[10]) * 0.6)), 5, 360)
 tick(F(int(_W(80))))
+thump(F(int(_W(94))))
 thump(F(int(_W(119))))

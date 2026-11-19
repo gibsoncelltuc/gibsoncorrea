@@ -10,7 +10,7 @@ b2 | interior loja | two | 2 | conversar, INTERAGEM: entregar | kit/boardgame | 
 b3 | interior loja | close | 1 | comemorar | kit/boardgame | - | -
 b4 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | kit/boardgame | paper | -
 b5 | interior madeira | two | 2 | conversar, INTERAGEM: empurrar | kit/boardgame | - | -
-b6 | street | crowd | 33 | batalha | kit/marco_liberdade | - | -
+b6 | street | crowd | 33 | encena, batalha | kit/marco_liberdade | - | -
 b7 | street | two | 2 | conversar, INTERAGEM: insiste | kit/marco_liberdade | - | -
 b8 | street | two | 2 | conversar, INTERAGEM: entregar | kit/boardgame, kit/marco_liberdade, kit/tv | - | -
 b9 | harbor | close | 1 | conversar | kit/boardgame, kit/marco_liberdade | - | -

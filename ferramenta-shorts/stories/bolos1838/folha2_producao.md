@@ -68,7 +68,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): FRA (variante 0, expressao stern); FRA (variante 1, expressao stern) | multidao: 18 de FRA
-- Animacao: - | batalha encenada
+- Animacao: encena | batalha encenada
 - Objetos/modelos: kit/marco_ulua, navios ao fundo
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca, portos
 - RISCOS: nenhum
@@ -85,15 +85,13 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Um general mexicano correu para o combate, e perdeu uma perna para um ...
 - Cenario: countryside | luz: day | clima: limpo
-- Camera: track = travelling lateral acompanhando quem anda
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): GEN (variante 0, expressao pained); OFI (variante 1, expressao shock)
-- Animacao: -
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (2): GEN (variante 0, expressao pained); OFI (variante 1, expressao shock) | multidao: 18 de GEN/OFI
+- Animacao: reagir | batalha encenada
 - Objetos/modelos: kit/marco_ulua, cannon
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canhao, combate, general, perna, tiro
-- RISCOS: 
-  - a narracao fala de BATALHA/ATAQUE e a cena nao encena a luta -> CORRECAO: "batalha": true nesta cena (tropa dos dois lados no "crowd", tiros/golpes e gente fugindo); cada batalha citada no roteiro = uma cena com "batalha": true
-  - a narracao cita "general" e ninguem em cena esta vestido a carater -> CORRECAO: por no "who" um personagem com "profissao": "general" no figurino (coroa/farda/chapeu proprios)
+- RISCOS: nenhum
 
 ## Cena b9 - Meses depois, o México pagou os seiscentos mil pesos, e a França foi e...
 - Cenario: countryside | luz: day | clima: limpo
@@ -129,14 +127,12 @@ buildings/castle_tower | b7 | pronto | conferir na folha de contato se le bem; s
 
 
 ## Video inteiro
-- Objeto heroi: kit/cake_table | grandes momentos: b6, b7 | planos abertos: 3 | mistura: close 20% | medio 64% | aberto 12% | detalhe 4%
+- Objeto heroi: kit/cake_table | grandes momentos: b6, b7, b8 | planos abertos: 4 | mistura: close 22% | medio 58% | aberto 15% | detalhe 4%
 - Interacoes: b0 entregar, b2 vai ate o outro, b3 aproxima-se, b5 cochichar, b9 susto
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 3 risco(s) em aberto
+## RESUMO: 1 risco(s) em aberto
 - b0: a narracao fala de BATALHA/ATAQUE e a cena nao encena a luta
-- b8: a narracao fala de BATALHA/ATAQUE e a cena nao encena a luta
-- b8: a narracao cita "general" e ninguem em cena esta vestido a carater
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh bolos1838 bN bM` (so essas cenas).

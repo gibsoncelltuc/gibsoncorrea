@@ -97,7 +97,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (1): PRO (variante 0, expressao smile) | multidao: 1 de PRO
-- Animacao: - | batalha encenada
+- Animacao: encena | batalha encenada
 - Objetos/modelos: nature/tree_oak, nature/tree_birch, deer, rabbit, fox
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): natureza
 - RISCOS: nenhum

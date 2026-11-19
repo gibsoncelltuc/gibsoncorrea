@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: tense | Cenario base: arctic | 9
 - Narracao: Viveu até os noventa e seis anos, e nunca se achou herói. Dizia que só tinha feito o seu trabalho.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: examina (think) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: SÓ FEZ O SEU TRABALHO
 - Funcao na historia: FECHO/PIADA FINAL

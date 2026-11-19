@@ -37,7 +37,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): FRA (variante 0, expressao angry); ING (variante 0, expressao shout); FRA (variante 1, expressao shout) | multidao: 20 de FRA/ING
-- Animacao: - | batalha encenada
+- Animacao: encena | batalha encenada
 - Objetos/modelos: cannon
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): batalha, duque, ingleses, wellington
 - RISCOS: nenhum
@@ -96,11 +96,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): PRO (variante 0, expressao stern, segura paper); POV (variante 1, expressao worried)
+- Personagens principais (2): PRO (variante 0, expressao stern, segura paper); POV (variante 1, expressao worried) | multidao: 10 de FRA/POV
 - Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/scroll
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): austria, russia
-- RISCOS: nenhum
+- RISCOS: 
+  - multidao/batalha dentro de sala: nao cabe -> CORRECAO: tirar "interior" desta cena (faz na rua/campo) ou reduzir o "crowd"
 
 ## Cena b10 - Às vezes, um dia famoso não muda o destino. Só escolhe a data em que e...
 - Cenario: countryside | luz: day | clima: limpo
@@ -127,7 +128,8 @@ kit/scroll | b9 | pronto | conferir na folha de contato se le bem; se parecer ca
 - Interacoes: b0 vai ate o outro, b2 entregar, b6 empurrar, b7 discutir, b9 aproxima-se
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- b9: multidao/batalha dentro de sala: nao cabe
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh ese_napoleao bN bM` (so essas cenas).

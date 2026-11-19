@@ -29,7 +29,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): NED (variante 2, expressao pained) | multidao: 6 de NED
-- Animacao: -
+- Animacao: encena
 - Objetos/modelos: ship
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gelo, navios
 - RISCOS: 
@@ -109,18 +109,16 @@ horse | b3, b4, b5, b7 | pronto | conferir na folha de contato se le bem; se par
 - Objeto heroi: - | grandes momentos: b6 | planos abertos: 3 | mistura: close 14% | medio 61% | aberto 24% | detalhe 2%
 - Interacoes: b3 aproxima-se, b7 avanca e o outro recua
 - RISCOS GERAIS: 
-  - nenhum mapa no video (o canal situa o lugar com mapa rapido) -> CORRECAO: "mapa": "NOME DO LUGAR" na cena 1 ou 2
   - menos de 2 grandes momentos -> CORRECAO: "batalha": true (ou "impact": true) em duas cenas de acao
   - pouca variedade de cenario ({'arctic': 9}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
   - video sem objeto heroi -> CORRECAO: "heroi": "kit/<objeto>" no topo do roteiro (modele se nao existir)
   - 1 palavra(s) de acao sem efeito + som -> CORRECAO: ver plano.md e por "fx"/"sfx" na cena
 
-## RESUMO: 9 risco(s) em aberto
+## RESUMO: 8 risco(s) em aberto
 - b0: personagens parados (so falam e piscam)
 - b1: a narracao cita agua e o cenario "arctic" nao tem agua
 - b2: veiculo citado e nao aparece
 - b4: a narracao cita "comandante" e ninguem em cena esta vestido a carater
-- geral: nenhum mapa no video (o canal situa o lugar com mapa rapido)
 - geral: menos de 2 grandes momentos
 - geral: pouca variedade de cenario ({'arctic': 9}): o video fica parecendo todos os outros
 - geral: video sem objeto heroi

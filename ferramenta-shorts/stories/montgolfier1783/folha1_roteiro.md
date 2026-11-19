@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 - Narracao: Dois meses depois, foi a vez de dois homens voarem sobre Paris. A humanidade tinha chegado ao céu.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: voa (point) -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: VOAMOS
 - Funcao na historia: GRANDE MOMENTO

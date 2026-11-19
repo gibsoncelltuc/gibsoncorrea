@@ -12,7 +12,7 @@ b6 | crowd | -  | batalha aberta com tiros, tropa | - | -
 b7 | group | -  | - | encena: pega (lift) (acao + som de efeito); encena: sai (acao + som de efeito) | -
 b8 | track | -  | - | correram (dust + som de impacto) | -
 b9 | two | -  | animais | - | -
-b10 | orbit | -  | batalha aberta com tiros, tropa, placa: VOAMOS | - | -
+b10 | orbit | -  | batalha aberta com tiros, tropa, placa: VOAMOS | encena: voa (point) (acao + som de efeito) | -
 b11 | close | -  | animais | - | -
 
 Mistura de planos: close 20% | medio 68% | aberto 9% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)

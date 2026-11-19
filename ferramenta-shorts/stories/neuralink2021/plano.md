@@ -10,9 +10,9 @@ b4 | close | -  | interior | - | -
 b5 | two | -  | interior | - | -
 b6 | low | -  | interior | - | -
 b7 | crowd | -  | batalha aberta com tiros, tropa, placa: MENTE | - | -
-b8 | two | -  | interior | pedido: plano medio dos dois, um pede ao outro (shot + som de efeito) | -
+b8 | two | -  | interior | - | -
 b9 | two | -  | interior | encena: pensa (think) (acao + som de efeito) | -
-b10 | orbit | -  | batalha aberta com tiros, tropa, placa: XADREZ | - | -
+b10 | orbit | -  | batalha aberta com tiros, tropa, placa: XADREZ | encena: mistura (stir) (acao + som de efeito) | -
 b11 | close | -  | - | - | -
 
 Mistura de planos: close 18% | medio 71% | aberto 11% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)

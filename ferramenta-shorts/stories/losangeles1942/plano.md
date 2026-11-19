@@ -5,9 +5,9 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | pordosol  | placa: 1942 | - | -
 b1 | reveal | pordosol  | tropa, mapa | (rosto) scared (expr + som de efeito) | -
 b2 | group | pordosol  | batalha aberta com tiros, tropa | - | -
-b3 | two | pordosol  | - | - | -
-b4 | orbit | pordosol  | batalha aberta com tiros, tropa, placa: FOGO! | atirar (burst + som de tiro/explosao); canhões (burst + som de tiro/explosao) | -
-b5 | two | amanhecer  | - | (rosto) shout (expr + som de efeito); gritou (ring + som de alerta) | -
+b3 | two | pordosol  | - | encena: toca (acao + som de efeito) | -
+b4 | orbit | pordosol  | batalha aberta com tiros, tropa, placa: FOGO! | atirar (burst + som de tiro/explosao); canhões (burst + som de tiro/explosao); encena: olha (point) (acao + som de efeito) | -
+b5 | two | amanhecer  | - | (rosto) shout (expr + som de efeito); gritou (ring + som de alerta); encena: grita (up) (acao + som de efeito) | -
 b6 | crowd | amanhecer  | batalha aberta com tiros, tropa | (rosto) scared (expr + som de efeito); tiros (burst + som de tiro/explosao); canhão (burst + som de tiro/explosao); caíram (dust + som de impacto) | -
 b7 | two | -  | interior, objeto na mao | - | -
 b8 | two | -  | interior, objeto na mao | (rosto) sad (expr + som de efeito); morreram (puff + som de baque); apareceu (dust + som de impacto) | -

@@ -10,7 +10,7 @@ b2 | interior pedra | two | 2 | conversar, INTERAGEM: o outro se aproxima, algue
 b3 | interior pedra | two | 2 | conversar, INTERAGEM: insiste | - | paper | -
 b4 | palace | crowd | 20 | batalha | kit/marco_zanzibar, cannon | - | -
 b5 | interior pedra | close | 1 | conversar | - | - | -
-b6 | palace | orbit | 22 | reagir, batalha | kit/marco_zanzibar, navios ao fundo, buildings/castle_tower | - | -
+b6 | harbor | orbit | 22 | reagir, batalha | kit/marco_zanzibar, navios ao fundo, buildings/castle_tower | - | -
 b7 | palace | track | 2 | discutir, andando | kit/marco_zanzibar, buildings/house_two, nature/lamppost, nature/bench | - | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: vai ate o outro | cannon, war/flagpole | flag | -
 b9 | medieval | group | 3 | conversar, INTERAGEM: aproxima-se | kit/marco_zanzibar | paper | -

@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 - Narracao: Não acharam turco nenhum. Acharam moradores vendendo aguardente.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: vendendo -> stars + som de sino
+- Efeito + som nas palavras-chave: vendendo -> stars + som de sino; encena: examina (think) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 - Narracao: Compraram tudo, beberam, e a festa começou.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; Compraram -> stars + som de sino; beberam -> stars + som de sino; festa -> stars + som de sino
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; Compraram -> stars + som de sino; beberam -> stars + som de sino; festa -> stars + som de sino; encena: negocio (reach) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: AGUARDENTE
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 - Narracao: No escuro, alguém gritou: "Turcos! Turcos!" E o pânico tomou o acampamento.
 - Som ambiente: birds | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou: -> ring + som de alerta; pânico -> dust + som de impacto
+- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou: -> ring + som de alerta; pânico -> dust + som de impacto; encena: grita (up) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: TURCOS!
 - Funcao na historia: GRANDE MOMENTO
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 - Narracao: Dois dias depois, os turcos chegaram de verdade, e acharam o acampamento abandonado. Contam que foram até dez mil baixas, mas os historiadores duvidam desse número.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: chegaram -> dust + som de impacto; baixas -> puff + som de baque
+- Efeito + som nas palavras-chave: encena: examina (think) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 10.000?
 - Funcao na historia: desenvolvimento
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 - Narracao: Os turcos venceram sem dar um único tiro.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; venceram -> stars + som de sino; tiro -> burst + som de tiro/explosao
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; venceram -> stars + som de sino; tiro -> burst + som de tiro/explosao; encena: vence (up) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: FOGO AMIGO
 - Funcao na historia: FECHO/PIADA FINAL

@@ -57,7 +57,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): PIL (variante 0, expressao stern); PIL (variante 1, expressao grin); GEN (variante 0, expressao stern) | multidao: 12 de PIL
-- Animacao: - | batalha encenada
+- Animacao: encena | batalha encenada
 - Objetos/modelos: kit/b2_air, kit/marco_mesquita
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): missouri
 - RISCOS: nenhum
@@ -83,12 +83,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - Um submarino ainda disparou mísseis contra uma terceira usina. Todos o...
-- Cenario: interior loja | luz: day | clima: limpo
+- Cenario: hall | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): TRU (variante 0, expressao stern); GEN (variante 0, expressao grin, segura paper)
 - Animacao: conversar | interacao: insiste
-- Objetos/modelos: kit/b2_air
+- Objetos/modelos: kit/b2_air, buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): avioes, submarino, terceira
 - RISCOS: nenhum
 
@@ -97,7 +97,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao surprised); POV (variante 1, expressao shock); POV (variante 2, expressao nervous) | multidao: 18 de POV
-- Animacao: discutir | batalha encenada
+- Animacao: conversar | batalha encenada
 - Objetos/modelos: kit/mountain_bunker, kit/marco_mesquita
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estrago, tamanho, usinas
 - RISCOS: nenhum
@@ -121,6 +121,9 @@ kit/bunker_bomb | b0, b3, b7, b10 | pronto (HEROI: aparece em close) | conferir 
 kit/b2_air | b0, b3, b5, b6, b7, b8, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_mesquita | b0, b1, b2, b3, b5, b6, b7, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/mountain_bunker | b1, b2, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/house_small | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/picket_fence | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/tree_oak | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro

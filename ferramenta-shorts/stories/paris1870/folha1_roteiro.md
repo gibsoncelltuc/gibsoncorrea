@@ -8,7 +8,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: 1870
+- Texto na tela: 1870 | mapa: PARIS
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~4.1 s)
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O açougueiro comprou dois elefantes, Castor e Pólux, e vendeu a carne em pedaços.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: comprou -> stars + som de sino; vendeu -> stars + som de sino
+- Efeito + som nas palavras-chave: comprou -> stars + som de sino; vendeu -> stars + som de sino; encena: negocio (reach) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: CASTOR E PÓLUX
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O cerco acabou em janeiro de mil oitocentos e setenta e um, e Paris se rendeu, de barriga vazia.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: rende (up) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: PARIS SE RENDEU
 - Funcao na historia: FECHO/PIADA FINAL

@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Depois, Musk explicou na internet que, nos ensaios, a mesma esfera tin...
-- Cenario: countryside | luz: golden | clima: limpo
+- Cenario: street | luz: golden | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): MUS (variante 0, expressao smile)
@@ -63,12 +63,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - A plateia riu, a internet também, e a cena deu o que falar no mundo in...
-- Cenario: countryside | luz: golden | clima: limpo
+- Cenario: stadium | luz: golden | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): MUS (variante 0, expressao laugh); DSG (variante 0, expressao grin) | multidao: 30 de POV
 - Animacao: comemorar | batalha encenada
-- Objetos/modelos: kit/globe, kit/marco_hollywood
+- Objetos/modelos: kit/globe
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cena, internet, plateia
 - RISCOS: nenhum
 
@@ -88,7 +88,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/cybertruck | b0, b1, b2, b3, b4, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_hollywood | b0, b1, b2, b3, b4, b5, b6, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_hollywood | b0, b1, b2, b3, b4, b5, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/steel_ball | b2, b5, b7 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/globe | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 

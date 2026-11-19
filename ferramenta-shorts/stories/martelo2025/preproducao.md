@@ -9,11 +9,11 @@ b1 | mountain | reveal | 8 | reagir | kit/mountain_bunker, kit/marco_mesquita | 
 b2 | mountain | two | 2 | discutir, INTERAGEM: discutir | kit/mountain_bunker, kit/marco_mesquita | paper | -
 b3 | countryside | close | 1 | conversar | kit/bunker_bomb, kit/b2_air, kit/marco_mesquita | - | -
 b4 | interior madeira | two | 2 | conversar, INTERAGEM: entregar | - | - | -
-b5 | countryside | crowd | 15 | batalha | kit/b2_air, kit/marco_mesquita | - | -
+b5 | countryside | crowd | 15 | encena, batalha | kit/b2_air, kit/marco_mesquita | - | -
 b6 | countryside | two | 2 | conversar, INTERAGEM: cochichar | kit/b2_air, kit/marco_mesquita | - | -
 b7 | outback | low | 1 | conversar | kit/b2_air, kit/mountain_bunker, kit/marco_mesquita, kit/bunker_bomb | - | -
-b8 | interior loja | two | 2 | conversar, INTERAGEM: insiste | kit/b2_air | paper | -
-b9 | outback | orbit | 21 | discutir, batalha | kit/mountain_bunker, kit/marco_mesquita | - | -
+b8 | hall | two | 2 | conversar, INTERAGEM: insiste | kit/b2_air, buildings/house_small, nature/picket_fence, nature/tree_oak | paper | -
+b9 | outback | orbit | 21 | conversar, batalha | kit/mountain_bunker, kit/marco_mesquita | - | -
 b10 | mountain | close | 1 | conversar | kit/bunker_bomb, kit/b2_air, kit/marco_mesquita | - | -
 
 OBJETO HEROI: kit/bunker_bomb - aparece em 4 cena(s), close nele em 3

@@ -10,7 +10,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: reagir | interacao: susto
 - Objetos/modelos: kit/searchlight, kit/marco_hollywood, buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade
-- RISCOS: nenhum
+- RISCOS: 
+  - ACAO SEM ANIMACAO na narracao: atirando -> CORRECAO: a cena precisa MOSTRAR a acao: reescreva com um verbo que a ferramenta encena (veja OPERACAO.md "MODO DE ACAO") ou marque a cena ("batalha", "interacao", "acao", "animals", "props")
 
 ## Cena b1 - Era fevereiro de mil novecentos e quarenta e dois, logo depois de Pear...
 - Cenario: street | luz: pordosol | clima: limpo
@@ -47,7 +48,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): SOL (variante 0, expressao shout); SOL (variante 1, expressao angry) | multidao: 20 de SOL
-- Animacao: - | batalha encenada
+- Animacao: encena | batalha encenada
 - Objetos/modelos: cannon, kit/marco_hollywood
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): atirar, canhoes, objeto, soldados
 - RISCOS: nenhum
@@ -77,7 +78,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): GEN (variante 0, expressao stern, segura paper); PRE (variante 0, expressao nervous)
-- Animacao: discutir | interacao: susto
+- Animacao: conversar | interacao: susto
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): militares
 - RISCOS: nenhum
@@ -121,7 +122,8 @@ cannon | b4, b6 | pronto | conferir na folha de contato se le bem; se parecer ca
 - RISCOS GERAIS: 
   - pouca variedade de cenario ({'street': 8, 'interior madeira': 1, 'interior pedra': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
 
-## RESUMO: 1 risco(s) em aberto
+## RESUMO: 2 risco(s) em aberto
+- b0: ACAO SEM ANIMACAO na narracao: atirando
 - geral: pouca variedade de cenario ({'street': 8, 'interior madeira': 1, 'interior pedra': 1}): o video fica parecendo todos os outros
 
 ## Reparos depois do render

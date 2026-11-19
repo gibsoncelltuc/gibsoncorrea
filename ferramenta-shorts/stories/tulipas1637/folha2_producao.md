@@ -17,7 +17,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao smile, segura tulip); RIC (variante 0, expressao grin) | multidao: 6 de POV
-- Animacao: -
+- Animacao: encena
 - Objetos/modelos: kit/tulip_bed, buildings/windmill, kit/tulip_red
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chegar, holanda, moda, oriente, tulipa
 - RISCOS: nenhum
@@ -37,7 +37,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao grin, segura tulip); POV (variante 1, expressao laugh, segura coin); MER (variante 0, expressao grin) | multidao: 20 de POV/RIC
-- Animacao: - | batalha encenada
+- Animacao: encena | batalha encenada
 - Objetos/modelos: kit/tulip_bed
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum

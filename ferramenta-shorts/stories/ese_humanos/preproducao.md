@@ -13,7 +13,7 @@ b5 | jungle | crowd | 2 | reagir, batalha | nature/tree_oak, nature/tree_pine, n
 b6 | harbor | low | 1 | conversar | - | - | -
 b7 | outback | two | 2 | conversar, INTERAGEM: avanca e o outro recua | - | paper | -
 b8 | interior loja | two | 2 | conversar, INTERAGEM: cochichar | - | - | -
-b9 | harbor | orbit | 2 | batalha | nature/tree_oak, nature/tree_birch, deer, rabbit, fox | - | -
+b9 | harbor | orbit | 2 | encena, batalha | nature/tree_oak, nature/tree_birch, deer, rabbit, fox | - | -
 b10 | street | close | 1 | conversar | kit/globe | - | -
 
 OBJETO HEROI: kit/globe - aparece em 2 cena(s), close nele em 1

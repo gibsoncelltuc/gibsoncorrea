@@ -38,14 +38,13 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - No meio do nevoeiro, os soldados desceram em silêncio, prontos para um...
 - Cenario: mountain | luz: overcast | clima: limpo
-- Camera: track = travelling lateral acompanhando quem anda
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (3): USA (variante 0, expressao stern); CAN (variante 1, expressao stern); USA (variante 3, expressao nervous)
-- Animacao: -
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (3): USA (variante 0, expressao stern); CAN (variante 1, expressao stern); USA (variante 3, expressao nervous) | multidao: 18 de USA/CAN
+- Animacao: - | batalha encenada
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): combate, nevoeiro, soldados
-- RISCOS: 
-  - a narracao fala de BATALHA/ATAQUE e a cena nao encena a luta -> CORRECAO: "batalha": true nesta cena (tropa dos dois lados no "crowd", tiros/golpes e gente fugindo); cada batalha citada no roteiro = uma cena com "batalha": true
+- RISCOS: nenhum
 
 ## Cena b4 - Mas teve um problema: os japoneses já tinham ido embora.
 - Cenario: interior madeira | luz: overcast | clima: limpo
@@ -59,30 +58,30 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Duas semanas antes, uma frota tinha evacuado cerca de cinco mil homens...
 - Cenario: mountain | luz: overcast | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): USA (variante 0, expressao neutral) | multidao: 10 de USA
-- Animacao: conversar
+- Animacao: -
 - Objetos/modelos: ship, nature/picket_fence
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cinco, frota, neblina
 - RISCOS: nenhum
 
 ## Cena b6 - Sem inimigo à vista, os Aliados começaram a atirar uns nos outros, no ...
 - Cenario: arctic | luz: overcast | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (3): USA (variante 0, expressao shock); CAN (variante 0, expressao shock); USA (variante 2, expressao pained) | multidao: 10 de USA/CAN
-- Animacao: reagir | interacao: susto | batalha encenada
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (3): USA (variante 0, expressao shock); CAN (variante 0, expressao shock); USA (variante 2, expressao pained)
+- Animacao: reagir | interacao: susto
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aliados, atirar, escuro, neblina, vista
 - RISCOS: nenhum
 
 ## Cena b7 - No fim, só acharam na ilha alguns cachorros abandonados.
 - Cenario: arctic | luz: arctic | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): USA (variante 1, expressao laugh) | multidao: 8 de USA
-- Animacao: -
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Personagens principais (1): USA (variante 1, expressao laugh)
+- Animacao: conversar
 - Objetos/modelos: dog
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ilha
 - RISCOS: 
@@ -111,18 +110,17 @@ dog | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, 
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b2, b6 | planos abertos: 2 | mistura: close 18% | medio 67% | aberto 15% | detalhe 0%
+- Objeto heroi: - | grandes momentos: b2, b3 | planos abertos: 3 | mistura: close 20% | medio 53% | aberto 24% | detalhe 3%
 - Interacoes: b6 susto
 - RISCOS GERAIS: 
   - nenhum mapa no video (o canal situa o lugar com mapa rapido) -> CORRECAO: "mapa": "NOME DO LUGAR" na cena 1 ou 2
   - video sem objeto heroi -> CORRECAO: "heroi": "kit/<objeto>" no topo do roteiro (modele se nao existir)
 
-## RESUMO: 9 risco(s) em aberto
+## RESUMO: 8 risco(s) em aberto
 - b0: a narracao cita agua e o cenario "arctic" nao tem agua
 - b0: personagens parados (so falam e piscam)
 - b1: veiculo citado e nao aparece
 - b2: a narracao cita agua e o cenario "mountain" nao tem agua
-- b3: a narracao fala de BATALHA/ATAQUE e a cena nao encena a luta
 - b7: a narracao cita agua e o cenario "arctic" nao tem agua
 - b8: a narracao cita agua e o cenario "arctic" nao tem agua
 - geral: nenhum mapa no video (o canal situa o lugar com mapa rapido)

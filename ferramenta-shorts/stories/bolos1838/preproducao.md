@@ -10,14 +10,14 @@ b2 | interior loja | group | 3 | conversar, INTERAGEM: vai ate o outro, alguem c
 b3 | interior pedra | two | 2 | conversar, INTERAGEM: aproxima-se | kit/cake_table | paper | -
 b4 | interior pedra | close | 1 | conversar | - | - | -
 b5 | interior madeira | two | 2 | comemorar, INTERAGEM: cochichar | - | - | -
-b6 | harbor | crowd | 20 | batalha | kit/marco_ulua, navios ao fundo | - | -
+b6 | harbor | crowd | 20 | encena, batalha | kit/marco_ulua, navios ao fundo | - | -
 b7 | street | orbit | 22 | reagir, batalha | kit/marco_ulua, cannon, buildings/castle_tower | - | -
-b8 | countryside | track | 2 | andando | kit/marco_ulua, cannon | - | -
+b8 | countryside | crowd | 20 | reagir, batalha | kit/marco_ulua, cannon | - | -
 b9 | countryside | two | 2 | encena, INTERAGEM: susto | kit/marco_ulua | paper, coin | -
 b10 | street | close | 1 | encena | kit/marco_ulua, kit/cake_table | coin | -
 
 OBJETO HEROI: kit/cake_table - aparece em 4 cena(s), close nele em 1
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b6, b7
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 3 -> b6, b7, b8
 Interacoes entre personagens: b0 entregar, b2 vai ate o outro, b3 aproxima-se, b5 cochichar, b9 susto
 
 Cenas com personagens parados: 1 de 11

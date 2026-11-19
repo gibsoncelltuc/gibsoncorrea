@@ -5,11 +5,11 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | -  | placa: 2004 | encena: vira (up) (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | interior | prêmio (stars + som de sino) | -
-b3 | crowd | -  | batalha aberta com tiros, tropa | vender (stars + som de sino) | -
-b4 | two | -  | interior | encena: sai (acao + som de efeito) | -
+b3 | crowd | -  | batalha aberta com tiros, tropa | vender (stars + som de sino); encena: negocio (reach) (acao + som de efeito) | -
+b4 | two | -  | interior | encena: perde (facepalm) (acao + som de efeito); encena: sai (acao + som de efeito) | -
 b5 | close | -  | interior, placa: VOCÊ ESTÁ DEMITIDO! | - | -
 b6 | crowd | -  | batalha aberta com tiros, tropa, placa: 28 MILHÕES | - | -
-b7 | two | -  | - | ganhou (stars + som de sino) | -
+b7 | two | -  | - | ganhou (stars + som de sino); encena: vence (up) (acao + som de efeito) | -
 b8 | group | -  | mapa | - | -
 b9 | two | -  | - | encena: fala (point) (acao + som de efeito); encena: sai (acao + som de efeito) | -
 b10 | close | -  | - | - | -

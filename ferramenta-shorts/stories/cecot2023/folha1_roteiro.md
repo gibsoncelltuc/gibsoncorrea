@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: Para guardar tanta gente, ergueram o Centro de Confinamento do Terrorismo, com vagas para quarenta mil presos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: constroi (hammer) -> acao + som de efeito; encena: prende (push) -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: 40 MIL
 - Funcao na historia: GRANDE MOMENTO

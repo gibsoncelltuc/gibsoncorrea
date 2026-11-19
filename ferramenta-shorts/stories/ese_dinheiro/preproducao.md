@@ -8,7 +8,7 @@ b0 | interior loja | two | 2 | conversar, INTERAGEM: entregar | kit/coin | - | -
 b1 | interior loja | two | 2 | reagir, INTERAGEM: discutir | kit/cake_table | - | -
 b2 | interior madeira | two | 2 | conversar, INTERAGEM: entregar | chicken | - | -
 b3 | interior madeira | two | 2 | discutir, INTERAGEM: o outro se aproxima | chicken | - | -
-b4 | street | wide | 8 | parados (so fala e pisca) | - | - | -
+b4 | street | wide | 8 | encena | - | - | -
 b5 | harbor | group | 32 | conversar, INTERAGEM: cochichar | nature/rocks | paper | -
 b6 | harbor | crowd | 23 | comemorar, batalha | kit/stall, nature/fountain, nature/bench | - | -
 b7 | street | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/coin | - | -
@@ -20,5 +20,5 @@ OBJETO HEROI: kit/coin - aparece em 3 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b6, b9
 Interacoes entre personagens: b0 entregar, b1 discutir, b2 entregar, b3 o outro se aproxima, b5 cochichar, b7 vai ate o outro
 
-Cenas com personagens parados: 1 de 11
+Cenas com personagens parados: 0 de 11
 FALTA MODELAR: nada

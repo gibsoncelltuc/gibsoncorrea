@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Acontece que, às nove e dois, os navios ingleses abriram fogo. O palác...
-- Cenario: palace | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): ING (variante 0, expressao stern); GUA (variante 0, expressao shock) | multidao: 20 de ING/GUA

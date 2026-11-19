@@ -27,7 +27,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): BUK (variante 0, expressao grin); POV (variante 0, expressao smile)
-- Animacao: conversar | interacao: insiste
+- Animacao: conversar | interacao: insiste | o ultimo personagem ENTRA andando
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gangues, trinta, violencia
 - RISCOS: nenhum

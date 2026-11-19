@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: A operação ganhou um nome que resume tudo: Resolução Absoluta.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: ganhou -> stars + som de sino
+- Efeito + som nas palavras-chave: ganhou -> stars + som de sino; encena: vence (up) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

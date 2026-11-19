@@ -5,14 +5,14 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | harbor | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/moon | - | -
-b1 | countryside | two | 2 | reagir, INTERAGEM: aproxima-se | - | - | -
+b1 | countryside | two | 2 | dancar, INTERAGEM: aproxima-se | - | - | -
 b2 | harbor | reveal | 8 | parados (so fala e pisca) | - | - | -
 b3 | countryside | two | 2 | conversar, INTERAGEM: avanca e o outro recua | boat | paper | -
-b4 | street | two | 2 | conversar, INTERAGEM: o outro se aproxima | gull | - | -
+b4 | harbor | two | 2 | conversar, INTERAGEM: o outro se aproxima | gull | - | -
 b5 | street | crowd | 23 | reagir, batalha | - | - | -
-b6 | harbor | two | 1 | reagir | kit/globe | - | -
-b7 | harbor | two | 2 | conversar, INTERAGEM: cochichar | kit/globe | paper | -
-b8 | interior madeira | two | 2 | conversar, INTERAGEM: insiste | - | - | -
+b6 | street | two | 1 | reagir | kit/globe | - | -
+b7 | street | two | 2 | conversar, INTERAGEM: cochichar | kit/globe | paper | -
+b8 | street | two | 2 | conversar, INTERAGEM: insiste | - | - | -
 b9 | street | orbit | 21 | comemorar, batalha | kit/moon | - | -
 b10 | harbor | close | 1 | conversar | kit/moon | - | -
 

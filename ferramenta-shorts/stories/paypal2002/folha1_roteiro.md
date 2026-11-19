@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Em julho de dois mil e dois, nos Estados Unidos, a empresa eBay anunciou a compra do PayPal.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@6
-- Efeito + som nas palavras-chave: encena: fala (point) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) -> acao + som de efeito; encena: negocio (reach) -> acao + som de efeito
 - Efeito visual marcado: stars@6
 - Texto na tela: - | mapa: ESTADOS UNIDOS
 - Funcao na historia: GANCHO
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Com o dinheiro da venda, ele pôde investir em novos projetos, como a SpaceX e a Tesla.
 - Som ambiente: sea
 - Efeitos sonoros marcados: ding@3
-- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino
+- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino; encena: negocio (reach) -> acao + som de efeito
 - Efeito visual marcado: stars@3
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Uma venda de internet que ajudou a pagar foguetes e carros elétricos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@3
-- Efeito + som nas palavras-chave: pagar -> stars + som de sino
+- Efeito + som nas palavras-chave: pagar -> stars + som de sino; encena: negocio (reach) -> acao + som de efeito
 - Efeito visual marcado: stars@3
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

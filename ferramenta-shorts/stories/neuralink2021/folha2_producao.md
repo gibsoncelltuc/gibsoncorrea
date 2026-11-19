@@ -87,7 +87,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): MUS (variante 0, expressao smug); CIM (variante 0, expressao grin)
-- Animacao: discutir | interacao: pedir
+- Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/miners
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): empresa, objetivo, pensamento, usar
 - RISCOS: nenhum
@@ -133,7 +133,7 @@ kit/miners | b8 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 ## Video inteiro
 - Objeto heroi: kit/monkey_pong | grandes momentos: b7, b10 | planos abertos: 3 | mistura: close 18% | medio 71% | aberto 11% | detalhe 0%
-- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b5 cochichar, b8 pedir, b9 entregar
+- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b5 cochichar, b8 discutir, b9 entregar
 - RISCOS GERAIS: 
   - objeto heroi (kit/monkey_pong) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
   - pouca variedade de cenario ({'interior loja': 8, 'street': 4}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)

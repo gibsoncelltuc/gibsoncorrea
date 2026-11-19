@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Um cientista tirou a primeira foto de dentro do corpo humano, e assustou a própria esposa.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: (rosto) scared -> expr + som de efeito
+- Efeito + som nas palavras-chave: (rosto) scared -> expr + som de efeito; encena: tira (lift) -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 1895
 - Funcao na historia: GANCHO
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Duas semanas depois, ele chamou a esposa, Anna, e fotografou a mão dela, com a aliança.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: tira (lift) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Em mil novecentos e um, Röntgen ganhou o primeiro Prêmio Nobel de Física da história.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: ganhou -> stars + som de sino; Prêmio -> stars + som de sino
+- Efeito + som nas palavras-chave: ganhou -> stars + som de sino; Prêmio -> stars + som de sino; encena: vence (up) -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: NOBEL
 - Funcao na historia: GRANDE MOMENTO
@@ -105,7 +105,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: E nunca quis patentear a descoberta. O raio X era de todo mundo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: examina (think) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

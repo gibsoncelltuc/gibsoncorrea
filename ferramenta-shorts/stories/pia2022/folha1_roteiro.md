@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Ele filmou a própria entrada e postou o vídeo na internet.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: tira (lift) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: ESTADOS UNIDOS
 - Funcao na historia: desenvolvimento
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: A legenda dizia: Entrando na sede do Twitter. Deixe isso afundar.
 - Som ambiente: sea
 - Efeitos sonoros marcados: thump@8
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: desaba -> acao + som de efeito
 - Efeito visual marcado: puff@8
 - Texto na tela: DEIXE ISSO AFUNDAR
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: É um trocadilho, porque em inglês a palavra sink quer dizer pia, e também afundar.
 - Som ambiente: sea
 - Efeitos sonoros marcados: ding@4
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: desaba -> acao + som de efeito
 - Efeito visual marcado: stars@4
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Naquela época, ele estava prestes a fechar a compra do Twitter, por quarenta e quatro bilhões de dólares.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: negocio (reach) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

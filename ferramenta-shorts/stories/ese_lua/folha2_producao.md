@@ -17,7 +17,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): POV (variante 0, expressao shock); POV (variante 1, expressao scared)
-- Animacao: reagir | interacao: aproxima-se
+- Animacao: dancar | interacao: aproxima-se
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): caverna, escuridao, primeira
 - RISCOS: nenhum
@@ -43,15 +43,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Bichos da praia que vivem do sobe e desce da água iam sofrer, e muitos...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): PRO (variante 0, expressao sad); POV (variante 0, expressao sad)
 - Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: gull
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): agua, escuro, praia, sobe
-- RISCOS: 
-  - a narracao cita agua e o cenario "street" nao tem agua -> CORRECAO: "set": "harbor" (cais com mar e navio) ou "set": "palace" (praia), ou "mapa" para so situar
+- RISCOS: nenhum
 
 ## Cena b5 - O mundo inteiro olharia para cima, sem acreditar.
 - Cenario: street | luz: noite | clima: limpo
@@ -64,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Acontece que o pior viria devagar. A Lua funciona como um peso que man...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): PRO (variante 0, expressao shock)
@@ -74,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Sem ela, em milhões de anos, o eixo do planeta iria balançar, e as est...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): PRO (variante 0, expressao stern, segura paper); POV (variante 0, expressao worried)
@@ -84,7 +83,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - E os dias parariam de ficar mais compridos, porque é a Lua que freia a...
-- Cenario: interior madeira | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): POV (variante 0, expressao surprised); POV (variante 1, expressao grin)
@@ -129,8 +128,7 @@ kit/globe | b6, b7 | pronto | conferir na folha de contato se le bem; se parecer
 - Interacoes: b0 vai ate o outro, b1 aproxima-se, b3 avanca e o outro recua, b4 o outro se aproxima, b7 cochichar, b8 insiste
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- b4: a narracao cita agua e o cenario "street" nao tem agua
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh ese_lua bN bM` (so essas cenas).

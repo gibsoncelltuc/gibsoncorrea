@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: O foguete decolou com um estrondo!
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@10, thump@30, sting@50
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: voa (point) -> acao + som de efeito
 - Efeito visual marcado: whoosh@10, puff@30, ring@50
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

@@ -11,7 +11,7 @@ b5 | close | -  | interior | - | -
 b6 | low | -  | interior | encena: pensa (think) (acao + som de efeito) | -
 b7 | two | -  | interior | (rosto) laugh (expr + som de efeito); riram (stars + som de sino); encena: pensa (think) (acao + som de efeito) | -
 b8 | two | -  | interior | segredo (ring + som de alerta) | -
-b9 | crowd | -  | batalha aberta com tiros, tropa | - | -
+b9 | crowd | -  | batalha aberta com tiros, tropa | encena: examina (think) (acao + som de efeito); encena: negocio (reach) (acao + som de efeito) | -
 b10 | orbit | -  | batalha aberta com tiros, tropa, placa: VELCRO | - | -
 b11 | close | -  | animais | - | -
 

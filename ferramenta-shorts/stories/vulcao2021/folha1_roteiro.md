@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 - Narracao: E ele ainda anunciou o plano de uma Cidade Bitcoin, construída aos pés de outro vulcão.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: fala (point) -> acao + som de efeito; encena: constroi (hammer) -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: CIDADE BITCOIN
 - Funcao na historia: GRANDE MOMENTO

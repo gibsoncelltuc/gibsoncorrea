@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Um químico inventou a cola mais fraca do mundo. E ela virou um dos produtos mais vendidos do planeta.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: encena: quimico (pour) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: quimico (pour) -> acao + som de efeito; encena: negocio (reach) -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 1968
 - Funcao na historia: GANCHO
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Os papeizinhos que marcavam as páginas do hinário viviam caindo no chão. E ele ficava perdido.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@30
-- Efeito + som nas palavras-chave: encena: tomba -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: desaba -> acao + som de efeito; encena: tomba -> acao + som de efeito
 - Efeito visual marcado: puff@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O primeiro teste de vendas foi um fracasso. Ninguém entendia para que servia um bloquinho que descolava.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: fracasso -> puff + som de baque
+- Efeito + som nas palavras-chave: fracasso -> puff + som de baque; encena: negocio (reach) -> acao + som de efeito
 - Efeito visual marcado: ring@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Então distribuíram amostras de graça numa cidade inteira. Quase todo mundo que testou quis comprar mais.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: negocio (reach) -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: POST-IT
 - Funcao na historia: GRANDE MOMENTO

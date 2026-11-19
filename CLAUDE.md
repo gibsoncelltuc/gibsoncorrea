@@ -1,6 +1,6 @@
 # Projeto: shorts animados (ferramenta-shorts/)
 Usuário: Gibson, fala português. Responda sempre em português, curto e honesto. NÃO use agentes/subagentes nem workflows (consomem a cota dele).
-**Antes de qualquer coisa leia `ferramenta-shorts/OPERACAO.md`** (os 7 passos da fábrica, o que todo vídeo tem, o que é proibido, o que fazer quando dá errado). Depois `CAPACIDADES.md`, `GUIA_DO_ROTEIRISTA.md` e `MODO_RICKS.md`.
+**Antes de qualquer coisa leia `ferramenta-shorts/OPERACAO.md` e `ferramenta-shorts/PROTOCOLO_ACAO.md`** (os 7 passos da fábrica, o que todo vídeo tem, o que é proibido, o que fazer quando dá errado). Depois `CAPACIDADES.md`, `GUIA_DO_ROTEIRISTA.md` e `MODO_RICKS.md`.
 Resumo das ordens do Gibson (valem para toda sessão):
 - DUAS FOLHAS por vídeo: `./novo_video.sh <id>` gera `stories/<id>/folha1_roteiro.md` (história, narração, som) e `folha2_producao.md` (cenário, câmera, takes, personagens, animação, objetos, RISCOS com a correção). Só renderiza com 0 risco. Ao escrever o roteiro pense nos contras: cada frase precisa de algo que a ferramenta mostra (ex.: chegada de barco/tropa = plano aberto no `harbor`).
 - BIBLIOTECA 3D PRIMEIRO: animais (todos) e 80+ objetos JÁ ESTÃO PRONTOS e entram sozinhos quando a narração cita (veja `CAPACIDADES.md`). NUNCA modele animal; só modele objeto que a folha 2 marcar como FALTA. Pré-checagem antes do render (OPERACAO.md, "Lições de 18/11").

@@ -12,7 +12,7 @@ b6 | two | -  | interior | - | -
 b7 | group | -  | tropa | encena: sai (acao + som de efeito) | -
 b8 | crowd | -  | batalha aberta com tiros, tropa, placa: VULCÃO | (rosto) laugh (expr + som de efeito) | -
 b9 | two | -  | objeto na mao | - | -
-b10 | orbit | -  | batalha aberta com tiros, tropa, placa: CIDADE BITCOIN | - | -
+b10 | orbit | -  | batalha aberta com tiros, tropa, placa: CIDADE BITCOIN | encena: fala (point) (acao + som de efeito); encena: constroi (hammer) (acao + som de efeito) | -
 b11 | close | -  | - | Dinheiro (stars + som de sino) | -
 
 Mistura de planos: close 9% | medio 75% | aberto 10% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)

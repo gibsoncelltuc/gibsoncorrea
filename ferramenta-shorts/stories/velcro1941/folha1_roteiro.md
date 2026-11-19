@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: No começo, muita gente achou o velcro feio, e as vendas foram fracas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: examina (think) -> acao + som de efeito; encena: negocio (reach) -> acao + som de efeito
 - Efeito visual marcado: puff@30
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

@@ -7,9 +7,9 @@ b1 | reveal | -  | tropa, mapa | (rosto) nervous (expr + som de efeito) | -
 b2 | track | -  | animais | fugiu (dust + som de impacto) | -
 b3 | track | -  | animais | correu (dust + som de impacto) | -
 b4 | group | -  | batalha aberta com tiros, tropa | atirou (burst + som de tiro/explosao); encena: olha (point) (acao + som de efeito) | -
-b5 | close | -  | - | (rosto) sad (expr + som de efeito); morreu (puff + som de baque) | -
+b5 | low | -  | - | (rosto) sad (expr + som de efeito); morreu (puff + som de baque) | -
 b6 | orbit | -  | batalha aberta com tiros, tropa, placa: INVASÃO | (rosto) sad (expr + som de efeito); invadiu (dust + som de impacto); morreram (puff + som de baque) | -
-b7 | two | -  | interior, objeto na mao | pedido: plano medio dos dois, um pede ao outro (shot + som de efeito); (rosto) pleading (expr + som de efeito) | -
+b7 | two | -  | interior, objeto na mao | (rosto) pleading (expr + som de efeito) | -
 b8 | two | -  | interior, objeto na mao | pagar (stars + som de sino); encena: fala (point) (acao + som de efeito) | -
 b9 | close | -  | animais | - | -
 

@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Elon Musk mandou construir uma torre com braços gigantes, para pegar um foguete no ar. E deu certo.
 - Som ambiente: sea
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: encena: fala (point) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) -> acao + som de efeito; encena: constroi (hammer) -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 2024
 - Funcao na historia: GANCHO
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: A ideia de Musk: tirar as pernas do foguete, e fazer a própria torre de lançamento agarrar o propulsor na volta.
 - Som ambiente: birds
 - Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: encena: pensa (think) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: pensa (think) -> acao + som de efeito; encena: tira (lift) -> acao + som de efeito
 - Efeito visual marcado: ring@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: No dia do teste, o propulsor gigante decolou com trinta e três motores acesos, e sumiu no céu.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@20, thump@40
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: voa (point) -> acao + som de efeito
 - Efeito visual marcado: whoosh@20, puff@40
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

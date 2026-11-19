@@ -2,12 +2,12 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | placa: 3 GUERRAS | - | -
+b0 | two | -  | placa: 3 GUERRAS, mapa | - | -
 b1 | two | -  | placa: BACALHAU | - | -
 b2 | wide | -  | tropa, placa: 200 MILHAS | - | -
-b3 | crowd | -  | batalha aberta com tiros, tropa | - | -
-b4 | close | -  | placa: CORTADORES DE REDE | - | -
-b5 | orbit | -  | batalha aberta com tiros, tropa | - | -
+b3 | crowd | -  | batalha aberta com tiros, tropa | encena: fala (point) (acao + som de efeito) | -
+b4 | close | -  | interior, placa: CORTADORES DE REDE | - | -
+b5 | orbit | -  | batalha aberta com tiros, tropa | encena: corta (hammer) (acao + som de efeito) | -
 b6 | two | -  | placa: OTAN | - | -
 b7 | two | -  | placa: VITÓRIA ISLANDESA | encena: pensa (think) (acao + som de efeito) | -
 b8 | close | -  | placa: TUDO POR UM PEIXE | - | -

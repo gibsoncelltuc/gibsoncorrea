@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: E o vidro rachou, ao vivo, na frente de todo mundo.
 - Som ambiente: sea
 - Efeitos sonoros marcados: thump@3
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: quebra (throw) -> acao + som de efeito
 - Efeito visual marcado: burst@3
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b5  (~6.6 s)
 - Narracao: Depois, Musk explicou na internet que, nos ensaios, a mesma esfera tinha batido na mesma janela sem nem arranhar.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: fala (point) -> acao + som de efeito
 - Efeito visual marcado: -
@@ -58,7 +58,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b6  (~5.5 s)
 - Narracao: A plateia riu, a internet também, e a cena deu o que falar no mundo inteiro.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; riu -> stars + som de sino
 - Efeito visual marcado: ring@12, dust@40

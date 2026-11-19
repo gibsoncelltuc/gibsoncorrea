@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Um dia, um fazendeiro americano encontrou um porco comendo as batatas da horta dele.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: examina (think) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: "Dez? Ele vale cem!", gritou o dono, empurrando o dinheiro de volta. Ninguém cedeu.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou -> ring + som de alerta; dinheiro -> stars + som de sino
+- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou -> ring + som de alerta; dinheiro -> stars + som de sino; encena: grita (up) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: $100
 - Funcao na historia: desenvolvimento

@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O que sobraria? Construções de pedra, como as pirâmides, que já resistem há mais de quatro mil anos.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: constroi (hammer) -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Em pouco tempo, a natureza tomaria de volta quase tudo o que construímos.
 - Som ambiente: sea
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: constroi (hammer) -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: NATUREZA
 - Funcao na historia: GRANDE MOMENTO

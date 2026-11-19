@@ -8,7 +8,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 9
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: absurdo -> ring + som de alerta
 - Efeito visual marcado: -
-- Texto na tela: 1795
+- Texto na tela: 1795 | mapa: FRANÇA
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~5.5 s)
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 9
 - Narracao: Os navios ficaram presos no gelo, como carros num congestionamento.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: prende (push) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 9
 - Narracao: Os marinheiros holandeses viram a cavalaria chegar, e a frota se rendeu.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: olha (point) -> acao + som de efeito; encena: rende (up) -> acao + som de efeito
 - Efeito visual marcado: ring@12, dust@40
 - Texto na tela: RENDIDOS
 - Funcao na historia: GRANDE MOMENTO

@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b2  (~6.2 s)
 - Narracao: O novo Roadster da Tesla tinha sido prometido em dois mil e dezessete. Foram nove anos de atraso.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b3  (~5.5 s)
 - Narracao: O segredo eram dez pequenos propulsores da SpaceX, movidos a ar comprimido, escondidos dentro do carro.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
 - Efeito + som nas palavras-chave: segredo -> ring + som de alerta
 - Efeito visual marcado: stars@40
@@ -58,7 +58,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b6  (~4.8 s)
 - Narracao: Musk disse que nunca tinha visto nada parecido, nem em filme de James Bond.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@40
@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b9  (~5.5 s)
 - Narracao: O vídeo foi visto milhões de vezes. Metade do mundo ficou impressionada, a outra metade desconfiada.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: ding@20, ding@60
 - Efeito + som nas palavras-chave: (rosto) distrust -> expr + som de efeito
 - Efeito visual marcado: stars@20, stars@60

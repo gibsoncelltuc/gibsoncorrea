@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O México riu da cobrança, e não pagou um centavo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; riu -> stars + som de sino; pagou -> stars + som de sino
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; riu -> stars + som de sino; pagou -> stars + som de sino; encena: negocio (reach) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que a França mandou mesmo. Navios de guerra fecharam todos os portos do país.
 - Som ambiente: sea | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: fala (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: A MARINHA
 - Funcao na historia: GRANDE MOMENTO
@@ -76,18 +76,18 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b8  (~5.5 s)
 - Narracao: Um general mexicano correu para o combate, e perdeu uma perna para um tiro de canhão.
-- Som ambiente: birds
-- Efeitos sonoros marcados: cannon@30
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; correu -> dust + som de impacto; perdeu -> puff + som de baque; tiro -> burst + som de tiro/explosao
+- Som ambiente: birds | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: cannon@30, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; correu -> dust + som de impacto; perdeu -> puff + som de baque; tiro -> burst + som de tiro/explosao; encena: perde (facepalm) -> acao + som de efeito
 - Efeito visual marcado: burst@30
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b9  (~4.8 s)
 - Narracao: Meses depois, o México pagou os seiscentos mil pesos, e a França foi embora.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: pagou -> stars + som de sino; encena: sai -> acao + som de efeito
+- Efeito + som nas palavras-chave: pagou -> stars + som de sino; encena: negocio (reach) -> acao + som de efeito; encena: sai -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 600.000
 - Funcao na historia: desenvolvimento

@@ -5,13 +5,13 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | harbor | two | 2 | conversar, INTERAGEM: o outro se aproxima | ship | - | peixe
-b1 | street | two | 2 | reagir, INTERAGEM: insiste | crate, kit/cod | - | -
+b1 | harbor | two | 2 | reagir, INTERAGEM: insiste | crate, kit/cod | - | -
 b2 | street | wide | 7 | parados (so fala e pisca) | ship | - | -
-b3 | harbor | crowd | 15 | batalha | ship, navios ao fundo | - | -
-b4 | street | close | 1 | conversar | - | - | -
-b5 | street | orbit | 7 | batalha | ship | - | -
-b6 | countryside | two | 2 | discutir, INTERAGEM: discutir | - | - | -
-b7 | countryside | two | 2 | conversar, INTERAGEM: vai ate o outro | - | - | -
+b3 | harbor | crowd | 15 | encena, batalha | ship, navios ao fundo | - | -
+b4 | interior madeira | close | 1 | conversar | - | - | -
+b5 | harbor | orbit | 7 | encena, batalha | ship, navios ao fundo | - | -
+b6 | street | two | 2 | discutir, INTERAGEM: discutir | - | - | -
+b7 | street | two | 2 | conversar, INTERAGEM: vai ate o outro | - | - | -
 b8 | harbor | close | 1 | conversar | crate | - | peixe
 
 OBJETO HEROI: kit/cod - aparece em 1 cena(s), close nele em 2

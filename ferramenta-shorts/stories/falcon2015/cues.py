@@ -47,4 +47,6 @@ laughs(F(_A[10] + int((_A[11] - _A[10]) * 0.2))); laughs(F(_A[10] + int((_A[11] 
 sting(F(int(_W(49))))
 cannon(F(int(_W(60))))
 cannon(F(int(_W(60))))
+sting(F(int(_W(76))))
+sting(F(int(_W(132))))
 sting(F(int(_W(132))))

@@ -1,5 +1,5 @@
 // E Se EP 04 - E Se a Internet Acabasse por Um Dia? -- GERADO por mkvideo.py a partir de videos/ese_internet/beats.json (edite o beats.json, nao este arquivo)
-globalThis.REGMAP = {}; globalThis.REGCHAO = "#6a6a70"; globalThis.ASFALTO = true;
+globalThis.REGMAP = {}; globalThis.REGCHAO = "#6a6a70"; globalThis.ASFALTO = true; globalThis.PRAIA = false;
 const X = 12000, DK = 6; const X_countryside = 1000; const X_hall = 8000; const X_harbor = 5000;
 const WS = (i, off = 0) => TIMING.words[Math.min(i, TIMING.words.length - 1)][0] + off;   // frame em que a palavra de indice i comeca
 const A = [0, WS(16, -3), WS(23, -3), WS(42, -3), WS(60, -3), WS(75, -3), WS(90, -3), WS(109, -3), WS(119, -3), WS(129, -3), WS(142, -3), TOTAL_F()];

@@ -34,10 +34,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Em dois mil e vinte e dois, o presidente Nayib Bukele decretou estado ...
 - Cenario: interior loja | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (1): BUK (variante 0, expressao stern)
-- Animacao: conversar
+- Personagens principais (2): BUK (variante 0, expressao stern); GUA (variante 0, expressao stern)
+- Animacao: conversar | interacao: entregar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): excecao, presidente, suspeitos
 - RISCOS: nenhum
@@ -47,7 +47,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): GUA (variante 0, expressao stern); GUA (variante 1, expressao stern); GUA (variante 2, expressao angry) | multidao: 16 de GUA
-- Animacao: - | batalha encenada
+- Animacao: encena | batalha encenada
 - Objetos/modelos: kit/prison, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): centro, confinamento, terrorismo, vagas
 - RISCOS: nenhum
@@ -123,8 +123,8 @@ buildings/castle_tower | b5 | pronto | conferir na folha de contato se le bem; s
 
 
 ## Video inteiro
-- Objeto heroi: kit/prison | grandes momentos: b4, b9 | planos abertos: 3 | mistura: close 33% | medio 55% | aberto 13% | detalhe 0%
-- Interacoes: b0 aproxima-se, b2 discutir, b6 avanca e o outro recua, b7 vai ate o outro, b8 cochichar
+- Objeto heroi: kit/prison | grandes momentos: b4, b9 | planos abertos: 3 | mistura: close 20% | medio 67% | aberto 13% | detalhe 0%
+- Interacoes: b0 aproxima-se, b2 discutir, b3 entregar, b6 avanca e o outro recua, b7 vai ate o outro, b8 cochichar
 - RISCOS GERAIS: 
   - objeto heroi (kit/prison) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
 

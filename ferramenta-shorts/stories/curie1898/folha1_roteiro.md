@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Mexendo em toneladas de minério, eles descobriram dois elementos novos: o polônio e o rádio.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: descobriram -> ring + som de alerta; encena: mistura (stir) -> acao + som de efeito
+- Efeito + som nas palavras-chave: descobriram -> ring + som de alerta; encena: mistura (stir) -> acao + som de efeito; encena: examina (think) -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Marie ganhou dois prêmios Nobel, em física e em química. Foi a primeira pessoa da história a conseguir isso.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: ganhou -> stars + som de sino
+- Efeito + som nas palavras-chave: ganhou -> stars + som de sino; encena: vence (up) -> acao + som de efeito; encena: quimico (pour) -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: NOBEL
 - Funcao na historia: GRANDE MOMENTO
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Quem quer ler precisa assinar um termo de responsabilidade e usar roupa de proteção.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@20
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: escreve (write) -> acao + som de efeito
 - Efeito visual marcado: ring@20
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

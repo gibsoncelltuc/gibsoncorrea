@@ -132,10 +132,12 @@ crate | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote
 ## Video inteiro
 - Objeto heroi: kit/campfire | grandes momentos: b6, b7 | planos abertos: 2 | mistura: close 8% | medio 71% | aberto 15% | detalhe 6%
 - Interacoes: b3 aproxima-se, b4 brindar, b5 empurrar, b8 susto, b9 avanca e o outro recua
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - 1 palavra(s) de acao sem efeito + som -> CORRECAO: ver plano.md e por "fx"/"sfx" na cena
 
-## RESUMO: 1 risco(s) em aberto
+## RESUMO: 2 risco(s) em aberto
 - b0: a narracao fala de BATALHA/ATAQUE e a cena nao encena a luta
+- geral: 1 palavra(s) de acao sem efeito + som
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh karansebes bN bM` (so essas cenas).

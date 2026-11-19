@@ -7,7 +7,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | street | two | 2 | conversar, INTERAGEM: susto | kit/tv, kit/marco_trumptower | - | -
 b1 | street | reveal | 8 | parados (so fala e pisca) | kit/marco_trumptower | - | -
 b2 | interior loja | two | 2 | conversar, INTERAGEM: aproxima-se | - | - | -
-b3 | street | crowd | 14 | batalha | kit/stall, kit/marco_trumptower | - | -
+b3 | street | crowd | 14 | conversar, batalha | kit/stall, kit/marco_trumptower | - | -
 b4 | interior loja | two | 2 | discutir, INTERAGEM: discutir | - | - | -
 b5 | interior loja | close | 1 | conversar | - | - | -
 b6 | countryside | crowd | 33 | comemorar, batalha | kit/tv, kit/marco_trumptower, nature/picket_fence | - | -

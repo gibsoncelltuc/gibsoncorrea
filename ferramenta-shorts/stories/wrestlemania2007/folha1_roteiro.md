@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Narracao: A aposta era maluca: cada um escolheu um lutador, e o dono de quem perdesse teria a cabeça raspada.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: encena: raspa (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: perde (facepalm) -> acao + som de efeito; encena: raspa (reach) -> acao + som de efeito
 - Efeito visual marcado: ring@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Narracao: No fim, o lutador de Trump venceu. O estádio inteiro foi abaixo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; venceu -> stars + som de sino
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; venceu -> stars + som de sino; encena: vence (up) -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: VITÓRIA
 - Funcao na historia: GRANDE MOMENTO

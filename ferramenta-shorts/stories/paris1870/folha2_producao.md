@@ -119,16 +119,14 @@ camelo (citado na narracao) | b5 | FALTA | pesquisar referencia (referencias/LEI
 - Objeto heroi: - | grandes momentos: b3, b5 | planos abertos: 4 | mistura: close 39% | medio 36% | aberto 22% | detalhe 3%
 - Interacoes: b0 susto, b2 avanca e o outro recua
 - RISCOS GERAIS: 
-  - nenhum mapa no video (o canal situa o lugar com mapa rapido) -> CORRECAO: "mapa": "NOME DO LUGAR" na cena 1 ou 2
   - video sem objeto heroi -> CORRECAO: "heroi": "kit/<objeto>" no topo do roteiro (modele se nao existir)
   - 1 palavra(s) de acao sem efeito + som -> CORRECAO: ver plano.md e por "fx"/"sfx" na cena
 
-## RESUMO: 7 risco(s) em aberto
+## RESUMO: 6 risco(s) em aberto
 - b2: animal sem modelo: ratos
 - b5: animal sem modelo: camelo
 - b5: multidao/batalha dentro de sala: nao cabe
 - b6: animal sem modelo: ratos
-- geral: nenhum mapa no video (o canal situa o lugar com mapa rapido)
 - geral: video sem objeto heroi
 - geral: 1 palavra(s) de acao sem efeito + som
 

@@ -24,10 +24,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - O imperador da Áustria ficou furioso. Ele queria o rio aberto para os ...
 - Cenario: interior pedra | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (1): IMP (variante 0, expressao angry)
-- Animacao: discutir
+- Personagens principais (2): IMP (variante 0, expressao angry); GEN (variante 0, expressao nervous)
+- Animacao: discutir | interacao: discutir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): austria, imperador, navios
 - RISCOS: nenhum
@@ -53,12 +53,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Acontece que um navio holandês estava esperando. Ele mirou, e deu um ú...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): HOL (variante 0, expressao stern); HOL (variante 1, expressao angry) | multidao: 16 de HOL
 - Animacao: - | batalha encenada
-- Objetos/modelos: cannon
+- Objetos/modelos: cannon, navios ao fundo
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canhao, navio
 - RISCOS: nenhum
 
@@ -113,8 +113,8 @@ cannon | b5 | pronto | conferir na folha de contato se le bem; se parecer caixot
 
 
 ## Video inteiro
-- Objeto heroi: kit/kettle | grandes momentos: b5, b7 | planos abertos: 3 | mistura: close 18% | medio 59% | aberto 16% | detalhe 8%
-- Interacoes: b0 o outro se aproxima, b3 reverencia, b4 insiste, b6 vai ate o outro, b8 entregar
+- Objeto heroi: kit/kettle | grandes momentos: b5, b7 | planos abertos: 3 | mistura: close 8% | medio 69% | aberto 16% | detalhe 8%
+- Interacoes: b0 o outro se aproxima, b2 discutir, b3 reverencia, b4 insiste, b6 vai ate o outro, b8 entregar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

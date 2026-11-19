@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: As abelhas conversam dançando. E foi um cientista teimoso que descobriu o que elas dizem.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: dançando -> stars + som de sino; descobriu -> ring + som de alerta
+- Efeito + som nas palavras-chave: dançando -> stars + som de sino; descobriu -> ring + som de alerta; encena: examina (think) -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: DANÇA
 - Funcao na historia: GANCHO
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Em mil novecentos e setenta e três, já idoso, ele ganhou o Prêmio Nobel.
 - Som ambiente: sea
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: ganhou -> stars + som de sino; Prêmio -> stars + som de sino
+- Efeito + som nas palavras-chave: ganhou -> stars + som de sino; Prêmio -> stars + som de sino; encena: vence (up) -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: NOBEL
 - Funcao na historia: GRANDE MOMENTO

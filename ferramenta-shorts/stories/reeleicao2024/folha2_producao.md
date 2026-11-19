@@ -7,7 +7,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): TRU (variante 0, expressao smug); REP (variante 0, expressao surprised, segura paper)
-- Animacao: encena | interacao: o outro se aproxima
+- Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/ballot_box, kit/white_house
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): casa, dois, eleicao
 - RISCOS: nenhum

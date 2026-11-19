@@ -4,7 +4,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | interior pedra | two | 2 | encena, INTERAGEM: o outro se aproxima | kit/ballot_box, kit/white_house | paper | -
+b0 | interior pedra | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/ballot_box, kit/white_house | paper | -
 b1 | street | reveal | 8 | parados (so fala e pisca) | kit/white_house, kit/marco_casabranca | - | -
 b2 | street | two | 2 | conversar, INTERAGEM: insiste | kit/ballot_box, kit/marco_casabranca | - | -
 b3 | interior loja | two | 2 | discutir, INTERAGEM: discutir, alguem chega andando | - | paper | -

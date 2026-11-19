@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: Os gauleses tinham invadido a cidade, e queimado quase tudo. Quem não fugiu, morreu.
 - Som ambiente: birds
 - Efeitos sonoros marcados: thump@20, thump@55, whoosh@18
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; fugiu -> dust + som de impacto; morreu -> puff + som de baque
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; fugiu -> dust + som de impacto; morreu -> puff + som de baque; encena: queima -> acao + som de efeito
 - Efeito visual marcado: dust@20, burst@55, puff@20, puff@60
 - Texto na tela: - | mapa: ROMA
 - Funcao na historia: GRANDE MOMENTO
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: Acontece que os gansos acordaram, e começaram a gritar e a bater as asas.
 - Som ambiente: birds
 - Efeitos sonoros marcados: squeal@20, squeal@55, squeal@90
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: grita (up) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: QUÁ! QUÁ!
 - Funcao na historia: VIRADA
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: O alarme acordou todo mundo, os romanos correram para a muralha, e o ataque fracassou.
 - Som ambiente: birds
 - Efeitos sonoros marcados: thump@30, sting@10, thump@70
-- Efeito + som nas palavras-chave: alarme -> ring + som de alerta; correram -> dust + som de impacto; ataque -> ring + som de alerta
+- Efeito + som nas palavras-chave: alarme -> ring + som de alerta; correram -> dust + som de impacto; ataque -> ring + som de alerta; encena: perde (facepalm) -> acao + som de efeito
 - Efeito visual marcado: burst@30, dust@70
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: E os guardas, que dormiram a noite inteira, ganharam um castigo.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: ganharam -> stars + som de sino
+- Efeito + som nas palavras-chave: ganharam -> stars + som de sino; encena: vence (up) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

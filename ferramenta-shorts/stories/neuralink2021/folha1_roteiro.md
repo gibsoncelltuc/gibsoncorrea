@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O objetivo, segundo a empresa, é ajudar pessoas paralisadas a usar computadores e celulares com o pensamento.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: pedido: plano medio dos dois, um pede ao outro -> shot + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Ele não mexia o corpo do pescoço para baixo. E voltou a jogar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: mistura (stir) -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: XADREZ
 - Funcao na historia: GRANDE MOMENTO

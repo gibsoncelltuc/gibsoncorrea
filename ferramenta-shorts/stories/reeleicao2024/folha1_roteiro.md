@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Donald Trump perdeu a eleição de dois mil e vinte. Quatro anos depois, voltou para a Casa Branca.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; perdeu -> puff + som de baque; encena: voto (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; perdeu -> puff + som de baque; encena: perde (facepalm) -> acao + som de efeito; encena: voto (reach) -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 2024
 - Funcao na historia: GANCHO
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que Trump venceu em todos os estados decisivos, e somou trezentos e doze votos no colégio eleitoral.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@20, ding@50
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; venceu -> stars + som de sino
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; venceu -> stars + som de sino; encena: vence (up) -> acao + som de efeito
 - Efeito visual marcado: ring@20, stars@50
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Os apoiadores comemoraram a noite inteira. Trump subiu ao palco e declarou vitória.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; comemoraram -> stars + som de sino; vitória -> stars + som de sino
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; comemoraram -> stars + som de sino; vitória -> stars + som de sino; encena: escala (lift) -> acao + som de efeito; encena: fala (point) -> acao + som de efeito; encena: vence (up) -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: 312 VOTOS
 - Funcao na historia: GRANDE MOMENTO
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Perdeu, voltou e ganhou. Uma das maiores viradas da política americana.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: Perdeu -> puff + som de baque; ganhou -> stars + som de sino
+- Efeito + som nas palavras-chave: Perdeu -> puff + som de baque; ganhou -> stars + som de sino; encena: perde (facepalm) -> acao + som de efeito; encena: vence (up) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

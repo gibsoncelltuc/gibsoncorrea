@@ -54,10 +54,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Acontece que o soldado morreu, e a Grécia deu um ultimato furioso à Bu...
 - Cenario: mountain | luz: golden | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: low = camera baixa, dramatica (virada)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (1): GRE (variante 0, expressao sad)
-- Animacao: conversar
+- Personagens principais (2): GRE (variante 0, expressao sad); GRE (variante 1, expressao angry)
+- Animacao: conversar | interacao: susto
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bulgaria, grecia, soldado, ultimato
 - RISCOS: nenhum
@@ -113,7 +113,7 @@ dog | b0, b2, b3, b9 | pronto | conferir na folha de contato se le bem; se parec
 
 ## Video inteiro
 - Objeto heroi: kit/dog_sit | grandes momentos: b4, b6 | planos abertos: 2 | mistura: close 19% | medio 67% | aberto 14% | detalhe 0%
-- Interacoes: b4 empurrar, b7 susto, b8 entregar
+- Interacoes: b4 empurrar, b5 susto, b7 susto, b8 entregar
 - RISCOS GERAIS: 
   - objeto heroi (kit/dog_sit) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
   - pouca variedade de cenario ({'mountain': 8, 'interior madeira': 1, 'interior pedra': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)

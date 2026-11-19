@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: A Bulgária pediu ajuda à Liga das Nações, a antecessora da ONU.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: pedido: plano medio dos dois, um pede ao outro -> shot + som de efeito; (rosto) pleading -> expr + som de efeito
+- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

@@ -33,14 +33,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Sem ela, as marés perderiam mais da metade da força. Só o Sol continuaria puxando.
 - Som ambiente: birds
 - Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: perde (facepalm) -> acao + som de efeito
 - Efeito visual marcado: ring@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b4  (~7.2 s)
 - Narracao: Bichos da praia que vivem do sobe e desce da água iam sofrer, e muitos animais iam se perder no escuro.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: sting@30
 - Efeito + som nas palavras-chave: perder -> dust + som de impacto
 - Efeito visual marcado: ring@30
@@ -58,7 +58,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b6  (~6.2 s)
 - Narracao: Acontece que o pior viria devagar. A Lua funciona como um peso que mantém a Terra girando firme.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@20, ding@50
 - Efeito + som nas palavras-chave: encena: vira (up) -> acao + som de efeito
 - Efeito visual marcado: ring@20, stars@50
@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b7  (~6.2 s)
 - Narracao: Sem ela, em milhões de anos, o eixo do planeta iria balançar, e as estações podiam ficar extremas.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Boa notícia: ela não vai embora. Só se afasta uns quatro centímetros por ano.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: sai -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: OBRIGADO, LUA
 - Funcao na historia: GRANDE MOMENTO

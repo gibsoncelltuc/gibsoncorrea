@@ -8,9 +8,9 @@ b2 | two | -  | objeto na mao | - | -
 b3 | crowd | -  | batalha aberta com tiros, tropa, placa: 3, 2, 1... | - | -
 b4 | close | -  | - | - | -
 b5 | two | -  | - | encena: examina (think) (acao + som de efeito) | -
-b6 | orbit | -  | batalha aberta com tiros, tropa, placa: BUM! | - | -
+b6 | orbit | -  | batalha aberta com tiros, tropa, placa: BUM! | encena: tomba (acao + som de efeito) | -
 b7 | group | -  | tropa | - | -
-b8 | two | -  | interior, objeto na mao | caos: (puff + som de baque) | -
+b8 | two | -  | objeto na mao | caos: (puff + som de baque) | -
 b9 | two | -  | - | - | -
 b10 | close | -  | - | - | -
 

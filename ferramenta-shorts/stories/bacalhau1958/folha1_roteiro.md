@@ -8,12 +8,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: 3 GUERRAS
+- Texto na tela: 3 GUERRAS | mapa: INGLATERRA
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~6.2 s)
 - Narracao: A Islândia é pequena, e vivia da pesca. Mas barcos ingleses pescavam bacalhau bem pertinho da costa dela.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: A Inglaterra mandou a marinha para proteger os barcos de pesca.
 - Som ambiente: sea | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: fala (point) -> acao + som de efeito
 - Efeito visual marcado: ring@12, dust@40
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -49,16 +49,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b5  (~5.5 s)
 - Narracao: Eles cortavam os cabos das redes inglesas, e os navios batiam um no outro, de propósito.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Som ambiente: sea | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: thump@60, creak@62
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: corta (hammer) -> acao + som de efeito
 - Efeito visual marcado: splash@50, burst@60
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b6  (~3.8 s)
 - Narracao: A Islândia ainda ameaçou fechar a base da Otan no país.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b7  (~7.9 s)
 - Narracao: Em mil novecentos e setenta e seis, os ingleses cederam, e a ideia de uma zona de duzentas milhas se espalhou pelo mundo.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: pensa (think) -> acao + som de efeito
 - Efeito visual marcado: -

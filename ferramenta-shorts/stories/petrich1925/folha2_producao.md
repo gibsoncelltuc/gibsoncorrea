@@ -105,12 +105,10 @@ dog | b1, b2, b8 | pronto | conferir na folha de contato se le bem; se parecer c
 - Objeto heroi: - | grandes momentos: b3, b7 | planos abertos: 2 | mistura: close 22% | medio 72% | aberto 6% | detalhe 0%
 - Interacoes: b0 aproxima-se, b6 susto
 - RISCOS GERAIS: 
-  - nenhum mapa no video (o canal situa o lugar com mapa rapido) -> CORRECAO: "mapa": "NOME DO LUGAR" na cena 1 ou 2
   - video sem objeto heroi -> CORRECAO: "heroi": "kit/<objeto>" no topo do roteiro (modele se nao existir)
 
-## RESUMO: 3 risco(s) em aberto
+## RESUMO: 2 risco(s) em aberto
 - b5: a narracao fala de BATALHA/ATAQUE e a cena nao encena a luta
-- geral: nenhum mapa no video (o canal situa o lugar com mapa rapido)
 - geral: video sem objeto heroi
 
 ## Reparos depois do render

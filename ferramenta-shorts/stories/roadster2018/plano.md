@@ -6,7 +6,7 @@ b0 | two | -  | - | - | -
 b1 | close | -  | - | encena: pensa (think) (acao + som de efeito) | -
 b2 | reveal | -  | tropa, mapa | - | -
 b3 | two | -  | - | (rosto) determined (expr + som de efeito) | -
-b4 | crowd | -  | batalha aberta com tiros, tropa | - | -
+b4 | crowd | -  | batalha aberta com tiros, tropa | encena: voa (point) (acao + som de efeito) | -
 b5 | two | -  | interior | encena: senta (acao + som de efeito) | -
 b6 | orbit | -  | batalha aberta com tiros, tropa, placa: NÃO ENTRE EM PÂNICO | (rosto) scared (expr + som de efeito); pânico (dust + som de impacto) | -
 b7 | group | noite  | - | encena: sai (acao + som de efeito) | -

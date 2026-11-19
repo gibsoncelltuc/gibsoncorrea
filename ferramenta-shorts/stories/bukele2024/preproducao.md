@@ -6,7 +6,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | interior hospital | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/ballot_box | paper | -
 b1 | jungle | reveal | 8 | parados (so fala e pisca) | kit/volcano | - | -
-b2 | interior loja | two | 2 | conversar, INTERAGEM: insiste | - | - | -
+b2 | interior loja | two | 2 | conversar, INTERAGEM: insiste, alguem chega andando | - | - | -
 b3 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | kit/scroll | paper | -
 b4 | jungle | crowd | 14 | reagir, batalha | kit/volcano | paper | -
 b5 | jungle | two | 2 | conversar, INTERAGEM: entregar | kit/ballot_box, kit/volcano | - | -

@@ -30,3 +30,4 @@ gibber(F(_A[8] + int((_A[9] - _A[8]) * 0.2)), 4, 260, 0.12); gibber(F(_A[8] + in
 sting(F(int(_W(16))))
 sting(F(int(_W(61))))
 ding(F(int(_W(59))))
+sting(F(int(_W(100))))

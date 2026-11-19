@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: Todo mundo já quis cavar um buraco até a China. E se desse para atravessar a Terra inteira?
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: cava (hammer) -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: E SE...
 - Funcao na historia: GANCHO
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: Mas vamos cavar. Depois da terra, vem rocha dura, cada vez mais quente.
 - Som ambiente: birds
 - Efeitos sonoros marcados: thump@40
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: cava (hammer) -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: Então guarda a pá. Para ir ao Japão, ainda vale mais comprar uma passagem.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: negocio (reach) -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

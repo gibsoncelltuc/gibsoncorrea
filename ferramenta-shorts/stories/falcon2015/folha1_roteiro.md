@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Mas a equipe insistiu. Em vinte e um de dezembro, o Falcon nove decolou levando satélites.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: voa (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Os funcionários da SpaceX gritaram como em final de Copa do Mundo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritaram -> ring + som de alerta
+- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritaram -> ring + som de alerta; encena: grita (up) -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: POUSOU!
 - Funcao na historia: GRANDE MOMENTO
