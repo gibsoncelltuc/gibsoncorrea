@@ -46,35 +46,7 @@
    "f": 448,
    "shot": "b2_v",
    "why": [
-    "empty take: no character in the take"
-   ]
-  },
-  {
-   "f": 1104,
-   "shot": "b6~1",
-   "why": [
-    "rep: head/torso cropped (box -0.137, 0.393, 0.29, 0.913)"
-   ]
-  },
-  {
-   "f": 1108,
-   "shot": "b6~1",
-   "why": [
-    "rep: head/torso cropped (box -0.107, 0.406, 0.29, 0.895)"
-   ]
-  },
-  {
-   "f": 1112,
-   "shot": "b6~1",
-   "why": [
-    "rep: head/torso cropped (box -0.059, 0.429, 0.297, 0.878)"
-   ]
-  },
-  {
-   "f": 1116,
-   "shot": "b6~1",
-   "why": [
-    "rep: head/torso cropped (box -0.025, 0.43, 0.323, 0.869)"
+    "pov: head/torso cropped (box -0.079, 0.35, 0.443, 0.926)"
    ]
   }
  ],

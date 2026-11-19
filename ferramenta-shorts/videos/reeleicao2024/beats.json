@@ -79,7 +79,8 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Donald Trump perdeu a eleição de dois mil e vinte. Quatro anos depois, voltou para a Casa Branca."
+   "say": "Donald Trump perdeu a eleição de dois mil e vinte. Quatro anos depois, voltou para a Casa Branca.",
+   "detalhe": true
   },
   {
    "shot": "reveal",
@@ -106,7 +107,7 @@
     "POV:1:grin"
    ],
    "props": [],
-   "say": "Milhões de americanos foram às urnas escolher entre Trump e a vice-presidente Kamala Harris.",
+   "say": "Milhões de americanos escolheram entre Trump e a vice-presidente Kamala Harris.",
    "text": "TRUMP x HARRIS",
    "tat": 10,
    "acao": "conversar"
