@@ -64,10 +64,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Acontece que, em menos de três horas, Maduro foi capturado e levado pa...
 - Cenario: harbor | luz: noite | clima: limpo
-- Camera: low = camera baixa, dramatica (virada)
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
-- Personagens principais (2): SOL (variante 0, expressao stern); MAD (variante 0, expressao shock)
-- Animacao: conversar | interacao: empurrar
+- Personagens principais (3): MAD (variante 0, expressao shock); SOL (variante 0, expressao stern); SOL (variante 1, expressao stern)
+- Animacao: reagir | interacao: avanca e o outro recua
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): tres, venezuela
 - RISCOS: nenhum
@@ -77,7 +77,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): TRU (variante 0, expressao stern); GEN (variante 0, expressao grin)
-- Animacao: conversar | interacao: avanca e o outro recua
+- Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): diretor, estado, florida, longe, secretario
 - RISCOS: nenhum
@@ -126,8 +126,8 @@ vehicles/airplane | b8 | pronto | conferir na folha de contato se le bem; se par
 
 
 ## Video inteiro
-- Objeto heroi: kit/scroll | grandes momentos: b4, b9 | planos abertos: 3 | mistura: close 21% | medio 65% | aberto 10% | detalhe 4%
-- Interacoes: b0 aproxima-se, b2 discutir, b3 cochichar, b6 empurrar, b7 avanca e o outro recua, b8 entregar
+- Objeto heroi: kit/scroll | grandes momentos: b4, b9 | planos abertos: 3 | mistura: close 11% | medio 75% | aberto 10% | detalhe 4%
+- Interacoes: b0 aproxima-se, b2 discutir, b3 cochichar, b6 avanca e o outro recua, b7 o outro se aproxima, b8 entregar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

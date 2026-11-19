@@ -187,20 +187,21 @@
    "say": "Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do país."
   },
   {
-   "shot": "two",
+   "shot": "group",
    "hora": "noite",
    "who": [
+    "MAD:0:shock",
     "SOL:0:stern",
-    "MAD:0:shock"
+    "SOL:1:stern"
    ],
-   "interacao": "empurrar",
    "fx": [
     "ring@30"
    ],
    "sfx": [
     "sting@30"
    ],
-   "say": "Acontece que, em menos de três horas, Maduro foi capturado e levado para fora da Venezuela."
+   "say": "Acontece que, em menos de três horas, Maduro foi capturado e levado para fora da Venezuela.",
+   "shot_lock": true
   },
   {
    "shot": "two",
