@@ -50,6 +50,7 @@ gibber(F(_A[10] + int((_A[11] - _A[10]) * 0.2)), 4, 200, 0.12); gibber(F(_A[10] 
 ding(F(_A[10] + 40))
 thump(F(int(_W(4))))
 sting(F(int(_W(19))))
+sting(F(int(_W(19))))
 thump(F(int(_W(39))))
 thump(F(int(_W(95))))
 ding(F(int(_W(161))))

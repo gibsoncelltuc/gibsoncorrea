@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: O segredo eram dez pequenos propulsores da SpaceX, movidos a ar comprimido, escondidos dentro do carro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: segredo -> ring + som de alerta
+- Efeito + som nas palavras-chave: segredo -> ring + som de alerta; encena: pensa (think) -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

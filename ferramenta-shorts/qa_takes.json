@@ -1,24 +1,17 @@
 {
  "fails": [
   {
-   "f": 196,
-   "shot": "b0_v~1",
+   "f": 1268,
+   "shot": "b7",
    "why": [
-    "mus: head/torso cropped (box -0.057, 0.474, 0.14, 0.667)"
+    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
    ]
   },
   {
-   "f": 200,
-   "shot": "b0_v~1",
+   "f": 1272,
+   "shot": "b7",
    "why": [
-    "mus: head/torso cropped (box -0.116, 0.474, 0.082, 0.666)"
-   ]
-  },
-  {
-   "f": 204,
-   "shot": "b0_v~1",
-   "why": [
-    "mus: head/torso cropped (box -0.176, 0.474, 0.024, 0.665)"
+    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
    ]
   }
  ],

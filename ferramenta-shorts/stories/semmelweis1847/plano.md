@@ -6,7 +6,7 @@ b0 | two | -  | placa: 1847 | (rosto) pleading (expr + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | interior, placa: HOSPITAL | - | -
 b3 | two | -  | interior | encena: morre (acao + som de efeito) | -
-b4 | crowd | -  | batalha aberta com tiros, tropa | encena: senta (acao + som de efeito) | -
+b4 | crowd | -  | batalha aberta com tiros, tropa | encena: ajoelha (plead) (acao + som de efeito) | -
 b5 | two | -  | interior | (rosto) sad (expr + som de efeito); morreu (puff + som de baque); encena: corta (reach) (acao + som de efeito); encena: morre (acao + som de efeito) | -
 b6 | close | -  | interior | encena: pensa (think) (acao + som de efeito) | -
 b7 | two | -  | interior | encena: x_lava (stir) (acao + som de efeito) | -

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 22 - A Operação da Madrugada
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 7.8s - 22 palavras - plano two
@@ -36,8 +36,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | estudou (17.8s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
 | 2 | segredo (19.6s) | EFEITO: ring | onda + som | OK |
-| 3 | - | INTERACAO | cochichar | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 3 | segredo (19.6s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
+| 4 | - | INTERACAO | cochichar | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
 ## Cena b4 - 20.0s a 26.3s - 18 palavras - plano crowd
 > "Às duas da manhã, helicópteros levaram os soldados da Força Delta direto para o complexo onde Maduro estava."
@@ -52,7 +53,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | ataques (27.8s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b6 - 30.7s a 36.3s - 16 palavras - plano low
 > "Acontece que, em menos de três horas, Maduro foi capturado e levado para fora da Venezuela."
@@ -85,10 +87,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | morreu (50.0s) | EFEITO: puff | fumaca + som | OK |
-| 2 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | ATUACAO | reagir | OK |
-| 5 | - | PLACA | MUNDO | OK |
+| 2 | morreu (50.0s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
+| 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 5 | - | ATUACAO | reagir | OK |
+| 6 | - | PLACA | MUNDO | OK |
 
 ## Cena b10 - 54.1s a 57.4s - 10 palavras - plano close
 > "A operação ganhou um nome que resume tudo: Resolução Absoluta."

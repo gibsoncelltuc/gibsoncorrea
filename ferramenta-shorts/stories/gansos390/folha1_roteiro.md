@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: O alarme acordou todo mundo, os romanos correram para a muralha, e o ataque fracassou.
 - Som ambiente: birds
 - Efeitos sonoros marcados: thump@30, sting@10, thump@70
-- Efeito + som nas palavras-chave: alarme -> ring + som de alerta; correram -> dust + som de impacto; ataque -> ring + som de alerta; encena: x_acorda (up) -> acao + som de efeito; encena: corre -> acao + som de efeito; encena: perde (facepalm) -> acao + som de efeito
+- Efeito + som nas palavras-chave: alarme -> ring + som de alerta; correram -> dust + som de impacto; ataque -> ring + som de alerta; encena: grita (up) -> acao + som de efeito; encena: x_acorda (up) -> acao + som de efeito; encena: corre -> acao + som de efeito; encena: atira -> acao + som de efeito; encena: perde (facepalm) -> acao + som de efeito
 - Efeito visual marcado: burst@30, dust@70
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

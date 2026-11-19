@@ -27,7 +27,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: track = travelling lateral acompanhando quem anda
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): MOD (variante 0, expressao grin); MOD (variante 1, expressao nervous)
-- Animacao: -
+- Animacao: encena
 - Objetos/modelos: kit/marco_ghirlandina
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lenda, modena
 - RISCOS: nenhum

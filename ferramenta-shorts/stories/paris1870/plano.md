@@ -3,7 +3,7 @@
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
 b0 | two | -  | placa: 1870, mapa | - | -
-b1 | reveal | -  | tropa, animais, placa: CAVALOS, CÃES, GATOS | cavalaria: 4 soldados a cavalo (PAR) (acao + som de efeito); encena: x_come (lift) (acao + som de efeito) | -
+b1 | reveal | -  | tropa, animais, placa: CAVALOS, CÃES, GATOS | cavalaria: 4 soldados a cavalo (PAR) (acao + som de efeito) | -
 b2 | two | -  | placa: RATOS | - | -
 b3 | crowd | -  | batalha aberta com tiros, tropa | - | -
 b4 | close | -  | animais, placa: CASTOR E PÓLUX | comprou (stars + som de sino); vendeu (stars + som de sino); encena: negocio (reach) (acao + som de efeito) | -

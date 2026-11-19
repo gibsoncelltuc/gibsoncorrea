@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: tense | Cenario base: arctic | 9
 - Narracao: Inverno de mil novecentos e trinta e nove. A União Soviética invadiu a Finlândia, com um exército enorme.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: invadiu -> dust + som de impacto
+- Efeito + som nas palavras-chave: invadiu -> dust + som de impacto; encena: chega (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1939
 - Funcao na historia: GANCHO
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: tense | Cenario base: arctic | 9
 - Narracao: Em março de mil novecentos e quarenta, uma bala atingiu o rosto dele. Ele sobreviveu, e acordou no dia em que a guerra terminou.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160, gun@164, gun@168, gun@176, gun@180, gun@184, gun@188, gun@196, gun@200, gun@204
-- Efeito + som nas palavras-chave: tiros: 3 soldados caem no chao -> acao + som de efeito; bala -> burst + som de tiro/explosao; encena: x_acorda (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: tiros: 3 soldados caem no chao -> acao + som de efeito; bala -> burst + som de tiro/explosao; encena: atira -> acao + som de efeito; encena: x_acorda (up) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: tense | Cenario base: arctic | 9
 - Narracao: Viveu até os noventa e seis anos, e nunca se achou herói. Dizia que só tinha feito o seu trabalho.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: examina (think) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: olha (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: SÓ FEZ O SEU TRABALHO
 - Funcao na historia: FECHO/PIADA FINAL

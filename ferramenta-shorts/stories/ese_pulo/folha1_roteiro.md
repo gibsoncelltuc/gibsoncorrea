@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Aí seria o caos: bilhões de pessoas presas no mesmo lugar, sem estrada, comida ou água para todos voltarem para casa.
 - Som ambiente: sea
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: caos: -> puff + som de baque
+- Efeito + som nas palavras-chave: caos: -> puff + som de baque; encena: grita (up) -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

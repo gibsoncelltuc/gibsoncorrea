@@ -4,7 +4,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | countryside | crowd | 22 | batalha | kit/marco_viena | - | -
+b0 | countryside | crowd | 22 | encena, batalha | kit/marco_viena | - | -
 b1 | countryside | orbit | 14 | reagir | kit/marco_viena | - | -
 b2 | countryside | track | 2 | encena, andando | tools/lantern, kit/marco_viena | lantern | -
 b3 | countryside | two | 2 | reagir, INTERAGEM: aproxima-se | barrel, kit/barrel_r, kit/marco_viena | bottle | -

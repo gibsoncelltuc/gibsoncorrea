@@ -16,7 +16,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: palace | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): SUL (variante 0, expressao neutral); POV (variante 1, expressao neutral) | multidao: 8 de POV
+- Personagens principais (2): SUL (variante 0, expressao neutral); POV (variante 1, expressao neutral) | multidao: 8 de SUL/POV
 - Animacao: -
 - Objetos/modelos: kit/marco_zanzibar
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): africa, costa, ilha
@@ -62,14 +62,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
-## Cena b6 - Acontece que, às nove e dois, os navios ingleses começaram a disparar....
+## Cena b6 - Acontece que, às nove e dois, os navios ingleses abriram fogo. O palác...
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): ING (variante 0, expressao stern); GUA (variante 0, expressao shock) | multidao: 20 de ING/GUA
 - Animacao: reagir | batalha encenada
-- Objetos/modelos: kit/marco_zanzibar, navios ao fundo, kit/fire
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): desabar, disparar, madeira, navios, nove, palacio, pegar
+- Objetos/modelos: kit/marco_zanzibar, navios ao fundo
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): desabar, madeira, navios, nove, palacio, pegar
 - RISCOS: nenhum
 
 ## Cena b7 - O sultão fugiu pela porta dos fundos, e foi pedir abrigo no consulado ...
@@ -96,11 +96,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: medieval | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (3): SUL (variante 0, expressao smile); ING (variante 0, expressao grin); POV (variante 0, expressao nervous)
+- Personagens principais (3): ALM (variante 0, expressao smile, segura paper); ING (variante 0, expressao grin); POV (variante 0, expressao nervous)
 - Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/marco_zanzibar
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ingleses, trono
-- RISCOS: nenhum
+- RISCOS: 
+  - a narracao cita "sultao" e ninguem em cena esta vestido a carater -> CORRECAO: por no "who" um personagem com "profissao": "rei" no figurino (coroa/farda/chapeu proprios)
 
 ## Cena b10 - E ainda mandaram a conta das balas para Zanzibar.
 - Cenario: interior loja | luz: day | clima: limpo
@@ -120,7 +121,6 @@ Objeto | Cenas | Situacao | O que fazer
 kit/marco_zanzibar | b0, b1, b4, b6, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/throne | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 cannon | b4, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/fire | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/bench | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -133,7 +133,8 @@ buildings/castle_tower | b8 | pronto | conferir na folha de contato se le bem; s
 - Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b3 insiste, b8 vai ate o outro, b9 aproxima-se
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- b9: a narracao cita "sultao" e ninguem em cena esta vestido a carater
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh zanzibar1896 bN bM` (so essas cenas).

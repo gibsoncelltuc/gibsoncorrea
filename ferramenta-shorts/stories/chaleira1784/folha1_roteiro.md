@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Uma guerra inteira teve um único tiro, e ele acertou uma chaleira de sopa.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: tiro -> burst + som de tiro/explosao
+- Efeito + som nas palavras-chave: tiro -> burst + som de tiro/explosao; encena: atira -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1784
 - Funcao na historia: GANCHO
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: "Mandem três navios", ordenou ele. "Os holandeses não vão ter coragem de atirar."
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: atirar -> burst + som de tiro/explosao; encena: fala (point) -> acao + som de efeito
+- Efeito + som nas palavras-chave: atirar -> burst + som de tiro/explosao; encena: fala (point) -> acao + som de efeito; encena: atira -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Acontece que um navio holandês estava esperando. Ele mirou, e deu um único tiro de canhão.
 - Som ambiente: sea | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: cannon@60, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160
-- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; tiro -> burst + som de tiro/explosao; canhão -> burst + som de tiro/explosao; encena: x_espera (cross) -> acao + som de efeito; encena: x_entrega (reach) -> acao + som de efeito; explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
+- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; tiro -> burst + som de tiro/explosao; canhão -> burst + som de tiro/explosao; encena: x_espera (cross) -> acao + som de efeito; encena: x_entrega (reach) -> acao + som de efeito; encena: atira -> acao + som de efeito; explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
 - Efeito visual marcado: burst@60
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: A bala atravessou o convés, e acertou em cheio a chaleira de sopa do cozinheiro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@20, ding@24
-- Efeito + som nas palavras-chave: bala -> burst + som de tiro/explosao
+- Efeito + som nas palavras-chave: bala -> burst + som de tiro/explosao; encena: atira -> acao + som de efeito
 - Efeito visual marcado: burst@20, puff@26
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: O imperador desistiu do rio. Em troca, a Holanda pagou uma indenização em dinheiro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: desistiu -> puff + som de baque; pagou -> stars + som de sino; dinheiro -> stars + som de sino; encena: negocio (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: desistiu -> puff + som de baque; pagou -> stars + som de sino; dinheiro -> stars + som de sino; encena: perde (facepalm) -> acao + som de efeito; encena: negocio (reach) -> acao + som de efeito; encena: paga (reach) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Ninguém morreu. Só o almoço.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; encena: morre -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

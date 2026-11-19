@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 18 - O Jogo de Tabuleiro do Trump
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.4s - 21 palavras - plano two
@@ -10,9 +10,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | dinheiro (6.4s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | - | INTERACAO | o outro se aproxima | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| 4 | - | PLACA | 1989 | OK |
+| 2 | dinheiro (6.4s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 3 | - | INTERACAO | o outro se aproxima | OK |
+| 4 | - | ATUACAO | conversar | OK |
+| 5 | - | PLACA | 1989 | OK |
 
 ## Cena b1 - 7.6s a 13.5s - 18 palavras - plano reveal
 > "Era mil novecentos e oitenta e nove, nos Estados Unidos. Trump era um empresário famoso de Nova York."
@@ -67,8 +68,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | vender (42.0s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 4 | Vendeu (44.2s) | EFEITO: stars | estrelinhas + som | OK |
 | 5 | fracasso (47.4s) | EFEITO: puff | fumaca + som | OK |
-| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 7 | - | PLACA | 800 MIL | OK |
+| 6 | fracasso (47.4s) | ACAO: perde | mao na testa | OK |
+| 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 8 | - | PLACA | 800 MIL | OK |
 
 ## Cena b7 - 48.6s a 51.4s - 10 palavras - plano two
 > "O jogo saiu das lojas, e ficou esquecido por anos."

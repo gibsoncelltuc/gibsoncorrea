@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 21 - A Volta de Trump
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 41 acoes catalogadas, 41 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 42 acoes catalogadas, 42 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 6.3s - 18 palavras - plano two
@@ -38,9 +38,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | discutir | OK |
-| 2 | - | ATUACAO | discutir | OK |
-| 3 | - | CHEGADA | alguem entra andando | OK |
+| 1 | entrou (18.1s) | ACAO: chega | entra andando pela lateral | OK |
+| 2 | - | INTERACAO | discutir | OK |
+| 3 | - | ATUACAO | discutir | OK |
+| 4 | - | CHEGADA | alguem entra andando | OK |
 
 ## Cena b4 - 21.5s a 27.8s - 18 palavras - plano close
 > "Acontece que Trump venceu em todos os estados decisivos, e somou trezentos e doze votos no colégio eleitoral."
@@ -58,10 +59,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | comemoraram (28.9s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | subiu (30.7s) | ACAO: escala | escala (bracos para cima) | OK |
-| 3 | declarou (32.2s) | ACAO: fala | aponta explicando | OK |
-| 4 | vitória (32.6s) | EFEITO: stars | estrelinhas + som | OK |
-| 5 | vitória (32.6s) | ACAO: vence | bracos para cima + brilho | OK |
+| 2 | comemoraram (28.9s) | ACAO: vence | bracos para cima + brilho | OK |
+| 3 | subiu (30.7s) | ACAO: escala | escala (bracos para cima) | OK |
+| 4 | declarou (32.2s) | ACAO: fala | aponta explicando | OK |
+| 5 | vitória (32.6s) | EFEITO: stars | estrelinhas + som | OK |
 | 6 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
 | 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 8 | - | ATUACAO | comemorar | OK |

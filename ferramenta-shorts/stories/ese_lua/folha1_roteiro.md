@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Bichos da praia que vivem do sobe e desce da água iam sofrer, e muitos animais iam se perder no escuro.
 - Som ambiente: sea
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: perder -> dust + som de impacto
+- Efeito + som nas palavras-chave: perder -> dust + som de impacto; encena: perde (facepalm) -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

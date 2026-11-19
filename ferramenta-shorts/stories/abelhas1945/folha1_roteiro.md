@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: As abelhas conversam dançando. E foi um cientista teimoso que descobriu o que elas dizem.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: dançando -> stars + som de sino; descobriu -> ring + som de alerta; encena: examina (think) -> acao + som de efeito
+- Efeito + som nas palavras-chave: dançando -> stars + som de sino; descobriu -> ring + som de alerta; encena: danca (up) -> acao + som de efeito; encena: examina (think) -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: DANÇA
 - Funcao na historia: GANCHO
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Quanto mais tempo ela rebolava, mais longe estava a comida. Era um mapa feito de dança!
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: dança -> stars + som de sino
+- Efeito + som nas palavras-chave: dança -> stars + som de sino; encena: danca (up) -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -105,7 +105,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Então, da próxima vez que vir uma abelha, lembre: ela pode estar contando um segredo dançando.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: segredo -> ring + som de alerta; dançando -> stars + som de sino
+- Efeito + som nas palavras-chave: segredo -> ring + som de alerta; dançando -> stars + som de sino; encena: pensa (think) -> acao + som de efeito; encena: danca (up) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

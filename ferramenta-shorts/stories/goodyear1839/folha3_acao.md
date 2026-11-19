@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 17 - A Borracha que Caiu no Fogão
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 40 acoes catalogadas, 40 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 41 acoes catalogadas, 41 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 5.3s - 17 palavras - plano two
@@ -93,9 +93,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | ideia (54.7s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
 | 2 | brigando (56.3s) | ACAO: golpe | soco + estouro | OK |
 | 3 | Morreu (58.1s) | EFEITO: puff | fumaca + som | OK |
-| 4 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 5 | - | INTERACAO | discutir | OK |
-| 6 | - | ATUACAO | discutir | OK |
+| 4 | Morreu (58.1s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
+| 5 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 6 | - | INTERACAO | discutir | OK |
+| 7 | - | ATUACAO | discutir | OK |
 
 ## Cena b10 - 60.3s a 64.3s - 14 palavras - plano crowd
 > "Décadas depois, a borracha dele estava em pneus, bolas e sapatos do mundo inteiro."

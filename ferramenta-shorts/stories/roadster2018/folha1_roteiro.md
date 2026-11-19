@@ -60,14 +60,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: No painel, estava escrito: Não entre em pânico.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) scared -> expr + som de efeito; pânico -> dust + som de impacto
+- Efeito + som nas palavras-chave: (rosto) scared -> expr + som de efeito; pânico -> dust + som de impacto; encena: grita (up) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: NÃO ENTRE EM PÂNICO
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b7  (~5.2 s)
 - Narracao: O Roadster saiu da órbita da Terra, e seguiu em órbita ao redor do Sol.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20
 - Efeito + som nas palavras-chave: encena: sai -> acao + som de efeito
 - Efeito visual marcado: stars@20

@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: As cidades funcionariam vinte e quatro horas por dia. Escola, trabalho e festa a qualquer hora.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@20, ding@50
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; festa -> stars + som de sino
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; festa -> stars + som de sino; encena: vence (up) -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@50
 - Texto na tela: 24 HORAS
 - Funcao na historia: GRANDE MOMENTO

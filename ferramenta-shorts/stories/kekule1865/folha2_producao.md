@@ -60,8 +60,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: conversar
 - Objetos/modelos: kit/snake_ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): atomos, proprio, sonho
-- RISCOS: 
-  - ACAO SEM ANIMACAO na narracao: dançavam -> CORRECAO: a cena precisa MOSTRAR a acao: reescreva com um verbo que a ferramenta encena (veja OPERACAO.md "MODO DE ACAO") ou marque a cena ("batalha", "interacao", "acao", "animals", "props")
+- RISCOS: nenhum
 
 ## Cena b6 - Kekulé acordou num pulo, como se tivesse levado um raio. O benzeno não...
 - Cenario: interior madeira | luz: noite | clima: limpo
@@ -142,8 +141,7 @@ mk/Chair_1 | b4 | pronto | conferir na folha de contato se le bem; se parecer ca
 - Interacoes: b0 cochichar, b2 discutir, b3 entregar, b8 entregar, b10 insiste
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- b5: ACAO SEM ANIMACAO na narracao: dançavam
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh kekule1865 bN bM` (so essas cenas).

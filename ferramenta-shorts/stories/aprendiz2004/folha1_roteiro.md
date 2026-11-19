@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Dezesseis candidatos disputavam um prêmio raro: um emprego de verdade numa empresa de Donald Trump.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: prêmio -> stars + som de sino
+- Efeito + som nas palavras-chave: prêmio -> stars + som de sino; encena: vence (up) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Trump apresentou o programa por mais de dez anos, e só saiu em dois mil e quinze, quando entrou na política.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) -> acao + som de efeito; encena: sai -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) -> acao + som de efeito; encena: sai -> acao + som de efeito; encena: chega (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

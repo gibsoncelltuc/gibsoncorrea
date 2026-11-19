@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 20 - A Batalha de Los Angeles
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 44 acoes catalogadas, 44 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 49 acoes catalogadas, 49 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.9s - 14 palavras - plano two
@@ -49,11 +49,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | viu (24.6s) | ACAO: olha | aponta/olha | OK |
 | 2 | atirar (27.5s) | EFEITO: burst | estouro/clarao + som | OK |
-| 3 | canhões (28.1s) | EFEITO: burst | estouro/clarao + som | OK |
-| 4 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 5 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
-| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 7 | - | PLACA | FOGO! | OK |
+| 3 | atirar (27.5s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 4 | canhões (28.1s) | EFEITO: burst | estouro/clarao + som | OK |
+| 5 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 6 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
+| 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 8 | - | PLACA | FOGO! | OK |
 
 ## Cena b5 - 29.7s a 35.1s - 16 palavras - plano two
 > ""É um inimigo!", gritou um soldado. Acontece que não havia nada ali, só nuvens e fumaça."
@@ -72,12 +73,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | tiros (37.2s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | canhão (37.7s) | EFEITO: burst | estouro/clarao + som | OK |
-| 3 | caíram (39.1s) | EFEITO: dust | poeira + som | OK |
-| 4 | - | EMOCAO: scared | o rosto vira "scared" na palavra | OK |
-| 5 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 6 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
-| 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | tiros (37.2s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 3 | canhão (37.7s) | EFEITO: burst | estouro/clarao + som | OK |
+| 4 | caíram (39.1s) | EFEITO: dust | poeira + som | OK |
+| 5 | pânico (40.7s) | ACAO: grita | grita de bracos para cima | OK |
+| 6 | - | EMOCAO: scared | o rosto vira "scared" na palavra | OK |
+| 7 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 8 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
+| 9 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
 ## Cena b7 - 41.9s a 46.1s - 14 palavras - plano two
 > "No dia seguinte, os militares discutiram o que tinha acontecido, e ninguém sabia dizer."
@@ -95,10 +98,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | morreram (48.0s) | EFEITO: puff | fumaca + som | OK |
 | 2 | morreram (48.0s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
 | 3 | apareceu (51.0s) | EFEITO: dust | poeira + som | OK |
-| 4 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 5 | - | INTERACAO | entregar | OK |
-| 6 | - | ATUACAO | conversar | OK |
-| 7 | - | CHEGADA | alguem entra andando | OK |
+| 4 | apareceu (51.0s) | ACAO: chega | entra andando pela lateral | OK |
+| 5 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 6 | - | INTERACAO | entregar | OK |
+| 7 | - | ATUACAO | conversar | OK |
+| 8 | - | CHEGADA | alguem entra andando | OK |
 
 ## Cena b9 - 52.4s a 55.1s - 12 palavras - plano close
 > "O único alvo derrotado naquela noite foi o sono de Los Angeles."
@@ -106,5 +110,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | derrotado (53.1s) | EFEITO: puff | fumaca + som | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | derrotado (53.1s) | ACAO: perde | mao na testa | OK |
+| 3 | - | ATUACAO | conversar | OK |
 

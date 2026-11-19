@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - A Morte Branca
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 25 acoes catalogadas, 25 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 6.3s - 18 palavras - plano track
@@ -10,7 +10,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | invadiu (4.1s) | EFEITO: dust | poeira + som | OK |
-| 2 | - | PLACA | 1939 | OK |
+| 2 | invadiu (4.1s) | ACAO: chega | entra andando pela lateral | OK |
+| 3 | - | PLACA | 1939 | OK |
 
 ## Cena b1 - 6.7s a 14.4s - 22 palavras - plano crowd
 > "Os soldados finlandeses eram poucos, mas conheciam a floresta, a neve e o frio, que chegava a quarenta graus abaixo de zero."
@@ -68,18 +69,19 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | bala (43.0s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | acordou (45.9s) | ACAO: x_acorda | estava dormindo e acorda na palavra | OK |
-| 3 | - | CENA | tiros: 3 soldados caem no chao | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | INTERACAO | cochichar | OK |
-| 6 | - | ATUACAO | conversar | OK |
+| 2 | bala (43.0s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 3 | acordou (45.9s) | ACAO: x_acorda | estava dormindo e acorda na palavra | OK |
+| 4 | - | CENA | tiros: 3 soldados caem no chao | OK |
+| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 6 | - | INTERACAO | cochichar | OK |
+| 7 | - | ATUACAO | conversar | OK |
 
-## Cena b8 - 48.9s a 55.9s - 20 palavras - plano two
+## Cena b8 - 48.9s a 55.9s - 20 palavras - plano close
 > "Viveu até os noventa e seis anos, e nunca se achou herói. Dizia que só tinha feito o seu trabalho."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | achou (52.6s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+| 1 | achou (52.6s) | ACAO: olha | aponta/olha | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | SÓ FEZ O SEU TRABALHO | OK |
 

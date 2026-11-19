@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - E Se EP 08 - E Se Napoleão Tivesse Vencido em Waterloo?
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 5.2s - 15 palavras - plano two
@@ -36,8 +36,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | enfrentou (18.1s) | ACAO: golpe | soco + estouro | OK |
 | 2 | Canhões (20.7s) | EFEITO: burst | estouro/clarao + som | OK |
-| 3 | dispararam (21.1s) | EFEITO: burst | estouro/clarao + som | OK |
-| 4 | dispararam (21.1s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 3 | Canhões (20.7s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 4 | dispararam (21.1s) | EFEITO: burst | estouro/clarao + som | OK |
 | 5 | - | CENA | tiros: 5 soldados caem no chao | OK |
 | 6 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
 | 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
@@ -58,9 +58,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | chegou (28.5s) | EFEITO: dust | poeira + som | OK |
-| 2 | derrotado (32.2s) | EFEITO: puff | fumaca + som | OK |
-| 3 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | chegou (28.5s) | ACAO: chega | entra andando pela lateral | OK |
+| 3 | derrotado (32.2s) | EFEITO: puff | fumaca + som | OK |
+| 4 | derrotado (32.2s) | ACAO: perde | mao na testa | OK |
+| 5 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
 ## Cena b6 - 32.6s a 37.8s - 15 palavras - plano two
 > "Ele foi mandado para Santa Helena, uma ilha perdida no oceano Atlântico, e morreu lá."
@@ -68,9 +70,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | morreu (37.4s) | EFEITO: puff | fumaca + som | OK |
-| 2 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 3 | - | INTERACAO | empurrar | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 2 | morreu (37.4s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
+| 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 4 | - | INTERACAO | empurrar | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 38.1s a 43.0s - 14 palavras - plano two
 > "E se ele tivesse ganhado? Muita gente imagina um império francês dominando a Europa."

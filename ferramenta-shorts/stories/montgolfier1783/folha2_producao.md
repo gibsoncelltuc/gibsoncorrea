@@ -68,7 +68,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): REI (variante 0, expressao smile); RAI (variante 0, expressao surprised); NOB (variante 0, expressao grin) | multidao: 30 de POV/NOB
 - Animacao: - | batalha encenada
-- Objetos/modelos: kit/balloon, kit/marco_versalhes, buildings/castle_tower
+- Objetos/modelos: kit/balloon, kit/marco_versalhes
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): multidao, palacio, rainha, versalhes
 - RISCOS: nenhum
 
@@ -133,7 +133,6 @@ sheep | b0, b5, b9, b11 | pronto | conferir na folha de contato se le bem; se pa
 kit/campfire | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 duck | b5, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 rooster | b5, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/castle_tower | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/balloon_air | b7, b8, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_pine | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py

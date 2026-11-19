@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - E Se EP 06 - E Se o Dinheiro Sumisse do Mundo?
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 6.3s - 18 palavras - plano two
@@ -10,9 +10,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | dinheiro (1.5s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | - | INTERACAO | entregar | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| 4 | - | PLACA | E SE... | OK |
+| 2 | dinheiro (1.5s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 3 | - | INTERACAO | entregar | OK |
+| 4 | - | ATUACAO | conversar | OK |
+| 5 | - | PLACA | E SE... | OK |
 
 ## Cena b1 - 6.7s a 11.1s - 13 palavras - plano two
 > "Primeira manhã: você chega na padaria e não tem como pagar o café."
@@ -20,9 +21,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | pagar (10.4s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | - | INTERACAO | discutir | OK |
-| 3 | - | ATUACAO | reagir | OK |
-| 4 | - | CHEGADA | alguem entra andando | OK |
+| 2 | pagar (10.4s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 3 | - | INTERACAO | discutir | OK |
+| 4 | - | ATUACAO | reagir | OK |
+| 5 | - | CHEGADA | alguem entra andando | OK |
 
 ## Cena b2 - 11.5s a 17.4s - 17 palavras - plano two
 > "A saída seria a mais antiga de todas: a troca. Uma galinha por uma cesta de comida."
@@ -46,7 +48,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | dinheiro (26.7s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | - | MAPA | ILHA DE YAP | OK |
+| 2 | dinheiro (26.7s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 3 | - | MAPA | ILHA DE YAP | OK |
 
 ## Cena b5 - 30.4s a 36.3s - 17 palavras - plano group
 > "Algumas eram tão pesadas que nunca saíam do lugar. Todo mundo só lembrava quem era o dono."
@@ -71,9 +74,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | dinheiro: (43.3s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | ouro (44.1s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | - | INTERACAO | vai ate o outro | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 2 | dinheiro (43.3s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 3 | ouro (44.1s) | EFEITO: stars | estrelinhas + som | OK |
+| 4 | - | INTERACAO | vai ate o outro | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
 ## Cena b8 - 45.6s a 51.1s - 16 palavras - plano close
 > "Isso já aconteceu em prisões e em guerras: quando o dinheiro some, as pessoas inventam outro."
@@ -81,7 +85,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | dinheiro (49.3s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 2 | dinheiro (49.3s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 3 | - | ATUACAO | reagir | OK |
 
 ## Cena b9 - 51.5s a 55.2s - 11 palavras - plano orbit
 > "Ou seja: dinheiro não é papel. É confiança entre as pessoas."
@@ -89,9 +94,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | dinheiro (52.2s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | ATUACAO | comemorar | OK |
-| 4 | - | PLACA | DINHEIRO | OK |
+| 2 | dinheiro (52.2s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | ATUACAO | comemorar | OK |
+| 5 | - | PLACA | DINHEIRO | OK |
 
 ## Cena b10 - 55.6s a 60.0s - 13 palavras - plano close
 > "Se ele sumisse, a gente inventaria de novo. Em menos de um ano."

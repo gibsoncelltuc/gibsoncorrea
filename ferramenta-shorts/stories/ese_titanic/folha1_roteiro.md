@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Diziam que ele era praticamente impossível de afundar. Afundou na primeira viagem. E se tivesse desviado do iceberg?
 - Som ambiente: sea
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: (rosto) shock -> expr + som de efeito; impossível -> ring + som de alerta; Afundou -> dust + som de impacto; encena: desaba -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) shock -> expr + som de efeito; impossível -> ring + som de alerta; Afundou -> dust + som de impacto; encena: duvida (shrug) -> acao + som de efeito; encena: desaba -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 1912
 - Funcao na historia: GANCHO
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Acontece que só havia botes para metade das pessoas. Cerca de mil e quinhentas morreram.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@20, thump@50
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreram -> puff + som de baque
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreram -> puff + som de baque; encena: morre -> acao + som de efeito
 - Efeito visual marcado: ring@20, puff@50
 - Texto na tela: BOTES
 - Funcao na historia: GRANDE MOMENTO

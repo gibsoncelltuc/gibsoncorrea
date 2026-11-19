@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: No fim da tarde, chegou o exército prussiano para ajudar Wellington. E Napoleão foi derrotado.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: cannon@20, thump@50, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148
-- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; chegou -> dust + som de impacto; derrotado -> puff + som de baque
+- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; chegou -> dust + som de impacto; derrotado -> puff + som de baque; encena: chega (point) -> acao + som de efeito; encena: perde (facepalm) -> acao + som de efeito
 - Efeito visual marcado: burst@20, puff@50
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Ele foi mandado para Santa Helena, uma ilha perdida no oceano Atlântico, e morreu lá.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; encena: morre -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

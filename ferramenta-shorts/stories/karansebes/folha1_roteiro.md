@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 - Narracao: Um exército inteiro conseguiu perder uma batalha contra si mesmo.
 - Som ambiente: birds | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; cavalaria: 4 soldados a cavalo (AUT) -> acao + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito; perder -> dust + som de impacto
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; cavalaria: 4 soldados a cavalo (AUT) -> acao + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito; perder -> dust + som de impacto; encena: perde (facepalm) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1788
 - Funcao na historia: GANCHO
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 - Narracao: Não acharam turco nenhum. Acharam moradores vendendo aguardente.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: vendendo -> stars + som de sino; encena: olha (point) -> acao + som de efeito
+- Efeito + som nas palavras-chave: vendendo -> stars + som de sino; encena: olha (point) -> acao + som de efeito; encena: paga (reach) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 - Narracao: Compraram tudo, beberam, e a festa começou.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; Compraram -> stars + som de sino; beberam -> stars + som de sino; festa -> stars + som de sino; encena: negocio (reach) -> acao + som de efeito; encena: x_bebe (lift) -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; Compraram -> stars + som de sino; beberam -> stars + som de sino; festa -> stars + som de sino; encena: negocio (reach) -> acao + som de efeito; encena: x_bebe (lift) -> acao + som de efeito; encena: vence (up) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: AGUARDENTE
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 - Narracao: Aí chegou a infantaria, querendo a parte dela. "Não tem pra vocês", disseram os hussardos. A discussão virou empurra-empurra, e alguém deu um tiro.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: cavalaria: 2 soldados a cavalo (AUT) -> acao + som de efeito; chegou -> dust + som de impacto; discussão -> puff + som de baque; tiro -> burst + som de tiro/explosao; encena: x_entrega (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: cavalaria: 2 soldados a cavalo (AUT) -> acao + som de efeito; chegou -> dust + som de impacto; discussão -> puff + som de baque; tiro -> burst + som de tiro/explosao; encena: chega (point) -> acao + som de efeito; encena: x_entrega (reach) -> acao + som de efeito; encena: atira -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 - Narracao: Dois dias depois, os turcos chegaram de verdade, e acharam o acampamento abandonado. Contam que foram até dez mil baixas, mas os historiadores duvidam desse número.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: chegaram -> dust + som de impacto; baixas -> puff + som de baque; encena: olha (point) -> acao + som de efeito
+- Efeito + som nas palavras-chave: chegaram -> dust + som de impacto; baixas -> puff + som de baque; encena: chega (point) -> acao + som de efeito; encena: olha (point) -> acao + som de efeito; encena: perde (facepalm) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 10.000?
 - Funcao na historia: desenvolvimento
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 - Narracao: Os turcos venceram sem dar um único tiro.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; venceram -> stars + som de sino; tiro -> burst + som de tiro/explosao; encena: vence (up) -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; venceram -> stars + som de sino; tiro -> burst + som de tiro/explosao; encena: vence (up) -> acao + som de efeito; encena: atira -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: FOGO AMIGO
 - Funcao na historia: FECHO/PIADA FINAL

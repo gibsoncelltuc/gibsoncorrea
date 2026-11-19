@@ -8,7 +8,7 @@ b0 | harbor | two | 2 | conversar, INTERAGEM: aproxima-se | kit/iceberg, kit/mar
 b1 | harbor | reveal | 32 | parados (so fala e pisca) | ship, kit/marco_liberdade | - | -
 b2 | countryside | two | 2 | discutir, INTERAGEM: discutir | kit/iceberg, kit/marco_liberdade | - | -
 b3 | countryside | close | 1 | reagir | kit/iceberg, kit/marco_liberdade | - | -
-b4 | street | crowd | 25 | batalha | boat, kit/marco_liberdade, nature/picket_fence | - | -
+b4 | street | crowd | 25 | encena, batalha | boat, kit/marco_liberdade, nature/picket_fence | - | -
 b5 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua, alguem chega andando | kit/marco_liberdade | paper | -
 b6 | harbor | two | 2 | conversar, INTERAGEM: cochichar | ship, kit/marco_liberdade | - | -
 b7 | street | close | 1 | reagir | kit/scroll, kit/marco_liberdade | - | -

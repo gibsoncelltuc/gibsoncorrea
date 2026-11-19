@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 28 - A Selfie na ONU
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 5.6s - 16 palavras - plano two
@@ -10,11 +10,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | chegou (0.7s) | EFEITO: dust | poeira + som | OK |
-| 2 | tirou (4.8s) | ACAO: tira | tira foto (celular + flash) | OK |
-| 3 | - | INTERACAO | avanca e o outro recua | OK |
-| 4 | - | ATUACAO | conversar | OK |
-| 5 | - | CHEGADA | alguem entra andando | OK |
-| 6 | - | PLACA | 2019 | OK |
+| 2 | chegou (0.7s) | ACAO: chega | entra andando pela lateral | OK |
+| 3 | tirou (4.8s) | ACAO: tira | tira foto (celular + flash) | OK |
+| 4 | - | INTERACAO | avanca e o outro recua | OK |
+| 5 | - | ATUACAO | conversar | OK |
+| 6 | - | CHEGADA | alguem entra andando | OK |
+| 7 | - | PLACA | 2019 | OK |
 
 ## Cena b1 - 5.9s a 11.5s - 16 palavras - plano crowd
 > "Foi em setembro de dois mil e dezenove, na Assembleia Geral da ONU, em Nova York."
@@ -82,7 +83,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | acharam (44.1s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+| 1 | acharam (44.1s) | ACAO: olha | aponta/olha | OK |
 | 2 | - | INTERACAO | discutir | OK |
 | 3 | - | ATUACAO | discutir | OK |
 

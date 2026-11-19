@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - E Se EP 09 - E Se Você Cavasse um Buraco Até o Outro Lado da Terra?
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 6.3s - 18 palavras - plano two
@@ -20,8 +20,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | surpresa: (7.0s) | EFEITO: ring | onda + som | OK |
-| 2 | - | EMOCAO: shock | o rosto vira "shock" na palavra | OK |
-| 3 | - | MAPA | OCEANO PACÍFICO | OK |
+| 2 | surpresa (7.0s) | ACAO: grita | grita de bracos para cima | OK |
+| 3 | - | EMOCAO: shock | o rosto vira "shock" na palavra | OK |
+| 4 | - | MAPA | OCEANO PACÍFICO | OK |
 
 ## Cena b2 - 13.7s a 18.1s - 13 palavras - plano two
 > "Mas vamos cavar. Depois da terra, vem rocha dura, cada vez mais quente."
