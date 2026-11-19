@@ -9,4 +9,4 @@ b6: OK - no porto, o rei da Dinamarca de coroa deu a ele uma ilha inteira para e
 b7: CORRIGIDO - multidão sem castelo -> castelo observatório Uraniborg, céu estrelado, Tycho anotando mil estrelas com a luneta
 b8: OK - placa KEPLER, as anotações precisas ajudaram Kepler a descobrir como os planetas giram
 b9: OK - multidão comemorando: essa descoberta mudou a astronomia para sempre
-b10: CORRIGIDO - cena vazia -> Tycho entrou para a história em close sorrindo com o nariz de metal
+b10: CORRIGIDO - cena vazia -> Tycho entrou para a história em close sorrindo com o nariz de metal (expressão, não vira entrada andando)

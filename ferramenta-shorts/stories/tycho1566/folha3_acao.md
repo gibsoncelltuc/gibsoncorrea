@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 12 - O Astrônomo do Nariz de Metal
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.7s - 15 palavras - plano two
@@ -104,6 +104,5 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | entrou (56.2s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | conversar | OK |
 
