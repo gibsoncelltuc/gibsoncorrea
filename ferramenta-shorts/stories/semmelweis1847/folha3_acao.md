@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 13 - O Médico que Mandou Lavar as Mãos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 6.0s - 18 palavras - plano two
@@ -14,12 +14,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | ATUACAO | discutir | OK |
 | 4 | - | PLACA | 1847 | OK |
 
-## Cena b1 - 7.1s a 10.9s - 14 palavras - plano reveal
+## Cena b1 - 7.1s a 10.9s - 14 palavras - plano crowd
 > "Era mil oitocentos e quarenta e sete, no grande hospital de Viena, na Áustria."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | MAPA | ÁUSTRIA | OK |
+| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | - | MAPA | ÁUSTRIA | OK |
 
 ## Cena b2 - 12.1s a 19.3s - 18 palavras - plano two
 > "O hospital tinha duas alas de parto. Numa, as mães eram atendidas por parteiras. Na outra, por médicos."
@@ -39,13 +40,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | avanca e o outro recua | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b4 - 26.5s a 29.6s - 13 palavras - plano crowd
+## Cena b4 - 26.5s a 29.6s - 13 palavras - plano group
 > "As mulheres imploravam de joelhos para não ir para a ala dos médicos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | imploravam (27.1s) | ACAO: ajoelha | de joelhos, maos de suplica | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | - | INTERACAO | o outro se aproxima | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b5 - 30.8s a 37.2s - 20 palavras - plano two
 > "Um dia, o amigo dele, Kolletschka, cortou o dedo com um bisturi, examinando um corpo, e morreu da mesma febre."
@@ -56,7 +58,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | morreu (36.3s) | EFEITO: puff | fumaca + som | OK |
 | 3 | morreu (36.3s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
 | 4 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 5 | - | INTERACAO | o outro se aproxima | OK |
+| 5 | - | INTERACAO | insiste | OK |
 | 6 | - | ATUACAO | reagir | OK |
 
 ## Cena b6 - 38.2s a 43.7s - 18 palavras - plano close
@@ -76,7 +78,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | discutir | OK |
 | 3 | - | ATUACAO | discutir | OK |
 
-## Cena b8 - 50.9s a 55.4s - 11 palavras - plano orbit
+## Cena b8 - 50.9s a 55.4s - 11 palavras - plano crowd
 > "As mortes despencaram quase dez vezes. Centenas de mães foram salvas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
