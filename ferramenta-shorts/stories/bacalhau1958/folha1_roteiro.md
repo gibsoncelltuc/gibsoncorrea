@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: As Guerras do Bacalhau
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 9 cenas, 156 palavras (~54 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 10 cenas, 156 palavras (~54 s)
 
 ## Cena b0  (~9.0 s)
 - Narracao: Entre mil novecentos e cinquenta e oito e mil novecentos e setenta e seis, a Islândia e a Inglaterra travaram três guerras. Por causa de peixe.
@@ -47,16 +47,25 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: CORTADORES DE REDE
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~5.5 s)
-- Narracao: Eles cortavam os cabos das redes inglesas, e os navios batiam um no outro, de propósito.
-- Som ambiente: sea | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: thump@60, creak@62
+## Cena b5  (~2.4 s)
+- Narracao: Eles cortavam os cabos das redes inglesas,
+- Som ambiente: sea
+- Efeitos sonoros marcados: thump@25
 - Efeito + som nas palavras-chave: encena: corta (hammer) @1 -> acao + som de efeito
-- Efeito visual marcado: splash@50, burst@60
+- Efeito visual marcado: puff@25
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b6  (~3.1 s)
+- Narracao: e os navios batiam um no outro, de propósito.
+- Som ambiente: sea
+- Efeitos sonoros marcados: thump@40, creak@44, thump@58
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: burst@40, splash@44, burst@58
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b6  (~3.8 s)
+## Cena b7  (~3.8 s)
 - Narracao: A Islândia ainda ameaçou fechar a base da Otan no país.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -65,7 +74,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: OTAN
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~7.9 s)
+## Cena b8  (~7.9 s)
 - Narracao: Em mil novecentos e setenta e seis, os ingleses cederam, e a ideia de uma zona de duzentas milhas se espalhou pelo mundo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -74,7 +83,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: VITÓRIA ISLANDESA
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~5.9 s)
+## Cena b9  (~5.9 s)
 - Narracao: Foi uma guerra de navios batendo e de redes cortadas, e tudo por causa de um peixe.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -

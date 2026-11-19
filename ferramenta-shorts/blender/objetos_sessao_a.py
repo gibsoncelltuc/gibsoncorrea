@@ -125,3 +125,21 @@ bola((0, 1.0, .005), .5, '#2f9bd6', 1.0, esc=(.1, 1.7, .095))                   
 caixa((0, .75, .06), (.34, .1, .02), '#f2c230'); caixa((0, 1.15, .06), (.3, .08, .02), '#e8553a')   # faixas
 caixa((0, .42, -.09), (.04, .22, .1), '#1f1f24', afina=.4)                                   # quilha
 fim(.02)
+novo('fishing_net')                                   # rede de pesca esticada entre dois postes, com um rasgo no meio (cabos cortados) e boias (heroi do EP 15, cena dos cortadores de rede)
+CD, BO, PO = '#e8dcc0', '#e8742a', '#6a4426'
+for x in (-1.15, 1.15): cil((x, .8, 0), .07, 1.6, PO); bola((x, 1.62, 0), .1, PO)
+for i in range(11):
+    y = .35 + i * .12
+    for j in range(15):
+        x0 = -1.1 + j * .157
+        if math.hypot(x0 + .08 - .1, y - .95) < .34: continue                      # rasgo (buraco) no meio da rede
+        cil(((x0 + .08), y, 0), .014, .157, CD, rot=(0, 0, math.pi / 2))
+for j in range(15):
+    x = -1.1 + j * .157
+    for i in range(10):
+        y0 = .35 + i * .12 + .06
+        if math.hypot(x - .1, y0 - .95) < .34: continue
+        cil((x, y0, 0), .014, .12, CD)
+for k in range(6): tubo([(-.1 + k * .09, .72, 0), (-.12 + k * .09, .55, .04 * (k % 2)), (-.08 + k * .09, .42, .02)], .012, CD)   # cabos cortados pendurados
+for j in range(8): bola((-1.0 + j * .3, 1.55, 0), .075, BO)                         # boias
+fim(.02)
