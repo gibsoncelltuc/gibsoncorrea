@@ -99,3 +99,9 @@ Toda revisao com defeito achado vira linha "CORRIGIDO" no revisao_storyboard.md,
 Os 63 roteiros que ja tinham video sao TODOS refeitos com a ferramenta final, divididos assim:
 sessao principal = queue.txt (24) | sessao A = fila_sessao_A.txt (20) | sessao B = fila_sessao_B.txt (19).
 NADA de tema novo ate terminar a refacao. Cada video: storyboard + grade de acoes + revisao_storyboard.md + verificar_execucao; so depois render; entrega so depois de conferir.sh e olhar a folha de contato.
+
+## 15. WATCHDOG (ordem do Gibson 19/11)
+- Toda sessao: o hook de inicio (boot.sh) relanca a FILA e, nas sessoes A/B, o loop do sync_ferramenta.sh assim que a maquina reinicia.
+- Sessao principal: `watchdog.sh` em segundo plano verifica a cada 5 min a fila local (relanca sozinho) e as sessoes A/B (branch sem commit ha 15 min = parada) e acorda a principal para mandar a sessao retomar de onde parou.
+- Tarefas agendadas a cada ~10 min na sessao principal (:04 :14 :24 :34 :44 :54) relancam o watchdog se a propria sessao principal tiver reiniciado.
+- Sessao A/B que receber "WATCHDOG: retome": merge do principal, fila, sync, e continua exatamente do video/etapa onde estava.
