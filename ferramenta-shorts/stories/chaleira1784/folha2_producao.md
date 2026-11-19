@@ -78,12 +78,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): GEN (variante 0, expressao scared, segura flag); AUS (variante 0, expressao nervous); COZ (variante 0, expressao cry) | multidao: 12 de GEN/AUS/COZ
 - Animacao: reagir | batalha encenada
-- Objetos/modelos: kit/marco_viena, kit/kettle
+- Objetos/modelos: kit/kettle, kit/marco_viena
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): capitao, sopa
 - RISCOS: nenhum
 
 ## Cena b8 - O imperador desistiu do rio. Em troca, a Holanda pagou uma indenização...
-- Cenario: interior pedra | luz: noite | clima: limpo
+- Cenario: interior pedra | luz: dia | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): IMP (variante 0, expressao sad); HOL (variante 0, expressao smug, segura money)
