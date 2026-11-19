@@ -1,4 +1,3 @@
-eratostenes240
 ese_dinheiro
 ese_lua
 reeleicao2024

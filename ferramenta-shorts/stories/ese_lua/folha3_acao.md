@@ -19,7 +19,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | aproxima-se | OK |
-| 2 | - | ATUACAO | dancar | OK |
+| 2 | - | ATUACAO | reagir | OK |
 
 ## Cena b2 - 10.6s a 14.1s - 12 palavras - plano reveal
 > "A segunda, no mar. Quem mais puxa as marés é a Lua."

@@ -9,7 +9,7 @@ b1 | street | reveal | 10 | parados (so fala e pisca) | kit/marco_pisa | - | -
 b2 | interior pedra | two | 2 | conversar, INTERAGEM: vai ate o outro | - | - | -
 b3 | interior pedra | group | 3 | conversar, INTERAGEM: aproxima-se | - | - | -
 b4 | interior pedra | two | 2 | conversar, INTERAGEM: discutir | - | - | -
-b5 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua, alguem chega andando | kit/pisa_tower, kit/ball, war/cannonballs, kit/marco_pisa, buildings/castle_tower | - | -
+b5 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua, alguem chega andando | kit/pisa_tower, kit/ball, war/cannonballs, kit/marco_pisa | - | -
 b6 | street | orbit | 14 | reagir, batalha | kit/pisa_tower, kit/ball, war/cannonballs, kit/marco_pisa | - | -
 b7 | stadium | group | 3 | conversar, INTERAGEM: susto | - | - | -
 b8 | interior madeira | two | 2 | discutir, INTERAGEM: cochichar | - | book | -

@@ -34,5 +34,6 @@ laughs(F(_A[10] + int((_A[11] - _A[10]) * 0.2))); laughs(F(_A[10] + int((_A[11] 
 sting(F(int(_W(53))))
 tick(F(int(_W(48))))
 thump(F(int(_W(135))))
+thump(F(int(_W(135))))
 ding(F(int(_W(148))))
 ding(F(int(_W(148))))

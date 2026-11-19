@@ -11,7 +11,7 @@ b3 | street | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/roadster
 b4 | street | crowd | 23 | reagir, batalha | kit/falcon_air, kit/marco_canaveral, kit/rocket | - | -
 b5 | interior loja | two | 2 | conversar, INTERAGEM: insiste | kit/roadster | - | -
 b6 | street | orbit | 19 | batalha | kit/roadster, kit/marco_canaveral | - | -
-b7 | harbor | group | 2 | conversar, INTERAGEM: vai ate o outro | kit/globe, kit/roadster, kit/marco_canaveral | - | -
+b7 | arctic | group | 2 | conversar, INTERAGEM: vai ate o outro | kit/globe, kit/roadster, kit/marco_canaveral | - | -
 b8 | harbor | group | 2 | conversar, INTERAGEM: aproxima-se | kit/roadster, kit/marco_canaveral | - | -
 b9 | harbor | crowd | 21 | comemorar, batalha | kit/rocket, kit/roadster, kit/marco_canaveral | - | -
 

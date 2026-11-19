@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 22 - A Operação da Madrugada
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 6.3s - 22 palavras - plano two
@@ -85,10 +85,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | morreu (51.7s) | EFEITO: puff | fumaca + som | OK |
-| 2 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | ATUACAO | reagir | OK |
-| 5 | - | PLACA | MUNDO | OK |
+| 2 | morreu (51.7s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
+| 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 5 | - | ATUACAO | reagir | OK |
+| 6 | - | PLACA | MUNDO | OK |
 
 ## Cena b10 - 56.8s a 59.6s - 10 palavras - plano close
 > "A operação ganhou um nome que resume tudo: Resolução Absoluta."

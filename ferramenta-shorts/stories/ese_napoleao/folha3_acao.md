@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - E Se EP 08 - E Se Napoleão Tivesse Vencido em Waterloo?
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.8s - 15 palavras - plano two
@@ -68,9 +68,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | morreu (38.9s) | EFEITO: puff | fumaca + som | OK |
-| 2 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 3 | - | INTERACAO | empurrar | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 2 | morreu (38.9s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
+| 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 4 | - | INTERACAO | empurrar | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 40.2s a 44.6s - 14 palavras - plano two
 > "E se ele tivesse ganhado? Muita gente imagina um império francês dominando a Europa."

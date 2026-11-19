@@ -58,7 +58,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): GAL (variante 0, expressao smile); ALU (variante 0, expressao surprised)
 - Animacao: conversar | interacao: avanca e o outro recua | o ultimo personagem ENTRA andando
-- Objetos/modelos: kit/pisa_tower, kit/ball, war/cannonballs, kit/marco_pisa, buildings/castle_tower
+- Objetos/modelos: kit/pisa_tower, kit/ball, war/cannonballs, kit/marco_pisa
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): duas, pesos, pisa, torre
 - RISCOS: nenhum
 
@@ -121,7 +121,6 @@ kit/pisa_tower | b0, b5, b6 | pronto (HEROI: aparece em close) | conferir na fol
 kit/marco_pisa | b0, b1, b5, b6, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/ball | b0, b5, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 war/cannonballs | b5, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/castle_tower | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 tools/hammer | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/feather | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
