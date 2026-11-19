@@ -44,7 +44,8 @@
    "hair": "#f2c84a",
    "tie": "#d8282f",
    "pele": "#f5c49a",
-   "build": "stout"
+   "build": "stout",
+   "swoop": true
   },
   "FUN": {
    "jacket": "#d85a3a",

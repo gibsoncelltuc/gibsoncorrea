@@ -14,11 +14,12 @@
    "jacket": "#22252c",
    "pants": "#2a2d33",
    "boots": "#f4f1e8",
-   "hat": "hair",
+   "hat": "cap",
    "beard": "#2a201a",
    "pele": "#e8c8a8",
-   "hair": "#1a1410",
-   "fixo": true
+   "fixo": true,
+   "cap": "#1b1b1f",
+   "capBack": true
   },
   "JOR": {
    "jacket": "#4a6a9a",

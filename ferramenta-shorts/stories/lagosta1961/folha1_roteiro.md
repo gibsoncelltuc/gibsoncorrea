@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: A discussão esquentou, e a França mandou um navio de guerra para proteger os pescadores dela.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: discussão -> puff + som de baque
+- Efeito + som nas palavras-chave: discussão -> puff + som de baque; encena: calor (reach) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
