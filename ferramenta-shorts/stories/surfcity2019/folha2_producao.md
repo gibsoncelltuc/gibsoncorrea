@@ -62,14 +62,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): auditoria, governo, projecao
 - RISCOS: nenhum
 
-## Cena b6 - Críticos dizem que construir na costa preocupa moradores e ambientalis...
+## Cena b6 - Críticos dizem que o projeto na costa preocupa moradores e ambientalis...
 - Cenario: harbor | luz: golden | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (3): JOR (variante 0, expressao worried); JOR2 (variante 0, expressao suspicious); POV (variante 0, expressao worried)
 - Animacao: conversar | interacao: discutir
 - Objetos/modelos: kit/volcano
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): costa
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): costa, projeto
 - RISCOS: nenhum
 
 ## Cena b7 - A Surf City dois leva o projeto para o leste do país.
@@ -112,7 +112,7 @@ kit/volcano | b1, b2, b3, b4, b6, b7, b8, b9 | pronto | conferir na folha de con
 
 
 ## Video inteiro
-- Objeto heroi: kit/surfboard | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 25% | medio 60% | aberto 9% | detalhe 7%
+- Objeto heroi: kit/surfboard | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 24% | medio 60% | aberto 9% | detalhe 7%
 - Interacoes: b1 cochichar, b3 insiste, b5 vai ate o outro, b6 discutir, b7 susto, b8 aproxima-se
 - RISCOS GERAIS: nenhum
 
