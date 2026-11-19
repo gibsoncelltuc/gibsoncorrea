@@ -21,7 +21,29 @@ for d in node_modules out stories videos; do ln -s $F/$d $W/$d; done
 for d in assets lib sets; do [ -e $W/web/$d ] && continue; ln -s $F/web/$d $W/web/$d; done
 cd $W
 bash build3.sh $ID > /dev/null 2>&1
-if [ -n "$SC" ]; then node strip.mjs $ID $SC $N $F/stories/$ID/precheck_$SC.jpg | tail -1; echo "-> stories/$ID/precheck_$SC.jpg"
+if [ "$SC" = "acoes" ]; then   # GRADE DE ACOES (19/11): 1 quadro no INSTANTE EXATO de cada acao catalogada na folha 3, com a palavra escrita embaixo
+  python3 - "$ID" > acoes_frames.txt <<'PYA'
+import re, sys
+rows = []
+for l in open(f'stories/{sys.argv[1]}/folha3_acao.md'):
+    m = re.match(r'## Cena (b\d+)', l)
+    if m: cena = m.group(1)
+    r = re.match(r'\| \d+ \| (.+?) \(([\d.]+)s\) \| (.+?) \|', l)
+    if r: rows.append((round(float(r.group(2)) * 30) + 9, f"{cena} {r.group(1)} | {r.group(3)[:34]}"))
+for f, t in rows: print(f"{f}\t{t}")
+PYA
+  FR=$(cut -f1 acoes_frames.txt | paste -sd,); NF=$(wc -l < acoes_frames.txt)
+  FRAMES=$FR node strip.mjs $ID b0 $NF x_strip.jpg > /dev/null 2>&1
+  python3 - acoes_frames.txt $F/stories/$ID/grade_acoes.jpg <<'PYB'
+import sys
+from PIL import Image, ImageDraw
+L = [l.rstrip('\n').split('\t') for l in open(sys.argv[1])]; im = Image.open('x_strip.jpg'); n = len(L); w = im.width // max(1, n); h = im.height; C = 7
+out = Image.new('RGB', (C * w, ((n + C - 1) // C) * (h + 26)), 'white'); d = ImageDraw.Draw(out)
+for i, (f, t) in enumerate(L):
+    x, y = (i % C) * w, (i // C) * (h + 26); out.paste(im.crop((i * w, 0, (i + 1) * w, h)), (x, y)); d.text((x + 3, y + h + 2), t[:46], fill='black'); d.text((x + 3, y + h + 13), t[46:92], fill='black')
+out.save(sys.argv[2], quality=85); print(f'-> {sys.argv[2]} ({n} acoes)')
+PYB
+elif [ -n "$SC" ]; then node strip.mjs $ID $SC $N $F/stories/$ID/precheck_$SC.jpg | tail -1; echo "-> stories/$ID/precheck_$SC.jpg"
 else
   rm -rf sb_tmp; node storyboard.mjs $ID x.jpg 300 > /dev/null 2>&1 || true
   n=$(ls sb_tmp 2>/dev/null | wc -l); [ "$n" -gt 0 ] || { echo "storyboard vazio"; cd $F; rm -rf $W; exit 4; }

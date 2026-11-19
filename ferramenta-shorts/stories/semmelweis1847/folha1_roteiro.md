@@ -105,7 +105,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Anos depois, a ciência provou os micróbios. Hoje, ele é chamado de salvador das mães.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_come (lift) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: LAVE AS MÃOS
 - Funcao na historia: FECHO/PIADA FINAL

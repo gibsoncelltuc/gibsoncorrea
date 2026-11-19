@@ -40,21 +40,21 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b4  (~5.9 s)
 - Narracao: Acontece que o primo acertou um golpe certeiro, e cortou fora um pedaço do nariz de Tycho.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@26, thump@30
 - Efeito + som nas palavras-chave: encena: golpe (punch) -> acao + som de efeito; encena: corta (reach) -> acao + som de efeito
 - Efeito visual marcado: burst@30, puff@36
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: VIRADA
 
 ## Cena b5  (~5.2 s)
 - Narracao: Para esconder o buraco, ele passou a usar um nariz de metal, colado no rosto.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
+- Efeito visual marcado: ring@12, dust@40
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b6  (~5.9 s)
 - Narracao: Anos depois, o rei da Dinamarca deu a ele uma ilha inteira, só para estudar o céu.
