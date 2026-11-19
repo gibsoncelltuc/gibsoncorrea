@@ -1,4 +1,3 @@
-ese_dinheiro
 aroostook1838
 balde1325
 bolos1838
@@ -12,5 +11,6 @@ pia2022
 roadster2018
 selfie2019
 eratostenes240
+ese_dinheiro
 ese_lua
 ese_napoleao
