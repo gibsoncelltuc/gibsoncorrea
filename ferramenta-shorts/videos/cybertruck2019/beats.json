@@ -230,6 +230,7 @@
    "set": "countryside"
   }
  ],
- "exp": 0.9,
- "marco": "kit/marco_hollywood"
+ "exp": 1.008,
+ "marco": "kit/marco_hollywood",
+ "cinf": 4.5
 }
