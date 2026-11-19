@@ -3,9 +3,9 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/surfcity2019/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py surfcity2019` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Em dois mil e dezenove, o presidente Nayib Bukele lançou a Surf City E...
-- Cenario: harbor | luz: golden | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Cenario: interior pedra | luz: golden | clima: limpo
+- Camera: close = close no rosto; empurra devagar
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): BUK (variante 0, expressao smug)
 - Animacao: conversar
 - Objetos/modelos: kit/surfboard
@@ -18,7 +18,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): BUK (variante 0, expressao grin); JOR (variante 0, expressao laugh)
 - Animacao: conversar | interacao: cochichar
-- Objetos/modelos: kit/surfboard
+- Objetos/modelos: kit/surfboard, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): plano, praias
 - RISCOS: nenhum
 
@@ -28,17 +28,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (1): BUK (variante 0, expressao grin) | multidao: 10 de POV
 - Animacao: - | batalha encenada
-- Objetos/modelos: kit/surfboard
+- Objetos/modelos: kit/surfboard, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): duzentos, mundial, surfe
 - RISCOS: nenhum
 
 ## Cena b3 - Aquele evento valeu vaga para as Olimpíadas de Tóquio, e as praias vir...
-- Cenario: harbor | luz: golden | clima: limpo
+- Cenario: street | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): JOR (variante 0, expressao shock); JOR2 (variante 0, expressao laugh)
 - Animacao: reagir | interacao: insiste
-- Objetos/modelos: -
+- Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): olimpiadas, praias, toquio
 - RISCOS: nenhum
 
@@ -48,57 +48,57 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (1): BUK (variante 0, expressao smug) | multidao: 10 de POV
 - Animacao: - | batalha encenada
-- Objetos/modelos: kit/surfboard
+- Objetos/modelos: kit/surfboard, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): olho
 - RISCOS: nenhum
 
 ## Cena b5 - O governo estimou quinhentos mil empregos em dez anos, mas é uma proje...
-- Cenario: harbor | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Cenario: interior loja | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): BUK (variante 0, expressao grin); JOR2 (variante 0, expressao suspicious)
 - Animacao: conversar | interacao: vai ate o outro
 - Objetos/modelos: kit/surfboard
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): auditoria, governo, projecao
 - RISCOS: nenhum
 
-## Cena b6 - Críticos dizem que as obras na costa preocupam moradores e ambientalis...
+## Cena b6 - Críticos dizem que construir na costa preocupa moradores e ambientalis...
 - Cenario: harbor | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): JOR (variante 0, expressao worried); JOR2 (variante 0, expressao suspicious)
-- Animacao: conversar | interacao: aproxima-se
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): costa, obras
+- Personagens principais (3): JOR (variante 0, expressao worried); JOR2 (variante 0, expressao suspicious); POV (variante 0, expressao worried)
+- Animacao: conversar | interacao: discutir
+- Objetos/modelos: kit/volcano
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): costa
 - RISCOS: nenhum
 
 ## Cena b7 - A Surf City dois leva o projeto para o leste do país.
-- Cenario: harbor | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Cenario: countryside | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): BUK (variante 0, expressao grin); JOR (variante 0, expressao shock)
 - Animacao: conversar | interacao: susto
-- Objetos/modelos: kit/surfboard
+- Objetos/modelos: kit/volcano, kit/surfboard
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): leste, projeto, surf
 - RISCOS: nenhum
 
 ## Cena b8 - Em dois mil e vinte e cinco, o Mundial voltou a La Bocana e El Sunzal.
 - Cenario: harbor | luz: golden | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (3): BUK (variante 0, expressao laugh); JOR (variante 0, expressao grin); JOR2 (variante 0, expressao laugh)
-- Animacao: conversar | interacao: avanca e o outro recua
-- Objetos/modelos: kit/surfboard
+- Animacao: conversar | interacao: aproxima-se
+- Objetos/modelos: kit/surfboard, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): mundial
 - RISCOS: nenhum
 
 ## Cena b9 - Entre números otimistas e dúvidas, uma coisa é certa: El Salvador viro...
-- Cenario: harbor | luz: golden | clima: limpo
+- Cenario: street | luz: golden | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): BUK (variante 0, expressao smug)
 - Animacao: conversar
-- Objetos/modelos: kit/surfboard
+- Objetos/modelos: kit/surfboard, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
@@ -108,11 +108,12 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/surfboard | b0, b1, b2, b4, b5, b7, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/volcano | b1, b2, b3, b4, b6, b7, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/surfboard | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 22% | medio 62% | aberto 9% | detalhe 7%
-- Interacoes: b1 cochichar, b3 insiste, b5 vai ate o outro, b6 aproxima-se, b7 susto, b8 avanca e o outro recua
+- Objeto heroi: kit/surfboard | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 25% | medio 60% | aberto 9% | detalhe 7%
+- Interacoes: b1 cochichar, b3 insiste, b5 vai ate o outro, b6 discutir, b7 susto, b8 aproxima-se
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

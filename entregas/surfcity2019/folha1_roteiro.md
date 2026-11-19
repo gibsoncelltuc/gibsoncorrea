@@ -1,10 +1,10 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 07 - A Cidade do Surfe
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 10 cenas, 155 palavras (~53 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 10 cenas, 154 palavras (~53 s)
 
 ## Cena b0  (~5.2 s)
 - Narracao: Em dois mil e dezenove, o presidente Nayib Bukele lançou a Surf City El Salvador.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b3  (~4.8 s)
 - Narracao: Aquele evento valeu vaga para as Olimpíadas de Tóquio, e as praias viraram manchete.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -49,25 +49,25 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b5  (~5.9 s)
 - Narracao: O governo estimou quinhentos mil empregos em dez anos, mas é uma projeção oficial, não uma auditoria.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: 500 MIL EMPREGOS?
 - Funcao na historia: desenvolvimento
 
-## Cena b6  (~3.8 s)
-- Narracao: Críticos dizem que as obras na costa preocupam moradores e ambientalistas.
+## Cena b6  (~3.4 s)
+- Narracao: Críticos dizem que construir na costa preocupa moradores e ambientalistas.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: constroi (hammer) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b7  (~4.1 s)
 - Narracao: A Surf City dois leva o projeto para o leste do país.
-- Som ambiente: sea
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b9  (~5.2 s)
 - Narracao: Entre números otimistas e dúvidas, uma coisa é certa: El Salvador virou assunto entre surfistas.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
