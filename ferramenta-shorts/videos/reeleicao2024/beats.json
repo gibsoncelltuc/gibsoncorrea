@@ -41,6 +41,14 @@
     "beret",
     "bowler"
    ]
+  },
+  "GEN": {
+   "jacket": "#1b1b22",
+   "pants": "#1b1b22",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#cfcfcf",
+   "uniforme_fixo": true
   }
  },
  "beats": [
