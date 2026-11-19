@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 06 - A Guerra do Porco
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 47 acoes catalogadas, 47 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 46 acoes catalogadas, 46 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 2.6s - 11 palavras - plano two
@@ -26,9 +26,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | encontrou (11.2s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 2 | comendo (12.0s) | ACAO: x_come | leva a comida a boca | OK |
-| 3 | - | CENA | animal: pig come | OK |
+| 1 | encontrou (11.2s) | ACAO: olha | aponta/olha | OK |
+| 2 | - | CENA | animal: pig come | OK |
 
 ## Cena b3 - 14.3s a 18.6s - 13 palavras - plano two
 > "Ele pegou a espingarda, e atirou. O porco era de um vizinho inglês."

@@ -17,13 +17,15 @@ while true; do
     echo "$(date +%T) >>> refazendo cenas: $L1"; FROM_QUEUE=1 bash refazer.sh $L1 9>&- >> logs/refazer_run.log 2>&1 || echo "$(date +%T) refazer falhou: $L1 (veja logs/refazer_run.log)"
     grep -vxF "$L1" refazer.txt > refazer.tmp; mv refazer.tmp refazer.txt
   done
-  NEXT=""
+  NEXT=""; ESPERA=0
   while read -r id _; do
     case "$id" in ""|\#*) continue;; esac
     [ -f stories/$id/DONE ] && continue
     [ -f stories/$id/SKIP ] && continue   # reprovou 2x no gate: precisa de ajuste no roteiro/cena (veja logs/gate_<id>.txt); apague SKIP para tentar de novo
+    [ -f stories/$id/AGUARDA_STORYBOARD ] && { ESPERA=1; continue; }   # storyboard pronto esperando aprovacao: a fila segue com o proximo
     NEXT=$id; break
   done < queue.txt
+  [ -z "$NEXT" ] && [ "$ESPERA" = "1" ] && { echo "$(date +%T) so falta aprovar storyboard(s): ./aprovar_storyboard.sh <id>; espero 2 min"; sleep 120; continue; }
   [ -z "$NEXT" ] && { echo "$(date +%T) fila vazia: tudo pronto"; exit 0; }
   if [ "${SESSION_GUARD:-1}" != "0" ]; then
     UP=$(uptime_s); UP=${UP:-0}; LEFT=$(( SESSION_MIN*60 - UP - SAFETY_MIN*60 ))
@@ -33,9 +35,10 @@ while true; do
   fi
   echo "$(date +%T) >>> $NEXT"
   bash make_video.sh "$NEXT" 9>&-; RC=$?   # 9>&-: os filhos nao herdam a trava (senao um processo orfao bloqueia a fila)
+  if [ $RC -eq 76 ]; then echo "$(date +%T) $NEXT: storyboard pronto, AGUARDANDO APROVACAO (stories/$NEXT/storyboard.jpg)"; continue; fi
   if [ $RC -eq 75 ]; then
     echo "$(date +%T) PAUSA DE SEGURANCA: checkpoint salvo. Aguardando $GRACE_MIN min por reinicio; se nao reiniciar, continuo."; sleep $((GRACE_MIN*60)); continue
   fi
-  if [ $RC -ne 0 ] && [ $RC -ne 75 ]; then N=$(( $(cat stories/$NEXT/fails 2>/dev/null || echo 0) + 1 )); echo $N > stories/$NEXT/fails; [ $N -ge 2 ] && { touch stories/$NEXT/SKIP; echo "$(date +%T) $NEXT reprovou $N vezes: PULADO (veja logs/gate_$NEXT.txt)"; continue; }; fi
+  if [ $RC -ne 0 ] && [ $RC -ne 75 ] && [ $RC -ne 76 ]; then N=$(( $(cat stories/$NEXT/fails 2>/dev/null || echo 0) + 1 )); echo $N > stories/$NEXT/fails; [ $N -ge 2 ] && { touch stories/$NEXT/SKIP; echo "$(date +%T) $NEXT reprovou $N vezes: PULADO (veja logs/gate_$NEXT.txt)"; continue; }; fi
   [ $RC -ne 0 ] && { echo "$(date +%T) falhou $NEXT (veja logs/make_$NEXT.log); tentando de novo em 60 s"; sleep 60; }
 done
