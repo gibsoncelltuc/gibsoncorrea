@@ -45,7 +45,7 @@ SETDEF.stadium = (X) => {
   groundPlane(X, 0, 200, 140, MW.grass, DECK, 4); groundPlane(X, 0, 200, 4, MW.white, DECK + 0.03, 4);
   const fans = []; const rf = P.rng(77), cols = ['#d8282f', '#27408b', '#f1ece0', '#e8c45a', '#2f8a4a', '#7b5ac9'];
   for (let r = 0; r < 5; r++) { add(box(160, 1.2, 3.2), toon({ color: '#9a9a9f' }), X, DECK + 0.6 + r * 1.2, -34 - r * 3.2, world);
-    for (let i = 0; i < 52; i++) { const m = add(new THREE.SphereGeometry(0.55, 8, 6), toon({ color: cols[(i * 7 + r * 3 + Math.floor(rf() * 3)) % 6] }), X - 62 + i * 2.4 + (r % 2) * 1.2, DECK + 1.9 + r * 1.2, -34 - r * 3.2, world, { cast: false }); m.userData.fan = [r, i]; fans.push(m); } }
+    /* torcida de bolinhas removida (19/11): a torcida agora sao personagens de verdade torcendo (mkvideo poe nas arquibancadas) */ }
   for (const sx of [-1, 1]) { add(new THREE.CylinderGeometry(0.1, 0.1, 3, 8), MW.white, X + sx * 24, DECK + 1.5, 0, world); add(new THREE.CylinderGeometry(0.1, 0.1, 3, 8), MW.white, X + sx * 24, DECK + 3, 3, world).rotation.x = Math.PI / 2; }
   UPD.push((W, f, t) => { fans.forEach((m, k) => { const [r, i] = m.userData.fan; m.position.y = DECK + 1.9 + r * 1.2 + 0.28 * Math.abs(Math.sin(t * 4 + i * 1.7 + r)); }); });
   makeTufts(X, 0, 190, 130, 1800, ['#4f9a3e', '#5aa844'], () => true, 0.2); farHills(X, -150, '#8a96b8', '#9aa6c8', 8, 300);
