@@ -1,47 +1,4 @@
 {
- "fails": [
-  {
-   "f": 932,
-   "shot": "b5_d",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 934,
-   "shot": "b5_d",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 953,
-   "shot": "b5_v",
-   "why": [
-    "empty take: no character in the take"
-   ]
-  },
-  {
-   "f": 956,
-   "shot": "b5_v",
-   "why": [
-    "empty take: no character in the take"
-   ]
-  },
-  {
-   "f": 960,
-   "shot": "b5_v",
-   "why": [
-    "gre: head/torso cropped (box 1.347, -0.386, 2.497, 0.847)"
-   ]
-  },
-  {
-   "f": 964,
-   "shot": "b5_v",
-   "why": [
-    "gre: head/torso cropped (box 1.124, -0.105, 1.851, 0.78)"
-   ]
-  }
- ],
+ "fails": [],
  "tiny": []
 }
