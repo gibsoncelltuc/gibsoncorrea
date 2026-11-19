@@ -5,7 +5,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | -  | - | encena: mistura (stir) (acao + som de efeito); encena: fala (point) (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | chegou (dust + som de impacto); encena: chega (point) (acao + som de efeito) | -
 b2 | two | -  | objeto na mao | - | -
-b3 | two | -  | objeto na mao | encena: olha (point) (acao + som de efeito); encena: escreve (write) (acao + som de efeito) | -
+b3 | two | -  | objeto na mao | encena: olha (point) (acao + som de efeito) | -
 b4 | two | -  | interior | - | -
 b5 | two | -  | interior | encena: quebra (throw) (acao + som de efeito) | -
 b6 | wide | -  | batalha aberta com tiros, tropa | encena: pensa (think) (acao + som de efeito) | -

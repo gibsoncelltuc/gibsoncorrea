@@ -53,7 +53,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | plantou (26.2s) | ACAO: x_planta | cava/planta + terra | OK |
-| 2 | contou (27.8s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+| 2 | contou (27.8s) | ACAO: fala | aponta explicando | OK |
 | 3 | - | INTERACAO | insiste | OK |
 
 ## Cena b6 - 30.3s a 36.4s - 16 palavras - plano orbit

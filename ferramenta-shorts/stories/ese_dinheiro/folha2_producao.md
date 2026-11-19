@@ -20,7 +20,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: reagir | interacao: discutir | o ultimo personagem ENTRA andando
 - Objetos/modelos: kit/cake_table
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cafe, padaria
-- RISCOS: nenhum
+- RISCOS: 
+  - ACAO SEM ANIMACAO na narracao: pagar -> CORRECAO: a cena precisa MOSTRAR a acao: reescreva com um verbo que a ferramenta encena (veja OPERACAO.md "MODO DE ACAO") ou marque a cena ("batalha", "interacao", "acao", "animals", "props")
 
 ## Cena b2 - A saída seria a mais antiga de todas: a troca. Uma galinha por uma ces...
 - Cenario: street | luz: day | clima: limpo
@@ -136,7 +137,8 @@ war/cannonballs | b8 | pronto | conferir na folha de contato se le bem; se parec
 - Interacoes: b0 entregar, b1 discutir, b2 entregar, b3 o outro se aproxima, b5 cochichar, b7 vai ate o outro
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- b1: ACAO SEM ANIMACAO na narracao: pagar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh ese_dinheiro bN bM` (so essas cenas).

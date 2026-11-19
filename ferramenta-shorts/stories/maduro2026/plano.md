@@ -11,7 +11,7 @@ b5 | low | noite  | - | encena: atira (acao + som de efeito) | -
 b6 | low | noite  | - | encena: prende (push) (acao + som de efeito) | -
 b7 | two | -  | interior | - | -
 b8 | two | -  | - | - | -
-b9 | orbit | -  | batalha aberta com tiros, tropa, placa: MUNDO | (rosto) sad (expr + som de efeito); morreu (puff + som de baque); encena: morre (acao + som de efeito) | -
+b9 | orbit | -  | batalha aberta com tiros, tropa, placa: MUNDO | (rosto) sad (expr + som de efeito) | -
 b10 | close | -  | - | ganhou (stars + som de sino); encena: vence (up) (acao + som de efeito) | -
 
 Mistura de planos: close 21% | medio 63% | aberto 10% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)

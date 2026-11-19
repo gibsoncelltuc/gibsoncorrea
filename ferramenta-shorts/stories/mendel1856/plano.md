@@ -7,7 +7,7 @@ b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | - | encena: x_espera (cross) (acao + som de efeito) | -
 b3 | two | -  | - | encena: sai (acao + som de efeito) | -
 b4 | two | -  | interior | - | -
-b5 | two | -  | objeto na mao | encena: x_planta (hammer) (acao + som de efeito); encena: examina (think) (acao + som de efeito) | -
+b5 | two | -  | objeto na mao | encena: x_planta (hammer) (acao + som de efeito); encena: fala (point) (acao + som de efeito) | -
 b6 | orbit | -  | batalha aberta com tiros, tropa | - | -
 b7 | two | -  | interior | descobriu (ring + som de alerta); encena: examina (think) (acao + som de efeito) | -
 b8 | two | -  | interior, objeto na mao | encena: x_fone (lift) (acao + som de efeito) | -

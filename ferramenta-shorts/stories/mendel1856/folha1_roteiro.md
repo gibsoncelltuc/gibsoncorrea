@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Ele plantou as amarelas de novo e contou tudo, ervilha por ervilha, durante anos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@30
-- Efeito + som nas palavras-chave: encena: x_planta (hammer) -> acao + som de efeito; encena: examina (think) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_planta (hammer) -> acao + som de efeito; encena: fala (point) -> acao + som de efeito
 - Efeito visual marcado: dust@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

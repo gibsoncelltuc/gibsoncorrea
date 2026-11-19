@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 13 - Você Está Demitido
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.1s - 16 palavras - plano two
@@ -14,12 +14,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | 2004 | OK |
 
-## Cena b1 - 6.6s a 10.0s - 15 palavras - plano reveal
+## Cena b1 - 6.6s a 10.0s - 15 palavras - plano crowd
 > "Em janeiro de dois mil e quatro, estreou nos Estados Unidos o programa O Aprendiz."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | MAPA | ESTADOS UNIDOS | OK |
+| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | - | MAPA | ESTADOS UNIDOS | OK |
 
 ## Cena b2 - 11.3s a 16.3s - 15 palavras - plano two
 > "Dezesseis candidatos disputavam um prêmio raro: um emprego de verdade numa empresa de Donald Trump."
@@ -31,14 +32,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | aproxima-se | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b3 - 17.4s a 22.4s - 18 palavras - plano crowd
+## Cena b3 - 17.4s a 22.4s - 18 palavras - plano two
 > "Toda semana, as equipes tinham uma tarefa de negócios, como vender limonada na rua ou criar uma propaganda."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | vender (20.7s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | vender (20.7s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | INTERACAO | entregar | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b4 - 23.8s a 27.9s - 17 palavras - plano two
