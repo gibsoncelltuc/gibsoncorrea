@@ -8,7 +8,7 @@
  "set": "harbor",
  "hora": "dia",
  "light": "golden",
- "exp": 1.0,
+ "exp": 1.12,
  "mood": "playful",
  "heroi": "kit/surfboard",
  "outfits": {
@@ -281,5 +281,6 @@
   "https://ticotimes.net/2025/12/07/el-salvadors-surf-city-reshapes-coastline-amid-tourism-boom"
  ],
  "ano": 2019,
- "regiao": "colonial"
+ "regiao": "colonial",
+ "cinf": 4.5
 }
