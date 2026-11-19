@@ -1187,7 +1187,7 @@ const footStroke = (p, a, b, w, col)=>{
 export const bodyFront = (p, o, opts)=>{
     if (o.shirtless) o = { ...o, jacket: o.skin || SKIN, tie: null, collar: null, buttons: null };   /* sem camisa (lutador): o tronco e' pele */
     const { phase = 0, expr = "neutral", mode = "march", look = 0, blink = false, lift = 60, hp: holdK = 0.3, prop = null, tilt = 0, headTilt = 0, wave, light = DEF_LIGHT, facing = 0, seed = 1, fx = null, gest = null, gk = 1, gt = 0, aim = 0 } = opts;
-    const Bd = BUILD[o.build ?? "adult"], skin = o.skin ?? SKIN, two = Math.PI * 2, lid = lidOf(blink);
+    const Bd = BUILD[o.build] || BUILD.adult, skin = o.skin ?? SKIN, two = Math.PI * 2, lid = lidOf(blink);
     const H = headBlob(seed, Bd.a, facing), W = 2 * H.a, HH = 2 * H.b, u = W / 100;
     const tall = (1 + Bd.torso + Bd.legs) * HH, sole = 975;
     const bob = mode === "march" ? 0.025 * tall * Math.cos(2 * two * phase) : mode === "stroll" ? 0.015 * tall * Math.cos(2 * two * phase) : 0;
@@ -1815,7 +1815,7 @@ const drawRifle = (p, R0, R1, u) => {
 export const bodySide = (p, o, opts)=>{
     if (o.shirtless) o = { ...o, jacket: o.skin || SKIN, tie: null, collar: null, buttons: null };   /* sem camisa (lutador): o tronco e' pele */
     const { phase = 0, expr = "neutral", mode = "march", blink = false, stomp = 1, pose = 0, stride = 1, light = DEF_LIGHT, seed = 1, aim = 0 } = opts;
-    const Bd = BUILD[o.build ?? "adult"], skin = o.skin ?? SKIN, two = Math.PI * 2, lid = lidOf(blink);
+    const Bd = BUILD[o.build] || BUILD.adult, skin = o.skin ?? SKIN, two = Math.PI * 2, lid = lidOf(blink);
     const H = {
         ...headBlob(seed, Bd.a, 1),
         asym: 0.12,

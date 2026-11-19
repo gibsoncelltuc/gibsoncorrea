@@ -60,7 +60,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | espetado (36.7s) | ACAO: espeta | espeta + estouro | OK |
-| 2 | - | INTERACAO | susto | OK |
+| 2 | - | INTERACAO | empurrar | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b6 - 39.8s a 45.1s - 15 palavras - plano two
