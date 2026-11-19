@@ -6,7 +6,7 @@
 //  - Trava de seguranca: SIGTERM/SIGINT, arquivo out/<id>/PAUSE ou DEADLINE (epoch s) => para de puxar quadros, termina os em curso, codifica trechos completos,
 //    roda o checkpoint (ckpt.sh) e sai com codigo 75 ("pausado, relance para continuar").
 import { launch } from './launch.mjs'; import http from 'http'; import fs from 'fs'; import path from 'path'; import os from 'os'; import { spawn, spawnSync } from 'child_process';
-const [,, ID, NARG, WARG] = process.argv; const N = +NARG; const SEG = +(process.env.SEG || 150); const QUAL = +(process.env.QUAL || 0.96);
+const [,, ID, NARG, WARG] = process.argv; const N = +NARG; const SEG = +(process.env.SEG || 150); const QUAL = +(process.env.QUAL || 0.99);   /* QUALIDADE MAXIMA (ordem do Gibson): quadro quase sem compressao */
 const K = Math.max(1, +(WARG || process.env.WORKERS || os.cpus().length)); const DEADLINE = +(process.env.DEADLINE || 0) * 1000;
 const FR = path.resolve(`out/${ID}/frames`), CK = path.resolve(`ckpt/${ID}`), PAUSE = path.resolve(`out/${ID}/PAUSE`), WEB = path.resolve(process.env.WEB || `../webs/${ID}`);
 fs.mkdirSync(FR, { recursive: true }); fs.mkdirSync(CK, { recursive: true });
@@ -61,7 +61,7 @@ async function processSeg(k, round = 0) {
   let flagged = []; try { flagged = JSON.parse(fs.readFileSync(`out/${ID}/qa_seg${k}.json`, 'utf8')).frames.filter((e) => e.reasons.some((r) => /band|black|white|glitch/.test(r))).map((e) => e.f); } catch {}
   if (flagged.length && round < 2) { log(`trecho ${k}: ${flagged.length} quadros reprovados no QA (${flagged.slice(0, 8).join(',')}) -> re-renderizando`); for (const f of flagged) { fs.rmSync(fname(f), { force: true }); queue.push(f); } remaining[k] = flagged.length; roundOf[k] = round + 1; return false; }
   const vf = `setpts=PTS+${a}/30/TB,subtitles=stories/${ID}/caps.ass:fontsdir=fonts,setpts=PTS-STARTPTS,format=yuv420p`;
-  const r = await sh('nice', ['-n', '10', 'ffmpeg', '-v', 'error', '-y', '-framerate', '30', '-start_number', String(a), '-i', path.join(FR, 'f%04d.jpg'), '-frames:v', String(n), '-vf', vf, '-c:v', 'libx264', '-preset', process.env.X264_PRESET || 'faster', '-crf', process.env.CRF || '20', '-g', '30', '-keyint_min', '30', '-sc_threshold', '0', '-r', '30', '-threads', '2', '-an', '-f', 'mp4', sname(k) + '.part']);
+  const r = await sh('nice', ['-n', '10', 'ffmpeg', '-v', 'error', '-y', '-framerate', '30', '-start_number', String(a), '-i', path.join(FR, 'f%04d.jpg'), '-frames:v', String(n), '-vf', vf, '-c:v', 'libx264', '-preset', process.env.X264_PRESET || 'medium', '-crf', process.env.CRF || '15', '-pix_fmt', 'yuv420p', '-profile:v', 'high', '-g', '30', '-keyint_min', '30', '-sc_threshold', '0', '-r', '30', '-threads', '2', '-an', '-f', 'mp4', sname(k) + '.part']);
   if (r.code !== 0) { log(`trecho ${k}: ffmpeg falhou: ${r.out.slice(-300)}`); fs.rmSync(sname(k) + '.part', { force: true }); return false; }
   fs.renameSync(sname(k) + '.part', sname(k)); doneSegs++; log(`trecho ${k} PRONTO (${a}-${b}, ${(fs.statSync(sname(k)).size / 1e6).toFixed(1)} MB) [${segDone.size + doneSegs}/${NSEG}]`);
   if (process.env.CKPT !== '0') sh('bash', ['ckpt.sh', ID, `trecho ${k}`]).then((x) => { if (x.code) log('ckpt:', x.out.trim().slice(-200)); });

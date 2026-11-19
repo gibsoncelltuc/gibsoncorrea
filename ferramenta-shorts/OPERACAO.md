@@ -177,3 +177,7 @@ Quadrado só o que é quadrado de verdade: placa, casa, caixote, mesa, livro. To
 - Encenacao ampliada: cortar arvore, votar, quebrar/rachar, desabar, pensar, protestar, explicar/apontar, olhar, ir embora (sai andando), cair no chao, dormir, sentar, raspar a cabeca, lutar/golpe, ser preso, escalar, espetar, jogar bola; "entraram escondidos" -> chega andando; "as luzes se apagaram" -> noite.
 - Nada na frente de personagem (fogueira, barril, caixa vao para o lado); poeira/fumaca da palavra-chave sai nos pes.
 - "pegou a espingarda/fuzil" -> arma na mao, aponta e o clarao sai do cano.
+
+## QUALIDADE MAXIMA (ordem do Gibson 19/11): todo video sai assim
+1080x1920, 30 quadros por segundo, quadro renderizado em JPEG 0,99, video H.264 High CRF 15 (praticamente sem perda; ~15-25 Mbps), audio AAC 320 kbps 48 kHz.
+O storyboard (1 quadro a cada ~1,5 s) e' so' para conferir; o video final tem TODOS os quadros. Nao baixe CRF/QUAL/preset para acelerar.
