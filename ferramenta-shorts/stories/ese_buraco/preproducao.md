@@ -6,13 +6,13 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | outback | two | 7 | conversar, INTERAGEM: insiste | kit/globe | shovel | -
 b1 | outback | reveal | 8 | parados (so fala e pisca) | - | - | -
-b2 | outback | two | 2 | conversar, INTERAGEM: vai ate o outro | tools/shovel | shovel | -
-b3 | outback | two | 2 | conversar, INTERAGEM: aproxima-se | kit/scroll | paper | -
-b4 | outback | low | 1 | reagir | kit/globe | - | -
+b2 | mountain | two | 2 | conversar, INTERAGEM: vai ate o outro | tools/shovel, nature/rocks | shovel | -
+b3 | mountain | two | 2 | conversar, INTERAGEM: aproxima-se | kit/scroll | paper | -
+b4 | mountain | low | 1 | reagir | kit/globe | - | -
 b5 | outback | crowd | 23 | reagir, batalha | - | - | -
-b6 | outback | group | 6 | conversar | kit/globe | - | -
-b7 | outback | two | 2 | conversar, INTERAGEM: cochichar | kit/globe | paper | -
-b8 | outback | two | 2 | discutir, INTERAGEM: discutir | - | - | -
+b6 | mountain | group | 6 | conversar | kit/globe | - | -
+b7 | mountain | two | 2 | conversar, INTERAGEM: cochichar | kit/globe | paper | -
+b8 | mountain | two | 2 | discutir, INTERAGEM: discutir | - | - | -
 b9 | outback | orbit | 21 | comemorar, batalha | - | - | -
 b10 | outback | close | 1 | conversar | kit/globe | - | -
 
