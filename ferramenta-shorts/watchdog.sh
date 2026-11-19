@@ -11,7 +11,7 @@ while true; do
     echo "$(date +%T) watchdog: fila local estava parada -> relancada" >> logs/watchdog.log
   fi
   ALERTA=""
-  (cd .. && git fetch -q origin ${BR[A]} ${BR[B]} 2>/dev/null)
+  (cd .. && git fetch -q --depth=1 origin ${BR[A]} ${BR[B]} 2>/dev/null)
   for s in A B; do
     t=$(cd .. && git log -1 --format=%ct origin/${BR[$s]} 2>/dev/null || echo 0); idade=$(( $(date +%s) - t ))
     ult=$(grep "^$s " $ST | tail -1 | cut -d' ' -f2); ult=${ult:-0}

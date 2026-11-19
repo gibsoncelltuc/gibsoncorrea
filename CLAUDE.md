@@ -1,6 +1,6 @@
 # Projeto: shorts animados (ferramenta-shorts/)
 Usuário: Gibson, fala português. Responda sempre em português, curto e honesto. NÃO use agentes/subagentes nem workflows (consomem a cota dele).
-**Antes de qualquer coisa leia `ferramenta-shorts/OPERACAO.md` e `ferramenta-shorts/PROTOCOLO_ACAO.md`** (os 7 passos da fábrica, o que todo vídeo tem, o que é proibido, o que fazer quando dá errado). Depois `CAPACIDADES.md`, `GUIA_DO_ROTEIRISTA.md` e `MODO_RICKS.md`.
+**PRIMEIRO leia `ferramenta-shorts/MANUAL_SONNET.md` (manual completo de operação das 3 sessões, passo a passo, e como resolver problemas difíceis).** Depois leia `ferramenta-shorts/OPERACAO.md` e `ferramenta-shorts/PROTOCOLO_ACAO.md` (os 7 passos da fábrica, o que todo vídeo tem, o que é proibido, o que fazer quando dá errado). Depois `CAPACIDADES.md`, `GUIA_DO_ROTEIRISTA.md` e `MODO_RICKS.md`.
 ## REGRA MESTRA (ordem do Gibson, 19/11) — vale acima de todas as outras
 1. **Nunca informe um problema ao Gibson sem antes já ter resolvido.** Achou o defeito: corrige, confere (teste, quadro, folha de contato) e só então conta o que estava errado e como ficou.
 2. **Todo erro encontrado é PRIORIDADE MÁXIMA:** para o que estiver fazendo, resolve primeiro, depois informa as falhas (já corrigidas) no relatório.
