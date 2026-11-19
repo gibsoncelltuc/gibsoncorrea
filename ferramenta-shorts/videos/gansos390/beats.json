@@ -134,14 +134,20 @@
   {
    "shot": "group",
    "who": [
-    "GAU:0:stern",
-    "GAU:1:nervous",
-    "GAU:2:stern"
+    "ROM:0:neutral"
    ],
    "hora": "noite",
    "say": "Numa noite sem lua, os gauleses escalaram a colina em silêncio. Os guardas dormiam. Ninguém ouviu nada.",
    "shot_lock": true,
-   "riscos_ok": true
+   "riscos_ok": true,
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "GAU"
+    ],
+    "march": true,
+    "expr": "stern"
+   }
   },
   {
    "shot": "two",
@@ -194,7 +200,7 @@
     ]
    ],
    "fachada": false,
-   "say": "Um soldado chamado Mânlio pulou da cama, e empurrou o primeiro invasor muralha abaixo. O gaulês caiu, levando os outros junto.",
+   "say": "Um soldado chamado Mânlio pulou da cama, e empurrou o primeiro invasor muralha abaixo. O gaulês foi derrubado, levando os outros junto.",
    "interacao": "empurrar",
    "fx": [
     "dust@70",

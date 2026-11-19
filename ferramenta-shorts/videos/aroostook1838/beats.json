@@ -157,13 +157,11 @@
    "detalhe": false
   },
   {
-   "shot": "group",
+   "shot": "two",
    "set": "countryside",
    "who": [
     "AME:0:angry",
-    "CAN:0:angry",
-    "AME:1:angry",
-    "CAN:1:angry"
+    "CAN:0:angry"
    ],
    "say": "\"Essa árvore é minha!\", gritou um lenhador, e logo os dois lados começaram a brigar.",
    "fachada": false,
@@ -171,19 +169,19 @@
     [
      "nature/tree_pine",
      -3.0,
-     -5.5,
+     -7.5,
      1.6
     ],
     [
      "nature/tree_pine",
      3.2,
-     -6.5,
+     -8.0,
      1.7
     ],
     [
      "nature/tree_pine",
      -1.0,
-     -9.0,
+     -10.0,
      1.8
     ]
    ],
@@ -195,8 +193,19 @@
    "sfx": [
     "thump@60"
    ],
-   "batalha": false,
-   "interacao": "empurrar"
+   "batalha": true,
+   "interacao": "discutir",
+   "shot_lock": true,
+   "tiros": false,
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "AME",
+     "CAN"
+    ],
+    "march": true,
+    "expr": "angry"
+   }
   },
   {
    "shot": "crowd",
@@ -300,7 +309,8 @@
      1.8
     ]
    ],
-   "say": "Chamaram de Guerra do Porco com Feijão, porque era só isso que as tropas comiam.",
+   "say": "Chamaram de Guerra do Porco com Feijão,",
+   "fachada": false,
    "animals": [
     [
      "pig",
@@ -309,8 +319,33 @@
      "stand",
      1.0
     ]
+   ]
+  },
+  {
+   "shot": "two",
+   "set": "countryside",
+   "who": [
+    "AME:0:smile",
+    "CAN:0:smile"
    ],
-   "fachada": false
+   "props": [
+    [
+     "nature/tree_pine",
+     -3.0,
+     -7.5,
+     1.6
+    ],
+    [
+     "nature/tree_pine",
+     3.2,
+     -8.0,
+     1.7
+    ]
+   ],
+   "say": "porque era só isso que as tropas comiam.",
+   "fachada": false,
+   "shot_lock": true,
+   "animais": false
   }
  ]
 }

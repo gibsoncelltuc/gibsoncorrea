@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | track | -  | animais, placa: 1925 | (rosto) sad (expr + som de efeito); fugiu (dust + som de impacto); morreram (puff + som de baque); encena: corre @2 (acao + som de efeito); encena: morre @16 (acao + som de efeito) | -
+b0 | two | -  | animais, placa: 1925 | (rosto) sad (expr + som de efeito); animal: dog foge correndo (acao + som de efeito); fugiu (dust + som de impacto); morreram (puff + som de baque); encena: corre @2 (acao + som de efeito); encena: morre @16 (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | (rosto) nervous (expr + som de efeito) | -
 b2 | track | -  | animais | fugiu (dust + som de impacto); encena: corre @10 (acao + som de efeito) | -
 b3 | track | -  | animais | correu (dust + som de impacto); encena: corre @2 (acao + som de efeito) | -

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 04 - A Guerra do Balde
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.0s - 13 palavras - plano two
@@ -13,15 +13,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | reagir | OK |
 | 3 | - | PLACA | 1325 | OK |
 
-## Cena b1 - 4.2s a 11.8s - 21 palavras - plano reveal
+## Cena b1 - 4.2s a 11.8s - 21 palavras - plano two
 > "Módena e Bolonha se odiavam havia séculos. Uma apoiava o imperador, a outra, o papa, e qualquer desculpa servia para brigar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | brigar (11.8s) | EFEITO: puff | fumaca + som | OK |
 | 2 | brigar (11.8s) | ACAO: golpe | soco + estouro | OK |
-| 3 | - | ATUACAO | discutir | OK |
-| 4 | - | MAPA | ITÁLIA | OK |
+| 3 | - | INTERACAO | discutir | OK |
+| 4 | - | ATUACAO | discutir | OK |
+| 5 | - | MAPA | ITÁLIA | OK |
 
 ## Cena b2 - 12.9s a 16.6s - 12 palavras - plano track
 > "Numa noite, diz a lenda, soldados de Módena entraram escondidos em Bolonha."

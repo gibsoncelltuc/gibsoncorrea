@@ -58,7 +58,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
-## Cena b6 - 38.2s a 41.9s - 15 palavras - plano low
+## Cena b6 - 38.2s a 41.9s - 15 palavras - plano wide
 > "Acontece que ela desceu de ré, de pé, com o motor aceso freando a queda."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

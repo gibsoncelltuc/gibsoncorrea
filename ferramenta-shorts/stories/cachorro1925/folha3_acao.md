@@ -1,10 +1,10 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 18 - A Guerra do Cão Fugitivo
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 43 acoes catalogadas, 43 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 46 acoes catalogadas, 46 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 5.1s - 17 palavras - plano track
+## Cena b0 - 0.2s a 5.1s - 17 palavras - plano two
 > "Um cachorro fugiu, e por causa dele dois países entraram em guerra, e dezenas de pessoas morreram."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -14,8 +14,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | morreram (5.1s) | EFEITO: puff | fumaca + som | OK |
 | 4 | morreram (5.1s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
 | 5 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 6 | - | ATUACAO | discutir | OK |
-| 7 | - | PLACA | 1925 | OK |
+| 6 | - | CENA | animal: dog foge correndo | OK |
+| 7 | - | INTERACAO | discutir | OK |
+| 8 | - | ATUACAO | discutir | OK |
+| 9 | - | CHEGADA | alguem entra andando | OK |
+| 10 | - | PLACA | 1925 | OK |
 
 ## Cena b1 - 6.4s a 11.8s - 23 palavras - plano reveal
 > "Em mil novecentos e vinte e cinco, a fronteira entre a Grécia e a Bulgária era tensa, e os dois países viviam desconfiados."

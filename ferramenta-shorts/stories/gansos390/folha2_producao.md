@@ -46,8 +46,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: mountain | luz: noite | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (3): GAU (variante 0, expressao stern); GAU (variante 1, expressao nervous); GAU (variante 2, expressao stern)
-- Animacao: conversar | interacao: aproxima-se
+- Personagens principais (1): ROM (variante 0, expressao neutral) | multidao: 10 de GAU
+- Animacao: conversar
 - Objetos/modelos: kit/marco_coliseu
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): colina, gauleses, guardas
 - RISCOS: nenhum
@@ -117,8 +117,8 @@ buildings/castle_tower | b2, b6 | pronto | conferir na folha de contato se le be
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b1, b7 | planos abertos: 3 | mistura: close 18% | medio 56% | aberto 18% | detalhe 7%
-- Interacoes: b0 susto, b2 insiste, b4 aproxima-se, b6 empurrar, b8 o outro se aproxima
+- Objeto heroi: - | grandes momentos: b1, b7 | planos abertos: 3 | mistura: close 18% | medio 57% | aberto 18% | detalhe 7%
+- Interacoes: b0 susto, b2 insiste, b6 empurrar, b8 o outro se aproxima
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 19 - A Guerra de Aroostook
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.4s - 16 palavras - plano two
@@ -31,7 +31,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | discutir | OK |
 
-## Cena b3 - 18.7s a 22.8s - 15 palavras - plano group
+## Cena b3 - 18.7s a 22.8s - 15 palavras - plano two
 > ""Essa árvore é minha!", gritou um lenhador, e logo os dois lados começaram a brigar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -43,7 +43,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | brigar (22.8s) | ACAO: golpe | soco + estouro | OK |
 | 6 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
 | 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 8 | - | INTERACAO | empurrar | OK |
+| 8 | - | INTERACAO | discutir | OK |
 | 9 | - | ATUACAO | discutir | OK |
 
 ## Cena b4 - 23.9s a 27.2s - 12 palavras - plano crowd
@@ -90,11 +90,19 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | entregar | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 48.1s a 51.9s - 15 palavras - plano close
-> "Chamaram de Guerra do Porco com Feijão, porque era só isso que as tropas comiam."
+## Cena b9 - 48.1s a 49.7s - 7 palavras - plano group
+> "Chamaram de Guerra do Porco com Feijão,"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | CENA | animal: pig come | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | conversar | OK |
+
+## Cena b10 - 50.4s a 51.9s - 8 palavras - plano two
+> "porque era só isso que as tropas comiam."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | comiam (51.9s) | ACAO: x_come | leva a comida a boca | OK |
+| 2 | - | INTERACAO | aproxima-se | OK |
+| 3 | - | ATUACAO | conversar | OK |
 

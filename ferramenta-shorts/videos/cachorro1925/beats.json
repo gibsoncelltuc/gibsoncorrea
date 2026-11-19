@@ -58,19 +58,13 @@
    "props": [
     [
      "kit/dog_sit",
-     1.7,
-     -0.6,
-     1.1
+     0.0,
+     0.6,
+     1.0
     ]
    ],
-   "animals": [
-    [
-     "dog",
-     -2.4,
-     1.2
-    ]
-   ],
-   "text": "1925"
+   "text": "1925",
+   "shot_lock": true
   },
   {
    "shot": "reveal",

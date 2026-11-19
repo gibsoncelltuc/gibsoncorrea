@@ -34,10 +34,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - "Essa árvore é minha!", gritou um lenhador, e logo os dois lados começ...
 - Cenario: countryside | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (4): AME (variante 0, expressao angry); CAN (variante 0, expressao angry); AME (variante 1, expressao angry); CAN (variante 1, expressao angry) | multidao: 10 de AME/CAN
-- Animacao: discutir | interacao: empurrar | batalha encenada
+- Personagens principais (2): AME (variante 0, expressao angry); CAN (variante 0, expressao angry) | multidao: 10 de AME/CAN
+- Animacao: discutir | interacao: discutir | batalha encenada
 - Objetos/modelos: nature/tree_pine
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brigar, dois, lenhador
 - RISCOS: nenhum
@@ -92,14 +92,24 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): floresta, fronteira, tratado
 - RISCOS: nenhum
 
-## Cena b9 - Chamaram de Guerra do Porco com Feijão, porque era só isso que as trop...
+## Cena b9 - Chamaram de Guerra do Porco com Feijão,
 - Cenario: countryside | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (1): AME (variante 0, expressao smile) | multidao: 10 de AME
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa
+- Personagens principais (1): AME (variante 0, expressao smile)
 - Animacao: conversar
 - Objetos/modelos: kit/logs, nature/tree_pine, pig
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): feijao, porco, tropas
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): feijao, porco
+- RISCOS: nenhum
+
+## Cena b10 - porque era só isso que as tropas comiam.
+- Cenario: countryside | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Personagens principais (2): AME (variante 0, expressao smile); CAN (variante 0, expressao smile)
+- Animacao: conversar | interacao: aproxima-se
+- Objetos/modelos: nature/tree_pine
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): tropas
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -108,7 +118,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/logs | b0, b2, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/tree_pine | b0, b2, b3, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/tree_pine | b0, b2, b3, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/bush | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/prison_mini | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -117,8 +127,8 @@ pig | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, 
 
 
 ## Video inteiro
-- Objeto heroi: kit/logs | grandes momentos: b3, b4 | planos abertos: 2 | mistura: close 11% | medio 75% | aberto 11% | detalhe 3%
-- Interacoes: b0 discutir, b2 vai ate o outro, b3 empurrar, b5 empurrar, b6 cochichar, b7 entregar, b8 entregar
+- Objeto heroi: kit/logs | grandes momentos: b3, b4 | planos abertos: 2 | mistura: close 2% | medio 85% | aberto 11% | detalhe 3%
+- Interacoes: b0 discutir, b2 vai ate o outro, b3 discutir, b5 empurrar, b6 cochichar, b7 entregar, b8 entregar, b10 aproxima-se
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

@@ -59,13 +59,26 @@
   {
    "shot": "two",
    "who": [
-    "NOB:0:stern",
-    "BOL:1:stern"
+    "MOD:0:angry",
+    "BOL:0:angry",
+    "NOB:0:stern"
    ],
    "mapa": "ITÁLIA",
    "mapa_at": 6,
    "say": "Módena e Bolonha se odiavam havia séculos. Uma apoiava o imperador, a outra, o papa, e qualquer desculpa servia para brigar.",
-   "tiros": false
+   "tiros": false,
+   "shot_lock": true,
+   "interacao": "discutir",
+   "batalha": true,
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "MOD",
+     "BOL"
+    ],
+    "march": true,
+    "expr": "angry"
+   }
   },
   {
    "shot": "track",

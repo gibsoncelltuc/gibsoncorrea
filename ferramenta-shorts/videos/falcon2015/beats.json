@@ -185,16 +185,17 @@
    "say": "Depois de soltar a parte de cima, a parte de baixo virou no céu, e começou a voltar para a Terra."
   },
   {
-   "shot": "low",
+   "shot": "wide",
    "hora": "noite",
    "who": [
-    "ENA:0:nervous"
+    "ENA:0:surprised",
+    "ENG:0:shock"
    ],
    "props": [
     [
      "kit/falcon9_land",
      0,
-     -9.0,
+     -7.0,
      1.1
     ]
    ],
@@ -205,7 +206,8 @@
     "sting@20"
    ],
    "say": "Acontece que ela desceu de ré, de pé, com o motor aceso freando a queda.",
-   "detalhe": false
+   "detalhe": false,
+   "shot_lock": true
   },
   {
    "shot": "two",

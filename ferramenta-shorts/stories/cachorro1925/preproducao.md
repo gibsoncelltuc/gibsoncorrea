@@ -4,7 +4,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | mountain | track | 2 | discutir, andando | kit/dog_sit, dog | - | -
+b0 | mountain | two | 2 | discutir, INTERAGEM: discutir, alguem chega andando | kit/dog_sit, dog | - | -
 b1 | mountain | reveal | 10 | parados (so fala e pisca) | - | - | -
 b2 | countryside | track | 2 | encena, andando | dog | - | -
 b3 | countryside | track | 2 | encena, andando | dog | - | -
@@ -17,7 +17,7 @@ b9 | mountain | close | 1 | conversar | kit/dog_sit, dog | - | -
 
 OBJETO HEROI: nenhum achado (ponha "heroi": "kit/..." no topo do roteiro)
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b6
-Interacoes entre personagens: b4 empurrar, b5 susto, b7 susto, b8 entregar
+Interacoes entre personagens: b0 discutir, b4 empurrar, b5 susto, b7 susto, b8 entregar
 
 Cenas com personagens parados: 1 de 10
 FALTA MODELAR: nada

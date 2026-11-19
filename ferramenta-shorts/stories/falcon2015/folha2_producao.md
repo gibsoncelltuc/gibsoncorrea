@@ -64,9 +64,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Acontece que ela desceu de ré, de pé, com o motor aceso freando a qued...
 - Cenario: street | luz: noite | clima: limpo
-- Camera: low = camera baixa, dramatica (virada)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (1): ENA (variante 0, expressao nervous)
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): ENA (variante 0, expressao surprised); ENG (variante 0, expressao shock)
 - Animacao: reagir
 - Objetos/modelos: kit/falcon9_land, kit/marco_canaveral
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): motor, queda
@@ -126,7 +126,7 @@ kit/starlink_sat | b4 | pronto | conferir na folha de contato se le bem; se pare
 
 
 ## Video inteiro
-- Objeto heroi: kit/rocket | grandes momentos: b5, b8 | planos abertos: 3 | mistura: close 14% | medio 71% | aberto 11% | detalhe 5%
+- Objeto heroi: kit/rocket | grandes momentos: b5, b8 | planos abertos: 4 | mistura: close 14% | medio 62% | aberto 19% | detalhe 5%
 - Interacoes: b0 o outro se aproxima, b2 discutir, b3 susto, b4 entregar, b7 insiste, b9 abracar
 - RISCOS GERAIS: nenhum
 

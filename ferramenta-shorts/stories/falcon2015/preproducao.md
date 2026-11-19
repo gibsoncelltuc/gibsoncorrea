@@ -10,7 +10,7 @@ b2 | street | two | 2 | discutir, INTERAGEM: discutir | kit/rocket, kit/marco_ca
 b3 | harbor | two | 2 | conversar, INTERAGEM: susto | kit/rocket, kit/marco_canaveral | - | -
 b4 | street | two | 2 | conversar, INTERAGEM: entregar | kit/falcon9_land, kit/falcon_air, kit/marco_canaveral, kit/rocket, kit/starlink_sat | paper | -
 b5 | street | crowd | 21 | batalha | kit/falcon_air, kit/marco_canaveral | - | -
-b6 | street | low | 1 | reagir | kit/falcon9_land, kit/marco_canaveral | - | -
+b6 | street | wide | 2 | reagir | kit/falcon9_land, kit/marco_canaveral | - | -
 b7 | countryside | two | 2 | reagir, INTERAGEM: insiste | kit/falcon9_land, kit/marco_canaveral | - | -
 b8 | stadium | orbit | 23 | comemorar, batalha | kit/falcon9_land | - | -
 b9 | countryside | two | 2 | conversar, INTERAGEM: abracar | kit/marco_canaveral, kit/rocket | - | -

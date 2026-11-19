@@ -14,10 +14,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b1 - Módena e Bolonha se odiavam havia séculos. Uma apoiava o imperador, a ...
 - Cenario: medieval | luz: day | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): NOB (variante 0, expressao stern); BOL (variante 1, expressao stern) | multidao: 8 de BOL/POV
-- Animacao: discutir
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Personagens principais (3): MOD (variante 0, expressao angry); BOL (variante 0, expressao angry); NOB (variante 0, expressao stern) | multidao: 10 de MOD/BOL
+- Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/marco_ghirlandina
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): apoiava, imperador, papa
 - RISCOS: nenhum
@@ -119,8 +119,8 @@ nature/tree_oak | b3 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: tools/bucket | grandes momentos: b3, b7 | planos abertos: 4 | mistura: close 21% | medio 51% | aberto 26% | detalhe 2%
-- Interacoes: b0 susto, b4 discutir, b6 insiste
+- Objeto heroi: tools/bucket | grandes momentos: b3, b7 | planos abertos: 3 | mistura: close 21% | medio 60% | aberto 17% | detalhe 2%
+- Interacoes: b0 susto, b1 discutir, b4 discutir, b6 insiste
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
