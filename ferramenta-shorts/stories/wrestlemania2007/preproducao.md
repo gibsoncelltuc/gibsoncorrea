@@ -9,7 +9,7 @@ b1 | stadium | reveal | 8 | parados (so fala e pisca) | - | - | -
 b2 | stadium | two | 2 | discutir, INTERAGEM: discutir | - | - | -
 b3 | stadium | two | 2 | conversar, INTERAGEM: entregar | kit/clipper | - | -
 b4 | stadium | crowd | 33 | comemorar, batalha | kit/ball | - | -
-b5 | stadium | two | 2 | conversar, INTERAGEM: empurrar | kit/ring | - | -
+b5 | stadium | group | 2 | conversar, INTERAGEM: empurrar | kit/ring | - | -
 b6 | stadium | low | 7 | conversar, INTERAGEM: susto | kit/ring | - | -
 b7 | stadium | orbit | 25 | comemorar, batalha | kit/ring, kit/ball | - | -
 b8 | stadium | two | 2 | conversar, INTERAGEM: empurrar | kit/ring, kit/clipper | - | -

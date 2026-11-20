@@ -72,7 +72,7 @@
    "tstyle": "brown"
   },
   {
-   "say": "Depois, os ratos, que viraram um prato chique.",
+   "say": "Depois, os roedores, que viraram um prato chique.",
    "shot": "two",
    "who": [
     "PAR:0:shock",
@@ -110,7 +110,7 @@
    "tstyle": "gold"
   },
   {
-   "say": "No Natal, um restaurante famoso serviu consomê de elefante, camelo assado e ensopado de canguru.",
+   "say": "No Natal, um restaurante famoso serviu consomê de elefante, dromedário assado e ensopado de canguru.",
    "shot": "two",
    "who": [
     "CHF:0:grin",
@@ -119,10 +119,11 @@
    "text": "NATAL DE 1870",
    "tat": 3,
    "tstyle": "brown",
-   "mood": "playful"
+   "mood": "playful",
+   "interior": false
   },
   {
-   "say": "Tinha até gato com ratos, e pernil de lobo.",
+   "say": "Tinha até gato com roedores, e pernil de lobo.",
    "shot": "close",
    "who": [
     "PAR:3:shock"
@@ -155,5 +156,6 @@
    "tstyle": "white",
    "mood": "calm"
   }
- ]
+ ],
+ "heroi": "kit/panela"
 }

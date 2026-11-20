@@ -53,8 +53,8 @@
    "props": [
     [
      "kit/bunker_bomb",
-     0.5,
-     -0.8,
+     0,
+     -1.6,
      0.9
     ],
     [
@@ -106,8 +106,7 @@
     ]
    ],
    "acao": "discutir",
-   "say": "A principal, Fordow, fica a quase noventa metros de profundidade, dentro de uma montanha.",
-   "detalhe": false
+   "say": "A principal, Fordow, fica a quase noventa metros de profundidade, dentro de uma montanha."
   },
   {
    "shot": "close",
@@ -197,8 +196,7 @@
     ]
    ],
    "interacao": "cochichar",
-   "say": "Para despistar, outros B-2 foram mandados na direção contrária, para o Pacífico.",
-   "detalhe": false
+   "say": "Para despistar, outros B-2 foram mandados na direção contrária, para o Pacífico."
   },
   {
    "shot": "low",
@@ -233,7 +231,7 @@
    "say": "Acontece que, de madrugada, os aviões soltaram catorze bombas. Doze delas em cima de Fordow, pelos respiros do bunker."
   },
   {
-   "shot": "close",
+   "shot": "two",
    "interior": "loja",
    "who": [
     "TRU:0:stern",
@@ -318,7 +316,5 @@
   "https://en.wikipedia.org/wiki/2025_United_States_strikes_on_Iranian_nuclear_sites",
   "https://news.usni.org/2025/06/21/u-s-strikes-3-iranian-nuclear-sites-using-b-2s-sub-launched-tomahawks",
   "https://www.csis.org/analysis/what-operation-midnight-hammer-means-future-irans-nuclear-ambitions"
- ],
- "cinf": 1.5,
- "exp": 2.209
+ ]
 }

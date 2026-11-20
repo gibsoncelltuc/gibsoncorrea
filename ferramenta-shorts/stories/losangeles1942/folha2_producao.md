@@ -93,7 +93,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - O único alvo derrotado naquela noite foi o sono de Los Angeles.
-- Cenario: harbor | luz: amanhecer | clima: limpo
+- Cenario: street | luz: amanhecer | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): CID (variante 0, expressao smile)

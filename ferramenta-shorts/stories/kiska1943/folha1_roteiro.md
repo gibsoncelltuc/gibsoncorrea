@@ -1,19 +1,19 @@
 # FOLHA 1 - ROTEIRO: A Invasão da Ilha Vazia
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 9 cenas, 124 palavras (~43 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 9 cenas, 124 palavras (~43 s)
 
 ## Cena b0  (~7.9 s)
 - Narracao: Agosto de mil novecentos e quarenta e três. Os Aliados prepararam uma grande invasão da ilha de Kiska, no Alasca, ocupada pelos japoneses.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: KISKA 1943 | mapa: ILHA DE KISKA
+- Texto na tela: KISKA 1943
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~5.5 s)
 - Narracao: Foram mais de trinta e quatro mil soldados americanos e canadenses, com navios, aviões e tanques.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 9
 
 ## Cena b2  (~2.8 s)
 - Narracao: Antes do desembarque, bombardearam a ilha durante semanas.
-- Som ambiente: sea | batalha: tiros e gritos a cena inteira
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: cannon@40, cannon@70, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68
 - Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
 - Efeito visual marcado: burst@40
@@ -58,7 +58,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 9
 
 ## Cena b6  (~5.9 s)
 - Narracao: Sem inimigo à vista, os Aliados começaram a atirar uns nos outros, no escuro e na neblina.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: gun@30, gun@50, gun@65
 - Efeito + som nas palavras-chave: atirar -> burst + som de tiro/explosao; encena: atira @8 -> acao + som de efeito
 - Efeito visual marcado: burst@30, burst@60
@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 9
 
 ## Cena b7  (~3.1 s)
 - Narracao: No fim, só acharam na ilha alguns cachorros abandonados.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: olha (point) @3 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -76,7 +76,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 9
 
 ## Cena b8  (~4.1 s)
 - Narracao: Uma das maiores invasões do Pacífico Norte tomou uma ilha completamente vazia.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -

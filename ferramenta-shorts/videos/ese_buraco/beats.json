@@ -86,15 +86,9 @@
    "props": [
     [
      "tools/shovel",
-     1.4,
-     0.3,
-     1.4
-    ],
-    [
-     "nature/rocks",
-     -2.0,
-     -1.2,
-     1.8
+     1.6,
+     -0.6,
+     1.2
     ]
    ],
    "fx": [
@@ -103,8 +97,7 @@
    "sfx": [
     "thump@40"
    ],
-   "say": "Mas vamos cavar. Depois da terra, vem rocha dura, cada vez mais quente.",
-   "set": "mountain"
+   "say": "Mas vamos cavar. Depois da terra, vem rocha dura, cada vez mais quente."
   },
   {
    "shot": "two",
@@ -121,8 +114,7 @@
     ]
    ],
    "acao": "conversar",
-   "say": "O buraco mais fundo do mundo fica na Rússia: doze quilômetros. Lá embaixo, cento e oitenta graus.",
-   "set": "mountain"
+   "say": "O buraco mais fundo do mundo fica na Rússia: doze quilômetros. Lá embaixo, cento e oitenta graus."
   },
   {
    "shot": "close",
@@ -145,8 +137,7 @@
     "sting@20",
     "cannon@50"
    ],
-   "say": "Acontece que o centro da Terra fica a mais de seis mil quilômetros, quase tão quente quanto o Sol.",
-   "set": "mountain"
+   "say": "Acontece que o centro da Terra fica a mais de seis mil quilômetros, quase tão quente quanto o Sol."
   },
   {
    "shot": "crowd",
@@ -190,8 +181,7 @@
     "whoosh@20",
     "whoosh@50"
    ],
-   "say": "Você cairia cada vez mais rápido, e passaria pelo centro do planeta a milhares de quilômetros por hora.",
-   "set": "countryside"
+   "say": "Você cairia cada vez mais rápido, e passaria pelo centro do planeta a milhares de quilômetros por hora."
   },
   {
    "shot": "two",
@@ -214,8 +204,7 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Depois iria freando, e sairia do outro lado em uns quarenta minutos.",
-   "set": "mountain"
+   "say": "Depois iria freando, e sairia do outro lado em uns quarenta minutos."
   },
   {
    "shot": "two",
@@ -224,8 +213,7 @@
     "PRO:0:smug"
    ],
    "acao": "discutir",
-   "say": "Mas se ninguém te segurasse, você cairia de volta. Indo e voltando para sempre.",
-   "set": "mountain"
+   "say": "Mas se ninguém te segurasse, você cairia de volta. Indo e voltando para sempre."
   },
   {
    "shot": "crowd",
@@ -255,8 +243,7 @@
    ],
    "text": "40 MINUTOS",
    "titulo": true,
-   "say": "Os cientistas chamam isso de túnel da gravidade.",
-   "set": "street"
+   "say": "Os cientistas chamam isso de túnel da gravidade."
   },
   {
    "shot": "close",

@@ -8,7 +8,7 @@
  "set": "street",
  "light": "day",
  "mood": "playful",
- "heroi": "kit/scroll",
+ "heroi": "kit/helicopter_air",
  "outfits": {
   "TRU": {
    "jacket": "#1f2f5c",
@@ -68,6 +68,7 @@
     "TRU:0:stern",
     "GEN:0:stern"
    ],
+   "interior": "loja",
    "props": [
     [
      "kit/helicopter_air",
@@ -174,8 +175,7 @@
     "sting@20",
     "thump@40"
    ],
-   "say": "Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do país.",
-   "detalhe": false
+   "say": "Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do país."
   },
   {
    "shot": "two",

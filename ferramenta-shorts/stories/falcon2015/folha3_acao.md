@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 24 - O Foguete que Voltou de Ré
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.5s - 21 palavras - plano two
@@ -31,7 +31,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | INTERACAO | discutir | OK |
 | 5 | - | ATUACAO | discutir | OK |
 
-## Cena b3 - 19.6s a 24.6s - 13 palavras - plano wide
+## Cena b3 - 19.6s a 24.6s - 13 palavras - plano two
 > "As primeiras tentativas de pouso deram errado. Foguetes tombaram, e explodiram no mar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -39,8 +39,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | deram (21.1s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 2 | explodiram (24.0s) | EFEITO: burst | estouro/clarao + som | OK |
 | 3 | explodiram (24.0s) | ACAO: desaba | desaba: nuvem de poeira + tremor | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | ATUACAO | reagir | OK |
+| 4 | - | INTERACAO | susto | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
 ## Cena b4 - 25.6s a 30.7s - 16 palavras - plano two
 > "Mas a equipe insistiu. Em vinte e um de dezembro, o Falcon nove decolou levando satélites."
@@ -58,20 +58,21 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
-## Cena b6 - 38.2s a 41.9s - 15 palavras - plano wide
+## Cena b6 - 38.2s a 41.9s - 15 palavras - plano low
 > "Acontece que ela desceu de ré, de pé, com o motor aceso freando a queda."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | reagir | OK |
 
-## Cena b7 - 43.1s a 46.7s - 13 palavras - plano wide
+## Cena b7 - 43.1s a 46.7s - 13 palavras - plano two
 > "E pousou certinho no meio da plataforma, abrindo as pernas no último segundo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | abrindo (45.4s) | ACAO: x_abre | empurra a porta | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 2 | - | INTERACAO | insiste | OK |
+| 3 | - | ATUACAO | reagir | OK |
 
 ## Cena b8 - 48.0s a 50.9s - 12 palavras - plano orbit
 > "Os funcionários da SpaceX gritaram como em final de Copa do Mundo."

@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 19 - A Guerra de Aroostook
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 12 cenas, 168 palavras (~58 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 10 cenas, 152 palavras (~52 s)
 
 ## Cena b0  (~5.5 s)
 - Narracao: Uma guerra entre os Estados Unidos e a Inglaterra foi travada por lenhadores, e ninguém morreu.
@@ -22,32 +22,23 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b2  (~6.2 s)
 - Narracao: Na floresta de Aroostook, lenhadores americanos e ingleses cortavam as mesmas árvores, e cada lado queria a madeira.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: encena: corta (hammer) @4 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b3  (~5.2 s)
-- Narracao: "Essa árvore é minha!", gritou um lenhador, e logo os dois lados começaram a brigar.
-- Som ambiente: birds | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: thump@60
-- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou -> ring + som de alerta; brigar -> puff + som de baque; encena: grita (up) @4 -> acao + som de efeito; encena: corta (hammer) @6 -> acao + som de efeito; encena: golpe (punch) @14 -> acao + som de efeito
-- Efeito visual marcado: stars@60, puff@60
+- Efeito visual marcado: ring@12, dust@40
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b4  (~5.5 s)
-- Narracao: Um lenhador empurrou o outro, e o outro foi derrubado no chão, no meio da floresta.
+## Cena b3  (~5.2 s)
+- Narracao: "Essa árvore é minha!", gritou um lenhador, e logo os dois lados começaram a brigar.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: corta (hammer) @1 -> acao + som de efeito; encena: empurra (push) @2 -> acao + som de efeito; encena: tomba @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou -> ring + som de alerta; brigar -> puff + som de baque; encena: grita (up) @4 -> acao + som de efeito; encena: corta (hammer) @6 -> acao + som de efeito; encena: golpe (punch) @14 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~4.1 s)
+## Cena b4  (~4.1 s)
 - Narracao: O Maine chamou milhares de soldados, e a Inglaterra mandou os seus.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -56,7 +47,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: MILÍCIA
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b6  (~5.2 s)
+## Cena b5  (~5.2 s)
 - Narracao: Acontece que um agente do Maine foi preso pelos ingleses, e o clima ficou perigoso.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -65,7 +56,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
-## Cena b7  (~4.8 s)
+## Cena b6  (~4.8 s)
 - Narracao: Mas ninguém queria uma guerra de verdade, então o governo mandou um general conversar.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
@@ -74,7 +65,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~4.5 s)
+## Cena b7  (~4.5 s)
 - Narracao: Ele convenceu os dois lados a parar, e ninguém atirou um único tiro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -83,7 +74,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~4.5 s)
+## Cena b8  (~4.5 s)
 - Narracao: Alguns anos depois, um tratado dividiu a floresta, e a fronteira ficou definida.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -92,20 +83,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b10  (~2.4 s)
-- Narracao: Chamaram de Guerra do Porco com Feijão,
-- Som ambiente: silencio/sala
+## Cena b9  (~5.2 s)
+- Narracao: Chamaram de Guerra do Porco com Feijão, porque era só isso que as tropas comiam.
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b11  (~2.8 s)
-- Narracao: porque era só isso que as tropas comiam.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_come (eat) @7 -> acao + som de efeito
+- Efeito + som nas palavras-chave: animal: pig come -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

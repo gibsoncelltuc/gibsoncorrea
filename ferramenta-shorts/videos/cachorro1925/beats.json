@@ -8,7 +8,7 @@
  "set": "mountain",
  "light": "golden",
  "mood": "playful",
- "heroi": "",
+ "heroi": "kit/dog_sit",
  "outfits": {
   "GRE": {
    "profissao": "soldado",
@@ -52,19 +52,25 @@
     "GRE:0:shock",
     "BUL:0:neutral"
    ],
+   "text": "1925",
    "interacao": "discutir",
    "acao": "discutir",
    "say": "Um cachorro fugiu, e por causa dele dois países entraram em guerra, e dezenas de pessoas morreram.",
    "props": [
     [
      "kit/dog_sit",
-     0.0,
-     0.6,
-     1.0
+     1.7,
+     -0.6,
+     1.1
     ]
    ],
-   "text": "1925",
-   "shot_lock": true
+   "animals": [
+    [
+     "dog",
+     -2.4,
+     1.2
+    ]
+   ]
   },
   {
    "shot": "reveal",
@@ -88,7 +94,7 @@
   },
   {
    "shot": "track",
-   "set": "countryside",
+   "set": "mountain",
    "who": [
     "GRE:0:nervous",
     "GRE:1:scared"
@@ -105,7 +111,7 @@
   },
   {
    "shot": "track",
-   "set": "countryside",
+   "set": "mountain",
    "who": [
     "GRE:0:shout",
     "GRE:1:angry"
@@ -139,22 +145,14 @@
   },
   {
    "shot": "two",
-   "set": "street",
+   "set": "mountain",
    "who": [
     "GRE:0:sad",
     "GRE:1:angry"
    ],
    "interacao": "susto",
    "say": "Acontece que o soldado morreu, e a Grécia deu um ultimato furioso à Bulgária.",
-   "props": [
-    [
-     "kit/dog_sit",
-     -1.1,
-     0.5,
-     1.0
-    ]
-   ],
-   "detalhe": false
+   "props": []
   },
   {
    "shot": "crowd",

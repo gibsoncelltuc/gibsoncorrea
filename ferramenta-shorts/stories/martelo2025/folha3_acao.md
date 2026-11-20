@@ -78,7 +78,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | bombas (46.6s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b8 - 51.7s a 57.0s - 15 palavras - plano close
+## Cena b8 - 51.7s a 57.0s - 15 palavras - plano two
 > "Um submarino ainda disparou mísseis contra uma terceira usina. Todos os aviões voltaram para casa."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

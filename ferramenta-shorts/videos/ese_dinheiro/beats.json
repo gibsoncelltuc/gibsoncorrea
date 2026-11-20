@@ -65,8 +65,8 @@
    "shot": "two",
    "interior": "loja",
    "who": [
-    "PAD:0:shock:bag",
-    "POV:0:nervous:bag"
+    "PAD:0:shock",
+    "POV:0:nervous"
    ],
    "fx": [
     "ring@30"
@@ -74,9 +74,7 @@
    "sfx": [
     "sting@30"
    ],
-   "say": "Primeira manhã: você chega na padaria e não tem como pagar o café.",
-   "detalhe": false,
-   "verificador": false
+   "say": "Primeira manhã: você chega na padaria e não tem como pagar o café."
   },
   {
    "shot": "two",
@@ -124,22 +122,7 @@
    ],
    "mapa": "ILHA DE YAP",
    "mapa_at": 3,
-   "say": "Por isso, os povos sempre inventaram um dinheiro. Na ilha de Yap, no Pacífico, eram pedras gigantes.",
-   "set": "harbor",
-   "props": [
-    [
-     "kit/marco_yap",
-     1.9,
-     -3.2,
-     1.2
-    ],
-    [
-     "nature/rocks",
-     -2.4,
-     -3.5,
-     3.0
-    ]
-   ]
+   "say": "Por isso, os povos sempre inventaram um dinheiro. Na ilha de Yap, no Pacífico, eram pedras gigantes."
   },
   {
    "shot": "two",
@@ -149,16 +132,10 @@
    ],
    "props": [
     [
-     "kit/marco_yap",
-     -1.0,
-     -5.5,
-     1.3
-    ],
-    [
-     "kit/coin",
-     1.7,
-     -0.4,
-     1.4
+     "nature/rocks",
+     1.8,
+     -1.6,
+     1.6
     ]
    ],
    "interacao": "cochichar",
@@ -168,8 +145,7 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Algumas eram tão pesadas que nunca saíam do lugar. Todo mundo só lembrava quem era o dono.",
-   "set": "harbor"
+   "say": "Algumas eram tão pesadas que nunca saíam do lugar. Todo mundo só lembrava quem era o dono."
   },
   {
    "shot": "crowd",
@@ -215,15 +191,9 @@
    ],
    "props": [
     [
-     "kit/chest",
+     "kit/coin",
      1.6,
-     -0.5,
-     1.2
-    ],
-    [
-     "kit/postit",
-     -1.6,
-     -0.5,
+     -0.8,
      1.0
     ]
    ],
@@ -241,21 +211,7 @@
    "sfx": [
     "sting@20"
    ],
-   "say": "Isso já aconteceu em prisões e em guerras: quando o dinheiro some, as pessoas inventam outro.",
-   "props": [
-    [
-     "kit/prison_mini",
-     1.5,
-     -0.6,
-     1.0
-    ],
-    [
-     "war/cannonballs",
-     -1.6,
-     -0.4,
-     1.0
-    ]
-   ]
+   "say": "Isso já aconteceu em prisões e em guerras: quando o dinheiro some, as pessoas inventam outro."
   },
   {
    "shot": "crowd",

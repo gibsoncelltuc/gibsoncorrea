@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b2  (~4.5 s)
 - Narracao: Mas vamos cavar. Depois da terra, vem rocha dura, cada vez mais quente.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: thump@40
 - Efeito + som nas palavras-chave: encena: cava (hammer) @2 -> acao + som de efeito
 - Efeito visual marcado: puff@40
@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b3  (~5.9 s)
 - Narracao: O buraco mais fundo do mundo fica na Rússia: doze quilômetros. Lá embaixo, cento e oitenta graus.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b5  (~4.1 s)
 - Narracao: Nenhuma máquina aguenta. Mas imagine que desse, e você pulasse no buraco.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: cannon@20, thump@50
 - Efeito + som nas palavras-chave: encena: pula @9 -> acao + som de efeito
 - Efeito visual marcado: burst@20, puff@50
@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b7  (~4.1 s)
 - Narracao: Depois iria freando, e sairia do outro lado em uns quarenta minutos.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@30

@@ -2,7 +2,7 @@
  "voice": "pt-BR-AntonioNeural",
  "rate": "+10%",
  "title": "A Praga da Dança",
- "set": "medieval",
+ "set": "street",
  "light": "day",
  "mood": "playful",
  "outfits": {
@@ -55,17 +55,7 @@
     "POV:1:shock"
    ],
    "text": "1518",
-   "say": "Uma mulher começou a dançar no meio da rua, e não conseguiu mais parar.",
-   "props": [
-    [
-     "war/drum",
-     1.5,
-     -0.5,
-     1.0
-    ]
-   ],
-   "detalhe": false,
-   "set": "medieval"
+   "say": "Uma mulher começou a dançar no meio da rua, e não conseguiu mais parar."
   },
   {
    "shot": "two",
@@ -129,75 +119,17 @@
    "acao": "nenhuma"
   },
   {
-   "shot": "wide",
+   "shot": "group",
    "who": [
     "MUS:0:grin:flag",
+    "MUS:1:laugh",
     "PRE:0:grin"
    ],
    "text": "PALCO",
-   "say": "Acontece que a cidade levou isso a sério. Construiu um palco, e contratou músicos para animar o povo.",
-   "props": [
-    [
-     "war/drum",
-     -2.2,
-     -0.2,
-     1.0
-    ],
-    [
-     "mk/Table_Large",
-     0.0,
-     -4.5,
-     2.6,
-     {
-      "drop": true
-     }
-    ],
-    [
-     "mk/Crate_Wooden",
-     -3.4,
-     -4.5,
-     1.6,
-     {
-      "drop": true
-     }
-    ],
-    [
-     "mk/Crate_Wooden",
-     3.4,
-     -4.5,
-     1.6,
-     {
-      "drop": true
-     }
-    ],
-    [
-     "buildings/church",
-     8.0,
-     -14.0,
-     1.2
-    ],
-    [
-     "buildings/house_small",
-     -8.0,
-     -13.0,
-     1.25
-    ]
-   ],
-   "acao": "construir",
-   "fx": [
-    "puff@50"
-   ],
-   "sfx": [
-    "thump@50"
-   ],
-   "set": "medieval",
-   "fachada": false,
-   "objetos": false,
-   "shot_lock": true,
-   "batalha": false
+   "say": "Acontece que a cidade levou isso a sério. Montou um palco, e contratou músicos para animar a multidão."
   },
   {
-   "shot": "two",
+   "shot": "orbit",
    "who": [
     "POV:2:pained",
     "POV:3:pained"
@@ -221,17 +153,7 @@
     "thump@50",
     "sting@110"
    ],
-   "say": "Foi a pior ideia possível. Com música, mais gente entrou na dança, e muitos desmaiaram de exaustão.",
-   "shot_lock": true,
-   "props": [
-    [
-     "war/drum",
-     -1.4,
-     -0.5,
-     1.0
-    ]
-   ],
-   "detalhe": true
+   "say": "Foi a pior ideia possível. Com música, mais gente entrou na dança, e muitos caíram de exaustão."
   },
   {
    "shot": "two",
@@ -259,6 +181,5 @@
    "say": "Até hoje, ninguém sabe explicar direito o que aconteceu naquele verão.",
    "acao": "nenhuma"
   }
- ],
- "heroi": "war/drum"
+ ]
 }

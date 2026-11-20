@@ -4,9 +4,9 @@ Escrito em 19/11 à noite, na troca de modelo pedida pelo Gibson. Leia INTEIRO a
 ## 0. As 3 sessões e quem faz o quê
 | Sessão | Branch | Fila | Papel |
 |---|---|---|---|
-| PRINCIPAL (session_01HE8Dy3UcXXZZMLa7uzjNJD) | claude/bold-sagan-dskrsj | `queue.txt` | produz vídeos, mantém a FERRAMENTA (motor), AUDITA as sessões A/B, entrega TODOS os vídeos ao Gibson pelo chat |
-| A (session_01HE8Dy3Tz5Mgz6d3rSUrMHS) | claude/prod-a-karansebes | `fila_sessao_A.txt` | só produz vídeos e envia à principal |
-| B (session_01HE8DxzBrskhVHznwqCpD4i) | claude/prod-b-emus | `fila_sessao_B.txt` | só produz vídeos e envia à principal |
+| PRINCIPAL (session_01HE8Dy3UcXXZZMLa7uzjNJD) | claude/serene-dirac-ckwlt5 | `queue.txt` | produz vídeos, mantém a FERRAMENTA (motor), AUDITA as sessões A/B, entrega TODOS os vídeos ao Gibson pelo chat |
+| A (session_01HE8Dy3Tz5Mgz6d3rSUrMHS) | claude/prod-a-v2 | `fila_sessao_A.txt` | só produz vídeos e envia à principal |
+| B (session_01HE8DxzBrskhVHznwqCpD4i) | claude/prod-b-v2 | `fila_sessao_B.txt` | só produz vídeos e envia à principal |
 
 Sessões A/B NÃO mexem no motor (`web/`, `mkvideo.py`, `blender/`): pegam as correções sozinhas pelo `sync_ferramenta.sh` (a cada 10 min). Se acharem defeito do motor, corrigem o ROTEIRO (`videos/<id>/beats.json`) e avisam a principal no relatório da entrega.
 
@@ -79,7 +79,7 @@ Nunca rode `build3.sh`/`fit.sh`/`shot.mjs`/`storyboard.mjs` direto na pasta de u
 - Disco: `df -h /`. Abaixo de 5 GB: apagar `out/<id>/frames`, `ckpt/<id>`, `stories/<id>/work` de vídeos já entregues e mp4 antigos reprovados. NUNCA `git gc` com render rodando (encheu o disco uma vez). Nunca apague vídeo aprovado em `videos_prontos`.
 
 ## 7. Rotina das sessões A e B
-1. Ao começar/retomar: `git fetch origin claude/bold-sagan-dskrsj && git merge -X theirs FETCH_HEAD`; garantir o loop de sync: `nohup bash -c 'while true; do ./sync_ferramenta.sh >> logs/sync.log 2>&1; sleep 600; done' >/dev/null 2>&1 &`; `nohup bash run_queue.sh > logs/queue_run.log 2>&1 &`.
+1. Ao começar/retomar: `git fetch origin claude/serene-dirac-ckwlt5 && git merge -X theirs FETCH_HEAD`; garantir o loop de sync: `nohup bash -c 'while true; do ./sync_ferramenta.sh >> logs/sync.log 2>&1; sleep 600; done' >/dev/null 2>&1 &`; `nohup bash run_queue.sh > logs/queue_run.log 2>&1 &`.
 2. Correções pedidas pela principal (mensagens "AUDITORIA") vêm ANTES da fila nova.
 3. Para cada vídeo: §2 inteiro (storyboard, render, conferir, folha, `auditar_acoes.sh`). Só então `./enviar_para_principal.sh <id>`.
 4. Nunca mande vídeo "quase bom". A principal reprova e você perde o tempo do render.

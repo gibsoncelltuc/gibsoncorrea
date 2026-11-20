@@ -164,16 +164,7 @@
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false,
-   "set": "street",
-   "crowd": {
-    "n": 5,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "surprised"
-   }
+   "impact": false
   },
   {
    "say": "Nas primeiras horas, o aplicativo ficou fora do ar, por excesso de acessos.",

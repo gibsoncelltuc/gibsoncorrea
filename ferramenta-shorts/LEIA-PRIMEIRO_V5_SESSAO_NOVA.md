@@ -10,7 +10,7 @@ Usuário (Gibson) fala português; respostas curtas, honestas, tudo em portuguê
 ## Como rodar (qualquer máquina com Linux/WSL/Git Bash, Python 3.10+, Node 20+, ffmpeg, Chromium via Playwright)
 `bash setup.sh` → editar `queue.txt` → `bash run_queue.sh` (retomável) · `bash status.sh` · `bash boot.sh` (hook de sessão).
 Desempenho medido na nuvem (4 núcleos, sem GPU): ~50-65 min por vídeo de ~1900 quadros. Em PC de 2 núcleos será bem mais lento — preferir a nuvem.
-**Nuvem**: ambiente `gibsoncorrea-shorts` (hosts liberados: speech.platform.bing.com, huggingface.co + CDNs hf). Branch de trabalho: `claude/bold-sagan-dskrsj` (repo gibsoncelltuc/gibsoncorrea, pasta `ferramenta-shorts/`). Trechos do render são salvos no git (`ckpt/<id>/`).
+**Nuvem**: ambiente `gibsoncorrea-shorts` (hosts liberados: speech.platform.bing.com, huggingface.co + CDNs hf). Branch de trabalho: `claude/serene-dirac-ckwlt5` (repo gibsoncelltuc/gibsoncorrea, pasta `ferramenta-shorts/`). Trechos do render são salvos no git (`ckpt/<id>/`).
 Windows: ver `LEIA-PRIMEIRO_HANDOFF_2026-11-16.md` (shim python3, caminhos).
 
 ## Voz

@@ -279,7 +279,8 @@
     "expr": "shock"
    },
    "fx": [
-    "dust@40"
+    "dust@40",
+    "puff@90"
    ],
    "sfx": [
     "sting@20",

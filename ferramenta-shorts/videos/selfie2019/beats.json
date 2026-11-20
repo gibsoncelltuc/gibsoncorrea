@@ -5,7 +5,7 @@
  "ep": 28,
  "title": "A Selfie na ONU",
  "titulo_base": "A Selfie na ONU",
- "set": "palace",
+ "set": "street",
  "light": "day",
  "mood": "playful",
  "heroi": "kit/phone",
@@ -36,34 +36,6 @@
     "beret",
     "bowler"
    ]
-  },
-  "DE1": {
-   "profissao": "politico",
-   "jacket": "#1f2f4a",
-   "pants": "#1f2f4a",
-   "boots": "#1b1b1f",
-   "pele": "#e8c8a8"
-  },
-  "DE2": {
-   "profissao": "politico",
-   "jacket": "#4a2a2a",
-   "pants": "#2a2a30",
-   "boots": "#1b1b1f",
-   "pele": "#b8865a"
-  },
-  "DE3": {
-   "profissao": "politico",
-   "jacket": "#2a4a3a",
-   "pants": "#2a2a30",
-   "boots": "#1b1b1f",
-   "pele": "#d8a878"
-  },
-  "DE4": {
-   "profissao": "politico",
-   "jacket": "#5a5a62",
-   "pants": "#2a2a30",
-   "boots": "#1b1b1f",
-   "pele": "#8a5a3a"
   }
  },
  "beats": [
@@ -71,389 +43,189 @@
    "shot": "two",
    "who": [
     "BUK:0:grin",
-    "DE1:0:surprised"
+    "DIP:0:surprised"
    ],
    "props": [
     [
      "kit/phone",
-     1.4,
-     0.3,
-     1.4
-    ],
-    [
-     "kit/podium",
-     -1.6,
-     -0.6,
-     1.0
-    ],
-    [
-     "kit/un_wall",
      0,
-     -2.2,
-     0.8
-    ],
-    [
-     "kit/un_flags",
-     0,
-     -1.8,
-     0.55
+     -1.2,
+     1.3
     ]
    ],
+   "text": "2019",
    "fx": [
-    "stars@6"
+    "stars@30"
    ],
    "sfx": [
-    "ding@6"
+    "ding@30"
    ],
-   "say": "Um presidente chegou ao palco mais importante do mundo, e antes de falar, tirou uma selfie.",
-   "tiros": false,
-   "batalha": false,
-   "impact": false
+   "say": "Um presidente chegou ao palco mais importante do mundo, e antes de falar, tirou uma selfie."
   },
   {
-   "mapa": "ESTADOS UNIDOS",
-   "mapa_at": 3,
    "shot": "reveal",
    "who": [
-    "DE1:0:neutral",
-    "DE2:0:neutral"
+    "POV:0:smile",
+    "POV:1:grin"
    ],
-   "crowd": {
-    "n": 14,
-    "outfits": [
-     "DE1",
-     "DE2",
-     "DE3",
-     "DE4"
-    ],
-    "march": false,
-    "expr": "neutral"
-   },
-   "props": [
-    [
-     "kit/un_wall",
-     0,
-     -6.0,
-     1.0
-    ],
-    [
-     "kit/un_flags",
-     0,
-     -5.0,
-     1.0
-    ]
-   ],
-   "say": "Foi em setembro de dois mil e dezenove, na Assembleia Geral da ONU, em Nova York.",
-   "tiros": false,
-   "batalha": false,
-   "impact": true
-  },
-  {
-   "shot": "two",
-   "interior": "pedra",
-   "who": [
-    "DE2:0:stern",
-    "DE3:0:bored"
-   ],
-   "acao": "conversar",
-   "props": [
-    [
-     "kit/un_wall",
-     0,
-     -2.2,
-     0.8
-    ],
-    [
-     "kit/un_flags",
-     0,
-     -1.8,
-     0.55
-    ]
-   ],
-   "say": "Ali, os líderes de quase todos os países fazem discursos longos e sérios.",
-   "tiros": false,
-   "batalha": false,
-   "impact": false
+   "mapa": "ESTADOS UNIDOS",
+   "mapa_at": 3,
+   "say": "Foi em setembro de dois mil e dezenove, na Assembleia Geral da ONU, em Nova York."
   },
   {
    "shot": "two",
    "who": [
-    "BUK:0:smile",
-    "REP:0:surprised"
+    "DIP:0:bored",
+    "REP:0:suspicious:paper"
    ],
    "acao": "conversar",
+   "say": "Ali, os líderes de quase todos os países fazem discursos longos e sérios."
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "BUK:0:smug",
+    "DIP:0:suspicious"
+   ],
    "props": [
     [
-     "kit/podium",
+     "kit/phone",
      1.6,
-     -0.5,
-     1.0
-    ],
-    [
-     "kit/un_wall",
-     0,
-     -2.2,
-     0.8
-    ],
-    [
-     "kit/un_flags",
-     0,
-     -1.8,
-     0.55
+     -0.8,
+     1.1
     ]
    ],
-   "say": "Nayib Bukele, o novo presidente de El Salvador, tinha só trinta e oito anos.",
-   "tiros": false,
-   "batalha": false,
-   "impact": false,
-   "set": "street"
+   "interacao": "cochichar",
+   "say": "Nayib Bukele, o novo presidente de El Salvador, tinha só trinta e oito anos."
   },
   {
    "shot": "close",
-   "interior": "pedra",
-   "who": [
-    "BUK:0:smile"
-   ],
-   "props": [
-    [
-     "kit/podium",
-     0,
-     -0.4,
-     1.3
-    ],
-    [
-     "kit/phone",
-     0.9,
-     0.4,
-     1.1
-    ],
-    [
-     "kit/un_wall",
-     0,
-     -2.2,
-     0.8
-    ],
-    [
-     "kit/un_flags",
-     0,
-     -1.8,
-     0.55
-    ]
-   ],
-   "say": "Acontece que, no púlpito, ele pediu: só um segundo, por favor. E tirou o celular do bolso.",
-   "tiros": false,
-   "batalha": false,
-   "impact": false,
-   "fx": [
-    "stars@8"
-   ],
-   "sfx": [
-    "ding@8"
-   ]
-  },
-  {
-   "shot": "low",
-   "interior": "pedra",
+   "interior": "madeira",
    "who": [
     "BUK:0:grin"
    ],
    "props": [
     [
-     "kit/podium",
-     0,
-     -0.5,
+     "kit/phone",
+     1.6,
+     -0.8,
      1.2
-    ],
-    [
-     "kit/un_wall",
-     0,
-     -2.2,
-     0.8
-    ],
-    [
-     "kit/un_flags",
-     0,
-     -1.8,
-     0.55
     ]
    ],
    "fx": [
-    "burst@10"
+    "stars@20",
+    "ring@40"
    ],
    "sfx": [
-    "sting@10"
+    "ding@20",
+    "sting@40"
    ],
-   "say": "Virou de costas para a plateia, e tirou uma selfie com o plenário inteiro atrás.",
-   "tiros": false,
-   "batalha": false,
-   "impact": false
+   "say": "Acontece que, no púlpito, ele pediu: só um segundo, por favor. E tirou o celular do bolso."
   },
   {
-   "shot": "two",
-   "interior": "pedra",
+   "shot": "low",
+   "interior": "madeira",
    "who": [
-    "BUK:0:laugh",
-    "DE4:0:laugh"
+    "DIP:0:shock"
    ],
    "props": [
     [
-     "kit/podium",
+     "kit/phone",
      -1.6,
-     -0.6,
-     1.0
-    ],
-    [
-     "kit/un_wall",
-     0,
-     -2.2,
-     0.8
-    ],
-    [
-     "kit/un_flags",
-     0,
-     -1.8,
-     0.55
+     -0.8,
+     1.2
     ]
    ],
-   "say": "Depois, brincou: acreditem, muito mais gente vai ver essa selfie do que ouvir este discurso.",
-   "tiros": false,
-   "batalha": false,
-   "impact": false
+   "fx": [
+    "ring@20"
+   ],
+   "sfx": [
+    "sting@20"
+   ],
+   "say": "Virou de costas para a plateia, e tirou uma selfie com o plenário inteiro atrás."
   },
   {
-   "text": "SELFIE",
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "BUK:0:laugh",
+    "DIP:0:surprised"
+   ],
+   "acao": "comemorar",
+   "say": "Depois, brincou: acreditem, muito mais gente vai ver essa selfie do que ouvir este discurso."
+  },
+  {
    "shot": "crowd",
    "who": [
-    "DE1:0:laugh",
-    "DE2:0:laugh",
-    "DE3:0:grin"
+    "POV:0:laugh",
+    "POV:1:surprised",
+    "REP:0:grin"
    ],
+   "batalha": true,
+   "tiros": false,
+   "acao": "comemorar",
    "crowd": {
-    "n": 18,
+    "n": 20,
     "outfits": [
-     "DE1",
-     "DE2",
-     "DE3",
-     "DE4"
+     "POV"
     ],
     "march": false,
     "expr": "laugh"
    },
    "props": [
     [
-     "kit/un_wall",
+     "kit/phone",
      0,
-     -6.0,
-     1.0
-    ],
-    [
-     "kit/un_flags",
-     0,
-     -5.0,
-     1.0
-    ],
-    [
-     "kit/globe",
-     1.6,
-     -0.4,
-     1.1
+     -3.0,
+     1.6
     ]
    ],
-   "say": "E ele tinha razão. A foto rodou o planeta em poucas horas.",
-   "tiros": false,
-   "batalha": false,
-   "impact": true
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "SELFIE",
+   "titulo": true,
+   "say": "E ele tinha razão. A foto rodou o planeta em poucas horas."
   },
   {
    "shot": "two",
    "who": [
-    "DE2:0:angry",
-    "DE3:0:laugh"
+    "REP:0:suspicious:paper",
+    "DIP:0:bored"
    ],
    "acao": "discutir",
-   "props": [
-    [
-     "kit/un_wall",
-     0,
-     -2.2,
-     0.8
-    ],
-    [
-     "kit/un_flags",
-     0,
-     -1.8,
-     0.55
-    ]
-   ],
-   "say": "Alguns acharam falta de respeito com a ONU. Outros acharam genial.",
-   "tiros": false,
-   "batalha": false,
-   "impact": false,
-   "set": "street"
+   "say": "Alguns acharam falta de respeito com a ONU. Outros acharam genial."
   },
   {
    "shot": "two",
    "who": [
-    "BUK:0:smile",
-    "DE1:0:neutral"
+    "BUK:0:smug",
+    "REP:0:surprised"
    ],
    "acao": "conversar",
-   "props": [
-    [
-     "kit/podium",
-     1.6,
-     -0.5,
-     1.0
-    ],
-    [
-     "kit/un_wall",
-     0,
-     -2.2,
-     0.8
-    ],
-    [
-     "kit/un_flags",
-     0,
-     -1.8,
-     0.55
-    ]
-   ],
-   "say": "No discurso, ele defendeu justamente isso: que as reuniões antigas deviam se adaptar à era da internet.",
-   "tiros": false,
-   "batalha": false,
-   "impact": false,
-   "set": "harbor"
+   "say": "No discurso, ele defendeu justamente isso: que as reuniões antigas deviam se adaptar à era da internet."
   },
   {
    "shot": "close",
-   "interior": "pedra",
    "who": [
-    "BUK:0:smug"
+    "BUK:0:smile"
    ],
    "props": [
     [
      "kit/phone",
-     1.0,
-     0.4,
-     1.4
-    ],
-    [
-     "kit/un_wall",
-     0,
-     -2.2,
-     0.8
-    ],
-    [
-     "kit/un_flags",
-     0,
-     -1.8,
-     0.55
+     -1.4,
+     -0.8,
+     1.1
     ]
    ],
-   "say": "Uma selfie de um segundo, que ficou mais famosa que muitos discursos inteiros.",
-   "tiros": false,
-   "batalha": false,
-   "impact": false
+   "acao": "comemorar",
+   "say": "Uma selfie de um segundo, que ficou mais famosa que muitos discursos inteiros."
   }
  ],
  "fontes": [

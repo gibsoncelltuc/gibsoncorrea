@@ -90,8 +90,7 @@
     "FRA:0:stern"
    ],
    "interacao": "entregar",
-   "say": "Napoleão tinha fugido do exílio, reunido um exército, e voltado ao poder na França em poucos dias.",
-   "set": "palace"
+   "say": "Napoleão tinha fugido do exílio, reunido um exército, e voltado ao poder na França em poucos dias."
   },
   {
    "shot": "crowd",
@@ -227,6 +226,7 @@
   },
   {
    "shot": "two",
+   "interior": "madeira",
    "who": [
     "PRO:0:stern:paper",
     "POV:1:worried"
@@ -246,8 +246,7 @@
    ],
    "sfx": [
     "ding@40"
-   ],
-   "set": "street"
+   ]
   },
   {
    "shot": "close",
@@ -263,9 +262,7 @@
     ]
    ],
    "acao": "conversar",
-   "say": "Às vezes, um dia famoso não muda o destino. Só escolhe a data em que ele vem.",
-   "set": "harbor"
+   "say": "Às vezes, um dia famoso não muda o destino. Só escolhe a data em que ele vem."
   }
- ],
- "exp": 1.0
+ ]
 }

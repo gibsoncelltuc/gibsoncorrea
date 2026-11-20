@@ -5,10 +5,10 @@
  "ep": 24,
  "title": "O Foguete que Voltou de Ré",
  "titulo_base": "O Foguete que Voltou de Ré",
- "set": "countryside",
+ "set": "harbor",
  "light": "day",
  "mood": "playful",
- "heroi": "kit/rocket",
+ "heroi": "kit/falcon9_land",
  "outfits": {
   "MUS": {
    "jacket": "#16181d",
@@ -69,9 +69,7 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Durante sessenta anos, todo foguete era jogado fora depois de um voo. Até que um deles voltou e pousou de ré.",
-   "detalhe": false,
-   "set": "countryside"
+   "say": "Durante sessenta anos, todo foguete era jogado fora depois de um voo. Até que um deles voltou e pousou de ré."
   },
   {
    "shot": "reveal",
@@ -81,8 +79,7 @@
    ],
    "mapa": "ESTADOS UNIDOS",
    "mapa_at": 3,
-   "say": "Foi em dezembro de dois mil e quinze, no Cabo Canaveral, na Flórida.",
-   "set": "countryside"
+   "say": "Foi em dezembro de dois mil e quinze, no Cabo Canaveral, na Flórida."
   },
   {
    "shot": "two",
@@ -99,65 +96,31 @@
      -8.0,
      1.1
     ]
-   ],
-   "detalhe": false,
-   "set": "street"
+   ]
   },
   {
-   "shot": "wide",
+   "shot": "two",
    "who": [
     "ENA:0:sad",
     "MUS:0:nervous"
    ],
    "fx": [
-    "burst@25",
-    "burst@40",
-    "puff@30",
-    "puff@55"
+    "burst@30",
+    "puff@50"
    ],
    "sfx": [
-    "cannon@25",
-    "cannon@40",
+    "cannon@30",
     "thump@50"
    ],
    "say": "As primeiras tentativas de pouso deram errado. Foguetes tombaram, e explodiram no mar.",
    "props": [
     [
      "kit/rocket",
-     -2.5,
-     -6.5,
+     2.0,
+     -9.0,
      1.0
-    ],
-    [
-     "kit/rocket",
-     2.8,
-     -8.0,
-     1.0
-    ],
-    [
-     "kit/fire",
-     -2.5,
-     -6.0,
-     2.4
-    ],
-    [
-     "kit/fire",
-     2.8,
-     -7.5,
-     2.4
-    ],
-    [
-     "kit/fire",
-     0.2,
-     -7.0,
-     3.0
     ]
-   ],
-   "detalhe": false,
-   "set": "countryside",
-   "shot_lock": true,
-   "impact": true,
-   "riscos_ok": true
+   ]
   },
   {
    "shot": "two",
@@ -166,22 +129,7 @@
     "ENG:0:grin:paper"
    ],
    "interacao": "entregar",
-   "say": "Mas a equipe insistiu. Em vinte e um de dezembro, o Falcon nove decolou levando satélites.",
-   "props": [
-    [
-     "kit/falcon9_land",
-     2.4,
-     -9.0,
-     1.0
-    ],
-    [
-     "kit/rocket",
-     1.4,
-     -0.3,
-     0.3
-    ]
-   ],
-   "set": "street"
+   "say": "Mas a equipe insistiu. Em vinte e um de dezembro, o Falcon nove decolou levando satélites."
   },
   {
    "shot": "crowd",
@@ -216,42 +164,32 @@
     "whoosh@20",
     "thump@40"
    ],
-   "say": "Depois de soltar a parte de cima, a parte de baixo virou no céu, e começou a voltar para a Terra.",
-   "set": "street"
+   "say": "Depois de soltar a parte de cima, a parte de baixo virou no céu, e começou a voltar para a Terra."
   },
   {
-   "shot": "wide",
+   "shot": "low",
    "hora": "noite",
    "who": [
-    "ENA:0:surprised",
-    "ENG:0:shock"
+    "ENA:0:nervous"
    ],
    "props": [
     [
      "kit/falcon9_land",
-     1.5,
-     -6.0,
-     1.1,
-     {
-      "drop": false,
-      "y": 8
-     }
+     0,
+     -9.0,
+     1.1
     ]
    ],
    "fx": [
-    "ring@20",
-    "dust@70"
+    "ring@20"
    ],
    "sfx": [
-    "sting@20",
-    "thump@70"
+    "sting@20"
    ],
-   "say": "Acontece que ela desceu de ré, de pé, com o motor aceso freando a queda.",
-   "detalhe": false,
-   "shot_lock": true
+   "say": "Acontece que ela desceu de ré, de pé, com o motor aceso freando a queda."
   },
   {
-   "shot": "wide",
+   "shot": "two",
    "hora": "noite",
    "who": [
     "ENG:0:shock",
@@ -260,25 +198,20 @@
    "props": [
     [
      "kit/falcon9_land",
-     1.5,
-     -6.0,
-     1.1,
-     {
-      "drop": false
-     }
+     1.8,
+     -8.0,
+     1.0
     ]
    ],
    "fx": [
-    "puff@30",
-    "dust@50"
+    "stars@30",
+    "puff@50"
    ],
    "sfx": [
-    "thump@30",
-    "ding@50"
+    "ding@30",
+    "thump@50"
    ],
-   "say": "E pousou certinho no meio da plataforma, abrindo as pernas no último segundo.",
-   "detalhe": false,
-   "shot_lock": true
+   "say": "E pousou certinho no meio da plataforma, abrindo as pernas no último segundo."
   },
   {
    "shot": "crowd",
@@ -335,9 +268,9 @@
    "props": [
     [
      "kit/falcon9_land",
-     1.3,
-     -0.3,
-     0.3
+     -1.8,
+     -8.0,
+     1.0
     ]
    ],
    "acao": "comemorar",

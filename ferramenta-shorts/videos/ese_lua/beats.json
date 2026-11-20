@@ -45,9 +45,9 @@
    "props": [
     [
      "kit/moon",
-     1.5,
-     -0.5,
-     1.8
+     0,
+     -1.2,
+     1.1
     ]
    ],
    "text": "E SE...",
@@ -84,8 +84,7 @@
    ],
    "mapa": "OCEANOS",
    "mapa_at": 3,
-   "say": "A segunda, no mar. Quem mais puxa as marés é a Lua.",
-   "hora": "noite"
+   "say": "A segunda, no mar. Quem mais puxa as marés é a Lua."
   },
   {
    "shot": "two",
@@ -108,9 +107,7 @@
    ],
    "sfx": [
     "sting@40"
-   ],
-   "hora": "noite",
-   "set": "harbor"
+   ]
   },
   {
    "shot": "two",
@@ -184,8 +181,7 @@
     "sting@20",
     "ding@50"
    ],
-   "say": "Acontece que o pior viria devagar. A Lua funciona como um peso que mantém a Terra girando firme.",
-   "encena": false
+   "say": "Acontece que o pior viria devagar. A Lua funciona como um peso que mantém a Terra girando firme."
   },
   {
    "shot": "two",
@@ -241,8 +237,8 @@
     [
      "kit/moon",
      0,
-     -6.0,
-     2.6
+     -4.0,
+     1.4
     ]
    ],
    "fx": [
@@ -266,15 +262,13 @@
    "props": [
     [
      "kit/moon",
-     -1.2,
-     -0.4,
-     1.7
+     -1.4,
+     -0.8,
+     1.0
     ]
    ],
    "acao": "conversar",
    "say": "Então hoje, olha para cima e agradece. Ela trabalha mais do que parece."
   }
- ],
- "cinf": 1.5,
- "exp": 2.474
+ ]
 }

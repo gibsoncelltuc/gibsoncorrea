@@ -4,9 +4,9 @@
 # - sessao A ou B sem commit ha mais de 15 min (reiniciou/parou) -> SAI com o aviso: a sessao principal acorda, manda a sessao retomar e relanca o watchdog
 # uso (sessao principal, em segundo plano): bash watchdog.sh
 cd "$(dirname "$0")"; ST=logs/watchdog.state; touch $ST
-declare -A BR=([A]=claude/prod-a-karansebes [B]=claude/prod-b-emus)
+declare -A BR=([A]=claude/prod-a-v2 [B]=claude/prod-b-v2)
 while true; do
-  if ! pgrep -f run_queue.sh >/dev/null && grep -qv '^#' queue.txt; then
+  if ! pgrep -f run_queue.sh >/dev/null && grep -qv '^#' "$(bash qfile.sh)"; then
     nohup bash run_queue.sh > logs/queue_run.log 2>&1 &
     echo "$(date +%T) watchdog: fila local estava parada -> relancada" >> logs/watchdog.log
   fi

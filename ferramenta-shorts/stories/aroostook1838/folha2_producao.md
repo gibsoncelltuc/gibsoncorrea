@@ -24,10 +24,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - Na floresta de Aroostook, lenhadores americanos e ingleses cortavam as...
 - Cenario: mountain | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): AME (variante 0, expressao smug, segura bag); CAN (variante 0, expressao smug, segura bag)
-- Animacao: discutir | interacao: vai ate o outro
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (2): AME (variante 0, expressao smug); CAN (variante 0, expressao smug) | multidao: 12 de AME/CAN
+- Animacao: discutir | batalha encenada
 - Objetos/modelos: nature/tree_pine, kit/logs, nature/tree_oak, nature/bush
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aroostook, floresta, madeira, mesmas
 - RISCOS: nenhum
@@ -37,23 +37,13 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): AME (variante 0, expressao shout); CAN (variante 0, expressao angry)
-- Animacao: discutir | interacao: cochichar | batalha encenada
+- Animacao: discutir | interacao: empurrar
 - Objetos/modelos: nature/tree_pine
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brigar, dois, lenhador
 - RISCOS: nenhum
 
-## Cena b4 - Um lenhador empurrou o outro, e o outro foi derrubado no chão, no meio...
-- Cenario: countryside | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): AME (variante 0, expressao angry); CAN (variante 0, expressao angry)
-- Animacao: conversar | interacao: empurrar
-- Objetos/modelos: nature/tree_pine, nature/tree_oak, nature/bush
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chao, floresta, lenhador
-- RISCOS: nenhum
-
-## Cena b5 - O Maine chamou milhares de soldados, e a Inglaterra mandou os seus.
-- Cenario: mountain | luz: day | clima: limpo
+## Cena b4 - O Maine chamou milhares de soldados, e a Inglaterra mandou os seus.
+- Cenario: street | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): MIL (variante 0, expressao angry); ING (variante 0, expressao angry) | multidao: 30 de MIL/ING
@@ -62,18 +52,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): inglaterra, maine, seus, soldados
 - RISCOS: nenhum
 
-## Cena b6 - Acontece que um agente do Maine foi preso pelos ingleses, e o clima fi...
+## Cena b5 - Acontece que um agente do Maine foi preso pelos ingleses, e o clima fi...
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): AME (variante 0, expressao scared); ING (variante 0, expressao smug)
 - Animacao: conversar | interacao: empurrar
-- Objetos/modelos: kit/prison_mini
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): agente, clima, maine
 - RISCOS: nenhum
 
-## Cena b7 - Mas ninguém queria uma guerra de verdade, então o governo mandou um ge...
-- Cenario: countryside | luz: day | clima: limpo
+## Cena b6 - Mas ninguém queria uma guerra de verdade, então o governo mandou um ge...
+- Cenario: palace | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): GEN (variante 0, expressao stern); MIL (variante 0, expressao nervous)
@@ -82,7 +72,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): general, governo
 - RISCOS: nenhum
 
-## Cena b8 - Ele convenceu os dois lados a parar, e ninguém atirou um único tiro.
+## Cena b7 - Ele convenceu os dois lados a parar, e ninguém atirou um único tiro.
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
@@ -92,7 +82,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, parar
 - RISCOS: nenhum
 
-## Cena b9 - Alguns anos depois, um tratado dividiu a floresta, e a fronteira ficou...
+## Cena b8 - Alguns anos depois, um tratado dividiu a floresta, e a fronteira ficou...
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
@@ -102,24 +92,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): floresta, fronteira, tratado
 - RISCOS: nenhum
 
-## Cena b10 - Chamaram de Guerra do Porco com Feijão,
-- Cenario: mountain | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa
-- Personagens principais (1): AME (variante 0, expressao smile)
+## Cena b9 - Chamaram de Guerra do Porco com Feijão, porque era só isso que as trop...
+- Cenario: countryside | luz: day | clima: limpo
+- Camera: close = close no rosto; empurra devagar
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (1): AME (variante 0, expressao smile) | multidao: 10 de AME
 - Animacao: conversar
 - Objetos/modelos: kit/logs, nature/tree_pine, pig
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): feijao, porco
-- RISCOS: nenhum
-
-## Cena b11 - porque era só isso que as tropas comiam.
-- Cenario: mountain | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (2): AME (variante 0, expressao smile); CAN (variante 0, expressao smile)
-- Animacao: conversar | interacao: aproxima-se
-- Objetos/modelos: nature/tree_pine
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): tropas
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): feijao, porco, tropas
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -127,18 +107,17 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/logs | b0, b2, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/tree_pine | b0, b2, b3, b4, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/tree_oak | b2, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/bush | b2, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/prison_mini | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/scroll | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-pig | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/logs | b0, b2, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/tree_pine | b0, b2, b3, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/tree_oak | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/bush | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/scroll | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+pig | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/logs | grandes momentos: b3, b5 | planos abertos: 2 | mistura: close 1% | medio 86% | aberto 10% | detalhe 2%
-- Interacoes: b0 discutir, b2 vai ate o outro, b3 cochichar, b4 empurrar, b6 empurrar, b7 cochichar, b8 entregar, b9 entregar, b11 aproxima-se
+- Objeto heroi: kit/logs | grandes momentos: b2, b4 | planos abertos: 3 | mistura: close 24% | medio 59% | aberto 15% | detalhe 3%
+- Interacoes: b0 discutir, b3 empurrar, b5 empurrar, b6 cochichar, b7 entregar, b8 entregar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

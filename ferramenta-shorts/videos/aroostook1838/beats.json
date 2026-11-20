@@ -122,8 +122,8 @@
    "shot": "two",
    "set": "mountain",
    "who": [
-    "AME:0:smug:bag",
-    "CAN:0:smug:bag"
+    "AME:0:smug",
+    "CAN:0:smug"
    ],
    "acao": "discutir",
    "say": "Na floresta de Aroostook, lenhadores americanos e ingleses cortavam as mesmas árvores, e cada lado queria a madeira.",
@@ -153,8 +153,7 @@
      -0.6,
      1.0
     ]
-   ],
-   "detalhe": false
+   ]
   },
   {
    "shot": "two",
@@ -163,79 +162,33 @@
     "AME:0:shout",
     "CAN:0:angry"
    ],
+   "interacao": "empurrar",
    "say": "\"Essa árvore é minha!\", gritou um lenhador, e logo os dois lados começaram a brigar.",
    "fachada": false,
    "props": [
     [
      "nature/tree_pine",
      -3.0,
-     -7.5,
+     -5.5,
      1.6
     ],
     [
      "nature/tree_pine",
      3.2,
-     -8.0,
+     -6.5,
      1.7
     ],
     [
      "nature/tree_pine",
      -1.0,
-     -10.0,
+     -9.0,
      1.8
     ]
-   ],
-   "impact": true,
-   "fx": [
-    "stars@60",
-    "puff@60"
-   ],
-   "sfx": [
-    "thump@60"
-   ],
-   "batalha": false,
-   "shot_lock": true,
-   "d0": 9.0,
-   "d1": 8.0
-  },
-  {
-   "shot": "two",
-   "set": "countryside",
-   "who": [
-    "AME:0:angry",
-    "CAN:0:angry"
-   ],
-   "say": "Um lenhador empurrou o outro, e o outro foi derrubado no chão, no meio da floresta.",
-   "fachada": false,
-   "props": [
-    [
-     "nature/tree_pine",
-     -3.0,
-     -7.5,
-     1.6
-    ],
-    [
-     "nature/tree_pine",
-     3.2,
-     -8.0,
-     1.7
-    ],
-    [
-     "nature/tree_pine",
-     -1.0,
-     -10.0,
-     1.8
-    ]
-   ],
-   "batalha": false,
-   "shot_lock": true,
-   "d0": 11.5,
-   "d1": 10.5,
-   "cx": 0.6
+   ]
   },
   {
    "shot": "crowd",
-   "set": "mountain",
+   "set": "street",
    "who": [
     "MIL:0:angry",
     "ING:0:angry"
@@ -253,8 +206,7 @@
    },
    "text": "MILÍCIA",
    "titulo": true,
-   "say": "O Maine chamou milhares de soldados, e a Inglaterra mandou os seus.",
-   "objetos": false
+   "say": "O Maine chamou milhares de soldados, e a Inglaterra mandou os seus."
   },
   {
    "shot": "two",
@@ -264,19 +216,11 @@
    ],
    "interacao": "empurrar",
    "say": "Acontece que um agente do Maine foi preso pelos ingleses, e o clima ficou perigoso.",
-   "interior": "pedra",
-   "props": [
-    [
-     "kit/prison_mini",
-     1.6,
-     -0.7,
-     1.1
-    ]
-   ]
+   "interior": "pedra"
   },
   {
    "shot": "two",
-   "set": "countryside",
+   "set": "palace",
    "who": [
     "GEN:0:stern",
     "MIL:0:nervous"
@@ -306,7 +250,7 @@
   },
   {
    "shot": "close",
-   "set": "mountain",
+   "set": "countryside",
    "who": [
     "AME:0:smile"
    ],
@@ -336,8 +280,7 @@
      1.8
     ]
    ],
-   "say": "Chamaram de Guerra do Porco com Feijão,",
-   "fachada": false,
+   "say": "Chamaram de Guerra do Porco com Feijão, porque era só isso que as tropas comiam.",
    "animals": [
     [
      "pig",
@@ -346,33 +289,8 @@
      "stand",
      1.0
     ]
-   ]
-  },
-  {
-   "shot": "two",
-   "set": "mountain",
-   "who": [
-    "AME:0:smile",
-    "CAN:0:smile"
    ],
-   "props": [
-    [
-     "nature/tree_pine",
-     -3.0,
-     -7.5,
-     1.6
-    ],
-    [
-     "nature/tree_pine",
-     3.2,
-     -8.0,
-     1.7
-    ]
-   ],
-   "say": "porque era só isso que as tropas comiam.",
-   "fachada": false,
-   "shot_lock": true,
-   "animais": false
+   "fachada": false
   }
  ]
 }

@@ -1,20 +1,20 @@
 # PLANO DE PRODUÇÃO (pedido do Gibson) — quem faz o quê
 
-Regra: cada sessão trabalha no SEU branch e só nos ids da sua lista. Antes de cada vídeo: `git fetch origin claude/bold-sagan-dskrsj && git merge --no-edit -X theirs FETCH_HEAD` (ferramenta mais nova). Seguir `OPERACAO.md` do passo 1 ao 7 em TODO vídeo (duas folhas, 0 risco, conferir, olhar a folha de contato, entregar em `entregas/<id>/`, commit + push, avisar a sessão principal com send_message). Um vídeo de cada vez. Marque aqui `[x]` ao entregar.
+Regra: cada sessão trabalha no SEU branch e só nos ids da sua lista. Antes de cada vídeo: `git fetch origin claude/serene-dirac-ckwlt5 && git merge --no-edit -X theirs FETCH_HEAD` (ferramenta mais nova). Seguir `OPERACAO.md` do passo 1 ao 7 em TODO vídeo (duas folhas, 0 risco, conferir, olhar a folha de contato, entregar em `entregas/<id>/`, commit + push, avisar a sessão principal com send_message). Um vídeo de cada vez. Marque aqui `[x]` ao entregar.
 
-## Sessão principal (branch claude/bold-sagan-dskrsj)
+## Sessão principal (branch claude/serene-dirac-ckwlt5)
 Refazer com a ferramenta atual e as duas folhas (`./refazer_tudo.sh <id>` depois de zerar os riscos da folha 2):
 - [x] EP 06 porco1859 · [x] EP 04 balde1325 · [x] EP 07 bolos1838 · [x] EP 01 karansebes · [x] EP 03 toledo1835 · [x] EP 08 zanzibar1896
 - [x] EP 02 emus1932 — folha 2 acusa 6 riscos (emu fora de cena em b3/b9, "montou", sem mapa, herói errado: ponha `"heroi": null` ou modele; corrigir o beats.json)
 - [x] EP 05 gansos390 — 7 riscos (cachorro sem modelo: modelar ou tirar; "dormiam/escalaram"; sem herói: use o ganso/galinha; 2 palavras sem efeito)
 Depois: Curiosidade e Ciência CC 11–20.
 
-## Sessão A (branch claude/prod-a-karansebes) — Guerras Inusitadas
+## Sessão A (branch claude/prod-a-v2) — Guerras Inusitadas
 - [x] EP 09 futebol1969
 - [x] EP 11 A Guerra da Lagosta (Brasil × França, 1961) · [x] EP 12 A Guerra da Orelha de Jenkins (1739) · [x] EP 13 A Guerra do Banquinho Dourado (1900) · [x] EP 14 A Guerra de 335 Anos (ilhas Scilly) · [x] EP 15 A Guerra do Bacalhau (Islândia × Reino Unido)
 - [x] EP 16 A Guerra da Melancia (Panamá, 1856) · [x] EP 17 A Guerra do Uísque (ilha Hans, Canadá × Dinamarca; cenário `arctic`) · [ ] EP 18 A Guerra do Cão Fugitivo (Grécia × Bulgária, 1925) · [ ] EP 19 A Guerra de Aroostook (lenhadores, 1838) · [ ] EP 20 A Batalha de Los Angeles (1942, atiraram no nada)
 
-## Sessão B (branch claude/prod-b-emus) — Curiosidade e Ciência (`"serie": "Curiosidade e Ciência", "ep": N`)
+## Sessão B (branch claude/prod-b-v2) — Curiosidade e Ciência (`"serie": "Curiosidade e Ciência", "ep": N`)
 - [x] EP 10 chaleira1784
 - [x] CC 01 Newton e a maçã · [ ] CC 02 Arquimedes e o "Eureca" na banheira · [x] CC 03 Galileu e a torre de Pisa · [x] CC 04 Fleming e o mofo que virou penicilina · [x] CC 05 O micro-ondas e o chocolate derretido
 - [x] CC 06 Pasteur e a vacina da raiva · [x] CC 07 Franklin, a pipa e o raio · [x] CC 08 Darwin e os tentilhões · [x] CC 09 Mendel e as ervilhas · [ ] CC 10 Eratóstenes mede a Terra com uma sombra
@@ -33,7 +33,6 @@ Entregues: CC 11 ✔ · CC 12 ✔ · CC 13 ✔ · CC 14 ✔ · CC 15 ✔ · CC 1
 ## Série 3 — "Poder e Fama" (Trump, Bukele, Elon Musk) — 20 vídeos, DEPOIS das listas acima
 Ler `FIGURINOS_FAMOSOS.md` (figurinos prontos e REGRAS obrigatórias: só fato real conferido, sem fala inventada, tom de curiosidade). `"serie": "Poder e Fama", "ep": N`.
 - Sessão A: PF 01–07 · Sessão B: PF 08–14 · Sessão principal: PF 15–20. Cada sessão escolhe os temas da lista de ideias do `FIGURINOS_FAMOSOS.md` (ou outros fatos conferidos), sem repetir: anote aqui o tema escolhido antes de começar.
-- Sessão B escolheu: PF 11 = vidro do Cybertruck (2019) · PF 12 = Não é um lança-chamas (2018) · PF 13 = O Aprendiz, "você está demitido" (2004) · PF 14 = venda do PayPal ao eBay (2002).
 - Sessão principal escolheu (fora da lista de ideias, para não repetir): PF 15 = Trump na WrestleMania 23 (2007) · PF 16 = os braços que pegam o foguete no ar (Starship, 2024) · PF 17 = Bukele e o bitcoin minerado com vulcão (2021) · PF 18 = Trump: The Game, o jogo de tabuleiro (1989) · PF 19 = o macaco da Neuralink que jogou Pong com a mente (2021) · PF 20 = Tesla e a tequila (Teslaquila, 2020).
 - Sessão principal, pacote "5 maiores histórias de cada um" (pedido do Gibson): PF 21 reeleição de Trump 2024 · PF 22 captura de Maduro (Força Delta, 2026) · PF 23 Martelo da Meia-Noite (B-2 no Irã, 2025) · PF 24 Falcon 9 pousa de ré (2015) · PF 25 Roadster que pula carros (2026) · PF 26 Bukele reeleito com 84,6% (2024) · PF 27 CECOT, a mega-prisão (2023) · PF 28 selfie de Bukele na ONU (2019). NÃO repetir estes temas.
 - Divisão do render: os 8 do pacote (PF 21–28) foram passados para a sessão B produzir (18/11, 18:45).
