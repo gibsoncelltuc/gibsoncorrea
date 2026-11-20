@@ -12,7 +12,7 @@ b4 | street | two | 2 | conversar, INTERAGEM: aproxima-se | kit/stick, nature/tr
 b5 | street | close | 1 | conversar | kit/globe, nature/tree_palm, kit/marco_alexandria | - | -
 b6 | palace | orbit | 12 | reagir, batalha | kit/globe, kit/stick, nature/tree_palm, kit/marco_alexandria | - | -
 b7 | palace | track | 2 | encena, andando | kit/stick, nature/tree_palm, kit/marco_alexandria, buildings/apartment, buildings/house_two, nature/lamppost | - | -
-b8 | interior pedra | two | 2 | conversar, INTERAGEM: cochichar, alguem chega andando | - | paper | -
+b8 | interior pedra | two | 2 | conversar, INTERAGEM: cochichar | - | paper | -
 b9 | street | group | 16 | comemorar, INTERAGEM: pular, batalha | kit/globe, nature/tree_palm, kit/marco_alexandria, kit/starlink_sat | - | -
 b10 | palace | close | 1 | conversar | kit/stick, kit/well, nature/tree_palm, kit/marco_alexandria, tools/bucket, kit/starlink_sat | - | -
 

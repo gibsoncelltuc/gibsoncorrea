@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 10 - Eratóstenes Mede a Terra
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 23 acoes catalogadas, 23 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.3s - 15 palavras - plano two
@@ -38,13 +38,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b4 - 21.8s a 25.7s - 14 palavras - plano two
-> "Em Alexandria, no mesmo dia, uma vara fincada no chão fazia uma sombra pequena."
+> "Em Alexandria, no mesmo dia, uma vara fincada no solo fazia uma sombra pequena."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | chão (24.8s) | ACAO: tomba | cai sentado no chao + poeira | OK |
-| 2 | - | INTERACAO | aproxima-se | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 1 | - | INTERACAO | aproxima-se | OK |
+| 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b5 - 26.9s a 30.9s - 12 palavras - plano close
 > "Eratóstenes pensou: "Se a Terra fosse plana, as duas sombras seriam iguais.""
@@ -69,18 +68,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | mediu (37.9s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
 | 2 | contou (39.5s) | ACAO: fala | aponta explicando | OK |
 
-## Cena b8 - 42.3s a 46.0s - 15 palavras - plano two
-> "Com uma conta simples, chegou a um número muito perto do tamanho real da Terra."
+## Cena b8 - 42.3s a 45.9s - 14 palavras - plano two
+> "Com uma conta simples, encontrou um número muito perto do tamanho real da Terra."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | chegou (43.7s) | EFEITO: dust | poeira + som | OK |
-| 2 | chegou (43.7s) | ACAO: chega | entra andando pela lateral | OK |
-| 3 | - | INTERACAO | cochichar | OK |
-| 4 | - | ATUACAO | conversar | OK |
-| 5 | - | CHEGADA | alguem entra andando | OK |
+| 1 | encontrou (43.7s) | ACAO: olha | aponta/olha | OK |
+| 2 | - | INTERACAO | cochichar | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 47.1s a 50.8s - 15 palavras - plano group
+## Cena b9 - 46.0s a 50.6s - 15 palavras - plano group
 > "E tudo isso aconteceu mais de dois mil anos atrás, sem satélite e sem computador."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -89,7 +86,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | comemorar | OK |
 | 3 | - | PLACA | 40.000 KM | OK |
 
-## Cena b10 - 52.3s a 55.1s - 13 palavras - plano close
+## Cena b10 - 50.8s a 55.0s - 13 palavras - plano close
 > "No fim, uma vara e um poço fizeram o trabalho de um satélite."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
