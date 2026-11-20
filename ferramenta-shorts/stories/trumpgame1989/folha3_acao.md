@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 18 - O Jogo de Tabuleiro do Trump
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.4s - 21 palavras - plano two
@@ -68,8 +68,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | Vendeu (44.2s) | EFEITO: stars | estrelinhas + som | OK |
 | 5 | fracasso (47.4s) | EFEITO: puff | fumaca + som | OK |
 | 6 | fracasso (47.4s) | ACAO: perde | mao na testa | OK |
-| 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 8 | - | PLACA | 800 MIL | OK |
+| 7 | - | PLACA | 800 MIL | OK |
 
 ## Cena b7 - 48.6s a 51.4s - 10 palavras - plano two
 > "O jogo saiu das lojas, e ficou esquecido por anos."
@@ -100,9 +99,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | ATUACAO | comemorar | OK |
-| 3 | - | PLACA | VOLTOU | OK |
+| 1 | - | ATUACAO | comemorar | OK |
+| 2 | - | PLACA | VOLTOU | OK |
 
 ## Cena b11 - 69.9s a 73.8s - 13 palavras - plano close
 > "Um jogo sobre ficar bilionário, que acabou virando só uma curiosidade da história."

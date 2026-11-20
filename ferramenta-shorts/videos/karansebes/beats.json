@@ -174,7 +174,17 @@
    "text": "TURCOS!",
    "tat": 2,
    "tstyle": "red",
-   "mood": "tense"
+   "mood": "tense",
+   "crowd": {
+    "n": 14,
+    "outfits": [
+     "AUT",
+     "HUS"
+    ],
+    "march": false,
+    "expr": "scared"
+   },
+   "tiros": false
   },
   {
    "say": "Acontece que ninguém entendia a língua do vizinho. Todo mundo atirava em todo mundo, achando que eram os turcos.",

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 18 - Os Primeiros Passageiros do Céu
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.2s - 17 palavras - plano two
@@ -59,7 +59,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
 ## Cena b7 - 40.2s a 44.9s - 17 palavras - plano group
 > "Acontece que o balão levantou voo de verdade, e foi embora pelo céu, com os bichos dentro."
@@ -96,9 +96,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | voarem (60.5s) | ACAO: voa | decola: poeira no chao, olha para cima | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | ATUACAO | comemorar | OK |
-| 4 | - | PLACA | VOAMOS | OK |
+| 2 | - | ATUACAO | comemorar | OK |
+| 3 | - | PLACA | VOAMOS | OK |
 
 ## Cena b11 - 64.9s a 67.4s - 12 palavras - plano close
 > "E tudo graças a uma ovelha, um pato e um galo corajosos."

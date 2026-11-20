@@ -58,7 +58,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 
 ## Cena b6  (~4.1 s)
 - Narracao: No escuro, alguém gritou: "Turcos! Turcos!" E o pânico tomou o acampamento.
-- Som ambiente: birds | batalha: tiros e gritos a cena inteira
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou: -> ring + som de alerta; pânico -> dust + som de impacto; encena: grita (up) @3 -> acao + som de efeito
 - Efeito visual marcado: -
