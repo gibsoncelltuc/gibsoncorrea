@@ -83,7 +83,9 @@
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "hora": "dia",
+   "shot_lock": true
   },
   {
    "say": "O valor do negócio foi de um bilhão e meio de dólares, pagos em ações.",
@@ -217,12 +219,14 @@
    ],
    "sfx": [
     "ding@3"
-   ]
+   ],
+   "hora": "dia"
   }
  ],
  "fontes": [
   "https://en.wikipedia.org/wiki/PayPal",
   "https://en.wikipedia.org/wiki/SpaceX"
  ],
- "exp": 1.0
+ "exp": 1.12,
+ "cinf": 4.5
 }

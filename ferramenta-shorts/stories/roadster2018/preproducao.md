@@ -5,15 +5,15 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | harbor | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/falcon_air, kit/roadster, kit/marco_canaveral | - | -
-b1 | street | close | 1 | conversar | kit/roadster, kit/marco_canaveral | - | -
+b1 | harbor | close | 1 | conversar | kit/roadster, kit/marco_canaveral | - | -
 b2 | harbor | reveal | 8 | parados (so fala e pisca) | kit/rocket, kit/marco_canaveral | - | -
-b3 | street | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/roadster, kit/marco_canaveral | - | -
+b3 | harbor | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/roadster, kit/marco_canaveral | - | -
 b4 | street | crowd | 23 | reagir, batalha | kit/falcon_air, kit/marco_canaveral, kit/rocket | - | -
 b5 | interior loja | two | 2 | conversar, INTERAGEM: insiste | kit/roadster | - | -
-b6 | street | group | 6 | conversar | kit/roadster, kit/marco_canaveral | - | -
-b7 | arctic | group | 2 | conversar, INTERAGEM: vai ate o outro | kit/globe, kit/roadster, kit/marco_canaveral | - | -
-b8 | harbor | group | 2 | conversar, INTERAGEM: aproxima-se | kit/roadster, kit/marco_canaveral | - | -
-b9 | harbor | orbit | 21 | comemorar, batalha | kit/rocket, kit/roadster, kit/marco_canaveral | - | -
+b6 | street | group | 6 | reagir | kit/roadster, kit/marco_canaveral | - | -
+b7 | arctic | group | 2 | conversar, INTERAGEM: vai ate o outro | kit/globe, kit/roadster | - | -
+b8 | arctic | group | 2 | conversar, INTERAGEM: aproxima-se | kit/roadster | - | -
+b9 | arctic | orbit | 21 | comemorar, batalha | kit/rocket, kit/roadster | - | -
 
 OBJETO HEROI: kit/roadster - aparece em 8 cena(s), close nele em 3
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b9
