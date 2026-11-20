@@ -80,12 +80,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: voto (reach) @5 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: MENOS ASSASSINATOS
+- Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b9  (~5.2 s)
 - Narracao: Organizações de direitos humanos, porém, criticaram as prisões em massa e o estado de exceção.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: protesto (up) @5 -> acao + som de efeito
 - Efeito visual marcado: -
