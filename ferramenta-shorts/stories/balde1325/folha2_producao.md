@@ -36,9 +36,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: mountain | luz: noite | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): MOD (variante 0, expressao laugh, segura bag); MOD (variante 1, expressao grin) | multidao: 12 de POV
+- Personagens principais (2): MOD (variante 0, expressao laugh, segura bag); MOD (variante 1, expressao grin)
 - Animacao: comemorar | batalha encenada
-- Objetos/modelos: barrel, kit/marco_ghirlandina, tools/bucket, buildings/house_small, nature/picket_fence, nature/tree_oak
+- Objetos/modelos: kit/well, tools/bucket, kit/marco_ghirlandina, buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balde, poco, praca
 - RISCOS: nenhum
 
@@ -114,7 +114,7 @@ nature/lamppost | b0, b8 | pronto | conferir na folha de contato se le bem; se p
 buildings/house_small | b1, b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b1, b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b1, b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-barrel | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/well | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro

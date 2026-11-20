@@ -1,0 +1,297 @@
+{
+ "duration": 59.904,
+ "frames30": 1797,
+ "source": "silence-align (cost 1.26)",
+ "segments": [
+  [
+   0.147833,
+   2.28887
+  ],
+  [
+   2.54446,
+   3.86017
+  ],
+  [
+   4.653,
+   5.87092
+  ],
+  [
+   6.71571,
+   7.90908
+  ],
+  [
+   8.10812,
+   8.88567
+  ],
+  [
+   9.18846,
+   10.587
+  ],
+  [
+   11.452,
+   12.15
+  ],
+  [
+   12.3393,
+   14.647
+  ],
+  [
+   15.4976,
+   16.6847
+  ],
+  [
+   17.5107,
+   18.0515
+  ],
+  [
+   18.2899,
+   19.6625
+  ],
+  [
+   19.8663,
+   20.643
+  ],
+  [
+   20.9113,
+   21.7014
+  ],
+  [
+   21.9154,
+   22.9046
+  ],
+  [
+   23.714,
+   25.3198
+  ],
+  [
+   26.165,
+   27.0263
+  ],
+  [
+   27.2071,
+   27.9932
+  ],
+  [
+   28.8472,
+   30.2196
+  ],
+  [
+   31.0679,
+   33.2315
+  ],
+  [
+   34.0747,
+   35.718
+  ],
+  [
+   35.9643,
+   36.9285
+  ],
+  [
+   37.8335,
+   39.1388
+  ],
+  [
+   40.0573,
+   40.6122
+  ],
+  [
+   40.8361,
+   42.0701
+  ],
+  [
+   42.324,
+   43.7515
+  ],
+  [
+   44.6366,
+   46.5868
+  ],
+  [
+   46.8138,
+   49.3931
+  ],
+  [
+   50.2452,
+   50.6647
+  ],
+  [
+   50.9154,
+   53.8408
+  ],
+  [
+   54.0408,
+   54.8268
+  ],
+  [
+   55.6828,
+   56.2991
+  ],
+  [
+   56.5243,
+   59.0962
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Uma mulher come\u00e7ou a dan\u00e7ar no meio da rua,",
+   "s": 0.148,
+   "e": 2.289
+  },
+  {
+   "text": "e n\u00e3o conseguiu mais parar.",
+   "s": 2.544,
+   "e": 3.86
+  },
+  {
+   "text": "Era ver\u00e3o em Estrasburgo.",
+   "s": 4.653,
+   "e": 5.871
+  },
+  {
+   "text": "Ela dan\u00e7ou o dia inteiro,",
+   "s": 6.716,
+   "e": 7.909
+  },
+  {
+   "text": "a noite inteira,",
+   "s": 8.108,
+   "e": 8.886
+  },
+  {
+   "text": "e continuou no dia seguinte.",
+   "s": 9.188,
+   "e": 10.587
+  },
+  {
+   "text": "Em uma semana,",
+   "s": 11.452,
+   "e": 12.15
+  },
+  {
+   "text": "mais de trinta vizinhos estavam dan\u00e7ando com ela.",
+   "s": 12.339,
+   "e": 14.647
+  },
+  {
+   "text": "Ningu\u00e9m sabia por qu\u00ea.",
+   "s": 15.498,
+   "e": 16.685
+  },
+  {
+   "text": "Em um m\u00eas,",
+   "s": 17.511,
+   "e": 18.052
+  },
+  {
+   "text": "eram quatrocentas pessoas,",
+   "s": 18.29,
+   "e": 19.663
+  },
+  {
+   "text": "de p\u00e9s sangrando,",
+   "s": 19.866,
+   "e": 20.643
+  },
+  {
+   "text": "pedindo socorro,",
+   "s": 20.911,
+   "e": 21.701
+  },
+  {
+   "text": "sem conseguir parar.",
+   "s": 21.915,
+   "e": 22.905
+  },
+  {
+   "text": "O prefeito chamou os m\u00e9dicos.",
+   "s": 23.714,
+   "e": 25.32
+  },
+  {
+   "text": "\"\u00c9 sangue quente\",",
+   "s": 26.165,
+   "e": 27.026
+  },
+  {
+   "text": "disseram eles.",
+   "s": 27.207,
+   "e": 27.993
+  },
+  {
+   "text": "\"O rem\u00e9dio \u00e9 dan\u00e7ar mais.\"",
+   "s": 28.847,
+   "e": 30.22
+  },
+  {
+   "text": "Acontece que a cidade levou isso a s\u00e9rio.",
+   "s": 31.068,
+   "e": 33.231
+  },
+  {
+   "text": "Contratou m\u00fasicos com tambores,",
+   "s": 34.075,
+   "e": 35.718
+  },
+  {
+   "text": "para animar a multid\u00e3o.",
+   "s": 35.964,
+   "e": 36.928
+  },
+  {
+   "text": "Foi a pior ideia poss\u00edvel.",
+   "s": 37.834,
+   "e": 39.139
+  },
+  {
+   "text": "Com m\u00fasica,",
+   "s": 40.057,
+   "e": 40.612
+  },
+  {
+   "text": "mais gente entrou na dan\u00e7a,",
+   "s": 40.836,
+   "e": 42.07
+  },
+  {
+   "text": "e muitos ca\u00edram de exaust\u00e3o.",
+   "s": 42.324,
+   "e": 43.752
+  },
+  {
+   "text": "As cr\u00f4nicas da \u00e9poca falam em mortes,",
+   "s": 44.637,
+   "e": 46.587
+  },
+  {
+   "text": "mas os historiadores discutem quantas foram de verdade.",
+   "s": 46.814,
+   "e": 49.393
+  },
+  {
+   "text": "No fim,",
+   "s": 50.245,
+   "e": 50.665
+  },
+  {
+   "text": "os dan\u00e7arinos foram levados para um santu\u00e1rio nas montanhas,",
+   "s": 50.915,
+   "e": 53.841
+  },
+  {
+   "text": "e a dan\u00e7a parou.",
+   "s": 54.041,
+   "e": 54.827
+  },
+  {
+   "text": "At\u00e9 hoje,",
+   "s": 55.683,
+   "e": 56.299
+  },
+  {
+   "text": "ningu\u00e9m sabe explicar direito o que aconteceu naquele ver\u00e3o.",
+   "s": 56.524,
+   "e": 59.096
+  }
+ ]
+}

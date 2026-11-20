@@ -84,14 +84,21 @@
    ],
    "props": [
     [
-     "barrel",
-     2.4,
-     0.6,
+     "kit/well",
+     2.2,
+     -1.2,
      1.1
+    ],
+    [
+     "tools/bucket",
+     0.4,
+     0.6,
+     2.0
     ]
    ],
    "text": "O BALDE",
-   "say": "Não roubaram ouro, nem armas. Levaram o balde velho do poço da praça, e voltaram para casa rindo."
+   "say": "Não roubaram ouro, nem armas. Levaram o balde velho do poço da praça, e voltaram para casa rindo.",
+   "crowd": false
   },
   {
    "shot": "close",

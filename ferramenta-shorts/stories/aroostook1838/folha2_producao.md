@@ -22,14 +22,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): colonia, estado, fronteira, maine
 - RISCOS: nenhum
 
-## Cena b2 - Na floresta de Aroostook, lenhadores americanos e ingleses cortavam as...
+## Cena b2 - Na mata de Aroostook, lenhadores americanos e ingleses cortavam as mes...
 - Cenario: mountain | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): AME (variante 0, expressao smug); CAN (variante 0, expressao smug)
 - Animacao: discutir | interacao: vai ate o outro
 - Objetos/modelos: nature/tree_pine, kit/logs, nature/tree_oak, nature/bush
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aroostook, floresta, madeira, mesmas
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aroostook, madeira, mata, mesmas
 - RISCOS: nenhum
 
 ## Cena b3 - "Essa árvore é minha!", gritou um lenhador, e logo os dois lados começ...
@@ -82,14 +82,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, parar
 - RISCOS: nenhum
 
-## Cena b8 - Alguns anos depois, um tratado dividiu a floresta, e a fronteira ficou...
+## Cena b8 - Alguns anos depois, um tratado dividiu a mata, e a fronteira ficou def...
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): PRE (variante 0, expressao smug, segura paper); PRE (variante 1, expressao smile)
 - Animacao: conversar | interacao: entregar
 - Objetos/modelos: kit/scroll
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): floresta, fronteira, tratado
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fronteira, mata, tratado
 - RISCOS: nenhum
 
 ## Cena b9 - Chamaram de Guerra do Porco com Feijão, porque era só isso que as trop...

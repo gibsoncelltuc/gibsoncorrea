@@ -5,7 +5,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | -  | placa: 1325, objeto na mao | - | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | track | noite  | - | encena: chega (point) @8 (acao + som de efeito) | -
-b3 | crowd | noite  | batalha aberta com tiros, tropa, placa: O BALDE, objeto na mao | rindo (stars + som de sino); encena: x_ri (up) @17 (acao + som de efeito) | -
+b3 | crowd | noite  | batalha aberta com tiros, placa: O BALDE, objeto na mao | rindo (stars + som de sino); encena: x_ri (up) @17 (acao + som de efeito) | -
 b4 | close | dia  | interior | - | -
 b5 | crowd | -  | tropa, placa: 30.000 | - | -
 b6 | group | -  | tropa | derrota (puff + som de baque); encena: perde (facepalm) @8 (acao + som de efeito) | -

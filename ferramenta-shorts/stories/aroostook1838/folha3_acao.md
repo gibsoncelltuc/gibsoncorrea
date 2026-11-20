@@ -23,7 +23,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | MAPA | MAINE | OK |
 
 ## Cena b2 - 11.6s a 17.5s - 18 palavras - plano two
-> "Na floresta de Aroostook, lenhadores americanos e ingleses cortavam as mesmas árvores, e cada lado queria a madeira."
+> "Na mata de Aroostook, lenhadores americanos e ingleses cortavam as mesmas árvores, e cada lado queria a madeira."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -80,7 +80,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b8 - 42.9s a 46.8s - 13 palavras - plano two
-> "Alguns anos depois, um tratado dividiu a floresta, e a fronteira ficou definida."
+> "Alguns anos depois, um tratado dividiu a mata, e a fronteira ficou definida."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

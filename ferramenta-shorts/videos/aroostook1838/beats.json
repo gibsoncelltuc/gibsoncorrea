@@ -126,7 +126,7 @@
     "CAN:0:smug"
    ],
    "acao": "discutir",
-   "say": "Na floresta de Aroostook, lenhadores americanos e ingleses cortavam as mesmas árvores, e cada lado queria a madeira.",
+   "say": "Na mata de Aroostook, lenhadores americanos e ingleses cortavam as mesmas árvores, e cada lado queria a madeira.",
    "fachada": false,
    "props": [
     [
@@ -256,7 +256,7 @@
     "PRE:1:smile"
    ],
    "interacao": "entregar",
-   "say": "Alguns anos depois, um tratado dividiu a floresta, e a fronteira ficou definida."
+   "say": "Alguns anos depois, um tratado dividiu a mata, e a fronteira ficou definida."
   },
   {
    "shot": "close",

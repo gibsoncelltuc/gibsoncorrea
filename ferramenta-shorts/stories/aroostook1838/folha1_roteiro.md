@@ -21,7 +21,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Funcao na historia: desenvolvimento
 
 ## Cena b2  (~6.2 s)
-- Narracao: Na floresta de Aroostook, lenhadores americanos e ingleses cortavam as mesmas árvores, e cada lado queria a madeira.
+- Narracao: Na mata de Aroostook, lenhadores americanos e ingleses cortavam as mesmas árvores, e cada lado queria a madeira.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: corta (hammer) @4 -> acao + som de efeito
@@ -75,7 +75,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Funcao na historia: desenvolvimento
 
 ## Cena b8  (~4.5 s)
-- Narracao: Alguns anos depois, um tratado dividiu a floresta, e a fronteira ficou definida.
+- Narracao: Alguns anos depois, um tratado dividiu a mata, e a fronteira ficou definida.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
