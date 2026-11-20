@@ -10,7 +10,7 @@ b2 | countryside | two | 1 | encena | nature/flowerbed, nature/picket_fence, nat
 b3 | countryside | two | 1 | atira | nature/picket_fence, nature/haybale, buildings/house_small, nature/tree_oak, pig | - | -
 b4 | interior madeira | two | 2 | conversar, INTERAGEM: entregar | nature/picket_fence, nature/haybale, tools/wheelbarrow | money | -
 b5 | mountain | two | 2 | discutir, INTERAGEM: discutir | nature/picket_fence | money | -
-b6 | harbor | group | 19 | discutir, INTERAGEM: empurrar | buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow | - | -
+b6 | harbor | group | 19 | discutir, INTERAGEM: empurrar | - | - | -
 b7 | harbor | crowd | 32 | discutir, batalha | cannon, navios ao fundo | - | -
 b8 | interior madeira | two | 2 | discutir, INTERAGEM: vai ate o outro | pig | - | -
 b9 | mountain | orbit | 17 | comemorar, batalha | - | - | -

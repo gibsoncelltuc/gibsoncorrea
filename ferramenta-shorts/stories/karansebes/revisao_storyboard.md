@@ -1,12 +1,11 @@
-# Revisao do storyboard + GRADE DE ACOES - karansebes (sessao principal, 19/11, versao final)
-b0: OK - exército austríaco em marcha: o exército que conseguiu perder uma batalha contra si mesmo
-b1: OK - placa 1788, cavalaria e infantaria do exército austríaco marchando contra os turcos, mapa e VÁRIAS LÍNGUAS
-b2: CORRIGIDO - pôr do sol -> de noite, os hussardos foram na frente procurar o inimigo, com cavalos
-b3: OK - de noite, não acharam turco nenhum e acharam moradores vendendo aguardente (placa AGUARDENTE)
-b4: OK - de noite, compraram tudo e beberam (copo na boca na grade), a festa começou com brindes
-b5: OK - de noite, chegou a infantaria, discussão e empurra-empurra, alguém deu um tiro (clarão na grade)
-b6: CORRIGIDO - "o pânico tomou" virava beber -> alguém gritou Turcos (placa TURCOS!) e o pânico no acampamento com barracas
-b7: OK - de noite, ninguém entendia a língua e todo mundo atirava em todo mundo (clarões na tropa)
-b8: OK - oficial mandou usar a artilharia e os canhões dispararam contra o próprio exército, soldados voando
-b9: OK - amanhecer, dois dias depois os turcos chegaram e acharam o acampamento abandonado, placa 10.000? das baixas
-b10: CORRIGIDO - mostrava austríaco -> os turcos venceram sem dar um único tiro e comemoram (sem tiro na tela)
+b0: OK - exercito austriaco brigando contra si mesmo ao entardecer, cavalaria, tiros com clarao e soldados caindo no chao
+b1: OK - placa 1788, mapa de Karansebes na Romenia e tropa de varios paises com o letreiro VARIAS LINGUAS
+b2: CORRIGIDO - marco de Viena (blocos cinza) ao fundo em todas as cenas -> gerador so poe Viena quando a frase cita o lugar; noite com hussardos a cavalo procurando o inimigo
+b3: OK - hussardos encontram o morador de chapeu de palha vendendo aguardente, com barris ao lado, a noite
+b4: OK - placa AGUARDENTE, hussardos compraram tudo e beberam com garrafa na mao, a festa comecou de bracos para cima
+b5: OK - infantaria chega andando, discussao com empurra-empurra entre os soldados e o clarao do tiro no fuzil
+b6: CORRIGIDO - turcos apareciam no acampamento e soldado caia baleado -> so austriacos e hussardos, assustados com maos no rosto, sem tiro, letreiro TURCOS
+b7: OK - todo mundo atirando em todo mundo a noite, clarões na tropa e soldados caindo no chao
+b8: OK - oficial manda usar a artilharia, close do canhao disparando e soldados voando pela explosao
+b9: OK - dois dias depois, de dia, os turcos chegam ao acampamento abandonado com barris e fogueira e a placa 10.000?
+b10: OK - turcos rindo e comemorando, venceram sem dar um tiro, com o letreiro FOGO AMIGO no fim

@@ -256,7 +256,8 @@
    "text": "TROPAS",
    "titulo": true,
    "say": "Os ingleses ameaçaram prender o fazendeiro. Então os Estados Unidos mandaram soldados para a ilha.",
-   "set": "harbor"
+   "set": "harbor",
+   "objetos": false
   },
   {
    "shot": "crowd",

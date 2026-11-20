@@ -68,7 +68,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (3): AME (variante 0, expressao stern); AME (variante 1, expressao stern); FAZ (variante 0, expressao scared) | multidao: 16 de AME
 - Animacao: discutir | interacao: empurrar
-- Objetos/modelos: buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estados, fazendeiro, ilha, ingleses
 - RISCOS: nenhum
 
@@ -127,13 +127,13 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-nature/picket_fence | b0, b2, b3, b4, b5, b6, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/haybale | b0, b2, b3, b4, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/picket_fence | b0, b2, b3, b4, b5, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/haybale | b0, b2, b3, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 pig | b0, b2, b3, b8, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/flowerbed | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/scarecrow | b2, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/scarecrow | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 tools/wheelbarrow | b2, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/barn | b2, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/barn | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_small | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 cannon | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
