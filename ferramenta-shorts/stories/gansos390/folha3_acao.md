@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 05 - Os Gansos que Salvaram Roma
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.4s - 10 palavras - plano two
@@ -39,13 +39,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | EMOCAO: pleading | o rosto vira "pleading" na palavra | OK |
 | 2 | - | ATUACAO | discutir | OK |
 
-## Cena b4 - 26.0s a 32.9s - 17 palavras - plano group
+## Cena b4 - 26.0s a 32.9s - 17 palavras - plano two
 > "Numa noite sem lua, os gauleses escalaram a colina em silêncio. Os guardas dormiam. Ninguém ouviu nada."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | dormiam (30.9s) | ACAO: dorme | dormindo | OK |
-| 2 | - | INTERACAO | aproxima-se | OK |
+| 2 | - | INTERACAO | o outro se aproxima | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b5 - 34.1s a 37.9s - 14 palavras - plano low
@@ -59,15 +59,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | PLACA | QUÁ! QUÁ! | OK |
 
 ## Cena b6 - 39.0s a 46.2s - 21 palavras - plano two
-> "Um soldado chamado Mânlio pulou da cama, e empurrou o primeiro invasor muralha abaixo. O gaulês caiu, levando os outros junto."
+> "Um soldado chamado Mânlio pulou da cama, e derrubou o primeiro invasor muralha abaixo. O gaulês tombou, levando os outros junto."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | pulou (40.2s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
-| 2 | empurrou (41.4s) | ACAO: empurra | empurra/puxa | OK |
-| 3 | caiu (44.5s) | EFEITO: dust | poeira + som | OK |
-| 4 | - | INTERACAO | empurrar | OK |
-| 5 | - | ATUACAO | conversar | OK |
+| 2 | derrubou (41.4s) | EFEITO: dust | poeira + som | OK |
+| 3 | tombou (44.5s) | EFEITO: dust | poeira + som | OK |
+| 4 | tombou (44.5s) | ACAO: tomba | cai sentado no chao + poeira | OK |
+| 5 | - | INTERACAO | empurrar | OK |
+| 6 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 46.5s a 51.5s - 15 palavras - plano orbit
 > "O alarme acordou todo mundo, os romanos correram para a muralha, e o ataque fracassou."
@@ -88,16 +89,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | o outro se aproxima | OK |
+| 1 | - | INTERACAO | aproxima-se | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | DESFILE | OK |
 
 ## Cena b9 - 57.1s a 61.1s - 11 palavras - plano close
-> "E os guardas, que dormiram a noite inteira, ganharam um castigo."
+> "E os guardas, que dormiram a noite inteira, levaram um castigo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ganharam (60.0s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | ganharam (60.0s) | ACAO: vence | bracos para cima + brilho | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | conversar | OK |
 

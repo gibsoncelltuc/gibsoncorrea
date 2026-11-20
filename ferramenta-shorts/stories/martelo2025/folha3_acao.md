@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 23 - O Martelo da Meia-Noite
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.0s - 21 palavras - plano two
@@ -77,26 +77,35 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | bombas (46.6s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b8 - 51.7s a 57.0s - 15 palavras - plano two
-> "Um submarino ainda disparou mísseis contra uma terceira usina. Todos os aviões voltaram para casa."
+## Cena b8 - 51.7s a 54.3s - 9 palavras - plano two
+> "Um submarino ainda disparou mísseis contra uma terceira usina."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | disparou (52.7s) | EFEITO: burst | estouro/clarao + som | OK |
 | 2 | disparou (52.7s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 3 | - | CENA | voltam para casa (saem andando) | OK |
-| 4 | - | INTERACAO | insiste | OK |
-| 5 | - | ATUACAO | conversar | OK |
+| 3 | - | INTERACAO | insiste | OK |
+| 4 | - | ATUACAO | reagir | OK |
+| 5 | - | PLACA | SUBMARINO | OK |
 
-## Cena b9 - 58.2s a 63.9s - 15 palavras - plano orbit
-> "Trump disse que as usinas foram destruídas. Avaliações posteriores discutiram o tamanho real do estrago."
+## Cena b9 - 55.6s a 59.8s - 13 palavras - plano two
+> "Todos os aviões voltaram para casa. Trump disse que as usinas foram destruídas."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | CENA | voltam para casa (saem andando) | OK |
+| 2 | - | INTERACAO | vai ate o outro | OK |
+| 3 | - | ATUACAO | conversar | OK |
+
+## Cena b10 - 61.2s a 63.9s - 8 palavras - plano orbit
+> "Avaliações posteriores discutiram o tamanho real do estrago."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | FORDOW | OK |
 
-## Cena b10 - 65.3s a 68.3s - 14 palavras - plano close
+## Cena b11 - 65.3s a 68.3s - 14 palavras - plano close
 > "Foi a primeira vez na história que essa bomba gigante foi usada de verdade."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
