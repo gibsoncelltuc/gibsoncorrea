@@ -6,7 +6,7 @@ b0 | two | -  | placa: 2021 | encena: fala (point) @5 (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | interior, objeto na mao | encena: pensa (think) @1 (acao + som de efeito) | -
 b3 | two | -  | interior | - | -
-b4 | close | -  | interior | - | -
+b4 | close | -  | interior, objeto na mao | - | -
 b5 | two | -  | interior | - | -
 b6 | two | -  | interior | - | -
 b7 | crowd | -  | batalha aberta com tiros, tropa, placa: MENTE | - | -
