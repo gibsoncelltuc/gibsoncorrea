@@ -1,12 +1,12 @@
-b0: OK - Musk mandou construir uma torre com braços gigantes para pegar foguete, torre e placa 2024 na base
-b1: OK - outubro de dois mil e vinte e quatro na base da SpaceX no Texas, mapa e base no porto sem navio
-b2: CORRIGIDO - fazenda -> agora a parte de baixo do foguete descartada, engenheiro com papel na sala da base
-b3: CORRIGIDO - fazenda -> agora a ideia de Musk de tirar as pernas, Musk e engenheira na sala de controle
-b4: CORRIGIDO - fazenda -> agora apelidaram os braços de pauzinhos e a torre de Mechazilla, engenheiros na sala
-b5: OK - o propulsor gigante decolou com trinta e tres motores, multidao e fumaça em plano aberto na base
-b6: CORRIGIDO - foguete fora do quadro -> agora ele voltou do espaço descendo de re na direçao da torre, visivel no ceu
-b7: CORRIGIDO - pegada pequena -> agora os braços se fecharam e seguraram o foguete, torre com o foguete em plano baixo
-b8: OK - engenheiros comemoraram aos gritos, placa PEGOU com multidao no Texas em plano aberto
-b9: OK - Musk comemorou nas redes sociais, dentro da sala os dois de braços erguidos
-b10: OK - o propulsor pode ser usado de novo varias vezes, engenheira com papel na rua da cidade
-b11: OK - a torre ja repetiu a pegada outras vezes, Musk sorrindo diante da torre no fim
+b0: OK - Musk mandou construir a torre com bracos gigantes, placa 2024, torre e foguetes ao fundo e maquete em close
+b1: OK - mapa dos Estados Unidos e a base de foguetes da SpaceX no Texas com o pessoal no cais
+b2: CORRIGIDO - cena dentro de uma loja escondia o foguete -> deserto do Texas com o propulsor descartado no ceu, engenheiro com papel
+b3: CORRIGIDO - sala escondia a torre -> a ideia de Musk ao ar livre: torre de lancamento com os bracos para agarrar o propulsor
+b4: CORRIGIDO - maquete pequena nao aparecia -> engenheiros apelidaram os bracos de pauzinhos com a torre Mechazilla de bracos ao fundo
+b5: OK - no dia do teste o propulsor decolou com poeira no chao e a equipe olhando o foguete subir no ceu
+b6: OK - minutos depois o foguete voltou do espaco descendo de re direto na direcao da torre
+b7: OK - no ultimo segundo os bracos se fecharam e seguraram o foguete no ar ao lado da torre
+b8: OK - os engenheiros comemoraram aos gritos com bracos para cima e o letreiro PEGOU no deserto
+b9: CORRIGIDO - sem celular -> Musk comemorou nas redes sociais com o celular na mao e bracos para cima
+b10: OK - o propulsor que ia para o lixo pode ser usado de novo, engenheiros com papel e a torre ao fundo
+b11: OK - Musk em close: a torre repetiu a pegada, parece filme de robo gigante, torre e foguete atras

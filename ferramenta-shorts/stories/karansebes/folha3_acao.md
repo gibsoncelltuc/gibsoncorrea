@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 01 - A Batalha de Karánsebes
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 69 acoes catalogadas, 69 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 68 acoes catalogadas, 68 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 2.9s - 10 palavras - plano crowd
@@ -83,9 +83,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | gritou (34.5s) | ACAO: grita | grita de bracos para cima | OK |
 | 3 | pânico (38.1s) | EFEITO: dust | poeira + som | OK |
 | 4 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
-| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 6 | - | ATUACAO | conversar | OK |
-| 7 | - | PLACA | TURCOS! | OK |
+| 5 | - | ATUACAO | reagir | OK |
+| 6 | - | PLACA | TURCOS! | OK |
 
 ## Cena b7 - 40.3s a 46.3s - 19 palavras - plano crowd
 > "Acontece que ninguém entendia a língua do vizinho. Todo mundo atirava em todo mundo, achando que eram os turcos."

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 16 - A Torre que Pegou um Foguete no Ar
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.7s - 18 palavras - plano two
@@ -89,9 +89,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | comemorou (57.9s) | ACAO: vence | bracos para cima + brilho | OK |
-| 2 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 3 | - | INTERACAO | abracar | OK |
-| 4 | - | ATUACAO | comemorar | OK |
+| 2 | redes (58.8s) | ACAO: x_fone | celular na mao + toque | OK |
+| 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 4 | - | INTERACAO | abracar | OK |
+| 5 | - | ATUACAO | comemorar | OK |
 
 ## Cena b10 - 62.1s a 66.3s - 16 palavras - plano two
 > "Assim, o propulsor que antes ia para o lixo pode ser usado de novo, várias vezes."

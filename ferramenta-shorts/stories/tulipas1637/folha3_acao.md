@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - A Febre das Tulipas
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.3s - 11 palavras - plano two
@@ -40,8 +40,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | comprando (20.3s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | comprando (20.3s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | PLACA | TODO MUNDO | OK |
+| 3 | - | PLACA | TODO MUNDO | OK |
 
 ## Cena b4 - 25.7s a 31.4s - 18 palavras - plano two
 > "Ninguém queria a flor de verdade. Queriam vender o papel mais caro na semana seguinte, e ficar ricos."
@@ -82,9 +81,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | vender (48.5s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | vender (48.5s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | ATUACAO | discutir | OK |
-| 5 | - | PLACA | PÂNICO | OK |
+| 3 | - | ATUACAO | discutir | OK |
+| 4 | - | PLACA | PÂNICO | OK |
 
 ## Cena b8 - 51.3s a 56.7s - 18 palavras - plano two
 > "Os preços desabaram. Quem tinha trocado a casa por flores ficou só com as flores, e as dívidas."

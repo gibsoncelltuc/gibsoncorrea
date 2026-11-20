@@ -143,7 +143,7 @@ _MARCOS = ((r'cabo canaveral|plataforma de lancamento|base de lancamento|kennedy
            (r'capitolio|congresso americano', 'kit/marco_capitolio', 18, -80, 1.0), (r'hollywood|los angeles|california|hawthorne', 'kit/marco_hollywood', 0, -110, 1.0),
            (r'sao francisco|san francisco|golden gate|vale do silicio|palo alto|twitter', 'kit/marco_goldengate', 0, -120, 1.0), (r'\bberlim|brandemburgo', 'kit/marco_brandemburgo', 18, -70, 1.0),
            (r'\bpisa\b|toscana|florenca', 'kit/marco_pisa', 20, -70, 1.0), (r'modena|bolonha', 'kit/marco_ghirlandina', 20, -70, 1.0),
-           (r'\bviena\b|austria|estrasburgo|\bgante\b|\bgent\b|catedral gotica', 'kit/marco_viena', 20, -80, 1.0), (r'bruxelas', 'kit/marco_atomium', 20, -80, 1.0), (r'waterloo', 'kit/marco_waterloo', 0, -110, 1.0),
+           (r'\bviena\b|\baustria\b|estrasburgo|\bgante\b|\bgent\b|catedral gotica', 'kit/marco_viena', 20, -80, 1.0), (r'bruxelas', 'kit/marco_atomium', 20, -80, 1.0), (r'waterloo', 'kit/marco_waterloo', 0, -110, 1.0),
            (r'suica|\balpes\b|genebra|zurique|alasca|kiska', 'kit/marco_alpes', 0, -110, 1.0), (r'\bmaias?\b|chichen|yucatan', 'kit/marco_chichenitza', 20, -80, 1.0),
            (r'veracruz|ulua', 'kit/marco_ulua', 0, -100, 1.0), (r'el salvador|san salvador|vulcao', 'kit/volcano', 0, -120, 9.0),
            (r'moscou|kremlin|praca vermelha', 'kit/marco_saobasilio', 20, -80, 1.0), (r'sydney', 'kit/marco_operasydney', 0, -100, 1.0), (r'zanzibar', 'kit/marco_zanzibar', 18, -80, 1.0),
@@ -325,6 +325,8 @@ for _k, _o in B.get('outfits', {}).items():   # SEM SOSIA (ordem do Gibson): em 
     if not _o.get('pele') and str(_o.get('hair', '')).lower() in _FAMHAIR: _o['hair'] = '#5a3a22'
 for _k, _o in B.get('outfits', {}).items():   # terno com gravata tem colarinho branco (Trump, politicos, empresarios)
     if _o.get('tie') and not _o.get('collar'): _o['collar'] = '#f4f4f2'
+if not any(k_ in ('POV', 'POVO') for k_ in B.get('outfits', {})):   # 20/11: figurino de POVO automatico (definido AQUI, antes de virar JS): multidao criada pela ferramenta nunca sai com copias do protagonista
+    B.setdefault('outfits', {})['POV'] = {'jacket': '#6a4a2a', 'pants': '#3b3f52', 'boots': '#2a2218', 'hats': ['straw', 'cap', 'bowler', 'beret', 'bonnet', 'slouch', 'hair'], '_auto': True}
 for name, o in B.get('outfits', {}).items():
     o = {**PROFISSOES.get(str(o.get('profissao', '')).lower(), {}), **{k_: v_ for k_, v_ in o.items() if k_ != 'profissao'}}
     o = dict(o); mo = o.pop('moustache_on', None)
@@ -447,7 +449,7 @@ ENC = [(r'^(misturou|misturaram|misturando|mistura|misturar|mexeu|mexendo|mexia|
        (r'^(chorou|choraram|chorando|chorava|lagrimas|soluco|solucou)$', 'facepalm', 'x_chora'),
        (r'^(cantou|cantaram|cantando|cantava|cantavam|musica|hino|cancao)$', 'up', 'x_canta'),
        (r'^(leu|leram|lendo|lia|liam|ler|jornal|carta|livro)$', 'think', 'x_le'),
-       (r'^(telefonou|ligou|ligaram|ligando|telefone|celular|mensagem|twittou|postou|publicou|tuitou)$', 'lift', 'x_fone'),
+       (r'^(telefonou|ligou|ligaram|ligando|telefone|celular|mensagem|twittou|postou|publicou|tuitou|redes|internet)$', 'lift', 'x_fone'),
        (r'^(lavou|lavaram|lavar|lavando|limpou|limparam|esfregou)$', 'stir', 'x_lava'),
        (r'^(beijou|beijaram|beijo)$', None, 'x_beija'),
        (r'^(plantou|plantaram|plantar|plantando|semeou|regou|regaram|colheu|colheram|colheita)$', 'hammer', 'x_planta'),
@@ -734,15 +736,14 @@ if B.get('director') is not False and B.get('emocao_close') is not False:
             if len(_b.get('who', [])) > 1: _b['_who_todo'] = list(_b['who']); _b['who'] = _b['who'][:1]   # o close e' de quem sente: so' ele no quadro, centralizado
         else: _seq = 0
 # MULTIDAO SEM CLONES (ordem do Gibson): multidao criada pelo diretor usa o figurino de POVO; rei, nobre, cientista, medico, padre, general... sao pessoas unicas e nao viram 12 copias
-_POVO = [k_ for k_, o_ in B.get('outfits', {}).items() if k_ in ('POV', 'POVO') or o_.get('hats')]
-if not _POVO and any(_b.get('crowd') and not _b.get('_crowd_roteiro') for _b in beats):   # 20/11: roteiro sem povo -> a ferramenta cria o POV (7 variantes de cor/chapeu); antes a multidao saia com 12 copias do protagonista
-    B.setdefault('outfits', {})['POV'] = {'jacket': '#6a4a2a', 'pants': '#3b3f52', 'boots': '#2a2218', 'hats': ['straw', 'cap', 'bowler', 'beret', 'bonnet', 'slouch', 'hair']}; _POVO = ['POV']
+_POVO = [k_ for k_, o_ in B.get('outfits', {}).items() if k_ in ('POV', 'POVO') or (o_.get('hats') and not (B.get('serie', '').lower().startswith('guerras') and (o_.get('rifle') or o_.get('pais') or k_[:3].lower() in _PAIS_COD)))]   # 20/11: em Guerras, exercito de um pais (TUR com turbante/fez) nao e' povo: o panico no acampamento austriaco saia com turcos
+_POV_AUTO = bool(B.get('outfits', {}).get('POV', {}).get('_auto'))
 _GUERRA = B.get('serie', '').lower().startswith('guerras')
 _UNICO = {k_ for k_, o_ in B.get('outfits', {}).items() if str(o_.get('profissao', '')).lower() in ('rei', 'nobre', 'general', 'cientista', 'medico', 'padre', 'politico', 'empresario', 'jornalista') or o_.get('hat') == 'crown' or (k_ not in _POVO and not str(o_.get('profissao', '')).lower() in ('soldado', 'marinheiro', 'agricultor', 'camponesa', 'pescador', 'comerciante', 'padeiro') and not _GUERRA) or (_GUERRA and k_ not in _POVO and not o_.get('rifle') and str(o_.get('profissao', '')).lower() not in ('soldado', 'marinheiro'))}   # Guerras: civil protagonista (fazendeiro, dono do porco) nao vira tropa de clones
 for _b in beats:
     if _b.get('crowd') and not _b.get('_crowd_roteiro') and _POVO:
-        _ok = [o_ for o_ in _b['crowd'].get('outfits', []) if o_ not in _UNICO]
-        _b['crowd']['outfits'] = list(dict.fromkeys(_ok + _POVO))
+        _ok = [o_ for o_ in _b['crowd'].get('outfits', []) if o_ not in _UNICO and o_ != 'POV']
+        _b['crowd']['outfits'] = (_ok or ['POV']) if _POV_AUTO else list(dict.fromkeys(_ok + _POVO))   # POV automatico so' substitui quem nao pode virar multidao (nunca mistura civil numa tropa)
 
 
 def build_beat(k, b):
@@ -785,10 +786,11 @@ def build_beat(k, b):
     _say_sp = re.sub(r'[^a-z0-9 ]', '', unicodedata.normalize('NFKD', b['say'].lower()).encode('ascii', 'ignore').decode())
     auto_hold = next((h for h, rx in HOLDS if re.search(rx, _say_sp)), None) if b.get('maos') is not False else None
     _acao = b.get('acao') or ('dancar' if re.search(r'\bdanc', _say_sp) and not re.search(_DANCA_OUTRO, _say_sp) else 'discutir' if (re.search(r'discut|brig|exigi|respondeu|gritou|ameac|insult', _say_sp) and len(b.get('who', [])) >= 2) else None)
+    if not _acao and re.search(r'\bpanico|apavor|desesper|\bterror\b|em choque', _say_sp): _acao = 'reagir'   # 20/11: PANICO = todos reagem (susto, maos no rosto), nao conversam
     if not _acao: _acao = 'comemorar' if not IMPACT.search(_say_sp) and re.search(r'\bfesta|comemor|venceu|venceram|vitoria|\bbrind|gargalh|\briu\b|\briram\b|\brindo\b', _say_sp) else 'conversar' if '"' in b['say'] else None
     if _acao == 'nenhuma': _acao = None
     b['_acao'] = _acao
-    _px = {'dancar': ", pose: 'dance', acting: false", 'discutir': ", pose: 'argue'", 'comemorar': ", pose: 'cheer'", 'conversar': ", pose: 'talk'"}.get(_acao, '')   # "acao": "discutir" -> os personagens gesticulam um para o outro
+    _px = {'dancar': ", pose: 'dance', acting: false", 'discutir': ", pose: 'argue'", 'comemorar': ", pose: 'cheer'", 'conversar': ", pose: 'talk'", 'reagir': ", pose: 'react'"}.get(_acao, '')   # "acao": "discutir" -> os personagens gesticulam um para o outro
     _chega = b.get('chega') if 'chega' in b else bool(re.search(r'chegou|chegaram|entrou|entraram|apareceu|apareceram|veio|vieram|correu para|correram para', _say_sp))
     persons = []
     for w in who:
