@@ -5,7 +5,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | street | two | 2 | conversar, INTERAGEM: aproxima-se | kit/cybertruck, kit/marco_hollywood | - | -
-b1 | harbor | reveal | 9 | parados (so fala e pisca) | kit/cybertruck, kit/marco_hollywood | - | -
+b1 | mountain | reveal | 9 | parados (so fala e pisca) | kit/cybertruck, kit/marco_hollywood | - | -
 b2 | outback | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/steel_ball, kit/cybertruck, kit/marco_hollywood | ball | -
 b3 | street | crowd | 32 | reagir, batalha | kit/cybertruck, kit/marco_hollywood | - | -
 b4 | outback | two | 2 | reagir, INTERAGEM: o outro se aproxima | kit/cybertruck, kit/marco_hollywood | - | -
