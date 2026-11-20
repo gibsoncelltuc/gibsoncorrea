@@ -111,7 +111,27 @@
    },
    "text": "3 NAVIOS",
    "titulo": true,
-   "say": "Os três navios desceram o rio, com o maior na frente, cheio de soldados e de bandeiras."
+   "say": "Os três navios desceram o rio, com o maior na frente, cheio de soldados e de bandeiras.",
+   "props": [
+    [
+     "ship",
+     -5,
+     -9,
+     0.7
+    ],
+    [
+     "ship",
+     0,
+     -11,
+     0.8
+    ],
+    [
+     "ship",
+     5,
+     -9,
+     0.7
+    ]
+   ]
   },
   {
    "shot": "crowd",
@@ -134,6 +154,12 @@
      -2.6,
      0.4,
      1.1
+    ],
+    [
+     "ship",
+     4,
+     -9,
+     0.7
     ]
    ],
    "fx": [

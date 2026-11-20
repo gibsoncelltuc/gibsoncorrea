@@ -6,9 +6,9 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | street | two | 2 | conversar, INTERAGEM: aproxima-se | kit/cybertruck, kit/marco_hollywood | - | -
 b1 | harbor | reveal | 9 | parados (so fala e pisca) | kit/cybertruck, kit/marco_hollywood | - | -
-b2 | harbor | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/steel_ball, kit/cybertruck, kit/marco_hollywood | ball | -
-b3 | harbor | crowd | 32 | reagir, batalha | kit/cybertruck, kit/marco_hollywood | - | -
-b4 | harbor | two | 2 | reagir, INTERAGEM: o outro se aproxima | kit/cybertruck, kit/marco_hollywood | - | -
+b2 | outback | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/steel_ball, kit/cybertruck, kit/marco_hollywood | ball | -
+b3 | street | crowd | 32 | reagir, batalha | kit/cybertruck, kit/marco_hollywood | - | -
+b4 | outback | two | 2 | reagir, INTERAGEM: o outro se aproxima | kit/cybertruck, kit/marco_hollywood | - | -
 b5 | street | close | 1 | conversar | kit/steel_ball, kit/marco_hollywood | - | -
 b6 | stadium | crowd | 32 | comemorar, batalha | kit/globe | - | -
 b7 | street | two | 2 | conversar, INTERAGEM: insiste | kit/cybertruck, kit/steel_ball, kit/marco_hollywood | - | -

@@ -46,9 +46,9 @@
    "props": [
     [
      "kit/cybertruck",
-     2.2,
+     2.6,
      -2.0,
-     0.75
+     1.0
     ]
    ],
    "tiros": false,
@@ -66,9 +66,9 @@
    "props": [
     [
      "kit/cybertruck",
-     2.2,
+     2.6,
      -2.0,
-     0.75
+     1.0
     ]
    ],
    "tiros": false,
@@ -91,14 +91,15 @@
     ],
     [
      "kit/cybertruck",
-     2.2,
+     2.6,
      -2.0,
-     0.75
+     1.0
     ]
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "set": "outback"
   },
   {
    "say": "E o vidro rachou, ao vivo, na frente de todo mundo.",
@@ -125,13 +126,14 @@
    "props": [
     [
      "kit/cybertruck",
-     2.2,
+     2.6,
      -2.0,
-     0.75
+     1.0
     ]
    ],
    "tiros": false,
-   "batalha": false
+   "batalha": false,
+   "set": "street"
   },
   {
    "say": "Ele tentou de novo, em outra janela, e ela também rachou.",
@@ -149,14 +151,15 @@
    "props": [
     [
      "kit/cybertruck",
-     2.2,
+     2.6,
      -2.0,
-     0.75
+     1.0
     ]
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "set": "outback"
   },
   {
    "say": "Depois, Musk explicou na internet que, nos ensaios, a mesma esfera tinha batido na mesma janela sem nem arranhar.",
@@ -174,7 +177,8 @@
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "set": "street"
   },
   {
    "say": "A plateia riu, a internet também, e a cena deu o que falar no mundo inteiro.",
@@ -213,9 +217,9 @@
    "props": [
     [
      "kit/cybertruck",
-     2.2,
+     2.6,
      -2.0,
-     0.75
+     1.0
     ],
     [
      "kit/steel_ball",

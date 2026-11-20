@@ -57,8 +57,8 @@
    "props": [
     [
      "kit/tv",
-     0,
-     -1.2,
+     2.2,
+     -2.0,
      1.1
     ]
    ],
@@ -69,7 +69,9 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Duas palavras transformaram um empresário de Nova York numa estrela da televisão mundial: você está demitido."
+   "say": "Duas palavras transformaram um empresário de Nova York numa estrela da televisão mundial: você está demitido.",
+   "detalhe": false,
+   "encena": false
   },
   {
    "shot": "reveal",

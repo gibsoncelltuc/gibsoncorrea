@@ -4,8 +4,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Duas palavras transformaram um empresário de Nova York numa estrela da...
 - Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): TRU (variante 0, expressao smug); CND (variante 0, expressao shock)
 - Animacao: conversar | interacao: susto
 - Objetos/modelos: kit/tv, kit/marco_trumptower
@@ -124,7 +124,7 @@ nature/picket_fence | b6 | pronto | conferir na folha de contato se le bem; se p
 
 
 ## Video inteiro
-- Objeto heroi: kit/tv | grandes momentos: b1, b6 | planos abertos: 2 | mistura: close 20% | medio 67% | aberto 6% | detalhe 7%
+- Objeto heroi: kit/tv | grandes momentos: b1, b6 | planos abertos: 2 | mistura: close 20% | medio 69% | aberto 6% | detalhe 5%
 - Interacoes: b0 susto, b2 aproxima-se, b3 entregar, b4 discutir, b7 abracar, b8 vai ate o outro, b9 avanca e o outro recua
 - RISCOS GERAIS: nenhum
 
