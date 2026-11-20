@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 05 - Os Gansos que Salvaram Roma
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.4s - 10 palavras - plano two
@@ -20,7 +20,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | queimado (6.1s) | ACAO: queima | fogo + fumaca | OK |
 | 2 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 3 | - | MAPA | ROMA | OK |
+| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | MAPA | ROMA | OK |
 
 ## Cena b2 - 10.3s a 15.9s - 18 palavras - plano group
 > "Os romanos que sobraram se trancaram no Capitólio, uma colina cercada de muralhas, sem comida, e sem saída."
@@ -39,13 +40,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | EMOCAO: pleading | o rosto vira "pleading" na palavra | OK |
 | 2 | - | ATUACAO | discutir | OK |
 
-## Cena b4 - 26.0s a 32.9s - 17 palavras - plano two
+## Cena b4 - 26.0s a 32.9s - 17 palavras - plano group
 > "Numa noite sem lua, os gauleses escalaram a colina em silêncio. Os guardas dormiam. Ninguém ouviu nada."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | dormiam (30.9s) | ACAO: dorme | dormindo | OK |
-| 2 | - | INTERACAO | o outro se aproxima | OK |
+| 2 | - | INTERACAO | aproxima-se | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b5 - 34.1s a 37.9s - 14 palavras - plano low
@@ -59,44 +60,46 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | PLACA | QUÁ! QUÁ! | OK |
 
 ## Cena b6 - 39.0s a 46.2s - 21 palavras - plano two
-> "Um soldado chamado Mânlio pulou da cama, e derrubou o primeiro invasor muralha abaixo. O gaulês tombou, levando os outros junto."
+> "Um soldado chamado Mânlio pulou da cama, e empurrou o primeiro invasor muralha abaixo. O gaulês caiu, levando os outros junto."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | pulou (40.2s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
-| 2 | derrubou (41.4s) | EFEITO: dust | poeira + som | OK |
-| 3 | tombou (44.5s) | EFEITO: dust | poeira + som | OK |
-| 4 | tombou (44.5s) | ACAO: tomba | cai sentado no chao + poeira | OK |
-| 5 | - | INTERACAO | empurrar | OK |
-| 6 | - | ATUACAO | conversar | OK |
+| 2 | empurrou (41.4s) | ACAO: empurra | empurra/puxa | OK |
+| 3 | caiu (44.7s) | EFEITO: dust | poeira + som | OK |
+| 4 | - | INTERACAO | empurrar | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
-## Cena b7 - 46.5s a 51.5s - 15 palavras - plano orbit
+## Cena b7 - 47.3s a 51.5s - 15 palavras - plano orbit
 > "O alarme acordou todo mundo, os romanos correram para a muralha, e o ataque fracassou."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | alarme (47.6s) | EFEITO: ring | onda + som | OK |
-| 2 | alarme (47.6s) | ACAO: grita | grita de bracos para cima | OK |
+| 1 | alarme (47.5s) | EFEITO: ring | onda + som | OK |
+| 2 | alarme (47.5s) | ACAO: grita | grita de bracos para cima | OK |
 | 3 | acordou (47.8s) | ACAO: x_acorda | estava dormindo e acorda na palavra | OK |
-| 4 | correram (49.5s) | EFEITO: dust | poeira + som | OK |
-| 5 | correram (49.5s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
-| 6 | ataque (51.4s) | EFEITO: ring | onda + som | OK |
-| 7 | ataque (51.4s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 4 | correram (49.6s) | EFEITO: dust | poeira + som | OK |
+| 5 | correram (49.6s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
+| 6 | ataque (51.2s) | EFEITO: ring | onda + som | OK |
+| 7 | ataque (51.2s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 8 | fracassou (51.5s) | ACAO: perde | mao na testa | OK |
+| 9 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
-## Cena b8 - 51.8s a 56.9s - 13 palavras - plano two
+## Cena b8 - 52.9s a 56.7s - 13 palavras - plano two
 > "Desde então, todo ano, os gansos ganhavam um desfile pelas ruas de Roma."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | aproxima-se | OK |
+| 1 | - | INTERACAO | o outro se aproxima | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | DESFILE | OK |
 
-## Cena b9 - 57.1s a 61.1s - 11 palavras - plano close
-> "E os guardas, que dormiram a noite inteira, levaram um castigo."
+## Cena b9 - 57.9s a 60.9s - 11 palavras - plano close
+> "E os guardas, que dormiram a noite inteira, ganharam um castigo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | ganharam (60.3s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | ganharam (60.3s) | ACAO: vence | bracos para cima + brilho | OK |
+| 3 | - | ATUACAO | conversar | OK |
 

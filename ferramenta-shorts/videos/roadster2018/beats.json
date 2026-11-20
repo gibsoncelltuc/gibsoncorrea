@@ -231,8 +231,7 @@
    ],
    "sfx": [
     "ding@20"
-   ],
-   "set": "arctic"
+   ]
   },
   {
    "say": "E ele continua lá em cima, dando voltas, até hoje.",
@@ -255,8 +254,7 @@
    ],
    "sfx": [
     "ding@20"
-   ],
-   "set": "arctic"
+   ]
   },
   {
    "say": "Um Roadster, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço.",
@@ -299,8 +297,7 @@
     "expr": "laugh"
    },
    "text": "STARMAN",
-   "titulo": true,
-   "set": "arctic"
+   "titulo": true
   }
  ],
  "cinf": 4.5,

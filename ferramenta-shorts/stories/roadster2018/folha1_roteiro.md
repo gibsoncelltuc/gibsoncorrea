@@ -13,7 +13,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b1  (~5.5 s)
 - Narracao: Era um Roadster vermelho, e quem teve a ideia foi Elon Musk, o dono da SpaceX.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: pensa (think) @8 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b3  (~5.9 s)
 - Narracao: Como era só um teste, em vez de colocar peso de concreto, Musk resolveu mandar o Roadster.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) determined -> expr + som de efeito
 - Efeito visual marcado: -
@@ -76,7 +76,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b8  (~3.4 s)
 - Narracao: E ele continua lá em cima, dando voltas, até hoje.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: ding@20
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20
@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b9  (~5.9 s)
 - Narracao: Um Roadster, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: ding@20
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20

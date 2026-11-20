@@ -1,24 +1,22 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 18 - A Guerra do Cão Fugitivo
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 45 acoes catalogadas, 45 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 44 acoes catalogadas, 44 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 5.1s - 17 palavras - plano two
+## Cena b0 - 0.2s a 5.1s - 17 palavras - plano track
 > "Um cachorro fugiu, e por causa dele dois países entraram em guerra, e dezenas de pessoas morreram."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | fugiu (0.8s) | EFEITO: dust | poeira + som | OK |
 | 2 | fugiu (0.8s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
-| 3 | morreram (5.1s) | EFEITO: puff | fumaca + som | OK |
-| 4 | morreram (5.1s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
-| 5 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 6 | - | CENA | animal: dog foge correndo | OK |
-| 7 | - | INTERACAO | discutir | OK |
-| 8 | - | ATUACAO | discutir | OK |
-| 9 | - | CHEGADA | alguem entra andando | OK |
-| 10 | - | PLACA | 1925 | OK |
+| 3 | entraram (2.8s) | ACAO: chega | entra andando pela lateral | OK |
+| 4 | morreram (5.1s) | EFEITO: puff | fumaca + som | OK |
+| 5 | morreram (5.1s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
+| 6 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 7 | - | ATUACAO | discutir | OK |
+| 8 | - | PLACA | 1925 | OK |
 
 ## Cena b1 - 6.4s a 11.8s - 23 palavras - plano reveal
 > "Em mil novecentos e vinte e cinco, a fronteira entre a Grécia e a Bulgária era tensa, e os dois países viviam desconfiados."
@@ -80,7 +78,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | morreram (39.7s) | EFEITO: puff | fumaca + som | OK |
 | 4 | morreram (39.7s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
 | 5 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 6 | - | PLACA | INVASÃO | OK |
+| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
+| 7 | - | PLACA | INVASÃO | OK |
 
 ## Cena b7 - 41.7s a 44.9s - 12 palavras - plano two
 > "A Bulgária pediu ajuda à Liga das Nações, a antecessora da ONU."

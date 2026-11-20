@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 14 - O Dia em que o PayPal Foi Vendido
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 7 frases, 25 acoes catalogadas, 25 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 7 frases, 24 acoes catalogadas, 24 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.7s - 18 palavras - plano two
@@ -15,7 +15,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | MAPA | ESTADOS UNIDOS | OK |
 
-## Cena b1 - 5.9s a 8.8s - 12 palavras - plano two
+## Cena b1 - 5.9s a 8.8s - 12 palavras - plano reveal
 > "O PayPal era um serviço para pagar e receber dinheiro pela internet."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -23,9 +23,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | pagar (7.3s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | pagar (7.3s) | ACAO: paga | estende a mao com moedas + brilho | OK |
 | 3 | dinheiro (8.1s) | EFEITO: stars | estrelinhas + som | OK |
-| 4 | internet (8.8s) | ACAO: x_fone | celular na mao + toque | OK |
-| 5 | - | INTERACAO | entregar | OK |
-| 6 | - | ATUACAO | conversar | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b2 - 10.1s a 13.6s - 15 palavras - plano close
 > "O valor do negócio foi de um bilhão e meio de dólares, pagos em ações."
@@ -40,7 +38,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
+| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
 ## Cena b4 - 17.7s a 22.3s - 17 palavras - plano two
 > "Com o dinheiro da venda, ele pôde investir em novos projetos, como a SpaceX e a Tesla."
@@ -58,7 +56,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | reagir | OK |
+| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | - | ATUACAO | reagir | OK |
 
 ## Cena b6 - 27.7s a 30.7s - 12 palavras - plano two
 > "Uma venda de internet que ajudou a pagar foguetes e carros elétricos."
@@ -66,9 +65,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | venda (28.0s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 2 | internet (28.4s) | ACAO: x_fone | celular na mao + toque | OK |
-| 3 | pagar (29.6s) | EFEITO: stars | estrelinhas + som | OK |
-| 4 | pagar (29.6s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 5 | - | INTERACAO | o outro se aproxima | OK |
-| 6 | - | ATUACAO | conversar | OK |
+| 2 | pagar (29.6s) | EFEITO: stars | estrelinhas + som | OK |
+| 3 | pagar (29.6s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 4 | - | INTERACAO | entregar | OK |
+| 5 | - | ATUACAO | conversar | OK |
 

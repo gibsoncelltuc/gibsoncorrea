@@ -57,10 +57,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Funcao na historia: VIRADA
 
 ## Cena b6  (~7.2 s)
-- Narracao: Um soldado chamado Mânlio pulou da cama, e derrubou o primeiro invasor muralha abaixo. O gaulês tombou, levando os outros junto.
+- Narracao: Um soldado chamado Mânlio pulou da cama, e empurrou o primeiro invasor muralha abaixo. O gaulês caiu, levando os outros junto.
 - Som ambiente: birds
 - Efeitos sonoros marcados: thump@66, whoosh@60
-- Efeito + som nas palavras-chave: derrubou -> dust + som de impacto; tombou -> dust + som de impacto; encena: pula @4 -> acao + som de efeito; encena: tomba @16 -> acao + som de efeito
+- Efeito + som nas palavras-chave: caiu -> dust + som de impacto; encena: pula @4 -> acao + som de efeito; encena: empurra (push) @8 -> acao + som de efeito
 - Efeito visual marcado: dust@70, puff@80
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -84,10 +84,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Funcao na historia: desenvolvimento
 
 ## Cena b9  (~3.8 s)
-- Narracao: E os guardas, que dormiram a noite inteira, levaram um castigo.
+- Narracao: E os guardas, que dormiram a noite inteira, ganharam um castigo.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: ganharam -> stars + som de sino; encena: vence (up) @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

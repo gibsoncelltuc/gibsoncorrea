@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 24 - O Foguete que Voltou de Ré
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.5s - 21 palavras - plano two
@@ -56,7 +56,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
+| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
 ## Cena b6 - 38.2s a 41.9s - 15 palavras - plano low
 > "Acontece que ela desceu de ré, de pé, com o motor aceso freando a queda."
@@ -82,8 +82,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | gritaram (49.1s) | EFEITO: ring | onda + som | OK |
 | 2 | gritaram (49.1s) | ACAO: grita | grita de bracos para cima | OK |
 | 3 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
-| 4 | - | ATUACAO | comemorar | OK |
-| 5 | - | PLACA | POUSOU! | OK |
+| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 5 | - | ATUACAO | comemorar | OK |
+| 6 | - | PLACA | POUSOU! | OK |
 
 ## Cena b9 - 52.1s a 56.0s - 17 palavras - plano two
 > "Foi a primeira vez que um foguete desse tamanho voltou do espaço e pousou inteiro em terra."

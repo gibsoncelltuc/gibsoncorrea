@@ -11,7 +11,7 @@ b5 | low | -  | interior | encena: tira (lift) @7 (acao + som de efeito) | -
 b6 | two | -  | interior | encena: tira (lift) @9 (acao + som de efeito) | -
 b7 | crowd | -  | batalha aberta com tiros, tropa, placa: SELFIE | encena: tira (lift) @5 (acao + som de efeito) | -
 b8 | two | -  | interior, objeto na mao | encena: olha (point) @1 (acao + som de efeito) | -
-b9 | two | -  | interior | encena: x_fone (lift) @16 (acao + som de efeito) | -
+b9 | two | -  | interior | - | -
 b10 | close | -  | interior | encena: tira (lift) @1 (acao + som de efeito) | -
 
 Mistura de planos: close 22% | medio 69% | aberto 6% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)

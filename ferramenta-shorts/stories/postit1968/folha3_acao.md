@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 15 - A Cola que Não Colava
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.4s - 19 palavras - plano two
@@ -52,6 +52,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | cantando (33.1s) | ACAO: x_canta | canta de bracos abertos + onda de som | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
 ## Cena b6 - 35.3s a 40.4s - 16 palavras - plano two
 > "Os papeizinhos que marcavam as páginas do hinário viviam caindo no chão. E ele ficava perdido."
@@ -98,8 +99,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | comprar (69.2s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 2 | - | ATUACAO | comemorar | OK |
-| 3 | - | PLACA | POST-IT | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | ATUACAO | comemorar | OK |
+| 4 | - | PLACA | POST-IT | OK |
 
 ## Cena b11 - 70.6s a 76.1s - 18 palavras - plano close
 > "Em mil novecentos e oitenta, o post-it chegou às lojas. Tudo graças a uma cola que deu errado."

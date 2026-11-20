@@ -24,8 +24,7 @@
    "hat": "shako",
    "belt": "#f1efe6",
    "buttons": "#e8c45a",
-   "rifle": true,
-   "uniforme_fixo": true
+   "rifle": true
   },
   "FRA": {
    "jacket": "#27408b",
@@ -50,8 +49,7 @@
    "hat": "shako_tall",
    "buttons": "#e8c45a",
    "sash": "#c0262d",
-   "moustache_on": "#2a1c12",
-   "uniforme_fixo": true
+   "moustache_on": "#2a1c12"
   }
  },
  "beats": [
@@ -62,7 +60,7 @@
     "OFI:0:laugh"
    ],
    "text": "1838",
-   "say": "A França foi à guerra contra o México por causa de uma conta de confeitaria."
+   "say": "A França invadiu o México por causa de uma conta de confeitaria."
   },
   {
    "shot": "two",
@@ -88,15 +86,7 @@
    "sfx": [
     "thump@50"
    ],
-   "say": "Um dia, oficiais mexicanos entraram, comeram tudo o que havia, quebraram a loja, e saíram sem pagar.",
-   "props": [
-    [
-     "kit/cake_table",
-     0.2,
-     1.6,
-     1.0
-    ]
-   ]
+   "say": "Um dia, oficiais mexicanos entraram, comeram tudo o que havia, quebraram a loja, e saíram sem pagar."
   },
   {
    "shot": "two",
@@ -138,10 +128,7 @@
    },
    "text": "A MARINHA",
    "titulo": true,
-   "say": "Acontece que a França mandou mesmo. Navios de guerra chegaram, e fecharam todos os portos do país.",
-   "batalha": false,
-   "tiros": false,
-   "impact": false
+   "say": "Acontece que a França mandou mesmo. Navios de guerra fecharam todos os portos do país."
   },
   {
    "shot": "crowd",
@@ -159,8 +146,7 @@
     "march": false,
     "expr": "shock"
    },
-   "say": "Os canhões franceses bombardearam a fortaleza de Veracruz, e os soldados tomaram a cidade.",
-   "set": "harbor"
+   "say": "Os canhões franceses bombardearam a fortaleza de Veracruz, e os soldados tomaram a cidade."
   },
   {
    "shot": "two",
@@ -174,7 +160,7 @@
    "sfx": [
     "cannon@30"
    ],
-   "say": "Um general mexicano correu para o combate, e um tiro de canhão o derrubou. Ele perdeu uma perna."
+   "say": "Um general mexicano correu para o combate, e perdeu uma perna para um tiro de canhão."
   },
   {
    "shot": "two",
@@ -193,6 +179,5 @@
    "say": "Nunca um doce custou tão caro."
   }
  ],
- "marco": "kit/marco_ulua",
- "regiao": "colonial"
+ "marco": "kit/marco_ulua"
 }

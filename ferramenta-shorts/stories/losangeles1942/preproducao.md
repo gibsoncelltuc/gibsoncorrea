@@ -10,7 +10,7 @@ b2 | harbor | group | 12 | conversar, INTERAGEM: cochichar, batalha | kit/marco_
 b3 | harbor | two | 2 | conversar, INTERAGEM: entregar | kit/searchlight, kit/marco_hollywood, buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b4 | street | orbit | 22 | encena, batalha | cannon, kit/marco_hollywood | - | -
 b5 | harbor | two | 2 | discutir, INTERAGEM: discutir | kit/marco_hollywood | - | -
-b6 | street | crowd | 22 | reagir, batalha | kit/marco_hollywood, cannon, buildings/apartment, buildings/house_two, nature/lamppost | - | -
+b6 | street | crowd | 22 | encena, batalha | kit/marco_hollywood, cannon, buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b7 | interior madeira | two | 2 | conversar, INTERAGEM: susto | - | paper | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: entregar, alguem chega andando | - | paper | -
 b9 | street | close | 1 | conversar | kit/searchlight, kit/marco_hollywood | - | -

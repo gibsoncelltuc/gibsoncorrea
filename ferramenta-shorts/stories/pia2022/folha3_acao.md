@@ -1,24 +1,25 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 10 - A Pia no Twitter
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 8 frases, 19 acoes catalogadas, 19 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 8 frases, 22 acoes catalogadas, 22 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.3s - 22 palavras - plano track
-> "Em outubro de dois mil e vinte e dois, Elon Musk esteve na sede do Twitter, em São Francisco, carregando uma pia."
+> "Em outubro de dois mil e vinte e dois, Elon Musk apareceu na sede do Twitter, em São Francisco, carregando uma pia."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | MAPA | ESTADOS UNIDOS | OK |
+| 1 | apareceu (2.5s) | EFEITO: dust | poeira + som | OK |
+| 2 | apareceu (2.5s) | ACAO: chega | entra andando pela lateral | OK |
 
-## Cena b1 - 7.3s a 9.6s - 11 palavras - plano close
+## Cena b1 - 7.3s a 9.6s - 11 palavras - plano reveal
 > "Ele filmou a própria entrada e postou o vídeo na internet."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | filmou (7.6s) | ACAO: tira | tira foto (celular + flash) | OK |
 | 2 | postou (8.8s) | ACAO: x_fone | celular na mao + toque | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 3 | - | MAPA | ESTADOS UNIDOS | OK |
 
 ## Cena b2 - 10.9s a 14.9s - 11 palavras - plano two
 > "A legenda dizia: Entrando na sede do Twitter. Deixe isso afundar."
@@ -44,6 +45,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | compra (24.0s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
 ## Cena b5 - 27.6s a 30.6s - 12 palavras - plano two
 > "Ele também mudou o perfil, e escreveu que era o Chefe Twit."
@@ -61,7 +63,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | deu (32.0s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | ATUACAO | reagir | OK |
 
 ## Cena b7 - 34.3s a 36.9s - 10 palavras - plano two
 > "Uma pia, uma legenda e uma piada que ninguém esqueceu."

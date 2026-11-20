@@ -48,7 +48,7 @@
  },
  "beats": [
   {
-   "say": "Em outubro de dois mil e vinte e dois, Elon Musk esteve na sede do Twitter, em São Francisco, carregando uma pia.",
+   "say": "Em outubro de dois mil e vinte e dois, Elon Musk apareceu na sede do Twitter, em São Francisco, carregando uma pia.",
    "shot": "track",
    "who": [
     "MUS:0:grin"
@@ -70,9 +70,7 @@
    "impact": false,
    "sfx": [
     "whoosh@20"
-   ],
-   "mapa": "ESTADOS UNIDOS",
-   "mapa_at": 3.5
+   ]
   },
   {
    "say": "Ele filmou a própria entrada e postou o vídeo na internet.",
@@ -80,10 +78,11 @@
    "who": [
     "MUS:0:smug"
    ],
+   "mapa": "ESTADOS UNIDOS",
+   "mapa_at": 1,
    "tiros": false,
    "batalha": false,
-   "impact": false,
-   "shot_lock": true
+   "impact": false
   },
   {
    "say": "A legenda dizia: Entrando na sede do Twitter. Deixe isso afundar.",
@@ -213,6 +212,5 @@
    "impact": false
   }
  ],
- "exp": 1.0,
- "regiao": "eua"
+ "exp": 1.0
 }
