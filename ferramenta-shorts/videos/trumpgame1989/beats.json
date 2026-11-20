@@ -210,7 +210,8 @@
     "TRU:0:suspicious"
    ],
    "acao": "conversar",
-   "say": "O jogo saiu das lojas, e ficou esquecido por anos."
+   "say": "O jogo saiu das lojas, e ficou esquecido por anos.",
+   "interior": "loja"
   },
   {
    "shot": "two",
@@ -236,34 +237,15 @@
    "say": "Até que, em dois mil e quatro, Trump virou estrela de um programa de TV, O Aprendiz."
   },
   {
-   "shot": "close",
-   "who": [
-    "TRU:0:smug"
-   ],
-   "props": [
-    [
-     "kit/boardgame",
-     1.6,
-     -0.8,
-     1.54
-    ]
-   ],
-   "fx": [
-    "ring@20"
-   ],
-   "sfx": [
-    "sting@20"
-   ],
-   "say": "E o jogo voltou às lojas, com regras mais simples, e com a frase famosa do programa: você está demitido."
-  },
-  {
+   "say": "E o jogo voltou às lojas, com regras mais simples, e com a frase famosa do programa: você está demitido.",
+   "set": "street",
    "shot": "crowd",
    "who": [
+    "TRU:0:smug",
     "POV:0:laugh",
-    "PAI:0:laugh",
-    "FIL:0:grin"
+    "POV:1:grin"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "acao": "comemorar",
    "crowd": {
@@ -292,7 +274,25 @@
    ],
    "text": "VOLTOU",
    "titulo": true,
-   "say": "Hoje, as caixas originais de mil novecentos e oitenta e nove viraram item de colecionador."
+   "impact": true
+  },
+  {
+   "say": "Hoje, as caixas originais de mil novecentos e oitenta e nove viraram item de colecionador.",
+   "interior": "pedra",
+   "shot": "two",
+   "who": [
+    "PAI:0:surprised",
+    "FIL:0:grin"
+   ],
+   "props": [
+    [
+     "kit/boardgame",
+     0.0,
+     -1.2,
+     1.5
+    ]
+   ],
+   "detalhe": true
   },
   {
    "shot": "close",
