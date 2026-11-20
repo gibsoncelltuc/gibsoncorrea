@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 
 ## Cena b7  (~5.5 s)
 - Narracao: Em outubro saiu o primeiro: um pedacinho de bitcoin que valia uns duzentos e setenta dólares.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, sting@50
 - Efeito + som nas palavras-chave: encena: sai @2 -> acao + som de efeito
 - Efeito visual marcado: stars@20, ring@50
@@ -76,7 +76,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 
 ## Cena b8  (~4.1 s)
 - Narracao: Bukele comemorou nas redes sociais, com um vídeo da usina no vulcão.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
 - Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; encena: vence (up) @1 -> acao + som de efeito; encena: x_fone (lift) @3 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60

@@ -85,6 +85,8 @@ if _N >= 6 and B.get('variar_cenario') is not False:
         if len(_cont) >= 3 and _qt <= _N // 2: break
         _livres = [i_ for i_, b_ in enumerate(B['beats']) if _lug(b_) == _dom and i_ not in _EXPL and not b_.get('_lug_ok') and i_ not in (0, _N - 1) and not b_.get('mapa')]
         _opc = [o_ for o_ in _ALT.get(_dom.replace('interior ', ''), _ALT['street']) if o_ not in _cont] or _ALT.get(SET, _ALT['street'])
+        _MAR_ = re.search(r'\b(mar|mares|porto|portos|navio|navios|praia|costa|ilha|ilhas|barco|barcos|marinha|oceano|cais|litoral|baia|pesca|pescador)\b', __import__('unicodedata').normalize('NFKD', ' '.join(b_['say'] for b_ in B['beats']).lower()).encode('ascii', 'ignore').decode())   # 20/11: porto (com navio de guerra) so' em historia de mar
+        if not _MAR_: _opc = [o_ for o_ in _opc if o_ != 'harbor'] or ['countryside']
         _bl = [_livres[j_:j_ + 2] for j_ in range(0, len(_livres), 2)]
         _bl = _bl[1::2] + _bl[0::2]   # blocos de 2 cenas seguidas, primeiro um sim um nao (o lugar muda junto com a historia)
         for n_, bl_ in enumerate(_bl):
@@ -94,7 +96,7 @@ if _N >= 6 and B.get('variar_cenario') is not False:
                 b_ = B['beats'][i_]
                 _o = o_
                 if _o.startswith('interior') and (b_.get('shot') in ('reveal', 'crowd', 'orbit', 'track') or b_.get('batalha') or b_.get('veiculo') or b_.get('crowd') or b_.get('props')):
-                    _o = next((x_ for x_ in _opc if not x_.startswith('interior')), 'harbor')
+                    _o = next((x_ for x_ in _opc if not x_.startswith('interior')), 'harbor' if _MAR_ else 'countryside')
                 if _o.startswith('interior'): b_['interior'] = _o.split()[1]
                 else: b_['set'] = _o
                 _cont[_dom] -= 1; _cont[_o] += 1

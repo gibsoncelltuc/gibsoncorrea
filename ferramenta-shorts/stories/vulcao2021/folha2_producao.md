@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Em outubro saiu o primeiro: um pedacinho de bitcoin que valia uns duze...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): BUK (variante 0, expressao grin) | multidao: 6 de POV
@@ -83,7 +83,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - Bukele comemorou nas redes sociais, com um vídeo da usina no vulcão.
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): BUK (variante 0, expressao laugh); ENG (variante 0, expressao laugh); ENA (variante 0, expressao grin) | multidao: 18 de POV
