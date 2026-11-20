@@ -3,17 +3,17 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/danca1518/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py danca1518` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Uma mulher começou a dançar no meio da rua, e não conseguiu mais parar...
-- Cenario: medieval | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Cenario: street | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): TRO (variante 0, expressao laugh); POV (variante 1, expressao shock)
 - Animacao: dancar | interacao: susto
-- Objetos/modelos: war/drum, kit/marco_viena
+- Objetos/modelos: kit/marco_viena
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dancar, mulher
 - RISCOS: nenhum
 
 ## Cena b1 - Era verão em Estrasburgo. Ela dançou o dia inteiro, a noite inteira, e...
-- Cenario: medieval | luz: dia | clima: limpo
+- Cenario: street | luz: dia | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): TRO (variante 0, expressao pained); POV (variante 0, expressao nervous) | multidao: 8 de POV
@@ -52,33 +52,33 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): medicos, prefeito, remedio
 - RISCOS: nenhum
 
-## Cena b5 - Acontece que a cidade levou isso a sério. Construiu um palco, e contra...
-- Cenario: medieval | luz: day | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): MUS (variante 0, expressao grin, segura flag); PRE (variante 0, expressao grin)
-- Animacao: construir
-- Objetos/modelos: war/drum, mk/Table_Large, mk/Crate_Wooden, buildings/church, buildings/house_small, kit/marco_viena
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, palco, povo, serio
+## Cena b5 - Acontece que a cidade levou isso a sério. Contratou músicos com tambor...
+- Cenario: street | luz: day | clima: limpo
+- Camera: low = camera baixa, dramatica (virada) + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (2): MUS (variante 0, expressao grin); MUS (variante 1, expressao laugh) | multidao: 30 de POV
+- Animacao: conversar | interacao: discutir
+- Objetos/modelos: kit/marco_viena, war/drum, buildings/house_two, nature/lamppost
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, multidao, serio, tambores
 - RISCOS: nenhum
 
 ## Cena b6 - Foi a pior ideia possível. Com música, mais gente entrou na dança, e m...
 - Cenario: countryside | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): POV (variante 2, expressao pained); POV (variante 3, expressao pained) | multidao: 18 de POV/MUS
-- Animacao: dancar | interacao: discutir | o ultimo personagem ENTRA andando
-- Objetos/modelos: war/drum, kit/marco_viena
+- Animacao: dancar | batalha encenada
+- Objetos/modelos: kit/marco_viena
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): danca, exaustao, musica, pior
 - RISCOS: nenhum
 
 ## Cena b7 - As crônicas da época falam em mortes, mas os historiadores discutem qu...
-- Cenario: countryside | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): PRE (variante 0, expressao pained); MED (variante 0, expressao shock) | multidao: 12 de POV
-- Animacao: reagir | batalha encenada
-- Objetos/modelos: kit/marco_viena
+- Cenario: interior loja | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Personagens principais (2): PRE (variante 0, expressao pained); MED (variante 0, expressao shock)
+- Animacao: reagir | interacao: o outro se aproxima
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cronicas, epoca, historiadores
 - RISCOS: nenhum
 
@@ -93,7 +93,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - Até hoje, ninguém sabe explicar direito o que aconteceu naquele verão.
-- Cenario: medieval | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): MED (variante 0, expressao nervous)
@@ -107,19 +107,18 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-war/drum | b0, b5, b6 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_viena | b0, b1, b2, b3, b5, b6, b7, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/house_small | b2, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_viena | b0, b1, b2, b3, b5, b6, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/house_small | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-mk/Table_Large | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-mk/Crate_Wooden | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/church | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+war/drum | b5 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/house_two | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/lamppost | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: war/drum | grandes momentos: b3, b7 | planos abertos: 4 | mistura: close 11% | medio 61% | aberto 25% | detalhe 3%
-- Interacoes: b0 susto, b2 aproxima-se, b4 avanca e o outro recua, b6 discutir
+- Objeto heroi: war/drum | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 20% | medio 62% | aberto 14% | detalhe 5%
+- Interacoes: b0 susto, b2 aproxima-se, b4 avanca e o outro recua, b5 discutir, b7 o outro se aproxima
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

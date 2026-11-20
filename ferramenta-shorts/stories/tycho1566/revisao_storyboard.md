@@ -1,12 +1,11 @@
-# Revisao do storyboard + GRADE DE ACOES - tycho1566 (sessao principal, 19/11, versao final)
-b0: OK - Tycho e o primo com a placa 1566: astrônomo que perdeu o nariz numa briga por matemática (mão no nariz)
-b1: OK - placa 1566, mapa da Dinamarca e plano aberto da cidade da Alemanha com gente: jovem nobre estudava ali
-b2: OK - numa festa dentro de casa, Tycho discutiu com um primo sobre matemática
-b3: CORRIGIDO - duelo ao pôr do sol -> de noite, os dois resolveram tudo num duelo de espadas no escuro
-b4: CORRIGIDO - multidão / primo sozinho / close do nariz -> de noite, primo e Tycho de espada no mesmo quadro: o primo acertou o golpe e cortou o nariz, Tycho com dor
-b5: CORRIGIDO - multidão automática -> Tycho sozinho com o nariz de metal para esconder o buraco
-b6: OK - no porto, o rei da Dinamarca de coroa deu a ele uma ilha inteira para estudar o céu
-b7: CORRIGIDO - multidão sem castelo -> castelo observatório Uraniborg, céu estrelado, Tycho anotando mil estrelas com a luneta
-b8: OK - placa KEPLER, as anotações precisas ajudaram Kepler a descobrir como os planetas giram
-b9: OK - multidão comemorando: essa descoberta mudou a astronomia para sempre
-b10: CORRIGIDO - cena vazia -> Tycho entrou para a história em close sorrindo com o nariz de metal (expressão, não vira entrada andando)
+b0: OK - um dos maiores astronomos perdeu o nariz numa briga: Tycho e o primo discutindo na praca, placa 1566, o pedaco no chao
+b1: OK - mapa da Dinamarca e a cidade alema de 1566: Tycho Brahe, jovem nobre dinamarques, estudava numa cidade da Alemanha
+b2: OK - numa festa ele discutiu com um primo sobre quem era o melhor em matematica, caneca na mao e comemoracao dentro da sala
+b3: OK - dias depois resolveram tudo num duelo de espadas no escuro: noite com os dois de espada na mao e o golpe
+b4: OK - o primo acertou um golpe certeiro e cortou fora um pedaco do nariz de Tycho: golpe e corte a noite
+b5: OK - para esconder o buraco passou a usar um nariz de metal colado no rosto: close em Tycho com o nariz de metal no pedestal
+b6: OK - anos depois o rei da Dinamarca deu a ele uma ilha inteira: o rei de coroa entrega o papel no cais
+b7: OK - construiu um castelo observatorio e anotou mais de mil estrelas sem telescopio: ele escreve no papel a noite, letreiro MIL ESTRELAS
+b8: OK - as anotacoes tao precisas ajudaram Kepler a descobrir como os planetas giram em volta do Sol: placa KEPLER e o papel
+b9: OK - essa descoberta mudou a astronomia para sempre: multidao comemorando de bracos para cima na praca
+b10: OK - Tycho entrou para a historia com a cabeca nas estrelas e o nariz de metal: close sorrindo ao lado da maquete do nariz

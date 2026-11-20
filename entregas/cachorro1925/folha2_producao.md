@@ -3,11 +3,11 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/cachorro1925/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py cachorro1925` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Um cachorro fugiu, e por causa dele dois países entraram em guerra, e ...
-- Cenario: mountain | luz: golden | clima: limpo
-- Camera: track = travelling lateral acompanhando quem anda
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Cenario: countryside | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): GRE (variante 0, expressao shock); BUL (variante 0, expressao neutral)
-- Animacao: discutir
+- Animacao: discutir | interacao: discutir | o ultimo personagem ENTRA andando
 - Objetos/modelos: kit/dog_sit, dog
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, pessoas
 - RISCOS: nenhum
@@ -53,12 +53,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Acontece que o soldado morreu, e a Grécia deu um ultimato furioso à Bu...
-- Cenario: street | luz: golden | clima: limpo
+- Cenario: mountain | luz: golden | clima: limpo
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): GRE (variante 0, expressao sad); GRE (variante 1, expressao angry)
 - Animacao: conversar | interacao: susto
-- Objetos/modelos: kit/dog_sit
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bulgaria, grecia, soldado, ultimato
 - RISCOS: nenhum
 
@@ -93,7 +93,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - A Grécia obedeceu, e ninguém sabe o que aconteceu com o cachorro.
-- Cenario: mountain | luz: golden | clima: limpo
+- Cenario: countryside | luz: golden | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): GRE (variante 0, expressao sad)
@@ -107,13 +107,13 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/dog_sit | b0, b5, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/dog_sit | b0, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 dog | b0, b2, b3, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b4, b6 | planos abertos: 2 | mistura: close 19% | medio 67% | aberto 14% | detalhe 0%
-- Interacoes: b4 empurrar, b5 susto, b7 susto, b8 entregar
+- Objeto heroi: kit/dog_sit | grandes momentos: b4, b6 | planos abertos: 2 | mistura: close 19% | medio 64% | aberto 14% | detalhe 3%
+- Interacoes: b0 discutir, b4 empurrar, b5 susto, b7 susto, b8 entregar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

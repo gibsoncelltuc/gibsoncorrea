@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 17 - A Borracha que Caiu no Fogão
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 42 acoes catalogadas, 42 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 41 acoes catalogadas, 41 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 5.3s - 17 palavras - plano two
@@ -104,9 +104,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | ATUACAO | comemorar | OK |
-| 3 | - | PLACA | PNEUS | OK |
+| 1 | - | ATUACAO | comemorar | OK |
+| 2 | - | PLACA | PNEUS | OK |
 
 ## Cena b11 - 65.6s a 70.2s - 15 palavras - plano close
 > "E uma fábrica de pneus famosa ganhou o nome dele em homenagem. Ele nunca soube."

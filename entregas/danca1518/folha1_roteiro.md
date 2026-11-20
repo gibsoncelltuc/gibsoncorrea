@@ -1,10 +1,10 @@
 # FOLHA 1 - ROTEIRO: A Praga da Dança
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval | 10 cenas, 151 palavras (~52 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 10 cenas, 149 palavras (~51 s)
 
 ## Cena b0  (~4.8 s)
 - Narracao: Uma mulher começou a dançar no meio da rua, e não conseguiu mais parar.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; dançar -> stars + som de sino; encena: danca (up) @4 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -13,7 +13,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval
 
 ## Cena b1  (~5.9 s)
 - Narracao: Era verão em Estrasburgo. Ela dançou o dia inteiro, a noite inteira, e continuou no dia seguinte.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: dançou -> stars + som de sino; encena: danca (up) @5 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -47,32 +47,32 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~6.2 s)
-- Narracao: Acontece que a cidade levou isso a sério. Construiu um palco, e contratou músicos para animar o povo.
-- Som ambiente: birds
-- Efeitos sonoros marcados: thump@50
-- Efeito + som nas palavras-chave: músicos -> stars + som de sino; encena: constroi (hammer) @8 -> acao + som de efeito; encena: danca (up) @13 -> acao + som de efeito
-- Efeito visual marcado: puff@50
-- Texto na tela: PALCO
+## Cena b5  (~5.5 s)
+- Narracao: Acontece que a cidade levou isso a sério. Contratou músicos com tambores, para animar a multidão.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: músicos -> stars + som de sino; encena: danca (up) @9 -> acao + som de efeito
+- Efeito visual marcado: -
+- Texto na tela: -
 - Funcao na historia: VIRADA
 
 ## Cena b6  (~5.9 s)
-- Narracao: Foi a pior ideia possível. Com música, mais gente entrou na dança, e muitos desmaiaram de exaustão.
+- Narracao: Foi a pior ideia possível. Com música, mais gente entrou na dança, e muitos caíram de exaustão.
 - Som ambiente: birds
 - Efeitos sonoros marcados: thump@50, sting@110
-- Efeito + som nas palavras-chave: música -> stars + som de sino; dança -> stars + som de sino; encena: pensa (think) @3 -> acao + som de efeito; encena: x_canta (up) @6 -> acao + som de efeito; encena: chega (point) @9 -> acao + som de efeito; encena: danca (up) @11 -> acao + som de efeito; encena: tomba @14 -> acao + som de efeito
+- Efeito + som nas palavras-chave: música -> stars + som de sino; dança -> stars + som de sino; caíram -> dust + som de impacto; encena: pensa (think) @3 -> acao + som de efeito; encena: x_canta (up) @6 -> acao + som de efeito; encena: chega (point) @9 -> acao + som de efeito; encena: danca (up) @11 -> acao + som de efeito
 - Efeito visual marcado: dust@50, puff@110
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b7  (~5.2 s)
 - Narracao: As crônicas da época falam em mortes, mas os historiadores discutem quantas foram de verdade.
-- Som ambiente: birds | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: sting@10, thump@40
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: ring@12, dust@40
+- Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b8  (~5.2 s)
 - Narracao: No fim, os dançarinos foram levados para um santuário nas montanhas, e a dança parou.
@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval
 
 ## Cena b9  (~3.8 s)
 - Narracao: Até hoje, ninguém sabe explicar direito o que aconteceu naquele verão.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
