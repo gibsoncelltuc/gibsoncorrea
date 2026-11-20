@@ -1,5 +1,5 @@
 // Poder e Fama EP 11 - A Janela do Cybertruck -- GERADO por mkvideo.py a partir de videos/cybertruck2019/beats.json (edite o beats.json, nao este arquivo)
-globalThis.REGMAP = {"buildings/house_small": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/house_two": ["kit/rg_eua_2", "kit/rg_eua_3", "kit/rg_eua_1"], "buildings/house_blue": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/shop": ["kit/rg_eua_3", "kit/rg_eua_1", "kit/rg_eua_2"], "buildings/apartment": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/church": ["kit/rg_eua_3", "kit/rg_eua_1", "kit/rg_eua_2"], "buildings/barn": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/castle_tower": ["kit/rg_eua_3"], "buildings/windmill": ["kit/rg_eua_1"], "vehicles/tank": ["kit/tanque_moderno"], "ship": ["kit/navio_moderno"]}; globalThis.REGCHAO = "#6a6a70"; globalThis.ASFALTO = true; globalThis.PRAIA = false;
+globalThis.REGMAP = {"buildings/house_small": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/house_two": ["kit/rg_eua_2", "kit/rg_eua_3", "kit/rg_eua_1"], "buildings/house_blue": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/shop": ["kit/rg_eua_3", "kit/rg_eua_1", "kit/rg_eua_2"], "buildings/apartment": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/church": ["kit/rg_eua_3", "kit/rg_eua_1", "kit/rg_eua_2"], "buildings/barn": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/castle_tower": ["kit/rg_eua_3"], "buildings/windmill": ["kit/rg_eua_1"], "vehicles/tank": ["kit/tanque_moderno"], "ship": ["kit/navio_moderno"]}; globalThis.REGCHAO = "#6a6a70"; globalThis.ASFALTO = true; globalThis.PRAIA = false; globalThis.SEM_NAVIO = true;
 const X = 12000, DK = 6; const X_harbor = 5000; const X_stadium = 11000;
 const WS = (i, off = 0) => TIMING.words[Math.min(i, TIMING.words.length - 1)][0] + off;   // frame em que a palavra de indice i comeca
 const A = [0, WS(22, -3), WS(36, -3), WS(50, -3), WS(61, -3), WS(72, -3), WS(91, -3), WS(107, -3), TOTAL_F()];
@@ -22,4 +22,4 @@ const SPEC = {
   ],
 };
 
-// FOLHA3 fa96c0093fea 23 acoes=22 faltando=0
+// FOLHA3 e65d00ade71b 21 acoes=20 faltando=0
