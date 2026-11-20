@@ -1,0 +1,296 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Guerras Inusitadas",
+ "ep": 19,
+ "title": "A Guerra de Aroostook",
+ "titulo_base": "A Guerra de Aroostook",
+ "set": "countryside",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/logs",
+ "outfits": {
+  "AME": {
+   "profissao": "agricultor",
+   "jacket": "#2a5aa8",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "cap",
+   "cap": "#2a5aa8"
+  },
+  "CAN": {
+   "profissao": "agricultor",
+   "jacket": "#c9742a",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "cap",
+   "cap": "#8a2a2a"
+  },
+  "MIL": {
+   "profissao": "soldado",
+   "jacket": "#1f3a8a",
+   "pants": "#f1efe6",
+   "boots": "#1b1b1f",
+   "hat": "shako",
+   "rifle": true
+  },
+  "ING": {
+   "profissao": "soldado",
+   "jacket": "#b02a2a",
+   "pants": "#f1efe6",
+   "boots": "#1b1b1f",
+   "hat": "shako",
+   "rifle": true
+  },
+  "GEN": {
+   "profissao": "general",
+   "jacket": "#1f3a8a",
+   "pants": "#f1efe6",
+   "boots": "#1b1b1f",
+   "hat": "tophat",
+   "cap": "#1f3a8a"
+  },
+  "PRE": {
+   "profissao": "politico",
+   "jacket": "#2a2a30",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "bowler",
+   "tie": "#b0282f"
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "set": "countryside",
+   "who": [
+    "AME:0:angry",
+    "CAN:0:angry"
+   ],
+   "props": [
+    [
+     "kit/logs",
+     0.3,
+     2.2,
+     1.3
+    ],
+    [
+     "nature/tree_pine",
+     -3.0,
+     -5.5,
+     1.6
+    ],
+    [
+     "nature/tree_pine",
+     3.2,
+     -6.5,
+     1.7
+    ],
+    [
+     "nature/tree_pine",
+     -1.0,
+     -9.0,
+     1.8
+    ]
+   ],
+   "text": "1838",
+   "interacao": "discutir",
+   "acao": "discutir",
+   "say": "Uma guerra entre os Estados Unidos e a Inglaterra foi travada por lenhadores, e ninguém morreu.",
+   "fachada": false
+  },
+  {
+   "shot": "reveal",
+   "set": "countryside",
+   "who": [
+    "AME:0:neutral",
+    "CAN:0:neutral"
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "AME",
+     "CAN"
+    ],
+    "march": false
+   },
+   "mapa": "MAINE",
+   "mapa_at": 3,
+   "say": "Em mil oitocentos e trinta e oito, a fronteira entre o estado do Maine e uma colônia inglesa ainda era confusa."
+  },
+  {
+   "shot": "two",
+   "set": "mountain",
+   "who": [
+    "AME:0:smug",
+    "CAN:0:smug"
+   ],
+   "acao": "discutir",
+   "say": "Na floresta de Aroostook, lenhadores americanos e ingleses cortavam as mesmas árvores, e cada lado queria a madeira.",
+   "fachada": false,
+   "props": [
+    [
+     "nature/tree_pine",
+     -3.0,
+     -5.5,
+     1.6
+    ],
+    [
+     "nature/tree_pine",
+     3.2,
+     -6.5,
+     1.7
+    ],
+    [
+     "nature/tree_pine",
+     -1.0,
+     -9.0,
+     1.8
+    ],
+    [
+     "kit/logs",
+     1.4,
+     -0.6,
+     1.0
+    ]
+   ]
+  },
+  {
+   "shot": "two",
+   "set": "countryside",
+   "who": [
+    "AME:0:shout",
+    "CAN:0:angry"
+   ],
+   "interacao": "empurrar",
+   "say": "\"Essa árvore é minha!\", gritou um lenhador, e logo os dois lados começaram a brigar.",
+   "fachada": false,
+   "props": [
+    [
+     "nature/tree_pine",
+     -3.0,
+     -5.5,
+     1.6
+    ],
+    [
+     "nature/tree_pine",
+     3.2,
+     -6.5,
+     1.7
+    ],
+    [
+     "nature/tree_pine",
+     -1.0,
+     -9.0,
+     1.8
+    ]
+   ]
+  },
+  {
+   "shot": "crowd",
+   "set": "street",
+   "who": [
+    "MIL:0:angry",
+    "ING:0:angry"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "MIL",
+     "ING"
+    ],
+    "march": true,
+    "expr": "angry"
+   },
+   "text": "MILÍCIA",
+   "titulo": true,
+   "say": "O Maine chamou milhares de soldados, e a Inglaterra mandou os seus."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "AME:0:scared",
+    "ING:0:smug"
+   ],
+   "interacao": "empurrar",
+   "say": "Acontece que um agente do Maine foi preso pelos ingleses, e o clima ficou perigoso.",
+   "interior": "pedra"
+  },
+  {
+   "shot": "two",
+   "set": "palace",
+   "who": [
+    "GEN:0:stern",
+    "MIL:0:nervous"
+   ],
+   "interacao": "cochichar",
+   "say": "Mas ninguém queria uma guerra de verdade, então o governo mandou um general conversar."
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "GEN:0:smile:paper",
+    "PRE:0:relief"
+   ],
+   "interacao": "entregar",
+   "say": "Ele convenceu os dois lados a parar, e ninguém atirou um único tiro."
+  },
+  {
+   "shot": "two",
+   "interior": "pedra",
+   "who": [
+    "PRE:0:smug:paper",
+    "PRE:1:smile"
+   ],
+   "interacao": "entregar",
+   "say": "Alguns anos depois, um tratado dividiu a floresta, e a fronteira ficou definida."
+  },
+  {
+   "shot": "close",
+   "set": "countryside",
+   "who": [
+    "AME:0:smile"
+   ],
+   "props": [
+    [
+     "kit/logs",
+     1.0,
+     0.5,
+     1.3
+    ],
+    [
+     "nature/tree_pine",
+     -3.0,
+     -5.5,
+     1.6
+    ],
+    [
+     "nature/tree_pine",
+     3.2,
+     -6.5,
+     1.7
+    ],
+    [
+     "nature/tree_pine",
+     -1.0,
+     -9.0,
+     1.8
+    ]
+   ],
+   "say": "Chamaram de Guerra do Porco com Feijão, porque era só isso que as tropas comiam.",
+   "animals": [
+    [
+     "pig",
+     1.2,
+     1.0,
+     "stand",
+     1.0
+    ]
+   ],
+   "fachada": false
+  }
+ ]
+}

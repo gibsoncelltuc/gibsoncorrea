@@ -1,0 +1,559 @@
+{
+ "title": "Teste de Objetos",
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "set": "countryside",
+ "light": "day",
+ "director": false,
+ "outfits": {
+  "A": {
+   "jacket": "#3b6fb5",
+   "pants": "#2d3550",
+   "boots": "#2a2218",
+   "hat": "cap",
+   "cap": "#333"
+  }
+ },
+ "beats": [
+  {
+   "say": "Teste de objetos numero 1.",
+   "shot": "wide",
+   "shot_lock": true,
+   "who": [],
+   "props": [
+    [
+     "vehicles/airplane",
+     -7.5,
+     2.0,
+     1.0
+    ],
+    [
+     "vehicles/bicycle",
+     -2.5,
+     2.0,
+     1.0
+    ],
+    [
+     "vehicles/car",
+     2.5,
+     2.0,
+     1.0
+    ],
+    [
+     "vehicles/car_blue",
+     7.5,
+     2.0,
+     1.0
+    ],
+    [
+     "vehicles/helicopter",
+     -7.5,
+     -4.0,
+     1.0
+    ],
+    [
+     "vehicles/jeep",
+     -2.5,
+     -4.0,
+     1.0
+    ],
+    [
+     "vehicles/locomotive",
+     2.5,
+     -4.0,
+     1.0
+    ],
+    [
+     "vehicles/motorboat",
+     7.5,
+     -4.0,
+     1.0
+    ]
+   ],
+   "kw": false
+  },
+  {
+   "say": "Teste de objetos numero 2.",
+   "shot": "wide",
+   "shot_lock": true,
+   "who": [],
+   "props": [
+    [
+     "vehicles/motorcycle",
+     -7.5,
+     2.0,
+     1.0
+    ],
+    [
+     "vehicles/sailboat",
+     -2.5,
+     2.0,
+     1.0
+    ],
+    [
+     "vehicles/tank",
+     2.5,
+     2.0,
+     1.0
+    ],
+    [
+     "vehicles/taxi",
+     7.5,
+     2.0,
+     1.0
+    ],
+    [
+     "vehicles/truck",
+     -7.5,
+     -4.0,
+     1.0
+    ],
+    [
+     "vehicles/wagon",
+     -2.5,
+     -4.0,
+     1.0
+    ],
+    [
+     "war/bow",
+     2.5,
+     -4.0,
+     1.0
+    ],
+    [
+     "war/bugle",
+     7.5,
+     -4.0,
+     1.0
+    ]
+   ],
+   "kw": false
+  },
+  {
+   "say": "Teste de objetos numero 3.",
+   "shot": "wide",
+   "shot_lock": true,
+   "who": [],
+   "props": [
+    [
+     "war/bunker",
+     -7.5,
+     2.0,
+     1.0
+    ],
+    [
+     "war/cannonballs",
+     -2.5,
+     2.0,
+     1.0
+    ],
+    [
+     "war/drum",
+     2.5,
+     2.0,
+     1.0
+    ],
+    [
+     "war/flagpole",
+     7.5,
+     2.0,
+     1.0
+    ],
+    [
+     "war/helmet_army",
+     -7.5,
+     -4.0,
+     1.0
+    ],
+    [
+     "war/helmet_knight",
+     -2.5,
+     -4.0,
+     1.0
+    ],
+    [
+     "war/musket",
+     2.5,
+     -4.0,
+     1.0
+    ],
+    [
+     "war/pistol",
+     7.5,
+     -4.0,
+     1.0
+    ]
+   ],
+   "kw": false
+  },
+  {
+   "say": "Teste de objetos numero 4.",
+   "shot": "wide",
+   "shot_lock": true,
+   "who": [],
+   "props": [
+    [
+     "war/quiver",
+     -7.5,
+     2.0,
+     1.0
+    ],
+    [
+     "war/sandbags",
+     -2.5,
+     2.0,
+     1.0
+    ],
+    [
+     "war/shield",
+     2.5,
+     2.0,
+     1.0
+    ],
+    [
+     "war/sword",
+     7.5,
+     2.0,
+     1.0
+    ],
+    [
+     "tools/anvil",
+     -7.5,
+     -4.0,
+     1.0
+    ],
+    [
+     "tools/axe",
+     -2.5,
+     -4.0,
+     1.0
+    ],
+    [
+     "tools/broom",
+     2.5,
+     -4.0,
+     1.0
+    ],
+    [
+     "tools/bucket",
+     7.5,
+     -4.0,
+     1.0
+    ]
+   ],
+   "kw": false
+  },
+  {
+   "say": "Teste de objetos numero 5.",
+   "shot": "wide",
+   "shot_lock": true,
+   "who": [],
+   "props": [
+    [
+     "tools/hammer",
+     -7.5,
+     2.0,
+     1.0
+    ],
+    [
+     "tools/ladder",
+     -2.5,
+     2.0,
+     1.0
+    ],
+    [
+     "tools/lantern",
+     2.5,
+     2.0,
+     1.0
+    ],
+    [
+     "tools/pitchfork",
+     7.5,
+     2.0,
+     1.0
+    ],
+    [
+     "tools/rake",
+     -7.5,
+     -4.0,
+     1.0
+    ],
+    [
+     "tools/saw",
+     -2.5,
+     -4.0,
+     1.0
+    ],
+    [
+     "tools/scythe",
+     2.5,
+     -4.0,
+     1.0
+    ],
+    [
+     "tools/shovel",
+     7.5,
+     -4.0,
+     1.0
+    ]
+   ],
+   "kw": false
+  },
+  {
+   "say": "Teste de objetos numero 6.",
+   "shot": "wide",
+   "shot_lock": true,
+   "who": [],
+   "props": [
+    [
+     "tools/telescope",
+     -7.5,
+     2.0,
+     1.0
+    ],
+    [
+     "tools/wheelbarrow",
+     -2.5,
+     2.0,
+     1.0
+    ],
+    [
+     "nature/bench",
+     2.5,
+     2.0,
+     1.0
+    ],
+    [
+     "nature/bush",
+     7.5,
+     2.0,
+     1.0
+    ],
+    [
+     "nature/flowerbed",
+     -7.5,
+     -4.0,
+     1.0
+    ],
+    [
+     "nature/fountain",
+     -2.5,
+     -4.0,
+     1.0
+    ],
+    [
+     "nature/haybale",
+     2.5,
+     -4.0,
+     1.0
+    ],
+    [
+     "nature/lamppost",
+     7.5,
+     -4.0,
+     1.0
+    ]
+   ],
+   "kw": false
+  },
+  {
+   "say": "Teste de objetos numero 7.",
+   "shot": "wide",
+   "shot_lock": true,
+   "who": [],
+   "props": [
+    [
+     "nature/picket_fence",
+     -7.5,
+     2.0,
+     1.0
+    ],
+    [
+     "nature/rocks",
+     -2.5,
+     2.0,
+     1.0
+    ],
+    [
+     "nature/scarecrow",
+     2.5,
+     2.0,
+     1.0
+    ],
+    [
+     "nature/tree_birch",
+     7.5,
+     2.0,
+     1.0
+    ],
+    [
+     "nature/tree_oak",
+     -7.5,
+     -4.0,
+     1.0
+    ],
+    [
+     "nature/tree_palm",
+     -2.5,
+     -4.0,
+     1.0
+    ],
+    [
+     "nature/tree_pine",
+     2.5,
+     -4.0,
+     1.0
+    ],
+    [
+     "buildings/apartment",
+     7.5,
+     -4.0,
+     1.0
+    ]
+   ],
+   "kw": false
+  },
+  {
+   "say": "Teste de objetos numero 8.",
+   "shot": "wide",
+   "shot_lock": true,
+   "who": [],
+   "props": [
+    [
+     "buildings/barn",
+     -7.5,
+     2.0,
+     1.0
+    ],
+    [
+     "buildings/bridge",
+     -2.5,
+     2.0,
+     1.0
+    ],
+    [
+     "buildings/castle_tower",
+     2.5,
+     2.0,
+     1.0
+    ],
+    [
+     "buildings/church",
+     7.5,
+     2.0,
+     1.0
+    ],
+    [
+     "buildings/house_blue",
+     -7.5,
+     -4.0,
+     1.0
+    ],
+    [
+     "buildings/house_small",
+     -2.5,
+     -4.0,
+     1.0
+    ],
+    [
+     "buildings/house_two",
+     2.5,
+     -4.0,
+     1.0
+    ],
+    [
+     "buildings/lighthouse",
+     7.5,
+     -4.0,
+     1.0
+    ]
+   ],
+   "kw": false
+  },
+  {
+   "say": "Teste de objetos numero 9.",
+   "shot": "wide",
+   "shot_lock": true,
+   "who": [],
+   "props": [
+    [
+     "buildings/shop",
+     -7.5,
+     2.0,
+     1.0
+    ],
+    [
+     "buildings/skyscraper",
+     -2.5,
+     2.0,
+     1.0
+    ],
+    [
+     "buildings/windmill",
+     2.5,
+     2.0,
+     1.0
+    ],
+    [
+     "barrel",
+     7.5,
+     2.0,
+     1.0
+    ],
+    [
+     "boat",
+     -7.5,
+     -4.0,
+     1.0
+    ],
+    [
+     "cabin",
+     -2.5,
+     -4.0,
+     1.0
+    ],
+    [
+     "cannon",
+     2.5,
+     -4.0,
+     1.0
+    ],
+    [
+     "crate",
+     7.5,
+     -4.0,
+     1.0
+    ]
+   ],
+   "kw": false
+  },
+  {
+   "say": "Teste de objetos numero 10.",
+   "shot": "wide",
+   "shot_lock": true,
+   "who": [],
+   "props": [
+    [
+     "fence",
+     -7.5,
+     2.0,
+     1.0
+    ],
+    [
+     "mgun",
+     -2.5,
+     2.0,
+     1.0
+    ],
+    [
+     "tent",
+     2.5,
+     2.0,
+     1.0
+    ]
+   ],
+   "kw": false
+  }
+ ]
+}

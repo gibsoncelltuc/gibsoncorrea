@@ -1,0 +1,244 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Curiosidade e Ciência",
+ "ep": 12,
+ "title": "O Astrônomo do Nariz de Metal",
+ "titulo_base": "O Astrônomo do Nariz de Metal",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/brass_nose",
+ "outfits": {
+  "TYC": {
+   "profissao": "nobre",
+   "moustache": "#c9864a",
+   "hat": "hair",
+   "hair": "#c9864a",
+   "tie": "#d9a630",
+   "noseMetal": "#e8c45a"
+  },
+  "PAR": {
+   "jacket": "#2a4a2a",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "bowler",
+   "cap": "#1b1b1f",
+   "beard": "#3a2a1f"
+  },
+  "REI": {
+   "profissao": "rei"
+  },
+  "KEP": {
+   "profissao": "cientista",
+   "beard": "#3a2a1f",
+   "hair": "#3a2a1f"
+  },
+  "POV": {
+   "jacket": "#7a3a6a",
+   "pants": "#3b3f52",
+   "boots": "#1b1b1f",
+   "hats": [
+    "bowler",
+    "beret",
+    "tophat"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "TYC:0:angry",
+    "PAR:0:shout"
+   ],
+   "acao": "discutir",
+   "props": [
+    [
+     "kit/brass_nose",
+     0,
+     1.6,
+     1.1
+    ]
+   ],
+   "text": "1566",
+   "say": "Um dos maiores astrônomos da história perdeu o nariz numa briga por causa de matemática."
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "TYC:0:smile",
+    "POV:0:grin"
+   ],
+   "mapa": "DINAMARCA",
+   "mapa_at": 3,
+   "say": "Era mil quinhentos e sessenta e seis. Tycho Brahe, um jovem nobre da Dinamarca, estudava numa cidade da Alemanha."
+  },
+  {
+   "shot": "group",
+   "interior": "madeira",
+   "who": [
+    "TYC:0:angry",
+    "PAR:0:shout",
+    "POV:0:surprised:mug"
+   ],
+   "acao": "discutir",
+   "say": "Numa festa, ele discutiu com um primo sobre quem era o melhor em matemática."
+  },
+  {
+   "shot": "two",
+   "hora": "noite",
+   "who": [
+    "TYC:0:angry:sword",
+    "PAR:0:shout:sword"
+   ],
+   "interacao": "discutir",
+   "fx": [
+    "puff@40"
+   ],
+   "sfx": [
+    "whoosh@36",
+    "thump@40"
+   ],
+   "say": "A briga não acabou ali. Dias depois, os dois resolveram tudo num duelo de espadas, no escuro."
+  },
+  {
+   "shot": "two",
+   "hora": "noite",
+   "who": [
+    "PAR:0:angry:sword",
+    "TYC:0:pained:sword"
+   ],
+   "fx": [
+    "burst@30",
+    "puff@36"
+   ],
+   "sfx": [
+    "whoosh@26",
+    "thump@30"
+   ],
+   "say": "Acontece que o primo acertou um golpe certeiro, e cortou fora um pedaço do nariz de Tycho.",
+   "detalhe": false,
+   "variar_cenario": false,
+   "vary": false,
+   "shot_lock": true,
+   "impact": false
+  },
+  {
+   "shot": "two",
+   "hora": "dia",
+   "who": [
+    "TYC:0:sad"
+   ],
+   "props": [
+    [
+     "kit/brass_nose",
+     1.6,
+     -0.6,
+     1.2
+    ]
+   ],
+   "say": "Para esconder o buraco, ele passou a usar um nariz de metal, colado no rosto.",
+   "shot_lock": true,
+   "impact": false
+  },
+  {
+   "shot": "two",
+   "who": [
+    "REI:0:grin",
+    "TYC:0:surprised"
+   ],
+   "interacao": "entregar",
+   "say": "Anos depois, o rei da Dinamarca deu a ele uma ilha inteira, só para estudar o céu.",
+   "set": "harbor"
+  },
+  {
+   "shot": "wide",
+   "hora": "noite",
+   "who": [
+    "TYC:0:grin:spyglass"
+   ],
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "MIL ESTRELAS",
+   "titulo": true,
+   "say": "Lá, ele construiu um castelo observatório, e anotou a posição de mais de mil estrelas, sem telescópio.",
+   "props": [
+    [
+     "kit/marco_uraniborg",
+     0,
+     -42,
+     0.9
+    ]
+   ],
+   "set": "countryside"
+  },
+  {
+   "shot": "two",
+   "interior": "pedra",
+   "who": [
+    "TYC:0:smug:paper",
+    "KEP:0:surprised"
+   ],
+   "interacao": "entregar",
+   "text": "KEPLER",
+   "say": "As anotações eram tão precisas, que ajudaram Kepler a descobrir como os planetas giram em volta do Sol.",
+   "fx": [
+    "stars@50"
+   ],
+   "sfx": [
+    "ding@50"
+   ]
+  },
+  {
+   "shot": "crowd",
+   "hora": "dia",
+   "who": [
+    "KEP:0:laugh",
+    "POV:0:grin",
+    "POV:1:laugh"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 16,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "fx": [
+    "stars@20",
+    "ring@50"
+   ],
+   "sfx": [
+    "ding@20",
+    "sting@50"
+   ],
+   "say": "Essa descoberta mudou a astronomia para sempre."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "TYC:0:smug"
+   ],
+   "props": [
+    [
+     "kit/brass_nose",
+     1.5,
+     -0.5,
+     1.2
+    ]
+   ],
+   "say": "E Tycho entrou para a história assim: com a cabeça nas estrelas, e o nariz de metal."
+  }
+ ]
+}

@@ -1,0 +1,192 @@
+{
+ "title": "A Guerra de Toledo",
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "set": "countryside",
+ "light": "day",
+ "mood": "playful",
+ "outfits": {
+  "OHI": {
+   "jacket": "#2f4f8f",
+   "pants": "#e8e0c8",
+   "boots": "#2a2218",
+   "hat": "tophat",
+   "belt": "#2a2218",
+   "buttons": "#e8c45a",
+   "rifle": true,
+   "moustache_on": "#3a2a1f"
+  },
+  "MIC": {
+   "jacket": "#4a7a3a",
+   "pants": "#6a5a3a",
+   "boots": "#2a2218",
+   "cap": "#6a5a3a",
+   "belt": "#2a2218",
+   "rifle": true,
+   "hats": [
+    "cap",
+    "slouch",
+    "straw"
+   ]
+  },
+  "GOV": {
+   "jacket": "#4a7a3a",
+   "pants": "#2a2f3a",
+   "boots": "#1b1b1f",
+   "hat": "tophat",
+   "buttons": "#e8c45a",
+   "sash": "#d8282f"
+  },
+  "XER": {
+   "jacket": "#8a5a3a",
+   "pants": "#4a3a2a",
+   "boots": "#2a2218",
+   "hat": "slouch",
+   "cap": "#8a6a3a",
+   "buttons": "#e8c45a",
+   "moustache_on": "#3a2a1f"
+  },
+  "RAP": {
+   "jacket": "#3a6ab0",
+   "pants": "#5a4a3a",
+   "boots": "#2a1d14",
+   "hat": "cap",
+   "cap": "#2a3a5a",
+   "build": "lanky"
+  }
+ },
+ "exp": 1.0,
+ "serie": "Guerras Inusitadas",
+ "ep": 3,
+ "titulo_base": "A Guerra de Toledo",
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "OHI:0:stern",
+    "MIC:0:stern"
+   ],
+   "text": "1835",
+   "say": "Dois estados americanos foram à guerra, e o único ferido levou uma canivetada.",
+   "set": "countryside"
+  },
+  {
+   "shot": "two",
+   "who": [
+    "OHI:1:stern",
+    "MIC:1:stern"
+   ],
+   "mapa": "TOLEDO",
+   "mapa_at": 8,
+   "say": "De um lado, Ohio. Do outro, Michigan. Os dois juravam que a cidade de Toledo era deles, por causa de um erro num mapa antigo.",
+   "set": "countryside"
+  },
+  {
+   "shot": "close",
+   "who": [
+    "GOV:0:grin:paper"
+   ],
+   "interior": "madeira",
+   "say": "O governador de Michigan tinha vinte e três anos. \"Mandem a milícia\", ordenou ele."
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "OHI:0:stern",
+    "OHI:1:nervous"
+   ],
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "OHI",
+     "MIC"
+    ],
+    "march": true
+   },
+   "say": "Ohio respondeu com a própria milícia, e as duas tropas chegaram à beira do rio, frente a frente.",
+   "riscos_ok": true,
+   "sem_mortos": true
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "OHI:2:shock",
+    "MIC:2:shock"
+   ],
+   "batalha": true,
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "OHI",
+     "MIC"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
+   "text": "PARA O ALTO",
+   "titulo": true,
+   "say": "Houve gritos, ameaças, e tiros. Todos para o alto. Ninguém acertou ninguém.",
+   "set": "countryside",
+   "sem_mortos": true
+  },
+  {
+   "shot": "two",
+   "who": [
+    "RAP:0:angry",
+    "XER:0:pained"
+   ],
+   "fx": [
+    "stars@60",
+    "burst@55"
+   ],
+   "sfx": [
+    "sting@60",
+    "thump@55"
+   ],
+   "say": "Acontece que a única baixa foi um xerife de Michigan, espetado na perna por um rapaz com um canivete.",
+   "set": "countryside",
+   "shot_lock": true,
+   "interacao": "empurrar"
+  },
+  {
+   "shot": "two",
+   "who": [
+    "GOV:0:nervous",
+    "OHI:0:grin:paper"
+   ],
+   "interior": "pedra",
+   "text": "ACORDO",
+   "say": "O presidente mandou os dois pararem, e o Congresso ofereceu um acordo. Ninguém queria ceder."
+  },
+  {
+   "shot": "group",
+   "who": [
+    "OHI:1:grin",
+    "MIC:1:pained",
+    "GOV:0:nervous"
+   ],
+   "say": "Ohio ficou com Toledo. Michigan levou, de consolação, um pedaço de floresta gelada que ninguém queria."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "GOV:0:shock:coin",
+    "MIC:0:grin"
+   ],
+   "clima": "neve",
+   "say": "Só que debaixo daquela floresta havia cobre e ferro. Uma fortuna."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "GOV:0:laugh:coin"
+   ],
+   "clima": "limpo",
+   "hora": "dia",
+   "say": "No fim das contas, Michigan perdeu a guerra, e ficou rico.",
+   "interior": "madeira"
+  }
+ ],
+ "heroi": null,
+ "regiao": "generica"
+}

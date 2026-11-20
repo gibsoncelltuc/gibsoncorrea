@@ -1,0 +1,402 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Curiosidade e Ciência",
+ "ep": 10,
+ "title": "Eratóstenes Mede a Terra",
+ "titulo_base": "Eratóstenes Mede a Terra",
+ "set": "palace",
+ "light": "desert",
+ "mood": "playful",
+ "heroi": "kit/globe",
+ "outfits": {
+  "ERA": {
+   "profissao": "cientista",
+   "jacket": "#e8dcc0",
+   "pants": "#e8dcc0",
+   "boots": "#6a4a2a",
+   "hat": "hair",
+   "hair": "#c9c2b0",
+   "beard": "#c9c2b0"
+  },
+  "BIB": {
+   "profissao": "cientista",
+   "jacket": "#7a5a3a",
+   "pants": "#e8dcc0",
+   "boots": "#6a4a2a",
+   "hat": "hair",
+   "hair": "#3a2a1a",
+   "glasses": true
+  },
+  "POV": {
+   "profissao": "comerciante",
+   "jacket": "#c9783a",
+   "pants": "#e8dcc0",
+   "boots": "#6a4a2a",
+   "hat": "turban"
+  },
+  "CAM": {
+   "profissao": "agricultor",
+   "jacket": "#8a6a3a",
+   "pants": "#4a3a2a",
+   "boots": "#2a2218",
+   "hat": "straw"
+  }
+ },
+ "beats": [
+  {
+   "say": "Um homem mediu o tamanho do planeta usando só uma vara e a sombra dela.",
+   "shot": "two",
+   "who": [
+    "ERA:0:smile",
+    "BIB:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/globe",
+     1.4,
+     0.4,
+     1.2
+    ],
+    [
+     "kit/stick",
+     -1.6,
+     0.2,
+     1.3
+    ],
+    [
+     "nature/tree_palm",
+     -3.2,
+     -6.0,
+     1.5
+    ],
+    [
+     "nature/tree_palm",
+     3.4,
+     -7.5,
+     1.6
+    ]
+   ],
+   "fachada": false
+  },
+  {
+   "say": "Era por volta de duzentos e quarenta antes de Cristo, e Eratóstenes era o bibliotecário da cidade de Alexandria, no Egito.",
+   "shot": "reveal",
+   "who": [
+    "BIB:0:neutral",
+    "POV:0:smile"
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "BIB",
+     "POV",
+     "CAM"
+    ],
+    "march": false
+   },
+   "mapa": "EGITO",
+   "mapa_at": 2
+  },
+  {
+   "say": "Ele leu num papiro que, em Siena, ao meio-dia de verão, o sol iluminava o fundo de um poço.",
+   "shot": "two",
+   "who": [
+    "ERA:0:surprised:paper",
+    "BIB:0:suspicious"
+   ],
+   "acao": "conversar",
+   "detalhe": false,
+   "props": [
+    [
+     "kit/well",
+     2.4,
+     -1.6,
+     1.2
+    ],
+    [
+     "nature/tree_palm",
+     -3.2,
+     -6.0,
+     1.5
+    ],
+    [
+     "nature/tree_palm",
+     3.4,
+     -7.5,
+     1.6
+    ]
+   ],
+   "fachada": false
+  },
+  {
+   "say": "Isso significava que o sol estava bem em cima, e nada fazia sombra.",
+   "shot": "two",
+   "who": [
+    "ERA:0:smile",
+    "CAM:0:neutral"
+   ],
+   "props": [
+    [
+     "kit/well",
+     2.4,
+     -1.6,
+     1.2
+    ],
+    [
+     "nature/tree_palm",
+     -3.2,
+     -6.0,
+     1.5
+    ],
+    [
+     "nature/tree_palm",
+     3.4,
+     -7.5,
+     1.6
+    ]
+   ],
+   "clima": "calor",
+   "fachada": false
+  },
+  {
+   "say": "Em Alexandria, no mesmo dia, uma vara fincada no chão fazia uma sombra pequena.",
+   "shot": "two",
+   "who": [
+    "ERA:0:suspicious",
+    "BIB:0:neutral"
+   ],
+   "props": [
+    [
+     "kit/stick",
+     1.4,
+     0.2,
+     1.3
+    ],
+    [
+     "nature/tree_palm",
+     -3.2,
+     -6.0,
+     1.5
+    ],
+    [
+     "nature/tree_palm",
+     3.4,
+     -7.5,
+     1.6
+    ]
+   ],
+   "clima": "calor",
+   "fachada": false
+  },
+  {
+   "say": "Eratóstenes pensou: \"Se a Terra fosse plana, as duas sombras seriam iguais.\"",
+   "shot": "close",
+   "who": [
+    "ERA:0:suspicious"
+   ],
+   "props": [
+    [
+     "kit/globe",
+     1.2,
+     0.3,
+     1.2
+    ],
+    [
+     "nature/tree_palm",
+     -3.2,
+     -6.0,
+     1.5
+    ],
+    [
+     "nature/tree_palm",
+     3.4,
+     -7.5,
+     1.6
+    ]
+   ],
+   "fachada": false
+  },
+  {
+   "say": "Acontece que a sombra era diferente, e isso só podia acontecer se a Terra fosse curva.",
+   "shot": "orbit",
+   "who": [
+    "ERA:0:shock",
+    "BIB:0:surprised"
+   ],
+   "impact": true,
+   "tiros": false,
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "BIB",
+     "POV",
+     "CAM"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
+   "props": [
+    [
+     "kit/globe",
+     0.0,
+     0.8,
+     1.6
+    ],
+    [
+     "kit/stick",
+     -1.8,
+     0.2,
+     1.3
+    ],
+    [
+     "nature/tree_palm",
+     -3.2,
+     -6.0,
+     1.5
+    ],
+    [
+     "nature/tree_palm",
+     3.4,
+     -7.5,
+     1.6
+    ]
+   ],
+   "fx": [
+    "ring@40",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@40",
+    "sting@60"
+   ],
+   "fachada": false
+  },
+  {
+   "say": "Ele mediu o ângulo da sombra, e contou os passos entre as duas cidades.",
+   "shot": "track",
+   "who": [
+    "ERA:0:neutral",
+    "CAM:0:grin"
+   ],
+   "props": [
+    [
+     "kit/stick",
+     -1.6,
+     0.3,
+     1.3
+    ],
+    [
+     "nature/tree_palm",
+     -3.2,
+     -6.0,
+     1.5
+    ],
+    [
+     "nature/tree_palm",
+     3.4,
+     -7.5,
+     1.6
+    ]
+   ],
+   "fachada": false
+  },
+  {
+   "say": "Com uma conta simples, chegou a um número muito perto do tamanho real da Terra.",
+   "shot": "two",
+   "interior": "pedra",
+   "who": [
+    "ERA:0:grin:paper",
+    "BIB:0:surprised"
+   ],
+   "interacao": "cochichar"
+  },
+  {
+   "say": "E tudo isso aconteceu mais de dois mil anos atrás, sem satélite e sem computador.",
+   "shot": "crowd",
+   "who": [
+    "ERA:0:laugh",
+    "BIB:0:laugh"
+   ],
+   "impact": true,
+   "tiros": false,
+   "crowd": {
+    "n": 14,
+    "outfits": [
+     "BIB",
+     "POV",
+     "CAM"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "props": [
+    [
+     "kit/globe",
+     0.0,
+     0.8,
+     1.6
+    ],
+    [
+     "nature/tree_palm",
+     -3.2,
+     -6.0,
+     1.5
+    ],
+    [
+     "nature/tree_palm",
+     3.4,
+     -7.5,
+     1.6
+    ]
+   ],
+   "text": "40.000 KM",
+   "fx": [
+    "stars@30",
+    "burst@70"
+   ],
+   "sfx": [
+    "ding@30",
+    "sting@70"
+   ],
+   "acao": "comemorar",
+   "fachada": false
+  },
+  {
+   "say": "No fim, uma vara e um poço fizeram o trabalho de um satélite.",
+   "shot": "close",
+   "who": [
+    "ERA:0:smug"
+   ],
+   "props": [
+    [
+     "kit/stick",
+     -1.2,
+     0.2,
+     1.3
+    ],
+    [
+     "kit/well",
+     2.4,
+     -1.6,
+     1.2
+    ],
+    [
+     "nature/tree_palm",
+     -3.2,
+     -6.0,
+     1.5
+    ],
+    [
+     "nature/tree_palm",
+     3.4,
+     -7.5,
+     1.6
+    ]
+   ],
+   "detalhe": false,
+   "fachada": false
+  }
+ ],
+ "exp": 0.9
+}

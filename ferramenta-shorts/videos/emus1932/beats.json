@@ -1,0 +1,277 @@
+{
+ "title": "A Guerra dos Emus",
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "set": "outback",
+ "light": "desert",
+ "mood": "march",
+ "outfits": {
+  "AUS": {
+   "jacket": "#8a7a4a",
+   "pants": "#6e6038",
+   "boots": "#2a2218",
+   "hat": "slouch",
+   "cap": "#8a7a50",
+   "belt": "#4a3a24",
+   "rifle": true
+  },
+  "FARM": {
+   "jacket": "#7a9ac2",
+   "pants": "#4a5a7a",
+   "boots": "#4a3426",
+   "moustache_on": "#4a3020",
+   "hats": [
+    "straw",
+    "cap",
+    "straw"
+   ],
+   "cap": "#d8c070"
+  },
+  "PRESS": {
+   "jacket": "#7a4a8a",
+   "pants": "#3a3a4a",
+   "boots": "#2a2218",
+   "hat": "bowler"
+  }
+ },
+ "cinf": 4.5,
+ "exp": 1.008,
+ "serie": "Guerras Inusitadas",
+ "ep": 2,
+ "titulo_base": "A Guerra dos Emus",
+ "beats": [
+  {
+   "say": "A Austrália declarou guerra a um bando de pássaros. E perdeu.",
+   "shot": "reveal",
+   "who": [],
+   "text": "1932",
+   "tat": 6,
+   "light": "desert",
+   "emus": {
+    "n": 10,
+    "mode": "stand",
+    "x": 0.5,
+    "z": 1.0,
+    "cols": 5
+   },
+   "riscos_ok": true
+  },
+  {
+   "say": "Vinte mil emus estavam devorando as plantações de trigo no oeste do país, e os fazendeiros foram pedir socorro ao governo.",
+   "shot": "group",
+   "who": [
+    "FARM:0:shock:pitchfork",
+    "FARM:1:nervous"
+   ],
+   "text": "20.000 EMUS",
+   "tat": 3,
+   "tstyle": "red",
+   "emus": {
+    "n": 8,
+    "mode": "stand",
+    "x": 5.5,
+    "z": 0.5,
+    "cols": 3
+   },
+   "mapa": "AUSTRÁLIA",
+   "mapa_at": 3
+  },
+  {
+   "shot": "two",
+   "who": [
+    "FARM:0:nervous:paper",
+    "AUS:0:stern"
+   ],
+   "interior": "madeira",
+   "say": "\"Mande o exército\", pediram eles. E o ministro mandou."
+  },
+  {
+   "say": "Soldados, duas metralhadoras, e dez mil balas. Contra emus.",
+   "shot": "two",
+   "who": [
+    "AUS:0:stern",
+    "AUS:1:grin",
+    "AUS:2:neutral"
+   ],
+   "props": [
+    [
+     "war/sandbags",
+     -3,
+     0.2,
+     1.2
+    ],
+    [
+     "cannon",
+     3.5,
+     0.5,
+     1.0
+    ]
+   ],
+   "text": "10.000 BALAS",
+   "tat": 6,
+   "crowd": {
+    "n": 14,
+    "outfit": "AUS",
+    "march": true
+   },
+   "emus": {
+    "n": 4,
+    "mode": "stand",
+    "x": 4.5,
+    "z": 0.5,
+    "cols": 2
+   }
+  },
+  {
+   "say": "Acontece que emu é rápido, e não fica parado. Os soldados atiravam, e os pássaros se espalhavam pela fazenda, sumindo na poeira.",
+   "shot": "group",
+   "who": [
+    "AUS:0:stern",
+    "AUS:1:stern"
+   ],
+   "emus": {
+    "n": 14,
+    "mode": "scatter",
+    "x": 4.5,
+    "z": 1.5,
+    "cols": 4
+   },
+   "batalha": true,
+   "caminhoes": 2,
+   "crowd": {
+    "n": 24,
+    "outfits": [
+     "AUS"
+    ],
+    "march": false
+   }
+  },
+  {
+   "say": "Um atirador montou a metralhadora num caminhão. Mas o caminhão pulava tanto, que ele não acertou nenhum.",
+   "shot": "two",
+   "who": [
+    "AUS:2:grin"
+   ],
+   "props": [
+    [
+     "vehicles/truck",
+     -3.4,
+     -1.6,
+     1.0,
+     {
+      "bob": 0.06,
+      "ry": 1.5708
+     }
+    ]
+   ],
+   "emus": {
+    "n": 6,
+    "mode": "run",
+    "x": 0,
+    "z": 1.5,
+    "dir": -1
+   },
+   "shot_lock": true,
+   "move": 0,
+   "riscos_ok": true
+  },
+  {
+   "say": "Depois de uma semana, milhares de balas gastas, e os emus quase sem um arranhão.",
+   "shot": "two",
+   "who": [
+    "AUS:0:pained",
+    "AUS:1:pained"
+   ],
+   "text": "1 SEMANA",
+   "tat": 0,
+   "emus": {
+    "n": 6,
+    "mode": "stand",
+    "x": 5.0,
+    "z": 0.5,
+    "cols": 3
+   }
+  },
+  {
+   "say": "A tropa bateu em retirada. A imprensa gargalhou, e o comandante admitiu: \"Eles aguentam bala como tanques.\"",
+   "shot": "group",
+   "who": [
+    "AUS:0:pained",
+    "PRESS:0:grin:paper",
+    "PRESS:1:smile"
+   ],
+   "text": "HA HA HA",
+   "tat": 8,
+   "tstyle": "gold",
+   "crowd": {
+    "n": 12,
+    "outfit": "AUS",
+    "march": false
+   }
+  },
+  {
+   "say": "O exército tentou de novo, abateu algumas centenas, e os emus continuaram voltando.",
+   "shot": "crowd",
+   "who": [
+    "AUS:1:stern",
+    "AUS:0:stern"
+   ],
+   "emus": {
+    "n": 12,
+    "mode": "scatter",
+    "x": 4.5,
+    "z": 1.5,
+    "cols": 4
+   },
+   "text": "CENTENAS",
+   "tat": 6,
+   "tstyle": "red",
+   "batalha": true,
+   "crowd": {
+    "n": 24,
+    "outfits": [
+     "AUS"
+    ],
+    "march": false
+   }
+  },
+  {
+   "say": "No fim, o governo desistiu da guerra, e passou a pagar recompensa aos fazendeiros por cada emu abatido.",
+   "shot": "two",
+   "who": [
+    "FARM:0:smile",
+    "FARM:1:grin"
+   ],
+   "text": "RECOMPENSA",
+   "tat": 9,
+   "light": "golden",
+   "emus": {
+    "n": 3,
+    "mode": "stand",
+    "x": 4.5,
+    "z": 0.5,
+    "cols": 3
+   }
+  },
+  {
+   "say": "Humanos, zero. Emus, um.",
+   "shot": "close",
+   "who": [
+    "AUS:0:pained"
+   ],
+   "emus": {
+    "n": 3,
+    "mode": "stand",
+    "x": 2.8,
+    "z": 0.3,
+    "cols": 3
+   },
+   "text": "HUMANOS 0 - 1 EMUS",
+   "tat": 0,
+   "tstyle": "gold",
+   "light": "golden",
+   "titulo": true
+  }
+ ],
+ "heroi": null
+}

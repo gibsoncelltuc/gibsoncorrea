@@ -1,0 +1,276 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Curiosidade e Ciência",
+ "ep": 13,
+ "title": "O Médico que Mandou Lavar as Mãos",
+ "titulo_base": "O Médico que Mandou Lavar as Mãos",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/wash_basin",
+ "outfits": {
+  "SEM": {
+   "profissao": "medico",
+   "moustache": "#5a3a22",
+   "hair": "#5a3a22",
+   "hat": "hair"
+  },
+  "DIR": {
+   "profissao": "medico",
+   "beard": "#9a9a9a",
+   "hair": "#9a9a9a",
+   "hat": "tophat",
+   "cap": "#1b1b1f"
+  },
+  "KOL": {
+   "profissao": "medico",
+   "beard": "#3a2a1f",
+   "hair": "#3a2a1f"
+  },
+  "PAR": {
+   "jacket": "#e8e4da",
+   "pants": "#4a5a7a",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#7a4a2a",
+   "hairStyle": "bun",
+   "glasses": false
+  },
+  "MAE": {
+   "jacket": "#b56a8a",
+   "pants": "#4a2a3a",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#6a4a2a",
+   "hairStyle": "bun"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "bowler",
+    "cap",
+    "straw",
+    "beret"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "SEM:0:stern",
+    "DIR:0:angry"
+   ],
+   "acao": "discutir",
+   "props": [
+    [
+     "kit/wash_basin",
+     0,
+     -1.4,
+     1.0
+    ]
+   ],
+   "text": "1847",
+   "say": "Um médico pediu uma coisa simples aos colegas: lavem as mãos. E foi expulso do hospital por isso.",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ]
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin"
+   ],
+   "mapa": "ÁUSTRIA",
+   "mapa_at": 3,
+   "say": "Era mil oitocentos e quarenta e sete, no grande hospital de Viena, na Áustria."
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "SEM:0:worried",
+    "PAR:0:sad"
+   ],
+   "say": "O hospital tinha duas alas de parto. Numa, as mães eram atendidas por parteiras. Na outra, por médicos."
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "MAE:0:scared",
+    "SEM:0:sad"
+   ],
+   "fx": [
+    "ring@40"
+   ],
+   "sfx": [
+    "sting@40"
+   ],
+   "say": "E acontece que, na ala dos médicos, morriam muito mais mães, de uma febre misteriosa."
+  },
+  {
+   "shot": "group",
+   "who": [
+    "MAE:0:scared",
+    "POV:0:cry"
+   ],
+   "crowd": {
+    "n": 14,
+    "outfits": [
+     "MAE",
+     "POV"
+    ],
+    "march": false,
+    "expr": "scared"
+   },
+   "say": "As mulheres imploravam de joelhos para não ir para a ala dos médicos.",
+   "batalha": false,
+   "tiros": false,
+   "shot_lock": true,
+   "impact": false
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "KOL:0:shock",
+    "SEM:0:surprised"
+   ],
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "say": "Um dia, o amigo dele, Kolletschka, cortou o dedo com um bisturi, examinando um corpo, e morreu da mesma febre."
+  },
+  {
+   "shot": "close",
+   "interior": "madeira",
+   "who": [
+    "SEM:0:surprised"
+   ],
+   "fx": [
+    "stars@20"
+   ],
+   "sfx": [
+    "ding@20"
+   ],
+   "say": "Semmelweis entendeu tudo: os médicos saíam das autópsias e iam direto para os partos, com as mãos sujas."
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "SEM:0:grin",
+    "KOL:0:smile"
+   ],
+   "props": [
+    [
+     "kit/wash_basin",
+     1.6,
+     -0.8,
+     1.1
+    ]
+   ],
+   "fx": [
+    "puff@40"
+   ],
+   "sfx": [
+    "thump@40"
+   ],
+   "say": "Ele colocou uma bacia com água e cloro na porta, e obrigou todo mundo a lavar as mãos antes de entrar.",
+   "batalha": false
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "SEM:0:laugh",
+    "MAE:0:laugh",
+    "PAR:0:grin"
+   ],
+   "acao": "comemorar",
+   "crowd": {
+    "n": 16,
+    "outfits": [
+     "MAE",
+     "POV"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "props": [
+    [
+     "kit/wash_basin",
+     0,
+     -3.0,
+     1.4
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "VIDAS SALVAS",
+   "titulo": true,
+   "say": "As mortes despencaram quase dez vezes. Centenas de mães foram salvas.",
+   "batalha": true,
+   "tiros": false
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "DIR:0:angry",
+    "SEM:0:shout"
+   ],
+   "acao": "discutir",
+   "interacao": "empurrar",
+   "say": "Mas os médicos se ofenderam. Um cavalheiro, diziam, tem as mãos limpas. Semmelweis brigou com todos, e foi mandado embora.",
+   "fx": [
+    "ring@50"
+   ],
+   "sfx": [
+    "sting@50"
+   ]
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MAE:0:cry"
+   ],
+   "props": [],
+   "say": "Ele morreu em mil oitocentos e sessenta e cinco, sem ver ninguém dar razão a ele.",
+   "detalhe": true
+  },
+  {
+   "shot": "close",
+   "who": [
+    "PAR:0:smile"
+   ],
+   "props": [
+    [
+     "kit/wash_basin",
+     1.4,
+     -0.8,
+     1.0
+    ]
+   ],
+   "text": "LAVE AS MÃOS",
+   "say": "Anos depois, a ciência provou os micróbios. Hoje, ele é chamado de salvador das mães."
+  }
+ ],
+ "variar_cenario": false
+}

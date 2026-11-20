@@ -1,0 +1,1 @@
+SPEC.fit = {"again~1": 1.761, "aim~2": 1.254, "bounty": 1.254, "bounty~1": 1.972, "farmers": 1.12, "press": 1.404, "press~1": 2.209, "score": 1.404, "score~1": 1.761, "war": 1.12, "week~1": 1.404, "week~2": 1.761};

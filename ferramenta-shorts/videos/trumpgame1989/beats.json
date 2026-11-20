@@ -1,0 +1,318 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Poder e Fama",
+ "ep": 18,
+ "title": "O Jogo de Tabuleiro do Trump",
+ "titulo_base": "O Jogo de Tabuleiro do Trump",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/boardgame",
+ "outfits": {
+  "TRU": {
+   "jacket": "#1f2f5c",
+   "pants": "#1f2f5c",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#f2c84a",
+   "tie": "#d8282f",
+   "pele": "#f5c49a",
+   "build": "stout",
+   "swoop": true
+  },
+  "EXE": {
+   "profissao": "empresario"
+  },
+  "PAI": {
+   "jacket": "#6a4a2a",
+   "pants": "#3b3f52",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#3a2a1f",
+   "moustache": "#3a2a1f"
+  },
+  "FIL": {
+   "jacket": "#d8282f",
+   "pants": "#2a3a5a",
+   "boots": "#f4f1e8",
+   "hat": "cap",
+   "cap": "#1f4fa8"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "bowler"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "TRU:0:smug",
+    "EXE:0:grin"
+   ],
+   "props": [
+    [
+     "kit/boardgame",
+     0,
+     -1.6,
+     1.54
+    ]
+   ],
+   "text": "1989",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "Muito antes da política, Donald Trump lançou um jogo de tabuleiro com o próprio nome. E o rosto dele no dinheiro."
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin"
+   ],
+   "mapa": "ESTADOS UNIDOS",
+   "mapa_at": 3,
+   "say": "Era mil novecentos e oitenta e nove, nos Estados Unidos. Trump era um empresário famoso de Nova York."
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "EXE:0:grin:paper",
+    "TRU:0:smug"
+   ],
+   "interacao": "entregar",
+   "props": [
+    [
+     "kit/boardgame",
+     1.6,
+     -0.8,
+     1.54
+    ]
+   ],
+   "say": "Uma grande fábrica de brinquedos fez o jogo: comprar e vender prédios, cassinos e hotéis, até ficar o mais rico.",
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ]
+  },
+  {
+   "shot": "close",
+   "interior": "loja",
+   "who": [
+    "TRU:0:grin"
+   ],
+   "props": [
+    [
+     "kit/boardgame",
+     1.6,
+     -0.8,
+     1.54
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "ring@50"
+   ],
+   "sfx": [
+    "ding@20",
+    "sting@50"
+   ],
+   "say": "As notas do jogo eram de dez, cinquenta e cem milhões de dólares. Com a cara do Trump estampada.",
+   "acao": "comemorar"
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "PAI:0:suspicious:paper",
+    "FIL:0:bored"
+   ],
+   "props": [
+    [
+     "kit/boardgame",
+     1.6,
+     -0.8,
+     1.54
+    ]
+   ],
+   "acao": "discutir",
+   "say": "Acontece que o manual tinha mais de doze páginas. As famílias abriam a caixa, e não entendiam nada."
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "FIL:0:angry",
+    "PAI:0:nervous"
+   ],
+   "props": [
+    [
+     "kit/boardgame",
+     1.6,
+     -0.8,
+     1.54
+    ]
+   ],
+   "interacao": "empurrar",
+   "fx": [
+    "puff@40"
+   ],
+   "sfx": [
+    "thump@40"
+   ],
+   "say": "Muita gente comprou só de presente, ou de curiosidade, e nunca tirou as peças da caixa."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "EXE:0:sad",
+    "POV:0:bored",
+    "POV:1:suspicious"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 16,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "bored"
+   },
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "text": "800 MIL",
+   "titulo": true,
+   "say": "A fábrica esperava vender dois milhões de jogos. Vendeu oitocentos mil. Foi considerado um fracasso."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "EXE:0:sad",
+    "TRU:0:suspicious"
+   ],
+   "acao": "conversar",
+   "say": "O jogo saiu das lojas, e ficou esquecido por anos."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "TRU:0:grin",
+    "EXE:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/boardgame",
+     1.6,
+     -1.0,
+     1.4
+    ]
+   ],
+   "interacao": "entregar",
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ],
+   "say": "Até que, em dois mil e quatro, Trump virou estrela de um programa de TV, O Aprendiz."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "TRU:0:smug"
+   ],
+   "props": [
+    [
+     "kit/boardgame",
+     1.6,
+     -0.8,
+     1.54
+    ]
+   ],
+   "fx": [
+    "ring@20"
+   ],
+   "sfx": [
+    "sting@20"
+   ],
+   "say": "E o jogo voltou às lojas, com regras mais simples, e com a frase famosa do programa: você está demitido."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "POV:0:laugh",
+    "PAI:0:laugh",
+    "FIL:0:grin"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "props": [
+    [
+     "kit/boardgame",
+     0,
+     -3.0,
+     1.96
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "VOLTOU",
+   "titulo": true,
+   "say": "Hoje, as caixas originais de mil novecentos e oitenta e nove viraram item de colecionador."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "TRU:0:smile"
+   ],
+   "props": [
+    [
+     "kit/boardgame",
+     -1.4,
+     -0.8,
+     1.4
+    ]
+   ],
+   "acao": "comemorar",
+   "say": "Um jogo sobre ficar bilionário, que acabou virando só uma curiosidade da história."
+  }
+ ],
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Trump:_The_Game",
+  "https://www.vox.com/2015/8/19/9176285/donald-trump-board-game"
+ ]
+}

@@ -1,0 +1,322 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "title": "A Febre das Tulipas",
+ "set": "countryside",
+ "light": "day",
+ "mood": "playful",
+ "outfits": {
+  "MER": {
+   "jacket": "#1f1f26",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "slouch",
+   "cap": "#1b1b1f",
+   "buttons": "#e8c45a",
+   "build": "stout",
+   "moustache_on": "#6b4a2a"
+  },
+  "RIC": {
+   "jacket": "#d9742a",
+   "pants": "#3b2a1a",
+   "boots": "#1b1b1f",
+   "hat": "tophat",
+   "sash": "#f1ece0"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "bonnet",
+    "cap",
+    "straw",
+    "beret"
+   ],
+   "cap": "#c9a060"
+  },
+  "MAR": {
+   "jacket": "#2f5f6a",
+   "pants": "#e8e0c8",
+   "boots": "#1b1b1f",
+   "hat": "beret",
+   "cap": "#27408b"
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "MER:0:grin:tulip",
+    "POV:1:shock"
+   ],
+   "props": [
+    [
+     "kit/tulip_bed",
+     0,
+     -1.8,
+     1.3
+    ],
+    [
+     "buildings/windmill",
+     6,
+     -10,
+     1.2
+    ]
+   ],
+   "fachada": false,
+   "text": "1637",
+   "say": "Uma única flor já custou o preço de uma casa inteira."
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:smile:tulip",
+    "RIC:0:grin"
+   ],
+   "props": [
+    [
+     "kit/tulip_bed",
+     -4.5,
+     -2.0,
+     1.4
+    ],
+    [
+     "kit/tulip_bed",
+     4.5,
+     -2.6,
+     1.4
+    ],
+    [
+     "kit/tulip_bed",
+     0,
+     -5.0,
+     1.4
+    ],
+    [
+     "kit/tulip_bed",
+     -5,
+     -7.5,
+     1.4
+    ],
+    [
+     "kit/tulip_bed",
+     5,
+     -8,
+     1.4
+    ],
+    [
+     "buildings/windmill",
+     0,
+     -13,
+     1.3
+    ]
+   ],
+   "crowd": {
+    "n": 6,
+    "outfits": [
+     "POV"
+    ],
+    "march": false
+   },
+   "mapa": "HOLANDA",
+   "mapa_at": 2,
+   "say": "Era a Holanda, e a tulipa tinha acabado de chegar do Oriente. Colorida, rara, e na moda."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "RIC:0:stern:coin",
+    "RIC:1:shock:coin"
+   ],
+   "interior": "loja",
+   "props": [
+    [
+     "kit/tulip_striped",
+     0.0,
+     -0.9,
+     1.5
+    ]
+   ],
+   "acao": "discutir",
+   "say": "Os ricos queriam as mais raras. \"Dou mil moedas por esse bulbo\", dizia um. \"Dou duas mil\", gritava outro."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "POV:0:grin:tulip",
+    "POV:1:laugh:coin",
+    "MER:0:grin"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "props": [
+    [
+     "kit/tulip_bed",
+     -6,
+     -4,
+     1.4
+    ],
+    [
+     "kit/tulip_bed",
+     6,
+     -4.5,
+     1.4
+    ],
+    [
+     "kit/tulip_bed",
+     0,
+     -7,
+     1.4
+    ]
+   ],
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "POV",
+     "RIC"
+    ],
+    "march": false,
+    "expr": "grin"
+   },
+   "fx": [
+    "stars@30",
+    "stars@80"
+   ],
+   "sfx": [
+    "ding@30",
+    "ding@80"
+   ],
+   "text": "TODO MUNDO",
+   "titulo": true,
+   "say": "Logo, o país inteiro estava comprando. Padeiros, sapateiros, gente que nunca tinha plantado nada."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "POV:2:grin:paper",
+    "POV:3:smile:coin"
+   ],
+   "props": [
+    [
+     "kit/tulip_yellow",
+     -2.6,
+     0.4,
+     1.3
+    ],
+    [
+     "kit/tulip_purple",
+     2.7,
+     0.2,
+     1.3
+    ]
+   ],
+   "acao": "discutir",
+   "say": "Ninguém queria a flor de verdade. Queriam vender o papel mais caro na semana seguinte, e ficar ricos."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MAR:0:smile:tulip",
+    "MER:0:shock"
+   ],
+   "interior": "madeira",
+   "props": [
+    [
+     "kit/tulip_red",
+     2.8,
+     -0.6,
+     1.3
+    ]
+   ],
+   "acao": "discutir",
+   "say": "Contam que um marinheiro comeu um bulbo no almoço, achando que era cebola. Valia uma fortuna."
+  },
+  {
+   "shot": "group",
+   "who": [
+    "MER:0:nervous:tulip",
+    "POV:0:stern",
+    "POV:1:neutral",
+    "RIC:0:stern"
+   ],
+   "interior": "loja",
+   "hora": "dia",
+   "acao": "nenhuma",
+   "text": "LEILÃO",
+   "say": "Acontece que, num leilão de fevereiro, o vendedor abriu os lances, e ninguém levantou a mão."
+  },
+  {
+   "shot": "orbit",
+   "who": [
+    "POV:2:shock:tulip",
+    "RIC:0:pained:paper"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "props": [
+    [
+     "kit/tulip_bed",
+     -6,
+     -4,
+     1.4
+    ],
+    [
+     "kit/tulip_bed",
+     6,
+     -4.5,
+     1.4
+    ]
+   ],
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "POV",
+     "RIC",
+     "MER"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
+   "fx": [
+    "dust@40",
+    "puff@90"
+   ],
+   "sfx": [
+    "sting@20",
+    "thump@40",
+    "thump@90"
+   ],
+   "text": "PÂNICO",
+   "titulo": true,
+   "acao": "discutir",
+   "say": "A notícia correu. Em poucos dias, todo mundo quis vender, e não havia mais comprador.",
+   "clima": "limpo"
+  },
+  {
+   "shot": "two",
+   "who": [
+    "RIC:0:pained:tulip",
+    "MER:0:pained:paper"
+   ],
+   "props": [
+    [
+     "kit/tulip_bed",
+     0,
+     -1.8,
+     1.3
+    ]
+   ],
+   "fachada": false,
+   "acao": "nenhuma",
+   "say": "Os preços desabaram. Quem tinha trocado a casa por flores ficou só com as flores, e as dívidas."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "MAR:0:grin"
+   ],
+   "say": "O marinheiro, pelo menos, almoçou bem."
+  }
+ ]
+}

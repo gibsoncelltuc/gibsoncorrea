@@ -1,0 +1,235 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Poder e Fama",
+ "ep": 9,
+ "title": "O País do Bitcoin",
+ "titulo_base": "O País do Bitcoin",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/bitcoin",
+ "outfits": {
+  "BUK": {
+   "jacket": "#22252c",
+   "pants": "#2a2d33",
+   "boots": "#f4f1e8",
+   "hat": "cap",
+   "cap": "#1b1b1f",
+   "beard": "#2a201a",
+   "pele": "#e8c8a8",
+   "capBack": true
+  },
+  "DEP": {
+   "jacket": "#6a4a8a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#2a1a10",
+   "tie": "#d8282f"
+  },
+  "POV": {
+   "profissao": "comerciante",
+   "jacket": "#c9783a",
+   "pants": "#e8dcc0",
+   "boots": "#6a4a2a",
+   "hat": "straw"
+  },
+  "CLI": {
+   "jacket": "#3a8a5a",
+   "pants": "#2a3a5a",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#6a3a1a"
+  }
+ },
+ "beats": [
+  {
+   "say": "Em dois mil e vinte e um, um país fez algo que nenhum outro tinha feito: aceitou o bitcoin como dinheiro oficial.",
+   "shot": "two",
+   "who": [
+    "BUK:0:smile",
+    "POV:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/bitcoin",
+     1.5,
+     0.3,
+     1.3
+    ]
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": false
+  },
+  {
+   "say": "O país era El Salvador, na América Central, e a ideia foi do presidente Nayib Bukele.",
+   "shot": "close",
+   "who": [
+    "BUK:0:smug"
+   ],
+   "mapa": "EL SALVADOR",
+   "mapa_at": 1,
+   "tiros": false,
+   "batalha": false,
+   "impact": false
+  },
+  {
+   "say": "A lei foi aprovada pelo congresso em junho daquele ano.",
+   "shot": "group",
+   "who": [
+    "DEP:0:neutral",
+    "BUK:0:smile",
+    "CLI:0:neutral"
+   ],
+   "interior": "pedra",
+   "props": [
+    [
+     "kit/bitcoin",
+     1.6,
+     0.3,
+     1.1
+    ]
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": false
+  },
+  {
+   "say": "E passou a valer em sete de setembro de dois mil e vinte e um.",
+   "shot": "reveal",
+   "who": [
+    "BUK:0:grin",
+    "POV:0:smile"
+   ],
+   "text": "7 DE SETEMBRO DE 2021",
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "POV",
+     "CLI",
+     "DEP"
+    ],
+    "march": false
+   },
+   "tiros": false,
+   "batalha": false,
+   "impact": false
+  },
+  {
+   "say": "Com isso, dava para pagar as compras com bitcoin.",
+   "shot": "two",
+   "who": [
+    "CLI:0:smile:coin",
+    "POV:0:grin"
+   ],
+   "acao": "conversar",
+   "props": [
+    [
+     "kit/stall",
+     1.7,
+     -0.5,
+     1.2
+    ],
+    [
+     "kit/bitcoin",
+     -1.6,
+     0.3,
+     1.0
+    ]
+   ],
+   "tiros": false,
+   "batalha": false,
+   "fx": [
+    "stars@3"
+   ],
+   "sfx": [
+    "ding@3"
+   ],
+   "impact": false
+  },
+  {
+   "say": "O governo lançou até uma carteira digital, chamada Chivo.",
+   "shot": "close",
+   "who": [
+    "CLI:0:surprised"
+   ],
+   "text": "CARTEIRA CHIVO",
+   "fx": [
+    "stars@2"
+   ],
+   "sfx": [
+    "ding@2"
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": false
+  },
+  {
+   "say": "Nas primeiras horas, o aplicativo ficou fora do ar, por excesso de acessos.",
+   "shot": "two",
+   "who": [
+    "CLI:0:nervous",
+    "POV:0:shock"
+   ],
+   "acao": "discutir",
+   "fx": [
+    "burst@3"
+   ],
+   "sfx": [
+    "thump@3"
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": false
+  },
+  {
+   "say": "Foi o primeiro país do mundo a fazer isso, e o assunto virou conversa no planeta inteiro.",
+   "shot": "orbit",
+   "who": [
+    "BUK:0:grin",
+    "DEP:0:laugh"
+   ],
+   "props": [
+    [
+     "kit/globe",
+     1.5,
+     -0.3,
+     1.1
+    ]
+   ],
+   "crowd": {
+    "n": 6,
+    "outfits": [
+     "POV",
+     "CLI"
+    ],
+    "march": false
+   },
+   "tiros": false,
+   "batalha": false,
+   "impact": false
+  },
+  {
+   "say": "Uma moeda digital, uma lei nova e um país no centro das atenções.",
+   "shot": "group",
+   "who": [
+    "BUK:0:smile",
+    "POV:0:grin",
+    "CLI:0:laugh"
+   ],
+   "props": [
+    [
+     "kit/bitcoin",
+     1.8,
+     -0.4,
+     1.4
+    ]
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": false
+  }
+ ]
+}

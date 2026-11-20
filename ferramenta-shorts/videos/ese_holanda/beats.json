@@ -1,0 +1,255 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "E Se",
+ "ep": 3,
+ "title": "E Se o Brasil Tivesse Sido Holandês?",
+ "titulo_base": "E Se o Brasil Tivesse Sido Holandês?",
+ "set": "harbor",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/flag_pole",
+ "outfits": {
+  "PRO": {
+   "profissao": "cientista",
+   "hair": "#5a3a22",
+   "glasses": true
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "straw"
+   ]
+  },
+  "NAS": {
+   "profissao": "nobre",
+   "hair": "#c9a86a",
+   "moustache": "#c9a86a",
+   "hat": "hair",
+   "jacket": "#e8692a"
+  },
+  "POR": {
+   "profissao": "soldado",
+   "jacket": "#2a5a3a"
+  },
+  "ART": {
+   "profissao": "cientista",
+   "hair": "#7a4a2a",
+   "jacket": "#5a3a6a"
+  }
+ },
+ "fontes": [
+  "https://pt.wikipedia.org/wiki/Brasil_Holand%C3%AAs",
+  "https://en.wikipedia.org/wiki/Kahal_Zur_Israel_Synagogue",
+  "https://en.wikipedia.org/wiki/Treaty_of_Breda_(1667)"
+ ],
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "NAS:0:smug",
+    "POV:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/flag_pole",
+     1.8,
+     -1.4,
+     1.0
+    ]
+   ],
+   "text": "1630",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "Durante vinte e quatro anos, um pedaço do Brasil foi holandês. E se eles nunca tivessem saído?"
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin"
+   ],
+   "mapa": "PERNAMBUCO",
+   "mapa_at": 3,
+   "say": "Em mil seiscentos e trinta, navios holandeses tomaram Pernambuco, atrás do açúcar mais valioso do mundo."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "NAS:0:grin",
+    "ART:0:smile:paper"
+   ],
+   "acao": "conversar",
+   "say": "O governador Maurício de Nassau trouxe pintores, cientistas e engenheiros para Recife."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "NAS:0:smug",
+    "POV:0:surprised"
+   ],
+   "props": [
+    [
+     "buildings/bridge",
+     3.5,
+     -18.0,
+     1.4
+    ]
+   ],
+   "fx": [
+    "puff@40"
+   ],
+   "sfx": [
+    "thump@40"
+   ],
+   "say": "Construiu uma das primeiras grandes pontes do Brasil, e a cidade ganhou a primeira sinagoga das Américas.",
+   "detalhe": false
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "POR:0:angry",
+    "POR:1:shout",
+    "POV:0:angry"
+   ],
+   "batalha": true,
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POR",
+     "POV"
+    ],
+    "march": true,
+    "expr": "angry"
+   },
+   "fx": [
+    "ring@20"
+   ],
+   "sfx": [
+    "sting@20"
+   ],
+   "text": "GUARARAPES",
+   "titulo": true,
+   "say": "Acontece que portugueses, indígenas, africanos e colonos se uniram, e venceram as batalhas dos Guararapes."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "NAS:0:sad",
+    "POV:0:grin"
+   ],
+   "props": [
+    [
+     "ship",
+     2.0,
+     -12.0,
+     0.8
+    ]
+   ],
+   "say": "Em mil seiscentos e cinquenta e quatro, os holandeses foram embora de vez."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "ART:0:surprised:paper",
+    "POV:0:suspicious"
+   ],
+   "acao": "discutir",
+   "say": "E se tivessem ficado? Talvez o Nordeste fosse hoje outro país, falando holandês."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "ART:0:shock"
+   ],
+   "fx": [
+    "ring@20",
+    "stars@50"
+   ],
+   "sfx": [
+    "sting@20",
+    "ding@50"
+   ],
+   "say": "Isso não é tão maluco: o Suriname, aqui do lado do Brasil, foi colônia holandesa e fala holandês até hoje."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "NAS:0:smug",
+    "ART:0:grin"
+   ],
+   "props": [
+    [
+     "kit/scroll",
+     1.6,
+     -0.8,
+     1.0
+    ]
+   ],
+   "interacao": "entregar",
+   "say": "E mais: em mil seiscentos e sessenta e sete, a Holanda trocou com os ingleses. Ficou com o Suriname, e entregou a vila de Nova Amsterdã."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "POV:0:shock",
+    "POV:1:surprised",
+    "ART:0:laugh"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "surprised"
+   },
+   "props": [
+    [
+     "buildings/skyscraper",
+     0,
+     -14.0,
+     1.2
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "NOVA YORK",
+   "titulo": true,
+   "say": "Essa vila hoje se chama Nova York."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "NAS:0:smile"
+   ],
+   "props": [
+    [
+     "kit/flag_pole",
+     -1.6,
+     -1.4,
+     1.0
+    ]
+   ],
+   "acao": "conversar",
+   "say": "Uma troca de terras, e o mapa do mundo podia ser completamente diferente."
+  }
+ ]
+}

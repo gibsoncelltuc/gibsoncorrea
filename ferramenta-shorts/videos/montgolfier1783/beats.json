@@ -1,0 +1,353 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Curiosidade e Ciência",
+ "ep": 18,
+ "title": "Os Primeiros Passageiros do Céu",
+ "titulo_base": "Os Primeiros Passageiros do Céu",
+ "set": "medieval",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/balloon",
+ "outfits": {
+  "JOS": {
+   "profissao": "comerciante",
+   "hair": "#e8e4da",
+   "hat": "hair"
+  },
+  "ETI": {
+   "profissao": "comerciante",
+   "hair": "#d8d4ca",
+   "hat": "hair",
+   "jacket": "#5a2a2a"
+  },
+  "REI": {
+   "profissao": "rei"
+  },
+  "RAI": {
+   "jacket": "#d98ab0",
+   "pants": "#d98ab0",
+   "boots": "#f4f1e8",
+   "hat": "hair",
+   "hair": "#f4f1e8",
+   "hairStyle": "bun"
+  },
+  "NOB": {
+   "profissao": "nobre"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "slouch",
+    "straw",
+    "beret",
+    "hair"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "JOS:0:grin",
+    "ETI:0:nervous"
+   ],
+   "animals": [
+    [
+     "sheep",
+     1.9,
+     0.8
+    ]
+   ],
+   "props": [
+    [
+     "kit/balloon",
+     0,
+     -1.8,
+     1.0
+    ]
+   ],
+   "text": "1783",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "Os primeiros passageiros de um balão não foram pessoas. Foram uma ovelha, um pato e um galo.",
+   "set": "medieval"
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin"
+   ],
+   "mapa": "FRANÇA",
+   "mapa_at": 3,
+   "say": "Era mil setecentos e oitenta e três, na França."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "JOS:0:surprised",
+    "ETI:0:suspicious"
+   ],
+   "props": [
+    [
+     "kit/campfire",
+     1.6,
+     -1.0,
+     1.0
+    ]
+   ],
+   "fx": [
+    "puff@40"
+   ],
+   "sfx": [
+    "whoosh@40"
+   ],
+   "say": "Os irmãos Montgolfier, donos de uma fábrica de papel, repararam que a fumaça quente fazia sacos de papel flutuarem.",
+   "set": "medieval"
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "ETI:0:grin",
+    "JOS:0:grin:paper"
+   ],
+   "acao": "conversar",
+   "props": [
+    [
+     "kit/balloon",
+     1.6,
+     -1.0,
+     0.8
+    ]
+   ],
+   "say": "Então costuraram um balão gigante de pano e papel, e encheram de ar quente."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "NOB:0:suspicious",
+    "ETI:0:nervous"
+   ],
+   "acao": "discutir",
+   "say": "Só que ninguém sabia se dava para respirar lá em cima. E se o ar do céu matasse?",
+   "interior": "madeira"
+  },
+  {
+   "shot": "two",
+   "who": [
+    "JOS:0:smile"
+   ],
+   "animals": [
+    [
+     "sheep",
+     1.0,
+     -1.2
+    ],
+    [
+     "duck",
+     -0.9,
+     -1.3
+    ],
+    [
+     "rooster",
+     0.2,
+     -1.0
+    ]
+   ],
+   "interacao": "entregar",
+   "say": "A solução: mandar bichos na frente. Uma ovelha, um pato e um galo entraram na cesta.",
+   "props": [
+    [
+     "kit/balloon",
+     0.0,
+     -2.2,
+     1.0
+    ]
+   ],
+   "set": "medieval"
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "REI:0:smile",
+    "RAI:0:surprised",
+    "NOB:0:grin"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "POV",
+     "NOB"
+    ],
+    "march": false,
+    "expr": "surprised"
+   },
+   "props": [
+    [
+     "kit/balloon",
+     0,
+     -3.2,
+     1.4
+    ]
+   ],
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "say": "No palácio de Versalhes, o rei Luís dezesseis e a rainha Maria Antonieta vieram assistir, com uma multidão.",
+   "set": "countryside"
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:shock",
+    "POV:1:surprised"
+   ],
+   "props": [
+    [
+     "kit/balloon_air",
+     0,
+     -4.0,
+     1.3
+    ]
+   ],
+   "fx": [
+    "whoosh@20",
+    "stars@50"
+   ],
+   "sfx": [
+    "whoosh@20",
+    "ding@50"
+   ],
+   "say": "Acontece que o balão levantou voo de verdade, e foi embora pelo céu, com os bichos dentro.",
+   "set": "medieval"
+  },
+  {
+   "shot": "two",
+   "who": [
+    "ETI:0:nervous",
+    "JOS:0:worried"
+   ],
+   "props": [
+    [
+     "kit/balloon",
+     1.6,
+     -2.6,
+     0.9
+    ]
+   ],
+   "say": "Oito minutos depois, ele desceu num bosque a uns três quilômetros dali. Os irmãos correram para ver.",
+   "shot_lock": true,
+   "detalhe": false,
+   "set": "countryside"
+  },
+  {
+   "shot": "two",
+   "who": [
+    "JOS:0:laugh",
+    "ETI:0:laugh"
+   ],
+   "animals": [
+    [
+     "sheep",
+     1.6,
+     0.6
+    ],
+    [
+     "duck",
+     -1.6,
+     0.8
+    ],
+    [
+     "rooster",
+     -2.4,
+     1.2
+    ]
+   ],
+   "interacao": "abracar",
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ],
+   "say": "Os três bichos estavam vivos e bem! Dava para respirar no céu.",
+   "set": "countryside"
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "POV:0:laugh",
+    "JOS:0:laugh",
+    "ETI:0:grin"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "props": [
+    [
+     "kit/balloon_air",
+     0,
+     -4.0,
+     1.3
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "VOAMOS",
+   "titulo": true,
+   "say": "Dois meses depois, foi a vez de dois homens voarem sobre Paris. A humanidade tinha chegado ao céu.",
+   "set": "medieval"
+  },
+  {
+   "shot": "close",
+   "who": [
+    "ETI:0:smile"
+   ],
+   "animals": [
+    [
+     "sheep",
+     1.6,
+     0.6
+    ]
+   ],
+   "props": [
+    [
+     "kit/balloon",
+     -1.6,
+     -1.6,
+     0.8
+    ]
+   ],
+   "say": "E tudo graças a uma ovelha, um pato e um galo corajosos.",
+   "set": "countryside"
+  }
+ ],
+ "exp": 0.81
+}

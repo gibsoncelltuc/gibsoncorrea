@@ -1,0 +1,287 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Curiosidade e Ciência",
+ "ep": 17,
+ "title": "A Borracha que Caiu no Fogão",
+ "titulo_base": "A Borracha que Caiu no Fogão",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/borracha",
+ "outfits": {
+  "GOO": {
+   "jacket": "#3a3a44",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "tophat",
+   "cap": "#1b1b1f",
+   "beard": "#6a5a4a",
+   "hair": "#6a5a4a",
+   "tie": "#2a2a30"
+  },
+  "CLA": {
+   "jacket": "#7a3a5a",
+   "pants": "#3a2a3a",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#4a3022",
+   "hairStyle": "bun"
+  },
+  "COB": {
+   "profissao": "empresario"
+  },
+  "GUA": {
+   "profissao": "soldado",
+   "hat": "cap"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "straw",
+    "bowler",
+    "hair"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "GOO:0:shock",
+    "CLA:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/stove",
+     0,
+     -1.4,
+     1.0
+    ]
+   ],
+   "text": "1839",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "Um inventor falido deixou cair uma gosma no fogão da cozinha. E mudou o mundo para sempre."
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin"
+   ],
+   "mapa": "ESTADOS UNIDOS",
+   "mapa_at": 3,
+   "say": "Era mil oitocentos e trinta e nove, nos Estados Unidos."
+  },
+  {
+   "shot": "two",
+   "light": "desert",
+   "who": [
+    "GOO:0:sad",
+    "POV:0:angry"
+   ],
+   "acao": "discutir",
+   "say": "A borracha estava na moda, mas tinha um defeito: no calor, derretia e fedia. No frio, rachava."
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "GOO:0:stern:paper",
+    "CLA:0:worried"
+   ],
+   "fx": [
+    "puff@40"
+   ],
+   "sfx": [
+    "thump@40"
+   ],
+   "say": "Charles Goodyear ficou obcecado. Misturou a borracha com tudo que encontrava, e gastou todo o dinheiro da família."
+  },
+  {
+   "shot": "two",
+   "interior": "pedra",
+   "who": [
+    "GUA:0:stern",
+    "GOO:0:sad"
+   ],
+   "interacao": "empurrar",
+   "say": "Fez tantas dívidas que foi parar na prisão. E lá dentro continuou fazendo experiências."
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "GOO:0:grin",
+    "CLA:0:suspicious"
+   ],
+   "props": [
+    [
+     "kit/stove",
+     1.6,
+     -0.8,
+     1.1
+    ]
+   ],
+   "say": "Até que um dia, mexendo numa mistura de borracha com enxofre, ele se atrapalhou."
+  },
+  {
+   "shot": "close",
+   "interior": "madeira",
+   "who": [
+    "GOO:0:shock"
+   ],
+   "props": [
+    [
+     "kit/stove",
+     1.6,
+     -0.8,
+     1.2
+    ]
+   ],
+   "fx": [
+    "puff@20",
+    "ring@40"
+   ],
+   "sfx": [
+    "thump@20",
+    "sting@40"
+   ],
+   "say": "A gosma caiu em cima do fogão quente. Ele esperava que derretesse."
+  },
+  {
+   "shot": "low",
+   "interior": "madeira",
+   "who": [
+    "GOO:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/stove",
+     -1.8,
+     -1.0,
+     1.2
+    ]
+   ],
+   "fx": [
+    "stars@20"
+   ],
+   "sfx": [
+    "ding@20"
+   ],
+   "say": "Acontece que não derreteu. Ficou firme e elástica, como couro. Tinha nascido a borracha vulcanizada.",
+   "acao": "comemorar"
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "GOO:0:laugh",
+    "CLA:0:laugh"
+   ],
+   "interacao": "abracar",
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ],
+   "say": "Ele abraçou a esposa. Finalmente a borracha aguentava calor e frio."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "COB:0:smug",
+    "GOO:0:angry"
+   ],
+   "acao": "discutir",
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "say": "Mas outros copiaram a ideia, e ele passou anos brigando na justiça. Morreu cheio de dívidas."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "POV:0:laugh",
+    "POV:1:grin",
+    "CLA:0:smile"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "props": [
+    [
+     "kit/tires",
+     -1.8,
+     -0.6,
+     1.4
+    ],
+    [
+     "kit/ball",
+     1.8,
+     -0.4,
+     1.0
+    ],
+    [
+     "kit/stove",
+     0,
+     -3.0,
+     1.4
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "PNEUS",
+   "titulo": true,
+   "say": "Décadas depois, a borracha dele estava em pneus, bolas e sapatos do mundo inteiro."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "GOO:0:smile"
+   ],
+   "props": [
+    [
+     "kit/stove",
+     1.4,
+     -0.8,
+     1.0
+    ],
+    [
+     "kit/tires",
+     -1.6,
+     -1.0,
+     1.2
+    ]
+   ],
+   "text": "GOODYEAR",
+   "say": "E uma fábrica de pneus famosa ganhou o nome dele em homenagem. Ele nunca soube."
+  }
+ ]
+}
