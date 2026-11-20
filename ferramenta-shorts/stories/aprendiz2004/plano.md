@@ -9,7 +9,7 @@ b3 | two | -  | - | vender (stars + som de sino); encena: negocio (reach) @10 (a
 b4 | two | -  | interior | encena: perde (facepalm) @4 (acao + som de efeito); encena: sai @16 (acao + som de efeito) | -
 b5 | close | -  | interior, placa: VOCÊ ESTÁ DEMITIDO! | - | -
 b6 | crowd | -  | batalha aberta com tiros, tropa, placa: 28 MILHÕES | - | -
-b7 | two | -  | - | ganhou (stars + som de sino); encena: vence (up) @1 (acao + som de efeito) | -
+b7 | two | -  | interior | ganhou (stars + som de sino); encena: vence (up) @1 (acao + som de efeito) | -
 b8 | group | -  | mapa | - | -
 b9 | two | -  | - | encena: fala (point) @1 (acao + som de efeito); encena: sai @11 (acao + som de efeito); encena: chega (point) @18 (acao + som de efeito) | -
 b10 | close | -  | - | - | -

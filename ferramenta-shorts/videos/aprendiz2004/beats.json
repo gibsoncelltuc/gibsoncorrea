@@ -90,7 +90,8 @@
     "CND:0:nervous"
    ],
    "acao": "conversar",
-   "say": "Dezesseis candidatos disputavam um prêmio raro: um emprego de verdade numa empresa de Donald Trump."
+   "say": "Dezesseis candidatos disputavam um prêmio raro: um emprego de verdade numa empresa de Donald Trump.",
+   "interior": "pedra"
   },
   {
    "shot": "two",
@@ -232,7 +233,8 @@
     ]
    ],
    "acao": "conversar",
-   "say": "Trump apresentou o programa por mais de dez anos, e só saiu em dois mil e quinze, quando entrou na política."
+   "say": "Trump apresentou o programa por mais de dez anos, e só saiu em dois mil e quinze, quando entrou na política.",
+   "set": "countryside"
   },
   {
    "shot": "close",
@@ -248,7 +250,8 @@
     ]
    ],
    "acao": "comemorar",
-   "say": "Um programa de emprego que acabou ficando famoso justamente por demitir."
+   "say": "Um programa de emprego que acabou ficando famoso justamente por demitir.",
+   "set": "street"
   }
  ],
  "heroi": "kit/tv",

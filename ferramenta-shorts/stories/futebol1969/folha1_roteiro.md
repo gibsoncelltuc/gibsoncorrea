@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Dois países entraram em guerra depois de um jogo de futebol.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: chega (point) @2 -> acao + som de efeito; encena: bola (throw) @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: bola (throw) @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1969
 - Funcao na historia: GANCHO
