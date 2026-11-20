@@ -13,7 +13,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b1  (~2.8 s)
 - Narracao: O nome dele era Não é um lança-chamas.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b2  (~2.1 s)
 - Narracao: O preço era de quinhentos dólares.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b4  (~3.4 s)
 - Narracao: Cada compra vinha com um extintor de incêndio de brinde.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@4
 - Efeito + som nas palavras-chave: incêndio -> burst + som de tiro/explosao; encena: negocio (reach) @1 -> acao + som de efeito; encena: queima (scared) @7 -> acao + som de efeito; encena: pega (lift) @9 -> acao + som de efeito
 - Efeito visual marcado: stars@4
@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b7  (~2.4 s)
 - Narracao: A notícia se espalhou pelo mundo inteiro.
-- Som ambiente: sea
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -

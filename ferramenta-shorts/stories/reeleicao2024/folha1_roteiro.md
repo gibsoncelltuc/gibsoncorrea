@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b2  (~4.8 s)
 - Narracao: Milhões de americanos foram às urnas escolher entre Trump e a vice-presidente Kamala Harris.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: voto (reach) @5 -> acao + som de efeito
 - Efeito visual marcado: -

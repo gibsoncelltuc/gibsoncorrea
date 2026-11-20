@@ -1,0 +1,1 @@
+futebol1969: brigaram/brigando (b1,b4) -> acao 'golpe' nao mostra soco (so personagens parados). Defeito do MOTOR, retido ate a principal corrigir.

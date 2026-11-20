@@ -13,7 +13,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b1 - O nome dele era Não é um lança-chamas.
-- Cenario: street | luz: golden | clima: limpo
+- Cenario: harbor | luz: golden | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): MUS (variante 0, expressao grin); CMP (variante 0, expressao surprised) | multidao: 8 de POV
@@ -23,7 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - O preço era de quinhentos dólares.
-- Cenario: street | luz: golden | clima: limpo
+- Cenario: harbor | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto
 - Personagens principais (2): MUS (variante 0, expressao smug); CMP (variante 0, expressao surprised)
@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Cada compra vinha com um extintor de incêndio de brinde.
-- Cenario: harbor | luz: golden | clima: limpo
+- Cenario: street | luz: golden | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): MUS (variante 0, expressao smile); CMP (variante 0, expressao grin) | multidao: 6 de POV
@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - A notícia se espalhou pelo mundo inteiro.
-- Cenario: harbor | luz: golden | clima: limpo
+- Cenario: outback | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto
 - Personagens principais (2): CMP (variante 0, expressao grin); MUS (variante 0, expressao smile) | multidao: 6 de POV

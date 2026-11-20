@@ -136,7 +136,8 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "detalhe": false
+   "detalhe": false,
+   "set": "street"
   },
   {
    "say": "Foram vinte mil unidades à venda.",
@@ -209,7 +210,8 @@
    },
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "set": "outback"
   },
   {
    "say": "Um produto que se chamava de tudo, menos do que parecia.",

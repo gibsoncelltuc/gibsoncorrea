@@ -106,7 +106,8 @@
     ]
    ],
    "acao": "conversar",
-   "say": "Milhões de americanos foram às urnas escolher entre Trump e a vice-presidente Kamala Harris."
+   "say": "Milhões de americanos foram às urnas escolher entre Trump e a vice-presidente Kamala Harris.",
+   "set": "street"
   },
   {
    "shot": "two",

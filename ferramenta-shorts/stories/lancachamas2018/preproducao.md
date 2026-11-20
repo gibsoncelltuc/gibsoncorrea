@@ -5,13 +5,13 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | street | two | 2 | conversar, INTERAGEM: aproxima-se | kit/marco_hollywood | - | -
-b1 | street | reveal | 10 | conversar | kit/flamethrower, kit/marco_hollywood | - | -
-b2 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/flamethrower, kit/marco_hollywood | - | -
+b1 | harbor | reveal | 10 | conversar | kit/flamethrower, kit/marco_hollywood | - | -
+b2 | harbor | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/flamethrower, kit/marco_hollywood | - | -
 b3 | outback | crowd | 14 | conversar, batalha | kit/flamethrower, kit/marco_hollywood | - | -
-b4 | harbor | wide | 8 | comemorar | kit/extinguisher, kit/marco_hollywood | - | -
+b4 | street | wide | 8 | comemorar | kit/extinguisher, kit/marco_hollywood | - | -
 b5 | countryside | group | 3 | conversar, INTERAGEM: o outro se aproxima | kit/marco_hollywood | - | -
 b6 | street | crowd | 32 | reagir, batalha | kit/marco_hollywood, nature/picket_fence | - | -
-b7 | harbor | two | 8 | conversar, INTERAGEM: insiste | kit/globe, kit/marco_hollywood | - | -
+b7 | outback | two | 8 | conversar, INTERAGEM: insiste | kit/globe, kit/marco_hollywood | - | -
 b8 | outback | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/flamethrower, kit/extinguisher, kit/marco_hollywood | - | -
 
 OBJETO HEROI: kit/flamethrower - aparece em 4 cena(s), close nele em 1
