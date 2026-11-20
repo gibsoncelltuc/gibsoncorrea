@@ -16,7 +16,8 @@
    "pants": "#f1efe6",
    "boots": "#1b1b1f",
    "hat": "helmet",
-   "rifle": true
+   "rifle": true,
+   "uniforme_fixo": true
   },
   "BUL": {
    "profissao": "soldado",
@@ -25,7 +26,8 @@
    "boots": "#1b1b1f",
    "hat": "cap",
    "cap": "#2a7a3a",
-   "rifle": true
+   "rifle": true,
+   "uniforme_fixo": true
   },
   "PRE": {
    "profissao": "politico",
@@ -67,8 +69,8 @@
    "animals": [
     [
      "dog",
-     -2.4,
-     1.2
+     0.9,
+     1.4
     ]
    ],
    "detalhe": true,

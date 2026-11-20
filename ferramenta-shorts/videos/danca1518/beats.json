@@ -119,23 +119,20 @@
    "acao": "nenhuma"
   },
   {
-   "shot": "group",
+   "shot": "reveal",
    "who": [
-    "MUS:0:grin:flag",
-    "MUS:1:laugh",
-    "PRE:0:grin"
+    "MUS:0:grin",
+    "MUS:1:laugh"
    ],
-   "text": "PALCO",
-   "say": "Acontece que a cidade levou isso a sério. Construiu um palco, e contratou músicos para animar a multidão.",
-   "props": [
-    [
-     "kit/podium",
-     1.6,
-     -0.8,
-     1.2
-    ]
-   ],
-   "detalhe": true
+   "say": "Acontece que a cidade levou isso a sério. Contratou músicos com tambores, para animar a multidão.",
+   "crowd": {
+    "n": 14,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "laugh"
+   }
   },
   {
    "shot": "orbit",
@@ -191,5 +188,6 @@
    "acao": "nenhuma"
   }
  ],
- "heroi": "kit/podium"
+ "heroi": "war/drum",
+ "regiao": "europa"
 }

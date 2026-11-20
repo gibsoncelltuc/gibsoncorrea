@@ -52,14 +52,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): medicos, prefeito, remedio
 - RISCOS: nenhum
 
-## Cena b5 - Acontece que a cidade levou isso a sério. Construiu um palco, e contra...
+## Cena b5 - Acontece que a cidade levou isso a sério. Contratou músicos com tambor...
 - Cenario: street | luz: day | clima: limpo
 - Camera: low = camera baixa, dramatica (virada) + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (3): MUS (variante 0, expressao grin, segura flag); MUS (variante 1, expressao laugh); PRE (variante 0, expressao grin) | multidao: 30 de POV
+- Personagens principais (2): MUS (variante 0, expressao grin); MUS (variante 1, expressao laugh) | multidao: 30 de POV
 - Animacao: conversar | interacao: discutir
-- Objetos/modelos: kit/podium, kit/marco_viena, buildings/house_two, nature/lamppost
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, multidao, palco, serio
+- Objetos/modelos: kit/marco_viena, war/drum, buildings/house_two, nature/lamppost
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, multidao, serio, tambores
 - RISCOS: nenhum
 
 ## Cena b6 - Foi a pior ideia possível. Com música, mais gente entrou na dança, e m...
@@ -111,13 +111,13 @@ kit/marco_viena | b0, b1, b2, b3, b5, b6, b8, b9 | pronto | conferir na folha de
 buildings/house_small | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/podium | b5 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+war/drum | b5 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/podium | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 20% | medio 61% | aberto 14% | detalhe 5%
+- Objeto heroi: war/drum | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 20% | medio 62% | aberto 14% | detalhe 5%
 - Interacoes: b0 susto, b2 aproxima-se, b4 avanca e o outro recua, b5 discutir, b7 o outro se aproxima
 - RISCOS GERAIS: nenhum
 
