@@ -156,13 +156,12 @@
    ]
   },
   {
-   "shot": "two",
+   "shot": "crowd",
    "set": "countryside",
    "who": [
     "AME:0:shout",
     "CAN:0:angry"
    ],
-   "interacao": "empurrar",
    "say": "\"Essa árvore é minha!\", gritou um lenhador, e logo os dois lados começaram a brigar.",
    "fachada": false,
    "props": [
@@ -184,11 +183,22 @@
      -9.0,
      1.8
     ]
-   ]
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 16,
+    "outfits": [
+     "AME",
+     "CAN"
+    ],
+    "march": true,
+    "expr": "angry"
+   }
   },
   {
    "shot": "crowd",
-   "set": "street",
+   "set": "mountain",
    "who": [
     "MIL:0:angry",
     "ING:0:angry"
@@ -220,7 +230,7 @@
   },
   {
    "shot": "two",
-   "set": "palace",
+   "set": "mountain",
    "who": [
     "GEN:0:stern",
     "MIL:0:nervous"
@@ -292,5 +302,6 @@
    ],
    "fachada": false
   }
- ]
+ ],
+ "regiao": "europa"
 }
