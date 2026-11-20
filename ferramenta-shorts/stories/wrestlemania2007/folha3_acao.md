@@ -49,7 +49,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | ATUACAO | comemorar | OK |
 | 2 | - | PLACA | 80 MIL | OK |
 
-## Cena b5 - 29.9s a 35.1s - 16 palavras - plano two
+## Cena b5 - 29.9s a 35.1s - 16 palavras - plano group
 > "No ringue, o lutador de Trump, Bobby Lashley, enfrentou o gigante Umaga, do lado de McMahon."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

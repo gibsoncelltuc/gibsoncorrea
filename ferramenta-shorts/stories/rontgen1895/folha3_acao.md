@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 11 - O Raio X de Röntgen
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.3s - 16 palavras - plano two
@@ -76,9 +76,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | ATUACAO | reagir | OK |
-| 3 | - | PLACA | NOTÍCIA | OK |
+| 1 | - | ATUACAO | reagir | OK |
+| 2 | - | PLACA | NOTÍCIA | OK |
 
 ## Cena b9 - 45.9s a 49.4s - 14 palavras - plano two
 > "Como ninguém sabia o que era, ele chamou de raio X. X, de desconhecido."
@@ -97,9 +96,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | ganhou (52.3s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | ganhou (52.3s) | ACAO: vence | bracos para cima + brilho | OK |
 | 3 | Prêmio (53.3s) | EFEITO: stars | estrelinhas + som | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | ATUACAO | comemorar | OK |
-| 6 | - | PLACA | NOBEL | OK |
+| 4 | - | ATUACAO | comemorar | OK |
+| 5 | - | PLACA | NOBEL | OK |
 
 ## Cena b11 - 55.6s a 59.6s - 13 palavras - plano two
 > "E nunca quis patentear a descoberta. O raio X era de todo mundo."
