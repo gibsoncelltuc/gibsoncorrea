@@ -447,7 +447,7 @@ ENC = [(r'^(misturou|misturaram|misturando|mistura|misturar|mexeu|mexendo|mexia|
        (r'^(chorou|choraram|chorando|chorava|lagrimas|soluco|solucou)$', 'facepalm', 'x_chora'),
        (r'^(cantou|cantaram|cantando|cantava|cantavam|musica|hino|cancao)$', 'up', 'x_canta'),
        (r'^(leu|leram|lendo|lia|liam|ler|jornal|carta|livro)$', 'think', 'x_le'),
-       (r'^(telefonou|ligou|ligaram|ligando|telefone|celular|mensagem|twittou|postou|publicou|tuitou)$', 'lift', 'x_fone'),
+       (r'^(telefonou|ligou|ligaram|ligando|telefone|celular|mensagem|twittou|postou|publicou|tuitou|redes|internet)$', 'lift', 'x_fone'),
        (r'^(lavou|lavaram|lavar|lavando|limpou|limparam|esfregou)$', 'stir', 'x_lava'),
        (r'^(beijou|beijaram|beijo)$', None, 'x_beija'),
        (r'^(plantou|plantaram|plantar|plantando|semeou|regou|regaram|colheu|colheram|colheita)$', 'hammer', 'x_planta'),

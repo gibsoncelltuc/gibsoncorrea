@@ -23,17 +23,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Normalmente, a parte de baixo de um foguete é descartada, ou pousa sob...
-- Cenario: interior loja | luz: day | clima: limpo
+- Cenario: outback | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): ENG (variante 0, expressao worried, segura paper); MUS (variante 0, expressao suspicious)
 - Animacao: discutir | interacao: discutir
-- Objetos/modelos: kit/booster_air
+- Objetos/modelos: kit/booster_air, kit/tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): baixo, foguete
 - RISCOS: nenhum
 
 ## Cena b3 - A ideia de Musk: tirar as pernas do foguete, e fazer a própria torre d...
-- Cenario: interior loja | luz: day | clima: limpo
+- Cenario: outback | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): MUS (variante 0, expressao smug); ENA (variante 0, expressao shock)
@@ -43,12 +43,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Os engenheiros apelidaram os braços de pauzinhos, como os de comida ja...
-- Cenario: interior loja | luz: day | clima: limpo
+- Cenario: outback | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): ENA (variante 0, expressao laugh); ENG (variante 0, expressao grin)
 - Animacao: conversar | interacao: aproxima-se
-- Objetos/modelos: kit/tower
+- Objetos/modelos: kit/tower_catch, kit/tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bracos, comida, engenheiros, mechazilla, pauzinhos, torre
 - RISCOS: nenhum
 
@@ -103,7 +103,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b10 - Assim, o propulsor que antes ia para o lixo pode ser usado de novo, vá...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: outback | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): ENA (variante 0, expressao smile, segura paper); ENG (variante 0, expressao grin)
@@ -128,8 +128,8 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/tower_mini | b0, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/tower_catch | b0, b7, b8, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/tower | b0, b1, b3, b4, b6, b7, b8, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/tower_catch | b0, b4, b7, b8, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/tower | b0, b1, b2, b3, b4, b6, b7, b8, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/booster_air | b2, b5, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 

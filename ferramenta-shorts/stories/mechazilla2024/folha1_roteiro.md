@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b2  (~6.6 s)
 - Narracao: Normalmente, a parte de baixo de um foguete é descartada, ou pousa sobre pernas. Isso custa caro, e pesa.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b3  (~7.2 s)
 - Narracao: A ideia de Musk: tirar as pernas do foguete, e fazer a própria torre de lançamento agarrar o propulsor na volta.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: sting@40
 - Efeito + som nas palavras-chave: encena: pensa (think) @1 -> acao + som de efeito; encena: tira (lift) @4 -> acao + som de efeito
 - Efeito visual marcado: ring@40
@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b4  (~5.9 s)
 - Narracao: Os engenheiros apelidaram os braços de pauzinhos, como os de comida japonesa. E a torre, de Mechazilla.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -87,14 +87,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Musk comemorou nas redes sociais: a torre tinha pegado o foguete.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; encena: vence (up) @1 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; encena: vence (up) @1 -> acao + som de efeito; encena: x_fone (lift) @3 -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b10  (~5.5 s)
 - Narracao: Assim, o propulsor que antes ia para o lixo pode ser usado de novo, várias vezes.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -

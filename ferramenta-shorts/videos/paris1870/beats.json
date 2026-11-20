@@ -157,5 +157,6 @@
    "mood": "calm"
   }
  ],
- "heroi": "kit/panela"
+ "heroi": "kit/panela",
+ "exp": 1.0
 }

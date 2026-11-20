@@ -6,15 +6,15 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | harbor | two | 2 | conversar, INTERAGEM: entregar | kit/tower_mini, kit/tower_catch, kit/tower | - | -
 b1 | harbor | reveal | 8 | parados (so fala e pisca) | kit/tower | - | -
-b2 | interior loja | two | 2 | discutir, INTERAGEM: discutir | kit/booster_air | paper | -
-b3 | interior loja | two | 2 | conversar, INTERAGEM: entregar | kit/tower | - | -
-b4 | interior loja | two | 2 | conversar, INTERAGEM: aproxima-se | kit/tower | - | -
+b2 | outback | two | 2 | discutir, INTERAGEM: discutir | kit/booster_air, kit/tower | paper | -
+b3 | outback | two | 2 | conversar, INTERAGEM: entregar | kit/tower | - | -
+b4 | outback | two | 2 | conversar, INTERAGEM: aproxima-se | kit/tower_catch, kit/tower | - | -
 b5 | harbor | crowd | 21 | encena, batalha | kit/booster_air | - | -
 b6 | harbor | reveal | 1 | reagir | kit/booster_air, kit/tower | - | -
 b7 | harbor | low | 2 | conversar, INTERAGEM: susto | kit/tower_catch, kit/tower | - | -
 b8 | outback | orbit | 23 | comemorar, batalha | kit/tower_catch, kit/tower | - | -
 b9 | interior True | two | 2 | comemorar, INTERAGEM: abracar | - | - | -
-b10 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/tower_catch, kit/tower | paper | -
+b10 | outback | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/tower_catch, kit/tower | paper | -
 b11 | harbor | close | 1 | comemorar | kit/tower_catch, kit/tower_mini, kit/tower | - | -
 
 OBJETO HEROI: kit/tower_mini - aparece em 2 cena(s), close nele em 1
