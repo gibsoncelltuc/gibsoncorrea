@@ -35,14 +35,15 @@
  "beats": [
   {
    "say": "Em mil oitocentos e setenta, a Prússia cercou Paris. Ninguém entrava, ninguém saía, e a comida acabou.",
-   "shot": "wide",
+   "shot": "group",
    "who": [
     "PAR:0:nervous",
     "PAR:1:pained"
    ],
    "text": "1870",
    "tat": 0,
-   "tstyle": "blue"
+   "tstyle": "blue",
+   "detalhe": false
   },
   {
    "say": "Primeiro, os parisienses comeram os cavalos. Depois, os cachorros e os gatos.",
@@ -97,17 +98,52 @@
     "PAR:1:nervous",
     "PAR:3:nervous"
    ],
-   "mood": "tense"
+   "mood": "tense",
+   "impact": true,
+   "batalha": false,
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "surprised"
+   },
+   "animals": [
+    [
+     "elephant",
+     2.5,
+     -4.0
+    ],
+    [
+     "elephant",
+     -2.5,
+     -5.0
+    ]
+   ],
+   "fx": [
+    "ring@20"
+   ],
+   "sfx": [
+    "sting@20"
+   ]
   },
   {
    "say": "O açougueiro comprou dois elefantes, Castor e Pólux, e vendeu a carne em pedaços.",
-   "shot": "close",
+   "shot": "two",
    "who": [
     "BUT:0:grin"
    ],
    "text": "CASTOR E PÓLUX",
    "tat": 6,
-   "tstyle": "gold"
+   "tstyle": "gold",
+   "interior": false,
+   "set": "street",
+   "detalhe": false,
+   "titulo": true,
+   "animais": false,
+   "riscos_ok": true,
+   "_nota": "20/11: elefante 3D em cena de 1 pessoa puxa o enquadramento e o acougueiro some; os dois elefantes aparecem na b3 (zoologico) logo antes e o letreiro CASTOR E POLUX nomeia os dois"
   },
   {
    "say": "No Natal, um restaurante famoso serviu consomê de elefante, dromedário assado e ensopado de canguru.",
@@ -116,11 +152,21 @@
     "CHF:0:grin",
     "PAR:2:shock"
    ],
-   "text": "NATAL DE 1870",
-   "tat": 3,
-   "tstyle": "brown",
    "mood": "playful",
-   "interior": false
+   "interior": "loja",
+   "props": [
+    [
+     "kit/panela",
+     0.0,
+     -1.2,
+     1.2
+    ]
+   ],
+   "detalhe": true,
+   "impact": false,
+   "shot_lock": true,
+   "animais": false,
+   "riscos_ok": true
   },
   {
    "say": "Tinha até gato com roedores, e pernil de lobo.",

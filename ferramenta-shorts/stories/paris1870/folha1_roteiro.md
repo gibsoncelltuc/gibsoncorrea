@@ -13,16 +13,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b1  (~4.1 s)
 - Narracao: Primeiro, os parisienses comeram os cavalos. Depois, os cachorros e os gatos.
-- Som ambiente: sea
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (POV) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: CAVALOS, CÃES, GATOS
 - Funcao na historia: desenvolvimento
 
 ## Cena b2  (~2.8 s)
 - Narracao: Depois, os roedores, que viraram um prato chique.
-- Som ambiente: sea
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -32,9 +32,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 ## Cena b3  (~3.1 s)
 - Narracao: Quando acabou tudo, olharam para o zoológico da cidade.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: sting@10, thump@40
+- Efeitos sonoros marcados: sting@20
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: ring@12, dust@40
+- Efeito visual marcado: ring@20
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
@@ -49,16 +49,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b5  (~5.2 s)
 - Narracao: No Natal, um restaurante famoso serviu consomê de elefante, dromedário assado e ensopado de canguru.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: NATAL DE 1870
-- Funcao na historia: GRANDE MOMENTO
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
 
 ## Cena b6  (~3.1 s)
 - Narracao: Tinha até gato com roedores, e pernil de lobo.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -67,12 +67,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b7  (~3.1 s)
 - Narracao: Para mandar notícias, os parisienses usavam balões e pombos-correio.
-- Som ambiente: birds
-- Efeitos sonoros marcados: -
+- Som ambiente: sea | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
+- Efeito visual marcado: ring@12, dust@40
 - Texto na tela: BALÕES E POMBOS
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b8  (~6.6 s)
 - Narracao: O cerco acabou em janeiro de mil oitocentos e setenta e um, e Paris se rendeu, de barriga vazia.
