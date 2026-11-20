@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 20 - A Piada que Virou Tequila
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.5s - 20 palavras - plano two
@@ -75,9 +75,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | ATUACAO | comemorar | OK |
-| 3 | - | PLACA | ESGOTOU | OK |
+| 1 | - | ATUACAO | comemorar | OK |
+| 2 | - | PLACA | ESGOTOU | OK |
 
 ## Cena b8 - 50.1s a 55.6s - 13 palavras - plano two
 > "Logo apareceu gente revendendo na internet. Até garrafas vazias, por centenas de dólares."
@@ -103,9 +102,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | ATUACAO | comemorar | OK |
-| 3 | - | PLACA | COLEÇÃO | OK |
+| 1 | - | ATUACAO | comemorar | OK |
+| 2 | - | PLACA | COLEÇÃO | OK |
 
 ## Cena b11 - 66.5s a 69.4s - 12 palavras - plano close
 > "Uma piada do dia da mentira que terminou numa prateleira de verdade."

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 20 - As Abelhas que Dançam um Mapa
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 40 acoes catalogadas, 40 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.0s - 15 palavras - plano two
@@ -89,9 +89,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | ATUACAO | reagir | OK |
-| 3 | - | PLACA | TESTE | OK |
+| 1 | - | ATUACAO | reagir | OK |
+| 2 | - | PLACA | TESTE | OK |
 
 ## Cena b10 - 59.6s a 63.0s - 14 palavras - plano orbit
 > "Em mil novecentos e setenta e três, já idoso, ele ganhou o Prêmio Nobel."
@@ -101,9 +100,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | ganhou (62.4s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | ganhou (62.4s) | ACAO: vence | bracos para cima + brilho | OK |
 | 3 | Prêmio (62.9s) | EFEITO: stars | estrelinhas + som | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | ATUACAO | comemorar | OK |
-| 6 | - | PLACA | NOBEL | OK |
+| 4 | - | ATUACAO | comemorar | OK |
+| 5 | - | PLACA | NOBEL | OK |
 
 ## Cena b11 - 64.1s a 68.7s - 16 palavras - plano close
 > "Então, da próxima vez que vir uma abelha, lembre: ela pode estar contando um segredo dançando."
