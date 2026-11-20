@@ -13,7 +13,7 @@ git add -A >/dev/null 2>&1; git commit -qm "ckpt antes do sync automatico da fer
 if ! git merge --no-edit -X theirs FETCH_HEAD >/dev/null 2>&1; then git merge --abort 2>/dev/null; echo "$(date +%T) MERGE FALHOU: resolver na mao"; exit 1; fi
 cd ferramenta-shorts; cat web/toonbase.js web/roman.js web/pig2d.js web/animals2d.js > web/toon.js
 N=0
-for id in $(grep -v '^#' queue.txt 2>/dev/null); do
+for id in $(grep -v '^#' "$(bash qfile.sh)" 2>/dev/null); do
   [ -f stories/$id/DONE ] && continue; [ -f videos/$id/beats.json ] || continue
   pgrep -af "make_video.sh $id\$" >/dev/null && continue
   python3 mkvideo.py $id > /dev/null 2>&1 || { echo "$(date +%T) $id: mkvideo falhou"; continue; }
