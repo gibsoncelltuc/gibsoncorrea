@@ -89,7 +89,8 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "acao": "conversar"
+   "acao": "conversar",
+   "set": "mountain"
   },
   {
    "say": "O nome dizia que não era, mas o aparelho tinha cara de lança-chamas, e essa era a piada.",
