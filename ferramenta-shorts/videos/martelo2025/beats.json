@@ -256,13 +256,31 @@
    "tiros": false
   },
   {
+   "shot": "reveal",
+   "set": "countryside",
+   "hora": "dia",
+   "who": [
+    "PIL:0:smile",
+    "GEN:0:grin"
+   ],
+   "say": "Todos os aviões voltaram para casa.",
+   "props": [
+    [
+     "kit/b2_air",
+     1.5,
+     -9.0,
+     1.5
+    ]
+   ]
+  },
+  {
    "shot": "two",
    "interior": "pedra",
    "who": [
     "TRU:0:smug",
     "GEN:0:grin:paper"
    ],
-   "say": "Todos os aviões voltaram para casa. Trump disse que as usinas foram destruídas.",
+   "say": "Trump disse que as usinas foram destruídas.",
    "acao": "conversar",
    "hora": "dia",
    "light": "study"

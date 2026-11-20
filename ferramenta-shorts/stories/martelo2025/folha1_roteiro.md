@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 23 - O Martelo da Meia-Noite
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain | 12 cenas, 173 palavras (~60 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain | 13 cenas, 173 palavras (~60 s)
 
 ## Cena b0  (~7.2 s)
 - Narracao: Para destruir um bunker escondido dentro de uma montanha, os Estados Unidos usaram uma bomba que nunca tinha saído do papel.
@@ -83,16 +83,25 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Texto na tela: SUBMARINO
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~4.5 s)
-- Narracao: Todos os aviões voltaram para casa. Trump disse que as usinas foram destruídas.
-- Som ambiente: silencio/sala
+## Cena b9  (~2.1 s)
+- Narracao: Todos os aviões voltaram para casa.
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: voltam para casa (saem andando) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b10  (~2.8 s)
+## Cena b10  (~2.4 s)
+- Narracao: Trump disse que as usinas foram destruídas.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b11  (~2.8 s)
 - Narracao: Avaliações posteriores discutiram o tamanho real do estrago.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
@@ -101,7 +110,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Texto na tela: FORDOW
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b11  (~4.8 s)
+## Cena b12  (~4.8 s)
 - Narracao: Foi a primeira vez na história que essa bomba gigante foi usada de verdade.
 - Som ambiente: birds
 - Efeitos sonoros marcados: cannon@40

@@ -92,18 +92,27 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): submarino, terceira
 - RISCOS: nenhum
 
-## Cena b9 - Todos os aviões voltaram para casa. Trump disse que as usinas foram de...
-- Cenario: hall | luz: dia | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): TRU (variante 0, expressao smug); GEN (variante 0, expressao grin, segura paper)
+## Cena b9 - Todos os aviões voltaram para casa.
+- Cenario: countryside | luz: dia | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto
+- Personagens principais (2): PIL (variante 0, expressao smile); GEN (variante 0, expressao grin)
 - Animacao: conversar | interacao: vai ate o outro
-- Objetos/modelos: vehicles/airplane, buildings/house_small, nature/picket_fence, nature/tree_oak
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): avioes, usinas
-- RISCOS: 
-  - veiculo citado e nao aparece -> CORRECAO: "veiculo": {"asset": "vehicles/truck"} (ou wagon, locomotive, car, tank, airplane) ou "caminhoes": true na batalha
+- Objetos/modelos: kit/b2_air, kit/marco_mesquita, vehicles/airplane, buildings/house_small, nature/picket_fence, nature/tree_oak
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): avioes
+- RISCOS: nenhum
 
-## Cena b10 - Avaliações posteriores discutiram o tamanho real do estrago.
+## Cena b10 - Trump disse que as usinas foram destruídas.
+- Cenario: interior pedra | luz: dia | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto
+- Personagens principais (2): TRU (variante 0, expressao smug); GEN (variante 0, expressao grin, segura paper)
+- Animacao: conversar | interacao: aproxima-se
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): usinas
+- RISCOS: nenhum
+
+## Cena b11 - Avaliações posteriores discutiram o tamanho real do estrago.
 - Cenario: mountain | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
@@ -113,7 +122,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estrago, tamanho
 - RISCOS: nenhum
 
-## Cena b11 - Foi a primeira vez na história que essa bomba gigante foi usada de ver...
+## Cena b12 - Foi a primeira vez na história que essa bomba gigante foi usada de ver...
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
@@ -128,10 +137,10 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/bunker_bomb | b0, b3, b7, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/b2_air | b0, b3, b5, b6, b7, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_mesquita | b0, b1, b2, b3, b5, b6, b7, b8, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/mountain_bunker | b1, b2, b7, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/bunker_bomb | b0, b3, b7, b12 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/b2_air | b0, b3, b5, b6, b7, b9, b12 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_mesquita | b0, b1, b2, b3, b5, b6, b7, b8, b9, b11, b12 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/mountain_bunker | b1, b2, b7, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 vehicles/airplane | b3, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_small | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -139,12 +148,11 @@ nature/tree_oak | b9 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/bunker_bomb | grandes momentos: b5, b10 | planos abertos: 3 | mistura: close 29% | medio 52% | aberto 11% | detalhe 9%
-- Interacoes: b0 o outro se aproxima, b2 discutir, b4 entregar, b6 cochichar, b8 insiste, b9 vai ate o outro
+- Objeto heroi: kit/bunker_bomb | grandes momentos: b5, b11 | planos abertos: 3 | mistura: close 29% | medio 52% | aberto 11% | detalhe 9%
+- Interacoes: b0 o outro se aproxima, b2 discutir, b4 entregar, b6 cochichar, b8 insiste, b9 vai ate o outro, b10 aproxima-se
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- b9: veiculo citado e nao aparece
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh martelo2025 bN bM` (so essas cenas).

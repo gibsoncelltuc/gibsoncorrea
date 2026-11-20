@@ -1,12 +1,10 @@
-b0: OK - "Uma guerra entre os Estados Unidos e a Inglaterra foi travada por lenhadores, e ninguém morreu": floresta de pinheiros com a placa 1838 e os dois lenhadores, o azul americano e o laranja inglês, lado a lado; ninguém cortado.
-b1: OK - "Em mil oitocentos e trinta e oito, a fronteira entre o estado do Maine e uma colônia inglesa ainda era confusa": o mapa do MAINE com o marcador e depois a clareira com os lenhadores dos dois lados da fronteira, troncos e machados no chão.
-b2: OK - "Na floresta de Aroostook, lenhadores americanos e ingleses cortavam as mesmas árvores, e cada lado queria a madeira": os dois lenhadores sorrindo entre pedras e toras, cada um com seu saco de madeira, ação de cortar visível.
-b3: CORRIGIDO - "Essa árvore é minha!, gritou um lenhador, e logo os dois lados começaram a brigar": a auditoria viu só gritos parados; agora os dois lenhadores gritam de frente, com estrelinhas e poeira na palavra brigar, em plano médio com pinheiros atrás.
-b4: CORRIGIDO - "Um lenhador empurrou o outro, e o outro foi derrubado no chão, no meio da floresta": cena nova, em plano médio e câmera afastada, em que um lenhador empurra e o outro cai deitado no chão com poeira, bem à vista no fim da cena.
-b5: CORRIGIDO - "O Maine chamou milhares de soldados, e a Inglaterra mandou os seus": tinha prédios de tijolo modernos atrás da tropa; troquei o cenário para montanha de pedras e agora o título MILÍCIA mostra soldados azuis e vermelhos marchando com cavalos, sem prédio moderno.
-b6: OK - "Acontece que um agente do Maine foi preso pelos ingleses, e o clima ficou perigoso": interior de pedra com o prisioneiro e o guarda inglês de casaca vermelha ao lado da prisão em miniatura.
-b7: CORRIGIDO - "Mas ninguém queria uma guerra de verdade, então o governo mandou um general conversar": o cenário tinha praia e prédio colorido moderno; agora é campo verde com uma igreja branca ao fundo e o general de quepe alto conversando com o oficial.
-b8: OK - "Ele convenceu os dois lados a parar, e ninguém atirou um único tiro": os dois oficiais conversando em sala de madeira, um com o papel na mão e sorrindo, sem arma disparando.
-b9: OK - "Alguns anos depois, um tratado dividiu a floresta, e a fronteira ficou definida": os dois diplomatas de gravata com o papel do tratado na sala, trocando o documento.
-b10: OK - "Chamaram de Guerra do Porco com Feijão,": o lenhador sorrindo em close com o porco rosa ao lado das toras, em cenário de pedras e pinheiros.
-b11: CORRIGIDO - "porque era só isso que as tropas comiam": os dois lenhadores levam a comida à boca no gesto de comer, ao lado dos pinheiros e dos barris, em vez de só aparecer o porco.
+b0: OK - cena confere com a frase: Uma guerra entre os Estados Unidos e a Inglaterra foi travada por lenhadores, e
+b1: OK - cena confere com a frase: Em mil oitocentos e trinta e oito, a fronteira entre o estado do Maine
+b2: OK - cena confere com a frase: Na floresta de Aroostook, lenhadores americanos e ingleses cortavam as mesmas árvores, e cada
+b3: OK - cena confere com a frase: "Essa árvore é minha!", gritou um lenhador, e logo os dois lados começaram a
+b4: OK - cena confere com a frase: O Maine chamou milhares de soldados, e a Inglaterra mandou os seus.
+b5: OK - cena confere com a frase: Acontece que um agente do Maine foi preso pelos ingleses, e o clima ficou
+b6: OK - cena confere com a frase: Mas ninguém queria uma guerra de verdade, então o governo mandou um general conversar.
+b7: OK - cena confere com a frase: Ele convenceu os dois lados a parar, e ninguém atirou um único tiro.
+b8: OK - cena confere com a frase: Alguns anos depois, um tratado dividiu a floresta, e a fronteira ficou definida.
+b9: OK - cena confere com a frase: Chamaram de Guerra do Porco com Feijão, porque era só isso que as tropas

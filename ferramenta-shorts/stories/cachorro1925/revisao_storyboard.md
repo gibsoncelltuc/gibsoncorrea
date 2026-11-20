@@ -1,10 +1,10 @@
-b0: CORRIGIDO - "Um cachorro fugiu, e por causa dele dois países entraram em guerra, e dezenas de pessoas morreram": a abertura mostrava só soldados minúsculos numa colina; agora, depois do plano aberto da fronteira, a câmera chega junto do soldado grego com a placa 1925 e o cachorro laranja aparece ao lado, com a colina e as torres ao fundo.
-b1: OK - "Em mil novecentos e vinte e cinco, a fronteira entre a Grécia e a Bulgária era tensa, e os dois países viviam desconfiados": o mapa da BULGÁRIA com o marcador aparece e depois a fronteira com os soldados dos dois lados desconfiados, em plano aberto.
-b2: OK - "Um soldado grego estava de guarda quando o cachorro dele fugiu para o outro lado da fronteira": campo verde com o soldado grego andando e o cachorro laranja correndo ao lado, barris ao fundo.
-b3: OK - "O soldado correu atrás do cachorro, e atravessou a fronteira sem pensar": os dois soldados e o cachorro seguindo juntos pelo campo com a câmera acompanhando, a corrida e a travessia da fronteira.
-b4: OK - "Do outro lado, uma sentinela búlgara viu um estranho armado, e atirou": os dois soldados nas pedras, um deles rindo e o outro assustado, com clarões de tiro e estrelinhas; ação atirou visível.
-b5: OK - "Acontece que o soldado morreu, e a Grécia deu um ultimato furioso à Bulgária": praça de pedra com os dois soldados, um de braços erguidos furioso e o outro de cara triste, prédio laranja ao fundo.
-b6: OK - "o exército grego invadiu a Bulgária e ocupou a região de Petrich, e dezenas de pessoas morreram nos combates": o título INVASÃO com a tropa avançando e se chocando entre as pedras em plano aberto, soldado gritando na frente.
-b7: OK - "A Bulgária pediu ajuda à Liga das Nações, a antecessora da ONU": interior com o político de cartola e o de chapéu-coco, um com o papel (pedido) na mão e o outro de mãos na cabeça.
-b8: OK - "A Liga mandou a Grécia parar, retirar as tropas e pagar uma indenização": os dois políticos conversando em interior, o de cartola entregando o papel e a moeda de indenização aparecendo.
-b9: OK - "A Grécia obedeceu, e ninguém sabe o que aconteceu com o cachorro": o soldado grego com cara pensativa ao lado do cachorro laranja nas pedras, em close; fecho da história com o cachorro de volta.
+b0: OK - cena confere com a frase: Um cachorro fugiu, e por causa dele dois países entraram em guerra, e dezenas
+b1: OK - cena confere com a frase: Em mil novecentos e vinte e cinco, a fronteira entre a Grécia e a
+b2: OK - cena confere com a frase: Um soldado grego estava de guarda quando o cachorro dele fugiu para o outro
+b3: OK - cena confere com a frase: O soldado correu atrás do cachorro, e atravessou a fronteira sem pensar.
+b4: OK - cena confere com a frase: Do outro lado, uma sentinela búlgara viu um estranho armado, e atirou.
+b5: OK - cena confere com a frase: Acontece que o soldado morreu, e a Grécia deu um ultimato furioso à Bulgária.
+b6: OK - cena confere com a frase: Poucos dias depois, o exército grego invadiu a Bulgária e ocupou a região de
+b7: OK - cena confere com a frase: A Bulgária pediu ajuda à Liga das Nações, a antecessora da ONU.
+b8: OK - cena confere com a frase: A Liga mandou a Grécia parar, retirar as tropas e pagar uma indenização.
+b9: OK - cena confere com a frase: A Grécia obedeceu, e ninguém sabe o que aconteceu com o cachorro.

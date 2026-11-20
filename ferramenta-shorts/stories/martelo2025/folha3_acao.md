@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 23 - O Martelo da Meia-Noite
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 13 frases, 40 acoes catalogadas, 40 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.0s - 21 palavras - plano two
@@ -88,8 +88,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | ATUACAO | reagir | OK |
 | 5 | - | PLACA | SUBMARINO | OK |
 
-## Cena b9 - 55.6s a 59.8s - 13 palavras - plano two
-> "Todos os aviões voltaram para casa. Trump disse que as usinas foram destruídas."
+## Cena b9 - 55.6s a 57.0s - 6 palavras - plano group
+> "Todos os aviões voltaram para casa."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -97,7 +97,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 61.2s a 63.9s - 8 palavras - plano orbit
+## Cena b10 - 58.2s a 59.8s - 7 palavras - plano two
+> "Trump disse que as usinas foram destruídas."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | aproxima-se | OK |
+| 2 | - | ATUACAO | conversar | OK |
+
+## Cena b11 - 61.2s a 63.9s - 8 palavras - plano orbit
 > "Avaliações posteriores discutiram o tamanho real do estrago."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -105,7 +113,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | FORDOW | OK |
 
-## Cena b11 - 65.3s a 68.3s - 14 palavras - plano close
+## Cena b12 - 65.3s a 68.3s - 14 palavras - plano close
 > "Foi a primeira vez na história que essa bomba gigante foi usada de verdade."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
