@@ -70,7 +70,8 @@
     "ding@30"
    ],
    "say": "Durante sessenta anos, todo foguete era jogado fora depois de um voo. Até que um deles voltou e pousou de ré.",
-   "fachada": false
+   "fachada": false,
+   "set": "harbor"
   },
   {
    "shot": "reveal",
@@ -81,7 +82,8 @@
    "mapa": "ESTADOS UNIDOS",
    "mapa_at": 3,
    "say": "Foi em dezembro de dois mil e quinze, no Cabo Canaveral, na Flórida.",
-   "fachada": false
+   "fachada": false,
+   "set": "outback"
   },
   {
    "shot": "two",
@@ -99,7 +101,8 @@
      1.1
     ]
    ],
-   "fachada": false
+   "fachada": false,
+   "set": "countryside"
   },
   {
    "shot": "two",
@@ -136,7 +139,7 @@
    "interacao": "entregar",
    "say": "Mas a equipe insistiu. Em vinte e um de dezembro, o Falcon nove decolou levando satélites.",
    "fachada": false,
-   "set": "harbor",
+   "set": "countryside",
    "interior": false
   },
   {
@@ -173,7 +176,8 @@
     "thump@40"
    ],
    "say": "Depois de soltar a parte de cima, a parte de baixo virou no céu, e começou a voltar para a Terra.",
-   "fachada": false
+   "fachada": false,
+   "set": "harbor"
   },
   {
    "shot": "low",
@@ -262,8 +266,9 @@
    ],
    "text": "POUSOU!",
    "titulo": true,
-   "say": "Os funcionários da SpaceX gritaram como em final de Copa do Mundo.",
-   "fachada": false
+   "say": "Os funcionários da SpaceX gritaram de alegria, como numa final de campeonato.",
+   "fachada": false,
+   "set": "countryside"
   },
   {
    "shot": "two",
@@ -282,7 +287,8 @@
      0.5
     ]
    ],
-   "detalhe": true
+   "detalhe": true,
+   "interior": "loja"
   },
   {
    "shot": "close",
@@ -299,7 +305,8 @@
    ],
    "acao": "comemorar",
    "say": "Hoje, os foguetes da SpaceX pousam quase toda semana. E a viagem ao espaço ficou muito mais barata.",
-   "fachada": false
+   "fachada": false,
+   "set": "harbor"
   }
  ],
  "fontes": [
