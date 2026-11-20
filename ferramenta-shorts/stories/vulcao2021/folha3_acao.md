@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 17 - Bitcoin Feito com Vulcão
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.1s - 15 palavras - plano two
@@ -78,9 +78,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | comemorou (45.0s) | ACAO: vence | bracos para cima + brilho | OK |
-| 2 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 3 | - | ATUACAO | comemorar | OK |
-| 4 | - | PLACA | VULCÃO | OK |
+| 2 | redes (45.8s) | ACAO: x_fone | celular na mao + toque | OK |
+| 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 4 | - | ATUACAO | comemorar | OK |
+| 5 | - | PLACA | VULCÃO | OK |
 
 ## Cena b9 - 49.0s a 53.5s - 14 palavras - plano two
 > "Anos depois, o governo contava quase quinhentos bitcoins minerados com a força do vulcão."

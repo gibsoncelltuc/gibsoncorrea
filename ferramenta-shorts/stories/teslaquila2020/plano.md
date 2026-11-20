@@ -10,7 +10,7 @@ b4 | low | -  | - | (rosto) annoyed (expr + som de efeito) | -
 b5 | two | -  | - | encena: sai @5 (acao + som de efeito) | -
 b6 | close | -  | interior | encena: prende (push) @12 (acao + som de efeito) | -
 b7 | crowd | -  | batalha aberta com tiros, tropa, placa: ESGOTOU | - | -
-b8 | two | -  | interior, objeto na mao | apareceu (dust + som de impacto); encena: chega (point) @1 (acao + som de efeito) | -
+b8 | two | -  | interior, objeto na mao | apareceu (dust + som de impacto); encena: chega (point) @1 (acao + som de efeito); encena: x_fone (lift) @5 (acao + som de efeito) | -
 b9 | two | -  | interior | - | -
 b10 | orbit | -  | batalha aberta com tiros, tropa, placa: COLEÇÃO | - | -
 b11 | close | -  | - | - | -

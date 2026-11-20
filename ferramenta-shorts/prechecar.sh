@@ -45,8 +45,9 @@ out.save(sys.argv[2], quality=85); print(f'-> {sys.argv[2]} ({n} acoes)')
 PYB
 elif [ -n "$SC" ]; then node strip.mjs $ID $SC $N $F/stories/$ID/precheck_$SC.jpg | tail -1; echo "-> stories/$ID/precheck_$SC.jpg"
 else
-  rm -rf sb_tmp; node storyboard.mjs $ID x.jpg 300 > /dev/null 2>&1 || true
+  rm -rf sb_tmp; SBO=$(node storyboard.mjs $ID x.jpg 300 2>&1 || true)
   n=$(ls sb_tmp 2>/dev/null | wc -l); [ "$n" -gt 0 ] || { echo "storyboard vazio"; cd $F; rm -rf $W; exit 4; }
+  NE=$(echo "$SBO" | grep -o 'frames [0-9]*' | head -1 | grep -o '[0-9]*'); if [ -n "$NE" ] && [ "$n" -lt "$NE" ]; then echo "STORYBOARD INCOMPLETO: $n de $NE quadros. Erro: $(echo "$SBO" | grep -m1 -iE 'error|TypeError|ReferenceError')"; cd $F; rm -rf $W; exit 4; fi   # 20/11: o storyboard do porco saia com 2 quadros e ninguem via (erro escondido)
   ffmpeg -v error -y -pattern_type glob -i "sb_tmp/${ID}_*.jpg" -vf "tile=8x$(( (n + 7) / 8 ))" -q:v 4 $F/stories/$ID/precheck.jpg
   echo "-> stories/$ID/precheck.jpg ($n quadros). ABRA e olhe."
 fi

@@ -325,6 +325,8 @@ for _k, _o in B.get('outfits', {}).items():   # SEM SOSIA (ordem do Gibson): em 
     if not _o.get('pele') and str(_o.get('hair', '')).lower() in _FAMHAIR: _o['hair'] = '#5a3a22'
 for _k, _o in B.get('outfits', {}).items():   # terno com gravata tem colarinho branco (Trump, politicos, empresarios)
     if _o.get('tie') and not _o.get('collar'): _o['collar'] = '#f4f4f2'
+if not any(k_ in ('POV', 'POVO') for k_ in B.get('outfits', {})):   # 20/11: figurino de POVO automatico (definido AQUI, antes de virar JS): multidao criada pela ferramenta nunca sai com copias do protagonista
+    B.setdefault('outfits', {})['POV'] = {'jacket': '#6a4a2a', 'pants': '#3b3f52', 'boots': '#2a2218', 'hats': ['straw', 'cap', 'bowler', 'beret', 'bonnet', 'slouch', 'hair'], '_auto': True}
 for name, o in B.get('outfits', {}).items():
     o = {**PROFISSOES.get(str(o.get('profissao', '')).lower(), {}), **{k_: v_ for k_, v_ in o.items() if k_ != 'profissao'}}
     o = dict(o); mo = o.pop('moustache_on', None)
@@ -735,14 +737,13 @@ if B.get('director') is not False and B.get('emocao_close') is not False:
         else: _seq = 0
 # MULTIDAO SEM CLONES (ordem do Gibson): multidao criada pelo diretor usa o figurino de POVO; rei, nobre, cientista, medico, padre, general... sao pessoas unicas e nao viram 12 copias
 _POVO = [k_ for k_, o_ in B.get('outfits', {}).items() if k_ in ('POV', 'POVO') or (o_.get('hats') and not (B.get('serie', '').lower().startswith('guerras') and (o_.get('rifle') or o_.get('pais') or k_[:3].lower() in _PAIS_COD)))]   # 20/11: em Guerras, exercito de um pais (TUR com turbante/fez) nao e' povo: o panico no acampamento austriaco saia com turcos
-if not _POVO and any(_b.get('crowd') and not _b.get('_crowd_roteiro') for _b in beats):   # 20/11: roteiro sem povo -> a ferramenta cria o POV (7 variantes de cor/chapeu); antes a multidao saia com 12 copias do protagonista
-    B.setdefault('outfits', {})['POV'] = {'jacket': '#6a4a2a', 'pants': '#3b3f52', 'boots': '#2a2218', 'hats': ['straw', 'cap', 'bowler', 'beret', 'bonnet', 'slouch', 'hair']}; _POVO = ['POV']
+_POV_AUTO = bool(B.get('outfits', {}).get('POV', {}).get('_auto'))
 _GUERRA = B.get('serie', '').lower().startswith('guerras')
 _UNICO = {k_ for k_, o_ in B.get('outfits', {}).items() if str(o_.get('profissao', '')).lower() in ('rei', 'nobre', 'general', 'cientista', 'medico', 'padre', 'politico', 'empresario', 'jornalista') or o_.get('hat') == 'crown' or (k_ not in _POVO and not str(o_.get('profissao', '')).lower() in ('soldado', 'marinheiro', 'agricultor', 'camponesa', 'pescador', 'comerciante', 'padeiro') and not _GUERRA) or (_GUERRA and k_ not in _POVO and not o_.get('rifle') and str(o_.get('profissao', '')).lower() not in ('soldado', 'marinheiro'))}   # Guerras: civil protagonista (fazendeiro, dono do porco) nao vira tropa de clones
 for _b in beats:
     if _b.get('crowd') and not _b.get('_crowd_roteiro') and _POVO:
-        _ok = [o_ for o_ in _b['crowd'].get('outfits', []) if o_ not in _UNICO]
-        _b['crowd']['outfits'] = list(dict.fromkeys(_ok + _POVO))
+        _ok = [o_ for o_ in _b['crowd'].get('outfits', []) if o_ not in _UNICO and o_ != 'POV']
+        _b['crowd']['outfits'] = (_ok or ['POV']) if _POV_AUTO else list(dict.fromkeys(_ok + _POVO))   # POV automatico so' substitui quem nao pode virar multidao (nunca mistura civil numa tropa)
 
 
 def build_beat(k, b):

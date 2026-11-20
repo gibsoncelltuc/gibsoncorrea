@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 - Narracao: Bukele comemorou nas redes sociais, com um vídeo da usina no vulcão.
 - Som ambiente: sea
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; encena: vence (up) @1 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; encena: vence (up) @1 -> acao + som de efeito; encena: x_fone (lift) @3 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: VULCÃO
 - Funcao na historia: GRANDE MOMENTO

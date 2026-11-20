@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 20 - A Piada que Virou Tequila
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.5s - 20 palavras - plano two
@@ -85,9 +85,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | apareceu (50.4s) | EFEITO: dust | poeira + som | OK |
 | 2 | apareceu (50.4s) | ACAO: chega | entra andando pela lateral | OK |
-| 3 | - | INTERACAO | entregar | OK |
-| 4 | - | ATUACAO | reagir | OK |
-| 5 | - | CHEGADA | alguem entra andando | OK |
+| 3 | internet (51.9s) | ACAO: x_fone | celular na mao + toque | OK |
+| 4 | - | INTERACAO | entregar | OK |
+| 5 | - | ATUACAO | reagir | OK |
+| 6 | - | CHEGADA | alguem entra andando | OK |
 
 ## Cena b9 - 56.8s a 60.9s - 15 palavras - plano two
 > "Um anúncio passou de mil e quatrocentos dólares, por uma garrafa sem nenhuma gota dentro."
