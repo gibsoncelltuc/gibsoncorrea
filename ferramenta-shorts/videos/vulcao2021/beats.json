@@ -351,5 +351,8 @@
   "https://en.wikipedia.org/wiki/Bitcoin_City"
  ],
  "cinf": 4.5,
- "exp": 1.12
+ "exp": 1.12,
+ "objetos_do_video": {
+  "\\bcomputadores\\b": "kit/miners"
+ }
 }

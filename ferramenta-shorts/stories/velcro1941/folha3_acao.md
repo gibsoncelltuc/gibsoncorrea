@@ -27,12 +27,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 
-## Cena b3 - 12.7s a 17.6s - 16 palavras - plano crowd
+## Cena b3 - 12.7s a 17.6s - 16 palavras - plano two
 > "O pelo do cachorro e a calça dele estavam cheios de carrapichos. Dava um trabalhão arrancar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | - | ATUACAO | conversar | OK |
 
 ## Cena b4 - 18.8s a 21.7s - 11 palavras - plano two
 > "Curioso, ele levou um carrapicho para casa e olhou no microscópio."
@@ -58,7 +58,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | pensou (28.6s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b7 - 35.8s a 40.8s - 15 palavras - plano two
+## Cena b7 - 35.8s a 40.8s - 15 palavras - plano orbit
 > "Os tecelões riram da ideia. Levou quase dez anos de tentativas até acertar o material."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -67,7 +67,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | riram (36.5s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
 | 3 | ideia (37.0s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
 | 4 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 5 | - | INTERACAO | discutir | OK |
+| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 6 | - | ATUACAO | discutir | OK |
 
 ## Cena b8 - 42.2s a 49.6s - 17 palavras - plano two

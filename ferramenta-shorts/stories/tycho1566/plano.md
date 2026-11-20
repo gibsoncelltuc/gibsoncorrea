@@ -14,5 +14,5 @@ b8 | two | -  | interior, placa: KEPLER, objeto na mao | encena: examina (think)
 b9 | crowd | dia  | batalha aberta com tiros, tropa | encena: examina (think) @1 (acao + som de efeito) | -
 b10 | close | -  | - | - | -
 
-Mistura de planos: close 13% | medio 68% | aberto 15% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 13% | medio 70% | aberto 15% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

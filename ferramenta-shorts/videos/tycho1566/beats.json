@@ -62,7 +62,8 @@
     ]
    ],
    "text": "1566",
-   "say": "Um dos maiores astrônomos da história perdeu o nariz numa briga por causa de matemática."
+   "say": "Um dos maiores astrônomos da história perdeu o nariz numa briga por causa de matemática.",
+   "detalhe": false
   },
   {
    "shot": "reveal",
@@ -156,7 +157,7 @@
    "shot": "wide",
    "hora": "noite",
    "who": [
-    "TYC:0:grin:spyglass"
+    "TYC:0:grin:paper"
    ],
    "fx": [
     "stars@20",

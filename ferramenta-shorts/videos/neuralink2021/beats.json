@@ -115,7 +115,7 @@
    "shot": "close",
    "interior": "loja",
    "who": [
-    "CIE:0:grin"
+    "CIE:0:grin:mug"
    ],
    "props": [
     [
@@ -219,7 +219,21 @@
     "CIM:0:grin"
    ],
    "acao": "discutir",
-   "say": "O objetivo, segundo a empresa, é ajudar pessoas paralisadas a usar computadores e celulares com o pensamento."
+   "say": "O objetivo, segundo a empresa, é ajudar pessoas paralisadas a usar computadores e celulares com o pensamento.",
+   "props": [
+    [
+     "kit/chess_pc",
+     1.9,
+     -1.2,
+     1.0
+    ],
+    [
+     "kit/phone",
+     -1.9,
+     -0.6,
+     1.0
+    ]
+   ]
   },
   {
    "shot": "two",
