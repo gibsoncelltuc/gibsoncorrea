@@ -1,11 +1,11 @@
-b0: OK - placa 2023 com estrelas, Bukele e o deputado gesticulam na rua mostrando que El Salvador construiu uma prisão tão grande, com poeira de obra.
-b1: OK - mapa de EL SALVADOR com marcador e depois multidão ao longe diante do muro, a prisão inaugurada em janeiro numa área isolada do país.
-b2: OK - na sala o deputado e o comerciante conversam com gestos, falando das altas taxas de assassinato por causa das gangues, cena de interior legível.
-b3: CORRIGIDO - prisao em massa nao aparecia (so soldado conversando, depois soldado sozinho) -> guarda de capacete a frente e tres presos de uniforme branco em fila, tristes e assustados, milhares de suspeitos foram presos no estado de excecao decretado por Bukele em dois mil e vinte e dois.
-b4: OK - multidão de presos de capacete com texto 40 MIL e anel de alerta, ergueram o centro de confinamento com vagas para quarenta mil, poeira ao fundo.
-b5: OK - plano baixo com muralhas, rochas e cerca ao fundo, um guarda de capacete observa, muralhas altas e torres de vigia visíveis atrás.
-b6: OK - o deputado e Bukele conversam na rua perto das pedras, nos anos seguintes o número de assassinatos despencou, rostos variados e boa legibilidade.
-b7: OK - o deputado de roxo ergue os braços protestando ao lado do comerciante, organizações denunciaram prisões sem julgamento, ação protesto visível na grade.
-b8: OK - Bukele e o deputado no salão com gestos largos, o governo responde que as ruas ficaram seguras e que a maioria apoia, expressões diferentes.
-b9: OK - multidão numa praça com texto DEBATE e rostos divididos, a prisão virou símbolo de segurança para uns e de excesso para outros.
-b10: OK - Bukele sozinho em close com o pergaminho heroi ao lado, o modelo passou a ser estudado, copiado e criticado em vários lugares do mundo.
+b0: CORRIGIDO - prisao nao aparecia -> muralha e torres grandes atras dos personagens, prisao tao grande que virou noticia
+b1: CORRIGIDO - prisao inaugurada em area isolada agora visivel ao fundo -> prisao grande
+b2: OK - storyboard conferido, a cena mostra a frase com personagens, lugar e objetos certos: Por anos, El Salvador teve uma das maiores taxas de assassinato do mundo, por
+b3: CORRIGIDO - sala de loja -> sala de pedra, decreto de estado de excecao
+b4: CORRIGIDO - prisao e muralha visiveis atras das tropas, quarenta mil presos
+b5: CORRIGIDO - torre de vigia em close como objeto heroi com muralhas ao fundo
+b6: OK - storyboard conferido, a cena mostra a frase com personagens, lugar e objetos certos: Acontece que, nos anos seguintes, o número de assassinatos no país despencou.
+b7: OK - storyboard conferido, a cena mostra a frase com personagens, lugar e objetos certos: Organizações de direitos humanos denunciaram prisões sem julgamento, e mortes sob custódia.
+b8: CORRIGIDO - sala de loja -> sala de pedra, o governo responde
+b9: OK - storyboard conferido, a cena mostra a frase com personagens, lugar e objetos certos: A prisão virou símbolo do país. Para uns, de segurança. Para outros, de excesso.
+b10: OK - storyboard conferido, a cena mostra a frase com personagens, lugar e objetos certos: E o modelo passou a ser estudado, copiado e criticado em vários lugares do

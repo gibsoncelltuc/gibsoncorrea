@@ -53,8 +53,8 @@
     [
      "kit/prison",
      0,
-     -12.0,
-     1.0
+     -6.5,
+     1.6
     ]
    ],
    "text": "2023",
@@ -78,8 +78,8 @@
     [
      "kit/prison",
      0,
-     -14.0,
-     1.2
+     -7,
+     1.7
     ]
    ],
    "say": "Ela foi inaugurada em janeiro de dois mil e vinte e três, numa área isolada do país."
@@ -95,7 +95,7 @@
   },
   {
    "shot": "two",
-   "interior": "loja",
+   "interior": "pedra",
    "who": [
     "BUK:0:stern",
     "GUA:0:stern"
@@ -124,8 +124,8 @@
     [
      "kit/prison",
      0,
-     -13.0,
-     1.2
+     -7.5,
+     1.7
     ]
    ],
    "fx": [
@@ -147,8 +147,8 @@
     [
      "kit/prison",
      0,
-     -11.0,
-     1.1
+     -6.5,
+     1.5
     ],
     [
      "kit/tower_mini",
@@ -198,7 +198,7 @@
   },
   {
    "shot": "two",
-   "interior": "loja",
+   "interior": "pedra",
    "who": [
     "BUK:0:stern",
     "REP:0:nervous:paper"
@@ -227,8 +227,8 @@
     [
      "kit/prison",
      0,
-     -14.0,
-     1.2
+     -8,
+     1.7
     ]
    ],
    "fx": [
