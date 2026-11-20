@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 23 - O Martelo da Meia-Noite
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.0s - 21 palavras - plano two
@@ -57,8 +57,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | decolaram (33.5s) | ACAO: voa | decola: poeira no chao, olha para cima | OK |
 | 2 | - | CENA | explosao: 3 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | PLACA | B-2 | OK |
+| 3 | - | PLACA | B-2 | OK |
 
 ## Cena b6 - 37.7s a 41.9s - 12 palavras - plano two
 > "Para despistar, outros B-2 foram mandados na direção contrária, para o Pacífico."
@@ -94,9 +93,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | FORDOW | OK |
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | PLACA | FORDOW | OK |
 
 ## Cena b10 - 65.3s a 68.3s - 14 palavras - plano close
 > "Foi a primeira vez na história que essa bomba gigante foi usada de verdade."

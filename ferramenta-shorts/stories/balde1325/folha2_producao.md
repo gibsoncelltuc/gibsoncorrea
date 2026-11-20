@@ -8,7 +8,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MOD (variante 0, expressao grin, segura bag); BOL (variante 0, expressao shock)
 - Animacao: reagir | interacao: susto
-- Objetos/modelos: kit/marco_ghirlandina, tools/bucket, buildings/apartment, buildings/house_two, nature/lamppost
+- Objetos/modelos: kit/marco_ghirlandina, tools/bucket, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balde, madeira
 - RISCOS: nenhum
 
@@ -109,7 +109,6 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/marco_ghirlandina | b0, b1, b2, b3, b5, b6, b7, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 tools/bucket | b0, b3, b4, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/apartment | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 barrel | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py

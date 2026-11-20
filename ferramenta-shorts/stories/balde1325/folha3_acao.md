@@ -23,74 +23,74 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | ATUACAO | discutir | OK |
 | 4 | - | MAPA | ITÁLIA | OK |
 
-## Cena b2 - 12.9s a 16.6s - 12 palavras - plano track
+## Cena b2 - 12.9s a 16.1s - 12 palavras - plano track
 > "Numa noite, diz a lenda, soldados de Módena entraram escondidos em Bolonha."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | entraram (15.5s) | ACAO: chega | entra andando pela lateral | OK |
+| 1 | entraram (15.3s) | ACAO: chega | entra andando pela lateral | OK |
 
-## Cena b3 - 17.9s a 23.9s - 18 palavras - plano crowd
+## Cena b3 - 16.3s a 23.5s - 18 palavras - plano crowd
 > "Não roubaram ouro, nem armas. Levaram o balde velho do poço da praça, e voltaram para casa rindo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | rindo (23.9s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | rindo (23.9s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
+| 1 | rindo (23.5s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | rindo (23.5s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
 | 3 | - | CENA | cavalaria: 4 soldados a cavalo (MOD) | OK |
 | 4 | - | CENA | tiros: 4 soldados caem no chao | OK |
 | 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 6 | - | ATUACAO | comemorar | OK |
 | 7 | - | PLACA | O BALDE | OK |
 
-## Cena b4 - 25.0s a 29.8s - 10 palavras - plano close
+## Cena b4 - 23.9s a 27.6s - 10 palavras - plano close
 > ""Devolvam o nosso balde", exigiu Bolonha. "Venham buscar", respondeu Módena."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 
-## Cena b5 - 31.0s a 34.5s - 13 palavras - plano crowd
+## Cena b5 - 27.8s a 33.6s - 13 palavras - plano crowd
 > "Bolonha juntou um exército de trinta mil homens, e marchou contra a vizinha."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | PLACA | 32.000 | OK |
 
-## Cena b6 - 35.7s a 40.3s - 12 palavras - plano group
+## Cena b6 - 34.0s a 39.1s - 12 palavras - plano group
 > "Módena tinha só sete mil soldados. Parecia uma derrota certa, e rápida."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | derrota (39.2s) | EFEITO: puff | fumaca + som | OK |
-| 2 | derrota (39.2s) | ACAO: perde | mao na testa | OK |
+| 1 | derrota (38.1s) | EFEITO: puff | fumaca + som | OK |
+| 2 | derrota (38.1s) | ACAO: perde | mao na testa | OK |
 | 3 | - | INTERACAO | insiste | OK |
 | 4 | - | ATUACAO | reagir | OK |
 
-## Cena b7 - 41.5s a 47.5s - 19 palavras - plano crowd
+## Cena b7 - 39.3s a 48.0s - 19 palavras - plano crowd
 > "Acontece que, numa única tarde de batalha, os sete mil atacaram de surpresa, e o exército gigante fugiu correndo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | atacaram (44.6s) | EFEITO: ring | onda + som | OK |
-| 2 | surpresa (45.4s) | EFEITO: ring | onda + som | OK |
-| 3 | surpresa (45.4s) | ACAO: grita | grita de bracos para cima | OK |
-| 4 | fugiu (47.2s) | EFEITO: dust | poeira + som | OK |
-| 5 | fugiu (47.2s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
+| 1 | atacaram (43.9s) | EFEITO: ring | onda + som | OK |
+| 2 | surpresa (44.6s) | EFEITO: ring | onda + som | OK |
+| 3 | surpresa (44.6s) | ACAO: grita | grita de bracos para cima | OK |
+| 4 | fugiu (47.6s) | EFEITO: dust | poeira + som | OK |
+| 5 | fugiu (47.6s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
 | 6 | - | EMOCAO: shock | o rosto vira "shock" na palavra | OK |
 | 7 | - | CENA | cavalaria: 4 soldados a cavalo (MOD) | OK |
 | 8 | - | CENA | tiros: 5 soldados caem no chao | OK |
 | 9 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
 | 10 | - | ATUACAO | reagir | OK |
 
-## Cena b8 - 48.8s a 53.6s - 17 palavras - plano track
+## Cena b8 - 48.3s a 54.2s - 17 palavras - plano track
 > "Módena perseguiu os inimigos até os portões de Bolonha, e ainda zombou deles do lado de fora."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b9 - 54.7s a 60.2s - 14 palavras - plano close
+## Cena b9 - 54.5s a 58.5s - 14 palavras - plano close
 > "O balde nunca foi devolvido. Está guardado em Módena até hoje, setecentos anos depois."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

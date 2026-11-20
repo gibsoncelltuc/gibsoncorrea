@@ -4,7 +4,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | medieval | two | 2 | reagir, INTERAGEM: susto | kit/marco_ghirlandina, tools/bucket, buildings/apartment, buildings/house_two, nature/lamppost | bag | -
+b0 | medieval | two | 2 | reagir, INTERAGEM: susto | kit/marco_ghirlandina, tools/bucket, buildings/house_two, nature/lamppost | bag | -
 b1 | medieval | reveal | 10 | discutir | kit/marco_ghirlandina | - | -
 b2 | mountain | track | 2 | encena, andando | kit/marco_ghirlandina | - | -
 b3 | mountain | crowd | 14 | comemorar, batalha | barrel, kit/marco_ghirlandina, tools/bucket, buildings/house_small, nature/picket_fence, nature/tree_oak | bag | -

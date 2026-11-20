@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 10 - Eratóstenes Mede a Terra
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.3s - 15 palavras - plano two
@@ -59,8 +59,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 1 | - | ATUACAO | reagir | OK |
 
 ## Cena b7 - 37.6s a 40.9s - 14 palavras - plano track
 > "Ele mediu o ângulo da sombra, e contou os passos entre as duas cidades."
@@ -86,10 +85,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | INTERACAO | pular | OK |
-| 3 | - | ATUACAO | comemorar | OK |
-| 4 | - | PLACA | 40.000 KM | OK |
+| 1 | - | INTERACAO | pular | OK |
+| 2 | - | ATUACAO | comemorar | OK |
+| 3 | - | PLACA | 40.000 KM | OK |
 
 ## Cena b10 - 52.3s a 55.1s - 13 palavras - plano close
 > "No fim, uma vara e um poço fizeram o trabalho de um satélite."

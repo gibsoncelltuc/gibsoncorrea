@@ -1,5 +1,5 @@
 // Curiosidade e Ciência EP 10 - Eratóstenes Mede a Terra -- GERADO por mkvideo.py a partir de videos/eratostenes240/beats.json (edite o beats.json, nao este arquivo)
-globalThis.REGMAP = {"buildings/house_small": ["kit/rg_oriente_1", "kit/rg_oriente_2", "kit/rg_oriente_3"], "buildings/house_two": ["kit/rg_oriente_2", "kit/rg_oriente_3", "kit/rg_oriente_1"], "buildings/house_blue": ["kit/rg_oriente_1", "kit/rg_oriente_2", "kit/rg_oriente_3"], "buildings/shop": ["kit/rg_oriente_3", "kit/rg_oriente_1", "kit/rg_oriente_2"], "buildings/apartment": ["kit/rg_oriente_1", "kit/rg_oriente_2", "kit/rg_oriente_3"], "buildings/church": ["kit/rg_oriente_3", "kit/rg_oriente_1", "kit/rg_oriente_2"], "buildings/barn": ["kit/rg_oriente_1", "kit/rg_oriente_2", "kit/rg_oriente_3"], "buildings/castle_tower": ["kit/rg_oriente_3"], "buildings/windmill": ["kit/rg_oriente_1"], "nature/tree_oak": ["nature/tree_palm"], "nature/bush": ["nature/bush"], "nature/flowerbed": ["nature/rocks"]}; globalThis.REGCHAO = "#e6c99a"; globalThis.ASFALTO = false; globalThis.PRAIA = false;
+globalThis.REGMAP = {"buildings/house_small": ["kit/rg_oriente_1", "kit/rg_oriente_2", "kit/rg_oriente_3"], "buildings/house_two": ["kit/rg_oriente_2", "kit/rg_oriente_3", "kit/rg_oriente_1"], "buildings/house_blue": ["kit/rg_oriente_1", "kit/rg_oriente_2", "kit/rg_oriente_3"], "buildings/shop": ["kit/rg_oriente_3", "kit/rg_oriente_1", "kit/rg_oriente_2"], "buildings/apartment": ["kit/rg_oriente_1", "kit/rg_oriente_2", "kit/rg_oriente_3"], "buildings/church": ["kit/rg_oriente_3", "kit/rg_oriente_1", "kit/rg_oriente_2"], "buildings/barn": ["kit/rg_oriente_1", "kit/rg_oriente_2", "kit/rg_oriente_3"], "buildings/castle_tower": ["kit/rg_oriente_3"], "buildings/windmill": ["kit/rg_oriente_1"], "nature/tree_oak": ["nature/tree_palm"], "nature/bush": ["nature/bush"], "nature/flowerbed": ["nature/rocks"]}; globalThis.REGCHAO = "#e6c99a"; globalThis.ASFALTO = false; globalThis.PRAIA = false; globalThis.SEM_NAVIO = false;
 const X = 4000, DK = 6; const X_hall = 8000; const X_harbor = 5000; const X_street = 12000;
 const WS = (i, off = 0) => TIMING.words[Math.min(i, TIMING.words.length - 1)][0] + off;   // frame em que a palavra de indice i comeca
 const A = [0, WS(15, -3), WS(36, -3), WS(55, -3), WS(68, -3), WS(82, -3), WS(94, -3), WS(110, -3), WS(124, -3), WS(139, -3), WS(154, -3), TOTAL_F()];
@@ -26,4 +26,4 @@ const SPEC = {
   ],
 };
 
-// FOLHA3 29fcc272357b 28 acoes=28 faltando=0
+// FOLHA3 41e52f3c4f37 26 acoes=26 faltando=0

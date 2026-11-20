@@ -1,5 +1,5 @@
 // Poder e Fama EP 23 - O Martelo da Meia-Noite -- GERADO por mkvideo.py a partir de videos/martelo2025/beats.json (edite o beats.json, nao este arquivo)
-globalThis.REGMAP = {"buildings/house_small": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/house_two": ["kit/rg_eua_2", "kit/rg_eua_3", "kit/rg_eua_1"], "buildings/house_blue": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/shop": ["kit/rg_eua_3", "kit/rg_eua_1", "kit/rg_eua_2"], "buildings/apartment": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/church": ["kit/rg_eua_3", "kit/rg_eua_1", "kit/rg_eua_2"], "buildings/barn": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/castle_tower": ["kit/rg_eua_3"], "buildings/windmill": ["kit/rg_eua_1"], "nature/tree_oak": ["nature/tree_palm"], "nature/bush": ["nature/bush"], "nature/flowerbed": ["nature/rocks"], "vehicles/tank": ["kit/tanque_moderno"], "ship": ["kit/navio_moderno"]}; globalThis.REGCHAO = "#8a8c93"; globalThis.ASFALTO = true; globalThis.PRAIA = false;
+globalThis.REGMAP = {"buildings/house_small": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/house_two": ["kit/rg_eua_2", "kit/rg_eua_3", "kit/rg_eua_1"], "buildings/house_blue": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/shop": ["kit/rg_eua_3", "kit/rg_eua_1", "kit/rg_eua_2"], "buildings/apartment": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/church": ["kit/rg_eua_3", "kit/rg_eua_1", "kit/rg_eua_2"], "buildings/barn": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/castle_tower": ["kit/rg_eua_3"], "buildings/windmill": ["kit/rg_eua_1"], "nature/tree_oak": ["nature/tree_palm"], "nature/bush": ["nature/bush"], "nature/flowerbed": ["nature/rocks"], "vehicles/tank": ["kit/tanque_moderno"], "ship": ["kit/navio_moderno"]}; globalThis.REGCHAO = "#8a8c93"; globalThis.ASFALTO = true; globalThis.PRAIA = false; globalThis.SEM_NAVIO = true;
 const X = 3000, DK = 6; const X_countryside = 1000; const X_hall = 8000; const X_outback = 2000;
 const WS = (i, off = 0) => TIMING.words[Math.min(i, TIMING.words.length - 1)][0] + off;   // frame em que a palavra de indice i comeca
 const A = [0, WS(21, -3), WS(39, -3), WS(53, -3), WS(75, -3), WS(84, -3), WS(98, -3), WS(110, -3), WS(129, -3), WS(144, -3), WS(159, -3), TOTAL_F()];
@@ -26,4 +26,4 @@ const SPEC = {
   ],
 };
 
-// FOLHA3 7a3868614fc0 37 acoes=37 faltando=0
+// FOLHA3 c66aabbb4413 35 acoes=35 faltando=0
