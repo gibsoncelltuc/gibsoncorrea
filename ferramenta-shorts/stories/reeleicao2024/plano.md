@@ -8,7 +8,7 @@ b2 | two | -  | - | encena: voto (reach) @5 (acao + som de efeito) | -
 b3 | two | -  | interior, objeto na mao | encena: chega (point) @2 (acao + som de efeito) | -
 b4 | close | -  | interior, objeto na mao | (rosto) laugh (expr + som de efeito); venceu (stars + som de sino); encena: vence (up) @3 (acao + som de efeito) | -
 b5 | crowd | -  | batalha aberta com tiros, tropa, placa: 312 VOTOS | (rosto) laugh (expr + som de efeito); comemoraram (stars + som de sino); vitória (stars + som de sino); encena: vence (up) @2 (acao + som de efeito); encena: escala (lift) @7 (acao + som de efeito); encena: fala (point) @11 (acao + som de efeito) | -
-b6 | two | noite  | objeto na mao | - | -
+b6 | two | -  | interior, objeto na mao | - | -
 b7 | two | -  | interior, objeto na mao | - | -
 b8 | two | noite  | - | - | -
 b9 | orbit | noite  | batalha aberta com tiros, tropa, placa: 47º | - | -

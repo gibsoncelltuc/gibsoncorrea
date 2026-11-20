@@ -13,7 +13,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b1 - O nome dele era Não é um lança-chamas.
-- Cenario: countryside | luz: golden | clima: limpo
+- Cenario: street | luz: golden | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): MUS (variante 0, expressao grin); CMP (variante 0, expressao surprised) | multidao: 8 de POV
@@ -23,7 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - O preço era de quinhentos dólares.
-- Cenario: countryside | luz: golden | clima: limpo
+- Cenario: street | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto
 - Personagens principais (2): MUS (variante 0, expressao smug); CMP (variante 0, expressao surprised)
@@ -33,7 +33,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - O nome dizia que não era, mas o aparelho tinha cara de lança-chamas, e...
-- Cenario: harbor | luz: golden | clima: limpo
+- Cenario: outback | luz: golden | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): CMP (variante 0, expressao suspicious); MUS (variante 0, expressao laugh) | multidao: 12 de POV
@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Foram vinte mil unidades à venda.
-- Cenario: street | luz: golden | clima: limpo
+- Cenario: countryside | luz: golden | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto
 - Personagens principais (3): MUS (variante 0, expressao smile); CMP (variante 0, expressao neutral); POV (variante 0, expressao grin)
@@ -83,7 +83,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - Um produto que se chamava de tudo, menos do que parecia.
-- Cenario: street | luz: golden | clima: limpo
+- Cenario: outback | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): MUS (variante 0, expressao laugh); CMP (variante 0, expressao smile)
