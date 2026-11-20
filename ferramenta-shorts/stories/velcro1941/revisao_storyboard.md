@@ -1,13 +1,12 @@
-# Revisao do storyboard - velcro1941 (sessao principal, 19/11)
-b0: OK - George com o cachorro e o carrapicho em destaque: invenção que nasceu de um passeio com o cachorro
-b1: OK - placa 1941 e mapa da Suíça, plano aberto da cidade com montanhas
-b2: OK - o engenheiro voltou da caminhada pela montanha com o seu cachorro (trilha de pedras)
-b3: OK - pelo do cachorro e a calça cheios de carrapichos, ele arrancando com trabalhão
-b4: CORRIGIDO - microscópio só no último instante e pequeno -> levou o carrapicho para casa e olhou no microscópio grande ao lado
-b5: OK - close do carrapicho: cada espinho com ganchinho na ponta que agarrava no tecido
-b6: OK - ele pensou na fita de ganchinhos e de voltinhas, explicando com as mãos (gruda e solta)
-b7: OK - os tecelões riram da ideia, quase dez anos de tentativas na oficina
-b8: OK - o segredo foi o náilon e o nome velours crochet: Velcro, ele comemorando
-b9: OK - no começo muita gente achou o velcro feio, vendas fracas, gente na praça desconfiada
-b10: CORRIGIDO - multidão na cidade -> astronautas no espaço: astronauta de branco, céu preto estrelado e lua, velcro prendendo coisas
-b11: OK - hoje está em tênis e roupas, e tudo começou com o cachorro cheio de carrapichos (ele e o cachorro)
+b0: CORRIGIDO - carrapicho verde parecia o coronavirus -> modelo refeito: bola marrom de espinhos finos com ganchinhos; uma das invencoes mais usadas nasceu de um passeio com o cachorro
+b1: OK - mapa da Suica e a cidade suica de 1941 com as montanhas dos Alpes ao fundo, placa 1941
+b2: OK - o engenheiro George de Mestral voltou de uma caminhada pela montanha com o seu cachorro: colina rochosa e o cachorro
+b3: CORRIGIDO - carrapicho solto no chao -> o pelo do cachorro e a calca dele cheios de carrapichos: o carrapicho grudado no pelo, ele irritado
+b4: CORRIGIDO - microscopio pequeno e escondido -> curioso, levou um carrapicho para casa e olhou no microscopio grande ao lado
+b5: OK - acontece que cada espinho tinha um ganchinho na ponta: close do engenheiro espantado perto do carrapicho
+b6: OK - ele pensou: e se eu fizer uma fita de ganchinhos e outra de voltinhas: mao no queixo e brilho da ideia
+b7: CORRIGIDO - sala fechada sem graca -> os tecelões riram da ideia, multidao rindo na praca, quase dez anos de tentativas
+b8: OK - o segredo foi o nailon e o nome veio do frances velours e crochet: o engenheiro conversa com o carrapicho ao lado
+b9: OK - no comeco muita gente achou o velcro feio e as vendas foram fracas: o povo da cidade na praca de cara fechada
+b10: OK - astronautas passaram a usar o velcro para prender coisas no espaco: ceu preto estrelado, lua e o letreiro VELCRO
+b11: OK - hoje ele esta em tenis, mochilas e roupas, tudo comecou com um cachorro cheio de carrapichos: close com o cachorro
