@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b2  (~4.8 s)
 - Narracao: Para provar, o designer Franz von Holzhausen jogou uma esfera de aço na janela.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -32,15 +32,15 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 ## Cena b3  (~3.8 s)
 - Narracao: E o vidro rachou, ao vivo, na frente de todo mundo.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: thump@3, ding@6
+- Efeitos sonoros marcados: thump@3
 - Efeito + som nas palavras-chave: encena: quebra (throw) @3 -> acao + som de efeito
-- Efeito visual marcado: burst@3, stars@6
+- Efeito visual marcado: burst@3
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b4  (~3.8 s)
 - Narracao: Ele tentou de novo, em outra janela, e ela também rachou.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: thump@4
 - Efeito + som nas palavras-chave: encena: quebra (throw) @10 -> acao + som de efeito
 - Efeito visual marcado: burst@4
@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b7  (~5.2 s)
 - Narracao: Uma picape, uma esfera de aço e uma janela que não aguentou: um lançamento inesquecível.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
