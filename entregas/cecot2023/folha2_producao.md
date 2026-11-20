@@ -23,27 +23,27 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Por anos, El Salvador teve uma das maiores taxas de assassinato do mun...
-- Cenario: interior pedra | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): REP (variante 0, expressao worried, segura paper); POV (variante 0, expressao scared)
-- Animacao: discutir | interacao: discutir
-- Objetos/modelos: -
+- Cenario: countryside | luz: day | clima: limpo
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): REP (variante 0, expressao worried, segura paper); POV (variante 0, expressao scared) | multidao: 10 de POV
+- Animacao: discutir
+- Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): assassinato, gangues, maiores
 - RISCOS: nenhum
 
 ## Cena b3 - Em dois mil e vinte e dois, o presidente Nayib Bukele decretou estado ...
-- Cenario: street | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Cenario: interior pedra | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (4): GUA (variante 0, expressao stern); PRE (variante 0, expressao sad); PRE (variante 1, expressao scared); PRE (variante 2, expressao sad)
-- Animacao: conversar | interacao: avanca e o outro recua
-- Objetos/modelos: kit/volcano
+- Personagens principais (2): BUK (variante 0, expressao stern); GUA (variante 0, expressao stern)
+- Animacao: conversar | interacao: entregar
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): excecao, presidente, suspeitos
 - RISCOS: nenhum
 
 ## Cena b4 - Para guardar tanta gente, ergueram o Centro de Confinamento do Terrori...
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): GUA (variante 0, expressao stern); GUA (variante 1, expressao stern); GUA (variante 2, expressao angry) | multidao: 16 de GUA
@@ -54,11 +54,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Muralhas altas, cercas elétricas e torres de vigia por todos os lados.
 - Cenario: mountain | luz: day | clima: limpo
-- Camera: low = camera baixa, dramatica (virada)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Camera: low = camera baixa, dramatica (virada) + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): GUA (variante 0, expressao stern)
 - Animacao: conversar
-- Objetos/modelos: kit/prison, kit/volcano, buildings/castle_tower
+- Objetos/modelos: kit/prison, kit/tower_mini, kit/volcano, buildings/castle_tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lados, vigia
 - RISCOS: nenhum
 
@@ -67,7 +67,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): REP (variante 0, expressao surprised, segura paper); BUK (variante 0, expressao smug)
-- Animacao: conversar | interacao: o outro se aproxima
+- Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): assassinatos, numero
 - RISCOS: nenhum
@@ -77,17 +77,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): REP (variante 0, expressao suspicious); POV (variante 0, expressao worried)
-- Animacao: discutir | interacao: vai ate o outro
+- Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): direitos
 - RISCOS: nenhum
 
 ## Cena b8 - O governo responde que as ruas ficaram seguras, e que a maioria da pop...
-- Cenario: interior loja | luz: day | clima: limpo
+- Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): BUK (variante 0, expressao stern); REP (variante 0, expressao nervous, segura paper)
-- Animacao: discutir | interacao: cochichar
+- Animacao: discutir | interacao: vai ate o outro
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): governo, maioria, populacao, ruas
 - RISCOS: nenhum
@@ -118,13 +118,14 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/prison | b0, b1, b4, b5, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/volcano | b0, b1, b3, b4, b5, b6, b7, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/volcano | b0, b1, b2, b4, b5, b6, b7, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/tower_mini | b5 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/castle_tower | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/scroll | grandes momentos: b4, b9 | planos abertos: 3 | mistura: close 20% | medio 65% | aberto 13% | detalhe 2%
-- Interacoes: b0 aproxima-se, b2 discutir, b3 avanca e o outro recua, b6 o outro se aproxima, b7 vai ate o outro, b8 cochichar
+- Objeto heroi: kit/tower_mini | grandes momentos: b4, b9 | planos abertos: 4 | mistura: close 20% | medio 53% | aberto 23% | detalhe 4%
+- Interacoes: b0 aproxima-se, b3 entregar, b6 avanca e o outro recua, b7 discutir, b8 vai ate o outro
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
