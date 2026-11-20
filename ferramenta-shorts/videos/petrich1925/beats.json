@@ -46,9 +46,7 @@
    ],
    "text": "1925",
    "tat": 0,
-   "tstyle": "blue",
-   "mapa": "GRÉCIA",
-   "mapa_at": 1
+   "tstyle": "blue"
   },
   {
    "say": "Um soldado grego estava de guarda, e o cachorro dele fugiu para o outro lado da fronteira.",
@@ -67,16 +65,7 @@
    ],
    "text": "O CACHORRO FUGIU",
    "tat": 9,
-   "tstyle": "brown",
-   "props": [
-    [
-     "kit/dog_sit",
-     1.7,
-     -0.6,
-     1.1
-    ]
-   ],
-   "detalhe": true
+   "tstyle": "brown"
   },
   {
    "say": "O soldado correu atrás do cachorro, e atravessou a fronteira.",
@@ -124,7 +113,7 @@
   },
   {
    "say": "Poucos dias depois, o exército grego invadiu a Bulgária e ocupou a região de Petrich.",
-   "shot": "crowd",
+   "shot": "track",
    "who": [
     "GRE:0:stern",
     "GRE:1:stern",
@@ -177,15 +166,7 @@
    "text": "E O CACHORRO?",
    "tat": 9,
    "tstyle": "brown",
-   "mood": "playful",
-   "props": [
-    [
-     "kit/dog_sit",
-     -1.4,
-     -0.2,
-     1.1
-    ]
-   ]
+   "mood": "playful"
   }
  ],
  "heroi": "kit/dog_sit"

@@ -8,7 +8,7 @@
  "set": "harbor",
  "light": "day",
  "mood": "playful",
- "heroi": "kit/scroll",
+ "heroi": "kit/iceberg",
  "outfits": {
   "PRO": {
    "profissao": "cientista",
@@ -208,9 +208,9 @@
    "props": [
     [
      "kit/scroll",
-     1.2,
-     0.6,
-     1.1
+     1.6,
+     -0.8,
+     1.0
     ]
    ],
    "fx": [
@@ -221,9 +221,7 @@
     "sting@20",
     "ding@50"
    ],
-   "say": "Por causa do naufrágio, os países fizeram em mil novecentos e catorze o primeiro grande tratado de segurança no mar: bote para todos.",
-   "detalhe": true,
-   "set": "harbor"
+   "say": "Por causa do naufrágio, os países fizeram em mil novecentos e catorze o primeiro grande tratado de segurança no mar: bote para todos."
   },
   {
    "shot": "two",

@@ -1,11 +1,11 @@
-b0: OK - na sala com placa 2024, o presidente sorrindo ao lado do deputado e da urna, mostrando a reeleição em fevereiro de dois mil e vinte e quatro.
-b1: OK - mapa de EL SALVADOR aparece na América Central e depois a multidão pequena no campo, cena aberta citando o presidente Nayib Bukele.
-b2: OK - Bukele de preto ao balcão com o comerciante de chapéu, conversando sobre ele ter chegado ao poder em dois mil e dezenove, rosto expressivo.
-b3: OK - Bukele e o deputado trocam gestos no salão com o papel da lei na mão, cena de liberou a reeleição com efeito de estrelas e sinal sonoro.
-b4: OK - no campo, personagens com ring de alerta e rostos de dúvida mostrando que críticos disseram que a candidatura era ilegal, o governo defendeu.
-b5: OK - o eleitor deposita o voto na urna azul ao lado do comerciante, os salvadorenhos foram às urnas, urna em primeiro plano e boa legibilidade.
-b6: OK - o deputado de roxo surpreso com o papel na mão, no salão, o resultado impressionou com quase oitenta e cinco por cento dos votos.
-b7: OK - multidão lotando a rua da cidade com texto 84,6% e eleitores comemorando com os braços para cima, apoiadores lotaram as ruas.
-b8: CORRIGIDO - placa HOSPITAL sem relacao com a queda enorme no numero de assassinatos citada pelos eleitores -> trocada pela placa MENOS ASSASSINATOS na sala de madeira, deputado e Bukele conversando
-b9: OK - no campo o deputado e o comerciante protestando com gestos largos, organizações de direitos humanos criticaram as prisões em massa e o estado de exceção.
-b10: OK - Bukele sozinho em close no campo com o globo ao lado, sorrindo e acenando, ele virou um dos presidentes mais populares do planeta.
+b0: CORRIGIDO - sala de loja com prateleiras de potes nao combina com presidencia -> sala de pedra; Bukele reeleito 2024 aparece com a placa 2024 e a urna
+b1: OK - mapa de El Salvador na America Central aparece e depois o povo salvadorenho caminhando no campo
+b2: OK - Bukele sorri conversando com um cidadao sobre chegar ao poder em 2019 prometendo acabar com as gangues
+b3: OK - juiz da Suprema Corte com papel liberou a reeleicao, em sala de pedra com cara fechada e discussao
+b4: OK - reporter preocupado e eleitor nervoso, anel de efeito no momento de ilegal, criticos e opositores contestando
+b5: OK - dois eleitores entregam o voto e a urna fica em cena no dia da eleicao ao ar livre
+b6: CORRIGIDO - reporter em close chocado com o resultado, sala de loja trocada por sala de pedra, quase oitenta e cinco por cento dos votos
+b7: OK - multidao de apoiadores lotando a rua comemorando com Bukele e a placa 84,6 por cento
+b8: CORRIGIDO - placa HOSPITAL apareceu na cena dos assassinatos -> rua externa sem hospital, reporter e Bukele conversam sobre a queda de assassinatos
+b9: CORRIGIDO - sala/hospital indevidos -> rua; reporter desconfiado discute com eleitor preocupado sobre prisoes em massa
+b10: OK - Bukele sorrindo em close com a urna e o globo, amado por muitos e um dos presidentes mais populares

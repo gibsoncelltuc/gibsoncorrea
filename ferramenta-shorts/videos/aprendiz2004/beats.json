@@ -54,7 +54,14 @@
     "TRU:0:smug",
     "CND:0:shock"
    ],
-   "props": [],
+   "props": [
+    [
+     "kit/tv",
+     0,
+     -1.2,
+     1.1
+    ]
+   ],
    "text": "2004",
    "fx": [
     "stars@30"
@@ -62,8 +69,7 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Duas palavras transformaram um empresário de Nova York numa estrela mundial: você está demitido.",
-   "set": "street"
+   "say": "Duas palavras transformaram um empresário de Nova York numa estrela da televisão mundial: você está demitido."
   },
   {
    "shot": "reveal",
@@ -73,8 +79,7 @@
    ],
    "mapa": "ESTADOS UNIDOS",
    "mapa_at": 3,
-   "say": "Em janeiro de dois mil e quatro, estreou nos Estados Unidos o programa O Aprendiz.",
-   "set": "street"
+   "say": "Em janeiro de dois mil e quatro, estreou nos Estados Unidos o programa O Aprendiz."
   },
   {
    "shot": "two",
@@ -94,20 +99,19 @@
    "props": [
     [
      "kit/stall",
-     1.4,
-     -1.0,
+     1.8,
+     -1.4,
      1.0
     ]
    ],
+   "interacao": "entregar",
    "fx": [
     "puff@40"
    ],
    "sfx": [
     "thump@40"
    ],
-   "say": "Toda semana, as equipes tinham uma tarefa de negócios, como vender limonada na rua ou criar uma propaganda.",
-   "acao": "conversar",
-   "set": "street"
+   "say": "Toda semana, as equipes tinham uma tarefa de negócios, como vender limonada na rua ou criar uma propaganda."
   },
   {
    "shot": "two",
@@ -116,13 +120,14 @@
     "TRU:0:stern",
     "CND:0:nervous"
    ],
+   "acao": "discutir",
    "fx": [
     "ring@30"
    ],
    "sfx": [
     "sting@30"
    ],
-   "say": "No fim, a equipe perdedora ia para a sala de reunião, e alguém era eliminado."
+   "say": "No fim, a equipe perdedora ia para a sala de reunião, e alguém tinha que ir embora."
   },
   {
    "shot": "close",
@@ -177,24 +182,22 @@
    ],
    "text": "28 MILHÕES",
    "titulo": true,
-   "say": "A final da primeira temporada foi vista por cerca de vinte e oito milhões de americanos.",
-   "set": "countryside"
+   "say": "A final da primeira temporada foi vista por cerca de vinte e oito milhões de americanos."
   },
   {
-   "shot": "group",
+   "shot": "two",
    "who": [
     "RAN:0:laugh",
     "TRU:0:grin"
    ],
+   "interacao": "abracar",
    "say": "O vencedor, Bill Rancic, ganhou o emprego, com salário de duzentos e cinquenta mil dólares por ano.",
    "fx": [
     "stars@30"
    ],
    "sfx": [
     "ding@30"
-   ],
-   "acao": "conversar",
-   "set": "countryside"
+   ]
   },
   {
    "shot": "reveal",
@@ -210,19 +213,24 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "O formato se espalhou pelo mundo. No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus.",
-   "set": "street"
+   "say": "O formato se espalhou pelo mundo. No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus."
   },
   {
-   "shot": "group",
+   "shot": "two",
    "who": [
     "TRU:0:smug",
-    "POV:0:smile"
+    "POV:0:surprised"
    ],
-   "props": [],
-   "say": "Trump apresentou o programa por mais de dez anos, até dois mil e quinze, quando foi para a política.",
+   "props": [
+    [
+     "kit/tv",
+     1.6,
+     -0.8,
+     1.0
+    ]
+   ],
    "acao": "conversar",
-   "set": "street"
+   "say": "Trump apresentou o programa por mais de dez anos, e só saiu em dois mil e quinze, quando entrou na política."
   },
   {
    "shot": "close",
@@ -232,14 +240,13 @@
    "props": [
     [
      "kit/tv",
-     1.5,
-     -0.2,
-     1.4
+     -1.4,
+     -0.8,
+     1.0
     ]
    ],
    "acao": "comemorar",
-   "say": "Um programa de emprego que acabou ficando famoso justamente por demitir.",
-   "set": "hall"
+   "say": "Um programa de emprego que acabou ficando famoso justamente por demitir."
   }
  ],
  "heroi": "kit/tv",

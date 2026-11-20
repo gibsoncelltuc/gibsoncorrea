@@ -1,5 +1,5 @@
 // Poder e Fama EP 17 - Bitcoin Feito com Vulcão -- GERADO por mkvideo.py a partir de videos/vulcao2021/beats.json (edite o beats.json, nao este arquivo)
-globalThis.REGMAP = {"buildings/house_small": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/house_two": ["kit/rg_eua_2", "kit/rg_eua_3", "kit/rg_eua_1"], "buildings/house_blue": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/shop": ["kit/rg_eua_3", "kit/rg_eua_1", "kit/rg_eua_2"], "buildings/apartment": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/church": ["kit/rg_eua_3", "kit/rg_eua_1", "kit/rg_eua_2"], "buildings/barn": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/castle_tower": ["kit/rg_eua_3"], "buildings/windmill": ["kit/rg_eua_1"], "nature/tree_oak": ["kit/veg_bananeira", "nature/tree_palm"], "nature/bush": ["kit/veg_hibisco"], "nature/flowerbed": ["kit/veg_hibisco"], "vehicles/tank": ["kit/tanque_moderno"], "ship": ["kit/navio_moderno"]}; globalThis.REGCHAO = "#8a8c93"; globalThis.ASFALTO = true; globalThis.PRAIA = false;
+globalThis.REGMAP = {"buildings/house_small": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/house_two": ["kit/rg_eua_2", "kit/rg_eua_3", "kit/rg_eua_1"], "buildings/house_blue": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/shop": ["kit/rg_eua_3", "kit/rg_eua_1", "kit/rg_eua_2"], "buildings/apartment": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/church": ["kit/rg_eua_3", "kit/rg_eua_1", "kit/rg_eua_2"], "buildings/barn": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/castle_tower": ["kit/rg_eua_3"], "buildings/windmill": ["kit/rg_eua_1"], "nature/tree_oak": ["kit/veg_bananeira", "nature/tree_palm"], "nature/bush": ["kit/veg_hibisco"], "nature/flowerbed": ["kit/veg_hibisco"], "vehicles/tank": ["kit/tanque_moderno"], "ship": ["kit/navio_moderno"]}; globalThis.REGCHAO = "#8a8c93"; globalThis.ASFALTO = true; globalThis.PRAIA = false; globalThis.SEM_NAVIO = true;
 const X = 6000, DK = 6; const X_hall = 8000; const X_harbor = 5000; const X_mountain = 3000; const X_street = 12000;
 const WS = (i, off = 0) => TIMING.words[Math.min(i, TIMING.words.length - 1)][0] + off;   // frame em que a palavra de indice i comeca
 const A = [0, WS(15, -3), WS(27, -3), WS(48, -3), WS(64, -3), WS(79, -3), WS(94, -3), WS(108, -3), WS(124, -3), WS(136, -3), WS(150, -3), WS(166, -3), TOTAL_F()];
@@ -27,4 +27,4 @@ const SPEC = {
   ],
 };
 
-// FOLHA3 a4b1bed4baeb 36 acoes=36 faltando=0
+// FOLHA3 0279d404773a 34 acoes=34 faltando=0

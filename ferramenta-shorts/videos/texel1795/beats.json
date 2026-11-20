@@ -29,7 +29,7 @@
    "jacket": "#2b4a9c",
    "pants": "#c0262d",
    "boots": "#1b1b1f",
-   "hat": "shako",
+   "hat": "shako_tall",
    "sash": "#e8c45a",
    "buttons": "#e8c45a",
    "moustache_on": "#4a3020",
@@ -47,12 +47,9 @@
  },
  "beats": [
   {
-   "say": "Em mil setecentos e noventa e cinco, a França entrou na Holanda, e fazia um frio absurdo.",
-   "shot": "two",
-   "who": [
-    "FRA:0:stern",
-    "NED:0:nervous"
-   ],
+   "say": "Em mil setecentos e noventa e cinco, a França invadia a Holanda, e fazia um frio absurdo.",
+   "shot": "wide",
+   "who": [],
    "props": [
     [
      "ship",
@@ -99,7 +96,7 @@
    "set": "harbor"
   },
   {
-   "say": "Os navios ficaram presos no gelo, um ao lado do outro.",
+   "say": "Os navios ficaram presos no gelo, como carros num congestionamento.",
    "shot": "wide",
    "who": [
     "NED:2:pained"
@@ -129,8 +126,7 @@
      -1.6,
      1.0
     ]
-   ],
-   "set": "harbor"
+   ]
   },
   {
    "say": "Do outro lado, os franceses tinham cavalaria, os hussardos, e nenhum navio.",
@@ -160,12 +156,11 @@
    ],
    "text": "A CAVALO?",
    "tat": 9,
-   "tstyle": "red",
-   "set": "hall"
+   "tstyle": "red"
   },
   {
    "say": "Na noite de vinte e três de janeiro, os hussardos atravessaram o gelo, com panos nos cascos dos cavalos para não fazer barulho.",
-   "shot": "crowd",
+   "shot": "track",
    "who": [
     "FRA:0:stern",
     "FRA:2:neutral"
@@ -208,7 +203,7 @@
   },
   {
    "say": "Foram mais de uma dezena de navios capturados por soldados a cavalo.",
-   "shot": "crowd",
+   "shot": "wide",
    "who": [
     "FRA:0:laugh",
     "FRA:2:grin"

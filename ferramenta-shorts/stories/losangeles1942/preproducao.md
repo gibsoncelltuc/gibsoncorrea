@@ -13,7 +13,7 @@ b5 | harbor | two | 2 | discutir, INTERAGEM: discutir | kit/marco_hollywood | - 
 b6 | street | crowd | 22 | encena, batalha | kit/marco_hollywood, cannon, buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b7 | interior madeira | two | 2 | conversar, INTERAGEM: susto | - | paper | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: entregar, alguem chega andando | - | paper | -
-b9 | harbor | close | 1 | conversar | kit/searchlight, kit/marco_hollywood | - | -
+b9 | street | close | 1 | conversar | kit/searchlight, kit/marco_hollywood | - | -
 
 OBJETO HEROI: kit/searchlight - aparece em 3 cena(s), close nele em 2
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 3 -> b2, b4, b6

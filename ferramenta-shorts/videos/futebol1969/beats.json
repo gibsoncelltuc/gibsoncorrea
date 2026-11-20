@@ -41,13 +41,11 @@
    "build": "stout"
   },
   "SOL": {
-   "jacket": "#6a6a48",
-   "pants": "#4a4a30",
+   "jacket": "#5d7a3a",
+   "pants": "#4a5a2a",
    "boots": "#2a2218",
-   "hat": "cap",
-   "cap": "#5a5a3c",
-   "rifle": true,
-   "uniforme_fixo": true
+   "hat": "helmet",
+   "rifle": true
   }
  },
  "beats": [
@@ -63,22 +61,27 @@
    "say": "Dois países entraram em guerra depois de um jogo de futebol."
   },
   {
-   "shot": "two",
+   "shot": "reveal",
    "who": [
-    "HON:0:angry",
-    "SAL:0:shout"
+    "TOR:0:stern",
+    "TOR:1:angry"
    ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "TOR"
+    ],
+    "march": false
+   },
    "mapa": "AMÉRICA CENTRAL",
    "mapa_at": 3,
-   "say": "Era mil novecentos e sessenta e nove. Honduras e El Salvador, dois vizinhos, já viviam discutindo por terra e por fronteira.",
+   "say": "Era mil novecentos e sessenta e nove. Honduras e El Salvador, dois vizinhos, já viviam brigando por terra e por fronteira.",
    "fx": [
     "puff@70"
    ],
    "sfx": [
     "thump@70"
-   ],
-   "interacao": "empurrar",
-   "acao": "discutir"
+   ]
   },
   {
    "shot": "two",
@@ -125,37 +128,18 @@
     "ding@30",
     "thump@70"
    ],
-   "say": "No primeiro, Honduras venceu em casa. A torcida passou a noite batendo panelas na porta do hotel dos visitantes.",
-   "hora": "dia"
+   "say": "No primeiro, Honduras venceu em casa. A torcida passou a noite batendo panelas na porta do hotel dos visitantes."
   },
   {
-   "shot": "crowd",
+   "shot": "two",
    "who": [
-    "SOL:0:angry",
-    "TOR:0:shout"
+    "TOR:0:angry",
+    "TOR:1:shout"
    ],
-   "say": "No segundo, El Salvador revidou. Torcedores brigaram nas ruas, e os dois governos trocaram insultos.",
-   "hora": "dia",
-   "fx": [
-    "burst@45",
-    "burst@75"
-   ],
-   "sfx": [
-    "thump@45",
-    "thump@75"
-   ],
-   "batalha": true,
-   "tiros": false,
-   "crowd": {
-    "n": 16,
-    "outfits": [
-     "TOR",
-     "HON"
-    ],
-    "march": false,
-    "expr": "angry"
-   },
-   "impact": true
+   "interacao": "empurrar",
+   "acao": "discutir",
+   "say": "No segundo, El Salvador deu o troco. Torcedores brigaram nas ruas, e os dois governos trocaram insultos.",
+   "hora": "dia"
   },
   {
    "shot": "two",
@@ -164,7 +148,7 @@
     "PRE:0:angry:paper",
     "PRE:1:nervous"
    ],
-   "say": "Acontece que, no dia do terceiro jogo, El Salvador rompeu relações com o vizinho.",
+   "say": "Acontece que, no dia do terceiro jogo, El Salvador cortou relações com o vizinho.",
    "hora": "dia"
   },
   {
@@ -245,8 +229,5 @@
    ],
    "say": "E na Copa, El Salvador perdeu os três jogos, sem fazer um único gol."
   }
- ],
- "ano": 1969,
- "regiao": "colonial",
- "exp": 1.0
+ ]
 }

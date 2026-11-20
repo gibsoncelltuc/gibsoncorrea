@@ -183,7 +183,7 @@
    "say": "Mais de oitenta mil pessoas lotaram o estádio, para ver a Batalha dos Bilionários."
   },
   {
-   "shot": "two",
+   "shot": "group",
    "who": [
     "LAS:0:angry",
     "UMA:0:shout"
@@ -227,7 +227,8 @@
    "sfx": [
     "sting@30"
    ],
-   "say": "Acontece que o juiz convidado era Steve Austin, famoso por derrubar todo mundo. A luta virou bagunça."
+   "say": "Acontece que o juiz convidado era Steve Austin, famoso por derrubar todo mundo. A luta virou bagunça.",
+   "detalhe": false
   },
   {
    "shot": "crowd",

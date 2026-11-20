@@ -1,24 +1,24 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 13 - Você Está Demitido
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 177 palavras (~61 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 183 palavras (~63 s)
 
-## Cena b0  (~4.8 s)
-- Narracao: Duas palavras transformaram um empresário de Nova York numa estrela mundial: você está demitido.
+## Cena b0  (~5.5 s)
+- Narracao: Duas palavras transformaram um empresário de Nova York numa estrela da televisão mundial: você está demitido.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: vira (up) @2 -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 2004
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~5.2 s)
 - Narracao: Em janeiro de dois mil e quatro, estreou nos Estados Unidos o programa O Aprendiz.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
+- Efeito visual marcado: ring@12, dust@40
 - Texto na tela: - | mapa: ESTADOS UNIDOS
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b2  (~5.2 s)
 - Narracao: Dezesseis candidatos disputavam um prêmio raro: um emprego de verdade numa empresa de Donald Trump.
@@ -31,18 +31,18 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b3  (~6.2 s)
 - Narracao: Toda semana, as equipes tinham uma tarefa de negócios, como vender limonada na rua ou criar uma propaganda.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
 - Efeito + som nas palavras-chave: vender -> stars + som de sino; encena: negocio (reach) @10 -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
-## Cena b4  (~5.2 s)
-- Narracao: No fim, a equipe perdedora ia para a sala de reunião, e alguém era eliminado.
+## Cena b4  (~5.9 s)
+- Narracao: No fim, a equipe perdedora ia para a sala de reunião, e alguém tinha que ir embora.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: encena: perde (facepalm) @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: perde (facepalm) @4 -> acao + som de efeito; encena: sai @16 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -83,11 +83,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: - | mapa: BRASIL
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~6.6 s)
-- Narracao: Trump apresentou o programa por mais de dez anos, até dois mil e quinze, quando foi para a política.
-- Som ambiente: silencio/sala
+## Cena b9  (~7.2 s)
+- Narracao: Trump apresentou o programa por mais de dez anos, e só saiu em dois mil e quinze, quando entrou na política.
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @1 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @1 -> acao + som de efeito; encena: sai @11 -> acao + som de efeito; encena: chega (point) @18 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

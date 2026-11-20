@@ -8,7 +8,7 @@
  "set": "outback",
  "light": "day",
  "mood": "playful",
- "heroi": "kit/scroll",
+ "heroi": "kit/tower_mini",
  "outfits": {
   "BUK": {
    "jacket": "#22252c",
@@ -40,13 +40,6 @@
     "beret",
     "bowler"
    ]
-  },
-  "PRE": {
-   "jacket": "#f4f4f0",
-   "pants": "#f4f4f0",
-   "boots": "#1b1b1f",
-   "hat": "none",
-   "uniforme_fixo": true
   }
  },
  "beats": [
@@ -101,18 +94,14 @@
    "say": "Por anos, El Salvador teve uma das maiores taxas de assassinato do mundo, por causa das gangues."
   },
   {
-   "shot": "group",
+   "shot": "two",
+   "interior": "loja",
    "who": [
-    "GUA:0:stern",
-    "PRE:0:sad",
-    "PRE:1:scared",
-    "PRE:2:sad"
+    "BUK:0:stern",
+    "GUA:0:stern"
    ],
-   "say": "Em dois mil e vinte e dois, o presidente Nayib Bukele decretou estado de exceção, e milhares de suspeitos foram presos.",
-   "props": [],
-   "set": "street",
-   "shot_lock": true,
-   "move": 0
+   "interacao": "entregar",
+   "say": "Em dois mil e vinte e dois, o presidente Nayib Bukele decretou estado de exceção, e milhares de suspeitos foram presos."
   },
   {
    "shot": "crowd",
@@ -160,6 +149,12 @@
      0,
      -11.0,
      1.1
+    ],
+    [
+     "kit/tower_mini",
+     1.3,
+     -0.6,
+     1.0
     ]
    ],
    "fx": [
@@ -255,12 +250,13 @@
     [
      "kit/prison",
      -1.0,
-     -12.0,
-     0.9
+     -0.6,
+     0.22
     ]
    ],
    "acao": "conversar",
-   "say": "E o modelo passou a ser estudado, copiado e criticado em vários lugares do mundo."
+   "say": "E o modelo passou a ser estudado, copiado e criticado em vários lugares do mundo.",
+   "set": "outback"
   }
  ],
  "fontes": [

@@ -62,8 +62,7 @@
    "text": "3 GUERRAS",
    "tat": 16,
    "tstyle": "blue",
-   "mood": "march",
-   "set": "harbor"
+   "mood": "march"
   },
   {
    "say": "A Islândia é pequena, e vivia da pesca. Mas barcos ingleses pescavam bacalhau bem pertinho da costa dela.",
@@ -78,19 +77,11 @@
      2.8,
      0.8,
      1.1
-    ],
-    [
-     "kit/cod",
-     1.3,
-     0.6,
-     1.0
     ]
    ],
    "text": "BACALHAU",
    "tat": 14,
-   "tstyle": "brown",
-   "set": "harbor",
-   "detalhe": true
+   "tstyle": "brown"
   },
   {
    "say": "Então a Islândia aumentou os limites do seu mar: doze milhas, cinquenta, e por fim duzentas.",
@@ -114,10 +105,7 @@
    ],
    "text": "200 MILHAS",
    "tat": 14,
-   "tstyle": "gold",
-   "set": "street",
-   "mapa": "ISLÂNDIA",
-   "mapa_at": 1
+   "tstyle": "gold"
   },
   {
    "say": "A Inglaterra mandou a marinha para proteger os barcos de pesca.",
@@ -130,19 +118,12 @@
    "props": [
     [
      "ship",
-     -5.5,
-     -15,
-     1.1
-    ],
-    [
-     "ship",
-     6,
-     -17,
-     1.0
+     0,
+     -8,
+     1.4
     ]
    ],
-   "mood": "march",
-   "set": "harbor"
+   "mood": "march"
   },
   {
    "say": "A Islândia só tinha uns barquinhos da guarda costeira, mas eles tinham uma arma secreta: cortadores de rede.",
@@ -152,81 +133,45 @@
    ],
    "text": "CORTADORES DE REDE",
    "tat": 14,
-   "tstyle": "red",
-   "set": "countryside"
+   "tstyle": "red"
   },
   {
-   "say": "Eles cortavam os cabos das redes inglesas,",
-   "shot": "two",
-   "who": [
-    "ICE:0:grin",
-    "BRI:0:shock"
-   ],
-   "props": [
-    [
-     "kit/fishing_net",
-     -0.25,
-     -1.6,
-     2.4
-    ]
-   ],
-   "set": "harbor",
-   "mood": "tense",
-   "fx": [
-    "puff@25"
-   ],
-   "sfx": [
-    "thump@25"
-   ]
-  },
-  {
-   "say": "e os navios batiam um no outro, de propósito.",
+   "say": "Eles cortavam os cabos das redes inglesas, e os navios batiam um no outro, de propósito.",
    "shot": "wide",
    "who": [],
    "props": [
     [
      "ship",
-     -5,
-     -7,
-     1.5,
+     -9,
+     -6,
+     1.3,
      {
-      "mover": [
-       -0.9,
-       -7
+      "move": [
+       [
+        -2,
+        -6
+       ],
+       0,
+       0
       ]
      }
     ],
     [
      "ship",
-     5,
-     -7,
-     1.5,
-     {
-      "mover": [
-       0.9,
-       -7
-      ]
-     }
+     9,
+     -6,
+     1.3
     ]
    ],
    "fx": [
-    "burst@40",
-    "splash@44",
-    "burst@58"
+    "splash@50",
+    "burst@60"
    ],
    "sfx": [
-    "thump@40",
-    "creak@44",
-    "thump@58"
+    "thump@60",
+    "creak@62"
    ],
-   "mood": "tense",
-   "set": "harbor",
-   "batalha": false,
-   "tiros": false,
-   "shot_lock": true,
-   "move": 0,
-   "riscos_ok": true,
-   "impact": true
+   "mood": "tense"
   },
   {
    "say": "A Islândia ainda ameaçou fechar a base da Otan no país.",
@@ -238,8 +183,7 @@
    "text": "OTAN",
    "tat": 9,
    "tstyle": "blue",
-   "mood": "march",
-   "interior": "pedra"
+   "mood": "march"
   },
   {
    "say": "Em mil novecentos e setenta e seis, os ingleses cederam, e a ideia de uma zona de duzentas milhas se espalhou pelo mundo.",
@@ -251,11 +195,10 @@
    "text": "VITÓRIA ISLANDESA",
    "tat": 12,
    "tstyle": "gold",
-   "mood": "playful",
-   "interior": "madeira"
+   "mood": "playful"
   },
   {
-   "say": "Foi uma guerra de navios e de redes, e tudo por causa de um peixe.",
+   "say": "Foi uma guerra de navios batendo e de redes cortadas, e tudo por causa de um peixe.",
    "shot": "close",
    "who": [
     "PES:0:laugh"
@@ -266,24 +209,11 @@
      -1.8,
      0.7,
      1.0
-    ],
-    [
-     "kit/cod",
-     1.3,
-     0.6,
-     1.0
     ]
    ],
    "text": "TUDO POR UM PEIXE",
    "tat": 13,
-   "tstyle": "brown",
-   "set": "street"
+   "tstyle": "brown"
   }
- ],
- "ano": 1958,
- "regiao": "europa",
- "heroi": "kit/cod",
- "objetos_do_video": {
-  "\\bpeixes?\\b": "kit/cod"
- }
+ ]
 }

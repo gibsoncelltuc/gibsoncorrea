@@ -5,7 +5,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | street | two | 2 | conversar, INTERAGEM: aproxima-se | kit/xray_plate, kit/marco_wurzburg | paper | -
-b1 | street | reveal | 8 | parados (so fala e pisca) | kit/marco_wurzburg, buildings/apartment, buildings/house_two, nature/lamppost | - | -
+b1 | street | reveal | 8 | parados (so fala e pisca) | kit/marco_wurzburg, buildings/house_two, nature/lamppost | - | -
 b2 | interior madeira | two | 1 | conversar | kit/crookes_tube | - | -
 b3 | interior madeira | two | 1 | encena | kit/crookes_tube | paper | -
 b4 | interior madeira | low | 1 | conversar | kit/xray_plate | - | -

@@ -41,14 +41,6 @@
     "beret",
     "bowler"
    ]
-  },
-  "GEN": {
-   "jacket": "#1b1b22",
-   "pants": "#1b1b22",
-   "boots": "#1b1b1f",
-   "hat": "hair",
-   "hair": "#cfcfcf",
-   "uniforme_fixo": true
   }
  },
  "beats": [
@@ -102,20 +94,19 @@
   {
    "shot": "two",
    "who": [
-    "TRU:0:smug",
-    "POV:0:grin"
+    "ELE:0:grin",
+    "POV:0:suspicious"
    ],
    "props": [
     [
      "kit/ballot_box",
-     0.0,
-     0.6,
+     1.6,
+     -0.8,
      1.1
     ]
    ],
-   "say": "Milhões de americanos escolheram entre Trump e a vice-presidente Kamala Harris.",
-   "text": "TRUMP x HARRIS",
-   "tat": 10
+   "acao": "conversar",
+   "say": "Milhões de americanos foram às urnas escolher entre Trump e a vice-presidente Kamala Harris."
   },
   {
    "shot": "two",
@@ -141,8 +132,7 @@
     "sting@20",
     "ding@50"
    ],
-   "say": "Acontece que Trump venceu em todos os estados decisivos, e somou trezentos e doze votos no colégio eleitoral.",
-   "hora": "dia"
+   "say": "Acontece que Trump venceu em todos os estados decisivos, e somou trezentos e doze votos no colégio eleitoral."
   },
   {
    "shot": "crowd",
@@ -180,14 +170,15 @@
    ],
    "text": "312 VOTOS",
    "titulo": true,
-   "say": "Os apoiadores comemoraram a noite inteira. Trump subiu ao palco e declarou vitória.",
-   "hora": "dia"
+   "say": "Os apoiadores comemoraram a noite inteira. Trump subiu ao palco e declarou vitória."
   },
   {
-   "shot": "close",
+   "shot": "two",
    "who": [
-    "TRU:0:smug"
+    "REP:0:surprised:paper",
+    "POV:0:grin"
    ],
+   "acao": "conversar",
    "say": "Foi um feito raro: ele virou só o segundo presidente da história com dois mandatos separados."
   },
   {
@@ -214,9 +205,10 @@
    "say": "O primeiro foi Grover Cleveland, há mais de cento e trinta anos."
   },
   {
-   "shot": "close",
+   "shot": "two",
    "who": [
-    "TRU:0:grin"
+    "TRU:0:grin",
+    "GEN:0:stern"
    ],
    "props": [
     [
@@ -226,8 +218,8 @@
      1.4
     ]
    ],
-   "say": "Em vinte de janeiro de dois mil e vinte e cinco, ele voltou ao cargo.",
-   "acao": "comemorar"
+   "interacao": "entregar",
+   "say": "Em vinte de janeiro de dois mil e vinte e cinco, ele tomou posse de novo."
   },
   {
    "shot": "crowd",
@@ -285,6 +277,5 @@
   "https://ballotpedia.org/Presidential_election,_2024",
   "https://en.wikipedia.org/wiki/Second_presidency_of_Donald_Trump",
   "https://www.wbtv.com/2024/11/06/ap-projects-donald-trump-elected-2nd-term-2024-presidential-election/"
- ],
- "exp": 1.0
+ ]
 }

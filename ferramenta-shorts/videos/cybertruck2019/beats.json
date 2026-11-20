@@ -38,7 +38,7 @@
  "beats": [
   {
    "say": "Em novembro de dois mil e dezenove, na Califórnia, a empresa de Elon Musk apresentou o Cybertruck, uma picape elétrica de aço.",
-   "shot": "group",
+   "shot": "two",
    "who": [
     "MUS:0:grin",
     "DSG:0:smile"
@@ -46,17 +46,16 @@
    "props": [
     [
      "kit/cybertruck",
-     1.6,
-     -3.0,
-     0.8
+     2.2,
+     -2.0,
+     0.75
     ]
    ],
    "tiros": false,
    "batalha": false,
    "impact": false,
    "mapa": "CALIFÓRNIA",
-   "mapa_at": 3,
-   "set": "street"
+   "mapa_at": 3
   },
   {
    "say": "Na apresentação, Musk disse que as janelas eram feitas de um vidro super resistente.",
@@ -74,8 +73,7 @@
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false,
-   "set": "hall"
+   "impact": false
   },
   {
    "say": "Para provar, o designer Franz von Holzhausen jogou uma esfera de aço na janela.",
@@ -93,49 +91,54 @@
     ],
     [
      "kit/cybertruck",
-     2.6,
-     -3.0,
+     2.2,
+     -2.0,
      0.75
     ]
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false,
-   "set": "hall"
+   "impact": false
   },
   {
    "say": "E o vidro rachou, ao vivo, na frente de todo mundo.",
-   "shot": "close",
+   "shot": "reveal",
    "who": [
-    "MUS:0:shock"
+    "MUS:0:shock",
+    "DSG:0:scared"
    ],
    "fx": [
-    "burst@3",
-    "stars@6"
+    "burst@3"
    ],
    "sfx": [
-    "thump@3",
-    "ding@6"
+    "thump@3"
    ],
    "impact": true,
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
    "props": [
     [
-     "kit/window_crack",
-     0.9,
-     0.9,
-     2.2
+     "kit/cybertruck",
+     2.2,
+     -2.0,
+     0.75
     ]
    ],
    "tiros": false,
-   "batalha": false,
-   "set": "street",
-   "crowd_off": true
+   "batalha": false
   },
   {
    "say": "Ele tentou de novo, em outra janela, e ela também rachou.",
-   "shot": "close",
+   "shot": "two",
    "who": [
-    "DSG:0:nervous"
+    "DSG:0:nervous",
+    "MUS:0:surprised"
    ],
    "fx": [
     "burst@4"
@@ -145,16 +148,15 @@
    ],
    "props": [
     [
-     "kit/window_crack",
-     0.9,
-     0.9,
-     2.2
+     "kit/cybertruck",
+     2.2,
+     -2.0,
+     0.75
     ]
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false,
-   "set": "street"
+   "impact": false
   },
   {
    "say": "Depois, Musk explicou na internet que, nos ensaios, a mesma esfera tinha batido na mesma janela sem nem arranhar.",
@@ -172,8 +174,7 @@
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false,
-   "set": "hall"
+   "impact": false
   },
   {
    "say": "A plateia riu, a internet também, e a cena deu o que falar no mundo inteiro.",
@@ -200,8 +201,7 @@
    },
    "tiros": false,
    "batalha": false,
-   "impact": false,
-   "set": "street"
+   "impact": false
   },
   {
    "say": "Uma picape, uma esfera de aço e uma janela que não aguentou: um lançamento inesquecível.",
@@ -226,11 +226,9 @@
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false,
-   "set": "countryside"
+   "impact": false
   }
  ],
- "exp": 1.008,
- "marco": "kit/marco_hollywood",
- "cinf": 4.5
+ "exp": 0.9,
+ "marco": "kit/marco_hollywood"
 }

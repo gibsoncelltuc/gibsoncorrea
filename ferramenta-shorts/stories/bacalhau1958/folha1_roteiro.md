@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: As Guerras do Bacalhau
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 10 cenas, 154 palavras (~53 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 9 cenas, 156 palavras (~54 s)
 
 ## Cena b0  (~9.0 s)
 - Narracao: Entre mil novecentos e cinquenta e oito e mil novecentos e setenta e seis, a Islândia e a Inglaterra travaram três guerras. Por causa de peixe.
@@ -8,7 +8,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: 3 GUERRAS
+- Texto na tela: 3 GUERRAS | mapa: INGLATERRA
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~6.2 s)
@@ -26,7 +26,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: 200 MILHAS | mapa: ISLÂNDIA
+- Texto na tela: 200 MILHAS
 - Funcao na historia: desenvolvimento
 
 ## Cena b3  (~3.8 s)
@@ -40,32 +40,23 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b4  (~6.2 s)
 - Narracao: A Islândia só tinha uns barquinhos da guarda costeira, mas eles tinham uma arma secreta: cortadores de rede.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: x_pesca (lift) @17 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: CORTADORES DE REDE
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~2.4 s)
-- Narracao: Eles cortavam os cabos das redes inglesas,
-- Som ambiente: sea
-- Efeitos sonoros marcados: thump@25
+## Cena b5  (~5.5 s)
+- Narracao: Eles cortavam os cabos das redes inglesas, e os navios batiam um no outro, de propósito.
+- Som ambiente: sea | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: thump@60, creak@62
 - Efeito + som nas palavras-chave: encena: corta (hammer) @1 -> acao + som de efeito
-- Efeito visual marcado: puff@25
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b6  (~3.1 s)
-- Narracao: e os navios batiam um no outro, de propósito.
-- Som ambiente: sea
-- Efeitos sonoros marcados: thump@40, creak@44, thump@58
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: burst@40, splash@44, burst@58
+- Efeito visual marcado: splash@50, burst@60
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b7  (~3.8 s)
+## Cena b6  (~3.8 s)
 - Narracao: A Islândia ainda ameaçou fechar a base da Otan no país.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -74,7 +65,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: OTAN
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~7.9 s)
+## Cena b7  (~7.9 s)
 - Narracao: Em mil novecentos e setenta e seis, os ingleses cederam, e a ideia de uma zona de duzentas milhas se espalhou pelo mundo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -83,11 +74,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: VITÓRIA ISLANDESA
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~5.2 s)
-- Narracao: Foi uma guerra de navios e de redes, e tudo por causa de um peixe.
-- Som ambiente: silencio/sala
+## Cena b8  (~5.9 s)
+- Narracao: Foi uma guerra de navios batendo e de redes cortadas, e tudo por causa de um peixe.
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_bate (punch) @5 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: TUDO POR UM PEIXE
 - Funcao na historia: FECHO/PIADA FINAL

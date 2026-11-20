@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 17 - Bitcoin Feito com Vulcão
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.1s - 15 palavras - plano two
@@ -79,9 +79,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | comemorou (45.0s) | ACAO: vence | bracos para cima + brilho | OK |
 | 2 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | ATUACAO | comemorar | OK |
-| 5 | - | PLACA | VULCÃO | OK |
+| 3 | - | ATUACAO | comemorar | OK |
+| 4 | - | PLACA | VULCÃO | OK |
 
 ## Cena b9 - 49.0s a 53.5s - 14 palavras - plano two
 > "Anos depois, o governo contava quase quinhentos bitcoins minerados com a força do vulcão."
@@ -99,9 +98,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | anunciou (55.3s) | ACAO: fala | aponta explicando | OK |
 | 2 | construída (57.3s) | ACAO: constroi | martela e o objeto cresce | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | ATUACAO | reagir | OK |
-| 5 | - | PLACA | CIDADE BITCOIN | OK |
+| 3 | - | ATUACAO | reagir | OK |
+| 4 | - | PLACA | CIDADE BITCOIN | OK |
 
 ## Cena b11 - 59.9s a 64.1s - 10 palavras - plano close
 > "Dinheiro tirado de vulcão. Parece ficção, mas aconteceu de verdade."

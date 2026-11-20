@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b9  (~4.1 s)
 - Narracao: O único alvo derrotado naquela noite foi o sono de Los Angeles.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: derrotado -> puff + som de baque; encena: perde (facepalm) @3 -> acao + som de efeito
 - Efeito visual marcado: -

@@ -23,37 +23,17 @@
    "cap": "#a03030",
    "belt": "#2a2218",
    "rifle": true
-  },
-  "SIM": {
-   "profissao": "agricultor",
-   "jacket": "#6a5a3a",
-   "pants": "#4a3a2a",
-   "boots": "#2a2218",
-   "hat": "straw",
-   "fixo": true,
-   "uniforme_fixo": true,
-   "pais": "FIN"
-  },
-  "BRA": {
-   "jacket": "#f4f6fa",
-   "pants": "#e4ecf6",
-   "boots": "#c8d4e4",
-   "hat": "helmet",
-   "cap": "#f4f6fa",
-   "belt": "#8a7a50",
-   "rifle": true,
-   "uniforme_fixo": true,
-   "pais": "FIN",
-   "fixo": true
   }
  },
  "beats": [
   {
    "say": "Inverno de mil novecentos e trinta e nove. A União Soviética invadiu a Finlândia, com um exército enorme.",
-   "shot": "crowd",
+   "shot": "track",
    "who": [
     "SOV:0:stern",
-    "FIN:0:shock"
+    "SOV:1:stern",
+    "SOV:2:neutral",
+    "SOV:3:stern"
    ],
    "text": "1939",
    "tat": 0,
@@ -63,7 +43,7 @@
    "set": "arctic"
   },
   {
-   "say": "Os soldados finlandeses eram poucos, mas conheciam a floresta, a neve e o frio, de até quarenta graus abaixo de zero.",
+   "say": "Os soldados finlandeses eram poucos, mas conheciam a floresta, a neve e o frio, que chegava a quarenta graus abaixo de zero.",
    "shot": "group",
    "who": [
     "FIN:0:stern",
@@ -87,7 +67,7 @@
    "say": "Um deles era um fazendeiro baixinho chamado Simo Häyhä.",
    "shot": "close",
    "who": [
-    "SIM:0:smile"
+    "FIN:3:smile"
    ],
    "text": "SIMO HÄYHÄ",
    "tat": 8,
@@ -99,7 +79,7 @@
    "say": "Vestido de branco, ele esperava imóvel no meio da neve, horas a fio.",
    "shot": "low",
    "who": [
-    "BRA:0:stern"
+    "FIN:3:stern"
    ],
    "mood": "tense",
    "set": "mountain"
@@ -108,7 +88,7 @@
    "say": "Dizem que ele mantinha neve na boca, para o vapor da respiração não entregar a sua posição.",
    "shot": "close",
    "who": [
-    "BRA:0:neutral"
+    "FIN:3:neutral"
    ],
    "text": "NEVE NA BOCA",
    "tat": 5,
@@ -120,7 +100,7 @@
    "say": "Em cerca de cem dias, ele teve mais de quinhentos inimigos confirmados, com uma carabina de mira de ferro, sem luneta.",
    "shot": "two",
    "who": [
-    "BRA:0:stern",
+    "FIN:3:stern",
     "FIN:0:shock"
    ],
    "text": "100 DIAS",
@@ -152,7 +132,7 @@
    "say": "Em março de mil novecentos e quarenta, uma bala atingiu o rosto dele. Ele sobreviveu, e acordou no dia em que a guerra terminou.",
    "shot": "two",
    "who": [
-    "BRA:0:pained",
+    "FIN:3:pained",
     "FIN:1:nervous"
    ],
    "mood": "calm",
@@ -162,7 +142,7 @@
    "say": "Viveu até os noventa e seis anos, e nunca se achou herói. Dizia que só tinha feito o seu trabalho.",
    "shot": "close",
    "who": [
-    "BRA:0:smile"
+    "FIN:3:smile"
    ],
    "text": "SÓ FEZ O SEU TRABALHO",
    "tat": 17,

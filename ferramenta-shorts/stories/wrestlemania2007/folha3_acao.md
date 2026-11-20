@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 15 - Trump na Batalha dos Bilionários
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 41 acoes catalogadas, 41 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 5.4s - 19 palavras - plano two
@@ -46,11 +46,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | ATUACAO | comemorar | OK |
-| 3 | - | PLACA | 80 MIL | OK |
+| 1 | - | ATUACAO | comemorar | OK |
+| 2 | - | PLACA | 80 MIL | OK |
 
-## Cena b5 - 29.9s a 35.1s - 16 palavras - plano two
+## Cena b5 - 29.9s a 35.1s - 16 palavras - plano group
 > "No ringue, o lutador de Trump, Bobby Lashley, enfrentou o gigante Umaga, do lado de McMahon."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -75,9 +74,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | venceu (45.1s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | venceu (45.1s) | ACAO: vence | bracos para cima + brilho | OK |
 | 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | ATUACAO | comemorar | OK |
-| 6 | - | PLACA | VITÓRIA | OK |
+| 4 | - | ATUACAO | comemorar | OK |
+| 5 | - | PLACA | VITÓRIA | OK |
 
 ## Cena b8 - 48.6s a 52.6s - 14 palavras - plano two
 > "Trump e Lashley seguraram McMahon, e passaram a máquina de raspar na cabeça dele."

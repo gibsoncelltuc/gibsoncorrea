@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 21 - A Volta de Trump
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 156 palavras (~54 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 160 palavras (~55 s)
 
 ## Cena b0  (~6.2 s)
 - Narracao: Donald Trump perdeu a eleição de dois mil e vinte. Quatro anos depois, voltou para a Casa Branca.
@@ -20,13 +20,13 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: - | mapa: ESTADOS UNIDOS
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~3.8 s)
-- Narracao: Milhões de americanos escolheram entre Trump e a vice-presidente Kamala Harris.
+## Cena b2  (~4.8 s)
+- Narracao: Milhões de americanos foram às urnas escolher entre Trump e a vice-presidente Kamala Harris.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: voto (reach) @5 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: TRUMP x HARRIS
+- Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b3  (~3.8 s)
@@ -74,8 +74,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~5.2 s)
-- Narracao: Em vinte de janeiro de dois mil e vinte e cinco, ele voltou ao cargo.
+## Cena b8  (~5.5 s)
+- Narracao: Em vinte de janeiro de dois mil e vinte e cinco, ele tomou posse de novo.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

@@ -1,0 +1,333 @@
+{
+ "duration": 72.648,
+ "frames30": 2179,
+ "source": "silence-align (cost 0.90)",
+ "segments": [
+  [
+   0.152625,
+   3.14925
+  ],
+  [
+   4.03808,
+   4.816
+  ],
+  [
+   5.032,
+   6.05208
+  ],
+  [
+   6.9635,
+   8.40642
+  ],
+  [
+   8.61933,
+   9.62108
+  ],
+  [
+   10.4791,
+   11.8478
+  ],
+  [
+   12.7117,
+   14.7648
+  ],
+  [
+   15.0504,
+   17.6139
+  ],
+  [
+   18.4374,
+   19.6948
+  ],
+  [
+   19.954,
+   21.2632
+  ],
+  [
+   22.1335,
+   22.5258
+  ],
+  [
+   22.7413,
+   24.7325
+  ],
+  [
+   25.6014,
+   26.3624
+  ],
+  [
+   26.5605,
+   28.3647
+  ],
+  [
+   28.6032,
+   29.6722
+  ],
+  [
+   30.5426,
+   31.2245
+  ],
+  [
+   31.5068,
+   34.2056
+  ],
+  [
+   35.0644,
+   35.9278
+  ],
+  [
+   36.164,
+   36.5743
+  ],
+  [
+   36.7605,
+   37.9808
+  ],
+  [
+   38.8438,
+   40.3882
+  ],
+  [
+   40.5717,
+   41.3585
+  ],
+  [
+   42.2129,
+   43.3346
+  ],
+  [
+   44.2013,
+   45.4475
+  ],
+  [
+   45.7142,
+   48.1751
+  ],
+  [
+   49.0294,
+   49.7237
+  ],
+  [
+   50.0149,
+   50.863
+  ],
+  [
+   51.0897,
+   54.9902
+  ],
+  [
+   55.8558,
+   56.8945
+  ],
+  [
+   57.1827,
+   59.262
+  ],
+  [
+   59.4802,
+   61.6709
+  ],
+  [
+   62.5292,
+   64.7265
+  ],
+  [
+   65.5862,
+   66.4865
+  ],
+  [
+   67.2883,
+   68.7129
+  ],
+  [
+   68.9272,
+   69.9097
+  ],
+  [
+   70.2707,
+   71.8255
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Uma empresa de Elon Musk mostrou um macaco jogando videogame.",
+   "s": 0.153,
+   "e": 3.149
+  },
+  {
+   "text": "Sem as m\u00e3os,",
+   "s": 4.038,
+   "e": 4.816
+  },
+  {
+   "text": "s\u00f3 com o pensamento.",
+   "s": 5.032,
+   "e": 6.052
+  },
+  {
+   "text": "Foi em abril de dois mil e vinte e um,",
+   "s": 6.963,
+   "e": 8.406
+  },
+  {
+   "text": "nos Estados Unidos.",
+   "s": 8.619,
+   "e": 9.621
+  },
+  {
+   "text": "A empresa se chama Neuralink.",
+   "s": 10.479,
+   "e": 11.848
+  },
+  {
+   "text": "A ideia \u00e9 um chip implantado no c\u00e9rebro,",
+   "s": 12.712,
+   "e": 14.765
+  },
+  {
+   "text": "que l\u00ea os sinais dos neur\u00f4nios e manda para o computador.",
+   "s": 15.05,
+   "e": 17.614
+  },
+  {
+   "text": "O volunt\u00e1rio foi o Pager,",
+   "s": 18.437,
+   "e": 19.695
+  },
+  {
+   "text": "um macaco de nove anos.",
+   "s": 19.954,
+   "e": 21.263
+  },
+  {
+   "text": "Primeiro,",
+   "s": 22.134,
+   "e": 22.526
+  },
+  {
+   "text": "ele aprendeu a jogar Pong com um joystick.",
+   "s": 22.741,
+   "e": 24.733
+  },
+  {
+   "text": "A cada acerto,",
+   "s": 25.601,
+   "e": 26.362
+  },
+  {
+   "text": "ganhava um golinho de vitamina de banana,",
+   "s": 26.561,
+   "e": 28.365
+  },
+  {
+   "text": "por um canudinho de metal.",
+   "s": 28.603,
+   "e": 29.672
+  },
+  {
+   "text": "Enquanto isso,",
+   "s": 30.543,
+   "e": 31.224
+  },
+  {
+   "text": "o chip gravava o que os neur\u00f4nios faziam a cada movimento.",
+   "s": 31.507,
+   "e": 34.206
+  },
+  {
+   "text": "Acontece que,",
+   "s": 35.064,
+   "e": 35.928
+  },
+  {
+   "text": "um dia,",
+   "s": 36.164,
+   "e": 36.574
+  },
+  {
+   "text": "desligaram o joystick.",
+   "s": 36.761,
+   "e": 37.981
+  },
+  {
+   "text": "E o Pager continuou jogando,",
+   "s": 38.844,
+   "e": 40.388
+  },
+  {
+   "text": "s\u00f3 com a mente!",
+   "s": 40.572,
+   "e": 41.358
+  },
+  {
+   "text": "O v\u00eddeo rodou o mundo.",
+   "s": 42.213,
+   "e": 43.335
+  },
+  {
+   "text": "Muita gente se encantou,",
+   "s": 44.201,
+   "e": 45.447
+  },
+  {
+   "text": "e muita gente debateu o uso de animais na pesquisa.",
+   "s": 45.714,
+   "e": 48.175
+  },
+  {
+   "text": "O objetivo,",
+   "s": 49.029,
+   "e": 49.724
+  },
+  {
+   "text": "segundo a empresa,",
+   "s": 50.015,
+   "e": 50.863
+  },
+  {
+   "text": "\u00e9 ajudar pessoas paralisadas a usar computadores e celulares com o pensamento.",
+   "s": 51.09,
+   "e": 54.99
+  },
+  {
+   "text": "Em dois mil e vinte e quatro,",
+   "s": 55.856,
+   "e": 56.895
+  },
+  {
+   "text": "o primeiro paciente humano recebeu o chip,",
+   "s": 57.183,
+   "e": 59.262
+  },
+  {
+   "text": "e jogou xadrez no computador s\u00f3 pensando.",
+   "s": 59.48,
+   "e": 61.671
+  },
+  {
+   "text": "Ele n\u00e3o mexia o corpo do pesco\u00e7o para baixo.",
+   "s": 62.529,
+   "e": 64.727
+  },
+  {
+   "text": "E voltou a jogar.",
+   "s": 65.586,
+   "e": 66.487
+  },
+  {
+   "text": "E tudo come\u00e7ou com um macaco,",
+   "s": 67.288,
+   "e": 68.713
+  },
+  {
+   "text": "um videogame antigo,",
+   "s": 68.927,
+   "e": 69.91
+  },
+  {
+   "text": "e um copo de vitamina de banana.",
+   "s": 70.271,
+   "e": 71.826
+  }
+ ]
+}

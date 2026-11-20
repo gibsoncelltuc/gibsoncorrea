@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 26 - O Presidente dos 85 por Cento
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.8s - 20 palavras - plano two
@@ -71,9 +71,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | comemorou (44.7s) | ACAO: vence | bracos para cima + brilho | OK |
 | 2 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | ATUACAO | comemorar | OK |
-| 5 | - | PLACA | 84,6% | OK |
+| 3 | - | ATUACAO | comemorar | OK |
+| 4 | - | PLACA | 84,6% | OK |
 
 ## Cena b8 - 48.0s a 52.3s - 15 palavras - plano two
 > "O motivo mais citado pelos eleitores: a queda enorme no número de assassinatos no país."
@@ -83,7 +82,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | eleitores (49.4s) | ACAO: voto | poe o voto na urna | OK |
 | 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | conversar | OK |
-| 4 | - | PLACA | MENOS ASSASSINATOS | OK |
 
 ## Cena b9 - 53.4s a 58.3s - 15 palavras - plano two
 > "Organizações de direitos humanos, porém, criticaram as prisões em massa e o estado de exceção."

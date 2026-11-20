@@ -46,23 +46,5 @@
   "kit/searchlight",
   1.0,
   false
- ],
- [
-  "\\\\bbaterias?\\\\b",
-  "kit/megapack",
-  1.0,
-  false
- ],
- [
-  "\\\\b(bifes?|steaks?)\\\\b",
-  "kit/steak",
-  1.0,
-  false
- ],
- [
-  "\\b(pranchas?|surfe|surf|surfistas?)\\b",
-  "kit/surfboard",
-  1.0,
-  false
  ]
 ]

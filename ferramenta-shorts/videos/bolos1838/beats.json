@@ -60,8 +60,7 @@
     "OFI:0:laugh"
    ],
    "text": "1838",
-   "say": "A França invadiu o México por causa de uma conta de confeitaria.",
-   "batalha": true
+   "say": "A França invadiu o México por causa de uma conta de confeitaria."
   },
   {
    "shot": "two",
@@ -71,15 +70,7 @@
    ],
    "mapa": "MÉXICO",
    "mapa_at": 6,
-   "say": "Um confeiteiro francês tinha uma loja perto da Cidade do México, famosa pelos doces.",
-   "props": [
-    [
-     "kit/cake_table",
-     1.4,
-     0.5,
-     1.0
-    ]
-   ]
+   "say": "Um confeiteiro francês tinha uma loja perto da Cidade do México, famosa pelos doces."
   },
   {
    "shot": "group",
@@ -120,15 +111,7 @@
     "GEN:0:laugh",
     "OFI:0:grin"
    ],
-   "say": "O México riu da cobrança, e não pagou um centavo.",
-   "props": [
-    [
-     "kit/cake_table",
-     1.4,
-     0.5,
-     1.0
-    ]
-   ]
+   "say": "O México riu da cobrança, e não pagou um centavo."
   },
   {
    "shot": "reveal",
@@ -145,7 +128,7 @@
    },
    "text": "A MARINHA",
    "titulo": true,
-   "say": "Acontece que a França mandou mesmo. Navios de guerra bloquearam todos os portos do país."
+   "say": "Acontece que a França mandou mesmo. Navios de guerra fecharam todos os portos do país."
   },
   {
    "shot": "crowd",
@@ -163,7 +146,7 @@
     "march": false,
     "expr": "shock"
    },
-   "say": "Os canhões franceses bombardearam a fortaleza de Veracruz, e os soldados conquistaram a cidade."
+   "say": "Os canhões franceses bombardearam a fortaleza de Veracruz, e os soldados tomaram a cidade."
   },
   {
    "shot": "two",
@@ -196,6 +179,5 @@
    "say": "Nunca um doce custou tão caro."
   }
  ],
- "marco": "kit/marco_ulua",
- "heroi": "kit/cake_table"
+ "marco": "kit/marco_ulua"
 }

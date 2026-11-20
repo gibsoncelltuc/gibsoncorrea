@@ -70,8 +70,7 @@
      -2.4,
      1.2
     ]
-   ],
-   "detalhe": true
+   ]
   },
   {
    "shot": "reveal",
@@ -129,6 +128,7 @@
   },
   {
    "shot": "two",
+   "set": "mountain",
    "who": [
     "BUL:0:angry",
     "GRE:0:scared"
@@ -141,27 +141,18 @@
     "gun@60"
    ],
    "say": "Do outro lado, uma sentinela búlgara viu um estranho armado, e atirou.",
-   "props": [],
-   "set": "countryside"
+   "props": []
   },
   {
    "shot": "two",
+   "set": "mountain",
    "who": [
     "GRE:0:sad",
     "GRE:1:angry"
    ],
    "interacao": "susto",
-   "say": "Acontece que o soldado morreu, e a Grécia fez um ultimato furioso à Bulgária.",
-   "props": [
-    [
-     "kit/dog_sit",
-     -1.4,
-     -0.2,
-     1.1
-    ]
-   ],
-   "set": "countryside",
-   "detalhe": true
+   "say": "Acontece que o soldado morreu, e a Grécia deu um ultimato furioso à Bulgária.",
+   "props": []
   },
   {
    "shot": "crowd",
@@ -210,6 +201,7 @@
   },
   {
    "shot": "close",
+   "set": "mountain",
    "who": [
     "GRE:0:sad"
    ],
@@ -228,11 +220,8 @@
      1.5,
      1.5
     ]
-   ],
-   "set": "street"
+   ]
   }
  ],
- "exp": 1.0,
- "ano": 1925,
- "regiao": "europa"
+ "exp": 1.0
 }

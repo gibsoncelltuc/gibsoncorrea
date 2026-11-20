@@ -16,7 +16,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): HON (variante 0, expressao angry); SAL (variante 0, expressao shout) | multidao: 8 de HON/SAL/TOR
+- Personagens principais (2): TOR (variante 0, expressao stern); TOR (variante 1, expressao angry) | multidao: 8 de TOR
 - Animacao: discutir
 - Objetos/modelos: kit/volcano, buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
@@ -33,7 +33,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - No primeiro, Honduras venceu em casa. A torcida passou a noite batendo...
-- Cenario: stadium | luz: dia | clima: limpo
+- Cenario: stadium | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): HON (variante 0, expressao laugh); SAL (variante 0, expressao sad) | multidao: 30 de TOR/HON
@@ -42,17 +42,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): hotel, porta, torcida, visitantes
 - RISCOS: nenhum
 
-## Cena b4 - No segundo, El Salvador revidou. Torcedores brigaram nas ruas, e os do...
+## Cena b4 - No segundo, El Salvador deu o troco. Torcedores brigaram nas ruas, e o...
 - Cenario: street | luz: dia | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): SOL (variante 0, expressao angry); TOR (variante 0, expressao shout) | multidao: 16 de TOR/HON
-- Animacao: discutir | batalha encenada
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
+- Personagens principais (2): TOR (variante 0, expressao angry); TOR (variante 1, expressao shout)
+- Animacao: discutir | interacao: empurrar
 - Objetos/modelos: kit/volcano
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, ruas
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, ruas, troco
 - RISCOS: nenhum
 
-## Cena b5 - Acontece que, no dia do terceiro jogo, El Salvador rompeu relações com...
+## Cena b5 - Acontece que, no dia do terceiro jogo, El Salvador cortou relações com...
 - Cenario: interior madeira | luz: dia | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
@@ -74,7 +74,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Duas semanas depois, tanques e aviões cruzaram a fronteira. A guerra t...
 - Cenario: street | luz: dia | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): SOL (variante 0, expressao stern); SOL (variante 1, expressao angry) | multidao: 20 de SOL
 - Animacao: - | batalha encenada
@@ -118,8 +118,8 @@ vehicles/airplane | b7 | pronto | conferir na folha de contato se le bem; se par
 
 
 ## Video inteiro
-- Objeto heroi: kit/ball | grandes momentos: b3, b4, b7 | planos abertos: 4 | mistura: close 16% | medio 59% | aberto 19% | detalhe 6%
-- Interacoes: b0 discutir, b2 aproxima-se, b5 susto, b6 pular, b8 avanca e o outro recua
+- Objeto heroi: kit/ball | grandes momentos: b3, b7 | planos abertos: 3 | mistura: close 14% | medio 65% | aberto 16% | detalhe 6%
+- Interacoes: b0 discutir, b2 aproxima-se, b4 empurrar, b5 susto, b6 pular, b8 avanca e o outro recua
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

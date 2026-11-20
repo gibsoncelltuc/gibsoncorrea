@@ -108,8 +108,7 @@
     "SOL:0:nervous"
    ],
    "interacao": "cochichar",
-   "say": "Na véspera, um submarino japonês tinha atirado na Califórnia, e todo mundo achava que vinha mais.",
-   "set": "harbor"
+   "say": "Na véspera, um submarino japonês tinha atirado na Califórnia, e todo mundo achava que vinha mais."
   },
   {
    "shot": "two",
@@ -182,8 +181,7 @@
     "GEN:0:surprised"
    ],
    "acao": "discutir",
-   "say": "\"É um inimigo!\", gritou um soldado. Acontece que não havia nada ali, só nuvens e fumaça.",
-   "set": "countryside"
+   "say": "\"É um inimigo!\", gritou um soldado. Acontece que não havia nada ali, só nuvens e fumaça."
   },
   {
    "shot": "crowd",
@@ -236,6 +234,7 @@
   },
   {
    "shot": "close",
+   "set": "street",
    "hora": "amanhecer",
    "who": [
     "CID:0:smile"
@@ -248,13 +247,9 @@
      1.0
     ]
    ],
-   "say": "O único alvo derrotado naquela noite foi o sono de Los Angeles.",
-   "set": "harbor"
+   "say": "O único alvo derrotado naquela noite foi o sono de Los Angeles."
   }
  ],
- "cinf": 1.5,
- "exp": 1.404,
- "ano": 1942,
- "regiao": "eua",
- "light": "golden"
+ "cinf": 4.5,
+ "exp": 1.12
 }

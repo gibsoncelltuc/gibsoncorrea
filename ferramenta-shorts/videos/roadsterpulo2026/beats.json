@@ -8,7 +8,7 @@
  "set": "outback",
  "light": "day",
  "mood": "playful",
- "heroi": "kit/roadster26",
+ "heroi": "kit/roadster26_air",
  "outfits": {
   "MUS": {
    "jacket": "#16181d",
@@ -124,56 +124,59 @@
    ]
   },
   {
-   "shot": "wide",
+   "shot": "crowd",
    "who": [
     "POV:0:surprised",
+    "POV:1:shock",
     "MUS:0:grin"
    ],
-   "batalha": false,
+   "batalha": true,
    "tiros": false,
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "surprised"
+   },
    "props": [
     [
+     "vehicles/truck",
+     -3.0,
+     -6.0,
+     1.0
+    ],
+    [
      "vehicles/car",
-     -2.6,
-     -7,
-     1.1
+     0,
+     -6.0,
+     1.0
     ],
     [
      "vehicles/car_blue",
-     0,
-     -7,
-     1.1
-    ],
-    [
-     "vehicles/truck",
-     2.6,
-     -7,
-     1.1
+     3.0,
+     -6.0,
+     1.0
     ],
     [
      "kit/roadster26_air",
      0,
-     -7,
-     1.2,
-     {
-      "y": 2.4
-     }
+     -7.0,
+     1.1
     ]
    ],
    "fx": [
     "whoosh@20",
-    "burst@60"
+    "puff@40"
    ],
    "sfx": [
     "whoosh@20",
-    "thump@60"
+    "thump@40"
    ],
    "text": "PULOU!",
    "titulo": true,
-   "say": "Acontece que, na frente da plateia, o carro acelerou e pulou por cima de cinco outros carros da Tesla.",
-   "set": "outback",
-   "impact": true,
-   "shot_lock": true
+   "say": "Acontece que, na frente da plateia, o carro acelerou e pulou por cima de cinco outros carros da Tesla."
   },
   {
    "shot": "low",

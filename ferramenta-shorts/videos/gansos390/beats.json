@@ -259,14 +259,11 @@
    "who": [
     "ROM:2:grin"
    ],
-   "say": "E os guardas, que dormiram a noite inteira, foram castigados.",
+   "say": "E os guardas, que dormiram a noite inteira, ganharam um castigo.",
    "hora": "dia"
   }
  ],
  "cinf": 4.5,
  "exp": 1.12,
- "heroi": null,
- "ano": 390,
- "regiao": "classico",
- "light": "golden"
+ "heroi": null
 }

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 18 - A Guerra do Cão Fugitivo
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 42 acoes catalogadas, 42 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 44 acoes catalogadas, 44 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.1s - 17 palavras - plano track
@@ -11,11 +11,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | fugiu (0.8s) | EFEITO: dust | poeira + som | OK |
 | 2 | fugiu (0.8s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
-| 3 | morreram (5.1s) | EFEITO: puff | fumaca + som | OK |
-| 4 | morreram (5.1s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
-| 5 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 6 | - | ATUACAO | discutir | OK |
-| 7 | - | PLACA | 1925 | OK |
+| 3 | entraram (2.8s) | ACAO: chega | entra andando pela lateral | OK |
+| 4 | morreram (5.1s) | EFEITO: puff | fumaca + som | OK |
+| 5 | morreram (5.1s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
+| 6 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 7 | - | ATUACAO | discutir | OK |
+| 8 | - | PLACA | 1925 | OK |
 
 ## Cena b1 - 6.4s a 11.8s - 23 palavras - plano reveal
 > "Em mil novecentos e vinte e cinco, a fronteira entre a Grécia e a Bulgária era tensa, e os dois países viviam desconfiados."
@@ -56,15 +57,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 8 | - | ATUACAO | conversar | OK |
 
 ## Cena b5 - 28.8s a 32.7s - 14 palavras - plano low
-> "Acontece que o soldado morreu, e a Grécia fez um ultimato furioso à Bulgária."
+> "Acontece que o soldado morreu, e a Grécia deu um ultimato furioso à Bulgária."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | morreu (30.0s) | EFEITO: puff | fumaca + som | OK |
 | 2 | morreu (30.0s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
-| 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 4 | - | INTERACAO | susto | OK |
-| 5 | - | ATUACAO | conversar | OK |
+| 3 | deu (31.1s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 4 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 5 | - | INTERACAO | susto | OK |
+| 6 | - | ATUACAO | conversar | OK |
 
 ## Cena b6 - 33.9s a 40.3s - 22 palavras - plano orbit
 > "Poucos dias depois, o exército grego invadiu a Bulgária e ocupou a região de Petrich, e dezenas de pessoas morreram nos combates."

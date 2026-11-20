@@ -16,8 +16,7 @@
    "hat": "turban",
    "cap": "#c0262d",
    "sash": "#e8c45a",
-   "build": "stout",
-   "profissao": "rei"
+   "build": "stout"
   },
   "GUA": {
    "jacket": "#b5333a",
@@ -140,7 +139,7 @@
    },
    "text": "9:02",
    "titulo": true,
-   "say": "Acontece que, às nove e dois, os navios ingleses começaram a disparar. O palácio de madeira começou a desabar, e a pegar fogo."
+   "say": "Acontece que, às nove e dois, os navios ingleses abriram fogo. O palácio de madeira começou a desabar, e a pegar fogo."
   },
   {
    "shot": "track",
@@ -168,7 +167,7 @@
   {
    "shot": "group",
    "who": [
-    "SUL:0:smile",
+    "ALM:0:smile:paper",
     "ING:0:grin",
     "POV:0:nervous"
    ],
@@ -182,7 +181,5 @@
    "say": "E ainda mandaram a conta das balas para Zanzibar."
   }
  ],
- "exp": 0.9,
- "ano": 1896,
- "regiao": "africa"
+ "exp": 0.9
 }

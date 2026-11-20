@@ -10,12 +10,10 @@
    "jacket": "#8a7a4a",
    "pants": "#6e6038",
    "boots": "#2a2218",
-   "hat": "shako",
+   "hat": "slouch",
    "cap": "#8a7a50",
    "belt": "#4a3a24",
-   "rifle": true,
-   "uniforme_fixo": true,
-   "profissao": "general"
+   "rifle": true
   },
   "FARM": {
    "jacket": "#7a9ac2",
@@ -27,8 +25,7 @@
     "cap",
     "straw"
    ],
-   "cap": "#d8c070",
-   "profissao": "agricultor"
+   "cap": "#d8c070"
   },
   "PRESS": {
    "jacket": "#7a4a8a",
@@ -186,22 +183,30 @@
     "AUS:1:pained"
    ],
    "text": "1 SEMANA",
-   "tat": 0
+   "tat": 0,
+   "emus": {
+    "n": 6,
+    "mode": "stand",
+    "x": 5.0,
+    "z": 0.5,
+    "cols": 3
+   }
   },
   {
-   "say": "A tropa fugiu. A imprensa gargalhou, e o comandante admitiu: \"Eles aguentam bala como tanques.\"",
-   "shot": "track",
+   "say": "A tropa bateu em retirada. A imprensa gargalhou, e o comandante admitiu: \"Eles aguentam bala como tanques.\"",
+   "shot": "group",
    "who": [
     "AUS:0:pained",
-    "PRESS:0:grin:paper"
+    "PRESS:0:grin:paper",
+    "PRESS:1:smile"
    ],
    "text": "HA HA HA",
    "tat": 8,
    "tstyle": "gold",
    "crowd": {
-    "n": 6,
+    "n": 12,
     "outfit": "AUS",
-    "march": true
+    "march": false
    }
   },
   {
@@ -231,39 +236,42 @@
    }
   },
   {
-   "say": "No fim, o governo desistiu da guerra, e passou a oferecer um prêmio aos fazendeiros por cada emu abatido.",
+   "say": "No fim, o governo desistiu da guerra, e passou a pagar recompensa aos fazendeiros por cada emu abatido.",
    "shot": "two",
    "who": [
     "FARM:0:smile",
     "FARM:1:grin"
    ],
-   "text": "PRÊMIO",
+   "text": "RECOMPENSA",
    "tat": 9,
    "light": "golden",
-   "detalhe": false
+   "emus": {
+    "n": 3,
+    "mode": "stand",
+    "x": 4.5,
+    "z": 0.5,
+    "cols": 3
+   }
   },
   {
    "say": "Humanos, zero. Emus, um.",
-   "shot": "group",
+   "shot": "close",
    "who": [
-    "AUS:0:pained",
-    "AUS:1:sad"
+    "AUS:0:pained"
    ],
    "emus": {
     "n": 3,
     "mode": "stand",
-    "x": 3.5,
-    "z": 0.5,
+    "x": 2.8,
+    "z": 0.3,
     "cols": 3
    },
    "text": "HUMANOS 0 - 1 EMUS",
    "tat": 0,
    "tstyle": "gold",
    "light": "golden",
-   "titulo": true,
-   "detalhe": false
+   "titulo": true
   }
  ],
- "heroi": null,
- "ano": 1932
+ "heroi": null
 }

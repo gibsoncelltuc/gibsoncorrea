@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - A Invasão da Ilha Vazia
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 23 acoes catalogadas, 23 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 21 acoes catalogadas, 21 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 7.7s - 23 palavras - plano two
@@ -9,16 +9,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-| 2 | - | PLACA | KISKA 1943 | OK |
+| 1 | - | PLACA | KISKA 1943 | OK |
 
 ## Cena b1 - 9.2s a 14.1s - 16 palavras - plano reveal
 > "Foram mais de trinta e quatro mil soldados americanos e canadenses, com navios, aviões e tanques."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | MAPA | ALASCA | OK |
-| 2 | - | PLACA | 34.000 SOLDADOS | OK |
+| 1 | - | PLACA | 34.000 SOLDADOS | OK |
 
 ## Cena b2 - 15.4s a 18.1s - 8 palavras - plano group
 > "Antes do desembarque, bombardearam a ilha durante semanas."

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 05 - Os Gansos que Salvaram Roma
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.4s - 10 palavras - plano two
@@ -94,10 +94,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | DESFILE | OK |
 
-## Cena b9 - 57.9s a 60.7s - 10 palavras - plano close
-> "E os guardas, que dormiram a noite inteira, foram castigados."
+## Cena b9 - 57.9s a 60.9s - 11 palavras - plano close
+> "E os guardas, que dormiram a noite inteira, ganharam um castigo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | ganharam (60.3s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | ganharam (60.3s) | ACAO: vence | bracos para cima + brilho | OK |
+| 3 | - | ATUACAO | conversar | OK |
 

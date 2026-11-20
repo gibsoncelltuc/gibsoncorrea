@@ -65,7 +65,8 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Em fevereiro de dois mil e vinte e quatro, um presidente foi reeleito com uma das maiores votações do mundo."
+   "say": "Em fevereiro de dois mil e vinte e quatro, um presidente foi reeleito com uma das maiores votações do mundo.",
+   "interior": "pedra"
   },
   {
    "shot": "reveal",
@@ -90,11 +91,12 @@
    ],
    "sfx": [
     "ding@40"
-   ]
+   ],
+   "interior": "pedra"
   },
   {
    "shot": "two",
-   "interior": "madeira",
+   "interior": "pedra",
    "who": [
     "JUI:0:stern:paper",
     "REP:0:suspicious"
@@ -143,7 +145,7 @@
   },
   {
    "shot": "close",
-   "interior": "loja",
+   "interior": "pedra",
    "who": [
     "REP:0:shock:paper"
    ],
@@ -203,8 +205,8 @@
    ],
    "acao": "conversar",
    "say": "O motivo mais citado pelos eleitores: a queda enorme no número de assassinatos no país.",
-   "text": "MENOS ASSASSINATOS",
-   "interior": "madeira"
+   "interior": false,
+   "set": "street"
   },
   {
    "shot": "two",
@@ -213,7 +215,9 @@
     "POV:0:worried"
    ],
    "acao": "discutir",
-   "say": "Organizações de direitos humanos, porém, criticaram as prisões em massa e o estado de exceção."
+   "say": "Organizações de direitos humanos, porém, criticaram as prisões em massa e o estado de exceção.",
+   "interior": false,
+   "set": "street"
   },
   {
    "shot": "close",
