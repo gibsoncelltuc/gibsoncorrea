@@ -602,8 +602,8 @@ function drawActors(list, cam) {
   list.forEach((a, i) => {
     const c = getCard(i);
     c.draw(a.key, a.draw, cardTier(a, cam), a.crop || 0);
-    c.mesh.visible = true; c.mesh.position.set(a.x, a.y, a.z);
-    const s = a.s || 1; c.mesh.scale.set(s * (a.flip ? -1 : 1), s, s); c.uFlip.value = a.flip ? -1 : 1;
+    const s = a.s || 1;
+    c.mesh.visible = true; c.mesh.position.set(a.x, a.y + (Math.abs(a.roll || 0) > 0.3 ? Math.abs(Math.sin(a.roll)) * 0.74 * s : 0), a.z);   /* 20/11: CAIU = deitado SOBRE o chao (antes metade do tronco ficava enterrada: a carta girava pelos pes) */ c.mesh.scale.set(s * (a.flip ? -1 : 1), s, s); c.uFlip.value = a.flip ? -1 : 1;
     c.mesh.rotation.set(0, Math.atan2(cam.position.x - a.x, cam.position.z - a.z) + (a.yaw || 0), a.roll || 0);
     if (a.keepColor) { const gn = inkU.gain.value; c.mat.color.setRGB(Math.min(1.5, 1.06 / Math.max(0.5, gn.r)), Math.min(1.5, 1.03 / Math.max(0.5, gn.g)), Math.min(1.5, 1.3 / Math.max(0.5, gn.b))); if (c.mat.fog) { c.mat.fog = false; c.mat.needsUpdate = true; } } else { if (a.tint) c.mat.color.set(a.tint); else { const gn = inkU.gain.value, k = 0.55, f_ = (v) => 1 + k * (Math.min(1.4, 1 / Math.max(0.6, v)) - 1); c.mat.color.setRGB(f_(gn.r), f_(gn.g), f_(gn.b)); }   /* compensa 55% da cor da luz: rosto continua branco (canal), sem virar laranja no por do sol */ if (!c.mat.fog) { c.mat.fog = true; c.mat.needsUpdate = true; } }
     if (c.mat.depthTest === !!a.front) { c.mat.depthTest = !a.front; c.mat.depthWrite = !a.front; c.mat.needsUpdate = true; }
