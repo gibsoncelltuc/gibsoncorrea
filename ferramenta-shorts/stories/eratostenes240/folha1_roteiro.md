@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 
 ## Cena b9  (~5.2 s)
 - Narracao: E tudo isso aconteceu mais de dois mil anos atrás, sem satélite e sem computador.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30, sting@70
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@30, burst@70

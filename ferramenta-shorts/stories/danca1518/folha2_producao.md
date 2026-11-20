@@ -23,7 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Em uma semana, mais de trinta vizinhos estavam dançando com ela. Ningu...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (4): TRO (variante 0, expressao pained); POV (variante 1, expressao laugh); POV (variante 2, expressao grin); POV (variante 3, expressao pained)
@@ -33,7 +33,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - Em um mês, eram quatrocentas pessoas, de pés sangrando, pedindo socorr...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao pained); POV (variante 1, expressao pained); TRO (variante 0, expressao pained) | multidao: 18 de POV/TRO
@@ -64,7 +64,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - acao sem animacao propria: montou -> CORRECAO: mostrar o RESULTADO (objeto em cena, reacao, efeito + som) ou reescrever a frase com acao que a ferramenta faz (andar, chegar, discutir, empurrar, entregar, comemorar, atirar, fugir)
 
 ## Cena b6 - Foi a pior ideia possível. Com música, mais gente entrou na dança, e m...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): POV (variante 2, expressao pained); POV (variante 3, expressao pained) | multidao: 18 de POV/MUS

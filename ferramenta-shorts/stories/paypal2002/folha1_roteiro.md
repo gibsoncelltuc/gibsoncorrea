@@ -13,7 +13,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b1  (~4.1 s)
 - Narracao: O PayPal era um serviço para pagar e receber dinheiro pela internet.
-- Som ambiente: sea
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: pagar -> stars + som de sino; dinheiro -> stars + som de sino; encena: paga (reach) @6 -> acao + som de efeito; encena: x_fone (lift) @11 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b2  (~5.2 s)
 - Narracao: O valor do negócio foi de um bilhão e meio de dólares, pagos em ações.
-- Som ambiente: sea
+- Som ambiente: birds
 - Efeitos sonoros marcados: ding@5
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@5
@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b3  (~2.8 s)
 - Narracao: Elon Musk era o maior acionista do PayPal.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b4  (~5.9 s)
 - Narracao: Com o dinheiro da venda, ele pôde investir em novos projetos, como a SpaceX e a Tesla.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@3
 - Efeito + som nas palavras-chave: dinheiro -> stars + som de sino; encena: paga (reach) @2 -> acao + som de efeito; encena: negocio (reach) @4 -> acao + som de efeito
 - Efeito visual marcado: stars@3
