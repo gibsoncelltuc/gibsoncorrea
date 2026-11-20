@@ -1,13 +1,12 @@
-# Revisao do storyboard + GRADE DE ACOES - rontgen1895 (sessao principal, 19/11, versao final)
-b0: OK - cientista tirou a primeira foto de dentro do corpo humano (flash), a esposa assustada ao lado
-b1: OK - placa 1895 e mapa da Alemanha, plano aberto de uma cidade da Alemanha
-b2: CORRIGIDO - laboratório claro -> Röntgen passava as noites no laboratório escuro testando o tubo de vidro com faíscas
-b3: OK - numa noite cobriu o tubo com papelão preto e apagou a luz: sala escura
-b4: OK - do outro lado da sala a tela começou a brilhar no escuro (brilho na tela na grade)
-b5: OK - pôs a mão na frente do tubo e viu os próprios ossos na tela
-b6: OK - duas semanas depois chamou a esposa Anna e fotografou a mão dela com a aliança (flash na grade)
-b7: OK - ela olhou a chapa e disse que viu a minha morte, close assustada
-b8: CORRIGIDO - "a notícia correu" virava alguém correndo -> placa NOTÍCIA, jornais, médicos e curiosos na praça
-b9: OK - placa RAIO X: ninguém sabia o que era e ele chamou de raio X, de desconhecido
-b10: OK - placa NOBEL, Röntgen ganhou o primeiro Prêmio Nobel de Física, comemoração
-b11: OK - Röntgen sorrindo: nunca quis patentear a descoberta, o raio X era de todo mundo
+b0: OK - o cientista com a chapa da mao em ossos ao lado da esposa assustada, clarao da primeira foto, placa 1895
+b1: OK - mapa da Alemanha e a cidade alema de 1895 com casas de enxaimel e gente na praca
+b2: OK - Rontgen passava as noites no laboratorio escuro, com o tubo de vidro e as faiscas em volta
+b3: OK - numa noite ele cobriu o tubo com papelao preto (papel na mao) e apagou a luz, sala escura
+b4: OK - do outro lado da sala a tela brilha no escuro, onda de luz no instante da palavra brilhar
+b5: OK - ele pos a mao na frente do tubo e viu os proprios ossos na tela, cara de espanto
+b6: OK - de dia ele chamou a esposa Anna e fotografou a mao dela com o clarao da foto
+b7: OK - close da esposa olhando a chapa com a mao e a aliança, cara de medo: vi a minha morte
+b8: OK - a noticia correu o mundo: multidao de jornais, medicos e curiosos com o letreiro NOTICIA na praca
+b9: OK - placa RAIO X na sala: ninguem sabia o que era, ele chamou de raio X, de desconhecido
+b10: OK - Rontgen ganhou o primeiro Premio Nobel de Fisica: multidao comemorando com o letreiro NOBEL
+b11: OK - Rontgen na praca com a chapa: nunca quis patentear a descoberta, o raio X era de todo mundo
