@@ -224,5 +224,6 @@
   "https://en.wikipedia.org/wiki/PayPal",
   "https://en.wikipedia.org/wiki/SpaceX"
  ],
- "exp": 1.0
+ "exp": 1.12,
+ "cinf": 4.5
 }

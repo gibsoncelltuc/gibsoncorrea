@@ -5,7 +5,7 @@
  "segments": [
   [
    0.160917,
-   1.40121
+   1.40167
   ],
   [
    1.60104,
@@ -13,19 +13,19 @@
   ],
   [
    2.85692,
-   4.98146
+   4.98142
   ],
   [
-   5.85637,
-   9.20879
+   5.85554,
+   9.20825
   ],
   [
-   10.0768,
+   10.0767,
    12.668
   ],
   [
    12.9085,
-   13.857
+   13.8595
   ],
   [
    14.7195,
@@ -60,7 +60,7 @@
   {
    "text": "Em julho de dois mil e dois,",
    "s": 0.161,
-   "e": 1.401
+   "e": 1.402
   },
   {
    "text": "nos Estados Unidos,",
@@ -75,7 +75,7 @@
   {
    "text": "O PayPal era um servi\u00e7o para pagar e receber dinheiro pela internet.",
    "s": 5.856,
-   "e": 9.209
+   "e": 9.208
   },
   {
    "text": "O valor do neg\u00f3cio foi de um bilh\u00e3o e meio de d\u00f3lares,",
@@ -85,7 +85,7 @@
   {
    "text": "pagos em a\u00e7\u00f5es.",
    "s": 12.909,
-   "e": 13.857
+   "e": 13.86
   },
   {
    "text": "Elon Musk era o maior acionista do PayPal.",
