@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 09 - O País do Bitcoin
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 22 acoes catalogadas, 22 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 20 acoes catalogadas, 20 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.4s - 22 palavras - plano two
@@ -35,29 +35,27 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | PLACA | 7 DE SETEMBRO DE 2021 | OK |
+| 1 | - | PLACA | 7 DE SETEMBRO DE 2021 | OK |
 
 ## Cena b4 - 19.5s a 21.7s - 9 palavras - plano two
 > "Com isso, dava para pagar as compras com bitcoin."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | pagar (20.8s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | pagar (20.8s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 3 | compras (21.2s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 1 | pagar (20.7s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | pagar (20.7s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 3 | compras (21.1s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 4 | - | INTERACAO | entregar | OK |
 | 5 | - | ATUACAO | conversar | OK |
 
-## Cena b5 - 22.8s a 25.7s - 9 palavras - plano orbit
+## Cena b5 - 21.9s a 24.8s - 9 palavras - plano orbit
 > "O governo lançou até uma carteira digital, chamada Chivo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | PLACA | CARTEIRA CHIVO | OK |
+| 1 | - | PLACA | CARTEIRA CHIVO | OK |
 
-## Cena b6 - 26.9s a 30.8s - 13 palavras - plano two
+## Cena b6 - 25.2s a 30.7s - 13 palavras - plano two
 > "Nas primeiras horas, o aplicativo ficou fora do ar, por excesso de acessos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -65,19 +63,19 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | discutir | OK |
 | 2 | - | ATUACAO | discutir | OK |
 
-## Cena b7 - 32.1s a 35.9s - 17 palavras - plano orbit
+## Cena b7 - 31.0s a 36.0s - 17 palavras - plano orbit
 > "Foi o primeiro país do mundo a fazer isso, e o assunto virou conversa no planeta inteiro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b8 - 37.2s a 40.5s - 13 palavras - plano two
+## Cena b8 - 36.1s a 40.8s - 13 palavras - plano two
 > "Uma moeda digital, uma lei nova e um país no centro das atenções."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | moeda (37.5s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 1 | moeda (36.2s) | ACAO: paga | estende a mao com moedas + brilho | OK |
 | 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | conversar | OK |
 

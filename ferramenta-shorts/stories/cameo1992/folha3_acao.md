@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 02 - O Cameo de Sete Segundos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 21 acoes catalogadas, 21 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 19 acoes catalogadas, 19 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.8s - 22 palavras - plano close
@@ -25,9 +25,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | INTERACAO | susto | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 1 | - | INTERACAO | susto | OK |
+| 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b3 - 16.0s a 19.3s - 11 palavras - plano close
 > "Acontece que aquele hotel, o Plaza, pertencia a Trump na época."
@@ -49,8 +48,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 1 | - | ATUACAO | reagir | OK |
 
 ## Cena b6 - 31.7s a 35.2s - 16 palavras - plano two
 > "Trump nega isso: diz que a equipe é que pediu, e que ele nem queria aparecer."

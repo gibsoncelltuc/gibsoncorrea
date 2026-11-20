@@ -76,7 +76,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): GEN (variante 0, expressao scared, segura flag); AUS (variante 0, expressao nervous); COZ (variante 0, expressao cry) | multidao: 12 de GEN/AUS/COZ
+- Personagens principais (3): GEN (variante 0, expressao scared, segura flag); AUS (variante 0, expressao nervous); COZ (variante 0, expressao cry) | multidao: 12 de AUS/POV
 - Animacao: reagir | batalha encenada
 - Objetos/modelos: kit/marco_viena, kit/kettle
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): capitao, sopa

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 01 - O Ditador Mais Legal do Mundo
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 7.0s - 25 palavras - plano close
@@ -22,7 +22,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | gritaram (10.4s) | ACAO: grita | grita de bracos para cima | OK |
 | 3 | protesto (11.0s) | ACAO: protesto | punho para cima (protesto) | OK |
 | 4 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
-| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
 ## Cena b2 - 13.6s a 16.4s - 9 palavras - plano close
 > "Primeiro, ele escreveu só uma palavra no perfil: ditador."
@@ -38,10 +37,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | INTERACAO | entregar | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| 4 | - | PLACA | O DITADOR MAIS LEGAL DO MUNDO | OK |
+| 1 | - | INTERACAO | entregar | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | O DITADOR MAIS LEGAL DO MUNDO | OK |
 
 ## Cena b4 - 23.0s a 24.9s - 8 palavras - plano reveal
 > "Acontece que a notícia se espalhou pelo mundo."

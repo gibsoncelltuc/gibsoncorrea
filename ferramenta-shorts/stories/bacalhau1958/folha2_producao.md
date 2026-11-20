@@ -27,7 +27,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): ICE (variante 2, expressao stern) | multidao: 6 de ICE
+- Personagens principais (1): ICE (variante 2, expressao stern) | multidao: 6 de POV
 - Animacao: -
 - Objetos/modelos: ship
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): islandia, limites
@@ -38,7 +38,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): BRI (variante 1, expressao stern); BRI (variante 2, expressao grin); PES (variante 1, expressao smile) | multidao: 12 de BRI/BRI/PES
+- Personagens principais (3): BRI (variante 1, expressao stern); BRI (variante 2, expressao grin); PES (variante 1, expressao smile) | multidao: 12 de POV
 - Animacao: encena | batalha encenada
 - Objetos/modelos: ship, navios ao fundo
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barcos, inglaterra, marinha, pesca
@@ -58,7 +58,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (1): ICE (variante 0, expressao neutral) | multidao: 6 de ICE
+- Personagens principais (1): ICE (variante 0, expressao neutral) | multidao: 6 de POV
 - Animacao: encena | batalha encenada
 - Objetos/modelos: ship, navios ao fundo
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabos, navios, proposito, redes
