@@ -1,0 +1,355 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Poder e Fama",
+ "ep": 17,
+ "title": "Bitcoin Feito com Vulcão",
+ "titulo_base": "Bitcoin Feito com Vulcão",
+ "set": "jungle",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/bitcoin",
+ "outfits": {
+  "BUK": {
+   "jacket": "#22252c",
+   "pants": "#2a2d33",
+   "boots": "#f4f1e8",
+   "hat": "cap",
+   "cap": "#1b1b1f",
+   "beard": "#2a201a",
+   "pele": "#e8c8a8",
+   "capBack": true
+  },
+  "ENG": {
+   "jacket": "#f2a01a",
+   "pants": "#2a3a5a",
+   "boots": "#3a2a1a",
+   "hat": "helmet",
+   "cap": "#f4f1e8",
+   "pele": "#c99067"
+  },
+  "ENA": {
+   "jacket": "#f2a01a",
+   "pants": "#2a3a5a",
+   "boots": "#3a2a1a",
+   "hat": "hair",
+   "hair": "#4a2a1a",
+   "hairStyle": "bun",
+   "pele": "#d9a87a"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "straw",
+    "cap",
+    "hair",
+    "beret"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "BUK:0:smug",
+    "ENG:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/bitcoin",
+     0,
+     -1.4,
+     1.0
+    ],
+    [
+     "kit/volcano",
+     -1.0,
+     -11.0,
+     2.6
+    ]
+   ],
+   "text": "2021",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "O presidente de El Salvador resolveu fabricar dinheiro digital com a energia de um vulcão.",
+   "detalhe": false,
+   "interior": false,
+   "objetos": false
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin"
+   ],
+   "mapa": "EL SALVADOR",
+   "mapa_at": 3,
+   "props": [
+    [
+     "kit/volcano",
+     -1.0,
+     -11.0,
+     2.6
+    ]
+   ],
+   "say": "El Salvador é um país pequeno da América Central, cheio de vulcões.",
+   "detalhe": false
+  },
+  {
+   "shot": "two",
+   "who": [
+    "BUK:0:grin",
+    "ENA:0:suspicious"
+   ],
+   "acao": "conversar",
+   "props": [
+    [
+     "kit/bitcoin",
+     1.6,
+     -0.8,
+     1.0
+    ]
+   ],
+   "say": "Em dois mil e vinte e um, Nayib Bukele fez do bitcoin uma moeda oficial do país, ao lado do dólar."
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "ENG:0:worried:paper",
+    "BUK:0:suspicious"
+   ],
+   "props": [
+    [
+     "kit/miners",
+     1.8,
+     -1.2,
+     1.0
+    ]
+   ],
+   "acao": "discutir",
+   "say": "Só que, para criar bitcoins novos, computadores fazem contas sem parar. E isso gasta muita energia.",
+   "detalhe": false
+  },
+  {
+   "shot": "two",
+   "who": [
+    "BUK:0:smug",
+    "ENG:0:shock"
+   ],
+   "props": [
+    [
+     "kit/volcano",
+     -1.0,
+     -11.0,
+     2.6
+    ]
+   ],
+   "interacao": "entregar",
+   "fx": [
+    "ring@40"
+   ],
+   "sfx": [
+    "sting@40"
+   ],
+   "say": "Então ele mandou a empresa de energia do governo usar o calor do vulcão Tecapa.",
+   "detalhe": false,
+   "interior": false,
+   "objetos": false
+  },
+  {
+   "shot": "low",
+   "who": [
+    "ENA:0:grin"
+   ],
+   "props": [
+    [
+     "kit/volcano",
+     -1.0,
+     -11.0,
+     2.6
+    ]
+   ],
+   "fx": [
+    "puff@20",
+    "puff@50"
+   ],
+   "sfx": [
+    "whoosh@20",
+    "whoosh@50"
+   ],
+   "say": "O vapor quente que sai de dentro da terra gira turbinas, e vira eletricidade limpa.",
+   "detalhe": false
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "ENG:0:surprised",
+    "ENA:0:grin"
+   ],
+   "props": [
+    [
+     "kit/miners",
+     1.8,
+     -1.2,
+     1.0
+    ],
+    [
+     "kit/miners",
+     -1.8,
+     -1.6,
+     1.0
+    ]
+   ],
+   "acao": "conversar",
+   "say": "Acontece que, ao lado da usina, instalaram centenas de computadores só para minerar bitcoin.",
+   "detalhe": false
+  },
+  {
+   "shot": "close",
+   "who": [
+    "BUK:0:grin"
+   ],
+   "props": [
+    [
+     "kit/bitcoin",
+     1.6,
+     -0.8,
+     1.2
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "ring@50"
+   ],
+   "sfx": [
+    "ding@20",
+    "sting@50"
+   ],
+   "say": "Em outubro saiu o primeiro: um pedacinho de bitcoin que valia uns duzentos e setenta dólares.",
+   "acao": "comemorar"
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "BUK:0:laugh",
+    "ENG:0:laugh",
+    "ENA:0:grin"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "props": [
+    [
+     "kit/volcano",
+     -1.0,
+     -11.0,
+     2.6
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "VULCÃO",
+   "titulo": true,
+   "say": "Bukele comemorou nas redes sociais, com um vídeo da usina no vulcão.",
+   "detalhe": false
+  },
+  {
+   "shot": "two",
+   "who": [
+    "ENA:0:smile:paper",
+    "ENG:0:grin"
+   ],
+   "props": [
+    [
+     "kit/bitcoin",
+     1.6,
+     -0.8,
+     1.0
+    ]
+   ],
+   "acao": "conversar",
+   "say": "Anos depois, o governo contava quase quinhentos bitcoins minerados com a força do vulcão."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "POV:0:surprised",
+    "POV:1:shock",
+    "BUK:0:smug"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 16,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "surprised"
+   },
+   "props": [
+    [
+     "kit/volcano",
+     -1.0,
+     -11.0,
+     2.6
+    ]
+   ],
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "text": "CIDADE BITCOIN",
+   "titulo": true,
+   "say": "E ele ainda anunciou o plano de uma Cidade Bitcoin, construída aos pés de outro vulcão.",
+   "detalhe": false
+  },
+  {
+   "shot": "close",
+   "who": [
+    "BUK:0:smile"
+   ],
+   "props": [
+    [
+     "kit/bitcoin",
+     -1.4,
+     -0.8,
+     1.0
+    ]
+   ],
+   "acao": "comemorar",
+   "say": "Dinheiro tirado de vulcão. Parece ficção, mas aconteceu de verdade."
+  }
+ ],
+ "fontes": [
+  "https://www.cnbc.com/2021/10/01/el-salvador-just-started-mining-bitcoin-with-volcanoes-for-the-first-time-ever-and-theyve-already-made-269.html",
+  "https://www.rechargenews.com/energy-transition/nation-taps-volcano-power-to-mine-29m-in-bitcoin/2-1-1646035",
+  "https://en.wikipedia.org/wiki/Bitcoin_City"
+ ],
+ "cinf": 4.5,
+ "exp": 1.12
+}

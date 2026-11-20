@@ -1,0 +1,233 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Guerras Inusitadas",
+ "ep": 9,
+ "title": "A Guerra do Futebol",
+ "titulo_base": "A Guerra do Futebol",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/ball",
+ "outfits": {
+  "HON": {
+   "jacket": "#2f6fd0",
+   "pants": "#f1efe6",
+   "boots": "#1b1b1f",
+   "hat": "hair"
+  },
+  "SAL": {
+   "jacket": "#f1efe6",
+   "pants": "#27408b",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "sash": "#27408b"
+  },
+  "TOR": {
+   "jacket": "#d9742a",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hats": [
+    "cap",
+    "straw",
+    "hair"
+   ]
+  },
+  "PRE": {
+   "jacket": "#2a2a30",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "bowler",
+   "build": "stout"
+  },
+  "SOL": {
+   "jacket": "#5d7a3a",
+   "pants": "#4a5a2a",
+   "boots": "#2a2218",
+   "hat": "helmet",
+   "rifle": true
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "HON:0:angry",
+    "SAL:0:shout"
+   ],
+   "text": "1969",
+   "interacao": "discutir",
+   "acao": "discutir",
+   "say": "Dois países entraram em guerra depois de um jogo de futebol."
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "TOR:0:stern",
+    "TOR:1:angry"
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "TOR"
+    ],
+    "march": false
+   },
+   "mapa": "AMÉRICA CENTRAL",
+   "mapa_at": 3,
+   "say": "Era mil novecentos e sessenta e nove. Honduras e El Salvador, dois vizinhos, já viviam brigando por terra e por fronteira.",
+   "fx": [
+    "puff@70"
+   ],
+   "sfx": [
+    "thump@70"
+   ]
+  },
+  {
+   "shot": "two",
+   "set": "stadium",
+   "who": [
+    "HON:0:grin",
+    "SAL:0:stern"
+   ],
+   "props": [
+    [
+     "kit/ball",
+     0,
+     1.9,
+     1.1
+    ]
+   ],
+   "say": "Aí veio a disputa por uma vaga na Copa do Mundo. Três jogos, um contra o outro."
+  },
+  {
+   "shot": "crowd",
+   "set": "stadium",
+   "who": [
+    "HON:0:laugh",
+    "SAL:0:sad"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "TOR",
+     "HON"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "text": "1 x 0",
+   "titulo": true,
+   "fx": [
+    "stars@30",
+    "stars@70"
+   ],
+   "sfx": [
+    "ding@30",
+    "thump@70"
+   ],
+   "say": "No primeiro, Honduras venceu em casa. A torcida passou a noite batendo panelas na porta do hotel dos visitantes."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "TOR:0:angry",
+    "TOR:1:shout"
+   ],
+   "interacao": "empurrar",
+   "acao": "discutir",
+   "say": "No segundo, El Salvador deu o troco. Torcedores brigaram nas ruas, e os dois governos trocaram insultos.",
+   "hora": "dia"
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "PRE:0:angry:paper",
+    "PRE:1:nervous"
+   ],
+   "say": "Acontece que, no dia do terceiro jogo, El Salvador cortou relações com o vizinho.",
+   "hora": "dia"
+  },
+  {
+   "shot": "group",
+   "set": "stadium",
+   "who": [
+    "SAL:0:laugh",
+    "SAL:1:grin",
+    "HON:0:sad"
+   ],
+   "props": [
+    [
+     "kit/ball",
+     0,
+     2.0,
+     1.1
+    ]
+   ],
+   "acao": "comemorar",
+   "say": "El Salvador ganhou a partida, na prorrogação, e ficou com a vaga.",
+   "hora": "dia"
+  },
+  {
+   "shot": "orbit",
+   "who": [
+    "SOL:0:stern",
+    "SOL:1:angry"
+   ],
+   "batalha": true,
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "SOL"
+    ],
+    "march": true,
+    "expr": "stern"
+   },
+   "props": [
+    [
+     "vehicles/tank",
+     -6,
+     -6,
+     1.2
+    ],
+    [
+     "vehicles/airplane",
+     5,
+     -10,
+     1.2
+    ]
+   ],
+   "text": "GUERRA",
+   "titulo": true,
+   "say": "Duas semanas depois, tanques e aviões cruzaram a fronteira. A guerra tinha começado.",
+   "hora": "dia"
+  },
+  {
+   "shot": "two",
+   "who": [
+    "SOL:0:nervous",
+    "PRE:0:stern:paper"
+   ],
+   "text": "100 HORAS",
+   "say": "Durou cem horas. Os outros países do continente obrigaram os dois a parar."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "SAL:0:sad"
+   ],
+   "props": [
+    [
+     "kit/ball",
+     1.5,
+     -0.5,
+     1.2
+    ]
+   ],
+   "say": "E na Copa, El Salvador perdeu os três jogos, sem fazer um único gol."
+  }
+ ]
+}

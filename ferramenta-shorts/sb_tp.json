@@ -1,0 +1,60 @@
+{
+ "id": "teste_personagens",
+ "TOTAL": 494,
+ "list": [
+  {
+   "id": "b0",
+   "f": 21,
+   "t": "0.7",
+   "file": "sb_tmp/teste_personagens_000.jpg"
+  },
+  {
+   "id": "b0~1",
+   "f": 68,
+   "t": "2.3",
+   "file": "sb_tmp/teste_personagens_001.jpg"
+  },
+  {
+   "id": "b0~2",
+   "f": 115,
+   "t": "3.8",
+   "file": "sb_tmp/teste_personagens_002.jpg"
+  },
+  {
+   "id": "b1",
+   "f": 170,
+   "t": "5.7",
+   "file": "sb_tmp/teste_personagens_003.jpg"
+  },
+  {
+   "id": "b1~1",
+   "f": 235,
+   "t": "7.8",
+   "file": "sb_tmp/teste_personagens_004.jpg"
+  },
+  {
+   "id": "b2",
+   "f": 301,
+   "t": "10.0",
+   "file": "sb_tmp/teste_personagens_005.jpg"
+  },
+  {
+   "id": "b2",
+   "f": 356,
+   "t": "11.9",
+   "file": "sb_tmp/teste_personagens_006.jpg"
+  },
+  {
+   "id": "b3",
+   "f": 416,
+   "t": "13.9",
+   "file": "sb_tmp/teste_personagens_007.jpg"
+  },
+  {
+   "id": "b3~1",
+   "f": 466,
+   "t": "15.5",
+   "file": "sb_tmp/teste_personagens_008.jpg"
+  }
+ ]
+}

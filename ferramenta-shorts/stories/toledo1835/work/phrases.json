@@ -1,0 +1,306 @@
+{
+ "duration": 62.976,
+ "frames30": 1889,
+ "source": "silence-align (cost 1.27)",
+ "segments": [
+  [
+   0.16125,
+   2.1385
+  ],
+  [
+   2.40292,
+   4.29833
+  ],
+  [
+   5.13154,
+   5.77308
+  ],
+  [
+   6.03671,
+   6.54246
+  ],
+  [
+   7.40829,
+   7.893
+  ],
+  [
+   8.09046,
+   8.60904
+  ],
+  [
+   9.4315,
+   11.7457
+  ],
+  [
+   12.0335,
+   13.7129
+  ],
+  [
+   14.5712,
+   16.9063
+  ],
+  [
+   17.7672,
+   18.724
+  ],
+  [
+   18.9899,
+   19.6395
+  ],
+  [
+   20.5152,
+   22.5285
+  ],
+  [
+   22.881,
+   24.9185
+  ],
+  [
+   25.2668,
+   25.9782
+  ],
+  [
+   26.8393,
+   27.5475
+  ],
+  [
+   27.7488,
+   28.3514
+  ],
+  [
+   28.5465,
+   29.0437
+  ],
+  [
+   29.9187,
+   30.831
+  ],
+  [
+   31.6669,
+   32.9009
+  ],
+  [
+   33.777,
+   36.3935
+  ],
+  [
+   36.6633,
+   38.979
+  ],
+  [
+   39.8453,
+   41.5913
+  ],
+  [
+   41.8849,
+   43.4335
+  ],
+  [
+   44.2843,
+   45.4343
+  ],
+  [
+   46.2393,
+   47.5793
+  ],
+  [
+   48.4312,
+   49.2679
+  ],
+  [
+   49.5155,
+   50.3054
+  ],
+  [
+   50.5632,
+   52.9139
+  ],
+  [
+   53.7717,
+   56.2847
+  ],
+  [
+   57.1503,
+   57.886
+  ],
+  [
+   58.737,
+   59.7722
+  ],
+  [
+   60.0038,
+   61.2501
+  ],
+  [
+   61.5107,
+   62.1715
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Dois estados americanos foram \u00e0 guerra,",
+   "s": 0.161,
+   "e": 2.139
+  },
+  {
+   "text": "e o \u00fanico ferido levou uma canivetada.",
+   "s": 2.403,
+   "e": 4.298
+  },
+  {
+   "text": "De um lado,",
+   "s": 5.132,
+   "e": 5.773
+  },
+  {
+   "text": "Ohio.",
+   "s": 6.037,
+   "e": 6.542
+  },
+  {
+   "text": "Do outro,",
+   "s": 7.408,
+   "e": 7.893
+  },
+  {
+   "text": "Michigan.",
+   "s": 8.09,
+   "e": 8.609
+  },
+  {
+   "text": "Os dois juravam que a cidade de Toledo era deles,",
+   "s": 9.431,
+   "e": 11.746
+  },
+  {
+   "text": "por causa de um erro num mapa antigo.",
+   "s": 12.034,
+   "e": 13.713
+  },
+  {
+   "text": "O governador de Michigan tinha vinte e tr\u00eas anos.",
+   "s": 14.571,
+   "e": 16.906
+  },
+  {
+   "text": "\"Mandem a mil\u00edcia\",",
+   "s": 17.767,
+   "e": 18.724
+  },
+  {
+   "text": "ordenou ele.",
+   "s": 18.99,
+   "e": 19.64
+  },
+  {
+   "text": "Ohio respondeu com a pr\u00f3pria mil\u00edcia,",
+   "s": 20.515,
+   "e": 22.529
+  },
+  {
+   "text": "e as duas tropas chegaram \u00e0 beira do rio,",
+   "s": 22.881,
+   "e": 24.919
+  },
+  {
+   "text": "frente a frente.",
+   "s": 25.267,
+   "e": 25.978
+  },
+  {
+   "text": "Houve gritos,",
+   "s": 26.839,
+   "e": 27.547
+  },
+  {
+   "text": "amea\u00e7as,",
+   "s": 27.749,
+   "e": 28.351
+  },
+  {
+   "text": "e tiros.",
+   "s": 28.547,
+   "e": 29.044
+  },
+  {
+   "text": "Todos para o alto.",
+   "s": 29.919,
+   "e": 30.831
+  },
+  {
+   "text": "Ningu\u00e9m acertou ningu\u00e9m.",
+   "s": 31.667,
+   "e": 32.901
+  },
+  {
+   "text": "Acontece que a \u00fanica baixa foi um xerife de Michigan,",
+   "s": 33.777,
+   "e": 36.394
+  },
+  {
+   "text": "espetado na perna por um rapaz com um canivete.",
+   "s": 36.663,
+   "e": 38.979
+  },
+  {
+   "text": "O presidente mandou os dois pararem,",
+   "s": 39.845,
+   "e": 41.591
+  },
+  {
+   "text": "e o Congresso ofereceu um acordo.",
+   "s": 41.885,
+   "e": 43.434
+  },
+  {
+   "text": "Ningu\u00e9m queria ceder.",
+   "s": 44.284,
+   "e": 45.434
+  },
+  {
+   "text": "Ohio ficou com Toledo.",
+   "s": 46.239,
+   "e": 47.579
+  },
+  {
+   "text": "Michigan levou,",
+   "s": 48.431,
+   "e": 49.268
+  },
+  {
+   "text": "de consola\u00e7\u00e3o,",
+   "s": 49.516,
+   "e": 50.305
+  },
+  {
+   "text": "um peda\u00e7o de floresta gelada que ningu\u00e9m queria.",
+   "s": 50.563,
+   "e": 52.914
+  },
+  {
+   "text": "S\u00f3 que debaixo daquela floresta havia cobre e ferro.",
+   "s": 53.772,
+   "e": 56.285
+  },
+  {
+   "text": "Uma fortuna.",
+   "s": 57.15,
+   "e": 57.886
+  },
+  {
+   "text": "No fim das contas,",
+   "s": 58.737,
+   "e": 59.772
+  },
+  {
+   "text": "Michigan perdeu a guerra,",
+   "s": 60.004,
+   "e": 61.25
+  },
+  {
+   "text": "e ficou rico.",
+   "s": 61.511,
+   "e": 62.172
+  }
+ ]
+}

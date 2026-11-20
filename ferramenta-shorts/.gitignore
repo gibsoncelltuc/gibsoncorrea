@@ -1,0 +1,11 @@
+out/
+logs/
+tmp/
+webs/
+node_modules/
+__pycache__/
+*.pyc
+*.wav
+*.part
+sb_tmp/
+stories/*/voice_tmp.wav

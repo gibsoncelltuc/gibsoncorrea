@@ -1,0 +1,168 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "title": "A Guerra do Balde",
+ "set": "medieval",
+ "light": "day",
+ "mood": "march",
+ "outfits": {
+  "MOD": {
+   "jacket": "#d9a441",
+   "pants": "#3a3a4a",
+   "boots": "#2a2218",
+   "hat": "helmet",
+   "cap": "#8d949c",
+   "belt": "#2a2218",
+   "rifle": true
+  },
+  "BOL": {
+   "jacket": "#b5333a",
+   "pants": "#e8e0c8",
+   "boots": "#2a2218",
+   "hat": "helmet",
+   "cap": "#6a6f78",
+   "belt": "#2a2218",
+   "rifle": true
+  },
+  "POV": {
+   "jacket": "#7a9ac2",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hats": [
+    "cap",
+    "straw",
+    "bonnet"
+   ],
+   "cap": "#8a5a3a"
+  },
+  "NOB": {
+   "jacket": "#7b2a8a",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "crown",
+   "build": "stout"
+  }
+ },
+ "serie": "Guerras Inusitadas",
+ "ep": 4,
+ "titulo_base": "A Guerra do Balde",
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "MOD:0:grin:bag",
+    "BOL:0:shock"
+   ],
+   "text": "1325",
+   "say": "Duas cidades italianas foram à guerra por causa de um balde de madeira."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "NOB:0:stern",
+    "BOL:1:stern"
+   ],
+   "mapa": "ITÁLIA",
+   "mapa_at": 6,
+   "say": "Módena e Bolonha se odiavam havia séculos. Uma apoiava o imperador, a outra, o papa, e qualquer desculpa servia para brigar.",
+   "tiros": false
+  },
+  {
+   "shot": "track",
+   "who": [
+    "MOD:0:grin",
+    "MOD:1:nervous"
+   ],
+   "hora": "noite",
+   "say": "Numa noite, diz a lenda, soldados de Módena entraram escondidos em Bolonha."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MOD:0:laugh:bag",
+    "MOD:1:grin"
+   ],
+   "props": [
+    [
+     "barrel",
+     2.4,
+     0.6,
+     1.1
+    ]
+   ],
+   "text": "O BALDE",
+   "say": "Não roubaram ouro, nem armas. Levaram o balde velho do poço da praça, e voltaram para casa rindo."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "NOB:0:stern"
+   ],
+   "interior": "pedra",
+   "hora": "dia",
+   "say": "\"Devolvam o nosso balde\", exigiu Bolonha. \"Venham buscar\", respondeu Módena."
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "BOL:0:stern",
+    "BOL:1:stern"
+   ],
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "BOL"
+    ],
+    "march": true
+   },
+   "text": "32.000",
+   "titulo": true,
+   "say": "Bolonha juntou um exército de trinta mil homens, e marchou contra a vizinha."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MOD:0:nervous",
+    "MOD:1:pained"
+   ],
+   "tiros": false,
+   "say": "Módena tinha só sete mil soldados. Parecia uma derrota certa, e rápida."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "MOD:0:stern",
+    "BOL:0:shock"
+   ],
+   "batalha": true,
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "MOD",
+     "BOL"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
+   "say": "Acontece que, numa única tarde de batalha, os sete mil atacaram de surpresa, e o exército gigante fugiu correndo."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MOD:0:laugh:flag",
+    "MOD:1:grin"
+   ],
+   "tiros": false,
+   "say": "Módena perseguiu os inimigos até os portões de Bolonha, e ainda zombou deles do lado de fora."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "MOD:0:grin:bag"
+   ],
+   "tiros": false,
+   "text": "700 ANOS",
+   "say": "O balde nunca foi devolvido. Está guardado em Módena até hoje, setecentos anos depois."
+  }
+ ]
+}

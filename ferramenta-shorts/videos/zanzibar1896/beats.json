@@ -1,0 +1,185 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Guerras Inusitadas",
+ "ep": 8,
+ "title": "A Guerra de 38 Minutos",
+ "titulo_base": "A Guerra de 38 Minutos",
+ "set": "palace",
+ "light": "day",
+ "mood": "march",
+ "outfits": {
+  "SUL": {
+   "jacket": "#f1ece0",
+   "pants": "#f1ece0",
+   "boots": "#2a2218",
+   "hat": "turban",
+   "cap": "#c0262d",
+   "sash": "#e8c45a",
+   "build": "stout"
+  },
+  "GUA": {
+   "jacket": "#b5333a",
+   "pants": "#f1ece0",
+   "boots": "#2a2218",
+   "hat": "fez",
+   "belt": "#2a2218",
+   "rifle": true
+  },
+  "ING": {
+   "jacket": "#f1efe6",
+   "pants": "#f1efe6",
+   "boots": "#2a2218",
+   "hat": "helmet",
+   "cap": "#f1efe6",
+   "belt": "#8a5a34",
+   "buttons": "#e8c45a",
+   "rifle": true
+  },
+  "ALM": {
+   "jacket": "#22306a",
+   "pants": "#f1efe6",
+   "boots": "#2a2218",
+   "hat": "bowler",
+   "buttons": "#e8c45a",
+   "sash": "#e8c45a",
+   "build": "stout"
+  },
+  "POV": {
+   "jacket": "#7a9ac2",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hats": [
+    "turban",
+    "fez",
+    "cap"
+   ],
+   "cap": "#f1ece0"
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "SUL:0:stern",
+    "GUA:0:stern"
+   ],
+   "text": "1896",
+   "say": "A guerra mais curta da história durou menos que um almoço."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "SUL:0:neutral",
+    "POV:1:neutral"
+   ],
+   "mapa": "ZANZIBAR",
+   "mapa_at": 3,
+   "say": "Era em Zanzibar, uma ilha da costa da África, controlada pela Inglaterra."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "SUL:0:grin",
+    "GUA:1:stern"
+   ],
+   "interior": "pedra",
+   "say": "O sultão morreu de repente, e um primo dele correu para o palácio, e se sentou no trono sem pedir licença.",
+   "riscos_ok": true
+  },
+  {
+   "shot": "two",
+   "who": [
+    "ALM:0:stern:paper",
+    "ING:0:stern"
+   ],
+   "say": "Os ingleses não gostaram. \"Saia do palácio até as nove da manhã\", avisaram eles."
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "GUA:0:stern",
+    "GUA:1:stern"
+   ],
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "GUA",
+     "POV"
+    ],
+    "march": true
+   },
+   "text": "3.000",
+   "titulo": true,
+   "say": "O novo sultão juntou quase três mil homens, alguns canhões velhos, e se trancou lá dentro."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "SUL:0:grin"
+   ],
+   "interior": "pedra",
+   "say": "\"Eles não vão atirar\", disse ele."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "ING:0:stern",
+    "GUA:0:shock"
+   ],
+   "batalha": true,
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "ING",
+     "GUA"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
+   "text": "9:02",
+   "titulo": true,
+   "say": "Acontece que, às nove e dois, os navios ingleses abriram fogo. O palácio de madeira começou a desabar, e a pegar fogo."
+  },
+  {
+   "shot": "track",
+   "who": [
+    "SUL:0:shock",
+    "GUA:1:shock"
+   ],
+   "say": "O sultão fugiu pela porta dos fundos, e foi pedir abrigo no consulado da Alemanha."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "GUA:0:pained:flag",
+    "ING:1:stern"
+   ],
+   "fx": [
+    "dust@40"
+   ],
+   "sfx": [
+    "thump@40"
+   ],
+   "text": "9:40",
+   "say": "Às nove e quarenta, a bandeira do palácio caiu, e os canhões pararam."
+  },
+  {
+   "shot": "group",
+   "who": [
+    "ALM:0:smile:paper",
+    "ING:0:grin",
+    "POV:0:nervous"
+   ],
+   "say": "Trinta e oito minutos. No mesmo dia, os ingleses colocaram outro sultão no trono."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "ALM:0:grin"
+   ],
+   "say": "E ainda mandaram a conta das balas para Zanzibar."
+  }
+ ],
+ "exp": 0.9
+}

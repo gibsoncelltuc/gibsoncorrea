@@ -1,0 +1,148 @@
+{
+ "title": "Teste de Vida",
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "set": "countryside",
+ "light": "day",
+ "mood": "playful",
+ "outfits": {
+  "A": {
+   "jacket": "#8a7a4a",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "helmet",
+   "cap": "#5a6334"
+  },
+  "B": {
+   "jacket": "#3a3a4a",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "bowler"
+  },
+  "C": {
+   "jacket": "#7a9ac2",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "straw"
+  },
+  "D": {
+   "jacket": "#8a7a4a",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "slouch"
+  },
+  "E": {
+   "jacket": "#b5333a",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "fez"
+  },
+  "F": {
+   "jacket": "#e8e0c8",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "turban"
+  },
+  "G": {
+   "jacket": "#7b2a8a",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "crown"
+  },
+  "H": {
+   "jacket": "#2f5f6a",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "beret"
+  },
+  "I": {
+   "jacket": "#4a3a8a",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "wizard"
+  },
+  "N": {
+   "jacket": "#5d7a3a",
+   "pants": "#3b3f52",
+   "boots": "#2a2218"
+  },
+  "M": {
+   "jacket": "#b5653f",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hats": [
+    "straw",
+    "bowler",
+    "cap",
+    "beret"
+   ],
+   "cap": "#8a2b2b"
+  },
+  "S": {
+   "jacket": "#27408b",
+   "pants": "#f1efe6",
+   "boots": "#1b1b1f",
+   "hat": "shako",
+   "belt": "#f1efe6",
+   "buttons": "#e8c45a",
+   "rifle": true
+  }
+ },
+ "beats": [
+  {
+   "shot": "track",
+   "who": [
+    "N:0:smile",
+    "M:1:neutral",
+    "C:2:grin"
+   ],
+   "say": "Três amigos caminhavam pela estrada numa manhã tranquila."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "N:0:nervous",
+    "M:1:shock"
+   ],
+   "say": "Mas naquela noite, chovia sem parar."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "N:0:pained",
+    "M:1:nervous"
+   ],
+   "say": "Dias depois, no inverno, a neve cobriu tudo."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "N:0:grin",
+    "M:1:laugh"
+   ],
+   "clima": "calor",
+   "say": "Sob um sol escaldante, ele bebeu a caneca inteira.",
+   "shot_lock": true,
+   "impact": false
+  },
+  {
+   "shot": "two",
+   "who": [
+    "B:0:stern",
+    "N:0:shock"
+   ],
+   "clima": "limpo",
+   "say": "No fim de tarde, o jornal trouxe a notícia."
+  },
+  {
+   "shot": "track",
+   "who": [
+    "S:0:stern",
+    "S:1:stern",
+    "S:2:stern",
+    "S:3:stern"
+   ],
+   "say": "E no dia seguinte, a tropa chegou marchando."
+  }
+ ]
+}

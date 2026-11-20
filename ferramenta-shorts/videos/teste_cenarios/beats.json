@@ -1,0 +1,84 @@
+{
+ "title": "Teste de Cenarios",
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "outfits": {
+  "CID": {
+   "jacket": "#3b6fb5",
+   "pants": "#2d3550",
+   "boots": "#2a2218",
+   "hat": "hair",
+   "hair": "#4a3020"
+  },
+  "GUA": {
+   "jacket": "#2f4aa0",
+   "pants": "#1f2a50",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#1f2a50"
+  }
+ },
+ "beats": [
+  {
+   "say": "Um homem dirigia tranquilo pela avenida, quando viu algo impossível.",
+   "shot": "group",
+   "shot_lock": true,
+   "who": [
+    "CID:1:neutral"
+   ],
+   "veiculo": {
+    "asset": "vehicles/car",
+    "de": -7,
+    "para": 7,
+    "z": 1.2,
+    "motorista": "CID:0:smile"
+   }
+  },
+  {
+   "say": "\"Isso não pode estar certo\", disse o guarda, coçando a cabeça.",
+   "shot": "two",
+   "who": [
+    "CID:4:nervous",
+    "GUA:5:stern"
+   ],
+   "interior": "loja"
+  },
+  {
+   "say": "Então ele entrou na floresta, onde os animais observavam em silêncio.",
+   "shot": "group",
+   "set": "jungle",
+   "who": [
+    "CID:0:shock"
+   ],
+   "animals": [
+    [
+     "bear",
+     3.0,
+     0.5
+    ]
+   ]
+  },
+  {
+   "say": "No salão do palácio, todos esperavam a resposta.",
+   "shot": "group",
+   "who": [
+    "GUA:0:stern",
+    "CID:6:smile",
+    "GUA:1:neutral"
+   ],
+   "interior": "madeira"
+  },
+  {
+   "say": "Acontece que a resposta era simples. Ninguém tinha olhado para cima.",
+   "shot": "two",
+   "who": [
+    "CID:0:grin",
+    "GUA:0:pained"
+   ],
+   "interior": "pedra"
+  }
+ ]
+}

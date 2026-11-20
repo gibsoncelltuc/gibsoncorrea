@@ -1,0 +1,255 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Guerras Inusitadas",
+ "ep": 20,
+ "title": "A Batalha de Los Angeles",
+ "titulo_base": "A Batalha de Los Angeles",
+ "set": "street",
+ "mood": "playful",
+ "heroi": "kit/searchlight",
+ "outfits": {
+  "SOL": {
+   "profissao": "soldado",
+   "jacket": "#5d6a3a",
+   "pants": "#4a5a2a",
+   "boots": "#2a2218",
+   "hat": "helmet",
+   "rifle": true
+  },
+  "CID": {
+   "profissao": "comerciante",
+   "jacket": "#8a5a34",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "cap",
+   "cap": "#3b3f52"
+  },
+  "GEN": {
+   "profissao": "general",
+   "jacket": "#4a5a3a",
+   "pants": "#3b3f52",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#4a5a3a"
+  },
+  "PRE": {
+   "profissao": "politico",
+   "jacket": "#2a2a30",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "bowler",
+   "tie": "#2a5aa8"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "bowler",
+    "hair",
+    "beret",
+    "cap"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "set": "street",
+   "hora": "pordosol",
+   "who": [
+    "SOL:0:shock",
+    "CID:0:scared"
+   ],
+   "props": [
+    [
+     "kit/searchlight",
+     1.8,
+     -1.2,
+     1.0
+    ]
+   ],
+   "text": "1942",
+   "interacao": "susto",
+   "say": "Uma cidade inteira passou a noite atirando no céu, e não havia inimigo nenhum.",
+   "fx": [
+    "burst@40"
+   ],
+   "sfx": [
+    "cannon@40"
+   ]
+  },
+  {
+   "shot": "reveal",
+   "set": "street",
+   "hora": "pordosol",
+   "who": [
+    "CID:0:nervous",
+    "CID:1:scared"
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "POV"
+    ],
+    "march": false
+   },
+   "mapa": "LOS ANGELES",
+   "mapa_at": 3,
+   "say": "Era fevereiro de mil novecentos e quarenta e dois, logo depois de Pearl Harbor, e Los Angeles vivia com medo."
+  },
+  {
+   "shot": "two",
+   "set": "harbor",
+   "hora": "pordosol",
+   "who": [
+    "CID:0:scared",
+    "SOL:0:nervous"
+   ],
+   "interacao": "cochichar",
+   "say": "Na véspera, um submarino japonês tinha atirado na Califórnia, e todo mundo achava que vinha mais."
+  },
+  {
+   "shot": "two",
+   "set": "harbor",
+   "hora": "pordosol",
+   "who": [
+    "SOL:0:stern",
+    "CID:0:shock"
+   ],
+   "props": [
+    [
+     "kit/searchlight",
+     1.8,
+     -1.2,
+     1.0
+    ]
+   ],
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ],
+   "say": "Na madrugada, as sirenes tocaram, as luzes da cidade se apagaram, e holofotes varreram o céu."
+  },
+  {
+   "shot": "crowd",
+   "set": "street",
+   "hora": "pordosol",
+   "who": [
+    "SOL:0:shout",
+    "SOL:1:angry"
+   ],
+   "batalha": true,
+   "tiros": true,
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "SOL"
+    ],
+    "march": false,
+    "expr": "shout"
+   },
+   "props": [
+    [
+     "cannon",
+     -5,
+     -5,
+     1.2
+    ]
+   ],
+   "fx": [
+    "burst@40",
+    "burst@90"
+   ],
+   "sfx": [
+    "cannon@40",
+    "cannon@90"
+   ],
+   "text": "FOGO!",
+   "titulo": true,
+   "say": "Alguém viu um objeto no céu, e os soldados começaram a atirar com canhões antiaéreos."
+  },
+  {
+   "shot": "two",
+   "set": "harbor",
+   "hora": "amanhecer",
+   "who": [
+    "SOL:0:shout",
+    "GEN:0:surprised"
+   ],
+   "acao": "discutir",
+   "say": "\"É um inimigo!\", gritou um soldado. Acontece que não havia nada ali, só nuvens e fumaça."
+  },
+  {
+   "shot": "crowd",
+   "set": "street",
+   "hora": "amanhecer",
+   "who": [
+    "CID:0:scared",
+    "CID:1:cry"
+   ],
+   "batalha": true,
+   "tiros": true,
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "SOL",
+     "POV"
+    ],
+    "march": false,
+    "expr": "scared"
+   },
+   "fx": [
+    "burst@40",
+    "burst@100"
+   ],
+   "sfx": [
+    "cannon@40",
+    "cannon@100"
+   ],
+   "say": "Foram mais de mil tiros de canhão, e os estilhaços caíram na cidade, que ficou em pânico."
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "GEN:0:stern:paper",
+    "PRE:0:nervous"
+   ],
+   "interacao": "susto",
+   "say": "No dia seguinte, os militares discutiram o que tinha acontecido, e ninguém sabia dizer."
+  },
+  {
+   "shot": "two",
+   "interior": "pedra",
+   "who": [
+    "PRE:0:sad:paper",
+    "GEN:0:sad"
+   ],
+   "interacao": "entregar",
+   "say": "Algumas pessoas morreram, por acidente e por susto, mas nenhum inimigo apareceu."
+  },
+  {
+   "shot": "close",
+   "set": "street",
+   "hora": "amanhecer",
+   "who": [
+    "CID:0:smile"
+   ],
+   "props": [
+    [
+     "kit/searchlight",
+     1.8,
+     -1.2,
+     1.0
+    ]
+   ],
+   "say": "O único alvo derrotado naquela noite foi o sono de Los Angeles."
+  }
+ ],
+ "cinf": 4.5,
+ "exp": 1.12
+}

@@ -1,0 +1,259 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Poder e Fama",
+ "ep": 27,
+ "title": "A Maior Prisão das Américas",
+ "titulo_base": "A Maior Prisão das Américas",
+ "set": "outback",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/prison",
+ "outfits": {
+  "BUK": {
+   "jacket": "#22252c",
+   "pants": "#2a2d33",
+   "boots": "#f4f1e8",
+   "hat": "cap",
+   "cap": "#1b1b1f",
+   "beard": "#2a201a",
+   "pele": "#e8c8a8",
+   "capBack": true
+  },
+  "GUA": {
+   "jacket": "#2a2a30",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "helmet",
+   "cap": "#1b1b1f"
+  },
+  "REP": {
+   "profissao": "jornalista"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "bowler"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "BUK:0:stern",
+    "REP:0:surprised:paper"
+   ],
+   "props": [
+    [
+     "kit/prison",
+     0,
+     -12.0,
+     1.0
+    ]
+   ],
+   "text": "2023",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "El Salvador construiu uma prisão tão grande que virou notícia no mundo inteiro."
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:surprised",
+    "POV:1:nervous"
+   ],
+   "mapa": "EL SALVADOR",
+   "mapa_at": 3,
+   "props": [
+    [
+     "kit/prison",
+     0,
+     -14.0,
+     1.2
+    ]
+   ],
+   "say": "Ela foi inaugurada em janeiro de dois mil e vinte e três, numa área isolada do país."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "REP:0:worried:paper",
+    "POV:0:scared"
+   ],
+   "acao": "discutir",
+   "say": "Por anos, El Salvador teve uma das maiores taxas de assassinato do mundo, por causa das gangues."
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "BUK:0:stern",
+    "GUA:0:stern"
+   ],
+   "interacao": "entregar",
+   "say": "Em dois mil e vinte e dois, o presidente Nayib Bukele decretou estado de exceção, e milhares de suspeitos foram presos."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "GUA:0:stern",
+    "GUA:1:stern",
+    "GUA:2:angry"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 16,
+    "outfits": [
+     "GUA"
+    ],
+    "march": false,
+    "expr": "stern"
+   },
+   "props": [
+    [
+     "kit/prison",
+     0,
+     -13.0,
+     1.2
+    ]
+   ],
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "text": "40 MIL",
+   "titulo": true,
+   "say": "Para guardar tanta gente, ergueram o Centro de Confinamento do Terrorismo, com vagas para quarenta mil presos."
+  },
+  {
+   "shot": "low",
+   "who": [
+    "GUA:0:stern"
+   ],
+   "props": [
+    [
+     "kit/prison",
+     0,
+     -11.0,
+     1.1
+    ]
+   ],
+   "fx": [
+    "puff@30"
+   ],
+   "sfx": [
+    "thump@30"
+   ],
+   "say": "Muralhas altas, cercas elétricas e torres de vigia por todos os lados.",
+   "acao": "conversar"
+  },
+  {
+   "shot": "two",
+   "who": [
+    "REP:0:surprised:paper",
+    "BUK:0:smug"
+   ],
+   "acao": "conversar",
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ],
+   "say": "Acontece que, nos anos seguintes, o número de assassinatos no país despencou."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "REP:0:suspicious",
+    "POV:0:worried"
+   ],
+   "acao": "discutir",
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "say": "Organizações de direitos humanos denunciaram prisões sem julgamento, e mortes sob custódia."
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "BUK:0:stern",
+    "REP:0:nervous:paper"
+   ],
+   "acao": "discutir",
+   "say": "O governo responde que as ruas ficaram seguras, e que a maioria da população apoia."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "POV:0:surprised",
+    "POV:1:grin",
+    "POV:2:worried"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "surprised"
+   },
+   "props": [
+    [
+     "kit/prison",
+     0,
+     -14.0,
+     1.2
+    ]
+   ],
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "text": "DEBATE",
+   "titulo": true,
+   "say": "A prisão virou símbolo do país. Para uns, de segurança. Para outros, de excesso."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "BUK:0:stern"
+   ],
+   "props": [
+    [
+     "kit/prison",
+     -1.0,
+     -12.0,
+     0.9
+    ]
+   ],
+   "acao": "conversar",
+   "say": "E o modelo passou a ser estudado, copiado e criticado em vários lugares do mundo."
+  }
+ ],
+ "fontes": [
+  "https://www.as-coa.org/articles/explainer-el-salvadors-2024-presidential-and-legislative-elections",
+  "https://www.riotimesonline.com/who-is-nayib-bukele-el-salvador-profile-2026/"
+ ]
+}

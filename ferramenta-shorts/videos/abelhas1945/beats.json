@@ -1,0 +1,489 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Curiosidade e Ciência",
+ "ep": 20,
+ "title": "As Abelhas que Dançam um Mapa",
+ "titulo_base": "As Abelhas que Dançam um Mapa",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/beehive",
+ "outfits": {
+  "FRI": {
+   "profissao": "cientista",
+   "hair": "#9a9a9a",
+   "glasses": true
+  },
+  "ASS": {
+   "profissao": "agricultor",
+   "hat": "straw"
+  },
+  "COL": {
+   "profissao": "cientista",
+   "beard": "#3a2a1f",
+   "hair": "#3a2a1f"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "straw",
+    "cap",
+    "beret",
+    "hair"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "FRI:0:grin",
+    "COL:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/beehive",
+     0,
+     -1.4,
+     1.0
+    ],
+    [
+     "kit/bee",
+     0.9,
+     -0.6,
+     0.9,
+     {
+      "y": 2.4
+     }
+    ],
+    [
+     "kit/bee",
+     -1.2,
+     -1.4,
+     0.7,
+     {
+      "y": 3.0
+     }
+    ]
+   ],
+   "text": "DANÇA",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "As abelhas conversam dançando. E foi um cientista teimoso que descobriu o que elas dizem.",
+   "set": "countryside"
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin"
+   ],
+   "mapa": "ÁUSTRIA",
+   "mapa_at": 3,
+   "say": "Karl von Frisch nasceu na Áustria, e passou a vida inteira estudando abelhas."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "FRI:0:suspicious",
+    "ASS:0:smile"
+   ],
+   "props": [
+    [
+     "kit/beehive",
+     1.6,
+     -0.8,
+     1.0
+    ],
+    [
+     "kit/bee",
+     0.9,
+     -0.6,
+     0.9,
+     {
+      "y": 2.4
+     }
+    ],
+    [
+     "kit/bee",
+     -1.2,
+     -1.4,
+     0.7,
+     {
+      "y": 3.0
+     }
+    ]
+   ],
+   "acao": "conversar",
+   "say": "Ele construiu uma colmeia com vidro para ver tudo lá dentro, e colocou pratinhos com água e açúcar no jardim.",
+   "fx": [
+    "puff@30"
+   ],
+   "sfx": [
+    "thump@30"
+   ],
+   "set": "countryside"
+  },
+  {
+   "shot": "two",
+   "who": [
+    "FRI:0:grin:paper",
+    "ASS:0:surprised"
+   ],
+   "fx": [
+    "puff@40"
+   ],
+   "sfx": [
+    "thump@40"
+   ],
+   "say": "Depois pintou pontinhos coloridos nas costas das abelhas, para saber quem era quem.",
+   "props": [
+    [
+     "kit/bee",
+     0.9,
+     -0.6,
+     0.9,
+     {
+      "y": 2.4
+     }
+    ],
+    [
+     "kit/bee",
+     -1.2,
+     -1.4,
+     0.7,
+     {
+      "y": 3.0
+     }
+    ],
+    [
+     "kit/beehive",
+     1.6,
+     -0.8,
+     1.0
+    ]
+   ],
+   "interior": "madeira"
+  },
+  {
+   "shot": "close",
+   "who": [
+    "FRI:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/beehive",
+     0.0,
+     -1.6,
+     1.6
+    ],
+    [
+     "kit/bee",
+     -0.8,
+     -1.2,
+     1.2,
+     {
+      "y": 2.6,
+      "mover": [
+       0.8,
+       -1.2
+      ]
+     }
+    ],
+    [
+     "kit/bee",
+     1.4,
+     -1.0,
+     0.8,
+     {
+      "y": 1.6
+     }
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "ring@50"
+   ],
+   "sfx": [
+    "ding@20",
+    "sting@50"
+   ],
+   "say": "Acontece que, quando uma abelha achava o açúcar, ela voltava e dançava em cima do favo.",
+   "set": "countryside",
+   "shot_lock": true,
+   "detalhe": false
+  },
+  {
+   "shot": "two",
+   "who": [
+    "FRI:0:stern",
+    "COL:0:suspicious"
+   ],
+   "props": [
+    [
+     "kit/beehive",
+     0.0,
+     -1.6,
+     1.6
+    ],
+    [
+     "kit/bee",
+     -0.8,
+     -1.2,
+     1.2,
+     {
+      "y": 2.6,
+      "mover": [
+       0.8,
+       -1.2
+      ]
+     }
+    ],
+    [
+     "kit/bee",
+     1.4,
+     -1.0,
+     0.8,
+     {
+      "y": 1.6
+     }
+    ]
+   ],
+   "acao": "discutir",
+   "say": "Se a comida estava perto, ela dava voltinhas. Se estava longe, fazia um oito, rebolando no meio.",
+   "set": "countryside",
+   "shot_lock": true,
+   "detalhe": false
+  },
+  {
+   "shot": "low",
+   "who": [
+    "FRI:0:shock"
+   ],
+   "props": [
+    [
+     "kit/beehive",
+     0.0,
+     -1.6,
+     1.6
+    ],
+    [
+     "kit/bee",
+     -0.8,
+     -1.2,
+     1.2,
+     {
+      "y": 2.6,
+      "mover": [
+       0.8,
+       -1.2
+      ]
+     }
+    ],
+    [
+     "kit/bee",
+     1.4,
+     -1.0,
+     0.8,
+     {
+      "y": 1.6
+     }
+    ]
+   ],
+   "fx": [
+    "ring@20"
+   ],
+   "sfx": [
+    "sting@20"
+   ],
+   "say": "E o mais incrível: o ângulo da rebolada mostrava a direção, comparada com o sol.",
+   "set": "countryside",
+   "shot_lock": true,
+   "detalhe": false
+  },
+  {
+   "shot": "two",
+   "who": [
+    "FRI:0:laugh",
+    "ASS:0:grin"
+   ],
+   "interacao": "entregar",
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ],
+   "say": "Quanto mais tempo ela rebolava, mais longe estava a comida. Era um mapa feito de dança!",
+   "set": "countryside",
+   "props": [
+    [
+     "kit/beehive",
+     0.0,
+     -1.6,
+     1.6
+    ],
+    [
+     "kit/bee",
+     -0.8,
+     -1.2,
+     1.2,
+     {
+      "y": 2.6,
+      "mover": [
+       0.8,
+       -1.2
+      ]
+     }
+    ],
+    [
+     "kit/bee",
+     1.4,
+     -1.0,
+     0.8,
+     {
+      "y": 1.6
+     }
+    ]
+   ],
+   "shot_lock": true,
+   "detalhe": false
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "COL:0:laugh",
+    "FRI:0:nervous:paper"
+   ],
+   "acao": "discutir",
+   "say": "Muitos cientistas não acreditaram. Inseto com linguagem? Parecia piada."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "POV:0:surprised",
+    "COL:0:shock",
+    "FRI:0:smug"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 16,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "surprised"
+   },
+   "props": [
+    [
+     "kit/beehive",
+     0,
+     -3.0,
+     1.4
+    ],
+    [
+     "kit/bee",
+     0.9,
+     -0.6,
+     0.9,
+     {
+      "y": 2.4
+     }
+    ],
+    [
+     "kit/bee",
+     -1.2,
+     -1.4,
+     0.7,
+     {
+      "y": 3.0
+     }
+    ]
+   ],
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "text": "TESTE",
+   "titulo": true,
+   "say": "Ele repetiu os testes centenas de vezes, mudando o açúcar de lugar. As abelhas sempre acertavam.",
+   "set": "medieval"
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "FRI:0:laugh",
+    "ASS:0:laugh",
+    "COL:0:grin"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "NOBEL",
+   "titulo": true,
+   "say": "Em mil novecentos e setenta e três, já idoso, ele ganhou o Prêmio Nobel.",
+   "set": "medieval"
+  },
+  {
+   "shot": "close",
+   "who": [
+    "FRI:0:smile"
+   ],
+   "props": [
+    [
+     "kit/beehive",
+     1.4,
+     -0.8,
+     1.0
+    ],
+    [
+     "kit/bee",
+     0.9,
+     -0.6,
+     0.9,
+     {
+      "y": 2.4
+     }
+    ],
+    [
+     "kit/bee",
+     -1.2,
+     -1.4,
+     0.7,
+     {
+      "y": 3.0
+     }
+    ]
+   ],
+   "say": "Então, da próxima vez que vir uma abelha, lembre: ela pode estar contando um segredo dançando.",
+   "set": "medieval"
+  }
+ ]
+}

@@ -1,0 +1,320 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Poder e Fama",
+ "ep": 23,
+ "title": "O Martelo da Meia-Noite",
+ "titulo_base": "O Martelo da Meia-Noite",
+ "set": "mountain",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/bunker_bomb",
+ "outfits": {
+  "TRU": {
+   "jacket": "#1f2f5c",
+   "pants": "#1f2f5c",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#f2c84a",
+   "tie": "#d8282f",
+   "pele": "#f5c49a",
+   "build": "stout",
+   "swoop": true
+  },
+  "PIL": {
+   "jacket": "#5a6a7a",
+   "pants": "#5a6a7a",
+   "boots": "#1b1b1f",
+   "hat": "helmet",
+   "cap": "#5a6a7a"
+  },
+  "GEN": {
+   "profissao": "general"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "bowler"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "TRU:0:stern",
+    "GEN:0:stern"
+   ],
+   "props": [
+    [
+     "kit/bunker_bomb",
+     0,
+     -1.6,
+     0.9
+    ],
+    [
+     "kit/b2_air",
+     2.0,
+     -11.0,
+     1.5
+    ]
+   ],
+   "text": "2025",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "Para destruir um bunker escondido dentro de uma montanha, os Estados Unidos usaram uma bomba que nunca tinha saído do papel."
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:surprised",
+    "POV:1:nervous"
+   ],
+   "mapa": "IRÃ",
+   "mapa_at": 3,
+   "props": [
+    [
+     "kit/mountain_bunker",
+     0,
+     -14.0,
+     1.6
+    ]
+   ],
+   "say": "Foi em junho de dois mil e vinte e cinco. O alvo eram as usinas nucleares do Irã."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "GEN:0:worried:paper",
+    "TRU:0:suspicious"
+   ],
+   "props": [
+    [
+     "kit/mountain_bunker",
+     2.0,
+     -12.0,
+     1.3
+    ]
+   ],
+   "acao": "discutir",
+   "say": "A principal, Fordow, fica a quase noventa metros de profundidade, dentro de uma montanha."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "GEN:0:stern"
+   ],
+   "props": [
+    [
+     "kit/bunker_bomb",
+     1.6,
+     -1.0,
+     0.8
+    ],
+    [
+     "kit/b2_air",
+     -1.5,
+     -10.0,
+     1.5
+    ]
+   ],
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "say": "Só uma arma chegava lá: a bomba antibunker, com mais de treze toneladas. E só um avião carrega essa bomba: o B-2."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "TRU:0:stern",
+    "GEN:0:grin"
+   ],
+   "interacao": "entregar",
+   "say": "Trump autorizou a missão. O nome: Martelo da Meia-Noite."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "PIL:0:stern",
+    "PIL:1:grin",
+    "GEN:0:stern"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "PIL"
+    ],
+    "march": false,
+    "expr": "stern"
+   },
+   "props": [
+    [
+     "kit/b2_air",
+     3.0,
+     -8.0,
+     1.4
+    ]
+   ],
+   "fx": [
+    "whoosh@20",
+    "whoosh@50"
+   ],
+   "sfx": [
+    "whoosh@20",
+    "whoosh@50"
+   ],
+   "text": "B-2",
+   "titulo": true,
+   "say": "Sete bombardeiros invisíveis decolaram do Missouri, e voaram mais de um dia sem parar."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PIL:0:smug",
+    "GEN:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/b2_air",
+     -1.0,
+     -10.0,
+     1.5
+    ]
+   ],
+   "interacao": "cochichar",
+   "say": "Para despistar, outros B-2 foram mandados na direção contrária, para o Pacífico."
+  },
+  {
+   "shot": "low",
+   "hora": "noite",
+   "who": [
+    "PIL:0:stern"
+   ],
+   "props": [
+    [
+     "kit/b2_air",
+     0,
+     -9.0,
+     1.5
+    ],
+    [
+     "kit/mountain_bunker",
+     0,
+     -15.0,
+     1.6
+    ]
+   ],
+   "fx": [
+    "burst@25",
+    "burst@45",
+    "puff@60"
+   ],
+   "sfx": [
+    "cannon@25",
+    "cannon@45",
+    "thump@60"
+   ],
+   "say": "Acontece que, de madrugada, os aviões soltaram catorze bombas. Doze delas em cima de Fordow, pelos respiros do bunker."
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "TRU:0:stern",
+    "GEN:0:grin:paper"
+   ],
+   "acao": "conversar",
+   "say": "Um submarino ainda disparou mísseis contra uma terceira usina. Todos os aviões voltaram para casa.",
+   "props": [
+    [
+     "kit/b2_air",
+     1.0,
+     -10.0,
+     1.5
+    ]
+   ]
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "POV:0:surprised",
+    "POV:1:shock",
+    "POV:2:nervous"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "surprised"
+   },
+   "props": [
+    [
+     "kit/mountain_bunker",
+     0,
+     -15.0,
+     1.6
+    ]
+   ],
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "text": "FORDOW",
+   "titulo": true,
+   "say": "Trump disse que as usinas foram destruídas. Avaliações posteriores discutiram o tamanho real do estrago."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "GEN:0:stern"
+   ],
+   "props": [
+    [
+     "kit/bunker_bomb",
+     -1.6,
+     -1.0,
+     0.8
+    ],
+    [
+     "kit/b2_air",
+     1.5,
+     -10.0,
+     1.5
+    ]
+   ],
+   "acao": "conversar",
+   "say": "Foi a primeira vez na história que essa bomba gigante foi usada de verdade.",
+   "fx": [
+    "burst@40"
+   ],
+   "sfx": [
+    "cannon@40"
+   ]
+  }
+ ],
+ "fontes": [
+  "https://en.wikipedia.org/wiki/2025_United_States_strikes_on_Iranian_nuclear_sites",
+  "https://news.usni.org/2025/06/21/u-s-strikes-3-iranian-nuclear-sites-using-b-2s-sub-launched-tomahawks",
+  "https://www.csis.org/analysis/what-operation-midnight-hammer-means-future-irans-nuclear-ambitions"
+ ]
+}
