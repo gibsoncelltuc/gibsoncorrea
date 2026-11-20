@@ -1,5 +1,5 @@
 // Poder e Fama EP 12 - O Não é um Lança-Chamas -- GERADO por mkvideo.py a partir de videos/lancachamas2018/beats.json (edite o beats.json, nao este arquivo)
-globalThis.REGMAP = {"buildings/house_small": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/house_two": ["kit/rg_eua_2", "kit/rg_eua_3", "kit/rg_eua_1"], "buildings/house_blue": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/shop": ["kit/rg_eua_3", "kit/rg_eua_1", "kit/rg_eua_2"], "buildings/apartment": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/church": ["kit/rg_eua_3", "kit/rg_eua_1", "kit/rg_eua_2"], "buildings/barn": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/castle_tower": ["kit/rg_eua_3"], "buildings/windmill": ["kit/rg_eua_1"], "vehicles/tank": ["kit/tanque_moderno"], "ship": ["kit/navio_moderno"]}; globalThis.REGCHAO = "#6a6a70"; globalThis.ASFALTO = true; globalThis.PRAIA = false;
+globalThis.REGMAP = {"buildings/house_small": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/house_two": ["kit/rg_eua_2", "kit/rg_eua_3", "kit/rg_eua_1"], "buildings/house_blue": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/shop": ["kit/rg_eua_3", "kit/rg_eua_1", "kit/rg_eua_2"], "buildings/apartment": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/church": ["kit/rg_eua_3", "kit/rg_eua_1", "kit/rg_eua_2"], "buildings/barn": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/castle_tower": ["kit/rg_eua_3"], "buildings/windmill": ["kit/rg_eua_1"], "vehicles/tank": ["kit/tanque_moderno"], "ship": ["kit/navio_moderno"]}; globalThis.REGCHAO = "#6a6a70"; globalThis.ASFALTO = true; globalThis.PRAIA = false; globalThis.SEM_NAVIO = true;
 const X = 12000, DK = 6; const X_countryside = 1000; const X_harbor = 5000;
 const WS = (i, off = 0) => TIMING.words[Math.min(i, TIMING.words.length - 1)][0] + off;   // frame em que a palavra de indice i comeca
 const A = [0, WS(25, -3), WS(33, -3), WS(39, -3), WS(57, -3), WS(67, -3), WS(73, -3), WS(86, -3), WS(93, -3), TOTAL_F()];
@@ -23,4 +23,4 @@ const SPEC = {
   ],
 };
 
-// FOLHA3 f2d1bf9e6463 26 acoes=26 faltando=0
+// FOLHA3 331438cdab2c 24 acoes=24 faltando=0

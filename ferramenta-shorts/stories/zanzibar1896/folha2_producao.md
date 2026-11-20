@@ -16,7 +16,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: palace | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): SUL (variante 0, expressao neutral); POV (variante 1, expressao neutral) | multidao: 8 de SUL/POV
+- Personagens principais (2): SUL (variante 0, expressao neutral); POV (variante 1, expressao neutral) | multidao: 8 de POV
 - Animacao: -
 - Objetos/modelos: kit/marco_zanzibar
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): africa, costa, ilha

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 12 - O Não é um Lança-Chamas
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 24 acoes catalogadas, 24 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.7s - 25 palavras - plano two
@@ -36,39 +36,37 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | conversar | OK |
 
-## Cena b4 - 18.8s a 21.1s - 10 palavras - plano wide
+## Cena b4 - 18.8s a 21.9s - 10 palavras - plano wide
 > "Cada compra vinha com um extintor de incêndio de brinde."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | compra (19.1s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 2 | incêndio (20.7s) | EFEITO: burst | estouro/clarao + som | OK |
-| 3 | incêndio (20.7s) | ACAO: queima | fogo + fumaca | OK |
-| 4 | brinde (21.1s) | ACAO: pega | levanta/segura | OK |
+| 2 | incêndio (20.6s) | EFEITO: burst | estouro/clarao + som | OK |
+| 3 | incêndio (20.6s) | ACAO: queima | fogo + fumaca | OK |
+| 4 | brinde (21.9s) | ACAO: pega | levanta/segura | OK |
 | 5 | - | ATUACAO | comemorar | OK |
 
-## Cena b5 - 22.2s a 23.6s - 6 palavras - plano group
+## Cena b5 - 22.1s a 24.3s - 6 palavras - plano group
 > "Foram vinte mil unidades à venda."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | venda (23.6s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 1 | venda (24.3s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 2 | - | INTERACAO | o outro se aproxima | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b6 - 24.7s a 28.5s - 13 palavras - plano crowd
+## Cena b6 - 24.6s a 29.3s - 13 palavras - plano crowd
 > "E elas esgotaram em poucos dias, rendendo cerca de dez milhões de dólares."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | rendendo (26.7s) | ACAO: rende | maos para cima (rendicao) | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | ATUACAO | reagir | OK |
+| 1 | rendendo (26.9s) | ACAO: rende | maos para cima (rendicao) | OK |
+| 2 | - | ATUACAO | reagir | OK |
 
-## Cena b7 - 29.7s a 31.2s - 7 palavras - plano two
+## Cena b7 - 29.4s a 32.1s - 7 palavras - plano two
 > "A notícia se espalhou pelo mundo inteiro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -76,7 +74,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | insiste | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b8 - 32.5s a 35.0s - 11 palavras - plano two
+## Cena b8 - 32.2s a 34.5s - 11 palavras - plano two
 > "Um produto que se chamava de tudo, menos do que parecia."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

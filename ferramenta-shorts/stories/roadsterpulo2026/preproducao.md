@@ -6,14 +6,14 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | outback | two | 2 | conversar, INTERAGEM: insiste | kit/roadster26_air, kit/tower | - | -
 b1 | outback | reveal | 8 | parados (so fala e pisca) | kit/tower | - | -
-b2 | mountain | two | 2 | discutir, INTERAGEM: discutir | kit/roadster26, kit/tower, kit/roadster | paper | -
-b3 | mountain | two | 2 | conversar, INTERAGEM: cochichar, alguem chega andando | kit/roadster26, kit/tower | paper | -
+b2 | countryside | two | 2 | discutir, INTERAGEM: discutir | kit/roadster26, kit/tower, kit/roadster | paper | -
+b3 | countryside | two | 2 | conversar, INTERAGEM: cochichar, alguem chega andando | kit/roadster26, kit/tower | paper | -
 b4 | stadium | crowd | 33 | reagir, batalha | vehicles/truck, vehicles/car, vehicles/car_blue, kit/roadster26_air, kit/roadster | - | -
 b5 | mountain | low | 1 | reagir | kit/roadster26_air, kit/tower | - | -
 b6 | mountain | two | 2 | comemorar, INTERAGEM: pular | kit/tower | - | -
 b7 | outback | two | 2 | discutir, INTERAGEM: reverencia | kit/tower | - | -
-b8 | interior loja | two | 2 | conversar, INTERAGEM: entregar | kit/roadster26, nature/picket_fence, kit/roadster | paper | -
-b9 | outback | orbit | 33 | comemorar, batalha | kit/roadster26_air, kit/tower | - | -
+b8 | outback | two | 2 | conversar, INTERAGEM: entregar | kit/roadster26, kit/tower, nature/picket_fence, kit/roadster | paper | -
+b9 | mountain | orbit | 33 | comemorar, batalha | kit/roadster26_air, kit/tower | - | -
 b10 | outback | close | 1 | comemorar | kit/roadster26_air, kit/tower | - | -
 
 OBJETO HEROI: kit/roadster26_air - aparece em 5 cena(s), close nele em 0  << AVISO: sem close no objeto heroi

@@ -1,0 +1,270 @@
+{
+ "duration": 56.712,
+ "frames30": 1701,
+ "source": "silence-align (cost 0.96)",
+ "segments": [
+  [
+   0.16325,
+   2.81354
+  ],
+  [
+   3.69004,
+   4.41821
+  ],
+  [
+   4.67325,
+   6.01437
+  ],
+  [
+   6.28475,
+   7.51125
+  ],
+  [
+   8.37592,
+   9.6765
+  ],
+  [
+   9.90742,
+   11.6095
+  ],
+  [
+   11.9268,
+   13.8949
+  ],
+  [
+   14.7527,
+   16.0611
+  ],
+  [
+   16.9417,
+   18.875
+  ],
+  [
+   19.1393,
+   19.9927
+  ],
+  [
+   20.8485,
+   23.2737
+  ],
+  [
+   23.3947,
+   24.5192
+  ],
+  [
+   24.6936,
+   25.7582
+  ],
+  [
+   26.609,
+   27.6291
+  ],
+  [
+   27.8759,
+   28.4482
+  ],
+  [
+   29.3177,
+   30.1258
+  ],
+  [
+   30.3751,
+   31.154
+  ],
+  [
+   31.4293,
+   33.1542
+  ],
+  [
+   34.0131,
+   35.9585
+  ],
+  [
+   36.1807,
+   36.9585
+  ],
+  [
+   37.8165,
+   39.6679
+  ],
+  [
+   39.9392,
+   41.9696
+  ],
+  [
+   42.8372,
+   43.8696
+  ],
+  [
+   44.0592,
+   45.3787
+  ],
+  [
+   45.7177,
+   46.731
+  ],
+  [
+   47.6002,
+   48.654
+  ],
+  [
+   49.5089,
+   50.2672
+  ],
+  [
+   50.5071,
+   52.5826
+  ],
+  [
+   53.4484,
+   55.9647
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "A guerra mais curta da hist\u00f3ria durou menos que um almo\u00e7o.",
+   "s": 0.163,
+   "e": 2.814
+  },
+  {
+   "text": "Era em Zanzibar,",
+   "s": 3.69,
+   "e": 4.418
+  },
+  {
+   "text": "uma ilha da costa da \u00c1frica,",
+   "s": 4.673,
+   "e": 6.014
+  },
+  {
+   "text": "controlada pela Inglaterra.",
+   "s": 6.285,
+   "e": 7.511
+  },
+  {
+   "text": "O sult\u00e3o morreu de repente,",
+   "s": 8.376,
+   "e": 9.677
+  },
+  {
+   "text": "e um primo dele correu para o pal\u00e1cio,",
+   "s": 9.907,
+   "e": 11.61
+  },
+  {
+   "text": "e se sentou no trono sem pedir licen\u00e7a.",
+   "s": 11.927,
+   "e": 13.895
+  },
+  {
+   "text": "Os ingleses n\u00e3o gostaram.",
+   "s": 14.753,
+   "e": 16.061
+  },
+  {
+   "text": "\"Saia do pal\u00e1cio at\u00e9 as nove da manh\u00e3\",",
+   "s": 16.942,
+   "e": 18.875
+  },
+  {
+   "text": "avisaram eles.",
+   "s": 19.139,
+   "e": 19.993
+  },
+  {
+   "text": "O novo sult\u00e3o juntou quase tr\u00eas mil homens,",
+   "s": 20.849,
+   "e": 23.274
+  },
+  {
+   "text": "alguns canh\u00f5es velhos,",
+   "s": 23.395,
+   "e": 24.519
+  },
+  {
+   "text": "e se trancou l\u00e1 dentro.",
+   "s": 24.694,
+   "e": 25.758
+  },
+  {
+   "text": "\"Eles n\u00e3o v\u00e3o atirar\",",
+   "s": 26.609,
+   "e": 27.629
+  },
+  {
+   "text": "disse ele.",
+   "s": 27.876,
+   "e": 28.448
+  },
+  {
+   "text": "Acontece que,",
+   "s": 29.318,
+   "e": 30.126
+  },
+  {
+   "text": "\u00e0s nove e dois,",
+   "s": 30.375,
+   "e": 31.154
+  },
+  {
+   "text": "os navios ingleses abriram fogo.",
+   "s": 31.429,
+   "e": 33.154
+  },
+  {
+   "text": "O pal\u00e1cio de madeira come\u00e7ou a desabar,",
+   "s": 34.013,
+   "e": 35.959
+  },
+  {
+   "text": "e a pegar fogo.",
+   "s": 36.181,
+   "e": 36.959
+  },
+  {
+   "text": "O sult\u00e3o fugiu pela porta dos fundos,",
+   "s": 37.816,
+   "e": 39.668
+  },
+  {
+   "text": "e foi pedir abrigo no consulado da Alemanha.",
+   "s": 39.939,
+   "e": 41.97
+  },
+  {
+   "text": "\u00c0s nove e quarenta,",
+   "s": 42.837,
+   "e": 43.87
+  },
+  {
+   "text": "a bandeira do pal\u00e1cio caiu,",
+   "s": 44.059,
+   "e": 45.379
+  },
+  {
+   "text": "e os canh\u00f5es pararam.",
+   "s": 45.718,
+   "e": 46.731
+  },
+  {
+   "text": "Trinta e oito minutos.",
+   "s": 47.6,
+   "e": 48.654
+  },
+  {
+   "text": "No mesmo dia,",
+   "s": 49.509,
+   "e": 50.267
+  },
+  {
+   "text": "os ingleses colocaram outro sult\u00e3o no trono.",
+   "s": 50.507,
+   "e": 52.583
+  },
+  {
+   "text": "E ainda mandaram a conta das balas para Zanzibar.",
+   "s": 53.448,
+   "e": 55.965
+  }
+ ]
+}
