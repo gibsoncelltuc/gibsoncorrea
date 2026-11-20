@@ -8,7 +8,7 @@
  "set": "harbor",
  "light": "day",
  "mood": "playful",
- "heroi": "kit/falcon9_land",
+ "heroi": "kit/rocket",
  "outfits": {
   "MUS": {
    "jacket": "#16181d",
@@ -120,7 +120,8 @@
      -9.0,
      1.0
     ]
-   ]
+   ],
+   "set": "harbor"
   },
   {
    "shot": "two",
@@ -201,6 +202,12 @@
      1.8,
      -8.0,
      1.0
+    ],
+    [
+     "kit/rocket",
+     -1.2,
+     0.2,
+     0.3
     ]
    ],
    "fx": [
@@ -211,7 +218,8 @@
     "ding@30",
     "thump@50"
    ],
-   "say": "E pousou certinho no meio da plataforma, abrindo as pernas no último segundo."
+   "say": "E pousou certinho no meio da plataforma, abrindo as pernas no último segundo.",
+   "detalhe": true
   },
   {
    "shot": "crowd",

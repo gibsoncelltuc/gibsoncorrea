@@ -47,7 +47,7 @@
  "beats": [
   {
    "shot": "two",
-   "set": "mountain",
+   "set": "countryside",
    "who": [
     "GRE:0:shock",
     "BUL:0:neutral"
@@ -70,7 +70,9 @@
      -2.4,
      1.2
     ]
-   ]
+   ],
+   "detalhe": true,
+   "shot_lock": true
   },
   {
    "shot": "reveal",
@@ -94,7 +96,7 @@
   },
   {
    "shot": "track",
-   "set": "mountain",
+   "set": "countryside",
    "who": [
     "GRE:0:nervous",
     "GRE:1:scared"
@@ -111,7 +113,7 @@
   },
   {
    "shot": "track",
-   "set": "mountain",
+   "set": "countryside",
    "who": [
     "GRE:0:shout",
     "GRE:1:angry"
@@ -201,7 +203,7 @@
   },
   {
    "shot": "close",
-   "set": "mountain",
+   "set": "countryside",
    "who": [
     "GRE:0:sad"
    ],
