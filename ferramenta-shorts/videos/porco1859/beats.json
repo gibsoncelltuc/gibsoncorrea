@@ -145,15 +145,13 @@
     ]
    ],
    "detalhe": false,
-   "say": "Um dia, um fazendeiro americano encontrou um porco comendo as batatas da horta dele."
+   "say": "Um dia, um fazendeiro americano encontrou um porco comendo as batatas da horta dele.",
+   "impact": false
   },
   {
    "shot": "two",
    "who": [
     "FAZ:0:angry"
-   ],
-   "fx": [
-    "burst@24"
    ],
    "sfx": [
     "gun@24",
@@ -298,13 +296,26 @@
    "riscos_ok": true
   },
   {
-   "shot": "group",
+   "shot": "crowd",
    "who": [
-    "ING:0:grin",
+    "ING:0:laugh",
     "AME:0:laugh",
-    "ING:1:smile"
+    "ING:1:grin"
    ],
-   "say": "Os soldados passaram meses trocando insultos, e depois, festas. Ninguém deu um tiro."
+   "say": "Os soldados passaram meses trocando insultos, e depois, festas. Ninguém deu um tiro.",
+   "impact": true,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 14,
+    "outfits": [
+     "ING",
+     "AME"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "batalha": false,
+   "cavalaria": false
   },
   {
    "shot": "two",

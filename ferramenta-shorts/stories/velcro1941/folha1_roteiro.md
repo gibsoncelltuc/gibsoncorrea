@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Curioso, ele levou um carrapicho para casa e olhou no microscópio.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: olha (point) -> acao + som de efeito; encena: examina (think) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: olha (point) @8 -> acao + som de efeito; encena: examina (think) @10 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Ele pensou: e se eu fizer uma fita de ganchinhos, e outra de voltinhas? Gruda e solta quantas vezes quiser.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@20
-- Efeito + som nas palavras-chave: encena: pensa (think) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: pensa (think) @1 -> acao + som de efeito
 - Efeito visual marcado: ring@20
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Os tecelões riram da ideia. Levou quase dez anos de tentativas até acertar o material.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; riram -> stars + som de sino; encena: x_ri (up) -> acao + som de efeito; encena: pensa (think) -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; riram -> stars + som de sino; encena: x_ri (up) @2 -> acao + som de efeito; encena: pensa (think) @4 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O segredo foi o náilon. E o nome veio do francês: velours, veludo, e crochet, gancho. Velcro!
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: segredo -> ring + som de alerta; encena: pensa (think) -> acao + som de efeito
+- Efeito + som nas palavras-chave: segredo -> ring + som de alerta; encena: pensa (think) @1 -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: No começo, muita gente achou o velcro feio, e as vendas foram fracas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@30
-- Efeito + som nas palavras-chave: encena: olha (point) -> acao + som de efeito; encena: negocio (reach) -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: olha (point) @4 -> acao + som de efeito; encena: negocio (reach) @10 -> acao + som de efeito
 - Efeito visual marcado: puff@30
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

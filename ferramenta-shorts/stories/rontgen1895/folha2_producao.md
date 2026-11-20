@@ -18,7 +18,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
 - Animacao: -
-- Objetos/modelos: kit/marco_wurzburg, buildings/apartment, buildings/house_two, nature/lamppost
+- Objetos/modelos: kit/marco_wurzburg, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alemanha
 - RISCOS: nenhum
 
@@ -129,7 +129,6 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/xray_plate | b0, b4, b5, b6, b7, b8, b9, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_wurzburg | b0, b1, b8, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/apartment | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/crookes_tube | b2, b3, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py

@@ -5,7 +5,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | medieval | two | 2 | discutir, INTERAGEM: discutir | kit/brass_nose, kit/marco_rostock | - | -
-b1 | street | crowd | 8 | encena, batalha | kit/marco_rostock, buildings/apartment, buildings/house_two, nature/lamppost | - | -
+b1 | street | crowd | 8 | encena, batalha | kit/marco_rostock, buildings/house_two, nature/lamppost | - | -
 b2 | interior madeira | group | 3 | discutir, INTERAGEM: avanca e o outro recua | - | mug | -
 b3 | street | two | 2 | discutir, INTERAGEM: discutir | kit/marco_rostock | sword, sword | -
 b4 | street | two | 2 | encena, INTERAGEM: susto | kit/marco_rostock, kit/brass_nose | sword, sword | -

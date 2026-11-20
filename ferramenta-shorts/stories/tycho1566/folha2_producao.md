@@ -18,7 +18,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): TYC (variante 0, expressao smile); POV (variante 0, expressao grin) | multidao: 6 de POV
 - Animacao: encena | batalha encenada
-- Objetos/modelos: kit/marco_rostock, buildings/apartment, buildings/house_two, nature/lamppost
+- Objetos/modelos: kit/marco_rostock, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alemanha, dinamarca, jovem
 - RISCOS: nenhum
 
@@ -119,7 +119,6 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/brass_nose | b0, b4, b5, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_rostock | b0, b1, b3, b4, b5, b6, b7, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/apartment | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_uraniborg | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py

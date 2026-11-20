@@ -1,5 +1,5 @@
 // Poder e Fama EP 15 - Trump na Batalha dos Bilionários -- GERADO por mkvideo.py a partir de videos/wrestlemania2007/beats.json (edite o beats.json, nao este arquivo)
-globalThis.REGMAP = {"buildings/house_small": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/house_two": ["kit/rg_eua_2", "kit/rg_eua_3", "kit/rg_eua_1"], "buildings/house_blue": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/shop": ["kit/rg_eua_3", "kit/rg_eua_1", "kit/rg_eua_2"], "buildings/apartment": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/church": ["kit/rg_eua_3", "kit/rg_eua_1", "kit/rg_eua_2"], "buildings/barn": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/castle_tower": ["kit/rg_eua_3"], "buildings/windmill": ["kit/rg_eua_1"], "vehicles/tank": ["kit/tanque_moderno"], "ship": ["kit/navio_moderno"]}; globalThis.REGCHAO = "#6a6a70"; globalThis.ASFALTO = true; globalThis.PRAIA = false;
+globalThis.REGMAP = {"buildings/house_small": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/house_two": ["kit/rg_eua_2", "kit/rg_eua_3", "kit/rg_eua_1"], "buildings/house_blue": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/shop": ["kit/rg_eua_3", "kit/rg_eua_1", "kit/rg_eua_2"], "buildings/apartment": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/church": ["kit/rg_eua_3", "kit/rg_eua_1", "kit/rg_eua_2"], "buildings/barn": ["kit/rg_eua_1", "kit/rg_eua_2", "kit/rg_eua_3"], "buildings/castle_tower": ["kit/rg_eua_3"], "buildings/windmill": ["kit/rg_eua_1"], "vehicles/tank": ["kit/tanque_moderno"], "ship": ["kit/navio_moderno"]}; globalThis.REGCHAO = "#6a6a70"; globalThis.ASFALTO = true; globalThis.PRAIA = false; globalThis.SEM_NAVIO = true;
 const X = 11000, DK = 6;
 const WS = (i, off = 0) => TIMING.words[Math.min(i, TIMING.words.length - 1)][0] + off;   // frame em que a palavra de indice i comeca
 const A = [0, WS(19, -3), WS(37, -3), WS(56, -3), WS(75, -3), WS(89, -3), WS(105, -3), WS(122, -3), WS(134, -3), WS(148, -3), WS(158, -3), WS(175, -3), TOTAL_F()];
@@ -30,4 +30,4 @@ const SPEC = {
   ],
 };
 
-// FOLHA3 5b4ce55a6043 41 acoes=41 faltando=0
+// FOLHA3 6294595744b6 39 acoes=39 faltando=0
