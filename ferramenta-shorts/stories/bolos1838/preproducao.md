@@ -12,7 +12,7 @@ b4 | interior pedra | close | 1 | conversar | - | - | -
 b5 | street | two | 2 | comemorar, INTERAGEM: cochichar | kit/marco_ulua | - | -
 b6 | harbor | wide | 20 | encena | kit/marco_ulua, navios ao fundo, navio em movimento | - | -
 b7 | harbor | crowd | 22 | reagir, batalha | kit/marco_ulua, cannon | - | -
-b8 | street | orbit | 20 | reagir, batalha | kit/marco_ulua, cannon | - | -
+b8 | street | orbit | 19 | encena, batalha | kit/marco_ulua, cannon | - | -
 b9 | countryside | two | 2 | encena, INTERAGEM: susto | kit/marco_ulua | paper, coin | -
 b10 | street | close | 1 | encena | kit/marco_ulua, kit/cake_table | coin | -
 

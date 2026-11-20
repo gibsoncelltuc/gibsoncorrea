@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 07 - A Guerra dos Bolos
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 163 palavras (~56 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 164 palavras (~57 s)
 
 ## Cena b0  (~5.2 s)
 - Narracao: A França foi à guerra contra o México por causa de uma conta de confeitaria.
@@ -74,11 +74,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b8  (~6.2 s)
-- Narracao: Um general mexicano correu para o combate, e um tiro de canhão o derrubou. Ele perdeu uma perna.
+## Cena b8  (~6.6 s)
+- Narracao: Um general mexicano correu para o combate, e tombou, atingido por um tiro de canhão. Ele perdeu uma perna.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: cannon@30, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160, gun@164, gun@168, gun@176, gun@180
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; cavalaria: 4 soldados a cavalo (GEN) -> acao + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito; correu -> dust + som de impacto; tiro -> burst + som de tiro/explosao; canhão -> burst + som de tiro/explosao; encena: corre @3 -> acao + som de efeito; encena: atira @9 -> acao + som de efeito; encena: perde (facepalm) @15 -> acao + som de efeito; explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
+- Efeitos sonoros marcados: cannon@30, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160, gun@164, gun@168, gun@176, gun@180, gun@184, gun@188, gun@196
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito; correu -> dust + som de impacto; tombou -> dust + som de impacto; tiro -> burst + som de tiro/explosao; encena: corre @3 -> acao + som de efeito; encena: tomba @8 -> acao + som de efeito; encena: atira @12 -> acao + som de efeito; encena: perde (facepalm) @16 -> acao + som de efeito; explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
 - Efeito visual marcado: burst@30
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

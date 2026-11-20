@@ -82,14 +82,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canhoes, cidade, fortaleza, soldados, veracruz
 - RISCOS: nenhum
 
-## Cena b8 - Um general mexicano correu para o combate, e um tiro de canhão o derru...
+## Cena b8 - Um general mexicano correu para o combate, e tombou, atingido por um t...
 - Cenario: street | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): GEN (variante 0, expressao pained); OFI (variante 1, expressao shock) | multidao: 18 de OFI
-- Animacao: reagir | batalha encenada
+- Personagens principais (1): GEN (variante 0, expressao pained) | multidao: 18 de POV
+- Animacao: encena | batalha encenada
 - Objetos/modelos: kit/marco_ulua, cannon
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canhao, combate, derrubou, general, perna, tiro
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canhao, combate, general, perna, tiro
 - RISCOS: nenhum
 
 ## Cena b9 - Meses depois, o México pagou os seiscentos mil pesos, e a França foi e...

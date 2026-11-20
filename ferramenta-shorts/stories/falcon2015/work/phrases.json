@@ -1,0 +1,261 @@
+{
+ "duration": 64.152,
+ "frames30": 1925,
+ "source": "silence-align (cost 0.61)",
+ "segments": [
+  [
+   0.158583,
+   1.28783
+  ],
+  [
+   1.52004,
+   3.81642
+  ],
+  [
+   4.67112,
+   6.70183
+  ],
+  [
+   7.60875,
+   9.06483
+  ],
+  [
+   9.27567,
+   10.2158
+  ],
+  [
+   10.4127,
+   11.0138
+  ],
+  [
+   11.8523,
+   14.7773
+  ],
+  [
+   15.085,
+   16.409
+  ],
+  [
+   17.2713,
+   18.6682
+  ],
+  [
+   19.5639,
+   21.7272
+  ],
+  [
+   22.6465,
+   23.5867
+  ],
+  [
+   23.8457,
+   24.772
+  ],
+  [
+   25.5894,
+   26.7366
+  ],
+  [
+   27.6117,
+   28.6726
+  ],
+  [
+   28.9618,
+   31.1804
+  ],
+  [
+   32.033,
+   33.7904
+  ],
+  [
+   34.0165,
+   35.5057
+  ],
+  [
+   35.7972,
+   37.3251
+  ],
+  [
+   38.1744,
+   39.6937
+  ],
+  [
+   39.8922,
+   40.2888
+  ],
+  [
+   40.6767,
+   42.1942
+  ],
+  [
+   43.0675,
+   45.2065
+  ],
+  [
+   45.4269,
+   47.1847
+  ],
+  [
+   48.038,
+   51.1536
+  ],
+  [
+   52.0556,
+   56.2539
+  ],
+  [
+   57.115,
+   57.4297
+  ],
+  [
+   57.5692,
+   60.0915
+  ],
+  [
+   60.9527,
+   63.3653
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Durante sessenta anos,",
+   "s": 0.159,
+   "e": 1.288
+  },
+  {
+   "text": "todo foguete era jogado fora depois de um voo.",
+   "s": 1.52,
+   "e": 3.816
+  },
+  {
+   "text": "At\u00e9 que um deles voltou e pousou de r\u00e9.",
+   "s": 4.671,
+   "e": 6.702
+  },
+  {
+   "text": "Foi em dezembro de dois mil e quinze,",
+   "s": 7.609,
+   "e": 9.065
+  },
+  {
+   "text": "no Cabo Canaveral,",
+   "s": 9.276,
+   "e": 10.216
+  },
+  {
+   "text": "na Fl\u00f3rida.",
+   "s": 10.413,
+   "e": 11.014
+  },
+  {
+   "text": "Elon Musk queria reaproveitar os foguetes da SpaceX,",
+   "s": 11.852,
+   "e": 14.777
+  },
+  {
+   "text": "como se reaproveita um avi\u00e3o.",
+   "s": 15.085,
+   "e": 16.409
+  },
+  {
+   "text": "Muitos achavam imposs\u00edvel.",
+   "s": 17.271,
+   "e": 18.668
+  },
+  {
+   "text": "As primeiras tentativas de pouso deram errado.",
+   "s": 19.564,
+   "e": 21.727
+  },
+  {
+   "text": "Foguetes tombaram,",
+   "s": 22.646,
+   "e": 23.587
+  },
+  {
+   "text": "e explodiram no mar.",
+   "s": 23.846,
+   "e": 24.772
+  },
+  {
+   "text": "Mas a equipe insistiu.",
+   "s": 25.589,
+   "e": 26.737
+  },
+  {
+   "text": "Em vinte e um de dezembro,",
+   "s": 27.612,
+   "e": 28.673
+  },
+  {
+   "text": "o Falcon nove decolou levando sat\u00e9lites.",
+   "s": 28.962,
+   "e": 31.18
+  },
+  {
+   "text": "Depois de soltar a parte de cima,",
+   "s": 32.033,
+   "e": 33.79
+  },
+  {
+   "text": "a parte de baixo virou no c\u00e9u,",
+   "s": 34.017,
+   "e": 35.506
+  },
+  {
+   "text": "e come\u00e7ou a voltar para a Terra.",
+   "s": 35.797,
+   "e": 37.325
+  },
+  {
+   "text": "Acontece que ela desceu de r\u00e9,",
+   "s": 38.174,
+   "e": 39.694
+  },
+  {
+   "text": "de p\u00e9,",
+   "s": 39.892,
+   "e": 40.289
+  },
+  {
+   "text": "com o motor aceso freando a queda.",
+   "s": 40.677,
+   "e": 42.194
+  },
+  {
+   "text": "E pousou certinho no meio da plataforma,",
+   "s": 43.068,
+   "e": 45.206
+  },
+  {
+   "text": "abrindo as pernas no \u00faltimo segundo.",
+   "s": 45.427,
+   "e": 47.185
+  },
+  {
+   "text": "Os funcion\u00e1rios da SpaceX gritaram como em final de Copa do Mundo.",
+   "s": 48.038,
+   "e": 51.154
+  },
+  {
+   "text": "Foi a primeira vez que um foguete desse tamanho voltou do espa\u00e7o e pousou inteiro em terra.",
+   "s": 52.056,
+   "e": 56.254
+  },
+  {
+   "text": "Hoje,",
+   "s": 57.115,
+   "e": 57.43
+  },
+  {
+   "text": "os foguetes da SpaceX pousam quase toda semana.",
+   "s": 57.569,
+   "e": 60.092
+  },
+  {
+   "text": "E a viagem ao espa\u00e7o ficou muito mais barata.",
+   "s": 60.953,
+   "e": 63.365
+  }
+ ]
+}
