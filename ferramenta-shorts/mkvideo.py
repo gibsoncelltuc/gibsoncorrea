@@ -708,6 +708,7 @@ for _b in beats:
                 _sd = (1 if _sl[0] <= 0 else -1) if _n > 1 else 1; _p[1] = round(_sl[0] + _sd * 1.1, 2); _p[2] = round(ZS[0] + 0.7, 2); _p[3:] = [min(float(_p[3]) if len(_p) > 3 else 1.0, 0.9)]
 for _b in beats:   # "entraram escondidos" -> alguem chega andando; "as luzes se apagaram" -> fica de noite
     _sy = nrm(_b['say'])
+    _sy = re.sub(r'(entrou|entraram|chegou|chegaram)(para|na|no|em)?(o|a|os|as)?(hallda?fama|hallda?fama|historia|lista|moda|vigor|cena|equipe|grupo|clube|empresa|escola|faculdade|partido|governo)', '', _sy)   # 20/11: 'entrou para o Hall da Fama' e' figurado
     if 'chega' not in _b and (re.search(r'escondid|sorrateir|pontadospes|invadiu|invadiram|invadia|entraram|entrou|chegado|chegava|chegou|chegaram', _sy) or re.search(r'\bchega\b|\bchegam\b', _b['say'].lower())): _b['chega'] = True
     if re.search(r'marchav|marcharam|marchou|marchando|desfil', _sy) and _EXERC and not _b.get('crowd'): _b['crowd'] = {'n': 10, 'outfits': [([w_.split(':')[0] for w_ in _b.get('who', []) if w_.split(':')[0] in _EXERC] or _EXERC)[0]], 'march': True}
     if re.search(r'danca|dancav|dancaram|dancou', _sy) and not _b.get('acao') and not re.search(_DANCA_OUTRO, _sy): _b['acao'] = 'dancar'
@@ -795,7 +796,8 @@ def build_beat(k, b):
     if _acao == 'nenhuma': _acao = None
     b['_acao'] = _acao
     _px = {'dancar': ", pose: 'dance', acting: false", 'discutir': ", pose: 'argue'", 'comemorar': ", pose: 'cheer'", 'conversar': ", pose: 'talk'", 'reagir': ", pose: 'react'"}.get(_acao, '')   # "acao": "discutir" -> os personagens gesticulam um para o outro
-    _chega = b.get('chega') if 'chega' in b else bool(re.search(r'chegou|chegaram|entrou|entraram|apareceu|apareceram|veio|vieram|correu para|correram para', _say_sp))
+    _say_cg = re.sub(r'(entrou|entraram|chegou|chegaram) (?:para|na|no|em)? ?(?:o |a |os |as )?(hall da fama|historia|lista|moda|ar\b|vigor|cena|jogo\b|equipe|grupo|clube|empresa|escola|faculdade|partido|governo)', ' ', _say_sp)   # 20/11: 'entrou para o Hall da Fama / para a historia' e' figurado: ninguem entra andando
+    _chega = b.get('chega') if 'chega' in b else bool(re.search(r'chegou|chegaram|entrou|entraram|apareceu|apareceram|veio|vieram|correu para|correram para', _say_cg))
     persons = []
     for w in who:
         p = w.split(':'); out = p[0]; v = int(p[1]) if len(p) > 1 and p[1] != '' else 0; ex = (p[2] if len(p) > 2 else '') or 'neutral'; hold = p[3] if len(p) > 3 else None   # 4o campo: objeto na mao
@@ -1257,7 +1259,7 @@ def build_beat(k, b):
                 KWSFX.append((wi_, 'ding'))
             elif tipo_ == 'paga':   # dinheiro/pagar/vender: moedas na mao estendida + brilho
                 pr.append(f"{{ asset: 'kit/coin', a: Math.max({a} + 4, WS({wi_}) - 20), b: {bb}, at: [X + {num(_hx + _side * 0.25)}, {num(_z0 + 0.5)}], y: DK + 1.25, s: 0.32, drop: false }}"); KWSFX.append((wi_, 'ding'))
-            elif tipo_ == 'chega' and j_ <= 4 and not re.search(r'(entrou|entraram)(para|na|em|no)(a)?(historia|guerra|moda|panico|acordo|crise|falencia|vigor|campo)|apareceu(na|no)(tv|televisao|jornal|foto)', _sy_) and acts and not b.get('_chega') and not (shot == 'track' or mv) and 'move:' not in acts[0] and acts[0].startswith(('pp(', 'Object.assign(pp(')):   # chegou/apareceu: entra andando pela lateral e para no lugar
+            elif tipo_ == 'chega' and j_ <= 4 and not re.search(r'(entrou|entraram)(para|na|em|no)(a|o)?(historia|guerra|moda|panico|acordo|crise|falencia|vigor|campo|hallda?fama|lista|equipe|grupo|clube)|apareceu(na|no)(tv|televisao|jornal|foto)', _sy_) and acts and not b.get('_chega') and not (shot == 'track' or mv) and 'move:' not in acts[0] and acts[0].startswith(('pp(', 'Object.assign(pp(')):   # chegou/apareceu: entra andando pela lateral e para no lugar
                 _gst.setdefault('sai', []).append(f"at: [X + {num(sl[0] + _side * 6)}, {num(_z0 - 0.8)}], move: [[X + {num(sl[0])}, {num(_z0)}], Math.max({a}, WS({wi_}) - 30), WS({wi_}) + 20, 'lin'], walk: 'stroll'")
             elif tipo_ == 'atira':
                 if not (persons[0][3] == 'rifle' or B.get('outfits', {}).get(persons[0][0], {}).get('rifle')) and acts: acts[0] = f"Object.assign({acts[0]}, {{ over: {{ rifle: true }} }})"

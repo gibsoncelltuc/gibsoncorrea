@@ -107,7 +107,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: chega (point) @4 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: HALL DA FAMA
+- Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL
 
 

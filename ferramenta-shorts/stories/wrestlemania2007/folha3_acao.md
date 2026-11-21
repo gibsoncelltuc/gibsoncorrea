@@ -106,12 +106,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | discutir | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b11 - 62.9s a 68.5s - 21 palavras - plano close
+## Cena b11 - 62.9s a 68.5s - 21 palavras - plano two
 > "Seis anos depois, Trump entrou para o Hall da Fama da luta livre. Tudo por causa de um corte de cabelo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | entrou (64.3s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | - | ATUACAO | comemorar | OK |
-| 3 | - | PLACA | HALL DA FAMA | OK |
+| 2 | - | INTERACAO | pular | OK |
+| 3 | - | ATUACAO | comemorar | OK |
 
