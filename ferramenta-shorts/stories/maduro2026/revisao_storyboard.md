@@ -1,11 +1,11 @@
-b0: OK - sala escura de madrugada com a placa 2026, Trump de gravata vermelha e o general ao lado com um helicoptero ao fundo, Trump autorizou a operacao militar em janeiro de dois mil e vinte e seis.
-b1: OK - mapa da VENEZUELA com marcador em Caracas e depois rua com personagens, o alvo estava em Caracas a capital da Venezuela.
-b2: OK - campo com Maduro de preto cruzando os bracos ao lado de um personagem, close do acusado gritando, o presidente venezuelano Nicolas Maduro acusado de narcoterrorismo.
-b3: OK - sala com Trump e um agente de preto com o papel do estudo e anel de segredo, durante meses a inteligencia americana estudou cada passo dele em segredo.
-b4: OK - noite com soldados da Forca Delta em multidao verde com a placa DELTA e um helicoptero escuro sobre eles, helicopteros levaram os soldados ao complexo onde Maduro estava.
-b5: OK - noite com soldado em plano baixo no cais e helicoptero no alto com estouro de luz, ataques aereos desligaram as defesas antiaereas do pais.
-b6: CORRIGIDO - so um soldado aparecia na captura, sem Maduro -> Maduro assustado cercado por dois soldados de capacete no cais a noite, em menos de tres horas Maduro foi capturado.
-b7: OK - sala com Trump e o general de chapeu rindo ao lado, de longe na Florida ao lado do diretor da CIA e do secretario de Estado acompanhando tudo.
-b8: CORRIGIDO - aviao longe demais para aparecer e helicoptero na cabeca do personagem -> Maduro e o agente na rua com o pergaminho e o aviao mais proximo ao lado, Maduro foi levado de aviao para Nova York.
-b9: OK - multidao na praca com a placa MUNDO de bracos erguidos e depois plano aberto, nenhum militar americano morreu e a noticia parou o mundo dividindo opinioes.
-b10: OK - close de Trump sorrindo de bracos erguidos com estrelas e o pergaminho heroi ao lado, a operacao ganhou um nome que resume tudo Resolucao Absoluta.
+b0: OK - cena confere com a frase: Numa madrugada de janeiro de dois mil e vinte e seis, Trump autorizou uma
+b1: OK - cena confere com a frase: O alvo estava em Caracas, a capital da Venezuela.
+b2: OK - cena confere com a frase: Era o presidente venezuelano Nicolás Maduro, acusado pela justiça americana de narcoterrorismo.
+b3: OK - cena confere com a frase: Durante meses, a inteligência americana estudou cada passo dele, em segredo.
+b4: OK - cena confere com a frase: Às duas da manhã, helicópteros levaram os soldados da Força Delta direto para o
+b5: OK - cena confere com a frase: Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do país.
+b6: OK - cena confere com a frase: Acontece que, em menos de três horas, Maduro foi capturado e levado para fora
+b7: OK - cena confere com a frase: Trump acompanhou tudo de longe, na Flórida, ao lado do diretor da CIA e
+b8: OK - cena confere com a frase: Maduro foi levado de avião para Nova York, onde responde a um processo na
+b9: OK - cena confere com a frase: Nenhum militar americano morreu. A notícia parou o mundo, e dividiu opiniões entre países.
+b10: OK - cena confere com a frase: A operação ganhou um nome que resume tudo: Resolução Absoluta.
