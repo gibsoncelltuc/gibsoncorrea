@@ -17,7 +17,7 @@ b9 | countryside | two | 2 | conversar, INTERAGEM: abracar | kit/marco_versalhes
 b10 | medieval | orbit | 21 | comemorar, batalha | kit/balloon_air, kit/marco_versalhes | - | -
 b11 | countryside | close | 1 | conversar | kit/balloon, kit/marco_versalhes, sheep | - | -
 
-OBJETO HEROI: kit/balloon - aparece em 7 cena(s), close nele em 2
+OBJETO HEROI: kit/balloon - aparece em 7 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b6, b10
 Interacoes entre personagens: b0 susto, b2 avanca e o outro recua, b3 o outro se aproxima, b4 discutir, b7 insiste, b8 vai ate o outro, b9 abracar
 
