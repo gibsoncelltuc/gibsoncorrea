@@ -58,7 +58,7 @@ def acoes_folha3(sid):
     return out
 
 def auditar(sid, verboso=False):
-    B = json.load(open(f'videos/{sid}/beats.json'))['beats']
+    JSON = json.load(open(f'videos/{sid}/beats.json')); B = JSON['beats']
     C = cenas_do_spec(sid); F = acoes_folha3(sid); linhas = []; ok = 0; lacunas_total = 0
     for i, b in enumerate(B):
         k = f'b{i}'; say = b['say']; n = nrm(say); c = C.get(k, {'set': set(), 'animals': set(), 'assets': set(), 'actors': 0, 'texto': set(), 'poses': set(), 'fx': set()})
@@ -67,7 +67,7 @@ def auditar(sid, verboso=False):
             if re.search(rx, n) and not (c['animals'] & aceitos or any(a.split('/')[-1] in aceitos or a in aceitos for a in c['assets'])):
                 lac.append(f'ANIMAL narrado ({re.search(rx, n).group(0)}) NAO aparece')
         if re.search(ANIMAIS_SEM_MODELO, n): lac.append(f'ANIMAL/OBJETO sem modelo na biblioteca ({re.search(ANIMAIS_SEM_MODELO, n).group(0)}): modelar (Blender) ou mostrar por cartaz/prato')
-        ambiente = ' '.join(list(c['set']) + list(c['assets']) + list(c['animals']) + list(c['texto'])).lower() + ' ' + nrm(str(b.get('interior') or '')) + ' ' + nrm(str(b.get('set') or ''))
+        ambiente = ' '.join(list(c['set']) + list(c['assets']) + list(c['animals']) + list(c['texto'])).lower() + ' ' + nrm(str(b.get('interior') or '')) + ' ' + nrm(str(b.get('set') or JSON.get('set') or ''))
         for rx, (rot, aceitos) in LUGARES.items():
             if re.search(rx, n) and not any(a in nrm(ambiente) for a in aceitos):
                 lac.append(f'LUGAR/CENARIO narrado ({rot}) NAO aparece')

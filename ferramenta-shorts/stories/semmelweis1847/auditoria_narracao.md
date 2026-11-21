@@ -22,6 +22,6 @@ Cenas 100% fieis: 12/12 (100%). Lacunas: 0
 ## b9 OK - Mas os médicos se ofenderam. Um cavalheiro, diziam, tem as mãos limpas. Semmelweis brigou com todos, e foi mandado embora.
 - na tela: set=['hall'] animais=[] objetos=['maca', 'room_hospital'] atores=2 acoes_folha3=['ofenderam', 'embora']
 ## b10 OK - Ele morreu em mil oitocentos e sessenta e cinco, sem ver ninguém dar razão a ele.
-- na tela: set=['street'] animais=[] objetos=['lapide', 'marco_viena'] atores=9 acoes_folha3=['morreu', 'morreu']
+- na tela: set=['street'] animais=[] objetos=['lapide', 'marco_viena'] atores=3 acoes_folha3=['morreu', 'morreu']
 ## b11 OK - Anos depois, a ciência provou os micróbios. Hoje, ele é chamado de salvador das mães.
 - na tela: set=['street'] animais=[] objetos=['maca', 'marco_viena', 'wash_basin'] atores=1 acoes_folha3=['provou']
