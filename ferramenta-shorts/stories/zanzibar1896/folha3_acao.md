@@ -85,20 +85,20 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | fugiu (38.3s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
 | 3 | - | ATUACAO | discutir | OK |
 
-## Cena b8 - 42.8s a 46.3s - 13 palavras - plano group
-> "Às nove e quarenta, a bandeira do palácio caiu, e os canhões pararam."
+## Cena b8 - 42.8s a 46.0s - 12 palavras - plano group
+> "Às nove e quarenta, o palácio se rendeu, e os canhões pararam."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | caiu (45.2s) | EFEITO: dust | poeira + som | OK |
-| 2 | canhões (46.0s) | EFEITO: burst | estouro/clarao + som | OK |
-| 3 | canhões (46.0s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 1 | rendeu (44.9s) | ACAO: rende | maos para cima (rendicao) | OK |
+| 2 | canhões (45.9s) | EFEITO: burst | estouro/clarao + som | OK |
+| 3 | canhões (45.9s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 4 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
 | 5 | - | INTERACAO | vai ate o outro | OK |
 | 6 | - | ATUACAO | conversar | OK |
 | 7 | - | PLACA | 9:40 | OK |
 
-## Cena b9 - 47.6s a 52.3s - 14 palavras - plano group
+## Cena b9 - 46.3s a 52.2s - 14 palavras - plano group
 > "Trinta e oito minutos. No mesmo dia, os ingleses colocaram outro sultão no trono."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -106,12 +106,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | aproxima-se | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 53.4s a 55.5s - 9 palavras - plano close
+## Cena b10 - 52.3s a 55.2s - 9 palavras - plano close
 > "E ainda mandaram a conta das balas para Zanzibar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | balas (54.9s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | balas (54.9s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 1 | balas (54.8s) | EFEITO: burst | estouro/clarao + som | OK |
+| 2 | balas (54.8s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 3 | - | ATUACAO | conversar | OK |
 

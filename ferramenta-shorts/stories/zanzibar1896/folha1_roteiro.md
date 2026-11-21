@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 08 - A Guerra de 38 Minutos
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: palace | 11 cenas, 153 palavras (~53 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: palace | 11 cenas, 152 palavras (~52 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: A guerra mais curta da história durou menos que um almoço.
@@ -74,11 +74,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: palace | 1
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~4.5 s)
-- Narracao: Às nove e quarenta, a bandeira do palácio caiu, e os canhões pararam.
+## Cena b8  (~4.1 s)
+- Narracao: Às nove e quarenta, o palácio se rendeu, e os canhões pararam.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
-- Efeito + som nas palavras-chave: caiu -> dust + som de impacto; canhões -> burst + som de tiro/explosao; encena: atira @11 -> acao + som de efeito; explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
+- Efeito + som nas palavras-chave: canhões -> burst + som de tiro/explosao; encena: rende (up) @7 -> acao + som de efeito; encena: atira @10 -> acao + som de efeito; explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
 - Efeito visual marcado: dust@40
 - Texto na tela: 9:40
 - Funcao na historia: desenvolvimento

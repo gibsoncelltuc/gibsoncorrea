@@ -1,5 +1,5 @@
 _W = lambda i: _WORDS[min(i, len(_WORDS) - 1)]['s'] * 30   # frame da palavra i
-_A = [0] + [int(_W(i) - 3) for i in [11, 23, 44, 58, 74, 80, 102, 117, 130, 144]] + [FR]
+_A = [0] + [int(_W(i) - 3) for i in [11, 23, 44, 58, 74, 80, 102, 117, 129, 143]] + [FR]
 march(F(_A[0]), F(_A[11]), 112)
 #--SFX--
 whoosh(F(_A[0]), 0.4, 0.35)
@@ -122,9 +122,9 @@ gun(F(int(_W(90))))
 gun(F(int(_W(101))))
 creak(F(int(_W(89))))
 thump(F(int(_W(104))))
-thump(F(int(_W(125))))
-cannon(F(int(_W(128))))
-gun(F(int(_W(128))))
+cannon(F(int(_W(127))))
+sting(F(int(_W(124))))
+gun(F(int(_W(127))))
 cannon(F(int(_W(117))))
-gun(F(int(_W(150))))
-gun(F(int(_W(150))))
+gun(F(int(_W(149))))
+gun(F(int(_W(149))))

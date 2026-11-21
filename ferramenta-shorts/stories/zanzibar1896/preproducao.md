@@ -12,7 +12,7 @@ b4 | palace | crowd | 20 | encena, batalha | kit/marco_zanzibar, cannon | - | -
 b5 | interior pedra | close | 1 | conversar | - | - | -
 b6 | harbor | orbit | 22 | reagir, batalha | kit/marco_zanzibar, navios ao fundo | - | -
 b7 | palace | track | 2 | discutir, andando | kit/marco_zanzibar, buildings/house_two, nature/lamppost, nature/bench | - | -
-b8 | hall | group | 7 | conversar, INTERAGEM: vai ate o outro | cannon, war/flagpole, buildings/castle_tower | flag | -
+b8 | hall | group | 7 | conversar, INTERAGEM: vai ate o outro | cannon, buildings/castle_tower | flag | -
 b9 | medieval | group | 3 | conversar, INTERAGEM: aproxima-se | kit/marco_zanzibar | - | -
 b10 | interior pedra | close | 1 | conversar | - | - | -
 

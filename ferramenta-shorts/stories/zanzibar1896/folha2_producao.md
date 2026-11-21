@@ -82,14 +82,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alemanha, consulado, fundos, sultao
 - RISCOS: nenhum
 
-## Cena b8 - Às nove e quarenta, a bandeira do palácio caiu, e os canhões pararam.
+## Cena b8 - Às nove e quarenta, o palácio se rendeu, e os canhões pararam.
 - Cenario: hall | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): GUA (variante 0, expressao pained, segura flag); ING (variante 1, expressao stern) | multidao: 5 de GUA/ING/POV
 - Animacao: conversar | interacao: vai ate o outro
-- Objetos/modelos: cannon, war/flagpole, buildings/castle_tower
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bandeira, canhoes, nove, palacio
+- Objetos/modelos: cannon, buildings/castle_tower
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canhoes, nove, palacio
 - RISCOS: nenhum
 
 ## Cena b9 - Trinta e oito minutos. No mesmo dia, os ingleses colocaram outro sultã...
@@ -123,7 +123,6 @@ cannon | b4, b8 | pronto (HEROI: aparece em close) | conferir na folha de contat
 buildings/house_two | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/bench | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-war/flagpole | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/castle_tower | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
