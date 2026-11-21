@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 05 - Os Gansos que Salvaram Roma
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval | 10 cenas, 152 palavras (~52 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval | 10 cenas, 151 palavras (~52 s)
 
 ## Cena b0  (~3.4 s)
 - Narracao: Roma inteira foi salva por um bando de gansos barulhentos.
@@ -56,11 +56,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Texto na tela: QUÁ! QUÁ!
 - Funcao na historia: VIRADA
 
-## Cena b6  (~7.6 s)
-- Narracao: Um soldado chamado Mânlio pulou da cama, e empurrou o primeiro invasor muralha abaixo. O gaulês foi derrubado, levando os outros junto.
+## Cena b6  (~7.2 s)
+- Narracao: Um soldado chamado Mânlio pulou da cama, e derrubou o primeiro invasor muralha abaixo. O gaulês tombou, levando os outros junto.
 - Som ambiente: birds
 - Efeitos sonoros marcados: thump@66, whoosh@60
-- Efeito + som nas palavras-chave: encena: pula @4 -> acao + som de efeito; encena: empurra (push) @8 -> acao + som de efeito; encena: tomba @17 -> acao + som de efeito
+- Efeito + som nas palavras-chave: derrubou -> dust + som de impacto; tombou -> dust + som de impacto; encena: pula @4 -> acao + som de efeito; encena: tomba @16 -> acao + som de efeito
 - Efeito visual marcado: dust@70, puff@80
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -84,10 +84,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Funcao na historia: desenvolvimento
 
 ## Cena b9  (~3.8 s)
-- Narracao: E os guardas, que dormiram a noite inteira, ganharam um castigo.
+- Narracao: E os guardas, que dormiram a noite inteira, levaram um castigo.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: ganharam -> stars + som de sino; encena: vence (up) @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL
