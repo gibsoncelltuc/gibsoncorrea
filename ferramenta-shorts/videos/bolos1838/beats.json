@@ -24,7 +24,8 @@
    "hat": "shako",
    "belt": "#f1efe6",
    "buttons": "#e8c45a",
-   "rifle": true
+   "rifle": true,
+   "uniforme_fixo": true
   },
   "FRA": {
    "jacket": "#27408b",
@@ -49,7 +50,8 @@
    "hat": "shako_tall",
    "buttons": "#e8c45a",
    "sash": "#c0262d",
-   "moustache_on": "#2a1c12"
+   "moustache_on": "#2a1c12",
+   "uniforme_fixo": true
   }
  },
  "beats": [
@@ -60,7 +62,7 @@
     "OFI:0:laugh"
    ],
    "text": "1838",
-   "say": "A França invadiu o México por causa de uma conta de confeitaria."
+   "say": "A França foi à guerra contra o México por causa de uma conta de confeitaria."
   },
   {
    "shot": "two",
@@ -86,7 +88,15 @@
    "sfx": [
     "thump@50"
    ],
-   "say": "Um dia, oficiais mexicanos entraram, comeram tudo o que havia, quebraram a loja, e saíram sem pagar."
+   "say": "Um dia, oficiais mexicanos entraram, comeram tudo o que havia, quebraram a loja, e saíram sem pagar.",
+   "props": [
+    [
+     "kit/cake_table",
+     0.2,
+     1.6,
+     1.0
+    ]
+   ]
   },
   {
    "shot": "two",
@@ -128,7 +138,10 @@
    },
    "text": "A MARINHA",
    "titulo": true,
-   "say": "Acontece que a França mandou mesmo. Navios de guerra fecharam todos os portos do país."
+   "say": "Acontece que a França mandou mesmo. Navios de guerra chegaram, e fecharam todos os portos do país.",
+   "batalha": false,
+   "tiros": false,
+   "impact": false
   },
   {
    "shot": "crowd",
@@ -146,13 +159,13 @@
     "march": false,
     "expr": "shock"
    },
-   "say": "Os canhões franceses bombardearam a fortaleza de Veracruz, e os soldados tomaram a cidade."
+   "say": "Os canhões franceses bombardearam a fortaleza de Veracruz, e os soldados tomaram a cidade.",
+   "set": "harbor"
   },
   {
    "shot": "two",
    "who": [
-    "GEN:0:pained",
-    "OFI:1:shock"
+    "GEN:0:pained"
    ],
    "fx": [
     "burst@30"
@@ -160,7 +173,7 @@
    "sfx": [
     "cannon@30"
    ],
-   "say": "Um general mexicano correu para o combate, e perdeu uma perna para um tiro de canhão."
+   "say": "Um general mexicano correu para o combate, e tombou, atingido por um tiro de canhão. Ele perdeu uma perna."
   },
   {
    "shot": "two",
@@ -179,5 +192,6 @@
    "say": "Nunca um doce custou tão caro."
   }
  ],
- "marco": "kit/marco_ulua"
+ "marco": "kit/marco_ulua",
+ "regiao": "colonial"
 }
