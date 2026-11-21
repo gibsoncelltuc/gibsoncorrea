@@ -13,7 +13,7 @@ b5 | street | crowd | 25 | comemorar, batalha | kit/white_house, kit/marco_casab
 b6 | interior pedra | two | 2 | conversar, INTERAGEM: vai ate o outro | - | paper | -
 b7 | interior madeira | two | 2 | conversar, INTERAGEM: aproxima-se | kit/scroll | paper | -
 b8 | street | two | 2 | conversar, INTERAGEM: entregar | kit/white_house, kit/marco_casabranca | - | -
-b9 | harbor | orbit | 21 | batalha | kit/white_house, kit/marco_casabranca | - | -
+b9 | street | orbit | 21 | batalha | kit/white_house, kit/marco_casabranca | - | -
 b10 | street | close | 1 | comemorar | kit/ballot_box, kit/marco_casabranca | - | -
 
 OBJETO HEROI: kit/ballot_box - aparece em 3 cena(s), close nele em 1

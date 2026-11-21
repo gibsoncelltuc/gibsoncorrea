@@ -41,6 +41,13 @@
     "beret",
     "bowler"
    ]
+  },
+  "GEN": {
+   "profissao": "politico",
+   "jacket": "#1b1b1f",
+   "pants": "#1b1b1f",
+   "boots": "#1b1b1f",
+   "tie": true
   }
  },
  "beats": [
@@ -223,7 +230,8 @@
    ],
    "interacao": "entregar",
    "say": "Em vinte de janeiro de dois mil e vinte e cinco, ele tomou posse de novo.",
-   "set": "street"
+   "set": "street",
+   "hora": "dia"
   },
   {
    "shot": "crowd",
@@ -258,7 +266,8 @@
    ],
    "text": "47º",
    "titulo": true,
-   "say": "Ele tinha sido o presidente número quarenta e cinco. Agora era o número quarenta e sete."
+   "say": "Ele tinha sido o presidente número quarenta e cinco. Agora era o número quarenta e sete.",
+   "set": "street"
   },
   {
    "shot": "close",
