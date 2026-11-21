@@ -1,52 +1,360 @@
 {
  "fails": [
   {
-   "f": 1720,
-   "shot": "b9",
+   "f": 1920,
+   "shot": "b11",
    "why": [
-    "gen: head/torso cropped (box -0.066, 0.451, 0.106, 0.672)"
+    "tru: head/torso cropped (box -0.023, 0.48, 0.158, 0.698)"
    ]
   },
   {
-   "f": 1724,
-   "shot": "b9",
+   "f": 1924,
+   "shot": "b11",
    "why": [
-    "gen: head/torso cropped (box -0.139, 0.455, 0.038, 0.676)"
+    "tru: head/torso cropped (box -0.081, 0.483, 0.105, 0.705)"
    ]
   },
   {
-   "f": 1728,
-   "shot": "b9",
+   "f": 1928,
+   "shot": "b11",
    "why": [
-    "gen: head/torso cropped (box -0.21, 0.46, -0.034, 0.671)"
+    "tru: head/torso cropped (box -0.169, 0.48, 0.046, 0.706)"
    ]
   },
   {
-   "f": 1732,
-   "shot": "b9",
+   "f": 1932,
+   "shot": "b11",
    "why": [
-    "gen: head/torso cropped (box -0.284, 0.467, -0.108, 0.673)"
+    "tru: head/torso cropped (box -0.268, 0.482, -0.018, 0.711)"
    ]
   },
   {
-   "f": 1736,
-   "shot": "b9",
+   "f": 1935,
+   "shot": "b11",
    "why": [
-    "gen: head/torso cropped (box -0.36, 0.464, -0.18, 0.67)"
+    "tru: head/torso cropped (box -0.335, 0.476, -0.083, 0.707)"
    ]
   },
   {
-   "f": 1740,
-   "shot": "b9",
+   "f": 1936,
+   "shot": "b11~1",
    "why": [
-    "gen: head/torso cropped (box -0.432, 0.463, -0.253, 0.67)"
+    "tru: head/torso cropped (box -0.347, 0.48, -0.097, 0.711)"
    ]
   },
   {
-   "f": 1742,
-   "shot": "b9",
+   "f": 1940,
+   "shot": "b11~1",
    "why": [
-    "gen: head/torso cropped (box -0.497, 0.465, -0.257, 0.674)"
+    "tru: head/torso cropped (box -0.42, 0.483, -0.162, 0.715)"
+   ]
+  },
+  {
+   "f": 1944,
+   "shot": "b11~1",
+   "why": [
+    "tru: head/torso cropped (box -0.469, 0.498, -0.19, 0.729)"
+   ]
+  },
+  {
+   "f": 1948,
+   "shot": "b11~1",
+   "why": [
+    "tru: head/torso cropped (box -0.462, 0.525, -0.168, 0.746)"
+   ]
+  },
+  {
+   "f": 1952,
+   "shot": "b11~1",
+   "why": [
+    "tru: head/torso cropped (box -0.366, 0.545, -0.095, 0.747)"
+   ]
+  },
+  {
+   "f": 1956,
+   "shot": "b11~1",
+   "why": [
+    "tru: head/torso cropped (box -0.318, 0.544, -0.061, 0.739)"
+   ]
+  },
+  {
+   "f": 1960,
+   "shot": "b11~1",
+   "why": [
+    "tru: head/torso cropped (box -0.292, 0.545, -0.044, 0.735)"
+   ]
+  },
+  {
+   "f": 1962,
+   "shot": "b11~1",
+   "why": [
+    "tru: head/torso cropped (box -0.278, 0.551, -0.034, 0.737)"
+   ]
+  },
+  {
+   "f": 1964,
+   "shot": "b11~1",
+   "why": [
+    "tru: head/torso cropped (box -0.281, 0.541, -0.032, 0.727)"
+   ]
+  },
+  {
+   "f": 1968,
+   "shot": "b11~1",
+   "why": [
+    "tru: head/torso cropped (box -0.253, 0.543, -0.014, 0.724)"
+   ]
+  },
+  {
+   "f": 1972,
+   "shot": "b11~1",
+   "why": [
+    "tru: head/torso cropped (box -0.233, 0.538, -0.005, 0.716)"
+   ]
+  },
+  {
+   "f": 1976,
+   "shot": "b11~1",
+   "why": [
+    "tru: head/torso cropped (box -0.219, 0.543, -0.004, 0.717)"
+   ]
+  },
+  {
+   "f": 1980,
+   "shot": "b11~1",
+   "why": [
+    "tru: head/torso cropped (box -0.23, 0.542, -0.038, 0.713)"
+   ]
+  },
+  {
+   "f": 1984,
+   "shot": "b11~1",
+   "why": [
+    "tru: head/torso cropped (box -0.216, 0.547, -0.036, 0.716)"
+   ]
+  },
+  {
+   "f": 1987,
+   "shot": "b11~1",
+   "why": [
+    "tru: head/torso cropped (box -0.213, 0.542, -0.02, 0.713)"
+   ]
+  },
+  {
+   "f": 1988,
+   "shot": "b11~2",
+   "why": [
+    "tru: head/torso cropped (box -0.212, 0.539, -0.021, 0.71)"
+   ]
+  },
+  {
+   "f": 1992,
+   "shot": "b11~2",
+   "why": [
+    "tru: head/torso cropped (box -0.244, 0.538, -0.05, 0.711)"
+   ]
+  },
+  {
+   "f": 1996,
+   "shot": "b11~2",
+   "why": [
+    "tru: head/torso cropped (box -0.322, 0.504, -0.133, 0.684)"
+   ]
+  },
+  {
+   "f": 2000,
+   "shot": "b11~2",
+   "why": [
+    "tru: head/torso cropped (box -0.321, 0.483, -0.162, 0.659)"
+   ]
+  },
+  {
+   "f": 2004,
+   "shot": "b11~2",
+   "why": [
+    "tru: head/torso cropped (box -0.297, 0.461, -0.129, 0.634)"
+   ]
+  },
+  {
+   "f": 2008,
+   "shot": "b11~2",
+   "why": [
+    "tru: head/torso cropped (box -0.33, 0.467, -0.155, 0.643)"
+   ]
+  },
+  {
+   "f": 2012,
+   "shot": "b11~2",
+   "why": [
+    "tru: head/torso cropped (box -0.386, 0.455, -0.2, 0.637)"
+   ]
+  },
+  {
+   "f": 2013,
+   "shot": "b11~2",
+   "why": [
+    "tru: head/torso cropped (box -0.394, 0.454, -0.206, 0.638)"
+   ]
+  },
+  {
+   "f": 2016,
+   "shot": "b11~2",
+   "why": [
+    "tru: head/torso cropped (box -0.38, 0.466, -0.205, 0.652)"
+   ]
+  },
+  {
+   "f": 2020,
+   "shot": "b11~2",
+   "why": [
+    "tru: head/torso cropped (box -0.408, 0.454, -0.213, 0.644)"
+   ]
+  },
+  {
+   "f": 2024,
+   "shot": "b11~2",
+   "why": [
+    "tru: head/torso cropped (box -0.435, 0.465, -0.212, 0.66)"
+   ]
+  },
+  {
+   "f": 2028,
+   "shot": "b11~2",
+   "why": [
+    "tru: head/torso cropped (box -0.468, 0.451, -0.251, 0.65)"
+   ]
+  },
+  {
+   "f": 2032,
+   "shot": "b11~2",
+   "why": [
+    "tru: head/torso cropped (box -0.49, 0.464, -0.281, 0.665)"
+   ]
+  },
+  {
+   "f": 2036,
+   "shot": "b11~2",
+   "why": [
+    "tru: head/torso cropped (box -0.466, 0.451, -0.259, 0.651)"
+   ]
+  },
+  {
+   "f": 2038,
+   "shot": "b11~2",
+   "why": [
+    "tru: head/torso cropped (box -0.471, 0.455, -0.265, 0.655)"
+   ]
+  },
+  {
+   "f": 2039,
+   "shot": "b11~3",
+   "why": [
+    "tru: head/torso cropped (box -0.48, 0.46, -0.271, 0.661)"
+   ]
+  },
+  {
+   "f": 2040,
+   "shot": "b11~3",
+   "why": [
+    "tru: head/torso cropped (box -0.492, 0.465, -0.284, 0.668)"
+   ]
+  },
+  {
+   "f": 2044,
+   "shot": "b11~3",
+   "why": [
+    "tru: head/torso cropped (box -0.526, 0.452, -0.315, 0.658)"
+   ]
+  },
+  {
+   "f": 2048,
+   "shot": "b11~3",
+   "why": [
+    "tru: head/torso cropped (box -0.524, 0.478, -0.321, 0.688)"
+   ]
+  },
+  {
+   "f": 2052,
+   "shot": "b11~3",
+   "why": [
+    "tru: head/torso cropped (box -0.507, 0.473, -0.307, 0.684)"
+   ]
+  },
+  {
+   "f": 2056,
+   "shot": "b11~3",
+   "why": [
+    "tru: head/torso cropped (box -0.52, 0.494, -0.31, 0.707)"
+   ]
+  },
+  {
+   "f": 2060,
+   "shot": "b11~3",
+   "why": [
+    "tru: head/torso cropped (box -0.499, 0.479, -0.27, 0.689)"
+   ]
+  },
+  {
+   "f": 2064,
+   "shot": "b11~3",
+   "why": [
+    "tru: head/torso cropped (box -0.448, 0.493, -0.238, 0.697)"
+   ]
+  },
+  {
+   "f": 2065,
+   "shot": "b11~3",
+   "why": [
+    "tru: head/torso cropped (box -0.441, 0.487, -0.228, 0.69)"
+   ]
+  },
+  {
+   "f": 2068,
+   "shot": "b11~3",
+   "why": [
+    "tru: head/torso cropped (box -0.422, 0.48, -0.225, 0.679)"
+   ]
+  },
+  {
+   "f": 2072,
+   "shot": "b11~3",
+   "why": [
+    "tru: head/torso cropped (box -0.419, 0.493, -0.232, 0.69)"
+   ]
+  },
+  {
+   "f": 2076,
+   "shot": "b11~3",
+   "why": [
+    "tru: head/torso cropped (box -0.42, 0.481, -0.232, 0.676)"
+   ]
+  },
+  {
+   "f": 2080,
+   "shot": "b11~3",
+   "why": [
+    "tru: head/torso cropped (box -0.382, 0.492, -0.199, 0.684)"
+   ]
+  },
+  {
+   "f": 2084,
+   "shot": "b11~3",
+   "why": [
+    "tru: head/torso cropped (box -0.357, 0.481, -0.179, 0.671)"
+   ]
+  },
+  {
+   "f": 2088,
+   "shot": "b11~3",
+   "why": [
+    "tru: head/torso cropped (box -0.386, 0.491, -0.205, 0.683)"
+   ]
+  },
+  {
+   "f": 2090,
+   "shot": "b11~3",
+   "why": [
+    "tru: head/torso cropped (box -0.4, 0.482, -0.216, 0.674)"
    ]
   }
  ],

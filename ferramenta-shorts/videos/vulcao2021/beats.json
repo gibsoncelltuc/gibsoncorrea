@@ -164,28 +164,44 @@
    "objetos": false
   },
   {
-   "shot": "low",
+   "shot": "wide",
    "who": [
-    "ENA:0:grin"
+    "ENA:0:grin",
+    "BUK:0:smile"
    ],
    "props": [
     [
      "kit/volcano",
-     -1.0,
-     -11.0,
-     2.6
+     0.0,
+     -13.0,
+     2.4
+    ],
+    [
+     "kit/turbina",
+     3.2,
+     -3.0,
+     1.6
+    ],
+    [
+     "kit/turbina",
+     -3.6,
+     -4.0,
+     1.5
     ]
    ],
    "fx": [
-    "puff@20",
-    "puff@50"
+    "puff@5",
+    "puff@25",
+    "puff@45",
+    "puff@65"
    ],
    "sfx": [
-    "whoosh@20",
-    "whoosh@50"
+    "whoosh@10",
+    "whoosh@35"
    ],
    "say": "O vapor quente que sai de dentro da terra gira turbinas, e vira eletricidade limpa.",
-   "detalhe": false
+   "detalhe": false,
+   "shot_lock": true
   },
   {
    "shot": "two",

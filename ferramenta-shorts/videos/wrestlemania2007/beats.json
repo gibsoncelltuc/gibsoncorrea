@@ -350,21 +350,19 @@
    "detalhe": false
   },
   {
-   "shot": "close",
+   "shot": "two",
    "who": [
-    "TRU:0:smile"
+    "TRU:0:smile",
+    "JUI:0:smile"
    ],
-   "props": [
-    [
-     "kit/clipper",
-     -1.4,
-     -0.8,
-     1.0
-    ]
-   ],
-   "text": "HALL DA FAMA",
+   "props": [],
    "say": "Seis anos depois, Trump entrou para o Hall da Fama da luta livre. Tudo por causa de um corte de cabelo.",
-   "acao": "comemorar"
+   "acao": "comemorar",
+   "shot_lock": true,
+   "detalhe": false,
+   "impact": false,
+   "chega": false,
+   "perto": 0.65
   }
  ],
  "fontes": [

@@ -13,7 +13,7 @@ b7 | orbit | -  | batalha aberta com tiros, tropa, placa: VITÓRIA | (rosto) lau
 b8 | group | -  | - | encena: raspa (reach) @10 (acao + som de efeito) | -
 b9 | two | -  | - | encena: sai @5 (acao + som de efeito); encena: raspa (reach) @9 (acao + som de efeito) | -
 b10 | group | -  | - | encena: golpe (punch) @9 (acao + som de efeito); encena: tomba @16 (acao + som de efeito) | -
-b11 | close | -  | placa: HALL DA FAMA | encena: chega (point) @4 (acao + som de efeito) | -
+b11 | two | -  | - | encena: chega (point) @4 (acao + som de efeito) | -
 
 Mistura de planos: close 22% | medio 68% | aberto 10% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

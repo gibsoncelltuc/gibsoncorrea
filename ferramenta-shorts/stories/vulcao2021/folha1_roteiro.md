@@ -50,9 +50,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 ## Cena b5  (~5.2 s)
 - Narracao: O vapor quente que sai de dentro da terra gira turbinas, e vira eletricidade limpa.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: whoosh@20, whoosh@50
+- Efeitos sonoros marcados: whoosh@10, whoosh@35
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: puff@20, puff@50
+- Efeito visual marcado: puff@5, puff@25, puff@45, puff@65
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 

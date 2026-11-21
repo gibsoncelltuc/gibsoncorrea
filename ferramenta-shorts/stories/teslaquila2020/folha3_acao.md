@@ -62,7 +62,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | cochichar | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b6 - 39.2s a 43.4s - 17 palavras - plano close
+## Cena b6 - 39.2s a 43.4s - 17 palavras - plano two
 > "A garrafa era de vidro soprado à mão, em forma de raio, presa num suporte de metal."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

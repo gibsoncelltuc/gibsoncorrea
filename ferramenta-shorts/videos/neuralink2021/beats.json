@@ -262,34 +262,31 @@
    "shot_lock": true
   },
   {
-   "shot": "crowd",
+   "say": "Ele não mexia o corpo do pescoço para baixo. E voltou a jogar.",
+   "shot": "two",
+   "interior": "loja",
    "who": [
-    "NOL:0:laugh",
-    "CIE:0:laugh",
-    "CIM:0:grin"
+    "NOL:0:smile",
+    "CIE:0:happy"
    ],
-   "batalha": true,
-   "tiros": false,
-   "acao": "comemorar",
-   "crowd": {
-    "n": 18,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "laugh"
-   },
+   "acao": "nenhuma",
+   "props": [
+    [
+     "kit/chess_pc",
+     0.0,
+     -1.6,
+     1.7
+    ]
+   ],
    "fx": [
-    "stars@20",
-    "stars@60"
+    "stars@40"
    ],
    "sfx": [
-    "ding@20",
-    "ding@60"
+    "ding@40"
    ],
-   "text": "XADREZ",
-   "titulo": true,
-   "say": "Ele não mexia o corpo do pescoço para baixo. E voltou a jogar."
+   "detalhe": false,
+   "shot_lock": true,
+   "impact": false
   },
   {
    "shot": "close",
