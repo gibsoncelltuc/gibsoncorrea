@@ -1,31 +1,52 @@
 {
  "fails": [
   {
+   "f": 1720,
+   "shot": "b9",
+   "why": [
+    "gen: head/torso cropped (box -0.066, 0.451, 0.106, 0.672)"
+   ]
+  },
+  {
+   "f": 1724,
+   "shot": "b9",
+   "why": [
+    "gen: head/torso cropped (box -0.139, 0.455, 0.038, 0.676)"
+   ]
+  },
+  {
+   "f": 1728,
+   "shot": "b9",
+   "why": [
+    "gen: head/torso cropped (box -0.21, 0.46, -0.034, 0.671)"
+   ]
+  },
+  {
    "f": 1732,
    "shot": "b9",
    "why": [
-    "pil: head/torso cropped (box -0.038, 0.486, 0.048, 0.605)"
+    "gen: head/torso cropped (box -0.284, 0.467, -0.108, 0.673)"
    ]
   },
   {
    "f": 1736,
    "shot": "b9",
    "why": [
-    "pil: head/torso cropped (box -0.076, 0.486, 0.012, 0.604)"
+    "gen: head/torso cropped (box -0.36, 0.464, -0.18, 0.67)"
    ]
   },
   {
    "f": 1740,
    "shot": "b9",
    "why": [
-    "pil: head/torso cropped (box -0.122, 0.485, -0.033, 0.604)"
+    "gen: head/torso cropped (box -0.432, 0.463, -0.253, 0.67)"
    ]
   },
   {
    "f": 1742,
    "shot": "b9",
    "why": [
-    "pil: head/torso cropped (box -0.157, 0.485, -0.03, 0.604)"
+    "gen: head/torso cropped (box -0.497, 0.465, -0.257, 0.674)"
    ]
   }
  ],
