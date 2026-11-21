@@ -1,0 +1,261 @@
+{
+ "duration": 64.944,
+ "frames30": 1948,
+ "source": "silence-align (cost 0.56)",
+ "segments": [
+  [
+   0.155375,
+   4.40304
+  ],
+  [
+   4.74417,
+   5.72171
+  ],
+  [
+   6.55833,
+   7.86129
+  ],
+  [
+   8.09488,
+   10.4467
+  ],
+  [
+   11.3063,
+   13.7223
+  ],
+  [
+   14.0038,
+   16.4933
+  ],
+  [
+   17.3682,
+   18.018
+  ],
+  [
+   18.2407,
+   20.16
+  ],
+  [
+   20.4388,
+   22.969
+  ],
+  [
+   23.8119,
+   24.2163
+  ],
+  [
+   24.4771,
+   26.6987
+  ],
+  [
+   26.9639,
+   28.2332
+  ],
+  [
+   29.0823,
+   31.851
+  ],
+  [
+   32.6979,
+   34.1106
+  ],
+  [
+   34.3962,
+   35.4149
+  ],
+  [
+   36.2585,
+   40.2934
+  ],
+  [
+   41.1465,
+   41.7237
+  ],
+  [
+   41.9786,
+   42.6433
+  ],
+  [
+   42.926,
+   43.7302
+  ],
+  [
+   44.067,
+   46.5749
+  ],
+  [
+   47.4522,
+   49.075
+  ],
+  [
+   49.9383,
+   50.5168
+  ],
+  [
+   50.7946,
+   52.3906
+  ],
+  [
+   52.71,
+   53.8507
+  ],
+  [
+   54.7165,
+   57.0238
+  ],
+  [
+   57.2356,
+   58.5374
+  ],
+  [
+   58.8437,
+   59.8099
+  ],
+  [
+   60.6426,
+   64.1835
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Duas palavras transformaram um empres\u00e1rio de Nova York numa estrela da televis\u00e3o mundial:",
+   "s": 0.155,
+   "e": 4.403
+  },
+  {
+   "text": "voc\u00ea est\u00e1 demitido.",
+   "s": 4.744,
+   "e": 5.722
+  },
+  {
+   "text": "Em janeiro de dois mil e quatro,",
+   "s": 6.558,
+   "e": 7.861
+  },
+  {
+   "text": "estreou nos Estados Unidos o programa O Aprendiz.",
+   "s": 8.095,
+   "e": 10.447
+  },
+  {
+   "text": "Dezesseis candidatos disputavam um pr\u00eamio raro:",
+   "s": 11.306,
+   "e": 13.722
+  },
+  {
+   "text": "um emprego de verdade numa empresa de Donald Trump.",
+   "s": 14.004,
+   "e": 16.493
+  },
+  {
+   "text": "Toda semana,",
+   "s": 17.368,
+   "e": 18.018
+  },
+  {
+   "text": "as equipes tinham uma tarefa de neg\u00f3cios,",
+   "s": 18.241,
+   "e": 20.16
+  },
+  {
+   "text": "como vender limonada na rua ou criar uma propaganda.",
+   "s": 20.439,
+   "e": 22.969
+  },
+  {
+   "text": "No fim,",
+   "s": 23.812,
+   "e": 24.216
+  },
+  {
+   "text": "a equipe perdedora ia para a sala de reuni\u00e3o,",
+   "s": 24.477,
+   "e": 26.699
+  },
+  {
+   "text": "e algu\u00e9m tinha que ir embora.",
+   "s": 26.964,
+   "e": 28.233
+  },
+  {
+   "text": "Acontece que o jeito de eliminar virou a marca do programa.",
+   "s": 29.082,
+   "e": 31.851
+  },
+  {
+   "text": "Ele apontava o dedo e dizia:",
+   "s": 32.698,
+   "e": 34.111
+  },
+  {
+   "text": "voc\u00ea est\u00e1 demitido.",
+   "s": 34.396,
+   "e": 35.415
+  },
+  {
+   "text": "A final da primeira temporada foi vista por cerca de vinte e oito milh\u00f5es de americanos.",
+   "s": 36.258,
+   "e": 40.293
+  },
+  {
+   "text": "O vencedor,",
+   "s": 41.147,
+   "e": 41.724
+  },
+  {
+   "text": "Bill Rancic,",
+   "s": 41.979,
+   "e": 42.643
+  },
+  {
+   "text": "ganhou o emprego,",
+   "s": 42.926,
+   "e": 43.73
+  },
+  {
+   "text": "com sal\u00e1rio de duzentos e cinquenta mil d\u00f3lares por ano.",
+   "s": 44.067,
+   "e": 46.575
+  },
+  {
+   "text": "O formato se espalhou pelo mundo.",
+   "s": 47.452,
+   "e": 49.075
+  },
+  {
+   "text": "No Brasil,",
+   "s": 49.938,
+   "e": 50.517
+  },
+  {
+   "text": "O Aprendiz estreou no mesmo ano,",
+   "s": 50.795,
+   "e": 52.391
+  },
+  {
+   "text": "com Roberto Justus.",
+   "s": 52.71,
+   "e": 53.851
+  },
+  {
+   "text": "Trump apresentou o programa por mais de dez anos,",
+   "s": 54.717,
+   "e": 57.024
+  },
+  {
+   "text": "e s\u00f3 saiu em dois mil e quinze,",
+   "s": 57.236,
+   "e": 58.537
+  },
+  {
+   "text": "quando entrou na pol\u00edtica.",
+   "s": 58.844,
+   "e": 59.81
+  },
+  {
+   "text": "Um programa de emprego que acabou ficando famoso justamente por demitir.",
+   "s": 60.643,
+   "e": 64.183
+  }
+ ]
+}
