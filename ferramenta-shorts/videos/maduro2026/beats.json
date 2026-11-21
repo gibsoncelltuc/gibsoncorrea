@@ -68,13 +68,13 @@
     "TRU:0:stern",
     "GEN:0:stern"
    ],
-   "interior": "loja",
+   "interior": "pedra",
    "props": [
     [
      "kit/helicopter_air",
-     1.6,
-     -1.6,
-     0.6
+     0,
+     -7.0,
+     2.2
     ]
    ],
    "text": "2026",
@@ -107,7 +107,7 @@
   },
   {
    "shot": "two",
-   "interior": "loja",
+   "interior": "pedra",
    "who": [
     "TRU:0:suspicious",
     "AGE:0:stern:paper"
@@ -136,9 +136,9 @@
    "props": [
     [
      "kit/helicopter_air",
-     -1.5,
-     -9.0,
-     1.4
+     -1.0,
+     -6.0,
+     2.4
     ]
    ],
    "fx": [
@@ -151,7 +151,8 @@
    ],
    "text": "DELTA",
    "titulo": true,
-   "say": "Às duas da manhã, helicópteros levaram os soldados da Força Delta direto para o complexo onde Maduro estava."
+   "say": "Às duas da manhã, helicópteros levaram os soldados da Força Delta direto para o complexo onde Maduro estava.",
+   "set": "mountain"
   },
   {
    "shot": "low",
@@ -162,9 +163,9 @@
    "props": [
     [
      "kit/helicopter_air",
-     -1.5,
-     -9.0,
-     1.4
+     -1.0,
+     -6.0,
+     2.4
     ]
    ],
    "fx": [
@@ -175,7 +176,8 @@
     "sting@20",
     "thump@40"
    ],
-   "say": "Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do país."
+   "say": "Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do país.",
+   "set": "outback"
   },
   {
    "shot": "two",
@@ -191,11 +193,12 @@
    "sfx": [
     "sting@30"
    ],
-   "say": "Acontece que, em menos de três horas, Maduro foi capturado e levado para fora da Venezuela."
+   "say": "Acontece que, em menos de três horas, Maduro foi capturado e levado para fora da Venezuela.",
+   "set": "mountain"
   },
   {
    "shot": "two",
-   "interior": "loja",
+   "interior": "pedra",
    "who": [
     "TRU:0:stern",
     "GEN:0:grin"

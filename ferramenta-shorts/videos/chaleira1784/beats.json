@@ -192,7 +192,8 @@
     "thump@20",
     "ding@24"
    ],
-   "say": "A bala atravessou o convés, e acertou em cheio a chaleira de sopa do cozinheiro."
+   "say": "A bala atravessou o convés, e acertou em cheio a chaleira de sopa do cozinheiro.",
+   "cavalaria": false
   },
   {
    "shot": "group",
@@ -201,7 +202,8 @@
     "AUS:0:nervous",
     "COZ:0:cry"
    ],
-   "say": "O capitão austríaco olhou para a sopa derramada, e se rendeu na mesma hora."
+   "say": "O capitão austríaco olhou para a sopa derramada, e se rendeu na mesma hora.",
+   "cavalaria": false
   },
   {
    "shot": "two",

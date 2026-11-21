@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 10 - A Guerra da Chaleira
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 44 acoes catalogadas, 44 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 43 acoes catalogadas, 43 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.4s - 14 palavras - plano two
@@ -82,10 +82,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | olhou (41.3s) | ACAO: olha | aponta/olha | OK |
 | 2 | rendeu (43.3s) | ACAO: rende | maos para cima (rendicao) | OK |
-| 3 | - | CENA | cavalaria: 4 soldados a cavalo (GEN) | OK |
-| 4 | - | CENA | tiros: 4 soldados caem no chao | OK |
-| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 6 | - | ATUACAO | reagir | OK |
+| 3 | - | CENA | tiros: 4 soldados caem no chao | OK |
+| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 5 | - | ATUACAO | reagir | OK |
 
 ## Cena b8 - 45.1s a 49.8s - 14 palavras - plano two
 > "O imperador desistiu do rio. Em troca, a Holanda pagou uma indenização em dinheiro."

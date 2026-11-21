@@ -35,6 +35,17 @@
    "hat": "cap",
    "cap": "#e6c01f",
    "moustache_on": "#3a2a1f"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "straw",
+    "cap",
+    "hair",
+    "beret"
+   ]
   }
  },
  "beats": [

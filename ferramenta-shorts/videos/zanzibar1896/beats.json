@@ -181,7 +181,8 @@
    "who": [
     "ALM:0:grin"
    ],
-   "say": "E ainda mandaram a conta das balas para Zanzibar."
+   "say": "E ainda mandaram a conta das balas para Zanzibar.",
+   "interior": "pedra"
   }
  ],
  "exp": 0.9

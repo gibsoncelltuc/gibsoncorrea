@@ -115,7 +115,8 @@
    },
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "set": "mountain"
   },
   {
    "say": "Com isso, dava para pagar as compras com bitcoin.",
@@ -147,7 +148,9 @@
    "sfx": [
     "ding@3"
    ],
-   "impact": false
+   "impact": false,
+   "set": "street",
+   "hora": "dia"
   },
   {
    "say": "O governo lançou até uma carteira digital, chamada Chivo.",
@@ -183,7 +186,8 @@
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "interior": "pedra"
   },
   {
    "say": "Foi o primeiro país do mundo a fazer isso, e o assunto virou conversa no planeta inteiro.",
@@ -210,7 +214,8 @@
    },
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "set": "outback"
   },
   {
    "say": "Uma moeda digital, uma lei nova e um país no centro das atenções.",
