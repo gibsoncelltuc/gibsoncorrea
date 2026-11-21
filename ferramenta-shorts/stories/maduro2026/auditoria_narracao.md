@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: maduro2026
-Cenas 100% fieis: 8/11 (73%). Lacunas: 3
+Cenas 100% fieis: 7/11 (64%). Lacunas: 6
 
 ## b0 LACUNA - Numa madrugada de janeiro de dois mil e vinte e seis, Trump autorizou uma das operações militares mais ousadas dos últimos anos.
 - na tela: set=['hall'] animais=[] objetos=['helicopter_air', 'room_colonial_shop'] atores=2 acoes_folha3=[]
@@ -12,17 +12,20 @@ Cenas 100% fieis: 8/11 (73%). Lacunas: 3
 - na tela: set=['hall'] animais=[] objetos=['lupa', 'room_colonial_shop'] atores=2 acoes_folha3=['estudou', 'segredo', 'segredo']
 ## b4 OK - Às duas da manhã, helicópteros levaram os soldados da Força Delta direto para o complexo onde Maduro estava.
 - na tela: set=['countryside'] animais=[] objetos=['helicopter_air'] atores=17 acoes_folha3=[]
-## b5 OK - Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do país.
+## b5 LACUNA - Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do país.
 - na tela: set=['harbor'] animais=[] objetos=['helicopter_air', 'lighthouse'] atores=1 acoes_folha3=['ataques']
+- **FALTA:** VERBO narrado ("desligaram") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["desli"] no beat)
 ## b6 OK - Acontece que, em menos de três horas, Maduro foi capturado e levado para fora da Venezuela.
 - na tela: set=['harbor'] animais=[] objetos=['shop'] atores=2 acoes_folha3=['capturado']
 ## b7 LACUNA - Trump acompanhou tudo de longe, na Flórida, ao lado do diretor da CIA e do secretário de Estado.
 - na tela: set=['hall'] animais=[] objetos=['room_colonial_shop'] atores=2 acoes_folha3=[]
+- **FALTA:** VERBO narrado ("acompanhou") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["acomp"] no beat)
 - **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
 ## b8 OK - Maduro foi levado de avião para Nova York, onde responde a um processo na justiça.
 - na tela: set=['street'] animais=[] objetos=['airplane', 'scroll', 'shop'] atores=6 acoes_folha3=[]
 ## b9 LACUNA - Nenhum militar americano morreu. A notícia parou o mundo, e dividiu opiniões entre países.
 - na tela: set=['street'] animais=[] objetos=[] atores=21 acoes_folha3=[]
 - **FALTA:** ACAO narrada ("morreu") sem animacao na folha 3
+- **FALTA:** VERBO narrado ("dividiu") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["divid"] no beat)
 ## b10 OK - A operação ganhou um nome que resume tudo: Resolução Absoluta.
 - na tela: set=['street'] animais=[] objetos=['helicopter_air', 'shop'] atores=1 acoes_folha3=['ganhou', 'ganhou']

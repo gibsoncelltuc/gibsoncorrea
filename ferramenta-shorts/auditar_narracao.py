@@ -26,7 +26,9 @@ LUGARES = {  # palavra -> (rotulo, aceita se o 'set'/interior/prop/texto da cena
     r'palacio|congresso|\bonu\b|tribunal': ('PALACIO/SALA', {'pedra', 'palace', 'hall'}), r'estudio|palco|plateia|apresentacao': ('PALCO/ESTUDIO', {'stadium', 'hall', 'palco'}),
 }
 VERBOS_ABSTRATOS = set('era foi eram foram tinha tinham estava estavam ficou ficaram disse disseram havia haviam podia podiam queria queriam sabia sabiam viu viram veio vieram deu deram achou acharam resolveu resolveram decidiu decidiram passou passaram chamou chamaram contou contam dizem diz acontece aconteceu significa tornou tornaram virou viraram ganhou ganharam perdeu perderam levou levaram durou duraram saiu sairam terminou acabou acabaram comecou comecaram continuou continuaram voltou voltaram esperava esperavam percebeu perceberam entendeu entenderam pensou pensaram achava achavam parecia pareciam existe existem existia existiam venceu venceram ficam fica ficava ficavam'.split())
-RX_VERBO = re.compile(r'^[a-z]{4,}(ou|aram|eu|eram|iu|iram|ia|iam|ava|avam)$')
+RX_VERBO = re.compile(r'^[a-z]{4,}(ou|aram|eu|eram|iu|iram|ia|iam|ava|avam|ando|endo|indo|ara|aria|ariam|eria|iria)$')
+SUBST_IA = set('prussia historia grecia bulgaria islandia austria russia california ciencia energia noticia propria maioria colonia milicia plateia cavalaria alexandria italia india africa fabrica familia gloria memoria vitoria policia ceia correia area galeria materia teoria batalha miseria feria media historia obra sinfonia companhia companheiro agencia audiencia consequencia experiencia inteligencia diferenca violencia ausencia presenca emergencia urgencia paciencia coincidencia independencia'.split())
+VERBOS_OK_GLOBAL = set('aconteceu aconteceram queria queriam parecia pareciam esperava esperavam esperando entendia entendiam entenderam pensou pensaram conseguiu conseguiram continuou continuaram resolveu resolveram decidiu decidiram anunciou anunciaram autorizou ordenou obedeceu noticiou significou significava existia existiam deixou deixaram'.split())
 # verbos "de cena" que EXIGEM ver a acao (os que o Gibson citou + equivalentes). Cobertura = palavra aparece numa linha da folha 3 (acao com animacao).
 ACAO_CENICA = r'cercou|cercaram|cercando|sitiou|invadiu|atacou|atirou|dispar|chutou|jogou|lancou|arremess|correram|correu|fugiu|fugiram|abracou|abracaram|comeu|comeram|bebeu|beberam|serviu|cozinh|plantou|cavou|construiu|montou|pintou|escreveu|assinou|votou|votaram|pagou|vendeu|comprou|entregou|dancou|cantou|rezou|lutou|brigou|empurrou|derrubou|caiu|morreu|explodiu|pousou|decolou|voou|navegou|marcharam|desembarc|rendeu|renderam|capturou|prendeu|mandou|usavam|usou|guardava|guardou|carregava|carregou|cortou|raspou|pegou|segurou|olharam|olhou|apontou|gritou|riu|riram|chorou|sentou|dormiu'
 
@@ -73,6 +75,11 @@ def auditar(sid, verboso=False):
             nw = nrm(w)
             if re.match(ACAO_CENICA, nw) and nw[:5] not in palavras_acao:
                 lac.append(f'ACAO narrada ("{w}") sem animacao na folha 3')
+        extra_ok = set(nrm(x)[:5] for x in b.get('verbos_ok', []))
+        for w in re.findall(r'[a-zA-ZÀ-ú]+', say):
+            nw = nrm(w)
+            if RX_VERBO.match(nw) and nw not in SUBST_IA and nw not in VERBOS_ABSTRATOS and nw not in VERBOS_OK_GLOBAL and nw[:5] not in palavras_acao and nw[:5] not in extra_ok and not re.match(ACAO_CENICA, nw):
+                lac.append(f'VERBO narrado ("{w}") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so\' narrativo, "verbos_ok": ["{nw[:5]}"] no beat)')
         if not acoes and not any(x in ('react', 'cheer', 'dance', 'argue', 'eat') for x in c['poses']) and not any(x in c['assets'] for x in ('kit/finch',)) and c['actors'] <= 3 and len(say.split()) > 6:
             lac.append('CENA PARADA: ninguem faz nada e nada do que foi narrado aparece')
         lac = list(dict.fromkeys(lac)); lacunas_total += len(lac)

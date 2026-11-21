@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: danca1518
-Cenas 100% fieis: 9/10 (90%). Lacunas: 1
+Cenas 100% fieis: 8/10 (80%). Lacunas: 3
 
 ## b0 OK - Uma mulher começou a dançar no meio da rua, e não conseguiu mais parar.
 - na tela: set=['street'] animais=[] objetos=['marco_viena'] atores=2 acoes_folha3=['dançar', 'dançar']
@@ -7,13 +7,15 @@ Cenas 100% fieis: 9/10 (90%). Lacunas: 1
 - na tela: set=['street'] animais=[] objetos=['marco_viena'] atores=10 acoes_folha3=['dançou', 'dançou']
 ## b2 OK - Em uma semana, mais de trinta vizinhos estavam dançando com ela. Ninguém sabia por quê.
 - na tela: set=['harbor'] animais=[] objetos=['house_small', 'marco_viena', 'picket_fence', 'tree_oak'] atores=4 acoes_folha3=['dançando', 'dançando']
-## b3 OK - Em um mês, eram quatrocentas pessoas, de pés sangrando, pedindo socorro, sem conseguir parar.
+## b3 LACUNA - Em um mês, eram quatrocentas pessoas, de pés sangrando, pedindo socorro, sem conseguir parar.
 - na tela: set=['harbor'] animais=[] objetos=['marco_viena'] atores=21 acoes_folha3=['socorro', 'socorro']
+- **FALTA:** VERBO narrado ("sangrando") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["sangr"] no beat)
 ## b4 OK - O prefeito chamou os médicos. "É sangue quente", disseram eles. "O remédio é dançar mais."
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_azul_stone'] atores=2 acoes_folha3=['dançar', 'dançar']
 ## b5 LACUNA - Acontece que a cidade levou isso a sério. Montou um palco, e contratou músicos para animar a multidão.
 - na tela: set=['street'] animais=[] objetos=['apartment', 'house_two', 'lamppost', 'marco_viena'] atores=99 acoes_folha3=['Montou', 'músicos', 'músicos']
 - **FALTA:** LUGAR/CENARIO narrado (PALCO/ESTUDIO) NAO aparece
+- **FALTA:** VERBO narrado ("contratou") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["contr"] no beat)
 ## b6 OK - Foi a pior ideia possível. Com música, mais gente entrou na dança, e muitos caíram de exaustão.
 - na tela: set=['harbor'] animais=[] objetos=['marco_viena'] atores=20 acoes_folha3=['ideia', 'música', 'música', 'entrou', 'dança', 'dança', 'caíram']
 ## b7 OK - As crônicas da época falam em mortes, mas os historiadores discutem quantas foram de verdade.

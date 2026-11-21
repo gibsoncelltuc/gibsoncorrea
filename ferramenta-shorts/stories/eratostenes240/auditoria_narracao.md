@@ -1,12 +1,13 @@
 # AUDITORIA NARRACAO x TELA: eratostenes240
-Cenas 100% fieis: 10/11 (91%). Lacunas: 1
+Cenas 100% fieis: 9/11 (82%). Lacunas: 2
 
 ## b0 OK - Um homem mediu o tamanho do planeta usando só uma vara e a sombra dela.
 - na tela: set=['street'] animais=[] objetos=['globe', 'lupa', 'marco_alexandria', 'stick', 'tree_palm'] atores=6 acoes_folha3=['mediu']
 ## b1 OK - Era por volta de duzentos e quarenta antes de Cristo, e Eratóstenes era o bibliotecário da cidade de Alexandria, no Egito.
 - na tela: set=['street'] animais=[] objetos=['apartment', 'house_two', 'lamppost', 'marco_alexandria'] atores=10 acoes_folha3=[]
-## b2 OK - Ele leu num papiro que, em Siena, ao meio-dia de verão, o sol iluminava o fundo de um poço.
+## b2 LACUNA - Ele leu num papiro que, em Siena, ao meio-dia de verão, o sol iluminava o fundo de um poço.
 - na tela: set=['street'] animais=[] objetos=['bucket', 'marco_alexandria', 'scroll', 'tree_palm', 'well'] atores=2 acoes_folha3=['leu']
+- **FALTA:** VERBO narrado ("iluminava") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["ilumi"] no beat)
 ## b3 OK - Isso significava que o sol estava bem em cima, e nada fazia sombra.
 - na tela: set=['street'] animais=[] objetos=['marco_alexandria', 'tree_palm', 'well'] atores=6 acoes_folha3=[]
 ## b4 OK - Em Alexandria, no mesmo dia, uma vara fincada no chão fazia uma sombra pequena.

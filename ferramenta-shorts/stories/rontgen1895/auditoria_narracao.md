@@ -1,14 +1,20 @@
 # AUDITORIA NARRACAO x TELA: rontgen1895
-Cenas 100% fieis: 9/12 (75%). Lacunas: 3
+Cenas 100% fieis: 7/12 (58%). Lacunas: 9
 
-## b0 OK - Um cientista tirou a primeira foto de dentro do corpo humano, e assustou a própria esposa.
+## b0 LACUNA - Um cientista tirou a primeira foto de dentro do corpo humano, e assustou a própria esposa.
 - na tela: set=['street'] animais=[] objetos=['marco_wurzburg', 'phone', 'xray_plate'] atores=6 acoes_folha3=['tirou']
+- **FALTA:** VERBO narrado ("assustou") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["assus"] no beat)
 ## b1 OK - Era mil oitocentos e noventa e cinco, numa cidade da Alemanha.
 - na tela: set=['street'] animais=[] objetos=['house_two', 'lamppost', 'marco_wurzburg'] atores=8 acoes_folha3=[]
-## b2 OK - Wilhelm Röntgen passava as noites no laboratório, testando um tubo de vidro que soltava faíscas.
+## b2 LACUNA - Wilhelm Röntgen passava as noites no laboratório, testando um tubo de vidro que soltava faíscas.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'crookes_tube', 'frasco', 'room_europa_wood', 'tubos'] atores=1 acoes_folha3=['laboratório', 'faíscas']
+- **FALTA:** VERBO narrado ("passava") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["passa"] no beat)
+- **FALTA:** VERBO narrado ("testando") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["testa"] no beat)
+- **FALTA:** VERBO narrado ("soltava") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["solta"] no beat)
 ## b3 LACUNA - Numa noite, ele cobriu o tubo com papelão preto, e apagou a luz.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'crookes_tube', 'room_europa_wood'] atores=1 acoes_folha3=[]
+- **FALTA:** VERBO narrado ("cobriu") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["cobri"] no beat)
+- **FALTA:** VERBO narrado ("apagou") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["apago"] no beat)
 - **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
 ## b4 OK - Acontece que, do outro lado da sala, uma tela começou a brilhar no escuro.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_europa_wood', 'xray_plate'] atores=1 acoes_folha3=['brilhar']

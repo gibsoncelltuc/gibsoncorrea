@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: lancachamas2018
-Cenas 100% fieis: 8/9 (89%). Lacunas: 1
+Cenas 100% fieis: 6/9 (67%). Lacunas: 4
 
 ## b0 OK - No começo de dois mil e dezoito, nos Estados Unidos, a Boring Company, a empresa de túneis de Elon Musk, começou a vender um produto.
 - na tela: set=['street'] animais=[] objetos=['coin', 'flamethrower', 'marco_hollywood'] atores=6 acoes_folha3=['vender', 'vender']
@@ -13,10 +13,13 @@ Cenas 100% fieis: 8/9 (89%). Lacunas: 1
 - na tela: set=['harbor'] animais=[] objetos=['coin', 'extinguisher', 'fire', 'marco_hollywood'] atores=8 acoes_folha3=['compra', 'incêndio', 'incêndio', 'brinde']
 ## b5 OK - Foram vinte mil unidades à venda.
 - na tela: set=['street'] animais=[] objetos=['coin', 'marco_hollywood'] atores=3 acoes_folha3=['venda']
-## b6 OK - E elas esgotaram em poucos dias, rendendo cerca de dez milhões de dólares.
+## b6 LACUNA - E elas esgotaram em poucos dias, rendendo cerca de dez milhões de dólares.
 - na tela: set=['street'] animais=[] objetos=['marco_hollywood', 'picket_fence'] atores=32 acoes_folha3=['rendendo']
-## b7 OK - A notícia se espalhou pelo mundo inteiro.
+- **FALTA:** VERBO narrado ("esgotaram") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["esgot"] no beat)
+## b7 LACUNA - A notícia se espalhou pelo mundo inteiro.
 - na tela: set=['harbor'] animais=[] objetos=['globe', 'marco_hollywood'] atores=8 acoes_folha3=[]
+- **FALTA:** VERBO narrado ("espalhou") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["espal"] no beat)
 ## b8 LACUNA - Um produto que se chamava de tudo, menos do que parecia.
 - na tela: set=['street'] animais=[] objetos=['extinguisher', 'flamethrower', 'marco_hollywood'] atores=2 acoes_folha3=[]
+- **FALTA:** VERBO narrado ("chamava") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["chama"] no beat)
 - **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece

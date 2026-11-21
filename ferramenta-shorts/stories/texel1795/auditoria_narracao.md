@@ -1,8 +1,9 @@
 # AUDITORIA NARRACAO x TELA: texel1795
-Cenas 100% fieis: 3/9 (33%). Lacunas: 6
+Cenas 100% fieis: 2/9 (22%). Lacunas: 8
 
-## b0 OK - Em mil setecentos e noventa e cinco, a França invadia a Holanda, e fazia um frio absurdo.
+## b0 LACUNA - Em mil setecentos e noventa e cinco, a França invadia a Holanda, e fazia um frio absurdo.
 - na tela: set=['street'] animais=[] objetos=['ship'] atores=0 acoes_folha3=['absurdo']
+- **FALTA:** VERBO narrado ("invadia") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["invad"] no beat)
 ## b1 LACUNA - A frota holandesa estava ancorada perto de Den Helder, e o mar congelou em volta dela.
 - na tela: set=['harbor'] animais=[] objetos=['marco_amsterdam', 'ship'] atores=12 acoes_folha3=['congelou']
 - **FALTA:** LUGAR/CENARIO narrado (NEVE) NAO aparece
@@ -17,6 +18,7 @@ Cenas 100% fieis: 3/9 (33%). Lacunas: 6
 ## b5 LACUNA - Na noite de vinte e três de janeiro, os hussardos atravessaram o gelo, com panos nos cascos dos cavalos para não fazer barulho.
 - na tela: set=['countryside'] animais=['horse'] objetos=['marco_amsterdam'] atores=24 acoes_folha3=[]
 - **FALTA:** LUGAR/CENARIO narrado (NEVE) NAO aparece
+- **FALTA:** VERBO narrado ("atravessaram") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["atrav"] no beat)
 ## b6 LACUNA - Os marinheiros holandeses viram a cavalaria chegar, e a frota se rendeu.
 - na tela: set=['street'] animais=[] objetos=[] atores=20 acoes_folha3=['viram', 'rendeu']
 - **FALTA:** ANIMAL narrado (cavalaria) NAO aparece

@@ -14,6 +14,7 @@ while true; do
     python3 mkvideo.py $id >/dev/null 2>&1 || continue
     R=$(sed -n '/## RESUMO/,$p' stories/$id/folha2_producao.md | head -1)
     case "$R" in *" 0 risco"*) ;; *) echo "$(date +%T) $id: NAO auto-aprova (riscos: $R)" >> logs/auto_aprovar.log; continue;; esac
+    python3 auditar_narracao.py $id >/dev/null 2>&1 || { echo "$(date +%T) $id: NAO auto-aprova (narracao x tela com lacuna)" >> logs/auto_aprovar.log; continue; }
     V=$(python3 verificar_execucao.py $id 2>/dev/null | head -1)
     echo "$V" | grep -q '<-' && { echo "$(date +%T) $id: NAO auto-aprova (execucao: $V)" >> logs/auto_aprovar.log; continue; }
     ./aprovar_rapido.sh $id 2>&1 | tail -1 | grep -q APROVADO && { touch stories/$id/AUTO_APROVADO; echo "$(date +%T) $id: AUTO-APROVADO (sem olho humano, ${idade} min parado)" >> logs/auto_aprovar.log; }
