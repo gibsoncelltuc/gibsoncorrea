@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - A Praga da Dança
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 45 acoes catalogadas, 45 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 43 acoes catalogadas, 43 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 4.8s - 14 palavras - plano two
@@ -57,34 +57,32 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | avanca e o outro recua | OK |
 | 4 | - | ATUACAO | reagir | OK |
 
-## Cena b5 - 27.8s a 34.1s - 18 palavras - plano low
-> "Acontece que a cidade levou isso a sério. Montou um palco, e contratou músicos para animar a multidão."
+## Cena b5 - 27.8s a 33.3s - 16 palavras - plano low
+> "Acontece que a cidade levou isso a sério. Contratou músicos com tambores, para animar a multidão."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | Montou (30.7s) | ACAO: constroi | martela e o objeto cresce | OK |
-| 2 | contratou (32.2s) | ACAO: g_contrato | g_contrato | OK |
-| 3 | músicos (32.6s) | EFEITO: stars | estrelinhas + som | OK |
-| 4 | músicos (32.6s) | ACAO: danca | danca de bracos para cima | OK |
-| 5 | - | INTERACAO | discutir | OK |
-| 6 | - | ATUACAO | conversar | OK |
-| 7 | - | PLACA | PALCO | OK |
+| 1 | Contratou (30.7s) | ACAO: g_contrato | g_contrato | OK |
+| 2 | músicos (31.1s) | EFEITO: stars | estrelinhas + som | OK |
+| 3 | músicos (31.1s) | ACAO: danca | danca de bracos para cima | OK |
+| 4 | - | INTERACAO | discutir | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
-## Cena b6 - 34.4s a 40.4s - 17 palavras - plano orbit
+## Cena b6 - 33.7s a 39.6s - 17 palavras - plano orbit
 > "Foi a pior ideia possível. Com música, mais gente entrou na dança, e muitos caíram de exaustão."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ideia (35.6s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
-| 2 | música (36.7s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | música (36.7s) | ACAO: x_canta | canta de bracos abertos + onda de som | OK |
-| 4 | entrou (37.8s) | ACAO: chega | entra andando pela lateral | OK |
-| 5 | dança (38.5s) | EFEITO: stars | estrelinhas + som | OK |
-| 6 | dança (38.5s) | ACAO: danca | danca de bracos para cima | OK |
-| 7 | caíram (39.6s) | EFEITO: dust | poeira + som | OK |
+| 1 | ideia (34.8s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
+| 2 | música (35.9s) | EFEITO: stars | estrelinhas + som | OK |
+| 3 | música (35.9s) | ACAO: x_canta | canta de bracos abertos + onda de som | OK |
+| 4 | entrou (37.0s) | ACAO: chega | entra andando pela lateral | OK |
+| 5 | dança (37.8s) | EFEITO: stars | estrelinhas + som | OK |
+| 6 | dança (37.8s) | ACAO: danca | danca de bracos para cima | OK |
+| 7 | caíram (38.9s) | EFEITO: dust | poeira + som | OK |
 | 8 | - | ATUACAO | dancar | OK |
 
-## Cena b7 - 40.7s a 45.9s - 15 palavras - plano two
+## Cena b7 - 40.0s a 45.2s - 15 palavras - plano two
 > "As crônicas da época falam em mortes, mas os historiadores discutem quantas foram de verdade."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -92,17 +90,17 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | o outro se aproxima | OK |
 | 2 | - | ATUACAO | reagir | OK |
 
-## Cena b8 - 46.3s a 51.5s - 15 palavras - plano track
+## Cena b8 - 45.6s a 50.7s - 15 palavras - plano track
 > "No fim, os dançarinos foram levados para um santuário nas montanhas, e a dança parou."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | dançarinos (47.4s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | dançarinos (47.4s) | ACAO: danca | danca de bracos para cima | OK |
-| 3 | dança (51.1s) | EFEITO: stars | estrelinhas + som | OK |
+| 1 | dançarinos (46.7s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | dançarinos (46.7s) | ACAO: danca | danca de bracos para cima | OK |
+| 3 | dança (50.4s) | EFEITO: stars | estrelinhas + som | OK |
 | 4 | - | ATUACAO | dancar | OK |
 
-## Cena b9 - 51.9s a 55.6s - 11 palavras - plano close
+## Cena b9 - 51.1s a 54.8s - 11 palavras - plano close
 > "Até hoje, ninguém sabe explicar direito o que aconteceu naquele verão."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

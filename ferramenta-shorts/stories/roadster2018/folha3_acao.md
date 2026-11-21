@@ -62,7 +62,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | reagir | OK |
 | 3 | - | PLACA | NÃO ENTRE EM PÂNICO | OK |
 
-## Cena b7 - 36.3s a 41.5s - 15 palavras - plano group
+## Cena b7 - 36.3s a 41.5s - 15 palavras - plano two
 > "O Roadster saiu da órbita da Terra, e seguiu em órbita ao redor do Sol."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -72,13 +72,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | vai ate o outro | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b8 - 41.9s a 45.2s - 10 palavras - plano group
+## Cena b8 - 41.9s a 45.2s - 10 palavras - plano low
 > "E ele continua lá em cima, dando voltas, até hoje."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | aproxima-se | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | - | ATUACAO | reagir | OK |
 
 ## Cena b9 - 45.6s a 51.5s - 17 palavras - plano orbit
 > "Um Roadster, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço."

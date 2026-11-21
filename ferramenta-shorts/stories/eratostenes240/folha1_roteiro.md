@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 10 - Eratóstenes Mede a Terra
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace | 11 cenas, 167 palavras (~58 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace | 11 cenas, 166 palavras (~57 s)
 
 ## Cena b0  (~5.2 s)
 - Narracao: Um homem mediu o tamanho do planeta usando só uma vara e a sombra dela.
@@ -39,10 +39,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 - Funcao na historia: desenvolvimento
 
 ## Cena b4  (~4.8 s)
-- Narracao: Em Alexandria, no mesmo dia, uma vara fincada no chão fazia uma sombra pequena.
+- Narracao: Em Alexandria, no mesmo dia, uma vara fincada no solo fazia uma sombra pequena.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: tomba @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -74,11 +74,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~5.2 s)
-- Narracao: Com uma conta simples, chegou a um número muito perto do tamanho real da Terra.
+## Cena b8  (~4.8 s)
+- Narracao: Com uma conta simples, encontrou um número muito perto do tamanho real da Terra.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: chegou -> dust + som de impacto; encena: chega (point) @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: olha (point) @4 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

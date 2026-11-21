@@ -60,8 +60,7 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Um presidente chegou ao palco mais importante do mundo, e antes de falar, tirou uma selfie.",
-   "set": "hall"
+   "say": "Um presidente chegou ao púlpito mais importante do mundo, e antes de falar, tirou uma selfie."
   },
   {
    "shot": "reveal",
@@ -72,8 +71,7 @@
    "mapa": "ESTADOS UNIDOS",
    "mapa_at": 3,
    "say": "Foi em setembro de dois mil e dezenove, na Assembleia Geral da ONU, em Nova York.",
-   "text": "ONU · NOVA YORK",
-   "titulo": true
+   "set": "palace"
   },
   {
    "shot": "two",
@@ -81,7 +79,7 @@
     "DIP:0:bored",
     "REP:0:suspicious:paper"
    ],
-   "acao": "conversar",
+   "acao": "discutir",
    "say": "Ali, os líderes de quase todos os países fazem discursos longos e sérios."
   },
   {
@@ -100,7 +98,8 @@
     ]
    ],
    "interacao": "cochichar",
-   "say": "Nayib Bukele, o novo presidente de El Salvador, tinha só trinta e oito anos."
+   "say": "Nayib Bukele, o novo presidente de El Salvador, tinha só trinta e oito anos.",
+   "acao": "comemorar"
   },
   {
    "shot": "close",
@@ -127,17 +126,17 @@
    "say": "Acontece que, no púlpito, ele pediu: só um segundo, por favor. E tirou o celular do bolso."
   },
   {
-   "shot": "low",
-   "interior": "madeira",
+   "shot": "crowd",
    "who": [
-    "DIP:0:shock"
+    "BUK:0:grin",
+    "POV:1:surprised"
    ],
    "props": [
     [
      "kit/phone",
-     -1.6,
-     -0.8,
-     1.2
+     0,
+     -1.0,
+     1.4
     ]
    ],
    "fx": [
@@ -146,7 +145,19 @@
    "sfx": [
     "sting@20"
    ],
-   "say": "Virou de costas para a plateia, e tirou uma selfie com o plenário inteiro atrás."
+   "say": "Virou de costas para o plenário, e tirou uma selfie com todos atrás.",
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "surprised"
+   },
+   "acao": "tirar",
+   "set": "street"
   },
   {
    "shot": "two",
