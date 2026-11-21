@@ -60,15 +60,15 @@
    "props": [
     [
      "kit/ballot_box",
-     0,
-     -1.4,
-     1.2
+     -1.6,
+     0.6,
+     1.1
     ],
     [
      "kit/white_house",
-     0,
-     -14.0,
-     1.4
+     2.2,
+     -6.5,
+     1.15
     ]
    ],
    "text": "2024",
@@ -78,7 +78,8 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Donald Trump perdeu a eleição de dois mil e vinte. Quatro anos depois, voltou para a Casa Branca."
+   "say": "Donald Trump perdeu a eleição de dois mil e vinte. Quatro anos depois, voltou para a Casa Branca.",
+   "set": "street"
   },
   {
    "shot": "reveal",

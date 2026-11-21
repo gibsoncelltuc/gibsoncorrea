@@ -3,12 +3,12 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/reeleicao2024/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py reeleicao2024` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Donald Trump perdeu a eleição de dois mil e vinte. Quatro anos depois,...
-- Cenario: interior pedra | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Cenario: street | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): TRU (variante 0, expressao smug); REP (variante 0, expressao surprised, segura paper)
 - Animacao: conversar | interacao: o outro se aproxima | o ultimo personagem ENTRA andando
-- Objetos/modelos: kit/ballot_box, kit/white_house
+- Objetos/modelos: kit/ballot_box, kit/white_house, kit/marco_casabranca, buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): casa, dois, eleicao
 - RISCOS: nenhum
 
@@ -119,12 +119,15 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/ballot_box | b0, b2, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/white_house | b0, b1, b5, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_casabranca | b1, b2, b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_casabranca | b0, b1, b2, b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/house_small | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/picket_fence | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/tree_oak | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/scroll | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/ballot_box | grandes momentos: b5, b9 | planos abertos: 3 | mistura: close 22% | medio 64% | aberto 12% | detalhe 2%
+- Objeto heroi: kit/ballot_box | grandes momentos: b5, b9 | planos abertos: 3 | mistura: close 22% | medio 62% | aberto 12% | detalhe 5%
 - Interacoes: b0 o outro se aproxima, b2 insiste, b3 discutir, b6 vai ate o outro, b7 aproxima-se, b8 entregar
 - RISCOS GERAIS: nenhum
 

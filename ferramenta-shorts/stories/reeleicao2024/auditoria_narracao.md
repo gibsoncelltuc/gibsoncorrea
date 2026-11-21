@@ -2,7 +2,7 @@
 Cenas 100% fieis: 11/11 (100%). Lacunas: 0
 
 ## b0 OK - Donald Trump perdeu a eleição de dois mil e vinte. Quatro anos depois, voltou para a Casa Branca.
-- na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'ballot_box', 'room_eua_stone', 'white_house'] atores=2 acoes_folha3=['perdeu', 'perdeu', 'eleição']
+- na tela: set=['street'] animais=[] objetos=['ballot_box', 'house_small', 'marco_casabranca', 'picket_fence', 'tree_oak', 'white_house'] atores=6 acoes_folha3=['perdeu', 'perdeu', 'eleição']
 ## b1 OK - Foi em cinco de novembro de dois mil e vinte e quatro, nos Estados Unidos.
 - na tela: set=['street'] animais=[] objetos=['marco_casabranca', 'white_house'] atores=8 acoes_folha3=[]
 ## b2 OK - Milhões de americanos foram às urnas escolher entre Trump e a vice-presidente Kamala Harris.
