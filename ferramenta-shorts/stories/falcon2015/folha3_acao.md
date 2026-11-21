@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 24 - O Foguete que Voltou de Ré
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 7.4s - 21 palavras - plano two
@@ -12,7 +12,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | pousou (6.7s) | ACAO: g_pousou | g_pousou | OK |
 | 2 | - | INTERACAO | o outro se aproxima | OK |
 | 3 | - | ATUACAO | conversar | OK |
-| 4 | - | PLACA | 2015 | OK |
+| 4 | - | CHEGADA | alguem entra andando | OK |
+| 5 | - | PLACA | 2015 | OK |
 
 ## Cena b1 - 7.8s a 12.2s - 13 palavras - plano reveal
 > "Foi em dezembro de dois mil e quinze, no Cabo Canaveral, na Flórida."
@@ -98,6 +99,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | pousou (56.7s) | ACAO: g_pousou | g_pousou | OK |
 | 2 | - | INTERACAO | abracar | OK |
 | 3 | - | ATUACAO | conversar | OK |
+| 4 | - | CHEGADA | alguem entra andando | OK |
 
 ## Cena b10 - 58.1s a 64.4s - 18 palavras - plano close
 > "Hoje, os foguetes da SpaceX pousam quase toda semana. E a viagem ao espaço ficou muito mais barata."

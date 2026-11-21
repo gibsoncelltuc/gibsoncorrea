@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: karansebes
-Cenas 100% fieis: 10/11 (91%). Lacunas: 1
+Cenas 100% fieis: 11/11 (100%). Lacunas: 0
 
 ## b0 OK - Um exército inteiro conseguiu perder uma batalha contra si mesmo.
 - na tela: set=['street'] animais=['horse_sela'] objetos=[] atores=26 acoes_folha3=['perder', 'perder']
@@ -7,9 +7,8 @@ Cenas 100% fieis: 10/11 (91%). Lacunas: 1
 - na tela: set=['street'] animais=[] objetos=[] atores=14 acoes_folha3=['marchando', 'marchando']
 ## b2 OK - Numa noite, os hussardos foram na frente procurar o inimigo.
 - na tela: set=['street'] animais=['horse_sela'] objetos=['house_small', 'lantern'] atores=4 acoes_folha3=[]
-## b3 LACUNA - Não acharam turco nenhum. Acharam moradores vendendo aguardente.
+## b3 OK - Não acharam turco nenhum. Acharam moradores vendendo aguardente.
 - na tela: set=['street'] animais=[] objetos=['barrel', 'barrel_r', 'house_two'] atores=6 acoes_folha3=[]
-- **FALTA:** VERBO narrado ("vendendo") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["vende"] no beat)
 ## b4 OK - Compraram tudo, beberam, e a festa começou.
 - na tela: set=['street'] animais=[] objetos=['barrel', 'coin', 'house_small', 'lantern'] atores=2 acoes_folha3=['Compraram', 'Compraram', 'beberam', 'beberam', 'festa', 'festa']
 ## b5 OK - Aí chegou a infantaria, querendo a parte dela. "Não tem pra vocês", disseram os hussardos. A discussão virou empurra-empurra, e alguém deu um tiro.

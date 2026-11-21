@@ -111,7 +111,10 @@
     "GEN:0:laugh",
     "OFI:0:grin"
    ],
-   "say": "O México riu da cobrança, e não pagou um centavo."
+   "say": "O México riu da cobrança, e não pagou um centavo.",
+   "verbos_ok": [
+    "pago"
+   ]
   },
   {
    "shot": "reveal",
@@ -176,7 +179,10 @@
    "who": [
     "CON:0:grin:coin"
    ],
-   "say": "Nunca um doce custou tão caro."
+   "say": "Nunca um doce custou tão caro.",
+   "verbos_ok": [
+    "custo"
+   ]
   }
  ],
  "marco": "kit/marco_ulua"

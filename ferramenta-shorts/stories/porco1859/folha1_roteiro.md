@@ -76,7 +76,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b8  (~6.9 s)
 - Narracao: O almirante inglês recebeu a ordem de atacar. "Não vou começar uma guerra por causa de um porco", respondeu ele.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: atacar -> ring + som de alerta; encena: x_entrega (reach) @3 -> acao + som de efeito; encena: g_responde (up) @18 -> acao + som de efeito
 - Efeito visual marcado: -

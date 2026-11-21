@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 23 - O Martelo da Meia-Noite
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 7.4s - 21 palavras - plano two
@@ -89,6 +89,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | CENA | voltam para casa (saem andando) | OK |
 | 4 | - | INTERACAO | insiste | OK |
 | 5 | - | ATUACAO | conversar | OK |
+| 6 | - | CHEGADA | alguem entra andando | OK |
 
 ## Cena b9 - 53.3s a 58.5s - 15 palavras - plano orbit
 > "Trump disse que as usinas foram destruídas. Avaliações posteriores discutiram o tamanho real do estrago."

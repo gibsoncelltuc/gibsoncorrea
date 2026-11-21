@@ -126,7 +126,8 @@
     "PRE:0:grin"
    ],
    "text": "PALCO",
-   "say": "Acontece que a cidade levou isso a sério. Montou um palco, e contratou músicos para animar a multidão."
+   "say": "Acontece que a cidade levou isso a sério. Montou um palco, e contratou músicos para animar a multidão.",
+   "set": "hall"
   },
   {
    "shot": "orbit",

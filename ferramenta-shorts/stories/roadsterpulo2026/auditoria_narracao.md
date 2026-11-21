@@ -1,9 +1,8 @@
 # AUDITORIA NARRACAO x TELA: roadsterpulo2026
-Cenas 100% fieis: 10/11 (91%). Lacunas: 1
+Cenas 100% fieis: 11/11 (100%). Lacunas: 0
 
-## b0 LACUNA - Elon Musk prometeu um carro que voa. Em outubro de dois mil e vinte e seis, ele mostrou o que conseguiu.
+## b0 OK - Elon Musk prometeu um carro que voa. Em outubro de dois mil e vinte e seis, ele mostrou o que conseguiu.
 - na tela: set=['street'] animais=[] objetos=['house_small', 'roadster26_air', 'tower'] atores=2 acoes_folha3=['prometeu']
-- **FALTA:** VERBO narrado ("mostrou") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["mostr"] no beat)
 ## b1 OK - Foi numa base de testes da SpaceX, no Texas.
 - na tela: set=['street'] animais=[] objetos=['tower'] atores=8 acoes_folha3=[]
 ## b2 OK - O novo Roadster da Tesla tinha sido prometido em dois mil e dezessete. Foram nove anos de atraso.

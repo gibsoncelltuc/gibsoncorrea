@@ -14,7 +14,7 @@ b6 | interior loja | two | 1 | reagir | kit/monkey_pong | - | -
 b7 | street | crowd | 21 | reagir, batalha | kit/monkey_pong | - | -
 b8 | street | aereo | 10 | discutir | kit/chess_pc, kit/phone | - | -
 b9 | interior madeira | two | 2 | conversar, INTERAGEM: entregar | kit/chess_pc | - | -
-b10 | interior loja | two | 2 | INTERAGEM: insiste | kit/chess_pc | - | -
+b10 | interior loja | two | 2 | reagir, INTERAGEM: insiste, alguem chega andando | kit/chess_pc | - | -
 b11 | street | close | 1 | comemorar | kit/monkey_pong | - | -
 
 OBJETO HEROI: kit/monkey_pong - aparece em 7 cena(s), close nele em 2

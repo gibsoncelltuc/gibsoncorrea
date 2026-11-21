@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: tycho1566
-Cenas 100% fieis: 10/11 (91%). Lacunas: 1
+Cenas 100% fieis: 11/11 (100%). Lacunas: 0
 
 ## b0 OK - Um dos maiores astrônomos da história perdeu o nariz numa briga por causa de matemática.
 - na tela: set=['medieval'] animais=[] objetos=['brass_nose', 'marco_rostock'] atores=2 acoes_folha3=['perdeu', 'perdeu', 'briga', 'briga']
@@ -21,6 +21,5 @@ Cenas 100% fieis: 10/11 (91%). Lacunas: 1
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'lupa', 'room_europa_stone'] atores=2 acoes_folha3=['ajudaram', 'descobrir']
 ## b9 OK - Essa descoberta mudou a astronomia para sempre.
 - na tela: set=['medieval'] animais=[] objetos=['lupa', 'marco_rostock'] atores=19 acoes_folha3=['descoberta']
-## b10 LACUNA - E Tycho entrou para a história assim: com a cabeça nas estrelas, e o nariz de metal.
+## b10 OK - E Tycho entrou para a história assim: com a cabeça nas estrelas, e o nariz de metal.
 - na tela: set=['street'] animais=[] objetos=['brass_nose', 'marco_rostock'] atores=1 acoes_folha3=[]
-- **FALTA:** VERBO narrado ("entrou") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["entro"] no beat)

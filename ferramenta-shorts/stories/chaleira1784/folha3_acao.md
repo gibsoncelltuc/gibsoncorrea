@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 10 - A Guerra da Chaleira
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 48 acoes catalogadas, 48 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 50 acoes catalogadas, 50 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 4.8s - 14 palavras - plano two
@@ -51,7 +51,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | desceram (24.1s) | ACAO: g_desceram | g_desceram | OK |
 | 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | conversar | OK |
-| 4 | - | PLACA | 3 NAVIOS | OK |
+| 4 | - | CHEGADA | alguem entra andando | OK |
+| 5 | - | PLACA | 3 NAVIOS | OK |
 
 ## Cena b5 - 29.3s a 34.8s - 16 palavras - plano crowd
 > "Acontece que um navio holandês estava esperando. Ele mirou, e deu um único tiro de canhão."
@@ -78,6 +79,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | acertou (37.4s) | ACAO: g_acertou | g_acertou | OK |
 | 5 | - | INTERACAO | vai ate o outro | OK |
 | 6 | - | ATUACAO | conversar | OK |
+| 7 | - | CHEGADA | alguem entra andando | OK |
 
 ## Cena b7 - 40.7s a 45.6s - 14 palavras - plano crowd
 > "O capitão austríaco olhou para a sopa derramada, e se rendeu na mesma hora."

@@ -1,9 +1,8 @@
 # AUDITORIA NARRACAO x TELA: bacalhau1958
-Cenas 100% fieis: 7/9 (78%). Lacunas: 3
+Cenas 100% fieis: 9/9 (100%). Lacunas: 0
 
-## b0 LACUNA - Entre mil novecentos e cinquenta e oito e mil novecentos e setenta e seis, a Islândia e a Inglaterra travaram três guerras. Por causa de peixe.
+## b0 OK - Entre mil novecentos e cinquenta e oito e mil novecentos e setenta e seis, a Islândia e a Inglaterra travaram três guerras. Por causa de peixe.
 - na tela: set=['street'] animais=[] objetos=['cod', 'ship', 'shop'] atores=6 acoes_folha3=['travaram']
-- **FALTA:** ANIMAL/OBJETO sem modelo na biblioteca (peixe): modelar (Blender) ou mostrar por cartaz/prato
 ## b1 OK - A Islândia é pequena, e vivia da pesca. Mas barcos ingleses pescavam bacalhau bem pertinho da costa dela.
 - na tela: set=['street'] animais=[] objetos=['cod', 'crate', 'lighthouse'] atores=6 acoes_folha3=['pescavam']
 ## b2 OK - Então a Islândia aumentou os limites do seu mar: doze milhas, cinquenta, e por fim duzentas.
@@ -18,7 +17,5 @@ Cenas 100% fieis: 7/9 (78%). Lacunas: 3
 - na tela: set=['street'] animais=[] objetos=['shop'] atores=6 acoes_folha3=['ameaçou']
 ## b7 OK - Em mil novecentos e setenta e seis, os ingleses cederam, e a ideia de uma zona de duzentas milhas se espalhou pelo mundo.
 - na tela: set=['street'] animais=[] objetos=['house_two'] atores=2 acoes_folha3=['ideia', 'espalhou']
-## b8 LACUNA - Foi uma guerra de navios batendo e de redes cortadas, e tudo por causa de um peixe.
+## b8 OK - Foi uma guerra de navios batendo e de redes cortadas, e tudo por causa de um peixe.
 - na tela: set=['street'] animais=[] objetos=['cod', 'crate', 'phone', 'shop'] atores=1 acoes_folha3=['batendo', 'redes']
-- **FALTA:** ANIMAL/OBJETO sem modelo na biblioteca (peixe): modelar (Blender) ou mostrar por cartaz/prato
-- **FALTA:** LUGAR/CENARIO narrado (MAR/PORTO) NAO aparece

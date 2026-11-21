@@ -291,7 +291,10 @@
    "titulo": true,
    "acao": "discutir",
    "say": "A notícia correu. Em poucos dias, todo mundo quis vender, e não havia mais comprador.",
-   "clima": "limpo"
+   "clima": "limpo",
+   "verbos_ok": [
+    "corre"
+   ]
   },
   {
    "shot": "two",

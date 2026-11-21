@@ -1,9 +1,8 @@
 # AUDITORIA NARRACAO x TELA: emus1932
-Cenas 100% fieis: 10/11 (91%). Lacunas: 1
+Cenas 100% fieis: 11/11 (100%). Lacunas: 0
 
-## b0 LACUNA - A Austrália declarou guerra a um bando de pássaros. E perdeu.
+## b0 OK - A Austrália declarou guerra a um bando de pássaros. E perdeu.
 - na tela: set=['street'] animais=['emu'] objetos=['house_small'] atores=0 acoes_folha3=['perdeu']
-- **FALTA:** VERBO narrado ("declarou") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["decla"] no beat)
 ## b1 OK - Vinte mil emus estavam devorando as plantações de trigo no oeste do país, e os fazendeiros foram pedir socorro ao governo.
 - na tela: set=['street'] animais=['emu'] objetos=['barn', 'haybale', 'picket_fence', 'scarecrow'] atores=2 acoes_folha3=['devorando', 'socorro', 'socorro']
 ## b2 OK - "Mande o exército", pediram eles. E o ministro mandou.

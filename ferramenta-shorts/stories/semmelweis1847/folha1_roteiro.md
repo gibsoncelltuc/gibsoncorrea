@@ -17,7 +17,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@12, dust@40
-- Texto na tela: - | mapa: ÁUSTRIA
+- Texto na tela: HOSPITAL DE VIENA | mapa: ÁUSTRIA
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b2  (~6.2 s)

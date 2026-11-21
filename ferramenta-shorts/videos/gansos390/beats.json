@@ -141,7 +141,10 @@
    "hora": "noite",
    "say": "Numa noite sem lua, os gauleses escalaram a colina em silêncio. Os guardas dormiam. Ninguém ouviu nada.",
    "shot_lock": true,
-   "riscos_ok": true
+   "riscos_ok": true,
+   "verbos_ok": [
+    "escal"
+   ]
   },
   {
    "shot": "two",

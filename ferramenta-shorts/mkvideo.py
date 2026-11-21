@@ -649,6 +649,9 @@ for _ib, _b in enumerate(B['beats']):
 for _b in B['beats']:   # 21/11 CENA NUNCA PARADA (ordem do Gibson): frase longa sem nenhuma acao marcada ganha acao de grupo automatica (conversar = 2+ pessoas; reagir = 1 pessoa)
     if B.get('cena_parada_ok') or _b.get('acao') or _b.get('interacao') or _b.get('batalha') or _b.get('crowd') or _b.get('veiculo') or _b.get('lados') or _b.get('impact') or _b.get('shot') in ('track', 'reveal') or len(_b['say'].split()) < 7 or not _b.get('who'): continue
     _b['acao'] = 'conversar' if len(_b['who']) >= 2 else 'reagir'
+for _b in B['beats']:   # 21/11 verbo de MOVIMENTO (entrou, cruzou, atravessou, chegou, avancou, voltou...) = alguem ANDA ate a cena de verdade (nao so' gesto)
+    _sy = __import__('unicodedata').normalize('NFKD', _b['say'].lower()).encode('ascii', 'ignore').decode()
+    if 'chega' not in _b and len(_b.get('who', [])) >= 2 and re.search(r'\b(entrou|entraram|cruzou|cruzaram|atravessou|atravessaram|avancou|avancaram|aproximou|aproximaram|voltou|voltaram|desceu|desceram|apareceu|apareceram)\b', _sy) and not re.search(r'\b(nao|nunca|ninguem)\s+(entrou|entraram|cruzou|cruzaram|voltou)', _sy): _b['chega'] = True
 KICKS = []
 AMB = {}
 HEROI = _heroi()
@@ -1150,7 +1153,7 @@ def build_beat(k, b):
                 if tipo_ in _feitos: _mesmos.append((tipo_, nw_)); break   # 2a palavra da mesma acao (sirenes... tocaram): ja encenada
                 _feitos.add(tipo_); _encs.append((wi_, gest_, tipo_, j_)); break
             else:   # 21/11 ENCENADOR GENERICO (ordem do Gibson): verbo de cena que nao esta na tabela ENC AINDA ASSIM vira gesto do personagem NA PALAVRA (varias acoes na mesma frase = varias animacoes em sequencia)
-                if _AUD_OK and _AUD.RX_VERBO.match(nw_) and nw_ not in _AUD.SUBST_IA and nw_ not in _AUD.VERBOS_ABSTRATOS and nw_ not in _AUD.VERBOS_OK_GLOBAL and nw_[:5] not in {nrm(x)[:5] for x in b.get('verbos_ok', [])}:
+                if _AUD_OK and _AUD.RX_VERBO.match(nw_) and nw_ not in _AUD.SUBST_IA and nw_ not in _AUD.VERBOS_ABSTRATOS and nw_ not in _AUD.VERBOS_OK_GLOBAL and not any(nw_.startswith(nrm(x)) for x in b.get('verbos_ok', [])):
                     _gg = next((g_ for r_, g_ in ENC_GEN if re.match(r_, nw_)), 'point'); _encs.append((wi_, _gg, 'g_' + nw_[:8], j_))
         _resto = lambda j0: nrm(' '.join(_ws[j0:j0 + 7]))
         if _st.get('dorme') and not any(t_ in ('dorme', 'x_acorda') for _, _, t_, _ in _encs):   # SONO CONTINUA (cochilou -> "no sonho..." -> acordou): segue deitado dormindo

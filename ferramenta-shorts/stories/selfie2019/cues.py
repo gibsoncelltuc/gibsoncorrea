@@ -8,6 +8,7 @@ gibber(F(_A[0] + int((_A[1] - _A[0]) * 0.2)), 4, 230, 0.12); gibber(F(_A[0] + in
 steps(F(_A[0]), F(_A[0] + 40), 0.12, 0.3)
 ding(F(_A[0] + 30))
 whoosh(F(_A[1]), 0.4, 0.35)
+ding(F(int(_W(16) - 2)), 0.5, 1175)
 sting(F(_A[1] + 10))
 thump(F(_A[1] + 40))
 whoosh(F(_A[2]), 0.4, 0.35)

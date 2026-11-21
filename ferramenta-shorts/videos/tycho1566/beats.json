@@ -239,7 +239,10 @@
      1.2
     ]
    ],
-   "say": "E Tycho entrou para a história assim: com a cabeça nas estrelas, e o nariz de metal."
+   "say": "E Tycho entrou para a história assim: com a cabeça nas estrelas, e o nariz de metal.",
+   "verbos_ok": [
+    "entro"
+   ]
   }
  ]
 }

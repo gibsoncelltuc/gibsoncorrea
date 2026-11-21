@@ -1,9 +1,8 @@
 # AUDITORIA NARRACAO x TELA: goodyear1839
-Cenas 100% fieis: 11/12 (92%). Lacunas: 1
+Cenas 100% fieis: 12/12 (100%). Lacunas: 0
 
-## b0 LACUNA - Um inventor falido deixou cair uma gosma no fogão da cozinha. E mudou o mundo para sempre.
+## b0 OK - Um inventor falido deixou cair uma gosma no fogão da cozinha. E mudou o mundo para sempre.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'borracha', 'gosma', 'room_europa_wood', 'stove'] atores=2 acoes_folha3=['deixou', 'fogão']
-- **FALTA:** ACAO narrada ("cozinha") sem animacao na folha 3
 ## b1 OK - Era mil oitocentos e trinta e nove, nos Estados Unidos.
 - na tela: set=['street'] animais=[] objetos=[] atores=8 acoes_folha3=[]
 ## b2 OK - A borracha estava na moda, mas tinha um defeito: no calor, derretia e fedia. No frio, rachava.

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 13 - O Médico que Mandou Lavar as Mãos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 43 acoes catalogadas, 43 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 44 acoes catalogadas, 44 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 6.0s - 18 palavras - plano two
@@ -21,6 +21,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 2 | - | MAPA | ÁUSTRIA | OK |
+| 3 | - | PLACA | HOSPITAL DE VIENA | OK |
 
 ## Cena b2 - 12.1s a 19.3s - 18 palavras - plano two
 > "O hospital tinha duas alas de parto. Numa, as mães eram atendidas por parteiras. Na outra, por médicos."

@@ -12,7 +12,7 @@ b4 | interior madeira | two | 2 | conversar, INTERAGEM: entregar | nature/picket
 b5 | mountain | two | 2 | discutir, INTERAGEM: discutir | nature/picket_fence | money | -
 b6 | harbor | group | 19 | discutir, INTERAGEM: empurrar | - | - | -
 b7 | harbor | crowd | 32 | discutir, batalha | cannon, navios ao fundo | - | -
-b8 | interior madeira | two | 2 | conversar, INTERAGEM: susto | pig | - | -
+b8 | harbor | group | 2 | conversar, INTERAGEM: susto | pig | - | -
 b9 | mountain | orbit | 17 | comemorar, batalha | - | - | -
 b10 | countryside | two | 2 | conversar, INTERAGEM: insiste | - | paper | -
 b11 | countryside | close | 1 | reagir | kit/cross, nature/picket_fence, pig | - | -

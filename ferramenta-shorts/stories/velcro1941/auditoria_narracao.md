@@ -1,9 +1,8 @@
 # AUDITORIA NARRACAO x TELA: velcro1941
-Cenas 100% fieis: 11/12 (92%). Lacunas: 1
+Cenas 100% fieis: 12/12 (100%). Lacunas: 0
 
-## b0 LACUNA - Uma das invenções mais usadas do mundo nasceu de um passeio com o cachorro.
+## b0 OK - Uma das invenções mais usadas do mundo nasceu de um passeio com o cachorro.
 - na tela: set=['street'] animais=['dog'] objetos=['burr', 'marco_alpes'] atores=6 acoes_folha3=[]
-- **FALTA:** VERBO narrado ("nasceu") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["nasce"] no beat)
 ## b1 OK - Era mil novecentos e quarenta e um, na Suíça.
 - na tela: set=['street'] animais=[] objetos=['marco_alpes'] atores=8 acoes_folha3=[]
 ## b2 OK - O engenheiro George de Mestral voltou de uma caminhada pela montanha com o seu cachorro.

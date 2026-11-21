@@ -1,9 +1,8 @@
 # AUDITORIA NARRACAO x TELA: cachorro1925
-Cenas 100% fieis: 9/10 (90%). Lacunas: 1
+Cenas 100% fieis: 10/10 (100%). Lacunas: 0
 
-## b0 LACUNA - Um cachorro fugiu, e por causa dele dois países entraram em guerra, e dezenas de pessoas morreram.
+## b0 OK - Um cachorro fugiu, e por causa dele dois países entraram em guerra, e dezenas de pessoas morreram.
 - na tela: set=['street'] animais=['dog'] objetos=['dog_sit'] atores=2 acoes_folha3=['fugiu', 'fugiu', 'morreram', 'morreram']
-- **FALTA:** VERBO narrado ("entraram") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["entra"] no beat)
 ## b1 OK - Em mil novecentos e vinte e cinco, a fronteira entre a Grécia e a Bulgária era tensa, e os dois países viviam desconfiados.
 - na tela: set=['street'] animais=[] objetos=[] atores=10 acoes_folha3=[]
 ## b2 OK - Um soldado grego estava de guarda quando o cachorro dele fugiu para o outro lado da fronteira, atrás de nada.

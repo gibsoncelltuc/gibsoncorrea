@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b2  (~5.2 s)
 - Narracao: Em uma semana, mais de trinta vizinhos estavam dançando com ela. Ninguém sabia por quê.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: dançando -> stars + som de sino; encena: danca (up) @8 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b3  (~4.8 s)
 - Narracao: Em um mês, eram quatrocentas pessoas, de pés sangrando, pedindo socorro, sem conseguir parar.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40, thump@90
 - Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; socorro -> ring + som de alerta; encena: g_sangrand (point) @8 -> acao + som de efeito; encena: grita (up) @10 -> acao + som de efeito
 - Efeito visual marcado: stars@40, dust@90

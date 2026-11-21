@@ -15,15 +15,16 @@ ANIMAIS = {
     r'\bcabra|\bbode': {'goat'}, r'burro|jumento': {'donkey'}, r'veado|cervo': {'deer'}, r'raposa': {'fox'}, r'\blobos?\b': {'wolf'},
     r'coelho': {'rabbit'}, r'\bleao|\bleoes': {'lion'}, r'\bursos?\b': {'bear'}, r'galinha': {'chicken'}, r'\bgalo\b': {'rooster', 'chicken'},
     r'\bpatos?\b': {'duck'}, r'ganso': {'goose', 'chicken'}, r'gaivota': {'gull'}, r'\bemus?\b': {'emus', 'emu'},
+    r'abelhas?\b': {'kit/abelha', 'abelha'}, r'\bcobras?\b': {'kit/cobra', 'cobra'},
     r'macaco': {'kit/monkey_pong'}, r'\brato|roedor|ratazana': {'rato', 'kit/rato'}, r'bacalhau': {'kit/cod'}, r'pombo|passarinho|tentilh|\baves?\b': {'kit/finch'},
 }
-ANIMAIS_SEM_MODELO = r'canguru|dromedario|camelo|abelha|cobra|peixe\b'
+ANIMAIS_SEM_MODELO = r'canguru|dromedario|camelo'
 LUGARES = {  # palavra -> (rotulo, aceita se o 'set'/interior/prop/texto da cena contiver algo de...)
     r'zoologico': ('ZOOLOGICO', {'cage', 'zoo', 'elephant'}), r'estadio|campo de futebol|gramado|partida|\bjogo de futebol|futebol': ('ESTADIO/CAMPO', {'stadium', 'ball'}),
     r'hospital|enfermaria': ('HOSPITAL', {'hospital'}), r'restaurante|cozinha|\bmesa\b|prato|jantar': ('MESA/RESTAURANTE', {'table', 'plate', 'loja', 'stall', 'cake_table', 'panela', 'kettle'}),
-    r'praia|\bmar\b|porto|navio|cais|oceano': ('MAR/PORTO', {'harbor', 'ship', 'navio', 'ilha'}), r'montanha|\bmonte\b|colina|morro': ('MONTANHA', {'mountain'}),
+    r'praia|\bmar\b|\bportos?\b|navio|cais|oceano': ('MAR/PORTO', {'harbor', 'ship', 'navio', 'ilha'}), r'montanha|\bmonte\b|colina|morro': ('MONTANHA', {'mountain'}),
     r'deserto': ('DESERTO', {'outback', 'palace'}), r'floresta|mata\b|selva': ('FLORESTA', {'jungle', 'tree'}), r'neve|gelo|congel|inverno': ('NEVE', {'arctic', 'neve'}),
-    r'palacio|congresso|\bonu\b|tribunal': ('PALACIO/SALA', {'pedra', 'palace', 'hall'}), r'estudio|palco|plateia|apresentacao': ('PALCO/ESTUDIO', {'stadium', 'hall', 'palco'}),
+    r'palacio|congresso|\bonu\b|tribunal': ('PALACIO/SALA', {'pedra', 'palace', 'hall', 'onu'}), r'estudio|palco|plateia|apresentacao': ('PALCO/ESTUDIO', {'stadium', 'hall', 'palco'}),
 }
 VERBOS_ABSTRATOS = set('era foi eram foram tinha tinham estava estavam ficou ficaram disse disseram havia haviam podia podiam queria queriam sabia sabiam viu viram veio vieram deu deram achou acharam resolveu resolveram decidiu decidiram passou passaram chamou chamaram contou contam dizem diz acontece aconteceu significa tornou tornaram virou viraram ganhou ganharam perdeu perderam levou levaram durou duraram saiu sairam terminou acabou acabaram comecou comecaram continuou continuaram voltou voltaram esperava esperavam percebeu perceberam entendeu entenderam pensou pensaram achava achavam parecia pareciam existe existem existia existiam venceu venceram ficam fica ficava ficavam'.split())
 RX_VERBO = re.compile(r'^[a-z]{4,}(ou|aram|eu|eram|iu|iram|iam|ava|avam|ando|endo|indo|ariam|eria|iria)$')
@@ -71,16 +72,19 @@ def auditar(sid, verboso=False):
             if re.search(rx, n) and not any(a in nrm(ambiente) for a in aceitos):
                 lac.append(f'LUGAR/CENARIO narrado ({rot}) NAO aparece')
         acoes = F.get(k, []); palavras_acao = ' '.join(nrm(w) for w, _ in acoes) + ' ' + ' '.join(nrm(str(v.get('palavra', ''))).replace('^', '') for v in (b.get('voa') or []))   # projetil 'voa' conta como animacao da palavra
-        for w in re.findall(r'[a-zA-ZÀ-ú]+', say):
+        _pal2 = [nrm(x) for x in re.findall(r'[a-zA-ZÀ-ú]+', say)]
+        for _i2, w in enumerate(re.findall(r'[a-zA-ZÀ-ú]+', say)):
             nw = nrm(w)
+            if set(_pal2[max(0, _i2 - 3):_i2]) & {'nao', 'nem', 'nunca', 'sem', 'ninguem', 'nenhum'} or nw in ('cozinheiro', 'cozinheira', 'cozinha', 'cobranca', 'pintor', 'montanha', 'montes'): continue
+            if any(nw.startswith(nrm(x)) for x in b.get('verbos_ok', [])): continue
             if re.match(ACAO_CENICA, nw) and nw[:5] not in palavras_acao:
                 lac.append(f'ACAO narrada ("{w}") sem animacao na folha 3')
-        extra_ok = set(nrm(x)[:5] for x in b.get('verbos_ok', []))
+        extra_ok = set(nrm(x) for x in b.get('verbos_ok', []))
         _pal = [nrm(x) for x in re.findall(r'[a-zA-ZÀ-ú]+', say)]
         for _i, w in enumerate(re.findall(r'[a-zA-ZÀ-ú]+', say)):
             nw = nrm(w)
-            if set(_pal[max(0, _i - 2):_i]) & {'nao', 'nem', 'nunca', 'sem', 'ninguem'}: continue   # acao NEGADA nao se mostra
-            if RX_VERBO.match(nw) and nw not in SUBST_IA and nw not in VERBOS_ABSTRATOS and nw not in VERBOS_OK_GLOBAL and nw[:5] not in palavras_acao and nw[:5] not in extra_ok and not re.match(ACAO_CENICA, nw):
+            if set(_pal[max(0, _i - 2):_i]) & {'nao', 'nem', 'nunca', 'sem', 'ninguem', 'nenhum'}: continue   # acao NEGADA nao se mostra
+            if RX_VERBO.match(nw) and nw not in SUBST_IA and nw not in VERBOS_ABSTRATOS and nw not in VERBOS_OK_GLOBAL and nw[:5] not in palavras_acao and not any(nw.startswith(x_) for x_ in extra_ok) and not re.match(ACAO_CENICA, nw):
                 lac.append(f'VERBO narrado ("{w}") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so\' narrativo, "verbos_ok": ["{nw[:5]}"] no beat)')
         if not acoes and not any(x in ('react', 'cheer', 'dance', 'argue', 'eat', 'talk') for x in c['poses']) and not any(x in c['assets'] for x in ('kit/finch',)) and c['actors'] <= 3 and len(say.split()) > 6:
             lac.append('CENA PARADA: ninguem faz nada e nada do que foi narrado aparece')

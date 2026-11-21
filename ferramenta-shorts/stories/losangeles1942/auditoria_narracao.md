@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: losangeles1942
-Cenas 100% fieis: 9/10 (90%). Lacunas: 1
+Cenas 100% fieis: 10/10 (100%). Lacunas: 0
 
 ## b0 OK - Uma cidade inteira passou a noite atirando no céu, e não havia inimigo nenhum.
 - na tela: set=['street'] animais=[] objetos=['apartment', 'house_two', 'lamppost', 'marco_hollywood', 'searchlight'] atores=6 acoes_folha3=['atirando']
@@ -17,8 +17,7 @@ Cenas 100% fieis: 9/10 (90%). Lacunas: 1
 - na tela: set=['street'] animais=[] objetos=['apartment', 'cannon', 'house_two', 'lamppost', 'marco_hollywood'] atores=24 acoes_folha3=['tiros', 'tiros', 'canhão', 'caíram', 'pânico']
 ## b7 OK - No dia seguinte, os militares discutiram o que tinha acontecido, e ninguém sabia dizer.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_eua_wood'] atores=2 acoes_folha3=['discutiram']
-## b8 LACUNA - Algumas pessoas morreram, por acidente e por susto, mas nenhum inimigo apareceu.
+## b8 OK - Algumas pessoas morreram, por acidente e por susto, mas nenhum inimigo apareceu.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_eua_stone'] atores=2 acoes_folha3=['morreram', 'morreram']
-- **FALTA:** VERBO narrado ("apareceu") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["apare"] no beat)
 ## b9 OK - O único alvo derrotado naquela noite foi o sono de Los Angeles.
 - na tela: set=['street'] animais=[] objetos=['marco_hollywood', 'searchlight'] atores=1 acoes_folha3=['derrotado', 'derrotado']

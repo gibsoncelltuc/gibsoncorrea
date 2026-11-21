@@ -87,7 +87,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | respondeu (41.9s) | ACAO: g_responde | g_responde | OK |
 | 2 | - | ATUACAO | discutir | OK |
 
-## Cena b8 - 49.4s a 55.6s - 20 palavras - plano two
+## Cena b8 - 49.4s a 55.6s - 20 palavras - plano group
 > "O almirante inglês recebeu a ordem de atacar. "Não vou começar uma guerra por causa de um porco", respondeu ele."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

@@ -107,7 +107,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): NOL (variante 0, expressao smile); CIE (variante 0, expressao happy)
-- Animacao: - | interacao: insiste
+- Animacao: reagir | interacao: insiste | o ultimo personagem ENTRA andando
 - Objetos/modelos: kit/chess_pc
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): corpo, jogar, pescoco
 - RISCOS: nenhum

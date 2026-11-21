@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 21 - A Volta de Trump
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 40 acoes catalogadas, 40 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 6.3s - 18 palavras - plano two
@@ -15,7 +15,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
 | 5 | - | INTERACAO | o outro se aproxima | OK |
 | 6 | - | ATUACAO | conversar | OK |
-| 7 | - | PLACA | 2024 | OK |
+| 7 | - | CHEGADA | alguem entra andando | OK |
+| 8 | - | PLACA | 2024 | OK |
 
 ## Cena b1 - 6.7s a 11.9s - 15 palavras - plano reveal
 > "Foi em cinco de novembro de dois mil e vinte e quatro, nos Estados Unidos."

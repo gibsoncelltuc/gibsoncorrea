@@ -144,7 +144,10 @@
     "march": false,
     "expr": "shock"
    },
-   "say": "Acontece que, numa única tarde de batalha, os sete mil atacaram de surpresa, e o exército gigante fugiu correndo."
+   "say": "Acontece que, numa única tarde de batalha, os sete mil atacaram de surpresa, e o exército gigante fugiu correndo.",
+   "verbos_ok": [
+    "corre"
+   ]
   },
   {
    "shot": "two",

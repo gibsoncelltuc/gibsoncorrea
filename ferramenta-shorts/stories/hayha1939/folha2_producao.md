@@ -33,7 +33,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - Vestido de branco, ele esperava imóvel no meio da neve, horas a fio.
-- Cenario: mountain | luz: arctic | clima: limpo
+- Cenario: arctic | luz: arctic | clima: limpo
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): FIN (variante 3, expressao stern)
@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Dizem que ele mantinha neve na boca, para o vapor da respiração não en...
-- Cenario: mountain | luz: arctic | clima: limpo
+- Cenario: arctic | luz: arctic | clima: limpo
 - Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): FIN (variante 3, expressao neutral)
@@ -110,9 +110,11 @@ kit/campfire | b5 | pronto | conferir na folha de contato se le bem; se parecer 
 ## Video inteiro
 - Objeto heroi: - | grandes momentos: b1, b5 | planos abertos: 4 | mistura: close 33% | medio 42% | aberto 22% | detalhe 3%
 - Interacoes: b7 cochichar
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - pouca variedade de cenario ({'arctic': 6, 'mountain': 1, 'interior hospital': 1, 'interior madeira': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: pouca variedade de cenario ({'arctic': 6, 'mountain': 1, 'interior hospital': 1, 'interior madeira': 1}): o video fica parecendo todos os outros
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh hayha1939 bN bM` (so essas cenas).

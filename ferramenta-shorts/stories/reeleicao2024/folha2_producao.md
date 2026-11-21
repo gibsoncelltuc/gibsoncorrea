@@ -7,7 +7,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): TRU (variante 0, expressao smug); REP (variante 0, expressao surprised, segura paper)
-- Animacao: conversar | interacao: o outro se aproxima
+- Animacao: conversar | interacao: o outro se aproxima | o ultimo personagem ENTRA andando
 - Objetos/modelos: kit/ballot_box, kit/white_house
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): casa, dois, eleicao
 - RISCOS: nenhum
@@ -53,17 +53,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Os apoiadores comemoraram a noite inteira. Trump subiu ao palco e decl...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: hall | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): TRU (variante 0, expressao laugh); ELE (variante 0, expressao laugh); POV (variante 0, expressao shout) | multidao: 22 de POV
 - Animacao: comemorar | batalha encenada
-- Objetos/modelos: kit/white_house, kit/marco_casabranca
+- Objetos/modelos: kit/white_house
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): apoiadores
 - RISCOS: nenhum
 
 ## Cena b6 - Foi um feito raro: ele virou só o segundo presidente da história com d...
-- Cenario: countryside | luz: noite | clima: limpo
+- Cenario: street | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): REP (variante 0, expressao surprised, segura paper); POV (variante 0, expressao grin)
@@ -93,7 +93,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - Ele tinha sido o presidente número quarenta e cinco. Agora era o númer...
-- Cenario: street | luz: noite | clima: limpo
+- Cenario: countryside | luz: noite | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): TRU (variante 0, expressao smug); POV (variante 0, expressao surprised); POV (variante 1, expressao grin) | multidao: 18 de POV
@@ -119,7 +119,7 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/ballot_box | b0, b2, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/white_house | b0, b1, b5, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_casabranca | b1, b2, b5, b6, b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_casabranca | b1, b2, b6, b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/scroll | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 

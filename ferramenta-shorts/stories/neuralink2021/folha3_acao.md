@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 19 - O Macaco que Jogou Videogame com a Mente
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.5s - 17 palavras - plano two
@@ -97,6 +97,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | insiste | OK |
+| 2 | - | ATUACAO | reagir | OK |
+| 3 | - | CHEGADA | alguem entra andando | OK |
 
 ## Cena b11 - 67.3s a 71.5s - 16 palavras - plano close
 > "E tudo começou com um macaco, um videogame antigo, e um copo de vitamina de banana."

@@ -47,7 +47,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): AUS (variante 0, expressao smug); AUS (variante 1, expressao grin) | multidao: 14 de AUS
-- Animacao: conversar | interacao: insiste
+- Animacao: conversar | interacao: insiste | o ultimo personagem ENTRA andando
 - Objetos/modelos: kit/marco_viena, war/flagpole
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bandeiras, frente, soldados, tres
 - RISCOS: nenhum
@@ -67,7 +67,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): COZ (variante 0, expressao scared); AUS (variante 0, expressao surprised)
-- Animacao: conversar | interacao: vai ate o outro
+- Animacao: conversar | interacao: vai ate o outro | o ultimo personagem ENTRA andando
 - Objetos/modelos: kit/kettle, kit/marco_viena
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bala, chaleira, conves, cozinheiro, sopa
 - RISCOS: nenhum

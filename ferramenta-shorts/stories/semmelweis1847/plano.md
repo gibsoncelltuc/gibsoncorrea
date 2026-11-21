@@ -2,8 +2,8 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | placa: 1847 | (rosto) pleading (expr + som de efeito) | -
-b1 | crowd | -  | batalha aberta com tiros, tropa, mapa | - | -
+b0 | two | -  | interior, placa: 1847 | (rosto) pleading (expr + som de efeito) | -
+b1 | crowd | -  | batalha aberta com tiros, tropa, placa: HOSPITAL DE VIENA, mapa | - | -
 b2 | two | -  | interior, placa: HOSPITAL | - | -
 b3 | two | -  | interior | encena: morre @7 (acao + som de efeito) | -
 b4 | group | -  | tropa | encena: ajoelha (plead) @2 (acao + som de efeito) | -
@@ -15,5 +15,5 @@ b9 | two | -  | interior | encena: g_ofendera (point) @4 (acao + som de efeito);
 b10 | aereo | -  | tropa | (rosto) sad (expr + som de efeito); morreu (puff + som de baque); encena: morre @1 (acao + som de efeito) | -
 b11 | close | -  | placa: LAVE AS MÃOS | encena: fala (point) @4 (acao + som de efeito) | -
 
-Mistura de planos: close 19% | medio 66% | aberto 12% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | dentro do padrao do canal
+Mistura de planos: close 19% | medio 69% | aberto 12% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 3 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

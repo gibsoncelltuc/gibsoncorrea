@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: hayha1939
-Cenas 100% fieis: 7/9 (78%). Lacunas: 2
+Cenas 100% fieis: 9/9 (100%). Lacunas: 0
 
 ## b0 OK - Inverno de mil novecentos e trinta e nove. A União Soviética invadiu a Finlândia, com um exército enorme.
 - na tela: set=['street'] animais=[] objetos=[] atores=22 acoes_folha3=['invadiu', 'invadiu']
@@ -7,12 +7,10 @@ Cenas 100% fieis: 7/9 (78%). Lacunas: 2
 - na tela: set=['street'] animais=[] objetos=['bush', 'tree_oak', 'tree_pine'] atores=13 acoes_folha3=['conheciam', 'chegava']
 ## b2 OK - Um deles era um fazendeiro baixinho chamado Simo Häyhä.
 - na tela: set=['street'] animais=[] objetos=['barn', 'haybale', 'picket_fence', 'scarecrow'] atores=1 acoes_folha3=[]
-## b3 LACUNA - Vestido de branco, ele esperava imóvel no meio da neve, horas a fio.
-- na tela: set=['mountain'] animais=[] objetos=[] atores=1 acoes_folha3=['esperava']
-- **FALTA:** LUGAR/CENARIO narrado (NEVE) NAO aparece
-## b4 LACUNA - Dizem que ele mantinha neve na boca, para o vapor da respiração não entregar a sua posição.
-- na tela: set=['mountain'] animais=[] objetos=[] atores=3 acoes_folha3=[]
-- **FALTA:** LUGAR/CENARIO narrado (NEVE) NAO aparece
+## b3 OK - Vestido de branco, ele esperava imóvel no meio da neve, horas a fio.
+- na tela: set=['street'] animais=[] objetos=[] atores=1 acoes_folha3=['esperava']
+## b4 OK - Dizem que ele mantinha neve na boca, para o vapor da respiração não entregar a sua posição.
+- na tela: set=['street'] animais=[] objetos=[] atores=3 acoes_folha3=[]
 ## b5 OK - Em cerca de cem dias, ele teve mais de quinhentos inimigos confirmados, com uma carabina de mira de ferro, sem luneta.
 - na tela: set=['street'] animais=[] objetos=['campfire', 'picket_fence'] atores=14 acoes_folha3=[]
 ## b6 OK - Os soviéticos passaram a chamá-lo de Morte Branca.

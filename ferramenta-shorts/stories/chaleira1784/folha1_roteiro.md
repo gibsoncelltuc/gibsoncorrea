@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b2  (~5.2 s)
 - Narracao: O imperador da Áustria ficou furioso. Ele queria o rio aberto para os navios dele.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) angry -> expr + som de efeito
 - Efeito visual marcado: -
@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b3  (~4.5 s)
 - Narracao: "Mandem três navios", ordenou ele. "Os holandeses não vão ter coragem de atirar."
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: atirar -> burst + som de tiro/explosao; encena: fala (point) @3 -> acao + som de efeito; encena: atira @12 -> acao + som de efeito
 - Efeito visual marcado: -

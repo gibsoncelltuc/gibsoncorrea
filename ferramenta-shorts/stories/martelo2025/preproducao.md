@@ -12,7 +12,7 @@ b4 | interior madeira | two | 2 | conversar, INTERAGEM: entregar | - | - | -
 b5 | mountain | crowd | 15 | encena, batalha | kit/b2_air, kit/marco_mesquita | - | -
 b6 | countryside | two | 2 | conversar, INTERAGEM: cochichar | kit/b2_air, kit/marco_mesquita | - | -
 b7 | outback | low | 1 | reagir | kit/b2_air, kit/mountain_bunker, kit/marco_mesquita, vehicles/airplane, kit/bunker_bomb | - | -
-b8 | hall | two | 2 | conversar, INTERAGEM: insiste | kit/b2_air, vehicles/airplane, buildings/house_small, nature/picket_fence, nature/tree_oak | paper | -
+b8 | hall | two | 2 | conversar, INTERAGEM: insiste, alguem chega andando | kit/b2_air, vehicles/airplane, buildings/house_small, nature/picket_fence, nature/tree_oak | paper | -
 b9 | outback | orbit | 21 | conversar, batalha | kit/mountain_bunker, kit/marco_mesquita | - | -
 b10 | mountain | close | 1 | conversar | kit/bunker_bomb, kit/b2_air, kit/marco_mesquita | - | -
 

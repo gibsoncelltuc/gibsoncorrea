@@ -1,9 +1,8 @@
 # AUDITORIA NARRACAO x TELA: postit1968
-Cenas 100% fieis: 11/12 (92%). Lacunas: 1
+Cenas 100% fieis: 12/12 (100%). Lacunas: 0
 
-## b0 LACUNA - Um químico inventou a cola mais fraca do mundo. E ela virou um dos produtos mais vendidos do planeta.
+## b0 OK - Um químico inventou a cola mais fraca do mundo. E ela virou um dos produtos mais vendidos do planeta.
 - na tela: set=['street'] animais=[] objetos=['coin', 'frasco', 'globe', 'postit', 'shop', 'tubos'] atores=2 acoes_folha3=['químico', 'vendidos']
-- **FALTA:** VERBO narrado ("inventou") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["inven"] no beat)
 ## b1 OK - Era mil novecentos e sessenta e oito, numa grande fábrica dos Estados Unidos.
 - na tela: set=['street'] animais=[] objetos=[] atores=8 acoes_folha3=[]
 ## b2 OK - Spencer Silver tentava criar uma super cola, tão forte que nada conseguisse descolar.

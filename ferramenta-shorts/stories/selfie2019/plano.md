@@ -3,7 +3,7 @@
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
 b0 | two | -  | placa: 2019 | chegou (dust + som de impacto); encena: chega (point) @2 (acao + som de efeito); encena: tira (lift) @13 (acao + som de efeito) | -
-b1 | crowd | -  | batalha aberta com tiros, tropa, mapa | - | -
+b1 | crowd | -  | batalha aberta com tiros, tropa, placa: ONU · NOVA YORK, mapa | - | -
 b2 | two | -  | interior, objeto na mao | - | -
 b3 | two | -  | interior | - | -
 b4 | close | -  | interior | (rosto) pleading (expr + som de efeito); encena: tira (lift) @12 (acao + som de efeito); encena: x_fone (lift) @14 (acao + som de efeito) | -

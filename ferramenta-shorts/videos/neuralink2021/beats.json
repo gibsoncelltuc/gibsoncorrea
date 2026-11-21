@@ -259,7 +259,11 @@
     ]
    ],
    "detalhe": true,
-   "shot_lock": true
+   "shot_lock": true,
+   "verbos_ok": [
+    "jogo",
+    "jogo"
+   ]
   },
   {
    "say": "Ele não mexia o corpo do pescoço para baixo. E voltou a jogar.",
@@ -269,7 +273,7 @@
     "NOL:0:smile",
     "CIE:0:happy"
    ],
-   "acao": "nenhuma",
+   "acao": "reagir",
    "props": [
     [
      "kit/chess_pc",

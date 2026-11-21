@@ -13,7 +13,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 9
 
 ## Cena b1  (~5.5 s)
 - Narracao: A frota holandesa estava ancorada perto de Den Helder, e o mar congelou em volta dela.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: x_treme @12 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 9
 
 ## Cena b3  (~4.1 s)
 - Narracao: Do outro lado, os franceses tinham cavalaria, os hussardos, e nenhum navio.
-- Som ambiente: birds
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -49,9 +49,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 9
 
 ## Cena b5  (~7.9 s)
 - Narracao: Na noite de vinte e três de janeiro, os hussardos atravessaram o gelo, com panos nos cascos dos cavalos para não fazer barulho.
-- Som ambiente: birds | batalha: tiros e gritos a cena inteira
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160, gun@164, gun@168, gun@176, gun@180, gun@184, gun@188, gun@196, gun@200, gun@204
-- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (FRA) -> acao + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito; encena: g_atravess (point) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; encena: g_atravess (point) @10 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

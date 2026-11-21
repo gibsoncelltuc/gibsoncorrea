@@ -8,7 +8,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): JOS (variante 0, expressao grin); ETI (variante 0, expressao nervous)
 - Animacao: conversar | interacao: susto
-- Objetos/modelos: kit/balloon, kit/marco_versalhes, sheep
+- Objetos/modelos: kit/balloon, kit/marco_versalhes, sheep, duck, rooster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balao, galo, ovelha, pato, primeiros
 - RISCOS: nenhum
 
@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - No palácio de Versalhes, o rei Luís dezesseis e a rainha Maria Antonie...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: palace | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): REI (variante 0, expressao smile); RAI (variante 0, expressao surprised); NOB (variante 0, expressao grin) | multidao: 30 de POV/NOB
@@ -118,7 +118,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): ETI (variante 0, expressao smile)
 - Animacao: reagir
-- Objetos/modelos: kit/balloon, kit/marco_versalhes, sheep
+- Objetos/modelos: kit/balloon, kit/marco_versalhes, sheep, duck, rooster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): galo, ovelha, pato
 - RISCOS: nenhum
 
@@ -130,9 +130,9 @@ Objeto | Cenas | Situacao | O que fazer
 kit/balloon | b0, b3, b5, b6, b7, b8, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_versalhes | b0, b1, b2, b5, b6, b7, b8, b9, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 sheep | b0, b5, b9, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+duck | b0, b5, b9, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+rooster | b0, b5, b9, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/campfire | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-duck | b5, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-rooster | b5, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/balloon_air | b7, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_pine | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py

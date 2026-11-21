@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: maduro2026
-Cenas 100% fieis: 10/11 (91%). Lacunas: 1
+Cenas 100% fieis: 11/11 (100%). Lacunas: 0
 
 ## b0 OK - Numa madrugada de janeiro de dois mil e vinte e seis, Trump autorizou uma das operações militares mais ousadas dos últimos anos.
 - na tela: set=['hall'] animais=[] objetos=['helicopter_air', 'room_colonial_shop'] atores=2 acoes_folha3=[]
@@ -19,8 +19,7 @@ Cenas 100% fieis: 10/11 (91%). Lacunas: 1
 - na tela: set=['hall'] animais=[] objetos=['room_colonial_shop'] atores=2 acoes_folha3=['acompanhou']
 ## b8 OK - Maduro foi levado de avião para Nova York, onde responde a um processo na justiça.
 - na tela: set=['street'] animais=[] objetos=['airplane', 'scroll', 'shop'] atores=6 acoes_folha3=[]
-## b9 LACUNA - Nenhum militar americano morreu. A notícia parou o mundo, e dividiu opiniões entre países.
+## b9 OK - Nenhum militar americano morreu. A notícia parou o mundo, e dividiu opiniões entre países.
 - na tela: set=['street'] animais=[] objetos=[] atores=21 acoes_folha3=['dividiu']
-- **FALTA:** ACAO narrada ("morreu") sem animacao na folha 3
 ## b10 OK - A operação ganhou um nome que resume tudo: Resolução Absoluta.
 - na tela: set=['street'] animais=[] objetos=['helicopter_air', 'shop'] atores=1 acoes_folha3=['ganhou', 'ganhou']

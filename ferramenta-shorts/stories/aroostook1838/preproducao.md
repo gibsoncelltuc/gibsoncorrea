@@ -12,7 +12,7 @@ b4 | street | crowd | 32 | encena, batalha | - | - | -
 b5 | interior pedra | two | 2 | conversar, INTERAGEM: empurrar | - | - | -
 b6 | palace | two | 2 | conversar, INTERAGEM: cochichar | - | - | -
 b7 | interior madeira | two | 2 | conversar, INTERAGEM: entregar | - | paper | -
-b8 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | kit/scroll | paper | -
+b8 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | nature/tree_pine, kit/scroll | paper | -
 b9 | countryside | close | 11 | reagir | kit/logs, nature/tree_pine, pig | - | -
 
 OBJETO HEROI: kit/logs - aparece em 3 cena(s), close nele em 1

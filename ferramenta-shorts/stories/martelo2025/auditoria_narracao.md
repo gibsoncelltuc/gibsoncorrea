@@ -1,9 +1,8 @@
 # AUDITORIA NARRACAO x TELA: martelo2025
-Cenas 100% fieis: 10/11 (91%). Lacunas: 1
+Cenas 100% fieis: 11/11 (100%). Lacunas: 0
 
-## b0 LACUNA - Para destruir um bunker escondido dentro de uma montanha, os Estados Unidos usaram uma bomba que nunca tinha saído do papel.
+## b0 OK - Para destruir um bunker escondido dentro de uma montanha, os Estados Unidos usaram uma bomba que nunca tinha saído do papel.
 - na tela: set=['street'] animais=[] objetos=['b2_air', 'bunker_bomb', 'marco_mesquita'] atores=6 acoes_folha3=['usaram', 'bomba', 'bomba']
-- **FALTA:** LUGAR/CENARIO narrado (MONTANHA) NAO aparece
 ## b1 OK - Foi em junho de dois mil e vinte e cinco. O alvo eram as usinas nucleares do Irã.
 - na tela: set=['street'] animais=[] objetos=['marco_mesquita', 'mountain_bunker'] atores=8 acoes_folha3=[]
 ## b2 OK - A principal, Fordow, fica a quase noventa metros de profundidade, dentro de uma montanha.

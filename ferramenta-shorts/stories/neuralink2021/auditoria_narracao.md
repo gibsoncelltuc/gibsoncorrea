@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: neuralink2021
-Cenas 100% fieis: 10/12 (83%). Lacunas: 2
+Cenas 100% fieis: 12/12 (100%). Lacunas: 0
 
 ## b0 OK - Uma empresa de Elon Musk mostrou um macaco jogando videogame. Sem as mãos, só com o pensamento.
 - na tela: set=['street'] animais=[] objetos=['monkey_pong', 'shop'] atores=6 acoes_folha3=['mostrou']
@@ -19,11 +19,9 @@ Cenas 100% fieis: 10/12 (83%). Lacunas: 2
 - na tela: set=['street'] animais=[] objetos=['monkey_pong'] atores=21 acoes_folha3=['encantou', 'debateu']
 ## b8 OK - O objetivo, segundo a empresa, é ajudar pessoas paralisadas a usar computadores e celulares com o pensamento.
 - na tela: set=['street'] animais=[] objetos=['chess_pc', 'phone'] atores=10 acoes_folha3=[]
-## b9 LACUNA - Em dois mil e vinte e quatro, o primeiro paciente humano recebeu o chip, e jogou xadrez no computador só pensando.
+## b9 OK - Em dois mil e vinte e quatro, o primeiro paciente humano recebeu o chip, e jogou xadrez no computador só pensando.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'chess_pc', 'room_eua_wood'] atores=6 acoes_folha3=['recebeu', 'pensando']
-- **FALTA:** ACAO narrada ("jogou") sem animacao na folha 3
-## b10 LACUNA - Ele não mexia o corpo do pescoço para baixo. E voltou a jogar.
+## b10 OK - Ele não mexia o corpo do pescoço para baixo. E voltou a jogar.
 - na tela: set=['hall'] animais=[] objetos=['chess_pc', 'room_eua_shop'] atores=2 acoes_folha3=[]
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
 ## b11 OK - E tudo começou com um macaco, um videogame antigo, e um copo de vitamina de banana.
 - na tela: set=['street'] animais=[] objetos=['house_two', 'monkey_pong'] atores=1 acoes_folha3=[]

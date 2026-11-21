@@ -123,6 +123,23 @@ def trave():
     escala(1.4)
     fim(.0)
 
-E = dict(panela=panela, frasco=frasco, tubos=tubos, enxofre=enxofre, gosma=gosma, borracha=borracha, microscopio=microscopio, balanca=balanca, lupa=lupa, bancada=bancada, burr=burr, turbina=turbina, rato=rato, trave=trave)
+def abelha():
+    novo('abelha')                       # 21/11: abelha (corpo listrado, asas, ferrao) - Frisch, abelhas
+    bola((0, 0, 0), .16, '#f2c230', esc=(1.5, 1, 1)); bola((.22, 0, .02), .11, '#2a2a2a'); bola((-.2, 0, 0), .1, '#2a2a2a', esc=(1.2, 1, 1))
+    for x in (-.06, .06): caixa((x, 0, 0), (.04, .26, .26), '#3a2a10')
+    for sy in (-1, 1): bola((0, sy * .17, .15), .13, '#dff4ff', esc=(1.1, .7, .25), rot=(sy * .5, 0, 0))
+    escala(2.2)
+    fim(.0)
+
+def cobra():
+    novo('cobra')                        # 21/11: cobra verde enrolada com cabeca (Kekule, atomos como cobras)
+    for i in range(26):
+        t = i / 25.0; r = .55 - .35 * t; a = t * 9.0
+        bola((r * m.cos(a), r * m.sin(a), .07 + .1 * t), .075, '#3f9a4a' if i % 4 else '#e8d44a', seg=10)
+    bola((.2 * m.cos(9.0), .2 * m.sin(9.0), .3), .1, '#3f9a4a', esc=(1.3, 1, 1)); bola((.19 * m.cos(9.0) + .08, .2 * m.sin(9.0) + .05, .36), .02, '#111111', seg=6)
+    escala(1.8)
+    fim(.0)
+
+E = dict(panela=panela, frasco=frasco, tubos=tubos, enxofre=enxofre, gosma=gosma, borracha=borracha, microscopio=microscopio, balanca=balanca, lupa=lupa, bancada=bancada, burr=burr, turbina=turbina, rato=rato, trave=trave, abelha=abelha, cobra=cobra)
 alvo = sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else list(E)
 for k in alvo: E[k]()

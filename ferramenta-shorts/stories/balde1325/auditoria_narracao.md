@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: balde1325
-Cenas 100% fieis: 8/10 (80%). Lacunas: 2
+Cenas 100% fieis: 10/10 (100%). Lacunas: 0
 
 ## b0 OK - Duas cidades italianas foram à guerra por causa de um balde de madeira.
 - na tela: set=['street'] animais=[] objetos=['bucket', 'house_two', 'lamppost', 'marco_ghirlandina'] atores=6 acoes_folha3=[]
@@ -15,11 +15,9 @@ Cenas 100% fieis: 8/10 (80%). Lacunas: 2
 - na tela: set=['countryside'] animais=[] objetos=['marco_ghirlandina'] atores=20 acoes_folha3=['juntou', 'marchou']
 ## b6 OK - Módena tinha só sete mil soldados. Parecia uma derrota certa, e rápida.
 - na tela: set=['countryside'] animais=[] objetos=['marco_ghirlandina'] atores=12 acoes_folha3=['derrota', 'derrota']
-## b7 LACUNA - Acontece que, numa única tarde de batalha, os sete mil atacaram de surpresa, e o exército gigante fugiu correndo.
+## b7 OK - Acontece que, numa única tarde de batalha, os sete mil atacaram de surpresa, e o exército gigante fugiu correndo.
 - na tela: set=['street'] animais=['horse_sela'] objetos=['marco_ghirlandina'] atores=24 acoes_folha3=['atacaram', 'surpresa', 'surpresa', 'fugiu', 'fugiu']
-- **FALTA:** VERBO narrado ("correndo") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["corre"] no beat)
-## b8 LACUNA - Módena perseguiu os inimigos até os portões de Bolonha, e ainda zombou deles do lado de fora.
+## b8 OK - Módena perseguiu os inimigos até os portões de Bolonha, e ainda zombou deles do lado de fora.
 - na tela: set=['street'] animais=[] objetos=['marco_ghirlandina'] atores=2 acoes_folha3=['perseguiu', 'zombou']
-- **FALTA:** LUGAR/CENARIO narrado (MAR/PORTO) NAO aparece
 ## b9 OK - O balde nunca foi devolvido. Está guardado em Módena até hoje, setecentos anos depois.
 - na tela: set=['street'] animais=[] objetos=['bucket', 'marco_ghirlandina'] atores=1 acoes_folha3=[]
