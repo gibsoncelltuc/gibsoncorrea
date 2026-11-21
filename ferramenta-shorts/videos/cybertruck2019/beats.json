@@ -46,8 +46,8 @@
    "props": [
     [
      "kit/cybertruck",
-     2.0,
-     -2.6,
+     1.6,
+     -2.8,
      1.7
     ]
    ],
@@ -57,53 +57,68 @@
    "mapa": "CALIFÓRNIA",
    "mapa_at": 3,
    "detalhe": true,
-   "set": "outback"
+   "set": "street"
   },
   {
    "say": "Na apresentação, Musk disse que as janelas eram feitas de um vidro super resistente.",
-   "shot": "close",
+   "shot": "two",
    "who": [
-    "MUS:0:smug"
+    "MUS:0:smug",
+    "DSG:0:smile"
    ],
    "props": [
     [
      "kit/cybertruck",
-     2.0,
-     -2.6,
+     1.6,
+     -2.8,
      1.7
     ]
    ],
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "set": "mountain"
+   "set": "stadium"
   },
   {
    "say": "Para provar, o designer Franz von Holzhausen jogou uma esfera de aço na janela.",
    "shot": "two",
    "who": [
-    "DSG:0:stern:ball",
+    "DSG:0:stern",
     "MUS:0:smile"
    ],
    "props": [
     [
-     "kit/steel_ball",
-     -1.5,
-     0.3,
-     0.7
-    ],
-    [
      "kit/cybertruck",
-     2.0,
-     -2.6,
+     1.6,
+     -2.8,
      1.7
     ]
    ],
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "set": "outback",
-   "detalhe": false
+   "set": "stadium",
+   "detalhe": false,
+   "voa": [
+    {
+     "asset": "kit/steel_ball",
+     "de": [
+      -1.2,
+      1.2
+     ],
+     "para": [
+      1.5,
+      -2.8
+     ],
+     "y": 1.5,
+     "alvo_y": 1.6,
+     "arco": 0.8,
+     "palavra": "^jogou$",
+     "dur": 22,
+     "s": 0.9,
+     "som": "thump"
+    }
+   ]
   },
   {
    "say": "E o vidro rachou, ao vivo, na frente de todo mundo.",
@@ -130,14 +145,14 @@
    "props": [
     [
      "kit/cybertruck",
-     2.0,
-     -2.6,
+     1.6,
+     -2.8,
      1.7
     ]
    ],
    "tiros": false,
    "batalha": false,
-   "set": "countryside"
+   "set": "stadium"
   },
   {
    "say": "Ele tentou de novo, em outra janela, e ela também rachou.",
@@ -155,16 +170,36 @@
    "props": [
     [
      "kit/cybertruck",
-     2.0,
-     -2.6,
+     1.6,
+     -2.8,
      1.7
     ]
    ],
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "set": "outback",
-   "detalhe": false
+   "set": "stadium",
+   "detalhe": false,
+   "voa": [
+    {
+     "asset": "kit/steel_ball",
+     "de": [
+      -1.2,
+      1.2
+     ],
+     "para": [
+      1.5,
+      -2.8
+     ],
+     "y": 1.5,
+     "alvo_y": 1.6,
+     "arco": 0.8,
+     "palavra": "^tentou$",
+     "dur": 22,
+     "s": 0.9,
+     "som": "thump"
+    }
+   ]
   },
   {
    "say": "Depois, Musk explicou na internet que, nos ensaios, a mesma esfera tinha batido na mesma janela sem nem arranhar.",
@@ -210,7 +245,8 @@
    },
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "set": "street"
   },
   {
    "say": "Uma picape, uma esfera de aço e uma janela que não aguentou: um lançamento inesquecível.",
@@ -223,7 +259,7 @@
     [
      "kit/cybertruck",
      2.0,
-     -2.6,
+     -2.8,
      1.7
     ],
     [

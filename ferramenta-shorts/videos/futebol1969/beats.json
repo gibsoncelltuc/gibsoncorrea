@@ -50,15 +50,37 @@
  },
  "beats": [
   {
-   "shot": "two",
+   "shot": "reveal",
    "who": [
     "HON:0:angry",
     "SAL:0:shout"
    ],
    "text": "1969",
-   "interacao": "discutir",
-   "acao": "discutir",
-   "say": "Dois países entraram em guerra depois de um jogo de futebol."
+   "say": "Dois países entraram em guerra depois de um jogo de futebol.",
+   "set": "stadium",
+   "props": [
+    [
+     "kit/trave",
+     0,
+     -5.0,
+     1.9
+    ],
+    [
+     "kit/ball",
+     0.3,
+     1.2,
+     1.0
+    ]
+   ],
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "HON",
+     "SAL"
+    ],
+    "march": true,
+    "expr": "angry"
+   }
   },
   {
    "shot": "reveal",
@@ -84,7 +106,7 @@
    ]
   },
   {
-   "shot": "two",
+   "shot": "reveal",
    "set": "stadium",
    "who": [
     "HON:0:grin",
@@ -92,34 +114,39 @@
    ],
    "props": [
     [
+     "kit/trave",
+     0,
+     -5.0,
+     1.9
+    ],
+    [
      "kit/ball",
      0,
-     1.9,
-     1.1
+     0.9,
+     1.0
     ]
    ],
-   "say": "Aí veio a disputa por uma vaga na Copa do Mundo. Três jogos, um contra o outro."
+   "say": "Aí veio a disputa por uma vaga na Copa do Mundo. Três jogos, um contra o outro.",
+   "crowd": {
+    "n": 14,
+    "outfits": [
+     "HON",
+     "SAL"
+    ],
+    "march": false,
+    "expr": "stern"
+   },
+   "text": "3 JOGOS"
   },
   {
-   "shot": "crowd",
+   "shot": "two",
    "set": "stadium",
    "who": [
     "HON:0:laugh",
     "SAL:0:sad"
    ],
-   "batalha": true,
-   "tiros": false,
-   "crowd": {
-    "n": 18,
-    "outfits": [
-     "TOR",
-     "HON"
-    ],
-    "march": false,
-    "expr": "laugh"
-   },
    "text": "1 x 0",
-   "titulo": true,
+   "titulo": false,
    "fx": [
     "stars@30",
     "stars@70"
@@ -128,7 +155,47 @@
     "ding@30",
     "thump@70"
    ],
-   "say": "No primeiro, Honduras venceu em casa. A torcida passou a noite batendo panelas na porta do hotel dos visitantes."
+   "say": "No primeiro, Honduras venceu em casa. A torcida passou a noite batendo panelas na porta do hotel dos visitantes.",
+   "props": [
+    [
+     "kit/trave",
+     0,
+     -5.0,
+     1.9
+    ]
+   ],
+   "voa": [
+    {
+     "asset": "kit/ball",
+     "de": [
+      0,
+      1.4
+     ],
+     "para": [
+      0.4,
+      -4.7
+     ],
+     "y": 0.4,
+     "alvo_y": 1.0,
+     "arco": 0.9,
+     "palavra": "^venceu$",
+     "dur": 20,
+     "s": 1.0,
+     "som": "thump"
+    }
+   ],
+   "batalha": false,
+   "impact": false,
+   "tiros": false,
+   "crowd": {
+    "n": 6,
+    "outfits": [
+     "TOR",
+     "HON"
+    ],
+    "march": false,
+    "expr": "laugh"
+   }
   },
   {
    "shot": "two",
@@ -152,24 +219,46 @@
    "hora": "dia"
   },
   {
-   "shot": "group",
+   "shot": "two",
    "set": "stadium",
    "who": [
     "SAL:0:laugh",
-    "SAL:1:grin",
     "HON:0:sad"
    ],
    "props": [
     [
-     "kit/ball",
+     "kit/trave",
      0,
-     2.0,
-     1.1
+     -5.0,
+     1.9
     ]
    ],
    "acao": "comemorar",
    "say": "El Salvador ganhou a partida, na prorrogação, e ficou com a vaga.",
-   "hora": "dia"
+   "hora": "dia",
+   "voa": [
+    {
+     "asset": "kit/ball",
+     "de": [
+      0,
+      1.4
+     ],
+     "para": [
+      -0.4,
+      -4.7
+     ],
+     "y": 0.4,
+     "alvo_y": 1.0,
+     "arco": 0.9,
+     "palavra": "^ganhou$",
+     "dur": 20,
+     "s": 1.0,
+     "som": "thump"
+    }
+   ],
+   "batalha": false,
+   "impact": false,
+   "tiros": false
   },
   {
    "shot": "orbit",
@@ -215,19 +304,27 @@
    "say": "Durou cem horas. Os outros países do continente obrigaram os dois a parar."
   },
   {
-   "shot": "close",
+   "shot": "two",
    "who": [
-    "SAL:0:sad"
+    "SAL:0:sad",
+    "HON:0:smile"
    ],
    "props": [
     [
+     "kit/trave",
+     0,
+     -5.0,
+     1.9
+    ],
+    [
      "kit/ball",
-     1.5,
-     -0.5,
-     1.2
+     1.2,
+     0.8,
+     1.0
     ]
    ],
-   "say": "E na Copa, El Salvador perdeu os três jogos, sem fazer um único gol."
+   "say": "E na Copa, El Salvador perdeu os três jogos, sem fazer um único gol.",
+   "set": "stadium"
   }
  ]
 }

@@ -6,9 +6,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: stadium | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): HON (variante 0, expressao angry); SAL (variante 0, expressao shout)
-- Animacao: discutir | interacao: discutir | o ultimo personagem ENTRA andando
-- Objetos/modelos: kit/ball
+- Personagens principais (2): HON (variante 0, expressao angry); SAL (variante 0, expressao shout) | multidao: 12 de HON/SAL
+- Animacao: conversar | interacao: aproxima-se | o ultimo personagem ENTRA andando
+- Objetos/modelos: kit/trave, kit/ball
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): futebol, jogo
 - RISCOS: nenhum
 
@@ -24,21 +24,21 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - Aí veio a disputa por uma vaga na Copa do Mundo. Três jogos, um contra...
 - Cenario: stadium | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): HON (variante 0, expressao grin); SAL (variante 0, expressao stern)
-- Animacao: conversar | interacao: aproxima-se | o ultimo personagem ENTRA andando
-- Objetos/modelos: kit/ball
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): HON (variante 0, expressao grin); SAL (variante 0, expressao stern) | multidao: 14 de HON/SAL
+- Animacao: -
+- Objetos/modelos: kit/trave, kit/ball
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): contra, copa, disputa, vaga
 - RISCOS: nenhum
 
 ## Cena b3 - No primeiro, Honduras venceu em casa. A torcida passou a noite batendo...
 - Cenario: stadium | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): HON (variante 0, expressao laugh); SAL (variante 0, expressao sad) | multidao: 30 de TOR/HON
+- Personagens principais (2): HON (variante 0, expressao laugh); SAL (variante 0, expressao sad) | multidao: 10 de TOR/HON
 - Animacao: comemorar | batalha encenada
-- Objetos/modelos: kit/kettle, buildings/house_small, nature/picket_fence, nature/tree_oak
+- Objetos/modelos: kit/trave, kit/kettle, buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): hotel, porta, torcida, visitantes
 - RISCOS: nenhum
 
@@ -64,17 +64,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - El Salvador ganhou a partida, na prorrogação, e ficou com a vaga.
 - Cenario: stadium | luz: dia | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (3): SAL (variante 0, expressao laugh); SAL (variante 1, expressao grin); HON (variante 0, expressao sad)
+- Personagens principais (2): SAL (variante 0, expressao laugh); HON (variante 0, expressao sad)
 - Animacao: comemorar | interacao: pular
-- Objetos/modelos: kit/ball
+- Objetos/modelos: kit/trave, kit/ball
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): partida, prorrogacao, vaga
 - RISCOS: nenhum
 
 ## Cena b7 - Duas semanas depois, tanques e aviões cruzaram a fronteira. A guerra t...
 - Cenario: street | luz: dia | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): SOL (variante 0, expressao stern); SOL (variante 1, expressao angry) | multidao: 20 de SOL
 - Animacao: - | batalha encenada
@@ -84,8 +84,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Durou cem horas. Os outros países do continente obrigaram os dois a pa...
 - Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): SOL (variante 0, expressao nervous); PRE (variante 0, expressao stern, segura paper)
 - Animacao: discutir | interacao: avanca e o outro recua
 - Objetos/modelos: kit/volcano
@@ -94,11 +94,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - E na Copa, El Salvador perdeu os três jogos, sem fazer um único gol.
 - Cenario: stadium | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
-- Personagens principais (1): SAL (variante 0, expressao sad)
-- Animacao: conversar
-- Objetos/modelos: kit/ball
+- Personagens principais (2): SAL (variante 0, expressao sad); HON (variante 0, expressao smile)
+- Animacao: conversar | interacao: o outro se aproxima
+- Objetos/modelos: kit/trave, kit/ball
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): copa, tres
 - RISCOS: nenhum
 
@@ -107,6 +107,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
+kit/trave | b0, b2, b3, b6, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/ball | b0, b2, b6, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/volcano | b1, b4, b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_small | b1, b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -118,8 +119,8 @@ vehicles/airplane | b7 | pronto | conferir na folha de contato se le bem; se par
 
 
 ## Video inteiro
-- Objeto heroi: kit/ball | grandes momentos: b3, b7 | planos abertos: 3 | mistura: close 13% | medio 65% | aberto 15% | detalhe 6%
-- Interacoes: b0 discutir, b2 aproxima-se, b4 discutir, b5 susto, b6 pular, b8 avanca e o outro recua
+- Objeto heroi: kit/ball | grandes momentos: b3, b7 | planos abertos: 4 | mistura: close 4% | medio 68% | aberto 22% | detalhe 6%
+- Interacoes: b0 aproxima-se, b4 discutir, b5 susto, b6 pular, b8 avanca e o outro recua, b9 o outro se aproxima
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

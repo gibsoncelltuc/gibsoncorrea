@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 09 - A Guerra do Futebol
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.6s - 11 palavras - plano two
@@ -10,8 +10,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | jogo (2.1s) | ACAO: bola | chuta a bola: parabola pela GRAVIDADE (0,67 s) | OK |
-| 2 | - | INTERACAO | discutir | OK |
-| 3 | - | ATUACAO | discutir | OK |
+| 2 | - | INTERACAO | aproxima-se | OK |
+| 3 | - | ATUACAO | conversar | OK |
 | 4 | - | CHEGADA | alguem entra andando | OK |
 | 5 | - | PLACA | 1969 | OK |
 
@@ -23,14 +23,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | ATUACAO | discutir | OK |
 | 2 | - | MAPA | AMÉRICA CENTRAL | OK |
 
-## Cena b2 - 11.8s a 16.6s - 17 palavras - plano two
+## Cena b2 - 11.8s a 16.6s - 17 palavras - plano reveal
 > "Aí veio a disputa por uma vaga na Copa do Mundo. Três jogos, um contra o outro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | aproxima-se | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | CHEGADA | alguem entra andando | OK |
+| 1 | - | PLACA | 3 JOGOS | OK |
 
 ## Cena b3 - 17.7s a 23.9s - 19 palavras - plano crowd
 > "No primeiro, Honduras venceu em casa. A torcida passou a noite batendo panelas na porta do hotel dos visitantes."
@@ -41,8 +39,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | venceu (19.0s) | ACAO: vence | bracos para cima + brilho | OK |
 | 3 | batendo (21.9s) | ACAO: x_bate | bate + estouro | OK |
 | 4 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 5 | - | ATUACAO | comemorar | OK |
-| 6 | - | PLACA | 1 x 0 | OK |
+| 5 | - | CENA | voa: ball sai da mao e voa ate o alvo + som | OK |
+| 6 | - | ATUACAO | comemorar | OK |
+| 7 | - | PLACA | 1 x 0 | OK |
 
 ## Cena b4 - 25.3s a 31.7s - 18 palavras - plano two
 > "No segundo, El Salvador deu o troco. Torcedores discutiram feio nas ruas, e os dois governos trocaram insultos."
@@ -62,17 +61,18 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | susto | OK |
 | 3 | - | ATUACAO | reagir | OK |
 
-## Cena b6 - 38.4s a 41.7s - 12 palavras - plano group
+## Cena b6 - 38.4s a 41.7s - 12 palavras - plano two
 > "El Salvador ganhou a partida, na prorrogação, e ficou com a vaga."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | ganhou (39.0s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | ganhou (39.0s) | ACAO: vence | bracos para cima + brilho | OK |
-| 3 | - | INTERACAO | pular | OK |
-| 4 | - | ATUACAO | comemorar | OK |
+| 3 | - | CENA | voa: ball sai da mao e voa ate o alvo + som | OK |
+| 4 | - | INTERACAO | pular | OK |
+| 5 | - | ATUACAO | comemorar | OK |
 
-## Cena b7 - 42.8s a 47.6s - 13 palavras - plano orbit
+## Cena b7 - 42.8s a 47.6s - 13 palavras - plano crowd
 > "Duas semanas depois, tanques e aviões cruzaram a fronteira. A guerra tinha começado."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -90,7 +90,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | discutir | OK |
 | 3 | - | PLACA | 100 HORAS | OK |
 
-## Cena b9 - 54.4s a 58.0s - 14 palavras - plano close
+## Cena b9 - 54.4s a 58.0s - 14 palavras - plano two
 > "E na Copa, El Salvador perdeu os três jogos, sem fazer um único gol."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -98,5 +98,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | perdeu (55.8s) | EFEITO: puff | fumaca + som | OK |
 | 2 | perdeu (55.8s) | ACAO: perde | mao na testa | OK |
 | 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 4 | - | INTERACAO | o outro se aproxima | OK |
+| 5 | - | ATUACAO | conversar | OK |
 

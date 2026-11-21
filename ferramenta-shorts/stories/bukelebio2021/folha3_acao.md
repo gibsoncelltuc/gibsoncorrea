@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 01 - O Ditador Mais Legal do Mundo
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 7.0s - 25 palavras - plano close
@@ -9,9 +9,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | celular (5.0s) | ACAO: x_fone | celular na mao + toque | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | MAPA | EL SALVADOR | OK |
+| 1 | usou (4.5s) | ACAO: x_usa | usa o objeto da cena + brilho | OK |
+| 2 | celular (5.0s) | ACAO: x_fone | celular na mao + toque | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | MAPA | EL SALVADOR | OK |
 
 ## Cena b1 - 7.2s a 12.3s - 14 palavras - plano crowd
 > "Poucos dias antes, milhares de pessoas gritaram em protesto nas ruas de San Salvador."

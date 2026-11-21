@@ -26,14 +26,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: 3 JOGOS
 - Funcao na historia: desenvolvimento
 
 ## Cena b3  (~6.6 s)
 - Narracao: No primeiro, Honduras venceu em casa. A torcida passou a noite batendo panelas na porta do hotel dos visitantes.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30, thump@70
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; venceu -> stars + som de sino; encena: vence (up) @3 -> acao + som de efeito; encena: x_bate (punch) @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; venceu -> stars + som de sino; encena: vence (up) @3 -> acao + som de efeito; encena: x_bate (punch) @11 -> acao + som de efeito; voa: ball sai da mao e voa ate o alvo + som -> acao + som de efeito
 - Efeito visual marcado: stars@30, stars@70
 - Texto na tela: 1 x 0
 - Funcao na historia: GRANDE MOMENTO
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: El Salvador ganhou a partida, na prorrogação, e ficou com a vaga.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: ganhou -> stars + som de sino; encena: vence (up) @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: ganhou -> stars + som de sino; encena: vence (up) @2 -> acao + som de efeito; voa: ball sai da mao e voa ate o alvo + som -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

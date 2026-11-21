@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | close | -  | interior, mapa | encena: x_fone (lift) @18 (acao + som de efeito) | -
+b0 | close | -  | interior, mapa | encena: x_usa (lift) @16 (acao + som de efeito); encena: x_fone (lift) @18 (acao + som de efeito) | -
 b1 | crowd | -  | batalha aberta com tiros, tropa | (rosto) shout (expr + som de efeito); gritaram (ring + som de alerta); encena: grita (up) @6 (acao + som de efeito); encena: protesto (up) @8 (acao + som de efeito) | -
 b2 | close | -  | interior, placa: DITADOR | encena: escreve (write) @2 (acao + som de efeito) | -
 b3 | group | -  | batalha aberta com tiros, interior, placa: O DITADOR MAIS LEGAL DO MUNDO | - | -

@@ -99,3 +99,19 @@ cil((0, .1, 0), .55, .2, M2); cil((0, .5, 0), .13, .6, M1); cil((-.25, .75, 0), 
 cil((0, .95, 0), .34, .7, M1, rot=(0, 0, math.pi / 2.6)); bola((.3, 1.05, 0), .3, '#fff6c0', .45)
 cil((1.17, 1.39, 0), .06, 1.8, '#fff2a0', raio_topo=.5, rot=(0, 0, math.pi / 2.6))
 fim(.02)
+
+# TRAVE DE GOL (futebol): duas traves e travessao brancos + rede de fundo. Altura real ~2,4 m em relacao ao boneco.
+if len(sys.argv) < 2 or 'trave' in sys.argv:
+    novo('trave')
+    cil((-1.8, 1.2, 0), .07, 2.4, '#f4f4f0')                 # poste esquerdo
+    cil((1.8, 1.2, 0), .07, 2.4, '#f4f4f0')                  # poste direito
+    cil((0, 2.4, 0), .07, 3.6, '#f4f4f0', rot=(0, 0, math.pi / 2))   # travessao
+    for z in (-1.0,):                                          # rede: ripas finas no fundo
+        for x in range(-17, 18, 2):
+            cil((x * .1, 1.2, z), .015, 2.4, '#dcdcd8')
+        for y in range(1, 12):
+            cil((0, y * .2, z), .015, 3.6, '#dcdcd8', rot=(0, 0, math.pi / 2))
+    for x in (-1.8, 1.8):
+        cil((x, 1.2, -.5), .02, 2.4, '#dcdcd8')
+        cil((x, 2.4, -.5), .02, 1.0, '#dcdcd8', rot=(math.pi / 2, 0, 0))
+    fim(0.01)

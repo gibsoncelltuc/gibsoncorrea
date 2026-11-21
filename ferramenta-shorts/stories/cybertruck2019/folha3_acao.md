@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 11 - A Janela do Cybertruck
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 8 frases, 22 acoes catalogadas, 22 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 8 frases, 24 acoes catalogadas, 24 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.4s - 22 palavras - plano two
@@ -26,8 +26,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | avanca e o outro recua | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | - | CENA | voa: steel_ball sai da mao e voa ate o alvo + som | OK |
+| 2 | - | INTERACAO | avanca e o outro recua | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b3 - 17.4s a 20.1s - 11 palavras - plano crowd
 > "E o vidro rachou, ao vivo, na frente de todo mundo."
@@ -43,8 +44,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | rachou (24.3s) | ACAO: quebra | quebra + estouro + tremor | OK |
-| 2 | - | INTERACAO | o outro se aproxima | OK |
-| 3 | - | ATUACAO | reagir | OK |
+| 2 | - | CENA | voa: steel_ball sai da mao e voa ate o alvo + som | OK |
+| 3 | - | INTERACAO | o outro se aproxima | OK |
+| 4 | - | ATUACAO | reagir | OK |
 
 ## Cena b5 - 25.5s a 31.5s - 19 palavras - plano close
 > "Depois, Musk explicou na internet que, nos ensaios, a mesma esfera tinha batido na mesma janela sem nem arranhar."

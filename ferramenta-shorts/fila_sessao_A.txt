@@ -1,10 +1,12 @@
 # REFACAO - SESSAO A (ordem do Gibson 19/11, tarde): 1o GUERRAS INUSITADAS e PODER E FAMA; "E SE" (tema novo) SO NO FINAL. Nada de tema novo.
+#PAUSADO ese_buraco
+#PAUSADO ese_titanic
+futebol1969
+cybertruck2019
 bitcoin2021
 bukele2024
 aprendiz2004
-cybertruck2019
 lancachamas2018
-futebol1969
 bacalhau1958
 cecot2023
 chaleira1784
@@ -13,5 +15,3 @@ maduro2026
 reeleicao2024
 roadsterpulo2026
 zanzibar1896
-#PAUSADO ese_buraco
-#PAUSADO ese_titanic

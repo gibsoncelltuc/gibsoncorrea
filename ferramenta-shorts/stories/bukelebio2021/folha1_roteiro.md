@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Em setembro de dois mil e vinte e um, o presidente de El Salvador, Nayib Bukele, usou o celular para trocar a descrição do perfil.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_fone (lift) @18 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_usa (lift) @16 -> acao + som de efeito; encena: x_fone (lift) @18 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: EL SALVADOR
 - Funcao na historia: GANCHO
