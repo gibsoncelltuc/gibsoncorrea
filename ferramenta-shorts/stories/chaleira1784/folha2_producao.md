@@ -24,11 +24,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - O imperador da Áustria ficou furioso. Ele queria o rio aberto para os ...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): IMP (variante 0, expressao angry); GEN (variante 0, expressao nervous)
-- Animacao: discutir | interacao: discutir
-- Objetos/modelos: ship, kit/marco_viena
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (2): IMP (variante 0, expressao angry); GEN (variante 0, expressao nervous) | multidao: 12 de POV
+- Animacao: discutir | batalha encenada
+- Objetos/modelos: ship, kit/marco_viena, navios ao fundo
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): austria, imperador, navios
 - RISCOS: nenhum
 
@@ -44,40 +44,40 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - Os três navios desceram o rio, com o maior na frente, cheio de soldado...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): AUS (variante 0, expressao smug); AUS (variante 1, expressao grin) | multidao: 14 de AUS
-- Animacao: conversar | interacao: insiste | o ultimo personagem ENTRA andando
-- Objetos/modelos: ship, kit/marco_viena, war/flagpole
+- Animacao: encena
+- Objetos/modelos: ship, kit/marco_viena, war/flagpole, navios ao fundo
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bandeiras, frente, soldados, tres
 - RISCOS: nenhum
 
 ## Cena b5 - Acontece que um navio holandês estava esperando. Ele mirou, e deu um ú...
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): HOL (variante 0, expressao stern); HOL (variante 1, expressao angry) | multidao: 16 de HOL
-- Animacao: encena | batalha encenada
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): HOL (variante 0, expressao stern); HOL (variante 1, expressao angry) | multidao: 8 de HOL
+- Animacao: encena
 - Objetos/modelos: cannon, ship, kit/marco_viena, navios ao fundo
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canhao, navio
 - RISCOS: nenhum
 
 ## Cena b6 - A bala atravessou o convés, e acertou em cheio a chaleira de sopa do c...
 - Cenario: medieval | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): COZ (variante 0, expressao scared); AUS (variante 0, expressao surprised)
-- Animacao: conversar | interacao: vai ate o outro | o ultimo personagem ENTRA andando
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (2): COZ (variante 0, expressao scared); AUS (variante 0, expressao surprised) | multidao: 12 de AUS/POV
+- Animacao: conversar | batalha encenada
 - Objetos/modelos: ship, kit/kettle, kit/marco_viena
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bala, chaleira, conves, cozinheiro, sopa
 - RISCOS: nenhum
 
 ## Cena b7 - O capitão austríaco olhou para a sopa derramada, e se rendeu na mesma ...
 - Cenario: medieval | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): GEN (variante 0, expressao scared, segura flag); AUS (variante 0, expressao nervous); COZ (variante 0, expressao cry) | multidao: 12 de POV
-- Animacao: conversar | batalha encenada
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (3): GEN (variante 0, expressao scared, segura flag); CAP (variante 0, expressao nervous); COZ (variante 0, expressao cry)
+- Animacao: conversar | interacao: susto
 - Objetos/modelos: kit/kettle, kit/marco_viena
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): capitao, sopa
 - RISCOS: nenhum
@@ -115,8 +115,8 @@ cannon | b5 | pronto | conferir na folha de contato se le bem; se parecer caixot
 
 
 ## Video inteiro
-- Objeto heroi: kit/kettle | grandes momentos: b5, b7 | planos abertos: 3 | mistura: close 17% | medio 60% | aberto 16% | detalhe 8%
-- Interacoes: b0 o outro se aproxima, b2 discutir, b3 reverencia, b4 insiste, b6 vai ate o outro, b8 entregar
+- Objeto heroi: kit/kettle | grandes momentos: b2, b6 | planos abertos: 5 | mistura: close 17% | medio 40% | aberto 39% | detalhe 5%
+- Interacoes: b0 o outro se aproxima, b3 reverencia, b7 susto, b8 entregar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

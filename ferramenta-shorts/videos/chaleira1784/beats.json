@@ -58,6 +58,10 @@
     "hair",
     "beret"
    ]
+  },
+  "CAP": {
+   "profissao": "capitao",
+   "pais": "austria"
   }
  },
  "beats": [
@@ -169,9 +173,9 @@
     "HOL:0:stern",
     "HOL:1:angry"
    ],
-   "batalha": true,
+   "batalha": false,
    "crowd": {
-    "n": 16,
+    "n": 8,
     "outfits": [
      "HOL"
     ],
@@ -198,7 +202,8 @@
    "sfx": [
     "cannon@60"
    ],
-   "say": "Acontece que um navio holandês estava esperando. Ele mirou, e deu um único tiro de canhão."
+   "say": "Acontece que um navio holandês estava esperando. Ele mirou, e deu um único tiro de canhão.",
+   "impact": false
   },
   {
    "shot": "two",
@@ -239,7 +244,7 @@
    "shot": "group",
    "who": [
     "GEN:0:scared:flag",
-    "AUS:0:nervous",
+    "CAP:0:nervous",
     "COZ:0:cry"
    ],
    "say": "O capitão austríaco olhou para a sopa derramada, e se rendeu na mesma hora.",
@@ -255,7 +260,8 @@
      0.9,
      1.0
     ]
-   ]
+   ],
+   "riscos_ok": true
   },
   {
    "shot": "two",
