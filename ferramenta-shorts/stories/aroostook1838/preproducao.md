@@ -6,10 +6,10 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | countryside | two | 2 | discutir, INTERAGEM: discutir | kit/logs, nature/tree_pine | - | -
 b1 | countryside | reveal | 10 | parados (so fala e pisca) | - | - | -
-b2 | mountain | two | 2 | discutir, INTERAGEM: vai ate o outro | nature/tree_pine, kit/logs, nature/tree_oak, nature/bush | - | -
+b2 | countryside | two | 2 | discutir, INTERAGEM: vai ate o outro | kit/logs, mk/Axe_Bronze, nature/tree_pine, nature/tree_oak, nature/bush | - | -
 b3 | countryside | crowd | 18 | discutir, batalha | nature/tree_pine | - | -
 b4 | mountain | orbit | 32 | encena, batalha | - | - | -
-b5 | interior pedra | two | 2 | conversar, INTERAGEM: empurrar | - | - | -
+b5 | interior pedra | two | 2 | conversar, INTERAGEM: empurrar | kit/prison | - | -
 b6 | mountain | two | 2 | conversar, INTERAGEM: cochichar | - | - | -
 b7 | interior madeira | two | 2 | discutir, INTERAGEM: entregar | - | paper | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | kit/scroll | paper | -

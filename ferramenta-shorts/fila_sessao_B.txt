@@ -2,7 +2,7 @@
 aroostook1838
 balde1325
 bolos1838
-cachorro1925
+#PAUSADO cachorro1925 (fuga: cachorro sobreposto + risco de ninguem corre; motor)
 danca1518
 #PAUSADO falcon2015 (foguete 3 nucleos: motor)
 gansos390
