@@ -59,7 +59,10 @@
     "z": 1.0,
     "cols": 5
    },
-   "riscos_ok": true
+   "riscos_ok": true,
+   "verbos_ok": [
+    "decla"
+   ]
   },
   {
    "say": "Vinte mil emus estavam devorando as plantações de trigo no oeste do país, e os fazendeiros foram pedir socorro ao governo.",
