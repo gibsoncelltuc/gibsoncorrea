@@ -1,4 +1,138 @@
 {
- "fails": [],
+ "fails": [
+  {
+   "f": 1216,
+   "shot": "b6_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1220,
+   "shot": "b6_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1224,
+   "shot": "b6_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1228,
+   "shot": "b6_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1229,
+   "shot": "b6_v",
+   "why": [
+    "emu: head/torso cropped (box 0.924, 0.574, 1.98, 1.184)"
+   ]
+  },
+  {
+   "f": 1232,
+   "shot": "b6_v",
+   "why": [
+    "emu: head/torso cropped (box 0.92, 0.576, 1.962, 1.176)"
+   ]
+  },
+  {
+   "f": 1236,
+   "shot": "b6_v",
+   "why": [
+    "emu: head/torso cropped (box 0.899, 0.571, 1.863, 1.129)"
+   ]
+  },
+  {
+   "f": 1240,
+   "shot": "b6_v",
+   "why": [
+    "aus: head/torso cropped (box 0.702, 0.487, 1.18, 1.078)"
+   ]
+  },
+  {
+   "f": 1776,
+   "shot": "b9_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1777,
+   "shot": "b9_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1780,
+   "shot": "b9_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1784,
+   "shot": "b9_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1788,
+   "shot": "b9_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1792,
+   "shot": "b9_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1796,
+   "shot": "b9_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1800,
+   "shot": "b9_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1801,
+   "shot": "b9_v",
+   "why": [
+    "emu: head/torso cropped (box 0.76, 0.57, 1.606, 1.079)"
+   ]
+  },
+  {
+   "f": 1804,
+   "shot": "b9_v",
+   "why": [
+    "emu: head/torso cropped (box 0.758, 0.57, 1.597, 1.075)"
+   ]
+  },
+  {
+   "f": 1808,
+   "shot": "b9_v",
+   "why": [
+    "emu: head/torso cropped (box 0.747, 0.563, 1.548, 1.047)"
+   ]
+  }
+ ],
  "tiny": []
 }
