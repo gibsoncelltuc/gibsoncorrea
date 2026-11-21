@@ -24,14 +24,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: A legenda dizia: Entrando na sede do Twitter. Deixe isso afundar.
 - Som ambiente: birds
 - Efeitos sonoros marcados: thump@8
-- Efeito + som nas palavras-chave: encena: desaba @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: g_entrando (point) @3 -> acao + som de efeito; encena: desaba @10 -> acao + som de efeito
 - Efeito visual marcado: puff@8
 - Texto na tela: DEIXE ISSO AFUNDAR
 - Funcao na historia: desenvolvimento
 
 ## Cena b3  (~5.2 s)
 - Narracao: É um trocadilho, porque em inglês a palavra sink quer dizer pia, e também afundar.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: ding@4
 - Efeito + som nas palavras-chave: encena: desaba @14 -> acao + som de efeito
 - Efeito visual marcado: stars@4
@@ -58,7 +58,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b6  (~3.1 s)
 - Narracao: A cena deu o que falar no mundo inteiro.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: encena: x_entrega (reach) @2 -> acao + som de efeito
 - Efeito visual marcado: ring@12, dust@40

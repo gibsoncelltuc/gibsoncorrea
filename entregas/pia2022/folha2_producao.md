@@ -4,10 +4,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Em outubro de dois mil e vinte e dois, Elon Musk esteve na sede do Twi...
 - Cenario: street | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): MUS (variante 0, expressao grin)
-- Animacao: conversar
+- Animacao: comemorar
 - Objetos/modelos: kit/sink, kit/marco_goldengate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, sede, twitter
 - RISCOS: nenhum
@@ -17,7 +17,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): MUS (variante 0, expressao smug)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/marco_goldengate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): internet, propria, video
 - RISCOS: nenhum
@@ -33,37 +33,37 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - É um trocadilho, porque em inglês a palavra sink quer dizer pia, e tam...
-- Cenario: mountain | luz: golden | clima: limpo
+- Cenario: countryside | luz: golden | clima: limpo
 - Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): FUN (variante 0, expressao surprised)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/sink, kit/marco_goldengate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): palavra, trocadilho
 - RISCOS: nenhum
 
 ## Cena b4 - Naquela época, ele estava prestes a fechar a compra do Twitter, por qu...
-- Cenario: mountain | luz: golden | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): MUS (variante 0, expressao smile); FUN (variante 0, expressao neutral) | multidao: 8 de POV
-- Animacao: encena | batalha encenada
-- Objetos/modelos: kit/marco_goldengate
+- Cenario: interior loja | luz: golden | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Personagens principais (2): MUS (variante 0, expressao smile); FUN (variante 0, expressao neutral)
+- Animacao: conversar | interacao: insiste | batalha encenada
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): compra, dolares, fechar, twitter
 - RISCOS: nenhum
 
 ## Cena b5 - Ele também mudou o perfil, e escreveu que era o Chefe Twit.
-- Cenario: interior madeira | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (2): MUS (variante 0, expressao grin); FUN2 (variante 0, expressao surprised)
-- Animacao: conversar | interacao: insiste
-- Objetos/modelos: -
+- Cenario: street | luz: golden | clima: limpo
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): MUS (variante 0, expressao grin); FUN2 (variante 0, expressao surprised) | multidao: 6 de POV
+- Animacao: conversar
+- Objetos/modelos: kit/marco_goldengate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chefe, perfil
 - RISCOS: nenhum
 
 ## Cena b6 - A cena deu o que falar no mundo inteiro.
-- Cenario: countryside | luz: golden | clima: limpo
+- Cenario: street | luz: golden | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): FUN (variante 0, expressao laugh); FUN2 (variante 0, expressao shock) | multidao: 6 de POV
@@ -77,7 +77,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (3): MUS (variante 0, expressao laugh); FUN (variante 0, expressao grin); FUN2 (variante 0, expressao smile)
-- Animacao: conversar | interacao: vai ate o outro
+- Animacao: comemorar | interacao: pular
 - Objetos/modelos: kit/sink, kit/marco_goldengate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): legenda, piada
 - RISCOS: nenhum
@@ -88,13 +88,13 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/sink | b0, b2, b3, b7 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_goldengate | b0, b1, b2, b3, b4, b6, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_goldengate | b0, b1, b2, b3, b5, b6, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/globe | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/sink | grandes momentos: b4, b6 | planos abertos: 2 | mistura: close 26% | medio 55% | aberto 8% | detalhe 11%
-- Interacoes: b2 o outro se aproxima, b5 insiste, b7 vai ate o outro
+- Objeto heroi: kit/sink | grandes momentos: b4, b6 | planos abertos: 3 | mistura: close 22% | medio 38% | aberto 34% | detalhe 6%
+- Interacoes: b2 o outro se aproxima, b4 insiste, b7 pular
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
