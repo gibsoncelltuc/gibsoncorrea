@@ -6,8 +6,8 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | countryside | two | 2 | discutir, INTERAGEM: discutir, alguem chega andando | kit/dog_sit, dog | - | -
 b1 | mountain | reveal | 10 | parados (so fala e pisca) | - | - | -
-b2 | countryside | track | 2 | encena, andando | dog | - | -
-b3 | countryside | track | 2 | encena, andando | dog | - | -
+b2 | countryside | track | 1 | encena, andando | dog | - | -
+b3 | countryside | track | 1 | encena, andando | dog | - | -
 b4 | mountain | group | 12 | conversar, INTERAGEM: empurrar, batalha | - | - | -
 b5 | mountain | low | 2 | conversar, INTERAGEM: susto | - | - | -
 b6 | mountain | orbit | 22 | encena, batalha | - | - | -
