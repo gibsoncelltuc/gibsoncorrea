@@ -104,7 +104,10 @@
    "sfx": [
     "sting@20"
    ],
-   "say": "Perto da meia-noite, o vigia gritou: iceberg à frente! Não deu tempo de desviar."
+   "say": "Perto da meia-noite, o vigia gritou: iceberg à frente! Não deu tempo de desviar.",
+   "set": "arctic",
+   "riscos_ok": true,
+   "marco": false
   },
   {
    "shot": "close",
@@ -128,7 +131,10 @@
     "cannon@30",
     "thump@50"
    ],
-   "say": "O gelo rasgou o casco por baixo da água, onde fica a maior parte do iceberg."
+   "say": "O gelo rasgou o casco por baixo da água, onde fica a maior parte do iceberg.",
+   "set": "arctic",
+   "riscos_ok": true,
+   "marco": false
   },
   {
    "shot": "crowd",
@@ -166,7 +172,10 @@
    ],
    "text": "BOTES",
    "titulo": true,
-   "say": "Acontece que só havia botes para metade das pessoas. Cerca de mil e quinhentas morreram."
+   "say": "Acontece que só havia botes para metade das pessoas. Cerca de mil e quinhentas morreram.",
+   "set": "arctic",
+   "marco": false,
+   "riscos_ok": true
   },
   {
    "shot": "two",
@@ -198,7 +207,8 @@
     ]
    ],
    "interacao": "cochichar",
-   "say": "Seria só mais um navio de luxo, esquecido. E as regras do mar continuariam fracas."
+   "say": "Seria só mais um navio de luxo, esquecido. E as regras do mar continuariam fracas.",
+   "set": "countryside"
   },
   {
    "shot": "close",
@@ -239,7 +249,9 @@
     ]
    ],
    "interacao": "entregar",
-   "say": "E criaram uma patrulha só para vigiar icebergs. Ela existe até hoje."
+   "say": "E criaram uma patrulha só para vigiar icebergs. Ela existe até hoje.",
+   "set": "harbor",
+   "marco": false
   },
   {
    "shot": "crowd",

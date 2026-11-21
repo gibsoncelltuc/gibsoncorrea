@@ -23,32 +23,32 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Perto da meia-noite, o vigia gritou: iceberg à frente! Não deu tempo d...
-- Cenario: street | luz: noite | clima: limpo
+- Cenario: arctic | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): MAR (variante 0, expressao scared); CAP (variante 0, expressao shock)
 - Animacao: discutir | interacao: discutir
-- Objetos/modelos: kit/iceberg, kit/marco_liberdade
+- Objetos/modelos: kit/iceberg
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): desviar, frente, meianoite, vigia
 - RISCOS: nenhum
 
 ## Cena b3 - O gelo rasgou o casco por baixo da água, onde fica a maior parte do ic...
-- Cenario: street | luz: noite | clima: limpo
+- Cenario: arctic | luz: noite | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): MAR (variante 0, expressao shock)
 - Animacao: reagir
-- Objetos/modelos: kit/iceberg, kit/marco_liberdade
+- Objetos/modelos: kit/iceberg
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): agua, casco, gelo, iceberg
 - RISCOS: nenhum
 
 ## Cena b4 - Acontece que só havia botes para metade das pessoas. Cerca de mil e qu...
-- Cenario: street | luz: noite | clima: limpo
+- Cenario: arctic | luz: noite | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao scared); POV (variante 1, expressao shout); MAR (variante 0, expressao scared) | multidao: 22 de POV
 - Animacao: encena | batalha encenada
-- Objetos/modelos: boat, kit/marco_liberdade, nature/picket_fence
+- Objetos/modelos: boat, nature/picket_fence
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pessoas
 - RISCOS: nenhum
 
@@ -63,14 +63,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Seria só mais um navio de luxo, esquecido. E as regras do mar continua...
-- Cenario: harbor | luz: noite | clima: limpo
+- Cenario: countryside | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): PRO (variante 0, expressao stern); POV (variante 1, expressao surprised)
 - Animacao: conversar | interacao: cochichar
 - Objetos/modelos: ship, kit/marco_liberdade
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): luxo, navio, regras
-- RISCOS: nenhum
+- RISCOS: 
+  - a narracao cita agua e o cenario "countryside" nao tem agua -> CORRECAO: "set": "harbor" (cais com mar e navio) ou "set": "palace" (praia), ou "mapa" para so situar
 
 ## Cena b7 - Por causa do naufrágio, os países fizeram em mil novecentos e catorze ...
 - Cenario: harbor | luz: noite | clima: limpo
@@ -83,17 +84,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - E criaram uma patrulha só para vigiar icebergs. Ela existe até hoje.
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): MAR (variante 0, expressao grin); CAP (variante 0, expressao smile)
 - Animacao: conversar | interacao: entregar
-- Objetos/modelos: kit/iceberg, kit/marco_liberdade
+- Objetos/modelos: kit/iceberg
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): patrulha
 - RISCOS: nenhum
 
 ## Cena b9 - Ou seja: a tragédia do Titanic ajudou a salvar milhares de vidas depoi...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao smile); POV (variante 1, expressao grin); MAR (variante 0, expressao grin) | multidao: 30 de POV
@@ -118,7 +119,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/iceberg | b0, b2, b3, b8, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_liberdade | b0, b1, b2, b3, b4, b5, b6, b7, b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_liberdade | b0, b1, b5, b6, b7, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 ship | b1, b6, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 boat | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -130,7 +131,8 @@ kit/scroll | b7 | pronto (HEROI: aparece em close) | conferir na folha de contat
 - Interacoes: b0 aproxima-se, b2 discutir, b5 avanca e o outro recua, b6 cochichar, b8 entregar
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- b6: a narracao cita agua e o cenario "countryside" nao tem agua
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh ese_titanic bN bM` (so essas cenas).

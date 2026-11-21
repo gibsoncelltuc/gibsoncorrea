@@ -6,14 +6,14 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | harbor | two | 2 | conversar, INTERAGEM: aproxima-se | kit/iceberg, kit/marco_liberdade | - | -
 b1 | harbor | reveal | 32 | parados (so fala e pisca) | ship, kit/marco_liberdade | - | -
-b2 | street | two | 2 | discutir, INTERAGEM: discutir | kit/iceberg, kit/marco_liberdade | - | -
-b3 | street | close | 1 | reagir | kit/iceberg, kit/marco_liberdade | - | -
-b4 | street | crowd | 25 | encena, batalha | boat, kit/marco_liberdade, nature/picket_fence | - | -
+b2 | arctic | two | 2 | discutir, INTERAGEM: discutir | kit/iceberg | - | -
+b3 | arctic | close | 1 | reagir | kit/iceberg | - | -
+b4 | arctic | crowd | 25 | encena, batalha | boat, nature/picket_fence | - | -
 b5 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua, alguem chega andando | kit/marco_liberdade | paper | -
-b6 | harbor | two | 2 | conversar, INTERAGEM: cochichar | ship, kit/marco_liberdade | - | -
+b6 | countryside | two | 2 | conversar, INTERAGEM: cochichar | ship, kit/marco_liberdade | - | -
 b7 | harbor | close | 1 | reagir | kit/scroll, kit/marco_liberdade | - | -
-b8 | countryside | two | 2 | conversar, INTERAGEM: entregar | kit/iceberg, kit/marco_liberdade | - | -
-b9 | countryside | orbit | 33 | comemorar, batalha | ship, kit/marco_liberdade | - | -
+b8 | harbor | two | 2 | conversar, INTERAGEM: entregar | kit/iceberg | - | -
+b9 | street | orbit | 33 | comemorar, batalha | ship, kit/marco_liberdade | - | -
 b10 | harbor | close | 1 | conversar | kit/iceberg, kit/marco_liberdade | - | -
 
 OBJETO HEROI: kit/scroll - aparece em 1 cena(s), close nele em 2
