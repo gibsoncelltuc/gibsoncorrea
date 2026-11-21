@@ -112,8 +112,8 @@ dog | b0, b2, b3, b9 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/dog_sit | grandes momentos: b4, b6 | planos abertos: 3 | mistura: close 21% | medio 63% | aberto 16% | detalhe 0%
-- Interacoes: b5 susto, b7 susto, b8 entregar
+- Objeto heroi: kit/dog_sit | grandes momentos: b4, b6 | planos abertos: 3 | mistura: close 21% | medio 60% | aberto 16% | detalhe 3%
+- Interacoes: b0 discutir, b5 susto, b7 susto, b8 entregar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
