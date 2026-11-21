@@ -6,7 +6,7 @@ Cenas 100% fieis: 11/11 (100%). Lacunas: 0
 ## b1 OK - Foi em dezembro de dois mil e quinze, no Cabo Canaveral, na Flórida.
 - na tela: set=['outback'] animais=[] objetos=['marco_canaveral'] atores=8 acoes_folha3=[]
 ## b2 OK - Elon Musk queria reaproveitar os foguetes da SpaceX, como se reaproveita um avião. Muitos achavam impossível.
-- na tela: set=['countryside'] animais=[] objetos=['airplane', 'marco_canaveral', 'rocket'] atores=2 acoes_folha3=['impossível', 'impossível']
+- na tela: set=['street'] animais=[] objetos=['airplane', 'falcon9_land', 'marco_canaveral', 'rocket'] atores=2 acoes_folha3=['impossível', 'impossível']
 ## b3 OK - As primeiras tentativas de pouso deram errado. Foguetes tombaram, e explodiram no mar.
 - na tela: set=['street'] animais=[] objetos=['marco_canaveral', 'rocket'] atores=2 acoes_folha3=['deram', 'tombaram', 'explodiram', 'explodiram']
 ## b4 OK - Mas a equipe insistiu. Em vinte e um de dezembro, o Falcon nove decolou levando satélites.

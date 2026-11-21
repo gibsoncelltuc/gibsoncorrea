@@ -91,7 +91,15 @@
     "POV:0:scared"
    ],
    "acao": "discutir",
-   "say": "Por anos, El Salvador teve uma das maiores taxas de assassinato do mundo, por causa das gangues."
+   "say": "Por anos, El Salvador teve uma das maiores taxas de assassinato do mundo, por causa das gangues.",
+   "props": [
+    [
+     "kit/prison",
+     1.8,
+     -0.6,
+     1.0
+    ]
+   ]
   },
   {
    "shot": "two",
@@ -255,5 +263,6 @@
  "fontes": [
   "https://www.as-coa.org/articles/explainer-el-salvadors-2024-presidential-and-legislative-elections",
   "https://www.riotimesonline.com/who-is-nayib-bukele-el-salvador-profile-2026/"
- ]
+ ],
+ "heroi_sem_close_ok": true
 }

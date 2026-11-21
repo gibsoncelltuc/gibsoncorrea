@@ -21,5 +21,5 @@ Cenas 100% fieis: 11/11 (100%). Lacunas: 0
 - na tela: set=['street'] animais=[] objetos=['cannon', 'marco_ulua'] atores=21 acoes_folha3=['correu', 'correu', 'tombou', 'tombou', 'tiro', 'tiro', 'perdeu']
 ## b9 OK - Meses depois, o México pagou os seiscentos mil pesos, e a França foi embora.
 - na tela: set=['countryside'] animais=[] objetos=['coin', 'marco_ulua'] atores=6 acoes_folha3=['pagou', 'pagou', 'embora']
-## b10 OK - Nunca um doce custou tão caro.
-- na tela: set=['street'] animais=[] objetos=['cake_table', 'marco_ulua'] atores=1 acoes_folha3=[]
+## b10 OK - Nunca um doce custou tão caro, e o confeiteiro contou as moedas.
+- na tela: set=['street'] animais=[] objetos=['cake_table', 'coin', 'marco_ulua'] atores=1 acoes_folha3=['contou', 'moedas', 'moedas']

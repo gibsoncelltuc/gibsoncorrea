@@ -6,7 +6,7 @@ Cenas 100% fieis: 11/11 (100%). Lacunas: 0
 ## b1 OK - Ela foi inaugurada em janeiro de dois mil e vinte e três, numa área isolada do país.
 - na tela: set=['street'] animais=[] objetos=['prison', 'volcano'] atores=8 acoes_folha3=[]
 ## b2 OK - Por anos, El Salvador teve uma das maiores taxas de assassinato do mundo, por causa das gangues.
-- na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_colonial_stone'] atores=2 acoes_folha3=[]
+- na tela: set=['mountain'] animais=[] objetos=['prison', 'volcano'] atores=12 acoes_folha3=[]
 ## b3 OK - Em dois mil e vinte e dois, o presidente Nayib Bukele decretou estado de exceção, e milhares de suspeitos foram presos.
 - na tela: set=['hall'] animais=[] objetos=['room_colonial_shop'] atores=2 acoes_folha3=['decretou', 'presos']
 ## b4 OK - Para guardar tanta gente, ergueram o Centro de Confinamento do Terrorismo, com vagas para quarenta mil presos.

@@ -99,6 +99,12 @@
      2.4,
      -8.0,
      1.1
+    ],
+    [
+     "kit/falcon9_land",
+     1.8,
+     -0.6,
+     1.0
     ]
    ],
    "fachada": false,
@@ -312,5 +318,6 @@
  "fontes": [
   "https://en.wikipedia.org/wiki/Falcon_9_flight_20",
   "https://www.spacex.com/launches/"
- ]
+ ],
+ "heroi_sem_close_ok": true
 }

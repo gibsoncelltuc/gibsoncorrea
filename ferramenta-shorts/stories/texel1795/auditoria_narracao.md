@@ -14,7 +14,7 @@ Cenas 100% fieis: 9/9 (100%). Lacunas: 0
 ## b5 OK - Na noite de vinte e três de janeiro, os hussardos atravessaram o gelo, com panos nos cascos dos cavalos para não fazer barulho.
 - na tela: set=['street'] animais=['horse'] objetos=[] atores=20 acoes_folha3=['atravessaram']
 ## b6 OK - Os marinheiros holandeses viram a cavalaria chegar, e a frota se rendeu.
-- na tela: set=['street'] animais=['horse'] objetos=[] atores=20 acoes_folha3=['viram', 'rendeu']
+- na tela: set=['street'] animais=['horse'] objetos=[] atores=21 acoes_folha3=['viram', 'rendeu']
 ## b7 OK - Foram mais de uma dezena de navios capturados por soldados a cavalo.
 - na tela: set=['mountain'] animais=['horse'] objetos=['marco_amsterdam', 'ship'] atores=7 acoes_folha3=[]
 ## b8 OK - Dizem que foi a única vez na história em que uma cavalaria capturou uma frota.

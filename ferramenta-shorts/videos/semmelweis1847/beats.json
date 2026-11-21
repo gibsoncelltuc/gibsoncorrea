@@ -152,7 +152,15 @@
    "batalha": false,
    "tiros": false,
    "shot_lock": true,
-   "impact": false
+   "impact": false,
+   "props": [
+    [
+     "kit/maca",
+     1.8,
+     -0.6,
+     1.0
+    ]
+   ]
   },
   {
    "shot": "two",

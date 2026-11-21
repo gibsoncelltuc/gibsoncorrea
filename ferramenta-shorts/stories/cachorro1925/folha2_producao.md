@@ -48,7 +48,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): BUL (variante 0, expressao angry); GRE (variante 0, expressao scared) | multidao: 10 de BUL/GRE
 - Animacao: encena | batalha encenada
-- Objetos/modelos: -
+- Objetos/modelos: kit/dog_sit
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estranho, sentinela
 - RISCOS: nenhum
 
@@ -107,13 +107,13 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/dog_sit | b0, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/dog_sit | b0, b4, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 dog | b0, b2, b3, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/dog_sit | grandes momentos: b4, b6 | planos abertos: 3 | mistura: close 21% | medio 60% | aberto 16% | detalhe 3%
-- Interacoes: b0 discutir, b5 susto, b7 susto, b8 entregar
+- Objeto heroi: kit/dog_sit | grandes momentos: b4, b6 | planos abertos: 3 | mistura: close 21% | medio 63% | aberto 16% | detalhe 0%
+- Interacoes: b5 susto, b7 susto, b8 entregar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

@@ -4,7 +4,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | -  | interior, placa: 2026 | - | -
 b1 | reveal | -  | tropa, mapa | - | -
-b2 | two | -  | interior | - | -
+b2 | two | -  | - | - | -
 b3 | two | -  | interior, objeto na mao | segredo (ring + som de alerta); encena: examina (think) @5 (acao + som de efeito); encena: pensa (think) @10 (acao + som de efeito) | -
 b4 | crowd | noite  | batalha aberta com tiros, tropa, placa: DELTA | - | -
 b5 | low | noite  | - | encena: atira @3 (acao + som de efeito); encena: g_desligar (reach) @5 (acao + som de efeito) | -

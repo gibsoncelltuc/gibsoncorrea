@@ -1,0 +1,3 @@
+# MODO DE ACAO DEFINITIVO: zanzibar1896
+FALHAS: 0  |  AVISOS: 0
+

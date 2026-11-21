@@ -20,15 +20,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: conversar
 - Objetos/modelos: ship
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frota
-- RISCOS: 
-  - a narracao cita agua e o cenario "arctic" nao tem agua -> CORRECAO: "set": "harbor" (cais com mar e navio) ou "set": "palace" (praia), ou "mapa" para so situar
+- RISCOS: nenhum
 
 ## Cena b2 - Os navios ficaram presos no gelo, como carros num congestionamento.
 - Cenario: arctic | luz: arctic | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (1): NED (variante 2, expressao pained) | multidao: 6 de POV
-- Animacao: reagir
+- Animacao: reagir | batalha encenada
 - Objetos/modelos: ship, vehicles/truck
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gelo, navios
 - RISCOS: nenhum
@@ -65,10 +64,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Os marinheiros holandeses viram a cavalaria chegar, e a frota se rende...
 - Cenario: arctic | luz: arctic | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): NED (variante 0, expressao shock); FRA (variante 1, expressao grin) | multidao: 18 de POV
-- Animacao: reagir | batalha encenada
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (2): NED (variante 0, expressao shock); FRA (variante 1, expressao grin) | multidao: 5 de POV
+- Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: horse
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalaria, frota, marinheiros
 - RISCOS: nenhum
@@ -78,7 +77,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): FRA (variante 0, expressao laugh); FRA (variante 2, expressao grin) | multidao: 5 de POV
-- Animacao: conversar | interacao: avanca e o outro recua
+- Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: ship, kit/marco_amsterdam, horse
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalo, dezena, navios
 - RISCOS: nenhum
@@ -105,14 +104,11 @@ horse | b3, b4, b5, b6, b7, b8 | pronto | conferir na folha de contato se le bem
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b5, b6 | planos abertos: 4 | mistura: close 17% | medio 52% | aberto 29% | detalhe 2%
-- Interacoes: b3 aproxima-se, b7 avanca e o outro recua
-- RISCOS GERAIS: 
-  - pouca variedade de cenario ({'arctic': 6, 'harbor': 1, 'mountain': 1, 'interior madeira': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
+- Objeto heroi: - | grandes momentos: b2, b5 | planos abertos: 3 | mistura: close 17% | medio 58% | aberto 21% | detalhe 5%
+- Interacoes: b3 aproxima-se, b6 avanca e o outro recua, b7 o outro se aproxima
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 2 risco(s) em aberto
-- b1: a narracao cita agua e o cenario "arctic" nao tem agua
-- geral: pouca variedade de cenario ({'arctic': 6, 'harbor': 1, 'mountain': 1, 'interior madeira': 1}): o video fica parecendo todos os outros
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh texel1795 bN bM` (so essas cenas).

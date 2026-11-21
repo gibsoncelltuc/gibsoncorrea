@@ -58,8 +58,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MUS (variante 0, expressao grin); MUS (variante 1, expressao laugh) | multidao: 30 de POV
 - Animacao: conversar | interacao: discutir
-- Objetos/modelos: kit/marco_viena, war/drum, buildings/house_two, nature/lamppost
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, multidao, serio, tambores
+- Objetos/modelos: buildings/house_two, nature/lamppost
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, multidao, palco, serio
 - RISCOS: nenhum
 
 ## Cena b6 - Foi a pior ideia possível. Com música, mais gente entrou na dança, e m...

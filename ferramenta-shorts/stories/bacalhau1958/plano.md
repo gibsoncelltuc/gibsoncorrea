@@ -6,7 +6,7 @@ b0 | two | -  | placa: 3 GUERRAS, mapa | encena: g_travaram (point) @19 (acao + 
 b1 | two | -  | placa: BACALHAU | encena: g_pescavam (point) @11 (acao + som de efeito) | -
 b2 | wide | -  | tropa, placa: 200 MILHAS | encena: g_aumentou (point) @3 (acao + som de efeito) | -
 b3 | crowd | -  | batalha aberta com tiros, tropa | encena: fala (point) @2 (acao + som de efeito) | -
-b4 | close | -  | interior, placa: CORTADORES DE REDE | encena: x_pesca (lift) @17 (acao + som de efeito) | -
+b4 | close | -  | placa: CORTADORES DE REDE | encena: x_pesca (lift) @17 (acao + som de efeito) | -
 b5 | orbit | -  | batalha aberta com tiros, tropa | encena: corta (hammer) @1 (acao + som de efeito); encena: x_fone (lift) @5 (acao + som de efeito) | -
 b6 | two | -  | placa: OTAN | encena: g_ameacou (up) @3 (acao + som de efeito) | -
 b7 | two | -  | placa: VITÓRIA ISLANDESA | encena: pensa (think) @12 (acao + som de efeito); encena: g_espalhou (reach) @20 (acao + som de efeito) | -

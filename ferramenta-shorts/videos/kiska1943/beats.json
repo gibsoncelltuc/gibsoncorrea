@@ -36,6 +36,15 @@
    "buttons": "#e8c45a",
    "moustache_on": "#4a3020",
    "build": "stout"
+  },
+  "JAP": {
+   "jacket": "#7a7a5a",
+   "pants": "#6a6a4a",
+   "boots": "#2a2218",
+   "hat": "cap",
+   "cap": "#6a6a4a",
+   "belt": "#8a7a50",
+   "rifle": true
   }
  },
  "beats": [
@@ -159,8 +168,10 @@
   },
   {
    "say": "Duas semanas antes, uma frota tinha evacuado cerca de cinco mil homens, escondida na neblina.",
-   "shot": "wide",
-   "who": [],
+   "shot": "crowd",
+   "who": [
+    "JAP:0:stern"
+   ],
    "props": [
     [
      "ship",
@@ -177,7 +188,15 @@
    ],
    "light": "overcast",
    "mood": "calm",
-   "set": "arctic"
+   "set": "arctic",
+   "crowd": {
+    "n": 14,
+    "outfits": [
+     "JAP"
+    ],
+    "march": true,
+    "expr": "stern"
+   }
   },
   {
    "say": "Sem inimigo à vista, os Aliados começaram a atirar uns nos outros, no escuro e na neblina.",

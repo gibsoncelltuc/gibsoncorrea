@@ -124,15 +124,10 @@
     "MUS:0:grin",
     "MUS:1:laugh"
    ],
-   "say": "Acontece que a cidade levou isso a sério. Contratou músicos com tambores, para animar a multidão.",
-   "crowd": {
-    "n": 14,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "laugh"
-   }
+   "text": "PALCO",
+   "say": "Acontece que a cidade levou isso a sério. Montou um palco, e contratou músicos para animar a multidão.",
+   "set": "hall",
+   "riscos_ok": true
   },
   {
    "shot": "orbit",
@@ -188,6 +183,5 @@
    "acao": "nenhuma"
   }
  ],
- "heroi": "war/drum",
- "regiao": "europa"
+ "heroi": null
 }

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 02 - A Guerra dos Emus
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 63 acoes catalogadas, 63 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 62 acoes catalogadas, 62 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 3.7s - 11 palavras - plano two
@@ -81,7 +81,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | PLACA | 1 SEMANA | OK |
 
-## Cena b7 - 38.5s a 44.4s - 17 palavras - plano group
+## Cena b7 - 38.5s a 44.4s - 17 palavras - plano track
 > "A tropa bateu em retirada. A imprensa gargalhou, e o comandante admitiu: "Eles aguentam bala como tanques.""
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -95,9 +95,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 7 | admitiu (42.6s) | ACAO: g_admitiu | g_admitiu | OK |
 | 8 | bala (43.7s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 9 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 10 | - | INTERACAO | empurrar | OK |
-| 11 | - | ATUACAO | comemorar | OK |
-| 12 | - | PLACA | HA HA HA | OK |
+| 10 | - | ATUACAO | comemorar | OK |
+| 11 | - | PLACA | HA HA HA | OK |
 
 ## Cena b8 - 44.8s a 49.3s - 13 palavras - plano crowd
 > "O exército tentou de novo, abateu algumas centenas, e os emus continuaram voltando."

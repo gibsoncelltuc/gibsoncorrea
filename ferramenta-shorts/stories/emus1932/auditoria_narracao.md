@@ -16,7 +16,7 @@ Cenas 100% fieis: 11/11 (100%). Lacunas: 0
 ## b6 OK - Depois de uma semana, milhares de balas gastas, e os emus quase sem um arranhão.
 - na tela: set=['mountain'] animais=['emu'] objetos=[] atores=6 acoes_folha3=['balas', 'balas']
 ## b7 OK - A tropa bateu em retirada. A imprensa gargalhou, e o comandante admitiu: "Eles aguentam bala como tanques."
-- na tela: set=['mountain'] animais=[] objetos=[] atores=45 acoes_folha3=['bateu', 'bateu', 'retirada', 'retirada', 'gargalhou', 'gargalhou', 'admitiu', 'bala']
+- na tela: set=['mountain'] animais=[] objetos=[] atores=15 acoes_folha3=['bateu', 'bateu', 'retirada', 'retirada', 'gargalhou', 'gargalhou', 'admitiu', 'bala']
 ## b8 OK - O exército tentou de novo, abateu algumas centenas, e os emus continuaram voltando.
 - na tela: set=['street'] animais=['emu'] objetos=[] atores=26 acoes_folha3=['tentou', 'abateu', 'voltando']
 ## b9 OK - No fim, o governo desistiu da guerra, e passou a pagar recompensa aos fazendeiros por cada emu abatido.
