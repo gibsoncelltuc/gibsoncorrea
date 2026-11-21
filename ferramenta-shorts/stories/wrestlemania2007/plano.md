@@ -11,9 +11,9 @@ b5 | group | -  | - | encena: golpe (punch) @8 (acao + som de efeito) | -
 b6 | low | -  | tropa | - | -
 b7 | orbit | -  | batalha aberta com tiros, tropa, placa: VITÓRIA | (rosto) laugh (expr + som de efeito); venceu (stars + som de sino); encena: vence (up) @6 (acao + som de efeito) | -
 b8 | group | -  | - | encena: raspa (reach) @10 (acao + som de efeito) | -
-b9 | two | -  | - | encena: sai @5 (acao + som de efeito); encena: raspa (reach) @9 (acao + som de efeito) | -
+b9 | group | -  | - | encena: sai @5 (acao + som de efeito); encena: raspa (reach) @9 (acao + som de efeito) | -
 b10 | group | -  | - | encena: golpe (punch) @9 (acao + som de efeito); encena: tomba @16 (acao + som de efeito) | -
 b11 | two | -  | - | encena: chega (point) @4 (acao + som de efeito) | -
 
-Mistura de planos: close 22% | medio 68% | aberto 10% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 27% | medio 63% | aberto 10% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
