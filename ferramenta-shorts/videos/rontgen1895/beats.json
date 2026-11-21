@@ -97,12 +97,11 @@
     "ding@40"
    ],
    "say": "Wilhelm Röntgen passava as noites no laboratório, testando um tubo de vidro que soltava faíscas.",
-   "hora": "dia"
+   "light": "study"
   },
   {
    "shot": "two",
    "interior": "madeira",
-   "hora": "pordosol",
    "who": [
     "ROE:0:suspicious:paper"
    ],
@@ -145,7 +144,7 @@
     "sting@24"
    ],
    "say": "Acontece que, do outro lado da sala, uma tela começou a brilhar no escuro.",
-   "hora": "pordosol"
+   "light": "study"
   },
   {
    "shot": "two",
@@ -168,7 +167,7 @@
     "sting@30"
    ],
    "say": "Ele pôs a mão na frente do tubo, e viu os próprios ossos na tela.",
-   "hora": "pordosol"
+   "light": "study"
   },
   {
    "shot": "two",
