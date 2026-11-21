@@ -8,10 +8,10 @@ b2 | aereo | -  | tropa, placa: 3 JOGOS | - | -
 b3 | orbit | -  | batalha aberta com tiros, tropa, placa: 1 x 0 | (rosto) laugh (expr + som de efeito); venceu (stars + som de sino); encena: vence (up) @3 (acao + som de efeito); encena: x_bate (punch) @11 (acao + som de efeito) | -
 b4 | two | dia  | - | brigaram (puff + som de baque); encena: x_entrega (reach) @4 (acao + som de efeito); encena: golpe (punch) @8 (acao + som de efeito) | -
 b5 | two | dia  | interior, objeto na mao | encena: corta (hammer) @9 (acao + som de efeito) | -
-b6 | aereo | dia  | tropa, placa: PRORROGAÇÃO | ganhou (stars + som de sino); encena: vence (up) @2 (acao + som de efeito) | -
+b6 | group | dia  | placa: PRORROGAÇÃO | ganhou (stars + som de sino); encena: vence (up) @2 (acao + som de efeito) | -
 b7 | crowd | dia  | batalha aberta com tiros, tropa, placa: GUERRA | tiros: 5 soldados caem no chao (acao + som de efeito) | -
 b8 | two | -  | placa: 100 HORAS, objeto na mao | - | -
 b9 | close | -  | placa: 0 GOLS | (rosto) sad (expr + som de efeito); perdeu (puff + som de baque); encena: perde (facepalm) @5 (acao + som de efeito) | -
 
-Mistura de planos: close 15% | medio 46% | aberto 37% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 6 | dentro do padrao do canal
+Mistura de planos: close 15% | medio 52% | aberto 29% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 5 | dentro do padrao do canal

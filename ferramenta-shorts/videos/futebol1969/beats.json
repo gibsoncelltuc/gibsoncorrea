@@ -236,7 +236,7 @@
    "hora": "dia"
   },
   {
-   "shot": "aereo",
+   "shot": "group",
    "set": "stadium",
    "who": [
     "SAL:0:laugh",
@@ -261,16 +261,7 @@
    "say": "El Salvador ganhou a partida, na prorrogação, e ficou com a vaga.",
    "hora": "dia",
    "text": "PRORROGAÇÃO",
-   "titulo": true,
-   "crowd": {
-    "n": 16,
-    "outfits": [
-     "HON",
-     "SAL"
-    ],
-    "march": false,
-    "expr": "shout"
-   }
+   "titulo": true
   },
   {
    "shot": "orbit",

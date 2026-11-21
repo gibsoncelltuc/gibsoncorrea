@@ -10,14 +10,14 @@ b2 | stadium | aereo | 18 | parados (so fala e pisca) | kit/ball, kit/trave | - 
 b3 | stadium | orbit | 32 | comemorar, batalha | kit/trave, kit/panela, kit/kettle, buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
 b4 | street | two | 2 | discutir, INTERAGEM: empurrar | kit/volcano | - | -
 b5 | interior madeira | two | 2 | conversar, INTERAGEM: susto | - | paper | -
-b6 | stadium | aereo | 19 | comemorar | kit/ball, kit/trave | - | -
+b6 | stadium | group | 3 | comemorar, INTERAGEM: pular | kit/ball, kit/trave | - | -
 b7 | street | crowd | 22 | batalha | vehicles/tank, vehicles/airplane, kit/volcano | - | -
 b8 | street | two | 2 | conversar, INTERAGEM: aproxima-se | kit/volcano | paper | -
 b9 | stadium | close | 1 | reagir | kit/ball, kit/trave | - | -
 
-OBJETO HEROI: kit/ball - aparece em 4 cena(s), close nele em 0  << AVISO: sem close no objeto heroi
+OBJETO HEROI: kit/ball - aparece em 4 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 3 -> b0, b3, b7
-Interacoes entre personagens: b4 empurrar, b5 susto, b8 aproxima-se
+Interacoes entre personagens: b4 empurrar, b5 susto, b6 pular, b8 aproxima-se
 
 Cenas com personagens parados: 1 de 10
 FALTA MODELAR: nada

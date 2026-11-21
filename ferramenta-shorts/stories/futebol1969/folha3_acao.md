@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 09 - A Guerra do Futebol
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 3.7s - 11 palavras - plano crowd
@@ -60,15 +60,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | susto | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b6 - 36.7s a 40.7s - 12 palavras - plano aereo
+## Cena b6 - 36.7s a 40.7s - 12 palavras - plano group
 > "El Salvador ganhou a partida, na prorrogação, e ficou com a vaga."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | ganhou (37.4s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | ganhou (37.4s) | ACAO: vence | bracos para cima + brilho | OK |
-| 3 | - | ATUACAO | comemorar | OK |
-| 4 | - | PLACA | PRORROGAÇÃO | OK |
+| 3 | - | INTERACAO | pular | OK |
+| 4 | - | ATUACAO | comemorar | OK |
+| 5 | - | PLACA | PRORROGAÇÃO | OK |
 
 ## Cena b7 - 41.1s a 45.6s - 13 palavras - plano crowd
 > "Duas semanas depois, tanques e aviões cruzaram a fronteira. A guerra tinha começado."

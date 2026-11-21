@@ -14,7 +14,7 @@ Cenas 100% fieis: 10/10 (100%). Lacunas: 0
 ## b5 OK - Acontece que, no dia do terceiro jogo, El Salvador cortou relações com o vizinho.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'logs', 'room_colonial_wood'] atores=2 acoes_folha3=['cortou']
 ## b6 OK - El Salvador ganhou a partida, na prorrogação, e ficou com a vaga.
-- na tela: set=['stadium'] animais=[] objetos=['ball', 'trave'] atores=19 acoes_folha3=['ganhou', 'ganhou']
+- na tela: set=['stadium'] animais=[] objetos=['ball', 'trave'] atores=9 acoes_folha3=['ganhou', 'ganhou']
 ## b7 OK - Duas semanas depois, tanques e aviões cruzaram a fronteira. A guerra tinha começado.
 - na tela: set=['street'] animais=[] objetos=['airplane', 'tank', 'volcano'] atores=22 acoes_folha3=[]
 ## b8 OK - Durou cem horas. Os outros países do continente obrigaram os dois a parar.
