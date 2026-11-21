@@ -10,8 +10,8 @@ b2 | harbor | two | 2 | discutir, INTERAGEM: discutir | ship, kit/marco_viena | 
 b3 | medieval | two | 2 | conversar, INTERAGEM: reverencia | ship, kit/marco_viena | paper | -
 b4 | harbor | group | 16 | conversar, INTERAGEM: insiste, alguem chega andando | ship, kit/marco_viena, war/flagpole | - | -
 b5 | harbor | crowd | 18 | encena, batalha | cannon, ship, kit/marco_viena, navios ao fundo | - | -
-b6 | street | two | 2 | conversar, INTERAGEM: vai ate o outro, alguem chega andando | kit/kettle, kit/marco_viena | - | -
-b7 | street | crowd | 15 | conversar, batalha | kit/marco_viena, kit/kettle | flag | -
+b6 | medieval | two | 2 | conversar, INTERAGEM: vai ate o outro, alguem chega andando | ship, kit/kettle, kit/marco_viena | - | -
+b7 | medieval | crowd | 15 | conversar, batalha | kit/kettle, kit/marco_viena | flag | -
 b8 | interior pedra | two | 2 | encena, INTERAGEM: entregar | - | money | -
 b9 | countryside | close | 1 | conversar | kit/kettle, kit/marco_viena | - | -
 
