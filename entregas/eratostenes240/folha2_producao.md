@@ -42,14 +42,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
-## Cena b4 - Em Alexandria, no mesmo dia, uma vara fincada no chão fazia uma sombra...
+## Cena b4 - Em Alexandria, no mesmo dia, uma vara fincada no solo fazia uma sombra...
 - Cenario: street | luz: desert | clima: calor
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ERA (variante 0, expressao suspicious); BIB (variante 0, expressao neutral)
 - Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/stick, nature/tree_palm, kit/marco_alexandria
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chao, sombra, vara
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): solo, sombra, vara
 - RISCOS: nenhum
 
 ## Cena b5 - Eratóstenes pensou: "Se a Terra fosse plana, as duas sombras seriam ig...
@@ -82,18 +82,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): angulo, duas, passos, sombra
 - RISCOS: nenhum
 
-## Cena b8 - Com uma conta simples, chegou a um número muito perto do tamanho real ...
+## Cena b8 - Com uma conta simples, encontrou um número muito perto do tamanho real...
 - Cenario: interior pedra | luz: desert | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): ERA (variante 0, expressao grin, segura paper); BIB (variante 0, expressao surprised)
-- Animacao: conversar | interacao: cochichar | o ultimo personagem ENTRA andando
+- Animacao: conversar | interacao: cochichar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): numero, tamanho, terra
 - RISCOS: nenhum
 
 ## Cena b9 - E tudo isso aconteceu mais de dois mil anos atrás, sem satélite e sem ...
-- Cenario: harbor | luz: desert | clima: limpo
+- Cenario: street | luz: desert | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): ERA (variante 0, expressao laugh); BIB (variante 0, expressao laugh) | multidao: 14 de BIB/POV/CAM
