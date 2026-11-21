@@ -17,7 +17,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (1): MUS (variante 0, expressao smug)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/roadster, kit/marco_canaveral
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dono, roadster, spacex
 - RISCOS: nenhum
@@ -64,9 +64,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - No painel, estava escrito: Não entre em pânico.
 - Cenario: street | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (1): STA (variante 0, expressao neutral) | multidao: 5 de POV
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): STA (variante 0, expressao neutral) | multidao: 10 de POV
 - Animacao: reagir
 - Objetos/modelos: kit/roadster, kit/marco_canaveral
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): painel
@@ -87,7 +87,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): MUS (variante 0, expressao smile); STA (variante 0, expressao grin)
-- Animacao: conversar | interacao: aproxima-se
+- Animacao: reagir | interacao: aproxima-se
 - Objetos/modelos: kit/roadster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
@@ -115,7 +115,7 @@ kit/globe | b7 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/roadster | grandes momentos: b4, b9 | planos abertos: 3 | mistura: close 15% | medio 62% | aberto 15% | detalhe 8%
+- Objeto heroi: kit/roadster | grandes momentos: b4, b9 | planos abertos: 4 | mistura: close 15% | medio 56% | aberto 21% | detalhe 8%
 - Interacoes: b0 avanca e o outro recua, b3 o outro se aproxima, b5 insiste, b7 vai ate o outro, b8 aproxima-se
 - RISCOS GERAIS: nenhum
 
