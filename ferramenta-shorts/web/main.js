@@ -309,7 +309,7 @@ SETDEF.hall = (X) => {
 SETDEF.stadium = (X) => {
   groundPlane(X, 0, 200, 140, MW.grass, DECK, 4);
   /* CAMPO DE FUTEBOL DE VERDADE (ordem do Gibson 21/11): gramado listrado, linhas brancas oficiais (limite, meio de campo, circulo central, areas, marca do penalti, meia-lua), dois gols. Proporcao 105x68 (aqui 80x52), eixo maior no X. */
-  { const PL = 80, PW = 52, PZ = 10, Y1 = DECK + 0.02, Y2 = DECK + 0.045, LW = 0.32, white = MW.white;
+  if (globalThis.CAMPO_FUTEBOL) { const PL = 80, PW = 52, PZ = 10, Y1 = DECK + 0.02, Y2 = DECK + 0.045, LW = 0.32, white = MW.white;
     for (let i = 0; i < 10; i++) add(box(PL / 10, 0.02, PW), toon({ color: i % 2 ? '#4aa63a' : '#5cb848' }), X - PL / 2 + PL / 20 + i * PL / 10, Y1, PZ, world);   /* faixas do gramado */
     const L = (cx, cz, w, d) => add(box(w, 0.03, d), white, X + cx, Y2, cz, world);
     L(0, PZ - PW / 2, PL, LW); L(0, PZ + PW / 2, PL, LW); L(-PL / 2, PZ, LW, PW); L(PL / 2, PZ, LW, PW); L(0, PZ, LW, PW);   /* limite + linha do meio */
