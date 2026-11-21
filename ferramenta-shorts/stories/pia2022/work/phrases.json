@@ -1,0 +1,180 @@
+{
+ "duration": 37.584,
+ "frames30": 1128,
+ "source": "silence-align (cost 0.36)",
+ "segments": [
+  [
+   0.159167,
+   1.70825
+  ],
+  [
+   1.98079,
+   3.79817
+  ],
+  [
+   4.06567,
+   4.95975
+  ],
+  [
+   5.27058,
+   5.89804
+  ],
+  [
+   6.75075,
+   9.57092
+  ],
+  [
+   10.4365,
+   11.3815
+  ],
+  [
+   11.5826,
+   12.9898
+  ],
+  [
+   13.8148,
+   14.9064
+  ],
+  [
+   15.7329,
+   16.531
+  ],
+  [
+   16.8635,
+   18.9756
+  ],
+  [
+   19.2039,
+   20.1396
+  ],
+  [
+   20.9367,
+   21.736
+  ],
+  [
+   21.9952,
+   24.1377
+  ],
+  [
+   24.4191,
+   26.2308
+  ],
+  [
+   27.0843,
+   28.3716
+  ],
+  [
+   28.603,
+   30.2218
+  ],
+  [
+   31.0762,
+   32.9882
+  ],
+  [
+   33.8387,
+   34.3695
+  ],
+  [
+   34.6604,
+   36.7751
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Em outubro de dois mil e vinte e dois,",
+   "s": 0.159,
+   "e": 1.708
+  },
+  {
+   "text": "Elon Musk esteve na sede do Twitter,",
+   "s": 1.981,
+   "e": 3.798
+  },
+  {
+   "text": "em S\u00e3o Francisco,",
+   "s": 4.066,
+   "e": 4.96
+  },
+  {
+   "text": "com uma pia.",
+   "s": 5.271,
+   "e": 5.898
+  },
+  {
+   "text": "Ele filmou a pr\u00f3pria entrada e postou o v\u00eddeo na internet.",
+   "s": 6.751,
+   "e": 9.571
+  },
+  {
+   "text": "A legenda dizia:",
+   "s": 10.437,
+   "e": 11.382
+  },
+  {
+   "text": "Entrando na sede do Twitter.",
+   "s": 11.583,
+   "e": 12.99
+  },
+  {
+   "text": "Deixe isso afundar.",
+   "s": 13.815,
+   "e": 14.906
+  },
+  {
+   "text": "\u00c9 um trocadilho,",
+   "s": 15.733,
+   "e": 16.531
+  },
+  {
+   "text": "porque em ingl\u00eas a palavra sink quer dizer pia,",
+   "s": 16.863,
+   "e": 18.976
+  },
+  {
+   "text": "e tamb\u00e9m afundar.",
+   "s": 19.204,
+   "e": 20.14
+  },
+  {
+   "text": "Naquela \u00e9poca,",
+   "s": 20.937,
+   "e": 21.736
+  },
+  {
+   "text": "ele estava prestes a fechar a compra do Twitter,",
+   "s": 21.995,
+   "e": 24.138
+  },
+  {
+   "text": "por quarenta e quatro bilh\u00f5es de d\u00f3lares.",
+   "s": 24.419,
+   "e": 26.231
+  },
+  {
+   "text": "Ele tamb\u00e9m mudou o perfil,",
+   "s": 27.084,
+   "e": 28.372
+  },
+  {
+   "text": "e escreveu que era o Chefe Twit.",
+   "s": 28.603,
+   "e": 30.222
+  },
+  {
+   "text": "A cena deu o que falar no mundo inteiro.",
+   "s": 31.076,
+   "e": 32.988
+  },
+  {
+   "text": "Uma pia,",
+   "s": 33.839,
+   "e": 34.37
+  },
+  {
+   "text": "uma legenda e uma piada que ningu\u00e9m esqueceu.",
+   "s": 34.66,
+   "e": 36.775
+  }
+ ]
+}
