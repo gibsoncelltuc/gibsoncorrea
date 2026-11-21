@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 - Narracao: Vinte mil emus estavam devorando as plantações de trigo no oeste do país, e os fazendeiros foram pedir socorro ao governo.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; socorro -> ring + som de alerta; encena: grita (up) @18 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; socorro -> ring + som de alerta; encena: g_devorand (point) @4 -> acao + som de efeito; encena: grita (up) @18 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 20.000 EMUS | mapa: AUSTRÁLIA
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 - Narracao: Acontece que emu é rápido, e não fica parado. Os soldados atiravam, e os pássaros se espalhavam pela fazenda, sumindo na poeira.
 - Som ambiente: birds | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@46, gun@54, gun@58, gun@62, gun@66, gun@74, gun@78, gun@82, gun@86, gun@94, gun@98, gun@102, gun@106, gun@114, gun@118, gun@122, gun@126, gun@134, gun@138, gun@142, gun@146, gun@154, gun@158, gun@162, gun@166, gun@174, gun@178, gun@182, gun@186, gun@194, gun@198, gun@202, gun@206, gun@214, gun@218, gun@222, gun@226
-- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; atiravam -> burst + som de tiro/explosao; encena: atira @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; atiravam -> burst + som de tiro/explosao; encena: atira @11 -> acao + som de efeito; encena: g_espalhav (reach) @16 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 - Narracao: A tropa bateu em retirada. A imprensa gargalhou, e o comandante admitiu: "Eles aguentam bala como tanques."
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; bateu -> dust + som de impacto; retirada -> dust + som de impacto; gargalhou -> stars + som de sino; encena: x_bate (punch) @2 -> acao + som de efeito; encena: perde (facepalm) @4 -> acao + som de efeito; encena: x_ri (up) @7 -> acao + som de efeito; encena: atira @14 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; bateu -> dust + som de impacto; retirada -> dust + som de impacto; gargalhou -> stars + som de sino; encena: x_bate (punch) @2 -> acao + som de efeito; encena: perde (facepalm) @4 -> acao + som de efeito; encena: x_ri (up) @7 -> acao + som de efeito; encena: g_admitiu (up) @11 -> acao + som de efeito; encena: atira @14 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: HA HA HA
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 - Narracao: O exército tentou de novo, abateu algumas centenas, e os emus continuaram voltando.
 - Som ambiente: birds | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124
-- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito
+- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; encena: g_tentou (point) @2 -> acao + som de efeito; encena: g_abateu (point) @5 -> acao + som de efeito; encena: g_voltando (point) @12 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: CENTENAS
 - Funcao na historia: GRANDE MOMENTO
