@@ -74,17 +74,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - A tropa bateu em retirada. A imprensa gargalhou, e o comandante admiti...
 - Cenario: mountain | luz: desert | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): COM (variante 0, expressao pained); PRESS (variante 0, expressao grin, segura paper); PRESS (variante 1, expressao smile) | multidao: 18 de FARM
-- Animacao: comemorar | batalha encenada
+- Camera: track = travelling lateral acompanhando quem anda
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Personagens principais (4): AUS (variante 0, expressao pained); AUS (variante 1, expressao scared); COM (variante 0, expressao pained); PRESS (variante 0, expressao grin)
+- Animacao: comemorar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comandante, imprensa, tropa
 - RISCOS: nenhum
 
 ## Cena b8 - O exército tentou de novo, abateu algumas centenas, e os emus continua...
 - Cenario: outback | luz: desert | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): AUS (variante 1, expressao stern); AUS (variante 0, expressao stern) | multidao: 24 de AUS
 - Animacao: - | batalha encenada
@@ -128,7 +128,7 @@ vehicles/truck | b5 | pronto | conferir na folha de contato se le bem; se parece
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b3, b4, b7, b8 | planos abertos: 5 | mistura: close 10% | medio 63% | aberto 21% | detalhe 5%
+- Objeto heroi: - | grandes momentos: b3, b4, b8 | planos abertos: 4 | mistura: close 8% | medio 69% | aberto 18% | detalhe 5%
 - Interacoes: b2 vai ate o outro, b6 susto, b9 entregar
 - RISCOS GERAIS: nenhum
 

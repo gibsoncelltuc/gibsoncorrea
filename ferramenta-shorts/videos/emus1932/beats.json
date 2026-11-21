@@ -201,15 +201,17 @@
    "say": "A tropa bateu em retirada. A imprensa gargalhou, e o comandante admitiu: \"Eles aguentam bala como tanques.\"",
    "shot": "track",
    "who": [
+    "AUS:0:pained",
+    "AUS:1:scared",
     "COM:0:pained",
-    "PRESS:0:grin:paper",
-    "PRESS:1:smile"
+    "PRESS:0:grin"
    ],
    "text": "HA HA HA",
    "tat": 8,
    "tstyle": "gold",
-   "batalha": true,
-   "tiros": false
+   "batalha": false,
+   "tiros": false,
+   "riscos_ok": true
   },
   {
    "say": "O exército tentou de novo, abateu algumas centenas, e os emus continuaram voltando.",

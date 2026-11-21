@@ -18,7 +18,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ICE (variante 1, expressao nervous); PES (variante 0, expressao grin)
 - Animacao: reagir | interacao: insiste
-- Objetos/modelos: crate
+- Objetos/modelos: crate, kit/cod
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): costa, islandia, pesca
 - RISCOS: nenhum
 
@@ -88,7 +88,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): PES (variante 0, expressao laugh)
 - Animacao: conversar
-- Objetos/modelos: crate, kit/cod
+- Objetos/modelos: kit/cod
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): navios, peixe, redes
 - RISCOS: nenhum
 
@@ -98,8 +98,8 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 ship | b0, b2, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/cod | b0, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-crate | b1, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/cod | b0, b1, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+crate | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro

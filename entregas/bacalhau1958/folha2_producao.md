@@ -18,32 +18,32 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ICE (variante 1, expressao nervous); PES (variante 0, expressao grin)
 - Animacao: reagir | interacao: insiste
-- Objetos/modelos: crate, kit/cod
+- Objetos/modelos: crate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): costa, islandia, pesca
 - RISCOS: nenhum
 
 ## Cena b2 - Então a Islândia aumentou os limites do seu mar: doze milhas, cinquent...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): ICE (variante 2, expressao stern) | multidao: 6 de ICE
+- Personagens principais (1): ICE (variante 2, expressao stern) | multidao: 6 de POV
 - Animacao: -
 - Objetos/modelos: ship
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): islandia, limites
 - RISCOS: nenhum
 
 ## Cena b3 - A Inglaterra mandou a marinha para proteger os barcos de pesca.
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): BRI (variante 1, expressao stern); BRI (variante 2, expressao grin); PES (variante 1, expressao smile) | multidao: 12 de BRI/BRI/PES
+- Personagens principais (3): BRI (variante 1, expressao stern); BRI (variante 2, expressao grin); PES (variante 1, expressao smile) | multidao: 12 de POV
 - Animacao: encena | batalha encenada
-- Objetos/modelos: ship, navios ao fundo
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barcos, inglaterra, marinha, pesca
 - RISCOS: nenhum
 
 ## Cena b4 - A Islândia só tinha uns barquinhos da guarda costeira, mas eles tinham...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: arctic | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): ICE (variante 0, expressao grin)
@@ -52,38 +52,28 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): arma, guarda, islandia, rede
 - RISCOS: nenhum
 
-## Cena b5 - Eles cortavam os cabos das redes inglesas,
+## Cena b5 - Eles cortavam os cabos das redes inglesas, e os navios batiam um no ou...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: frente
-- Personagens principais (2): ICE (variante 0, expressao grin); BRI (variante 0, expressao shock)
-- Animacao: conversar | interacao: susto
-- Objetos/modelos: kit/fishing_net
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabos, redes
-- RISCOS: nenhum
-
-## Cena b6 - e os navios batiam um no outro, de propósito.
-- Cenario: harbor | luz: day | clima: limpo
-- Camera: wide = ABERTO fixo
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (0): -
-- Animacao: - | batalha encenada
+- Personagens principais (1): ICE (variante 0, expressao neutral) | multidao: 6 de POV
+- Animacao: encena | batalha encenada
 - Objetos/modelos: ship, navios ao fundo
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): navios, proposito
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabos, navios, proposito, redes
 - RISCOS: nenhum
 
-## Cena b7 - A Islândia ainda ameaçou fechar a base da Otan no país.
-- Cenario: interior pedra | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
+## Cena b6 - A Islândia ainda ameaçou fechar a base da Otan no país.
+- Cenario: street | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ICE (variante 1, expressao stern); BRI (variante 0, expressao shock)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): base, islandia, otan
 - RISCOS: nenhum
 
-## Cena b8 - Em mil novecentos e setenta e seis, os ingleses cederam, e a ideia de ...
-- Cenario: interior madeira | luz: day | clima: limpo
+## Cena b7 - Em mil novecentos e setenta e seis, os ingleses cederam, e a ideia de ...
+- Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): BRI (variante 0, expressao pained); ICE (variante 0, expressao laugh)
@@ -92,8 +82,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): duzentas, ingleses, zona
 - RISCOS: nenhum
 
-## Cena b9 - Foi uma guerra de navios e de redes, e tudo por causa de um peixe.
-- Cenario: street | luz: day | clima: limpo
+## Cena b8 - Foi uma guerra de navios batendo e de redes cortadas, e tudo por causa...
+- Cenario: arctic | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): PES (variante 0, expressao laugh)
@@ -107,15 +97,14 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-ship | b0, b2, b3, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/cod | b0, b1, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-crate | b1, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/fishing_net | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+ship | b0, b2, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/cod | b0, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+crate | b1, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/cod | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 24% | medio 54% | aberto 15% | detalhe 7%
-- Interacoes: b0 o outro se aproxima, b1 insiste, b5 susto, b7 discutir, b8 vai ate o outro
+- Objeto heroi: kit/cod | grandes momentos: b3, b5 | planos abertos: 3 | mistura: close 26% | medio 50% | aberto 16% | detalhe 8%
+- Interacoes: b0 o outro se aproxima, b1 insiste, b6 discutir, b7 vai ate o outro
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

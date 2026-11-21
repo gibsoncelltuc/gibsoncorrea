@@ -11,13 +11,13 @@ b3 | mountain | crowd | 17 | encena, batalha | war/sandbags, cannon, emus | - | 
 b4 | countryside | orbit | 26 | encena, batalha | nature/picket_fence, buildings/barn, nature/haybale, nature/scarecrow, emus | - | -
 b5 | mountain | two | 1 | conversar | vehicles/truck, emus | - | -
 b6 | mountain | group | 2 | conversar, INTERAGEM: susto | emus | - | -
-b7 | mountain | crowd | 21 | comemorar, batalha | - | paper | -
-b8 | outback | orbit | 26 | batalha | emus | - | -
+b7 | mountain | track | 4 | comemorar, andando | - | - | -
+b8 | outback | crowd | 26 | batalha | emus | - | -
 b9 | outback | two | 2 | conversar, INTERAGEM: entregar | buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow, emus | - | -
 b10 | outback | close | 1 | conversar | emus | - | -
 
 OBJETO HEROI: nenhum achado (ponha "heroi": "kit/..." no topo do roteiro)
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 4 -> b3, b4, b7, b8
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 3 -> b3, b4, b8
 Interacoes entre personagens: b2 vai ate o outro, b6 susto, b9 entregar
 
 Cenas com personagens parados: 1 de 11

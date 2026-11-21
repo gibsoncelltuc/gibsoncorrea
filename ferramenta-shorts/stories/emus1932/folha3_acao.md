@@ -79,7 +79,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | PLACA | 1 SEMANA | OK |
 
-## Cena b7 - 43.2s a 50.2s - 17 palavras - plano crowd
+## Cena b7 - 43.2s a 50.2s - 17 palavras - plano track
 > "A tropa bateu em retirada. A imprensa gargalhou, e o comandante admitiu: "Eles aguentam bala como tanques.""
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -95,7 +95,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 9 | - | ATUACAO | comemorar | OK |
 | 10 | - | PLACA | HA HA HA | OK |
 
-## Cena b8 - 50.7s a 55.8s - 13 palavras - plano orbit
+## Cena b8 - 50.7s a 55.8s - 13 palavras - plano crowd
 > "O exército tentou de novo, abateu algumas centenas, e os emus continuaram voltando."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

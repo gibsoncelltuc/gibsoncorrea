@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 02 - A Guerra dos Emus
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 11 cenas, 155 palavras (~53 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 11 cenas, 156 palavras (~54 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: A Austrália declarou guerra a um bando de pássaros. E perdeu.
@@ -65,14 +65,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 - Texto na tela: 1 SEMANA
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~5.2 s)
-- Narracao: A tropa fugiu. A imprensa gargalhou, e o comandante admitiu: "Eles aguentam bala como tanques."
+## Cena b7  (~5.9 s)
+- Narracao: A tropa bateu em retirada. A imprensa gargalhou, e o comandante admitiu: "Eles aguentam bala como tanques."
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; fugiu -> dust + som de impacto; gargalhou -> stars + som de sino; bala -> burst + som de tiro/explosao; encena: corre @2 -> acao + som de efeito; encena: x_ri (up) @5 -> acao + som de efeito; encena: atira @12 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; bateu -> dust + som de impacto; retirada -> dust + som de impacto; gargalhou -> stars + som de sino; encena: x_bate (punch) @2 -> acao + som de efeito; encena: perde (facepalm) @4 -> acao + som de efeito; encena: x_ri (up) @7 -> acao + som de efeito; encena: atira @14 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: HA HA HA
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b8  (~4.5 s)
 - Narracao: O exército tentou de novo, abateu algumas centenas, e os emus continuaram voltando.
@@ -83,13 +83,13 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 - Texto na tela: CENTENAS
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b9  (~6.6 s)
-- Narracao: No fim, o governo desistiu da guerra, e passou a oferecer um prêmio aos fazendeiros por cada emu abatido.
+## Cena b9  (~6.2 s)
+- Narracao: No fim, o governo desistiu da guerra, e passou a pagar recompensa aos fazendeiros por cada emu abatido.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: pedido: plano medio dos dois, um pede ao outro -> shot + som de efeito; desistiu -> puff + som de baque; prêmio -> stars + som de sino; encena: perde (facepalm) @4 -> acao + som de efeito; encena: vence (up) @12 -> acao + som de efeito
+- Efeito + som nas palavras-chave: desistiu -> puff + som de baque; pagar -> stars + som de sino; recompensa -> stars + som de sino; encena: perde (facepalm) @4 -> acao + som de efeito; encena: paga (reach) @10 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: PRÊMIO
+- Texto na tela: RECOMPENSA
 - Funcao na historia: desenvolvimento
 
 ## Cena b10  (~1.4 s)
