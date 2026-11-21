@@ -1,0 +1,288 @@
+{
+ "duration": 70.512,
+ "frames30": 2115,
+ "source": "silence-align (cost 1.15)",
+ "segments": [
+  [
+   0.167167,
+   2.68033
+  ],
+  [
+   2.94779,
+   6.23687
+  ],
+  [
+   7.14746,
+   8.87092
+  ],
+  [
+   9.72821,
+   11.8576
+  ],
+  [
+   12.6773,
+   13.3138
+  ],
+  [
+   13.6046,
+   13.9555
+  ],
+  [
+   14.256,
+   16.3456
+  ],
+  [
+   16.5701,
+   17.586
+  ],
+  [
+   18.472,
+   19.7141
+  ],
+  [
+   19.9077,
+   20.8165
+  ],
+  [
+   21.1822,
+   22.6062
+  ],
+  [
+   23.4637,
+   25.1633
+  ],
+  [
+   25.4197,
+   26.1408
+  ],
+  [
+   26.9955,
+   29.039
+  ],
+  [
+   29.9082,
+   30.3146
+  ],
+  [
+   30.5716,
+   31.769
+  ],
+  [
+   32.6552,
+   35.2144
+  ],
+  [
+   35.5698,
+   37.3241
+  ],
+  [
+   38.1484,
+   38.9308
+  ],
+  [
+   39.196,
+   41.7495
+  ],
+  [
+   42.0524,
+   42.7402
+  ],
+  [
+   43.6,
+   44.4806
+  ],
+  [
+   44.6286,
+   45.2821
+  ],
+  [
+   45.5371,
+   48.01
+  ],
+  [
+   48.8642,
+   50.4112
+  ],
+  [
+   50.7165,
+   51.9432
+  ],
+  [
+   52.7563,
+   55.883
+  ],
+  [
+   56.7602,
+   58.5066
+  ],
+  [
+   59.3667,
+   61.553
+  ],
+  [
+   62.4236,
+   65.5593
+  ],
+  [
+   66.4562,
+   69.7339
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Para destruir um bunker escondido dentro de uma montanha,",
+   "s": 0.167,
+   "e": 2.68
+  },
+  {
+   "text": "os Estados Unidos usaram uma arma que nunca tinha sa\u00eddo do papel.",
+   "s": 2.948,
+   "e": 6.237
+  },
+  {
+   "text": "Foi em junho de dois mil e vinte e cinco.",
+   "s": 7.147,
+   "e": 8.871
+  },
+  {
+   "text": "O alvo eram as usinas nucleares do Ir\u00e3.",
+   "s": 9.728,
+   "e": 11.858
+  },
+  {
+   "text": "A principal,",
+   "s": 12.677,
+   "e": 13.314
+  },
+  {
+   "text": "Fordow,",
+   "s": 13.605,
+   "e": 13.956
+  },
+  {
+   "text": "fica a quase noventa metros de profundidade,",
+   "s": 14.256,
+   "e": 16.346
+  },
+  {
+   "text": "dentro de uma montanha.",
+   "s": 16.57,
+   "e": 17.586
+  },
+  {
+   "text": "S\u00f3 uma arma chegava l\u00e1:",
+   "s": 18.472,
+   "e": 19.714
+  },
+  {
+   "text": "a arma antibunker,",
+   "s": 19.908,
+   "e": 20.817
+  },
+  {
+   "text": "com mais de treze toneladas.",
+   "s": 21.182,
+   "e": 22.606
+  },
+  {
+   "text": "E s\u00f3 um avi\u00e3o carrega essa arma:",
+   "s": 23.464,
+   "e": 25.163
+  },
+  {
+   "text": "o B-2.",
+   "s": 25.42,
+   "e": 26.141
+  },
+  {
+   "text": "Trump assinou a ordem e autorizou a miss\u00e3o.",
+   "s": 26.995,
+   "e": 29.039
+  },
+  {
+   "text": "O nome:",
+   "s": 29.908,
+   "e": 30.315
+  },
+  {
+   "text": "Martelo da Meia-Noite.",
+   "s": 30.572,
+   "e": 31.769
+  },
+  {
+   "text": "Sete bombardeiros invis\u00edveis decolaram do Missouri,",
+   "s": 32.655,
+   "e": 35.214
+  },
+  {
+   "text": "e voaram mais de um dia sem parar.",
+   "s": 35.57,
+   "e": 37.324
+  },
+  {
+   "text": "Para despistar,",
+   "s": 38.148,
+   "e": 38.931
+  },
+  {
+   "text": "outros B-2 foram mandados na dire\u00e7\u00e3o contr\u00e1ria,",
+   "s": 39.196,
+   "e": 41.749
+  },
+  {
+   "text": "para o Pac\u00edfico.",
+   "s": 42.052,
+   "e": 42.74
+  },
+  {
+   "text": "Acontece que,",
+   "s": 43.6,
+   "e": 44.481
+  },
+  {
+   "text": "de madrugada,",
+   "s": 44.629,
+   "e": 45.282
+  },
+  {
+   "text": "os avi\u00f5es soltaram catorze cargas explosivas.",
+   "s": 45.537,
+   "e": 48.01
+  },
+  {
+   "text": "Doze delas em cima de Fordow,",
+   "s": 48.864,
+   "e": 50.411
+  },
+  {
+   "text": "pelos respiros do bunker.",
+   "s": 50.717,
+   "e": 51.943
+  },
+  {
+   "text": "Um submarino ainda mandou m\u00edsseis que explodiram numa terceira usina.",
+   "s": 52.756,
+   "e": 55.883
+  },
+  {
+   "text": "Todos os avi\u00f5es voltaram para casa.",
+   "s": 56.76,
+   "e": 58.507
+  },
+  {
+   "text": "Trump disse que as usinas foram destru\u00eddas.",
+   "s": 59.367,
+   "e": 61.553
+  },
+  {
+   "text": "Avalia\u00e7\u00f5es posteriores discutiram o tamanho real do estrago.",
+   "s": 62.424,
+   "e": 65.559
+  },
+  {
+   "text": "Foi a primeira vez na hist\u00f3ria que essa arma gigante foi usada de verdade.",
+   "s": 66.456,
+   "e": 69.734
+  }
+ ]
+}
