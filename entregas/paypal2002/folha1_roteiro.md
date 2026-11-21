@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Uma venda de internet que ajudou a pagar foguetes e carros elétricos.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@3
-- Efeito + som nas palavras-chave: pagar -> stars + som de sino; encena: negocio (reach) @1 -> acao + som de efeito; encena: x_fone (lift) @3 -> acao + som de efeito; encena: paga (reach) @7 -> acao + som de efeito
+- Efeito + som nas palavras-chave: pagar -> stars + som de sino; encena: negocio (reach) @1 -> acao + som de efeito; encena: x_fone (lift) @3 -> acao + som de efeito; encena: g_ajudou (reach) @5 -> acao + som de efeito; encena: paga (reach) @7 -> acao + som de efeito
 - Efeito visual marcado: stars@3
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL
