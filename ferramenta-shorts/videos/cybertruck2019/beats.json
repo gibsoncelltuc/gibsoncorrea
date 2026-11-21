@@ -46,9 +46,9 @@
    "props": [
     [
      "kit/cybertruck",
-     2.2,
+     2.0,
      -2.6,
-     2.3
+     1.7
     ]
    ],
    "tiros": false,
@@ -68,9 +68,9 @@
    "props": [
     [
      "kit/cybertruck",
-     2.2,
+     2.0,
      -2.6,
-     2.3
+     1.7
     ]
    ],
    "tiros": false,
@@ -94,9 +94,9 @@
     ],
     [
      "kit/cybertruck",
-     2.2,
+     2.0,
      -2.6,
-     2.3
+     1.7
     ]
    ],
    "tiros": false,
@@ -129,9 +129,9 @@
    "props": [
     [
      "kit/cybertruck",
-     2.2,
+     2.0,
      -2.6,
-     2.3
+     1.7
     ]
    ],
    "tiros": false,
@@ -154,9 +154,9 @@
    "props": [
     [
      "kit/cybertruck",
-     2.2,
+     2.0,
      -2.6,
-     2.3
+     1.7
     ]
    ],
    "tiros": false,
@@ -220,9 +220,9 @@
    "props": [
     [
      "kit/cybertruck",
-     2.2,
+     2.0,
      -2.6,
-     2.3
+     1.7
     ],
     [
      "kit/steel_ball",
