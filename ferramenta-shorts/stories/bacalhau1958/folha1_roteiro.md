@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Eles cortavam os cabos das redes inglesas, e os navios batiam um no outro, de propósito.
 - Som ambiente: sea | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: thump@60, creak@62
-- Efeito + som nas palavras-chave: encena: corta (hammer) @1 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: corta (hammer) @1 -> acao + som de efeito; encena: x_fone (lift) @5 -> acao + som de efeito
 - Efeito visual marcado: splash@50, burst@60
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Foi uma guerra de navios batendo e de redes cortadas, e tudo por causa de um peixe.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_bate (punch) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_bate (punch) @5 -> acao + som de efeito; encena: x_fone (lift) @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: TUDO POR UM PEIXE
 - Funcao na historia: FECHO/PIADA FINAL

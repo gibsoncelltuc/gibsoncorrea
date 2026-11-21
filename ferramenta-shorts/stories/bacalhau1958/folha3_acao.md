@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - As Guerras do Bacalhau
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 25 acoes catalogadas, 25 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 7.6s - 26 palavras - plano two
@@ -53,7 +53,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | cortavam (32.8s) | ACAO: corta | machado e toras + poeira | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | redes (33.9s) | ACAO: x_fone | celular na mao + toque | OK |
+| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
 ## Cena b6 - 38.1s a 40.7s - 11 palavras - plano two
 > "A Islândia ainda ameaçou fechar a base da Otan no país."
@@ -80,6 +81,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | batendo (49.8s) | ACAO: x_bate | bate + estouro | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | TUDO POR UM PEIXE | OK |
+| 2 | redes (50.5s) | ACAO: x_fone | celular na mao + toque | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | TUDO POR UM PEIXE | OK |
 

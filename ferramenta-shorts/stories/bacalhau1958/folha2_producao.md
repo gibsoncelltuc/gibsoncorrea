@@ -18,7 +18,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ICE (variante 1, expressao nervous); PES (variante 0, expressao grin)
 - Animacao: reagir | interacao: insiste
-- Objetos/modelos: crate, kit/cod
+- Objetos/modelos: crate, kit/cod, kit/fishing_net
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): costa, islandia, pesca
 - RISCOS: nenhum
 
@@ -58,7 +58,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (1): ICE (variante 0, expressao neutral) | multidao: 6 de POV
 - Animacao: encena | batalha encenada
-- Objetos/modelos: ship, navios ao fundo
+- Objetos/modelos: ship, kit/fishing_net, navios ao fundo
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabos, navios, proposito, redes
 - RISCOS: nenhum
 
@@ -100,6 +100,7 @@ Objeto | Cenas | Situacao | O que fazer
 ship | b0, b2, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/cod | b0, b1, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 crate | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/fishing_net | b1, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
