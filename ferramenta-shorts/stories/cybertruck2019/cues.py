@@ -20,7 +20,7 @@ laughs(F(_A[6] + int((_A[7] - _A[6]) * 0.2))); laughs(F(_A[6] + int((_A[7] - _A[
 sting(F(_A[6] + 10))
 thump(F(_A[6] + 40))
 whoosh(F(_A[7]), 0.4, 0.35)
-gibber(F(_A[7] + int((_A[8] - _A[7]) * 0.2)), 4, 200, 0.12); gibber(F(_A[7] + int((_A[8] - _A[7]) * 0.58)), 4, 290, 0.12)
+laughs(F(_A[7] + int((_A[8] - _A[7]) * 0.2))); laughs(F(_A[7] + int((_A[8] - _A[7]) * 0.6)), 5, 360)
 thump(F(int(_W(43))))
 thump(F(int(_W(53))))
 thump(F(int(_W(71))))

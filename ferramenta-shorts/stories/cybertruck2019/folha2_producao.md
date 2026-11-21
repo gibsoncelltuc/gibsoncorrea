@@ -76,8 +76,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: stadium | luz: pordosol | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): MUS (variante 0, expressao laugh); DSG (variante 0, expressao smile)
-- Animacao: conversar | interacao: insiste
+- Personagens principais (2): MUS (variante 0, expressao laugh); DSG (variante 0, expressao smile) | multidao: 10 de POV
+- Animacao: comemorar | interacao: pular
 - Objetos/modelos: kit/cybertruck, kit/steel_ball
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): esfera, janela, lancamento, picape
 - RISCOS: nenhum
@@ -94,7 +94,7 @@ kit/globe | b6 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 ## Video inteiro
 - Objeto heroi: kit/steel_ball | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 20% | medio 56% | aberto 14% | detalhe 9%
-- Interacoes: b0 aproxima-se, b2 avanca e o outro recua, b4 o outro se aproxima, b7 insiste
+- Interacoes: b0 aproxima-se, b2 avanca e o outro recua, b4 o outro se aproxima, b7 pular
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

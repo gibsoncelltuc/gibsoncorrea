@@ -316,7 +316,16 @@
    "impact": false,
    "set": "stadium",
    "hora": "pordosol",
-   "riscos_ok": true
+   "riscos_ok": true,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "laugh"
+   }
   }
  ],
  "exp": 0.9,
