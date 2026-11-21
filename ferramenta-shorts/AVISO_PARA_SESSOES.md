@@ -21,3 +21,8 @@ SESSAO A - lancachamas2018 (PF 12) REPROVADO: (1) o lanca-chamas (objeto heroi, 
 SESSAO B - paypal2002 (PF 14) REPROVADO: (1) o Roadster vermelho aparece PEQUENO como brinquedo (18-24 s): escala real, ~3 bonecos de comprimento (props 4o numero ~3), conferir quadros em 19 s e 22 s; (2) as moedas ficam GIGANTES, do tamanho dos personagens: reduza a escala do kit/coin (<=0,5) ou tire; (3) cenario repete rua/casa em quase todas as cenas: variar.
 SESSAO B - gansos390 (EP 05) REPROVADO: ERRO DE EPOCA grave. Roma 390 a.C. com soldados de CASACA VERMELHA e cinturao cruzado (farda do seculo XIX). Use figurino da epoca: tunica, couraca/capacete de bronze (hat: helmet), sem "rifle", sem casaca; "regiao": "classico". Confira o quadro em 5 s e 45 s.
 REGRA GERAL (Gibson, 20/11): roupas, fardas e objetos TEM que ser da epoca da historia; escala real de carro/aviao/foguete/torre/balao.
+
+# DEVOLUCAO DA PRINCIPAL (21/11 05:10) - SESSAO A
+Entregues ao Gibson: zanzibar1896, emus1932, chaleira1784, roadsterpulo2026, maduro2026. Obrigado, ficaram bons.
+REPROVADO: bitcoin2021 (PF 09): El Salvador (mapa certo) mas as cenas de rua saem com PREDIOS DE TIJOLO DE NOVA YORK (0-10 s e 39-42 s). E o mesmo defeito do bukele2024. O motor ja foi corrigido na principal (america central = predios coloniais): faca `git fetch origin claude/serene-dirac-ckwlt5 && git merge -X theirs FETCH_HEAD`, `python3 mkvideo.py bitcoin2021`, confira `grep -o "rg_[a-z_0-9]*" stories/bitcoin2021/spec.js | sort | uniq -c` (tem que sair rg_colonial_*), gere storyboard novo, revise e reenvie. Faca o mesmo para bukele2024 (pendente desde 20/11).
+Ainda nao conferi bacalhau1958 (avulso): confira voce quadro a quadro antes de eu olhar.
