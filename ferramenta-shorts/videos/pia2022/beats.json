@@ -48,21 +48,17 @@
  },
  "beats": [
   {
-   "say": "Em outubro de dois mil e vinte e dois, Elon Musk esteve na sede do Twitter, em São Francisco, carregando uma pia.",
-   "shot": "track",
+   "say": "Em outubro de dois mil e vinte e dois, Elon Musk esteve na sede do Twitter, em São Francisco, com uma pia.",
+   "shot": "two",
    "who": [
     "MUS:0:grin"
    ],
    "props": [
     [
      "kit/sink",
-     0.35,
-     1.55,
-     0.9,
-     {
-      "carregado": true,
-      "y": 0.75
-     }
+     1.1,
+     0.4,
+     1.3
     ]
    ],
    "tiros": false,

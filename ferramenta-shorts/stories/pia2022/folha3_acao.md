@@ -1,15 +1,16 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 10 - A Pia no Twitter
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 8 frases, 19 acoes catalogadas, 19 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 8 frases, 20 acoes catalogadas, 20 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 6.1s - 22 palavras - plano track
-> "Em outubro de dois mil e vinte e dois, Elon Musk esteve na sede do Twitter, em São Francisco, carregando uma pia."
+## Cena b0 - 0.2s a 6.1s - 22 palavras - plano two
+> "Em outubro de dois mil e vinte e dois, Elon Musk esteve na sede do Twitter, em São Francisco, com uma pia."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | MAPA | ESTADOS UNIDOS | OK |
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | MAPA | ESTADOS UNIDOS | OK |
 
 ## Cena b1 - 7.1s a 9.4s - 11 palavras - plano close
 > "Ele filmou a própria entrada e postou o vídeo na internet."

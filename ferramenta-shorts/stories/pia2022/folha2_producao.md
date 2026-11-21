@@ -4,10 +4,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Em outubro de dois mil e vinte e dois, Elon Musk esteve na sede do Twi...
 - Cenario: street | luz: golden | clima: limpo
-- Camera: track = travelling lateral acompanhando quem anda
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): MUS (variante 0, expressao grin)
-- Animacao: -
+- Animacao: conversar
 - Objetos/modelos: kit/sink, kit/marco_goldengate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, sede, twitter
 - RISCOS: nenhum
@@ -93,7 +93,7 @@ kit/globe | b6 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/sink | grandes momentos: b4, b6 | planos abertos: 2 | mistura: close 26% | medio 60% | aberto 8% | detalhe 6%
+- Objeto heroi: kit/sink | grandes momentos: b4, b6 | planos abertos: 2 | mistura: close 26% | medio 55% | aberto 8% | detalhe 11%
 - Interacoes: b2 o outro se aproxima, b5 insiste, b7 vai ate o outro
 - RISCOS GERAIS: nenhum
 

@@ -3,7 +3,7 @@
 Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 8 cenas, 108 palavras (~37 s)
 
 ## Cena b0  (~7.6 s)
-- Narracao: Em outubro de dois mil e vinte e dois, Elon Musk esteve na sede do Twitter, em São Francisco, carregando uma pia.
+- Narracao: Em outubro de dois mil e vinte e dois, Elon Musk esteve na sede do Twitter, em São Francisco, com uma pia.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@20
 - Efeito + som nas palavras-chave: -

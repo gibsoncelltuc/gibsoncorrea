@@ -11,7 +11,7 @@ paypal2002
 roadster2018
 selfie2019
 eratostenes240
-#PAUSADO pia2022 (pia parada no chao: bug do motor, carregado nao anda; nao renderizar ate corrigir)
+pia2022
 #PAUSADO ese_dinheiro
 #PAUSADO ese_lua
 #PAUSADO ese_napoleao
