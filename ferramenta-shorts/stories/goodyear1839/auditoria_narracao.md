@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: goodyear1839
-Cenas 100% fieis: 5/12 (42%). Lacunas: 9
+Cenas 100% fieis: 5/12 (42%). Lacunas: 8
 
 ## b0 LACUNA - Um inventor falido deixou cair uma gosma no fogão da cozinha. E mudou o mundo para sempre.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'borracha', 'gosma', 'room_europa_wood', 'stove'] atores=2 acoes_folha3=['deixou', 'fogão']
@@ -8,7 +8,6 @@ Cenas 100% fieis: 5/12 (42%). Lacunas: 9
 - na tela: set=['street'] animais=[] objetos=[] atores=8 acoes_folha3=[]
 ## b2 LACUNA - A borracha estava na moda, mas tinha um defeito: no calor, derretia e fedia. No frio, rachava.
 - na tela: set=['street'] animais=[] objetos=['stove'] atores=14 acoes_folha3=[]
-- **FALTA:** VERBO narrado ("derretia") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["derre"] no beat)
 - **FALTA:** VERBO narrado ("rachava") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["racha"] no beat)
 ## b3 LACUNA - Charles Goodyear ficou obcecado. Misturou a borracha com tudo que encontrava, e gastou todo o dinheiro da família.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'coin', 'panela', 'room_europa_wood', 'stove'] atores=2 acoes_folha3=['Misturou', 'dinheiro', 'dinheiro']

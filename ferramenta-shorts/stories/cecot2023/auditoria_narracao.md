@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: cecot2023
-Cenas 100% fieis: 6/11 (55%). Lacunas: 6
+Cenas 100% fieis: 7/11 (64%). Lacunas: 5
 
 ## b0 OK - El Salvador construiu uma prisão tão grande que virou notícia no mundo inteiro.
 - na tela: set=['street'] animais=[] objetos=['house_small', 'prison', 'volcano'] atores=2 acoes_folha3=['construiu']
@@ -19,9 +19,8 @@ Cenas 100% fieis: 6/11 (55%). Lacunas: 6
 - na tela: set=['mountain'] animais=[] objetos=['volcano'] atores=2 acoes_folha3=[]
 - **FALTA:** VERBO narrado ("despencou") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["despe"] no beat)
 - **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
-## b7 LACUNA - Organizações de direitos humanos denunciaram prisões sem julgamento, e mortes sob custódia.
+## b7 OK - Organizações de direitos humanos denunciaram prisões sem julgamento, e mortes sob custódia.
 - na tela: set=['street'] animais=[] objetos=['volcano', 'windmill'] atores=2 acoes_folha3=['denunciaram']
-- **FALTA:** VERBO narrado ("custódia") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["custo"] no beat)
 ## b8 OK - O governo responde que as ruas ficaram seguras, e que a maioria da população apoia.
 - na tela: set=['hall'] animais=[] objetos=['room_colonial_shop'] atores=2 acoes_folha3=[]
 ## b9 OK - A prisão virou símbolo do país. Para uns, de segurança. Para outros, de excesso.

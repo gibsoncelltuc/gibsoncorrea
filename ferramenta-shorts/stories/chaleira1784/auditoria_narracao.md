@@ -25,7 +25,7 @@ Cenas 100% fieis: 3/10 (30%). Lacunas: 10
 - **FALTA:** VERBO narrado ("atravessou") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["atrav"] no beat)
 - **FALTA:** VERBO narrado ("acertou") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["acert"] no beat)
 ## b7 OK - O capitão austríaco olhou para a sopa derramada, e se rendeu na mesma hora.
-- na tela: set=['street'] animais=[] objetos=['kettle', 'marco_viena'] atores=19 acoes_folha3=['olhou', 'rendeu']
+- na tela: set=['street'] animais=['horse_sela'] objetos=['kettle', 'marco_viena'] atores=19 acoes_folha3=['olhou', 'rendeu']
 ## b8 OK - O imperador desistiu do rio. Em troca, a Holanda pagou uma indenização em dinheiro.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'coin', 'room_holanda_stone'] atores=2 acoes_folha3=['desistiu', 'desistiu', 'pagou', 'pagou', 'dinheiro', 'dinheiro']
 ## b9 LACUNA - Ninguém morreu. Só o almoço.

@@ -12,7 +12,7 @@ Cenas 100% fieis: 6/10 (60%). Lacunas: 8
 ## b3 OK - "Essa árvore é minha!", gritou um lenhador, e logo os dois lados começaram a brigar.
 - na tela: set=['street'] animais=[] objetos=['logs', 'tree_pine'] atores=2 acoes_folha3=['gritou', 'gritou', 'lenhador', 'brigar', 'brigar']
 ## b4 OK - O Maine chamou milhares de soldados, e a Inglaterra mandou os seus.
-- na tela: set=['street'] animais=[] objetos=[] atores=36 acoes_folha3=['mandou']
+- na tela: set=['street'] animais=['horse_sela'] objetos=[] atores=36 acoes_folha3=['mandou']
 ## b5 OK - Acontece que um agente do Maine foi preso pelos ingleses, e o clima ficou perigoso.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_eua_stone'] atores=2 acoes_folha3=['preso']
 ## b6 OK - Mas ninguém queria uma guerra de verdade, então o governo mandou um general conversar.

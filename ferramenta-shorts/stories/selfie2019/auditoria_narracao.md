@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: selfie2019
-Cenas 100% fieis: 5/11 (45%). Lacunas: 8
+Cenas 100% fieis: 5/11 (45%). Lacunas: 7
 
 ## b0 LACUNA - Um presidente chegou ao palco mais importante do mundo, e antes de falar, tirou uma selfie.
 - na tela: set=['street'] animais=[] objetos=['marco_onu', 'phone'] atores=6 acoes_folha3=['chegou', 'chegou', 'tirou']
@@ -7,7 +7,6 @@ Cenas 100% fieis: 5/11 (45%). Lacunas: 8
 ## b1 LACUNA - Foi em setembro de dois mil e dezenove, na Assembleia Geral da ONU, em Nova York.
 - na tela: set=['street'] animais=[] objetos=['marco_onu'] atores=8 acoes_folha3=[]
 - **FALTA:** LUGAR/CENARIO narrado (PALACIO/SALA) NAO aparece
-- **FALTA:** VERBO narrado ("Assembleia") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["assem"] no beat)
 ## b2 LACUNA - Ali, os líderes de quase todos os países fazem discursos longos e sérios.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_eua_stone'] atores=2 acoes_folha3=[]
 - **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece

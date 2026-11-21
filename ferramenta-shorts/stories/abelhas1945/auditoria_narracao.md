@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: abelhas1945
-Cenas 100% fieis: 1/12 (8%). Lacunas: 18
+Cenas 100% fieis: 1/12 (8%). Lacunas: 17
 
 ## b0 LACUNA - As abelhas conversam dançando. E foi um cientista teimoso que descobriu o que elas dizem.
 - na tela: set=['countryside'] animais=[] objetos=['bee', 'beehive', 'lupa', 'marco_viena'] atores=6 acoes_folha3=['dançando', 'dançando', 'descobriu', 'descobriu']
@@ -11,7 +11,6 @@ Cenas 100% fieis: 1/12 (8%). Lacunas: 18
 - **FALTA:** VERBO narrado ("estudando") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["estud"] no beat)
 ## b2 LACUNA - Ele construiu uma colmeia com vidro para ver tudo lá dentro, e colocou pratinhos com água e açúcar no jardim.
 - na tela: set=['countryside'] animais=[] objetos=['bee', 'beehive', 'marco_viena'] atores=6 acoes_folha3=['construiu']
-- **FALTA:** VERBO narrado ("colmeia") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["colme"] no beat)
 - **FALTA:** VERBO narrado ("colocou") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["coloc"] no beat)
 ## b3 LACUNA - Depois pintou pontinhos coloridos nas costas das abelhas, para saber quem era quem.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'bee', 'beehive', 'room_europa_wood'] atores=2 acoes_folha3=['pintou']

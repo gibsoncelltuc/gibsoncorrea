@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: cachorro1925
-Cenas 100% fieis: 6/10 (60%). Lacunas: 4
+Cenas 100% fieis: 7/10 (70%). Lacunas: 3
 
 ## b0 OK - Um cachorro fugiu, e por causa dele dois países entraram em guerra, e dezenas de pessoas morreram.
 - na tela: set=['street'] animais=['dog'] objetos=['dog_sit'] atores=2 acoes_folha3=['fugiu', 'fugiu', 'entraram', 'morreram', 'morreram']
@@ -10,9 +10,8 @@ Cenas 100% fieis: 6/10 (60%). Lacunas: 4
 ## b3 LACUNA - O soldado correu atrás do cachorro, e atravessou a fronteira sem pensar.
 - na tela: set=['street'] animais=['dog'] objetos=[] atores=2 acoes_folha3=['correu', 'correu']
 - **FALTA:** VERBO narrado ("atravessou") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["atrav"] no beat)
-## b4 LACUNA - Do outro lado, uma sentinela búlgara viu um estranho armado, e atirou.
+## b4 OK - Do outro lado, uma sentinela búlgara viu um estranho armado, e atirou.
 - na tela: set=['street'] animais=[] objetos=[] atores=12 acoes_folha3=['sentinela', 'viu', 'atirou', 'atirou']
-- **FALTA:** VERBO narrado ("búlgara") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["bulga"] no beat)
 ## b5 OK - Acontece que o soldado morreu, e a Grécia deu um ultimato furioso à Bulgária.
 - na tela: set=['street'] animais=[] objetos=[] atores=2 acoes_folha3=['morreu', 'morreu', 'deu']
 ## b6 LACUNA - Poucos dias depois, o exército grego invadiu a Bulgária e ocupou a região de Petrich, e dezenas de pessoas morreram nos combates.

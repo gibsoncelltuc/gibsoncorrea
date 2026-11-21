@@ -1,9 +1,8 @@
 # AUDITORIA NARRACAO x TELA: hayha1939
-Cenas 100% fieis: 2/9 (22%). Lacunas: 10
+Cenas 100% fieis: 3/9 (33%). Lacunas: 9
 
-## b0 LACUNA - Inverno de mil novecentos e trinta e nove. A União Soviética invadiu a Finlândia, com um exército enorme.
+## b0 OK - Inverno de mil novecentos e trinta e nove. A União Soviética invadiu a Finlândia, com um exército enorme.
 - na tela: set=['street'] animais=[] objetos=[] atores=22 acoes_folha3=['invadiu', 'invadiu']
-- **FALTA:** VERBO narrado ("Finlândia") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["finla"] no beat)
 ## b1 LACUNA - Os soldados finlandeses eram poucos, mas conheciam a floresta, a neve e o frio, que chegava a quarenta graus abaixo de zero.
 - na tela: set=['street'] animais=[] objetos=['bush', 'tree_oak', 'tree_pine'] atores=13 acoes_folha3=[]
 - **FALTA:** VERBO narrado ("conheciam") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["conhe"] no beat)

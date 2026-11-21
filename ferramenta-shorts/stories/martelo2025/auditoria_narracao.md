@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: martelo2025
-Cenas 100% fieis: 6/11 (55%). Lacunas: 6
+Cenas 100% fieis: 6/11 (55%). Lacunas: 5
 
 ## b0 LACUNA - Para destruir um bunker escondido dentro de uma montanha, os Estados Unidos usaram uma bomba que nunca tinha saído do papel.
 - na tela: set=['street'] animais=[] objetos=['b2_air', 'bunker_bomb', 'marco_mesquita'] atores=6 acoes_folha3=['bomba', 'bomba']
@@ -18,7 +18,6 @@ Cenas 100% fieis: 6/11 (55%). Lacunas: 6
 - na tela: set=['street'] animais=[] objetos=['b2_air', 'marco_mesquita'] atores=18 acoes_folha3=['decolaram']
 ## b6 LACUNA - Para despistar, outros B-2 foram mandados na direção contrária, para o Pacífico.
 - na tela: set=['countryside'] animais=[] objetos=['b2_air', 'marco_mesquita'] atores=2 acoes_folha3=[]
-- **FALTA:** VERBO narrado ("contrária") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["contr"] no beat)
 - **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
 ## b7 OK - Acontece que, de madrugada, os aviões soltaram catorze bombas. Doze delas em cima de Fordow, pelos respiros do bunker.
 - na tela: set=['outback'] animais=[] objetos=['airplane', 'b2_air', 'bunker_bomb', 'marco_mesquita', 'mountain_bunker'] atores=3 acoes_folha3=['soltaram', 'bombas', 'bombas']

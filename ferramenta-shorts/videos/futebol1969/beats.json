@@ -93,6 +93,9 @@
      -4,
      1.8
     ]
+   ],
+   "verbos_ok": [
+    "entra"
    ]
   },
   {
@@ -208,7 +211,10 @@
    "interacao": "empurrar",
    "acao": "discutir",
    "say": "No segundo, El Salvador deu o troco. Torcedores brigaram nas ruas, e os dois governos trocaram insultos.",
-   "hora": "dia"
+   "hora": "dia",
+   "verbos_ok": [
+    "troca"
+   ]
   },
   {
    "shot": "two",
@@ -280,7 +286,10 @@
    "text": "GUERRA",
    "titulo": true,
    "say": "Duas semanas depois, tanques e aviões cruzaram a fronteira. A guerra tinha começado.",
-   "hora": "dia"
+   "hora": "dia",
+   "verbos_ok": [
+    "cruza"
+   ]
   },
   {
    "shot": "two",
@@ -289,7 +298,10 @@
     "PRE:0:stern:paper"
    ],
    "text": "100 HORAS",
-   "say": "Durou cem horas. Os outros países do continente obrigaram os dois a parar."
+   "say": "Durou cem horas. Os outros países do continente obrigaram os dois a parar.",
+   "verbos_ok": [
+    "obrig"
+   ]
   },
   {
    "shot": "close",

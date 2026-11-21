@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: tycho1566
-Cenas 100% fieis: 5/11 (45%). Lacunas: 7
+Cenas 100% fieis: 6/11 (55%). Lacunas: 6
 
 ## b0 OK - Um dos maiores astrônomos da história perdeu o nariz numa briga por causa de matemática.
 - na tela: set=['medieval'] animais=[] objetos=['brass_nose', 'marco_rostock'] atores=2 acoes_folha3=['perdeu', 'perdeu', 'briga', 'briga']
@@ -23,9 +23,8 @@ Cenas 100% fieis: 5/11 (45%). Lacunas: 7
 ## b8 LACUNA - As anotações eram tão precisas, que ajudaram Kepler a descobrir como os planetas giram em volta do Sol.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'lupa', 'room_europa_stone'] atores=2 acoes_folha3=['descobrir']
 - **FALTA:** VERBO narrado ("ajudaram") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["ajuda"] no beat)
-## b9 LACUNA - Essa descoberta mudou a astronomia para sempre.
+## b9 OK - Essa descoberta mudou a astronomia para sempre.
 - na tela: set=['medieval'] animais=[] objetos=['lupa', 'marco_rostock'] atores=19 acoes_folha3=['descoberta']
-- **FALTA:** VERBO narrado ("astronomia") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["astro"] no beat)
 ## b10 LACUNA - E Tycho entrou para a história assim: com a cabeça nas estrelas, e o nariz de metal.
 - na tela: set=['street'] animais=[] objetos=['brass_nose', 'marco_rostock'] atores=1 acoes_folha3=[]
 - **FALTA:** VERBO narrado ("entrou") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["entro"] no beat)

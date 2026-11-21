@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: postit1968
-Cenas 100% fieis: 5/12 (42%). Lacunas: 11
+Cenas 100% fieis: 5/12 (42%). Lacunas: 10
 
 ## b0 LACUNA - Um químico inventou a cola mais fraca do mundo. E ela virou um dos produtos mais vendidos do planeta.
 - na tela: set=['street'] animais=[] objetos=['coin', 'frasco', 'globe', 'postit', 'shop', 'tubos'] atores=2 acoes_folha3=['químico', 'vendidos']
@@ -28,7 +28,6 @@ Cenas 100% fieis: 5/12 (42%). Lacunas: 11
 - **FALTA:** VERBO narrado ("juntaram") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["junta"] no beat)
 ## b9 LACUNA - O primeiro teste de vendas foi um fracasso. Ninguém entendia para que servia um bloquinho que descolava.
 - na tela: set=['hall'] animais=[] objetos=['coin', 'postit', 'room_eua_shop'] atores=2 acoes_folha3=['vendas', 'fracasso', 'fracasso']
-- **FALTA:** VERBO narrado ("servia") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["servi"] no beat)
 - **FALTA:** VERBO narrado ("descolava") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["desco"] no beat)
 ## b10 LACUNA - Então distribuíram amostras de graça numa cidade inteira. Quase todo mundo que testou quis comprar mais.
 - na tela: set=['street'] animais=[] objetos=['apartment', 'coin', 'house_two', 'lamppost', 'postit'] atores=33 acoes_folha3=['comprar']

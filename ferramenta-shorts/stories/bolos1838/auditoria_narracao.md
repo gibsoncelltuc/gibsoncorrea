@@ -1,9 +1,8 @@
 # AUDITORIA NARRACAO x TELA: bolos1838
-Cenas 100% fieis: 6/11 (55%). Lacunas: 8
+Cenas 100% fieis: 7/11 (64%). Lacunas: 7
 
-## b0 LACUNA - A França invadiu o México por causa de uma conta de confeitaria.
-- na tela: set=['street'] animais=[] objetos=['cake_table', 'marco_ulua'] atores=27 acoes_folha3=['invadiu', 'invadiu']
-- **FALTA:** VERBO narrado ("confeitaria") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["confe"] no beat)
+## b0 OK - A França invadiu o México por causa de uma conta de confeitaria.
+- na tela: set=['street'] animais=['horse_sela'] objetos=['cake_table', 'marco_ulua'] atores=27 acoes_folha3=['invadiu', 'invadiu']
 ## b1 OK - Um confeiteiro francês tinha uma loja perto da Cidade do México, famosa pelos doces.
 - na tela: set=['street'] animais=[] objetos=['cake_table', 'marco_ulua', 'shop', 'stall'] atores=10 acoes_folha3=[]
 ## b2 OK - Um dia, oficiais mexicanos entraram, comeram tudo o que havia, quebraram a loja, e saíram sem pagar.
@@ -22,7 +21,7 @@ Cenas 100% fieis: 6/11 (55%). Lacunas: 8
 ## b6 OK - Acontece que a França mandou mesmo. Navios de guerra fecharam todos os portos do país.
 - na tela: set=['harbor'] animais=[] objetos=['marco_ulua', 'ship'] atores=20 acoes_folha3=['mandou', 'fecharam']
 ## b7 LACUNA - Os canhões franceses bombardearam a fortaleza de Veracruz, e os soldados tomaram a cidade.
-- na tela: set=['street'] animais=[] objetos=['cannon', 'marco_ulua'] atores=28 acoes_folha3=['canhões', 'canhões']
+- na tela: set=['street'] animais=['horse_sela'] objetos=['cannon', 'marco_ulua'] atores=28 acoes_folha3=['canhões', 'canhões']
 - **FALTA:** VERBO narrado ("bombardearam") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["bomba"] no beat)
 ## b8 OK - Um general mexicano correu para o combate, e perdeu uma perna para um tiro de canhão.
 - na tela: set=['street'] animais=[] objetos=['cannon', 'marco_ulua'] atores=22 acoes_folha3=['correu', 'correu', 'perdeu', 'perdeu', 'tiro', 'tiro']

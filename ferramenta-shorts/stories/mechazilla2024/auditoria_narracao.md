@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: mechazilla2024
-Cenas 100% fieis: 7/12 (58%). Lacunas: 7
+Cenas 100% fieis: 7/12 (58%). Lacunas: 6
 
 ## b0 OK - Elon Musk mandou construir uma torre com braços gigantes, para pegar um foguete no ar. E deu certo.
 - na tela: set=['street'] animais=[] objetos=['rocket', 'shop', 'tower', 'tower_catch', 'tower_mini'] atores=6 acoes_folha3=['mandou', 'construir', 'deu']
@@ -31,4 +31,3 @@ Cenas 100% fieis: 7/12 (58%). Lacunas: 7
 ## b11 LACUNA - E a torre já repetiu a pegada outras vezes. Parece filme de robô gigante, mas é engenharia.
 - na tela: set=['street'] animais=[] objetos=['lighthouse', 'tower', 'tower_catch', 'tower_mini'] atores=1 acoes_folha3=[]
 - **FALTA:** VERBO narrado ("repetiu") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["repet"] no beat)
-- **FALTA:** VERBO narrado ("engenharia") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["engen"] no beat)

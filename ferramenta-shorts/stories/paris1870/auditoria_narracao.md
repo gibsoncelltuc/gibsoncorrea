@@ -1,10 +1,8 @@
 # AUDITORIA NARRACAO x TELA: paris1870
-Cenas 100% fieis: 7/9 (78%). Lacunas: 3
+Cenas 100% fieis: 8/9 (89%). Lacunas: 1
 
-## b0 LACUNA - Em mil oitocentos e setenta, a Prússia cercou Paris. Ninguém entrava, ninguém saía, e a comida acabou.
-- na tela: set=['street'] animais=[] objetos=['marco_notredame'] atores=28 acoes_folha3=['cercou']
-- **FALTA:** VERBO narrado ("Prússia") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["pruss"] no beat)
-- **FALTA:** VERBO narrado ("entrava") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["entra"] no beat)
+## b0 OK - Em mil oitocentos e setenta, a Prússia cercou Paris. Ninguém entrava, ninguém saía, e a comida acabou.
+- na tela: set=['street'] animais=['horse_sela'] objetos=['marco_notredame'] atores=28 acoes_folha3=['cercou']
 ## b1 OK - Primeiro, os parisienses comeram os cavalos. Depois, os cachorros e os gatos.
 - na tela: set=['hall'] animais=['cat', 'dog', 'horse'] objetos=['Table_Large', 'room_franca_shop'] atores=3 acoes_folha3=['comeram']
 ## b2 OK - Depois, os roedores, que viraram um prato chique.
