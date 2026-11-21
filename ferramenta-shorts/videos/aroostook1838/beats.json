@@ -126,7 +126,7 @@
     "CAN:0:smug"
    ],
    "acao": "discutir",
-   "say": "Na floresta de Aroostook, lenhadores americanos e ingleses cortavam as mesmas árvores, e cada lado queria a madeira.",
+   "say": "Na mata de Aroostook, lenhadores americanos e ingleses cortavam as mesmas árvores, e cada lado queria a madeira.",
    "fachada": false,
    "props": [
     [
@@ -156,13 +156,12 @@
    ]
   },
   {
-   "shot": "two",
+   "shot": "crowd",
    "set": "countryside",
    "who": [
     "AME:0:shout",
     "CAN:0:angry"
    ],
-   "interacao": "empurrar",
    "say": "\"Essa árvore é minha!\", gritou um lenhador, e logo os dois lados começaram a brigar.",
    "fachada": false,
    "props": [
@@ -184,11 +183,22 @@
      -9.0,
      1.8
     ]
-   ]
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 16,
+    "outfits": [
+     "AME",
+     "CAN"
+    ],
+    "march": true,
+    "expr": "angry"
+   }
   },
   {
    "shot": "crowd",
-   "set": "street",
+   "set": "mountain",
    "who": [
     "MIL:0:angry",
     "ING:0:angry"
@@ -220,7 +230,7 @@
   },
   {
    "shot": "two",
-   "set": "palace",
+   "set": "mountain",
    "who": [
     "GEN:0:stern",
     "MIL:0:nervous"
@@ -246,20 +256,21 @@
     "PRE:1:smile"
    ],
    "interacao": "entregar",
-   "say": "Alguns anos depois, um tratado dividiu a floresta, e a fronteira ficou definida."
+   "say": "Alguns anos depois, um tratado dividiu a mata, e a fronteira ficou definida."
   },
   {
-   "shot": "close",
+   "shot": "two",
    "set": "countryside",
    "who": [
-    "AME:0:smile"
+    "AME:0:smile",
+    "AME:1:grin"
    ],
    "props": [
     [
      "kit/logs",
-     1.0,
-     0.5,
-     1.3
+     -1.6,
+     0.2,
+     1.0
     ],
     [
      "nature/tree_pine",
@@ -272,25 +283,20 @@
      3.2,
      -6.5,
      1.7
-    ],
-    [
-     "nature/tree_pine",
-     -1.0,
-     -9.0,
-     1.8
     ]
    ],
    "say": "Chamaram de Guerra do Porco com Feijão, porque era só isso que as tropas comiam.",
    "animals": [
     [
      "pig",
-     1.2,
-     1.0,
+     0.0,
+     1.3,
      "stand",
-     1.0
+     1.2
     ]
    ],
    "fachada": false
   }
- ]
+ ],
+ "regiao": "europa"
 }

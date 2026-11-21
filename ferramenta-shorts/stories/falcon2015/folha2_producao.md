@@ -4,8 +4,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Durante sessenta anos, todo foguete era jogado fora depois de um voo. ...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MUS (variante 0, expressao grin); ENG (variante 0, expressao surprised)
 - Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/falcon9_land, kit/marco_canaveral, kit/rocket
@@ -13,7 +13,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b1 - Foi em dezembro de dois mil e quinze, no Cabo Canaveral, na Flórida.
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: outback | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
@@ -33,18 +33,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - As primeiras tentativas de pouso deram errado. Foguetes tombaram, e ex...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): ENA (variante 0, expressao sad); MUS (variante 0, expressao nervous)
 - Animacao: conversar | interacao: susto
 - Objetos/modelos: kit/rocket, kit/marco_canaveral
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pouso, primeiras
-- RISCOS: 
-  - a narracao cita agua e o cenario "countryside" nao tem agua -> CORRECAO: "set": "harbor" (cais com mar e navio) ou "set": "palace" (praia), ou "mapa" para so situar
+- RISCOS: nenhum
 
 ## Cena b4 - Mas a equipe insistiu. Em vinte e um de dezembro, o Falcon nove decolo...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MUS (variante 0, expressao stern); ENG (variante 0, expressao grin, segura paper)
@@ -54,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Depois de soltar a parte de cima, a parte de baixo virou no céu, e com...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): ENG (variante 0, expressao surprised); ENA (variante 0, expressao surprised); MUS (variante 0, expressao grin) | multidao: 18 de POV
@@ -64,17 +63,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Acontece que ela desceu de ré, de pé, com o motor aceso freando a qued...
-- Cenario: harbor | luz: noite | clima: limpo
+- Cenario: countryside | luz: noite | clima: limpo
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): ENA (variante 0, expressao nervous)
 - Animacao: reagir
-- Objetos/modelos: kit/falcon9_land, kit/marco_canaveral
+- Objetos/modelos: kit/falcon_air, kit/marco_canaveral
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): motor, queda
 - RISCOS: nenhum
 
 ## Cena b7 - E pousou certinho no meio da plataforma, abrindo as pernas no último s...
-- Cenario: harbor | luz: noite | clima: limpo
+- Cenario: countryside | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): ENG (variante 0, expressao shock); ENA (variante 0, expressao surprised)
@@ -83,20 +82,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pernas, plataforma
 - RISCOS: nenhum
 
-## Cena b8 - Os funcionários da SpaceX gritaram como em final de Copa do Mundo.
-- Cenario: stadium | luz: day | clima: limpo
+## Cena b8 - Os funcionários da SpaceX gritaram de alegria, como numa final de camp...
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): MUS (variante 0, expressao laugh); ENG (variante 0, expressao laugh); ENA (variante 0, expressao laugh) | multidao: 20 de POV
 - Animacao: comemorar | batalha encenada
-- Objetos/modelos: kit/falcon9_land
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): copa, funcionarios, spacex
+- Objetos/modelos: kit/falcon9_land, kit/marco_canaveral
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alegria, campeonato, funcionarios, spacex
 - RISCOS: nenhum
 
 ## Cena b9 - Foi a primeira vez que um foguete desse tamanho voltou do espaço e pou...
-- Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Cenario: interior loja | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MUS (variante 0, expressao smug); ENG (variante 0, expressao grin)
 - Animacao: conversar | interacao: abracar
 - Objetos/modelos: kit/rocket
@@ -118,23 +117,20 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/falcon9_land | b0, b6, b7, b8, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_canaveral | b0, b1, b2, b3, b4, b5, b6, b7, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/rocket | b0, b2, b3, b4, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/falcon9_land | b0, b7, b8, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_canaveral | b0, b1, b2, b3, b4, b5, b6, b7, b8, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/rocket | b0, b2, b3, b4, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 vehicles/airplane | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/starlink_sat | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/falcon_air | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/falcon_air | b5, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/falcon9_land | grandes momentos: b5, b8 | planos abertos: 3 | mistura: close 14% | medio 73% | aberto 11% | detalhe 2%
+- Objeto heroi: kit/rocket | grandes momentos: b5, b8 | planos abertos: 3 | mistura: close 14% | medio 68% | aberto 11% | detalhe 7%
 - Interacoes: b0 o outro se aproxima, b2 discutir, b3 susto, b4 entregar, b7 insiste, b9 abracar
-- RISCOS GERAIS: 
-  - objeto heroi (kit/falcon9_land) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 2 risco(s) em aberto
-- b3: a narracao cita agua e o cenario "countryside" nao tem agua
-- geral: objeto heroi (kit/falcon9_land) sem close de camera
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh falcon2015 bN bM` (so essas cenas).

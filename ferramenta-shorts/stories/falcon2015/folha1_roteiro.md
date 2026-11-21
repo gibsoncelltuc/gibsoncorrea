@@ -13,7 +13,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b1  (~4.5 s)
 - Narracao: Foi em dezembro de dois mil e quinze, no Cabo Canaveral, na Flórida.
-- Som ambiente: sea
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b3  (~4.5 s)
 - Narracao: As primeiras tentativas de pouso deram errado. Foguetes tombaram, e explodiram no mar.
-- Som ambiente: birds
+- Som ambiente: sea
 - Efeitos sonoros marcados: cannon@30, thump@50
 - Efeito + som nas palavras-chave: explodiram -> burst + som de tiro/explosao; encena: x_entrega (reach) @5 -> acao + som de efeito; encena: desaba @10 -> acao + som de efeito
 - Efeito visual marcado: burst@30, puff@50
@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b4  (~5.5 s)
 - Narracao: Mas a equipe insistiu. Em vinte e um de dezembro, o Falcon nove decolou levando satélites.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: voa (point) @13 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b5  (~7.2 s)
 - Narracao: Depois de soltar a parte de cima, a parte de baixo virou no céu, e começou a voltar para a Terra.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: whoosh@20, thump@40
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: whoosh@20, puff@40
@@ -58,7 +58,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b6  (~5.2 s)
 - Narracao: Acontece que ela desceu de ré, de pé, com o motor aceso freando a queda.
-- Som ambiente: sea
+- Som ambiente: birds
 - Efeitos sonoros marcados: sting@20
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@20
@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b7  (~4.5 s)
 - Narracao: E pousou certinho no meio da plataforma, abrindo as pernas no último segundo.
-- Som ambiente: sea
+- Som ambiente: birds
 - Efeitos sonoros marcados: ding@30, thump@50
 - Efeito + som nas palavras-chave: encena: x_abre (push) @7 -> acao + som de efeito
 - Efeito visual marcado: stars@30, puff@50
@@ -75,8 +75,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Funcao na historia: desenvolvimento
 
 ## Cena b8  (~4.1 s)
-- Narracao: Os funcionários da SpaceX gritaram como em final de Copa do Mundo.
-- Som ambiente: silencio/sala
+- Narracao: Os funcionários da SpaceX gritaram de alegria, como numa final de campeonato.
+- Som ambiente: birds
 - Efeitos sonoros marcados: ding@20, ding@60
 - Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritaram -> ring + som de alerta; encena: grita (up) @4 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60

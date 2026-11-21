@@ -26,10 +26,18 @@
    "pants": "#5a6a7a",
    "boots": "#1b1b1f",
    "hat": "helmet",
-   "cap": "#5a6a7a"
+   "cap": "#5a6a7a",
+   "uniforme_fixo": true
   },
   "GEN": {
-   "profissao": "general"
+   "jacket": "#4a5a3a",
+   "pants": "#4a5a3a",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#4a5a3a",
+   "medals": 4,
+   "epaulets": "#e8c45a",
+   "uniforme_fixo": true
   },
   "POV": {
    "jacket": "#3f6fb5",
@@ -45,7 +53,7 @@
  },
  "beats": [
   {
-   "shot": "two",
+   "shot": "reveal",
    "who": [
     "TRU:0:stern",
     "GEN:0:stern"
@@ -71,7 +79,10 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Para destruir um bunker escondido dentro de uma montanha, os Estados Unidos usaram uma bomba que nunca tinha saído do papel."
+   "say": "Para destruir um bunker escondido dentro de uma montanha, os Estados Unidos usaram uma arma que nunca tinha saído do papel.",
+   "detalhe": false,
+   "tiros": false,
+   "set": "mountain"
   },
   {
    "shot": "reveal",
@@ -89,7 +100,8 @@
      1.6
     ]
    ],
-   "say": "Foi em junho de dois mil e vinte e cinco. O alvo eram as usinas nucleares do Irã."
+   "say": "Foi em junho de dois mil e vinte e cinco. O alvo eram as usinas nucleares do Irã.",
+   "set": "outback"
   },
   {
    "shot": "two",
@@ -106,12 +118,14 @@
     ]
    ],
    "acao": "discutir",
-   "say": "A principal, Fordow, fica a quase noventa metros de profundidade, dentro de uma montanha."
+   "say": "A principal, Fordow, fica a quase noventa metros de profundidade, dentro de uma montanha.",
+   "set": "mountain"
   },
   {
    "shot": "close",
    "who": [
-    "GEN:0:stern"
+    "GEN:0:stern",
+    "PIL:0:smug"
    ],
    "props": [
     [
@@ -133,7 +147,9 @@
    "sfx": [
     "sting@30"
    ],
-   "say": "Só uma arma chegava lá: a bomba antibunker, com mais de treze toneladas. E só um avião carrega essa bomba: o B-2."
+   "say": "Só uma arma chegava lá: a arma antibunker, com mais de treze toneladas. E só um avião carrega essa arma: o B-2.",
+   "tiros": false,
+   "acao": "discutir"
   },
   {
    "shot": "two",
@@ -142,7 +158,11 @@
     "GEN:0:grin"
    ],
    "interacao": "entregar",
-   "say": "Trump autorizou a missão. O nome: Martelo da Meia-Noite."
+   "say": "Trump assinou a ordem e autorizou a missão. O nome: Martelo da Meia-Noite.",
+   "interior": "pedra",
+   "hora": "dia",
+   "light": "study",
+   "acao": "conversar"
   },
   {
    "shot": "crowd",
@@ -179,7 +199,9 @@
    ],
    "text": "B-2",
    "titulo": true,
-   "say": "Sete bombardeiros invisíveis decolaram do Missouri, e voaram mais de um dia sem parar."
+   "say": "Sete bombardeiros invisíveis decolaram do Missouri, e voaram mais de um dia sem parar.",
+   "set": "countryside",
+   "hora": "dia"
   },
   {
    "shot": "two",
@@ -195,11 +217,14 @@
      1.5
     ]
    ],
-   "interacao": "cochichar",
-   "say": "Para despistar, outros B-2 foram mandados na direção contrária, para o Pacífico."
+   "say": "Para despistar, outros B-2 foram mandados na direção contrária, para o Pacífico.",
+   "set": "harbor",
+   "hora": "dia",
+   "tiros": false,
+   "acao": "discutir"
   },
   {
-   "shot": "low",
+   "shot": "reveal",
    "hora": "noite",
    "who": [
     "PIL:0:stern"
@@ -228,25 +253,86 @@
     "cannon@45",
     "thump@60"
    ],
-   "say": "Acontece que, de madrugada, os aviões soltaram catorze bombas. Doze delas em cima de Fordow, pelos respiros do bunker."
+   "say": "Acontece que, de madrugada, os aviões soltaram catorze cargas explosivas. Doze delas em cima de Fordow, pelos respiros do bunker.",
+   "detalhe": false,
+   "tiros": false
   },
   {
    "shot": "two",
-   "interior": "loja",
+   "set": "harbor",
    "who": [
-    "TRU:0:stern",
-    "GEN:0:grin:paper"
+    "GEN:0:shock",
+    "PIL:0:surprised"
    ],
-   "acao": "conversar",
-   "say": "Um submarino ainda disparou mísseis contra uma terceira usina. Todos os aviões voltaram para casa.",
+   "say": "Um submarino ainda mandou mísseis que explodiram numa terceira usina.",
+   "text": "SUBMARINO",
+   "fx": [
+    "burst@50"
+   ],
+   "sfx": [
+    "cannon@50"
+   ],
+   "tiros": false,
+   "voa": [
+    {
+     "asset": "kit/rocket",
+     "de": [
+      -1.5,
+      -3.0
+     ],
+     "para": [
+      3.0,
+      -9.0
+     ],
+     "y": 1.2,
+     "alvo_y": 0.8,
+     "arco": 0.6,
+     "palavra": "^mandou",
+     "dur": 30,
+     "s": 0.35,
+     "som": "whoosh"
+    }
+   ]
+  },
+  {
+   "shot": "crowd",
+   "set": "countryside",
+   "hora": "dia",
+   "who": [
+    "PIL:0:smile",
+    "GEN:0:grin"
+   ],
+   "say": "Todos os aviões voltaram para casa.",
    "props": [
     [
      "kit/b2_air",
-     1.0,
-     -10.0,
+     1.5,
+     -9.0,
      1.5
     ]
-   ]
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 14,
+    "outfits": [
+     "PIL"
+    ],
+    "march": false,
+    "expr": "smile"
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "pedra",
+   "who": [
+    "TRU:0:smug",
+    "GEN:0:grin:paper"
+   ],
+   "say": "Trump disse que as usinas foram destruídas.",
+   "acao": "discutir",
+   "hora": "dia",
+   "light": "study"
   },
   {
    "shot": "crowd",
@@ -281,12 +367,13 @@
    ],
    "text": "FORDOW",
    "titulo": true,
-   "say": "Trump disse que as usinas foram destruídas. Avaliações posteriores discutiram o tamanho real do estrago."
+   "say": "Avaliações posteriores discutiram o tamanho real do estrago."
   },
   {
    "shot": "close",
    "who": [
-    "GEN:0:stern"
+    "GEN:0:grin",
+    "PIL:0:smile"
    ],
    "props": [
     [
@@ -302,19 +389,23 @@
      1.5
     ]
    ],
-   "acao": "conversar",
-   "say": "Foi a primeira vez na história que essa bomba gigante foi usada de verdade.",
+   "acao": "comemorar",
+   "say": "Foi a primeira vez na história que essa arma gigante foi usada de verdade.",
    "fx": [
     "burst@40"
    ],
    "sfx": [
     "cannon@40"
-   ]
+   ],
+   "set": "countryside",
+   "tiros": false
   }
  ],
  "fontes": [
   "https://en.wikipedia.org/wiki/2025_United_States_strikes_on_Iranian_nuclear_sites",
   "https://news.usni.org/2025/06/21/u-s-strikes-3-iranian-nuclear-sites-using-b-2s-sub-launched-tomahawks",
   "https://www.csis.org/analysis/what-operation-midnight-hammer-means-future-irans-nuclear-ambitions"
- ]
+ ],
+ "cinf": 4.5,
+ "exp": 1.12
 }

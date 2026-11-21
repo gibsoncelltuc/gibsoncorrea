@@ -16,9 +16,9 @@ Cenas 100% fieis: 9/10 (90%). Lacunas: 1
 ## b6 OK - No painel, estava escrito: Não entre em pânico.
 - na tela: set=['street'] animais=[] objetos=['marco_canaveral', 'roadster'] atores=6 acoes_folha3=[]
 ## b7 OK - O Roadster saiu da órbita da Terra, e seguiu em órbita ao redor do Sol.
-- na tela: set=['arctic'] animais=[] objetos=['globe', 'marco_canaveral', 'roadster'] atores=6 acoes_folha3=['saiu']
+- na tela: set=['arctic'] animais=[] objetos=['globe', 'roadster'] atores=6 acoes_folha3=['saiu']
 ## b8 LACUNA - E ele continua lá em cima, dando voltas, até hoje.
-- na tela: set=['street'] animais=[] objetos=['marco_canaveral', 'roadster'] atores=2 acoes_folha3=[]
+- na tela: set=['arctic'] animais=[] objetos=['roadster'] atores=2 acoes_folha3=[]
 - **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
 ## b9 OK - Um Roadster, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço.
-- na tela: set=['street'] animais=[] objetos=['marco_canaveral', 'roadster', 'rocket'] atores=21 acoes_folha3=[]
+- na tela: set=['arctic'] animais=[] objetos=['roadster', 'rocket'] atores=21 acoes_folha3=[]

@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: cecot2023
-Cenas 100% fieis: 8/11 (73%). Lacunas: 4
+Cenas 100% fieis: 8/11 (73%). Lacunas: 3
 
 ## b0 OK - El Salvador construiu uma prisão tão grande que virou notícia no mundo inteiro.
 - na tela: set=['street'] animais=[] objetos=['house_small', 'prison', 'volcano'] atores=2 acoes_folha3=['construiu']
@@ -13,7 +13,6 @@ Cenas 100% fieis: 8/11 (73%). Lacunas: 4
 - na tela: set=['mountain'] animais=[] objetos=['prison', 'volcano'] atores=19 acoes_folha3=['ergueram', 'presos']
 ## b5 LACUNA - Muralhas altas, cercas elétricas e torres de vigia por todos os lados.
 - na tela: set=['mountain'] animais=[] objetos=['castle_tower', 'prison', 'volcano'] atores=1 acoes_folha3=[]
-- **FALTA:** ACAO narrada ("cercas") sem animacao na folha 3
 - **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
 ## b6 LACUNA - Acontece que, nos anos seguintes, o número de assassinatos no país despencou.
 - na tela: set=['mountain'] animais=[] objetos=['volcano'] atores=2 acoes_folha3=[]

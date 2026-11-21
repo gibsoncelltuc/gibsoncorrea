@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: aprendiz2004
-Cenas 100% fieis: 8/11 (73%). Lacunas: 3
+Cenas 100% fieis: 9/11 (82%). Lacunas: 2
 
 ## b0 OK - Duas palavras transformaram um empresário de Nova York numa estrela da televisão mundial: você está demitido.
 - na tela: set=['street'] animais=[] objetos=['marco_trumptower', 'tv'] atores=6 acoes_folha3=['transformaram']
@@ -14,9 +14,8 @@ Cenas 100% fieis: 8/11 (73%). Lacunas: 3
 ## b5 LACUNA - Acontece que o jeito de eliminar virou a marca do programa. Ele apontava o dedo e dizia: você está demitido.
 - na tela: set=['hall'] animais=[] objetos=['room_eua_shop'] atores=1 acoes_folha3=[]
 - **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
-## b6 LACUNA - A final da primeira temporada foi vista por cerca de vinte e oito milhões de americanos.
+## b6 OK - A final da primeira temporada foi vista por cerca de vinte e oito milhões de americanos.
 - na tela: set=['countryside'] animais=[] objetos=['marco_trumptower', 'picket_fence', 'tv'] atores=33 acoes_folha3=[]
-- **FALTA:** ACAO narrada ("cerca") sem animacao na folha 3
 ## b7 OK - O vencedor, Bill Rancic, ganhou o emprego, com salário de duzentos e cinquenta mil dólares por ano.
 - na tela: set=['countryside'] animais=[] objetos=['marco_trumptower'] atores=2 acoes_folha3=['vencedor', 'ganhou']
 ## b8 LACUNA - O formato se espalhou pelo mundo. No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus.

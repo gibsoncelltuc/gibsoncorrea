@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 24 - O Foguete que Voltou de Ré
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.5s - 21 palavras - plano two
@@ -56,7 +56,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
 ## Cena b6 - 38.2s a 41.9s - 15 palavras - plano low
 > "Acontece que ela desceu de ré, de pé, com o motor aceso freando a queda."
@@ -74,19 +74,18 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | reagir | OK |
 
-## Cena b8 - 48.0s a 50.9s - 12 palavras - plano orbit
-> "Os funcionários da SpaceX gritaram como em final de Copa do Mundo."
+## Cena b8 - 48.0s a 51.4s - 12 palavras - plano orbit
+> "Os funcionários da SpaceX gritaram de alegria, como numa final de campeonato."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | gritaram (49.1s) | EFEITO: ring | onda + som | OK |
 | 2 | gritaram (49.1s) | ACAO: grita | grita de bracos para cima | OK |
 | 3 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | ATUACAO | comemorar | OK |
-| 6 | - | PLACA | POUSOU! | OK |
+| 4 | - | ATUACAO | comemorar | OK |
+| 5 | - | PLACA | POUSOU! | OK |
 
-## Cena b9 - 52.1s a 56.0s - 17 palavras - plano two
+## Cena b9 - 52.8s a 56.6s - 17 palavras - plano two
 > "Foi a primeira vez que um foguete desse tamanho voltou do espaço e pousou inteiro em terra."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -94,7 +93,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | abracar | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 57.1s a 62.9s - 18 palavras - plano close
+## Cena b10 - 57.8s a 63.6s - 18 palavras - plano close
 > "Hoje, os foguetes da SpaceX pousam quase toda semana. E a viagem ao espaço ficou muito mais barata."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
