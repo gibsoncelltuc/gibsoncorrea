@@ -12,7 +12,7 @@ Cenas 100% fieis: 8/9 (89%). Lacunas: 1
 ## b4 OK - O açougueiro comprou dois elefantes, Castor e Pólux, e vendeu a carne em pedaços.
 - na tela: set=['street'] animais=['elephant'] objetos=['Table_Large', 'chest', 'coin', 'marco_notredame'] atores=3 acoes_folha3=['comprou', 'comprou', 'vendeu']
 ## b5 LACUNA - No Natal, um restaurante famoso serviu consomê de elefante, dromedário assado e ensopado de canguru.
-- na tela: set=['hall'] animais=['elephant'] objetos=['Table_Large', 'Table_Plate', 'panela', 'room_franca_shop'] atores=3 acoes_folha3=['serviu']
+- na tela: set=['hall'] animais=[] objetos=['Table_Large', 'Table_Plate', 'elefante', 'panela', 'room_franca_shop'] atores=3 acoes_folha3=['serviu']
 - **FALTA:** ANIMAL/OBJETO sem modelo na biblioteca (dromedario): modelar (Blender) ou mostrar por cartaz/prato
 ## b6 OK - Tinha até gato com roedores, e pernil de lobo.
 - na tela: set=['hall'] animais=['cat', 'wolf'] objetos=['Table_Large', 'Table_Plate', 'rato', 'room_franca_shop'] atores=2 acoes_folha3=[]

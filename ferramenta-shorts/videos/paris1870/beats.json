@@ -313,22 +313,25 @@
      {
       "y": 1.55
      }
+    ],
+    [
+     "kit/elefante",
+     1.1,
+     2.6,
+     0.3,
+     {
+      "y": 1.55,
+      "fixo": true,
+      "tint": "#a9a9b2"
+     }
     ]
    ],
    "text": "ELEFANTE · DROMEDÁRIO · CANGURU",
    "detalhe": false,
    "objetos": false,
-   "animais": true,
-   "animals": [
-    [
-     "elephant",
-     1.1,
-     2.6,
-     "stand",
-     0.14,
-     1.55
-    ]
-   ]
+   "animais": false,
+   "animals": [],
+   "riscos_ok": true
   },
   {
    "say": "Tinha até gato com roedores, e pernil de lobo.",
