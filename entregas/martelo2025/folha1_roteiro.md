@@ -1,12 +1,12 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 23 - O Martelo da Meia-Noite
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain | 13 cenas, 174 palavras (~60 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain | 13 cenas, 179 palavras (~62 s)
 
 ## Cena b0  (~7.2 s)
 - Narracao: Para destruir um bunker escondido dentro de uma montanha, os Estados Unidos usaram uma arma que nunca tinha saído do papel.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_usa (lift) @12 -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 2025
 - Funcao na historia: GANCHO
@@ -33,16 +33,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: Só uma arma chegava lá: a arma antibunker, com mais de treze toneladas. E só um avião carrega essa arma: o B-2.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_chegava (point) @3 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~3.1 s)
-- Narracao: Trump autorizou a missão. O nome: Martelo da Meia-Noite.
+## Cena b4  (~4.5 s)
+- Narracao: Trump assinou a ordem e autorizou a missão. O nome: Martelo da Meia-Noite.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: escreve (write) @1 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -74,12 +74,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
-## Cena b8  (~3.1 s)
-- Narracao: Um submarino ainda lançou mísseis contra uma terceira usina.
+## Cena b8  (~3.4 s)
+- Narracao: Um submarino ainda mandou mísseis que explodiram numa terceira usina.
 - Som ambiente: sea
-- Efeitos sonoros marcados: cannon@45
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: burst@45
+- Efeitos sonoros marcados: cannon@50
+- Efeito + som nas palavras-chave: explodiram -> burst + som de tiro/explosao; encena: fala (point) @3 -> acao + som de efeito; encena: desaba @6 -> acao + som de efeito; voa: rocket sai da mao e voa ate o alvo + som -> acao + som de efeito
+- Efeito visual marcado: burst@50
 - Texto na tela: SUBMARINO
 - Funcao na historia: desenvolvimento
 
@@ -105,7 +105,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: Avaliações posteriores discutiram o tamanho real do estrago.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_discutir (point) @2 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: FORDOW
 - Funcao na historia: GRANDE MOMENTO

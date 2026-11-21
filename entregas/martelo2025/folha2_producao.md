@@ -36,13 +36,13 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: mountain | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (1): GEN (variante 0, expressao stern)
-- Animacao: conversar
+- Personagens principais (2): GEN (variante 0, expressao stern); PIL (variante 0, expressao smug)
+- Animacao: discutir | interacao: susto | o ultimo personagem ENTRA andando
 - Objetos/modelos: kit/bunker_bomb, kit/b2_air, kit/marco_mesquita, vehicles/airplane
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): arma, aviao, treze
 - RISCOS: nenhum
 
-## Cena b4 - Trump autorizou a missão. O nome: Martelo da Meia-Noite.
+## Cena b4 - Trump assinou a ordem e autorizou a missão. O nome: Martelo da Meia-No...
 - Cenario: interior pedra | luz: dia | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
@@ -67,29 +67,29 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): PIL (variante 0, expressao smug); GEN (variante 0, expressao surprised)
-- Animacao: conversar | interacao: cochichar
+- Animacao: discutir | interacao: insiste
 - Objetos/modelos: kit/b2_air, kit/marco_mesquita
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): direcao, pacifico
 - RISCOS: nenhum
 
 ## Cena b7 - Acontece que, de madrugada, os aviões soltaram catorze cargas explosiv...
 - Cenario: mountain | luz: noite | clima: limpo
-- Camera: low = camera baixa, dramatica (virada)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
-- Personagens principais (1): PIL (variante 0, expressao stern)
-- Animacao: conversar
-- Objetos/modelos: kit/b2_air, kit/mountain_bunker, kit/marco_mesquita, vehicles/airplane, kit/bunker_bomb
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): PIL (variante 0, expressao stern) | multidao: 6 de POV
+- Animacao: encena
+- Objetos/modelos: kit/b2_air, kit/mountain_bunker, kit/marco_mesquita, kit/bunker_bomb
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): avioes, bunker, fordow, madrugada
 - RISCOS: nenhum
 
-## Cena b8 - Um submarino ainda lançou mísseis contra uma terceira usina.
+## Cena b8 - Um submarino ainda mandou mísseis que explodiram numa terceira usina.
 - Cenario: harbor | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): GEN (variante 0, expressao shock); PIL (variante 0, expressao surprised)
-- Animacao: reagir | interacao: insiste
+- Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/marco_mesquita
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): submarino, terceira
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): submarino
 - RISCOS: nenhum
 
 ## Cena b9 - Todos os aviões voltaram para casa.
@@ -107,7 +107,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto
 - Personagens principais (2): TRU (variante 0, expressao smug); GEN (variante 0, expressao grin, segura paper)
-- Animacao: conversar | interacao: vai ate o outro
+- Animacao: discutir | interacao: reverencia
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): usinas
 - RISCOS: nenhum
@@ -124,10 +124,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b12 - Foi a primeira vez na história que essa arma gigante foi usada de verd...
 - Cenario: countryside | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (1): GEN (variante 0, expressao stern)
-- Animacao: conversar
+- Personagens principais (2): GEN (variante 0, expressao grin); PIL (variante 0, expressao smile)
+- Animacao: comemorar | interacao: pular
 - Objetos/modelos: kit/bunker_bomb, kit/b2_air, kit/marco_mesquita
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): primeira
 - RISCOS: nenhum
@@ -141,15 +141,15 @@ kit/bunker_bomb | b0, b3, b7, b12 | pronto (HEROI: aparece em close) | conferir 
 kit/b2_air | b0, b3, b5, b6, b7, b9, b12 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_mesquita | b0, b1, b2, b3, b5, b6, b7, b8, b9, b11, b12 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/mountain_bunker | b1, b2, b7, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-vehicles/airplane | b3, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+vehicles/airplane | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_small | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/bunker_bomb | grandes momentos: b5, b9, b11 | planos abertos: 4 | mistura: close 32% | medio 53% | aberto 12% | detalhe 3%
-- Interacoes: b0 o outro se aproxima, b2 discutir, b4 entregar, b6 cochichar, b8 insiste, b10 vai ate o outro
+- Objeto heroi: kit/bunker_bomb | grandes momentos: b5, b9, b11 | planos abertos: 5 | mistura: close 12% | medio 67% | aberto 18% | detalhe 3%
+- Interacoes: b0 o outro se aproxima, b2 discutir, b3 susto, b4 entregar, b6 insiste, b8 aproxima-se, b10 reverencia, b12 pular
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
