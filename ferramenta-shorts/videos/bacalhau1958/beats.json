@@ -100,7 +100,8 @@
    "text": "BACALHAU",
    "tat": 14,
    "tstyle": "brown",
-   "set": "harbor"
+   "set": "arctic",
+   "riscos_ok": true
   },
   {
    "say": "Então a Islândia aumentou os limites do seu mar: doze milhas, cinquenta, e por fim duzentas.",
@@ -135,9 +136,22 @@
     "BRI:2:grin",
     "PES:1:smile"
    ],
-   "props": [],
+   "props": [
+    [
+     "ship",
+     -3,
+     -6,
+     1.2
+    ],
+    [
+     "ship",
+     4,
+     -9,
+     1.0
+    ]
+   ],
    "mood": "march",
-   "set": "street"
+   "set": "harbor"
   },
   {
    "say": "A Islândia só tinha uns barquinhos da guarda costeira, mas eles tinham uma arma secreta: cortadores de rede.",
@@ -192,7 +206,8 @@
     "thump@60",
     "creak@62"
    ],
-   "mood": "tense"
+   "mood": "tense",
+   "set": "harbor"
   },
   {
    "say": "A Islândia ainda ameaçou fechar a base da Otan no país.",

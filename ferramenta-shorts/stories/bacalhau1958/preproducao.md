@@ -5,9 +5,9 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | street | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/cod | - | -
-b1 | harbor | two | 2 | conversar, INTERAGEM: insiste | crate, kit/cod, kit/fishing_net | - | -
+b1 | arctic | two | 2 | conversar, INTERAGEM: insiste | crate, kit/cod, kit/fishing_net | - | -
 b2 | harbor | wide | 7 | reagir | ship | - | -
-b3 | street | crowd | 15 | conversar, batalha | - | - | -
+b3 | harbor | crowd | 15 | conversar, batalha | ship, navios ao fundo | - | -
 b4 | arctic | close | 1 | reagir | - | - | -
 b5 | harbor | orbit | 7 | encena, batalha | ship, kit/fishing_net, navios ao fundo | - | -
 b6 | mountain | two | 2 | conversar, INTERAGEM: susto | - | - | -

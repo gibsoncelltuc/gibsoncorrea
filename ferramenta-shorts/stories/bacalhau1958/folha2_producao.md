@@ -13,7 +13,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b1 - A Islândia é pequena, e vivia da pesca. Mas barcos ingleses pescavam b...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: arctic | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ICE (variante 1, expressao nervous); PES (variante 0, expressao grin)
@@ -33,12 +33,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - A Inglaterra mandou a marinha para proteger os barcos de pesca.
-- Cenario: street | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): BRI (variante 1, expressao stern); BRI (variante 2, expressao grin); PES (variante 1, expressao smile) | multidao: 12 de POV
 - Animacao: conversar | batalha encenada
-- Objetos/modelos: -
+- Objetos/modelos: ship, navios ao fundo
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barcos, inglaterra, marinha, pesca
 - RISCOS: nenhum
 
@@ -100,7 +100,7 @@ Objeto | Cenas | Situacao | O que fazer
 kit/cod | b0, b1, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 crate | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/fishing_net | b1, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-ship | b2, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+ship | b2, b3, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro

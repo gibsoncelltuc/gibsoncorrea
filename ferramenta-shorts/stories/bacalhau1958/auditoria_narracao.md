@@ -4,11 +4,11 @@ Cenas 100% fieis: 9/9 (100%). Lacunas: 0
 ## b0 OK - Entre mil novecentos e cinquenta e oito e mil novecentos e setenta e seis, a Islândia e a Inglaterra travaram três guerras. Por causa de peixe.
 - na tela: set=['street'] animais=[] objetos=['cod', 'shop'] atores=6 acoes_folha3=['travaram']
 ## b1 OK - A Islândia é pequena, e vivia da pesca. Mas barcos ingleses pescavam bacalhau bem pertinho da costa dela.
-- na tela: set=['street'] animais=[] objetos=['cod', 'crate', 'fishing_net', 'lighthouse'] atores=6 acoes_folha3=['pescavam']
+- na tela: set=['arctic'] animais=[] objetos=['cod', 'crate', 'fishing_net'] atores=6 acoes_folha3=['pescavam']
 ## b2 OK - Então a Islândia aumentou os limites do seu mar: doze milhas, cinquenta, e por fim duzentas.
 - na tela: set=['street'] animais=[] objetos=['ship'] atores=7 acoes_folha3=['aumentou']
 ## b3 OK - A Inglaterra mandou a marinha para proteger os barcos de pesca.
-- na tela: set=['street'] animais=[] objetos=[] atores=15 acoes_folha3=['mandou']
+- na tela: set=['street'] animais=[] objetos=['ship'] atores=15 acoes_folha3=['mandou']
 ## b4 OK - A Islândia só tinha uns barquinhos da guarda costeira, mas eles tinham uma arma secreta: cortadores de rede.
 - na tela: set=['arctic'] animais=[] objetos=[] atores=1 acoes_folha3=['rede']
 ## b5 OK - Eles cortavam os cabos das redes inglesas, e os navios batiam um no outro, de propósito.
