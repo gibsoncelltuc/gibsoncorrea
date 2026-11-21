@@ -17,7 +17,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): NED (variante 0, expressao nervous); NED (variante 1, expressao shock) | multidao: 10 de POV
-- Animacao: reagir
+- Animacao: conversar
 - Objetos/modelos: ship, kit/marco_amsterdam, navios ao fundo
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frota
 - RISCOS: nenhum
@@ -27,7 +27,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): NED (variante 2, expressao pained) | multidao: 6 de POV
-- Animacao: encena
+- Animacao: reagir
 - Objetos/modelos: ship, vehicles/truck
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gelo, navios
 - RISCOS: nenhum
@@ -47,7 +47,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): GEN (variante 0, expressao grin) | multidao: 5 de POV
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: horse
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalaria, cavalo, chefe, frota
 - RISCOS: nenhum
@@ -87,7 +87,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (1): OFF (variante 0, expressao laugh)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalaria, frota
 - RISCOS: nenhum

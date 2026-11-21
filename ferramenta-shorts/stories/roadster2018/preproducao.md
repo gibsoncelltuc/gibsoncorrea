@@ -5,7 +5,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | harbor | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/falcon_air, kit/roadster, kit/marco_canaveral | - | -
-b1 | street | close | 1 | conversar | kit/roadster, kit/marco_canaveral | - | -
+b1 | street | close | 1 | reagir | kit/roadster, kit/marco_canaveral | - | -
 b2 | harbor | reveal | 8 | parados (so fala e pisca) | kit/rocket, kit/marco_canaveral | - | -
 b3 | street | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/roadster, kit/marco_canaveral | - | -
 b4 | street | crowd | 23 | reagir, batalha | kit/falcon_air, kit/marco_canaveral, kit/rocket | - | -

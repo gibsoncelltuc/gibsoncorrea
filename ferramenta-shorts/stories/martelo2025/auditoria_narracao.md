@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: martelo2025
-Cenas 100% fieis: 8/11 (73%). Lacunas: 3
+Cenas 100% fieis: 10/11 (91%). Lacunas: 1
 
 ## b0 LACUNA - Para destruir um bunker escondido dentro de uma montanha, os Estados Unidos usaram uma bomba que nunca tinha saído do papel.
 - na tela: set=['street'] animais=[] objetos=['b2_air', 'bunker_bomb', 'marco_mesquita'] atores=6 acoes_folha3=['usaram', 'bomba', 'bomba']
@@ -10,14 +10,12 @@ Cenas 100% fieis: 8/11 (73%). Lacunas: 3
 - na tela: set=['street'] animais=[] objetos=['marco_mesquita', 'mountain_bunker'] atores=2 acoes_folha3=[]
 ## b3 OK - Só uma arma chegava lá: a bomba antibunker, com mais de treze toneladas. E só um avião carrega essa bomba: o B-2.
 - na tela: set=['countryside'] animais=[] objetos=['airplane', 'b2_air', 'bunker_bomb', 'marco_mesquita'] atores=3 acoes_folha3=['chegava', 'bomba', 'bomba:', 'bomba']
-## b4 LACUNA - Trump autorizou a missão. O nome: Martelo da Meia-Noite.
+## b4 OK - Trump autorizou a missão. O nome: Martelo da Meia-Noite.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_eua_wood'] atores=2 acoes_folha3=[]
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
 ## b5 OK - Sete bombardeiros invisíveis decolaram do Missouri, e voaram mais de um dia sem parar.
 - na tela: set=['street'] animais=[] objetos=['b2_air', 'marco_mesquita'] atores=18 acoes_folha3=['decolaram']
-## b6 LACUNA - Para despistar, outros B-2 foram mandados na direção contrária, para o Pacífico.
+## b6 OK - Para despistar, outros B-2 foram mandados na direção contrária, para o Pacífico.
 - na tela: set=['countryside'] animais=[] objetos=['b2_air', 'marco_mesquita'] atores=2 acoes_folha3=[]
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
 ## b7 OK - Acontece que, de madrugada, os aviões soltaram catorze bombas. Doze delas em cima de Fordow, pelos respiros do bunker.
 - na tela: set=['outback'] animais=[] objetos=['airplane', 'b2_air', 'bunker_bomb', 'marco_mesquita', 'mountain_bunker'] atores=3 acoes_folha3=['soltaram', 'bombas', 'bombas']
 ## b8 OK - Um submarino ainda disparou mísseis contra uma terceira usina. Todos os aviões voltaram para casa.

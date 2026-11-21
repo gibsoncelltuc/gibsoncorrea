@@ -22,7 +22,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | socorro (10.7s) | EFEITO: ring | onda + som | OK |
 | 3 | socorro (10.7s) | ACAO: grita | grita de bracos para cima | OK |
 | 4 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
-| 5 | - | ATUACAO | reagir | OK |
+| 5 | - | ATUACAO | conversar | OK |
 | 6 | - | MAPA | AUSTRÁLIA | OK |
 | 7 | - | PLACA | 20.000 EMUS | OK |
 
@@ -68,7 +68,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | metralhadora (28.1s) | EFEITO: burst | estouro/clarao + som | OK |
 | 3 | metralhadora (28.1s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 4 | pulava (30.4s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
-| 5 | - | ATUACAO | conversar | OK |
+| 5 | - | ATUACAO | reagir | OK |
 
 ## Cena b6 - 33.0s a 38.1s - 15 palavras - plano group
 > "Depois de uma semana, milhares de balas gastas, e os emus quase sem um arranhão."

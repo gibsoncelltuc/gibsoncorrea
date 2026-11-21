@@ -51,7 +51,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | venceu (22.6s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | venceu (22.6s) | ACAO: vence | bracos para cima + brilho | OK |
 | 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 4 | - | ATUACAO | comemorar | OK |
+| 4 | - | ATUACAO | reagir | OK |
 
 ## Cena b5 - 28.1s a 32.6s - 13 palavras - plano crowd
 > "Os apoiadores comemoraram a noite inteira. Trump subiu ao palco e declarou vitória."

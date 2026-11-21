@@ -11,7 +11,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | internet (2.2s) | ACAO: x_fone | celular na mao + toque | OK |
 | 2 | - | INTERACAO | aproxima-se | OK |
-| 3 | - | ATUACAO | reagir | OK |
+| 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | E SE... | OK |
 
 ## Cena b1 - 5.9s a 8.1s - 7 palavras - plano reveal
@@ -64,7 +64,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | reagir | OK |
 
 ## Cena b7 - 40.4s a 43.7s - 10 palavras - plano two
 > "Gente conversando na rua, jogando bola, olhando para o céu."

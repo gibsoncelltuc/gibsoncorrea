@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 11 - A Janela do Cybertruck
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 8 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 8 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 7.8s - 22 palavras - plano two
@@ -20,7 +20,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
+| 1 | - | ATUACAO | reagir | OK |
 
 ## Cena b2 - 13.3s a 18.1s - 14 palavras - plano group
 > "Para provar, o designer Franz von Holzhausen jogou uma esfera de aço na janela."
@@ -57,7 +57,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | explicou (27.4s) | ACAO: fala | aponta explicando | OK |
 | 2 | internet (28.1s) | ACAO: x_fone | celular na mao + toque | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 3 | - | ATUACAO | reagir | OK |
 
 ## Cena b6 - 33.7s a 39.3s - 16 palavras - plano crowd
 > "A plateia riu, a internet também, e a cena deu o que falar no mundo inteiro."

@@ -47,7 +47,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (1): MAR (variante 0, expressao smile)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/curie_box
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): escuro, frascos, radio
 - RISCOS: nenhum
@@ -57,7 +57,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): MAR (variante 0, expressao nervous, segura paper); PIE (variante 0, expressao worried)
-- Animacao: reagir | interacao: o outro se aproxima
+- Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bolso, frascos, gaveta, mesa, perigo
 - RISCOS: nenhum
@@ -77,7 +77,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): MAR (variante 0, expressao sad)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/marco_eiffel
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): radiacao, saude
 - RISCOS: nenhum
@@ -97,7 +97,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (1): PES (variante 0, expressao scared)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/curie_box
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): protecao, responsabilidade, termo
 - RISCOS: nenhum
@@ -117,7 +117,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (1): MAR (variante 0, expressao smile)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/curie_box, kit/marco_eiffel
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cadernos, marie
 - RISCOS: nenhum

@@ -60,7 +60,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | morreu (36.3s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
 | 5 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
 | 6 | - | INTERACAO | insiste | OK |
-| 7 | - | ATUACAO | reagir | OK |
+| 7 | - | ATUACAO | conversar | OK |
 
 ## Cena b6 - 38.2s a 43.7s - 18 palavras - plano close
 > "Semmelweis entendeu tudo: os médicos saíam das autópsias e iam direto para os partos, com as mãos sujas."
@@ -68,7 +68,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | entendeu (38.7s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | - | ATUACAO | reagir | OK |
 
 ## Cena b7 - 45.0s a 49.9s - 21 palavras - plano two
 > "Ele colocou uma bacia com água e cloro na porta, e obrigou todo mundo a lavar as mãos antes de entrar."
@@ -78,8 +78,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | colocou (45.2s) | ACAO: g_colocou | g_colocou | OK |
 | 2 | obrigou (47.7s) | ACAO: g_obrigou | g_obrigou | OK |
 | 3 | lavar (48.9s) | ACAO: x_lava | lava/esfrega na bacia + respingo | OK |
-| 4 | - | INTERACAO | discutir | OK |
-| 5 | - | ATUACAO | discutir | OK |
+| 4 | - | INTERACAO | vai ate o outro | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
 ## Cena b8 - 50.9s a 55.4s - 11 palavras - plano crowd
 > "As mortes despencaram quase dez vezes. Centenas de mães foram salvas."
@@ -108,7 +108,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | morreu (66.4s) | EFEITO: puff | fumaca + som | OK |
 | 2 | morreu (66.4s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
 | 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 4 | - | ATUACAO | reagir | OK |
 
 ## Cena b11 - 71.0s a 76.5s - 15 palavras - plano close
 > "Anos depois, a ciência provou os micróbios. Hoje, ele é chamado de salvador das mães."
@@ -116,6 +116,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | provou (72.5s) | ACAO: fala | aponta explicando | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | - | ATUACAO | reagir | OK |
 | 3 | - | PLACA | LAVE AS MÃOS | OK |
 

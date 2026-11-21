@@ -17,7 +17,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): MUS (variante 0, expressao smug) | multidao: 8 de POV
-- Animacao: encena
+- Animacao: reagir
 - Objetos/modelos: kit/marco_goldengate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): internet, propria, video
 - RISCOS: nenhum
@@ -37,7 +37,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): FUN (variante 0, expressao surprised)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/sink, kit/marco_goldengate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): palavra, trocadilho
 - RISCOS: nenhum

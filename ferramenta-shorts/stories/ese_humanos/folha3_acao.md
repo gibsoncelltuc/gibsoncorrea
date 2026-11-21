@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - E Se EP 02 - E Se os Humanos Sumissem da Terra?
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 7.0s - 20 palavras - plano two
@@ -28,7 +28,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | começariam (13.0s) | ACAO: g_comecari | g_comecari | OK |
 | 2 | - | INTERACAO | entregar | OK |
-| 3 | - | ATUACAO | reagir | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b3 - 15.6s a 20.4s - 14 palavras - plano two
 > "Cachorros e gatos de estimação teriam que se virar sozinhos. Muitos voltariam a caçar."
@@ -36,14 +36,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | voltariam (19.6s) | ACAO: g_voltaria | g_voltaria | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | - | ATUACAO | reagir | OK |
 
 ## Cena b4 - 20.7s a 28.1s - 21 palavras - plano low
 > "Em dois dias, o metrô de Nova York ficaria inundado, porque as máquinas que tiram a água dos túneis iriam parar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
+| 1 | - | ATUACAO | reagir | OK |
 
 ## Cena b5 - 28.5s a 33.7s - 15 palavras - plano crowd
 > "Em vinte anos, as ruas virariam florestas. Veados e lobos andariam pelo meio das avenidas."
@@ -61,7 +61,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | cairiam (38.9s) | ACAO: desaba | desaba: nuvem de poeira + tremor | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | - | ATUACAO | reagir | OK |
 
 ## Cena b7 - 40.4s a 46.7s - 18 palavras - plano two
 > "O que sobraria? Construções de pedra, como as pirâmides, que já resistem há mais de quatro mil anos."
@@ -95,5 +95,5 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | seguiria (57.0s) | ACAO: g_seguiria | g_seguiria | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | - | ATUACAO | reagir | OK |
 

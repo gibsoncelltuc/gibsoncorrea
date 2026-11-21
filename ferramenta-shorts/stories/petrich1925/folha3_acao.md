@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - A Guerra do Cachorro Perdido
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 5.6s - 16 palavras - plano two
@@ -45,14 +45,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 7 | - | ATUACAO | reagir | OK |
 
-## Cena b4 - 18.9s a 21.5s - 8 palavras - plano close
+## Cena b4 - 18.9s a 21.5s - 8 palavras - plano group
 > "A Grécia ficou furiosa, e deu um ultimato."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | deu (20.7s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | ULTIMATO | OK |
+| 2 | - | INTERACAO | entregar | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | ULTIMATO | OK |
 
 ## Cena b5 - 21.9s a 27.0s - 15 palavras - plano orbit
 > "Poucos dias depois, o exército grego invadiu a Bulgária e ocupou a região de Petrich."
@@ -73,7 +74,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | apelou (28.1s) | ACAO: g_apelou | g_apelou | OK |
 | 2 | - | INTERACAO | susto | OK |
-| 3 | - | ATUACAO | reagir | OK |
+| 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | LIGA DAS NAÇÕES | OK |
 
 ## Cena b7 - 31.9s a 36.3s - 13 palavras - plano group
@@ -84,8 +85,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | mandou (32.6s) | ACAO: fala | aponta explicando | OK |
 | 2 | pagar (35.6s) | EFEITO: stars | estrelinhas + som | OK |
 | 3 | pagar (35.6s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 4 | - | INTERACAO | entregar | OK |
-| 5 | - | ATUACAO | reagir | OK |
+| 4 | - | INTERACAO | avanca e o outro recua | OK |
+| 5 | - | ATUACAO | conversar | OK |
 | 6 | - | PLACA | INDENIZAÇÃO | OK |
 
 ## Cena b8 - 36.7s a 40.7s - 12 palavras - plano close
@@ -93,6 +94,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | reagir | OK |
 | 2 | - | PLACA | E O CACHORRO? | OK |
 

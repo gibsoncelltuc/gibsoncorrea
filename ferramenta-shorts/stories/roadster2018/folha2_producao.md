@@ -17,7 +17,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (1): MUS (variante 0, expressao smug)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/roadster, kit/marco_canaveral
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dono, roadster, spacex
 - RISCOS: nenhum

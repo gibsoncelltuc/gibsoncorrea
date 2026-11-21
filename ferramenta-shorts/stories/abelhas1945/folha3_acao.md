@@ -14,7 +14,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | descobriu (4.0s) | EFEITO: ring | onda + som | OK |
 | 4 | descobriu (4.0s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
 | 5 | - | INTERACAO | avanca e o outro recua | OK |
-| 6 | - | ATUACAO | dancar | OK |
+| 6 | - | ATUACAO | conversar | OK |
 | 7 | - | PLACA | DANÇA | OK |
 
 ## Cena b1 - 6.2s a 9.6s - 13 palavras - plano reveal
@@ -51,7 +51,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | voltava (25.3s) | ACAO: g_voltava | g_voltava | OK |
 | 2 | dançava (25.8s) | ACAO: danca | danca de bracos para cima | OK |
-| 3 | - | ATUACAO | dancar | OK |
+| 3 | - | ATUACAO | reagir | OK |
 
 ## Cena b5 - 27.9s a 34.1s - 17 palavras - plano two
 > "Se a comida estava perto, ela dava voltinhas. Se estava longe, fazia um oito, rebolando no meio."
@@ -121,5 +121,5 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | segredo (68.3s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
 | 4 | dançando (68.7s) | EFEITO: stars | estrelinhas + som | OK |
 | 5 | dançando (68.7s) | ACAO: danca | danca de bracos para cima | OK |
-| 6 | - | ATUACAO | dancar | OK |
+| 6 | - | ATUACAO | reagir | OK |
 

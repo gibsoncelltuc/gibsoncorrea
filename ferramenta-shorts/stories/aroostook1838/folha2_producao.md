@@ -97,7 +97,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): AME (variante 0, expressao smile) | multidao: 10 de POV
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/logs, nature/tree_pine, pig
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): feijao, porco, tropas
 - RISCOS: nenhum

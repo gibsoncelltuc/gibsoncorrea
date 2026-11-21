@@ -25,14 +25,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | reagir | OK |
 
 ## Cena b3 - 12.7s a 17.6s - 16 palavras - plano two
 > "O pelo do cachorro e a calça dele estavam cheios de carrapichos. Dava um trabalhão arrancar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | reagir | OK |
 
 ## Cena b4 - 18.8s a 21.7s - 11 palavras - plano two
 > "Curioso, ele levou um carrapicho para casa e olhou no microscópio."
@@ -41,7 +41,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | olhou (21.4s) | ACAO: olha | aponta/olha | OK |
 | 2 | microscópio (21.7s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 3 | - | ATUACAO | reagir | OK |
 
 ## Cena b5 - 23.0s a 27.0s - 15 palavras - plano close
 > "Acontece que cada espinho tinha um ganchinho na ponta, que agarrava nas voltinhas do tecido."
@@ -57,7 +57,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | pensou (28.6s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | - | ATUACAO | reagir | OK |
 
 ## Cena b7 - 35.8s a 40.8s - 15 palavras - plano orbit
 > "Os tecelões riram da ideia. Levou quase dez anos de tentativas até acertar o material."
@@ -95,7 +95,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | reagir | OK |
 | 2 | - | PLACA | VELCRO | OK |
 
 ## Cena b11 - 62.3s a 67.4s - 17 palavras - plano close
@@ -103,5 +103,5 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | reagir | OK |
 

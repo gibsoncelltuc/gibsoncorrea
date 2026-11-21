@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - As Guerras do Bacalhau
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 9.3s - 26 palavras - plano two
@@ -22,7 +22,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | pescavam (13.7s) | ACAO: g_pescavam | g_pescavam | OK |
 | 2 | - | INTERACAO | insiste | OK |
-| 3 | - | ATUACAO | reagir | OK |
+| 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | BACALHAU | OK |
 
 ## Cena b2 - 16.3s a 21.9s - 16 palavras - plano wide
@@ -31,7 +31,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | aumentou (17.4s) | ACAO: g_aumentou | g_aumentou | OK |
-| 2 | - | PLACA | 200 MILHAS | OK |
+| 2 | - | ATUACAO | reagir | OK |
+| 3 | - | PLACA | 200 MILHAS | OK |
 
 ## Cena b3 - 22.2s a 25.9s - 11 palavras - plano crowd
 > "A Inglaterra mandou a marinha para proteger os barcos de pesca."
@@ -40,6 +41,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | mandou (23.0s) | ACAO: fala | aponta explicando | OK |
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b4 - 26.3s a 32.6s - 18 palavras - plano close
 > "A Islândia só tinha uns barquinhos da guarda costeira, mas eles tinham uma arma secreta: cortadores de rede."
@@ -47,7 +49,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | rede (32.6s) | ACAO: x_pesca | puxa a linha + respingo | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | - | ATUACAO | reagir | OK |
 | 3 | - | PLACA | CORTADORES DE REDE | OK |
 
 ## Cena b5 - 33.0s a 38.5s - 16 palavras - plano orbit
@@ -65,8 +67,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | ameaçou (40.0s) | ACAO: g_ameacou | g_ameacou | OK |
-| 2 | - | INTERACAO | discutir | OK |
-| 3 | - | ATUACAO | discutir | OK |
+| 2 | - | INTERACAO | susto | OK |
+| 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | OTAN | OK |
 
 ## Cena b7 - 43.0s a 51.1s - 23 palavras - plano two
@@ -87,6 +89,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | batendo (53.3s) | ACAO: x_bate | bate + estouro | OK |
 | 2 | redes (54.4s) | ACAO: x_fone | celular na mao + toque | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 3 | - | ATUACAO | reagir | OK |
 | 4 | - | PLACA | TUDO POR UM PEIXE | OK |
 

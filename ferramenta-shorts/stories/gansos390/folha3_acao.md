@@ -10,7 +10,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | susto | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | 390 a.C. | OK |
 
 ## Cena b1 - 3.7s a 8.5s - 14 palavras - plano crowd
@@ -30,7 +30,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | sobraram (10.0s) | ACAO: g_sobraram | g_sobraram | OK |
 | 2 | trancaram (10.7s) | ACAO: g_trancara | g_trancara | OK |
 | 3 | - | INTERACAO | insiste | OK |
-| 4 | - | ATUACAO | reagir | OK |
+| 4 | - | ATUACAO | conversar | OK |
 | 5 | - | PLACA | CAPITÓLIO | OK |
 
 ## Cena b3 - 15.6s a 21.9s - 18 palavras - plano orbit
@@ -41,7 +41,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | apertava (17.4s) | ACAO: g_apertava | g_apertava | OK |
 | 2 | respondeu (21.1s) | ACAO: g_responde | g_responde | OK |
 | 3 | - | EMOCAO: pleading | o rosto vira "pleading" na palavra | OK |
-| 4 | - | ATUACAO | discutir | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b4 - 22.2s a 28.1s - 17 palavras - plano group
 > "Numa noite sem lua, os gauleses escalaram a colina em silêncio. Os guardas dormiam. Ninguém ouviu nada."
@@ -105,5 +105,5 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | dormiram (53.3s) | ACAO: g_dormiram | g_dormiram | OK |
 | 2 | ganharam (54.8s) | EFEITO: stars | estrelinhas + som | OK |
 | 3 | ganharam (54.8s) | ACAO: vence | bracos para cima + brilho | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 4 | - | ATUACAO | reagir | OK |
 

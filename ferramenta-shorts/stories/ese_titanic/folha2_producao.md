@@ -27,7 +27,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): MAR (variante 0, expressao scared); CAP (variante 0, expressao shock)
-- Animacao: discutir | interacao: discutir
+- Animacao: conversar | interacao: entregar
 - Objetos/modelos: kit/iceberg, kit/marco_liberdade
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): desviar, frente, meianoite, vigia
 - RISCOS: nenhum
@@ -128,7 +128,7 @@ kit/scroll | b7 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 ## Video inteiro
 - Objeto heroi: kit/iceberg | grandes momentos: b4, b9 | planos abertos: 3 | mistura: close 33% | medio 52% | aberto 12% | detalhe 3%
-- Interacoes: b0 aproxima-se, b2 discutir, b5 avanca e o outro recua, b6 cochichar, b8 entregar
+- Interacoes: b0 aproxima-se, b2 entregar, b5 avanca e o outro recua, b6 cochichar, b8 entregar
 - RISCOS GERAIS: 
   - objeto heroi (kit/iceberg) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
 

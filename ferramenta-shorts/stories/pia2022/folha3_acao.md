@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 10 - A Pia no Twitter
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 8 frases, 22 acoes catalogadas, 22 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 8 frases, 23 acoes catalogadas, 23 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 7.8s - 22 palavras - plano track
@@ -20,7 +20,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | filmou (8.5s) | ACAO: tira | tira foto (celular + flash) | OK |
 | 2 | postou (10.4s) | ACAO: x_fone | celular na mao + toque | OK |
-| 3 | - | MAPA | ESTADOS UNIDOS | OK |
+| 3 | - | ATUACAO | reagir | OK |
+| 4 | - | MAPA | ESTADOS UNIDOS | OK |
 
 ## Cena b2 - 12.2s a 15.9s - 11 palavras - plano two
 > "A legenda dizia: Entrando na sede do Twitter. Deixe isso afundar."
@@ -39,7 +40,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | afundar (21.5s) | ACAO: desaba | desaba: nuvem de poeira + tremor | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | - | ATUACAO | reagir | OK |
 
 ## Cena b4 - 21.9s a 28.1s - 18 palavras - plano orbit
 > "Naquela época, ele estava prestes a fechar a compra do Twitter, por quarenta e quatro bilhões de dólares."

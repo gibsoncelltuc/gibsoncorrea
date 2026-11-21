@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Teste de Personagens
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 4 frases, 12 acoes catalogadas, 12 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 4 frases, 14 acoes catalogadas, 14 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 3.0s - 9 palavras - plano group
@@ -22,7 +22,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | vai ate o outro | OK |
-| 2 | - | PLACA | AGUARDENTE | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | AGUARDENTE | OK |
 
 ## Cena b2 - 7.0s a 10.0s - 9 palavras - plano group
 > "Mago, e três cortes de cabelo diferentes, sem chapéu."
@@ -30,6 +31,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | aproxima-se | OK |
+| 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b3 - 10.4s a 13.0s - 8 palavras - plano two
 > "E uma turma misturada, com tocha e bandeira."

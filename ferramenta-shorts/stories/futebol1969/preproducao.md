@@ -9,15 +9,15 @@ b1 | street | reveal | 10 | discutir | kit/volcano, buildings/house_small, natur
 b2 | stadium | two | 2 | conversar, INTERAGEM: aproxima-se, alguem chega andando | kit/ball, kit/trave | - | -
 b3 | stadium | orbit | 32 | comemorar, batalha | kit/trave, kit/panela, kit/kettle, buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
 b4 | street | two | 2 | discutir, INTERAGEM: empurrar | kit/volcano | - | -
-b5 | interior madeira | two | 2 | reagir, INTERAGEM: susto | - | paper | -
+b5 | interior madeira | two | 2 | conversar, INTERAGEM: susto | - | paper | -
 b6 | stadium | group | 3 | comemorar, INTERAGEM: pular | kit/ball, kit/trave | - | -
 b7 | street | crowd | 22 | batalha | vehicles/tank, vehicles/airplane, kit/volcano | - | -
-b8 | street | two | 2 | discutir, INTERAGEM: discutir | kit/volcano | paper | -
-b9 | stadium | close | 1 | conversar | kit/ball, kit/trave | - | -
+b8 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/volcano | paper | -
+b9 | stadium | close | 1 | reagir | kit/ball, kit/trave | - | -
 
 OBJETO HEROI: kit/ball - aparece em 4 cena(s), close nele em 2
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 3 -> b0, b3, b7
-Interacoes entre personagens: b2 aproxima-se, b4 empurrar, b5 susto, b6 pular, b8 discutir
+Interacoes entre personagens: b2 aproxima-se, b4 empurrar, b5 susto, b6 pular, b8 avanca e o outro recua
 
 Cenas com personagens parados: 0 de 10
 FALTA MODELAR: nada

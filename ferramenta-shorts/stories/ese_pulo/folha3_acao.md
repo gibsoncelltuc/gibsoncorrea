@@ -43,7 +43,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | reagir | OK |
 
 ## Cena b5 - 24.8s a 29.6s - 14 palavras - plano two
 > "Ela se mexeria menos que a largura de um átomo. Nenhum instrumento conseguiria medir."
@@ -80,7 +80,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | caos: (44.1s) | EFEITO: puff | fumaca + som | OK |
 | 2 | caos (44.1s) | ACAO: grita | grita de bracos para cima | OK |
 | 3 | - | INTERACAO | o outro se aproxima | OK |
-| 4 | - | ATUACAO | reagir | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b9 - 50.7s a 54.1s - 10 palavras - plano two
 > "Ou seja: pular junto é fácil. Difícil seria a volta."

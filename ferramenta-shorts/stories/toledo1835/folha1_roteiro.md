@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: O presidente mandou os dois pararem, e o Congresso ofereceu um acordo. Ninguém queria ceder.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: pedido: plano medio dos dois, um pede ao outro -> shot + som de efeito; encena: fala (point) @2 -> acao + som de efeito; encena: x_serve (reach) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito; encena: x_serve (reach) @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: ACORDO
 - Funcao na historia: desenvolvimento

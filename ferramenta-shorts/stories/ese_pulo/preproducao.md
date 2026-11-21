@@ -8,11 +8,11 @@ b0 | street | two | 2 | conversar, INTERAGEM: aproxima-se | kit/globe | - | -
 b1 | street | reveal | 8 | parados (so fala e pisca) | - | - | -
 b2 | interior madeira | two | 2 | conversar, INTERAGEM: avanca e o outro recua | - | paper | -
 b3 | countryside | crowd | 33 | comemorar, batalha | - | - | -
-b4 | countryside | close | 1 | conversar | kit/globe | - | -
+b4 | countryside | close | 1 | reagir | kit/globe | - | -
 b5 | countryside | two | 2 | conversar, INTERAGEM: susto | kit/globe | - | -
 b6 | street | orbit | 25 | reagir, batalha | - | - | -
 b7 | street | group | 7 | discutir, INTERAGEM: discutir | - | - | -
-b8 | countryside | two | 2 | reagir, INTERAGEM: o outro se aproxima | buildings/house_small, nature/picket_fence, nature/tree_oak | paper | -
+b8 | countryside | two | 2 | conversar, INTERAGEM: o outro se aproxima | buildings/house_small, nature/picket_fence, nature/tree_oak | paper | -
 b9 | countryside | two | 2 | conversar, INTERAGEM: abracar | - | - | -
 b10 | street | close | 1 | comemorar | kit/globe | - | -
 

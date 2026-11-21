@@ -54,7 +54,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | pensou (30.7s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | - | ATUACAO | reagir | OK |
 
 ## Cena b6 - 34.8s a 40.4s - 16 palavras - plano orbit
 > "Acontece que a sombra era diferente, e isso só podia acontecer se a Terra fosse curva."
@@ -96,5 +96,5 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | reagir | OK |
 

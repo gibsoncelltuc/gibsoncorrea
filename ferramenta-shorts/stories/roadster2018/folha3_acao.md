@@ -18,7 +18,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | ideia (8.9s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | - | ATUACAO | reagir | OK |
 
 ## Cena b2 - 11.9s a 20.0s - 23 palavras - plano reveal
 > "O voo de estreia do Falcon Heavy, o maior foguete da empresa, aconteceu em seis de fevereiro, em Cabo Canaveral, nos Estados Unidos."

@@ -7,7 +7,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): FAZ (variante 0, expressao shock, segura pitchfork); IRL (variante 0, expressao angry)
-- Animacao: reagir | interacao: o outro se aproxima | o ultimo personagem ENTRA andando
+- Animacao: conversar | interacao: o outro se aproxima | o ultimo personagem ENTRA andando
 - Objetos/modelos: nature/picket_fence, nature/haybale, pig
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): porco
 - RISCOS: nenhum
@@ -17,7 +17,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): FAZ (variante 0, expressao neutral); IRL (variante 0, expressao neutral) | multidao: 8 de POV
-- Animacao: -
+- Animacao: conversar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canada, estados, ilha
 - RISCOS: nenhum
@@ -27,7 +27,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): FAZ (variante 0, expressao angry, segura pitchfork)
-- Animacao: encena
+- Animacao: reagir
 - Objetos/modelos: nature/flowerbed, nature/picket_fence, nature/scarecrow, tools/wheelbarrow, buildings/barn, nature/haybale, pig
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): batatas, fazendeiro, horta, porco
 - RISCOS: nenhum
@@ -37,7 +37,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): FAZ (variante 0, expressao angry)
-- Animacao: atira
+- Animacao: reagir
 - Objetos/modelos: nature/picket_fence, nature/haybale, buildings/house_small, nature/tree_oak, pig
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): espingarda, porco, vizinho
 - RISCOS: nenhum
@@ -87,7 +87,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): ALM (variante 0, expressao stern); ING (variante 1, expressao nervous)
-- Animacao: discutir | interacao: vai ate o outro
+- Animacao: conversar | interacao: susto
 - Objetos/modelos: pig
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): almirante, atacar, porco
 - RISCOS: nenhum
@@ -117,7 +117,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): FAZ (variante 0, expressao sad)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/cross, nature/picket_fence, pig
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): porco
 - RISCOS: nenhum
@@ -142,7 +142,7 @@ kit/cross | b11 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 ## Video inteiro
 - Objeto heroi: - | grandes momentos: b7, b9 | planos abertos: 3 | mistura: close 8% | medio 77% | aberto 13% | detalhe 1%
-- Interacoes: b0 o outro se aproxima, b4 entregar, b5 discutir, b6 empurrar, b8 vai ate o outro, b10 insiste
+- Interacoes: b0 o outro se aproxima, b4 entregar, b5 discutir, b6 empurrar, b8 susto, b10 insiste
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

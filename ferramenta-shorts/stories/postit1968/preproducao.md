@@ -6,16 +6,16 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | street | two | 2 | discutir, INTERAGEM: discutir | kit/postit, kit/globe | - | -
 b1 | street | reveal | 8 | parados (so fala e pisca) | - | - | -
-b2 | interior madeira | two | 1 | encena | - | paper | -
+b2 | interior madeira | two | 1 | reagir | - | paper | -
 b3 | interior madeira | group | 1 | reagir | - | paper | -
 b4 | interior madeira | two | 2 | conversar, INTERAGEM: entregar | - | paper | -
 b5 | street | crowd | 19 | encena, batalha | buildings/church | - | -
 b6 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/postit | paper | -
-b7 | countryside | close | 1 | conversar | kit/postit | - | -
+b7 | countryside | close | 1 | reagir | kit/postit | - | -
 b8 | interior madeira | two | 2 | conversar, INTERAGEM: abracar | kit/postit | - | -
 b9 | interior loja | two | 2 | conversar, INTERAGEM: susto | kit/postit | paper | -
 b10 | street | orbit | 33 | comemorar, batalha | kit/postit, buildings/apartment, buildings/house_two, nature/lamppost | - | -
-b11 | street | close | 1 | conversar | kit/postit | - | -
+b11 | street | close | 1 | reagir | kit/postit | - | -
 
 OBJETO HEROI: kit/postit - aparece em 7 cena(s), close nele em 2
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b5, b10

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 06 - A Guerra do Porco
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 46 acoes catalogadas, 46 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 48 acoes catalogadas, 48 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 2.6s - 11 palavras - plano two
@@ -10,7 +10,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | o outro se aproxima | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 2 | - | ATUACAO | conversar | OK |
 | 3 | - | CHEGADA | alguem entra andando | OK |
 | 4 | - | PLACA | 1859 | OK |
 
@@ -19,7 +19,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | MAPA | ILHA DE SAN JUAN | OK |
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | MAPA | ILHA DE SAN JUAN | OK |
 
 ## Cena b2 - 9.2s a 13.2s - 14 palavras - plano two
 > "Um dia, um fazendeiro americano encontrou um porco comendo as batatas da horta dele."
@@ -28,6 +29,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | encontrou (11.2s) | ACAO: olha | aponta/olha | OK |
 | 2 | - | CENA | animal: pig come | OK |
+| 3 | - | ATUACAO | reagir | OK |
 
 ## Cena b3 - 14.3s a 18.6s - 13 palavras - plano two
 > "Ele pegou a espingarda, e atirou. O porco era de um vizinho inglês."
@@ -38,7 +40,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | atirou (15.9s) | EFEITO: burst | estouro/clarao + som | OK |
 | 3 | atirou (15.9s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 4 | - | CENA | animal: pig leva o tiro e cai | OK |
-| 5 | - | ATUACAO | atira | OK |
+| 5 | - | ATUACAO | reagir | OK |
 
 ## Cena b4 - 19.6s a 25.6s - 19 palavras - plano two
 > "O fazendeiro foi até a casa do vizinho, com as notas na mão. "Eu pago dez dólares", ofereceu ele."
@@ -93,8 +95,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | recebeu (50.2s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 2 | atacar (51.2s) | EFEITO: ring | onda + som | OK |
 | 3 | respondeu (55.2s) | ACAO: g_responde | g_responde | OK |
-| 4 | - | INTERACAO | vai ate o outro | OK |
-| 5 | - | ATUACAO | discutir | OK |
+| 4 | - | INTERACAO | susto | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
 ## Cena b9 - 56.8s a 62.1s - 13 palavras - plano orbit
 > "Os soldados passaram meses trocando insultos, e depois, festas. Ninguém deu um tiro."
@@ -120,5 +122,5 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | reagir | OK |
 

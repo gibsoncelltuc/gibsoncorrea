@@ -7,7 +7,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): CON (variante 0, expressao shock); OFI (variante 0, expressao laugh) | multidao: 5 de OFI
-- Animacao: reagir | interacao: entregar | o ultimo personagem ENTRA andando
+- Animacao: conversar | interacao: entregar | o ultimo personagem ENTRA andando
 - Objetos/modelos: kit/marco_ulua, kit/cake_table
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): confeitaria, franca, mexico
 - RISCOS: 
@@ -18,7 +18,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): CON (variante 0, expressao smile); OFI (variante 1, expressao neutral) | multidao: 8 de OFI
-- Animacao: -
+- Animacao: conversar
 - Objetos/modelos: kit/marco_ulua, kit/cake_table, buildings/shop, kit/stall
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, confeiteiro, loja, mexico
 - RISCOS: nenhum
@@ -48,7 +48,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): REI (variante 0, expressao stern)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca, marinha
 - RISCOS: nenhum
@@ -58,7 +58,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): GEN (variante 0, expressao laugh); OFI (variante 0, expressao grin)
-- Animacao: comemorar | interacao: cochichar
+- Animacao: conversar | interacao: cochichar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): centavo, cobranca, mexico
 - RISCOS: nenhum
@@ -98,7 +98,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): GEN (variante 0, expressao pained, segura paper); FRA (variante 0, expressao grin, segura coin)
-- Animacao: encena | interacao: susto
+- Animacao: conversar | interacao: susto
 - Objetos/modelos: kit/marco_ulua
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca, mexico, seiscentos
 - RISCOS: nenhum

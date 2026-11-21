@@ -48,7 +48,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | ilegal (31.1s) | ACAO: duvida | ombros para cima (nao acredita) | OK |
 | 3 | defendeu (32.2s) | ACAO: g_defendeu | g_defendeu | OK |
 | 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | ATUACAO | reagir | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
 ## Cena b5 - 33.3s a 36.3s - 9 palavras - plano two
 > "No dia da eleição, os salvadorenhos foram às urnas."

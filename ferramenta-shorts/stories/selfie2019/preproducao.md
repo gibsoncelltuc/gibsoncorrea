@@ -8,7 +8,7 @@ b0 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua, alguem che
 b1 | street | crowd | 8 | batalha | kit/marco_onu | - | -
 b2 | interior pedra | two | 2 | conversar, INTERAGEM: o outro se aproxima | - | paper | -
 b3 | interior madeira | two | 2 | conversar, INTERAGEM: cochichar | kit/phone | - | -
-b4 | interior madeira | close | 1 | conversar | kit/phone | - | -
+b4 | interior madeira | close | 1 | reagir | kit/phone | - | -
 b5 | interior madeira | low | 1 | reagir | kit/phone | - | -
 b6 | interior madeira | two | 2 | comemorar, INTERAGEM: pular | kit/phone | - | -
 b7 | street | crowd | 23 | comemorar, batalha | kit/phone, kit/marco_onu, kit/globe | - | -

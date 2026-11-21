@@ -66,7 +66,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | atirar (37.4s) | EFEITO: burst | estouro/clarao + som | OK |
 | 2 | atirar (37.4s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 3 | - | INTERACAO | susto | OK |
-| 4 | - | ATUACAO | reagir | OK |
+| 4 | - | ATUACAO | conversar | OK |
 | 5 | - | PLACA | FOGO AMIGO | OK |
 
 ## Cena b7 - 40.5s a 42.7s - 9 palavras - plano two
@@ -75,7 +75,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | acharam (41.3s) | ACAO: olha | aponta/olha | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | - | ATUACAO | reagir | OK |
 | 3 | - | PLACA | SÓ CACHORROS | OK |
 
 ## Cena b8 - 44.2s a 47.9s - 12 palavras - plano close
@@ -83,6 +83,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | reagir | OK |
 | 2 | - | PLACA | OPERAÇÃO ILHA VAZIA | OK |
 

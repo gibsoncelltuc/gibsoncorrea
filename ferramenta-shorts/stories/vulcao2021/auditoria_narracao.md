@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: vulcao2021
-Cenas 100% fieis: 11/12 (92%). Lacunas: 1
+Cenas 100% fieis: 12/12 (100%). Lacunas: 0
 
 ## b0 OK - O presidente de El Salvador resolveu fabricar dinheiro digital com a energia de um vulcão.
 - na tela: set=['street'] animais=[] objetos=['bitcoin', 'coin', 'volcano'] atores=2 acoes_folha3=['dinheiro', 'dinheiro']
@@ -11,9 +11,8 @@ Cenas 100% fieis: 11/12 (92%). Lacunas: 1
 - na tela: set=['hall'] animais=[] objetos=['bitcoin', 'miners', 'room_colonial_shop'] atores=2 acoes_folha3=[]
 ## b4 OK - Então ele mandou a empresa de energia do governo usar o calor do vulcão Tecapa.
 - na tela: set=['street'] animais=[] objetos=['volcano'] atores=2 acoes_folha3=['mandou']
-## b5 LACUNA - O vapor quente que sai de dentro da terra gira turbinas, e vira eletricidade limpa.
+## b5 OK - O vapor quente que sai de dentro da terra gira turbinas, e vira eletricidade limpa.
 - na tela: set=['mountain'] animais=[] objetos=['turbina', 'volcano'] atores=2 acoes_folha3=[]
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
 ## b6 OK - Acontece que, ao lado da usina, instalaram centenas de computadores só para minerar bitcoin.
 - na tela: set=['hall'] animais=[] objetos=['bitcoin', 'miners', 'room_colonial_shop'] atores=2 acoes_folha3=['instalaram']
 ## b7 OK - Em outubro saiu o primeiro: um pedacinho de bitcoin que valia uns duzentos e setenta dólares.

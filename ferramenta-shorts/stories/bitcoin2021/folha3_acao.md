@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 09 - O País do Bitcoin
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 20 acoes catalogadas, 20 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 22 acoes catalogadas, 22 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 7.8s - 22 palavras - plano two
@@ -20,7 +20,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | ideia (11.9s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
-| 2 | - | MAPA | EL SALVADOR | OK |
+| 2 | - | ATUACAO | reagir | OK |
+| 3 | - | MAPA | EL SALVADOR | OK |
 
 ## Cena b2 - 14.1s a 17.4s - 10 palavras - plano group
 > "A lei foi aprovada pelo congresso em junho daquele ano."
@@ -53,7 +54,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | PLACA | CARTEIRA CHIVO | OK |
+| 1 | - | ATUACAO | reagir | OK |
+| 2 | - | PLACA | CARTEIRA CHIVO | OK |
 
 ## Cena b6 - 30.0s a 34.4s - 13 palavras - plano two
 > "Nas primeiras horas, o aplicativo ficou fora do ar, por excesso de acessos."

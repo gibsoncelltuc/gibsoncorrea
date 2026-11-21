@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: tycho1566
-Cenas 100% fieis: 9/11 (82%). Lacunas: 3
+Cenas 100% fieis: 10/11 (91%). Lacunas: 1
 
 ## b0 OK - Um dos maiores astrônomos da história perdeu o nariz numa briga por causa de matemática.
 - na tela: set=['medieval'] animais=[] objetos=['brass_nose', 'marco_rostock'] atores=2 acoes_folha3=['perdeu', 'perdeu', 'briga', 'briga']
@@ -11,9 +11,8 @@ Cenas 100% fieis: 9/11 (82%). Lacunas: 3
 - na tela: set=['street'] animais=[] objetos=['marco_rostock'] atores=2 acoes_folha3=['briga', 'briga']
 ## b4 OK - Acontece que o primo acertou um golpe certeiro, e cortou fora um pedaço do nariz de Tycho.
 - na tela: set=['street'] animais=[] objetos=['brass_nose', 'marco_rostock'] atores=2 acoes_folha3=['acertou', 'golpe', 'cortou']
-## b5 LACUNA - Para esconder o buraco, ele passou a usar um nariz de metal, colado no rosto.
+## b5 OK - Para esconder o buraco, ele passou a usar um nariz de metal, colado no rosto.
 - na tela: set=['street'] animais=[] objetos=['brass_nose', 'marco_rostock'] atores=3 acoes_folha3=[]
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
 ## b6 OK - Anos depois, o rei da Dinamarca deu a ele uma ilha inteira, só para estudar o céu.
 - na tela: set=['harbor'] animais=[] objetos=['marco_rostock'] atores=8 acoes_folha3=['deu']
 ## b7 OK - Lá, ele construiu um castelo observatório, e anotou a posição de mais de mil estrelas, sem telescópio.
@@ -25,4 +24,3 @@ Cenas 100% fieis: 9/11 (82%). Lacunas: 3
 ## b10 LACUNA - E Tycho entrou para a história assim: com a cabeça nas estrelas, e o nariz de metal.
 - na tela: set=['street'] animais=[] objetos=['brass_nose', 'marco_rostock'] atores=1 acoes_folha3=[]
 - **FALTA:** VERBO narrado ("entrou") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["entro"] no beat)
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece

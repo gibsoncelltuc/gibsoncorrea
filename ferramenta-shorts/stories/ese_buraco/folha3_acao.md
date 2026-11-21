@@ -62,7 +62,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | reagir | OK |
 
 ## Cena b7 - 43.0s a 47.0s - 12 palavras - plano two
 > "Depois iria freando, e sairia do outro lado em uns quarenta minutos."

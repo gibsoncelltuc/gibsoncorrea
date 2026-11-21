@@ -77,7 +77,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | pousou (43.0s) | ACAO: g_pousou | g_pousou | OK |
 | 2 | abrindo (45.2s) | ACAO: x_abre | empurra a porta | OK |
 | 3 | - | INTERACAO | insiste | OK |
-| 4 | - | ATUACAO | reagir | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b8 - 47.4s a 51.5s - 12 palavras - plano orbit
 > "Os funcionários da SpaceX gritaram como em final de Copa do Mundo."

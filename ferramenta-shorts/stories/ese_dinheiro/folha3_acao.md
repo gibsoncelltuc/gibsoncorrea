@@ -21,7 +21,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | discutir | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 2 | - | ATUACAO | conversar | OK |
 | 3 | - | CHEGADA | alguem entra andando | OK |
 
 ## Cena b2 - 11.5s a 17.4s - 17 palavras - plano two

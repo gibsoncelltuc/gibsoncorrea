@@ -8,7 +8,7 @@ b0 | street | two | 2 | conversar, INTERAGEM: aproxima-se | kit/marco_hollywood 
 b1 | countryside | reveal | 10 | conversar | kit/flamethrower, kit/marco_hollywood | - | -
 b2 | countryside | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/flamethrower, kit/marco_hollywood | - | -
 b3 | mountain | crowd | 14 | conversar, batalha | kit/flamethrower, kit/marco_hollywood | - | -
-b4 | mountain | wide | 8 | comemorar | kit/extinguisher, kit/marco_hollywood | - | -
+b4 | mountain | wide | 8 | conversar | kit/extinguisher, kit/marco_hollywood | - | -
 b5 | interior loja | group | 3 | conversar, INTERAGEM: o outro se aproxima | - | - | -
 b6 | countryside | crowd | 32 | reagir, batalha | kit/marco_hollywood, nature/picket_fence | - | -
 b7 | countryside | two | 8 | conversar, INTERAGEM: insiste | kit/globe, kit/marco_hollywood | - | -

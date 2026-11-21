@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: rontgen1895
-Cenas 100% fieis: 10/12 (83%). Lacunas: 2
+Cenas 100% fieis: 11/12 (92%). Lacunas: 1
 
 ## b0 OK - Um cientista tirou a primeira foto de dentro do corpo humano, e assustou a própria esposa.
 - na tela: set=['street'] animais=[] objetos=['marco_wurzburg', 'phone', 'xray_plate'] atores=6 acoes_folha3=['tirou', 'assustou']
@@ -20,9 +20,8 @@ Cenas 100% fieis: 10/12 (83%). Lacunas: 2
 ## b8 LACUNA - A notícia correu o mundo. Jornais, médicos e curiosos queriam ver o raio misterioso.
 - na tela: set=['street'] animais=[] objetos=['marco_wurzburg', 'xray_plate'] atores=21 acoes_folha3=[]
 - **FALTA:** ACAO narrada ("correu") sem animacao na folha 3
-## b9 LACUNA - Como ninguém sabia o que era, ele chamou de raio X. X, de desconhecido.
+## b9 OK - Como ninguém sabia o que era, ele chamou de raio X. X, de desconhecido.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_europa_wood', 'xray_plate'] atores=2 acoes_folha3=[]
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
 ## b10 OK - Em mil novecentos e um, Röntgen ganhou o primeiro Prêmio Nobel de Física da história.
 - na tela: set=['street'] animais=[] objetos=['marco_wurzburg'] atores=21 acoes_folha3=['ganhou', 'ganhou', 'Prêmio']
 ## b11 OK - E nunca quis patentear a descoberta. O raio X era de todo mundo.

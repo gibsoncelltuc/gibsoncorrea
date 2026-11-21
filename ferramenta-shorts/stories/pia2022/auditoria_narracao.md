@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: pia2022
-Cenas 100% fieis: 7/8 (88%). Lacunas: 1
+Cenas 100% fieis: 8/8 (100%). Lacunas: 0
 
 ## b0 OK - Em outubro de dois mil e vinte e dois, Elon Musk apareceu na sede do Twitter, em São Francisco, carregando uma pia.
 - na tela: set=['street'] animais=[] objetos=['marco_goldengate', 'sink'] atores=1 acoes_folha3=['apareceu', 'apareceu', 'carregando']
@@ -15,6 +15,5 @@ Cenas 100% fieis: 7/8 (88%). Lacunas: 1
 - na tela: set=['hall'] animais=[] objetos=['room_franca_shop'] atores=2 acoes_folha3=['escreveu']
 ## b6 OK - A cena deu o que falar no mundo inteiro.
 - na tela: set=['street'] animais=[] objetos=['globe', 'marco_goldengate'] atores=8 acoes_folha3=['deu']
-## b7 LACUNA - Uma pia, uma legenda e uma piada que ninguém esqueceu.
+## b7 OK - Uma pia, uma legenda e uma piada que ninguém esqueceu.
 - na tela: set=['street'] animais=[] objetos=['marco_goldengate', 'sink'] atores=3 acoes_folha3=[]
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece

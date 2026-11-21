@@ -11,7 +11,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | custou (1.0s) | ACAO: g_custou | g_custou | OK |
 | 2 | - | INTERACAO | susto | OK |
-| 3 | - | ATUACAO | reagir | OK |
+| 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | 1637 | OK |
 
 ## Cena b1 - 3.6s a 9.2s - 17 palavras - plano reveal

@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: cachorro1925
-Cenas 100% fieis: 8/10 (80%). Lacunas: 2
+Cenas 100% fieis: 9/10 (90%). Lacunas: 1
 
 ## b0 LACUNA - Um cachorro fugiu, e por causa dele dois países entraram em guerra, e dezenas de pessoas morreram.
 - na tela: set=['street'] animais=['dog'] objetos=['dog_sit'] atores=2 acoes_folha3=['fugiu', 'fugiu', 'morreram', 'morreram']
@@ -20,6 +20,5 @@ Cenas 100% fieis: 8/10 (80%). Lacunas: 2
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_europa_wood'] atores=2 acoes_folha3=[]
 ## b8 OK - A Liga mandou a Grécia parar, retirar as tropas e pagar uma indenização.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'coin', 'room_europa_stone'] atores=2 acoes_folha3=['mandou', 'pagar', 'pagar']
-## b9 LACUNA - A Grécia obedeceu, e ninguém sabe o que aconteceu com o cachorro.
+## b9 OK - A Grécia obedeceu, e ninguém sabe o que aconteceu com o cachorro.
 - na tela: set=['street'] animais=['dog'] objetos=['dog_sit'] atores=1 acoes_folha3=[]
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 12 - O Astrônomo do Nariz de Metal
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 40 acoes catalogadas, 40 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.7s - 15 palavras - plano two
@@ -58,13 +58,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | golpe (26.0s) | ACAO: golpe | soco + estouro | OK |
 | 3 | cortou (27.0s) | ACAO: corta | machado e toras + poeira | OK |
 | 4 | - | INTERACAO | susto | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
 ## Cena b5 - 29.7s a 33.5s - 15 palavras - plano two
 > "Para esconder o buraco, ele passou a usar um nariz de metal, colado no rosto."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | reagir | OK |
 
 ## Cena b6 - 34.6s a 38.9s - 17 palavras - plano orbit
 > "Anos depois, o rei da Dinamarca deu a ele uma ilha inteira, só para estudar o céu."
@@ -80,7 +81,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | construiu (40.6s) | ACAO: constroi | martela e o objeto cresce | OK |
 | 2 | anotou (42.6s) | ACAO: escreve | escreve/assina | OK |
-| 3 | - | PLACA | MIL ESTRELAS | OK |
+| 3 | - | ATUACAO | reagir | OK |
+| 4 | - | PLACA | MIL ESTRELAS | OK |
 
 ## Cena b8 - 46.4s a 51.6s - 18 palavras - plano two
 > "As anotações eram tão precisas, que ajudaram Kepler a descobrir como os planetas giram em volta do Sol."
@@ -106,5 +108,5 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | reagir | OK |
 

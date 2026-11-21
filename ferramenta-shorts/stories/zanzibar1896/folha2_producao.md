@@ -17,7 +17,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): SUL (variante 0, expressao neutral); POV (variante 1, expressao neutral) | multidao: 8 de POV
-- Animacao: -
+- Animacao: conversar
 - Objetos/modelos: kit/marco_zanzibar
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): africa, costa, ilha
 - RISCOS: nenhum
@@ -108,7 +108,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): ALM (variante 0, expressao grin)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balas
 - RISCOS: nenhum

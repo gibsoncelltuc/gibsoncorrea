@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 04 - A Guerra do Balde
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 40 acoes catalogadas, 40 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 41 acoes catalogadas, 41 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 4.4s - 13 palavras - plano two
@@ -10,7 +10,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | susto | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | 1325 | OK |
 
 ## Cena b1 - 4.8s a 12.2s - 21 palavras - plano reveal
@@ -22,7 +22,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | servia (11.5s) | ACAO: x_serve | estende o prato + brilho | OK |
 | 3 | brigar (12.2s) | EFEITO: puff | fumaca + som | OK |
 | 4 | brigar (12.2s) | ACAO: golpe | soco + estouro | OK |
-| 5 | - | ATUACAO | discutir | OK |
+| 5 | - | ATUACAO | conversar | OK |
 | 6 | - | MAPA | ITÁLIA | OK |
 
 ## Cena b2 - 12.6s a 16.7s - 12 palavras - plano track
@@ -42,7 +42,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | CENA | cavalaria: 4 soldados a cavalo (MOD) | OK |
 | 4 | - | CENA | tiros: 4 soldados caem no chao | OK |
 | 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 6 | - | ATUACAO | comemorar | OK |
+| 6 | - | ATUACAO | conversar | OK |
 | 7 | - | PLACA | O BALDE | OK |
 
 ## Cena b4 - 23.7s a 27.0s - 10 palavras - plano close
@@ -52,7 +52,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | exigiu (25.2s) | ACAO: g_exigiu | g_exigiu | OK |
 | 2 | respondeu (26.7s) | ACAO: g_responde | g_responde | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 3 | - | ATUACAO | reagir | OK |
 
 ## Cena b5 - 27.4s a 31.9s - 13 palavras - plano crowd
 > "Bolonha juntou um exército de trinta mil homens, e marchou contra a vizinha."
@@ -71,7 +71,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | derrota (35.2s) | EFEITO: puff | fumaca + som | OK |
 | 2 | derrota (35.2s) | ACAO: perde | mao na testa | OK |
 | 3 | - | INTERACAO | insiste | OK |
-| 4 | - | ATUACAO | reagir | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 36.7s a 43.3s - 19 palavras - plano crowd
 > "Acontece que, numa única tarde de batalha, os sete mil atacaram de surpresa, e o exército gigante fugiu correndo."
@@ -102,5 +102,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | PLACA | 700 ANOS | OK |
+| 1 | - | ATUACAO | reagir | OK |
+| 2 | - | PLACA | 700 ANOS | OK |
 

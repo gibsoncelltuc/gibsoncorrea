@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: teslaquila2020
-Cenas 100% fieis: 11/12 (92%). Lacunas: 1
+Cenas 100% fieis: 12/12 (100%). Lacunas: 0
 
 ## b0 OK - Elon Musk fez uma piada de primeiro de abril sobre tequila. Dois anos depois, a piada virou produto de verdade.
 - na tela: set=['street'] animais=[] objetos=['marco_mexico', 'tequila_bolt'] atores=6 acoes_folha3=[]
@@ -19,9 +19,8 @@ Cenas 100% fieis: 11/12 (92%). Lacunas: 1
 - na tela: set=['street'] animais=[] objetos=['marco_mexico', 'tequila_bolt'] atores=23 acoes_folha3=['custava', 'esgotou']
 ## b8 OK - Logo apareceu gente revendendo na internet. Até garrafas vazias, por centenas de dólares.
 - na tela: set=['hall'] animais=[] objetos=['phone', 'room_eua_shop', 'tequila_bolt'] atores=2 acoes_folha3=['apareceu', 'apareceu', 'revendendo', 'internet']
-## b9 LACUNA - Um anúncio passou de mil e quatrocentos dólares, por uma garrafa sem nenhuma gota dentro.
+## b9 OK - Um anúncio passou de mil e quatrocentos dólares, por uma garrafa sem nenhuma gota dentro.
 - na tela: set=['hall'] animais=[] objetos=['room_eua_shop', 'tequila_bolt'] atores=2 acoes_folha3=[]
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
 ## b10 OK - A garrafa em forma de raio virou item de colecionador dos fãs da marca.
 - na tela: set=['street'] animais=[] objetos=['marco_mexico', 'tequila_bolt'] atores=21 acoes_folha3=[]
 ## b11 OK - Uma piada do dia da mentira que terminou numa prateleira de verdade.

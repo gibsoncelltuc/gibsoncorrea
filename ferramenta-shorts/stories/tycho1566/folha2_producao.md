@@ -47,7 +47,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): PAR (variante 0, expressao angry, segura sword); TYC (variante 0, expressao pained, segura sword)
-- Animacao: encena | interacao: susto
+- Animacao: conversar | interacao: susto
 - Objetos/modelos: kit/marco_rostock, kit/brass_nose
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): golpe, nariz, pedaco, primo, tycho
 - RISCOS: nenhum
@@ -57,7 +57,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): TYC (variante 0, expressao sad)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/brass_nose, kit/marco_rostock
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): buraco, metal, nariz, rosto, usar
 - RISCOS: nenhum
@@ -77,7 +77,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): TYC (variante 0, expressao grin, segura paper)
-- Animacao: encena
+- Animacao: reagir
 - Objetos/modelos: kit/marco_uraniborg, kit/marco_rostock
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): castelo, posicao
 - RISCOS: nenhum
@@ -107,7 +107,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): TYC (variante 0, expressao smug)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/brass_nose, kit/marco_rostock
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabeca, estrelas, metal, nariz
 - RISCOS: nenhum

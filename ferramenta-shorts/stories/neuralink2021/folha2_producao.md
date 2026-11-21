@@ -47,7 +47,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): CIE (variante 0, expressao grin, segura mug)
-- Animacao: encena
+- Animacao: reagir
 - Objetos/modelos: kit/monkey_pong
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): banana, cada, canudinho, golinho, metal, vitamina
 - RISCOS: nenhum

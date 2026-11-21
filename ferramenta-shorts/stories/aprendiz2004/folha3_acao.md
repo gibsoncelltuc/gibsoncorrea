@@ -60,7 +60,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | apontava (34.4s) | ACAO: g_apontava | g_apontava | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | - | ATUACAO | reagir | OK |
 | 3 | - | PLACA | VOCÊ ESTÁ DEMITIDO! | OK |
 
 ## Cena b6 - 37.4s a 43.0s - 16 palavras - plano crowd

@@ -57,7 +57,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): ERA (variante 0, expressao suspicious)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/globe, nature/tree_palm, kit/marco_alexandria
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): duas, terra
 - RISCOS: nenhum
@@ -107,7 +107,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): ERA (variante 0, expressao smug)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/stick, kit/well, nature/tree_palm, kit/marco_alexandria, tools/bucket, kit/starlink_sat
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): poco, satelite, trabalho, vara
 - RISCOS: nenhum

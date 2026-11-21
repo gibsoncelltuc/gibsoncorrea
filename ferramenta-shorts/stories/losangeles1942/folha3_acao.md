@@ -113,5 +113,5 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | derrotado (53.1s) | EFEITO: puff | fumaca + som | OK |
 | 2 | derrotado (53.1s) | ACAO: perde | mao na testa | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 3 | - | ATUACAO | reagir | OK |
 

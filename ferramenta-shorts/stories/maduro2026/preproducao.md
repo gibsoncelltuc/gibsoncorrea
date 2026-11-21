@@ -9,7 +9,7 @@ b1 | street | reveal | 8 | reagir | buildings/apartment, buildings/house_two, na
 b2 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | - | - | -
 b3 | interior loja | two | 2 | conversar, INTERAGEM: cochichar | - | paper | -
 b4 | countryside | crowd | 17 | batalha | kit/helicopter_air | - | -
-b5 | countryside | low | 1 | conversar | kit/helicopter_air | - | -
+b5 | countryside | low | 1 | reagir | kit/helicopter_air | - | -
 b6 | countryside | low | 2 | conversar, INTERAGEM: empurrar | - | - | -
 b7 | interior loja | two | 2 | conversar, INTERAGEM: avanca e o outro recua | - | - | -
 b8 | street | two | 2 | conversar, INTERAGEM: entregar | kit/scroll, vehicles/airplane | - | -

@@ -11,7 +11,7 @@ b3 | harbor | crowd | 20 | encena, batalha | cannon | - | -
 b4 | harbor | group | 12 | reagir, INTERAGEM: aproxima-se, batalha | - | - | -
 b5 | countryside | two | 2 | conversar, INTERAGEM: avanca e o outro recua | - | - | -
 b6 | street | two | 2 | conversar, INTERAGEM: apertar | - | - | -
-b7 | harbor | orbit | 12 | comemorar | buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
+b7 | harbor | orbit | 12 | conversar | buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
 
 OBJETO HEROI: ship - aparece em 0 cena(s), close nele em 0  << AVISO: sem close no objeto heroi
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b4

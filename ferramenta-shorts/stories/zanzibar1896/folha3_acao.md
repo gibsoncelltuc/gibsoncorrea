@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 08 - A Guerra de 38 Minutos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 49 acoes catalogadas, 49 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 50 acoes catalogadas, 50 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 3.7s - 11 palavras - plano two
@@ -18,7 +18,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | MAPA | ZANZIBAR | OK |
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | MAPA | ZANZIBAR | OK |
 
 ## Cena b2 - 8.5s a 15.9s - 21 palavras - plano two
 > "O sultão morreu de repente, e um primo dele correu para o palácio, e se sentou no trono sem pedir licença."
@@ -117,5 +118,5 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | mandaram (54.1s) | ACAO: g_mandaram | g_mandaram | OK |
 | 2 | balas (55.6s) | EFEITO: burst | estouro/clarao + som | OK |
 | 3 | balas (55.6s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 4 | - | ATUACAO | reagir | OK |
 

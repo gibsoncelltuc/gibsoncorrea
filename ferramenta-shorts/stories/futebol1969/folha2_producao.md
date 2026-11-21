@@ -57,7 +57,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): PRE (variante 0, expressao angry, segura paper); PRE (variante 1, expressao nervous)
-- Animacao: reagir | interacao: susto
+- Animacao: conversar | interacao: susto
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): vizinho
 - RISCOS: nenhum
@@ -87,7 +87,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): SOL (variante 0, expressao nervous); PRE (variante 0, expressao stern, segura paper)
-- Animacao: discutir | interacao: discutir
+- Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): continente, dois, parar
 - RISCOS: nenhum
@@ -97,7 +97,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (1): SAL (variante 0, expressao sad)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/ball, kit/trave
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): copa, tres
 - RISCOS: nenhum
@@ -121,7 +121,7 @@ vehicles/airplane | b7 | pronto | conferir na folha de contato se le bem; se par
 
 ## Video inteiro
 - Objeto heroi: kit/ball | grandes momentos: b0, b3, b7 | planos abertos: 4 | mistura: close 15% | medio 60% | aberto 18% | detalhe 7%
-- Interacoes: b2 aproxima-se, b4 empurrar, b5 susto, b6 pular, b8 discutir
+- Interacoes: b2 aproxima-se, b4 empurrar, b5 susto, b6 pular, b8 avanca e o outro recua
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

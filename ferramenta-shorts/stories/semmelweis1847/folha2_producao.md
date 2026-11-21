@@ -57,7 +57,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): KOL (variante 0, expressao shock); SEM (variante 0, expressao surprised)
-- Animacao: reagir | interacao: insiste
+- Animacao: conversar | interacao: insiste
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): amigo, bisturi, corpo, dedo
 - RISCOS: nenhum
@@ -67,7 +67,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): SEM (variante 0, expressao surprised)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): autopsias, maos, medicos, partos
 - RISCOS: nenhum
@@ -77,7 +77,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): SEM (variante 0, expressao grin); KOL (variante 0, expressao smile)
-- Animacao: discutir | interacao: discutir
+- Animacao: conversar | interacao: vai ate o outro
 - Objetos/modelos: kit/wash_basin
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): agua, bacia, entrar, lavar, maos, porta
 - RISCOS: nenhum
@@ -107,7 +107,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): MAE (variante 0, expressao cry)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/marco_viena
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
@@ -117,7 +117,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): PAR (variante 0, expressao smile)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/wash_basin, kit/marco_viena
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ciencia, maes, microbios, salvador
 - RISCOS: nenhum
@@ -133,7 +133,7 @@ kit/marco_viena | b0, b1, b4, b8, b10, b11 | pronto | conferir na folha de conta
 
 ## Video inteiro
 - Objeto heroi: kit/wash_basin | grandes momentos: b1, b8 | planos abertos: 2 | mistura: close 19% | medio 74% | aberto 4% | detalhe 2%
-- Interacoes: b0 empurrar, b2 aproxima-se, b3 avanca e o outro recua, b4 o outro se aproxima, b5 insiste, b7 discutir, b9 empurrar
+- Interacoes: b0 empurrar, b2 aproxima-se, b3 avanca e o outro recua, b4 o outro se aproxima, b5 insiste, b7 vai ate o outro, b9 empurrar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

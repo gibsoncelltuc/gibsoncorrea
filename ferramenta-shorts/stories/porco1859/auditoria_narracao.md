@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: porco1859
-Cenas 100% fieis: 9/12 (75%). Lacunas: 3
+Cenas 100% fieis: 10/12 (83%). Lacunas: 2
 
 ## b0 LACUNA - Dois países quase entraram em guerra por causa de um porco.
 - na tela: set=['street'] animais=['pig'] objetos=['haybale', 'house_small', 'picket_fence'] atores=2 acoes_folha3=[]
@@ -25,6 +25,5 @@ Cenas 100% fieis: 9/12 (75%). Lacunas: 3
 - na tela: set=['mountain'] animais=[] objetos=[] atores=17 acoes_folha3=['trocando', 'festas']
 ## b10 OK - Treze anos depois, um árbitro decidiu que a ilha era americana.
 - na tela: set=['street'] animais=[] objetos=['house_small'] atores=6 acoes_folha3=[]
-## b11 LACUNA - A única baixa da guerra foi o porco.
+## b11 OK - A única baixa da guerra foi o porco.
 - na tela: set=['street'] animais=['pig'] objetos=['cross', 'house_two', 'picket_fence'] atores=1 acoes_folha3=[]
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece

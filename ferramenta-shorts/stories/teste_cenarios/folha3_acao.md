@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Teste de Cenarios
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 5 frases, 13 acoes catalogadas, 13 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 5 frases, 14 acoes catalogadas, 14 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 3.3s - 10 palavras - plano group
@@ -38,6 +38,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | esperavam (13.7s) | ACAO: x_espera | espera de bracos cruzados | OK |
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b4 - 14.8s a 18.5s - 11 palavras - plano two
 > "Acontece que a resposta era simples. Ninguém tinha olhado para cima."

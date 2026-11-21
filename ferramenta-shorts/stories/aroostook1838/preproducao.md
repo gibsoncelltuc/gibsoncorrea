@@ -13,7 +13,7 @@ b5 | interior pedra | two | 2 | conversar, INTERAGEM: empurrar | - | - | -
 b6 | palace | two | 2 | conversar, INTERAGEM: cochichar | - | - | -
 b7 | interior madeira | two | 2 | conversar, INTERAGEM: entregar | - | paper | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | kit/scroll | paper | -
-b9 | countryside | close | 11 | conversar | kit/logs, nature/tree_pine, pig | - | -
+b9 | countryside | close | 11 | reagir | kit/logs, nature/tree_pine, pig | - | -
 
 OBJETO HEROI: kit/logs - aparece em 3 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b2, b4

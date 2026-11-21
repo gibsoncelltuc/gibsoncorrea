@@ -644,6 +644,9 @@ for _ib, _b in enumerate(B['beats']):
         _b.pop('interior', None)
         if not _b.get('_lug_ok') and _ib not in _EXPL: _b['set'] = SET
         _b['_lug_ok'] = True
+for _b in B['beats']:   # 21/11 CENA NUNCA PARADA (ordem do Gibson): frase longa sem nenhuma acao marcada ganha acao de grupo automatica (conversar = 2+ pessoas; reagir = 1 pessoa)
+    if B.get('cena_parada_ok') or _b.get('acao') or _b.get('interacao') or _b.get('batalha') or _b.get('crowd') or _b.get('veiculo') or _b.get('lados') or _b.get('impact') or _b.get('shot') in ('track', 'reveal') or len(_b['say'].split()) < 7 or not _b.get('who'): continue
+    _b['acao'] = 'conversar' if len(_b['who']) >= 2 else 'reagir'
 KICKS = []
 AMB = {}
 HEROI = _heroi()

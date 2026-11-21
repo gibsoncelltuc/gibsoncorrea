@@ -78,7 +78,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): ENG (variante 0, expressao shock); ENA (variante 0, expressao surprised)
-- Animacao: reagir | interacao: insiste
+- Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/falcon9_land, kit/marco_canaveral
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pernas, plataforma
 - RISCOS: nenhum

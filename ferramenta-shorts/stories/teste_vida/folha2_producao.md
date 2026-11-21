@@ -27,7 +27,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): N (variante 0, expressao pained); M (variante 1, expressao nervous) | multidao: 8 de M
-- Animacao: reagir
+- Animacao: conversar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): inverno, neve
 - RISCOS: nenhum
@@ -47,7 +47,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): B (variante 0, expressao stern); N (variante 0, expressao shock) | multidao: 6 de POV
-- Animacao: reagir
+- Animacao: conversar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): jornal, noticia
 - RISCOS: nenhum

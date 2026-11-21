@@ -17,7 +17,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): COV (variante 0, expressao neutral, segura shovel); POV (variante 1, expressao nervous) | multidao: 12 de POV
-- Animacao: reagir | batalha encenada
+- Animacao: conversar | batalha encenada
 - Objetos/modelos: kit/grave, kit/cross
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): acordar, caixao, cordao, cova, morto, povo, sininho
 - RISCOS: 
@@ -28,7 +28,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): VIZ (variante 0, expressao shock); POV (variante 0, expressao nervous)
-- Animacao: reagir | interacao: susto
+- Animacao: conversar | interacao: susto
 - Objetos/modelos: kit/porch, buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): duas, sino, tocar, vento, vizinho
 - RISCOS: nenhum
@@ -59,7 +59,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): ESP (variante 0, expressao stern, segura shovel)
-- Animacao: encena
+- Animacao: reagir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): escuro, esposa, porta, varanda
 - RISCOS: nenhum
@@ -69,7 +69,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): MOR (variante 0, expressao grin); ESP (variante 0, expressao smile) | multidao: 12 de POV
-- Animacao: encena | batalha encenada
+- Animacao: conversar | batalha encenada
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, longo, sinal
 - RISCOS: 
@@ -80,7 +80,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (4): MOR (variante 0, expressao nervous, segura coin); VIZ (variante 0, expressao stern); DOC (variante 0, expressao stern); POV (variante 2, expressao stern)
-- Animacao: reagir | interacao: aproxima-se
+- Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/grave, buildings/church
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): marido, propria, sino
 - RISCOS: nenhum
@@ -90,7 +90,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): ESP (variante 0, expressao neutral)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cada, sino
 - RISCOS: nenhum
@@ -100,7 +100,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): COV (variante 0, expressao neutral, segura shovel) | multidao: 6 de POV
-- Animacao: encena
+- Animacao: reagir
 - Objetos/modelos: kit/grave, kit/cross
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
@@ -110,7 +110,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (1): ESP (variante 0, expressao grin, segura coin)
-- Animacao: encena
+- Animacao: reagir
 - Objetos/modelos: kit/grave
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): casa, dividas, terra
 - RISCOS: 

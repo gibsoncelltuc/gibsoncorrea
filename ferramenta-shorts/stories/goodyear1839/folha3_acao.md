@@ -12,7 +12,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | deixou (1.2s) | ACAO: cai | o material voa da mao e cai no alvo pela GRAVIDADE (parabola, 0,53 s) + respingo | OK |
 | 2 | fogão (2.3s) | ACAO: calor | vapor/calor saindo | OK |
 | 3 | - | INTERACAO | avanca e o outro recua | OK |
-| 4 | - | ATUACAO | reagir | OK |
+| 4 | - | ATUACAO | conversar | OK |
 | 5 | - | PLACA | 1839 | OK |
 
 ## Cena b1 - 6.4s a 8.8s - 10 palavras - plano reveal
@@ -120,6 +120,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | ganhou (67.0s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | ganhou (67.0s) | ACAO: vence | bracos para cima + brilho | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 3 | - | ATUACAO | reagir | OK |
 | 4 | - | PLACA | GOODYEAR | OK |
 

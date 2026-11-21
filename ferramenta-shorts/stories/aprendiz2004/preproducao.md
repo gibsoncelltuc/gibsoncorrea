@@ -9,7 +9,7 @@ b1 | street | crowd | 8 | encena, batalha | kit/marco_trumptower | - | -
 b2 | interior loja | two | 2 | conversar, INTERAGEM: aproxima-se | - | - | -
 b3 | street | two | 2 | conversar, INTERAGEM: entregar | kit/stall, kit/marco_trumptower | - | -
 b4 | interior loja | two | 2 | discutir, INTERAGEM: discutir | - | - | -
-b5 | interior loja | close | 1 | conversar | - | - | -
+b5 | interior loja | close | 1 | reagir | - | - | -
 b6 | countryside | crowd | 33 | comemorar, batalha | kit/tv, kit/marco_trumptower, nature/picket_fence | - | -
 b7 | interior madeira | two | 2 | conversar, INTERAGEM: abracar | - | - | -
 b8 | street | group | 2 | conversar, INTERAGEM: vai ate o outro | kit/marco_trumptower | - | -

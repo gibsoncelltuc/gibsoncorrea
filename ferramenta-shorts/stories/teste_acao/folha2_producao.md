@@ -77,7 +77,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): ING (variante 0, expressao laugh); FRA (variante 0, expressao laugh) | multidao: 10 de ING/FRA
-- Animacao: comemorar
+- Animacao: conversar
 - Objetos/modelos: buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): soldados
 - RISCOS: nenhum

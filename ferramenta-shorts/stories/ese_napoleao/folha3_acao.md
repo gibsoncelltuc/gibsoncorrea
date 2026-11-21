@@ -91,7 +91,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | perderia (47.0s) | ACAO: perde | mao na testa | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | - | ATUACAO | reagir | OK |
 
 ## Cena b9 - 48.1s a 53.7s - 16 palavras - plano two
 > "Exércitos enormes da Rússia e da Áustria já marchavam contra ele. Waterloo só apressou o fim."

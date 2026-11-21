@@ -18,7 +18,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ICE (variante 1, expressao nervous); PES (variante 0, expressao grin)
-- Animacao: reagir | interacao: insiste
+- Animacao: conversar | interacao: insiste
 - Objetos/modelos: crate, kit/cod
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): costa, islandia, pesca
 - RISCOS: nenhum
@@ -28,7 +28,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): ICE (variante 2, expressao stern) | multidao: 6 de POV
-- Animacao: encena
+- Animacao: reagir
 - Objetos/modelos: ship
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): islandia, limites
 - RISCOS: 
@@ -39,7 +39,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): BRI (variante 1, expressao stern); BRI (variante 2, expressao grin); PES (variante 1, expressao smile) | multidao: 12 de POV
-- Animacao: encena | batalha encenada
+- Animacao: conversar | batalha encenada
 - Objetos/modelos: ship, navios ao fundo
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barcos, inglaterra, marinha, pesca
 - RISCOS: nenhum
@@ -49,7 +49,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): ICE (variante 0, expressao grin)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): arma, guarda, islandia, rede
 - RISCOS: nenhum
@@ -69,7 +69,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ICE (variante 1, expressao stern); BRI (variante 0, expressao shock)
-- Animacao: discutir | interacao: discutir
+- Animacao: conversar | interacao: susto
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): base, islandia, otan
 - RISCOS: nenhum
@@ -89,7 +89,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): PES (variante 0, expressao laugh)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: crate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): navios, peixe, redes
 - RISCOS: 
@@ -108,7 +108,7 @@ peixe (citado na narracao) | b0, b8 | FALTA | pesquisar referencia (referencias/
 
 ## Video inteiro
 - Objeto heroi: kit/cod | grandes momentos: b3, b5 | planos abertos: 3 | mistura: close 26% | medio 50% | aberto 16% | detalhe 8%
-- Interacoes: b0 o outro se aproxima, b1 insiste, b6 discutir, b7 vai ate o outro
+- Interacoes: b0 o outro se aproxima, b1 insiste, b6 susto, b7 vai ate o outro
 - RISCOS GERAIS: 
   - pouca variedade de cenario ({'harbor': 5, 'street': 3, 'interior madeira': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
 

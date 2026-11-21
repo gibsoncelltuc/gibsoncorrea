@@ -61,7 +61,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | cortou (34.8s) | ACAO: corta | machado e toras + poeira | OK |
 | 2 | - | INTERACAO | susto | OK |
-| 3 | - | ATUACAO | reagir | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b6 - 36.7s a 40.7s - 12 palavras - plano group
 > "El Salvador ganhou a partida, na prorrogação, e ficou com a vaga."
@@ -88,8 +88,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | discutir | OK |
-| 2 | - | ATUACAO | discutir | OK |
+| 1 | - | INTERACAO | avanca e o outro recua | OK |
+| 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | 100 HORAS | OK |
 
 ## Cena b9 - 50.7s a 55.6s - 14 palavras - plano close
@@ -100,6 +100,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | perdeu (52.6s) | EFEITO: puff | fumaca + som | OK |
 | 2 | perdeu (52.6s) | ACAO: perde | mao na testa | OK |
 | 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 4 | - | ATUACAO | reagir | OK |
 | 5 | - | PLACA | 0 GOLS | OK |
 

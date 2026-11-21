@@ -10,7 +10,7 @@ b2 | countryside | two | 2 | conversar, INTERAGEM: vai ate o outro | tools/shove
 b3 | countryside | two | 2 | conversar, INTERAGEM: aproxima-se | kit/scroll | paper | -
 b4 | mountain | low | 1 | reagir | kit/globe | - | -
 b5 | mountain | crowd | 23 | reagir, batalha | - | - | -
-b6 | outback | group | 6 | conversar | kit/globe | - | -
+b6 | outback | group | 6 | reagir | kit/globe | - | -
 b7 | outback | two | 2 | conversar, INTERAGEM: cochichar | kit/globe | paper | -
 b8 | interior pedra | two | 2 | discutir, INTERAGEM: discutir | - | - | -
 b9 | mountain | orbit | 21 | comemorar, batalha | - | - | -

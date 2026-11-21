@@ -1,9 +1,8 @@
 # AUDITORIA NARRACAO x TELA: bukele2024
-Cenas 100% fieis: 10/11 (91%). Lacunas: 1
+Cenas 100% fieis: 11/11 (100%). Lacunas: 0
 
-## b0 LACUNA - Em fevereiro de dois mil e vinte e quatro, um presidente foi reeleito com uma das maiores votações do mundo.
+## b0 OK - Em fevereiro de dois mil e vinte e quatro, um presidente foi reeleito com uma das maiores votações do mundo.
 - na tela: set=['hall'] animais=[] objetos=['ballot_box', 'maca', 'room_hospital'] atores=2 acoes_folha3=[]
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
 ## b1 OK - Foi em El Salvador, na América Central. O presidente era Nayib Bukele.
 - na tela: set=['street'] animais=[] objetos=['volcano'] atores=8 acoes_folha3=[]
 ## b2 OK - Ele tinha chegado ao poder em dois mil e dezenove, com trinta e sete anos, prometendo acabar com a violência das gangues.

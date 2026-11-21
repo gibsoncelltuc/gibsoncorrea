@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: mechazilla2024
-Cenas 100% fieis: 11/12 (92%). Lacunas: 1
+Cenas 100% fieis: 12/12 (100%). Lacunas: 0
 
 ## b0 OK - Elon Musk mandou construir uma torre com braços gigantes, para pegar um foguete no ar. E deu certo.
 - na tela: set=['street'] animais=[] objetos=['rocket', 'shop', 'tower', 'tower_catch', 'tower_mini'] atores=6 acoes_folha3=['mandou', 'construir', 'deu']
@@ -21,8 +21,7 @@ Cenas 100% fieis: 11/12 (92%). Lacunas: 1
 - na tela: set=['outback'] animais=[] objetos=['tower', 'tower_catch'] atores=23 acoes_folha3=['comemoraram', 'comemoraram']
 ## b9 OK - Musk comemorou nas redes sociais: a torre tinha pegado o foguete.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'phone', 'room_eua_wood'] atores=2 acoes_folha3=['comemorou', 'redes']
-## b10 LACUNA - Assim, o propulsor que antes ia para o lixo pode ser usado de novo, várias vezes.
+## b10 OK - Assim, o propulsor que antes ia para o lixo pode ser usado de novo, várias vezes.
 - na tela: set=['outback'] animais=[] objetos=['house_small', 'tower', 'tower_catch'] atores=2 acoes_folha3=[]
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
 ## b11 OK - E a torre já repetiu a pegada outras vezes. Parece filme de robô gigante, mas é engenharia.
 - na tela: set=['street'] animais=[] objetos=['lighthouse', 'tower', 'tower_catch', 'tower_mini'] atores=1 acoes_folha3=['repetiu']

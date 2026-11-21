@@ -87,7 +87,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): ETI (variante 0, expressao nervous); JOS (variante 0, expressao worried)
-- Animacao: reagir | interacao: vai ate o outro | o ultimo personagem ENTRA andando
+- Animacao: conversar | interacao: vai ate o outro | o ultimo personagem ENTRA andando
 - Objetos/modelos: kit/balloon, kit/marco_versalhes, nature/tree_pine, nature/tree_oak, nature/bush
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): irmaos
 - RISCOS: nenhum
@@ -117,7 +117,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): ETI (variante 0, expressao smile)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/balloon, kit/marco_versalhes, sheep
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): galo, ovelha, pato
 - RISCOS: nenhum

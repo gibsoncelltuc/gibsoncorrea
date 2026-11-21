@@ -17,7 +17,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (4): E (variante 0, expressao neutral, segura mug); F (variante 1, expressao smile, segura spyglass); G (variante 2, expressao grin, segura coin); H (variante 3, expressao stern, segura book)
-- Animacao: encena | interacao: vai ate o outro
+- Animacao: conversar | interacao: vai ate o outro
 - Objetos/modelos: kit/crown
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): objeto
 - RISCOS: nenhum
@@ -27,7 +27,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (4): I (variante 0, expressao neutral, segura staff); N (variante 0, expressao smile, segura lantern); N (variante 2, expressao grin, segura bottle); N (variante 4, expressao stern, segura bag)
-- Animacao: encena | interacao: aproxima-se
+- Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabelo
 - RISCOS: nenhum

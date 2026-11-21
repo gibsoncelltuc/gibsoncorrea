@@ -13,7 +13,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | dançar (1.5s) | ACAO: danca | danca de bracos para cima | OK |
 | 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
 | 4 | - | INTERACAO | susto | OK |
-| 5 | - | ATUACAO | dancar | OK |
+| 5 | - | ATUACAO | conversar | OK |
 | 6 | - | PLACA | 1518 | OK |
 
 ## Cena b1 - 5.2s a 11.1s - 17 palavras - plano reveal
@@ -23,7 +23,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | dançou (7.0s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | dançou (7.0s) | ACAO: danca | danca de bracos para cima | OK |
-| 3 | - | ATUACAO | dancar | OK |
+| 3 | - | ATUACAO | conversar | OK |
 | 4 | - | MAPA | ESTRASBURGO | OK |
 
 ## Cena b2 - 11.5s a 16.7s - 15 palavras - plano group
@@ -34,7 +34,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | dançando (14.4s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | dançando (14.4s) | ACAO: danca | danca de bracos para cima | OK |
 | 3 | - | INTERACAO | aproxima-se | OK |
-| 4 | - | ATUACAO | dancar | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b3 - 17.0s a 21.9s - 14 palavras - plano crowd
 > "Em um mês, eram quatrocentas pessoas, de pés sangrando, pedindo socorro, sem conseguir parar."

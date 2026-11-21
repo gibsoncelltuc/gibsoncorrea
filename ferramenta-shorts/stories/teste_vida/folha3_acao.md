@@ -25,7 +25,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | cobriu (7.4s) | ACAO: g_cobriu | g_cobriu | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b3 - 8.1s a 11.1s - 9 palavras - plano two
 > "Sob um sol escaldante, ele bebeu a caneca inteira."
@@ -42,7 +42,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | jornal (13.3s) | ACAO: x_le | le o papel | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b5 - 14.8s a 17.4s - 8 palavras - plano track
 > "E no dia seguinte, a tropa chegou marchando."

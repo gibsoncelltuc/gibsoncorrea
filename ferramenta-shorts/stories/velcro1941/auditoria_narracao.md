@@ -1,17 +1,15 @@
 # AUDITORIA NARRACAO x TELA: velcro1941
-Cenas 100% fieis: 7/12 (58%). Lacunas: 5
+Cenas 100% fieis: 11/12 (92%). Lacunas: 1
 
 ## b0 LACUNA - Uma das invenções mais usadas do mundo nasceu de um passeio com o cachorro.
 - na tela: set=['street'] animais=['dog'] objetos=['burr', 'marco_alpes'] atores=6 acoes_folha3=[]
 - **FALTA:** VERBO narrado ("nasceu") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["nasce"] no beat)
 ## b1 OK - Era mil novecentos e quarenta e um, na Suíça.
 - na tela: set=['street'] animais=[] objetos=['marco_alpes'] atores=8 acoes_folha3=[]
-## b2 LACUNA - O engenheiro George de Mestral voltou de uma caminhada pela montanha com o seu cachorro.
+## b2 OK - O engenheiro George de Mestral voltou de uma caminhada pela montanha com o seu cachorro.
 - na tela: set=['mountain'] animais=['dog'] objetos=['marco_alpes'] atores=1 acoes_folha3=[]
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
-## b3 LACUNA - O pelo do cachorro e a calça dele estavam cheios de carrapichos. Dava um trabalhão arrancar.
+## b3 OK - O pelo do cachorro e a calça dele estavam cheios de carrapichos. Dava um trabalhão arrancar.
 - na tela: set=['mountain'] animais=['dog'] objetos=['burr', 'marco_alpes'] atores=1 acoes_folha3=[]
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
 ## b4 OK - Curioso, ele levou um carrapicho para casa e olhou no microscópio.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'burr', 'microscopio', 'room_europa_wood'] atores=3 acoes_folha3=['olhou', 'microscópio']
 ## b5 OK - Acontece que cada espinho tinha um ganchinho na ponta, que agarrava nas voltinhas do tecido.
@@ -24,9 +22,7 @@ Cenas 100% fieis: 7/12 (58%). Lacunas: 5
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'burr', 'room_europa_wood'] atores=2 acoes_folha3=['segredo', 'segredo']
 ## b9 OK - No começo, muita gente achou o velcro feio, e as vendas foram fracas.
 - na tela: set=['street'] animais=[] objetos=['burr', 'coin', 'marco_alpes'] atores=18 acoes_folha3=['achou', 'vendas']
-## b10 LACUNA - Até que astronautas passaram a usar o velcro para prender coisas no espaço. E o mundo inteiro quis.
+## b10 OK - Até que astronautas passaram a usar o velcro para prender coisas no espaço. E o mundo inteiro quis.
 - na tela: set=['arctic'] animais=[] objetos=['burr', 'moon', 'rocket'] atores=3 acoes_folha3=[]
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
-## b11 LACUNA - Hoje ele está em tênis, mochilas e roupas. E tudo começou com um cachorro cheio de carrapichos.
+## b11 OK - Hoje ele está em tênis, mochilas e roupas. E tudo começou com um cachorro cheio de carrapichos.
 - na tela: set=['street'] animais=['dog'] objetos=['burr', 'marco_alpes'] atores=1 acoes_folha3=[]
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece

@@ -57,7 +57,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (1): SOL (variante 0, expressao angry)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/helicopter_air
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): defesas
 - RISCOS: nenhum

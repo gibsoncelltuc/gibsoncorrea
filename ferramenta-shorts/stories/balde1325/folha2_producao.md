@@ -7,7 +7,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MOD (variante 0, expressao grin, segura bag); BOL (variante 0, expressao shock)
-- Animacao: reagir | interacao: susto
+- Animacao: conversar | interacao: susto
 - Objetos/modelos: kit/marco_ghirlandina, tools/bucket, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balde, madeira
 - RISCOS: nenhum
@@ -17,7 +17,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): NOB (variante 0, expressao stern); BOL (variante 1, expressao stern) | multidao: 8 de BOL/POV
-- Animacao: discutir
+- Animacao: conversar
 - Objetos/modelos: kit/marco_ghirlandina
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): apoiava, imperador, papa
 - RISCOS: nenhum
@@ -37,7 +37,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): MOD (variante 0, expressao laugh, segura bag); MOD (variante 1, expressao grin) | multidao: 12 de POV
-- Animacao: comemorar | batalha encenada
+- Animacao: conversar | batalha encenada
 - Objetos/modelos: barrel, kit/marco_ghirlandina, tools/bucket, buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balde, poco, praca
 - RISCOS: nenhum
@@ -47,7 +47,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): NOB (variante 0, expressao stern)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: tools/bucket
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): nosso
 - RISCOS: nenhum
@@ -67,7 +67,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): MOD (variante 0, expressao nervous); MOD (variante 1, expressao pained) | multidao: 10 de MOD/POV
-- Animacao: reagir | interacao: insiste
+- Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/marco_ghirlandina
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): derrota
 - RISCOS: nenhum
@@ -97,7 +97,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): MOD (variante 0, expressao grin, segura bag)
-- Animacao: encena
+- Animacao: reagir
 - Objetos/modelos: kit/marco_ghirlandina, tools/bucket
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balde
 - RISCOS: nenhum

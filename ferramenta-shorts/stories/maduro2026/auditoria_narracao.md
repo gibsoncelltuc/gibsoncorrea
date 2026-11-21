@@ -1,9 +1,8 @@
 # AUDITORIA NARRACAO x TELA: maduro2026
-Cenas 100% fieis: 9/11 (82%). Lacunas: 2
+Cenas 100% fieis: 10/11 (91%). Lacunas: 1
 
-## b0 LACUNA - Numa madrugada de janeiro de dois mil e vinte e seis, Trump autorizou uma das operações militares mais ousadas dos últimos anos.
+## b0 OK - Numa madrugada de janeiro de dois mil e vinte e seis, Trump autorizou uma das operações militares mais ousadas dos últimos anos.
 - na tela: set=['hall'] animais=[] objetos=['helicopter_air', 'room_colonial_shop'] atores=2 acoes_folha3=[]
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
 ## b1 OK - O alvo estava em Caracas, a capital da Venezuela.
 - na tela: set=['street'] animais=[] objetos=['apartment', 'house_two', 'lamppost'] atores=8 acoes_folha3=[]
 ## b2 OK - Era o presidente venezuelano Nicolás Maduro, acusado pela justiça americana de narcoterrorismo.

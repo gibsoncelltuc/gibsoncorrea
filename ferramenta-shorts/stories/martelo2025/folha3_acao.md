@@ -42,7 +42,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | bomba (21.9s) | EFEITO: burst | estouro/clarao + som | OK |
 | 3 | bomba: (21.9s) | EFEITO: burst | estouro/clarao + som | OK |
 | 4 | bomba (21.9s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 5 | - | ATUACAO | conversar | OK |
+| 5 | - | ATUACAO | reagir | OK |
 
 ## Cena b4 - 27.8s a 30.7s - 9 palavras - plano two
 > "Trump autorizou a missão. O nome: Martelo da Meia-Noite."
@@ -77,7 +77,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | soltaram (43.0s) | ACAO: x_solta | solta/liberta + brilho | OK |
 | 2 | bombas (43.7s) | EFEITO: burst | estouro/clarao + som | OK |
 | 3 | bombas (43.7s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 4 | - | ATUACAO | reagir | OK |
 
 ## Cena b8 - 47.8s a 53.0s - 15 palavras - plano two
 > "Um submarino ainda disparou mísseis contra uma terceira usina. Todos os aviões voltaram para casa."

@@ -49,7 +49,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | tirou (26.3s) | ACAO: tira | tira foto (celular + flash) | OK |
 | 2 | celular (27.0s) | ACAO: x_fone | celular na mao + toque | OK |
 | 3 | - | EMOCAO: pleading | o rosto vira "pleading" na palavra | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 4 | - | ATUACAO | reagir | OK |
 
 ## Cena b5 - 28.1s a 33.3s - 15 palavras - plano low
 > "Virou de costas para a plateia, e tirou uma selfie com o plenário inteiro atrás."

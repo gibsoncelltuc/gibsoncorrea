@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: semmelweis1847
-Cenas 100% fieis: 8/12 (67%). Lacunas: 4
+Cenas 100% fieis: 9/12 (75%). Lacunas: 3
 
 ## b0 LACUNA - Um médico pediu uma coisa simples aos colegas: lavem as mãos. E foi expulso do hospital por isso.
 - na tela: set=['street'] animais=[] objetos=['marco_viena', 'wash_basin'] atores=6 acoes_folha3=[]
@@ -7,9 +7,8 @@ Cenas 100% fieis: 8/12 (67%). Lacunas: 4
 ## b1 LACUNA - Era mil oitocentos e quarenta e sete, no grande hospital de Viena, na Áustria.
 - na tela: set=['street'] animais=[] objetos=['marco_viena'] atores=8 acoes_folha3=[]
 - **FALTA:** LUGAR/CENARIO narrado (HOSPITAL) NAO aparece
-## b2 LACUNA - O hospital tinha duas alas de parto. Numa, as mães eram atendidas por parteiras. Na outra, por médicos.
+## b2 OK - O hospital tinha duas alas de parto. Numa, as mães eram atendidas por parteiras. Na outra, por médicos.
 - na tela: set=['hall'] animais=[] objetos=['maca', 'room_hospital'] atores=2 acoes_folha3=[]
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
 ## b3 OK - E acontece que, na ala dos médicos, morriam muito mais mães, de uma febre misteriosa.
 - na tela: set=['hall'] animais=[] objetos=['maca', 'room_hospital'] atores=2 acoes_folha3=['morriam']
 ## b4 OK - As mulheres imploravam de joelhos para não ir para a ala dos médicos.

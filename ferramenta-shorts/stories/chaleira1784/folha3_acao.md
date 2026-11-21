@@ -13,7 +13,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | tiro (2.2s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 3 | acertou (3.3s) | ACAO: g_acertou | g_acertou | OK |
 | 4 | - | INTERACAO | o outro se aproxima | OK |
-| 5 | - | ATUACAO | reagir | OK |
+| 5 | - | ATUACAO | conversar | OK |
 | 6 | - | PLACA | 1784 | OK |
 
 ## Cena b1 - 5.2s a 12.2s - 20 palavras - plano reveal
@@ -89,7 +89,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | CENA | cavalaria: 4 soldados a cavalo (GEN) | OK |
 | 4 | - | CENA | tiros: 4 soldados caem no chao | OK |
 | 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 6 | - | ATUACAO | reagir | OK |
+| 6 | - | ATUACAO | conversar | OK |
 
 ## Cena b8 - 45.9s a 50.7s - 14 palavras - plano two
 > "O imperador desistiu do rio. Em troca, a Holanda pagou uma indenização em dinheiro."

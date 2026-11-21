@@ -17,7 +17,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (4): AUT (variante 0, expressao smile); HUS (variante 0, expressao nervous); AUT (variante 1, expressao neutral); OFF (variante 0, expressao stern) | multidao: 10 de AUT
-- Animacao: reagir
+- Animacao: conversar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): exercito, soldados, turcos, varios
 - RISCOS: nenhum
@@ -37,7 +37,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): HUS (variante 0, expressao shock); LOC (variante 0, expressao grin, segura bottle)
-- Animacao: reagir | interacao: aproxima-se
+- Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: barrel, kit/barrel_r
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
@@ -47,7 +47,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa
 - Personagens principais (2): HUS (variante 0, expressao laugh, segura mug); HUS (variante 1, expressao grin, segura bottle)
-- Animacao: comemorar | interacao: brindar
+- Animacao: conversar | interacao: brindar
 - Objetos/modelos: barrel, tools/lantern
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): festa
 - RISCOS: nenhum
@@ -87,7 +87,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): OFF (variante 0, expressao shock); AUT (variante 0, expressao pained) | multidao: 5 de AUT
-- Animacao: reagir | interacao: susto
+- Animacao: conversar | interacao: susto
 - Objetos/modelos: cannon
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): artilharia, canhoes, oficial, proprio
 - RISCOS: nenhum
@@ -97,7 +97,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 5 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): TUR (variante 0, expressao shock, segura spyglass); TUR (variante 1, expressao neutral) | multidao: 5 de POV
-- Animacao: reagir | interacao: avanca e o outro recua | o ultimo personagem ENTRA andando
+- Animacao: conversar | interacao: avanca e o outro recua | o ultimo personagem ENTRA andando
 - Objetos/modelos: crate, barrel, kit/campfire, kit/tent
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): acampamento, historiadores, turcos
 - RISCOS: nenhum

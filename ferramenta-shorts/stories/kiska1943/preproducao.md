@@ -10,9 +10,9 @@ b2 | harbor | group | 11 | conversar, batalha | cannon, kit/marco_alpes | - | -
 b3 | mountain | orbit | 21 | encena, andando, batalha | kit/marco_alpes | - | -
 b4 | arctic | group | 1 | reagir | - | - | -
 b5 | arctic | orbit | 11 | parados (so fala e pisca) | ship, nature/picket_fence | - | -
-b6 | countryside | group | 3 | reagir, INTERAGEM: susto | kit/marco_alpes | - | -
-b7 | palace | two | 1 | conversar | kit/marco_alpes, dog | - | -
-b8 | harbor | close | 1 | conversar | kit/marco_alpes | - | -
+b6 | countryside | group | 3 | conversar, INTERAGEM: susto | kit/marco_alpes | - | -
+b7 | palace | two | 1 | reagir | kit/marco_alpes, dog | - | -
+b8 | harbor | close | 1 | reagir | kit/marco_alpes | - | -
 
 OBJETO HEROI: kit/dog_sit - aparece em 0 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b2, b3

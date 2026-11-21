@@ -17,7 +17,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): MUS (variante 0, expressao smug) | multidao: 8 de POV
-- Animacao: -
+- Animacao: reagir
 - Objetos/modelos: kit/cybertruck
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): apresentacao, janelas, vidro
 - RISCOS: nenhum
@@ -57,7 +57,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): MUS (variante 0, expressao smile)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/steel_ball, kit/cybertruck
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ensaios, internet
 - RISCOS: nenhum

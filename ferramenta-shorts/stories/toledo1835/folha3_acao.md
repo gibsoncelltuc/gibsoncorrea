@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 03 - A Guerra de Toledo
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 40 acoes catalogadas, 40 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.7s - 13 palavras - plano two
@@ -19,7 +19,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | MAPA | TOLEDO | OK |
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | MAPA | TOLEDO | OK |
 
 ## Cena b2 - 14.6s a 19.4s - 14 palavras - plano close
 > "O governador de Michigan tinha vinte e três anos. "Mandem a milícia", ordenou ele."
@@ -27,7 +28,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | ordenou (19.0s) | ACAO: fala | aponta explicando | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | - | ATUACAO | reagir | OK |
 
 ## Cena b3 - 20.5s a 25.7s - 18 palavras - plano crowd
 > "Ohio respondeu com a própria milícia, e as duas tropas chegaram à beira do rio, frente a frente."
@@ -71,10 +72,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | mandou (40.5s) | ACAO: fala | aponta explicando | OK |
 | 2 | ofereceu (42.5s) | ACAO: x_serve | estende o prato + brilho | OK |
-| 3 | - | CENA | pedido: plano medio dos dois, um pede ao outro | OK |
-| 4 | - | INTERACAO | pedir | OK |
-| 5 | - | ATUACAO | reagir | OK |
-| 6 | - | PLACA | ACORDO | OK |
+| 3 | - | INTERACAO | cochichar | OK |
+| 4 | - | ATUACAO | conversar | OK |
+| 5 | - | PLACA | ACORDO | OK |
 
 ## Cena b7 - 46.2s a 52.6s - 16 palavras - plano group
 > "Ohio ficou com Toledo. Michigan levou, de consolação, um pedaço de floresta gelada que ninguém queria."
@@ -91,8 +91,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | fortuna (57.4s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | fortuna (57.4s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 3 | - | INTERACAO | cochichar | OK |
-| 4 | - | ATUACAO | reagir | OK |
+| 3 | - | INTERACAO | susto | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b9 - 58.7s a 61.9s - 11 palavras - plano close
 > "No fim das contas, Michigan perdeu a guerra, e ficou rico."
@@ -102,4 +102,5 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | perdeu (60.5s) | EFEITO: puff | fumaca + som | OK |
 | 2 | perdeu (60.5s) | ACAO: perde | mao na testa | OK |
 | 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 4 | - | ATUACAO | reagir | OK |
 

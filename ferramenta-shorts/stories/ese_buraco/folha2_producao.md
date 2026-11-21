@@ -67,7 +67,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (1): CAV (variante 0, expressao scared) | multidao: 5 de CAV/POV
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/globe
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): milhares, planeta, quilometros
 - RISCOS: nenhum

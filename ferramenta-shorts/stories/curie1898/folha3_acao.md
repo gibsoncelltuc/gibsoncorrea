@@ -47,7 +47,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | brilhava (23.4s) | ACAO: brilha | o objeto brilha na palavra (ondas de luz + estrelas) | OK |
 | 2 | adorava (26.9s) | ACAO: g_adorava | g_adorava | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 3 | - | ATUACAO | reagir | OK |
 
 ## Cena b5 - 29.6s a 34.6s - 16 palavras - plano two
 > "Ela carregava os frascos no bolso, e guardava na gaveta da mesa. Ninguém sabia do perigo."
@@ -57,7 +57,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | carregava (29.9s) | ACAO: g_carregav | g_carregav | OK |
 | 2 | guardava (31.7s) | ACAO: x_vigia | vigia de bracos cruzados | OK |
 | 3 | - | INTERACAO | o outro se aproxima | OK |
-| 4 | - | ATUACAO | reagir | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b6 - 35.9s a 41.5s - 19 palavras - plano crowd
 > "Marie ganhou dois prêmios Nobel, em física e em química. Foi a primeira pessoa da história a conseguir isso."
@@ -79,7 +79,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | morreu (49.0s) | EFEITO: puff | fumaca + som | OK |
 | 3 | morreu (49.0s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
 | 4 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 5 | - | ATUACAO | conversar | OK |
+| 5 | - | ATUACAO | reagir | OK |
 
 ## Cena b8 - 50.1s a 55.8s - 17 palavras - plano two
 > "Mas os cadernos dela continuam radioativos até hoje, guardados em caixas de chumbo, numa biblioteca de Paris."
@@ -96,7 +96,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | ler (57.2s) | ACAO: x_le | le o papel | OK |
 | 2 | assinar (57.8s) | ACAO: escreve | escreve/assina | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 3 | - | ATUACAO | reagir | OK |
 
 ## Cena b10 - 61.7s a 65.3s - 16 palavras - plano orbit
 > "E o rádio leva cerca de mil e seiscentos anos só para perder metade da força."
@@ -114,5 +114,5 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | brilhando (69.2s) | ACAO: brilha | o objeto brilha na palavra (ondas de luz + estrelas) | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | - | ATUACAO | reagir | OK |
 

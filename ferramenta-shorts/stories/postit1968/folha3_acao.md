@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 15 - A Cola que Não Colava
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 43 acoes catalogadas, 43 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 44 acoes catalogadas, 44 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.4s - 19 palavras - plano two
@@ -28,6 +28,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | tentava (12.3s) | ACAO: g_tentava | g_tentava | OK |
+| 2 | - | ATUACAO | reagir | OK |
 
 ## Cena b3 - 17.0s a 21.9s - 15 palavras - plano group
 > "Acontece que saiu o contrário: uma cola que grudava, mas soltava fácil, sem deixar marca."
@@ -72,7 +73,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | ideia (42.2s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | - | ATUACAO | reagir | OK |
 
 ## Cena b8 - 49.4s a 55.8s - 22 palavras - plano two
 > "Os dois se juntaram. E o papel saiu amarelo por acaso: era o único papel de rascunho que tinha no laboratório vizinho."
@@ -116,6 +117,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | chegou (72.8s) | EFEITO: dust | poeira + som | OK |
 | 2 | chegou (72.8s) | ACAO: chega | entra andando pela lateral | OK |
 | 3 | deu (76.0s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 4 | - | ATUACAO | reagir | OK |
 | 5 | - | PLACA | 1980 | OK |
 

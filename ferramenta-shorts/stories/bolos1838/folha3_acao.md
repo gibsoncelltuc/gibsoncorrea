@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 07 - A Guerra dos Bolos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 60 acoes catalogadas, 60 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 62 acoes catalogadas, 62 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 4.1s - 12 palavras - plano two
@@ -13,7 +13,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | invadiu (0.7s) | ACAO: chega | entra andando pela lateral | OK |
 | 3 | - | CENA | cavalaria: 2 soldados a cavalo (OFI) | OK |
 | 4 | - | INTERACAO | entregar | OK |
-| 5 | - | ATUACAO | reagir | OK |
+| 5 | - | ATUACAO | conversar | OK |
 | 6 | - | CHEGADA | alguem entra andando | OK |
 | 7 | - | PLACA | 1838 | OK |
 
@@ -22,7 +22,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | MAPA | MÉXICO | OK |
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | MAPA | MÉXICO | OK |
 
 ## Cena b2 - 9.6s a 15.6s - 17 palavras - plano group
 > "Um dia, oficiais mexicanos entraram, comeram tudo o que havia, quebraram a loja, e saíram sem pagar."
@@ -58,7 +59,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | juntou (24.4s) | ACAO: g_juntou | g_juntou | OK |
 | 4 | cobrou (25.9s) | ACAO: g_cobrou | g_cobrou | OK |
 | 5 | avisou (28.9s) | ACAO: fala | aponta explicando | OK |
-| 6 | - | ATUACAO | conversar | OK |
+| 6 | - | ATUACAO | reagir | OK |
 
 ## Cena b5 - 30.0s a 33.3s - 10 palavras - plano two
 > "O México riu da cobrança, e não pagou um centavo."
@@ -69,7 +70,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | riu (30.7s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
 | 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
 | 4 | - | INTERACAO | cochichar | OK |
-| 5 | - | ATUACAO | comemorar | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
 ## Cena b6 - 33.7s a 38.9s - 15 palavras - plano crowd
 > "Acontece que a França mandou mesmo. Navios de guerra fecharam todos os portos do país."
@@ -122,7 +123,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | pagou (51.9s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 3 | embora (55.2s) | ACAO: sai | sai andando pela lateral | OK |
 | 4 | - | INTERACAO | susto | OK |
-| 5 | - | PLACA | 600.000 | OK |
+| 5 | - | ATUACAO | conversar | OK |
+| 6 | - | PLACA | 600.000 | OK |
 
 ## Cena b10 - 55.6s a 57.4s - 6 palavras - plano close
 > "Nunca um doce custou tão caro."

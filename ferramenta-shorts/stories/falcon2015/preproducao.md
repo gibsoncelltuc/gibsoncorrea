@@ -11,7 +11,7 @@ b3 | countryside | two | 2 | conversar, INTERAGEM: susto | kit/rocket, kit/marco
 b4 | street | two | 2 | conversar, INTERAGEM: entregar | kit/marco_canaveral, kit/rocket, kit/starlink_sat | paper | -
 b5 | street | crowd | 21 | batalha | kit/falcon_air, kit/marco_canaveral | - | -
 b6 | harbor | low | 1 | reagir | kit/falcon9_land, kit/marco_canaveral | - | -
-b7 | harbor | two | 2 | reagir, INTERAGEM: insiste | kit/falcon9_land, kit/marco_canaveral | - | -
+b7 | harbor | two | 2 | conversar, INTERAGEM: insiste | kit/falcon9_land, kit/marco_canaveral | - | -
 b8 | stadium | orbit | 23 | comemorar, batalha | kit/falcon9_land | - | -
 b9 | interior madeira | two | 2 | conversar, INTERAGEM: abracar | kit/rocket | - | -
 b10 | harbor | close | 1 | comemorar | kit/falcon9_land, kit/marco_canaveral, kit/rocket | - | -

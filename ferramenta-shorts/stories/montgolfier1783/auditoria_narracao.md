@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: montgolfier1783
-Cenas 100% fieis: 8/12 (67%). Lacunas: 7
+Cenas 100% fieis: 9/12 (75%). Lacunas: 5
 
 ## b0 LACUNA - Os primeiros passageiros de um balão não foram pessoas. Foram uma ovelha, um pato e um galo.
 - na tela: set=['street'] animais=['sheep'] objetos=['balloon', 'marco_versalhes'] atores=2 acoes_folha3=[]
@@ -22,13 +22,11 @@ Cenas 100% fieis: 8/12 (67%). Lacunas: 7
 - na tela: set=['street'] animais=[] objetos=['balloon_air', 'marco_versalhes'] atores=2 acoes_folha3=['levantou', 'embora']
 ## b8 OK - Oito minutos depois, ele desceu num bosque a uns três quilômetros dali. Os irmãos correram para ver.
 - na tela: set=['countryside'] animais=[] objetos=['balloon', 'bush', 'marco_versalhes', 'tree_oak', 'tree_pine'] atores=2 acoes_folha3=['desceu', 'correram', 'correram']
-## b9 LACUNA - Os três bichos estavam vivos e bem! Dava para respirar no céu.
+## b9 OK - Os três bichos estavam vivos e bem! Dava para respirar no céu.
 - na tela: set=['countryside'] animais=['duck', 'rooster', 'sheep'] objetos=['marco_versalhes'] atores=2 acoes_folha3=[]
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
 ## b10 OK - Dois meses depois, foi a vez de dois homens voarem sobre Paris. A humanidade tinha chegado ao céu.
 - na tela: set=['street'] animais=[] objetos=['balloon_air', 'marco_versalhes'] atores=21 acoes_folha3=['voarem']
 ## b11 LACUNA - E tudo graças a uma ovelha, um pato e um galo corajosos.
 - na tela: set=['countryside'] animais=['sheep'] objetos=['balloon', 'marco_versalhes'] atores=1 acoes_folha3=[]
 - **FALTA:** ANIMAL narrado (galo) NAO aparece
 - **FALTA:** ANIMAL narrado (pato) NAO aparece
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece

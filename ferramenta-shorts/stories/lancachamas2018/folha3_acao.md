@@ -47,7 +47,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | incêndio (23.7s) | EFEITO: burst | estouro/clarao + som | OK |
 | 3 | incêndio (23.7s) | ACAO: queima | fogo + fumaca | OK |
 | 4 | brinde (24.4s) | ACAO: pega | levanta/segura | OK |
-| 5 | - | ATUACAO | comemorar | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
 ## Cena b5 - 24.8s a 26.7s - 6 palavras - plano group
 > "Foram vinte mil unidades à venda."

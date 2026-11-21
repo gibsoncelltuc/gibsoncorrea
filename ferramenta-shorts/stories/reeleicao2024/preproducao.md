@@ -8,7 +8,7 @@ b0 | interior pedra | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/
 b1 | street | reveal | 8 | parados (so fala e pisca) | kit/white_house, kit/marco_casabranca | - | -
 b2 | street | two | 2 | conversar, INTERAGEM: insiste | kit/ballot_box, kit/marco_casabranca | - | -
 b3 | interior loja | two | 2 | discutir, INTERAGEM: discutir, alguem chega andando | - | paper | -
-b4 | interior loja | close | 1 | comemorar | - | paper | -
+b4 | interior loja | close | 1 | reagir | - | paper | -
 b5 | street | crowd | 25 | comemorar, batalha | kit/white_house, kit/marco_casabranca | - | -
 b6 | countryside | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/marco_casabranca | paper | -
 b7 | interior madeira | two | 2 | conversar, INTERAGEM: aproxima-se | kit/scroll | paper | -

@@ -22,7 +22,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | chegava (12.2s) | ACAO: g_chegava | g_chegava | OK |
 | 3 | - | CENA | tiros: 3 soldados caem no chao | OK |
 | 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | ATUACAO | reagir | OK |
+| 5 | - | ATUACAO | conversar | OK |
 | 6 | - | MAPA | FINLÂNDIA | OK |
 | 7 | - | PLACA | -40 °C | OK |
 
@@ -31,7 +31,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | reagir | OK |
 | 2 | - | PLACA | SIMO HÄYHÄ | OK |
 
 ## Cena b3 - 18.4s a 21.9s - 13 palavras - plano low
@@ -40,14 +40,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | esperava (19.9s) | ACAO: x_espera | espera de bracos cruzados | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | - | ATUACAO | reagir | OK |
 
 ## Cena b4 - 22.9s a 27.0s - 17 palavras - plano close
 > "Dizem que ele mantinha neve na boca, para o vapor da respiração não entregar a sua posição."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | reagir | OK |
 | 2 | - | PLACA | NEVE NA BOCA | OK |
 
 ## Cena b5 - 28.2s a 34.4s - 21 palavras - plano orbit
@@ -57,7 +57,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | CENA | tiros: 4 soldados caem no chao | OK |
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | ATUACAO | reagir | OK |
+| 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | 100 DIAS | OK |
 
 ## Cena b6 - 35.7s a 37.8s - 8 palavras - plano orbit
@@ -87,6 +87,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | reagir | OK |
 | 2 | - | PLACA | SÓ FEZ O SEU TRABALHO | OK |
 
