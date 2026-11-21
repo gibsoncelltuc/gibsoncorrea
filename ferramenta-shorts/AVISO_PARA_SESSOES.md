@@ -53,3 +53,5 @@ VIDEOS JA ENTREGUES: o Gibson viu que varios NAO seguem a narracao. Todo video s
 Tipo de plano novo `"shot": "aereo"` = vista de CIMA do cenario inteiro (estadio todo, porto, cidade), camera alta descendo e girando. O diretor agora exige 3 planos abertos (video com 8+ cenas) e poe 1 `aereo` sozinho; em historia com lugar marcante (estadio, porto, campo de batalha) ponha `aereo` na mao na cena que apresenta o lugar (ex.: videos/futebol1969 b2 e b6, com `crowd`).
 
 # 21/11: o set 'stadium' agora tem CAMPO DE FUTEBOL de verdade (gramado listrado, linhas oficiais, circulo central, areas, penalti, 2 gols em x=+-40); o plano 'aereo' olha o campo no sentido do comprimento (vertical). Nao ponha kit/trave perto dos jogadores no stadium: os gols reais ja estao nas pontas (so' use kit/trave em plano fechado do gol).
+
+# 21/11: animais 3D mantem a COR NATURAL em qualquer luz (interior, noite, sombra); elefante sempre cinza claro (web/core.js, _ANIM3D). Vale para todo video, sem mexer no roteiro.
