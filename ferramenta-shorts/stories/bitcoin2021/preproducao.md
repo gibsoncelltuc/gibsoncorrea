@@ -7,8 +7,8 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/bitcoin, kit/volcano | - | -
 b1 | street | reveal | 9 | encena | kit/volcano | - | -
 b2 | interior pedra | group | 3 | conversar, INTERAGEM: o outro se aproxima | kit/bitcoin | - | -
-b3 | harbor | crowd | 10 | batalha | kit/volcano | - | -
-b4 | harbor | two | 2 | conversar, INTERAGEM: entregar | kit/stall, kit/bitcoin, kit/volcano | coin | -
+b3 | countryside | crowd | 10 | batalha | kit/volcano | - | -
+b4 | countryside | two | 2 | conversar, INTERAGEM: entregar | kit/stall, kit/bitcoin, kit/volcano | coin | -
 b5 | interior loja | orbit | 13 | batalha | - | - | -
 b6 | interior loja | two | 2 | discutir, INTERAGEM: discutir | - | - | -
 b7 | street | orbit | 8 | parados (so fala e pisca) | kit/globe, kit/volcano | - | -

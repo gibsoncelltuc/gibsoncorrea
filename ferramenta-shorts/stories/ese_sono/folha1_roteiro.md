@@ -13,7 +13,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b1  (~5.9 s)
 - Narracao: Numa vida de setenta e cinco anos, isso daria uns vinte e cinco anos a mais, acordado.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@40
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@40
@@ -24,14 +24,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: As cidades funcionariam vinte e quatro horas por dia. Escola, trabalho e festa a qualquer hora.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@20, ding@50
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; festa -> stars + som de sino; encena: vence (up) @12 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; festa -> stars + som de sino; encena: g_funciona (point) @2 -> acao + som de efeito; encena: vence (up) @12 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@50
 - Texto na tela: 24 HORAS
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b3  (~4.5 s)
 - Narracao: Daria tempo de aprender três línguas, um instrumento, e ver todas as séries.
-- Som ambiente: sea
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -42,14 +42,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Mas será que o corpo aguenta? Em mil novecentos e sessenta e quatro, um estudante americano tentou descobrir.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: encena: examina (think) @17 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: g_tentou (point) @16 -> acao + som de efeito; encena: examina (think) @17 -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: - | mapa: ESTADOS UNIDOS
 - Funcao na historia: desenvolvimento
 
 ## Cena b5  (~5.2 s)
 - Narracao: Randy Gardner, de dezessete anos, ficou acordado por onze dias seguidos, num experimento de escola.
-- Som ambiente: sea
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: quimico (pour) @12 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Hoje sabemos por quê: dormindo, o cérebro faz uma faxina e lava o que acumulou durante o dia.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: dorme @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: dorme @4 -> acao + som de efeito; encena: g_acumulou (point) @14 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

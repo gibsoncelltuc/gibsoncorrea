@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 01 - A Batalha de Karánsebes
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 68 acoes catalogadas, 68 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 70 acoes catalogadas, 70 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 2.9s - 10 palavras - plano crowd
@@ -23,9 +23,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | marchando (5.6s) | EFEITO: dust | poeira + som | OK |
-| 2 | - | ATUACAO | reagir | OK |
-| 3 | - | MAPA | KARÁNSEBES | OK |
-| 4 | - | PLACA | VÁRIAS LÍNGUAS | OK |
+| 2 | marchando (5.6s) | ACAO: g_marchand | g_marchand | OK |
+| 3 | - | ATUACAO | reagir | OK |
+| 4 | - | MAPA | KARÁNSEBES | OK |
+| 5 | - | PLACA | VÁRIAS LÍNGUAS | OK |
 
 ## Cena b2 - 10.7s a 13.1s - 10 palavras - plano track
 > "Numa noite, os hussardos foram na frente procurar o inimigo."
@@ -65,14 +66,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | chegou (23.2s) | EFEITO: dust | poeira + som | OK |
 | 2 | chegou (23.2s) | ACAO: chega | entra andando pela lateral | OK |
-| 3 | discussão (29.8s) | EFEITO: puff | fumaca + som | OK |
-| 4 | deu (32.0s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 5 | tiro (32.3s) | EFEITO: burst | estouro/clarao + som | OK |
-| 6 | tiro (32.3s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 7 | - | CENA | cavalaria: 2 soldados a cavalo (AUT) | OK |
-| 8 | - | INTERACAO | empurrar | OK |
-| 9 | - | ATUACAO | conversar | OK |
-| 10 | - | CHEGADA | alguem entra andando | OK |
+| 3 | querendo (24.4s) | ACAO: g_querendo | g_querendo | OK |
+| 4 | discussão (29.8s) | EFEITO: puff | fumaca + som | OK |
+| 5 | deu (32.0s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 6 | tiro (32.3s) | EFEITO: burst | estouro/clarao + som | OK |
+| 7 | tiro (32.3s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 8 | - | CENA | cavalaria: 2 soldados a cavalo (AUT) | OK |
+| 9 | - | INTERACAO | empurrar | OK |
+| 10 | - | ATUACAO | conversar | OK |
+| 11 | - | CHEGADA | alguem entra andando | OK |
 
 ## Cena b6 - 33.4s a 38.8s - 12 palavras - plano orbit
 > "No escuro, alguém gritou: "Turcos! Turcos!" E o pânico tomou o acampamento."

@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: wrestlemania2007
-Cenas 100% fieis: 9/12 (75%). Lacunas: 4
+Cenas 100% fieis: 12/12 (100%). Lacunas: 0
 
 ## b0 OK - Antes de virar presidente, Donald Trump entrou num ringue de luta livre, e raspou a cabeça de outro bilionário.
 - na tela: set=['street'] animais=[] objetos=['clipper'] atores=2 acoes_folha3=['entrou', 'raspou']
@@ -7,9 +7,8 @@ Cenas 100% fieis: 9/12 (75%). Lacunas: 4
 - na tela: set=['street'] animais=[] objetos=[] atores=8 acoes_folha3=[]
 ## b2 OK - Como todo show de luta, a rivalidade era combinada: Trump contra o dono da empresa de luta, Vince McMahon.
 - na tela: set=['street'] animais=[] objetos=[] atores=2 acoes_folha3=[]
-## b3 LACUNA - A aposta era maluca: cada um escolheu um lutador, e o dono de quem perdesse teria a cabeça raspada.
-- na tela: set=['street'] animais=[] objetos=['clipper'] atores=2 acoes_folha3=['perdesse', 'raspada']
-- **FALTA:** VERBO narrado ("escolheu") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["escol"] no beat)
+## b3 OK - A aposta era maluca: cada um escolheu um lutador, e o dono de quem perdesse teria a cabeça raspada.
+- na tela: set=['street'] animais=[] objetos=['clipper'] atores=2 acoes_folha3=['escolheu', 'perdesse', 'raspada']
 ## b4 OK - Mais de oitenta mil pessoas lotaram o estádio, para ver a Batalha dos Bilionários.
 - na tela: set=['street'] animais=[] objetos=['ball'] atores=33 acoes_folha3=[]
 ## b5 OK - No ringue, o lutador de Trump, Bobby Lashley, enfrentou o gigante Umaga, do lado de McMahon.
@@ -18,14 +17,11 @@ Cenas 100% fieis: 9/12 (75%). Lacunas: 4
 - na tela: set=['street'] animais=[] objetos=['ring'] atores=7 acoes_folha3=[]
 ## b7 OK - No fim, o lutador de Trump venceu. O estádio inteiro foi abaixo.
 - na tela: set=['street'] animais=[] objetos=['ball', 'ring'] atores=25 acoes_folha3=['venceu', 'venceu']
-## b8 LACUNA - Trump e Lashley seguraram McMahon, e passaram a máquina de raspar na cabeça dele.
-- na tela: set=['street'] animais=[] objetos=['clipper', 'ring'] atores=2 acoes_folha3=['raspar']
-- **FALTA:** VERBO narrado ("seguraram") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["segur"] no beat)
+## b8 OK - Trump e Lashley seguraram McMahon, e passaram a máquina de raspar na cabeça dele.
+- na tela: set=['street'] animais=[] objetos=['clipper', 'ring'] atores=2 acoes_folha3=['seguraram', 'raspar']
 ## b9 OK - O dono da luta livre saiu do ringue completamente careca.
 - na tela: set=['street'] animais=[] objetos=['clipper'] atores=3 acoes_folha3=['saiu', 'careca']
-## b10 LACUNA - E ainda sobrou para Trump: o juiz aplicou um golpe nele também, e ele foi ao chão.
-- na tela: set=['street'] animais=[] objetos=['ring'] atores=2 acoes_folha3=['golpe', 'chão']
-- **FALTA:** VERBO narrado ("sobrou") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["sobro"] no beat)
-- **FALTA:** VERBO narrado ("aplicou") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["aplic"] no beat)
+## b10 OK - E ainda sobrou para Trump: o juiz aplicou um golpe nele também, e ele foi ao chão.
+- na tela: set=['street'] animais=[] objetos=['ring'] atores=2 acoes_folha3=['sobrou', 'aplicou', 'golpe', 'chão']
 ## b11 OK - Seis anos depois, Trump entrou para o Hall da Fama da luta livre. Tudo por causa de um corte de cabelo.
 - na tela: set=['street'] animais=[] objetos=[] atores=2 acoes_folha3=['entrou']

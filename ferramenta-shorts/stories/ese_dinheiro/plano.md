@@ -7,8 +7,8 @@ b1 | two | -  | interior | - | -
 b2 | two | -  | animais, interior | - | -
 b3 | two | -  | animais, interior | - | -
 b4 | wide | -  | tropa, mapa | dinheiro (stars + som de sino); encena: paga (reach) @7 (acao + som de efeito) | -
-b5 | group | -  | tropa, objeto na mao | - | -
-b6 | crowd | -  | batalha aberta com tiros, tropa, placa: TROCA | - | -
+b5 | group | -  | tropa, objeto na mao | encena: g_lembrava (point) @12 (acao + som de efeito) | -
+b6 | crowd | -  | batalha aberta com tiros, tropa, placa: TROCA | encena: g_tomariam (point) @7 (acao + som de efeito) | -
 b7 | two | -  | - | dinheiro: (stars + som de sino); ouro (stars + som de sino); encena: paga (reach) @8 (acao + som de efeito) | -
 b8 | close | -  | - | dinheiro (stars + som de sino); encena: paga (reach) @10 (acao + som de efeito) | -
 b9 | orbit | -  | batalha aberta com tiros, tropa, placa: DINHEIRO | dinheiro (stars + som de sino); encena: paga (reach) @2 (acao + som de efeito) | -

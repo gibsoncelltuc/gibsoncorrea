@@ -9,7 +9,7 @@ b1 | harbor | crowd | 12 | reagir | ship, kit/marco_amsterdam, navios ao fundo |
 b2 | arctic | wide | 7 | encena | ship, vehicles/truck | - | -
 b3 | countryside | group | 11 | conversar, INTERAGEM: aproxima-se | kit/marco_amsterdam, horse | - | -
 b4 | arctic | group | 6 | conversar | horse | - | -
-b5 | countryside | crowd | 20 | andando, batalha | kit/marco_amsterdam, horse | - | -
+b5 | countryside | crowd | 20 | encena, andando, batalha | kit/marco_amsterdam, horse | - | -
 b6 | arctic | orbit | 20 | reagir, batalha | - | - | -
 b7 | mountain | group | 7 | conversar, INTERAGEM: avanca e o outro recua | ship, kit/marco_amsterdam, horse | - | -
 b8 | interior madeira | close | 1 | conversar | - | - | -

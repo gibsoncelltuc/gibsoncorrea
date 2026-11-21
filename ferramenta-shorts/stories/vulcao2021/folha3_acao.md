@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 17 - Bitcoin Feito com Vulcão
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.1s - 15 palavras - plano two
@@ -61,8 +61,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | vai ate o outro | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | instalaram (35.2s) | ACAO: g_instalar | g_instalar | OK |
+| 2 | - | INTERACAO | vai ate o outro | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 38.9s a 43.4s - 16 palavras - plano close
 > "Em outubro saiu o primeiro: um pedacinho de bitcoin que valia uns duzentos e setenta dólares."

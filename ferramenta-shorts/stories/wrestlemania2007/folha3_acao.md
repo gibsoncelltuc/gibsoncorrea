@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 15 - Trump na Batalha dos Bilionários
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 43 acoes catalogadas, 43 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 5.4s - 19 palavras - plano group
@@ -36,10 +36,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | perdesse (22.5s) | ACAO: perde | mao na testa | OK |
-| 2 | raspada (23.6s) | ACAO: raspa | maquina na cabeca + cabelo voando | OK |
-| 3 | - | INTERACAO | cochichar | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 1 | escolheu (20.4s) | ACAO: g_escolheu | g_escolheu | OK |
+| 2 | perdesse (22.5s) | ACAO: perde | mao na testa | OK |
+| 3 | raspada (23.6s) | ACAO: raspa | maquina na cabeca + cabelo voando | OK |
+| 4 | - | INTERACAO | cochichar | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
 ## Cena b4 - 24.9s a 28.6s - 14 palavras - plano crowd
 > "Mais de oitenta mil pessoas lotaram o estádio, para ver a Batalha dos Bilionários."
@@ -82,9 +83,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | raspar (51.8s) | ACAO: raspa | maquina na cabeca + cabelo voando | OK |
-| 2 | - | INTERACAO | discutir | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 1 | seguraram (49.3s) | ACAO: g_segurara | g_segurara | OK |
+| 2 | raspar (51.8s) | ACAO: raspa | maquina na cabeca + cabelo voando | OK |
+| 3 | - | INTERACAO | discutir | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b9 - 53.7s a 56.2s - 10 palavras - plano group
 > "O dono da luta livre saiu do ringue completamente careca."
@@ -101,10 +103,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | golpe (60.2s) | ACAO: golpe | soco + estouro | OK |
-| 2 | chão (61.9s) | ACAO: tomba | cai sentado no chao + poeira | OK |
-| 3 | - | INTERACAO | discutir | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 1 | sobrou (58.0s) | ACAO: g_sobrou | g_sobrou | OK |
+| 2 | aplicou (59.5s) | ACAO: g_aplicou | g_aplicou | OK |
+| 3 | golpe (60.2s) | ACAO: golpe | soco + estouro | OK |
+| 4 | chão (61.9s) | ACAO: tomba | cai sentado no chao + poeira | OK |
+| 5 | - | INTERACAO | discutir | OK |
+| 6 | - | ATUACAO | conversar | OK |
 
 ## Cena b11 - 62.9s a 68.5s - 21 palavras - plano two
 > "Seis anos depois, Trump entrou para o Hall da Fama da luta livre. Tudo por causa de um corte de cabelo."

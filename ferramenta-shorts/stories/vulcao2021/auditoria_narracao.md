@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: vulcao2021
-Cenas 100% fieis: 10/12 (83%). Lacunas: 3
+Cenas 100% fieis: 11/12 (92%). Lacunas: 1
 
 ## b0 OK - O presidente de El Salvador resolveu fabricar dinheiro digital com a energia de um vulcão.
 - na tela: set=['street'] animais=[] objetos=['bitcoin', 'coin', 'volcano'] atores=2 acoes_folha3=['dinheiro', 'dinheiro']
@@ -14,10 +14,8 @@ Cenas 100% fieis: 10/12 (83%). Lacunas: 3
 ## b5 LACUNA - O vapor quente que sai de dentro da terra gira turbinas, e vira eletricidade limpa.
 - na tela: set=['mountain'] animais=[] objetos=['turbina', 'volcano'] atores=2 acoes_folha3=[]
 - **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
-## b6 LACUNA - Acontece que, ao lado da usina, instalaram centenas de computadores só para minerar bitcoin.
-- na tela: set=['hall'] animais=[] objetos=['bitcoin', 'miners', 'room_colonial_shop'] atores=2 acoes_folha3=[]
-- **FALTA:** VERBO narrado ("instalaram") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["insta"] no beat)
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
+## b6 OK - Acontece que, ao lado da usina, instalaram centenas de computadores só para minerar bitcoin.
+- na tela: set=['hall'] animais=[] objetos=['bitcoin', 'miners', 'room_colonial_shop'] atores=2 acoes_folha3=['instalaram']
 ## b7 OK - Em outubro saiu o primeiro: um pedacinho de bitcoin que valia uns duzentos e setenta dólares.
 - na tela: set=['mountain'] animais=[] objetos=['bitcoin', 'volcano'] atores=3 acoes_folha3=['saiu']
 ## b8 OK - Bukele comemorou nas redes sociais, com um vídeo da usina no vulcão.

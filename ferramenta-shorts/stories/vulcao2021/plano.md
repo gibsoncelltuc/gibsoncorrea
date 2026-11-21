@@ -8,7 +8,7 @@ b2 | two | -  | - | encena: paga (reach) @13 (acao + som de efeito) | -
 b3 | two | -  | interior, objeto na mao | - | -
 b4 | two | -  | - | encena: fala (point) @2 (acao + som de efeito) | -
 b5 | wide | -  | - | - | -
-b6 | two | -  | interior | - | -
+b6 | two | -  | interior | encena: g_instalar (point) @6 (acao + som de efeito) | -
 b7 | close | -  | - | encena: sai @2 (acao + som de efeito) | -
 b8 | crowd | -  | batalha aberta com tiros, tropa, placa: VULCÃO | (rosto) laugh (expr + som de efeito); encena: vence (up) @1 (acao + som de efeito); encena: x_fone (lift) @3 (acao + som de efeito) | -
 b9 | two | -  | objeto na mao | encena: fala (point) @4 (acao + som de efeito) | -

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 18 - Os Primeiros Passageiros do Céu
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.2s - 17 palavras - plano two
@@ -25,18 +25,21 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | quente (14.1s) | ACAO: calor | vapor/calor saindo | OK |
-| 2 | - | INTERACAO | avanca e o outro recua | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 1 | repararam (12.8s) | ACAO: g_reparara | g_reparara | OK |
+| 2 | quente (14.1s) | ACAO: calor | vapor/calor saindo | OK |
+| 3 | - | INTERACAO | avanca e o outro recua | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b3 - 16.7s a 20.6s - 14 palavras - plano two
 > "Então costuraram um balão gigante de pano e papel, e encheram de ar quente."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | quente (20.6s) | ACAO: calor | vapor/calor saindo | OK |
-| 2 | - | INTERACAO | o outro se aproxima | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 1 | costuraram (17.0s) | ACAO: g_costurar | g_costurar | OK |
+| 2 | encheram (19.8s) | ACAO: g_encheram | g_encheram | OK |
+| 3 | quente (20.6s) | ACAO: calor | vapor/calor saindo | OK |
+| 4 | - | INTERACAO | o outro se aproxima | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
 ## Cena b4 - 21.6s a 26.2s - 18 palavras - plano two
 > "Só que ninguém sabia se dava para respirar lá em cima. E se o ar do céu matasse?"
@@ -76,11 +79,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | correram (51.0s) | EFEITO: dust | poeira + som | OK |
-| 2 | correram (51.0s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
-| 3 | - | INTERACAO | vai ate o outro | OK |
-| 4 | - | ATUACAO | reagir | OK |
-| 5 | - | CHEGADA | alguem entra andando | OK |
+| 1 | desceu (47.7s) | ACAO: g_desceu | g_desceu | OK |
+| 2 | correram (51.0s) | EFEITO: dust | poeira + som | OK |
+| 3 | correram (51.0s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
+| 4 | - | INTERACAO | vai ate o outro | OK |
+| 5 | - | ATUACAO | reagir | OK |
+| 6 | - | CHEGADA | alguem entra andando | OK |
 
 ## Cena b9 - 52.8s a 56.9s - 12 palavras - plano two
 > "Os três bichos estavam vivos e bem! Dava para respirar no céu."

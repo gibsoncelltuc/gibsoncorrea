@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 06 - A Guerra do Porco
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 41 acoes catalogadas, 41 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 46 acoes catalogadas, 46 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 2.6s - 11 palavras - plano two
@@ -46,7 +46,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | pago (23.9s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 2 | ofereceu (25.2s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | ofereceu (25.2s) | ACAO: x_serve | estende o prato + brilho | OK |
 | 3 | - | INTERACAO | entregar | OK |
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | PLACA | $10 | OK |
@@ -71,16 +71,19 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | empurrar | OK |
-| 2 | - | ATUACAO | discutir | OK |
-| 3 | - | PLACA | TROPAS | OK |
+| 1 | ameaçaram (34.5s) | ACAO: g_ameacara | g_ameacara | OK |
+| 2 | mandaram (38.1s) | ACAO: g_mandaram | g_mandaram | OK |
+| 3 | - | INTERACAO | empurrar | OK |
+| 4 | - | ATUACAO | discutir | OK |
+| 5 | - | PLACA | TROPAS | OK |
 
 ## Cena b7 - 40.5s a 48.3s - 23 palavras - plano crowd
 > "Acontece que a Inglaterra respondeu com navios de guerra. Logo eram centenas de soldados e dezenas de canhões, apontados uns para os outros."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | discutir | OK |
+| 1 | respondeu (41.9s) | ACAO: g_responde | g_responde | OK |
+| 2 | - | ATUACAO | discutir | OK |
 
 ## Cena b8 - 49.4s a 55.6s - 20 palavras - plano two
 > "O almirante inglês recebeu a ordem de atacar. "Não vou começar uma guerra por causa de um porco", respondeu ele."
@@ -89,16 +92,18 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | recebeu (50.2s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 2 | atacar (51.2s) | EFEITO: ring | onda + som | OK |
-| 3 | - | INTERACAO | vai ate o outro | OK |
-| 4 | - | ATUACAO | discutir | OK |
+| 3 | respondeu (55.2s) | ACAO: g_responde | g_responde | OK |
+| 4 | - | INTERACAO | vai ate o outro | OK |
+| 5 | - | ATUACAO | discutir | OK |
 
 ## Cena b9 - 56.8s a 62.1s - 13 palavras - plano orbit
 > "Os soldados passaram meses trocando insultos, e depois, festas. Ninguém deu um tiro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | festas (60.0s) | ACAO: vence | bracos para cima + brilho | OK |
-| 2 | - | ATUACAO | comemorar | OK |
+| 1 | trocando (58.1s) | ACAO: g_trocando | g_trocando | OK |
+| 2 | festas (60.0s) | ACAO: vence | bracos para cima + brilho | OK |
+| 3 | - | ATUACAO | comemorar | OK |
 
 ## Cena b10 - 63.3s a 66.0s - 11 palavras - plano two
 > "Treze anos depois, um árbitro decidiu que a ilha era americana."

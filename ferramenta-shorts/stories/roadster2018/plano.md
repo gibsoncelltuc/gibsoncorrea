@@ -9,7 +9,7 @@ b3 | two | -  | - | (rosto) determined (expr + som de efeito) | -
 b4 | crowd | -  | batalha aberta com tiros, tropa | encena: voa (point) @2 (acao + som de efeito) | -
 b5 | two | -  | interior | encena: senta @5 (acao + som de efeito) | -
 b6 | group | -  | tropa, placa: NÃO ENTRE EM PÂNICO | (rosto) scared (expr + som de efeito) | -
-b7 | group | noite  | - | encena: sai @2 (acao + som de efeito) | -
+b7 | group | noite  | - | encena: sai @2 (acao + som de efeito); encena: g_seguiu (point) @8 (acao + som de efeito) | -
 b8 | group | noite  | - | - | -
 b9 | orbit | noite  | batalha aberta com tiros, tropa, placa: STARMAN | - | -
 

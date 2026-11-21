@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 - Narracao: Um homem mediu o tamanho do planeta usando só uma vara e a sombra dela.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: examina (think) @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: examina (think) @2 -> acao + som de efeito; encena: x_usa (lift) @7 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GANCHO
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 - Narracao: Ele leu num papiro que, em Siena, ao meio-dia de verão, o sol iluminava o fundo de um poço.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_le (think) @1 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_le (think) @1 -> acao + som de efeito; encena: g_iluminav (point) @13 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 
 ## Cena b9  (~5.2 s)
 - Narracao: E tudo isso aconteceu mais de dois mil anos atrás, sem satélite e sem computador.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30, sting@70
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@30, burst@70

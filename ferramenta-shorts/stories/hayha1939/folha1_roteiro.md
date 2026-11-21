@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: tense | Cenario base: arctic | 9
 - Narracao: Os soldados finlandeses eram poucos, mas conheciam a floresta, a neve e o frio, que chegava a quarenta graus abaixo de zero.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: whoosh@30, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160, gun@164, gun@168, gun@176, gun@180, gun@184, gun@188, gun@196, gun@200, gun@204
-- Efeito + som nas palavras-chave: tiros: 3 soldados caem no chao -> acao + som de efeito
+- Efeito + som nas palavras-chave: tiros: 3 soldados caem no chao -> acao + som de efeito; encena: g_conhecia (point) @6 -> acao + som de efeito; encena: g_chegava (point) @15 -> acao + som de efeito
 - Efeito visual marcado: puff@30
 - Texto na tela: -40 °C | mapa: FINLÂNDIA
 - Funcao na historia: GRANDE MOMENTO
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: tense | Cenario base: arctic | 9
 - Narracao: Em março de mil novecentos e quarenta, uma bala atingiu o rosto dele. Ele sobreviveu, e acordou no dia em que a guerra terminou.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: bala -> burst + som de tiro/explosao; encena: atira @8 -> acao + som de efeito; encena: x_acorda (up) @16 -> acao + som de efeito
+- Efeito + som nas palavras-chave: bala -> burst + som de tiro/explosao; encena: atira @8 -> acao + som de efeito; encena: g_atingiu (point) @9 -> acao + som de efeito; encena: g_sobreviv (point) @14 -> acao + som de efeito; encena: x_acorda (up) @16 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: HOSPITAL
 - Funcao na historia: desenvolvimento

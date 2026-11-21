@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: texel1795
-Cenas 100% fieis: 3/9 (33%). Lacunas: 7
+Cenas 100% fieis: 3/9 (33%). Lacunas: 6
 
 ## b0 OK - Em mil setecentos e noventa e cinco, a França invadia a Holanda, e fazia um frio absurdo.
 - na tela: set=['street'] animais=[] objetos=['ship'] atores=0 acoes_folha3=['absurdo']
@@ -15,9 +15,8 @@ Cenas 100% fieis: 3/9 (33%). Lacunas: 7
 ## b4 OK - O chefe da cavalaria teve uma ideia maluca: atacar a frota a cavalo.
 - na tela: set=['street'] animais=['horse'] objetos=[] atores=18 acoes_folha3=['ideia', 'atacar']
 ## b5 LACUNA - Na noite de vinte e três de janeiro, os hussardos atravessaram o gelo, com panos nos cascos dos cavalos para não fazer barulho.
-- na tela: set=['countryside'] animais=['horse', 'horse_sela'] objetos=['marco_amsterdam'] atores=24 acoes_folha3=[]
+- na tela: set=['countryside'] animais=['horse', 'horse_sela'] objetos=['marco_amsterdam'] atores=24 acoes_folha3=['atravessaram']
 - **FALTA:** LUGAR/CENARIO narrado (NEVE) NAO aparece
-- **FALTA:** VERBO narrado ("atravessaram") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["atrav"] no beat)
 ## b6 LACUNA - Os marinheiros holandeses viram a cavalaria chegar, e a frota se rendeu.
 - na tela: set=['street'] animais=[] objetos=[] atores=20 acoes_folha3=['viram', 'rendeu']
 - **FALTA:** ANIMAL narrado (cavalaria) NAO aparece

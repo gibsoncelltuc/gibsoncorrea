@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: neuralink2021
-Cenas 100% fieis: 5/12 (42%). Lacunas: 10
+Cenas 100% fieis: 10/12 (83%). Lacunas: 2
 
 ## b0 OK - Uma empresa de Elon Musk mostrou um macaco jogando videogame. Sem as mãos, só com o pensamento.
 - na tela: set=['street'] animais=[] objetos=['monkey_pong', 'shop'] atores=6 acoes_folha3=['mostrou']
@@ -7,24 +7,16 @@ Cenas 100% fieis: 5/12 (42%). Lacunas: 10
 - na tela: set=['street'] animais=[] objetos=[] atores=8 acoes_folha3=[]
 ## b2 OK - A ideia é um chip implantado no cérebro, que lê os sinais dos neurônios e manda para o computador.
 - na tela: set=['hall'] animais=[] objetos=['room_eua_shop'] atores=2 acoes_folha3=['ideia']
-## b3 LACUNA - O voluntário foi o Pager, um macaco de nove anos. Primeiro, ele aprendeu a jogar Pong com um joystick.
-- na tela: set=['hall'] animais=[] objetos=['monkey_pong', 'room_eua_shop'] atores=1 acoes_folha3=[]
-- **FALTA:** VERBO narrado ("aprendeu") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["apren"] no beat)
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
-## b4 LACUNA - A cada acerto, ganhava um golinho de vitamina de banana, por um canudinho de metal.
-- na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'monkey_pong', 'room_eua_wood'] atores=1 acoes_folha3=[]
-- **FALTA:** VERBO narrado ("ganhava") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["ganha"] no beat)
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
-## b5 LACUNA - Enquanto isso, o chip gravava o que os neurônios faziam a cada movimento.
-- na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'monkey_pong', 'room_eua_stone'] atores=2 acoes_folha3=[]
-- **FALTA:** VERBO narrado ("gravava") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["grava"] no beat)
-## b6 LACUNA - Acontece que, um dia, desligaram o joystick. E o Pager continuou jogando, só com a mente!
-- na tela: set=['hall'] animais=[] objetos=['monkey_pong', 'room_eua_shop'] atores=3 acoes_folha3=[]
-- **FALTA:** VERBO narrado ("desligaram") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["desli"] no beat)
-## b7 LACUNA - O vídeo rodou o mundo. Muita gente se encantou, e muita gente debateu o uso de animais na pesquisa.
-- na tela: set=['street'] animais=[] objetos=['monkey_pong'] atores=21 acoes_folha3=[]
-- **FALTA:** VERBO narrado ("encantou") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["encan"] no beat)
-- **FALTA:** VERBO narrado ("debateu") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["debat"] no beat)
+## b3 OK - O voluntário foi o Pager, um macaco de nove anos. Primeiro, ele aprendeu a jogar Pong com um joystick.
+- na tela: set=['hall'] animais=[] objetos=['monkey_pong', 'room_eua_shop'] atores=1 acoes_folha3=['aprendeu']
+## b4 OK - A cada acerto, ganhava um golinho de vitamina de banana, por um canudinho de metal.
+- na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'monkey_pong', 'room_eua_wood'] atores=1 acoes_folha3=['ganhava']
+## b5 OK - Enquanto isso, o chip gravava o que os neurônios faziam a cada movimento.
+- na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'monkey_pong', 'room_eua_stone'] atores=2 acoes_folha3=['gravava']
+## b6 OK - Acontece que, um dia, desligaram o joystick. E o Pager continuou jogando, só com a mente!
+- na tela: set=['hall'] animais=[] objetos=['monkey_pong', 'room_eua_shop'] atores=3 acoes_folha3=['desligaram']
+## b7 OK - O vídeo rodou o mundo. Muita gente se encantou, e muita gente debateu o uso de animais na pesquisa.
+- na tela: set=['street'] animais=[] objetos=['monkey_pong'] atores=21 acoes_folha3=['encantou', 'debateu']
 ## b8 OK - O objetivo, segundo a empresa, é ajudar pessoas paralisadas a usar computadores e celulares com o pensamento.
 - na tela: set=['street'] animais=[] objetos=['chess_pc', 'phone', 'shop'] atores=6 acoes_folha3=[]
 ## b9 LACUNA - Em dois mil e vinte e quatro, o primeiro paciente humano recebeu o chip, e jogou xadrez no computador só pensando.

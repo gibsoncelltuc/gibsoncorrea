@@ -23,7 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Era o presidente venezuelano Nicolás Maduro, acusado pela justiça amer...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): MAD (variante 0, expressao smug); POV (variante 0, expressao nervous)
@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do paí...
-- Cenario: harbor | luz: noite | clima: limpo
+- Cenario: countryside | luz: noite | clima: limpo
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (1): SOL (variante 0, expressao angry)
@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Acontece que, em menos de três horas, Maduro foi capturado e levado pa...
-- Cenario: harbor | luz: noite | clima: limpo
+- Cenario: countryside | luz: noite | clima: limpo
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): SOL (variante 0, expressao stern); MAD (variante 0, expressao shock)

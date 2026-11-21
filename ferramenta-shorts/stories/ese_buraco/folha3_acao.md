@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - E Se EP 09 - E Se Você Cavasse um Buraco Até o Outro Lado da Terra?
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 6.3s - 18 palavras - plano two
@@ -54,9 +54,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | pulasse (35.2s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | ATUACAO | reagir | OK |
-| 4 | - | PLACA | 5.000 °C | OK |
+| 2 | - | ATUACAO | reagir | OK |
+| 3 | - | PLACA | 5.000 °C | OK |
 
 ## Cena b6 - 36.3s a 42.6s - 18 palavras - plano group
 > "Você cairia cada vez mais rápido, e passaria pelo centro do planeta a milhares de quilômetros por hora."
@@ -78,17 +77,17 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | discutir | OK |
-| 2 | - | ATUACAO | discutir | OK |
+| 1 | voltando (51.5s) | ACAO: g_voltando | g_voltando | OK |
+| 2 | - | INTERACAO | discutir | OK |
+| 3 | - | ATUACAO | discutir | OK |
 
 ## Cena b9 - 52.6s a 55.2s - 8 palavras - plano orbit
 > "Os cientistas chamam isso de túnel da gravidade."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | ATUACAO | comemorar | OK |
-| 3 | - | PLACA | 40 MINUTOS | OK |
+| 1 | - | ATUACAO | comemorar | OK |
+| 2 | - | PLACA | 40 MINUTOS | OK |
 
 ## Cena b10 - 55.6s a 60.4s - 14 palavras - plano close
 > "Então guarda a pá. Para ir ao Japão, ainda vale mais comprar uma passagem."

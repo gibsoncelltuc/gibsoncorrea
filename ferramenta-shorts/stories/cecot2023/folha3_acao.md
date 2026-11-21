@@ -35,9 +35,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | presos (24.8s) | ACAO: prende | empurra/prende | OK |
-| 2 | - | INTERACAO | entregar | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 1 | decretou (21.5s) | ACAO: g_decretou | g_decretou | OK |
+| 2 | presos (24.8s) | ACAO: prende | empurra/prende | OK |
+| 3 | - | INTERACAO | entregar | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b4 - 25.2s a 31.1s - 17 palavras - plano crowd
 > "Para guardar tanta gente, ergueram o Centro de Confinamento do Terrorismo, com vagas para quarenta mil presos."
@@ -46,8 +47,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | ergueram (26.7s) | ACAO: constroi | martela e o objeto cresce | OK |
 | 2 | presos (31.1s) | ACAO: prende | empurra/prende | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | PLACA | 40 MIL | OK |
+| 3 | - | PLACA | 40 MIL | OK |
 
 ## Cena b5 - 31.5s a 35.6s - 12 palavras - plano low
 > "Muralhas altas, cercas elétricas e torres de vigia por todos os lados."
@@ -61,8 +61,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | avanca e o outro recua | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | despencou (40.0s) | ACAO: g_despenco | g_despenco | OK |
+| 2 | - | INTERACAO | avanca e o outro recua | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 40.4s a 44.4s - 12 palavras - plano two
 > "Organizações de direitos humanos denunciaram prisões sem julgamento, e mortes sob custódia."
@@ -86,8 +87,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | PLACA | DEBATE | OK |
+| 1 | - | PLACA | DEBATE | OK |
 
 ## Cena b10 - 55.6s a 60.7s - 15 palavras - plano close
 > "E o modelo passou a ser estudado, copiado e criticado em vários lugares do mundo."

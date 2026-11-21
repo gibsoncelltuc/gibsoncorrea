@@ -10,8 +10,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/grave, kit/cross, buildings/church
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dedo, homem, sino
-- RISCOS: 
-  - ACAO SEM ANIMACAO na narracao: Enterraram -> CORRECAO: a cena precisa MOSTRAR a acao: reescreva com um verbo que a ferramenta encena (veja OPERACAO.md "MODO DE ACAO") ou marque a cena ("batalha", "interacao", "acao", "animals", "props")
+- RISCOS: nenhum
 
 ## Cena b1 - Acontece que o povo tinha tanto medo de acordar dentro do caixão, que ...
 - Cenario: countryside | luz: day | clima: limpo
@@ -70,7 +69,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): MOR (variante 0, expressao grin); ESP (variante 0, expressao smile) | multidao: 12 de POV
-- Animacao: - | batalha encenada
+- Animacao: encena | batalha encenada
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, longo, sinal
 - RISCOS: 
@@ -137,17 +136,16 @@ nature/tree_oak | b2 | pronto | conferir na folha de contato se le bem; se parec
 - RISCOS GERAIS: 
   - nenhum mapa no video (o canal situa o lugar com mapa rapido) -> CORRECAO: "mapa": "NOME DO LUGAR" na cena 1 ou 2
   - objeto heroi (kit/grave) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
-  - 3 palavra(s) de acao sem efeito + som -> CORRECAO: ver plano.md e por "fx"/"sfx" na cena
+  - 2 palavra(s) de acao sem efeito + som -> CORRECAO: ver plano.md e por "fx"/"sfx" na cena
 
-## RESUMO: 8 risco(s) em aberto
-- b0: ACAO SEM ANIMACAO na narracao: Enterraram
+## RESUMO: 7 risco(s) em aberto
 - b1: cena longa (29 palavras, ~10 s no mesmo lugar)
 - b4: ACAO SEM ANIMACAO na narracao: assinei
 - b6: multidao/batalha dentro de sala: nao cabe
 - b10: ACAO SEM ANIMACAO na narracao: enterradas
 - geral: nenhum mapa no video (o canal situa o lugar com mapa rapido)
 - geral: objeto heroi (kit/grave) sem close de camera
-- geral: 3 palavra(s) de acao sem efeito + som
+- geral: 2 palavra(s) de acao sem efeito + som
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh sino_bench bN bM` (so essas cenas).

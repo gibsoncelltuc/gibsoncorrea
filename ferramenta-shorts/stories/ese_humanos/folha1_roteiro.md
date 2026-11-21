@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: E se, de uma hora para outra, todos os seres humanos sumissem da Terra? O que aconteceria com as cidades?
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_acontece (point) @16 -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: E SE...
 - Funcao na historia: GANCHO
@@ -24,16 +24,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Em poucas horas, as luzes começariam a se apagar, cidade por cidade.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_comecari (point) @5 -> acao + som de efeito
 - Efeito visual marcado: puff@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b3  (~4.8 s)
 - Narracao: Cachorros e gatos de estimação teriam que se virar sozinhos. Muitos voltariam a caçar.
-- Som ambiente: sea
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_voltaria (point) @11 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,14 +51,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Em vinte anos, as ruas virariam florestas. Veados e lobos andariam pelo meio das avenidas.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@20, whoosh@50
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_virariam (point) @5 -> acao + som de efeito; encena: g_andariam (point) @10 -> acao + som de efeito
 - Efeito visual marcado: stars@20, puff@50
 - Texto na tela: 20 ANOS
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b6  (~5.9 s)
 - Narracao: Acontece que, em algumas centenas de anos, até as grandes pontes de aço cairiam, comidas pela ferrugem.
-- Som ambiente: sea
+- Som ambiente: birds
 - Efeitos sonoros marcados: cannon@30
 - Efeito + som nas palavras-chave: encena: desaba @13 -> acao + som de efeito
 - Efeito visual marcado: burst@30
@@ -78,14 +78,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: E o plástico. Alguns tipos levariam séculos para se desfazer na natureza.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_levariam (point) @5 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b9  (~4.5 s)
 - Narracao: Em pouco tempo, a natureza tomaria de volta quase tudo o que construímos.
-- Som ambiente: sea
+- Som ambiente: birds
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: encena: constroi (hammer) @12 -> acao + som de efeito
 - Efeito visual marcado: stars@30
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O planeta seguiria girando, tranquilo. Somos nós que precisamos dele, não o contrário.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_seguiria (point) @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

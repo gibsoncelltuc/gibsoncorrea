@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - E Se EP 10 - E Se o Titanic Não Tivesse Afundado?
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 6.3s - 18 palavras - plano two
@@ -41,7 +41,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | reagir | OK |
+| 1 | rasgou (18.9s) | ACAO: g_rasgou | g_rasgou | OK |
+| 2 | - | ATUACAO | reagir | OK |
 
 ## Cena b4 - 24.1s a 29.3s - 15 palavras - plano crowd
 > "Acontece que só havia botes para metade das pessoas. Cerca de mil e quinhentas morreram."
@@ -51,8 +52,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | morreram (29.3s) | EFEITO: puff | fumaca + som | OK |
 | 2 | morreram (29.3s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
 | 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | PLACA | BOTES | OK |
+| 4 | - | PLACA | BOTES | OK |
 
 ## Cena b5 - 29.6s a 31.9s - 7 palavras - plano two
 > "E se o Titanic tivesse chegado inteiro?"
@@ -68,8 +68,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | cochichar | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | continuariam (37.0s) | ACAO: g_continua | g_continua | OK |
+| 2 | - | INTERACAO | cochichar | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 37.8s a 45.9s - 23 palavras - plano close
 > "Por causa do naufrágio, os países fizeram em mil novecentos e catorze o primeiro grande tratado de segurança no mar: bote para todos."
@@ -92,7 +93,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | ajudou (53.0s) | ACAO: g_ajudou | g_ajudou | OK |
 | 2 | - | ATUACAO | comemorar | OK |
 | 3 | - | PLACA | VIDAS SALVAS | OK |
 

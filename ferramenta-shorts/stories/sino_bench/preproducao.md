@@ -10,7 +10,7 @@ b2 | countryside | two | 2 | reagir, INTERAGEM: susto | kit/porch, buildings/hou
 b3 | street | group | 4 | conversar, INTERAGEM: vai ate o outro | kit/porch | lantern | -
 b4 | countryside | wide | 8 | conversar | kit/porch | paper | -
 b5 | interior madeira | close | 1 | encena | - | shovel | -
-b6 | interior madeira | orbit | 14 | batalha | - | - | -
+b6 | interior madeira | orbit | 14 | encena, batalha | - | - | -
 b7 | street | group | 4 | reagir, INTERAGEM: aproxima-se | kit/grave, buildings/church | coin | -
 b8 | interior madeira | close | 1 | conversar | - | - | -
 b9 | countryside | orbit | 7 | encena | kit/grave, kit/cross | shovel | -

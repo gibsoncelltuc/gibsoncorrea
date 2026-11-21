@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: teslaquila2020
-Cenas 100% fieis: 7/12 (58%). Lacunas: 6
+Cenas 100% fieis: 11/12 (92%). Lacunas: 1
 
 ## b0 OK - Elon Musk fez uma piada de primeiro de abril sobre tequila. Dois anos depois, a piada virou produto de verdade.
 - na tela: set=['street'] animais=[] objetos=['marco_mexico', 'tequila_bolt'] atores=6 acoes_folha3=[]
@@ -7,23 +7,18 @@ Cenas 100% fieis: 7/12 (58%). Lacunas: 6
 - na tela: set=['street'] animais=[] objetos=['marco_mexico'] atores=8 acoes_folha3=[]
 ## b2 OK - De brincadeira, Musk postou que a Tesla tinha falido, e apareceu cercado de garrafas de uma tal de Teslaquila.
 - na tela: set=['street'] animais=[] objetos=['marco_mexico', 'phone', 'picket_fence', 'roadster', 'tequila_bolt'] atores=6 acoes_folha3=['postou', 'apareceu', 'apareceu']
-## b3 LACUNA - Muita gente riu. Mas ele resolveu levar a ideia a sério, e tentou registrar o nome.
-- na tela: set=['hall'] animais=[] objetos=['room_eua_shop'] atores=2 acoes_folha3=['riu', 'riu', 'ideia']
-- **FALTA:** VERBO narrado ("tentou") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["tento"] no beat)
-## b4 LACUNA - Acontece que o conselho que protege a tequila no México reclamou: o nome tequila tem regras, e não podia ser usado de qualquer jeito.
-- na tela: set=['outback'] animais=[] objetos=['marco_mexico', 'tequila_bolt', 'veg_cacto'] atores=6 acoes_folha3=[]
-- **FALTA:** VERBO narrado ("reclamou") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["recla"] no beat)
+## b3 OK - Muita gente riu. Mas ele resolveu levar a ideia a sério, e tentou registrar o nome.
+- na tela: set=['hall'] animais=[] objetos=['room_eua_shop'] atores=2 acoes_folha3=['riu', 'riu', 'ideia', 'tentou']
+## b4 OK - Acontece que o conselho que protege a tequila no México reclamou: o nome tequila tem regras, e não podia ser usado de qualquer jeito.
+- na tela: set=['outback'] animais=[] objetos=['marco_mexico', 'tequila_bolt', 'veg_cacto'] atores=6 acoes_folha3=['reclamou']
 ## b5 OK - Em dois mil e vinte, saiu com outro nome: Tesla Tequila, feita no México, com agave.
 - na tela: set=['outback'] animais=[] objetos=['marco_mexico', 'roadster', 'tequila_bolt', 'veg_cacto'] atores=2 acoes_folha3=['saiu']
 ## b6 OK - A garrafa era de vidro soprado à mão, em forma de raio, presa num suporte de metal.
 - na tela: set=['hall'] animais=[] objetos=['room_eua_shop', 'tequila_bolt'] atores=1 acoes_folha3=['presa']
-## b7 LACUNA - Cada uma custava duzentos e cinquenta dólares. E esgotou em poucas horas.
-- na tela: set=['street'] animais=[] objetos=['marco_mexico', 'tequila_bolt'] atores=23 acoes_folha3=[]
-- **FALTA:** VERBO narrado ("custava") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["custa"] no beat)
-- **FALTA:** VERBO narrado ("esgotou") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["esgot"] no beat)
-## b8 LACUNA - Logo apareceu gente revendendo na internet. Até garrafas vazias, por centenas de dólares.
-- na tela: set=['hall'] animais=[] objetos=['phone', 'room_eua_shop', 'tequila_bolt'] atores=2 acoes_folha3=['apareceu', 'apareceu', 'internet']
-- **FALTA:** VERBO narrado ("revendendo") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["reven"] no beat)
+## b7 OK - Cada uma custava duzentos e cinquenta dólares. E esgotou em poucas horas.
+- na tela: set=['street'] animais=[] objetos=['marco_mexico', 'tequila_bolt'] atores=23 acoes_folha3=['custava', 'esgotou']
+## b8 OK - Logo apareceu gente revendendo na internet. Até garrafas vazias, por centenas de dólares.
+- na tela: set=['hall'] animais=[] objetos=['phone', 'room_eua_shop', 'tequila_bolt'] atores=2 acoes_folha3=['apareceu', 'apareceu', 'revendendo', 'internet']
 ## b9 LACUNA - Um anúncio passou de mil e quatrocentos dólares, por uma garrafa sem nenhuma gota dentro.
 - na tela: set=['hall'] animais=[] objetos=['room_eua_shop', 'tequila_bolt'] atores=2 acoes_folha3=[]
 - **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece

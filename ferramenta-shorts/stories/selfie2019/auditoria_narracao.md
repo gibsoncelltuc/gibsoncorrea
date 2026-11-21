@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: selfie2019
-Cenas 100% fieis: 5/11 (45%). Lacunas: 7
+Cenas 100% fieis: 7/11 (64%). Lacunas: 4
 
 ## b0 LACUNA - Um presidente chegou ao palco mais importante do mundo, e antes de falar, tirou uma selfie.
 - na tela: set=['street'] animais=[] objetos=['marco_onu', 'phone'] atores=6 acoes_folha3=['chegou', 'chegou', 'tirou']
@@ -17,16 +17,13 @@ Cenas 100% fieis: 5/11 (45%). Lacunas: 7
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'phone', 'room_eua_wood'] atores=1 acoes_folha3=['tirou', 'celular']
 ## b5 OK - Virou de costas para a plateia, e tirou uma selfie com o plenário inteiro atrás.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'phone', 'room_eua_wood'] atores=1 acoes_folha3=['tirou']
-## b6 LACUNA - Depois, brincou: acreditem, muito mais gente vai ver essa selfie do que ouvir este discurso.
-- na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'phone', 'room_eua_wood'] atores=2 acoes_folha3=['selfie']
-- **FALTA:** VERBO narrado ("brincou") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["brinc"] no beat)
+## b6 OK - Depois, brincou: acreditem, muito mais gente vai ver essa selfie do que ouvir este discurso.
+- na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'phone', 'room_eua_wood'] atores=2 acoes_folha3=['brincou', 'selfie']
 ## b7 OK - E ele tinha razão. A foto rodou o planeta em poucas horas.
 - na tela: set=['street'] animais=[] objetos=['globe', 'marco_onu', 'phone'] atores=23 acoes_folha3=['foto']
 ## b8 OK - Alguns acharam falta de respeito com a ONU. Outros acharam genial.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_eua_stone'] atores=2 acoes_folha3=['acharam']
-## b9 LACUNA - No discurso, ele defendeu justamente isso: que as reuniões antigas deviam se adaptar à era da internet.
-- na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_eua_stone'] atores=2 acoes_folha3=[]
-- **FALTA:** VERBO narrado ("defendeu") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["defen"] no beat)
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
+## b9 OK - No discurso, ele defendeu justamente isso: que as reuniões antigas deviam se adaptar à era da internet.
+- na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'phone', 'room_eua_stone'] atores=2 acoes_folha3=['defendeu', 'internet']
 ## b10 OK - Uma selfie de um segundo, que ficou mais famosa que muitos discursos inteiros.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'phone', 'room_eua_stone'] atores=1 acoes_folha3=['selfie']

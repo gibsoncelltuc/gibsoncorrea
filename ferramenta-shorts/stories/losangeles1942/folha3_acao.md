@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 20 - A Batalha de Los Angeles
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 48 acoes catalogadas, 48 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 51 acoes catalogadas, 51 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.9s - 14 palavras - plano two
@@ -39,8 +39,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | sirenes (18.9s) | ACAO: toca | onda de som (sirene/sino) | OK |
-| 2 | - | INTERACAO | entregar | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 2 | apagaram (21.0s) | ACAO: g_apagaram | g_apagaram | OK |
+| 3 | varreram (22.6s) | ACAO: g_varreram | g_varreram | OK |
+| 4 | - | INTERACAO | entregar | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
 ## Cena b4 - 24.2s a 28.4s - 15 palavras - plano orbit
 > "Alguém viu um objeto no céu, e os soldados começaram a atirar com canhões antiaéreos."
@@ -88,8 +90,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | susto | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | discutiram (43.5s) | ACAO: g_discutir | g_discutir | OK |
+| 2 | - | INTERACAO | susto | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b8 - 47.2s a 51.0s - 12 palavras - plano two
 > "Algumas pessoas morreram, por acidente e por susto, mas nenhum inimigo apareceu."

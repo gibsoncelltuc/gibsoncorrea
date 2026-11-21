@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 15 - A Cola que Não Colava
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 43 acoes catalogadas, 43 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.4s - 19 palavras - plano two
@@ -27,7 +27,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
+| 1 | tentava (12.3s) | ACAO: g_tentava | g_tentava | OK |
 
 ## Cena b3 - 17.0s a 21.9s - 15 palavras - plano group
 > "Acontece que saiu o contrário: uma cola que grudava, mas soltava fácil, sem deixar marca."
@@ -35,7 +35,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | saiu (17.8s) | ACAO: sai | sai andando pela lateral | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 2 | grudava (19.5s) | ACAO: g_grudava | g_grudava | OK |
+| 3 | soltava (20.3s) | ACAO: g_soltava | g_soltava | OK |
+| 4 | - | ATUACAO | reagir | OK |
 
 ## Cena b4 - 23.2s a 27.7s - 14 palavras - plano two
 > "Durante anos, ele mostrou a cola para todo mundo na empresa. Ninguém via utilidade."
@@ -58,10 +60,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | caindo (38.1s) | ACAO: desaba | desaba: nuvem de poeira + tremor | OK |
-| 2 | chão (38.6s) | ACAO: tomba | cai sentado no chao + poeira | OK |
-| 3 | - | INTERACAO | avanca e o outro recua | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 1 | marcavam (36.3s) | ACAO: g_marcavam | g_marcavam | OK |
+| 2 | caindo (38.1s) | ACAO: desaba | desaba: nuvem de poeira + tremor | OK |
+| 3 | chão (38.6s) | ACAO: tomba | cai sentado no chao + poeira | OK |
+| 4 | - | INTERACAO | avanca e o outro recua | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 41.6s a 48.2s - 20 palavras - plano close
 > "Aí veio a ideia: marcadores com a cola fraca do Silver. Grudam, não caem, e saem sem rasgar a página."
@@ -76,10 +79,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | saiu (51.9s) | ACAO: sai | sai andando pela lateral | OK |
-| 2 | laboratório (55.3s) | ACAO: quimico | frasco e tubos de ensaio + fumacinha | OK |
-| 3 | - | INTERACAO | abracar | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 1 | juntaram (50.0s) | ACAO: g_juntaram | g_juntaram | OK |
+| 2 | saiu (51.9s) | ACAO: sai | sai andando pela lateral | OK |
+| 3 | laboratório (55.3s) | ACAO: quimico | frasco e tubos de ensaio + fumacinha | OK |
+| 4 | - | INTERACAO | abracar | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
 ## Cena b9 - 57.0s a 62.1s - 17 palavras - plano two
 > "O primeiro teste de vendas foi um fracasso. Ninguém entendia para que servia um bloquinho que descolava."
@@ -89,17 +93,20 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | vendas (57.9s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 2 | fracasso (58.5s) | EFEITO: puff | fumaca + som | OK |
 | 3 | fracasso (58.5s) | ACAO: perde | mao na testa | OK |
-| 4 | - | INTERACAO | susto | OK |
-| 5 | - | ATUACAO | conversar | OK |
+| 4 | descolava (62.1s) | ACAO: g_descolav | g_descolav | OK |
+| 5 | - | INTERACAO | susto | OK |
+| 6 | - | ATUACAO | conversar | OK |
 
 ## Cena b10 - 63.5s a 69.6s - 16 palavras - plano orbit
 > "Então distribuíram amostras de graça numa cidade inteira. Quase todo mundo que testou quis comprar mais."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | comprar (69.2s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 2 | - | ATUACAO | comemorar | OK |
-| 3 | - | PLACA | POST-IT | OK |
+| 1 | distribuíram (63.9s) | ACAO: g_distribu | g_distribu | OK |
+| 2 | testou (68.6s) | ACAO: g_testou | g_testou | OK |
+| 3 | comprar (69.2s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 4 | - | ATUACAO | comemorar | OK |
+| 5 | - | PLACA | POST-IT | OK |
 
 ## Cena b11 - 70.6s a 76.1s - 18 palavras - plano close
 > "Em mil novecentos e oitenta, o post-it chegou às lojas. Tudo graças a uma cola que deu errado."

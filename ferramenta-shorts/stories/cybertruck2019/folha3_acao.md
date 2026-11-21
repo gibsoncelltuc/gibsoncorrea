@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 11 - A Janela do Cybertruck
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 8 frases, 25 acoes catalogadas, 25 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 8 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 7.8s - 22 palavras - plano two
@@ -44,10 +44,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | rachou (26.3s) | ACAO: quebra | quebra + estouro + tremor | OK |
-| 2 | - | CENA | voa: steel_ball sai da mao e voa ate o alvo + som | OK |
-| 3 | - | INTERACAO | o outro se aproxima | OK |
-| 4 | - | ATUACAO | reagir | OK |
+| 1 | tentou (23.0s) | ACAO: g_tentou | g_tentou | OK |
+| 2 | rachou (26.3s) | ACAO: quebra | quebra + estouro + tremor | OK |
+| 3 | - | CENA | voa: steel_ball sai da mao e voa ate o alvo + som | OK |
+| 4 | - | INTERACAO | o outro se aproxima | OK |
+| 5 | - | ATUACAO | reagir | OK |
 
 ## Cena b5 - 26.7s a 33.3s - 19 palavras - plano close
 > "Depois, Musk explicou na internet que, nos ensaios, a mesma esfera tinha batido na mesma janela sem nem arranhar."

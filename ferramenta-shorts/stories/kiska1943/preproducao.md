@@ -7,7 +7,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | harbor | group | 17 | conversar, INTERAGEM: aproxima-se | ship, kit/marco_alpes | - | -
 b1 | harbor | reveal | 11 | parados (so fala e pisca) | vehicles/airplane, kit/navio_vapor, kit/marco_alpes, navios ao fundo | - | -
 b2 | harbor | group | 11 | conversar, batalha | cannon, kit/marco_alpes | - | -
-b3 | mountain | orbit | 21 | andando, batalha | kit/marco_alpes | - | -
+b3 | mountain | orbit | 21 | encena, andando, batalha | kit/marco_alpes | - | -
 b4 | arctic | group | 1 | reagir | - | - | -
 b5 | arctic | orbit | 11 | parados (so fala e pisca) | ship, nature/picket_fence | - | -
 b6 | countryside | group | 3 | reagir, INTERAGEM: susto | kit/marco_alpes | - | -

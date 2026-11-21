@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: A borracha estava na moda, mas tinha um defeito: no calor, derretia e fedia. No frio, rachava.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_rachava (point) @16 -> acao + som de efeito
 - Efeito visual marcado: ring@12, dust@40
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Charles Goodyear ficou obcecado. Misturou a borracha com tudo que encontrava, e gastou todo o dinheiro da família.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
-- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino; encena: mistura (stir) @4 -> acao + som de efeito; encena: paga (reach) @15 -> acao + som de efeito
+- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino; encena: mistura (stir) @4 -> acao + som de efeito; encena: g_encontra (point) @10 -> acao + som de efeito; encena: g_gastou (point) @12 -> acao + som de efeito; encena: paga (reach) @15 -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Até que um dia, mexendo numa mistura de borracha com enxofre, ele se atrapalhou.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: mistura (stir) @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: mistura (stir) @4 -> acao + som de efeito; encena: g_atrapalh (point) @13 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Ele abraçou a esposa. Finalmente a borracha aguentava calor e frio.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: encena: x_abraca @1 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_abraca @1 -> acao + som de efeito; encena: g_aguentav (point) @7 -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Mas outros copiaram a ideia, e ele passou anos brigando na justiça. Morreu cheio de dívidas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; Morreu -> puff + som de baque; encena: pensa (think) @4 -> acao + som de efeito; encena: golpe (punch) @9 -> acao + som de efeito; encena: morre @12 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; Morreu -> puff + som de baque; encena: g_copiaram (point) @2 -> acao + som de efeito; encena: pensa (think) @4 -> acao + som de efeito; encena: golpe (punch) @9 -> acao + som de efeito; encena: morre @12 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

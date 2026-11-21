@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - E Se EP 07 - E Se a Lua Desaparecesse?
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 25 acoes catalogadas, 25 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 3.7s - 11 palavras - plano two
@@ -52,9 +52,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | ATUACAO | reagir | OK |
-| 3 | - | PLACA | SEM LUA | OK |
+| 1 | - | ATUACAO | reagir | OK |
+| 2 | - | PLACA | SEM LUA | OK |
 
 ## Cena b6 - 30.0s a 36.3s - 18 palavras - plano two
 > "Acontece que o pior viria devagar. A Lua funciona como um peso que mantém a Terra girando firme."
@@ -77,17 +76,17 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | insiste | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | parariam (44.4s) | ACAO: g_parariam | g_parariam | OK |
+| 2 | - | INTERACAO | insiste | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b9 - 50.0s a 54.8s - 14 palavras - plano orbit
 > "Boa notícia: ela não vai embora. Só se afasta uns quatro centímetros por ano."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | ATUACAO | comemorar | OK |
-| 3 | - | PLACA | OBRIGADO, LUA | OK |
+| 1 | - | ATUACAO | comemorar | OK |
+| 2 | - | PLACA | OBRIGADO, LUA | OK |
 
 ## Cena b10 - 55.2s a 59.6s - 13 palavras - plano close
 > "Então hoje, olha para cima e agradece. Ela trabalha mais do que parece."

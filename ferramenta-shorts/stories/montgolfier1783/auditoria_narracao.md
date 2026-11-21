@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: montgolfier1783
-Cenas 100% fieis: 5/12 (42%). Lacunas: 11
+Cenas 100% fieis: 8/12 (67%). Lacunas: 7
 
 ## b0 LACUNA - Os primeiros passageiros de um balão não foram pessoas. Foram uma ovelha, um pato e um galo.
 - na tela: set=['street'] animais=['sheep'] objetos=['balloon', 'marco_versalhes'] atores=2 acoes_folha3=[]
@@ -7,13 +7,10 @@ Cenas 100% fieis: 5/12 (42%). Lacunas: 11
 - **FALTA:** ANIMAL narrado (pato) NAO aparece
 ## b1 OK - Era mil setecentos e oitenta e três, na França.
 - na tela: set=['street'] animais=[] objetos=['marco_versalhes'] atores=8 acoes_folha3=[]
-## b2 LACUNA - Os irmãos Montgolfier, donos de uma fábrica de papel, repararam que a fumaça quente fazia sacos de papel flutuarem.
-- na tela: set=['street'] animais=[] objetos=['campfire', 'marco_versalhes'] atores=2 acoes_folha3=['quente']
-- **FALTA:** VERBO narrado ("repararam") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["repar"] no beat)
-## b3 LACUNA - Então costuraram um balão gigante de pano e papel, e encheram de ar quente.
-- na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'balloon', 'campfire', 'room_franca_wood'] atores=6 acoes_folha3=['quente']
-- **FALTA:** VERBO narrado ("costuraram") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["costu"] no beat)
-- **FALTA:** VERBO narrado ("encheram") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["enche"] no beat)
+## b2 OK - Os irmãos Montgolfier, donos de uma fábrica de papel, repararam que a fumaça quente fazia sacos de papel flutuarem.
+- na tela: set=['street'] animais=[] objetos=['campfire', 'marco_versalhes'] atores=2 acoes_folha3=['repararam', 'quente']
+## b3 OK - Então costuraram um balão gigante de pano e papel, e encheram de ar quente.
+- na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'balloon', 'campfire', 'room_franca_wood'] atores=6 acoes_folha3=['costuraram', 'encheram', 'quente']
 ## b4 OK - Só que ninguém sabia se dava para respirar lá em cima. E se o ar do céu matasse?
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_franca_wood'] atores=2 acoes_folha3=[]
 ## b5 OK - A solução: mandar bichos na frente. Uma ovelha, um pato e um galo entraram na cesta.
@@ -23,9 +20,8 @@ Cenas 100% fieis: 5/12 (42%). Lacunas: 11
 - **FALTA:** LUGAR/CENARIO narrado (PALACIO/SALA) NAO aparece
 ## b7 OK - Acontece que o balão levantou voo de verdade, e foi embora pelo céu, com os bichos dentro.
 - na tela: set=['street'] animais=[] objetos=['balloon_air', 'marco_versalhes'] atores=2 acoes_folha3=['levantou', 'embora']
-## b8 LACUNA - Oito minutos depois, ele desceu num bosque a uns três quilômetros dali. Os irmãos correram para ver.
-- na tela: set=['countryside'] animais=[] objetos=['balloon', 'bush', 'marco_versalhes', 'tree_oak', 'tree_pine'] atores=2 acoes_folha3=['correram', 'correram']
-- **FALTA:** VERBO narrado ("desceu") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["desce"] no beat)
+## b8 OK - Oito minutos depois, ele desceu num bosque a uns três quilômetros dali. Os irmãos correram para ver.
+- na tela: set=['countryside'] animais=[] objetos=['balloon', 'bush', 'marco_versalhes', 'tree_oak', 'tree_pine'] atores=2 acoes_folha3=['desceu', 'correram', 'correram']
 ## b9 LACUNA - Os três bichos estavam vivos e bem! Dava para respirar no céu.
 - na tela: set=['countryside'] animais=['duck', 'rooster', 'sheep'] objetos=['marco_versalhes'] atores=2 acoes_folha3=[]
 - **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece

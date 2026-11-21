@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: mechazilla2024
-Cenas 100% fieis: 7/12 (58%). Lacunas: 6
+Cenas 100% fieis: 11/12 (92%). Lacunas: 1
 
 ## b0 OK - Elon Musk mandou construir uma torre com braços gigantes, para pegar um foguete no ar. E deu certo.
 - na tela: set=['street'] animais=[] objetos=['rocket', 'shop', 'tower', 'tower_catch', 'tower_mini'] atores=6 acoes_folha3=['mandou', 'construir', 'deu']
@@ -9,18 +9,14 @@ Cenas 100% fieis: 7/12 (58%). Lacunas: 6
 - na tela: set=['outback'] animais=[] objetos=['booster_air', 'house_small', 'tower'] atores=2 acoes_folha3=[]
 ## b3 OK - A ideia de Musk: tirar as pernas do foguete, e fazer a própria torre de lançamento agarrar o propulsor na volta.
 - na tela: set=['outback'] animais=[] objetos=['tower', 'windmill'] atores=2 acoes_folha3=['ideia', 'tirar']
-## b4 LACUNA - Os engenheiros apelidaram os braços de pauzinhos, como os de comida japonesa. E a torre, de Mechazilla.
-- na tela: set=['outback'] animais=[] objetos=['tower', 'tower_catch'] atores=2 acoes_folha3=[]
-- **FALTA:** VERBO narrado ("apelidaram") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["apeli"] no beat)
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
+## b4 OK - Os engenheiros apelidaram os braços de pauzinhos, como os de comida japonesa. E a torre, de Mechazilla.
+- na tela: set=['outback'] animais=[] objetos=['tower', 'tower_catch'] atores=2 acoes_folha3=['apelidaram']
 ## b5 OK - No dia do teste, o propulsor gigante decolou com trinta e três motores acesos, e sumiu no céu.
 - na tela: set=['street'] animais=[] objetos=['booster_air'] atores=21 acoes_folha3=['decolou']
-## b6 LACUNA - Minutos depois, ele voltou do espaço, descendo de ré, direto na direção da torre.
-- na tela: set=['street'] animais=[] objetos=['booster_air', 'tower'] atores=1 acoes_folha3=[]
-- **FALTA:** VERBO narrado ("descendo") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["desce"] no beat)
-## b7 LACUNA - Acontece que, no último segundo, os braços se fecharam, e seguraram o foguete no ar.
-- na tela: set=['street'] animais=[] objetos=['lighthouse', 'tower', 'tower_catch'] atores=2 acoes_folha3=['fecharam']
-- **FALTA:** VERBO narrado ("seguraram") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["segur"] no beat)
+## b6 OK - Minutos depois, ele voltou do espaço, descendo de ré, direto na direção da torre.
+- na tela: set=['street'] animais=[] objetos=['booster_air', 'tower'] atores=1 acoes_folha3=['descendo']
+## b7 OK - Acontece que, no último segundo, os braços se fecharam, e seguraram o foguete no ar.
+- na tela: set=['street'] animais=[] objetos=['lighthouse', 'tower', 'tower_catch'] atores=2 acoes_folha3=['fecharam', 'seguraram']
 ## b8 OK - Os engenheiros comemoraram aos gritos. Era a primeira vez que alguém fazia isso na história.
 - na tela: set=['outback'] animais=[] objetos=['tower', 'tower_catch'] atores=23 acoes_folha3=['comemoraram', 'comemoraram']
 ## b9 OK - Musk comemorou nas redes sociais: a torre tinha pegado o foguete.
@@ -28,6 +24,5 @@ Cenas 100% fieis: 7/12 (58%). Lacunas: 6
 ## b10 LACUNA - Assim, o propulsor que antes ia para o lixo pode ser usado de novo, várias vezes.
 - na tela: set=['outback'] animais=[] objetos=['house_small', 'tower', 'tower_catch'] atores=2 acoes_folha3=[]
 - **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
-## b11 LACUNA - E a torre já repetiu a pegada outras vezes. Parece filme de robô gigante, mas é engenharia.
-- na tela: set=['street'] animais=[] objetos=['lighthouse', 'tower', 'tower_catch', 'tower_mini'] atores=1 acoes_folha3=[]
-- **FALTA:** VERBO narrado ("repetiu") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["repet"] no beat)
+## b11 OK - E a torre já repetiu a pegada outras vezes. Parece filme de robô gigante, mas é engenharia.
+- na tela: set=['street'] animais=[] objetos=['lighthouse', 'tower', 'tower_catch', 'tower_mini'] atores=1 acoes_folha3=['repetiu']

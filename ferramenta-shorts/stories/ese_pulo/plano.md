@@ -4,7 +4,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | -  | placa: E SE... | encena: pula @7 (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
-b2 | two | -  | objeto na mao | - | -
+b2 | two | -  | interior, objeto na mao | - | -
 b3 | crowd | -  | batalha aberta com tiros, tropa, placa: 3, 2, 1... | encena: pula @7 (acao + som de efeito) | -
 b4 | close | -  | - | - | -
 b5 | two | -  | - | - | -

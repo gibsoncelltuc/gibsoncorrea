@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 03 - A Guerra de Toledo
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.7s - 13 palavras - plano two
@@ -34,12 +34,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | chegaram (23.7s) | EFEITO: dust | poeira + som | OK |
-| 2 | chegaram (23.7s) | ACAO: chega | entra andando pela lateral | OK |
-| 3 | - | CENA | cavalaria: 4 soldados a cavalo (OHI) | OK |
-| 4 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
-| 6 | - | ATUACAO | discutir | OK |
+| 1 | respondeu (20.9s) | ACAO: g_responde | g_responde | OK |
+| 2 | chegaram (23.7s) | EFEITO: dust | poeira + som | OK |
+| 3 | chegaram (23.7s) | ACAO: chega | entra andando pela lateral | OK |
+| 4 | - | CENA | cavalaria: 4 soldados a cavalo (OHI) | OK |
+| 5 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
+| 7 | - | ATUACAO | discutir | OK |
 
 ## Cena b4 - 26.8s a 32.5s - 12 palavras - plano orbit
 > "Houve gritos, ameaças, e tiros. Todos para o alto. Ninguém acertou ninguém."
@@ -69,7 +70,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | mandou (40.5s) | ACAO: fala | aponta explicando | OK |
-| 2 | ofereceu (42.5s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | ofereceu (42.5s) | ACAO: x_serve | estende o prato + brilho | OK |
 | 3 | - | CENA | pedido: plano medio dos dois, um pede ao outro | OK |
 | 4 | - | INTERACAO | pedir | OK |
 | 5 | - | ATUACAO | reagir | OK |

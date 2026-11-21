@@ -12,7 +12,7 @@ b4 | countryside | orbit | 26 | encena, batalha | nature/picket_fence, buildings
 b5 | mountain | two | 1 | conversar | vehicles/truck, emus | - | -
 b6 | mountain | group | 2 | conversar, INTERAGEM: susto | emus | - | -
 b7 | mountain | group | 15 | comemorar, INTERAGEM: empurrar | - | paper | -
-b8 | outback | crowd | 26 | batalha | emus | - | -
+b8 | outback | crowd | 26 | encena, batalha | emus | - | -
 b9 | outback | two | 2 | conversar, INTERAGEM: entregar | buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow, emus | - | -
 b10 | outback | close | 1 | conversar | emus | - | -
 

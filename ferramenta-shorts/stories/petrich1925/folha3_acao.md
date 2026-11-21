@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - A Guerra do Cachorro Perdido
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 5.6s - 16 palavras - plano two
@@ -30,6 +30,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | correu (13.0s) | EFEITO: dust | poeira + som | OK |
 | 2 | correu (13.0s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
+| 3 | atravessou (14.8s) | ACAO: g_atravess | g_atravess | OK |
 
 ## Cena b3 - 15.9s a 18.5s - 8 palavras - plano crowd
 > "Uma sentinela búlgara viu o soldado, e atirou."
@@ -60,18 +61,20 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | invadiu (24.1s) | EFEITO: dust | poeira + som | OK |
 | 2 | invadiu (24.1s) | ACAO: chega | entra andando pela lateral | OK |
-| 3 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | PLACA | INVASÃO | OK |
+| 3 | ocupou (25.6s) | ACAO: g_ocupou | g_ocupou | OK |
+| 4 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 6 | - | PLACA | INVASÃO | OK |
 
 ## Cena b6 - 27.4s a 31.5s - 12 palavras - plano two
 > "A Bulgária apelou para a Liga das Nações, o antecessor da ONU."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | susto | OK |
-| 2 | - | ATUACAO | reagir | OK |
-| 3 | - | PLACA | LIGA DAS NAÇÕES | OK |
+| 1 | apelou (28.1s) | ACAO: g_apelou | g_apelou | OK |
+| 2 | - | INTERACAO | susto | OK |
+| 3 | - | ATUACAO | reagir | OK |
+| 4 | - | PLACA | LIGA DAS NAÇÕES | OK |
 
 ## Cena b7 - 31.9s a 36.3s - 13 palavras - plano group
 > "A Liga mandou a Grécia parar, retirar as tropas e pagar uma indenização."

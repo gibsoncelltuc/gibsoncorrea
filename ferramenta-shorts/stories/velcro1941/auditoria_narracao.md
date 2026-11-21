@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: velcro1941
-Cenas 100% fieis: 6/12 (50%). Lacunas: 6
+Cenas 100% fieis: 7/12 (58%). Lacunas: 5
 
 ## b0 LACUNA - Uma das invenções mais usadas do mundo nasceu de um passeio com o cachorro.
 - na tela: set=['street'] animais=['dog'] objetos=['burr', 'marco_alpes'] atores=6 acoes_folha3=[]
@@ -14,9 +14,8 @@ Cenas 100% fieis: 6/12 (50%). Lacunas: 6
 - **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
 ## b4 OK - Curioso, ele levou um carrapicho para casa e olhou no microscópio.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'burr', 'microscopio', 'room_europa_wood'] atores=3 acoes_folha3=['olhou', 'microscópio']
-## b5 LACUNA - Acontece que cada espinho tinha um ganchinho na ponta, que agarrava nas voltinhas do tecido.
-- na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'burr', 'room_europa_wood'] atores=1 acoes_folha3=[]
-- **FALTA:** VERBO narrado ("agarrava") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["agarr"] no beat)
+## b5 OK - Acontece que cada espinho tinha um ganchinho na ponta, que agarrava nas voltinhas do tecido.
+- na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'burr', 'room_europa_wood'] atores=1 acoes_folha3=['agarrava']
 ## b6 OK - Ele pensou: e se eu fizer uma fita de ganchinhos, e outra de voltinhas? Gruda e solta quantas vezes quiser.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'burr', 'room_europa_wood'] atores=1 acoes_folha3=['pensou']
 ## b7 OK - Os tecelões riram da ideia. Levou quase dez anos de tentativas até acertar o material.

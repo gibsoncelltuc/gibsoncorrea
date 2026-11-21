@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Um cientista tirou a primeira foto de dentro do corpo humano, e assustou a própria esposa.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: (rosto) scared -> expr + som de efeito; encena: tira (lift) @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) scared -> expr + som de efeito; encena: tira (lift) @2 -> acao + som de efeito; encena: g_assustou (point) @12 -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 1895
 - Funcao na historia: GANCHO
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Wilhelm Röntgen passava as noites no laboratório, testando um tubo de vidro que soltava faíscas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: encena: quimico (pour) @6 -> acao + som de efeito; encena: brilha (point) @14 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: g_passava (point) @2 -> acao + som de efeito; encena: quimico (pour) @6 -> acao + som de efeito; encena: g_testando (point) @7 -> acao + som de efeito; encena: g_soltava (point) @13 -> acao + som de efeito; encena: brilha (point) @14 -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Numa noite, ele cobriu o tubo com papelão preto, e apagou a luz.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@60
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_cobriu (reach) @3 -> acao + som de efeito; encena: g_apagou (reach) @10 -> acao + som de efeito
 - Efeito visual marcado: puff@60
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

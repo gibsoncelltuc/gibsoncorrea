@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Spencer Silver tentava criar uma super cola, tão forte que nada conseguisse descolar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_tentava (point) @2 -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que saiu o contrário: uma cola que grudava, mas soltava fácil, sem deixar marca.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: encena: sai @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: sai @2 -> acao + som de efeito; encena: g_grudava (point) @8 -> acao + som de efeito; encena: g_soltava (point) @10 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Os papeizinhos que marcavam as páginas do hinário viviam caindo no chão. E ele ficava perdido.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@30
-- Efeito + som nas palavras-chave: encena: desaba @9 -> acao + som de efeito; encena: tomba @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: g_marcavam (point) @3 -> acao + som de efeito; encena: desaba @9 -> acao + som de efeito; encena: tomba @11 -> acao + som de efeito
 - Efeito visual marcado: puff@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Os dois se juntaram. E o papel saiu amarelo por acaso: era o único papel de rascunho que tinha no laboratório vizinho.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: sai @7 -> acao + som de efeito; encena: quimico (pour) @20 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: g_juntaram (point) @3 -> acao + som de efeito; encena: sai @7 -> acao + som de efeito; encena: quimico (pour) @20 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O primeiro teste de vendas foi um fracasso. Ninguém entendia para que servia um bloquinho que descolava.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: fracasso -> puff + som de baque; encena: negocio (reach) @4 -> acao + som de efeito; encena: perde (facepalm) @7 -> acao + som de efeito
+- Efeito + som nas palavras-chave: fracasso -> puff + som de baque; encena: negocio (reach) @4 -> acao + som de efeito; encena: perde (facepalm) @7 -> acao + som de efeito; encena: g_descolav (point) @16 -> acao + som de efeito
 - Efeito visual marcado: ring@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Então distribuíram amostras de graça numa cidade inteira. Quase todo mundo que testou quis comprar mais.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: encena: negocio (reach) @14 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: g_distribu (point) @1 -> acao + som de efeito; encena: g_testou (point) @12 -> acao + som de efeito; encena: negocio (reach) @14 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: POST-IT
 - Funcao na historia: GRANDE MOMENTO

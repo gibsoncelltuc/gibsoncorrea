@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Narracao: Ele tentou de novo, em outra janela, e ela também rachou.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@4
-- Efeito + som nas palavras-chave: encena: quebra (throw) @10 -> acao + som de efeito; voa: steel_ball sai da mao e voa ate o alvo + som -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: g_tentou (point) @1 -> acao + som de efeito; encena: quebra (throw) @10 -> acao + som de efeito; voa: steel_ball sai da mao e voa ate o alvo + som -> acao + som de efeito
 - Efeito visual marcado: burst@4
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

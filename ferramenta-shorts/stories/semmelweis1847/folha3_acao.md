@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 13 - O Médico que Mandou Lavar as Mãos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 43 acoes catalogadas, 43 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 6.0s - 18 palavras - plano two
@@ -55,11 +55,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | cortou (33.3s) | ACAO: corta | machado e toras + poeira | OK |
-| 2 | morreu (36.3s) | EFEITO: puff | fumaca + som | OK |
-| 3 | morreu (36.3s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
-| 4 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 5 | - | INTERACAO | insiste | OK |
-| 6 | - | ATUACAO | reagir | OK |
+| 2 | examinando (34.8s) | ACAO: g_examinan | g_examinan | OK |
+| 3 | morreu (36.3s) | EFEITO: puff | fumaca + som | OK |
+| 4 | morreu (36.3s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
+| 5 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 6 | - | INTERACAO | insiste | OK |
+| 7 | - | ATUACAO | reagir | OK |
 
 ## Cena b6 - 38.2s a 43.7s - 18 palavras - plano close
 > "Semmelweis entendeu tudo: os médicos saíam das autópsias e iam direto para os partos, com as mãos sujas."
@@ -74,26 +75,30 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | lavar (48.9s) | ACAO: x_lava | lava/esfrega na bacia + respingo | OK |
-| 2 | - | INTERACAO | discutir | OK |
-| 3 | - | ATUACAO | discutir | OK |
+| 1 | colocou (45.2s) | ACAO: g_colocou | g_colocou | OK |
+| 2 | obrigou (47.7s) | ACAO: g_obrigou | g_obrigou | OK |
+| 3 | lavar (48.9s) | ACAO: x_lava | lava/esfrega na bacia + respingo | OK |
+| 4 | - | INTERACAO | discutir | OK |
+| 5 | - | ATUACAO | discutir | OK |
 
 ## Cena b8 - 50.9s a 55.4s - 11 palavras - plano crowd
 > "As mortes despencaram quase dez vezes. Centenas de mães foram salvas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | comemorar | OK |
-| 2 | - | PLACA | VIDAS SALVAS | OK |
+| 1 | despencaram (51.6s) | ACAO: g_despenca | g_despenca | OK |
+| 2 | - | ATUACAO | comemorar | OK |
+| 3 | - | PLACA | VIDAS SALVAS | OK |
 
 ## Cena b9 - 56.6s a 64.9s - 20 palavras - plano two
 > "Mas os médicos se ofenderam. Um cavalheiro, diziam, tem as mãos limpas. Semmelweis brigou com todos, e foi mandado embora."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | embora (64.9s) | ACAO: sai | sai andando pela lateral | OK |
-| 2 | - | INTERACAO | empurrar | OK |
-| 3 | - | ATUACAO | discutir | OK |
+| 1 | ofenderam (57.5s) | ACAO: g_ofendera | g_ofendera | OK |
+| 2 | embora (64.9s) | ACAO: sai | sai andando pela lateral | OK |
+| 3 | - | INTERACAO | empurrar | OK |
+| 4 | - | ATUACAO | discutir | OK |
 
 ## Cena b10 - 66.2s a 69.8s - 16 palavras - plano two
 > "Ele morreu em mil oitocentos e sessenta e cinco, sem ver ninguém dar razão a ele."

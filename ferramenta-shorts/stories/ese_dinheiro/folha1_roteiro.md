@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Algumas eram tão pesadas que nunca saíam do lugar. Todo mundo só lembrava quem era o dono.
 - Som ambiente: sea
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_lembrava (point) @12 -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Em poucas semanas, as feiras de troca tomariam as praças.
 - Som ambiente: sea
 - Efeitos sonoros marcados: ding@20
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_tomariam (point) @7 -> acao + som de efeito
 - Efeito visual marcado: stars@20
 - Texto na tela: TROCA
 - Funcao na historia: GRANDE MOMENTO

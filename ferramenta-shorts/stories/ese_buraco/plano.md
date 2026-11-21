@@ -10,7 +10,7 @@ b4 | low | -  | - | - | -
 b5 | crowd | -  | batalha aberta com tiros, tropa, placa: 5.000 °C | encena: pula @9 (acao + som de efeito) | -
 b6 | group | -  | tropa | - | -
 b7 | two | -  | objeto na mao | - | -
-b8 | two | -  | interior | - | -
+b8 | two | -  | interior | encena: g_voltando (point) @11 (acao + som de efeito) | -
 b9 | orbit | -  | batalha aberta com tiros, tropa, placa: 40 MINUTOS | - | -
 b10 | close | -  | - | encena: negocio (reach) @11 (acao + som de efeito) | -
 

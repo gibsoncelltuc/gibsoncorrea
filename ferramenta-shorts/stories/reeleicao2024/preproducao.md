@@ -10,9 +10,9 @@ b2 | street | two | 2 | conversar, INTERAGEM: insiste | kit/ballot_box, kit/marc
 b3 | interior loja | two | 2 | discutir, INTERAGEM: discutir, alguem chega andando | - | paper | -
 b4 | interior loja | close | 1 | comemorar | - | paper | -
 b5 | street | crowd | 25 | comemorar, batalha | kit/white_house, kit/marco_casabranca | - | -
-b6 | harbor | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/marco_casabranca | paper | -
+b6 | countryside | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/marco_casabranca | paper | -
 b7 | interior madeira | two | 2 | conversar, INTERAGEM: aproxima-se | kit/scroll | paper | -
-b8 | harbor | two | 2 | conversar, INTERAGEM: entregar | kit/white_house, kit/marco_casabranca | - | -
+b8 | countryside | two | 2 | conversar, INTERAGEM: entregar | kit/white_house, kit/marco_casabranca | - | -
 b9 | street | orbit | 21 | batalha | kit/white_house, kit/marco_casabranca | - | -
 b10 | street | close | 1 | comemorar | kit/ballot_box, kit/marco_casabranca | - | -
 

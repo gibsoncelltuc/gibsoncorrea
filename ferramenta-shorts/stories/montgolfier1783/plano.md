@@ -4,13 +4,13 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | -  | animais, placa: 1783 | - | -
 b1 | reveal | -  | tropa, mapa | - | -
-b2 | two | -  | - | encena: calor (reach) @13 (acao + som de efeito) | -
-b3 | two | -  | interior, objeto na mao | encena: calor (reach) @13 (acao + som de efeito) | -
+b2 | two | -  | - | encena: g_reparara (point) @9 (acao + som de efeito); encena: calor (reach) @13 (acao + som de efeito) | -
+b3 | two | -  | interior, objeto na mao | encena: g_costurar (point) @1 (acao + som de efeito); encena: g_encheram (point) @10 (acao + som de efeito); encena: calor (reach) @13 (acao + som de efeito) | -
 b4 | two | -  | interior | - | -
 b5 | two | -  | animais | encena: chega (point) @13 (acao + som de efeito) | -
 b6 | crowd | -  | batalha aberta com tiros, tropa | - | -
 b7 | group | -  | - | encena: pega (lift) @4 (acao + som de efeito); encena: sai @10 (acao + som de efeito) | -
-b8 | two | -  | - | correram (dust + som de impacto); encena: corre @14 (acao + som de efeito) | -
+b8 | two | -  | - | correram (dust + som de impacto); encena: g_desceu (point) @4 (acao + som de efeito); encena: corre @14 (acao + som de efeito) | -
 b9 | two | -  | animais | - | -
 b10 | orbit | -  | batalha aberta com tiros, tropa, placa: VOAMOS | encena: voa (point) @9 (acao + som de efeito) | -
 b11 | close | -  | animais | - | -

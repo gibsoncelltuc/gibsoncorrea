@@ -398,6 +398,13 @@ def _idiom_idx(say):   # EXPRESSOES (19/11): "o panico tomou o acampamento", "a 
            or (re.match(r'^(entrou|entraram|entrava|entraria|entrariam)$', nw_) and re.match(r'^(para|em|na|no)(a|o)?(historia|guerra|moda|panico|acordo|crise|falencia|vigor|campo|conflito|greve|colapso)', dep_)):
             out_.add(j_)
     return out_
+try:
+    import auditar_narracao as _AUD; _AUD_OK = True
+except Exception: _AUD_OK = False
+ENC_GEN = [(r'^(entr|cruz|atravess|cheg|volt|avanc|desc|pous|subi|invad|chegar|aproxim|passou|sa[ií]ram|seguiu|seguiram|levou|levaram|trouxe)', 'point'),
+           (r'^(declar|respond|disse|admit|desist|nega|cont|grit|pergunt|ped|fal|anunc|avis|ameac|obrig|exig|reclam|xing)', 'up'),
+           (r'^(acert|coloc|puxou|pegou|empurr|abri|fech|lig|desl|acend|apag|plant|mand|entreg|receb|troc|dividiu|juntou|espalh|guard|carreg|segur|ajud|soltou|cobriu)', 'reach'),
+           (r'^(comemor|ri[ur]|gargalh|celebr|chor|aplaud|dan[cç]|pul)', 'up')]
 ENC = [(r'^(misturou|misturaram|misturando|mistura|misturar|mexeu|mexendo|mexia|combinou|batia|bateu a massa|cozinhou|cozinhava)$', 'stir', 'mistura'),
        (r'^(caiu|cairam|derrubou|derrubaram|derramou|jogou|jogaram|atirou o|despejou|despejaram|lancou|deixou)$', 'throw', 'cai'),
        (r'^(esquentou|aqueceu|aquecer|esquentar|ferveu|ferver|fervendo|quente|aquecido|queimou|assou|fogao|forno|fogo|chamas?)$', 'reach', 'calor'),
@@ -1137,6 +1144,9 @@ def build_beat(k, b):
                 if not re.match(rx_, nw_): continue
                 if tipo_ in _feitos: _mesmos.append((tipo_, nw_)); break   # 2a palavra da mesma acao (sirenes... tocaram): ja encenada
                 _feitos.add(tipo_); _encs.append((wi_, gest_, tipo_, j_)); break
+            else:   # 21/11 ENCENADOR GENERICO (ordem do Gibson): verbo de cena que nao esta na tabela ENC AINDA ASSIM vira gesto do personagem NA PALAVRA (varias acoes na mesma frase = varias animacoes em sequencia)
+                if _AUD_OK and _AUD.RX_VERBO.match(nw_) and nw_ not in _AUD.SUBST_IA and nw_ not in _AUD.VERBOS_ABSTRATOS and nw_ not in _AUD.VERBOS_OK_GLOBAL and nw_[:5] not in {nrm(x)[:5] for x in b.get('verbos_ok', [])}:
+                    _gg = next((g_ for r_, g_ in ENC_GEN if re.match(r_, nw_)), 'point'); _encs.append((wi_, _gg, 'g_' + nw_[:8], j_))
         _resto = lambda j0: nrm(' '.join(_ws[j0:j0 + 7]))
         if _st.get('dorme') and not any(t_ in ('dorme', 'x_acorda') for _, _, t_, _ in _encs):   # SONO CONTINUA (cochilou -> "no sonho..." -> acordou): segue deitado dormindo
             _gst.setdefault(('poses', 0), []).append(f"[{a}, {bb}, 'sleep']")
@@ -1145,9 +1155,9 @@ def build_beat(k, b):
         _ok = {'cai': _mat_ok, 'vira': _mat_ok, 'calor': _mat_ok or bool(re.search(r'fogao|forno|panela|ferv|aquec|esquent|caldeir', _sy_)), 'golpe': bool(re.search(r'ringue|luta|boxe|lutador|briga|soco|golpe|enfrent', _sy_)), 'bola': bool(re.search(r'futebol|\bcopa\b|\bbola\b|\bgol\b|estadio|chut', _sy_)), 'raspa': bool(re.search(r'cabeca|cabelo|careca|maquina|barba', _sy_)), 'x_come': b.get('humanos_comem') or not (b.get('animals') and re.search(r'porco|vaca|cavalo|cachorro|gato|galinha|ganso|emu|ovelha|cabra|bicho|animal|rato|passaro', _sy_))}
         _encs = [e_ for e_ in _encs if _ok.get(e_[2], True)]
         b.setdefault('_enc_words', []).extend(w__ for t__, w__ in _mesmos if _ok.get(t__, True) and t__ in {e_[2] for e_ in _encs})   # "o imperio caiu", "abriram fogo", "a luta virou bagunca" NAO sao processo fisico
-        for n_e, (wi_, gest_, tipo_, j_) in enumerate(_encs[:6]):
+        for n_e, (wi_, gest_, tipo_, j_) in enumerate(_encs[:8]):
             b.setdefault('_enc_words', []).append(nrm(_ws[j_]))
-            _ate = f"WS({_encs[n_e + 1][0]}) - 4" if n_e + 1 < len(_encs[:6]) else f"WS({wi_}) + 46"
+            _ate = f"WS({_encs[n_e + 1][0]}) - 4" if n_e + 1 < len(_encs[:8]) else f"WS({wi_}) + 46"
             if tipo_ == 'corta' and re.search(r'dedo|bisturi|faca|tesoura|navalha|semachucou|mao|nariz|orelha|espada', _sy_): gest_ = 'reach'
             if tipo_ == 'danca' and re.search(_DANCA_OUTRO, _sy_): gest_ = None   # corte no dedo: estende a mao machucada (nao martela)
             if tipo_ == 'pega' and (persons[0][3] == 'rifle' or B.get('outfits', {}).get(persons[0][0], {}).get('rifle')): b.setdefault('_shots', []).append(f"WS({wi_}) + 8")   # pegou a espingarda: ergue e mira a arma na palavra (sem tiro)

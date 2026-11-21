@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 21 - A Volta de Trump
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 41 acoes catalogadas, 41 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 6.3s - 18 palavras - plano two
@@ -64,9 +64,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | declarou (32.2s) | ACAO: fala | aponta explicando | OK |
 | 5 | vitória (32.6s) | EFEITO: stars | estrelinhas + som | OK |
 | 6 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 8 | - | ATUACAO | comemorar | OK |
-| 9 | - | PLACA | 312 VOTOS | OK |
+| 7 | - | ATUACAO | comemorar | OK |
+| 8 | - | PLACA | 312 VOTOS | OK |
 
 ## Cena b6 - 33.0s a 38.5s - 16 palavras - plano two
 > "Foi um feito raro: ele virou só o segundo presidente da história com dois mandatos separados."
@@ -97,8 +96,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | PLACA | 47º | OK |
+| 1 | - | PLACA | 47º | OK |
 
 ## Cena b10 - 55.2s a 58.9s - 11 palavras - plano close
 > "Perdeu, voltou e ganhou. Uma das maiores viradas da política americana."

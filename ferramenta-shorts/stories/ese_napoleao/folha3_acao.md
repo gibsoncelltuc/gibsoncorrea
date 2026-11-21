@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - E Se EP 08 - E Se Napoleão Tivesse Vencido em Waterloo?
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 40 acoes catalogadas, 40 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 5.2s - 15 palavras - plano two
@@ -48,9 +48,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
-| 3 | - | ATUACAO | reagir | OK |
+| 1 | resistiram (23.3s) | ACAO: g_resistir | g_resistir | OK |
+| 2 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
+| 4 | - | ATUACAO | reagir | OK |
 
 ## Cena b5 - 27.0s a 32.2s - 15 palavras - plano orbit
 > "No fim da tarde, chegou o exército prussiano para ajudar Wellington. E Napoleão foi derrotado."
@@ -80,8 +81,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | discutir | OK |
-| 2 | - | ATUACAO | discutir | OK |
+| 1 | dominando (42.2s) | ACAO: g_dominand | g_dominand | OK |
+| 2 | - | INTERACAO | discutir | OK |
+| 3 | - | ATUACAO | discutir | OK |
 
 ## Cena b8 - 43.3s a 47.8s - 13 palavras - plano close
 > "Acontece que a maioria dos historiadores pensa diferente: ele provavelmente perderia mesmo assim."
@@ -96,8 +98,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | aproxima-se | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | marchavam (51.1s) | ACAO: g_marchava | g_marchava | OK |
+| 2 | apressou (53.0s) | ACAO: g_apressou | g_apressou | OK |
+| 3 | - | INTERACAO | aproxima-se | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b10 - 54.1s a 60.0s - 17 palavras - plano close
 > "Às vezes, um dia famoso não muda o destino. Só escolhe a data em que ele vem."

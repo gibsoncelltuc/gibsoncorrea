@@ -76,8 +76,10 @@ def auditar(sid, verboso=False):
             if re.match(ACAO_CENICA, nw) and nw[:5] not in palavras_acao:
                 lac.append(f'ACAO narrada ("{w}") sem animacao na folha 3')
         extra_ok = set(nrm(x)[:5] for x in b.get('verbos_ok', []))
-        for w in re.findall(r'[a-zA-ZÀ-ú]+', say):
+        _pal = [nrm(x) for x in re.findall(r'[a-zA-ZÀ-ú]+', say)]
+        for _i, w in enumerate(re.findall(r'[a-zA-ZÀ-ú]+', say)):
             nw = nrm(w)
+            if set(_pal[max(0, _i - 2):_i]) & {'nao', 'nem', 'nunca', 'sem', 'ninguem'}: continue   # acao NEGADA nao se mostra
             if RX_VERBO.match(nw) and nw not in SUBST_IA and nw not in VERBOS_ABSTRATOS and nw not in VERBOS_OK_GLOBAL and nw[:5] not in palavras_acao and nw[:5] not in extra_ok and not re.match(ACAO_CENICA, nw):
                 lac.append(f'VERBO narrado ("{w}") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so\' narrativo, "verbos_ok": ["{nw[:5]}"] no beat)')
         if not acoes and not any(x in ('react', 'cheer', 'dance', 'argue', 'eat') for x in c['poses']) and not any(x in c['assets'] for x in ('kit/finch',)) and c['actors'] <= 3 and len(say.split()) > 6:

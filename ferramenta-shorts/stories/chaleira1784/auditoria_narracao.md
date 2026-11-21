@@ -1,9 +1,8 @@
 # AUDITORIA NARRACAO x TELA: chaleira1784
-Cenas 100% fieis: 3/10 (30%). Lacunas: 10
+Cenas 100% fieis: 4/10 (40%). Lacunas: 6
 
-## b0 LACUNA - Uma guerra inteira teve um único tiro, e ele acertou uma chaleira de sopa.
-- na tela: set=['street'] animais=[] objetos=['kettle', 'marco_viena'] atores=6 acoes_folha3=['tiro', 'tiro']
-- **FALTA:** VERBO narrado ("acertou") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["acert"] no beat)
+## b0 OK - Uma guerra inteira teve um único tiro, e ele acertou uma chaleira de sopa.
+- na tela: set=['street'] animais=[] objetos=['kettle', 'marco_viena'] atores=6 acoes_folha3=['tiro', 'tiro', 'acertou']
 ## b1 LACUNA - Era mil setecentos e oitenta e quatro. A Holanda tinha fechado um rio, e nenhum navio estrangeiro passava por ali.
 - na tela: set=['street'] animais=[] objetos=['marco_viena', 'ship'] atores=10 acoes_folha3=[]
 - **FALTA:** VERBO narrado ("passava") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["passa"] no beat)
@@ -14,16 +13,13 @@ Cenas 100% fieis: 3/10 (30%). Lacunas: 10
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_holanda_stone'] atores=2 acoes_folha3=['ordenou', 'atirar', 'atirar']
 - **FALTA:** LUGAR/CENARIO narrado (MAR/PORTO) NAO aparece
 ## b4 LACUNA - Os três navios desceram o rio, com o maior na frente, cheio de soldados e de bandeiras.
-- na tela: set=['street'] animais=[] objetos=['flagpole', 'marco_viena'] atores=48 acoes_folha3=[]
+- na tela: set=['street'] animais=[] objetos=['flagpole', 'marco_viena'] atores=48 acoes_folha3=['desceram']
 - **FALTA:** LUGAR/CENARIO narrado (MAR/PORTO) NAO aparece
-- **FALTA:** VERBO narrado ("desceram") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["desce"] no beat)
 ## b5 OK - Acontece que um navio holandês estava esperando. Ele mirou, e deu um único tiro de canhão.
 - na tela: set=['street'] animais=[] objetos=['cannon', 'marco_viena', 'ship'] atores=20 acoes_folha3=['esperando', 'deu', 'tiro', 'tiro', 'canhão']
 ## b6 LACUNA - A bala atravessou o convés, e acertou em cheio a chaleira de sopa do cozinheiro.
-- na tela: set=['street'] animais=[] objetos=['kettle', 'marco_viena'] atores=6 acoes_folha3=['bala', 'bala']
+- na tela: set=['street'] animais=[] objetos=['kettle', 'marco_viena'] atores=6 acoes_folha3=['bala', 'bala', 'atravessou', 'acertou']
 - **FALTA:** ACAO narrada ("cozinheiro") sem animacao na folha 3
-- **FALTA:** VERBO narrado ("atravessou") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["atrav"] no beat)
-- **FALTA:** VERBO narrado ("acertou") sem acao animada no catalogo (encene com acao/voa/pose/crowd ou, se for so' narrativo, "verbos_ok": ["acert"] no beat)
 ## b7 OK - O capitão austríaco olhou para a sopa derramada, e se rendeu na mesma hora.
 - na tela: set=['street'] animais=['horse_sela'] objetos=['kettle', 'marco_viena'] atores=19 acoes_folha3=['olhou', 'rendeu']
 ## b8 OK - O imperador desistiu do rio. Em troca, a Holanda pagou uma indenização em dinheiro.

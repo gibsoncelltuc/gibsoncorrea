@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval
 - Narracao: Os irmãos Montgolfier, donos de uma fábrica de papel, repararam que a fumaça quente fazia sacos de papel flutuarem.
 - Som ambiente: birds
 - Efeitos sonoros marcados: whoosh@40
-- Efeito + som nas palavras-chave: encena: calor (reach) @13 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: g_reparara (point) @9 -> acao + som de efeito; encena: calor (reach) @13 -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval
 - Narracao: Então costuraram um balão gigante de pano e papel, e encheram de ar quente.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: calor (reach) @13 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: g_costurar (point) @1 -> acao + som de efeito; encena: g_encheram (point) @10 -> acao + som de efeito; encena: calor (reach) @13 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval
 - Narracao: Oito minutos depois, ele desceu num bosque a uns três quilômetros dali. Os irmãos correram para ver.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: correram -> dust + som de impacto; encena: corre @14 -> acao + som de efeito
+- Efeito + som nas palavras-chave: correram -> dust + som de impacto; encena: g_desceu (point) @4 -> acao + som de efeito; encena: corre @14 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

@@ -15,13 +15,13 @@ Cenas 100% fieis: 7/11 (64%). Lacunas: 4
 - na tela: set=['street'] animais=[] objetos=['marco_casabranca', 'white_house'] atores=25 acoes_folha3=['comemoraram', 'comemoraram', 'subiu', 'declarou', 'vitória']
 - **FALTA:** LUGAR/CENARIO narrado (PALCO/ESTUDIO) NAO aparece
 ## b6 LACUNA - Foi um feito raro: ele virou só o segundo presidente da história com dois mandatos separados.
-- na tela: set=['harbor'] animais=[] objetos=['marco_casabranca'] atores=2 acoes_folha3=[]
+- na tela: set=['countryside'] animais=[] objetos=['marco_casabranca'] atores=2 acoes_folha3=[]
 - **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
 ## b7 LACUNA - O primeiro foi Grover Cleveland, há mais de cento e trinta anos.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_eua_wood', 'scroll'] atores=2 acoes_folha3=[]
 - **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
 ## b8 LACUNA - Em vinte de janeiro de dois mil e vinte e cinco, ele tomou posse de novo.
-- na tela: set=['harbor'] animais=[] objetos=['marco_casabranca', 'white_house'] atores=2 acoes_folha3=[]
+- na tela: set=['countryside'] animais=[] objetos=['marco_casabranca', 'white_house'] atores=2 acoes_folha3=[]
 - **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
 ## b9 OK - Ele tinha sido o presidente número quarenta e cinco. Agora era o número quarenta e sete.
 - na tela: set=['street'] animais=[] objetos=['marco_casabranca', 'white_house'] atores=21 acoes_folha3=[]

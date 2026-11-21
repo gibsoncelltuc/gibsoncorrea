@@ -5,11 +5,11 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | -  | placa: 2021 | encena: fala (point) @5 (acao + som de efeito) | -
 b1 | crowd | -  | batalha aberta com tiros, tropa, mapa | - | -
 b2 | two | -  | interior, objeto na mao | encena: pensa (think) @1 (acao + som de efeito) | -
-b3 | two | -  | interior | - | -
-b4 | close | -  | interior, objeto na mao | - | -
-b5 | two | -  | interior | - | -
-b6 | two | -  | interior | - | -
-b7 | crowd | -  | batalha aberta com tiros, tropa, placa: MENTE | - | -
+b3 | two | -  | interior | encena: g_aprendeu (point) @12 (acao + som de efeito) | -
+b4 | close | -  | interior, objeto na mao | encena: g_ganhava (point) @3 (acao + som de efeito) | -
+b5 | two | -  | interior | encena: g_gravava (point) @4 (acao + som de efeito) | -
+b6 | two | -  | interior | encena: g_desligar (reach) @4 (acao + som de efeito) | -
+b7 | crowd | -  | batalha aberta com tiros, tropa, placa: MENTE | encena: g_encantou (point) @8 (acao + som de efeito); encena: g_debateu (point) @12 (acao + som de efeito) | -
 b8 | two | -  | - | - | -
 b9 | two | -  | interior | encena: x_entrega (reach) @11 (acao + som de efeito); encena: pensa (think) @20 (acao + som de efeito) | -
 b10 | two | -  | interior | - | -
