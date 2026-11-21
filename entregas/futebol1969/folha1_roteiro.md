@@ -39,10 +39,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b4  (~6.2 s)
-- Narracao: No segundo, El Salvador deu o troco. Torcedores se empurraram nas ruas, e os dois governos trocaram insultos.
+- Narracao: No segundo, El Salvador deu o troco. Torcedores discutiram feio nas ruas, e os dois governos trocaram insultos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) @4 -> acao + som de efeito; encena: empurra (push) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_entrega (reach) @4 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
