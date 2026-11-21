@@ -1,10 +1,10 @@
-b0: OK - mulher de vestido rosa dança de braços erguidos no meio da rua de Estrasburgo com a placa 1518
-b1: OK - mapa de Estrasburgo aparece e ela continua dançando no verão com um vizinho assustado ao lado
-b2: OK - grupo de vizinhos dançando de braços para cima no campo, mais de trinta com ela
-b3: OK - multidão de quatrocentas pessoas de caras de dor pedindo socorro, placa 400 e anel de grito
-b4: OK - prefeito de cartola e médico de chapéu coco na sala de pedra, gesticulando o remédio de dançar mais
-b5: OK - tambor vermelho grande em destaque e músicos animando a multidão que dança em volta
-b6: OK - multidão cresce com música, estrelas na dança e dançarinos caem exaustos com poeira no chão
-b7: OK - prefeito e médico discutem em sala de madeira sobre as mortes nas crônicas da época
-b8: OK - dançarino sozinho caminha cansado pela montanha rumo ao santuário e a dança para
-b9: OK - médico pensativo na rua com o tambor ao fundo, ninguém sabe explicar o verão
+b0: OK - uma mulher de rosa começou a dançar no meio da rua e não conseguiu mais parar, placa 1518 com a mulher dançando de braços erguidos e um homem olhando
+b1: OK - era verão em Estrasburgo, mapa de Estrasburgo e a mulher dançando dia e noite entre casas de enxaimel no campo
+b2: OK - em uma semana mais de trinta vizinhos estavam dançando com ela ninguém sabia por quê, grupo de vizinhos dançando em volta da mulher
+b3: OK - em um mês eram quatrocentas pessoas de pés sangrando pedindo socorro sem conseguir parar, placa 400 com multidão agitada pedindo socorro
+b4: OK - o prefeito chamou os médicos é sangue quente disseram eles o remédio é dançar mais, prefeito de cartola e médico em sala conversando
+b5: OK - a cidade contratou músicos com tambores para animar a multidão, tambor vermelho em primeiro plano e músicos animando a multidão
+b6: OK - com música mais gente entrou na dança e muitos caíram de exaustão, multidão dançando com personagem tonto caindo
+b7: OK - as crônicas da época falam em mortes mas os historiadores discutem quantas foram de verdade, prefeito e médico em sala com livros discutindo
+b8: OK - os dançarinos foram levados para um santuário nas montanhas e a dança parou, personagem cansado entre rochas de montanha
+b9: OK - até hoje ninguém sabe explicar direito o que aconteceu naquele verão, personagem pensativo na rua com o tambor ao lado
