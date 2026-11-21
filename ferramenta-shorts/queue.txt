@@ -1,5 +1,6 @@
 # REFACAO COM A FERRAMENTA FINAL - SESSAO PRINCIPAL (ordem do Gibson 19/11, tarde):
 # 1o GUERRAS INUSITADAS e PODER E FAMA (os videos ja feitos); depois Curiosidade e Ciencia; "E SE" (tema novo) SO NO FINAL.
+paris1870
 porco1859
 karansebes
 rontgen1895
@@ -14,7 +15,6 @@ vulcao2021
 trumpgame1989
 neuralink2021
 teslaquila2020
-paris1870
 #DUPLICADO(=cachorro1925, sessao B) petrich1925
 hayha1939
 texel1795

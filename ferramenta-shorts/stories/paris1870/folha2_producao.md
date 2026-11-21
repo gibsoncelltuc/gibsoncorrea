@@ -4,51 +4,51 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Em mil oitocentos e setenta, a Prússia cercou Paris. Ninguém entrava, ...
 - Cenario: street | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (2): PAR (variante 0, expressao nervous); PAR (variante 1, expressao pained)
-- Animacao: reagir | interacao: susto
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (2): ALE (variante 0, expressao stern); ALE (variante 1, expressao stern) | multidao: 22 de ALE
+- Animacao: encena | batalha encenada
 - Objetos/modelos: kit/marco_notredame
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comida, prussia
 - RISCOS: nenhum
 
 ## Cena b1 - Primeiro, os parisienses comeram os cavalos. Depois, os cachorros e os...
-- Cenario: interior madeira | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Cenario: interior loja | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): PAR (variante 2, expressao pained); PAR (variante 3, expressao nervous)
-- Animacao: conversar | interacao: avanca e o outro recua
-- Objetos/modelos: dog, cat
+- Personagens principais (3): PAR (variante 0, expressao pained, segura ); PAR (variante 1, expressao nervous); PAR (variante 2, expressao pained)
+- Animacao: comer | interacao: susto
+- Objetos/modelos: mk/Table_Large, horse, dog, cat
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorros, cavalos, gatos, parisienses
 - RISCOS: nenhum
 
 ## Cena b2 - Depois, os roedores, que viraram um prato chique.
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: interior loja | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): PAR (variante 0, expressao shock); CHF (variante 0, expressao grin)
-- Animacao: reagir | interacao: discutir
-- Objetos/modelos: barrel, kit/marco_notredame
+- Personagens principais (3): CHF (variante 0, expressao grin); PAR (variante 0, expressao shock); PAR (variante 1, expressao pained)
+- Animacao: comer | interacao: avanca e o outro recua
+- Objetos/modelos: mk/Table_Large, mk/Table_Plate, kit/rato
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): prato, roedores
 - RISCOS: nenhum
 
 ## Cena b3 - Quando acabou tudo, olharam para o zoológico da cidade.
-- Cenario: street | luz: day | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): PAR (variante 1, expressao nervous); PAR (variante 3, expressao nervous) | multidao: 12 de POV
-- Animacao: reagir | batalha encenada
-- Objetos/modelos: kit/marco_notredame, buildings/house_two, nature/lamppost, elephant
+- Cenario: countryside | luz: day | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Personagens principais (3): PAR (variante 1, expressao nervous); PAR (variante 3, expressao nervous); PAR (variante 2, expressao pained) | multidao: 10 de PAR
+- Animacao: reagir | interacao: discutir | batalha encenada
+- Objetos/modelos: mk/Cage_Small, nature/picket_fence, kit/marco_notredame, elephant
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, zoologico
 - RISCOS: nenhum
 
 ## Cena b4 - O açougueiro comprou dois elefantes, Castor e Pólux, e vendeu a carne ...
 - Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (1): BUT (variante 0, expressao grin)
-- Animacao: conversar
-- Objetos/modelos: kit/marco_notredame
+- Personagens principais (3): BUT (variante 0, expressao grin); PAR (variante 0, expressao smile); PAR (variante 2, expressao shock)
+- Animacao: conversar | interacao: entregar
+- Objetos/modelos: mk/Table_Large, kit/chest, kit/marco_notredame, elephant
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): acougueiro, carne
 - RISCOS: nenhum
 
@@ -56,38 +56,38 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior loja | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (2): CHF (variante 0, expressao grin); PAR (variante 2, expressao shock)
-- Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: kit/panela
+- Personagens principais (3): CHF (variante 0, expressao grin); PAR (variante 2, expressao shock); PAR (variante 1, expressao smile)
+- Animacao: comer | interacao: o outro se aproxima
+- Objetos/modelos: mk/Table_Large, kit/panela, mk/Table_Plate, elephant
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canguru, elefante, natal, restaurante
 - RISCOS: nenhum
 
 ## Cena b6 - Tinha até gato com roedores, e pernil de lobo.
-- Cenario: countryside | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Cenario: interior loja | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (1): PAR (variante 3, expressao shock)
-- Animacao: reagir
-- Objetos/modelos: kit/marco_notredame, cat, wolf
+- Personagens principais (2): PAR (variante 3, expressao shock); PAR (variante 0, expressao shock)
+- Animacao: comer | interacao: vai ate o outro
+- Objetos/modelos: mk/Table_Large, mk/Table_Plate, kit/rato, cat, wolf
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lobo, roedores
 - RISCOS: nenhum
 
 ## Cena b7 - Para mandar notícias, os parisienses usavam balões e pombos-correio.
 - Cenario: countryside | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): PAR (variante 0, expressao smile); PAR (variante 1, expressao smile) | multidao: 6 de POV
-- Animacao: - | batalha encenada
-- Objetos/modelos: kit/marco_notredame, kit/balloon
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): PAR (variante 0, expressao smile); PAR (variante 1, expressao smile)
+- Animacao: encena
+- Objetos/modelos: kit/balloon_air, kit/marco_notredame
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): parisienses
 - RISCOS: nenhum
 
 ## Cena b8 - O cerco acabou em janeiro de mil oitocentos e setenta e um, e Paris se...
-- Cenario: street | luz: dusk | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Cenario: street | luz: pordosol | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (1): PAR (variante 2, expressao pained)
-- Animacao: encena
+- Personagens principais (3): PAR (variante 2, expressao pained); PAR (variante 0, expressao pained); PAR (variante 1, expressao pained) | multidao: 10 de PAR
+- Animacao: conversar | interacao: cochichar
 - Objetos/modelos: kit/marco_notredame
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barriga, cerco
 - RISCOS: nenhum
@@ -97,21 +97,25 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/marco_notredame | b0, b2, b3, b4, b6, b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_notredame | b0, b3, b4, b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+mk/Table_Large | b1, b2, b4, b5, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+horse | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 dog | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 cat | b1, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-barrel | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/house_two | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/lamppost | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-elephant | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+mk/Table_Plate | b2, b5, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/rato | b2, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+mk/Cage_Small | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/picket_fence | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+elephant | b3, b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/chest | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/panela | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 wolf | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/balloon | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/balloon_air | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b3, b7 | planos abertos: 2 | mistura: close 28% | medio 66% | aberto 5% | detalhe 0%
-- Interacoes: b0 susto, b1 avanca e o outro recua, b2 discutir, b5 o outro se aproxima
+- Objeto heroi: - | grandes momentos: b0, b3 | planos abertos: 2 | mistura: close 3% | medio 84% | aberto 13% | detalhe 0%
+- Interacoes: b1 susto, b2 avanca e o outro recua, b3 discutir, b4 entregar, b5 o outro se aproxima, b6 vai ate o outro, b8 cochichar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
