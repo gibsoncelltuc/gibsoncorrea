@@ -74,19 +74,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - A tropa bateu em retirada. A imprensa gargalhou, e o comandante admiti...
 - Cenario: mountain | luz: desert | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (3): AUS (variante 0, expressao pained); PRESS (variante 0, expressao grin, segura paper); PRESS (variante 1, expressao smile) | multidao: 12 de 
-- Animacao: comemorar | interacao: empurrar
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (3): COM (variante 0, expressao pained); PRESS (variante 0, expressao grin, segura paper); PRESS (variante 1, expressao smile) | multidao: 18 de FARM
+- Animacao: comemorar | batalha encenada
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comandante, imprensa, tropa
-- RISCOS: 
-  - a narracao fala de FUGA/CORRERIA e ninguem corre -> CORRECAO: "shot": "track" (os personagens atravessam a tela andando/correndo) ou "batalha": true (a tropa foge no plano aberto)
-  - a narracao cita "comandante" e ninguem em cena esta vestido a carater -> CORRECAO: por no "who" um personagem com "profissao": "general" no figurino (coroa/farda/chapeu proprios)
+- RISCOS: nenhum
 
 ## Cena b8 - O exército tentou de novo, abateu algumas centenas, e os emus continua...
 - Cenario: outback | luz: desert | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): AUS (variante 1, expressao stern); AUS (variante 0, expressao stern) | multidao: 24 de AUS
 - Animacao: - | batalha encenada
@@ -102,8 +100,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: conversar | interacao: entregar
 - Objetos/modelos: buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow, emus
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): governo, pagar
-- RISCOS: 
-  - a narracao cita "fazendeiro" e ninguem em cena esta vestido a carater -> CORRECAO: por no "who" um personagem com "profissao": "agricultor" no figurino (coroa/farda/chapeu proprios)
+- RISCOS: nenhum
 
 ## Cena b10 - Humanos, zero. Emus, um.
 - Cenario: outback | luz: golden | clima: limpo
@@ -131,14 +128,11 @@ vehicles/truck | b5 | pronto | conferir na folha de contato se le bem; se parece
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b3, b4, b8 | planos abertos: 4 | mistura: close 8% | medio 66% | aberto 18% | detalhe 8%
-- Interacoes: b2 vai ate o outro, b6 susto, b7 empurrar, b9 entregar
+- Objeto heroi: - | grandes momentos: b3, b4, b7, b8 | planos abertos: 5 | mistura: close 10% | medio 63% | aberto 21% | detalhe 5%
+- Interacoes: b2 vai ate o outro, b6 susto, b9 entregar
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 3 risco(s) em aberto
-- b7: a narracao fala de FUGA/CORRERIA e ninguem corre
-- b7: a narracao cita "comandante" e ninguem em cena esta vestido a carater
-- b9: a narracao cita "fazendeiro" e ninguem em cena esta vestido a carater
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh emus1932 bN bM` (so essas cenas).

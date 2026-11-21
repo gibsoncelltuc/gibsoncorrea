@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b5  (~3.1 s)
 - Narracao: O governo lançou até uma carteira digital, chamada Chivo.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: ding@2
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@2
@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b7  (~5.9 s)
 - Narracao: Foi o primeiro país do mundo a fazer isso, e o assunto virou conversa no planeta inteiro.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -

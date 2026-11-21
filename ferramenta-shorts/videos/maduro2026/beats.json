@@ -8,7 +8,7 @@
  "set": "street",
  "light": "day",
  "mood": "playful",
- "heroi": "kit/helicopter_air",
+ "heroi": "kit/scroll",
  "outfits": {
   "TRU": {
    "jacket": "#1f2f5c",

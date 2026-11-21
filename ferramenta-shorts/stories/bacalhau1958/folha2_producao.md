@@ -8,10 +8,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 5 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ICE (variante 0, expressao stern); BRI (variante 0, expressao stern)
 - Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: ship
+- Objetos/modelos: ship, kit/cod
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): inglaterra, islandia, peixe
-- RISCOS: 
-  - objeto sem modelo 3D: peixe -> CORRECAO: modelar em blender/make_objetos.py e por no OBJ_DICT, ou trocar a palavra
+- RISCOS: nenhum
 
 ## Cena b1 - A Islândia é pequena, e vivia da pesca. Mas barcos ingleses pescavam b...
 - Cenario: harbor | luz: day | clima: limpo
@@ -19,33 +18,32 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ICE (variante 1, expressao nervous); PES (variante 0, expressao grin)
 - Animacao: reagir | interacao: insiste
-- Objetos/modelos: crate, kit/cod
+- Objetos/modelos: crate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): costa, islandia, pesca
 - RISCOS: nenhum
 
 ## Cena b2 - Então a Islândia aumentou os limites do seu mar: doze milhas, cinquent...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): ICE (variante 2, expressao stern) | multidao: 6 de POV
 - Animacao: -
 - Objetos/modelos: ship
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): islandia, limites
-- RISCOS: 
-  - a narracao cita agua e o cenario "street" nao tem agua -> CORRECAO: "set": "harbor" (cais com mar e navio) ou "set": "palace" (praia), ou "mapa" para so situar
+- RISCOS: nenhum
 
 ## Cena b3 - A Inglaterra mandou a marinha para proteger os barcos de pesca.
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): BRI (variante 1, expressao stern); BRI (variante 2, expressao grin); PES (variante 1, expressao smile) | multidao: 12 de POV
 - Animacao: encena | batalha encenada
-- Objetos/modelos: ship, navios ao fundo
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barcos, inglaterra, marinha, pesca
 - RISCOS: nenhum
 
 ## Cena b4 - A Islândia só tinha uns barquinhos da guarda costeira, mas eles tinham...
-- Cenario: interior madeira | luz: day | clima: limpo
+- Cenario: arctic | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): ICE (variante 0, expressao grin)
@@ -85,38 +83,31 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - Foi uma guerra de navios batendo e de redes cortadas, e tudo por causa...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: arctic | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): PES (variante 0, expressao laugh)
 - Animacao: conversar
-- Objetos/modelos: crate
+- Objetos/modelos: crate, kit/cod
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): navios, peixe, redes
-- RISCOS: 
-  - objeto sem modelo 3D: peixe -> CORRECAO: modelar em blender/make_objetos.py e por no OBJ_DICT, ou trocar a palavra
+- RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
 Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito no Blender; a ferramenta so' poe em cena, pinta o contorno e anima. Nada de objeto "quadradao": use `blender/formas.py` (cil, bola, torno, tubo, arco, caixa com chanfro).
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-ship | b0, b2, b3, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+ship | b0, b2, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/cod | b0, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 crate | b1, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/cod | b1 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-peixe (citado na narracao) | b0, b8 | FALTA | pesquisar referencia (referencias/LEIA.md) e modelar: `blender/objetos_<sessao>.py` com formas.py -> `kit/peixe.glb` (altura real em metros; cores chapadas; partes redondas com cil/bola/torno); cadastrar em `obj_dict.d/<sessao>.json`; `blender -b --python blender/objetos_<sessao>.py`; `python3 capacidades.py`; depois rodar este roteiro de novo
 
 
 ## Video inteiro
 - Objeto heroi: kit/cod | grandes momentos: b3, b5 | planos abertos: 3 | mistura: close 26% | medio 50% | aberto 16% | detalhe 8%
 - Interacoes: b0 o outro se aproxima, b1 insiste, b6 discutir, b7 vai ate o outro
-- RISCOS GERAIS: 
-  - pouca variedade de cenario ({'harbor': 5, 'street': 3, 'interior madeira': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 4 risco(s) em aberto
-- b0: objeto sem modelo 3D: peixe
-- b2: a narracao cita agua e o cenario "street" nao tem agua
-- b8: objeto sem modelo 3D: peixe
-- geral: pouca variedade de cenario ({'harbor': 5, 'street': 3, 'interior madeira': 1}): o video fica parecendo todos os outros
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh bacalhau1958 bN bM` (so essas cenas).

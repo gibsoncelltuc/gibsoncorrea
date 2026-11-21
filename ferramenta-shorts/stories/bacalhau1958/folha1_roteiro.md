@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b2  (~5.5 s)
 - Narracao: Então a Islândia aumentou os limites do seu mar: doze milhas, cinquenta, e por fim duzentas.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b3  (~3.8 s)
 - Narracao: A Inglaterra mandou a marinha para proteger os barcos de pesca.
-- Som ambiente: sea | batalha: tiros e gritos a cena inteira
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito
 - Efeito visual marcado: ring@12, dust@40
@@ -76,7 +76,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b8  (~5.9 s)
 - Narracao: Foi uma guerra de navios batendo e de redes cortadas, e tudo por causa de um peixe.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: x_bate (punch) @5 -> acao + som de efeito
 - Efeito visual marcado: -

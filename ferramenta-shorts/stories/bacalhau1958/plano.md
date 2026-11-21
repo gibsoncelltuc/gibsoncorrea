@@ -6,7 +6,7 @@ b0 | two | -  | placa: 3 GUERRAS, mapa | - | -
 b1 | two | -  | placa: BACALHAU | - | -
 b2 | wide | -  | tropa, placa: 200 MILHAS | - | -
 b3 | crowd | -  | batalha aberta com tiros, tropa | encena: fala (point) @2 (acao + som de efeito) | -
-b4 | close | -  | interior, placa: CORTADORES DE REDE | encena: x_pesca (lift) @17 (acao + som de efeito) | -
+b4 | close | -  | placa: CORTADORES DE REDE | encena: x_pesca (lift) @17 (acao + som de efeito) | -
 b5 | orbit | -  | batalha aberta com tiros, tropa | encena: corta (hammer) @1 (acao + som de efeito) | -
 b6 | two | -  | placa: OTAN | - | -
 b7 | two | -  | placa: VITÓRIA ISLANDESA | encena: pensa (think) @12 (acao + som de efeito) | -

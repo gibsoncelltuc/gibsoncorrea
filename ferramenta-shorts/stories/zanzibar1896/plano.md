@@ -11,7 +11,7 @@ b5 | close | -  | interior | - | -
 b6 | orbit | -  | batalha aberta com tiros, tropa, placa: 9:02 | tiros: 5 soldados caem no chao (acao + som de efeito); fogo (burst + som de tiro/explosao); fogo (burst + som de tiro/explosao); encena: x_abre (push) @9 (acao + som de efeito) | -
 b7 | track | -  | - | fugiu (dust + som de impacto); encena: corre @2 (acao + som de efeito) | -
 b8 | group | -  | tropa, placa: 9:40, objeto na mao | caiu (dust + som de impacto); canhões (burst + som de tiro/explosao); encena: atira @11 (acao + som de efeito); explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) (acao + som de efeito) | -
-b9 | group | -  | objeto na mao | - | -
+b9 | group | -  | - | - | -
 b10 | close | -  | interior | balas (burst + som de tiro/explosao); encena: atira @6 (acao + som de efeito) | -
 
 Mistura de planos: close 15% | medio 68% | aberto 13% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)

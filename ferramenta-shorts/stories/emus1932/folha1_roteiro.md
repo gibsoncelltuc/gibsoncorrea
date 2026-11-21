@@ -72,7 +72,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 - Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; bateu -> dust + som de impacto; retirada -> dust + som de impacto; gargalhou -> stars + som de sino; encena: x_bate (punch) @2 -> acao + som de efeito; encena: perde (facepalm) @4 -> acao + som de efeito; encena: x_ri (up) @7 -> acao + som de efeito; encena: atira @14 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: HA HA HA
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b8  (~4.5 s)
 - Narracao: O exército tentou de novo, abateu algumas centenas, e os emus continuaram voltando.

@@ -55,6 +55,9 @@
     "cap"
    ],
    "cap": "#f1ece0"
+  },
+  "SUL2": {
+   "profissao": "rei"
   }
  },
  "beats": [
@@ -167,7 +170,7 @@
   {
    "shot": "group",
    "who": [
-    "ALM:0:smile:paper",
+    "SUL2:0:smile",
     "ING:0:grin",
     "POV:0:nervous"
    ],

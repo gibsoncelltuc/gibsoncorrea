@@ -96,12 +96,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: medieval | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (3): ALM (variante 0, expressao smile, segura paper); ING (variante 0, expressao grin); POV (variante 0, expressao nervous)
+- Personagens principais (3): SUL2 (variante 0, expressao smile); ING (variante 0, expressao grin); POV (variante 0, expressao nervous)
 - Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/marco_zanzibar
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ingleses, trono
-- RISCOS: 
-  - a narracao cita "sultao" e ninguem em cena esta vestido a carater -> CORRECAO: por no "who" um personagem com "profissao": "rei" no figurino (coroa/farda/chapeu proprios)
+- RISCOS: nenhum
 
 ## Cena b10 - E ainda mandaram a conta das balas para Zanzibar.
 - Cenario: interior loja | luz: day | clima: limpo
@@ -133,8 +132,7 @@ buildings/castle_tower | b8 | pronto | conferir na folha de contato se le bem; s
 - Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b3 insiste, b8 vai ate o outro, b9 aproxima-se
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- b9: a narracao cita "sultao" e ninguem em cena esta vestido a carater
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh zanzibar1896 bN bM` (so essas cenas).

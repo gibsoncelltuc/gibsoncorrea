@@ -81,7 +81,8 @@
    ],
    "text": "BACALHAU",
    "tat": 14,
-   "tstyle": "brown"
+   "tstyle": "brown",
+   "set": "harbor"
   },
   {
    "say": "Então a Islândia aumentou os limites do seu mar: doze milhas, cinquenta, e por fim duzentas.",
@@ -105,7 +106,8 @@
    ],
    "text": "200 MILHAS",
    "tat": 14,
-   "tstyle": "gold"
+   "tstyle": "gold",
+   "set": "harbor"
   },
   {
    "say": "A Inglaterra mandou a marinha para proteger os barcos de pesca.",
@@ -115,15 +117,9 @@
     "BRI:2:grin",
     "PES:1:smile"
    ],
-   "props": [
-    [
-     "ship",
-     0,
-     -8,
-     1.4
-    ]
-   ],
-   "mood": "march"
+   "props": [],
+   "mood": "march",
+   "set": "street"
   },
   {
    "say": "A Islândia só tinha uns barquinhos da guarda costeira, mas eles tinham uma arma secreta: cortadores de rede.",
@@ -133,7 +129,8 @@
    ],
    "text": "CORTADORES DE REDE",
    "tat": 14,
-   "tstyle": "red"
+   "tstyle": "red",
+   "set": "arctic"
   },
   {
    "say": "Eles cortavam os cabos das redes inglesas, e os navios batiam um no outro, de propósito.",
@@ -183,7 +180,8 @@
    "text": "OTAN",
    "tat": 9,
    "tstyle": "blue",
-   "mood": "march"
+   "mood": "march",
+   "set": "street"
   },
   {
    "say": "Em mil novecentos e setenta e seis, os ingleses cederam, e a ideia de uma zona de duzentas milhas se espalhou pelo mundo.",
@@ -195,7 +193,8 @@
    "text": "VITÓRIA ISLANDESA",
    "tat": 12,
    "tstyle": "gold",
-   "mood": "playful"
+   "mood": "playful",
+   "set": "street"
   },
   {
    "say": "Foi uma guerra de navios batendo e de redes cortadas, e tudo por causa de um peixe.",
@@ -213,7 +212,11 @@
    ],
    "text": "TUDO POR UM PEIXE",
    "tat": 13,
-   "tstyle": "brown"
+   "tstyle": "brown",
+   "set": "arctic"
   }
- ]
+ ],
+ "objetos_do_video": {
+  "\\bpeixes?\\b": "kit/cod"
+ }
 }
