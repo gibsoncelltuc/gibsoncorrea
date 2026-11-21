@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b2  (~4.1 s)
 - Narracao: Era o presidente venezuelano Nicolás Maduro, acusado pela justiça americana de narcoterrorismo.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b4  (~6.2 s)
 - Narracao: Às duas da manhã, helicópteros levaram os soldados da Força Delta direto para o complexo onde Maduro estava.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@20, whoosh@50
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: whoosh@20, whoosh@50
@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b5  (~3.8 s)
 - Narracao: Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do país.
-- Som ambiente: sea
+- Som ambiente: birds
 - Efeitos sonoros marcados: sting@20, thump@40
 - Efeito + som nas palavras-chave: encena: atira @3 -> acao + som de efeito
 - Efeito visual marcado: ring@20, puff@40
@@ -58,7 +58,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b6  (~5.5 s)
 - Narracao: Acontece que, em menos de três horas, Maduro foi capturado e levado para fora da Venezuela.
-- Som ambiente: sea
+- Som ambiente: birds
 - Efeitos sonoros marcados: sting@30
 - Efeito + som nas palavras-chave: encena: prende (push) @9 -> acao + som de efeito
 - Efeito visual marcado: ring@30
