@@ -10,25 +10,38 @@
    "jacket": "#f4f6fa",
    "pants": "#e4ecf6",
    "boots": "#c8d4e4",
-   "hat": "straw",
+   "hat": "helmet",
    "cap": "#f4f6fa",
    "belt": "#8a7a50",
-   "rifle": true
+   "rifle": true,
+   "pais": "finlandia",
+   "uniforme_fixo": true,
+   "profissao": "soldado"
   },
   "SOV": {
-   "jacket": "#7a5a3a",
-   "pants": "#5a4a34",
+   "jacket": "#8a7a5a",
+   "pants": "#6a5a42",
    "boots": "#2a2218",
-   "hat": "cap",
-   "cap": "#a03030",
+   "hat": "helmet",
+   "cap": "#8a7a5a",
    "belt": "#2a2218",
-   "rifle": true
+   "rifle": true,
+   "pais": "russia",
+   "uniforme_fixo": true,
+   "profissao": "soldado"
+  },
+  "HAY": {
+   "jacket": "#7a5a3a",
+   "pants": "#4a3a2a",
+   "boots": "#2a2218",
+   "hat": "straw",
+   "profissao": "agricultor"
   }
  },
  "beats": [
   {
    "say": "Inverno de mil novecentos e trinta e nove. A União Soviética invadiu a Finlândia, com um exército enorme.",
-   "shot": "track",
+   "shot": "reveal",
    "who": [
     "SOV:0:stern",
     "SOV:1:stern",
@@ -39,8 +52,18 @@
    "tat": 0,
    "tstyle": "red",
    "mood": "march",
-   "batalha": true,
-   "set": "arctic"
+   "set": "arctic",
+   "tiros": false,
+   "shot_lock": true,
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "SOV"
+    ],
+    "march": true
+   },
+   "riscos_ok": true,
+   "batalha": false
   },
   {
    "say": "Os soldados finlandeses eram poucos, mas conheciam a floresta, a neve e o frio, que chegava a quarenta graus abaixo de zero.",
@@ -67,7 +90,7 @@
    "say": "Um deles era um fazendeiro baixinho chamado Simo Häyhä.",
    "shot": "close",
    "who": [
-    "FIN:3:smile"
+    "HAY:0:smile"
    ],
    "text": "SIMO HÄYHÄ",
    "tat": 8,
@@ -136,7 +159,9 @@
     "FIN:1:nervous"
    ],
    "mood": "calm",
-   "interior": "hospital"
+   "interior": "hospital",
+   "tiros": false,
+   "modo_acao": false
   },
   {
    "say": "Viveu até os noventa e seis anos, e nunca se achou herói. Dizia que só tinha feito o seu trabalho.",
@@ -152,5 +177,5 @@
    "interior": "madeira"
   }
  ],
- "heroi": "kit/campfire"
+ "heroi": null
 }

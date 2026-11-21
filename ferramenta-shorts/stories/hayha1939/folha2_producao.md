@@ -4,20 +4,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Inverno de mil novecentos e trinta e nove. A União Soviética invadiu a...
 - Cenario: arctic | luz: arctic | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (4): SOV (variante 0, expressao stern); SOV (variante 1, expressao stern); SOV (variante 2, expressao neutral); SOV (variante 3, expressao stern) | multidao: 18 de POV
-- Animacao: encena | batalha encenada
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (4): SOV (variante 0, expressao stern); SOV (variante 1, expressao stern); SOV (variante 2, expressao neutral); SOV (variante 3, expressao stern) | multidao: 18 de SOV
+- Animacao: encena
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): exercito, finlandia, uniao
 - RISCOS: nenhum
 
 ## Cena b1 - Os soldados finlandeses eram poucos, mas conheciam a floresta, a neve ...
 - Cenario: arctic | luz: arctic | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (3): FIN (variante 0, expressao stern); FIN (variante 1, expressao nervous); FIN (variante 2, expressao stern) | multidao: 10 de POV
-- Animacao: reagir
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (3): FIN (variante 0, expressao stern); FIN (variante 1, expressao nervous); FIN (variante 2, expressao stern) | multidao: 10 de FIN
+- Animacao: reagir | batalha encenada
 - Objetos/modelos: nature/tree_pine, nature/tree_oak, nature/bush
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): floresta, frio, neve, quarenta, soldados, zero
 - RISCOS: nenhum
@@ -26,7 +26,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: arctic | luz: arctic | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (1): FIN (variante 3, expressao smile)
+- Personagens principais (1): HAY (variante 0, expressao smile)
 - Animacao: conversar
 - Objetos/modelos: buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fazendeiro
@@ -54,20 +54,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Em cerca de cem dias, ele teve mais de quinhentos inimigos confirmados...
 - Cenario: arctic | luz: arctic | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): FIN (variante 3, expressao stern); FIN (variante 0, expressao shock)
-- Animacao: conversar | interacao: susto
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (2): FIN (variante 3, expressao stern); FIN (variante 0, expressao shock) | multidao: 12 de FIN/FIN
+- Animacao: reagir | batalha encenada
 - Objetos/modelos: kit/campfire, nature/picket_fence
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): carabina, ferro, mira, quinhentos
 - RISCOS: nenhum
 
 ## Cena b6 - Os soviéticos passaram a chamá-lo de Morte Branca.
 - Cenario: mountain | luz: arctic | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (1): SOV (variante 1, expressao shock) | multidao: 12 de POV
-- Animacao: reagir | batalha encenada
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): SOV (variante 1, expressao shock) | multidao: 6 de SOV
+- Animacao: reagir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chamalo, morte, sovieticos
 - RISCOS: nenhum
@@ -104,12 +104,12 @@ buildings/barn | b2 | pronto | conferir na folha de contato se le bem; se parece
 nature/picket_fence | b2, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/haybale | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/scarecrow | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/campfire | b5 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/campfire | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/campfire | grandes momentos: b0, b6 | planos abertos: 3 | mistura: close 31% | medio 43% | aberto 20% | detalhe 6%
-- Interacoes: b5 susto, b7 cochichar
+- Objeto heroi: - | grandes momentos: b1, b5 | planos abertos: 4 | mistura: close 33% | medio 42% | aberto 22% | detalhe 3%
+- Interacoes: b7 cochichar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
