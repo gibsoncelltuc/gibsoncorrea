@@ -51,7 +51,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | espalhou (24.2s) | ACAO: g_espalhou | g_espalhou | OK |
 | 2 | - | MAPA | MUNDO | OK |
 
-## Cena b5 - 26.1s a 31.9s - 18 palavras - plano aereo
+## Cena b5 - 26.1s a 31.9s - 18 palavras - plano reveal
 > "Um jornal de cada país publicou a frase, e muita gente ficou discutindo se era piada ou não."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

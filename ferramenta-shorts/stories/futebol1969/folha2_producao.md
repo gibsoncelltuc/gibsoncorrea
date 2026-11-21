@@ -64,11 +64,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - El Salvador ganhou a partida, na prorrogação, e ficou com a vaga.
 - Cenario: stadium | luz: dia | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): SAL (variante 0, expressao laugh); HON (variante 0, expressao sad)
 - Animacao: comemorar | interacao: pular
-- Objetos/modelos: kit/trave, kit/ball
+- Objetos/modelos: kit/trave
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): partida, prorrogacao, vaga
 - RISCOS: nenhum
 
@@ -108,7 +108,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/trave | b0, b2, b3, b6, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/ball | b0, b2, b6, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/ball | b0, b2, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/volcano | b1, b4, b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_small | b1, b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b1, b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -119,7 +119,7 @@ vehicles/airplane | b7 | pronto | conferir na folha de contato se le bem; se par
 
 
 ## Video inteiro
-- Objeto heroi: kit/ball | grandes momentos: b3, b7 | planos abertos: 4 | mistura: close 4% | medio 68% | aberto 22% | detalhe 6%
+- Objeto heroi: kit/ball | grandes momentos: b3, b7 | planos abertos: 4 | mistura: close 4% | medio 70% | aberto 22% | detalhe 4%
 - Interacoes: b0 aproxima-se, b4 discutir, b5 susto, b6 pular, b8 avanca e o outro recua, b9 o outro se aproxima
 - RISCOS GERAIS: nenhum
 

@@ -208,5 +208,11 @@
   "kit/cobra",
   1.2,
   false
+ ],
+ [
+  "\\bpeixes?\\b",
+  "kit/cod",
+  1.3,
+  false
  ]
 ]

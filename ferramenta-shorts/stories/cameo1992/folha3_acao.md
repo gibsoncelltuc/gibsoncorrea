@@ -22,7 +22,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | aproxima-se | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b2 - 13.1s a 14.6s - 7 palavras - plano aereo
+## Cena b2 - 13.1s a 14.6s - 7 palavras - plano reveal
 > "A cena dura cerca de sete segundos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

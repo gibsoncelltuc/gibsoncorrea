@@ -1,4 +1,266 @@
 {
- "fails": [],
- "tiny": []
+ "fails": [
+  {
+   "f": 588,
+   "shot": "b3~1",
+   "why": [
+    "sil: head/torso cropped (box -0.029, 0.476, 0.085, 0.585)"
+   ]
+  },
+  {
+   "f": 592,
+   "shot": "b3~1",
+   "why": [
+    "sil: head/torso cropped (box -0.05, 0.476, 0.062, 0.584)"
+   ]
+  },
+  {
+   "f": 596,
+   "shot": "b3~1",
+   "why": [
+    "sil: head/torso cropped (box -0.069, 0.475, 0.042, 0.58)"
+   ]
+  },
+  {
+   "f": 599,
+   "shot": "b3~1",
+   "why": [
+    "sil: head/torso cropped (box -0.082, 0.476, 0.028, 0.58)"
+   ]
+  },
+  {
+   "f": 600,
+   "shot": "b3~1",
+   "why": [
+    "sil: head/torso cropped (box -0.086, 0.477, 0.023, 0.58)"
+   ]
+  },
+  {
+   "f": 604,
+   "shot": "b3~1",
+   "why": [
+    "sil: head/torso cropped (box -0.099, 0.475, 0.001, 0.576)"
+   ]
+  },
+  {
+   "f": 608,
+   "shot": "b3~1",
+   "why": [
+    "sil: head/torso cropped (box -0.086, 0.476, 0.005, 0.576)"
+   ]
+  },
+  {
+   "f": 612,
+   "shot": "b3~1",
+   "why": [
+    "sil: head/torso cropped (box -0.079, 0.476, 0.026, 0.576)"
+   ]
+  },
+  {
+   "f": 616,
+   "shot": "b3~1",
+   "why": [
+    "sil: head/torso cropped (box -0.072, 0.476, 0.032, 0.575)"
+   ]
+  },
+  {
+   "f": 620,
+   "shot": "b3~1",
+   "why": [
+    "sil: head/torso cropped (box -0.068, 0.478, 0.036, 0.576)"
+   ]
+  },
+  {
+   "f": 624,
+   "shot": "b3~1",
+   "why": [
+    "sil: head/torso cropped (box -0.065, 0.476, 0.037, 0.574)"
+   ]
+  },
+  {
+   "f": 628,
+   "shot": "b3~1",
+   "why": [
+    "sil: head/torso cropped (box -0.066, 0.478, 0.036, 0.576)"
+   ]
+  },
+  {
+   "f": 629,
+   "shot": "b3~1",
+   "why": [
+    "sil: head/torso cropped (box -0.066, 0.478, 0.036, 0.577)"
+   ]
+  },
+  {
+   "f": 630,
+   "shot": "b3~2",
+   "why": [
+    "sil: head/torso cropped (box -0.066, 0.477, 0.036, 0.576)"
+   ]
+  },
+  {
+   "f": 632,
+   "shot": "b3~2",
+   "why": [
+    "sil: head/torso cropped (box -0.066, 0.476, 0.035, 0.575)"
+   ]
+  },
+  {
+   "f": 636,
+   "shot": "b3~2",
+   "why": [
+    "sil: head/torso cropped (box -0.077, 0.478, 0.024, 0.577)"
+   ]
+  },
+  {
+   "f": 640,
+   "shot": "b3~2",
+   "why": [
+    "sil: head/torso cropped (box -0.098, 0.481, 0.005, 0.582)"
+   ]
+  },
+  {
+   "f": 644,
+   "shot": "b3~2",
+   "why": [
+    "sil: head/torso cropped (box -0.117, 0.484, -0.012, 0.587)"
+   ]
+  },
+  {
+   "f": 648,
+   "shot": "b3~2",
+   "why": [
+    "sil: head/torso cropped (box -0.14, 0.488, -0.025, 0.594)"
+   ]
+  },
+  {
+   "f": 652,
+   "shot": "b3~2",
+   "why": [
+    "sil: head/torso cropped (box -0.157, 0.486, -0.039, 0.593)"
+   ]
+  },
+  {
+   "f": 656,
+   "shot": "b3~2",
+   "why": [
+    "sil: head/torso cropped (box -0.175, 0.487, -0.075, 0.597)"
+   ]
+  },
+  {
+   "f": 660,
+   "shot": "b3~2",
+   "why": [
+    "sil: head/torso cropped (box -0.196, 0.486, -0.106, 0.598)"
+   ]
+  },
+  {
+   "f": 661,
+   "shot": "b3~2",
+   "why": [
+    "sil: head/torso cropped (box -0.202, 0.485, -0.111, 0.598)"
+   ]
+  },
+  {
+   "f": 664,
+   "shot": "b3~2",
+   "why": [
+    "sil: head/torso cropped (box -0.218, 0.485, -0.125, 0.6)"
+   ]
+  },
+  {
+   "f": 668,
+   "shot": "b3~2",
+   "why": [
+    "sil: head/torso cropped (box -0.239, 0.486, -0.144, 0.603)"
+   ]
+  },
+  {
+   "f": 672,
+   "shot": "b3~2",
+   "why": [
+    "sil: head/torso cropped (box -0.252, 0.483, -0.157, 0.603)"
+   ]
+  },
+  {
+   "f": 676,
+   "shot": "b3~2",
+   "why": [
+    "sil: head/torso cropped (box -0.258, 0.486, -0.17, 0.607)"
+   ]
+  },
+  {
+   "f": 680,
+   "shot": "b3~2",
+   "why": [
+    "sil: head/torso cropped (box -0.271, 0.483, -0.183, 0.605)"
+   ]
+  },
+  {
+   "f": 684,
+   "shot": "b3~2",
+   "why": [
+    "sil: head/torso cropped (box -0.277, 0.484, -0.191, 0.607)"
+   ]
+  },
+  {
+   "f": 688,
+   "shot": "b3~2",
+   "why": [
+    "sil: head/torso cropped (box -0.282, 0.483, -0.196, 0.608)"
+   ]
+  },
+  {
+   "f": 691,
+   "shot": "b3~2",
+   "why": [
+    "sil: head/torso cropped (box -0.284, 0.482, -0.197, 0.607)"
+   ]
+  },
+  {
+   "f": 1169,
+   "shot": "b6_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 1172,
+   "shot": "b6_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 1176,
+   "shot": "b6_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 1180,
+   "shot": "b6_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 1184,
+   "shot": "b6_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 1188,
+   "shot": "b6_v",
+   "why": [
+    "pad: head/torso cropped (box 0.792, 0.299, 1.135, 0.873)"
+   ]
+  }
+ ],
+ "tiny": [
+  "b3"
+ ]
 }

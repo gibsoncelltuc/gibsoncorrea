@@ -13,5 +13,5 @@ b7 | crowd | dia  | batalha aberta com tiros, tropa, placa: GUERRA | tiros: 5 so
 b8 | two | -  | placa: 100 HORAS, objeto na mao | encena: g_obrigara (up) @8 (acao + som de efeito) | -
 b9 | two | -  | - | (rosto) sad (expr + som de efeito); perdeu (puff + som de baque); encena: perde (facepalm) @5 (acao + som de efeito) | -
 
-Mistura de planos: close 4% | medio 68% | aberto 22% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 4% | medio 70% | aberto 22% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)

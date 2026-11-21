@@ -24,7 +24,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - A cena dura cerca de sete segundos.
 - Cenario: street | luz: golden | clima: limpo
-- Camera: aereo = -
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): TRU (variante 0, expressao grin); POV (variante 0, expressao shock); POV (variante 1, expressao shock) | multidao: 10 de POV
 - Animacao: reagir | batalha encenada

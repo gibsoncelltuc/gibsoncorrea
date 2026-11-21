@@ -6,7 +6,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | street | close | 1 | reagir | kit/tv, kit/marco_liberdade | - | -
 b1 | interior pedra | two | 2 | conversar, INTERAGEM: aproxima-se | - | - | -
-b2 | street | aereo | 13 | reagir, batalha | kit/marco_liberdade, nature/picket_fence | - | -
+b2 | street | reveal | 13 | reagir, batalha | kit/marco_liberdade, nature/picket_fence | - | -
 b3 | interior pedra | close | 1 | reagir | kit/tv | - | -
 b4 | interior loja | two | 2 | conversar, INTERAGEM: avanca e o outro recua | - | - | -
 b5 | street | wide | 13 | reagir, batalha | kit/marco_liberdade, buildings/apartment, buildings/house_two, nature/lamppost | - | -

@@ -4,7 +4,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | close | -  | mapa | encena: g_estreou (point) @7 (acao + som de efeito); encena: g_esquecer (point) @10 (acao + som de efeito) | -
 b1 | two | -  | interior | - | -
-b2 | aereo | -  | batalha aberta com tiros, tropa | - | -
+b2 | reveal | -  | batalha aberta com tiros, tropa | - | -
 b3 | close | -  | interior | - | -
 b4 | two | -  | interior | - | -
 b5 | wide | -  | batalha aberta com tiros, tropa | - | -

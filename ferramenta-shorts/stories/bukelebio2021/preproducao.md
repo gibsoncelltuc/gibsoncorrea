@@ -9,7 +9,7 @@ b1 | street | crowd | 31 | encena, batalha | kit/volcano | - | -
 b2 | interior pedra | close | 1 | reagir | kit/phone | - | -
 b3 | interior loja | group | 3 | conversar, INTERAGEM: entregar, batalha | - | - | -
 b4 | street | reveal | 11 | encena | kit/volcano | - | -
-b5 | street | aereo | 10 | conversar | kit/phone, kit/volcano | - | -
+b5 | street | reveal | 10 | conversar | kit/phone, kit/volcano | - | -
 b6 | interior loja | two | 2 | conversar, INTERAGEM: insiste | - | - | -
 b7 | interior pedra | close | 1 | reagir | kit/phone, kit/ballot_box | - | -
 b8 | interior loja | two | 2 | conversar, INTERAGEM: vai ate o outro | - | - | -

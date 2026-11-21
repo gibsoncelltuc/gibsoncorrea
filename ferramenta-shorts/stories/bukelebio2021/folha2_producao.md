@@ -54,7 +54,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Um jornal de cada país publicou a frase, e muita gente ficou discutind...
 - Cenario: street | luz: golden | clima: limpo
-- Camera: aereo = -
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): JOR (variante 0, expressao shock); JOR2 (variante 0, expressao suspicious) | multidao: 8 de POV
 - Animacao: conversar
@@ -113,7 +113,7 @@ kit/ballot_box | b7 | pronto | conferir na folha de contato se le bem; se parece
 
 
 ## Video inteiro
-- Objeto heroi: kit/phone | grandes momentos: b1, b3 | planos abertos: 3 | mistura: close 48% | medio 34% | aberto 19% | detalhe 0%
+- Objeto heroi: kit/phone | grandes momentos: b1, b3 | planos abertos: 3 | mistura: close 48% | medio 38% | aberto 14% | detalhe 0%
 - Interacoes: b3 entregar, b6 insiste, b8 vai ate o outro
 - RISCOS GERAIS: 
   - objeto heroi (kit/phone) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
