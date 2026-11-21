@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 04 - A Guerra do Balde
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 25 acoes catalogadas, 25 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.0s - 13 palavras - plano two
@@ -44,7 +44,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | discutir | OK |
 
 ## Cena b5 - 31.7s a 35.2s - 13 palavras - plano crowd
 > "Bolonha juntou um exército de trinta mil homens, e marchou contra a vizinha."
@@ -81,12 +81,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
+| 1 | - | ATUACAO | comemorar | OK |
 
-## Cena b9 - 55.9s a 61.3s - 14 palavras - plano close
+## Cena b9 - 55.9s a 61.3s - 14 palavras - plano two
 > "O balde nunca foi devolvido. Está guardado em Módena até hoje, setecentos anos depois."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | PLACA | 700 ANOS | OK |
+| 1 | - | INTERACAO | pular | OK |
+| 2 | - | ATUACAO | comemorar | OK |
+| 3 | - | PLACA | 700 ANOS | OK |
 

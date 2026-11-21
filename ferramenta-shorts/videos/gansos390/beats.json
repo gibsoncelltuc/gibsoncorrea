@@ -69,7 +69,7 @@
     "GAU:2:grin:torch"
    ],
    "mapa": "ROMA",
-   "say": "Os gauleses tinham invadido a cidade, e queimado quase tudo. Quem não escapou, morreu.",
+   "say": "Os gauleses tinham invadido a cidade, e queimado quase tudo. Quem não escapou, tombou.",
    "fx": [
     "dust@20",
     "burst@55"

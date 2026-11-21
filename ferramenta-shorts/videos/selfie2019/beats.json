@@ -79,7 +79,7 @@
     "DIP:0:bored",
     "REP:0:suspicious:paper"
    ],
-   "acao": "conversar",
+   "acao": "discutir",
    "say": "Ali, os líderes de quase todos os países fazem discursos longos e sérios."
   },
   {
@@ -99,7 +99,7 @@
    ],
    "interacao": "cochichar",
    "say": "Nayib Bukele, o novo presidente de El Salvador, tinha só trinta e oito anos.",
-   "acao": "conversar"
+   "acao": "comemorar"
   },
   {
    "shot": "close",

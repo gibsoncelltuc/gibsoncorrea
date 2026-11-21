@@ -1,9 +1,9 @@
-b0: OK - em mil oitocentos e setenta a Prussia cercou Paris, ninguem entrava e a comida acabou: placa 1870 e a Paris de predios haussmannianos
-b1: OK - primeiro os parisienses comeram os cavalos, depois os caes e os gatos: sala com o cartaz CAVALOS CAES GATOS e a panela
-b2: OK - depois os roedores que viraram um prato chique: cartaz RATOS com o cozinheiro de cartola e o povo no campo
-b3: OK - quando acabou tudo olharam para o zoologico da cidade: dois elefantes cinza grandes ao fundo e a multidao reagindo
-b4: OK - o acougueiro comprou dois elefantes Castor e Polux e vendeu a carne em pedacos: o letreiro CASTOR E POLUX e o acougueiro sorrindo
-b5: OK - no Natal um restaurante famoso serviu consome de elefante dromedario assado e ensopado de canguru: restaurante com a panela grande
-b6: OK - tinha ate gato com roedores e pernil de lobo: cartaz GATO COM RATOS e o lobo ao lado do cliente assustado
-b7: OK - para mandar noticias os parisienses usavam baloes e pombos-correio: o balao no ceu e o letreiro BALOES E POMBOS
-b8: OK - o cerco acabou em janeiro de mil oitocentos e setenta e um e Paris se rendeu de barriga vazia: pôr do sol com a bandeira e o letreiro PARIS SE RENDEU
+b0: OK - cena confere com a frase: Em mil oitocentos e setenta, a Prússia cercou Paris. Ninguém entrava, ninguém saía, e
+b1: OK - cena confere com a frase: Primeiro, os parisienses comeram os cavalos. Depois, os cachorros e os gatos.
+b2: OK - cena confere com a frase: Depois, os roedores, que viraram um prato chique.
+b3: OK - cena confere com a frase: Quando acabou tudo, olharam para o zoológico da cidade.
+b4: OK - cena confere com a frase: O açougueiro comprou dois elefantes, Castor e Pólux, e vendeu a carne em pedaços.
+b5: OK - cena confere com a frase: No Natal, um restaurante famoso serviu consomê de elefante, dromedário assado e ensopado de
+b6: OK - cena confere com a frase: Tinha até gato com roedores, e pernil de lobo.
+b7: OK - cena confere com a frase: Para mandar notícias, os parisienses usavam balões e pombos-correio.
+b8: OK - cena confere com a frase: O cerco acabou em janeiro de mil oitocentos e setenta e um, e Paris

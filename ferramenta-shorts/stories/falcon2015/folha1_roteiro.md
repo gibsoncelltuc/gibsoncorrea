@@ -3,7 +3,7 @@
 Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 11 cenas, 175 palavras (~60 s)
 
 ## Cena b0  (~7.2 s)
-- Narracao: Durante sessenta anos, todo foguete era jogado fora depois de um voo. Até que um deles voltou e pousou de ré.
+- Narracao: Durante sessenta anos, todo foguete era jogado fora depois de um voo. Até que um deles voltou e desceu de ré.
 - Som ambiente: sea
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
@@ -66,7 +66,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Funcao na historia: VIRADA
 
 ## Cena b7  (~4.5 s)
-- Narracao: E pousou certinho no meio da plataforma, abrindo as pernas no último segundo.
+- Narracao: E desceu certinho no meio da plataforma, abrindo as pernas no último segundo.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@30, thump@50
 - Efeito + som nas palavras-chave: encena: x_abre (push) @7 -> acao + som de efeito
@@ -84,7 +84,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b9  (~5.9 s)
-- Narracao: Foi a primeira vez que um foguete desse tamanho voltou do espaço e pousou inteiro em terra.
+- Narracao: Foi a primeira vez que um foguete desse tamanho voltou do espaço e ficou inteiro em terra.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

@@ -11,7 +11,7 @@ b3 | countryside | crowd | 18 | discutir, batalha | nature/tree_pine | - | -
 b4 | mountain | orbit | 32 | encena, batalha | - | - | -
 b5 | interior pedra | two | 2 | conversar, INTERAGEM: empurrar | - | - | -
 b6 | mountain | two | 2 | conversar, INTERAGEM: cochichar | - | - | -
-b7 | interior madeira | two | 2 | conversar, INTERAGEM: entregar | - | paper | -
+b7 | interior madeira | two | 2 | discutir, INTERAGEM: entregar | - | paper | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | kit/scroll | paper | -
 b9 | countryside | orbit | 12 | parados (so fala e pisca) | kit/logs, nature/tree_pine, pig | - | -
 

@@ -246,7 +246,8 @@
     "PRE:0:relief"
    ],
    "interacao": "entregar",
-   "say": "Ele convenceu os dois lados a parar, e a história terminou sem um único tiro."
+   "say": "Ele convenceu os dois lados a parar, e a história terminou sem um único tiro.",
+   "acao": "discutir"
   },
   {
    "shot": "two",
@@ -256,7 +257,7 @@
     "PRE:1:smile"
    ],
    "interacao": "entregar",
-   "say": "Alguns anos depois, um tratado dividiu o território, e a fronteira ficou definida."
+   "say": "Alguns anos depois, as duas nações assinaram um tratado que dividiu o território, e a fronteira ficou definida."
   },
   {
    "shot": "two",

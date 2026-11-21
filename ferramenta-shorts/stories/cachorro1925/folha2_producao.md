@@ -97,7 +97,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): GRE (variante 0, expressao sad)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/dog_sit, dog
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, grecia
 - RISCOS: nenhum

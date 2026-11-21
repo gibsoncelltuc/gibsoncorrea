@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: balde1325
-Cenas 100% fieis: 7/10 (70%). Lacunas: 3
+Cenas 100% fieis: 10/10 (100%). Lacunas: 0
 
 ## b0 OK - Duas cidades italianas foram à guerra por causa de um balde de madeira.
 - na tela: set=['street'] animais=[] objetos=['bucket', 'house_two', 'lamppost', 'marco_ghirlandina'] atores=6 acoes_folha3=[]
@@ -9,18 +9,15 @@ Cenas 100% fieis: 7/10 (70%). Lacunas: 3
 - na tela: set=['mountain'] animais=[] objetos=['marco_ghirlandina'] atores=2 acoes_folha3=['entraram']
 ## b3 OK - Não roubaram ouro, nem armas. Levaram o balde velho do poço da praça, e voltaram para casa rindo.
 - na tela: set=['mountain'] animais=[] objetos=['bucket', 'house_small', 'marco_ghirlandina', 'picket_fence', 'tree_oak', 'well'] atores=2 acoes_folha3=['rindo', 'rindo']
-## b4 LACUNA - "Devolvam o nosso balde", exigiu Bolonha. "Venham buscar", respondeu Módena.
+## b4 OK - "Devolvam o nosso balde", exigiu Bolonha. "Venham buscar", respondeu Módena.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'bucket', 'room_europa_stone'] atores=1 acoes_folha3=[]
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
 ## b5 OK - Bolonha juntou um exército de trinta mil homens, e marchou contra a vizinha.
 - na tela: set=['countryside'] animais=[] objetos=['marco_ghirlandina'] atores=20 acoes_folha3=[]
 ## b6 OK - Módena tinha só sete mil soldados. Parecia uma derrota certa, e rápida.
 - na tela: set=['countryside'] animais=[] objetos=['marco_ghirlandina'] atores=12 acoes_folha3=['derrota', 'derrota']
 ## b7 OK - Acontece que, numa única tarde de batalha, os sete mil atacaram de surpresa, e o exército gigante fugiu correndo.
 - na tela: set=['street'] animais=[] objetos=['marco_ghirlandina'] atores=26 acoes_folha3=['atacaram', 'surpresa', 'surpresa', 'fugiu', 'fugiu']
-## b8 LACUNA - Módena perseguiu os inimigos até as portas da cidade de Bolonha, e ainda zombou deles do lado de fora.
-- na tela: set=['street'] animais=[] objetos=['house_two', 'lamppost', 'marco_ghirlandina'] atores=2 acoes_folha3=[]
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
-## b9 LACUNA - O balde nunca foi devolvido. Está guardado em Módena até hoje, setecentos anos depois.
-- na tela: set=['street'] animais=[] objetos=['bucket', 'marco_ghirlandina'] atores=1 acoes_folha3=[]
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
+## b8 OK - Módena perseguiu os inimigos até as portas da cidade de Bolonha, e ainda zombou deles do lado de fora.
+- na tela: set=['street'] animais=[] objetos=['house_two', 'lamppost', 'marco_ghirlandina'] atores=10 acoes_folha3=[]
+## b9 OK - O balde nunca foi devolvido. Está guardado em Módena até hoje, setecentos anos depois.
+- na tela: set=['street'] animais=[] objetos=['bucket', 'marco_ghirlandina'] atores=2 acoes_folha3=[]

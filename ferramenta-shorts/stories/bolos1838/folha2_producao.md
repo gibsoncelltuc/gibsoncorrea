@@ -52,14 +52,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca, marinha
 - RISCOS: nenhum
 
-## Cena b5 - O México riu da cobrança, e não pagou um centavo.
+## Cena b5 - O México riu do pedido, e não deu um centavo.
 - Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): GEN (variante 0, expressao laugh); OFI (variante 0, expressao grin)
 - Animacao: comemorar | interacao: cochichar
 - Objetos/modelos: kit/marco_ulua
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): centavo, cobranca, mexico
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): centavo, mexico, pedido
 - RISCOS: nenhum
 
 ## Cena b6 - Acontece que a França mandou mesmo. Navios de guerra chegaram, e fecha...

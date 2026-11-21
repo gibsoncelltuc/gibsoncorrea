@@ -5,15 +5,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 
 ## Cena b0 - 0.2s a 4.4s - 16 palavras - plano two
-> "Uma guerra entre os Estados Unidos e a Inglaterra foi travada por lenhadores, e ninguém morreu."
+> "Uma guerra entre os Estados Unidos e a Inglaterra foi travada por lenhadores, e todos sobreviveram."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | lenhadores (3.3s) | ACAO: corta | machado e toras + poeira | OK |
-| 2 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 3 | - | INTERACAO | discutir | OK |
-| 4 | - | ATUACAO | discutir | OK |
-| 5 | - | PLACA | 1838 | OK |
+| 2 | - | INTERACAO | discutir | OK |
+| 3 | - | ATUACAO | discutir | OK |
+| 4 | - | PLACA | 1838 | OK |
 
 ## Cena b1 - 5.6s a 10.4s - 21 palavras - plano reveal
 > "Em mil oitocentos e trinta e oito, a fronteira entre o estado do Maine e uma colônia inglesa ainda era confusa."
@@ -71,23 +70,24 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | cochichar | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b7 - 38.3s a 41.6s - 13 palavras - plano two
-> "Ele convenceu os dois lados a parar, e ninguém atirou um único tiro."
+## Cena b7 - 38.3s a 43.1s - 15 palavras - plano two
+> "Ele convenceu os dois lados a parar, e a história terminou sem um único tiro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | entregar | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | - | ATUACAO | discutir | OK |
 
-## Cena b8 - 42.8s a 46.5s - 13 palavras - plano two
-> "Alguns anos depois, um tratado dividiu a mata, e a fronteira ficou definida."
+## Cena b8 - 43.5s a 49.5s - 18 palavras - plano two
+> "Alguns anos depois, as duas nações assinaram um tratado que dividiu o território, e a fronteira ficou definida."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | entregar | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | assinaram (45.7s) | ACAO: escreve | escreve/assina | OK |
+| 2 | - | INTERACAO | entregar | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 47.9s a 51.7s - 15 palavras - plano orbit
+## Cena b9 - 50.1s a 51.7s - 15 palavras - plano orbit
 > "Chamaram de Guerra do Porco com Feijão, porque era só isso que as tropas comiam."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

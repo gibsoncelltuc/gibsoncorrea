@@ -7,7 +7,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): MUS (variante 0, expressao grin)
-- Animacao: conversar
+- Animacao: comemorar
 - Objetos/modelos: kit/sink, kit/marco_goldengate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, sede, twitter
 - RISCOS: nenhum
@@ -77,7 +77,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (3): MUS (variante 0, expressao laugh); FUN (variante 0, expressao grin); FUN2 (variante 0, expressao smile)
-- Animacao: conversar | interacao: vai ate o outro
+- Animacao: comemorar | interacao: pular
 - Objetos/modelos: kit/sink, kit/marco_goldengate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): legenda, piada
 - RISCOS: nenhum
@@ -94,7 +94,7 @@ kit/globe | b6 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 ## Video inteiro
 - Objeto heroi: kit/sink | grandes momentos: b4, b6 | planos abertos: 2 | mistura: close 26% | medio 55% | aberto 8% | detalhe 11%
-- Interacoes: b2 o outro se aproxima, b5 insiste, b7 vai ate o outro
+- Interacoes: b2 o outro se aproxima, b5 insiste, b7 pular
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

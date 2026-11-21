@@ -54,7 +54,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b5 - 32.3s a 34.6s - 10 palavras - plano two
-> "O México riu da cobrança, e não pagou um centavo."
+> "O México riu do pedido, e não deu um centavo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

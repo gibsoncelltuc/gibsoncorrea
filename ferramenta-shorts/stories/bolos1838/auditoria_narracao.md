@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: bolos1838
-Cenas 100% fieis: 10/11 (91%). Lacunas: 2
+Cenas 100% fieis: 11/11 (100%). Lacunas: 0
 
 ## b0 OK - A França foi à guerra contra o México por causa de uma conta de confeitaria.
 - na tela: set=['street'] animais=[] objetos=['cake_table', 'marco_ulua'] atores=6 acoes_folha3=[]
@@ -11,10 +11,8 @@ Cenas 100% fieis: 10/11 (91%). Lacunas: 2
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'cake_table', 'room_colonial_stone'] atores=2 acoes_folha3=['escreveu']
 ## b4 OK - O rei gostou da ideia, juntou outras queixas, e cobrou seiscentos mil. "Paguem, ou mandamos a marinha", avisou a França.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_colonial_stone'] atores=1 acoes_folha3=['ideia', 'avisou']
-## b5 LACUNA - O México riu da cobrança, e não pagou um centavo.
+## b5 OK - O México riu do pedido, e não deu um centavo.
 - na tela: set=['street'] animais=[] objetos=['marco_ulua'] atores=2 acoes_folha3=['riu', 'riu']
-- **FALTA:** ANIMAL/OBJETO sem modelo na biblioteca (cobra): modelar (Blender) ou mostrar por cartaz/prato
-- **FALTA:** ACAO narrada ("pagou") sem animacao na folha 3
 ## b6 OK - Acontece que a França mandou mesmo. Navios de guerra chegaram, e fecharam todos os portos do país.
 - na tela: set=['harbor'] animais=[] objetos=['boat', 'marco_ulua', 'ship'] atores=20 acoes_folha3=['mandou', 'chegaram', 'chegaram', 'fecharam']
 ## b7 OK - Os canhões franceses bombardearam a fortaleza de Veracruz, e os soldados tomaram a cidade.

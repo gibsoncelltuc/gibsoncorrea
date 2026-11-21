@@ -27,7 +27,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): DIP (variante 0, expressao bored); REP (variante 0, expressao suspicious, segura paper)
-- Animacao: conversar | interacao: o outro se aproxima
+- Animacao: discutir | interacao: discutir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lideres
 - RISCOS: nenhum
@@ -37,7 +37,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): BUK (variante 0, expressao smug); DIP (variante 0, expressao suspicious)
-- Animacao: conversar | interacao: cochichar
+- Animacao: comemorar | interacao: cochichar
 - Objetos/modelos: kit/phone
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): novo
 - RISCOS: nenhum
@@ -87,7 +87,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): REP (variante 0, expressao suspicious, segura paper); DIP (variante 0, expressao bored)
-- Animacao: discutir | interacao: discutir
+- Animacao: discutir | interacao: susto
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): respeito
 - RISCOS: nenhum
@@ -97,7 +97,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): BUK (variante 0, expressao smug); REP (variante 0, expressao surprised)
-- Animacao: conversar | interacao: insiste
+- Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): discurso, internet, reunioes
 - RISCOS: nenhum
@@ -124,7 +124,7 @@ kit/globe | b7 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 ## Video inteiro
 - Objeto heroi: kit/phone | grandes momentos: b5, b7 | planos abertos: 3 | mistura: close 22% | medio 64% | aberto 12% | detalhe 2%
-- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b3 cochichar, b6 pular, b8 discutir, b9 insiste
+- Interacoes: b0 avanca e o outro recua, b2 discutir, b3 cochichar, b6 pular, b8 susto, b9 o outro se aproxima
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

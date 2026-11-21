@@ -13,7 +13,7 @@ b5 | mountain | low | 2 | conversar, INTERAGEM: susto | - | - | -
 b6 | mountain | orbit | 22 | encena, batalha | - | - | -
 b7 | interior madeira | two | 2 | reagir, INTERAGEM: susto | - | paper | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | - | paper | -
-b9 | countryside | close | 1 | conversar | kit/dog_sit, dog | - | -
+b9 | countryside | close | 1 | reagir | kit/dog_sit, dog | - | -
 
 OBJETO HEROI: kit/dog_sit - aparece em 2 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b6

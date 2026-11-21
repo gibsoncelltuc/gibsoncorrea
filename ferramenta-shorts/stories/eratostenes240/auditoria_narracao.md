@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: eratostenes240
-Cenas 100% fieis: 10/11 (91%). Lacunas: 1
+Cenas 100% fieis: 11/11 (100%). Lacunas: 0
 
 ## b0 OK - Um homem mediu o tamanho do planeta usando só uma vara e a sombra dela.
 - na tela: set=['street'] animais=[] objetos=['globe', 'lupa', 'marco_alexandria', 'stick', 'tree_palm'] atores=6 acoes_folha3=['mediu', 'usando']
@@ -21,6 +21,5 @@ Cenas 100% fieis: 10/11 (91%). Lacunas: 1
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_classico_stone'] atores=2 acoes_folha3=['encontrou']
 ## b9 OK - E tudo isso aconteceu mais de dois mil anos atrás, sem satélite e sem computador.
 - na tela: set=['street'] animais=[] objetos=['globe', 'marco_alexandria', 'starlink_sat', 'tree_palm'] atores=16 acoes_folha3=[]
-## b10 LACUNA - No fim, uma vara e um poço fizeram o trabalho de um satélite.
+## b10 OK - No fim, uma vara e um poço fizeram o trabalho de um satélite.
 - na tela: set=['street'] animais=[] objetos=['bucket', 'globe', 'marco_alexandria', 'starlink_sat', 'stick', 'tree_palm', 'well'] atores=1 acoes_folha3=[]
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece

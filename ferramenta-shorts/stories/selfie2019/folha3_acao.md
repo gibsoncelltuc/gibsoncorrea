@@ -29,8 +29,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | o outro se aproxima | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | - | INTERACAO | discutir | OK |
+| 2 | - | ATUACAO | discutir | OK |
 
 ## Cena b3 - 16.1s a 20.1s - 14 palavras - plano two
 > "Nayib Bukele, o novo presidente de El Salvador, tinha só trinta e oito anos."
@@ -38,7 +38,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | cochichar | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | - | ATUACAO | comemorar | OK |
 
 ## Cena b4 - 21.2s a 27.6s - 17 palavras - plano close
 > "Acontece que, no púlpito, ele pediu: só um segundo, por favor. E tirou o celular do bolso."
@@ -82,7 +82,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | acharam (43.1s) | ACAO: olha | aponta/olha | OK |
-| 2 | - | INTERACAO | discutir | OK |
+| 2 | - | INTERACAO | susto | OK |
 | 3 | - | ATUACAO | discutir | OK |
 
 ## Cena b9 - 47.5s a 54.0s - 17 palavras - plano two
@@ -91,7 +91,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | internet (54.0s) | ACAO: x_fone | celular na mao + toque | OK |
-| 2 | - | INTERACAO | insiste | OK |
+| 2 | - | INTERACAO | o outro se aproxima | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b10 - 54.3s a 58.6s - 13 palavras - plano close

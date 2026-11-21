@@ -72,7 +72,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): motor, queda
 - RISCOS: nenhum
 
-## Cena b7 - E pousou certinho no meio da plataforma, abrindo as pernas no último s...
+## Cena b7 - E desceu certinho no meio da plataforma, abrindo as pernas no último s...
 - Cenario: countryside | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
@@ -92,7 +92,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alegria, campeonato, funcionarios, spacex
 - RISCOS: nenhum
 
-## Cena b9 - Foi a primeira vez que um foguete desse tamanho voltou do espaço e pou...
+## Cena b9 - Foi a primeira vez que um foguete desse tamanho voltou do espaço e fic...
 - Cenario: interior loja | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta

@@ -47,7 +47,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): NOB (variante 0, expressao stern)
-- Animacao: conversar
+- Animacao: discutir
 - Objetos/modelos: tools/bucket
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): nosso
 - RISCOS: nenhum
@@ -86,18 +86,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: track = travelling lateral acompanhando quem anda
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): MOD (variante 0, expressao laugh, segura flag); MOD (variante 1, expressao grin)
-- Animacao: encena
+- Personagens principais (2): MOD (variante 0, expressao laugh, segura flag); MOD (variante 1, expressao grin) | multidao: 8 de MOD
+- Animacao: comemorar
 - Objetos/modelos: kit/marco_ghirlandina, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bolonha, cidade, fora, inimigos, portas
 - RISCOS: nenhum
 
 ## Cena b9 - O balde nunca foi devolvido. Está guardado em Módena até hoje, setecen...
 - Cenario: medieval | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (1): MOD (variante 0, expressao grin, segura bag)
-- Animacao: encena
+- Personagens principais (2): MOD (variante 0, expressao grin, segura bag); MOD (variante 0, expressao grin)
+- Animacao: comemorar | interacao: pular
 - Objetos/modelos: kit/marco_ghirlandina, tools/bucket
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balde
 - RISCOS: nenhum
@@ -118,8 +118,8 @@ kit/well | b3 | pronto | conferir na folha de contato se le bem; se parecer caix
 
 
 ## Video inteiro
-- Objeto heroi: tools/bucket | grandes momentos: b3, b7 | planos abertos: 4 | mistura: close 20% | medio 52% | aberto 26% | detalhe 2%
-- Interacoes: b0 susto, b6 insiste
+- Objeto heroi: tools/bucket | grandes momentos: b3, b7 | planos abertos: 4 | mistura: close 11% | medio 61% | aberto 26% | detalhe 2%
+- Interacoes: b0 susto, b6 insiste, b9 pular
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

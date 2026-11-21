@@ -45,7 +45,6 @@ gibber(F(_A[7] + int((_A[8] - _A[7]) * 0.2)), 4, 200, 0.12); gibber(F(_A[7] + in
 whoosh(F(_A[8]), 0.4, 0.35)
 gibber(F(_A[8] + int((_A[9] - _A[8]) * 0.2)), 4, 260, 0.12); gibber(F(_A[8] + int((_A[9] - _A[8]) * 0.58)), 4, 185, 0.12)
 whoosh(F(_A[9]), 0.4, 0.35)
-gibber(F(_A[9] + int((_A[10] - _A[9]) * 0.2)), 4, 230, 0.12); gibber(F(_A[9] + int((_A[10] - _A[9]) * 0.58)), 4, 170, 0.12)
 thump(F(int(_W(2))))
 thump(F(int(_W(16))))
 thump(F(int(_W(2))))

@@ -87,7 +87,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): MUS (variante 0, expressao smile); STA (variante 0, expressao grin)
-- Animacao: conversar | interacao: aproxima-se
+- Animacao: reagir | interacao: aproxima-se
 - Objetos/modelos: kit/roadster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum

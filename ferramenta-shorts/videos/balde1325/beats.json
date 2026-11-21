@@ -163,7 +163,15 @@
    ],
    "tiros": false,
    "say": "Módena perseguiu os inimigos até as portas da cidade de Bolonha, e ainda zombou deles do lado de fora.",
-   "acao": "comemorar"
+   "acao": "comemorar",
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "MOD"
+    ],
+    "march": true
+   },
+   "batalha": false
   },
   {
    "shot": "close",

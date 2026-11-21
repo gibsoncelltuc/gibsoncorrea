@@ -94,10 +94,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - E os guardas, que dormiram a noite inteira, levaram um castigo.
 - Cenario: medieval | luz: dia | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (1): ROM (variante 2, expressao sad)
-- Animacao: conversar
+- Personagens principais (2): ROM (variante 2, expressao sad); ROM (variante 0, expressao sad)
+- Animacao: discutir | interacao: discutir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): castigo, guardas
 - RISCOS: nenhum
@@ -116,8 +116,8 @@ buildings/castle_tower | b2, b6, b7 | pronto | conferir na folha de contato se l
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b1, b7 | planos abertos: 3 | mistura: close 18% | medio 56% | aberto 18% | detalhe 7%
-- Interacoes: b0 susto, b2 insiste, b4 o outro se aproxima, b6 empurrar, b8 aproxima-se
+- Objeto heroi: - | grandes momentos: b1, b7 | planos abertos: 3 | mistura: close 11% | medio 64% | aberto 18% | detalhe 7%
+- Interacoes: b0 susto, b2 insiste, b4 o outro se aproxima, b6 empurrar, b8 aproxima-se, b9 discutir
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

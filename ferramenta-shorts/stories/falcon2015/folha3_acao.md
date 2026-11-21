@@ -5,7 +5,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 
 ## Cena b0 - 0.2s a 6.5s - 21 palavras - plano two
-> "Durante sessenta anos, todo foguete era jogado fora depois de um voo. Até que um deles voltou e pousou de ré."
+> "Durante sessenta anos, todo foguete era jogado fora depois de um voo. Até que um deles voltou e desceu de ré."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -66,7 +66,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | ATUACAO | reagir | OK |
 
 ## Cena b7 - 43.1s a 46.7s - 13 palavras - plano two
-> "E pousou certinho no meio da plataforma, abrindo as pernas no último segundo."
+> "E desceu certinho no meio da plataforma, abrindo as pernas no último segundo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -86,7 +86,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | - | PLACA | POUSOU! | OK |
 
 ## Cena b9 - 52.8s a 56.6s - 17 palavras - plano two
-> "Foi a primeira vez que um foguete desse tamanho voltou do espaço e pousou inteiro em terra."
+> "Foi a primeira vez que um foguete desse tamanho voltou do espaço e ficou inteiro em terra."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

@@ -48,7 +48,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Funcao na historia: desenvolvimento
 
 ## Cena b5  (~3.4 s)
-- Narracao: O México riu da cobrança, e não pagou um centavo.
+- Narracao: O México riu do pedido, e não deu um centavo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; riu -> stars + som de sino; encena: x_ri (up) @2 -> acao + som de efeito

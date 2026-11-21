@@ -4,7 +4,7 @@ balde1325
 bolos1838
 cachorro1925
 danca1518
-falcon2015
+#PAUSADO falcon2015 (foguete 3 nucleos: motor)
 gansos390
 martelo2025
 paypal2002
