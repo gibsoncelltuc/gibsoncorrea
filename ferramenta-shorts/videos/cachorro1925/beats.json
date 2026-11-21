@@ -16,8 +16,7 @@
    "pants": "#f1efe6",
    "boots": "#1b1b1f",
    "hat": "helmet",
-   "rifle": true,
-   "uniforme_fixo": true
+   "rifle": true
   },
   "BUL": {
    "profissao": "soldado",
@@ -26,8 +25,7 @@
    "boots": "#1b1b1f",
    "hat": "cap",
    "cap": "#2a7a3a",
-   "rifle": true,
-   "uniforme_fixo": true
+   "rifle": true
   },
   "PRE": {
    "profissao": "politico",
@@ -49,7 +47,7 @@
  "beats": [
   {
    "shot": "two",
-   "set": "countryside",
+   "set": "mountain",
    "who": [
     "GRE:0:shock",
     "BUL:0:neutral"
@@ -69,12 +67,10 @@
    "animals": [
     [
      "dog",
-     0.9,
-     1.4
+     -2.4,
+     1.2
     ]
-   ],
-   "detalhe": true,
-   "shot_lock": true
+   ]
   },
   {
    "shot": "reveal",
@@ -98,7 +94,7 @@
   },
   {
    "shot": "track",
-   "set": "countryside",
+   "set": "mountain",
    "who": [
     "GRE:0:nervous",
     "GRE:1:scared"
@@ -115,7 +111,7 @@
   },
   {
    "shot": "track",
-   "set": "countryside",
+   "set": "mountain",
    "who": [
     "GRE:0:shout",
     "GRE:1:angry"
@@ -205,7 +201,7 @@
   },
   {
    "shot": "close",
-   "set": "countryside",
+   "set": "mountain",
    "who": [
     "GRE:0:sad"
    ],

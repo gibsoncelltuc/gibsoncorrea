@@ -126,7 +126,7 @@
     "CAN:0:smug"
    ],
    "acao": "discutir",
-   "say": "Na mata de Aroostook, lenhadores americanos e ingleses cortavam as mesmas árvores, e cada lado queria a madeira.",
+   "say": "Na floresta de Aroostook, lenhadores americanos e ingleses cortavam as mesmas árvores, e cada lado queria a madeira.",
    "fachada": false,
    "props": [
     [
@@ -156,12 +156,13 @@
    ]
   },
   {
-   "shot": "crowd",
+   "shot": "two",
    "set": "countryside",
    "who": [
     "AME:0:shout",
     "CAN:0:angry"
    ],
+   "interacao": "empurrar",
    "say": "\"Essa árvore é minha!\", gritou um lenhador, e logo os dois lados começaram a brigar.",
    "fachada": false,
    "props": [
@@ -183,22 +184,11 @@
      -9.0,
      1.8
     ]
-   ],
-   "batalha": true,
-   "tiros": false,
-   "crowd": {
-    "n": 16,
-    "outfits": [
-     "AME",
-     "CAN"
-    ],
-    "march": true,
-    "expr": "angry"
-   }
+   ]
   },
   {
    "shot": "crowd",
-   "set": "mountain",
+   "set": "street",
    "who": [
     "MIL:0:angry",
     "ING:0:angry"
@@ -230,7 +220,7 @@
   },
   {
    "shot": "two",
-   "set": "mountain",
+   "set": "palace",
    "who": [
     "GEN:0:stern",
     "MIL:0:nervous"
@@ -256,7 +246,7 @@
     "PRE:1:smile"
    ],
    "interacao": "entregar",
-   "say": "Alguns anos depois, um tratado dividiu a mata, e a fronteira ficou definida."
+   "say": "Alguns anos depois, um tratado dividiu a floresta, e a fronteira ficou definida."
   },
   {
    "shot": "close",
@@ -302,6 +292,5 @@
    ],
    "fachada": false
   }
- ],
- "regiao": "europa"
+ ]
 }

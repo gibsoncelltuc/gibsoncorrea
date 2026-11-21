@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 23 - O Martelo da Meia-Noite
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 13 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.0s - 21 palavras - plano two
@@ -57,7 +57,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | decolaram (33.5s) | ACAO: voa | decola: poeira no chao, olha para cima | OK |
 | 2 | - | CENA | explosao: 3 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
-| 3 | - | PLACA | B-2 | OK |
+| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | PLACA | B-2 | OK |
 
 ## Cena b6 - 37.7s a 41.9s - 12 palavras - plano two
 > "Para despistar, outros B-2 foram mandados na direção contrária, para o Pacífico."
@@ -77,41 +78,27 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | bombas (46.6s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b8 - 51.7s a 54.3s - 9 palavras - plano two
-> "Um submarino ainda disparou mísseis contra uma terceira usina."
+## Cena b8 - 51.7s a 57.0s - 15 palavras - plano two
+> "Um submarino ainda disparou mísseis contra uma terceira usina. Todos os aviões voltaram para casa."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | disparou (52.7s) | EFEITO: burst | estouro/clarao + som | OK |
 | 2 | disparou (52.7s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 3 | - | INTERACAO | insiste | OK |
-| 4 | - | ATUACAO | reagir | OK |
-| 5 | - | PLACA | SUBMARINO | OK |
+| 3 | - | CENA | voltam para casa (saem andando) | OK |
+| 4 | - | INTERACAO | insiste | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 55.6s a 57.0s - 6 palavras - plano orbit
-> "Todos os aviões voltaram para casa."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
-
-## Cena b10 - 58.2s a 59.8s - 7 palavras - plano two
-> "Trump disse que as usinas foram destruídas."
+## Cena b9 - 58.2s a 63.9s - 15 palavras - plano orbit
+> "Trump disse que as usinas foram destruídas. Avaliações posteriores discutiram o tamanho real do estrago."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | vai ate o outro | OK |
+| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | FORDOW | OK |
 
-## Cena b11 - 61.2s a 63.9s - 8 palavras - plano crowd
-> "Avaliações posteriores discutiram o tamanho real do estrago."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-| 2 | - | PLACA | FORDOW | OK |
-
-## Cena b12 - 65.3s a 68.3s - 14 palavras - plano close
+## Cena b10 - 65.3s a 68.3s - 14 palavras - plano close
 > "Foi a primeira vez na história que essa bomba gigante foi usada de verdade."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
