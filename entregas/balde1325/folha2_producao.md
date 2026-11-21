@@ -7,7 +7,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MOD (variante 0, expressao grin, segura bag); BOL (variante 0, expressao shock)
-- Animacao: reagir | interacao: susto
+- Animacao: conversar | interacao: susto
 - Objetos/modelos: kit/marco_ghirlandina, tools/bucket, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balde, madeira
 - RISCOS: nenhum
@@ -17,7 +17,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): NOB (variante 0, expressao stern); BOL (variante 1, expressao stern) | multidao: 8 de POV
-- Animacao: -
+- Animacao: conversar
 - Objetos/modelos: kit/marco_ghirlandina, buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): apoiava, imperador, papa, vizinho
 - RISCOS: nenhum
@@ -37,7 +37,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): MOD (variante 0, expressao laugh, segura bag); MOD (variante 1, expressao grin)
-- Animacao: comemorar | batalha encenada
+- Animacao: conversar | batalha encenada
 - Objetos/modelos: kit/well, tools/bucket, kit/marco_ghirlandina, buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balde, poco, praca
 - RISCOS: nenhum
@@ -47,7 +47,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): NOB (variante 0, expressao stern)
-- Animacao: conversar
+- Animacao: discutir
 - Objetos/modelos: tools/bucket
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): nosso
 - RISCOS: nenhum
@@ -57,7 +57,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): BOL (variante 0, expressao stern); BOL (variante 1, expressao stern) | multidao: 18 de BOL
-- Animacao: -
+- Animacao: encena
 - Objetos/modelos: kit/marco_ghirlandina
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): exercito, trinta, vizinha
 - RISCOS: nenhum
@@ -67,7 +67,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): MOD (variante 0, expressao nervous); MOD (variante 1, expressao pained) | multidao: 10 de POV
-- Animacao: reagir | interacao: insiste
+- Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/marco_ghirlandina
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): derrota
 - RISCOS: nenhum
@@ -86,18 +86,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: track = travelling lateral acompanhando quem anda
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): MOD (variante 0, expressao laugh, segura flag); MOD (variante 1, expressao grin)
-- Animacao: encena
+- Personagens principais (2): MOD (variante 0, expressao laugh, segura flag); MOD (variante 1, expressao grin) | multidao: 8 de MOD
+- Animacao: comemorar
 - Objetos/modelos: kit/marco_ghirlandina, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bolonha, cidade, fora, inimigos, portas
 - RISCOS: nenhum
 
 ## Cena b9 - O balde nunca foi devolvido. Está guardado em Módena até hoje, setecen...
 - Cenario: medieval | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (1): MOD (variante 0, expressao grin, segura bag)
-- Animacao: encena
+- Personagens principais (2): MOD (variante 0, expressao grin, segura bag); MOD (variante 0, expressao grin)
+- Animacao: comemorar | interacao: pular
 - Objetos/modelos: kit/marco_ghirlandina, tools/bucket
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balde
 - RISCOS: nenhum
@@ -118,8 +118,8 @@ kit/well | b3 | pronto | conferir na folha de contato se le bem; se parecer caix
 
 
 ## Video inteiro
-- Objeto heroi: tools/bucket | grandes momentos: b3, b7 | planos abertos: 4 | mistura: close 20% | medio 52% | aberto 26% | detalhe 2%
-- Interacoes: b0 susto, b6 insiste
+- Objeto heroi: tools/bucket | grandes momentos: b3, b7 | planos abertos: 4 | mistura: close 11% | medio 61% | aberto 26% | detalhe 2%
+- Interacoes: b0 susto, b6 insiste, b9 pular
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
