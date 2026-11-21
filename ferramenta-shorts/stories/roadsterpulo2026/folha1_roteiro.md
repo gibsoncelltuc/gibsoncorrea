@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: Acontece que, na frente da plateia, o carro acelerou e pulou por cima de cinco outros carros da Tesla.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@20, thump@40
-- Efeito + som nas palavras-chave: encena: pula @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: g_acelerou (point) @8 -> acao + som de efeito; encena: pula @10 -> acao + som de efeito
 - Efeito visual marcado: whoosh@20, puff@40
 - Texto na tela: PULOU!
 - Funcao na historia: GRANDE MOMENTO
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: Depois, girou no ar e desceu de novo sobre as quatro rodas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@20, whoosh@50
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_desceu (point) @5 -> acao + som de efeito
 - Efeito visual marcado: puff@20, puff@50
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: Mas especialistas lembraram: aquilo foi um salto de poucos segundos, não um voo de verdade.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: pula @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: g_lembrara (point) @2 -> acao + som de efeito; encena: pula @6 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

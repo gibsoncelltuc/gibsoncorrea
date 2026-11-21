@@ -5,11 +5,11 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/bitcoin, kit/volcano | - | -
-b1 | street | reveal | 9 | encena | kit/volcano | - | -
+b1 | street | reveal | 9 | reagir | kit/volcano | - | -
 b2 | interior pedra | group | 3 | conversar, INTERAGEM: o outro se aproxima | kit/bitcoin | - | -
 b3 | mountain | crowd | 10 | batalha | kit/volcano | - | -
 b4 | street | two | 2 | conversar, INTERAGEM: entregar | kit/stall, kit/bitcoin, kit/volcano | coin | -
-b5 | countryside | orbit | 13 | batalha | kit/volcano | - | -
+b5 | countryside | orbit | 13 | reagir, batalha | kit/volcano | - | -
 b6 | interior pedra | two | 2 | discutir, INTERAGEM: discutir | - | - | -
 b7 | outback | orbit | 8 | parados (so fala e pisca) | kit/globe, kit/volcano | - | -
 b8 | street | two | 3 | conversar, INTERAGEM: insiste | kit/bitcoin, kit/volcano | - | -

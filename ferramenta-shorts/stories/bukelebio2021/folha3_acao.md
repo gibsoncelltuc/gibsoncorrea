@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 01 - O Ditador Mais Legal do Mundo
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 7.0s - 25 palavras - plano close
@@ -11,7 +11,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | usou (4.5s) | ACAO: x_usa | usa o objeto da cena + brilho | OK |
 | 2 | celular (5.0s) | ACAO: x_fone | celular na mao + toque | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 3 | - | ATUACAO | reagir | OK |
 | 4 | - | MAPA | EL SALVADOR | OK |
 
 ## Cena b1 - 7.2s a 12.3s - 14 palavras - plano crowd
@@ -30,7 +30,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | escreveu (14.5s) | ACAO: escreve | escreve/assina | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | - | ATUACAO | reagir | OK |
 | 3 | - | PLACA | DITADOR | OK |
 
 ## Cena b3 - 17.7s a 21.9s - 15 palavras - plano group
@@ -38,26 +38,28 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | entregar | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | O DITADOR MAIS LEGAL DO MUNDO | OK |
+| 1 | trocou (18.9s) | ACAO: g_trocou | g_trocou | OK |
+| 2 | - | INTERACAO | entregar | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | O DITADOR MAIS LEGAL DO MUNDO | OK |
 
 ## Cena b4 - 23.0s a 24.9s - 8 palavras - plano reveal
 > "Acontece que a notícia se espalhou pelo mundo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | MAPA | MUNDO | OK |
+| 1 | espalhou (24.2s) | ACAO: g_espalhou | g_espalhou | OK |
+| 2 | - | MAPA | MUNDO | OK |
 
-## Cena b5 - 26.1s a 31.9s - 18 palavras - plano two
+## Cena b5 - 26.1s a 31.9s - 18 palavras - plano aereo
 > "Um jornal de cada país publicou a frase, e muita gente ficou discutindo se era piada ou não."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | jornal (26.4s) | ACAO: x_le | le o papel | OK |
 | 2 | publicou (27.9s) | ACAO: x_fone | celular na mao + toque | OK |
-| 3 | - | INTERACAO | discutir | OK |
-| 4 | - | ATUACAO | discutir | OK |
+| 3 | discutindo (30.1s) | ACAO: g_discutin | g_discutin | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b6 - 32.0s a 36.6s - 12 palavras - plano two
 > "Vários comentaristas leram aquilo como uma ironia, feita para os críticos dele."
@@ -74,7 +76,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | eleição (38.2s) | ACAO: voto | poe o voto na urna | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | - | ATUACAO | reagir | OK |
 | 3 | - | PLACA | REI FILÓSOFO | OK |
 
 ## Cena b8 - 43.3s a 47.9s - 13 palavras - plano two
@@ -90,5 +92,5 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | reagir | OK |
 

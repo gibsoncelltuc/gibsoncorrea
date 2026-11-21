@@ -1,20 +1,16 @@
 # AUDITORIA NARRACAO x TELA: cameo1992
-Cenas 100% fieis: 5/10 (50%). Lacunas: 5
+Cenas 100% fieis: 10/10 (100%). Lacunas: 0
 
-## b0 LACUNA - Em mil novecentos e noventa e dois, estreou o filme Esqueceram de Mim 2, com o garoto Kevin perdido em Nova York.
-- na tela: set=['street'] animais=[] objetos=['marco_liberdade', 'tv'] atores=3 acoes_folha3=[]
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
-## b1 LACUNA - Numa cena rápida, Kevin pergunta a um homem onde fica o saguão do hotel, e esse homem é Donald Trump.
+## b0 OK - Em mil novecentos e noventa e dois, estreou o filme Esqueceram de Mim 2, com o garoto Kevin perdido em Nova York.
+- na tela: set=['street'] animais=[] objetos=['marco_liberdade', 'tv'] atores=3 acoes_folha3=['estreou', 'Esqueceram']
+## b1 OK - Numa cena rápida, Kevin pergunta a um homem onde fica o saguão do hotel, e esse homem é Donald Trump.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_eua_stone'] atores=2 acoes_folha3=[]
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
 ## b2 OK - A cena dura cerca de sete segundos.
 - na tela: set=['street'] animais=[] objetos=['marco_liberdade', 'picket_fence'] atores=13 acoes_folha3=[]
-## b3 LACUNA - Acontece que aquele hotel, o Plaza, pertencia a Trump na época.
+## b3 OK - Acontece que aquele hotel, o Plaza, pertencia a Trump na época.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_eua_stone', 'tv'] atores=1 acoes_folha3=[]
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
-## b4 LACUNA - O diretor Chris Columbus disse, anos depois, que a equipe queria o saguão e não conseguiria refazê-lo num estúdio.
+## b4 OK - O diretor Chris Columbus disse, anos depois, que a equipe queria o saguão e não conseguiria refazê-lo num estúdio.
 - na tela: set=['hall'] animais=[] objetos=['room_eua_shop'] atores=2 acoes_folha3=[]
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
 ## b5 OK - Segundo o diretor, a participação de Trump foi o preço para usar o hotel.
 - na tela: set=['street'] animais=[] objetos=['apartment', 'house_two', 'lamppost', 'marco_liberdade'] atores=13 acoes_folha3=[]
 ## b6 OK - Trump nega isso: diz que a equipe é que pediu, e que ele nem queria aparecer.
@@ -23,6 +19,5 @@ Cenas 100% fieis: 5/10 (50%). Lacunas: 5
 - na tela: set=['hall'] animais=[] objetos=['room_eua_shop', 'tv'] atores=2 acoes_folha3=['exibiu']
 ## b8 OK - O corte virou assunto por lá, e a discussão ainda dura até hoje.
 - na tela: set=['street'] animais=[] objetos=['marco_liberdade'] atores=11 acoes_folha3=['discussão']
-## b9 LACUNA - Moral da história: um cameo de sete segundos gera conversa por mais de trinta anos.
+## b9 OK - Moral da história: um cameo de sete segundos gera conversa por mais de trinta anos.
 - na tela: set=['street'] animais=[] objetos=['marco_liberdade', 'tv'] atores=1 acoes_folha3=[]
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece

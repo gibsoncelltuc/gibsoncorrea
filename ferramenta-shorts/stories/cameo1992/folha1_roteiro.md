@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Em mil novecentos e noventa e dois, estreou o filme Esqueceram de Mim 2, com o garoto Kevin perdido em Nova York.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_estreou (point) @7 -> acao + som de efeito; encena: g_esquecer (point) @10 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: NOVA YORK
 - Funcao na historia: GANCHO

@@ -7,12 +7,12 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | stadium | two | 14 | conversar, INTERAGEM: aproxima-se, alguem chega andando | kit/trave, kit/ball | - | -
 b1 | street | reveal | 10 | discutir | kit/volcano, buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
 b2 | stadium | reveal | 16 | parados (so fala e pisca) | kit/trave, kit/ball | - | -
-b3 | stadium | crowd | 12 | comemorar, batalha | kit/trave, kit/kettle, buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
+b3 | stadium | crowd | 8 | comemorar, batalha | kit/trave, kit/kettle, buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
 b4 | street | two | 2 | discutir, INTERAGEM: discutir | kit/volcano | - | -
-b5 | interior madeira | two | 2 | reagir, INTERAGEM: susto | - | paper | -
+b5 | interior madeira | two | 2 | conversar, INTERAGEM: susto | - | paper | -
 b6 | stadium | two | 2 | comemorar, INTERAGEM: pular | kit/trave, kit/ball | - | -
-b7 | street | crowd | 22 | batalha | vehicles/tank, vehicles/airplane, kit/volcano | - | -
-b8 | street | two | 2 | discutir, INTERAGEM: avanca e o outro recua | kit/volcano | paper | -
+b7 | street | crowd | 22 | encena, batalha | vehicles/tank, vehicles/airplane, kit/volcano | - | -
+b8 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/volcano | paper | -
 b9 | stadium | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/trave, kit/ball | - | -
 
 OBJETO HEROI: kit/ball - aparece em 4 cena(s), close nele em 2

@@ -71,7 +71,10 @@
     "ding@30",
     "whoosh@50"
    ],
-   "say": "Elon Musk prometeu um carro que voa. Em outubro de dois mil e vinte e seis, ele mostrou o que conseguiu."
+   "say": "Elon Musk prometeu um carro que voa. Em outubro de dois mil e vinte e seis, ele mostrou o que conseguiu.",
+   "verbos_ok": [
+    "mostr"
+   ]
   },
   {
    "shot": "reveal",

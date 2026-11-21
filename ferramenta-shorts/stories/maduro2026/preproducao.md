@@ -9,7 +9,7 @@ b1 | street | reveal | 8 | reagir | buildings/apartment, buildings/house_two, na
 b2 | street | two | 2 | discutir, INTERAGEM: discutir | - | - | -
 b3 | interior pedra | two | 2 | conversar, INTERAGEM: cochichar | - | paper | -
 b4 | mountain | crowd | 17 | batalha | kit/helicopter_air | - | -
-b5 | outback | low | 1 | conversar | kit/helicopter_air | - | -
+b5 | outback | low | 1 | reagir | kit/helicopter_air | - | -
 b6 | outback | track | 2 | encena, andando | - | - | -
 b7 | interior pedra | two | 2 | conversar, INTERAGEM: avanca e o outro recua | - | - | -
 b8 | street | two | 2 | conversar, INTERAGEM: entregar | kit/scroll, vehicles/airplane | - | -

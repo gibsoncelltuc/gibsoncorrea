@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Alguns dias depois, trocou por uma frase mais longa: o ditador mais legal do mundo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_trocou (reach) @3 -> acao + som de efeito
 - Efeito visual marcado: burst@30
 - Texto na tela: O DITADOR MAIS LEGAL DO MUNDO
 - Funcao na historia: GRANDE MOMENTO
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que a notícia se espalhou pelo mundo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_espalhou (reach) @5 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: MUNDO
 - Funcao na historia: VIRADA
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Um jornal de cada país publicou a frase, e muita gente ficou discutindo se era piada ou não.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_le (think) @1 -> acao + som de efeito; encena: x_fone (lift) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_le (think) @1 -> acao + som de efeito; encena: x_fone (lift) @5 -> acao + som de efeito; encena: g_discutin (point) @12 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

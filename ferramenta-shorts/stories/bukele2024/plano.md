@@ -4,11 +4,11 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | -  | interior, placa: 2024, objeto na mao | - | -
 b1 | reveal | -  | tropa, mapa | - | -
-b2 | two | -  | interior | - | -
+b2 | two | -  | interior | encena: g_prometen (point) @15 (acao + som de efeito) | -
 b3 | two | -  | interior, objeto na mao | encena: x_solta (up) @21 (acao + som de efeito) | -
-b4 | crowd | -  | batalha aberta com tiros, tropa, objeto na mao | ilegal (ring + som de alerta); encena: duvida (shrug) @8 (acao + som de efeito) | -
+b4 | crowd | -  | batalha aberta com tiros, tropa, objeto na mao | ilegal (ring + som de alerta); encena: duvida (shrug) @8 (acao + som de efeito); encena: g_defendeu (point) @11 (acao + som de efeito) | -
 b5 | two | -  | - | encena: voto (reach) @3 (acao + som de efeito) | -
-b6 | close | -  | interior, objeto na mao | - | -
+b6 | close | -  | interior, objeto na mao | encena: g_impressi (point) @4 (acao + som de efeito) | -
 b7 | crowd | -  | batalha aberta com tiros, tropa, placa: 84,6% | (rosto) laugh (expr + som de efeito); encena: vence (up) @6 (acao + som de efeito) | -
 b8 | two | -  | objeto na mao | encena: voto (reach) @5 (acao + som de efeito) | -
 b9 | two | -  | - | encena: protesto (up) @5 (acao + som de efeito) | -

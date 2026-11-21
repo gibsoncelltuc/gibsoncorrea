@@ -17,7 +17,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): SUL (variante 0, expressao neutral); POV (variante 1, expressao neutral) | multidao: 8 de POV
-- Animacao: -
+- Animacao: conversar
 - Objetos/modelos: kit/marco_zanzibar
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): africa, costa, ilha
 - RISCOS: nenhum
@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Acontece que, às nove e dois, os navios ingleses abriram fogo. O palác...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: palace | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): ING (variante 0, expressao stern); GUA (variante 0, expressao shock) | multidao: 20 de ING/GUA
@@ -84,10 +84,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Às nove e quarenta, o palácio se rendeu, e os canhões pararam.
 - Cenario: hall | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): GUA (variante 0, expressao pained, segura flag); ING (variante 1, expressao stern) | multidao: 5 de GUA/ING/POV
-- Animacao: conversar | interacao: vai ate o outro
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): GUA (variante 0, expressao pained, segura flag); ING (variante 1, expressao stern) | multidao: 10 de GUA/ING/POV
+- Animacao: encena
 - Objetos/modelos: cannon, buildings/castle_tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canhoes, nove, palacio
 - RISCOS: nenhum
@@ -97,7 +97,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (3): SUL2 (variante 0, expressao smile); ING (variante 0, expressao grin); POV (variante 0, expressao nervous)
-- Animacao: conversar | interacao: aproxima-se
+- Animacao: conversar | interacao: vai ate o outro
 - Objetos/modelos: kit/marco_zanzibar
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ingleses, trono
 - RISCOS: nenhum
@@ -107,7 +107,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): ALM (variante 0, expressao grin)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balas
 - RISCOS: nenhum
@@ -127,8 +127,8 @@ buildings/castle_tower | b8 | pronto | conferir na folha de contato se le bem; s
 
 
 ## Video inteiro
-- Objeto heroi: cannon | grandes momentos: b4, b6 | planos abertos: 3 | mistura: close 15% | medio 68% | aberto 13% | detalhe 4%
-- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b3 insiste, b8 vai ate o outro, b9 aproxima-se
+- Objeto heroi: cannon | grandes momentos: b4, b6 | planos abertos: 4 | mistura: close 15% | medio 62% | aberto 21% | detalhe 2%
+- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b3 insiste, b9 vai ate o outro
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

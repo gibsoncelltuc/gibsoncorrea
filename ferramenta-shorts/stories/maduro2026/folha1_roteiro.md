@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do país.
 - Som ambiente: birds
 - Efeitos sonoros marcados: sting@20, thump@40
-- Efeito + som nas palavras-chave: encena: atira @3 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: atira @3 -> acao + som de efeito; encena: g_desligar (reach) @5 -> acao + som de efeito
 - Efeito visual marcado: ring@20, puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Trump acompanhou tudo de longe, na Flórida, ao lado do diretor da CIA e do secretário de Estado.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_acompanh (point) @1 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Nenhum militar americano morreu. A notícia parou o mundo, e dividiu opiniões entre países.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; encena: g_dividiu (reach) @10 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: MUNDO
 - Funcao na historia: GRANDE MOMENTO

@@ -85,27 +85,46 @@
    },
    "mapa": "HOLANDA",
    "mapa_at": 3,
-   "say": "Era mil setecentos e oitenta e quatro. A Holanda tinha fechado um rio, e nenhum navio estrangeiro passava por ali."
+   "say": "Era mil setecentos e oitenta e quatro. A Holanda tinha fechado um rio, e nenhum navio estrangeiro passava por ali.",
+   "verbos_ok": [
+    "passa"
+   ]
   },
   {
    "shot": "two",
-   "interior": "pedra",
    "who": [
     "IMP:0:angry",
     "GEN:0:nervous"
    ],
    "acao": "discutir",
-   "say": "O imperador da Áustria ficou furioso. Ele queria o rio aberto para os navios dele."
+   "say": "O imperador da Áustria ficou furioso. Ele queria o rio aberto para os navios dele.",
+   "set": "harbor",
+   "props": [
+    [
+     "ship",
+     4,
+     -14,
+     0.9
+    ]
+   ]
   },
   {
    "shot": "two",
-   "interior": "pedra",
    "who": [
     "IMP:0:shout",
     "GEN:0:scared:paper"
    ],
    "interacao": "reverencia",
-   "say": "\"Mandem três navios\", ordenou ele. \"Os holandeses não vão ter coragem de atirar.\""
+   "say": "\"Mandem três navios\", ordenou ele. \"Os holandeses não vão ter coragem de atirar.\"",
+   "set": "medieval",
+   "props": [
+    [
+     "ship",
+     4,
+     -14,
+     0.9
+    ]
+   ]
   },
   {
    "shot": "reveal",
@@ -241,7 +260,8 @@
     ]
    ],
    "say": "Ninguém morreu. Só o almoço.",
-   "hora": "dia"
+   "hora": "dia",
+   "set": "countryside"
   }
  ]
 }

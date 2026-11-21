@@ -71,7 +71,10 @@
    ],
    "say": "Duas palavras transformaram um empresário de Nova York numa estrela da televisão mundial: você está demitido.",
    "detalhe": false,
-   "encena": false
+   "encena": false,
+   "verbos_ok": [
+    "trans"
+   ]
   },
   {
    "shot": "reveal",

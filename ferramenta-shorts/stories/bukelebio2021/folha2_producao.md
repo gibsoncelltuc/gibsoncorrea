@@ -7,7 +7,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 5 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): BUK (variante 0, expressao smug)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/phone
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): celular, descricao, dois, perfil, presidente
 - RISCOS: nenhum
@@ -27,7 +27,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): BUK (variante 0, expressao laugh)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/phone
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): palavra, perfil
 - RISCOS: nenhum
@@ -47,17 +47,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): BUK (variante 0, expressao smug) | multidao: 10 de POV
-- Animacao: -
+- Animacao: encena
 - Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): noticia
 - RISCOS: nenhum
 
 ## Cena b5 - Um jornal de cada país publicou a frase, e muita gente ficou discutind...
 - Cenario: street | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): JOR (variante 0, expressao shock); JOR2 (variante 0, expressao suspicious)
-- Animacao: discutir | interacao: discutir
+- Camera: aereo = -
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): JOR (variante 0, expressao shock); JOR2 (variante 0, expressao suspicious) | multidao: 8 de POV
+- Animacao: conversar
 - Objetos/modelos: kit/phone, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cada, frase, jornal
 - RISCOS: nenhum
@@ -77,7 +77,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (1): BUK (variante 0, expressao grin)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/phone, kit/ballot_box
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, eleicao, perfil
 - RISCOS: nenhum
@@ -97,7 +97,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (1): BUK (variante 0, expressao laugh)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/phone, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
@@ -113,11 +113,13 @@ kit/ballot_box | b7 | pronto | conferir na folha de contato se le bem; se parece
 
 
 ## Video inteiro
-- Objeto heroi: kit/phone | grandes momentos: b1, b3 | planos abertos: 2 | mistura: close 48% | medio 43% | aberto 6% | detalhe 3%
-- Interacoes: b3 entregar, b5 discutir, b6 insiste, b8 vai ate o outro
-- RISCOS GERAIS: nenhum
+- Objeto heroi: kit/phone | grandes momentos: b1, b3 | planos abertos: 3 | mistura: close 48% | medio 34% | aberto 19% | detalhe 0%
+- Interacoes: b3 entregar, b6 insiste, b8 vai ate o outro
+- RISCOS GERAIS: 
+  - objeto heroi (kit/phone) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: objeto heroi (kit/phone) sem close de camera
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh bukelebio2021 bN bM` (so essas cenas).

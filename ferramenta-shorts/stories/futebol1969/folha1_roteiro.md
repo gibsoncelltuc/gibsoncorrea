@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Era mil novecentos e sessenta e nove. Honduras e El Salvador, dois vizinhos, já viviam discutindo por terra e por fronteira.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@70
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_discutin (point) @15 -> acao + som de efeito
 - Efeito visual marcado: puff@70
 - Texto na tela: - | mapa: AMÉRICA CENTRAL
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: No segundo, El Salvador deu o troco. Torcedores discutiram feio nas ruas, e os dois governos trocaram insultos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_entrega (reach) @4 -> acao + som de efeito; encena: g_discutir (point) @8 -> acao + som de efeito; encena: g_trocaram (reach) @16 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Duas semanas depois, tanques e aviões cruzaram a fronteira. A guerra tinha começado.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124
-- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito
+- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; encena: g_cruzaram (point) @6 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: GUERRA
 - Funcao na historia: GRANDE MOMENTO
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Durou cem horas. Os outros países do continente obrigaram os dois a parar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_obrigara (up) @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 100 HORAS
 - Funcao na historia: desenvolvimento

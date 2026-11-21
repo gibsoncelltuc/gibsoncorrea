@@ -8,7 +8,7 @@ b0 | outback | two | 2 | conversar, INTERAGEM: aproxima-se | kit/flamethrower, k
 b1 | countryside | reveal | 10 | conversar | kit/flamethrower, kit/marco_hollywood | - | -
 b2 | mountain | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/flamethrower, kit/marco_hollywood | - | -
 b3 | outback | crowd | 14 | conversar, batalha | kit/flamethrower, kit/marco_hollywood | - | -
-b4 | countryside | wide | 8 | comemorar | kit/extinguisher, kit/marco_hollywood | - | -
+b4 | countryside | wide | 8 | conversar | kit/extinguisher, kit/marco_hollywood | - | -
 b5 | outback | group | 3 | conversar, INTERAGEM: o outro se aproxima | kit/marco_hollywood | - | -
 b6 | mountain | crowd | 32 | reagir, batalha | kit/marco_hollywood, nature/picket_fence | - | -
 b7 | countryside | two | 8 | conversar, INTERAGEM: insiste | kit/globe, kit/marco_hollywood | - | -

@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Uma guerra inteira teve um único tiro, e ele acertou uma chaleira de sopa.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: tiro -> burst + som de tiro/explosao; encena: atira @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: tiro -> burst + som de tiro/explosao; encena: atira @6 -> acao + som de efeito; encena: g_acertou (reach) @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1784
 - Funcao na historia: GANCHO
@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b2  (~5.2 s)
 - Narracao: O imperador da Áustria ficou furioso. Ele queria o rio aberto para os navios dele.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) angry -> expr + som de efeito
 - Efeito visual marcado: -
@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b3  (~4.5 s)
 - Narracao: "Mandem três navios", ordenou ele. "Os holandeses não vão ter coragem de atirar."
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: atirar -> burst + som de tiro/explosao; encena: fala (point) @3 -> acao + som de efeito; encena: atira @12 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Os três navios desceram o rio, com o maior na frente, cheio de soldados e de bandeiras.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_desceram (point) @3 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 3 NAVIOS
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: A bala atravessou o convés, e acertou em cheio a chaleira de sopa do cozinheiro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@20, ding@24
-- Efeito + som nas palavras-chave: bala -> burst + som de tiro/explosao; encena: atira @1 -> acao + som de efeito
+- Efeito + som nas palavras-chave: bala -> burst + som de tiro/explosao; encena: atira @1 -> acao + som de efeito; encena: g_atravess (point) @2 -> acao + som de efeito; encena: g_acertou (reach) @6 -> acao + som de efeito
 - Efeito visual marcado: burst@20, puff@26
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b9  (~1.7 s)
 - Narracao: Ninguém morreu. Só o almoço.
-- Som ambiente: sea
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito
 - Efeito visual marcado: -

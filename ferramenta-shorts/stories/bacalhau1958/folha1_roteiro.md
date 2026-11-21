@@ -4,9 +4,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b0  (~9.0 s)
 - Narracao: Entre mil novecentos e cinquenta e oito e mil novecentos e setenta e seis, a Islândia e a Inglaterra travaram três guerras. Por causa de peixe.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_travaram (point) @19 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 3 GUERRAS | mapa: INGLATERRA
 - Funcao na historia: GANCHO
@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: A Islândia é pequena, e vivia da pesca. Mas barcos ingleses pescavam bacalhau bem pertinho da costa dela.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_pescavam (point) @11 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: BACALHAU
 - Funcao na historia: desenvolvimento
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Então a Islândia aumentou os limites do seu mar: doze milhas, cinquenta, e por fim duzentas.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_aumentou (point) @3 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 200 MILHAS
 - Funcao na historia: desenvolvimento
@@ -60,23 +60,23 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: A Islândia ainda ameaçou fechar a base da Otan no país.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_ameacou (up) @3 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: OTAN
 - Funcao na historia: desenvolvimento
 
 ## Cena b7  (~7.9 s)
 - Narracao: Em mil novecentos e setenta e seis, os ingleses cederam, e a ideia de uma zona de duzentas milhas se espalhou pelo mundo.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: pensa (think) @12 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: pensa (think) @12 -> acao + som de efeito; encena: g_espalhou (reach) @20 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: VITÓRIA ISLANDESA
 - Funcao na historia: desenvolvimento
 
 ## Cena b8  (~5.9 s)
 - Narracao: Foi uma guerra de navios batendo e de redes cortadas, e tudo por causa de um peixe.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: x_bate (punch) @5 -> acao + som de efeito; encena: x_fone (lift) @8 -> acao + som de efeito
 - Efeito visual marcado: -
