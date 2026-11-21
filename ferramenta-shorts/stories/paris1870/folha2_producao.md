@@ -109,7 +109,7 @@ nature/picket_fence | b3 | pronto | conferir na folha de contato se le bem; se p
 elephant | b3, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/chest | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/panela | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/elefante | b5 | CAIXOTE: refazer com formas.py | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/elefante | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 wolf | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/balloon_air | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
@@ -117,11 +117,9 @@ kit/balloon_air | b7 | pronto | conferir na folha de contato se le bem; se parec
 ## Video inteiro
 - Objeto heroi: - | grandes momentos: b0, b3 | planos abertos: 2 | mistura: close 3% | medio 84% | aberto 13% | detalhe 0%
 - Interacoes: b1 susto, b2 avanca e o outro recua, b3 discutir, b4 entregar, b5 o outro se aproxima, b6 vai ate o outro, b8 cochichar
-- RISCOS GERAIS: 
-  - objeto montado com caixas (estilo Minecraft): kit/elefante -> CORRECAO: refazer com formas redondas: blender/objetos_<sessao>.py usando blender/formas.py (cil, bola, torno, tubo, arco), mesmo nome de arquivo; rodar o blender e este roteiro de novo
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: objeto montado com caixas (estilo Minecraft): kit/elefante
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh paris1870 bN bM` (so essas cenas).
