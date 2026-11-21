@@ -6,23 +6,23 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Em julho de dois mil e dois, nos Estados Unidos, a empresa eBay anunciou a compra do PayPal.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@6
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: fala (point) @13 -> acao + som de efeito; encena: negocio (reach) @15 -> acao + som de efeito
 - Efeito visual marcado: stars@6
 - Texto na tela: - | mapa: ESTADOS UNIDOS
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~4.1 s)
 - Narracao: O PayPal era um serviço para pagar e receber dinheiro pela internet.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: pagar -> stars + som de sino; dinheiro -> stars + som de sino
+- Efeito + som nas palavras-chave: pagar -> stars + som de sino; dinheiro -> stars + som de sino; encena: paga (reach) @6 -> acao + som de efeito; encena: x_fone (lift) @11 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b2  (~5.2 s)
 - Narracao: O valor do negócio foi de um bilhão e meio de dólares, pagos em ações.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: ding@5
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@5
@@ -42,14 +42,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Com o dinheiro da venda, ele pôde investir em novos projetos, como a SpaceX e a Tesla.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@3
-- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino
+- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino; encena: paga (reach) @2 -> acao + som de efeito; encena: negocio (reach) @4 -> acao + som de efeito
 - Efeito visual marcado: stars@3
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b5  (~4.1 s)
 - Narracao: A SpaceX foi fundada naquele mesmo ano, em dois mil e dois.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: whoosh@4
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: burst@4
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Uma venda de internet que ajudou a pagar foguetes e carros elétricos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@3
-- Efeito + som nas palavras-chave: pagar -> stars + som de sino
+- Efeito + som nas palavras-chave: pagar -> stars + som de sino; encena: negocio (reach) @1 -> acao + som de efeito; encena: x_fone (lift) @3 -> acao + som de efeito; encena: paga (reach) @7 -> acao + som de efeito
 - Efeito visual marcado: stars@3
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL
