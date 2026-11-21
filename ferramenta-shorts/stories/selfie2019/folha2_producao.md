@@ -14,10 +14,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b1 - Foi em setembro de dois mil e dezenove, na Assembleia Geral da ONU, em...
 - Cenario: street | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
-- Animacao: - | batalha encenada
+- Animacao: -
 - Objetos/modelos: kit/marco_onu
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): assembleia, dois
 - RISCOS: nenhum
@@ -53,12 +53,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Virou de costas para a plateia, e tirou uma selfie com o plenário inte...
-- Cenario: interior madeira | luz: day | clima: limpo
-- Camera: low = camera baixa, dramatica (virada)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (1): DIP (variante 0, expressao shock)
-- Animacao: reagir
-- Objetos/modelos: kit/phone
+- Cenario: street | luz: day | clima: limpo
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (2): BUK (variante 0, expressao grin); POV (variante 1, expressao surprised) | multidao: 30 de POV
+- Animacao: tirar | batalha encenada
+- Objetos/modelos: kit/phone, kit/marco_onu
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): costas, plateia, plenario, selfie
 - RISCOS: nenhum
 
@@ -74,7 +74,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - E ele tinha razão. A foto rodou o planeta em poucas horas.
 - Cenario: street | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao laugh); POV (variante 1, expressao surprised); REP (variante 0, expressao grin) | multidao: 20 de POV
 - Animacao: comemorar | batalha encenada
@@ -118,12 +118,12 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/phone | b0, b3, b4, b5, b6, b7, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_onu | b0, b1, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_onu | b0, b1, b5, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/globe | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/phone | grandes momentos: b1, b7 | planos abertos: 2 | mistura: close 22% | medio 69% | aberto 6% | detalhe 2%
+- Objeto heroi: kit/phone | grandes momentos: b5, b7 | planos abertos: 3 | mistura: close 22% | medio 64% | aberto 12% | detalhe 2%
 - Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b3 cochichar, b6 pular, b8 discutir, b9 insiste
 - RISCOS GERAIS: nenhum
 

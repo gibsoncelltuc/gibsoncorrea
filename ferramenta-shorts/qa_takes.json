@@ -78,80 +78,87 @@
    ]
   },
   {
+   "f": 1703,
+   "shot": "b9",
+   "why": [
+    "pil: head/torso cropped (box -0.091, 0.439, 0.187, 0.814)"
+   ]
+  },
+  {
    "f": 1704,
    "shot": "b9",
    "why": [
-    "pil: head/torso cropped (box -0.021, 0.472, 0.206, 0.786)"
+    "pil: head/torso cropped (box -0.127, 0.439, 0.151, 0.815)"
    ]
   },
   {
    "f": 1708,
    "shot": "b9",
    "why": [
-    "pil: head/torso cropped (box -0.14, 0.471, 0.096, 0.788)"
+    "pil: head/torso cropped (box -0.269, 0.438, 0.023, 0.817)"
    ]
   },
   {
    "f": 1712,
    "shot": "b9",
    "why": [
-    "pil: head/torso cropped (box -0.272, 0.455, 0.066, 0.79)"
+    "pil: head/torso cropped (box -0.426, 0.42, -0.012, 0.819)"
    ]
   },
   {
    "f": 1716,
    "shot": "b9",
    "why": [
-    "pil: head/torso cropped (box -0.388, 0.446, -0.113, 0.789)"
+    "pil: head/torso cropped (box -0.563, 0.409, -0.22, 0.818)"
    ]
   },
   {
    "f": 1720,
    "shot": "b9",
    "why": [
-    "pil: head/torso cropped (box -0.537, 0.443, -0.248, 0.788)"
+    "pil: head/torso cropped (box -0.74, 0.406, -0.376, 0.816)"
    ]
   },
   {
    "f": 1724,
    "shot": "b9",
    "why": [
-    "pil: head/torso cropped (box -0.696, 0.443, -0.395, 0.783)"
+    "pil: head/torso cropped (box -0.925, 0.407, -0.545, 0.809)"
    ]
   },
   {
    "f": 1728,
    "shot": "b9",
    "why": [
-    "pil: head/torso cropped (box -0.835, 0.454, -0.53, 0.779)"
+    "pil: head/torso cropped (box -1.086, 0.42, -0.698, 0.804)"
    ]
   },
   {
    "f": 1732,
    "shot": "b9",
    "why": [
-    "pil: head/torso cropped (box -0.95, 0.463, -0.647, 0.781)"
+    "pil: head/torso cropped (box -1.221, 0.431, -0.833, 0.806)"
    ]
   },
   {
    "f": 1736,
    "shot": "b9",
    "why": [
-    "pil: head/torso cropped (box -1.038, 0.462, -0.725, 0.777)"
+    "pil: head/torso cropped (box -1.319, 0.43, -0.92, 0.801)"
    ]
   },
   {
    "f": 1740,
    "shot": "b9",
    "why": [
-    "pil: head/torso cropped (box -1.158, 0.461, -0.832, 0.777)"
+    "pil: head/torso cropped (box -1.46, 0.43, -1.042, 0.8)"
    ]
   },
   {
    "f": 1742,
    "shot": "b9",
    "why": [
-    "pil: head/torso cropped (box -1.262, 0.46, -0.81, 0.781)"
+    "pil: head/torso cropped (box -1.588, 0.429, -1.011, 0.806)"
    ]
   }
  ],

@@ -11,8 +11,8 @@ b3 | harbor | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/roadster
 b4 | street | crowd | 23 | reagir, batalha | kit/falcon_air, kit/marco_canaveral, kit/rocket | - | -
 b5 | interior loja | two | 2 | conversar, INTERAGEM: insiste | kit/roadster | - | -
 b6 | street | group | 6 | reagir | kit/roadster, kit/marco_canaveral | - | -
-b7 | arctic | group | 2 | conversar, INTERAGEM: vai ate o outro | kit/globe, kit/roadster | - | -
-b8 | arctic | group | 2 | conversar, INTERAGEM: aproxima-se | kit/roadster | - | -
+b7 | arctic | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/roadster, kit/globe | - | -
+b8 | arctic | low | 2 | conversar, INTERAGEM: aproxima-se | kit/roadster | - | -
 b9 | arctic | orbit | 21 | comemorar, batalha | kit/rocket, kit/roadster | - | -
 
 OBJETO HEROI: kit/roadster - aparece em 8 cena(s), close nele em 3

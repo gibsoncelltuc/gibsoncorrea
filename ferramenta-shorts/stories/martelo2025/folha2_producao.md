@@ -4,8 +4,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Para destruir um bunker escondido dentro de uma montanha, os Estados U...
 - Cenario: mountain | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): TRU (variante 0, expressao stern); GEN (variante 0, expressao stern)
 - Animacao: conversar | interacao: o outro se aproxima | o ultimo personagem ENTRA andando
 - Objetos/modelos: kit/bunker_bomb, kit/b2_air, kit/marco_mesquita
@@ -74,8 +74,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Acontece que, de madrugada, os aviões soltaram catorze bombas. Doze de...
 - Cenario: mountain | luz: noite | clima: limpo
-- Camera: low = camera baixa, dramatica (virada) + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: low = camera baixa, dramatica (virada)
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (1): PIL (variante 0, expressao stern)
 - Animacao: conversar
 - Objetos/modelos: kit/b2_air, kit/mountain_bunker, kit/marco_mesquita, vehicles/airplane, kit/bunker_bomb
@@ -94,7 +94,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Todos os aviões voltaram para casa.
 - Cenario: countryside | luz: dia | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto
 - Personagens principais (2): PIL (variante 0, expressao smile); GEN (variante 0, expressao grin)
 - Animacao: conversar | interacao: vai ate o outro
@@ -148,7 +148,7 @@ nature/tree_oak | b9 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/bunker_bomb | grandes momentos: b5, b11 | planos abertos: 3 | mistura: close 29% | medio 52% | aberto 11% | detalhe 9%
+- Objeto heroi: kit/bunker_bomb | grandes momentos: b5, b11 | planos abertos: 3 | mistura: close 31% | medio 55% | aberto 11% | detalhe 3%
 - Interacoes: b0 o outro se aproxima, b2 discutir, b4 entregar, b6 cochichar, b8 insiste, b9 vai ate o outro, b10 aproxima-se
 - RISCOS GERAIS: nenhum
 

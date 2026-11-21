@@ -74,17 +74,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - O Roadster saiu da órbita da Terra, e seguiu em órbita ao redor do Sol...
 - Cenario: arctic | luz: noite | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ENG (variante 0, expressao surprised); MUS (variante 0, expressao smile)
 - Animacao: conversar | interacao: vai ate o outro
-- Objetos/modelos: kit/globe, kit/roadster
+- Objetos/modelos: kit/roadster, kit/globe
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): orbita, roadster, terra
 - RISCOS: nenhum
 
 ## Cena b8 - E ele continua lá em cima, dando voltas, até hoje.
 - Cenario: arctic | luz: noite | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Camera: low = camera baixa, dramatica (virada)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): MUS (variante 0, expressao smile); STA (variante 0, expressao grin)
 - Animacao: conversar | interacao: aproxima-se

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 28 - A Selfie na ONU
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.8s - 16 palavras - plano two
@@ -17,13 +17,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 6 | - | CHEGADA | alguem entra andando | OK |
 | 7 | - | PLACA | 2019 | OK |
 
-## Cena b1 - 5.9s a 9.8s - 16 palavras - plano crowd
+## Cena b1 - 5.9s a 9.8s - 16 palavras - plano reveal
 > "Foi em setembro de dois mil e dezenove, na Assembleia Geral da ONU, em Nova York."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | MAPA | ESTADOS UNIDOS | OK |
+| 1 | - | MAPA | ESTADOS UNIDOS | OK |
 
 ## Cena b2 - 10.9s a 15.1s - 13 palavras - plano two
 > "Ali, os líderes de quase todos os países fazem discursos longos e sérios."
@@ -51,13 +50,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | EMOCAO: pleading | o rosto vira "pleading" na palavra | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b5 - 28.8s a 32.6s - 15 palavras - plano low
+## Cena b5 - 28.8s a 32.6s - 15 palavras - plano crowd
 > "Virou de costas para a plateia, e tirou uma selfie com o plenário inteiro atrás."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | tirou (30.7s) | ACAO: tira | tira foto (celular + flash) | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 2 | - | ATUACAO | tirar | OK |
 
 ## Cena b6 - 33.6s a 38.2s - 15 palavras - plano two
 > "Depois, brincou: acreditem, muito mais gente vai ver essa selfie do que ouvir este discurso."
@@ -68,7 +67,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | pular | OK |
 | 3 | - | ATUACAO | comemorar | OK |
 
-## Cena b7 - 39.5s a 43.1s - 12 palavras - plano crowd
+## Cena b7 - 39.5s a 43.1s - 12 palavras - plano orbit
 > "E ele tinha razão. A foto rodou o planeta em poucas horas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
