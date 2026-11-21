@@ -23,12 +23,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Na mata de Aroostook, lenhadores americanos e ingleses cortavam as mes...
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): AME (variante 0, expressao smug); CAN (variante 0, expressao smug)
 - Animacao: discutir | interacao: vai ate o outro
-- Objetos/modelos: nature/tree_pine, kit/logs, nature/tree_oak, nature/bush
+- Objetos/modelos: kit/logs, mk/Axe_Bronze, nature/tree_pine, nature/tree_oak, nature/bush
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aroostook, madeira, mata, mesmas
 - RISCOS: nenhum
 
@@ -58,7 +58,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): AME (variante 0, expressao scared); ING (variante 0, expressao smug)
 - Animacao: conversar | interacao: empurrar
-- Objetos/modelos: -
+- Objetos/modelos: kit/prison
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): agente, clima, maine
 - RISCOS: nenhum
 
@@ -72,24 +72,24 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): general, governo
 - RISCOS: nenhum
 
-## Cena b7 - Ele convenceu os dois lados a parar, e ninguém atirou um único tiro.
+## Cena b7 - Ele convenceu os dois lados a parar, e a história terminou sem um únic...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): GEN (variante 0, expressao smile, segura paper); PRE (variante 0, expressao relief)
-- Animacao: conversar | interacao: entregar
+- Animacao: discutir | interacao: entregar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, parar
 - RISCOS: nenhum
 
-## Cena b8 - Alguns anos depois, um tratado dividiu a mata, e a fronteira ficou def...
+## Cena b8 - Alguns anos depois, as duas nações assinaram um tratado que dividiu o ...
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): PRE (variante 0, expressao smug, segura paper); PRE (variante 1, expressao smile)
 - Animacao: conversar | interacao: entregar
 - Objetos/modelos: kit/scroll
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fronteira, mata, tratado
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): duas, fronteira, territorio, tratado
 - RISCOS: nenhum
 
 ## Cena b9 - Chamaram de Guerra do Porco com Feijão, porque era só isso que as trop...
@@ -97,7 +97,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): AME (variante 0, expressao smile); AME (variante 1, expressao grin) | multidao: 10 de POV
-- Animacao: -
+- Animacao: conversar
 - Objetos/modelos: kit/logs, nature/tree_pine, pig
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): feijao, porco, tropas
 - RISCOS: nenhum
@@ -109,14 +109,16 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/logs | b0, b2, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_pine | b0, b2, b3, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+mk/Axe_Bronze | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/bush | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/prison | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/scroll | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 pig | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/logs | grandes momentos: b3, b4 | planos abertos: 4 | mistura: close 4% | medio 67% | aberto 24% | detalhe 5%
+- Objeto heroi: kit/logs | grandes momentos: b3, b4 | planos abertos: 4 | mistura: close 3% | medio 68% | aberto 23% | detalhe 5%
 - Interacoes: b0 discutir, b2 vai ate o outro, b5 empurrar, b6 cochichar, b7 entregar, b8 entregar
 - RISCOS GERAIS: nenhum
 
