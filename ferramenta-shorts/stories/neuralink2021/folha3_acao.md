@@ -14,12 +14,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | 2021 | OK |
 
-## Cena b1 - 7.0s a 11.4s - 18 palavras - plano reveal
+## Cena b1 - 7.0s a 11.4s - 18 palavras - plano crowd
 > "Foi em abril de dois mil e vinte e um, nos Estados Unidos. A empresa se chama Neuralink."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | MAPA | ESTADOS UNIDOS | OK |
+| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | - | MAPA | ESTADOS UNIDOS | OK |
 
 ## Cena b2 - 12.7s a 17.0s - 19 palavras - plano two
 > "A ideia é um chip implantado no cérebro, que lê os sinais dos neurônios e manda para o computador."
@@ -85,13 +86,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | entregar | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 62.5s a 66.2s - 13 palavras - plano orbit
+## Cena b10 - 62.5s a 66.2s - 13 palavras - plano two
 > "Ele não mexia o corpo do pescoço para baixo. E voltou a jogar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | comemorar | OK |
-| 2 | - | PLACA | XADREZ | OK |
+| 1 | - | INTERACAO | insiste | OK |
 
 ## Cena b11 - 67.3s a 71.5s - 16 palavras - plano close
 > "E tudo começou com um macaco, um videogame antigo, e um copo de vitamina de banana."

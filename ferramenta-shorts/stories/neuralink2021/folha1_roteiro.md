@@ -13,12 +13,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b1  (~6.2 s)
 - Narracao: Foi em abril de dois mil e vinte e um, nos Estados Unidos. A empresa se chama Neuralink.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
+- Efeito visual marcado: ring@12, dust@40
 - Texto na tela: - | mapa: ESTADOS UNIDOS
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b2  (~6.6 s)
 - Narracao: A ideia é um chip implantado no cérebro, que lê os sinais dos neurônios e manda para o computador.
@@ -95,11 +95,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 ## Cena b10  (~4.5 s)
 - Narracao: Ele não mexia o corpo do pescoço para baixo. E voltou a jogar.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: ding@20, ding@60
+- Efeitos sonoros marcados: ding@40
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: stars@20, stars@60
-- Texto na tela: XADREZ
-- Funcao na historia: GRANDE MOMENTO
+- Efeito visual marcado: stars@40
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
 
 ## Cena b11  (~5.5 s)
 - Narracao: E tudo começou com um macaco, um videogame antigo, e um copo de vitamina de banana.

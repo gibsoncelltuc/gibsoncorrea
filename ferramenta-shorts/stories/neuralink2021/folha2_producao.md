@@ -14,10 +14,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b1 - Foi em abril de dois mil e vinte e um, nos Estados Unidos. A empresa s...
 - Cenario: street | luz: day | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
-- Animacao: -
+- Animacao: - | batalha encenada
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, empresa, estados
 - RISCOS: nenhum
@@ -103,12 +103,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b10 - Ele não mexia o corpo do pescoço para baixo. E voltou a jogar.
-- Cenario: street | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): NOL (variante 0, expressao laugh); CIE (variante 0, expressao laugh); CIM (variante 0, expressao grin) | multidao: 18 de POV
-- Animacao: comemorar | batalha encenada
-- Objetos/modelos: -
+- Cenario: interior loja | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Personagens principais (2): NOL (variante 0, expressao smile); CIE (variante 0, expressao happy)
+- Animacao: - | interacao: insiste
+- Objetos/modelos: kit/chess_pc
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): corpo, jogar, pescoco
 - RISCOS: nenhum
 
@@ -128,13 +128,13 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/monkey_pong | b0, b3, b4, b5, b6, b7, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/chess_pc | b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/chess_pc | b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/phone | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/monkey_pong | grandes momentos: b7, b10 | planos abertos: 3 | mistura: close 18% | medio 65% | aberto 11% | detalhe 6%
-- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b5 cochichar, b8 discutir, b9 entregar
+- Objeto heroi: kit/monkey_pong | grandes momentos: b1, b7 | planos abertos: 2 | mistura: close 19% | medio 69% | aberto 6% | detalhe 6%
+- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b5 cochichar, b8 discutir, b9 entregar, b10 insiste
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

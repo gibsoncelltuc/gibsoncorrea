@@ -63,7 +63,7 @@
      "kit/tequila_bolt",
      0,
      -1.4,
-     1.1
+     1.6500000000000001
     ]
    ],
    "text": "1º DE ABRIL",
@@ -96,31 +96,31 @@
      "kit/tequila_bolt",
      1.4,
      -0.6,
-     0.9
+     1.6500000000000001
     ],
     [
      "kit/tequila_bolt",
      2.3,
      -1.2,
-     0.9
+     1.6500000000000001
     ],
     [
      "kit/tequila_bolt",
      -1.6,
      -0.9,
-     0.9
+     1.6500000000000001
     ],
     [
      "kit/tequila_bolt",
      -2.4,
      -1.5,
-     0.9
+     1.6500000000000001
     ],
     [
      "kit/tequila_bolt",
      0.2,
      -1.8,
-     0.9
+     1.6500000000000001
     ]
    ],
    "acao": "discutir",
@@ -184,7 +184,7 @@
      "kit/tequila_bolt",
      1.6,
      -0.8,
-     1.1
+     1.6500000000000001
     ],
     [
      "kit/veg_cacto",
@@ -211,7 +211,7 @@
    "interior": false
   },
   {
-   "shot": "close",
+   "shot": "two",
    "interior": "loja",
    "who": [
     "FAN:0:surprised"
@@ -219,9 +219,9 @@
    "props": [
     [
      "kit/tequila_bolt",
-     1.6,
-     -0.8,
-     1.1
+     1.0,
+     0.6,
+     2.2
     ]
    ],
    "fx": [
@@ -233,7 +233,9 @@
     "sting@50"
    ],
    "say": "A garrafa era de vidro soprado à mão, em forma de raio, presa num suporte de metal.",
-   "acao": "comemorar"
+   "acao": "comemorar",
+   "shot_lock": true,
+   "detalhe": true
   },
   {
    "shot": "crowd",
@@ -259,7 +261,7 @@
      "kit/tequila_bolt",
      0,
      -3.0,
-     1.4
+     2.0999999999999996
     ]
    ],
    "fx": [
@@ -286,7 +288,7 @@
      "kit/tequila_bolt",
      1.6,
      -0.8,
-     1.1
+     1.6500000000000001
     ]
    ],
    "interacao": "entregar",
@@ -304,7 +306,7 @@
      "kit/tequila_bolt",
      1.6,
      -0.8,
-     1.1
+     1.6500000000000001
     ]
    ],
    "fx": [
@@ -341,7 +343,7 @@
      "kit/tequila_bolt",
      0,
      -3.0,
-     1.4
+     2.0999999999999996
     ]
    ],
    "fx": [
@@ -367,7 +369,7 @@
      "kit/tequila_bolt",
      -1.4,
      -0.8,
-     1.0
+     1.6500000000000001
     ]
    ],
    "acao": "comemorar",
