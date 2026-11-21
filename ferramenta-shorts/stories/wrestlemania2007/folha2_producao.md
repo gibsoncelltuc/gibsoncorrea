@@ -94,9 +94,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - O dono da luta livre saiu do ringue completamente careca.
 - Cenario: stadium | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (2): VIB (variante 0, expressao cry); TRU (variante 0, expressao laugh)
+- Personagens principais (3): VIB (variante 0, expressao cry); TRU (variante 0, expressao laugh); LAS (variante 0, expressao smile)
 - Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/clipper
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dono, luta, ringue
@@ -133,7 +133,7 @@ kit/ring | b5, b6, b7, b8, b10 | pronto | conferir na folha de contato se le bem
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b4, b7 | planos abertos: 3 | mistura: close 22% | medio 68% | aberto 10% | detalhe 0%
+- Objeto heroi: - | grandes momentos: b4, b7 | planos abertos: 3 | mistura: close 27% | medio 63% | aberto 10% | detalhe 0%
 - Interacoes: b0 susto, b2 discutir, b3 cochichar, b5 discutir, b6 susto, b8 discutir, b9 insiste, b10 discutir, b11 pular
 - RISCOS GERAIS: nenhum
 

@@ -86,7 +86,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | discutir | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 53.7s a 56.2s - 10 palavras - plano two
+## Cena b9 - 53.7s a 56.2s - 10 palavras - plano group
 > "O dono da luta livre saiu do ringue completamente careca."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
