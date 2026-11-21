@@ -1,19 +1,19 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 23 - O Martelo da Meia-Noite
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain | 11 cenas, 173 palavras (~60 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain | 13 cenas, 174 palavras (~60 s)
 
 ## Cena b0  (~7.2 s)
-- Narracao: Para destruir um bunker escondido dentro de uma montanha, os Estados Unidos usaram uma bomba que nunca tinha saído do papel.
+- Narracao: Para destruir um bunker escondido dentro de uma montanha, os Estados Unidos usaram uma arma que nunca tinha saído do papel.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: bomba -> burst + som de tiro/explosao; encena: atira @14 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@30
 - Texto na tela: 2025
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~6.2 s)
 - Narracao: Foi em junho de dois mil e vinte e cinco. O alvo eram as usinas nucleares do Irã.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -30,10 +30,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Funcao na historia: desenvolvimento
 
 ## Cena b3  (~7.6 s)
-- Narracao: Só uma arma chegava lá: a bomba antibunker, com mais de treze toneladas. E só um avião carrega essa bomba: o B-2.
-- Som ambiente: birds
+- Narracao: Só uma arma chegava lá: a arma antibunker, com mais de treze toneladas. E só um avião carrega essa arma: o B-2.
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: bomba -> burst + som de tiro/explosao; bomba: -> burst + som de tiro/explosao; encena: atira @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 
 ## Cena b5  (~4.8 s)
 - Narracao: Sete bombardeiros invisíveis decolaram do Missouri, e voaram mais de um dia sem parar.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: whoosh@20, whoosh@50
 - Efeito + som nas palavras-chave: encena: voa (point) @3 -> acao + som de efeito; explosao: 3 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
 - Efeito visual marcado: whoosh@20, whoosh@50
@@ -58,45 +58,63 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 
 ## Cena b6  (~4.1 s)
 - Narracao: Para despistar, outros B-2 foram mandados na direção contrária, para o Pacífico.
-- Som ambiente: birds
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~6.6 s)
-- Narracao: Acontece que, de madrugada, os aviões soltaram catorze bombas. Doze delas em cima de Fordow, pelos respiros do bunker.
-- Som ambiente: birds
+## Cena b7  (~6.9 s)
+- Narracao: Acontece que, de madrugada, os aviões soltaram catorze cargas explosivas. Doze delas em cima de Fordow, pelos respiros do bunker.
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: cannon@25, cannon@45, thump@60
-- Efeito + som nas palavras-chave: bombas -> burst + som de tiro/explosao; encena: x_solta (up) @6 -> acao + som de efeito; encena: atira @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_solta (up) @6 -> acao + som de efeito
 - Efeito visual marcado: burst@25, burst@45, puff@60
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
-## Cena b8  (~5.2 s)
-- Narracao: Um submarino ainda disparou mísseis contra uma terceira usina. Todos os aviões voltaram para casa.
+## Cena b8  (~3.1 s)
+- Narracao: Um submarino ainda lançou mísseis contra uma terceira usina.
+- Som ambiente: sea
+- Efeitos sonoros marcados: cannon@45
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: burst@45
+- Texto na tela: SUBMARINO
+- Funcao na historia: desenvolvimento
+
+## Cena b9  (~2.1 s)
+- Narracao: Todos os aviões voltaram para casa.
+- Som ambiente: birds
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: GRANDE MOMENTO
+
+## Cena b10  (~2.4 s)
+- Narracao: Trump disse que as usinas foram destruídas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: disparou -> burst + som de tiro/explosao; encena: atira @3 -> acao + som de efeito; voltam para casa (saem andando) -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~5.2 s)
-- Narracao: Trump disse que as usinas foram destruídas. Avaliações posteriores discutiram o tamanho real do estrago.
-- Som ambiente: birds
+## Cena b11  (~2.8 s)
+- Narracao: Avaliações posteriores discutiram o tamanho real do estrago.
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@30
 - Texto na tela: FORDOW
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b10  (~4.8 s)
-- Narracao: Foi a primeira vez na história que essa bomba gigante foi usada de verdade.
-- Som ambiente: silencio/sala
+## Cena b12  (~4.8 s)
+- Narracao: Foi a primeira vez na história que essa arma gigante foi usada de verdade.
+- Som ambiente: birds
 - Efeitos sonoros marcados: cannon@40
-- Efeito + som nas palavras-chave: bomba -> burst + som de tiro/explosao; encena: atira @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: burst@40
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL
