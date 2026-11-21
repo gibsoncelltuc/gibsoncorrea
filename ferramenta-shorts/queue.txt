@@ -15,7 +15,7 @@ trumpgame1989
 neuralink2021
 teslaquila2020
 paris1870
-petrich1925
+#DUPLICADO(=cachorro1925, sessao B) petrich1925
 hayha1939
 texel1795
 kiska1943

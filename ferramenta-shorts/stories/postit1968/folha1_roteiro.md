@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b7  (~6.9 s)
 - Narracao: Aí veio a ideia: marcadores com a cola fraca do Silver. Grudam, não caem, e saem sem rasgar a página.
-- Som ambiente: sea
+- Som ambiente: birds
 - Efeitos sonoros marcados: ding@20, sting@40
 - Efeito + som nas palavras-chave: encena: pensa (think) @3 -> acao + som de efeito
 - Efeito visual marcado: stars@20, ring@40

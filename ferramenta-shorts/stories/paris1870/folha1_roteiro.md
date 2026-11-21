@@ -13,9 +13,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b1  (~4.1 s)
 - Narracao: Primeiro, os parisienses comeram os cavalos. Depois, os cachorros e os gatos.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (POV) -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: CAVALOS, CÃES, GATOS
 - Funcao na historia: desenvolvimento
@@ -58,7 +58,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b6  (~3.1 s)
 - Narracao: Tinha até gato com roedores, e pernil de lobo.
-- Som ambiente: sea
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b7  (~3.1 s)
 - Narracao: Para mandar notícias, os parisienses usavam balões e pombos-correio.
-- Som ambiente: sea | batalha: tiros e gritos a cena inteira
+- Som ambiente: birds | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@12, dust@40

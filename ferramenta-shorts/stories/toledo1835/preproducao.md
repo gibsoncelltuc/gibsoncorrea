@@ -11,7 +11,7 @@ b3 | countryside | crowd | 20 | discutir, batalha | - | - | -
 b4 | countryside | orbit | 20 | discutir, batalha | - | - | -
 b5 | countryside | two | 2 | conversar, INTERAGEM: empurrar | - | - | -
 b6 | interior pedra | two | 2 | reagir, INTERAGEM: pedir | - | paper | -
-b7 | jungle | group | 3 | conversar, INTERAGEM: tremem de frio | nature/tree_pine, nature/tree_oak, nature/bush | - | -
+b7 | mountain | group | 3 | conversar, INTERAGEM: tremem de frio | nature/tree_pine, nature/tree_oak, nature/bush | - | -
 b8 | arctic | low | 2 | reagir, INTERAGEM: cochichar | nature/tree_pine, nature/tree_oak, nature/bush | coin | -
 b9 | interior madeira | close | 1 | encena | - | coin | -
 

@@ -165,7 +165,8 @@
     "MIC:1:pained",
     "GOV:0:nervous"
    ],
-   "say": "Ohio ficou com Toledo. Michigan levou, de consolação, um pedaço de floresta gelada que ninguém queria."
+   "say": "Ohio ficou com Toledo. Michigan levou, de consolação, um pedaço de floresta gelada que ninguém queria.",
+   "set": "mountain"
   },
   {
    "shot": "two",
@@ -174,7 +175,8 @@
     "MIC:0:grin"
    ],
    "clima": "neve",
-   "say": "Só que debaixo daquela floresta havia cobre e ferro. Uma fortuna."
+   "say": "Só que debaixo daquela floresta havia cobre e ferro. Uma fortuna.",
+   "set": "arctic"
   },
   {
    "shot": "close",

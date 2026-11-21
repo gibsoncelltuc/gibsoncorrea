@@ -113,7 +113,7 @@
   },
   {
    "shot": "close",
-   "interior": "loja",
+   "interior": "madeira",
    "who": [
     "CIE:0:grin:mug"
    ],
@@ -135,7 +135,7 @@
   },
   {
    "shot": "two",
-   "interior": "loja",
+   "interior": "pedra",
    "who": [
     "CIM:0:suspicious",
     "CIE:0:nervous"
@@ -237,7 +237,7 @@
   },
   {
    "shot": "two",
-   "interior": "loja",
+   "interior": "madeira",
    "who": [
     "NOL:0:grin",
     "CIE:0:surprised"

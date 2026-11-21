@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Ohio ficou com Toledo. Michigan levou, de consolação, um pedaço de flo...
-- Cenario: jungle | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (3): OHI (variante 1, expressao grin); MIC (variante 1, expressao pained); GOV (variante 0, expressao nervous)
