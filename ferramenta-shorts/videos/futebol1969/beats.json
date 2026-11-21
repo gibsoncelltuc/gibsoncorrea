@@ -75,7 +75,7 @@
    },
    "mapa": "AMÉRICA CENTRAL",
    "mapa_at": 3,
-   "say": "Era mil novecentos e sessenta e nove. Honduras e El Salvador, dois vizinhos, já viviam brigando por terra e por fronteira.",
+   "say": "Era mil novecentos e sessenta e nove. Honduras e El Salvador, dois vizinhos, já viviam discutindo por terra e por fronteira.",
    "fx": [
     "puff@70"
    ],
@@ -138,7 +138,7 @@
    ],
    "interacao": "empurrar",
    "acao": "discutir",
-   "say": "No segundo, El Salvador deu o troco. Torcedores brigaram nas ruas, e os dois governos trocaram insultos.",
+   "say": "No segundo, El Salvador deu o troco. Torcedores se empurraram nas ruas, e os dois governos trocaram insultos.",
    "hora": "dia"
   },
   {

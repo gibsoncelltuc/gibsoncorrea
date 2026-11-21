@@ -7,11 +7,11 @@ bitcoin2021
 chaleira1784
 cybertruck2019
 emus1932
-futebol1969
 lancachamas2018
 maduro2026
 reeleicao2024
 roadsterpulo2026
 zanzibar1896
-#PAUSADO ese_buraco
-#PAUSADO ese_titanic
+ese_buraco
+ese_titanic
+futebol1969
