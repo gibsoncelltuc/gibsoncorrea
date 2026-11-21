@@ -137,18 +137,11 @@
   },
   {
    "say": "Naquela época, ele estava prestes a fechar a compra do Twitter, por quarenta e quatro bilhões de dólares.",
-   "shot": "crowd",
+   "shot": "group",
    "who": [
     "MUS:0:smile",
     "FUN:0:neutral"
    ],
-   "crowd": {
-    "n": 8,
-    "outfits": [
-     "POV"
-    ],
-    "march": false
-   },
    "tiros": false,
    "batalha": false,
    "impact": true,
