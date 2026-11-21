@@ -1640,7 +1640,7 @@ for k, b in enumerate(beats):
 _glob = []
 if not any(b.get('mapa') for b in beats): _glob.append(('nenhum mapa no video (o canal situa o lugar com mapa rapido)', '"mapa": "NOME DO LUGAR" na cena 1 ou 2'))
 if sum(1 for b in beats if b.get('impact')) < 2: _glob.append(('menos de 2 grandes momentos', '"batalha": true (ou "impact": true) em duas cenas de acao'))
-if HEROI and not any(b.get('_det_heroi') for b in beats): _glob.append((f'objeto heroi ({HEROI}) sem close de camera', 'por o objeto em "props" de uma cena media de 8+ palavras'))
+if HEROI and not B.get('heroi_sem_close_ok') and not any(b.get('_det_heroi') for b in beats): _glob.append((f'objeto heroi ({HEROI}) sem close de camera', 'por o objeto em "props" de uma cena media de 8+ palavras'))
 _cl = __import__('collections').Counter(_lug(b_) for b_ in beats)
 if len(beats) >= 6 and B.get('variar_cenario') is not False and (len(_cl) < 3 or _cl.most_common(1)[0][1] > len(beats) // 2):
     _glob.append((f'pouca variedade de cenario ({dict(_cl)}): o video fica parecendo todos os outros', 'pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: ' + ', '.join(SETS_X) + ' | interior: madeira, pedra, loja)'))

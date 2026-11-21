@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 07 - A Guerra dos Bolos
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 156 palavras (~54 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 162 palavras (~56 s)
 
 ## Cena b0  (~4.1 s)
 - Narracao: A França invadiu o México por causa de uma conta de confeitaria.
@@ -92,11 +92,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: 600.000
 - Funcao na historia: desenvolvimento
 
-## Cena b10  (~2.1 s)
-- Narracao: Nunca um doce custou tão caro.
+## Cena b10  (~4.1 s)
+- Narracao: Nunca um doce custou tão caro, e o confeiteiro contou as moedas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: moedas -> stars + som de sino; encena: fala (point) @9 -> acao + som de efeito; encena: paga (reach) @11 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

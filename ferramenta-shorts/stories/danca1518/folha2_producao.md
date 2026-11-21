@@ -60,8 +60,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: conversar | interacao: discutir
 - Objetos/modelos: buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, multidao, palco, serio
-- RISCOS: 
-  - acao sem animacao propria: montou -> CORRECAO: mostrar o RESULTADO (objeto em cena, reacao, efeito + som) ou reescrever a frase com acao que a ferramenta faz (andar, chegar, discutir, empurrar, entregar, comemorar, atirar, fugir)
+- RISCOS: nenhum
 
 ## Cena b6 - Foi a pior ideia possível. Com música, mais gente entrou na dança, e m...
 - Cenario: countryside | luz: day | clima: limpo
@@ -119,12 +118,9 @@ nature/lamppost | b5 | pronto | conferir na folha de contato se le bem; se parec
 ## Video inteiro
 - Objeto heroi: - | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 20% | medio 63% | aberto 14% | detalhe 3%
 - Interacoes: b0 susto, b2 aproxima-se, b4 avanca e o outro recua, b5 discutir, b7 o outro se aproxima
-- RISCOS GERAIS: 
-  - video sem objeto heroi -> CORRECAO: "heroi": "kit/<objeto>" no topo do roteiro (modele se nao existir)
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 2 risco(s) em aberto
-- b5: acao sem animacao propria: montou
-- geral: video sem objeto heroi
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh danca1518 bN bM` (so essas cenas).

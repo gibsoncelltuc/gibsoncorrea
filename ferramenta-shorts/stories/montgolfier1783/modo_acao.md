@@ -1,0 +1,3 @@
+# MODO DE ACAO DEFINITIVO: montgolfier1783
+FALHAS: 0  |  AVISOS: 0
+

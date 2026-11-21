@@ -1,0 +1,3 @@
+# MODO DE ACAO DEFINITIVO: wrestlemania2007
+FALHAS: 0  |  AVISOS: 0
+

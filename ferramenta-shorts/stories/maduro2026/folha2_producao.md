@@ -23,12 +23,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Era o presidente venezuelano Nicolás Maduro, acusado pela justiça amer...
-- Cenario: interior madeira | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): MAD (variante 0, expressao smug); POV (variante 0, expressao nervous)
 - Animacao: discutir | interacao: discutir
-- Objetos/modelos: -
+- Objetos/modelos: kit/helicopter_air
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): narcoterrorismo, presidente
 - RISCOS: nenhum
 
@@ -117,7 +117,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/helicopter_air | b0, b4, b5, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/helicopter_air | b0, b2, b4, b5, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/apartment | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -128,11 +128,9 @@ vehicles/airplane | b8 | pronto | conferir na folha de contato se le bem; se par
 ## Video inteiro
 - Objeto heroi: kit/helicopter_air | grandes momentos: b4, b9 | planos abertos: 3 | mistura: close 21% | medio 66% | aberto 10% | detalhe 2%
 - Interacoes: b0 aproxima-se, b2 discutir, b3 cochichar, b6 empurrar, b7 avanca e o outro recua, b8 entregar
-- RISCOS GERAIS: 
-  - objeto heroi (kit/helicopter_air) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: objeto heroi (kit/helicopter_air) sem close de camera
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh maduro2026 bN bM` (so essas cenas).

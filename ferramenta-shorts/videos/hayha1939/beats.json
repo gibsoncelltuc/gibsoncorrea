@@ -177,5 +177,6 @@
    "interior": "madeira"
   }
  ],
- "heroi": null
+ "heroi": null,
+ "variar_cenario": false
 }

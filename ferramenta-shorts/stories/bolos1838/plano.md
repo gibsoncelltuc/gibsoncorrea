@@ -12,7 +12,7 @@ b6 | crowd | -  | batalha aberta com tiros, tropa, placa: A MARINHA | tiros: 5 s
 b7 | orbit | -  | batalha aberta com tiros, tropa | cavalaria: 4 soldados a cavalo (FRA) (acao + som de efeito); tiros: 5 soldados caem no chao (acao + som de efeito); canhões (burst + som de tiro/explosao); encena: atira @1 (acao + som de efeito); encena: g_bombarde (point) @3 (acao + som de efeito); explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) (acao + som de efeito) | -
 b8 | crowd | -  | batalha aberta com tiros, tropa | (rosto) sad (expr + som de efeito); tiros: 5 soldados caem no chao (acao + som de efeito); correu (dust + som de impacto); perdeu (puff + som de baque); tiro (burst + som de tiro/explosao); encena: corre @3 (acao + som de efeito); encena: perde (facepalm) @8 (acao + som de efeito); encena: atira @13 (acao + som de efeito); explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) (acao + som de efeito) | -
 b9 | two | -  | placa: 600.000, objeto na mao | pagou (stars + som de sino); encena: negocio (reach) @4 (acao + som de efeito); encena: sai @13 (acao + som de efeito) | -
-b10 | close | -  | objeto na mao | - | -
+b10 | close | -  | objeto na mao | moedas (stars + som de sino); encena: fala (point) @9 (acao + som de efeito); encena: paga (reach) @11 (acao + som de efeito) | -
 
-Mistura de planos: close 22% | medio 58% | aberto 15% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 25% | medio 56% | aberto 15% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | dentro do padrao do canal

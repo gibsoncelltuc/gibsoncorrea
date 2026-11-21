@@ -1,0 +1,3 @@
+# MODO DE ACAO DEFINITIVO: lancachamas2018
+FALHAS: 0  |  AVISOS: 0
+

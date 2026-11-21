@@ -8,14 +8,14 @@ b0 | mountain | track | 2 | discutir, andando | kit/dog_sit, dog | - | -
 b1 | mountain | reveal | 10 | parados (so fala e pisca) | - | - | -
 b2 | mountain | track | 2 | encena, andando | dog | - | -
 b3 | mountain | track | 2 | encena, andando | dog | - | -
-b4 | mountain | aereo | 12 | encena, batalha | - | - | -
+b4 | mountain | aereo | 12 | encena, batalha | kit/dog_sit | - | -
 b5 | mountain | low | 2 | conversar, INTERAGEM: susto | - | - | -
 b6 | mountain | orbit | 22 | encena, batalha | - | - | -
 b7 | interior madeira | two | 2 | reagir, INTERAGEM: susto | - | paper | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | - | paper | -
 b9 | mountain | close | 1 | reagir | kit/dog_sit, dog | - | -
 
-OBJETO HEROI: kit/dog_sit - aparece em 2 cena(s), close nele em 0  << AVISO: sem close no objeto heroi
+OBJETO HEROI: kit/dog_sit - aparece em 3 cena(s), close nele em 0  << AVISO: sem close no objeto heroi
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b6
 Interacoes entre personagens: b5 susto, b7 susto, b8 entregar
 

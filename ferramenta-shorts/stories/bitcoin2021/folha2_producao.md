@@ -60,8 +60,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: reagir | batalha encenada
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): carteira, governo
-- RISCOS: 
-  - multidao/batalha dentro de sala: nao cabe -> CORRECAO: tirar "interior" desta cena (faz na rua/campo) ou reduzir o "crowd"
+- RISCOS: nenhum
 
 ## Cena b6 - Nas primeiras horas, o aplicativo ficou fora do ar, por excesso de ace...
 - Cenario: interior loja | luz: day | clima: limpo
@@ -110,8 +109,7 @@ kit/coin | b8 | pronto | conferir na folha de contato se le bem; se parecer caix
 - Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b4 entregar, b6 discutir, b8 insiste
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- b5: multidao/batalha dentro de sala: nao cabe
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh bitcoin2021 bN bM` (so essas cenas).

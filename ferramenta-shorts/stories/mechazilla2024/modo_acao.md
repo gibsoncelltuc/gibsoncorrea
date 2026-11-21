@@ -1,0 +1,3 @@
+# MODO DE ACAO DEFINITIVO: mechazilla2024
+FALHAS: 0  |  AVISOS: 0
+

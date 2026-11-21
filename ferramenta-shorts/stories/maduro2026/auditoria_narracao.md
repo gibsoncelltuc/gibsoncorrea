@@ -6,7 +6,7 @@ Cenas 100% fieis: 11/11 (100%). Lacunas: 0
 ## b1 OK - O alvo estava em Caracas, a capital da Venezuela.
 - na tela: set=['street'] animais=[] objetos=['apartment', 'house_two', 'lamppost'] atores=8 acoes_folha3=[]
 ## b2 OK - Era o presidente venezuelano Nicolás Maduro, acusado pela justiça americana de narcoterrorismo.
-- na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_colonial_wood'] atores=2 acoes_folha3=[]
+- na tela: set=['countryside'] animais=[] objetos=['helicopter_air', 'house_small'] atores=2 acoes_folha3=[]
 ## b3 OK - Durante meses, a inteligência americana estudou cada passo dele, em segredo.
 - na tela: set=['hall'] animais=[] objetos=['lupa', 'room_colonial_shop'] atores=2 acoes_folha3=['estudou', 'segredo', 'segredo']
 ## b4 OK - Às duas da manhã, helicópteros levaram os soldados da Força Delta direto para o complexo onde Maduro estava.

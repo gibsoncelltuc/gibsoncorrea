@@ -14,7 +14,7 @@ b6 | harbor | crowd | 20 | encena, batalha | kit/marco_ulua, navios ao fundo | -
 b7 | street | orbit | 22 | reagir, batalha | kit/marco_ulua, cannon | - | -
 b8 | street | crowd | 20 | reagir, batalha | kit/marco_ulua, cannon | - | -
 b9 | countryside | two | 2 | conversar, INTERAGEM: susto | kit/marco_ulua | paper, coin | -
-b10 | street | close | 1 | encena | kit/marco_ulua, kit/cake_table | coin | -
+b10 | street | close | 1 | comemorar | kit/marco_ulua, kit/cake_table, kit/coin | coin | -
 
 OBJETO HEROI: kit/cake_table - aparece em 4 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 3 -> b6, b7, b8

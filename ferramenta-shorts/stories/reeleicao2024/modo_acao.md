@@ -1,0 +1,3 @@
+# MODO DE ACAO DEFINITIVO: reeleicao2024
+FALHAS: 0  |  AVISOS: 0
+

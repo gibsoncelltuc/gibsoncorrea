@@ -170,7 +170,8 @@
    "impact": false,
    "verbos_ok": [
     "lanco"
-   ]
+   ],
+   "riscos_ok": true
   },
   {
    "say": "Nas primeiras horas, o aplicativo ficou fora do ar, por excesso de acessos.",

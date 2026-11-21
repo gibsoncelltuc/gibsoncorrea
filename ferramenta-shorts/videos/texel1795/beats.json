@@ -95,7 +95,8 @@
    "tat": 7,
    "tstyle": "white",
    "set": "arctic",
-   "detalhe": false
+   "detalhe": false,
+   "riscos_ok": true
   },
   {
    "say": "Os navios ficaram presos no gelo, como carros num congestionamento.",
@@ -213,7 +214,7 @@
    "tstyle": "red",
    "light": "arctic",
    "mood": "playful",
-   "batalha": true,
+   "batalha": false,
    "animals": [
     [
      "horse",
@@ -229,7 +230,8 @@
      "stand",
      1.0
     ]
-   ]
+   ],
+   "tiros": false
   },
   {
    "say": "Foram mais de uma dezena de navios capturados por soldados a cavalo.",
@@ -293,5 +295,6 @@
    ]
   }
  ],
- "heroi": null
+ "heroi": null,
+ "variar_cenario": false
 }

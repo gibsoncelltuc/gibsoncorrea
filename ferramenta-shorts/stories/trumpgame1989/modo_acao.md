@@ -1,0 +1,3 @@
+# MODO DE ACAO DEFINITIVO: trumpgame1989
+FALHAS: 0  |  AVISOS: 0
+

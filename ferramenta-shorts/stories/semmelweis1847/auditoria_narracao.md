@@ -10,7 +10,7 @@ Cenas 100% fieis: 12/12 (100%). Lacunas: 0
 ## b3 OK - E acontece que, na ala dos médicos, morriam muito mais mães, de uma febre misteriosa.
 - na tela: set=['hall'] animais=[] objetos=['maca', 'room_hospital'] atores=2 acoes_folha3=['morriam']
 ## b4 OK - As mulheres imploravam de joelhos para não ir para a ala dos médicos.
-- na tela: set=['street'] animais=[] objetos=['marco_viena'] atores=16 acoes_folha3=['imploravam']
+- na tela: set=['street'] animais=[] objetos=['maca', 'marco_viena'] atores=48 acoes_folha3=['imploravam']
 ## b5 OK - Um dia, o amigo dele, Kolletschka, cortou o dedo com um bisturi, examinando um corpo, e morreu da mesma febre.
 - na tela: set=['hall'] animais=[] objetos=['maca', 'room_hospital'] atores=2 acoes_folha3=['cortou', 'examinando', 'morreu', 'morreu']
 ## b6 OK - Semmelweis entendeu tudo: os médicos saíam das autópsias e iam direto para os partos, com as mãos sujas.

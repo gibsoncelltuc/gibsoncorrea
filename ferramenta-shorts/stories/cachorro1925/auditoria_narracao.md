@@ -10,7 +10,7 @@ Cenas 100% fieis: 10/10 (100%). Lacunas: 0
 ## b3 OK - O soldado correu atrás do cachorro, e atravessou a fronteira sem pensar.
 - na tela: set=['street'] animais=['dog'] objetos=[] atores=2 acoes_folha3=['correu', 'correu', 'atravessou']
 ## b4 OK - Do outro lado, uma sentinela búlgara viu um estranho armado, e atirou.
-- na tela: set=['street'] animais=[] objetos=[] atores=12 acoes_folha3=['sentinela', 'viu', 'atirou', 'atirou']
+- na tela: set=['street'] animais=[] objetos=['dog_sit'] atores=12 acoes_folha3=['sentinela', 'viu', 'atirou', 'atirou']
 ## b5 OK - Acontece que o soldado morreu, e a Grécia deu um ultimato furioso à Bulgária.
 - na tela: set=['street'] animais=[] objetos=[] atores=2 acoes_folha3=['morreu', 'morreu', 'deu']
 ## b6 OK - Poucos dias depois, o exército grego invadiu a Bulgária e ocupou a região de Petrich, e dezenas de pessoas morreram nos combates.

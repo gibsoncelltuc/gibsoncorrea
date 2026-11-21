@@ -56,7 +56,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: arctic | luz: overcast | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): USA (variante 0, expressao neutral) | multidao: 10 de POV
+- Personagens principais (1): JAP (variante 0, expressao stern) | multidao: 14 de JAP
 - Animacao: -
 - Objetos/modelos: ship, nature/picket_fence
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cinco, frota, neblina

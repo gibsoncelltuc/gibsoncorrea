@@ -12,7 +12,7 @@ Cenas 100% fieis: 9/9 (100%). Lacunas: 0
 ## b4 OK - Mas teve um problema: os japoneses já tinham ido embora.
 - na tela: set=['street'] animais=[] objetos=[] atores=1 acoes_folha3=['embora']
 ## b5 OK - Duas semanas antes, uma frota tinha evacuado cerca de cinco mil homens, escondida na neblina.
-- na tela: set=['street'] animais=[] objetos=['picket_fence', 'ship'] atores=11 acoes_folha3=[]
+- na tela: set=['street'] animais=[] objetos=['picket_fence', 'ship'] atores=15 acoes_folha3=[]
 ## b6 OK - Sem inimigo à vista, os Aliados começaram a atirar uns nos outros, no escuro e na neblina.
 - na tela: set=['countryside'] animais=[] objetos=['marco_alpes'] atores=3 acoes_folha3=['atirar', 'atirar']
 ## b7 OK - No fim, só acharam na ilha alguns cachorros abandonados.

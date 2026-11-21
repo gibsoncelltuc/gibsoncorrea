@@ -1,0 +1,3 @@
+# MODO DE ACAO DEFINITIVO: eratostenes240
+FALHAS: 0  |  AVISOS: 0
+

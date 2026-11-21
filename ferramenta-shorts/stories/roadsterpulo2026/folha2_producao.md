@@ -28,7 +28,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ENG (variante 0, expressao suspicious, segura paper); MUS (variante 0, expressao smug)
 - Animacao: discutir | interacao: discutir
-- Objetos/modelos: kit/roadster26, kit/tower, kit/roadster
+- Objetos/modelos: kit/roadster26, kit/roadster26_air, kit/tower, kit/roadster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): atraso, novo, tesla
 - RISCOS: nenhum
 
@@ -117,7 +117,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/roadster26_air | b0, b4, b5, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/roadster26_air | b0, b2, b4, b5, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tower | b0, b1, b2, b3, b5, b6, b7, b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/roadster26 | b2, b3, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/roadster | b2, b4, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -130,11 +130,9 @@ nature/picket_fence | b8 | pronto | conferir na folha de contato se le bem; se p
 ## Video inteiro
 - Objeto heroi: kit/roadster26_air | grandes momentos: b4, b9 | planos abertos: 3 | mistura: close 9% | medio 73% | aberto 10% | detalhe 8%
 - Interacoes: b0 insiste, b2 discutir, b3 cochichar, b6 pular, b7 reverencia, b8 entregar
-- RISCOS GERAIS: 
-  - objeto heroi (kit/roadster26_air) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: objeto heroi (kit/roadster26_air) sem close de camera
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh roadsterpulo2026 bN bM` (so essas cenas).

@@ -110,11 +110,9 @@ kit/campfire | b5 | pronto | conferir na folha de contato se le bem; se parecer 
 ## Video inteiro
 - Objeto heroi: - | grandes momentos: b1, b5 | planos abertos: 4 | mistura: close 33% | medio 42% | aberto 22% | detalhe 3%
 - Interacoes: b7 cochichar
-- RISCOS GERAIS: 
-  - pouca variedade de cenario ({'arctic': 6, 'mountain': 1, 'interior hospital': 1, 'interior madeira': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: pouca variedade de cenario ({'arctic': 6, 'mountain': 1, 'interior hospital': 1, 'interior madeira': 1}): o video fica parecendo todos os outros
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh hayha1939 bN bM` (so essas cenas).

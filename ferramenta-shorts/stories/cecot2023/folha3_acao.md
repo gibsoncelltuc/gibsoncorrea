@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 27 - A Maior Prisão das Américas
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 25 acoes catalogadas, 25 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 4.4s - 13 palavras - plano two
@@ -22,13 +22,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | ATUACAO | reagir | OK |
 | 2 | - | MAPA | EL SALVADOR | OK |
 
-## Cena b2 - 11.1s a 17.0s - 17 palavras - plano two
+## Cena b2 - 11.1s a 17.0s - 17 palavras - plano orbit
 > "Por anos, El Salvador teve uma das maiores taxas de assassinato do mundo, por causa das gangues."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | discutir | OK |
-| 2 | - | ATUACAO | discutir | OK |
+| 1 | - | ATUACAO | discutir | OK |
 
 ## Cena b3 - 17.4s a 24.8s - 21 palavras - plano two
 > "Em dois mil e vinte e dois, o presidente Nayib Bukele decretou estado de exceção, e milhares de suspeitos foram presos."
@@ -71,7 +70,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | denunciaram (41.9s) | ACAO: protesto | punho para cima (protesto) | OK |
-| 2 | - | INTERACAO | vai ate o outro | OK |
+| 2 | - | INTERACAO | discutir | OK |
 | 3 | - | ATUACAO | discutir | OK |
 
 ## Cena b8 - 44.8s a 50.0s - 15 palavras - plano two
@@ -79,7 +78,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | cochichar | OK |
+| 1 | - | INTERACAO | vai ate o outro | OK |
 | 2 | - | ATUACAO | discutir | OK |
 
 ## Cena b9 - 50.4s a 55.2s - 14 palavras - plano orbit

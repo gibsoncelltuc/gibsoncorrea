@@ -44,11 +44,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - As mulheres imploravam de joelhos para não ir para a ala dos médicos.
 - Cenario: street | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MAE (variante 0, expressao scared); POV (variante 0, expressao cry) | multidao: 14 de MAE/POV
 - Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: kit/marco_viena
+- Objetos/modelos: kit/maca, kit/marco_viena
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): joelhos, medicos, mulheres
 - RISCOS: nenhum
 
@@ -128,19 +128,17 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/wash_basin | b0, b7, b8, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/maca | b1 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/maca | b1, b4 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/room_hospital | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_viena | b1, b4, b8, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/maca | grandes momentos: b1, b8 | planos abertos: 3 | mistura: close 19% | medio 69% | aberto 12% | detalhe 0%
+- Objeto heroi: kit/maca | grandes momentos: b1, b8 | planos abertos: 3 | mistura: close 19% | medio 67% | aberto 12% | detalhe 2%
 - Interacoes: b0 empurrar, b2 aproxima-se, b3 avanca e o outro recua, b4 o outro se aproxima, b5 insiste, b7 vai ate o outro, b9 empurrar
-- RISCOS GERAIS: 
-  - objeto heroi (kit/maca) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: objeto heroi (kit/maca) sem close de camera
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh semmelweis1847 bN bM` (so essas cenas).
