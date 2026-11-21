@@ -1,16 +1,17 @@
 # FOLHA 3 - ACOES - A Invasão da Ilha Vazia
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 23 acoes catalogadas, 23 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 24 acoes catalogadas, 24 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 7.7s - 23 palavras - plano two
+## Cena b0 - 0.2s a 7.7s - 23 palavras - plano group
 > "Agosto de mil novecentos e quarenta e três. Os Aliados prepararam uma grande invasão da ilha de Kiska, no Alasca, ocupada pelos japoneses."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-| 2 | - | PLACA | KISKA 1943 | OK |
+| 1 | - | INTERACAO | aproxima-se | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | KISKA 1943 | OK |
 
 ## Cena b1 - 9.2s a 14.1s - 16 palavras - plano reveal
 > "Foram mais de trinta e quatro mil soldados americanos e canadenses, com navios, aviões e tanques."

@@ -7,7 +7,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | arctic | two | 0 | conversar | ship | - | -
 b1 | harbor | crowd | 12 | reagir | ship, kit/marco_amsterdam, navios ao fundo | - | -
 b2 | arctic | wide | 7 | encena | ship, vehicles/truck | - | -
-b3 | countryside | group | 3 | conversar, INTERAGEM: aproxima-se | kit/marco_amsterdam, horse | - | -
+b3 | countryside | group | 11 | conversar, INTERAGEM: aproxima-se | kit/marco_amsterdam, horse | - | -
 b4 | arctic | group | 6 | conversar | horse | - | -
 b5 | countryside | crowd | 20 | andando, batalha | kit/marco_amsterdam, horse | - | -
 b6 | arctic | orbit | 20 | reagir, batalha | - | - | -

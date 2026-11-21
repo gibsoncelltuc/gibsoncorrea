@@ -142,16 +142,24 @@
    "animals": [
     [
      "horse",
-     3.6,
-     1.2,
+     1.6,
+     -3.2,
      "stand",
-     0.7
+     1.0
     ]
    ],
    "mood": "march",
    "set": "countryside",
    "detalhe": false,
-   "shot_lock": true
+   "shot_lock": true,
+   "cavalaria": false,
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "FRA"
+    ],
+    "march": false
+   }
   },
   {
    "say": "O chefe da cavalaria teve uma ideia maluca: atacar a frota a cavalo.",
