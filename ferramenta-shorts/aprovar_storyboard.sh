@@ -6,6 +6,13 @@
 cd "$(dirname "$0")"; ID="${1:?id}"
 [ -f stories/$ID/storyboard.jpg ] || { echo "sem storyboard: a fila gera sozinha (ou ./prechecar.sh $ID && cp stories/$ID/precheck.jpg stories/$ID/storyboard.jpg)"; exit 1; }
 python3 verificar_folhas.py $ID || exit 1
+# 21/11 PORTAO NARRACAO x TELA (ordem do Gibson): tudo que a narracao conta TEM que aparecer. Lacuna = nao aprova.
+# Lacuna que nao da' para mostrar (ex.: animal sem modelo mostrado so' por letreiro) vai em stories/$ID/lacunas_aceitas.txt, uma linha por cena: "bN: motivo".
+python3 auditar_narracao.py $ID > /tmp/aud_$ID.txt; AUD=$?
+if [ $AUD -ne 0 ]; then
+  FALTA=$(grep -E "^## b[0-9]+ LACUNA" stories/$ID/auditoria_narracao.md | grep -o "^## b[0-9]*" | cut -c4- | while read c; do grep -q "^$c:" stories/$ID/lacunas_aceitas.txt 2>/dev/null || echo -n "$c "; done)
+  [ -n "$FALTA" ] && { echo "NARRACAO NAO ESTA NA TELA (cenas: $FALTA). Leia stories/$ID/auditoria_narracao.md, corrija o beats.json (props/animals/crowd/acao/voa) e gere o storyboard de novo. Impossivel mostrar? stories/$ID/lacunas_aceitas.txt com 'bN: motivo'."; exit 1; }
+fi
 H=$(python3 -c "import json;print(json.load(open('stories/$ID/folhas.json'))['hash_producao'])")
 [ "$(cat stories/$ID/storyboard.hash 2>/dev/null)" = "$H" ] || { echo "o storyboard e' de uma versao ANTIGA das folhas: gere de novo (rm stories/$ID/storyboard.jpg e relance a fila)"; exit 1; }
 if [ ! -f stories/$ID/grade_acoes.jpg ] || [ stories/$ID/grade_acoes.jpg -ot stories/$ID/storyboard.jpg ]; then echo "FALTA A GRADE DE ACOES: ./prechecar.sh $ID acoes  (1 quadro no INSTANTE de cada acao da folha 3) e OLHE cada quadro: a acao escrita embaixo esta acontecendo?"; exit 1; fi
