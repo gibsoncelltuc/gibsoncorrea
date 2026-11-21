@@ -10,10 +10,10 @@ b4 | close | -  | interior, objeto na mao | encena: g_ganhava (point) @3 (acao +
 b5 | two | -  | interior | encena: g_gravava (point) @4 (acao + som de efeito) | -
 b6 | two | -  | interior | encena: g_desligar (reach) @4 (acao + som de efeito) | -
 b7 | crowd | -  | batalha aberta com tiros, tropa, placa: MENTE | encena: g_encantou (point) @8 (acao + som de efeito); encena: g_debateu (point) @12 (acao + som de efeito) | -
-b8 | aereo | -  | tropa | - | -
+b8 | reveal | -  | tropa | - | -
 b9 | two | -  | interior | encena: x_entrega (reach) @11 (acao + som de efeito); encena: pensa (think) @20 (acao + som de efeito) | -
 b10 | two | -  | interior | - | -
 b11 | close | -  | - | - | -
 
-Mistura de planos: close 19% | medio 60% | aberto 15% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 19% | medio 63% | aberto 11% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

@@ -74,7 +74,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | ATUACAO | reagir | OK |
 | 4 | - | PLACA | MENTE | OK |
 
-## Cena b8 - 49.0s a 54.5s - 17 palavras - plano aereo
+## Cena b8 - 49.0s a 54.5s - 17 palavras - plano reveal
 > "O objetivo, segundo a empresa, é ajudar pessoas paralisadas a usar computadores e celulares com o pensamento."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
