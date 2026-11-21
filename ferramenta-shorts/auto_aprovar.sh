@@ -5,6 +5,7 @@
 # e marca stories/<id>/AUTO_APROVADO (o modelo REVE o video quando a cota voltar: conferir.sh + auditar_acoes.sh). Nunca aprova curie1898 nem ese_* (pausados).
 cd "$(dirname "$0")"; ESPERA_MIN=${ESPERA_MIN:-45}   # 20/11: 45 min - com as sessoes ativas a revisao vem antes; a rede de seguranca so pega o storyboard esquecido
 while true; do
+  for d in out/*/frames; do [ -d "$d" ] || continue; v=$(basename $(dirname $d)); [ -f stories/$v/DONE ] && rm -rf "$d"; done   # 21/11: disco enche (1,3 GB de quadros por video): apaga os quadros de video ja pronto
   for f in stories/*/AGUARDA_STORYBOARD; do
     [ -e "$f" ] || continue; id=$(basename "$(dirname "$f")")
     case "$id" in curie1898|ese_*|z*|teste*) continue;; esac
