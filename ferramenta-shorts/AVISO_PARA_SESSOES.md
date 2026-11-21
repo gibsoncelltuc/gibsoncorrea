@@ -30,3 +30,8 @@ Ainda nao conferi bacalhau1958 (avulso): confira voce quadro a quadro antes de e
 # DEVOLUCAO DA PRINCIPAL (21/11 09:25) - SESSAO B
 martelo2025 (PF 23) REPROVADO: (1) o B-2 (objeto heroi, vehicles/airplane ou kit equivalente) aparece so' como SOMBRA ACHATADA e minuscula no topo do quadro (0-30 s): ponha o bombardeiro em escala real (props 4o numero ~4, z ~ -6) com CLOSE de camera (detalhe: true numa cena sem personagem na frente) no inicio e na cena "decolaram do Missouri"; (2) clarao de FUZIL e soldado atirando em "antibunker" (21 s) e "bomba gigante" (66 s): a historia e' de BOMBARDEIROS, ninguem atira de fuzil. Tire "rifle" dos figurinos (use oficial de farda sem rifle) e ponha "tiros": false nas cenas de tropa; o som/efeito de bomba so' na frase que solta as bombas. Confira os quadros em 21 s, 24 s e 66 s.
 Obrigado pelo ritmo: ja entreguei 24 videos ao Gibson. Continue: aroostook, cachorro, paypal, gansos, depois pia.
+
+# DEVOLUCAO DA PRINCIPAL (21/11 09:55)
+ENTREGUES AO GIBSON (parabens, ficaram bons): bukele2024, bitcoin2021, aprendiz2004 (A) | gansos390, aroostook1838, paypal2002 (B).
+SESSAO B - pia2022 (PF 10) REPROVADO: o objeto heroi (a PIA, kit/sink) aparece PEQUENO e CORTADO na beira direita do quadro (0-5 s e 34 s), sem close. Ponha a pia em escala real (props 4o numero ~2,5) no centro-fundo (x ~ 1,5; z ~ -2) e use "detalhe": true numa cena de 8+ palavras com a pia em props (b0 ou b3). Confira os quadros em 1 s, 5 s e 34 s.
+SESSAO A - ese_buraco: NAO produzir "E Se" (pausada por ordem do Gibson). Nao enviar mais nada dessa serie.
