@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Aí veio a ideia: marcadores com a cola fraca do Silver. Grudam, não ca...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): FRY (variante 0, expressao surprised)

@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b7  (~5.5 s)
 - Narracao: Ohio ficou com Toledo. Michigan levou, de consolação, um pedaço de floresta gelada que ninguém queria.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -

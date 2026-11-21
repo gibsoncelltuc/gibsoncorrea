@@ -13,12 +13,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b1 - Primeiro, os parisienses comeram os cavalos. Depois, os cachorros e os...
-- Cenario: countryside | luz: day | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): PAR (variante 2, expressao pained); PAR (variante 3, expressao nervous) | multidao: 8 de POV
-- Animacao: reagir
-- Objetos/modelos: kit/marco_notredame, dog, cat
+- Cenario: interior madeira | luz: day | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Personagens principais (2): PAR (variante 2, expressao pained); PAR (variante 3, expressao nervous)
+- Animacao: conversar | interacao: avanca e o outro recua
+- Objetos/modelos: dog, cat
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorros, cavalos, gatos, parisienses
 - RISCOS: nenhum
 
@@ -27,7 +27,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): PAR (variante 0, expressao shock); CHF (variante 0, expressao grin)
-- Animacao: reagir | interacao: avanca e o outro recua
+- Animacao: reagir | interacao: discutir
 - Objetos/modelos: barrel, kit/marco_notredame
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): prato, roedores
 - RISCOS: nenhum
@@ -57,13 +57,13 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): CHF (variante 0, expressao grin); PAR (variante 2, expressao shock)
-- Animacao: conversar | interacao: discutir
+- Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/panela
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canguru, elefante, natal, restaurante
 - RISCOS: nenhum
 
 ## Cena b6 - Tinha até gato com roedores, e pernil de lobo.
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): PAR (variante 3, expressao shock)
@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Para mandar notícias, os parisienses usavam balões e pombos-correio.
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): PAR (variante 0, expressao smile); PAR (variante 1, expressao smile) | multidao: 6 de POV
@@ -97,7 +97,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/marco_notredame | b0, b1, b2, b3, b4, b6, b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_notredame | b0, b2, b3, b4, b6, b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 dog | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 cat | b1, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 barrel | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -110,8 +110,8 @@ kit/balloon | b7 | pronto | conferir na folha de contato se le bem; se parecer c
 
 
 ## Video inteiro
-- Objeto heroi: kit/panela | grandes momentos: b3, b7 | planos abertos: 3 | mistura: close 28% | medio 57% | aberto 12% | detalhe 3%
-- Interacoes: b0 susto, b2 avanca e o outro recua, b5 discutir
+- Objeto heroi: kit/panela | grandes momentos: b3, b7 | planos abertos: 2 | mistura: close 28% | medio 63% | aberto 5% | detalhe 3%
+- Interacoes: b0 susto, b1 avanca e o outro recua, b2 discutir, b5 o outro se aproxima
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

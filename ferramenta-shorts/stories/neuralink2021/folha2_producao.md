@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - A cada acerto, ganhava um golinho de vitamina de banana, por um canudi...
-- Cenario: interior loja | luz: day | clima: limpo
+- Cenario: interior madeira | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): CIE (variante 0, expressao grin, segura mug)
@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Enquanto isso, o chip gravava o que os neurônios faziam a cada movimen...
-- Cenario: interior loja | luz: day | clima: limpo
+- Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): CIM (variante 0, expressao suspicious); CIE (variante 0, expressao nervous)
@@ -93,7 +93,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - Em dois mil e vinte e quatro, o primeiro paciente humano recebeu o chi...
-- Cenario: interior loja | luz: day | clima: limpo
+- Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): NOL (variante 0, expressao grin); CIE (variante 0, expressao surprised)

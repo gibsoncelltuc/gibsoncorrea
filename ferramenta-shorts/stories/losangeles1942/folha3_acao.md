@@ -1,20 +1,20 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 20 - A Batalha de Los Angeles
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 47 acoes catalogadas, 47 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 48 acoes catalogadas, 48 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 3.9s - 14 palavras - plano two
+## Cena b0 - 0.0s a 4.8s - 14 palavras - plano two
 > "Uma cidade inteira passou a noite atirando no céu, e não havia inimigo nenhum."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | atirando (1.7s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 1 | atirando (2.2s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 2 | - | INTERACAO | susto | OK |
 | 3 | - | ATUACAO | reagir | OK |
 | 4 | - | PLACA | 1942 | OK |
 
-## Cena b1 - 5.0s a 10.3s - 20 palavras - plano reveal
+## Cena b1 - 5.2s a 12.2s - 20 palavras - plano reveal
 > "Era fevereiro de mil novecentos e quarenta e dois, logo depois de Pearl Harbor, e Los Angeles vivia com medo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -23,7 +23,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | reagir | OK |
 | 3 | - | MAPA | LOS ANGELES | OK |
 
-## Cena b2 - 11.5s a 16.8s - 16 palavras - plano group
+## Cena b2 - 12.6s a 18.1s - 16 palavras - plano group
 > "Na véspera, um submarino japonês tinha atirado na Califórnia, e todo mundo achava que vinha mais."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -33,56 +33,57 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | cochichar | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b3 - 17.8s a 23.2s - 16 palavras - plano two
+## Cena b3 - 18.5s a 24.1s - 16 palavras - plano two
 > "Na madrugada, as sirenes tocaram, as luzes da cidade se apagaram, e holofotes varreram o céu."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | sirenes (18.9s) | ACAO: toca | onda de som (sirene/sino) | OK |
+| 1 | sirenes (19.6s) | ACAO: toca | onda de som (sirene/sino) | OK |
 | 2 | - | INTERACAO | entregar | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b4 - 24.2s a 28.4s - 15 palavras - plano orbit
+## Cena b4 - 24.4s a 29.6s - 15 palavras - plano orbit
 > "Alguém viu um objeto no céu, e os soldados começaram a atirar com canhões antiaéreos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | viu (24.6s) | ACAO: olha | aponta/olha | OK |
-| 2 | atirar (27.5s) | EFEITO: burst | estouro/clarao + som | OK |
-| 3 | atirar (27.5s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 4 | canhões (28.1s) | EFEITO: burst | estouro/clarao + som | OK |
+| 1 | viu (24.8s) | ACAO: olha | aponta/olha | OK |
+| 2 | atirar (28.5s) | EFEITO: burst | estouro/clarao + som | OK |
+| 3 | atirar (28.5s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 4 | canhões (29.3s) | EFEITO: burst | estouro/clarao + som | OK |
 | 5 | - | CENA | tiros: 5 soldados caem no chao | OK |
 | 6 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
 | 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 8 | - | PLACA | FOGO! | OK |
 
-## Cena b5 - 29.7s a 35.1s - 16 palavras - plano two
+## Cena b5 - 30.0s a 35.6s - 16 palavras - plano two
 > ""É um inimigo!", gritou um soldado. Acontece que não havia nada ali, só nuvens e fumaça."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | gritou (30.6s) | EFEITO: ring | onda + som | OK |
-| 2 | gritou (30.6s) | ACAO: grita | grita de bracos para cima | OK |
+| 1 | gritou (31.1s) | EFEITO: ring | onda + som | OK |
+| 2 | gritou (31.1s) | ACAO: grita | grita de bracos para cima | OK |
 | 3 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
 | 4 | - | INTERACAO | discutir | OK |
 | 5 | - | ATUACAO | discutir | OK |
 
-## Cena b6 - 36.4s a 40.7s - 17 palavras - plano crowd
+## Cena b6 - 35.9s a 41.9s - 17 palavras - plano crowd
 > "Foram mais de mil tiros de canhão, e os estilhaços caíram na cidade, que ficou em pânico."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | tiros (37.2s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | tiros (37.2s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 3 | canhão (37.7s) | EFEITO: burst | estouro/clarao + som | OK |
-| 4 | caíram (39.1s) | EFEITO: dust | poeira + som | OK |
-| 5 | pânico (40.7s) | ACAO: grita | grita de bracos para cima | OK |
+| 1 | tiros (37.4s) | EFEITO: burst | estouro/clarao + som | OK |
+| 2 | tiros (37.4s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 3 | canhão (38.1s) | EFEITO: burst | estouro/clarao + som | OK |
+| 4 | caíram (39.6s) | EFEITO: dust | poeira + som | OK |
+| 5 | pânico (41.9s) | ACAO: grita | grita de bracos para cima | OK |
 | 6 | - | EMOCAO: scared | o rosto vira "scared" na palavra | OK |
 | 7 | - | CENA | tiros: 5 soldados caem no chao | OK |
 | 8 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
 | 9 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 10 | - | ATUACAO | reagir | OK |
 
-## Cena b7 - 41.9s a 46.1s - 14 palavras - plano two
+## Cena b7 - 42.2s a 47.0s - 14 palavras - plano two
 > "No dia seguinte, os militares discutiram o que tinha acontecido, e ninguém sabia dizer."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -90,24 +91,24 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | susto | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b8 - 47.2s a 51.0s - 12 palavras - plano two
+## Cena b8 - 47.4s a 51.5s - 12 palavras - plano two
 > "Algumas pessoas morreram, por acidente e por susto, mas nenhum inimigo apareceu."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | morreram (48.0s) | EFEITO: puff | fumaca + som | OK |
-| 2 | morreram (48.0s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
+| 1 | morreram (48.1s) | EFEITO: puff | fumaca + som | OK |
+| 2 | morreram (48.1s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
 | 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
 | 4 | - | INTERACAO | entregar | OK |
 | 5 | - | ATUACAO | conversar | OK |
 | 6 | - | CHEGADA | alguem entra andando | OK |
 
-## Cena b9 - 52.4s a 55.1s - 12 palavras - plano close
+## Cena b9 - 51.9s a 55.9s - 12 palavras - plano close
 > "O único alvo derrotado naquela noite foi o sono de Los Angeles."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | derrotado (53.1s) | EFEITO: puff | fumaca + som | OK |
-| 2 | derrotado (53.1s) | ACAO: perde | mao na testa | OK |
+| 1 | derrotado (53.0s) | EFEITO: puff | fumaca + som | OK |
+| 2 | derrotado (53.0s) | ACAO: perde | mao na testa | OK |
 | 3 | - | ATUACAO | conversar | OK |
 

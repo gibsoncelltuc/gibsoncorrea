@@ -8,12 +8,12 @@ b0 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/monke
 b1 | street | crowd | 8 | batalha | - | - | -
 b2 | interior loja | two | 2 | conversar, INTERAGEM: o outro se aproxima | - | paper | -
 b3 | interior loja | two | 1 | conversar | kit/monkey_pong | - | -
-b4 | interior loja | close | 1 | encena | kit/monkey_pong | mug | -
-b5 | interior loja | two | 2 | conversar, INTERAGEM: cochichar | kit/monkey_pong | - | -
+b4 | interior madeira | close | 1 | encena | kit/monkey_pong | mug | -
+b5 | interior pedra | two | 2 | conversar, INTERAGEM: cochichar | kit/monkey_pong | - | -
 b6 | interior loja | two | 1 | reagir | kit/monkey_pong | - | -
 b7 | street | crowd | 21 | reagir, batalha | kit/monkey_pong | - | -
 b8 | street | two | 2 | discutir, INTERAGEM: discutir | kit/chess_pc, kit/phone | - | -
-b9 | interior loja | two | 2 | conversar, INTERAGEM: entregar | kit/chess_pc | - | -
+b9 | interior madeira | two | 2 | conversar, INTERAGEM: entregar | kit/chess_pc | - | -
 b10 | interior loja | two | 2 | INTERAGEM: insiste | kit/chess_pc | - | -
 b11 | street | close | 1 | comemorar | kit/monkey_pong | - | -
 

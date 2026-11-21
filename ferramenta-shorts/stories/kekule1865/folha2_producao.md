@@ -33,7 +33,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - Os químicos desenhavam correntes retas, e nada fechava a conta. Era um...
-- Cenario: interior madeira | luz: day | clima: limpo
+- Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): COL (variante 0, expressao bored); KEK (variante 0, expressao sad, segura paper)
@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Passou o resto da noite desenhando o anel de seis carbonos. E a conta ...
-- Cenario: interior madeira | luz: noite | clima: limpo
+- Cenario: interior loja | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): KEK (variante 0, expressao grin, segura paper)

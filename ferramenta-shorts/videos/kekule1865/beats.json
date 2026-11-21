@@ -85,7 +85,7 @@
   },
   {
    "shot": "two",
-   "interior": "madeira",
+   "interior": "pedra",
    "who": [
     "COL:0:bored",
     "KEK:0:sad:paper"
@@ -183,7 +183,7 @@
   },
   {
    "shot": "two",
-   "interior": "madeira",
+   "interior": "loja",
    "hora": "noite",
    "who": [
     "KEK:0:grin:paper"

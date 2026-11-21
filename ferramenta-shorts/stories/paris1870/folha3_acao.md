@@ -14,13 +14,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | MAPA | PARIS | OK |
 | 4 | - | PLACA | 1870 | OK |
 
-## Cena b1 - 7.8s a 12.9s - 12 palavras - plano reveal
+## Cena b1 - 7.8s a 12.9s - 12 palavras - plano group
 > "Primeiro, os parisienses comeram os cavalos. Depois, os cachorros e os gatos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | CENA | cavalaria: 4 soldados a cavalo (POV) | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 1 | - | INTERACAO | avanca e o outro recua | OK |
+| 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | CAVALOS, CÃES, GATOS | OK |
 
 ## Cena b2 - 14.1s a 17.0s - 8 palavras - plano two
@@ -28,7 +28,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | avanca e o outro recua | OK |
+| 1 | - | INTERACAO | discutir | OK |
 | 2 | - | ATUACAO | reagir | OK |
 | 3 | - | PLACA | RATOS | OK |
 
@@ -55,7 +55,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | discutir | OK |
+| 1 | - | INTERACAO | o outro se aproxima | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b6 - 33.7s a 35.9s - 9 palavras - plano close
