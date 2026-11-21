@@ -359,7 +359,7 @@ TEMPL = {  # h = altura do alvo; d0/d1 = distancia da camera no inicio/fim; el =
     'low':   dict(h=1.6, d0=8.2, d1=7.2, el=2),
     'reveal': dict(h=2.4, d0=10.0, d1=22.0, el=6, fov=46),   # recua e revela o exercito inteiro
     'orbit':  dict(h=2.4, d0=19.0, d1=16.0, el=6, fov=46, az0=-38, az1=32),   # panoramica aberta em arco
-    'aereo':  dict(h=1.0, d0=44.0, d1=34.0, el=50, fov=52, az0=-18, az1=18),   # 21/11 VISTA DE CIMA do cenario inteiro (estadio todo, porto, cidade): camera alta descendo e girando devagar
+    'aereo':  dict(h=1.0, d0=62.0, d1=52.0, el=40, fov=56, az0=-78, az1=-64),   # 21/11 VISTA DE CIMA do cenario inteiro (estadio todo, porto, cidade): camera alta descendo e girando devagar
 }
 WIDE = ('wide', 'crowd', 'reveal', 'orbit', 'aereo')
 TXT = {'blue': ('#fff6e0', '#27408b'), 'brown': ('#fff6e0', '#7a3a1c'), 'red': ('#d8282f', '#fff6e0'), 'gold': ('#e8c45a', '#7a1c1c'), 'white': ('#ffffff', '#1c2a4a')}

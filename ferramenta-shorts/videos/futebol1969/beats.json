@@ -80,18 +80,6 @@
      0,
      0.5,
      1.1
-    ],
-    [
-     "kit/trave",
-     -9,
-     -4,
-     1.8
-    ],
-    [
-     "kit/trave",
-     9,
-     -4,
-     1.8
     ]
    ],
    "verbos_ok": [
@@ -134,12 +122,6 @@
      0,
      1.9,
      1.1
-    ],
-    [
-     "kit/trave",
-     3.2,
-     -3.0,
-     1.6
     ]
    ],
    "say": "Aí veio a disputa por uma vaga na Copa do Mundo. Três jogos, um contra o outro.",
@@ -185,12 +167,6 @@
    ],
    "say": "No primeiro, Honduras venceu em casa. A torcida passou a noite batendo panelas na porta do hotel dos visitantes.",
    "props": [
-    [
-     "kit/trave",
-     -4.2,
-     -4.0,
-     1.6
-    ],
     [
      "kit/panela",
      -1.6,

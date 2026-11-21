@@ -4,10 +4,10 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | stadium | crowd | 18 | encena, batalha | kit/ball, kit/trave | - | -
+b0 | stadium | crowd | 18 | encena, batalha | kit/ball | - | -
 b1 | street | reveal | 10 | discutir | kit/volcano, buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
-b2 | stadium | aereo | 18 | parados (so fala e pisca) | kit/ball, kit/trave | - | -
-b3 | stadium | orbit | 32 | comemorar, batalha | kit/trave, kit/panela, kit/kettle, buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
+b2 | stadium | aereo | 18 | parados (so fala e pisca) | kit/ball | - | -
+b3 | stadium | orbit | 32 | comemorar, batalha | kit/panela, kit/kettle, buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
 b4 | street | two | 2 | discutir, INTERAGEM: empurrar | kit/volcano | - | -
 b5 | interior madeira | two | 2 | conversar, INTERAGEM: susto | - | paper | -
 b6 | stadium | group | 3 | comemorar, INTERAGEM: pular | kit/ball, kit/trave | - | -

@@ -8,7 +8,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): HON (variante 0, expressao angry); SAL (variante 0, expressao shout) | multidao: 16 de HON/SAL
 - Animacao: encena | batalha encenada
-- Objetos/modelos: kit/ball, kit/trave
+- Objetos/modelos: kit/ball
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): futebol, jogo
 - RISCOS: nenhum
 
@@ -28,7 +28,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): HON (variante 0, expressao grin); SAL (variante 0, expressao stern) | multidao: 16 de HON/SAL
 - Animacao: -
-- Objetos/modelos: kit/ball, kit/trave
+- Objetos/modelos: kit/ball
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): contra, copa, disputa, vaga
 - RISCOS: nenhum
 
@@ -38,7 +38,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): HON (variante 0, expressao laugh); SAL (variante 0, expressao sad) | multidao: 30 de TOR/HON
 - Animacao: comemorar | batalha encenada
-- Objetos/modelos: kit/trave, kit/panela, kit/kettle, buildings/house_small, nature/picket_fence, nature/tree_oak
+- Objetos/modelos: kit/panela, kit/kettle, buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): hotel, porta, torcida, visitantes
 - RISCOS: nenhum
 
@@ -108,13 +108,13 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/ball | b0, b2, b6, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/trave | b0, b2, b3, b6, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/volcano | b1, b4, b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_small | b1, b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b1, b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b1, b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/panela | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/kettle | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/trave | b6, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 vehicles/tank | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 vehicles/airplane | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
