@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 11 - A Janela do Cybertruck
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium | 8 cenas, 122 palavras (~42 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: hall | 8 cenas, 122 palavras (~42 s)
 
 ## Cena b0  (~7.6 s)
 - Narracao: Em novembro de dois mil e dezenove, na Califórnia, a empresa de Elon Musk apresentou o Cybertruck, uma picape elétrica de aço.

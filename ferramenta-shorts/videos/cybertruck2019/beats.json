@@ -5,7 +5,7 @@
  "ep": 11,
  "title": "A Janela do Cybertruck",
  "titulo_base": "A Janela do Cybertruck",
- "set": "stadium",
+ "set": "hall",
  "light": "day",
  "mood": "playful",
  "heroi": "kit/steel_ball",
@@ -56,7 +56,7 @@
    "impact": false,
    "mapa": "CALIFÓRNIA",
    "mapa_at": 3,
-   "set": "stadium",
+   "set": "hall",
    "hora": "dia",
    "crowd": {
     "n": 14,
@@ -87,7 +87,7 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "set": "stadium",
+   "set": "hall",
    "hora": "dia",
    "riscos_ok": true
   },
@@ -109,7 +109,7 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "set": "stadium",
+   "set": "hall",
    "hora": "dia",
    "voa": [
     {
@@ -173,7 +173,7 @@
    ],
    "tiros": false,
    "batalha": false,
-   "set": "stadium",
+   "set": "hall",
    "hora": "dia",
    "riscos_ok": true
   },
@@ -201,7 +201,7 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "set": "stadium",
+   "set": "hall",
    "hora": "dia",
    "voa": [
     {
@@ -256,7 +256,7 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "set": "stadium",
+   "set": "hall",
    "hora": "dia",
    "riscos_ok": true
   },
@@ -286,7 +286,7 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "set": "stadium",
+   "set": "hall",
    "hora": "dia",
    "riscos_ok": true
   },
@@ -314,7 +314,7 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "set": "stadium",
+   "set": "hall",
    "hora": "dia",
    "riscos_ok": true,
    "acao": "comemorar",
