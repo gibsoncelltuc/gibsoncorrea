@@ -16,7 +16,7 @@ Cenas 100% fieis: 11/11 (100%). Lacunas: 0
 ## b6 OK - Anos depois, o rei da Dinamarca deu a ele uma ilha inteira, só para estudar o céu.
 - na tela: set=['harbor'] animais=[] objetos=['marco_rostock'] atores=8 acoes_folha3=['deu']
 ## b7 OK - Lá, ele construiu um castelo observatório, e anotou a posição de mais de mil estrelas, sem telescópio.
-- na tela: set=['countryside'] animais=[] objetos=['marco_rostock', 'marco_uraniborg'] atores=7 acoes_folha3=['construiu', 'anotou']
+- na tela: set=['countryside'] animais=[] objetos=['marco_rostock', 'marco_uraniborg', 'tower'] atores=7 acoes_folha3=['construiu', 'anotou']
 ## b8 OK - As anotações eram tão precisas, que ajudaram Kepler a descobrir como os planetas giram em volta do Sol.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'lupa', 'room_europa_stone'] atores=2 acoes_folha3=['ajudaram', 'descobrir']
 ## b9 OK - Essa descoberta mudou a astronomia para sempre.

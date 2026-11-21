@@ -84,7 +84,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - O objetivo, segundo a empresa, é ajudar pessoas paralisadas a usar com...
 - Cenario: street | luz: day | clima: limpo
-- Camera: aereo = -
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): MUS (variante 0, expressao smug); CIM (variante 0, expressao grin) | multidao: 8 de POV
 - Animacao: discutir
@@ -133,7 +133,7 @@ kit/phone | b8 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/monkey_pong | grandes momentos: b1, b7 | planos abertos: 3 | mistura: close 19% | medio 60% | aberto 15% | detalhe 6%
+- Objeto heroi: kit/monkey_pong | grandes momentos: b1, b7 | planos abertos: 3 | mistura: close 19% | medio 63% | aberto 11% | detalhe 6%
 - Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b5 cochichar, b9 entregar, b10 insiste
 - RISCOS GERAIS: nenhum
 
