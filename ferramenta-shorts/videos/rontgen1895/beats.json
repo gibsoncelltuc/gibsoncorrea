@@ -124,7 +124,6 @@
   {
    "shot": "low",
    "interior": "madeira",
-   "hora": "noite",
    "who": [
     "ROE:0:surprised"
    ],
@@ -149,7 +148,6 @@
   {
    "shot": "two",
    "interior": "madeira",
-   "hora": "noite",
    "who": [
     "ROE:0:shock"
    ],
