@@ -124,17 +124,17 @@
    "say": "Acontece que, no púlpito, ele pediu: só um segundo, por favor. E tirou o celular do bolso."
   },
   {
-   "shot": "crowd",
+   "shot": "low",
+   "interior": "madeira",
    "who": [
-    "BUK:0:grin",
-    "POV:1:surprised"
+    "DIP:0:shock"
    ],
    "props": [
     [
      "kit/phone",
-     0,
-     -1.0,
-     1.4
+     -1.6,
+     -0.8,
+     1.2
     ]
    ],
    "fx": [
@@ -143,19 +143,7 @@
    "sfx": [
     "sting@20"
    ],
-   "say": "Virou de costas para a plateia, e tirou uma selfie com o plenário inteiro atrás.",
-   "batalha": true,
-   "tiros": false,
-   "crowd": {
-    "n": 18,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "surprised"
-   },
-   "acao": "tirar",
-   "set": "street"
+   "say": "Virou de costas para a plateia, e tirou uma selfie com o plenário inteiro atrás."
   },
   {
    "shot": "two",

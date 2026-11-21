@@ -45,7 +45,7 @@
  },
  "beats": [
   {
-   "shot": "reveal",
+   "shot": "two",
    "who": [
     "TRU:0:stern",
     "GEN:0:stern"
@@ -71,8 +71,7 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Para destruir um bunker escondido dentro de uma montanha, os Estados Unidos usaram uma bomba que nunca tinha saído do papel.",
-   "detalhe": false
+   "say": "Para destruir um bunker escondido dentro de uma montanha, os Estados Unidos usaram uma bomba que nunca tinha saído do papel."
   },
   {
    "shot": "reveal",
@@ -90,8 +89,7 @@
      1.6
     ]
    ],
-   "say": "Foi em junho de dois mil e vinte e cinco. O alvo eram as usinas nucleares do Irã.",
-   "set": "outback"
+   "say": "Foi em junho de dois mil e vinte e cinco. O alvo eram as usinas nucleares do Irã."
   },
   {
    "shot": "two",
@@ -144,10 +142,7 @@
     "GEN:0:grin"
    ],
    "interacao": "entregar",
-   "say": "Trump autorizou a missão. O nome: Martelo da Meia-Noite.",
-   "interior": "pedra",
-   "hora": "dia",
-   "light": "study"
+   "say": "Trump autorizou a missão. O nome: Martelo da Meia-Noite."
   },
   {
    "shot": "crowd",
@@ -184,9 +179,7 @@
    ],
    "text": "B-2",
    "titulo": true,
-   "say": "Sete bombardeiros invisíveis decolaram do Missouri, e voaram mais de um dia sem parar.",
-   "set": "countryside",
-   "hora": "dia"
+   "say": "Sete bombardeiros invisíveis decolaram do Missouri, e voaram mais de um dia sem parar."
   },
   {
    "shot": "two",
@@ -203,12 +196,10 @@
     ]
    ],
    "interacao": "cochichar",
-   "say": "Para despistar, outros B-2 foram mandados na direção contrária, para o Pacífico.",
-   "set": "harbor",
-   "hora": "dia"
+   "say": "Para despistar, outros B-2 foram mandados na direção contrária, para o Pacífico."
   },
   {
-   "shot": "reveal",
+   "shot": "low",
    "hora": "noite",
    "who": [
     "PIL:0:stern"
@@ -237,65 +228,25 @@
     "cannon@45",
     "thump@60"
    ],
-   "say": "Acontece que, de madrugada, os aviões soltaram catorze bombas. Doze delas em cima de Fordow, pelos respiros do bunker.",
-   "detalhe": false
+   "say": "Acontece que, de madrugada, os aviões soltaram catorze bombas. Doze delas em cima de Fordow, pelos respiros do bunker."
   },
   {
    "shot": "two",
-   "set": "harbor",
+   "interior": "loja",
    "who": [
-    "GEN:0:shock",
-    "PIL:0:surprised"
+    "TRU:0:stern",
+    "GEN:0:grin:paper"
    ],
-   "say": "Um submarino ainda disparou mísseis contra uma terceira usina.",
-   "text": "SUBMARINO",
-   "fx": [
-    "burst@45"
-   ],
-   "sfx": [
-    "cannon@45"
-   ],
-   "tiros": false
-  },
-  {
-   "shot": "crowd",
-   "set": "countryside",
-   "hora": "dia",
-   "who": [
-    "PIL:0:smile",
-    "GEN:0:grin"
-   ],
-   "say": "Todos os aviões voltaram para casa.",
+   "acao": "conversar",
+   "say": "Um submarino ainda disparou mísseis contra uma terceira usina. Todos os aviões voltaram para casa.",
    "props": [
     [
      "kit/b2_air",
-     1.5,
-     -9.0,
+     1.0,
+     -10.0,
      1.5
     ]
-   ],
-   "batalha": true,
-   "tiros": false,
-   "crowd": {
-    "n": 14,
-    "outfits": [
-     "PIL"
-    ],
-    "march": false,
-    "expr": "smile"
-   }
-  },
-  {
-   "shot": "two",
-   "interior": "pedra",
-   "who": [
-    "TRU:0:smug",
-    "GEN:0:grin:paper"
-   ],
-   "say": "Trump disse que as usinas foram destruídas.",
-   "acao": "conversar",
-   "hora": "dia",
-   "light": "study"
+   ]
   },
   {
    "shot": "crowd",
@@ -330,7 +281,7 @@
    ],
    "text": "FORDOW",
    "titulo": true,
-   "say": "Avaliações posteriores discutiram o tamanho real do estrago."
+   "say": "Trump disse que as usinas foram destruídas. Avaliações posteriores discutiram o tamanho real do estrago."
   },
   {
    "shot": "close",
@@ -358,8 +309,7 @@
    ],
    "sfx": [
     "cannon@40"
-   ],
-   "set": "countryside"
+   ]
   }
  ],
  "fontes": [
