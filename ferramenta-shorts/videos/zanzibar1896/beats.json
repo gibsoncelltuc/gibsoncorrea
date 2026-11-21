@@ -190,13 +190,24 @@
    "tiros": false
   },
   {
-   "shot": "group",
+   "shot": "two",
    "who": [
     "SUL2:0:smile",
-    "ING:0:grin",
-    "POV:0:nervous"
+    "ING:0:grin"
    ],
-   "say": "Trinta e oito minutos. No mesmo dia, os ingleses colocaram outro sultão no trono."
+   "say": "Trinta e oito minutos. No mesmo dia, os ingleses colocaram outro sultão no trono.",
+   "batalha": false,
+   "impact": false,
+   "tiros": false,
+   "cavalaria": false,
+   "props": [
+    [
+     "kit/throne",
+     -1.6,
+     -1.0,
+     1.5
+    ]
+   ]
   },
   {
    "shot": "close",

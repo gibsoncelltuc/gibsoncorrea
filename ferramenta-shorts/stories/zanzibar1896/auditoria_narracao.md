@@ -20,6 +20,6 @@ Cenas 100% fieis: 11/11 (100%). Lacunas: 0
 ## b8 OK - Às nove e quarenta, o palácio se rendeu, e o barulho parou.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_africa_stone'] atores=2 acoes_folha3=['rendeu']
 ## b9 OK - Trinta e oito minutos. No mesmo dia, os ingleses colocaram outro sultão no trono.
-- na tela: set=['medieval'] animais=['horse_sela'] objetos=['marco_zanzibar'] atores=19 acoes_folha3=['colocaram']
+- na tela: set=['medieval'] animais=[] objetos=['marco_zanzibar', 'throne'] atores=14 acoes_folha3=['colocaram']
 ## b10 OK - E ainda mandaram a conta das balas para Zanzibar.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_africa_stone', 'throne'] atores=1 acoes_folha3=['mandaram', 'balas', 'balas']

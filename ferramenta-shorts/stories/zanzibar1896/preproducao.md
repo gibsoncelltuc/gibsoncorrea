@@ -13,10 +13,10 @@ b5 | interior pedra | close | 1 | conversar | - | - | -
 b6 | palace | crowd | 22 | reagir | kit/fire, navios ao fundo, buildings/castle_tower | - | -
 b7 | palace | track | 2 | discutir, andando | kit/marco_zanzibar, buildings/house_two, nature/lamppost, nature/bench | - | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: vai ate o outro | - | flag | -
-b9 | medieval | crowd | 15 | conversar, batalha | kit/marco_zanzibar | - | -
+b9 | medieval | crowd | 14 | conversar, batalha | kit/throne, kit/marco_zanzibar | - | -
 b10 | interior pedra | close | 1 | reagir | - | - | -
 
-OBJETO HEROI: kit/throne - aparece em 1 cena(s), close nele em 1
+OBJETO HEROI: kit/throne - aparece em 2 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b9
 Interacoes entre personagens: b0 avanca e o outro recua, b2 o outro se aproxima, b3 insiste, b8 vai ate o outro
 

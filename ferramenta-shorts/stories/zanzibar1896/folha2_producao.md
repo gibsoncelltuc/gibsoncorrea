@@ -96,9 +96,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: medieval | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): SUL2 (variante 0, expressao smile); ING (variante 0, expressao grin); POV (variante 0, expressao nervous) | multidao: 12 de POV
+- Personagens principais (2): SUL2 (variante 0, expressao smile); ING (variante 0, expressao grin) | multidao: 12 de POV
 - Animacao: conversar | batalha encenada
-- Objetos/modelos: kit/marco_zanzibar
+- Objetos/modelos: kit/throne, kit/marco_zanzibar
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ingleses, trono
 - RISCOS: nenhum
 
@@ -118,7 +118,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/marco_zanzibar | b0, b1, b4, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/throne | b2 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/throne | b2, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 cannon | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/fire | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/castle_tower | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
