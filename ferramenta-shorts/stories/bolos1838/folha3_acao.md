@@ -53,7 +53,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | avisou (30.6s) | ACAO: fala | aponta explicando | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b5 - 32.3s a 34.6s - 10 palavras - plano two
+## Cena b5 - 32.3s a 34.5s - 10 palavras - plano two
 > "O México riu do pedido, e não deu um centavo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -64,59 +64,59 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | INTERACAO | cochichar | OK |
 | 5 | - | ATUACAO | comemorar | OK |
 
-## Cena b6 - 36.0s a 42.0s - 17 palavras - plano wide
+## Cena b6 - 35.8s a 41.9s - 17 palavras - plano wide
 > "Acontece que a França mandou mesmo. Navios de guerra chegaram, e fecharam todos os portos do país."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | mandou (37.1s) | ACAO: fala | aponta explicando | OK |
-| 2 | chegaram (39.5s) | EFEITO: dust | poeira + som | OK |
-| 3 | chegaram (39.5s) | ACAO: chega | entra andando pela lateral | OK |
-| 4 | fecharam (40.5s) | ACAO: x_abre | empurra a porta | OK |
+| 1 | mandou (37.0s) | ACAO: fala | aponta explicando | OK |
+| 2 | chegaram (39.4s) | EFEITO: dust | poeira + som | OK |
+| 3 | chegaram (39.4s) | ACAO: chega | entra andando pela lateral | OK |
+| 4 | fecharam (40.3s) | ACAO: x_abre | empurra a porta | OK |
 | 5 | - | CENA | desembarque: navios chegando e tropa descendo na praia | OK |
 | 6 | - | PLACA | A MARINHA | OK |
 
-## Cena b7 - 43.0s a 47.6s - 14 palavras - plano crowd
+## Cena b7 - 42.9s a 47.5s - 14 palavras - plano crowd
 > "Os canhões franceses bombardearam a fortaleza de Veracruz, e os soldados tomaram a cidade."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | canhões (43.2s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | canhões (43.2s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 1 | canhões (43.1s) | EFEITO: burst | estouro/clarao + som | OK |
+| 2 | canhões (43.1s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 3 | - | CENA | tiros: 5 soldados caem no chao | OK |
 | 4 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
 | 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
 | 6 | - | ATUACAO | reagir | OK |
 
-## Cena b8 - 48.7s a 54.9s - 19 palavras - plano orbit
+## Cena b8 - 48.6s a 54.7s - 19 palavras - plano orbit
 > "Um general mexicano correu para o combate, e tombou, atingido por um tiro de canhão. Ele perdeu uma perna."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | correu (49.8s) | EFEITO: dust | poeira + som | OK |
-| 2 | correu (49.8s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
-| 3 | tombou (51.2s) | EFEITO: dust | poeira + som | OK |
-| 4 | tombou (51.2s) | ACAO: tomba | cai sentado no chao + poeira | OK |
-| 5 | tiro (52.6s) | EFEITO: burst | estouro/clarao + som | OK |
-| 6 | tiro (52.6s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 7 | perdeu (54.4s) | ACAO: perde | mao na testa | OK |
+| 1 | correu (49.7s) | EFEITO: dust | poeira + som | OK |
+| 2 | correu (49.7s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
+| 3 | tombou (51.0s) | EFEITO: dust | poeira + som | OK |
+| 4 | tombou (51.0s) | ACAO: tomba | cai sentado no chao + poeira | OK |
+| 5 | tiro (52.4s) | EFEITO: burst | estouro/clarao + som | OK |
+| 6 | tiro (52.4s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 7 | perdeu (54.2s) | ACAO: perde | mao na testa | OK |
 | 8 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
 | 9 | - | CENA | tiros: 5 soldados caem no chao | OK |
 | 10 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
 | 11 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
 
-## Cena b9 - 56.0s a 60.1s - 14 palavras - plano two
+## Cena b9 - 55.9s a 59.9s - 14 palavras - plano two
 > "Meses depois, o México pagou os seiscentos mil pesos, e a França foi embora."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | pagou (57.6s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | pagou (57.6s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 3 | embora (60.1s) | ACAO: sai | sai andando pela lateral | OK |
+| 1 | pagou (57.4s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | pagou (57.4s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 3 | embora (59.9s) | ACAO: sai | sai andando pela lateral | OK |
 | 4 | - | INTERACAO | susto | OK |
 | 5 | - | PLACA | 600.000 | OK |
 
-## Cena b10 - 61.3s a 62.6s - 6 palavras - plano close
+## Cena b10 - 61.2s a 62.5s - 6 palavras - plano close
 > "Nunca um doce custou tão caro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

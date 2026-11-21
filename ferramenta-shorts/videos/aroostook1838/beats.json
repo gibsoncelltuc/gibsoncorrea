@@ -227,7 +227,6 @@
    "interacao": "empurrar",
    "say": "Acontece que um agente do Maine foi preso pelos ingleses, e o clima ficou perigoso.",
    "interior": "pedra",
-   "set": "countryside",
    "props": [
     [
      "kit/prison",

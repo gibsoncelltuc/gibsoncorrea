@@ -1,10 +1,10 @@
-b0: OK - soldado de Módena segura o balde na praça com placa 1325 diante de soldado de Bolonha
-b1: OK - mapa da Itália aparece e Módena e Bolonha se odiavam havia séculos, as duas cidades rivais se encaram na rua com povo ao fundo
-b2: OK - soldados de Módena de amarelo entram escondidos andando à noite em Bolonha
-b3: OK - à noite o poço e o balde grande em cena, soldados riem levando o balde com placa O BALDE
-b4: OK - rei de coroa roxa na sala de pedra exige o balde devolvido com cara fechada
-b5: OK - exército de Bolonha de vermelho marcha em plano aberto com placa 30.000 contra Módena
-b6: OK - sete mil soldados amarelos de Módena parecem derrotados, caras de preocupação no campo
-b7: OK - tropa de Módena ataca de surpresa e o exército vermelho foge correndo em plano aberto
-b8: OK - soldados de Módena perseguem e zombam diante da cidade de Bolonha rindo
-b9: OK - soldado de Módena sorri com o balde na mão e placa 700 ANOS ao lado da cidade
+b0: OK - duas cidades italianas foram à guerra por causa de um balde de madeira, placa 1325, soldado amarelo de Módena e vermelho de Bolonha com o balde de madeira na mão
+b1: OK - Módena e Bolonha se odiavam havia séculos um apoiava o imperador e o outro o papa, soldados amarelo e vermelho de cara fechada discutindo na rua com mapa da Itália
+b2: OK - numa noite soldados de Módena entraram escondidos em Bolonha, cena noturna com soldados amarelos se esgueirando na praça
+b3: OK - não roubaram ouro nem armas levaram o balde velho do poço da praça e voltaram para casa rindo, texto O BALDE com o poço da praça e o balde, soldados rindo
+b4: OK - devolvam o nosso balde exigiu Bolonha venham buscar respondeu Módena, líder de Bolonha de coroa discutindo na sala com o balde
+b5: OK - Bolonha juntou um exército de trinta mil homens e marchou contra a vizinha, placa 30.000 com multidão de soldados vermelhos marchando
+b6: OK - Módena tinha só sete mil soldados parecia uma derrota certa, poucos soldados amarelos diante de uma multidão no campo
+b7: OK - numa única tarde de batalha os sete mil atacaram de surpresa e o exército gigante fugiu correndo, soldados amarelos e vermelhos em confusão na praça com o exército vermelho fugindo
+b8: OK - Módena perseguiu os inimigos até as portas da cidade de Bolonha e ainda zombou deles do lado de fora, multidão amarela marchando atrás dos fugitivos e soldados rindo na rua
+b9: OK - o balde nunca foi devolvido está guardado em Módena até hoje setecentos anos depois, texto 700 ANOS com soldados amarelos comemorando o balde guardado

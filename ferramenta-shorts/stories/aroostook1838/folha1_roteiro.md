@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b5  (~5.2 s)
 - Narracao: Acontece que um agente do Maine foi preso pelos ingleses, e o clima ficou perigoso.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: prende (push) @7 -> acao + som de efeito
 - Efeito visual marcado: -

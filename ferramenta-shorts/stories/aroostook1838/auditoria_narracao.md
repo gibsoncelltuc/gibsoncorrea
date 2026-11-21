@@ -12,7 +12,7 @@ Cenas 100% fieis: 10/10 (100%). Lacunas: 0
 ## b4 OK - O Maine chamou milhares de soldados, e a Inglaterra mandou os seus.
 - na tela: set=['mountain'] animais=[] objetos=[] atores=36 acoes_folha3=['mandou']
 ## b5 OK - Acontece que um agente do Maine foi preso pelos ingleses, e o clima ficou perigoso.
-- na tela: set=['street'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'prison', 'room_europa_stone'] atores=2 acoes_folha3=['preso']
+- na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'prison', 'room_europa_stone'] atores=2 acoes_folha3=['preso']
 ## b6 OK - Mas ninguém queria uma guerra de verdade, então o governo mandou um general conversar.
 - na tela: set=['mountain'] animais=[] objetos=[] atores=2 acoes_folha3=['mandou']
 ## b7 OK - Ele convenceu os dois lados a parar, e a história terminou sem um único tiro.
