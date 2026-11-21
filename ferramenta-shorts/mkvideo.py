@@ -843,6 +843,8 @@ def build_beat(k, b):
         if shot == 'track' or mv:
             d = mv if mv else 8
             acts.append(f"{{ outfit: {json.dumps(out)}, v: {v}, at: [X + {num(dx - d / 2)}, {num(z)}], move: [[X + {num(dx + d / 2)}, {num(z)}], {a}, {bb}, 'lin'], pose: {json.dumps('run' if re.search(r'corre|correu|correram|fugi|fuga|disparou em|debandada|persegui', _say_sp) else 'march' if B.get('outfits', {}).get(out, {}).get('rifle') else 'stroll')}, expr: {_exj(ex)}{ov} }}")   # correu/fugiu: CORRE; soldado marcha; civil caminha solto
+            if re.search(r'corre|correu|correram|fugi|fuga|disparou em|debandada|persegui', _say_sp):   # 21/11 (Gibson): CORRER de verdade = poeira levantando atras de quem corre ao longo do caminho
+                for q_ in range(6): b.setdefault('_anfx', []).append(f"{{ k: 'dust', a: Math.round({a} + ({bb} - ({a})) * {q_ / 6.0:.2f}), b: Math.round({a} + ({bb} - ({a})) * {q_ / 6.0:.2f}) + 18, at: [X + {num(dx - d / 2 + d * q_ / 6.0 - 0.6)}, DK + 0.1, {num(z + 0.2)}], s: 0.55 }}")
         else:
             _pp = _px if _px else (", pose: 'react'" if ex in ('shock', 'nervous') else '' if (hold or shot in WIDE or b.get('acao') == 'nenhuma') else ", pose: 'talk'")   # ninguem fica so piscando: sem acao marcada, gesticula de leve
             if _pp and not _px: b['_acao'] = b.get('_acao') or ('reagir' if 'react' in _pp else 'conversar')
