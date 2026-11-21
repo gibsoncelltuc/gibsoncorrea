@@ -1,164 +1,31 @@
 {
  "fails": [
   {
-   "f": 92,
-   "shot": "b0_d",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 1412,
-   "shot": "b7_d",
-   "why": [
-    "camera inside geometry (rocks@0.05)"
-   ]
-  },
-  {
-   "f": 1414,
-   "shot": "b7_d",
-   "why": [
-    "camera inside geometry (inside solid rocks)"
-   ]
-  },
-  {
-   "f": 1416,
-   "shot": "b7_d",
-   "why": [
-    "camera inside geometry (inside solid rocks)"
-   ]
-  },
-  {
-   "f": 1420,
-   "shot": "b7_d",
-   "why": [
-    "camera inside geometry (inside solid rocks)"
-   ]
-  },
-  {
-   "f": 1424,
-   "shot": "b7_d",
-   "why": [
-    "camera inside geometry (inside solid rocks)"
-   ]
-  },
-  {
-   "f": 1428,
-   "shot": "b7_d",
-   "why": [
-    "camera inside geometry (inside solid rocks)"
-   ]
-  },
-  {
-   "f": 1432,
-   "shot": "b7_d",
-   "why": [
-    "camera inside geometry (inside solid rocks)"
-   ]
-  },
-  {
-   "f": 1436,
-   "shot": "b7_d",
-   "why": [
-    "camera inside geometry (inside solid rocks)"
-   ]
-  },
-  {
-   "f": 1440,
-   "shot": "b7_d",
-   "why": [
-    "camera inside geometry (inside solid rocks)"
-   ]
-  },
-  {
-   "f": 1444,
-   "shot": "b7_d",
-   "why": [
-    "camera inside geometry (inside solid rocks)"
-   ]
-  },
-  {
-   "f": 1703,
-   "shot": "b9",
-   "why": [
-    "pil: head/torso cropped (box -0.091, 0.439, 0.187, 0.814)"
-   ]
-  },
-  {
-   "f": 1704,
-   "shot": "b9",
-   "why": [
-    "pil: head/torso cropped (box -0.127, 0.439, 0.151, 0.815)"
-   ]
-  },
-  {
-   "f": 1708,
-   "shot": "b9",
-   "why": [
-    "pil: head/torso cropped (box -0.269, 0.438, 0.023, 0.817)"
-   ]
-  },
-  {
-   "f": 1712,
-   "shot": "b9",
-   "why": [
-    "pil: head/torso cropped (box -0.426, 0.42, -0.012, 0.819)"
-   ]
-  },
-  {
-   "f": 1716,
-   "shot": "b9",
-   "why": [
-    "pil: head/torso cropped (box -0.563, 0.409, -0.22, 0.818)"
-   ]
-  },
-  {
-   "f": 1720,
-   "shot": "b9",
-   "why": [
-    "pil: head/torso cropped (box -0.74, 0.406, -0.376, 0.816)"
-   ]
-  },
-  {
-   "f": 1724,
-   "shot": "b9",
-   "why": [
-    "pil: head/torso cropped (box -0.925, 0.407, -0.545, 0.809)"
-   ]
-  },
-  {
-   "f": 1728,
-   "shot": "b9",
-   "why": [
-    "pil: head/torso cropped (box -1.086, 0.42, -0.698, 0.804)"
-   ]
-  },
-  {
    "f": 1732,
    "shot": "b9",
    "why": [
-    "pil: head/torso cropped (box -1.221, 0.431, -0.833, 0.806)"
+    "pil: head/torso cropped (box -0.038, 0.486, 0.048, 0.605)"
    ]
   },
   {
    "f": 1736,
    "shot": "b9",
    "why": [
-    "pil: head/torso cropped (box -1.319, 0.43, -0.92, 0.801)"
+    "pil: head/torso cropped (box -0.076, 0.486, 0.012, 0.604)"
    ]
   },
   {
    "f": 1740,
    "shot": "b9",
    "why": [
-    "pil: head/torso cropped (box -1.46, 0.43, -1.042, 0.8)"
+    "pil: head/torso cropped (box -0.122, 0.485, -0.033, 0.604)"
    ]
   },
   {
    "f": 1742,
    "shot": "b9",
    "why": [
-    "pil: head/torso cropped (box -1.588, 0.429, -1.011, 0.806)"
+    "pil: head/torso cropped (box -0.157, 0.485, -0.03, 0.604)"
    ]
   }
  ],
