@@ -14,7 +14,7 @@ b6 | arctic | orbit | 20 | reagir, batalha | - | - | -
 b7 | mountain | group | 7 | conversar, INTERAGEM: avanca e o outro recua | ship, kit/marco_amsterdam, horse | - | -
 b8 | interior madeira | close | 1 | conversar | - | - | -
 
-OBJETO HEROI: kit/navio_vapor - aparece em 0 cena(s), close nele em 1
+OBJETO HEROI: nenhum achado (ponha "heroi": "kit/..." no topo do roteiro)
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b5, b6
 Interacoes entre personagens: b3 aproxima-se, b7 avanca e o outro recua
 

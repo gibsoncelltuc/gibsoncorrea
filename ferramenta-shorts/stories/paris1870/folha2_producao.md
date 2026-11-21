@@ -54,8 +54,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - No Natal, um restaurante famoso serviu consomê de elefante, dromedário...
 - Cenario: interior loja | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): CHF (variante 0, expressao grin); PAR (variante 2, expressao shock)
 - Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/panela
@@ -104,13 +104,13 @@ barrel | b2 | pronto | conferir na folha de contato se le bem; se parecer caixot
 buildings/house_two | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 elephant | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/panela | b5 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/panela | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 wolf | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/balloon | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/panela | grandes momentos: b3, b7 | planos abertos: 2 | mistura: close 28% | medio 63% | aberto 5% | detalhe 3%
+- Objeto heroi: - | grandes momentos: b3, b7 | planos abertos: 2 | mistura: close 28% | medio 66% | aberto 5% | detalhe 0%
 - Interacoes: b0 susto, b1 avanca e o outro recua, b2 discutir, b5 o outro se aproxima
 - RISCOS GERAIS: nenhum
 

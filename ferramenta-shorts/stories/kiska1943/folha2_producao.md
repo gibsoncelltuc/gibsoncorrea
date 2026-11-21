@@ -44,7 +44,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - Mas teve um problema: os japoneses já tinham ido embora.
 - Cenario: arctic | luz: overcast | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): USA (variante 1, expressao shock)
 - Animacao: reagir
@@ -64,8 +64,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Sem inimigo à vista, os Aliados começaram a atirar uns nos outros, no ...
 - Cenario: countryside | luz: overcast | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (3): USA (variante 0, expressao shock); CAN (variante 0, expressao shock); USA (variante 2, expressao pained)
 - Animacao: reagir | interacao: susto
 - Objetos/modelos: kit/marco_alpes
@@ -107,7 +107,7 @@ dog | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, 
 
 
 ## Video inteiro
-- Objeto heroi: kit/dog_sit | grandes momentos: b2, b3 | planos abertos: 3 | mistura: close 20% | medio 49% | aberto 24% | detalhe 8%
+- Objeto heroi: kit/dog_sit | grandes momentos: b2, b3 | planos abertos: 3 | mistura: close 12% | medio 60% | aberto 24% | detalhe 4%
 - Interacoes: b6 susto
 - RISCOS GERAIS: nenhum
 

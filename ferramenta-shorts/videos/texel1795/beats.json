@@ -53,15 +53,15 @@
    "props": [
     [
      "ship",
-     -3,
-     -12.0,
-     1.7
+     -4.800000000000001,
+     -16.0,
+     1.5
     ],
     [
      "ship",
-     5,
-     -12.0,
-     1.7
+     8.0,
+     -16.0,
+     1.5
     ]
    ],
    "text": "1795",
@@ -73,7 +73,8 @@
    ],
    "sfx": [
     "ding@30"
-   ]
+   ],
+   "detalhe": false
   },
   {
    "say": "A frota holandesa estava ancorada perto de Den Helder, e o mar congelou em volta dela.",
@@ -85,15 +86,16 @@
    "props": [
     [
      "ship",
-     0,
-     -12.0,
-     1.7
+     0.0,
+     -16.0,
+     1.5
     ]
    ],
    "text": "FROTA CONGELADA",
    "tat": 7,
    "tstyle": "white",
-   "set": "harbor"
+   "set": "harbor",
+   "detalhe": false
   },
   {
    "say": "Os navios ficaram presos no gelo, como carros num congestionamento.",
@@ -104,21 +106,21 @@
    "props": [
     [
      "ship",
-     -4,
-     -12.0,
-     1.7
+     -6.4,
+     -16.0,
+     1.5
     ],
     [
      "ship",
-     3,
-     -12.0,
-     1.7
+     4.800000000000001,
+     -16.0,
+     1.5
     ],
     [
      "ship",
-     9,
-     -12.0,
-     1.7
+     14.4,
+     -16.0,
+     1.5
     ],
     [
      "vehicles/truck",
@@ -126,7 +128,8 @@
      -3.5,
      2.4
     ]
-   ]
+   ],
+   "detalhe": false
   },
   {
    "say": "Do outro lado, os franceses tinham cavalaria, os hussardos, e nenhum navio.",
@@ -146,7 +149,9 @@
     ]
    ],
    "mood": "march",
-   "set": "countryside"
+   "set": "countryside",
+   "detalhe": false,
+   "shot_lock": true
   },
   {
    "say": "O chefe da cavalaria teve uma ideia maluca: atacar a frota a cavalo.",
@@ -211,15 +216,15 @@
    "props": [
     [
      "ship",
-     -4,
-     -12.0,
-     1.7
+     -6.4,
+     -16.0,
+     1.5
     ],
     [
      "ship",
-     4,
-     -12.0,
-     1.7
+     6.4,
+     -16.0,
+     1.5
     ]
    ],
    "animals": [
@@ -232,7 +237,8 @@
     ]
    ],
    "mood": "playful",
-   "set": "mountain"
+   "set": "mountain",
+   "detalhe": false
   },
   {
    "say": "Dizem que foi a única vez na história em que uma cavalaria capturou uma frota.",
@@ -246,5 +252,5 @@
    "interior": "madeira"
   }
  ],
- "heroi": "kit/navio_vapor"
+ "heroi": null
 }

@@ -14,7 +14,7 @@ b6 | countryside | close | 1 | reagir | kit/marco_notredame, cat, wolf | - | -
 b7 | countryside | crowd | 8 | batalha | kit/marco_notredame, kit/balloon | - | -
 b8 | street | close | 1 | encena | kit/marco_notredame | - | -
 
-OBJETO HEROI: kit/panela - aparece em 1 cena(s), close nele em 1
+OBJETO HEROI: nenhum achado (ponha "heroi": "kit/..." no topo do roteiro)
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b7
 Interacoes entre personagens: b0 susto, b1 avanca e o outro recua, b2 discutir, b5 o outro se aproxima
 
