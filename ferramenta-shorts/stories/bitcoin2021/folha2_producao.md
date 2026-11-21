@@ -88,7 +88,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (3): BUK (variante 0, expressao smile); POV (variante 0, expressao grin); CLI (variante 0, expressao laugh)
 - Animacao: conversar | interacao: insiste
-- Objetos/modelos: kit/bitcoin, kit/volcano, kit/coin
+- Objetos/modelos: kit/bitcoin, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): atencoes, centro, moeda
 - RISCOS: nenhum
 
@@ -101,7 +101,6 @@ kit/bitcoin | b0, b2, b4, b8 | pronto (HEROI: aparece em close) | conferir na fo
 kit/volcano | b0, b1, b3, b4, b5, b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/stall | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/globe | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/coin | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro

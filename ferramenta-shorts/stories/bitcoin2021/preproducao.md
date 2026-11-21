@@ -12,7 +12,7 @@ b4 | street | two | 2 | conversar, INTERAGEM: entregar | kit/stall, kit/bitcoin,
 b5 | countryside | orbit | 13 | batalha | kit/volcano | - | -
 b6 | interior pedra | two | 2 | discutir, INTERAGEM: discutir | - | - | -
 b7 | outback | orbit | 8 | parados (so fala e pisca) | kit/globe, kit/volcano | - | -
-b8 | street | two | 3 | conversar, INTERAGEM: insiste | kit/bitcoin, kit/volcano, kit/coin | - | -
+b8 | street | two | 3 | conversar, INTERAGEM: insiste | kit/bitcoin, kit/volcano | - | -
 
 OBJETO HEROI: kit/bitcoin - aparece em 4 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b5

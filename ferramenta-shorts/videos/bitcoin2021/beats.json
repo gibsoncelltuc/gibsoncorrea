@@ -61,7 +61,8 @@
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "objetos": false
   },
   {
    "say": "O país era El Salvador, na América Central, e a ideia foi do presidente Nayib Bukele.",
@@ -151,7 +152,8 @@
    "impact": false,
    "set": "street",
    "hora": "dia",
-   "detalhe": false
+   "detalhe": false,
+   "objetos": false
   },
   {
    "say": "O governo lançou até uma carteira digital, chamada Chivo.",
@@ -236,7 +238,8 @@
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "objetos": false
   }
  ]
 }
