@@ -1,28 +1,28 @@
 # FOLHA 3 - ACOES - A Morte Branca
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 6.3s - 18 palavras - plano crowd
+## Cena b0 - 0.2s a 6.3s - 18 palavras - plano reveal
 > "Inverno de mil novecentos e trinta e nove. A União Soviética invadiu a Finlândia, com um exército enorme."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | invadiu (4.2s) | EFEITO: dust | poeira + som | OK |
 | 2 | invadiu (4.2s) | ACAO: chega | entra andando pela lateral | OK |
-| 3 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | PLACA | 1939 | OK |
+| 3 | - | PLACA | 1939 | OK |
 
-## Cena b1 - 7.5s a 13.8s - 22 palavras - plano orbit
+## Cena b1 - 7.5s a 13.8s - 22 palavras - plano crowd
 > "Os soldados finlandeses eram poucos, mas conheciam a floresta, a neve e o frio, que chegava a quarenta graus abaixo de zero."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | reagir | OK |
-| 2 | - | MAPA | FINLÂNDIA | OK |
-| 3 | - | PLACA | -40 °C | OK |
+| 1 | - | CENA | tiros: 3 soldados caem no chao | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | ATUACAO | reagir | OK |
+| 4 | - | MAPA | FINLÂNDIA | OK |
+| 5 | - | PLACA | -40 °C | OK |
 
 ## Cena b2 - 14.9s a 17.4s - 9 palavras - plano close
 > "Um deles era um fazendeiro baixinho chamado Simo Häyhä."
@@ -48,24 +48,23 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | NEVE NA BOCA | OK |
 
-## Cena b5 - 28.2s a 34.4s - 21 palavras - plano two
+## Cena b5 - 28.2s a 34.4s - 21 palavras - plano orbit
 > "Em cerca de cem dias, ele teve mais de quinhentos inimigos confirmados, com uma carabina de mira de ferro, sem luneta."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | INTERACAO | susto | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | 100 DIAS | OK |
-
-## Cena b6 - 35.7s a 37.8s - 8 palavras - plano crowd
-> "Os soviéticos passaram a chamá-lo de Morte Branca."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | CENA | tiros: 4 soldados caem no chao | OK |
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 3 | - | ATUACAO | reagir | OK |
-| 4 | - | PLACA | MORTE BRANCA | OK |
+| 4 | - | PLACA | 100 DIAS | OK |
+
+## Cena b6 - 35.7s a 37.8s - 8 palavras - plano orbit
+> "Os soviéticos passaram a chamá-lo de Morte Branca."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | reagir | OK |
+| 2 | - | PLACA | MORTE BRANCA | OK |
 
 ## Cena b7 - 39.0s a 46.1s - 24 palavras - plano two
 > "Em março de mil novecentos e quarenta, uma bala atingiu o rosto dele. Ele sobreviveu, e acordou no dia em que a guerra terminou."

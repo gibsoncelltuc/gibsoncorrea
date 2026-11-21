@@ -4,10 +4,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Agosto de mil novecentos e quarenta e três. Os Aliados prepararam uma ...
 - Cenario: harbor | luz: arctic | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (0): -
-- Animacao: conversar
+- Personagens principais (3): USA (variante 0, expressao determined); USA (variante 1, expressao stern); USA (variante 2, expressao stern) | multidao: 14 de USA
+- Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: ship, kit/marco_alpes
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alasca, aliados, grande, ilha, kiska
 - RISCOS: nenhum
@@ -108,7 +108,7 @@ dog | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, 
 
 ## Video inteiro
 - Objeto heroi: kit/dog_sit | grandes momentos: b2, b3 | planos abertos: 3 | mistura: close 12% | medio 60% | aberto 24% | detalhe 4%
-- Interacoes: b6 susto
+- Interacoes: b0 aproxima-se, b6 susto
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

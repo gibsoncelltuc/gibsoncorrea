@@ -414,7 +414,8 @@ ENC = [(r'^(misturou|misturaram|misturando|mistura|misturar|mexeu|mexendo|mexia|
        (r'^(pensou|pensava|pensando|imaginou|imaginava|ideia|calculou|calculava|percebeu|entendeu|raciocinou|desconfiou)$', 'think', 'pensa'),
        (r'^(protestaram|protestavam|criticaram|denunciaram|reclamaram|manifestantes|protesto|protestos|vaiaram)$', 'up', 'protesto'),
        (r'^(explicou|anunciou|apresentou|prometeu|declarou|discursou|mostrou|ensinou|avisou|ordenou|mandou)$', 'point', 'fala'),
-       (r'^(olhou|olhando|olhavam|apontou|apontando|observou|viu|viram|vendo|enxergou|avistou|espiou|assistiu|assistiram)$', 'point', 'olha'),
+       (r'^(cercou|cercaram|cercando|sitiou|sitiaram|sitiando|bloqueou|bloquearam)$', 'point', 'x_cerca'), (r'^(usou|usaram|usavam|usando|usava)$', 'lift', 'x_usa'), (r'^(serviu|serviram|servindo|servia|serviam|ofereceu|ofereceram)$', 'reach', 'x_serve'),
+       (r'^(olhou|olharam|olhando|olhavam|apontou|apontando|observou|viu|viram|vendo|enxergou|avistou|espiou|assistiu|assistiram)$', 'point', 'olha'),
        (r'^(embora|partiu|partiram|retiraram|recuaram|abandonaram|sairam|saiu|fugiram|zarparam)$', None, 'sai'),
        (r'^(chao|nocauteado|nocaute|desmaiou|desmaiaram|tombou|tropecou|escorregou|derrubado|derrubada|derrubados)$', None, 'tomba'),
        (r'^(dormiam|dormia|dormindo|dormiu|cochilou|cochilavam|adormeceu|adormeceram)$', None, 'dorme'),
@@ -795,7 +796,7 @@ def build_beat(k, b):
     if not _acao: _acao = 'comemorar' if not IMPACT.search(_say_sp) and re.search(r'\bfesta|comemor|venceu|venceram|vitoria|\bbrind|gargalh|\briu\b|\briram\b|\brindo\b', _say_sp) else 'conversar' if '"' in b['say'] else None
     if _acao == 'nenhuma': _acao = None
     b['_acao'] = _acao
-    _px = {'dancar': ", pose: 'dance', acting: false", 'discutir': ", pose: 'argue'", 'comemorar': ", pose: 'cheer'", 'conversar': ", pose: 'talk'", 'reagir': ", pose: 'react'"}.get(_acao, '')   # "acao": "discutir" -> os personagens gesticulam um para o outro
+    _px = {'dancar': ", pose: 'dance', acting: false", 'discutir': ", pose: 'argue'", 'comemorar': ", pose: 'cheer'", 'conversar': ", pose: 'talk'", 'reagir': ", pose: 'react'", 'comer': ", pose: 'eat'"}.get(_acao, '')   # "acao": "discutir" -> os personagens gesticulam um para o outro
     _say_cg = re.sub(r'(entrou|entraram|chegou|chegaram) (?:para|na|no|em)? ?(?:o |a |os |as )?(hall da fama|historia|lista|moda|ar\b|vigor|cena|jogo\b|equipe|grupo|clube|empresa|escola|faculdade|partido|governo)', ' ', _say_sp)   # 20/11: 'entrou para o Hall da Fama / para a historia' e' figurado: ninguem entra andando
     _chega = b.get('chega') if 'chega' in b else bool(re.search(r'chegou|chegaram|entrou|entraram|apareceu|apareceram|veio|vieram|correu para|correram para', _say_cg))
     persons = []
@@ -868,7 +869,7 @@ def build_beat(k, b):
             if _w_tiro is not None: b.setdefault('_anfx', []).append(f"{{ k: 'stars', a: WS({_w_tiro}) + 4, b: WS({_w_tiro}) + 40, at: [X + {num(dxa)}, DK + 1.6, {num(za)}], s: 0.7 }}")
             for w_, d_ in ((_w_come, 'come'), (_w_entra, 'entra caminhando'), (_w_foge, 'foge correndo'), (_w_tiro, 'leva o tiro e cai'), (_w_alert, 'se assusta')):
                 if w_ is not None: PLANO.append((k, f'animal: {sp} {d_}', 'acao')); b.setdefault('_enc_words', []).append(nrm(b['say'].split()[w_ - starts[k]]))
-            acts.append(f"{{ {key}: {json.dumps(sp)}" + (_mvjs if _mvjs else f", at: [X + {num(dxa)}, {num(za)}]") + f", state: {_stjs}, s: {num(sc)}" + ('' if _mvjs else f", flip: {fl}") + f", seed: {j * 3 + 1} }}")
+            acts.append(f"{{ {key}: {json.dumps(sp)}" + (_mvjs if _mvjs else f", at: [X + {num(dxa)}, {num(za)}]") + f", state: {_stjs}, s: {num(sc)}" + ('' if _mvjs else f", flip: {fl}") + f", seed: {j * 3 + 1}" + (f", y: {num(an[5])}" if len(an) > 5 else '') + " }")   # 6o campo = altura (animal EM CIMA da mesa)
     # CAVALARIA (ordem do Gibson 19/11): soldados A CAVALO cruzando a cena (cavalo 3D com sela + cavaleiro da tropa montado). "cavalaria": {"n": 4, "outfit": "OFF", "dir": 1}
     cav = b.get('cavalaria')
     if cav:
@@ -1141,7 +1142,7 @@ def build_beat(k, b):
             _gst.setdefault(('poses', 0), []).append(f"[{a}, {bb}, 'sleep']")
         if any(t_ == 'x_acorda' for _, _, t_, _ in _encs): _st['dorme'] = False
         _sy_ = nrm(b['say']); _mat_ok = bool(_alvo) or any(re.search(r_, _sy_) for r_, a_ in ENC_MAT + ENC_RES) or bool(_st.get('mat'))
-        _ok = {'cai': _mat_ok, 'vira': _mat_ok, 'calor': _mat_ok or bool(re.search(r'fogao|forno|panela|ferv|aquec|esquent|caldeir', _sy_)), 'golpe': bool(re.search(r'ringue|luta|boxe|lutador|briga|soco|golpe|enfrent', _sy_)), 'bola': bool(re.search(r'futebol|\bcopa\b|\bbola\b|\bgol\b|estadio|chut', _sy_)), 'raspa': bool(re.search(r'cabeca|cabelo|careca|maquina|barba', _sy_)), 'x_come': not (b.get('animals') and re.search(r'porco|vaca|cavalo|cachorro|gato|galinha|ganso|emu|ovelha|cabra|bicho|animal|rato|passaro', _sy_))}
+        _ok = {'cai': _mat_ok, 'vira': _mat_ok, 'calor': _mat_ok or bool(re.search(r'fogao|forno|panela|ferv|aquec|esquent|caldeir', _sy_)), 'golpe': bool(re.search(r'ringue|luta|boxe|lutador|briga|soco|golpe|enfrent', _sy_)), 'bola': bool(re.search(r'futebol|\bcopa\b|\bbola\b|\bgol\b|estadio|chut', _sy_)), 'raspa': bool(re.search(r'cabeca|cabelo|careca|maquina|barba', _sy_)), 'x_come': b.get('humanos_comem') or not (b.get('animals') and re.search(r'porco|vaca|cavalo|cachorro|gato|galinha|ganso|emu|ovelha|cabra|bicho|animal|rato|passaro', _sy_))}
         _encs = [e_ for e_ in _encs if _ok.get(e_[2], True)]
         b.setdefault('_enc_words', []).extend(w__ for t__, w__ in _mesmos if _ok.get(t__, True) and t__ in {e_[2] for e_ in _encs})   # "o imperio caiu", "abriram fogo", "a luta virou bagunca" NAO sao processo fisico
         for n_e, (wi_, gest_, tipo_, j_) in enumerate(_encs[:6]):
@@ -1282,7 +1283,7 @@ def build_beat(k, b):
                       'x_fone': ('ding', 'ring', 'kit/phone'), 'x_lava': ('creak', 'splash', 'kit/wash_basin'), 'x_beija': ('ding', 'stars', None), 'x_planta': ('thump', 'dust', None), 'x_pesca': ('tick', 'splash', None),
                       'x_costura': ('tick', None, None), 'x_pinta': ('tick', 'stars', None), 'x_bate': ('thump', 'burst', None), 'x_procura': ('tick', None, 'kit/lupa'), 'x_vigia': ('tick', None, None), 'x_saluda': ('sting', None, None),
                       'x_reza': ('ding', 'stars', None), 'x_aplaude': ('ding', 'stars', None), 'x_abraca': ('ding', 'stars', None), 'x_acorda': ('ding', 'stars', None), 'x_espera': ('tick', None, None), 'x_treme': ('creak', None, None),
-                      'x_tosse': ('thump', 'puff', None), 'x_nada': ('creak', 'splash', None), 'x_ri': ('ding', 'stars', None), 'x_abre': ('creak', None, None), 'x_solta': ('ding', 'stars', None), 'x_entrega': ('tick', None, None)}.get(tipo_, ('tick', None, None))
+                      'x_tosse': ('thump', 'puff', None), 'x_nada': ('creak', 'splash', None), 'x_ri': ('ding', 'stars', None), 'x_abre': ('creak', None, None), 'x_solta': ('ding', 'stars', None), 'x_entrega': ('tick', None, None), 'x_cerca': ('steps', 'dust', None), 'x_serve': ('tick', 'stars', None), 'x_usa': ('tick', 'stars', None)}.get(tipo_, ('tick', None, None))
                 if _X[2] and _X[2] not in ' '.join(pr): pr.append(f"{{ asset: {json.dumps(_X[2])}, a: WS({wi_}) - 4, b: {bb}, at: [X + {num(_hx)}, {num(_z0 + 0.6)}], y: DK + {1.9 if _X[2] in ('kit/phone', 'kit/scroll', 'kit/lupa') else 0}, s: {0.35 if _X[2] in ('kit/phone', 'kit/scroll', 'kit/lupa') else 0.6}, drop: false }}")
                 if _X[1]: fx.append(f"{{ k: {json.dumps(_X[1])}, a: WS({wi_}) + 3, b: WS({wi_}) + 30, at: [X + {num(sl[0] + (0.6 if _X[1] in ('splash', 'puff') else 0))}, DK + {2.6 if _X[1] in ('stars', 'ring') else 1.6}, {num(_z0 + 0.4)}], s: 0.6 }}")
                 if tipo_ == 'x_treme' and acts: _gst.setdefault('inter', []).append(f"inter: {{ k: 'shiver', a: WS({wi_}), b: WS({wi_}) + 50, dir: 1, n: 3, ph: 0 }}")
@@ -1346,6 +1347,15 @@ def build_beat(k, b):
             if _m: _vis.add(_m.group(1))
             _pr2.append(_p)
         pr = _pr2
+    # 21/11 OBJETO EM MOVIMENTO / PROJETIL (ordem do Gibson: "jogou a esfera NA JANELA" tem que ser mostrado voando ate o alvo; pombos voando; bola chutada)
+    # beats.json: "voa": [{"asset": "kit/steel_ball", "de": [x, z], "para": [x, z], "y": 1.7, "alvo_y": 1.6, "arco": 0.9, "palavra": "jogou", "dur": 22, "s": 0.5}]
+    for _v in (b.get('voa') or []):
+        _wi = next((starts[k] + j_ for j_, w_ in enumerate(b['say'].split()) if re.match(_v.get('palavra', '^$'), nrm(w_))), starts[k])
+        _d = int(_v.get('dur', 24)); _x0, _z0v = _v.get('de', [0, 0]); _x1, _z1v = _v.get('para', [2, 0]); _y0 = float(_v.get('y', 1.6)); _y1 = float(_v.get('alvo_y', _y0)); _arc = float(_v.get('arco', 0.0))
+        pr.append(f"{{ asset: {json.dumps(_v['asset'])}, a: WS({_wi}), b: {'WS(' + str(_wi) + ') + ' + str(_d) + (' + 60' if _v.get('fica') else '')}, at: [X + {num(_x0)}, {num(_z0v)}], move: [[X + {num(_x1)}, {num(_z1v)}], WS({_wi}), WS({_wi}) + {_d}, 'lin'], y: (f) => {{ const t = Math.min(1, Math.max(0, (f - WS({_wi})) / {_d})); return DK + {num(_y0)} + ({num(_y1)} - {num(_y0)}) * t + {num(_arc)} * Math.sin(Math.PI * t); }}, spinY: {num(_v.get('gira', 3))}, s: {num(_v.get('s', 0.5))}" + (f", tint: {json.dumps(_v['tint'])}" if _v.get('tint') else '') + ", drop: false }")
+        b.setdefault('_enc_words', []).append(nrm(_v.get('palavra', '')).strip('^$()|'))
+        PLANO.append((k, f"voa: {_v['asset'].split('/')[-1]} sai da mao e voa ate o alvo" + (' + som' if _v.get('som') else ''), 'acao'))
+        if _v.get('som'): KWSFX.append((_wi, _v['som']))
     if pr: opts.append(f"props: [{', '.join(pr)}]")
     if fx: opts.append(f"fx: [{', '.join(fx)}]")
     call = f"S('b{k}', {a}, {bb}, X, {json.dumps(light)}, {{ {', '.join(opts)} }})"
@@ -1646,7 +1656,7 @@ _ENC_DESC = {'mistura': 'mexe a panela (borbulhando)', 'cai': 'o material voa da
     'raspa': 'maquina na cabeca + cabelo voando', 'prende': 'empurra/prende', 'escala': 'escala (bracos para cima)', 'espeta': 'espeta + estouro', 'bola': 'chuta a bola: parabola pela GRAVIDADE (0,67 s)', 'negocio': 'moeda girando (compra/venda)',
     'tira': 'tira foto (celular + flash)', 'rende': 'maos para cima (rendicao)', 'voa': 'decola: poeira no chao, olha para cima', 'cava': 'cava: poeira', 'vence': 'bracos para cima + brilho', 'perde': 'mao na testa',
     'toca': 'onda de som (sirene/sino)', 'queima': 'fogo + fumaca', 'grita': 'grita de bracos para cima', 'atira': 'arma na mao, aponta, clarao e som de tiro', 'corre': 'sai correndo pela lateral + poeira', 'pula': f'pula 2 vezes: sobe {GPULO_H} m e volta pela GRAVIDADE em {GPULO_T:.2f} s cada pulo', 'acena': 'acena com a mao', 'empurra': 'empurra/puxa', 'brilha': 'o objeto brilha na palavra (ondas de luz + estrelas)',
-    'x_bebe': 'leva o copo a boca', 'x_come': 'leva a comida a boca', 'x_chora': 'mao no rosto + lagrimas', 'x_canta': 'canta de bracos abertos + onda de som', 'x_le': 'le o papel', 'x_fone': 'celular na mao + toque',
+    'x_bebe': 'leva o copo a boca', 'x_come': 'leva a comida a boca', 'x_cerca': 'tropa avanca em volta da cidade + poeira', 'x_usa': 'usa o objeto da cena + brilho', 'x_serve': 'estende o prato + brilho', 'x_chora': 'mao no rosto + lagrimas', 'x_canta': 'canta de bracos abertos + onda de som', 'x_le': 'le o papel', 'x_fone': 'celular na mao + toque',
     'x_lava': 'lava/esfrega na bacia + respingo', 'x_beija': 'beijo/abraco + brilho', 'x_planta': 'cava/planta + terra', 'x_pesca': 'puxa a linha + respingo', 'x_costura': 'costura', 'x_pinta': 'pinta/desenha + brilho',
     'x_bate': 'bate + estouro', 'x_procura': 'procura com a lupa', 'x_vigia': 'vigia de bracos cruzados', 'x_saluda': 'bate continencia', 'x_reza': 'reza + brilho', 'x_aplaude': 'aplaude de bracos para cima',
     'x_abraca': 'abraco', 'x_acorda': 'estava dormindo e acorda na palavra', 'x_espera': 'espera de bracos cruzados', 'x_treme': 'treme', 'x_tosse': 'tosse/espirra + nuvenzinha', 'x_nada': 'braco para cima + respingo',

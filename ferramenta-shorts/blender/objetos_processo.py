@@ -104,6 +104,25 @@ def turbina():
     escala(2.4)
     fim(.0)
 
-E = dict(panela=panela, frasco=frasco, tubos=tubos, enxofre=enxofre, gosma=gosma, borracha=borracha, microscopio=microscopio, balanca=balanca, lupa=lupa, bancada=bancada, burr=burr, turbina=turbina)
+def rato():
+    novo('rato')                         # 21/11: rato cinza com orelhas e rabo rosa (Paris: 'os roedores viraram um prato chique')
+    bola((0, .11, 0), .10, '#8d8d94', seg=12); bola((0, .11, .09), .085, '#8d8d94', seg=12); bola((0, .11, -.07), .08, '#85858c', seg=10)
+    bola((0, .10, .17), .06, '#9a9aa2', seg=10); bola((0, .09, .225), .022, '#e58f9a', seg=8)
+    for sx in (-1, 1):
+        bola((sx * .045, .175, .14), .034, '#e8a0aa', seg=8); bola((sx * .03, .125, .21), .011, '#1a1a1a', seg=6)
+        cil((sx * .05, .02, .05), .014, .04, '#e8a0aa', lados=6); cil((sx * .05, .02, -.06), .014, .04, '#e8a0aa', lados=6)
+    tubo([(0, .09, -.13), (0, .04, -.25), (0, .07, -.38), (.04, .05, -.46)], .011, '#e0a0a8')
+    escala(1.0)
+    fim(.0)
+def trave():
+    novo('trave')                        # 21/11: gol de futebol (2 traves, travessao e rede) - Guerra do Futebol
+    for sx in (-1, 1): cil((sx * 1.1, .6, 0), .045, 1.2, '#f6f6f2', lados=10); tubo([(sx * 1.1, 1.2, 0), (sx * 1.1, .6, -.55), (sx * 1.1, 0, -.7)], .02, '#dcdcdc')
+    caixa((0, 1.2, 0), (2.28, .09, .09), '#f6f6f2'); tubo([(-1.1, 1.2, -.0), (-1.1, 1.0, -.55), (1.1, 1.0, -.55), (1.1, 1.2, 0)], .018, '#dcdcdc')
+    for k in range(9): tubo([(-1.1 + k * .275, 1.0, -.55), (-1.1 + k * .275, 0, -.7)], .008, '#e6e6e6')
+    for k in range(5): tubo([(-1.1, 1.0 - k * .2, -.55 - k * .03), (1.1, 1.0 - k * .2, -.55 - k * .03)], .008, '#e6e6e6')
+    escala(1.4)
+    fim(.0)
+
+E = dict(panela=panela, frasco=frasco, tubos=tubos, enxofre=enxofre, gosma=gosma, borracha=borracha, microscopio=microscopio, balanca=balanca, lupa=lupa, bancada=bancada, burr=burr, turbina=turbina, rato=rato, trave=trave)
 alvo = sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else list(E)
 for k in alvo: E[k]()

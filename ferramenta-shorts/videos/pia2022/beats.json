@@ -48,17 +48,21 @@
  },
  "beats": [
   {
-   "say": "Em outubro de dois mil e vinte e dois, Elon Musk esteve na sede do Twitter, em São Francisco, com uma pia.",
-   "shot": "two",
+   "say": "Em outubro de dois mil e vinte e dois, Elon Musk apareceu na sede do Twitter, em São Francisco, carregando uma pia.",
+   "shot": "track",
    "who": [
     "MUS:0:grin"
    ],
    "props": [
     [
      "kit/sink",
-     1.5,
-     -2.0,
-     2.5
+     0.35,
+     1.55,
+     0.9,
+     {
+      "carregado": true,
+      "y": 0.75
+     }
     ]
    ],
    "tiros": false,
@@ -66,10 +70,7 @@
    "impact": false,
    "sfx": [
     "whoosh@20"
-   ],
-   "mapa": "ESTADOS UNIDOS",
-   "mapa_at": 3.5,
-   "detalhe": true
+   ]
   },
   {
    "say": "Ele filmou a própria entrada e postou o vídeo na internet.",
@@ -77,10 +78,11 @@
    "who": [
     "MUS:0:smug"
    ],
+   "mapa": "ESTADOS UNIDOS",
+   "mapa_at": 1,
    "tiros": false,
    "batalha": false,
-   "impact": false,
-   "shot_lock": true
+   "impact": false
   },
   {
    "say": "A legenda dizia: Entrando na sede do Twitter. Deixe isso afundar.",
@@ -93,9 +95,9 @@
    "props": [
     [
      "kit/sink",
-     1.5,
-     -2.0,
-     2.0
+     -1.5,
+     0.3,
+     1.2
     ]
    ],
    "tiros": false,
@@ -117,9 +119,9 @@
    "props": [
     [
      "kit/sink",
-     1.5,
-     -2.0,
-     2.5
+     1.3,
+     0.2,
+     1.5
     ]
    ],
    "fx": [
@@ -130,8 +132,7 @@
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false,
-   "detalhe": true
+   "impact": false
   },
   {
    "say": "Naquela época, ele estava prestes a fechar a compra do Twitter, por quarenta e quatro bilhões de dólares.",
@@ -201,9 +202,9 @@
    "props": [
     [
      "kit/sink",
-     1.5,
-     -2.0,
-     2.0
+     1.8,
+     -0.3,
+     1.3
     ]
    ],
    "tiros": false,
@@ -211,6 +212,5 @@
    "impact": false
   }
  ],
- "exp": 1.0,
- "regiao": "eua"
+ "exp": 1.0
 }

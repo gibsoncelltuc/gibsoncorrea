@@ -1,0 +1,28 @@
+# AUDITORIA NARRACAO x TELA: aprendiz2004
+Cenas 100% fieis: 8/11 (73%). Lacunas: 3
+
+## b0 OK - Duas palavras transformaram um empresário de Nova York numa estrela da televisão mundial: você está demitido.
+- na tela: set=['street'] animais=[] objetos=['marco_trumptower', 'tv'] atores=6 acoes_folha3=['transformaram']
+## b1 OK - Em janeiro de dois mil e quatro, estreou nos Estados Unidos o programa O Aprendiz.
+- na tela: set=['street'] animais=[] objetos=['marco_trumptower'] atores=8 acoes_folha3=[]
+## b2 OK - Dezesseis candidatos disputavam um prêmio raro: um emprego de verdade numa empresa de Donald Trump.
+- na tela: set=['hall'] animais=[] objetos=['room_eua_shop'] atores=2 acoes_folha3=['prêmio', 'prêmio']
+## b3 OK - Toda semana, as equipes tinham uma tarefa de negócios, como vender limonada na rua ou criar uma propaganda.
+- na tela: set=['street'] animais=[] objetos=['coin', 'marco_trumptower', 'stall'] atores=6 acoes_folha3=['vender', 'vender']
+## b4 OK - No fim, a equipe perdedora ia para a sala de reunião, e alguém tinha que ir embora.
+- na tela: set=['hall'] animais=[] objetos=['room_eua_shop'] atores=2 acoes_folha3=['perdedora', 'embora']
+## b5 LACUNA - Acontece que o jeito de eliminar virou a marca do programa. Ele apontava o dedo e dizia: você está demitido.
+- na tela: set=['hall'] animais=[] objetos=['room_eua_shop'] atores=1 acoes_folha3=[]
+- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
+## b6 LACUNA - A final da primeira temporada foi vista por cerca de vinte e oito milhões de americanos.
+- na tela: set=['countryside'] animais=[] objetos=['marco_trumptower', 'picket_fence', 'tv'] atores=33 acoes_folha3=[]
+- **FALTA:** ACAO narrada ("cerca") sem animacao na folha 3
+## b7 OK - O vencedor, Bill Rancic, ganhou o emprego, com salário de duzentos e cinquenta mil dólares por ano.
+- na tela: set=['countryside'] animais=[] objetos=['marco_trumptower'] atores=2 acoes_folha3=['vencedor', 'ganhou']
+## b8 LACUNA - O formato se espalhou pelo mundo. No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus.
+- na tela: set=['street'] animais=[] objetos=['marco_trumptower'] atores=2 acoes_folha3=[]
+- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
+## b9 OK - Trump apresentou o programa por mais de dez anos, e só saiu em dois mil e quinze, quando entrou na política.
+- na tela: set=['harbor'] animais=[] objetos=['marco_trumptower', 'tv'] atores=6 acoes_folha3=['apresentou', 'saiu', 'entrou']
+## b10 OK - Um programa de emprego que acabou ficando famoso justamente por demitir.
+- na tela: set=['street'] animais=[] objetos=['marco_trumptower', 'tv'] atores=1 acoes_folha3=[]

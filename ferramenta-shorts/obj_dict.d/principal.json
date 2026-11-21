@@ -184,5 +184,17 @@ false
 "kit/turbina",
 1.0,
 false
+],
+[
+"\\\\bratos?\\\\b|roedores?|ratazanas?",
+"kit/rato",
+1.3,
+false
+],
+[
+"\\\\bgol\\\\b|golaco|\\\\btraves?\\\\b",
+"kit/trave",
+1.0,
+false
 ]
 ]

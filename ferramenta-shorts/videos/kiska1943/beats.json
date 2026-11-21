@@ -41,20 +41,24 @@
  "beats": [
   {
    "say": "Agosto de mil novecentos e quarenta e três. Os Aliados prepararam uma grande invasão da ilha de Kiska, no Alasca, ocupada pelos japoneses.",
-   "shot": "wide",
-   "who": [],
+   "shot": "group",
+   "who": [
+    "USA:0:determined",
+    "USA:1:stern",
+    "USA:2:stern"
+   ],
    "props": [
     [
      "ship",
-     -5,
-     -12.0,
-     1.7
+     -8.0,
+     -26.0,
+     1.6
     ],
     [
      "ship",
-     4,
-     -12.0,
-     1.7
+     9.0,
+     -26.0,
+     1.6
     ]
    ],
    "text": "KISKA 1943",
@@ -62,7 +66,15 @@
    "tstyle": "white",
    "mood": "epic",
    "set": "harbor",
-   "acao": "conversar"
+   "acao": "conversar",
+   "shot_lock": true,
+   "crowd": {
+    "n": 14,
+    "outfits": [
+     "USA"
+    ],
+    "march": true
+   }
   },
   {
    "say": "Foram mais de trinta e quatro mil soldados americanos e canadenses, com navios, aviões e tanques.",
@@ -152,15 +164,15 @@
    "props": [
     [
      "ship",
-     -2,
-     -12.0,
-     1.7
+     -8.0,
+     -26.0,
+     1.6
     ],
     [
      "ship",
-     6,
-     -12.0,
-     1.7
+     9.0,
+     -26.0,
+     1.6
     ]
    ],
    "light": "overcast",

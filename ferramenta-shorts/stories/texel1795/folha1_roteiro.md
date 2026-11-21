@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 9
 - Narracao: Do outro lado, os franceses tinham cavalaria, os hussardos, e nenhum navio.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: cavalaria: 2 soldados a cavalo (FRA) -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

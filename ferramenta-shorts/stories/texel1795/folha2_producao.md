@@ -36,7 +36,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: countryside | luz: arctic | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
-- Personagens principais (3): FRA (variante 0, expressao stern); FRA (variante 1, expressao neutral); OFF (variante 0, expressao stern)
+- Personagens principais (3): FRA (variante 0, expressao stern); FRA (variante 1, expressao neutral); OFF (variante 0, expressao stern) | multidao: 8 de FRA
 - Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/marco_amsterdam, horse
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franceses, hussardos

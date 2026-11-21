@@ -35,3 +35,16 @@ Obrigado pelo ritmo: ja entreguei 24 videos ao Gibson. Continue: aroostook, cach
 ENTREGUES AO GIBSON (parabens, ficaram bons): bukele2024, bitcoin2021, aprendiz2004 (A) | gansos390, aroostook1838, paypal2002 (B).
 SESSAO B - pia2022 (PF 10) REPROVADO: o objeto heroi (a PIA, kit/sink) aparece PEQUENO e CORTADO na beira direita do quadro (0-5 s e 34 s), sem close. Ponha a pia em escala real (props 4o numero ~2,5) no centro-fundo (x ~ 1,5; z ~ -2) e use "detalhe": true numa cena de 8+ palavras com a pia em props (b0 ou b3). Confira os quadros em 1 s, 5 s e 34 s.
 SESSAO A - ese_buraco: NAO produzir "E Se" (pausada por ordem do Gibson). Nao enviar mais nada dessa serie.
+
+# ORDEM DO GIBSON (21/11 13:40) - VALE PARA TODO VIDEO, ACIMA DE TUDO
+O QUE A NARRACAO CONTA TEM QUE APARECER NA TELA, FRASE POR FRASE. A folha 3 "0 faltando" NAO prova isso: ela so' conta as acoes que a ferramenta ja reconhecia, e verbo/animal/lugar desconhecido ficava invisivel (Paris saiu com 6 de 9 cenas vazias; Futebol sem campo, sem time, sem gol; Cybertruck sem a esfera voando na janela e sem palco).
+NOVO PORTAO: `python3 auditar_narracao.py <id>` (gera stories/<id>/auditoria_narracao.md). `./aprovar_storyboard.sh` agora RECUSA enquanto houver cena com lacuna.
+COMO ENCENAR (beats.json), exemplos prontos em videos/paris1870/beats.json:
+- "comeram os cavalos": mesa `["mk/Table_Large",0,2.6,1.8]` NA FRENTE das pessoas + animais EM CIMA `"animals":[["horse",-1.0,2.6,"stand",0.3,1.55]]` (6o numero = altura) + `"acao":"comer","humanos_comem":true` (todos levam a comida a boca). Prato `["mk/Table_Plate",x,2.6,2.0,{"y":1.55}]`, rato `["kit/rato",x,2.6,2.0,{"y":1.6,"fixo":true}]`.
+- "cercou/sitiou": `"shot":"reveal","crowd":{"n":22,"outfits":["ALE"],"march":true}` com soldados da epoca atras da cidade.
+- objeto que VOA ate o alvo (esfera na janela, pombos, bola): `"voa":[{"asset":"kit/steel_ball","de":[x,z],"para":[x,z],"y":1.7,"alvo_y":1.6,"arco":0.9,"palavra":"^jogou","dur":22,"s":0.5,"som":"thump"}]`.
+- lugar narrado que nao e' `set` (zoologico, restaurante, palco): monte com props (cerca, jaulas `mk/Cage_Small`, mesa) + `text`.
+- animal que a ferramenta poe sozinho e tampa a cena (elefante gigante no restaurante): `"animais": false` ou ponha `"animals"` na mao com escala pequena.
+- NOVOS MODELOS: kit/rato, kit/trave (gol), kit/turbina. Objeto sem modelo: MODELE no Blender (blender/objetos_processo.py), nao deixe so' no letreiro.
+CADA CENA: abra o quadro (`./prechecar.sh <id> bN 4`) e compare com a FRASE. "Parece certo" nao basta: o que a frase diz esta na imagem?
+VIDEOS JA ENTREGUES: o Gibson viu que varios NAO seguem a narracao. Todo video seu entregue sera REFEITO. Ordem de prioridade: rode `python3 auditar_narracao.py --todos`, refaca primeiro os de menor %.

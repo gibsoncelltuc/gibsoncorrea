@@ -8,7 +8,7 @@
  "set": "street",
  "light": "golden",
  "mood": "playful",
- "heroi": "kit/roadster",
+ "heroi": "kit/coin",
  "outfits": {
   "MUS": {
    "jacket": "#3a3d45",
@@ -52,7 +52,7 @@
      "kit/coin",
      1.5,
      0.2,
-     0.35
+     1.0
     ]
    ],
    "tiros": false,
@@ -78,15 +78,12 @@
      "kit/coin",
      -1.5,
      0.3,
-     0.35
+     1.0
     ]
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false,
-   "hora": "dia",
-   "shot_lock": true,
-   "set": "countryside"
+   "impact": false
   },
   {
    "say": "O valor do negócio foi de um bilhão e meio de dólares, pagos em ações.",
@@ -99,7 +96,7 @@
      "kit/coin",
      1.3,
      0.2,
-     0.35
+     1.0
     ]
    ],
    "text": "US$ 1,5 BILHÃO",
@@ -129,8 +126,7 @@
    },
    "tiros": false,
    "batalha": false,
-   "impact": true,
-   "set": "palace"
+   "impact": true
   },
   {
    "say": "Com o dinheiro da venda, ele pôde investir em novos projetos, como a SpaceX e a Tesla.",
@@ -141,12 +137,6 @@
    ],
    "acao": "conversar",
    "props": [
-    [
-     "kit/roadster",
-     1.6,
-     -3.2,
-     2.6
-    ],
     [
      "kit/rocket",
      3.0,
@@ -162,9 +152,7 @@
    ],
    "sfx": [
     "ding@3"
-   ],
-   "set": "outback",
-   "detalhe": true
+   ]
   },
   {
    "say": "A SpaceX foi fundada naquele mesmo ano, em dois mil e dois.",
@@ -197,8 +185,7 @@
    },
    "tiros": false,
    "batalha": false,
-   "impact": true,
-   "set": "harbor"
+   "impact": true
   },
   {
    "say": "Uma venda de internet que ajudou a pagar foguetes e carros elétricos.",
@@ -210,20 +197,14 @@
    ],
    "props": [
     [
-     "kit/roadster",
-     2.0,
-     -3.5,
-     2.6
-    ],
-    [
      "kit/coin",
      1.8,
      -0.3,
-     0.35
+     1.0
     ],
     [
      "kit/rocket",
-     -3.0,
+     3.0,
      -10.0,
      1.1
     ]
@@ -236,15 +217,12 @@
    ],
    "sfx": [
     "ding@3"
-   ],
-   "hora": "dia",
-   "set": "countryside"
+   ]
   }
  ],
  "fontes": [
   "https://en.wikipedia.org/wiki/PayPal",
   "https://en.wikipedia.org/wiki/SpaceX"
  ],
- "exp": 1.12,
- "cinf": 4.5
+ "exp": 1.0
 }
