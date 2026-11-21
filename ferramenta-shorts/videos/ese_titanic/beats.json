@@ -53,7 +53,7 @@
      "kit/iceberg",
      0,
      -3.0,
-     1.0
+     2.2
     ]
    ],
    "text": "1912",
@@ -76,9 +76,9 @@
    "props": [
     [
      "ship",
-     0,
-     -14.0,
-     1.0
+     -3,
+     -17,
+     1.4
     ]
    ],
    "say": "Abril de mil novecentos e doze. O Titanic levava mais de duas mil pessoas para Nova York."
@@ -93,9 +93,9 @@
    "props": [
     [
      "kit/iceberg",
-     2.0,
+     3.0,
      -8.0,
-     1.4
+     4.5
     ]
    ],
    "fx": [
@@ -117,7 +117,7 @@
      "kit/iceberg",
      1.6,
      -1.6,
-     0.9
+     2.2
     ]
    ],
    "fx": [
@@ -192,9 +192,9 @@
    "props": [
     [
      "ship",
-     2.0,
-     -12.0,
-     0.9
+     -3,
+     -17,
+     1.4
     ]
    ],
    "interacao": "cochichar",
@@ -233,9 +233,9 @@
    "props": [
     [
      "kit/iceberg",
-     2.0,
+     3.0,
      -8.0,
-     1.2
+     4.5
     ]
    ],
    "interacao": "entregar",
@@ -262,9 +262,9 @@
    "props": [
     [
      "ship",
-     0,
-     -14.0,
-     1.0
+     -3,
+     -17,
+     1.4
     ]
    ],
    "fx": [
@@ -289,11 +289,13 @@
      "kit/iceberg",
      -1.4,
      -1.6,
-     0.9
+     2.2
     ]
    ],
    "acao": "conversar",
    "say": "Às vezes, o pior dia da história é o que deixa o futuro mais seguro."
   }
- ]
+ ],
+ "cinf": 1.5,
+ "exp": 1.404
 }

@@ -57,16 +57,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | reagir | OK |
 | 3 | - | PLACA | 5.000 °C | OK |
 
-## Cena b6 - 38.5s a 45.4s - 21 palavras - plano group
+## Cena b6 - 38.5s a 44.3s - 21 palavras - plano group
 > "Aí você pulou, e caiu cada vez mais rápido, e passou pelo centro do planeta a milhares de quilômetros por hora."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | pulou (39.1s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
-| 2 | caiu (39.7s) | EFEITO: dust | poeira + som | OK |
+| 1 | pulou (38.9s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
+| 2 | caiu (39.9s) | EFEITO: dust | poeira + som | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b7 - 46.1s a 49.6s - 12 palavras - plano two
+## Cena b7 - 45.5s a 48.8s - 12 palavras - plano two
 > "Depois iria freando, e sairia do outro lado em uns quarenta minutos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -74,16 +74,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | cochichar | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b8 - 49.9s a 55.8s - 14 palavras - plano two
+## Cena b8 - 50.1s a 54.7s - 14 palavras - plano two
 > "Mas ninguém te segurou, e você caiu de volta. Indo e voltando para sempre."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | caiu (52.8s) | EFEITO: dust | poeira + som | OK |
+| 1 | caiu (51.9s) | EFEITO: dust | poeira + som | OK |
 | 2 | - | INTERACAO | discutir | OK |
 | 3 | - | ATUACAO | discutir | OK |
 
-## Cena b9 - 56.1s a 59.0s - 8 palavras - plano orbit
+## Cena b9 - 55.8s a 57.6s - 8 palavras - plano orbit
 > "Os cientistas chamam isso de túnel da gravidade."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -91,11 +91,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | ATUACAO | comemorar | OK |
 | 2 | - | PLACA | 40 MINUTOS | OK |
 
-## Cena b10 - 59.1s a 62.4s - 14 palavras - plano close
+## Cena b10 - 59.0s a 63.1s - 14 palavras - plano close
 > "Então guarda a pá. Para ir ao Japão, ainda vale mais comprar uma passagem."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | comprar (62.4s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 1 | comprar (62.5s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
