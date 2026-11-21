@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Em um mês, eram quatrocentas pessoas, de pés sangrando, pedindo socorro, sem conseguir parar.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@40, thump@90
-- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; socorro -> ring + som de alerta; encena: grita (up) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; socorro -> ring + som de alerta; encena: g_sangrand (point) @8 -> acao + som de efeito; encena: grita (up) @10 -> acao + som de efeito
 - Efeito visual marcado: stars@40, dust@90
 - Texto na tela: 400
 - Funcao na historia: GRANDE MOMENTO
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que a cidade levou isso a sério. Contratou músicos com tambores, para animar a multidão.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: músicos -> stars + som de sino; encena: danca (up) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: músicos -> stars + som de sino; encena: g_contrato (up) @8 -> acao + som de efeito; encena: danca (up) @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: VIRADA
