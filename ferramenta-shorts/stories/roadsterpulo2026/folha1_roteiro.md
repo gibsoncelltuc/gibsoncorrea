@@ -94,7 +94,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b10  (~2.8 s)
 - Narracao: Carro voador ou carro que pula? Você decide.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: pula @5 -> acao + som de efeito
 - Efeito visual marcado: -

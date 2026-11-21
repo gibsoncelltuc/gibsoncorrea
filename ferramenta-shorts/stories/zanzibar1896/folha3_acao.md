@@ -97,24 +97,24 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | 9:40 | OK |
 
-## Cena b9 - 47.3s a 52.0s - 14 palavras - plano crowd
+## Cena b9 - 47.2s a 51.9s - 14 palavras - plano crowd
 > "Trinta e oito minutos. No mesmo dia, os ingleses colocaram outro sultão no trono."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | colocaram (50.8s) | ACAO: g_colocara | g_colocara | OK |
+| 1 | colocaram (50.6s) | ACAO: g_colocara | g_colocara | OK |
 | 2 | - | CENA | cavalaria: 4 soldados a cavalo (ING) | OK |
 | 3 | - | CENA | tiros: 4 soldados caem no chao | OK |
 | 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 5 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 53.2s a 55.3s - 9 palavras - plano close
+## Cena b10 - 53.0s a 55.1s - 9 palavras - plano close
 > "E ainda mandaram a conta das balas para Zanzibar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | mandaram (53.6s) | ACAO: g_mandaram | g_mandaram | OK |
-| 2 | balas (54.7s) | EFEITO: burst | estouro/clarao + som | OK |
-| 3 | balas (54.7s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 1 | mandaram (53.5s) | ACAO: g_mandaram | g_mandaram | OK |
+| 2 | balas (54.5s) | EFEITO: burst | estouro/clarao + som | OK |
+| 3 | balas (54.5s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 4 | - | ATUACAO | reagir | OK |
 

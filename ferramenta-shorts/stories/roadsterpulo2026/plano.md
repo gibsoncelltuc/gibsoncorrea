@@ -8,7 +8,7 @@ b2 | two | -  | objeto na mao | - | -
 b3 | two | -  | objeto na mao | segredo (ring + som de alerta); encena: pensa (think) @1 (acao + som de efeito) | -
 b4 | crowd | -  | batalha aberta com tiros, tropa, placa: PULOU! | encena: g_acelerou (point) @8 (acao + som de efeito); encena: pula @10 (acao + som de efeito) | -
 b5 | low | -  | - | encena: g_desceu (point) @5 (acao + som de efeito) | -
-b6 | two | -  | - | - | -
+b6 | two | -  | interior | - | -
 b7 | two | -  | - | encena: g_lembrara (point) @2 (acao + som de efeito); encena: pula @6 (acao + som de efeito) | -
 b8 | two | -  | objeto na mao | - | -
 b9 | orbit | -  | batalha aberta com tiros, tropa, placa: VOOU? | (rosto) distrust (expr + som de efeito) | -
