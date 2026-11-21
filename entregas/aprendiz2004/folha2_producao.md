@@ -34,8 +34,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Toda semana, as equipes tinham uma tarefa de negócios, como vender lim...
 - Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): CND (variante 0, expressao grin); POV (variante 0, expressao surprised)
 - Animacao: conversar | interacao: entregar
 - Objetos/modelos: kit/stall, kit/marco_trumptower
@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - A final da primeira temporada foi vista por cerca de vinte e oito milh...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao laugh); POV (variante 1, expressao shout); CND (variante 0, expressao laugh) | multidao: 30 de POV
@@ -83,12 +83,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - O formato se espalhou pelo mundo. No Brasil, O Aprendiz estreou no mes...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: jungle | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): POV (variante 0, expressao surprised); POV (variante 1, expressao grin)
 - Animacao: conversar | interacao: vai ate o outro
-- Objetos/modelos: kit/marco_trumptower
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aprendiz, brasil, formato, roberto
 - RISCOS: nenhum
 
@@ -118,13 +118,13 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/tv | b0, b6, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_trumptower | b0, b1, b3, b6, b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_trumptower | b0, b1, b3, b6, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/stall | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/tv | grandes momentos: b1, b6 | planos abertos: 2 | mistura: close 20% | medio 69% | aberto 6% | detalhe 5%
+- Objeto heroi: kit/tv | grandes momentos: b1, b6 | planos abertos: 2 | mistura: close 20% | medio 71% | aberto 6% | detalhe 3%
 - Interacoes: b0 susto, b2 aproxima-se, b3 entregar, b4 discutir, b7 abracar, b8 vai ate o outro, b9 avanca e o outro recua
 - RISCOS GERAIS: nenhum
 
