@@ -4,8 +4,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Em outubro de dois mil e vinte e dois, Elon Musk esteve na sede do Twi...
 - Cenario: street | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): MUS (variante 0, expressao grin)
 - Animacao: comemorar
 - Objetos/modelos: kit/sink, kit/marco_goldengate
@@ -34,9 +34,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - É um trocadilho, porque em inglês a palavra sink quer dizer pia, e tam...
 - Cenario: countryside | luz: golden | clima: limpo
-- Camera: aereo = -
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): FUN (variante 0, expressao surprised) | multidao: 8 de POV
+- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (1): FUN (variante 0, expressao surprised)
 - Animacao: reagir
 - Objetos/modelos: kit/sink, kit/marco_goldengate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): palavra, trocadilho
@@ -93,7 +93,7 @@ kit/globe | b6 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/sink | grandes momentos: b4, b6 | planos abertos: 3 | mistura: close 12% | medio 53% | aberto 28% | detalhe 7%
+- Objeto heroi: kit/sink | grandes momentos: b4, b6 | planos abertos: 3 | mistura: close 22% | medio 38% | aberto 34% | detalhe 6%
 - Interacoes: b2 o outro se aproxima, b4 insiste, b7 pular
 - RISCOS GERAIS: nenhum
 

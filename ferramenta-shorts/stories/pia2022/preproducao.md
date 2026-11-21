@@ -4,10 +4,10 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | street | two | 1 | comemorar | kit/sink, kit/marco_goldengate | - | -
+b0 | street | wide | 1 | comemorar | kit/sink, kit/marco_goldengate | - | -
 b1 | countryside | close | 1 | reagir | kit/marco_goldengate | - | -
 b2 | countryside | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/sink, kit/marco_goldengate | - | -
-b3 | countryside | aereo | 9 | reagir | kit/sink, kit/marco_goldengate | - | -
+b3 | countryside | close | 1 | reagir | kit/sink, kit/marco_goldengate | - | -
 b4 | interior loja | group | 2 | conversar, INTERAGEM: insiste, batalha | - | - | -
 b5 | street | wide | 8 | conversar | kit/marco_goldengate | - | -
 b6 | street | crowd | 8 | reagir, batalha | kit/globe, kit/marco_goldengate | - | -

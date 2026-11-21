@@ -49,7 +49,7 @@
  "beats": [
   {
    "say": "Em outubro de dois mil e vinte e dois, Elon Musk esteve na sede do Twitter, em São Francisco, com uma pia.",
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "MUS:0:grin"
    ],
@@ -70,7 +70,8 @@
    "mapa": "ESTADOS UNIDOS",
    "mapa_at": 3.5,
    "detalhe": true,
-   "acao": "comemorar"
+   "acao": "comemorar",
+   "shot_lock": true
   },
   {
    "say": "Ele filmou a própria entrada e postou o vídeo na internet.",
@@ -133,7 +134,8 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "detalhe": true
+   "detalhe": true,
+   "shot_lock": true
   },
   {
    "say": "Naquela época, ele estava prestes a fechar a compra do Twitter, por quarenta e quatro bilhões de dólares.",
