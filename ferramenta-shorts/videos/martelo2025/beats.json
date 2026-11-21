@@ -45,7 +45,7 @@
  },
  "beats": [
   {
-   "shot": "two",
+   "shot": "reveal",
    "who": [
     "TRU:0:stern",
     "GEN:0:stern"
@@ -207,7 +207,7 @@
    "hora": "dia"
   },
   {
-   "shot": "low",
+   "shot": "reveal",
    "hora": "noite",
    "who": [
     "PIL:0:stern"
@@ -256,7 +256,7 @@
    "tiros": false
   },
   {
-   "shot": "reveal",
+   "shot": "two",
    "set": "countryside",
    "hora": "dia",
    "who": [

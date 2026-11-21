@@ -88,7 +88,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | ATUACAO | reagir | OK |
 | 5 | - | PLACA | SUBMARINO | OK |
 
-## Cena b9 - 55.6s a 57.0s - 6 palavras - plano group
+## Cena b9 - 55.6s a 57.0s - 6 palavras - plano two
 > "Todos os aviões voltaram para casa."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
