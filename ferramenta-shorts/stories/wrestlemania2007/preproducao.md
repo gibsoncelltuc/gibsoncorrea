@@ -13,7 +13,7 @@ b5 | stadium | group | 2 | conversar, INTERAGEM: discutir | kit/ring | - | -
 b6 | stadium | low | 32 | conversar, INTERAGEM: susto | kit/ring | - | -
 b7 | stadium | orbit | 25 | comemorar, batalha | kit/ring | - | -
 b8 | stadium | group | 2 | conversar, INTERAGEM: discutir | kit/ring, kit/clipper | - | -
-b9 | stadium | group | 3 | conversar, INTERAGEM: insiste | kit/clipper | - | -
+b9 | stadium | two | 3 | conversar, INTERAGEM: insiste | kit/clipper | - | -
 b10 | stadium | group | 2 | conversar, INTERAGEM: discutir | kit/ring | - | -
 b11 | stadium | two | 2 | comemorar, INTERAGEM: pular | - | - | -
 
