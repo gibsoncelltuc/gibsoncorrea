@@ -6,7 +6,7 @@
  "title": "A Janela do Cybertruck",
  "titulo_base": "A Janela do Cybertruck",
  "set": "stadium",
- "light": "golden",
+ "light": "day",
  "mood": "playful",
  "heroi": "kit/steel_ball",
  "outfits": {
@@ -57,7 +57,7 @@
    "mapa": "CALIFÓRNIA",
    "mapa_at": 3,
    "set": "stadium",
-   "hora": "pordosol",
+   "hora": "dia",
    "crowd": {
     "n": 14,
     "outfits": [
@@ -88,7 +88,7 @@
    "batalha": false,
    "impact": false,
    "set": "stadium",
-   "hora": "pordosol",
+   "hora": "dia",
    "riscos_ok": true
   },
   {
@@ -110,7 +110,7 @@
    "batalha": false,
    "impact": false,
    "set": "stadium",
-   "hora": "pordosol",
+   "hora": "dia",
    "voa": [
     {
      "asset": "kit/steel_ball",
@@ -174,7 +174,7 @@
    "tiros": false,
    "batalha": false,
    "set": "stadium",
-   "hora": "pordosol",
+   "hora": "dia",
    "riscos_ok": true
   },
   {
@@ -202,7 +202,7 @@
    "batalha": false,
    "impact": false,
    "set": "stadium",
-   "hora": "pordosol",
+   "hora": "dia",
    "voa": [
     {
      "asset": "kit/steel_ball",
@@ -257,7 +257,7 @@
    "batalha": false,
    "impact": false,
    "set": "stadium",
-   "hora": "pordosol",
+   "hora": "dia",
    "riscos_ok": true
   },
   {
@@ -287,7 +287,7 @@
    "batalha": false,
    "impact": false,
    "set": "stadium",
-   "hora": "pordosol",
+   "hora": "dia",
    "riscos_ok": true
   },
   {
@@ -315,7 +315,7 @@
    "batalha": false,
    "impact": false,
    "set": "stadium",
-   "hora": "pordosol",
+   "hora": "dia",
    "riscos_ok": true,
    "acao": "comemorar",
    "crowd": {
