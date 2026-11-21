@@ -93,7 +93,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - Ele tinha sido o presidente número quarenta e cinco. Agora era o númer...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): TRU (variante 0, expressao smug); POV (variante 0, expressao surprised); POV (variante 1, expressao grin) | multidao: 18 de POV
@@ -126,11 +126,9 @@ kit/scroll | b7 | pronto | conferir na folha de contato se le bem; se parecer ca
 ## Video inteiro
 - Objeto heroi: kit/ballot_box | grandes momentos: b5, b9 | planos abertos: 3 | mistura: close 22% | medio 64% | aberto 12% | detalhe 2%
 - Interacoes: b0 o outro se aproxima, b2 insiste, b3 discutir, b6 vai ate o outro, b7 aproxima-se, b8 entregar
-- RISCOS GERAIS: 
-  - pouca variedade de cenario ({'interior pedra': 4, 'street': 6, 'interior madeira': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: pouca variedade de cenario ({'interior pedra': 4, 'street': 6, 'interior madeira': 1}): o video fica parecendo todos os outros
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh reeleicao2024 bN bM` (so essas cenas).
