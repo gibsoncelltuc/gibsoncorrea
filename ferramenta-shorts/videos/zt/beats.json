@@ -1,0 +1,205 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Guerras Inusitadas",
+ "ep": 7,
+ "title": "A Guerra dos Bolos",
+ "titulo_base": "A Guerra dos Bolos",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "outfits": {
+  "CON": {
+   "jacket": "#f1ece0",
+   "pants": "#f1ece0",
+   "boots": "#2a2218",
+   "hat": "beret",
+   "cap": "#f1ece0",
+   "build": "stout"
+  },
+  "OFI": {
+   "jacket": "#2f6a3a",
+   "pants": "#f1efe6",
+   "boots": "#2a2218",
+   "hat": "shako",
+   "belt": "#f1efe6",
+   "buttons": "#e8c45a",
+   "rifle": true,
+   "uniforme_fixo": true
+  },
+  "FRA": {
+   "jacket": "#27408b",
+   "pants": "#c0262d",
+   "boots": "#2a2218",
+   "hat": "shako_tall",
+   "belt": "#f1efe6",
+   "buttons": "#e8c45a",
+   "rifle": true
+  },
+  "REI": {
+   "jacket": "#7b2a8a",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "crown",
+   "build": "stout"
+  },
+  "GEN": {
+   "jacket": "#2f6a3a",
+   "pants": "#f1efe6",
+   "boots": "#2a2218",
+   "hat": "shako_tall",
+   "buttons": "#e8c45a",
+   "sash": "#c0262d",
+   "moustache_on": "#2a1c12",
+   "uniforme_fixo": true
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "CON:0:shock",
+    "OFI:0:laugh"
+   ],
+   "text": "1838",
+   "say": "A França foi à guerra contra o México por causa de uma conta de confeitaria."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "CON:0:smile",
+    "OFI:1:neutral"
+   ],
+   "mapa": "MÉXICO",
+   "mapa_at": 6,
+   "say": "Um confeiteiro francês tinha uma loja perto da Cidade do México, famosa pelos doces."
+  },
+  {
+   "shot": "group",
+   "who": [
+    "OFI:0:laugh",
+    "OFI:1:grin",
+    "CON:0:shock"
+   ],
+   "interior": "loja",
+   "fx": [
+    "puff@50"
+   ],
+   "sfx": [
+    "thump@50"
+   ],
+   "say": "Um dia, oficiais mexicanos entraram, comeram tudo o que havia, quebraram a loja, e saíram sem pagar.",
+   "props": [
+    [
+     "mk/Table_Large",
+     0,
+     2.6,
+     1.8
+    ],
+    [
+     "kit/cake_table",
+     0.6,
+     2.6,
+     1.2
+    ]
+   ],
+   "acao": "comer",
+   "humanos_comem": true
+  },
+  {
+   "shot": "two",
+   "who": [
+    "CON:0:stern:paper",
+    "REI:0:neutral"
+   ],
+   "interior": "pedra",
+   "say": "O confeiteiro escreveu ao rei da França. \"Quero sessenta mil pesos\", pediu ele. A loja inteira valia mil."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "REI:0:stern"
+   ],
+   "interior": "pedra",
+   "say": "O rei gostou da ideia, juntou outras queixas, e cobrou seiscentos mil. \"Paguem, ou mandamos a marinha\", avisou a França."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "GEN:0:laugh",
+    "OFI:0:grin"
+   ],
+   "say": "O México riu do pedido, e não deu um centavo."
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "FRA:0:stern",
+    "FRA:1:stern"
+   ],
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "FRA"
+    ],
+    "march": true
+   },
+   "text": "A MARINHA",
+   "titulo": true,
+   "say": "Acontece que a França mandou mesmo. Navios de guerra chegaram, e fecharam todos os portos do país.",
+   "batalha": false,
+   "tiros": false,
+   "impact": false
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "FRA:0:stern",
+    "OFI:0:shock"
+   ],
+   "batalha": true,
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "FRA",
+     "OFI"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
+   "say": "Os canhões franceses bombardearam a fortaleza de Veracruz, e os soldados tomaram a cidade.",
+   "set": "harbor"
+  },
+  {
+   "shot": "two",
+   "who": [
+    "GEN:0:pained"
+   ],
+   "fx": [
+    "burst@30"
+   ],
+   "sfx": [
+    "cannon@30"
+   ],
+   "say": "Um general mexicano correu para o combate, e tombou, atingido por um tiro de canhão. Ele perdeu uma perna."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "GEN:0:pained:paper",
+    "FRA:0:grin:coin"
+   ],
+   "text": "600.000",
+   "say": "Meses depois, o México pagou os seiscentos mil pesos, e a França foi embora."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "CON:0:grin:coin"
+   ],
+   "say": "Nunca um doce custou tão caro."
+  }
+ ],
+ "marco": "kit/marco_ulua",
+ "regiao": "colonial"
+}
