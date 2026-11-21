@@ -4,10 +4,10 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | -  | placa: 1895, objeto na mao | (rosto) scared (expr + som de efeito); encena: tira (lift) @2 (acao + som de efeito); encena: g_assustou (point) @12 (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
-b2 | two | -  | interior | encena: g_passava (point) @2 (acao + som de efeito); encena: quimico (pour) @6 (acao + som de efeito); encena: g_testando (point) @7 (acao + som de efeito); encena: g_soltava (point) @13 (acao + som de efeito); encena: brilha (point) @14 (acao + som de efeito) | -
-b3 | two | noite  | interior, objeto na mao | encena: g_cobriu (reach) @3 (acao + som de efeito); encena: g_apagou (reach) @10 (acao + som de efeito) | -
-b4 | low | noite  | interior | encena: brilha (point) @11 (acao + som de efeito) | -
-b5 | two | noite  | interior | encena: olha (point) @9 (acao + som de efeito) | -
+b2 | two | dia  | interior | encena: g_passava (point) @2 (acao + som de efeito); encena: quimico (pour) @6 (acao + som de efeito); encena: g_testando (point) @7 (acao + som de efeito); encena: g_soltava (point) @13 (acao + som de efeito); encena: brilha (point) @14 (acao + som de efeito) | -
+b3 | two | pordosol  | interior, objeto na mao | encena: g_cobriu (reach) @3 (acao + som de efeito); encena: g_apagou (reach) @10 (acao + som de efeito) | -
+b4 | low | pordosol  | interior | encena: brilha (point) @11 (acao + som de efeito) | -
+b5 | two | pordosol  | interior | encena: olha (point) @9 (acao + som de efeito) | -
 b6 | two | dia  | interior | encena: tira (lift) @9 (acao + som de efeito) | -
 b7 | close | -  | interior | encena: olha (point) @3 (acao + som de efeito) | -
 b8 | crowd | -  | batalha aberta com tiros, tropa, placa: NOTÍCIA, objeto na mao | - | -

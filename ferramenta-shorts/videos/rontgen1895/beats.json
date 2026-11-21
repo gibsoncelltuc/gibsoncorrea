@@ -96,12 +96,13 @@
    "sfx": [
     "ding@40"
    ],
-   "say": "Wilhelm Röntgen passava as noites no laboratório, testando um tubo de vidro que soltava faíscas."
+   "say": "Wilhelm Röntgen passava as noites no laboratório, testando um tubo de vidro que soltava faíscas.",
+   "hora": "dia"
   },
   {
    "shot": "two",
    "interior": "madeira",
-   "hora": "noite",
+   "hora": "pordosol",
    "who": [
     "ROE:0:suspicious:paper"
    ],
@@ -143,7 +144,8 @@
     "ding@20",
     "sting@24"
    ],
-   "say": "Acontece que, do outro lado da sala, uma tela começou a brilhar no escuro."
+   "say": "Acontece que, do outro lado da sala, uma tela começou a brilhar no escuro.",
+   "hora": "pordosol"
   },
   {
    "shot": "two",
@@ -165,7 +167,8 @@
    "sfx": [
     "sting@30"
    ],
-   "say": "Ele pôs a mão na frente do tubo, e viu os próprios ossos na tela."
+   "say": "Ele pôs a mão na frente do tubo, e viu os próprios ossos na tela.",
+   "hora": "pordosol"
   },
   {
    "shot": "two",
