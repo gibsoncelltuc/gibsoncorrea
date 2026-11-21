@@ -40,7 +40,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | afundar (21.5s) | ACAO: desaba | desaba: nuvem de poeira + tremor | OK |
 | 2 | - | ATUACAO | reagir | OK |
 
-## Cena b4 - 21.9s a 28.1s - 18 palavras - plano orbit
+## Cena b4 - 21.9s a 28.1s - 18 palavras - plano crowd
 > "Naquela época, ele estava prestes a fechar a compra do Twitter, por quarenta e quatro bilhões de dólares."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

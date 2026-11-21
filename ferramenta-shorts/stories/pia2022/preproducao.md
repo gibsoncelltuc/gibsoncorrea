@@ -8,7 +8,7 @@ b0 | street | two | 1 | comemorar | kit/sink, kit/marco_goldengate | - | -
 b1 | countryside | close | 1 | reagir | kit/marco_goldengate | - | -
 b2 | countryside | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/sink, kit/marco_goldengate | - | -
 b3 | mountain | aereo | 9 | reagir | kit/sink, kit/marco_goldengate | - | -
-b4 | mountain | orbit | 10 | encena, batalha | kit/marco_goldengate | - | -
+b4 | mountain | crowd | 10 | encena, batalha | kit/marco_goldengate | - | -
 b5 | interior madeira | two | 2 | conversar, INTERAGEM: insiste | - | - | -
 b6 | countryside | crowd | 8 | reagir, batalha | kit/globe, kit/marco_goldengate | - | -
 b7 | street | two | 3 | comemorar, INTERAGEM: pular | kit/sink, kit/marco_goldengate | - | -

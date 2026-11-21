@@ -137,7 +137,7 @@
   },
   {
    "say": "Naquela época, ele estava prestes a fechar a compra do Twitter, por quarenta e quatro bilhões de dólares.",
-   "shot": "reveal",
+   "shot": "crowd",
    "who": [
     "MUS:0:smile",
     "FUN:0:neutral"
@@ -151,7 +151,8 @@
    },
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": true,
+   "shot_lock": true
   },
   {
    "say": "Ele também mudou o perfil, e escreveu que era o Chefe Twit.",
