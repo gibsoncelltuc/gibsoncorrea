@@ -47,6 +47,17 @@
    "boots": "#2a2218",
    "hat": "bonnet",
    "build": "stout"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "straw",
+    "cap",
+    "hair",
+    "beret"
+   ]
   }
  },
  "beats": [
@@ -213,7 +224,8 @@
     "HOL:0:smug:money"
    ],
    "interacao": "entregar",
-   "say": "O imperador desistiu do rio. Em troca, a Holanda pagou uma indenização em dinheiro."
+   "say": "O imperador desistiu do rio. Em troca, a Holanda pagou uma indenização em dinheiro.",
+   "hora": "dia"
   },
   {
    "shot": "close",
@@ -228,7 +240,8 @@
      1.2
     ]
    ],
-   "say": "Ninguém morreu. Só o almoço."
+   "say": "Ninguém morreu. Só o almoço.",
+   "hora": "dia"
   }
  ]
 }

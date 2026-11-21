@@ -76,14 +76,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): GEN (variante 0, expressao scared, segura flag); AUS (variante 0, expressao nervous); COZ (variante 0, expressao cry) | multidao: 12 de AUS/POV
+- Personagens principais (3): GEN (variante 0, expressao scared, segura flag); AUS (variante 0, expressao nervous); COZ (variante 0, expressao cry) | multidao: 12 de POV
 - Animacao: reagir | batalha encenada
 - Objetos/modelos: kit/marco_viena, kit/kettle
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): capitao, sopa
 - RISCOS: nenhum
 
 ## Cena b8 - O imperador desistiu do rio. Em troca, a Holanda pagou uma indenização...
-- Cenario: interior pedra | luz: noite | clima: limpo
+- Cenario: interior pedra | luz: dia | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): IMP (variante 0, expressao sad); HOL (variante 0, expressao smug, segura money)
@@ -93,7 +93,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - Ninguém morreu. Só o almoço.
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: harbor | luz: dia | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa
 - Personagens principais (1): COZ (variante 0, expressao sad)
