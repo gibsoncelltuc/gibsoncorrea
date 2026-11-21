@@ -24,19 +24,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - A legenda dizia: Entrando na sede do Twitter. Deixe isso afundar.
 - Cenario: countryside | luz: golden | clima: limpo
-- Camera: aereo = -
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): MUS (variante 0, expressao laugh); FUN2 (variante 0, expressao suspicious) | multidao: 8 de POV
-- Animacao: conversar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (2): MUS (variante 0, expressao laugh); FUN2 (variante 0, expressao suspicious)
+- Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/sink, kit/marco_goldengate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): legenda, sede, twitter
 - RISCOS: nenhum
 
 ## Cena b3 - É um trocadilho, porque em inglês a palavra sink quer dizer pia, e tam...
 - Cenario: mountain | luz: golden | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (1): FUN (variante 0, expressao surprised)
+- Camera: aereo = -
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): FUN (variante 0, expressao surprised) | multidao: 8 de POV
 - Animacao: reagir
 - Objetos/modelos: kit/sink, kit/marco_goldengate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): palavra, trocadilho
@@ -57,7 +57,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): MUS (variante 0, expressao grin); FUN2 (variante 0, expressao surprised)
-- Animacao: conversar | interacao: o outro se aproxima
+- Animacao: conversar | interacao: insiste
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chefe, perfil
 - RISCOS: nenhum
@@ -93,8 +93,8 @@ kit/globe | b6 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/sink | grandes momentos: b4, b6 | planos abertos: 3 | mistura: close 26% | medio 47% | aberto 19% | detalhe 8%
-- Interacoes: b5 o outro se aproxima, b7 pular
+- Objeto heroi: kit/sink | grandes momentos: b4, b6 | planos abertos: 3 | mistura: close 15% | medio 55% | aberto 22% | detalhe 7%
+- Interacoes: b2 o outro se aproxima, b5 insiste, b7 pular
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

@@ -4,7 +4,7 @@ const X = 12000, DK = 6; const X_hall = 8000; const X_palace = 4000;
 const WS = (i, off = 0) => TIMING.words[Math.min(i, TIMING.words.length - 1)][0] + off;   // frame em que a palavra de indice i comeca
 const A = [0, WS(16, -3), WS(32, -3), WS(45, -3), WS(59, -3), WS(76, -3), WS(89, -3), WS(104, -3), WS(116, -3), WS(127, -3), WS(144, -3), TOTAL_F()];
 const SPEC = {
-  id: "selfie2019", vseed: 2, cutLen: 54, dissolveN: 7, glideN: 20, creep: 0.003, total: TOTAL_F(), sets: ["street", "hall", "palace"], setx: { street: X, hall: X_hall, palace: X_palace },
+  id: "selfie2019", exp: 1.0, vseed: 2, cutLen: 54, dissolveN: 7, glideN: 20, creep: 0.003, total: TOTAL_F(), sets: ["street", "hall", "palace"], setx: { street: X, hall: X_hall, palace: X_palace },
   outfits: { BUK: (v = 0, e = {}) => ({ _id: "buk", jacket: "#22252c", pants: "#2a2d33", boots: "#f4f1e8", hat: "cap", cap: "#1b1b1f", beard: "#2a201a", pele: "#e8c8a8", capBack: true, skin: ["#ffe2c2", "#f5c9a0", "#ecd0b6", "#c99067"][v % 4], ...(((v + 226) % 6 === 4 && false) ? { glasses: true } : {}), ...(([1, 5].includes((v + 226) % 6) && false) ? { beard: ['#3a2a1f', '#6b4a2a', '#8a8a86'][(v + 3) % 3] } : {}), ...((((v + 226) % 6 === 3) && false) ? { moustache: ['#4a3020', '#2a201a', '#8a8a86'][v % 3] } : {}), ...e }),
     DIP: (v = 0, e = {}) => ({ _id: "dip", jacket: "#22252c", pants: "#22252c", boots: "#1b1b1f", hat: "hair", hair: "#8a8a86", tie: "#c0262d", glasses: true, collar: "#f4f4f2", skin: ["#ffe2c2", "#f5c9a0", "#ecd0b6", "#c99067"][v % 4], ...(((v + 221) % 6 === 4 && false) ? { glasses: true } : {}), ...(([1, 5].includes((v + 221) % 6) && true) ? { beard: ['#3a2a1f', '#6b4a2a', '#8a8a86'][(v + 3) % 3] } : {}), ...((((v + 221) % 6 === 3) && true) ? { moustache: ['#4a3020', '#2a201a', '#8a8a86'][v % 3] } : {}), ...e }),
     REP: (v = 0, e = {}) => ({ _id: "rep", jacket: "#6a5a8a", pants: "#3b3f52", boots: "#1b1b1f", hat: "bowler", glasses: true, tie: "#1b1b1f", skin: ["#ffe2c2", "#f5c9a0", "#ecd0b6", "#c99067"][v % 4], ...(((v + 231) % 6 === 4 && false) ? { glasses: true } : {}), ...(([1, 5].includes((v + 231) % 6) && true) ? { beard: ['#3a2a1f', '#6b4a2a', '#8a8a86'][(v + 3) % 3] } : {}), ...((((v + 231) % 6 === 3) && true) ? { moustache: ['#4a3020', '#2a201a', '#8a8a86'][v % 3] } : {}), ...e }),
@@ -26,4 +26,4 @@ const SPEC = {
   ],
 };
 
-// FOLHA3 8d5666bad690 34 acoes=34 faltando=0
+// FOLHA3 4b4060a470c1 34 acoes=34 faltando=0

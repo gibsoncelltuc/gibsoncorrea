@@ -107,7 +107,8 @@
    ],
    "sfx": [
     "thump@8"
-   ]
+   ],
+   "shot_lock": true
   },
   {
    "say": "É um trocadilho, porque em inglês a palavra sink quer dizer pia, e também afundar.",

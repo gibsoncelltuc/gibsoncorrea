@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 10 - A Pia no Twitter
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 8 frases, 20 acoes catalogadas, 20 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 8 frases, 21 acoes catalogadas, 21 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 7.8s - 22 palavras - plano two
@@ -21,17 +21,18 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | postou (10.4s) | ACAO: x_fone | celular na mao + toque | OK |
 | 3 | - | ATUACAO | reagir | OK |
 
-## Cena b2 - 12.2s a 15.9s - 11 palavras - plano aereo
+## Cena b2 - 12.2s a 15.9s - 11 palavras - plano two
 > "A legenda dizia: Entrando na sede do Twitter. Deixe isso afundar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | Entrando (13.3s) | ACAO: g_entrando | g_entrando | OK |
 | 2 | afundar (15.9s) | ACAO: desaba | desaba: nuvem de poeira + tremor | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| 4 | - | PLACA | DEIXE ISSO AFUNDAR | OK |
+| 3 | - | INTERACAO | o outro se aproxima | OK |
+| 4 | - | ATUACAO | conversar | OK |
+| 5 | - | PLACA | DEIXE ISSO AFUNDAR | OK |
 
-## Cena b3 - 16.3s a 21.5s - 15 palavras - plano close
+## Cena b3 - 16.3s a 21.5s - 15 palavras - plano aereo
 > "É um trocadilho, porque em inglês a palavra sink quer dizer pia, e também afundar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -52,7 +53,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | escreveu (30.7s) | ACAO: escreve | escreve/assina | OK |
-| 2 | - | INTERACAO | o outro se aproxima | OK |
+| 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | CHEFE TWIT | OK |
 
