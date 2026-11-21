@@ -74,10 +74,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Acontece que o balão levantou voo de verdade, e foi embora pelo céu, c...
 - Cenario: medieval | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (2): POV (variante 0, expressao shock); POV (variante 1, expressao surprised)
-- Animacao: reagir | interacao: insiste
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): POV (variante 0, expressao shock); POV (variante 1, expressao surprised) | multidao: 6 de POV
+- Animacao: reagir
 - Objetos/modelos: kit/balloon_air, kit/marco_versalhes, kit/balloon
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balao, bichos
 - RISCOS: nenhum
@@ -87,7 +87,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): ETI (variante 0, expressao nervous); JOS (variante 0, expressao worried)
-- Animacao: conversar | interacao: vai ate o outro | o ultimo personagem ENTRA andando
+- Animacao: conversar | interacao: insiste | o ultimo personagem ENTRA andando
 - Objetos/modelos: kit/balloon, kit/marco_versalhes, nature/tree_pine, nature/tree_oak, nature/bush
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): irmaos
 - RISCOS: nenhum
@@ -140,8 +140,8 @@ nature/bush | b8 | pronto | conferir na folha de contato se le bem; se parecer c
 
 
 ## Video inteiro
-- Objeto heroi: kit/balloon | grandes momentos: b6, b10 | planos abertos: 3 | mistura: close 10% | medio 79% | aberto 9% | detalhe 2%
-- Interacoes: b0 susto, b2 avanca e o outro recua, b3 o outro se aproxima, b4 discutir, b7 insiste, b8 vai ate o outro, b9 abracar
+- Objeto heroi: kit/balloon | grandes momentos: b6, b10 | planos abertos: 4 | mistura: close 10% | medio 73% | aberto 15% | detalhe 2%
+- Interacoes: b0 susto, b2 avanca e o outro recua, b3 o outro se aproxima, b4 discutir, b8 insiste, b9 abracar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

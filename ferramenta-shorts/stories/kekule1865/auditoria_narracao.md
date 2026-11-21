@@ -24,6 +24,6 @@ Cenas 100% fieis: 10/12 (83%). Lacunas: 2
 ## b9 OK - Vinte e cinco anos depois, numa festa em Berlim em honra ao anel, ele contou o sonho pela primeira vez.
 - na tela: set=['street'] animais=[] objetos=['marco_viena', 'snake_ring'] atores=21 acoes_folha3=['festa', 'festa', 'contou']
 ## b10 OK - Até hoje há quem duvide da história. Mas o anel do benzeno virou base de remédios, tintas e plásticos.
-- na tela: set=['street'] animais=[] objetos=['marco_viena', 'snake_ring'] atores=6 acoes_folha3=[]
+- na tela: set=['street'] animais=[] objetos=['marco_viena', 'snake_ring'] atores=10 acoes_folha3=[]
 ## b11 OK - E ele deixou um conselho: aprendam a sonhar. Mas confiram tudo acordados.
 - na tela: set=['street'] animais=[] objetos=['marco_viena', 'snake_ring'] atores=1 acoes_folha3=['confiram']

@@ -11,15 +11,15 @@ b3 | interior madeira | two | 2 | conversar, INTERAGEM: o outro se aproxima | ki
 b4 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | - | - | -
 b5 | medieval | two | 1 | conversar | kit/balloon, kit/marco_versalhes, sheep, duck, rooster | - | -
 b6 | countryside | crowd | 33 | batalha | kit/balloon, kit/marco_versalhes | - | -
-b7 | medieval | group | 2 | reagir, INTERAGEM: insiste | kit/balloon_air, kit/marco_versalhes, kit/balloon | - | -
-b8 | countryside | two | 2 | conversar, INTERAGEM: vai ate o outro, alguem chega andando | kit/balloon, kit/marco_versalhes, nature/tree_pine, nature/tree_oak, nature/bush | - | -
+b7 | medieval | reveal | 8 | reagir | kit/balloon_air, kit/marco_versalhes, kit/balloon | - | -
+b8 | countryside | two | 2 | conversar, INTERAGEM: insiste, alguem chega andando | kit/balloon, kit/marco_versalhes, nature/tree_pine, nature/tree_oak, nature/bush | - | -
 b9 | countryside | two | 2 | conversar, INTERAGEM: abracar | kit/marco_versalhes, sheep, duck, rooster | - | -
 b10 | medieval | orbit | 21 | comemorar, batalha | kit/balloon_air, kit/marco_versalhes | - | -
 b11 | countryside | close | 1 | reagir | kit/balloon, kit/marco_versalhes, sheep | - | -
 
 OBJETO HEROI: kit/balloon - aparece em 7 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b6, b10
-Interacoes entre personagens: b0 susto, b2 avanca e o outro recua, b3 o outro se aproxima, b4 discutir, b7 insiste, b8 vai ate o outro, b9 abracar
+Interacoes entre personagens: b0 susto, b2 avanca e o outro recua, b3 o outro se aproxima, b4 discutir, b8 insiste, b9 abracar
 
 Cenas com personagens parados: 1 de 12
 FALTA MODELAR: nada

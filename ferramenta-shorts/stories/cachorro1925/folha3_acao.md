@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 18 - A Guerra do Cão Fugitivo
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 44 acoes catalogadas, 44 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 42 acoes catalogadas, 42 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 5.9s - 17 palavras - plano track
@@ -42,7 +42,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | correu (23.0s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
 | 3 | atravessou (24.8s) | ACAO: g_atravess | g_atravess | OK |
 
-## Cena b4 - 26.7s a 30.7s - 12 palavras - plano group
+## Cena b4 - 26.7s a 30.7s - 12 palavras - plano aereo
 > "Do outro lado, uma sentinela búlgara viu um estranho armado, e atirou."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -53,8 +53,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | atirou (30.7s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 5 | - | CENA | tiros: 3 soldados caem no chao | OK |
 | 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 7 | - | INTERACAO | empurrar | OK |
-| 8 | - | ATUACAO | conversar | OK |
 
 ## Cena b5 - 31.1s a 35.9s - 14 palavras - plano low
 > "Acontece que o soldado morreu, e a Grécia deu um ultimato furioso à Bulgária."

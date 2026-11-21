@@ -11,12 +11,12 @@ b3 | countryside | crowd | 19 | reagir, batalha | - | - | -
 b4 | countryside | group | 3 | conversar, INTERAGEM: entregar | - | - | -
 b5 | mountain | orbit | 21 | encena, andando, batalha | - | - | -
 b6 | interior pedra | two | 2 | conversar, INTERAGEM: susto | - | - | -
-b7 | mountain | group | 7 | conversar, INTERAGEM: avanca e o outro recua | - | - | -
+b7 | mountain | crowd | 12 | conversar | - | - | -
 b8 | mountain | close | 1 | reagir | dog | - | -
 
 OBJETO HEROI: kit/dog_sit - aparece em 0 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b5
-Interacoes entre personagens: b0 aproxima-se, b4 entregar, b6 susto, b7 avanca e o outro recua
+Interacoes entre personagens: b0 aproxima-se, b4 entregar, b6 susto
 
 Cenas com personagens parados: 0 de 9
 FALTA MODELAR: nada

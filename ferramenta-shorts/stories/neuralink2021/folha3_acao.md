@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 19 - O Macaco que Jogou Videogame com a Mente
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.5s - 17 palavras - plano two
@@ -74,13 +74,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | ATUACAO | reagir | OK |
 | 4 | - | PLACA | MENTE | OK |
 
-## Cena b8 - 49.0s a 54.5s - 17 palavras - plano two
+## Cena b8 - 49.0s a 54.5s - 17 palavras - plano aereo
 > "O objetivo, segundo a empresa, é ajudar pessoas paralisadas a usar computadores e celulares com o pensamento."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | discutir | OK |
-| 2 | - | ATUACAO | discutir | OK |
+| 1 | - | ATUACAO | discutir | OK |
 
 ## Cena b9 - 55.9s a 61.2s - 21 palavras - plano two
 > "Em dois mil e vinte e quatro, o primeiro paciente humano recebeu o chip, e jogou xadrez no computador só pensando."

@@ -13,9 +13,9 @@ Cenas 100% fieis: 10/11 (91%). Lacunas: 1
 ## b4 OK - Compraram tudo, beberam, e a festa começou.
 - na tela: set=['street'] animais=[] objetos=['barrel', 'coin', 'house_small', 'lantern'] atores=2 acoes_folha3=['Compraram', 'Compraram', 'beberam', 'beberam', 'festa', 'festa']
 ## b5 OK - Aí chegou a infantaria, querendo a parte dela. "Não tem pra vocês", disseram os hussardos. A discussão virou empurra-empurra, e alguém deu um tiro.
-- na tela: set=['street'] animais=['horse_sela'] objetos=['house_two'] atores=10 acoes_folha3=['chegou', 'chegou', 'querendo', 'discussão', 'deu', 'tiro', 'tiro']
+- na tela: set=['street'] animais=['horse_sela'] objetos=['house_two'] atores=23 acoes_folha3=['chegou', 'chegou', 'querendo', 'discussão', 'deu', 'tiro', 'tiro']
 ## b6 OK - No escuro, alguém gritou: "Turcos! Turcos!" E o pânico tomou o acampamento.
-- na tela: set=['street'] animais=[] objetos=['campfire', 'tent'] atores=15 acoes_folha3=['gritou:', 'gritou', 'pânico']
+- na tela: set=['street'] animais=[] objetos=['campfire', 'house_small', 'tent'] atores=15 acoes_folha3=['gritou:', 'gritou', 'pânico']
 ## b7 OK - Acontece que ninguém entendia a língua do vizinho. Todo mundo atirava em todo mundo, achando que eram os turcos.
 - na tela: set=['street'] animais=[] objetos=['house_small', 'picket_fence', 'tree_oak'] atores=33 acoes_folha3=['atirava', 'atirava']
 ## b8 OK - Um oficial mandou usar a artilharia, e os canhões dispararam contra o próprio exército.

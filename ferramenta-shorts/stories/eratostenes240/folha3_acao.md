@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 10 - Eratóstenes Mede a Terra
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 5.2s - 15 palavras - plano two
@@ -82,14 +82,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | CHEGADA | alguem entra andando | OK |
 
-## Cena b9 - 51.5s a 56.7s - 15 palavras - plano group
+## Cena b9 - 51.5s a 56.7s - 15 palavras - plano crowd
 > "E tudo isso aconteceu mais de dois mil anos atrás, sem satélite e sem computador."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | pular | OK |
-| 2 | - | ATUACAO | comemorar | OK |
-| 3 | - | PLACA | 40.000 KM | OK |
+| 1 | - | ATUACAO | comemorar | OK |
+| 2 | - | PLACA | 40.000 KM | OK |
 
 ## Cena b10 - 57.0s a 61.5s - 13 palavras - plano close
 > "No fim, uma vara e um poço fizeram o trabalho de um satélite."

@@ -64,9 +64,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Você cairia cada vez mais rápido, e passaria pelo centro do planeta a ...
 - Cenario: outback | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
-- Personagens principais (1): CAV (variante 0, expressao scared) | multidao: 5 de CAV/POV
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): CAV (variante 0, expressao scared) | multidao: 30 de CAV/POV
 - Animacao: reagir
 - Objetos/modelos: kit/globe
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): milhares, planeta, quilometros
@@ -123,7 +123,7 @@ kit/scroll | b3 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/globe | grandes momentos: b5, b9 | planos abertos: 3 | mistura: close 23% | medio 59% | aberto 11% | detalhe 7%
+- Objeto heroi: kit/globe | grandes momentos: b5, b9 | planos abertos: 4 | mistura: close 23% | medio 48% | aberto 22% | detalhe 7%
 - Interacoes: b0 insiste, b2 vai ate o outro, b3 aproxima-se, b7 cochichar, b8 discutir
 - RISCOS GERAIS: nenhum
 

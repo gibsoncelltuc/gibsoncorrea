@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 09 - A Guerra do Futebol
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 3.7s - 11 palavras - plano crowd
@@ -21,15 +21,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | discutir | OK |
 | 3 | - | MAPA | AMÉRICA CENTRAL | OK |
 
-## Cena b2 - 11.9s a 17.8s - 17 palavras - plano two
+## Cena b2 - 11.9s a 17.8s - 17 palavras - plano aereo
 > "Aí veio a disputa por uma vaga na Copa do Mundo. Três jogos, um contra o outro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | aproxima-se | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | CHEGADA | alguem entra andando | OK |
-| 4 | - | PLACA | 3 JOGOS | OK |
+| 1 | - | PLACA | 3 JOGOS | OK |
 
 ## Cena b3 - 18.1s a 24.8s - 19 palavras - plano orbit
 > "No primeiro, Honduras venceu em casa. A torcida passou a noite batendo panelas na porta do hotel dos visitantes."
@@ -63,16 +60,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | susto | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b6 - 36.7s a 40.7s - 12 palavras - plano group
+## Cena b6 - 36.7s a 40.7s - 12 palavras - plano aereo
 > "El Salvador ganhou a partida, na prorrogação, e ficou com a vaga."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | ganhou (37.4s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | ganhou (37.4s) | ACAO: vence | bracos para cima + brilho | OK |
-| 3 | - | INTERACAO | pular | OK |
-| 4 | - | ATUACAO | comemorar | OK |
-| 5 | - | PLACA | PRORROGAÇÃO | OK |
+| 3 | - | ATUACAO | comemorar | OK |
+| 4 | - | PLACA | PRORROGAÇÃO | OK |
 
 ## Cena b7 - 41.1s a 45.6s - 13 palavras - plano crowd
 > "Duas semanas depois, tanques e aviões cruzaram a fronteira. A guerra tinha começado."
@@ -88,7 +84,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | avanca e o outro recua | OK |
+| 1 | - | INTERACAO | aproxima-se | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | 100 HORAS | OK |
 

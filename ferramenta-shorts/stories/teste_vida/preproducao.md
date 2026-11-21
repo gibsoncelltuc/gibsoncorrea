@@ -6,7 +6,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | countryside | track | 3 | encena, andando | - | - | -
 b1 | interior madeira | two | 2 | reagir, INTERAGEM: susto | - | - | -
-b2 | arctic | orbit | 10 | conversar | - | - | -
+b2 | arctic | aereo | 10 | conversar | - | - | -
 b3 | interior madeira | two | 2 | conversar, INTERAGEM: vai ate o outro | - | - | -
 b4 | mountain | wide | 8 | conversar | - | - | -
 b5 | countryside | track | 14 | encena, andando | - | - | -

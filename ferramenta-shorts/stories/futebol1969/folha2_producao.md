@@ -24,10 +24,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - Aí veio a disputa por uma vaga na Copa do Mundo. Três jogos, um contra...
 - Cenario: stadium | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): HON (variante 0, expressao grin); SAL (variante 0, expressao stern)
-- Animacao: conversar | interacao: aproxima-se | o ultimo personagem ENTRA andando
+- Camera: aereo = -
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): HON (variante 0, expressao grin); SAL (variante 0, expressao stern) | multidao: 16 de HON/SAL
+- Animacao: -
 - Objetos/modelos: kit/ball, kit/trave
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): contra, copa, disputa, vaga
 - RISCOS: nenhum
@@ -64,10 +64,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - El Salvador ganhou a partida, na prorrogação, e ficou com a vaga.
 - Cenario: stadium | luz: dia | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (3): SAL (variante 0, expressao laugh); SAL (variante 1, expressao grin); HON (variante 0, expressao sad)
-- Animacao: comemorar | interacao: pular
+- Camera: aereo = -
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (3): SAL (variante 0, expressao laugh); SAL (variante 1, expressao grin); HON (variante 0, expressao sad) | multidao: 16 de HON/SAL
+- Animacao: comemorar
 - Objetos/modelos: kit/ball, kit/trave
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): partida, prorrogacao, vaga
 - RISCOS: nenhum
@@ -87,7 +87,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): SOL (variante 0, expressao nervous); PRE (variante 0, expressao stern, segura paper)
-- Animacao: conversar | interacao: avanca e o outro recua
+- Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): continente, dois, parar
 - RISCOS: nenhum
@@ -120,11 +120,13 @@ vehicles/airplane | b7 | pronto | conferir na folha de contato se le bem; se par
 
 
 ## Video inteiro
-- Objeto heroi: kit/ball | grandes momentos: b0, b3, b7 | planos abertos: 4 | mistura: close 15% | medio 60% | aberto 18% | detalhe 7%
-- Interacoes: b2 aproxima-se, b4 empurrar, b5 susto, b6 pular, b8 avanca e o outro recua
-- RISCOS GERAIS: nenhum
+- Objeto heroi: kit/ball | grandes momentos: b0, b3, b7 | planos abertos: 6 | mistura: close 15% | medio 46% | aberto 37% | detalhe 2%
+- Interacoes: b4 empurrar, b5 susto, b8 aproxima-se
+- RISCOS GERAIS: 
+  - objeto heroi (kit/ball) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: objeto heroi (kit/ball) sem close de camera
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh futebol1969 bN bM` (so essas cenas).

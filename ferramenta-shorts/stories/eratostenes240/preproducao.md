@@ -13,12 +13,12 @@ b5 | street | close | 1 | reagir | kit/globe, nature/tree_palm, kit/marco_alexan
 b6 | palace | orbit | 12 | reagir, batalha | kit/globe, kit/stick, nature/tree_palm, kit/marco_alexandria | - | -
 b7 | palace | track | 2 | encena, andando | kit/stick, nature/tree_palm, kit/marco_alexandria, buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: cochichar, alguem chega andando | - | paper | -
-b9 | street | group | 16 | comemorar, INTERAGEM: pular, batalha | kit/globe, nature/tree_palm, kit/marco_alexandria, kit/starlink_sat | - | -
+b9 | street | crowd | 16 | comemorar, batalha | kit/globe, nature/tree_palm, kit/marco_alexandria, kit/starlink_sat | - | -
 b10 | palace | close | 1 | reagir | kit/stick, kit/well, nature/tree_palm, kit/marco_alexandria, tools/bucket, kit/starlink_sat | - | -
 
 OBJETO HEROI: kit/globe - aparece em 4 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b6, b9
-Interacoes entre personagens: b0 o outro se aproxima, b2 insiste, b3 vai ate o outro, b4 aproxima-se, b8 cochichar, b9 pular
+Interacoes entre personagens: b0 o outro se aproxima, b2 insiste, b3 vai ate o outro, b4 aproxima-se, b8 cochichar
 
 Cenas com personagens parados: 1 de 11
 FALTA MODELAR: nada

@@ -104,10 +104,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b10 - Até hoje há quem duvide da história. Mas o anel do benzeno virou base ...
 - Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): COL (variante 0, expressao suspicious); KEK (variante 0, expressao smile)
-- Animacao: conversar | interacao: insiste
+- Camera: aereo = -
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): COL (variante 0, expressao suspicious); KEK (variante 0, expressao smile) | multidao: 8 de POV
+- Animacao: conversar
 - Objetos/modelos: kit/marco_viena, kit/snake_ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): anel, benzeno, remedios
 - RISCOS: nenhum
@@ -136,8 +136,8 @@ mk/Chair_1 | b4, b5 | pronto | conferir na folha de contato se le bem; se parece
 
 
 ## Video inteiro
-- Objeto heroi: kit/snake_ring | grandes momentos: b1, b9 | planos abertos: 2 | mistura: close 18% | medio 72% | aberto 6% | detalhe 4%
-- Interacoes: b0 cochichar, b2 discutir, b3 entregar, b8 entregar, b10 insiste
+- Objeto heroi: kit/snake_ring | grandes momentos: b1, b9 | planos abertos: 3 | mistura: close 18% | medio 65% | aberto 16% | detalhe 2%
+- Interacoes: b0 cochichar, b2 discutir, b3 entregar, b8 entregar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

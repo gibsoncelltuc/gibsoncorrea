@@ -44,10 +44,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - Do outro lado, uma sentinela búlgara viu um estranho armado, e atirou.
 - Cenario: mountain | luz: golden | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Camera: aereo = -
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): BUL (variante 0, expressao angry); GRE (variante 0, expressao scared) | multidao: 10 de BUL/GRE
-- Animacao: conversar | interacao: empurrar | batalha encenada
+- Animacao: encena | batalha encenada
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estranho, sentinela
 - RISCOS: nenhum
@@ -112,8 +112,8 @@ dog | b0, b2, b3, b9 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/dog_sit | grandes momentos: b4, b6 | planos abertos: 2 | mistura: close 19% | medio 67% | aberto 14% | detalhe 0%
-- Interacoes: b4 empurrar, b5 susto, b7 susto, b8 entregar
+- Objeto heroi: kit/dog_sit | grandes momentos: b4, b6 | planos abertos: 3 | mistura: close 21% | medio 63% | aberto 16% | detalhe 0%
+- Interacoes: b5 susto, b7 susto, b8 entregar
 - RISCOS GERAIS: 
   - objeto heroi (kit/dog_sit) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
   - pouca variedade de cenario ({'mountain': 8, 'interior madeira': 1, 'interior pedra': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)

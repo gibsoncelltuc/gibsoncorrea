@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 18 - Os Primeiros Passageiros do Céu
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.2s - 17 palavras - plano two
@@ -64,15 +64,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b7 - 40.2s a 44.9s - 17 palavras - plano group
+## Cena b7 - 40.2s a 44.9s - 17 palavras - plano reveal
 > "Acontece que o balão levantou voo de verdade, e foi embora pelo céu, com os bichos dentro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | levantou (41.4s) | ACAO: pega | levanta/segura | OK |
 | 2 | embora (43.1s) | ACAO: sai | sai andando pela lateral | OK |
-| 3 | - | INTERACAO | insiste | OK |
-| 4 | - | ATUACAO | reagir | OK |
+| 3 | - | ATUACAO | reagir | OK |
 
 ## Cena b8 - 46.1s a 51.8s - 17 palavras - plano two
 > "Oito minutos depois, ele desceu num bosque a uns três quilômetros dali. Os irmãos correram para ver."
@@ -82,7 +81,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | desceu (47.7s) | ACAO: g_desceu | g_desceu | OK |
 | 2 | correram (51.0s) | EFEITO: dust | poeira + som | OK |
 | 3 | correram (51.0s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
-| 4 | - | INTERACAO | vai ate o outro | OK |
+| 4 | - | INTERACAO | insiste | OK |
 | 5 | - | ATUACAO | conversar | OK |
 | 6 | - | CHEGADA | alguem entra andando | OK |
 

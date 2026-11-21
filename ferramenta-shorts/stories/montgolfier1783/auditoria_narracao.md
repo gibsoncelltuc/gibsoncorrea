@@ -19,7 +19,7 @@ Cenas 100% fieis: 9/12 (75%). Lacunas: 5
 - na tela: set=['countryside'] animais=[] objetos=['balloon', 'marco_versalhes'] atores=33 acoes_folha3=[]
 - **FALTA:** LUGAR/CENARIO narrado (PALACIO/SALA) NAO aparece
 ## b7 OK - Acontece que o balão levantou voo de verdade, e foi embora pelo céu, com os bichos dentro.
-- na tela: set=['street'] animais=[] objetos=['balloon_air', 'marco_versalhes'] atores=2 acoes_folha3=['levantou', 'embora']
+- na tela: set=['street'] animais=[] objetos=['balloon_air', 'marco_versalhes'] atores=8 acoes_folha3=['levantou', 'embora']
 ## b8 OK - Oito minutos depois, ele desceu num bosque a uns três quilômetros dali. Os irmãos correram para ver.
 - na tela: set=['countryside'] animais=[] objetos=['balloon', 'bush', 'marco_versalhes', 'tree_oak', 'tree_pine'] atores=2 acoes_folha3=['desceu', 'correram', 'correram']
 ## b9 OK - Os três bichos estavam vivos e bem! Dava para respirar no céu.

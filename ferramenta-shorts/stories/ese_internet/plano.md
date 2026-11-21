@@ -10,7 +10,7 @@ b4 | two | -  | interior | - | -
 b5 | two | -  | objeto na mao | encena: g_voltaria (point) @3 (acao + som de efeito) | -
 b6 | low | -  | - | - | -
 b7 | two | -  | - | encena: g_conversa (point) @1 (acao + som de efeito); encena: olha (point) @6 (acao + som de efeito) | -
-b8 | group | -  | - | - | -
+b8 | group | -  | tropa | - | -
 b9 | orbit | -  | batalha aberta com tiros, tropa, placa: VOLTOU! | correria (dust + som de impacto); encena: grita (up) @5 (acao + som de efeito) | -
 b10 | close | -  | - | encena: x_fone (lift) @9 (acao + som de efeito) | -
 

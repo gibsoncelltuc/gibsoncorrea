@@ -14,7 +14,7 @@ Cenas 100% fieis: 12/12 (100%). Lacunas: 0
 ## b5 OK - No ringue, o lutador de Trump, Bobby Lashley, enfrentou o gigante Umaga, do lado de McMahon.
 - na tela: set=['street'] animais=[] objetos=['ring'] atores=2 acoes_folha3=['enfrentou']
 ## b6 OK - Acontece que o juiz convidado era Steve Austin, famoso por derrubar todo mundo. A luta virou bagunça.
-- na tela: set=['street'] animais=[] objetos=['ring'] atores=7 acoes_folha3=[]
+- na tela: set=['street'] animais=[] objetos=['ring'] atores=32 acoes_folha3=[]
 ## b7 OK - No fim, o lutador de Trump venceu. O estádio inteiro foi abaixo.
 - na tela: set=['street'] animais=[] objetos=['ball', 'ring'] atores=25 acoes_folha3=['venceu', 'venceu']
 ## b8 OK - Trump e Lashley seguraram McMahon, e passaram a máquina de raspar na cabeça dele.

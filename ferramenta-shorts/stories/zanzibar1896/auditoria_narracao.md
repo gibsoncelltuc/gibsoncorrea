@@ -19,7 +19,7 @@ Cenas 100% fieis: 10/11 (91%). Lacunas: 1
 ## b7 OK - O sultão fugiu pela porta dos fundos, e foi pedir abrigo no consulado da Alemanha.
 - na tela: set=['street'] animais=[] objetos=['bench', 'house_two', 'lamppost', 'marco_zanzibar'] atores=2 acoes_folha3=['fugiu', 'fugiu']
 ## b8 OK - Às nove e quarenta, a bandeira do palácio caiu, e os canhões pararam.
-- na tela: set=['hall'] animais=[] objetos=['cannon', 'castle_tower', 'flagpole'] atores=27 acoes_folha3=['caiu', 'canhões', 'canhões']
+- na tela: set=['hall'] animais=[] objetos=['cannon', 'castle_tower', 'flagpole'] atores=14 acoes_folha3=['caiu', 'canhões', 'canhões']
 ## b9 OK - Trinta e oito minutos. No mesmo dia, os ingleses colocaram outro sultão no trono.
 - na tela: set=['medieval'] animais=[] objetos=['marco_zanzibar'] atores=3 acoes_folha3=['colocaram']
 ## b10 OK - E ainda mandaram a conta das balas para Zanzibar.

@@ -6,7 +6,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | street | group | 1 | conversar | vehicles/car | - | -
 b1 | interior loja | two | 2 | conversar, INTERAGEM: avanca e o outro recua | - | - | -
-b2 | jungle | orbit | 9 | reagir | nature/tree_pine, nature/tree_oak, nature/bush, bear | - | -
+b2 | jungle | aereo | 9 | reagir | nature/tree_pine, nature/tree_oak, nature/bush, bear | - | -
 b3 | interior madeira | orbit | 15 | conversar, batalha | - | - | -
 b4 | interior pedra | two | 2 | conversar, INTERAGEM: susto | - | - | -
 

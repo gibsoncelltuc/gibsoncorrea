@@ -4,7 +4,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | group | -  | veiculo | (rosto) shock (expr + som de efeito); impossível (ring + som de alerta) | -
 b1 | two | -  | interior | - | -
-b2 | orbit | -  | tropa, animais | animal: bear entra caminhando (acao + som de efeito); encena: chega (point) @2 (acao + som de efeito); encena: g_observav (point) @8 (acao + som de efeito) | -
+b2 | aereo | -  | tropa, animais | animal: bear entra caminhando (acao + som de efeito); encena: chega (point) @2 (acao + som de efeito); encena: g_observav (point) @8 (acao + som de efeito) | -
 b3 | orbit | -  | batalha aberta com tiros, tropa, interior | encena: x_espera (cross) @5 (acao + som de efeito) | -
 b4 | two | -  | interior | - | -
 

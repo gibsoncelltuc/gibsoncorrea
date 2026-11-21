@@ -18,7 +18,7 @@ Cenas 100% fieis: 11/11 (100%). Lacunas: 0
 ## b7 OK - O vencedor, Bill Rancic, ganhou o emprego, com salário de duzentos e cinquenta mil dólares por ano.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_eua_wood'] atores=2 acoes_folha3=['vencedor', 'ganhou']
 ## b8 OK - O formato se espalhou pelo mundo. No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus.
-- na tela: set=['street'] animais=[] objetos=['marco_trumptower'] atores=2 acoes_folha3=['espalhou', 'estreou']
+- na tela: set=['street'] animais=[] objetos=['marco_trumptower'] atores=8 acoes_folha3=['espalhou', 'estreou']
 ## b9 OK - Trump apresentou o programa por mais de dez anos, e só saiu em dois mil e quinze, quando entrou na política.
 - na tela: set=['countryside'] animais=[] objetos=['marco_trumptower', 'tv'] atores=6 acoes_folha3=['apresentou', 'saiu', 'entrou']
 ## b10 OK - Um programa de emprego que acabou ficando famoso justamente por demitir.

@@ -74,9 +74,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Lá, ele construiu um castelo observatório, e anotou a posição de mais ...
 - Cenario: countryside | luz: noite | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (1): TYC (variante 0, expressao grin, segura paper)
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): TYC (variante 0, expressao grin, segura paper) | multidao: 6 de POV
 - Animacao: reagir
 - Objetos/modelos: kit/marco_uraniborg, kit/marco_rostock
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): castelo, posicao
@@ -125,7 +125,7 @@ kit/marco_uraniborg | b7 | pronto | conferir na folha de contato se le bem; se p
 
 
 ## Video inteiro
-- Objeto heroi: kit/brass_nose | grandes momentos: b1, b9 | planos abertos: 3 | mistura: close 13% | medio 70% | aberto 15% | detalhe 2%
+- Objeto heroi: kit/brass_nose | grandes momentos: b1, b9 | planos abertos: 4 | mistura: close 13% | medio 60% | aberto 25% | detalhe 2%
 - Interacoes: b0 discutir, b2 avanca e o outro recua, b3 discutir, b4 susto, b8 entregar
 - RISCOS GERAIS: nenhum
 

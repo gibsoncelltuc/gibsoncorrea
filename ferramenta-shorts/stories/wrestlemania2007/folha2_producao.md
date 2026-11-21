@@ -66,7 +66,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: stadium | luz: day | clima: limpo
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): JUI (variante 0, expressao smug); UMA (variante 0, expressao angry) | multidao: 5 de POV
+- Personagens principais (2): JUI (variante 0, expressao smug); UMA (variante 0, expressao angry) | multidao: 30 de POV
 - Animacao: conversar | interacao: susto
 - Objetos/modelos: kit/ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): juiz, luta

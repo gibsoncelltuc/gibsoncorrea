@@ -57,7 +57,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | reagir | OK |
 | 3 | - | PLACA | 5.000 °C | OK |
 
-## Cena b6 - 36.3s a 42.6s - 18 palavras - plano group
+## Cena b6 - 36.3s a 42.6s - 18 palavras - plano crowd
 > "Você cairia cada vez mais rápido, e passaria pelo centro do planeta a milhares de quilômetros por hora."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

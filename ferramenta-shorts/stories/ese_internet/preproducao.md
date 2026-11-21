@@ -12,7 +12,7 @@ b4 | interior loja | two | 2 | reagir, INTERAGEM: discutir | kit/coin, kit/phone
 b5 | mountain | two | 2 | conversar, INTERAGEM: avanca e o outro recua | - | paper | -
 b6 | mountain | low | 1 | reagir | kit/phone | - | -
 b7 | street | two | 2 | conversar, INTERAGEM: entregar | kit/ball | - | -
-b8 | countryside | group | 2 | conversar, INTERAGEM: o outro se aproxima | - | - | -
+b8 | countryside | group | 8 | conversar, INTERAGEM: o outro se aproxima | - | - | -
 b9 | countryside | orbit | 33 | comemorar, batalha | - | - | -
 b10 | street | close | 1 | comemorar | kit/phone | - | -
 

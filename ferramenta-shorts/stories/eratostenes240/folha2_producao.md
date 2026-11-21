@@ -94,10 +94,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - E tudo isso aconteceu mais de dois mil anos atrás, sem satélite e sem ...
 - Cenario: street | luz: desert | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): ERA (variante 0, expressao laugh); BIB (variante 0, expressao laugh) | multidao: 14 de BIB/POV/CAM
-- Animacao: comemorar | interacao: pular | batalha encenada
+- Animacao: comemorar | batalha encenada
 - Objetos/modelos: kit/globe, nature/tree_palm, kit/marco_alexandria, kit/starlink_sat
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois
 - RISCOS: nenhum
@@ -130,8 +130,8 @@ kit/starlink_sat | b9, b10 | pronto | conferir na folha de contato se le bem; se
 
 
 ## Video inteiro
-- Objeto heroi: kit/globe | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 17% | medio 66% | aberto 11% | detalhe 6%
-- Interacoes: b0 o outro se aproxima, b2 insiste, b3 vai ate o outro, b4 aproxima-se, b8 cochichar, b9 pular
+- Objeto heroi: kit/globe | grandes momentos: b6, b9 | planos abertos: 3 | mistura: close 19% | medio 61% | aberto 14% | detalhe 6%
+- Interacoes: b0 o outro se aproxima, b2 insiste, b3 vai ate o outro, b4 aproxima-se, b8 cochichar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

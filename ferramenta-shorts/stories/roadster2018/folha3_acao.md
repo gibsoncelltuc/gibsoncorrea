@@ -53,7 +53,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b6 - 33.3s a 35.9s - 8 palavras - plano group
+## Cena b6 - 33.3s a 35.9s - 8 palavras - plano crowd
 > "No painel, estava escrito: Não entre em pânico."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

@@ -21,7 +21,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | avanca e o outro recua | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b2 - 7.8s a 11.5s - 11 palavras - plano orbit
+## Cena b2 - 7.8s a 11.5s - 11 palavras - plano aereo
 > "Então ele entrou na floresta, onde os animais observavam em silêncio."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

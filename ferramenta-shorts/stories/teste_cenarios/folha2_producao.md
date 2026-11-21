@@ -24,7 +24,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - Então ele entrou na floresta, onde os animais observavam em silêncio.
 - Cenario: jungle | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Camera: aereo = -
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): CID (variante 0, expressao shock) | multidao: 8 de POV
 - Animacao: reagir

@@ -74,10 +74,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - A Liga mandou a Grécia parar, retirar as tropas e pagar uma indenizaçã...
 - Cenario: mountain | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): OFF (variante 0, expressao pained); GRE (variante 1, expressao nervous) | multidao: 5 de POV
-- Animacao: conversar | interacao: avanca e o outro recua
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): OFF (variante 0, expressao pained); GRE (variante 1, expressao nervous) | multidao: 10 de POV
+- Animacao: conversar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): grecia, indenizacao, liga, tropas
 - RISCOS: nenhum
@@ -101,8 +101,8 @@ dog | b1, b2, b8 | pronto | conferir na folha de contato se le bem; se parecer c
 
 
 ## Video inteiro
-- Objeto heroi: kit/dog_sit | grandes momentos: b3, b5 | planos abertos: 2 | mistura: close 15% | medio 72% | aberto 7% | detalhe 6%
-- Interacoes: b0 aproxima-se, b4 entregar, b6 susto, b7 avanca e o outro recua
+- Objeto heroi: kit/dog_sit | grandes momentos: b3, b5 | planos abertos: 3 | mistura: close 15% | medio 63% | aberto 19% | detalhe 3%
+- Interacoes: b0 aproxima-se, b4 entregar, b6 susto
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

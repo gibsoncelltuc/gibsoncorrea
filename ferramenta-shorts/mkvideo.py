@@ -359,8 +359,9 @@ TEMPL = {  # h = altura do alvo; d0/d1 = distancia da camera no inicio/fim; el =
     'low':   dict(h=1.6, d0=8.2, d1=7.2, el=2),
     'reveal': dict(h=2.4, d0=10.0, d1=22.0, el=6, fov=46),   # recua e revela o exercito inteiro
     'orbit':  dict(h=2.4, d0=19.0, d1=16.0, el=6, fov=46, az0=-38, az1=32),   # panoramica aberta em arco
+    'aereo':  dict(h=1.0, d0=44.0, d1=34.0, el=50, fov=52, az0=-18, az1=18),   # 21/11 VISTA DE CIMA do cenario inteiro (estadio todo, porto, cidade): camera alta descendo e girando devagar
 }
-WIDE = ('wide', 'crowd', 'reveal', 'orbit')
+WIDE = ('wide', 'crowd', 'reveal', 'orbit', 'aereo')
 TXT = {'blue': ('#fff6e0', '#27408b'), 'brown': ('#fff6e0', '#7a3a1c'), 'red': ('#d8282f', '#fff6e0'), 'gold': ('#e8c45a', '#7a1c1c'), 'white': ('#ffffff', '#1c2a4a')}
 TXT_CYCLE = ['brown', 'blue', 'red', 'gold']
 
@@ -569,6 +570,7 @@ def direct(beats):
     run = 0; wide_n = 0; wrun = 0; impact_n = 0
     outs = list(B.get('outfits', {}))
     for k, b in enumerate(beats):
+        if b.get('shot') == 'aereo': b['shot_lock'] = True; wide_n += 1   # vista de cima pedida: o diretor nao troca
         if b.get('shot') == 'track' and not b.get('batalha'): b['shot_lock'] = True   # o roteiro pediu gente andando/correndo: o diretor nao troca por multidao parada
         if b.get('shot_lock'):
             run = 0 if b.get('shot', 'two') in WIDE else run + 1; continue
@@ -588,7 +590,7 @@ def direct(beats):
         if b.get('batalha') or (not (first or last) and _tropa and any(IMPACT.match(w_) for w_ in words) and impact_n < int(B.get('max_impact', 2)) and b.get('impact') is not False):
             impact_n += 1; b['impact'] = True; shot = ('crowd' if impact_n % 2 else 'orbit') if (b.get('batalha') or wrun < 1) else 'group'   # batalha marcada SEMPRE abre; impacto logo depois de outro aberto fica em plano medio com a tropa atras
             if wrun >= 1 and k > 0 and not beats[k - 1].get('impact') and not beats[k - 1].get('shot_lock') and k - 1 > 0: beats[k - 1]['shot'] = 'group'; wide_n -= 1; wrun = 0   # o aberto anterior (sem batalha) cede a vez   # dois abertos seguidos nao: o segundo fica em plano medio com a tropa atras   # MOMENTO-CHAVE: plano aberto de alto impacto (fora da cota de planos abertos)
-        elif shot in WIDE and not (first or last) and wide_n >= int(B.get('max_wide', 2)): shot = 'group'   # MODO RICKS: personagem grande na maior parte do video
+        elif shot in WIDE and not (first or last) and wide_n >= int(B.get('max_wide', 3)): shot = 'group'   # MODO RICKS: personagem grande na maior parte do video
         wrun = wrun + 1 if shot in WIDE else 0
         b['shot'] = shot
         if shot in WIDE:
@@ -684,14 +686,14 @@ if B.get('director') is not False and B.get('ritmo') is not False and len(beats)
     _b = beats[-1]
     if not _lock(_b) and len(_b.get('who', [])) <= 1: _b['shot'] = 'close'                             # final: fecha no rosto
 # REGRA RESTRITA (pedido do Gibson): TODO video tem no minimo 2 planos abertos de camera continua (ambientacao ampla: tropa, paisagem, batalha).
-MIN_WIDE = int(B.get('min_wide', 2))
+MIN_WIDE = int(B.get('min_wide', 3 if len(B['beats']) >= 8 else 2))   # 21/11 (Gibson): 2 a 3 takes de AMPLITUDE com o cenario inteiro (um deles vista de cima)
 if B.get('director') is not False and len(beats) >= 5:
     _w = [i for i, _b in enumerate(beats) if _b.get('shot') in WIDE]
     _cand = sorted((i for i in range(1, len(beats) - 1) if i not in _w and not beats[i].get('shot_lock') and not beats[i].get('interior') and not beats[i].get('veiculo')), key=lambda i: (min(abs(i - j) for j in _w) if _w else 9, -abs(i - len(beats) * (0.35 if not _w else 0.7))), reverse=True)
     while len(_w) < MIN_WIDE and _cand:
         i = _cand.pop(0)
         if any(abs(i - j) <= 1 for j in _w) and _cand: continue
-        _b = beats[i]; _b['shot'] = 'reveal' if len(_w) % 2 == 0 else 'orbit'; _b['aberto_auto'] = True
+        _b = beats[i]; _b['shot'] = ('aereo' if not any(beats[j].get('shot') == 'aereo' for j in _w) else 'reveal' if len(_w) % 2 == 0 else 'orbit'); _b['aberto_auto'] = True
         _o = [w.split(':')[0] for w in _b.get('who', [])] or list(B.get('outfits', {'X': 0}))[:1]
         if not _b.get('emus'): _b.setdefault('crowd', {'n': 8, 'outfits': list(dict.fromkeys(_o)), 'march': False})
         _w.append(i)

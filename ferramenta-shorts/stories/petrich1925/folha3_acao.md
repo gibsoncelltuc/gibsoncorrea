@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - A Guerra do Cachorro Perdido
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 5.6s - 16 palavras - plano two
@@ -77,7 +77,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | LIGA DAS NAÇÕES | OK |
 
-## Cena b7 - 31.9s a 36.3s - 13 palavras - plano group
+## Cena b7 - 31.9s a 36.3s - 13 palavras - plano crowd
 > "A Liga mandou a Grécia parar, retirar as tropas e pagar uma indenização."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -85,9 +85,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | mandou (32.6s) | ACAO: fala | aponta explicando | OK |
 | 2 | pagar (35.6s) | EFEITO: stars | estrelinhas + som | OK |
 | 3 | pagar (35.6s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 4 | - | INTERACAO | avanca e o outro recua | OK |
-| 5 | - | ATUACAO | conversar | OK |
-| 6 | - | PLACA | INDENIZAÇÃO | OK |
+| 4 | - | ATUACAO | conversar | OK |
+| 5 | - | PLACA | INDENIZAÇÃO | OK |
 
 ## Cena b8 - 36.7s a 40.7s - 12 palavras - plano close
 > "A Grécia obedeceu, e ninguém sabe o que aconteceu com o cachorro."

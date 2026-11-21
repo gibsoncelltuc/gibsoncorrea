@@ -6,7 +6,7 @@ Cenas 100% fieis: 10/10 (100%). Lacunas: 0
 ## b1 OK - Era mil novecentos e sessenta e nove. Honduras e El Salvador, dois vizinhos, já viviam brigando por terra e por fronteira.
 - na tela: set=['street'] animais=[] objetos=['house_small', 'picket_fence', 'tree_oak', 'volcano'] atores=10 acoes_folha3=['brigando']
 ## b2 OK - Aí veio a disputa por uma vaga na Copa do Mundo. Três jogos, um contra o outro.
-- na tela: set=['stadium'] animais=[] objetos=['ball', 'trave'] atores=6 acoes_folha3=[]
+- na tela: set=['stadium'] animais=[] objetos=['ball', 'trave'] atores=18 acoes_folha3=[]
 ## b3 OK - No primeiro, Honduras venceu em casa. A torcida passou a noite batendo panelas na porta do hotel dos visitantes.
 - na tela: set=['stadium'] animais=[] objetos=['house_small', 'kettle', 'panela', 'picket_fence', 'trave', 'tree_oak'] atores=32 acoes_folha3=['venceu', 'venceu', 'batendo']
 ## b4 OK - No segundo, El Salvador deu o troco. Torcedores brigaram nas ruas, e os dois governos trocaram insultos.
@@ -14,7 +14,7 @@ Cenas 100% fieis: 10/10 (100%). Lacunas: 0
 ## b5 OK - Acontece que, no dia do terceiro jogo, El Salvador cortou relações com o vizinho.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'logs', 'room_colonial_wood'] atores=2 acoes_folha3=['cortou']
 ## b6 OK - El Salvador ganhou a partida, na prorrogação, e ficou com a vaga.
-- na tela: set=['stadium'] animais=[] objetos=['ball', 'trave'] atores=9 acoes_folha3=['ganhou', 'ganhou']
+- na tela: set=['stadium'] animais=[] objetos=['ball', 'trave'] atores=19 acoes_folha3=['ganhou', 'ganhou']
 ## b7 OK - Duas semanas depois, tanques e aviões cruzaram a fronteira. A guerra tinha começado.
 - na tela: set=['street'] animais=[] objetos=['airplane', 'tank', 'volcano'] atores=22 acoes_folha3=[]
 ## b8 OK - Durou cem horas. Os outros países do continente obrigaram os dois a parar.

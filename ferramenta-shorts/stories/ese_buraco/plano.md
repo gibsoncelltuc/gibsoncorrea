@@ -8,11 +8,11 @@ b2 | two | -  | objeto na mao | encena: cava (hammer) @2 (acao + som de efeito) 
 b3 | two | -  | objeto na mao | - | -
 b4 | low | -  | - | - | -
 b5 | crowd | -  | batalha aberta com tiros, tropa, placa: 5.000 °C | encena: pula @9 (acao + som de efeito) | -
-b6 | group | -  | tropa | - | -
+b6 | crowd | -  | tropa | - | -
 b7 | two | -  | objeto na mao | - | -
 b8 | two | -  | interior | encena: g_voltando (point) @11 (acao + som de efeito) | -
 b9 | orbit | -  | batalha aberta com tiros, tropa, placa: 40 MINUTOS | - | -
 b10 | close | -  | - | encena: negocio (reach) @11 (acao + som de efeito) | -
 
-Mistura de planos: close 23% | medio 59% | aberto 11% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | dentro do padrao do canal
+Mistura de planos: close 23% | medio 48% | aberto 22% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 4 | dentro do padrao do canal

@@ -19,7 +19,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | susto | OK |
 | 2 | - | ATUACAO | reagir | OK |
 
-## Cena b2 - 5.2s a 7.8s - 8 palavras - plano orbit
+## Cena b2 - 5.2s a 7.8s - 8 palavras - plano aereo
 > "Dias depois, no inverno, a neve cobriu tudo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

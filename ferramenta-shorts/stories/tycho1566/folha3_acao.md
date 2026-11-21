@@ -74,7 +74,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | deu (36.4s) | ACAO: x_entrega | estende a mao entregando | OK |
 
-## Cena b7 - 39.9s a 44.9s - 17 palavras - plano group
+## Cena b7 - 39.9s a 44.9s - 17 palavras - plano wide
 > "Lá, ele construiu um castelo observatório, e anotou a posição de mais de mil estrelas, sem telescópio."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

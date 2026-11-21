@@ -4,7 +4,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | track | -  | - | encena: g_caminhav (point) @2 (acao + som de efeito) | -
 b1 | two | -  | interior | - | -
-b2 | orbit | -  | tropa | encena: g_cobriu (reach) @6 (acao + som de efeito) | -
+b2 | aereo | -  | tropa | encena: g_cobriu (reach) @6 (acao + som de efeito) | -
 b3 | two | - calor | interior | encena: x_bebe (lift) @5 (acao + som de efeito) | -
 b4 | wide | - limpo | tropa | encena: x_le (think) @5 (acao + som de efeito) | -
 b5 | track | -  | tropa | chegou (dust + som de impacto); marchando (dust + som de impacto); encena: chega (point) @6 (acao + som de efeito); encena: g_marchand (point) @7 (acao + som de efeito) | -

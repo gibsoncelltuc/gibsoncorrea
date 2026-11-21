@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 08 - A Guerra de 38 Minutos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 50 acoes catalogadas, 50 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 48 acoes catalogadas, 48 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 3.7s - 11 palavras - plano two
@@ -88,7 +88,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | fugiu (38.5s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
 | 3 | - | ATUACAO | discutir | OK |
 
-## Cena b8 - 43.3s a 47.8s - 13 palavras - plano group
+## Cena b8 - 43.3s a 47.8s - 13 palavras - plano crowd
 > "Às nove e quarenta, a bandeira do palácio caiu, e os canhões pararam."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -97,9 +97,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | canhões (47.4s) | EFEITO: burst | estouro/clarao + som | OK |
 | 3 | canhões (47.4s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 4 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
-| 5 | - | INTERACAO | vai ate o outro | OK |
-| 6 | - | ATUACAO | conversar | OK |
-| 7 | - | PLACA | 9:40 | OK |
+| 5 | - | PLACA | 9:40 | OK |
 
 ## Cena b9 - 48.1s a 53.0s - 14 palavras - plano group
 > "Trinta e oito minutos. No mesmo dia, os ingleses colocaram outro sultão no trono."
@@ -107,7 +105,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | colocaram (51.5s) | ACAO: g_colocara | g_colocara | OK |
-| 2 | - | INTERACAO | aproxima-se | OK |
+| 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b10 - 53.3s a 56.3s - 9 palavras - plano close

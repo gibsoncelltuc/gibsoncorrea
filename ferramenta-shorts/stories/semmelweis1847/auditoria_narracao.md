@@ -25,6 +25,6 @@ Cenas 100% fieis: 9/12 (75%). Lacunas: 3
 - na tela: set=['hall'] animais=[] objetos=['maca', 'room_hospital'] atores=2 acoes_folha3=['ofenderam', 'embora']
 - **FALTA:** ACAO narrada ("brigou") sem animacao na folha 3
 ## b10 OK - Ele morreu em mil oitocentos e sessenta e cinco, sem ver ninguém dar razão a ele.
-- na tela: set=['street'] animais=[] objetos=['lapide', 'marco_viena'] atores=1 acoes_folha3=['morreu', 'morreu']
+- na tela: set=['street'] animais=[] objetos=['lapide', 'marco_viena'] atores=9 acoes_folha3=['morreu', 'morreu']
 ## b11 OK - Anos depois, a ciência provou os micróbios. Hoje, ele é chamado de salvador das mães.
 - na tela: set=['street'] animais=[] objetos=['marco_viena', 'wash_basin'] atores=1 acoes_folha3=['provou']

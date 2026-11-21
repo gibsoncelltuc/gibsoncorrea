@@ -14,12 +14,12 @@ b6 | interior madeira | low | 1 | reagir | kit/snake_ring | - | -
 b7 | interior loja | two | 1 | reagir | kit/snake_ring | paper | -
 b8 | interior madeira | two | 2 | conversar, INTERAGEM: entregar | kit/snake_ring | - | -
 b9 | street | crowd | 21 | comemorar, batalha | kit/snake_ring, kit/marco_viena | - | -
-b10 | street | two | 2 | conversar, INTERAGEM: insiste | kit/marco_viena, kit/snake_ring | - | -
+b10 | street | aereo | 10 | conversar | kit/marco_viena, kit/snake_ring | - | -
 b11 | street | close | 1 | reagir | kit/snake_ring, kit/marco_viena | - | -
 
-OBJETO HEROI: kit/snake_ring - aparece em 9 cena(s), close nele em 2
+OBJETO HEROI: kit/snake_ring - aparece em 9 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b1, b9
-Interacoes entre personagens: b0 cochichar, b2 discutir, b3 entregar, b8 entregar, b10 insiste
+Interacoes entre personagens: b0 cochichar, b2 discutir, b3 entregar, b8 entregar
 
 Cenas com personagens parados: 0 de 12
 FALTA MODELAR: nada

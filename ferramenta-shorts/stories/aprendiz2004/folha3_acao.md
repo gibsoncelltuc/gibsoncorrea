@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 13 - Você Está Demitido
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 41 acoes catalogadas, 41 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 5.6s - 16 palavras - plano two
@@ -81,16 +81,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | abracar | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b8 - 49.6s a 55.6s - 17 palavras - plano group
+## Cena b8 - 49.6s a 55.6s - 17 palavras - plano reveal
 > "O formato se espalhou pelo mundo. No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | espalhou (50.7s) | ACAO: g_espalhou | g_espalhou | OK |
 | 2 | estreou (53.3s) | ACAO: g_estreou | g_estreou | OK |
-| 3 | - | INTERACAO | vai ate o outro | OK |
-| 4 | - | ATUACAO | conversar | OK |
-| 5 | - | MAPA | BRASIL | OK |
+| 3 | - | MAPA | BRASIL | OK |
 
 ## Cena b9 - 55.9s a 63.3s - 21 palavras - plano two
 > "Trump apresentou o programa por mais de dez anos, e só saiu em dois mil e quinze, quando entrou na política."
@@ -100,7 +98,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | apresentou (56.3s) | ACAO: fala | aponta explicando | OK |
 | 2 | saiu (60.0s) | ACAO: sai | sai andando pela lateral | OK |
 | 3 | entrou (62.6s) | ACAO: chega | entra andando pela lateral | OK |
-| 4 | - | INTERACAO | avanca e o outro recua | OK |
+| 4 | - | INTERACAO | vai ate o outro | OK |
 | 5 | - | ATUACAO | conversar | OK |
 | 6 | - | CHEGADA | alguem entra andando | OK |
 

@@ -24,7 +24,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - Dias depois, no inverno, a neve cobriu tudo.
 - Cenario: arctic | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Camera: aereo = -
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): N (variante 0, expressao pained); M (variante 1, expressao nervous) | multidao: 8 de M
 - Animacao: conversar
