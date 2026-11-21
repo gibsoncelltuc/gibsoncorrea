@@ -8,3 +8,10 @@ Balde (EP04) e Bolos (EP07): APROVADOS e entregues ao Gibson.
 REPROVADOS (corrijam o beats.json, gerem storyboard novo, revisem e reenviem; o sha novo chega como NOVO):
 - aroostook1838, cena final do porco "Feijao" (48-51 s): o porco fica CORTADO pela borda do quadro e tem uma faixa branca estranha embaixo dele. Reenquadre (porco inteiro no quadro) e confira o quadro em 49,5 s e 51 s.
 - cachorro1925, cenas do soldado com o cachorro (13-22 s): o cachorro se sobrepoe ao 2o soldado e parece que ele CAVALGA o cachorro. Afaste os dois (cachorro ao lado, nao na frente do corpo) e confira os quadros em 14,5 s, 19,5 s e 21,5 s.
+
+# DEVOLUCAO DA PRINCIPAL (21/11 00:45) - SESSAO A
+bukele2024 segue pendente (ver aviso anterior). cecot2023 entregue.
+REPROVADOS (corrijam o beats.json, storyboard novo, revisao escrita, reenviem):
+- aprendiz2004 (PF 13), 49-52 s "No Brasil, no mesmo ano...": a cena do Brasil sai com predios de tijolo e arranha-ceu de Nova York. Ponha "regiao": "colonial" (ou "marco") na cena do Brasil / "set" diferente e confira o quadro em 50 s. E o close da barraca de limonada (21 s) vira um BLOCO marrom ilegivel: tire "detalhe" dessa cena ou afaste a barraca (props mais para tras) e confira o quadro em 21 s.
+- cybertruck2019 (PF 11): objeto heroi (Cybertruck) so aparece pequeno ao fundo ou atras dos personagens, NUNCA em close. Ponha o carro em escala real (~3 bonecos de comprimento) no inicio com close de camera (detalhe: true numa cena com o carro em props, z perto de -2), e outro close no fim. Confira quadros em 1 s e 40 s.
+Lembrete: escala real de objeto heroi (balao, carro, foguete, torre) e close nele.
