@@ -6,7 +6,7 @@ Cenas 100% fieis: 11/11 (100%). Lacunas: 0
 ## b1 OK - Um confeiteiro francês tinha uma loja perto da Cidade do México, famosa pelos doces.
 - na tela: set=['street'] animais=[] objetos=['cake_table', 'marco_ulua', 'shop', 'stall'] atores=10 acoes_folha3=[]
 ## b2 OK - Um dia, oficiais mexicanos entraram, comeram tudo o que havia, quebraram a loja, e saíram sem pagar.
-- na tela: set=['hall'] animais=[] objetos=['cake_table', 'room_colonial_shop'] atores=3 acoes_folha3=['entraram', 'comeram', 'quebraram', 'quebraram', 'saíram']
+- na tela: set=['hall'] animais=[] objetos=['Table_Large', 'cake_table', 'room_colonial_shop'] atores=3 acoes_folha3=['entraram', 'comeram', 'quebraram', 'quebraram', 'saíram']
 ## b3 OK - O confeiteiro escreveu ao rei da França. "Quero sessenta mil pesos", pediu ele. A loja inteira valia mil.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'cake_table', 'room_colonial_stone'] atores=2 acoes_folha3=['escreveu']
 ## b4 OK - O rei gostou da ideia, juntou outras queixas, e cobrou seiscentos mil. "Paguem, ou mandamos a marinha", avisou a França.

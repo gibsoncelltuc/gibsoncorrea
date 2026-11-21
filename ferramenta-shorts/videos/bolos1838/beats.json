@@ -91,12 +91,20 @@
    "say": "Um dia, oficiais mexicanos entraram, comeram tudo o que havia, quebraram a loja, e saíram sem pagar.",
    "props": [
     [
+     "mk/Table_Large",
+     0,
+     2.6,
+     1.8
+    ],
+    [
      "kit/cake_table",
-     0.2,
-     1.6,
-     1.0
+     0.6,
+     2.6,
+     1.2
     ]
-   ]
+   ],
+   "acao": "comer",
+   "humanos_comem": true
   },
   {
    "shot": "two",

@@ -6,7 +6,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | street | two | 2 | reagir, INTERAGEM: entregar | kit/marco_ulua, kit/cake_table | - | -
 b1 | street | reveal | 10 | parados (so fala e pisca) | kit/marco_ulua, kit/cake_table, buildings/shop, kit/stall | - | -
-b2 | interior loja | group | 3 | conversar, INTERAGEM: vai ate o outro, alguem chega andando | kit/cake_table | - | -
+b2 | interior loja | group | 3 | comer, INTERAGEM: vai ate o outro, alguem chega andando | mk/Table_Large, kit/cake_table | - | -
 b3 | interior pedra | two | 2 | conversar, INTERAGEM: aproxima-se | kit/cake_table | paper | -
 b4 | interior pedra | close | 1 | conversar | - | - | -
 b5 | street | two | 2 | comemorar, INTERAGEM: cochichar | kit/marco_ulua | - | -
