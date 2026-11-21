@@ -150,7 +150,8 @@
    ],
    "impact": false,
    "set": "street",
-   "hora": "dia"
+   "hora": "dia",
+   "detalhe": false
   },
   {
    "say": "O governo lançou até uma carteira digital, chamada Chivo.",

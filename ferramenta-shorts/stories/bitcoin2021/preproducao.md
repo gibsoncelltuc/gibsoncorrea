@@ -14,7 +14,7 @@ b6 | interior pedra | two | 2 | discutir, INTERAGEM: discutir | - | - | -
 b7 | outback | orbit | 8 | parados (so fala e pisca) | kit/globe, kit/volcano | - | -
 b8 | street | two | 3 | conversar, INTERAGEM: insiste | kit/bitcoin, kit/volcano, kit/coin | - | -
 
-OBJETO HEROI: kit/bitcoin - aparece em 4 cena(s), close nele em 2
+OBJETO HEROI: kit/bitcoin - aparece em 4 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b5
 Interacoes entre personagens: b0 avanca e o outro recua, b2 o outro se aproxima, b4 entregar, b6 discutir, b8 insiste
 

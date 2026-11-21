@@ -12,5 +12,5 @@ b6 | two | -  | interior | - | -
 b7 | orbit | -  | tropa | - | -
 b8 | two | -  | - | encena: paga (reach) @1 (acao + som de efeito) | -
 
-Mistura de planos: close 4% | medio 62% | aberto 28% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 4% | medio 64% | aberto 28% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)
