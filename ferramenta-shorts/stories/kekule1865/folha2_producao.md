@@ -47,7 +47,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): KEK (variante 0, expressao bored)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/fireplace, mk/Chair_1
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cadeira, lareira
 - RISCOS: nenhum
@@ -57,7 +57,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): KEK (variante 0, expressao surprised)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/snake_ring, mk/Chair_1
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): atomos, proprio, sonho
 - RISCOS: nenhum
@@ -77,7 +77,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): KEK (variante 0, expressao grin, segura paper)
-- Animacao: encena
+- Animacao: reagir
 - Objetos/modelos: kit/snake_ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): anel, resto, seis
 - RISCOS: nenhum
@@ -117,7 +117,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): KEK (variante 0, expressao smile)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/snake_ring, kit/marco_viena
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): conselho, sonhar
 - RISCOS: nenhum
