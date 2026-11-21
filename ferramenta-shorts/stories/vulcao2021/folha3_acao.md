@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 17 - Bitcoin Feito com Vulcão
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.1s - 15 palavras - plano two
@@ -49,12 +49,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | entregar | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b5 - 28.0s a 31.9s - 15 palavras - plano low
+## Cena b5 - 28.0s a 31.9s - 15 palavras - plano wide
 > "O vapor quente que sai de dentro da terra gira turbinas, e vira eletricidade limpa."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
 ## Cena b6 - 33.0s a 37.7s - 14 palavras - plano two
 > "Acontece que, ao lado da usina, instalaram centenas de computadores só para minerar bitcoin."
@@ -64,7 +64,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | vai ate o outro | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b7 - 38.9s a 43.4s - 16 palavras - plano group
+## Cena b7 - 38.9s a 43.4s - 16 palavras - plano close
 > "Em outubro saiu o primeiro: um pedacinho de bitcoin que valia uns duzentos e setenta dólares."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

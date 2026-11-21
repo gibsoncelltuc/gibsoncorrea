@@ -1,12 +1,12 @@
-b0: CORRIGIDO - presidente aparecia dentro de escritorio por causa de fabricar -> agora ao ar livre com o vulcao, placa 2021 e moeda de dinheiro digital
-b1: OK - mapa de El Salvador na America Central e depois vista do vulcao com gente pequena ao pe, pais cheio de vulcoes
-b2: OK - Bukele com notas de dolar e a moeda bitcoin gigante ao lado, bitcoin vira moeda oficial do pais
-b3: OK - sala com computadores pretos de mineracao, engenheiro com papel preocupado, contas sem parar gastam muita energia
-b4: CORRIGIDO - empresa de energia mandava a cena para dentro -> agora ao pe do vulcao Tecapa, Bukele manda usar o calor
-b5: OK - vapor quente saindo do topo do vulcao, engenheira ao lado da rocha, turbinas e eletricidade limpa
-b6: OK - ao lado da usina instalaram centenas de computadores, sala cheia de maquinas pretas de minerar bitcoin
-b7: OK - em outubro saiu o primeiro pedacinho de bitcoin, moeda dourada no porto com a usina e o vulcao atras
-b8: OK - Bukele comemorou nas redes, multidao com placa VULCAO em plano aberto diante da usina no vulcao
-b9: OK - governo contava quase quinhentos bitcoins, engenheiras com papel e moeda bitcoin na mata ao pe do vulcao
-b10: OK - anunciou a Cidade Bitcoin, placa CIDADE BITCOIN com multidao e predios aos pes de outro vulcao
-b11: OK - dinheiro tirado de vulcao, Bukele sorrindo com moedas bitcoin, fechamento parece ficcao mas aconteceu
+b0: OK - o presidente de El Salvador resolveu fabricar dinheiro digital com a energia de um vulcao: placa 2021 e o vulcao ao fundo
+b1: OK - El Salvador e um pais pequeno da America Central cheio de vulcoes: mapa e o povo na colina colonial
+b2: OK - em dois mil e vinte e um Bukele fez do bitcoin uma moeda oficial do pais: a moeda de bitcoin grande em close e notas na mao
+b3: OK - para criar bitcoins novos computadores fazem contas sem parar e isso gasta energia: sala com as maquinas de mineracao pretas
+b4: OK - ele mandou a empresa de energia do governo usar o calor do vulcao Tecapa: Bukele apontando com o vulcao atras
+b5: CORRIGIDO - vapor e turbinas nao apareciam -> o vapor quente que sai da terra gira turbinas: modelei a turbina (torre branca de tres pas), duas na frente do vulcao soltando vapor
+b6: OK - ao lado da usina instalaram centenas de computadores so para minerar bitcoin: sala com as estantes de computadores
+b7: OK - em outubro saiu o primeiro pedacinho de bitcoin: Bukele de notas na mao e a moeda no chao, ele sai andando
+b8: OK - Bukele comemorou nas redes sociais com um video da usina: multidao de bracos para cima com o letreiro VULCAO e o celular
+b9: OK - anos depois o governo contava quase quinhentos bitcoins minerados com a forca do vulcao: o povo conta moedas de bitcoin na floresta
+b10: OK - ele anunciou o plano de uma Cidade Bitcoin construida aos pes de outro vulcao: multidao com o letreiro CIDADE BITCOIN
+b11: OK - dinheiro tirado de vulcao parece ficcao mas aconteceu de verdade: Bukele sorrindo com as moedas de bitcoin ao lado

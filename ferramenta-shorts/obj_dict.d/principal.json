@@ -178,5 +178,11 @@ false
 "kit/starlink_dish",
 1.0,
 false
+],
+[
+"\\bturbinas?\\b",
+"kit/turbina",
+1.0,
+false
 ]
 ]

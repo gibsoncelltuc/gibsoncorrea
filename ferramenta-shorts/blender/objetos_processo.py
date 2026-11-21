@@ -92,6 +92,18 @@ def burr():
     escala(3.2)
     fim(.0)
 
-E = dict(panela=panela, frasco=frasco, tubos=tubos, enxofre=enxofre, gosma=gosma, borracha=borracha, microscopio=microscopio, balanca=balanca, lupa=lupa, bancada=bancada, burr=burr)
+def turbina():
+    novo('turbina')                      # turbina da usina geotermica (vulcao/vapor): torre branca, cabine, hub e 3 pas
+    cil((0, .05, 0), .22, .1, '#7a7f86', lados=16)
+    torno((0, 0, 0), [(.12, .1), (.09, 1.5), (.07, 1.6)], '#e6e8ec', 18)
+    caixa((0, 1.62, 0.05), (.2, .16, .3), '#d4d7dc')
+    bola((0, 1.62, .22), .1, '#c9ccd2', seg=12)
+    for k in range(3):
+        a = k * 2.0944 + .4
+        tubo([(0, 1.62, .25), (.28 * m.sin(a), 1.62 + .28 * m.cos(a), .26), (.62 * m.sin(a), 1.62 + .62 * m.cos(a), .27)], .035, '#f2f3f5')
+    escala(2.4)
+    fim(.0)
+
+E = dict(panela=panela, frasco=frasco, tubos=tubos, enxofre=enxofre, gosma=gosma, borracha=borracha, microscopio=microscopio, balanca=balanca, lupa=lupa, bancada=bancada, burr=burr, turbina=turbina)
 alvo = sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else list(E)
 for k in alvo: E[k]()
