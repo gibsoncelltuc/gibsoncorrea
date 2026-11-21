@@ -94,10 +94,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Todos os aviões voltaram para casa.
 - Cenario: countryside | luz: dia | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Camera: close = close no rosto; empurra devagar
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto
-- Personagens principais (2): PIL (variante 0, expressao smile); GEN (variante 0, expressao grin)
-- Animacao: conversar | interacao: vai ate o outro
+- Personagens principais (1): GEN (variante 0, expressao grin)
+- Animacao: conversar
 - Objetos/modelos: kit/b2_air, kit/marco_mesquita, vehicles/airplane, buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): avioes
 - RISCOS: nenhum
@@ -107,7 +107,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto
 - Personagens principais (2): TRU (variante 0, expressao smug); GEN (variante 0, expressao grin, segura paper)
-- Animacao: conversar | interacao: aproxima-se
+- Animacao: conversar | interacao: vai ate o outro
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): usinas
 - RISCOS: nenhum
@@ -148,8 +148,8 @@ nature/tree_oak | b9 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/bunker_bomb | grandes momentos: b5, b11 | planos abertos: 3 | mistura: close 31% | medio 55% | aberto 11% | detalhe 3%
-- Interacoes: b0 o outro se aproxima, b2 discutir, b4 entregar, b6 cochichar, b8 insiste, b9 vai ate o outro, b10 aproxima-se
+- Objeto heroi: kit/bunker_bomb | grandes momentos: b5, b11 | planos abertos: 3 | mistura: close 35% | medio 52% | aberto 11% | detalhe 3%
+- Interacoes: b0 o outro se aproxima, b2 discutir, b4 entregar, b6 cochichar, b8 insiste, b10 vai ate o outro
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

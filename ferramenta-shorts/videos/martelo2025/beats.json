@@ -258,11 +258,10 @@
    "tiros": false
   },
   {
-   "shot": "reveal",
+   "shot": "close",
    "set": "countryside",
    "hora": "dia",
    "who": [
-    "PIL:0:smile",
     "GEN:0:grin"
    ],
    "say": "Todos os aviões voltaram para casa.",

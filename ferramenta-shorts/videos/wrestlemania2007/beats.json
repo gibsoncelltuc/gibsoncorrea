@@ -8,7 +8,7 @@
  "set": "stadium",
  "light": "day",
  "mood": "playful",
- "heroi": "kit/clipper",
+ "heroi": null,
  "outfits": {
   "TRU": {
    "jacket": "#1f2f5c",
@@ -88,7 +88,7 @@
  },
  "beats": [
   {
-   "shot": "two",
+   "shot": "group",
    "who": [
     "TRU:0:smug",
     "VIN:0:shock"
@@ -96,9 +96,9 @@
    "props": [
     [
      "kit/clipper",
-     0,
-     -1.4,
-     1.0
+     1.8,
+     -0.4,
+     1.8
     ]
    ],
    "text": "2007",
@@ -109,7 +109,8 @@
     "ding@30"
    ],
    "say": "Antes de virar presidente, Donald Trump entrou num ringue de luta livre, e raspou a cabeça de outro bilionário.",
-   "detalhe": false
+   "detalhe": false,
+   "shot_lock": true
   },
   {
    "shot": "reveal",
@@ -131,7 +132,7 @@
    "say": "Como todo show de luta, a rivalidade era combinada: Trump contra o dono da empresa de luta, Vince McMahon."
   },
   {
-   "shot": "two",
+   "shot": "group",
    "who": [
     "VIN:0:smug",
     "TRU:0:suspicious"
@@ -141,10 +142,10 @@
      "kit/clipper",
      1.6,
      -0.8,
-     1.1
+     1.6
     ]
    ],
-   "interacao": "entregar",
+   "interacao": "cochichar",
    "fx": [
     "ring@40"
    ],
@@ -152,7 +153,8 @@
     "sting@40"
    ],
    "say": "A aposta era maluca: cada um escolheu um lutador, e o dono de quem perdesse teria a cabeça raspada.",
-   "detalhe": false
+   "detalhe": false,
+   "shot_lock": true
   },
   {
    "shot": "crowd",
@@ -196,7 +198,7 @@
      1.0
     ]
    ],
-   "interacao": "empurrar",
+   "interacao": "discutir",
    "fx": [
     "puff@30"
    ],
@@ -204,7 +206,8 @@
     "thump@30"
    ],
    "say": "No ringue, o lutador de Trump, Bobby Lashley, enfrentou o gigante Umaga, do lado de McMahon.",
-   "detalhe": false
+   "detalhe": false,
+   "shot_lock": true
   },
   {
    "shot": "low",
@@ -269,7 +272,7 @@
    "say": "No fim, o lutador de Trump venceu. O estádio inteiro foi abaixo."
   },
   {
-   "shot": "two",
+   "shot": "group",
    "who": [
     "TRU:0:laugh",
     "VIN:0:scared"
@@ -288,14 +291,15 @@
      1.1
     ]
    ],
-   "interacao": "empurrar",
+   "interacao": "discutir",
    "fx": [
     "puff@40"
    ],
    "sfx": [
     "whoosh@40"
    ],
-   "say": "Trump e Lashley seguraram McMahon, e passaram a máquina de raspar na cabeça dele."
+   "say": "Trump e Lashley seguraram McMahon, e passaram a máquina de raspar na cabeça dele.",
+   "detalhe": false
   },
   {
    "shot": "two",
@@ -322,7 +326,7 @@
    "detalhe": false
   },
   {
-   "shot": "two",
+   "shot": "group",
    "who": [
     "JUI:0:smug",
     "TRU:0:shock"
@@ -335,14 +339,15 @@
      1.0
     ]
    ],
-   "interacao": "empurrar",
+   "interacao": "discutir",
    "fx": [
     "puff@30"
    ],
    "sfx": [
     "thump@30"
    ],
-   "say": "E ainda sobrou para Trump: o juiz aplicou um golpe nele também, e ele foi ao chão."
+   "say": "E ainda sobrou para Trump: o juiz aplicou um golpe nele também, e ele foi ao chão.",
+   "detalhe": false
   },
   {
    "shot": "close",
