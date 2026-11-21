@@ -94,7 +94,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - O dono da luta livre saiu do ringue completamente careca.
 - Cenario: stadium | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (3): VIB (variante 0, expressao cry); TRU (variante 0, expressao laugh); LAS (variante 0, expressao smile)
 - Animacao: conversar | interacao: insiste

@@ -11,7 +11,7 @@ b5 | group | -  | - | encena: golpe (punch) @8 (acao + som de efeito) | -
 b6 | low | -  | tropa | - | -
 b7 | orbit | -  | batalha aberta com tiros, tropa, placa: VITÓRIA | (rosto) laugh (expr + som de efeito); venceu (stars + som de sino); encena: vence (up) @6 (acao + som de efeito) | -
 b8 | group | -  | - | encena: g_segurara (reach) @3 (acao + som de efeito); encena: raspa (reach) @10 (acao + som de efeito) | -
-b9 | group | -  | - | encena: sai @5 (acao + som de efeito); encena: raspa (reach) @9 (acao + som de efeito) | -
+b9 | two | -  | - | encena: sai @5 (acao + som de efeito); encena: raspa (reach) @9 (acao + som de efeito) | -
 b10 | group | -  | - | encena: g_sobrou (point) @2 (acao + som de efeito); encena: g_aplicou (point) @7 (acao + som de efeito); encena: golpe (punch) @9 (acao + som de efeito); encena: tomba @16 (acao + som de efeito) | -
 b11 | two | -  | - | encena: chega (point) @4 (acao + som de efeito) | -
 
