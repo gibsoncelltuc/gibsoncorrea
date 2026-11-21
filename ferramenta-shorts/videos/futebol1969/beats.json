@@ -136,9 +136,9 @@
     "TOR:0:angry",
     "TOR:1:shout"
    ],
-   "interacao": "empurrar",
+   "interacao": "discutir",
    "acao": "discutir",
-   "say": "No segundo, El Salvador deu o troco. Torcedores se empurraram nas ruas, e os dois governos trocaram insultos.",
+   "say": "No segundo, El Salvador deu o troco. Torcedores discutiram aos gritos nas ruas, e os dois governos trocaram insultos.",
    "hora": "dia"
   },
   {

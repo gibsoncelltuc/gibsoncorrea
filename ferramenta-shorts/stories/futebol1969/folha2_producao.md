@@ -42,15 +42,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): hotel, porta, torcida, visitantes
 - RISCOS: nenhum
 
-## Cena b4 - No segundo, El Salvador deu o troco. Torcedores se empurraram nas ruas...
+## Cena b4 - No segundo, El Salvador deu o troco. Torcedores discutiram aos gritos ...
 - Cenario: street | luz: dia | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): TOR (variante 0, expressao angry); TOR (variante 1, expressao shout)
-- Animacao: discutir | interacao: empurrar
+- Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, ruas, troco
-- RISCOS: nenhum
+- RISCOS: 
+  - ACAO SEM ANIMACAO na narracao: gritos -> CORRECAO: a cena precisa MOSTRAR a acao: reescreva com um verbo que a ferramenta encena (veja OPERACAO.md "MODO DE ACAO") ou marque a cena ("batalha", "interacao", "acao", "animals", "props")
 
 ## Cena b5 - Acontece que, no dia do terceiro jogo, El Salvador cortou relações com...
 - Cenario: interior madeira | luz: dia | clima: limpo
@@ -119,10 +120,13 @@ vehicles/airplane | b7 | pronto | conferir na folha de contato se le bem; se par
 
 ## Video inteiro
 - Objeto heroi: kit/ball | grandes momentos: b3, b7 | planos abertos: 3 | mistura: close 13% | medio 65% | aberto 15% | detalhe 6%
-- Interacoes: b0 discutir, b2 aproxima-se, b4 empurrar, b5 susto, b6 pular, b8 avanca e o outro recua
-- RISCOS GERAIS: nenhum
+- Interacoes: b0 discutir, b2 aproxima-se, b4 discutir, b5 susto, b6 pular, b8 avanca e o outro recua
+- RISCOS GERAIS: 
+  - 1 palavra(s) de acao sem efeito + som -> CORRECAO: ver plano.md e por "fx"/"sfx" na cena
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 2 risco(s) em aberto
+- b4: ACAO SEM ANIMACAO na narracao: gritos
+- geral: 1 palavra(s) de acao sem efeito + som
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh futebol1969 bN bM` (so essas cenas).
