@@ -24,8 +24,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - Para provar, o designer Franz von Holzhausen jogou uma esfera de aço n...
 - Cenario: outback | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): DSG (variante 0, expressao stern, segura ball); MUS (variante 0, expressao smile)
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/steel_ball, kit/cybertruck, kit/marco_hollywood
@@ -44,8 +44,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - Ele tentou de novo, em outra janela, e ela também rachou.
 - Cenario: outback | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): DSG (variante 0, expressao nervous); MUS (variante 0, expressao surprised)
 - Animacao: reagir | interacao: o outro se aproxima
 - Objetos/modelos: kit/cybertruck, kit/marco_hollywood
@@ -54,8 +54,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Depois, Musk explicou na internet que, nos ensaios, a mesma esfera tin...
 - Cenario: mountain | luz: golden | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): MUS (variante 0, expressao smile)
 - Animacao: conversar
 - Objetos/modelos: kit/steel_ball, kit/marco_hollywood
@@ -94,7 +94,7 @@ kit/globe | b6 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/cybertruck | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 20% | medio 56% | aberto 14% | detalhe 9%
+- Objeto heroi: kit/cybertruck | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 16% | medio 61% | aberto 14% | detalhe 8%
 - Interacoes: b0 aproxima-se, b2 avanca e o outro recua, b4 o outro se aproxima, b7 insiste
 - RISCOS GERAIS: nenhum
 

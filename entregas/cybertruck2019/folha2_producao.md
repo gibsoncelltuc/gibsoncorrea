@@ -3,7 +3,7 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/cybertruck2019/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py cybertruck2019` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Em novembro de dois mil e dezenove, na Califórnia, a empresa de Elon M...
-- Cenario: street | luz: golden | clima: limpo
+- Cenario: outback | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MUS (variante 0, expressao grin); DSG (variante 0, expressao smile)
@@ -33,7 +33,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - E o vidro rachou, ao vivo, na frente de todo mundo.
-- Cenario: street | luz: golden | clima: limpo
+- Cenario: countryside | luz: golden | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): MUS (variante 0, expressao shock); DSG (variante 0, expressao scared) | multidao: 30 de POV
@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Depois, Musk explicou na internet que, nos ensaios, a mesma esfera tin...
-- Cenario: street | luz: golden | clima: limpo
+- Cenario: mountain | luz: golden | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): MUS (variante 0, expressao smile)
@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Uma picape, uma esfera de aço e uma janela que não aguentou: um lançam...
-- Cenario: street | luz: golden | clima: limpo
+- Cenario: outback | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): MUS (variante 0, expressao laugh); DSG (variante 0, expressao smile)
@@ -87,14 +87,14 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/cybertruck | b0, b1, b2, b3, b4, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/cybertruck | b0, b1, b2, b3, b4, b7 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_hollywood | b0, b1, b2, b3, b4, b5, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/steel_ball | b2, b5, b7 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/steel_ball | b2, b5, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/globe | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/steel_ball | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 20% | medio 56% | aberto 14% | detalhe 9%
+- Objeto heroi: kit/cybertruck | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 20% | medio 56% | aberto 14% | detalhe 9%
 - Interacoes: b0 aproxima-se, b2 avanca e o outro recua, b4 o outro se aproxima, b7 insiste
 - RISCOS GERAIS: nenhum
 

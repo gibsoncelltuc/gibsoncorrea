@@ -13,7 +13,7 @@ b5 | mountain | close | 1 | conversar | kit/steel_ball, kit/marco_hollywood | - 
 b6 | stadium | crowd | 32 | comemorar, batalha | kit/globe | - | -
 b7 | outback | two | 2 | conversar, INTERAGEM: insiste | kit/cybertruck, kit/steel_ball, kit/marco_hollywood | - | -
 
-OBJETO HEROI: kit/cybertruck - aparece em 6 cena(s), close nele em 3
+OBJETO HEROI: kit/cybertruck - aparece em 6 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b6
 Interacoes entre personagens: b0 aproxima-se, b2 avanca e o outro recua, b4 o outro se aproxima, b7 insiste
 
