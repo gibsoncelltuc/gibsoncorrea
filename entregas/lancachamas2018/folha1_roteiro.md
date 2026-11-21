@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: E elas esgotaram em poucos dias, rendendo cerca de dez milhões de dólares.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@3
-- Efeito + som nas palavras-chave: encena: rende (up) @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: g_esgotara (point) @2 -> acao + som de efeito; encena: rende (up) @6 -> acao + som de efeito
 - Efeito visual marcado: burst@3
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: A notícia se espalhou pelo mundo inteiro.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_espalhou (reach) @3 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Um produto que se chamava de tudo, menos do que parecia.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_chamava (point) @4 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

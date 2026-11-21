@@ -47,7 +47,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): MUS (variante 0, expressao smile); CMP (variante 0, expressao grin) | multidao: 6 de POV
-- Animacao: comemorar
+- Animacao: conversar
 - Objetos/modelos: kit/extinguisher, kit/marco_hollywood
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brinde, extintor, incendio
 - RISCOS: nenhum
