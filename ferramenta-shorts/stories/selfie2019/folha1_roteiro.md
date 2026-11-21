@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 28 - A Selfie na ONU
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 159 palavras (~55 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 157 palavras (~54 s)
 
 ## Cena b0  (~5.5 s)
-- Narracao: Um presidente chegou ao palco mais importante do mundo, e antes de falar, tirou uma selfie.
+- Narracao: Um presidente chegou ao púlpito mais importante do mundo, e antes de falar, tirou uma selfie.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: chegou -> dust + som de impacto; encena: chega (point) @2 -> acao + som de efeito; encena: tira (lift) @13 -> acao + som de efeito
@@ -13,12 +13,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b1  (~5.5 s)
 - Narracao: Foi em setembro de dois mil e dezenove, na Assembleia Geral da ONU, em Nova York.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: sting@10, thump@40
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: ring@12, dust@40
-- Texto na tela: ONU · NOVA YORK | mapa: ESTADOS UNIDOS
-- Funcao na historia: GRANDE MOMENTO
+- Efeito visual marcado: -
+- Texto na tela: ONU - NOVA YORK | mapa: ESTADOS UNIDOS
+- Funcao na historia: desenvolvimento
 
 ## Cena b2  (~4.5 s)
 - Narracao: Ali, os líderes de quase todos os países fazem discursos longos e sérios.
@@ -47,14 +47,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
-## Cena b5  (~5.2 s)
-- Narracao: Virou de costas para a plateia, e tirou uma selfie com o plenário inteiro atrás.
+## Cena b5  (~4.5 s)
+- Narracao: Virou de costas para o plenário, e tirou uma selfie com todos atrás.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@20
 - Efeito + som nas palavras-chave: encena: tira (lift) @7 -> acao + som de efeito
 - Efeito visual marcado: ring@20
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b6  (~5.2 s)
 - Narracao: Depois, brincou: acreditem, muito mais gente vai ver essa selfie do que ouvir este discurso.

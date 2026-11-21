@@ -160,7 +160,7 @@
    "fachada": false
   },
   {
-   "say": "Em Alexandria, no mesmo dia, uma vara fincada no chão fazia uma sombra pequena.",
+   "say": "Em Alexandria, no mesmo dia, uma vara fincada no solo fazia uma sombra pequena.",
    "shot": "two",
    "who": [
     "ERA:0:suspicious",
@@ -302,7 +302,7 @@
    "fachada": false
   },
   {
-   "say": "Com uma conta simples, chegou a um número muito perto do tamanho real da Terra.",
+   "say": "Com uma conta simples, encontrou um número muito perto do tamanho real da Terra.",
    "shot": "two",
    "interior": "pedra",
    "who": [
@@ -395,8 +395,11 @@
     ]
    ],
    "detalhe": false,
-   "fachada": false
+   "fachada": false,
+   "acao": "comemorar"
   }
  ],
- "exp": 0.9
+ "exp": 0.9,
+ "regiao": "classico",
+ "marco": "kit/marco_alexandria"
 }
