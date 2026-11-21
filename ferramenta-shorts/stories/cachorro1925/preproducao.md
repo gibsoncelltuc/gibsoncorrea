@@ -6,8 +6,8 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | countryside | two | 2 | discutir, INTERAGEM: discutir, alguem chega andando | kit/dog_sit, dog | - | -
 b1 | mountain | reveal | 10 | parados (so fala e pisca) | - | - | -
-b2 | countryside | group | 2 | reagir, INTERAGEM: insiste | dog | - | -
-b3 | countryside | group | 2 | conversar, INTERAGEM: vai ate o outro | dog | - | -
+b2 | countryside | track | 2 | encena, andando | dog | - | -
+b3 | countryside | track | 2 | encena, andando | dog | - | -
 b4 | mountain | group | 12 | conversar, INTERAGEM: empurrar, batalha | - | - | -
 b5 | mountain | low | 2 | conversar, INTERAGEM: susto | - | - | -
 b6 | mountain | orbit | 22 | encena, batalha | - | - | -
@@ -17,7 +17,7 @@ b9 | countryside | close | 1 | conversar | kit/dog_sit, dog | - | -
 
 OBJETO HEROI: kit/dog_sit - aparece em 2 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b6
-Interacoes entre personagens: b0 discutir, b2 insiste, b3 vai ate o outro, b4 empurrar, b5 susto, b7 susto, b8 entregar
+Interacoes entre personagens: b0 discutir, b4 empurrar, b5 susto, b7 susto, b8 entregar
 
 Cenas com personagens parados: 1 de 10
 FALTA MODELAR: nada

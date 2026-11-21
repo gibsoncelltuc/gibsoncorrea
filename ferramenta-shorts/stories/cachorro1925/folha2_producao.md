@@ -24,25 +24,23 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - Um soldado grego estava de guarda quando o cachorro dele fugiu para o ...
 - Cenario: countryside | luz: golden | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Camera: track = travelling lateral acompanhando quem anda
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): GRE (variante 0, expressao nervous); GRE (variante 1, expressao scared)
-- Animacao: reagir | interacao: insiste
+- Animacao: encena
 - Objetos/modelos: dog
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, fronteira, guarda, soldado
-- RISCOS: 
-  - a narracao fala de FUGA/CORRERIA e ninguem corre -> CORRECAO: "shot": "track" (os personagens atravessam a tela andando/correndo) ou "batalha": true (a tropa foge no plano aberto)
+- RISCOS: nenhum
 
 ## Cena b3 - O soldado correu atrás do cachorro, e atravessou a fronteira sem pensa...
 - Cenario: countryside | luz: golden | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Camera: track = travelling lateral acompanhando quem anda
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): GRE (variante 0, expressao shout); GRE (variante 1, expressao angry)
-- Animacao: conversar | interacao: vai ate o outro
+- Animacao: encena
 - Objetos/modelos: dog
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, fronteira, soldado
-- RISCOS: 
-  - a narracao fala de FUGA/CORRERIA e ninguem corre -> CORRECAO: "shot": "track" (os personagens atravessam a tela andando/correndo) ou "batalha": true (a tropa foge no plano aberto)
+- RISCOS: nenhum
 
 ## Cena b4 - Do outro lado, uma sentinela búlgara viu um estranho armado, e atirou.
 - Cenario: mountain | luz: golden | clima: limpo
@@ -115,12 +113,10 @@ dog | b0, b2, b3, b9 | pronto | conferir na folha de contato se le bem; se parec
 
 ## Video inteiro
 - Objeto heroi: kit/dog_sit | grandes momentos: b4, b6 | planos abertos: 2 | mistura: close 19% | medio 64% | aberto 14% | detalhe 3%
-- Interacoes: b0 discutir, b2 insiste, b3 vai ate o outro, b4 empurrar, b5 susto, b7 susto, b8 entregar
+- Interacoes: b0 discutir, b4 empurrar, b5 susto, b7 susto, b8 entregar
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 2 risco(s) em aberto
-- b2: a narracao fala de FUGA/CORRERIA e ninguem corre
-- b3: a narracao fala de FUGA/CORRERIA e ninguem corre
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh cachorro1925 bN bM` (so essas cenas).

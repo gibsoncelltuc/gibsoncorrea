@@ -4,8 +4,8 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | -  | animais, placa: 1925 | (rosto) sad (expr + som de efeito); animal: dog foge correndo (acao + som de efeito); fugiu (dust + som de impacto); morreram (puff + som de baque); encena: corre @2 (acao + som de efeito); encena: morre @16 (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | (rosto) nervous (expr + som de efeito) | -
-b2 | group | -  | animais | animal: dog foge correndo (acao + som de efeito); fugiu (dust + som de impacto); encena: corre @10 (acao + som de efeito) | -
-b3 | group | -  | animais | animal: dog foge correndo (acao + som de efeito); correu (dust + som de impacto); encena: corre @2 (acao + som de efeito) | -
+b2 | track | -  | animais | fugiu (dust + som de impacto); encena: corre @10 (acao + som de efeito) | -
+b3 | track | -  | animais | correu (dust + som de impacto); encena: corre @2 (acao + som de efeito) | -
 b4 | group | -  | batalha aberta com tiros, tropa | tiros: 3 soldados caem no chao (acao + som de efeito); atirou (burst + som de tiro/explosao); encena: x_vigia (cross) @4 (acao + som de efeito); encena: olha (point) @6 (acao + som de efeito); encena: atira @11 (acao + som de efeito) | -
 b5 | low | -  | - | (rosto) sad (expr + som de efeito); morreu (puff + som de baque); encena: morre @4 (acao + som de efeito); encena: x_entrega (reach) @8 (acao + som de efeito) | -
 b6 | orbit | -  | batalha aberta com tiros, tropa, placa: INVASÃO | (rosto) sad (expr + som de efeito); invadiu (dust + som de impacto); morreram (puff + som de baque); encena: chega (point) @6 (acao + som de efeito); encena: morre @19 (acao + som de efeito) | -

@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: Um soldado grego estava de guarda quando o cachorro dele fugiu para o outro lado da fronteira, atrás de nada.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: animal: dog foge correndo -> acao + som de efeito; fugiu -> dust + som de impacto; encena: corre @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: fugiu -> dust + som de impacto; encena: corre @10 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: O soldado correu atrás do cachorro, e atravessou a fronteira sem pensar.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: animal: dog foge correndo -> acao + som de efeito; correu -> dust + som de impacto; encena: corre @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: correu -> dust + som de impacto; encena: corre @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

@@ -7,8 +7,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): TRU (variante 0, expressao stern); GEN (variante 0, expressao stern)
-- Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: kit/bunker_bomb, kit/b2_air
+- Animacao: conversar | interacao: o outro se aproxima | o ultimo personagem ENTRA andando
+- Objetos/modelos: kit/bunker_bomb, kit/b2_air, kit/marco_mesquita
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bomba, bunker, estados, montanha, papel
 - RISCOS: nenhum
 
@@ -18,7 +18,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao surprised); POV (variante 1, expressao nervous) | multidao: 6 de POV
 - Animacao: reagir
-- Objetos/modelos: kit/mountain_bunker
+- Objetos/modelos: kit/mountain_bunker, kit/marco_mesquita
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alvo, dois, usinas
 - RISCOS: nenhum
 
@@ -28,22 +28,22 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): GEN (variante 0, expressao worried, segura paper); TRU (variante 0, expressao suspicious)
 - Animacao: discutir | interacao: discutir
-- Objetos/modelos: kit/mountain_bunker
+- Objetos/modelos: kit/mountain_bunker, kit/marco_mesquita
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): montanha, principal, profundidade
 - RISCOS: nenhum
 
 ## Cena b3 - Só uma arma chegava lá: a bomba antibunker, com mais de treze tonelada...
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): GEN (variante 0, expressao stern)
 - Animacao: conversar
-- Objetos/modelos: kit/bunker_bomb, kit/b2_air
+- Objetos/modelos: kit/bunker_bomb, kit/b2_air, kit/marco_mesquita, vehicles/airplane
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): arma, aviao, bomba, treze
 - RISCOS: nenhum
 
 ## Cena b4 - Trump autorizou a missão. O nome: Martelo da Meia-Noite.
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): TRU (variante 0, expressao stern); GEN (variante 0, expressao grin)
@@ -53,62 +53,62 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Sete bombardeiros invisíveis decolaram do Missouri, e voaram mais de u...
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: mountain | luz: noite | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): PIL (variante 0, expressao stern); PIL (variante 1, expressao grin); GEN (variante 0, expressao stern) | multidao: 12 de PIL
-- Animacao: - | batalha encenada
-- Objetos/modelos: kit/b2_air
+- Animacao: encena | batalha encenada
+- Objetos/modelos: kit/b2_air, kit/marco_mesquita
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): missouri
 - RISCOS: nenhum
 
 ## Cena b6 - Para despistar, outros B-2 foram mandados na direção contrária, para o...
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: countryside | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): PIL (variante 0, expressao smug); GEN (variante 0, expressao surprised)
 - Animacao: conversar | interacao: cochichar
-- Objetos/modelos: kit/b2_air
+- Objetos/modelos: kit/b2_air, kit/marco_mesquita
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): direcao, pacifico
 - RISCOS: nenhum
 
 ## Cena b7 - Acontece que, de madrugada, os aviões soltaram catorze bombas. Doze de...
-- Cenario: mountain | luz: noite | clima: limpo
+- Cenario: outback | luz: noite | clima: limpo
 - Camera: low = camera baixa, dramatica (virada) + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): PIL (variante 0, expressao stern)
 - Animacao: conversar
-- Objetos/modelos: kit/b2_air, kit/mountain_bunker, kit/bunker_bomb
+- Objetos/modelos: kit/b2_air, kit/mountain_bunker, kit/marco_mesquita, vehicles/airplane, kit/bunker_bomb
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): avioes, bunker, fordow, madrugada
 - RISCOS: nenhum
 
 ## Cena b8 - Um submarino ainda disparou mísseis contra uma terceira usina. Todos o...
-- Cenario: interior loja | luz: day | clima: limpo
+- Cenario: hall | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): TRU (variante 0, expressao stern); GEN (variante 0, expressao grin, segura paper)
 - Animacao: conversar | interacao: insiste
-- Objetos/modelos: kit/b2_air
+- Objetos/modelos: kit/b2_air, vehicles/airplane, buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): avioes, submarino, terceira
 - RISCOS: nenhum
 
 ## Cena b9 - Trump disse que as usinas foram destruídas. Avaliações posteriores dis...
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: outback | luz: noite | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao surprised); POV (variante 1, expressao shock); POV (variante 2, expressao nervous) | multidao: 18 de POV
-- Animacao: discutir | batalha encenada
-- Objetos/modelos: kit/mountain_bunker
+- Animacao: conversar | batalha encenada
+- Objetos/modelos: kit/mountain_bunker, kit/marco_mesquita
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estrago, tamanho, usinas
 - RISCOS: nenhum
 
 ## Cena b10 - Foi a primeira vez na história que essa bomba gigante foi usada de ver...
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: mountain | luz: noite | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (1): GEN (variante 0, expressao stern)
 - Animacao: conversar
-- Objetos/modelos: kit/bunker_bomb, kit/b2_air
+- Objetos/modelos: kit/bunker_bomb, kit/b2_air, kit/marco_mesquita
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): primeira
 - RISCOS: nenhum
 
@@ -119,7 +119,12 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/bunker_bomb | b0, b3, b7, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/b2_air | b0, b3, b5, b6, b7, b8, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_mesquita | b0, b1, b2, b3, b5, b6, b7, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/mountain_bunker | b1, b2, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+vehicles/airplane | b3, b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/house_small | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/picket_fence | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/tree_oak | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro

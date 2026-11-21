@@ -97,7 +97,7 @@
    "props": []
   },
   {
-   "shot": "group",
+   "shot": "track",
    "set": "countryside",
    "who": [
     "GRE:0:nervous",
@@ -108,14 +108,13 @@
    "animals": [
     [
      "dog",
-     2.6,
-     -0.4
+     2.2,
+     0.8
     ]
-   ],
-   "shot_lock": true
+   ]
   },
   {
-   "shot": "group",
+   "shot": "track",
    "set": "countryside",
    "who": [
     "GRE:0:shout",
@@ -126,11 +125,10 @@
    "animals": [
     [
      "dog",
-     2.6,
-     -0.4
+     2.2,
+     0.8
     ]
-   ],
-   "shot_lock": true
+   ]
   },
   {
    "shot": "two",
