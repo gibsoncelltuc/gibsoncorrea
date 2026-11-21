@@ -1,0 +1,216 @@
+{
+ "duration": 55.08,
+ "frames30": 1652,
+ "source": "silence-align (cost 0.46)",
+ "segments": [
+  [
+   0.153375,
+   3.804
+  ],
+  [
+   3.99229,
+   5.04742
+  ],
+  [
+   5.91812,
+   7.37108
+  ],
+  [
+   7.63175,
+   11.1242
+  ],
+  [
+   11.9681,
+   13.0986
+  ],
+  [
+   13.3521,
+   16.5095
+  ],
+  [
+   16.7755,
+   18.0993
+  ],
+  [
+   18.975,
+   19.9659
+  ],
+  [
+   20.1119,
+   20.983
+  ],
+  [
+   21.3057,
+   23.3533
+  ],
+  [
+   24.1785,
+   25.9627
+  ],
+  [
+   26.228,
+   27.6115
+  ],
+  [
+   28.4778,
+   31.2474
+  ],
+  [
+   31.5195,
+   32.747
+  ],
+  [
+   33.6131,
+   35.5365
+  ],
+  [
+   35.7693,
+   37.8474
+  ],
+  [
+   38.6485,
+   40.5033
+  ],
+  [
+   40.7122,
+   42.5392
+  ],
+  [
+   43.412,
+   44.5474
+  ],
+  [
+   44.7891,
+   47.6381
+  ],
+  [
+   47.9627,
+   49.342
+  ],
+  [
+   50.1869,
+   52.0934
+  ],
+  [
+   52.3998,
+   54.2564
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Uma guerra entre os Estados Unidos e a Inglaterra foi travada por lenhadores,",
+   "s": 0.153,
+   "e": 3.804
+  },
+  {
+   "text": "e todos sobreviveram.",
+   "s": 3.992,
+   "e": 5.047
+  },
+  {
+   "text": "Em mil oitocentos e trinta e oito,",
+   "s": 5.918,
+   "e": 7.371
+  },
+  {
+   "text": "a fronteira entre o estado do Maine e uma col\u00f4nia inglesa ainda era confusa.",
+   "s": 7.632,
+   "e": 11.124
+  },
+  {
+   "text": "Na mata de Aroostook,",
+   "s": 11.968,
+   "e": 13.099
+  },
+  {
+   "text": "lenhadores americanos e ingleses cortavam as mesmas \u00e1rvores,",
+   "s": 13.352,
+   "e": 16.509
+  },
+  {
+   "text": "e cada lado queria a madeira.",
+   "s": 16.776,
+   "e": 18.099
+  },
+  {
+   "text": "\"Essa \u00e1rvore \u00e9 minha!\",",
+   "s": 18.975,
+   "e": 19.966
+  },
+  {
+   "text": "gritou um lenhador,",
+   "s": 20.112,
+   "e": 20.983
+  },
+  {
+   "text": "e logo os dois lados come\u00e7aram a brigar.",
+   "s": 21.306,
+   "e": 23.353
+  },
+  {
+   "text": "O Maine chamou milhares de soldados,",
+   "s": 24.178,
+   "e": 25.963
+  },
+  {
+   "text": "e a Inglaterra mandou os seus.",
+   "s": 26.228,
+   "e": 27.611
+  },
+  {
+   "text": "Acontece que um agente do Maine foi preso pelos ingleses,",
+   "s": 28.478,
+   "e": 31.247
+  },
+  {
+   "text": "e o clima ficou perigoso.",
+   "s": 31.52,
+   "e": 32.747
+  },
+  {
+   "text": "Mas ningu\u00e9m queria uma guerra de verdade,",
+   "s": 33.613,
+   "e": 35.536
+  },
+  {
+   "text": "ent\u00e3o o governo mandou um general conversar.",
+   "s": 35.769,
+   "e": 37.847
+  },
+  {
+   "text": "Ele convenceu os dois lados a parar,",
+   "s": 38.648,
+   "e": 40.503
+  },
+  {
+   "text": "e a hist\u00f3ria terminou sem um \u00fanico tiro.",
+   "s": 40.712,
+   "e": 42.539
+  },
+  {
+   "text": "Alguns anos depois,",
+   "s": 43.412,
+   "e": 44.547
+  },
+  {
+   "text": "as duas na\u00e7\u00f5es assinaram um tratado que dividiu o territ\u00f3rio,",
+   "s": 44.789,
+   "e": 47.638
+  },
+  {
+   "text": "e a fronteira ficou definida.",
+   "s": 47.963,
+   "e": 49.342
+  },
+  {
+   "text": "Chamaram de Guerra do Porco com Feij\u00e3o,",
+   "s": 50.187,
+   "e": 52.093
+  },
+  {
+   "text": "porque era s\u00f3 isso que as tropas comiam.",
+   "s": 52.4,
+   "e": 54.256
+  }
+ ]
+}
