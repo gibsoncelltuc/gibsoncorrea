@@ -68,7 +68,7 @@ def auditar(sid, verboso=False):
         for rx, (rot, aceitos) in LUGARES.items():
             if re.search(rx, n) and not any(a in nrm(ambiente) for a in aceitos):
                 lac.append(f'LUGAR/CENARIO narrado ({rot}) NAO aparece')
-        acoes = F.get(k, []); palavras_acao = ' '.join(nrm(w) for w, _ in acoes)
+        acoes = F.get(k, []); palavras_acao = ' '.join(nrm(w) for w, _ in acoes) + ' ' + ' '.join(nrm(str(v.get('palavra', ''))).replace('^', '') for v in (b.get('voa') or []))   # projetil 'voa' conta como animacao da palavra
         for w in re.findall(r'[a-zA-ZÀ-ú]+', say):
             nw = nrm(w)
             if re.match(ACAO_CENICA, nw) and nw[:5] not in palavras_acao:

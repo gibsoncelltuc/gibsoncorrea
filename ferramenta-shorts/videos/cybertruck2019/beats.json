@@ -320,5 +320,6 @@
   }
  ],
  "exp": 0.9,
- "marco": "kit/marco_hollywood"
+ "marco": "kit/marco_hollywood",
+ "variar_cenario": false
 }

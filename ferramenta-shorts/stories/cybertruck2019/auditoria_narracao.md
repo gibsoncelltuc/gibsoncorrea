@@ -1,13 +1,12 @@
 # AUDITORIA NARRACAO x TELA: cybertruck2019
-Cenas 100% fieis: 6/8 (75%). Lacunas: 2
+Cenas 100% fieis: 7/8 (88%). Lacunas: 1
 
 ## b0 OK - Em novembro de dois mil e dezenove, na Califórnia, a empresa de Elon Musk apresentou o Cybertruck, uma picape elétrica de aço.
 - na tela: set=['street'] animais=[] objetos=['cybertruck', 'steel_ball'] atores=48 acoes_folha3=['apresentou']
 ## b1 OK - Na apresentação, Musk disse que as janelas eram feitas de um vidro super resistente.
 - na tela: set=['street'] animais=[] objetos=['cybertruck'] atores=9 acoes_folha3=[]
-## b2 LACUNA - Para provar, o designer Franz von Holzhausen jogou uma esfera de aço na janela.
+## b2 OK - Para provar, o designer Franz von Holzhausen jogou uma esfera de aço na janela.
 - na tela: set=['street'] animais=[] objetos=['cybertruck', 'steel_ball'] atores=48 acoes_folha3=[]
-- **FALTA:** ACAO narrada ("jogou") sem animacao na folha 3
 ## b3 OK - E o vidro rachou, ao vivo, na frente de todo mundo.
 - na tela: set=['street'] animais=[] objetos=['cybertruck'] atores=32 acoes_folha3=['rachou']
 ## b4 OK - Ele tentou de novo, em outra janela, e ela também rachou.

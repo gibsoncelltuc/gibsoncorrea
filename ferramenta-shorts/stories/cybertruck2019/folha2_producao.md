@@ -95,11 +95,9 @@ kit/globe | b6 | pronto | conferir na folha de contato se le bem; se parecer cai
 ## Video inteiro
 - Objeto heroi: kit/steel_ball | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 20% | medio 56% | aberto 14% | detalhe 9%
 - Interacoes: b0 aproxima-se, b2 avanca e o outro recua, b4 o outro se aproxima, b7 insiste
-- RISCOS GERAIS: 
-  - pouca variedade de cenario ({'stadium': 8}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: pouca variedade de cenario ({'stadium': 8}): o video fica parecendo todos os outros
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh cybertruck2019 bN bM` (so essas cenas).
