@@ -7,7 +7,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): ROM (variante 0, expressao nervous); ROM (variante 1, expressao pained)
-- Animacao: reagir | interacao: susto
+- Animacao: conversar | interacao: susto
 - Objetos/modelos: goose
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bando, gansos
 - RISCOS: nenhum
@@ -27,7 +27,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (3): ROM (variante 0, expressao nervous); ROM (variante 1, expressao pained); MAN (variante 0, expressao stern)
-- Animacao: reagir | interacao: insiste
+- Animacao: conversar | interacao: insiste
 - Objetos/modelos: buildings/castle_tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): capitolio, colina, muralhas, romanos
 - RISCOS: nenhum
@@ -37,24 +37,24 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): ROM (variante 1, expressao pained); ROM (variante 2, expressao stern) | multidao: 10 de POV
-- Animacao: discutir
+- Animacao: conversar
 - Objetos/modelos: goose
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fome, gansos, sacerdote, soldado
 - RISCOS: nenhum
 
 ## Cena b4 - Numa noite sem lua, os gauleses escalaram a colina em silêncio. Os gua...
 - Cenario: mountain | luz: noite | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (2): ROM (variante 0, expressao neutral); GAU (variante 0, expressao stern)
-- Animacao: conversar | interacao: o outro se aproxima
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): ROM (variante 0, expressao neutral); GAU (variante 0, expressao stern) | multidao: 8 de GAU
+- Animacao: encena
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): colina, gauleses, guardas
 - RISCOS: nenhum
 
 ## Cena b5 - Acontece que os gansos acordaram, e começaram a gritar e a bater as as...
 - Cenario: medieval | luz: noite | clima: limpo
-- Camera: low = camera baixa, dramatica (virada) + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): ROM (variante 2, expressao shock)
 - Animacao: reagir
@@ -87,17 +87,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ROM (variante 0, expressao smile); ROM (variante 1, expressao grin)
-- Animacao: conversar | interacao: aproxima-se
+- Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: goose
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): desfile, gansos, roma
 - RISCOS: nenhum
 
 ## Cena b9 - E os guardas, que dormiram a noite inteira, levaram um castigo.
 - Cenario: medieval | luz: dia | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (1): ROM (variante 2, expressao sad)
-- Animacao: conversar
+- Personagens principais (2): ROM (variante 2, expressao sad); ROM (variante 0, expressao sad)
+- Animacao: discutir | interacao: discutir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): castigo, guardas
 - RISCOS: nenhum
@@ -116,8 +116,8 @@ buildings/castle_tower | b2, b6, b7 | pronto | conferir na folha de contato se l
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b1, b7 | planos abertos: 3 | mistura: close 18% | medio 56% | aberto 18% | detalhe 7%
-- Interacoes: b0 susto, b2 insiste, b4 o outro se aproxima, b6 empurrar, b8 aproxima-se
+- Objeto heroi: - | grandes momentos: b1, b7 | planos abertos: 4 | mistura: close 4% | medio 59% | aberto 30% | detalhe 7%
+- Interacoes: b0 susto, b2 insiste, b6 empurrar, b8 o outro se aproxima, b9 discutir
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
