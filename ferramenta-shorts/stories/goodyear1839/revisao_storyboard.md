@@ -1,12 +1,12 @@
-b0: OK - cena confere com a frase: Um inventor falido deixou cair uma gosma no fogão da cozinha. E mudou o
-b1: OK - cena confere com a frase: Era mil oitocentos e trinta e nove, nos Estados Unidos.
-b2: OK - cena confere com a frase: A borracha estava na moda, mas tinha um defeito: no calor, derretia e fedia.
-b3: OK - cena confere com a frase: Charles Goodyear ficou obcecado. Misturou a borracha com tudo que encontrava, e gastou todo
-b4: OK - cena confere com a frase: Fez tantas dívidas que foi parar na prisão. E lá dentro continuou fazendo experiências.
-b5: OK - cena confere com a frase: Até que um dia, mexendo numa mistura de borracha com enxofre, ele se atrapalhou.
-b6: OK - cena confere com a frase: A gosma caiu em cima do fogão quente. Ele esperava que derretesse.
-b7: OK - cena confere com a frase: Acontece que não derreteu. Ficou firme e elástica, como couro. Tinha nascido a borracha
-b8: OK - cena confere com a frase: Ele abraçou a esposa. Finalmente a borracha aguentava calor e frio.
-b9: OK - cena confere com a frase: Mas outros copiaram a ideia, e ele passou anos brigando na justiça. Morreu cheio
-b10: OK - cena confere com a frase: Décadas depois, a borracha dele estava em pneus, bolas e sapatos do mundo inteiro.
-b11: OK - cena confere com a frase: E uma fábrica de pneus famosa ganhou o nome dele em homenagem. Ele nunca
+b0: OK - um inventor falido deixou cair uma gosma no fogao da cozinha: inventor de cartola e a esposa numa cozinha com placa 1839 e a gosma amarela no chao
+b1: OK - era mil oitocentos e trinta e nove nos Estados Unidos: mapa dos Estados Unidos e a praca da cidade com gente de epoca conversando
+b2: OK - a borracha estava na moda mas derretia no calor e rachava no frio: pessoas na rua reagindo com expressoes variadas e efeito de calor na cena
+b3: OK - Goodyear obcecado misturou a borracha com tudo e gastou o dinheiro da familia: cozinha com panela grande, o inventor mostrando papeis a esposa preocupada
+b4: OK - fez tantas dividas que foi parar na prisao e la dentro continuou fazendo experiencias: guarda de farda azul na cela e o inventor com frasco de experiencia
+b5: OK - mexendo numa mistura de borracha com enxofre ele se atrapalhou: inventor sozinho na cozinha mexendo a panela com pose de espanto
+b6: OK - a gosma caiu em cima do fogao quente e ele esperava que derretesse: fogao com panela e a gosma amarela caindo, inventor olhando assustado
+b7: OK - nao derreteu, ficou firme e elastica como couro, nasceu a borracha vulcanizada: inventor de bracos erguidos comemorando perto do fogao
+b8: OK - ele abracou a esposa e a borracha aguentava calor e frio: inventor e a esposa sorrindo juntos na cozinha, abraco de comemoracao
+b9: OK - outros copiaram a ideia e ele brigou anos na justica, morreu cheio de dividas: rua com gente brigando e o inventor caido no chao
+b10: OK - decadas depois a borracha estava em pneus, bolas e sapatos do mundo inteiro: placa PNEUS e multidao festejando com bola e objetos de borracha
+b11: OK - uma fabrica de pneus famosa ganhou o nome dele em homenagem: placa GOODYEAR e o inventor sorrindo com pilhas de pneus ao fundo

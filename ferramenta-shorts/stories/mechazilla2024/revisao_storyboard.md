@@ -1,12 +1,12 @@
-b0: OK - Musk mandou construir a torre com bracos gigantes, placa 2024, torre e foguetes ao fundo e maquete em close
-b1: OK - mapa dos Estados Unidos e a base de foguetes da SpaceX no Texas com o pessoal no cais
-b2: CORRIGIDO - cena dentro de uma loja escondia o foguete -> deserto do Texas com o propulsor descartado no ceu, engenheiro com papel
-b3: CORRIGIDO - sala escondia a torre -> a ideia de Musk ao ar livre: torre de lancamento com os bracos para agarrar o propulsor
-b4: CORRIGIDO - maquete pequena nao aparecia -> engenheiros apelidaram os bracos de pauzinhos com a torre Mechazilla de bracos ao fundo
-b5: OK - no dia do teste o propulsor decolou com poeira no chao e a equipe olhando o foguete subir no ceu
-b6: OK - minutos depois o foguete voltou do espaco descendo de re direto na direcao da torre
-b7: OK - no ultimo segundo os bracos se fecharam e seguraram o foguete no ar ao lado da torre
-b8: OK - os engenheiros comemoraram aos gritos com bracos para cima e o letreiro PEGOU no deserto
-b9: CORRIGIDO - sem celular -> Musk comemorou nas redes sociais com o celular na mao e bracos para cima
-b10: OK - o propulsor que ia para o lixo pode ser usado de novo, engenheiros com papel e a torre ao fundo
-b11: OK - Musk em close: a torre repetiu a pegada, parece filme de robo gigante, torre e foguete atras
+b0: OK - cena confere com a frase: Elon Musk mandou construir uma torre com braços gigantes, para pegar um foguete no
+b1: OK - cena confere com a frase: Foi em outubro de dois mil e vinte e quatro, na base de foguetes
+b2: OK - cena confere com a frase: Normalmente, a parte de baixo de um foguete é descartada, ou pousa sobre pernas.
+b3: OK - cena confere com a frase: A ideia de Musk: tirar as pernas do foguete, e fazer a própria torre
+b4: OK - cena confere com a frase: Os engenheiros apelidaram os braços de pauzinhos, como os de comida japonesa. E a
+b5: OK - cena confere com a frase: No dia do teste, o propulsor gigante decolou com trinta e três motores acesos,
+b6: OK - cena confere com a frase: Minutos depois, ele voltou do espaço, descendo de ré, direto na direção da torre.
+b7: OK - cena confere com a frase: Acontece que, no último segundo, os braços se fecharam, e seguraram o foguete no
+b8: OK - cena confere com a frase: Os engenheiros comemoraram aos gritos. Era a primeira vez que alguém fazia isso na
+b9: OK - cena confere com a frase: Musk comemorou nas redes sociais: a torre tinha pegado o foguete.
+b10: OK - cena confere com a frase: Assim, o propulsor que antes ia para o lixo pode ser usado de novo,
+b11: OK - cena confere com a frase: E a torre já repetiu a pegada outras vezes. Parece filme de robô gigante,

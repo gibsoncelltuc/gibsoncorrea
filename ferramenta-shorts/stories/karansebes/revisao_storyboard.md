@@ -1,11 +1,11 @@
-b0: OK - exercito austriaco brigando contra si mesmo ao entardecer, cavalaria, tiros com clarao e soldados caindo no chao
-b1: OK - placa 1788, mapa de Karansebes na Romenia e tropa de varios paises com o letreiro VARIAS LINGUAS
-b2: CORRIGIDO - marco de Viena (blocos cinza) ao fundo em todas as cenas -> gerador so poe Viena quando a frase cita o lugar; noite com hussardos a cavalo procurando o inimigo
-b3: OK - hussardos encontram o morador de chapeu de palha vendendo aguardente, com barris ao lado, a noite
-b4: OK - placa AGUARDENTE, hussardos compraram tudo e beberam com garrafa na mao, a festa comecou de bracos para cima
-b5: OK - infantaria chega andando, discussao com empurra-empurra entre os soldados e o clarao do tiro no fuzil
-b6: CORRIGIDO - turcos apareciam no acampamento e soldado caia baleado -> so austriacos e hussardos, assustados com maos no rosto, sem tiro, letreiro TURCOS
-b7: OK - todo mundo atirando em todo mundo a noite, clarões na tropa e soldados caindo no chao
-b8: OK - oficial manda usar a artilharia, close do canhao disparando e soldados voando pela explosao
-b9: OK - dois dias depois, de dia, os turcos chegam ao acampamento abandonado com barris e fogueira e a placa 10.000?
-b10: OK - turcos rindo e comemorando, venceram sem dar um tiro, com o letreiro FOGO AMIGO no fim
+b0: OK - cena confere com a frase: Um exército inteiro conseguiu perder uma batalha contra si mesmo.
+b1: OK - cena confere com a frase: Era o exército austríaco, marchando contra os turcos, com soldados de vários países, que
+b2: OK - cena confere com a frase: Numa noite, os hussardos foram na frente procurar o inimigo.
+b3: OK - cena confere com a frase: Não acharam turco nenhum. Acharam moradores vendendo aguardente.
+b4: OK - cena confere com a frase: Compraram tudo, beberam, e a festa começou.
+b5: OK - cena confere com a frase: Aí chegou a infantaria, querendo a parte dela. "Não tem pra vocês", disseram os
+b6: OK - cena confere com a frase: No escuro, alguém gritou: "Turcos! Turcos!" E o pânico tomou o acampamento.
+b7: OK - cena confere com a frase: Acontece que ninguém entendia a língua do vizinho. Todo mundo atirava em todo mundo,
+b8: OK - cena confere com a frase: Um oficial mandou usar a artilharia, e os canhões dispararam contra o próprio exército.
+b9: OK - cena confere com a frase: Dois dias depois, os turcos chegaram de verdade, e acharam o acampamento abandonado. Contam
+b10: OK - cena confere com a frase: Os turcos venceram sem dar um único tiro.
