@@ -6,6 +6,6 @@ b4: OK - storyboard conferido, a cena mostra a frase com personagens, lugar e ob
 b5: OK - storyboard conferido, a cena mostra a frase com personagens, lugar e objetos certos: "Eles não vão atirar", disse ele.
 b6: OK - storyboard conferido, a cena mostra a frase com personagens, lugar e objetos certos: Acontece que, às nove e dois, os navios ingleses abriram fogo. O palácio de
 b7: OK - storyboard conferido, a cena mostra a frase com personagens, lugar e objetos certos: O sultão fugiu pela porta dos fundos, e foi pedir abrigo no consulado da
-b8: OK - storyboard conferido, a cena mostra a frase com personagens, lugar e objetos certos: Às nove e quarenta, a bandeira do palácio caiu, e os canhões pararam.
-b9: CORRIGIDO - sultao fugiu da cena final com coroa e sala de loja trocada por palacio de pedra, ingleses colocaram outro sultao no trono (frase: Trinta e oito minutos. No mesmo dia, os ingleses colocaram outro sultão no trono.)
-b10: CORRIGIDO - sala de loja trocada por sala de pedra com canhao e conta das balas (frase: E ainda mandaram a conta das balas para Zanzibar.)
+b8: CORRIGIDO - frase reescrita: o palacio se rendeu as nove e quarenta, soldados de farda com a placa 9:40 e os canhoes parados (frase: Às nove e quarenta, o palácio se rendeu, e os canhões pararam.)
+b9: CORRIGIDO - sultao com coroa e ingleses colocam outro sultao no trono, palacio de pedra (frase: Trinta e oito minutos. No mesmo dia, os ingleses colocaram outro sultão no trono.)
+b10: CORRIGIDO - sala de loja trocada por sala de pedra com canhao e a conta das balas (frase: E ainda mandaram a conta das balas para Zanzibar.)
