@@ -77,10 +77,10 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "set": "stadium"
+   "set": "hall"
   },
   {
-   "say": "Para provar, o designer Franz von Holzhausen jogou uma esfera de aço na janela.",
+   "say": "Para provar, o designer Franz von Holzhausen mandou uma esfera de aço voando contra a janela.",
    "shot": "two",
    "who": [
     "DSG:0:stern",
@@ -113,12 +113,13 @@
      "y": 1.5,
      "alvo_y": 1.6,
      "arco": 0.8,
-     "palavra": "^jogou$",
+     "palavra": "^mandou$",
      "dur": 22,
      "s": 0.9,
      "som": "thump"
     }
-   ]
+   ],
+   "acao": "reagir"
   },
   {
    "say": "E o vidro rachou, ao vivo, na frente de todo mundo.",
@@ -178,7 +179,7 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "set": "stadium",
+   "set": "hall",
    "detalhe": false,
    "voa": [
     {
@@ -246,7 +247,7 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "set": "street"
+   "set": "stadium"
   },
   {
    "say": "Uma picape, uma esfera de aço e uma janela que não aguentou: um lançamento inesquecível.",
@@ -273,7 +274,9 @@
    "batalha": false,
    "impact": false,
    "detalhe": true,
-   "set": "outback"
+   "set": "outback",
+   "interacao": false,
+   "acao": "comemorar"
   }
  ],
  "exp": 0.9,
