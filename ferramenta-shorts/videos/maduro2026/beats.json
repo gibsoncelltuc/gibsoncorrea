@@ -161,7 +161,7 @@
    "shot": "low",
    "hora": "noite",
    "who": [
-    "SOL:0:angry"
+    "SOL:0:stern"
    ],
    "props": [
     [
@@ -183,7 +183,10 @@
     "thump@40"
    ],
    "say": "Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do país.",
-   "set": "outback"
+   "set": "outback",
+   "tiros": false,
+   "batalha": false,
+   "impact": false
   },
   {
    "shot": "track",
