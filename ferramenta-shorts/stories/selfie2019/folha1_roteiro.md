@@ -13,11 +13,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b1  (~5.5 s)
 - Narracao: Foi em setembro de dois mil e dezenove, na Assembleia Geral da ONU, em Nova York.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: - | mapa: ESTADOS UNIDOS
+- Texto na tela: ONU - NOVA YORK | mapa: ESTADOS UNIDOS
 - Funcao na historia: desenvolvimento
 
 ## Cena b2  (~4.5 s)

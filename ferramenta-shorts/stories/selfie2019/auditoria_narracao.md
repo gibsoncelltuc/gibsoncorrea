@@ -4,7 +4,7 @@ Cenas 100% fieis: 11/11 (100%). Lacunas: 0
 ## b0 OK - Um presidente chegou ao púlpito mais importante do mundo, e antes de falar, tirou uma selfie.
 - na tela: set=['street'] animais=[] objetos=['marco_onu', 'phone'] atores=6 acoes_folha3=['chegou', 'chegou', 'tirou']
 ## b1 OK - Foi em setembro de dois mil e dezenove, na Assembleia Geral da ONU, em Nova York.
-- na tela: set=['palace'] animais=[] objetos=['marco_onu'] atores=8 acoes_folha3=[]
+- na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_eua_stone'] atores=2 acoes_folha3=[]
 ## b2 OK - Ali, os líderes de quase todos os países fazem discursos longos e sérios.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_eua_stone'] atores=2 acoes_folha3=[]
 ## b3 OK - Nayib Bukele, o novo presidente de El Salvador, tinha só trinta e oito anos.

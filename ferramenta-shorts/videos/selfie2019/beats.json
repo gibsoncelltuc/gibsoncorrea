@@ -63,7 +63,7 @@
    "say": "Um presidente chegou ao púlpito mais importante do mundo, e antes de falar, tirou uma selfie."
   },
   {
-   "shot": "reveal",
+   "shot": "two",
    "who": [
     "POV:0:smile",
     "POV:1:grin"
@@ -71,7 +71,9 @@
    "mapa": "ESTADOS UNIDOS",
    "mapa_at": 3,
    "say": "Foi em setembro de dois mil e dezenove, na Assembleia Geral da ONU, em Nova York.",
-   "set": "palace"
+   "acao": "conversar",
+   "interior": "pedra",
+   "text": "ONU - NOVA YORK"
   },
   {
    "shot": "two",
