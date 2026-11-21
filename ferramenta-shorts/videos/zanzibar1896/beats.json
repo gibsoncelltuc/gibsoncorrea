@@ -143,7 +143,24 @@
    "text": "9:02",
    "titulo": true,
    "say": "Acontece que, às nove e dois, os navios ingleses abriram fogo. O palácio de madeira começou a desabar, e a pegar fogo.",
-   "set": "palace"
+   "set": "palace",
+   "props": [
+    [
+     "kit/fire",
+     -2.4,
+     -2.5,
+     1.5
+    ],
+    [
+     "kit/fire",
+     2.6,
+     -3.0,
+     1.6
+    ]
+   ],
+   "shot_lock": true,
+   "grua": false,
+   "marco": false
   },
   {
    "shot": "track",

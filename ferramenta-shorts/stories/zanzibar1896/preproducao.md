@@ -10,14 +10,14 @@ b2 | interior pedra | two | 2 | conversar, INTERAGEM: o outro se aproxima, algue
 b3 | interior pedra | two | 2 | conversar, INTERAGEM: insiste | - | paper | -
 b4 | palace | crowd | 20 | encena, batalha | kit/marco_zanzibar, cannon | - | -
 b5 | interior pedra | close | 1 | conversar | - | - | -
-b6 | palace | orbit | 22 | reagir, batalha | kit/marco_zanzibar, navios ao fundo | - | -
+b6 | palace | crowd | 22 | reagir | kit/fire, navios ao fundo, buildings/castle_tower | - | -
 b7 | palace | track | 2 | discutir, andando | kit/marco_zanzibar, buildings/house_two, nature/lamppost, nature/bench | - | -
-b8 | hall | crowd | 12 | encena | cannon, buildings/castle_tower | flag | -
+b8 | hall | orbit | 20 | encena, batalha | cannon, buildings/castle_tower | flag | -
 b9 | medieval | group | 3 | conversar, INTERAGEM: vai ate o outro | kit/marco_zanzibar | - | -
 b10 | interior pedra | close | 1 | reagir | - | - | -
 
 OBJETO HEROI: cannon - aparece em 2 cena(s), close nele em 1
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b6
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b8
 Interacoes entre personagens: b0 avanca e o outro recua, b2 o outro se aproxima, b3 insiste, b9 vai ate o outro
 
 Cenas com personagens parados: 0 de 11

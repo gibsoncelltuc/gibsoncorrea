@@ -14,11 +14,11 @@ Cenas 100% fieis: 11/11 (100%). Lacunas: 0
 ## b5 OK - "Eles não vão atirar", disse ele.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_africa_stone'] atores=1 acoes_folha3=[]
 ## b6 OK - Acontece que, às nove e dois, os navios ingleses abriram fogo. O palácio de madeira começou a desabar, e a pegar fogo.
-- na tela: set=['street'] animais=[] objetos=['marco_zanzibar', 'ship'] atores=22 acoes_folha3=['abriram', 'fogo', 'fogo']
+- na tela: set=['street'] animais=[] objetos=['castle_tower', 'fire', 'ship'] atores=22 acoes_folha3=['abriram', 'fogo', 'fogo', 'fogo']
 ## b7 OK - O sultão fugiu pela porta dos fundos, e foi pedir abrigo no consulado da Alemanha.
 - na tela: set=['street'] animais=[] objetos=['bench', 'house_two', 'lamppost', 'marco_zanzibar'] atores=2 acoes_folha3=['fugiu', 'fugiu']
 ## b8 OK - Às nove e quarenta, o palácio se rendeu, e os canhões pararam.
-- na tela: set=['hall'] animais=[] objetos=['cannon', 'castle_tower'] atores=14 acoes_folha3=['rendeu', 'canhões', 'canhões']
+- na tela: set=['hall'] animais=['horse_sela'] objetos=['cannon', 'castle_tower'] atores=26 acoes_folha3=['rendeu', 'canhões', 'canhões']
 ## b9 OK - Trinta e oito minutos. No mesmo dia, os ingleses colocaram outro sultão no trono.
 - na tela: set=['medieval'] animais=[] objetos=['marco_zanzibar'] atores=3 acoes_folha3=['colocaram']
 ## b10 OK - E ainda mandaram a conta das balas para Zanzibar.

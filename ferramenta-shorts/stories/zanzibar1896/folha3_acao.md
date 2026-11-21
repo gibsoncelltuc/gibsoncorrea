@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 08 - A Guerra de 38 Minutos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 48 acoes catalogadas, 48 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 50 acoes catalogadas, 50 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.5s - 11 palavras - plano two
@@ -66,7 +66,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 
-## Cena b6 - 29.3s a 36.7s - 22 palavras - plano orbit
+## Cena b6 - 29.3s a 36.7s - 22 palavras - plano crowd
 > "Acontece que, às nove e dois, os navios ingleses abriram fogo. O palácio de madeira começou a desabar, e a pegar fogo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -74,10 +74,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | abriram (32.4s) | ACAO: x_abre | empurra a porta | OK |
 | 2 | fogo (32.8s) | EFEITO: burst | estouro/clarao + som | OK |
 | 3 | fogo (32.8s) | EFEITO: burst | estouro/clarao + som | OK |
-| 4 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 6 | - | ATUACAO | reagir | OK |
-| 7 | - | PLACA | 9:02 | OK |
+| 4 | fogo (32.8s) | ACAO: calor | vapor/calor saindo | OK |
+| 5 | - | ATUACAO | reagir | OK |
+| 6 | - | PLACA | 9:02 | OK |
 
 ## Cena b7 - 37.8s a 41.5s - 15 palavras - plano track
 > "O sultão fugiu pela porta dos fundos, e foi pedir abrigo no consulado da Alemanha."
@@ -88,7 +87,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | fugiu (38.3s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
 | 3 | - | ATUACAO | discutir | OK |
 
-## Cena b8 - 42.8s a 46.1s - 12 palavras - plano crowd
+## Cena b8 - 42.8s a 46.1s - 12 palavras - plano orbit
 > "Às nove e quarenta, o palácio se rendeu, e os canhões pararam."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -96,8 +95,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | rendeu (44.8s) | ACAO: rende | maos para cima (rendicao) | OK |
 | 2 | canhões (45.8s) | EFEITO: burst | estouro/clarao + som | OK |
 | 3 | canhões (45.8s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 4 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
-| 5 | - | PLACA | 9:40 | OK |
+| 4 | - | CENA | cavalaria: 4 soldados a cavalo (GUA) | OK |
+| 5 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 6 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
+| 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
+| 8 | - | PLACA | 9:40 | OK |
 
 ## Cena b9 - 47.3s a 52.0s - 14 palavras - plano group
 > "Trinta e oito minutos. No mesmo dia, os ingleses colocaram outro sultão no trono."
