@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 22 - A Operação da Madrugada
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 6.3s - 22 palavras - plano two
@@ -55,14 +55,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | ataques (29.0s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b6 - 33.0s a 37.7s - 16 palavras - plano low
+## Cena b6 - 33.0s a 37.7s - 16 palavras - plano track
 > "Acontece que, em menos de três horas, Maduro foi capturado e levado para fora da Venezuela."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | capturado (36.0s) | ACAO: prende | empurra/prende | OK |
-| 2 | - | INTERACAO | empurrar | OK |
-| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 39.1s a 43.9s - 18 palavras - plano two
 > "Trump acompanhou tudo de longe, na Flórida, ao lado do diretor da CIA e do secretário de Estado."

@@ -63,11 +63,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Acontece que, em menos de três horas, Maduro foi capturado e levado pa...
-- Cenario: mountain | luz: noite | clima: limpo
-- Camera: low = camera baixa, dramatica (virada)
+- Cenario: outback | luz: noite | clima: limpo
+- Camera: track = travelling lateral acompanhando quem anda
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
-- Personagens principais (2): SOL (variante 0, expressao stern); MAD (variante 0, expressao shock)
-- Animacao: conversar | interacao: empurrar
+- Personagens principais (2): SOL (variante 0, expressao stern); MAD (variante 0, expressao sad)
+- Animacao: encena
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): tres, venezuela
 - RISCOS: nenhum
@@ -126,8 +126,8 @@ vehicles/airplane | b8 | pronto | conferir na folha de contato se le bem; se par
 
 
 ## Video inteiro
-- Objeto heroi: kit/scroll | grandes momentos: b4, b9 | planos abertos: 3 | mistura: close 21% | medio 66% | aberto 10% | detalhe 2%
-- Interacoes: b0 aproxima-se, b2 discutir, b3 cochichar, b6 empurrar, b7 avanca e o outro recua, b8 entregar
+- Objeto heroi: kit/scroll | grandes momentos: b4, b9 | planos abertos: 3 | mistura: close 11% | medio 77% | aberto 10% | detalhe 2%
+- Interacoes: b0 aproxima-se, b2 discutir, b3 cochichar, b7 avanca e o outro recua, b8 entregar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

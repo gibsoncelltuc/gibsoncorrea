@@ -58,7 +58,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b6  (~5.5 s)
 - Narracao: Acontece que, em menos de três horas, Maduro foi capturado e levado para fora da Venezuela.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: sting@30
 - Efeito + som nas palavras-chave: encena: prende (push) @9 -> acao + som de efeito
 - Efeito visual marcado: ring@30

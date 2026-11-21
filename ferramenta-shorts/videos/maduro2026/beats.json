@@ -186,13 +186,13 @@
    "set": "outback"
   },
   {
-   "shot": "two",
+   "shot": "track",
    "hora": "noite",
    "who": [
     "SOL:0:stern",
-    "MAD:0:shock"
+    "MAD:0:sad"
    ],
-   "interacao": "empurrar",
+   "interacao": "entregar",
    "fx": [
     "ring@30"
    ],
@@ -200,7 +200,7 @@
     "sting@30"
    ],
    "say": "Acontece que, em menos de três horas, Maduro foi capturado e levado para fora da Venezuela.",
-   "set": "mountain"
+   "set": "outback"
   },
   {
    "shot": "two",
@@ -227,9 +227,9 @@
     ],
     [
      "vehicles/airplane",
-     2.4,
-     -9.0,
-     1.0
+     2.5,
+     -5.5,
+     1.6
     ]
    ],
    "interacao": "entregar",
