@@ -94,10 +94,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Chamaram de Guerra do Porco com Feijão, porque era só isso que as trop...
 - Cenario: countryside | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (1): AME (variante 0, expressao smile) | multidao: 10 de POV
-- Animacao: conversar
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): AME (variante 0, expressao smile); AME (variante 1, expressao grin) | multidao: 10 de POV
+- Animacao: -
 - Objetos/modelos: kit/logs, nature/tree_pine, pig
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): feijao, porco, tropas
 - RISCOS: nenhum
@@ -116,7 +116,7 @@ pig | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, 
 
 
 ## Video inteiro
-- Objeto heroi: kit/logs | grandes momentos: b3, b4 | planos abertos: 3 | mistura: close 13% | medio 67% | aberto 14% | detalhe 5%
+- Objeto heroi: kit/logs | grandes momentos: b3, b4 | planos abertos: 4 | mistura: close 4% | medio 67% | aberto 24% | detalhe 5%
 - Interacoes: b0 discutir, b2 vai ate o outro, b5 empurrar, b6 cochichar, b7 entregar, b8 entregar
 - RISCOS GERAIS: nenhum
 
