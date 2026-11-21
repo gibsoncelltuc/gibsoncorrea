@@ -50,15 +50,50 @@
  },
  "beats": [
   {
-   "shot": "two",
+   "shot": "crowd",
    "who": [
     "HON:0:angry",
     "SAL:0:shout"
    ],
-   "text": "1969",
-   "interacao": "discutir",
-   "acao": "discutir",
-   "say": "Dois países entraram em guerra depois de um jogo de futebol."
+   "text": "HONDURAS x EL SALVADOR",
+   "say": "Dois países entraram em guerra depois de um jogo de futebol.",
+   "set": "stadium",
+   "titulo": true,
+   "batalha": true,
+   "tiros": false,
+   "lados": [
+    "HON",
+    "SAL"
+   ],
+   "crowd": {
+    "n": 16,
+    "outfits": [
+     "HON",
+     "SAL"
+    ],
+    "march": false,
+    "expr": "shout"
+   },
+   "props": [
+    [
+     "kit/ball",
+     0,
+     0.5,
+     1.1
+    ],
+    [
+     "kit/trave",
+     -9,
+     -4,
+     1.8
+    ],
+    [
+     "kit/trave",
+     9,
+     -4,
+     1.8
+    ]
+   ]
   },
   {
    "shot": "reveal",
@@ -96,9 +131,17 @@
      0,
      1.9,
      1.1
+    ],
+    [
+     "kit/trave",
+     3.2,
+     -3.0,
+     1.6
     ]
    ],
-   "say": "Aí veio a disputa por uma vaga na Copa do Mundo. Três jogos, um contra o outro."
+   "say": "Aí veio a disputa por uma vaga na Copa do Mundo. Três jogos, um contra o outro.",
+   "text": "3 JOGOS",
+   "titulo": true
   },
   {
    "shot": "crowd",
@@ -128,7 +171,33 @@
     "ding@30",
     "thump@70"
    ],
-   "say": "No primeiro, Honduras venceu em casa. A torcida passou a noite batendo panelas na porta do hotel dos visitantes."
+   "say": "No primeiro, Honduras venceu em casa. A torcida passou a noite batendo panelas na porta do hotel dos visitantes.",
+   "props": [
+    [
+     "kit/trave",
+     -4.2,
+     -4.0,
+     1.6
+    ],
+    [
+     "kit/panela",
+     -1.6,
+     2.2,
+     1.3,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/panela",
+     1.6,
+     2.2,
+     1.3,
+     {
+      "fixo": true
+     }
+    ]
+   ]
   },
   {
    "shot": "two",
@@ -165,11 +234,19 @@
      0,
      2.0,
      1.1
+    ],
+    [
+     "kit/trave",
+     0,
+     -4.5,
+     1.8
     ]
    ],
    "acao": "comemorar",
    "say": "El Salvador ganhou a partida, na prorrogação, e ficou com a vaga.",
-   "hora": "dia"
+   "hora": "dia",
+   "text": "PRORROGAÇÃO",
+   "titulo": true
   },
   {
    "shot": "orbit",
@@ -225,9 +302,18 @@
      1.5,
      -0.5,
      1.2
+    ],
+    [
+     "kit/trave",
+     0,
+     -4.5,
+     1.8
     ]
    ],
-   "say": "E na Copa, El Salvador perdeu os três jogos, sem fazer um único gol."
+   "say": "E na Copa, El Salvador perdeu os três jogos, sem fazer um único gol.",
+   "set": "stadium",
+   "text": "0 GOLS",
+   "titulo": true
   }
  ]
 }

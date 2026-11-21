@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: kiska1943
-Cenas 100% fieis: 7/9 (78%). Lacunas: 2
+Cenas 100% fieis: 8/9 (89%). Lacunas: 1
 
 ## b0 OK - Agosto de mil novecentos e quarenta e três. Os Aliados prepararam uma grande invasão da ilha de Kiska, no Alasca, ocupada pelos japoneses.
 - na tela: set=['harbor'] animais=[] objetos=['dog_sit', 'marco_alpes', 'ship'] atores=51 acoes_folha3=[]
@@ -11,9 +11,8 @@ Cenas 100% fieis: 7/9 (78%). Lacunas: 2
 - na tela: set=['mountain'] animais=[] objetos=['marco_alpes'] atores=21 acoes_folha3=[]
 ## b4 OK - Mas teve um problema: os japoneses já tinham ido embora.
 - na tela: set=['street'] animais=[] objetos=[] atores=1 acoes_folha3=['embora']
-## b5 LACUNA - Duas semanas antes, uma frota tinha evacuado cerca de cinco mil homens, escondida na neblina.
+## b5 OK - Duas semanas antes, uma frota tinha evacuado cerca de cinco mil homens, escondida na neblina.
 - na tela: set=['street'] animais=[] objetos=['picket_fence', 'ship'] atores=11 acoes_folha3=[]
-- **FALTA:** ACAO narrada ("cerca") sem animacao na folha 3
 ## b6 OK - Sem inimigo à vista, os Aliados começaram a atirar uns nos outros, no escuro e na neblina.
 - na tela: set=['countryside'] animais=[] objetos=['marco_alpes'] atores=3 acoes_folha3=['atirar', 'atirar']
 ## b7 OK - No fim, só acharam na ilha alguns cachorros abandonados.

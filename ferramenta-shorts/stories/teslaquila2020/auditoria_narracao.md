@@ -1,13 +1,12 @@
 # AUDITORIA NARRACAO x TELA: teslaquila2020
-Cenas 100% fieis: 10/12 (83%). Lacunas: 2
+Cenas 100% fieis: 11/12 (92%). Lacunas: 1
 
 ## b0 OK - Elon Musk fez uma piada de primeiro de abril sobre tequila. Dois anos depois, a piada virou produto de verdade.
 - na tela: set=['street'] animais=[] objetos=['marco_mexico', 'tequila_bolt'] atores=6 acoes_folha3=[]
 ## b1 OK - Era primeiro de abril de dois mil e dezoito, o dia da mentira, nos Estados Unidos.
 - na tela: set=['street'] animais=[] objetos=['marco_mexico'] atores=8 acoes_folha3=[]
-## b2 LACUNA - De brincadeira, Musk postou que a Tesla tinha falido, e apareceu cercado de garrafas de uma tal de Teslaquila.
+## b2 OK - De brincadeira, Musk postou que a Tesla tinha falido, e apareceu cercado de garrafas de uma tal de Teslaquila.
 - na tela: set=['street'] animais=[] objetos=['marco_mexico', 'phone', 'picket_fence', 'roadster', 'tequila_bolt'] atores=6 acoes_folha3=['postou', 'apareceu', 'apareceu']
-- **FALTA:** ACAO narrada ("cercado") sem animacao na folha 3
 ## b3 OK - Muita gente riu. Mas ele resolveu levar a ideia a sério, e tentou registrar o nome.
 - na tela: set=['hall'] animais=[] objetos=['room_eua_shop'] atores=2 acoes_folha3=['riu', 'riu', 'ideia']
 ## b4 OK - Acontece que o conselho que protege a tequila no México reclamou: o nome tequila tem regras, e não podia ser usado de qualquer jeito.

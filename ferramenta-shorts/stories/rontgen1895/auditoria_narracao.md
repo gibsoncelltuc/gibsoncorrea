@@ -1,13 +1,12 @@
 # AUDITORIA NARRACAO x TELA: rontgen1895
-Cenas 100% fieis: 8/12 (67%). Lacunas: 4
+Cenas 100% fieis: 9/12 (75%). Lacunas: 3
 
 ## b0 OK - Um cientista tirou a primeira foto de dentro do corpo humano, e assustou a própria esposa.
 - na tela: set=['street'] animais=[] objetos=['marco_wurzburg', 'phone', 'xray_plate'] atores=6 acoes_folha3=['tirou']
 ## b1 OK - Era mil oitocentos e noventa e cinco, numa cidade da Alemanha.
 - na tela: set=['street'] animais=[] objetos=['house_two', 'lamppost', 'marco_wurzburg'] atores=8 acoes_folha3=[]
-## b2 LACUNA - Wilhelm Röntgen passava as noites no laboratório, testando um tubo de vidro que soltava faíscas.
+## b2 OK - Wilhelm Röntgen passava as noites no laboratório, testando um tubo de vidro que soltava faíscas.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'crookes_tube', 'frasco', 'room_europa_wood', 'tubos'] atores=1 acoes_folha3=['laboratório', 'faíscas']
-- **FALTA:** ANIMAL/OBJETO sem modelo na biblioteca (rato): modelar (Blender) ou mostrar por cartaz/prato
 ## b3 LACUNA - Numa noite, ele cobriu o tubo com papelão preto, e apagou a luz.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'crookes_tube', 'room_europa_wood'] atores=1 acoes_folha3=[]
 - **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece

@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: hayha1939
-Cenas 100% fieis: 4/9 (44%). Lacunas: 6
+Cenas 100% fieis: 5/9 (56%). Lacunas: 5
 
 ## b0 OK - Inverno de mil novecentos e trinta e nove. A União Soviética invadiu a Finlândia, com um exército enorme.
 - na tela: set=['street'] animais=[] objetos=[] atores=22 acoes_folha3=['invadiu', 'invadiu']
@@ -15,9 +15,8 @@ Cenas 100% fieis: 4/9 (44%). Lacunas: 6
 - na tela: set=['mountain'] animais=[] objetos=[] atores=3 acoes_folha3=[]
 - **FALTA:** LUGAR/CENARIO narrado (NEVE) NAO aparece
 - **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
-## b5 LACUNA - Em cerca de cem dias, ele teve mais de quinhentos inimigos confirmados, com uma carabina de mira de ferro, sem luneta.
+## b5 OK - Em cerca de cem dias, ele teve mais de quinhentos inimigos confirmados, com uma carabina de mira de ferro, sem luneta.
 - na tela: set=['street'] animais=[] objetos=['campfire', 'picket_fence'] atores=14 acoes_folha3=[]
-- **FALTA:** ACAO narrada ("cerca") sem animacao na folha 3
 ## b6 OK - Os soviéticos passaram a chamá-lo de Morte Branca.
 - na tela: set=['mountain'] animais=[] objetos=[] atores=7 acoes_folha3=[]
 ## b7 OK - Em março de mil novecentos e quarenta, uma bala atingiu o rosto dele. Ele sobreviveu, e acordou no dia em que a guerra terminou.

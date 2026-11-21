@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: danca1518
-Cenas 100% fieis: 9/10 (90%). Lacunas: 2
+Cenas 100% fieis: 9/10 (90%). Lacunas: 1
 
 ## b0 OK - Uma mulher começou a dançar no meio da rua, e não conseguiu mais parar.
 - na tela: set=['street'] animais=[] objetos=['marco_viena'] atores=2 acoes_folha3=['dançar', 'dançar']
@@ -13,7 +13,6 @@ Cenas 100% fieis: 9/10 (90%). Lacunas: 2
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_azul_stone'] atores=2 acoes_folha3=['dançar', 'dançar']
 ## b5 LACUNA - Acontece que a cidade levou isso a sério. Montou um palco, e contratou músicos para animar a multidão.
 - na tela: set=['street'] animais=[] objetos=['apartment', 'house_two', 'lamppost', 'marco_viena'] atores=99 acoes_folha3=['Montou', 'músicos', 'músicos']
-- **FALTA:** ANIMAL/OBJETO sem modelo na biblioteca (rato): modelar (Blender) ou mostrar por cartaz/prato
 - **FALTA:** LUGAR/CENARIO narrado (PALCO/ESTUDIO) NAO aparece
 ## b6 OK - Foi a pior ideia possível. Com música, mais gente entrou na dança, e muitos caíram de exaustão.
 - na tela: set=['harbor'] animais=[] objetos=['marco_viena'] atores=20 acoes_folha3=['ideia', 'música', 'música', 'entrou', 'dança', 'dança', 'caíram']

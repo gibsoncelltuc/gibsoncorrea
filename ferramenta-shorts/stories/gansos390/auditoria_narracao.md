@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: gansos390
-Cenas 100% fieis: 8/10 (80%). Lacunas: 3
+Cenas 100% fieis: 9/10 (90%). Lacunas: 2
 
 ## b0 OK - Roma inteira foi salva por um bando de gansos barulhentos.
 - na tela: set=['street'] animais=['goose'] objetos=['marco_coliseu'] atores=2 acoes_folha3=[]
@@ -7,9 +7,8 @@ Cenas 100% fieis: 8/10 (80%). Lacunas: 3
 - na tela: set=['street'] animais=[] objetos=['apartment', 'fire', 'house_two', 'lamppost', 'marco_coliseu'] atores=19 acoes_folha3=['queimado']
 - **FALTA:** ACAO narrada ("fugiu") sem animacao na folha 3
 - **FALTA:** ACAO narrada ("morreu") sem animacao na folha 3
-## b2 LACUNA - Os romanos que sobraram se trancaram no Capitólio, uma colina cercada de muralhas, sem comida, e sem saída.
+## b2 OK - Os romanos que sobraram se trancaram no Capitólio, uma colina cercada de muralhas, sem comida, e sem saída.
 - na tela: set=['mountain'] animais=[] objetos=['castle_tower', 'marco_coliseu'] atores=9 acoes_folha3=[]
-- **FALTA:** ACAO narrada ("cercada") sem animacao na folha 3
 ## b3 OK - Lá em cima, a fome apertava. "Vamos comer os gansos", pediu um soldado. "São sagrados", respondeu o sacerdote.
 - na tela: set=['street'] animais=['goose'] objetos=['marco_coliseu'] atores=12 acoes_folha3=[]
 ## b4 OK - Numa noite sem lua, os gauleses escalaram a colina em silêncio. Os guardas dormiam. Ninguém ouviu nada.

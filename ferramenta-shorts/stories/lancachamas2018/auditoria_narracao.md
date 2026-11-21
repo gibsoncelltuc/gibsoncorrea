@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: lancachamas2018
-Cenas 100% fieis: 7/9 (78%). Lacunas: 2
+Cenas 100% fieis: 8/9 (89%). Lacunas: 1
 
 ## b0 OK - No começo de dois mil e dezoito, nos Estados Unidos, a Boring Company, a empresa de túneis de Elon Musk, começou a vender um produto.
 - na tela: set=['street'] animais=[] objetos=['coin', 'flamethrower', 'marco_hollywood'] atores=6 acoes_folha3=['vender', 'vender']
@@ -13,9 +13,8 @@ Cenas 100% fieis: 7/9 (78%). Lacunas: 2
 - na tela: set=['harbor'] animais=[] objetos=['coin', 'extinguisher', 'fire', 'marco_hollywood'] atores=8 acoes_folha3=['compra', 'incêndio', 'incêndio', 'brinde']
 ## b5 OK - Foram vinte mil unidades à venda.
 - na tela: set=['street'] animais=[] objetos=['coin', 'marco_hollywood'] atores=3 acoes_folha3=['venda']
-## b6 LACUNA - E elas esgotaram em poucos dias, rendendo cerca de dez milhões de dólares.
+## b6 OK - E elas esgotaram em poucos dias, rendendo cerca de dez milhões de dólares.
 - na tela: set=['street'] animais=[] objetos=['marco_hollywood', 'picket_fence'] atores=32 acoes_folha3=['rendendo']
-- **FALTA:** ACAO narrada ("cerca") sem animacao na folha 3
 ## b7 OK - A notícia se espalhou pelo mundo inteiro.
 - na tela: set=['harbor'] animais=[] objetos=['globe', 'marco_hollywood'] atores=8 acoes_folha3=[]
 ## b8 LACUNA - Um produto que se chamava de tudo, menos do que parecia.

@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: curie1898
-Cenas 100% fieis: 9/12 (75%). Lacunas: 3
+Cenas 100% fieis: 10/12 (83%). Lacunas: 2
 
 ## b0 OK - Existem cadernos tão perigosos que só podem ser lidos com roupa de proteção. E são de uma cientista.
 - na tela: set=['street'] animais=[] objetos=['curie_box', 'marco_eiffel'] atores=6 acoes_folha3=[]
@@ -23,8 +23,7 @@ Cenas 100% fieis: 9/12 (75%). Lacunas: 3
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'crate', 'curie_box', 'room_franca_stone'] atores=2 acoes_folha3=[]
 ## b9 OK - Quem quer ler precisa assinar um termo de responsabilidade e usar roupa de proteção.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'curie_box', 'room_franca_stone', 'scroll'] atores=1 acoes_folha3=['ler', 'assinar']
-## b10 LACUNA - E o rádio leva cerca de mil e seiscentos anos só para perder metade da força.
+## b10 OK - E o rádio leva cerca de mil e seiscentos anos só para perder metade da força.
 - na tela: set=['street'] animais=[] objetos=['curie_box', 'marco_eiffel', 'picket_fence'] atores=19 acoes_folha3=['perder', 'perder']
-- **FALTA:** ACAO narrada ("cerca") sem animacao na folha 3
 ## b11 OK - Ou seja: os cadernos de Marie Curie vão continuar brilhando por muitos e muitos séculos.
 - na tela: set=['street'] animais=[] objetos=['curie_box', 'marco_eiffel'] atores=1 acoes_folha3=['brilhando']
