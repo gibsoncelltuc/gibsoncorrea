@@ -104,11 +104,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b10 - Ele morreu em mil oitocentos e sessenta e cinco, sem ver ninguém dar r...
 - Cenario: street | luz: day | clima: limpo
-- Camera: aereo = -
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): MAE (variante 0, expressao cry) | multidao: 8 de POV
+- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (1): MAE (variante 0, expressao cry)
 - Animacao: reagir
-- Objetos/modelos: kit/marco_viena
+- Objetos/modelos: kit/lapide, kit/marco_viena
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
@@ -131,10 +131,11 @@ kit/wash_basin | b0, b7, b8, b11 | pronto | conferir na folha de contato se le b
 kit/maca | b1, b4 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/room_hospital | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_viena | b1, b4, b8, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/lapide | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/maca | grandes momentos: b1, b8 | planos abertos: 3 | mistura: close 19% | medio 67% | aberto 12% | detalhe 2%
+- Objeto heroi: kit/maca | grandes momentos: b1, b8 | planos abertos: 2 | mistura: close 25% | medio 67% | aberto 4% | detalhe 3%
 - Interacoes: b0 empurrar, b2 aproxima-se, b3 avanca e o outro recua, b4 o outro se aproxima, b5 insiste, b7 vai ate o outro, b9 empurrar
 - RISCOS GERAIS: nenhum
 

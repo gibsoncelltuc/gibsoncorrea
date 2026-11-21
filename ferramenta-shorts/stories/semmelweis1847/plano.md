@@ -12,8 +12,8 @@ b6 | close | -  | interior | encena: pensa (think) @1 (acao + som de efeito) | -
 b7 | two | -  | interior | encena: g_colocou (reach) @1 (acao + som de efeito); encena: g_obrigou (up) @11 (acao + som de efeito); encena: x_lava (stir) @15 (acao + som de efeito) | -
 b8 | crowd | -  | batalha aberta com tiros, tropa, placa: VIDAS SALVAS | encena: g_despenca (point) @2 (acao + som de efeito) | -
 b9 | two | -  | interior | encena: g_ofendera (point) @4 (acao + som de efeito); encena: sai @19 (acao + som de efeito) | -
-b10 | aereo | -  | tropa | (rosto) sad (expr + som de efeito); morreu (puff + som de baque); encena: morre @1 (acao + som de efeito) | -
+b10 | close | -  | - | (rosto) sad (expr + som de efeito); morreu (puff + som de baque); encena: morre @1 (acao + som de efeito) | -
 b11 | close | -  | placa: LAVE AS MÃOS | encena: fala (point) @4 (acao + som de efeito) | -
 
-Mistura de planos: close 19% | medio 67% | aberto 12% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
+Mistura de planos: close 25% | medio 67% | aberto 4% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 2 | dentro do padrao do canal

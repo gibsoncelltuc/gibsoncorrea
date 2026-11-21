@@ -14,7 +14,7 @@ b6 | interior hospital | close | 1 | reagir | - | - | -
 b7 | interior hospital | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/wash_basin | - | -
 b8 | street | crowd | 33 | comemorar, batalha | kit/wash_basin, kit/marco_viena | - | -
 b9 | interior hospital | two | 2 | discutir, INTERAGEM: empurrar | - | - | -
-b10 | street | aereo | 9 | reagir | kit/marco_viena | - | -
+b10 | street | close | 1 | reagir | kit/lapide, kit/marco_viena | - | -
 b11 | street | close | 1 | reagir | kit/wash_basin, kit/marco_viena | - | -
 
 OBJETO HEROI: kit/maca - aparece em 2 cena(s), close nele em 1

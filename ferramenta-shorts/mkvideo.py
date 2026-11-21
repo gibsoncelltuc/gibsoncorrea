@@ -696,7 +696,7 @@ if B.get('director') is not False and len(beats) >= 5:
     while len(_w) < MIN_WIDE and _cand:
         i = _cand.pop(0)
         if any(abs(i - j) <= 1 for j in _w) and _cand: continue
-        _b = beats[i]; _b['shot'] = ('aereo' if not any(beats[j].get('shot') == 'aereo' for j in _w) else 'reveal' if len(_w) % 2 == 0 else 'orbit'); _b['aberto_auto'] = True
+        _b = beats[i]; _b['shot'] = ('aereo' if (not any(beats[j].get('shot') == 'aereo' for j in _w) and _b.get('set', SET) in ('stadium', 'harbor', 'countryside', 'mountain', 'outback', 'medieval', 'arctic', 'jungle')) else 'reveal' if len(_w) % 2 == 0 else 'orbit'); _b['aberto_auto'] = True
         _o = [w.split(':')[0] for w in _b.get('who', [])] or list(B.get('outfits', {'X': 0}))[:1]
         if not _b.get('emus'): _b.setdefault('crowd', {'n': 8, 'outfits': list(dict.fromkeys(_o)), 'march': False})
         _w.append(i)
