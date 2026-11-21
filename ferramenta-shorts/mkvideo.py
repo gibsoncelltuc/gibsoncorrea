@@ -85,6 +85,8 @@ if _N >= 6 and B.get('variar_cenario') is not False:
         if len(_cont) >= 3 and _qt <= _N // 2: break
         _livres = [i_ for i_, b_ in enumerate(B['beats']) if _lug(b_) == _dom and i_ not in _EXPL and not b_.get('_lug_ok') and i_ not in (0, _N - 1) and not b_.get('mapa')]
         _opc = [o_ for o_ in _ALT.get(_dom.replace('interior ', ''), _ALT['street']) if o_ not in _cont] or _ALT.get(SET, _ALT['street'])
+        _MAR_ = re.search(r'\b(mar|mares|porto|portos|navio|navios|praia|costa|ilha|ilhas|barco|barcos|marinha|oceano|cais|litoral|baia|pesca|pescador)\b', __import__('unicodedata').normalize('NFKD', ' '.join(b_['say'] for b_ in B['beats']).lower()).encode('ascii', 'ignore').decode())   # 20/11: porto (com navio de guerra) so' em historia de mar
+        if not _MAR_: _opc = [o_ for o_ in _opc if o_ != 'harbor'] or ['countryside']
         _bl = [_livres[j_:j_ + 2] for j_ in range(0, len(_livres), 2)]
         _bl = _bl[1::2] + _bl[0::2]   # blocos de 2 cenas seguidas, primeiro um sim um nao (o lugar muda junto com a historia)
         for n_, bl_ in enumerate(_bl):
@@ -94,7 +96,7 @@ if _N >= 6 and B.get('variar_cenario') is not False:
                 b_ = B['beats'][i_]
                 _o = o_
                 if _o.startswith('interior') and (b_.get('shot') in ('reveal', 'crowd', 'orbit', 'track') or b_.get('batalha') or b_.get('veiculo') or b_.get('crowd') or b_.get('props')):
-                    _o = next((x_ for x_ in _opc if not x_.startswith('interior')), 'harbor')
+                    _o = next((x_ for x_ in _opc if not x_.startswith('interior')), 'harbor' if _MAR_ else 'countryside')
                 if _o.startswith('interior'): b_['interior'] = _o.split()[1]
                 else: b_['set'] = _o
                 _cont[_dom] -= 1; _cont[_o] += 1
@@ -104,7 +106,7 @@ USED_SETS = [SET] + sorted({b['set'] for b in B['beats'] if b.get('set') and b['
 # ===== CIDADE DA REGIAO (ordem do Gibson 19/11): os predios de fundo seguem o pais/epoca da historia =====
 # "regiao" no topo do roteiro (europa, franca, holanda, eua, oriente, colonial, japao, russia, africa, classico) ou deduzida do "mapa"/titulo/narracao.
 _REG_PAIS = (('franca', r'franc|paris'), ('holanda', r'holand|amsterd|paises baixos'),
-    ('eua', r'estados unidos|\beua\b|america\b|nova york|california|texas|florida|maine|chicago|los angeles|washington|hollywood|las vegas|ohio|michigan|toledo|detroit|nova jersey|boston|filadelfia|virginia|georgia|alabama|kansas|nebraska|iowa|oregon|montana|colorado|arizona|nevada|novo mexico|alasca|havai|pensilvania|massachusetts|tennessee|kentucky|missouri|minnesota|wisconsin|illinois|indiana|carolina|louisiana|mississippi|oklahoma|utah|idaho'),
+    ('eua', r'estados unidos|\beua\b|america\b(?! central| latina| do sul|s\b)|nova york|california|texas|florida|maine|chicago|los angeles|washington|hollywood|las vegas|ohio|michigan|toledo|detroit|nova jersey|boston|filadelfia|virginia|georgia|alabama|kansas|nebraska|iowa|oregon|montana|colorado|arizona|nevada|novo mexico|alasca|havai|pensilvania|massachusetts|tennessee|kentucky|missouri|minnesota|wisconsin|illinois|indiana|carolina|louisiana|mississippi|oklahoma|utah|idaho'),
     ('oriente', r'egito|egipc|\bira\b|\birao\b|iraque|arabia|marrocos|turquia|israel|palestin|dubai|siria|jordania|persia|babilon|meca|cairo'),
     ('colonial', r'brasil|pernambuco|recife|bahia|rio de janeiro|sao paulo|minas|mexic|el salvador|peru|argentin|colombia|cuba|venezuel|chile|portugal|lisboa|espanha|madri|bolivia|paraguai|uruguai|honduras|guatemala'),
     ('japao', r'japa|toquio|china|chines|coreia|pequim|xangai'), ('russia', r'russi|ucrani|moscou|sibéria|siberia|soviet'),
@@ -325,6 +327,8 @@ for _k, _o in B.get('outfits', {}).items():   # SEM SOSIA (ordem do Gibson): em 
     if not _o.get('pele') and str(_o.get('hair', '')).lower() in _FAMHAIR: _o['hair'] = '#5a3a22'
 for _k, _o in B.get('outfits', {}).items():   # terno com gravata tem colarinho branco (Trump, politicos, empresarios)
     if _o.get('tie') and not _o.get('collar'): _o['collar'] = '#f4f4f2'
+if not any(k_ in ('POV', 'POVO') for k_ in B.get('outfits', {})):   # 20/11: figurino de POVO automatico (definido AQUI, antes de virar JS): multidao criada pela ferramenta nunca sai com copias do protagonista
+    B.setdefault('outfits', {})['POV'] = {'jacket': '#6a4a2a', 'pants': '#3b3f52', 'boots': '#2a2218', 'hats': ['straw', 'cap', 'bowler', 'beret', 'bonnet', 'slouch', 'hair'], '_auto': True}
 for name, o in B.get('outfits', {}).items():
     o = {**PROFISSOES.get(str(o.get('profissao', '')).lower(), {}), **{k_: v_ for k_, v_ in o.items() if k_ != 'profissao'}}
     o = dict(o); mo = o.pop('moustache_on', None)
@@ -382,6 +386,7 @@ def _neg_idx(say):   # NEGACAO (19/11): "ninguem deu um tiro", "sem dar um unico
     ws_ = [re.sub(r'[^a-z]', '', unicodedata.normalize('NFKD', w_.lower()).encode('ascii', 'ignore').decode()) for w_ in say.split()]; out_ = set()
     for i_, w_ in enumerate(ws_):
         if w_ in _NEGW: out_.update(range(i_ + 1, min(len(ws_), i_ + 5)))
+        if re.match(r'^(canhao|canhoes|artilharia|armas|fuzis|espingardas|metralhadoras|morteiros)$', w_) and any(re.match(r'^(apontad|pront|mirand|posicionad|alinhad|preparad|carregad)', x_) for x_ in ws_[i_ + 1:i_ + 5]) and not any(re.match(r'^(dispar|atir|explod|bombarde|abriu|fogo|tiro|voaram)', x_) for x_ in ws_): out_.add(i_)   # 20/11: "dezenas de canhoes, apontados uns para os outros" = parados, NAO e' tiro (porco b7 tinha explosao e soldado caido)
     return out_
 def _idiom_idx(say):   # EXPRESSOES (19/11): "o panico tomou o acampamento", "a noticia correu o mundo", "o preco caiu" -> nao sao beber/correr/cair
     ws_ = say.split(); out_ = set(); n_ = lambda t: re.sub(r'[^a-z]', '', unicodedata.normalize('NFKD', t.lower()).encode('ascii', 'ignore').decode())
@@ -447,7 +452,7 @@ ENC = [(r'^(misturou|misturaram|misturando|mistura|misturar|mexeu|mexendo|mexia|
        (r'^(chorou|choraram|chorando|chorava|lagrimas|soluco|solucou)$', 'facepalm', 'x_chora'),
        (r'^(cantou|cantaram|cantando|cantava|cantavam|musica|hino|cancao)$', 'up', 'x_canta'),
        (r'^(leu|leram|lendo|lia|liam|ler|jornal|carta|livro)$', 'think', 'x_le'),
-       (r'^(telefonou|ligou|ligaram|ligando|telefone|celular|mensagem|twittou|postou|publicou|tuitou)$', 'lift', 'x_fone'),
+       (r'^(telefonou|ligou|ligaram|ligando|telefone|celular|mensagem|twittou|postou|publicou|tuitou|redes|internet)$', 'lift', 'x_fone'),
        (r'^(lavou|lavaram|lavar|lavando|limpou|limparam|esfregou)$', 'stir', 'x_lava'),
        (r'^(beijou|beijaram|beijo)$', None, 'x_beija'),
        (r'^(plantou|plantaram|plantar|plantando|semeou|regou|regaram|colheu|colheram|colheita)$', 'hammer', 'x_planta'),
@@ -618,7 +623,8 @@ for _ib, _b in enumerate(B['beats']):
     if _nm and not _b.get('text'): _b['text'] = ('BATALHÃO ' + _nm.group(1)).upper()
     if _LADOS and re.search(r'um contra o outro|uns contra os outros|se enfrentaram|frente a frente|avancaram|atacaram|comecou a batalha|comecou a guerra|lutaram|combate|batalha comecou', _s) and not _b.get('esperando'):
         _b['batalha'] = True; _b['lados'] = _LADOS
-    if re.search(r'voaram|voou pelos ares|pelos ares|arremessad|lancados longe|jogados longe|explodiu|explodiram|explosao|explosoes|bomba|granada|canhao|canhoes|canhonaços|artilharia|morteiro|bombarde', _s) and (_EXERC or _b.get('batalha')):
+    _s_voo = re.sub(r'(canhao|canhoes|artilharia|morteiros?)\W+(?:\w+\W+){0,3}?(?:apontad|pront|mirand|posicionad|alinhad|preparad|carregad)\w*', ' ', _s) if not re.search(r'dispar|atir|explod|bombarde|abriu fogo|voaram|tiro', _s) else _s   # 20/11: arma apontada/em posicao nao explode nem arremessa soldado
+    if re.search(r'voaram|voou pelos ares|pelos ares|arremessad|lancados longe|jogados longe|explodiu|explodiram|explosao|explosoes|bomba|granada|canhao|canhoes|canhonaços|artilharia|morteiro|bombarde', _s_voo) and (_EXERC or _b.get('batalha')):
         _b['voando'] = 3 if re.search(r'voaram|pelos ares|arremess|lancados|jogados', _s) else 2
         if _LADOS: _b['lados'] = _LADOS
     if re.search(r'conversar|conversaram|conversavam|dialog|negoci|reuniram|reuniao|discutiram|combinaram|sentaram para', _s) and len(_b.get('who', [])) >= 2 and not _b.get('acao'):
@@ -702,6 +708,7 @@ for _b in beats:
                 _sd = (1 if _sl[0] <= 0 else -1) if _n > 1 else 1; _p[1] = round(_sl[0] + _sd * 1.1, 2); _p[2] = round(ZS[0] + 0.7, 2); _p[3:] = [min(float(_p[3]) if len(_p) > 3 else 1.0, 0.9)]
 for _b in beats:   # "entraram escondidos" -> alguem chega andando; "as luzes se apagaram" -> fica de noite
     _sy = nrm(_b['say'])
+    _sy = re.sub(r'(entrou|entraram|chegou|chegaram)(para|na|no|em)?(o|a|os|as)?(hallda?fama|hallda?fama|historia|lista|moda|vigor|cena|equipe|grupo|clube|empresa|escola|faculdade|partido|governo)', '', _sy)   # 20/11: 'entrou para o Hall da Fama' e' figurado
     if 'chega' not in _b and (re.search(r'escondid|sorrateir|pontadospes|invadiu|invadiram|invadia|entraram|entrou|chegado|chegava|chegou|chegaram', _sy) or re.search(r'\bchega\b|\bchegam\b', _b['say'].lower())): _b['chega'] = True
     if re.search(r'marchav|marcharam|marchou|marchando|desfil', _sy) and _EXERC and not _b.get('crowd'): _b['crowd'] = {'n': 10, 'outfits': [([w_.split(':')[0] for w_ in _b.get('who', []) if w_.split(':')[0] in _EXERC] or _EXERC)[0]], 'march': True}
     if re.search(r'danca|dancav|dancaram|dancou', _sy) and not _b.get('acao') and not re.search(_DANCA_OUTRO, _sy): _b['acao'] = 'dancar'
@@ -735,14 +742,13 @@ if B.get('director') is not False and B.get('emocao_close') is not False:
         else: _seq = 0
 # MULTIDAO SEM CLONES (ordem do Gibson): multidao criada pelo diretor usa o figurino de POVO; rei, nobre, cientista, medico, padre, general... sao pessoas unicas e nao viram 12 copias
 _POVO = [k_ for k_, o_ in B.get('outfits', {}).items() if k_ in ('POV', 'POVO') or (o_.get('hats') and not (B.get('serie', '').lower().startswith('guerras') and (o_.get('rifle') or o_.get('pais') or k_[:3].lower() in _PAIS_COD)))]   # 20/11: em Guerras, exercito de um pais (TUR com turbante/fez) nao e' povo: o panico no acampamento austriaco saia com turcos
-if not _POVO and any(_b.get('crowd') and not _b.get('_crowd_roteiro') for _b in beats):   # 20/11: roteiro sem povo -> a ferramenta cria o POV (7 variantes de cor/chapeu); antes a multidao saia com 12 copias do protagonista
-    B.setdefault('outfits', {})['POV'] = {'jacket': '#6a4a2a', 'pants': '#3b3f52', 'boots': '#2a2218', 'hats': ['straw', 'cap', 'bowler', 'beret', 'bonnet', 'slouch', 'hair']}; _POVO = ['POV']
+_POV_AUTO = bool(B.get('outfits', {}).get('POV', {}).get('_auto'))
 _GUERRA = B.get('serie', '').lower().startswith('guerras')
 _UNICO = {k_ for k_, o_ in B.get('outfits', {}).items() if str(o_.get('profissao', '')).lower() in ('rei', 'nobre', 'general', 'cientista', 'medico', 'padre', 'politico', 'empresario', 'jornalista') or o_.get('hat') == 'crown' or (k_ not in _POVO and not str(o_.get('profissao', '')).lower() in ('soldado', 'marinheiro', 'agricultor', 'camponesa', 'pescador', 'comerciante', 'padeiro') and not _GUERRA) or (_GUERRA and k_ not in _POVO and not o_.get('rifle') and str(o_.get('profissao', '')).lower() not in ('soldado', 'marinheiro'))}   # Guerras: civil protagonista (fazendeiro, dono do porco) nao vira tropa de clones
 for _b in beats:
     if _b.get('crowd') and not _b.get('_crowd_roteiro') and _POVO:
-        _ok = [o_ for o_ in _b['crowd'].get('outfits', []) if o_ not in _UNICO]
-        _b['crowd']['outfits'] = list(dict.fromkeys(_ok + _POVO))
+        _ok = [o_ for o_ in _b['crowd'].get('outfits', []) if o_ not in _UNICO and o_ != 'POV']
+        _b['crowd']['outfits'] = (_ok or ['POV']) if _POV_AUTO else list(dict.fromkeys(_ok + _POVO))   # POV automatico so' substitui quem nao pode virar multidao (nunca mistura civil numa tropa)
 
 
 def build_beat(k, b):
@@ -790,7 +796,8 @@ def build_beat(k, b):
     if _acao == 'nenhuma': _acao = None
     b['_acao'] = _acao
     _px = {'dancar': ", pose: 'dance', acting: false", 'discutir': ", pose: 'argue'", 'comemorar': ", pose: 'cheer'", 'conversar': ", pose: 'talk'", 'reagir': ", pose: 'react'"}.get(_acao, '')   # "acao": "discutir" -> os personagens gesticulam um para o outro
-    _chega = b.get('chega') if 'chega' in b else bool(re.search(r'chegou|chegaram|entrou|entraram|apareceu|apareceram|veio|vieram|correu para|correram para', _say_sp))
+    _say_cg = re.sub(r'(entrou|entraram|chegou|chegaram) (?:para|na|no|em)? ?(?:o |a |os |as )?(hall da fama|historia|lista|moda|ar\b|vigor|cena|jogo\b|equipe|grupo|clube|empresa|escola|faculdade|partido|governo)', ' ', _say_sp)   # 20/11: 'entrou para o Hall da Fama / para a historia' e' figurado: ninguem entra andando
+    _chega = b.get('chega') if 'chega' in b else bool(re.search(r'chegou|chegaram|entrou|entraram|apareceu|apareceram|veio|vieram|correu para|correram para', _say_cg))
     persons = []
     for w in who:
         p = w.split(':'); out = p[0]; v = int(p[1]) if len(p) > 1 and p[1] != '' else 0; ex = (p[2] if len(p) > 2 else '') or 'neutral'; hold = p[3] if len(p) > 3 else None   # 4o campo: objeto na mao
@@ -1252,7 +1259,7 @@ def build_beat(k, b):
                 KWSFX.append((wi_, 'ding'))
             elif tipo_ == 'paga':   # dinheiro/pagar/vender: moedas na mao estendida + brilho
                 pr.append(f"{{ asset: 'kit/coin', a: Math.max({a} + 4, WS({wi_}) - 20), b: {bb}, at: [X + {num(_hx + _side * 0.25)}, {num(_z0 + 0.5)}], y: DK + 1.25, s: 0.32, drop: false }}"); KWSFX.append((wi_, 'ding'))
-            elif tipo_ == 'chega' and j_ <= 4 and not re.search(r'(entrou|entraram)(para|na|em|no)(a)?(historia|guerra|moda|panico|acordo|crise|falencia|vigor|campo)|apareceu(na|no)(tv|televisao|jornal|foto)', _sy_) and acts and not b.get('_chega') and not (shot == 'track' or mv) and 'move:' not in acts[0] and acts[0].startswith(('pp(', 'Object.assign(pp(')):   # chegou/apareceu: entra andando pela lateral e para no lugar
+            elif tipo_ == 'chega' and j_ <= 4 and not re.search(r'(entrou|entraram)(para|na|em|no)(a|o)?(historia|guerra|moda|panico|acordo|crise|falencia|vigor|campo|hallda?fama|lista|equipe|grupo|clube)|apareceu(na|no)(tv|televisao|jornal|foto)', _sy_) and acts and not b.get('_chega') and not (shot == 'track' or mv) and 'move:' not in acts[0] and acts[0].startswith(('pp(', 'Object.assign(pp(')):   # chegou/apareceu: entra andando pela lateral e para no lugar
                 _gst.setdefault('sai', []).append(f"at: [X + {num(sl[0] + _side * 6)}, {num(_z0 - 0.8)}], move: [[X + {num(sl[0])}, {num(_z0)}], Math.max({a}, WS({wi_}) - 30), WS({wi_}) + 20, 'lin'], walk: 'stroll'")
             elif tipo_ == 'atira':
                 if not (persons[0][3] == 'rifle' or B.get('outfits', {}).get(persons[0][0], {}).get('rifle')) and acts: acts[0] = f"Object.assign({acts[0]}, {{ over: {{ rifle: true }} }})"

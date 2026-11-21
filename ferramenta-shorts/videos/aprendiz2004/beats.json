@@ -102,8 +102,8 @@
    "props": [
     [
      "kit/stall",
-     1.8,
-     -1.4,
+     2.6,
+     -3.8,
      1.0
     ]
    ],
@@ -114,7 +114,8 @@
    "sfx": [
     "thump@40"
    ],
-   "say": "Toda semana, as equipes tinham uma tarefa de negócios, como vender limonada na rua ou criar uma propaganda."
+   "say": "Toda semana, as equipes tinham uma tarefa de negócios, como vender limonada na rua ou criar uma propaganda.",
+   "detalhe": false
   },
   {
    "shot": "two",
@@ -216,7 +217,10 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "O formato se espalhou pelo mundo. No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus."
+   "say": "O formato se espalhou pelo mundo. No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus.",
+   "set": "jungle",
+   "detalhe": false,
+   "marco": false
   },
   {
    "shot": "two",

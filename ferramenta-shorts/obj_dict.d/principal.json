@@ -90,7 +90,7 @@ true
 false
 ],
 [
-"\\bcomputadores\\b|mineradoras?|\\bservidores\\b",
+"mineradoras?|\\bservidores\\b|computadores que mineram",
 "kit/miners",
 1.0,
 false
@@ -128,7 +128,7 @@ false
 [
 "\\broadster\\b|\\btesla\\b",
 "kit/roadster",
-1.0,
+2.6,
 false
 ],
 [
@@ -176,6 +176,12 @@ false
 [
 "\\bantena\\b",
 "kit/starlink_dish",
+1.0,
+false
+],
+[
+"\\bturbinas?\\b",
+"kit/turbina",
 1.0,
 false
 ]

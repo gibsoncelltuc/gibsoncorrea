@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 11 - A Janela do Cybertruck
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 8 frases, 20 acoes catalogadas, 20 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 8 frases, 22 acoes catalogadas, 22 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.4s - 22 palavras - plano two
@@ -52,7 +52,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | explicou (26.5s) | ACAO: fala | aponta explicando | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | internet (27.2s) | ACAO: x_fone | celular na mao + toque | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b6 - 32.7s a 36.5s - 16 palavras - plano crowd
 > "A plateia riu, a internet também, e a cena deu o que falar no mundo inteiro."
@@ -61,9 +62,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | riu (33.3s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | riu (33.3s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
-| 3 | deu (35.5s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 4 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 5 | - | ATUACAO | comemorar | OK |
+| 3 | internet (33.9s) | ACAO: x_fone | celular na mao + toque | OK |
+| 4 | deu (35.5s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 5 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 6 | - | ATUACAO | comemorar | OK |
 
 ## Cena b7 - 37.7s a 41.7s - 15 palavras - plano two
 > "Uma picape, uma esfera de aço e uma janela que não aguentou: um lançamento inesquecível."

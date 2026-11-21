@@ -10,9 +10,9 @@ b2 | interior pedra | two | 2 | conversar, INTERAGEM: aproxima-se | - | - | -
 b3 | street | two | 2 | conversar, INTERAGEM: entregar | kit/stall, kit/marco_trumptower | - | -
 b4 | interior pedra | two | 2 | discutir, INTERAGEM: discutir | - | - | -
 b5 | interior pedra | close | 1 | conversar | - | - | -
-b6 | harbor | crowd | 33 | comemorar, batalha | kit/tv, kit/marco_trumptower, nature/picket_fence | - | -
+b6 | countryside | crowd | 33 | comemorar, batalha | kit/tv, kit/marco_trumptower, nature/picket_fence | - | -
 b7 | interior loja | two | 2 | conversar, INTERAGEM: abracar | - | - | -
-b8 | street | group | 2 | conversar, INTERAGEM: vai ate o outro | kit/marco_trumptower | - | -
+b8 | jungle | group | 2 | conversar, INTERAGEM: vai ate o outro | - | - | -
 b9 | countryside | two | 2 | conversar, INTERAGEM: avanca e o outro recua, alguem chega andando | kit/tv, kit/marco_trumptower | - | -
 b10 | street | close | 1 | comemorar | kit/tv, kit/marco_trumptower | - | -
 

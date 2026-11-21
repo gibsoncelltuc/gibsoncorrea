@@ -8,7 +8,7 @@
  "set": "street",
  "light": "golden",
  "mood": "playful",
- "heroi": "kit/steel_ball",
+ "heroi": "kit/cybertruck",
  "outfits": {
   "MUS": {
    "jacket": "#16181d",
@@ -46,16 +46,18 @@
    "props": [
     [
      "kit/cybertruck",
-     2.6,
-     -2.0,
-     1.0
+     2.2,
+     -2.6,
+     2.3
     ]
    ],
    "tiros": false,
    "batalha": false,
    "impact": false,
    "mapa": "CALIFÓRNIA",
-   "mapa_at": 3
+   "mapa_at": 3,
+   "detalhe": true,
+   "set": "outback"
   },
   {
    "say": "Na apresentação, Musk disse que as janelas eram feitas de um vidro super resistente.",
@@ -66,9 +68,9 @@
    "props": [
     [
      "kit/cybertruck",
-     2.6,
-     -2.0,
-     1.0
+     2.2,
+     -2.6,
+     2.3
     ]
    ],
    "tiros": false,
@@ -92,9 +94,9 @@
     ],
     [
      "kit/cybertruck",
-     2.6,
-     -2.0,
-     1.0
+     2.2,
+     -2.6,
+     2.3
     ]
    ],
    "tiros": false,
@@ -127,14 +129,14 @@
    "props": [
     [
      "kit/cybertruck",
-     2.6,
-     -2.0,
-     1.0
+     2.2,
+     -2.6,
+     2.3
     ]
    ],
    "tiros": false,
    "batalha": false,
-   "set": "street"
+   "set": "countryside"
   },
   {
    "say": "Ele tentou de novo, em outra janela, e ela também rachou.",
@@ -152,9 +154,9 @@
    "props": [
     [
      "kit/cybertruck",
-     2.6,
-     -2.0,
-     1.0
+     2.2,
+     -2.6,
+     2.3
     ]
    ],
    "tiros": false,
@@ -179,7 +181,7 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "set": "street"
+   "set": "mountain"
   },
   {
    "say": "A plateia riu, a internet também, e a cena deu o que falar no mundo inteiro.",
@@ -218,9 +220,9 @@
    "props": [
     [
      "kit/cybertruck",
-     2.6,
-     -2.0,
-     1.0
+     2.2,
+     -2.6,
+     2.3
     ],
     [
      "kit/steel_ball",
@@ -231,7 +233,9 @@
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "detalhe": true,
+   "set": "outback"
   }
  ],
  "exp": 0.9,

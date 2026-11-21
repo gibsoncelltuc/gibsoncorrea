@@ -1,0 +1,1 @@
+- motor: elefante 3D numa cena de 1 pessoa puxa o enquadramento (paris1870 b4, 20/11) -> investigar camera/fit com animal grande
