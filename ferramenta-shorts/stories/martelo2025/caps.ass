@@ -51,59 +51,61 @@ Dialogue: 0,0:00:23.75,0:00:24.15,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy11
 Dialogue: 0,0:00:24.17,0:00:24.86,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}carrega essa
 Dialogue: 0,0:00:24.88,0:00:25.40,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}arma:
 Dialogue: 0,0:00:25.42,0:00:26.39,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}o B-2.
-Dialogue: 0,0:00:27.00,0:00:27.76,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Trump autorizou
-Dialogue: 0,0:00:27.78,0:00:28.50,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}a missão.
-Dialogue: 0,0:00:29.13,0:00:29.77,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}O nome:
-Dialogue: 0,0:00:29.79,0:00:30.57,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Martelo da
-Dialogue: 0,0:00:30.59,0:00:31.23,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Meia-Noite.
-Dialogue: 0,0:00:31.88,0:00:32.02,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Sete
-Dialogue: 0,0:00:32.04,0:00:32.66,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}bombardeiros
-Dialogue: 0,0:00:32.68,0:00:33.13,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}invisíveis
-Dialogue: 0,0:00:33.16,0:00:33.93,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}decolaram do
-Dialogue: 0,0:00:33.95,0:00:34.68,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Missouri,
-Dialogue: 0,0:00:34.79,0:00:35.29,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}e voaram
-Dialogue: 0,0:00:35.31,0:00:35.64,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}mais de
-Dialogue: 0,0:00:35.66,0:00:35.99,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}um dia
-Dialogue: 0,0:00:36.01,0:00:36.78,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}sem parar.
-Dialogue: 0,0:00:37.37,0:00:38.39,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Para despistar,
-Dialogue: 0,0:00:38.41,0:00:38.98,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}outros B-2
-Dialogue: 0,0:00:39.00,0:00:39.96,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}foram mandados
-Dialogue: 0,0:00:39.98,0:00:40.55,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}na direção
-Dialogue: 0,0:00:40.57,0:00:41.22,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}contrária,
-Dialogue: 0,0:00:41.27,0:00:41.59,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}para o
-Dialogue: 0,0:00:41.61,0:00:42.21,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Pacífico.
-Dialogue: 0,0:00:42.82,0:00:43.83,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Acontece que,
-Dialogue: 0,0:00:43.85,0:00:44.73,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}de madrugada,
-Dialogue: 0,0:00:44.76,0:00:45.26,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}os aviões
-Dialogue: 0,0:00:45.28,0:00:46.15,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}soltaram catorze
-Dialogue: 0,0:00:46.17,0:00:46.50,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}cargas
-Dialogue: 0,0:00:46.52,0:00:47.48,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}explosivas.
-Dialogue: 0,0:00:48.08,0:00:48.58,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Doze delas
-Dialogue: 0,0:00:48.60,0:00:49.09,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}em cima
-Dialogue: 0,0:00:49.11,0:00:49.88,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}de Fordow,
-Dialogue: 0,0:00:49.93,0:00:50.68,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}pelos respiros
-Dialogue: 0,0:00:50.70,0:00:51.41,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}do bunker.
-Dialogue: 0,0:00:51.97,0:00:52.68,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Um submarino
-Dialogue: 0,0:00:52.70,0:00:53.26,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}ainda lançou
-Dialogue: 0,0:00:53.28,0:00:53.70,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}mísseis contra
-Dialogue: 0,0:00:53.72,0:00:54.43,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}uma terceira
-Dialogue: 0,0:00:54.45,0:00:55.14,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}usina.
-Dialogue: 0,0:00:55.76,0:00:56.18,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Todos os
-Dialogue: 0,0:00:56.20,0:00:56.91,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}aviões voltaram
-Dialogue: 0,0:00:56.93,0:00:57.76,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}para casa.
-Dialogue: 0,0:00:58.37,0:00:58.71,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Trump disse
-Dialogue: 0,0:00:58.73,0:00:59.08,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}que as
-Dialogue: 0,0:00:59.10,0:00:59.99,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}usinas foram
-Dialogue: 0,0:01:00.01,0:01:00.80,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}destruídas.
-Dialogue: 0,0:01:01.43,0:01:01.88,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Avaliações
-Dialogue: 0,0:01:01.90,0:01:02.50,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}posteriores
-Dialogue: 0,0:01:02.52,0:01:03.29,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}discutiram o
-Dialogue: 0,0:01:03.31,0:01:03.91,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}tamanho real
-Dialogue: 0,0:01:03.93,0:01:04.81,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}do estrago.
-Dialogue: 0,0:01:05.45,0:01:05.72,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Foi a
-Dialogue: 0,0:01:05.74,0:01:06.29,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}primeira vez
-Dialogue: 0,0:01:06.31,0:01:06.71,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}na história
-Dialogue: 0,0:01:06.73,0:01:07.14,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}que essa
-Dialogue: 0,0:01:07.16,0:01:07.70,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}arma gigante
-Dialogue: 0,0:01:07.72,0:01:08.27,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}foi usada
-Dialogue: 0,0:01:08.29,0:01:08.97,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}de verdade.
+Dialogue: 0,0:00:27.00,0:00:27.52,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Trump assinou
+Dialogue: 0,0:00:27.54,0:00:27.93,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}a ordem
+Dialogue: 0,0:00:27.95,0:00:28.61,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}e autorizou
+Dialogue: 0,0:00:28.63,0:00:29.29,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}a missão.
+Dialogue: 0,0:00:29.91,0:00:30.55,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}O nome:
+Dialogue: 0,0:00:30.57,0:00:31.35,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Martelo da
+Dialogue: 0,0:00:31.37,0:00:32.02,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Meia-Noite.
+Dialogue: 0,0:00:32.66,0:00:32.79,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Sete
+Dialogue: 0,0:00:32.81,0:00:33.43,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}bombardeiros
+Dialogue: 0,0:00:33.45,0:00:33.91,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}invisíveis
+Dialogue: 0,0:00:33.94,0:00:34.71,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}decolaram do
+Dialogue: 0,0:00:34.73,0:00:35.46,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Missouri,
+Dialogue: 0,0:00:35.57,0:00:36.08,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}e voaram
+Dialogue: 0,0:00:36.10,0:00:36.43,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}mais de
+Dialogue: 0,0:00:36.45,0:00:36.78,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}um dia
+Dialogue: 0,0:00:36.80,0:00:37.57,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}sem parar.
+Dialogue: 0,0:00:38.15,0:00:39.18,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Para despistar,
+Dialogue: 0,0:00:39.20,0:00:39.76,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}outros B-2
+Dialogue: 0,0:00:39.78,0:00:40.75,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}foram mandados
+Dialogue: 0,0:00:40.77,0:00:41.34,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}na direção
+Dialogue: 0,0:00:41.36,0:00:42.00,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}contrária,
+Dialogue: 0,0:00:42.05,0:00:42.38,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}para o
+Dialogue: 0,0:00:42.40,0:00:42.99,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Pacífico.
+Dialogue: 0,0:00:43.60,0:00:44.61,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Acontece que,
+Dialogue: 0,0:00:44.63,0:00:45.52,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}de madrugada,
+Dialogue: 0,0:00:45.54,0:00:46.05,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}os aviões
+Dialogue: 0,0:00:46.07,0:00:46.93,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}soltaram catorze
+Dialogue: 0,0:00:46.95,0:00:47.28,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}cargas
+Dialogue: 0,0:00:47.30,0:00:48.26,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}explosivas.
+Dialogue: 0,0:00:48.86,0:00:49.36,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Doze delas
+Dialogue: 0,0:00:49.38,0:00:49.88,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}em cima
+Dialogue: 0,0:00:49.90,0:00:50.66,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}de Fordow,
+Dialogue: 0,0:00:50.72,0:00:51.46,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}pelos respiros
+Dialogue: 0,0:00:51.48,0:00:52.19,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}do bunker.
+Dialogue: 0,0:00:52.76,0:00:53.42,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Um submarino
+Dialogue: 0,0:00:53.44,0:00:53.96,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}ainda mandou
+Dialogue: 0,0:00:53.98,0:00:54.23,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}mísseis que
+Dialogue: 0,0:00:54.25,0:00:55.05,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}explodiram numa
+Dialogue: 0,0:00:55.07,0:00:56.13,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}terceira usina.
+Dialogue: 0,0:00:56.76,0:00:57.18,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Todos os
+Dialogue: 0,0:00:57.20,0:00:57.90,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}aviões voltaram
+Dialogue: 0,0:00:57.92,0:00:58.76,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}para casa.
+Dialogue: 0,0:00:59.37,0:00:59.71,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Trump disse
+Dialogue: 0,0:00:59.73,0:01:00.07,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}que as
+Dialogue: 0,0:01:00.09,0:01:00.99,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}usinas foram
+Dialogue: 0,0:01:01.01,0:01:01.80,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}destruídas.
+Dialogue: 0,0:01:02.42,0:01:02.87,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Avaliações
+Dialogue: 0,0:01:02.89,0:01:03.50,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}posteriores
+Dialogue: 0,0:01:03.52,0:01:04.29,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}discutiram o
+Dialogue: 0,0:01:04.31,0:01:04.91,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}tamanho real
+Dialogue: 0,0:01:04.93,0:01:05.81,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}do estrago.
+Dialogue: 0,0:01:06.46,0:01:06.72,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Foi a
+Dialogue: 0,0:01:06.74,0:01:07.29,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}primeira vez
+Dialogue: 0,0:01:07.31,0:01:07.72,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}na história
+Dialogue: 0,0:01:07.74,0:01:08.15,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}que essa
+Dialogue: 0,0:01:08.17,0:01:08.72,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}arma gigante
+Dialogue: 0,0:01:08.74,0:01:09.29,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}foi usada
+Dialogue: 0,0:01:09.31,0:01:09.98,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}de verdade.
