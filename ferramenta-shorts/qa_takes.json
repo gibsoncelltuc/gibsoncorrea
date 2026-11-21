@@ -1,26 +1,4 @@
 {
- "fails": [
-  {
-   "f": 1229,
-   "shot": "b6_v",
-   "why": [
-    "emu: head/torso cropped (box -0.801, 0.568, -0.055, 0.983)"
-   ]
-  },
-  {
-   "f": 1232,
-   "shot": "b6_v",
-   "why": [
-    "emu: head/torso cropped (box -0.79, 0.569, -0.052, 0.978)"
-   ]
-  },
-  {
-   "f": 1236,
-   "shot": "b6_v",
-   "why": [
-    "emu: head/torso cropped (box -0.734, 0.564, -0.036, 0.953)"
-   ]
-  }
- ],
+ "fails": [],
  "tiny": []
 }
