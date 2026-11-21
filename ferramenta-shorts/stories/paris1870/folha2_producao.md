@@ -58,7 +58,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (3): CHF (variante 0, expressao grin); PAR (variante 2, expressao shock); PAR (variante 1, expressao smile)
 - Animacao: comer | interacao: o outro se aproxima
-- Objetos/modelos: mk/Table_Large, kit/panela, mk/Table_Plate, elephant
+- Objetos/modelos: mk/Table_Large, kit/panela, mk/Table_Plate, kit/elefante
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canguru, elefante, natal, restaurante
 - RISCOS: nenhum
 
@@ -106,9 +106,10 @@ mk/Table_Plate | b2, b5, b6 | pronto | conferir na folha de contato se le bem; s
 kit/rato | b2, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 mk/Cage_Small | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-elephant | b3, b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+elephant | b3, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/chest | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/panela | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/elefante | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 wolf | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/balloon_air | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 

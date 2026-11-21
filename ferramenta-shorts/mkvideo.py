@@ -1568,7 +1568,7 @@ _CAM = {'two': 'plano medio nos dois; camera empurra devagar e muda de angulo a 
 def _redondo(as_):   # objeto do kit feito com blender/formas.py (malha 'red_...') = formato bonito; senao e' objeto montado com caixas (estilo Minecraft)
     f_ = f'web/assets/library/{as_}.glb'
     if not as_.startswith('kit/') or not os.path.exists(f_): return True
-    if re.search(r'kit/(room_|porch|grave|cross|throne|stall|microwave|tulip_bed$)', as_): return True   # movel/construcao: quadrado e' o formato normal
+    if re.search(r'kit/(room_|porch|grave|cross|throne|stall|microwave|elefante|tulip_bed$)', as_): return True   # movel/construcao: quadrado e' o formato normal
     try:
         d_ = open(f_, 'rb').read(); n_ = int.from_bytes(d_[12:16], 'little'); j_ = json.loads(d_[20:20 + n_].decode('utf-8', 'ignore'))
         return any(str(m_.get('name', '')).startswith('red_') for m_ in j_.get('meshes', []))

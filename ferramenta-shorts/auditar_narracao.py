@@ -11,7 +11,7 @@ def nrm(t): return unicodedata.normalize('NFKD', t.lower()).encode('ascii', 'ign
 # palavra da narracao -> assets/animais aceitos como "esta na tela"
 ANIMAIS = {
     r'cavalo|cavalos|cavalaria|hussar': {'horse', 'horse_sela'}, r'cachorro|cachorros|\bcao\b|\bcaes\b|cadela': {'dog', 'kit/dog_sit'},
-    r'\bgatos?\b': {'cat'}, r'elefante': {'elephant'}, r'porco|leitao': {'pig'}, r'\bboi\b|\bvaca': {'cow'}, r'ovelha': {'sheep'},
+    r'\bgatos?\b': {'cat'}, r'elefante': {'elephant', 'elefante'}, r'porco|leitao': {'pig'}, r'\bboi\b|\bvaca': {'cow'}, r'ovelha': {'sheep'},
     r'\bcabra|\bbode': {'goat'}, r'burro|jumento': {'donkey'}, r'veado|cervo': {'deer'}, r'raposa': {'fox'}, r'\blobos?\b': {'wolf'},
     r'coelho': {'rabbit'}, r'\bleao|\bleoes': {'lion'}, r'\bursos?\b': {'bear'}, r'galinha': {'chicken'}, r'\bgalo\b': {'rooster', 'chicken'},
     r'\bpatos?\b': {'duck'}, r'ganso': {'goose', 'chicken'}, r'gaivota': {'gull'}, r'\bemus?\b': {'emus', 'emu'},
