@@ -101,7 +101,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | empurrar | OK |
 | 4 | - | ATUACAO | discutir | OK |
 
-## Cena b10 - 66.2s a 69.8s - 16 palavras - plano aereo
+## Cena b10 - 66.2s a 69.8s - 16 palavras - plano close
 > "Ele morreu em mil oitocentos e sessenta e cinco, sem ver ninguém dar razão a ele."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

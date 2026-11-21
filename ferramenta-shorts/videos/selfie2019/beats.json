@@ -60,10 +60,11 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Um presidente chegou ao púlpito mais importante do mundo, e antes de falar, tirou uma selfie."
+   "say": "Um presidente chegou ao palco mais importante do mundo, e antes de falar, tirou uma selfie.",
+   "set": "hall"
   },
   {
-   "shot": "two",
+   "shot": "reveal",
    "who": [
     "POV:0:smile",
     "POV:1:grin"
@@ -71,9 +72,8 @@
    "mapa": "ESTADOS UNIDOS",
    "mapa_at": 3,
    "say": "Foi em setembro de dois mil e dezenove, na Assembleia Geral da ONU, em Nova York.",
-   "acao": "conversar",
-   "interior": "pedra",
-   "text": "ONU - NOVA YORK"
+   "text": "ONU · NOVA YORK",
+   "titulo": true
   },
   {
    "shot": "two",
@@ -81,7 +81,7 @@
     "DIP:0:bored",
     "REP:0:suspicious:paper"
    ],
-   "acao": "discutir",
+   "acao": "conversar",
    "say": "Ali, os líderes de quase todos os países fazem discursos longos e sérios."
   },
   {
@@ -100,8 +100,7 @@
     ]
    ],
    "interacao": "cochichar",
-   "say": "Nayib Bukele, o novo presidente de El Salvador, tinha só trinta e oito anos.",
-   "acao": "comemorar"
+   "say": "Nayib Bukele, o novo presidente de El Salvador, tinha só trinta e oito anos."
   },
   {
    "shot": "close",
@@ -128,17 +127,17 @@
    "say": "Acontece que, no púlpito, ele pediu: só um segundo, por favor. E tirou o celular do bolso."
   },
   {
-   "shot": "crowd",
+   "shot": "low",
+   "interior": "madeira",
    "who": [
-    "BUK:0:grin",
-    "POV:1:surprised"
+    "DIP:0:shock"
    ],
    "props": [
     [
      "kit/phone",
-     0,
-     -1.0,
-     1.4
+     -1.6,
+     -0.8,
+     1.2
     ]
    ],
    "fx": [
@@ -147,19 +146,7 @@
    "sfx": [
     "sting@20"
    ],
-   "say": "Virou de costas para o plenário, e tirou uma selfie com todos atrás.",
-   "batalha": true,
-   "tiros": false,
-   "crowd": {
-    "n": 18,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "surprised"
-   },
-   "acao": "tirar",
-   "set": "street"
+   "say": "Virou de costas para a plateia, e tirou uma selfie com o plenário inteiro atrás."
   },
   {
    "shot": "two",
@@ -246,6 +233,5 @@
  ],
  "fontes": [
   "https://www.reuters.com/article/world/just-a-second-please-el-salvador-presidents-un-selfie-eclipses-speech-idUSKBN1WB31O/"
- ],
- "exp": 1.0
+ ]
 }

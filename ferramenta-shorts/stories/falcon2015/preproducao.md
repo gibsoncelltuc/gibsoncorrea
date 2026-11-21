@@ -8,12 +8,12 @@ b0 | harbor | two | 2 | conversar, INTERAGEM: o outro se aproxima, alguem chega 
 b1 | harbor | reveal | 8 | parados (so fala e pisca) | kit/marco_canaveral | - | -
 b2 | street | two | 2 | discutir, INTERAGEM: discutir | kit/rocket, kit/falcon9_land, kit/marco_canaveral, vehicles/airplane | paper | -
 b3 | harbor | two | 2 | conversar, INTERAGEM: susto | kit/rocket, kit/marco_canaveral | - | -
-b4 | countryside | two | 2 | conversar, INTERAGEM: entregar | kit/marco_canaveral, kit/rocket, kit/starlink_sat | paper | -
-b5 | harbor | crowd | 21 | batalha | kit/falcon_air, kit/marco_canaveral | - | -
-b6 | countryside | low | 1 | reagir | kit/falcon_air, kit/marco_canaveral | - | -
-b7 | countryside | two | 2 | conversar, INTERAGEM: insiste, alguem chega andando | kit/falcon9_land, kit/marco_canaveral | - | -
-b8 | countryside | orbit | 23 | comemorar, batalha | kit/falcon9_land, kit/marco_canaveral | - | -
-b9 | interior loja | two | 2 | conversar, INTERAGEM: abracar, alguem chega andando | kit/rocket | - | -
+b4 | interior madeira | two | 2 | conversar, INTERAGEM: entregar | kit/rocket, kit/starlink_sat | paper | -
+b5 | street | crowd | 21 | batalha | kit/falcon_air, kit/marco_canaveral | - | -
+b6 | street | low | 1 | reagir | kit/falcon9_land, kit/marco_canaveral | - | -
+b7 | countryside | two | 2 | conversar, INTERAGEM: insiste | kit/falcon9_land, kit/marco_canaveral | - | -
+b8 | stadium | orbit | 23 | comemorar, batalha | kit/falcon9_land | - | -
+b9 | countryside | two | 2 | conversar, INTERAGEM: abracar, alguem chega andando | kit/marco_canaveral, kit/rocket | - | -
 b10 | harbor | close | 1 | comemorar | kit/falcon9_land, kit/marco_canaveral, kit/rocket | - | -
 
 OBJETO HEROI: kit/falcon9_land - aparece em 6 cena(s), close nele em 0  << AVISO: sem close no objeto heroi

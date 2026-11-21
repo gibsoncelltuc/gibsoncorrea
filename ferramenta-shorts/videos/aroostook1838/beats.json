@@ -96,7 +96,7 @@
    "text": "1838",
    "interacao": "discutir",
    "acao": "discutir",
-   "say": "Uma guerra entre os Estados Unidos e a Inglaterra foi travada por lenhadores, e todos sobreviveram.",
+   "say": "Uma guerra entre os Estados Unidos e a Inglaterra foi travada por lenhadores, e ninguém morreu.",
    "fachada": false
   },
   {
@@ -120,27 +120,15 @@
   },
   {
    "shot": "two",
-   "set": "countryside",
+   "set": "mountain",
    "who": [
     "AME:0:smug",
     "CAN:0:smug"
    ],
    "acao": "discutir",
-   "say": "Na mata de Aroostook, lenhadores americanos e ingleses cortavam as mesmas árvores, e cada lado queria a madeira.",
+   "say": "Na floresta de Aroostook, lenhadores americanos e ingleses cortavam as mesmas árvores, e cada lado queria a madeira.",
    "fachada": false,
    "props": [
-    [
-     "kit/logs",
-     1.2,
-     0.6,
-     1.3
-    ],
-    [
-     "mk/Axe_Bronze",
-     0.2,
-     0.7,
-     2.2
-    ],
     [
      "nature/tree_pine",
      -3.0,
@@ -152,19 +140,32 @@
      3.2,
      -6.5,
      1.7
+    ],
+    [
+     "nature/tree_pine",
+     -1.0,
+     -9.0,
+     1.8
+    ],
+    [
+     "kit/logs",
+     1.4,
+     -0.6,
+     1.0
     ]
    ],
    "verbos_ok": [
-    "cort"
+    "corta"
    ]
   },
   {
-   "shot": "crowd",
+   "shot": "two",
    "set": "countryside",
    "who": [
     "AME:0:shout",
     "CAN:0:angry"
    ],
+   "interacao": "empurrar",
    "say": "\"Essa árvore é minha!\", gritou um lenhador, e logo os dois lados começaram a brigar.",
    "fachada": false,
    "props": [
@@ -186,22 +187,11 @@
      -9.0,
      1.8
     ]
-   ],
-   "batalha": true,
-   "tiros": false,
-   "crowd": {
-    "n": 16,
-    "outfits": [
-     "AME",
-     "CAN"
-    ],
-    "march": true,
-    "expr": "angry"
-   }
+   ]
   },
   {
    "shot": "crowd",
-   "set": "mountain",
+   "set": "street",
    "who": [
     "MIL:0:angry",
     "ING:0:angry"
@@ -229,20 +219,11 @@
    ],
    "interacao": "empurrar",
    "say": "Acontece que um agente do Maine foi preso pelos ingleses, e o clima ficou perigoso.",
-   "interior": "pedra",
-   "props": [
-    [
-     "kit/prison",
-     0.0,
-     -2.5,
-     1.0
-    ]
-   ],
-   "text": "PRESO"
+   "interior": "pedra"
   },
   {
    "shot": "two",
-   "set": "mountain",
+   "set": "palace",
    "who": [
     "GEN:0:stern",
     "MIL:0:nervous"
@@ -258,8 +239,7 @@
     "PRE:0:relief"
    ],
    "interacao": "entregar",
-   "say": "Ele convenceu os dois lados a parar, e a história terminou sem um único tiro.",
-   "acao": "discutir"
+   "say": "Ele convenceu os dois lados a parar, e ninguém atirou um único tiro."
   },
   {
    "shot": "two",
@@ -269,21 +249,28 @@
     "PRE:1:smile"
    ],
    "interacao": "entregar",
-   "say": "Alguns anos depois, as duas nações assinaram um tratado que dividiu o território, e a fronteira ficou definida."
+   "say": "Alguns anos depois, um tratado dividiu a floresta, e a fronteira ficou definida.",
+   "props": [
+    [
+     "nature/tree_pine",
+     -3.5,
+     -2.5,
+     1.6
+    ]
+   ]
   },
   {
-   "shot": "two",
+   "shot": "close",
    "set": "countryside",
    "who": [
-    "AME:0:smile",
-    "AME:1:grin"
+    "AME:0:smile"
    ],
    "props": [
     [
      "kit/logs",
-     -1.6,
-     0.2,
-     1.0
+     1.0,
+     0.5,
+     1.3
     ],
     [
      "nature/tree_pine",
@@ -296,20 +283,25 @@
      3.2,
      -6.5,
      1.7
+    ],
+    [
+     "nature/tree_pine",
+     -1.0,
+     -9.0,
+     1.8
     ]
    ],
    "say": "Chamaram de Guerra do Porco com Feijão, porque era só isso que as tropas comiam.",
    "animals": [
     [
      "pig",
-     0.0,
-     1.3,
+     1.2,
+     1.0,
      "stand",
-     1.2
+     1.0
     ]
    ],
    "fachada": false
   }
- ],
- "regiao": "europa"
+ ]
 }

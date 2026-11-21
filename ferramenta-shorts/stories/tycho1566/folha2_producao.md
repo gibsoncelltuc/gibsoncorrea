@@ -78,7 +78,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): TYC (variante 0, expressao grin, segura paper) | multidao: 6 de POV
 - Animacao: reagir
-- Objetos/modelos: kit/marco_uraniborg, kit/marco_rostock
+- Objetos/modelos: kit/marco_uraniborg, kit/tower, kit/marco_rostock
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): castelo, posicao
 - RISCOS: nenhum
 
@@ -122,6 +122,7 @@ kit/marco_rostock | b0, b1, b3, b4, b5, b6, b7, b9, b10 | pronto | conferir na f
 buildings/house_two | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_uraniborg | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/tower | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro

@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: A Praga da Dança
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 10 cenas, 149 palavras (~51 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 10 cenas, 151 palavras (~52 s)
 
 ## Cena b0  (~4.8 s)
 - Narracao: Uma mulher começou a dançar no meio da rua, e não conseguiu mais parar.
@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b2  (~5.2 s)
 - Narracao: Em uma semana, mais de trinta vizinhos estavam dançando com ela. Ninguém sabia por quê.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: dançando -> stars + som de sino; encena: danca (up) @8 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b3  (~4.8 s)
 - Narracao: Em um mês, eram quatrocentas pessoas, de pés sangrando, pedindo socorro, sem conseguir parar.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40, thump@90
 - Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; socorro -> ring + som de alerta; encena: g_sangrand (point) @8 -> acao + som de efeito; encena: grita (up) @10 -> acao + som de efeito
 - Efeito visual marcado: stars@40, dust@90
@@ -47,13 +47,13 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~5.5 s)
-- Narracao: Acontece que a cidade levou isso a sério. Contratou músicos com tambores, para animar a multidão.
+## Cena b5  (~6.2 s)
+- Narracao: Acontece que a cidade levou isso a sério. Montou um palco, e contratou músicos para animar a multidão.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: músicos -> stars + som de sino; encena: g_contrato (up) @8 -> acao + som de efeito; encena: danca (up) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: músicos -> stars + som de sino; encena: constroi (hammer) @8 -> acao + som de efeito; encena: g_contrato (up) @12 -> acao + som de efeito; encena: danca (up) @13 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: PALCO
 - Funcao na historia: VIRADA
 
 ## Cena b6  (~5.9 s)

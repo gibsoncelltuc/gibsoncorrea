@@ -11,7 +11,7 @@ b3 | street | two | 2 | discutir, INTERAGEM: discutir | kit/marco_rostock | swor
 b4 | street | two | 2 | conversar, INTERAGEM: susto | kit/marco_rostock, kit/brass_nose | sword, sword | -
 b5 | street | two | 1 | reagir | kit/brass_nose, kit/marco_rostock | - | -
 b6 | harbor | orbit | 8 | encena | kit/marco_rostock | - | -
-b7 | countryside | wide | 7 | reagir | kit/marco_uraniborg, kit/marco_rostock | paper | -
+b7 | countryside | wide | 7 | reagir | kit/marco_uraniborg, kit/tower, kit/marco_rostock | paper | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | - | paper | -
 b9 | medieval | crowd | 19 | comemorar, batalha | kit/marco_rostock | - | -
 b10 | street | close | 1 | reagir | kit/brass_nose, kit/marco_rostock | - | -

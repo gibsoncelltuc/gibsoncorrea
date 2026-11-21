@@ -275,13 +275,21 @@
    ]
   },
   {
-   "shot": "two",
+   "shot": "close",
    "who": [
     "MAE:0:cry"
    ],
-   "props": [],
+   "props": [
+    [
+     "kit/lapide",
+     1.4,
+     -0.5,
+     1.2
+    ]
+   ],
    "say": "Ele morreu em mil oitocentos e sessenta e cinco, sem ver ninguém dar razão a ele.",
-   "detalhe": true
+   "detalhe": true,
+   "shot_lock": true
   },
   {
    "shot": "close",
