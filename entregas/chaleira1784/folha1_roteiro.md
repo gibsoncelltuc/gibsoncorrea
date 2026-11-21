@@ -22,12 +22,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b2  (~5.2 s)
 - Narracao: O imperador da Áustria ficou furioso. Ele queria o rio aberto para os navios dele.
-- Som ambiente: sea
-- Efeitos sonoros marcados: -
+- Som ambiente: sea | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: (rosto) angry -> expr + som de efeito
-- Efeito visual marcado: -
+- Efeito visual marcado: ring@12, dust@40
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b3  (~4.5 s)
 - Narracao: "Mandem três navios", ordenou ele. "Os holandeses não vão ter coragem de atirar."
@@ -49,12 +49,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b5  (~5.5 s)
 - Narracao: Acontece que um navio holandês estava esperando. Ele mirou, e deu um único tiro de canhão.
-- Som ambiente: sea | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: cannon@60, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160
-- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; tiro -> burst + som de tiro/explosao; canhão -> burst + som de tiro/explosao; encena: x_espera (cross) @6 -> acao + som de efeito; encena: x_entrega (reach) @10 -> acao + som de efeito; encena: atira @13 -> acao + som de efeito; explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
+- Som ambiente: sea
+- Efeitos sonoros marcados: cannon@60
+- Efeito + som nas palavras-chave: tiro -> burst + som de tiro/explosao; canhão -> burst + som de tiro/explosao; encena: x_espera (cross) @6 -> acao + som de efeito; encena: x_entrega (reach) @10 -> acao + som de efeito; encena: atira @13 -> acao + som de efeito; explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
 - Efeito visual marcado: burst@60
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: VIRADA
 
 ## Cena b6  (~5.2 s)
 - Narracao: A bala atravessou o convés, e acertou em cheio a chaleira de sopa do cozinheiro.
@@ -63,16 +63,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Efeito + som nas palavras-chave: bala -> burst + som de tiro/explosao; encena: atira @1 -> acao + som de efeito; encena: g_atravess (point) @2 -> acao + som de efeito; encena: g_acertou (reach) @6 -> acao + som de efeito
 - Efeito visual marcado: burst@20, puff@26
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b7  (~4.8 s)
 - Narracao: O capitão austríaco olhou para a sopa derramada, e se rendeu na mesma hora.
 - Som ambiente: birds
-- Efeitos sonoros marcados: sting@10, thump@40
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: olha (point) @3 -> acao + som de efeito; encena: rende (up) @10 -> acao + som de efeito
-- Efeito visual marcado: ring@12, dust@40
+- Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b8  (~4.8 s)
 - Narracao: O imperador desistiu do rio. Em troca, a Holanda pagou uma indenização em dinheiro.
