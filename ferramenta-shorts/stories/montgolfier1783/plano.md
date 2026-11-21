@@ -15,5 +15,5 @@ b9 | two | -  | animais | - | -
 b10 | orbit | -  | batalha aberta com tiros, tropa, placa: VOAMOS | encena: voa (point) @9 (acao + som de efeito) | -
 b11 | close | -  | animais | - | -
 
-Mistura de planos: close 10% | medio 76% | aberto 9% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | dentro do padrao do canal
+Mistura de planos: close 10% | medio 79% | aberto 9% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 3 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
