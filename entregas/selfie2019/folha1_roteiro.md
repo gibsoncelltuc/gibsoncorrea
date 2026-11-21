@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 28 - A Selfie na ONU
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 159 palavras (~55 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 157 palavras (~54 s)
 
 ## Cena b0  (~5.5 s)
-- Narracao: Um presidente chegou ao palco mais importante do mundo, e antes de falar, tirou uma selfie.
+- Narracao: Um presidente chegou ao púlpito mais importante do mundo, e antes de falar, tirou uma selfie.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: chegou -> dust + som de impacto; encena: chega (point) @2 -> acao + som de efeito; encena: tira (lift) @13 -> acao + som de efeito
@@ -17,7 +17,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: - | mapa: ESTADOS UNIDOS
+- Texto na tela: ONU - NOVA YORK | mapa: ESTADOS UNIDOS
 - Funcao na historia: desenvolvimento
 
 ## Cena b2  (~4.5 s)
@@ -47,8 +47,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
-## Cena b5  (~5.2 s)
-- Narracao: Virou de costas para a plateia, e tirou uma selfie com o plenário inteiro atrás.
+## Cena b5  (~4.5 s)
+- Narracao: Virou de costas para o plenário, e tirou uma selfie com todos atrás.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@20
 - Efeito + som nas palavras-chave: encena: tira (lift) @7 -> acao + som de efeito
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Depois, brincou: acreditem, muito mais gente vai ver essa selfie do que ouvir este discurso.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: tira (lift) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: g_brincou (point) @1 -> acao + som de efeito; encena: tira (lift) @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: No discurso, ele defendeu justamente isso: que as reuniões antigas deviam se adaptar à era da internet.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_fone (lift) @16 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: g_defendeu (point) @3 -> acao + som de efeito; encena: x_fone (lift) @16 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
