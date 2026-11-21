@@ -2,7 +2,7 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/selfie2019/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py selfie2019` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Um presidente chegou ao palco mais importante do mundo, e antes de fal...
+## Cena b0 - Um presidente chegou ao púlpito mais importante do mundo, e antes de f...
 - Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
@@ -13,7 +13,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b1 - Foi em setembro de dois mil e dezenove, na Assembleia Geral da ONU, em...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: palace | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
@@ -52,14 +52,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bolso, celular, pulpito
 - RISCOS: nenhum
 
-## Cena b5 - Virou de costas para a plateia, e tirou uma selfie com o plenário inte...
+## Cena b5 - Virou de costas para o plenário, e tirou uma selfie com todos atrás.
 - Cenario: street | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): BUK (variante 0, expressao grin); POV (variante 1, expressao surprised) | multidao: 30 de POV
+- Personagens principais (2): BUK (variante 0, expressao grin); POV (variante 1, expressao surprised) | multidao: 18 de POV
 - Animacao: tirar | batalha encenada
 - Objetos/modelos: kit/phone, kit/marco_onu
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): costas, plateia, plenario, selfie
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): costas, plenario, selfie
 - RISCOS: nenhum
 
 ## Cena b6 - Depois, brincou: acreditem, muito mais gente vai ver essa selfie do qu...

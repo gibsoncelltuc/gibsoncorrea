@@ -60,7 +60,7 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Um presidente chegou ao palco mais importante do mundo, e antes de falar, tirou uma selfie."
+   "say": "Um presidente chegou ao púlpito mais importante do mundo, e antes de falar, tirou uma selfie."
   },
   {
    "shot": "reveal",
@@ -70,7 +70,8 @@
    ],
    "mapa": "ESTADOS UNIDOS",
    "mapa_at": 3,
-   "say": "Foi em setembro de dois mil e dezenove, na Assembleia Geral da ONU, em Nova York."
+   "say": "Foi em setembro de dois mil e dezenove, na Assembleia Geral da ONU, em Nova York.",
+   "set": "palace"
   },
   {
    "shot": "two",
@@ -97,7 +98,8 @@
     ]
    ],
    "interacao": "cochichar",
-   "say": "Nayib Bukele, o novo presidente de El Salvador, tinha só trinta e oito anos."
+   "say": "Nayib Bukele, o novo presidente de El Salvador, tinha só trinta e oito anos.",
+   "acao": "conversar"
   },
   {
    "shot": "close",
@@ -143,7 +145,7 @@
    "sfx": [
     "sting@20"
    ],
-   "say": "Virou de costas para a plateia, e tirou uma selfie com o plenário inteiro atrás.",
+   "say": "Virou de costas para o plenário, e tirou uma selfie com todos atrás.",
    "batalha": true,
    "tiros": false,
    "crowd": {

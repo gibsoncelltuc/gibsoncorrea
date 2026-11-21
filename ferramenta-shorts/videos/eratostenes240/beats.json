@@ -395,7 +395,8 @@
     ]
    ],
    "detalhe": false,
-   "fachada": false
+   "fachada": false,
+   "acao": "comemorar"
   }
  ],
  "exp": 0.9,

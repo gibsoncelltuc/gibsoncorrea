@@ -256,7 +256,8 @@
    "sfx": [
     "ding@20"
    ],
-   "set": "arctic"
+   "set": "arctic",
+   "acao": "conversar"
   },
   {
    "say": "Um Roadster, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço.",

@@ -5,7 +5,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 
 ## Cena b0 - 0.2s a 4.8s - 16 palavras - plano two
-> "Um presidente chegou ao palco mais importante do mundo, e antes de falar, tirou uma selfie."
+> "Um presidente chegou ao púlpito mais importante do mundo, e antes de falar, tirou uma selfie."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -50,55 +50,55 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | EMOCAO: pleading | o rosto vira "pleading" na palavra | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b5 - 28.8s a 32.6s - 15 palavras - plano crowd
-> "Virou de costas para a plateia, e tirou uma selfie com o plenário inteiro atrás."
+## Cena b5 - 28.8s a 31.8s - 13 palavras - plano crowd
+> "Virou de costas para o plenário, e tirou uma selfie com todos atrás."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | tirou (30.7s) | ACAO: tira | tira foto (celular + flash) | OK |
 | 2 | - | ATUACAO | tirar | OK |
 
-## Cena b6 - 33.6s a 38.2s - 15 palavras - plano two
+## Cena b6 - 32.1s a 37.6s - 15 palavras - plano two
 > "Depois, brincou: acreditem, muito mais gente vai ver essa selfie do que ouvir este discurso."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | selfie (37.1s) | ACAO: tira | tira foto (celular + flash) | OK |
+| 1 | selfie (36.6s) | ACAO: tira | tira foto (celular + flash) | OK |
 | 2 | - | INTERACAO | pular | OK |
 | 3 | - | ATUACAO | comemorar | OK |
 
-## Cena b7 - 39.5s a 43.1s - 12 palavras - plano orbit
+## Cena b7 - 38.0s a 42.6s - 12 palavras - plano orbit
 > "E ele tinha razão. A foto rodou o planeta em poucas horas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | foto (41.5s) | ACAO: tira | tira foto (celular + flash) | OK |
+| 1 | foto (40.2s) | ACAO: tira | tira foto (celular + flash) | OK |
 | 2 | - | ATUACAO | comemorar | OK |
 | 3 | - | PLACA | SELFIE | OK |
 
-## Cena b8 - 44.2s a 48.0s - 11 palavras - plano two
+## Cena b8 - 42.8s a 47.2s - 11 palavras - plano two
 > "Alguns acharam falta de respeito com a ONU. Outros acharam genial."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | acharam (44.5s) | ACAO: olha | aponta/olha | OK |
+| 1 | acharam (43.1s) | ACAO: olha | aponta/olha | OK |
 | 2 | - | INTERACAO | discutir | OK |
 | 3 | - | ATUACAO | discutir | OK |
 
-## Cena b9 - 49.2s a 54.5s - 17 palavras - plano two
+## Cena b9 - 47.5s a 54.0s - 17 palavras - plano two
 > "No discurso, ele defendeu justamente isso: que as reuniões antigas deviam se adaptar à era da internet."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | internet (54.5s) | ACAO: x_fone | celular na mao + toque | OK |
+| 1 | internet (54.0s) | ACAO: x_fone | celular na mao + toque | OK |
 | 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 55.8s a 59.4s - 13 palavras - plano close
+## Cena b10 - 54.3s a 58.6s - 13 palavras - plano close
 > "Uma selfie de um segundo, que ficou mais famosa que muitos discursos inteiros."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | selfie (56.1s) | ACAO: tira | tira foto (celular + flash) | OK |
+| 1 | selfie (54.5s) | ACAO: tira | tira foto (celular + flash) | OK |
 | 2 | - | ATUACAO | comemorar | OK |
 

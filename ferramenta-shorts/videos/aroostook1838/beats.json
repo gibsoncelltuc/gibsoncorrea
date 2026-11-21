@@ -96,7 +96,7 @@
    "text": "1838",
    "interacao": "discutir",
    "acao": "discutir",
-   "say": "Uma guerra entre os Estados Unidos e a Inglaterra foi travada por lenhadores, e ninguém morreu.",
+   "say": "Uma guerra entre os Estados Unidos e a Inglaterra foi travada por lenhadores, e todos sobreviveram.",
    "fachada": false
   },
   {
@@ -246,7 +246,7 @@
     "PRE:0:relief"
    ],
    "interacao": "entregar",
-   "say": "Ele convenceu os dois lados a parar, e ninguém atirou um único tiro."
+   "say": "Ele convenceu os dois lados a parar, e a história terminou sem um único tiro."
   },
   {
    "shot": "two",
@@ -256,7 +256,7 @@
     "PRE:1:smile"
    ],
    "interacao": "entregar",
-   "say": "Alguns anos depois, um tratado dividiu a mata, e a fronteira ficou definida."
+   "say": "Alguns anos depois, um tratado dividiu o território, e a fronteira ficou definida."
   },
   {
    "shot": "two",

@@ -5,11 +5,11 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua, alguem chega andando | kit/phone, kit/marco_onu | - | -
-b1 | street | reveal | 8 | parados (so fala e pisca) | kit/marco_onu | - | -
+b1 | palace | reveal | 8 | parados (so fala e pisca) | kit/marco_onu | - | -
 b2 | interior pedra | two | 2 | conversar, INTERAGEM: o outro se aproxima | - | paper | -
 b3 | interior madeira | two | 2 | conversar, INTERAGEM: cochichar | kit/phone | - | -
 b4 | interior madeira | close | 1 | conversar | kit/phone | - | -
-b5 | street | crowd | 32 | tirar, batalha | kit/phone, kit/marco_onu | - | -
+b5 | street | crowd | 20 | tirar, batalha | kit/phone, kit/marco_onu | - | -
 b6 | interior madeira | two | 2 | comemorar, INTERAGEM: pular | kit/phone | - | -
 b7 | street | orbit | 23 | comemorar, batalha | kit/phone, kit/marco_onu, kit/globe | - | -
 b8 | interior pedra | two | 2 | discutir, INTERAGEM: discutir | - | paper | -

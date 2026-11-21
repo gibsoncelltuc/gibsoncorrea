@@ -107,7 +107,8 @@
    ],
    "interior": "pedra",
    "hora": "dia",
-   "say": "\"Devolvam o nosso balde\", exigiu Bolonha. \"Venham buscar\", respondeu Módena."
+   "say": "\"Devolvam o nosso balde\", exigiu Bolonha. \"Venham buscar\", respondeu Módena.",
+   "acao": "discutir"
   },
   {
    "shot": "reveal",
@@ -161,16 +162,19 @@
     "MOD:1:grin"
    ],
    "tiros": false,
-   "say": "Módena perseguiu os inimigos até as portas da cidade de Bolonha, e ainda zombou deles do lado de fora."
+   "say": "Módena perseguiu os inimigos até as portas da cidade de Bolonha, e ainda zombou deles do lado de fora.",
+   "acao": "comemorar"
   },
   {
    "shot": "close",
    "who": [
-    "MOD:0:grin:bag"
+    "MOD:0:grin:bag",
+    "MOD:0:grin"
    ],
    "tiros": false,
    "text": "700 ANOS",
-   "say": "O balde nunca foi devolvido. Está guardado em Módena até hoje, setecentos anos depois."
+   "say": "O balde nunca foi devolvido. Está guardado em Módena até hoje, setecentos anos depois.",
+   "acao": "comemorar"
   }
  ]
 }

@@ -69,7 +69,7 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Durante sessenta anos, todo foguete era jogado fora depois de um voo. Até que um deles voltou e pousou de ré.",
+   "say": "Durante sessenta anos, todo foguete era jogado fora depois de um voo. Até que um deles voltou e desceu de ré.",
    "fachada": false,
    "set": "harbor"
   },
@@ -226,7 +226,7 @@
     "ding@30",
     "thump@50"
    ],
-   "say": "E pousou certinho no meio da plataforma, abrindo as pernas no último segundo.",
+   "say": "E desceu certinho no meio da plataforma, abrindo as pernas no último segundo.",
    "fachada": false,
    "set": "countryside"
   },
@@ -277,7 +277,7 @@
     "ENG:0:grin"
    ],
    "interacao": "abracar",
-   "say": "Foi a primeira vez que um foguete desse tamanho voltou do espaço e pousou inteiro em terra.",
+   "say": "Foi a primeira vez que um foguete desse tamanho voltou do espaço e ficou inteiro em terra.",
    "fachada": false,
    "props": [
     [

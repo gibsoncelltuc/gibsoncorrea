@@ -69,7 +69,7 @@
     "GAU:2:grin:torch"
    ],
    "mapa": "ROMA",
-   "say": "Os gauleses tinham invadido a cidade, e queimado quase tudo. Quem não fugiu, morreu.",
+   "say": "Os gauleses tinham invadido a cidade, e queimado quase tudo. Quem não escapou, morreu.",
    "fx": [
     "dust@20",
     "burst@55"
@@ -259,11 +259,12 @@
   {
    "shot": "close",
    "who": [
-    "ROM:2:sad"
+    "ROM:2:sad",
+    "ROM:0:sad"
    ],
    "say": "E os guardas, que dormiram a noite inteira, levaram um castigo.",
    "hora": "dia",
-   "acao": "conversar"
+   "acao": "discutir"
   }
  ],
  "cinf": 4.5,

@@ -69,7 +69,8 @@
    ],
    "mapa": "ESTADOS UNIDOS",
    "mapa_at": 3.5,
-   "detalhe": true
+   "detalhe": true,
+   "acao": "conversar"
   },
   {
    "say": "Ele filmou a própria entrada e postou o vídeo na internet.",
@@ -208,7 +209,8 @@
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "acao": "comemorar"
   }
  ],
  "exp": 1.0,
