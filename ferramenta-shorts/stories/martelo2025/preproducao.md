@@ -13,13 +13,13 @@ b5 | countryside | crowd | 15 | encena, batalha | kit/b2_air, kit/marco_mesquita
 b6 | harbor | two | 2 | conversar, INTERAGEM: cochichar | kit/b2_air, kit/marco_mesquita | - | -
 b7 | mountain | low | 1 | conversar | kit/b2_air, kit/mountain_bunker, kit/marco_mesquita, vehicles/airplane, kit/bunker_bomb | - | -
 b8 | harbor | two | 2 | reagir, INTERAGEM: insiste | kit/marco_mesquita | - | -
-b9 | countryside | close | 1 | conversar | kit/b2_air, kit/marco_mesquita, vehicles/airplane, buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
+b9 | countryside | orbit | 16 | batalha | kit/b2_air, kit/marco_mesquita, buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
 b10 | interior pedra | two | 2 | conversar, INTERAGEM: vai ate o outro | - | paper | -
-b11 | mountain | orbit | 21 | conversar, batalha | kit/mountain_bunker, kit/marco_mesquita | - | -
+b11 | mountain | crowd | 21 | conversar, batalha | kit/mountain_bunker, kit/marco_mesquita | - | -
 b12 | countryside | close | 1 | conversar | kit/bunker_bomb, kit/b2_air, kit/marco_mesquita | - | -
 
 OBJETO HEROI: kit/bunker_bomb - aparece em 4 cena(s), close nele em 1
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b5, b11
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 3 -> b5, b9, b11
 Interacoes entre personagens: b0 o outro se aproxima, b2 discutir, b4 entregar, b6 cochichar, b8 insiste, b10 vai ate o outro
 
 Cenas com personagens parados: 0 de 13

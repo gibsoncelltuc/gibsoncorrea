@@ -258,10 +258,11 @@
    "tiros": false
   },
   {
-   "shot": "close",
+   "shot": "crowd",
    "set": "countryside",
    "hora": "dia",
    "who": [
+    "PIL:0:smile",
     "GEN:0:grin"
    ],
    "say": "Todos os aviões voltaram para casa.",
@@ -272,7 +273,17 @@
      -9.0,
      1.5
     ]
-   ]
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 14,
+    "outfits": [
+     "PIL"
+    ],
+    "march": false,
+    "expr": "smile"
+   }
   },
   {
    "shot": "two",

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 23 - O Martelo da Meia-Noite
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 13 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 13 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.0s - 21 palavras - plano two
@@ -88,13 +88,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | ATUACAO | reagir | OK |
 | 5 | - | PLACA | SUBMARINO | OK |
 
-## Cena b9 - 55.6s a 57.0s - 6 palavras - plano close
+## Cena b9 - 55.6s a 57.0s - 6 palavras - plano orbit
 > "Todos os aviões voltaram para casa."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | CENA | voltam para casa (saem andando) | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
 ## Cena b10 - 58.2s a 59.8s - 7 palavras - plano two
 > "Trump disse que as usinas foram destruídas."
@@ -104,7 +103,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | vai ate o outro | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b11 - 61.2s a 63.9s - 8 palavras - plano orbit
+## Cena b11 - 61.2s a 63.9s - 8 palavras - plano crowd
 > "Avaliações posteriores discutiram o tamanho real do estrago."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

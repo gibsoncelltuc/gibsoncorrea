@@ -94,11 +94,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Todos os aviões voltaram para casa.
 - Cenario: countryside | luz: dia | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto
-- Personagens principais (1): GEN (variante 0, expressao grin)
-- Animacao: conversar
-- Objetos/modelos: kit/b2_air, kit/marco_mesquita, vehicles/airplane, buildings/house_small, nature/picket_fence, nature/tree_oak
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (2): PIL (variante 0, expressao smile); GEN (variante 0, expressao grin) | multidao: 14 de PIL
+- Animacao: - | batalha encenada
+- Objetos/modelos: kit/b2_air, kit/marco_mesquita, buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): avioes
 - RISCOS: nenhum
 
@@ -114,7 +114,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b11 - Avaliações posteriores discutiram o tamanho real do estrago.
 - Cenario: mountain | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao surprised); POV (variante 1, expressao shock); POV (variante 2, expressao nervous) | multidao: 18 de POV
 - Animacao: conversar | batalha encenada
@@ -141,14 +141,14 @@ kit/bunker_bomb | b0, b3, b7, b12 | pronto (HEROI: aparece em close) | conferir 
 kit/b2_air | b0, b3, b5, b6, b7, b9, b12 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_mesquita | b0, b1, b2, b3, b5, b6, b7, b8, b9, b11, b12 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/mountain_bunker | b1, b2, b7, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-vehicles/airplane | b3, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+vehicles/airplane | b3, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_small | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/bunker_bomb | grandes momentos: b5, b11 | planos abertos: 3 | mistura: close 35% | medio 52% | aberto 11% | detalhe 3%
+- Objeto heroi: kit/bunker_bomb | grandes momentos: b5, b9, b11 | planos abertos: 4 | mistura: close 32% | medio 53% | aberto 12% | detalhe 3%
 - Interacoes: b0 o outro se aproxima, b2 discutir, b4 entregar, b6 cochichar, b8 insiste, b10 vai ate o outro
 - RISCOS GERAIS: nenhum
 
