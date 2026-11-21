@@ -87,7 +87,10 @@
    ],
    "mapa": "ÁUSTRIA",
    "mapa_at": 3,
-   "say": "Karl von Frisch nasceu na Áustria, e passou a vida inteira estudando abelhas."
+   "say": "Karl von Frisch nasceu na Áustria, e passou a vida inteira estudando abelhas.",
+   "verbos_ok": [
+    "nasce"
+   ]
   },
   {
    "shot": "two",

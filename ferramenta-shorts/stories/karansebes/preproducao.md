@@ -5,15 +5,15 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | countryside | crowd | 22 | encena, batalha | - | - | -
-b1 | countryside | orbit | 14 | reagir | - | - | -
+b1 | countryside | orbit | 14 | conversar | - | - | -
 b2 | countryside | track | 2 | encena, andando | tools/lantern | lantern | -
-b3 | countryside | two | 2 | reagir, INTERAGEM: aproxima-se | barrel, kit/barrel_r | bottle | -
-b4 | countryside | two | 2 | comemorar, INTERAGEM: brindar | barrel, tools/lantern | mug, bottle | -
-b5 | countryside | group | 8 | conversar, INTERAGEM: empurrar, alguem chega andando | - | - | -
-b6 | countryside | orbit | 15 | reagir, batalha | kit/campfire, kit/tent | - | -
+b3 | countryside | two | 2 | conversar, INTERAGEM: aproxima-se | barrel, kit/barrel_r | bottle | -
+b4 | countryside | two | 2 | conversar, INTERAGEM: brindar | barrel, tools/lantern | mug, bottle | -
+b5 | countryside | group | 21 | conversar, INTERAGEM: empurrar, alguem chega andando | - | - | -
+b6 | countryside | group | 15 | reagir, batalha | kit/campfire, kit/tent | - | -
 b7 | countryside | crowd | 33 | reagir, batalha | buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
-b8 | countryside | group | 7 | reagir, INTERAGEM: susto | cannon | - | -
-b9 | countryside | group | 7 | reagir, INTERAGEM: avanca e o outro recua, alguem chega andando | crate, barrel, kit/campfire, kit/tent | spyglass | -
+b8 | countryside | group | 7 | conversar, INTERAGEM: susto | cannon | - | -
+b9 | countryside | group | 7 | conversar, INTERAGEM: avanca e o outro recua, alguem chega andando | crate, barrel, kit/campfire, kit/tent | spyglass | -
 b10 | countryside | two | 2 | comemorar, INTERAGEM: pular | - | - | -
 
 OBJETO HEROI: kit/barrel_r - aparece em 1 cena(s), close nele em 1

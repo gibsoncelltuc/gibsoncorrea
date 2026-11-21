@@ -14,10 +14,10 @@ Cenas 100% fieis: 10/10 (100%). Lacunas: 0
 ## b5 OK - No banco do motorista foi sentado um boneco de astronauta, chamado Starman.
 - na tela: set=['hall'] animais=[] objetos=['roadster', 'room_eua_shop'] atores=2 acoes_folha3=['sentado']
 ## b6 OK - No painel, estava escrito: Não entre em pânico.
-- na tela: set=['street'] animais=[] objetos=['marco_canaveral', 'roadster'] atores=6 acoes_folha3=[]
+- na tela: set=['street'] animais=[] objetos=['marco_canaveral', 'roadster'] atores=11 acoes_folha3=[]
 ## b7 OK - O Roadster saiu da órbita da Terra, e seguiu em órbita ao redor do Sol.
-- na tela: set=['arctic'] animais=[] objetos=['globe', 'roadster'] atores=6 acoes_folha3=['saiu']
+- na tela: set=['arctic'] animais=[] objetos=['globe', 'marco_canaveral', 'roadster'] atores=6 acoes_folha3=['saiu', 'seguiu']
 ## b8 OK - E ele continua lá em cima, dando voltas, até hoje.
-- na tela: set=['arctic'] animais=[] objetos=['roadster'] atores=2 acoes_folha3=[]
+- na tela: set=['street'] animais=[] objetos=['marco_canaveral', 'roadster'] atores=2 acoes_folha3=[]
 ## b9 OK - Um Roadster, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço.
-- na tela: set=['arctic'] animais=[] objetos=['roadster', 'rocket'] atores=21 acoes_folha3=[]
+- na tela: set=['street'] animais=[] objetos=['marco_canaveral', 'roadster', 'rocket'] atores=21 acoes_folha3=[]

@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Enterraram um homem vivo, com um sino amarrado no dedo.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: sino -> stars + som de sino; encena: toca @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: sino -> stars + som de sino; encena: g_enterrar (point) @0 -> acao + som de efeito; encena: toca @6 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: SINO
 - Funcao na historia: GANCHO
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Três curtos, um longo. O sinal que os dois ensaiaram. Ele nunca esteve morto.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_ensaiara (point) @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Devia dinheiro para meia cidade, então fingiu a própria morte. Quando o sino tocasse, ela ia desenterrar o marido, e fugir com ele.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino; sino -> stars + som de sino; encena: paga (reach) @1 -> acao + som de efeito; encena: toca @12 -> acao + som de efeito; encena: corre @20 -> acao + som de efeito
+- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino; sino -> stars + som de sino; encena: paga (reach) @1 -> acao + som de efeito; encena: g_fingiu (point) @6 -> acao + som de efeito; encena: toca @12 -> acao + som de efeito; encena: corre @20 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

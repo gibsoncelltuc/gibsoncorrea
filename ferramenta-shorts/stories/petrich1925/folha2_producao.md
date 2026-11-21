@@ -44,10 +44,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - A Grécia ficou furiosa, e deu um ultimato.
 - Cenario: countryside | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (1): OFF (variante 0, expressao stern)
-- Animacao: conversar
+- Personagens principais (3): OFF (variante 0, expressao stern); GRE (variante 1, expressao stern); GRE (variante 2, expressao nervous)
+- Animacao: conversar | interacao: entregar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): grecia, ultimato
 - RISCOS: nenhum
@@ -67,17 +67,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): BUL (variante 1, expressao nervous); BUL (variante 2, expressao pained)
-- Animacao: reagir | interacao: susto
+- Animacao: conversar | interacao: susto
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): antecessor, bulgaria, liga, nacoes
 - RISCOS: nenhum
 
 ## Cena b7 - A Liga mandou a Grécia parar, retirar as tropas e pagar uma indenizaçã...
 - Cenario: mountain | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): OFF (variante 0, expressao pained); GRE (variante 1, expressao nervous) | multidao: 5 de POV
-- Animacao: reagir | interacao: entregar
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): OFF (variante 0, expressao pained); GRE (variante 1, expressao nervous) | multidao: 10 de POV
+- Animacao: conversar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): grecia, indenizacao, liga, tropas
 - RISCOS: nenhum
@@ -87,7 +87,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): GRE (variante 0, expressao grin)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: dog
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, grecia
 - RISCOS: nenhum
@@ -101,8 +101,8 @@ dog | b1, b2, b8 | pronto | conferir na folha de contato se le bem; se parecer c
 
 
 ## Video inteiro
-- Objeto heroi: kit/dog_sit | grandes momentos: b3, b5 | planos abertos: 2 | mistura: close 22% | medio 65% | aberto 7% | detalhe 6%
-- Interacoes: b0 aproxima-se, b6 susto, b7 entregar
+- Objeto heroi: kit/dog_sit | grandes momentos: b3, b5 | planos abertos: 3 | mistura: close 15% | medio 63% | aberto 19% | detalhe 3%
+- Interacoes: b0 aproxima-se, b4 entregar, b6 susto
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

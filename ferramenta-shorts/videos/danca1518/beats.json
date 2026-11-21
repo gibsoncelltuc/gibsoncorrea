@@ -119,20 +119,15 @@
    "acao": "nenhuma"
   },
   {
-   "shot": "reveal",
+   "shot": "group",
    "who": [
-    "MUS:0:grin",
-    "MUS:1:laugh"
+    "MUS:0:grin:flag",
+    "MUS:1:laugh",
+    "PRE:0:grin"
    ],
-   "say": "Acontece que a cidade levou isso a sério. Contratou músicos com tambores, para animar a multidão.",
-   "crowd": {
-    "n": 14,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "laugh"
-   }
+   "text": "PALCO",
+   "say": "Acontece que a cidade levou isso a sério. Montou um palco, e contratou músicos para animar a multidão.",
+   "set": "hall"
   },
   {
    "shot": "orbit",
@@ -187,7 +182,5 @@
    "say": "Até hoje, ninguém sabe explicar direito o que aconteceu naquele verão.",
    "acao": "nenhuma"
   }
- ],
- "heroi": "war/drum",
- "regiao": "europa"
+ ]
 }

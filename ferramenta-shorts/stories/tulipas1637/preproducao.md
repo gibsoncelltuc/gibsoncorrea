@@ -4,7 +4,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | interior madeira | two | 2 | reagir, INTERAGEM: susto | kit/tulip_bed, buildings/windmill, kit/tulip_red | tulip | -
+b0 | interior madeira | two | 2 | conversar, INTERAGEM: susto | kit/tulip_bed, buildings/windmill, kit/tulip_red | tulip | -
 b1 | countryside | reveal | 8 | encena | kit/tulip_bed, buildings/windmill, kit/marco_amsterdam, kit/tulip_red | tulip | -
 b2 | interior loja | two | 2 | discutir, INTERAGEM: discutir | kit/tulip_striped, kit/coin | coin, coin | -
 b3 | countryside | crowd | 23 | encena, batalha | kit/tulip_bed, kit/marco_amsterdam | tulip, coin | -

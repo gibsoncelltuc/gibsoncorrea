@@ -61,7 +61,10 @@
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "verbos_ok": [
+    "aceit"
+   ]
   },
   {
    "say": "O país era El Salvador, na América Central, e a ideia foi do presidente Nayib Bukele.",
@@ -164,7 +167,10 @@
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": false,
+   "verbos_ok": [
+    "lanco"
+   ]
   },
   {
    "say": "Nas primeiras horas, o aplicativo ficou fora do ar, por excesso de acessos.",

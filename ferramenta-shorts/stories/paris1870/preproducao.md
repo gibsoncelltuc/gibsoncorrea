@@ -11,7 +11,7 @@ b3 | countryside | group | 13 | reagir, INTERAGEM: discutir, batalha | mk/Cage_S
 b4 | street | group | 3 | conversar, INTERAGEM: entregar | mk/Table_Large, kit/chest, kit/marco_notredame, elephant | - | -
 b5 | interior loja | two | 3 | comer, INTERAGEM: o outro se aproxima | mk/Table_Large, kit/panela, mk/Table_Plate, elephant | - | -
 b6 | interior loja | two | 2 | comer, INTERAGEM: vai ate o outro | mk/Table_Large, mk/Table_Plate, kit/rato, cat, wolf | - | -
-b7 | countryside | wide | 2 | encena | kit/balloon_air, kit/marco_notredame | - | -
+b7 | countryside | wide | 2 | conversar | kit/balloon_air, kit/marco_notredame | - | -
 b8 | street | group | 13 | conversar, INTERAGEM: cochichar | kit/marco_notredame | - | -
 
 OBJETO HEROI: nenhum achado (ponha "heroi": "kit/..." no topo do roteiro)

@@ -10,7 +10,7 @@ b4 | crowd | -  | batalha aberta com tiros, tropa, placa: GUARARAPES | (rosto) l
 b5 | two | -  | - | encena: sai @10 (acao + som de efeito) | -
 b6 | two | -  | interior, objeto na mao | - | -
 b7 | close | -  | interior | - | -
-b8 | two | -  | - | encena: x_entrega (reach) @20 (acao + som de efeito) | -
+b8 | two | -  | - | encena: g_trocou (reach) @11 (acao + som de efeito); encena: x_entrega (reach) @20 (acao + som de efeito) | -
 b9 | orbit | -  | batalha aberta com tiros, tropa, placa: NOVA YORK | - | -
 b10 | close | -  | - | - | -
 

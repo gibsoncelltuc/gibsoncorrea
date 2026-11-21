@@ -1,8 +1,8 @@
 # AUDITORIA NARRACAO x TELA: tulipas1637
-Cenas 100% fieis: 9/10 (90%). Lacunas: 1
+Cenas 100% fieis: 10/10 (100%). Lacunas: 0
 
 ## b0 OK - Uma única flor já custou o preço de uma casa inteira.
-- na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_holanda_wood', 'tulip_bed', 'tulip_red', 'windmill'] atores=2 acoes_folha3=[]
+- na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_holanda_wood', 'tulip_bed', 'tulip_red', 'windmill'] atores=2 acoes_folha3=['custou']
 ## b1 OK - Era a Holanda, e a tulipa tinha acabado de chegar do Oriente. Colorida, rara, e na moda.
 - na tela: set=['street'] animais=[] objetos=['marco_amsterdam', 'tulip_bed', 'tulip_red', 'windmill'] atores=8 acoes_folha3=[]
 ## b2 OK - Os ricos queriam as mais raras. "Dou mil moedas por esse bulbo", dizia um. "Dou duas mil", gritava outro.
@@ -15,9 +15,8 @@ Cenas 100% fieis: 9/10 (90%). Lacunas: 1
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'coin', 'room_holanda_wood', 'tulip_red'] atores=2 acoes_folha3=['comeu', 'fortuna', 'fortuna']
 ## b6 OK - Acontece que, num leilão de fevereiro, o vendedor abriu os lances, e ninguém levantou a mão.
 - na tela: set=['hall'] animais=[] objetos=['coin', 'room_holanda_shop', 'stall'] atores=4 acoes_folha3=['leilão', 'abriu']
-## b7 LACUNA - A notícia correu. Em poucos dias, todo mundo quis vender, e não havia mais comprador.
+## b7 OK - A notícia correu. Em poucos dias, todo mundo quis vender, e não havia mais comprador.
 - na tela: set=['street'] animais=[] objetos=['coin', 'marco_amsterdam', 'tulip_bed'] atores=32 acoes_folha3=['vender', 'vender']
-- **FALTA:** ACAO narrada ("correu") sem animacao na folha 3
 ## b8 OK - Os preços desabaram. Quem tinha trocado a casa por flores ficou só com as flores, e as dívidas.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_holanda_wood', 'tulip_bed', 'tulip_red'] atores=2 acoes_folha3=['desabaram']
 ## b9 OK - O marinheiro, pelo menos, almoçou bem.

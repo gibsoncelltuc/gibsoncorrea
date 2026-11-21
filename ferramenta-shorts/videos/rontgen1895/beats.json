@@ -241,7 +241,10 @@
    ],
    "text": "NOTÍCIA",
    "titulo": true,
-   "say": "A notícia correu o mundo. Jornais, médicos e curiosos queriam ver o raio misterioso."
+   "say": "A notícia correu o mundo. Jornais, médicos e curiosos queriam ver o raio misterioso.",
+   "verbos_ok": [
+    "corre"
+   ]
   },
   {
    "shot": "two",

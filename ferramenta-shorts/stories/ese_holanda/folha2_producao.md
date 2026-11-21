@@ -38,7 +38,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): NAS (variante 0, expressao smug); POV (variante 0, expressao surprised)
 - Animacao: conversar | interacao: avanca e o outro recua
-- Objetos/modelos: buildings/bridge, kit/marco_olinda, buildings/apartment, buildings/house_two, nature/lamppost
+- Objetos/modelos: buildings/bridge, kit/marco_olinda, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): americas, brasil, cidade, primeira, primeiras
 - RISCOS: nenhum
 
@@ -120,7 +120,6 @@ Objeto | Cenas | Situacao | O que fazer
 kit/flag_pole | b0, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_olinda | b0, b1, b2, b3, b4, b5, b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/bridge | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/apartment | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 ship | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py

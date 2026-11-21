@@ -1,9 +1,8 @@
 # AUDITORIA NARRACAO x TELA: trumpgame1989
-Cenas 100% fieis: 11/12 (92%). Lacunas: 1
+Cenas 100% fieis: 12/12 (100%). Lacunas: 0
 
-## b0 LACUNA - Muito antes da política, Donald Trump lançou um jogo de tabuleiro com o próprio nome. E o rosto dele no dinheiro.
+## b0 OK - Muito antes da política, Donald Trump lançou um jogo de tabuleiro com o próprio nome. E o rosto dele no dinheiro.
 - na tela: set=['street'] animais=[] objetos=['boardgame', 'coin', 'marco_liberdade'] atores=6 acoes_folha3=['dinheiro', 'dinheiro']
-- **FALTA:** ACAO narrada ("lançou") sem animacao na folha 3
 ## b1 OK - Era mil novecentos e oitenta e nove, nos Estados Unidos. Trump era um empresário famoso de Nova York.
 - na tela: set=['street'] animais=[] objetos=['marco_liberdade'] atores=8 acoes_folha3=[]
 ## b2 OK - Uma grande fábrica de brinquedos fez o jogo: comprar e vender prédios, cassinos e hotéis, até ficar o mais rico.

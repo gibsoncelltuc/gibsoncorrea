@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Uma única flor já custou o preço de uma casa inteira.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_custou (point) @4 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1637
 - Funcao na historia: GANCHO

@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Muita gente riu. Mas ele resolveu levar a ideia a sério, e tentou registrar o nome.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; riu -> stars + som de sino; encena: x_ri (up) @2 -> acao + som de efeito; encena: pensa (think) @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; riu -> stars + som de sino; encena: x_ri (up) @2 -> acao + som de efeito; encena: pensa (think) @8 -> acao + som de efeito; encena: g_tentou (point) @12 -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que o conselho que protege a tequila no México reclamou: o nome tequila tem regras, e não podia ser usado de qualquer jeito.
 - Som ambiente: birds
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: (rosto) annoyed -> expr + som de efeito
+- Efeito + som nas palavras-chave: (rosto) annoyed -> expr + som de efeito; encena: g_reclamou (up) @10 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Cada uma custava duzentos e cinquenta dólares. E esgotou em poucas horas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, sting@50
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_custava (point) @2 -> acao + som de efeito; encena: g_esgotou (point) @8 -> acao + som de efeito
 - Efeito visual marcado: stars@20, ring@50
 - Texto na tela: ESGOTOU
 - Funcao na historia: GRANDE MOMENTO
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Logo apareceu gente revendendo na internet. Até garrafas vazias, por centenas de dólares.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: apareceu -> dust + som de impacto; encena: chega (point) @1 -> acao + som de efeito; encena: x_fone (lift) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: apareceu -> dust + som de impacto; encena: chega (point) @1 -> acao + som de efeito; encena: g_revenden (point) @3 -> acao + som de efeito; encena: x_fone (lift) @5 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

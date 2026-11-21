@@ -57,6 +57,15 @@
      6,
      -8,
      1.3
+    ],
+    [
+     "kit/cod",
+     1.6,
+     1.8,
+     1.6,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "3 GUERRAS",
@@ -209,11 +218,21 @@
      -1.8,
      0.7,
      1.0
+    ],
+    [
+     "kit/cod",
+     1.6,
+     1.8,
+     1.6,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "TUDO POR UM PEIXE",
    "tat": 13,
-   "tstyle": "brown"
+   "tstyle": "brown",
+   "set": "harbor"
   }
  ]
 }

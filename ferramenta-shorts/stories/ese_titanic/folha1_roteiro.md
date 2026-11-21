@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: O gelo rasgou o casco por baixo da água, onde fica a maior parte do iceberg.
 - Som ambiente: birds
 - Efeitos sonoros marcados: cannon@30, thump@50
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_rasgou (point) @2 -> acao + som de efeito
 - Efeito visual marcado: burst@30, puff@50
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Seria só mais um navio de luxo, esquecido. E as regras do mar continuariam fracas.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_continua (up) @13 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Ou seja: a tragédia do Titanic ajudou a salvar milhares de vidas depois.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_ajudou (reach) @6 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: VIDAS SALVAS
 - Funcao na historia: GRANDE MOMENTO

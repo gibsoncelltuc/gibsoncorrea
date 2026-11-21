@@ -73,7 +73,10 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Muito antes da política, Donald Trump lançou um jogo de tabuleiro com o próprio nome. E o rosto dele no dinheiro."
+   "say": "Muito antes da política, Donald Trump lançou um jogo de tabuleiro com o próprio nome. E o rosto dele no dinheiro.",
+   "verbos_ok": [
+    "lanco"
+   ]
   },
   {
    "shot": "reveal",

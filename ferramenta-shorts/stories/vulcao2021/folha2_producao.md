@@ -57,7 +57,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): ENA (variante 0, expressao grin); BUK (variante 0, expressao smile)
-- Animacao: -
+- Animacao: conversar
 - Objetos/modelos: kit/volcano, kit/turbina
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dentro, terra, vapor
 - RISCOS: nenhum

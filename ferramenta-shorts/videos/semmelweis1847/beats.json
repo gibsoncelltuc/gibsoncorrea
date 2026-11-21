@@ -8,7 +8,7 @@
  "set": "street",
  "light": "day",
  "mood": "playful",
- "heroi": "kit/wash_basin",
+ "heroi": "kit/maca",
  "outfits": {
   "SEM": {
    "profissao": "medico",
@@ -80,7 +80,8 @@
    ],
    "sfx": [
     "ding@30"
-   ]
+   ],
+   "interior": "hospital"
   },
   {
    "shot": "reveal",
@@ -90,7 +91,23 @@
    ],
    "mapa": "ÁUSTRIA",
    "mapa_at": 3,
-   "say": "Era mil oitocentos e quarenta e sete, no grande hospital de Viena, na Áustria."
+   "say": "Era mil oitocentos e quarenta e sete, no grande hospital de Viena, na Áustria.",
+   "text": "HOSPITAL DE VIENA",
+   "titulo": true,
+   "props": [
+    [
+     "kit/maca",
+     1.5,
+     1.5,
+     1.2
+    ],
+    [
+     "kit/room_hospital",
+     0,
+     -6,
+     1.0
+    ]
+   ]
   },
   {
    "shot": "two",
@@ -244,6 +261,9 @@
    ],
    "sfx": [
     "sting@50"
+   ],
+   "verbos_ok": [
+    "brigo"
    ]
   },
   {

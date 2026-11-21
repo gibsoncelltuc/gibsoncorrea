@@ -74,7 +74,10 @@
    },
    "mapa": "HOLANDA",
    "mapa_at": 3,
-   "say": "Era mil setecentos e oitenta e quatro. A Holanda tinha fechado um rio, e nenhum navio estrangeiro passava por ali."
+   "say": "Era mil setecentos e oitenta e quatro. A Holanda tinha fechado um rio, e nenhum navio estrangeiro passava por ali.",
+   "verbos_ok": [
+    "passa"
+   ]
   },
   {
    "shot": "two",
@@ -84,7 +87,8 @@
     "GEN:0:nervous"
    ],
    "acao": "discutir",
-   "say": "O imperador da Áustria ficou furioso. Ele queria o rio aberto para os navios dele."
+   "say": "O imperador da Áustria ficou furioso. Ele queria o rio aberto para os navios dele.",
+   "set": "harbor"
   },
   {
    "shot": "two",
@@ -94,7 +98,8 @@
     "GEN:0:scared:paper"
    ],
    "interacao": "reverencia",
-   "say": "\"Mandem três navios\", ordenou ele. \"Os holandeses não vão ter coragem de atirar.\""
+   "say": "\"Mandem três navios\", ordenou ele. \"Os holandeses não vão ter coragem de atirar.\"",
+   "set": "harbor"
   },
   {
    "shot": "reveal",
@@ -111,7 +116,8 @@
    },
    "text": "3 NAVIOS",
    "titulo": true,
-   "say": "Os três navios desceram o rio, com o maior na frente, cheio de soldados e de bandeiras."
+   "say": "Os três navios desceram o rio, com o maior na frente, cheio de soldados e de bandeiras.",
+   "set": "harbor"
   },
   {
    "shot": "crowd",

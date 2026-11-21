@@ -8,7 +8,7 @@
  "set": "harbor",
  "light": "day",
  "mood": "playful",
- "heroi": "kit/rocket",
+ "heroi": "kit/falcon9_land",
  "outfits": {
   "MUS": {
    "jacket": "#16181d",
@@ -69,9 +69,7 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Durante sessenta anos, todo foguete era jogado fora depois de um voo. Até que um deles voltou e desceu de ré.",
-   "fachada": false,
-   "set": "harbor"
+   "say": "Durante sessenta anos, todo foguete era jogado fora depois de um voo. Até que um deles voltou e pousou de ré."
   },
   {
    "shot": "reveal",
@@ -81,9 +79,7 @@
    ],
    "mapa": "ESTADOS UNIDOS",
    "mapa_at": 3,
-   "say": "Foi em dezembro de dois mil e quinze, no Cabo Canaveral, na Flórida.",
-   "fachada": false,
-   "set": "outback"
+   "say": "Foi em dezembro de dois mil e quinze, no Cabo Canaveral, na Flórida."
   },
   {
    "shot": "two",
@@ -100,9 +96,7 @@
      -8.0,
      1.1
     ]
-   ],
-   "fachada": false,
-   "set": "countryside"
+   ]
   },
   {
    "shot": "two",
@@ -127,8 +121,7 @@
      1.0
     ]
    ],
-   "set": "harbor",
-   "fachada": false
+   "set": "harbor"
   },
   {
    "shot": "two",
@@ -137,10 +130,7 @@
     "ENG:0:grin:paper"
    ],
    "interacao": "entregar",
-   "say": "Mas a equipe insistiu. Em vinte e um de dezembro, o Falcon nove decolou levando satélites.",
-   "fachada": false,
-   "set": "countryside",
-   "interior": false
+   "say": "Mas a equipe insistiu. Em vinte e um de dezembro, o Falcon nove decolou levando satélites."
   },
   {
    "shot": "crowd",
@@ -175,9 +165,7 @@
     "whoosh@20",
     "thump@40"
    ],
-   "say": "Depois de soltar a parte de cima, a parte de baixo virou no céu, e começou a voltar para a Terra.",
-   "fachada": false,
-   "set": "harbor"
+   "say": "Depois de soltar a parte de cima, a parte de baixo virou no céu, e começou a voltar para a Terra."
   },
   {
    "shot": "low",
@@ -187,10 +175,10 @@
    ],
    "props": [
     [
-     "kit/falcon_air",
-     0.3,
-     -7.0,
-     1.5
+     "kit/falcon9_land",
+     0,
+     -9.0,
+     1.1
     ]
    ],
    "fx": [
@@ -199,9 +187,7 @@
    "sfx": [
     "sting@20"
    ],
-   "say": "Acontece que ela desceu de ré, de pé, com o motor aceso freando a queda.",
-   "fachada": false,
-   "set": "countryside"
+   "say": "Acontece que ela desceu de ré, de pé, com o motor aceso freando a queda."
   },
   {
    "shot": "two",
@@ -213,9 +199,9 @@
    "props": [
     [
      "kit/falcon9_land",
-     1.6,
-     -6.0,
-     1.1
+     1.8,
+     -8.0,
+     1.0
     ]
    ],
    "fx": [
@@ -226,9 +212,7 @@
     "ding@30",
     "thump@50"
    ],
-   "say": "E desceu certinho no meio da plataforma, abrindo as pernas no último segundo.",
-   "fachada": false,
-   "set": "countryside"
+   "say": "E pousou certinho no meio da plataforma, abrindo as pernas no último segundo."
   },
   {
    "shot": "crowd",
@@ -266,9 +250,7 @@
    ],
    "text": "POUSOU!",
    "titulo": true,
-   "say": "Os funcionários da SpaceX gritaram de alegria, como numa final de campeonato.",
-   "fachada": false,
-   "set": "countryside"
+   "say": "Os funcionários da SpaceX gritaram como em final de Copa do Mundo."
   },
   {
    "shot": "two",
@@ -277,18 +259,7 @@
     "ENG:0:grin"
    ],
    "interacao": "abracar",
-   "say": "Foi a primeira vez que um foguete desse tamanho voltou do espaço e ficou inteiro em terra.",
-   "fachada": false,
-   "props": [
-    [
-     "kit/rocket",
-     1.2,
-     0.2,
-     0.5
-    ]
-   ],
-   "detalhe": true,
-   "interior": "loja"
+   "say": "Foi a primeira vez que um foguete desse tamanho voltou do espaço e pousou inteiro em terra."
   },
   {
    "shot": "close",
@@ -304,9 +275,7 @@
     ]
    ],
    "acao": "comemorar",
-   "say": "Hoje, os foguetes da SpaceX pousam quase toda semana. E a viagem ao espaço ficou muito mais barata.",
-   "fachada": false,
-   "set": "harbor"
+   "say": "Hoje, os foguetes da SpaceX pousam quase toda semana. E a viagem ao espaço ficou muito mais barata."
   }
  ],
  "fontes": [

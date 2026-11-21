@@ -77,7 +77,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): PAR (variante 0, expressao smile); PAR (variante 1, expressao smile)
-- Animacao: encena
+- Animacao: conversar
 - Objetos/modelos: kit/balloon_air, kit/marco_notredame
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): parisienses
 - RISCOS: nenhum

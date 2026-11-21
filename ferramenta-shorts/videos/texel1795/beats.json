@@ -94,7 +94,7 @@
    "text": "FROTA CONGELADA",
    "tat": 7,
    "tstyle": "white",
-   "set": "harbor",
+   "set": "arctic",
    "detalhe": false
   },
   {
@@ -129,7 +129,8 @@
      2.4
     ]
    ],
-   "detalhe": false
+   "detalhe": false,
+   "set": "arctic"
   },
   {
    "say": "Do outro lado, os franceses tinham cavalaria, os hussardos, e nenhum navio.",
@@ -149,7 +150,7 @@
     ]
    ],
    "mood": "march",
-   "set": "countryside",
+   "set": "harbor",
    "detalhe": false,
    "shot_lock": true,
    "cavalaria": false,
@@ -198,7 +199,7 @@
    "light": "tense",
    "mood": "tense",
    "batalha": true,
-   "set": "countryside"
+   "set": "arctic"
   },
   {
    "say": "Os marinheiros holandeses viram a cavalaria chegar, e a frota se rendeu.",
@@ -212,7 +213,23 @@
    "tstyle": "red",
    "light": "arctic",
    "mood": "playful",
-   "batalha": true
+   "batalha": true,
+   "animals": [
+    [
+     "horse",
+     -2.4,
+     -2.5,
+     "stand",
+     1.0
+    ],
+    [
+     "horse",
+     2.4,
+     -2.5,
+     "stand",
+     1.0
+    ]
+   ]
   },
   {
    "say": "Foram mais de uma dezena de navios capturados por soldados a cavalo.",
@@ -257,7 +274,23 @@
    "text": "CAVALARIA 1 X 0 MARINHA",
    "tat": 12,
    "tstyle": "gold",
-   "interior": "madeira"
+   "interior": "madeira",
+   "animals": [
+    [
+     "horse",
+     -2.4,
+     -2.5,
+     "stand",
+     1.0
+    ],
+    [
+     "horse",
+     2.4,
+     -2.5,
+     "stand",
+     1.0
+    ]
+   ]
   }
  ],
  "heroi": null

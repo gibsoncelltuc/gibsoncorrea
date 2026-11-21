@@ -7,7 +7,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): FAZ (variante 0, expressao smile)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: nature/flowerbed, nature/picket_fence, buildings/barn, nature/haybale, nature/scarecrow, pig
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fazendeiro, horta, porco
 - RISCOS: nenhum
@@ -17,7 +17,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): FAZ (variante 0, expressao smile)
-- Animacao: encena
+- Animacao: reagir
 - Objetos/modelos: chicken, emus
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): galinha, quintal
 - RISCOS: nenhum
@@ -27,7 +27,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): FAZ (variante 0, expressao smile)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: nature/picket_fence, buildings/barn, nature/haybale, nature/scarecrow, bear
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cerca, fazendeiro, repente, susto, urso
 - RISCOS: nenhum
@@ -37,7 +37,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): FAZ (variante 0, expressao smile)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: pig
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chao, porco
 - RISCOS: nenhum

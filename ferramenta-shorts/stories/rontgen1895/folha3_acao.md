@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 11 - O Raio X de Röntgen
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.3s - 16 palavras - plano two
@@ -10,10 +10,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | tirou (0.7s) | ACAO: tira | tira foto (celular + flash) | OK |
-| 2 | - | EMOCAO: scared | o rosto vira "scared" na palavra | OK |
-| 3 | - | INTERACAO | aproxima-se | OK |
-| 4 | - | ATUACAO | conversar | OK |
-| 5 | - | PLACA | 1895 | OK |
+| 2 | assustou (3.5s) | ACAO: g_assustou | g_assustou | OK |
+| 3 | - | EMOCAO: scared | o rosto vira "scared" na palavra | OK |
+| 4 | - | INTERACAO | aproxima-se | OK |
+| 5 | - | ATUACAO | conversar | OK |
+| 6 | - | PLACA | 1895 | OK |
 
 ## Cena b1 - 5.6s a 8.3s - 11 palavras - plano reveal
 > "Era mil oitocentos e noventa e cinco, numa cidade da Alemanha."
@@ -27,16 +28,21 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | laboratório (11.3s) | ACAO: quimico | frasco e tubos de ensaio + fumacinha | OK |
-| 2 | faíscas (14.2s) | ACAO: brilha | o objeto brilha na palavra (ondas de luz + estrelas) | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 1 | passava (10.1s) | ACAO: g_passava | g_passava | OK |
+| 2 | laboratório (11.3s) | ACAO: quimico | frasco e tubos de ensaio + fumacinha | OK |
+| 3 | testando (12.3s) | ACAO: g_testando | g_testando | OK |
+| 4 | soltava (13.8s) | ACAO: g_soltava | g_soltava | OK |
+| 5 | faíscas (14.2s) | ACAO: brilha | o objeto brilha na palavra (ondas de luz + estrelas) | OK |
+| 6 | - | ATUACAO | reagir | OK |
 
 ## Cena b3 - 15.3s a 18.8s - 13 palavras - plano two
 > "Numa noite, ele cobriu o tubo com papelão preto, e apagou a luz."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
+| 1 | cobriu (16.4s) | ACAO: g_cobriu | g_cobriu | OK |
+| 2 | apagou (18.2s) | ACAO: g_apagou | g_apagou | OK |
+| 3 | - | ATUACAO | reagir | OK |
 
 ## Cena b4 - 19.9s a 23.8s - 14 palavras - plano low
 > "Acontece que, do outro lado da sala, uma tela começou a brilhar no escuro."
@@ -44,7 +50,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | brilhar (23.3s) | ACAO: brilha | o objeto brilha na palavra (ondas de luz + estrelas) | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | - | ATUACAO | reagir | OK |
 
 ## Cena b5 - 25.0s a 28.2s - 15 palavras - plano two
 > "Ele pôs a mão na frente do tubo, e viu os próprios ossos na tela."
@@ -69,7 +75,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | olhou (36.2s) | ACAO: olha | aponta/olha | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | - | ATUACAO | reagir | OK |
 
 ## Cena b8 - 39.6s a 44.3s - 14 palavras - plano crowd
 > "A notícia correu o mundo. Jornais, médicos e curiosos queriam ver o raio misterioso."
@@ -104,5 +110,5 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | reagir | OK |
 

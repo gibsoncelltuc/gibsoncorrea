@@ -57,8 +57,24 @@
    "animals": [
     [
      "sheep",
-     1.9,
-     0.8
+     -1.6,
+     1.2,
+     "stand",
+     0.9
+    ],
+    [
+     "duck",
+     0.0,
+     1.6,
+     "stand",
+     0.9
+    ],
+    [
+     "rooster",
+     1.6,
+     1.2,
+     "stand",
+     0.9
     ]
    ],
    "props": [
@@ -208,7 +224,7 @@
     "sting@30"
    ],
    "say": "No palácio de Versalhes, o rei Luís dezesseis e a rainha Maria Antonieta vieram assistir, com uma multidão.",
-   "set": "countryside"
+   "set": "palace"
   },
   {
    "shot": "reveal",
@@ -334,8 +350,24 @@
    "animals": [
     [
      "sheep",
+     -1.6,
+     1.2,
+     "stand",
+     0.9
+    ],
+    [
+     "duck",
+     0.0,
      1.6,
-     0.6
+     "stand",
+     0.9
+    ],
+    [
+     "rooster",
+     1.6,
+     1.2,
+     "stand",
+     0.9
     ]
    ],
    "props": [

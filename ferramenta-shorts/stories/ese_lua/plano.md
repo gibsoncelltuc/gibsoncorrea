@@ -10,7 +10,7 @@ b4 | two | -  | animais | perder (dust + som de impacto); encena: perde (facepal
 b5 | crowd | noite  | batalha aberta com tiros, tropa, placa: SEM LUA | - | -
 b6 | two | noite  | - | encena: vira (up) @17 (acao + som de efeito) | -
 b7 | two | noite  | objeto na mao | - | -
-b8 | two | noite  | - | - | -
+b8 | two | noite  | - | encena: g_parariam (point) @3 (acao + som de efeito) | -
 b9 | orbit | noite  | batalha aberta com tiros, tropa, placa: OBRIGADO, LUA | - | -
 b10 | close | noite  | - | - | -
 

@@ -105,7 +105,7 @@
     "FIN:3:stern"
    ],
    "mood": "tense",
-   "set": "mountain"
+   "set": "arctic"
   },
   {
    "say": "Dizem que ele mantinha neve na boca, para o vapor da respiração não entregar a sua posição.",
@@ -117,7 +117,7 @@
    "tat": 5,
    "tstyle": "white",
    "props": [],
-   "set": "mountain"
+   "set": "arctic"
   },
   {
    "say": "Em cerca de cem dias, ele teve mais de quinhentos inimigos confirmados, com uma carabina de mira de ferro, sem luneta.",

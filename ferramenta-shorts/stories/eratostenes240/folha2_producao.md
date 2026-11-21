@@ -42,14 +42,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
-## Cena b4 - Em Alexandria, no mesmo dia, uma vara fincada no solo fazia uma sombra...
+## Cena b4 - Em Alexandria, no mesmo dia, uma vara fincada no chão fazia uma sombra...
 - Cenario: street | luz: desert | clima: calor
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ERA (variante 0, expressao suspicious); BIB (variante 0, expressao neutral)
 - Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/stick, nature/tree_palm, kit/marco_alexandria
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): solo, sombra, vara
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chao, sombra, vara
 - RISCOS: nenhum
 
 ## Cena b5 - Eratóstenes pensou: "Se a Terra fosse plana, as duas sombras seriam ig...
@@ -57,7 +57,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): ERA (variante 0, expressao suspicious)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/globe, nature/tree_palm, kit/marco_alexandria
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): duas, terra
 - RISCOS: nenhum
@@ -82,22 +82,22 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): angulo, duas, passos, sombra
 - RISCOS: nenhum
 
-## Cena b8 - Com uma conta simples, encontrou um número muito perto do tamanho real...
+## Cena b8 - Com uma conta simples, chegou a um número muito perto do tamanho real ...
 - Cenario: interior pedra | luz: desert | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): ERA (variante 0, expressao grin, segura paper); BIB (variante 0, expressao surprised)
-- Animacao: conversar | interacao: cochichar
+- Animacao: conversar | interacao: cochichar | o ultimo personagem ENTRA andando
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): numero, tamanho, terra
 - RISCOS: nenhum
 
 ## Cena b9 - E tudo isso aconteceu mais de dois mil anos atrás, sem satélite e sem ...
 - Cenario: street | luz: desert | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): ERA (variante 0, expressao laugh); BIB (variante 0, expressao laugh) | multidao: 14 de BIB/POV/CAM
-- Animacao: comemorar | interacao: pular | batalha encenada
+- Animacao: comemorar | batalha encenada
 - Objetos/modelos: kit/globe, nature/tree_palm, kit/marco_alexandria, kit/starlink_sat
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois
 - RISCOS: nenhum
@@ -107,7 +107,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): ERA (variante 0, expressao smug)
-- Animacao: comemorar
+- Animacao: reagir
 - Objetos/modelos: kit/stick, kit/well, nature/tree_palm, kit/marco_alexandria, tools/bucket, kit/starlink_sat
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): poco, satelite, trabalho, vara
 - RISCOS: nenhum
@@ -130,8 +130,8 @@ kit/starlink_sat | b9, b10 | pronto | conferir na folha de contato se le bem; se
 
 
 ## Video inteiro
-- Objeto heroi: kit/globe | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 17% | medio 66% | aberto 11% | detalhe 6%
-- Interacoes: b0 o outro se aproxima, b2 insiste, b3 vai ate o outro, b4 aproxima-se, b8 cochichar, b9 pular
+- Objeto heroi: kit/globe | grandes momentos: b6, b9 | planos abertos: 3 | mistura: close 19% | medio 61% | aberto 14% | detalhe 6%
+- Interacoes: b0 o outro se aproxima, b2 insiste, b3 vai ate o outro, b4 aproxima-se, b8 cochichar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

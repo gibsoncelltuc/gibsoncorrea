@@ -61,7 +61,10 @@
    "titulo": true,
    "impact": true,
    "detalhe": false,
-   "tiros": false
+   "tiros": false,
+   "verbos_ok": [
+    "entra"
+   ]
   },
   {
    "say": "Primeiro, os parisienses comeram os cavalos. Depois, os cachorros e os gatos.",

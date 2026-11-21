@@ -1,200 +1,212 @@
 [
-[
-"\\btubo\\b|\\btubos\\b",
-"kit/crookes_tube",
-1.0,
-false
-],
-[
-"\\bchapa\\b|\\bossos\\b|\\braio x\\b|\\braios x\\b|radiografia|\\btela\\b",
-"kit/xray_plate",
-1.0,
-false
-],
-[
-"\\bnariz\\b|\\bnarizes\\b|protese",
-"kit/brass_nose",
-1.0,
-false
-],
-[
-"\\bbacia\\b|\\bbacias\\b|\\blavar\\b|lavassem|\\bcloro\\b|clorada",
-"kit/wash_basin",
-1.0,
-false
-],
-[
-"\\bcobras?\\b|serpentes?|\\banel\\b|benzeno|\\brabo\\b",
-"kit/snake_ring",
-1.0,
-false
-],
-[
-"post-?it|bloquinhos?|marcadores?|hinario|papeizinhos",
-"kit/postit",
-1.0,
-false
-],
-[
-"carrapichos?|velcro|ganchinhos?",
-"kit/burr",
-1.0,
-false
-],
-[
-"\\bfogao\\b|\\bfogoes\\b|borracha|vulcaniz|enxofre",
-"kit/stove",
-1.0,
-false
-],
-[
-"\\bbalao\\b|\\bbaloes\\b",
-"kit/balloon",
-1.0,
-false
-],
-[
-"\\bcadernos?\\b|\\bchumbo\\b|radioativ|\\bfrascos?\\b",
-"kit/curie_box",
-1.0,
-false
-],
-[
-"\\bcolmeias?\\b|\\babelhas?\\b|\\bfavos?\\b|\\bmel\\b",
-"kit/beehive",
-1.0,
-false
-],
-[
-"maquina de raspar|\\braspou\\b|\\braspar\\b|\\braspada\\b|\\bcareca\\b",
-"kit/clipper",
-1.0,
-false
-],
-[
-"mechazilla|pauzinhos|torre de lancamento",
-"kit/tower_mini",
-1.0,
-false
-],
-[
-"\\bvulcao\\b|\\bvulcoes\\b",
-"kit/volcano",
-1.0,
-true
-],
-[
-"\\bbitcoins?\\b|moeda digital|dinheiro digital",
-"kit/bitcoin",
-1.0,
-false
-],
-[
-"mineradoras?|\\bservidores\\b|computadores que mineram",
-"kit/miners",
-1.0,
-false
-],
-[
-"tabuleiro|jogo de mesa",
-"kit/boardgame",
-1.0,
-false
-],
-[
-"\\bmacacos?\\b|\\bpong\\b|\\bpager\\b",
-"kit/monkey_pong",
-1.0,
-false
-],
-[
-"\\btequila\\b|teslaquila|\\bgarrafas?\\b",
-"kit/tequila_bolt",
-1.0,
-false
-],
-[
-"\\bpneus?\\b",
-"kit/tires",
-1.0,
-false
-],
-[
-"\\bfoguete\\b|\\bfoguetes\\b|falcon",
-"kit/rocket",
-1.0,
-false
-],
-[
-"\\broadster\\b|\\btesla\\b",
-"kit/roadster",
-2.6,
-false
-],
-[
-"\\burnas?\\b|cedulas?",
-"kit/ballot_box",
-1.0,
-false
-],
-[
-"helicopteros?",
-"kit/helicopter_air",
-1.0,
-true
-],
-[
-"\\bbunker\\b|antibunker",
-"kit/bunker_bomb",
-1.0,
-false
-],
-[
-"\\bcelular\\b|\\bselfie\\b",
-"kit/phone",
-1.0,
-false
-],
-[
-"\\bprisao\\b|presidio|penitenciaria",
-"kit/prison",
-1.0,
-true
-],
-[
-"casa branca",
-"kit/white_house",
-1.0,
-true
-],
-[
-"\\bsatelites?\\b|starlink",
-"kit/starlink_sat",
-1.0,
-false
-],
-[
-"\\bantena\\b",
-"kit/starlink_dish",
-1.0,
-false
-],
-[
-"\\bturbinas?\\b",
-"kit/turbina",
-1.0,
-false
-],
-[
-"\\\\bratos?\\\\b|roedores?|ratazanas?",
-"kit/rato",
-1.3,
-false
-],
-[
-"\\\\bgol\\\\b|golaco|\\\\btraves?\\\\b",
-"kit/trave",
-1.0,
-false
-]
+ [
+  "\\btubo\\b|\\btubos\\b",
+  "kit/crookes_tube",
+  1.0,
+  false
+ ],
+ [
+  "\\bchapa\\b|\\bossos\\b|\\braio x\\b|\\braios x\\b|radiografia|\\btela\\b",
+  "kit/xray_plate",
+  1.0,
+  false
+ ],
+ [
+  "\\bnariz\\b|\\bnarizes\\b|protese",
+  "kit/brass_nose",
+  1.0,
+  false
+ ],
+ [
+  "\\bbacia\\b|\\bbacias\\b|\\blavar\\b|lavassem|\\bcloro\\b|clorada",
+  "kit/wash_basin",
+  1.0,
+  false
+ ],
+ [
+  "\\bcobras?\\b|serpentes?|\\banel\\b|benzeno|\\brabo\\b",
+  "kit/snake_ring",
+  1.0,
+  false
+ ],
+ [
+  "post-?it|bloquinhos?|marcadores?|hinario|papeizinhos",
+  "kit/postit",
+  1.0,
+  false
+ ],
+ [
+  "carrapichos?|velcro|ganchinhos?",
+  "kit/burr",
+  1.0,
+  false
+ ],
+ [
+  "\\bfogao\\b|\\bfogoes\\b|borracha|vulcaniz|enxofre",
+  "kit/stove",
+  1.0,
+  false
+ ],
+ [
+  "\\bbalao\\b|\\bbaloes\\b",
+  "kit/balloon",
+  1.0,
+  false
+ ],
+ [
+  "\\bcadernos?\\b|\\bchumbo\\b|radioativ|\\bfrascos?\\b",
+  "kit/curie_box",
+  1.0,
+  false
+ ],
+ [
+  "\\bcolmeias?\\b|\\babelhas?\\b|\\bfavos?\\b|\\bmel\\b",
+  "kit/beehive",
+  1.0,
+  false
+ ],
+ [
+  "maquina de raspar|\\braspou\\b|\\braspar\\b|\\braspada\\b|\\bcareca\\b",
+  "kit/clipper",
+  1.0,
+  false
+ ],
+ [
+  "mechazilla|pauzinhos|torre de lancamento",
+  "kit/tower_mini",
+  1.0,
+  false
+ ],
+ [
+  "\\bvulcao\\b|\\bvulcoes\\b",
+  "kit/volcano",
+  1.0,
+  true
+ ],
+ [
+  "\\bbitcoins?\\b|moeda digital|dinheiro digital",
+  "kit/bitcoin",
+  1.0,
+  false
+ ],
+ [
+  "mineradoras?|\\bservidores\\b|computadores que mineram",
+  "kit/miners",
+  1.0,
+  false
+ ],
+ [
+  "tabuleiro|jogo de mesa",
+  "kit/boardgame",
+  1.0,
+  false
+ ],
+ [
+  "\\bmacacos?\\b|\\bpong\\b|\\bpager\\b",
+  "kit/monkey_pong",
+  1.0,
+  false
+ ],
+ [
+  "\\btequila\\b|teslaquila|\\bgarrafas?\\b",
+  "kit/tequila_bolt",
+  1.0,
+  false
+ ],
+ [
+  "\\bpneus?\\b",
+  "kit/tires",
+  1.0,
+  false
+ ],
+ [
+  "\\bfoguete\\b|\\bfoguetes\\b|falcon",
+  "kit/rocket",
+  1.0,
+  false
+ ],
+ [
+  "\\broadster\\b|\\btesla\\b",
+  "kit/roadster",
+  2.6,
+  false
+ ],
+ [
+  "\\burnas?\\b|cedulas?",
+  "kit/ballot_box",
+  1.0,
+  false
+ ],
+ [
+  "helicopteros?",
+  "kit/helicopter_air",
+  1.0,
+  true
+ ],
+ [
+  "\\bbunker\\b|antibunker",
+  "kit/bunker_bomb",
+  1.0,
+  false
+ ],
+ [
+  "\\bcelular\\b|\\bselfie\\b",
+  "kit/phone",
+  1.0,
+  false
+ ],
+ [
+  "\\bprisao\\b|presidio|penitenciaria",
+  "kit/prison",
+  1.0,
+  true
+ ],
+ [
+  "casa branca",
+  "kit/white_house",
+  1.0,
+  true
+ ],
+ [
+  "\\bsatelites?\\b|starlink",
+  "kit/starlink_sat",
+  1.0,
+  false
+ ],
+ [
+  "\\bantena\\b",
+  "kit/starlink_dish",
+  1.0,
+  false
+ ],
+ [
+  "\\bturbinas?\\b",
+  "kit/turbina",
+  1.0,
+  false
+ ],
+ [
+  "\\\\bratos?\\\\b|roedores?|ratazanas?",
+  "kit/rato",
+  1.3,
+  false
+ ],
+ [
+  "\\\\bgol\\\\b|golaco|\\\\btraves?\\\\b",
+  "kit/trave",
+  1.0,
+  false
+ ],
+ [
+  "\\babelhas?\\b|\\bcolmeia",
+  "kit/abelha",
+  1.2,
+  false
+ ],
+ [
+  "\\bcobras?\\b|serpentes?",
+  "kit/cobra",
+  1.2,
+  false
+ ]
 ]

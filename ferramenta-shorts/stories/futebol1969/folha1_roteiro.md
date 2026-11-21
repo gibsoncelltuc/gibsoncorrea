@@ -6,9 +6,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Dois países entraram em guerra depois de um jogo de futebol.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: chega (point) @2 -> acao + som de efeito; encena: bola (throw) @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: bola (throw) @8 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: 1969
+- Texto na tela: HONDURAS x EL SALVADOR
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~7.2 s)
@@ -26,7 +26,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: 3 JOGOS
 - Funcao na historia: desenvolvimento
 
 ## Cena b3  (~6.6 s)
@@ -62,7 +62,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: ganhou -> stars + som de sino; encena: vence (up) @2 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: PRORROGAÇÃO
 - Funcao na historia: desenvolvimento
 
 ## Cena b7  (~4.5 s)
@@ -89,6 +89,6 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; perdeu -> puff + som de baque; encena: perde (facepalm) @5 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: 0 GOLS
 - Funcao na historia: FECHO/PIADA FINAL
 

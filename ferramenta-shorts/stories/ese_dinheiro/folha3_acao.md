@@ -21,7 +21,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | discutir | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 2 | - | ATUACAO | conversar | OK |
 | 3 | - | CHEGADA | alguem entra andando | OK |
 
 ## Cena b2 - 11.5s a 17.4s - 17 palavras - plano two
@@ -54,15 +54,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | cochichar | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | lembrava (34.8s) | ACAO: g_lembrava | g_lembrava | OK |
+| 2 | - | INTERACAO | cochichar | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b6 - 36.7s a 40.0s - 10 palavras - plano crowd
 > "Em poucas semanas, as feiras de troca tomariam as praças."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | tomariam (39.3s) | ACAO: g_tomariam | g_tomariam | OK |
 | 2 | - | ATUACAO | comemorar | OK |
 | 3 | - | PLACA | TROCA | OK |
 
@@ -93,9 +94,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | dinheiro (52.2s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | dinheiro (52.2s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | ATUACAO | comemorar | OK |
-| 5 | - | PLACA | DINHEIRO | OK |
+| 3 | - | ATUACAO | comemorar | OK |
+| 4 | - | PLACA | DINHEIRO | OK |
 
 ## Cena b10 - 55.6s a 60.0s - 13 palavras - plano close
 > "Se ele sumisse, a gente inventaria de novo. Em menos de um ano."

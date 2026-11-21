@@ -4,14 +4,14 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | harbor | two | 2 | reagir, INTERAGEM: o outro se aproxima | kit/marco_viena, kit/kettle | - | -
+b0 | harbor | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/marco_viena, kit/kettle | - | -
 b1 | harbor | reveal | 10 | parados (so fala e pisca) | kit/marco_viena, navios ao fundo | - | -
 b2 | interior pedra | two | 2 | discutir, INTERAGEM: discutir | - | - | -
 b3 | interior pedra | two | 2 | conversar, INTERAGEM: reverencia | - | paper | -
-b4 | harbor | group | 16 | conversar, INTERAGEM: insiste | kit/marco_viena, war/flagpole | - | -
+b4 | harbor | group | 16 | conversar, INTERAGEM: insiste, alguem chega andando | kit/marco_viena, war/flagpole | - | -
 b5 | harbor | crowd | 18 | encena, batalha | cannon, kit/marco_viena, navios ao fundo | - | -
-b6 | street | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/kettle, kit/marco_viena | - | -
-b7 | street | crowd | 15 | reagir, batalha | kit/marco_viena, kit/kettle | flag | -
+b6 | street | two | 2 | conversar, INTERAGEM: vai ate o outro, alguem chega andando | kit/kettle, kit/marco_viena | - | -
+b7 | street | crowd | 15 | conversar, batalha | kit/marco_viena, kit/kettle | flag | -
 b8 | interior pedra | two | 2 | encena, INTERAGEM: entregar | - | money | -
 b9 | harbor | close | 1 | conversar | kit/kettle, kit/marco_viena | - | -
 

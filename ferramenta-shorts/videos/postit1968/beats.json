@@ -67,7 +67,10 @@
    ],
    "say": "Um químico inventou a cola mais fraca do mundo. E ela virou um dos produtos mais vendidos do planeta.",
    "detalhe": false,
-   "shot_lock": true
+   "shot_lock": true,
+   "verbos_ok": [
+    "invent"
+   ]
   },
   {
    "shot": "reveal",

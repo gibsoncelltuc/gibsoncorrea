@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Os químicos desenhavam correntes retas, e nada fechava a conta. Era um quebra-cabeça de anos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
-- Efeito + som nas palavras-chave: encena: quimico (pour) @1 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: quimico (pour) @1 -> acao + som de efeito; encena: g_desenhav (point) @2 -> acao + som de efeito; encena: g_fechava (reach) @7 -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: No sonho, os átomos dançavam como cobras. Até que uma delas mordeu o próprio rabo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, sting@50
-- Efeito + som nas palavras-chave: encena: danca @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: danca @4 -> acao + som de efeito; encena: g_mordeu (point) @11 -> acao + som de efeito
 - Efeito visual marcado: stars@20, ring@50
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Passou o resto da noite desenhando o anel de seis carbonos. E a conta fechou.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: encena: x_abre (push) @14 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: g_desenhan (point) @5 -> acao + som de efeito; encena: x_abre (push) @14 -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Os colegas ficaram de boca aberta. O anel explicava dezenas de substâncias de uma vez.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_explicav (point) @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -105,7 +105,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: E ele deixou um conselho: aprendam a sonhar. Mas confiram tudo acordados.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_confiram (point) @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: SONHE
 - Funcao na historia: FECHO/PIADA FINAL

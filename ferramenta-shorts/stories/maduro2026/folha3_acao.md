@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 22 - A Operação da Madrugada
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 7.8s - 22 palavras - plano two
@@ -45,8 +45,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | PLACA | DELTA | OK |
+| 1 | - | PLACA | DELTA | OK |
 
 ## Cena b5 - 26.7s a 30.4s - 11 palavras - plano low
 > "Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do país."
@@ -54,7 +53,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | ataques (27.8s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | desligaram (28.5s) | ACAO: g_desligar | g_desligar | OK |
+| 3 | - | ATUACAO | reagir | OK |
 
 ## Cena b6 - 30.7s a 36.3s - 16 palavras - plano low
 > "Acontece que, em menos de três horas, Maduro foi capturado e levado para fora da Venezuela."
@@ -70,8 +70,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | avanca e o outro recua | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | acompanhou (37.0s) | ACAO: g_acompanh | g_acompanh | OK |
+| 2 | - | INTERACAO | avanca e o outro recua | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b8 - 43.3s a 48.5s - 15 palavras - plano two
 > "Maduro foi levado de avião para Nova York, onde responde a um processo na justiça."
@@ -86,8 +87,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | dividiu (52.6s) | ACAO: g_dividiu | g_dividiu | OK |
+| 2 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
 | 3 | - | ATUACAO | reagir | OK |
 | 4 | - | PLACA | MUNDO | OK |
 

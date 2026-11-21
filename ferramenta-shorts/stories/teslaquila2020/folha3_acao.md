@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 20 - A Piada que Virou Tequila
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 42 acoes catalogadas, 42 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.5s - 20 palavras - plano two
@@ -40,18 +40,20 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | riu (20.2s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | riu (20.2s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
 | 3 | ideia (22.6s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
-| 4 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 5 | - | INTERACAO | entregar | OK |
-| 6 | - | ATUACAO | comemorar | OK |
+| 4 | tentou (23.6s) | ACAO: g_tentou | g_tentou | OK |
+| 5 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 6 | - | INTERACAO | entregar | OK |
+| 7 | - | ATUACAO | comemorar | OK |
 
 ## Cena b4 - 25.6s a 32.2s - 24 palavras - plano low
 > "Acontece que o conselho que protege a tequila no México reclamou: o nome tequila tem regras, e não podia ser usado de qualquer jeito."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | EMOCAO: annoyed | o rosto vira "annoyed" na palavra | OK |
-| 2 | - | INTERACAO | o outro se aproxima | OK |
-| 3 | - | ATUACAO | discutir | OK |
+| 1 | reclamou (28.3s) | ACAO: g_reclamou | g_reclamou | OK |
+| 2 | - | EMOCAO: annoyed | o rosto vira "annoyed" na palavra | OK |
+| 3 | - | INTERACAO | o outro se aproxima | OK |
+| 4 | - | ATUACAO | discutir | OK |
 
 ## Cena b5 - 33.4s a 38.0s - 16 palavras - plano two
 > "Em dois mil e vinte, saiu com outro nome: Tesla Tequila, feita no México, com agave."
@@ -75,8 +77,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | comemorar | OK |
-| 2 | - | PLACA | ESGOTOU | OK |
+| 1 | custava (45.2s) | ACAO: g_custava | g_custava | OK |
+| 2 | esgotou (48.0s) | ACAO: g_esgotou | g_esgotou | OK |
+| 3 | - | ATUACAO | comemorar | OK |
+| 4 | - | PLACA | ESGOTOU | OK |
 
 ## Cena b8 - 50.1s a 55.6s - 13 palavras - plano two
 > "Logo apareceu gente revendendo na internet. Até garrafas vazias, por centenas de dólares."
@@ -85,10 +89,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | apareceu (50.4s) | EFEITO: dust | poeira + som | OK |
 | 2 | apareceu (50.4s) | ACAO: chega | entra andando pela lateral | OK |
-| 3 | internet (51.9s) | ACAO: x_fone | celular na mao + toque | OK |
-| 4 | - | INTERACAO | entregar | OK |
-| 5 | - | ATUACAO | reagir | OK |
-| 6 | - | CHEGADA | alguem entra andando | OK |
+| 3 | revendendo (51.2s) | ACAO: g_revenden | g_revenden | OK |
+| 4 | internet (51.9s) | ACAO: x_fone | celular na mao + toque | OK |
+| 5 | - | INTERACAO | entregar | OK |
+| 6 | - | ATUACAO | reagir | OK |
+| 7 | - | CHEGADA | alguem entra andando | OK |
 
 ## Cena b9 - 56.8s a 60.9s - 15 palavras - plano two
 > "Um anúncio passou de mil e quatrocentos dólares, por uma garrafa sem nenhuma gota dentro."

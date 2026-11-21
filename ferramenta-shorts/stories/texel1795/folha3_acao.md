@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - A Cavalaria que Capturou uma Frota
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 4.5s - 17 palavras - plano two
@@ -20,7 +20,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | congelou (9.1s) | ACAO: x_treme | treme | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | FROTA CONGELADA | OK |
 
 ## Cena b2 - 11.0s a 13.6s - 10 palavras - plano wide
@@ -29,6 +29,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | presos (11.9s) | ACAO: prende | empurra/prende | OK |
+| 2 | - | ATUACAO | reagir | OK |
 
 ## Cena b3 - 15.4s a 19.4s - 12 palavras - plano group
 > "Do outro lado, os franceses tinham cavalaria, os hussardos, e nenhum navio."
@@ -45,7 +46,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | ideia (22.0s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
 | 2 | atacar (22.9s) | EFEITO: ring | onda + som | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 3 | - | ATUACAO | reagir | OK |
 | 4 | - | PLACA | A CAVALO? | OK |
 
 ## Cena b5 - 25.0s a 31.0s - 23 palavras - plano crowd
@@ -53,7 +54,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | CENA | cavalaria: 4 soldados a cavalo (FRA) | OK |
+| 1 | atravessaram (27.3s) | ACAO: g_atravess | g_atravess | OK |
 | 2 | - | CENA | tiros: 5 soldados caem no chao | OK |
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
@@ -83,6 +84,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | capturou (43.9s) | ACAO: prende | empurra/prende | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | - | ATUACAO | reagir | OK |
 | 3 | - | PLACA | CAVALARIA 1 X 0 MARINHA | OK |
 

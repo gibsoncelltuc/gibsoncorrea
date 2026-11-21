@@ -359,8 +359,9 @@ TEMPL = {  # h = altura do alvo; d0/d1 = distancia da camera no inicio/fim; el =
     'low':   dict(h=1.6, d0=8.2, d1=7.2, el=2),
     'reveal': dict(h=2.4, d0=10.0, d1=22.0, el=6, fov=46),   # recua e revela o exercito inteiro
     'orbit':  dict(h=2.4, d0=19.0, d1=16.0, el=6, fov=46, az0=-38, az1=32),   # panoramica aberta em arco
+    'aereo':  dict(h=1.0, d0=44.0, d1=34.0, el=50, fov=52, az0=-18, az1=18),   # 21/11 VISTA DE CIMA do cenario inteiro (estadio todo, porto, cidade): camera alta descendo e girando devagar
 }
-WIDE = ('wide', 'crowd', 'reveal', 'orbit')
+WIDE = ('wide', 'crowd', 'reveal', 'orbit', 'aereo')
 TXT = {'blue': ('#fff6e0', '#27408b'), 'brown': ('#fff6e0', '#7a3a1c'), 'red': ('#d8282f', '#fff6e0'), 'gold': ('#e8c45a', '#7a1c1c'), 'white': ('#ffffff', '#1c2a4a')}
 TXT_CYCLE = ['brown', 'blue', 'red', 'gold']
 
@@ -398,6 +399,13 @@ def _idiom_idx(say):   # EXPRESSOES (19/11): "o panico tomou o acampamento", "a 
            or (re.match(r'^(entrou|entraram|entrava|entraria|entrariam)$', nw_) and re.match(r'^(para|em|na|no)(a|o)?(historia|guerra|moda|panico|acordo|crise|falencia|vigor|campo|conflito|greve|colapso)', dep_)):
             out_.add(j_)
     return out_
+try:
+    import auditar_narracao as _AUD; _AUD_OK = True
+except Exception: _AUD_OK = False
+ENC_GEN = [(r'^(entr|cruz|atravess|cheg|volt|avanc|desc|pous|subi|invad|chegar|aproxim|passou|sa[ií]ram|seguiu|seguiram|levou|levaram|trouxe)', 'point'),
+           (r'^(declar|respond|disse|admit|desist|nega|cont|grit|pergunt|ped|fal|anunc|avis|ameac|obrig|exig|reclam|xing)', 'up'),
+           (r'^(acert|coloc|puxou|pegou|empurr|abri|fech|lig|desl|acend|apag|plant|mand|entreg|receb|troc|dividiu|juntou|espalh|guard|carreg|segur|ajud|soltou|cobriu)', 'reach'),
+           (r'^(comemor|ri[ur]|gargalh|celebr|chor|aplaud|dan[cç]|pul)', 'up')]
 ENC = [(r'^(misturou|misturaram|misturando|mistura|misturar|mexeu|mexendo|mexia|combinou|batia|bateu a massa|cozinhou|cozinhava)$', 'stir', 'mistura'),
        (r'^(caiu|cairam|derrubou|derrubaram|derramou|jogou|jogaram|atirou o|despejou|despejaram|lancou|deixou)$', 'throw', 'cai'),
        (r'^(esquentou|aqueceu|aquecer|esquentar|ferveu|ferver|fervendo|quente|aquecido|queimou|assou|fogao|forno|fogo|chamas?)$', 'reach', 'calor'),
@@ -562,6 +570,7 @@ def direct(beats):
     run = 0; wide_n = 0; wrun = 0; impact_n = 0
     outs = list(B.get('outfits', {}))
     for k, b in enumerate(beats):
+        if b.get('shot') == 'aereo': b['shot_lock'] = True; wide_n += 1   # vista de cima pedida: o diretor nao troca
         if b.get('shot') == 'track' and not b.get('batalha'): b['shot_lock'] = True   # o roteiro pediu gente andando/correndo: o diretor nao troca por multidao parada
         if b.get('shot_lock'):
             run = 0 if b.get('shot', 'two') in WIDE else run + 1; continue
@@ -581,7 +590,7 @@ def direct(beats):
         if b.get('batalha') or (not (first or last) and _tropa and any(IMPACT.match(w_) for w_ in words) and impact_n < int(B.get('max_impact', 2)) and b.get('impact') is not False):
             impact_n += 1; b['impact'] = True; shot = ('crowd' if impact_n % 2 else 'orbit') if (b.get('batalha') or wrun < 1) else 'group'   # batalha marcada SEMPRE abre; impacto logo depois de outro aberto fica em plano medio com a tropa atras
             if wrun >= 1 and k > 0 and not beats[k - 1].get('impact') and not beats[k - 1].get('shot_lock') and k - 1 > 0: beats[k - 1]['shot'] = 'group'; wide_n -= 1; wrun = 0   # o aberto anterior (sem batalha) cede a vez   # dois abertos seguidos nao: o segundo fica em plano medio com a tropa atras   # MOMENTO-CHAVE: plano aberto de alto impacto (fora da cota de planos abertos)
-        elif shot in WIDE and not (first or last) and wide_n >= int(B.get('max_wide', 2)): shot = 'group'   # MODO RICKS: personagem grande na maior parte do video
+        elif shot in WIDE and not (first or last) and wide_n >= int(B.get('max_wide', 3)): shot = 'group'   # MODO RICKS: personagem grande na maior parte do video
         wrun = wrun + 1 if shot in WIDE else 0
         b['shot'] = shot
         if shot in WIDE:
@@ -637,6 +646,12 @@ for _ib, _b in enumerate(B['beats']):
         _b.pop('interior', None)
         if not _b.get('_lug_ok') and _ib not in _EXPL: _b['set'] = SET
         _b['_lug_ok'] = True
+for _b in B['beats']:   # 21/11 CENA NUNCA PARADA (ordem do Gibson): frase longa sem nenhuma acao marcada ganha acao de grupo automatica (conversar = 2+ pessoas; reagir = 1 pessoa)
+    if B.get('cena_parada_ok') or _b.get('acao') or _b.get('interacao') or _b.get('batalha') or _b.get('crowd') or _b.get('veiculo') or _b.get('lados') or _b.get('impact') or _b.get('shot') in ('track', 'reveal') or len(_b['say'].split()) < 7 or not _b.get('who'): continue
+    _b['acao'] = 'conversar' if len(_b['who']) >= 2 else 'reagir'
+for _b in B['beats']:   # 21/11 verbo de MOVIMENTO (entrou, cruzou, atravessou, chegou, avancou, voltou...) = alguem ANDA ate a cena de verdade (nao so' gesto)
+    _sy = __import__('unicodedata').normalize('NFKD', _b['say'].lower()).encode('ascii', 'ignore').decode()
+    if 'chega' not in _b and len(_b.get('who', [])) >= 2 and re.search(r'\b(entrou|entraram|cruzou|cruzaram|atravessou|atravessaram|avancou|avancaram|aproximou|aproximaram|voltou|voltaram|desceu|desceram|apareceu|apareceram)\b', _sy) and not re.search(r'\b(nao|nunca|ninguem)\s+(entrou|entraram|cruzou|cruzaram|voltou)', _sy): _b['chega'] = True
 KICKS = []
 AMB = {}
 HEROI = _heroi()
@@ -674,14 +689,14 @@ if B.get('director') is not False and B.get('ritmo') is not False and len(beats)
     _b = beats[-1]
     if not _lock(_b) and len(_b.get('who', [])) <= 1: _b['shot'] = 'close'                             # final: fecha no rosto
 # REGRA RESTRITA (pedido do Gibson): TODO video tem no minimo 2 planos abertos de camera continua (ambientacao ampla: tropa, paisagem, batalha).
-MIN_WIDE = int(B.get('min_wide', 2))
+MIN_WIDE = int(B.get('min_wide', 3 if len(B['beats']) >= 8 else 2))   # 21/11 (Gibson): 2 a 3 takes de AMPLITUDE com o cenario inteiro (um deles vista de cima)
 if B.get('director') is not False and len(beats) >= 5:
     _w = [i for i, _b in enumerate(beats) if _b.get('shot') in WIDE]
     _cand = sorted((i for i in range(1, len(beats) - 1) if i not in _w and not beats[i].get('shot_lock') and not beats[i].get('interior') and not beats[i].get('veiculo')), key=lambda i: (min(abs(i - j) for j in _w) if _w else 9, -abs(i - len(beats) * (0.35 if not _w else 0.7))), reverse=True)
     while len(_w) < MIN_WIDE and _cand:
         i = _cand.pop(0)
         if any(abs(i - j) <= 1 for j in _w) and _cand: continue
-        _b = beats[i]; _b['shot'] = 'reveal' if len(_w) % 2 == 0 else 'orbit'; _b['aberto_auto'] = True
+        _b = beats[i]; _b['shot'] = ('aereo' if not any(beats[j].get('shot') == 'aereo' for j in _w) else 'reveal' if len(_w) % 2 == 0 else 'orbit'); _b['aberto_auto'] = True
         _o = [w.split(':')[0] for w in _b.get('who', [])] or list(B.get('outfits', {'X': 0}))[:1]
         if not _b.get('emus'): _b.setdefault('crowd', {'n': 8, 'outfits': list(dict.fromkeys(_o)), 'march': False})
         _w.append(i)
@@ -1137,6 +1152,9 @@ def build_beat(k, b):
                 if not re.match(rx_, nw_): continue
                 if tipo_ in _feitos: _mesmos.append((tipo_, nw_)); break   # 2a palavra da mesma acao (sirenes... tocaram): ja encenada
                 _feitos.add(tipo_); _encs.append((wi_, gest_, tipo_, j_)); break
+            else:   # 21/11 ENCENADOR GENERICO (ordem do Gibson): verbo de cena que nao esta na tabela ENC AINDA ASSIM vira gesto do personagem NA PALAVRA (varias acoes na mesma frase = varias animacoes em sequencia)
+                if _AUD_OK and _AUD.RX_VERBO.match(nw_) and nw_ not in _AUD.SUBST_IA and nw_ not in _AUD.VERBOS_ABSTRATOS and nw_ not in _AUD.VERBOS_OK_GLOBAL and not any(nw_.startswith(nrm(x)) for x in b.get('verbos_ok', [])):
+                    _gg = next((g_ for r_, g_ in ENC_GEN if re.match(r_, nw_)), 'point'); _encs.append((wi_, _gg, 'g_' + nw_[:8], j_))
         _resto = lambda j0: nrm(' '.join(_ws[j0:j0 + 7]))
         if _st.get('dorme') and not any(t_ in ('dorme', 'x_acorda') for _, _, t_, _ in _encs):   # SONO CONTINUA (cochilou -> "no sonho..." -> acordou): segue deitado dormindo
             _gst.setdefault(('poses', 0), []).append(f"[{a}, {bb}, 'sleep']")
@@ -1145,9 +1163,9 @@ def build_beat(k, b):
         _ok = {'cai': _mat_ok, 'vira': _mat_ok, 'calor': _mat_ok or bool(re.search(r'fogao|forno|panela|ferv|aquec|esquent|caldeir', _sy_)), 'golpe': bool(re.search(r'ringue|luta|boxe|lutador|briga|soco|golpe|enfrent', _sy_)), 'bola': bool(re.search(r'futebol|\bcopa\b|\bbola\b|\bgol\b|estadio|chut', _sy_)), 'raspa': bool(re.search(r'cabeca|cabelo|careca|maquina|barba', _sy_)), 'x_come': b.get('humanos_comem') or not (b.get('animals') and re.search(r'porco|vaca|cavalo|cachorro|gato|galinha|ganso|emu|ovelha|cabra|bicho|animal|rato|passaro', _sy_))}
         _encs = [e_ for e_ in _encs if _ok.get(e_[2], True)]
         b.setdefault('_enc_words', []).extend(w__ for t__, w__ in _mesmos if _ok.get(t__, True) and t__ in {e_[2] for e_ in _encs})   # "o imperio caiu", "abriram fogo", "a luta virou bagunca" NAO sao processo fisico
-        for n_e, (wi_, gest_, tipo_, j_) in enumerate(_encs[:6]):
+        for n_e, (wi_, gest_, tipo_, j_) in enumerate(_encs[:8]):
             b.setdefault('_enc_words', []).append(nrm(_ws[j_]))
-            _ate = f"WS({_encs[n_e + 1][0]}) - 4" if n_e + 1 < len(_encs[:6]) else f"WS({wi_}) + 46"
+            _ate = f"WS({_encs[n_e + 1][0]}) - 4" if n_e + 1 < len(_encs[:8]) else f"WS({wi_}) + 46"
             if tipo_ == 'corta' and re.search(r'dedo|bisturi|faca|tesoura|navalha|semachucou|mao|nariz|orelha|espada', _sy_): gest_ = 'reach'
             if tipo_ == 'danca' and re.search(_DANCA_OUTRO, _sy_): gest_ = None   # corte no dedo: estende a mao machucada (nao martela)
             if tipo_ == 'pega' and (persons[0][3] == 'rifle' or B.get('outfits', {}).get(persons[0][0], {}).get('rifle')): b.setdefault('_shots', []).append(f"WS({wi_}) + 8")   # pegou a espingarda: ergue e mira a arma na palavra (sem tiro)

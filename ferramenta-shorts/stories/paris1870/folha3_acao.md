@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - O Cardápio do Zoológico
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.6s - 17 palavras - plano reveal
@@ -82,7 +82,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | usavam (39.0s) | ACAO: x_usa | usa o objeto da cena + brilho | OK |
 | 2 | - | CENA | voa: finch sai da mao e voa ate o alvo | OK |
 | 3 | - | CENA | voa: finch sai da mao e voa ate o alvo | OK |
-| 4 | - | PLACA | BALÕES E POMBOS | OK |
+| 4 | - | ATUACAO | conversar | OK |
+| 5 | - | PLACA | BALÕES E POMBOS | OK |
 
 ## Cena b8 - 41.4s a 46.3s - 19 palavras - plano group
 > "O cerco acabou em janeiro de mil oitocentos e setenta e um, e Paris se rendeu, de barriga vazia."

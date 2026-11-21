@@ -94,10 +94,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - E o jogo voltou às lojas, com regras mais simples, e com a frase famos...
 - Cenario: street | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): TRU (variante 0, expressao smug); POV (variante 0, expressao laugh); POV (variante 1, expressao grin) | multidao: 18 de POV
-- Animacao: comemorar | interacao: pular | batalha encenada
+- Animacao: comemorar | batalha encenada
 - Objetos/modelos: kit/boardgame, kit/marco_liberdade
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frase, jogo, lojas, programa, regras
 - RISCOS: nenhum
@@ -134,8 +134,8 @@ crate | b10 | pronto | conferir na folha de contato se le bem; se parecer caixot
 
 
 ## Video inteiro
-- Objeto heroi: kit/boardgame | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 17% | medio 69% | aberto 8% | detalhe 6%
-- Interacoes: b0 o outro se aproxima, b2 entregar, b4 discutir, b5 empurrar, b7 insiste, b8 entregar, b9 pular, b10 vai ate o outro
+- Objeto heroi: kit/boardgame | grandes momentos: b6, b9 | planos abertos: 3 | mistura: close 19% | medio 63% | aberto 11% | detalhe 6%
+- Interacoes: b0 o outro se aproxima, b2 entregar, b4 discutir, b5 empurrar, b7 insiste, b8 entregar, b10 vai ate o outro
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

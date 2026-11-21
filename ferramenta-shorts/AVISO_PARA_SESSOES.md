@@ -48,3 +48,6 @@ COMO ENCENAR (beats.json), exemplos prontos em videos/paris1870/beats.json:
 - NOVOS MODELOS: kit/rato, kit/trave (gol), kit/turbina. Objeto sem modelo: MODELE no Blender (blender/objetos_processo.py), nao deixe so' no letreiro.
 CADA CENA: abra o quadro (`./prechecar.sh <id> bN 4`) e compare com a FRASE. "Parece certo" nao basta: o que a frase diz esta na imagem?
 VIDEOS JA ENTREGUES: o Gibson viu que varios NAO seguem a narracao. Todo video seu entregue sera REFEITO. Ordem de prioridade: rode `python3 auditar_narracao.py --todos`, refaca primeiro os de menor %.
+
+# NOVO 21/11 (Gibson): 2 A 3 TAKES DE AMPLITUDE EM TODO VIDEO
+Tipo de plano novo `"shot": "aereo"` = vista de CIMA do cenario inteiro (estadio todo, porto, cidade), camera alta descendo e girando. O diretor agora exige 3 planos abertos (video com 8+ cenas) e poe 1 `aereo` sozinho; em historia com lugar marcante (estadio, porto, campo de batalha) ponha `aereo` na mao na cena que apresenta o lugar (ex.: videos/futebol1969 b2 e b6, com `crowd`).

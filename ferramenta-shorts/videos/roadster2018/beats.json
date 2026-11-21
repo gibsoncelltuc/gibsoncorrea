@@ -206,7 +206,7 @@
   },
   {
    "say": "O Roadster saiu da órbita da Terra, e seguiu em órbita ao redor do Sol.",
-   "shot": "two",
+   "shot": "reveal",
    "who": [
     "ENG:0:surprised",
     "MUS:0:smile"
@@ -214,15 +214,15 @@
    "hora": "noite",
    "props": [
     [
-     "kit/roadster",
-     0,
-     -2.0,
-     1.7
+     "kit/globe",
+     1.5,
+     -0.5,
+     1.2
     ],
     [
-     "kit/globe",
-     2.0,
-     -2.0,
+     "kit/roadster",
+     -1.5,
+     0.3,
      1.0
     ]
    ],
@@ -231,12 +231,11 @@
    ],
    "sfx": [
     "ding@20"
-   ],
-   "set": "arctic"
+   ]
   },
   {
    "say": "E ele continua lá em cima, dando voltas, até hoje.",
-   "shot": "low",
+   "shot": "orbit",
    "who": [
     "MUS:0:smile",
     "STA:0:grin"
@@ -255,9 +254,7 @@
    ],
    "sfx": [
     "ding@20"
-   ],
-   "set": "arctic",
-   "acao": "reagir"
+   ]
   },
   {
    "say": "Um Roadster, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço.",
@@ -300,8 +297,7 @@
     "expr": "laugh"
    },
    "text": "STARMAN",
-   "titulo": true,
-   "set": "arctic"
+   "titulo": true
   }
  ],
  "cinf": 4.5,

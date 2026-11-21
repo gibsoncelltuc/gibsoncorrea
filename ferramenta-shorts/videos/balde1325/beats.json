@@ -13,7 +13,7 @@
    "hat": "helmet",
    "cap": "#8d949c",
    "belt": "#2a2218",
-   "uniforme_fixo": true
+   "rifle": true
   },
   "BOL": {
    "jacket": "#b5333a",
@@ -22,7 +22,7 @@
    "hat": "helmet",
    "cap": "#6a6f78",
    "belt": "#2a2218",
-   "uniforme_fixo": true
+   "rifle": true
   },
   "POV": {
    "jacket": "#7a9ac2",
@@ -64,7 +64,7 @@
    ],
    "mapa": "ITÁLIA",
    "mapa_at": 6,
-   "say": "Módena e Bolonha se odiavam havia séculos. Uma apoiava o imperador, a outra, o papa, e qualquer desculpa servia para implicar com o vizinho.",
+   "say": "Módena e Bolonha se odiavam havia séculos. Uma apoiava o imperador, a outra, o papa, e qualquer desculpa servia para brigar.",
    "tiros": false
   },
   {
@@ -84,21 +84,14 @@
    ],
    "props": [
     [
-     "kit/well",
-     2.2,
-     -1.2,
-     1.1
-    ],
-    [
-     "tools/bucket",
-     0.4,
+     "barrel",
+     2.4,
      0.6,
-     2.0
+     1.1
     ]
    ],
    "text": "O BALDE",
-   "say": "Não roubaram ouro, nem armas. Levaram o balde velho do poço da praça, e voltaram para casa rindo.",
-   "crowd": false
+   "say": "Não roubaram ouro, nem armas. Levaram o balde velho do poço da praça, e voltaram para casa rindo."
   },
   {
    "shot": "close",
@@ -107,8 +100,7 @@
    ],
    "interior": "pedra",
    "hora": "dia",
-   "say": "\"Devolvam o nosso balde\", exigiu Bolonha. \"Venham buscar\", respondeu Módena.",
-   "acao": "discutir"
+   "say": "\"Devolvam o nosso balde\", exigiu Bolonha. \"Venham buscar\", respondeu Módena."
   },
   {
    "shot": "reveal",
@@ -123,7 +115,7 @@
     ],
     "march": true
    },
-   "text": "30.000",
+   "text": "32.000",
    "titulo": true,
    "say": "Bolonha juntou um exército de trinta mil homens, e marchou contra a vizinha."
   },
@@ -144,16 +136,18 @@
    ],
    "batalha": true,
    "crowd": {
-    "n": 24,
+    "n": 18,
     "outfits": [
      "MOD",
      "BOL"
     ],
-    "march": true,
-    "expr": "angry"
+    "march": false,
+    "expr": "shock"
    },
    "say": "Acontece que, numa única tarde de batalha, os sete mil atacaram de surpresa, e o exército gigante fugiu correndo.",
-   "tiros": false
+   "verbos_ok": [
+    "corre"
+   ]
   },
   {
    "shot": "two",
@@ -162,27 +156,16 @@
     "MOD:1:grin"
    ],
    "tiros": false,
-   "say": "Módena perseguiu os inimigos até as portas da cidade de Bolonha, e ainda zombou deles do lado de fora.",
-   "acao": "comemorar",
-   "crowd": {
-    "n": 8,
-    "outfits": [
-     "MOD"
-    ],
-    "march": true
-   },
-   "batalha": false
+   "say": "Módena perseguiu os inimigos até os portões de Bolonha, e ainda zombou deles do lado de fora."
   },
   {
    "shot": "close",
    "who": [
-    "MOD:0:grin:bag",
-    "MOD:0:grin"
+    "MOD:0:grin:bag"
    ],
    "tiros": false,
    "text": "700 ANOS",
-   "say": "O balde nunca foi devolvido. Está guardado em Módena até hoje, setecentos anos depois.",
-   "acao": "comemorar"
+   "say": "O balde nunca foi devolvido. Está guardado em Módena até hoje, setecentos anos depois."
   }
  ]
 }

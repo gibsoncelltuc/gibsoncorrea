@@ -6,11 +6,11 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | interior loja | two | 2 | conversar, INTERAGEM: aproxima-se | kit/helicopter_air | - | -
 b1 | street | reveal | 8 | reagir | buildings/apartment, buildings/house_two, nature/lamppost | - | -
-b2 | countryside | two | 2 | discutir, INTERAGEM: discutir | - | - | -
+b2 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | - | - | -
 b3 | interior loja | two | 2 | conversar, INTERAGEM: cochichar | - | paper | -
 b4 | countryside | crowd | 17 | batalha | kit/helicopter_air | - | -
-b5 | harbor | low | 1 | conversar | kit/helicopter_air | - | -
-b6 | harbor | low | 2 | conversar, INTERAGEM: empurrar | - | - | -
+b5 | countryside | low | 1 | reagir | kit/helicopter_air | - | -
+b6 | countryside | low | 2 | conversar, INTERAGEM: empurrar | - | - | -
 b7 | interior loja | two | 2 | conversar, INTERAGEM: avanca e o outro recua | - | - | -
 b8 | street | two | 2 | conversar, INTERAGEM: entregar | kit/scroll, vehicles/airplane | - | -
 b9 | street | orbit | 21 | reagir, batalha | - | - | -

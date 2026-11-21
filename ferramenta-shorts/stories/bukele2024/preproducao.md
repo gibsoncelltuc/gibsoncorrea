@@ -8,7 +8,7 @@ b0 | interior hospital | two | 2 | conversar, INTERAGEM: o outro se aproxima | k
 b1 | jungle | reveal | 8 | parados (so fala e pisca) | kit/volcano | - | -
 b2 | interior loja | two | 2 | conversar, INTERAGEM: insiste, alguem chega andando | - | - | -
 b3 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | kit/scroll | paper | -
-b4 | jungle | crowd | 14 | reagir, batalha | kit/volcano | paper | -
+b4 | jungle | crowd | 14 | conversar, batalha | kit/volcano | paper | -
 b5 | jungle | two | 2 | conversar, INTERAGEM: entregar | kit/ballot_box, kit/volcano | - | -
 b6 | interior loja | close | 1 | reagir | - | paper | -
 b7 | street | crowd | 33 | comemorar, batalha | kit/ballot_box, kit/volcano | - | -
