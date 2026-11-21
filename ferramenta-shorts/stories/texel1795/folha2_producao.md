@@ -4,8 +4,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Em mil setecentos e noventa e cinco, a França invadia a Holanda, e faz...
 - Cenario: arctic | luz: arctic | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (0): -
 - Animacao: conversar
 - Objetos/modelos: ship
@@ -104,7 +104,7 @@ horse | b3, b4, b5, b7 | pronto | conferir na folha de contato se le bem; se par
 
 
 ## Video inteiro
-- Objeto heroi: kit/navio_vapor | grandes momentos: b5, b6 | planos abertos: 4 | mistura: close 17% | medio 48% | aberto 29% | detalhe 6%
+- Objeto heroi: - | grandes momentos: b5, b6 | planos abertos: 4 | mistura: close 17% | medio 52% | aberto 29% | detalhe 2%
 - Interacoes: b3 aproxima-se, b7 avanca e o outro recua
 - RISCOS GERAIS: nenhum
 

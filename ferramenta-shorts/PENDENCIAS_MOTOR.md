@@ -1,1 +1,2 @@
 - motor: elefante 3D numa cena de 1 pessoa puxa o enquadramento (paris1870 b4, 20/11) -> investigar camera/fit com animal grande
+- 21/11: faltam casas AMERICANAS do inicio do seculo XIX (1800-1850) no pacote de regioes (Goodyear 1839, Aroostook 1838, Toledo 1835): hoje usa 'europa' (tijolo com escada de incendio e caixa-d'agua, um pouco avancado para a epoca). Modelar 3 predios (casa de madeira branca com venezianas, casa de tijolo federal, armazem) em blender/objetos_regioes.py a partir de fotos de referencia reais e cadastrar _REG_PAIS/_REG_N/_REG_CHAO como 'eua_antigo'.

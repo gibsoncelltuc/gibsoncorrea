@@ -162,7 +162,7 @@
      1.2
     ]
    ],
-   "detalhe": true,
+   "detalhe": false,
    "impact": false,
    "shot_lock": true,
    "animais": false,
@@ -203,6 +203,6 @@
    "mood": "calm"
   }
  ],
- "heroi": "kit/panela",
+ "heroi": null,
  "exp": 1.0
 }

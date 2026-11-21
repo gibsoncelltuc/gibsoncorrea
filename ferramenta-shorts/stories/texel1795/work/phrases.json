@@ -1,7 +1,7 @@
 {
- "duration": 45.312,
- "frames30": 1359,
- "source": "silence-align (cost 0.23)",
+ "duration": 45.696,
+ "frames30": 1371,
+ "source": "silence-align (cost 0.24)",
  "segments": [
   [
    0.150208,
@@ -13,10 +13,10 @@
   ],
   [
    3.62213,
-   4.97521
+   4.98983
   ],
   [
-   5.83379,
+   5.83383,
    8.3595
   ],
   [
@@ -37,7 +37,7 @@
   ],
   [
    16.3517,
-   17.8509
+   17.8495
   ],
   [
    18.098,
@@ -48,40 +48,40 @@
    19.7353
   ],
   [
-   20.5992,
-   22.2915
+   20.6066,
+   22.663
   ],
   [
-   22.5471,
-   23.8069
+   22.9243,
+   24.1628
   ],
   [
-   24.6613,
-   26.1801
+   25.0249,
+   26.5425
   ],
   [
-   26.4697,
-   27.9607
+   26.8334,
+   28.3243
   ],
   [
-   28.2826,
-   31.1206
+   28.6462,
+   31.4843
   ],
   [
-   31.9767,
-   34.4754
+   32.3404,
+   34.844
   ],
   [
-   34.7462,
-   35.8353
+   35.1098,
+   36.199
   ],
   [
-   36.7418,
-   40.151
+   37.1014,
+   40.5082
   ],
   [
-   40.9921,
-   44.523
+   41.3558,
+   44.8865
   ]
  ],
  "phrases": [
@@ -98,7 +98,7 @@
   {
    "text": "e fazia um frio absurdo.",
    "s": 3.622,
-   "e": 4.975
+   "e": 4.99
   },
   {
    "text": "A frota holandesa estava ancorada perto de Den Helder,",
@@ -128,7 +128,7 @@
   {
    "text": "os franceses tinham cavalaria,",
    "s": 16.352,
-   "e": 17.851
+   "e": 17.849
   },
   {
    "text": "os hussardos,",
@@ -141,49 +141,49 @@
    "e": 19.735
   },
   {
-   "text": "O comandante teve uma ideia maluca:",
-   "s": 20.599,
-   "e": 22.291
+   "text": "O chefe da cavalaria teve uma ideia maluca:",
+   "s": 20.607,
+   "e": 22.663
   },
   {
    "text": "atacar a frota a cavalo.",
-   "s": 22.547,
-   "e": 23.807
+   "s": 22.924,
+   "e": 24.163
   },
   {
    "text": "Na noite de vinte e tr\u00eas de janeiro,",
-   "s": 24.661,
-   "e": 26.18
+   "s": 25.025,
+   "e": 26.543
   },
   {
    "text": "os hussardos atravessaram o gelo,",
-   "s": 26.47,
-   "e": 27.961
+   "s": 26.833,
+   "e": 28.324
   },
   {
    "text": "com panos nos cascos dos cavalos para n\u00e3o fazer barulho.",
-   "s": 28.283,
-   "e": 31.121
+   "s": 28.646,
+   "e": 31.484
   },
   {
    "text": "Os marinheiros holandeses viram a cavalaria chegar,",
-   "s": 31.977,
-   "e": 34.475
+   "s": 32.34,
+   "e": 34.844
   },
   {
    "text": "e a frota se rendeu.",
-   "s": 34.746,
-   "e": 35.835
+   "s": 35.11,
+   "e": 36.199
   },
   {
    "text": "Foram mais de uma dezena de navios capturados por soldados a cavalo.",
-   "s": 36.742,
-   "e": 40.151
+   "s": 37.101,
+   "e": 40.508
   },
   {
    "text": "Dizem que foi a \u00fanica vez na hist\u00f3ria em que uma cavalaria capturou uma frota.",
-   "s": 40.992,
-   "e": 44.523
+   "s": 41.356,
+   "e": 44.886
   }
  ]
 }

@@ -1,7 +1,7 @@
 {
  "duration": 48.984,
  "frames30": 1470,
- "source": "silence-align (cost 0.58)",
+ "source": "silence-align (cost 0.57)",
  "segments": [
   [
    0.163708,
@@ -53,7 +53,7 @@
   ],
   [
    24.8585,
-   25.9004
+   25.9002
   ],
   [
    26.2212,
@@ -61,7 +61,7 @@
   ],
   [
    28.7799,
-   29.9453
+   29.9397
   ],
   [
    30.2044,
@@ -170,7 +170,7 @@
   {
    "text": "Duas semanas antes,",
    "s": 28.78,
-   "e": 29.945
+   "e": 29.94
   },
   {
    "text": "uma frota tinha evacuado cerca de cinco mil homens,",

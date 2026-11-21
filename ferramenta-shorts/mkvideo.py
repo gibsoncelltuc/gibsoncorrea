@@ -121,7 +121,7 @@ if REGIAO is None:
     _rt = __import__('unicodedata').normalize('NFKD', (' '.join(str(b_.get('mapa') or '') for b_ in B['beats']) + ' ' + B.get('title', '') + ' ' + ' '.join(b_['say'] for b_ in B['beats'][:4])).lower()).encode('ascii', 'ignore').decode()
     REGIAO = next((r_ for r_, rx_ in _REG_PAIS if re.search(rx_, _rt)), None)
     _ano = re.search(r'(?<![0-9])(1[0-9]{3}|20[0-9]{2})(?![0-9])', B.get('title', '') + ' ' + ID)   # 19/11: 'toledo1835' nao casava com \b (cidade de 1835 ganhava predio moderno dos EUA)
-    if REGIAO == 'eua' and _ano and int(_ano.group(1)) < 1850: REGIAO = 'colonial'
+    if REGIAO == 'eua' and _ano and int(_ano.group(1)) < 1850: REGIAO = 'europa'   # 21/11: EUA antes de 1850 = casas europeias antigas (antes saia 'colonial' = casas amarelas latinas com cupula, e o 'eua' = predios de tijolo modernos)
     if REGIAO in ('europa', None) and _ano and int(_ano.group(1)) < 500 and re.search(r'roma|grec|cesar|gladiad', _rt): REGIAO = 'classico'
 _regmap = {}
 if REGIAO in _REG_N:

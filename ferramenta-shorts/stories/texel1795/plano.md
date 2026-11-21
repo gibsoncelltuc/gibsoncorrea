@@ -12,5 +12,5 @@ b6 | orbit | arctic  | batalha aberta com tiros, tropa, placa: RENDIDOS | tiros:
 b7 | group | -  | tropa, animais | - | -
 b8 | close | -  | interior, placa: CAVALARIA 1 X 0 MARINHA | encena: prende (push) @12 (acao + som de efeito) | -
 
-Mistura de planos: close 17% | medio 48% | aberto 29% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 17% | medio 52% | aberto 29% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | dentro do padrao do canal

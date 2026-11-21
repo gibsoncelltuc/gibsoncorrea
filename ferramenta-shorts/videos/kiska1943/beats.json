@@ -134,14 +134,16 @@
   },
   {
    "say": "Mas teve um problema: os japoneses já tinham ido embora.",
-   "shot": "close",
+   "shot": "group",
    "who": [
     "USA:1:shock"
    ],
    "text": "ILHA VAZIA",
    "tat": 10,
    "tstyle": "red",
-   "light": "overcast"
+   "light": "overcast",
+   "detalhe": false,
+   "shot_lock": true
   },
   {
    "say": "Duas semanas antes, uma frota tinha evacuado cerca de cinco mil homens, escondida na neblina.",
@@ -187,7 +189,9 @@
    "tstyle": "red",
    "light": "overcast",
    "mood": "tense",
-   "set": "countryside"
+   "set": "countryside",
+   "detalhe": false,
+   "shot_lock": true
   },
   {
    "say": "No fim, só acharam na ilha alguns cachorros abandonados.",
@@ -224,5 +228,7 @@
    "set": "harbor"
   }
  ],
- "heroi": "kit/dog_sit"
+ "heroi": "kit/dog_sit",
+ "cinf": 1.5,
+ "exp": 1.404
 }

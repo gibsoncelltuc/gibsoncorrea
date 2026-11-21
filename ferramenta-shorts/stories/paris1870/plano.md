@@ -12,5 +12,5 @@ b6 | close | -  | animais, placa: GATO COM RATOS | - | -
 b7 | crowd | -  | batalha aberta com tiros, tropa, placa: BALÕES E POMBOS | - | -
 b8 | close | dusk  | placa: PARIS SE RENDEU | encena: rende (up) @15 (acao + som de efeito) | -
 
-Mistura de planos: close 28% | medio 63% | aberto 5% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 2 | dentro do padrao do canal
+Mistura de planos: close 28% | medio 66% | aberto 5% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 2 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
