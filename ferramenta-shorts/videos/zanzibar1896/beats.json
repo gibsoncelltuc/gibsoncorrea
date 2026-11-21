@@ -183,7 +183,11 @@
     "thump@40"
    ],
    "text": "9:40",
-   "say": "Às nove e quarenta, o palácio se rendeu, e os canhões pararam."
+   "say": "Às nove e quarenta, o palácio se rendeu, e o barulho parou.",
+   "cavalaria": false,
+   "batalha": false,
+   "impact": false,
+   "tiros": false
   },
   {
    "shot": "group",
@@ -203,5 +207,6 @@
    "interior": "pedra"
   }
  ],
- "exp": 0.9
+ "exp": 0.9,
+ "heroi": "kit/throne"
 }

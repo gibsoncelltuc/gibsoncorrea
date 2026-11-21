@@ -2,7 +2,7 @@
 Cenas 100% fieis: 11/11 (100%). Lacunas: 0
 
 ## b0 OK - A guerra mais curta da história durou menos que um almoço.
-- na tela: set=['street'] animais=[] objetos=['cannon', 'marco_zanzibar'] atores=6 acoes_folha3=[]
+- na tela: set=['street'] animais=[] objetos=['marco_zanzibar', 'throne'] atores=6 acoes_folha3=[]
 ## b1 OK - Era em Zanzibar, uma ilha da costa da África, controlada pela Inglaterra.
 - na tela: set=['street'] animais=[] objetos=['marco_zanzibar'] atores=10 acoes_folha3=[]
 ## b2 OK - O sultão morreu de repente, e um primo dele correu para o palácio, e se sentou no trono sem pedir licença.
@@ -17,9 +17,9 @@ Cenas 100% fieis: 11/11 (100%). Lacunas: 0
 - na tela: set=['street'] animais=[] objetos=['castle_tower', 'fire', 'ship'] atores=22 acoes_folha3=['abriram', 'fogo', 'fogo', 'fogo']
 ## b7 OK - O sultão fugiu pela porta dos fundos, e foi pedir abrigo no consulado da Alemanha.
 - na tela: set=['street'] animais=[] objetos=['bench', 'house_two', 'lamppost', 'marco_zanzibar'] atores=2 acoes_folha3=['fugiu', 'fugiu']
-## b8 OK - Às nove e quarenta, o palácio se rendeu, e os canhões pararam.
-- na tela: set=['hall'] animais=['horse_sela'] objetos=['cannon', 'castle_tower'] atores=26 acoes_folha3=['rendeu', 'canhões', 'canhões']
+## b8 OK - Às nove e quarenta, o palácio se rendeu, e o barulho parou.
+- na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_africa_stone'] atores=2 acoes_folha3=['rendeu']
 ## b9 OK - Trinta e oito minutos. No mesmo dia, os ingleses colocaram outro sultão no trono.
-- na tela: set=['medieval'] animais=[] objetos=['marco_zanzibar'] atores=3 acoes_folha3=['colocaram']
+- na tela: set=['medieval'] animais=['horse_sela'] objetos=['marco_zanzibar'] atores=19 acoes_folha3=['colocaram']
 ## b10 OK - E ainda mandaram a conta das balas para Zanzibar.
-- na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'cannon', 'room_africa_stone'] atores=1 acoes_folha3=['mandaram', 'balas', 'balas']
+- na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_africa_stone', 'throne'] atores=1 acoes_folha3=['mandaram', 'balas', 'balas']

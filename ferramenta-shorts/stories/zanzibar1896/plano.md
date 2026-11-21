@@ -10,9 +10,9 @@ b4 | crowd | -  | batalha aberta com tiros, tropa, placa: 3.000 | tiros: 5 solda
 b5 | close | -  | interior | - | -
 b6 | crowd | -  | tropa, placa: 9:02 | fogo (burst + som de tiro/explosao); fogo (burst + som de tiro/explosao); encena: x_abre (push) @9 (acao + som de efeito); encena: calor (reach) @10 (acao + som de efeito) | -
 b7 | track | -  | - | fugiu (dust + som de impacto); encena: corre @2 (acao + som de efeito) | -
-b8 | orbit | -  | batalha aberta com tiros, tropa, placa: 9:40, objeto na mao | cavalaria: 4 soldados a cavalo (GUA) (acao + som de efeito); tiros: 5 soldados caem no chao (acao + som de efeito); canhões (burst + som de tiro/explosao); encena: rende (up) @7 (acao + som de efeito); encena: atira @10 (acao + som de efeito); explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) (acao + som de efeito) | -
-b9 | group | -  | - | encena: g_colocara (reach) @9 (acao + som de efeito) | -
+b8 | two | -  | interior, placa: 9:40, objeto na mao | encena: rende (up) @7 (acao + som de efeito) | -
+b9 | crowd | -  | batalha aberta com tiros, tropa | cavalaria: 4 soldados a cavalo (ING) (acao + som de efeito); tiros: 4 soldados caem no chao (acao + som de efeito); encena: g_colocara (reach) @9 (acao + som de efeito) | -
 b10 | close | -  | interior | balas (burst + som de tiro/explosao); encena: g_mandaram (reach) @2 (acao + som de efeito); encena: atira @6 (acao + som de efeito) | -
 
-Mistura de planos: close 14% | medio 59% | aberto 25% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 14% | medio 59% | aberto 26% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 08 - A Guerra de 38 Minutos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 50 acoes catalogadas, 50 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 48 acoes catalogadas, 48 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.5s - 11 palavras - plano two
@@ -87,28 +87,26 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | fugiu (38.3s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
 | 3 | - | ATUACAO | discutir | OK |
 
-## Cena b8 - 42.8s a 46.1s - 12 palavras - plano orbit
-> "Às nove e quarenta, o palácio se rendeu, e os canhões pararam."
+## Cena b8 - 42.8s a 46.1s - 12 palavras - plano two
+> "Às nove e quarenta, o palácio se rendeu, e o barulho parou."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | rendeu (44.8s) | ACAO: rende | maos para cima (rendicao) | OK |
-| 2 | canhões (45.8s) | EFEITO: burst | estouro/clarao + som | OK |
-| 3 | canhões (45.8s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 4 | - | CENA | cavalaria: 4 soldados a cavalo (GUA) | OK |
-| 5 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 6 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
-| 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
-| 8 | - | PLACA | 9:40 | OK |
+| 2 | - | INTERACAO | vai ate o outro | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | 9:40 | OK |
 
-## Cena b9 - 47.3s a 52.0s - 14 palavras - plano group
+## Cena b9 - 47.3s a 52.0s - 14 palavras - plano crowd
 > "Trinta e oito minutos. No mesmo dia, os ingleses colocaram outro sultão no trono."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | colocaram (50.8s) | ACAO: g_colocara | g_colocara | OK |
-| 2 | - | INTERACAO | vai ate o outro | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 2 | - | CENA | cavalaria: 4 soldados a cavalo (ING) | OK |
+| 3 | - | CENA | tiros: 4 soldados caem no chao | OK |
+| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
 ## Cena b10 - 53.2s a 55.3s - 9 palavras - plano close
 > "E ainda mandaram a conta das balas para Zanzibar."
