@@ -18,6 +18,6 @@ Cenas 100% fieis: 10/10 (100%). Lacunas: 0
 ## b7 OK - O Roadster saiu da órbita da Terra, e seguiu em órbita ao redor do Sol.
 - na tela: set=['arctic'] animais=[] objetos=['globe', 'roadster'] atores=6 acoes_folha3=['saiu', 'seguiu']
 ## b8 OK - E ele continua lá em cima, dando voltas, até hoje.
-- na tela: set=['arctic'] animais=[] objetos=['roadster'] atores=2 acoes_folha3=[]
+- na tela: set=['arctic'] animais=[] objetos=['globe', 'roadster'] atores=2 acoes_folha3=[]
 ## b9 OK - Um Roadster, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço.
 - na tela: set=['arctic'] animais=[] objetos=['roadster', 'rocket'] atores=21 acoes_folha3=[]
