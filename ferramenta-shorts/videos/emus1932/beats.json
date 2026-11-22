@@ -132,7 +132,7 @@
   },
   {
    "say": "Acontece que emu é rápido, e não fica parado. Os soldados atiravam, e os pássaros se espalhavam pela fazenda, sumindo na poeira.",
-   "shot": "group",
+   "shot": "crowd",
    "who": [
     "AUS:0:stern",
     "AUS:1:stern"

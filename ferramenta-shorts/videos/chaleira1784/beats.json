@@ -72,7 +72,15 @@
     "HOL:0:grin"
    ],
    "text": "1784",
-   "say": "Uma guerra inteira teve um único tiro, e ele acertou uma chaleira de sopa."
+   "say": "Uma guerra inteira teve um único tiro, e ele acertou uma chaleira de sopa.",
+   "props": [
+    [
+     "kit/kettle",
+     0.0,
+     -1.2,
+     1.4
+    ]
+   ]
   },
   {
    "shot": "reveal",

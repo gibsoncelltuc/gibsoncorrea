@@ -68,13 +68,22 @@
     "TRU:0:stern",
     "GEN:0:stern"
    ],
-   "interior": "pedra",
+   "interior": false,
    "props": [
     [
      "kit/helicopter_air",
-     0,
-     -7.0,
-     2.2
+     2.0,
+     -6,
+     1.6,
+     {
+      "y": -2.0
+     }
+    ],
+    [
+     "kit/scroll",
+     1.5,
+     -0.5,
+     1.2
     ]
    ],
    "text": "2026",
@@ -84,7 +93,9 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Numa madrugada de janeiro de dois mil e vinte e seis, Trump autorizou uma das operações militares mais ousadas dos últimos anos."
+   "say": "Numa madrugada de janeiro de dois mil e vinte e seis, Trump autorizou uma das operações militares mais ousadas dos últimos anos.",
+   "set": "outback",
+   "detalhe": false
   },
   {
    "shot": "reveal",

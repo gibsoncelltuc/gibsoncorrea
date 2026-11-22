@@ -68,7 +68,15 @@
     "GUA:0:stern"
    ],
    "text": "1896",
-   "say": "A guerra mais curta da história durou menos que um almoço."
+   "say": "A guerra mais curta da história durou menos que um almoço.",
+   "props": [
+    [
+     "kit/throne",
+     2.0,
+     -2.5,
+     1.3
+    ]
+   ]
   },
   {
    "shot": "two",
