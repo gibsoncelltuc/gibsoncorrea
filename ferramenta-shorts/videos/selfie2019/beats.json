@@ -71,7 +71,9 @@
     "march": false,
     "expr": "neutral"
    },
-   "impact": true
+   "impact": false,
+   "batalha": false,
+   "tiros": false
   },
   {
    "shot": "two",
@@ -220,7 +222,8 @@
    ],
    "text": "SELFIE",
    "titulo": true,
-   "say": "E ele tinha razão. A foto rodou o planeta em poucas horas."
+   "say": "E ele tinha razão. A foto rodou o planeta em poucas horas.",
+   "impact": true
   },
   {
    "shot": "two",

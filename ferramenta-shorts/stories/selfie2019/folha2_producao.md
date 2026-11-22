@@ -5,9 +5,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b0 - Um presidente chegou ao púlpito mais importante do mundo, e antes de f...
 - Cenario: palace | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): BUK (variante 0, expressao grin); DIP (variante 0, expressao surprised) | multidao: 16 de POV
-- Animacao: encena | batalha encenada
+- Animacao: encena
 - Objetos/modelos: mk/BookStand, kit/marco_onu, kit/phone
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): falar, presidente, selfie
 - RISCOS: nenhum
@@ -124,7 +124,7 @@ kit/globe | b7 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/phone | grandes momentos: b0, b5, b7 | planos abertos: 3 | mistura: close 22% | medio 67% | aberto 9% | detalhe 3%
+- Objeto heroi: kit/phone | grandes momentos: b5, b7 | planos abertos: 3 | mistura: close 20% | medio 66% | aberto 12% | detalhe 3%
 - Interacoes: b1 avanca e o outro recua, b2 discutir, b3 cochichar, b6 pular, b8 susto, b9 o outro se aproxima
 - RISCOS GERAIS: nenhum
 

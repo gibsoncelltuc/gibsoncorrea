@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | reveal | -  | batalha aberta com tiros, tropa, placa: 2019 | tiros: 5 soldados caem no chao (acao + som de efeito); chegou (dust + som de impacto); encena: chega (point) @2 (acao + som de efeito); encena: tira (lift) @13 (acao + som de efeito) | -
+b0 | reveal | -  | tropa, placa: 2019 | chegou (dust + som de impacto); encena: chega (point) @2 (acao + som de efeito); encena: tira (lift) @13 (acao + som de efeito) | -
 b1 | two | -  | interior, placa: ONU - NOVA YORK, mapa | - | -
 b2 | two | -  | interior, objeto na mao | - | -
 b3 | two | -  | interior | - | -
@@ -14,5 +14,5 @@ b8 | two | -  | interior, objeto na mao | encena: olha (point) @1 (acao + som de
 b9 | two | -  | interior | encena: g_defendeu (point) @3 (acao + som de efeito); encena: x_fone (lift) @16 (acao + som de efeito) | -
 b10 | close | -  | interior | encena: tira (lift) @1 (acao + som de efeito) | -
 
-Mistura de planos: close 22% | medio 67% | aberto 9% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 20% | medio 66% | aberto 12% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

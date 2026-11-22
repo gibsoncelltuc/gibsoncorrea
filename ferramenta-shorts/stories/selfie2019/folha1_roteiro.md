@@ -4,9 +4,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 
 ## Cena b0  (~5.5 s)
 - Narracao: Um presidente chegou ao púlpito mais importante do mundo, e antes de falar, tirou uma selfie.
-- Som ambiente: birds | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: ding@30, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160
-- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; chegou -> dust + som de impacto; encena: chega (point) @2 -> acao + som de efeito; encena: tira (lift) @13 -> acao + som de efeito
+- Som ambiente: birds
+- Efeitos sonoros marcados: ding@30
+- Efeito + som nas palavras-chave: chegou -> dust + som de impacto; encena: chega (point) @2 -> acao + som de efeito; encena: tira (lift) @13 -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 2019
 - Funcao na historia: GANCHO

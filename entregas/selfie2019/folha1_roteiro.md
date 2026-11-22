@@ -1,12 +1,12 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 28 - A Selfie na ONU
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 157 palavras (~54 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace | 11 cenas, 157 palavras (~54 s)
 
 ## Cena b0  (~5.5 s)
 - Narracao: Um presidente chegou ao púlpito mais importante do mundo, e antes de falar, tirou uma selfie.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: chegou -> dust + som de impacto; encena: chega (point) @2 -> acao + som de efeito; encena: tira (lift) @13 -> acao + som de efeito
+- Som ambiente: birds | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: ding@30, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160
+- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; chegou -> dust + som de impacto; encena: chega (point) @2 -> acao + som de efeito; encena: tira (lift) @13 -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 2019
 - Funcao na historia: GANCHO
@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b4  (~5.9 s)
 - Narracao: Acontece que, no púlpito, ele pediu: só um segundo, por favor. E tirou o celular do bolso.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: ding@20, sting@40
 - Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; encena: tira (lift) @12 -> acao + som de efeito; encena: x_fone (lift) @14 -> acao + som de efeito
 - Efeito visual marcado: stars@20, ring@40
@@ -49,10 +49,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b5  (~4.5 s)
 - Narracao: Virou de costas para o plenário, e tirou uma selfie com todos atrás.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: sting@20
+- Som ambiente: birds
+- Efeitos sonoros marcados: ding@20
 - Efeito + som nas palavras-chave: encena: tira (lift) @7 -> acao + som de efeito
-- Efeito visual marcado: ring@20
+- Efeito visual marcado: burst@20, stars@30
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b7  (~4.1 s)
 - Narracao: E ele tinha razão. A foto rodou o planeta em poucas horas.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: ding@20, ding@60
 - Efeito + som nas palavras-chave: encena: tira (lift) @5 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60

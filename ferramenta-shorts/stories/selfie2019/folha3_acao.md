@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 28 - A Selfie na ONU
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.0s - 16 palavras - plano reveal
@@ -12,9 +12,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | chegou (0.8s) | EFEITO: dust | poeira + som | OK |
 | 2 | chegou (0.8s) | ACAO: chega | entra andando pela lateral | OK |
 | 3 | tirou (4.3s) | ACAO: tira | tira foto (celular + flash) | OK |
-| 4 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 6 | - | PLACA | 2019 | OK |
+| 4 | - | PLACA | 2019 | OK |
 
 ## Cena b1 - 6.0s a 10.0s - 16 palavras - plano two
 > "Foi em setembro de dois mil e dezenove, na Assembleia Geral da ONU, em Nova York."
