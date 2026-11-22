@@ -102,14 +102,7 @@
     "BUK:0:smug",
     "DIP:0:suspicious"
    ],
-   "props": [
-    [
-     "kit/phone",
-     1.6,
-     -0.8,
-     1.1
-    ]
-   ],
+   "props": [],
    "interacao": "cochichar",
    "say": "Nayib Bukele, o novo presidente de El Salvador, tinha só trinta e oito anos.",
    "acao": "comemorar"
@@ -213,14 +206,7 @@
     "march": false,
     "expr": "laugh"
    },
-   "props": [
-    [
-     "kit/phone",
-     0,
-     -3.0,
-     1.6
-    ]
-   ],
+   "props": [],
    "fx": [
     "stars@20",
     "stars@60"
@@ -259,9 +245,12 @@
    "props": [
     [
      "kit/phone",
-     -1.4,
-     -0.8,
-     1.1
+     -1.2,
+     -0.6,
+     1.2,
+     {
+      "y": 1.3
+     }
     ]
    ],
    "acao": "comemorar",
