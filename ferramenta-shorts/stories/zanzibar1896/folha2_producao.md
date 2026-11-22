@@ -62,17 +62,27 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
-## Cena b6 - Acontece que, às nove e dois, os navios ingleses abriram fogo. O palác...
-- Cenario: palace | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+## Cena b6 - Acontece que, às nove e dois, os navios ingleses abriram fogo.
+- Cenario: harbor | luz: day | clima: limpo
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): ING (variante 0, expressao stern); GUA (variante 0, expressao shock) | multidao: 20 de ING/GUA
 - Animacao: reagir
-- Objetos/modelos: kit/fire, navios ao fundo, buildings/castle_tower
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): desabar, madeira, navios, nove, palacio, pegar
+- Objetos/modelos: kit/marco_zanzibar, kit/navio_vapor, kit/fire, navios ao fundo
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): navios, nove
 - RISCOS: nenhum
 
-## Cena b7 - O sultão fugiu pela porta dos fundos, e foi pedir abrigo no consulado ...
+## Cena b7 - O palácio de madeira começou a desabar, e a pegar fogo.
+- Cenario: palace | luz: day | clima: limpo
+- Camera: low = camera baixa, dramatica (virada)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Personagens principais (2): GUA (variante 0, expressao shock); SUL (variante 0, expressao shock)
+- Animacao: conversar | interacao: susto
+- Objetos/modelos: kit/fire, kit/marco_zanzibar
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): desabar, madeira, palacio, pegar
+- RISCOS: nenhum
+
+## Cena b8 - O sultão fugiu pela porta dos fundos, e foi pedir abrigo no consulado ...
 - Cenario: palace | luz: day | clima: limpo
 - Camera: track = travelling lateral acompanhando quem anda
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
@@ -82,7 +92,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alemanha, consulado, fundos, sultao
 - RISCOS: nenhum
 
-## Cena b8 - Às nove e quarenta, o palácio se rendeu, e o barulho parou.
+## Cena b9 - Às nove e quarenta, o palácio se rendeu, e o barulho parou.
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
@@ -92,23 +102,23 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barulho, nove, palacio
 - RISCOS: nenhum
 
-## Cena b9 - Trinta e oito minutos. No mesmo dia, os ingleses colocaram outro sultã...
-- Cenario: medieval | luz: day | clima: limpo
+## Cena b10 - Trinta e oito minutos. No mesmo dia, os ingleses colocaram outro sultã...
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): SUL2 (variante 0, expressao smile); ING (variante 0, expressao grin) | multidao: 12 de POV
 - Animacao: conversar | batalha encenada
-- Objetos/modelos: kit/throne, kit/marco_zanzibar
+- Objetos/modelos: kit/throne, kit/veg_bananeira, kit/marco_zanzibar
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ingleses, trono
 - RISCOS: nenhum
 
-## Cena b10 - E ainda mandaram a conta das balas para Zanzibar.
-- Cenario: interior pedra | luz: day | clima: limpo
+## Cena b11 - E ainda mandaram a conta das balas para Zanzibar.
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): ALM (variante 0, expressao grin)
 - Animacao: reagir
-- Objetos/modelos: -
+- Objetos/modelos: kit/veg_bananeira, kit/marco_zanzibar
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balas
 - RISCOS: nenhum
 
@@ -117,19 +127,20 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/throne | b0, b2, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_zanzibar | b0, b1, b4, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/throne | b0, b2, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_zanzibar | b0, b1, b4, b6, b7, b8, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 cannon | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/fire | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/castle_tower | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/house_two | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/lamppost | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/bench | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/navio_vapor | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/fire | b6, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/house_two | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/lamppost | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/bench | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/veg_bananeira | b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/throne | grandes momentos: b4, b9 | planos abertos: 4 | mistura: close 14% | medio 59% | aberto 26% | detalhe 2%
-- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b3 insiste, b8 vai ate o outro
+- Objeto heroi: kit/throne | grandes momentos: b4, b10 | planos abertos: 4 | mistura: close 14% | medio 69% | aberto 16% | detalhe 2%
+- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b3 insiste, b7 susto, b9 vai ate o outro
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

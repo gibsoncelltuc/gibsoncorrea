@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 08 - A Guerra de 38 Minutos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 45 acoes catalogadas, 45 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 48 acoes catalogadas, 48 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.5s - 11 palavras - plano two
@@ -66,19 +66,28 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 
-## Cena b6 - 29.3s a 36.7s - 22 palavras - plano crowd
-> "Acontece que, às nove e dois, os navios ingleses abriram fogo. O palácio de madeira começou a desabar, e a pegar fogo."
+## Cena b6 - 29.3s a 32.8s - 11 palavras - plano reveal
+> "Acontece que, às nove e dois, os navios ingleses abriram fogo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | abriram (32.4s) | ACAO: x_abre | empurra a porta | OK |
 | 2 | fogo (32.8s) | EFEITO: burst | estouro/clarao + som | OK |
-| 3 | fogo (32.8s) | EFEITO: burst | estouro/clarao + som | OK |
-| 4 | fogo (32.8s) | ACAO: calor | vapor/calor saindo | OK |
-| 5 | - | ATUACAO | reagir | OK |
-| 6 | - | PLACA | 9:02 | OK |
+| 3 | fogo (32.8s) | ACAO: calor | vapor/calor saindo | OK |
+| 4 | - | ATUACAO | reagir | OK |
+| 5 | - | PLACA | 9:02 | OK |
 
-## Cena b7 - 37.8s a 41.5s - 15 palavras - plano track
+## Cena b7 - 34.0s a 36.7s - 11 palavras - plano low
+> "O palácio de madeira começou a desabar, e a pegar fogo."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | fogo (36.7s) | EFEITO: burst | estouro/clarao + som | OK |
+| 2 | fogo (36.7s) | ACAO: calor | vapor/calor saindo | OK |
+| 3 | - | INTERACAO | susto | OK |
+| 4 | - | ATUACAO | conversar | OK |
+
+## Cena b8 - 37.8s a 41.5s - 15 palavras - plano track
 > "O sultão fugiu pela porta dos fundos, e foi pedir abrigo no consulado da Alemanha."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -87,7 +96,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | fugiu (38.3s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
 | 3 | - | ATUACAO | discutir | OK |
 
-## Cena b8 - 42.8s a 46.1s - 12 palavras - plano two
+## Cena b9 - 42.8s a 46.1s - 12 palavras - plano two
 > "Às nove e quarenta, o palácio se rendeu, e o barulho parou."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -97,7 +106,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | 9:40 | OK |
 
-## Cena b9 - 47.2s a 51.9s - 14 palavras - plano crowd
+## Cena b10 - 47.2s a 51.9s - 14 palavras - plano crowd
 > "Trinta e oito minutos. No mesmo dia, os ingleses colocaram outro sultão no trono."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -105,7 +114,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | colocaram (50.6s) | ACAO: g_colocara | g_colocara | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 53.0s a 55.1s - 9 palavras - plano close
+## Cena b11 - 53.0s a 55.1s - 9 palavras - plano close
 > "E ainda mandaram a conta das balas para Zanzibar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

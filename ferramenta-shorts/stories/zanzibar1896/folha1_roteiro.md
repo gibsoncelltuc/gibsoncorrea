@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 08 - A Guerra de 38 Minutos
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: palace | 11 cenas, 152 palavras (~52 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: palace | 12 cenas, 152 palavras (~52 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: A guerra mais curta da história durou menos que um almoço.
@@ -56,16 +56,25 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: palace | 1
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b6  (~7.6 s)
-- Narracao: Acontece que, às nove e dois, os navios ingleses abriram fogo. O palácio de madeira começou a desabar, e a pegar fogo.
-- Som ambiente: birds
+## Cena b6  (~3.8 s)
+- Narracao: Acontece que, às nove e dois, os navios ingleses abriram fogo.
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: fogo -> burst + som de tiro/explosao; fogo -> burst + som de tiro/explosao; encena: x_abre (push) @9 -> acao + som de efeito; encena: calor (reach) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: fogo -> burst + som de tiro/explosao; encena: x_abre (push) @9 -> acao + som de efeito; encena: calor (reach) @10 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 9:02
 - Funcao na historia: VIRADA
 
-## Cena b7  (~5.2 s)
+## Cena b7  (~3.8 s)
+- Narracao: O palácio de madeira começou a desabar, e a pegar fogo.
+- Som ambiente: birds
+- Efeitos sonoros marcados: thump@30, whoosh@18
+- Efeito + som nas palavras-chave: fogo -> burst + som de tiro/explosao; encena: calor (reach) @10 -> acao + som de efeito
+- Efeito visual marcado: dust@30, puff@20, puff@60
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b8  (~5.2 s)
 - Narracao: O sultão fugiu pela porta dos fundos, e foi pedir abrigo no consulado da Alemanha.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
@@ -74,7 +83,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: palace | 1
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~4.1 s)
+## Cena b9  (~4.1 s)
 - Narracao: Às nove e quarenta, o palácio se rendeu, e o barulho parou.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
@@ -83,18 +92,18 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: palace | 1
 - Texto na tela: 9:40
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~4.8 s)
+## Cena b10  (~4.8 s)
 - Narracao: Trinta e oito minutos. No mesmo dia, os ingleses colocaram outro sultão no trono.
-- Som ambiente: birds
+- Som ambiente: sea
 - Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: encena: g_colocara (reach) @9 -> acao + som de efeito
 - Efeito visual marcado: ring@12, dust@40
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b10  (~3.1 s)
+## Cena b11  (~3.1 s)
 - Narracao: E ainda mandaram a conta das balas para Zanzibar.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: balas -> burst + som de tiro/explosao; encena: g_mandaram (reach) @2 -> acao + som de efeito; encena: atira @6 -> acao + som de efeito
 - Efeito visual marcado: -
