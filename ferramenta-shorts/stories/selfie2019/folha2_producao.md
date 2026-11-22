@@ -3,12 +3,12 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/selfie2019/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py selfie2019` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Um presidente chegou ao púlpito mais importante do mundo, e antes de f...
-- Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): BUK (variante 0, expressao grin); DIP (variante 0, expressao surprised)
-- Animacao: conversar | interacao: avanca e o outro recua | o ultimo personagem ENTRA andando
-- Objetos/modelos: kit/phone, kit/marco_onu
+- Cenario: palace | luz: day | clima: limpo
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (2): BUK (variante 0, expressao grin); DIP (variante 0, expressao surprised) | multidao: 16 de POV
+- Animacao: encena | batalha encenada
+- Objetos/modelos: mk/BookStand, kit/marco_onu, kit/phone
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): falar, presidente, selfie
 - RISCOS: nenhum
 
@@ -17,7 +17,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin)
-- Animacao: conversar | interacao: o outro se aproxima
+- Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): assembleia, dois
 - RISCOS: nenhum
@@ -43,22 +43,22 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Acontece que, no púlpito, ele pediu: só um segundo, por favor. E tirou...
-- Cenario: interior madeira | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Cenario: palace | luz: day | clima: limpo
+- Camera: low = camera baixa, dramatica (virada) + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): BUK (variante 0, expressao grin)
 - Animacao: reagir
-- Objetos/modelos: kit/phone
+- Objetos/modelos: kit/phone, mk/BookStand, kit/marco_onu
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bolso, celular, pulpito
 - RISCOS: nenhum
 
 ## Cena b5 - Virou de costas para o plenário, e tirou uma selfie com todos atrás.
-- Cenario: street | luz: day | clima: limpo
+- Cenario: palace | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): BUK (variante 0, expressao grin); POV (variante 1, expressao surprised) | multidao: 18 de POV
+- Personagens principais (2): BUK (variante 0, expressao grin); POV (variante 1, expressao surprised) | multidao: 20 de POV
 - Animacao: tirar | batalha encenada
-- Objetos/modelos: kit/phone, kit/marco_onu
+- Objetos/modelos: mk/BookStand, kit/marco_onu, kit/phone
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): costas, plenario, selfie
 - RISCOS: nenhum
 
@@ -73,8 +73,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - E ele tinha razão. A foto rodou o planeta em poucas horas.
-- Cenario: street | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Cenario: palace | luz: day | clima: limpo
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao laugh); POV (variante 1, expressao surprised); REP (variante 0, expressao grin) | multidao: 20 de POV
 - Animacao: comemorar | batalha encenada
@@ -97,7 +97,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): BUK (variante 0, expressao smug); REP (variante 0, expressao surprised)
-- Animacao: conversar | interacao: insiste
+- Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): discurso, internet, reunioes
 - RISCOS: nenhum
@@ -117,14 +117,15 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
+mk/BookStand | b0, b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_onu | b0, b4, b5, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/phone | b0, b3, b4, b5, b6, b7, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_onu | b0, b5, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/globe | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/phone | grandes momentos: b5, b7 | planos abertos: 2 | mistura: close 22% | medio 70% | aberto 5% | detalhe 2%
-- Interacoes: b0 avanca e o outro recua, b1 o outro se aproxima, b2 discutir, b3 cochichar, b6 pular, b8 susto, b9 insiste
+- Objeto heroi: kit/phone | grandes momentos: b0, b5, b7 | planos abertos: 3 | mistura: close 22% | medio 67% | aberto 9% | detalhe 3%
+- Interacoes: b1 avanca e o outro recua, b2 discutir, b3 cochichar, b6 pular, b8 susto, b9 o outro se aproxima
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

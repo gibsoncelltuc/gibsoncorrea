@@ -1,10 +1,10 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 28 - A Selfie na ONU
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 5.0s - 16 palavras - plano two
+## Cena b0 - 0.2s a 5.0s - 16 palavras - plano reveal
 > "Um presidente chegou ao púlpito mais importante do mundo, e antes de falar, tirou uma selfie."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -12,17 +12,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | chegou (0.8s) | EFEITO: dust | poeira + som | OK |
 | 2 | chegou (0.8s) | ACAO: chega | entra andando pela lateral | OK |
 | 3 | tirou (4.3s) | ACAO: tira | tira foto (celular + flash) | OK |
-| 4 | - | INTERACAO | avanca e o outro recua | OK |
-| 5 | - | ATUACAO | conversar | OK |
-| 6 | - | CHEGADA | alguem entra andando | OK |
-| 7 | - | PLACA | 2019 | OK |
+| 4 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 6 | - | PLACA | 2019 | OK |
 
 ## Cena b1 - 6.0s a 10.0s - 16 palavras - plano two
 > "Foi em setembro de dois mil e dezenove, na Assembleia Geral da ONU, em Nova York."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | o outro se aproxima | OK |
+| 1 | - | INTERACAO | avanca e o outro recua | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | MAPA | ESTADOS UNIDOS | OK |
 | 4 | - | PLACA | ONU - NOVA YORK | OK |
@@ -43,7 +42,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | cochichar | OK |
 | 2 | - | ATUACAO | comemorar | OK |
 
-## Cena b4 - 21.4s a 27.8s - 17 palavras - plano close
+## Cena b4 - 21.4s a 27.8s - 17 palavras - plano low
 > "Acontece que, no púlpito, ele pediu: só um segundo, por favor. E tirou o celular do bolso."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -71,7 +70,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | pular | OK |
 | 4 | - | ATUACAO | comemorar | OK |
 
-## Cena b7 - 39.3s a 42.9s - 12 palavras - plano orbit
+## Cena b7 - 39.3s a 42.9s - 12 palavras - plano crowd
 > "E ele tinha razão. A foto rodou o planeta em poucas horas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -96,7 +95,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | defendeu (50.3s) | ACAO: g_defendeu | g_defendeu | OK |
 | 2 | internet (54.3s) | ACAO: x_fone | celular na mao + toque | OK |
-| 3 | - | INTERACAO | insiste | OK |
+| 3 | - | INTERACAO | o outro se aproxima | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b10 - 55.6s a 59.2s - 13 palavras - plano close
