@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Os soviéticos passaram a chamá-lo de Morte Branca.
-- Cenario: mountain | luz: arctic | clima: limpo
+- Cenario: arctic | luz: arctic | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): SOV (variante 1, expressao shock) | multidao: 6 de SOV
