@@ -14,5 +14,5 @@ b8 | two | -  | interior, objeto na mao | encena: olha (point) @4 (acao + som de
 b9 | crowd | -  | batalha aberta com tiros, tropa, placa: 40.000 KM | - | -
 b10 | close | -  | - | - | -
 
-Mistura de planos: close 19% | medio 61% | aberto 14% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 17% | medio 63% | aberto 14% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

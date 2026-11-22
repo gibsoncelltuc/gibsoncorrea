@@ -10,9 +10,9 @@ Cenas 100% fieis: 11/11 (100%). Lacunas: 0
 ## b3 OK - Isso significava que o sol estava bem em cima, e nada fazia sombra.
 - na tela: set=['street'] animais=[] objetos=['marco_alexandria', 'tree_palm', 'well'] atores=6 acoes_folha3=[]
 ## b4 OK - Em Alexandria, no mesmo dia, uma vara fincada no solo fazia uma sombra pequena.
-- na tela: set=['street'] animais=[] objetos=['marco_alexandria', 'stick', 'tree_palm'] atores=6 acoes_folha3=[]
+- na tela: set=['street'] animais=[] objetos=['marco_alexandria', 'stick', 'tree_palm'] atores=2 acoes_folha3=[]
 ## b5 OK - Eratóstenes pensou: "Se a Terra fosse plana, as duas sombras seriam iguais."
-- na tela: set=['street'] animais=[] objetos=['globe', 'marco_alexandria', 'tree_palm'] atores=1 acoes_folha3=['pensou']
+- na tela: set=['street'] animais=[] objetos=['globe', 'marco_alexandria', 'tree_palm'] atores=3 acoes_folha3=['pensou']
 ## b6 OK - Acontece que a sombra era diferente, e isso só podia acontecer se a Terra fosse curva.
 - na tela: set=['street'] animais=[] objetos=['globe', 'marco_alexandria', 'stick', 'tree_palm'] atores=12 acoes_folha3=[]
 ## b7 OK - Ele mediu o ângulo da sombra, e contou os passos entre as duas cidades.

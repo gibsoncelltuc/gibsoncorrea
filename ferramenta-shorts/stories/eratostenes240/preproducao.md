@@ -16,7 +16,7 @@ b8 | interior pedra | two | 2 | conversar, INTERAGEM: cochichar | - | paper | -
 b9 | street | crowd | 16 | comemorar, batalha | kit/globe, nature/tree_palm, kit/marco_alexandria, kit/starlink_sat | - | -
 b10 | palace | close | 1 | comemorar | kit/stick, kit/well, nature/tree_palm, kit/marco_alexandria, tools/bucket, kit/starlink_sat | - | -
 
-OBJETO HEROI: kit/globe - aparece em 4 cena(s), close nele em 1
+OBJETO HEROI: kit/globe - aparece em 4 cena(s), close nele em 2
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b6, b9
 Interacoes entre personagens: b0 o outro se aproxima, b2 insiste, b3 vai ate o outro, b4 aproxima-se, b8 cochichar
 

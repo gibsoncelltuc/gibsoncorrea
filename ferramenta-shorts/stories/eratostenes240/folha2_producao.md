@@ -44,8 +44,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - Em Alexandria, no mesmo dia, uma vara fincada no solo fazia uma sombra...
 - Cenario: street | luz: desert | clima: calor
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): ERA (variante 0, expressao suspicious); BIB (variante 0, expressao neutral)
 - Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/stick, nature/tree_palm, kit/marco_alexandria
@@ -54,8 +54,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Eratóstenes pensou: "Se a Terra fosse plana, as duas sombras seriam ig...
 - Cenario: street | luz: desert | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): ERA (variante 0, expressao suspicious)
 - Animacao: reagir
 - Objetos/modelos: kit/globe, nature/tree_palm, kit/marco_alexandria
@@ -130,7 +130,7 @@ kit/starlink_sat | b9, b10 | pronto | conferir na folha de contato se le bem; se
 
 
 ## Video inteiro
-- Objeto heroi: kit/globe | grandes momentos: b6, b9 | planos abertos: 3 | mistura: close 19% | medio 61% | aberto 14% | detalhe 6%
+- Objeto heroi: kit/globe | grandes momentos: b6, b9 | planos abertos: 3 | mistura: close 17% | medio 63% | aberto 14% | detalhe 6%
 - Interacoes: b0 o outro se aproxima, b2 insiste, b3 vai ate o outro, b4 aproxima-se, b8 cochichar
 - RISCOS GERAIS: nenhum
 
