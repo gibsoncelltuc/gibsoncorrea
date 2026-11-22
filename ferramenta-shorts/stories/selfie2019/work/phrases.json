@@ -1,0 +1,297 @@
+{
+ "duration": 60.528,
+ "frames30": 1816,
+ "source": "silence-align (cost 0.89)",
+ "segments": [
+  [
+   0.159,
+   2.81871
+  ],
+  [
+   3.12383,
+   4.06517
+  ],
+  [
+   4.29362,
+   5.1345
+  ],
+  [
+   6.04375,
+   7.67192
+  ],
+  [
+   7.86163,
+   9.13858
+  ],
+  [
+   9.42321,
+   10.1539
+  ],
+  [
+   10.9938,
+   11.3177
+  ],
+  [
+   11.6805,
+   15.4069
+  ],
+  [
+   16.264,
+   17.1222
+  ],
+  [
+   17.3572,
+   18.8907
+  ],
+  [
+   19.1757,
+   20.5155
+  ],
+  [
+   21.3691,
+   22.2895
+  ],
+  [
+   22.5038,
+   23.0974
+  ],
+  [
+   23.3632,
+   23.9057
+  ],
+  [
+   24.191,
+   24.9305
+  ],
+  [
+   25.2785,
+   25.7493
+  ],
+  [
+   26.5785,
+   28.0595
+  ],
+  [
+   28.9264,
+   30.3523
+  ],
+  [
+   30.6226,
+   32.5363
+  ],
+  [
+   33.393,
+   33.9139
+  ],
+  [
+   34.1337,
+   34.5792
+  ],
+  [
+   34.818,
+   35.3448
+  ],
+  [
+   35.5651,
+   38.4823
+  ],
+  [
+   39.3437,
+   40.2768
+  ],
+  [
+   41.1478,
+   43.1646
+  ],
+  [
+   44.0315,
+   46.1394
+  ],
+  [
+   47.014,
+   48.1859
+  ],
+  [
+   49.0482,
+   49.7374
+  ],
+  [
+   50.0216,
+   51.436
+  ],
+  [
+   51.7401,
+   54.7178
+  ],
+  [
+   55.5785,
+   56.7188
+  ],
+  [
+   57.028,
+   59.7276
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um presidente chegou ao p\u00falpito mais importante do mundo,",
+   "s": 0.159,
+   "e": 2.819
+  },
+  {
+   "text": "e antes de falar,",
+   "s": 3.124,
+   "e": 4.065
+  },
+  {
+   "text": "tirou uma selfie.",
+   "s": 4.294,
+   "e": 5.135
+  },
+  {
+   "text": "Foi em setembro de dois mil e dezenove,",
+   "s": 6.044,
+   "e": 7.672
+  },
+  {
+   "text": "na Assembleia Geral da ONU,",
+   "s": 7.862,
+   "e": 9.139
+  },
+  {
+   "text": "em Nova York.",
+   "s": 9.423,
+   "e": 10.154
+  },
+  {
+   "text": "Ali,",
+   "s": 10.994,
+   "e": 11.318
+  },
+  {
+   "text": "os l\u00edderes de quase todos os pa\u00edses fazem discursos longos e s\u00e9rios.",
+   "s": 11.681,
+   "e": 15.407
+  },
+  {
+   "text": "Nayib Bukele,",
+   "s": 16.264,
+   "e": 17.122
+  },
+  {
+   "text": "o novo presidente de El Salvador,",
+   "s": 17.357,
+   "e": 18.891
+  },
+  {
+   "text": "tinha s\u00f3 trinta e oito anos.",
+   "s": 19.176,
+   "e": 20.515
+  },
+  {
+   "text": "Acontece que,",
+   "s": 21.369,
+   "e": 22.29
+  },
+  {
+   "text": "no p\u00falpito,",
+   "s": 22.504,
+   "e": 23.097
+  },
+  {
+   "text": "ele pediu:",
+   "s": 23.363,
+   "e": 23.906
+  },
+  {
+   "text": "s\u00f3 um segundo,",
+   "s": 24.191,
+   "e": 24.93
+  },
+  {
+   "text": "por favor.",
+   "s": 25.279,
+   "e": 25.749
+  },
+  {
+   "text": "E tirou o celular do bolso.",
+   "s": 26.578,
+   "e": 28.059
+  },
+  {
+   "text": "Virou de costas para o plen\u00e1rio,",
+   "s": 28.926,
+   "e": 30.352
+  },
+  {
+   "text": "e tirou uma selfie com todos atr\u00e1s.",
+   "s": 30.623,
+   "e": 32.536
+  },
+  {
+   "text": "Depois,",
+   "s": 33.393,
+   "e": 33.914
+  },
+  {
+   "text": "brincou:",
+   "s": 34.134,
+   "e": 34.579
+  },
+  {
+   "text": "acreditem,",
+   "s": 34.818,
+   "e": 35.345
+  },
+  {
+   "text": "muito mais gente vai ver essa selfie do que ouvir este discurso.",
+   "s": 35.565,
+   "e": 38.482
+  },
+  {
+   "text": "E ele tinha raz\u00e3o.",
+   "s": 39.344,
+   "e": 40.277
+  },
+  {
+   "text": "A foto rodou o planeta em poucas horas.",
+   "s": 41.148,
+   "e": 43.165
+  },
+  {
+   "text": "Alguns acharam falta de respeito com a ONU.",
+   "s": 44.032,
+   "e": 46.139
+  },
+  {
+   "text": "Outros acharam genial.",
+   "s": 47.014,
+   "e": 48.186
+  },
+  {
+   "text": "No discurso,",
+   "s": 49.048,
+   "e": 49.737
+  },
+  {
+   "text": "ele defendeu justamente isso:",
+   "s": 50.022,
+   "e": 51.436
+  },
+  {
+   "text": "que as reuni\u00f5es antigas deviam se adaptar \u00e0 era da internet.",
+   "s": 51.74,
+   "e": 54.718
+  },
+  {
+   "text": "Uma selfie de um segundo,",
+   "s": 55.578,
+   "e": 56.719
+  },
+  {
+   "text": "que ficou mais famosa que muitos discursos inteiros.",
+   "s": 57.028,
+   "e": 59.728
+  }
+ ]
+}
