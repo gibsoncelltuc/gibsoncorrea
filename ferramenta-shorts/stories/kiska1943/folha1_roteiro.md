@@ -58,7 +58,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 9
 
 ## Cena b6  (~5.9 s)
 - Narracao: Sem inimigo à vista, os Aliados começaram a atirar uns nos outros, no escuro e na neblina.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: gun@30, gun@50, gun@65
 - Efeito + som nas palavras-chave: atirar -> burst + som de tiro/explosao; encena: atira @8 -> acao + som de efeito
 - Efeito visual marcado: burst@30, burst@60
@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 9
 
 ## Cena b7  (~3.1 s)
 - Narracao: No fim, só acharam na ilha alguns cachorros abandonados.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: olha (point) @3 -> acao + som de efeito
 - Efeito visual marcado: -

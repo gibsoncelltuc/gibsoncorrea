@@ -220,7 +220,7 @@
    "tstyle": "red",
    "light": "overcast",
    "mood": "tense",
-   "set": "countryside",
+   "set": "arctic",
    "detalhe": false,
    "shot_lock": true
   },
@@ -242,9 +242,10 @@
    "text": "SÓ CACHORROS",
    "tat": 6,
    "tstyle": "brown",
-   "light": "arctic",
+   "light": "overcast",
    "mood": "playful",
-   "set": "palace"
+   "set": "arctic",
+   "riscos_ok": true
   },
   {
    "say": "Uma das maiores invasões do Pacífico Norte tomou uma ilha completamente vazia.",

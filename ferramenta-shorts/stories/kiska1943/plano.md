@@ -9,7 +9,7 @@ b3 | orbit | overcast  | batalha aberta com tiros, tropa | tiros: 5 soldados cae
 b4 | group | overcast  | placa: ILHA VAZIA | encena: sai @9 (acao + som de efeito) | -
 b5 | orbit | overcast  | tropa | - | -
 b6 | group | overcast  | placa: FOGO AMIGO | atirar (burst + som de tiro/explosao); encena: atira @8 (acao + som de efeito) | -
-b7 | two | arctic  | animais, placa: SÓ CACHORROS | encena: olha (point) @3 (acao + som de efeito) | -
+b7 | two | overcast  | animais, placa: SÓ CACHORROS | encena: olha (point) @3 (acao + som de efeito) | -
 b8 | close | -  | placa: OPERAÇÃO ILHA VAZIA | - | -
 
 Mistura de planos: close 12% | medio 60% | aberto 24% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
