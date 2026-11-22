@@ -10,7 +10,7 @@ b4 | group | -  | tropa, animais, placa: A CAVALO? | atacar (ring + som de alert
 b5 | crowd | tense  | batalha aberta com tiros, tropa, animais | tiros: 5 soldados caem no chao (acao + som de efeito); encena: g_atravess (point) @10 (acao + som de efeito) | -
 b6 | group | arctic  | tropa, animais, placa: RENDIDOS | encena: olha (point) @3 (acao + som de efeito); encena: rende (up) @11 (acao + som de efeito) | -
 b7 | group | -  | tropa, animais | - | -
-b8 | close | -  | animais, interior, placa: CAVALARIA 1 X 0 MARINHA | encena: prende (push) @12 (acao + som de efeito) | -
+b8 | two | -  | animais, placa: CAVALARIA 1 X 0 MARINHA | encena: prende (push) @12 (acao + som de efeito) | -
 
-Mistura de planos: close 17% | medio 58% | aberto 21% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | dentro do padrao do canal
+Mistura de planos: close 5% | medio 69% | aberto 21% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 3 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)

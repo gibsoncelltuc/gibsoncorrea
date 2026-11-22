@@ -99,7 +99,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | - | ATUACAO | comemorar | OK |
 | 6 | - | PLACA | FESTA | OK |
 
-## Cena b10 - 60.0s a 65.7s - 19 palavras - plano aereo
+## Cena b10 - 60.0s a 65.7s - 19 palavras - plano reveal
 > "Até hoje há quem duvide da história. Mas o anel do benzeno virou base de remédios, tintas e plásticos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

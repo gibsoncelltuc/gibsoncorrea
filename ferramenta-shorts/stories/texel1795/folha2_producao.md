@@ -28,7 +28,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (1): NED (variante 2, expressao pained) | multidao: 6 de POV
 - Animacao: reagir | batalha encenada
-- Objetos/modelos: ship, vehicles/truck
+- Objetos/modelos: ship
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gelo, navios
 - RISCOS: nenhum
 
@@ -83,8 +83,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - Dizem que foi a única vez na história em que uma cavalaria capturou um...
-- Cenario: interior madeira | luz: arctic | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Cenario: arctic | luz: arctic | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (1): OFF (variante 0, expressao laugh)
 - Animacao: reagir
@@ -98,13 +98,12 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 ship | b0, b1, b2, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-vehicles/truck | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_amsterdam | b3, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 horse | b3, b4, b5, b6, b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b2, b5 | planos abertos: 3 | mistura: close 17% | medio 58% | aberto 21% | detalhe 5%
+- Objeto heroi: - | grandes momentos: b2, b5 | planos abertos: 3 | mistura: close 5% | medio 69% | aberto 21% | detalhe 5%
 - Interacoes: b3 aproxima-se, b6 avanca e o outro recua, b7 o outro se aproxima
 - RISCOS GERAIS: nenhum
 

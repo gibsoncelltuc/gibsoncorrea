@@ -122,16 +122,11 @@
      14.4,
      -16.0,
      1.5
-    ],
-    [
-     "vehicles/truck",
-     2.2,
-     -3.5,
-     2.4
     ]
    ],
    "detalhe": false,
-   "set": "arctic"
+   "set": "arctic",
+   "riscos_ok": true
   },
   {
    "say": "Do outro lado, os franceses tinham cavalaria, os hussardos, e nenhum navio.",
@@ -269,30 +264,31 @@
   },
   {
    "say": "Dizem que foi a única vez na história em que uma cavalaria capturou uma frota.",
-   "shot": "close",
+   "shot": "two",
    "who": [
     "OFF:0:laugh"
    ],
    "text": "CAVALARIA 1 X 0 MARINHA",
    "tat": 12,
    "tstyle": "gold",
-   "interior": "madeira",
    "animals": [
     [
      "horse",
-     -2.4,
-     -2.5,
+     -2.6,
+     -1.5,
      "stand",
-     1.0
+     0.8
     ],
     [
      "horse",
-     2.4,
-     -2.5,
+     2.6,
+     -1.5,
      "stand",
-     1.0
+     0.8
     ]
-   ]
+   ],
+   "set": "arctic",
+   "shot_lock": true
   }
  ],
  "heroi": null,
