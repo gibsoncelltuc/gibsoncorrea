@@ -1,0 +1,3 @@
+# MODO DE ACAO DEFINITIVO: bacalhau1958
+FALHAS: 0  |  AVISOS: 0
+

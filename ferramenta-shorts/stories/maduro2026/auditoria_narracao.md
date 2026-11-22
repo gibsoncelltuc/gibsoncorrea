@@ -2,7 +2,7 @@
 Cenas 100% fieis: 11/11 (100%). Lacunas: 0
 
 ## b0 OK - Numa madrugada de janeiro de dois mil e vinte e seis, Trump autorizou uma das operações militares mais ousadas dos últimos anos.
-- na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'helicopter_air', 'room_colonial_stone', 'scroll'] atores=2 acoes_folha3=[]
+- na tela: set=['outback'] animais=[] objetos=['helicopter_air', 'house_small', 'scroll'] atores=2 acoes_folha3=[]
 ## b1 OK - O alvo estava em Caracas, a capital da Venezuela.
 - na tela: set=['street'] animais=[] objetos=['apartment', 'house_two', 'lamppost'] atores=8 acoes_folha3=[]
 ## b2 OK - Era o presidente venezuelano Nicolás Maduro, acusado pela justiça americana de narcoterrorismo.

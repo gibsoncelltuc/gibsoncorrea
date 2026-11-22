@@ -1,0 +1,3 @@
+# MODO DE ACAO DEFINITIVO: roadsterpulo2026
+FALHAS: 0  |  AVISOS: 0
+

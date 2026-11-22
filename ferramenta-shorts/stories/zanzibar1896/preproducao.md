@@ -4,7 +4,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | palace | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/marco_zanzibar | - | -
+b0 | palace | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/throne, kit/marco_zanzibar | - | -
 b1 | palace | reveal | 10 | conversar | kit/marco_zanzibar | - | -
 b2 | interior pedra | two | 2 | conversar, INTERAGEM: o outro se aproxima, alguem chega andando | kit/throne | - | -
 b3 | interior pedra | two | 2 | conversar, INTERAGEM: insiste | - | paper | -
@@ -16,7 +16,7 @@ b8 | interior pedra | two | 2 | conversar, INTERAGEM: vai ate o outro | - | flag
 b9 | medieval | crowd | 14 | conversar, batalha | kit/throne, kit/marco_zanzibar | - | -
 b10 | interior pedra | close | 1 | reagir | - | - | -
 
-OBJETO HEROI: kit/throne - aparece em 2 cena(s), close nele em 1
+OBJETO HEROI: kit/throne - aparece em 3 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b9
 Interacoes entre personagens: b0 avanca e o outro recua, b2 o outro se aproxima, b3 insiste, b8 vai ate o outro
 

@@ -1,0 +1,3 @@
+# MODO DE ACAO DEFINITIVO: chaleira1784
+FALHAS: 0  |  AVISOS: 0
+

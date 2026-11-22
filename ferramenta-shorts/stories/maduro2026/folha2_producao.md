@@ -3,12 +3,12 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/maduro2026/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py maduro2026` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Numa madrugada de janeiro de dois mil e vinte e seis, Trump autorizou ...
-- Cenario: interior pedra | luz: day | clima: limpo
+- Cenario: outback | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): TRU (variante 0, expressao stern); GEN (variante 0, expressao stern)
 - Animacao: conversar | interacao: aproxima-se
-- Objetos/modelos: kit/helicopter_air
+- Objetos/modelos: kit/helicopter_air, kit/scroll
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, janeiro, operacoes, ultimos
 - RISCOS: nenhum
 
@@ -118,10 +118,10 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/helicopter_air | b0, b4, b5, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/scroll | b0, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/apartment | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/scroll | b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 vehicles/airplane | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 

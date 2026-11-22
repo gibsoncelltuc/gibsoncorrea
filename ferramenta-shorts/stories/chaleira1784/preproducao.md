@@ -4,7 +4,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | harbor | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/marco_viena, kit/kettle | - | -
+b0 | harbor | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/kettle, kit/marco_viena | - | -
 b1 | harbor | reveal | 10 | parados (so fala e pisca) | kit/marco_viena, navios ao fundo | - | -
 b2 | harbor | crowd | 14 | discutir, batalha | ship, kit/marco_viena, navios ao fundo | - | -
 b3 | medieval | two | 2 | conversar, INTERAGEM: reverencia | ship, kit/marco_viena | paper | -

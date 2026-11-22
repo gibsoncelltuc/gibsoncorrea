@@ -1,0 +1,3 @@
+# MODO DE ACAO DEFINITIVO: aprendiz2004
+FALHAS: 0  |  AVISOS: 0
+
