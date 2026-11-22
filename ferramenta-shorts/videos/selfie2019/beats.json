@@ -93,7 +93,8 @@
     "REP:0:suspicious:paper"
    ],
    "acao": "discutir",
-   "say": "Ali, os líderes de quase todos os países fazem discursos longos e sérios."
+   "say": "Ali, os líderes de quase todos os países fazem discursos longos e sérios.",
+   "objetos": false
   },
   {
    "shot": "two",
@@ -105,7 +106,8 @@
    "props": [],
    "interacao": "cochichar",
    "say": "Nayib Bukele, o novo presidente de El Salvador, tinha só trinta e oito anos.",
-   "acao": "comemorar"
+   "acao": "comemorar",
+   "objetos": false
   },
   {
    "shot": "close",
@@ -186,7 +188,8 @@
     "DIP:0:surprised"
    ],
    "acao": "comemorar",
-   "say": "Depois, brincou: acreditem, muito mais gente vai ver essa selfie do que ouvir este discurso."
+   "say": "Depois, brincou: acreditem, muito mais gente vai ver essa selfie do que ouvir este discurso.",
+   "objetos": false
   },
   {
    "shot": "crowd",
@@ -226,7 +229,8 @@
     "DIP:0:bored"
    ],
    "acao": "discutir",
-   "say": "Alguns acharam falta de respeito com a ONU. Outros acharam genial."
+   "say": "Alguns acharam falta de respeito com a ONU. Outros acharam genial.",
+   "objetos": false
   },
   {
    "shot": "two",
@@ -235,7 +239,8 @@
     "REP:0:surprised"
    ],
    "acao": "conversar",
-   "say": "No discurso, ele defendeu justamente isso: que as reuniões antigas deviam se adaptar à era da internet."
+   "say": "No discurso, ele defendeu justamente isso: que as reuniões antigas deviam se adaptar à era da internet.",
+   "objetos": false
   },
   {
    "shot": "close",
@@ -254,7 +259,8 @@
     ]
    ],
    "acao": "comemorar",
-   "say": "Uma selfie de um segundo, que ficou mais famosa que muitos discursos inteiros."
+   "say": "Uma selfie de um segundo, que ficou mais famosa que muitos discursos inteiros.",
+   "objetos": false
   }
  ],
  "fontes": [

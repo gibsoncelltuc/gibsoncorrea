@@ -10,13 +10,13 @@ b2 | interior pedra | two | 2 | discutir, INTERAGEM: discutir | - | paper | -
 b3 | interior madeira | two | 2 | comemorar, INTERAGEM: cochichar | - | - | -
 b4 | palace | low | 1 | reagir | kit/phone, mk/BookStand, kit/marco_onu | - | -
 b5 | palace | crowd | 22 | tirar, batalha | mk/BookStand, kit/marco_onu, kit/phone | - | -
-b6 | interior madeira | two | 2 | comemorar, INTERAGEM: pular | kit/phone | - | -
+b6 | interior madeira | two | 2 | comemorar, INTERAGEM: pular | - | - | -
 b7 | palace | crowd | 23 | comemorar, batalha | kit/marco_onu, kit/globe | - | -
 b8 | interior pedra | two | 2 | discutir, INTERAGEM: susto | - | paper | -
 b9 | interior pedra | two | 2 | conversar, INTERAGEM: o outro se aproxima | - | - | -
 b10 | interior pedra | close | 1 | comemorar | kit/phone | - | -
 
-OBJETO HEROI: kit/phone - aparece em 5 cena(s), close nele em 1
+OBJETO HEROI: kit/phone - aparece em 4 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 3 -> b0, b5, b7
 Interacoes entre personagens: b1 avanca e o outro recua, b2 discutir, b3 cochichar, b6 pular, b8 susto, b9 o outro se aproxima
 
