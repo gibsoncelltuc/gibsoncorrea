@@ -12,7 +12,7 @@ Cenas 100% fieis: 10/10 (100%). Lacunas: 0
 ## b4 OK - Houve gritos, ameaças, e tiros. Todos para o alto. Ninguém acertou ninguém.
 - na tela: set=['street'] animais=['horse_sela'] objetos=[] atores=24 acoes_folha3=['tiros', 'tiros']
 ## b5 OK - Acontece que a única baixa foi um xerife de Michigan, espetado na perna por um rapaz com um canivete.
-- na tela: set=['street'] animais=[] objetos=['house_two'] atores=2 acoes_folha3=['espetado']
+- na tela: set=['street'] animais=[] objetos=['Table_Knife', 'house_two'] atores=6 acoes_folha3=['espetado']
 ## b6 OK - O presidente mandou os dois pararem, e o Congresso ofereceu um acordo. Ninguém queria ceder.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_verde_stone'] atores=2 acoes_folha3=['mandou', 'ofereceu']
 ## b7 OK - Ohio ficou com Toledo. Michigan levou, de consolação, um pedaço de floresta gelada que ninguém queria.

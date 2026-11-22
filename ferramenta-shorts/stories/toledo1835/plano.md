@@ -13,5 +13,5 @@ b7 | group | -  | - | - | -
 b8 | low | - neve | objeto na mao | fortuna (stars + som de sino); encena: paga (reach) @10 (acao + som de efeito) | -
 b9 | close | dia limpo | interior, objeto na mao | (rosto) sad (expr + som de efeito); perdeu (puff + som de baque); encena: perde (facepalm) @5 (acao + som de efeito) | -
 
-Mistura de planos: close 27% | medio 56% | aberto 16% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
+Mistura de planos: close 27% | medio 53% | aberto 16% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 3 | dentro do padrao do canal

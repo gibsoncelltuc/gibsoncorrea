@@ -54,11 +54,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Acontece que a única baixa foi um xerife de Michigan, espetado na pern...
 - Cenario: countryside | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): RAP (variante 0, expressao angry); XER (variante 0, expressao pained)
 - Animacao: conversar | interacao: empurrar
-- Objetos/modelos: -
+- Objetos/modelos: mk/Table_Knife
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canivete, michigan, perna, rapaz, xerife
 - RISCOS: nenhum
 
@@ -109,13 +109,14 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 buildings/house_two | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+mk/Table_Knife | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_pine | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/bush | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b3, b4 | planos abertos: 3 | mistura: close 27% | medio 56% | aberto 16% | detalhe 0%
+- Objeto heroi: - | grandes momentos: b3, b4 | planos abertos: 3 | mistura: close 27% | medio 53% | aberto 16% | detalhe 3%
 - Interacoes: b0 avanca e o outro recua, b5 empurrar, b6 cochichar, b7 tremem de frio, b8 susto
 - RISCOS GERAIS: nenhum
 
