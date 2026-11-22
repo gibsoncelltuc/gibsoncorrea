@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - No sonho, os átomos dançavam como cobras. Até que uma delas mordeu o p...
-- Cenario: interior madeira | luz: noite | clima: limpo
+- Cenario: interior madeira | luz: study | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): KEK (variante 0, expressao surprised)
@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Kekulé acordou num pulo, como se tivesse levado um raio. O benzeno não...
-- Cenario: interior madeira | luz: noite | clima: limpo
+- Cenario: interior madeira | luz: study | clima: limpo
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): KEK (variante 0, expressao shock)
@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Passou o resto da noite desenhando o anel de seis carbonos. E a conta ...
-- Cenario: interior loja | luz: noite | clima: limpo
+- Cenario: interior loja | luz: study | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): KEK (variante 0, expressao grin, segura paper)
@@ -104,7 +104,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b10 - Até hoje há quem duvide da história. Mas o anel do benzeno virou base ...
 - Cenario: street | luz: day | clima: limpo
-- Camera: aereo = -
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): COL (variante 0, expressao suspicious); KEK (variante 0, expressao smile) | multidao: 8 de POV
 - Animacao: conversar
@@ -137,7 +137,7 @@ mk/Chair_1 | b4, b5 | pronto | conferir na folha de contato se le bem; se parece
 
 
 ## Video inteiro
-- Objeto heroi: kit/snake_ring | grandes momentos: b1, b9 | planos abertos: 3 | mistura: close 18% | medio 65% | aberto 16% | detalhe 2%
+- Objeto heroi: kit/snake_ring | grandes momentos: b1, b9 | planos abertos: 3 | mistura: close 18% | medio 69% | aberto 12% | detalhe 2%
 - Interacoes: b0 cochichar, b2 discutir, b3 entregar, b8 entregar
 - RISCOS GERAIS: nenhum
 

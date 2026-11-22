@@ -146,7 +146,20 @@
    "say": "Acontece que a única baixa foi um xerife de Michigan, espetado na perna por um rapaz com um canivete.",
    "set": "countryside",
    "shot_lock": true,
-   "interacao": "empurrar"
+   "interacao": "empurrar",
+   "props": [
+    [
+     "mk/Table_Knife",
+     -0.1,
+     2.0,
+     9.0,
+     {
+      "y": 0.9,
+      "fixo": true,
+      "rz": 1.2
+     }
+    ]
+   ]
   },
   {
    "shot": "two",

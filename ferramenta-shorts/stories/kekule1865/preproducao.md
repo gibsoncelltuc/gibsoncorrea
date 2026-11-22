@@ -14,7 +14,7 @@ b6 | interior madeira | low | 1 | reagir | kit/snake_ring | - | -
 b7 | interior loja | two | 1 | reagir | kit/snake_ring | paper | -
 b8 | interior madeira | two | 2 | conversar, INTERAGEM: entregar | kit/snake_ring | - | -
 b9 | street | crowd | 21 | comemorar, batalha | kit/snake_ring, kit/marco_viena | - | -
-b10 | street | aereo | 10 | conversar | kit/marco_viena, kit/snake_ring | - | -
+b10 | street | reveal | 10 | conversar | kit/marco_viena, kit/snake_ring | - | -
 b11 | street | close | 1 | reagir | kit/snake_ring, kit/marco_viena | - | -
 
 OBJETO HEROI: kit/snake_ring - aparece em 9 cena(s), close nele em 1

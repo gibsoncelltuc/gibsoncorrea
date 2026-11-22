@@ -55,13 +55,19 @@
      "ship",
      -4.800000000000001,
      -16.0,
-     1.5
+     1.5,
+     {
+      "y": -1.8
+     }
     ],
     [
      "ship",
      8.0,
      -16.0,
-     1.5
+     1.5,
+     {
+      "y": -1.8
+     }
     ]
    ],
    "text": "1795",
@@ -88,7 +94,10 @@
      "ship",
      0.0,
      -16.0,
-     1.5
+     1.5,
+     {
+      "y": -1.8
+     }
     ]
    ],
    "text": "FROTA CONGELADA",
@@ -109,29 +118,33 @@
      "ship",
      -6.4,
      -16.0,
-     1.5
+     1.5,
+     {
+      "y": -1.8
+     }
     ],
     [
      "ship",
      4.800000000000001,
      -16.0,
-     1.5
+     1.5,
+     {
+      "y": -1.8
+     }
     ],
     [
      "ship",
      14.4,
      -16.0,
-     1.5
-    ],
-    [
-     "vehicles/truck",
-     2.2,
-     -3.5,
-     2.4
+     1.5,
+     {
+      "y": -1.8
+     }
     ]
    ],
    "detalhe": false,
-   "set": "arctic"
+   "set": "arctic",
+   "riscos_ok": true
   },
   {
    "say": "Do outro lado, os franceses tinham cavalaria, os hussardos, e nenhum navio.",
@@ -147,7 +160,7 @@
      1.6,
      -3.2,
      "stand",
-     1.0
+     0.62
     ]
    ],
    "mood": "march",
@@ -186,14 +199,14 @@
      -3.0,
      1.6,
      "trot",
-     0.7
+     0.62
     ],
     [
      "horse",
      3.0,
      2.0,
      "trot",
-     0.7
+     0.62
     ]
    ],
    "move": 10,
@@ -221,14 +234,14 @@
      -2.4,
      -2.5,
      "stand",
-     1.0
+     0.62
     ],
     [
      "horse",
      2.4,
      -2.5,
      "stand",
-     1.0
+     0.62
     ]
    ],
    "tiros": false
@@ -245,13 +258,19 @@
      "ship",
      -6.4,
      -16.0,
-     1.5
+     1.5,
+     {
+      "y": -1.8
+     }
     ],
     [
      "ship",
      6.4,
      -16.0,
-     1.5
+     1.5,
+     {
+      "y": -1.8
+     }
     ]
    ],
    "animals": [
@@ -260,7 +279,7 @@
      2.6,
      1.0,
      "stand",
-     0.7
+     0.62
     ]
    ],
    "mood": "playful",
@@ -269,30 +288,31 @@
   },
   {
    "say": "Dizem que foi a única vez na história em que uma cavalaria capturou uma frota.",
-   "shot": "close",
+   "shot": "two",
    "who": [
     "OFF:0:laugh"
    ],
    "text": "CAVALARIA 1 X 0 MARINHA",
    "tat": 12,
    "tstyle": "gold",
-   "interior": "madeira",
    "animals": [
     [
      "horse",
-     -2.4,
-     -2.5,
+     -2.6,
+     -1.5,
      "stand",
-     1.0
+     0.62
     ],
     [
      "horse",
-     2.4,
-     -2.5,
+     2.6,
+     -1.5,
      "stand",
-     1.0
+     0.62
     ]
-   ]
+   ],
+   "set": "arctic",
+   "shot_lock": true
   }
  ],
  "heroi": null,

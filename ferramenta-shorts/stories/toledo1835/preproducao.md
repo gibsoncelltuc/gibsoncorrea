@@ -9,7 +9,7 @@ b1 | countryside | reveal | 10 | conversar | buildings/house_two, nature/lamppos
 b2 | interior madeira | close | 1 | reagir | - | paper | -
 b3 | countryside | crowd | 20 | discutir, batalha | - | - | -
 b4 | countryside | orbit | 20 | discutir, batalha | - | - | -
-b5 | countryside | two | 2 | conversar, INTERAGEM: empurrar | - | - | -
+b5 | countryside | two | 2 | conversar, INTERAGEM: empurrar | mk/Table_Knife | - | -
 b6 | interior pedra | two | 2 | conversar, INTERAGEM: cochichar | - | paper | -
 b7 | mountain | group | 3 | conversar, INTERAGEM: tremem de frio | nature/tree_pine, nature/tree_oak, nature/bush | - | -
 b8 | arctic | low | 2 | conversar, INTERAGEM: susto | nature/tree_pine, nature/tree_oak, nature/bush | coin | -

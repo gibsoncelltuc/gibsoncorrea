@@ -10,7 +10,7 @@ b2 | arctic | close | 1 | reagir | buildings/barn, nature/picket_fence, nature/h
 b3 | arctic | low | 1 | reagir | - | - | -
 b4 | arctic | close | 1 | reagir | - | - | -
 b5 | arctic | orbit | 14 | conversar, batalha | kit/campfire, nature/picket_fence | - | -
-b6 | mountain | orbit | 7 | reagir | - | - | -
+b6 | arctic | orbit | 7 | reagir | - | - | -
 b7 | interior hospital | two | 2 | conversar, INTERAGEM: cochichar | - | - | -
 b8 | interior madeira | close | 1 | reagir | - | - | -
 

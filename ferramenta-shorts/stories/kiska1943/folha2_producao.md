@@ -63,22 +63,22 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Sem inimigo à vista, os Aliados começaram a atirar uns nos outros, no ...
-- Cenario: countryside | luz: overcast | clima: limpo
+- Cenario: arctic | luz: overcast | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (3): USA (variante 0, expressao shock); CAN (variante 0, expressao shock); USA (variante 2, expressao pained)
 - Animacao: conversar | interacao: susto
-- Objetos/modelos: kit/marco_alpes
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aliados, atirar, escuro, neblina, vista
 - RISCOS: nenhum
 
 ## Cena b7 - No fim, só acharam na ilha alguns cachorros abandonados.
-- Cenario: palace | luz: arctic | clima: limpo
+- Cenario: arctic | luz: overcast | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): USA (variante 1, expressao laugh)
 - Animacao: reagir
-- Objetos/modelos: kit/marco_alpes, dog
+- Objetos/modelos: dog
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ilha
 - RISCOS: nenhum
 
@@ -98,7 +98,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 ship | b0, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_alpes | b0, b1, b2, b3, b6, b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_alpes | b0, b1, b2, b3, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 vehicles/airplane | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/navio_vapor | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 cannon | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py

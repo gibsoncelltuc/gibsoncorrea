@@ -14,7 +14,7 @@ Cenas 100% fieis: 9/9 (100%). Lacunas: 0
 ## b5 OK - Em cerca de cem dias, ele teve mais de quinhentos inimigos confirmados, com uma carabina de mira de ferro, sem luneta.
 - na tela: set=['street'] animais=[] objetos=['campfire', 'picket_fence'] atores=14 acoes_folha3=[]
 ## b6 OK - Os soviéticos passaram a chamá-lo de Morte Branca.
-- na tela: set=['mountain'] animais=[] objetos=[] atores=7 acoes_folha3=[]
+- na tela: set=['street'] animais=[] objetos=[] atores=7 acoes_folha3=[]
 ## b7 OK - Em março de mil novecentos e quarenta, uma bala atingiu o rosto dele. Ele sobreviveu, e acordou no dia em que a guerra terminou.
 - na tela: set=['hall'] animais=[] objetos=['maca', 'room_hospital'] atores=2 acoes_folha3=['bala', 'bala', 'atingiu', 'sobreviveu', 'acordou']
 ## b8 OK - Viveu até os noventa e seis anos, e nunca se achou herói. Dizia que só tinha feito o seu trabalho.

@@ -1,12 +1,12 @@
-b0: OK - cena confere com a frase: Um dos maiores segredos da química foi resolvido num cochilo, e com a ajuda
-b1: OK - cena confere com a frase: Era mil oitocentos e sessenta e cinco, na cidade de Gante, na Bélgica.
-b2: OK - cena confere com a frase: O professor August Kekulé tinha um problema: o benzeno, um líquido com seis átomos
-b3: OK - cena confere com a frase: Os químicos desenhavam correntes retas, e nada fechava a conta. Era um quebra-cabeça de
-b4: OK - cena confere com a frase: Numa noite fria, ele virou a cadeira para a lareira, e cochilou.
-b5: OK - cena confere com a frase: No sonho, os átomos dançavam como cobras. Até que uma delas mordeu o próprio
-b6: OK - cena confere com a frase: Kekulé acordou num pulo, como se tivesse levado um raio. O benzeno não era
-b7: OK - cena confere com a frase: Passou o resto da noite desenhando o anel de seis carbonos. E a conta
-b8: OK - cena confere com a frase: Os colegas ficaram de boca aberta. O anel explicava dezenas de substâncias de uma
-b9: OK - cena confere com a frase: Vinte e cinco anos depois, numa festa em Berlim em honra ao anel, ele
-b10: OK - cena confere com a frase: Até hoje há quem duvide da história. Mas o anel do benzeno virou base
-b11: OK - cena confere com a frase: E ele deixou um conselho: aprendam a sonhar. Mas confiram tudo acordados.
+b0: OK - um dos maiores segredos da quimica foi resolvido num cochilo e com a ajuda de uma cobra: Kekule e outro quimico na rua com a cobra em anel e o frasco verde, placa 1865
+b1: OK - era mil oitocentos e sessenta e cinco na cidade de Gante na Belgica: mapa da Belgica e a rua de predios amarelos com gente de epoca
+b2: OK - o professor Kekule tinha um problema, o benzeno com seis atomos de carbono que ninguem sabia arrumar: Kekule e um colega numa sala com papel na mao e o anel de cobra
+b3: OK - os quimicos desenhavam correntes retas e nada fechava a conta, quebra-cabeca de anos: dois quimicos na sala conversando com frascos verdes e papel
+b4: OK - numa noite fria ele virou a cadeira para a lareira e cochilou: sala escura azulada com a lareira acesa e Kekule sentado de bracos erguidos
+b5: OK - no sonho os atomos dancavam como cobras ate que uma mordeu o proprio rabo: sala agora clara com a cobra verde grande em anel mordendo o rabo e Kekule em close
+b6: OK - Kekule acordou num pulo como se tivesse levado um raio, o benzeno era um anel: Kekule pulando de espanto com o anel de cobra ao lado
+b7: OK - passou o resto da noite desenhando o anel de seis carbonos e a conta fechou: Kekule numa loja com papel na mao e o anel de cobra ao lado
+b8: OK - os colegas ficaram de boca aberta, o anel explicava dezenas de substancias: dois colegas de boca aberta ao lado do anel de cobra numa sala
+b9: OK - vinte e cinco anos depois numa festa em Berlim ele contou o sonho pela primeira vez: texto FESTA com multidao na praca com gente de chapeus coloridos
+b10: OK - ate hoje ha quem duvide, mas o anel do benzeno virou base de remedios, tintas e plasticos: multidao na praca e Kekule falando com os colegas
+b11: OK - ele deixou um conselho, aprendam a sonhar mas confiram tudo acordados: texto SONHE com Kekule sorrindo na praca com o anel de cobra

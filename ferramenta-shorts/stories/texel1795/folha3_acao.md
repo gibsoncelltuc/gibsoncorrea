@@ -78,7 +78,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | o outro se aproxima | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b8 - 41.4s a 44.6s - 15 palavras - plano close
+## Cena b8 - 41.4s a 44.6s - 15 palavras - plano two
 > "Dizem que foi a única vez na história em que uma cavalaria capturou uma frota."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
