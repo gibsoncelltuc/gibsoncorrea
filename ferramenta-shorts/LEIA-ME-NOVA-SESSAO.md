@@ -1,8 +1,7 @@
-# COMO CONTINUAR EM UMA SESSÃO NOVA (do zero)
-1. Descompacte este zip numa pasta e abra uma sessão do Claude Code dentro dela (a pasta `ferramenta-shorts/` fica na raiz; `CLAUDE.md` e `.claude/` ficam ao lado).
-2. Cole para a sessão: "Leia CLAUDE.md e ferramenta-shorts/MANUAL_SONNET.md inteiros e continue a produção: refazer os vídeos da fila (queue.txt) seguindo o ciclo do §2 (revisar storyboard, aprovar, conferir, entregar). Responda em português, curto."
-3. Instale as dependências: `cd ferramenta-shorts && npm install` (Playwright/Chromium e ffmpeg precisam estar instalados) e Blender se for modelar objeto novo.
-4. Subir a fila: `cd ferramenta-shorts && bash run_queue.sh` (ids em `queue.txt`). Status: `bash status.sh`.
-5. Roteiros: `ferramenta-shorts/videos/<id>/beats.json` (todos os vídeos feitos até agora). Lista do que falta/ordem: `queue.txt`, `fila_sessao_A.txt`, `fila_sessao_B.txt`.
-6. O que NÃO está no zip (pesado e regenerável): vídeos prontos (mp4), quadros e ckpt de render. Os mp4 já entregues ficam no chat.
-Regras do Gibson: REGRA MESTRA e ZERO RESSALVA (CLAUDE.md). Série "E Se" pausada.
+# Sessao nova (atualizado 23/11)
+1. `git fetch origin claude/bold-sagan-dskrsj && git checkout claude/bold-sagan-dskrsj` (a ferramenta inteira e todos os roteiros estao nesse branch; nao precisa copiar arquivo nenhum).
+2. Leia o topo do `CLAUDE.md` ("ESTADO EM 23/11") e depois `ferramenta-shorts/MANUAL_SONNET.md`.
+3. `cd ferramenta-shorts && bash boot.sh` (se o hook nao rodou): dependencias, certificado da voz, fila (`fila_principal.txt` -> `queue.txt`), watchdog.
+4. `bash status.sh` para ver a fila; storyboard em AGUARDA_STORYBOARD -> olhar `storyboard.jpg` e `grade_acoes.jpg`, corrigir o beats.json se tiver defeito, aprovar com `./aprovar_rapido.sh <id>`.
+5. Vídeo pronto -> `./conferir.sh <id>`, olhar `out/<id>/review_sheet.jpg`, `bash auditar_acoes.sh claude/bold-sagan-dskrsj <id> <mp4>` e olhar o jpg; sem defeito -> entregar ao Gibson.
+6. Roteiro novo: pesquisa historica + PESQUISA VISUAL (bloco "visual") ANTES de escrever (GUIA_DO_ROTEIRISTA.md).
