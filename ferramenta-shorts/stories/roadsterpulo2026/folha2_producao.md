@@ -42,14 +42,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): carro, pista, segredo, spacex
 - RISCOS: nenhum
 
-## Cena b4 - Acontece que, na frente da plateia, o carro acelerou, subiu uma rampa ...
+## Cena b4 - Acontece que, diante dos convidados, o carro acelerou, subiu uma rampa...
 - Cenario: outback | luz: noite | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): MUS (variante 0, expressao grin) | multidao: 30 de POV
+- Personagens principais (1): MUS (variante 0, expressao grin) | multidao: 0 de POV
 - Animacao: encena
 - Objetos/modelos: kit/roadster26, kit/torre_luz, kit/tower
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabeca, carro, frente, plateia, rampa
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabeca, carro, convidados, rampa
 - RISCOS: nenhum
 
 ## Cena b5 - Então se soltou, voou girando no ar e pousou numa nuvem de fumaça bran...
@@ -134,7 +134,7 @@ kit/rampa_curva | b1 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/roadster26 | grandes momentos: b7 | planos abertos: 3 | mistura: close 15% | medio 61% | aberto 19% | detalhe 5%
+- Objeto heroi: kit/roadster26 | grandes momentos: b7 | planos abertos: 3 | mistura: close 16% | medio 61% | aberto 19% | detalhe 5%
 - Interacoes: b0 insiste, b2 vai ate o outro, b3 cochichar, b6 pular, b8 aproxima-se
 - RISCOS GERAIS: nenhum
 

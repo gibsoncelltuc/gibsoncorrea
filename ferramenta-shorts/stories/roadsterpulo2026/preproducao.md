@@ -8,7 +8,7 @@ b0 | outback | two | 2 | conversar, INTERAGEM: insiste | kit/roadster26, kit/tor
 b1 | outback | reveal | 8 | encena | kit/rampa_curva, kit/torre_luz, kit/tower | - | -
 b2 | interior galpao | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/roadster26 | paper | -
 b3 | interior galpao | group | 2 | conversar, INTERAGEM: cochichar, alguem chega andando | kit/roadster26 | paper | -
-b4 | outback | wide | 31 | encena | kit/roadster26, kit/torre_luz, kit/tower | - | -
+b4 | outback | wide | 1 | encena | kit/roadster26, kit/torre_luz, kit/tower | - | -
 b5 | outback | group | 1 | reagir | kit/roadster26, kit/torre_luz, kit/tower | - | -
 b6 | outback | two | 2 | comemorar, INTERAGEM: pular | kit/torre_luz, kit/tower | - | -
 b7 | street | orbit | 14 | batalha | kit/tower | - | -

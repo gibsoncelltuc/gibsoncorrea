@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 25 - O Carro que Voou de Cabeça para Baixo
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 7.4s - 21 palavras - plano two
@@ -42,42 +42,43 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | CHEGADA | alguem entra andando | OK |
 
-## Cena b4 - 26.7s a 33.7s - 20 palavras - plano wide
-> "Acontece que, na frente da plateia, o carro acelerou, subiu uma rampa curva gigante e ficou de cabeça para baixo."
+## Cena b4 - 26.7s a 33.3s - 19 palavras - plano wide
+> "Acontece que, diante dos convidados, o carro acelerou, subiu uma rampa curva gigante e ficou de cabeça para baixo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | acelerou (29.6s) | ACAO: x_dirige | dirige/acelera + poeira | OK |
-| 2 | subiu (30.0s) | ACAO: escala | escala (bracos para cima) | OK |
+| 1 | convidados (28.1s) | ACAO: fala | aponta explicando | OK |
+| 2 | acelerou (29.3s) | ACAO: x_dirige | dirige/acelera + poeira | OK |
+| 3 | subiu (29.6s) | ACAO: escala | escala (bracos para cima) | OK |
 
-## Cena b5 - 34.1s a 38.9s - 14 palavras - plano group
+## Cena b5 - 33.7s a 38.5s - 14 palavras - plano group
 > "Então se soltou, voou girando no ar e pousou numa nuvem de fumaça branca."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | soltou (34.8s) | ACAO: x_solta | solta/liberta + brilho | OK |
-| 2 | voou (35.2s) | ACAO: voa | decola: poeira no chao, olha para cima | OK |
-| 3 | pousou (37.0s) | ACAO: x_desce | desce/pousa + poeira no chao | OK |
+| 1 | soltou (34.4s) | ACAO: x_solta | solta/liberta + brilho | OK |
+| 2 | voou (34.8s) | ACAO: voa | decola: poeira no chao, olha para cima | OK |
+| 3 | pousou (36.7s) | ACAO: x_desce | desce/pousa + poeira no chao | OK |
 | 4 | - | ATUACAO | reagir | OK |
 
-## Cena b6 - 39.3s a 43.7s - 13 palavras - plano two
+## Cena b6 - 38.9s a 43.3s - 13 palavras - plano two
 > "Musk comemorou no palco, e tudo foi transmitido ao vivo na rede X."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | comemorou (39.6s) | ACAO: vence | bracos para cima + brilho | OK |
+| 1 | comemorou (39.3s) | ACAO: vence | bracos para cima + brilho | OK |
 | 2 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
 | 3 | - | INTERACAO | pular | OK |
 | 4 | - | ATUACAO | comemorar | OK |
 
-## Cena b7 - 44.1s a 48.5s - 13 palavras - plano orbit
+## Cena b7 - 43.7s a 48.1s - 13 palavras - plano orbit
 > "Mas especialistas lembraram: aquilo durou poucos segundos, não foi um voo de verdade."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
-## Cena b8 - 48.9s a 53.7s - 14 palavras - plano two
+## Cena b8 - 48.5s a 53.3s - 14 palavras - plano two
 > "Segundo a Tesla, ele vai de zero a cem em menos de um segundo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -85,7 +86,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | aproxima-se | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 54.1s a 58.1s - 12 palavras - plano close
+## Cena b9 - 53.7s a 57.8s - 12 palavras - plano close
 > "O vídeo correu o mundo. Metade ficou impressionada, a outra metade desconfiada."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -93,15 +94,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | EMOCAO: distrust | o rosto vira "distrust" na palavra | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 58.5s a 61.1s - 8 palavras - plano two
+## Cena b10 - 58.1s a 60.7s - 8 palavras - plano two
 > "Carro voador ou carro que pula? Você decide."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | pula (60.4s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
+| 1 | pula (60.0s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b11 - 61.5s a 65.9s - 13 palavras - plano close
+## Cena b11 - 61.1s a 65.6s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
