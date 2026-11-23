@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 25 - O Carro que Voou de Cabeça para Baixo
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback | 11 cenas, 170 palavras (~59 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback | 12 cenas, 183 palavras (~63 s)
 
 ## Cena b0  (~7.2 s)
 - Narracao: Elon Musk prometeu um carro que voa. Em outubro de dois mil e vinte e seis, ele mostrou o que conseguiu.
@@ -99,6 +99,15 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Efeito + som nas palavras-chave: encena: pula @5 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b11  (~4.5 s)
+- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: COMENTE!
 - Funcao na historia: FECHO/PIADA FINAL
 
 

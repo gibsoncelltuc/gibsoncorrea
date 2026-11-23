@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Teste de Acoes
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 5 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 6 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 7.8s - 22 palavras - plano two
@@ -53,7 +53,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 8 | - | ATUACAO | conversar | OK |
 
-## Cena b4 - 26.3s a 30.4s - 12 palavras - plano close
+## Cena b4 - 26.3s a 30.4s - 12 palavras - plano orbit
 > "No fim, o rei comemorou, pulou de alegria e chorou de rir."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -65,4 +65,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | - | EMOCAO: happy | o rosto vira "happy" na palavra | OK |
 | 6 | - | EMOCAO: cry | o rosto vira "cry" na palavra | OK |
 | 7 | - | ATUACAO | comemorar | OK |
+
+## Cena b5 - 30.7s a 35.2s - 13 palavras - plano close
+> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | PLACA | COMENTE! | OK |
 

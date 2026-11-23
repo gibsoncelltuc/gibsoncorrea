@@ -4,8 +4,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Elon Musk prometeu um carro que voa. Em outubro de dois mil e vinte e ...
 - Cenario: outback | luz: noite | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MUS (variante 0, expressao grin); ENA (variante 0, expressao surprised)
 - Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/roadster26, kit/torre_luz, kit/tower
@@ -112,6 +112,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
+## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Cenario: interior galpao | luz: day | clima: limpo
+- Camera: close = close no rosto; empurra devagar
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (1): MUS (variante 0, expressao grin)
+- Animacao: conversar
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
+- RISCOS: nenhum
+
 ## PARA O BLENDER (objetos 3D deste video)
 Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito no Blender; a ferramenta so' poe em cena, pinta o contorno e anima. Nada de objeto "quadradao": use `blender/formas.py` (cil, bola, torno, tubo, arco, caixa com chanfro).
 
@@ -124,7 +134,7 @@ kit/rampa_curva | b1 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/roadster26 | grandes momentos: b4, b5 | planos abertos: 2 | mistura: close 9% | medio 79% | aberto 10% | detalhe 2%
+- Objeto heroi: kit/roadster26 | grandes momentos: b4, b5 | planos abertos: 2 | mistura: close 16% | medio 71% | aberto 9% | detalhe 5%
 - Interacoes: b0 insiste, b2 vai ate o outro, b3 cochichar, b6 pular, b7 aproxima-se, b8 avanca e o outro recua
 - RISCOS GERAIS: nenhum
 

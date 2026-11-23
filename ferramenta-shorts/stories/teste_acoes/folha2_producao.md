@@ -13,17 +13,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b1 - Dias depois, o rei e o fazendeiro fizeram um acordo, apertaram as maos...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): REI (variante 0, expressao stern); FAZ (variante 0, expressao smile)
 - Animacao: comemorar | interacao: apertar
-- Objetos/modelos: buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): acordo, fazendeiro, maos
 - RISCOS: nenhum
 
 ## Cena b2 - O fazendeiro entrou no carro, acelerou pela estrada e o carro decolou ...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): FAZ (variante 0, expressao smile); SOL (variante 0, expressao stern)
@@ -43,13 +43,23 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - No fim, o rei comemorou, pulou de alegria e chorou de rir.
-- Cenario: countryside | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (1): REI (variante 0, expressao grin)
+- Cenario: mountain | luz: day | clima: limpo
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): REI (variante 0, expressao grin) | multidao: 8 de REI
 - Animacao: comemorar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alegria
+- RISCOS: nenhum
+
+## Cena b5 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Cenario: countryside | luz: day | clima: limpo
+- Camera: close = close no rosto; empurra devagar
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Personagens principais (1): FAZ (variante 0, expressao grin)
+- Animacao: conversar
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -57,17 +67,17 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-buildings/barn | b1, b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/picket_fence | b1, b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/haybale | b1, b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/scarecrow | b1, b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/barn | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/picket_fence | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/haybale | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/scarecrow | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 vehicles/car | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/stall | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/shop | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b3 | planos abertos: 1 | mistura: close 18% | medio 76% | aberto 6% | detalhe 0%
+- Objeto heroi: - | grandes momentos: b3 | planos abertos: 2 | mistura: close 17% | medio 66% | aberto 18% | detalhe 0%
 - Interacoes: b0 susto, b1 apertar
 - RISCOS GERAIS: nenhum
 

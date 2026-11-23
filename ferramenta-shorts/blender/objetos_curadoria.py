@@ -26,3 +26,19 @@ torno((0, 0, 0), [(0.36, 0.0), (0.42, 0.06), (0.5, 0.42), (0.52, 0.46)], '#9a6a3
 for i, (x, z) in enumerate(((0, 0), (0.22, 0.1), (-0.2, 0.12), (0.1, -0.2), (-0.12, -0.18), (0.25, -0.12), (-0.26, -0.05))):
     bola((x, 0.42 + 0.06 * (i % 2), z), 0.13, '#c79a5a', esc=(1.25, 0.9, 1.0))
 fim(0.01)
+# navio de guerra a VELA de tres mastros (antes de 1840 nao existe navio a vapor: Texel 1795, Karansebes, Porco 1859 usa vapor+vela)
+novo('navio_vela')
+
+caixa((0, 0.55, 0), (4.2, 1.1, 1.3), '#5a3a22', afina=1.12)                    # casco
+caixa((0, 1.12, 0), (4.0, 0.08, 1.34), '#e8c45a')                             # friso dourado
+caixa((-1.95, 1.45, 0), (0.8, 0.7, 1.2), '#5a3a22')                           # popa alta
+for i in range(6): caixa((-1.4 + i * 0.55, 0.78, 0.66), (0.22, 0.18, 0.04), '#1b1b1f')   # portinholas dos canhoes
+for i in range(6): caixa((-1.4 + i * 0.55, 0.78, -0.66), (0.22, 0.18, 0.04), '#1b1b1f')
+tubo([(2.1, 0.9, 0), (2.9, 1.5, 0)], 0.05, '#4a2e1a')                          # gurupes
+for x, h in ((-1.1, 3.4), (0.3, 4.0), (1.5, 3.2)):                              # mastros
+    cil((x, 1.1 + h / 2, 0), 0.07, h, '#4a2e1a')
+    for k, (y, w) in enumerate(((1.1 + h * 0.42, 1.5), (1.1 + h * 0.75, 1.1))):
+        caixa((x, y, 0.12), (w * 0.85, 0.9 - 0.2 * k, 0.05), '#f2ead2'); cil((x, y + 0.47 - 0.1 * k, 0.12), 0.03, w * 0.95, '#4a2e1a', rot=(0, 0, math.pi / 2))   # velas quadradas (de frente para quem ve o navio de lado) + verga
+    tubo([(x, 1.1 + h, 0), (x, 1.1 + h + 0.4, 0)], 0.03, '#4a2e1a')
+pano((0.3, 5.6, 0), 0.5, 0.3, ['#ae1c28', '#ffffff', '#21468b'], onda=0.05, nx=6)   # bandeira holandesa
+fim(0.02)

@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Teste de Acoes
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 5 cenas, 83 palavras (~29 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 6 cenas, 96 palavras (~33 s)
 
 ## Cena b0  (~7.6 s)
 - Narracao: Em mil oitocentos e quarenta, no interior da Franca, um soldado correu em cima de um cavalo e atirou para o alto.
@@ -13,7 +13,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b1  (~5.5 s)
 - Narracao: Dias depois, o rei e o fazendeiro fizeram um acordo, apertaram as maos e riram muito.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; riram -> stars + som de sino; encena: x_aperta (reach) @10 -> acao + som de efeito; encena: x_ri (up) @14 -> acao + som de efeito; aperto de mao -> acao + som de efeito
 - Efeito visual marcado: -
@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b2  (~6.2 s)
 - Narracao: O fazendeiro entrou no carro, acelerou pela estrada e o carro decolou e voou por cima da cerca.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -40,10 +40,19 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b4  (~4.1 s)
 - Narracao: No fim, o rei comemorou, pulou de alegria e chorou de rir.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; (rosto) happy -> expr + som de efeito; (rosto) cry -> expr + som de efeito; encena: vence (up) @4 -> acao + som de efeito; encena: pula @5 -> acao + som de efeito; encena: x_chora (facepalm) @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b5  (~4.5 s)
+- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Som ambiente: birds
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: COMENTE!
 - Funcao na historia: FECHO/PIADA FINAL
 

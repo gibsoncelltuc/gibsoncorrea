@@ -352,6 +352,7 @@ if ANO and B.get('veiculos_epoca') is not False:   # VEICULOS DA EPOCA (19/11): 
     _regmap.setdefault('vehicles/tank', ['kit/tanque_ww1' if ANO < 1925 else 'kit/tanque_ww2' if ANO < 1955 else 'kit/tanque_moderno'])
     if ANO < 1955: _regmap.setdefault('vehicles/airplane', ['kit/biplano' if ANO < 1936 else 'kit/aviao_ww2'])
     if ANO < 1950: _regmap.setdefault('vehicles/truck', ['kit/caminhao_antigo'])
+    if ANO < 1820: _regmap.setdefault('kit/navio_vapor', ['kit/navio_vela'])   # 23/11: antes do vapor so' existe navio a vela
     if 1840 <= ANO < 1955: _regmap.setdefault('ship', ['kit/navio_vapor'])
     elif ANO >= 1955: _regmap.setdefault('ship', ['kit/navio_moderno'])
 _CHAO = _REG_CHAO.get(REGIAO)
@@ -1638,7 +1639,7 @@ def build_beat(k, b):
         call = f"{{ ...{call}, {cam}, nocut: true }}"
     # DETALHE DE OBJETO (canal: 5-15% do video e' close no objeto da historia): no meio da cena a camera desliza ate o objeto ou a placa e volta
     _cands = [p_ for p_ in props if not str(p_[0]).startswith(('kit/room', 'kit/porch', 'kit/grave', 'kit/cross', 'kit/tulip_bed', 'buildings/', 'vehicles/', 'ship', 'nature/picket_fence', 'nature/haybale', 'nature/scarecrow', 'nature/bush', 'nature/rocks', 'nature/tree'))]
-    _cands = [p_ for p_ in _cands if (float(p_[2]) if len(p_) > 2 else 0.5) > -3.0 and ((str(p_[0]) == str(HEROI) and str(HEROI) in ('kit/logs', 'kit/campfire', 'kit/fire')) or not str(p_[0]) in ('kit/campfire', 'kit/fire', 'kit/logs', 'kit/volcano', 'kit/tower', 'kit/tower_catch', 'kit/booster_air', 'kit/prison', 'kit/white_house', 'kit/mountain_bunker', 'kit/miners', 'kit/falcon_air', 'kit/falcon9_land', 'kit/b2_air', 'kit/balloon_air', 'kit/helicopter_air', 'kit/iceberg'))]   # heroi pequeno (toras, fogueira) pode ter close; close de detalhe so em objeto pequeno e perto (objeto gigante ao fundo = tela vazia)
+    _cands = [p_ for p_ in _cands if (float(p_[2]) if len(p_) > 2 else 0.5) > (-8.0 if (_glb_len(str(p_[0])) or 0) > 2.2 else -3.0) and ((str(p_[0]) == str(HEROI) and str(HEROI) in ('kit/logs', 'kit/campfire', 'kit/fire')) or not str(p_[0]) in ('kit/campfire', 'kit/fire', 'kit/logs', 'kit/volcano', 'kit/tower', 'kit/tower_catch', 'kit/booster_air', 'kit/prison', 'kit/white_house', 'kit/mountain_bunker', 'kit/miners', 'kit/falcon_air', 'kit/falcon9_land', 'kit/b2_air', 'kit/balloon_air', 'kit/helicopter_air', 'kit/iceberg'))]   # heroi pequeno (toras, fogueira) pode ter close; close de detalhe so em objeto pequeno e perto (objeto gigante ao fundo = tela vazia)
     _fam2 = lambda x_: re.sub(r'_(red|yellow|purple|striped)$', '', str(x_))
     _obj = next((p_ for p_ in _cands if HEROI and _fam2(p_[0]) == _fam2(HEROI)), None); _eh = _obj is not None
     _obj = _obj or next(iter(_cands), None)

@@ -15,10 +15,11 @@ b7 | street | two | 2 | conversar, INTERAGEM: aproxima-se | kit/tower | - | -
 b8 | street | group | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/roadster26, kit/tower | paper | -
 b9 | street | close | 1 | conversar | kit/tower | - | -
 b10 | interior galpao | two | 1 | conversar | kit/roadster26 | - | -
+b11 | interior galpao | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/roadster26
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b5
 Interacoes entre personagens: b0 insiste, b2 vai ate o outro, b3 cochichar, b6 pular, b7 aproxima-se, b8 avanca e o outro recua
 
-Cenas com personagens parados: 0 de 11
+Cenas com personagens parados: 0 de 12
 FALTA MODELAR: nada

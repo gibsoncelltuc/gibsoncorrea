@@ -13,6 +13,7 @@ b7 | two | -  | - | encena: pula @6 (acao + som de efeito) | -
 b8 | group | -  | objeto na mao | - | -
 b9 | close | -  | - | (rosto) distrust (expr + som de efeito) | -
 b10 | two | -  | interior | encena: pula @5 (acao + som de efeito) | -
+b11 | close | -  | interior, placa: COMENTE! | - | -
 
-Mistura de planos: close 9% | medio 79% | aberto 10% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 2 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
+Mistura de planos: close 16% | medio 71% | aberto 9% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 2 | dentro do padrao do canal
