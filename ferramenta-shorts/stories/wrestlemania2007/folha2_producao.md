@@ -104,7 +104,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b10 - E ainda sobrou para Trump: o juiz aplicou um golpe nele também, e ele ...
 - Cenario: stadium | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): JUI (variante 0, expressao smug); TRU (variante 0, expressao shock)
 - Animacao: conversar | interacao: empurrar
@@ -134,7 +134,7 @@ kit/ring | b5, b6, b7, b8, b10 | pronto | conferir na folha de contato se le bem
 
 
 ## Video inteiro
-- Objeto heroi: kit/clipper | grandes momentos: b4, b7 | planos abertos: 3 | mistura: close 27% | medio 58% | aberto 10% | detalhe 6%
+- Objeto heroi: kit/clipper | grandes momentos: b4, b7 | planos abertos: 3 | mistura: close 20% | medio 64% | aberto 10% | detalhe 6%
 - Interacoes: b0 susto, b2 discutir, b3 entregar, b5 empurrar, b6 susto, b8 empurrar, b9 insiste, b10 empurrar
 - RISCOS GERAIS: nenhum
 

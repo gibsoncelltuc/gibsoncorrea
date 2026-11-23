@@ -14,7 +14,7 @@ b6 | stadium | low | 7 | conversar, INTERAGEM: susto | kit/ring | - | -
 b7 | stadium | orbit | 25 | comemorar, batalha | kit/ring, kit/ball | - | -
 b8 | stadium | two | 2 | conversar, INTERAGEM: empurrar | kit/ring, kit/clipper | - | -
 b9 | stadium | two | 2 | conversar, INTERAGEM: insiste | kit/clipper | - | -
-b10 | stadium | close | 2 | conversar, INTERAGEM: empurrar | kit/ring | - | -
+b10 | stadium | group | 2 | conversar, INTERAGEM: empurrar | kit/ring | - | -
 b11 | interior madeira | close | 1 | comemorar | kit/clipper | - | -
 
 OBJETO HEROI: kit/clipper
