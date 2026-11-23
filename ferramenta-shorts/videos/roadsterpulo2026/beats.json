@@ -288,5 +288,31 @@
   "https://www.latimes.com/business/story/2026-10-17/elon-musk-just-showed-off-flying-car-heres-what-to-know-about-tesla-roadster",
   "https://www.caranddriver.com/news/a74145531/tesla-roadster-revealed/",
   "https://www.businessinsider.com/new-tesla-roadster-2-elon-musk-livestream-event-2026-10"
- ]
+ ],
+ "visual": {
+  "local": "Base de testes da SpaceX em McGregor (Texas, EUA): area aberta, chao de terra e concreto; galpoes da SpaceX",
+  "quando": "15 de outubro de 2026, a noite (evento transmitido ao vivo no X)",
+  "participantes": [
+   "Elon Musk no palco",
+   "engenheiros da Tesla/SpaceX",
+   "grupo de fas, imprensa e investidores convidados"
+  ],
+  "roupas": {
+   "MUS": "camiseta cinza-escura com logo T vermelho da Tesla, calca jeans",
+   "ENG": "camisa azul de equipe, bone",
+   "ENA": "camisa azul de equipe",
+   "POV": "roupa casual de convidado"
+  },
+  "cenario": "estrutura curva gigante estilo pista Hot Wheels (o carro sobe ate ficar de cabeca para baixo), refletores fortes na noite, plateia; galpao iluminado para as cenas tecnicas",
+  "objetos": [
+   "Tesla Roadster branco em cunha (estilo Lotus Esprit)",
+   "propulsores SpaceX soltando fumaca branca",
+   "ventiladores sob o carro (succao)"
+  ],
+  "fontes_visuais": [
+   "https://www.caranddriver.com/news/a74145531/tesla-roadster-revealed/",
+   "https://www.businessinsider.com/new-tesla-roadster-2-elon-musk-livestream-event-2026-10",
+   "https://www.youtube.com/watch?v=qt5p-_tE8d0"
+  ]
+ }
 }

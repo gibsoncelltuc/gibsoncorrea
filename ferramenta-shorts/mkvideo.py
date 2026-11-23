@@ -16,6 +16,14 @@ if '--modo' in sys.argv:
 ROOT = os.path.dirname(os.path.abspath(__file__))
 os.chdir(ROOT)
 B = json.load(open(f'videos/{ID}/beats.json', encoding='utf-8'))
+# CHAMADA FINAL (ordem do Gibson 23/11): TODO video termina com o narrador pedindo o comentario com o tema do proximo video (cena propria, close no personagem principal apontando para quem assiste)
+CTA_TXT = B.get('cta_texto') or 'Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?'
+if B.get('cta') is not False and B.get('beats') and not any(b_.get('_cta') or 'tema do próximo vídeo' in b_.get('say', '') for b_ in B['beats']):
+    _w0 = next((w_ for b_ in B['beats'] for w_ in b_.get('who', []) if not w_.startswith(('POV', 'SOL', 'TRO', 'POVO'))), (B['beats'][0].get('who') or ['X:0'])[0])
+    _p0 = _w0.split(':')
+    _lb = B['beats'][-1]
+    B['beats'].append({'who': [f"{_p0[0]}:{_p0[1] if len(_p0) > 1 else 0}:grin"], 'shot': 'close', 'say': CTA_TXT, 'text': 'COMENTE!', '_cta': True, 'detalhe': False, 'mapa': None,
+                       **({'interior': _lb['interior']} if _lb.get('interior') else {'set': _lb.get('set', B.get('set', 'countryside'))}), **({'hora': _lb['hora']} if _lb.get('hora') else {})})
 os.makedirs(f'stories/{ID}', exist_ok=True)
 
 SET = B.get('set', 'countryside')
@@ -552,7 +560,7 @@ _RAIZ = [  # (raizes, gesto, tipo, sufixos proibidos: viram substantivo/outro se
     (('brinc', 'zomb', 'deboch', 'gargalh', 'caçO'), 'up', 'x_ri', ('a', 'e', 'o')),
     (('discut', 'debat', 'ameac', 'ofend', 'xing', 'reclam', 'insult', 'brigA', 'berr', 'acus', 'disput', 'discut'), 'point', 'x_discute', ('a', 'e', 'o')),
     (('cobr',), 'point', 'x_discute', ('a', 'e', 'o', 'iu', 'ia', 'iam', 'ir', 'iram', 'indo')),
-    (('mostr', 'apont', 'explic', 'ensin', 'avis', 'anunci', 'respond', 'pergunt', 'cham', 'ped', 'promet', 'convenc', 'convid', 'mand', 'orden', 'declar', 'conv', 'propus', 'propo', 'negoci', 'apresent'), 'point', 'fala', ('a', 'e', 'o', 'ido', 'ida')),
+    (('coment', 'mostr', 'apont', 'explic', 'ensin', 'avis', 'anunci', 'respond', 'pergunt', 'cham', 'ped', 'promet', 'convenc', 'convid', 'mand', 'orden', 'declar', 'conv', 'propus', 'propo', 'negoci', 'apresent'), 'point', 'fala', ('a', 'e', 'o', 'ido', 'ida')),
     (('olh', 'observ', 'repar', 'espi', 'assist', 'contempl', 'encar', 'avist', 'enxerg'), 'point', 'olha', ('a', 'e', 'o')),
     (('test', 'examin', 'estud', 'analis', 'investig', 'pesquis', 'experiment', 'med'), 'think', 'examina', ('a', 'e', 'o', 'ia', 'iam', 'ida', 'ido')),
     (('bombard', 'metralh', 'alvej', 'fuzil', 'canhone', 'atir'), None, 'atira', ('a', 'e', 'o')),
@@ -1864,6 +1872,10 @@ if HEROI and not any(b.get('_det_heroi') for b in beats): _glob.append((f'objeto
 _cl = __import__('collections').Counter(_lug(b_) for b_ in beats)
 if len(beats) >= 6 and B.get('variar_cenario') is not False and (len(_cl) < 3 or _cl.most_common(1)[0][1] > len(beats) // 2):
     _glob.append((f'pouca variedade de cenario ({dict(_cl)}): o video fica parecendo todos os outros', 'pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: ' + ', '.join(SETS_X) + ' | interior: madeira, pedra, loja)'))
+# PESQUISA VISUAL OBRIGATORIA (ordem do Gibson 23/11): todo roteiro traz "visual" com ONDE/QUANDO/QUEM/ROUPAS DA EPOCA/CENARIO/OBJETOS e as FONTES VISUAIS (fotos, quadros, videos)
+_VIS = B.get('visual') or {}
+_vfal = [k_ for k_ in ('local', 'quando', 'participantes', 'roupas', 'cenario', 'objetos', 'fontes_visuais') if not _VIS.get(k_)]
+if B.get('serie') != 'Teste' and _vfal: _glob.append((f'roteiro sem pesquisa visual completa (falta: {", ".join(_vfal)})', 'pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela'))
 if not HEROI and 'heroi' not in B: _glob.append(('video sem objeto heroi', '"heroi": "kit/<objeto>" no topo do roteiro (modele se nao existir)'))
 _cx = sorted({o_ for b in beats for o_ in [str(p_[0]) for p_ in b.get('props', [])] + b.get('_auto_obj', []) if '/' in str(o_) and not _redondo(str(o_))})
 if _cx: _glob.append((f'objeto montado com caixas (estilo Minecraft): {", ".join(_cx)}', 'refazer com formas redondas: blender/objetos_<sessao>.py usando blender/formas.py (cil, bola, torno, tubo, arco), mesmo nome de arquivo; rodar o blender e este roteiro de novo'))

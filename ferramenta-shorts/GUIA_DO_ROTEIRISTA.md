@@ -9,6 +9,22 @@ Você só precisa criar `videos/<id>/beats.json` e rodar a fila. NÃO edite o mo
 5. Ponha o id em `queue.txt` e rode `bash run_queue.sh` (~15–20 min por vídeo; `bash status.sh` mostra o andamento; retoma sozinho se a sessão reiniciar).
 6. Abra `out/<id>/review_sheet.jpg` antes de entregar. Se o gate reprovar 2 vezes o vídeo é pulado: leia `logs/gate_<id>.txt`, ajuste a cena (personagem escondido atrás de objeto = mude a posição do objeto) e apague `stories/<id>/SKIP` e `stories/<id>/fails`.
 
+## Pesquisa visual (OBRIGATORIA desde 23/11 - sem ela o video nao renderiza)
+Antes de escrever, alem da fonte da HISTORIA, pesquise a FONTE VISUAL (fotos, quadros, gravuras, videos, museus) e preencha no topo do beats.json:
+```json
+"visual": {
+  "local": "SpaceX, McGregor (Texas): campo de testes a ceu aberto, chao de terra/concreto",
+  "quando": "15/out/2026, a noite",
+  "participantes": ["Elon Musk (camiseta escura)", "engenheiros da Tesla", "convidados"],
+  "roupas": {"MUS": "camiseta cinza-escura, calca jeans", "ENG": "camisa azul da equipe"},
+  "cenario": "rampa curva gigante (estilo Hot Wheels), torres de refletor, plateia; galpao iluminado",
+  "objetos": ["Roadster branco (cunha)", "propulsores com fumaca branca"],
+  "fontes_visuais": ["https://...foto1", "https://...video"]
+}
+```
+Depois AJUSTE o roteiro a ela: figurino de cada personagem (cor, chapeu, uniforme da epoca), "set"/"interior"/"hora" de cada cena, objetos em "props" (modele no Blender o que faltar: o cenario real, o veiculo real, o utensilio da epoca). Fato que a pesquisa contradiz sai da narracao.
+No fim de todo video a ferramenta poe sozinha a chamada: "Agora nao deixe de comentar: qual deve ser o tema do proximo video?" ("cta_texto" troca a frase; "cta": false desliga).
+
 ## beats.json
 ```json
 {"title": "Titulo", "voice": "pt-BR-AntonioNeural", "rate": "+10%", "set": "street", "light": "day", "mood": "playful",
