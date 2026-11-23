@@ -1,18 +1,18 @@
-# Plano de acao - Poder e Fama EP 25 - O Carro que Pulou Outros Carros
+# Plano de acao - Poder e Fama EP 25 - O Carro que Voou de Cabeça para Baixo
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | placa: 2026 | (rosto) laugh (expr + som de efeito); encena: fala (point) @2 (acao + som de efeito); encena: fala (point) @17 (acao + som de efeito) | -
-b1 | reveal | -  | tropa, mapa | - | -
-b2 | two | -  | objeto na mao | - | -
-b3 | close | -  | objeto na mao | segredo (ring + som de alerta); encena: pensa (think) @1 (acao + som de efeito) | -
-b4 | crowd | -  | batalha aberta com tiros, tropa, placa: PULOU! | encena: pula @10 (acao + som de efeito) | -
-b5 | low | -  | - | - | -
-b6 | two | -  | - | - | -
+b0 | two | noite  | - | (rosto) laugh (expr + som de efeito); encena: fala (point) @2 (acao + som de efeito); encena: fala (point) @17 (acao + som de efeito) | -
+b1 | reveal | noite  | tropa, mapa | encena: fala (point) @15 (acao + som de efeito) | -
+b2 | two | -  | interior, objeto na mao | - | -
+b3 | group | -  | interior, objeto na mao | segredo (ring + som de alerta); encena: pensa (think) @1 (acao + som de efeito) | -
+b4 | crowd | noite  | batalha aberta com tiros, tropa | encena: x_dirige (point) @8 (acao + som de efeito); encena: escala (lift) @9 (acao + som de efeito) | -
+b5 | group | noite  | batalha aberta com tiros, tropa | encena: x_solta (up) @2 (acao + som de efeito); encena: voa (point) @3 (acao + som de efeito); encena: x_desce @8 (acao + som de efeito); encena: tomba @10 (acao + som de efeito) | -
+b6 | two | noite  | - | (rosto) laugh (expr + som de efeito); encena: vence (up) @1 (acao + som de efeito); encena: x_pesca (lift) @11 (acao + som de efeito) | -
 b7 | two | -  | - | encena: pula @6 (acao + som de efeito) | -
-b8 | close | -  | objeto na mao | - | -
-b9 | orbit | -  | batalha aberta com tiros, tropa, placa: VOOU? | (rosto) distrust (expr + som de efeito) | -
-b10 | close | -  | - | encena: pula @5 (acao + som de efeito) | -
+b8 | group | -  | objeto na mao | - | -
+b9 | close | -  | - | (rosto) distrust (expr + som de efeito) | -
+b10 | two | -  | interior | encena: pula @5 (acao + som de efeito) | -
 
-Mistura de planos: close 30% | medio 53% | aberto 10% | detalhe 8%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | dentro do padrao do canal
+Mistura de planos: close 9% | medio 79% | aberto 10% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 2 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

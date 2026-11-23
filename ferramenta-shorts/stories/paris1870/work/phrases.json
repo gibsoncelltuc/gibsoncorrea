@@ -1,0 +1,252 @@
+{
+ "duration": 46.968,
+ "frames30": 1409,
+ "source": "silence-align (cost 1.25)",
+ "segments": [
+  [
+   0.156375,
+   1.659
+  ],
+  [
+   1.82583,
+   3.06171
+  ],
+  [
+   3.90162,
+   4.7495
+  ],
+  [
+   4.96221,
+   5.80433
+  ],
+  [
+   6.03946,
+   6.89483
+  ],
+  [
+   7.76692,
+   8.16504
+  ],
+  [
+   8.40796,
+   10.2548
+  ],
+  [
+   11.1122,
+   11.6232
+  ],
+  [
+   11.945,
+   13.232
+  ],
+  [
+   14.0896,
+   14.5872
+  ],
+  [
+   14.857,
+   15.467
+  ],
+  [
+   15.6813,
+   16.9514
+  ],
+  [
+   17.8162,
+   18.6671
+  ],
+  [
+   18.8963,
+   20.5853
+  ],
+  [
+   21.4423,
+   23.2813
+  ],
+  [
+   23.505,
+   24.5052
+  ],
+  [
+   24.7526,
+   26.253
+  ],
+  [
+   27.1105,
+   27.6323
+  ],
+  [
+   27.9076,
+   30.4309
+  ],
+  [
+   30.7189,
+   32.5152
+  ],
+  [
+   33.3768,
+   34.6902
+  ],
+  [
+   34.8769,
+   35.7195
+  ],
+  [
+   36.5875,
+   37.61
+  ],
+  [
+   37.7976,
+   40.1403
+  ],
+  [
+   40.9957,
+   43.7133
+  ],
+  [
+   44.0825,
+   45.002
+  ],
+  [
+   45.2446,
+   46.1971
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Em mil oitocentos e setenta,",
+   "s": 0.156,
+   "e": 1.659
+  },
+  {
+   "text": "a Pr\u00fassia cercou Paris.",
+   "s": 1.826,
+   "e": 3.062
+  },
+  {
+   "text": "Ningu\u00e9m entrava,",
+   "s": 3.902,
+   "e": 4.75
+  },
+  {
+   "text": "ningu\u00e9m sa\u00eda,",
+   "s": 4.962,
+   "e": 5.804
+  },
+  {
+   "text": "e a comida acabou.",
+   "s": 6.039,
+   "e": 6.895
+  },
+  {
+   "text": "Primeiro,",
+   "s": 7.767,
+   "e": 8.165
+  },
+  {
+   "text": "os parisienses comeram os cavalos.",
+   "s": 8.408,
+   "e": 10.255
+  },
+  {
+   "text": "Depois,",
+   "s": 11.112,
+   "e": 11.623
+  },
+  {
+   "text": "os cachorros e os gatos.",
+   "s": 11.945,
+   "e": 13.232
+  },
+  {
+   "text": "Depois,",
+   "s": 14.09,
+   "e": 14.587
+  },
+  {
+   "text": "os roedores,",
+   "s": 14.857,
+   "e": 15.467
+  },
+  {
+   "text": "que viraram um prato chique.",
+   "s": 15.681,
+   "e": 16.951
+  },
+  {
+   "text": "Quando acabou tudo,",
+   "s": 17.816,
+   "e": 18.667
+  },
+  {
+   "text": "olharam para o zool\u00f3gico da cidade.",
+   "s": 18.896,
+   "e": 20.585
+  },
+  {
+   "text": "O a\u00e7ougueiro comprou dois elefantes,",
+   "s": 21.442,
+   "e": 23.281
+  },
+  {
+   "text": "Castor e P\u00f3lux,",
+   "s": 23.505,
+   "e": 24.505
+  },
+  {
+   "text": "e vendeu a carne em peda\u00e7os.",
+   "s": 24.753,
+   "e": 26.253
+  },
+  {
+   "text": "No Natal,",
+   "s": 27.11,
+   "e": 27.632
+  },
+  {
+   "text": "um restaurante famoso serviu consom\u00ea de elefante,",
+   "s": 27.908,
+   "e": 30.431
+  },
+  {
+   "text": "dromed\u00e1rio assado e ensopado de canguru.",
+   "s": 30.719,
+   "e": 32.515
+  },
+  {
+   "text": "Tinha at\u00e9 gato com roedores,",
+   "s": 33.377,
+   "e": 34.69
+  },
+  {
+   "text": "e pernil de lobo.",
+   "s": 34.877,
+   "e": 35.719
+  },
+  {
+   "text": "Para mandar not\u00edcias,",
+   "s": 36.587,
+   "e": 37.61
+  },
+  {
+   "text": "os parisienses usavam bal\u00f5es e pombos-correio.",
+   "s": 37.798,
+   "e": 40.14
+  },
+  {
+   "text": "O cerco acabou em janeiro de mil oitocentos e setenta e um,",
+   "s": 40.996,
+   "e": 43.713
+  },
+  {
+   "text": "e Paris se rendeu,",
+   "s": 44.083,
+   "e": 45.002
+  },
+  {
+   "text": "de barriga vazia.",
+   "s": 45.245,
+   "e": 46.197
+  }
+ ]
+}

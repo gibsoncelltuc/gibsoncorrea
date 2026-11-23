@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Em mil oitocentos e setenta, a Prússia cercou Paris. Ninguém entrava, ninguém saía, e a comida acabou.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: chega (point) @7 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1870 | mapa: PARIS
 - Funcao na historia: GANCHO
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Quando acabou tudo, olharam para o zoológico da cidade.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: olha (point) @3 -> acao + som de efeito
 - Efeito visual marcado: ring@12, dust@40
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Para mandar notícias, os parisienses usavam balões e pombos-correio.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: fala (point) @1 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: BALÕES E POMBOS
 - Funcao na historia: desenvolvimento
