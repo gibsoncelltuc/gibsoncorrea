@@ -183,8 +183,8 @@
   {
    "shot": "two",
    "who": [
-    "GOO:0:laugh",
-    "CLA:0:laugh"
+    "GOO:0:grin",
+    "CLA:0:surprised"
    ],
    "interacao": "abracar",
    "fx": [
@@ -193,7 +193,7 @@
    "sfx": [
     "ding@40"
    ],
-   "say": "Ele abraçou a esposa. Finalmente a borracha aguentava calor e frio.",
+   "say": "Tinha nascido a vulcanização: finalmente a borracha aguentava o calor e o frio.",
    "set": "countryside",
    "interior": false
   },
@@ -285,5 +285,34 @@
    "text": "GOODYEAR",
    "say": "E uma fábrica de pneus famosa ganhou o nome dele em homenagem. Ele nunca soube."
   }
- ]
+ ],
+ "visual": {
+  "local": "Woburn (Massachusetts, EUA): cozinha de casa simples com fogao de ferro; prisao de devedores; tribunais; fabricas de pneus depois",
+  "quando": "inverno de 1839 (a gosma no fogao quente); morreu em 1860 cheio de dividas",
+  "participantes": [
+   "Charles Goodyear, inventor falido",
+   "Clarissa, a esposa",
+   "credores e guardas da prisao de devedores",
+   "concorrentes que copiaram a ideia"
+  ],
+  "roupas": {
+   "GOO": "sobrecasaca escura, colete, cartola (anos 1830)",
+   "CLA": "vestido longo e coque",
+   "GUA": "guarda de prisao com bone de servico",
+   "COB": "cobrador de terno",
+   "POV": "povo dos anos 1830"
+  },
+  "cenario": "cozinha com fogao de ferro a lenha e panelas, cela de pedra, sala de tribunal, rua de vila americana",
+  "objetos": [
+   "borracha crua (gosma)",
+   "enxofre",
+   "fogao de ferro quente",
+   "panelas",
+   "pneus e bolas de borracha"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Charles_Goodyear",
+   "https://en.wikipedia.org/wiki/Vulcanization"
+  ]
+ }
 }

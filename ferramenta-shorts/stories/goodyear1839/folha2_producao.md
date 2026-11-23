@@ -82,14 +82,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): borracha
 - RISCOS: nenhum
 
-## Cena b8 - Ele abraçou a esposa. Finalmente a borracha aguentava calor e frio.
+## Cena b8 - Tinha nascido a vulcanização: finalmente a borracha aguentava o calor ...
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): GOO (variante 0, expressao laugh); CLA (variante 0, expressao laugh) | multidao: 6 de POV
-- Animacao: encena
+- Personagens principais (2): GOO (variante 0, expressao grin); CLA (variante 0, expressao surprised) | multidao: 6 de POV
+- Animacao: -
 - Objetos/modelos: kit/stove
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): borracha, esposa
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): borracha, calor, frio, vulcanizacao
 - RISCOS: nenhum
 
 ## Cena b9 - Mas outros copiaram a ideia, e ele passou anos brigando na justiça. Mo...
@@ -122,6 +122,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fabrica, pneus
 - RISCOS: nenhum
 
+## Cena b12 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Cenario: street | luz: day | clima: limpo
+- Camera: close = close no rosto; empurra devagar
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Personagens principais (1): GOO (variante 0, expressao grin)
+- Animacao: conversar
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
+- RISCOS: nenhum
+
 ## PARA O BLENDER (objetos 3D deste video)
 Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito no Blender; a ferramenta so' poe em cena, pinta o contorno e anima. Nada de objeto "quadradao": use `blender/formas.py` (cil, bola, torno, tubo, arco, caixa com chanfro).
 
@@ -133,7 +143,7 @@ kit/ball | b10 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/borracha | grandes momentos: b2, b10 | planos abertos: 4 | mistura: close 12% | medio 72% | aberto 16% | detalhe 0%
+- Objeto heroi: kit/borracha | grandes momentos: b2, b10 | planos abertos: 4 | mistura: close 18% | medio 66% | aberto 16% | detalhe 0%
 - Interacoes: b0 avanca e o outro recua, b3 o outro se aproxima, b4 empurrar, b5 insiste, b9 discutir
 - RISCOS GERAIS: nenhum
 

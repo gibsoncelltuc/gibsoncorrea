@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 17 - A Borracha que Caiu no Fogão
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 12 cenas, 173 palavras (~60 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 13 cenas, 188 palavras (~65 s)
 
 ## Cena b0  (~5.9 s)
 - Narracao: Um inventor falido deixou cair uma gosma no fogão da cozinha. E mudou o mundo para sempre.
@@ -74,11 +74,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
-## Cena b8  (~3.8 s)
-- Narracao: Ele abraçou a esposa. Finalmente a borracha aguentava calor e frio.
+## Cena b8  (~4.5 s)
+- Narracao: Tinha nascido a vulcanização: finalmente a borracha aguentava o calor e o frio.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: encena: x_abraca @1 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Mas outros copiaram a ideia, e ele passou anos brigando na justiça. Morreu cheio de dívidas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; Morreu -> puff + som de baque; encena: pensa (think) @4 -> acao + som de efeito; encena: golpe (punch) @9 -> acao + som de efeito; encena: morre @12 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; Morreu -> puff + som de baque; encena: escreve (write) @2 -> acao + som de efeito; encena: pensa (think) @4 -> acao + som de efeito; encena: golpe (punch) @9 -> acao + som de efeito; encena: morre @12 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -108,5 +108,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeito + som nas palavras-chave: ganhou -> stars + som de sino; encena: vence (up) @6 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: GOODYEAR
+- Funcao na historia: desenvolvimento
+
+## Cena b12  (~4.5 s)
+- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: COMENTE!
 - Funcao na historia: FECHO/PIADA FINAL
 
