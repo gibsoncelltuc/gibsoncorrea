@@ -1659,6 +1659,7 @@ def build_beat(k, b):
             k0 = (ox, oy_ * os_, oz, (5.6 if oy_ > 1.5 else 5.0) if oy_ > 1 else 4.2, 14 if ox < 0 else -14, 6 if oy_ > 1 else 10, 44); k1 = (ox, oy_ * os_, oz, (4.7 if oy_ > 1.5 else 4.2) if oy_ > 1 else 3.4, 8 if ox < 0 else -8, 5 if oy_ > 1 else 9, 44)
             _Lo = (_glb_len(str(_obj[0])) or 0) * os_   # 23/11: objeto grande (carro, carroca, canhao...) inteiro no close: a distancia cresce com o tamanho dele (quadro vertical: cabe ~0,46 x distancia de largura)
             if _Lo > 1.6: k0 = (ox, oy_ * os_, oz, round(_Lo * 2.4 + 1.2, 2), k0[4], 7, 44); k1 = (ox, oy_ * os_, oz, round(_Lo * 2.15 + 1.0, 2), k1[4], 6, 44)
+            if (_glb_alt(str(_obj[0])) or 1.5) < 0.4: k0 = k0[:3] + (round(max(3.2, _Lo * 1.7 + 1.0), 2), k0[4], 38, k0[6]); k1 = k1[:3] + (round(max(2.8, _Lo * 1.5 + 0.8), 2), k1[4], 42, k1[6])   # objeto achatado (faca, moeda, carta): camera olha DE CIMA
         else: k0 = (0.0, 3.1, -1.3, 9.6, 6, -3, 44); k1 = (0.0, 3.1, -1.3, 8.6, -4, -3, 44)   # close na placa: mais longe, a placa cabe INTEIRA no quadro
         Kc = lambda f_, q: f"{{ f: {f_}, at: [X + {num(q[0])}, DK + {num(q[1])}, {num(q[2])}], d: {num(q[3])}, az: {num(q[4])}, el: {num(q[5])}, fov: {num(q[6])} }}"
         base = call; pid = f"S('b{k}', {a}, {bb}, X,"
