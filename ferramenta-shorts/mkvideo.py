@@ -83,6 +83,7 @@ _LUGAR = ((r'desert|areia|egito|egipci|piramide|arabia|saara|australia|faraó|fa
           (r'fazenda|\bcampo\b|plantac|colheit|lavoura|agricult|\bsitio\b|pasto', 'set', 'countryside'),
           (r'palacio|congresso|parlamento|\bonu\b|assembleia|tribunal|senado|discurso|coletiva|casa branca|gabinete', 'interior', 'pedra'),
           (r'hospital|enfermaria|pronto.socorro|\buti\b|internad|cirurgia|\bmaca\b|leito|maternidade|clinica|paciente|enfermeir|parteir|\bparto\b', 'interior', 'hospital'),
+          (r'galpao|hangar|armazem|oficina|base de testes|linha de montagem|fabrica de foguete', 'interior', 'galpao'),
           (r'escritorio|empresa\b|reuniao|laboratorio|\bloja\b|mercado|padaria|\bbanco\b|restaurante|bar\b|fabrica\b|fabricas\b', 'interior', 'loja'),
           (r'(?<!para )\bcasa\b|\bsala\b|quarto|cozinha|familia|jantar', 'interior', 'madeira'),
           (r'\bpraia\b|\bareia\b|\bcosta\b|desembarc|\bcais\b|\bporto\b|navios?\b', 'set', 'harbor'),
@@ -1066,7 +1067,7 @@ def build_beat(k, b):
     # INTERIOR: "interior": "madeira" | "pedra" | "loja"  -> sala com parede a ~5 m, janela, porta, quadros, chao com juntas + moveis
     it = b.get('interior')
     if it:
-        _tp = {'madeira': 'wood', 'pedra': 'stone', 'loja': 'shop', 'hospital': 'hospital'}.get(it, 'wood')
+        _tp = {'madeira': 'wood', 'pedra': 'stone', 'loja': 'shop', 'hospital': 'hospital', 'galpao': 'galpao'}.get(it, 'wood')
         _rr = REGIAO if REGIAO in _REG_N else ['azul', 'verde', 'rosa', 'europa', 'colonial'][sum(map(ord, ID)) % 5]   # sala da regiao (ou uma cor por video): nunca a mesma sala marrom em todos
         # 23/11 (Gibson: "cenario repetindo"): cada VOLTA para dentro de casa e' outra sala (outra cor de parede e outros moveis), nunca a mesma sala o video todo
         if k > 0 and beats[k - 1].get('interior') != it: STATE['sala_n'] = STATE.get('sala_n', -1) + 1
@@ -1074,9 +1075,9 @@ def build_beat(k, b):
         _sn = STATE['sala_n']
         _cores = list(dict.fromkeys(([_rr] if _rr else []) + ['europa', 'verde', 'azul', 'rosa', 'colonial', 'classico']))
         _rr = _cores[_sn % len(_cores)]
-        kit = 'kit/room_hospital' if it == 'hospital' else f'kit/room_{_rr}_{_tp}' if os.path.exists(f'web/assets/library/kit/room_{_rr}_{_tp}.glb') else {'madeira': 'kit/room_wood', 'pedra': 'kit/room_stone', 'loja': 'kit/room_shop'}.get(it, 'kit/room_wood')
+        kit = 'kit/room_hospital' if it == 'hospital' else 'kit/room_galpao' if it == 'galpao' else f'kit/room_{_rr}_{_tp}' if os.path.exists(f'web/assets/library/kit/room_{_rr}_{_tp}.glb') else {'madeira': 'kit/room_wood', 'pedra': 'kit/room_stone', 'loja': 'kit/room_shop'}.get(it, 'kit/room_wood')
         pr.append(f"{{ asset: {json.dumps(kit)}, at: [X, 0], s: 1, drop: false }}")
-        for nm_, dx_, z_, s_ in (b.get('moveis') or ([('kit/maca', 4.2, -3.2, 1.4), ('kit/maca', -4.4, -3.0, 1.4), ('kit/maca', 8.0, -2.6, 1.4)] if it == 'hospital' else [] if it == 'loja' else [[('mk/Bookcase_2', 7.4, -3.4, 2.4), ('mk/Table_Large', -6.6, -1.6, 2.2), ('mk/Chair_1', -4.4, -1.2, 2.2), ('mk/Chest_Wood', 6.9, 0.6, 2.2)],
+        for nm_, dx_, z_, s_ in (b.get('moveis') or ([('kit/maca', 4.2, -3.2, 1.4), ('kit/maca', -4.4, -3.0, 1.4), ('kit/maca', 8.0, -2.6, 1.4)] if it == 'hospital' else [] if it == 'loja' else [('mk/Crate_Metal', -6.8, -2.6, 2.4), ('mk/Workbench', 6.8, -2.8, 2.2), ('mk/Crate_Wooden', 7.6, 0.4, 2.0), ('mk/Barrel', -7.6, 0.6, 2.0)] if it == 'galpao' else [[('mk/Bookcase_2', 7.4, -3.4, 2.4), ('mk/Table_Large', -6.6, -1.6, 2.2), ('mk/Chair_1', -4.4, -1.2, 2.2), ('mk/Chest_Wood', 6.9, 0.6, 2.2)],
             [('mk/Cabinet', -7.2, -3.3, 2.3), ('mk/Bed_Twin1', 7.0, -2.4, 2.1), ('mk/Nightstand_Shelf', 4.6, -3.2, 2.2), ('mk/CandleStick_Stand', -4.8, -2.8, 2.2), ('mk/Barrel', -7.4, 0.8, 2.0)],
             [('mk/Workbench_Drawers', 7.0, -3.0, 2.2), ('mk/Shelf_Small_Bottles', -6.8, -3.4, 2.4), ('mk/Stool', 4.8, -1.4, 2.2), ('mk/Crate_Wooden', -7.0, 0.4, 2.0), ('mk/Vase_2', 0.0, -3.6, 2.2)],
             [('mk/Shelf_Arch', 6.8, -3.4, 2.4), ('mk/Bench', -6.4, -2.0, 2.2), ('mk/Table_Large', 6.6, -0.8, 2.0), ('mk/Vase_4', -7.6, 0.6, 2.2), ('mk/CandleStick_Triple', -4.2, -3.0, 2.2)]][STATE.get('sala_n', 0) % 4])):
@@ -1140,7 +1141,38 @@ def build_beat(k, b):
             if _L and float(s) * _L < 0.85 * _alvo: s = round(_alvo / _L, 2)   # carro proporcional aos personagens (~3 m): nunca carrinho de brinquedo
             _tv = ' ' + re.sub(r'[^a-z0-9 ]', ' ', unicodedata.normalize('NFKD', b['say'].lower()).encode('ascii', 'ignore').decode()) + ' '
             _xa = dx - 4.5 if float(dx) <= 0 else dx + 4.5
-            if re.search(r' (espaco|orbita|starman|marte|gravidade zero)|ao redor do sol', _tv) and 'move' not in ex and 'y' not in ex:   # NO ESPACO: flutua, gira devagar e atravessa a cena (nunca parado)
+            _sgF = _FRENTE.get(str(asset).split('/')[-1], 1); _RL = 5.5; _ws0 = b['say'].split()
+            _jx = lambda rx_: next((j_ for j_, w_ in enumerate(_ws0) if re.match(rx_, nrm(w_))), None)
+            if re.search(r' rampa', _tv) and re.search(r'cabeca para baixo|ponta cabeca| loop|rampa curva|curva gigante', _tv) and 'y' not in ex:   # SOBE A RAMPA CURVA ate ficar de cabeca para baixo (sem cortar: rampa 3D + carro no caminho da curva)
+                _j0 = _jx(r'(acelerou|subiu|arrancou|rampa)'); _T0 = (f"WS({starts[k] + _j0}) - 10" if _j0 is not None else f"({a}) + 10"); _rx0 = 0.0
+                pr.append(f"{{ asset: 'kit/rampa_curva', at: [X + {num(_rx0)}, {num(z)}], s: 1, drop: false{', ry: 3.1416' if _sgF < 0 else ''} }}")
+                _th = f"Math.PI * Math.min(1, Math.max(0, (f - ({_T0}) - 24) / 40))"
+                extra += (f", xf: (f) => {{ const u = Math.min(1, Math.max(0, (f - ({_T0})) / 24)); return u < 1 ? X + {num(_rx0 - _sgF * 9)} + {num(_sgF * 9)} * u : X + {num(_rx0)} + {num(_sgF * _RL)} * Math.sin({_th}); }}"
+                          f", y: (f) => DK + 0.28 + {num(_RL)} - {num(_RL)} * Math.cos({_th}), rz: (f) => {num(_sgF)} * {_th}, move: [[X + {num(_rx0)}, {num(z)}], {a}, {bb}, 'lin'], align: false")
+                b['_anfx'] = b.get('_anfx', []) + [f"{{ k: 'dust', a: {_T0}, b: {_T0} + 30, at: [X + {num(_rx0 - _sgF * 8)}, DK + 0.3, {num(z)}], s: 1.6 }}"]
+                if _j0 is not None: KWSFX.append((starts[k] + _j0, 'whoosh'))
+                STATE['loop_top'] = (_rx0, float(z), _sgF, k); b['detalhe'] = False
+                b.setdefault('_veic_anim', []).append('acelera e sobe a rampa curva gigante ate ficar de cabeca para baixo')
+            elif STATE.get('loop_top') and STATE['loop_top'][3] == k - 1 and re.search(r' (soltou|se soltou|voou|girou|gira|pousou|aterriss)', _tv) and 'y' not in ex:   # DO TOPO DA RAMPA: se solta, voa girando (barrel roll) com os propulsores soltando fumaca e pousa numa nuvem branca
+                _rx0, _zr, _sgF, _ = STATE.pop('loop_top'); z = _zr
+                pr.append(f"{{ asset: 'kit/rampa_curva', at: [X + {num(_rx0)}, {num(_zr)}], s: 1, drop: false{', ry: 3.1416' if _sgF < 0 else ''} }}")
+                _j0 = _jx(r'(soltou|voou|girou|gira)'); _T0 = (f"WS({starts[k] + _j0}) - 6" if _j0 is not None else f"({a}) + 8"); _TF = 54; _DX = -_sgF * 10.0
+                _u = f"Math.min(1, Math.max(0, (f - ({_T0})) / {_TF}))"
+                extra += (f", xf: (f) => X + {num(_rx0)} + {num(_DX)} * {_u}, y: (f) => {{ const u = {_u}; return DK + 0.28 + {num(2 * _RL)} * (1 - u) * (1 - u) + 2.5 * u * (1 - u); }}"
+                          f", rz: (f) => {num(_sgF)} * Math.PI * (1 + {_u}), rx: (f) => 2 * Math.PI * {_u} * {_u} * (3 - 2 * {_u}), move: [[X + {num(_rx0)}, {num(_zr)}], {a}, {bb}, 'lin'], align: false")
+                _fx_ = []
+                for i_ in range(0, _TF, 6):   # fumacinha dos propulsores saindo de baixo do carro durante o voo
+                    u_ = i_ / _TF; x_ = _rx0 + _DX * u_; y_ = 0.28 + 2 * _RL * (1 - u_) ** 2 + 2.5 * u_ * (1 - u_)
+                    _fx_.append(f"{{ k: 'puff', a: {_T0} + {i_}, b: {_T0} + {i_ + 22}, at: [X + {num(x_)}, DK + {num(max(0.3, y_ - 0.7))}, {num(_zr)}], s: 0.9 }}")
+                for i_, dx_ in enumerate((-1.6, 0.0, 1.6, -0.8, 0.8)):   # pouso: nuvem de fumaca branca
+                    _fx_.append(f"{{ k: 'puff', a: {_T0} + {_TF - 4 + i_ * 3}, b: {_T0} + {_TF + 40 + i_ * 3}, at: [X + {num(_rx0 + _DX + dx_)}, DK + {num(0.5 + 0.3 * (i_ % 2))}, {num(_zr + 0.4)}], s: 2.2 }}")
+                _fx_.append(f"{{ k: 'dust', a: {_T0} + {_TF - 2}, b: {_T0} + {_TF + 30}, at: [X + {num(_rx0 + _DX)}, DK + 0.3, {num(_zr)}], s: 2.0 }}")
+                b['_anfx'] = b.get('_anfx', []) + _fx_; b['detalhe'] = False
+                if _j0 is not None: KWSFX.append((starts[k] + _j0, 'whoosh'))
+                _jp = _jx(r'(pousou|aterriss|desceu)')
+                if _jp is not None: KWSFX.append((starts[k] + _jp, 'thump'))
+                b.setdefault('_veic_anim', []).append('se solta do topo, voa girando com fumaca dos propulsores e pousa numa nuvem branca')
+            elif re.search(r' (espaco|orbita|starman|marte|gravidade zero)|ao redor do sol', _tv) and 'move' not in ex and 'y' not in ex:   # NO ESPACO: flutua, gira devagar e atravessa a cena (nunca parado)
                 extra += f", y: (f) => DK + 1.6 + 0.35 * Math.sin((f - ({a})) / 22), spinY: 0.35, move: [[X + {num(dx + 3.5)}, {num(z)}], {a}, {bb}, 'io'], align: false"
                 b.setdefault('_veic_anim', []).append('flutua no espaco girando')
             elif re.search(r' (pul\w*|salt\w*|voa|voam|voou|voaram|voando|voar|decol\w*|levantou voo|alcou voo|planou|sobrevo\w*|saiu do chao|subiu aos ceus|desceu|pousou|aterriss\w*)\b', _tv) and 'y' not in ex:
@@ -1163,6 +1195,7 @@ def build_beat(k, b):
                     extra += f", y: (f) => DK + 3.0 * Math.pow(Math.min(1, Math.max(0, (f - ({t0})) / 46)), 1.6) + (f > ({t0}) + 20 ? 0.12 * Math.sin((f - ({t0})) / 6) : 0)"
                     if 'move' not in ex: extra += f", move: [[X + {num(dx + _mvx)}, {num(z - 1.0)}], {t0} + 10, {bb}, 'in'], align: false" + ('' if 'ry' in ex else f", ry: {_ryv(asset, 1 if float(dx) <= 0 else -1)}")
                     b['_anfx'] = b.get('_anfx', []) + [f"{{ k: 'dust', a: {t0} - 2, b: {t0} + 30, at: [X + {num(dx)}, DK + 0.3, {num(z)}], s: 1.6 }}", f"{{ k: 'puff', a: {t0}, b: {t0} + 24, at: [X + {num(dx)}, DK + 0.4, {num(z)}], s: 1.3 }}"]
+                    b['_anfx'] += [f"{{ k: 'puff', a: {t0} + {i_}, b: {t0} + {i_ + 22}, at: [X + {num(dx + _mvx * min(1, max(0, (i_ - 10) / 40)) ** 2)}, DK + {num(max(0.3, 3.0 * min(1, i_ / 46) ** 1.6 - 0.6))}, {num(z - min(1, i_ / 46))}], s: 0.8 }}" for i_ in range(4, 50, 6)]   # fumacinha dos propulsores debaixo do carro enquanto sobe
                     if _jv is not None: KWSFX.append((starts[k] + _jv, 'whoosh'))
                     b.setdefault('_veic_anim', []).append('decola do chao com poeira e sobe voando')
             elif re.search(r' (dirig\w*|acelerou|arrancou|andou|andava|correu|corria|passou|desfil\w*|estrada|avenida|percorr\w*|viajou|rodou|chegou|lancad\w*|lancou|pilot\w*)\b', _tv) and 'move' not in ex:   # ANDANDO: atravessa a cena rodando
@@ -1776,7 +1809,7 @@ def _riscos(k, b):
     if re.search(r'queim|incendi|\bfogo\b|em chamas|\bchamas\b', t) and not re.search(r'abriram fogo|abriu fogo|fogo amigo|cessar fogo|arma de fogo|lanca ?chamas|extintor', t) and not b.get('_fogo'): R.append(('a narracao fala de FOGO e nao ha fogo em cena', 'tirar "interior"/"fogo": false desta cena (as labaredas entram sozinhas em cena externa) e por tocha na mao de quem ateia: "who": ["GAU:0:angry:torch", ...]'))
     if re.search(r'\bbatalha|\blutaram|\blutou|\batacaram|\batacou|\bataque\b|\bcombate|\binvadiram|\binvadiu|\binvadido|bombarde|\bguerrearam|tiroteio', t) and not (b.get('impact') or b.get('batalha') or b.get('esperando') or b.get('desembarque') or (b.get('crowd') and re.search(r'aconteceu|houve|foi uma|ficou conhecid|chamad', t))): R.append(('a narracao fala de BATALHA/ATAQUE e a cena nao encena a luta', '"batalha": true nesta cena (tropa dos dois lados no "crowd", tiros/golpes e gente fugindo); cada batalha citada no roteiro = uma cena com "batalha": true'))
     if re.search(r'explodi|explos|\bbomba', t) and not (b.get('impact') or any(str(e_).startswith('burst') for e_ in b.get('fx', [])) or (re.search(r'\bbomba', t) and not re.search(r'explodi|explos', t) and any('bomb' in str(p_[0]) for p_ in b.get('props', [])))): R.append(('a narracao fala de EXPLOSAO e nao ha explosao', '"fx": ["burst@30"], "sfx": ["cannon@30"] (acerte o numero para o quadro da palavra)'))
-    if re.search(r'\bfugiu|\bfugiram|\bcorreu|\bcorreram|debandada|\bfuga\b|bateu em retirada|recuaram', t) and not (b.get('impact') or b.get('shot') == 'track' or b.get('move') or b.get('_chega') or b.get('montado')): R.append(('a narracao fala de FUGA/CORRERIA e ninguem corre', '"shot": "track" (os personagens atravessam a tela andando/correndo) ou "batalha": true (a tropa foge no plano aberto)'))
+    if re.search(r'\bfugiu|\bfugiram|\bcorreu|\bcorreram|debandada|\bfuga\b|bateu em retirada|recuaram', t) and not re.search(r'correu (o|pelo) mundo|noticia correu|boato correu|video correu|correu a noticia|tempo correu', t) and not (b.get('impact') or b.get('shot') == 'track' or b.get('move') or b.get('_chega') or b.get('montado')): R.append(('a narracao fala de FUGA/CORRERIA e ninguem corre', '"shot": "track" (os personagens atravessam a tela andando/correndo) ou "batalha": true (a tropa foge no plano aberto)'))
     _hats = {str({**PROFISSOES.get(str(B.get('outfits', {}).get(w.split(':')[0], {}).get('profissao', '')).lower(), {}), **B.get('outfits', {}).get(w.split(':')[0], {})}.get('hat', '')) for w in b.get('who', [])}
     for rx_, ok_, pr_ in ((r'\brei\b|\brainha\b|imperador|imperatriz|\bsultao\b|\bprincipe\b', ('crown', 'turban'), 'rei'), (r'\bgeneral\b|almirante|\bcoronel\b|comandante|\bcapitao\b|marechal', ('shako_tall', 'shako', 'helmet'), 'general'), (r'campones|fazendeiro|agricultor|lavrador', ('straw', 'bonnet', 'slouch'), 'agricultor')):
         if re.search(rx_, t) and b.get('who') and not (_hats & set(ok_)) and (b.get('shot') not in WIDE): R.append((f'a narracao cita "{re.search(rx_, t).group(0)}" e ninguem em cena esta vestido a carater', f'por no "who" um personagem com "profissao": "{pr_}" no figurino (coroa/farda/chapeu proprios)'))
