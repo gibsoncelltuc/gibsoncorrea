@@ -65,6 +65,8 @@ for _b in B['beats']:   # MONTANHA: cena que fala de colina/montanha/morro acont
 _VEIC_RX = re.compile(r'(^|/)(carro|car|roadster|cybertruck|truck|taxi|jeep|caminhao|onibus|bus|motorcycle|moto|carro_[a-z0-9]+)')
 _EH_VEIC = lambda a_: bool(_VEIC_RX.search(str(a_))) and not re.search(r'carroca|wagon|cart|carrinho|falcon|rocket', str(a_))
 _GLEN = {}
+_GH = {}
+def _glb_alt(a_): _glb_len(a_); return _GH.get(a_)   # altura do modelo 3D (para o close mirar no meio do objeto)
 _FRENTE = {'carro_redondo': 1, 'carro_50': 1, 'carro_antigo': 1, 'roadster': -1, 'roadster26': -1, 'cybertruck': -1, 'roadster_air': -1, 'roadster26_air': -1}   # frente do modelo: +x ou -x (olhado no Blender 23/11)
 _ryv = lambda a_, sg_: 0.0 if _FRENTE.get(str(a_).split('/')[-1], 1) == sg_ else 3.1416   # gira o carro para a FRENTE apontar para onde ele anda
 def _glb_len(a_):
@@ -79,6 +81,7 @@ def _glb_len(a_):
             for ac in j_.get('accessors', []):
                 if len(ac.get('min', [])) == 3: mn = [min(mn[i], ac['min'][i]) for i in range(3)]; mx = [max(mx[i], ac['max'][i]) for i in range(3)]
             L = max(mx[0] - mn[0], mx[2] - mn[2]) if mx[0] > -1e8 else None
+            _GH[a_] = (mx[1] - mn[1]) if mx[0] > -1e8 else None
     except Exception: L = None
     _GLEN[a_] = L; return L
 # ===== VARIEDADE DE CENARIO (ordem do Gibson 19/11: "cada video tem que ter cenarios diferentes") =====
@@ -1651,7 +1654,8 @@ def build_beat(k, b):
         Fq = lambda q: f"Math.round({a} + ({bb} + 1 - ({a})) * {q})"
         if _obj:
             ox, oz, os_ = (float(_obj[1]) if len(_obj) > 1 else 0.0), (float(_obj[2]) if len(_obj) > 2 else 0.5), (float(_obj[3]) if len(_obj) > 3 else 1.0)
-            oy_ = float(_obj[4].get('alto', 0.75)) if len(_obj) > 4 and isinstance(_obj[4], dict) else (1.62 if 'tulip' in str(_obj[0]) else 1.2 if str(_obj[0]) in ('kit/cake_table', 'kit/throne') else 0.75)   # altura do centro do objeto ("alto" no 5o campo do prop)
+            oy_ = float(_obj[4].get('alto', 0.75)) if len(_obj) > 4 and isinstance(_obj[4], dict) else (1.62 if 'tulip' in str(_obj[0]) else 1.2 if str(_obj[0]) in ('kit/cake_table', 'kit/throne') else 0.75)
+            if not (len(_obj) > 4 and isinstance(_obj[4], dict) and 'alto' in _obj[4]) and (_glb_alt(str(_obj[0])) or 1.5) < 0.9: oy_ = max(0.12, _glb_alt(str(_obj[0])) / 2)   # objeto baixo (canivete, moeda, papel no chao): o close mira nele, nao 1,5 m acima   # altura do centro do objeto ("alto" no 5o campo do prop)
             k0 = (ox, oy_ * os_, oz, (5.6 if oy_ > 1.5 else 5.0) if oy_ > 1 else 4.2, 14 if ox < 0 else -14, 6 if oy_ > 1 else 10, 44); k1 = (ox, oy_ * os_, oz, (4.7 if oy_ > 1.5 else 4.2) if oy_ > 1 else 3.4, 8 if ox < 0 else -8, 5 if oy_ > 1 else 9, 44)
             _Lo = (_glb_len(str(_obj[0])) or 0) * os_   # 23/11: objeto grande (carro, carroca, canhao...) inteiro no close: a distancia cresce com o tamanho dele (quadro vertical: cabe ~0,46 x distancia de largura)
             if _Lo > 1.6: k0 = (ox, max(0.75, oy_) * os_, oz, round(_Lo * 2.4 + 1.2, 2), k0[4], 7, 44); k1 = (ox, max(0.75, oy_) * os_, oz, round(_Lo * 2.15 + 1.0, 2), k1[4], 6, 44)

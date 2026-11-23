@@ -193,15 +193,15 @@
      2.2
     ]
    ],
+   "detalhe": true,
    "props": [
     [
      "kit/canivete",
      0.0,
-     1.2,
-     1.0
+     1.4,
+     1.6
     ]
-   ],
-   "detalhe": true
+   ]
   },
   {
    "shot": "two",
