@@ -5,7 +5,7 @@ const WS = (i, off = 0) => TIMING.words[Math.min(i, TIMING.words.length - 1)][0]
 const _MA = (a, b) => { const r = Object.assign({}, a, b); if (a.over && b.over) r.over = Object.assign({}, a.over, b.over); for (const k of ['gests', 'poses', 'moves', 'inters', 'yFns']) if (a[k] && b[k]) r[k] = a[k].concat(b[k]); return r; };   // frame em que a palavra de indice i comeca
 const A = [0, WS(14, -3), WS(34, -3), WS(50, -3), WS(66, -3), WS(81, -3), WS(99, -3), WS(116, -3), WS(130, -3), WS(142, -3), WS(154, -3), TOTAL_F()];
 const SPEC = {
-  id: "losangeles1942", exp: 1.12, cinf: 4.5, vseed: 5, cutLen: 54, dissolveN: 7, glideN: 20, creep: 0.003, total: TOTAL_F(), sets: ["street", "hall", "harbor", "mountain"], setx: { street: X, hall: X_hall, harbor: X_harbor, mountain: X_mountain },
+  id: "losangeles1942", exp: 1.404, cinf: 1.5, vseed: 5, cutLen: 54, dissolveN: 7, glideN: 20, creep: 0.003, total: TOTAL_F(), sets: ["street", "hall", "harbor", "mountain"], setx: { street: X, hall: X_hall, harbor: X_harbor, mountain: X_mountain },
   outfits: { SOL: (v = 0, e = {}) => ({ _id: "sol", jacket: "#5e5a3a", pants: "#6a6040", boots: "#2a2218", hat: "m1", belt: "#f1efe6", rifle: true, cap: "#4f5338", skin: ["#ffe2c2", "#f5c9a0", "#ecd0b6", "#c99067"][v % 4], ...(((v + 238) % 6 === 4 && true) ? { glasses: true } : {}), ...(([1, 5].includes((v + 238) % 6) && false) ? { beard: ['#3a2a1f', '#6b4a2a', '#8a8a86'][(v + 3) % 3] } : {}), ...((((v + 238) % 6 === 3) && true) ? { moustache: ['#4a3020', '#2a201a', '#8a8a86'][v % 3] } : {}), ...e }),
     CID: (v = 0, e = {}) => ({ _id: "cid", jacket: "#8a5a34", pants: "#3b3f52", boots: "#2a2218", hat: "slouch", cap: "#3b3f52", moustache: "#3a2a1f", build: "stout", skin: ["#ffe2c2", "#f5c9a0", "#ecd0b6", "#c99067"][v % 4], ...(((v + 208) % 6 === 4 && true) ? { glasses: true } : {}), ...(([1, 5].includes((v + 208) % 6) && true) ? { beard: ['#3a2a1f', '#6b4a2a', '#8a8a86'][(v + 3) % 3] } : {}), ...((((v + 208) % 6 === 3) && false) ? { moustache: ['#4a3020', '#2a201a', '#8a8a86'][v % 3] } : {}), ...e }),
     GEN: (v = 0, e = {}) => ({ _id: "gen", jacket: "#5e5a3a", pants: "#6a6040", boots: "#2a2218", hat: "quepe", buttons: "#e8c45a", sash: "#e8c45a", moustache: "#2a201a", epaulets: "#e8c45a", medals: 4, cap: "#4f5338", capBand: "#e8c45a", skin: ["#ffe2c2", "#f5c9a0", "#ecd0b6", "#c99067"][v % 4], ...(((v + 218) % 6 === 4 && true) ? { glasses: true } : {}), ...(([1, 5].includes((v + 218) % 6) && true) ? { beard: ['#3a2a1f', '#6b4a2a', '#8a8a86'][(v + 3) % 3] } : {}), ...((((v + 218) % 6 === 3) && false) ? { moustache: ['#4a3020', '#2a201a', '#8a8a86'][v % 3] } : {}), ...e }),
@@ -28,4 +28,4 @@ const SPEC = {
   ],
 };
 
-// FOLHA3 e03700c54534 51 acoes=51 faltando=0
+// FOLHA3 e667d6455f3b 51 acoes=51 faltando=0
