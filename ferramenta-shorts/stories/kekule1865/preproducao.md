@@ -13,7 +13,7 @@ b5 | interior madeira | close | 1 | conversar | kit/snake_ring, mk/Chair_1 | - |
 b6 | interior madeira | low | 1 | reagir | kit/snake_ring | - | -
 b7 | interior madeira | two | 1 | encena | kit/snake_ring | paper | -
 b8 | interior madeira | group | 2 | conversar, INTERAGEM: entregar | kit/snake_ring | - | -
-b9 | interior pedra | group | 9 | comemorar, INTERAGEM: pular | kit/snake_ring | - | -
+b9 | interior pedra | group | 3 | comemorar, INTERAGEM: pular | kit/snake_ring | - | -
 b10 | street | orbit | 20 | batalha | kit/marco_viena, kit/snake_ring | - | -
 b11 | street | close | 1 | conversar | kit/snake_ring, kit/marco_viena | - | -
 b12 | street | two | 1 | conversar | kit/marco_viena | - | -

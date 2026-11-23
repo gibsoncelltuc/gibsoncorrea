@@ -222,17 +222,8 @@
     "COL:0:grin",
     "ALU:0:laugh"
    ],
-   "batalha": true,
    "tiros": false,
    "acao": "comemorar",
-   "crowd": {
-    "n": 6,
-    "outfits": [
-     "POV",
-     "COL"
-    ],
-    "march": false
-   },
    "props": [
     [
      "kit/snake_ring",

@@ -688,7 +688,7 @@ def direct(beats):
         b['shot'] = shot
         if shot in WIDE:
             wide_n += 1; run = 0
-            if not b.get('crowd'):
+            if b.get('crowd') is None:
                 persons_out = [w.split(':')[0] for w in b.get('who', [])]
                 army = persons_out[0] if persons_out else (outs[0] if outs else 'X')
                 b['crowd'] = {'n': (12 if b.get('impact') else 5) if b.get('emus') else (18 if (b.get('impact') or (mass and (arrive or first))) else 10 if mass else 6), 'outfits': list(dict.fromkeys(persons_out + [army])), 'march': bool(arrive or first or (shot == 'reveal' and mass)) and not (b.get('impact') and any(SHOOT.match(w_) for w_ in words))}
@@ -698,9 +698,9 @@ def direct(beats):
                 b['crowd']['n'] = max(int(b['crowd'].get('n', 0)), 30); b['crowd']['lotado'] = True   # "varias pessoas" na narracao: encher a tela de gente (ordem do Gibson 19/11)
         else:
             run += 1
-            if b.get('impact') and not b.get('crowd') and b.get('who') and not b.get('emus'):
+            if b.get('impact') and b.get('crowd') is None and b.get('who') and not b.get('emus'):
                 b['crowd'] = {'n': 10, 'outfits': list(dict.fromkeys(w.split(':')[0] for w in b['who'])), 'march': False, 'expr': 'shock'}
-            if mass and not b.get('crowd') and b.get('who') and not b.get('emus'):
+            if mass and b.get('crowd') is None and b.get('who') and not b.get('emus'):
                 persons_out = [w.split(':')[0] for w in b['who']]
                 b['crowd'] = {'n': 5, 'outfits': list(dict.fromkeys(persons_out)), 'march': False, 'expr': 'shock' if re.search('panico|tiro|gritou', say) else 'neutral'}
 

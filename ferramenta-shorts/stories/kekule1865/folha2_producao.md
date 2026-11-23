@@ -96,12 +96,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (3): KEK (variante 0, expressao laugh); COL (variante 0, expressao grin); ALU (variante 0, expressao laugh) | multidao: 6 de POV/COL
+- Personagens principais (3): KEK (variante 0, expressao laugh); COL (variante 0, expressao grin); ALU (variante 0, expressao laugh)
 - Animacao: comemorar | interacao: pular
 - Objetos/modelos: kit/snake_ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): sonho
-- RISCOS: 
-  - multidao/batalha dentro de sala: nao cabe -> CORRECAO: tirar "interior" desta cena (faz na rua/campo) ou reduzir o "crowd"
+- RISCOS: nenhum
 
 ## Cena b10 - Até hoje há quem duvide da história. Mas o anel do benzeno virou base ...
 - Cenario: street | luz: day | clima: limpo
@@ -151,8 +150,7 @@ mk/Chair_1 | b4, b5 | pronto | conferir na folha de contato se le bem; se parece
 - Interacoes: b0 cochichar, b2 discutir, b3 entregar, b8 entregar, b9 pular
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- b9: multidao/batalha dentro de sala: nao cabe
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh kekule1865 bN bM` (so essas cenas).
