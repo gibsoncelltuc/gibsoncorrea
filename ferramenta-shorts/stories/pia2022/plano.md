@@ -2,9 +2,9 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | track | -  | - | apareceu (dust + som de impacto); encena: chega (point) @11 (acao + som de efeito) | -
+b0 | track | -  | - | apareceu (dust + som de impacto); encena: chega (point) @11 (acao + som de efeito); encena: g_carregan (reach) @19 (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | encena: tira (lift) @1 (acao + som de efeito); encena: x_fone (lift) @6 (acao + som de efeito) | -
-b2 | two | -  | placa: DEIXE ISSO AFUNDAR | encena: desaba @10 (acao + som de efeito) | -
+b2 | two | -  | placa: DEIXE ISSO AFUNDAR | encena: g_entrando (point) @3 (acao + som de efeito); encena: desaba @10 (acao + som de efeito) | -
 b3 | close | -  | - | encena: desaba @14 (acao + som de efeito) | -
 b4 | orbit | -  | batalha aberta com tiros, tropa | encena: negocio (reach) @8 (acao + som de efeito) | -
 b5 | two | -  | interior, placa: CHEFE TWIT | encena: escreve (write) @6 (acao + som de efeito) | -

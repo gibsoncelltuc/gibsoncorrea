@@ -8,14 +8,14 @@ b0 | street | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/curie_box, k
 b1 | street | reveal | 8 | parados (so fala e pisca) | kit/marco_eiffel | - | -
 b2 | interior madeira | two | 2 | conversar, INTERAGEM: aproxima-se | - | paper | -
 b3 | interior madeira | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/curie_box | - | -
-b4 | interior madeira | close | 1 | conversar | kit/curie_box | - | -
-b5 | interior madeira | two | 2 | reagir, INTERAGEM: o outro se aproxima | - | paper | -
+b4 | interior madeira | close | 1 | reagir | kit/curie_box | - | -
+b5 | interior madeira | two | 2 | conversar, INTERAGEM: o outro se aproxima | - | paper | -
 b6 | street | crowd | 21 | comemorar, batalha | kit/marco_eiffel | - | -
-b7 | street | two | 1 | conversar | kit/marco_eiffel | - | -
+b7 | street | two | 1 | reagir | kit/marco_eiffel | - | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: susto | kit/curie_box, crate | - | -
-b9 | interior pedra | low | 1 | conversar | kit/curie_box | - | -
+b9 | interior pedra | low | 1 | reagir | kit/curie_box | - | -
 b10 | street | orbit | 19 | reagir, batalha | kit/curie_box, kit/marco_eiffel, nature/picket_fence | - | -
-b11 | street | close | 1 | conversar | kit/curie_box, kit/marco_eiffel | - | -
+b11 | street | close | 1 | reagir | kit/curie_box, kit/marco_eiffel | - | -
 
 OBJETO HEROI: kit/curie_box - aparece em 7 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b6, b10

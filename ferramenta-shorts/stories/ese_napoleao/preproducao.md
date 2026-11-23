@@ -12,7 +12,7 @@ b4 | countryside | crowd | 18 | reagir, batalha | - | - | -
 b5 | mountain | orbit | 21 | encena, batalha | - | - | -
 b6 | harbor | two | 2 | conversar, INTERAGEM: empurrar | kit/crown | - | -
 b7 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | - | paper | -
-b8 | interior madeira | close | 1 | conversar | kit/crown | - | -
+b8 | interior madeira | close | 1 | reagir | kit/crown | - | -
 b9 | interior madeira | two | 12 | conversar, INTERAGEM: aproxima-se | kit/scroll | paper | -
 b10 | countryside | close | 1 | conversar | kit/crown | - | -
 

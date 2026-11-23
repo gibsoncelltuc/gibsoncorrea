@@ -7,7 +7,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): FAZ (variante 0, expressao shock, segura pitchfork); IRL (variante 0, expressao angry)
-- Animacao: reagir | interacao: o outro se aproxima | o ultimo personagem ENTRA andando
+- Animacao: conversar | interacao: o outro se aproxima | o ultimo personagem ENTRA andando
 - Objetos/modelos: nature/picket_fence, nature/haybale, pig
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): porco
 - RISCOS: nenhum
@@ -17,7 +17,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): FAZ (variante 0, expressao neutral); IRL (variante 0, expressao neutral) | multidao: 8 de POV
-- Animacao: -
+- Animacao: conversar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canada, estados, ilha
 - RISCOS: nenhum
@@ -27,7 +27,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): FAZ (variante 0, expressao angry, segura pitchfork)
-- Animacao: encena
+- Animacao: reagir
 - Objetos/modelos: nature/flowerbed, nature/picket_fence, nature/scarecrow, tools/wheelbarrow, buildings/barn, nature/haybale, pig
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): batatas, fazendeiro, horta, porco
 - RISCOS: nenhum
@@ -37,7 +37,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): FAZ (variante 0, expressao angry)
-- Animacao: atira
+- Animacao: reagir
 - Objetos/modelos: nature/picket_fence, nature/haybale, buildings/house_small, nature/tree_oak, pig
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): espingarda, porco, vizinho
 - RISCOS: nenhum
@@ -68,7 +68,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (3): AME (variante 0, expressao stern); AME (variante 1, expressao stern); FAZ (variante 0, expressao scared) | multidao: 16 de AME
 - Animacao: discutir | interacao: empurrar
-- Objetos/modelos: buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estados, fazendeiro, ilha, ingleses
 - RISCOS: nenhum
 
@@ -83,11 +83,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - O almirante inglês recebeu a ordem de atacar. "Não vou começar uma gue...
-- Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Cenario: harbor | luz: day | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): ALM (variante 0, expressao stern); ING (variante 1, expressao nervous)
-- Animacao: discutir | interacao: vai ate o outro
+- Animacao: conversar | interacao: susto
 - Objetos/modelos: pig
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): almirante, atacar, porco
 - RISCOS: nenhum
@@ -117,7 +117,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): FAZ (variante 0, expressao sad)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/cross, nature/picket_fence, pig
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): porco
 - RISCOS: nenhum
@@ -127,13 +127,13 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-nature/picket_fence | b0, b2, b3, b4, b5, b6, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/haybale | b0, b2, b3, b4, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/picket_fence | b0, b2, b3, b4, b5, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/haybale | b0, b2, b3, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 pig | b0, b2, b3, b8, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/flowerbed | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/scarecrow | b2, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/scarecrow | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 tools/wheelbarrow | b2, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/barn | b2, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/barn | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_small | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 cannon | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -142,7 +142,7 @@ kit/cross | b11 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 ## Video inteiro
 - Objeto heroi: - | grandes momentos: b7, b9 | planos abertos: 3 | mistura: close 8% | medio 77% | aberto 13% | detalhe 1%
-- Interacoes: b0 o outro se aproxima, b4 entregar, b5 discutir, b6 empurrar, b8 vai ate o outro, b10 insiste
+- Interacoes: b0 o outro se aproxima, b4 entregar, b5 discutir, b6 empurrar, b8 susto, b10 insiste
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

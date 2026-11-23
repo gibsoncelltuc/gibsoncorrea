@@ -7,7 +7,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): GOO (variante 0, expressao shock); CLA (variante 0, expressao surprised)
-- Animacao: reagir | interacao: avanca e o outro recua
+- Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/stove
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cozinha, fogao, gosma, inventor
 - RISCOS: nenhum
@@ -117,7 +117,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (1): GOO (variante 0, expressao smile)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/stove, kit/tires
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fabrica, pneus
 - RISCOS: nenhum

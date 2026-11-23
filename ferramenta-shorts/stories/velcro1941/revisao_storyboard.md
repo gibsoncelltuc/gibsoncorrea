@@ -1,13 +1,12 @@
-# Revisao do storyboard - velcro1941 (sessao principal, 19/11)
-b0: OK - George com o cachorro e o carrapicho em destaque: invenção que nasceu de um passeio com o cachorro
-b1: OK - placa 1941 e mapa da Suíça, plano aberto da cidade com montanhas
-b2: OK - o engenheiro voltou da caminhada pela montanha com o seu cachorro (trilha de pedras)
-b3: OK - pelo do cachorro e a calça cheios de carrapichos, ele arrancando com trabalhão
-b4: CORRIGIDO - microscópio só no último instante e pequeno -> levou o carrapicho para casa e olhou no microscópio grande ao lado
-b5: OK - close do carrapicho: cada espinho com ganchinho na ponta que agarrava no tecido
-b6: OK - ele pensou na fita de ganchinhos e de voltinhas, explicando com as mãos (gruda e solta)
-b7: OK - os tecelões riram da ideia, quase dez anos de tentativas na oficina
-b8: OK - o segredo foi o náilon e o nome velours crochet: Velcro, ele comemorando
-b9: OK - no começo muita gente achou o velcro feio, vendas fracas, gente na praça desconfiada
-b10: CORRIGIDO - multidão na cidade -> astronautas no espaço: astronauta de branco, céu preto estrelado e lua, velcro prendendo coisas
-b11: OK - hoje está em tênis e roupas, e tudo começou com o cachorro cheio de carrapichos (ele e o cachorro)
+b0: OK - cena confere com a frase: Uma das invenções mais usadas do mundo nasceu de um passeio com o cachorro.
+b1: OK - cena confere com a frase: Era mil novecentos e quarenta e um, na Suíça.
+b2: OK - cena confere com a frase: O engenheiro George de Mestral voltou de uma caminhada pela montanha com o seu
+b3: OK - cena confere com a frase: O pelo do cachorro e a calça dele estavam cheios de carrapichos. Dava um
+b4: OK - cena confere com a frase: Curioso, ele levou um carrapicho para casa e olhou no microscópio.
+b5: OK - cena confere com a frase: Acontece que cada espinho tinha um ganchinho na ponta, que agarrava nas voltinhas do
+b6: OK - cena confere com a frase: Ele pensou: e se eu fizer uma fita de ganchinhos, e outra de voltinhas?
+b7: OK - cena confere com a frase: Os tecelões riram da ideia. Levou quase dez anos de tentativas até acertar o
+b8: OK - cena confere com a frase: O segredo foi o náilon. E o nome veio do francês: velours, veludo, e
+b9: OK - cena confere com a frase: No começo, muita gente achou o velcro feio, e as vendas foram fracas.
+b10: OK - cena confere com a frase: Até que astronautas passaram a usar o velcro para prender coisas no espaço. E
+b11: OK - cena confere com a frase: Hoje ele está em tênis, mochilas e roupas. E tudo começou com um cachorro

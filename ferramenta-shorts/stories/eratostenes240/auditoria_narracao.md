@@ -1,12 +1,12 @@
 # AUDITORIA NARRACAO x TELA: eratostenes240
-Cenas 100% fieis: 10/11 (91%). Lacunas: 1
+Cenas 100% fieis: 11/11 (100%). Lacunas: 0
 
 ## b0 OK - Um homem mediu o tamanho do planeta usando só uma vara e a sombra dela.
-- na tela: set=['street'] animais=[] objetos=['globe', 'lupa', 'marco_alexandria', 'stick', 'tree_palm'] atores=6 acoes_folha3=['mediu']
+- na tela: set=['street'] animais=[] objetos=['globe', 'lupa', 'marco_alexandria', 'stick', 'tree_palm'] atores=6 acoes_folha3=['mediu', 'usando']
 ## b1 OK - Era por volta de duzentos e quarenta antes de Cristo, e Eratóstenes era o bibliotecário da cidade de Alexandria, no Egito.
 - na tela: set=['street'] animais=[] objetos=['apartment', 'house_two', 'lamppost', 'marco_alexandria'] atores=10 acoes_folha3=[]
 ## b2 OK - Ele leu num papiro que, em Siena, ao meio-dia de verão, o sol iluminava o fundo de um poço.
-- na tela: set=['street'] animais=[] objetos=['bucket', 'marco_alexandria', 'scroll', 'tree_palm', 'well'] atores=2 acoes_folha3=['leu']
+- na tela: set=['street'] animais=[] objetos=['bucket', 'marco_alexandria', 'scroll', 'tree_palm', 'well'] atores=2 acoes_folha3=['leu', 'iluminava']
 ## b3 OK - Isso significava que o sol estava bem em cima, e nada fazia sombra.
 - na tela: set=['street'] animais=[] objetos=['marco_alexandria', 'tree_palm', 'well'] atores=6 acoes_folha3=[]
 ## b4 OK - Em Alexandria, no mesmo dia, uma vara fincada no chão fazia uma sombra pequena.
@@ -20,7 +20,6 @@ Cenas 100% fieis: 10/11 (91%). Lacunas: 1
 ## b8 OK - Com uma conta simples, chegou a um número muito perto do tamanho real da Terra.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_oriente_stone'] atores=2 acoes_folha3=['chegou', 'chegou']
 ## b9 OK - E tudo isso aconteceu mais de dois mil anos atrás, sem satélite e sem computador.
-- na tela: set=['harbor'] animais=[] objetos=['globe', 'marco_alexandria', 'starlink_sat', 'tree_palm'] atores=16 acoes_folha3=[]
-## b10 LACUNA - No fim, uma vara e um poço fizeram o trabalho de um satélite.
+- na tela: set=['street'] animais=[] objetos=['globe', 'marco_alexandria', 'starlink_sat', 'tree_palm'] atores=16 acoes_folha3=[]
+## b10 OK - No fim, uma vara e um poço fizeram o trabalho de um satélite.
 - na tela: set=['street'] animais=[] objetos=['bucket', 'globe', 'marco_alexandria', 'starlink_sat', 'stick', 'tree_palm', 'well'] atores=1 acoes_folha3=[]
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece

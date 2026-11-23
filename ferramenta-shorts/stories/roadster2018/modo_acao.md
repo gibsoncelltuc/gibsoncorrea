@@ -1,0 +1,3 @@
+# MODO DE ACAO DEFINITIVO: roadster2018
+FALHAS: 0  |  AVISOS: 0
+

@@ -97,8 +97,7 @@
    "sfx": [
     "thump@40"
    ],
-   "say": "Mas vamos cavar. Depois da terra, vem rocha dura, cada vez mais quente.",
-   "set": "mountain"
+   "say": "Mas vamos cavar. Depois da terra, vem rocha dura, cada vez mais quente."
   },
   {
    "shot": "two",
@@ -182,8 +181,7 @@
     "whoosh@20",
     "whoosh@50"
    ],
-   "say": "Aí você pulou, e caiu cada vez mais rápido, e passou pelo centro do planeta a milhares de quilômetros por hora.",
-   "set": "mountain"
+   "say": "Você cairia cada vez mais rápido, e passaria pelo centro do planeta a milhares de quilômetros por hora."
   },
   {
    "shot": "two",
@@ -215,7 +213,7 @@
     "PRO:0:smug"
    ],
    "acao": "discutir",
-   "say": "Mas ninguém te segurou, e você caiu de volta. Indo e voltando para sempre."
+   "say": "Mas se ninguém te segurasse, você cairia de volta. Indo e voltando para sempre."
   },
   {
    "shot": "crowd",

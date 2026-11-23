@@ -54,11 +54,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - O vapor quente que sai de dentro da terra gira turbinas, e vira eletri...
 - Cenario: mountain | luz: day | clima: limpo
-- Camera: low = camera baixa, dramatica (virada)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (1): ENA (variante 0, expressao grin)
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): ENA (variante 0, expressao grin); BUK (variante 0, expressao smile)
 - Animacao: conversar
-- Objetos/modelos: kit/volcano
+- Objetos/modelos: kit/volcano, kit/turbina
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dentro, terra, vapor
 - RISCOS: nenhum
 
@@ -73,17 +73,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Em outubro saiu o primeiro: um pedacinho de bitcoin que valia uns duze...
-- Cenario: harbor | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Cenario: mountain | luz: day | clima: limpo
+- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (1): BUK (variante 0, expressao grin) | multidao: 6 de POV
+- Personagens principais (1): BUK (variante 0, expressao grin)
 - Animacao: comemorar
 - Objetos/modelos: kit/bitcoin, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bitcoin, pedacinho
 - RISCOS: nenhum
 
 ## Cena b8 - Bukele comemorou nas redes sociais, com um vídeo da usina no vulcão.
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): BUK (variante 0, expressao laugh); ENG (variante 0, expressao laugh); ENA (variante 0, expressao grin) | multidao: 18 de POV
@@ -131,13 +131,14 @@ kit/bitcoin | b0, b2, b3, b6, b7, b9, b10, b11 | pronto (HEROI: aparece em close
 kit/volcano | b0, b1, b2, b4, b5, b7, b8, b9, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/coin | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/miners | b3, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/turbina | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/apartment | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/bitcoin | grandes momentos: b8, b10 | planos abertos: 3 | mistura: close 9% | medio 75% | aberto 10% | detalhe 7%
+- Objeto heroi: kit/bitcoin | grandes momentos: b8, b10 | planos abertos: 4 | mistura: close 16% | medio 59% | aberto 18% | detalhe 7%
 - Interacoes: b0 o outro se aproxima, b2 insiste, b3 discutir, b4 entregar, b6 vai ate o outro, b9 aproxima-se
 - RISCOS GERAIS: nenhum
 

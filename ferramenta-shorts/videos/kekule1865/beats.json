@@ -85,7 +85,7 @@
   },
   {
    "shot": "two",
-   "interior": "madeira",
+   "interior": "pedra",
    "who": [
     "COL:0:bored",
     "KEK:0:sad:paper"
@@ -127,7 +127,6 @@
   {
    "shot": "close",
    "interior": "madeira",
-   "hora": "noite",
    "who": [
     "KEK:0:surprised"
    ],
@@ -156,12 +155,12 @@
     "ding@20",
     "sting@50"
    ],
-   "say": "No sonho, os átomos dançavam como cobras. Até que uma delas mordeu o próprio rabo."
+   "say": "No sonho, os átomos dançavam como cobras. Até que uma delas mordeu o próprio rabo.",
+   "light": "study"
   },
   {
    "shot": "low",
    "interior": "madeira",
-   "hora": "noite",
    "who": [
     "KEK:0:shock"
    ],
@@ -179,12 +178,12 @@
    "sfx": [
     "sting@20"
    ],
-   "say": "Kekulé acordou num pulo, como se tivesse levado um raio. O benzeno não era uma corrente. Era um anel!"
+   "say": "Kekulé acordou num pulo, como se tivesse levado um raio. O benzeno não era uma corrente. Era um anel!",
+   "light": "study"
   },
   {
    "shot": "two",
-   "interior": "madeira",
-   "hora": "noite",
+   "interior": "loja",
    "who": [
     "KEK:0:grin:paper"
    ],
@@ -202,7 +201,8 @@
    "sfx": [
     "ding@40"
    ],
-   "say": "Passou o resto da noite desenhando o anel de seis carbonos. E a conta fechou."
+   "say": "Passou o resto da noite desenhando o anel de seis carbonos. E a conta fechou.",
+   "light": "study"
   },
   {
    "shot": "two",

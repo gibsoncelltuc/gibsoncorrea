@@ -23,7 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Mas vamos cavar. Depois da terra, vem rocha dura, cada vez mais quente...
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): CAV (variante 0, expressao stern, segura shovel); PRO (variante 0, expressao suspicious)
@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Acontece que o centro da Terra fica a mais de seis mil quilômetros, qu...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): PRO (variante 0, expressao shock)
@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Nenhuma máquina aguenta. Mas imagine que desse, e você pulasse no bura...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao shock); POV (variante 1, expressao scared); CAV (variante 0, expressao surprised) | multidao: 20 de POV
@@ -62,18 +62,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): buraco
 - RISCOS: nenhum
 
-## Cena b6 - Aí você pulou, e caiu cada vez mais rápido, e passou pelo centro do pl...
-- Cenario: mountain | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (1): CAV (variante 0, expressao scared) | multidao: 5 de CAV/POV
-- Animacao: conversar
+## Cena b6 - Você cairia cada vez mais rápido, e passaria pelo centro do planeta a ...
+- Cenario: outback | luz: day | clima: limpo
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): CAV (variante 0, expressao scared) | multidao: 30 de CAV/POV
+- Animacao: reagir
 - Objetos/modelos: kit/globe
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): milhares, planeta, quilometros
 - RISCOS: nenhum
 
 ## Cena b7 - Depois iria freando, e sairia do outro lado em uns quarenta minutos.
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: outback | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): PRO (variante 0, expressao grin, segura paper); POV (variante 0, expressao surprised)
@@ -82,8 +82,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
-## Cena b8 - Mas ninguém te segurou, e você caiu de volta. Indo e voltando para sem...
-- Cenario: outback | luz: day | clima: limpo
+## Cena b8 - Mas se ninguém te segurasse, você cairia de volta. Indo e voltando par...
+- Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): CAV (variante 0, expressao shock); PRO (variante 0, expressao smug)
@@ -93,7 +93,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - Os cientistas chamam isso de túnel da gravidade.
-- Cenario: outback | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao laugh); POV (variante 1, expressao laugh); CAV (variante 0, expressao grin) | multidao: 18 de POV
@@ -123,7 +123,7 @@ kit/scroll | b3 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/globe | grandes momentos: b5, b9 | planos abertos: 3 | mistura: close 22% | medio 60% | aberto 11% | detalhe 7%
+- Objeto heroi: kit/globe | grandes momentos: b5, b9 | planos abertos: 4 | mistura: close 23% | medio 48% | aberto 22% | detalhe 7%
 - Interacoes: b0 insiste, b2 vai ate o outro, b3 aproxima-se, b7 cochichar, b8 discutir
 - RISCOS GERAIS: nenhum
 

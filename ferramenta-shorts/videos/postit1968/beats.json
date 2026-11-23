@@ -65,7 +65,12 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Um químico inventou a cola mais fraca do mundo. E ela virou um dos produtos mais vendidos do planeta."
+   "say": "Um químico inventou a cola mais fraca do mundo. E ela virou um dos produtos mais vendidos do planeta.",
+   "detalhe": false,
+   "shot_lock": true,
+   "verbos_ok": [
+    "invent"
+   ]
   },
   {
    "shot": "reveal",
@@ -92,7 +97,7 @@
    "say": "Spencer Silver tentava criar uma super cola, tão forte que nada conseguisse descolar."
   },
   {
-   "shot": "close",
+   "shot": "group",
    "interior": "madeira",
    "who": [
     "SIL:0:shock:paper"
@@ -103,7 +108,9 @@
    "sfx": [
     "sting@30"
    ],
-   "say": "Acontece que saiu o contrário: uma cola que grudava, mas soltava fácil, sem deixar marca."
+   "say": "Acontece que saiu o contrário: uma cola que grudava, mas soltava fácil, sem deixar marca.",
+   "detalhe": false,
+   "shot_lock": true
   },
   {
    "shot": "two",

@@ -57,16 +57,32 @@
    "animals": [
     [
      "sheep",
-     1.9,
-     0.8
+     -1.6,
+     1.2,
+     "stand",
+     0.9
+    ],
+    [
+     "duck",
+     0.0,
+     1.6,
+     "stand",
+     0.9
+    ],
+    [
+     "rooster",
+     1.6,
+     1.2,
+     "stand",
+     0.9
     ]
    ],
    "props": [
     [
      "kit/balloon",
-     0,
-     -1.8,
-     1.0
+     1.2,
+     -6.0,
+     3.0
     ]
    ],
    "text": "1783",
@@ -123,12 +139,13 @@
    "props": [
     [
      "kit/balloon",
-     1.6,
-     -1.0,
-     0.8
+     2.2,
+     -2.8,
+     2.4
     ]
    ],
-   "say": "Então costuraram um balão gigante de pano e papel, e encheram de ar quente."
+   "say": "Então costuraram um balão gigante de pano e papel, e encheram de ar quente.",
+   "detalhe": true
   },
   {
    "shot": "two",
@@ -168,8 +185,8 @@
     [
      "kit/balloon",
      0.0,
-     -2.2,
-     1.0
+     -6.5,
+     3.0
     ]
    ],
    "set": "medieval"
@@ -207,7 +224,7 @@
     "sting@30"
    ],
    "say": "No palácio de Versalhes, o rei Luís dezesseis e a rainha Maria Antonieta vieram assistir, com uma multidão.",
-   "set": "countryside"
+   "set": "palace"
   },
   {
    "shot": "reveal",
@@ -243,9 +260,9 @@
    "props": [
     [
      "kit/balloon",
-     1.6,
-     -2.6,
-     0.9
+     2.0,
+     -7.0,
+     2.8
     ]
    ],
    "say": "Oito minutos depois, ele desceu num bosque a uns três quilômetros dali. Os irmãos correram para ver.",
@@ -333,16 +350,32 @@
    "animals": [
     [
      "sheep",
+     -1.6,
+     1.2,
+     "stand",
+     0.9
+    ],
+    [
+     "duck",
+     0.0,
      1.6,
-     0.6
+     "stand",
+     0.9
+    ],
+    [
+     "rooster",
+     1.6,
+     1.2,
+     "stand",
+     0.9
     ]
    ],
    "props": [
     [
      "kit/balloon",
-     -1.6,
-     -1.6,
-     0.8
+     -2.0,
+     -6.5,
+     2.8
     ]
    ],
    "say": "E tudo graças a uma ovelha, um pato e um galo corajosos.",

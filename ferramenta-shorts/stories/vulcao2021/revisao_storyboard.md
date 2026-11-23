@@ -1,12 +1,12 @@
-b0: CORRIGIDO - presidente aparecia dentro de escritorio por causa de fabricar -> agora ao ar livre com o vulcao, placa 2021 e moeda de dinheiro digital
-b1: OK - mapa de El Salvador na America Central e depois vista do vulcao com gente pequena ao pe, pais cheio de vulcoes
-b2: OK - Bukele com notas de dolar e a moeda bitcoin gigante ao lado, bitcoin vira moeda oficial do pais
-b3: OK - sala com computadores pretos de mineracao, engenheiro com papel preocupado, contas sem parar gastam muita energia
-b4: CORRIGIDO - empresa de energia mandava a cena para dentro -> agora ao pe do vulcao Tecapa, Bukele manda usar o calor
-b5: OK - vapor quente saindo do topo do vulcao, engenheira ao lado da rocha, turbinas e eletricidade limpa
-b6: OK - ao lado da usina instalaram centenas de computadores, sala cheia de maquinas pretas de minerar bitcoin
-b7: OK - em outubro saiu o primeiro pedacinho de bitcoin, moeda dourada no porto com a usina e o vulcao atras
-b8: OK - Bukele comemorou nas redes, multidao com placa VULCAO em plano aberto diante da usina no vulcao
-b9: OK - governo contava quase quinhentos bitcoins, engenheiras com papel e moeda bitcoin na mata ao pe do vulcao
-b10: OK - anunciou a Cidade Bitcoin, placa CIDADE BITCOIN com multidao e predios aos pes de outro vulcao
-b11: OK - dinheiro tirado de vulcao, Bukele sorrindo com moedas bitcoin, fechamento parece ficcao mas aconteceu
+b0: OK - cena confere com a frase: O presidente de El Salvador resolveu fabricar dinheiro digital com a energia de um
+b1: OK - cena confere com a frase: El Salvador é um país pequeno da América Central, cheio de vulcões.
+b2: OK - cena confere com a frase: Em dois mil e vinte e um, Nayib Bukele fez do bitcoin uma moeda
+b3: OK - cena confere com a frase: Só que, para criar bitcoins novos, computadores fazem contas sem parar. E isso gasta
+b4: OK - cena confere com a frase: Então ele mandou a empresa de energia do governo usar o calor do vulcão
+b5: OK - cena confere com a frase: O vapor quente que sai de dentro da terra gira turbinas, e vira eletricidade
+b6: OK - cena confere com a frase: Acontece que, ao lado da usina, instalaram centenas de computadores só para minerar bitcoin.
+b7: OK - cena confere com a frase: Em outubro saiu o primeiro: um pedacinho de bitcoin que valia uns duzentos e
+b8: OK - cena confere com a frase: Bukele comemorou nas redes sociais, com um vídeo da usina no vulcão.
+b9: OK - cena confere com a frase: Anos depois, o governo contava quase quinhentos bitcoins minerados com a força do vulcão.
+b10: OK - cena confere com a frase: E ele ainda anunciou o plano de uma Cidade Bitcoin, construída aos pés de
+b11: OK - cena confere com a frase: Dinheiro tirado de vulcão. Parece ficção, mas aconteceu de verdade.

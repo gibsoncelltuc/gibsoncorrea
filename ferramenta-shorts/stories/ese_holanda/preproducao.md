@@ -7,7 +7,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | harbor | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/flag_pole, kit/marco_olinda | - | -
 b1 | harbor | reveal | 8 | parados (so fala e pisca) | kit/marco_olinda, navios ao fundo | - | -
 b2 | countryside | two | 2 | conversar, INTERAGEM: aproxima-se | kit/marco_olinda | paper | -
-b3 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua | buildings/bridge, kit/marco_olinda, buildings/apartment, buildings/house_two, nature/lamppost | - | -
+b3 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua | buildings/bridge, kit/marco_olinda, buildings/house_two, nature/lamppost | - | -
 b4 | jungle | crowd | 21 | encena, batalha | kit/marco_olinda | - | -
 b5 | countryside | two | 2 | conversar, INTERAGEM: o outro se aproxima | ship, kit/marco_olinda | - | -
 b6 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | - | paper | -

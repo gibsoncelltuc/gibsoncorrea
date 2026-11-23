@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 01 - A Batalha de Karánsebes
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 68 acoes catalogadas, 68 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 70 acoes catalogadas, 70 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 2.9s - 10 palavras - plano crowd
@@ -23,9 +23,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | marchando (5.6s) | EFEITO: dust | poeira + som | OK |
-| 2 | - | ATUACAO | reagir | OK |
-| 3 | - | MAPA | KARÁNSEBES | OK |
-| 4 | - | PLACA | VÁRIAS LÍNGUAS | OK |
+| 2 | marchando (5.6s) | ACAO: g_marchand | g_marchand | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | MAPA | KARÁNSEBES | OK |
+| 5 | - | PLACA | VÁRIAS LÍNGUAS | OK |
 
 ## Cena b2 - 10.7s a 13.1s - 10 palavras - plano track
 > "Numa noite, os hussardos foram na frente procurar o inimigo."
@@ -40,7 +41,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | aproxima-se | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b4 - 19.4s a 21.8s - 7 palavras - plano two
 > "Compraram tudo, beberam, e a festa começou."
@@ -55,7 +56,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 6 | festa (21.5s) | ACAO: vence | bracos para cima + brilho | OK |
 | 7 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
 | 8 | - | INTERACAO | brindar | OK |
-| 9 | - | ATUACAO | comemorar | OK |
+| 9 | - | ATUACAO | conversar | OK |
 | 10 | - | PLACA | AGUARDENTE | OK |
 
 ## Cena b5 - 23.0s a 32.3s - 24 palavras - plano group
@@ -65,16 +66,17 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | chegou (23.2s) | EFEITO: dust | poeira + som | OK |
 | 2 | chegou (23.2s) | ACAO: chega | entra andando pela lateral | OK |
-| 3 | discussão (29.8s) | EFEITO: puff | fumaca + som | OK |
-| 4 | deu (32.0s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 5 | tiro (32.3s) | EFEITO: burst | estouro/clarao + som | OK |
-| 6 | tiro (32.3s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 7 | - | CENA | cavalaria: 2 soldados a cavalo (AUT) | OK |
-| 8 | - | INTERACAO | empurrar | OK |
-| 9 | - | ATUACAO | conversar | OK |
-| 10 | - | CHEGADA | alguem entra andando | OK |
+| 3 | querendo (24.4s) | ACAO: g_querendo | g_querendo | OK |
+| 4 | discussão (29.8s) | EFEITO: puff | fumaca + som | OK |
+| 5 | deu (32.0s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 6 | tiro (32.3s) | EFEITO: burst | estouro/clarao + som | OK |
+| 7 | tiro (32.3s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 8 | - | CENA | cavalaria: 2 soldados a cavalo (AUT) | OK |
+| 9 | - | INTERACAO | empurrar | OK |
+| 10 | - | ATUACAO | conversar | OK |
+| 11 | - | CHEGADA | alguem entra andando | OK |
 
-## Cena b6 - 33.4s a 38.8s - 12 palavras - plano orbit
+## Cena b6 - 33.4s a 38.8s - 12 palavras - plano group
 > "No escuro, alguém gritou: "Turcos! Turcos!" E o pânico tomou o acampamento."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -109,7 +111,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | dispararam (50.2s) | EFEITO: burst | estouro/clarao + som | OK |
 | 6 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
 | 7 | - | INTERACAO | susto | OK |
-| 8 | - | ATUACAO | reagir | OK |
+| 8 | - | ATUACAO | conversar | OK |
 
 ## Cena b9 - 52.7s a 62.1s - 26 palavras - plano group
 > "Dois dias depois, os turcos chegaram de verdade, e acharam o acampamento abandonado. Contam que foram até dez mil baixas, mas os historiadores duvidam desse número."
@@ -122,7 +124,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | baixas (59.8s) | EFEITO: puff | fumaca + som | OK |
 | 5 | baixas (59.8s) | ACAO: perde | mao na testa | OK |
 | 6 | - | INTERACAO | avanca e o outro recua | OK |
-| 7 | - | ATUACAO | reagir | OK |
+| 7 | - | ATUACAO | conversar | OK |
 | 8 | - | CHEGADA | alguem entra andando | OK |
 | 9 | - | PLACA | 10.000? | OK |
 

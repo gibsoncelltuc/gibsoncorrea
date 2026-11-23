@@ -3,12 +3,12 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/reeleicao2024/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py reeleicao2024` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Donald Trump perdeu a eleição de dois mil e vinte. Quatro anos depois,...
-- Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Cenario: interior pedra | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): TRU (variante 0, expressao smug); REP (variante 0, expressao surprised, segura paper)
 - Animacao: conversar | interacao: o outro se aproxima | o ultimo personagem ENTRA andando
-- Objetos/modelos: kit/ballot_box, kit/white_house, kit/marco_casabranca, buildings/house_small, nature/picket_fence, nature/tree_oak
+- Objetos/modelos: kit/ballot_box, kit/white_house
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): casa, dois, eleicao
 - RISCOS: nenhum
 
@@ -33,7 +33,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - A contagem entrou pela madrugada. Os estados indecisos iam decidir tud...
-- Cenario: interior pedra | luz: day | clima: limpo
+- Cenario: interior loja | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): REP (variante 0, expressao nervous, segura paper); TRU (variante 0, expressao stern)
@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Acontece que Trump venceu em todos os estados decisivos, e somou treze...
-- Cenario: interior pedra | luz: day | clima: limpo
+- Cenario: interior loja | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (1): REP (variante 0, expressao shock, segura paper)
@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Os apoiadores comemoraram a noite inteira. Trump subiu ao palco e decl...
-- Cenario: stadium | luz: day | clima: limpo
+- Cenario: hall | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): TRU (variante 0, expressao laugh); ELE (variante 0, expressao laugh); POV (variante 0, expressao shout) | multidao: 22 de POV
@@ -63,12 +63,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Foi um feito raro: ele virou só o segundo presidente da história com d...
-- Cenario: interior pedra | luz: day | clima: limpo
+- Cenario: street | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): REP (variante 0, expressao surprised, segura paper); POV (variante 0, expressao grin)
 - Animacao: conversar | interacao: vai ate o outro
-- Objetos/modelos: -
+- Objetos/modelos: kit/marco_casabranca
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, feito
 - RISCOS: nenhum
 
@@ -83,7 +83,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - Em vinte de janeiro de dois mil e vinte e cinco, ele tomou posse de no...
-- Cenario: street | luz: dia | clima: limpo
+- Cenario: countryside | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): TRU (variante 0, expressao grin); GEN (variante 0, expressao stern)
@@ -93,7 +93,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - Ele tinha sido o presidente número quarenta e cinco. Agora era o númer...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: countryside | luz: noite | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): TRU (variante 0, expressao smug); POV (variante 0, expressao surprised); POV (variante 1, expressao grin) | multidao: 18 de POV
@@ -103,7 +103,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b10 - Perdeu, voltou e ganhou. Uma das maiores viradas da política americana...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: street | luz: noite | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): TRU (variante 0, expressao smile)
@@ -119,15 +119,12 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/ballot_box | b0, b2, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/white_house | b0, b1, b5, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_casabranca | b0, b1, b2, b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/house_small | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/picket_fence | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/tree_oak | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_casabranca | b1, b2, b6, b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/scroll | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/ballot_box | grandes momentos: b5, b9 | planos abertos: 3 | mistura: close 22% | medio 62% | aberto 12% | detalhe 5%
+- Objeto heroi: kit/ballot_box | grandes momentos: b5, b9 | planos abertos: 3 | mistura: close 22% | medio 64% | aberto 12% | detalhe 2%
 - Interacoes: b0 o outro se aproxima, b2 insiste, b3 discutir, b6 vai ate o outro, b7 aproxima-se, b8 entregar
 - RISCOS GERAIS: nenhum
 

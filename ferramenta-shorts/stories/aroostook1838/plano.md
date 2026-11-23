@@ -9,8 +9,8 @@ b3 | two | -  | - | (rosto) shout (expr + som de efeito); gritou (ring + som de 
 b4 | crowd | -  | batalha aberta com tiros, tropa, placa: MILÍCIA | cavalaria: 4 soldados a cavalo (MIL) (acao + som de efeito); encena: fala (point) @9 (acao + som de efeito) | -
 b5 | two | -  | interior | encena: prende (push) @7 (acao + som de efeito) | -
 b6 | two | -  | - | encena: fala (point) @10 (acao + som de efeito) | -
-b7 | two | -  | interior, objeto na mao | - | -
-b8 | two | -  | interior, objeto na mao | - | -
+b7 | two | -  | interior, objeto na mao | encena: g_convence (point) @1 (acao + som de efeito) | -
+b8 | two | -  | interior, objeto na mao | encena: g_dividiu (reach) @5 (acao + som de efeito) | -
 b9 | close | -  | tropa, animais | animal: pig come (acao + som de efeito) | -
 
 Mistura de planos: close 24% | medio 59% | aberto 15% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)

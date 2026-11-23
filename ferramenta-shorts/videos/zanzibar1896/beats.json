@@ -55,9 +55,6 @@
     "cap"
    ],
    "cap": "#f1ece0"
-  },
-  "SUL2": {
-   "profissao": "rei"
   }
  },
  "beats": [
@@ -68,15 +65,7 @@
     "GUA:0:stern"
    ],
    "text": "1896",
-   "say": "A guerra mais curta da história durou menos que um almoço.",
-   "props": [
-    [
-     "kit/throne",
-     2.0,
-     -2.5,
-     1.3
-    ]
-   ]
+   "say": "A guerra mais curta da história durou menos que um almoço."
   },
   {
    "shot": "two",
@@ -133,7 +122,7 @@
    "say": "\"Eles não vão atirar\", disse ele."
   },
   {
-   "shot": "reveal",
+   "shot": "crowd",
    "who": [
     "ING:0:stern",
     "GUA:0:shock"
@@ -150,89 +139,8 @@
    },
    "text": "9:02",
    "titulo": true,
-   "say": "Acontece que, às nove e dois, os navios ingleses abriram fogo.",
-   "set": "harbor",
-   "props": [
-    [
-     "kit/marco_zanzibar",
-     0,
-     -34,
-     0.5
-    ],
-    [
-     "kit/navio_vapor",
-     -6,
-     -8,
-     1.3,
-     {
-      "y": -0.5
-     }
-    ],
-    [
-     "kit/navio_vapor",
-     7,
-     -10,
-     1.3,
-     {
-      "y": -0.5
-     }
-    ],
-    [
-     "kit/fire",
-     -3,
-     -18,
-     3.5
-    ],
-    [
-     "kit/fire",
-     0,
-     -18,
-     4
-    ],
-    [
-     "kit/fire",
-     3,
-     -18,
-     3.5
-    ]
-   ],
-   "shot_lock": true,
-   "grua": false,
-   "marco": true
-  },
-  {
-   "shot": "low",
-   "who": [
-    "GUA:0:shock",
-    "SUL:0:shock"
-   ],
-   "say": "O palácio de madeira começou a desabar, e a pegar fogo.",
-   "set": "palace",
-   "marco": true,
-   "batalha": false,
-   "impact": false,
-   "tiros": false,
-   "cavalaria": false,
-   "fx": [
-    "dust@30"
-   ],
-   "sfx": [
-    "thump@30"
-   ],
-   "props": [
-    [
-     "kit/fire",
-     -2.4,
-     -2.8,
-     1.6
-    ],
-    [
-     "kit/fire",
-     2.6,
-     -3.2,
-     1.7
-    ]
-   ]
+   "say": "Acontece que, às nove e dois, os navios ingleses abriram fogo. O palácio de madeira começou a desabar, e a pegar fogo.",
+   "set": "palace"
   },
   {
    "shot": "track",
@@ -255,62 +163,24 @@
     "thump@40"
    ],
    "text": "9:40",
-   "say": "Às nove e quarenta, o palácio se rendeu, e o barulho parou.",
-   "cavalaria": false,
-   "batalha": false,
-   "impact": false,
-   "tiros": false
+   "say": "Às nove e quarenta, a bandeira do palácio caiu, e os canhões pararam."
   },
   {
-   "shot": "two",
+   "shot": "group",
    "who": [
-    "SUL2:0:smile",
-    "ING:0:grin"
+    "ALM:0:smile:paper",
+    "ING:0:grin",
+    "POV:0:nervous"
    ],
-   "say": "Trinta e oito minutos. No mesmo dia, os ingleses colocaram outro sultão no trono.",
-   "batalha": false,
-   "impact": false,
-   "tiros": false,
-   "cavalaria": false,
-   "props": [
-    [
-     "kit/throne",
-     -1.6,
-     -1.0,
-     1.5
-    ],
-    [
-     "kit/veg_bananeira",
-     3.2,
-     -3,
-     1.3
-    ],
-    [
-     "kit/veg_bananeira",
-     -3.8,
-     -3.5,
-     1.3
-    ]
-   ],
-   "set": "harbor"
+   "say": "Trinta e oito minutos. No mesmo dia, os ingleses colocaram outro sultão no trono."
   },
   {
    "shot": "close",
    "who": [
     "ALM:0:grin"
    ],
-   "say": "E ainda mandaram a conta das balas para Zanzibar.",
-   "set": "harbor",
-   "props": [
-    [
-     "kit/veg_bananeira",
-     3,
-     -3,
-     1.3
-    ]
-   ]
+   "say": "E ainda mandaram a conta das balas para Zanzibar."
   }
  ],
- "exp": 0.9,
- "heroi": "kit/throne"
+ "exp": 0.9
 }

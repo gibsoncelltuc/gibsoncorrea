@@ -4,8 +4,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Um químico inventou a cola mais fraca do mundo. E ela virou um dos pro...
 - Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): SIL (variante 0, expressao sad); CHE (variante 0, expressao angry)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/postit, kit/globe
@@ -27,14 +27,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): SIL (variante 0, expressao grin, segura paper)
-- Animacao: encena
+- Animacao: reagir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): super
 - RISCOS: nenhum
 
 ## Cena b3 - Acontece que saiu o contrário: uma cola que grudava, mas soltava fácil...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (1): SIL (variante 0, expressao shock, segura paper)
 - Animacao: reagir
@@ -73,11 +73,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Aí veio a ideia: marcadores com a cola fraca do Silver. Grudam, não ca...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): FRY (variante 0, expressao surprised)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/postit
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cola, pagina, silver
 - RISCOS: nenhum
@@ -117,7 +117,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (1): SIL (variante 0, expressao smile)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/postit
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cola, lojas, postit
 - RISCOS: nenhum
@@ -136,7 +136,7 @@ nature/lamppost | b10 | pronto | conferir na folha de contato se le bem; se pare
 
 
 ## Video inteiro
-- Objeto heroi: kit/postit | grandes momentos: b5, b10 | planos abertos: 3 | mistura: close 27% | medio 56% | aberto 10% | detalhe 7%
+- Objeto heroi: kit/postit | grandes momentos: b5, b10 | planos abertos: 3 | mistura: close 20% | medio 66% | aberto 10% | detalhe 4%
 - Interacoes: b0 discutir, b4 entregar, b6 avanca e o outro recua, b8 abracar, b9 susto
 - RISCOS GERAIS: nenhum
 

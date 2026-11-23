@@ -14,5 +14,5 @@ b8 | two | -  | interior, objeto na mao | - | -
 b9 | orbit | -  | batalha aberta com tiros, tropa, placa: DEBATE | - | -
 b10 | close | -  | - | - | -
 
-Mistura de planos: close 20% | medio 53% | aberto 23% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 4 | dentro do padrao do canal
+Mistura de planos: close 20% | medio 57% | aberto 23% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 4 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

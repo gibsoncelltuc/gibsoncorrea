@@ -8,7 +8,7 @@
  "set": "harbor",
  "light": "day",
  "mood": "playful",
- "heroi": "kit/scroll",
+ "heroi": "kit/iceberg",
  "outfits": {
   "PRO": {
    "profissao": "cientista",
@@ -53,7 +53,7 @@
      "kit/iceberg",
      0,
      -3.0,
-     2.2
+     1.0
     ]
    ],
    "text": "1912",
@@ -76,9 +76,9 @@
    "props": [
     [
      "ship",
-     -3,
-     -17,
-     1.4
+     0,
+     -14.0,
+     1.0
     ]
    ],
    "say": "Abril de mil novecentos e doze. O Titanic levava mais de duas mil pessoas para Nova York."
@@ -93,9 +93,9 @@
    "props": [
     [
      "kit/iceberg",
-     3.0,
+     2.0,
      -8.0,
-     4.5
+     1.4
     ]
    ],
    "fx": [
@@ -104,10 +104,7 @@
    "sfx": [
     "sting@20"
    ],
-   "say": "Perto da meia-noite, o vigia gritou: iceberg à frente! Não deu tempo de desviar.",
-   "set": "arctic",
-   "riscos_ok": true,
-   "marco": false
+   "say": "Perto da meia-noite, o vigia gritou: iceberg à frente! Não deu tempo de desviar."
   },
   {
    "shot": "close",
@@ -120,7 +117,7 @@
      "kit/iceberg",
      1.6,
      -1.6,
-     2.2
+     0.9
     ]
    ],
    "fx": [
@@ -131,10 +128,7 @@
     "cannon@30",
     "thump@50"
    ],
-   "say": "O gelo rasgou o casco por baixo da água, onde fica a maior parte do iceberg.",
-   "set": "arctic",
-   "riscos_ok": true,
-   "marco": false
+   "say": "O gelo rasgou o casco por baixo da água, onde fica a maior parte do iceberg."
   },
   {
    "shot": "crowd",
@@ -172,10 +166,7 @@
    ],
    "text": "BOTES",
    "titulo": true,
-   "say": "Acontece que só havia botes para metade das pessoas. Cerca de mil e quinhentas morreram.",
-   "set": "arctic",
-   "marco": false,
-   "riscos_ok": true
+   "say": "Acontece que só havia botes para metade das pessoas. Cerca de mil e quinhentas morreram."
   },
   {
    "shot": "two",
@@ -201,14 +192,13 @@
    "props": [
     [
      "ship",
-     -3,
-     -17,
-     1.4
+     2.0,
+     -12.0,
+     0.9
     ]
    ],
    "interacao": "cochichar",
-   "say": "Seria só mais um navio de luxo, esquecido. E as regras do mar continuariam fracas.",
-   "set": "countryside"
+   "say": "Seria só mais um navio de luxo, esquecido. E as regras do mar continuariam fracas."
   },
   {
    "shot": "close",
@@ -231,8 +221,7 @@
     "sting@20",
     "ding@50"
    ],
-   "say": "Por causa do naufrágio, os países fizeram em mil novecentos e catorze o primeiro grande tratado de segurança no mar: bote para todos.",
-   "set": "harbor"
+   "say": "Por causa do naufrágio, os países fizeram em mil novecentos e catorze o primeiro grande tratado de segurança no mar: bote para todos."
   },
   {
    "shot": "two",
@@ -243,15 +232,13 @@
    "props": [
     [
      "kit/iceberg",
-     3.0,
+     2.0,
      -8.0,
-     4.5
+     1.2
     ]
    ],
    "interacao": "entregar",
-   "say": "E criaram uma patrulha só para vigiar icebergs. Ela existe até hoje.",
-   "set": "harbor",
-   "marco": false
+   "say": "E criaram uma patrulha só para vigiar icebergs. Ela existe até hoje."
   },
   {
    "shot": "crowd",
@@ -274,9 +261,9 @@
    "props": [
     [
      "ship",
-     -3,
-     -17,
-     1.4
+     0,
+     -14.0,
+     1.0
     ]
    ],
    "fx": [
@@ -301,13 +288,11 @@
      "kit/iceberg",
      -1.4,
      -1.6,
-     2.2
+     0.9
     ]
    ],
    "acao": "conversar",
    "say": "Às vezes, o pior dia da história é o que deixa o futuro mais seguro."
   }
- ],
- "cinf": 1.5,
- "exp": 1.404
+ ]
 }

@@ -230,7 +230,10 @@
     "GEN:0:sad"
    ],
    "interacao": "entregar",
-   "say": "Algumas pessoas morreram, por acidente e por susto, mas nenhum inimigo apareceu."
+   "say": "Algumas pessoas morreram, por acidente e por susto, mas nenhum inimigo apareceu.",
+   "verbos_ok": [
+    "aparec"
+   ]
   },
   {
    "shot": "close",

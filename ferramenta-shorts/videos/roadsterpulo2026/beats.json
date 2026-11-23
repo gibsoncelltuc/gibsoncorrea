@@ -8,7 +8,7 @@
  "set": "outback",
  "light": "day",
  "mood": "playful",
- "heroi": "kit/roadster26",
+ "heroi": "kit/roadster26_air",
  "outfits": {
   "MUS": {
    "jacket": "#16181d",
@@ -57,9 +57,9 @@
    "props": [
     [
      "kit/roadster26_air",
-     0.5,
-     -5,
-     1.5
+     0,
+     -4.0,
+     1.0
     ]
    ],
    "text": "2026",
@@ -74,8 +74,7 @@
    "say": "Elon Musk prometeu um carro que voa. Em outubro de dois mil e vinte e seis, ele mostrou o que conseguiu.",
    "verbos_ok": [
     "mostr"
-   ],
-   "set": "outback"
+   ]
   },
   {
    "shot": "reveal",
@@ -85,16 +84,7 @@
    ],
    "mapa": "ESTADOS UNIDOS",
    "mapa_at": 3,
-   "say": "Foi numa base de testes da SpaceX, no Texas.",
-   "set": "outback",
-   "props": [
-    [
-     "kit/roadster26",
-     1.6,
-     -1.5,
-     1.7
-    ]
-   ]
+   "say": "Foi numa base de testes da SpaceX, no Texas."
   },
   {
    "shot": "two",
@@ -108,11 +98,16 @@
      1.6,
      -0.8,
      1.0
+    ],
+    [
+     "kit/roadster26_air",
+     1.8,
+     -0.6,
+     1.0
     ]
    ],
    "acao": "discutir",
-   "say": "O novo Roadster da Tesla tinha sido prometido em dois mil e dezessete. Foram nove anos de atraso.",
-   "set": "countryside"
+   "say": "O novo Roadster da Tesla tinha sido prometido em dois mil e dezessete. Foram nove anos de atraso."
   },
   {
    "shot": "two",
@@ -135,8 +130,7 @@
    ],
    "sfx": [
     "ding@40"
-   ],
-   "set": "outback"
+   ]
   },
   {
    "shot": "crowd",
@@ -158,27 +152,27 @@
    "props": [
     [
      "vehicles/truck",
-     -4.0,
-     -5.5,
-     1.5
+     -3.0,
+     -6.0,
+     1.0
     ],
     [
      "vehicles/car",
-     -1.2,
-     -5.5,
-     1.5
+     0,
+     -6.0,
+     1.0
     ],
     [
      "vehicles/car_blue",
-     1.6,
-     -5.5,
-     1.5
+     3.0,
+     -6.0,
+     1.0
     ],
     [
      "kit/roadster26_air",
-     0.2,
-     -5.2,
-     1.9
+     0,
+     -7.0,
+     1.1
     ]
    ],
    "fx": [
@@ -202,8 +196,8 @@
     [
      "kit/roadster26_air",
      0,
-     -8.5,
-     1.8
+     -5.0,
+     1.1
     ]
    ],
    "fx": [
@@ -238,8 +232,7 @@
     "ENA:0:bored"
    ],
    "acao": "discutir",
-   "say": "Mas especialistas lembraram: aquilo foi um salto de poucos segundos, não um voo de verdade.",
-   "set": "outback"
+   "say": "Mas especialistas lembraram: aquilo foi um salto de poucos segundos, não um voo de verdade."
   },
   {
    "shot": "two",
@@ -262,8 +255,7 @@
    "sfx": [
     "sting@30"
    ],
-   "say": "Segundo a Tesla, ele vai de zero a cem em cerca de um segundo. A fabricação ficou para dois mil e vinte e oito.",
-   "set": "countryside"
+   "say": "Segundo a Tesla, ele vai de zero a cem em cerca de um segundo. A fabricação ficou para dois mil e vinte e oito."
   },
   {
    "shot": "crowd",
@@ -317,14 +309,12 @@
     ]
    ],
    "acao": "comemorar",
-   "say": "Carro voador ou carro que pula? Você decide.",
-   "set": "street"
+   "say": "Carro voador ou carro que pula? Você decide."
   }
  ],
  "fontes": [
   "https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/",
   "https://electrek.co/2026/10/13/tesla-roadster-event-thursday-nine-years-delays/",
   "https://www.latimes.com/business/story/2026-10-17/elon-musk-just-showed-off-flying-car-heres-what-to-know-about-tesla-roadster"
- ],
- "regiao": "colonial"
+ ]
 }

@@ -126,7 +126,9 @@
     "PRE:0:grin"
    ],
    "text": "PALCO",
-   "say": "Acontece que a cidade levou isso a sério. Montou um palco, e contratou músicos para animar a multidão."
+   "say": "Acontece que a cidade levou isso a sério. Montou um palco, e contratou músicos para animar a multidão.",
+   "set": "hall",
+   "riscos_ok": true
   },
   {
    "shot": "orbit",
@@ -181,5 +183,6 @@
    "say": "Até hoje, ninguém sabe explicar direito o que aconteceu naquele verão.",
    "acao": "nenhuma"
   }
- ]
+ ],
+ "heroi": null
 }

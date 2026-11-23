@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Narracao: A aposta era maluca: cada um escolheu um lutador, e o dono de quem perdesse teria a cabeça raspada.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: encena: perde (facepalm) @14 -> acao + som de efeito; encena: raspa (reach) @18 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: g_escolheu (point) @6 -> acao + som de efeito; encena: perde (facepalm) @14 -> acao + som de efeito; encena: raspa (reach) @18 -> acao + som de efeito
 - Efeito visual marcado: ring@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Narracao: Trump e Lashley seguraram McMahon, e passaram a máquina de raspar na cabeça dele.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@40
-- Efeito + som nas palavras-chave: encena: raspa (reach) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: g_segurara (reach) @3 -> acao + som de efeito; encena: raspa (reach) @10 -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Narracao: E ainda sobrou para Trump: o juiz aplicou um golpe nele também, e ele foi ao chão.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@30
-- Efeito + som nas palavras-chave: encena: golpe (punch) @9 -> acao + som de efeito; encena: tomba @16 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: g_sobrou (point) @2 -> acao + som de efeito; encena: g_aplicou (point) @7 -> acao + som de efeito; encena: golpe (punch) @9 -> acao + som de efeito; encena: tomba @16 -> acao + som de efeito
 - Efeito visual marcado: puff@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -107,7 +107,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: chega (point) @4 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: HALL DA FAMA
+- Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL
 
 

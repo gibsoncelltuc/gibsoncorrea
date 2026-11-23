@@ -1,0 +1,3 @@
+# MODO DE ACAO DEFINITIVO: teslaquila2020
+FALHAS: 0  |  AVISOS: 0
+

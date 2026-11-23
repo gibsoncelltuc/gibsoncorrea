@@ -5,11 +5,11 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | street | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/kettle | - | -
-b1 | countryside | two | 2 | conversar, INTERAGEM: aproxima-se | - | paper | -
+b1 | interior madeira | two | 2 | conversar, INTERAGEM: aproxima-se | - | paper | -
 b2 | countryside | crowd | 25 | comemorar, batalha | buildings/apartment, buildings/house_two, nature/lamppost | - | -
-b3 | harbor | two | 2 | conversar, INTERAGEM: entregar | kit/ball | - | -
+b3 | countryside | two | 2 | conversar, INTERAGEM: entregar | kit/ball | - | -
 b4 | street | reveal | 8 | encena | - | - | -
-b5 | harbor | two | 2 | conversar, INTERAGEM: cochichar | - | paper | -
+b5 | countryside | two | 2 | conversar, INTERAGEM: cochichar | - | paper | -
 b6 | street | low | 1 | reagir | - | - | -
 b7 | interior loja | two | 2 | conversar, INTERAGEM: avanca e o outro recua | - | - | -
 b8 | interior loja | two | 2 | conversar, INTERAGEM: entregar | kit/kettle | paper | -

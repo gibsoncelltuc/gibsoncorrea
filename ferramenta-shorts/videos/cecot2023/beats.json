@@ -8,7 +8,7 @@
  "set": "outback",
  "light": "day",
  "mood": "playful",
- "heroi": "kit/tower_mini",
+ "heroi": "kit/prison",
  "outfits": {
   "BUK": {
    "jacket": "#22252c",
@@ -53,13 +53,7 @@
     [
      "kit/prison",
      0,
-     -6.5,
-     1.6
-    ],
-    [
-     "kit/tower_mini",
-     1.5,
-     -0.7,
+     -12.0,
      1.0
     ]
    ],
@@ -84,8 +78,8 @@
     [
      "kit/prison",
      0,
-     -7,
-     1.7
+     -14.0,
+     1.2
     ]
    ],
    "say": "Ela foi inaugurada em janeiro de dois mil e vinte e três, numa área isolada do país."
@@ -97,11 +91,19 @@
     "POV:0:scared"
    ],
    "acao": "discutir",
-   "say": "Por anos, El Salvador teve uma das maiores taxas de assassinato do mundo, por causa das gangues."
+   "say": "Por anos, El Salvador teve uma das maiores taxas de assassinato do mundo, por causa das gangues.",
+   "props": [
+    [
+     "kit/prison",
+     1.8,
+     -0.6,
+     1.0
+    ]
+   ]
   },
   {
    "shot": "two",
-   "interior": "pedra",
+   "interior": "loja",
    "who": [
     "BUK:0:stern",
     "GUA:0:stern"
@@ -130,8 +132,8 @@
     [
      "kit/prison",
      0,
-     -7.5,
-     1.7
+     -13.0,
+     1.2
     ]
    ],
    "fx": [
@@ -153,14 +155,8 @@
     [
      "kit/prison",
      0,
-     -6.5,
-     1.5
-    ],
-    [
-     "kit/tower_mini",
-     1.3,
-     -0.6,
-     1.0
+     -11.0,
+     1.1
     ]
    ],
    "fx": [
@@ -204,7 +200,7 @@
   },
   {
    "shot": "two",
-   "interior": "pedra",
+   "interior": "loja",
    "who": [
     "BUK:0:stern",
     "REP:0:nervous:paper"
@@ -233,8 +229,8 @@
     [
      "kit/prison",
      0,
-     -8,
-     1.7
+     -14.0,
+     1.2
     ]
    ],
    "fx": [
@@ -256,23 +252,17 @@
     [
      "kit/prison",
      -1.0,
-     -0.6,
-     0.22
-    ],
-    [
-     "kit/tower_mini",
-     1.5,
-     -0.7,
-     1.0
+     -12.0,
+     0.9
     ]
    ],
    "acao": "conversar",
-   "say": "E o modelo passou a ser estudado, copiado e criticado em vários lugares do mundo.",
-   "set": "outback"
+   "say": "E o modelo passou a ser estudado, copiado e criticado em vários lugares do mundo."
   }
  ],
  "fontes": [
   "https://www.as-coa.org/articles/explainer-el-salvadors-2024-presidential-and-legislative-elections",
   "https://www.riotimesonline.com/who-is-nayib-bukele-el-salvador-profile-2026/"
- ]
+ ],
+ "heroi_sem_close_ok": true
 }

@@ -86,6 +86,9 @@
      -0.6,
      1.1
     ]
+   ],
+   "verbos_ok": [
+    "entra"
    ]
   },
   {
@@ -256,7 +259,8 @@
    "text": "TROPAS",
    "titulo": true,
    "say": "Os ingleses ameaçaram prender o fazendeiro. Então os Estados Unidos mandaram soldados para a ilha.",
-   "set": "harbor"
+   "set": "harbor",
+   "objetos": false
   },
   {
    "shot": "crowd",
@@ -286,14 +290,25 @@
    "set": "harbor"
   },
   {
-   "shot": "two",
+   "shot": "group",
    "who": [
     "ALM:0:stern",
     "ING:1:nervous"
    ],
-   "interior": "madeira",
    "say": "O almirante inglês recebeu a ordem de atacar. \"Não vou começar uma guerra por causa de um porco\", respondeu ele.",
-   "riscos_ok": true
+   "riscos_ok": true,
+   "animals": [
+    [
+     "pig",
+     2.0,
+     0.8,
+     "stand",
+     0.9
+    ]
+   ],
+   "set": "harbor",
+   "animais": true,
+   "shot_lock": true
   },
   {
    "shot": "crowd",

@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: E se, amanhã de manhã, a internet do mundo inteiro caísse por vinte e quatro horas?
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_fone (lift) @6 -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: E SE...
 - Funcao na historia: GANCHO
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Em dois mil e vinte e quatro, uma atualização com defeito travou oito milhões de computadores. Aeroportos pararam.
 - Som ambiente: birds
 - Efeitos sonoros marcados: sting@20, thump@50
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_travou (point) @11 -> acao + som de efeito
 - Efeito visual marcado: ring@20, puff@50
 - Texto na tela: PANE
 - Funcao na historia: GRANDE MOMENTO
@@ -49,16 +49,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b5  (~5.2 s)
 - Narracao: Hospitais e bancos voltariam para o papel e a caneta. Fila dando volta no quarteirão.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_voltaria (point) @3 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b6  (~6.6 s)
 - Narracao: Acontece que o mais estranho seria outra coisa: bilhões de pessoas sem saber o que fazer com as mãos.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@20, ding@50
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@20, stars@50
@@ -69,14 +69,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Gente conversando na rua, jogando bola, olhando para o céu.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: olha (point) @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: g_conversa (point) @1 -> acao + som de efeito; encena: olha (point) @6 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b8  (~3.4 s)
 - Narracao: Pesquisadores chamam isso de desintoxicação digital. Muita gente dorme melhor.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b9  (~4.5 s)
 - Narracao: E quando voltasse? Todo mundo correria para postar como foi ficar sem internet.
-- Som ambiente: sea
+- Som ambiente: birds
 - Efeitos sonoros marcados: ding@20, ding@60
 - Efeito + som nas palavras-chave: correria -> dust + som de impacto; encena: grita (up) @5 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Você aguentaria um dia? Responde aí, enquanto ainda tem internet.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_fone (lift) @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

@@ -57,8 +57,8 @@
    "props": [
     [
      "kit/tv",
-     2.2,
-     -2.0,
+     0,
+     -1.2,
      1.1
     ]
    ],
@@ -69,12 +69,7 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Duas palavras transformaram um empresário de Nova York numa estrela da televisão mundial: você está demitido.",
-   "detalhe": false,
-   "encena": false,
-   "verbos_ok": [
-    "trans"
-   ]
+   "say": "Duas palavras transformaram um empresário de Nova York numa estrela da televisão mundial: você está demitido."
   },
   {
    "shot": "reveal",
@@ -93,8 +88,7 @@
     "CND:0:nervous"
    ],
    "acao": "conversar",
-   "say": "Dezesseis candidatos disputavam um prêmio raro: um emprego de verdade numa empresa de Donald Trump.",
-   "interior": "pedra"
+   "say": "Dezesseis candidatos disputavam um prêmio raro: um emprego de verdade numa empresa de Donald Trump."
   },
   {
    "shot": "two",
@@ -105,8 +99,8 @@
    "props": [
     [
      "kit/stall",
-     2.6,
-     -3.8,
+     1.8,
+     -1.4,
      1.0
     ]
    ],
@@ -117,12 +111,11 @@
    "sfx": [
     "thump@40"
    ],
-   "say": "Toda semana, as equipes tinham uma tarefa de negócios, como vender limonada na rua ou criar uma propaganda.",
-   "detalhe": false
+   "say": "Toda semana, as equipes tinham uma tarefa de negócios, como vender limonada na rua ou criar uma propaganda."
   },
   {
    "shot": "two",
-   "interior": "pedra",
+   "interior": "loja",
    "who": [
     "TRU:0:stern",
     "CND:0:nervous"
@@ -138,7 +131,7 @@
   },
   {
    "shot": "close",
-   "interior": "pedra",
+   "interior": "loja",
    "who": [
     "TRU:0:smug"
    ],
@@ -220,10 +213,7 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "O formato se espalhou pelo mundo. No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus.",
-   "set": "jungle",
-   "detalhe": false,
-   "marco": false
+   "say": "O formato se espalhou pelo mundo. No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus."
   },
   {
    "shot": "two",
@@ -240,8 +230,7 @@
     ]
    ],
    "acao": "conversar",
-   "say": "Trump apresentou o programa por mais de dez anos, e só saiu em dois mil e quinze, quando entrou na política.",
-   "set": "countryside"
+   "say": "Trump apresentou o programa por mais de dez anos, e só saiu em dois mil e quinze, quando entrou na política."
   },
   {
    "shot": "close",
@@ -257,8 +246,7 @@
     ]
    ],
    "acao": "comemorar",
-   "say": "Um programa de emprego que acabou ficando famoso justamente por demitir.",
-   "set": "street"
+   "say": "Um programa de emprego que acabou ficando famoso justamente por demitir."
   }
  ],
  "heroi": "kit/tv",

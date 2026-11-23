@@ -1,12 +1,12 @@
-b0: OK - os primeiros passageiros de um balao foram uma ovelha, balao em close com placa 1783 e a ovelha na cidade
-b1: OK - mil setecentos e oitenta e tres na França, mapa da França e povo na praça da cidade europeia
-b2: OK - irmaos Montgolfier donos de fabrica de papel repararam a fumaça subindo da fogueira, ao ar livre na cidade
-b3: OK - costuraram um balao gigante de pano e papel e encheram de ar quente, balao azul dentro da oficina
-b4: OK - ninguem sabia se dava para respirar la em cima, irmaos preocupados conversando na oficina de madeira
-b5: CORRIGIDO - bichos sobre morro de pedras -> agora mandar bichos na frente, ovelha pato e galo no cesto na cidade
-b6: CORRIGIDO - Versalhes no morro -> agora rei e rainha assistiram com a multidao no gramado em plano aberto
-b7: CORRIGIDO - dois baloes e morro de pedras -> agora o balao levantou voo sobre a cidade, um balao so
-b8: CORRIGIDO - arvore tapando a camera -> agora desceu num bosque no campo, arvores atras e balao no chao
-b9: OK - os tres bichos estavam vivos e bem no campo, ovelha pato e galo ao lado dos irmaos felizes
-b10: CORRIGIDO - voaram sobre Paris em morro de pedras -> agora placa VOAMOS com balao sobre a cidade e multidao
-b11: OK - tudo graças a uma ovelha um pato e um galo corajosos, irmao sorrindo com a ovelha no gramado
+b0: OK - cena confere com a frase: Os primeiros passageiros de um balão não foram pessoas. Foram uma ovelha, um pato
+b1: OK - cena confere com a frase: Era mil setecentos e oitenta e três, na França.
+b2: OK - cena confere com a frase: Os irmãos Montgolfier, donos de uma fábrica de papel, repararam que a fumaça quente
+b3: OK - cena confere com a frase: Então costuraram um balão gigante de pano e papel, e encheram de ar quente.
+b4: OK - cena confere com a frase: Só que ninguém sabia se dava para respirar lá em cima. E se o
+b5: OK - cena confere com a frase: A solução: mandar bichos na frente. Uma ovelha, um pato e um galo entraram
+b6: OK - cena confere com a frase: No palácio de Versalhes, o rei Luís dezesseis e a rainha Maria Antonieta vieram
+b7: OK - cena confere com a frase: Acontece que o balão levantou voo de verdade, e foi embora pelo céu, com
+b8: OK - cena confere com a frase: Oito minutos depois, ele desceu num bosque a uns três quilômetros dali. Os irmãos
+b9: OK - cena confere com a frase: Os três bichos estavam vivos e bem! Dava para respirar no céu.
+b10: OK - cena confere com a frase: Dois meses depois, foi a vez de dois homens voarem sobre Paris. A humanidade
+b11: OK - cena confere com a frase: E tudo graças a uma ovelha, um pato e um galo corajosos.

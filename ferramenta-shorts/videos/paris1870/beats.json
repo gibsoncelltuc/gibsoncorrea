@@ -30,132 +30,461 @@
    "hat": "tophat",
    "moustache_on": "#4a3020",
    "build": "stout"
+  },
+  "ALE": {
+   "jacket": "#2a3a6a",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "rifle": true,
+   "profissao": "soldado",
+   "pais": "alemanha"
   }
  },
  "beats": [
   {
    "say": "Em mil oitocentos e setenta, a Prússia cercou Paris. Ninguém entrava, ninguém saía, e a comida acabou.",
-   "shot": "wide",
+   "shot": "reveal",
+   "shot_lock": true,
+   "set": "street",
    "who": [
-    "PAR:0:nervous",
-    "PAR:1:pained"
+    "ALE:0:stern",
+    "ALE:1:stern"
    ],
-   "text": "1870",
-   "tat": 0,
-   "tstyle": "blue"
+   "crowd": {
+    "n": 22,
+    "outfits": [
+     "ALE"
+    ],
+    "march": true
+   },
+   "text": "PARIS CERCADA",
+   "titulo": true,
+   "impact": true,
+   "detalhe": false,
+   "tiros": false,
+   "verbos_ok": [
+    "entra"
+   ]
   },
   {
    "say": "Primeiro, os parisienses comeram os cavalos. Depois, os cachorros e os gatos.",
-   "shot": "group",
+   "shot": "two",
+   "shot_lock": true,
+   "interior": "loja",
    "who": [
-    "PAR:2:pained",
-    "PAR:3:nervous"
+    "PAR:0:pained:",
+    "PAR:1:nervous",
+    "PAR:2:pained"
+   ],
+   "acao": "comer",
+   "humanos_comem": true,
+   "props": [
+    [
+     "mk/Table_Large",
+     0.0,
+     2.6,
+     1.8
+    ]
    ],
    "animals": [
     [
-     "dog",
-     3.0,
-     1.2,
+     "horse",
+     -1.0,
+     2.6,
      "stand",
-     1.1
+     0.3,
+     1.55
+    ],
+    [
+     "dog",
+     0.1,
+     2.6,
+     "stand",
+     0.5,
+     1.55
     ],
     [
      "cat",
-     -3.2,
-     1.0,
+     1.1,
+     2.6,
      "stand",
-     1.0
+     0.55,
+     1.55
     ]
    ],
    "text": "CAVALOS, CÃES, GATOS",
-   "tat": 5,
-   "tstyle": "brown"
+   "detalhe": false,
+   "objetos": false
   },
   {
    "say": "Depois, os roedores, que viraram um prato chique.",
    "shot": "two",
+   "shot_lock": true,
+   "interior": "loja",
    "who": [
+    "CHF:0:grin",
     "PAR:0:shock",
-    "CHF:0:grin"
+    "PAR:1:pained"
    ],
+   "acao": "comer",
+   "humanos_comem": true,
    "props": [
     [
-     "barrel",
-     2.4,
-     0.8,
-     1.1
+     "mk/Table_Large",
+     0.0,
+     2.6,
+     1.8
+    ],
+    [
+     "mk/Table_Plate",
+     -0.9,
+     2.6,
+     2.0,
+     {
+      "y": 1.55
+     }
+    ],
+    [
+     "kit/rato",
+     -0.9,
+     2.6,
+     2.0,
+     {
+      "y": 1.6,
+      "fixo": true
+     }
+    ],
+    [
+     "mk/Table_Plate",
+     0.9,
+     2.6,
+     2.0,
+     {
+      "y": 1.55
+     }
+    ],
+    [
+     "kit/rato",
+     0.9,
+     2.6,
+     2.0,
+     {
+      "y": 1.6,
+      "fixo": true
+     }
     ]
    ],
-   "text": "RATOS",
-   "tat": 3,
-   "tstyle": "red"
+   "text": "PRATO CHIQUE",
+   "detalhe": false,
+   "objetos": false
   },
   {
    "say": "Quando acabou tudo, olharam para o zoológico da cidade.",
-   "shot": "wide",
+   "shot": "group",
+   "shot_lock": true,
+   "set": "countryside",
    "who": [
     "PAR:1:nervous",
-    "PAR:3:nervous"
+    "PAR:3:nervous",
+    "PAR:2:pained"
    ],
-   "mood": "tense"
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "PAR"
+    ],
+    "march": false
+   },
+   "animals": [
+    [
+     "elephant",
+     3.0,
+     -7.0
+    ],
+    [
+     "elephant",
+     -3.4,
+     -8.0
+    ]
+   ],
+   "props": [
+    [
+     "mk/Cage_Small",
+     -2.2,
+     -4.0,
+     2.0
+    ],
+    [
+     "nature/picket_fence",
+     0.0,
+     -3.0,
+     1.6
+    ]
+   ],
+   "text": "ZOOLÓGICO",
+   "detalhe": false,
+   "objetos": false,
+   "impact": true,
+   "tiros": false
   },
   {
    "say": "O açougueiro comprou dois elefantes, Castor e Pólux, e vendeu a carne em pedaços.",
-   "shot": "close",
+   "shot": "group",
+   "shot_lock": true,
+   "set": "street",
    "who": [
-    "BUT:0:grin"
+    "BUT:0:grin",
+    "PAR:0:smile",
+    "PAR:2:shock"
+   ],
+   "animals": [
+    [
+     "elephant",
+     4.6,
+     -9.0
+    ],
+    [
+     "elephant",
+     -4.8,
+     -9.5
+    ]
+   ],
+   "props": [
+    [
+     "mk/Table_Large",
+     0.0,
+     -2.4,
+     1.6
+    ],
+    [
+     "kit/chest",
+     1.6,
+     -1.6,
+     0.8
+    ]
    ],
    "text": "CASTOR E PÓLUX",
-   "tat": 6,
-   "tstyle": "gold"
+   "detalhe": false,
+   "objetos": false
   },
   {
    "say": "No Natal, um restaurante famoso serviu consomê de elefante, dromedário assado e ensopado de canguru.",
    "shot": "two",
+   "shot_lock": true,
+   "interior": "loja",
    "who": [
     "CHF:0:grin",
-    "PAR:2:shock"
+    "PAR:2:shock",
+    "PAR:1:smile"
    ],
-   "text": "NATAL DE 1870",
-   "tat": 3,
-   "tstyle": "brown",
-   "mood": "playful",
-   "interior": false
+   "acao": "comer",
+   "humanos_comem": true,
+   "props": [
+    [
+     "mk/Table_Large",
+     0.0,
+     2.6,
+     1.8
+    ],
+    [
+     "kit/panela",
+     -1.1,
+     2.6,
+     0.8,
+     {
+      "y": 1.55,
+      "fixo": true
+     }
+    ],
+    [
+     "mk/Table_Plate",
+     0.0,
+     2.6,
+     1.6,
+     {
+      "y": 1.55
+     }
+    ],
+    [
+     "mk/Table_Plate",
+     1.1,
+     2.6,
+     1.6,
+     {
+      "y": 1.55
+     }
+    ],
+    [
+     "kit/elefante",
+     1.1,
+     2.6,
+     0.3,
+     {
+      "y": 1.55,
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "ELEFANTE · DROMEDÁRIO · CANGURU",
+   "detalhe": false,
+   "objetos": false,
+   "animais": false,
+   "animals": [],
+   "riscos_ok": true
   },
   {
    "say": "Tinha até gato com roedores, e pernil de lobo.",
-   "shot": "close",
+   "shot": "two",
+   "shot_lock": true,
+   "interior": "loja",
    "who": [
-    "PAR:3:shock"
+    "PAR:3:shock",
+    "PAR:0:shock"
+   ],
+   "acao": "comer",
+   "humanos_comem": true,
+   "props": [
+    [
+     "mk/Table_Large",
+     0.0,
+     2.6,
+     1.8
+    ],
+    [
+     "mk/Table_Plate",
+     -1.0,
+     2.6,
+     2.0,
+     {
+      "y": 1.55
+     }
+    ],
+    [
+     "kit/rato",
+     -1.0,
+     2.6,
+     2.0,
+     {
+      "y": 1.6,
+      "fixo": true
+     }
+    ],
+    [
+     "kit/rato",
+     -0.7,
+     2.4,
+     2.0,
+     {
+      "y": 1.6,
+      "fixo": true
+     }
+    ]
+   ],
+   "animals": [
+    [
+     "cat",
+     0.1,
+     2.6,
+     "stand",
+     0.55,
+     1.55
+    ],
+    [
+     "wolf",
+     1.1,
+     2.6,
+     "stand",
+     0.3,
+     1.55
+    ]
    ],
    "text": "GATO COM RATOS",
-   "tat": 4,
-   "tstyle": "red"
+   "detalhe": false,
+   "objetos": false
   },
   {
    "say": "Para mandar notícias, os parisienses usavam balões e pombos-correio.",
    "shot": "wide",
+   "shot_lock": true,
+   "set": "countryside",
    "who": [
     "PAR:0:smile",
     "PAR:1:smile"
    ],
+   "props": [
+    [
+     "kit/balloon_air",
+     2.0,
+     -6.0,
+     1.6
+    ]
+   ],
+   "voa": [
+    {
+     "asset": "kit/finch",
+     "de": [
+      -9.0,
+      -3.0
+     ],
+     "para": [
+      9.0,
+      -4.0
+     ],
+     "y": 3.6,
+     "arco": 0.6,
+     "palavra": "^mandar",
+     "dur": 120,
+     "s": 2.6,
+     "gira": 0,
+     "tint": "#f4f4f4"
+    },
+    {
+     "asset": "kit/finch",
+     "de": [
+      -11.0,
+      -2.0
+     ],
+     "para": [
+      8.0,
+      -3.0
+     ],
+     "y": 4.4,
+     "arco": 0.5,
+     "palavra": "^mandar",
+     "dur": 120,
+     "s": 2.6,
+     "gira": 0,
+     "tint": "#f4f4f4"
+    }
+   ],
    "text": "BALÕES E POMBOS",
-   "tat": 6,
-   "tstyle": "blue",
-   "mood": "calm"
+   "detalhe": false,
+   "objetos": false
   },
   {
    "say": "O cerco acabou em janeiro de mil oitocentos e setenta e um, e Paris se rendeu, de barriga vazia.",
-   "shot": "close",
+   "shot": "group",
+   "shot_lock": true,
+   "set": "street",
+   "hora": "pordosol",
    "who": [
-    "PAR:2:pained"
+    "PAR:2:pained",
+    "PAR:0:pained",
+    "PAR:1:pained"
    ],
-   "light": "dusk",
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "PAR"
+    ],
+    "march": false,
+    "expr": "pained"
+   },
    "text": "PARIS SE RENDEU",
-   "tat": 10,
-   "tstyle": "white",
-   "mood": "calm"
+   "detalhe": false,
+   "objetos": false
   }
  ],
- "heroi": "kit/panela"
+ "heroi": null,
+ "exp": 1.0
 }

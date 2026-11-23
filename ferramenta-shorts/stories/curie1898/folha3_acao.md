@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 19 - O Caderno que Ainda Brilha
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 40 acoes catalogadas, 40 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.6s - 18 palavras - plano two
@@ -25,8 +25,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | aproxima-se | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | trabalhava (13.5s) | ACAO: g_trabalha | g_trabalha | OK |
+| 2 | - | INTERACAO | aproxima-se | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b3 - 17.2s a 22.1s - 15 palavras - plano two
 > "Mexendo em toneladas de minério, eles descobriram dois elementos novos: o polônio e o rádio."
@@ -45,16 +46,18 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | brilhava (23.4s) | ACAO: brilha | o objeto brilha na palavra (ondas de luz + estrelas) | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | adorava (26.9s) | ACAO: g_adorava | g_adorava | OK |
+| 3 | - | ATUACAO | reagir | OK |
 
 ## Cena b5 - 29.6s a 34.6s - 16 palavras - plano two
 > "Ela carregava os frascos no bolso, e guardava na gaveta da mesa. Ninguém sabia do perigo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | guardava (31.7s) | ACAO: x_vigia | vigia de bracos cruzados | OK |
-| 2 | - | INTERACAO | o outro se aproxima | OK |
-| 3 | - | ATUACAO | reagir | OK |
+| 1 | carregava (29.9s) | ACAO: g_carregav | g_carregav | OK |
+| 2 | guardava (31.7s) | ACAO: x_vigia | vigia de bracos cruzados | OK |
+| 3 | - | INTERACAO | o outro se aproxima | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b6 - 35.9s a 41.5s - 19 palavras - plano crowd
 > "Marie ganhou dois prêmios Nobel, em física e em química. Foi a primeira pessoa da história a conseguir isso."
@@ -64,19 +67,19 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | ganhou (36.1s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | ganhou (36.1s) | ACAO: vence | bracos para cima + brilho | OK |
 | 3 | química (38.4s) | ACAO: quimico | frasco e tubos de ensaio + fumacinha | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | ATUACAO | comemorar | OK |
-| 6 | - | PLACA | NOBEL | OK |
+| 4 | - | ATUACAO | comemorar | OK |
+| 5 | - | PLACA | NOBEL | OK |
 
 ## Cena b7 - 42.7s a 49.0s - 20 palavras - plano two
 > "Acontece que a radiação foi destruindo a saúde dela, aos poucos. Em mil novecentos e trinta e quatro, ela morreu."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | morreu (49.0s) | EFEITO: puff | fumaca + som | OK |
-| 2 | morreu (49.0s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
-| 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 1 | destruindo (44.1s) | ACAO: g_destruin | g_destruin | OK |
+| 2 | morreu (49.0s) | EFEITO: puff | fumaca + som | OK |
+| 3 | morreu (49.0s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
+| 4 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 5 | - | ATUACAO | reagir | OK |
 
 ## Cena b8 - 50.1s a 55.8s - 17 palavras - plano two
 > "Mas os cadernos dela continuam radioativos até hoje, guardados em caixas de chumbo, numa biblioteca de Paris."
@@ -93,7 +96,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | ler (57.2s) | ACAO: x_le | le o papel | OK |
 | 2 | assinar (57.8s) | ACAO: escreve | escreve/assina | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 3 | - | ATUACAO | reagir | OK |
 
 ## Cena b10 - 61.7s a 65.3s - 16 palavras - plano orbit
 > "E o rádio leva cerca de mil e seiscentos anos só para perder metade da força."
@@ -102,9 +105,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | perder (64.5s) | EFEITO: dust | poeira + som | OK |
 | 2 | perder (64.5s) | ACAO: perde | mao na testa | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | ATUACAO | reagir | OK |
-| 5 | - | PLACA | 1.600 ANOS | OK |
+| 3 | - | ATUACAO | reagir | OK |
+| 4 | - | PLACA | 1.600 ANOS | OK |
 
 ## Cena b11 - 66.4s a 70.7s - 15 palavras - plano close
 > "Ou seja: os cadernos de Marie Curie vão continuar brilhando por muitos e muitos séculos."
@@ -112,5 +114,5 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | brilhando (69.2s) | ACAO: brilha | o objeto brilha na palavra (ondas de luz + estrelas) | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | - | ATUACAO | reagir | OK |
 

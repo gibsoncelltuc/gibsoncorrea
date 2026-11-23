@@ -1,0 +1,1 @@
+b5: dromedario e canguru sem modelo na biblioteca: aparecem no letreiro ELEFANTE · DROMEDARIO · CANGURU e o elefante em miniatura na mesa

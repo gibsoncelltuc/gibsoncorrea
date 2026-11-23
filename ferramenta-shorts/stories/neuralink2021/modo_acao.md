@@ -1,0 +1,3 @@
+# MODO DE ACAO DEFINITIVO: neuralink2021
+FALHAS: 0  |  AVISOS: 0
+

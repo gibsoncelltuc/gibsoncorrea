@@ -3,12 +3,12 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/maduro2026/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py maduro2026` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Numa madrugada de janeiro de dois mil e vinte e seis, Trump autorizou ...
-- Cenario: outback | luz: day | clima: limpo
+- Cenario: interior loja | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): TRU (variante 0, expressao stern); GEN (variante 0, expressao stern)
 - Animacao: conversar | interacao: aproxima-se
-- Objetos/modelos: kit/helicopter_air, kit/scroll
+- Objetos/modelos: kit/helicopter_air
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, janeiro, operacoes, ultimos
 - RISCOS: nenhum
 
@@ -23,17 +23,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Era o presidente venezuelano Nicolás Maduro, acusado pela justiça amer...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): MAD (variante 0, expressao smug); POV (variante 0, expressao nervous)
 - Animacao: discutir | interacao: discutir
-- Objetos/modelos: -
+- Objetos/modelos: kit/helicopter_air
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): narcoterrorismo, presidente
 - RISCOS: nenhum
 
 ## Cena b3 - Durante meses, a inteligência americana estudou cada passo dele, em se...
-- Cenario: interior pedra | luz: day | clima: limpo
+- Cenario: interior loja | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): TRU (variante 0, expressao suspicious); AGE (variante 0, expressao stern, segura paper)
@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Às duas da manhã, helicópteros levaram os soldados da Força Delta dire...
-- Cenario: mountain | luz: noite | clima: limpo
+- Cenario: countryside | luz: noite | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): SOL (variante 0, expressao stern); SOL (variante 1, expressao angry); SOL (variante 2, expressao stern) | multidao: 14 de SOL
@@ -53,27 +53,27 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do paí...
-- Cenario: outback | luz: noite | clima: limpo
+- Cenario: countryside | luz: noite | clima: limpo
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
-- Personagens principais (1): SOL (variante 0, expressao stern)
+- Personagens principais (1): SOL (variante 0, expressao angry)
 - Animacao: reagir
 - Objetos/modelos: kit/helicopter_air
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): defesas
 - RISCOS: nenhum
 
 ## Cena b6 - Acontece que, em menos de três horas, Maduro foi capturado e levado pa...
-- Cenario: outback | luz: noite | clima: limpo
-- Camera: track = travelling lateral acompanhando quem anda
+- Cenario: countryside | luz: noite | clima: limpo
+- Camera: low = camera baixa, dramatica (virada)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
-- Personagens principais (2): SOL (variante 0, expressao stern); MAD (variante 0, expressao sad)
-- Animacao: encena
+- Personagens principais (2): SOL (variante 0, expressao stern); MAD (variante 0, expressao shock)
+- Animacao: conversar | interacao: empurrar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): tres, venezuela
 - RISCOS: nenhum
 
 ## Cena b7 - Trump acompanhou tudo de longe, na Flórida, ao lado do diretor da CIA ...
-- Cenario: interior pedra | luz: day | clima: limpo
+- Cenario: interior loja | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): TRU (variante 0, expressao stern); GEN (variante 0, expressao grin)
@@ -117,17 +117,17 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/helicopter_air | b0, b4, b5, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/scroll | b0, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/helicopter_air | b0, b2, b4, b5, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/apartment | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/scroll | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 vehicles/airplane | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/scroll | grandes momentos: b4, b9 | planos abertos: 3 | mistura: close 11% | medio 77% | aberto 10% | detalhe 2%
-- Interacoes: b0 aproxima-se, b2 discutir, b3 cochichar, b7 avanca e o outro recua, b8 entregar
+- Objeto heroi: kit/helicopter_air | grandes momentos: b4, b9 | planos abertos: 3 | mistura: close 21% | medio 66% | aberto 10% | detalhe 2%
+- Interacoes: b0 aproxima-se, b2 discutir, b3 cochichar, b6 empurrar, b7 avanca e o outro recua, b8 entregar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

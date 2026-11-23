@@ -8,7 +8,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): KEK (variante 0, expressao grin); COL (variante 0, expressao surprised)
 - Animacao: conversar | interacao: cochichar
-- Objetos/modelos: kit/snake_ring, kit/marco_viena
+- Objetos/modelos: kit/snake_ring, kit/marco_viena, kit/cobra
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ajuda, cobra, maiores, quimica
 - RISCOS: nenhum
 
@@ -33,7 +33,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - Os químicos desenhavam correntes retas, e nada fechava a conta. Era um...
-- Cenario: interior madeira | luz: day | clima: limpo
+- Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): COL (variante 0, expressao bored); KEK (variante 0, expressao sad, segura paper)
@@ -47,23 +47,23 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): KEK (variante 0, expressao bored)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/fireplace, mk/Chair_1
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cadeira, lareira
 - RISCOS: nenhum
 
 ## Cena b5 - No sonho, os átomos dançavam como cobras. Até que uma delas mordeu o p...
-- Cenario: interior madeira | luz: noite | clima: limpo
+- Cenario: interior madeira | luz: study | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): KEK (variante 0, expressao surprised)
-- Animacao: conversar
-- Objetos/modelos: kit/snake_ring, mk/Chair_1
+- Animacao: reagir
+- Objetos/modelos: kit/snake_ring, mk/Chair_1, kit/cobra
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): atomos, proprio, sonho
 - RISCOS: nenhum
 
 ## Cena b6 - Kekulé acordou num pulo, como se tivesse levado um raio. O benzeno não...
-- Cenario: interior madeira | luz: noite | clima: limpo
+- Cenario: interior madeira | luz: study | clima: limpo
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): KEK (variante 0, expressao shock)
@@ -73,11 +73,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Passou o resto da noite desenhando o anel de seis carbonos. E a conta ...
-- Cenario: interior madeira | luz: noite | clima: limpo
+- Cenario: interior loja | luz: study | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): KEK (variante 0, expressao grin, segura paper)
-- Animacao: encena
+- Animacao: reagir
 - Objetos/modelos: kit/snake_ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): anel, resto, seis
 - RISCOS: nenhum
@@ -104,10 +104,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b10 - Até hoje há quem duvide da história. Mas o anel do benzeno virou base ...
 - Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): COL (variante 0, expressao suspicious); KEK (variante 0, expressao smile)
-- Animacao: conversar | interacao: insiste
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): COL (variante 0, expressao suspicious); KEK (variante 0, expressao smile) | multidao: 8 de POV
+- Animacao: conversar
 - Objetos/modelos: kit/marco_viena, kit/snake_ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): anel, benzeno, remedios
 - RISCOS: nenhum
@@ -117,7 +117,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): KEK (variante 0, expressao smile)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/snake_ring, kit/marco_viena
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): conselho, sonhar
 - RISCOS: nenhum
@@ -129,6 +129,7 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/snake_ring | b0, b2, b5, b6, b7, b8, b9, b10, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_viena | b0, b1, b9, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/cobra | b0, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/fireplace | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -136,8 +137,8 @@ mk/Chair_1 | b4, b5 | pronto | conferir na folha de contato se le bem; se parece
 
 
 ## Video inteiro
-- Objeto heroi: kit/snake_ring | grandes momentos: b1, b9 | planos abertos: 2 | mistura: close 18% | medio 72% | aberto 6% | detalhe 4%
-- Interacoes: b0 cochichar, b2 discutir, b3 entregar, b8 entregar, b10 insiste
+- Objeto heroi: kit/snake_ring | grandes momentos: b1, b9 | planos abertos: 3 | mistura: close 18% | medio 69% | aberto 12% | detalhe 2%
+- Interacoes: b0 cochichar, b2 discutir, b3 entregar, b8 entregar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

@@ -17,7 +17,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@12, dust@40
-- Texto na tela: - | mapa: ESTADOS UNIDOS
+- Texto na tela: ONU · NOVA YORK | mapa: ESTADOS UNIDOS
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b2  (~4.5 s)
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Depois, brincou: acreditem, muito mais gente vai ver essa selfie do que ouvir este discurso.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: tira (lift) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: g_brincou (point) @1 -> acao + som de efeito; encena: tira (lift) @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: No discurso, ele defendeu justamente isso: que as reuniões antigas deviam se adaptar à era da internet.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_defendeu (point) @3 -> acao + som de efeito; encena: x_fone (lift) @16 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

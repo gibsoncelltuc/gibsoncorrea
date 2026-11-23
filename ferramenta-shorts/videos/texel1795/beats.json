@@ -53,15 +53,21 @@
    "props": [
     [
      "ship",
-     -3,
-     -6,
-     1.3
+     -4.800000000000001,
+     -16.0,
+     1.5,
+     {
+      "y": -1.8
+     }
     ],
     [
      "ship",
-     5,
-     -9,
-     1.2
+     8.0,
+     -16.0,
+     1.5,
+     {
+      "y": -1.8
+     }
     ]
    ],
    "text": "1795",
@@ -73,7 +79,8 @@
    ],
    "sfx": [
     "ding@30"
-   ]
+   ],
+   "detalhe": false
   },
   {
    "say": "A frota holandesa estava ancorada perto de Den Helder, e o mar congelou em volta dela.",
@@ -85,15 +92,20 @@
    "props": [
     [
      "ship",
-     0,
-     -7,
-     1.4
+     0.0,
+     -16.0,
+     1.5,
+     {
+      "y": -1.8
+     }
     ]
    ],
    "text": "FROTA CONGELADA",
    "tat": 7,
    "tstyle": "white",
-   "set": "harbor"
+   "set": "arctic",
+   "detalhe": false,
+   "riscos_ok": true
   },
   {
    "say": "Os navios ficaram presos no gelo, como carros num congestionamento.",
@@ -104,29 +116,35 @@
    "props": [
     [
      "ship",
-     -4,
-     -5,
-     1.3
+     -6.4,
+     -16.0,
+     1.5,
+     {
+      "y": -1.8
+     }
     ],
     [
      "ship",
-     3,
-     -6,
-     1.2
+     4.800000000000001,
+     -16.0,
+     1.5,
+     {
+      "y": -1.8
+     }
     ],
     [
      "ship",
-     9,
-     -9,
-     1.3
-    ],
-    [
-     "vehicles/truck",
-     1.6,
-     -1.6,
-     1.0
+     14.4,
+     -16.0,
+     1.5,
+     {
+      "y": -1.8
+     }
     ]
-   ]
+   ],
+   "detalhe": false,
+   "set": "arctic",
+   "riscos_ok": true
   },
   {
    "say": "Do outro lado, os franceses tinham cavalaria, os hussardos, e nenhum navio.",
@@ -139,14 +157,24 @@
    "animals": [
     [
      "horse",
-     3.6,
-     1.2,
+     1.6,
+     -3.2,
      "stand",
-     0.7
+     0.62
     ]
    ],
    "mood": "march",
-   "set": "countryside"
+   "set": "harbor",
+   "detalhe": false,
+   "shot_lock": true,
+   "cavalaria": false,
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "FRA"
+    ],
+    "march": false
+   }
   },
   {
    "say": "O chefe da cavalaria teve uma ideia maluca: atacar a frota a cavalo.",
@@ -171,21 +199,21 @@
      -3.0,
      1.6,
      "trot",
-     0.7
+     0.62
     ],
     [
      "horse",
      3.0,
      2.0,
      "trot",
-     0.7
+     0.62
     ]
    ],
    "move": 10,
    "light": "tense",
    "mood": "tense",
    "batalha": true,
-   "set": "countryside"
+   "set": "arctic"
   },
   {
    "say": "Os marinheiros holandeses viram a cavalaria chegar, e a frota se rendeu.",
@@ -199,7 +227,24 @@
    "tstyle": "red",
    "light": "arctic",
    "mood": "playful",
-   "batalha": true
+   "batalha": false,
+   "animals": [
+    [
+     "horse",
+     -2.4,
+     -2.5,
+     "stand",
+     0.62
+    ],
+    [
+     "horse",
+     2.4,
+     -2.5,
+     "stand",
+     0.62
+    ]
+   ],
+   "tiros": false
   },
   {
    "say": "Foram mais de uma dezena de navios capturados por soldados a cavalo.",
@@ -211,15 +256,21 @@
    "props": [
     [
      "ship",
-     -4,
-     -5,
-     1.3
+     -6.4,
+     -16.0,
+     1.5,
+     {
+      "y": -1.8
+     }
     ],
     [
      "ship",
-     4,
-     -7,
-     1.3
+     6.4,
+     -16.0,
+     1.5,
+     {
+      "y": -1.8
+     }
     ]
    ],
    "animals": [
@@ -228,23 +279,42 @@
      2.6,
      1.0,
      "stand",
-     0.7
+     0.62
     ]
    ],
    "mood": "playful",
-   "set": "mountain"
+   "set": "mountain",
+   "detalhe": false
   },
   {
    "say": "Dizem que foi a única vez na história em que uma cavalaria capturou uma frota.",
-   "shot": "close",
+   "shot": "two",
    "who": [
     "OFF:0:laugh"
    ],
    "text": "CAVALARIA 1 X 0 MARINHA",
    "tat": 12,
    "tstyle": "gold",
-   "interior": "madeira"
+   "animals": [
+    [
+     "horse",
+     -2.6,
+     -1.5,
+     "stand",
+     0.62
+    ],
+    [
+     "horse",
+     2.6,
+     -1.5,
+     "stand",
+     0.62
+    ]
+   ],
+   "set": "arctic",
+   "shot_lock": true
   }
  ],
- "heroi": "kit/navio_vapor"
+ "heroi": null,
+ "variar_cenario": false
 }

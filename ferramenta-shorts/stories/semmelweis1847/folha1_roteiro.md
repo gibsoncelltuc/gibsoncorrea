@@ -17,7 +17,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@12, dust@40
-- Texto na tela: - | mapa: ÁUSTRIA
+- Texto na tela: HOSPITAL DE VIENA | mapa: ÁUSTRIA
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b2  (~6.2 s)
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Um dia, o amigo dele, Kolletschka, cortou o dedo com um bisturi, examinando um corpo, e morreu da mesma febre.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; encena: corta (reach) @6 -> acao + som de efeito; encena: morre @16 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; encena: corta (reach) @6 -> acao + som de efeito; encena: g_examinan (point) @12 -> acao + som de efeito; encena: morre @16 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Ele colocou uma bacia com água e cloro na porta, e obrigou todo mundo a lavar as mãos antes de entrar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
-- Efeito + som nas palavras-chave: encena: x_lava (stir) @15 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: g_colocou (reach) @1 -> acao + som de efeito; encena: g_obrigou (up) @11 -> acao + som de efeito; encena: x_lava (stir) @15 -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: As mortes despencaram quase dez vezes. Centenas de mães foram salvas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_despenca (point) @2 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: VIDAS SALVAS
 - Funcao na historia: GRANDE MOMENTO
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Mas os médicos se ofenderam. Um cavalheiro, diziam, tem as mãos limpas. Semmelweis brigou com todos, e foi mandado embora.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@50
-- Efeito + som nas palavras-chave: encena: sai @19 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: g_ofendera (point) @4 -> acao + som de efeito; encena: sai @19 -> acao + som de efeito
 - Efeito visual marcado: ring@50
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: E mais: em mil seiscentos e sessenta e sete, a Holanda trocou com os ingleses. Ficou com o Suriname, e entregou a vila de Nova Amsterdã.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) @20 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: g_trocou (reach) @11 -> acao + som de efeito; encena: x_entrega (reach) @20 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

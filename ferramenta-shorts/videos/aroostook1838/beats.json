@@ -153,6 +153,9 @@
      -0.6,
      1.0
     ]
+   ],
+   "verbos_ok": [
+    "corta"
    ]
   },
   {
@@ -246,7 +249,15 @@
     "PRE:1:smile"
    ],
    "interacao": "entregar",
-   "say": "Alguns anos depois, um tratado dividiu a floresta, e a fronteira ficou definida."
+   "say": "Alguns anos depois, um tratado dividiu a floresta, e a fronteira ficou definida.",
+   "props": [
+    [
+     "nature/tree_pine",
+     -3.5,
+     -2.5,
+     1.6
+    ]
+   ]
   },
   {
    "shot": "close",

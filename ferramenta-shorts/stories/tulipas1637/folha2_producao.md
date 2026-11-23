@@ -7,7 +7,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): MER (variante 0, expressao grin, segura tulip); POV (variante 1, expressao shock)
-- Animacao: reagir | interacao: susto
+- Animacao: conversar | interacao: susto
 - Objetos/modelos: kit/tulip_bed, buildings/windmill, kit/tulip_red
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): casa, preco
 - RISCOS: nenhum

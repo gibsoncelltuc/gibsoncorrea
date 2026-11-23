@@ -6,19 +6,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): CON (variante 0, expressao shock); OFI (variante 0, expressao laugh) | multidao: 5 de CON/OFI
-- Animacao: reagir | interacao: entregar | o ultimo personagem ENTRA andando
+- Personagens principais (2): CON (variante 0, expressao shock); OFI (variante 0, expressao laugh) | multidao: 5 de OFI
+- Animacao: conversar | interacao: entregar | o ultimo personagem ENTRA andando
 - Objetos/modelos: kit/marco_ulua, kit/cake_table
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): confeitaria, franca, mexico
-- RISCOS: 
-  - a narracao fala de BATALHA/ATAQUE e a cena nao encena a luta -> CORRECAO: "batalha": true nesta cena (tropa dos dois lados no "crowd", tiros/golpes e gente fugindo); cada batalha citada no roteiro = uma cena com "batalha": true
+- RISCOS: nenhum
 
 ## Cena b1 - Um confeiteiro francês tinha uma loja perto da Cidade do México, famos...
 - Cenario: street | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): CON (variante 0, expressao smile); OFI (variante 1, expressao neutral) | multidao: 8 de CON/OFI
-- Animacao: -
+- Personagens principais (2): CON (variante 0, expressao smile); OFI (variante 1, expressao neutral) | multidao: 8 de OFI
+- Animacao: conversar
 - Objetos/modelos: kit/marco_ulua, kit/cake_table, buildings/shop, kit/stall
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, confeiteiro, loja, mexico
 - RISCOS: nenhum
@@ -48,7 +47,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): REI (variante 0, expressao stern)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca, marinha
 - RISCOS: nenhum
@@ -58,7 +57,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): GEN (variante 0, expressao laugh); OFI (variante 0, expressao grin)
-- Animacao: comemorar | interacao: cochichar
+- Animacao: conversar | interacao: cochichar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): centavo, cobranca, mexico
 - RISCOS: nenhum
@@ -87,7 +86,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): GEN (variante 0, expressao pained); OFI (variante 1, expressao shock) | multidao: 18 de GEN/OFI
+- Personagens principais (2): GEN (variante 0, expressao pained); OFI (variante 1, expressao shock) | multidao: 18 de OFI
 - Animacao: reagir | batalha encenada
 - Objetos/modelos: kit/marco_ulua, cannon
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canhao, combate, general, perna, tiro
@@ -98,19 +97,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): GEN (variante 0, expressao pained, segura paper); FRA (variante 0, expressao grin, segura coin)
-- Animacao: encena | interacao: susto
+- Animacao: conversar | interacao: susto
 - Objetos/modelos: kit/marco_ulua
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca, mexico, seiscentos
 - RISCOS: nenhum
 
-## Cena b10 - Nunca um doce custou tão caro.
+## Cena b10 - Nunca um doce custou tão caro, e o confeiteiro contou as moedas.
 - Cenario: street | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
-- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): CON (variante 0, expressao grin, segura coin)
-- Animacao: encena
-- Objetos/modelos: kit/marco_ulua, kit/cake_table
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): doce
+- Animacao: comemorar
+- Objetos/modelos: kit/marco_ulua, kit/cake_table, kit/coin
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): confeiteiro, doce, moedas
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -123,15 +122,15 @@ kit/cake_table | b0, b1, b3, b10 | pronto (HEROI: aparece em close) | conferir n
 buildings/shop | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/stall | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 cannon | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/coin | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/cake_table | grandes momentos: b6, b7, b8 | planos abertos: 4 | mistura: close 22% | medio 58% | aberto 15% | detalhe 4%
+- Objeto heroi: kit/cake_table | grandes momentos: b6, b7, b8 | planos abertos: 4 | mistura: close 25% | medio 56% | aberto 15% | detalhe 4%
 - Interacoes: b0 entregar, b2 vai ate o outro, b3 aproxima-se, b5 cochichar, b9 susto
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- b0: a narracao fala de BATALHA/ATAQUE e a cena nao encena a luta
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh bolos1838 bN bM` (so essas cenas).

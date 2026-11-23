@@ -6,11 +6,11 @@ b0 | two | -  | - | dinheiro (stars + som de sino); encena: paga (reach) @20 (ac
 b1 | reveal | -  | tropa, mapa | encena: pensa (think) @10 (acao + som de efeito) | -
 b2 | group | -  | interior | - | -
 b3 | crowd | -  | batalha aberta com tiros, tropa, placa: 7 DE SETEMBRO DE 2021 | - | -
-b4 | two | dia  | objeto na mao | pagar (stars + som de sino); encena: paga (reach) @4 (acao + som de efeito); encena: negocio (reach) @6 (acao + som de efeito) | -
-b5 | orbit | -  | batalha aberta com tiros, tropa, placa: CARTEIRA CHIVO | - | -
+b4 | two | noite  | objeto na mao | pagar (stars + som de sino); encena: paga (reach) @4 (acao + som de efeito); encena: negocio (reach) @6 (acao + som de efeito) | -
+b5 | orbit | -  | batalha aberta com tiros, tropa, interior, placa: CARTEIRA CHIVO | - | -
 b6 | two | -  | interior | - | -
 b7 | orbit | -  | tropa | - | -
 b8 | two | -  | - | encena: paga (reach) @1 (acao + som de efeito) | -
 
-Mistura de planos: close 4% | medio 64% | aberto 28% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 4% | medio 62% | aberto 28% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)

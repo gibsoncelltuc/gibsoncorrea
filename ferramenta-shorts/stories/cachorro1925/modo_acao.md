@@ -1,0 +1,3 @@
+# MODO DE ACAO DEFINITIVO: cachorro1925
+FALHAS: 0  |  AVISOS: 0
+

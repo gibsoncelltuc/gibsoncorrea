@@ -4,7 +4,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | interior madeira | two | 2 | reagir, INTERAGEM: avanca e o outro recua | kit/stove | - | -
+b0 | interior madeira | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/stove | - | -
 b1 | street | reveal | 8 | parados (so fala e pisca) | - | - | -
 b2 | street | crowd | 14 | discutir, batalha | kit/stove | - | -
 b3 | interior madeira | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/stove | paper | -
@@ -15,7 +15,7 @@ b7 | interior madeira | low | 1 | comemorar | kit/stove | - | -
 b8 | interior madeira | two | 2 | conversar, INTERAGEM: abracar | kit/stove | - | -
 b9 | street | group | 8 | discutir, INTERAGEM: discutir | - | - | -
 b10 | street | crowd | 21 | comemorar, batalha | kit/tires, kit/ball, kit/stove | - | -
-b11 | interior loja | close | 1 | conversar | kit/stove, kit/tires | - | -
+b11 | interior loja | close | 1 | reagir | kit/stove, kit/tires | - | -
 
 OBJETO HEROI: kit/borracha - aparece em 0 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b2, b10

@@ -4,7 +4,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Antes de virar presidente, Donald Trump entrou num ringue de luta livr...
 - Cenario: stadium | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): TRU (variante 0, expressao smug); VIN (variante 0, expressao shock)
 - Animacao: conversar | interacao: susto | o ultimo personagem ENTRA andando
@@ -34,10 +34,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - A aposta era maluca: cada um escolheu um lutador, e o dono de quem per...
 - Cenario: stadium | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): VIN (variante 0, expressao smug); TRU (variante 0, expressao suspicious)
-- Animacao: conversar | interacao: entregar
+- Animacao: conversar | interacao: cochichar
 - Objetos/modelos: kit/clipper
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aposta, cabeca, dono, escolheu, lutador
 - RISCOS: nenhum
@@ -48,7 +48,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao laugh); POV (variante 1, expressao shout); POV (variante 2, expressao grin) | multidao: 30 de POV
 - Animacao: comemorar | batalha encenada
-- Objetos/modelos: kit/ball
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): batalha, bilionarios, estadio, oitenta
 - RISCOS: nenhum
 
@@ -57,7 +57,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): LAS (variante 0, expressao angry); UMA (variante 0, expressao shout)
-- Animacao: conversar | interacao: empurrar
+- Animacao: conversar | interacao: discutir
 - Objetos/modelos: kit/ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gigante, lutador, mcmahon, ringue, trump
 - RISCOS: nenhum
@@ -66,7 +66,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: stadium | luz: day | clima: limpo
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): JUI (variante 0, expressao smug); UMA (variante 0, expressao angry) | multidao: 5 de POV
+- Personagens principais (2): JUI (variante 0, expressao smug); UMA (variante 0, expressao angry) | multidao: 30 de POV
 - Animacao: conversar | interacao: susto
 - Objetos/modelos: kit/ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): juiz, luta
@@ -78,16 +78,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): LAS (variante 0, expressao laugh); TRU (variante 0, expressao laugh); POV (variante 0, expressao shout) | multidao: 22 de POV
 - Animacao: comemorar | batalha encenada
-- Objetos/modelos: kit/ring, kit/ball
+- Objetos/modelos: kit/ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estadio, lutador, trump
 - RISCOS: nenhum
 
 ## Cena b8 - Trump e Lashley seguraram McMahon, e passaram a máquina de raspar na c...
 - Cenario: stadium | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): TRU (variante 0, expressao laugh); VIN (variante 0, expressao scared)
-- Animacao: conversar | interacao: empurrar
+- Animacao: conversar | interacao: discutir
 - Objetos/modelos: kit/ring, kit/clipper
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabeca, maquina, raspar
 - RISCOS: nenhum
@@ -96,7 +96,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: stadium | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (2): VIB (variante 0, expressao cry); TRU (variante 0, expressao laugh)
+- Personagens principais (3): VIB (variante 0, expressao cry); TRU (variante 0, expressao laugh); LAS (variante 0, expressao smile)
 - Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/clipper
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dono, luta, ringue
@@ -104,21 +104,21 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b10 - E ainda sobrou para Trump: o juiz aplicou um golpe nele também, e ele ...
 - Cenario: stadium | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): JUI (variante 0, expressao smug); TRU (variante 0, expressao shock)
-- Animacao: conversar | interacao: empurrar
+- Animacao: conversar | interacao: discutir
 - Objetos/modelos: kit/ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): golpe, juiz
 - RISCOS: nenhum
 
 ## Cena b11 - Seis anos depois, Trump entrou para o Hall da Fama da luta livre. Tudo...
 - Cenario: stadium | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (1): TRU (variante 0, expressao smile)
-- Animacao: comemorar
-- Objetos/modelos: kit/clipper
+- Personagens principais (2): TRU (variante 0, expressao smile); JUI (variante 0, expressao smile)
+- Animacao: comemorar | interacao: pular
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabelo, corte, fama, hall, luta
 - RISCOS: nenhum
 
@@ -127,14 +127,13 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/clipper | b0, b3, b8, b9, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/ball | b4, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/clipper | b0, b3, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/ring | b5, b6, b7, b8, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/clipper | grandes momentos: b4, b7 | planos abertos: 3 | mistura: close 22% | medio 64% | aberto 10% | detalhe 4%
-- Interacoes: b0 susto, b2 discutir, b3 entregar, b5 empurrar, b6 susto, b8 empurrar, b9 insiste, b10 empurrar
+- Objeto heroi: - | grandes momentos: b4, b7 | planos abertos: 3 | mistura: close 27% | medio 63% | aberto 10% | detalhe 0%
+- Interacoes: b0 susto, b2 discutir, b3 cochichar, b5 discutir, b6 susto, b8 discutir, b9 insiste, b10 discutir, b11 pular
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

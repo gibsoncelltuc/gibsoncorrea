@@ -64,7 +64,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - A garrafa era de vidro soprado à mão, em forma de raio, presa num supo...
 - Cenario: interior loja | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): FAN (variante 0, expressao surprised)
 - Animacao: comemorar
@@ -135,7 +135,7 @@ kit/veg_cacto | b4, b5 | pronto | conferir na folha de contato se le bem; se par
 
 
 ## Video inteiro
-- Objeto heroi: kit/tequila_bolt | grandes momentos: b7, b10 | planos abertos: 3 | mistura: close 27% | medio 56% | aberto 10% | detalhe 8%
+- Objeto heroi: kit/tequila_bolt | grandes momentos: b7, b10 | planos abertos: 3 | mistura: close 18% | medio 64% | aberto 10% | detalhe 8%
 - Interacoes: b0 insiste, b2 discutir, b3 entregar, b4 o outro se aproxima, b5 cochichar, b8 entregar, b9 vai ate o outro
 - RISCOS GERAIS: nenhum
 

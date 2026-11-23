@@ -1,5 +1,5 @@
 # AUDITORIA NARRACAO x TELA: vulcao2021
-Cenas 100% fieis: 10/12 (83%). Lacunas: 2
+Cenas 100% fieis: 12/12 (100%). Lacunas: 0
 
 ## b0 OK - O presidente de El Salvador resolveu fabricar dinheiro digital com a energia de um vulcão.
 - na tela: set=['street'] animais=[] objetos=['bitcoin', 'coin', 'volcano'] atores=2 acoes_folha3=['dinheiro', 'dinheiro']
@@ -8,19 +8,17 @@ Cenas 100% fieis: 10/12 (83%). Lacunas: 2
 ## b2 OK - Em dois mil e vinte e um, Nayib Bukele fez do bitcoin uma moeda oficial do país, ao lado do dólar.
 - na tela: set=['mountain'] animais=[] objetos=['bitcoin', 'coin', 'volcano'] atores=6 acoes_folha3=['moeda']
 ## b3 OK - Só que, para criar bitcoins novos, computadores fazem contas sem parar. E isso gasta muita energia.
-- na tela: set=['hall'] animais=[] objetos=['bitcoin', 'miners', 'room_eua_shop'] atores=2 acoes_folha3=[]
+- na tela: set=['hall'] animais=[] objetos=['bitcoin', 'miners', 'room_colonial_shop'] atores=2 acoes_folha3=[]
 ## b4 OK - Então ele mandou a empresa de energia do governo usar o calor do vulcão Tecapa.
 - na tela: set=['street'] animais=[] objetos=['volcano'] atores=2 acoes_folha3=['mandou']
-## b5 LACUNA - O vapor quente que sai de dentro da terra gira turbinas, e vira eletricidade limpa.
-- na tela: set=['mountain'] animais=[] objetos=['volcano'] atores=1 acoes_folha3=[]
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
-## b6 LACUNA - Acontece que, ao lado da usina, instalaram centenas de computadores só para minerar bitcoin.
-- na tela: set=['hall'] animais=[] objetos=['bitcoin', 'miners', 'room_eua_shop'] atores=2 acoes_folha3=[]
-- **FALTA:** CENA PARADA: ninguem faz nada e nada do que foi narrado aparece
+## b5 OK - O vapor quente que sai de dentro da terra gira turbinas, e vira eletricidade limpa.
+- na tela: set=['mountain'] animais=[] objetos=['turbina', 'volcano'] atores=2 acoes_folha3=[]
+## b6 OK - Acontece que, ao lado da usina, instalaram centenas de computadores só para minerar bitcoin.
+- na tela: set=['hall'] animais=[] objetos=['bitcoin', 'miners', 'room_colonial_shop'] atores=2 acoes_folha3=['instalaram']
 ## b7 OK - Em outubro saiu o primeiro: um pedacinho de bitcoin que valia uns duzentos e setenta dólares.
-- na tela: set=['harbor'] animais=[] objetos=['bitcoin', 'lighthouse', 'volcano'] atores=21 acoes_folha3=['saiu']
+- na tela: set=['mountain'] animais=[] objetos=['bitcoin', 'volcano'] atores=3 acoes_folha3=['saiu']
 ## b8 OK - Bukele comemorou nas redes sociais, com um vídeo da usina no vulcão.
-- na tela: set=['harbor'] animais=[] objetos=['volcano'] atores=21 acoes_folha3=['comemorou']
+- na tela: set=['mountain'] animais=[] objetos=['phone', 'volcano'] atores=21 acoes_folha3=['comemorou', 'redes']
 ## b9 OK - Anos depois, o governo contava quase quinhentos bitcoins minerados com a força do vulcão.
 - na tela: set=['street'] animais=[] objetos=['bitcoin', 'volcano'] atores=6 acoes_folha3=['contava']
 ## b10 OK - E ele ainda anunciou o plano de uma Cidade Bitcoin, construída aos pés de outro vulcão.

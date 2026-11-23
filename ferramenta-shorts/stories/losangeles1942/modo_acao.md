@@ -1,0 +1,3 @@
+# MODO DE ACAO DEFINITIVO: losangeles1942
+FALHAS: 0  |  AVISOS: 0
+
