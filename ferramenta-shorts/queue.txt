@@ -1,22 +1,22 @@
 # REFACAO COM PESQUISA VISUAL (ordem do Gibson 23/11): cada roteiro ganha "visual" (onde, quando, quem, roupas da epoca, cenario, objetos, fontes visuais) e e' refeito do zero com a ferramenta nova.
-selfie2019
-paypal2002
-roadster2018
-aroostook1838
-balde1325
-bolos1838
-cachorro1925
-danca1518
-falcon2015
-gansos390
-martelo2025
-pia2022
-eratostenes240
-rontgen1895
-tycho1566
-semmelweis1847
-velcro1941
-montgolfier1783
+#PAUSA selfie2019
+#PAUSA paypal2002
+#PAUSA roadster2018
+#PAUSA aroostook1838
+#PAUSA balde1325
+#PAUSA bolos1838
+#PAUSA cachorro1925
+#PAUSA danca1518
+#PAUSA falcon2015
+#PAUSA gansos390
+#PAUSA martelo2025
+#PAUSA pia2022
+#PAUSA eratostenes240
+#PAUSA rontgen1895
+#PAUSA tycho1566
+#PAUSA semmelweis1847
+#PAUSA velcro1941
+#PAUSA montgolfier1783
 #PAUSADO ese_dinheiro
 #PAUSADO ese_lua
 #PAUSADO ese_napoleao
