@@ -7,33 +7,33 @@
  "mood": "playful",
  "outfits": {
   "GRE": {
-   "jacket": "#3a5a8a",
-   "pants": "#e8e0c8",
+   "jacket": "#8a7a50",
+   "pants": "#7a6a44",
    "boots": "#2a2218",
-   "hat": "cap",
-   "cap": "#3a5a8a",
+   "hat": "quepe",
+   "cap": "#7a6a44",
    "belt": "#2a2218",
    "buttons": "#e8c45a",
    "rifle": true
   },
   "BUL": {
-   "jacket": "#4a6a3a",
-   "pants": "#4a4a3a",
+   "jacket": "#5a6a4a",
+   "pants": "#4a5a3a",
    "boots": "#2a2218",
-   "hat": "cap",
-   "cap": "#4a6a3a",
+   "hat": "quepe",
+   "cap": "#4a5a3a",
    "belt": "#2a2218",
    "rifle": true
   },
   "OFF": {
-   "jacket": "#3a5a8a",
-   "pants": "#e8e0c8",
+   "jacket": "#8a7a50",
+   "pants": "#7a6a44",
    "boots": "#1b1b1f",
-   "hat": "shako_tall",
-   "sash": "#e8c45a",
+   "hat": "quepe",
    "buttons": "#e8c45a",
    "moustache_on": "#3a2a1f",
-   "build": "stout"
+   "build": "stout",
+   "cap": "#5a4a2a"
   }
  },
  "beats": [
@@ -49,7 +49,7 @@
    "tstyle": "blue"
   },
   {
-   "say": "Um soldado grego estava de guarda, e o cachorro dele fugiu para o outro lado da fronteira.",
+   "say": "Conta a história que um soldado grego estava de guarda, e o cachorro dele fugiu para o outro lado da fronteira.",
    "shot": "two",
    "who": [
     "GRE:0:shock"
@@ -135,7 +135,8 @@
    "text": "LIGA DAS NAÇÕES",
    "tat": 6,
    "tstyle": "blue",
-   "mood": "playful"
+   "mood": "playful",
+   "interior": "pedra"
   },
   {
    "say": "A Liga mandou a Grécia parar, retirar as tropas e pagar uma indenização.",
@@ -146,7 +147,8 @@
    ],
    "text": "INDENIZAÇÃO",
    "tat": 10,
-   "tstyle": "gold"
+   "tstyle": "gold",
+   "interior": "pedra"
   },
   {
    "say": "A Grécia obedeceu, e ninguém sabe o que aconteceu com o cachorro.",
@@ -169,5 +171,31 @@
    "mood": "playful"
   }
  ],
- "heroi": "kit/dog_sit"
+ "heroi": "kit/dog_sit",
+ "visual": {
+  "local": "Passo de Demir Kapia, na serra de Belasitsa: fronteira montanhosa entre a Grecia e a Bulgaria, perto de Petrich; sede da Liga das Nacoes em Genebra",
+  "quando": "19 de outubro de 1925 (o tiro), invasao grega a partir de 22 de outubro de 1925, de dia, outono",
+  "participantes": [
+   "soldado grego de guarda e seu cachorro",
+   "sentinela bulgara",
+   "exercito grego",
+   "governo bulgaro",
+   "Conselho da Liga das Nacoes"
+  ],
+  "roupas": {
+   "GRE": "soldado grego de 1925: farda caqui, quepe, fuzil",
+   "BUL": "soldado bulgaro: farda verde-acinzentada, quepe",
+   "OFF": "oficial grego de caqui com quepe"
+  },
+  "cenario": "montanhas secas com pedras e mata baixa, posto de fronteira; salao de reunioes da Liga das Nacoes",
+  "objetos": [
+   "cachorro",
+   "fuzis",
+   "bandeira branca",
+   "documento do ultimato"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Incident_at_Petrich"
+  ]
+ }
 }

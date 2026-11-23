@@ -534,13 +534,13 @@ ENC = [(r'^(misturou|misturaram|misturando|mistura|misturar|mexeu|mexendo|mexia|
 _SUF = ('ear', 'eou', 'earam', 'eava', 'eavam', 'eando', 'eia', 'eiam', 'eado', 'eada', 'ar', 'ou', 'aram', 'ava', 'avam', 'ando', 'a', 'am', 'ado', 'ada', 'ados', 'adas', 'ara', 'er', 'eu', 'eram', 'ia', 'iam', 'endo', 'ido', 'ida', 'ir', 'iu', 'iram', 'indo', 'e', 'em', 'ei', 'aria', 'ariam')
 _RAIZ = [  # (raizes, gesto, tipo, sufixos proibidos: viram substantivo/outro sentido)
     (('apert',), 'reach', 'x_aperta', ('a', 'e', 'o')),
-    (('desc', 'pous', 'aterriss', 'baix'), None, 'x_desce', ('a', 'e', 'o', 'ar', 'em', 'ado', 'ada', 'ia', 'iam')),
+    (('desc', 'pous', 'aterriss', 'baix'), 'point', 'x_desce', ('a', 'e', 'o', 'ar', 'em', 'ado', 'ada', 'ia', 'iam')),
     (('espalh', 'dispers', 'debAND', 'ocup', 'lot', 'reun', 'aglomer', 'agrup'), 'point', 'chega', ('a', 'e', 'o')),
     (('defend', 'proteg', 'resist', 'bloquei'), 'cross', 'x_defende', ('a', 'e', 'o', 'ido', 'ida')),
     (('troc', 'divid', 'repart', 'compartilh', 'escolh', 'selecion', 'aplic'), 'reach', 'x_entrega', ('a', 'e', 'o', 'ido', 'ida')),
     (('convers', 'dialog', 'cochich', 'fofoc', 'comb'), 'point', 'fala', ('a', 'e', 'o', 'inado', 'inada')),
     (('ensai', 'treinA', 'trein', 'exercit'), 'up', 'danca', ('a', 'e', 'o')),
-    (('obedec', 'saud', 'continenc'), None, 'x_saluda', ('a', 'e', 'o', 'ia', 'iam')),
+    (('obedec', 'saud', 'continenc'), 'salute', 'x_saluda', ('a', 'e', 'o', 'ia', 'iam')),
     (('dirig', 'pilot', 'aceler', 'freou', 'estacion'), 'point', 'x_dirige', ('a', 'e', 'o', 'ido', 'ida')),
     (('sangr', 'feriu', 'machuc'), 'facepalm', 'x_chora', ('a', 'e', 'o')),
     (('volt', 'regress', 'retorn', 'atravess', 'cruz', 'avanc', 'desembarc', 'aproxim', 'march', 'caminh', 'and', 'entr', 'invad', 'adentr'), 'point', 'chega', ('a', 'e', 'em')),
