@@ -23,7 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Numa noite, os hussardos foram na frente procurar o inimigo.
-- Cenario: countryside | luz: dusk | clima: limpo
+- Cenario: countryside | luz: noite | clima: limpo
 - Camera: track = travelling lateral acompanhando quem anda
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): HUS (variante 0, expressao stern, segura lantern); HUS (variante 1, expressao neutral)
@@ -44,7 +44,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - Compraram tudo, beberam, e a festa começou.
 - Cenario: countryside | luz: noite | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa
 - Personagens principais (2): HUS (variante 0, expressao laugh, segura mug); HUS (variante 1, expressao grin, segura bottle)
 - Animacao: conversar | interacao: brindar
@@ -52,23 +52,23 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): festa
 - RISCOS: nenhum
 
-## Cena b5 - Aí chegou a infantaria, querendo a parte dela. "Não tem pra vocês", di...
+## Cena b5 - Aí chegou a infantaria, querendo a parte dela. Os hussardos não quiser...
 - Cenario: countryside | luz: noite | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 5 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (3): AUT (variante 0, expressao stern); HUS (variante 0, expressao laugh); AUT (variante 1, expressao shock) | multidao: 18 de AUT
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Personagens principais (3): AUT (variante 0, expressao stern); HUS (variante 0, expressao laugh); AUT (variante 1, expressao shock) | multidao: 5 de AUT/HUS/TUR
 - Animacao: conversar | interacao: empurrar | o ultimo personagem ENTRA andando
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): discussao, hussardos, infantaria, tiro
 - RISCOS: nenhum
 
 ## Cena b6 - No escuro, alguém gritou: "Turcos! Turcos!" E o pânico tomou o acampam...
-- Cenario: countryside | luz: dusk | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (1): HUS (variante 1, expressao shock) | multidao: 14 de AUT/HUS
-- Animacao: reagir | batalha encenada
-- Objetos/modelos: kit/campfire, kit/tent
+- Cenario: countryside | luz: noite | clima: limpo
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (1): HUS (variante 1, expressao shock) | multidao: 18 de HUS/TUR
+- Animacao: conversar | batalha encenada
+- Objetos/modelos: kit/marco_viena, kit/campfire, kit/tent
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): acampamento, escuro, panico
 - RISCOS: nenhum
 
@@ -84,17 +84,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Um oficial mandou usar a artilharia, e os canhões dispararam contra o ...
 - Cenario: countryside | luz: noite | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): OFF (variante 0, expressao shock); AUT (variante 0, expressao pained) | multidao: 5 de AUT
-- Animacao: conversar | interacao: susto
-- Objetos/modelos: cannon
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (2): OFF (variante 0, expressao shock); AUT (variante 0, expressao pained) | multidao: 5 de OFF/AUT/TUR
+- Animacao: reagir | interacao: susto
+- Objetos/modelos: cannon, kit/marco_viena
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): artilharia, canhoes, oficial, proprio
 - RISCOS: nenhum
 
 ## Cena b9 - Dois dias depois, os turcos chegaram de verdade, e acharam o acampamen...
 - Cenario: countryside | luz: dawn | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 5 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): TUR (variante 0, expressao shock, segura spyglass); TUR (variante 1, expressao neutral) | multidao: 5 de POV
 - Animacao: conversar | interacao: avanca e o outro recua | o ultimo personagem ENTRA andando
@@ -104,7 +104,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b10 - Os turcos venceram sem dar um único tiro.
 - Cenario: countryside | luz: dawn | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): TUR (variante 0, expressao laugh); TUR (variante 1, expressao grin)
 - Animacao: comemorar | interacao: pular
@@ -112,11 +112,22 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): turcos
 - RISCOS: nenhum
 
+## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Cenario: countryside | luz: dusk | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Personagens principais (1): AUT (variante 0, expressao grin)
+- Animacao: conversar
+- Objetos/modelos: kit/marco_viena
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
+- RISCOS: nenhum
+
 ## PARA O BLENDER (objetos 3D deste video)
 Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito no Blender; a ferramenta so' poe em cena, pinta o contorno e anima. Nada de objeto "quadradao": use `blender/formas.py` (cil, bola, torno, tubo, arco, caixa com chanfro).
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
+kit/marco_viena | b0, b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 tools/lantern | b2, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 barrel | b3, b4, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/barrel_r | b3 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -130,7 +141,7 @@ crate | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote
 
 
 ## Video inteiro
-- Objeto heroi: kit/barrel_r | grandes momentos: b0, b6, b7 | planos abertos: 3 | mistura: close 4% | medio 71% | aberto 17% | detalhe 7%
+- Objeto heroi: kit/barrel_r | grandes momentos: b0, b6, b7 | planos abertos: 4 | mistura: close 10% | medio 67% | aberto 19% | detalhe 5%
 - Interacoes: b3 aproxima-se, b4 brindar, b5 empurrar, b8 susto, b9 avanca e o outro recua, b10 pular
 - RISCOS GERAIS: nenhum
 

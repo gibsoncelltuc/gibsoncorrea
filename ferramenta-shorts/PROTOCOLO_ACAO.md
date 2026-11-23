@@ -115,4 +115,11 @@ rode `./enviar_para_principal.sh <id>` (manda o mp4 em pedacos de 90 MB + sha256
 Nenhum vídeo sai com ressalva. Defeito de acabamento também se corrige antes de entregar: prédio/objeto de outra época, árvore ou objeto tapando a câmera, ação que não aparece (briga parada, tiro sem tiro), cenário que não é o lugar citado. Vídeo de sessão com qualquer defeito volta para a sessão; só vai para o Gibson corrigido. Verificação completa (storyboard + grade de ações + revisão escrita + folha de contato) em TODO vídeo, sem economizar cota.
 
 ## 18. AUTO-APROVACAO DE SEGURANCA (ordem do Gibson 19/11)
-`auto_aprovar.sh` roda em segundo plano nas 3 sessoes (boot.sh e sync_ferramenta.sh o relancam). Storyboard parado >45 min sem aprovacao (era 5; 20/11: com as sessoes ativas a revisao vem antes), com folha 2 sem risco e verificar_execucao 100%, e' aprovado sozinho e marcado `stories/<id>/AUTO_APROVADO`. Log: `logs/auto_aprovar.log`. Quando houver cota: REVER todo video com AUTO_APROVADO (conferir.sh + auditar_acoes.sh) antes de entregar; defeito = refazer. Nao entregue video AUTO_APROVADO sem essa revisao.
+`auto_aprovar.sh` roda em segundo plano nas 3 sessoes (boot.sh e sync_ferramenta.sh o relancam). Storyboard parado >5 min sem aprovacao, com folha 2 sem risco e verificar_execucao 100%, e' aprovado sozinho e marcado `stories/<id>/AUTO_APROVADO`. Log: `logs/auto_aprovar.log`. Quando houver cota: REVER todo video com AUTO_APROVADO (conferir.sh + auditar_acoes.sh) antes de entregar; defeito = refazer. Nao entregue video AUTO_APROVADO sem essa revisao.
+
+## 19. MOTOR 23/11 (v12 + correcoes do Gibson)
+- v12 instalada (motor multi-acao, sujeito/alvo no golpe, punch-in de camera, boneco redesenhado).
+- CENARIO: video com 9+ cenas tem >=4 lugares e nenhum lugar em mais de 1/3; cada volta para dentro de casa e' outra sala (cor de parede + moveis diferentes).
+- CAMERA: duas cenas seguidas no mesmo lugar nunca com o mesmo enquadramento; cada cena com angulo (az) diferente.
+- VEICULOS: carro em tamanho real (~5 m; caminhao ~6 m); rodas separadas (nos `wheelz_*`, blender/rodas_separadas.py) giram conforme o carro anda; frente do carro aponta para onde ele vai.
+  Palavra da frase manda a animacao: pulou/saltou = arco no ar; voou/decolou = sai do chao com poeira e sobe; desceu/pousou = desce ate as rodas (gira se "girou"); espaco/orbita = flutua girando; dirigiu/acelerou/chegou = atravessa a cena.

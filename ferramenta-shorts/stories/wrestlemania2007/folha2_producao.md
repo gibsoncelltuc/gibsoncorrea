@@ -13,17 +13,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b1 - Foi em abril de dois mil e sete, em Detroit, no maior show de luta liv...
-- Cenario: stadium | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
 - Animacao: -
-- Objetos/modelos: -
+- Objetos/modelos: kit/marco_detroit
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, luta
 - RISCOS: nenhum
 
 ## Cena b2 - Como todo show de luta, a rivalidade era combinada: Trump contra o don...
-- Cenario: stadium | luz: day | clima: limpo
+- Cenario: interior loja | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): TRU (variante 0, expressao angry); VIN (variante 0, expressao shout)
@@ -33,8 +33,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - A aposta era maluca: cada um escolheu um lutador, e o dono de quem per...
-- Cenario: stadium | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Cenario: interior pedra | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): VIN (variante 0, expressao smug); TRU (variante 0, expressao suspicious)
 - Animacao: conversar | interacao: cochichar
@@ -104,8 +104,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b10 - E ainda sobrou para Trump: o juiz aplicou um golpe nele também, e ele ...
 - Cenario: stadium | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): JUI (variante 0, expressao smug); TRU (variante 0, expressao shock)
 - Animacao: conversar | interacao: discutir
 - Objetos/modelos: kit/ring
@@ -113,8 +113,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b11 - Seis anos depois, Trump entrou para o Hall da Fama da luta livre. Tudo...
-- Cenario: stadium | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Cenario: interior madeira | luz: day | clima: limpo
+- Camera: close = close no rosto; empurra devagar
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): TRU (variante 0, expressao smile); JUI (variante 0, expressao smile)
 - Animacao: comemorar | interacao: pular
@@ -127,7 +127,9 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/clipper | b0, b3, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/clipper | b0, b3, b8, b9, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_detroit | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/ball | b4, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/ring | b5, b6, b7, b8, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 

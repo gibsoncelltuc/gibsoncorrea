@@ -4,16 +4,17 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | dia limpo | placa: PERIGO | - | -
 b1 | reveal | dia limpo | tropa, mapa | - | -
-b2 | two | dia limpo | interior, objeto na mao | encena: g_trabalha (point) @5 (acao + som de efeito) | -
-b3 | two | dia limpo | interior | descobriram (ring + som de alerta); encena: mistura (stir) @0 (acao + som de efeito); encena: examina (think) @6 (acao + som de efeito) | -
-b4 | close | noite  | interior | encena: brilha (point) @2 (acao + som de efeito); encena: g_adorava (point) @10 (acao + som de efeito) | -
-b5 | two | dia limpo | interior, objeto na mao | encena: g_carregav (reach) @1 (acao + som de efeito); encena: x_vigia (cross) @7 (acao + som de efeito) | -
+b2 | two | dia limpo | interior, objeto na mao | - | -
+b3 | group | dia limpo | interior | descobriram (ring + som de alerta); encena: mistura (stir) @0 (acao + som de efeito); encena: examina (think) @6 (acao + som de efeito) | -
+b4 | close | noite  | interior | encena: brilha (point) @2 (acao + som de efeito); encena: olha (point) @11 (acao + som de efeito) | -
+b5 | two | dia limpo | interior, objeto na mao | encena: pega (lift) @1 (acao + som de efeito); encena: x_vigia (cross) @7 (acao + som de efeito) | -
 b6 | crowd | dia limpo | batalha aberta com tiros, tropa, placa: NOBEL | ganhou (stars + som de sino); encena: vence (up) @1 (acao + som de efeito); encena: quimico (pour) @9 (acao + som de efeito) | -
-b7 | two | dia limpo | - | (rosto) sad (expr + som de efeito); morreu (puff + som de baque); encena: g_destruin (point) @5 (acao + som de efeito); encena: morre @19 (acao + som de efeito) | -
-b8 | two | dia limpo | interior | - | -
+b7 | two | dia limpo | - | (rosto) sad (expr + som de efeito); morreu (puff + som de baque); encena: morre @19 (acao + som de efeito) | -
+b8 | two | dia limpo | interior | encena: pega (lift) @8 (acao + som de efeito) | -
 b9 | low | dia limpo | interior | encena: x_le (think) @2 (acao + som de efeito); encena: escreve (write) @4 (acao + som de efeito) | -
 b10 | orbit | dia limpo | batalha aberta com tiros, tropa, placa: 1.600 ANOS | perder (dust + som de impacto); encena: perde (facepalm) @12 (acao + som de efeito) | -
-b11 | close | dia limpo | - | encena: brilha (point) @9 (acao + som de efeito) | -
+b11 | close | dia limpo | - | - | -
+b12 | close | dia  | placa: COMENTE! | - | -
 
-Mistura de planos: close 20% | medio 68% | aberto 10% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 23% | medio 64% | aberto 9% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

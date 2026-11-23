@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: A Guerra do Cachorro Perdido
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain | 9 cenas, 111 palavras (~38 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain | 10 cenas, 128 palavras (~44 s)
 
 ## Cena b0  (~5.5 s)
 - Narracao: Outubro de mil novecentos e vinte e cinco, na fronteira entre a Grécia e a Bulgária.
@@ -11,11 +11,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Texto na tela: 1925 | mapa: GRÉCIA
 - Funcao na historia: GANCHO
 
-## Cena b1  (~5.9 s)
-- Narracao: Um soldado grego estava de guarda, e o cachorro dele fugiu para o outro lado da fronteira.
+## Cena b1  (~7.2 s)
+- Narracao: Conta a história que um soldado grego estava de guarda, e o cachorro dele fugiu para o outro lado da fronteira.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: fugiu -> dust + som de impacto; encena: corre @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: fugiu -> dust + som de impacto; encena: corre @14 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: O CACHORRO FUGIU
 - Funcao na historia: desenvolvimento
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: O soldado correu atrás do cachorro, e atravessou a fronteira.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: correu -> dust + som de impacto; encena: corre @2 -> acao + som de efeito; encena: g_atravess (point) @7 -> acao + som de efeito
+- Efeito + som nas palavras-chave: correu -> dust + som de impacto; encena: corre @2 -> acao + som de efeito; encena: chega (point) @7 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -49,9 +49,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 
 ## Cena b5  (~5.2 s)
 - Narracao: Poucos dias depois, o exército grego invadiu a Bulgária e ocupou a região de Petrich.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Som ambiente: birds | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148
-- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; invadiu -> dust + som de impacto; encena: chega (point) @6 -> acao + som de efeito; encena: g_ocupou (point) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; invadiu -> dust + som de impacto; encena: chega (point) @6 -> acao + som de efeito; encena: chega (point) @10 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: INVASÃO
 - Funcao na historia: GRANDE MOMENTO
@@ -69,17 +69,26 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: A Liga mandou a Grécia parar, retirar as tropas e pagar uma indenização.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: pagar -> stars + som de sino; encena: fala (point) @2 -> acao + som de efeito; encena: paga (reach) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: pagar -> stars + som de sino; encena: fala (point) @2 -> acao + som de efeito; encena: sai @6 -> acao + som de efeito; encena: paga (reach) @10 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: INDENIZAÇÃO
 - Funcao na historia: desenvolvimento
 
 ## Cena b8  (~4.1 s)
 - Narracao: A Grécia obedeceu, e ninguém sabe o que aconteceu com o cachorro.
+- Som ambiente: birds
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: encena: x_saluda (salute) @2 -> acao + som de efeito
+- Efeito visual marcado: -
+- Texto na tela: E O CACHORRO?
+- Funcao na historia: desenvolvimento
+
+## Cena b9  (~4.5 s)
+- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: E O CACHORRO?
+- Texto na tela: COMENTE!
 - Funcao na historia: FECHO/PIADA FINAL
 

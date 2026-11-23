@@ -12,10 +12,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bulgaria, fronteira, grecia
 - RISCOS: nenhum
 
-## Cena b1 - Um soldado grego estava de guarda, e o cachorro dele fugiu para o outr...
+## Cena b1 - Conta a história que um soldado grego estava de guarda, e o cachorro d...
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: track = travelling lateral acompanhando quem anda
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): GRE (variante 0, expressao shock)
 - Animacao: encena
 - Objetos/modelos: dog
@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Poucos dias depois, o exército grego invadiu a Bulgária e ocupou a reg...
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: outback | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): GRE (variante 0, expressao stern); GRE (variante 1, expressao stern); GRE (variante 2, expressao stern) | multidao: 18 de POV
@@ -73,23 +73,33 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - A Liga mandou a Grécia parar, retirar as tropas e pagar uma indenizaçã...
-- Cenario: mountain | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): OFF (variante 0, expressao pained); GRE (variante 1, expressao nervous) | multidao: 10 de POV
-- Animacao: conversar
+- Cenario: interior pedra | luz: day | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (2): OFF (variante 0, expressao pained); GRE (variante 1, expressao nervous)
+- Animacao: reagir | interacao: entregar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): grecia, indenizacao, liga, tropas
 - RISCOS: nenhum
 
 ## Cena b8 - A Grécia obedeceu, e ninguém sabe o que aconteceu com o cachorro.
+- Cenario: outback | luz: day | clima: limpo
+- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (1): GRE (variante 0, expressao grin)
+- Animacao: conversar
+- Objetos/modelos: dog
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, grecia
+- RISCOS: nenhum
+
+## Cena b9 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: mountain | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): GRE (variante 0, expressao grin)
-- Animacao: reagir
-- Objetos/modelos: dog
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, grecia
+- Animacao: conversar
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -101,8 +111,8 @@ dog | b1, b2, b8 | pronto | conferir na folha de contato se le bem; se parecer c
 
 
 ## Video inteiro
-- Objeto heroi: kit/dog_sit | grandes momentos: b3, b5 | planos abertos: 3 | mistura: close 15% | medio 63% | aberto 19% | detalhe 3%
-- Interacoes: b0 aproxima-se, b4 entregar, b6 susto
+- Objeto heroi: kit/dog_sit | grandes momentos: b3, b5 | planos abertos: 2 | mistura: close 27% | medio 62% | aberto 6% | detalhe 5%
+- Interacoes: b0 aproxima-se, b6 susto, b7 entregar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

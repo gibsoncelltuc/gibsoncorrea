@@ -10,7 +10,7 @@
    "jacket": "#f4f6fa",
    "pants": "#e4ecf6",
    "boots": "#c8d4e4",
-   "hat": "helmet",
+   "hat": "boonie",
    "cap": "#f4f6fa",
    "belt": "#8a7a50",
    "rifle": true,
@@ -19,11 +19,11 @@
    "profissao": "soldado"
   },
   "SOV": {
-   "jacket": "#8a7a5a",
-   "pants": "#6a5a42",
+   "jacket": "#6a6a50",
+   "pants": "#5a5a44",
    "boots": "#2a2218",
    "hat": "helmet",
-   "cap": "#8a7a5a",
+   "cap": "#4f5a3f",
    "belt": "#2a2218",
    "rifle": true,
    "pais": "russia",
@@ -52,18 +52,9 @@
    "tat": 0,
    "tstyle": "red",
    "mood": "march",
+   "batalha": true,
    "set": "arctic",
-   "tiros": false,
-   "shot_lock": true,
-   "crowd": {
-    "n": 18,
-    "outfits": [
-     "SOV"
-    ],
-    "march": true
-   },
-   "riscos_ok": true,
-   "batalha": false
+   "clima": "neve"
   },
   {
    "say": "Os soldados finlandeses eram poucos, mas conheciam a floresta, a neve e o frio, que chegava a quarenta graus abaixo de zero.",
@@ -84,10 +75,11 @@
    "sfx": [
     "whoosh@30"
    ],
-   "set": "arctic"
+   "set": "arctic",
+   "clima": "neve"
   },
   {
-   "say": "Um deles era um fazendeiro baixinho chamado Simo Häyhä.",
+   "say": "Um deles era um homem do campo, baixinho, chamado Simo Häyhä.",
    "shot": "close",
    "who": [
     "HAY:0:smile"
@@ -96,7 +88,8 @@
    "tat": 8,
    "tstyle": "blue",
    "props": [],
-   "set": "arctic"
+   "set": "arctic",
+   "clima": "neve"
   },
   {
    "say": "Vestido de branco, ele esperava imóvel no meio da neve, horas a fio.",
@@ -105,7 +98,8 @@
     "FIN:3:stern"
    ],
    "mood": "tense",
-   "set": "arctic"
+   "set": "mountain",
+   "clima": "neve"
   },
   {
    "say": "Dizem que ele mantinha neve na boca, para o vapor da respiração não entregar a sua posição.",
@@ -117,10 +111,11 @@
    "tat": 5,
    "tstyle": "white",
    "props": [],
-   "set": "arctic"
+   "set": "mountain",
+   "clima": "neve"
   },
   {
-   "say": "Em cerca de cem dias, ele teve mais de quinhentos inimigos confirmados, com uma carabina de mira de ferro, sem luneta.",
+   "say": "Em cerca de cem dias, contam mais de quinhentos inimigos abatidos por ele, com um fuzil de mira de ferro, sem luneta.",
    "shot": "two",
    "who": [
     "FIN:3:stern",
@@ -138,7 +133,8 @@
     ]
    ],
    "detalhe": true,
-   "set": "arctic"
+   "set": "arctic",
+   "clima": "neve"
   },
   {
    "say": "Os soviéticos passaram a chamá-lo de Morte Branca.",
@@ -149,7 +145,8 @@
    "text": "MORTE BRANCA",
    "tat": 8,
    "tstyle": "red",
-   "set": "arctic"
+   "set": "mountain",
+   "clima": "neve"
   },
   {
    "say": "Em março de mil novecentos e quarenta, uma bala atingiu o rosto dele. Ele sobreviveu, e acordou no dia em que a guerra terminou.",
@@ -177,6 +174,29 @@
    "interior": "madeira"
   }
  ],
- "heroi": null,
- "variar_cenario": false
+ "heroi": "kit/campfire",
+ "visual": {
+  "local": "Front de Kollaa, Carelia (Finlandia): floresta de pinheiros coberta de neve, terreno plano com morros baixos",
+  "quando": "Guerra de Inverno, 30/nov/1939 a 13/mar/1940; ferido em 6/mar/1940; temperaturas de ate -40 C, dias curtos",
+  "participantes": [
+   "Simo Hayha, fazendeiro e atirador de 1,52 m",
+   "soldados finlandeses de esqui e camuflagem branca",
+   "Exercito Vermelho"
+  ],
+  "roupas": {
+   "FIN": "camuflagem branca de neve por cima da farda, capuz/gorro branco, fuzil Mosin-Nagant M/28-30 de mira de ferro",
+   "SOV": "soldado sovietico: capote verde-acinzentado, capacete SSh-39, fuzil"
+  },
+  "cenario": "floresta de pinheiros com neve funda, trincheiras rasas, fogueira de acampamento, hospital de campanha",
+  "objetos": [
+   "fuzil de mira de ferro",
+   "esquis",
+   "fogueira",
+   "neve na boca"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Simo_H%C3%A4yh%C3%A4",
+   "https://commons.wikimedia.org/wiki/File:Simo_H%C3%A4yh%C3%A4_1940.jpg"
+  ]
+ }
 }

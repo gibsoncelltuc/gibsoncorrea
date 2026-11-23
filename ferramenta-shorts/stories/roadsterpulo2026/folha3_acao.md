@@ -1,7 +1,7 @@
-# FOLHA 3 - ACOES - Poder e Fama EP 25 - O Carro que Pulou Outros Carros
+# FOLHA 3 - ACOES - Poder e Fama EP 25 - O Carro que Voou de Cabeça para Baixo
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 7.4s - 21 palavras - plano two
@@ -10,95 +10,103 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | prometeu (0.7s) | ACAO: fala | aponta explicando | OK |
-| 2 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 3 | - | INTERACAO | insiste | OK |
-| 4 | - | ATUACAO | conversar | OK |
-| 5 | - | PLACA | 2026 | OK |
+| 2 | mostrou (6.3s) | ACAO: fala | aponta explicando | OK |
+| 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 4 | - | INTERACAO | insiste | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
-## Cena b1 - 7.8s a 10.7s - 9 palavras - plano reveal
-> "Foi numa base de testes da SpaceX, no Texas."
+## Cena b1 - 7.8s a 13.3s - 16 palavras - plano reveal
+> "Foi à noite, numa base de testes da SpaceX em McGregor, no Texas, diante de convidados."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | MAPA | ESTADOS UNIDOS | OK |
+| 1 | convidados (13.3s) | ACAO: fala | aponta explicando | OK |
+| 2 | - | MAPA | ESTADOS UNIDOS | OK |
 
-## Cena b2 - 11.1s a 17.4s - 18 palavras - plano two
+## Cena b2 - 13.7s a 20.0s - 18 palavras - plano two
 > "O novo Roadster da Tesla tinha sido prometido em dois mil e dezessete. Foram nove anos de atraso."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | discutir | OK |
-| 2 | - | ATUACAO | discutir | OK |
+| 1 | - | INTERACAO | vai ate o outro | OK |
+| 2 | - | ATUACAO | conversar | OK |
 
-## Cena b3 - 17.8s a 23.3s - 16 palavras - plano two
-> "O segredo eram dez pequenos propulsores da SpaceX, movidos a ar comprimido, escondidos dentro do carro."
+## Cena b3 - 20.4s a 26.3s - 17 palavras - plano group
+> "O segredo eram propulsores da SpaceX escondidos no carro, e ventiladores embaixo que grudavam ele na pista."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | segredo (18.1s) | EFEITO: ring | onda + som | OK |
-| 2 | segredo (18.1s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
+| 1 | segredo (20.7s) | EFEITO: ring | onda + som | OK |
+| 2 | segredo (20.7s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
 | 3 | - | INTERACAO | cochichar | OK |
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | CHEGADA | alguem entra andando | OK |
 
-## Cena b4 - 23.7s a 30.4s - 19 palavras - plano crowd
-> "Acontece que, na frente da plateia, o carro acelerou e pulou por cima de cinco outros carros da Tesla."
+## Cena b4 - 26.7s a 33.3s - 19 palavras - plano wide
+> "Acontece que, diante dos convidados, o carro acelerou, subiu uma rampa curva gigante e ficou de cabeça para baixo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | acelerou (26.7s) | ACAO: g_acelerou | g_acelerou | OK |
-| 2 | pulou (27.4s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
-| 3 | - | ATUACAO | reagir | OK |
-| 4 | - | PLACA | PULOU! | OK |
+| 1 | convidados (28.1s) | ACAO: fala | aponta explicando | OK |
+| 2 | acelerou (29.3s) | ACAO: x_dirige | dirige/acelera + poeira | OK |
+| 3 | subiu (29.6s) | ACAO: escala | escala (bracos para cima) | OK |
 
-## Cena b5 - 30.7s a 34.8s - 12 palavras - plano low
-> "Depois, girou no ar e desceu de novo sobre as quatro rodas."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | desceu (32.6s) | ACAO: g_desceu | g_desceu | OK |
-| 2 | - | ATUACAO | reagir | OK |
-
-## Cena b6 - 35.2s a 40.0s - 14 palavras - plano two
-> "Musk disse que nunca tinha visto nada parecido, nem em filme de James Bond."
+## Cena b5 - 33.7s a 38.5s - 14 palavras - plano group
+> "Então se soltou, voou girando no ar e pousou numa nuvem de fumaça branca."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | pular | OK |
-| 2 | - | ATUACAO | comemorar | OK |
+| 1 | soltou (34.4s) | ACAO: x_solta | solta/liberta + brilho | OK |
+| 2 | voou (34.8s) | ACAO: voa | decola: poeira no chao, olha para cima | OK |
+| 3 | pousou (36.7s) | ACAO: x_desce | desce/pousa + poeira no chao | OK |
+| 4 | - | ATUACAO | reagir | OK |
 
-## Cena b7 - 40.4s a 45.6s - 15 palavras - plano two
-> "Mas especialistas lembraram: aquilo foi um salto de poucos segundos, não um voo de verdade."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | lembraram (41.1s) | ACAO: g_lembrara | g_lembrara | OK |
-| 2 | salto (42.6s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
-| 3 | - | INTERACAO | reverencia | OK |
-| 4 | - | ATUACAO | discutir | OK |
-
-## Cena b8 - 45.9s a 54.4s - 24 palavras - plano two
-> "Segundo a Tesla, ele vai de zero a cem em cerca de um segundo. A fabricação ficou para dois mil e vinte e oito."
+## Cena b6 - 38.9s a 43.3s - 13 palavras - plano two
+> "Musk comemorou no palco, e tudo foi transmitido ao vivo na rede X."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | entregar | OK |
+| 1 | comemorou (39.3s) | ACAO: vence | bracos para cima + brilho | OK |
+| 2 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 3 | - | INTERACAO | pular | OK |
+| 4 | - | ATUACAO | comemorar | OK |
+
+## Cena b7 - 43.7s a 48.1s - 13 palavras - plano orbit
+> "Mas especialistas lembraram: aquilo durou poucos segundos, não foi um voo de verdade."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+
+## Cena b8 - 48.5s a 53.3s - 14 palavras - plano two
+> "Segundo a Tesla, ele vai de zero a cem em menos de um segundo."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | aproxima-se | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 54.8s a 60.4s - 16 palavras - plano orbit
-> "O vídeo foi visto milhões de vezes. Metade do mundo ficou impressionada, a outra metade desconfiada."
+## Cena b9 - 53.7s a 57.8s - 12 palavras - plano close
+> "O vídeo correu o mundo. Metade ficou impressionada, a outra metade desconfiada."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | EMOCAO: distrust | o rosto vira "distrust" na palavra | OK |
-| 2 | - | ATUACAO | comemorar | OK |
-| 3 | - | PLACA | VOOU? | OK |
+| 2 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 60.7s a 63.3s - 8 palavras - plano close
+## Cena b10 - 58.1s a 60.7s - 8 palavras - plano two
 > "Carro voador ou carro que pula? Você decide."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | pula (62.6s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
-| 2 | - | ATUACAO | comemorar | OK |
+| 1 | pula (60.0s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
+| 2 | - | ATUACAO | conversar | OK |
+
+## Cena b11 - 61.1s a 65.6s - 13 palavras - plano close
+> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | PLACA | COMENTE! | OK |
 

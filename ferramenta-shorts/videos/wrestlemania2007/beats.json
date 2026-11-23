@@ -120,7 +120,8 @@
    ],
    "mapa": "ESTADOS UNIDOS",
    "mapa_at": 3,
-   "say": "Foi em abril de dois mil e sete, em Detroit, no maior show de luta livre do mundo."
+   "say": "Foi em abril de dois mil e sete, em Detroit, no maior show de luta livre do mundo.",
+   "set": "street"
   },
   {
    "shot": "two",
@@ -129,7 +130,8 @@
     "VIN:0:shout"
    ],
    "acao": "discutir",
-   "say": "Como todo show de luta, a rivalidade era combinada: Trump contra o dono da empresa de luta, Vince McMahon."
+   "say": "Como todo show de luta, a rivalidade era combinada: Trump contra o dono da empresa de luta, Vince McMahon.",
+   "interior": "loja"
   },
   {
    "shot": "group",
@@ -154,7 +156,7 @@
    ],
    "say": "A aposta era maluca: cada um escolheu um lutador, e o dono de quem perdesse teria a cabeça raspada.",
    "detalhe": false,
-   "shot_lock": true
+   "interior": "pedra"
   },
   {
    "shot": "crowd",
@@ -360,11 +362,7 @@
    "props": [],
    "say": "Seis anos depois, Trump entrou para o Hall da Fama da luta livre. Tudo por causa de um corte de cabelo.",
    "acao": "comemorar",
-   "shot_lock": true,
-   "detalhe": false,
-   "impact": false,
-   "chega": false,
-   "perto": 0.65
+   "interior": "madeira"
   }
  ],
  "fontes": [

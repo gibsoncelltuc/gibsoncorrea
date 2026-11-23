@@ -1,12 +1,12 @@
 # FOLHA 1 - ROTEIRO: O Cardápio do Zoológico
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 9 cenas, 112 palavras (~39 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 10 cenas, 125 palavras (~43 s)
 
 ## Cena b0  (~5.9 s)
 - Narracao: Em mil oitocentos e setenta, a Prússia cercou Paris. Ninguém entrava, ninguém saía, e a comida acabou.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (ALE) -> acao + som de efeito; encena: x_cerca (point) @7 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: chega (point) @7 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: PARIS CERCADA | mapa: PARIS
 - Funcao na historia: GANCHO
@@ -31,45 +31,45 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b3  (~3.1 s)
 - Narracao: Quando acabou tudo, olharam para o zoológico da cidade.
-- Som ambiente: birds
-- Efeitos sonoros marcados: -
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: encena: olha (point) @3 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: ZOOLÓGICO
+- Efeito visual marcado: ring@12, dust@40
+- Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b4  (~4.8 s)
 - Narracao: O açougueiro comprou dois elefantes, Castor e Pólux, e vendeu a carne em pedaços.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: comprou -> stars + som de sino; vendeu -> stars + som de sino; encena: negocio (reach) @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: comprou -> stars + som de sino; vendeu -> stars + som de sino; encena: negocio (reach) @2 -> acao + som de efeito; encena: negocio (reach) @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: CASTOR E PÓLUX
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~5.2 s)
-- Narracao: No Natal, um restaurante famoso serviu consomê de elefante, dromedário assado e ensopado de canguru.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_serve (reach) @5 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: ELEFANTE · DROMEDÁRIO · CANGURU
-- Funcao na historia: desenvolvimento
-
-## Cena b6  (~3.1 s)
-- Narracao: Tinha até gato com roedores, e pernil de lobo.
+## Cena b5  (~5.5 s)
+- Narracao: No Natal, o restaurante Voisin serviu consomê de elefante, ensopado de canguru e pernil de lobo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: GATO COM RATOS
+- Texto na tela: NATAL DE 1870
 - Funcao na historia: desenvolvimento
+
+## Cena b6  (~2.8 s)
+- Narracao: Tinha até gato servido com roedores em volta.
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: GATO COM RATOS
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b7  (~3.1 s)
 - Narracao: Para mandar notícias, os parisienses usavam balões e pombos-correio.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_usa (lift) @5 -> acao + som de efeito; voa: finch sai da mao e voa ate o alvo -> acao + som de efeito; voa: finch sai da mao e voa ate o alvo -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @1 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: BALÕES E POMBOS
 - Funcao na historia: desenvolvimento
@@ -81,5 +81,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeito + som nas palavras-chave: encena: rende (up) @15 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: PARIS SE RENDEU
+- Funcao na historia: desenvolvimento
+
+## Cena b9  (~4.5 s)
+- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: COMENTE!
 - Funcao na historia: FECHO/PIADA FINAL
 

@@ -20,22 +20,21 @@
    "jacket": "#4a7a3a",
    "pants": "#6a5a3a",
    "boots": "#2a2218",
-   "cap": "#6a5a3a",
    "belt": "#2a2218",
    "rifle": true,
    "hats": [
-    "cap",
     "slouch",
-    "straw"
+    "straw",
+    "tophat"
    ]
   },
   "GOV": {
-   "jacket": "#4a7a3a",
-   "pants": "#2a2f3a",
+   "jacket": "#2a2f3a",
+   "pants": "#3a3f4a",
    "boots": "#1b1b1f",
    "hat": "tophat",
-   "buttons": "#e8c45a",
-   "sash": "#d8282f"
+   "buttons": "#c9a24a",
+   "tie": "#f2efe6"
   },
   "XER": {
    "jacket": "#8a5a3a",
@@ -50,8 +49,7 @@
    "jacket": "#3a6ab0",
    "pants": "#5a4a3a",
    "boots": "#2a1d14",
-   "hat": "cap",
-   "cap": "#2a3a5a",
+   "hat": "slouch",
    "build": "lanky"
   }
  },
@@ -79,7 +77,15 @@
    "mapa": "TOLEDO",
    "mapa_at": 8,
    "say": "De um lado, Ohio. Do outro, Michigan. Os dois juravam que a cidade de Toledo era deles, por causa de um erro num mapa antigo.",
-   "set": "countryside"
+   "set": "countryside",
+   "props": [
+    [
+     "kit/mapa_antigo",
+     1.9,
+     -0.6,
+     1.0
+    ]
+   ]
   },
   {
    "shot": "close",
@@ -87,7 +93,7 @@
     "GOV:0:grin:paper"
    ],
    "interior": "madeira",
-   "say": "O governador de Michigan tinha vinte e três anos. \"Mandem a milícia\", ordenou ele."
+   "say": "O governador de Michigan tinha só vinte e três anos, e mandou a milícia ocupar Toledo."
   },
   {
    "shot": "reveal",
@@ -125,9 +131,17 @@
    },
    "text": "PARA O ALTO",
    "titulo": true,
-   "say": "Houve gritos, ameaças, e tiros. Todos para o alto. Ninguém acertou ninguém.",
+   "say": "Houve gritos, ameaças, e tiros por cima dos topógrafos de Ohio. Todos para o alto. Ninguém acertou ninguém.",
    "set": "countryside",
-   "sem_mortos": true
+   "sem_mortos": true,
+   "props": [
+    [
+     "kit/teodolito",
+     -2.6,
+     -0.4,
+     1.1
+    ]
+   ]
   },
   {
    "shot": "two",
@@ -143,21 +157,49 @@
     "sting@60",
     "thump@55"
    ],
-   "say": "Acontece que a única baixa foi um xerife de Michigan, espetado na perna por um rapaz com um canivete.",
-   "set": "countryside",
+   "say": "Acontece que a única baixa foi um xerife de Michigan, espetado numa briga de taverna por um rapaz com um canivete.",
    "shot_lock": true,
    "interacao": "empurrar",
+   "interior": "madeira",
+   "moveis": [
+    [
+     "mk/Table_Large",
+     -6.6,
+     -1.6,
+     2.2
+    ],
+    [
+     "mk/Barrel",
+     6.8,
+     -2.8,
+     2.2
+    ],
+    [
+     "mk/Barrel_Apples",
+     7.6,
+     0.4,
+     2.0
+    ],
+    [
+     "mk/Mug",
+     -6.4,
+     -1.4,
+     2.0
+    ],
+    [
+     "mk/Bench",
+     5.0,
+     -3.2,
+     2.2
+    ]
+   ],
+   "detalhe": true,
    "props": [
     [
-     "mk/Table_Knife",
-     -0.1,
-     2.0,
-     9.0,
-     {
-      "y": 0.9,
-      "fixo": true,
-      "rz": 1.2
-     }
+     "kit/canivete",
+     0.0,
+     1.4,
+     1.6
     ]
    ]
   },
@@ -202,6 +244,42 @@
    "interior": "madeira"
   }
  ],
- "heroi": null,
- "regiao": "generica"
+ "heroi": "kit/canivete",
+ "regiao": "generica",
+ "visual": {
+  "local": "Faixa de Toledo (Ohio x Territorio de Michigan): campos e matas de Phillips Corners, rio Maumee, a vila de Toledo com taverna",
+  "quando": "abril a setembro de 1835 (Phillips Corners: domingo, 26/abr/1835, de dia; facada na taverna: julho de 1835)",
+  "participantes": [
+   "milicia de Ohio (600)",
+   "milicia de Michigan (1000)",
+   "topografos de Ohio",
+   "Stevens T. Mason, governador de Michigan com 23 anos",
+   "xerife Joseph Wood",
+   "Two Stickney, rapaz de Ohio"
+  ],
+  "roupas": {
+   "OHI": "milicia civil de 1835: casaca, cartola, mosquete de pederneira (sem uniforme de guerra civil)",
+   "MIC": "milicia civil: casaca, chapeu de aba larga/palha/cartola, mosquete",
+   "GOV": "casaca escura de civil, gravata branca, cartola",
+   "XER": "casaca marrom, chapeu de aba",
+   "RAP": "rapaz de casaca simples e chapeu de aba"
+  },
+  "cenario": "campo com mata (Phillips Corners), margem do rio Maumee, taverna de madeira em Toledo, sala do Congresso, floresta gelada da Peninsula Superior",
+  "objetos": [
+   "mosquetes de pederneira",
+   "canivete de bolso",
+   "instrumento de agrimensor em tripe",
+   "mapa antigo com a linha da fronteira"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Toledo_War",
+   "https://commons.wikimedia.org/wiki/File:Phillips_Corners_Battlefield.jpg",
+   "https://www.michigan.gov/dmva/about/history/military-events/highlights/the-toledo-war",
+   "https://www.history.com/articles/the-toledo-war-when-michigan-and-ohio-nearly-came-to-blows"
+  ]
+ },
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Toledo_War",
+  "https://www.michigan.gov/dmva/about/history/military-events/highlights/the-toledo-war"
+ ]
 }

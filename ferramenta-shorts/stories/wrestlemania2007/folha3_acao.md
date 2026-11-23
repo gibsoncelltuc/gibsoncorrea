@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 15 - Trump na Batalha dos Bilionários
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 43 acoes catalogadas, 43 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 47 acoes catalogadas, 47 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 5.4s - 19 palavras - plano group
@@ -36,10 +36,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | escolheu (20.4s) | ACAO: g_escolheu | g_escolheu | OK |
+| 1 | escolheu (20.4s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 2 | perdesse (22.5s) | ACAO: perde | mao na testa | OK |
 | 3 | raspada (23.6s) | ACAO: raspa | maquina na cabeca + cabelo voando | OK |
-| 4 | - | INTERACAO | cochichar | OK |
+| 4 | - | INTERACAO | entregar | OK |
 | 5 | - | ATUACAO | conversar | OK |
 
 ## Cena b4 - 24.9s a 28.6s - 14 palavras - plano crowd
@@ -47,8 +47,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | comemorar | OK |
-| 2 | - | PLACA | 80 MIL | OK |
+| 1 | lotaram (26.2s) | ACAO: chega | entra andando pela lateral | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | ATUACAO | comemorar | OK |
+| 4 | - | PLACA | 80 MIL | OK |
 
 ## Cena b5 - 29.9s a 35.1s - 16 palavras - plano group
 > "No ringue, o lutador de Trump, Bobby Lashley, enfrentou o gigante Umaga, do lado de McMahon."
@@ -64,8 +66,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | susto | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | convidado (37.3s) | ACAO: fala | aponta explicando | OK |
+| 2 | derrubar (39.5s) | ACAO: golpe | soco + estouro | OK |
+| 3 | - | INTERACAO | susto | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 43.4s a 47.3s - 12 palavras - plano orbit
 > "No fim, o lutador de Trump venceu. O estádio inteiro foi abaixo."
@@ -83,9 +87,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | seguraram (49.3s) | ACAO: g_segurara | g_segurara | OK |
+| 1 | seguraram (49.3s) | ACAO: pega | levanta/segura | OK |
 | 2 | raspar (51.8s) | ACAO: raspa | maquina na cabeca + cabelo voando | OK |
-| 3 | - | INTERACAO | discutir | OK |
+| 3 | - | INTERACAO | empurrar | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b9 - 53.7s a 56.2s - 10 palavras - plano two
@@ -103,12 +107,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | sobrou (58.0s) | ACAO: g_sobrou | g_sobrou | OK |
-| 2 | aplicou (59.5s) | ACAO: g_aplicou | g_aplicou | OK |
-| 3 | golpe (60.2s) | ACAO: golpe | soco + estouro | OK |
-| 4 | chão (61.9s) | ACAO: tomba | cai sentado no chao + poeira | OK |
-| 5 | - | INTERACAO | discutir | OK |
-| 6 | - | ATUACAO | conversar | OK |
+| 1 | aplicou (59.5s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | golpe (60.2s) | ACAO: golpe | soco + estouro | OK |
+| 3 | chão (61.9s) | ACAO: tomba | cai sentado no chao + poeira | OK |
+| 4 | - | INTERACAO | empurrar | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
 ## Cena b11 - 62.9s a 68.5s - 21 palavras - plano two
 > "Seis anos depois, Trump entrou para o Hall da Fama da luta livre. Tudo por causa de um corte de cabelo."

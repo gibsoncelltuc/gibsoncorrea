@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 17 - A Borracha que Caiu no Fogão
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 47 acoes catalogadas, 47 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 13 frases, 42 acoes catalogadas, 42 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 5.3s - 17 palavras - plano two
@@ -81,31 +81,28 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | elástica (43.7s) | ACAO: vira | o material vira o produto, que surge girando em destaque | OK |
 | 2 | - | ATUACAO | comemorar | OK |
 
-## Cena b8 - 48.5s a 52.5s - 11 palavras - plano two
-> "Ele abraçou a esposa. Finalmente a borracha aguentava calor e frio."
+## Cena b8 - 48.5s a 53.7s - 13 palavras - plano orbit
+> "Tinha nascido a vulcanização: finalmente a borracha aguentava o calor e o frio."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | abraçou (48.8s) | ACAO: x_abraca | abraco | OK |
-| 2 | aguentava (51.6s) | ACAO: g_aguentav | g_aguentav | OK |
-| 3 | - | INTERACAO | abracar | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b9 - 53.5s a 59.0s - 16 palavras - plano group
+## Cena b9 - 54.0s a 60.7s - 16 palavras - plano two
 > "Mas outros copiaram a ideia, e ele passou anos brigando na justiça. Morreu cheio de dívidas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | copiaram (54.0s) | ACAO: g_copiaram | g_copiaram | OK |
-| 2 | ideia (54.7s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
-| 3 | brigando (56.3s) | ACAO: golpe | soco + estouro | OK |
-| 4 | Morreu (58.1s) | EFEITO: puff | fumaca + som | OK |
-| 5 | Morreu (58.1s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
+| 1 | copiaram (54.7s) | ACAO: escreve | escreve/assina | OK |
+| 2 | ideia (55.5s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
+| 3 | brigando (56.9s) | ACAO: golpe | soco + estouro | OK |
+| 4 | Morreu (58.7s) | EFEITO: puff | fumaca + som | OK |
+| 5 | Morreu (58.7s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
 | 6 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
 | 7 | - | INTERACAO | discutir | OK |
 | 8 | - | ATUACAO | discutir | OK |
 
-## Cena b10 - 60.3s a 64.3s - 14 palavras - plano crowd
+## Cena b10 - 61.3s a 65.7s - 14 palavras - plano crowd
 > "Décadas depois, a borracha dele estava em pneus, bolas e sapatos do mundo inteiro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -113,13 +110,21 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | ATUACAO | comemorar | OK |
 | 2 | - | PLACA | PNEUS | OK |
 
-## Cena b11 - 65.6s a 70.2s - 15 palavras - plano close
+## Cena b11 - 66.0s a 70.2s - 15 palavras - plano close
 > "E uma fábrica de pneus famosa ganhou o nome dele em homenagem. Ele nunca soube."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ganhou (67.0s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | ganhou (67.0s) | ACAO: vence | bracos para cima + brilho | OK |
-| 3 | - | ATUACAO | reagir | OK |
+| 1 | ganhou (67.4s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | ganhou (67.4s) | ACAO: vence | bracos para cima + brilho | OK |
+| 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | GOODYEAR | OK |
+
+## Cena b12 - 70.2s a 70.2s - 13 palavras - plano close
+> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | PLACA | COMENTE! | OK |
 

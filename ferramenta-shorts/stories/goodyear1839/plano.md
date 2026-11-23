@@ -10,10 +10,11 @@ b4 | two | -  | interior | encena: quimico (pour) @13 (acao + som de efeito) | -
 b5 | two | -  | interior | encena: mistura (stir) @4 (acao + som de efeito); encena: g_atrapalh (point) @13 (acao + som de efeito) | -
 b6 | two | -  | interior | encena: cai (throw) @2 (acao + som de efeito); encena: calor (reach) @6 (acao + som de efeito); encena: x_espera (cross) @9 (acao + som de efeito) | -
 b7 | low | -  | interior | encena: vira (up) @7 (acao + som de efeito) | -
-b8 | two | -  | interior | encena: x_abraca @1 (acao + som de efeito); encena: g_aguentav (point) @7 (acao + som de efeito) | -
-b9 | group | -  | tropa | (rosto) sad (expr + som de efeito); Morreu (puff + som de baque); encena: g_copiaram (point) @2 (acao + som de efeito); encena: pensa (think) @4 (acao + som de efeito); encena: golpe (punch) @9 (acao + som de efeito); encena: morre @12 (acao + som de efeito) | -
+b8 | orbit | -  | tropa | - | -
+b9 | two | -  | - | (rosto) sad (expr + som de efeito); Morreu (puff + som de baque); encena: escreve (write) @2 (acao + som de efeito); encena: pensa (think) @4 (acao + som de efeito); encena: golpe (punch) @9 (acao + som de efeito); encena: morre @12 (acao + som de efeito) | -
 b10 | crowd | -  | batalha aberta com tiros, tropa, placa: PNEUS | - | -
 b11 | close | -  | interior, placa: GOODYEAR | ganhou (stars + som de sino); encena: vence (up) @6 (acao + som de efeito) | -
+b12 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 12% | medio 78% | aberto 10% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
+Mistura de planos: close 18% | medio 66% | aberto 16% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 4 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

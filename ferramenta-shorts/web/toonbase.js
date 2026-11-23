@@ -1,4 +1,4 @@
-export const INK = "#241726";
+export const INK = "#16121A"; /* v9: tinta mais profunda estilo Ricks Clips */
 export const SKIN = "#ffe2c2";
 const WHITE = "#ffffff";
 const MOUTH = "#5a1e28";
@@ -256,7 +256,7 @@ export class Pen {
         g.fillStyle = gr;
         g.fill();
     }
-    gradFill(pts, base, shadow, light, flat = 0.22) {
+    gradFill(pts, base, shadow, light, flat = 0.36) {
         const g = this.g, dx = Math.cos(light), dy = Math.sin(light), n = pts.length;
         let cx = 0, cy = 0, lo = Infinity, hi = -Infinity;
         for (const [x, y] of pts){
@@ -271,12 +271,13 @@ export class Pen {
         const gr = g.createLinearGradient(ax, ay, bx, by);
         gr.addColorStop(0, base);
         gr.addColorStop(flat, base);
+        gr.addColorStop(Math.min(0.95, flat + 0.32), mix(base, shadow, 0.35));
         gr.addColorStop(1, shadow);
         this.path(pts, true);
         g.fillStyle = gr;
         g.fill();
     }
-    inkRing(pts, w0, thick, k = 0.45, col = INK) {
+    inkRing(pts, w0, thick, k = 0.38, col = INK) /* v9: razao fino/grosso ~3x */ {
         const n = pts.length;
         let cx = 0, cy = 0;
         for (const [x, y] of pts){
@@ -414,15 +415,16 @@ export const blobPts = (cx, cy, B, n = 72)=>{
     }
     return pts;
 };
-export const headBlob = (seed, a = 118, facing = 0)=>({
+export const headBlob = (seed, a = 144, facing = 0)=>({
+        /* v10-final: cabeca redonda limpa e grande estilo @RicksClips3000 */
         a,
-        b: a * (0.94 + 0.08 * (rnd(seed, 1) - 0.5)),
-        nTop: 1.75 + 0.3 * (rnd(seed, 2) - 0.5),
-        nBot: 2.3 + 0.3 * (rnd(seed, 3) - 0.5),
-        egg: -0.12 + 0.06 * (rnd(seed, 4) - 0.5),
-        asym: (0.06 + 0.04 * rnd(seed, 5)) * (facing || (rnd(seed, 6) < 0.5 ? -1 : 1)),
-        rot: rad(8 * (rnd(seed, 7) - 0.5)),
-        noise: 0.008,
+        b: a * (0.985 + 0.02 * (rnd(seed, 1) - 0.5)),
+        nTop: 2.02,
+        nBot: 2.04,
+        egg: -0.02,
+        asym: 0.012 * (facing || 1),
+        rot: rad(1.5 * (rnd(seed, 7) - 0.5)),
+        noise: 0.002,
         seed
     });
 export const thickAngle = (light)=>Math.atan2(-Math.sin(light) + 0.8, -Math.cos(light));
@@ -599,10 +601,11 @@ const eye = (p, kind, x, ey, u, side, look, skin)=>{
     const lx = x + look * 3 * u, lw = 3.8 * u;
     switch(kind){
         case "dot":
-            p.ell(lx, ey, 3.8 * u, 5.5 * u, INK, 0);
+            p.ell(lx, ey, 5.2 * u, 6.8 * u, INK, 0);
+            p.ell(lx - 1.5 * u, ey - 2.0 * u, 1.4 * u, 1.4 * u, "#ffffff", 0);
             break;
         case "small":
-            p.ell(lx, ey, 3 * u, 4.4 * u, INK, 0);
+            p.ell(lx, ey, 4.2 * u, 5.6 * u, INK, 0);
             break;
         case "lid":
             p.ell(lx, ey - u, 7 * u, 6 * u, INK, 0, 0, 180);
@@ -835,7 +838,7 @@ const faceFront = (p, cx, cy, W, expr, facing, look, lid, brim, skin, moustache,
         ], [
             x + side * (8.5 + (FT.bl || 0)) * u,
             by + dO * u
-        ], (5 + (FT.bt || 0)) * u, (2.5 + (FT.bt || 0) * 0.5) * u);
+        ], (6.8 + (FT.bt || 0)) * u, (4.6 + (FT.bt || 0) * 0.5) * u);
         if (FT.bags) p.arc(x, ey + 7 * u, 7 * u, 3 * u, 20, 160, 1.3 * u);
     }
     const mx = cx + 8 * u * facing, my = cy + 20 * u;
@@ -853,7 +856,20 @@ const faceFront = (p, cx, cy, W, expr, facing, look, lid, brim, skin, moustache,
     ], stout ? 5.5 * u : 4.5 * u, 1.6 * u, moustache);
     if (AX.beard) { p.arc(mx, cy + 14 * u, 30 * u, 26 * u, 15, 165, 13 * u, AX.beard); p.arc(mx, cy + 22 * u, 20 * u, 18 * u, 25, 155, 10 * u, AX.beard); }   // barba cheia (variedade de personagem)
     if (AX.glasses) { for (const sd of [-1, 1]) p.arc(fx + sd * ex, ey, 12.5 * u, 12.5 * u, 0, 360, 2.6 * u); p.arc(fx, ey, ex - 12.5 * u, 3 * u, 200, 340, 2.4 * u); }   // oculos redondos
-    if (expr === "nervous" || AX.sweat) p.ell(cx + 40 * u * (facing || 1), cy - 22 * u + (AX.sweatY || 0) * u, 3 * u, 5 * u, "#9fd4ff", 2 * u);
+    if (expr === "nervous" || AX.sweat) p.ell(cx + 40 * u * (facing || 1), cy - 22 * u + (AX.sweatY || 0) * u, 3.6 * u, 6.2 * u, "#9fd4ff", 2.2 * u);
+    if (expr === "angry" || expr === "shout") {
+      const vx = cx + 38 * u * (facing || 1), vy = cy - 30 * u;
+      p.stroke([[vx - 6 * u, vy - 5 * u], [vx - 2 * u, vy - 1 * u], [vx - 6 * u, vy + 3 * u]], 2.4 * u, "#d93829");
+      p.stroke([[vx + 5 * u, vy - 5 * u], [vx + 1 * u, vy - 1 * u], [vx + 5 * u, vy + 3 * u]], 2.4 * u, "#d93829");
+      if (AX.rage) {
+        for (const sd of [-1, 1]) {
+          const px_ = cx + sd * 62 * u, py_ = cy - 12 * u;
+          p.ell(px_, py_, 13 * u, 10 * u, "#ffffff", 2.2 * u);
+          p.ell(px_ + sd * 11 * u, py_ - 5 * u, 9 * u, 8 * u, "#ffffff", 2.0 * u);
+          p.ell(px_ + sd * 6 * u, py_ + 6 * u, 8 * u, 7 * u, "#ffffff", 1.8 * u);
+        }
+      }
+    }
     if (expr === "cry") for (const sd of [-1, 1]) { const tx = fx + sd * (ex + 2 * u);   /* CHORO: lagrimas escorrendo dos dois olhos */
         p.stroke([[tx, ey + 5 * u], [tx + sd * 1.5 * u, ey + 13 * u], [tx + sd * 1 * u, ey + 20 * u]], 3.4 * u, "#6fc3ff");
         p.ell(tx + sd * 1 * u, ey + 22 * u, 2.6 * u, 3.4 * u, "#6fc3ff", 1.2 * u); }
@@ -1162,10 +1178,11 @@ const BUILD = {
         tw: 0.92
     },
     lanky: {
-        a: 122,
-        torso: 0.95,
-        legs: 1.75,
-        tw: 0.8
+        /* v10-final: proporcao fiel @RicksClips3000 (cabeca grande + capsula compacta) */
+        a: 146,
+        torso: 0.90,
+        legs: 1.32,
+        tw: 0.86
     },
     kid: {
         a: 112,
@@ -1193,9 +1210,9 @@ export const bodyFront = (p, o, opts)=>{
     const bob = mode === "march" ? 0.025 * tall * Math.cos(2 * two * phase) : mode === "stroll" ? 0.015 * tall * Math.cos(2 * two * phase) : 0;
     const torsoBot = mode === "sit" ? sole - 0.2 * HH : mode === "kneel" ? sole - 0.36 * Bd.legs * HH : sole - Bd.legs * HH + bob;   /* kneel (19/11): DE JOELHOS, corpo mais baixo */
     const chin = torsoBot - Bd.torso * HH, hc = chin - H.b, crown = hc - H.b, hipY = torsoBot - 0.12 * HH;
-    const thick = thickAngle(light), ow = 5 * u;
+    const thick = thickAngle(light), ow = 3.5 * u;
     const legCol = mix(o.pants, INK, 0.86), armCol = mix(o.jacket, INK, 0.84), footCol = o.boots;   // pernas/bracos = traco de TINTA escura (canal: contraste 115-150 contra o chao)
-    const legW = 5.8 * u, footW = 7.5 * u;
+    const legW = 4.6 * u, footW = 6.4 * u;
     p.rot = null;
     if (mode === "sit") {
         for (const side of [
@@ -1307,8 +1324,8 @@ export const bodyFront = (p, o, opts)=>{
             const up = Math.max(0, Math.sin(two * (phase + ph))) * L;
             const hx = 300 + side * 15 * u, fx = 300 + side * 22 * u, fy = sole - 4 * u - up;
             const k = [
-                (hx + fx) / 2 + side * (1.5 * u + up * 0.16),
-                (hipY + fy) / 2 - up * 0.08
+                (hx + fx) / 2 + side * (4.8 * u + up * 0.22),
+                (hipY + fy) / 2 - up * 0.10
             ];
             p.stroke(curve([
                 hx,
@@ -1514,17 +1531,18 @@ export const bodyFront = (p, o, opts)=>{
             salute: (s)=>s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.78, -0.1), Q(s, 0.3, -0.97)], front: true, top: true } : null,
             /* GESTOS DE ACAO (19/11: a cena faz o que a narracao conta) */
             plead: (s)=>({ pts: [Q(s, 0.36, 0.12), Q(s, 0.42, 0.34), Q(s, 0.06, 0.02 + wob)], front: true }),   /* SUPLICA (19/11): as duas maos juntas na frente do peito */
-            reach: (s)=>s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.72, 0.2), Q(s, 1.08, 0.34 + wob)], front: true } : null,
-            pour: (s)=>s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.74, 0.0), Q(s, 1.0, -0.12 + 0.12 * Math.sin(gt * 3))], front: true } : null,
-            stir: (s)=>s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.7, 0.28), Q(s, 0.92 + 0.14 * Math.cos(gt * 9), 0.46 + 0.06 * Math.sin(gt * 9))], front: true } : null,
-            throw: (s)=>{ const k = Math.min(1, gt * 2.2); return s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.5 + 0.3 * k, -0.3 + 0.35 * k), Q(s, 0.34 + 0.9 * k, -0.86 + 0.9 * k)], front: false } : null; },
-            hammer: (s)=>{ const k = Math.abs(Math.sin(gt * 7)); return s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.7, -0.1 + 0.2 * k), Q(s, 0.86, -0.62 + 0.9 * k)], front: false } : null; },
-            write: (s)=>s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.6, 0.36), Q(s, 0.44 + 0.08 * Math.sin(gt * 14), 0.36 + 0.03 * Math.cos(gt * 14))], front: true } : null,
-            eat: (s)=>s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.62, 0.1), Q(s, 0.16, -0.36 + 0.06 * Math.sin(gt * 13))], front: true, top: true, food: true } : null,   /* COMER (19/11): leva a comida a boca e mastiga */
-            lift: (s)=>({ pts: [Q(s, 0.36, 0.12), Q(s, 0.6, -0.2), Q(s, 0.42, -0.62 + wob)], front: false }),
-            push: (s)=>({ pts: [Q(s, 0.36, 0.12), Q(s, 0.7, 0.12), Q(s, 1.04, 0.06 + wob)], front: true }),
-            punch: (s)=>{ const k = Math.max(0, Math.sin(gt * 8)); return s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.6 + 0.2 * k, 0.1), Q(s, 0.7 + 0.62 * k, 0.0)], front: true } : null; },
-            wave2: (s)=>s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.78, -0.06 + wob), Q(s, 0.9 + 0.22 * Math.sin(gt * 11), -0.82)], front: true } : null
+            /* v9: GESTOS EXPRESSIVOS ESTILO RICKS CLIPS (bi-manuais, arco amplo, overshoot) */
+            reach: (s)=>s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.78, 0.18), Q(s, 1.24, 0.22 + wob)], front: true } : { pts: [Q(s, 0.36, 0.12), Q(s, 0.52, 0.38), Q(s, 0.44, 0.56)], front: false },
+            pour: (s)=>s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.80, -0.05), Q(s, 1.12, -0.18 + 0.18 * Math.sin(gt * 4))], front: true } : null,
+            stir: (s)=>s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.74, 0.24), Q(s, 1.02 + 0.22 * Math.cos(gt * 11), 0.42 + 0.10 * Math.sin(gt * 11))], front: true } : { pts: [Q(s, 0.36, 0.12), Q(s, 0.56, 0.32), Q(s, 0.46, 0.48)], front: false },
+            throw: (s)=>{ const k = Math.min(1, gt * 2.8); const sw = Math.sin(k * Math.PI * 0.85); return s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.42 + 0.48 * k, -0.45 + 0.55 * k), Q(s, 0.22 + 1.22 * k, -1.05 + 1.15 * k - 0.15 * sw)], front: true } : { pts: [Q(s, 0.36, 0.12), Q(s, 0.65, 0.30), Q(s, 0.82, 0.45)], front: false }; },
+            hammer: (s)=>{ const k = Math.pow(Math.abs(Math.sin(gt * 8.5)), 0.7); return s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.76, -0.22 + 0.35 * k), Q(s, 0.98, -0.88 + 1.25 * k)], front: true } : null; },
+            write: (s)=>s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.62, 0.34), Q(s, 0.48 + 0.12 * Math.sin(gt * 16), 0.34 + 0.05 * Math.cos(gt * 16))], front: true } : null,
+            eat: (s)=>s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.64, 0.08), Q(s, 0.14, -0.38 + 0.08 * Math.sin(gt * 14))], front: true, top: true, food: true } : null,
+            lift: (s)=>({ pts: [Q(s, 0.36, 0.12), Q(s, 0.66, -0.26), Q(s, 0.50, -0.82 + wob * 1.6)], front: false }),
+            push: (s)=>{ const k = Math.min(1, Math.sin(Math.min(1, gt * 2.6) * Math.PI * 0.65) * 1.15); return { pts: [Q(s, 0.36, 0.12), Q(s, 0.76 + 0.22 * k, 0.06), Q(s, 1.15 + 0.45 * k, 0.02 + wob)], front: true }; },
+            punch: (s)=>{ const ph = Math.min(1, gt * 3.0); const k = ph < 0.25 ? -0.35 * (ph / 0.25) : Math.sin(Math.min(1, (ph - 0.25) / 0.75) * Math.PI) * 1.25; return s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.62 + 0.34 * k, 0.06), Q(s, 0.76 + 0.88 * k, -0.04)], front: true } : { pts: [Q(s, 0.36, 0.12), Q(s, 0.58, 0.26), Q(s, 0.32, 0.12)], front: false }; },
+            wave2: (s)=>s === fs ? { pts: [Q(s, 0.36, 0.12), Q(s, 0.78, -0.06 + wob), Q(s, 0.9 + 0.22 * Math.sin(gt * 11), -0.82)], front: false } : null
         };
         const g = G[gest];
         if (g) {
@@ -1561,10 +1579,14 @@ export const bodyFront = (p, o, opts)=>{
         else if (k === "spyglass") { p.band([[x - 4 * u, y], [x + 20 * u, y - 10 * u]], "#c9a060", 6 * u, 1.3 * u, "round"); p.band([[x + 20 * u, y - 10 * u], [x + 30 * u, y - 14 * u]], "#3a3d47", 8 * u, 1.3 * u, "round"); }
     })(u * 1.7);
     const drawArm = (a)=>{
-        p.stroke(curve(a.pts[0], a.pts[1], a.pts[2]), 5.2 * u, armCol);
+        p.stroke(curve(a.pts[0], a.pts[1], a.pts[2]), 4.2 * u, armCol);
         if (o.hold && a === (arms.find((q)=>q.front) || arms[arms.length - 1])) drawHeld(a.pts[2][0], a.pts[2][1]);
         if (a.food) { const fx = a.pts[2][0], fy = a.pts[2][1] - 4 * u; p.dot(fx, fy, 11 * u, INK); p.dot(fx, fy, 9 * u, '#e8d9a8'); p.dot(fx - 3 * u, fy - 3 * u, 3 * u, '#fff6d8'); p.band([[fx, fy - 9 * u], [fx + 2 * u, fy - 16 * u]], '#6aa84f', 3 * u, 1.2 * u, 'round'); }   /* bulbo/cebola na mao ao comer */
         p.dot(a.pts[2][0], a.pts[2][1], 5.5 * u);
+        if (opts.speedLines && a.front) {
+          const hx_ = a.pts[2][0], hy_ = a.pts[2][1], sd_ = (facing || 1) >= 0 ? 1 : -1;
+          for (const dy_ of [-14, 0, 14]) p.stroke([[hx_ - sd_ * 42 * u, hy_ + dy_ * u], [hx_ - sd_ * 12 * u, hy_ + dy_ * u]], 2.2 * u, "#ffffff");
+        }
         if (o.gloves) { p.dot(a.pts[2][0], a.pts[2][1], 15 * u, INK); p.dot(a.pts[2][0], a.pts[2][1], 12.8 * u, o.gloves); p.dot(a.pts[2][0] - 3 * u, a.pts[2][1] - 4 * u, 3.5 * u, mix(o.gloves, '#ffffff', 0.45)); }   /* LUVA DE BOXE */
     };
     if (rifle) drawRifle(p, R0, R1, u);
@@ -1663,11 +1685,20 @@ export const bodyFront = (p, o, opts)=>{
                     torsoBot - 0.32 * HH
                 ]
             ], o.sash, 0.13 * HH, 1.8 * u);
-            for(let i = 0; i < 4; i++){
-                const y = chin + 0.12 * HH + i * 0.2 * HH;
+            if (!o.shirtless && !o.camo && !o.tie && !o.logo) {
+                p.poly([[tcx - 0.32 * T.a, chin - 0.02 * HH], [tcx, chin + 0.24 * HH], [tcx + 0.32 * T.a, chin - 0.02 * HH]], '#f4f0e6', 1.2 * u);
+                if (!o.belt && !o.sash) {
+                    for (const s_ of [-1, 1]) {
+                        p.band([[tcx + s_ * 0.38 * T.a, chin + 0.02 * HH], [tcx + s_ * 0.42 * T.a, torsoBot - 0.08 * HH]], shade(o.jacket, 0.55), 3.2 * u, 0.9 * u);
+                    }
+                }
+                p.poly([[tcx + 0.28 * T.a, chin + 0.42 * HH], [tcx + 0.66 * T.a, chin + 0.42 * HH], [tcx + 0.64 * T.a, chin + 0.64 * HH], [tcx + 0.30 * T.a, chin + 0.64 * HH]], shade(o.jacket, 0.86), 1.0 * u);
+            }
+            for(let i = 0; i < 3; i++){
+                const y = chin + 0.30 * HH + i * 0.19 * HH;
                 if (o.shirtless) break; if (o.sash && Math.abs(y - (torsoBot - 0.32 * HH)) < 0.08 * HH) continue;
-                p.dot(tcx + 2 * u * facing, y, 2.2 * u + 0.8 * u, INK);
-                p.dot(tcx + 2 * u * facing, y, 2.2 * u, o.buttons ?? shade(o.jacket, 0.7));
+                p.dot(tcx + 2 * u * facing, y, 1.8 * u + 0.6 * u, INK);
+                p.dot(tcx + 2 * u * facing, y, 1.8 * u, o.buttons ?? shade(o.jacket, 0.72));
             }
             if (o.trunks) { p.poly([[tcx - 3 * T.a, torsoBot - 0.2 * HH], [tcx + 3 * T.a, torsoBot - 0.2 * HH], [tcx + 3 * T.a, torsoBot + 0.3 * HH], [tcx - 3 * T.a, torsoBot + 0.3 * HH]], o.trunks, 0); p.band([[tcx - 3 * T.a, torsoBot - 0.2 * HH], [tcx + 3 * T.a, torsoBot - 0.2 * HH]], o.trunkBand || '#f4f4f2', 0.045 * HH, 1.2 * u); }   /* SHORT DE LUTADOR (19/11) */ if (o.shirtless) { for (const s_ of [-1, 1]) p.stroke([[tcx + s_ * 0.15 * T.a, chin + 0.2 * HH], [tcx + s_ * 0.6 * T.a, chin + 0.24 * HH], [tcx + s_ * 0.95 * T.a, chin + 0.17 * HH]], 1.6 * u, shade(o.jacket, 0.62)); p.stroke([[tcx, chin + 0.3 * HH], [tcx, chin + 0.46 * HH]], 1.4 * u, shade(o.jacket, 0.62)); } if (o.camo) for (let i = 0; i < 16; i++) { const rx = ((i * 37) % 17) / 17 - 0.5, ry = ((i * 53) % 13) / 13; p.dot(tcx + rx * 2.6 * T.a, chin + 0.05 * HH + ry * (torsoBot - chin), (4 + (i % 3) * 1.6) * u, i % 2 ? o.camo : shade(o.camo, 0.75)); }   /* CAMUFLADO (soldado moderno) */
             if (o.collar) p.band([[tcx - 1.4 * T.a, chin + 0.04 * HH], [tcx + 1.4 * T.a, chin + 0.04 * HH]], o.collar, 0.1 * HH, 1.6 * u);   /* gola (arminho do rei/imperador, colarinho branco do terno) */
@@ -1787,6 +1818,15 @@ export const bodyFront = (p, o, opts)=>{
     hatBehind(p, o, H, 300, hc, light, thick, ow, false);
     const hp = blobPts(300, hc, H);
     p.shadedFill(hp, skin, mul(skin, SH_SKIN), light, H.a);
+    if ((expr === "angry" || expr === "shout") && fx && fx.rage) {
+      p.clip(hp, () => {
+        const g_ = p.g, grd = g_.createLinearGradient(300, hc - H.b, 300, hc + H.b * 0.45);
+        grd.addColorStop(0, "rgba(148, 36, 206, 0.78)");
+        grd.addColorStop(0.6, "rgba(196, 62, 224, 0.32)");
+        grd.addColorStop(1, "rgba(255, 255, 255, 0)");
+        g_.fillStyle = grd; g_.fillRect(300 - H.a * 1.2, hc - H.b * 1.2, H.a * 2.4, H.b * 2.4);
+      });
+    }
     p.inkRing(hp, ow, thick);
     hatOn(p, o, hp, H, 300, hc, light, seed, facing, false);
     const brim = !!o.hat && o.hat !== "hair" && o.hat !== "bonnet" && o.hat !== "cap";
@@ -1822,7 +1862,7 @@ export const bodySide = (p, o, opts)=>{
         rot: rad(3 + 3 * (rnd(seed, 7) - 0.5))
     };
     const W = 2 * H.a, HH = 2 * H.b, u = W / 100, sole = 975, ankY = sole - 4 * u;
-    const thick = thickAngle(light), ow = 5 * u;
+    const thick = thickAngle(light), ow = 3.5 * u;
     const legLen = (Bd.legs + 0.12) * HH - 4 * u, l1 = legLen / 2, l2 = legLen / 2;
     const nearCol = mix(o.pants, INK, 0.86), farCol = mix(o.pants, INK, 0.92), footCol = o.boots;
     const legs = [];

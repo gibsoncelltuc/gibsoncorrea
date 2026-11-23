@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 15 - A Cola que Não Colava
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 44 acoes catalogadas, 44 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 13 frases, 44 acoes catalogadas, 44 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.4s - 19 palavras - plano two
@@ -20,7 +20,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | MAPA | ESTADOS UNIDOS | OK |
+| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | - | MAPA | ESTADOS UNIDOS | OK |
 
 ## Cena b2 - 11.6s a 15.7s - 13 palavras - plano two
 > "Spencer Silver tentava criar uma super cola, tão forte que nada conseguisse descolar."
@@ -36,9 +37,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | saiu (17.8s) | ACAO: sai | sai andando pela lateral | OK |
-| 2 | grudava (19.5s) | ACAO: g_grudava | g_grudava | OK |
-| 3 | soltava (20.3s) | ACAO: g_soltava | g_soltava | OK |
-| 4 | - | ATUACAO | reagir | OK |
+| 2 | soltava (20.3s) | ACAO: x_solta | solta/liberta + brilho | OK |
+| 3 | - | ATUACAO | reagir | OK |
 
 ## Cena b4 - 23.2s a 27.7s - 14 palavras - plano two
 > "Durante anos, ele mostrou a cola para todo mundo na empresa. Ninguém via utilidade."
@@ -49,38 +49,38 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | entregar | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b5 - 29.3s a 34.0s - 19 palavras - plano crowd
+## Cena b5 - 29.3s a 34.0s - 19 palavras - plano group
 > "Até que, em mil novecentos e setenta e quatro, o colega Art Fry estava cantando no coral da igreja."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | cantando (33.1s) | ACAO: x_canta | canta de bracos abertos + onda de som | OK |
+| 2 | - | INTERACAO | avanca e o outro recua | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b6 - 35.3s a 40.4s - 16 palavras - plano two
 > "Os papeizinhos que marcavam as páginas do hinário viviam caindo no chão. E ele ficava perdido."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | marcavam (36.3s) | ACAO: g_marcavam | g_marcavam | OK |
-| 2 | caindo (38.1s) | ACAO: desaba | desaba: nuvem de poeira + tremor | OK |
-| 3 | chão (38.6s) | ACAO: tomba | cai sentado no chao + poeira | OK |
-| 4 | - | INTERACAO | avanca e o outro recua | OK |
-| 5 | - | ATUACAO | conversar | OK |
+| 1 | caindo (38.1s) | ACAO: desaba | desaba: nuvem de poeira + tremor | OK |
+| 2 | chão (38.6s) | ACAO: tomba | cai sentado no chao + poeira | OK |
+| 3 | - | INTERACAO | o outro se aproxima | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
-## Cena b7 - 41.6s a 48.2s - 20 palavras - plano close
+## Cena b7 - 41.6s a 48.2s - 20 palavras - plano orbit
 > "Aí veio a ideia: marcadores com a cola fraca do Silver. Grudam, não caem, e saem sem rasgar a página."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | ideia (42.2s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
-| 2 | - | ATUACAO | reagir | OK |
 
 ## Cena b8 - 49.4s a 55.8s - 22 palavras - plano two
 > "Os dois se juntaram. E o papel saiu amarelo por acaso: era o único papel de rascunho que tinha no laboratório vizinho."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | juntaram (50.0s) | ACAO: g_juntaram | g_juntaram | OK |
+| 1 | juntaram (50.0s) | ACAO: pega | levanta/segura | OK |
 | 2 | saiu (51.9s) | ACAO: sai | sai andando pela lateral | OK |
 | 3 | laboratório (55.3s) | ACAO: quimico | frasco e tubos de ensaio + fumacinha | OK |
 | 4 | - | INTERACAO | abracar | OK |
@@ -98,16 +98,17 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | - | INTERACAO | susto | OK |
 | 6 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 63.5s a 69.6s - 16 palavras - plano orbit
+## Cena b10 - 63.5s a 69.6s - 16 palavras - plano crowd
 > "Então distribuíram amostras de graça numa cidade inteira. Quase todo mundo que testou quis comprar mais."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | distribuíram (63.9s) | ACAO: g_distribu | g_distribu | OK |
-| 2 | testou (68.6s) | ACAO: g_testou | g_testou | OK |
+| 1 | distribuíram (63.9s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | testou (68.6s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
 | 3 | comprar (69.2s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 4 | - | ATUACAO | comemorar | OK |
-| 5 | - | PLACA | POST-IT | OK |
+| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 5 | - | ATUACAO | comemorar | OK |
+| 6 | - | PLACA | POST-IT | OK |
 
 ## Cena b11 - 70.6s a 76.1s - 18 palavras - plano close
 > "Em mil novecentos e oitenta, o post-it chegou às lojas. Tudo graças a uma cola que deu errado."
@@ -119,4 +120,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | deu (76.0s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 4 | - | ATUACAO | reagir | OK |
 | 5 | - | PLACA | 1980 | OK |
+
+## Cena b12 - 76.1s a 76.1s - 13 palavras - plano close
+> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | PLACA | COMENTE! | OK |
 

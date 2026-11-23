@@ -2,8 +2,8 @@
  "title": "A Invasão da Ilha Vazia",
  "voice": "pt-BR-AntonioNeural",
  "rate": "+10%",
- "set": "arctic",
- "light": "arctic",
+ "set": "mountain",
+ "light": "overcast",
  "mood": "march",
  "assets": [
   "ship"
@@ -13,7 +13,7 @@
    "jacket": "#6a7440",
    "pants": "#5a6334",
    "boots": "#2a2218",
-   "hat": "cap",
+   "hat": "m1",
    "cap": "#5a6334",
    "belt": "#8a7a50",
    "rifle": true
@@ -22,7 +22,7 @@
    "jacket": "#8a7a50",
    "pants": "#6a5a38",
    "boots": "#2a2218",
-   "hat": "cap",
+   "hat": "brodie",
    "cap": "#8a7a50",
    "belt": "#2a2218",
    "rifle": true
@@ -31,7 +31,7 @@
    "jacket": "#6a7440",
    "pants": "#8a7a50",
    "boots": "#2a2218",
-   "hat": "cap",
+   "hat": "quepe",
    "cap": "#5a6334",
    "buttons": "#e8c45a",
    "moustache_on": "#4a3020",
@@ -114,10 +114,11 @@
      1.0
     ]
    ],
-   "mapa": "ALASCA"
+   "mapa": "ALASCA",
+   "set": "mountain"
   },
   {
-   "say": "Antes do desembarque, bombardearam a ilha durante semanas.",
+   "say": "Antes do desembarque, bombardearam Kiska durante semanas.",
    "shot": "prop",
    "who": [
     "USA:2:grin"
@@ -138,7 +139,7 @@
     "cannon@70"
    ],
    "mood": "march",
-   "set": "harbor"
+   "set": "arctic"
   },
   {
    "say": "No meio do nevoeiro, os soldados desceram em silêncio, prontos para um combate duro.",
@@ -151,20 +152,21 @@
    "move": 8,
    "light": "overcast",
    "mood": "tense",
-   "set": "mountain"
+   "set": "mountain",
+   "clima": "neblina"
   },
   {
    "say": "Mas teve um problema: os japoneses já tinham ido embora.",
-   "shot": "group",
+   "shot": "two",
    "who": [
-    "USA:1:shock"
+    "USA:1:shock",
+    "CAN:0:shock"
    ],
    "text": "ILHA VAZIA",
    "tat": 10,
    "tstyle": "red",
    "light": "overcast",
-   "detalhe": false,
-   "shot_lock": true
+   "clima": "neblina"
   },
   {
    "say": "Duas semanas antes, uma frota tinha evacuado cerca de cinco mil homens, escondida na neblina.",
@@ -188,15 +190,8 @@
    ],
    "light": "overcast",
    "mood": "calm",
-   "set": "arctic",
-   "crowd": {
-    "n": 14,
-    "outfits": [
-     "JAP"
-    ],
-    "march": true,
-    "expr": "stern"
-   }
+   "set": "harbor",
+   "clima": "neblina"
   },
   {
    "say": "Sem inimigo à vista, os Aliados começaram a atirar uns nos outros, no escuro e na neblina.",
@@ -220,9 +215,8 @@
    "tstyle": "red",
    "light": "overcast",
    "mood": "tense",
-   "set": "arctic",
-   "detalhe": false,
-   "shot_lock": true
+   "set": "mountain",
+   "clima": "neblina"
   },
   {
    "say": "No fim, só acharam na ilha alguns cachorros abandonados.",
@@ -244,8 +238,8 @@
    "tstyle": "brown",
    "light": "overcast",
    "mood": "playful",
-   "set": "arctic",
-   "riscos_ok": true
+   "set": "harbor",
+   "clima": "neblina"
   },
   {
    "say": "Uma das maiores invasões do Pacífico Norte tomou uma ilha completamente vazia.",
@@ -257,10 +251,35 @@
    "tat": 11,
    "tstyle": "white",
    "mood": "playful",
-   "set": "harbor"
+   "set": "harbor",
+   "clima": "neblina"
   }
  ],
  "heroi": "kit/dog_sit",
- "cinf": 1.5,
- "exp": 1.404
+ "visual": {
+  "local": "Ilha de Kiska, nas Aleutas (Alasca): ilha vulcanica sem arvores, tundra de capim e pedras, praias de cascalho, mar frio, neblina constante",
+  "quando": "desembarque em 15 de agosto de 1943 (os japoneses tinham saido em 28 de julho, escondidos na neblina)",
+  "participantes": [
+   "cerca de 34 mil soldados americanos e canadenses",
+   "marinha americana",
+   "guarnicao japonesa (ja evacuada)",
+   "cachorros deixados na ilha"
+  ],
+  "roupas": {
+   "USA": "soldado americano de 1943: uniforme verde-oliva, capacete M1, fuzil",
+   "CAN": "soldado canadense: uniforme caqui, capacete Brodie",
+   "OFF": "oficial americano com quepe"
+  },
+  "cenario": "praia de cascalho cinza com navios de desembarque, encostas de tundra sem arvores, neblina densa, vulcao ao fundo",
+  "objetos": [
+   "navios de guerra e de desembarque",
+   "avioes",
+   "canhoes",
+   "cachorros abandonados"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Operation_Cottage",
+   "https://en.wikipedia.org/wiki/Kiska"
+  ]
+ }
 }

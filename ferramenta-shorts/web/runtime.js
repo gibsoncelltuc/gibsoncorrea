@@ -52,6 +52,8 @@ const CUTS = SPEC.shots.map((s) => s.a).filter((a, i) => i > 0 && SPEC.shots[i].
 export const camAt = (f) => {
   const si0 = FORCE !== null ? FORCE : SPEC.shots.findIndex((s) => f >= s.a && f <= s.b), si = si0 < 0 ? SPEC.shots.length - 1 : si0, S = SPEC.shots[si], K = CAMKEYS[si];
   let c = camFromKeys(K, f, { creep: S.creep ?? SPEC.creep ?? 0.0045, kicks: KICKS.filter((k) => k.f >= S.a && k.f <= S.b + 8) });
+  // v9: ACTION PUNCH-IN (micro zoom-in dinamico estilo Ricks Clips sincronizado com picos de acao)
+  if (S.punches && S.punches.length) { let pz = 0; for (const pn of S.punches) { const dt = f - pn.f; if (dt >= -6 && dt <= (pn.dur || 22)) { const t = dt < 0 ? (dt + 6) / 6 : Math.max(0, 1 - dt / (pn.dur || 22)); pz = Math.max(pz, (pn.amt || 0.14) * t * t * (3 - 2 * t)); } } if (pz > 0.005) c.fov = Math.max(22, c.fov * (1 - pz)); }
   if (S.glide && si > 0 && f < S.a + (S.glideN ?? SPEC.glideN ?? 26)) { const G = S.glideN ?? SPEC.glideN ?? 26, ps = SPEC.shots[si - 1], pc = camFromKeys(CAMKEYS[si - 1], ps.b, { creep: ps.creep ?? SPEC.creep ?? 0.0045, kicks: [] }); const x = Math.min(1, Math.max(0, (f - S.a + 1) / (G + 1))), t = x * x * x * (x * (x * 6 - 15) + 10); const L3 = (p, q) => [0, 1, 2].map((i) => p[i] + (q[i] - p[i]) * t);
     c = { ...c, pos: L3(pc.pos, c.pos), look: L3(pc.look, c.look), fov: pc.fov + (c.fov - pc.fov) * t, roll: (pc.roll || 0) + ((c.roll || 0) - (pc.roll || 0)) * t }; }
   { const kf = (typeof window !== 'undefined' && window.KFIT && window.KFIT[S.id]) || (SPEC.fit && SPEC.fit[S.id]) || 1; if (kf !== 1) c.pos = [c.look[0] + (c.pos[0] - c.look[0]) * kf, c.look[1] + (c.pos[1] - c.look[1]) * kf, c.look[2] + (c.pos[2] - c.look[2]) * kf]; }
@@ -59,6 +61,7 @@ export const camAt = (f) => {
   const cut = CUTS.find((cf) => f >= cf && f < cf + 4), fl = (SPEC.flashes || []).find((x) => f >= x.f && f < x.f + (x.n || 5));
   { const nx = SPEC.shots[si + 1], M_ = 7, ZM = SPEC.pushZoom ?? 2.6, e01 = (t) => { t = Math.min(1, Math.max(0, t)); return t * t * (3 - 2 * t); }; let z = 1, zb = 0;
     if (nx && nx.trIn && nx.trIn.type === 'push' && f >= nx.a - M_) { const t = e01((f - (nx.a - M_)) / M_); z *= 1 + (ZM - 1) * t; zb = Math.max(zb, t); }
+    if (S.trIn && S.trIn.type === 'whip' && f < S.a + 6) { const tw = 1 - (f - S.a) / 6; c.pos = [c.pos[0] + tw * tw * 4.5, c.pos[1], c.pos[2]]; c.zb = Math.max(c.zb || 0, tw * 0.9); }
     if (S.trIn && S.trIn.type === 'push' && f < S.a + M_) { const t = 1 - e01((f - S.a + 1) / M_); z *= 1 + (ZM - 1) * t; zb = Math.max(zb, t); }
     if (z !== 1) c.fov = 2 * Math.atan(Math.tan(c.fov * Math.PI / 360) / z) * 180 / Math.PI; c.zb = zb; }
   if (SPEC.camFloor !== false) { const FLR = DECK + (SPEC.camFloor ?? 0.55), kk = 0.22, dy = c.pos[1] - FLR; c.pos = [c.pos[0], FLR + 0.5 * (dy + Math.sqrt(dy * dy + kk * kk)), c.pos[2]]; }   // never below the ground: smooth floor (no kinks), look target untouched
@@ -73,8 +76,8 @@ const G3D = ['bear', 'horse', 'horse_sela', 'dog', 'cat', 'cow', 'deer', 'donkey
 export const worldAt = (f) => {
   const S = SP(f), W = { props: [], weather: { wind: 0.5, dx: 1, dz: 0.3, ...(typeof S.weather === 'function' ? S.weather(f) : S.weather || {}) } };
   W.weather.wind = Math.max(0, (W.weather.wind ?? 0.5) + (S.light === 'study' ? 0 : 0.1 * Math.sin(f / 30 * 0.5) + 0.06 * Math.sin(f / 30 * 1.7)));
-  for (const p of (S.props || [])) { if (p.a !== undefined && (f < p.a || f > p.b)) continue; const base = p.at, pos = moveAt(base, p.move, f), prev = moveAt(base, p.move, f - 1), dx = pos[0] - prev[0], dz = pos[1] - prev[1]; const sp = Math.hypot(dx, dz) * 30; const dir = p.move ? Math.atan2(pos[0] - base[0], pos[1] - base[1]) : 0;
-    const tw = typeof p.turret === 'function' ? p.turret(f) : p.turret; W.props.push({ sy: typeof p.sy === 'function' ? p.sy(f) : p.sy, asset: p.asset, x: pos[0], z: pos[1], y: typeof p.y === 'function' ? p.y(f) : (p.y ?? DECK), ry: p.move && p.align !== false ? dir + (p.ry || 0) : (p.ry || 0) + (p.spinY ? f / 30 * p.spinY : 0), s: typeof p.s === 'function' ? p.s(f) : (p.s || 1), tint: p.tint, t: f / 30, dist: p.move ? Math.hypot(pos[0] - base[0], pos[1] - base[1]) : 0, turret: tw || 0, pitch: p.pitch || 0, recoil: p.fire ? Math.max(0, 1 - (f - p.fire) / 8) * (f >= p.fire ? 1 : 0) : 0, bob: sp > 0.1 ? 0.04 : 0 }); }
+  for (const p of (S.props || [])) { if (p.a !== undefined && (f < p.a || f > p.b)) continue; const base = p.at, _mv0 = moveAt(base, p.move, f), _mv1 = moveAt(base, p.move, f - 1), pos = p.xf ? [p.xf(f), _mv0[1]] : _mv0, prev = p.xf ? [p.xf(f - 1), _mv1[1]] : _mv1, dx = pos[0] - prev[0], dz = pos[1] - prev[1]; const sp = Math.hypot(dx, dz) * 30; const dir = p.move ? Math.atan2(pos[0] - base[0], pos[1] - base[1]) : 0;
+    const tw = typeof p.turret === 'function' ? p.turret(f) : p.turret; W.props.push({ sy: typeof p.sy === 'function' ? p.sy(f) : p.sy, asset: p.asset, x: pos[0], z: pos[1], y: typeof p.y === 'function' ? p.y(f) : (p.y ?? DECK), ry: p.move && p.align !== false ? dir + (p.ry || 0) : (p.ry || 0) + (p.spinY ? f / 30 * p.spinY : 0), s: typeof p.s === 'function' ? p.s(f) : (p.s || 1), tint: p.tint, t: f / 30, dist: p.move ? Math.hypot(pos[0] - base[0], pos[1] - base[1]) : 0, dxw: (p.move || p.xf) ? pos[0] - base[0] : 0, dzw: p.move ? pos[1] - base[1] : 0, rx: typeof p.rx === 'function' ? p.rx(f) : (p.rx || 0), rz: typeof p.rz === 'function' ? p.rz(f) : (p.rz || 0), turret: tw || 0, pitch: p.pitch || 0, recoil: p.fire ? Math.max(0, 1 - (f - p.fire) / 8) * (f >= p.fire ? 1 : 0) : 0, bob: sp > 0.1 ? 0.04 : 0 }); }
   for (const a of (S.actors || [])) if (is3(a) && !(a.a !== undefined && (f < a.a || f > a.b))) { const sp3 = a.animal || a.bird || 'emu'; const st3 = typeof a.state === 'function' ? a.state(f) : (a.state || 'stand'); const fal3 = a.fall ? a.fall(f) : (st3 === 'fall' ? 1 : 0);   /* TIRO: o bicho 3D deita de lado; FUCA: abaixa o focinho */ const pos = moveAt(a.at, a.move, f); const trot = (st3 === 'trot' || st3 === 'walk' || st3 === 'run') && a.move && f >= a.move[1] && f <= a.move[2] && !fal3; const sc = (a.s || 1) * ({ horse: 1.7, horse_sela: 1.7, emu: 0.62, chicken: 0.62, pig: 1.5, bear: 1.5, dog: 1.25, cat: 1.15, cow: 1.5, deer: 1.4, donkey: 1.4, elephant: 1.9, fox: 1.15, goat: 1.25, lion: 1.5, rabbit: 1.1, sheep: 1.3, wolf: 1.35 }[sp3] ?? 0.78);
     W.props.push({ asset: sp3, walk: (st3 === 'walk' || trot) ? (sp3 === 'emu' ? 10 : sp3 === 'chicken' ? 16 : 0) : 0, peck: st3 === 'peck', rz: fal3 * 1.5 * (a.flip ? -1 : 1), rx: st3 === 'root' ? 0.18 + 0.1 * Math.sin(f * 0.35) : 0, t0: (a.seed || 0), x: pos[0], z: pos[1], y: DECK + (a.y || 0) + fal3 * 0.25 * sc + (trot ? 0.08 * Math.abs(Math.sin(f * 0.55)) : 0.015 * Math.sin(f * 0.12)), ry: (a.ry ?? ((a.bird === 'emu' || a.bird === 'chicken') && !a.move ? (a.flip ? 1.1 : -1.1) : a.move ? Math.atan2(a.move[0][0] - a.at[0], a.move[0][1] - a.at[1])  : 0.95)) + (trot ? 0.12 * Math.sin(f * 0.28) : 0.05 * Math.sin(f * 0.04)), s: sc, sy: 1 + (trot ? 0.04 : 0.025) * Math.sin(f * (trot ? 0.55 : 0.1)), tint: null }); }
   if (S.world) Object.assign(W, S.world(f));
@@ -91,18 +94,18 @@ export const OUT = Object.assign({
   CIV: (v = 0, e = {}) => ({ _id: 'civ', jacket: ['#3f6fb5', '#8c3b4a', '#5d7a3a', '#b5653f', '#2f5f6a', '#7b5ac9'][v % 6], pants: '#3b3f52', boots: '#4a3426', skin: SK[v % 4], ...(v % 2 ? { hat: 'bonnet', dress: ['#d9a441', '#c25a7a', '#5a8fc2'][v % 3] } : { hat: 'tophat' }), ...e }),
   ARTIST: (v = 0, e = {}) => ({ _id: 'artist', jacket: ['#d9a441', '#b5653f', '#7b5ac9', '#5a8fc2'][v % 4], pants: '#3b3f52', boots: '#4a3426', hat: 'cap', cap: ['#8a3a3a', '#2f5f6a', '#d9a441'][v % 3], skin: SK[v % 4], ...(v % 2 ? { moustache: '#4a3020' } : {}), ...e }),
 }, SPEC.outfits || {});
-const B = (T, o0, opts, pos, extra = {}) => { const o = { ...o0, ...(o0.build === undefined && !SPEC.noLanky ? { build: 'lanky' } : {}), ...(SPEC.keepSkin ? {} : { skin: o0.pele || '#f6f0e6' }) }; return B2(T, o, opts, pos, extra); };
+const B = (T, o0, opts, pos, extra = {}) => { const o = { ...o0, ...(o0.build === undefined && !SPEC.noLanky ? { build: 'lanky' } : {}), ...(SPEC.keepSkin ? {} : { skin: o0.pele || '#fffdf8' }) }; return B2(T, o, opts, pos, extra); };
 const B2 = (T, o, opts, pos, extra = {}) => ({ id: extra.id || o._id || 'person', key: (extra.sideWalk ? 'bs' : 'b') + JSON.stringify([o, opts]), draw: (p) => (extra.sideWalk ? T.bodySide(p, o, { blink: false, ...opts, mode: 'march', ...(opts.mode === 'stroll' ? { stride: 0.72, stomp: 0.8 } : {}) }) : T.bodyFront(p, o, { blink: false, ...opts })), x: pos[0], y: pos[1] ?? DECK, z: pos[2], ...extra });
 const qq = (x, n = 2) => Math.round(x * 10 ** n) / 10 ** n;
 /* INTERACAO FISICA entre personagens: avancar, recuar, inclinar-se, empurrar, cambalear, dar um passo, pular, reverencia (a.inter = { k, a, b, dir, n, ph }) */
-const interAt = (a, f) => { const I = a.inter; if (!I || f < I.a || f > I.b) return null; const t = (f - I.a) / Math.max(1, I.b - I.a), d = I.dir || 1, n = I.n || 2, bell = Math.sin(Math.PI * t), pu = Math.max(0, Math.sin(t * Math.PI * 2 * n + (I.ph || 0))) ** 0.7, sm = (x) => { x = Math.max(0, Math.min(1, x)); return x * x * (3 - 2 * x); };
+const interAt = (a, f) => { const I = (a.inters && a.inters.find((x) => f >= x.a && f <= x.b)) || a.inter; if (!I || f < I.a || f > I.b) return null; const t = (f - I.a) / Math.max(1, I.b - I.a), d = I.dir || 1, n = I.n || 2, bell = Math.sin(Math.PI * t), pu = Math.max(0, Math.sin(t * Math.PI * 2 * n + (I.ph || 0))) ** 0.7, sm = (x) => { x = Math.max(0, Math.min(1, x)); return x * x * (3 - 2 * x); };
   switch (I.k) {
     case 'lunge': return { dx: d * 0.5 * pu, tilt: d * 10 * pu, hop: 0 };
     case 'recoil': return { dx: -d * 0.45 * pu, tilt: -d * 9 * pu, hop: 0.05 * pu };
     case 'lean': return { dx: d * 0.4 * bell, tilt: d * 9 * bell, hop: 0 };
     case 'step': { const k = sm(t / 0.3) * (1 - sm((t - 0.8) / 0.2)); return { dx: d * 0.6 * k, tilt: d * 4 * k, hop: 0.04 * Math.abs(Math.sin(t * 40)) * (t < 0.3 || t > 0.8 ? 1 : 0) }; }
     case 'shove': { const k = Math.exp(-(((t - 0.45) / 0.09) ** 2)); return { dx: d * 0.6 * k, tilt: d * 14 * k, hop: 0 }; }
-    case 'stagger': { const k = sm((t - 0.45) / 0.12) * (1 - sm((t - 0.85) / 0.15)), w = t > 0.45 ? Math.sin((t - 0.45) * 30) * Math.exp(-(t - 0.45) * 5) : 0; return { dx: -d * 0.85 * k, tilt: -d * (13 * k + 8 * w), hop: 0.12 * Math.max(0, w) }; }
+    case 'stagger': { const k = sm((t - 0.45) / 0.12) * (1 - sm((t - 0.85) / 0.15)), w = t > 0.45 ? Math.sin((t - 0.45) * 30) * Math.exp(-(t - 0.45) * 5) : 0; return { dx: -d * 0.45 * k, tilt: -d * (14 * k + 8 * w), hop: 0.12 * Math.max(0, w) }; }
     case 'hug': { const k = sm((t - 0.25) / 0.2) * (1 - sm((t - 0.85) / 0.15)); return { dx: d * 0.95 * k, tilt: d * 7 * k, hop: 0.03 * k * Math.abs(Math.sin(t * 30)) }; }   /* ABRACO: os dois andam um ate o outro e ficam colados, inclinados */
     case 'shiver': return { dx: 0.035 * Math.sin(f * 2.4), tilt: 1.5 * Math.sin(f * 1.9), hop: 0 };   /* FRIO: tremendo */
     case 'hop': return { dx: 0, tilt: 0, hop: 0.3 * Math.abs(Math.sin(t * Math.PI * 2 * n)) };
@@ -130,7 +133,15 @@ const PO = (f, a, seed, exo = {}) => { const mode = a.pose || 'stand'; const bas
   return { mode, phase: 0, ...base }; };
 export const actorsAt = (f, T) => {
   const S = SP(f), out = []; const tint = ['tense', 'dusk', 'grave'].includes(S.light) ? '#ffd9c0' : S.light === 'storm' ? '#c8d4e8' : S.light === 'night' ? '#e4e9fb' : '#ffffff';
-  (S.actors || []).forEach((a, i) => { if (a.a !== undefined && (f < a.a || f > a.b)) return; const seed = a.seed ?? (i * 7 + 3); const at = moveAt(a.at, a.move, f); let x = at[0]; const z = at[1]; const IN = interAt(a, f); if (IN) x += IN.dx; const moving = a.move && f >= a.move[1] && f <= a.move[2];
+  (S.actors || []).forEach((a, i) => { if (a.a !== undefined && (f < a.a || f > a.b)) return; const seed = a.seed ?? (i * 7 + 3); let _curAt = a.at, _curMv = a.move, _mvPose = null;
+    if (a.moves && a.moves.length) {
+      for (const mv_ of a.moves) {
+        if (f < mv_[1]) break;
+        if (f <= mv_[2]) { _curMv = mv_; _mvPose = mv_[4] || null; break; }
+        _curAt = mv_[0]; _curMv = null;
+      }
+    }
+    const at = moveAt(_curAt, _curMv, f); let x = at[0]; const z = at[1]; const IN = interAt(a, f); if (IN) x += IN.dx; const moving = _curMv && f >= _curMv[1] && f <= _curMv[2];
     const exc = ['laugh', 'grin', 'shock'].includes(typeof a.expr === 'function' ? a.expr(f) : a.expr) ? 0.07 : 0; const bob = a.pose === 'cheer' ? Math.abs(Math.sin(f * 0.4 + seed * 1.3)) * 0.2 : a.pose === 'dance' ? Math.abs(Math.sin(f * 0.36 + seed * 1.7)) * 0.16 : (a.bobY || exc) ? Math.abs(Math.sin(f * (a.bobY ? 0.4 : 0.33) + seed)) * (a.bobY || exc) : 0;
     if (is3(a)) return;
     if (a.animal) { const st = typeof a.state === 'function' ? a.state(f) : (a.state || 'stand'); const o = { species: a.animal, state: st, phase: qq(((f * (a.spd || 0.03) + seed * 0.1) % 1), 2), blink: blinkAt(f, seed) > 0 ? 1 : 0, ear: qq(Math.sin(f / 30 * 5 + seed), 1), tail: qq(Math.sin(f / 30 * 8 + seed) * 0.5, 1), expr: a.expr || 'normal', fall: qq(a.fall ? a.fall(f) : (st === 'fall' ? (() => { let k_ = 0; while (k_ < 9 && typeof a.state === 'function' && a.state(f - k_ - 1) === 'fall') k_++; return typeof a.state === 'function' ? (k_ + 1) / 10 : 1; })() : 0), 2),   /* 19/11: estado 'fall' sem curva = o bicho CAI de verdade (deitado, patas para cima), nao fica em pe com olho de X */ t: qq(f / 30 + seed, 2), angel: !!a.angel };
@@ -142,19 +153,61 @@ export const actorsAt = (f, T) => {
     if (o.faceId === undefined) { let h = 0; for (const ch of String(o._id || '')) h = (h * 31 + ch.charCodeAt(0)) % 997; o = { ...o, faceId: (h + (a.v ?? 0) * 3 + (a.seed ?? 0) * 5) % 8 }; }   /* rosto proprio por personagem (estavel entre as cenas) */
     const persons = (S.actors || []).filter((q) => q.outfit && !(q.a !== undefined && (f < q.a || f > q.b)));
     const ac = (SPEC.acting === false || a.acting === false) ? null : actFor(f, a, i, S, persons, seed);
-    const opts = PO(f, moving && !a.pose ? { ...a, pose: a.walk || 'stroll' } : a, seed, { ...(a.opts || {}), ...(ac || {}) });
+    const opts = PO(f, moving ? { ...a, pose: _mvPose || a.walk || a.pose || 'stroll' } : a, seed, { ...(a.opts || {}), ...(ac || {}) });
     /* CAMINHADA NATURAL: quem atravessa a tela e' desenhado de perfil, com o ciclo de passos completo (pernas e bracos alternando) */
-    const sideW = (moving && a.move && a.move[0] && a.sideWalk !== false && (opts.mode === 'march' || opts.mode === 'stroll') && Math.abs(a.move[0][0] - a.at[0]) > 1.2 * Math.abs(a.move[0][1] - a.at[1])) ? Math.sign(a.move[0][0] - a.at[0]) : 0;
-    if (a.gests) for (const g_ of a.gests) if (f >= g_[0] && f <= g_[1]) { const k_ = Math.min(1, (f - g_[0]) / 5, (g_[1] - f) / 5 + 0.2); opts.gest = g_[2]; opts.gk = qq(Math.max(0, k_), 2); opts.gt = qq((f - g_[0]) / 30, 2); opts._gx = 1; }   /* ENCENACAO: gesto da acao na palavra da narracao (mexer, despejar, jogar, martelar...) */
-    if (a.poses) for (const p_ of a.poses) if (f >= p_[0] && f <= p_[1]) { if (p_[2] === 'kneel') { opts.mode = 'kneel'; opts.gest = 'plead'; opts.gk = 1; opts.gt = qq((f - p_[0]) / 30, 2); continue; } opts.gest = null; if (p_[2] === 'fall') { opts._fall = qq(Math.min(1, (f - p_[0]) / 7), 2); opts.blink = true; continue; }   /* 19/11 ZERO RESSALVA: CAIU/MORREU = o corpo TOMBA e fica deitado no chao (antes so abria as pernas e parecia em pe) */ if (p_[2] === 'sleep') { opts.mode = 'sit'; opts.blink = true; opts.expr = 'bored'; } else opts.mode = p_[2]; }   /* ENCENACAO: caiu no chao / dormindo / sentou NA PALAVRA */
-    if (opts.gest && o.rifle && !opts._gx && a.pose !== 'cheer' && a.pose !== 'dance' && a.pose !== 'react' && a.pose !== 'eat') opts.gest = null;   /* 19/11: quem segura a ARMA nao a solta por gesto automatico de atuacao (so por gesto da acao da narracao); 20/11: COMEMORAR/DANCAR do roteiro vale tambem para soldado (festa sem bracos nao aparecia) */
-    if (opts.gest && (opts.gk || 0) > 0.2 && o.rifle) o = { ...o, rifle: false };
+    const sideW = (moving && _curMv && _curMv[0] && a.sideWalk !== false && (opts.mode === 'march' || opts.mode === 'stroll' || opts.mode === 'run') && Math.abs(_curMv[0][0] - _curAt[0]) > 1.2 * Math.abs(_curMv[0][1] - _curAt[1])) ? Math.sign(_curMv[0][0] - _curAt[0]) : 0;
+    // v9: MULTI-ACAO COM CORPO INTEIRO (ramp-in rapido de 3 frames + inclinacao + avanco + pulo)
+    let _gDx = 0, _gHop = 0, _gTilt = 0;
+    if (a.gests) {
+      let _actG = null;
+      for (const g_ of a.gests) if (f >= g_[0] && f <= g_[1]) _actG = g_;
+      if (_actG) {
+        const dur_ = Math.max(6, _actG[1] - _actG[0]), el_ = f - _actG[0], rem_ = _actG[1] - f;
+        const k_ = Math.min(1, el_ / 3, rem_ / 4 + 0.25);
+        opts.gest = _actG[2]; opts.gk = qq(Math.max(0, k_), 2); opts.gt = qq(el_ / 30, 2); opts._gx = 1;
+        const _gd = a.flip ? -1 : 1, _pu = Math.sin(Math.min(1, el_ / 14) * Math.PI);
+        if (_actG[2] === 'punch') { _gDx = _gd * 0.58 * _pu; _gTilt = _gd * 17 * _pu; _gHop = 0.10 * _pu; opts.speedLines = _pu > 0.35; opts.fx = { ...(opts.fx || {}), rage: 1 }; }
+        else if (_actG[2] === 'push') { _gDx = _gd * 0.52 * _pu; _gTilt = _gd * 15 * _pu; opts.speedLines = _pu > 0.35; opts.fx = { ...(opts.fx || {}), rage: 1 }; }
+        else if (_actG[2] === 'up') { _gHop = 0.22 * Math.abs(Math.sin(el_ * 0.45)) * k_; _gTilt = 6 * Math.sin(el_ * 0.38) * k_; }
+        else if (_actG[2] === 'throw' || _actG[2] === 'hammer') { _gTilt = _gd * (-8 + 20 * Math.min(1, el_ / 10)) * k_; }
+        else if (_actG[2] === 'scared') { _gDx = -_gd * 0.35 * _pu; _gTilt = -_gd * 12 * _pu; _gHop = 0.12 * _pu; }
+      }
+    }
+    x += _gDx;
+    if (a.poses) for (const p_ of a.poses) if (f >= p_[0] && f <= p_[1]) {
+      if (p_[2] === 'kneel') { opts.mode = 'kneel'; opts.gest = 'plead'; opts.gk = 1; opts.gt = qq((f - p_[0]) / 30, 2); continue; }
+      opts.gest = null;
+      if (p_[2] === 'fall') { const _ft = Math.min(1, (f - p_[0]) / 6); opts._fall = qq(_ft, 2); opts.blink = true; opts.expr = 'pained'; _gHop = _ft < 1 ? 0.18 * Math.sin(_ft * Math.PI) : 0; continue; }
+      if (p_[2] === 'sleep') { opts.mode = 'sit'; opts.blink = true; opts.expr = 'bored'; } else opts.mode = p_[2];
+    }
+    if (opts.gest && o.rifle && !opts._gx) opts.gest = null;
+    if (opts.gest && (opts.gk || 0) > 0.2 && o.rifle && !['point', 'up'].includes(opts.gest)) o = { ...o, rifle: false };
     delete opts._gx;
-    if (IN) opts.tilt = qq((opts.tilt || 0) + IN.tilt, 0);
-    if (S.shots && o.rifle && persons.filter((q) => { const oo = typeof q.outfit === 'object' ? q.outfit : OUT[q.outfit](q.v ?? 0, q.over || {}); return oo.rifle; })[0] === a) { let am = 0; for (const t of S.shots) am = Math.max(am, f >= t - 14 && f <= t + 16 ? Math.min(1, (f - (t - 14)) / 8, (t + 16 - f) / 8 + 0.35) : 0); if (am > 0) { opts.aim = qq(am, 1); opts.gest = null; } }   /* quem atira aponta a arma um pouco antes do tiro e segura um instante depois */
+    if (IN || _gTilt) opts.tilt = qq((opts.tilt || 0) + (IN ? IN.tilt : 0) + _gTilt, 0);
+    // v9: Mira antecipada (16 frames antes) + recuo fisico no disparo + qualquer soldado armado mira
+    if (S.shots && o.rifle) { let am = 0, rec = 0; for (const t of S.shots) { am = Math.max(am, f >= t - 16 && f <= t + 16 ? Math.min(1, (f - (t - 16)) / 6, (t + 16 - f) / 6 + 0.35) : 0); if (f >= t && f <= t + 6) rec = Math.max(rec, 1 - (f - t) / 6); } if (am > 0) { opts.aim = qq(am, 1); opts.gest = null; opts.tilt = qq((opts.tilt || 0) - 11 * rec, 0); x -= (a.flip ? -1 : 1) * 0.22 * rec; if (opts.expr === 'angry' || opts.expr === 'shout') opts.fx = { ...(opts.fx || {}), rage: 1 }; } }
     if (o.hold) opts.hp = qq(Math.max(0, Math.sin(f * 0.075 + seed * 2)), 1);   /* usa o objeto de tempos em tempos */
     const _fl = opts._fall; delete opts._fall;
-    out.push(B(T, o, opts, [x, DECK + (typeof a.y === 'function' ? a.y(f) : (a.y || 0)) + bob + (IN ? IN.hop : 0), z], { id: a.id || o._id, tint, s: (a.s || 1) * (SPEC.cs ?? 1.4) * (1 + 0.07 * (opts.lean || 0)), flip: sideW ? sideW < 0 : !!a.flip, ...(a.roll !== undefined ? { roll: typeof a.roll === 'function' ? a.roll(f) : a.roll } : {}), ...(_fl ? { roll: -1.45 * M.easeIn(_fl) * (a.flip ? -1 : 1) } : {}), ...(a.shadow === false ? { shadow: false, blob: false } : {}), ...(sideW ? { sideWalk: sideW } : {}), ...(a.crop ? { crop: a.crop, shadow: false, blob: false } : {}) })); });
+    out.push(B(T, o, opts, [x, DECK + (typeof a.y === 'function' ? a.y(f) : (a.y || 0)) + (a.yFns ? a.yFns.reduce((acc, fn) => acc + fn(f), 0) : 0) + bob + _gHop + (IN ? IN.hop : 0), z], { id: a.id || o._id, _mv: !!moving, _ia: !!IN || !!(Array.isArray(a.gests) && a.gests.some((g_) => Array.isArray(g_) && ['reach', 'hug'].includes(g_[2]) && f >= g_[0] - 6 && f <= g_[1] + 6)), _nc: !!(a.crop || a.nocol || a.carried), tint, s: (a.s || 1) * (SPEC.cs ?? 1.4) * (1 + 0.07 * (opts.lean || 0)), flip: sideW ? sideW < 0 : !!a.flip, ...(a.roll !== undefined ? { roll: typeof a.roll === 'function' ? a.roll(f) : a.roll } : {}), ...(_fl ? { roll: -1.45 * M.easeIn(_fl) * (a.flip ? -1 : 1) } : {}), ...(a.shadow === false ? { shadow: false, blob: false } : {}), ...(sideW ? { sideWalk: sideW } : {}), ...(a.crop ? { crop: a.crop, shadow: false, blob: false } : {}) })); });
+  /* FISICA (23/11, ordem do Gibson): ninguem atravessa ninguem nem o cenario. Cada boneco tem um "corpo" (raio); quem se sobrepoe e' afastado.
+     Parado: afasta para o lado. Andando: passa NA FRENTE ou ATRAS do outro (desvia em profundidade), nunca por dentro. Objetos solidos no chao empurram o boneco para fora. */
+  if (SPEC.fisica !== false) {
+    const P = out.filter((q) => q.order !== 5 && q.order !== 2 && !q._nc && q.z !== undefined && Math.abs((q.y ?? DECK) - DECK) < 1.5);
+    const R = (q) => 0.34 * (q.s || 1.4);
+    const OB = [];
+    for (const p of (S.props || [])) { if (p.a !== undefined && (f < p.a || f > p.b)) continue; const nm = String(p.asset || '');
+      if (p.carregado || p.nocol || /^(kit\/room|buildings\/|ship|boat|kit\/marco|kit\/rg_|kit\/ring|kit\/porch|kit\/hospital_ext|kit\/prison|kit\/stadium|kit\/tulip_bed|kit\/grave|kit\/cross|nature\/|vehicles\/plane|kit\/falcon|kit\/rocket|kit\/tower|kit\/volcano)/.test(nm)) continue;
+      const pos = moveAt(p.at, p.move, f); const yy = typeof p.y === 'function' ? p.y(f) : (p.y ?? DECK); if (yy - DECK > 1.6) continue;
+      const ps = typeof p.s === 'function' ? p.s(f) : (p.s || 1); const rv = /carro|roadster|cybertruck|truck|taxi|jeep|car\b|car_/.test(nm) ? 1.1 : /^mk\//.test(nm) ? 0.3 : 0.5;
+      OB.push([pos[0], pos[1], rv * ps]); }
+    for (let it = 0; it < 4; it++) {
+      for (let i = 0; i < P.length; i++) for (let j = i + 1; j < P.length; j++) { const A = P[i], Q = P[j]; const dx = Q.x - A.x, dz = Q.z - A.z, d = Math.hypot(dx, dz); const md = (R(A) + R(Q)) * ((A._ia || Q._ia) ? 0.4 : 1); if (d >= md) continue; const push = (md - d) / 2;
+        if (A._mv || Q._mv) { const sz = dz !== 0 ? Math.sign(dz) : (i % 2 ? 1 : -1); A.z -= sz * push; Q.z += sz * push; }
+        else { const sx = dx !== 0 ? Math.sign(dx) : (j % 2 ? 1 : -1); A.x -= sx * push; Q.x += sx * push; } }
+      for (const q of P) for (const [ox, oz, orr] of OB) { const dx = q.x - ox, dz = q.z - oz, md = R(q) + orr, d = Math.hypot(dx, dz); if (d >= md) continue;
+        if (q._mv) q.z += (dz >= 0 ? 1 : -1) * (md - d); else q.x += (dx >= 0 ? 1 : -1) * (md - d); }
+    }
+  }
   return out;
 };
 // ---------- 2D effects ----------

@@ -14,7 +14,7 @@
    "jacket": "#5d6a3a",
    "pants": "#4a5a2a",
    "boots": "#2a2218",
-   "hat": "helmet",
+   "hat": "brodie",
    "rifle": true
   },
   "CID": {
@@ -22,7 +22,7 @@
    "jacket": "#8a5a34",
    "pants": "#3b3f52",
    "boots": "#2a2218",
-   "hat": "cap",
+   "hat": "slouch",
    "cap": "#3b3f52"
   },
   "GEN": {
@@ -30,7 +30,7 @@
    "jacket": "#4a5a3a",
    "pants": "#3b3f52",
    "boots": "#1b1b1f",
-   "hat": "cap",
+   "hat": "quepe",
    "cap": "#4a5a3a"
   },
   "PRE": {
@@ -48,8 +48,7 @@
    "hats": [
     "bowler",
     "hair",
-    "beret",
-    "cap"
+    "slouch"
    ]
   }
  },
@@ -57,7 +56,7 @@
   {
    "shot": "two",
    "set": "street",
-   "hora": "pordosol",
+   "hora": "noite",
    "who": [
     "SOL:0:shock",
     "CID:0:scared"
@@ -83,7 +82,7 @@
   {
    "shot": "reveal",
    "set": "street",
-   "hora": "pordosol",
+   "hora": "noite",
    "who": [
     "CID:0:nervous",
     "CID:1:scared"
@@ -113,7 +112,7 @@
   {
    "shot": "two",
    "set": "harbor",
-   "hora": "pordosol",
+   "hora": "noite",
    "who": [
     "SOL:0:stern",
     "CID:0:shock"
@@ -136,8 +135,8 @@
   },
   {
    "shot": "crowd",
-   "set": "street",
-   "hora": "pordosol",
+   "set": "mountain",
+   "hora": "noite",
    "who": [
     "SOL:0:shout",
     "SOL:1:angry"
@@ -175,18 +174,18 @@
   {
    "shot": "two",
    "set": "harbor",
-   "hora": "amanhecer",
+   "hora": "noite",
    "who": [
     "SOL:0:shout",
     "GEN:0:surprised"
    ],
    "acao": "discutir",
-   "say": "\"É um inimigo!\", gritou um soldado. Acontece que não havia nada ali, só nuvens e fumaça."
+   "say": "Os soldados juravam que havia inimigos no céu. Acontece que não havia nada ali, só nuvens e fumaça."
   },
   {
    "shot": "crowd",
    "set": "street",
-   "hora": "amanhecer",
+   "hora": "noite",
    "who": [
     "CID:0:scared",
     "CID:1:cry"
@@ -254,5 +253,32 @@
   }
  ],
  "cinf": 4.5,
- "exp": 1.12
+ "exp": 1.12,
+ "visual": {
+  "local": "Los Angeles (California): ruas do centro com predios dos anos 1940, baterias antiaereas na costa e nos morros, holofotes cruzando o ceu",
+  "quando": "madrugada de 24 para 25 de fevereiro de 1942 (sirenes as 2h25, tiros das 3h16 as 4h14, fim do alerta as 7h21); vespera: submarino japones I-17 atacou Ellwood no fim da tarde de 23/fev",
+  "participantes": [
+   "artilharia antiaerea do Exercito dos EUA",
+   "moradores de Los Angeles",
+   "militares e politicos no dia seguinte"
+  ],
+  "roupas": {
+   "SOL": "soldado americano de 1942: uniforme verde-oliva, capacete M1917 (Brodie)",
+   "GEN": "oficial com quepe de servico",
+   "CID": "morador de 1942: paleto e chapeu de aba",
+   "PRE": "politico de terno escuro e chapeu-coco",
+   "POV": "moradores de casaco e chapeu dos anos 40"
+  },
+  "cenario": "cidade no apagao a noite, fachos de holofote se cruzando no ceu, explosoes de fumaca dos tiros antiaereos, estilhacos caindo nas ruas",
+  "objetos": [
+   "holofotes antiaereos",
+   "canhoes antiaereos",
+   "sirenes",
+   "jornal do dia seguinte"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Battle_of_Los_Angeles",
+   "https://commons.wikimedia.org/wiki/File:Battle_of_Los_Angeles_LA_Times_photo.jpg"
+  ]
+ }
 }

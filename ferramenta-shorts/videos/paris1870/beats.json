@@ -10,7 +10,11 @@
    "jacket": "#6a5a7a",
    "pants": "#3b3f52",
    "boots": "#4a3426",
-   "hat": "cap",
+   "hats": [
+    "bowler",
+    "tophat",
+    "kepi"
+   ],
    "cap": "#2a2a3a",
    "moustache_on": "#3a2a1f"
   },
@@ -18,8 +22,8 @@
    "jacket": "#f1efe6",
    "pants": "#4a3a2a",
    "boots": "#2a2218",
-   "hat": "cap",
-   "cap": "#f1efe6",
+   "hat": "slouch",
+   "cap": "#3a2a1f",
    "moustache_on": "#3a2a1f",
    "build": "stout"
   },
@@ -50,21 +54,10 @@
     "ALE:0:stern",
     "ALE:1:stern"
    ],
-   "crowd": {
-    "n": 22,
-    "outfits": [
-     "ALE"
-    ],
-    "march": true
-   },
-   "text": "PARIS CERCADA",
-   "titulo": true,
-   "impact": true,
-   "detalhe": false,
-   "tiros": false,
-   "verbos_ok": [
-    "entra"
-   ]
+   "text": "1870",
+   "tat": 0,
+   "tstyle": "blue",
+   "hora": "pordosol"
   },
   {
    "say": "Primeiro, os parisienses comeram os cavalos. Depois, os cachorros e os gatos.",
@@ -188,44 +181,23 @@
     "PAR:3:nervous",
     "PAR:2:pained"
    ],
-   "crowd": {
-    "n": 10,
-    "outfits": [
-     "PAR"
-    ],
-    "march": false
-   },
+   "mood": "tense",
    "animals": [
     [
      "elephant",
      3.0,
-     -7.0
+     -2.6,
+     "stand",
+     0.9
     ],
     [
-     "elephant",
-     -3.4,
-     -8.0
-    ]
-   ],
-   "props": [
-    [
-     "mk/Cage_Small",
+     "deer",
+     -3.2,
      -2.2,
-     -4.0,
-     2.0
-    ],
-    [
-     "nature/picket_fence",
-     0.0,
-     -3.0,
-     1.6
+     "stand",
+     1.0
     ]
-   ],
-   "text": "ZOOLÓGICO",
-   "detalhe": false,
-   "objetos": false,
-   "impact": true,
-   "tiros": false
+   ]
   },
   {
    "say": "O açougueiro comprou dois elefantes, Castor e Pólux, e vendeu a carne em pedaços.",
@@ -264,11 +236,28 @@
     ]
    ],
    "text": "CASTOR E PÓLUX",
-   "detalhe": false,
-   "objetos": false
+   "tat": 6,
+   "tstyle": "gold",
+   "animals": [
+    [
+     "elephant",
+     3.2,
+     -2.4,
+     "stand",
+     0.9
+    ],
+    [
+     "elephant",
+     -3.4,
+     -2.8,
+     "stand",
+     0.85
+    ]
+   ],
+   "clima": "neve"
   },
   {
-   "say": "No Natal, um restaurante famoso serviu consomê de elefante, dromedário assado e ensopado de canguru.",
+   "say": "No Natal, o restaurante Voisin serviu consomê de elefante, ensopado de canguru e pernil de lobo.",
    "shot": "two",
    "shot_lock": true,
    "interior": "loja",
@@ -277,66 +266,16 @@
     "PAR:2:shock",
     "PAR:1:smile"
    ],
-   "acao": "comer",
-   "humanos_comem": true,
-   "props": [
-    [
-     "mk/Table_Large",
-     0.0,
-     2.6,
-     1.8
-    ],
-    [
-     "kit/panela",
-     -1.1,
-     2.6,
-     0.8,
-     {
-      "y": 1.55,
-      "fixo": true
-     }
-    ],
-    [
-     "mk/Table_Plate",
-     0.0,
-     2.6,
-     1.6,
-     {
-      "y": 1.55
-     }
-    ],
-    [
-     "mk/Table_Plate",
-     1.1,
-     2.6,
-     1.6,
-     {
-      "y": 1.55
-     }
-    ],
-    [
-     "kit/elefante",
-     1.1,
-     2.6,
-     0.3,
-     {
-      "y": 1.55,
-      "fixo": true
-     }
-    ]
-   ],
-   "text": "ELEFANTE · DROMEDÁRIO · CANGURU",
-   "detalhe": false,
-   "objetos": false,
-   "animais": false,
-   "animals": [],
-   "riscos_ok": true
+   "text": "NATAL DE 1870",
+   "tat": 3,
+   "tstyle": "brown",
+   "mood": "playful",
+   "interior": "loja",
+   "clima": "neve"
   },
   {
-   "say": "Tinha até gato com roedores, e pernil de lobo.",
-   "shot": "two",
-   "shot_lock": true,
-   "interior": "loja",
+   "say": "Tinha até gato servido com roedores em volta.",
+   "shot": "close",
    "who": [
     "PAR:3:shock",
     "PAR:0:shock"
@@ -399,8 +338,9 @@
     ]
    ],
    "text": "GATO COM RATOS",
-   "detalhe": false,
-   "objetos": false
+   "tat": 4,
+   "tstyle": "red",
+   "clima": "neve"
   },
   {
    "say": "Para mandar notícias, os parisienses usavam balões e pombos-correio.",
@@ -458,8 +398,18 @@
     }
    ],
    "text": "BALÕES E POMBOS",
-   "detalhe": false,
-   "objetos": false
+   "tat": 6,
+   "tstyle": "blue",
+   "mood": "calm",
+   "clima": "neve",
+   "props": [
+    [
+     "kit/balloon_air",
+     2.6,
+     -6.0,
+     1.2
+    ]
+   ]
   },
   {
    "say": "O cerco acabou em janeiro de mil oitocentos e setenta e um, e Paris se rendeu, de barriga vazia.",
@@ -481,10 +431,39 @@
     "expr": "pained"
    },
    "text": "PARIS SE RENDEU",
-   "detalhe": false,
-   "objetos": false
+   "tat": 10,
+   "tstyle": "white",
+   "mood": "calm",
+   "clima": "neve"
   }
  ],
- "heroi": null,
- "exp": 1.0
+ "heroi": "kit/panela",
+ "regiao": "franca",
+ "visual": {
+  "local": "Paris sitiada: bulevares de Haussmann com predios de pedra clara, lampioes a gas; Jardin des Plantes (zoologico); restaurante Voisin (salao elegante)",
+  "quando": "19 de setembro de 1870 a 28 de janeiro de 1871 (Natal de 1870 com neve e frio forte)",
+  "participantes": [
+   "parisienses famintos",
+   "Guarda Nacional de quepe",
+   "o acougueiro Deboos da Boucherie Anglaise",
+   "o chef do Cafe Voisin",
+   "os elefantes Castor e Polux"
+  ],
+  "roupas": {
+   "PAR": "parisienses de 1870: casaco, cartola, chapeu-coco ou quepe da Guarda Nacional",
+   "BUT": "acougueiro de avental branco",
+   "CHF": "dono de restaurante de fraque e cartola"
+  },
+  "cenario": "rua de Paris com neve no inverno, fila no acougue, zoologico com os elefantes, salao de restaurante, baloes subindo com noticias",
+  "objetos": [
+   "panelas e o cardapio do Natal",
+   "carne de elefante no acougue",
+   "baloes de gas",
+   "pombos-correio"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Siege_of_Paris_(1870%E2%80%931871)",
+   "https://en.wikipedia.org/wiki/Castor_and_Pollux_(elephants)"
+  ]
+ }
 }
