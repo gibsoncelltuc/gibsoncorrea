@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 25 - O Carro que Voou de Cabeça para Baixo
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback | 12 cenas, 183 palavras (~63 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback | 12 cenas, 179 palavras (~62 s)
 
 ## Cena b0  (~7.2 s)
 - Narracao: Elon Musk prometeu um carro que voa. Em outubro de dois mil e vinte e seis, ele mostrou o que conseguiu.
@@ -40,39 +40,39 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 
 ## Cena b4  (~6.9 s)
 - Narracao: Acontece que, na frente da plateia, o carro acelerou, subiu uma rampa curva gigante e ficou de cabeça para baixo.
-- Som ambiente: birds | batalha: tiros e gritos a cena inteira
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: x_dirige (point) @8 -> acao + som de efeito; encena: escala (lift) @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: VIRADA
 
-## Cena b5  (~5.5 s)
-- Narracao: Então se soltou, voou girando no ar e pousou no chão numa nuvem de fumaça branca.
-- Som ambiente: birds | batalha: tiros e gritos a cena inteira
+## Cena b5  (~4.8 s)
+- Narracao: Então se soltou, voou girando no ar e pousou numa nuvem de fumaça branca.
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_solta (up) @2 -> acao + som de efeito; encena: voa (point) @3 -> acao + som de efeito; encena: x_desce @8 -> acao + som de efeito; encena: tomba @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_solta (up) @2 -> acao + som de efeito; encena: voa (point) @3 -> acao + som de efeito; encena: x_desce (point) @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b6  (~4.5 s)
 - Narracao: Musk comemorou no palco, e tudo foi transmitido ao vivo na rede X.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; encena: vence (up) @1 -> acao + som de efeito; encena: x_pesca (lift) @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; encena: vence (up) @1 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~5.2 s)
-- Narracao: Mas especialistas lembraram: aquilo foi um salto de poucos segundos, não um voo de verdade.
-- Som ambiente: silencio/sala
+## Cena b7  (~4.5 s)
+- Narracao: Mas especialistas lembraram: aquilo durou poucos segundos, não foi um voo de verdade.
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: pula @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b8  (~4.8 s)
 - Narracao: Segundo a Tesla, ele vai de zero a cem em menos de um segundo.

@@ -44,22 +44,22 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - Acontece que, na frente da plateia, o carro acelerou, subiu uma rampa ...
 - Cenario: outback | luz: noite | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): POV (variante 0, expressao surprised); POV (variante 1, expressao shock); MUS (variante 0, expressao grin) | multidao: 30 de POV
-- Animacao: reagir | batalha encenada
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): MUS (variante 0, expressao grin) | multidao: 30 de POV
+- Animacao: encena
 - Objetos/modelos: kit/roadster26, kit/torre_luz, kit/tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabeca, carro, frente, plateia, rampa
 - RISCOS: nenhum
 
-## Cena b5 - Então se soltou, voou girando no ar e pousou no chão numa nuvem de fum...
+## Cena b5 - Então se soltou, voou girando no ar e pousou numa nuvem de fumaça bran...
 - Cenario: outback | luz: noite | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (1): ENA (variante 0, expressao shock) | multidao: 10 de POV
-- Animacao: reagir | batalha encenada
+- Personagens principais (1): ENA (variante 0, expressao shock)
+- Animacao: reagir
 - Objetos/modelos: kit/roadster26, kit/torre_luz, kit/tower
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chao, fumaca
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fumaca
 - RISCOS: nenhum
 
 ## Cena b6 - Musk comemorou no palco, e tudo foi transmitido ao vivo na rede X.
@@ -72,22 +72,22 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): palco, rede
 - RISCOS: nenhum
 
-## Cena b7 - Mas especialistas lembraram: aquilo foi um salto de poucos segundos, n...
+## Cena b7 - Mas especialistas lembraram: aquilo durou poucos segundos, não foi um ...
 - Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): ENG (variante 0, expressao suspicious); ENA (variante 0, expressao bored)
-- Animacao: conversar | interacao: aproxima-se
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (2): ENG (variante 0, expressao suspicious); ENA (variante 0, expressao bored) | multidao: 12 de POV
+- Animacao: - | batalha encenada
 - Objetos/modelos: kit/tower
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): poucos, salto
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
 ## Cena b8 - Segundo a Tesla, ele vai de zero a cem em menos de um segundo.
 - Cenario: street | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ENG (variante 0, expressao grin, segura paper); POV (variante 0, expressao surprised)
-- Animacao: conversar | interacao: avanca e o outro recua
+- Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/roadster26, kit/tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): tesla, zero
 - RISCOS: nenhum
@@ -134,8 +134,8 @@ kit/rampa_curva | b1 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/roadster26 | grandes momentos: b4, b5 | planos abertos: 2 | mistura: close 16% | medio 71% | aberto 9% | detalhe 5%
-- Interacoes: b0 insiste, b2 vai ate o outro, b3 cochichar, b6 pular, b7 aproxima-se, b8 avanca e o outro recua
+- Objeto heroi: kit/roadster26 | grandes momentos: b7 | planos abertos: 3 | mistura: close 15% | medio 61% | aberto 19% | detalhe 5%
+- Interacoes: b0 insiste, b2 vai ate o outro, b3 cochichar, b6 pular, b8 aproxima-se
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

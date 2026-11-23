@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: A Morte Branca
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: tense | Cenario base: arctic | 9 cenas, 152 palavras (~52 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: tense | Cenario base: arctic | 10 cenas, 168 palavras (~58 s)
 
 ## Cena b0  (~6.2 s)
 - Narracao: Inverno de mil novecentos e trinta e nove. A União Soviética invadiu a Finlândia, com um exército enorme.
@@ -20,11 +20,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: tense | Cenario base: arctic | 9
 - Texto na tela: -40 °C | mapa: FINLÂNDIA
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~3.1 s)
-- Narracao: Um deles era um fazendeiro baixinho chamado Simo Häyhä.
+## Cena b2  (~3.8 s)
+- Narracao: Um deles era um homem do campo, baixinho, chamado Simo Häyhä.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: fala (point) @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: SIMO HÄYHÄ
 - Funcao na historia: desenvolvimento
@@ -47,8 +47,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: tense | Cenario base: arctic | 9
 - Texto na tela: NEVE NA BOCA
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~7.2 s)
-- Narracao: Em cerca de cem dias, ele teve mais de quinhentos inimigos confirmados, com uma carabina de mira de ferro, sem luneta.
+## Cena b5  (~7.6 s)
+- Narracao: Em cerca de cem dias, contam mais de quinhentos inimigos abatidos por ele, com um fuzil de mira de ferro, sem luneta.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -81,5 +81,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: tense | Cenario base: arctic | 9
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: SÓ FEZ O SEU TRABALHO
+- Funcao na historia: desenvolvimento
+
+## Cena b9  (~4.5 s)
+- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: COMENTE!
 - Funcao na historia: FECHO/PIADA FINAL
 
