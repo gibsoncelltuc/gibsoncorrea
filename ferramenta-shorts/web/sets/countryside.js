@@ -9,12 +9,12 @@ SETDEF.countryside = (X) => {
   // hill with trees for the spy
   const hill = add(new THREE.SphereGeometry(1, 20, 12), MW.grass, X - 22, DECK - 0.2, -30, world); hill.scale.set(9, 3.4, 8);
   // hedgerows + oaks + pines
-  for (let i = 0; i < 34; i++) { const x = -52 + i * 3.1; add(new THREE.SphereGeometry(1.1 + (i % 3) * 0.2, 9, 7), toon({ color: ['#4a8a38', '#3f7a32', '#5a9a40'][i % 3] }), X + x, DECK + 0.6, -36, world).scale.y = 0.8; }
+  for (let i = 0; i < 34; i++) { const x = -52 + i * 3.1; add(new THREE.SphereGeometry(1.1 + (i % 3) * 0.2, 9, 7), toon({ color: ['#486630', '#3f5a2a', '#55733a'][i % 3] }), X + x, DECK + 0.6, -36, world).scale.y = 0.8; }
   const rf = P.rng(66); for (let i = 0; i < 26; i++) { const x = -70 + rf() * 140, z = -80 - rf() * 40; pineAt(X + x, DECK, z, 1.1 + rf() * 0.9); }
   for (let i = 0; i < 14; i++) { const sgn = i % 2 ? 1 : -1, x = sgn * (50 + rf() * 40), z = 20 + rf() * 40; const o = libInst('nature/tree_oak', X + x, DECK, z, rf() * 6, 1.1 + rf() * 0.5); o.userData.sw = rf() * 6; trees.push(o); }
   for (const [x, z, n] of [[22, -44, 'buildings/house_small'], [30, -46, 'buildings/house_two'], [40, -45, 'buildings/church'], [-50, -90, 'buildings/barn'], [-42, -92, 'buildings/windmill']]) libInst(n, X + x, DECK, z, 0.2, 1.4);
   for (let i = 0; i < 5; i++) libInst('nature/haybale', X + 30 + i * 2.6, DECK, 4 + (i % 2) * 3, rf() * 6, 1.2);
-  makeTufts(X, -10, 180, 100, 2600, ['#6fae43', '#5fa03a', '#86c456', '#7ab648'], (x, z) => !(z > 10.5 && z < 17.5) && !(z < -49 && z > -63), 0.5);
+  makeTufts(X, -4, 140, 80, 2200, ['#4d682d', '#5c7838', '#6b8542', '#3f5724', '#768c48'], (x, z) => !(z > 10.5 && z < 17.5) && !(z < -49 && z > -63), 0.5);
   farHills(X, -150, '#7d93b8', '#8aa0c4', 14, 260);
   // inflation yard: compressor + hose, tire tracks layer
   const yard = new THREE.Group(); world.add(yard); const comp = new THREE.Group(); comp.position.set(X + 3.4, DECK, 3.4); yard.add(comp); add(box(1.3, 0.9, 0.9), toon({ color: '#d9822b' }), 0, 0.7, 0, comp); add(new THREE.CylinderGeometry(0.28, 0.28, 0.16, 12), MW.dark, 0.6, 0.3, 0.5, comp).rotation.z = Math.PI / 2; add(new THREE.CylinderGeometry(0.28, 0.28, 0.16, 12), MW.dark, -0.6, 0.3, 0.5, comp).rotation.z = Math.PI / 2; add(box(0.9, 0.18, 0.5), MW.dark, 0, 1.25, 0, comp);
@@ -23,4 +23,5 @@ SETDEF.countryside = (X) => {
   const trk = []; for (const dx of [-0.95, 0.95]) { const m = add(box(0.5, 0.03, 1), toon({ color: '#4a3b2a' }), X + dx, DECK + 0.05, 8, world, { cast: false }); trk.push(m); }
   SETDEF._cs = { X, trk, yard };
   UPD.push((W, f, t) => { const k = SETDEF._cs; k.yard.visible = !!W.yard; const tr = W.tracks || 0; k.trk.forEach((m) => { m.scale.z = Math.max(0.001, tr * 14); m.position.z = 8 - 0 - tr * 7 + 7; m.visible = tr > 0.01; }); });
-};
+
+  };

@@ -54,6 +54,9 @@ def verifica(i):
                     break
         if b.get('hora') in LUZ:
             ctot += 1; (cok := cok + 1) if any(l_ in LUZ[b['hora']] for _, l_ in cs) else cfal.append(f"b{k} hora {b['hora']} (veio {cs[0][1]})")
+    # 3) v9: auditoria anti-falso-positivo (detecta Object.assign sobrescrevendo gests/poses/over)
+    if re.search(r'Object\.assign\([^)]*gests:[^)]*\),\s*\{\s*gests:', S):
+        falhas.append('CONFLITO: Object.assign sobrescrevendo gests!')
     return tot, ok, falhas, ctot, cok, cfal
 
 ids = sys.argv[1:] or sorted(os.path.basename(os.path.dirname(p)) for p in glob.glob('videos/*/beats.json') if 'teste' not in p)

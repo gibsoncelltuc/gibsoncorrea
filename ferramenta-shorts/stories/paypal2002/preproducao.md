@@ -4,17 +4,18 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | street | two | 2 | conversar, INTERAGEM: insiste | kit/coin | - | -
-b1 | countryside | reveal | 10 | conversar | kit/coin | - | -
-b2 | countryside | close | 1 | reagir | kit/coin | - | -
-b3 | mountain | reveal | 12 | batalha | - | - | -
-b4 | mountain | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/rocket, kit/roadster | - | -
+b0 | street | group | 3 | conversar, INTERAGEM: insiste | kit/coin | - | -
+b1 | interior madeira | two | 2 | conversar, INTERAGEM: entregar | kit/coin | - | -
+b2 | interior loja | two | 1 | reagir | kit/coin | - | -
+b3 | interior pedra | two | 2 | conversar, INTERAGEM: vai ate o outro | - | - | -
+b4 | outback | wide | 20 | conversar, batalha | kit/roadster, kit/rocket | - | -
 b5 | countryside | crowd | 12 | reagir, batalha | kit/rocket | - | -
-b6 | street | two | 3 | conversar, INTERAGEM: entregar | kit/coin, kit/rocket | - | -
+b6 | street | group | 3 | conversar, INTERAGEM: o outro se aproxima | kit/roadster, kit/coin, kit/rocket | - | -
+b7 | street | close | 1 | conversar | - | - | -
 
-OBJETO HEROI: kit/coin - aparece em 4 cena(s), close nele em 2
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b5
-Interacoes entre personagens: b0 insiste, b4 vai ate o outro, b6 entregar
+OBJETO HEROI: kit/roadster
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b5
+Interacoes entre personagens: b0 insiste, b1 entregar, b3 vai ate o outro, b6 o outro se aproxima
 
-Cenas com personagens parados: 0 de 7
+Cenas com personagens parados: 0 de 8
 FALTA MODELAR: nada

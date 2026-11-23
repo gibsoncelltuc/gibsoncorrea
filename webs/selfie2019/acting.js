@@ -31,8 +31,14 @@ const buildLead = () => {
     const main = keys.length ? keys[0].m : 'neutral';
     for (let f = Math.max(0, s - 2); f <= Math.min(TOTAL + 50, e + 6); f++) { const L = LEAD[f]; L.ph = pi; const cyc = (f - s + 400) % 52; L.alt = cyc >= 30 && cyc < 40; L.cam = f >= e - 22; L.start = f < s + 14; }
     keys.slice(0, 3).forEach((k) => { for (let f = k.f - 2; f <= k.f + 18; f++) { const L = LEAD[f]; if (!L) continue; L.key = k.m; const t = Math.min(1, (f - (k.f - 2)) / 5) * (1 - Math.max(0, (f - (k.f + 12)) / 7)); L.kk = Math.max(L.kk || 0, t); } });
-    if (keys.length || pi % 2 === 0) { const gk0 = keys.length ? keys[0].f : s + 8, gl = GMAP[main] || GMAP.neutral, g = gl[pi % gl.length];
-      for (let f = gk0 - 4; f <= gk0 + 34; f++) { const L = LEAD[f]; if (!L) continue; const t = (f - (gk0 - 4)) / 38; const ease = Math.min(1, t * 38 / 7, (1 - t) * 38 / 9); if (ease > (L.gk || 0)) { L.g = g; L.gk = ease; L.gt = f / 30; } } }
+    // v9: ate 3 gestos de atuacao por frase (um por palavra-chave, sem matar a 2a e 3a acao)
+    const gkeys = keys.length ? keys.slice(0, 3) : (pi % 2 === 0 ? [{ f: s + 8, m: main }] : []);
+    gkeys.forEach((gk_, gi_) => {
+      const gl = GMAP[gk_.m] || GMAP.neutral, g = gl[(pi + gi_) % gl.length];
+      const fEnd = gi_ + 1 < gkeys.length ? Math.min(gk_.f + 30, gkeys[gi_ + 1].f - 3) : gk_.f + 30;
+      const span = Math.max(12, fEnd - (gk_.f - 5));
+      for (let f = gk_.f - 5; f <= gk_.f - 5 + span; f++) { const L = LEAD[f]; if (!L) continue; const t = (f - (gk_.f - 5)) / span; const ease = Math.min(1, t * span / 4, (1 - t) * span / 5); if (ease > (L.gk || 0)) { L.g = g; L.gk = ease; L.gt = f / 30; } }
+    });
   });
 };
 const BLS = {};
