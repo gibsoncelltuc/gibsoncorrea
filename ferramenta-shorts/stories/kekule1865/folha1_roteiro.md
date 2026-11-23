@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 14 - O Químico que Sonhou com uma Cobra
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 12 cenas, 192 palavras (~66 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 13 cenas, 205 palavras (~71 s)
 
 ## Cena b0  (~5.9 s)
 - Narracao: Um dos maiores segredos da química foi resolvido num cochilo, e com a ajuda de uma cobra.
@@ -14,9 +14,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 ## Cena b1  (~4.5 s)
 - Narracao: Era mil oitocentos e sessenta e cinco, na cidade de Gante, na Bélgica.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: sting@10, thump@40
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: ring@12, dust@40
+- Efeito visual marcado: -
 - Texto na tela: - | mapa: BÉLGICA
 - Funcao na historia: GRANDE MOMENTO
 
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Os químicos desenhavam correntes retas, e nada fechava a conta. Era um quebra-cabeça de anos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
-- Efeito + som nas palavras-chave: encena: quimico (pour) @1 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: quimico (pour) @1 -> acao + som de efeito; encena: escreve (write) @2 -> acao + som de efeito; encena: empurra (push) @7 -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Passou o resto da noite desenhando o anel de seis carbonos. E a conta fechou.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: encena: x_abre (push) @14 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: escreve (write) @5 -> acao + som de efeito; encena: x_abre (push) @14 -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Os colegas ficaram de boca aberta. O anel explicava dezenas de substâncias de uma vez.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: fala (point) @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -90,16 +90,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; festa -> stars + som de sino; encena: vence (up) @6 -> acao + som de efeito; encena: fala (point) @14 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: FESTA
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b10  (~6.6 s)
 - Narracao: Até hoje há quem duvide da história. Mas o anel do benzeno virou base de remédios, tintas e plásticos.
-- Som ambiente: silencio/sala
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b11  (~4.1 s)
 - Narracao: E ele deixou um conselho: aprendam a sonhar. Mas confiram tudo acordados.
@@ -108,5 +108,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: SONHE
+- Funcao na historia: desenvolvimento
+
+## Cena b12  (~4.5 s)
+- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: COMENTE!
 - Funcao na historia: FECHO/PIADA FINAL
 

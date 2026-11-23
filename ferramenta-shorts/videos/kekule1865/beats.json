@@ -20,8 +20,8 @@
    "jacket": "#2a4a6a",
    "pants": "#2a2a30",
    "boots": "#1b1b1f",
-   "hat": "cap",
-   "cap": "#2a2a30"
+   "hat": "hair",
+   "hair": "#6a4a2a"
   },
   "COL": {
    "profissao": "cientista",
@@ -71,7 +71,8 @@
    ],
    "mapa": "BÉLGICA",
    "mapa_at": 3,
-   "say": "Era mil oitocentos e sessenta e cinco, na cidade de Gante, na Bélgica."
+   "say": "Era mil oitocentos e sessenta e cinco, na cidade de Gante, na Bélgica.",
+   "impact": true
   },
   {
    "shot": "two",
@@ -215,7 +216,7 @@
    "say": "Os colegas ficaram de boca aberta. O anel explicava dezenas de substâncias de uma vez."
   },
   {
-   "shot": "crowd",
+   "shot": "group",
    "who": [
     "KEK:0:laugh",
     "COL:0:grin",
@@ -225,13 +226,12 @@
    "tiros": false,
    "acao": "comemorar",
    "crowd": {
-    "n": 18,
+    "n": 6,
     "outfits": [
      "POV",
-     "ALU"
+     "COL"
     ],
-    "march": false,
-    "expr": "laugh"
+    "march": false
    },
    "props": [
     [
@@ -251,15 +251,17 @@
    ],
    "text": "FESTA",
    "titulo": true,
-   "say": "Vinte e cinco anos depois, numa festa em Berlim em honra ao anel, ele contou o sonho pela primeira vez."
+   "say": "Vinte e cinco anos depois, numa festa em Berlim em honra ao anel, ele contou o sonho pela primeira vez.",
+   "interior": "pedra"
   },
   {
-   "shot": "two",
+   "shot": "crowd",
    "who": [
     "COL:0:suspicious",
     "KEK:0:smile"
    ],
-   "say": "Até hoje há quem duvide da história. Mas o anel do benzeno virou base de remédios, tintas e plásticos."
+   "say": "Até hoje há quem duvide da história. Mas o anel do benzeno virou base de remédios, tintas e plásticos.",
+   "impact": true
   },
   {
    "shot": "close",
@@ -280,5 +282,34 @@
  ],
  "variar_cenario": false,
  "cinf": 1.5,
- "exp": 1.761
+ "exp": 1.761,
+ "regiao": "europa",
+ "visual": {
+  "local": "Gante (Belgica): gabinete de professor com lareira, livros e vidraria de laboratorio; Berlim: salao de festa da Sociedade Alema de Quimica",
+  "quando": "1865 (a descoberta, numa noite fria); 1890 (a Benzolfest em Berlim, quando ele contou o sonho)",
+  "participantes": [
+   "August Kekule, professor de quimica de barba cheia",
+   "colegas quimicos",
+   "alunos",
+   "convidados da Benzolfest"
+  ],
+  "roupas": {
+   "KEK": "sobrecasaca escura dos anos 1860, colete, barba e bigode castanhos",
+   "COL": "quimico mais velho de sobrecasaca e barba grisalha",
+   "ALU": "aluno de paleto escuro",
+   "POV": "publico de 1865 com chapeu-coco e cartola"
+  },
+  "cenario": "gabinete com lareira acesa e poltrona, quadro com formulas, frascos de laboratorio; salao de banquete em Berlim",
+  "objetos": [
+   "anel do benzeno (cobra mordendo o rabo)",
+   "lareira",
+   "poltrona",
+   "papel com desenhos de moleculas",
+   "frascos de quimica"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/August_Kekul%C3%A9",
+   "https://en.wikipedia.org/wiki/Benzene#History"
+  ]
+ }
 }
