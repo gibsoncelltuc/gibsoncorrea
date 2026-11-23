@@ -1,5 +1,5 @@
 // Guerras Inusitadas EP 08 - A Guerra de 38 Minutos -- GERADO por mkvideo.py a partir de videos/zanzibar1896/beats.json (edite o beats.json, nao este arquivo)
-globalThis.REGMAP = {"buildings/house_small": ["kit/rg_africa_1", "kit/rg_africa_2"], "buildings/house_two": ["kit/rg_africa_2", "kit/rg_africa_1"], "buildings/house_blue": ["kit/rg_africa_1", "kit/rg_africa_2"], "buildings/shop": ["kit/rg_africa_1", "kit/rg_africa_2"], "buildings/apartment": ["kit/rg_africa_1", "kit/rg_africa_2"], "buildings/church": ["kit/rg_africa_1", "kit/rg_africa_2"], "buildings/barn": ["kit/rg_africa_1", "kit/rg_africa_2"], "buildings/castle_tower": ["kit/rg_africa_2"], "buildings/windmill": ["kit/rg_africa_1"], "nature/tree_oak": ["kit/veg_bananeira", "nature/tree_palm"], "nature/bush": ["kit/veg_hibisco"], "nature/flowerbed": ["kit/veg_hibisco"], "vehicles/tank": ["kit/tanque_ww1"], "vehicles/airplane": ["kit/biplano"], "vehicles/truck": ["kit/caminhao_antigo"], "ship": ["kit/navio_vapor"]}; globalThis.REGCHAO = "#c98e5a"; globalThis.ASFALTO = false; globalThis.PRAIA = false; globalThis.SEM_NAVIO = false;
+globalThis.REGMAP = {"buildings/house_small": ["kit/rg_africa_1", "kit/rg_africa_2"], "buildings/house_two": ["kit/rg_africa_2", "kit/rg_africa_1"], "buildings/house_blue": ["kit/rg_africa_1", "kit/rg_africa_2"], "buildings/shop": ["kit/rg_africa_1", "kit/rg_africa_2"], "buildings/apartment": ["kit/rg_africa_1", "kit/rg_africa_2"], "buildings/church": ["kit/rg_africa_1", "kit/rg_africa_2"], "buildings/barn": ["kit/rg_africa_1", "kit/rg_africa_2"], "buildings/castle_tower": ["kit/rg_africa_2"], "buildings/windmill": ["kit/rg_africa_1"], "nature/tree_oak": ["kit/veg_bananeira", "nature/tree_palm"], "nature/bush": ["kit/veg_hibisco"], "nature/flowerbed": ["kit/veg_hibisco"], "vehicles/tank": ["kit/tanque_ww1"], "vehicles/airplane": ["kit/biplano"], "vehicles/truck": ["kit/caminhao_antigo"], "ship": ["kit/navio_vapor"]}; globalThis.REGCHAO = "#c98e5a"; globalThis.ASFALTO = false; globalThis.CAMPO_FUTEBOL = false; globalThis.PRAIA = false; globalThis.SEM_NAVIO = false;
 const X = 4000, DK = 6; const X_hall = 8000; const X_medieval = 9000;
 const WS = (i, off = 0) => TIMING.words[Math.min(i, TIMING.words.length - 1)][0] + off;   // frame em que a palavra de indice i comeca
 const A = [0, WS(11, -3), WS(23, -3), WS(44, -3), WS(58, -3), WS(74, -3), WS(80, -3), WS(102, -3), WS(117, -3), WS(130, -3), WS(144, -3), TOTAL_F()];
@@ -27,4 +27,4 @@ const SPEC = {
   ],
 };
 
-// FOLHA3 6f93f48f251f 48 acoes=48 faltando=0
+// FOLHA3 37c0144c7285 48 acoes=48 faltando=0
