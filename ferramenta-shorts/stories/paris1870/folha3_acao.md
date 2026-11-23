@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - O Cardápio do Zoológico
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.6s - 17 palavras - plano two
@@ -53,22 +53,23 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | - | ATUACAO | conversar | OK |
 | 6 | - | PLACA | CASTOR E PÓLUX | OK |
 
-## Cena b5 - 27.1s a 32.2s - 15 palavras - plano orbit
-> "No Natal, um restaurante famoso serviu consomê de elefante, dromedário assado e ensopado de canguru."
+## Cena b5 - 27.1s a 33.4s - 16 palavras - plano two
+> "No Natal, o restaurante Voisin serviu consomê de elefante, ensopado de canguru e pernil de lobo."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | tremem de frio | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | NATAL DE 1870 | OK |
+
+## Cena b6 - 33.7s a 35.4s - 8 palavras - plano orbit
+> "Tinha até gato servido com roedores em volta."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 2 | - | ATUACAO | reagir | OK |
-| 3 | - | PLACA | NATAL DE 1870 | OK |
-
-## Cena b6 - 33.4s a 35.4s - 9 palavras - plano close
-> "Tinha até gato com roedores, e pernil de lobo."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | ATUACAO | reagir | OK |
-| 2 | - | PLACA | GATO COM RATOS | OK |
+| 3 | - | PLACA | GATO COM RATOS | OK |
 
 ## Cena b7 - 36.6s a 39.5s - 9 palavras - plano wide
 > "Para mandar notícias, os parisienses usavam balões e pombos-correio."
@@ -85,4 +86,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | rendeu (44.7s) | ACAO: rende | maos para cima (rendicao) | OK |
 | 2 | - | PLACA | PARIS SE RENDEU | OK |
+
+## Cena b9 - 45.9s a 45.9s - 13 palavras - plano close
+> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | PLACA | COMENTE! | OK |
 
