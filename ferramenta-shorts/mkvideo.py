@@ -38,6 +38,11 @@ for _b in B['beats']:   # DIRIGIR: "dirigiu/dirigindo/foi de carro/pilotou" -> o
     if _b.get('veiculo') is None and _b.get('who') and not _b.get('interior') and not _b.get('batalha') and re.search(r'\bdirig|\bde carro\b|\bde caminhao\b|\bde carroca\b|\bde moto\b|\bpilotou|\bpilotava|\bao volante|\bpedalou|\bpedalava|entr\w* no carro|pegou o carro|no carro\b|de carro\b|subiu no carro|de moto\b|na moto\b|no caminhao\b', _t):
         _as = next((as_ for rx_, as_ in _VEIC if re.search(rx_, _t)), 'kit/carro_redondo')   # carro redondo conversivel (o 'vehicles/car' era quadradao)
         _b['veiculo'] = {'asset': _as, 'motorista': _b['who'][0], 'de': -11, 'para': 11}; _b.setdefault('shot', 'two')
+for _b in B['beats']:   # MONTADO (23/11, Gibson: "o soldado correu em cima de um cavalo e atirou"): o personagem da frase vai EM CIMA do cavalo, galopando pela cena
+    _t = ' ' + re.sub(r'[^a-z ]', '', __import__('unicodedata').normalize('NFKD', _b['say'].lower()).encode('ascii', 'ignore').decode()) + ' '
+    if _b.get('montado') is None and _b.get('who') and not _b.get('interior') and not _b.get('veiculo') and re.search(r'em cima d[eo]s? (um |uma |o |a |seu |sua )?(cavalo|egua|camelo|mula|burro|jumento|elefante|ponei)|a cavalo|montad[oa]s? (n|em)|\bcavalg\w*|\bgalop\w*|no lombo|sobre (um |o |seu )?cavalo', _t):
+        _an = 'camel' if 'camelo' in _t else 'elephant' if 'elefante' in _t else 'donkey' if re.search(r'mula|burro|jumento', _t) else 'horse_sela'
+        _b['montado'] = {'animal': _an}; _b['correr'] = False; _b.setdefault('shot', 'two')
 for _b in B['beats']:   # CORREU/FUGIU (seguir o roteiro): a cena vira plano em movimento e os personagens CORREM
     _t = re.sub(r'[^a-z ]', '', __import__('unicodedata').normalize('NFKD', _b['say'].lower()).encode('ascii', 'ignore').decode())
     if re.search(r'\b(correu|correram|correndo|fugiu|fugiram|fugindo|disparou a correr|sairam correndo|saiu correndo|perseguiu|perseguiram|perseguindo)\b', _t) and _b.get('shot') in (None, 'two', 'group', 'close') and not _b.get('shot_lock') and not _b.get('interior') and not _b.get('veiculo') and _b.get('correr') is not False: _b['shot'] = 'track'
@@ -514,6 +519,73 @@ ENC = [(r'^(misturou|misturaram|misturando|mistura|misturar|mexeu|mexendo|mexia|
        (r'^(segredo|segredos|cochichou|sussurrou)$', 'think', 'pensa'),
        (r'^(impossivel|absurdo|ilegal|ninguemacreditou)$', 'shrug', 'duvida'),
        (r'^(fogo|incendio|chamas)$', 'scared', 'queima')]
+# ===== DICIONARIO UNIVERSAL DE ACOES (23/11, Gibson: "o que a narracao fala acontece no video", qualquer roteiro) =====
+# Cada verbo e' reconhecido pela RAIZ em qualquer conjugacao (pegou/pegava/pegaram/pegando/pega...). Fica DEPOIS das regras especificas acima (elas tem prioridade).
+_SUF = ('ear', 'eou', 'earam', 'eava', 'eavam', 'eando', 'eia', 'eiam', 'eado', 'eada', 'ar', 'ou', 'aram', 'ava', 'avam', 'ando', 'a', 'am', 'ado', 'ada', 'ados', 'adas', 'ara', 'er', 'eu', 'eram', 'ia', 'iam', 'endo', 'ido', 'ida', 'ir', 'iu', 'iram', 'indo', 'e', 'em', 'ei', 'aria', 'ariam')
+_RAIZ = [  # (raizes, gesto, tipo, sufixos proibidos: viram substantivo/outro sentido)
+    (('apert',), 'reach', 'x_aperta', ('a', 'e', 'o')),
+    (('desc', 'pous', 'aterriss', 'baix'), None, 'x_desce', ('a', 'e', 'o', 'ar', 'em', 'ado', 'ada', 'ia', 'iam')),
+    (('espalh', 'dispers', 'debAND', 'ocup', 'lot', 'reun', 'aglomer', 'agrup'), 'point', 'chega', ('a', 'e', 'o')),
+    (('defend', 'proteg', 'resist', 'bloquei'), 'cross', 'x_defende', ('a', 'e', 'o', 'ido', 'ida')),
+    (('troc', 'divid', 'repart', 'compartilh', 'escolh', 'selecion', 'aplic'), 'reach', 'x_entrega', ('a', 'e', 'o', 'ido', 'ida')),
+    (('convers', 'dialog', 'cochich', 'fofoc', 'comb'), 'point', 'fala', ('a', 'e', 'o', 'inado', 'inada')),
+    (('ensai', 'treinA', 'trein', 'exercit'), 'up', 'danca', ('a', 'e', 'o')),
+    (('obedec', 'saud', 'continenc'), None, 'x_saluda', ('a', 'e', 'o', 'ia', 'iam')),
+    (('dirig', 'pilot', 'aceler', 'freou', 'estacion'), 'point', 'x_dirige', ('a', 'e', 'o', 'ido', 'ida')),
+    (('sangr', 'feriu', 'machuc'), 'facepalm', 'x_chora', ('a', 'e', 'o')),
+    (('volt', 'regress', 'retorn', 'atravess', 'cruz', 'avanc', 'desembarc', 'aproxim', 'march', 'caminh', 'and', 'entr', 'invad', 'adentr'), 'point', 'chega', ('a', 'e', 'em')),
+    (('cerc', 'rode', 'sitio'), 'point', 'chega', ('a', 'am', 'e', 'em')),
+    (('corr', 'fug', 'escap', 'persegu', 'galop', 'dispar a corr'), None, 'corre', ('e', 'a')),
+    (('retir', 'abandon', 'recu', 'evacu', 'debAND'), None, 'sai', ()),
+    (('segur', 'agarr', 'carreg', 'apanh', 'colet', 'junt', 'ench', 'coloc', 'instal', 'guard', 'recolh', 'peg', 'ergu', 'levant', 'empilh', 'arrast', 'pux'), 'lift', 'pega', ('a', 'e')),
+    (('lev',), 'lift', 'pega', ('e', 'a', 'ado', 'ada', 'ados', 'adas', 'ar', 'em')),
+    (('entreg', 'distribu', 'ofere', 'devolv', 'empres', 'vend', 'doa', 'repass', 'pass a'), 'reach', 'x_entrega', ('a', 'e')),
+    (('acert', 'ating', 'mord', 'abat', 'rasg', 'destru', 'derrub', 'chut', 'soc', 'esmurr', 'atac', 'agred', 'espanc', 'lut', 'brig', 'enfrent', 'golpe', 'esfaque', 'apunhal', 'estrangul'), 'punch', 'golpe', ('a', 'e', 'o')),
+    (('tomb', 'despenc', 'afund', 'desmai', 'trope', 'escorreg', 'desmoron', 'capot'), None, 'tomba', ('a', 'e')),
+    (('dorm', 'cochil', 'adormec'), None, 'dorme', ()),
+    (('tranc', 'fech', 'trav', 'bloque', 'lacr', 'empurr'), 'push', 'empurra', ('a', 'e', 'o')),
+    (('apag', 'deslig', 'desliga'), 'push', 'empurra', ('a', 'e')),
+    (('varr', 'limp', 'esfreg', 'lav', 'escov'), 'stir', 'x_lava', ('a', 'e', 'o')),
+    (('enterr', 'cav', 'plant', 'semE', 'aduB'), 'hammer', 'x_planta', ('a', 'e', 'o')),
+    (('desenh', 'rabisc', 'assin', 'anot', 'escrev', 'registr', 'redig', 'copi'), 'write', 'escreve', ('a', 'e', 'o')),
+    (('brinc', 'zomb', 'deboch', 'gargalh', 'caçO'), 'up', 'x_ri', ('a', 'e', 'o')),
+    (('discut', 'debat', 'ameac', 'ofend', 'xing', 'reclam', 'insult', 'brigA', 'berr', 'acus', 'disput', 'discut'), 'point', 'x_discute', ('a', 'e', 'o')),
+    (('cobr',), 'point', 'x_discute', ('a', 'e', 'o', 'iu', 'ia', 'iam', 'ir', 'iram', 'indo')),
+    (('mostr', 'apont', 'explic', 'ensin', 'avis', 'anunci', 'respond', 'pergunt', 'cham', 'ped', 'promet', 'convenc', 'convid', 'mand', 'orden', 'declar', 'conv', 'propus', 'propo', 'negoci', 'apresent'), 'point', 'fala', ('a', 'e', 'o', 'ido', 'ida')),
+    (('olh', 'observ', 'repar', 'espi', 'assist', 'contempl', 'encar', 'avist', 'enxerg'), 'point', 'olha', ('a', 'e', 'o')),
+    (('test', 'examin', 'estud', 'analis', 'investig', 'pesquis', 'experiment', 'med'), 'think', 'examina', ('a', 'e', 'o', 'ia', 'iam', 'ida', 'ido')),
+    (('bombard', 'metralh', 'alvej', 'fuzil', 'canhone', 'atir'), None, 'atira', ('a', 'e', 'o')),
+    (('constru', 'fabric', 'invent', 'mont', 'martel', 'conserta', 'consert', 'soldA', 'erigi'), 'hammer', 'constroi', ('a', 'e', 'o')),
+    (('devor', 'mastig', 'almoc', 'jant'), 'eat', 'x_come', ('a', 'e', 'o')),
+    (('com',), 'eat', 'x_come', ('a', 'e', 'o', 'ar', 'em', 'ido', 'ida', 'ando', 'ado', 'ada')),
+    (('ajud', 'socorr', 'salv', 'resgat', 'carreg'), 'reach', 'x_entrega', ('a', 'e', 'o')),
+    (('segu',), 'point', 'chega', ('a', 'e', 'o', 'ro', 'ra')),
+    (('trem', 'trepid', 'trem'), None, 'x_treme', ('a', 'e', 'o', 'ar', 'ia', 'iam')),
+    (('comemor', 'celebr', 'festej', 'vibr', 'ganh', 'venc', 'triunf', 'conquist'), 'up', 'vence', ('a', 'e', 'o', 'ia', 'iam')),
+    (('chor', 'solu', 'lament', 'lastim'), 'facepalm', 'x_chora', ('a', 'e', 'o')),
+    (('danc', 'rebol', 'requebr', 'bail', 'sapate'), 'up', 'danca', ('a', 'e', 'o')),
+    (('pesc',), 'lift', 'x_pesca', ('a', 'e', 'o')),
+    (('costur', 'tric', 'bord'), 'write', 'x_costura', ('a', 'e', 'o')),
+    (('cozinh', 'mex', 'misturA', 'fritA', 'assA'), 'stir', 'mistura', ('a', 'e', 'o')),
+    (('abrac',), 'reach', 'x_abraca', ('a', 'e', 'o')),
+    (('beij',), 'reach', 'x_beija', ('a', 'e', 'o')),
+    (('solt', 'libert', 'larg'), 'up', 'x_solta', ('a', 'e', 'o')),
+    (('aplaud', 'ovacion'), 'up', 'x_aplaude', ('a', 'e', 'o')),
+    (('pul', 'salt'), 'up', 'pula', ('a', 'e', 'o')),
+    (('acen',), 'up', 'acena', ('a', 'e', 'o')),
+    (('ajoelh',), None, 'ajoelha', ('a', 'e', 'o')),
+    (('escal', 'trep'), 'lift', 'escala', ('a', 'e', 'o')),
+    (('rez', 'or', 'suplic'), 'think', 'x_reza', ('a', 'e', 'o', 'ar', 'am', 'ia', 'iam', 'ado', 'ada')),
+    (('grit', 'brad', 'urr'), 'up', 'grita', ('a', 'e', 'o')),
+    (('perd', 'fracass', 'falh'), 'facepalm', 'perde', ('a', 'e', 'o', 'ido', 'ida')),
+    (('quebr', 'estilhac', 'despedac', 'arrebent', 'estour'), 'throw', 'quebra', ('a', 'e', 'o')),
+    (('jog', 'lanc', 'arremess', 'despej', 'derram'), 'throw', 'cai', ('a', 'e', 'o')),
+    (('pens', 'imagin', 'calcul', 'planej', 'refletiu'), 'think', 'pensa', ('a', 'e', 'o')),
+]
+for _rz, _ge, _tp, _proib in _RAIZ:
+    _rz = tuple(r_.lower() for r_ in _rz if ' ' not in r_)
+    _sf = '|'.join(x_ for x_ in _SUF if x_ not in _proib)
+    ENC.append((r'^(' + '|'.join(_rz) + r')(' + _sf + r')$', _ge, _tp))
 ENC_MAT = [(r'borracha|latex|seiva|goma|gosma|massa|pasta|cola|mistura', 'kit/gosma'), (r'enxofre|polvora|\bpo\b', 'kit/enxofre'), (r'quimic|acido|liquido|reagente', 'kit/frasco'), (r'ovo', 'kit/egg'), (r'chocolate', 'kit/chocolate')]
 ENC_RES = [(r'borracha|elastic|firme|couro|vulcaniz', 'kit/borracha'), (r'pneu', 'kit/tires'), (r'\bbola\b', 'kit/ball'), (r'pipoca', 'kit/popcorn'), (r'chocolate', 'kit/chocolate'),
            (r'post.?it|bilhete', 'kit/postit'), (r'velcro|carrapicho', 'kit/burr'), (r'penicilina|mofo|bolor|placa', 'kit/petri'), (r'raio.?x|radiograf', 'kit/xray_plate'), (r'vacina|seringa', 'kit/syringe'),
@@ -715,7 +787,7 @@ if B.get('director') is not False and B.get('variar_camera') is not False:
         _sh = _b.get('shot', 'two')
         if _i > 0 and not _lk(_b) and _sh not in WIDE and _sh == beats[_i - 1].get('shot', 'two') and _plug(_b) == _plug(beats[_i - 1]):
             _nw_ = len(_b.get('who', []))
-            _b['shot'] = {'two': 'close' if _nw_ <= 2 else 'group', 'close': 'two', 'group': 'two', 'low': 'two'}.get(_sh, _sh)
+            _b['shot'] = {'two': 'close' if _nw_ <= 1 else 'group', 'close': 'two', 'group': 'two', 'low': 'two'}.get(_sh, _sh)   # close so' com 1 pessoa (2 no close saiam cortados)
         if _b.get('shot', 'two') not in WIDE and not _b.get('veiculo') and 'az0' not in _b and 'az1' not in _b:
             _k_ = 0.4 if _b.get('interior') else 1.0; _b['az0'], _b['az1'] = (round(_AZ[_na % len(_AZ)][0] * _k_), round(_AZ[_na % len(_AZ)][1] * _k_)); _na += 1   # sala: angulo menor (nao mostrar o vazio atras da parede)
 # CAVALARIA AUTOMATICA (ordem do Gibson 19/11): ate 1918 tropa chegando/atacando vem com soldados a cavalo; a narracao citar cavalo/cavalaria sempre poe.
@@ -979,9 +1051,17 @@ def build_beat(k, b):
         if _va == 'kit/carro_redondo' and ANO and ANO < 1935: _va = 'kit/carro_antigo'      # CARRO DA EPOCA
         elif _va == 'kit/carro_redondo' and ANO and ANO < 1975: _va = 'kit/carro_50'
         pr.append(f"{{ asset: {json.dumps(_va)}, at: [X + {num(x0v)}, {num(zv)}], move: [[X + {num(x1v)}, {num(zv)}], {a}, {bb}, 'lin'], s: {num(sv * (0.85 if _va in ('kit/carro_redondo', 'kit/carro_antigo', 'kit/carro_50') else 1))}, bob: 0.03{', ry: ' + ('-1.5708' if _FRENTE.get(_va.split('/')[-1], 1) == 1 else '1.5708') if _va.split('/')[-1] in _FRENTE else ''} }}")
+        _tvv = ' ' + re.sub(r'[^a-z ]', ' ', unicodedata.normalize('NFKD', b['say'].lower()).encode('ascii', 'ignore').decode()) + ' '
+        _wsv = b['say'].split(); _jvv = next((j_ for j_, w_ in enumerate(_wsv) if re.match(r'(voou|voaram|voando|voa$|decol|levantou|alcou)', nrm(w_))), None)
+        _yv = ''
+        if _jvv is not None:   # o carro que esta andando DECOLA na palavra e sobe voando (motorista junto)
+            _t0v = f"WS({starts[k] + _jvv}) - 8"; _yv = f"3.2 * Math.pow(Math.min(1, Math.max(0, (f - ({_t0v})) / 40)), 1.5)"
+            pr[-1] = pr[-1][:-2] + f", y: (f) => DK + {_yv} }}"
+            b['_anfx'] = b.get('_anfx', []) + [f"{{ k: 'dust', a: {_t0v}, b: {_t0v} + 30, at: [X, DK + 0.3, {num(zv)}], s: 1.8, follow: -1 }}"]
+            KWSFX.append((starts[k] + _jvv, 'whoosh')); b.setdefault('_veic_anim', []).append('o carro decola andando e sobe voando')
         if vc.get('motorista'):   # motorista DENTRO do carro: carta cortada (cabeca e ombros) encostada na janela do lado da camera
             mo_ = vc['motorista'].split(':'); k_ = sv; zd = zv + 0.1 * sv; dxd = -0.45 * sv * dirv   # sentado no banco, dentro da cabine aberta
-            acts.append(f"{{ outfit: {json.dumps(mo_[0])}, v: {int(mo_[1]) if len(mo_) > 1 and mo_[1] else 0}, at: [X + {num(x0v + dxd)}, {num(zd)}], move: [[X + {num(x1v + dxd)}, {num(zd)}], {a}, {bb}, 'lin'], pose: 'stand', acting: 'low', expr: {json.dumps(mo_[2] if len(mo_) > 2 else 'smile')}, s: {num(0.86 * k_)}, y: {num(-0.42 * k_)}, crop: 0.5, flip: {'false' if dirv > 0 else 'true'} }}")
+            acts.append(f"{{ outfit: {json.dumps(mo_[0])}, v: {int(mo_[1]) if len(mo_) > 1 and mo_[1] else 0}, at: [X + {num(x0v + dxd)}, {num(zd)}], move: [[X + {num(x1v + dxd)}, {num(zd)}], {a}, {bb}, 'lin'], pose: 'stand', acting: 'low', expr: {json.dumps(mo_[2] if len(mo_) > 2 else 'smile')}, s: {num(0.86 * k_)}, y: {('(f) => ' + num(-0.42 * k_) + ' + ' + _yv) if _yv else num(-0.42 * k_)}, crop: 0.5, flip: {'false' if dirv > 0 else 'true'} }}")
     # TORCIDA: a arquibancada do estadio ja vem LOTADA (centenas de torcedores pulando, web/sets/more.js); nada a fazer aqui
     # INTERIOR: "interior": "madeira" | "pedra" | "loja"  -> sala com parede a ~5 m, janela, porta, quadros, chao com juntas + moveis
     it = b.get('interior')
@@ -1010,9 +1090,10 @@ def build_beat(k, b):
         tem_ = {str(p_[0]) for p_ in props}; n_auto = 0
         _fam = lambda x_: re.sub(r'_(red|yellow|purple|striped)$', '', str(x_))
         if HEROI and (k == 0 or k == len(beats) - 1) and not wide_pre and not any(_fam(t_) == _fam(HEROI) for t_ in tem_):   # o objeto heroi abre e fecha o video
-            props = props + ([[HEROI, 0.0, 2.0, 1.15]] if len(b.get('who', [])) == 2 else [[HEROI, (1.7 if k % 2 else -1.7), -0.5, 1.3]])   # entre os dois, a frente (a placa do ano fica atras); tem_.add(HEROI); b.setdefault('_auto_obj', []).append(HEROI)
+            props = props + ([[HEROI, 0.0, -3.6, 1.0]] if _EH_VEIC(HEROI) or (_glb_len(HEROI) or 0) > 2.2 else [[HEROI, 0.0, 2.0, 1.15]] if len(b.get('who', [])) == 2 else [[HEROI, (1.7 if k % 2 else -1.7), -0.5, 1.3]])   # objeto GRANDE (carro...) fica atras dos personagens, inteiro no quadro   # entre os dois, a frente (a placa do ano fica atras); tem_.add(HEROI); b.setdefault('_auto_obj', []).append(HEROI)
         for rx_, as_, sc_, big_ in OBJ_DICT:
             if n_auto >= 2 or as_ in tem_ or any(_fam(t_) == _fam(as_) for t_ in tem_) or not re.search(rx_, _say_sp): continue
+            if _EH_VEIC(as_) and any(_EH_VEIC(t_) for t_ in tem_): continue   # ja tem um carro na cena: nao poe outro carro por cima (roteiro do Roadster 2026 ganhava o Roadster 2018 junto)
             if (big_ is True and (b.get('interior') or wide_pre)) or (big_ == 'in' and not b.get('interior')): continue
             if as_ == 'buildings/castle_tower' and any(str(t_).startswith('kit/marco_') for t_ in tem_): continue   # marco do roteiro ja e' o castelo/palacio
             if as_ == 'kit/throne': props = props + [[as_, 0, -2.6, sc_]]; tem_.add(as_); n_auto += 1; b.setdefault('_auto_obj', []).append(as_); continue
@@ -1029,13 +1110,13 @@ def build_beat(k, b):
     if re.search(r'decol|levantou voo|lancad|lancou|subiu ao ceu|subiu para o ceu|foi para o espaco|rumo ao espaco', _say_sp):   # objetos que entraram sozinhos tambem decolam
         props = [[{'kit/rocket': 'kit/falcon_air', 'kit/balloon': 'kit/balloon_air'}.get(str(p_[0]), p_[0])] + list(p_[1:]) for p_ in props]
     # LUGAR CITADO = LUGAR EM CENA (seguir o roteiro A RISCA): fazenda, casa, igreja, mercado, floresta, acampamento... entram como cenografia de fundo
-    if b.get('objetos') is not False and not b.get('interior') and not b.get('veiculo'):
+    if b.get('objetos') is not False and not b.get('interior'):   # 23/11: cena com carro andando tambem mostra o lugar citado (cerca, igreja...), mais ao fundo para nao ficar no caminho
         tem2_ = {str(p_[0]) for p_ in props}; sd2_ = 1 if k % 2 else -1
         for rx_, itens_ in LUGARES:
             if not re.search(rx_, _say_sp): continue
             novos_ = [it_ for it_ in itens_ if it_[0] not in tem2_ and not (it_[0] == 'buildings/castle_tower' and any(t_.startswith('kit/marco_') for t_ in tem2_))]   # o marco do roteiro ja e' o castelo: sem torre generica na frente
             if ANO and ANO < 1900: novos_ = [(('buildings/house_two',) + tuple(it_[1:])) if it_[0] == 'buildings/apartment' else it_ for it_ in novos_]   # 19/11 ZERO RESSALVA: cidade antiga nao tem predio de apartamento moderno
-            for as_, x_, z_, sc_ in novos_: props = props + [[as_, x_ * sd2_, z_ - (4 if wide_pre else 0), sc_]]; tem2_.add(as_)
+            for as_, x_, z_, sc_ in novos_: props = props + [[as_, x_ * sd2_, z_ - (4 if wide_pre or b.get('veiculo') else 0), sc_]]; tem2_.add(as_)
             if novos_: b.setdefault('_auto_obj', []).extend(a_[0] for a_ in novos_); b['fachada'] = False
             break
     if re.search(r'\bnavios?\b|\bbarcos?\b|\bfrota\b|\besquadra\b|\bcaravela', _say_sp) and re.search(r'cheg|desembarc|aport|atracou|atracaram|apareceu|apareceram|surgiu|vinham|navegou|navegaram|zarp|partiu|partiram', _say_sp) and not b.get('interior') and b.get('set', SET) in ('harbor', 'palace') and b.get('objetos') is not False:
@@ -1055,6 +1136,7 @@ def build_beat(k, b):
         # VEICULO DE VERDADE (23/11, Gibson: "carro do tamanho correto", "carro voador saindo do chao e voando", "nada de carro parado no ceu")
         if _EH_VEIC(asset) and not ex.get('fixo') and not ex.get('carregado'):
             _L = _glb_len(asset); _alvo = 6.2 if re.search(r'truck|caminh|onibus|bus', str(asset)) else 5.0
+            if _ppos and float(z) > -3.0 and not ex.get('perto'): dx, z = (0.0 if shot not in WIDE else dx), -3.4   # carro nunca em cima/no meio dos personagens: estaciona ATRAS deles, inteiro no quadro ("perto": true no prop desliga)
             if _L and float(s) * _L < 0.85 * _alvo: s = round(_alvo / _L, 2)   # carro proporcional aos personagens (~3 m): nunca carrinho de brinquedo
             _tv = ' ' + re.sub(r'[^a-z0-9 ]', ' ', unicodedata.normalize('NFKD', b['say'].lower()).encode('ascii', 'ignore').decode()) + ' '
             _xa = dx - 4.5 if float(dx) <= 0 else dx + 4.5
@@ -1387,11 +1469,13 @@ def build_beat(k, b):
                       'x_fone': ('ding', 'ring', 'kit/phone'), 'x_lava': ('creak', 'splash', 'kit/wash_basin'), 'x_beija': ('ding', 'stars', None), 'x_planta': ('thump', 'dust', None), 'x_pesca': ('tick', 'splash', None),
                       'x_costura': ('tick', None, None), 'x_pinta': ('tick', 'stars', None), 'x_bate': ('thump', 'burst', None), 'x_procura': ('tick', None, 'kit/lupa'), 'x_vigia': ('tick', None, None), 'x_saluda': ('sting', None, None),
                       'x_reza': ('ding', 'stars', None), 'x_aplaude': ('ding', 'stars', None), 'x_abraca': ('ding', 'stars', None), 'x_acorda': ('ding', 'stars', None), 'x_espera': ('tick', None, None), 'x_treme': ('creak', None, None),
-                      'x_tosse': ('thump', 'puff', None), 'x_nada': ('creak', 'splash', None), 'x_ri': ('ding', 'stars', None), 'x_abre': ('creak', None, None), 'x_solta': ('ding', 'stars', None), 'x_entrega': ('tick', None, None)}.get(tipo_, ('tick', None, None))
+                      'x_tosse': ('thump', 'puff', None), 'x_nada': ('creak', 'splash', None), 'x_ri': ('laughs', 'stars', None), 'x_abre': ('creak', None, None), 'x_solta': ('ding', 'stars', None), 'x_entrega': ('tick', None, None), 'x_discute': ('sting', None, None), 'x_aperta': ('ding', 'stars', None), 'x_desce': ('thump', 'dust', None), 'x_defende': ('thump', 'ring', None), 'x_dirige': ('tick', 'dust', None)}.get(tipo_, ('tick', None, None))
                 if _X[2] and _X[2] not in ' '.join(pr): pr.append(f"{{ asset: {json.dumps(_X[2])}, a: WS({wi_}) - 4, b: {bb}, at: [X + {num(_hx)}, {num(_z0 + 0.6)}], y: DK + {1.9 if _X[2] in ('kit/phone', 'kit/scroll', 'kit/lupa') else 0}, s: {0.35 if _X[2] in ('kit/phone', 'kit/scroll', 'kit/lupa') else 0.6}, drop: false }}")
                 if _X[1]: fx.append(f"{{ k: {json.dumps(_X[1])}, a: WS({wi_}) + 3, b: WS({wi_}) + 30, at: [X + {num(sl[0] + (0.6 if _X[1] in ('splash', 'puff') else 0))}, DK + {2.6 if _X[1] in ('stars', 'ring') else 1.6}, {num(_z0 + 0.4)}], s: 0.6 }}")
                 if tipo_ == 'x_treme' and acts: _gst.setdefault('inter', []).append(f"inter: {{ k: 'shiver', a: WS({wi_}), b: WS({wi_}) + 50, dir: 1, n: 3, ph: 0 }}")
                 if tipo_ in ('x_beija', 'x_abraca') and len(persons) > 1 and not b.get('interacao'): b['interacao'] = 'abracar'
+                if tipo_ == 'x_discute' and len(persons) > 1 and not b.get('interacao'): b['interacao'] = 'discutir'
+                if tipo_ == 'x_aperta' and len(persons) > 1 and not b.get('interacao'): b['interacao'] = 'apertar'   # apertaram as maos: aperto de mao de verdade
                 if tipo_ == 'x_acorda': _gst.setdefault(('poses', 0), []).append(f"[{a}, WS({wi_}), 'sleep']")
                 KWSFX.append((wi_, _X[0]))
             elif tipo_ == 'brilha':   # o objeto da cena (heroi ou o que estiver em props) brilha na palavra
@@ -1446,6 +1530,14 @@ def build_beat(k, b):
     if b.get('trans'): opts.append(f"trans: {json.dumps(b['trans'])}")
     elif k > 0: opts.append("trans: 'dissolve'")   # canal: quase sem corte seco; troca de cena por fusao curta
     if b.get('vary') is False and not wide: opts.append('vary: false')
+    mt_ = b.get('montado')
+    if mt_ and acts and persons:
+        _dr = int(mt_.get('dir', 1 if k % 2 == 0 else -1)); _zm = float(mt_.get('z', 0.6)); _x0m, _x1m = (-8.5, 8.5) if _dr > 0 else (8.5, -8.5)
+        _arm = bool(re.search(r'atir|espingard|rifle|fuzil|arma|mosquet|pistol|dispar|carabin', nrm(b['say'])))
+        acts[0] = f"_MA({acts[0]}, {{ at: [X + {num(_x0m + 0.15 * _dr)}, {num(_zm + 0.05)}], move: [[X + {num(_x1m + 0.15 * _dr)}, {num(_zm + 0.05)}], {a}, {bb}, 'lin'], moves: null, y: (f) => 1.84 + 0.08 * Math.abs(Math.sin(f * 0.55)), crop: 0.52, flip: {'false' if _dr > 0 else 'true'}, pose: 'stand', walk: 'stand', sideWalk: false, nocol: true{', over: { rifle: true }' if _arm else ''} }})"
+        _sc = {'elephant': 0.7, 'camel': 0.9, 'donkey': 0.9}.get(mt_.get('animal'), 0.95)
+        acts.append(f"{{ animal: {json.dumps(mt_.get('animal', 'horse_sela'))}, at: [X + {num(_x0m)}, {num(_zm)}], move: [[X + {num(_x1m)}, {num(_zm)}], {a}, {bb}, 'lin'], state: 'trot', s: {num(_sc)}, seed: 7 }}")
+        b['_galope'] = True; PLANO.append((k, f"montado: {persons[0][0]} galopando em cima do animal ({mt_.get('animal', 'horse_sela')}) atravessando a cena" + (' com a arma na mao' if _arm else ''), 'acao'))
     opts.append(f"actors: [{', '.join(acts)}]")
     if pr:   # 19/11 ZERO RESSALVA: o mesmo objeto grande (balao, foguete, navio) nao aparece duplicado na cena (roteiro + automatico)
         _vis = set(); _pr2 = []
@@ -1492,6 +1584,12 @@ def build_beat(k, b):
         cam = (f"cam: [{{ f: {a}, at: [X + {num(-d / 2)}, DK + {num(T['h'])}, 1.5], d: {num(T['d0'])}, az: 6, el: {num(T.get('el', 3))}, fov: {num(T.get('fov', 44))} }}, "
                f"{{ f: {bb}, at: [X + {num(d / 2)}, DK + {num(T['h'])}, 1.5], d: {num(T['d1'])}, az: -8, el: {num(T.get('el', 3) + 1)}, fov: {num(T.get('fov', 44))}, ease: 'lin' }}]")
         call = f"{{ ...{call}, {cam}, nocut: true }}"
+    if b.get('montado') and persons and not b.get('cam_livre'):   # a camera acompanha o cavaleiro de lado (cavalo e cavaleiro inteiros)
+        _dr = int(b['montado'].get('dir', 1 if k % 2 == 0 else -1)); _zm = float(b['montado'].get('z', 0.6)); _x0m, _x1m = (-8.5, 8.5) if _dr > 0 else (8.5, -8.5)
+        cam = (f"cam: [{{ f: {a}, at: [X + {num(_x0m + 2.2 * _dr)}, DK + 2.1, {num(_zm)}], d: 12.5, az: {10 * _dr}, el: 6, fov: 42 }}, "
+               f"{{ f: {bb}, at: [X + {num(_x1m - 2.2 * _dr)}, DK + 2.1, {num(_zm)}], d: 11.5, az: {-8 * _dr}, el: 7, fov: 42, ease: 'lin' }}]")
+        call = f"{{ ...{call}, {cam}, nocut: true }}"
+        call = call.replace("k: 'flash',", f"k: 'flash', follow: 0, dx: 1.5,")   # o clarao do tiro sai da arma do cavaleiro (acompanha o galope)
     if b.get('veiculo') and not b.get('cam_livre'):   # a camera acompanha o veiculo de lado, mostrando ele inteiro
         vc = b['veiculo']; x0v, x1v, zv = vc.get('de', -9), vc.get('para', 9), vc.get('z', 0.6); dd = vc.get('dist', 14.5)
         cam = (f"cam: [{{ f: {a}, at: [X + {num(x0v)}, DK + 1.9, {num(zv)}], d: {num(dd)}, az: {12 if x1v >= x0v else -12}, el: 7, fov: 40 }}, "
@@ -1512,6 +1610,8 @@ def build_beat(k, b):
             ox, oz, os_ = (float(_obj[1]) if len(_obj) > 1 else 0.0), (float(_obj[2]) if len(_obj) > 2 else 0.5), (float(_obj[3]) if len(_obj) > 3 else 1.0)
             oy_ = float(_obj[4].get('alto', 0.75)) if len(_obj) > 4 and isinstance(_obj[4], dict) else (1.62 if 'tulip' in str(_obj[0]) else 1.2 if str(_obj[0]) in ('kit/cake_table', 'kit/throne') else 0.75)   # altura do centro do objeto ("alto" no 5o campo do prop)
             k0 = (ox, oy_ * os_, oz, (5.6 if oy_ > 1.5 else 5.0) if oy_ > 1 else 4.2, 14 if ox < 0 else -14, 6 if oy_ > 1 else 10, 44); k1 = (ox, oy_ * os_, oz, (4.7 if oy_ > 1.5 else 4.2) if oy_ > 1 else 3.4, 8 if ox < 0 else -8, 5 if oy_ > 1 else 9, 44)
+            _Lo = (_glb_len(str(_obj[0])) or 0) * os_   # 23/11: objeto grande (carro, carroca, canhao...) inteiro no close: a distancia cresce com o tamanho dele (quadro vertical: cabe ~0,46 x distancia de largura)
+            if _Lo > 1.6: k0 = (ox, max(0.75, oy_) * os_, oz, round(_Lo * 2.4 + 1.2, 2), k0[4], 7, 44); k1 = (ox, max(0.75, oy_) * os_, oz, round(_Lo * 2.15 + 1.0, 2), k1[4], 6, 44)
         else: k0 = (0.0, 3.1, -1.3, 9.6, 6, -3, 44); k1 = (0.0, 3.1, -1.3, 8.6, -4, -3, 44)   # close na placa: mais longe, a placa cabe INTEIRA no quadro
         Kc = lambda f_, q: f"{{ f: {f_}, at: [X + {num(q[0])}, DK + {num(q[1])}, {num(q[2])}], d: {num(q[3])}, az: {num(q[4])}, el: {num(q[5])}, fov: {num(q[6])} }}"
         base = call; pid = f"S('b{k}', {a}, {bb}, X,"
@@ -1592,6 +1692,7 @@ for k, b in enumerate(beats):
     elif _ac == 'comemorar' or _it == 'pular': c2.append(f"laughs({_q(0.2)}); laughs({_q(0.6)}, 5, 360)")
     elif _it or _ac == 'conversar': c2.append(f"gibber({_q(0.2)}, 4, {[230, 200, 260][k % 3]}, 0.12); gibber({_q(0.58)}, 4, {[170, 290, 185][k % 3]}, 0.12)")
     if b.get('_chega'): c2.append(f"steps(F({a}), F({a} + 40), 0.12, 0.3)")
+    if b.get('_galope'): c2.append(f"steps(F({a}), F({e}), 0.19, 0.55)")   # cascos do cavalo galopando
     for e2 in b.get('sfx', []):
         name, _, at = e2.partition('@'); at = int(at) if at else 4
         c2.append(f"{name}(F({a} + {at}))" if name not in ('steps', 'sea', 'gulls', 'birds') else f"{name}(F({a} + {at}), F({e}))")
@@ -1623,6 +1724,8 @@ _sem = 0
 for k, b in enumerate(beats):
     _kw = [f"{w} ({kind} + som de {_SOM.get(kind, 'efeito')})" for kk, w, kind in PLANO if kk == k]; _ok = {nrm(w) for kk, w, kind in PLANO if kk == k}
     _ok |= set(b.get('_enc_words', []))
+    if b.get('_veic_anim'): _ok |= {nrm(w) for w in b['say'].split() if re.match(r'(voa|voo|decol|pul|salt|desc|pous|acel|dirig)', nrm(w))}   # veiculo animado na palavra (poeira + som de arrancada)
+    if b.get('montado'): _ok |= {nrm(w) for w in b['say'].split() if re.match(r'(corr|cavalg|galop|atir|dispar)', nrm(w))}   # galope com som de cascos + tiro com clarao
     _falta = [] if (b.get('impact') or b.get('sfx') or b.get('fx')) else sorted({w.strip('.,!?"') for w in b['say'].split() if _ACAO.match(nrm(w)) and nrm(w) not in _ok and len(nrm(w)) > 3 and not (b.get('_chega') and re.match(r'cheg|entr|invad', nrm(w))) and not (b.get('_acao') and re.match(r'conver|discut|brig|danc|comemor', nrm(w)))})[:4]
     _ap = [x for x in (('batalha aberta com tiros' if b.get('impact') else ''), ('tropa' if b.get('crowd') else ''), ('animais' if b.get('emus') or b.get('animals') else ''), ('interior' if b.get('interior') else ''), ('veiculo' if b.get('veiculo') or b.get('caminhoes') else ''), ('placa: ' + str(b['text']) if b.get('text') else ''), ('mapa' if b.get('mapa') else ''), ('objeto na mao' if any(len(w.split(':')) > 3 for w in b.get('who', [])) else '')) if x]
     _sem += len(_falta)
@@ -1664,14 +1767,16 @@ def _riscos(k, b):
     an = sorted(set(re.findall(_ANIM_ALL, t)))
     for a_ in an:
         if a_ not in _ANIM_OK: R.append((f'animal sem modelo: {a_}', 'modelar o animal antes, ou tirar da narracao desta cena, ou mostrar so a reacao das pessoas'))
-        elif not (b.get('animals') or b.get('emus')): R.append((f'{a_} citado e nao esta em cena', '"animals": [["' + _ANIM_OK[a_] + '", 1.6, 0.6]]' if _ANIM_OK[a_] != 'emus' else '"emus": true'))
+        elif not (b.get('animals') or b.get('emus') or (b.get('montado') and _ANIM_OK[a_] in ('horse',))): R.append((f'{a_} citado e nao esta em cena', '"animals": [["' + _ANIM_OK[a_] + '", 1.6, 0.6]]' if _ANIM_OK[a_] != 'emus' else '"emus": true'))
     m_ = re.findall(r'\b(nadou|nadaram|nadando|cavalg\w+|montou|montaram|escalou|escalaram|mergulh\w+|voou|voaram|ajoelh\w+|deitou|dormiu|dormiam|sentou|sentaram|subiu|subiram|pulou no|cavou|cavaram)\b', t)
+    if b.get('_veic_anim'): m_ = [x_ for x_ in m_ if not re.match(r'voou|voaram|subiu|subiram', x_)]
+    if b.get('montado'): m_ = [x_ for x_ in m_ if not re.match(r'cavalg|montou|montaram', x_)]
     if m_ and not b.get('impact') and not b.get('caminhoes'): R.append((f'acao sem animacao propria: {", ".join(sorted(set(m_)))}', 'mostrar o RESULTADO (objeto em cena, reacao, efeito + som) ou reescrever a frase com acao que a ferramenta faz (andar, chegar, discutir, empurrar, entregar, comemorar, atirar, fugir)'))
     # SEGUIR O ROTEIRO A RISCA (ordem do Gibson: 100% do que a narracao diz acontece na tela) -- cada familia de palavra EXIGE a acao correspondente
     if re.search(r'queim|incendi|\bfogo\b|em chamas|\bchamas\b', t) and not re.search(r'abriram fogo|abriu fogo|fogo amigo|cessar fogo|arma de fogo|lanca ?chamas|extintor', t) and not b.get('_fogo'): R.append(('a narracao fala de FOGO e nao ha fogo em cena', 'tirar "interior"/"fogo": false desta cena (as labaredas entram sozinhas em cena externa) e por tocha na mao de quem ateia: "who": ["GAU:0:angry:torch", ...]'))
     if re.search(r'\bbatalha|\blutaram|\blutou|\batacaram|\batacou|\bataque\b|\bcombate|\binvadiram|\binvadiu|\binvadido|bombarde|\bguerrearam|tiroteio', t) and not (b.get('impact') or b.get('batalha') or b.get('esperando') or b.get('desembarque') or (b.get('crowd') and re.search(r'aconteceu|houve|foi uma|ficou conhecid|chamad', t))): R.append(('a narracao fala de BATALHA/ATAQUE e a cena nao encena a luta', '"batalha": true nesta cena (tropa dos dois lados no "crowd", tiros/golpes e gente fugindo); cada batalha citada no roteiro = uma cena com "batalha": true'))
     if re.search(r'explodi|explos|\bbomba', t) and not (b.get('impact') or any(str(e_).startswith('burst') for e_ in b.get('fx', [])) or (re.search(r'\bbomba', t) and not re.search(r'explodi|explos', t) and any('bomb' in str(p_[0]) for p_ in b.get('props', [])))): R.append(('a narracao fala de EXPLOSAO e nao ha explosao', '"fx": ["burst@30"], "sfx": ["cannon@30"] (acerte o numero para o quadro da palavra)'))
-    if re.search(r'\bfugiu|\bfugiram|\bcorreu|\bcorreram|debandada|\bfuga\b|bateu em retirada|recuaram', t) and not (b.get('impact') or b.get('shot') == 'track' or b.get('move') or b.get('_chega')): R.append(('a narracao fala de FUGA/CORRERIA e ninguem corre', '"shot": "track" (os personagens atravessam a tela andando/correndo) ou "batalha": true (a tropa foge no plano aberto)'))
+    if re.search(r'\bfugiu|\bfugiram|\bcorreu|\bcorreram|debandada|\bfuga\b|bateu em retirada|recuaram', t) and not (b.get('impact') or b.get('shot') == 'track' or b.get('move') or b.get('_chega') or b.get('montado')): R.append(('a narracao fala de FUGA/CORRERIA e ninguem corre', '"shot": "track" (os personagens atravessam a tela andando/correndo) ou "batalha": true (a tropa foge no plano aberto)'))
     _hats = {str({**PROFISSOES.get(str(B.get('outfits', {}).get(w.split(':')[0], {}).get('profissao', '')).lower(), {}), **B.get('outfits', {}).get(w.split(':')[0], {})}.get('hat', '')) for w in b.get('who', [])}
     for rx_, ok_, pr_ in ((r'\brei\b|\brainha\b|imperador|imperatriz|\bsultao\b|\bprincipe\b', ('crown', 'turban'), 'rei'), (r'\bgeneral\b|almirante|\bcoronel\b|comandante|\bcapitao\b|marechal', ('shako_tall', 'shako', 'helmet'), 'general'), (r'campones|fazendeiro|agricultor|lavrador', ('straw', 'bonnet', 'slouch'), 'agricultor')):
         if re.search(rx_, t) and b.get('who') and not (_hats & set(ok_)) and (b.get('shot') not in WIDE): R.append((f'a narracao cita "{re.search(rx_, t).group(0)}" e ninguem em cena esta vestido a carater', f'por no "who" um personagem com "profissao": "{pr_}" no figurino (coroa/farda/chapeu proprios)'))
@@ -1689,7 +1794,7 @@ def _riscos(k, b):
     _fam = (('voando', r'voar|voou|ares|explod|bomba'), ('desembarque', r'cheg|desembarc|navio|atrac|aport'), ('lados', r'avanc|atac|lut|enfrent|batalh|combat|tiro|canh|explod'),
             ('impact', r'atir|tiro|dispar|explod|canh|bomb|atac|lut|batalh|corr|fug|caiu|cairam|morre|matou|invad|grit'), ('interacao', r'apert|cumpriment|paz|abrac|empurr|entreg|pag|dava|deu'),
             ('para_casa', r'volt|foram|foi|retorn'), ('esperando', r'esper|aguard|escond'), ('acao', r'conver|discut|brig|ofend|danc|comemor|brind|riu|riram|gargalh|negoci'), ('veiculo', r'dirig|carro|pilot|corr|fug'),
-            ('caminhoes', r'.'), ('animals', r'corr|fug|comeu|comia|comendo|andou|entrou'), ('chega', r'cheg|invad|entr'), ('crowd', r'march|desfil'))
+            ('caminhoes', r'.'), ('animals', r'corr|fug|comeu|comia|comendo|andou|entrou'), ('chega', r'cheg|invad|entr'), ('crowd', r'march|desfil'), ('_veic_anim', r'voa|voo|voou|voar|decol|pul|salt|desc|pous|acel|dirig|and|corr'), ('montado', r'corr|cavalg|galop|fug|atir|dispar'))
     _faltam = []
     for w_ in b['say'].split():
         n_ = nrm(w_)
@@ -1721,7 +1826,7 @@ for k, b in enumerate(beats):
             '- RISCOS: ' + ('nenhum' if not R else ''), *[f'  - {r} -> CORRECAO: {c}' for r, c in R], '']
 _glob = []
 if not any(b.get('mapa') for b in beats): _glob.append(('nenhum mapa no video (o canal situa o lugar com mapa rapido)', '"mapa": "NOME DO LUGAR" na cena 1 ou 2'))
-if sum(1 for b in beats if b.get('impact')) < 2: _glob.append(('menos de 2 grandes momentos', '"batalha": true (ou "impact": true) em duas cenas de acao'))
+if sum(1 for b in beats if b.get('impact')) < int(B.get('min_momentos', 2)): _glob.append(('menos de 2 grandes momentos', '"batalha": true (ou "impact": true) em duas cenas de acao'))
 if HEROI and not any(b.get('_det_heroi') for b in beats): _glob.append((f'objeto heroi ({HEROI}) sem close de camera', 'por o objeto em "props" de uma cena media de 8+ palavras'))
 _cl = __import__('collections').Counter(_lug(b_) for b_ in beats)
 if len(beats) >= 6 and B.get('variar_cenario') is not False and (len(_cl) < 3 or _cl.most_common(1)[0][1] > len(beats) // 2):
@@ -1760,7 +1865,7 @@ _ENC_DESC = {'mistura': 'mexe a panela (borbulhando)', 'cai': 'o material voa da
     'x_lava': 'lava/esfrega na bacia + respingo', 'x_beija': 'beijo/abraco + brilho', 'x_planta': 'cava/planta + terra', 'x_pesca': 'puxa a linha + respingo', 'x_costura': 'costura', 'x_pinta': 'pinta/desenha + brilho',
     'x_bate': 'bate + estouro', 'x_procura': 'procura com a lupa', 'x_vigia': 'vigia de bracos cruzados', 'x_saluda': 'bate continencia', 'x_reza': 'reza + brilho', 'x_aplaude': 'aplaude de bracos para cima',
     'x_abraca': 'abraco', 'x_acorda': 'estava dormindo e acorda na palavra', 'x_espera': 'espera de bracos cruzados', 'x_treme': 'treme', 'x_tosse': 'tosse/espirra + nuvenzinha', 'x_nada': 'braco para cima + respingo',
-    'x_ri': 'ri de bracos para cima + brilho', 'x_abre': 'empurra a porta', 'x_solta': 'solta/liberta + brilho', 'x_entrega': 'estende a mao entregando'}
+    'x_ri': 'ri de bracos para cima + brilho', 'x_abre': 'empurra a porta', 'x_solta': 'solta/liberta + brilho', 'x_entrega': 'estende a mao entregando', 'x_discute': 'discussao cara a cara (dedo apontado)', 'x_aperta': 'aperto de mao + brilho', 'x_desce': 'desce/pousa + poeira no chao', 'x_defende': 'bracos cruzados se defendendo + onda', 'x_dirige': 'dirige/acelera + poeira'}
 _KIND_DESC = {'burst': 'estouro/clarao + som', 'dust': 'poeira + som', 'puff': 'fumaca + som', 'stars': 'estrelinhas + som', 'ring': 'onda + som', 'splash': 'respingo + som', 'creak': 'rangido', 'expr': 'o ROSTO muda na palavra'}
 def _tempo_palavras():
     try: return [w_['s'] for w_ in json.load(open(f'stories/{ID}/work/words.json'))]
