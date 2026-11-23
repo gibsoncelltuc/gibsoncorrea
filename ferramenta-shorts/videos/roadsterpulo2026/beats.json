@@ -11,7 +11,7 @@
  "heroi": "kit/roadster26",
  "outfits": {
   "MUS": {
-   "jacket": "#2b2e35",
+   "jacket": "#4a505c",
    "pants": "#3a4766",
    "boots": "#1b1b1f",
    "hat": "hair",
@@ -76,7 +76,8 @@
     ]
    ],
    "set": "outback",
-   "hora": "noite"
+   "hora": "noite",
+   "fachada": false
   },
   {
    "who": [
@@ -107,7 +108,8 @@
     ]
    ],
    "set": "outback",
-   "hora": "noite"
+   "hora": "noite",
+   "fachada": false
   },
   {
    "who": [
@@ -143,14 +145,12 @@
   },
   {
    "who": [
-    "POV:0:surprised",
-    "POV:1:shock",
     "MUS:0:grin"
    ],
-   "shot": "crowd",
-   "h": 4.5,
-   "d0": 23,
-   "d1": 20,
+   "shot": "wide",
+   "h": 5.5,
+   "d0": 27,
+   "d1": 24,
    "say": "Acontece que, na frente da plateia, o carro acelerou, subiu uma rampa curva gigante e ficou de cabeça para baixo.",
    "props": [
     [
@@ -172,19 +172,21 @@
      1.2
     ]
    ],
-   "impact": true,
    "set": "outback",
-   "hora": "noite"
+   "hora": "noite",
+   "fachada": false,
+   "cx": 0.0,
+   "cz": -7.0
   },
   {
    "who": [
     "ENA:0:shock"
    ],
    "shot": "wide",
-   "h": 5.0,
-   "d0": 25,
-   "d1": 22,
-   "say": "Então se soltou, voou girando no ar e pousou no chão numa nuvem de fumaça branca.",
+   "h": 5.5,
+   "d0": 27,
+   "d1": 24,
+   "say": "Então se soltou, voou girando no ar e pousou numa nuvem de fumaça branca.",
    "props": [
     [
      "kit/roadster26",
@@ -205,9 +207,11 @@
      1.2
     ]
    ],
-   "impact": true,
    "set": "outback",
-   "hora": "noite"
+   "hora": "noite",
+   "fachada": false,
+   "cx": 0.0,
+   "cz": -7.0
   },
   {
    "who": [
@@ -230,14 +234,15 @@
     ]
    ],
    "set": "outback",
-   "hora": "noite"
+   "hora": "noite",
+   "fachada": false
   },
   {
    "who": [
     "ENG:0:suspicious",
     "ENA:0:bored"
    ],
-   "say": "Mas especialistas lembraram: aquilo foi um salto de poucos segundos, não um voo de verdade.",
+   "say": "Mas especialistas lembraram: aquilo durou poucos segundos, não foi um voo de verdade.",
    "set": "street"
   },
   {
@@ -314,5 +319,8 @@
    "https://www.businessinsider.com/new-tesla-roadster-2-elon-musk-livestream-event-2026-10",
    "https://www.youtube.com/watch?v=qt5p-_tE8d0"
   ]
- }
+ },
+ "cinf": 1.5,
+ "exp": 1.404,
+ "min_momentos": 0
 }

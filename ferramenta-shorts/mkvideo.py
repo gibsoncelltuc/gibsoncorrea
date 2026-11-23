@@ -492,7 +492,7 @@ ENC = [(r'^(misturou|misturaram|misturando|mistura|misturar|mexeu|mexendo|mexia|
        (r'^(lavou|lavaram|lavar|lavando|limpou|limparam|esfregou)$', 'stir', 'x_lava'),
        (r'^(beijou|beijaram|beijo)$', None, 'x_beija'),
        (r'^(plantou|plantaram|plantar|plantando|semeou|regou|regaram|colheu|colheram|colheita)$', 'hammer', 'x_planta'),
-       (r'^(pescou|pescaram|pescar|pescando|pescador|anzol|rede)$', 'lift', 'x_pesca'),
+       (r'^(pescou|pescaram|pescar|pescando|pescador|anzol)$', 'lift', 'x_pesca'),   # 'rede' saiu: 'rede X', 'rede social' viravam pescaria
        (r'^(costurou|costurar|costurando|tricotou|bordou)$', 'write', 'x_costura'),
        (r'^(pintou|pintaram|pintar|pintando|desenhou|desenhar|rabiscou)$', 'write', 'x_pinta'),
        (r'^(cozinhou|cozinhar|cozinhando|assou|fritou|temperou)$', 'stir', 'mistura'),
@@ -896,6 +896,7 @@ def build_beat(k, b):
     who = b.get('who', []); animals = b.get('animals', []); props = b.get('props', [])
     wide_pre = shot in WIDE
     if b.get('interior') and not b.get('light'): light = 'study_dark' if (b.get('hora') == 'noite' or re.search(r'apagou a luz|apagaram a luz|apagou as luzes|no escuro|escurid|luz apagada|a noite toda|madrugada|de noite|\bnoites?\b', b['say'].lower())) else 'study'   # dentro de casa a noite/luz apagada: sala na penumbra
+    if b.get('interior') == 'galpao' and not b.get('light'): light = 'overcast'   # galpao iluminado: luz branca fria (nao a luz amarela de sala)
     mv = b.get('move', 8 if shot == 'track' else 0)
     a, bb = f'A[{k}]', f'A[{k + 1}] - 1'
     # elenco de pessoas
