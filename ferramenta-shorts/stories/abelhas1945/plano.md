@@ -2,9 +2,9 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | placa: DANÇA | dançando (stars + som de sino); descobriu (ring + som de alerta); encena: danca (up) @3 (acao + som de efeito); encena: examina (think) @10 (acao + som de efeito) | -
+b0 | two | -  | - | dançando (stars + som de sino); descobriu (ring + som de alerta); encena: danca (up) @3 (acao + som de efeito); encena: examina (think) @10 (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
-b2 | two | -  | - | encena: constroi (hammer) @1 (acao + som de efeito) | -
+b2 | two | -  | placa: DANÇA | encena: constroi (hammer) @1 (acao + som de efeito) | -
 b3 | two | -  | interior, objeto na mao | encena: x_pinta (write) @1 (acao + som de efeito) | -
 b4 | close | -  | - | encena: danca (up) @11 (acao + som de efeito) | -
 b5 | two | -  | - | - | -

@@ -15,7 +15,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | descobriu (4.0s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
 | 5 | - | INTERACAO | avanca e o outro recua | OK |
 | 6 | - | ATUACAO | dancar | OK |
-| 7 | - | PLACA | DANÇA | OK |
 
 ## Cena b1 - 6.2s a 9.6s - 13 palavras - plano reveal
 > "Karl von Frisch nasceu na Áustria, e passou a vida inteira estudando abelhas."
@@ -32,6 +31,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | construiu (11.1s) | ACAO: constroi | martela e o objeto cresce | OK |
 | 2 | - | INTERACAO | o outro se aproxima | OK |
 | 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | DANÇA | OK |
 
 ## Cena b3 - 17.1s a 21.3s - 13 palavras - plano two
 > "Depois pintou pontinhos coloridos nas costas das abelhas, para saber quem era quem."

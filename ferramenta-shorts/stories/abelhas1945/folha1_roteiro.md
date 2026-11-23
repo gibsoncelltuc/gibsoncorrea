@@ -8,7 +8,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: dançando -> stars + som de sino; descobriu -> ring + som de alerta; encena: danca (up) @3 -> acao + som de efeito; encena: examina (think) @10 -> acao + som de efeito
 - Efeito visual marcado: stars@30
-- Texto na tela: DANÇA
+- Texto na tela: -
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~4.5 s)
@@ -26,7 +26,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeitos sonoros marcados: thump@30
 - Efeito + som nas palavras-chave: encena: constroi (hammer) @1 -> acao + som de efeito
 - Efeito visual marcado: puff@30
-- Texto na tela: -
+- Texto na tela: DANÇA
 - Funcao na historia: desenvolvimento
 
 ## Cena b3  (~4.5 s)
