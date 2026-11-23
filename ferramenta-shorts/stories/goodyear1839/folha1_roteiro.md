@@ -76,7 +76,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b8  (~3.8 s)
 - Narracao: Ele abraçou a esposa. Finalmente a borracha aguentava calor e frio.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: ding@40
 - Efeito + som nas palavras-chave: encena: x_abraca @1 -> acao + som de efeito
 - Efeito visual marcado: stars@40

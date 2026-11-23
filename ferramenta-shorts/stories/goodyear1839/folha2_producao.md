@@ -83,20 +83,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - Ele abraçou a esposa. Finalmente a borracha aguentava calor e frio.
-- Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): GOO (variante 0, expressao laugh); CLA (variante 0, expressao laugh)
-- Animacao: conversar | interacao: abracar
+- Cenario: countryside | luz: day | clima: limpo
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): GOO (variante 0, expressao laugh); CLA (variante 0, expressao laugh) | multidao: 6 de POV
+- Animacao: encena
 - Objetos/modelos: kit/stove
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): borracha, esposa
 - RISCOS: nenhum
 
 ## Cena b9 - Mas outros copiaram a ideia, e ele passou anos brigando na justiça. Mo...
-- Cenario: street | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Cenario: hall | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (2): COB (variante 0, expressao smug); GOO (variante 0, expressao angry) | multidao: 6 de POV
+- Personagens principais (2): COB (variante 0, expressao smug); GOO (variante 0, expressao angry)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dividas, justica
@@ -133,8 +133,8 @@ kit/ball | b10 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/borracha | grandes momentos: b2, b10 | planos abertos: 3 | mistura: close 12% | medio 78% | aberto 10% | detalhe 0%
-- Interacoes: b0 avanca e o outro recua, b3 o outro se aproxima, b4 empurrar, b5 insiste, b8 abracar, b9 discutir
+- Objeto heroi: kit/borracha | grandes momentos: b2, b10 | planos abertos: 4 | mistura: close 12% | medio 72% | aberto 16% | detalhe 0%
+- Interacoes: b0 avanca e o outro recua, b3 o outro se aproxima, b4 empurrar, b5 insiste, b9 discutir
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

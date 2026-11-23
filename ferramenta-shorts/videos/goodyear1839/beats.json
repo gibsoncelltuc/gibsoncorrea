@@ -182,7 +182,6 @@
   },
   {
    "shot": "two",
-   "interior": "madeira",
    "who": [
     "GOO:0:laugh",
     "CLA:0:laugh"
@@ -194,7 +193,9 @@
    "sfx": [
     "ding@40"
    ],
-   "say": "Ele abraçou a esposa. Finalmente a borracha aguentava calor e frio."
+   "say": "Ele abraçou a esposa. Finalmente a borracha aguentava calor e frio.",
+   "set": "countryside",
+   "interior": false
   },
   {
    "shot": "two",
@@ -209,7 +210,8 @@
    "sfx": [
     "sting@30"
    ],
-   "say": "Mas outros copiaram a ideia, e ele passou anos brigando na justiça. Morreu cheio de dívidas."
+   "say": "Mas outros copiaram a ideia, e ele passou anos brigando na justiça. Morreu cheio de dívidas.",
+   "set": "hall"
   },
   {
    "shot": "crowd",

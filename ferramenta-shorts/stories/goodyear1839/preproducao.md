@@ -12,14 +12,14 @@ b4 | interior pedra | two | 2 | conversar, INTERAGEM: empurrar | - | - | -
 b5 | interior madeira | two | 2 | conversar, INTERAGEM: insiste | kit/stove | - | -
 b6 | interior madeira | two | 1 | reagir | kit/stove | - | -
 b7 | interior madeira | low | 1 | comemorar | kit/stove | - | -
-b8 | interior madeira | two | 2 | conversar, INTERAGEM: abracar | kit/stove | - | -
-b9 | street | group | 8 | discutir, INTERAGEM: discutir | - | - | -
+b8 | countryside | orbit | 8 | encena | kit/stove | - | -
+b9 | hall | two | 2 | discutir, INTERAGEM: discutir | - | - | -
 b10 | street | crowd | 21 | comemorar, batalha | kit/tires, kit/ball, kit/stove | - | -
 b11 | interior loja | close | 1 | conversar | kit/stove, kit/tires | - | -
 
 OBJETO HEROI: kit/borracha - aparece em 0 cena(s), close nele em 1
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b2, b10
-Interacoes entre personagens: b0 avanca e o outro recua, b3 o outro se aproxima, b4 empurrar, b5 insiste, b8 abracar, b9 discutir
+Interacoes entre personagens: b0 avanca e o outro recua, b3 o outro se aproxima, b4 empurrar, b5 insiste, b9 discutir
 
 Cenas com personagens parados: 1 de 12
 FALTA MODELAR: nada
