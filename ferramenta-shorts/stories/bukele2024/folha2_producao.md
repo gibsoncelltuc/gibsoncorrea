@@ -3,12 +3,12 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/bukele2024/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py bukele2024` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Em fevereiro de dois mil e vinte e quatro, um presidente foi reeleito ...
-- Cenario: interior hospital | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Cenario: street | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): BUK (variante 0, expressao smug); REP (variante 0, expressao surprised, segura paper)
 - Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: kit/ballot_box
+- Objetos/modelos: kit/ballot_box, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, maiores, presidente
 - RISCOS: nenhum
 
@@ -23,12 +23,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Ele tinha chegado ao poder em dois mil e dezenove, com trinta e sete a...
-- Cenario: interior loja | luz: day | clima: limpo
+- Cenario: palace | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): BUK (variante 0, expressao grin); POV (variante 0, expressao smile)
 - Animacao: conversar | interacao: insiste | o ultimo personagem ENTRA andando
-- Objetos/modelos: -
+- Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gangues, trinta, violencia
 - RISCOS: nenhum
 
@@ -43,17 +43,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Críticos e opositores disseram que a candidatura era ilegal. O governo...
-- Cenario: jungle | luz: day | clima: limpo
+- Cenario: hall | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): REP (variante 0, expressao worried, segura paper); POV (variante 0, expressao nervous) | multidao: 12 de POV
 - Animacao: conversar | batalha encenada
-- Objetos/modelos: kit/volcano
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): candidatura, decisao, governo
 - RISCOS: nenhum
 
 ## Cena b5 - No dia da eleição, os salvadorenhos foram às urnas.
-- Cenario: jungle | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): POV (variante 0, expressao grin); POV (variante 1, expressao smile)
@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Os apoiadores lotaram as ruas. Ele comemorou numa sacada, diante de um...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: palace | luz: night | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): BUK (variante 0, expressao laugh); POV (variante 0, expressao laugh); POV (variante 1, expressao shout) | multidao: 30 de POV
@@ -104,12 +104,22 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b10 - Amado por muitos e criticado por outros, ele virou um dos presidentes ...
 - Cenario: jungle | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
+- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): BUK (variante 0, expressao smile)
 - Animacao: comemorar
 - Objetos/modelos: kit/ballot_box, kit/volcano, kit/globe
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): planeta, presidentes
+- RISCOS: nenhum
+
+## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Cenario: jungle | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
+- Personagens principais (1): BUK (variante 0, expressao grin)
+- Animacao: reagir
+- Objetos/modelos: kit/volcano
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -118,13 +128,13 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/ballot_box | b0, b5, b7, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/volcano | b1, b4, b5, b7, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/volcano | b0, b1, b2, b5, b7, b9, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/scroll | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/globe | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/ballot_box | grandes momentos: b4, b7 | planos abertos: 3 | mistura: close 21% | medio 68% | aberto 9% | detalhe 1%
+- Objeto heroi: kit/ballot_box | grandes momentos: b4, b7 | planos abertos: 3 | mistura: close 18% | medio 68% | aberto 9% | detalhe 6%
 - Interacoes: b0 o outro se aproxima, b2 insiste, b3 discutir, b5 entregar, b8 vai ate o outro, b9 empurrar
 - RISCOS GERAIS: nenhum
 
