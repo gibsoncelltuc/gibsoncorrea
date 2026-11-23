@@ -1,8 +1,8 @@
 # PLANO DE PRODUÇÃO (pedido do Gibson) — quem faz o quê
 
-Regra: cada sessão trabalha no SEU branch e só nos ids da sua lista. Antes de cada vídeo: `git fetch origin claude/serene-dirac-ckwlt5 && git merge --no-edit -X theirs FETCH_HEAD` (ferramenta mais nova). Seguir `OPERACAO.md` do passo 1 ao 7 em TODO vídeo (duas folhas, 0 risco, conferir, olhar a folha de contato, entregar em `entregas/<id>/`, commit + push, avisar a sessão principal com send_message). Um vídeo de cada vez. Marque aqui `[x]` ao entregar.
+Regra: cada sessão trabalha no SEU branch e só nos ids da sua lista. Antes de cada vídeo: `git fetch origin claude/bold-sagan-dskrsj && git merge --no-edit -X theirs FETCH_HEAD` (ferramenta mais nova). Seguir `OPERACAO.md` do passo 1 ao 7 em TODO vídeo (duas folhas, 0 risco, conferir, olhar a folha de contato, entregar em `entregas/<id>/`, commit + push, avisar a sessão principal com send_message). Um vídeo de cada vez. Marque aqui `[x]` ao entregar.
 
-## Sessão principal (branch claude/serene-dirac-ckwlt5)
+## Sessão principal (branch claude/bold-sagan-dskrsj)
 Refazer com a ferramenta atual e as duas folhas (`./refazer_tudo.sh <id>` depois de zerar os riscos da folha 2):
 - [x] EP 06 porco1859 · [x] EP 04 balde1325 · [x] EP 07 bolos1838 · [x] EP 01 karansebes · [x] EP 03 toledo1835 · [x] EP 08 zanzibar1896
 - [x] EP 02 emus1932 — folha 2 acusa 6 riscos (emu fora de cena em b3/b9, "montou", sem mapa, herói errado: ponha `"heroi": null` ou modele; corrigir o beats.json)

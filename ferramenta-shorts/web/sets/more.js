@@ -42,27 +42,7 @@ SETDEF.hall = (X) => {
   add(box(6, 0.4, 3), MW.wood, X, DECK + 0.6, -18, world); add(box(6, 6, 0.5), toon({ color: '#7a1c1c' }), X, DECK + 4, -22, world);
 };
 SETDEF.stadium = (X) => {
-  groundPlane(X, 0, 200, 140, MW.grass, DECK, 4);
-  /* CAMPO DE FUTEBOL DE VERDADE (ordem do Gibson 21/11): gramado listrado, linhas brancas oficiais (limite, meio de campo, circulo central, areas, marca do penalti, meia-lua), dois gols. Proporcao 105x68 (aqui 80x52), eixo maior no X. */
-  if (globalThis.CAMPO_FUTEBOL) { const PL = 80, PW = 52, PZ = 10, Y1 = DECK + 0.02, Y2 = DECK + 0.045, LW = 0.32, white = MW.white;
-    for (let i = 0; i < 10; i++) add(box(PL / 10, 0.02, PW), toon({ color: i % 2 ? '#4aa63a' : '#5cb848' }), X - PL / 2 + PL / 20 + i * PL / 10, Y1, PZ, world);   /* faixas do gramado */
-    const L = (cx, cz, w, d) => add(box(w, 0.03, d), white, X + cx, Y2, cz, world);
-    L(0, PZ - PW / 2, PL, LW); L(0, PZ + PW / 2, PL, LW); L(-PL / 2, PZ, LW, PW); L(PL / 2, PZ, LW, PW); L(0, PZ, LW, PW);   /* limite + linha do meio */
-    const ring = (cx, cz, r0, r1, a0, a1) => { const m = new THREE.Mesh(new THREE.RingGeometry(r0, r1, 56, 1, a0, a1 - a0), white); m.rotation.x = -Math.PI / 2; m.position.set(X + cx, Y2, cz); world.add(m); return m; };
-    ring(0, PZ, 7.0 - LW / 2, 7.0 + LW / 2, 0, Math.PI * 2); { const dot = new THREE.Mesh(new THREE.CircleGeometry(0.45, 20), white); dot.rotation.x = -Math.PI / 2; dot.position.set(X, Y2, PZ); world.add(dot); }   /* circulo central */
-    for (const sx of [-1, 1]) {
-      const gx = sx * PL / 2, ax = gx - sx * 12.7 / 2, bx = gx - sx * 4.2 / 2;
-      L(sx * (PL / 2 - 12.7), PZ, LW, 31); L(ax * 0 + sx * (PL / 2 - 12.7 / 2), PZ - 15.5, 12.7, LW); L(sx * (PL / 2 - 12.7 / 2), PZ + 15.5, 12.7, LW);   /* grande area */
-      L(sx * (PL / 2 - 4.2), PZ, LW, 14); L(sx * (PL / 2 - 4.2 / 2), PZ - 7, 4.2, LW); L(sx * (PL / 2 - 4.2 / 2), PZ + 7, 4.2, LW);   /* pequena area */
-      { const dot = new THREE.Mesh(new THREE.CircleGeometry(0.4, 16), white); dot.rotation.x = -Math.PI / 2; dot.position.set(X + sx * (PL / 2 - 8.5), Y2, PZ); world.add(dot); }   /* marca do penalti */
-      ring(sx * (PL / 2 - 8.5), PZ, 7.0 - LW / 2, 7.0 + LW / 2, sx > 0 ? Math.PI * 0.5 + 0.9 : -Math.PI * 0.5 + 0.9, sx > 0 ? Math.PI * 1.5 - 0.9 : Math.PI * 0.5 - 0.9);   /* meia-lua */
-      /* GOL: duas traves, travessao e rede */
-      for (const dz of [-3.7, 3.7]) add(new THREE.CylinderGeometry(0.1, 0.1, 2.6, 10), white, X + gx, DECK + 1.3, PZ + dz, world);
-      add(box(0.2, 0.2, 7.5), white, X + gx, DECK + 2.6, PZ, world);
-      add(box(2.2, 0.03, 7.5), toon({ color: '#e8e8e8' }), X + gx + sx * 1.1, DECK + 0.05, PZ, world);
-      for (let k = 0; k < 8; k++) add(box(0.04, 2.5, 0.04), toon({ color: '#e8e8e8' }), X + gx + sx * 2.2, DECK + 1.25, PZ - 3.5 + k, world);
-    }
-  }
+  groundPlane(X, 0, 200, 140, MW.grass, DECK, 4); groundPlane(X, 0, 200, 4, MW.white, DECK + 0.03, 4);
   const NR = 8, Z0 = -18, DZ = 2.7, DY = 1.8;   /* ARQUIBANCADA LOTADA (ordem do Gibson 19/11): 9 degraus altos e perto do campo */
   for (let r = 0; r < NR; r++) add(box(170, DY, DZ + 0.05), toon({ color: r % 2 ? '#8e8e96' : '#9a9aa2' }), X, DECK + DY / 2 + r * DY, Z0 - r * DZ, world);
   add(box(170, 3.5, 1), toon({ color: '#c8c8d0' }), X, DECK + 0.6, Z0 + DZ / 2 + 0.6, world);   /* mureta na beira do campo */

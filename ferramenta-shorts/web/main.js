@@ -126,9 +126,7 @@ const SETS_BUILT = new Set();
 // ---- GLB assets (library + legacy), re-skinned with toon materials ----
 const gltf = new GLTFLoader(); const LIBA = {};
 async function loadLib(names) { await Promise.all(names.map(async (n) => { if (LIBA[n]) return; const g = await gltf.loadAsync(n.startsWith('mk/') ? 'assets/library/megakit/' + n.slice(3) + '.gltf' : (n.includes('/') ? 'assets/library/' : 'assets/') + n + '.glb'); LIBA[n] = g.scene;
-  g.scene.traverse((o) => { if (o.isMesh) { const c = o.material.color ? o.material.color.clone() : new THREE.Color('#aaaaaa'); const mp = o.material.map || null; const _ANIM3D = ['bear', 'horse', 'horse_sela', 'dog', 'cat', 'cow', 'deer', 'donkey', 'elephant', 'fox', 'goat', 'lion', 'rabbit', 'sheep', 'wolf', 'pig', 'kit/rato', 'kit/dog_sit', 'kit/cod', 'kit/finch', 'kit/monkey_pong', 'kit/cobra', 'kit/abelha', 'kit/elefante'].includes(n);
-    if (_ANIM3D && (n === 'elephant' || n === 'kit/elefante') && c.r + c.g + c.b < 1.9 && Math.abs(c.r - c.b) < 0.25) c.set('#a3a3ad');   /* 21/11: elefante SEMPRE cinza claro (nao marrom/escuro) */
-    const em = _ANIM3D ? { emissive: c.clone().multiplyScalar(0.42), emissiveIntensity: 1 } : (o.material.emissive && o.material.emissive.getHex() ? { emissive: o.material.emissive.clone(), emissiveIntensity: 2.6 } : {});   /* 21/11: animal mantem a COR NATURAL em qualquer luz (interior, noite, sombra) */ o.material = toon({ color: c, ...(mp ? { map: mp } : {}), ...em, side: o.name.startsWith('sail') || n.startsWith('mk/') ? THREE.DoubleSide : THREE.FrontSide }); o.castShadow = true; o.receiveShadow = true; o.userData.c0 = c.clone(); if (n === 'bear' || n.startsWith('vehicles/')) o.material.userData.noPaint = true; /* lataria lisa como no canal */ } }); })); }
+  g.scene.traverse((o) => { if (o.isMesh) { const c = o.material.color ? o.material.color.clone() : new THREE.Color('#aaaaaa'); const mp = o.material.map || null; const em = o.material.emissive && o.material.emissive.getHex() ? { emissive: o.material.emissive.clone(), emissiveIntensity: 2.6 } : {}; o.material = toon({ color: c, ...(mp ? { map: mp } : {}), ...em, side: o.name.startsWith('sail') || n.startsWith('mk/') ? THREE.DoubleSide : THREE.FrontSide }); o.castShadow = true; o.receiveShadow = true; o.userData.c0 = c.clone(); if (n === 'bear' || n.startsWith('vehicles/')) o.material.userData.noPaint = true; /* lataria lisa como no canal */ } }); })); }
 const _rgN = (n, x, z) => { const R = globalThis.REGMAP && globalThis.REGMAP[n]; return R ? R[Math.abs(Math.round(x * 0.37 + z * 0.73)) % R.length] : n; };   // CIDADE DA REGIAO: troca o predio de fundo pelo do pais/epoca da historia
 const libInst = (n, x, y, z, ry = 0, s = 1, parent = world, tint = null) => { n = _rgN(n, x, z); const o = LIBA[n].clone(true); o.position.set(x, y, z); o.rotation.y = ry; o.scale.setScalar(s);
   o.traverse((m) => { if (m.isMesh) { m.material = m.material.clone(); if (tint) m.material.color.set(tint); } }); parent.add(o); return o; };
@@ -307,27 +305,7 @@ SETDEF.hall = (X) => {
   add(box(6, 0.4, 3), MW.wood, X, DECK + 0.6, -18, world); add(box(6, 6, 0.5), toon({ color: '#7a1c1c' }), X, DECK + 4, -22, world);
 };
 SETDEF.stadium = (X) => {
-  groundPlane(X, 0, 200, 140, MW.grass, DECK, 4);
-  /* CAMPO DE FUTEBOL DE VERDADE (ordem do Gibson 21/11): gramado listrado, linhas brancas oficiais (limite, meio de campo, circulo central, areas, marca do penalti, meia-lua), dois gols. Proporcao 105x68 (aqui 80x52), eixo maior no X. */
-  if (globalThis.CAMPO_FUTEBOL) { const PL = 80, PW = 52, PZ = 10, Y1 = DECK + 0.02, Y2 = DECK + 0.045, LW = 0.32, white = MW.white;
-    for (let i = 0; i < 10; i++) add(box(PL / 10, 0.02, PW), toon({ color: i % 2 ? '#4aa63a' : '#5cb848' }), X - PL / 2 + PL / 20 + i * PL / 10, Y1, PZ, world);   /* faixas do gramado */
-    const L = (cx, cz, w, d) => add(box(w, 0.03, d), white, X + cx, Y2, cz, world);
-    L(0, PZ - PW / 2, PL, LW); L(0, PZ + PW / 2, PL, LW); L(-PL / 2, PZ, LW, PW); L(PL / 2, PZ, LW, PW); L(0, PZ, LW, PW);   /* limite + linha do meio */
-    const ring = (cx, cz, r0, r1, a0, a1) => { const m = new THREE.Mesh(new THREE.RingGeometry(r0, r1, 56, 1, a0, a1 - a0), white); m.rotation.x = -Math.PI / 2; m.position.set(X + cx, Y2, cz); world.add(m); return m; };
-    ring(0, PZ, 7.0 - LW / 2, 7.0 + LW / 2, 0, Math.PI * 2); { const dot = new THREE.Mesh(new THREE.CircleGeometry(0.45, 20), white); dot.rotation.x = -Math.PI / 2; dot.position.set(X, Y2, PZ); world.add(dot); }   /* circulo central */
-    for (const sx of [-1, 1]) {
-      const gx = sx * PL / 2, ax = gx - sx * 12.7 / 2, bx = gx - sx * 4.2 / 2;
-      L(sx * (PL / 2 - 12.7), PZ, LW, 31); L(ax * 0 + sx * (PL / 2 - 12.7 / 2), PZ - 15.5, 12.7, LW); L(sx * (PL / 2 - 12.7 / 2), PZ + 15.5, 12.7, LW);   /* grande area */
-      L(sx * (PL / 2 - 4.2), PZ, LW, 14); L(sx * (PL / 2 - 4.2 / 2), PZ - 7, 4.2, LW); L(sx * (PL / 2 - 4.2 / 2), PZ + 7, 4.2, LW);   /* pequena area */
-      { const dot = new THREE.Mesh(new THREE.CircleGeometry(0.4, 16), white); dot.rotation.x = -Math.PI / 2; dot.position.set(X + sx * (PL / 2 - 8.5), Y2, PZ); world.add(dot); }   /* marca do penalti */
-      ring(sx * (PL / 2 - 8.5), PZ, 7.0 - LW / 2, 7.0 + LW / 2, sx > 0 ? Math.PI * 0.5 + 0.9 : -Math.PI * 0.5 + 0.9, sx > 0 ? Math.PI * 1.5 - 0.9 : Math.PI * 0.5 - 0.9);   /* meia-lua */
-      /* GOL: duas traves, travessao e rede */
-      for (const dz of [-3.7, 3.7]) add(new THREE.CylinderGeometry(0.1, 0.1, 2.6, 10), white, X + gx, DECK + 1.3, PZ + dz, world);
-      add(box(0.2, 0.2, 7.5), white, X + gx, DECK + 2.6, PZ, world);
-      add(box(2.2, 0.03, 7.5), toon({ color: '#e8e8e8' }), X + gx + sx * 1.1, DECK + 0.05, PZ, world);
-      for (let k = 0; k < 8; k++) add(box(0.04, 2.5, 0.04), toon({ color: '#e8e8e8' }), X + gx + sx * 2.2, DECK + 1.25, PZ - 3.5 + k, world);
-    }
-  }
+  groundPlane(X, 0, 200, 140, MW.grass, DECK, 4); groundPlane(X, 0, 200, 4, MW.white, DECK + 0.03, 4);
   const NR = 8, Z0 = -18, DZ = 2.7, DY = 1.8;   /* ARQUIBANCADA LOTADA (ordem do Gibson 19/11): 9 degraus altos e perto do campo */
   for (let r = 0; r < NR; r++) add(box(170, DY, DZ + 0.05), toon({ color: r % 2 ? '#8e8e96' : '#9a9aa2' }), X, DECK + DY / 2 + r * DY, Z0 - r * DZ, world);
   add(box(170, 3.5, 1), toon({ color: '#c8c8d0' }), X, DECK + 0.6, Z0 + DZ / 2 + 0.6, world);   /* mureta na beira do campo */
@@ -400,7 +378,7 @@ const DRESS = {
   medieval: ['barrel', 'crate', 'tools/lantern', 'war/shield', 'war/sandbags', 'tools/anvil', 'nature/haybale'],
   street: ['barrel', 'crate', 'tools/lantern', 'nature/bench', 'nature/bush', 'tools/ladder'],
   hall: ['barrel', 'crate', 'tools/lantern', 'war/drum', 'mk/Bench'],
-  stadium: [],
+  stadium: ['nature/bench'],
   harbor: ['crate', 'barrel', 'tools/lantern', 'war/cannonballs', 'tools/bucket'],
   mountain: ['nature/rocks', 'war/sandbags', 'crate', 'barrel', 'tools/shovel', 'tools/lantern'],
 };
@@ -619,14 +597,13 @@ function cardTier(a, cam) {
   const d = Math.max(0.4, Math.hypot(dx, dy, dz)), px = (CM * s) / (2 * d * Math.tan(rx(cam.fov) / 2)) * H;
   const need = Math.min(CH, px * (window.CARD_HEADROOM || 1.2)); for (const t of CARD_TIERS) if (t >= need) return t; return CH;
 }
-const LIFT_K = 0.16;
 function drawActors(list, cam) {
   cards.forEach((c) => { c.mesh.visible = c.blob.visible = false; });
   list.forEach((a, i) => {
     const c = getCard(i);
     c.draw(a.key, a.draw, cardTier(a, cam), a.crop || 0);
-    const s = a.s || 1;
-    c.mesh.visible = true; c.mesh.position.set(a.x, a.y + (Math.abs(a.roll || 0) > 0.3 ? Math.abs(Math.sin(a.roll)) * LIFT_K * s : 0), a.z);   /* 20/11: CAIU = deitado SOBRE o chao (antes metade do tronco ficava enterrada: a carta girava pelos pes) */ c.mesh.scale.set(s * (a.flip ? -1 : 1), s, s); c.uFlip.value = a.flip ? -1 : 1;
+    c.mesh.visible = true; c.mesh.position.set(a.x, a.y, a.z);
+    const s = a.s || 1; c.mesh.scale.set(s * (a.flip ? -1 : 1), s, s); c.uFlip.value = a.flip ? -1 : 1;
     c.mesh.rotation.set(0, Math.atan2(cam.position.x - a.x, cam.position.z - a.z) + (a.yaw || 0), a.roll || 0);
     if (a.keepColor) { const gn = inkU.gain.value; c.mat.color.setRGB(Math.min(1.5, 1.06 / Math.max(0.5, gn.r)), Math.min(1.5, 1.03 / Math.max(0.5, gn.g)), Math.min(1.5, 1.3 / Math.max(0.5, gn.b))); if (c.mat.fog) { c.mat.fog = false; c.mat.needsUpdate = true; } } else { if (a.tint) c.mat.color.set(a.tint); else { const gn = inkU.gain.value, k = 0.55, f_ = (v) => 1 + k * (Math.min(1.4, 1 / Math.max(0.6, v)) - 1); c.mat.color.setRGB(f_(gn.r), f_(gn.g), f_(gn.b)); }   /* compensa 55% da cor da luz: rosto continua branco (canal), sem virar laranja no por do sol */ if (!c.mat.fog) { c.mat.fog = true; c.mat.needsUpdate = true; } }
     if (c.mat.depthTest === !!a.front) { c.mat.depthTest = !a.front; c.mat.depthWrite = !a.front; c.mat.needsUpdate = true; }
