@@ -3,7 +3,8 @@
 # Loop (roda em segundo plano, sem token): a cada 2 min, para cada stories/<id>/AGUARDA_STORYBOARD parado ha mais de ESPERA_MIN (5) min
 # e que passe nas verificacoes AUTOMATICAS (folha 2 com 0 risco, verificar_execucao 100% acoes e cenario), aprova sozinho (aprovar_rapido.sh)
 # e marca stories/<id>/AUTO_APROVADO (o modelo REVE o video quando a cota voltar: conferir.sh + auditar_acoes.sh). Nunca aprova curie1898 nem ese_* (pausados).
-cd "$(dirname "$0")"; ESPERA_MIN=${ESPERA_MIN:-45}   # 20/11: 45 min - com as sessoes ativas a revisao vem antes; a rede de seguranca so pega o storyboard esquecido
+cd "$(dirname "$0")"; ESPERA_MIN=${ESPERA_MIN:-5}
+[ -f "$(dirname "$0")/PAUSA" ] || [ -f PAUSA ] && { echo "$(date +%T) PAUSA ativa: nao rodo (apague ferramenta-shorts/PAUSA)"; exit 0; }
 while true; do
   for d in out/*/frames; do [ -d "$d" ] || continue; v=$(basename $(dirname $d)); [ -f stories/$v/DONE ] && rm -rf "$d"; done   # 21/11: disco enche (1,3 GB de quadros por video): apaga os quadros de video ja pronto
   for f in stories/*/AGUARDA_STORYBOARD; do
