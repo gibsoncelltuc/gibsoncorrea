@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - A Guerra do Cachorro Perdido
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 5.6s - 16 palavras - plano two
@@ -31,7 +31,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | correu (13.0s) | EFEITO: dust | poeira + som | OK |
 | 2 | correu (13.0s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
 
-## Cena b3 - 15.9s a 18.5s - 8 palavras - plano crowd
+## Cena b3 - 15.9s a 18.5s - 8 palavras - plano close
 > "Uma sentinela búlgara viu o soldado, e atirou."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -40,9 +40,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | viu (17.0s) | ACAO: olha | aponta/olha | OK |
 | 3 | atirou (18.5s) | EFEITO: burst | estouro/clarao + som | OK |
 | 4 | atirou (18.5s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 5 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 7 | - | ATUACAO | reagir | OK |
+| 5 | - | ATUACAO | reagir | OK |
 
 ## Cena b4 - 18.9s a 21.5s - 8 palavras - plano close
 > "A Grécia ficou furiosa, e deu um ultimato."
@@ -53,7 +51,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | ULTIMATO | OK |
 
-## Cena b5 - 21.9s a 27.0s - 15 palavras - plano orbit
+## Cena b5 - 21.9s a 27.0s - 15 palavras - plano crowd
 > "Poucos dias depois, o exército grego invadiu a Bulgária e ocupou a região de Petrich."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -73,7 +71,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | reagir | OK |
 | 3 | - | PLACA | LIGA DAS NAÇÕES | OK |
 
-## Cena b7 - 31.9s a 36.3s - 13 palavras - plano group
+## Cena b7 - 31.9s a 36.3s - 13 palavras - plano crowd
 > "A Liga mandou a Grécia parar, retirar as tropas e pagar uma indenização."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -81,9 +79,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | mandou (32.6s) | ACAO: fala | aponta explicando | OK |
 | 2 | pagar (35.6s) | EFEITO: stars | estrelinhas + som | OK |
 | 3 | pagar (35.6s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 4 | - | INTERACAO | entregar | OK |
-| 5 | - | ATUACAO | reagir | OK |
-| 6 | - | PLACA | INDENIZAÇÃO | OK |
+| 4 | - | CENA | tiros: 3 soldados caem no chao | OK |
+| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 6 | - | ATUACAO | reagir | OK |
+| 7 | - | PLACA | INDENIZAÇÃO | OK |
 
 ## Cena b8 - 36.7s a 40.7s - 12 palavras - plano close
 > "A Grécia obedeceu, e ninguém sabe o que aconteceu com o cachorro."

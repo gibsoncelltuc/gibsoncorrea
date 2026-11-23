@@ -12,5 +12,5 @@ b6 | group | overcast  | placa: FOGO AMIGO | atirar (burst + som de tiro/explosa
 b7 | two | arctic  | animais, placa: SÓ CACHORROS | encena: olha (point) @3 (acao + som de efeito) | -
 b8 | close | -  | placa: OPERAÇÃO ILHA VAZIA | - | -
 
-Mistura de planos: close 20% | medio 49% | aberto 24% | detalhe 8%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 20% | medio 52% | aberto 24% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

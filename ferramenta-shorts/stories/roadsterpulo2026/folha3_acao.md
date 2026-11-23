@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 25 - O Carro que Pulou Outros Carros
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 7.4s - 21 palavras - plano two
@@ -10,10 +10,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | prometeu (0.7s) | ACAO: fala | aponta explicando | OK |
-| 2 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 3 | - | INTERACAO | insiste | OK |
-| 4 | - | ATUACAO | conversar | OK |
-| 5 | - | PLACA | 2026 | OK |
+| 2 | mostrou (6.3s) | ACAO: fala | aponta explicando | OK |
+| 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 4 | - | INTERACAO | insiste | OK |
+| 5 | - | ATUACAO | conversar | OK |
+| 6 | - | PLACA | 2026 | OK |
 
 ## Cena b1 - 7.8s a 10.7s - 9 palavras - plano reveal
 > "Foi numa base de testes da SpaceX, no Texas."
@@ -30,7 +31,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | discutir | OK |
 | 2 | - | ATUACAO | discutir | OK |
 
-## Cena b3 - 17.8s a 23.3s - 16 palavras - plano two
+## Cena b3 - 17.8s a 23.3s - 16 palavras - plano close
 > "O segredo eram dez pequenos propulsores da SpaceX, movidos a ar comprimido, escondidos dentro do carro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -75,7 +76,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | reverencia | OK |
 | 3 | - | ATUACAO | discutir | OK |
 
-## Cena b8 - 45.9s a 54.4s - 24 palavras - plano two
+## Cena b8 - 45.9s a 54.4s - 24 palavras - plano close
 > "Segundo a Tesla, ele vai de zero a cem em cerca de um segundo. A fabricação ficou para dois mil e vinte e oito."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

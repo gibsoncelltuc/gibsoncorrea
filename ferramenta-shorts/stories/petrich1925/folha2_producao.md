@@ -33,17 +33,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - Uma sentinela búlgara viu o soldado, e atirou.
-- Cenario: countryside | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (1): BUL (variante 0, expressao shock) | multidao: 18 de BUL
-- Animacao: reagir | batalha encenada
+- Cenario: interior madeira | luz: day | clima: limpo
+- Camera: close = close no rosto; empurra devagar
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (1): BUL (variante 0, expressao shock)
+- Animacao: reagir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): sentinela, soldado
 - RISCOS: nenhum
 
 ## Cena b4 - A Grécia ficou furiosa, e deu um ultimato.
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: interior madeira | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): OFF (variante 0, expressao stern)
@@ -53,8 +53,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Poucos dias depois, o exército grego invadiu a Bulgária e ocupou a reg...
-- Cenario: mountain | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Cenario: outback | luz: day | clima: limpo
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): GRE (variante 0, expressao stern); GRE (variante 1, expressao stern); GRE (variante 2, expressao stern) | multidao: 18 de GRE
 - Animacao: encena | batalha encenada
@@ -73,11 +73,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - A Liga mandou a Grécia parar, retirar as tropas e pagar uma indenizaçã...
-- Cenario: mountain | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): OFF (variante 0, expressao pained); GRE (variante 1, expressao nervous) | multidao: 5 de OFF/GRE
-- Animacao: reagir | interacao: entregar
+- Cenario: outback | luz: day | clima: limpo
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (2): OFF (variante 0, expressao pained); GRE (variante 1, expressao nervous) | multidao: 10 de OFF/GRE
+- Animacao: reagir | batalha encenada
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): grecia, indenizacao, liga, tropas
 - RISCOS: nenhum
@@ -101,8 +101,8 @@ dog | b1, b2, b8 | pronto | conferir na folha de contato se le bem; se parecer c
 
 
 ## Video inteiro
-- Objeto heroi: kit/dog_sit | grandes momentos: b3, b5 | planos abertos: 2 | mistura: close 22% | medio 65% | aberto 7% | detalhe 6%
-- Interacoes: b0 aproxima-se, b6 susto, b7 entregar
+- Objeto heroi: kit/dog_sit | grandes momentos: b5, b7 | planos abertos: 2 | mistura: close 30% | medio 58% | aberto 9% | detalhe 3%
+- Interacoes: b0 aproxima-se, b6 susto
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

@@ -4,8 +4,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Elon Musk prometeu um carro que voa. Em outubro de dois mil e vinte e ...
 - Cenario: outback | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MUS (variante 0, expressao grin); ENA (variante 0, expressao surprised)
 - Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/roadster26_air, kit/tower
@@ -23,7 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - O novo Roadster da Tesla tinha sido prometido em dois mil e dezessete....
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ENG (variante 0, expressao suspicious, segura paper); MUS (variante 0, expressao smug)
@@ -33,8 +33,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - O segredo eram dez pequenos propulsores da SpaceX, movidos a ar compri...
-- Cenario: mountain | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Cenario: countryside | luz: day | clima: limpo
+- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ENA (variante 0, expressao grin, segura paper); ENG (variante 0, expressao surprised)
 - Animacao: conversar | interacao: cochichar | o ultimo personagem ENTRA andando
@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Mas especialistas lembraram: aquilo foi um salto de poucos segundos, n...
-- Cenario: outback | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): ENG (variante 0, expressao suspicious); ENA (variante 0, expressao bored)
@@ -83,17 +83,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - Segundo a Tesla, ele vai de zero a cem em cerca de um segundo. A fabri...
-- Cenario: interior loja | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Cenario: street | luz: day | clima: limpo
+- Camera: close = close no rosto; empurra devagar
 - Takes: 5 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): ENG (variante 0, expressao grin, segura paper); POV (variante 0, expressao surprised)
 - Animacao: conversar | interacao: entregar
-- Objetos/modelos: kit/roadster26, nature/picket_fence, kit/roadster
+- Objetos/modelos: kit/roadster26, kit/tower, nature/picket_fence, kit/roadster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fabricacao, tesla, zero
 - RISCOS: nenhum
 
 ## Cena b9 - O vídeo foi visto milhões de vezes. Metade do mundo ficou impressionad...
-- Cenario: outback | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao laugh); POV (variante 1, expressao grin); MUS (variante 0, expressao laugh) | multidao: 30 de POV
@@ -117,9 +117,9 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/roadster26_air | b0, b4, b5, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/tower | b0, b1, b2, b3, b5, b6, b7, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/roadster26 | b2, b3, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/roadster26_air | b0, b4, b5, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/tower | b0, b1, b2, b3, b5, b6, b7, b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/roadster26 | b2, b3, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/roadster | b2, b4, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 vehicles/truck | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 vehicles/car | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -128,13 +128,11 @@ nature/picket_fence | b8 | pronto | conferir na folha de contato se le bem; se p
 
 
 ## Video inteiro
-- Objeto heroi: kit/roadster26_air | grandes momentos: b4, b9 | planos abertos: 3 | mistura: close 9% | medio 76% | aberto 10% | detalhe 5%
+- Objeto heroi: kit/roadster26 | grandes momentos: b4, b9 | planos abertos: 3 | mistura: close 30% | medio 53% | aberto 10% | detalhe 8%
 - Interacoes: b0 insiste, b2 discutir, b3 cochichar, b6 pular, b7 reverencia, b8 entregar
-- RISCOS GERAIS: 
-  - objeto heroi (kit/roadster26_air) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: objeto heroi (kit/roadster26_air) sem close de camera
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh roadsterpulo2026 bN bM` (so essas cenas).

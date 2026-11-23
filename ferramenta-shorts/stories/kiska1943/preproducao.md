@@ -14,7 +14,7 @@ b6 | countryside | group | 3 | reagir, INTERAGEM: susto | kit/marco_alpes | - | 
 b7 | palace | two | 1 | conversar | kit/marco_alpes, dog | - | -
 b8 | harbor | close | 1 | conversar | kit/marco_alpes | - | -
 
-OBJETO HEROI: kit/dog_sit - aparece em 0 cena(s), close nele em 1
+OBJETO HEROI: kit/dog_sit
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b2, b3
 Interacoes entre personagens: b6 susto
 

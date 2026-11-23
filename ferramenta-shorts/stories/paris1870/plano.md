@@ -6,7 +6,7 @@ b0 | two | -  | placa: 1870, mapa | - | -
 b1 | reveal | -  | tropa, animais, placa: CAVALOS, CÃES, GATOS | - | -
 b2 | two | -  | placa: RATOS | - | -
 b3 | crowd | -  | batalha aberta com tiros, tropa | - | -
-b4 | close | -  | animais, interior, placa: CASTOR E PÓLUX | comprou (stars + som de sino); vendeu (stars + som de sino); encena: negocio (reach) @2 (acao + som de efeito) | -
+b4 | close | -  | animais, interior, placa: CASTOR E PÓLUX | comprou (stars + som de sino); vendeu (stars + som de sino); encena: negocio (reach) @2 (acao + som de efeito); encena: negocio (reach) @9 (acao + som de efeito) | -
 b5 | orbit | -  | batalha aberta com tiros, tropa, animais, placa: NATAL DE 1870 | - | -
 b6 | close | -  | animais, interior, placa: GATO COM RATOS | - | -
 b7 | wide | -  | tropa, placa: BALÕES E POMBOS | - | -

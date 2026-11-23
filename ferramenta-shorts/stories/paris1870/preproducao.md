@@ -14,7 +14,7 @@ b6 | interior loja | close | 1 | reagir | cat, wolf | - | -
 b7 | countryside | wide | 8 | parados (so fala e pisca) | kit/marco_notredame, kit/balloon | - | -
 b8 | street | close | 1 | encena | kit/marco_notredame | - | -
 
-OBJETO HEROI: kit/panela - aparece em 0 cena(s), close nele em 1
+OBJETO HEROI: kit/panela
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b5
 Interacoes entre personagens: b0 susto, b2 avanca e o outro recua
 

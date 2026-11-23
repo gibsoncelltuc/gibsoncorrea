@@ -98,7 +98,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | insiste | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 57.6s a 61.9s - 17 palavras - plano two
+## Cena b10 - 57.6s a 61.9s - 17 palavras - plano close
 > "E ainda sobrou para Trump: o juiz aplicou um golpe nele também, e ele foi ao chão."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

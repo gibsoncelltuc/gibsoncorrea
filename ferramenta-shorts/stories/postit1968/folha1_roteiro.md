@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b5  (~6.6 s)
 - Narracao: Até que, em mil novecentos e setenta e quatro, o colega Art Fry estava cantando no coral da igreja.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: x_canta (up) @14 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -58,7 +58,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b6  (~5.5 s)
 - Narracao: Os papeizinhos que marcavam as páginas do hinário viviam caindo no chão. E ele ficava perdido.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: whoosh@30
 - Efeito + som nas palavras-chave: encena: desaba @9 -> acao + som de efeito; encena: tomba @11 -> acao + som de efeito
 - Efeito visual marcado: puff@30

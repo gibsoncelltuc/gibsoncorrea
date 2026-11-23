@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - O Cardápio do Zoológico
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 24 acoes catalogadas, 24 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 25 acoes catalogadas, 25 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 5.9s - 17 palavras - plano two
@@ -47,8 +47,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | comprou (17.8s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | comprou (17.8s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 3 | vendeu (20.4s) | EFEITO: stars | estrelinhas + som | OK |
-| 4 | - | ATUACAO | conversar | OK |
-| 5 | - | PLACA | CASTOR E PÓLUX | OK |
+| 4 | vendeu (20.4s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 5 | - | ATUACAO | conversar | OK |
+| 6 | - | PLACA | CASTOR E PÓLUX | OK |
 
 ## Cena b5 - 22.2s a 27.4s - 15 palavras - plano orbit
 > "No Natal, um restaurante famoso serviu consomê de elefante, dromedário assado e ensopado de canguru."

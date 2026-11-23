@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O açougueiro comprou dois elefantes, Castor e Pólux, e vendeu a carne em pedaços.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: comprou -> stars + som de sino; vendeu -> stars + som de sino; encena: negocio (reach) @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: comprou -> stars + som de sino; vendeu -> stars + som de sino; encena: negocio (reach) @2 -> acao + som de efeito; encena: negocio (reach) @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: CASTOR E PÓLUX
 - Funcao na historia: desenvolvimento
