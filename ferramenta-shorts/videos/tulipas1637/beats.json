@@ -17,11 +17,12 @@
    "moustache_on": "#6b4a2a"
   },
   "RIC": {
-   "jacket": "#d9742a",
-   "pants": "#3b2a1a",
+   "jacket": "#1f1f26",
+   "pants": "#1f1f26",
    "boots": "#1b1b1f",
    "hat": "tophat",
-   "sash": "#f1ece0"
+   "tie": "#f1ece0",
+   "buttons": "#e8c45a"
   },
   "POV": {
    "jacket": "#3f6fb5",
@@ -29,7 +30,7 @@
    "boots": "#1b1b1f",
    "hats": [
     "bonnet",
-    "cap",
+    "tophat",
     "straw",
     "beret"
    ],
@@ -129,7 +130,7 @@
     "RIC:0:stern:coin",
     "RIC:1:shock:coin"
    ],
-   "interior": "loja",
+   "interior": "madeira",
    "props": [
     [
      "kit/tulip_striped",
@@ -139,7 +140,7 @@
     ]
    ],
    "acao": "discutir",
-   "say": "Os ricos queriam as mais raras. \"Dou mil moedas por esse bulbo\", dizia um. \"Dou duas mil\", gritava outro."
+   "say": "Os ricos queriam as mais raras. Num leilão, um oferecia mil moedas por um bulbo, e outro gritava que pagava duas mil."
   },
   {
    "shot": "crowd",
@@ -318,5 +319,34 @@
    ],
    "say": "O marinheiro, pelo menos, almoçou bem."
   }
- ]
+ ],
+ "heroi": "kit/tulip_striped",
+ "regiao": "holanda",
+ "visual": {
+  "local": "Republica Holandesa (Haarlem, Amsterda): canais, casas de tijolo com fachada escalonada, moinhos, campos de tulipas; tabernas onde se negociavam bulbos",
+  "quando": "1636 a fevereiro de 1637 (o leilao de Haarlem em que ninguem deu lance), Seculo de Ouro holandes",
+  "participantes": [
+   "comerciantes de tulipa",
+   "ricos colecionadores",
+   "padeiros, sapateiros e gente comum",
+   "um marinheiro (anedota contada depois)"
+  ],
+  "roupas": {
+   "MER": "comerciante de gibao escuro, gola branca, chapeu de aba",
+   "RIC": "rico de seda preta, gola branca larga, chapeu alto",
+   "POV": "povo de 1637: touca branca, chapeu de aba, chapeu de palha",
+   "MAR": "marinheiro de jaqueta curta e boina"
+  },
+  "cenario": "rua holandesa com casas de tijolo e moinho, canteiros de tulipas, taberna de madeira com mesas e canecas, sala de leilao",
+  "objetos": [
+   "tulipa listrada Semper Augustus",
+   "bulbos",
+   "moedas de prata (florins)",
+   "contratos de papel"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Tulip_mania",
+   "https://commons.wikimedia.org/wiki/File:Semper_Augustus_Tulip_17th_century.jpg"
+  ]
+ }
 }
