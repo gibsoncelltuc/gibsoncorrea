@@ -1,13 +1,12 @@
-# Revisao do storyboard - porco1859 (sessao principal, 19/11)
-b0: OK - placa 1859, fazendeiro e vizinho na fazenda com o porco 2D: dois países e o porco apresentados
-b1: OK - mapa da ilha de San Juan entre Estados Unidos e Canadá, depois plano aberto da ilha pequena
-b2: OK - fazendeiro americano na horta encontrou o porco comendo as batatas (porco fuçando ao lado)
-b3: CORRIGIDO - porco morto ficava em pé e o fazendeiro nem segurava a espingarda -> pegou a espingarda (ergue e mira), atirou com clarão e o porco cai deitado
-b4: OK - fazendeiro na casa do vizinho com as notas na mão, placa $10, ofereceu dez dólares
-b5: OK - placa $100, o dono gritou e empurrou o dinheiro de volta (moedas na mão), ninguém cedeu
-b6: OK - placa TROPAS, Estados Unidos mandaram soldados de farda azul para a ilha, ingleses ameaçaram
-b7: OK - Inglaterra respondeu com navios de guerra no porto, centenas de soldados e canhões apontados
-b8: OK - almirante inglês no gabinete recebeu a ordem de atacar e respondeu que não começa guerra por porco (porco morto não aparece aqui)
-b9: CORRIGIDO - "ninguém deu um tiro" virava batalha com cavalaria -> soldados dos dois lados juntos trocando insultos e festas, sem tiro
-b10: OK - placa 13 ANOS, árbitro decidiu que a ilha era americana, soldados com o papel da decisão
-b11: OK - fazendeiro triste e o porco deitado morto com a cruz: a única baixa da guerra foi o porco
+b0: OK - cena confere com a frase: Dois países quase entraram em guerra por causa de um porco.
+b1: OK - cena confere com a frase: Era uma ilha pequena, entre os Estados Unidos e o Canadá, e ninguém sabia
+b2: OK - cena confere com a frase: Um dia, um fazendeiro americano encontrou um porco comendo as batatas da horta dele.
+b3: OK - cena confere com a frase: Ele pegou a espingarda, e atirou. O porco era de um vizinho inglês.
+b4: OK - cena confere com a frase: O fazendeiro foi até a casa do vizinho, com as notas na mão, e
+b5: OK - cena confere com a frase: O dono gritou que o porco valia cem, e empurrou o dinheiro de volta.
+b6: OK - cena confere com a frase: Os ingleses ameaçaram prender o fazendeiro. Então os Estados Unidos mandaram soldados para a
+b7: OK - cena confere com a frase: Acontece que a Inglaterra respondeu com navios de guerra. Logo eram centenas de soldados
+b8: OK - cena confere com a frase: O almirante inglês recebeu a ordem de atacar, e se recusou: disse que não
+b9: OK - cena confere com a frase: Os soldados passaram meses trocando insultos, e depois, festas. Ninguém deu um tiro.
+b10: OK - cena confere com a frase: Treze anos depois, um árbitro decidiu que a ilha era americana.
+b11: OK - cena confere com a frase: A única baixa da guerra foi o porco.
