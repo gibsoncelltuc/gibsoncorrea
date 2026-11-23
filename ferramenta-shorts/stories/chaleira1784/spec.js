@@ -1,5 +1,5 @@
 // Guerras Inusitadas EP 10 - A Guerra da Chaleira -- GERADO por mkvideo.py a partir de videos/chaleira1784/beats.json (edite o beats.json, nao este arquivo)
-globalThis.REGMAP = {"buildings/house_small": ["kit/rg_holanda_1", "kit/rg_holanda_2", "kit/rg_holanda_3"], "buildings/house_two": ["kit/rg_holanda_2", "kit/rg_holanda_3", "kit/rg_holanda_1"], "buildings/house_blue": ["kit/rg_holanda_1", "kit/rg_holanda_2", "kit/rg_holanda_3"], "buildings/shop": ["kit/rg_holanda_3", "kit/rg_holanda_1", "kit/rg_holanda_2"], "buildings/apartment": ["kit/rg_holanda_1", "kit/rg_holanda_2", "kit/rg_holanda_3"], "buildings/church": ["kit/rg_holanda_3", "kit/rg_holanda_1", "kit/rg_holanda_2"], "buildings/barn": ["kit/rg_holanda_1", "kit/rg_holanda_2", "kit/rg_holanda_3"], "buildings/castle_tower": ["kit/rg_holanda_3"], "nature/flowerbed": ["kit/tulip_bed"], "vehicles/tank": ["kit/tanque_ww1"], "vehicles/airplane": ["kit/biplano"], "vehicles/truck": ["kit/caminhao_antigo"]}; globalThis.REGCHAO = "#b07a62"; globalThis.ASFALTO = false; globalThis.PRAIA = false; globalThis.SEM_NAVIO = false;
+globalThis.REGMAP = {"buildings/house_small": ["kit/rg_holanda_1", "kit/rg_holanda_2", "kit/rg_holanda_3"], "buildings/house_two": ["kit/rg_holanda_2", "kit/rg_holanda_3", "kit/rg_holanda_1"], "buildings/house_blue": ["kit/rg_holanda_1", "kit/rg_holanda_2", "kit/rg_holanda_3"], "buildings/shop": ["kit/rg_holanda_3", "kit/rg_holanda_1", "kit/rg_holanda_2"], "buildings/apartment": ["kit/rg_holanda_1", "kit/rg_holanda_2", "kit/rg_holanda_3"], "buildings/church": ["kit/rg_holanda_3", "kit/rg_holanda_1", "kit/rg_holanda_2"], "buildings/barn": ["kit/rg_holanda_1", "kit/rg_holanda_2", "kit/rg_holanda_3"], "buildings/castle_tower": ["kit/rg_holanda_3"], "nature/flowerbed": ["kit/tulip_bed"], "vehicles/tank": ["kit/tanque_ww1"], "vehicles/airplane": ["kit/biplano"], "vehicles/truck": ["kit/caminhao_antigo"]}; globalThis.REGCHAO = "#b07a62"; globalThis.ASFALTO = false; globalThis.CAMPO_FUTEBOL = false; globalThis.PRAIA = false; globalThis.SEM_NAVIO = false;
 const X = 5000, DK = 6; const X_hall = 8000; const X_street = 12000;
 const WS = (i, off = 0) => TIMING.words[Math.min(i, TIMING.words.length - 1)][0] + off;   // frame em que a palavra de indice i comeca
 const A = [0, WS(14, -3), WS(34, -3), WS(49, -3), WS(62, -3), WS(79, -3), WS(95, -3), WS(110, -3), WS(124, -3), WS(138, -3), TOTAL_F()];
@@ -27,4 +27,4 @@ const SPEC = {
   ],
 };
 
-// FOLHA3 766ebaef1735 50 acoes=50 faltando=0
+// FOLHA3 9051d3900ba4 50 acoes=50 faltando=0
