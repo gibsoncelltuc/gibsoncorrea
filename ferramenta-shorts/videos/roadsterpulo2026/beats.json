@@ -148,10 +148,10 @@
     "MUS:0:grin"
    ],
    "shot": "wide",
-   "h": 5.5,
-   "d0": 27,
-   "d1": 24,
-   "say": "Acontece que, na frente da plateia, o carro acelerou, subiu uma rampa curva gigante e ficou de cabeça para baixo.",
+   "h": 6.0,
+   "d0": 20,
+   "d1": 18,
+   "say": "Acontece que, diante dos convidados, o carro acelerou, subiu uma rampa curva gigante e ficou de cabeça para baixo.",
    "props": [
     [
      "kit/roadster26",
@@ -190,9 +190,9 @@
     "ENA:0:shock"
    ],
    "shot": "wide",
-   "h": 5.5,
-   "d0": 27,
-   "d1": 24,
+   "h": 6.0,
+   "d0": 20,
+   "d1": 18,
    "say": "Então se soltou, voou girando no ar e pousou numa nuvem de fumaça branca.",
    "props": [
     [
