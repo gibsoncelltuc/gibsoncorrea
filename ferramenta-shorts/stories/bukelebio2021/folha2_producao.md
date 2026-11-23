@@ -54,10 +54,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Um jornal de cada país publicou a frase, e muita gente ficou discutind...
 - Cenario: street | luz: golden | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): JOR (variante 0, expressao shock); JOR2 (variante 0, expressao suspicious) | multidao: 8 de POV
-- Animacao: conversar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (2): JOR (variante 0, expressao shock); JOR2 (variante 0, expressao suspicious)
+- Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/phone, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cada, frase, jornal
 - RISCOS: nenhum
@@ -67,7 +67,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): JOR (variante 0, expressao suspicious); BUK (variante 0, expressao smug)
-- Animacao: conversar | interacao: insiste
+- Animacao: conversar | interacao: vai ate o outro
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): criticos, ironia
 - RISCOS: nenhum
@@ -87,19 +87,29 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): BUK (variante 0, expressao laugh); JOR2 (variante 0, expressao suspicious)
-- Animacao: conversar | interacao: vai ate o outro
+- Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): descricao
 - RISCOS: nenhum
 
 ## Cena b9 - Conclusão: se a sua biografia estiver chata, lembre que dá para trocar...
 - Cenario: street | luz: golden | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (1): BUK (variante 0, expressao laugh)
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): BUK (variante 0, expressao laugh) | multidao: 6 de POV
 - Animacao: reagir
 - Objetos/modelos: kit/phone, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
+- RISCOS: nenhum
+
+## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Cenario: street | luz: golden | clima: limpo
+- Camera: close = close no rosto; empurra devagar
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Personagens principais (1): BUK (variante 0, expressao grin)
+- Animacao: reagir
+- Objetos/modelos: kit/volcano
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -108,18 +118,18 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/phone | b0, b2, b5, b7, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/volcano | b1, b4, b5, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/volcano | b1, b4, b5, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/ballot_box | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/phone | grandes momentos: b1, b3 | planos abertos: 3 | mistura: close 48% | medio 38% | aberto 14% | detalhe 0%
-- Interacoes: b3 entregar, b6 insiste, b8 vai ate o outro
+- Objeto heroi: kit/phone | grandes momentos: b1, b3 | planos abertos: 3 | mistura: close 43% | medio 39% | aberto 15% | detalhe 3%
+- Interacoes: b3 entregar, b5 insiste, b6 vai ate o outro, b8 aproxima-se
 - RISCOS GERAIS: 
-  - objeto heroi (kit/phone) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
+  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
 ## RESUMO: 1 risco(s) em aberto
-- geral: objeto heroi (kit/phone) sem close de camera
+- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh bukelebio2021 bN bM` (so essas cenas).

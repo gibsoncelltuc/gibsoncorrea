@@ -94,12 +94,22 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Moral da história: um cameo de sete segundos gera conversa por mais de...
 - Cenario: street | luz: golden | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
+- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): TRU (variante 0, expressao laugh)
 - Animacao: reagir
 - Objetos/modelos: kit/tv, kit/marco_liberdade
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cameo, sete, trinta
+- RISCOS: nenhum
+
+## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Cenario: street | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
+- Personagens principais (1): FUN (variante 0, expressao grin)
+- Animacao: reagir
+- Objetos/modelos: kit/marco_liberdade
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -108,7 +118,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/tv | b0, b3, b7, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_liberdade | b0, b2, b5, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_liberdade | b0, b2, b5, b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/apartment | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -116,11 +126,15 @@ nature/lamppost | b5 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/tv | grandes momentos: b2, b5 | planos abertos: 3 | mistura: close 31% | medio 56% | aberto 10% | detalhe 3%
+- Objeto heroi: kit/tv | grandes momentos: b2, b5 | planos abertos: 3 | mistura: close 26% | medio 59% | aberto 9% | detalhe 5%
 - Interacoes: b1 aproxima-se, b4 avanca e o outro recua, b6 susto, b7 o outro se aproxima
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - pouca variedade de cenario ({'street': 6, 'interior pedra': 2, 'interior loja': 3}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street | interior: madeira, pedra, loja)
+  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 2 risco(s) em aberto
+- geral: pouca variedade de cenario ({'street': 6, 'interior pedra': 2, 'interior loja': 3}): o video fica parecendo todos os outros
+- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh cameo1992 bN bM` (so essas cenas).

@@ -14,10 +14,11 @@ b6 | interior loja | two | 2 | conversar, INTERAGEM: susto | - | - | -
 b7 | interior loja | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/tv | - | -
 b8 | street | reveal | 11 | parados (so fala e pisca) | kit/marco_liberdade | - | -
 b9 | street | close | 1 | reagir | kit/tv, kit/marco_liberdade | - | -
+b10 | street | two | 1 | reagir | kit/marco_liberdade | - | -
 
-OBJETO HEROI: kit/tv - aparece em 4 cena(s), close nele em 1
+OBJETO HEROI: kit/tv
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b2, b5
 Interacoes entre personagens: b1 aproxima-se, b4 avanca e o outro recua, b6 susto, b7 o outro se aproxima
 
-Cenas com personagens parados: 1 de 10
+Cenas com personagens parados: 1 de 11
 FALTA MODELAR: nada

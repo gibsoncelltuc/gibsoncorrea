@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 01 - O Ditador Mais Legal do Mundo
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 7.0s - 25 palavras - plano close
@@ -11,8 +11,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | usou (4.5s) | ACAO: x_usa | usa o objeto da cena + brilho | OK |
 | 2 | celular (5.0s) | ACAO: x_fone | celular na mao + toque | OK |
-| 3 | - | ATUACAO | reagir | OK |
-| 4 | - | MAPA | EL SALVADOR | OK |
+| 3 | trocar (5.6s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 4 | - | ATUACAO | reagir | OK |
+| 5 | - | MAPA | EL SALVADOR | OK |
 
 ## Cena b1 - 7.2s a 12.3s - 14 palavras - plano crowd
 > "Poucos dias antes, milhares de pessoas gritaram em protesto nas ruas de San Salvador."
@@ -38,7 +39,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | trocou (18.9s) | ACAO: g_trocou | g_trocou | OK |
+| 1 | trocou (18.9s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 2 | - | INTERACAO | entregar | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | O DITADOR MAIS LEGAL DO MUNDO | OK |
@@ -48,18 +49,19 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | espalhou (24.2s) | ACAO: g_espalhou | g_espalhou | OK |
+| 1 | espalhou (24.2s) | ACAO: chega | entra andando pela lateral | OK |
 | 2 | - | MAPA | MUNDO | OK |
 
-## Cena b5 - 26.1s a 31.9s - 18 palavras - plano reveal
+## Cena b5 - 26.1s a 31.9s - 18 palavras - plano two
 > "Um jornal de cada país publicou a frase, e muita gente ficou discutindo se era piada ou não."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | jornal (26.4s) | ACAO: x_le | le o papel | OK |
 | 2 | publicou (27.9s) | ACAO: x_fone | celular na mao + toque | OK |
-| 3 | discutindo (30.1s) | ACAO: g_discutin | g_discutin | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 3 | discutindo (30.1s) | ACAO: x_discute | discussao cara a cara (dedo apontado) | OK |
+| 4 | - | INTERACAO | insiste | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
 ## Cena b6 - 32.0s a 36.6s - 12 palavras - plano two
 > "Vários comentaristas leram aquilo como uma ironia, feita para os críticos dele."
@@ -67,7 +69,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | leram (32.9s) | ACAO: x_le | le o papel | OK |
-| 2 | - | INTERACAO | insiste | OK |
+| 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 36.9s a 42.6s - 19 palavras - plano close
@@ -84,13 +86,23 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | vai ate o outro | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | trocar (46.1s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | - | INTERACAO | aproxima-se | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 48.7s a 52.0s - 15 palavras - plano close
+## Cena b9 - 48.7s a 52.0s - 15 palavras - plano wide
 > "Conclusão: se a sua biografia estiver chata, lembre que dá para trocar em dez segundos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
+| 1 | trocar (51.7s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | - | ATUACAO | reagir | OK |
+
+## Cena b10 - 52.0s a 52.0s - 13 palavras - plano close
+> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
 | 1 | - | ATUACAO | reagir | OK |
+| 2 | - | PLACA | COMENTE! | OK |
 

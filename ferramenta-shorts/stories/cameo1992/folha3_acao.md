@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 02 - O Cameo de Sete Segundos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 20 acoes catalogadas, 20 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 21 acoes catalogadas, 21 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.8s - 22 palavras - plano close
@@ -9,10 +9,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | estreou (1.9s) | ACAO: g_estreou | g_estreou | OK |
-| 2 | Esqueceram (2.5s) | ACAO: g_esquecer | g_esquecer | OK |
-| 3 | - | ATUACAO | reagir | OK |
-| 4 | - | MAPA | NOVA YORK | OK |
+| 1 | - | ATUACAO | reagir | OK |
+| 2 | - | MAPA | NOVA YORK | OK |
 
 ## Cena b1 - 6.8s a 12.1s - 20 palavras - plano two
 > "Numa cena rápida, Kevin pergunta a um homem onde fica o saguão do hotel, e esse homem é Donald Trump."
@@ -56,9 +54,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | EMOCAO: pleading | o rosto vira "pleading" na palavra | OK |
-| 2 | - | INTERACAO | susto | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 1 | pediu (33.8s) | ACAO: fala | aponta explicando | OK |
+| 2 | - | EMOCAO: pleading | o rosto vira "pleading" na palavra | OK |
+| 3 | - | INTERACAO | susto | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 36.5s a 40.4s - 15 palavras - plano two
 > "Em dois mil e dezenove, uma emissora canadense exibiu o filme sem esses sete segundos."
@@ -83,4 +82,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | reagir | OK |
+
+## Cena b10 - 50.1s a 50.1s - 13 palavras - plano two
+> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | reagir | OK |
+| 2 | - | PLACA | COMENTE! | OK |
 
