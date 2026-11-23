@@ -34,7 +34,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Mexendo em toneladas de minério, eles descobriram dois elementos novos...
 - Cenario: interior madeira | luz: dia | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): MAR (variante 0, expressao grin); PIE (variante 0, expressao surprised)
 - Animacao: conversar | interacao: avanca e o outro recua
@@ -103,7 +103,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b10 - E o rádio leva cerca de mil e seiscentos anos só para perder metade da...
-- Cenario: street | luz: dia | clima: limpo
+- Cenario: harbor | luz: dia | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao shock); POV (variante 1, expressao surprised); PES (variante 0, expressao surprised) | multidao: 16 de POV
@@ -112,14 +112,24 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): forca, radio
 - RISCOS: nenhum
 
-## Cena b11 - Ou seja: os cadernos de Marie Curie vão continuar brilhando por muitos...
-- Cenario: street | luz: dia | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
+## Cena b11 - Ou seja: os cadernos de Marie Curie vão continuar radioativos por muit...
+- Cenario: harbor | luz: dia | clima: limpo
+- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): MAR (variante 0, expressao smile)
 - Animacao: conversar
 - Objetos/modelos: kit/curie_box, kit/marco_eiffel
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cadernos, marie
+- RISCOS: nenhum
+
+## Cena b12 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Cenario: street | luz: dia | clima: limpo
+- Camera: close = close no rosto; empurra devagar
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
+- Personagens principais (1): PES (variante 0, expressao grin)
+- Animacao: conversar
+- Objetos/modelos: kit/marco_eiffel
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -128,13 +138,13 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/curie_box | b0, b3, b4, b8, b9, b10, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_eiffel | b0, b1, b6, b7, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_eiffel | b0, b1, b6, b7, b10, b11, b12 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 crate | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/curie_box | grandes momentos: b6, b10 | planos abertos: 3 | mistura: close 20% | medio 68% | aberto 10% | detalhe 2%
+- Objeto heroi: kit/curie_box | grandes momentos: b6, b10 | planos abertos: 3 | mistura: close 23% | medio 64% | aberto 9% | detalhe 4%
 - Interacoes: b0 vai ate o outro, b2 aproxima-se, b3 avanca e o outro recua, b5 o outro se aproxima, b8 susto
 - RISCOS GERAIS: nenhum
 
