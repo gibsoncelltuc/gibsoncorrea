@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 06 - A Guerra do Porco
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 12 cenas, 179 palavras (~62 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 13 cenas, 198 palavras (~68 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: Dois países quase entraram em guerra por causa de um porco.
@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b2  (~4.8 s)
 - Narracao: Um dia, um fazendeiro americano encontrou um porco comendo as batatas da horta dele.
-- Som ambiente: birds | batalha: tiros e gritos a cena inteira
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: animal: pig come -> acao + som de efeito; encena: olha (point) @5 -> acao + som de efeito
 - Efeito visual marcado: ring@12, dust@40
@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b3  (~4.5 s)
 - Narracao: Ele pegou a espingarda, e atirou. O porco era de um vizinho inglês.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: gun@24, squeal@30
 - Efeito + som nas palavras-chave: animal: pig leva o tiro e cai -> acao + som de efeito; atirou -> burst + som de tiro/explosao; encena: pega (lift) @1 -> acao + som de efeito; encena: atira @5 -> acao + som de efeito
 - Efeito visual marcado: burst@24
@@ -39,19 +39,19 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Funcao na historia: desenvolvimento
 
 ## Cena b4  (~6.6 s)
-- Narracao: O fazendeiro foi até a casa do vizinho, com as notas na mão. "Eu pago dez dólares", ofereceu ele.
+- Narracao: O fazendeiro foi até a casa do vizinho, com as notas na mão, e ofereceu dez dólares pelo porco.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: paga (reach) @14 -> acao + som de efeito; encena: x_entrega (reach) @17 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_entrega (reach) @14 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: $10
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~4.8 s)
-- Narracao: "Dez? Ele vale cem!", gritou o dono, empurrando o dinheiro de volta. Ninguém cedeu.
+## Cena b5  (~5.5 s)
+- Narracao: O dono gritou que o porco valia cem, e empurrou o dinheiro de volta. Ninguém cedeu.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou -> ring + som de alerta; dinheiro -> stars + som de sino; encena: grita (up) @4 -> acao + som de efeito; encena: empurra (push) @7 -> acao + som de efeito; encena: paga (reach) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou -> ring + som de alerta; dinheiro -> stars + som de sino; encena: grita (up) @2 -> acao + som de efeito; encena: empurra (push) @9 -> acao + som de efeito; encena: paga (reach) @11 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: $100
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Os ingleses ameaçaram prender o fazendeiro. Então os Estados Unidos mandaram soldados para a ilha.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_discute (point) @2 -> acao + som de efeito; encena: fala (point) @10 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: TROPAS
 - Funcao na historia: desenvolvimento
@@ -69,16 +69,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Acontece que a Inglaterra respondeu com navios de guerra. Logo eram centenas de soldados e dezenas de canhões, apontados uns para os outros.
 - Som ambiente: sea
 - Efeitos sonoros marcados: sting@10, thump@40
-- Efeito + som nas palavras-chave: canhões -> burst + som de tiro/explosao; encena: atira @17 -> acao + som de efeito; explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
+- Efeito + som nas palavras-chave: canhões -> burst + som de tiro/explosao; encena: fala (point) @4 -> acao + som de efeito; encena: atira @17 -> acao + som de efeito; encena: fala (point) @18 -> acao + som de efeito; explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
 - Efeito visual marcado: dust@40
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b8  (~6.9 s)
-- Narracao: O almirante inglês recebeu a ordem de atacar. "Não vou começar uma guerra por causa de um porco", respondeu ele.
+## Cena b8  (~8.3 s)
+- Narracao: O almirante inglês recebeu a ordem de atacar, e se recusou: disse que não ia pôr duas nações em guerra por briga de porco.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: atacar -> ring + som de alerta; encena: x_entrega (reach) @3 -> acao + som de efeito
+- Efeito + som nas palavras-chave: atacar -> ring + som de alerta; briga -> puff + som de baque; encena: x_entrega (reach) @3 -> acao + som de efeito; encena: golpe (punch) @7 -> acao + som de efeito; encena: golpe (punch) @21 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Os soldados passaram meses trocando insultos, e depois, festas. Ninguém deu um tiro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: vence (up) @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_entrega (reach) @4 -> acao + som de efeito; encena: vence (up) @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -108,5 +108,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b12  (~4.5 s)
+- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Som ambiente: birds
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: COMENTE!
 - Funcao na historia: FECHO/PIADA FINAL
 

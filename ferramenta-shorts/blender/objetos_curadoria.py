@@ -20,3 +20,9 @@ caixa((0, 1.35, 0.05), (1.3, 0.95, 0.04), '#e8d6a8', rot=(-0.15, 0, 0))     # pe
 caixa((0.1, 1.38, 0.08), (0.9, 0.06, 0.01), '#3a5a8a', rot=(-0.15, 0, 0.3))  # lago/rio desenhado
 caixa((-0.1, 1.3, 0.08), (0.05, 0.7, 0.01), '#8a2a2a', rot=(-0.15, 0, 0))    # linha da fronteira
 fim(0.01)
+# cesto de batatas da horta (Guerra do Porco, 1859: o porco comia as batatas do fazendeiro)
+novo('batatas')
+torno((0, 0, 0), [(0.36, 0.0), (0.42, 0.06), (0.5, 0.42), (0.52, 0.46)], '#9a6a3a', tampa=False); cil((0, 0.02, 0), 0.36, 0.04, '#8a5a2a')
+for i, (x, z) in enumerate(((0, 0), (0.22, 0.1), (-0.2, 0.12), (0.1, -0.2), (-0.12, -0.18), (0.25, -0.12), (-0.26, -0.05))):
+    bola((x, 0.42 + 0.06 * (i % 2), z), 0.13, '#c79a5a', esc=(1.25, 0.9, 1.0))
+fim(0.01)
