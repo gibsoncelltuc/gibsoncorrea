@@ -50,16 +50,19 @@ Fila: `cd ferramenta-shorts && bash status.sh` | `bash run_queue.sh` (ids em `qu
 **Branch:** claude/bold-sagan-dskrsj
 
 **Recent commits:**
-- 557948fb7 ckpt(montgolfier1783): trecho 11
-- 736bb2424 ckpt(montgolfier1783): trecho 10
-- a5eed04e9 ckpt(montgolfier1783): trecho 7
-- f2dcdde4f ckpt(montgolfier1783): trecho 6
-- a6f8f0fc3 ckpt(montgolfier1783): trecho 5
+- 2f42c8fa ckpt(kekule1865): trecho 8
+- 7e5d30bc ckpt(kekule1865): trecho 6
+- b565f7a9 ckpt(kekule1865): trecho 5
+- 87678c9b ckpt(kekule1865): trecho 3
+- 73497c7b ckpt(kekule1865): trecho 2
+
+**In-progress files (1):**
+- CLAUDE.md
 
 **Project reminders:**
 - Verify the file content before claiming an edit is done
 - Run tests before declaring task complete
 - Re-read CLAUDE.md if you're unsure of project conventions
 
-**Hook generated:** 2026-11-19 17:03:29 UTC
+**Hook generated:** 2026-11-23 15:18:24 UTC
 <!-- post-compact-recovery-end -->
