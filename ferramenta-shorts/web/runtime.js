@@ -187,7 +187,26 @@ export const actorsAt = (f, T) => {
     if (S.shots && o.rifle) { let am = 0, rec = 0; for (const t of S.shots) { am = Math.max(am, f >= t - 16 && f <= t + 16 ? Math.min(1, (f - (t - 16)) / 6, (t + 16 - f) / 6 + 0.35) : 0); if (f >= t && f <= t + 6) rec = Math.max(rec, 1 - (f - t) / 6); } if (am > 0) { opts.aim = qq(am, 1); opts.gest = null; opts.tilt = qq((opts.tilt || 0) - 11 * rec, 0); x -= (a.flip ? -1 : 1) * 0.22 * rec; if (opts.expr === 'angry' || opts.expr === 'shout') opts.fx = { ...(opts.fx || {}), rage: 1 }; } }
     if (o.hold) opts.hp = qq(Math.max(0, Math.sin(f * 0.075 + seed * 2)), 1);   /* usa o objeto de tempos em tempos */
     const _fl = opts._fall; delete opts._fall;
-    out.push(B(T, o, opts, [x, DECK + (typeof a.y === 'function' ? a.y(f) : (a.y || 0)) + (a.yFns ? a.yFns.reduce((acc, fn) => acc + fn(f), 0) : 0) + bob + _gHop + (IN ? IN.hop : 0), z], { id: a.id || o._id, tint, s: (a.s || 1) * (SPEC.cs ?? 1.4) * (1 + 0.07 * (opts.lean || 0)), flip: sideW ? sideW < 0 : !!a.flip, ...(a.roll !== undefined ? { roll: typeof a.roll === 'function' ? a.roll(f) : a.roll } : {}), ...(_fl ? { roll: -1.45 * M.easeIn(_fl) * (a.flip ? -1 : 1) } : {}), ...(a.shadow === false ? { shadow: false, blob: false } : {}), ...(sideW ? { sideWalk: sideW } : {}), ...(a.crop ? { crop: a.crop, shadow: false, blob: false } : {}) })); });
+    out.push(B(T, o, opts, [x, DECK + (typeof a.y === 'function' ? a.y(f) : (a.y || 0)) + (a.yFns ? a.yFns.reduce((acc, fn) => acc + fn(f), 0) : 0) + bob + _gHop + (IN ? IN.hop : 0), z], { id: a.id || o._id, _mv: !!moving, _ia: !!IN || !!(Array.isArray(a.gests) && a.gests.some((g_) => Array.isArray(g_) && ['reach', 'hug'].includes(g_[2]) && f >= g_[0] - 6 && f <= g_[1] + 6)), _nc: !!(a.crop || a.nocol || a.carried), tint, s: (a.s || 1) * (SPEC.cs ?? 1.4) * (1 + 0.07 * (opts.lean || 0)), flip: sideW ? sideW < 0 : !!a.flip, ...(a.roll !== undefined ? { roll: typeof a.roll === 'function' ? a.roll(f) : a.roll } : {}), ...(_fl ? { roll: -1.45 * M.easeIn(_fl) * (a.flip ? -1 : 1) } : {}), ...(a.shadow === false ? { shadow: false, blob: false } : {}), ...(sideW ? { sideWalk: sideW } : {}), ...(a.crop ? { crop: a.crop, shadow: false, blob: false } : {}) })); });
+  /* FISICA (23/11, ordem do Gibson): ninguem atravessa ninguem nem o cenario. Cada boneco tem um "corpo" (raio); quem se sobrepoe e' afastado.
+     Parado: afasta para o lado. Andando: passa NA FRENTE ou ATRAS do outro (desvia em profundidade), nunca por dentro. Objetos solidos no chao empurram o boneco para fora. */
+  if (SPEC.fisica !== false) {
+    const P = out.filter((q) => q.order !== 5 && q.order !== 2 && !q._nc && q.z !== undefined && Math.abs((q.y ?? DECK) - DECK) < 1.5);
+    const R = (q) => 0.34 * (q.s || 1.4);
+    const OB = [];
+    for (const p of (S.props || [])) { if (p.a !== undefined && (f < p.a || f > p.b)) continue; const nm = String(p.asset || '');
+      if (p.carregado || p.nocol || /^(kit\/room|buildings\/|ship|boat|kit\/marco|kit\/rg_|kit\/ring|kit\/porch|kit\/hospital_ext|kit\/prison|kit\/stadium|kit\/tulip_bed|kit\/grave|kit\/cross|nature\/|vehicles\/plane|kit\/falcon|kit\/rocket|kit\/tower|kit\/volcano)/.test(nm)) continue;
+      const pos = moveAt(p.at, p.move, f); const yy = typeof p.y === 'function' ? p.y(f) : (p.y ?? DECK); if (yy - DECK > 1.6) continue;
+      const ps = typeof p.s === 'function' ? p.s(f) : (p.s || 1); const rv = /carro|roadster|cybertruck|truck|taxi|jeep|car\b|car_/.test(nm) ? 1.1 : /^mk\//.test(nm) ? 0.3 : 0.5;
+      OB.push([pos[0], pos[1], rv * ps]); }
+    for (let it = 0; it < 4; it++) {
+      for (let i = 0; i < P.length; i++) for (let j = i + 1; j < P.length; j++) { const A = P[i], Q = P[j]; const dx = Q.x - A.x, dz = Q.z - A.z, d = Math.hypot(dx, dz); const md = (R(A) + R(Q)) * ((A._ia || Q._ia) ? 0.4 : 1); if (d >= md) continue; const push = (md - d) / 2;
+        if (A._mv || Q._mv) { const sz = dz !== 0 ? Math.sign(dz) : (i % 2 ? 1 : -1); A.z -= sz * push; Q.z += sz * push; }
+        else { const sx = dx !== 0 ? Math.sign(dx) : (j % 2 ? 1 : -1); A.x -= sx * push; Q.x += sx * push; } }
+      for (const q of P) for (const [ox, oz, orr] of OB) { const dx = q.x - ox, dz = q.z - oz, md = R(q) + orr, d = Math.hypot(dx, dz); if (d >= md) continue;
+        if (q._mv) q.z += (dz >= 0 ? 1 : -1) * (md - d); else q.x += (dx >= 0 ? 1 : -1) * (md - d); }
+    }
+  }
   return out;
 };
 // ---------- 2D effects ----------
