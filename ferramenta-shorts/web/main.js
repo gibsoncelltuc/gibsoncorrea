@@ -17,7 +17,7 @@ const camera = new THREE.PerspectiveCamera(40, W / H, 0.08, 1500);
 const rx = (a) => a * Math.PI / 180;
 
 // ---------- materials ----------
-const grad = (() => { const d = new Uint8Array([90, 90, 90, 255, 255, 255, 255, 255]); const t = new THREE.DataTexture(d, 2, 1); t.minFilter = t.magFilter = THREE.NearestFilter; t.needsUpdate = true; return t; })();
+const grad = (() => { /* v11: 3 degraus suaves para volume 3D rico estilo Ricks Clips */ const d = new Uint8Array([134, 130, 152, 255, 208, 204, 214, 255, 255, 255, 255, 255]); const t = new THREE.DataTexture(d, 3, 1); t.minFilter = t.magFilter = THREE.LinearFilter; t.needsUpdate = true; return t; })();
 
 // ---- PAINTED 3D look: world-space brush-stroke pigment variation on every toon material ----
 THREE.MeshToonMaterial.prototype.customProgramCacheKey = function () { return this.userData && this.userData.noPaint ? 'liso' : 'pintado'; };   // sem isto o three reaproveitava o shader pintado e o noPaint nao valia
@@ -51,8 +51,8 @@ const M = {
   stone: texM(P.stone(4), 1, 1), stoneMoss: texM(P.mossy(P.stone(4), 5, 1.2), 1, 1),
   grass: texM(P.grass(6), 40, 40), dirt: texM(P.dirt(7), 6, 30), plaster: texM(P.plaster(8), 1, 1), plaster2: texM(P.plaster(18, 28), 1, 1),
   roof: texM(P.roof(9), 2, 2), marble: texM(P.marble(10), 1, 1), marbleTop: toon({ color: '#ece2cf' }),
-  trunk: toon({ color: '#6a4a32' }), cypress: toon({ color: '#3f6b36' }), pine: toon({ color: '#5c8a3c' }), bush: toon({ color: '#6c9a42' }),
-  hill: toon({ color: '#7aa64c' }), hillFar: toon({ color: '#86ad60' }), mount: toon({ color: '#8fa7b8' }), snow: toon({ color: '#f4f6fa' }),
+  trunk: toon({ color: '#6a4a32' }), cypress: toon({ color: '#3f6b36' }), pine: toon({ color: '#4c6835' }), bush: toon({ color: '#57733c' }),
+  hill: toon({ color: '#647d43' }), hillFar: toon({ color: '#748a5b' }), mount: toon({ color: '#8fa7b8' }), snow: toon({ color: '#f4f6fa' }),
   iron: toon({ color: '#5c5a57' }), bronze: toon({ color: '#b08a4a' }), wood: toon({ color: '#7a5434' }), door: toon({ color: '#5a3a24' }),
   window: toon({ color: '#2b2430' }), red: toon({ color: '#b8282b' }),
 };
@@ -132,8 +132,8 @@ const libInst = (n, x, y, z, ry = 0, s = 1, parent = world, tint = null) => { n 
   o.traverse((m) => { if (m.isMesh) { m.material = m.material.clone(); if (tint) m.material.color.set(tint); } }); parent.add(o); return o; };
 // ---- materials ----
 const MW = {
-  grass: texM(P.grass(11), 30, 30), dirt: texM(P.dirt(5), 8, 8), sand: toon({ color: '#e9d7a4' }), rock: toon({ color: '#8d8a86' }), snow: toon({ color: '#6a92f6' }), ice: toon({ color: '#cfe8f5' }),
-  pine: toon({ color: '#2f6a3c' }), pine2: toon({ color: '#3d8248' }), trunk: toon({ color: '#6a4a32' }), plank: texM(P.planks(3), 1, 1), plaster: texM(P.plaster(6, 38), 1, 1), roof: texM(P.roof(7), 2, 2),
+  grass: texM(P.grass(11), 16, 16), dirt: texM(P.dirt(5), 8, 8), sand: toon({ color: '#e9d7a4' }), rock: toon({ color: '#8d8a86' }), snow: toon({ color: '#6a92f6' }), ice: toon({ color: '#cfe8f5' }),
+  pine: toon({ color: '#3a582d' }), pine2: toon({ color: '#496838' }), trunk: toon({ color: '#6a4a32' }), plank: texM(P.planks(3), 1, 1), plaster: texM(P.plaster(6, 38), 1, 1), roof: texM(P.roof(7), 2, 2),
   red: toon({ color: '#c8402f' }), white: toon({ color: '#f1ece0' }), floor: texM(P.planks(9), 1, 1), marble: texM(P.marble(10), 1, 1), stone: texM(P.stone(4), 1, 1), cobble: texM(P.stone(8, 36, 12, 58, 64, 64), 1, 1),
   flame: toon({ color: '#ff8a1f' }), flame2: toon({ color: '#ffd23a' }), log: toon({ color: '#5c3c24' }), gold: toon({ color: '#d8a93a' }), glass: toon({ color: '#9fd6e8' }), wood: toon({ color: '#8b5a34' }), dark: toon({ color: '#2b2430' }),
 };
@@ -187,8 +187,8 @@ const pineAt = (x, y, z, s = 1, parent = world) => { const g = new THREE.Group()
 const trees = [];
 const tufts = []; let tuftMeshes = [];
 function makeTufts(cx, cz, w, d, N, cols, keep = () => true, h = 0.5) {
-  const geo = new THREE.ConeGeometry(0.045, h, 4); geo.translate(0, h / 2, 0); const mesh = new THREE.InstancedMesh(geo, toon({ color: '#ffffff' }), N); mesh.castShadow = false; mesh.receiveShadow = true; world.add(mesh); const rg = P.rng(31 + N); const list = [];
-  for (let i = 0; i < N; i++) { let x, z, k = 0; do { x = cx - w / 2 + rg() * w; z = cz - d / 2 + rg() * d; k++; } while (!keep(x, z) && k < 20); list.push({ x, z, s: 0.7 + rg() * 1.0, ph: rg() * 6.28, ry: rg() * 6.28 }); mesh.setColorAt(i, new THREE.Color(cols[i % cols.length])); } mesh.instanceColor.needsUpdate = true; tuftMeshes.push({ mesh, list }); }
+  const geo = new THREE.ConeGeometry(0.055, h * 0.36, 4); geo.translate(0, h * 0.17, 0); const mesh = new THREE.InstancedMesh(geo, toon({ color: '#ffffff' }), N); mesh.castShadow = false; mesh.receiveShadow = true; world.add(mesh); const rg = P.rng(31 + N); const list = [];
+  for (let i = 0; i < N; i++) { let x, z, k = 0; do { x = cx - w / 2 + rg() * w; z = cz - d / 2 + rg() * d; k++; } while (!keep(x, z) && k < 20); list.push({ x, z, s: 0.45 + rg() * 0.55, ph: rg() * 6.28, ry: rg() * 6.28 }); mesh.setColorAt(i, new THREE.Color(cols[i % cols.length])); } mesh.instanceColor.needsUpdate = true; tuftMeshes.push({ mesh, list }); }
 const _tm = new THREE.Matrix4(), _tq = new THREE.Quaternion(), _te = new THREE.Euler(), _tp = new THREE.Vector3(), _ts = new THREE.Vector3();
 function updateTufts(t) { for (const { mesh, list } of tuftMeshes) { for (let i = 0; i < list.length; i++) { const u = list[i]; const wv = windAt(u.x, u.z, t); _te.set(Math.sin(t * 1.6 + u.ph) * 0.1 * (0.5 + wv) + wv * 0.55 * WX.dz, u.ry, Math.cos(t * 1.3 + u.ph) * 0.1 * (0.5 + wv) - wv * 0.55 * WX.dx); _tq.setFromEuler(_te); _tp.set(u.x, DECK, u.z); _ts.set(u.s, u.s, u.s); _tm.compose(_tp, _tq, _ts); mesh.setMatrixAt(i, _tm); } mesh.instanceMatrix.needsUpdate = true; } }
 // ---- dynamic props pool (3D library objects driven by worldAt(f).props) ----
@@ -229,12 +229,12 @@ SETDEF.countryside = (X) => {
   // hill with trees for the spy
   const hill = add(new THREE.SphereGeometry(1, 20, 12), MW.grass, X - 22, DECK - 0.2, -30, world); hill.scale.set(9, 3.4, 8);
   // hedgerows + oaks + pines
-  for (let i = 0; i < 34; i++) { const x = -52 + i * 3.1; add(new THREE.SphereGeometry(1.1 + (i % 3) * 0.2, 9, 7), toon({ color: ['#4a8a38', '#3f7a32', '#5a9a40'][i % 3] }), X + x, DECK + 0.6, -36, world).scale.y = 0.8; }
+  for (let i = 0; i < 34; i++) { const x = -52 + i * 3.1; add(new THREE.SphereGeometry(1.1 + (i % 3) * 0.2, 9, 7), toon({ color: ['#486630', '#3f5a2a', '#55733a'][i % 3] }), X + x, DECK + 0.6, -36, world).scale.y = 0.8; }
   const rf = P.rng(66); for (let i = 0; i < 26; i++) { const x = -70 + rf() * 140, z = -80 - rf() * 40; pineAt(X + x, DECK, z, 1.1 + rf() * 0.9); }
   for (let i = 0; i < 14; i++) { const sgn = i % 2 ? 1 : -1, x = sgn * (50 + rf() * 40), z = 20 + rf() * 40; const o = libInst('nature/tree_oak', X + x, DECK, z, rf() * 6, 1.1 + rf() * 0.5); o.userData.sw = rf() * 6; trees.push(o); }
   for (const [x, z, n] of [[22, -44, 'buildings/house_small'], [30, -46, 'buildings/house_two'], [40, -45, 'buildings/church'], [-50, -90, 'buildings/barn'], [-42, -92, 'buildings/windmill']]) libInst(n, X + x, DECK, z, 0.2, 1.4);
   for (let i = 0; i < 5; i++) libInst('nature/haybale', X + 30 + i * 2.6, DECK, 4 + (i % 2) * 3, rf() * 6, 1.2);
-  makeTufts(X, -10, 180, 100, 2600, ['#6fae43', '#5fa03a', '#86c456', '#7ab648'], (x, z) => !(z > 10.5 && z < 17.5) && !(z < -49 && z > -63), 0.5);
+  makeTufts(X, -4, 140, 80, 2200, ['#4d682d', '#5c7838', '#6b8542', '#3f5724', '#768c48'], (x, z) => !(z > 10.5 && z < 17.5) && !(z < -49 && z > -63), 0.5);
   farHills(X, -150, '#7d93b8', '#8aa0c4', 14, 260);
   // inflation yard: compressor + hose, tire tracks layer
   const yard = new THREE.Group(); world.add(yard); const comp = new THREE.Group(); comp.position.set(X + 3.4, DECK, 3.4); yard.add(comp); add(box(1.3, 0.9, 0.9), toon({ color: '#d9822b' }), 0, 0.7, 0, comp); add(new THREE.CylinderGeometry(0.28, 0.28, 0.16, 12), MW.dark, 0.6, 0.3, 0.5, comp).rotation.z = Math.PI / 2; add(new THREE.CylinderGeometry(0.28, 0.28, 0.16, 12), MW.dark, -0.6, 0.3, 0.5, comp).rotation.z = Math.PI / 2; add(box(0.9, 0.18, 0.5), MW.dark, 0, 1.25, 0, comp);
@@ -243,7 +243,8 @@ SETDEF.countryside = (X) => {
   const trk = []; for (const dx of [-0.95, 0.95]) { const m = add(box(0.5, 0.03, 1), toon({ color: '#4a3b2a' }), X + dx, DECK + 0.05, 8, world, { cast: false }); trk.push(m); }
   SETDEF._cs = { X, trk, yard };
   UPD.push((W, f, t) => { const k = SETDEF._cs; k.yard.visible = !!W.yard; const tr = W.tracks || 0; k.trk.forEach((m) => { m.scale.z = Math.max(0.001, tr * 14); m.position.z = 8 - 0 - tr * 7 + 7; m.visible = tr > 0.01; }); });
-};
+
+  };
 // SET harbor: wooden pier over open sea (the water plane shows), crates, a ship, lighthouse.
 SETDEF.harbor = (X) => {
   groundPlane(X, -80, 600, 340, toon({ color: '#2f86b8' }), DECK - 1.2, 8); for (let i = 0; i < 24; i++) { const w = add(box(5 + (i % 3) * 2, 0.04, 0.12), toon({ color: '#e8f6ff' }), X - 40 + (i * 7) % 90, DECK - 1.15, -6 - (i * 13) % 70, world, { cast: false }); w.userData.wv = i; }
@@ -504,7 +505,7 @@ const rtInk = new THREE.WebGLRenderTarget(W, H, { type: THREE.HalfFloatType });
 const fsCam = new THREE.OrthographicCamera(-1, 1, 1, -1, 0, 1), fsGeo = new THREE.PlaneGeometry(2, 2);
 const fs = (mat) => { const s = new THREE.Scene(); s.add(new THREE.Mesh(fsGeo, mat)); return s; };
 const inkU = { col: { value: rtColor.texture }, nd: { value: rtNd.texture }, res: { value: new THREE.Vector2(W, H) }, focus: { value: 5 }, cinf: { value: 0 }, near: { value: 1 }, px: { value: 1.6 }, fogCol: { value: new THREE.Color() },
-  sat: { value: 1.08 }, lift: { value: new THREE.Color(0, 0, 0) }, gain: { value: new THREE.Color(1, 1, 1) }, vig: { value: 0.22 }, flash: { value: 0 }, expo: { value: 1 }, zbl: { value: 0 }, gamt: { value: 1 }, gky: { value: [0.0345, 0.1828, 0.3812, 0.6605, 0.8814, 0.9631, 1] }, gkm: { value: [1.483, 1.404, 1.22, 0.987, 0.661, 0.435, 0.369] }, gsat: { value: new THREE.Vector3(0.983, 1.273, 1.457) }, gtS: { value: new THREE.Vector3(0.0647, -0.0137, -0.0541) }, gtM: { value: new THREE.Vector3(-0.0165, -0.0024, 0.0698) }, gtH: { value: new THREE.Vector3(-0.0075, -0.0004, 0.0267) }, gvig: { value: new THREE.Vector2(0.10, 0.45) } };
+  sat: { value: 0.98 }, lift: { value: new THREE.Color(0, 0, 0) }, gain: { value: new THREE.Color(1, 1, 1) }, vig: { value: 0.22 }, flash: { value: 0 }, expo: { value: 1 }, zbl: { value: 0 }, gamt: { value: 1 }, gky: { value: [0.0345, 0.1828, 0.3812, 0.6605, 0.8814, 0.9631, 1] }, gkm: { value: [1.483, 1.404, 1.22, 0.987, 0.661, 0.435, 0.369] }, gsat: { value: new THREE.Vector3(0.92, 1.02, 1.06) }, gtS: { value: new THREE.Vector3(0.0647, -0.0137, -0.0541) }, gtM: { value: new THREE.Vector3(-0.0165, -0.0024, 0.0698) }, gtH: { value: new THREE.Vector3(-0.0075, -0.0004, 0.0267) }, gvig: { value: new THREE.Vector2(0.14, 0.42) } };
 const inkScene = fs(new THREE.ShaderMaterial({ uniforms: inkU, vertexShader: `varying vec2 vUv; void main(){ vUv=uv; gl_Position=vec4(position.xy,0.,1.); }`,
   fragmentShader: `uniform sampler2D col, nd; uniform vec2 res; uniform float focus, cinf, near; uniform float px, sat, vig, flash, expo, zbl, gamt; uniform float gky[7], gkm[7]; uniform vec3 gsat, gtS, gtM, gtH; uniform vec2 gvig; uniform vec3 fogCol, lift, gain; varying vec2 vUv;
 
@@ -546,7 +547,7 @@ const inkScene = fs(new THREE.ShaderMaterial({ uniforms: inkU, vertexShader: `va
   void main(){
     vec3 c = texture2D(col, vUv).rgb;
     if (zbl > .01) { vec3 acc = c; vec2 dir = (vec2(.5) - vUv); for (int i = 1; i < 9; i++) { acc += texture2D(col, vUv + dir * (float(i) / 8.) * zbl * .22).rgb; } c = acc / 9.; }
-    { vec3 bl = vec3(0.); for (int i=0;i<12;i++){ float a_ = float(i)*.5236; vec2 o = vec2(cos(a_),sin(a_)) * (i<6 ? 14. : 34.) / res; vec3 s_ = texture2D(col, vUv+o).rgb; bl += max(s_ - .82, 0.); } c += bl * .07 * vec3(1.,.93,.82); }
+    { vec3 bl = vec3(0.); for (int i=0;i<12;i++){ float a_ = float(i)*.5236; vec2 o = vec2(cos(a_),sin(a_)) * (i<6 ? 14. : 34.) / res; vec3 s_ = texture2D(col, vUv+o).rgb; bl += max(s_ - .82, 0.); } c += bl * .09 * vec3(1.,.92,.78); }
     float e = edgeAt(vUv, px) * (1. - .75*zbl);
     c = mix(c, vec3(.012,.01,.014), e);
     if (flash < -0.5) c = vec3(e);
@@ -711,7 +712,7 @@ const renderCore = (f) => {
     const D = { ky: [0, 0.1, 0.25, 0.5, 0.75, 0.9, 1], km: [1, 1, 1, 1, 1, 1, 1], sat: [1.05, 1.2, 1.15], tS: [-0.012, -0.018, 0.04], tM: [-0.006, -0.01, 0.036], tH: [0, 0, 0], vg: [0.10, 0.45], amt: 1 };
     const Gd = { ky: [0, 0.1, 0.25, 0.5, 0.75, 0.9, 1], km: [1, 1, 1, 1, 1, 1, 1], sat: [0.98, 1.1, 1.2], tS: [-0.01, -0.03, 0.07], tM: [-0.006, -0.02, 0.05], tH: [0, 0, 0], vg: [0.16, 0.40], amt: 1 };
     inkU.gky.value = D.ky.map((v, i) => mx(v, Gd.ky[i])); inkU.gkm.value = D.km.map((v, i) => mx(v, Gd.km[i])); inkU.gsat.value.set(...D.sat.map((v, i) => mx(v, Gd.sat[i]))); inkU.gtS.value.set(...D.tS.map((v, i) => mx(v, Gd.tS[i]))); inkU.gtM.value.set(...D.tM.map((v, i) => mx(v, Gd.tM[i]))); inkU.gtH.value.set(...D.tH.map((v, i) => mx(v, Gd.tH[i]))); inkU.gvig.value.set(mx(D.vg[0], Gd.vg[0]), mx(D.vg[1], Gd.vg[1])); inkU.gamt.value = window.GRADE_OFF ? 0 : (L.gamt ?? mx(D.amt, Gd.amt)); }
-  inkU.zbl.value = C.zb || 0; inkU.px.value = 3.2; inkU.expo.value = L.exp ?? 1; inkU.sat.value = Math.max((L.sat ?? 1.08) * 1.05, 1.1); inkU.flash.value = window.DEBUG_E ? -1 : (C.flash || 0); inkU.vig.value = L.vig ?? 0.22;
+  inkU.zbl.value = C.zb || 0; inkU.px.value = 3.6; inkU.expo.value = L.exp ?? 1; inkU.sat.value = Math.max((L.sat ?? 1.14) * 1.08, 1.18); inkU.flash.value = window.DEBUG_E ? -1 : (C.flash || 0); inkU.vig.value = L.vig ?? 0.22;
   D.cinf *= (window.DOF_K ?? 0.6);   /* canal: fundo nitido ou so' levemente desfocado em 96% dos quadros */ inkU.focus.value = D.focus; inkU.cinf.value = D.cinf; inkU.near.value = D.near ?? 1;
   renderer.setRenderTarget(rtInk); renderer.render(inkScene, fsCam);
   // lens

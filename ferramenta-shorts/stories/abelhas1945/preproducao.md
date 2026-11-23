@@ -17,7 +17,7 @@ b9 | medieval | crowd | 33 | reagir, batalha | kit/beehive, kit/bee, kit/marco_v
 b10 | medieval | orbit | 21 | comemorar, batalha | kit/marco_viena | - | -
 b11 | medieval | close | 1 | dancar | kit/beehive, kit/bee, kit/marco_viena | - | -
 
-OBJETO HEROI: kit/beehive - aparece em 10 cena(s), close nele em 2
+OBJETO HEROI: kit/beehive
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b9, b10
 Interacoes entre personagens: b0 avanca e o outro recua, b2 o outro se aproxima, b3 insiste, b5 discutir, b7 entregar, b8 empurrar
 

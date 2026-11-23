@@ -47,7 +47,7 @@ const rtInk = new THREE.WebGLRenderTarget(W, H, { type: THREE.HalfFloatType });
 const fsCam = new THREE.OrthographicCamera(-1, 1, 1, -1, 0, 1), fsGeo = new THREE.PlaneGeometry(2, 2);
 const fs = (mat) => { const s = new THREE.Scene(); s.add(new THREE.Mesh(fsGeo, mat)); return s; };
 const inkU = { col: { value: rtColor.texture }, nd: { value: rtNd.texture }, res: { value: new THREE.Vector2(W, H) }, focus: { value: 5 }, cinf: { value: 0 }, near: { value: 1 }, px: { value: 1.6 }, fogCol: { value: new THREE.Color() },
-  sat: { value: 1.08 }, lift: { value: new THREE.Color(0, 0, 0) }, gain: { value: new THREE.Color(1, 1, 1) }, vig: { value: 0.22 }, flash: { value: 0 }, expo: { value: 1 }, zbl: { value: 0 }, gamt: { value: 1 }, gky: { value: [0.0345, 0.1828, 0.3812, 0.6605, 0.8814, 0.9631, 1] }, gkm: { value: [1.483, 1.404, 1.22, 0.987, 0.661, 0.435, 0.369] }, gsat: { value: new THREE.Vector3(0.983, 1.273, 1.457) }, gtS: { value: new THREE.Vector3(0.0647, -0.0137, -0.0541) }, gtM: { value: new THREE.Vector3(-0.0165, -0.0024, 0.0698) }, gtH: { value: new THREE.Vector3(-0.0075, -0.0004, 0.0267) }, gvig: { value: new THREE.Vector2(0.10, 0.45) } };
+  sat: { value: 0.98 }, lift: { value: new THREE.Color(0, 0, 0) }, gain: { value: new THREE.Color(1, 1, 1) }, vig: { value: 0.22 }, flash: { value: 0 }, expo: { value: 1 }, zbl: { value: 0 }, gamt: { value: 1 }, gky: { value: [0.0345, 0.1828, 0.3812, 0.6605, 0.8814, 0.9631, 1] }, gkm: { value: [1.483, 1.404, 1.22, 0.987, 0.661, 0.435, 0.369] }, gsat: { value: new THREE.Vector3(0.92, 1.02, 1.06) }, gtS: { value: new THREE.Vector3(0.0647, -0.0137, -0.0541) }, gtM: { value: new THREE.Vector3(-0.0165, -0.0024, 0.0698) }, gtH: { value: new THREE.Vector3(-0.0075, -0.0004, 0.0267) }, gvig: { value: new THREE.Vector2(0.14, 0.42) } };
 const inkScene = fs(new THREE.ShaderMaterial({ uniforms: inkU, vertexShader: `varying vec2 vUv; void main(){ vUv=uv; gl_Position=vec4(position.xy,0.,1.); }`,
   fragmentShader: `uniform sampler2D col, nd; uniform vec2 res; uniform float focus, cinf, near; uniform float px, sat, vig, flash, expo, zbl, gamt; uniform float gky[7], gkm[7]; uniform vec3 gsat, gtS, gtM, gtH; uniform vec2 gvig; uniform vec3 fogCol, lift, gain; varying vec2 vUv;
 
@@ -89,7 +89,7 @@ const inkScene = fs(new THREE.ShaderMaterial({ uniforms: inkU, vertexShader: `va
   void main(){
     vec3 c = texture2D(col, vUv).rgb;
     if (zbl > .01) { vec3 acc = c; vec2 dir = (vec2(.5) - vUv); for (int i = 1; i < 9; i++) { acc += texture2D(col, vUv + dir * (float(i) / 8.) * zbl * .22).rgb; } c = acc / 9.; }
-    { vec3 bl = vec3(0.); for (int i=0;i<12;i++){ float a_ = float(i)*.5236; vec2 o = vec2(cos(a_),sin(a_)) * (i<6 ? 14. : 34.) / res; vec3 s_ = texture2D(col, vUv+o).rgb; bl += max(s_ - .82, 0.); } c += bl * .07 * vec3(1.,.93,.82); }
+    { vec3 bl = vec3(0.); for (int i=0;i<12;i++){ float a_ = float(i)*.5236; vec2 o = vec2(cos(a_),sin(a_)) * (i<6 ? 14. : 34.) / res; vec3 s_ = texture2D(col, vUv+o).rgb; bl += max(s_ - .82, 0.); } c += bl * .09 * vec3(1.,.92,.78); }
     float e = edgeAt(vUv, px) * (1. - .75*zbl);
     c = mix(c, vec3(.012,.01,.014), e);
     if (flash < -0.5) c = vec3(e);
@@ -254,7 +254,7 @@ const renderCore = (f) => {
     const D = { ky: [0, 0.1, 0.25, 0.5, 0.75, 0.9, 1], km: [1, 1, 1, 1, 1, 1, 1], sat: [1.05, 1.2, 1.15], tS: [-0.012, -0.018, 0.04], tM: [-0.006, -0.01, 0.036], tH: [0, 0, 0], vg: [0.10, 0.45], amt: 1 };
     const Gd = { ky: [0, 0.1, 0.25, 0.5, 0.75, 0.9, 1], km: [1, 1, 1, 1, 1, 1, 1], sat: [0.98, 1.1, 1.2], tS: [-0.01, -0.03, 0.07], tM: [-0.006, -0.02, 0.05], tH: [0, 0, 0], vg: [0.16, 0.40], amt: 1 };
     inkU.gky.value = D.ky.map((v, i) => mx(v, Gd.ky[i])); inkU.gkm.value = D.km.map((v, i) => mx(v, Gd.km[i])); inkU.gsat.value.set(...D.sat.map((v, i) => mx(v, Gd.sat[i]))); inkU.gtS.value.set(...D.tS.map((v, i) => mx(v, Gd.tS[i]))); inkU.gtM.value.set(...D.tM.map((v, i) => mx(v, Gd.tM[i]))); inkU.gtH.value.set(...D.tH.map((v, i) => mx(v, Gd.tH[i]))); inkU.gvig.value.set(mx(D.vg[0], Gd.vg[0]), mx(D.vg[1], Gd.vg[1])); inkU.gamt.value = window.GRADE_OFF ? 0 : (L.gamt ?? mx(D.amt, Gd.amt)); }
-  inkU.zbl.value = C.zb || 0; inkU.px.value = 3.2; inkU.expo.value = L.exp ?? 1; inkU.sat.value = Math.max((L.sat ?? 1.08) * 1.05, 1.1); inkU.flash.value = window.DEBUG_E ? -1 : (C.flash || 0); inkU.vig.value = L.vig ?? 0.22;
+  inkU.zbl.value = C.zb || 0; inkU.px.value = 3.6; inkU.expo.value = L.exp ?? 1; inkU.sat.value = Math.max((L.sat ?? 1.14) * 1.08, 1.18); inkU.flash.value = window.DEBUG_E ? -1 : (C.flash || 0); inkU.vig.value = L.vig ?? 0.22;
   D.cinf *= (window.DOF_K ?? 0.6);   /* canal: fundo nitido ou so' levemente desfocado em 96% dos quadros */ inkU.focus.value = D.focus; inkU.cinf.value = D.cinf; inkU.near.value = D.near ?? 1;
   renderer.setRenderTarget(rtInk); renderer.render(inkScene, fsCam);
   // lens

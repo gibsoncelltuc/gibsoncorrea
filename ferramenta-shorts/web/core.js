@@ -15,8 +15,8 @@ const libInst = (n, x, y, z, ry = 0, s = 1, parent = world, tint = null) => { n 
   o.traverse((m) => { if (m.isMesh) { m.material = m.material.clone(); if (tint) m.material.color.set(tint); } }); parent.add(o); return o; };
 // ---- materials ----
 const MW = {
-  grass: texM(P.grass(11), 30, 30), dirt: texM(P.dirt(5), 8, 8), sand: toon({ color: '#e9d7a4' }), rock: toon({ color: '#8d8a86' }), snow: toon({ color: '#6a92f6' }), ice: toon({ color: '#cfe8f5' }),
-  pine: toon({ color: '#2f6a3c' }), pine2: toon({ color: '#3d8248' }), trunk: toon({ color: '#6a4a32' }), plank: texM(P.planks(3), 1, 1), plaster: texM(P.plaster(6, 38), 1, 1), roof: texM(P.roof(7), 2, 2),
+  grass: texM(P.grass(11), 16, 16), dirt: texM(P.dirt(5), 8, 8), sand: toon({ color: '#e9d7a4' }), rock: toon({ color: '#8d8a86' }), snow: toon({ color: '#6a92f6' }), ice: toon({ color: '#cfe8f5' }),
+  pine: toon({ color: '#3a582d' }), pine2: toon({ color: '#496838' }), trunk: toon({ color: '#6a4a32' }), plank: texM(P.planks(3), 1, 1), plaster: texM(P.plaster(6, 38), 1, 1), roof: texM(P.roof(7), 2, 2),
   red: toon({ color: '#c8402f' }), white: toon({ color: '#f1ece0' }), floor: texM(P.planks(9), 1, 1), marble: texM(P.marble(10), 1, 1), stone: texM(P.stone(4), 1, 1), cobble: texM(P.stone(8, 36, 12, 58, 64, 64), 1, 1),
   flame: toon({ color: '#ff8a1f' }), flame2: toon({ color: '#ffd23a' }), log: toon({ color: '#5c3c24' }), gold: toon({ color: '#d8a93a' }), glass: toon({ color: '#9fd6e8' }), wood: toon({ color: '#8b5a34' }), dark: toon({ color: '#2b2430' }),
 };
@@ -70,8 +70,8 @@ const pineAt = (x, y, z, s = 1, parent = world) => { const g = new THREE.Group()
 const trees = [];
 const tufts = []; let tuftMeshes = [];
 function makeTufts(cx, cz, w, d, N, cols, keep = () => true, h = 0.5) {
-  const geo = new THREE.ConeGeometry(0.045, h, 4); geo.translate(0, h / 2, 0); const mesh = new THREE.InstancedMesh(geo, toon({ color: '#ffffff' }), N); mesh.castShadow = false; mesh.receiveShadow = true; world.add(mesh); const rg = P.rng(31 + N); const list = [];
-  for (let i = 0; i < N; i++) { let x, z, k = 0; do { x = cx - w / 2 + rg() * w; z = cz - d / 2 + rg() * d; k++; } while (!keep(x, z) && k < 20); list.push({ x, z, s: 0.7 + rg() * 1.0, ph: rg() * 6.28, ry: rg() * 6.28 }); mesh.setColorAt(i, new THREE.Color(cols[i % cols.length])); } mesh.instanceColor.needsUpdate = true; tuftMeshes.push({ mesh, list }); }
+  const geo = new THREE.ConeGeometry(0.055, h * 0.36, 4); geo.translate(0, h * 0.17, 0); const mesh = new THREE.InstancedMesh(geo, toon({ color: '#ffffff' }), N); mesh.castShadow = false; mesh.receiveShadow = true; world.add(mesh); const rg = P.rng(31 + N); const list = [];
+  for (let i = 0; i < N; i++) { let x, z, k = 0; do { x = cx - w / 2 + rg() * w; z = cz - d / 2 + rg() * d; k++; } while (!keep(x, z) && k < 20); list.push({ x, z, s: 0.45 + rg() * 0.55, ph: rg() * 6.28, ry: rg() * 6.28 }); mesh.setColorAt(i, new THREE.Color(cols[i % cols.length])); } mesh.instanceColor.needsUpdate = true; tuftMeshes.push({ mesh, list }); }
 const _tm = new THREE.Matrix4(), _tq = new THREE.Quaternion(), _te = new THREE.Euler(), _tp = new THREE.Vector3(), _ts = new THREE.Vector3();
 function updateTufts(t) { for (const { mesh, list } of tuftMeshes) { for (let i = 0; i < list.length; i++) { const u = list[i]; const wv = windAt(u.x, u.z, t); _te.set(Math.sin(t * 1.6 + u.ph) * 0.1 * (0.5 + wv) + wv * 0.55 * WX.dz, u.ry, Math.cos(t * 1.3 + u.ph) * 0.1 * (0.5 + wv) - wv * 0.55 * WX.dx); _tq.setFromEuler(_te); _tp.set(u.x, DECK, u.z); _ts.set(u.s, u.s, u.s); _tm.compose(_tp, _tq, _ts); mesh.setMatrixAt(i, _tm); } mesh.instanceMatrix.needsUpdate = true; } }
 // ---- dynamic props pool (3D library objects driven by worldAt(f).props) ----
