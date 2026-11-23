@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 01 - A Batalha de Karánsebes
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countryside | 11 cenas, 155 palavras (~53 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countryside | 12 cenas, 166 palavras (~57 s)
 
 ## Cena b0  (~3.4 s)
 - Narracao: Um exército inteiro conseguiu perder uma batalha contra si mesmo.
@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 - Narracao: Era o exército austríaco, marchando contra os turcos, com soldados de vários países, que mal se entendiam.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: marchando -> dust + som de impacto
+- Efeito + som nas palavras-chave: marchando -> dust + som de impacto; encena: chega (point) @4 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: VÁRIAS LÍNGUAS | mapa: KARÁNSEBES
 - Funcao na historia: desenvolvimento
@@ -47,11 +47,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 - Texto na tela: AGUARDENTE
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~8.3 s)
-- Narracao: Aí chegou a infantaria, querendo a parte dela. "Não tem pra vocês", disseram os hussardos. A discussão virou empurra-empurra, e alguém deu um tiro.
+## Cena b5  (~7.6 s)
+- Narracao: Aí chegou a infantaria, querendo a parte dela. Os hussardos não quiseram dividir. A discussão virou empurra-empurra, e alguém deu um tiro.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: cavalaria: 2 soldados a cavalo (AUT) -> acao + som de efeito; chegou -> dust + som de impacto; discussão -> puff + som de baque; tiro -> burst + som de tiro/explosao; encena: chega (point) @1 -> acao + som de efeito; encena: x_entrega (reach) @21 -> acao + som de efeito; encena: atira @23 -> acao + som de efeito
+- Efeito + som nas palavras-chave: cavalaria: 2 soldados a cavalo (AUT) -> acao + som de efeito; chegou -> dust + som de impacto; tiro -> burst + som de tiro/explosao; encena: chega (point) @1 -> acao + som de efeito; encena: x_entrega (reach) @19 -> acao + som de efeito; encena: atira @21 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 - Narracao: No escuro, alguém gritou: "Turcos! Turcos!" E o pânico tomou o acampamento.
 - Som ambiente: birds | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou: -> ring + som de alerta; pânico -> dust + som de impacto; encena: grita (up) @3 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; (rosto) scared -> expr + som de efeito; gritou: -> ring + som de alerta; pânico -> dust + som de impacto; encena: grita (up) @3 -> acao + som de efeito; encena: grita (up) @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: TURCOS!
 - Funcao na historia: GRANDE MOMENTO
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 - Narracao: Um oficial mandou usar a artilharia, e os canhões dispararam contra o próprio exército.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: artilharia -> burst + som de tiro/explosao; canhões -> burst + som de tiro/explosao; dispararam -> burst + som de tiro/explosao; encena: fala (point) @2 -> acao + som de efeito; encena: atira @5 -> acao + som de efeito; explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
+- Efeito + som nas palavras-chave: artilharia -> burst + som de tiro/explosao; canhões -> burst + som de tiro/explosao; dispararam -> burst + som de tiro/explosao; encena: fala (point) @2 -> acao + som de efeito; encena: atira @5 -> acao + som de efeito; encena: atira @9 -> acao + som de efeito; explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 - Narracao: Dois dias depois, os turcos chegaram de verdade, e acharam o acampamento abandonado. Contam que foram até dez mil baixas, mas os historiadores duvidam desse número.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: chegaram -> dust + som de impacto; baixas -> puff + som de baque; encena: chega (point) @5 -> acao + som de efeito; encena: olha (point) @9 -> acao + som de efeito; encena: perde (facepalm) @19 -> acao + som de efeito
+- Efeito + som nas palavras-chave: chegaram -> dust + som de impacto; baixas -> puff + som de baque; encena: chega (point) @5 -> acao + som de efeito; encena: olha (point) @9 -> acao + som de efeito; encena: sai @12 -> acao + som de efeito; encena: perde (facepalm) @19 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 10.000?
 - Funcao na historia: desenvolvimento
@@ -99,5 +99,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 - Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; venceram -> stars + som de sino; encena: vence (up) @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: FOGO AMIGO
+- Funcao na historia: desenvolvimento
+
+## Cena b11  (~4.5 s)
+- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Som ambiente: birds
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: COMENTE!
 - Funcao na historia: FECHO/PIADA FINAL
 

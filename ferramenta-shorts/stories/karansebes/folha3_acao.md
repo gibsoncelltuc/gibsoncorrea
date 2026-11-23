@@ -1,10 +1,10 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 01 - A Batalha de Karánsebes
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 69 acoes catalogadas, 69 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 75 acoes catalogadas, 75 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.1s a 2.9s - 10 palavras - plano crowd
+## Cena b0 - 0.0s a 3.3s - 10 palavras - plano crowd
 > "Um exército inteiro conseguiu perder uma batalha contra si mesmo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -17,24 +17,25 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 7 | - | PLACA | 1788 | OK |
 
-## Cena b1 - 4.1s a 9.3s - 17 palavras - plano orbit
+## Cena b1 - 3.7s a 9.6s - 17 palavras - plano orbit
 > "Era o exército austríaco, marchando contra os turcos, com soldados de vários países, que mal se entendiam."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | marchando (5.6s) | EFEITO: dust | poeira + som | OK |
-| 2 | - | ATUACAO | reagir | OK |
-| 3 | - | MAPA | KARÁNSEBES | OK |
-| 4 | - | PLACA | VÁRIAS LÍNGUAS | OK |
+| 1 | marchando (5.2s) | EFEITO: dust | poeira + som | OK |
+| 2 | marchando (5.2s) | ACAO: chega | entra andando pela lateral | OK |
+| 3 | - | ATUACAO | reagir | OK |
+| 4 | - | MAPA | KARÁNSEBES | OK |
+| 5 | - | PLACA | VÁRIAS LÍNGUAS | OK |
 
-## Cena b2 - 10.7s a 13.1s - 10 palavras - plano track
+## Cena b2 - 10.0s a 13.3s - 10 palavras - plano track
 > "Numa noite, os hussardos foram na frente procurar o inimigo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | CENA | cavalaria: 2 soldados a cavalo (HUS) | OK |
 
-## Cena b3 - 14.5s a 18.1s - 8 palavras - plano two
+## Cena b3 - 13.7s a 16.3s - 8 palavras - plano two
 > "Não acharam turco nenhum. Acharam moradores vendendo aguardente."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -42,100 +43,111 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | aproxima-se | OK |
 | 2 | - | ATUACAO | reagir | OK |
 
-## Cena b4 - 19.4s a 21.8s - 7 palavras - plano two
+## Cena b4 - 16.7s a 18.9s - 7 palavras - plano group
 > "Compraram tudo, beberam, e a festa começou."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | Compraram (19.4s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | Compraram (19.4s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 3 | beberam (20.4s) | EFEITO: stars | estrelinhas + som | OK |
-| 4 | beberam (20.4s) | ACAO: x_bebe | leva o copo a boca | OK |
-| 5 | festa (21.5s) | EFEITO: stars | estrelinhas + som | OK |
-| 6 | festa (21.5s) | ACAO: vence | bracos para cima + brilho | OK |
+| 1 | Compraram (16.7s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | Compraram (16.7s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 3 | beberam (17.4s) | EFEITO: stars | estrelinhas + som | OK |
+| 4 | beberam (17.4s) | ACAO: x_bebe | leva o copo a boca | OK |
+| 5 | festa (18.5s) | EFEITO: stars | estrelinhas + som | OK |
+| 6 | festa (18.5s) | ACAO: vence | bracos para cima + brilho | OK |
 | 7 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
 | 8 | - | INTERACAO | brindar | OK |
 | 9 | - | ATUACAO | comemorar | OK |
 | 10 | - | PLACA | AGUARDENTE | OK |
 
-## Cena b5 - 23.0s a 32.3s - 24 palavras - plano group
-> "Aí chegou a infantaria, querendo a parte dela. "Não tem pra vocês", disseram os hussardos. A discussão virou empurra-empurra, e alguém deu um tiro."
+## Cena b5 - 19.3s a 27.0s - 22 palavras - plano two
+> "Aí chegou a infantaria, querendo a parte dela. Os hussardos não quiseram dividir. A discussão virou empurra-empurra, e alguém deu um tiro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | chegou (23.2s) | EFEITO: dust | poeira + som | OK |
-| 2 | chegou (23.2s) | ACAO: chega | entra andando pela lateral | OK |
-| 3 | discussão (29.8s) | EFEITO: puff | fumaca + som | OK |
-| 4 | deu (32.0s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 5 | tiro (32.3s) | EFEITO: burst | estouro/clarao + som | OK |
-| 6 | tiro (32.3s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 7 | - | CENA | cavalaria: 2 soldados a cavalo (AUT) | OK |
-| 8 | - | INTERACAO | empurrar | OK |
-| 9 | - | ATUACAO | conversar | OK |
-| 10 | - | CHEGADA | alguem entra andando | OK |
+| 1 | chegou (19.6s) | EFEITO: dust | poeira + som | OK |
+| 2 | chegou (19.6s) | ACAO: chega | entra andando pela lateral | OK |
+| 3 | deu (26.3s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 4 | tiro (27.0s) | EFEITO: burst | estouro/clarao + som | OK |
+| 5 | tiro (27.0s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 6 | - | CENA | cavalaria: 2 soldados a cavalo (AUT) | OK |
+| 7 | - | INTERACAO | empurrar | OK |
+| 8 | - | ATUACAO | conversar | OK |
+| 9 | - | CHEGADA | alguem entra andando | OK |
 
-## Cena b6 - 33.4s a 38.8s - 12 palavras - plano orbit
+## Cena b6 - 27.4s a 31.5s - 12 palavras - plano orbit
 > "No escuro, alguém gritou: "Turcos! Turcos!" E o pânico tomou o acampamento."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | gritou: (34.5s) | EFEITO: ring | onda + som | OK |
-| 2 | gritou (34.5s) | ACAO: grita | grita de bracos para cima | OK |
-| 3 | pânico (38.1s) | EFEITO: dust | poeira + som | OK |
-| 4 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
-| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 6 | - | ATUACAO | conversar | OK |
-| 7 | - | PLACA | TURCOS! | OK |
+| 1 | gritou: (28.5s) | EFEITO: ring | onda + som | OK |
+| 2 | gritou (28.5s) | ACAO: grita | grita de bracos para cima | OK |
+| 3 | pânico (30.4s) | EFEITO: dust | poeira + som | OK |
+| 4 | pânico (30.4s) | ACAO: grita | grita de bracos para cima | OK |
+| 5 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
+| 6 | - | EMOCAO: scared | o rosto vira "scared" na palavra | OK |
+| 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 8 | - | ATUACAO | conversar | OK |
+| 9 | - | PLACA | TURCOS! | OK |
 
-## Cena b7 - 40.3s a 46.3s - 19 palavras - plano crowd
+## Cena b7 - 31.9s a 38.5s - 19 palavras - plano crowd
 > "Acontece que ninguém entendia a língua do vizinho. Todo mundo atirava em todo mundo, achando que eram os turcos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | atirava (44.0s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | atirava (44.0s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 1 | atirava (35.6s) | EFEITO: burst | estouro/clarao + som | OK |
+| 2 | atirava (35.6s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 3 | - | CENA | tiros: 5 soldados caem no chao | OK |
 | 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 5 | - | ATUACAO | reagir | OK |
 
-## Cena b8 - 47.4s a 51.5s - 14 palavras - plano group
+## Cena b8 - 38.9s a 43.7s - 14 palavras - plano group
 > "Um oficial mandou usar a artilharia, e os canhões dispararam contra o próprio exército."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | mandou (48.0s) | ACAO: fala | aponta explicando | OK |
-| 2 | artilharia (48.7s) | EFEITO: burst | estouro/clarao + som | OK |
-| 3 | artilharia (48.7s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 4 | canhões (49.9s) | EFEITO: burst | estouro/clarao + som | OK |
-| 5 | dispararam (50.2s) | EFEITO: burst | estouro/clarao + som | OK |
-| 6 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
-| 7 | - | INTERACAO | susto | OK |
-| 8 | - | ATUACAO | reagir | OK |
+| 1 | mandou (39.6s) | ACAO: fala | aponta explicando | OK |
+| 2 | artilharia (40.7s) | EFEITO: burst | estouro/clarao + som | OK |
+| 3 | artilharia (40.7s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 4 | canhões (41.9s) | EFEITO: burst | estouro/clarao + som | OK |
+| 5 | dispararam (42.2s) | EFEITO: burst | estouro/clarao + som | OK |
+| 6 | dispararam (42.2s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 7 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
+| 8 | - | INTERACAO | susto | OK |
+| 9 | - | ATUACAO | reagir | OK |
 
-## Cena b9 - 52.7s a 62.1s - 26 palavras - plano group
+## Cena b9 - 44.1s a 53.3s - 26 palavras - plano two
 > "Dois dias depois, os turcos chegaram de verdade, e acharam o acampamento abandonado. Contam que foram até dez mil baixas, mas os historiadores duvidam desse número."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | chegaram (54.5s) | EFEITO: dust | poeira + som | OK |
-| 2 | chegaram (54.5s) | ACAO: chega | entra andando pela lateral | OK |
-| 3 | acharam (55.8s) | ACAO: olha | aponta/olha | OK |
-| 4 | baixas (59.8s) | EFEITO: puff | fumaca + som | OK |
-| 5 | baixas (59.8s) | ACAO: perde | mao na testa | OK |
-| 6 | - | INTERACAO | avanca e o outro recua | OK |
-| 7 | - | ATUACAO | reagir | OK |
-| 8 | - | CHEGADA | alguem entra andando | OK |
-| 9 | - | PLACA | 10.000? | OK |
+| 1 | chegaram (45.9s) | EFEITO: dust | poeira + som | OK |
+| 2 | chegaram (45.9s) | ACAO: chega | entra andando pela lateral | OK |
+| 3 | acharam (47.4s) | ACAO: olha | aponta/olha | OK |
+| 4 | abandonado (48.5s) | ACAO: sai | sai andando pela lateral | OK |
+| 5 | baixas (51.1s) | EFEITO: puff | fumaca + som | OK |
+| 6 | baixas (51.1s) | ACAO: perde | mao na testa | OK |
+| 7 | - | INTERACAO | avanca e o outro recua | OK |
+| 8 | - | ATUACAO | reagir | OK |
+| 9 | - | CHEGADA | alguem entra andando | OK |
+| 10 | - | PLACA | 10.000? | OK |
 
-## Cena b10 - 63.3s a 65.1s - 8 palavras - plano two
+## Cena b10 - 53.7s a 56.3s - 8 palavras - plano close
 > "Os turcos venceram sem dar um único tiro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | venceram (63.8s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | venceram (63.8s) | ACAO: vence | bracos para cima + brilho | OK |
+| 1 | venceram (54.4s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | venceram (54.4s) | ACAO: vence | bracos para cima + brilho | OK |
 | 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
 | 4 | - | INTERACAO | pular | OK |
 | 5 | - | ATUACAO | comemorar | OK |
 | 6 | - | PLACA | FOGO AMIGO | OK |
+
+## Cena b11 - 56.7s a 61.1s - 13 palavras - plano two
+> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | PLACA | COMENTE! | OK |
 
