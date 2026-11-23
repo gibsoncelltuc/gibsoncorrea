@@ -84,8 +84,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Segundo a Tesla, ele vai de zero a cem em menos de um segundo.
 - Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): ENG (variante 0, expressao grin, segura paper); POV (variante 0, expressao surprised)
 - Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/roadster26, kit/tower
@@ -134,7 +134,7 @@ kit/rampa_curva | b1 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/roadster26 | grandes momentos: b7 | planos abertos: 3 | mistura: close 16% | medio 61% | aberto 19% | detalhe 5%
+- Objeto heroi: kit/roadster26 | grandes momentos: b7 | planos abertos: 3 | mistura: close 16% | medio 63% | aberto 19% | detalhe 3%
 - Interacoes: b0 insiste, b2 vai ate o outro, b3 cochichar, b6 pular, b8 aproxima-se
 - RISCOS GERAIS: nenhum
 

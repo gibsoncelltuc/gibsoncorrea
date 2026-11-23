@@ -12,7 +12,7 @@ b4 | outback | wide | 1 | encena | kit/roadster26, kit/torre_luz, kit/tower | - 
 b5 | outback | group | 1 | reagir | kit/roadster26, kit/torre_luz, kit/tower | - | -
 b6 | outback | two | 2 | comemorar, INTERAGEM: pular | kit/torre_luz, kit/tower | - | -
 b7 | street | orbit | 14 | batalha | kit/tower | - | -
-b8 | street | two | 2 | conversar, INTERAGEM: aproxima-se | kit/roadster26, kit/tower | paper | -
+b8 | street | group | 2 | conversar, INTERAGEM: aproxima-se | kit/roadster26, kit/tower | paper | -
 b9 | street | close | 1 | conversar | kit/tower | - | -
 b10 | interior galpao | two | 1 | conversar | kit/roadster26 | - | -
 b11 | interior galpao | close | 1 | conversar | - | - | -
