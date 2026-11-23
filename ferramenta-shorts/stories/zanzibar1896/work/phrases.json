@@ -1,7 +1,7 @@
 {
- "duration": 56.28,
- "frames30": 1688,
- "source": "silence-align (cost 1.04)",
+ "duration": 61.056,
+ "frames30": 1832,
+ "source": "silence-align (cost 1.01)",
  "segments": [
   [
    0.16325,
@@ -13,7 +13,7 @@
   ],
   [
    4.67325,
-   6.01442
+   6.01213
   ],
   [
    6.28475,
@@ -21,7 +21,7 @@
   ],
   [
    8.37592,
-   9.67654
+   9.67433
   ],
   [
    9.90742,
@@ -36,7 +36,7 @@
    16.0611
   ],
   [
-   16.9411,
+   16.9404,
    18.875
   ],
   [
@@ -92,32 +92,40 @@
    41.9696
   ],
   [
-   42.8267,
-   43.8222
+   42.8372,
+   43.8696
   ],
   [
-   44.1103,
-   45.1848
+   44.0592,
+   45.3787
   ],
   [
-   45.5211,
-   46.3286
+   45.7177,
+   46.731
   ],
   [
-   47.1797,
-   48.2336
+   47.6002,
+   48.654
   ],
   [
-   49.0884,
-   49.84
+   49.5089,
+   50.2672
   ],
   [
-   50.0867,
-   52.1632
+   50.5071,
+   52.5826
   ],
   [
-   53.028,
-   55.5443
+   53.4484,
+   55.9647
+  ],
+  [
+   56.7565,
+   58.2009
+  ],
+  [
+   58.4937,
+   60.2555
   ]
  ],
  "phrases": [
@@ -134,7 +142,7 @@
   {
    "text": "uma ilha da costa da \u00c1frica,",
    "s": 4.673,
-   "e": 6.014
+   "e": 6.012
   },
   {
    "text": "controlada pela Inglaterra.",
@@ -144,7 +152,7 @@
   {
    "text": "O sult\u00e3o morreu de repente,",
    "s": 8.376,
-   "e": 9.677
+   "e": 9.674
   },
   {
    "text": "e um primo dele correu para o pal\u00e1cio,",
@@ -163,7 +171,7 @@
   },
   {
    "text": "\"Saia do pal\u00e1cio at\u00e9 as nove da manh\u00e3\",",
-   "s": 16.941,
+   "s": 16.94,
    "e": 18.875
   },
   {
@@ -233,38 +241,48 @@
   },
   {
    "text": "\u00c0s nove e quarenta,",
-   "s": 42.827,
-   "e": 43.822
+   "s": 42.837,
+   "e": 43.87
   },
   {
-   "text": "o pal\u00e1cio se rendeu,",
-   "s": 44.11,
-   "e": 45.185
+   "text": "a bandeira do pal\u00e1cio caiu,",
+   "s": 44.059,
+   "e": 45.379
   },
   {
-   "text": "e o barulho parou.",
-   "s": 45.521,
-   "e": 46.329
+   "text": "e os canh\u00f5es pararam.",
+   "s": 45.718,
+   "e": 46.731
   },
   {
    "text": "Trinta e oito minutos.",
-   "s": 47.18,
-   "e": 48.234
+   "s": 47.6,
+   "e": 48.654
   },
   {
    "text": "No mesmo dia,",
-   "s": 49.088,
-   "e": 49.84
+   "s": 49.509,
+   "e": 50.267
   },
   {
    "text": "os ingleses colocaram outro sult\u00e3o no trono.",
-   "s": 50.087,
-   "e": 52.163
+   "s": 50.507,
+   "e": 52.583
   },
   {
    "text": "E ainda mandaram a conta das balas para Zanzibar.",
-   "s": 53.028,
-   "e": 55.544
+   "s": 53.448,
+   "e": 55.965
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 56.757,
+   "e": 58.201
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 58.494,
+   "e": 60.255
   }
  ]
 }

@@ -34,7 +34,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Os ingleses não gostaram. "Saia do palácio até as nove da manhã", avis...
 - Cenario: interior pedra | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): ALM (variante 0, expressao stern, segura paper); ING (variante 0, expressao stern)
 - Animacao: conversar | interacao: insiste
@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - O sultão fugiu pela porta dos fundos, e foi pedir abrigo no consulado ...
-- Cenario: palace | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: track = travelling lateral acompanhando quem anda
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): SUL (variante 0, expressao shock); GUA (variante 1, expressao shock)
@@ -113,12 +113,22 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balas
 - RISCOS: nenhum
 
+## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Cenario: palace | luz: day | clima: limpo
+- Camera: close = close no rosto; empurra devagar
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Personagens principais (1): SUL (variante 0, expressao grin)
+- Animacao: reagir
+- Objetos/modelos: kit/marco_zanzibar
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
+- RISCOS: nenhum
+
 ## PARA O BLENDER (objetos 3D deste video)
 Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito no Blender; a ferramenta so' poe em cena, pinta o contorno e anima. Nada de objeto "quadradao": use `blender/formas.py` (cil, bola, torno, tubo, arco, caixa com chanfro).
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/marco_zanzibar | b0, b1, b4, b6, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_zanzibar | b0, b1, b4, b6, b7, b9, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/throne | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 cannon | b4, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -129,12 +139,14 @@ buildings/castle_tower | b8 | pronto | conferir na folha de contato se le bem; s
 
 
 ## Video inteiro
-- Objeto heroi: cannon | grandes momentos: b4, b6 | planos abertos: 4 | mistura: close 15% | medio 62% | aberto 22% | detalhe 2%
+- Objeto heroi: cannon | grandes momentos: b4, b6 | planos abertos: 4 | mistura: close 21% | medio 57% | aberto 20% | detalhe 2%
 - Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b3 insiste, b9 vai ate o outro
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 1 risco(s) em aberto
+## RESUMO: 2 risco(s) em aberto
 - b9: a narracao cita "sultao" e ninguem em cena esta vestido a carater
+- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh zanzibar1896 bN bM` (so essas cenas).
