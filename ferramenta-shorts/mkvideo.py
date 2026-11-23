@@ -1166,7 +1166,7 @@ def build_beat(k, b):
             elif STATE.get('loop_top') and STATE['loop_top'][3] == k - 1 and re.search(r' (soltou|se soltou|voou|girou|gira|pousou|aterriss)', _tv) and 'y' not in ex:   # DO TOPO DA RAMPA: se solta, voa girando (barrel roll) com os propulsores soltando fumaca e pousa numa nuvem branca
                 _rx0, _zr, _sgF, _ = STATE.pop('loop_top'); z = _zr
                 pr.append(f"{{ asset: 'kit/rampa_curva', at: [X + {num(_rx0)}, {num(_zr)}], s: 1, drop: false{', ry: 3.1416' if _sgF < 0 else ''} }}")
-                _j0 = _jx(r'(soltou|voou|girou|gira)'); _T0 = (f"WS({starts[k] + _j0}) - 6" if _j0 is not None else f"({a}) + 8"); _TF = 54; _DX = -_sgF * 10.0
+                _j0 = _jx(r'(soltou|voou|girou|gira)'); _T0 = (f"WS({starts[k] + _j0}) - 6" if _j0 is not None else f"({a}) + 8"); _TF = 54; _DX = -_sgF * 6.0
                 _u = f"Math.min(1, Math.max(0, (f - ({_T0})) / {_TF}))"
                 extra += (f", xf: (f) => X + {num(_rx0)} + {num(_DX)} * {_u}, y: (f) => {{ const u = {_u}; return DK + 0.28 + {num(2 * _RL)} * (1 - u) * (1 - u) + 2.5 * u * (1 - u); }}"
                           f", rz: (f) => {num(_sgF)} * Math.PI * (1 + {_u}), rx: (f) => 2 * Math.PI * {_u} * {_u} * (3 - 2 * {_u}), move: [[X + {num(_rx0)}, {num(_zr)}], {a}, {bb}, 'lin'], align: false")

@@ -7,7 +7,7 @@ b1 | reveal | noite  | tropa, mapa | encena: fala (point) @15 (acao + som de efe
 b2 | two | -  | interior, objeto na mao | - | -
 b3 | group | -  | interior, objeto na mao | segredo (ring + som de alerta); encena: pensa (think) @1 (acao + som de efeito) | -
 b4 | wide | noite  | tropa | encena: x_dirige (point) @8 (acao + som de efeito); encena: escala (lift) @9 (acao + som de efeito) | -
-b5 | group | noite  | - | encena: x_solta (up) @2 (acao + som de efeito); encena: voa (point) @3 (acao + som de efeito); encena: x_desce (point) @8 (acao + som de efeito) | -
+b5 | group | noite  | tropa | encena: x_solta (up) @2 (acao + som de efeito); encena: voa (point) @3 (acao + som de efeito); encena: x_desce (point) @8 (acao + som de efeito) | -
 b6 | two | noite  | - | (rosto) laugh (expr + som de efeito); encena: vence (up) @1 (acao + som de efeito) | -
 b7 | orbit | -  | batalha aberta com tiros, tropa | - | -
 b8 | two | -  | objeto na mao | - | -

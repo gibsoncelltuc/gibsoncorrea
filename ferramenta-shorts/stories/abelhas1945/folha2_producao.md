@@ -17,17 +17,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
-- Animacao: -
+- Animacao: encena
 - Objetos/modelos: kit/marco_viena, kit/beehive
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): austria
 - RISCOS: nenhum
 
 ## Cena b2 - Ele construiu uma colmeia com vidro para ver tudo lá dentro, e colocou...
 - Cenario: countryside | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): FRI (variante 0, expressao suspicious); ASS (variante 0, expressao smile)
-- Animacao: conversar | interacao: o outro se aproxima
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (2): FRI (variante 0, expressao suspicious); ASS (variante 0, expressao smile) | multidao: 12 de POV
+- Animacao: conversar | batalha encenada
 - Objetos/modelos: kit/beehive, kit/bee, kit/marco_viena
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): agua, colmeia, jardim, vidro
 - RISCOS: nenhum
@@ -37,7 +37,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): FRI (variante 0, expressao grin, segura paper); ASS (variante 0, expressao surprised)
-- Animacao: conversar | interacao: insiste
+- Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/bee, kit/beehive
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): abelhas, costas
 - RISCOS: nenhum
@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Se a comida estava perto, ela dava voltinhas. Se estava longe, fazia u...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): FRI (variante 0, expressao stern); COL (variante 0, expressao suspicious)
@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - E o mais incrível: o ângulo da rebolada mostrava a direção, comparada ...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): FRI (variante 0, expressao shock)
@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Quanto mais tempo ela rebolava, mais longe estava a comida. Era um map...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): FRI (variante 0, expressao laugh); ASS (variante 0, expressao grin)
@@ -93,7 +93,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - Ele repetiu os testes centenas de vezes, mudando o açúcar de lugar. As...
-- Cenario: medieval | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao surprised); COL (variante 0, expressao shock); FRI (variante 0, expressao smug) | multidao: 30 de POV
@@ -103,23 +103,33 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b10 - Em mil novecentos e setenta e três, já idoso, ele ganhou o Prêmio Nobe...
-- Cenario: medieval | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): FRI (variante 0, expressao laugh); ASS (variante 0, expressao laugh); COL (variante 0, expressao grin) | multidao: 18 de POV
-- Animacao: comemorar | batalha encenada
-- Objetos/modelos: kit/marco_viena
+- Cenario: interior pedra | luz: day | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Personagens principais (3): FRI (variante 0, expressao laugh); ASS (variante 0, expressao laugh); COL (variante 0, expressao grin) | multidao: 4 de POV
+- Animacao: comemorar | interacao: pular
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): premio
 - RISCOS: nenhum
 
 ## Cena b11 - Então, da próxima vez que vir uma abelha, lembre: ela pode estar conta...
-- Cenario: medieval | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Cenario: countryside | luz: day | clima: limpo
+- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): FRI (variante 0, expressao smile)
 - Animacao: dancar
 - Objetos/modelos: kit/beehive, kit/bee, kit/marco_viena
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): abelha, proxima, segredo
+- RISCOS: nenhum
+
+## Cena b12 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Cenario: countryside | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Personagens principais (1): FRI (variante 0, expressao grin)
+- Animacao: conversar
+- Objetos/modelos: kit/marco_viena
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -129,12 +139,12 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/beehive | b0, b1, b2, b3, b4, b5, b6, b7, b9, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/bee | b0, b2, b3, b4, b5, b6, b7, b9, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_viena | b0, b1, b2, b4, b5, b6, b7, b9, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_viena | b0, b1, b2, b4, b5, b6, b7, b9, b11, b12 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/beehive | grandes momentos: b9, b10 | planos abertos: 3 | mistura: close 21% | medio 64% | aberto 10% | detalhe 5%
-- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b3 insiste, b5 discutir, b7 entregar, b8 empurrar
+- Objeto heroi: kit/beehive | grandes momentos: b2, b9 | planos abertos: 3 | mistura: close 18% | medio 67% | aberto 10% | detalhe 4%
+- Interacoes: b0 avanca e o outro recua, b3 o outro se aproxima, b5 discutir, b7 entregar, b8 empurrar, b10 pular
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

@@ -175,8 +175,15 @@
    "set": "outback",
    "hora": "noite",
    "fachada": false,
-   "cx": 0.0,
-   "cz": -7.0
+   "cx": -1.5,
+   "cz": -7.0,
+   "crowd": {
+    "n": 0,
+    "outfits": [
+     "POV"
+    ],
+    "march": false
+   }
   },
   {
    "who": [
@@ -210,8 +217,15 @@
    "set": "outback",
    "hora": "noite",
    "fachada": false,
-   "cx": 0.0,
-   "cz": -7.0
+   "cx": -1.5,
+   "cz": -7.0,
+   "crowd": {
+    "n": 0,
+    "outfits": [
+     "POV"
+    ],
+    "march": false
+   }
   },
   {
    "who": [
@@ -322,5 +336,6 @@
  },
  "cinf": 1.5,
  "exp": 1.404,
- "min_momentos": 0
+ "min_momentos": 0,
+ "regiao": "nenhuma"
 }

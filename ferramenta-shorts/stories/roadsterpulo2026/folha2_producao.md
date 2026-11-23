@@ -56,7 +56,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: outback | luz: noite | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (1): ENA (variante 0, expressao shock)
+- Personagens principais (1): ENA (variante 0, expressao shock) | multidao: 0 de POV
 - Animacao: reagir
 - Objetos/modelos: kit/roadster26, kit/torre_luz, kit/tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fumaca
