@@ -10,10 +10,10 @@ b4 | wide | noite  | tropa | encena: fala (point) @4 (acao + som de efeito); enc
 b5 | group | noite  | tropa | encena: x_solta (up) @2 (acao + som de efeito); encena: voa (point) @3 (acao + som de efeito); encena: x_desce (point) @8 (acao + som de efeito) | -
 b6 | two | noite  | - | (rosto) laugh (expr + som de efeito); encena: vence (up) @1 (acao + som de efeito) | -
 b7 | orbit | -  | batalha aberta com tiros, tropa | - | -
-b8 | two | -  | objeto na mao | - | -
+b8 | group | -  | objeto na mao | - | -
 b9 | close | -  | - | (rosto) distrust (expr + som de efeito) | -
 b10 | two | -  | interior | encena: pula @5 (acao + som de efeito) | -
 b11 | close | -  | interior, placa: COMENTE! | - | -
 
-Mistura de planos: close 16% | medio 61% | aberto 19% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 16% | medio 63% | aberto 19% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

@@ -78,7 +78,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
-## Cena b8 - 48.5s a 53.3s - 14 palavras - plano two
+## Cena b8 - 48.5s a 53.3s - 14 palavras - plano group
 > "Segundo a Tesla, ele vai de zero a cem em menos de um segundo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
