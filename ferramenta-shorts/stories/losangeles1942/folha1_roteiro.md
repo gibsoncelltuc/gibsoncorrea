@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Na madrugada, as sirenes tocaram, as luzes da cidade se apagaram, e holofotes varreram o céu.
 - Som ambiente: sea
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: encena: toca @3 -> acao + som de efeito; encena: empurra (push) @10 -> acao + som de efeito; encena: x_lava (stir) @13 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: toca @3 -> acao + som de efeito; encena: empurra (push) @10 -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

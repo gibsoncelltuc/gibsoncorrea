@@ -1,6 +1,6 @@
 # CRONOGRAMA - A Invasão da Ilha Vazia
 
-Gerado em 24/11 06:55 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 07:13 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -16,7 +16,7 @@ b6 | transicao | mountain | track | sem personagem | - | sandbags | - | Eles pro
 b7 | transicao | harbor | wide | sem personagem | - | navios de guerra ao fundo, no tamanho real, ship | - | Semanas antes, navios japoneses levaram cinco mil homens embora em men
 b8 | simples | mountain | group | USA, CAN, USA | - | - | - | Sem inimigo à vista, os Aliados começaram a atirar uns nos outros, no 
 b9 | simples | arctic | group | USA, CAN | 5 | - | - | Mais de vinte soldados morreram nesses tiros, e um navio americano ain
-b10 | simples | harbor | two | USA | - | dog_sit | - | No fim, só acharam na ilha alguns cachorros abandonados.
+b10 | simples | harbor | group | USA, CAN | - | dog_sit | - | No fim, só acharam na ilha alguns cachorros abandonados.
 b11 | simples | harbor | close | OFF | - | dog_sit | - | Uma das maiores invasões do Pacífico Norte tomou uma ilha completament
 b12 | simples | harbor | two | USA | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 

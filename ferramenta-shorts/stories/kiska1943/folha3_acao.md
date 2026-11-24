@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - A Invasão da Ilha Vazia
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 13 frases, 40 acoes catalogadas, 40 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 13 frases, 41 acoes catalogadas, 41 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.5s - 13 palavras - plano two
@@ -98,15 +98,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 8 | - | INTERACAO | empurrar | OK |
 | 9 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 51.5s a 53.7s - 9 palavras - plano two
+## Cena b10 - 51.5s a 53.7s - 9 palavras - plano group
 > "No fim, só acharam na ilha alguns cachorros abandonados."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | acharam (52.3s) | ACAO: olha | aponta/olha | OK |
 | 2 | abandonados (53.7s) | ACAO: sai | sai andando pela lateral | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| 4 | - | PLACA | SÓ CACHORROS | OK |
+| 3 | - | INTERACAO | discutir | OK |
+| 4 | - | ATUACAO | conversar | OK |
+| 5 | - | PLACA | SÓ CACHORROS | OK |
 
 ## Cena b11 - 55.2s a 58.9s - 12 palavras - plano close
 > "Uma das maiores invasões do Pacífico Norte tomou uma ilha completamente vazia."

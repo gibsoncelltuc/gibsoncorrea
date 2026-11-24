@@ -1,6 +1,13 @@
 {
  "fails": [
   {
+   "f": 1600,
+   "shot": "b10_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
    "f": 1609,
    "shot": "b10_v",
    "why": [
@@ -18,14 +25,21 @@
    "f": 1616,
    "shot": "b10_v",
    "why": [
-    "usa: head/torso cropped (box -0.128, 0.219, 0.222, 0.664)"
+    "empty take: no character in the take"
    ]
   },
   {
    "f": 1620,
    "shot": "b10_v",
    "why": [
-    "usa: head/torso cropped (box -0.055, 0.316, 0.223, 0.636)"
+    "usa: head/torso cropped (box -6.779, -1.411, -1.426, 1.662)"
+   ]
+  },
+  {
+   "f": 1624,
+   "shot": "b10_v",
+   "why": [
+    "usa: head/torso cropped (box -1.971, 0.001, -0.838, 1.003)"
    ]
   }
  ],

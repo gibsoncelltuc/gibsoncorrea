@@ -14,13 +14,13 @@ b6 | mountain | track | 0 | andando | war/sandbags | - | -
 b7 | harbor | wide | 0 | parados (so fala e pisca) | ship, navios de guerra ao fundo, no tamanho real | - | -
 b8 | mountain | group | 3 | reagir, INTERAGEM: avanca e o outro recua | - | - | -
 b9 | arctic | group | 7 | conversar, INTERAGEM: empurrar | - | - | -
-b10 | harbor | two | 1 | conversar | kit/dog_sit, dog | - | -
+b10 | harbor | group | 2 | conversar, INTERAGEM: discutir | kit/dog_sit, dog | - | -
 b11 | harbor | close | 1 | conversar | kit/dog_sit | - | -
 b12 | harbor | two | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/dog_sit
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b4
-Interacoes entre personagens: b1 aproxima-se, b5 susto, b8 avanca e o outro recua, b9 empurrar
+Interacoes entre personagens: b1 aproxima-se, b5 susto, b8 avanca e o outro recua, b9 empurrar, b10 discutir
 
 Cenas com personagens parados: 2 de 13
 FALTA MODELAR: nada

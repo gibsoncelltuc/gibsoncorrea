@@ -199,9 +199,10 @@
    "cenario": "arctic"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
-    "USA"
+    "USA",
+    "CAN"
    ],
    "multidao": 0,
    "objetos": [
