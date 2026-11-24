@@ -36,7 +36,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | MAPA | EL SALVADOR | OK |
 <!-- FISICA -->
 
-## Cena b2 - 10.0s a 16.3s - 18 palavras - plano wide
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+<!-- /FISICA -->
+
+## Cena b2 - 9.7s a 14.2s - 18 palavras - plano wide
 > "Em dois mil e vinte e um, Bukele fez do bitcoin uma moeda oficial, ao lado do dólar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

@@ -16,7 +16,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | - | PLACA | 1989 | OK |
 <!-- FISICA -->
 
-## Cena b1 - 4.8s a 10.4s - 16 palavras - plano wide
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: stars na palavra dinheiro (4.0s): executa: estrelinhas + som
+- ACAO: paga na palavra dinheiro (4.0s): executa: estende a mao com moedas + brilho
+- INTERACAO (a cena toda): executa: o outro se aproxima
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b1 - 4.2s a 9.5s - 16 palavras - plano wide
 > "Era mil novecentos e oitenta e nove, e ele era um empresário famoso de Nova York."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
