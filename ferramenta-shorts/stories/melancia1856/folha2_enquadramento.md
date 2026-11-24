@@ -36,10 +36,10 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b5: "Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e pistol juntos (camera a 8.0 m)
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e pistol juntos (camera a 8.0 m)
 - PERSONAGENS: VIA (jornalista) no centro, expressao angry; sem multidao; acao: empurrar
 - OBJETO war/pistol: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TEXTO NA TELA: "ARMA!" numa placa atras dos personagens, na palavra 6 da frase
+- TEXTO NA TELA: "ARMA!" flutuando no alto, na palavra 6 da frase
 
 ## b6: "Em poucos minutos, a rua virou uma briga enorme entre moradores e viajantes."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day

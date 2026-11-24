@@ -1,1 +1,1 @@
-VISIBILIDADE OK (recalculada 24/11 com a checagem de cortado so' nos personagens da cena)
+VISIBILIDADE OK: objetos citados aparecem, nada tapando a camera, camera fora dos objetos (29 tomadas)

@@ -49,3 +49,9 @@
 - b5: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
 - b6: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
 - b9: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
+
+## 24/11 18:23 autocorrecao de visibilidade
+- b5: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+
+## 24/11 18:24 autocorrecao de visibilidade
+- b5: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
