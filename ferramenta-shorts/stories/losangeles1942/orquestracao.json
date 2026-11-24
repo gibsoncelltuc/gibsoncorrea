@@ -94,12 +94,12 @@
    "cenario": "harbor"
   },
   {
-   "camera": "orbit",
+   "camera": "wide",
    "personagens": [
     "SOL",
     "SOL"
    ],
-   "multidao": 48,
+   "multidao": 32,
    "objetos": [
     "cannon",
     "kit/canhao_moderno",
@@ -108,25 +108,19 @@
    "palavras": 15,
    "cena": "b4",
    "frase": "Alguém viu um objeto no céu, e os soldados começaram a atirar com canhões antiaéreos.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "street"
   },
   {
-   "camera": "orbit",
+   "camera": "group",
    "personagens": [
     "SOL",
     "GEN"
    ],
-   "multidao": 32,
+   "multidao": 10,
    "objetos": [],
    "palavras": 18,
    "cena": "b5",
@@ -155,9 +149,15 @@
    "palavras": 17,
    "cena": "b6",
    "frase": "Foram mais de mil tiros de canhão, e os estilhaços caíram na cidade, que ficou em pânico.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_cidade"
   },

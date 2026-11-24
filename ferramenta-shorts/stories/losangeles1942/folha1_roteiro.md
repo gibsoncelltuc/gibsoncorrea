@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Na véspera, um submarino japonês tinha atirado na Califórnia, e todo mundo achava que vinha mais.
 - Som ambiente: sea | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160
-- Efeito + som nas palavras-chave: tiros: 3 soldados caem no chao -> acao + som de efeito; encena: atira @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: atira @6 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -40,12 +40,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b4  (~5.2 s)
 - Narracao: Alguém viu um objeto no céu, e os soldados começaram a atirar com canhões antiaéreos.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: cannon@40, cannon@90, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148
-- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; atirar -> burst + som de tiro/explosao; canhões -> burst + som de tiro/explosao; encena: olha (point) @1 -> acao + som de efeito; encena: atira @11 -> acao + som de efeito
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: cannon@40, cannon@90
+- Efeito + som nas palavras-chave: atirar -> burst + som de tiro/explosao; canhões -> burst + som de tiro/explosao; encena: olha (point) @1 -> acao + som de efeito; encena: atira @11 -> acao + som de efeito
 - Efeito visual marcado: burst@40, burst@90
 - Texto na tela: FOGO!
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b5  (~6.2 s)
 - Narracao: Os soldados juravam que havia inimigos no céu. Acontece que não havia nada ali, só nuvens e fumaça.
@@ -58,12 +58,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b6  (~5.9 s)
 - Narracao: Foram mais de mil tiros de canhão, e os estilhaços caíram na cidade, que ficou em pânico.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: cannon@40, cannon@100
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: cannon@40, cannon@100, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160, gun@164, gun@168
 - Efeito + som nas palavras-chave: (rosto) scared -> expr + som de efeito; tiros -> burst + som de tiro/explosao; canhão -> burst + som de tiro/explosao; caíram -> dust + som de impacto; pânico -> dust + som de impacto; encena: atira @4 -> acao + som de efeito; encena: grita (up) @16 -> acao + som de efeito
 - Efeito visual marcado: burst@40, burst@100
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b7  (~4.8 s)
 - Narracao: No dia seguinte, os militares discutiram o que tinha acontecido, e ninguém sabia dizer.

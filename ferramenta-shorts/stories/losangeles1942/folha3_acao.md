@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 20 - A Batalha de Los Angeles
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 47 acoes catalogadas, 47 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 46 acoes catalogadas, 46 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.9s - 14 palavras - plano two
@@ -29,10 +29,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | atirado (13.8s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 2 | - | CENA | tiros: 3 soldados caem no chao | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | INTERACAO | cochichar | OK |
-| 5 | - | ATUACAO | conversar | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | INTERACAO | cochichar | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b3 - 17.8s a 23.2s - 16 palavras - plano two
 > "Na madrugada, as sirenes tocaram, as luzes da cidade se apagaram, e holofotes varreram o céu."
@@ -45,7 +44,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | INTERACAO | entregar | OK |
 | 5 | - | ATUACAO | conversar | OK |
 
-## Cena b4 - 24.2s a 28.4s - 15 palavras - plano orbit
+## Cena b4 - 24.2s a 28.4s - 15 palavras - plano wide
 > "Alguém viu um objeto no céu, e os soldados começaram a atirar com canhões antiaéreos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -54,16 +53,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | atirar (27.5s) | EFEITO: burst | estouro/clarao + som | OK |
 | 3 | atirar (27.5s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 4 | canhões (28.1s) | EFEITO: burst | estouro/clarao + som | OK |
-| 5 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 7 | - | PLACA | FOGO! | OK |
+| 5 | - | PLACA | FOGO! | OK |
 
-## Cena b5 - 29.7s a 35.5s - 18 palavras - plano orbit
+## Cena b5 - 29.7s a 35.5s - 18 palavras - plano group
 > "Os soldados juravam que havia inimigos no céu. Acontece que não havia nada ali, só nuvens e fumaça."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | discutir | OK |
+| 1 | - | INTERACAO | discutir | OK |
+| 2 | - | ATUACAO | discutir | OK |
 
 ## Cena b6 - 36.8s a 41.2s - 17 palavras - plano group
 > "Foram mais de mil tiros de canhão, e os estilhaços caíram na cidade, que ficou em pânico."
@@ -77,8 +75,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | pânico (41.2s) | EFEITO: dust | poeira + som | OK |
 | 6 | pânico (41.2s) | ACAO: grita | grita de bracos para cima | OK |
 | 7 | - | EMOCAO: scared | o rosto vira "scared" na palavra | OK |
-| 8 | - | INTERACAO | o outro se aproxima | OK |
-| 9 | - | ATUACAO | conversar | OK |
+| 8 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 9 | - | INTERACAO | o outro se aproxima | OK |
+| 10 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 42.3s a 46.5s - 14 palavras - plano two
 > "No dia seguinte, os militares discutiram o que tinha acontecido, e ninguém sabia dizer."

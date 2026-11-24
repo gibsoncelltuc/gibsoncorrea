@@ -1,0 +1,288 @@
+{
+ "duration": 66.672,
+ "frames30": 2000,
+ "source": "silence-align (cost 1.04)",
+ "segments": [
+  [
+   0.158125,
+   3.72412
+  ],
+  [
+   4.57796,
+   6.82371
+  ],
+  [
+   7.68562,
+   8.52229
+  ],
+  [
+   8.76675,
+   9.3475
+  ],
+  [
+   9.56921,
+   11.1698
+  ],
+  [
+   12.0312,
+   14.2331
+  ],
+  [
+   14.5218,
+   15.5427
+  ],
+  [
+   16.3921,
+   17.4031
+  ],
+  [
+   17.6517,
+   19.5067
+  ],
+  [
+   20.359,
+   21.3497
+  ],
+  [
+   21.6489,
+   23.236
+  ],
+  [
+   23.6255,
+   25.0016
+  ],
+  [
+   25.8418,
+   26.8837
+  ],
+  [
+   27.2045,
+   28.9273
+  ],
+  [
+   29.7655,
+   30.4052
+  ],
+  [
+   30.6067,
+   32.3134
+  ],
+  [
+   32.5018,
+   34.1281
+  ],
+  [
+   35.0072,
+   35.967
+  ],
+  [
+   36.1707,
+   39.5685
+  ],
+  [
+   39.8399,
+   40.7705
+  ],
+  [
+   40.9542,
+   42.0593
+  ],
+  [
+   42.943,
+   43.9911
+  ],
+  [
+   44.2491,
+   46.4429
+  ],
+  [
+   46.6582,
+   47.652
+  ],
+  [
+   48.5219,
+   50.7022
+  ],
+  [
+   50.9381,
+   52.9717
+  ],
+  [
+   53.8357,
+   54.2419
+  ],
+  [
+   54.4765,
+   56.6966
+  ],
+  [
+   57.5542,
+   61.5285
+  ],
+  [
+   62.3548,
+   63.8028
+  ],
+  [
+   64.0958,
+   65.8574
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Trinta e quatro mil soldados invadiram uma ilha onde n\u00e3o havia inimigo nenhum.",
+   "s": 0.158,
+   "e": 3.724
+  },
+  {
+   "text": "Era agosto de mil novecentos e quarenta e tr\u00eas.",
+   "s": 4.578,
+   "e": 6.824
+  },
+  {
+   "text": "A ilha de Kiska,",
+   "s": 7.686,
+   "e": 8.522
+  },
+  {
+   "text": "no Alasca,",
+   "s": 8.767,
+   "e": 9.348
+  },
+  {
+   "text": "estava ocupada pelos japoneses.",
+   "s": 9.569,
+   "e": 11.17
+  },
+  {
+   "text": "Americanos e canadenses chegaram com navios,",
+   "s": 12.031,
+   "e": 14.233
+  },
+  {
+   "text": "avi\u00f5es e tanques.",
+   "s": 14.522,
+   "e": 15.543
+  },
+  {
+   "text": "Antes do desembarque,",
+   "s": 16.392,
+   "e": 17.403
+  },
+  {
+   "text": "bombardearam Kiska durante semanas.",
+   "s": 17.652,
+   "e": 19.507
+  },
+  {
+   "text": "No meio do nevoeiro,",
+   "s": 20.359,
+   "e": 21.35
+  },
+  {
+   "text": "os soldados desceram em sil\u00eancio,",
+   "s": 21.649,
+   "e": 23.236
+  },
+  {
+   "text": "prontos para um combate duro.",
+   "s": 23.625,
+   "e": 25.002
+  },
+  {
+   "text": "Mas teve um problema:",
+   "s": 25.842,
+   "e": 26.884
+  },
+  {
+   "text": "os japoneses j\u00e1 tinham ido embora.",
+   "s": 27.204,
+   "e": 28.927
+  },
+  {
+   "text": "Mesmo assim,",
+   "s": 29.765,
+   "e": 30.405
+  },
+  {
+   "text": "eles procuraram o inimigo por dias,",
+   "s": 30.607,
+   "e": 32.313
+  },
+  {
+   "text": "em t\u00faneis e trincheiras vazias.",
+   "s": 32.502,
+   "e": 34.128
+  },
+  {
+   "text": "Semanas antes,",
+   "s": 35.007,
+   "e": 35.967
+  },
+  {
+   "text": "navios japoneses tinham levado cerca de cinco mil homens embora,",
+   "s": 36.171,
+   "e": 39.569
+  },
+  {
+   "text": "em menos de uma hora,",
+   "s": 39.84,
+   "e": 40.77
+  },
+  {
+   "text": "escondidos na neblina.",
+   "s": 40.954,
+   "e": 42.059
+  },
+  {
+   "text": "Sem inimigo \u00e0 vista,",
+   "s": 42.943,
+   "e": 43.991
+  },
+  {
+   "text": "os Aliados come\u00e7aram a atirar uns nos outros,",
+   "s": 44.249,
+   "e": 46.443
+  },
+  {
+   "text": "no escuro e na neblina.",
+   "s": 46.658,
+   "e": 47.652
+  },
+  {
+   "text": "Mais de vinte soldados morreram nesses tiros,",
+   "s": 48.522,
+   "e": 50.702
+  },
+  {
+   "text": "e um navio americano ainda bateu numa mina.",
+   "s": 50.938,
+   "e": 52.972
+  },
+  {
+   "text": "No fim,",
+   "s": 53.836,
+   "e": 54.242
+  },
+  {
+   "text": "s\u00f3 acharam na ilha alguns cachorros abandonados.",
+   "s": 54.477,
+   "e": 56.697
+  },
+  {
+   "text": "Uma das maiores invas\u00f5es do Pac\u00edfico Norte tomou uma ilha completamente vazia.",
+   "s": 57.554,
+   "e": 61.529
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 62.355,
+   "e": 63.803
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 64.096,
+   "e": 65.857
+  }
+ ]
+}

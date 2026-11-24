@@ -44,20 +44,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - Alguém viu um objeto no céu, e os soldados começaram a atirar com canh...
 - Cenario: street | luz: noite | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): SOL (variante 0, expressao shout); SOL (variante 1, expressao angry) | multidao: 20 de SOL
-- Animacao: encena | batalha encenada
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): SOL (variante 0, expressao shout); SOL (variante 1, expressao angry) | multidao: 10 de SOL
+- Animacao: encena
 - Objetos/modelos: kit/canhao_moderno, kit/searchlight, cannon
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): atirar, canhoes, objeto, soldados
 - RISCOS: nenhum
 
 ## Cena b5 - Os soldados juravam que havia inimigos no céu. Acontece que não havia ...
 - Cenario: harbor | luz: noite | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): SOL (variante 0, expressao shout); GEN (variante 0, expressao surprised) | multidao: 10 de SOL/POV
-- Animacao: discutir
+- Animacao: discutir | interacao: discutir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): soldados
 - RISCOS: nenhum
@@ -67,7 +67,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): CID (variante 0, expressao scared); CID (variante 1, expressao cry) | multidao: 20 de SOL/POV
-- Animacao: conversar | interacao: o outro se aproxima
+- Animacao: conversar | interacao: o outro se aproxima | batalha encenada
 - Objetos/modelos: kit/canhao_moderno, kit/searchlight, cannon, buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canhao, cidade, estilhacos
 - RISCOS: nenhum
@@ -126,8 +126,8 @@ cannon | b4, b6 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/searchlight | grandes momentos: b2, b4 | planos abertos: 3 | mistura: close 7% | medio 68% | aberto 21% | detalhe 4%
-- Interacoes: b0 susto, b2 cochichar, b3 entregar, b6 o outro se aproxima, b7 susto, b8 insiste
+- Objeto heroi: kit/searchlight | grandes momentos: b2, b6 | planos abertos: 2 | mistura: close 5% | medio 74% | aberto 16% | detalhe 4%
+- Interacoes: b0 susto, b2 cochichar, b3 entregar, b5 discutir, b6 o outro se aproxima, b7 susto, b8 insiste
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
