@@ -1,0 +1,337 @@
+{
+ "title": "A Cavalaria que Capturou uma Frota",
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "set": "arctic",
+ "light": "arctic",
+ "mood": "march",
+ "assets": [
+  "ship"
+ ],
+ "outfits": {
+  "FRA": {
+   "jacket": "#2b4a9c",
+   "pants": "#c0262d",
+   "boots": "#1b1b1f",
+   "hat": "shako_tall",
+   "belt": "#e8c45a",
+   "buttons": "#e8c45a",
+   "moustache_on": "#3a2a1f"
+  },
+  "NED": {
+   "jacket": "#2a3f6a",
+   "pants": "#ebe6d4",
+   "boots": "#1b1b1f",
+   "hat": "slouch",
+   "cap": "#1b1b1f"
+  },
+  "OFF": {
+   "jacket": "#2b4a9c",
+   "pants": "#c0262d",
+   "boots": "#1b1b1f",
+   "hat": "shako_tall",
+   "sash": "#e8c45a",
+   "buttons": "#e8c45a",
+   "moustache_on": "#4a3020",
+   "build": "stout"
+  },
+  "GEN": {
+   "jacket": "#2b4a9c",
+   "pants": "#c0262d",
+   "boots": "#1b1b1f",
+   "hat": "shako_tall",
+   "sash": "#e8c45a",
+   "buttons": "#e8c45a",
+   "build": "stout"
+  }
+ },
+ "beats": [
+  {
+   "say": "Uma frota de navios de guerra foi capturada por soldados a cavalo.",
+   "shot": "wide",
+   "who": [
+    "FRA:0:grin",
+    "FRA:1:stern"
+   ],
+   "props": [
+    [
+     "ship",
+     -3,
+     -6,
+     1.3
+    ],
+    [
+     "ship",
+     5,
+     -9,
+     1.2
+    ]
+   ],
+   "mood": "epic",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "clima": "neve",
+   "encena": false,
+   "shot_lock": true,
+   "montado": {
+    "animal": "horse_sela",
+    "z": -2.5
+   }
+  },
+  {
+   "say": "Era mil setecentos e noventa e cinco, a França invadia a Holanda, e fazia um frio absurdo.",
+   "shot": "reveal",
+   "set": "arctic",
+   "mapa": "HOLANDA",
+   "who": [
+    "FRA:0:stern",
+    "NED:0:nervous"
+   ],
+   "text": "1795"
+  },
+  {
+   "say": "A frota holandesa estava ancorada perto de Den Helder, e o mar congelou em volta dela.",
+   "shot": "wide",
+   "who": [
+    "NED:0:nervous",
+    "NED:1:shock"
+   ],
+   "props": [
+    [
+     "ship",
+     -4,
+     -5,
+     1.3
+    ],
+    [
+     "ship",
+     4,
+     -7,
+     1.3
+    ]
+   ],
+   "text": "FROTA CONGELADA",
+   "tat": 7,
+   "tstyle": "white",
+   "set": "arctic",
+   "clima": "neve"
+  },
+  {
+   "say": "Os navios ficaram presos no gelo, sem conseguir sair do lugar.",
+   "shot": "wide",
+   "who": [
+    "NED:2:pained"
+   ],
+   "props": [
+    [
+     "ship",
+     -4,
+     -5,
+     1.3
+    ],
+    [
+     "ship",
+     4,
+     -7,
+     1.3
+    ],
+    [
+     "ship",
+     9,
+     -10,
+     1.1
+    ]
+   ],
+   "set": "arctic",
+   "clima": "neve",
+   "shot_lock": true
+  },
+  {
+   "say": "Do outro lado, os franceses tinham cavalaria, os hussardos, e nenhum navio.",
+   "shot": "group",
+   "who": [
+    "FRA:0:stern",
+    "FRA:1:neutral",
+    "OFF:0:stern"
+   ],
+   "animals": [
+    [
+     "horse",
+     3.6,
+     1.2,
+     "stand",
+     0.7
+    ]
+   ],
+   "mood": "march",
+   "clima": "neve",
+   "set": "arctic"
+  },
+  {
+   "say": "O chefe da cavalaria teve uma ideia maluca: atacar a frota a cavalo.",
+   "shot": "two",
+   "who": [
+    "GEN:0:grin",
+    "OFF:0:surprised"
+   ],
+   "text": "A CAVALO?",
+   "tat": 9,
+   "tstyle": "red",
+   "montado": false,
+   "animals": [],
+   "set": "arctic",
+   "clima": "neve"
+  },
+  {
+   "say": "Só que ninguém sabia se o gelo ia aguentar o peso de centenas de cavalos.",
+   "shot": "wide",
+   "who": [
+    "OFF:0:nervous"
+   ],
+   "set": "arctic",
+   "clima": "neve",
+   "hora": "noite",
+   "animals": [
+    [
+     "horse",
+     2.4,
+     0.8,
+     "stand",
+     0.7
+    ]
+   ],
+   "props": [],
+   "detalhe": false,
+   "_auto_vis": 2
+  },
+  {
+   "say": "Na noite de vinte e três de janeiro, os hussardos atravessaram o gelo, com panos nos cascos dos cavalos.",
+   "shot": "two",
+   "who": [
+    "FRA:0:stern",
+    "FRA:2:neutral"
+   ],
+   "move": 10,
+   "mood": "tense",
+   "set": "arctic",
+   "hora": "noite",
+   "clima": "neve",
+   "montado": {
+    "animal": "horse_sela"
+   },
+   "impact": true,
+   "tiros": false,
+   "sem_mortos": true,
+   "shot_lock": true
+  },
+  {
+   "say": "Acontece que os holandeses nem tentaram lutar. A frota inteira se rendeu.",
+   "shot": "group",
+   "who": [
+    "NED:0:shock",
+    "FRA:1:grin"
+   ],
+   "text": "RENDIDOS",
+   "tat": 9,
+   "tstyle": "red",
+   "light": "arctic",
+   "mood": "playful",
+   "set": "arctic",
+   "clima": "neve",
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "NED"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
+   "impact": true,
+   "shot_lock": true,
+   "tiros": false,
+   "sem_mortos": true,
+   "props": [
+    [
+     "ship",
+     -4,
+     -5,
+     1.3
+    ],
+    [
+     "ship",
+     4,
+     -7,
+     1.3
+    ]
+   ]
+  },
+  {
+   "say": "Mais de uma dezena de navios de guerra, capturados por soldados a cavalo. Cavalaria um, marinha zero.",
+   "shot": "wide",
+   "who": [
+    "FRA:0:laugh",
+    "FRA:2:grin"
+   ],
+   "props": [
+    [
+     "ship",
+     -4,
+     -5,
+     1.3
+    ],
+    [
+     "ship",
+     4,
+     -7,
+     1.3
+    ]
+   ],
+   "animals": [
+    [
+     "horse",
+     2.6,
+     1.0,
+     "stand",
+     0.7
+    ]
+   ],
+   "mood": "playful",
+   "set": "arctic",
+   "clima": "neve"
+  }
+ ],
+ "heroi": null,
+ "visual": {
+  "local": "Den Helder e o canal de Marsdiep, norte da Holanda: mar congelado, navios de guerra presos no gelo, costa plana coberta de neve",
+  "quando": "23 de janeiro de 1795, inverno rigoroso (travessia na noite/madrugada)",
+  "participantes": [
+   "hussardos franceses (8o Hussardos) e infantaria levada a cavalo, sob Louis Joseph Lahure",
+   "marinheiros e oficiais da frota holandesa"
+  ],
+  "roupas": {
+   "FRA": "hussardo frances de 1795: dolma azul com alamares, calca vermelha, barretina alta",
+   "OFF": "oficial de hussardos com faixa dourada",
+   "GEN": "chefe frances de casaca azul e faixa",
+   "NED": "marinheiro holandes de 1795: jaqueta azul curta, calca branca, chapeu redondo de aba"
+  },
+  "cenario": "mar congelado e liso, cavalos atravessando o gelo, navios a vela de tres mastros presos no gelo, neve",
+  "objetos": [
+   "navios de guerra a vela",
+   "cavalos com panos nos cascos",
+   "sabres"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Capture_of_the_Dutch_fleet_at_Den_Helder",
+   "https://commons.wikimedia.org/wiki/File:Prise_de_la_flotte_hollandaise_par_la_cavalerie_fran%C3%A7aise.jpg"
+  ]
+ },
+ "exp": 1.0,
+ "serie": "Guerras Inusitadas",
+ "ep": 22,
+ "titulo_base": "A Cavalaria que Capturou uma Frota",
+ "variar_cenario": false
+}

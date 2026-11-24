@@ -41,7 +41,7 @@
  },
  "beats": [
   {
-   "shot": "wide",
+   "shot": "two",
    "who": [
     "KEK:0:grin",
     "COL:0:surprised"
@@ -49,9 +49,9 @@
    "props": [
     [
      "kit/snake_ring",
-     0.6,
-     1.0,
-     1.5
+     0,
+     -1.4,
+     1.0
     ]
    ],
    "text": "1865",
@@ -61,9 +61,7 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Um dos maiores segredos da química foi resolvido num cochilo, com a ajuda de uma cobra.",
-   "detalhe": false,
-   "_auto_vis": 2
+   "say": "Um dos maiores segredos da química foi resolvido num cochilo, com a ajuda de uma cobra."
   },
   {
    "shot": "wide",
@@ -177,9 +175,9 @@
    "props": [
     [
      "kit/snake_ring",
-     0.6,
-     1.0,
-     1.5
+     1.6,
+     -0.8,
+     1.0
     ]
    ],
    "fx": [
@@ -188,8 +186,7 @@
    "sfx": [
     "ding@40"
    ],
-   "say": "Passou o resto da noite desenhando o anel de seis carbonos. E a conta fechou.",
-   "_auto_vis": 2
+   "say": "Passou o resto da noite desenhando o anel de seis carbonos. E a conta fechou."
   },
   {
    "shot": "group",
@@ -203,9 +200,9 @@
    "props": [
     [
      "kit/snake_ring",
-     0.6,
-     1.0,
-     1.5
+     0,
+     -3.0,
+     1.4
     ]
    ],
    "fx": [
@@ -219,8 +216,7 @@
    "text": "FESTA",
    "titulo": true,
    "say": "Vinte e cinco anos depois, numa festa em Berlim, ele contou o sonho pela primeira vez.",
-   "interior": "pedra",
-   "_auto_vis": 2
+   "interior": "pedra"
   },
   {
    "shot": "wide",
@@ -234,33 +230,29 @@
    "props": [
     [
      "kit/snake_ring",
-     0.6,
-     1.0,
-     1.5
+     0,
+     -1.6,
+     1.2
     ]
    ],
    "detalhe": false,
-   "_auto_vis": 3
+   "_auto_vis": 2
   },
   {
-   "shot": "wide",
+   "shot": "close",
    "who": [
     "KEK:0:smile"
    ],
    "props": [
     [
      "kit/snake_ring",
-     0.6,
-     1.0,
-     1.5
+     1.4,
+     -0.8,
+     1.0
     ]
    ],
    "text": "SONHE",
-   "say": "E ele deixou um conselho: aprendam a sonhar. Mas confiram tudo acordados.",
-   "detalhe": false,
-   "_auto_vis": 3,
-   "d0": 12.0,
-   "d1": 11.0
+   "say": "E ele deixou um conselho: aprendam a sonhar. Mas confiram tudo acordados."
   }
  ],
  "variar_cenario": false,

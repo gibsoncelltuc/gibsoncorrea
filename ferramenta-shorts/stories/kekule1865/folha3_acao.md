@@ -16,7 +16,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | - | ATUACAO | conversar | OK |
 | 6 | - | PLACA | 1865 | OK |
 
-## Cena b1 - 5.4s a 8.7s - 13 palavras - plano reveal
+## Cena b1 - 5.4s a 8.7s - 13 palavras - plano wide
 > "Era mil oitocentos e sessenta e cinco, na cidade de Gante, na Bélgica."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

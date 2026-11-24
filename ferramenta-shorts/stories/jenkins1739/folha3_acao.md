@@ -58,7 +58,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | cochichar | OK |
 | 4 | - | ATUACAO | discutir | OK |
 
-## Cena b6 - 31.6s a 37.2s - 18 palavras - plano crowd
+## Cena b6 - 31.6s a 37.1s - 18 palavras - plano wide
 > "Em mil setecentos e trinta e nove, a guerra começou, com navios ingleses atacando portos espanhóis no Caribe."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -66,7 +66,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 2 | - | PLACA | GUERRA | OK |
 
-## Cena b7 - 37.5s a 40.4s - 11 palavras - plano two
+## Cena b7 - 38.3s a 41.3s - 11 palavras - plano two
 > "Depois de quase dez anos, os dois lados fizeram a paz."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -75,23 +75,23 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | apertar | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b8 - 40.8s a 46.2s - 16 palavras - plano two
+## Cena b8 - 42.4s a 46.0s - 16 palavras - plano two
 > "Quem deu o nome de Guerra da Orelha de Jenkins foi um escritor, um século depois."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | deu (40.9s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 1 | deu (42.5s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 2 | - | INTERACAO | entregar | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 46.3s a 50.7s - 13 palavras - plano close
+## Cena b9 - 47.3s a 50.6s - 13 palavras - plano close
 > "A orelha custou dez anos de guerra, e Jenkins ainda ficou sem ela."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 50.9s a 52.0s - 13 palavras - plano two
+## Cena b10 - 51.8s a 55.1s - 13 palavras - plano two
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

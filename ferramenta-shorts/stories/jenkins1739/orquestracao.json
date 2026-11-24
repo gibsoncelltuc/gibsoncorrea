@@ -146,9 +146,8 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
-    "SOL",
     "SOL"
    ],
    "multidao": 48,

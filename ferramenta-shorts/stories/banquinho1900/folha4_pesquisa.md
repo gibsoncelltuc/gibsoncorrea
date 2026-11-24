@@ -5,7 +5,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Historia: A Guerra do Banquinho Dourado
 - Epoca: 1900 | Lugar: Kumasi, capital do povo ashanti, na Costa do Ouro britanica (hoje Gana): aldeias de casas de barro com telhado de palha, floresta tropical, forte britanico de pedra | Quando: marco a setembro de 1900; de dia, estacao chuvosa
 - HEROIS (objeto): kit/golden_stool
-- HEROIS (personagens): ASH, GOV, CHE, SOL
+- HEROIS (personagens): ASH, GOV, CHE
 - Cenarios: countryside, interior loja, interior madeira, interior pedra, jungle
 - Proibido pela epoca: caravela, carro dos anos 50, escudo, fragata a vela, galera a remo, navio de guerra moderno, objeto moderno, torre de refletor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste

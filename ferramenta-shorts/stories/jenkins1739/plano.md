@@ -8,7 +8,7 @@ b2 | two | -  | batalha aberta com tiros | - | -
 b3 | two | -  | - | - | -
 b4 | two | -  | interior, objeto na mao | (rosto) angry (expr + som de efeito) | -
 b5 | two | -  | interior | brigar (puff + som de baque); encena: golpe (punch) @8 (acao + som de efeito) | -
-b6 | crowd | -  | batalha aberta com tiros, tropa, placa: GUERRA | - | -
+b6 | wide | -  | batalha aberta com tiros, tropa, placa: GUERRA | - | -
 b7 | two | -  | objeto na mao | aperto de mao (acao + som de efeito) | -
 b8 | two | -  | objeto na mao | encena: x_entrega (reach) @1 (acao + som de efeito) | -
 b9 | close | -  | - | - | -

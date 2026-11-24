@@ -50,14 +50,15 @@
   {
    "shot": "two",
    "who": [
-    "GOV:0:smug"
+    "GOV:0:smug",
+    "ASH:0:shock"
    ],
    "props": [
     [
      "kit/golden_stool",
-     0.1,
-     1.2,
-     1.3
+     0.6,
+     1.0,
+     1.5
     ]
    ],
    "text": "1900",
@@ -94,20 +95,20 @@
   {
    "shot": "two",
    "who": [
-    "CHE:0:stern"
+    "CHE:0:stern",
+    "ASH:0:smile"
    ],
    "props": [
     [
      "kit/golden_stool",
-     0.1,
-     1.2,
+     0.3,
+     2.2,
      1.3
     ]
    ],
    "acao": "conversar",
    "say": "Os ashanti tinham um banquinho dourado sagrado, a alma do povo. Nem o rei sentava nele.",
-   "set": "countryside",
-   "_auto_vis": 2
+   "set": "countryside"
   },
   {
    "shot": "two",
@@ -120,17 +121,14 @@
    "say": "Acontece que o governador inglês exigiu o banquinho: \"Por que eu ainda não estou sentado nele?\""
   },
   {
-   "shot": "wide",
+   "shot": "two",
    "set": "countryside",
    "who": [
     "CHE:0:shock",
     "ASH:0:angry"
    ],
    "interacao": "susto",
-   "say": "Os líderes ashanti ficaram em choque, porque isso era como pedir para sentar na alma deles.",
-   "props": [],
-   "detalhe": false,
-   "_auto_vis": 1
+   "say": "Os líderes ashanti ficaram em choque, porque isso era como pedir para sentar na alma deles."
   },
   {
    "shot": "wide",
@@ -141,25 +139,30 @@
    "batalha": true,
    "tiros": false,
    "crowd": {
-    "n": 0
+    "n": 20,
+    "outfits": [
+     "ASH"
+    ],
+    "march": true,
+    "expr": "angry"
    },
    "props": [
     [
      "buildings/castle_tower",
-     -7,
-     -9,
+     0.0,
+     -9.0,
      1.2
     ]
    ],
    "text": "REVOLTA",
    "titulo": true,
    "say": "Eles se revoltaram e cercaram o forte onde o governador estava.",
+   "detalhe": false,
+   "_auto_vis": 3,
    "cx": 0.0,
    "cz": -6.3,
-   "h": 2.8,
-   "d0": 16.0,
-   "d1": 14.0,
-   "_auto_vis": 3
+   "d0": 21.0,
+   "d1": 18.0
   },
   {
    "shot": "wide",
@@ -182,28 +185,24 @@
    "_auto_vis": 2
   },
   {
-   "shot": "wide",
+   "shot": "two",
    "interior": "pedra",
    "who": [
-    "GOV:0:relief"
+    "GOV:0:relief",
+    "PRE:0:smug:paper"
    ],
    "interacao": "entregar",
-   "say": "No fim, os ingleses venceram e a região virou colônia.",
-   "props": [],
-   "detalhe": false,
-   "_auto_vis": 2
+   "say": "No fim, os ingleses venceram e a região virou colônia."
   },
   {
-   "shot": "wide",
+   "shot": "two",
    "who": [
-    "CHE:0:smug"
+    "CHE:0:smug",
+    "ASH:0:grin"
    ],
    "interacao": "cochichar",
    "say": "Mas os ashanti esconderam o banquinho, e os ingleses nunca conseguiram levá-lo.",
-   "interior": "loja",
-   "props": [],
-   "detalhe": false,
-   "_auto_vis": 2
+   "interior": "loja"
   },
   {
    "shot": "close",

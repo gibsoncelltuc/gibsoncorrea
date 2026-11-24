@@ -1,0 +1,1017 @@
+{
+ "id": "banquinho1900",
+ "falhas": [
+  "b5: personagem CORTADO na borda do quadro (boneco grande saindo da tela)",
+  "b6: personagem CORTADO na borda do quadro (boneco grande saindo da tela)",
+  "b6_1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)",
+  "b5: objeto citado \"buildings/castle_tower\" nao aparece na tela (escondido, fora do quadro ou pequeno demais)"
+ ],
+ "tomadas": [
+  {
+   "id": "b0",
+   "quadros": [
+    {
+     "f": 10,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 0.27956989247311825,
+       "vis": 1,
+       "area": 0.03149831103847731
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 25,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 0.16129032258064516,
+       "vis": 1,
+       "area": 0.023992927621795352
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 40,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 0.06451612903225806,
+       "vis": 1,
+       "area": 0.0070747074554697535
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b0_d",
+   "quadros": [
+    {
+     "f": 58,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 0.053763440860215055,
+       "vis": 1,
+       "area": 0.004309530913718094
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 68,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 0.043010752688172046,
+       "vis": 1,
+       "area": 0.004180390308644359
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 77,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 0.043010752688172046,
+       "vis": 0.75,
+       "area": 0.004378057397349699
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b0_v",
+   "quadros": [
+    {
+     "f": 96,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 0.07526881720430108,
+       "vis": 0.8571428571428571,
+       "area": 0.007216451903388184
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 113,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 0.13978494623655913,
+       "vis": 1,
+       "area": 0.023042248873951576
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 130,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 0.06451612903225806,
+       "vis": 1,
+       "area": 0.007117926028438977
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b1",
+   "quadros": [
+    {
+     "f": 179,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 235,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 291,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b2",
+   "quadros": [
+    {
+     "f": 342,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 0.4731182795698925,
+       "vis": 1,
+       "area": 0.01702655954645919
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 363,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 0.13978494623655913,
+       "vis": 1,
+       "area": 0.008749034043183555
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 383,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 0.021505376344086023,
+       "vis": 1,
+       "area": 0.0005683514161309312
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b2_d",
+   "quadros": [
+    {
+     "f": 406,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 0.021505376344086023,
+       "vis": 1,
+       "area": 0.0005952800286787094
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 419,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 0.021505376344086023,
+       "vis": 1,
+       "area": 0.0006210547641605471
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 432,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 0,
+       "vis": 0,
+       "area": 0
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    }
+   ]
+  },
+  {
+   "id": "b2_v",
+   "quadros": [
+    {
+     "f": 457,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 0.1827956989247312,
+       "vis": 1,
+       "area": 0.011958885976394383
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 479,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 0.23655913978494625,
+       "vis": 1,
+       "area": 0.008701098770277646
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 501,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 0.053763440860215055,
+       "vis": 1,
+       "area": 0.0012322742167980225
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b3",
+   "quadros": [
+    {
+     "f": 528,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 545,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 561,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b3~1",
+   "quadros": [
+    {
+     "f": 584,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 601,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 617,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b3~2",
+   "quadros": [
+    {
+     "f": 640,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 657,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 673,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b4",
+   "quadros": [
+    {
+     "f": 696,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 712,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 728,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b4~1",
+   "quadros": [
+    {
+     "f": 751,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 767,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 782,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b4~2",
+   "quadros": [
+    {
+     "f": 805,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 821,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 837,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b5",
+   "quadros": [
+    {
+     "f": 856,
+     "objs": [
+      {
+       "a": "buildings/castle_tower",
+       "inq": 0.6736842105263158,
+       "vis": 0.515625,
+       "area": 0.0704836061349652
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 866,
+     "objs": [
+      {
+       "a": "buildings/castle_tower",
+       "inq": 0.6947368421052632,
+       "vis": 0.4696969696969697,
+       "area": 0.07946672006067498
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 876,
+     "objs": [
+      {
+       "a": "buildings/castle_tower",
+       "inq": 0.7157894736842105,
+       "vis": 0.3235294117647059,
+       "area": 0.0846866302880155
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    }
+   ]
+  },
+  {
+   "id": "b5_1",
+   "quadros": [
+    {
+     "f": 890,
+     "objs": [
+      {
+       "a": "buildings/castle_tower",
+       "inq": 1,
+       "vis": 0.5157894736842106,
+       "area": 0.10811719739241436
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 2
+    },
+    {
+     "f": 898,
+     "objs": [
+      {
+       "a": "buildings/castle_tower",
+       "inq": 0.8210526315789474,
+       "vis": 0.358974358974359,
+       "area": 0.07184658431793477
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 906,
+     "objs": [
+      {
+       "a": "buildings/castle_tower",
+       "inq": 1,
+       "vis": 0.4842105263157895,
+       "area": 0.07483543001052692
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b5_2",
+   "quadros": [
+    {
+     "f": 923,
+     "objs": [
+      {
+       "a": "buildings/castle_tower",
+       "inq": 1,
+       "vis": 0.631578947368421,
+       "area": 0.06499953169344509
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 939,
+     "objs": [
+      {
+       "a": "buildings/castle_tower",
+       "inq": 1,
+       "vis": 0.7263157894736842,
+       "area": 0.04448788129571743
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 954,
+     "objs": [
+      {
+       "a": "buildings/castle_tower",
+       "inq": 1,
+       "vis": 0.8736842105263158,
+       "area": 0.033437427900104545
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b6",
+   "quadros": [
+    {
+     "f": 975,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 2
+    },
+    {
+     "f": 991,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 1006,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b6_1",
+   "quadros": [
+    {
+     "f": 1025,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 1038,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 1051,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    }
+   ]
+  },
+  {
+   "id": "b6_2",
+   "quadros": [
+    {
+     "f": 1075,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 1099,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1122,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b7",
+   "quadros": [
+    {
+     "f": 1149,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1167,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1184,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b7~1",
+   "quadros": [
+    {
+     "f": 1207,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1
+    },
+    {
+     "f": 1224,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1241,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b8",
+   "quadros": [
+    {
+     "f": 1262,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1276,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1290,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b8~1",
+   "quadros": [
+    {
+     "f": 1309,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1324,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1338,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b8~2",
+   "quadros": [
+    {
+     "f": 1357,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1371,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1385,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b9",
+   "quadros": [
+    {
+     "f": 1403,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 0.3978494623655914,
+       "vis": 1,
+       "area": 0.0366434091782244
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1416,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 0.1935483870967742,
+       "vis": 1,
+       "area": 0.022338756139050224
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1429,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 0.07526881720430108,
+       "vis": 1,
+       "area": 0.00707909984912935
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b9_d",
+   "quadros": [
+    {
+     "f": 1444,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 0.07526881720430108,
+       "vis": 1,
+       "area": 0.007338667512467468
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1452,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 0.2903225806451613,
+       "vis": 1,
+       "area": 0.05160425735869627
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1460,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 0.5053763440860215,
+       "vis": 1,
+       "area": 0.09103214687453107
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b9_v",
+   "quadros": [
+    {
+     "f": 1476,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 0.5591397849462365,
+       "vis": 1,
+       "area": 0.09906571775436168
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1491,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 0.26881720430107525,
+       "vis": 1,
+       "area": 0.03699944981045851
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1505,
+     "objs": [
+      {
+       "a": "kit/golden_stool",
+       "inq": 0.06451612903225806,
+       "vis": 1,
+       "area": 0.006611998382656324
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b10",
+   "quadros": [
+    {
+     "f": 1528,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1548,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1567,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  },
+  {
+   "id": "b10~1",
+   "quadros": [
+    {
+     "f": 1594,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1614,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    },
+    {
+     "f": 1633,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0
+    }
+   ]
+  }
+ ]
+}
