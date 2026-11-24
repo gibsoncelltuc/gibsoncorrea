@@ -26,12 +26,11 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b3: "As primeiras tentativas de pouso deram errado, e os foguetes tombaram no mar."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: golden
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.6 m), sem multidao na frente
-- PERSONAGENS: ENG no centro, expressao shock; sem multidao; acao: tomba
+- PERSONAGENS: ENG no centro, expressao shock; sem multidao; acao: fala/gesto
 - OBJETO kit/falcon9_land: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 10.2 m de altura x 4.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +40 da cena
-- EFEITO poeira nos pes: no chao, aos pes; entra no quadro +70 da cena
-- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +50 da cena
-- SOM: thump@40
+- EFEITO respingo: no chao; entra no quadro +30 da cena
+- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
+- SOM: splash@30
 
 ## b4: "Em vinte e um de dezembro, o Falcon nove decolou com onze satélites."
 - LOCAL: loc_pista; hora: golden
@@ -55,18 +54,18 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.9 m), sem multidao na frente
 - PERSONAGENS: ENG no centro, expressao shock; sem multidao; acao: fala/gesto
 - OBJETO kit/falcon9_land: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 11.2 m de altura x 5.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
-- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +50 da cena
+- EFEITO whoosh: -; entra no quadro +10 da cena
+- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
 - SOM: ding@30
 - SOM: thump@50
 
 ## b7: "E pousou inteira, abrindo as pernas no último segundo."
 - LOCAL: loc_pista; hora: noite
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: MUS no centro, expressao laugh; sem multidao; acao: fala/gesto
-- OBJETO kit/falcon9_land: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 12.2 m de altura x 5.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.9 m), sem multidao na frente
+- PERSONAGENS: ENG no centro, expressao laugh; sem multidao; acao: fala/gesto
+- OBJETO kit/falcon9_land: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 11.2 m de altura x 5.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +60 da cena
+- EFEITO poeira nos pes: no chao, aos pes; entra no quadro +60 da cena
 - SOM: ding@20
 - SOM: thump@60
 - TEXTO NA TELA: "POUSOU!" flutuando no alto, na palavra 1 da frase

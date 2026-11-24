@@ -173,16 +173,33 @@
     [
      "kit/falcon9_land",
      0.0,
-     -9.0,
+     -11.9,
      1.0,
      {
-      "fixo": true,
-      "rz": 1.45
+      "rz": 1.45,
+      "fixo": true
      }
     ]
    ],
    "detalhe": false,
-   "objetos": false
+   "objetos": false,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.6 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/falcon9_land",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 3.6,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -316,7 +333,19 @@
    "h": 4.5,
    "d0": 14.0,
    "d1": 12.0,
-   "quadro_manual": true
+   "quadro_manual": true,
+   "quadro": {
+    "local": "loc_pista",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.9 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/falcon9_land",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -358,7 +387,19 @@
    "h": 4.5,
    "d0": 14.0,
    "d1": 12.0,
-   "quadro_manual": true
+   "quadro_manual": true,
+   "quadro": {
+    "local": "loc_pista",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.9 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/falcon9_land",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",

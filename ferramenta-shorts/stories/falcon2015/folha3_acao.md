@@ -37,7 +37,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | deram (19.0s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 2 | tombaram (20.7s) | ACAO: tomba | cai sentado no chao + poeira | OK |
-| 3 | - | ATUACAO | tomba | OK |
+| 3 | - | ATUACAO | reagir | OK |
 
 ## Cena b4 - 22.1s a 25.2s - 13 palavras - plano wide
 > "Em vinte e um de dezembro, o Falcon nove decolou com onze satélites."
