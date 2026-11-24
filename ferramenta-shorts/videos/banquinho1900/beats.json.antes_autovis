@@ -182,7 +182,7 @@
    },
    "props": [
     [
-     "buildings/castle_tower",
+     "kit/forte_colonial",
      0.0,
      -8.0,
      1.0,
@@ -199,10 +199,10 @@
    "objetos": false,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o castle_tower (alvo z -3.6, camera a 48.3 m, altura 4.3 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o forte_colonial (alvo z -3.6, camera a 31.0 m, altura 2.8 m), sem multidao na frente",
     "objetos": [
      {
-      "objeto": "buildings/castle_tower",
+      "objeto": "kit/forte_colonial",
       "lugar": "FUNDO, centro (objeto principal da cena)",
       "tela": "30% da altura da tela",
       "estado": "parado"
@@ -211,9 +211,9 @@
    },
    "cx": 0.0,
    "cz": -3.6,
-   "h": 4.3,
-   "d0": 50.8,
-   "d1": 48.3
+   "h": 2.8,
+   "d0": 32.6,
+   "d1": 31.0
   },
   {
    "shot": "group",
@@ -305,7 +305,7 @@
    "detalhe": false,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e golden_stool juntos (camera a 8.0 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e golden_stool juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/golden_stool",
@@ -318,8 +318,7 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_auto_vis": 1
+   "d1": 8.0
   }
  ],
  "ano": 1900,
