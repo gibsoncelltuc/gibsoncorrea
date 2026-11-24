@@ -89,6 +89,7 @@
     ]
    },
    "detalhe": false,
+   "objetos": false,
    "cx": 0.0,
    "cz": -2.0,
    "h": 3.6,
@@ -108,15 +109,47 @@
    "set": "loc_campo"
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
-    "MUS:0:smile",
-    "ENG:0:worried:paper"
+    "MUS:0:smile"
    ],
    "acao": "discutir",
    "say": "Elon Musk queria reaproveitar foguetes, em vez de jogá-los fora. Muitos achavam impossível.",
    "fachada": false,
-   "set": "hall"
+   "set": "hall",
+   "props": [
+    [
+     "kit/falcon9_land",
+     0.0,
+     -10.3,
+     0.8,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "objetos": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "local": "salao",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 2.9 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/falcon9_land",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.9,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -162,6 +195,7 @@
    },
    "acao": "tomba",
    "detalhe": false,
+   "objetos": false,
    "cx": 0.0,
    "cz": -2.0,
    "h": 3.6,
@@ -176,9 +210,9 @@
    "interacao": "entregar",
    "props": [
     [
-     "kit/rocket",
+     "kit/falcon9_land",
      0.0,
-     -8.0,
+     -12.8,
      1.1,
      {
       "fixo": true
@@ -195,21 +229,22 @@
    "detalhe": false,
    "quadro": {
     "local": "loc_pista",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o rocket (alvo z -3.6, camera a 16.2 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.9 m), sem multidao na frente",
     "objetos": [
      {
-      "objeto": "kit/rocket",
+      "objeto": "kit/falcon9_land",
       "lugar": "FUNDO, centro (objeto principal da cena)",
       "tela": "30% da altura da tela",
       "estado": "parado"
      }
     ]
    },
+   "objetos": false,
    "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 17.0,
-   "d1": 16.2
+   "cz": -2.0,
+   "h": 3.9,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -218,10 +253,10 @@
    ],
    "props": [
     [
-     "kit/falcon_air",
+     "kit/falcon9_land",
      0.0,
-     -10.1,
-     1.5,
+     -12.8,
+     1.1,
      {
       "fixo": true
      }
@@ -243,10 +278,10 @@
    },
    "quadro": {
     "local": "loc_pista",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon_air (alvo z -2.0, camera a 20.0 m, altura 2.8 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.9 m), sem multidao na frente",
     "objetos": [
      {
-      "objeto": "kit/falcon_air",
+      "objeto": "kit/falcon9_land",
       "lugar": "FUNDO, centro (objeto principal da cena)",
       "tela": "30% da altura da tela",
       "estado": "parado"
@@ -254,9 +289,10 @@
     ]
    },
    "detalhe": false,
+   "objetos": false,
    "cx": 0.0,
    "cz": -2.0,
-   "h": 2.8,
+   "h": 3.9,
    "d0": 21.0,
    "d1": 20.0
   },
@@ -304,6 +340,7 @@
     ]
    },
    "detalhe": false,
+   "objetos": false,
    "cx": 0.0,
    "cz": -2.0,
    "h": 3.9,
@@ -356,6 +393,7 @@
     ]
    },
    "detalhe": false,
+   "objetos": false,
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
@@ -418,6 +456,7 @@
      }
     ]
    },
+   "objetos": false,
    "cx": 0.0,
    "cz": -2.0,
    "h": 3.6,
@@ -465,12 +504,15 @@
    "referencias/falcon2015/moodboard.jpg"
   ],
   "buscas": {
-   "Falcon 9": "Falcon 9 first stage landing Landing Zone 1 December 2015",
-   "Cabo Canaveral": "Cape Canaveral launch pad aerial",
-   "engenheiros SpaceX": "SpaceX engineers celebrating landing Hawthorne"
+   "Falcon 9 pouso": "SpaceX Falcon 9 first stage landing Landing Zone 1 December 2015",
+   "Cabo Canaveral": "Cape Canaveral Space Launch Complex 40 aerial",
+   "Elon Musk": "Elon Musk SpaceX 2015",
+   "engenheiros SpaceX": "SpaceX mission control employees cheering landing",
+   "satélites Orbcomm": "Orbcomm OG2 satellite",
+   "Estados Unidos": "map of Florida Cape Canaveral"
   }
  },
- "max_wide": 9,
- "cinf": 3.0,
- "exp": 1.254
+ "max_wide": 10,
+ "cinf": 1.5,
+ "exp": 1.404
 }

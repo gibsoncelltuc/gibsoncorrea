@@ -19,9 +19,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b2: "Elon Musk queria reaproveitar foguetes, em vez de jogá-los fora. Muitos achavam impossível."
 - LOCAL: salao; hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: MUS na esquerda, expressao smile; ENG na direita, expressao worried, segura paper; sem multidao; acao: discutir
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 2.9 m), sem multidao na frente
+- PERSONAGENS: MUS no centro, expressao smile; sem multidao; acao: discutir
+- OBJETO kit/falcon9_land: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 8.2 m de altura x 3.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
 ## b3: "As primeiras tentativas de pouso deram errado, e os foguetes tombaram no mar."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: golden
@@ -35,16 +35,16 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b4: "Em vinte e um de dezembro, o Falcon nove decolou com onze satélites."
 - LOCAL: loc_pista; hora: golden
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o rocket (alvo z -3.6, camera a 16.2 m, altura 2.4 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.9 m), sem multidao na frente
 - PERSONAGENS: MUS no centro, expressao stern; sem multidao; acao: entregar
-- OBJETO kit/rocket: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 4.5 m de altura x 2.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/falcon9_land: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 11.2 m de altura x 5.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "11 SATÉLITES" flutuando no alto, na palavra 1 da frase
 
 ## b5: "Depois de soltar o topo, a parte de baixo voltou para a Terra."
 - LOCAL: loc_pista; hora: golden
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon_air (alvo z -2.0, camera a 20.0 m, altura 2.8 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.9 m), sem multidao na frente
 - PERSONAGENS: ENA no centro, expressao nervous; sem multidao; acao: fala/gesto
-- OBJETO kit/falcon_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 8.0 m de altura x 5.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/falcon9_land: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 11.2 m de altura x 5.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO whoosh: -; entra no quadro +20 da cena
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
 - SOM: whoosh@20

@@ -16,8 +16,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/falcon9_land",
-    "kit/rocket"
+    "kit/falcon9_land"
    ],
    "palavras": 17,
    "cena": "b0",
@@ -46,14 +45,13 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
-    "MUS",
-    "ENG"
+    "MUS"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/rocket"
+    "kit/falcon9_land"
    ],
    "palavras": 13,
    "cena": "b2",
@@ -65,14 +63,13 @@
    "cenario": "hall"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
     "ENG"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/falcon9_land",
-    "kit/rocket"
+    "kit/falcon9_land"
    ],
    "palavras": 13,
    "cena": "b3",
@@ -90,9 +87,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/falcon_air",
-    "kit/rocket",
-    "kit/starlink_sat"
+    "kit/falcon9_land"
    ],
    "palavras": 13,
    "cena": "b4",
@@ -104,13 +99,13 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "ENA"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/falcon_air"
+    "kit/falcon9_land"
    ],
    "palavras": 13,
    "cena": "b5",
@@ -122,7 +117,7 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
     "ENG"
    ],
@@ -164,7 +159,7 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "two",
+   "camera": "reveal",
    "personagens": [
     "ENA",
     "ENG"
@@ -181,14 +176,13 @@
    "cenario": "hall"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
     "MUS"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/falcon9_land",
-    "kit/rocket"
+    "kit/falcon9_land"
    ],
    "palavras": 16,
    "cena": "b9",

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 24 - O Foguete que Voltou de Ré
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.5s - 17 palavras - plano two
@@ -20,7 +20,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | MAPA | ESTADOS UNIDOS | OK |
 
-## Cena b2 - 10.8s a 16.1s - 13 palavras - plano two
+## Cena b2 - 10.8s a 16.1s - 13 palavras - plano wide
 > "Elon Musk queria reaproveitar foguetes, em vez de jogá-los fora. Muitos achavam impossível."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -28,10 +28,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | impossível (16.1s) | EFEITO: ring | onda + som | OK |
 | 2 | impossível (16.1s) | ACAO: duvida | ombros para cima (nao acredita) | OK |
 | 3 | - | EMOCAO: shock | o rosto vira "shock" na palavra | OK |
-| 4 | - | INTERACAO | discutir | OK |
-| 5 | - | ATUACAO | discutir | OK |
+| 4 | - | ATUACAO | discutir | OK |
 
-## Cena b3 - 17.5s a 21.2s - 13 palavras - plano wide
+## Cena b3 - 17.5s a 21.2s - 13 palavras - plano two
 > "As primeiras tentativas de pouso deram errado, e os foguetes tombaram no mar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -48,7 +47,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | decolou (24.2s) | ACAO: voa | decola: poeira no chao, olha para cima | OK |
 | 2 | - | PLACA | 11 SATÉLITES | OK |
 
-## Cena b5 - 26.6s a 29.7s - 13 palavras - plano two
+## Cena b5 - 26.6s a 29.7s - 13 palavras - plano wide
 > "Depois de soltar o topo, a parte de baixo voltou para a Terra."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -57,7 +56,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | voltou (28.9s) | ACAO: chega | entra andando pela lateral | OK |
 | 3 | - | ATUACAO | reagir | OK |
 
-## Cena b6 - 30.8s a 34.6s - 15 palavras - plano wide
+## Cena b6 - 30.8s a 34.6s - 15 palavras - plano two
 > "Acontece que ela desceu de ré, de pé, com o motor aceso freando a queda."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -75,7 +74,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 4 | - | PLACA | POUSOU! | OK |
 
-## Cena b8 - 39.5s a 41.8s - 8 palavras - plano two
+## Cena b8 - 39.5s a 41.8s - 8 palavras - plano reveal
 > "Os funcionários da SpaceX comemoraram e se abraçaram."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -84,17 +83,17 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | comemoraram (40.6s) | ACAO: vence | bracos para cima + brilho | OK |
 | 3 | abraçaram (41.8s) | ACAO: x_abraca | abraco | OK |
 | 4 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 5 | - | INTERACAO | abracar | OK |
-| 6 | - | ATUACAO | comemorar | OK |
+| 5 | - | ATUACAO | comemorar | OK |
 
-## Cena b9 - 43.2s a 46.7s - 16 palavras - plano wide
+## Cena b9 - 43.2s a 46.7s - 16 palavras - plano two
 > "Foi a primeira vez que o primeiro estágio de um foguete orbital voltou e pousou inteiro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | voltou (46.0s) | ACAO: chega | entra andando pela lateral | OK |
 | 2 | pousou (46.4s) | ACAO: x_desce | desce/pousa + poeira no chao | OK |
-| 3 | - | PLACA | PRIMEIRA VEZ | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | PRIMEIRA VEZ | OK |
 
 ## Cena b10 - 47.9s a 49.4s - 6 palavras - plano two
 > "Hoje, pousar de ré virou rotina."

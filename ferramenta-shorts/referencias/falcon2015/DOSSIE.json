@@ -38,10 +38,7 @@
  "objetos_em_cena": [
   "buildings/shop",
   "kit/falcon9_land",
-  "kit/falcon_air",
-  "kit/gosma",
-  "kit/rocket",
-  "kit/starlink_sat"
+  "kit/gosma"
  ],
  "pesquisa_visual": {
   "local": "Cabo Canaveral, Flórida (Landing Zone 1, área de concreto perto da plataforma de lançamento)",
@@ -66,9 +63,12 @@
    "referencias/falcon2015/moodboard.jpg"
   ],
   "buscas": {
-   "Falcon 9": "Falcon 9 first stage landing Landing Zone 1 December 2015",
-   "Cabo Canaveral": "Cape Canaveral launch pad aerial",
-   "engenheiros SpaceX": "SpaceX engineers celebrating landing Hawthorne"
+   "Falcon 9 pouso": "SpaceX Falcon 9 first stage landing Landing Zone 1 December 2015",
+   "Cabo Canaveral": "Cape Canaveral Space Launch Complex 40 aerial",
+   "Elon Musk": "Elon Musk SpaceX 2015",
+   "engenheiros SpaceX": "SpaceX mission control employees cheering landing",
+   "satélites Orbcomm": "Orbcomm OG2 satellite",
+   "Estados Unidos": "map of Florida Cape Canaveral"
   }
  },
  "fontes": [

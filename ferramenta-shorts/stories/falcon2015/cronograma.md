@@ -1,21 +1,21 @@
 # CRONOGRAMA - Poder e Fama EP 24 - O Foguete que Voltou de Ré
 
-Gerado em 24/11 19:35 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 19:41 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_pista | two | MUS | - | falcon9_land, rocket | - | Durante décadas, todo foguete era jogado fora depois de um voo. Até qu
+b0 | simples | loc_pista | two | MUS | - | falcon9_land | - | Durante décadas, todo foguete era jogado fora depois de um voo. Até qu
 b1 | transicao | loc_campo | reveal | POV, POV | 6 | - | - | Foi em dezembro de dois mil e quinze, no Cabo Canaveral, na Flórida.
-b2 | simples | hall | two | MUS, ENG | - | rocket | - | Elon Musk queria reaproveitar foguetes, em vez de jogá-los fora. Muito
-b3 | simples | harbor | wide | ENG | - | falcon9_land, rocket | - | As primeiras tentativas de pouso deram errado, e os foguetes tombaram 
-b4 | simples | loc_pista | wide | MUS | - | falcon_air, rocket, starlink_sat | - | Em vinte e um de dezembro, o Falcon nove decolou com onze satélites.
-b5 | simples | loc_pista | two | ENA | - | falcon_air | - | Depois de soltar o topo, a parte de baixo voltou para a Terra.
-b6 | simples | loc_pista | wide | ENG | - | falcon9_land | - | Acontece que ela desceu de ré, de pé, com o motor aceso freando a qued
+b2 | simples | hall | wide | MUS | - | falcon9_land | - | Elon Musk queria reaproveitar foguetes, em vez de jogá-los fora. Muito
+b3 | simples | harbor | two | ENG | - | falcon9_land | - | As primeiras tentativas de pouso deram errado, e os foguetes tombaram 
+b4 | simples | loc_pista | wide | MUS | - | falcon9_land | - | Em vinte e um de dezembro, o Falcon nove decolou com onze satélites.
+b5 | simples | loc_pista | wide | ENA | - | falcon9_land | - | Depois de soltar o topo, a parte de baixo voltou para a Terra.
+b6 | simples | loc_pista | two | ENG | - | falcon9_land | - | Acontece que ela desceu de ré, de pé, com o motor aceso freando a qued
 b7 | chave | loc_pista | orbit | MUS | - | falcon9_land | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E pousou inteira, abrindo as pernas no último segundo.
-b8 | simples | hall | two | ENA, ENG | 6 | - | - | Os funcionários da SpaceX comemoraram e se abraçaram.
-b9 | simples | loc_pista | wide | MUS | - | falcon9_land, rocket | - | Foi a primeira vez que o primeiro estágio de um foguete orbital voltou
+b8 | simples | hall | reveal | ENA, ENG | 6 | - | - | Os funcionários da SpaceX comemoraram e se abraçaram.
+b9 | simples | loc_pista | two | MUS | - | falcon9_land | - | Foi a primeira vez que o primeiro estágio de um foguete orbital voltou
 b10 | simples | harbor | two | MUS, POV | - | - | - | Hoje, pousar de ré virou rotina.
 b11 | simples | harbor | close | MUS | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
@@ -30,13 +30,13 @@ N | Etapa | O que confere | Estado | Proximo passo
 5 | Voz | narracao neural gerada e tempos por palavra | FEITO | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | FEITO | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | FEITO | 
-8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | PENDENTE | 
-9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | BLOQUEADO (etapa anterior pendente) | ./aprovar_storyboard.sh falcon2015
+8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | FEITO | 
+9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | PENDENTE | ./aprovar_storyboard.sh falcon2015
 10 | Render | todos os quadros renderizados nesta versao das folhas | BLOQUEADO (etapa anterior pendente) | 
 11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | BLOQUEADO (etapa anterior pendente) | 
 12 | Conferencia | conferir.sh sem falha e folha de contato olhada | BLOQUEADO (etapa anterior pendente) | ./conferir.sh falcon2015
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local falcon2015 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
-**Etapa atual:** 8. Storyboard e grade de acoes
+**Etapa atual:** 9. Revisao escrita e aprovacao
 
