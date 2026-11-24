@@ -9,9 +9,7 @@
   "cenarios": [
    "harbor",
    "interior loja",
-   "interior madeira",
    "interior pedra",
-   "loc_campo",
    "street"
   ],
   "cenarios_trocados": []
@@ -33,14 +31,17 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
+  "buildings/house_two",
+  "buildings/lighthouse",
   "buildings/shop",
   "cannon",
   "kit/cake_table",
+  "kit/coin",
   "kit/grave",
   "kit/marco_ulua",
   "kit/room_colonial_shop",
   "kit/room_europa_stone",
-  "kit/room_verde_wood",
+  "kit/room_verde_stone",
   "kit/stall",
   "mk/Barrel",
   "mk/Bed_Twin1",

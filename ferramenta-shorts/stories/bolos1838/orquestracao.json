@@ -30,12 +30,12 @@
    "cenario": "street"
   },
   {
-   "camera": "reveal",
+   "camera": "crowd",
    "personagens": [
     "CON",
     "OFI"
    ],
-   "multidao": 32,
+   "multidao": 48,
    "objetos": [
     "buildings/shop",
     "kit/cake_table",
@@ -45,9 +45,15 @@
    "palavras": 13,
    "cena": "b1",
    "frase": "Um confeiteiro francês tinha uma loja em Tacubaya, perto da Cidade do México.",
-   "classe": "transicao",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "street"
   },
@@ -153,29 +159,22 @@
    "cenario": "harbor"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "GEN"
    ],
-   "multidao": 40,
+   "multidao": 0,
    "objetos": [
-    "cannon",
-    "kit/marco_ulua"
+    "kit/grave"
    ],
-   "palavras": 16,
+   "palavras": 17,
    "cena": "b7",
-   "frase": "Os canhões franceses bombardearam a fortaleza de San Juan de Ulúa, e os soldados tomaram Veracruz.",
-   "classe": "chave",
+   "frase": "Santa Anna foi ferido na perna por metralha francesa, e a perna foi enterrada com honras militares.",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "harbor"
   },
   {
    "camera": "two",
@@ -184,17 +183,15 @@
     "FRA"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/grave"
-   ],
-   "palavras": 17,
+   "objetos": [],
+   "palavras": 22,
    "cena": "b8",
-   "frase": "Santa Anna foi ferido na perna por metralha francesa, e a perna foi enterrada com honras militares.",
+   "frase": "Em março de mil oitocentos e trinta e nove, o México prometeu pagar os seiscentos mil pesos, e a França foi embora.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "interior pedra"
   },
   {
    "camera": "close",
@@ -210,10 +207,10 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "street"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "CON"
    ],

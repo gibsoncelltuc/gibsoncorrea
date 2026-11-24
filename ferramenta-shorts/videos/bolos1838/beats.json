@@ -180,7 +180,9 @@
    "sfx": [
     "cannon@30"
    ],
-   "say": "Os canhões franceses bombardearam a fortaleza de San Juan de Ulúa, e os soldados tomaram Veracruz."
+   "say": "Santa Anna foi ferido na perna por metralha francesa, e a perna foi enterrada com honras militares.",
+   "set": "harbor",
+   "interior": false
   },
   {
    "shot": "two",
@@ -189,7 +191,8 @@
     "FRA:0:neutral:coin"
    ],
    "text": "600.000",
-   "say": "Santa Anna foi ferido na perna por metralha francesa, e a perna foi enterrada com honras militares."
+   "say": "Em março de mil oitocentos e trinta e nove, o México prometeu pagar os seiscentos mil pesos, e a França foi embora.",
+   "interior": "pedra"
   },
   {
    "shot": "close",

@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 07 - A Guerra dos Bolos
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 178 palavras (~61 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 184 palavras (~63 s)
 
 ## Cena b0  (~5.2 s)
 - Narracao: A França foi à guerra contra o México por causa de uma conta de confeitaria.
@@ -13,12 +13,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b1  (~4.5 s)
 - Narracao: Um confeiteiro francês tinha uma loja em Tacubaya, perto da Cidade do México.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124
+- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (OFI) -> acao + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito
+- Efeito visual marcado: ring@12, dust@40
 - Texto na tela: - | mapa: MÉXICO
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b2  (~6.6 s)
 - Narracao: Em mil oitocentos e trinta e dois, oficiais mexicanos saquearam a loja, ou só não pagaram, dizem os mexicanos.
@@ -65,20 +65,20 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b7  (~5.5 s)
-- Narracao: Os canhões franceses bombardearam a fortaleza de San Juan de Ulúa, e os soldados tomaram Veracruz.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: cannon@30, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160
-- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; canhões -> burst + som de tiro/explosao; encena: atira @1 -> acao + som de efeito; explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
+## Cena b7  (~5.9 s)
+- Narracao: Santa Anna foi ferido na perna por metralha francesa, e a perna foi enterrada com honras militares.
+- Som ambiente: sea
+- Efeitos sonoros marcados: cannon@30
+- Efeito + som nas palavras-chave: encena: espeta (punch) @3 -> acao + som de efeito; encena: x_planta (hammer) @13 -> acao + som de efeito
 - Efeito visual marcado: burst@30
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
-## Cena b8  (~5.9 s)
-- Narracao: Santa Anna foi ferido na perna por metralha francesa, e a perna foi enterrada com honras militares.
+## Cena b8  (~7.6 s)
+- Narracao: Em março de mil oitocentos e trinta e nove, o México prometeu pagar os seiscentos mil pesos, e a França foi embora.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: espeta (punch) @3 -> acao + som de efeito; encena: x_planta (hammer) @13 -> acao + som de efeito
+- Efeito + som nas palavras-chave: pagar -> stars + som de sino; encena: fala (point) @11 -> acao + som de efeito; encena: paga (reach) @12 -> acao + som de efeito; encena: sai @21 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 600.000
 - Funcao na historia: desenvolvimento

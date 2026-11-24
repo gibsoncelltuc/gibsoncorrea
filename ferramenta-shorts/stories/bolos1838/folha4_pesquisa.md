@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1838 | Lugar: Tacubaya | Quando: 1832 (saque da confeitaria); novembro e dezembro de 1838 (bloqueio e ataque a Veracruz); março de 1839 (paz)
 - HEROIS (objeto): kit/cake_table
 - HEROIS (personagens): CON, OFI, FRA, REI
-- Cenarios: harbor, interior loja, interior madeira, interior pedra, loc_campo, street
+- Cenarios: harbor, interior loja, interior pedra, street
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
