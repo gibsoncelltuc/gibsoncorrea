@@ -5,10 +5,10 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Historia: A Guerra da Lagosta
 - Epoca: 1961 | Lugar: litoral de Pernambuco e do Nordeste do Brasil: mar azul, barcos de pesca, costa com coqueiros | Quando: 1961 a 1963, de dia
 - HEROIS (objeto): kit/lobster
-- HEROIS (personagens): FRA, BRA, MAR, PES
-- Cenarios: harbor, interior madeira, interior pedra, loc_campo, loc_cidade
+- HEROIS (personagens): BRA, FRA, MAR, PES
+- Cenarios: harbor, interior pedra, loc_estudio
 - Proibido pela epoca: barril, canhao antigo, caravela, carro antigo, carroca, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
-- Tamanho real aplicado: kit/navio_destroier: 30.0 m reais -> escala 8.27 (estava 0.8: pequeno demais); kit/navio_destroier: 30.0 m reais -> escala 8.27 (estava 0.7: pequeno demais)
+- Tamanho real aplicado: kit/navio_destroier: 30.0 m reais -> escala 8.27 (estava 1.0: pequeno demais); kit/navio_destroier: 30.0 m reais -> escala 8.27 (estava 0.8: pequeno demais); kit/navio_destroier: 30.0 m reais -> escala 8.27 (estava 0.7: pequeno demais)
 
 ## Itens pesquisados
 
@@ -30,9 +30,11 @@ objeto | navios de guerra | navios de guerra / navios de guerra 1961 | Battleshi
 objeto | avioes de patrulha | avioes de patrulha / avioes de patrulha 1961 | S-2 Tracker - Avião de patrulha marítima e luta an (referencias/lagosta1961/prints/avioes_de_patrulha_a856c8.jpg); Academia da força Aérea (AFA) em Pirassununga-SP.  (referencias/lagosta1961/prints/avioes_de_patrulha_3050fc.jpg); Academia da Força Aérea (AFA) em Pirassununga. Aer (referencias/lagosta1961/prints/avioes_de_patrulha_e8227a.jpg)
 heroi | lobster | lagosta / A Guerra da Lagosta | California spiny lobster.JPG (referencias/lagosta1961/prints/lobster_e6150f.jpg); Lagosta-vinho-verde-zelene-vino.png (referencias/lagosta1961/prints/lobster_d067d9.jpg); Hummer und Languste.png (referencias/lagosta1961/prints/lobster_8f7d04.jpg)
 epoca | navio da epoca | ship 1961 / ship | Borodino 2026-09 1789820583.JPG (referencias/lagosta1961/prints/navio_da_epoca_48db1f.jpg); Paul (ship, 1961).jpg (referencias/lagosta1961/prints/navio_da_epoca_3fa7b7.jpg); Moscow Borodino 2013-05 37.jpg (referencias/lagosta1961/prints/navio_da_epoca_c55d98.jpg)
+mecanismo | O Brasil dizia que a lagosta anda no fundo do mar, e por isso era bras | brasil dizia lagosta fundo brasileira / lobster diagram | SEM REFERENCIA
+mecanismo | A França respondia que a lagosta nada, e por isso era de quem pescasse | franca respondia lagosta pescasse / lobster diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
-- -
+- Argumento brasileiro (Ministerio das Relacoes Exteriores, 1961-63): a lagosta se desloca andando sobre a plataforma continental, logo e recurso do leito do mar brasileiro; argumento frances: a lagosta nada e e peixe de alto-mar. Fonte: Wikipedia, Guerra da Lagosta; Braga, A Guerra da Lagosta (2004).
 
 ## Fontes visuais do roteirista
 - https://en.wikipedia.org/wiki/Lobster_War

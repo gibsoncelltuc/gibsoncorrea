@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 11 - A Guerra da Lagosta
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 40 acoes catalogadas, 40 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.0s - 14 palavras - plano two
@@ -23,21 +23,19 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 3 | - | MAPA | PERNAMBUCO | OK |
 
-## Cena b2 - 10.1s a 13.6s - 16 palavras - plano wide
+## Cena b2 - 10.1s a 13.6s - 16 palavras - plano two
 > "O Brasil dizia que a lagosta anda no fundo do mar, e por isso era brasileira."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | discutir | OK |
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
 ## Cena b3 - 14.9s a 18.4s - 14 palavras - plano two
 > "A França respondia que a lagosta nada, e por isso era de quem pescasse."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | respondia (15.4s) | ACAO: fala | aponta explicando | OK |
-| 2 | - | INTERACAO | cochichar | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
 ## Cena b4 - 19.6s a 22.5s - 12 palavras - plano group
 > "A França mandou um navio de guerra para proteger os pescadores dela."
@@ -46,8 +44,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | mandou (20.0s) | ACAO: fala | aponta explicando | OK |
 | 2 | proteger (21.4s) | ACAO: x_defende | bracos cruzados se defendendo + onda | OK |
-| 3 | - | INTERACAO | avanca e o outro recua | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b5 - 23.6s a 29.1s - 17 palavras - plano crowd
 > "Acontece que o Brasil não recuou. Mandou navios e aviões para a costa, e a tensão subiu."
@@ -66,7 +63,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | encararam (31.7s) | ACAO: olha | aponta/olha | OK |
 | 2 | chamaram (33.8s) | ACAO: fala | aponta explicando | OK |
 | 3 | achou (37.0s) | ACAO: olha | aponta/olha | OK |
-| 4 | - | INTERACAO | susto | OK |
+| 4 | - | INTERACAO | cochichar | OK |
 | 5 | - | ATUACAO | discutir | OK |
 
 ## Cena b7 - 38.2s a 43.2s - 16 palavras - plano two
@@ -95,14 +92,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | ATUACAO | comemorar | OK |
 | 5 | - | PLACA | 1963 | OK |
 
-## Cena b9 - 50.1s a 53.3s - 13 palavras - plano close
+## Cena b9 - 50.1s a 53.3s - 13 palavras - plano two
 > "No fim, ninguém perguntou para a lagosta de que lado ela queria ficar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | reagir | OK |
+| 1 | - | INTERACAO | susto | OK |
+| 2 | - | ATUACAO | reagir | OK |
 
-## Cena b10 - 54.4s a 57.7s - 13 palavras - plano two
+## Cena b10 - 54.4s a 57.7s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
