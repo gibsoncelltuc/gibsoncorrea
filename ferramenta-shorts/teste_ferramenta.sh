@@ -156,6 +156,7 @@ grep -q "objeto ENORME" visivel.mjs && grep -q "'objeto ENORME' in txt" autocorr
 grep -q "sem tropa/multidao a grua termina a 34 m" mkvideo.py || f "sequencia de grua em cena sem multidao deixa os personagens minusculos (Emus b4, Danca b6)"
 grep -q "no maximo 1,6x mais longe" fit_fast.mjs || f "ajuste de camera afasta sem limite (Tulipas gancho a 2,47x)"
 grep -q "etiqueta|papel|papeis|carta|nome|ficha" mkvideo.py || f "'misturou as etiquetas' vira panela de cozinha (Darwin gancho)"
+grep -q "NAVIO NO CAIS = navio em cima do concreto" mkvideo.py || f "navio posto em cima do cais de concreto no harbor (Zanzibar)"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }
