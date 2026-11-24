@@ -1,0 +1,7 @@
+{"voice":"pt-BR-AntonioNeural","rate":"+10%","serie":"Teste","ep":14,"title":"Teste queda 1900","ano":1900,"set":"countryside","cta":false,
+ "outfits":{"JOA":{"jacket":"#7a3a2a","hat":"hair"},"PED":{"jacket":"#2a4a7a","hat":"cap"}},
+ "beats":[
+  {"who":["JOA:0:angry","PED:0:surprised"],"say":"No campo, João empurrou Pedro com força e Pedro caiu no chão."},
+  {"who":["PED:0:scared"],"say":"Ele tropeçou numa pedra, desmaiou e ficou caído por um minuto."},
+  {"who":["JOA:0:smile","PED:0:grin"],"say":"Depois os dois pularam de alegria e jogaram a bola para cima.","props":[["kit/balloon",5,-9,1.0]]}
+ ]}

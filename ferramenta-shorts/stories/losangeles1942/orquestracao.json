@@ -1,0 +1,249 @@
+{
+ "id": "losangeles1942",
+ "ano": 1942,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "SOL",
+    "CID"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/apartment",
+    "buildings/house_two",
+    "kit/marco_hollywood",
+    "kit/searchlight",
+    "nature/lamppost"
+   ],
+   "palavras": 14,
+   "cena": "b0",
+   "frase": "Uma cidade inteira passou a noite atirando no céu, e não havia inimigo nenhum.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "CID",
+    "CID"
+   ],
+   "multidao": 8,
+   "objetos": [
+    "kit/marco_hollywood"
+   ],
+   "palavras": 20,
+   "cena": "b1",
+   "frase": "Era fevereiro de mil novecentos e quarenta e dois, logo depois de Pearl Harbor, e Los Angeles vivia com medo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "CID",
+    "SOL"
+   ],
+   "multidao": 10,
+   "objetos": [
+    "kit/marco_hollywood"
+   ],
+   "palavras": 16,
+   "cena": "b2",
+   "frase": "Na véspera, um submarino japonês tinha atirado na Califórnia, e todo mundo achava que vinha mais.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "SOL",
+    "CID"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/apartment",
+    "buildings/house_two",
+    "kit/marco_hollywood",
+    "kit/searchlight",
+    "nature/lamppost"
+   ],
+   "palavras": 16,
+   "cena": "b3",
+   "frase": "Na madrugada, as sirenes tocaram, as luzes da cidade se apagaram, e holofotes varreram o céu.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "SOL",
+    "SOL"
+   ],
+   "multidao": 48,
+   "objetos": [
+    "cannon",
+    "kit/canhao_moderno",
+    "kit/marco_hollywood"
+   ],
+   "palavras": 15,
+   "cena": "b4",
+   "frase": "Alguém viu um objeto no céu, e os soldados começaram a atirar com canhões antiaéreos.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "mountain"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "SOL",
+    "GEN"
+   ],
+   "multidao": 10,
+   "objetos": [
+    "kit/marco_hollywood"
+   ],
+   "palavras": 18,
+   "cena": "b5",
+   "frase": "Os soldados juravam que havia inimigos no céu. Acontece que não havia nada ali, só nuvens e fumaça.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "CID",
+    "CID"
+   ],
+   "multidao": 48,
+   "objetos": [
+    "buildings/apartment",
+    "buildings/house_two",
+    "cannon",
+    "kit/marco_hollywood",
+    "nature/lamppost"
+   ],
+   "palavras": 17,
+   "cena": "b6",
+   "frase": "Foram mais de mil tiros de canhão, e os estilhaços caíram na cidade, que ficou em pânico.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "GEN",
+    "PRE"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 14,
+   "cena": "b7",
+   "frase": "No dia seguinte, os militares discutiram o que tinha acontecido, e ninguém sabia dizer.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PRE",
+    "GEN"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 12,
+   "cena": "b8",
+   "frase": "Algumas pessoas morreram, por acidente e por susto, mas nenhum inimigo apareceu.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "CID"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_hollywood",
+    "kit/searchlight"
+   ],
+   "palavras": 12,
+   "cena": "b9",
+   "frase": "O único alvo derrotado naquela noite foi o sono de Los Angeles.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "CID"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_hollywood"
+   ],
+   "palavras": 13,
+   "cena": "b10",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  }
+ ]
+}

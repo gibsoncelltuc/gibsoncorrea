@@ -53,6 +53,15 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: tense | Cenario base: arctic | 1
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
+- Texto na tela: 100 DIAS
+- Funcao na historia: desenvolvimento
+
+## Cena b6  (~2.8 s)
+- Narracao: Os soviéticos passaram a chamá-lo de Morte Branca.
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68
+- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito
+- Efeito visual marcado: ring@12, dust@40
 - Texto na tela: MORTE BRANCA
 - Funcao na historia: desenvolvimento
 

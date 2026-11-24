@@ -3,7 +3,7 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/abelhas1945/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py abelhas1945` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - As abelhas conversam dançando. E foi um cientista teimoso que descobri...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: loc_campo | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): FRI (variante 0, expressao grin); COL (variante 0, expressao surprised)
@@ -13,7 +13,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b1 - Karl von Frisch nasceu na Áustria, e passou a vida inteira estudando a...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: loc_campo | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
@@ -23,7 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Ele construiu uma colmeia com vidro para ver tudo lá dentro, e colocou...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: loc_campo | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): FRI (variante 0, expressao suspicious); ASS (variante 0, expressao smile) | multidao: 12 de POV
@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Acontece que, quando uma abelha achava o açúcar, ela voltava e dançava...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: loc_campo | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): FRI (variante 0, expressao surprised)
@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Se a comida estava perto, ela dava voltinhas. Se estava longe, fazia u...
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: loc_montanha | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): FRI (variante 0, expressao stern); COL (variante 0, expressao suspicious)
@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - E o mais incrível: o ângulo da rebolada mostrava a direção, comparada ...
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: loc_montanha | luz: day | clima: limpo
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): FRI (variante 0, expressao shock)
@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Quanto mais tempo ela rebolava, mais longe estava a comida. Era um map...
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: loc_montanha | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): FRI (variante 0, expressao laugh); ASS (variante 0, expressao grin)
@@ -93,7 +93,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - Ele repetiu os testes centenas de vezes, mudando o açúcar de lugar. As...
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: loc_montanha | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao surprised); COL (variante 0, expressao shock); FRI (variante 0, expressao smug) | multidao: 30 de POV
@@ -113,7 +113,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b11 - Então, da próxima vez que vir uma abelha, lembre: ela pode estar conta...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: loc_campo | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): FRI (variante 0, expressao smile)
@@ -123,7 +123,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b12 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: loc_campo | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): FRI (variante 0, expressao grin)
@@ -145,9 +145,11 @@ kit/marco_viena | b0, b1, b2, b4, b5, b6, b7, b9, b11, b12 | pronto | conferir n
 ## Video inteiro
 - Objeto heroi: kit/beehive | grandes momentos: b2, b9 | planos abertos: 3 | mistura: close 18% | medio 67% | aberto 10% | detalhe 4%
 - Interacoes: b0 avanca e o outro recua, b3 o outro se aproxima, b5 discutir, b7 entregar, b8 empurrar, b10 pular
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py abelhas1945  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/abelhas1945/moodboard.jpg
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh abelhas1945 bN bM` (so essas cenas).

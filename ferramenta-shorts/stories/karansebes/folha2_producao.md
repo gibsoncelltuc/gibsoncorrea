@@ -16,9 +16,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: countryside | luz: golden | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (4): AUT (variante 0, expressao smile); HUS (variante 0, expressao nervous); AUT (variante 1, expressao neutral); OFF (variante 0, expressao stern) | multidao: 10 de AUT
-- Animacao: conversar
-- Objetos/modelos: -
+- Personagens principais (4): AUT (variante 0, expressao smile); HUS (variante 0, expressao nervous); AUT (variante 1, expressao neutral); OFF (variante 0, expressao stern) | multidao: 10 de AUT/TUR
+- Animacao: reagir
+- Objetos/modelos: kit/marco_viena
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): exercito, soldados, turcos, varios
 - RISCOS: nenhum
 
@@ -56,7 +56,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: countryside | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (3): AUT (variante 0, expressao stern); HUS (variante 0, expressao laugh); AUT (variante 1, expressao shock) | multidao: 5 de AUT/HUS/TUR
+- Personagens principais (3): AUT (variante 0, expressao stern); HUS (variante 0, expressao laugh); AUT (variante 1, expressao shock) | multidao: 5 de AUT/TUR
 - Animacao: conversar | interacao: empurrar | o ultimo personagem ENTRA andando
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): discussao, hussardos, infantaria, tiro
@@ -66,7 +66,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: countryside | luz: noite | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (1): HUS (variante 1, expressao shock) | multidao: 18 de HUS/TUR
+- Personagens principais (1): HUS (variante 1, expressao shock) | multidao: 18 de TUR
 - Animacao: conversar | batalha encenada
 - Objetos/modelos: kit/marco_viena, kit/campfire, kit/tent
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): acampamento, escuro, panico
@@ -86,7 +86,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: countryside | luz: noite | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): OFF (variante 0, expressao shock); AUT (variante 0, expressao pained) | multidao: 5 de OFF/AUT/TUR
+- Personagens principais (2): OFF (variante 0, expressao shock); AUT (variante 0, expressao pained) | multidao: 5 de AUT/TUR
 - Animacao: reagir | interacao: susto
 - Objetos/modelos: cannon, kit/marco_viena
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): artilharia, canhoes, oficial, proprio
@@ -143,9 +143,11 @@ crate | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote
 ## Video inteiro
 - Objeto heroi: kit/barrel_r | grandes momentos: b0, b6, b7 | planos abertos: 4 | mistura: close 10% | medio 67% | aberto 19% | detalhe 5%
 - Interacoes: b3 aproxima-se, b4 brindar, b5 empurrar, b8 susto, b9 avanca e o outro recua, b10 pular
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py karansebes  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/karansebes/moodboard.jpg
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh karansebes bN bM` (so essas cenas).

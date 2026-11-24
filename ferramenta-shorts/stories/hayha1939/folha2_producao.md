@@ -20,7 +20,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: conversar | batalha encenada
 - Objetos/modelos: nature/tree_pine, nature/tree_oak, nature/bush
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): floresta, frio, neve, quarenta, soldados, zero
-- RISCOS: nenhum
+- RISCOS: 
+  - frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada -> CORRECAO: "explica": {"objeto": "kit/<objeto>", "vfx": [{"k": "jato", "na": "<palavra>"}], "rotulos": [["NOME", "baixo", "<palavra>"]], "setas": [["cima", "FORCA"]], "medidor"/"passos"/"comparar": ...} (GUIA_DO_ROTEIRISTA.md "Cena de explicacao"); para so mostrar um numero em cima da cena com personagens: "hud": {"contador": {"de": 0, "para": -40, "un": "graus", "na": "<palavra>"}}; se a frase nao e' explicacao: "explica": false
 
 ## Cena b2 - Um deles era um homem do campo, baixinho, chamado Simo Häyhä.
 - Cenario: arctic | luz: arctic | clima: neve
@@ -117,9 +118,12 @@ nature/picket_fence | b5 | pronto | conferir na folha de contato se le bem; se p
 ## Video inteiro
 - Objeto heroi: kit/campfire | grandes momentos: b0, b6 | planos abertos: 3 | mistura: close 28% | medio 47% | aberto 18% | detalhe 7%
 - Interacoes: b5 tremem de frio, b7 cochichar
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py hayha1939  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/hayha1939/moodboard.jpg
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 2 risco(s) em aberto
+- b1: frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh hayha1939 bN bM` (so essas cenas).

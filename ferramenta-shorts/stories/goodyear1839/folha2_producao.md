@@ -145,9 +145,13 @@ kit/ball | b10 | pronto | conferir na folha de contato se le bem; se parecer cai
 ## Video inteiro
 - Objeto heroi: kit/borracha | grandes momentos: b2, b10 | planos abertos: 4 | mistura: close 18% | medio 66% | aberto 16% | detalhe 0%
 - Interacoes: b0 avanca e o outro recua, b3 o outro se aproxima, b4 empurrar, b5 insiste, b9 discutir
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - objeto heroi kit/borracha nao aparece em nenhuma cena -> CORRECAO: por kit/borracha em "props" de pelo menos uma cena (ou tirar de "herois")
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py goodyear1839  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/goodyear1839/moodboard.jpg
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 2 risco(s) em aberto
+- geral: objeto heroi kit/borracha nao aparece em nenhuma cena
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh goodyear1839 bN bM` (so essas cenas).

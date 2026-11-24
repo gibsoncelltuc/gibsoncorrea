@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 19 - O Caderno que Ainda Brilha
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 13 cenas, 205 palavras (~71 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 13 cenas, 205 palavras (~71 s)
 
 ## Cena b0  (~6.2 s)
 - Narracao: Existem cadernos tão perigosos que só podem ser lidos com roupa de proteção. E são de uma cientista.
@@ -94,7 +94,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b10  (~5.5 s)
 - Narracao: E o rádio leva cerca de mil e seiscentos anos só para perder metade da força.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: perder -> dust + som de impacto; encena: perde (facepalm) @12 -> acao + som de efeito
 - Efeito visual marcado: stars@30
@@ -103,7 +103,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b11  (~5.2 s)
 - Narracao: Ou seja: os cadernos de Marie Curie vão continuar radioativos por muitos e muitos séculos.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -

@@ -1,0 +1,205 @@
+{
+ "id": "paris1870",
+ "ano": 1870,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "PAR",
+    "PAR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_notredame"
+   ],
+   "palavras": 17,
+   "cena": "b0",
+   "frase": "Em mil oitocentos e setenta, a Prússia cercou Paris. Ninguém entrava, ninguém saía, e a comida acabou.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "PAR",
+    "PAR"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 12,
+   "cena": "b1",
+   "frase": "Primeiro, os parisienses comeram os cavalos. Depois, os cachorros e os gatos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PAR",
+    "CHF"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "barrel",
+    "kit/marco_notredame"
+   ],
+   "palavras": 8,
+   "cena": "b2",
+   "frase": "Depois, os roedores, que viraram um prato chique.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "PAR",
+    "PAR"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "buildings/house_two",
+    "kit/marco_notredame",
+    "nature/lamppost"
+   ],
+   "palavras": 9,
+   "cena": "b3",
+   "frase": "Quando acabou tudo, olharam para o zoológico da cidade.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "BUT"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 14,
+   "cena": "b4",
+   "frase": "O açougueiro comprou dois elefantes, Castor e Pólux, e vendeu a carne em pedaços.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "CHF",
+    "PAR"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 16,
+   "cena": "b5",
+   "frase": "No Natal, o restaurante Voisin serviu consomê de elefante, ensopado de canguru e pernil de lobo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "PAR"
+   ],
+   "multidao": 12,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b6",
+   "frase": "Tinha até gato servido com roedores em volta.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "PAR",
+    "PAR"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/balloon",
+    "kit/balloon_air"
+   ],
+   "palavras": 9,
+   "cena": "b7",
+   "frase": "Para mandar notícias, os parisienses usavam balões e pombos-correio.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "PAR"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 19,
+   "cena": "b8",
+   "frase": "O cerco acabou em janeiro de mil oitocentos e setenta e um, e Paris se rendeu, de barriga vazia.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "PAR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_notredame"
+   ],
+   "palavras": 13,
+   "cena": "b9",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  }
+ ]
+}

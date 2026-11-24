@@ -1,10 +1,10 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 20 - As Abelhas que Dançam um Mapa
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 13 cenas, 193 palavras (~67 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 13 cenas, 193 palavras (~67 s)
 
 ## Cena b0  (~5.2 s)
 - Narracao: As abelhas conversam dançando. E foi um cientista teimoso que descobriu o que elas dizem.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: dançando -> stars + som de sino; descobriu -> ring + som de alerta; encena: fala (point) @2 -> acao + som de efeito; encena: danca (up) @3 -> acao + som de efeito; encena: examina (think) @10 -> acao + som de efeito
 - Efeito visual marcado: stars@30
@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b2  (~6.9 s)
 - Narracao: Ele construiu uma colmeia com vidro para ver tudo lá dentro, e colocou pratinhos com água e açúcar no jardim.
-- Som ambiente: birds | batalha: tiros e gritos a cena inteira
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: thump@30
 - Efeito + som nas palavras-chave: encena: constroi (hammer) @1 -> acao + som de efeito; encena: pega (lift) @12 -> acao + som de efeito
 - Efeito visual marcado: puff@30
@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b4  (~5.5 s)
 - Narracao: Acontece que, quando uma abelha achava o açúcar, ela voltava e dançava em cima do favo.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, sting@50
 - Efeito + som nas palavras-chave: encena: chega (point) @9 -> acao + som de efeito; encena: danca (up) @11 -> acao + som de efeito
 - Efeito visual marcado: stars@20, ring@50
@@ -103,7 +103,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b11  (~5.5 s)
 - Narracao: Então, da próxima vez que vir uma abelha, lembre: ela pode estar contando um segredo dançando.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: segredo -> ring + som de alerta; dançando -> stars + som de sino; encena: g_contando (up) @12 -> acao + som de efeito; encena: pensa (think) @14 -> acao + som de efeito; encena: danca (up) @15 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -112,7 +112,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b12  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -

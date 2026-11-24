@@ -11,9 +11,9 @@ b3 | countryside | crowd | 23 | encena, batalha | kit/tulip_bed, kit/marco_amste
 b4 | countryside | two | 2 | discutir, INTERAGEM: reverencia | kit/tulip_yellow, kit/tulip_purple, kit/marco_amsterdam | paper, coin | -
 b5 | interior madeira | two | 2 | discutir, INTERAGEM: aproxima-se | kit/tulip_red | tulip | -
 b6 | interior loja | group | 4 | reagir, INTERAGEM: vai ate o outro | kit/stall | tulip | -
-b7 | mountain | orbit | 32 | discutir, batalha | kit/tulip_bed, kit/marco_amsterdam | tulip, paper | -
+b7 | street | orbit | 32 | discutir, batalha | kit/tulip_bed, kit/marco_amsterdam | tulip, paper | -
 b8 | interior madeira | two | 2 | encena, INTERAGEM: avanca e o outro recua | kit/tulip_bed, kit/tulip_red | tulip, paper | -
-b9 | mountain | close | 1 | conversar | kit/marco_amsterdam | - | -
+b9 | street | close | 1 | conversar | kit/marco_amsterdam | - | -
 b10 | countryside | close | 1 | conversar | kit/marco_amsterdam | - | -
 
 OBJETO HEROI: kit/tulip_striped

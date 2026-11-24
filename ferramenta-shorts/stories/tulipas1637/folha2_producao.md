@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - A notícia correu. Em poucos dias, todo mundo quis vender, e não havia ...
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): POV (variante 2, expressao shock, segura tulip); RIC (variante 0, expressao pained, segura paper) | multidao: 30 de POV/RIC/MER
@@ -93,7 +93,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - O marinheiro, pelo menos, almoçou bem.
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): MAR (variante 0, expressao grin)
@@ -131,9 +131,11 @@ kit/stall | b6 | pronto | conferir na folha de contato se le bem; se parecer cai
 ## Video inteiro
 - Objeto heroi: kit/tulip_striped | grandes momentos: b3, b7 | planos abertos: 3 | mistura: close 15% | medio 70% | aberto 12% | detalhe 3%
 - Interacoes: b0 susto, b2 discutir, b4 reverencia, b5 aproxima-se, b6 vai ate o outro, b8 avanca e o outro recua
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py tulipas1637  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/tulipas1637/moodboard.jpg
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh tulipas1637 bN bM` (so essas cenas).

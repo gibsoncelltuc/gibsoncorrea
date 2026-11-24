@@ -1,0 +1,335 @@
+{
+ "id": "abelhas1945",
+ "ano": 1945,
+ "cenarios_trocados": [
+  [
+   "video",
+   "street",
+   "loc_campo"
+  ],
+  [
+   "cena 1",
+   "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 3",
+   "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 5",
+   "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 6",
+   "mountain",
+   "loc_montanha"
+  ],
+  [
+   "cena 7",
+   "mountain",
+   "loc_montanha"
+  ],
+  [
+   "cena 8",
+   "mountain",
+   "loc_montanha"
+  ],
+  [
+   "cena 10",
+   "mountain",
+   "loc_montanha"
+  ],
+  [
+   "cena 12",
+   "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 13",
+   "countryside",
+   "loc_campo"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "FRI",
+    "COL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bee",
+    "kit/beehive",
+    "kit/marco_viena"
+   ],
+   "palavras": 15,
+   "cena": "b0",
+   "frase": "As abelhas conversam dançando. E foi um cientista teimoso que descobriu o que elas dizem.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/beehive",
+    "kit/marco_viena"
+   ],
+   "palavras": 13,
+   "cena": "b1",
+   "frase": "Karl von Frisch nasceu na Áustria, e passou a vida inteira estudando abelhas.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "FRI",
+    "ASS"
+   ],
+   "multidao": 12,
+   "objetos": [
+    "kit/bee",
+    "kit/beehive",
+    "kit/marco_viena"
+   ],
+   "palavras": 20,
+   "cena": "b2",
+   "frase": "Ele construiu uma colmeia com vidro para ver tudo lá dentro, e colocou pratinhos com água e açúcar no jardim.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "FRI",
+    "ASS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bee",
+    "kit/beehive"
+   ],
+   "palavras": 13,
+   "cena": "b3",
+   "frase": "Depois pintou pontinhos coloridos nas costas das abelhas, para saber quem era quem.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "FRI"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bee",
+    "kit/beehive",
+    "kit/marco_viena"
+   ],
+   "palavras": 16,
+   "cena": "b4",
+   "frase": "Acontece que, quando uma abelha achava o açúcar, ela voltava e dançava em cima do favo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "FRI",
+    "COL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bee",
+    "kit/beehive",
+    "kit/marco_viena"
+   ],
+   "palavras": 17,
+   "cena": "b5",
+   "frase": "Se a comida estava perto, ela dava voltinhas. Se estava longe, fazia um oito, rebolando no meio.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "low",
+   "personagens": [
+    "FRI"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bee",
+    "kit/beehive",
+    "kit/marco_viena"
+   ],
+   "palavras": 15,
+   "cena": "b6",
+   "frase": "E o mais incrível: o ângulo da rebolada mostrava a direção, comparada com o sol.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "FRI",
+    "ASS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bee",
+    "kit/beehive",
+    "kit/marco_viena"
+   ],
+   "palavras": 16,
+   "cena": "b7",
+   "frase": "Quanto mais tempo ela rebolava, mais longe estava a comida. Era um mapa feito de dança!",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "COL",
+    "FRI"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b8",
+   "frase": "Muitos cientistas não acreditaram. Inseto com linguagem? Parecia piada.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "POV",
+    "COL",
+    "FRI"
+   ],
+   "multidao": 30,
+   "objetos": [
+    "kit/bee",
+    "kit/beehive",
+    "kit/marco_viena"
+   ],
+   "palavras": 16,
+   "cena": "b9",
+   "frase": "Ele repetiu os testes centenas de vezes, mudando o açúcar de lugar. As abelhas sempre acertavam.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "FRI",
+    "ASS",
+    "COL"
+   ],
+   "multidao": 4,
+   "objetos": [],
+   "palavras": 14,
+   "cena": "b10",
+   "frase": "Em mil novecentos e setenta e três, já idoso, ele ganhou o Prêmio Nobel.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "FRI"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bee",
+    "kit/beehive",
+    "kit/marco_viena"
+   ],
+   "palavras": 16,
+   "cena": "b11",
+   "frase": "Então, da próxima vez que vir uma abelha, lembre: ela pode estar contando um segredo dançando.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "FRI"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_viena"
+   ],
+   "palavras": 13,
+   "cena": "b12",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  }
+ ]
+}

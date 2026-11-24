@@ -11,11 +11,11 @@ b3 | interior madeira | close | 1 | reagir | - | paper | -
 b4 | interior madeira | two | 2 | conversar, INTERAGEM: entregar | - | paper | -
 b5 | interior pedra | group | 7 | conversar, INTERAGEM: avanca e o outro recua | - | - | -
 b6 | interior pedra | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/postit | paper | -
-b7 | harbor | orbit | 7 | encena | kit/postit | - | -
+b7 | countryside | orbit | 7 | encena | kit/postit | - | -
 b8 | interior madeira | two | 2 | conversar, INTERAGEM: abracar | kit/postit | - | -
 b9 | interior loja | two | 2 | conversar, INTERAGEM: susto | kit/postit | paper | -
 b10 | street | crowd | 33 | comemorar, batalha | kit/postit, buildings/apartment, buildings/house_two, nature/lamppost | - | -
-b11 | harbor | close | 1 | conversar | kit/postit | - | -
+b11 | countryside | close | 1 | conversar | kit/postit | - | -
 b12 | street | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/postit

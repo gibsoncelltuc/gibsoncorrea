@@ -7,7 +7,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | countryside | two | 2 | conversar, INTERAGEM: avanca e o outro recua | - | - | -
 b1 | countryside | reveal | 10 | parados (so fala e pisca) | kit/mapa_antigo, buildings/house_two, nature/lamppost | - | -
 b2 | interior madeira | close | 1 | encena | - | paper | -
-b3 | countryside | crowd | 20 | discutir, batalha | - | - | -
+b3 | countryside | crowd | 50 | discutir, batalha | - | - | -
 b4 | countryside | orbit | 20 | discutir, batalha | kit/teodolito | - | -
 b5 | interior madeira | two | 2 | discutir, INTERAGEM: empurrar | kit/canivete | - | -
 b6 | interior pedra | two | 2 | reagir, INTERAGEM: pedir | - | paper | -

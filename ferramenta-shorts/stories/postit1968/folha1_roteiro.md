@@ -103,7 +103,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b11  (~6.2 s)
 - Narracao: Em mil novecentos e oitenta, o post-it chegou às lojas. Tudo graças a uma cola que deu errado.
-- Som ambiente: sea
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: chegou -> dust + som de impacto; encena: chega (point) @7 -> acao + som de efeito; encena: x_entrega (reach) @16 -> acao + som de efeito
 - Efeito visual marcado: -

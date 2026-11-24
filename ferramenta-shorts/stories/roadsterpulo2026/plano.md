@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | noite  | - | (rosto) laugh (expr + som de efeito); encena: fala (point) @2 (acao + som de efeito); encena: fala (point) @17 (acao + som de efeito) | -
+b0 | two | noite  | tropa | (rosto) laugh (expr + som de efeito); encena: fala (point) @2 (acao + som de efeito); encena: fala (point) @17 (acao + som de efeito) | -
 b1 | reveal | noite  | tropa, mapa | encena: fala (point) @15 (acao + som de efeito) | -
 b2 | two | -  | interior, objeto na mao | - | -
 b3 | group | -  | interior, objeto na mao | segredo (ring + som de alerta); encena: pensa (think) @1 (acao + som de efeito) | -
@@ -12,8 +12,8 @@ b6 | two | noite  | - | (rosto) laugh (expr + som de efeito); encena: vence (up)
 b7 | orbit | -  | batalha aberta com tiros, tropa | - | -
 b8 | group | -  | objeto na mao | - | -
 b9 | close | -  | - | (rosto) distrust (expr + som de efeito) | -
-b10 | two | -  | interior | encena: pula @5 (acao + som de efeito) | -
+b10 | two | -  | tropa, interior | - | -
 b11 | close | -  | interior, placa: COMENTE! | - | -
 
-Mistura de planos: close 16% | medio 63% | aberto 19% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | dentro do padrao do canal
+Mistura de planos: close 16% | medio 66% | aberto 19% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 3 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

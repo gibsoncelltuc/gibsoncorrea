@@ -26,9 +26,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: arctic | luz: overcast | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (1): USA (variante 2, expressao grin) | multidao: 10 de USA
+- Personagens principais (1): USA (variante 2, expressao grin) | multidao: 40 de USA
 - Animacao: conversar | batalha encenada
-- Objetos/modelos: cannon
+- Objetos/modelos: kit/canhao_moderno
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): desembarque
 - RISCOS: nenhum
 
@@ -36,7 +36,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: mountain | luz: overcast | clima: neblina
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): USA (variante 0, expressao stern); CAN (variante 1, expressao stern); USA (variante 3, expressao nervous) | multidao: 18 de USA/CAN
+- Personagens principais (3): USA (variante 0, expressao stern); CAN (variante 1, expressao stern); USA (variante 3, expressao nervous) | multidao: 48 de USA/CAN
 - Animacao: encena | batalha encenada
 - Objetos/modelos: kit/marco_alpes
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): combate, nevoeiro, soldados
@@ -58,7 +58,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): USA (variante 0, expressao neutral) | multidao: 10 de USA
 - Animacao: encena
-- Objetos/modelos: ship, kit/marco_alpes, nature/picket_fence, navios ao fundo
+- Objetos/modelos: ship, kit/marco_alpes, nature/picket_fence, navios de guerra ao fundo, no tamanho real
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cinco, frota, neblina
 - RISCOS: nenhum
 
@@ -111,7 +111,7 @@ ship | b0, b5 | pronto | conferir na folha de contato se le bem; se parecer caix
 kit/marco_alpes | b0, b1, b3, b4, b5, b6, b7, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 vehicles/airplane | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/navio_vapor | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-cannon | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/canhao_moderno | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 dog | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
@@ -119,9 +119,17 @@ dog | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, 
 ## Video inteiro
 - Objeto heroi: kit/dog_sit | grandes momentos: b2, b3 | planos abertos: 3 | mistura: close 11% | medio 63% | aberto 22% | detalhe 4%
 - Interacoes: b4 susto, b6 aproxima-se
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa) -> CORRECAO: reescrever a 1a frase com o fato mais absurdo da historia (sem ano); a data entra na 2a frase ou no mapa
+  - video com ~47 s (o canal fica entre 55 e 75 s) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar entre 55 e 75 s
+  - objeto heroi kit/dog_sit nao aparece em nenhuma cena -> CORRECAO: por kit/dog_sit em "props" de pelo menos uma cena (ou tirar de "herois")
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py kiska1943  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/kiska1943/moodboard.jpg
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 4 risco(s) em aberto
+- geral: o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa)
+- geral: video com ~47 s (o canal fica entre 55 e 75 s)
+- geral: objeto heroi kit/dog_sit nao aparece em nenhuma cena
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh kiska1943 bN bM` (so essas cenas).

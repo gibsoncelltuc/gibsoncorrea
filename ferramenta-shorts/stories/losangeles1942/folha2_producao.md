@@ -48,7 +48,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): SOL (variante 0, expressao shout); SOL (variante 1, expressao angry) | multidao: 20 de SOL
 - Animacao: encena | batalha encenada
-- Objetos/modelos: cannon, kit/marco_hollywood
+- Objetos/modelos: kit/canhao_moderno, kit/marco_hollywood, cannon
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): atirar, canhoes, objeto, soldados
 - RISCOS: nenhum
 
@@ -122,15 +122,18 @@ kit/marco_hollywood | b0, b1, b2, b3, b4, b5, b6, b9, b10 | pronto | conferir na
 buildings/apartment | b0, b3, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b0, b3, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b0, b3, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/canhao_moderno | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 cannon | b4, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
 - Objeto heroi: kit/searchlight | grandes momentos: b2, b4, b6 | planos abertos: 3 | mistura: close 9% | medio 73% | aberto 14% | detalhe 4%
 - Interacoes: b0 susto, b2 cochichar, b3 entregar, b5 discutir, b7 susto, b8 entregar
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py losangeles1942  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/losangeles1942/moodboard.jpg
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh losangeles1942 bN bM` (so essas cenas).

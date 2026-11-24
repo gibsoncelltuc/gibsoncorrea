@@ -1,0 +1,291 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Guerras Inusitadas",
+ "outfits": {
+  "FAZ": {
+   "jacket": "#7a9ac2",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "straw"
+  },
+  "ING": {
+   "jacket": "#c0262d",
+   "pants": "#f1efe6",
+   "boots": "#2a2218",
+   "hat": "shako",
+   "belt": "#f1efe6",
+   "buttons": "#e8c45a",
+   "rifle": true
+  },
+  "AME": {
+   "jacket": "#27408b",
+   "pants": "#7d9fd0",
+   "boots": "#2a2218",
+   "hat": "kepi",
+   "cap": "#27408b",
+   "belt": "#f1efe6",
+   "rifle": true
+  },
+  "IRL": {
+   "jacket": "#5d7a3a",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "bowler"
+  },
+  "ALM": {
+   "jacket": "#22306a",
+   "pants": "#f1efe6",
+   "boots": "#2a2218",
+   "hat": "bicorne",
+   "buttons": "#e8c45a",
+   "sash": "#e8c45a",
+   "build": "stout"
+  }
+ },
+ "visual": {
+  "local": "Ilha de San Juan (entre os EUA e o Canada, perto de Vancouver): fazendas com horta, pinheiros, costa com navios",
+  "quando": "15 de junho de 1859 (o tiro no porco), de dia; ocupacao conjunta ate 1872",
+  "participantes": [
+   "Lyman Cutlar, fazendeiro americano",
+   "Charles Griffin, irlandes da Companhia da Baia de Hudson (dono do porco)",
+   "capitao George Pickett e soldados da 9a Infantaria dos EUA",
+   "Royal Marines britanicos",
+   "contra-almirante Robert Baynes"
+  ],
+  "roupas": {
+   "FAZ": "camisa azul e chapeu de palha de colono",
+   "IRL": "paleto e chapeu-coco (1859)",
+   "AME": "soldado americano de 1859: casaca azul-escura, calca azul-clara, quepe de campanha",
+   "ING": "Royal Marine: casaca vermelha, barretina",
+   "ALM": "almirante da Marinha Real: casaca azul-escura com dragonas, chapeu bicorne"
+  },
+  "cenario": "horta de batatas cercada, fazenda de colonos, pinheiros, praia com navios de guerra a vela/vapor, acampamentos dos dois exercitos",
+  "objetos": [
+   "batatas da horta",
+   "espingarda",
+   "notas de dolar",
+   "navios de guerra",
+   "canhoes"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Pig_War_(1859)",
+   "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
+  ],
+  "buscas": {
+   "A Guerra do Porco (piloto)": "Pig War 1859 San Juan Island",
+   "Lyman Cutlar, fazendeiro americano": "American farmer 1850s settler",
+   "Charles Griffin, irlandes da Companhia da Baia de Hudson (dono do porco)": "Hudson's Bay Company Belle Vue Sheep Farm San Juan",
+   "capitao George Pickett e soldados da 9a Infantaria dos EUA": "George Pickett American Camp San Juan Island",
+   "Royal Marines britanicos": "Royal Marines 1859 English Camp San Juan Island",
+   "contra-almirante Robert Baynes": "Robert Lambert Baynes admiral",
+   "batatas da horta": "potato garden field",
+   "espingarda": "percussion rifle 1850s",
+   "notas de dolar": "dollar banknote 1850s",
+   "navios de guerra": "HMS Satellite 1855 warship",
+   "canhoes": "cannon 1850s artillery",
+   "roupas e ruas de 1859": "1859 fashion clothing"
+  }
+ },
+ "ep": 6,
+ "title": "A Guerra do Porco (piloto)",
+ "titulo_base": "A Guerra do Porco",
+ "ano": 1859,
+ "set": "countryside",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/batatas",
+ "herois_nomes": {
+  "kit/batatas": "potato field 19th century"
+ },
+ "duracao_ok": true,
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "FAZ:0:shock:pitchfork",
+    "IRL:0:angry"
+   ],
+   "animals": [
+    [
+     "pig",
+     2.6,
+     1.0,
+     "stand",
+     1.1
+    ]
+   ],
+   "say": "Dois países quase entraram em guerra por causa de um porco.",
+   "props": [
+    [
+     "nature/picket_fence",
+     -3.2,
+     -2.2,
+     1.3
+    ],
+    [
+     "nature/picket_fence",
+     3.2,
+     -2.2,
+     1.3
+    ],
+    [
+     "nature/haybale",
+     -3.6,
+     -0.6,
+     1.1
+    ]
+   ]
+  },
+  {
+   "shot": "two",
+   "who": [
+    "FAZ:0:neutral",
+    "IRL:0:neutral"
+   ],
+   "mapa": "ILHA DE SAN JUAN",
+   "mapa_at": 3,
+   "text": "1859",
+   "say": "Foi na ilha de San Juan, entre os Estados Unidos e o Canadá."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "FAZ:0:angry"
+   ],
+   "animals": [
+    [
+     "pig",
+     2.2,
+     0.8,
+     "walk",
+     1.1
+    ]
+   ],
+   "props": [
+    [
+     "nature/picket_fence",
+     0,
+     -3.0,
+     1.4
+    ],
+    [
+     "nature/scarecrow",
+     -3.0,
+     -2.4,
+     1.2
+    ],
+    [
+     "kit/batatas",
+     0.0,
+     1.4,
+     1.0
+    ]
+   ],
+   "fx": [
+    "burst@70"
+   ],
+   "sfx": [
+    "gun@70",
+    "squeal@76"
+   ],
+   "say": "Um fazendeiro americano achou o porco comendo suas batatas, pegou a espingarda e atirou.",
+   "shot_lock": true,
+   "impact": false
+  },
+  {
+   "shot": "two",
+   "who": [
+    "IRL:0:shout",
+    "FAZ:0:surprised:money"
+   ],
+   "interacao": "discutir",
+   "acao": "discutir",
+   "text": "$100",
+   "props": [
+    [
+     "nature/picket_fence",
+     3.2,
+     -2.4,
+     1.3
+    ]
+   ],
+   "say": "O dono, um irlandês da companhia inglesa, exigiu cem dólares. Ninguém cedeu.",
+   "shot_lock": true,
+   "impact": false,
+   "detalhe": false
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "ING:0:stern",
+    "AME:0:stern"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "ING",
+     "AME"
+    ],
+    "march": false,
+    "expr": "stern"
+   },
+   "fx": [
+    "dust@40"
+   ],
+   "sfx": [
+    "sting@10",
+    "thump@40"
+   ],
+   "say": "Os Estados Unidos mandaram soldados, e a Inglaterra respondeu com navios de guerra e canhões.",
+   "set": "harbor",
+   "props": [
+    [
+     "cannon",
+     -4.5,
+     -2.5,
+     1.0
+    ],
+    [
+     "cannon",
+     4.5,
+     -2.5,
+     1.0
+    ]
+   ]
+  },
+  {
+   "shot": "two",
+   "who": [
+    "ALM:0:stern",
+    "ING:1:nervous"
+   ],
+   "interior": "madeira",
+   "say": "O almirante inglês se recusou a atacar por causa de um porco."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "FAZ:0:sad"
+   ],
+   "say": "A única baixa da guerra foi o porco.",
+   "props": [
+    [
+     "kit/cross",
+     1.5,
+     -0.9,
+     0.8
+    ],
+    [
+     "nature/picket_fence",
+     -2.6,
+     -2.4,
+     1.2
+    ]
+   ]
+  }
+ ],
+ "min_momentos": 1
+}

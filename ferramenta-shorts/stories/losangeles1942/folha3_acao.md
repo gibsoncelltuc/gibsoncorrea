@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 20 - A Batalha de Los Angeles
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 51 acoes catalogadas, 51 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 50 acoes catalogadas, 50 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.9s - 14 palavras - plano two
@@ -80,8 +80,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 6 | pânico (41.2s) | ACAO: grita | grita de bracos para cima | OK |
 | 7 | - | EMOCAO: scared | o rosto vira "scared" na palavra | OK |
 | 8 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 9 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
-| 10 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 9 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
 ## Cena b7 - 42.3s a 46.5s - 14 palavras - plano two
 > "No dia seguinte, os militares discutiram o que tinha acontecido, e ninguém sabia dizer."

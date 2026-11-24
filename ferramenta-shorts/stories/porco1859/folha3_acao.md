@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 06 - A Guerra do Porco
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 13 frases, 57 acoes catalogadas, 57 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 13 frases, 54 acoes catalogadas, 54 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 2.6s - 11 palavras - plano two
@@ -14,22 +14,20 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | CHEGADA | alguem entra andando | OK |
 | 4 | - | PLACA | 1859 | OK |
 
-## Cena b1 - 3.7s a 8.1s - 18 palavras - plano two
+## Cena b1 - 3.7s a 8.1s - 18 palavras - plano reveal
 > "Era uma ilha pequena, entre os Estados Unidos e o Canadá, e ninguém sabia de quem ela era."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-| 2 | - | MAPA | ILHA DE SAN JUAN | OK |
+| 1 | - | MAPA | ILHA DE SAN JUAN | OK |
 
-## Cena b2 - 9.2s a 13.2s - 14 palavras - plano crowd
+## Cena b2 - 9.2s a 13.2s - 14 palavras - plano two
 > "Um dia, um fazendeiro americano encontrou um porco comendo as batatas da horta dele."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | encontrou (11.2s) | ACAO: olha | aponta/olha | OK |
 | 2 | - | CENA | animal: pig come | OK |
-| 3 | - | ATUACAO | reagir | OK |
 
 ## Cena b3 - 14.3s a 18.6s - 13 palavras - plano two
 > "Ele pegou a espingarda, e atirou. O porco era de um vizinho inglês."
@@ -84,12 +82,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | respondeu (39.9s) | ACAO: fala | aponta explicando | OK |
-| 2 | canhões (44.6s) | EFEITO: burst | estouro/clarao + som | OK |
-| 3 | canhões (44.6s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 4 | apontados (45.1s) | ACAO: fala | aponta explicando | OK |
-| 5 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
-| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
-| 7 | - | ATUACAO | discutir | OK |
+| 2 | canhões (44.6s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 3 | apontados (45.1s) | ACAO: fala | aponta explicando | OK |
+| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 5 | - | ATUACAO | discutir | OK |
 
 ## Cena b8 - 47.4s a 53.5s - 24 palavras - plano two
 > "O almirante inglês recebeu a ordem de atacar, e se recusou: disse que não ia pôr duas nações em guerra por briga de porco."
@@ -104,24 +100,26 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 6 | - | INTERACAO | vai ate o outro | OK |
 | 7 | - | ATUACAO | discutir | OK |
 
-## Cena b9 - 54.7s a 60.0s - 13 palavras - plano orbit
+## Cena b9 - 54.7s a 60.0s - 13 palavras - plano group
 > "Os soldados passaram meses trocando insultos, e depois, festas. Ninguém deu um tiro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | trocando (56.0s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 2 | festas (58.0s) | ACAO: vence | bracos para cima + brilho | OK |
-| 3 | - | ATUACAO | discutir | OK |
+| 3 | - | INTERACAO | cochichar | OK |
+| 4 | - | ATUACAO | discutir | OK |
 
-## Cena b10 - 61.2s a 64.0s - 11 palavras - plano two
+## Cena b10 - 61.2s a 64.0s - 11 palavras - plano crowd
 > "Treze anos depois, um árbitro decidiu que a ilha era americana."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | EMOCAO: determined | o rosto vira "determined" na palavra | OK |
-| 2 | - | INTERACAO | insiste | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| 4 | - | PLACA | 13 ANOS | OK |
+| 2 | - | CENA | cavalaria: 4 soldados a cavalo (ALM) | OK |
+| 3 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 5 | - | PLACA | 13 ANOS | OK |
 
 ## Cena b11 - 65.4s a 66.9s - 8 palavras - plano close
 > "A única baixa da guerra foi o porco."

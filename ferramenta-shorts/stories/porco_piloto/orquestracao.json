@@ -1,0 +1,170 @@
+{
+ "id": "porco_piloto",
+ "ano": 1859,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "FAZ",
+    "IRL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "nature/haybale",
+    "nature/picket_fence"
+   ],
+   "palavras": 11,
+   "cena": "b0",
+   "frase": "Dois países quase entraram em guerra por causa de um porco.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "FAZ",
+    "IRL"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b1",
+   "frase": "Foi na ilha de San Juan, entre os Estados Unidos e o Canadá.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "FAZ"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/barn",
+    "kit/batatas",
+    "nature/flowerbed",
+    "nature/haybale",
+    "nature/picket_fence",
+    "nature/scarecrow"
+   ],
+   "palavras": 14,
+   "cena": "b2",
+   "frase": "Um fazendeiro americano achou o porco comendo suas batatas, pegou a espingarda e atirou.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "IRL",
+    "FAZ"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "nature/picket_fence"
+   ],
+   "palavras": 12,
+   "cena": "b3",
+   "frase": "O dono, um irlandês da companhia inglesa, exigiu cem dólares. Ninguém cedeu.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "ING",
+    "AME"
+   ],
+   "multidao": 48,
+   "objetos": [
+    "cannon",
+    "navios de guerra ao fundo, no tamanho real"
+   ],
+   "palavras": 15,
+   "cena": "b4",
+   "frase": "Os Estados Unidos mandaram soldados, e a Inglaterra respondeu com navios de guerra e canhões.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ALM",
+    "ING"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 12,
+   "cena": "b5",
+   "frase": "O almirante inglês se recusou a atacar por causa de um porco.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "FAZ"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/cross",
+    "nature/picket_fence"
+   ],
+   "palavras": 8,
+   "cena": "b6",
+   "frase": "A única baixa da guerra foi o porco.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "FAZ"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b7",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  }
+ ]
+}

@@ -1,0 +1,278 @@
+{
+ "id": "karansebes",
+ "ano": 1788,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "crowd",
+   "personagens": [
+    "AUT",
+    "AUT",
+    "AUT",
+    "AUT"
+   ],
+   "multidao": 48,
+   "objetos": [
+    "kit/marco_viena"
+   ],
+   "palavras": 10,
+   "cena": "b0",
+   "frase": "Um exército inteiro conseguiu perder uma batalha contra si mesmo.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "AUT",
+    "HUS",
+    "AUT",
+    "OFF"
+   ],
+   "multidao": 32,
+   "objetos": [
+    "kit/marco_viena"
+   ],
+   "palavras": 17,
+   "cena": "b1",
+   "frase": "Era o exército austríaco, marchando contra os turcos, com soldados de vários países, que mal se entendiam.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "track",
+   "personagens": [
+    "HUS",
+    "HUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_viena",
+    "tools/lantern"
+   ],
+   "palavras": 10,
+   "cena": "b2",
+   "frase": "Numa noite, os hussardos foram na frente procurar o inimigo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "HUS",
+    "LOC"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "barrel",
+    "kit/barrel_r",
+    "kit/marco_viena"
+   ],
+   "palavras": 8,
+   "cena": "b3",
+   "frase": "Não acharam turco nenhum. Acharam moradores vendendo aguardente.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "HUS",
+    "HUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "barrel",
+    "kit/marco_viena",
+    "tools/lantern"
+   ],
+   "palavras": 7,
+   "cena": "b4",
+   "frase": "Compraram tudo, beberam, e a festa começou.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "AUT",
+    "HUS",
+    "AUT"
+   ],
+   "multidao": 5,
+   "objetos": [
+    "kit/marco_viena"
+   ],
+   "palavras": 22,
+   "cena": "b5",
+   "frase": "Aí chegou a infantaria, querendo a parte dela. Os hussardos não quiseram dividir. A discussão virou empurra-empurra, e alguém deu um tiro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "HUS"
+   ],
+   "multidao": 18,
+   "objetos": [
+    "kit/campfire",
+    "kit/marco_viena",
+    "kit/tent"
+   ],
+   "palavras": 12,
+   "cena": "b6",
+   "frase": "No escuro, alguém gritou: \"Turcos! Turcos!\" E o pânico tomou o acampamento.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "AUT",
+    "AUT",
+    "HUS"
+   ],
+   "multidao": 48,
+   "objetos": [
+    "buildings/house_small",
+    "kit/marco_viena",
+    "nature/picket_fence",
+    "nature/tree_oak"
+   ],
+   "palavras": 19,
+   "cena": "b7",
+   "frase": "Acontece que ninguém entendia a língua do vizinho. Todo mundo atirava em todo mundo, achando que eram os turcos.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "OFF",
+    "AUT"
+   ],
+   "multidao": 5,
+   "objetos": [
+    "cannon",
+    "kit/marco_viena"
+   ],
+   "palavras": 14,
+   "cena": "b8",
+   "frase": "Um oficial mandou usar a artilharia, e os canhões dispararam contra o próprio exército.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "TUR",
+    "TUR"
+   ],
+   "multidao": 5,
+   "objetos": [
+    "barrel",
+    "crate",
+    "kit/campfire",
+    "kit/marco_viena",
+    "kit/tent"
+   ],
+   "palavras": 26,
+   "cena": "b9",
+   "frase": "Dois dias depois, os turcos chegaram de verdade, e acharam o acampamento abandonado. Contam que foram até dez mil baixas, mas os historiadores duvidam desse número.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "TUR",
+    "TUR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_viena"
+   ],
+   "palavras": 8,
+   "cena": "b10",
+   "frase": "Os turcos venceram sem dar um único tiro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "AUT"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_viena"
+   ],
+   "palavras": 13,
+   "cena": "b11",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  }
+ ]
+}

@@ -1,0 +1,272 @@
+{
+ "id": "kekule1865",
+ "ano": 1865,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 0,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "KEK",
+    "COL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_viena",
+    "kit/snake_ring"
+   ],
+   "palavras": 17,
+   "cena": "b0",
+   "frase": "Um dos maiores segredos da química foi resolvido num cochilo, e com a ajuda de uma cobra.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 18,
+   "objetos": [
+    "buildings/house_two",
+    "kit/marco_viena",
+    "nature/lamppost"
+   ],
+   "palavras": 13,
+   "cena": "b1",
+   "frase": "Era mil oitocentos e sessenta e cinco, na cidade de Gante, na Bélgica.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "KEK",
+    "ALU"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/snake_ring"
+   ],
+   "palavras": 20,
+   "cena": "b2",
+   "frase": "O professor August Kekulé tinha um problema: o benzeno, um líquido com seis átomos de carbono que ninguém sabia arrumar.",
+   "classe": "explicativa",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "COL",
+    "KEK"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 15,
+   "cena": "b3",
+   "frase": "Os químicos desenhavam correntes retas, e nada fechava a conta. Era um quebra-cabeça de anos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "KEK"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/fireplace",
+    "mk/Chair_1"
+   ],
+   "palavras": 12,
+   "cena": "b4",
+   "frase": "Numa noite fria, ele virou a cadeira para a lareira, e cochilou.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "KEK"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/snake_ring",
+    "mk/Chair_1"
+   ],
+   "palavras": 15,
+   "cena": "b5",
+   "frase": "No sonho, os átomos dançavam como cobras. Até que uma delas mordeu o próprio rabo.",
+   "classe": "explicativa",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "low",
+   "personagens": [
+    "KEK"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/snake_ring"
+   ],
+   "palavras": 19,
+   "cena": "b6",
+   "frase": "Kekulé acordou num pulo, como se tivesse levado um raio. O benzeno não era uma corrente. Era um anel!",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "KEK"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/snake_ring"
+   ],
+   "palavras": 15,
+   "cena": "b7",
+   "frase": "Passou o resto da noite desenhando o anel de seis carbonos. E a conta fechou.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "KEK",
+    "COL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/snake_ring"
+   ],
+   "palavras": 15,
+   "cena": "b8",
+   "frase": "Os colegas ficaram de boca aberta. O anel explicava dezenas de substâncias de uma vez.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "KEK",
+    "COL",
+    "ALU"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/snake_ring"
+   ],
+   "palavras": 20,
+   "cena": "b9",
+   "frase": "Vinte e cinco anos depois, numa festa em Berlim em honra ao anel, ele contou o sonho pela primeira vez.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "COL",
+    "KEK"
+   ],
+   "multidao": 18,
+   "objetos": [
+    "kit/marco_viena",
+    "kit/snake_ring"
+   ],
+   "palavras": 19,
+   "cena": "b10",
+   "frase": "Até hoje há quem duvide da história. Mas o anel do benzeno virou base de remédios, tintas e plásticos.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "KEK"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_viena",
+    "kit/snake_ring"
+   ],
+   "palavras": 12,
+   "cena": "b11",
+   "frase": "E ele deixou um conselho: aprendam a sonhar. Mas confiram tudo acordados.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "KEK"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_viena"
+   ],
+   "palavras": 13,
+   "cena": "b12",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  }
+ ]
+}

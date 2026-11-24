@@ -6,8 +6,17 @@ Usuário: Gibson, fala português. Responda sempre em português, curto e honest
 - Ferramenta atual: v12 (Gemini) + correcoes de 23/11: fisica (boneco nao atravessa boneco nem objeto), dicionario universal de acoes por RAIZ do verbo (qualquer conjugacao), montado a cavalo com tiro, carros em tamanho real com rodas girando e animacao pela palavra (pulou/voou/decolou/pousou/rampa de cabeca para baixo/espaco), cenario variado (>=4 lugares, salas diferentes), camera variada, interior "galpao", close de objeto mirando o centro real (achatado = de cima), navio a vela antes de 1820, CHAMADA FINAL automatica ("Agora nao deixe de comentar: qual deve ser o tema do proximo video?"). Detalhes: `ferramenta-shorts/PROTOCOLO_ACAO.md` §19.
 - **PESQUISA VISUAL OBRIGATORIA (ordem do Gibson 23/11):** todo roteiro (novo ou refeito) pesquisa a HISTORIA e a FONTE VISUAL (fotos, quadros, videos): onde, quando (dia/noite/estacao), quem, roupas da epoca, cenario real, objetos/utensilios/veiculos, e preenche `"visual"` no topo do beats.json (formato em `GUIA_DO_ROTEIRISTA.md` "Pesquisa visual"). Depois ajusta figurino/cenario/props a ela, tira fala entre aspas sem fonte e fato nao confirmado, e modela no Blender o que faltar (`blender/objetos_curadoria.py`, `formas.py`). Sem `"visual"` completo o mkvideo acusa risco e nao renderiza.
 - Refacao de TODOS os videos com a ferramenta nova: fila principal (`fila_principal.txt`, 16 roteiros JA CURADOS: roadsterpulo2026, toledo, karansebes, porco, losangeles, kiska, texel, paris, petrich, hayha, kekule, postit, goodyear, curie, abelhas, tulipas); sessao A (`fila_sessao_A.txt`, 19) e sessao B (`fila_sessao_B.txt`, 18) fazendo a curadoria e o render das delas. Nada antigo e' entregue: so' a versao refeita, conferida (storyboard + grade de acoes + conferir.sh + auditar_acoes.sh) e sem defeito.
-- Sessoes de producao (mesma conta; guiar com send_message terminando em "Nao responda por mensagem."): A = `session_01HE8Dy3Tz5Mgz6d3rSUrMHS` (branch claude/prod-a-karansebes), B = `session_01HE8DxzBrskhVHznwqCpD4i` (branch claude/prod-b-emus). Videos delas chegam por `bash receber_das_sessoes.sh`. PAUSADAS em 23/11 a pedido do Gibson; ao retomar, a 1a ordem a elas e': `bash sync_ferramenta.sh` (as duas ainda estavam com mkvideo.py/runtime.js diferentes da principal) e religar o loop de sync a cada 10 min. Ronda horaria (trigger) desativada; fila principal parada (fila em fila_principal.txt).
+- Sessoes de producao (mesma conta; guiar com send_message terminando em "Nao responda por mensagem."): A = `session_01HE8Dy3Tz5Mgz6d3rSUrMHS` (branch claude/prod-a-karansebes), B = `session_01HE8DxzBrskhVHznwqCpD4i` (branch claude/prod-b-emus). Videos delas chegam por `bash receber_das_sessoes.sh`. PAUSADAS em 23/11 a pedido do Gibson; ao retomar, a 1a ordem a elas e': `bash sync_ferramenta.sh` (as duas ainda estavam com mkvideo.py/runtime.js diferentes da principal) e religar o loop de sync a cada 1 MINUTO (ordem do Gibson 24/11; `sleep 60`). Ronda horaria (trigger) desativada; fila principal parada (fila em fila_principal.txt).
 - Licoes do storyboard (corrigir antes de aprovar): palavra "plateia/multidao" enche a tela de gente (use "convidados" quando a cena e' de objeto); objeto grande precisa de plano aberto com camera mirando nele (cx/cz/h/d0/d1 no beat); "fachada": false e "regiao" certa para nao aparecer predio de cidade no campo.
+
+## ESTADO EM 24/11 — FERRAMENTA v13 (leia junto com o de 23/11)
+- Piloto do Roadster avaliado em "50%" pelo Gibson (sem propulsao embaixo do carro, carro nao voou, explicacao com personagem, "fazendinha" no fundo). Pente fino v13 feito: `ferramenta-shorts/PROTOCOLO_ACAO.md` §20 e `GUIA_DO_ROTEIRISTA.md` "v13".
+- Regras novas para TODO roteiro: frase de ciencia/mecanismo = cena `"explica"` SEM personagem (ou `"hud"`); "o carro/objeto decolou, voou, pulou, pousou" = cena do objeto com VFX preso nele; cenario tematico (outback/mountain/countryside...) so' com tema pedido, senao `loc_*`; objeto fora de epoca bloqueia; 1a frase sem data; 55-75 s. Conferir `stories/<id>/orquestracao.json` (4 metricas em 100%).
+- Producao segue PAUSADA (arquivo `ferramenta-shorts/PAUSA`; apagar para religar fila/watchdog). O Roadster so' e' refeito depois do "pode" do Gibson; ao refazer: `"set": "loc_pista"`, `explica` nas frases dos propulsores e do zero a cem, voo com VFX. Sessoes A/B: ao retomar, `bash sync_ferramenta.sh` primeiro.
+- v13b (mesmo dia, 2a rodada de ordens): QUATRO folhas (a 4a e' a PESQUISA: `python3 pesquisar.py <id>` baixa prints e monta `referencias/<id>/moodboard.jpg`; OLHAR antes do storyboard; a fila roda sozinha); herois (um ou varios); tamanho real de todo objeto grande; queda sem corpo dentro do chao; medidor de km/h = carro correndo. Detalhes: PROTOCOLO_ACAO §21 e GUIA "v13b".
+- v13c (3a rodada, apos o piloto da Guerra do Porco): CRONOGRAMA por video (`stories/<id>/cronograma.md`, 14 etapas; seguir a ordem), embarcacao da epoca modelada e pintada, batalhao de 32/48 em blocos por farda, multidao nunca clona personagem, cidade so' com tema de cidade, guerra sem tiro sem explosao. REGRA: defeito achado num video = corrigir NA FERRAMENTA + teste em `teste_ferramenta.sh` (PROTOCOLO_ACAO §22, GUIA "v13c").
+- SINCRONIA A CADA 1 MIN (ordem do Gibson 24/11): sessoes A/B puxam a ferramenta a cada 60 s (`sync_ferramenta.sh` em laco; `boot.sh` religa). O `make_video.sh` carimba os trechos com a versao do motor: ferramenta atualizada no meio = video renderizado INTEIRO de novo na versao nova (nunca metade antigo, metade novo).
+- NAO usar agentes/subagentes/workflows (ordem repetida em 24/11).
 
 ## REGRA MESTRA (ordem do Gibson, 19/11) — vale acima de todas as outras
 1. **Nunca informe um problema ao Gibson sem antes já ter resolvido.** Achou o defeito: corrige, confere (teste, quadro, folha de contato) e só então conta o que estava errado e como ficou.
@@ -17,7 +26,7 @@ Usuário: Gibson, fala português. Responda sempre em português, curto e honest
 - Só fale de um problema ainda aberto se for IMPOSSÍVEL resolver daqui (ex.: acesso/credencial que só ele tem). Aí diga o que já fez, o que bloqueia e o único passo que falta dele.
 
 Resumo das ordens do Gibson (valem para toda sessão):
-- TRÊS FOLHAS por vídeo: `./novo_video.sh <id>` gera `stories/<id>/folha1_roteiro.md` (história, narração, som), `folha2_producao.md` (cenário, câmera, takes, personagens, objetos, RISCOS com a correção) e `folha3_acao.md` (CATÁLOGO DE AÇÕES frase por frase: cada ação do roteiro, o instante e a animação executada; "FALTA" trava o render). Só renderiza com 0 risco e 0 ação faltando. Catálogo geral: `CATALOGO_ACOES.md`. Ao escrever o roteiro pense nos contras: cada frase precisa de algo que a ferramenta mostra (ex.: chegada de barco/tropa = plano aberto no `harbor`).
+- QUATRO FOLHAS por vídeo (a 4ª é `folha4_pesquisa.md`, ver ESTADO 24/11). As três primeiras: `./novo_video.sh <id>` gera `stories/<id>/folha1_roteiro.md` (história, narração, som), `folha2_producao.md` (cenário, câmera, takes, personagens, objetos, RISCOS com a correção) e `folha3_acao.md` (CATÁLOGO DE AÇÕES frase por frase: cada ação do roteiro, o instante e a animação executada; "FALTA" trava o render). Só renderiza com 0 risco e 0 ação faltando. Catálogo geral: `CATALOGO_ACOES.md`. Ao escrever o roteiro pense nos contras: cada frase precisa de algo que a ferramenta mostra (ex.: chegada de barco/tropa = plano aberto no `harbor`).
 - BIBLIOTECA 3D PRIMEIRO: animais (todos) e 80+ objetos JÁ ESTÃO PRONTOS e entram sozinhos quando a narração cita (veja `CAPACIDADES.md`). NUNCA modele animal; só modele objeto que a folha 2 marcar como FALTA. Pré-checagem antes do render (OPERACAO.md, "Lições de 18/11").
 - CORRIGIR SEM PERGUNTAR: defeito visto na folha de contato (personagem cortado, cena vazia, texto cobrindo legenda, luz estourada, objeto herói sumido, personagens parados) é corrigido na hora (`./refazer.sh <id> bN` ou `./refazer_tudo.sh <id>`). Para o Gibson vai só o relatório. Defeito de acabamento TAMBÉM se refaz (ZERO RESSALVA).
 - TODO VÍDEO: objeto herói com close; 2 grandes momentos; mínimo 2 planos abertos; personagens interagindo e com expressões variadas; efeito + som nas palavras de ação; mapa quando cita lugar; histórias e personagens originais; série Guerras Inusitadas com EP no título.
@@ -58,19 +67,16 @@ Fila: `cd ferramenta-shorts && bash status.sh` | `bash run_queue.sh` (ids em `qu
 **Branch:** claude/bold-sagan-dskrsj
 
 **Recent commits:**
-- 2f42c8fa ckpt(kekule1865): trecho 8
-- 7e5d30bc ckpt(kekule1865): trecho 6
-- b565f7a9 ckpt(kekule1865): trecho 5
-- 87678c9b ckpt(kekule1865): trecho 3
-- 73497c7b ckpt(kekule1865): trecho 2
-
-**In-progress files (1):**
-- CLAUDE.md
+- 93ddb6b6 Trava PAUSA: reinicio do ambiente nao religa fila/watchdog/auto-aprovacao (producao parada para o pente fino v13)
+- 173d98f0 ckpt(karansebes): pronto
+- ee3fa7c8 ckpt(karansebes): trecho 11
+- fd9a517b ckpt(karansebes): trecho 13
+- 7dc6e03e ckpt(karansebes): trecho 12
 
 **Project reminders:**
 - Verify the file content before claiming an edit is done
 - Run tests before declaring task complete
 - Re-read CLAUDE.md if you're unsure of project conventions
 
-**Hook generated:** 2026-11-23 15:18:24 UTC
+**Hook generated:** 2026-11-23 23:36:45 UTC
 <!-- post-compact-recovery-end -->

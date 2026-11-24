@@ -1,0 +1,261 @@
+{
+ "id": "postit1968",
+ "ano": 1968,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "SIL",
+    "CHE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/globe",
+    "kit/postit"
+   ],
+   "palavras": 19,
+   "cena": "b0",
+   "frase": "Um químico inventou a cola mais fraca do mundo. E ela virou um dos produtos mais vendidos do planeta.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 18,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b1",
+   "frase": "Era mil novecentos e sessenta e oito, numa grande fábrica dos Estados Unidos.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "SIL"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b2",
+   "frase": "Spencer Silver tentava criar uma super cola, tão forte que nada conseguisse descolar.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "SIL"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 15,
+   "cena": "b3",
+   "frase": "Acontece que saiu o contrário: uma cola que grudava, mas soltava fácil, sem deixar marca.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "CHE",
+    "SIL"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 14,
+   "cena": "b4",
+   "frase": "Durante anos, ele mostrou a cola para todo mundo na empresa. Ninguém via utilidade.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "FRY",
+    "PAD",
+    "POV"
+   ],
+   "multidao": 4,
+   "objetos": [],
+   "palavras": 19,
+   "cena": "b5",
+   "frase": "Até que, em mil novecentos e setenta e quatro, o colega Art Fry estava cantando no coral da igreja.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "FRY",
+    "PAD"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/postit"
+   ],
+   "palavras": 16,
+   "cena": "b6",
+   "frase": "Os papeizinhos que marcavam as páginas do hinário viviam caindo no chão. E ele ficava perdido.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "FRY"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/postit"
+   ],
+   "palavras": 20,
+   "cena": "b7",
+   "frase": "Aí veio a ideia: marcadores com a cola fraca do Silver. Grudam, não caem, e saem sem rasgar a página.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "FRY",
+    "SIL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/postit"
+   ],
+   "palavras": 22,
+   "cena": "b8",
+   "frase": "Os dois se juntaram. E o papel saiu amarelo por acaso: era o único papel de rascunho que tinha no laboratório vizinho.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "CHE",
+    "FRY"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/postit"
+   ],
+   "palavras": 17,
+   "cena": "b9",
+   "frase": "O primeiro teste de vendas foi um fracasso. Ninguém entendia para que servia um bloquinho que descolava.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "FRY",
+    "SIL",
+    "CHE"
+   ],
+   "multidao": 30,
+   "objetos": [
+    "buildings/apartment",
+    "buildings/house_two",
+    "kit/postit",
+    "nature/lamppost"
+   ],
+   "palavras": 16,
+   "cena": "b10",
+   "frase": "Então distribuíram amostras de graça numa cidade inteira. Quase todo mundo que testou quis comprar mais.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "SIL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/postit"
+   ],
+   "palavras": 18,
+   "cena": "b11",
+   "frase": "Em mil novecentos e oitenta, o post-it chegou às lojas. Tudo graças a uma cola que deu errado.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "SIL"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b12",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  }
+ ]
+}

@@ -90,8 +90,8 @@ O que procurar em CADA frase (defeitos reais achados em 19/11):
 
 ## 13. SESSOES EM AUTOMATICO (ordem do Gibson 19/11)
 Cada sessao de producao deixa rodando em segundo plano, desde o inicio:
-`nohup bash -c 'while true; do ./sync_ferramenta.sh >> logs/sync.log 2>&1; sleep 600; done' > /dev/null 2>&1 &`
-A cada 10 min ela puxa a ferramenta do branch principal, regenera as folhas dos videos ainda nao prontos e roda `verificar_execucao.py`.
+`nohup bash -c 'while true; do ./sync_ferramenta.sh >> logs/sync.log 2>&1; sleep 60; done' > /dev/null 2>&1 &`
+A cada 1 min ela puxa a ferramenta do branch principal, regenera as folhas dos videos ainda nao prontos e roda `verificar_execucao.py`.
 Storyboard que mudou volta para a fila; a sessao REVISA de novo (grade de acoes + revisao_storyboard.md). Falha de execucao no log = corrigir na hora (REGRA MESTRA).
 Toda revisao com defeito achado vira linha "CORRIGIDO" no revisao_storyboard.md, e o commit diz o que foi corrigido (a sessao principal confere pelo git).
 
@@ -123,3 +123,40 @@ Nenhum vídeo sai com ressalva. Defeito de acabamento também se corrige antes d
 - CAMERA: duas cenas seguidas no mesmo lugar nunca com o mesmo enquadramento; cada cena com angulo (az) diferente.
 - VEICULOS: carro em tamanho real (~5 m; caminhao ~6 m); rodas separadas (nos `wheelz_*`, blender/rodas_separadas.py) giram conforme o carro anda; frente do carro aponta para onde ele vai.
   Palavra da frase manda a animacao: pulou/saltou = arco no ar; voou/decolou = sai do chao com poeira e sobe; desceu/pousou = desce ate as rodas (gira se "girou"); espaco/orbita = flutua girando; dirigiu/acelerou/chegou = atravessa a cena.
+
+## §20 — v13 (24/11): o que mudou no motor
+
+Origem (Gibson, piloto do Roadster "50%"): faltou a propulsão embaixo do carro, o carro não voou de verdade, a explicação tinha personagem parado e apareceu a "fazendinha".
+
+- **Cenário:** cenários temáticos só com tema pedido; locações limpas `loc_*` (`web/sets/loc.js`); enfeites por época (`web/sets/dress.js`, `DRESS_ERA`); nada de "fachada" de casa/moinho em locação limpa; `deserto` não vira mais fazenda.
+- **VFX preso no objeto** (`web/vfx.js`): partículas 3D determinísticas (cada uma nasce na pose do objeto no quadro em que nasceu). Entra por `prop.vfx`.
+- **Manobras de objeto** (`mkvideo.py`, bloco VEÍCULO): decolar/voar (5,2 m, inclina, atravessa a cena), saltar, pousar, arrancar, rampa — todas com VFX, som e `camFollow` (câmera segue o objeto).
+- **Sujeito = objeto:** verbo de voo/salto/pouso com veículo em cena não faz o personagem pular; personagens vão para o lado.
+- **Cena de explicação** (`_explica`): estúdio, raio-X, peças internas, rótulos, setas, medidor, contador, passos, comparação (`fxAt` em `web/runtime.js`).
+- **Travas novas** (`_riscos` e globais): frase explicativa sem `explica`/`hud`; ação-chave sem briefing; objeto fora de época; gancho com data; duração fora de 50–80 s.
+- **Modo único:** o "Modo 2" (Blender costurado) foi aposentado (`legado/`); Blender só modela.
+- **Som:** `jato`, `motor_ev`, `pouso`, `hud`, `faisca`, `espanto`, `pneu` (`audio_story.py`); volume final -14 LUFS.
+- **Teste de aceitação:** `videos/teste_v13/beats.json` (explicação com raio-X, voo, medidor, salto, pouso, passos, comparação) e `bash teste_ferramenta.sh`.
+
+## §21 — v13b (24/11): pesquisa automática, heróis, tamanho real, queda
+
+Ordem do Gibson: a ferramenta é universal — para QUALQUER roteiro ela faz o raio-X, pesquisa, e executa o que a narração diz, sem conserto por vídeo.
+
+- **4 folhas:** roteiro, produção, ação e PESQUISA (`folha4_pesquisa.md`; `pesquisar.py`; prints e `moodboard.jpg` em `referencias/<id>/`). A fila roda a pesquisa sozinha; trava sem ela.
+- **Heróis:** `HEROIS_OBJ` / `HEROIS_PER` (um ou vários; guerra = os dois lados).
+- **Tamanho real:** `_TAM_REAL` + `_tam_real()` em `mkvideo.py` (props, veículo dirigido e objeto da explicação).
+- **Queda:** `web/runtime.js` (corpo deitado sobe 0,3·s e recua para ficar inteiro no quadro); câmera abre em queda e pulo.
+- **Carro correndo:** `_explica`, manobra `corre` (jato com `dir: 'tras'` em `web/vfx.js`).
+- Rede: a API do Wikimedia é bloqueada por excesso de pedidos nesta rede; `pesquisar.py` usa a página de busca e o servidor `upload.wikimedia.org`.
+
+## §22 — v13c (24/11): achados do piloto da Guerra do Porco, já na ferramenta
+
+Ordem do Gibson: tudo o que aparecer de defeito num vídeo é corrigido NA FERRAMENTA (com teste em `teste_ferramenta.sh`), para não voltar no próximo.
+
+- `cronograma.py` + chamada no fim do `mkvideo.py` e em cada etapa do `make_video.sh`.
+- `blender/navios_epoca.py` (6 embarcações) + `_navio_epoca()` e `NAVIO` no `mkvideo.py` (troca o navio do cenário e os automáticos; `_PROP_ERA` bloqueia navio de outra época).
+- Batalhão (`_dois`, mínimo 32/48) e blocos por farda no laço da multidão.
+- Multidão automática sem clone (`_massa`), momento automático só com tropa/povo.
+- `_set_ok('street')` exige tema de cidade; `_RURAL` desliga o kit de cidade da região; `mountain` exige montanha.
+- `tiros: false` não gera `voando` nem clarão por palavra.
+- `_TXT0` ignora `buscas`/`referencias`/`fontes_visuais` (texto de pesquisa não muda cenário).

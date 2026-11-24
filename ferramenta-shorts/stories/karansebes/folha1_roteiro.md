@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 - Narracao: Aí chegou a infantaria, querendo a parte dela. Os hussardos não quiseram dividir. A discussão virou empurra-empurra, e alguém deu um tiro.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: cavalaria: 2 soldados a cavalo (AUT) -> acao + som de efeito; chegou -> dust + som de impacto; tiro -> burst + som de tiro/explosao; encena: chega (point) @1 -> acao + som de efeito; encena: x_entrega (reach) @19 -> acao + som de efeito; encena: atira @21 -> acao + som de efeito
+- Efeito + som nas palavras-chave: cavalaria: 2 soldados a cavalo (AUT) -> acao + som de efeito; chegou -> dust + som de impacto; encena: chega (point) @1 -> acao + som de efeito; encena: x_entrega (reach) @19 -> acao + som de efeito; encena: atira @21 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
