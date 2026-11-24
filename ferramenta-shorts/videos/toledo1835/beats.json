@@ -113,11 +113,7 @@
    },
    "say": "Ohio respondeu com a própria milícia, e as duas tropas chegaram à beira do rio, frente a frente.",
    "riscos_ok": true,
-   "sem_mortos": true,
-   "lados": [
-    "OHI",
-    "MIC"
-   ]
+   "sem_mortos": true
   },
   {
    "shot": "crowd",
@@ -169,7 +165,6 @@
    ],
    "say": "A única baixa foi um xerife de Michigan, espetado numa briga de taverna com um canivete.",
    "shot_lock": true,
-   "interacao": "empurrar",
    "interior": "madeira",
    "moveis": [
     [

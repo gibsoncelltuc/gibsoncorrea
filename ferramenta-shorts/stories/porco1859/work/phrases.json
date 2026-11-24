@@ -1,0 +1,261 @@
+{
+ "duration": 64.248,
+ "frames30": 1927,
+ "source": "silence-align (cost 0.84)",
+ "segments": [
+  [
+   0.148625,
+   2.89246
+  ],
+  [
+   3.72946,
+   6.202
+  ],
+  [
+   6.46233,
+   7.88271
+  ],
+  [
+   8.71921,
+   11.9618
+  ],
+  [
+   12.7877,
+   14.0183
+  ],
+  [
+   14.2344,
+   14.7127
+  ],
+  [
+   15.5651,
+   17.1811
+  ],
+  [
+   18.0466,
+   20.9193
+  ],
+  [
+   21.7705,
+   23.5557
+  ],
+  [
+   23.8805,
+   24.8683
+  ],
+  [
+   25.7012,
+   26.5071
+  ],
+  [
+   27.3759,
+   29.4153
+  ],
+  [
+   29.7315,
+   31.8785
+  ],
+  [
+   32.7521,
+   34.9481
+  ],
+  [
+   35.7969,
+   37.9886
+  ],
+  [
+   38.256,
+   39.6677
+  ],
+  [
+   40.5216,
+   42.5655
+  ],
+  [
+   42.8568,
+   43.5386
+  ],
+  [
+   43.8223,
+   45.7422
+  ],
+  [
+   46.5893,
+   48.8535
+  ],
+  [
+   49.0294,
+   49.5676
+  ],
+  [
+   49.8512,
+   50.3353
+  ],
+  [
+   51.194,
+   52.2408
+  ],
+  [
+   53.0838,
+   54.1341
+  ],
+  [
+   54.3578,
+   56.4892
+  ],
+  [
+   57.3362,
+   59.107
+  ],
+  [
+   59.9332,
+   61.3766
+  ],
+  [
+   61.6758,
+   63.4329
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Dois pa\u00edses quase entraram em guerra por causa de um porco.",
+   "s": 0.149,
+   "e": 2.892
+  },
+  {
+   "text": "Era uma ilha pequena entre os Estados Unidos e o Canad\u00e1,",
+   "s": 3.729,
+   "e": 6.202
+  },
+  {
+   "text": "e ningu\u00e9m sabia de quem era.",
+   "s": 6.462,
+   "e": 7.883
+  },
+  {
+   "text": "Um fazendeiro americano pegou um porco comendo as batatas da horta.",
+   "s": 8.719,
+   "e": 11.962
+  },
+  {
+   "text": "Ele pegou a espingarda,",
+   "s": 12.788,
+   "e": 14.018
+  },
+  {
+   "text": "e atirou.",
+   "s": 14.234,
+   "e": 14.713
+  },
+  {
+   "text": "O porco era de um vizinho ingl\u00eas.",
+   "s": 15.565,
+   "e": 17.181
+  },
+  {
+   "text": "O fazendeiro ofereceu dez d\u00f3lares ao vizinho pelo porco.",
+   "s": 18.047,
+   "e": 20.919
+  },
+  {
+   "text": "O dono gritou que o porco valia cem,",
+   "s": 21.77,
+   "e": 23.556
+  },
+  {
+   "text": "e recusou o dinheiro.",
+   "s": 23.881,
+   "e": 24.868
+  },
+  {
+   "text": "Ningu\u00e9m cedeu.",
+   "s": 25.701,
+   "e": 26.507
+  },
+  {
+   "text": "Os ingleses amea\u00e7aram prender o fazendeiro,",
+   "s": 27.376,
+   "e": 29.415
+  },
+  {
+   "text": "e os americanos mandaram soldados para a ilha.",
+   "s": 29.732,
+   "e": 31.878
+  },
+  {
+   "text": "A Inglaterra respondeu com navios de guerra.",
+   "s": 32.752,
+   "e": 34.948
+  },
+  {
+   "text": "Logo eram centenas de soldados e canh\u00f5es,",
+   "s": 35.797,
+   "e": 37.989
+  },
+  {
+   "text": "apontados uns para os outros.",
+   "s": 38.256,
+   "e": 39.668
+  },
+  {
+   "text": "O almirante ingl\u00eas recebeu ordem de atacar,",
+   "s": 40.522,
+   "e": 42.566
+  },
+  {
+   "text": "e se recusou:",
+   "s": 42.857,
+   "e": 43.539
+  },
+  {
+   "text": "n\u00e3o ia come\u00e7ar uma guerra por um porco.",
+   "s": 43.822,
+   "e": 45.742
+  },
+  {
+   "text": "Os soldados passaram meses trocando insultos,",
+   "s": 46.589,
+   "e": 48.853
+  },
+  {
+   "text": "e depois,",
+   "s": 49.029,
+   "e": 49.568
+  },
+  {
+   "text": "festas.",
+   "s": 49.851,
+   "e": 50.335
+  },
+  {
+   "text": "Ningu\u00e9m deu um tiro.",
+   "s": 51.194,
+   "e": 52.241
+  },
+  {
+   "text": "Treze anos depois,",
+   "s": 53.084,
+   "e": 54.134
+  },
+  {
+   "text": "um \u00e1rbitro decidiu que a ilha era americana.",
+   "s": 54.358,
+   "e": 56.489
+  },
+  {
+   "text": "A \u00fanica baixa da guerra foi o porco.",
+   "s": 57.336,
+   "e": 59.107
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 59.933,
+   "e": 61.377
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 61.676,
+   "e": 63.433
+  }
+ ]
+}

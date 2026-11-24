@@ -20,4 +20,4 @@ rm -f stories/$ID/DONE; ./snap.sh $ID $N >> $L 2>&1; (cd stories/$ID && python3 
 node render_pool.mjs $ID $N >> $L 2>&1
 T=$(python3 -c "import json;print(json.load(open('stories/$ID/meta.json'))['file'])")
 ./assemble.sh $ID "$T" >> $L 2>&1; ./review_video.sh out/$ID/$T.mp4 out/$ID/review | tail -2
-touch stories/$ID/DONE; echo "PRONTO out/$ID/$T.mp4 (cenas refeitas: $*)"
+echo "motor v13 $(date +%F_%T) refeito: $*" > stories/$ID/DONE; echo "PRONTO out/$ID/$T.mp4 (cenas refeitas: $*)"

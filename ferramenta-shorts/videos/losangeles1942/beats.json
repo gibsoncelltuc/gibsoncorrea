@@ -134,7 +134,7 @@
    "say": "Na madrugada, as sirenes tocaram, as luzes da cidade se apagaram, e holofotes varreram o céu."
   },
   {
-   "shot": "crowd",
+   "shot": "group",
    "set": "street",
    "hora": "noite",
    "who": [
@@ -143,7 +143,7 @@
    ],
    "tiros": true,
    "crowd": {
-    "n": 20,
+    "n": 4,
     "outfits": [
      "SOL"
     ],
@@ -153,20 +153,14 @@
    "props": [
     [
      "cannon",
-     -5,
-     -5,
-     1.2
+     -2.6,
+     -4.5,
+     1.0
     ],
     [
      "cannon",
-     5,
-     -6,
-     1.2
-    ],
-    [
-     "kit/searchlight",
-     0,
-     -9,
+     3.0,
+     -5.5,
      1.0
     ]
    ],
@@ -180,7 +174,8 @@
    ],
    "text": "FOGO!",
    "titulo": true,
-   "say": "Alguém viu um objeto no céu, e os soldados começaram a atirar com canhões antiaéreos."
+   "say": "Alguém viu um objeto no céu, e os soldados começaram a atirar com canhões antiaéreos.",
+   "shot_lock": true
   },
   {
    "shot": "two",
@@ -223,14 +218,14 @@
    "props": [
     [
      "cannon",
-     -6,
-     -7,
-     1.2
+     -3.0,
+     -2.0,
+     1.0
     ],
     [
      "kit/searchlight",
-     5,
-     -8,
+     4,
+     -6,
      1.0
     ]
    ]

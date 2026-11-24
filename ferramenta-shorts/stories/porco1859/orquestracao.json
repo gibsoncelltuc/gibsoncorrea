@@ -61,14 +61,14 @@
     "nature/scarecrow",
     "tools/wheelbarrow"
    ],
-   "palavras": 14,
+   "palavras": 11,
    "cena": "b2",
-   "frase": "Um dia, um fazendeiro americano encontrou um porco comendo as batatas da horta dele.",
+   "frase": "Um fazendeiro americano pegou um porco comendo as batatas da horta.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "countryside"
   },
   {
    "camera": "two",
@@ -89,7 +89,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "countryside"
   },
   {
    "camera": "two",
@@ -147,9 +147,9 @@
     "nature/picket_fence",
     "nature/scarecrow"
    ],
-   "palavras": 15,
+   "palavras": 14,
    "cena": "b6",
-   "frase": "Os ingleses ameaçaram prender o fazendeiro. Então os Estados Unidos mandaram soldados para a ilha.",
+   "frase": "Os ingleses ameaçaram prender o fazendeiro, e os americanos mandaram soldados para a ilha.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -200,13 +200,13 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "orbit",
+   "camera": "group",
    "personagens": [
     "ING",
     "AME",
     "ING"
    ],
-   "multidao": 48,
+   "multidao": 0,
    "objetos": [],
    "palavras": 13,
    "cena": "b9",
@@ -215,33 +215,27 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "countryside"
+   "cenario": "interior pedra"
   },
   {
-   "camera": "crowd",
+   "camera": "two",
    "personagens": [
     "ALM",
     "AME"
    ],
-   "multidao": 48,
+   "multidao": 0,
    "objetos": [],
    "palavras": 11,
    "cena": "b10",
    "frase": "Treze anos depois, um árbitro decidiu que a ilha era americana.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
-   "cenario": "countryside"
+   "cenario": "interior pedra"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "FAZ"
    ],
@@ -257,7 +251,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "loc_montanha"
   },
   {
    "camera": "close",

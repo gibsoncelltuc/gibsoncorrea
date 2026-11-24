@@ -151,7 +151,8 @@
     ]
    ],
    "detalhe": false,
-   "say": "Um dia, um fazendeiro americano encontrou um porco comendo as batatas da horta dele."
+   "say": "Um fazendeiro americano pegou um porco comendo as batatas da horta.",
+   "set": "countryside"
   },
   {
    "shot": "two",
@@ -190,7 +191,8 @@
      -1.2,
      1.1
     ]
-   ]
+   ],
+   "set": "countryside"
   },
   {
    "shot": "two",
@@ -263,7 +265,7 @@
    },
    "text": "TROPAS",
    "titulo": true,
-   "say": "Os ingleses ameaçaram prender o fazendeiro. Então os Estados Unidos mandaram soldados para a ilha.",
+   "say": "Os ingleses ameaçaram prender o fazendeiro, e os americanos mandaram soldados para a ilha.",
    "set": "harbor"
   },
   {
@@ -320,10 +322,12 @@
    ],
    "text": "13 ANOS",
    "say": "Treze anos depois, um árbitro decidiu que a ilha era americana.",
-   "riscos_ok": true
+   "riscos_ok": true,
+   "impact": false,
+   "shot_lock": true
   },
   {
-   "shot": "close",
+   "shot": "two",
    "who": [
     "FAZ:0:sad"
    ],
@@ -332,9 +336,9 @@
    "props": [
     [
      "kit/cross",
-     1.5,
-     -0.9,
-     0.8
+     1.2,
+     -1.4,
+     1.0
     ],
     [
      "nature/picket_fence",
@@ -375,5 +379,7 @@
    "https://en.wikipedia.org/wiki/Pig_War_(1859)",
    "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
   ]
- }
+ },
+ "sem_mortos": true,
+ "min_momentos": 1
 }

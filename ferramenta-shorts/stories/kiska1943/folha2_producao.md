@@ -152,9 +152,11 @@ dog | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote,
 ## Video inteiro
 - Objeto heroi: kit/dog_sit | grandes momentos: b3, b4 | planos abertos: 4 | mistura: close 9% | medio 66% | aberto 19% | detalhe 6%
 - Interacoes: b1 aproxima-se, b5 susto, b8 avanca e o outro recua, b9 empurrar
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - video com ~67 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: video com ~67 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh kiska1943 bN bM` (so essas cenas).

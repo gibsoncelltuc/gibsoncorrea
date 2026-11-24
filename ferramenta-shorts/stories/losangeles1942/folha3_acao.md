@@ -44,7 +44,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | INTERACAO | entregar | OK |
 | 5 | - | ATUACAO | conversar | OK |
 
-## Cena b4 - 24.2s a 28.4s - 15 palavras - plano orbit
+## Cena b4 - 24.2s a 28.4s - 15 palavras - plano group
 > "Alguém viu um objeto no céu, e os soldados começaram a atirar com canhões antiaéreos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -53,15 +53,17 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | atirar (27.5s) | EFEITO: burst | estouro/clarao + som | OK |
 | 3 | atirar (27.5s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 4 | canhões (28.1s) | EFEITO: burst | estouro/clarao + som | OK |
-| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 6 | - | PLACA | FOGO! | OK |
+| 5 | - | INTERACAO | o outro se aproxima | OK |
+| 6 | - | ATUACAO | conversar | OK |
+| 7 | - | PLACA | FOGO! | OK |
 
-## Cena b5 - 29.7s a 35.5s - 18 palavras - plano orbit
+## Cena b5 - 29.7s a 35.5s - 18 palavras - plano group
 > "Os soldados juravam que havia inimigos no céu. Acontece que não havia nada ali, só nuvens e fumaça."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | discutir | OK |
+| 1 | - | INTERACAO | discutir | OK |
+| 2 | - | ATUACAO | discutir | OK |
 
 ## Cena b6 - 36.8s a 41.2s - 17 palavras - plano group
 > "Foram mais de mil tiros de canhão, e os estilhaços caíram na cidade, que ficou em pânico."
@@ -75,8 +77,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | pânico (41.2s) | EFEITO: dust | poeira + som | OK |
 | 6 | pânico (41.2s) | ACAO: grita | grita de bracos para cima | OK |
 | 7 | - | EMOCAO: scared | o rosto vira "scared" na palavra | OK |
-| 8 | - | INTERACAO | o outro se aproxima | OK |
-| 9 | - | ATUACAO | conversar | OK |
+| 8 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 9 | - | INTERACAO | insiste | OK |
+| 10 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 42.3s a 46.5s - 14 palavras - plano two
 > "No dia seguinte, os militares discutiram o que tinha acontecido, e ninguém sabia dizer."
@@ -94,20 +97,19 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | morreram (48.5s) | EFEITO: puff | fumaca + som | OK |
 | 2 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 3 | - | INTERACAO | insiste | OK |
+| 3 | - | INTERACAO | vai ate o outro | OK |
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | CHEGADA | alguem entra andando | OK |
 
-## Cena b9 - 52.8s a 55.6s - 12 palavras - plano close
+## Cena b9 - 52.8s a 55.6s - 12 palavras - plano orbit
 > "O único alvo derrotado naquela noite foi o sono de Los Angeles."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | derrotado (53.5s) | EFEITO: puff | fumaca + som | OK |
 | 2 | derrotado (53.5s) | ACAO: perde | mao na testa | OK |
-| 3 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 56.8s a 60.2s - 13 palavras - plano two
+## Cena b10 - 56.8s a 60.2s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
