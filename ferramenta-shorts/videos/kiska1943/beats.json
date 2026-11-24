@@ -349,9 +349,9 @@
    "props": [
     [
      "kit/dog_sit",
-     0.6,
-     1.0,
-     1.5
+     0.0,
+     1.4,
+     2.0
     ],
     [
      "kit/dog_sit",
@@ -362,7 +362,7 @@
    ],
    "detalhe": true,
    "set": "harbor",
-   "_auto_vis": 2
+   "_auto_vis": 3
   }
  ],
  "heroi": "kit/dog_sit",
