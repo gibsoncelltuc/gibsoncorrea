@@ -133,7 +133,9 @@
    "say": "Piratas das ilhas atacavam navios holandeses, e a Holanda ficou furiosa.",
    "detalhe": false,
    "fachada": false,
-   "_auto_vis": 1
+   "_auto_vis": 2,
+   "d0": 12.0,
+   "d1": 11.0
   },
   {
    "shot": "group",
@@ -183,7 +185,9 @@
    "say": "Dizem que, como ninguém pagou, o almirante holandês declarou guerra às ilhas.",
    "detalhe": false,
    "fachada": false,
-   "_auto_vis": 1
+   "_auto_vis": 2,
+   "d0": 12.0,
+   "d1": 11.0
   },
   {
    "shot": "crowd",
