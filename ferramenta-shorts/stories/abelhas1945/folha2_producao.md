@@ -11,6 +11,22 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/beehive, kit/bee
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): abelhas, cientista
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: vila rural (casas, cercas, campo); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 11.5 m)
+- PERSONAGENS: FRI (cientista) na esquerda, expressao grin; COL (cientista) na direita, expressao surprised; sem multidao; acao: fala/gesto
+- OBJETO kit/beehive: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bee: FRENTE, esquerda; tamanho na tela: 8% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.6 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
+- OBJETO kit/bee: FRENTE, direita; tamanho na tela: 8% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.6 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
+- SOM: ding@30
+- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (0.0-1.7 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (1.7-3.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (3.5-5.2 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
 
 ## Cena b1 - Karl von Frisch, da Áustria, passou a vida estudando abelhas.
 - Cenario: loc_campo | luz: day | clima: limpo
@@ -21,6 +37,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/beehive
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): austria
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: revelacao (camera sobe e abre)
+- PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- MAPA: ÁUSTRIA (cobre a tela 1-2 s)
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (5.6-7.2 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (7.2-8.9 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
 
 ## Cena b2 - Ele construiu uma colmeia de vidro e pôs pratinhos com água e açúcar n...
 - Cenario: loc_campo | luz: day | clima: limpo
@@ -31,6 +59,24 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/beehive, kit/bee
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): agua, colmeia, jardim, vidro
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: vila rural (casas, cercas, campo); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 11.5 m)
+- PERSONAGENS: FRI (cientista) na esquerda, expressao suspicious; ASS (agricultor) na direita, expressao smile; sem multidao; acao: conversar
+- OBJETO kit/beehive: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bee: FRENTE, esquerda; tamanho na tela: 8% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.6 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
+- OBJETO kit/bee: FRENTE, direita; tamanho na tela: 8% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.6 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
+- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +30 da cena
+- SOM: thump@30
+- TEXTO NA TELA: "DANÇA" numa placa atras dos personagens, na palavra 1 da frase
+- TAKES: 4 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (9.3-11.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (11.0-12.6 s): mesmo angulo
+  - take 3 (12.6-14.2 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 4 (14.2-15.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
 
 ## Cena b3 - Acontece que, quando uma abelha achava o açúcar, ela voltava e dançava...
 - Cenario: loc_campo | luz: day | clima: limpo
@@ -41,6 +87,24 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/beehive, kit/bee
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): abelha, acucar, favo
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: vila rural (casas, cercas, campo); hora: day
+- CAMERA: close (rosto e ombros); plano medio enquadrando personagens e beehive juntos (camera a 8.0 m)
+- PERSONAGENS: FRI (cientista) no centro, expressao surprised; sem multidao; acao: fala/gesto
+- OBJETO kit/beehive: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bee: FRENTE, esquerda; tamanho na tela: 8% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.6 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
+- OBJETO kit/bee: FRENTE, direita; tamanho na tela: 8% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.6 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
+- EFEITO anel de impacto: acima da cabeca; entra no quadro +50 da cena
+- SOM: ding@20
+- SOM: sting@50
+- TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (16.3-18.2 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (18.2-20.0 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (20.0-21.9 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
 
 ## Cena b4 - Comida perto: voltinhas. Comida longe: um oito, rebolando no meio.
 - Cenario: loc_montanha | luz: day | clima: limpo
@@ -51,6 +115,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/beehive, kit/bee
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): oito
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: encosta de montanha; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 11.5 m)
+- PERSONAGENS: FRI (cientista) na esquerda, expressao stern; COL (cientista) na direita, expressao suspicious; sem multidao; acao: discutir
+- OBJETO kit/beehive: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bee: FRENTE, esquerda; tamanho na tela: 8% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.6 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
+- OBJETO kit/bee: FRENTE, direita; tamanho na tela: 8% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.6 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (22.2-23.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (23.9-25.6 s): mesmo angulo
+<!-- /FICHA -->
 
 ## Cena b5 - E o mais incrível: o ângulo da rebolada mostrava a direção, comparada ...
 - Cenario: loc_montanha | luz: day | clima: limpo
@@ -61,6 +138,22 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/beehive, kit/bee
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): angulo, direcao, rebolada
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: encosta de montanha; hora: day
+- CAMERA: camera baixa olhando para cima; plano medio enquadrando personagens e beehive juntos (camera a 8.0 m)
+- PERSONAGENS: FRI (cientista) no centro, expressao shock; sem multidao; acao: fala/gesto
+- OBJETO kit/beehive: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bee: FRENTE, esquerda; tamanho na tela: 8% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.6 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
+- OBJETO kit/bee: FRENTE, direita; tamanho na tela: 8% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.6 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
+- EFEITO anel de impacto: acima da cabeca; entra no quadro +20 da cena
+- SOM: sting@20
+- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (25.9-27.6 s): mesmo angulo
+  - take 2 (27.6-29.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (29.4-31.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
 
 ## Cena b6 - Quanto mais rebolava, mais longe a comida. Era um mapa de dança!
 - Cenario: loc_montanha | luz: day | clima: limpo
@@ -71,6 +164,21 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/beehive, kit/bee
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comida, danca, mapa
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: encosta de montanha; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 11.5 m)
+- PERSONAGENS: FRI (cientista) na esquerda, expressao laugh; ASS (agricultor) na direita, expressao grin; sem multidao; acao: entregar
+- OBJETO kit/beehive: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bee: FRENTE, esquerda; tamanho na tela: 8% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.6 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
+- OBJETO kit/bee: FRENTE, direita; tamanho na tela: 8% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.6 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
+- SOM: ding@40
+- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
+  - take 1 (31.5-33.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (33.5-35.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
 
 ## Cena b7 - Muitos cientistas não acreditaram. Inseto com linguagem? Parecia piada...
 - Cenario: interior madeira | luz: day | clima: limpo
@@ -81,6 +189,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): linguagem
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de madeira; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: COL (cientista) na esquerda, expressao laugh; FRI (cientista) na direita, expressao nervous, segura paper; sem multidao; acao: discutir
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (35.9-37.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (37.4-38.9 s): mesmo angulo
+<!-- /FICHA -->
 
 ## Cena b8 - Ele repetiu os testes centenas de vezes. As abelhas sempre acertavam.
 - Cenario: loc_montanha | luz: day | clima: limpo
@@ -91,6 +210,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/beehive, kit/bee
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): abelhas, testes
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: encosta de montanha; hora: day
+- CAMERA: plano de multidao; plano medio enquadrando personagens e beehive juntos (camera a 11.5 m)
+- PERSONAGENS: POV na esquerda, expressao surprised; COL (cientista) no centro, expressao shock; FRI (cientista) na direita, expressao smug; multidao de 16 (POV) ATRAS dos principais; acao: batalha
+- OBJETO kit/beehive: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bee: FRENTE, esquerda; tamanho na tela: 8% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.6 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
+- OBJETO kit/bee: FRENTE, direita; tamanho na tela: 8% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.6 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
+- EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
+- SOM: sting@30
+- TEXTO NA TELA: "TESTE" flutuando no alto, na palavra 1 da frase
+- TAKES: sequencia de acao em 3 cameras (3.7 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+<!-- /FICHA -->
 
 ## Cena b9 - Já idoso, em mil novecentos e setenta e três, ele ganhou o Prêmio Nobe...
 - Cenario: interior pedra | luz: day | clima: limpo
@@ -101,6 +234,24 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): premio
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de pedra (governo/castelo); hora: day
+- CAMERA: plano de grupo (3+ pessoas)
+- PERSONAGENS: FRI (cientista) na esquerda, expressao laugh; ASS (agricultor) no centro, expressao laugh; COL (cientista) na direita, expressao grin; multidao de 4 (POV) ATRAS dos principais; acao: comemorar
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
+- SOM: ding@20
+- SOM: ding@60
+- TEXTO NA TELA: "NOBEL" flutuando no alto, na palavra 1 da frase
+- TAKES: 4 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (43.3-45.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (45.0-46.6 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (46.6-48.3 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 4 (48.3-50.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+<!-- /FICHA -->
 
 ## Cena b10 - Da próxima vez que vir uma abelha, lembre: ela pode estar contando um ...
 - Cenario: loc_campo | luz: day | clima: limpo
@@ -111,6 +262,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/beehive, kit/bee
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): abelha, proxima, segredo
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: vila rural (casas, cercas, campo); hora: day
+- CAMERA: close (rosto e ombros); plano medio enquadrando personagens e beehive juntos (camera a 8.0 m)
+- PERSONAGENS: FRI (cientista) no centro, expressao smile; sem multidao; acao: fala/gesto
+- OBJETO kit/beehive: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bee: FRENTE, esquerda; tamanho na tela: 8% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.6 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
+- OBJETO kit/bee: FRENTE, direita; tamanho na tela: 8% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.6 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
+- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (50.4-52.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (52.0-53.6 s): mesmo angulo
+  - take 3 (53.6-55.2 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
 
 ## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: loc_campo | luz: day | clima: limpo
@@ -146,3 +311,12 @@ kit/bee | b0, b2, b3, b4, b5, b6, b8, b10 | pronto | conferir na folha de contat
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh abelhas1945 bN bM` (so essas cenas).
 - Mudou narracao, ferramenta ou muitas cenas: `./refazer_tudo.sh abelhas1945` (render completo).
 - Personagem cortado: tire gente do "who" ou use "shot": "group". Cena vazia: confira "who". Objeto fora do quadro: ponha em "props" com x entre -2 e 2. Luz estourada: "hora"/"clima" na cena.
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- (sem ficha)
+- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
+  - take 1 (55.6-57.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (57.8-60.0 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
+

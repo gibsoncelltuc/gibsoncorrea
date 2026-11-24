@@ -13,7 +13,7 @@ b5 | street | two | 2 | discutir, INTERAGEM: reverencia | kit/tulip_yellow, kit/
 b6 | interior madeira | two | 2 | discutir, INTERAGEM: aproxima-se | kit/tulip_red | tulip | -
 b7 | interior loja | group | 4 | reagir, INTERAGEM: vai ate o outro | kit/stall | tulip | -
 b8 | street | crowd | 31 | discutir, batalha | kit/tulip_bed, kit/marco_amsterdam | tulip | -
-b9 | countryside | group | 1 | encena | kit/tulip_bed, kit/marco_amsterdam, kit/tulip_red, buildings/house_small, nature/picket_fence, nature/tree_oak | tulip | -
+b9 | countryside | wide | 1 | encena | kit/tulip_bed, kit/marco_amsterdam, kit/tulip_red, buildings/house_small, nature/picket_fence, nature/tree_oak | tulip | -
 b10 | interior pedra | close | 1 | conversar | - | - | -
 b11 | countryside | close | 1 | conversar | - | - | -
 

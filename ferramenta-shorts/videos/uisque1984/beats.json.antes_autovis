@@ -18,17 +18,19 @@
    "hat": "cap",
    "cap": "#d52b1e",
    "holdCol": "#d52b1e",
-   "holdCol2": "#ffffff"
+   "holdCol2": "#ffffff",
+   "uniforme_fixo": true
   },
   "DIN": {
    "profissao": "soldado",
-   "jacket": "#3a4a7a",
+   "jacket": "#1f3a8a",
    "pants": "#2a3a5a",
    "boots": "#1b1b1f",
    "hat": "cap",
    "cap": "#c8102e",
    "holdCol": "#c8102e",
-   "holdCol2": "#ffffff"
+   "holdCol2": "#ffffff",
+   "uniforme_fixo": true
   },
   "PRE": {
    "profissao": "politico",
@@ -58,15 +60,34 @@
    "props": [
     [
      "kit/whisky",
-     0.3,
-     2.2,
-     1.2
+     0.0,
+     -1.2,
+     1.2,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "1984",
    "interacao": "discutir",
    "acao": "discutir",
-   "say": "O Canadá e a Dinamarca brigaram por gelo por quase quarenta anos, usando só uísque."
+   "say": "O Canadá e a Dinamarca brigaram por gelo por quase quarenta anos, usando só uísque.",
+   "quadro": {
+    "local": "campo de gelo e neve (mar congelado, rochas)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e whisky juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/whisky",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "reveal",
@@ -96,19 +117,21 @@
     "CAN:0:laugh:flag"
    ],
    "crowd": {
-    "n": 10,
-    "outfits": [
-     "CAN"
-    ],
-    "march": true,
-    "expr": "grin"
+    "n": 0
    },
    "props": [
     [
      "vehicles/helicopter",
-     5,
-     -8,
-     1.2
+     -16.0,
+     -9.7,
+     3.0,
+     {
+      "mover": [
+       0.0,
+       -9.7
+      ],
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -121,7 +144,24 @@
    "impact": true,
    "riscos_ok": true,
    "detalhe": false,
-   "_auto_vis": 2
+   "fachada": false,
+   "quadro": {
+    "local": "campo de gelo e neve (mar congelado, rochas)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o helicopter (alvo z -4.4, camera a 27.2 m, altura 2.6 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "vehicles/helicopter",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "chegando"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -4.4,
+   "h": 2.6,
+   "d0": 28.5,
+   "d1": 27.2
   },
   {
    "shot": "two",
@@ -133,40 +173,67 @@
    "props": [
     [
      "war/flagpole",
-     3,
-     -3,
-     1.2
+     0.6,
+     1.0,
+     1.5,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/whisky",
-     -1,
-     1.8,
-     1.2
+     0.0,
+     -1.2,
+     1.2,
+     {
+      "fixo": true
+     }
     ]
    ],
    "acao": "comemorar",
-   "say": "Eles fincaram a bandeira do Canadá e deixaram uma garrafa de uísque canadense."
+   "say": "Eles fincaram a bandeira do Canadá e deixaram uma garrafa de uísque canadense.",
+   "quadro": {
+    "local": "campo de gelo e neve (mar congelado, rochas)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e whisky juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/whisky",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "war/flagpole",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 2
   },
   {
    "shot": "wide",
-   "set": "harbor",
+   "set": "arctic",
    "who": [
     "DIN:0:smug:flag"
    ],
    "crowd": {
-    "n": 10,
-    "outfits": [
-     "DIN"
-    ],
-    "march": true,
-    "expr": "smug"
+    "n": 0
    },
    "props": [
     [
      "war/flagpole",
-     3,
-     -3,
-     1.2
+     0.0,
+     -8.0,
+     1.2,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -178,7 +245,24 @@
    "say": "Acontece que, pouco depois, os dinamarqueses apareceram, arrancaram a bandeira e puseram a deles.",
    "impact": true,
    "detalhe": false,
-   "_auto_vis": 2
+   "fachada": false,
+   "quadro": {
+    "local": "campo de gelo e neve (mar congelado, rochas)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o flagpole (alvo z -3.6, camera a 24.3 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "war/flagpole",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 25.5,
+   "d1": 24.3
   },
   {
    "shot": "two",
@@ -190,14 +274,33 @@
    "props": [
     [
      "kit/whisky",
-     -1,
-     1.8,
-     1.2
+     0.0,
+     -1.2,
+     1.2,
+     {
+      "fixo": true
+     }
     ]
    ],
    "say": "E deixaram um bilhete de boas-vindas, com uma garrafa de aguardente.",
    "set": "arctic",
-   "riscos_ok": true
+   "riscos_ok": true,
+   "quadro": {
+    "local": "campo de gelo e neve (mar congelado, rochas)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e whisky juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/whisky",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -207,7 +310,7 @@
    ],
    "interacao": "cochichar",
    "say": "Durante anos, os dois lados voltaram lá para trocar bandeira e garrafa, sempre muito educados.",
-   "set": "harbor"
+   "set": "arctic"
   },
   {
    "shot": "wide",
@@ -216,7 +319,7 @@
     "DIN:0:smug"
    ],
    "interacao": "cochichar",
-   "set": "harbor",
+   "set": "arctic",
    "say": "A brincadeira ficou famosa como a Guerra do Uísque, e virou piada entre os dois países."
   },
   {
@@ -230,21 +333,42 @@
    "say": "Em dois mil e vinte e dois, enfim, dividiram a ilha ao meio."
   },
   {
-   "shot": "close",
+   "shot": "wide",
    "who": [
     "CAN:0:smile"
    ],
    "props": [
     [
      "kit/whisky",
-     1.0,
-     0.5,
-     1.3
+     2.4,
+     0.2,
+     1.3,
+     {
+      "fixo": true
+     }
     ]
    ],
    "say": "A guerra mais educada da história acabou sem um tiro e com muito uísque.",
    "acao": "comemorar",
-   "interior": "pedra"
+   "interior": "pedra",
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "close (rosto e ombros); plano medio enquadrando personagens e whisky juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/whisky",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "detalhe": false,
+   "_auto_vis": 1
   }
  ],
  "ano": 1984,
@@ -276,5 +400,7 @@
    "https://en.wikipedia.org/wiki/Hans_Island",
    "https://en.wikipedia.org/wiki/Whisky_War"
   ]
- }
+ },
+ "variar_cenario": false,
+ "max_wide": 4
 }

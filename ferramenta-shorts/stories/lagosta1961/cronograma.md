@@ -1,12 +1,12 @@
 # CRONOGRAMA - Guerras Inusitadas EP 11 - A Guerra da Lagosta
 
-Gerado em 24/11 16:42 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 16:58 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | harbor | two | BRA | - | lobster | - | A França e o Brasil quase entraram em guerra por causa de uma lagosta.
+b0 | simples | harbor | group | BRA | - | lobster | - | A França e o Brasil quase entraram em guerra por causa de uma lagosta.
 b1 | chave | harbor | crowd | PES | - | boat, fishing_net | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Era mil novecentos e sessenta e um, e barcos franceses pescavam lagost
 b2 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/lobster (parado); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som  | O Brasil dizia que a lagosta anda no fundo do mar, e por isso era bras
 b3 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/lobster (sobe); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em | A França respondia que a lagosta nada, e por isso era de quem pescasse
@@ -15,7 +15,7 @@ b5 | chave | harbor | crowd | MAR | - | navios de guerra ao fundo, no tamanho re
 b6 | simples | harbor | two | MAR, MAR | - | - | - | Marinheiros dos dois lados se encararam no mar. Os jornais chamaram o 
 b7 | simples | interior pedra | two | FRA, BRA | - | - | - | Mas o tiro nunca veio. Os dois governos se reuniram e conversaram, em 
 b8 | simples | harbor | reveal | PES, FRA | - | navio em movimento | - | Depois, chegaram a um acordo: alguns barcos franceses podiam pescar, c
-b9 | simples | harbor | group | BRA | - | lobster | - | No fim, ninguém perguntou para a lagosta de que lado ela queria ficar.
+b9 | simples | harbor | wide | BRA | - | lobster | - | No fim, ninguém perguntou para a lagosta de que lado ela queria ficar.
 b10 | simples | harbor | close | BRA | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

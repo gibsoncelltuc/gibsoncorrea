@@ -33,7 +33,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b3: "Acontece que, quando uma abelha achava o açúcar, ela voltava e dançava em cima do favo."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: close (rosto e ombros); plano medio enquadrando personagens e beehive juntos (camera a 8.0 m)
-- PERSONAGENS: FRI (cientista) na centro, expressao surprised; sem multidao; acao: fala/gesto
+- PERSONAGENS: FRI (cientista) no centro, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETO kit/beehive: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/bee: FRENTE, esquerda; tamanho na tela: 8% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.6 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
 - OBJETO kit/bee: FRENTE, direita; tamanho na tela: 8% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.6 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
@@ -53,7 +53,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b5: "E o mais incrível: o ângulo da rebolada mostrava a direção, comparada com o sol."
 - LOCAL: encosta de montanha; hora: day
 - CAMERA: camera baixa olhando para cima; plano medio enquadrando personagens e beehive juntos (camera a 8.0 m)
-- PERSONAGENS: FRI (cientista) na centro, expressao shock; sem multidao; acao: fala/gesto
+- PERSONAGENS: FRI (cientista) no centro, expressao shock; sem multidao; acao: fala/gesto
 - OBJETO kit/beehive: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/bee: FRENTE, esquerda; tamanho na tela: 8% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.6 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
 - OBJETO kit/bee: FRENTE, direita; tamanho na tela: 8% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.6 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
@@ -79,7 +79,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b8: "Ele repetiu os testes centenas de vezes. As abelhas sempre acertavam."
 - LOCAL: encosta de montanha; hora: day
 - CAMERA: plano de multidao; plano medio enquadrando personagens e beehive juntos (camera a 11.5 m)
-- PERSONAGENS: POV na esquerda, expressao surprised; COL (cientista) na centro, expressao shock; FRI (cientista) na direita, expressao smug; multidao de 16 (POV) ATRAS dos principais; acao: batalha
+- PERSONAGENS: POV na esquerda, expressao surprised; COL (cientista) no centro, expressao shock; FRI (cientista) na direita, expressao smug; multidao de 16 (POV) ATRAS dos principais; acao: batalha
 - OBJETO kit/beehive: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/bee: FRENTE, esquerda; tamanho na tela: 8% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.6 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
 - OBJETO kit/bee: FRENTE, direita; tamanho na tela: 8% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.6 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
@@ -90,7 +90,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b9: "Já idoso, em mil novecentos e setenta e três, ele ganhou o Prêmio Nobel, dividido com outros dois cientistas."
 - LOCAL: sala de pedra (governo/castelo); hora: day
 - CAMERA: plano de grupo (3+ pessoas)
-- PERSONAGENS: FRI (cientista) na esquerda, expressao laugh; ASS (agricultor) na centro, expressao laugh; COL (cientista) na direita, expressao grin; multidao de 4 (POV) ATRAS dos principais; acao: comemorar
+- PERSONAGENS: FRI (cientista) na esquerda, expressao laugh; ASS (agricultor) no centro, expressao laugh; COL (cientista) na direita, expressao grin; multidao de 4 (POV) ATRAS dos principais; acao: comemorar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
@@ -101,7 +101,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b10: "Da próxima vez que vir uma abelha, lembre: ela pode estar contando um segredo."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: close (rosto e ombros); plano medio enquadrando personagens e beehive juntos (camera a 8.0 m)
-- PERSONAGENS: FRI (cientista) na centro, expressao smile; sem multidao; acao: fala/gesto
+- PERSONAGENS: FRI (cientista) no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/beehive: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/bee: FRENTE, esquerda; tamanho na tela: 8% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.6 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
 - OBJETO kit/bee: FRENTE, direita; tamanho na tela: 8% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.6 m (le de longe): NA FRENTE, ao lado, sem tapar rosto

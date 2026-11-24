@@ -71,6 +71,6 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b9: "No fim, o erro das etiquetas virou um acerto de bico."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: close (rosto e ombros); plano medio enquadrando personagens e finch juntos (camera a 8.0 m)
-- PERSONAGENS: DAR (cientista) na centro, expressao smug; sem multidao; acao: fala/gesto
+- PERSONAGENS: DAR (cientista) no centro, expressao smug; sem multidao; acao: fala/gesto
 - OBJETO kit/finch: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 

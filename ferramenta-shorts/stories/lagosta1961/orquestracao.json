@@ -10,7 +10,7 @@
  },
  "cenas": [
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "BRA"
    ],
@@ -190,7 +190,7 @@
    "cenario": "harbor"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "BRA"
    ],

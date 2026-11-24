@@ -50,16 +50,16 @@
  },
  "beats": [
   {
-   "shot": "wide",
+   "shot": "group",
    "who": [
     "BRA:0:angry"
    ],
    "props": [
     [
      "kit/lobster",
-     0.0,
-     -8.0,
-     2.2,
+     2.4,
+     0.2,
+     1.0,
      {
       "fixo": true
      }
@@ -77,21 +77,20 @@
    "detalhe": false,
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o lobster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e lobster juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/lobster",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "wide",
@@ -142,6 +141,8 @@
      }
     ]
    },
+   "batalha": false,
+   "tiros": false,
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
@@ -318,9 +319,9 @@
    "props": [
     [
      "kit/lobster",
-     0.0,
-     -8.0,
-     2.2,
+     2.4,
+     0.2,
+     1.0,
      {
       "fixo": true
      }
@@ -335,21 +336,20 @@
    "detalhe": false,
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o lobster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e lobster juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/lobster",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   }
  ],
  "ano": 1961,
@@ -388,5 +388,6 @@
    "Argumento brasileiro (Ministerio das Relacoes Exteriores, 1961-63): a lagosta se desloca andando sobre a plataforma continental, logo e recurso do leito do mar brasileiro; argumento frances: a lagosta nada e e peixe de alto-mar. Fonte: Wikipedia, Guerra da Lagosta; Braga, A Guerra da Lagosta (2004)."
   ]
  },
- "variar_cenario": false
+ "variar_cenario": false,
+ "max_wide": 5
 }

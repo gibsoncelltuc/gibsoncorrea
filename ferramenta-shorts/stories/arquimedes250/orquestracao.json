@@ -183,7 +183,7 @@
    "cenario": "harbor"
   },
   {
-   "camera": "group",
+   "camera": "crowd",
    "personagens": [
     "ARQ",
     "POV"
@@ -208,7 +208,7 @@
    "cenario": "street"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "REI",
     "OUR"

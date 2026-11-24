@@ -114,8 +114,7 @@
   {
    "camera": "group",
    "personagens": [
-    "VIA",
-    "VEN"
+    "VIA"
    ],
    "multidao": 0,
    "objetos": [
@@ -153,7 +152,7 @@
    "cenario": "street"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "VIA"
    ],
@@ -214,7 +213,7 @@
    "cenario": "harbor"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "VEN"
    ],
