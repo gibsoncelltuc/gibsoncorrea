@@ -6,6 +6,16 @@
 cd "$(dirname "$0")"; ID="${1:?id}"
 [ -f stories/$ID/storyboard.jpg ] || { echo "sem storyboard: a fila gera sozinha (ou ./prechecar.sh $ID && cp stories/$ID/precheck.jpg stories/$ID/storyboard.jpg)"; exit 1; }
 python3 verificar_folhas.py $ID || exit 1
+# VISIBILIDADE (24/11, causa raiz do retrabalho): o motor mede se cada objeto citado aparece, se nada tapa a camera e se a camera nao esta dentro de objeto
+[ -f stories/$ID/visibilidade.json ] && [ ! stories/$ID/visibilidade.json -ot stories/$ID/storyboard.jpg ] || { echo "FALTA A CHECAGEM DE VISIBILIDADE deste storyboard (a fila roda sozinha: node visivel.mjs $ID depois do build3.sh $ID)"; exit 1; }
+python3 - "$ID" <<'PYV' || exit 1
+import json, sys, re
+i = sys.argv[1]; V = json.load(open(f'stories/{i}/visibilidade.json')); B = json.load(open(f'videos/{i}/beats.json'))
+ok = set(B.get('visivel_ok', []))   # excecao consciente: ["b11"] + motivo na revisao
+f = [x for x in V['falhas'] if re.match(r'b\d+', x).group(0) not in ok]
+if f: print('VISIBILIDADE REPROVADA (corrija o beats.json e gere o storyboard de novo):\n  ' + '\n  '.join(f)); sys.exit(1)
+print('visibilidade OK')
+PYV
 H=$(python3 -c "import json;print(json.load(open('stories/$ID/folhas.json'))['hash_producao'])")
 [ "$(cat stories/$ID/storyboard.hash 2>/dev/null)" = "$H" ] || { echo "o storyboard e' de uma versao ANTIGA das folhas: gere de novo (rm stories/$ID/storyboard.jpg e relance a fila)"; exit 1; }
 if [ ! -f stories/$ID/grade_acoes.jpg ] || [ stories/$ID/grade_acoes.jpg -ot stories/$ID/storyboard.jpg ]; then echo "FALTA A GRADE DE ACOES: ./prechecar.sh $ID acoes  (1 quadro no INSTANTE de cada acao da folha 3) e OLHE cada quadro: a acao escrita embaixo esta acontecendo?"; exit 1; fi

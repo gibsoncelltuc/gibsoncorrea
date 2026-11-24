@@ -17,5 +17,5 @@ if [ -f ../stories/$ID/retime_from ]; then (cd .. && python3 mkretime.py $ID) ||
 cat ../stories/$ID/timing.js ../stories/_h.js ../stories/$ID/spec.js $( [ -f ../stories/$ID/fit.js ] && echo ../stories/$ID/fit.js ) $RT runtime.js acting.js > story.js
 sed -i "s#import { SHOTS, TOTAL, shotAt, camAt, dofAt, LIGHTS, lightFor, actorsAt, worldAt, fxAt } from './story.js';#import { SHOTS, TOTAL, shotAt, camAt, dofAt, LIGHTS, lightFor, actorsAt, worldAt, fxAt, ASSETS, SETS_USED, SETX, HEROES } from './story.js';#" head.js
 cat head.js core.js sets/_base.js $(ls sets/*.js | grep -v _base | grep -v dress) sets/dress.js boot.js weather.js vfx.js tail.js > main.js
-sed -i 's|^window.TOTAL = TOTAL;|window.TOTAL = TOTAL; window.__scene = scene; window.__cam = camera;|' main.js
+sed -i 's|^window.TOTAL = TOTAL;|window.TOTAL = TOTAL; window.__scene = scene; window.__cam = camera; window.__propPool = propPool;|' main.js
 node --check main.js && echo "built $ID"

@@ -109,6 +109,7 @@ grep -q "and not _multi:" mkvideo.py || f "montado embrulha sequencia de cameras
 grep -q "cen == 'arctic' and re.search(r'congel|gelo', t)" mkvideo.py || f "mar congelado no artico acusado como cenario sem agua"
 grep -q 'GANCHO sem impacto visual nos 5 primeiros segundos' mkvideo.py || f "cena 1 sem checagem de impacto visual (5 primeiros segundos)"
 grep -q 'revisao_final.sh \$ID ||' enviar_para_principal.sh || f "sessao pode enviar video sem revisao final frase a frase"
+grep -q 'node visivel.mjs' make_video.sh && grep -q 'VISIBILIDADE REPROVADA' aprovar_storyboard.sh && grep -q '__propPool' build3.sh || f "storyboard pode ser aprovado sem medir se o objeto citado aparece (causa raiz do retrabalho de 24/11)"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }
