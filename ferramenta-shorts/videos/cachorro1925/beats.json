@@ -130,7 +130,7 @@
    "sfx": [
     "gun@60"
    ],
-   "say": "Do outro lado, soldados búlgaros atiraram, e ele morreu.",
+   "say": "Do outro lado, soldados búlgaros atiraram, e ele morreu. A Bulgária pediu desculpas e propôs investigar juntos.",
    "props": [
     [
      "kit/dog_sit",
@@ -148,7 +148,7 @@
     "GRE:1:angry"
    ],
    "interacao": "susto",
-   "say": "A Grécia deu quarenta e oito horas para a Bulgária punir os culpados, pedir desculpas e pagar.",
+   "say": "A Grécia recusou, e deu quarenta e oito horas para a Bulgária punir os culpados, pedir desculpas e pagar.",
    "props": []
   },
   {
@@ -194,7 +194,7 @@
     "DIP:0:relief"
    ],
    "interacao": "entregar",
-   "say": "A Liga mandou parar, e a Grécia retirou as tropas e pagou quarenta e cinco mil libras.",
+   "say": "A Liga mandou parar a guerra de dez dias, e a Grécia retirou as tropas e pagou quarenta e cinco mil libras.",
    "props": []
   },
   {

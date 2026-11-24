@@ -1,243 +1,216 @@
 {
- "duration": 58.8,
- "frames30": 1764,
- "source": "silence-align (cost 0.60)",
+ "duration": 53.208,
+ "frames30": 1596,
+ "source": "silence-align (cost 0.66)",
  "segments": [
   [
-   0.15125,
-   1.14987
+   0.172292,
+   1.16987
   ],
   [
-   1.43867,
-   3.78054
+   1.40046,
+   4.30713
   ],
   [
-   4.07408,
-   5.54042
+   5.16179,
+   7.15992
   ],
   [
-   6.39821,
-   7.84358
+   7.40833,
+   9.82475
   ],
   [
-   8.05883,
-   10.2118
+   10.6786,
+   13.1348
   ],
   [
-   10.4989,
-   12.5202
+   13.413,
+   14.4655
   ],
   [
-   13.3554,
-   17.555
+   15.3294,
+   16.1105
   ],
   [
-   17.7683,
-   18.5223
+   16.3231,
+   17.779
   ],
   [
-   19.3576,
-   21.1154
+   18.0612,
+   18.6385
   ],
   [
-   21.4329,
-   23.2895
+   19.4955,
+   22.229
   ],
   [
-   24.0881,
-   24.8319
+   23.079,
+   24.0295
   ],
   [
-   25.056,
-   27.1877
+   24.336,
+   26.9976
   ],
   [
-   27.4575,
-   27.9253
+   27.2564,
+   28.4274
   ],
   [
-   28.7843,
-   30.3473
+   29.2329,
+   29.9863
   ],
   [
-   30.6737,
-   33.0283
+   30.1806,
+   33.4945
   ],
   [
-   33.8865,
-   34.9027
+   34.3801,
+   36.4317
   ],
   [
-   35.12,
-   38.2961
+   36.6533,
+   37.7555
   ],
   [
-   38.5791,
-   40.8049
+   38.6325,
+   40.6612
   ],
   [
-   41.6599,
-   43.7465
+   40.909,
+   44.0857
   ],
   [
-   43.9805,
-   45.1021
+   44.9355,
+   45.5275
   ],
   [
-   45.9715,
-   47.3091
+   45.7545,
+   48.0605
   ],
   [
-   47.5256,
-   49.5564
+   48.9067,
+   50.3512
   ],
   [
-   50.4042,
-   51.3643
-  ],
-  [
-   51.6632,
-   53.6726
-  ],
-  [
-   54.5067,
-   55.9511
-  ],
-  [
-   56.2439,
-   58.0056
+   50.644,
+   52.4057
   ]
  ],
  "phrases": [
   {
-   "text": "Um cachorro fugiu,",
-   "s": 0.151,
-   "e": 1.15
+   "text": "Segundo uma vers\u00e3o,",
+   "s": 0.172,
+   "e": 1.17
   },
   {
-   "text": "e por causa dele dois pa\u00edses entraram em guerra,",
-   "s": 1.439,
-   "e": 3.781
+   "text": "um cachorro sumiu e provocou uma invas\u00e3o entre dois pa\u00edses.",
+   "s": 1.4,
+   "e": 4.307
   },
   {
-   "text": "e dezenas de pessoas morreram.",
-   "s": 4.074,
-   "e": 5.54
+   "text": "Em outubro de mil novecentos e vinte e cinco,",
+   "s": 5.162,
+   "e": 7.16
   },
   {
-   "text": "Em mil novecentos e vinte e cinco,",
-   "s": 6.398,
-   "e": 7.844
+   "text": "a fronteira entre a Gr\u00e9cia e a Bulg\u00e1ria estava tensa.",
+   "s": 7.408,
+   "e": 9.825
   },
   {
-   "text": "a fronteira entre a Gr\u00e9cia e a Bulg\u00e1ria era tensa,",
-   "s": 8.059,
-   "e": 10.212
+   "text": "Dizem que um soldado grego correu atr\u00e1s do cachorro,",
+   "s": 10.679,
+   "e": 13.135
   },
   {
-   "text": "e os dois pa\u00edses viviam desconfiados.",
-   "s": 10.499,
-   "e": 12.52
-  },
-  {
-   "text": "Um soldado grego estava de guarda quando o cachorro dele fugiu para o outro lado da fronteira,",
-   "s": 13.355,
-   "e": 17.555
-  },
-  {
-   "text": "atr\u00e1s de nada.",
-   "s": 17.768,
-   "e": 18.522
-  },
-  {
-   "text": "O soldado correu atr\u00e1s do cachorro,",
-   "s": 19.358,
-   "e": 21.115
-  },
-  {
-   "text": "e atravessou a fronteira sem pensar.",
-   "s": 21.433,
-   "e": 23.29
+   "text": "e cruzou a fronteira.",
+   "s": 13.413,
+   "e": 14.466
   },
   {
    "text": "Do outro lado,",
-   "s": 24.088,
-   "e": 24.832
+   "s": 15.329,
+   "e": 16.11
   },
   {
-   "text": "uma sentinela b\u00falgara viu um estranho armado,",
-   "s": 25.056,
-   "e": 27.188
+   "text": "soldados b\u00falgaros atiraram,",
+   "s": 16.323,
+   "e": 17.779
   },
   {
-   "text": "e atirou.",
-   "s": 27.457,
-   "e": 27.925
+   "text": "e ele morreu.",
+   "s": 18.061,
+   "e": 18.639
   },
   {
-   "text": "Acontece que o soldado morreu,",
-   "s": 28.784,
-   "e": 30.347
+   "text": "A Bulg\u00e1ria pediu desculpas e prop\u00f4s investigar juntos.",
+   "s": 19.495,
+   "e": 22.229
   },
   {
-   "text": "e a Gr\u00e9cia deu um ultimato furioso \u00e0 Bulg\u00e1ria.",
-   "s": 30.674,
-   "e": 33.028
+   "text": "A Gr\u00e9cia recusou,",
+   "s": 23.079,
+   "e": 24.029
   },
   {
-   "text": "Poucos dias depois,",
-   "s": 33.886,
-   "e": 34.903
+   "text": "e deu quarenta e oito horas para a Bulg\u00e1ria punir os culpados,",
+   "s": 24.336,
+   "e": 26.998
   },
   {
-   "text": "o ex\u00e9rcito grego invadiu a Bulg\u00e1ria e ocupou a regi\u00e3o de Petrich,",
-   "s": 35.12,
-   "e": 38.296
+   "text": "pedir desculpas e pagar.",
+   "s": 27.256,
+   "e": 28.427
   },
   {
-   "text": "e dezenas de pessoas morreram nos combates.",
-   "s": 38.579,
-   "e": 40.805
+   "text": "Dias depois,",
+   "s": 29.233,
+   "e": 29.986
   },
   {
-   "text": "A Bulg\u00e1ria pediu ajuda \u00e0 Liga das Na\u00e7\u00f5es,",
-   "s": 41.66,
-   "e": 43.746
+   "text": "o ex\u00e9rcito grego invadiu a Bulg\u00e1ria e ocupou a cidade de Petrich.",
+   "s": 30.181,
+   "e": 33.495
+  },
+  {
+   "text": "S\u00f3 que a Bulg\u00e1ria apelou \u00e0 Liga das Na\u00e7\u00f5es,",
+   "s": 34.38,
+   "e": 36.432
   },
   {
    "text": "a antecessora da ONU.",
-   "s": 43.98,
-   "e": 45.102
+   "s": 36.653,
+   "e": 37.755
   },
   {
-   "text": "A Liga mandou a Gr\u00e9cia parar,",
-   "s": 45.971,
-   "e": 47.309
+   "text": "A Liga mandou parar a guerra de dez dias,",
+   "s": 38.633,
+   "e": 40.661
   },
   {
-   "text": "retirar as tropas e pagar uma indeniza\u00e7\u00e3o.",
-   "s": 47.526,
-   "e": 49.556
+   "text": "e a Gr\u00e9cia retirou as tropas e pagou quarenta e cinco mil libras.",
+   "s": 40.909,
+   "e": 44.086
   },
   {
-   "text": "A Gr\u00e9cia obedeceu,",
-   "s": 50.404,
-   "e": 51.364
+   "text": "At\u00e9 hoje,",
+   "s": 44.935,
+   "e": 45.528
   },
   {
-   "text": "e ningu\u00e9m sabe o que aconteceu com o cachorro.",
-   "s": 51.663,
-   "e": 53.673
+   "text": "n\u00e3o h\u00e1 acordo nem sobre a exist\u00eancia do cachorro.",
+   "s": 45.755,
+   "e": 48.06
   },
   {
    "text": "Agora n\u00e3o deixe de comentar:",
-   "s": 54.507,
-   "e": 55.951
+   "s": 48.907,
+   "e": 50.351
   },
   {
    "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
-   "s": 56.244,
-   "e": 58.006
+   "s": 50.644,
+   "e": 52.406
   }
  ]
 }

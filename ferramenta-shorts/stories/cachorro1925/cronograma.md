@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 18 - A Guerra do Cão Fugitivo
 
-Gerado em 24/11 12:05 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 12:07 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -9,11 +9,11 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 b0 | simples | loc_campo | two | GRE, BUL | - | dog_sit | - | Segundo uma versão, um cachorro sumiu e provocou uma invasão entre doi
 b1 | simples | mountain | reveal | GRE, BUL | 48 | - | - | Em outubro de mil novecentos e vinte e cinco, a fronteira entre a Gréc
 b2 | simples | loc_campo | track | GRE, GRE | - | - | - | Dizem que um soldado grego correu atrás do cachorro, e cruzou a fronte
-b3 | chave | mountain | group | BUL, GRE | 10 | dog_sit | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Do outro lado, soldados búlgaros atiraram, e ele morreu.
-b4 | simples | mountain | two | GRE, GRE | - | - | - | A Grécia deu quarenta e oito horas para a Bulgária punir os culpados, 
+b3 | chave | mountain | group | BUL, GRE | 10 | dog_sit | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Do outro lado, soldados búlgaros atiraram, e ele morreu. A Bulgária pe
+b4 | simples | mountain | two | GRE, GRE | - | - | - | A Grécia recusou, e deu quarenta e oito horas para a Bulgária punir os
 b5 | chave | mountain | orbit | GRE, BUL | 48 | apartment, house_two, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Dias depois, o exército grego invadiu a Bulgária e ocupou a cidade de 
 b6 | simples | interior madeira | two | DIP, PRE | - | - | - | Só que a Bulgária apelou à Liga das Nações, a antecessora da ONU.
-b7 | simples | interior pedra | two | PRE, DIP | - | - | - | A Liga mandou parar, e a Grécia retirou as tropas e pagou quarenta e c
+b7 | simples | interior pedra | two | PRE, DIP | - | - | - | A Liga mandou parar a guerra de dez dias, e a Grécia retirou as tropas
 b8 | simples | loc_campo | close | GRE | - | dog_sit | - | Até hoje, não há acordo nem sobre a existência do cachorro.
 b9 | simples | loc_campo | two | GRE | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
@@ -24,9 +24,9 @@ N | Etapa | O que confere | Estado | Proximo passo
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
 2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (10/11 itens) | FEITO | 
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | FEITO | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 0) | FEITO | 
-5 | Voz | narracao neural gerada e tempos por palavra | FEITO | 
-6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | PENDENTE | 
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | PENDENTE | corrigir o roteiro conforme a folha 2
+5 | Voz | narracao neural gerada e tempos por palavra | BLOQUEADO (etapa anterior pendente) | 
+6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | BLOQUEADO (etapa anterior pendente) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 
 8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | BLOQUEADO (etapa anterior pendente) | 
 9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | BLOQUEADO (etapa anterior pendente) | ./aprovar_storyboard.sh cachorro1925
@@ -36,5 +36,5 @@ N | Etapa | O que confere | Estado | Proximo passo
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local cachorro1925 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
-**Etapa atual:** 6. Estilo e enquadramento
+**Etapa atual:** 4. Travas do roteiro
 
