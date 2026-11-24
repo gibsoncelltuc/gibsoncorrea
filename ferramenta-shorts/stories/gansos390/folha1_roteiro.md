@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: loc_campo 
 - Narracao: Os gansos salvaram a colina, mas o ouro foi embora do mesmo jeito.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: ouro -> stars + som de sino; encena: x_entrega (reach) @2 -> acao + som de efeito; encena: paga (reach) @7 -> acao + som de efeito; encena: sai @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: ouro -> stars + som de sino
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

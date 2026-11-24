@@ -149,10 +149,6 @@
    "tiros": false,
    "detalhe": false,
    "fachada": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "fazenda aberta",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e mgun juntos (camera a 11.5 m)",
@@ -170,7 +166,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Acontece que os emus se dividiram em grupos pequenos e rápidos, e as balas acertavam só poeira.",
@@ -320,11 +320,6 @@
    ],
    "batalha": false,
    "tiros": false,
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.4,
-   "d0": 21.0,
-   "d1": 20.0,
    "detalhe": false,
    "quadro": {
     "local": "fazenda aberta",
@@ -337,7 +332,12 @@
       "estado": "indo embora"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.4,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "say": "O exército voltou, e o major disse ter abatido novecentos e oitenta e seis, número muito contestado.",

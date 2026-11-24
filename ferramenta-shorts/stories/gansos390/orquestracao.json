@@ -179,16 +179,14 @@
   },
   {
    "camera": "group",
-   "personagens": [
-    "ROM"
-   ],
+   "personagens": [],
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
    "cena": "b9",
    "frase": "Os gansos salvaram a colina, mas o ouro foi embora do mesmo jeito.",
    "classe": "simples",
-   "sujeito": "personagem",
+   "sujeito": "cenario",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "medieval"

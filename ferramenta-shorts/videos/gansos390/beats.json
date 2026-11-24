@@ -352,9 +352,7 @@
   },
   {
    "shot": "group",
-   "who": [
-    "ROM:0:smile"
-   ],
+   "who": [],
    "say": "Os gansos salvaram a colina, mas o ouro foi embora do mesmo jeito.",
    "hora": "dia",
    "animals": [
@@ -389,7 +387,11 @@
    "objetos": false,
    "d0": 7.5,
    "d1": 7.0,
-   "vary": false
+   "vary": false,
+   "crowd": {
+    "n": 0
+   },
+   "riscos_ok": true
   }
  ],
  "cinf": 4.5,
