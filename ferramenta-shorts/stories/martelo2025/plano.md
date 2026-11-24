@@ -8,8 +8,8 @@ b2 | wide | -  | tropa, placa: FORDOW | - | -
 b3 | two | -  | tropa | - | -
 b4 | two | -  | interior, placa: MARTELO DA MEIA-NOITE | encena: fala (point) @3 (acao + som de efeito) | -
 b5 | wide | dia  | tropa, placa: B-2 | - | -
-b6 | wide | -  | tropa | encena: fala (point) @5 (acao + som de efeito) | -
-b7 | orbit | noite  | batalha aberta com tiros, tropa | caíram (dust + som de impacto); encena: atira @5 (acao + som de efeito) | -
+b6 | wide | -  | tropa | - | -
+b7 | orbit | noite  | batalha aberta com tiros, tropa | caíram (dust + som de impacto) | -
 b8 | wide | noite  | tropa | - | -
 b9 | wide | noite  | tropa | - | -
 b10 | two | -  | interior, placa: DESTRUÍDAS? | - | -

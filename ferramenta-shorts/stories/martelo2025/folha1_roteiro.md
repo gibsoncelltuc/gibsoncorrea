@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Narracao: Para despistar, outros aviões foram mandados na direção do Pacífico.
 - Som ambiente: sea
 - Efeitos sonoros marcados: whoosh@30
-- Efeito + som nas palavras-chave: encena: fala (point) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: whoosh@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Narracao: Acontece que, de madrugada, catorze bombas caíram, doze delas sobre Fordow.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: cannon@25, cannon@45, thump@60
-- Efeito + som nas palavras-chave: caíram -> dust + som de impacto; encena: atira @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: caíram -> dust + som de impacto
 - Efeito visual marcado: burst@25, burst@45, puff@60
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

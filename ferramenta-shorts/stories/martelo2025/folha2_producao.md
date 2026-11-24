@@ -66,8 +66,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): PIL (variante 0, expressao smug) | multidao: 0 de 
-- Animacao: encena
+- Personagens principais (0): - | multidao: 0 de 
+- Animacao: -
 - Objetos/modelos: kit/b2_air
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): direcao, pacifico
 - RISCOS: nenhum
@@ -76,8 +76,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: mountain | luz: noite | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (1): PIL (variante 0, expressao stern) | multidao: 0 de 
-- Animacao: encena | batalha encenada
+- Personagens principais (0): - | multidao: 0 de 
+- Animacao: - | batalha encenada
 - Objetos/modelos: kit/b2_air, kit/mountain_bunker
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): madrugada
 - RISCOS: nenhum

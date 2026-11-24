@@ -46,7 +46,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b6: "Para despistar, outros aviões foram mandados na direção do Pacífico."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o b2_air (alvo z -4.3, camera a 10.0 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: PIL no centro, expressao smug; sem multidao; acao: fala/gesto
+- PERSONAGENS: nenhum; sem multidao; acao: fala/gesto
 - OBJETO kit/b2_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.6 m de altura x 16.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO whoosh: -; entra no quadro +30 da cena
 - SOM: whoosh@30
@@ -54,7 +54,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b7: "Acontece que, de madrugada, catorze bombas caíram, doze delas sobre Fordow."
 - LOCAL: encosta de montanha; hora: noite
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o b2_air (alvo z -4.3, camera a 10.0 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: PIL no centro, expressao stern; sem multidao; acao: fala/gesto
+- PERSONAGENS: nenhum; sem multidao; acao: fala/gesto
 - OBJETO kit/b2_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.6 m de altura x 16.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/mountain_bunker: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 6.5 m de altura x 17.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +25 da cena

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 23 - O Martelo da Meia-Noite
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 13 frases, 20 acoes catalogadas, 20 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 13 frases, 18 acoes catalogadas, 18 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.7s - 14 palavras - plano two
@@ -55,16 +55,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | mandados (33.6s) | ACAO: fala | aponta explicando | OK |
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
 ## Cena b7 - 36.0s a 40.4s - 11 palavras - plano orbit
 > "Acontece que, de madrugada, catorze bombas caíram, doze delas sobre Fordow."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | bombas (38.5s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 2 | caíram (38.9s) | EFEITO: dust | poeira + som | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | caíram (38.9s) | EFEITO: dust | poeira + som | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
 ## Cena b8 - 41.7s a 44.2s - 9 palavras - plano wide
 > "Um submarino ainda lançou mísseis contra uma terceira usina."
