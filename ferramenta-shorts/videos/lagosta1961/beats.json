@@ -308,7 +308,13 @@
    ],
    "interacao": "entregar",
    "say": "Mas o tiro nunca veio. Os dois governos se reuniram e conversaram, em vez de brigar.",
-   "interior": "pedra"
+   "interior": "pedra",
+   "kw": false,
+   "encena": false,
+   "riscos_ok": true,
+   "sfx": [
+    "ding@30"
+   ]
   },
   {
    "shot": "two",
