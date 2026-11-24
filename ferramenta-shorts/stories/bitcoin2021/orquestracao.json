@@ -31,9 +31,9 @@
     "kit/bitcoin",
     "kit/volcano"
    ],
-   "palavras": 19,
+   "palavras": 14,
    "cena": "b0",
-   "frase": "Um país aceitou o bitcoin como dinheiro oficial, e nove em cada dez moradores não entendiam o que era.",
+   "frase": "Um país aceitou o bitcoin como dinheiro, e nove em dez moradores não entendiam.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -91,9 +91,15 @@
    "palavras": 20,
    "cena": "b3",
    "frase": "A lei passou a valer em sete de setembro, e o país foi o primeiro do mundo a fazer isso.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_pista"
   },
@@ -118,32 +124,15 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "low",
+   "camera": "close",
    "personagens": [
     "CLI"
    ],
-   "multidao": 0,
+   "multidao": 10,
    "objetos": [],
    "palavras": 13,
    "cena": "b5",
    "frase": "Acontece que, no lançamento, o aplicativo ficou fora do ar por algumas horas.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_pista"
-  },
-  {
-   "camera": "orbit",
-   "personagens": [
-    "CLI",
-    "POV"
-   ],
-   "multidao": 12,
-   "objetos": [],
-   "palavras": 15,
-   "cena": "b6",
-   "frase": "Uma pesquisa da Universidade Centro-Americana mostrou que sessenta e oito por cento discordavam da decisão.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -153,6 +142,23 @@
     "camera": "4 cameras em sequencia",
     "som": "tiros e gritos"
    },
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "CLI",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 15,
+   "cena": "b6",
+   "frase": "Uma pesquisa da Universidade Centro-Americana mostrou que sessenta e oito por cento discordavam da decisão.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_pista"
   },

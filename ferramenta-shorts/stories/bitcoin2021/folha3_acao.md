@@ -1,11 +1,11 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 09 - O País do Bitcoin
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 5.2s - 19 palavras - plano two
-> "Um país aceitou o bitcoin como dinheiro oficial, e nove em cada dez moradores não entendiam o que era."
+## Cena b0 - 0.2s a 3.7s - 14 palavras - plano two
+> "Um país aceitou o bitcoin como dinheiro, e nove em dez moradores não entendiam."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -14,82 +14,157 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | avanca e o outro recua | OK |
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | PLACA | 9 EM 10 NÃO ENTENDIAM | OK |
+<!-- FISICA -->
 
-## Cena b1 - 6.4s a 10.4s - 15 palavras - plano reveal
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: stars na palavra dinheiro (1.6s): executa: estrelinhas + som
+- ACAO: paga na palavra dinheiro (1.6s): executa: estende a mao com moedas + brilho
+- INTERACAO (a cena toda): executa: avanca e o outro recua
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b1 - 4.3s a 9.1s - 15 palavras - plano reveal
 > "Foi em El Salvador, na América Central, e a ideia foi do presidente Nayib Bukele."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ideia (9.1s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
+| 1 | ideia (7.5s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
 | 2 | - | MAPA | EL SALVADOR | OK |
+<!-- FISICA -->
 
-## Cena b2 - 11.8s a 16.3s - 20 palavras - plano group
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: pensa na palavra ideia (7.5s): executa: mao no queixo + brilho de ideia
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+<!-- /FISICA -->
+
+## Cena b2 - 9.4s a 14.7s - 20 palavras - plano group
 > "Ele anunciou o projeto em junho de dois mil e vinte e um, e o congresso aprovou poucos dias depois."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | anunciou (12.0s) | ACAO: fala | aponta explicando | OK |
+| 1 | anunciou (9.6s) | ACAO: fala | aponta explicando | OK |
 | 2 | - | INTERACAO | o outro se aproxima | OK |
 | 3 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
 
-## Cena b3 - 17.5s a 21.5s - 20 palavras - plano reveal
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: fala na palavra anunciou (9.6s): braco estendido apontando para o objeto/lugar citado
+- INTERACAO (a cena toda): executa: o outro se aproxima
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b3 - 14.9s a 20.3s - 20 palavras - plano reveal
 > "A lei passou a valer em sete de setembro, e o país foi o primeiro do mundo a fazer isso."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | PLACA | 7 DE SETEMBRO | OK |
+| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | - | PLACA | 7 DE SETEMBRO | OK |
+<!-- FISICA -->
 
-## Cena b4 - 22.6s a 27.8s - 18 palavras - plano two
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- multidao de 8: parada, reagindo (neutra), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
+
+## Cena b4 - 20.7s a 26.3s - 18 palavras - plano two
 > "Para convencer o povo, o governo prometeu trinta dólares em bitcoin a quem baixasse a carteira digital Chivo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | convencer (22.9s) | ACAO: fala | aponta explicando | OK |
-| 2 | prometeu (24.5s) | ACAO: fala | aponta explicando | OK |
+| 1 | convencer (20.8s) | ACAO: fala | aponta explicando | OK |
+| 2 | prometeu (22.9s) | ACAO: fala | aponta explicando | OK |
 | 3 | - | INTERACAO | insiste | OK |
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | PLACA | US$ 30 | OK |
+<!-- FISICA -->
 
-## Cena b5 - 29.0s a 33.4s - 13 palavras - plano low
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: fala na palavra convencer (20.8s): braco estendido apontando para o objeto/lugar citado
+- ACAO: fala na palavra prometeu (22.9s): braco estendido apontando para o objeto/lugar citado
+- INTERACAO (a cena toda): executa: insiste
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b5 - 26.4s a 32.3s - 13 palavras - plano close
 > "Acontece que, no lançamento, o aplicativo ficou fora do ar por algumas horas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-| 2 | - | PLACA | CARTEIRA CHIVO | OK |
+| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | CARTEIRA CHIVO | OK |
+<!-- FISICA -->
 
-## Cena b6 - 34.5s a 39.3s - 15 palavras - plano orbit
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b6 - 32.5s a 37.9s - 15 palavras - plano two
 > "Uma pesquisa da Universidade Centro-Americana mostrou que sessenta e oito por cento discordavam da decisão."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | mostrou (36.9s) | ACAO: fala | aponta explicando | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | mostrou (34.5s) | ACAO: fala | aponta explicando | OK |
+| 2 | - | INTERACAO | discutir | OK |
 | 3 | - | ATUACAO | discutir | OK |
 | 4 | - | PLACA | 68% DISCORDAM | OK |
+<!-- FISICA -->
 
-## Cena b7 - 40.5s a 43.2s - 10 palavras - plano orbit
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: fala na palavra mostrou (34.5s): braco estendido apontando para o objeto/lugar citado
+- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b7 - 38.2s a 41.8s - 10 palavras - plano orbit
 > "Mesmo assim, a moeda digital virou assunto no mundo inteiro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | moeda (41.5s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 2 | virou (42.2s) | ACAO: vira | o material vira o produto, que surge girando em destaque | OK |
+| 1 | moeda (39.1s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 2 | virou (40.5s) | ACAO: vira | o material vira o produto, que surge girando em destaque | OK |
+<!-- FISICA -->
 
-## Cena b8 - 44.4s a 47.7s - 13 palavras - plano group
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: paga na palavra moeda (39.1s): executa: estende a mao com moedas + brilho
+- ACAO: vira na palavra virou (40.5s): executa: o material vira o produto, que surge girando em destaque
+- multidao de 6: parada, reagindo (neutra), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
+
+## Cena b8 - 42.2s a 46.7s - 13 palavras - plano group
 > "Uma moeda digital, uma lei nova e um país no centro das atenções."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | moeda (44.7s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 1 | moeda (42.4s) | ACAO: paga | estende a mao com moedas + brilho | OK |
 | 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
 
-## Cena b9 - 49.1s a 52.4s - 13 palavras - plano close
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: paga na palavra moeda (42.4s): executa: estende a mao com moedas + brilho
+- INTERACAO (a cena toda): executa: vai ate o outro
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b9 - 46.9s a 51.2s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | COMENTE! | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 

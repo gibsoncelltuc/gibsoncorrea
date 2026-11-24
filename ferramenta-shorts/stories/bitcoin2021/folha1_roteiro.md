@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 09 - O País do Bitcoin
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 10 cenas, 156 palavras (~54 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 10 cenas, 151 palavras (~52 s)
 
-## Cena b0  (~6.6 s)
-- Narracao: Um país aceitou o bitcoin como dinheiro oficial, e nove em cada dez moradores não entendiam o que era.
+## Cena b0  (~4.8 s)
+- Narracao: Um país aceitou o bitcoin como dinheiro, e nove em dez moradores não entendiam.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: dinheiro -> stars + som de sino; encena: paga (reach) @6 -> acao + som de efeito
@@ -36,7 +36,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: 7 DE SETEMBRO
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b4  (~6.2 s)
 - Narracao: Para convencer o povo, o governo prometeu trinta dólares em bitcoin a quem baixasse a carteira digital Chivo.
@@ -54,7 +54,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@2
 - Texto na tela: CARTEIRA CHIVO
-- Funcao na historia: VIRADA
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b6  (~5.2 s)
 - Narracao: Uma pesquisa da Universidade Centro-Americana mostrou que sessenta e oito por cento discordavam da decisão.
@@ -63,7 +63,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Efeito + som nas palavras-chave: encena: fala (point) @5 -> acao + som de efeito
 - Efeito visual marcado: burst@3
 - Texto na tela: 68% DISCORDAM
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b7  (~3.4 s)
 - Narracao: Mesmo assim, a moeda digital virou assunto no mundo inteiro.

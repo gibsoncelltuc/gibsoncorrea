@@ -45,7 +45,7 @@
  },
  "beats": [
   {
-   "say": "Um país aceitou o bitcoin como dinheiro oficial, e nove em cada dez moradores não entendiam o que era.",
+   "say": "Um país aceitou o bitcoin como dinheiro, e nove em dez moradores não entendiam.",
    "shot": "two",
    "who": [
     "BUK:0:smile",
@@ -158,7 +158,7 @@
    },
    "tiros": false,
    "batalha": false,
-   "impact": false
+   "impact": true
   },
   {
    "say": "Para convencer o povo, o governo prometeu trinta dólares em bitcoin a quem baixasse a carteira digital Chivo.",
@@ -237,7 +237,7 @@
    ],
    "tiros": false,
    "batalha": false,
-   "impact": false,
+   "impact": true,
    "verbos_ok": [
     "lanco"
    ],

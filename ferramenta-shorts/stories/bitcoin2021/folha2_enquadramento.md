@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Um país aceitou o bitcoin como dinheiro oficial, e nove em cada dez moradores não entendiam o que era."
+## b0: "Um país aceitou o bitcoin como dinheiro, e nove em dez moradores não entendiam."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
 - PERSONAGENS: BUK na esquerda, expressao smile; POV (comerciante) na direita, expressao surprised; sem multidao; acao: fala/gesto
