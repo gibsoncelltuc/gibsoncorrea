@@ -4,21 +4,21 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 12 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 7.0s - 20 palavras - plano two
-> "Em fevereiro de dois mil e vinte e quatro, um presidente foi reeleito com uma das maiores votações do mundo."
+## Cena b0 - 0.0s a 3.7s - 11 palavras - plano two
+> "Um presidente foi reeleito com uma das maiores votações do mundo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | o outro se aproxima | OK |
 | 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | 2024 | OK |
 
-## Cena b1 - 7.4s a 11.5s - 12 palavras - plano reveal
-> "Foi em El Salvador, na América Central. O presidente era Nayib Bukele."
+## Cena b1 - 4.1s a 11.5s - 21 palavras - plano reveal
+> "Foi em El Salvador, na América Central, em fevereiro de dois mil e vinte e quatro. O presidente era Nayib Bukele."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | MAPA | EL SALVADOR | OK |
+| 2 | - | PLACA | 2024 | OK |
 
 ## Cena b2 - 11.9s a 19.6s - 22 palavras - plano two
 > "Ele tinha chegado ao poder em dois mil e dezenove, com trinta e sete anos, prometendo acabar com a violência das gangues."
@@ -68,7 +68,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | ATUACAO | reagir | OK |
 
-## Cena b7 - 42.2s a 46.7s - 13 palavras - plano crowd
+## Cena b7 - 42.2s a 46.7s - 13 palavras - plano orbit
 > "Os apoiadores lotaram as ruas. Ele comemorou numa sacada, diante de uma multidão."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

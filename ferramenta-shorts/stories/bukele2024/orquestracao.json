@@ -41,9 +41,9 @@
     "kit/ballot_box",
     "kit/volcano"
    ],
-   "palavras": 20,
+   "palavras": 11,
    "cena": "b0",
-   "frase": "Em fevereiro de dois mil e vinte e quatro, um presidente foi reeleito com uma das maiores votações do mundo.",
+   "frase": "Um presidente foi reeleito com uma das maiores votações do mundo.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -60,9 +60,9 @@
    "objetos": [
     "kit/volcano"
    ],
-   "palavras": 12,
+   "palavras": 21,
    "cena": "b1",
-   "frase": "Foi em El Salvador, na América Central. O presidente era Nayib Bukele.",
+   "frase": "Foi em El Salvador, na América Central, em fevereiro de dois mil e vinte e quatro. O presidente era Nayib Bukele.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -167,7 +167,7 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "crowd",
+   "camera": "orbit",
    "personagens": [
     "BUK",
     "POV",

@@ -2,24 +2,24 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/bukele2024/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py bukele2024` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Em fevereiro de dois mil e vinte e quatro, um presidente foi reeleito ...
+## Cena b0 - Um presidente foi reeleito com uma das maiores votações do mundo.
 - Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): BUK (variante 0, expressao smug); REP (variante 0, expressao surprised, segura paper)
 - Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/ballot_box, kit/volcano
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, maiores, presidente
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): maiores, presidente
 - RISCOS: nenhum
 
-## Cena b1 - Foi em El Salvador, na América Central. O presidente era Nayib Bukele.
+## Cena b1 - Foi em El Salvador, na América Central, em fevereiro de dois mil e vin...
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
 - Animacao: -
 - Objetos/modelos: kit/volcano
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): america, presidente
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): america, dois, presidente
 - RISCOS: nenhum
 
 ## Cena b2 - Ele tinha chegado ao poder em dois mil e dezenove, com trinta e sete a...
@@ -74,7 +74,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Os apoiadores lotaram as ruas. Ele comemorou numa sacada, diante de um...
 - Cenario: palace | luz: night | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): BUK (variante 0, expressao laugh); POV (variante 0, expressao laugh); POV (variante 1, expressao shout) | multidao: 30 de POV
 - Animacao: comemorar | batalha encenada
@@ -134,15 +134,11 @@ kit/globe | b10 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/ballot_box | grandes momentos: b4, b7 | planos abertos: 3 | mistura: close 24% | medio 61% | aberto 9% | detalhe 6%
+- Objeto heroi: kit/ballot_box | grandes momentos: b4, b7 | planos abertos: 3 | mistura: close 24% | medio 59% | aberto 12% | detalhe 5%
 - Interacoes: b0 o outro se aproxima, b2 insiste, b3 discutir, b5 entregar, b8 vai ate o outro, b9 empurrar
-- RISCOS GERAIS: 
-  - o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa) -> CORRECAO: reescrever a 1a frase com o fato mais absurdo da historia (sem ano); a data entra na 2a frase ou no mapa
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py bukele2024  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/bukele2024/moodboard.jpg
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 2 risco(s) em aberto
-- geral: o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa)
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh bukele2024 bN bM` (so essas cenas).

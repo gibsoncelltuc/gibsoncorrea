@@ -2,22 +2,22 @@
 
 Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 12 cenas, 186 palavras (~64 s)
 
-## Cena b0  (~6.9 s)
-- Narracao: Em fevereiro de dois mil e vinte e quatro, um presidente foi reeleito com uma das maiores votações do mundo.
+## Cena b0  (~3.8 s)
+- Narracao: Um presidente foi reeleito com uma das maiores votações do mundo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@30
-- Texto na tela: 2024
+- Texto na tela: -
 - Funcao na historia: GANCHO
 
-## Cena b1  (~4.1 s)
-- Narracao: Foi em El Salvador, na América Central. O presidente era Nayib Bukele.
+## Cena b1  (~7.2 s)
+- Narracao: Foi em El Salvador, na América Central, em fevereiro de dois mil e vinte e quatro. O presidente era Nayib Bukele.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: - | mapa: EL SALVADOR
+- Texto na tela: 2024 | mapa: EL SALVADOR
 - Funcao na historia: desenvolvimento
 
 ## Cena b2  (~7.6 s)
@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 
 ## Cena b4  (~4.8 s)
 - Narracao: Críticos e opositores disseram que a candidatura era ilegal. O governo defendeu a decisão.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
 - Efeito + som nas palavras-chave: ilegal -> ring + som de alerta; encena: duvida (shrug) @8 -> acao + som de efeito; encena: x_defende (cross) @11 -> acao + som de efeito
 - Efeito visual marcado: ring@30
