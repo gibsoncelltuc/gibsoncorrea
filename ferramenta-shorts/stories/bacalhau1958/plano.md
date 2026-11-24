@@ -6,7 +6,7 @@ b0 | two | -  | batalha aberta com tiros, tropa, placa: ISLÂNDIA VENCEU | - | -
 b1 | wide | -  | tropa, placa: 1958-1976 | encena: empurra (push) @14 (acao + som de efeito) | -
 b2 | two | -  | placa: BACALHAU | encena: x_pesca (lift) @8 (acao + som de efeito) | -
 b3 | wide | -  | tropa, placa: 12 · 50 · 200 MILHAS | - | -
-b4 | group | -  | mapa | encena: fala (point) @2 (acao + som de efeito); encena: x_defende (cross) @5 (acao + som de efeito) | -
+b4 | group | -  | batalha aberta com tiros, mapa | - | -
 b5 | low | -  | - | - | -
 b6 | group | -  | batalha aberta com tiros | - | -
 b7 | two | -  | placa: OTAN | encena: x_discute (point) @2 (acao + som de efeito); encena: empurra (push) @3 (acao + som de efeito) | -

@@ -46,8 +46,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): BRI (variante 1, expressao stern); BRI (variante 2, expressao grin)
-- Animacao: conversar | interacao: insiste
+- Personagens principais (0): -
+- Animacao: - | batalha encenada
 - Objetos/modelos: kit/navio_destroier
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barcos, inglaterra, pesca
 - RISCOS: nenhum
@@ -87,7 +87,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): BRI (variante 0, expressao pained); ICE (variante 0, expressao laugh)
-- Animacao: conversar | interacao: vai ate o outro
+- Animacao: conversar | interacao: insiste
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): duzentas, inglaterra, zona
 - RISCOS: nenhum
@@ -123,8 +123,8 @@ crate | b2, b9 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/cod | grandes momentos: b0, b6 | planos abertos: 2 | mistura: close 19% | medio 59% | aberto 21% | detalhe 1%
-- Interacoes: b0 pular, b2 o outro se aproxima, b4 insiste, b7 discutir, b8 vai ate o outro
+- Objeto heroi: kit/cod | grandes momentos: b0, b4, b6 | planos abertos: 2 | mistura: close 19% | medio 59% | aberto 21% | detalhe 1%
+- Interacoes: b0 pular, b2 o outro se aproxima, b7 discutir, b8 insiste
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

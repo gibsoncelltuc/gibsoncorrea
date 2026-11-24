@@ -158,27 +158,30 @@
   },
   {
    "say": "A Inglaterra mandou fragatas para proteger os barcos de pesca.",
-   "shot": "group",
-   "who": [
-    "BRI:1:stern",
-    "BRI:2:grin"
-   ],
+   "shot": "wide",
+   "who": [],
    "props": [
     [
      "kit/navio_destroier",
-     -7,
-     -13,
+     -9,
+     -17,
      1.0
     ],
     [
      "kit/navio_destroier",
-     8,
-     -15,
+     9,
+     -19,
      1.0
     ]
    ],
    "mood": "march",
-   "set": "harbor"
+   "set": "harbor",
+   "cx": 0,
+   "cz": -16,
+   "h": 5.0,
+   "d0": 26,
+   "d1": 22,
+   "impact": true
   },
   {
    "say": "Acontece que a Islândia só tinha barquinhos da guarda costeira, mas eles tinham cortadores de rede.",
@@ -195,13 +198,13 @@
     [
      "kit/navio_destroier",
      -9,
-     -16,
+     -17,
      1.0,
      {
       "move": [
        [
         -3,
-        -16
+        -17
        ],
        0,
        0
@@ -211,7 +214,7 @@
     [
      "kit/navio_destroier",
      9,
-     -16,
+     -19,
      1.0
     ]
    ],
@@ -227,9 +230,9 @@
    "impact": true,
    "cx": 0,
    "cz": -16,
-   "h": 6.0,
-   "d0": 30,
-   "d1": 24
+   "h": 5.0,
+   "d0": 26,
+   "d1": 22
   },
   {
    "say": "A Islândia ameaçou fechar a base da Otan e rompeu relações com a Inglaterra.",

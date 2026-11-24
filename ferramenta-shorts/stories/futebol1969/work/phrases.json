@@ -1,0 +1,288 @@
+{
+ "duration": 62.952,
+ "frames30": 1889,
+ "source": "silence-align (cost 0.56)",
+ "segments": [
+  [
+   0.160708,
+   3.01892
+  ],
+  [
+   3.88975,
+   5.67979
+  ],
+  [
+   6.53042,
+   7.72696
+  ],
+  [
+   7.93404,
+   8.71342
+  ],
+  [
+   8.88658,
+   10.9021
+  ],
+  [
+   11.7692,
+   14.1784
+  ],
+  [
+   15.0346,
+   15.7401
+  ],
+  [
+   15.996,
+   16.812
+  ],
+  [
+   17.664,
+   18.191
+  ],
+  [
+   18.4604,
+   19.8373
+  ],
+  [
+   20.6707,
+   24.4053
+  ],
+  [
+   25.2558,
+   25.8276
+  ],
+  [
+   26.0445,
+   27.1925
+  ],
+  [
+   28.0623,
+   29.6307
+  ],
+  [
+   29.8705,
+   31.8047
+  ],
+  [
+   32.6873,
+   33.5453
+  ],
+  [
+   33.7792,
+   34.9327
+  ],
+  [
+   35.1712,
+   37.2108
+  ],
+  [
+   38.0774,
+   39.5137
+  ],
+  [
+   39.7051,
+   40.4288
+  ],
+  [
+   40.6969,
+   41.5847
+  ],
+  [
+   42.421,
+   43.6156
+  ],
+  [
+   43.841,
+   45.6813
+  ],
+  [
+   46.5268,
+   47.746
+  ],
+  [
+   48.5927,
+   49.5806
+  ],
+  [
+   50.4405,
+   53.2105
+  ],
+  [
+   54.0128,
+   54.5935
+  ],
+  [
+   54.7849,
+   56.4934
+  ],
+  [
+   56.6859,
+   57.7975
+  ],
+  [
+   58.6405,
+   60.0832
+  ],
+  [
+   60.3777,
+   62.1392
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Dois pa\u00edses entraram em guerra depois de um jogo de futebol.",
+   "s": 0.161,
+   "e": 3.019
+  },
+  {
+   "text": "Era mil novecentos e sessenta e nove.",
+   "s": 3.89,
+   "e": 5.68
+  },
+  {
+   "text": "Honduras e El Salvador,",
+   "s": 6.53,
+   "e": 7.727
+  },
+  {
+   "text": "dois vizinhos,",
+   "s": 7.934,
+   "e": 8.713
+  },
+  {
+   "text": "j\u00e1 viviam brigando por terra e por fronteira.",
+   "s": 8.887,
+   "e": 10.902
+  },
+  {
+   "text": "A\u00ed veio a disputa por uma vaga na Copa do Mundo.",
+   "s": 11.769,
+   "e": 14.178
+  },
+  {
+   "text": "Tr\u00eas jogos,",
+   "s": 15.035,
+   "e": 15.74
+  },
+  {
+   "text": "um contra o outro.",
+   "s": 15.996,
+   "e": 16.812
+  },
+  {
+   "text": "No primeiro,",
+   "s": 17.664,
+   "e": 18.191
+  },
+  {
+   "text": "Honduras venceu em casa.",
+   "s": 18.46,
+   "e": 19.837
+  },
+  {
+   "text": "A torcida passou a noite batendo panelas na porta do hotel dos visitantes.",
+   "s": 20.671,
+   "e": 24.405
+  },
+  {
+   "text": "No segundo,",
+   "s": 25.256,
+   "e": 25.828
+  },
+  {
+   "text": "El Salvador deu o troco.",
+   "s": 26.044,
+   "e": 27.192
+  },
+  {
+   "text": "Torcedores brigaram nas ruas,",
+   "s": 28.062,
+   "e": 29.631
+  },
+  {
+   "text": "e os dois governos trocaram insultos.",
+   "s": 29.87,
+   "e": 31.805
+  },
+  {
+   "text": "Acontece que,",
+   "s": 32.687,
+   "e": 33.545
+  },
+  {
+   "text": "no dia do terceiro jogo,",
+   "s": 33.779,
+   "e": 34.933
+  },
+  {
+   "text": "El Salvador cortou rela\u00e7\u00f5es com o vizinho.",
+   "s": 35.171,
+   "e": 37.211
+  },
+  {
+   "text": "El Salvador ganhou a partida,",
+   "s": 38.077,
+   "e": 39.514
+  },
+  {
+   "text": "na prorroga\u00e7\u00e3o,",
+   "s": 39.705,
+   "e": 40.429
+  },
+  {
+   "text": "e ficou com a vaga.",
+   "s": 40.697,
+   "e": 41.585
+  },
+  {
+   "text": "Duas semanas depois,",
+   "s": 42.421,
+   "e": 43.616
+  },
+  {
+   "text": "tanques e avi\u00f5es cruzaram a fronteira.",
+   "s": 43.841,
+   "e": 45.681
+  },
+  {
+   "text": "A guerra tinha come\u00e7ado.",
+   "s": 46.527,
+   "e": 47.746
+  },
+  {
+   "text": "Durou cem horas.",
+   "s": 48.593,
+   "e": 49.581
+  },
+  {
+   "text": "Os outros pa\u00edses do continente obrigaram os dois a parar.",
+   "s": 50.441,
+   "e": 53.211
+  },
+  {
+   "text": "E na Copa,",
+   "s": 54.013,
+   "e": 54.593
+  },
+  {
+   "text": "El Salvador perdeu os tr\u00eas jogos,",
+   "s": 54.785,
+   "e": 56.493
+  },
+  {
+   "text": "sem fazer um \u00fanico gol.",
+   "s": 56.686,
+   "e": 57.797
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 58.641,
+   "e": 60.083
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 60.378,
+   "e": 62.139
+  }
+ ]
+}
