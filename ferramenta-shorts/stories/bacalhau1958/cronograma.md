@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 25 - As Guerras do Bacalhau
 
-Gerado em 24/11 08:27 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 08:32 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -11,7 +11,7 @@ b1 | simples | harbor | group | ICE, PES | - | crate, cod | - | A Islândia é p
 b2 | transicao | harbor | wide | ICE | - | ship | - | Então a Islândia aumentou os limites do seu mar: doze milhas, cinquent
 b3 | simples | harbor | group | BRI, BRI, PES | - | ship | - | A Inglaterra mandou a marinha para proteger os barcos de pesca.
 b4 | simples | harbor | close | ICE | - | - | - | A Islândia só tinha uns barquinhos da guarda costeira, mas eles tinham
-b5 | simples | harbor | wide | X | - | navios de guerra ao fundo, no tamanho real, ship | - | Eles cortavam os cabos das redes inglesas, e os navios batiam um no ou
+b5 | simples | harbor | wide | ICE | - | navios de guerra ao fundo, no tamanho real, ship | - | Eles cortavam os cabos das redes inglesas, e os navios batiam um no ou
 b6 | chave | harbor | orbit | ICE, BRI | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A Islândia ainda ameaçou fechar a base da Otan no país.
 b7 | simples | harbor | two | BRI, ICE | - | - | - | Em mil novecentos e setenta e seis, os ingleses cederam, e a ideia de 
 b8 | simples | harbor | close | PES | - | crate, cod | - | Foi uma guerra de navios batendo e de redes cortadas, e tudo por causa
