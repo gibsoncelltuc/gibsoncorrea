@@ -175,15 +175,13 @@
   {
    "shot": "low",
    "who": [
-    "BUK:0:laugh",
-    "POV:0:laugh",
-    "POV:1:shout"
+    "BUK:0:laugh"
    ],
    "batalha": false,
    "tiros": false,
    "acao": "comemorar",
    "crowd": {
-    "n": 22,
+    "n": 12,
     "outfits": [
      "POV"
     ],
@@ -194,8 +192,8 @@
     [
      "kit/porch",
      0,
-     -5,
-     1.4
+     -3.5,
+     1.6
     ]
    ],
    "fx": [

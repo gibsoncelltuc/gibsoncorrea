@@ -38,6 +38,7 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "kit/cone_transito",
+  "kit/globe",
   "kit/palete",
   "kit/prison",
   "kit/room_galpao",

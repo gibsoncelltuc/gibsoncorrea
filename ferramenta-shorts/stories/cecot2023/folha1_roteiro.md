@@ -5,10 +5,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 ## Cena b0  (~4.5 s)
 - Narracao: El Salvador construiu uma prisão tão grande que virou notícia no mundo inteiro.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: encena: constroi (hammer) @2 -> acao + som de efeito
-- Efeito visual marcado: stars@30
-- Texto na tela: -
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: 40 MIL PRESOS
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~4.8 s)
@@ -98,7 +98,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: escreve (write) @6 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: COPIADO E CRITICADO
 - Funcao na historia: desenvolvimento
 
 ## Cena b11  (~4.5 s)

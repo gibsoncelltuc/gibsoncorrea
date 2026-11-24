@@ -3,7 +3,7 @@
  "ano": 2023,
  "cenarios_trocados": [],
  "metricas": {
-  "acoes_encenadas": 100,
+  "acoes_encenadas": 92,
   "acoes_chave_com_efeito": 100,
   "explicacoes_cobertas": 100,
   "cenario_e_epoca_ok": 100
@@ -11,21 +11,20 @@
  "cenas": [
   {
    "camera": "two",
-   "personagens": [
-    "BUK",
-    "REP"
-   ],
-   "multidao": 0,
+   "personagens": [],
+   "multidao": 26,
    "objetos": [
     "kit/prison"
    ],
    "palavras": 13,
    "cena": "b0",
    "frase": "El Salvador construiu uma prisão tão grande que virou notícia no mundo inteiro.",
-   "classe": "simples",
-   "sujeito": "personagem",
+   "classe": "transicao",
+   "sujeito": "cenario",
    "briefing": {},
-   "acoes_faltando": [],
+   "acoes_faltando": [
+    "construiu"
+   ],
    "cenario": "loc_campo"
   },
   {
@@ -211,11 +210,12 @@
   {
    "camera": "group",
    "personagens": [
-    "BUK"
+    "BUK",
+    "POV"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/prison"
+    "kit/globe"
    ],
    "palavras": 11,
    "cena": "b10",
@@ -229,7 +229,7 @@
   {
    "camera": "close",
    "personagens": [
-    "BUK"
+    "REP"
    ],
    "multidao": 0,
    "objetos": [],

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 27 - A Maior Prisão das Américas
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 30 acoes catalogadas, 29 com animacao, 1 faltando -> NAO RENDERIZAR ate zerar
 
 
 ## Cena b0 - 0.1s a 3.3s - 13 palavras - plano two
@@ -9,9 +9,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | construiu (0.8s) | ACAO: constroi | martela e o objeto cresce | OK |
-| 2 | - | INTERACAO | aproxima-se | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 1 | - | PLACA | 40 MIL PRESOS | OK |
+| ! | construiu | ACAO SEM ANIMACAO | (nenhuma) - corrigir o roteiro ou marcar a cena | FALTA |
 
 ## Cena b1 - 4.6s a 7.4s - 14 palavras - plano reveal
 > "Foi inaugurada em janeiro de dois mil e vinte e três, numa área isolada."
@@ -61,7 +60,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | avanca e o outro recua | OK |
+| 1 | - | INTERACAO | aproxima-se | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 38.4s a 42.6s - 12 palavras - plano orbit
@@ -87,7 +86,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | o outro se aproxima | OK |
+| 1 | - | INTERACAO | avanca e o outro recua | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | DEBATE | OK |
 
@@ -97,7 +96,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | copiado (53.8s) | ACAO: escreve | escreve/assina | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | - | INTERACAO | o outro se aproxima | OK |
+| 3 | - | PLACA | COPIADO E CRITICADO | OK |
 
 ## Cena b11 - 56.3s a 59.6s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
