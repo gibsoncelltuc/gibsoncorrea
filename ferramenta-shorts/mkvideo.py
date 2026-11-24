@@ -50,7 +50,7 @@ _SET_TEMA = {'outback': (r'fazend|rural|outback|trigo|celeiro|moinho|australia|s
              'arctic': (r'neve|gelo|artic|inverno|polar|congel|siberia|alasca|nevasca|geada|antart', 'neve e gelo'),
              'palace': (r'palacio|\brei\b|rainha|imperador|\bcorte\b|governo|sultao|presidente|capital|farao|imperio|czar', 'palacio (torres, palmeiras, igreja)'),
              'stadium': (r'estadio|torcida|\bjogo\b|partida|arena|\bluta\b|ringue|\bcopa\b|olimp|campeonato', 'estadio lotado'),
-             'street': (r'\bcidade|\bruas?\b|avenida|bairro|\bcapital\b|\bpraca\b|mercado|\bvila\b|\bloja|predio|metropole|\bcentro\b|calcada|esquina|transito|taverna|\bbar\b|fabrica|teatro|banco\b|prefeitura|tribunal|universidade|hotel', 'rua de cidade (predios, lojas, calcamento)')}
+             'street': (r'londres|paris\b|nova york|\broma\b|viena|berlim|madri|lisboa|amsterda|toquio|sao francisco|los angeles|chicago|filadelfia|boston|moscou|cairo|siracusa|atenas|veneza|florenca|estrasburgo|detroit|caracas|san salvador|\bcidade|\bruas?\b|avenida|bairro|\bcapital\b|\bpraca\b|mercado|\bvila\b|\bloja|predio|metropole|\bcentro\b|calcada|esquina|transito|taverna|\bbar\b|fabrica|teatro|banco\b|prefeitura|tribunal|universidade|hotel', 'rua de cidade (predios, lojas, calcamento)')}
 _RURAL = bool(re.search(r'fazend|\bhorta|rural|\bcampo\b|\bilha\b|plantac|lavoura|\bsitio\b|pasto|floresta|selva|deserto|montanha|acampamento|aldeia', _TXT0)) and not re.search(_SET_TEMA['street'][0], _TXT0)   # historia que se passa no campo/ilha/mato, sem cidade na narracao nem na pesquisa
 def _set_ok(s_):
     if B.get('set_tematico_ok') or s_ not in _SET_TEMA: return True
