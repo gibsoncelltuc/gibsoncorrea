@@ -124,13 +124,14 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "close",
+   "camera": "wide",
    "personagens": [
     "CLI"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/phone"
+    "kit/phone",
+    "kit/volcano"
    ],
    "palavras": 13,
    "cena": "b5",

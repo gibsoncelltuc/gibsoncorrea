@@ -1,216 +1,216 @@
 {
- "duration": 54.792,
- "frames30": 1644,
- "source": "silence-align (cost 0.64)",
+ "duration": 55.896,
+ "frames30": 1677,
+ "source": "silence-align (cost 0.73)",
  "segments": [
   [
-   0.160208,
-   0.987292
+   0.143167,
+   2.28596
   ],
   [
-   1.23758,
-   4.00437
+   2.59496,
+   3.91875
   ],
   [
-   4.29012,
-   5.11487
+   4.76525,
+   5.64496
   ],
   [
-   5.96479,
-   8.14892
+   5.88225,
+   7.78325
   ],
   [
-   8.37862,
-   9.64996
+   8.05787,
+   10.738
   ],
   [
-   10.488,
-   14.204
+   11.5809,
+   15.2933
   ],
   [
-   14.4219,
-   15.6758
+   15.5148,
+   16.7718
   ],
   [
-   16.5435,
-   19.372
+   17.6369,
+   20.465
   ],
   [
-   19.6237,
-   21.067
+   20.7166,
+   22.1598
   ],
   [
-   21.9215,
-   26.0388
+   23.0144,
+   27.1352
   ],
   [
-   26.886,
-   28.7122
+   27.9793,
+   29.8052
   ],
   [
-   29.0106,
-   30.0683
+   30.1036,
+   31.1671
   ],
   [
-   30.9541,
-   32.0277
+   32.0486,
+   33.1212
   ],
   [
-   32.2463,
-   34.9145
+   33.3393,
+   36.0075
   ],
   [
-   35.7788,
-   36.4325
+   36.8717,
+   37.5254
   ],
   [
-   36.7015,
-   39.7707
+   37.7945,
+   40.8636
   ],
   [
-   40.642,
-   41.2075
+   41.7351,
+   42.3004
   ],
   [
-   41.4378,
-   43.0261
+   42.5307,
+   44.119
   ],
   [
-   43.2497,
-   44.6329
+   44.3426,
+   45.7259
   ],
   [
-   45.4847,
-   46.342
+   46.5776,
+   47.4349
   ],
   [
-   46.5528,
-   49.6269
+   47.6457,
+   50.7199
   ],
   [
-   50.4863,
-   51.9308
+   51.5748,
+   53.0237
   ],
   [
-   52.2238,
-   53.9853
+   53.3166,
+   55.0782
   ]
  ],
  "phrases": [
   {
+   "text": "Um bilion\u00e1rio colocou o pr\u00f3prio nome num bife,",
+   "s": 0.143,
+   "e": 2.286
+  },
+  {
+   "text": "e ele sumiu em dois meses.",
+   "s": 2.595,
+   "e": 3.919
+  },
+  {
    "text": "Em dois mil e sete,",
-   "s": 0.16,
-   "e": 0.987
+   "s": 4.765,
+   "e": 5.645
   },
   {
-   "text": "Donald Trump lan\u00e7ou uma linha de carnes com o pr\u00f3prio nome:",
-   "s": 1.238,
-   "e": 4.004
+   "text": "Donald Trump lan\u00e7ou a Trump Steaks,",
+   "s": 5.882,
+   "e": 7.783
   },
   {
-   "text": "a Trump Steaks.",
-   "s": 4.29,
-   "e": 5.115
-  },
-  {
-   "text": "Os bifes apareceram na loja Sharper Image,",
-   "s": 5.965,
-   "e": 8.149
-  },
-  {
-   "text": "a partir de oito de maio.",
-   "s": 8.379,
-   "e": 9.65
+   "text": "vendida na loja Sharper Image a partir de oito de maio.",
+   "s": 8.058,
+   "e": 10.738
   },
   {
    "text": "Os pacotes custavam de cento e noventa e nove a novecentos e noventa e nove d\u00f3lares,",
-   "s": 10.488,
-   "e": 14.204
+   "s": 11.581,
+   "e": 15.293
   },
   {
    "text": "com bifes e hamb\u00fargueres.",
-   "s": 14.422,
-   "e": 15.676
+   "s": 15.515,
+   "e": 16.772
   },
   {
    "text": "Acontece que a loja deixou de oferecer os bifes em julho,",
-   "s": 16.544,
-   "e": 19.372
+   "s": 17.637,
+   "e": 20.465
   },
   {
    "text": "cerca de dois meses depois.",
-   "s": 19.624,
-   "e": 21.067
+   "s": 20.717,
+   "e": 22.16
   },
   {
    "text": "Uma reportagem estimou que as vendas totais nunca passaram de cinquenta mil d\u00f3lares.",
-   "s": 21.922,
-   "e": 26.039
+   "s": 23.014,
+   "e": 27.135
   },
   {
    "text": "A marca tamb\u00e9m apareceu na QVC,",
-   "s": 26.886,
-   "e": 28.712
+   "s": 27.979,
+   "e": 29.805
   },
   {
    "text": "um canal de televis\u00e3o.",
-   "s": 29.011,
-   "e": 30.068
+   "s": 30.104,
+   "e": 31.167
   },
   {
    "text": "Segundo registros,",
-   "s": 30.954,
-   "e": 32.028
+   "s": 32.049,
+   "e": 33.121
   },
   {
    "text": "a marca registrada foi cancelada em dois mil e catorze.",
-   "s": 32.246,
-   "e": 34.914
+   "s": 33.339,
+   "e": 36.008
   },
   {
    "text": "Mesmo assim,",
-   "s": 35.779,
-   "e": 36.432
+   "s": 36.872,
+   "e": 37.525
   },
   {
    "text": "os bifes continuaram sendo servidos em hot\u00e9is do grupo Trump.",
-   "s": 36.702,
-   "e": 39.771
+   "s": 37.794,
+   "e": 40.864
   },
   {
    "text": "Em resumo,",
-   "s": 40.642,
-   "e": 41.208
+   "s": 41.735,
+   "e": 42.3
   },
   {
    "text": "a carne saiu da loja depressa,",
-   "s": 41.438,
-   "e": 43.026
+   "s": 42.531,
+   "e": 44.119
   },
   {
    "text": "mas o nome ficou no card\u00e1pio.",
-   "s": 43.25,
-   "e": 44.633
+   "s": 44.343,
+   "e": 45.726
   },
   {
    "text": "Moral da hist\u00f3ria:",
-   "s": 45.485,
-   "e": 46.342
+   "s": 46.578,
+   "e": 47.435
   },
   {
    "text": "nem todo produto com nome famoso dura mais que uma promo\u00e7\u00e3o.",
-   "s": 46.553,
-   "e": 49.627
+   "s": 47.646,
+   "e": 50.72
   },
   {
    "text": "Agora n\u00e3o deixe de comentar:",
-   "s": 50.486,
-   "e": 51.931
+   "s": 51.575,
+   "e": 53.024
   },
   {
    "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
-   "s": 52.224,
-   "e": 53.985
+   "s": 53.317,
+   "e": 55.078
   }
  ]
 }

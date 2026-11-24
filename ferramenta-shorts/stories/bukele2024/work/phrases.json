@@ -1,111 +1,103 @@
 {
- "duration": 63.984,
- "frames30": 1920,
- "source": "silence-align (cost 0.93)",
+ "duration": 60.264,
+ "frames30": 1808,
+ "source": "silence-align (cost 0.76)",
  "segments": [
   [
    0.146333,
    3.33846
   ],
   [
-   4.25846,
-   5.09192
+   4.26083,
+   5.11496
   ],
   [
-   5.29413,
-   6.24337
+   5.37408,
+   6.29429
   ],
   [
-   6.52137,
-   8.08646
+   6.61204,
+   8.20254
   ],
   [
-   8.95312,
-   10.6084
+   9.06825,
+   12.0468
   ],
   [
-   11.4507,
-   13.2423
+   12.9003,
+   15.0686
   ],
   [
-   13.512,
-   15.743
+   15.3163,
+   18.2325
   ],
   [
-   16.5819,
-   18.7459
+   19.0993,
+   21.8164
   ],
   [
-   18.9979,
-   21.9141
+   22.6757,
+   24.223
   ],
   [
-   22.7809,
-   25.498
+   25.0663,
+   25.9604
   ],
   [
-   26.3573,
-   27.9045
+   26.2161,
+   27.8086
   ],
   [
-   28.7478,
-   29.642
+   28.6705,
+   30.4645
   ],
   [
-   29.8977,
-   31.4896
+   30.7426,
+   33.4172
   ],
   [
-   32.3528,
-   34.1461
+   34.2773,
+   35.9088
   ],
   [
-   34.4242,
-   37.0969
+   36.118,
+   37.4072
   ],
   [
-   37.9588,
-   39.5905
+   38.2484,
+   38.7893
   ],
   [
-   39.7995,
-   41.0888
+   39.0846,
+   43.339
   ],
   [
-   41.9321,
-   43.7752
+   44.1962,
+   45.9223
   ],
   [
-   43.995,
-   47.0668
+   46.2102,
+   46.5235
   ],
   [
-   47.9233,
-   49.652
+   46.7627,
+   49.4408
   ],
   [
-   49.9372,
-   50.2506
+   50.3111,
+   52.3701
   ],
   [
-   50.4897,
-   53.1677
+   52.6322,
+   55.1169
   ],
   [
-   54.0387,
-   56.097
+   55.9631,
+   57.4055
   ],
   [
-   56.3593,
-   58.844
-  ],
-  [
-   59.6881,
-   61.1346
-  ],
-  [
-   61.4276,
-   63.1892
+   57.7004,
+   59.4619
   ]
  ],
  "phrases": [
@@ -116,128 +108,118 @@
   },
   {
    "text": "Foi em El Salvador,",
-   "s": 4.258,
-   "e": 5.092
+   "s": 4.261,
+   "e": 5.115
   },
   {
    "text": "na Am\u00e9rica Central,",
-   "s": 5.294,
-   "e": 6.243
+   "s": 5.374,
+   "e": 6.294
   },
   {
-   "text": "em fevereiro de dois mil e vinte e quatro.",
-   "s": 6.521,
-   "e": 8.086
+   "text": "e o presidente era Nayib Bukele.",
+   "s": 6.612,
+   "e": 8.203
   },
   {
-   "text": "O presidente era Nayib Bukele.",
-   "s": 8.953,
-   "e": 10.608
-  },
-  {
-   "text": "Ele chegou ao poder em dois mil e dezenove,",
-   "s": 11.451,
-   "e": 13.242
-  },
-  {
-   "text": "prometendo acabar com a viol\u00eancia das gangues.",
-   "s": 13.512,
-   "e": 15.743
+   "text": "Ele chegou ao poder prometendo acabar com a viol\u00eancia das gangues.",
+   "s": 9.068,
+   "e": 12.047
   },
   {
    "text": "A Constitui\u00e7\u00e3o proibia a reelei\u00e7\u00e3o seguida,",
-   "s": 16.582,
-   "e": 18.746
+   "s": 12.9,
+   "e": 15.069
   },
   {
    "text": "mas em dois mil e vinte e um a Suprema Corte mudou a interpreta\u00e7\u00e3o.",
-   "s": 18.998,
-   "e": 21.914
+   "s": 15.316,
+   "e": 18.233
   },
   {
    "text": "Cr\u00edticos e opositores disseram que a candidatura era ilegal.",
-   "s": 22.781,
-   "e": 25.498
+   "s": 19.099,
+   "e": 21.816
   },
   {
    "text": "O governo defendeu a decis\u00e3o.",
-   "s": 26.357,
-   "e": 27.904
+   "s": 22.676,
+   "e": 24.223
   },
   {
    "text": "No dia da elei\u00e7\u00e3o,",
-   "s": 28.748,
-   "e": 29.642
+   "s": 25.066,
+   "e": 25.96
   },
   {
    "text": "os salvadorenhos foram \u00e0s urnas.",
-   "s": 29.898,
-   "e": 31.49
+   "s": 26.216,
+   "e": 27.809
   },
   {
    "text": "Acontece que o resultado impressionou:",
-   "s": 32.353,
-   "e": 34.146
+   "s": 28.671,
+   "e": 30.465
   },
   {
    "text": "Bukele teve quase oitenta e cinco por cento dos votos.",
-   "s": 34.424,
-   "e": 37.097
+   "s": 30.743,
+   "e": 33.417
   },
   {
    "text": "Os apoiadores lotaram as ruas,",
-   "s": 37.959,
-   "e": 39.59
+   "s": 34.277,
+   "e": 35.909
   },
   {
    "text": "e ele comemorou numa sacada.",
-   "s": 39.8,
-   "e": 41.089
+   "s": 36.118,
+   "e": 37.407
   },
   {
-   "text": "Os eleitores citaram os assassinatos:",
-   "s": 41.932,
-   "e": 43.775
+   "text": "O motivo:",
+   "s": 38.248,
+   "e": 38.789
   },
   {
-   "text": "de cento e seis para dois v\u00edrgula quatro por cem mil habitantes.",
-   "s": 43.995,
-   "e": 47.067
+   "text": "os assassinatos ca\u00edram de cento e seis para dois v\u00edrgula quatro por cem mil habitantes.",
+   "s": 39.085,
+   "e": 43.339
   },
   {
    "text": "Organiza\u00e7\u00f5es de direitos humanos,",
-   "s": 47.923,
-   "e": 49.652
+   "s": 44.196,
+   "e": 45.922
   },
   {
    "text": "por\u00e9m,",
-   "s": 49.937,
-   "e": 50.251
+   "s": 46.21,
+   "e": 46.523
   },
   {
    "text": "criticaram as pris\u00f5es em massa e o estado de exce\u00e7\u00e3o.",
-   "s": 50.49,
-   "e": 53.168
+   "s": 46.763,
+   "e": 49.441
   },
   {
    "text": "Amado por muitos e criticado por outros,",
-   "s": 54.039,
-   "e": 56.097
+   "s": 50.311,
+   "e": 52.37
   },
   {
    "text": "ele virou um dos presidentes mais populares do planeta.",
-   "s": 56.359,
-   "e": 58.844
+   "s": 52.632,
+   "e": 55.117
   },
   {
    "text": "Agora n\u00e3o deixe de comentar:",
-   "s": 59.688,
-   "e": 61.135
+   "s": 55.963,
+   "e": 57.406
   },
   {
    "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
-   "s": 61.428,
-   "e": 63.189
+   "s": 57.7,
+   "e": 59.462
   }
  ]
 }

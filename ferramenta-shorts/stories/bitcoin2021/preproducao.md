@@ -9,7 +9,7 @@ b1 | loc_cidade | wide | 1 | encena | kit/volcano | - | -
 b2 | loc_cidade | group | 13 | conversar, INTERAGEM: o outro se aproxima | kit/bitcoin | - | -
 b3 | loc_pista | reveal | 10 | encena, batalha | kit/volcano | - | -
 b4 | loc_pista | two | 14 | conversar, INTERAGEM: insiste | kit/stall, kit/bitcoin | coin | -
-b5 | loc_pista | close | 1 | conversar, batalha | kit/phone | - | -
+b5 | loc_pista | wide | 1 | batalha | kit/phone, kit/volcano | - | -
 b6 | loc_pista | two | 2 | discutir, INTERAGEM: discutir | - | - | -
 b7 | loc_patio | orbit | 8 | encena | kit/globe, kit/volcano, kit/bitcoin, kit/coin | - | -
 b8 | loc_patio | group | 3 | conversar, INTERAGEM: vai ate o outro | kit/bitcoin, kit/coin | - | -

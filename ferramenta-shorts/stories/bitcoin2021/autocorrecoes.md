@@ -17,3 +17,7 @@
 
 ## 24/11 23:12 autocorrecao de visibilidade
 - b1: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+
+## 24/11 23:14 autocorrecao de visibilidade
+- b5: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+- b5: objeto ENORME "kit/phone" cobrindo o quadro (mais de 60% da altura da tela): menor ou sem close -> "kit/phone" menor e sem close (cobria o quadro)

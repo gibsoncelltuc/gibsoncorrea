@@ -266,7 +266,7 @@
   },
   {
    "say": "Acontece que, no lançamento, o aplicativo ficou fora do ar por algumas horas.",
-   "shot": "close",
+   "shot": "wide",
    "who": [
     "CLI:0:surprised"
    ],
@@ -289,7 +289,7 @@
      "kit/phone",
      0.55,
      0.3,
-     1.8,
+     1.08,
      {
       "fixo": true
      }
@@ -307,7 +307,7 @@
    "d1": 3.8,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "close (rosto e ombros); plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/phone",
@@ -316,7 +316,8 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "_auto_vis": 2
   },
   {
    "say": "Uma pesquisa da Universidade Centro-Americana mostrou que sessenta e oito por cento discordavam da decisão.",
