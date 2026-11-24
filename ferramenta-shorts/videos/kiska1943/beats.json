@@ -349,14 +349,19 @@
    "props": [
     [
      "kit/dog_sit",
-     0.6,
+     1.2,
+     0.9,
+     1.3
+    ],
+    [
+     "kit/dog_sit",
+     -1.3,
      1.0,
-     1.5
+     1.2
     ]
    ],
-   "detalhe": false,
-   "interior": "madeira",
-   "_auto_vis": 2
+   "detalhe": true,
+   "set": "harbor"
   }
  ],
  "heroi": "kit/dog_sit",
@@ -388,5 +393,6 @@
  },
  "serie": "Guerras Inusitadas",
  "ep": 21,
- "titulo_base": "A Invasão da Ilha Vazia"
+ "titulo_base": "A Invasão da Ilha Vazia",
+ "variar_cenario": false
 }

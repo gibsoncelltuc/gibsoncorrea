@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | placa: 1835 | encena: espeta (punch) @9 (acao + som de efeito); encena: pega (lift) @10 (acao + som de efeito) | -
+b0 | two | -  | placa: 1 FERIDO: CANIVETADA | encena: espeta (punch) @9 (acao + som de efeito); encena: pega (lift) @10 (acao + som de efeito) | -
 b1 | reveal | -  | tropa, placa: MAPA ERRADO, mapa | - | -
 b2 | close | -  | interior, placa: 23 ANOS, objeto na mao | encena: fala (point) @11 (acao + som de efeito); encena: chega (point) @14 (acao + som de efeito) | -
 b3 | crowd | -  | batalha aberta com tiros, tropa | cavalaria: 4 soldados a cavalo (OHI) (acao + som de efeito); chegaram (dust + som de impacto); encena: fala (point) @1 (acao + som de efeito); encena: chega (point) @10 (acao + som de efeito) | -

@@ -4,7 +4,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | arctic | wide | 2 | parados (so fala e pisca) | ship, horse | - | -
+b0 | arctic | wide | 1 | parados (so fala e pisca) | ship, horse | - | -
 b1 | arctic | reveal | 2 | reagir | - | - | -
 b2 | arctic | orbit | 2 | reagir | ship | - | -
 b3 | arctic | wide | 1 | encena | ship | - | -

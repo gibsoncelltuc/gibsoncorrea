@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1943 | Lugar: Ilha de Kiska, nas Aleutas (Alasca): ilha vulcanica sem arvores, tundra de capim e pedras, praias de cascalho, mar frio, neblina constante | Quando: desembarque em 15 de agosto de 1943 (os japoneses tinham saido em 28 de julho, escondidos na neblina)
 - HEROIS (objeto): kit/dog_sit
 - HEROIS (personagens): USA, CAN
-- Cenarios: arctic, harbor, interior madeira, interior pedra
+- Cenarios: arctic, harbor, interior pedra
 - Proibido pela epoca: canhao antigo, caravela, carro antigo, carroca, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra
 - Tamanho real aplicado: kit/navio_vapor: 30.0 m reais -> escala 2.25 (estava 1.0: pequeno demais); kit/aviao_ww2: 12.0 m reais -> escala 2.51 (estava 1.0: pequeno demais); kit/navio_encouracado: 30.0 m reais -> escala 8.44 (estava 0.8: pequeno demais); kit/navio_encouracado: 30.0 m reais -> escala 8.44 (estava 0.7: pequeno demais); kit/canhao_moderno: 4.5 m reais -> escala 2.06 (estava 1.2: pequeno demais); kit/navio_encouracado: 30.0 m reais -> escala 8.44 (estava 1.0: pequeno demais)
 
