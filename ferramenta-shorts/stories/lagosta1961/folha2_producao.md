@@ -46,7 +46,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (1): MAR (variante 0, expressao stern) | multidao: 0 de MAR/PES
+- Personagens principais (1): MAR (variante 0, expressao stern) | multidao: 0 de 
 - Animacao: conversar
 - Objetos/modelos: kit/navio_destroier
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca, navio, pescadores

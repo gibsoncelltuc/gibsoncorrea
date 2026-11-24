@@ -34,8 +34,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Um deles parou numa barraca, comeu uma fatia de melancia e foi embora ...
 - Cenario: jungle | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): VIA (variante 0, expressao grin); VEN (variante 0, expressao shock)
 - Animacao: reagir | interacao: empurrar
 - Objetos/modelos: kit/stall, kit/melon
@@ -54,8 +54,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo.
 - Cenario: street | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): VIA (variante 0, expressao angry); VEN (variante 0, expressao scared)
 - Animacao: conversar | interacao: empurrar
 - Objetos/modelos: war/pistol
@@ -74,11 +74,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Os viajantes se trancaram na estação de trem, e a polícia da cidade en...
 - Cenario: street | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): VIA (variante 0, expressao shock); MOR (variante 0, expressao angry)
-- Animacao: discutir | o ultimo personagem ENTRA andando
-- Objetos/modelos: buildings/house_two, nature/lamppost, vehicles/locomotive
+- Animacao: discutir | interacao: insiste | o ultimo personagem ENTRA andando
+- Objetos/modelos: vehicles/locomotive, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): briga, cidade, estacao, policia, trem, viajantes
 - RISCOS: nenhum
 
@@ -104,8 +104,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b10 - Tudo isso por uma fatia de melancia que custava poucos centavos.
 - Cenario: jungle | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
+- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): VEN (variante 0, expressao sad)
 - Animacao: conversar
 - Objetos/modelos: kit/melon
@@ -137,8 +137,8 @@ nature/lamppost | b7 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/melon | grandes momentos: b6, b9 | planos abertos: 4 | mistura: close 10% | medio 64% | aberto 20% | detalhe 6%
-- Interacoes: b0 discutir, b3 empurrar, b4 discutir, b5 empurrar, b8 susto
+- Objeto heroi: kit/melon | grandes momentos: b6, b9 | planos abertos: 4 | mistura: close 8% | medio 65% | aberto 20% | detalhe 6%
+- Interacoes: b0 discutir, b3 empurrar, b4 discutir, b5 empurrar, b7 insiste, b8 susto
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

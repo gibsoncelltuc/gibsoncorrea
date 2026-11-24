@@ -11,7 +11,7 @@ b3 | jungle | two | 2 | reagir, INTERAGEM: empurrar | kit/stall, kit/melon | - |
 b4 | street | two | 2 | discutir, INTERAGEM: discutir | kit/stall, buildings/shop | - | -
 b5 | street | group | 2 | conversar, INTERAGEM: empurrar | war/pistol | - | -
 b6 | street | crowd | 22 | discutir, batalha | - | - | -
-b7 | street | group | 2 | discutir, alguem chega andando | buildings/house_two, nature/lamppost, vehicles/locomotive | - | -
+b7 | street | group | 2 | discutir, INTERAGEM: insiste, alguem chega andando | vehicles/locomotive, buildings/house_two, nature/lamppost | - | -
 b8 | interior madeira | two | 2 | conversar, INTERAGEM: susto | - | paper | -
 b9 | harbor | orbit | 22 | batalha | vehicles/locomotive | - | -
 b10 | jungle | close | 1 | conversar | kit/melon | - | -
@@ -19,7 +19,7 @@ b11 | jungle | two | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/melon
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b6, b9
-Interacoes entre personagens: b0 discutir, b3 empurrar, b4 discutir, b5 empurrar, b8 susto
+Interacoes entre personagens: b0 discutir, b3 empurrar, b4 discutir, b5 empurrar, b7 insiste, b8 susto
 
 Cenas com personagens parados: 0 de 12
 FALTA MODELAR: nada

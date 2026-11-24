@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Os viajantes se trancaram na estação de trem, e a polícia da cidade entrou na briga.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: briga -> puff + som de baque
+- Efeito + som nas palavras-chave: briga -> puff + som de baque; encena: empurra (push) @3 -> acao + som de efeito; encena: chega (point) @13 -> acao + som de efeito; encena: golpe (punch) @15 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
