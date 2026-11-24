@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 21 - A Invasão da Ilha Vazia
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 13 frases, 47 acoes catalogadas, 47 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 13 frases, 49 acoes catalogadas, 49 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.5s - 13 palavras - plano two
@@ -43,6 +43,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | bombardearam (17.7s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | PLACA | BOMBARDEIO | OK |
 
 ## Cena b4 - 20.4s a 24.7s - 14 palavras - plano orbit
 > "No meio do nevoeiro, os soldados desceram em silêncio, prontos para um combate duro."
@@ -101,6 +102,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 7 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
 | 8 | - | INTERACAO | empurrar | OK |
 | 9 | - | ATUACAO | conversar | OK |
+| 10 | - | PLACA | MINA | OK |
 
 ## Cena b10 - 51.5s a 53.7s - 9 palavras - plano prop
 > "No fim, só acharam na ilha alguns cachorros abandonados."
@@ -113,7 +115,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | PLACA | SÓ CACHORROS | OK |
 
-## Cena b11 - 55.2s a 58.9s - 12 palavras - plano two
+## Cena b11 - 55.2s a 58.9s - 12 palavras - plano group
 > "Uma das maiores invasões do Pacífico Norte tomou uma ilha completamente vazia."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

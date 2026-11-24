@@ -17,7 +17,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: - | mapa: TOLEDO
+- Texto na tela: MAPA ERRADO | mapa: TOLEDO
 - Funcao na historia: desenvolvimento
 
 ## Cena b2  (~5.5 s)
@@ -80,7 +80,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: fortuna -> stars + som de sino; encena: paga (reach) @10 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: COBRE E FERRO
 - Funcao na historia: VIRADA
 
 ## Cena b9  (~3.8 s)

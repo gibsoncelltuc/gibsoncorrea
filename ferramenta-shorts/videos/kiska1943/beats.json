@@ -139,11 +139,17 @@
   },
   {
    "say": "Antes do desembarque, bombardearam Kiska durante semanas.",
-   "shot": "prop",
+   "shot": "wide",
    "who": [
     "USA:2:grin"
    ],
    "props": [
+    [
+     "kit/aviao_ww2",
+     -3.0,
+     -8.0,
+     1.0
+    ],
     [
      "cannon",
      2.4,
@@ -152,18 +158,20 @@
     ]
    ],
    "fx": [
-    "burst@8",
-    "burst@24",
-    "burst@40",
-    "dust@26"
+    "burst@38",
+    "burst@60",
+    "burst@82"
    ],
    "sfx": [
-    "cannon@8",
-    "cannon@24",
-    "cannon@40"
+    "cannon@38",
+    "cannon@60",
+    "cannon@82"
    ],
    "mood": "march",
-   "set": "arctic"
+   "set": "arctic",
+   "text": "BOMBARDEIO",
+   "tat": 3,
+   "tstyle": "red"
   },
   {
    "say": "No meio do nevoeiro, os soldados desceram em silêncio, prontos para um combate duro.",
@@ -261,14 +269,31 @@
   },
   {
    "say": "Mais de vinte soldados morreram nesses tiros, e um navio americano ainda bateu numa mina.",
-   "shot": "two",
+   "shot": "wide",
    "set": "arctic",
    "hora": "noite",
-   "acao": "conversar",
    "who": [
     "USA:0:sad",
     "CAN:0:sad"
-   ]
+   ],
+   "props": [
+    [
+     "kit/navio_encouracado",
+     -1.5,
+     -7.0,
+     1.0
+    ]
+   ],
+   "fx": [
+    "burst@126"
+   ],
+   "sfx": [
+    "cannon@126"
+   ],
+   "text": "MINA",
+   "tat": 14,
+   "tstyle": "red",
+   "animais": false
   },
   {
    "say": "No fim, só acharam na ilha alguns cachorros abandonados.",
@@ -309,10 +334,11 @@
   },
   {
    "say": "Uma das maiores invasões do Pacífico Norte tomou uma ilha completamente vazia.",
-   "shot": "two",
+   "shot": "group",
    "who": [
     "OFF:0:pained",
-    "USA:0:surprised"
+    "USA:0:surprised",
+    "CAN:0:shock"
    ],
    "text": "OPERAÇÃO ILHA VAZIA",
    "tat": 11,

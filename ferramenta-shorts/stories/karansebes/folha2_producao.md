@@ -47,7 +47,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa
 - Personagens principais (2): HUS (variante 0, expressao laugh, segura mug); HUS (variante 1, expressao grin, segura bottle) | multidao: 6 de AUT/HUS
-- Animacao: comemorar | interacao: brindar
+- Animacao: beber | interacao: brindar
 - Objetos/modelos: barrel, tools/lantern
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): festa
 - RISCOS: nenhum
@@ -57,7 +57,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (3): AUT (variante 0, expressao stern); HUS (variante 0, expressao laugh); AUT (variante 1, expressao shock) | multidao: 6 de AUT/HUS
-- Animacao: conversar | interacao: entregar | o ultimo personagem ENTRA andando
+- Animacao: discutir | interacao: discutir | o ultimo personagem ENTRA andando
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): hussardos, infantaria, tiro
 - RISCOS: nenhum
@@ -141,7 +141,7 @@ crate | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote
 
 ## Video inteiro
 - Objeto heroi: kit/barrel_r | grandes momentos: b0, b6, b7 | planos abertos: 4 | mistura: close 11% | medio 65% | aberto 21% | detalhe 3%
-- Interacoes: b3 aproxima-se, b4 brindar, b5 entregar, b8 susto, b9 avanca e o outro recua, b10 pular
+- Interacoes: b3 aproxima-se, b4 brindar, b5 discutir, b8 susto, b9 avanca e o outro recua, b10 pular
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

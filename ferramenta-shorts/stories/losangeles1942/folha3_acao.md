@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 20 - A Batalha de Los Angeles
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 46 acoes catalogadas, 46 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 47 acoes catalogadas, 47 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.9s - 14 palavras - plano two
@@ -32,6 +32,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 3 | - | INTERACAO | cochichar | OK |
 | 4 | - | ATUACAO | conversar | OK |
+| 5 | - | PLACA | SUBMARINO JAPONÊS | OK |
 
 ## Cena b3 - 17.8s a 23.2s - 16 palavras - plano low
 > "Na madrugada, as sirenes tocaram, as luzes da cidade se apagaram, e holofotes varreram o céu."

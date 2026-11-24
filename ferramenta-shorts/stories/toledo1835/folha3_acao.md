@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 03 - A Guerra de Toledo
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 44 acoes catalogadas, 44 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 46 acoes catalogadas, 46 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.7s - 13 palavras - plano two
@@ -21,6 +21,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | MAPA | TOLEDO | OK |
+| 2 | - | PLACA | MAPA ERRADO | OK |
 
 ## Cena b2 - 10.8s a 14.7s - 16 palavras - plano close
 > "O governador de Michigan tinha só vinte e três anos, e mandou a milícia ocupar Toledo."
@@ -96,6 +97,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | fortuna (47.1s) | ACAO: paga | estende a mao com moedas + brilho | OK |
 | 3 | - | INTERACAO | cochichar | OK |
 | 4 | - | ATUACAO | reagir | OK |
+| 5 | - | PLACA | COBRE E FERRO | OK |
 
 ## Cena b9 - 48.4s a 51.6s - 11 palavras - plano close
 > "No fim das contas, Michigan perdeu a guerra, e ficou rico."
