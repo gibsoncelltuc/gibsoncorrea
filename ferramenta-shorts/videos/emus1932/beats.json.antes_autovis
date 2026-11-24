@@ -32,6 +32,15 @@
    "pants": "#3a3a4a",
    "boots": "#2a2218",
    "hat": "bowler"
+  },
+  "SOL": {
+   "jacket": "#8a7a4a",
+   "pants": "#6e6038",
+   "boots": "#2a2218",
+   "hat": "slouch",
+   "cap": "#8a7a50",
+   "belt": "#4a3a24",
+   "rifle": false
   }
  },
  "cinf": 4.5,
@@ -94,17 +103,35 @@
   },
   {
    "say": "O major Meredith levou duas metralhadoras e dez mil balas.",
-   "shot": "group",
+   "shot": "two",
    "who": [
-    "AUS:0:stern",
-    "AUS:1:grin"
+    "SOL:0:stern",
+    "SOL:1:grin"
    ],
    "props": [
     [
-     "war/sandbags",
-     0.6,
+     "mgun",
+     -0.9,
      1.0,
-     2.4,
+     1.4,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "mgun",
+     0.9,
+     1.0,
+     1.4,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "crate",
+     0.0,
+     0.4,
+     1.2,
      {
       "fixo": true
      }
@@ -112,174 +139,128 @@
    ],
    "text": "10.000 BALAS",
    "tat": 6,
-   "crowd": {
-    "n": 8,
-    "outfit": "AUS",
-    "march": true
-   },
-   "emus": {
-    "n": 4,
-    "mode": "stand",
-    "x": 4.5,
-    "z": 0.5,
-    "cols": 2
-   },
-   "quadro": {
-    "local": "fazenda aberta",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e sandbags juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "war/sandbags",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "batalha": false,
    "tiros": false,
    "detalhe": false,
-   "cx": 0,
-   "cz": -3,
-   "d0": 9,
-   "d1": 8,
    "fachada": false,
-   "quadro_manual": true,
-   "h": 1.8,
-   "_auto_vis": 2
+   "_auto_vis": 3
   },
   {
    "say": "Acontece que os emus se dividiram em grupos pequenos e rápidos, e as balas acertavam só poeira.",
    "shot": "wide",
    "who": [
-    "AUS:0:stern"
+    "SOL:0:stern"
    ],
    "emus": {
-    "n": 14,
-    "mode": "scatter",
+    "n": 10,
+    "mode": "run",
     "x": 4.5,
-    "z": 1.5,
-    "cols": 4
+    "z": -2.0,
+    "dir": -1
    },
    "batalha": false,
    "caminhoes": 2,
-   "crowd": {
-    "n": 14,
-    "outfits": [
-     "AUS"
-    ],
-    "march": false
-   },
    "props": [],
    "detalhe": false,
    "_auto_vis": 3,
-   "d0": 12.0,
-   "d1": 11.0,
    "fachada": false,
    "fx": [
-    "burst@40",
-    "burst@75"
+    "dust@20",
+    "dust@40",
+    "dust@60",
+    "puff@30"
    ],
    "sfx": [
+    "thump@20",
     "thump@40",
-    "thump@75"
-   ]
+    "thump@60"
+   ],
+   "tiros": false
   },
   {
    "say": "Numa tentativa, uma metralhadora foi instalada num caminhão, mas ele sacudia tanto que ninguém atirava.",
    "shot": "wide",
    "who": [
-    "AUS:2:grin"
+    "SOL:0:grin"
    ],
    "props": [
     [
      "vehicles/truck",
      0.0,
-     -8.0,
-     1.52,
+     -2.5,
+     1.0,
      {
-      "bob": 0.06,
-      "ry": 1.5708,
+      "fixo": true
+     }
+    ],
+    [
+     "mgun",
+     0.0,
+     -2.0,
+     1.2,
+     {
       "fixo": true
      }
     ]
    ],
-   "emus": {
-    "n": 6,
-    "mode": "run",
-    "x": 0,
-    "z": 1.5,
-    "dir": -1
-   },
    "shot_lock": true,
    "move": 0,
    "riscos_ok": true,
    "fachada": false,
-   "crowd": {
-    "n": 0
-   },
    "detalhe": false,
-   "quadro": {
-    "local": "fazenda aberta",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o truck (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "vehicles/truck",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0
+   "d0": 12,
+   "d1": 11,
+   "quadro_manual": true,
+   "cx": 0,
+   "cz": -2.0,
+   "h": 2.5,
+   "batalha": false,
+   "tiros": false
   },
   {
-   "say": "Depois de seis dias, milhares de balas gastas e poucos emus abatidos.",
+   "say": "Depois de seis dias, milhares de cartuchos gastos e poucos emus abatidos.",
    "shot": "two",
    "who": [
-    "AUS:0:pained",
-    "AUS:1:pained"
+    "SOL:0:pained",
+    "SOL:1:pained"
    ],
    "text": "6 DIAS",
    "tat": 0,
-   "emus": {
-    "n": 6,
-    "mode": "stand",
-    "x": 5.0,
-    "z": 0.5,
-    "cols": 3
-   },
    "set": "loc_campo",
    "fachada": false
   },
   {
    "say": "O major comparou os pássaros a tanques, a imprensa riu, e o governo retirou as tropas.",
-   "shot": "track",
+   "shot": "two",
    "who": [
-    "AUS:0:pained",
-    "PRESS:0:grin:paper",
-    "PRESS:1:smile"
+    "SOL:0:smug",
+    "PRESS:0:grin"
    ],
    "text": "HA HA HA",
    "tat": 8,
    "tstyle": "gold",
-   "crowd": {
-    "n": 12,
-    "outfit": "AUS",
-    "march": false
-   },
    "riscos_ok": true,
-   "fachada": false
+   "fachada": false,
+   "props": [
+    [
+     "vehicles/tank",
+     3.0,
+     -6.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "batalha": false,
+   "tiros": false
   },
   {
    "say": "O exército voltou, e o major disse ter abatido novecentos e oitenta e seis, número muito contestado.",
-   "shot": "wide",
+   "shot": "two",
    "who": [
-    "AUS:0:stern"
+    "AUS:0:stern",
+    "AUS:1:grin"
    ],
    "emus": {
     "n": 12,
@@ -293,18 +274,14 @@
    "tstyle": "red",
    "batalha": false,
    "crowd": {
-    "n": 14,
-    "outfits": [
-     "AUS"
-    ],
-    "march": false
+    "n": 0
    },
    "set": "loc_deserto",
    "props": [],
    "detalhe": false,
    "_auto_vis": 3,
-   "d0": 12.0,
-   "d1": 11.0,
+   "d0": 15,
+   "d1": 13,
    "fachada": false,
    "fx": [
     "burst@40",
@@ -313,7 +290,13 @@
    "sfx": [
     "thump@40",
     "thump@75"
-   ]
+   ],
+   "shot_lock": true,
+   "quadro_manual": true,
+   "cx": 3.0,
+   "cz": 0.8,
+   "h": 2.4,
+   "tiros": false
   },
   {
    "say": "No fim, o governo preferiu recompensas, e em seis meses pagou por mais de cinquenta mil emus. Exército zero, emus um.",

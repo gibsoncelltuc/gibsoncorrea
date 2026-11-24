@@ -37,3 +37,6 @@
 
 ## 24/11 17:34 autocorrecao de visibilidade
 - b8: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+
+## 24/11 19:20 autocorrecao de visibilidade
+- b5: objeto citado "mgun" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (0.0, -1.0)
