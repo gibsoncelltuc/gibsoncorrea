@@ -23,12 +23,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Dezesseis candidatos disputavam um prêmio raro: um emprego de verdade ...
-- Cenario: interior loja | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (2): TRU (variante 0, expressao grin); CND (variante 0, expressao nervous)
-- Animacao: conversar | interacao: aproxima-se
-- Objetos/modelos: -
+- Cenario: loc_cidade | luz: day | clima: limpo
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): TRU (variante 0, expressao grin); CND (variante 0, expressao nervous) | multidao: 16 de POV
+- Animacao: conversar
+- Objetos/modelos: kit/marco_trumptower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): donald, emprego, premio
 - RISCOS: nenhum
 
@@ -127,15 +127,15 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/marco_trumptower | b0, b1, b6, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_trumptower | b0, b1, b2, b6, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/stall | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tv | b6, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/tv | grandes momentos: b6, b8 | planos abertos: 3 | mistura: close 26% | medio 61% | aberto 11% | detalhe 2%
-- Interacoes: b0 susto, b2 aproxima-se, b3 entregar, b4 discutir, b7 abracar, b9 vai ate o outro
+- Objeto heroi: kit/tv | grandes momentos: b6, b8 | planos abertos: 4 | mistura: close 26% | medio 53% | aberto 19% | detalhe 2%
+- Interacoes: b0 susto, b3 entregar, b4 discutir, b7 abracar, b9 vai ate o outro
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

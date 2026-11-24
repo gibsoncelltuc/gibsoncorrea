@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 13 - Você Está Demitido
 
-Gerado em 24/11 10:09 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 10:12 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -8,7 +8,7 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 ---|---|---|---|---|---|---|---|---
 b0 | simples | loc_cidade | two | TRU, CND | - | marco_trumptower | - | Duas palavras transformaram um empresário de Nova York numa estrela mu
 b1 | transicao | loc_cidade | reveal | POV, POV | 6 | marco_trumptower | - | Em janeiro de dois mil e quatro, estreou nos Estados Unidos o programa
-b2 | simples | interior loja | two | TRU, CND | - | - | - | Dezesseis candidatos disputavam um prêmio raro: um emprego de verdade 
+b2 | simples | loc_cidade | crowd | TRU, CND | 16 | marco_trumptower | - | Dezesseis candidatos disputavam um prêmio raro: um emprego de verdade 
 b3 | simples | loc_cidade | two | CND, POV | - | stall | - | Toda semana, as equipes faziam uma tarefa de negócios, como vender lim
 b4 | simples | interior madeira | two | TRU, CND | - | - | - | No fim, a equipe perdedora ia para a sala de reunião, e alguém tinha q
 b5 | simples | interior madeira | close | TRU | - | - | - | O jeito de eliminar virou a marca do programa: ele apontava o dedo e d

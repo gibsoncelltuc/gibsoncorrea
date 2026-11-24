@@ -73,13 +73,23 @@
    "say": "Em janeiro de dois mil e quatro, estreou nos Estados Unidos o programa O Aprendiz."
   },
   {
-   "shot": "two",
+   "shot": "crowd",
    "who": [
     "TRU:0:grin",
     "CND:0:nervous"
    ],
    "acao": "conversar",
-   "say": "Dezesseis candidatos disputavam um prêmio raro: um emprego de verdade numa empresa de Donald Trump."
+   "say": "Dezesseis candidatos disputavam um prêmio raro: um emprego de verdade numa empresa de Donald Trump.",
+   "set": "loc_cidade",
+   "interior": false,
+   "crowd": {
+    "n": 16,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "smile"
+   }
   },
   {
    "shot": "two",

@@ -6,7 +6,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | loc_cidade | two | 2 | conversar, INTERAGEM: susto | kit/marco_trumptower | - | -
 b1 | loc_cidade | reveal | 8 | parados (so fala e pisca) | kit/marco_trumptower | - | -
-b2 | interior loja | two | 2 | conversar, INTERAGEM: aproxima-se | - | - | -
+b2 | loc_cidade | crowd | 18 | conversar | kit/marco_trumptower | - | -
 b3 | loc_cidade | two | 2 | conversar, INTERAGEM: entregar | kit/stall | - | -
 b4 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | - | - | -
 b5 | interior madeira | close | 1 | conversar | - | - | -
@@ -19,7 +19,7 @@ b11 | loc_cidade | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/tv
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b6, b8
-Interacoes entre personagens: b0 susto, b2 aproxima-se, b3 entregar, b4 discutir, b7 abracar, b9 vai ate o outro
+Interacoes entre personagens: b0 susto, b3 entregar, b4 discutir, b7 abracar, b9 vai ate o outro
 
 Cenas com personagens parados: 1 de 12
 FALTA MODELAR: nada

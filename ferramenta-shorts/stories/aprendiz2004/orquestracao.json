@@ -64,13 +64,15 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "two",
+   "camera": "crowd",
    "personagens": [
     "TRU",
     "CND"
    ],
-   "multidao": 0,
-   "objetos": [],
+   "multidao": 16,
+   "objetos": [
+    "kit/marco_trumptower"
+   ],
    "palavras": 15,
    "cena": "b2",
    "frase": "Dezesseis candidatos disputavam um prêmio raro: um emprego de verdade numa empresa de Donald Trump.",
@@ -78,7 +80,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior loja"
+   "cenario": "loc_cidade"
   },
   {
    "camera": "two",
