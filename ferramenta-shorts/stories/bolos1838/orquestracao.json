@@ -59,8 +59,9 @@
    ],
    "multidao": 0,
    "objetos": [
+    "kit/barrel_r",
     "kit/cake_table",
-    "mk/Table_Large"
+    "kit/chest"
    ],
    "palavras": 16,
    "cena": "b2",
@@ -165,10 +166,10 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "interior pedra"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "GEN",
     "FRA"
@@ -185,13 +186,15 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "close",
+   "camera": "wide",
    "personagens": [
     "CON",
     "FRA"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/marco_ulua"
+   ],
    "palavras": 16,
    "cena": "b9",
    "frase": "A conta nunca foi paga, e a França voltou em mil oitocentos e sessenta e um.",
@@ -202,7 +205,7 @@
    "cenario": "street"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "CON"
    ],

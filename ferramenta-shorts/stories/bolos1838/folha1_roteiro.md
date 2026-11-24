@@ -67,10 +67,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b7  (~5.5 s)
 - Narracao: Santa Anna foi ferido na perna por metralha, e a perna foi enterrada com honras militares.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: cannon@30
 - Efeito + som nas palavras-chave: encena: espeta (punch) @3 -> acao + som de efeito; encena: x_planta (hammer) @12 -> acao + som de efeito
-- Efeito visual marcado: -
+- Efeito visual marcado: stars@20
 - Texto na tela: PERNA ENTERRADA COM HONRAS
 - Funcao na historia: desenvolvimento
 

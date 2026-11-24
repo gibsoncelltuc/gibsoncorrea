@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 07 - A Guerra dos Bolos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 3.1s - 15 palavras - plano two
@@ -25,7 +25,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | vai ate o outro | OK |
-| 2 | - | ATUACAO | comer | OK |
+| 2 | - | ATUACAO | pega | OK |
 
 ## Cena b3 - 15.0s a 20.1s - 16 palavras - plano two
 > "O confeiteiro reclamou ao rei e pediu sessenta mil pesos. A loja valia menos de mil."
@@ -75,7 +75,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | enterrada (42.0s) | ACAO: x_planta | cava/planta + terra | OK |
 | 3 | - | PLACA | PERNA ENTERRADA COM HONRAS | OK |
 
-## Cena b8 - 44.5s a 49.0s - 18 palavras - plano two
+## Cena b8 - 44.5s a 49.0s - 18 palavras - plano group
 > "Em março de mil oitocentos e trinta e nove, o México prometeu pagar, e a França foi embora."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -87,16 +87,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | - | INTERACAO | cochichar | OK |
 | 6 | - | PLACA | 600.000 | OK |
 
-## Cena b9 - 50.2s a 54.0s - 16 palavras - plano close
+## Cena b9 - 50.2s a 54.0s - 16 palavras - plano wide
 > "A conta nunca foi paga, e a França voltou em mil oitocentos e sessenta e um."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | voltou (52.3s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | - | INTERACAO | susto | OK |
-| 3 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 55.0s a 58.3s - 13 palavras - plano two
+## Cena b10 - 55.0s a 58.3s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

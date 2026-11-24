@@ -18,14 +18,15 @@
    "build": "stout"
   },
   "OFI": {
-   "jacket": "#1f3a6e",
+   "jacket": "#2f6a3a",
    "pants": "#f1efe6",
    "boots": "#2a2218",
-   "hat": "bicorne",
-   "belt": "#f1efe6",
+   "hat": "shako",
+   "belt": "#c0262d",
    "buttons": "#e8c45a",
    "rifle": true,
-   "uniforme_fixo": true
+   "uniforme_fixo": true,
+   "sash": "#c0262d"
   },
   "FRA": {
    "jacket": "#27408b",
@@ -44,7 +45,7 @@
    "build": "stout"
   },
   "GEN": {
-   "jacket": "#1f3a6e",
+   "jacket": "#2f6a3a",
    "pants": "#f1efe6",
    "boots": "#2a2218",
    "hat": "bicorne",
@@ -106,18 +107,23 @@
     [
      "kit/cake_table",
      0.0,
-     1.2,
-     1.6
+     1.0,
+     1.7
     ],
     [
-     "mk/Table_Large",
-     0,
-     2.6,
-     1.8
+     "kit/chest",
+     -1.2,
+     1.4,
+     1.1
+    ],
+    [
+     "kit/barrel_r",
+     1.4,
+     1.6,
+     1.0
     ]
    ],
-   "acao": "comer",
-   "humanos_comem": true,
+   "acao": "pega",
    "shot_lock": true
   },
   {
@@ -191,15 +197,18 @@
     "cannon@30"
    ],
    "say": "Santa Anna foi ferido na perna por metralha, e a perna foi enterrada com honras militares.",
-   "set": "harbor",
-   "interior": false,
+   "interior": "pedra",
    "impact": false,
    "acao": "nenhuma",
    "verbos_ok": [
     "enterr"
    ],
    "text": "PERNA ENTERRADA COM HONRAS",
-   "objetos": false
+   "objetos": false,
+   "fx": [
+    "stars@20"
+   ],
+   "shot_lock": true
   },
   {
    "shot": "two",
@@ -212,12 +221,13 @@
    "interior": "pedra"
   },
   {
-   "shot": "close",
+   "shot": "wide",
    "who": [
     "CON:0:stern",
     "FRA:0:grin"
    ],
-   "say": "A conta nunca foi paga, e a França voltou em mil oitocentos e sessenta e um."
+   "say": "A conta nunca foi paga, e a França voltou em mil oitocentos e sessenta e um.",
+   "shot_lock": true
   }
  ],
  "marco": "kit/marco_ulua",
@@ -234,10 +244,10 @@
   ],
   "roupas": {
    "CON": "avental e gorro brancos de confeiteiro",
-   "OFI": "oficial mexicano de casaca azul-escura com frisos vermelhos e bicorne dourado (retratos de Santa Anna e oficiais, 1830)",
+   "OFI": "oficial mexicano: casaca verde (cor da bandeira) com faixa vermelha e shako, diferente do frances azul com calca vermelha",
    "FRA": "soldado/marinheiro francês de casaca azul e calça vermelha",
    "REI": "rei de coroa e manto roxo",
-   "GEN": "general Santa Anna: casaca azul com golas vermelhas, dragonas douradas e bicorne"
+   "GEN": "Santa Anna: casaca verde com faixa vermelha, dragonas douradas e bicorne"
   },
   "cenario": "loja de doces em Tacubaya, sala de palácio de pedra, porto de Veracruz com fortaleza",
   "objetos": [
