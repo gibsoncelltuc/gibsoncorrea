@@ -1,0 +1,144 @@
+{
+ "duration": 35.616,
+ "frames30": 1068,
+ "source": "silence-align (cost 0.35)",
+ "segments": [
+  [
+   0.148625,
+   2.89246
+  ],
+  [
+   3.77042,
+   4.94946
+  ],
+  [
+   5.17454,
+   6.79263
+  ],
+  [
+   7.65867,
+   10.4875
+  ],
+  [
+   10.7374,
+   12.2051
+  ],
+  [
+   13.0643,
+   13.4745
+  ],
+  [
+   13.712,
+   15.199
+  ],
+  [
+   15.4681,
+   16.7114
+  ],
+  [
+   17.5675,
+   18.3734
+  ],
+  [
+   19.2428,
+   21.1541
+  ],
+  [
+   21.3923,
+   24.1032
+  ],
+  [
+   24.9614,
+   27.8768
+  ],
+  [
+   28.706,
+   30.4768
+  ],
+  [
+   31.3038,
+   32.7461
+  ],
+  [
+   33.0409,
+   34.8025
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Dois pa\u00edses quase entraram em guerra por causa de um porco.",
+   "s": 0.149,
+   "e": 2.892
+  },
+  {
+   "text": "Foi na ilha de San Juan,",
+   "s": 3.77,
+   "e": 4.949
+  },
+  {
+   "text": "entre os Estados Unidos e o Canad\u00e1.",
+   "s": 5.175,
+   "e": 6.793
+  },
+  {
+   "text": "Um fazendeiro americano achou o porco comendo suas batatas,",
+   "s": 7.659,
+   "e": 10.488
+  },
+  {
+   "text": "pegou a espingarda e atirou.",
+   "s": 10.737,
+   "e": 12.205
+  },
+  {
+   "text": "O dono,",
+   "s": 13.064,
+   "e": 13.475
+  },
+  {
+   "text": "um irland\u00eas da companhia inglesa,",
+   "s": 13.712,
+   "e": 15.199
+  },
+  {
+   "text": "exigiu cem d\u00f3lares.",
+   "s": 15.468,
+   "e": 16.711
+  },
+  {
+   "text": "Ningu\u00e9m cedeu.",
+   "s": 17.567,
+   "e": 18.373
+  },
+  {
+   "text": "Os Estados Unidos mandaram soldados,",
+   "s": 19.243,
+   "e": 21.154
+  },
+  {
+   "text": "e a Inglaterra respondeu com navios de guerra e canh\u00f5es.",
+   "s": 21.392,
+   "e": 24.103
+  },
+  {
+   "text": "O almirante ingl\u00eas se recusou a atacar por causa de um porco.",
+   "s": 24.961,
+   "e": 27.877
+  },
+  {
+   "text": "A \u00fanica baixa da guerra foi o porco.",
+   "s": 28.706,
+   "e": 30.477
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 31.304,
+   "e": 32.746
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 33.041,
+   "e": 34.803
+  }
+ ]
+}
