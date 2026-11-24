@@ -13,12 +13,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b1 - Em dois mil e quatro, estreou nos Estados Unidos o programa O Aprendiz...
-- Cenario: loc_cidade | luz: day | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
-- Animacao: -
-- Objetos/modelos: kit/marco_trumptower
+- Cenario: loc_pista | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin)
+- Animacao: conversar | interacao: vai ate o outro
+- Objetos/modelos: kit/tv, kit/marco_trumptower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aprendiz, estados, programa
 - RISCOS: nenhum
 
@@ -44,22 +44,22 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - A equipe perdedora ia para a sala de reunião, e alguém era eliminado.
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): TRU (variante 0, expressao stern); CND (variante 0, expressao nervous)
+- Personagens principais (4): TRU (variante 0, expressao stern); CND (variante 0, expressao nervous); POV (variante 0, expressao worried); POV (variante 1, expressao nervous)
 - Animacao: discutir | interacao: discutir
-- Objetos/modelos: -
+- Objetos/modelos: mk/Table_Large, mk/Chair_1
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): equipe, reuniao, sala
 - RISCOS: nenhum
 
-## Cena b5 - Acontece que o jeito de eliminar virou marca: ele apontava e dizia, vo...
+## Cena b5 - Acontece que o jeito de eliminar virou marca: apontando o dedo, ele di...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (1): TRU (variante 0, expressao smug)
 - Animacao: conversar
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): eliminar, jeito
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dedo, eliminar, jeito
 - RISCOS: nenhum
 
 ## Cena b6 - A final da primeira temporada teve cerca de vinte e oito milhões de es...
@@ -83,7 +83,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus.
-- Cenario: loc_cidade | luz: day | clima: limpo
+- Cenario: loc_estudio | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): JUS (variante 0, expressao smug); POV (variante 0, expressao surprised) | multidao: 12 de POV
@@ -93,17 +93,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - Trump apresentou por mais de dez anos, até dois mil e quinze.
-- Cenario: loc_pista | luz: day | clima: limpo
+- Cenario: loc_estudio | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): TRU (variante 0, expressao smug); POV (variante 0, expressao surprised)
-- Animacao: conversar | interacao: vai ate o outro
+- Personagens principais (1): TRU (variante 0, expressao smug)
+- Animacao: conversar
 - Objetos/modelos: kit/tv
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
 ## Cena b10 - Um programa de emprego que acabou ficando famoso justamente por demiti...
-- Cenario: loc_patio | luz: day | clima: limpo
+- Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): TRU (variante 0, expressao smile)
@@ -114,7 +114,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: loc_cidade | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): TRU (variante 0, expressao grin)
 - Animacao: conversar
@@ -128,14 +128,16 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/marco_trumptower | b0, b1, b2, b6, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/tv | b1, b6, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/stall | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/tv | b6, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+mk/Table_Large | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+mk/Chair_1 | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/tv | grandes momentos: b6, b8 | planos abertos: 4 | mistura: close 36% | medio 44% | aberto 18% | detalhe 2%
-- Interacoes: b3 entregar, b4 discutir, b7 abracar, b9 vai ate o outro
+- Objeto heroi: kit/tv | grandes momentos: b6, b8 | planos abertos: 3 | mistura: close 28% | medio 55% | aberto 12% | detalhe 4%
+- Interacoes: b1 vai ate o outro, b3 entregar, b4 discutir, b7 abracar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 13 - Você Está Demitido
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 12 cenas, 150 palavras (~52 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 12 cenas, 151 palavras (~52 s)
 
 ## Cena b0  (~4.8 s)
 - Narracao: Duas palavras transformaram um empresário de Nova York numa estrela mundial: você está demitido.
@@ -17,7 +17,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: - | mapa: ESTADOS UNIDOS
+- Texto na tela: O APRENDIZ
 - Funcao na historia: desenvolvimento
 
 ## Cena b2  (~3.4 s)
@@ -47,11 +47,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~5.2 s)
-- Narracao: Acontece que o jeito de eliminar virou marca: ele apontava e dizia, você está demitido.
+## Cena b5  (~5.5 s)
+- Narracao: Acontece que o jeito de eliminar virou marca: apontando o dedo, ele dizia, você está demitido.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@20, ding@50
-- Efeito + som nas palavras-chave: encena: fala (point) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: olha (point) @8 -> acao + som de efeito
 - Efeito visual marcado: ring@20, stars@50
 - Texto na tela: VOCÊ ESTÁ DEMITIDO!
 - Funcao na historia: VIRADA
@@ -71,7 +71,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; venceu -> stars + som de sino; ganhou -> stars + som de sino; encena: vence (up) @2 -> acao + som de efeito
 - Efeito visual marcado: stars@30
-- Texto na tela: -
+- Texto na tela: $250.000
 - Funcao na historia: desenvolvimento
 
 ## Cena b8  (~3.8 s)
@@ -80,7 +80,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@30
-- Texto na tela: - | mapa: BRASIL
+- Texto na tela: ROBERTO JUSTUS | mapa: BRASIL
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b9  (~4.1 s)
@@ -89,7 +89,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: fala (point) @1 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: 2004-2015
 - Funcao na historia: desenvolvimento
 
 ## Cena b10  (~3.8 s)
