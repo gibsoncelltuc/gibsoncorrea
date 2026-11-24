@@ -109,6 +109,7 @@ for k, b in enumerate(BT):
     if not manual and principal is not None:
         for kk in ('cx', 'cz', 'h', 'd0', 'd1', '_auto_vis', '_who_lado'): b.pop(kk, None)
         b.update(cena)
+        if b.get('shot') == 'close': b['shot'] = 'two'   # close + objeto ao lado cortava o personagem (gate do Post-it): plano medio cabe os dois
         if cena.get('shot') == 'wide': b['detalhe'] = False
         if n_p > 1 and cena.get('shot') == 'wide': b['who'] = b['who'][:1]; who = who[:1]; n_p = 1   # cena do objeto grande: 1 personagem no centro olhando (os angulos variados da camera cortavam o 2o na borda)
         mud += 1

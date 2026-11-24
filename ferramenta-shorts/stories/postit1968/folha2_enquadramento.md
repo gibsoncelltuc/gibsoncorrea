@@ -28,7 +28,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b3: "Acontece que saiu o contrário: uma cola que grudava, mas soltava fácil, sem deixar marca."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: close (rosto e ombros)
+- CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: SIL (cientista) no centro, expressao shock, segura paper; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
@@ -56,7 +56,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b7: "Aí veio a ideia: marcadores com a cola fraca. Grudam, não caem, e saem sem rasgar."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: close (rosto e ombros); plano medio enquadrando personagens e postit juntos (camera a 8.0 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e postit juntos (camera a 8.0 m)
 - PERSONAGENS: FRY no centro, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETO kit/postit: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.7 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
@@ -83,7 +83,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b10: "Em mil novecentos e oitenta, o post-it chegou às lojas. Graças a uma cola que falhou."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: close (rosto e ombros); plano medio enquadrando personagens e postit juntos (camera a 8.0 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e postit juntos (camera a 8.0 m)
 - PERSONAGENS: SIL (cientista) no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/postit: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "1980" numa placa atras dos personagens, na palavra 1 da frase

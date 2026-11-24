@@ -14,7 +14,7 @@ b6 | interior pedra | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/
 b7 | countryside | orbit | 7 | encena | kit/postit | - | -
 b8 | interior madeira | two | 2 | conversar, INTERAGEM: abracar | kit/postit | - | -
 b9 | street | crowd | 21 | comemorar, batalha | kit/postit | - | -
-b10 | countryside | close | 1 | conversar | kit/postit | - | -
+b10 | countryside | two | 1 | conversar | kit/postit | - | -
 b11 | street | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/postit
