@@ -1,0 +1,324 @@
+{
+ "duration": 69.312,
+ "frames30": 2079,
+ "source": "silence-align (cost 1.36)",
+ "segments": [
+  [
+   0.172708,
+   2.03946
+  ],
+  [
+   2.84796,
+   4.42971
+  ],
+  [
+   5.29058,
+   6.5705
+  ],
+  [
+   6.78617,
+   7.62521
+  ],
+  [
+   7.80092,
+   8.62329
+  ],
+  [
+   8.85279,
+   9.69917
+  ],
+  [
+   10.5622,
+   10.9603
+  ],
+  [
+   11.2032,
+   13.0528
+  ],
+  [
+   13.9075,
+   14.4184
+  ],
+  [
+   14.7402,
+   16.0291
+  ],
+  [
+   16.8867,
+   17.4196
+  ],
+  [
+   17.7075,
+   18.418
+  ],
+  [
+   18.6442,
+   19.9312
+  ],
+  [
+   20.8027,
+   21.6535
+  ],
+  [
+   21.8827,
+   23.5717
+  ],
+  [
+   24.4288,
+   26.2714
+  ],
+  [
+   26.4915,
+   27.49
+  ],
+  [
+   27.739,
+   29.2381
+  ],
+  [
+   30.0893,
+   30.6246
+  ],
+  [
+   30.8668,
+   34.178
+  ],
+  [
+   35.0116,
+   35.555
+  ],
+  [
+   35.8699,
+   38.3762
+  ],
+  [
+   38.6216,
+   40.54
+  ],
+  [
+   41.407,
+   43.7201
+  ],
+  [
+   44.5737,
+   45.592
+  ],
+  [
+   45.7838,
+   48.1287
+  ],
+  [
+   48.9729,
+   51.2624
+  ],
+  [
+   51.6095,
+   53.1056
+  ],
+  [
+   53.9586,
+   55.8467
+  ],
+  [
+   56.0732,
+   58.1563
+  ],
+  [
+   58.9791,
+   61.6968
+  ],
+  [
+   62.0659,
+   62.9973
+  ],
+  [
+   63.228,
+   64.1806
+  ],
+  [
+   65.0039,
+   66.4486
+  ],
+  [
+   66.7411,
+   68.5028
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Paris j\u00e1 serviu elefante no jantar.",
+   "s": 0.173,
+   "e": 2.039
+  },
+  {
+   "text": "Era mil oitocentos e setenta.",
+   "s": 2.848,
+   "e": 4.43
+  },
+  {
+   "text": "A Pr\u00fassia cercou a cidade,",
+   "s": 5.291,
+   "e": 6.571
+  },
+  {
+   "text": "ningu\u00e9m entrava,",
+   "s": 6.786,
+   "e": 7.625
+  },
+  {
+   "text": "ningu\u00e9m sa\u00eda,",
+   "s": 7.801,
+   "e": 8.623
+  },
+  {
+   "text": "e a comida acabou.",
+   "s": 8.853,
+   "e": 9.699
+  },
+  {
+   "text": "Primeiro,",
+   "s": 10.562,
+   "e": 10.96
+  },
+  {
+   "text": "os parisienses comeram os cavalos.",
+   "s": 11.203,
+   "e": 13.053
+  },
+  {
+   "text": "Depois,",
+   "s": 13.908,
+   "e": 14.418
+  },
+  {
+   "text": "os cachorros e os gatos.",
+   "s": 14.74,
+   "e": 16.029
+  },
+  {
+   "text": "Depois,",
+   "s": 16.887,
+   "e": 17.42
+  },
+  {
+   "text": "os roedores,",
+   "s": 17.707,
+   "e": 18.418
+  },
+  {
+   "text": "que viraram um prato chique.",
+   "s": 18.644,
+   "e": 19.931
+  },
+  {
+   "text": "Quando acabou tudo,",
+   "s": 20.803,
+   "e": 21.654
+  },
+  {
+   "text": "olharam para o zool\u00f3gico da cidade.",
+   "s": 21.883,
+   "e": 23.572
+  },
+  {
+   "text": "O a\u00e7ougueiro comprou dois elefantes,",
+   "s": 24.429,
+   "e": 26.271
+  },
+  {
+   "text": "Castor e P\u00f3lux,",
+   "s": 26.491,
+   "e": 27.49
+  },
+  {
+   "text": "e vendeu a carne em peda\u00e7os.",
+   "s": 27.739,
+   "e": 29.238
+  },
+  {
+   "text": "Depois,",
+   "s": 30.089,
+   "e": 30.625
+  },
+  {
+   "text": "os ursos e os lobos do zool\u00f3gico tamb\u00e9m foram parar na panela.",
+   "s": 30.867,
+   "e": 34.178
+  },
+  {
+   "text": "No Natal,",
+   "s": 35.012,
+   "e": 35.555
+  },
+  {
+   "text": "o restaurante Voisin serviu consom\u00ea de elefante,",
+   "s": 35.87,
+   "e": 38.376
+  },
+  {
+   "text": "ensopado de canguru e pernil de lobo.",
+   "s": 38.622,
+   "e": 40.54
+  },
+  {
+   "text": "Tinha at\u00e9 gato servido com roedores em volta.",
+   "s": 41.407,
+   "e": 43.72
+  },
+  {
+   "text": "Para mandar not\u00edcias,",
+   "s": 44.574,
+   "e": 45.592
+  },
+  {
+   "text": "os parisienses usavam bal\u00f5es e pombos-correio.",
+   "s": 45.784,
+   "e": 48.129
+  },
+  {
+   "text": "Um ministro chegou a fugir da cidade num bal\u00e3o,",
+   "s": 48.973,
+   "e": 51.262
+  },
+  {
+   "text": "por cima das tropas inimigas.",
+   "s": 51.609,
+   "e": 53.106
+  },
+  {
+   "text": "O cerco durou mais de quatro meses,",
+   "s": 53.959,
+   "e": 55.847
+  },
+  {
+   "text": "num dos invernos mais frios daquela \u00e9poca.",
+   "s": 56.073,
+   "e": 58.156
+  },
+  {
+   "text": "O cerco acabou em janeiro de mil oitocentos e setenta e um,",
+   "s": 58.979,
+   "e": 61.697
+  },
+  {
+   "text": "e Paris se rendeu,",
+   "s": 62.066,
+   "e": 62.997
+  },
+  {
+   "text": "de barriga vazia.",
+   "s": 63.228,
+   "e": 64.181
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 65.004,
+   "e": 66.449
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 66.741,
+   "e": 68.503
+  }
+ ]
+}

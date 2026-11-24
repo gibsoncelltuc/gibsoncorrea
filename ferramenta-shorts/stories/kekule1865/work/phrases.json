@@ -1,0 +1,292 @@
+{
+ "duration": 66.768,
+ "frames30": 2003,
+ "source": "silence-align (cost 1.23)",
+ "segments": [
+  [
+   0.149875,
+   3.08271
+  ],
+  [
+   3.40958,
+   4.64921
+  ],
+  [
+   5.49446,
+   7.22942
+  ],
+  [
+   7.45454,
+   8.43775
+  ],
+  [
+   8.60575,
+   9.21
+  ],
+  [
+   10.0489,
+   12.1692
+  ],
+  [
+   12.4582,
+   12.9687
+  ],
+  [
+   13.254,
+   16.3153
+  ],
+  [
+   17.1256,
+   18.0386
+  ],
+  [
+   18.2365,
+   19.5965
+  ],
+  [
+   19.8315,
+   20.3931
+  ],
+  [
+   21.2453,
+   21.7587
+  ],
+  [
+   22.0315,
+   23.8372
+  ],
+  [
+   24.6845,
+   26.727
+  ],
+  [
+   27.5888,
+   28.8804
+  ],
+  [
+   29.1915,
+   30.6238
+  ],
+  [
+   31.4822,
+   32.9781
+  ],
+  [
+   33.8492,
+   34.5497
+  ],
+  [
+   35.4263,
+   38.4348
+  ],
+  [
+   39.2927,
+   40.2463
+  ],
+  [
+   41.1086,
+   42.9335
+  ],
+  [
+   43.7645,
+   44.9917
+  ],
+  [
+   45.2207,
+   46.9224
+  ],
+  [
+   47.2755,
+   49.0173
+  ],
+  [
+   49.8695,
+   51.5697
+  ],
+  [
+   52.4119,
+   54.8057
+  ],
+  [
+   54.9931,
+   55.9809
+  ],
+  [
+   56.8311,
+   57.9859
+  ],
+  [
+   58.2316,
+   59.1835
+  ],
+  [
+   59.9785,
+   61.6216
+  ],
+  [
+   62.4604,
+   63.9071
+  ],
+  [
+   64.1977,
+   65.9594
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um dos maiores segredos da qu\u00edmica foi resolvido num cochilo,",
+   "s": 0.15,
+   "e": 3.083
+  },
+  {
+   "text": "e com a ajuda de uma cobra.",
+   "s": 3.41,
+   "e": 4.649
+  },
+  {
+   "text": "Era mil oitocentos e sessenta e cinco,",
+   "s": 5.494,
+   "e": 7.229
+  },
+  {
+   "text": "na cidade de Gante,",
+   "s": 7.455,
+   "e": 8.438
+  },
+  {
+   "text": "na B\u00e9lgica.",
+   "s": 8.606,
+   "e": 9.21
+  },
+  {
+   "text": "O professor August Kekul\u00e9 tinha um problema:",
+   "s": 10.049,
+   "e": 12.169
+  },
+  {
+   "text": "o benzeno,",
+   "s": 12.458,
+   "e": 12.969
+  },
+  {
+   "text": "um l\u00edquido com seis \u00e1tomos de carbono que ningu\u00e9m sabia arrumar.",
+   "s": 13.254,
+   "e": 16.315
+  },
+  {
+   "text": "Numa noite fria,",
+   "s": 17.126,
+   "e": 18.039
+  },
+  {
+   "text": "ele virou a cadeira para a lareira,",
+   "s": 18.236,
+   "e": 20.393
+  },
+  {
+   "text": "e cochilou.",
+   "s": 21.245,
+   "e": 21.759
+  },
+  {
+   "text": "No sonho, os \u00e1tomos dan\u00e7avam como cobras.",
+   "s": 22.032,
+   "e": 23.837
+  },
+  {
+   "text": "At\u00e9 que uma delas mordeu o pr\u00f3prio rabo.",
+   "s": 24.684,
+   "e": 26.727
+  },
+  {
+   "text": "Kekul\u00e9 acordou num pulo,",
+   "s": 27.589,
+   "e": 28.88
+  },
+  {
+   "text": "como se tivesse levado um raio.",
+   "s": 29.192,
+   "e": 30.624
+  },
+  {
+   "text": "O benzeno n\u00e3o era uma corrente.",
+   "s": 31.482,
+   "e": 32.978
+  },
+  {
+   "text": "Era um anel!",
+   "s": 33.849,
+   "e": 34.55
+  },
+  {
+   "text": "Passou o resto da noite desenhando o anel de seis carbonos.",
+   "s": 35.426,
+   "e": 38.435
+  },
+  {
+   "text": "E a conta fechou.",
+   "s": 39.293,
+   "e": 40.246
+  },
+  {
+   "text": "Os colegas ficaram de boca aberta.",
+   "s": 41.109,
+   "e": 42.934
+  },
+  {
+   "text": "Vinte e cinco anos depois,",
+   "s": 43.764,
+   "e": 44.992
+  },
+  {
+   "text": "numa festa em Berlim em honra ao anel,",
+   "s": 45.221,
+   "e": 46.922
+  },
+  {
+   "text": "ele contou o sonho pela primeira vez.",
+   "s": 47.276,
+   "e": 49.017
+  },
+  {
+   "text": "At\u00e9 hoje h\u00e1 quem duvide da hist\u00f3ria.",
+   "s": 49.87,
+   "e": 51.57
+  },
+  {
+   "text": "Mas o anel do benzeno virou base de rem\u00e9dios,",
+   "s": 52.412,
+   "e": 54.806
+  },
+  {
+   "text": "tintas e pl\u00e1sticos.",
+   "s": 54.993,
+   "e": 55.981
+  },
+  {
+   "text": "E ele deixou um conselho:",
+   "s": 56.831,
+   "e": 57.986
+  },
+  {
+   "text": "aprendam a sonhar.",
+   "s": 58.232,
+   "e": 59.184
+  },
+  {
+   "text": "Mas confiram tudo acordados.",
+   "s": 59.978,
+   "e": 61.622
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 62.46,
+   "e": 63.907
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 64.198,
+   "e": 65.959
+  }
+ ]
+}

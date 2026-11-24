@@ -139,10 +139,10 @@ mk/Chair_1 | b3, b4 | pronto | conferir na folha de contato se le bem; se parece
 - Objeto heroi: kit/snake_ring | grandes momentos: b1, b9 | planos abertos: 2 | mistura: close 15% | medio 75% | aberto 6% | detalhe 4%
 - Interacoes: b0 cochichar, b2 discutir, b7 entregar, b8 pular
 - RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py kekule1865  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/kekule1865/moodboard.jpg
+  - video com ~67 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
 
 ## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+- geral: video com ~67 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh kekule1865 bN bM` (so essas cenas).

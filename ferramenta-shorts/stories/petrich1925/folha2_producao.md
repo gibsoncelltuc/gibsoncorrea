@@ -118,14 +118,12 @@ dog | b1, b2, b8 | pronto | conferir na folha de contato se le bem; se parecer c
   - o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa) -> CORRECAO: reescrever a 1a frase com o fato mais absurdo da historia (sem ano); a data entra na 2a frase ou no mapa
   - video com ~44 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - objeto heroi kit/dog_sit nao aparece em nenhuma cena -> CORRECAO: por kit/dog_sit em "props" de pelo menos uma cena (ou tirar de "herois")
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py petrich1925  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/petrich1925/moodboard.jpg
 
-## RESUMO: 5 risco(s) em aberto
+## RESUMO: 4 risco(s) em aberto
 - geral: menos de 2 grandes momentos
 - geral: o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa)
 - geral: video com ~44 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 - geral: objeto heroi kit/dog_sit nao aparece em nenhuma cena
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh petrich1925 bN bM` (so essas cenas).
