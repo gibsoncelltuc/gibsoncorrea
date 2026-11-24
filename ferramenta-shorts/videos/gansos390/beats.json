@@ -388,7 +388,8 @@
    "shot_lock": true,
    "objetos": false,
    "d0": 9.0,
-   "d1": 8.0
+   "d1": 8.0,
+   "vary": false
   }
  ],
  "cinf": 4.5,
