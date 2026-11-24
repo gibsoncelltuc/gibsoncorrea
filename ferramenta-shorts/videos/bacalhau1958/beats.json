@@ -238,5 +238,8 @@
    "set": "harbor"
   }
  ],
- "variar_cenario": false
+ "variar_cenario": false,
+ "serie": "Guerras Inusitadas",
+ "ep": 25,
+ "titulo_base": "As Guerras do Bacalhau"
 }
