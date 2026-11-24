@@ -17,8 +17,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/prison",
-    "kit/volcano"
+    "kit/prison"
    ],
    "palavras": 13,
    "cena": "b0",
@@ -37,8 +36,7 @@
    ],
    "multidao": 6,
    "objetos": [
-    "kit/prison",
-    "kit/volcano"
+    "kit/prison"
    ],
    "palavras": 17,
    "cena": "b1",
@@ -57,8 +55,7 @@
    ],
    "multidao": 10,
    "objetos": [
-    "kit/prison",
-    "kit/volcano"
+    "kit/prison"
    ],
    "palavras": 17,
    "cena": "b2",
@@ -76,9 +73,7 @@
     "GUA"
    ],
    "multidao": 5,
-   "objetos": [
-    "kit/volcano"
-   ],
+   "objetos": [],
    "palavras": 21,
    "cena": "b3",
    "frase": "Em dois mil e vinte e dois, o presidente Nayib Bukele decretou estado de exceção, e milhares de suspeitos foram presos.",
@@ -97,8 +92,7 @@
    ],
    "multidao": 16,
    "objetos": [
-    "kit/prison",
-    "kit/volcano"
+    "kit/prison"
    ],
    "palavras": 17,
    "cena": "b4",
@@ -119,10 +113,7 @@
    "camera": "two",
    "personagens": [],
    "multidao": 0,
-   "objetos": [
-    "buildings/castle_tower",
-    "kit/prison"
-   ],
+   "objetos": [],
    "palavras": 12,
    "cena": "b5",
    "frase": "Muralhas altas, cercas elétricas e torres de vigia por todos os lados.",
@@ -145,9 +136,7 @@
     "BUK"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/volcano"
-   ],
+   "objetos": [],
    "palavras": 12,
    "cena": "b6",
    "frase": "Acontece que, nos anos seguintes, o número de assassinatos no país despencou.",
@@ -163,7 +152,7 @@
     "REP",
     "POV"
    ],
-   "multidao": 0,
+   "multidao": 12,
    "objetos": [],
    "palavras": 12,
    "cena": "b7",
@@ -187,9 +176,7 @@
     "REP"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/volcano"
-   ],
+   "objetos": [],
    "palavras": 15,
    "cena": "b8",
    "frase": "O governo responde que as ruas ficaram seguras, e que a maioria da população apoia.",
@@ -208,8 +195,7 @@
    ],
    "multidao": 18,
    "objetos": [
-    "kit/prison",
-    "kit/volcano"
+    "kit/prison"
    ],
    "palavras": 14,
    "cena": "b9",

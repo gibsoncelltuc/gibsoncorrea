@@ -107,13 +107,6 @@
    ]
   },
   {
-   "tipo": "heroi",
-   "item": "volcano",
-   "consultas": [
-    "volcano"
-   ]
-  },
-  {
    "tipo": "mecanismo",
    "item": "Muralhas altas, cercas elétricas e torres de vigia por todos os lados.",
    "consultas": [

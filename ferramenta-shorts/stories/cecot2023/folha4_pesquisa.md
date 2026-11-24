@@ -4,7 +4,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 - Historia: A Maior Prisão das Américas
 - Epoca: 2023 | Lugar: Tecoluca, departamento de San Vicente, El Salvador: o CECOT (Centro de Confinamiento del Terrorismo), complexo isolado cercado por campo e morros | Quando: inaugurado em 31/jan/2023; estado de excecao decretado em marco de 2022; dia, ceu claro
-- HEROIS (objeto): kit/prison, kit/volcano
+- HEROIS (objeto): kit/prison
 - HEROIS (personagens): BUK, REP
 - Cenarios: loc_campo, loc_estudio, loc_montanha, loc_patio, loc_pista
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
@@ -27,7 +27,6 @@ objeto | torre de vigia | torre de vigia / torre de vigia 2023 | Santa Maria de 
 objeto | portao de ferro | portao de ferro / portao de ferro 2023 | Entrada original da Fabrica de Ferro de São João d (referencias/cecot2023/prints/portao_de_ferro_93741c.jpg); Detalhe da entrada original da Fabrica de Ferro de (referencias/cecot2023/prints/portao_de_ferro_8f64d5.jpg); Entrada original da Fabrica de Ferro de São João d (referencias/cecot2023/prints/portao_de_ferro_1a8509.jpg)
 objeto | cerca eletrica | cerca eletrica / cerca eletrica 2023 | SBB Ce 6-8 II 14253 Wassen - Gurtnellen.jpg (referencias/cecot2023/prints/cerca_eletrica_264ca2.jpg); Expedição Guarani Kaiowa - Dourados (MS) (81374996 (referencias/cecot2023/prints/cerca_eletrica_2265ac.jpg); Colégio Ipiranga, em Três Passos.jpg (referencias/cecot2023/prints/cerca_eletrica_173452.jpg)
 heroi | prison | muralha de concreto / A Maior Prisão das Américas | Coimbra, Rua da Couraça Lisboa.jpg (referencias/cecot2023/prints/prison_7df54c.jpg); Escalinata de la Coracha 01.JPG (referencias/cecot2023/prints/prison_e2478f.jpg); La Coracha (Málaga).png (referencias/cecot2023/prints/prison_05fa9f.jpg)
-heroi | volcano | volcano | Tavurvur volcano edit.jpg (referencias/cecot2023/prints/volcano_bbbdad.jpg); Volcán de Ollagüe, Bolivia, 2016-02-03, DD 80-88 P (referencias/cecot2023/prints/volcano_004c05.jpg); Радуга над вулканическими конусами.jpg (referencias/cecot2023/prints/volcano_4e2f60.jpg)
 mecanismo | Muralhas altas, cercas elétricas e torres de vigia por todos os lados. | muralhas altas cercas eletricas torres vigia lados / prison diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
