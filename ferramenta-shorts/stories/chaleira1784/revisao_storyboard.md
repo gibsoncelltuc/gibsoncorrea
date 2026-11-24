@@ -3,10 +3,10 @@ defeitos procurados: cenario porto e mar sem predio de cidade moderna e marco de
 b0: CORRIGIDO - uma guerra inteira teve um unico tiro e ele acertou uma chaleira de sopa: cozinheiro e marinheiro holandes com a chaleira laranja grande e o texto UM UNICO TIRO.
 b1: CORRIGIDO - foi em mil setecentos e oitenta e quatro e a Holanda mantinha o rio Escalda fechado: antes soldados caidos e cavalos e navio sobre a grama; agora fragata no porto com mapa da HOLANDA.
 b2: OK - o imperador Jose Segundo da Austria queria o rio aberto para os navios de Antuerpia: imperador de coroa e general na sala de pedra.
-b3: CORRIGIDO - convencido de que os holandeses nao reagiriam ele mandou tres navios descerem o rio: antes sala fechada sem navio; agora fragata a vela no rio diante do cais com o imperador, mostrando so um navio por vez.
-b4: CORRIGIDO - o maior levava a bandeira do imperador e seguia na frente: antes dois bonecos cortados; agora imperador no cais com a bandeira e o casco grande atras com o texto 3 NAVIOS.
-b5: CORRIGIDO - o navio de guerra holandes Dolfijn estava esperando e disparou um unico tiro: antes so um navio longe sem canhao; agora canhao de ferro em primeiro plano apontando para o navio.
-b6: OK - a bala acertou e destruiu uma chaleira de sopa no convés do navio do imperador: imperador e cozinheiro no cais com a chaleira laranja ao lado.
-b7: OK - o navio austriaco se rendeu na hora: oficial com bandeira branca e vermelha no patio, sem tiro.
+b3: CORRIGIDO - convencido de que os holandeses nao reagiriam ele mandou tres navios descerem o rio: rio com fragatas a vela vistas de longe, mas aparece um navio de cada vez e nao tres lado a lado no quadro.
+b4: CORRIGIDO - o maior levava a bandeira do imperador e seguia na frente: palacio parecia praia com navio na areia; agora porto com a fragata grande de bandeira vermelha e o texto 3 NAVIOS.
+b5: CORRIGIDO - o navio de guerra holandes Dolfijn estava esperando e disparou um unico tiro: antes canhao tampando a tela; agora fragata holandesa grande no porto com o canhao pequeno no cais, e o clarao so aparece na palavra disparou.
+b6: CORRIGIDO - a bala acertou e destruiu uma chaleira de sopa no convés do navio do imperador: imperador e cozinheiro de madeira com a chaleira laranja ao lado e o clarao na palavra destruiu, mas a chaleira nao some do quadro.
+b7: CORRIGIDO - o navio austriaco se rendeu na hora sem trocar nem um tiro a mais: antes soldado sozinho num patio vazio; agora oficial com a bandeira branca e vermelha no cais com a fragata austriaca atras.
 b8: OK - depois a Franca mediou a paz e a Holanda pagou uma indenizacao: imperador e marinheiro holandes com dinheiro na sala de pedra de dia.
-b9: OK - o unico prejuizo do dia foi o almoco: cozinheiro triste ao lado da chaleira grande e depois o texto COMENTE.
+b9: CORRIGIDO - o unico prejuizo do dia foi o almoco: antes patio de concreto; agora cozinha de madeira com a chaleira laranja grande e o cozinheiro triste, depois COMENTE.

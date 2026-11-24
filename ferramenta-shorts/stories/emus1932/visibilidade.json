@@ -1,8 +1,6 @@
 {
  "id": "emus1932",
- "falhas": [
-  "b8_1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)"
- ],
+ "falhas": [],
  "tomadas": [
   {
    "id": "b0",
@@ -582,7 +580,7 @@
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 1
+     "cortado": 0
     },
     {
      "f": 1288,
@@ -601,21 +599,21 @@
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 3
+     "cortado": 0
     },
     {
      "f": 1315,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 1
+     "cortado": 0
     },
     {
      "f": 1326,
      "objs": [],
      "bloq": null,
      "dentro": null,
-     "cortado": 3
+     "cortado": 0
     }
    ]
   },

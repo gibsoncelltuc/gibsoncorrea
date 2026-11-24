@@ -12,7 +12,7 @@ b4 | outback | wide | 15 | encena | emus | - | -
 b5 | countryside | wide | 1 | encena | vehicles/truck, emus | - | -
 b6 | loc_campo | group | 2 | conversar, INTERAGEM: susto | emus | - | -
 b7 | countryside | track | 15 | encena, andando | - | paper | -
-b8 | loc_deserto | crowd | 1 | encena, batalha | emus | - | -
+b8 | loc_deserto | crowd | 2 | encena, batalha | emus | - | -
 b9 | outback | group | 2 | conversar, INTERAGEM: entregar | emus | - | -
 b10 | outback | close | 1 | conversar | - | - | -
 

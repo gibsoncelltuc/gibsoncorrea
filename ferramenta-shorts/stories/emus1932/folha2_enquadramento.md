@@ -62,14 +62,14 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b8: "O exército voltou, e o major disse ter abatido novecentos e oitenta e seis, número muito contestado."
 - LOCAL: loc_deserto; hora: desert
-- CAMERA: plano aberto (cenario inteiro)
-- PERSONAGENS: AUS no centro, expressao stern; sem multidao; acao: fala/gesto
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: AUS na esquerda, expressao stern; AUS na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +40 da cena
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +75 da cena
 - SOM: thump@40
 - SOM: thump@75
-- TEXTO NA TELA: "986 (CONTESTADO)" flutuando no alto, na palavra 7 da frase
+- TEXTO NA TELA: "986 (CONTESTADO)" numa placa atras dos personagens, na palavra 7 da frase
 
 ## b9: "No fim, o governo preferiu recompensas, e em seis meses pagou por mais de cinquenta mil emus. Exército zero, emus um."
 - LOCAL: fazenda aberta; hora: golden
