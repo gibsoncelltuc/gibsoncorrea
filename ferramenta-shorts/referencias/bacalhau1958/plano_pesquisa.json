@@ -121,6 +121,13 @@
    ]
   },
   {
+   "tipo": "heroi",
+   "item": "fishing net",
+   "consultas": [
+    "fishing net"
+   ]
+  },
+  {
    "tipo": "epoca",
    "item": "navio da epoca",
    "consultas": [

@@ -49,19 +49,19 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b5  (~5.5 s)
 - Narracao: Acontece que a Islândia só tinha barquinhos da guarda costeira, mas eles tinham cortadores de rede.
-- Som ambiente: sea
+- Som ambiente: sea | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: VIRADA
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b6  (~5.2 s)
 - Narracao: Eles cortavam os cabos das redes, e os navios batiam um no outro, de propósito.
 - Som ambiente: sea
-- Efeitos sonoros marcados: thump@60, creak@62
+- Efeitos sonoros marcados: creak@30, thump@55
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: splash@50, burst@60
+- Efeito visual marcado: splash@30, burst@55
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 

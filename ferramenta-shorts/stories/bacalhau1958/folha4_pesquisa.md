@@ -4,7 +4,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 - Historia: As Guerras do Bacalhau
 - Epoca: 1958 | Lugar: Atlântico Norte, mar aberto perto da costa da Islândia (Reykjavik e a costa de pesca); águas cinzentas e frias | Quando: 1958 a 1976, em três disputas (1958-61, 1972-73, 1975-76); dia nublado de mar
-- HEROIS (objeto): kit/cod, kit/navio_leander, kit/barco_guarda
+- HEROIS (objeto): kit/cod, kit/navio_leander, kit/barco_guarda, kit/fishing_net
 - HEROIS (personagens): ICE, BRI, PES
 - Cenarios: harbor, interior pedra
 - Proibido pela epoca: barril, canhao antigo, caravela, carro antigo, carroca, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, tambor de guerra
@@ -29,6 +29,7 @@ objeto | cabo de rede de pesca | cabo de rede de pesca / cabo de rede de pesca 1
 heroi | cod | bacalhau / As Guerras do Bacalhau | Bacalhau@UltrajeaRigor.jpg (referencias/bacalhau1958/prints/cod_685e71.jpg); Bacalhau a Bras.jpg (referencias/bacalhau1958/prints/cod_e98d69.jpg); Bacalhau em 2007.jpg (referencias/bacalhau1958/prints/cod_90ec04.jpg)
 heroi | navio leander | navio leander | SEM REFERENCIA
 heroi | barco guarda | barco guarda | SEM REFERENCIA
+heroi | fishing net | fishing net | SEM REFERENCIA
 epoca | navio da epoca | ship 1958 / ship | Lindau (1958) ex Grünten.jpg (referencias/bacalhau1958/prints/navio_da_epoca_26d7dc.jpg); Lindau (1958) Sonderfahrt.jpeg (referencias/bacalhau1958/prints/navio_da_epoca_68517f.jpg); Strolch (ship, 1958) 005.JPG (referencias/bacalhau1958/prints/navio_da_epoca_714c11.jpg)
 
 ## Explicacoes (como funciona, com fonte)

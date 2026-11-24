@@ -54,11 +54,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Acontece que a Islândia só tinha barquinhos da guarda costeira, mas el...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: low = camera baixa, dramatica (virada)
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (1): ICE (variante 0, expressao grin)
-- Animacao: conversar
-- Objetos/modelos: kit/barco_guarda
+- Personagens principais (0): -
+- Animacao: - | batalha encenada
+- Objetos/modelos: kit/barco_guarda, kit/fishing_net, kit/navio_vapor
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): guarda, islandia, rede
 - RISCOS: nenhum
 
@@ -67,8 +67,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (0): -
-- Animacao: comemorar
-- Objetos/modelos: kit/barco_guarda, kit/navio_leander, navios de guerra ao fundo, no tamanho real
+- Animacao: -
+- Objetos/modelos: kit/barco_guarda, kit/fishing_net, kit/navio_vapor, kit/navio_leander, navios de guerra ao fundo, no tamanho real
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabos, navios, proposito, redes
 - RISCOS: nenhum
 
@@ -118,8 +118,8 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/barco_guarda | b0, b5, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/fishing_net | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/navio_vapor | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/fishing_net | b0, b5, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/navio_vapor | b0, b5, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/navio_leander | b0, b1, b3, b4, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/cod | b1, b2, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 crate | b2, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -127,7 +127,7 @@ kit/scroll | b8 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/cod | grandes momentos: b0, b4, b7 | planos abertos: 3 | mistura: close 14% | medio 53% | aberto 31% | detalhe 1%
+- Objeto heroi: kit/cod | grandes momentos: b0, b4, b5, b7 | planos abertos: 3 | mistura: close 4% | medio 64% | aberto 31% | detalhe 1%
 - Interacoes: b2 o outro se aproxima, b7 discutir, b8 entregar
 - RISCOS GERAIS: nenhum
 
