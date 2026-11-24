@@ -46,61 +46,41 @@
  },
  "beats": [
   {
-   "shot": "wide",
+   "shot": "two",
    "who": [
-    "MER:0:grin:tulip"
+    "MER:0:grin:tulip",
+    "RIC:0:shock:coin"
    ],
    "props": [
     [
-     "kit/tulip_bed",
-     0.6,
-     1.0,
+     "kit/tulip_striped",
+     0.0,
+     -1.2,
      1.5,
      {
       "fixo": true
      }
-    ],
-    [
-     "buildings/windmill",
-     7.0,
-     -14.0,
-     1.2,
-     {
-      "fixo": true
-     }
     ]
    ],
-   "fachada": false,
    "text": "1637",
    "say": "Uma única flor já custou o preço de uma casa inteira.",
-   "crowd": {
-    "n": 0
-   },
    "detalhe": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o tulip_bed (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tulip_striped juntos (camera a 11.5 m)",
     "objetos": [
      {
-      "objeto": "kit/tulip_bed",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "buildings/windmill",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
+      "objeto": "kit/tulip_striped",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -9.8,
-   "h": 2.8,
-   "d0": 21.0,
-   "d1": 19.0,
-   "_auto_vis": 3
+   }
   },
   {
    "shot": "wide",
@@ -111,7 +91,7 @@
     [
      "kit/tulip_bed",
      0.0,
-     -1.0,
+     -8.0,
      1.4,
      {
       "fixo": true
@@ -217,8 +197,7 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "_auto_vis": 1
+   "d1": 10.0
   },
   {
    "shot": "two",
@@ -294,7 +273,12 @@
     ]
    ],
    "crowd": {
-    "n": 0
+    "n": 14,
+    "outfits": [
+     "POV",
+     "MER"
+    ],
+    "expr": "grin"
    },
    "fx": [
     "stars@30",
@@ -311,7 +295,7 @@
    "detalhe": false,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o tulip_bed (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o tulip_bed (alvo z -3.6, camera a 10.0 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto",
     "objetos": [
      {
       "objeto": "kit/tulip_bed",
@@ -384,7 +368,7 @@
    "detalhe": false,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o tulip_bed (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o tulip_bed (alvo z -3.6, camera a 10.0 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto",
     "objetos": [
      {
       "objeto": "kit/tulip_bed",
@@ -525,7 +509,7 @@
     [
      "kit/tulip_bed",
      0.0,
-     -1.0,
+     -8.0,
      1.4,
      {
       "fixo": true
@@ -562,7 +546,7 @@
    "detalhe": false,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o tulip_bed (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o tulip_bed (alvo z -3.6, camera a 10.0 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto",
     "objetos": [
      {
       "objeto": "kit/tulip_bed",
@@ -582,8 +566,7 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "_auto_vis": 1
+   "d1": 10.0
   },
   {
    "shot": "wide",
