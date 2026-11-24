@@ -42,15 +42,15 @@
  },
  "beats": [
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "GEN:0:stern"
    ],
    "props": [
     [
      "kit/bunker_bomb",
-     0.6,
-     1.0,
+     0.0,
+     -1.0,
      1.5,
      {
       "fixo": true
@@ -71,21 +71,23 @@
    },
    "quadro": {
     "local": "loc_pista",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bunker_bomb juntos (camera a 8.0 m)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o bunker_bomb (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/bunker_bomb",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
       "estado": "parado"
      }
     ]
    },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
-   "_auto_vis": 2
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0,
+   "detalhe": false,
+   "_auto_vis": 1
   },
   {
    "shot": "reveal",
@@ -198,6 +200,12 @@
     "n": 0
    },
    "detalhe": true,
+   "cx": 0.0,
+   "cz": -9.7,
+   "h": 4.0,
+   "d0": 30.0,
+   "d1": 28.0,
+   "quadro_manual": true,
    "quadro": {
     "local": "loc_pista",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o b2_air (alvo z -4.3, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
@@ -210,11 +218,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -4.3,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
    "_auto_vis": 3
   },
   {
@@ -246,6 +249,12 @@
     "n": 0
    },
    "detalhe": true,
+   "cx": 0.0,
+   "cz": -9.7,
+   "h": 4.0,
+   "d0": 30.0,
+   "d1": 28.0,
+   "quadro_manual": true,
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o b2_air (alvo z -4.3, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
@@ -258,11 +267,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -4.3,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
    "_auto_vis": 3
   },
   {
@@ -274,8 +278,8 @@
    "props": [
     [
      "kit/b2_air",
-     0.6,
-     1.0,
+     0.0,
+     -1.0,
      3.12,
      {
       "fixo": true
@@ -309,6 +313,12 @@
     "n": 0
    },
    "detalhe": false,
+   "cx": 0.0,
+   "cz": -9.7,
+   "h": 4.0,
+   "d0": 30.0,
+   "d1": 28.0,
+   "quadro_manual": true,
    "quadro": {
     "local": "encosta de montanha",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o b2_air (alvo z -4.3, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
@@ -327,12 +337,7 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -4.3,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
-   "_auto_vis": 2
+   "_auto_vis": 1
   },
   {
    "shot": "wide",
@@ -409,6 +414,12 @@
    "sfx": [
     "ding@30"
    ],
+   "cx": 0.0,
+   "cz": -9.7,
+   "h": 4.0,
+   "d0": 30.0,
+   "d1": 28.0,
+   "quadro_manual": true,
    "quadro": {
     "local": "loc_pista",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o b2_air (alvo z -4.3, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
@@ -421,11 +432,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -4.3,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
    "_auto_vis": 3
   },
   {
@@ -500,5 +506,5 @@
    "A bomba antibunker GBU-57 pesa cerca de 13,6 toneladas e foi projetada para penetrar muitos metros de rocha e concreto antes de explodir; so o bombardeiro B-2 a carrega (fonte: https://en.wikipedia.org/wiki/GBU-57A/B_MOP)"
   ]
  },
- "max_wide": 8
+ "max_wide": 9
 }

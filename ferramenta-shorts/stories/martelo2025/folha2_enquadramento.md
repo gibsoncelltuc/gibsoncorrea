@@ -4,7 +4,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b0: "Uma bomba gigante, feita para furar montanhas, foi usada de verdade pela primeira vez."
 - LOCAL: loc_pista; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o bunker_bomb (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o bunker_bomb (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: GEN no centro, expressao stern; sem multidao; acao: fala/gesto
 - OBJETO kit/bunker_bomb: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.5 m de altura x 5.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
