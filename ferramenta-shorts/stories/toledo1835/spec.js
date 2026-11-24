@@ -28,4 +28,4 @@ const SPEC = {
   ],
 };
 
-// FOLHA3 ec7e29c0d119 46 acoes=46 faltando=0
+// FOLHA3 7a90664784a0 44 acoes=44 faltando=0
