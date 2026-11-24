@@ -4,9 +4,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b0: "Uma bomba gigante, feita para furar montanhas, foi usada de verdade pela primeira vez."
 - LOCAL: loc_pista; hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o bunker_bomb (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o bunker_bomb (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: GEN no centro, expressao stern; sem multidao; acao: fala/gesto
-- OBJETO kit/bunker_bomb: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.2 m de altura x 4.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/bunker_bomb: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.5 m de altura x 5.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
 - SOM: sting@30
 
@@ -25,13 +25,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - TEXTO NA TELA: "FORDOW" flutuando no alto, na palavra 1 da frase
 
 ## b3: "Só uma bomba chegava lá, a antibunker, com treze toneladas. E só um avião a carrega: o B-2."
-- LOCAL: loc_pista; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bunker_bomb juntos (camera a 11.5 m)
-- PERSONAGENS: GEN na esquerda, expressao stern; PIL na direita, expressao smug; sem multidao; acao: fala/gesto
-- OBJETO kit/bunker_bomb: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/b2_air: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 2.6 m de altura x 16.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
-- SOM: sting@30
+- LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
+- OBJETO: kit/bunker_bomb no centro, manobra "parado"
+- PASSOS NA TELA: -
 
 ## b4: "A missão se chamou Martelo da Meia-Noite."
 - LOCAL: sala de pedra (governo/castelo); hora: day
@@ -40,15 +36,11 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "MARTELO DA MEIA-NOITE" numa placa atras dos personagens, na palavra 1 da frase
 
-## b5: "Sete bombardeiros invisíveis decolaram do Missouri e voaram dezoito horas até lá."
+## b5: "Sete aviões invisíveis saíram do Missouri e viajaram dezoito horas até lá."
 - LOCAL: loc_pista; hora: dia
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o b2_air (alvo z -4.3, camera a 10.0 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: PIL no centro, expressao stern; sem multidao; acao: fala/gesto
+- PERSONAGENS: nenhum; sem multidao; acao: fala/gesto
 - OBJETO kit/b2_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.6 m de altura x 16.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- EFEITO whoosh: -; entra no quadro +20 da cena
-- EFEITO whoosh: -; entra no quadro +50 da cena
-- SOM: whoosh@20
-- SOM: whoosh@50
 - TEXTO NA TELA: "B-2" flutuando no alto, na palavra 1 da frase
 
 ## b6: "Para despistar, outros aviões foram mandados na direção do Pacífico."
@@ -81,11 +73,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
 - SOM: whoosh@30
 
-## b9: "Os bombardeiros voltaram para casa."
+## b9: "Depois, os aviões voltaram para casa em segurança."
 - LOCAL: loc_pista; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: PIL na esquerda, expressao smile; GEN na direita, expressao smile; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o b2_air (alvo z -4.3, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: nenhum; sem multidao; acao: fala/gesto
+- OBJETO kit/b2_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.6 m de altura x 16.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +30 da cena
+- SOM: ding@30
 
 ## b10: "Os Estados Unidos disseram que as usinas foram destruídas."
 - LOCAL: sala de pedra (governo/castelo); hora: day

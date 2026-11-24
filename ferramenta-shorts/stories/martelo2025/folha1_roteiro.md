@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 23 - O Martelo da Meia-Noite
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pista | 13 cenas, 148 palavras (~51 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pista | 13 cenas, 151 palavras (~52 s)
 
 ## Cena b0  (~4.8 s)
 - Narracao: Uma bomba gigante, feita para furar montanhas, foi usada de verdade pela primeira vez.
@@ -32,9 +32,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 ## Cena b3  (~6.2 s)
 - Narracao: Só uma bomba chegava lá, a antibunker, com treze toneladas. E só um avião a carrega: o B-2.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: encena: atira @2 -> acao + som de efeito
-- Efeito visual marcado: ring@30
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
@@ -48,11 +48,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Funcao na historia: desenvolvimento
 
 ## Cena b5  (~4.1 s)
-- Narracao: Sete bombardeiros invisíveis decolaram do Missouri e voaram dezoito horas até lá.
+- Narracao: Sete aviões invisíveis saíram do Missouri e viajaram dezoito horas até lá.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: whoosh@20, whoosh@50
-- Efeito + som nas palavras-chave: encena: voa (point) @3 -> acao + som de efeito
-- Efeito visual marcado: whoosh@20, whoosh@50
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
 - Texto na tela: B-2
 - Funcao na historia: desenvolvimento
 
@@ -83,12 +83,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~1.7 s)
-- Narracao: Os bombardeiros voltaram para casa.
+## Cena b9  (~2.8 s)
+- Narracao: Depois, os aviões voltaram para casa em segurança.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: chega (point) @2 -> acao + som de efeito; voltam para casa (saem andando) -> acao + som de efeito
-- Efeito visual marcado: -
+- Efeitos sonoros marcados: ding@30
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: puff@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 

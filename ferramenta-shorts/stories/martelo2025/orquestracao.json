@@ -3,7 +3,7 @@
  "ano": 2025,
  "cenarios_trocados": [],
  "metricas": {
-  "acoes_encenadas": 85,
+  "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
   "explicacoes_cobertas": 100,
   "cenario_e_epoca_ok": 100
@@ -64,22 +64,21 @@
   },
   {
    "camera": "two",
-   "personagens": [
-    "GEN",
-    "PIL"
-   ],
+   "personagens": [],
    "multidao": 0,
-   "objetos": [
-    "kit/b2_air",
-    "kit/bunker_bomb",
-    "vehicles/airplane"
-   ],
+   "objetos": [],
    "palavras": 18,
    "cena": "b3",
    "frase": "Só uma bomba chegava lá, a antibunker, com treze toneladas. E só um avião a carrega: o B-2.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/bunker_bomb (parado)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
    "acoes_faltando": [],
    "cenario": "loc_pista"
   },
@@ -102,23 +101,18 @@
   },
   {
    "camera": "wide",
-   "personagens": [
-    "PIL"
-   ],
+   "personagens": [],
    "multidao": 0,
    "objetos": [
     "kit/b2_air"
    ],
    "palavras": 12,
    "cena": "b5",
-   "frase": "Sete bombardeiros invisíveis decolaram do Missouri e voaram dezoito horas até lá.",
-   "classe": "simples",
-   "sujeito": "personagem",
+   "frase": "Sete aviões invisíveis saíram do Missouri e viajaram dezoito horas até lá.",
+   "classe": "transicao",
+   "sujeito": "cenario",
    "briefing": {},
-   "acoes_faltando": [
-    "bombardeiros",
-    "voaram"
-   ],
+   "acoes_faltando": [],
    "cenario": "loc_pista"
   },
   {
@@ -183,27 +177,22 @@
    "cenario": "harbor"
   },
   {
-   "camera": "two",
-   "personagens": [
-    "PIL",
-    "GEN"
-   ],
+   "camera": "wide",
+   "personagens": [],
    "multidao": 0,
    "objetos": [
     "buildings/house_small",
+    "kit/b2_air",
     "nature/picket_fence",
-    "nature/tree_oak",
-    "vehicles/airplane"
+    "nature/tree_oak"
    ],
-   "palavras": 5,
+   "palavras": 8,
    "cena": "b9",
-   "frase": "Os bombardeiros voltaram para casa.",
-   "classe": "simples",
-   "sujeito": "personagem",
+   "frase": "Depois, os aviões voltaram para casa em segurança.",
+   "classe": "transicao",
+   "sujeito": "cenario",
    "briefing": {},
-   "acoes_faltando": [
-    "bombardeiros"
-   ],
+   "acoes_faltando": [],
    "cenario": "loc_pista"
   },
   {

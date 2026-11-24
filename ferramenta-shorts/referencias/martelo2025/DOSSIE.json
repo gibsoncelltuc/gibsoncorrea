@@ -4,7 +4,7 @@
  "ancoras": {
   "ano": 2025,
   "era": "atual (1950+)",
-  "regiao": "eua",
+  "regiao": "oriente",
   "luz_base": "day",
   "cenarios": [
    "hall",
@@ -42,8 +42,8 @@
   "kit/b2_air",
   "kit/bunker_bomb",
   "kit/mountain_bunker",
-  "kit/room_eua_stone",
   "kit/room_europa_stone",
+  "kit/room_oriente_stone",
   "kit/submarino_ww2",
   "mk/Bed_Twin1",
   "mk/Bookcase_2",
@@ -55,8 +55,7 @@
   "mk/Stool",
   "mk/Table_Large",
   "nature/picket_fence",
-  "nature/tree_oak",
-  "vehicles/airplane"
+  "nature/tree_oak"
  ],
  "pesquisa_visual": {
   "local": "Fordow, Natanz e Isfahan (Irã); base de Whiteman, Missouri (EUA)",
@@ -85,9 +84,18 @@
   "buscas": {
    "bomba GBU-57": "GBU-57 Massive Ordnance Penetrator bomb",
    "B-2 Spirit": "B-2 Spirit stealth bomber in flight",
-   "Fordow": "Fordow nuclear facility satellite image mountain",
-   "submarino": "US Navy Ohio class submarine surfaced"
-  }
+   "submarino": "Ohio-class guided missile submarine USS Georgia",
+   "roupas e ruas de 2025": "US Air Force airmen B-2 maintenance Whiteman 2025",
+   "Força Aérea dos EUA": "US Air Force B-2 Spirit Whiteman Air Force Base hangar",
+   "tripulações de B-2": "B-2 Spirit pilots flight crew cockpit",
+   "Marinha dos EUA": "US Navy Ohio-class submarine surfaced",
+   "bunker na montanha": "Fordow Fuel Enrichment Plant satellite image Iran mountain",
+   "b2 air": "B-2 Spirit stealth bomber flying",
+   "aviao da epoca": "B-2 Spirit bomber 2025"
+  },
+  "explicacoes": [
+   "A bomba antibunker GBU-57 pesa cerca de 13,6 toneladas e foi projetada para penetrar muitos metros de rocha e concreto antes de explodir; so o bombardeiro B-2 a carrega (fonte: https://en.wikipedia.org/wiki/GBU-57A/B_MOP)"
+  ]
  },
  "fontes": [
   "https://en.wikipedia.org/wiki/2025_United_States_strikes_on_Iranian_nuclear_sites",

@@ -12,7 +12,7 @@
 - Proibido pelo roteiro: -
 
 ## Explicacoes (ciencia)
-- -
+- A bomba antibunker GBU-57 pesa cerca de 13,6 toneladas e foi projetada para penetrar muitos metros de rocha e concreto antes de explodir; so o bombardeiro B-2 a carrega (fonte: https://en.wikipedia.org/wiki/GBU-57A/B_MOP)
 
 ## Fontes visuais
 - https://en.wikipedia.org/wiki/2025_United_States_strikes_on_Iranian_nuclear_sites

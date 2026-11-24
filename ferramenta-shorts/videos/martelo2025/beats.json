@@ -42,16 +42,16 @@
  },
  "beats": [
   {
-   "shot": "prop",
+   "shot": "two",
    "who": [
     "GEN:0:stern"
    ],
    "props": [
     [
      "kit/bunker_bomb",
-     0.0,
-     -8.0,
-     1.2,
+     0.6,
+     1.0,
+     1.5,
      {
       "fixo": true
      }
@@ -69,24 +69,23 @@
    "crowd": {
     "n": 0
    },
-   "detalhe": false,
    "quadro": {
     "local": "loc_pista",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o bunker_bomb (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bunker_bomb juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/bunker_bomb",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_auto_vis": 2
   },
   {
    "shot": "reveal",
@@ -143,63 +142,26 @@
    "d1": 20.0
   },
   {
-   "shot": "two",
-   "who": [
-    "GEN:0:stern",
-    "PIL:0:smug"
-   ],
-   "props": [
-    [
-     "kit/bunker_bomb",
-     0.0,
-     -1.2,
-     0.8,
-     {
-      "fixo": true
-     }
-    ],
-    [
-     "kit/b2_air",
-     7.0,
-     -15.7,
-     3.12,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "fx": [
-    "ring@30"
-   ],
-   "sfx": [
-    "sting@30"
-   ],
+   "shot": "wide",
    "say": "Só uma bomba chegava lá, a antibunker, com treze toneladas. E só um avião a carrega: o B-2.",
    "fachada": false,
    "set": "loc_pista",
    "tiros": false,
-   "quadro": {
-    "local": "loc_pista",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bunker_bomb juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/bunker_bomb",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/b2_air",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     }
+   "explica": {
+    "objeto": "kit/bunker_bomb",
+    "rotulos": [
+     [
+      "BOMBA ANTIBUNKER",
+      "baixo",
+      "bomba"
+     ],
+     [
+      "13 TONELADAS",
+      "cima",
+      "toneladas"
+     ]
     ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "shot": "two",
@@ -214,14 +176,12 @@
   },
   {
    "shot": "wide",
-   "who": [
-    "PIL:0:stern"
-   ],
+   "who": [],
    "props": [
     [
      "kit/b2_air",
      0.0,
-     -9.7,
+     1.4,
      3.12,
      {
       "fixo": true
@@ -237,7 +197,7 @@
    "crowd": {
     "n": 0
    },
-   "detalhe": false,
+   "detalhe": true,
    "quadro": {
     "local": "loc_pista",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o b2_air (alvo z -4.3, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
@@ -254,7 +214,8 @@
    "cz": -4.3,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "_auto_vis": 3
   },
   {
    "shot": "wide",
@@ -265,7 +226,7 @@
     [
      "kit/b2_air",
      0.0,
-     -9.7,
+     1.4,
      3.12,
      {
       "fixo": true
@@ -284,7 +245,7 @@
    "crowd": {
     "n": 0
    },
-   "detalhe": false,
+   "detalhe": true,
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o b2_air (alvo z -4.3, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
@@ -301,7 +262,8 @@
    "cz": -4.3,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "_auto_vis": 3
   },
   {
    "shot": "wide",
@@ -312,8 +274,8 @@
    "props": [
     [
      "kit/b2_air",
-     0.0,
-     -9.7,
+     0.6,
+     1.0,
      3.12,
      {
       "fixo": true
@@ -369,7 +331,8 @@
    "cz": -4.3,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "_auto_vis": 2
   },
   {
    "shot": "wide",
@@ -394,7 +357,7 @@
    "sfx": [
     "whoosh@30"
    ],
-   "say": "Um submarino ainda lançou mísseis contra uma terceira usina, e todos os aviões voltaram para casa.",
+   "say": "Um submarino ainda lançou mísseis contra uma terceira usina.",
    "fachada": false,
    "set": "harbor",
    "crowd": {
@@ -418,6 +381,52 @@
    "h": 2.4,
    "d0": 10.5,
    "d1": 10.0
+  },
+  {
+   "shot": "wide",
+   "who": [],
+   "props": [
+    [
+     "kit/b2_air",
+     0.0,
+     1.4,
+     3.12,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "say": "Depois, os aviões voltaram para casa em segurança.",
+   "fachada": false,
+   "set": "loc_pista",
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": true,
+   "fx": [
+    "puff@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "quadro": {
+    "local": "loc_pista",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o b2_air (alvo z -4.3, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/b2_air",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -4.3,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0,
+   "_auto_vis": 3
   },
   {
    "shot": "two",
@@ -446,9 +455,9 @@
   "https://news.usni.org/2025/06/21/u-s-strikes-3-iranian-nuclear-sites-using-b-2s-sub-launched-tomahawks",
   "https://www.csis.org/analysis/what-operation-midnight-hammer-means-future-irans-nuclear-ambitions"
  ],
- "cinf": 4.5,
- "exp": 1.12,
- "regiao": "eua",
+ "cinf": 1.5,
+ "exp": 1.572,
+ "regiao": "oriente",
  "min_momentos": 1,
  "set_tematico_ok": true,
  "visual": {
@@ -478,9 +487,18 @@
   "buscas": {
    "bomba GBU-57": "GBU-57 Massive Ordnance Penetrator bomb",
    "B-2 Spirit": "B-2 Spirit stealth bomber in flight",
-   "Fordow": "Fordow nuclear facility satellite image mountain",
-   "submarino": "US Navy Ohio class submarine surfaced"
-  }
+   "submarino": "Ohio-class guided missile submarine USS Georgia",
+   "roupas e ruas de 2025": "US Air Force airmen B-2 maintenance Whiteman 2025",
+   "Força Aérea dos EUA": "US Air Force B-2 Spirit Whiteman Air Force Base hangar",
+   "tripulações de B-2": "B-2 Spirit pilots flight crew cockpit",
+   "Marinha dos EUA": "US Navy Ohio-class submarine surfaced",
+   "bunker na montanha": "Fordow Fuel Enrichment Plant satellite image Iran mountain",
+   "b2 air": "B-2 Spirit stealth bomber flying",
+   "aviao da epoca": "B-2 Spirit bomber 2025"
+  },
+  "explicacoes": [
+   "A bomba antibunker GBU-57 pesa cerca de 13,6 toneladas e foi projetada para penetrar muitos metros de rocha e concreto antes de explodir; so o bombardeiro B-2 a carrega (fonte: https://en.wikipedia.org/wiki/GBU-57A/B_MOP)"
+  ]
  },
- "max_wide": 7
+ "max_wide": 8
 }

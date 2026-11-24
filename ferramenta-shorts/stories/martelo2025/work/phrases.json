@@ -1,306 +1,270 @@
 {
- "duration": 74.856,
- "frames30": 2246,
- "source": "silence-align (cost 1.19)",
+ "duration": 60.936,
+ "frames30": 1828,
+ "source": "silence-align (cost 1.04)",
  "segments": [
   [
-   0.167167,
-   2.68033
+   0.151125,
+   1.15446
   ],
   [
-   2.94779,
-   6.23687
+   1.45733,
+   2.71188
   ],
   [
-   7.14746,
-   8.87092
+   2.97637,
+   4.89562
   ],
   [
-   9.72821,
-   11.8576
+   5.811,
+   7.47754
   ],
   [
-   12.6773,
-   13.3138
+   7.77117,
+   9.40467
   ],
   [
-   13.6047,
-   13.9555
+   10.226,
+   10.8472
   ],
   [
-   14.256,
-   16.3456
+   11.1797,
+   11.4802
   ],
   [
-   16.5701,
-   17.586
+   11.8099,
+   14.0137
   ],
   [
-   18.472,
-   19.7141
+   14.2511,
+   15.2704
   ],
   [
-   19.9077,
-   20.8165
+   16.1497,
+   17.4472
   ],
   [
-   21.1822,
-   22.6062
+   17.6417,
+   18.37
   ],
   [
-   23.4637,
-   25.1633
+   18.674,
+   19.8158
   ],
   [
-   25.4197,
-   26.1408
+   20.6611,
+   21.9844
   ],
   [
-   26.9955,
-   29.039
+   22.2308,
+   22.9775
   ],
   [
-   29.9082,
-   30.3146
+   23.8456,
+   25.9072
   ],
   [
-   30.5716,
-   31.769
+   26.7958,
+   30.6915
   ],
   [
-   32.6552,
-   35.2144
+   31.5594,
+   32.3117
   ],
   [
-   35.5698,
-   37.3109
+   32.5672,
+   35.1977
   ],
   [
-   38.1484,
-   38.9308
+   36.0464,
+   36.9247
   ],
   [
-   39.196,
-   41.7492
+   37.0938,
+   37.7727
   ],
   [
-   42.0524,
-   42.7403
+   38.024,
+   39.3087
   ],
   [
-   43.6,
-   44.4806
+   39.5182,
+   40.8137
   ],
   [
-   44.6286,
-   45.2821
+   41.6931,
+   44.6151
   ],
   [
-   45.5371,
-   48.01
+   45.4836,
+   45.9887
   ],
   [
-   48.8642,
-   50.4112
+   46.3114,
+   48.3673
   ],
   [
-   50.7165,
-   51.9432
+   49.1974,
+   52.119
   ],
   [
-   52.7563,
-   55.883
+   52.9763,
+   55.7926
   ],
   [
-   56.7602,
-   58.5066
+   56.6335,
+   58.0782
   ],
   [
-   59.3667,
-   61.5588
-  ],
-  [
-   62.4236,
-   65.5593
-  ],
-  [
-   66.4562,
-   69.7168
-  ],
-  [
-   70.558,
-   72.005
-  ],
-  [
-   72.2975,
-   74.0594
+   58.3708,
+   60.1325
   ]
  ],
  "phrases": [
   {
-   "text": "Para destruir um bunker escondido dentro de uma montanha,",
-   "s": 0.167,
-   "e": 2.68
+   "text": "Uma bomba gigante,",
+   "s": 0.151,
+   "e": 1.154
   },
   {
-   "text": "os Estados Unidos usaram uma arma que nunca tinha sa\u00eddo do papel.",
-   "s": 2.948,
-   "e": 6.237
+   "text": "feita para furar montanhas,",
+   "s": 1.457,
+   "e": 2.712
   },
   {
-   "text": "Foi em junho de dois mil e vinte e cinco.",
-   "s": 7.147,
-   "e": 8.871
+   "text": "foi usada de verdade pela primeira vez.",
+   "s": 2.976,
+   "e": 4.896
   },
   {
-   "text": "O alvo eram as usinas nucleares do Ir\u00e3.",
-   "s": 9.728,
-   "e": 11.858
+   "text": "Foi em junho de dois mil e vinte e cinco,",
+   "s": 5.811,
+   "e": 7.478
+  },
+  {
+   "text": "contra usinas nucleares do Ir\u00e3.",
+   "s": 7.771,
+   "e": 9.405
   },
   {
    "text": "A principal,",
-   "s": 12.677,
-   "e": 13.314
+   "s": 10.226,
+   "e": 10.847
   },
   {
    "text": "Fordow,",
-   "s": 13.605,
-   "e": 13.956
+   "s": 11.18,
+   "e": 11.48
   },
   {
-   "text": "fica a quase noventa metros de profundidade,",
-   "s": 14.256,
-   "e": 16.346
+   "text": "fica de oitenta a noventa metros de profundidade,",
+   "s": 11.81,
+   "e": 14.014
   },
   {
    "text": "dentro de uma montanha.",
-   "s": 16.57,
-   "e": 17.586
+   "s": 14.251,
+   "e": 15.27
   },
   {
-   "text": "S\u00f3 uma arma chegava l\u00e1:",
-   "s": 18.472,
-   "e": 19.714
+   "text": "S\u00f3 uma bomba chegava l\u00e1,",
+   "s": 16.15,
+   "e": 17.447
   },
   {
-   "text": "a arma antibunker,",
-   "s": 19.908,
-   "e": 20.817
+   "text": "a antibunker,",
+   "s": 17.642,
+   "e": 18.37
   },
   {
-   "text": "com mais de treze toneladas.",
-   "s": 21.182,
-   "e": 22.606
+   "text": "com treze toneladas.",
+   "s": 18.674,
+   "e": 19.816
   },
   {
-   "text": "E s\u00f3 um avi\u00e3o carrega essa arma:",
-   "s": 23.464,
-   "e": 25.163
+   "text": "E s\u00f3 um avi\u00e3o a carrega:",
+   "s": 20.661,
+   "e": 21.984
   },
   {
    "text": "o B-2.",
-   "s": 25.42,
-   "e": 26.141
+   "s": 22.231,
+   "e": 22.977
   },
   {
-   "text": "Trump assinou a ordem e autorizou a miss\u00e3o.",
-   "s": 26.995,
-   "e": 29.039
+   "text": "A miss\u00e3o se chamou Martelo da Meia-Noite.",
+   "s": 23.846,
+   "e": 25.907
   },
   {
-   "text": "O nome:",
-   "s": 29.908,
-   "e": 30.315
-  },
-  {
-   "text": "Martelo da Meia-Noite.",
-   "s": 30.572,
-   "e": 31.769
-  },
-  {
-   "text": "Sete bombardeiros invis\u00edveis decolaram do Missouri,",
-   "s": 32.655,
-   "e": 35.214
-  },
-  {
-   "text": "e voaram mais de um dia sem parar.",
-   "s": 35.57,
-   "e": 37.311
+   "text": "Sete avi\u00f5es invis\u00edveis sa\u00edram do Missouri e viajaram dezoito horas at\u00e9 l\u00e1.",
+   "s": 26.796,
+   "e": 30.692
   },
   {
    "text": "Para despistar,",
-   "s": 38.148,
-   "e": 38.931
+   "s": 31.559,
+   "e": 32.312
   },
   {
-   "text": "outros B-2 foram mandados na dire\u00e7\u00e3o contr\u00e1ria,",
-   "s": 39.196,
-   "e": 41.749
-  },
-  {
-   "text": "para o Pac\u00edfico.",
-   "s": 42.052,
-   "e": 42.74
+   "text": "outros avi\u00f5es foram mandados na dire\u00e7\u00e3o do Pac\u00edfico.",
+   "s": 32.567,
+   "e": 35.198
   },
   {
    "text": "Acontece que,",
-   "s": 43.6,
-   "e": 44.481
+   "s": 36.046,
+   "e": 36.925
   },
   {
    "text": "de madrugada,",
-   "s": 44.629,
-   "e": 45.282
+   "s": 37.094,
+   "e": 37.773
   },
   {
-   "text": "os avi\u00f5es soltaram catorze cargas explosivas.",
-   "s": 45.537,
-   "e": 48.01
+   "text": "catorze bombas ca\u00edram,",
+   "s": 38.024,
+   "e": 39.309
   },
   {
-   "text": "Doze delas em cima de Fordow,",
-   "s": 48.864,
-   "e": 50.411
+   "text": "doze delas sobre Fordow.",
+   "s": 39.518,
+   "e": 40.814
   },
   {
-   "text": "pelos respiros do bunker.",
-   "s": 50.717,
-   "e": 51.943
+   "text": "Um submarino ainda lan\u00e7ou m\u00edsseis contra uma terceira usina.",
+   "s": 41.693,
+   "e": 44.615
   },
   {
-   "text": "Um submarino ainda mandou m\u00edsseis que explodiram numa terceira usina.",
-   "s": 52.756,
-   "e": 55.883
+   "text": "Depois,",
+   "s": 45.484,
+   "e": 45.989
   },
   {
-   "text": "Todos os avi\u00f5es voltaram para casa.",
-   "s": 56.76,
-   "e": 58.507
+   "text": "os avi\u00f5es voltaram para casa em seguran\u00e7a.",
+   "s": 46.311,
+   "e": 48.367
   },
   {
-   "text": "Trump disse que as usinas foram destru\u00eddas.",
-   "s": 59.367,
-   "e": 61.559
+   "text": "Os Estados Unidos disseram que as usinas foram destru\u00eddas.",
+   "s": 49.197,
+   "e": 52.119
   },
   {
-   "text": "Avalia\u00e7\u00f5es posteriores discutiram o tamanho real do estrago.",
-   "s": 62.424,
-   "e": 65.559
-  },
-  {
-   "text": "Foi a primeira vez na hist\u00f3ria que essa arma gigante foi usada de verdade.",
-   "s": 66.456,
-   "e": 69.717
+   "text": "Mas at\u00e9 hoje ningu\u00e9m concorda sobre o tamanho do estrago.",
+   "s": 52.976,
+   "e": 55.793
   },
   {
    "text": "Agora n\u00e3o deixe de comentar:",
-   "s": 70.558,
-   "e": 72.005
+   "s": 56.633,
+   "e": 58.078
   },
   {
    "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
-   "s": 72.297,
-   "e": 74.059
+   "s": 58.371,
+   "e": 60.133
   }
  ]
 }
