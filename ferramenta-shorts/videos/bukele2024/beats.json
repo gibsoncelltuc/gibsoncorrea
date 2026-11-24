@@ -149,10 +149,11 @@
    "set": "loc_campo"
   },
   {
-   "shot": "close",
-   "interior": "loja",
+   "shot": "two",
+   "interior": false,
    "who": [
-    "REP:0:shock:paper"
+    "REP:0:shock:paper",
+    "BUK:0:smug"
    ],
    "fx": [
     "ring@20",
@@ -165,7 +166,10 @@
    "say": "Acontece que o resultado impressionou: Bukele teve quase oitenta e cinco por cento dos votos.",
    "verbos_ok": [
     "impre"
-   ]
+   ],
+   "set": "loc_pista",
+   "text": "84,6%",
+   "titulo": true
   },
   {
    "shot": "crowd",
@@ -201,8 +205,6 @@
     "ding@20",
     "ding@60"
    ],
-   "text": "84,6%",
-   "titulo": true,
    "say": "Os apoiadores lotaram as ruas, e ele comemorou numa sacada.",
    "light": "dusk",
    "set": "palace",

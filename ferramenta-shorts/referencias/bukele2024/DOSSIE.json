@@ -8,11 +8,10 @@
   "luz_base": "day",
   "cenarios": [
    "hall",
-   "interior galpao",
-   "interior loja",
    "interior madeira",
    "loc_campo",
    "loc_cidade",
+   "loc_patio",
    "loc_pista",
    "palace"
   ],
@@ -41,21 +40,15 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "kit/ballot_box",
-  "kit/cone_transito",
   "kit/globe",
-  "kit/palete",
   "kit/prison",
   "kit/room_eua_wood",
-  "kit/room_europa_shop",
-  "kit/room_galpao",
   "kit/scroll",
   "kit/volcano",
   "mk/Bookcase_2",
   "mk/Chair_1",
   "mk/Chest_Wood",
-  "mk/Crate_Metal",
-  "mk/Table_Large",
-  "mk/Workbench"
+  "mk/Table_Large"
  ],
  "pesquisa_visual": {
   "local": "San Salvador, El Salvador: Palacio Nacional e praca em frente; urnas em escolas/centros de votacao",

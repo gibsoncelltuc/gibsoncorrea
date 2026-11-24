@@ -62,7 +62,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Efeitos sonoros marcados: sting@20, ding@50
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@20, stars@50
-- Texto na tela: -
+- Texto na tela: 84,6%
 - Funcao na historia: VIRADA
 
 ## Cena b7  (~3.4 s)
@@ -71,7 +71,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Efeitos sonoros marcados: ding@20, ding@60
 - Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; encena: chega (point) @2 -> acao + som de efeito; encena: vence (up) @7 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
-- Texto na tela: 84,6%
+- Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b8  (~5.9 s)

@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 26 - O Presidente dos 85 por Cento
 
-Gerado em 24/11 08:21 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 08:24 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -12,11 +12,11 @@ b2 | chave | loc_cidade | crowd | BUK, POV | 12 | - | corpo: tropa/personagens e
 b3 | simples | interior madeira | two | JUI, REP | - | scroll | - | A Constituição proibia a reeleição seguida, mas em dois mil e vinte e 
 b4 | simples | hall | two | REP, POV | - | - | - | Críticos e opositores disseram que a candidatura era ilegal. O governo
 b5 | simples | loc_campo | two | POV, POV | - | ballot_box | - | No dia da eleição, os salvadorenhos foram às urnas.
-b6 | simples | interior loja | close | REP | - | - | - | Acontece que o resultado impressionou: Bukele teve quase oitenta e cin
-b7 | chave | palace | orbit | BUK, POV, POV | 30 | ballot_box, volcano | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os apoiadores lotaram as ruas, e ele comemorou numa sacada.
-b8 | simples | interior galpao | two | REP, BUK | - | - | - | Os eleitores citaram os assassinatos: de cento e seis para dois vírgul
-b9 | simples | loc_pista | two | REP, POV | - | prison | - | Organizações de direitos humanos, porém, criticaram as prisões em mass
-b10 | simples | loc_pista | close | BUK | - | ballot_box, globe | - | Amado por muitos e criticado por outros, ele virou um dos presidentes 
+b6 | simples | loc_pista | orbit | REP, BUK | 6 | - | - | Acontece que o resultado impressionou: Bukele teve quase oitenta e cin
+b7 | chave | palace | orbit | BUK, POV, POV | 22 | ballot_box, volcano | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os apoiadores lotaram as ruas, e ele comemorou numa sacada.
+b8 | simples | loc_patio | two | REP, BUK | - | - | - | Os eleitores citaram os assassinatos: de cento e seis para dois vírgul
+b9 | simples | loc_patio | group | REP, POV | - | prison | - | Organizações de direitos humanos, porém, criticaram as prisões em mass
+b10 | simples | loc_patio | close | BUK | - | ballot_box, globe | - | Amado por muitos e criticado por outros, ele virou um dos presidentes 
 b11 | simples | loc_campo | close | BUK | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

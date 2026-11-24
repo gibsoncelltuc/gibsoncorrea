@@ -61,12 +61,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | entregar | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b6 - 32.4s a 36.8s - 15 palavras - plano close
+## Cena b6 - 32.4s a 36.8s - 15 palavras - plano orbit
 > "Acontece que o resultado impressionou: Bukele teve quase oitenta e cinco por cento dos votos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | reagir | OK |
+| 2 | - | PLACA | 84,6% | OK |
 
 ## Cena b7 - 38.0s a 40.8s - 10 palavras - plano orbit
 > "Os apoiadores lotaram as ruas, e ele comemorou numa sacada."
@@ -78,7 +79,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
 | 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 5 | - | ATUACAO | comemorar | OK |
-| 6 | - | PLACA | 84,6% | OK |
 
 ## Cena b8 - 41.9s a 46.4s - 17 palavras - plano two
 > "Os eleitores citaram os assassinatos: de cento e seis para dois vírgula quatro por cem mil habitantes."
@@ -89,7 +89,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 47.9s a 52.9s - 15 palavras - plano two
+## Cena b9 - 47.9s a 52.9s - 15 palavras - plano group
 > "Organizações de direitos humanos, porém, criticaram as prisões em massa e o estado de exceção."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
