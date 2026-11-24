@@ -31,10 +31,9 @@
   {
    "camera": "reveal",
    "personagens": [
-    "MAR",
     "MAR"
    ],
-   "multidao": 8,
+   "multidao": 0,
    "objetos": [
     "kit/navio_vela",
     "navio em movimento",

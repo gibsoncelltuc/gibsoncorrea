@@ -16,7 +16,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): MAR (variante 0, expressao neutral); MAR (variante 1, expressao smile) | multidao: 8 de MAR/POV
+- Personagens principais (1): MAR (variante 0, expressao neutral) | multidao: 0 de 
 - Animacao: encena
 - Objetos/modelos: kit/navio_vela, navios de guerra ao fundo, no tamanho real, navio em movimento
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ilhas, navio
