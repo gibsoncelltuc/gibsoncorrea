@@ -69,10 +69,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Acontece que saiu o contrário: uma cola que grudava, mas soltava fácil...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (1): SIL (variante 0, expressao shock, segura paper)
-- Animacao: reagir
+- Personagens principais (2): SIL (variante 0, expressao shock, segura paper); CHE (variante 0, expressao suspicious)
+- Animacao: reagir | interacao: avanca e o outro recua
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cola, contrario
 - RISCOS: nenhum
@@ -81,7 +81,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: SIL (cientista) no centro, expressao shock, segura paper; sem multidao; acao: fala/gesto
+- PERSONAGENS: SIL (cientista) na esquerda, expressao shock, segura paper; CHE (empresario) na direita, expressao suspicious; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
 - SOM: sting@30
@@ -118,7 +118,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (3): FRY (variante 0, expressao sad); PAD (variante 0, expressao smile); POV (variante 0, expressao smile) | multidao: 4 de POV
-- Animacao: conversar | interacao: avanca e o outro recua
+- Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): coral, igreja
 - RISCOS: nenhum
@@ -139,7 +139,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): FRY (variante 0, expressao angry, segura paper); PAD (variante 0, expressao surprised)
-- Animacao: conversar | interacao: o outro se aproxima
+- Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/postit
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): hinario, papeizinhos
 - RISCOS: nenhum
@@ -182,24 +182,21 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b8 - O papel saiu amarelo por acaso: era o único de rascunho à mão.
-- Cenario: interior madeira | luz: day | clima: limpo
+- Cenario: loc_estudio | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): FRY (variante 0, expressao grin); SIL (variante 0, expressao laugh)
-- Animacao: conversar | interacao: abracar
-- Objetos/modelos: kit/postit
+- Personagens principais (0): - | multidao: 0 de 
+- Animacao: -
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): papel, rascunho
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e postit juntos (camera a 11.5 m)
-- PERSONAGENS: FRY na esquerda, expressao grin; SIL (cientista) na direita, expressao laugh; sem multidao; acao: abracar
-- OBJETO kit/postit: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (41.4-43.0 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (43.0-44.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
+- OBJETO: kit/postit no centro, manobra "gira"
+- PASSOS NA TELA: PAPEL DE RASCUNHO -> AMARELO -> POR ACASO
+- TAKES: 1 take de explicacao (3.2 s): objeto no centro do estudio, rotulos entrando nas palavras
 <!-- /FICHA -->
 
 ## Cena b9 - Então distribuíram amostras de graça para vários escritórios, e quase ...
@@ -228,10 +225,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b10 - Em mil novecentos e oitenta, o post-it chegou às lojas. Graças a uma c...
 - Cenario: countryside | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (1): SIL (variante 0, expressao smile)
-- Animacao: conversar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Personagens principais (2): SIL (variante 0, expressao smile); CHE (variante 0, expressao grin)
+- Animacao: conversar | interacao: vai ate o outro | o ultimo personagem ENTRA andando
 - Objetos/modelos: kit/postit
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cola, lojas, postit
 - RISCOS: nenhum
@@ -239,9 +236,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e postit juntos (camera a 8.0 m)
-- PERSONAGENS: SIL (cientista) no centro, expressao smile; sem multidao; acao: fala/gesto
-- OBJETO kit/postit: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e postit juntos (camera a 11.5 m)
+- PERSONAGENS: SIL (cientista) na esquerda, expressao smile; CHE (empresario) na direita, expressao grin; sem multidao; acao: fala/gesto
+- OBJETO kit/postit: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "1980" numa placa atras dos personagens, na palavra 1 da frase
 - TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
   - take 1 (51.3-53.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
@@ -264,13 +261,13 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/postit | b0, b6, b7, b8, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/postit | b0, b6, b7, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/globe | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/postit | grandes momentos: b1, b9 | planos abertos: 3 | mistura: close 20% | medio 62% | aberto 15% | detalhe 2%
-- Interacoes: b0 discutir, b4 entregar, b5 avanca e o outro recua, b6 o outro se aproxima, b8 abracar
+- Objeto heroi: kit/postit | grandes momentos: b1, b9 | planos abertos: 3 | mistura: close 11% | medio 74% | aberto 15% | detalhe 0%
+- Interacoes: b0 discutir, b3 avanca e o outro recua, b4 entregar, b5 o outro se aproxima, b6 insiste, b10 vai ate o outro
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
