@@ -61,8 +61,7 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Duas palavras transformaram um empresário de Nova York numa estrela da televisão mundial: você está demitido.",
-   "objetos": false
+   "say": "Duas palavras transformaram um empresário de Nova York numa estrela mundial: você está demitido."
   },
   {
    "shot": "reveal",

@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | placa: 2004 | encena: vira (up) @2 (acao + som de efeito) | -
+b0 | two | -  | placa: 2004 | - | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | interior | prêmio (stars + som de sino); encena: x_discute (point) @2 (acao + som de efeito); encena: vence (up) @4 (acao + som de efeito) | -
 b3 | two | -  | - | vender (stars + som de sino); encena: negocio (reach) @10 (acao + som de efeito) | -
@@ -15,5 +15,5 @@ b9 | two | -  | - | encena: fala (point) @1 (acao + som de efeito) | -
 b10 | close | -  | - | - | -
 b11 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 26% | medio 63% | aberto 11% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 26% | medio 61% | aberto 11% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

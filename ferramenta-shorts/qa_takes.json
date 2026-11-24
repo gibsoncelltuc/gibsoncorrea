@@ -1,108 +1,80 @@
 {
  "fails": [
   {
-   "f": 444,
-   "shot": "b2~2",
+   "f": 108,
+   "shot": "b0~2",
    "why": [
-    "par: head/torso cropped (box 1.153, 0.526, 1.376, 0.712)"
+    "tru: HIDDEN behind red_tv/#6a4a2a"
    ]
   },
   {
-   "f": 448,
-   "shot": "b2~2",
+   "f": 112,
+   "shot": "b0~2",
    "why": [
-    "par: head/torso cropped (box 1.153, 0.529, 1.338, 0.712)"
+    "tru: HIDDEN behind red_tv/#6a4a2a"
    ]
   },
   {
-   "f": 452,
-   "shot": "b2~2",
+   "f": 116,
+   "shot": "b0~2",
    "why": [
-    "par: head/torso cropped (box 1.145, 0.529, 1.33, 0.715)"
+    "tru: HIDDEN behind red_tv/#6a4a2a"
    ]
   },
   {
-   "f": 456,
-   "shot": "b2~2",
+   "f": 120,
+   "shot": "b0~2",
    "why": [
-    "par: head/torso cropped (box 1.132, 0.527, 1.316, 0.713)"
+    "tru: HIDDEN behind red_tv/#6a4a2a"
    ]
   },
   {
-   "f": 457,
-   "shot": "b2~3",
+   "f": 121,
+   "shot": "b0~2",
    "why": [
-    "par: head/torso cropped (box 1.13, 0.527, 1.356, 0.718)"
+    "tru: HIDDEN behind red_tv/#6a4a2a"
    ]
   },
   {
-   "f": 460,
-   "shot": "b2~3",
+   "f": 124,
+   "shot": "b0~2",
    "why": [
-    "par: head/torso cropped (box 1.123, 0.525, 1.348, 0.714)"
+    "tru: HIDDEN behind red_tv/#6a4a2a"
    ]
   },
   {
-   "f": 464,
-   "shot": "b2~3",
+   "f": 128,
+   "shot": "b0~2",
    "why": [
-    "par: head/torso cropped (box 1.126, 0.512, 1.334, 0.686)"
+    "tru: HIDDEN behind red_tv/#6a4a2a"
    ]
   },
   {
-   "f": 468,
-   "shot": "b2~3",
+   "f": 132,
+   "shot": "b0~2",
    "why": [
-    "par: head/torso cropped (box 1.093, 0.49, 1.231, 0.635)"
+    "tru: HIDDEN behind red_tv/#6a4a2a"
    ]
   },
   {
-   "f": 480,
-   "shot": "b2~3",
+   "f": 188,
+   "shot": "b0~3",
    "why": [
-    "par: head/torso cropped (box 1.031, 0.473, 1.139, 0.592)"
+    "tru: HIDDEN behind red_tv/#6a4a2a"
    ]
   },
   {
-   "f": 484,
-   "shot": "b2~3",
+   "f": 192,
+   "shot": "b0~3",
    "why": [
-    "par: head/torso cropped (box 1.029, 0.474, 1.136, 0.592)"
+    "tru: HIDDEN behind red_tv/#6a4a2a"
    ]
   },
   {
-   "f": 488,
-   "shot": "b2~3",
+   "f": 193,
+   "shot": "b0~3",
    "why": [
-    "par: head/torso cropped (box 1.029, 0.475, 1.133, 0.591)"
-   ]
-  },
-  {
-   "f": 492,
-   "shot": "b2~3",
-   "why": [
-    "par: head/torso cropped (box 1.029, 0.476, 1.13, 0.591)"
-   ]
-  },
-  {
-   "f": 496,
-   "shot": "b2~3",
-   "why": [
-    "par: head/torso cropped (box 1.029, 0.477, 1.132, 0.591)"
-   ]
-  },
-  {
-   "f": 500,
-   "shot": "b2~3",
-   "why": [
-    "par: head/torso cropped (box 1.028, 0.476, 1.132, 0.591)"
-   ]
-  },
-  {
-   "f": 503,
-   "shot": "b2~3",
-   "why": [
-    "par: head/torso cropped (box 1.031, 0.477, 1.134, 0.592)"
+    "tru: HIDDEN behind red_tv/#6a4a2a"
    ]
   }
  ],
