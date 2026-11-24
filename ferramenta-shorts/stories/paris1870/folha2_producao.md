@@ -8,7 +8,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): PAR (variante 0, expressao nervous); PAR (variante 1, expressao pained)
 - Animacao: reagir | interacao: susto
-- Objetos/modelos: elephant
+- Objetos/modelos: kit/panela
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): jantar
 - RISCOS: nenhum
 
@@ -68,7 +68,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): CHF (variante 0, expressao grin); PAR (variante 2, expressao shock)
 - Animacao: conversar | interacao: tremem de frio
-- Objetos/modelos: kit/panela, elephant, wolf
+- Objetos/modelos: kit/panela
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canguru, elefante, lobo, natal, restaurante
 - RISCOS: nenhum
 
@@ -127,16 +127,15 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-elephant | b0, b4, b5, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/panela | b0, b3, b6, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_notredame | b1, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b1, b4, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b1, b4, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 dog | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 cat | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 barrel | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/panela | b3, b6, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+elephant | b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 deer | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-wolf | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/balloon_air | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/balloon | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 

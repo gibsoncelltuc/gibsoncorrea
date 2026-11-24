@@ -2,13 +2,13 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | animais, interior, placa: 1870 | encena: x_come (eat) @5 (acao + som de efeito) | -
+b0 | two | -  | interior, placa: 1870 | encena: x_come (eat) @5 (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | encena: chega (point) @7 (acao + som de efeito) | -
 b2 | group | -  | animais, interior, placa: CAVALOS, CÃES, GATOS | - | -
 b3 | two | -  | placa: RATOS | - | -
 b4 | crowd | -  | batalha aberta com tiros, tropa, animais | encena: olha (point) @3 (acao + som de efeito) | -
 b5 | close | - neve | animais, placa: CASTOR E PÓLUX | comprou (stars + som de sino); vendeu (stars + som de sino); encena: negocio (reach) @2 (acao + som de efeito); encena: negocio (reach) @9 (acao + som de efeito) | -
-b6 | two | - neve | animais, interior, placa: NATAL DE 1870 | - | -
+b6 | two | - neve | interior, placa: NATAL DE 1870 | - | -
 b7 | group | - neve | placa: BALÕES E POMBOS | encena: fala (point) @1 (acao + som de efeito) | -
 b8 | crowd | -  | batalha aberta com tiros, tropa | chegou (dust + som de impacto); encena: chega (point) @2 (acao + som de efeito); encena: corre @4 (acao + som de efeito) | -
 b9 | two | - neve | - | - | -
