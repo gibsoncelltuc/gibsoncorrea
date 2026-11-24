@@ -4,10 +4,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Uma guerra entre os Estados Unidos e a Inglaterra quase aconteceu por ...
 - Cenario: arctic | luz: day | clima: neve
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): AME (variante 0, expressao angry); CAN (variante 0, expressao angry) | multidao: 0 de 
-- Animacao: discutir
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (2): AME (variante 0, expressao angry, segura axe); CAN (variante 0, expressao angry, segura axe) | multidao: 0 de 
+- Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/logs, nature/tree_pine
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estados, inglaterra, lenhadores
 - RISCOS: nenhum
@@ -26,9 +26,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: arctic | luz: day | clima: neve
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): AME (variante 0, expressao smug); CAN (variante 0, expressao smug)
+- Personagens principais (2): AME (variante 0, expressao smug, segura axe); CAN (variante 0, expressao smug, segura axe)
 - Animacao: discutir | interacao: vai ate o outro
-- Objetos/modelos: kit/logs, nature/tree_pine, tools/axe, nature/tree_oak, nature/bush
+- Objetos/modelos: kit/logs, nature/tree_pine, nature/tree_oak, nature/bush
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aroostook, dois, madeira, mata, mesmas
 - RISCOS: nenhum
 
@@ -119,7 +119,6 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/logs | b0, b2, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_pine | b0, b2, b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-tools/axe | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/bush | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/prison | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -128,8 +127,8 @@ pig | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, 
 
 
 ## Video inteiro
-- Objeto heroi: kit/logs | grandes momentos: b3 | planos abertos: 3 | mistura: close 9% | medio 66% | aberto 22% | detalhe 2%
-- Interacoes: b1 tremem de frio, b2 vai ate o outro, b5 empurrar, b6 cochichar, b7 entregar, b8 entregar, b9 aproxima-se
+- Objeto heroi: kit/logs | grandes momentos: b3 | planos abertos: 2 | mistura: close 9% | medio 74% | aberto 12% | detalhe 5%
+- Interacoes: b0 discutir, b1 tremem de frio, b2 vai ate o outro, b5 empurrar, b6 cochichar, b7 entregar, b8 entregar, b9 aproxima-se
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
