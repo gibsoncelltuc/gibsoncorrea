@@ -257,11 +257,9 @@ dog | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, 
 ## Video inteiro
 - Objeto heroi: kit/syringe | grandes momentos: b6, b9 | planos abertos: 3 | mistura: close 33% | medio 52% | aberto 13% | detalhe 2%
 - Interacoes: b2 avanca e o outro recua, b3 susto, b8 cochichar
-- RISCOS GERAIS: 
-  - FOLHA 4: 8 item(ns) sem referencia visual: Paris, laboratorio de Pasteur na Escola Normal Superior (rua d'Ulm): bancadas co, Louis Pasteur (barba grisalha, casaca preta, solideu), Joseph Meister, menino  -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: 8 item(ns) sem referencia visual: Paris, laboratorio de Pasteur na Escola Normal Superior (rua d'Ulm): bancadas co, Louis Pasteur (barba grisalha, casaca preta, solideu), Joseph Meister, menino 
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh pasteur1885 bN bM` (so essas cenas).

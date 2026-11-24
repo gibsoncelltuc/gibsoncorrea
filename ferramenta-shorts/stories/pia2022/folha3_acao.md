@@ -16,6 +16,17 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | - | INTERACAO | susto | OK |
 | 6 | - | ATUACAO | conversar | OK |
 | 7 | - | CHEGADA | alguem entra andando | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: chega na palavra entrou (0.7s): executa: entra andando pela lateral
+- ACAO: pega na palavra carregando (0.9s): executa: levanta/segura
+- EFEITO: stars na palavra comprando (2.9s): executa: estrelinhas + som
+- ACAO: paga na palavra comprando (2.9s): executa: estende a mao com moedas + brilho
+- INTERACAO (a cena toda): executa: susto
+- ATUACAO (a cena toda): executa: conversar
+- CHEGADA (a cena toda): executa: alguem entra andando
+<!-- /FISICA -->
 
 ## Cena b1 - 4.2s a 8.4s - 19 palavras - plano two
 > "Foi Elon Musk, em outubro de dois mil e vinte e dois, na sede do Twitter, em São Francisco."
@@ -25,6 +36,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | o outro se aproxima | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | MAPA | ESTADOS UNIDOS | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: o outro se aproxima
+- ATUACAO (a cena toda): executa: conversar
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+<!-- /FISICA -->
 
 ## Cena b2 - 9.8s a 13.7s - 16 palavras - plano close
 > "Ele filmou a própria entrada, com a pia nos braços, e postou o vídeo na internet."
@@ -35,6 +53,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | entrada (10.7s) | ACAO: chega | entra andando pela lateral | OK |
 | 3 | postou (12.9s) | ACAO: x_fone | celular na mao + toque | OK |
 | 4 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: tira na palavra filmou (10.1s): executa: tira foto (celular + flash)
+- ACAO: chega na palavra entrada (10.7s): executa: entra andando pela lateral
+- ACAO: x_fone na palavra postou (12.9s): executa: celular na mao + toque
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
 
 ## Cena b3 - 15.1s a 19.0s - 11 palavras - plano two
 > "A legenda dizia: Entrando na sede do Twitter. Deixe isso afundar."
@@ -46,6 +72,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | insiste | OK |
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | PLACA | LET THAT SINK IN | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: chega na palavra Entrando (16.2s): executa: entra andando pela lateral
+- ACAO: desaba na palavra afundar (19.0s): executa: desaba: nuvem de poeira + tremor
+- INTERACAO (a cena toda): executa: insiste
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 
 ## Cena b4 - 20.4s a 24.3s - 14 palavras - plano two
 > "É um trocadilho: em inglês, a palavra sink quer dizer pia, e também afundar."
@@ -64,6 +99,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 4 | - | INTERACAO | discutir | OK |
 | 5 | - | ATUACAO | reagir | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: x_abre na palavra fechou (28.0s): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
+- ACAO: negocio na palavra compra (28.4s): executa: moeda girando (compra/venda)
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- ATUACAO (a cena toda): executa: reagir
+<!-- /FISICA -->
 
 ## Cena b6 - 32.1s a 34.9s - 12 palavras - plano two
 > "No mesmo dia, ele demitiu o presidente e outros chefes da empresa."
@@ -72,6 +116,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | INTERACAO | vai ate o outro | OK |
 | 2 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: vai ate o outro
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
 
 ## Cena b7 - 36.1s a 39.1s - 12 palavras - plano two
 > "Ele também mudou o perfil, e escreveu que era o Chefe Twit."
@@ -81,6 +131,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | escreveu (37.8s) | ACAO: escreve | escreve/assina | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | CHIEF TWIT | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: escreve na palavra escreveu (37.8s): segura o papel e mexe a mao como se escrevesse
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 
 ## Cena b8 - 40.1s a 41.8s - 9 palavras - plano crowd
 > "O vídeo da pia virou piada no mundo inteiro."
@@ -88,6 +145,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- multidao de 14: parada, reagindo (laugh), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
 
 ## Cena b9 - 43.1s a 46.0s - 11 palavras - plano orbit
 > "Uma pia, um trocadilho e quarenta e quatro bilhões de dólares."
@@ -103,4 +166,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | COMENTE! | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 

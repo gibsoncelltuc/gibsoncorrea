@@ -170,7 +170,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (3): SEM (variante 0, expressao laugh); MAE (variante 0, expressao laugh); PAR (variante 0, expressao grin) | multidao: 0 de 
-- Animacao: comemorar | grande momento (efeito + som, sem tiro)
+- Animacao: comemorar
 - Objetos/modelos: kit/wash_basin, kit/marco_viena
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): mortes
 - RISCOS: nenhum
@@ -235,10 +235,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b10 - Anos depois, a ciência provou que ele estava certo. Hoje, é chamado de...
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (1): PAR (variante 0, expressao smile)
-- Animacao: conversar
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): PAR (variante 0, expressao smile) | multidao: 12 de POV
+- Animacao: encena | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/wash_basin
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ciencia, maes, salvador
 - RISCOS: nenhum
@@ -258,7 +258,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): SEM (variante 0, expressao grin)
 - Animacao: conversar
@@ -279,7 +279,7 @@ kit/lapide | b9 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/wash_basin | grandes momentos: b1, b7 | planos abertos: 2 | mistura: close 19% | medio 70% | aberto 4% | detalhe 7%
+- Objeto heroi: kit/wash_basin | grandes momentos: b1, b10 | planos abertos: 3 | mistura: close 20% | medio 65% | aberto 10% | detalhe 5%
 - Interacoes: b0 empurrar, b2 aproxima-se, b3 avanca e o outro recua, b4 o outro se aproxima, b6 discutir, b8 empurrar
 - RISCOS GERAIS: 
   - FOLHA 4: 10 item(ns) sem referencia visual: Hospital Geral de Viena (Allgemeines Krankenhaus), Austria: enfermarias de parto, Ignaz Semmelweis (calvo, bigode, sobrecasaca escura), medicos e estudantes de  -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
