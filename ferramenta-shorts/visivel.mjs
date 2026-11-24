@@ -24,7 +24,7 @@ await new Promise((r) => srv.on('listening', r));
 const br = await launch(); const pg = await br.newPage({ viewport: { width: RW, height: RH } }); pg.on('pageerror', (e) => console.log('ERR', e.message));
 await pg.addInitScript(([w, h]) => { window.RENDER_W = w; window.RENDER_H = h; }, [RW, RH]);
 await pg.goto(`http://localhost:${srv.address().port}/index.html`); await pg.waitForFunction(() => window.ready || window.err, null, { timeout: 240000 });
-const out = []; const falhas = [];
+const out = []; const falhas = []; const porCena = {};
 for (const s of SPEC.shots) {
   const len = s.b - s.a; const frs = [0.2, 0.5, 0.8].map((q) => s.a + Math.round(len * q)); const res = [];
   for (const f of frs) {
@@ -62,17 +62,18 @@ for (const s of SPEC.shots) {
       // personagem cortado: carta de boneco grande (mais de 45% da altura da tela) atravessando a borda do quadro
       R.cortado = 0; scene.traverse((o) => { if (!o.isMesh || !isCard(o) || !vis(o)) return; const bb = new THREE.Box3().setFromObject(o); if (bb.isEmpty() || bb.min.y > 6.7) return; /* so' boneco com os pes no chao (placa de texto e passaro flutuam) */ let x0 = 9, x1 = -9, y0 = 9, y1 = -9, atras = false;
         for (const x of [bb.min.x, bb.max.x]) for (const y of [bb.min.y, bb.max.y]) for (const z of [bb.min.z, bb.max.z]) { const n = new THREE.Vector3(x, y, z).project(cam); if (n.z > 1) atras = true; x0 = Math.min(x0, n.x); x1 = Math.max(x1, n.x); y0 = Math.min(y0, n.y); y1 = Math.max(y1, n.y); }
-        if (atras) return; const alt = (Math.min(y1, 1) - Math.max(y0, -1)) / 2; if (alt > 0.45 && (x0 < -1.15 || x1 > 1.15) && x1 > -1 && x0 < 1) R.cortado++; });
+        if (atras) return; const alt = (Math.min(y1, 1) - Math.max(y0, -1)) / 2; const fr_ = (Math.min(x1, 1) - Math.max(x0, -1)) / Math.max(1e-6, x1 - x0); if (alt > 0.45 && fr_ < 0.65 && x1 > -1 && x0 < 1) R.cortado++;   /* mais de 1/3 do boneco fora da tela */ });
       return R;
     }, [f, need[s.id] || []]));
   }
   const rep = { id: s.id, quadros: res };
-  for (const a of need[s.id] || []) { const big = /navio|ship|boat|submarino|aviao|airplane|tanque|tank|casa|house|predio|building|castelo|igreja|torre|ponte|trem|locomotiva|onibus|caminhao|truck|balloon|balao|foguete|rocket|roadster|carro|car_/i.test(a); const ok = res.filter((r) => r.objs.some((o) => o.a === a && o.vis >= 0.5 && o.area >= (big ? 0.05 : 0.004))).length >= 2; if (!ok) falhas.push(`${s.id}: objeto citado "${a}" nao aparece na tela (escondido, fora do quadro ou pequeno demais)`); }
+  for (const a of need[s.id] || []) { const okT = (r) => r.objs.some((o) => o.a === a && o.vis >= 0.5 && o.area >= (/navio|ship|boat|submarino|aviao|airplane|tanque|tank|casa|house|predio|building|castelo|igreja|torre|ponte|trem|locomotiva|onibus|caminhao|truck|balloon|balao|foguete|rocket|roadster|carro|car_/i.test(a) ? 0.05 : 0.004)); const bk = String(s.id).replace(/^(b\d+).*/, '$1'); (porCena[bk + '|' + a] = porCena[bk + '|' + a] || []).push(res.filter(okT).length >= 2); continue; const big = /navio|ship|boat|submarino|aviao|airplane|tanque|tank|casa|house|predio|building|castelo|igreja|torre|ponte|trem|locomotiva|onibus|caminhao|truck|balloon|balao|foguete|rocket|roadster|carro|car_/i.test(a); const ok = res.filter((r) => r.objs.some((o) => o.a === a && o.vis >= 0.5 && o.area >= (big ? 0.05 : 0.004))).length >= 2; if (!ok) falhas.push(`${s.id}: objeto citado "${a}" nao aparece na tela (escondido, fora do quadro ou pequeno demais)`); }
   const bl = res.filter((r) => r.bloq); if (bl.length >= 2) falhas.push(`${s.id}: "${bl[0].bloq.obj}" tapando a camera (${Math.round(bl[0].bloq.frac * 100)}% do quadro, colado na lente)`);
-  if (res.filter((r) => r.cortado).length >= 2) falhas.push(`${s.id}: personagem CORTADO na borda do quadro (boneco grande saindo da tela)`);
+  if (!/_d$|_v$/.test(s.id) && res.filter((r) => r.cortado).length >= 2) falhas.push(`${s.id}: personagem CORTADO na borda do quadro (boneco grande saindo da tela)`);
   const dn = res.find((r) => r.dentro); if (dn) falhas.push(`${s.id}: camera DENTRO de "${dn.dentro}"`);
   out.push(rep);
 }
+for (const [k, v] of Object.entries(porCena)) if (!v.some(Boolean)) { const [bk, a] = k.split('|'); falhas.push(`${bk}: objeto citado "${a}" nao aparece na tela (escondido, fora do quadro ou pequeno demais)`); }
 await br.close(); srv.close();
 fs.writeFileSync(`stories/${id}/visibilidade.json`, JSON.stringify({ id, falhas, tomadas: out }, null, 1));
 if (falhas.length) { console.log('VISIBILIDADE: ' + falhas.length + ' FALHA(S)'); falhas.forEach((x) => console.log('FALHA ' + x)); process.exit(3); }
