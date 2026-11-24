@@ -60,6 +60,19 @@ log "render $N quadros (trechos de 150, retomavel)"
 set +e; node render_pool.mjs $ID $N >> $L 2>&1; RC=$?; set -e; tail -3 $L
 [ $RC -eq 75 ] && { log "PAUSADO pela trava de seguranca; relance run_queue.sh para continuar"; exit 75; }
 [ $RC -ne 0 ] && { log "render incompleto (codigo $RC)"; exit 1; }
+# 24/11 (Melancia): disco cheio no meio do render deixou um trecho com 95 de 150 quadros e o video saiu 1,8 s mais curto que a voz.
+# Confere cada trecho (150 quadros, o ultimo o resto) e refaz sozinho o que veio incompleto (ate 2 vezes).
+for _volta in 1 2; do _ruins=$(python3 - "$ID" "$N" <<'PYS'
+import sys, subprocess, glob, os
+i, n = sys.argv[1], int(sys.argv[2]); out = []
+for k in range((n + 149) // 150):
+    f = f'ckpt/{i}/seg_{k:03d}.mp4'; esp = min(150, n - k * 150)
+    if not os.path.exists(f): out.append(f); continue
+    r = subprocess.run(['ffprobe', '-v', 'error', '-count_packets', '-select_streams', 'v', '-show_entries', 'stream=nb_read_packets', '-of', 'csv=p=0', f], capture_output=True, text=True).stdout.strip()
+    if not r.isdigit() or int(r) < esp: out.append(f)
+print(' '.join(out))
+PYS
+); [ -z "$_ruins" ] && break; log "trecho(s) incompleto(s) ($_ruins): apagando e renderizando de novo"; for _s in $_ruins; do rm -f "$_s"; _k=$((10#$(basename $_s .mp4 | sed 's/seg_//'))); for _q in $(seq $((_k*150)) $((_k*150+149))); do rm -f out/$ID/frames/f$(printf %04d $_q).jpg; done; done; bash limpar_disco.sh >> $L 2>&1; set +e; node render_pool.mjs $ID $N >> $L 2>&1; set -e; done
 if [ "$(tv)" != "$TV0" ]; then log "a ferramenta foi atualizada DURANTE o render: descartando e refazendo o video inteiro na versao nova"; rm -rf ckpt/$ID out/$ID/frames stories/$ID/stages/fit stories/$ID/stages/gate stories/$ID/stages/style; exit 75; fi
-./assemble.sh $ID "$T" >> $L 2>&1; ./review_video.sh out/$ID/$T.mp4 out/$ID/review | tee -a $L
+./assemble.sh $ID "$T" >> $L 2>&1; _dv=$(ffprobe -v error -show_entries format=duration -of csv=p=0 out/$ID/$T.mp4 2>/dev/null); _da=$(ffprobe -v error -show_entries format=duration -of csv=p=0 stories/$ID/voice.mp3 2>/dev/null); python3 -c "import sys;sys.exit(0 if float('${_dv:-0}') >= float('${_da:-0}') - 0.4 else 1)" || { log "VIDEO MAIS CURTO QUE A VOZ (${_dv}s x ${_da}s): falta trecho; refazendo"; rm -f out/$ID/$T.mp4; exit 1; }; ./review_video.sh out/$ID/$T.mp4 out/$ID/review | tee -a $L
 echo "motor v13 $(date +%F_%T)" > stories/$ID/DONE; python3 cronograma.py $ID >/dev/null 2>&1 || true; bash ckpt.sh $ID "pronto" >/dev/null 2>&1 || true; log "PRONTO out/$ID/$T.mp4 (+ out/$ID/review_sheet.jpg)"
