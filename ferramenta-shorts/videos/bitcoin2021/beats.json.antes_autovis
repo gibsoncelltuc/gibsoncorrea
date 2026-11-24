@@ -81,61 +81,9 @@
     "march": false
    },
    "_susp_ok": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/bitcoin",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   }
-  },
-  {
-   "say": "Foi em El Salvador, na América Central, e a ideia foi do presidente Nayib Bukele.",
-   "shot": "close",
-   "who": [
-    "BUK:0:smug"
-   ],
-   "mapa": "EL SALVADOR",
-   "mapa_at": 1,
-   "tiros": false,
-   "batalha": false,
-   "impact": false
-  },
-  {
-   "say": "Ele anunciou o projeto em junho de dois mil e vinte e um, e o congresso aprovou poucos dias depois.",
-   "shot": "wide",
-   "who": [
-    "DEP:0:neutral",
-    "BUK:0:smile",
-    "CLI:0:neutral"
-   ],
-   "interior": "pedra",
-   "props": [
-    [
-     "kit/bitcoin",
-     0.6,
-     1.0,
-     1.5,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "tiros": false,
-   "batalha": false,
-   "impact": false,
-   "quadro": {
-    "local": "sala de pedra (governo/castelo)",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/bitcoin",
@@ -148,9 +96,72 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
+   "d1": 11.5
+  },
+  {
+   "say": "Foi em El Salvador, na América Central, e a ideia foi do presidente Nayib Bukele.",
+   "shot": "close",
+   "who": [
+    "BUK:0:smug"
+   ],
+   "mapa": "EL SALVADOR",
+   "mapa_at": 1,
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "quadro_manual": true,
+   "d0": 4.5,
+   "d1": 4.0
+  },
+  {
+   "say": "Ele anunciou o projeto em junho de dois mil e vinte e um, e o congresso aprovou poucos dias depois.",
+   "shot": "group",
+   "who": [
+    "DEP:0:smile",
+    "DEP:1:grin",
+    "BUK:0:smile"
+   ],
+   "props": [
+    [
+     "kit/bitcoin",
+     0.0,
+     -1.2,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "quadro": {
+    "local": "loc_cidade",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bitcoin",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
    "detalhe": false,
-   "_auto_vis": 2
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "DEP"
+    ],
+    "march": false,
+    "expr": "smile"
+   },
+   "text": "LEI APROVADA",
+   "set": "loc_cidade",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "A lei passou a valer em sete de setembro, e o país foi o primeiro do mundo a fazer isso.",
@@ -194,8 +205,8 @@
     [
      "kit/bitcoin",
      0.0,
-     -1.0,
-     1.0,
+     -1.2,
+     1.5,
      {
       "fixo": true
      }
@@ -223,10 +234,6 @@
     "march": false
    },
    "_susp_ok": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
@@ -245,15 +252,18 @@
      }
     ]
    },
-   "_auto_vis": 1
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Acontece que, no lançamento, o aplicativo ficou fora do ar por algumas horas.",
-   "shot": "close",
+   "shot": "wide",
    "who": [
     "CLI:0:surprised"
    ],
-   "text": "CARTEIRA CHIVO",
+   "text": "FORA DO AR",
    "fx": [
     "stars@2"
    ],
@@ -266,7 +276,38 @@
    "verbos_ok": [
     "lanco"
    ],
-   "riscos_ok": true
+   "riscos_ok": true,
+   "props": [
+    [
+     "kit/phone",
+     2.4,
+     0.2,
+     0.9,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "_susp_tela": true,
+   "_susp_ok": true,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "detalhe": false,
+   "_auto_vis": 1
   },
   {
    "say": "Uma pesquisa da Universidade Centro-Americana mostrou que sessenta e oito por cento discordavam da decisão.",
@@ -358,10 +399,6 @@
    "impact": false,
    "detalhe": false,
    "vary": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
@@ -373,7 +410,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   }
  ],
  "duracao_ok": true,

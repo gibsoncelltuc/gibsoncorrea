@@ -1,252 +1,252 @@
 {
- "duration": 65.4,
- "frames30": 1962,
- "source": "silence-align (cost 0.96)",
+ "duration": 61.464,
+ "frames30": 1844,
+ "source": "silence-align (cost 0.74)",
  "segments": [
   [
-   0.140792,
-   2.51746
+   0.149875,
+   2.20675
   ],
   [
-   2.74708,
-   6.64321
+   2.40587,
+   3.59312
   ],
   [
-   7.4955,
-   8.72546
+   3.85712,
+   5.05213
   ],
   [
-   8.88658,
-   10.1195
+   5.9635,
+   7.67387
   ],
   [
-   10.9585,
-   13.0565
+   7.93412,
+   8.58058
   ],
   [
-   13.3023,
-   15.8944
+   8.70829,
+   9.49087
   ],
   [
-   16.742,
-   17.566
+   9.73054,
+   11.5017
   ],
   [
-   17.7855,
-   20.2023
+   12.3769,
+   14.4748
   ],
   [
-   20.4243,
-   20.9938
+   14.7203,
+   17.3127
   ],
   [
-   21.8344,
-   22.7475
+   18.1652,
+   19.1095
   ],
   [
-   22.9855,
-   27.297
+   19.3027,
+   23.3729
   ],
   [
-   28.1638,
-   32.1358
+   24.2415,
+   28.2113
   ],
   [
-   33.0034,
-   33.8277
+   29.0811,
+   29.9053
   ],
   [
-   34.0323,
-   35.1757
+   30.11,
+   31.2524
   ],
   [
-   35.4222,
-   38.2212
+   31.4999,
+   34.2989
   ],
   [
-   39.0798,
-   40.6527
+   35.1575,
+   36.7306
   ],
   [
-   40.8845,
-   41.5205
+   36.9622,
+   37.5983
   ],
   [
-   41.7525,
-   44.3322
+   37.8302,
+   40.4099
   ],
   [
-   45.1901,
-   47.3866
+   41.2678,
+   43.4643
   ],
   [
-   47.6054,
-   49.5514
+   43.6831,
+   45.629
   ],
   [
-   50.3947,
-   51.9644
+   46.4725,
+   48.042
   ],
   [
-   52.8069,
-   53.985
+   48.8845,
+   50.0628
   ],
   [
-   54.2062,
-   55.9037
+   50.2835,
+   51.9815
   ],
   [
-   56.7537,
-   58.847
+   52.8315,
+   54.9248
   ],
   [
-   59.1223,
-   60.2354
+   55.2,
+   56.3131
   ],
   [
-   61.088,
-   62.5323
+   57.1657,
+   58.61
   ],
   [
-   62.8251,
-   64.5867
+   58.9028,
+   60.6644
   ]
  ],
  "phrases": [
   {
-   "text": "Numa madrugada de janeiro de dois mil e vinte e seis,",
-   "s": 0.141,
-   "e": 2.517
+   "text": "Um presidente foi capturado de madrugada,",
+   "s": 0.15,
+   "e": 2.207
   },
   {
-   "text": "Trump autorizou uma das opera\u00e7\u00f5es militares mais ousadas dos \u00faltimos anos.",
-   "s": 2.747,
-   "e": 6.643
+   "text": "dentro da pr\u00f3pria capital,",
+   "s": 2.406,
+   "e": 3.593
   },
   {
-   "text": "O alvo estava em Caracas,",
-   "s": 7.495,
-   "e": 8.725
+   "text": "em menos de tr\u00eas horas.",
+   "s": 3.857,
+   "e": 5.052
   },
   {
-   "text": "a capital da Venezuela.",
-   "s": 8.887,
-   "e": 10.12
+   "text": "Foi em janeiro de dois mil e vinte e seis,",
+   "s": 5.963,
+   "e": 7.674
+  },
+  {
+   "text": "em Caracas,",
+   "s": 7.934,
+   "e": 8.581
+  },
+  {
+   "text": "na Venezuela,",
+   "s": 8.708,
+   "e": 9.491
+  },
+  {
+   "text": "numa opera\u00e7\u00e3o autorizada por Trump.",
+   "s": 9.731,
+   "e": 11.502
   },
   {
    "text": "Era o presidente venezuelano Nicol\u00e1s Maduro,",
-   "s": 10.959,
-   "e": 13.056
+   "s": 12.377,
+   "e": 14.475
   },
   {
    "text": "acusado pela justi\u00e7a americana de narcoterrorismo.",
-   "s": 13.302,
-   "e": 15.894
-  },
-  {
-   "text": "Durante meses,",
-   "s": 16.742,
-   "e": 17.566
-  },
-  {
-   "text": "a intelig\u00eancia americana estudou cada passo dele,",
-   "s": 17.785,
-   "e": 20.202
-  },
-  {
-   "text": "em segredo.",
-   "s": 20.424,
-   "e": 20.994
+   "s": 14.72,
+   "e": 17.313
   },
   {
    "text": "\u00c0s duas da manh\u00e3,",
-   "s": 21.834,
-   "e": 22.747
+   "s": 18.165,
+   "e": 19.11
   },
   {
-   "text": "helic\u00f3pteros levaram os soldados da For\u00e7a Delta direto para o complexo onde Maduro estava.",
-   "s": 22.985,
-   "e": 27.297
+   "text": "helic\u00f3pteros levaram soldados da For\u00e7a Delta direto ao complexo onde Maduro estava.",
+   "s": 19.303,
+   "e": 23.373
   },
   {
    "text": "Ao mesmo tempo, ataques a\u00e9reos desligaram as defesas antia\u00e9reas do pa\u00eds.",
-   "s": 28.164,
-   "e": 32.136
+   "s": 24.241,
+   "e": 28.211
   },
   {
    "text": "Acontece que,",
-   "s": 33.003,
-   "e": 33.828
+   "s": 29.081,
+   "e": 29.905
   },
   {
    "text": "em menos de tr\u00eas horas,",
-   "s": 34.032,
-   "e": 35.176
+   "s": 30.11,
+   "e": 31.252
   },
   {
    "text": "Maduro foi capturado e levado para fora da Venezuela.",
-   "s": 35.422,
-   "e": 38.221
+   "s": 31.5,
+   "e": 34.299
   },
   {
    "text": "Trump acompanhou tudo de longe,",
-   "s": 39.08,
-   "e": 40.653
+   "s": 35.157,
+   "e": 36.731
   },
   {
    "text": "na Fl\u00f3rida,",
-   "s": 40.885,
-   "e": 41.52
+   "s": 36.962,
+   "e": 37.598
   },
   {
    "text": "ao lado do diretor da CIA e do secret\u00e1rio de Estado.",
-   "s": 41.752,
-   "e": 44.332
+   "s": 37.83,
+   "e": 40.41
   },
   {
    "text": "Maduro foi levado de avi\u00e3o para Nova York,",
-   "s": 45.19,
-   "e": 47.387
+   "s": 41.268,
+   "e": 43.464
   },
   {
    "text": "onde responde a um processo na justi\u00e7a.",
-   "s": 47.605,
-   "e": 49.551
+   "s": 43.683,
+   "e": 45.629
   },
   {
    "text": "Nenhum militar americano morreu.",
-   "s": 50.395,
-   "e": 51.964
+   "s": 46.472,
+   "e": 48.042
   },
   {
    "text": "A not\u00edcia parou o mundo,",
-   "s": 52.807,
-   "e": 53.985
+   "s": 48.885,
+   "e": 50.063
   },
   {
    "text": "e dividiu opini\u00f5es entre pa\u00edses.",
-   "s": 54.206,
-   "e": 55.904
+   "s": 50.283,
+   "e": 51.981
   },
   {
    "text": "A opera\u00e7\u00e3o ganhou um nome que resume tudo:",
-   "s": 56.754,
-   "e": 58.847
+   "s": 52.831,
+   "e": 54.925
   },
   {
    "text": "Resolu\u00e7\u00e3o Absoluta.",
-   "s": 59.122,
-   "e": 60.235
+   "s": 55.2,
+   "e": 56.313
   },
   {
    "text": "Agora n\u00e3o deixe de comentar:",
-   "s": 61.088,
-   "e": 62.532
+   "s": 57.166,
+   "e": 58.61
   },
   {
    "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
-   "s": 62.825,
-   "e": 64.587
+   "s": 58.903,
+   "e": 60.664
   }
  ]
 }

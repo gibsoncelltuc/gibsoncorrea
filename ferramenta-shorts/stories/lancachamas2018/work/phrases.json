@@ -1,180 +1,198 @@
 {
- "duration": 40.584,
- "frames30": 1218,
+ "duration": 49.248,
+ "frames30": 1477,
  "source": "silence-align (cost 0.44)",
  "segments": [
   [
-   0.153417,
-   1.59762
+   0.159375,
+   3.44633
   ],
   [
-   1.81829,
-   2.82046
+   4.36371,
+   5.42604
   ],
   [
-   3.01788,
-   3.82154
+   5.59462,
+   6.675
   ],
   [
-   4.03792,
-   5.58375
+   7.52462,
+   8.3965
   ],
   [
-   5.86279,
-   7.12937
+   8.64392,
+   10.2047
   ],
   [
-   7.98354,
-   9.891
+   10.4353,
+   11.3031
   ],
   [
-   10.7527,
-   12.5343
+   12.1501,
+   13.9567
   ],
   [
-   13.3977,
-   14.6757
+   14.1724,
+   15.7392
   ],
   [
-   14.912,
-   16.8718
+   16.6154,
+   19.0065
   ],
   [
-   17.0692,
-   17.9195
+   19.2767,
+   20.0849
   ],
   [
-   18.7583,
-   21.2952
+   20.921,
+   23.3253
   ],
   [
-   22.2016,
-   23.864
+   23.5389,
+   24.8177
   ],
   [
-   24.7034,
-   26.4384
+   25.6876,
+   28.2245
   ],
   [
-   26.6882,
-   28.8882
+   29.141,
+   30.7544
   ],
   [
-   29.7419,
-   31.6604
+   30.9755,
+   32.7561
   ],
   [
-   32.5093,
-   34.0863
+   33.6134,
+   36.5721
   ],
   [
-   34.3286,
-   35.4422
+   37.4253,
+   40.3354
   ],
   [
-   36.2732,
-   37.7156
+   41.175,
+   42.7522
   ],
   [
-   38.0107,
-   39.7722
+   42.9943,
+   44.1081
+  ],
+  [
+   44.9389,
+   46.3834
+  ],
+  [
+   46.6762,
+   48.4378
   ]
  ],
  "phrases": [
   {
-   "text": "No come\u00e7o de dois mil e dezoito,",
-   "s": 0.153,
-   "e": 1.598
+   "text": "Um bilion\u00e1rio vendeu um lan\u00e7a-chamas e jurou que n\u00e3o era um lan\u00e7a-chamas.",
+   "s": 0.159,
+   "e": 3.446
   },
   {
-   "text": "nos Estados Unidos,",
-   "s": 1.818,
-   "e": 2.82
+   "text": "Foi em dois mil e dezoito,",
+   "s": 4.364,
+   "e": 5.426
   },
   {
-   "text": "a Boring Company,",
-   "s": 3.018,
-   "e": 3.822
+   "text": "nos Estados Unidos.",
+   "s": 5.595,
+   "e": 6.675
+  },
+  {
+   "text": "A Boring Company,",
+   "s": 7.525,
+   "e": 8.396
   },
   {
    "text": "a empresa de t\u00faneis de Elon Musk,",
-   "s": 4.038,
-   "e": 5.584
+   "s": 8.644,
+   "e": 10.205
   },
   {
-   "text": "come\u00e7ou a vender um produto.",
-   "s": 5.863,
-   "e": 7.129
+   "text": "lan\u00e7ou o produto.",
+   "s": 10.435,
+   "e": 11.303
   },
   {
-   "text": "O nome dele era N\u00e3o \u00e9 um lan\u00e7a-chamas.",
-   "s": 7.984,
-   "e": 9.891
+   "text": "O nome dele era N\u00e3o \u00e9 um lan\u00e7a-chamas,",
+   "s": 12.15,
+   "e": 13.957
   },
   {
-   "text": "O pre\u00e7o era de quinhentos d\u00f3lares.",
-   "s": 10.753,
-   "e": 12.534
+   "text": "e custava quinhentos d\u00f3lares.",
+   "s": 14.172,
+   "e": 15.739
   },
   {
-   "text": "O nome dizia que n\u00e3o era,",
-   "s": 13.398,
-   "e": 14.676
-  },
-  {
-   "text": "mas o aparelho tinha cara de lan\u00e7a-chamas,",
-   "s": 14.912,
-   "e": 16.872
+   "text": "Acontece que o aparelho soltava fogo de verdade,",
+   "s": 16.615,
+   "e": 19.006
   },
   {
    "text": "e essa era a piada.",
-   "s": 17.069,
-   "e": 17.919
+   "s": 19.277,
+   "e": 20.085
+  },
+  {
+   "text": "Musk explicou que o nome era para driblar a alf\u00e2ndega,",
+   "s": 20.921,
+   "e": 23.325
+  },
+  {
+   "text": "que barrava lan\u00e7a-chamas.",
+   "s": 23.539,
+   "e": 24.818
   },
   {
    "text": "Cada compra vinha com um extintor de inc\u00eandio de brinde.",
-   "s": 18.758,
-   "e": 21.295
+   "s": 25.688,
+   "e": 28.224
   },
   {
-   "text": "Foram vinte mil unidades \u00e0 venda.",
-   "s": 22.202,
-   "e": 23.864
+   "text": "Foram vinte mil unidades \u00e0 venda,",
+   "s": 29.141,
+   "e": 30.754
   },
   {
-   "text": "E elas esgotaram em poucos dias,",
-   "s": 24.703,
-   "e": 26.438
+   "text": "e elas esgotaram em poucos dias.",
+   "s": 30.976,
+   "e": 32.756
   },
   {
-   "text": "rendendo cerca de dez milh\u00f5es de d\u00f3lares.",
-   "s": 26.688,
-   "e": 28.888
+   "text": "Isso rendeu cerca de dez milh\u00f5es de d\u00f3lares para a empresa.",
+   "s": 33.613,
+   "e": 36.572
   },
   {
-   "text": "A not\u00edcia se espalhou pelo mundo inteiro.",
-   "s": 29.742,
-   "e": 31.66
+   "text": "O pr\u00f3prio Musk postou v\u00eddeos soltando fogo com o aparelho.",
+   "s": 37.425,
+   "e": 40.335
   },
   {
    "text": "Um produto que se chamava de tudo,",
-   "s": 32.509,
-   "e": 34.086
+   "s": 41.175,
+   "e": 42.752
   },
   {
    "text": "menos do que parecia.",
-   "s": 34.329,
-   "e": 35.442
+   "s": 42.994,
+   "e": 44.108
   },
   {
    "text": "Agora n\u00e3o deixe de comentar:",
-   "s": 36.273,
-   "e": 37.716
+   "s": 44.939,
+   "e": 46.383
   },
   {
    "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
-   "s": 38.011,
-   "e": 39.772
+   "s": 46.676,
+   "e": 48.438
   }
  ]
 }

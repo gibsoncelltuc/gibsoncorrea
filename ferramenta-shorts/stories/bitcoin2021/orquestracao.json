@@ -41,11 +41,11 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "reveal",
+   "camera": "close",
    "personagens": [
     "BUK"
    ],
-   "multidao": 8,
+   "multidao": 0,
    "objetos": [
     "kit/volcano"
    ],
@@ -124,13 +124,14 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "CLI"
    ],
-   "multidao": 10,
+   "multidao": 18,
    "objetos": [
-    "kit/phone"
+    "kit/phone",
+    "kit/volcano"
    ],
    "palavras": 13,
    "cena": "b5",
@@ -148,7 +149,7 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "CLI",
     "POV"
@@ -165,7 +166,7 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "orbit",
+   "camera": "group",
    "personagens": [
     "BUK",
     "DEP"
@@ -187,7 +188,7 @@
    "cenario": "loc_patio"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "BUK",
     "POV",
