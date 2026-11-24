@@ -116,21 +116,21 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b7 - 35.6s a 39.6s - 14 palavras - plano two
+## Cena b7 - 35.6s a 38.5s - 14 palavras - plano two
 > "Conta-se que ela olhou a chapa e disse que tinha visto a própria morte."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | olhou (36.2s) | ACAO: olha | aponta/olha | OK |
+| 1 | olhou (36.4s) | ACAO: olha | aponta/olha | OK |
 | 2 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: olha na palavra olhou (36.2s): braco estendido apontando para o objeto/lugar citado
+- ACAO: olha na palavra olhou (36.4s): braco estendido apontando para o objeto/lugar citado
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b8 - 39.7s a 45.9s - 14 palavras - plano orbit
+## Cena b8 - 39.5s a 43.0s - 14 palavras - plano orbit
 > "A notícia correu o mundo, e médicos e curiosos queriam ver o raio misterioso."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -147,44 +147,44 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - multidao de 14: parada, reagindo (surprised), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b9 - 46.1s a 49.4s - 13 palavras - plano two
+## Cena b9 - 44.5s a 48.0s - 13 palavras - plano two
 > "Sem saber o que era, ele chamou de raio X: X, de desconhecido."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | chamou (47.9s) | ACAO: fala | aponta explicando | OK |
+| 1 | chamou (46.1s) | ACAO: fala | aponta explicando | OK |
 | 2 | - | INTERACAO | avanca e o outro recua | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | RAIO X | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: fala na palavra chamou (47.9s): braco estendido apontando para o objeto/lugar citado
+- ACAO: fala na palavra chamou (46.1s): braco estendido apontando para o objeto/lugar citado
 - INTERACAO (a cena toda): executa: avanca e o outro recua
 - ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b10 - 50.8s a 55.7s - 17 palavras - plano crowd
+## Cena b10 - 49.6s a 54.0s - 17 palavras - plano crowd
 > "Em mil novecentos e um, Röntgen ganhou o primeiro Nobel de Física, e nunca patenteou a descoberta."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ganhou (52.3s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | ganhou (52.3s) | ACAO: vence | bracos para cima + brilho | OK |
+| 1 | ganhou (51.1s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | ganhou (51.1s) | ACAO: vence | bracos para cima + brilho | OK |
 | 3 | - | ATUACAO | comemorar | OK |
 | 4 | - | PLACA | NOBEL | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra ganhou (52.3s): executa: estrelinhas + som
-- ACAO: vence na palavra ganhou (52.3s): executa: bracos para cima + brilho
+- EFEITO: stars na palavra ganhou (51.1s): executa: estrelinhas + som
+- ACAO: vence na palavra ganhou (51.1s): executa: bracos para cima + brilho
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 - multidao de 18: parada, reagindo (laugh), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b11 - 56.0s a 61.2s - 13 palavras - plano close
+## Cena b11 - 55.5s a 58.8s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
