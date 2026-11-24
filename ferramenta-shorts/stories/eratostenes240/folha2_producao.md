@@ -71,10 +71,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Isso significava que o sol estava bem em cima, e nada fazia sombra.
 - Cenario: loc_deserto | luz: desert | clima: calor
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): ERA (variante 0, expressao smile); CAM (variante 0, expressao neutral)
-- Animacao: conversar | interacao: vai ate o outro
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): ERA (variante 0, expressao smile); CAM (variante 0, expressao neutral) | multidao: 12 de POV
+- Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/well, nature/tree_palm
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
@@ -111,13 +111,13 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 2 (23.9-25.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
-## Cena b5 - Eratóstenes pensou: "Se a Terra fosse plana, as duas sombras seriam ig...
+## Cena b5 - Ele pensou: se a Terra fosse plana, as duas sombras seriam iguais.
 - Cenario: loc_montanha | luz: desert | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): ERA (variante 0, expressao suspicious)
 - Animacao: conversar
-- Objetos/modelos: kit/globe, nature/tree_palm, kit/marco_alexandria
+- Objetos/modelos: kit/globe, nature/tree_palm
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): duas, terra
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -136,7 +136,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_campo | luz: desert | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): ERA (variante 0, expressao shock); BIB (variante 0, expressao surprised) | multidao: 10 de BIB/POV/CAM
+- Personagens principais (2): ERA (variante 0, expressao shock); BIB (variante 0, expressao surprised) | multidao: 0 de 
 - Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/globe, kit/stick, nature/tree_palm, kit/marco_alexandria
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): sombra, terra
@@ -146,7 +146,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: praia / palacio; hora: desert
 - CAMERA: orbit; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)
-- PERSONAGENS: ERA (cientista) na esquerda, expressao shock; BIB (cientista) na direita, expressao surprised; multidao de 10 (BIB, POV, CAM) ATRAS dos principais; acao: fala/gesto
+- PERSONAGENS: ERA (cientista) na esquerda, expressao shock; BIB (cientista) na direita, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETO kit/globe: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/stick: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 3.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
@@ -198,31 +198,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 2 (44.4-46.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
-## Cena b9 - E tudo isso aconteceu mais de dois mil anos atrás, sem satélite e sem ...
-- Cenario: loc_montanha | luz: desert | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): ERA (variante 0, expressao laugh); BIB (variante 0, expressao laugh) | multidao: 14 de BIB/POV/CAM
-- Animacao: comemorar | grande momento (efeito + som, sem tiro)
-- Objetos/modelos: kit/globe, nature/tree_palm, kit/marco_alexandria, kit/starlink_sat
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois
-- RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: praia / palacio; hora: desert
-- CAMERA: plano de multidao; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)
-- PERSONAGENS: ERA (cientista) na esquerda, expressao laugh; BIB (cientista) na direita, expressao laugh; multidao de 14 (BIB, POV, CAM) ATRAS dos principais; acao: comemorar
-- OBJETO kit/globe: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
-- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +70 da cena
-- SOM: ding@30
-- SOM: sting@70
-- TEXTO NA TELA: "40.000 KM" flutuando no alto, na palavra 1 da frase
-- TAKES: sequencia de acao em 3 cameras (3.6 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
-<!-- /FICHA -->
-
-## Cena b10 - No fim, uma vara e um poço fizeram o trabalho de um satélite.
+## Cena b9 - No fim, uma vara e um poço fizeram o trabalho de um satélite.
 - Cenario: loc_montanha | luz: desert | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
@@ -239,12 +215,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: ERA (cientista) no centro, expressao smug; sem multidao; acao: comemorar
 - OBJETO kit/stick: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.0 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/well: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 2.7 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
-  - take 1 (52.6-54.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (54.0-55.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (47.4-49.0 s): mesmo angulo
+  - take 2 (49.0-50.7 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
-## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: loc_campo | luz: desert | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
@@ -259,26 +235,26 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/globe | b0, b5, b6, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/stick | b0, b4, b6, b7, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/tree_palm | b0, b2, b3, b4, b5, b6, b7, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_alexandria | b0, b1, b4, b5, b6, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/globe | b0, b5, b6 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/stick | b0, b4, b6, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/tree_palm | b0, b2, b3, b4, b5, b6, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_alexandria | b0, b1, b4, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/apartment | b1, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b1, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b1, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/well | b2, b3, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-tools/bucket | b2, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/starlink_sat | b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/well | b2, b3, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+tools/bucket | b2, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/starlink_sat | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/globe | grandes momentos: b6, b9 | planos abertos: 4 | mistura: close 16% | medio 58% | aberto 21% | detalhe 5%
-- Interacoes: b0 o outro se aproxima, b2 insiste, b3 vai ate o outro, b8 cochichar
+- Objeto heroi: kit/globe | grandes momentos: b3, b6 | planos abertos: 4 | mistura: close 11% | medio 62% | aberto 22% | detalhe 4%
+- Interacoes: b0 o outro se aproxima, b2 insiste, b8 cochichar
 - RISCOS GERAIS: 
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
+  - FOLHA 4: 9 item(ns) sem referencia visual: Eratóstenes Mede a Terra, Alexandria (Egito): Biblioteca e patio com obelisco; Siena (Assua): poco no dese, Eratostenes (tunica grega branca e manto, barba), bi -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
 
 ## RESUMO: 1 risco(s) em aberto
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
+- geral: FOLHA 4: 9 item(ns) sem referencia visual: Eratóstenes Mede a Terra, Alexandria (Egito): Biblioteca e patio com obelisco; Siena (Assua): poco no dese, Eratostenes (tunica grega branca e manto, barba), bi
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh eratostenes240 bN bM` (so essas cenas).
@@ -288,8 +264,8 @@ kit/starlink_sat | b9, b10 | pronto | conferir na folha de contato se le bem; se
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - (sem ficha)
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (56.5-58.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (58.1-59.8 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
+  - take 1 (50.9-53.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (53.0-55.1 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 

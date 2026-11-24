@@ -12,6 +12,14 @@
   },
   {
    "tipo": "lugar",
+   "item": "Paris, laboratorio de Pasteur na Escola Normal Superior (rua d'Ulm): bancadas co",
+   "consultas": [
+    "Paris laboratorio de Pasteur na Escola Normal Superior",
+    "Paris laboratorio de Pasteur na Escola Normal Superior rua d'Ulm 1885"
+   ]
+  },
+  {
+   "tipo": "lugar",
    "item": "França",
    "consultas": [
     "França 1885",
@@ -27,10 +35,66 @@
    ]
   },
   {
+   "tipo": "pessoas",
+   "item": "Louis Pasteur (barba grisalha, casaca preta, solideu)",
+   "consultas": [
+    "Louis Pasteur barba grisalha casaca preta solideu",
+    "Louis Pasteur barba grisalha casaca preta solideu 1885"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Joseph Meister, menino alsaciano de 9 anos",
+   "consultas": [
+    "Joseph Meister menino alsaciano de 9 anos",
+    "Joseph Meister menino alsaciano de 9 anos 1885"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "a mae de Joseph",
+   "consultas": [
+    "a mae de Joseph",
+    "a mae de Joseph 1885"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "medicos Vulpian e Grancher",
+   "consultas": [
+    "medicos Vulpian e Grancher",
+    "medicos Vulpian e Grancher 1885"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "seringa de vidro do seculo 19",
+   "consultas": [
+    "seringa de vidro do seculo 19",
+    "seringa de vidro do seculo 19 1885"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "frascos com medula de coelho",
+   "consultas": [
+    "frascos com medula de coelho",
+    "frascos com medula de coelho 1885"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "microscopio",
+   "consultas": [
+    "microscopio",
+    "microscopio 1885"
+   ]
+  },
+  {
    "tipo": "heroi",
    "item": "syringe",
    "consultas": [
-    "syringe",
+    "seringa de vidro do seculo 19",
     "Pasteur e a Vacina da Raiva"
    ]
   }

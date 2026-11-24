@@ -73,7 +73,7 @@
    "objetos": [],
    "palavras": 12,
    "cena": "b3",
-   "frase": "Franklin discordava, e disse: \"O raio é só eletricidade em tamanho gigante.\"",
+   "frase": "Franklin discordava: para ele, o raio era só uma faísca elétrica gigante.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -98,7 +98,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "countryside"
   },
   {
    "camera": "close",
@@ -117,7 +117,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior pedra"
+   "cenario": "countryside"
   },
   {
    "camera": "orbit",
@@ -125,7 +125,7 @@
     "FRA",
     "FIL"
    ],
-   "multidao": 8,
+   "multidao": 0,
    "objetos": [
     "kit/key",
     "kit/kite"
@@ -143,7 +143,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "countryside"
   },
   {
    "camera": "two",
@@ -155,26 +155,9 @@
    "objetos": [
     "kit/kite"
    ],
-   "palavras": 18,
+   "palavras": 19,
    "cena": "b7",
-   "frase": "Hoje se discute se isso aconteceu mesmo, e a sorte foi o raio não ter caído na pipa.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior madeira"
-  },
-  {
-   "camera": "group",
-   "personagens": [
-    "FIL",
-    "FRA"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 15,
-   "cena": "b8",
-   "frase": "Se tivesse caído, ele não estaria aqui para contar, e outros cientistas morreram tentando repetir.",
+   "frase": "Hoje se discute se isso aconteceu mesmo. E se um raio tivesse caído na pipa, ele não teria sobrevivido.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -194,7 +177,7 @@
     "nature/tree_oak"
    ],
    "palavras": 15,
-   "cena": "b9",
+   "cena": "b8",
    "frase": "Franklin então inventou o para-raios, e hoje ele protege casas e prédios no mundo inteiro.",
    "classe": "chave",
    "sujeito": "personagem",
@@ -218,7 +201,7 @@
     "kit/key"
    ],
    "palavras": 10,
-   "cena": "b10",
+   "cena": "b9",
    "frase": "No fim, o raio perdeu a briga para uma chave.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -234,7 +217,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b11",
+   "cena": "b10",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",

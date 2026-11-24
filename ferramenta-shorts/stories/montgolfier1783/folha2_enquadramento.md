@@ -12,27 +12,27 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - TEXTO NA TELA: "1783" flutuando no alto, na palavra 1 da frase
 
 ## b1: "Era mil setecentos e oitenta e três, na França."
-- LOCAL: vila medieval; hora: day
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: revelacao (camera sobe e abre)
 - PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: FRANÇA (cobre a tela 1-2 s)
 
-## b2: "Os irmãos Montgolfier, donos de uma fábrica de papel, repararam que a fumaça quente fazia sacos de papel flutuarem."
-- LOCAL: vila medieval; hora: day
+## b2: "Os irmãos Montgolfier, donos de uma fábrica de papel, viram que a fumaça quente fazia sacos de papel flutuarem."
+- LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e campfire juntos (camera a 11.5 m)
 - PERSONAGENS: JOS (comerciante) na esquerda, expressao surprised; ETI (comerciante) na direita, expressao suspicious; sem multidao; acao: fala/gesto
 - OBJETO kit/campfire: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
 - SOM: whoosh@40
 
-## b3: "Então costuraram um balão gigante de pano e papel, e encheram de ar quente."
+## b3: "Então fizeram um balão gigante de pano e papel, cheio de ar quente."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: ETI (comerciante) no centro, expressao grin; sem multidao; acao: conversar
 - OBJETO kit/balloon: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
-## b4: "Só que ninguém sabia se dava para respirar lá em cima. E se o ar do céu matasse?"
+## b4: "Só que ninguém sabia se dava para respirar lá em cima."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: NOB (nobre) na esquerda, expressao suspicious; ETI (comerciante) na direita, expressao nervous; sem multidao; acao: discutir
@@ -44,51 +44,43 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: JOS (comerciante) no centro, expressao smile; sem multidao; acao: entregar
 - OBJETO kit/balloon: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
-## b6: "No palácio de Versalhes, o rei Luís dezesseis e a rainha Maria Antonieta vieram assistir, com uma multidão."
-- LOCAL: praia / palacio; hora: day
+## b6: "Em Versalhes, o rei Luís dezesseis e Maria Antonieta assistiram, no meio de uma multidão."
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto
-- PERSONAGENS: REI (rei) no centro, expressao smile; sem multidao; acao: batalha
+- PERSONAGENS: REI (rei) no centro, expressao smile; multidao de 16 (POV, NOB) ATRAS dos principais; acao: fala/gesto
 - OBJETO kit/balloon: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
 - SOM: sting@30
 
-## b7: "Acontece que o balão levantou voo de verdade, e foi embora pelo céu, com os bichos dentro."
+## b7: "Acontece que o balão levantou voo de verdade, com os bichos dentro."
 - LOCAL: vila medieval; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon_air (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: POV no centro, expressao shock; sem multidao; acao: fala/gesto
-- OBJETO kit/balloon_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: INDO EMBORA; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/balloon_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO whoosh: -; entra no quadro +20 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +50 da cena
 - SOM: whoosh@20
 - SOM: ding@50
 
-## b8: "Oito minutos depois, ele desceu num bosque a uns três quilômetros dali. Os irmãos correram para ver."
+## b8: "Oito minutos depois, ele desceu num bosque a três quilômetros dali, e os bichos estavam vivos: dava para respirar no céu."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: ETI (comerciante) no centro, expressao nervous; sem multidao; acao: fala/gesto
 - OBJETO kit/balloon: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
-## b9: "Os três bichos estavam vivos e bem! Dava para respirar no céu."
-- LOCAL: vila rural (casas, cercas, campo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: JOS (comerciante) na esquerda, expressao laugh; ETI (comerciante) na direita, expressao laugh; sem multidao; acao: abracar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
-- SOM: ding@40
-
-## b10: "Dois meses depois, foi a vez de dois homens voarem sobre Paris. A humanidade tinha chegado ao céu."
-- LOCAL: vila medieval; hora: day
+## b9: "Dois meses depois, outro balão levou dois homens por cima de Paris."
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon_air (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: POV no centro, expressao laugh; sem multidao; acao: comemorar
-- OBJETO kit/balloon_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: CHEGANDO; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/balloon_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: ding@20
 - SOM: ding@60
 - TEXTO NA TELA: "VOAMOS" flutuando no alto, na palavra 1 da frase
 
-## b11: "E tudo graças a uma ovelha, um pato e um galo corajosos."
-- LOCAL: vila rural (casas, cercas, campo); hora: day
+## b10: "Tudo graças a três bichos corajosos."
+- LOCAL: loc_montanha; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: ETI (comerciante) no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/balloon: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores

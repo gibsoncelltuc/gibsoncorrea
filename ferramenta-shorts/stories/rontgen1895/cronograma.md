@@ -1,33 +1,32 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 11 - O Raio X de Röntgen
 
-Gerado em 24/11 23:03 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:09 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | street | two | ROE, ANA | - | marco_wurzburg, xray_plate | - | Um cientista tirou a primeira foto de dentro do corpo humano, e assust
-b1 | transicao | street | reveal | POV, POV | 6 | house_two, marco_wurzburg, lamppost | - | Era mil oitocentos e noventa e cinco, numa cidade da Alemanha.
+b1 | chave | street | crowd | POV, POV | 6 | house_two, marco_wurzburg, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Era mil oitocentos e noventa e cinco, numa cidade da Alemanha.
 b2 | simples | interior madeira | two | ROE | - | crookes_tube | - | Wilhelm Röntgen passava as noites no laboratório, testando um tubo de 
 b3 | simples | interior madeira | close | ROE | - | crookes_tube | - | Numa noite, ele cobriu o tubo com papelão preto, e apagou a luz.
 b4 | simples | interior madeira | low | ROE | - | xray_plate | - | Acontece que, do outro lado da sala, uma tela começou a brilhar no esc
 b5 | simples | interior madeira | two | ROE | - | crookes_tube, xray_plate | - | Ele pôs a mão na frente do tubo, e viu os próprios ossos na tela.
 b6 | simples | interior madeira | group | ROE, ANA | - | xray_plate | - | Duas semanas depois, ele chamou a esposa, Anna, e fotografou a mão del
-b7 | simples | interior madeira | two | ANA | - | xray_plate | - | Dizem que ela olhou a chapa, e disse: "Eu vi a minha morte."
-b8 | chave | street | crowd | JOR, MED, POV | 18 | marco_wurzburg, xray_plate | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A notícia correu o mundo. Jornais, médicos e curiosos queriam ver o ra
-b9 | simples | interior madeira | two | ROE, JOR | - | xray_plate | - | Como ninguém sabia o que era, ele chamou de raio X. X, de desconhecido
-b10 | chave | street | orbit | ROE, MED, POV | 18 | marco_wurzburg | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em mil novecentos e um, Röntgen ganhou o primeiro Prêmio Nobel de Físi
-b11 | simples | street | group | ROE | 5 | xray_plate | - | E nunca quis patentear a descoberta. O raio X era de todo mundo.
-b12 | simples | street | close | ROE | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b7 | simples | interior madeira | two | ANA | - | xray_plate | - | Conta-se que ela olhou a chapa e disse que tinha visto a própria morte
+b8 | chave | street | orbit | JOR, MED, POV | 14 | marco_wurzburg, xray_plate | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A notícia correu o mundo, e médicos e curiosos queriam ver o raio mist
+b9 | simples | interior madeira | two | ROE, JOR | - | xray_plate | - | Sem saber o que era, ele chamou de raio X: X, de desconhecido.
+b10 | simples | street | crowd | ROE, MED, POV | 18 | marco_wurzburg | - | Em mil novecentos e um, Röntgen ganhou o primeiro Nobel de Física, e n
+b11 | simples | street | close | ROE | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (5/5 itens) | FEITO | 
-3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | FEITO | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | PENDENTE | corrigir o roteiro conforme a folha 2
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (5/13 itens) | PENDENTE | python3 pesquisar.py rontgen1895
+3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | REFAZER (a etapa anterior mudou) | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | BLOQUEADO (etapa anterior pendente) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 
@@ -39,5 +38,5 @@ N | Etapa | O que confere | Estado | Proximo passo
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local rontgen1895 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
-**Etapa atual:** 4. Travas do roteiro
+**Etapa atual:** 2. Pesquisa de campo
 

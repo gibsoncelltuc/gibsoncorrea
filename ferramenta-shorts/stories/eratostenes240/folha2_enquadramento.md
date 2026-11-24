@@ -34,7 +34,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: ERA (cientista) no centro, expressao suspicious; sem multidao; acao: fala/gesto
 - OBJETO kit/stick: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 5.0 m de altura x 1.0 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
-## b5: "Eratóstenes pensou: "Se a Terra fosse plana, as duas sombras seriam iguais.""
+## b5: "Ele pensou: se a Terra fosse plana, as duas sombras seriam iguais."
 - LOCAL: praia / palacio; hora: desert
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e globe juntos (camera a 8.0 m)
 - PERSONAGENS: ERA (cientista) no centro, expressao suspicious; sem multidao; acao: fala/gesto
@@ -43,7 +43,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b6: "Acontece que a sombra era diferente, e isso só podia acontecer se a Terra fosse curva."
 - LOCAL: praia / palacio; hora: desert
 - CAMERA: orbit; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)
-- PERSONAGENS: ERA (cientista) na esquerda, expressao shock; BIB (cientista) na direita, expressao surprised; multidao de 10 (BIB, POV, CAM) ATRAS dos principais; acao: fala/gesto
+- PERSONAGENS: ERA (cientista) na esquerda, expressao shock; BIB (cientista) na direita, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETO kit/globe: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/stick: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 3.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
@@ -63,18 +63,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: ERA (cientista) na esquerda, expressao grin, segura paper; BIB (cientista) na direita, expressao surprised; sem multidao; acao: cochichar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b9: "E tudo isso aconteceu mais de dois mil anos atrás, sem satélite e sem computador."
-- LOCAL: praia / palacio; hora: desert
-- CAMERA: plano de multidao; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)
-- PERSONAGENS: ERA (cientista) na esquerda, expressao laugh; BIB (cientista) na direita, expressao laugh; multidao de 14 (BIB, POV, CAM) ATRAS dos principais; acao: comemorar
-- OBJETO kit/globe: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
-- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +70 da cena
-- SOM: ding@30
-- SOM: sting@70
-- TEXTO NA TELA: "40.000 KM" flutuando no alto, na palavra 1 da frase
-
-## b10: "No fim, uma vara e um poço fizeram o trabalho de um satélite."
+## b9: "No fim, uma vara e um poço fizeram o trabalho de um satélite."
 - LOCAL: praia / palacio; hora: desert
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e stick juntos (camera a 8.0 m)
 - PERSONAGENS: ERA (cientista) no centro, expressao smug; sem multidao; acao: comemorar

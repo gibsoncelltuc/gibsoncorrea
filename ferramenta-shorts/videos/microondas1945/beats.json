@@ -157,13 +157,29 @@
     [
      "kit/popcorn",
      0.0,
-     -0.8,
+     -1.2,
      1.2,
      {
       "fixo": true
      }
     ]
-   ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e popcorn juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/popcorn",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "say": "Depois testou um ovo, e o ovo explodiu bem na cara de um colega.",
@@ -185,13 +201,29 @@
     [
      "kit/egg",
      0.0,
-     -0.8,
+     -1.2,
      1.2,
      {
       "fixo": true
      }
     ]
-   ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e egg juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/egg",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "say": "Dois anos depois, saiu o primeiro forno, mais alto que uma pessoa e com mais de trezentos quilos.",
@@ -256,13 +288,29 @@
     [
      "kit/microwave",
      0.0,
-     -1.0,
+     -1.2,
      1.0,
      {
       "fixo": true
      }
     ]
-   ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e microwave juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/microwave",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "say": "No fim, o chocolate perdeu, mas a pipoca agradece.",

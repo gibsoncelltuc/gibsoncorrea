@@ -58,21 +58,21 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 
 ## Cena b6  (~4.5 s)
 - Narracao: Só que a Bulgária apelou à Liga das Nações, a antecessora da ONU.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: LIGA DAS NAÇÕES
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: VIRADA
 
 ## Cena b7  (~7.6 s)
 - Narracao: A Liga mandou parar a guerra de dez dias, e a Grécia retirou as tropas e pagou quarenta e cinco mil libras.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: pagou -> stars + som de sino; encena: fala (point) @2 -> acao + som de efeito; encena: sai @12 -> acao + som de efeito; encena: negocio (reach) @16 -> acao + som de efeito
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160, gun@164, gun@168, gun@176, gun@180, gun@184, gun@188, gun@196, gun@200, gun@204
+- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; pagou -> stars + som de sino; encena: fala (point) @2 -> acao + som de efeito; encena: sai @12 -> acao + som de efeito; encena: negocio (reach) @16 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b8  (~3.8 s)
 - Narracao: Até hoje, não há acordo nem sobre a existência do cachorro.

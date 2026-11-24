@@ -8,17 +8,10 @@
   "luz_base": "day",
   "cenarios": [
    "arctic",
-   "harbor",
    "interior loja",
-   "loc_campo"
+   "loc_pista"
   ],
-  "cenarios_trocados": [
-   [
-    "cena 7",
-    "countryside",
-    "loc_campo"
-   ]
-  ]
+  "cenarios_trocados": []
  },
  "proibido_pela_epoca": [
   "barril",
@@ -43,7 +36,6 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "kit/falcon_air",
-  "kit/globe",
   "kit/roadster",
   "kit/rocket",
   "kit/room_eua_shop",
@@ -73,6 +65,9 @@
    "https://en.wikipedia.org/wiki/Elon_Musk%27s_Tesla_Roadster",
    "https://en.wikipedia.org/wiki/Falcon_Heavy_test_flight",
    "https://www.spacex.com/vehicles/falcon-heavy/"
+  ],
+  "explicacoes": [
+   "O Roadster foi lancado alem da orbita da Terra e ficou em orbita heliocentrica (ao redor do Sol), cruzando a orbita de Marte (fonte: Wikipedia Elon Musk's Tesla Roadster)"
   ]
  },
  "fontes": [],

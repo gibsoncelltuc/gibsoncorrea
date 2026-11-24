@@ -8,19 +8,14 @@
   "luz_base": "golden",
   "cenarios": [
    "interior loja",
-   "loc_campo",
+   "interior madeira",
+   "interior pedra",
    "loc_cidade",
-   "loc_patio",
-   "loc_pista"
+   "loc_estudio"
   ],
   "cenarios_trocados": [
    [
     "video",
-    "street",
-    "loc_cidade"
-   ],
-   [
-    "cena 9",
     "street",
     "loc_cidade"
    ]
@@ -49,21 +44,62 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "kit/coin",
-  "kit/globe",
   "kit/marco_goldengate",
   "kit/phone",
-  "kit/room_eua_shop",
-  "kit/sink"
+  "kit/room_azul_stone",
+  "kit/room_eua_stone",
+  "kit/room_europa_shop",
+  "kit/room_rosa_shop",
+  "kit/room_verde_wood",
+  "kit/sink",
+  "mk/Bench",
+  "mk/Bookcase_2",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Crate_Metal",
+  "mk/Shelf_Arch",
+  "mk/Shelf_Small_Bottles",
+  "mk/Stool",
+  "mk/Table_Large",
+  "mk/Vase_2",
+  "mk/Vase_4",
+  "mk/Workbench_Drawers"
  ],
- "pesquisa_visual": {},
+ "pesquisa_visual": {
+  "local": "Sede do Twitter, Market Street, Sao Francisco (California): saguao moderno com o passaro azul",
+  "quando": "26 a 27 de outubro de 2022, dia",
+  "participantes": [
+   "Elon Musk (camiseta preta, sorrindo, carregando uma pia de porcelana branca)",
+   "funcionarios do Twitter",
+   "executivos (Parag Agrawal e outros)"
+  ],
+  "roupas": {
+   "MUS": "camiseta preta e calca jeans",
+   "FUN": "camisa casual com cracha",
+   "FUN2": "moletom e cracha"
+  },
+  "cenario": "saguao do Twitter com piso claro, paredes com o logo do passaro azul, cafeteria; rua do centro de Sao Francisco",
+  "objetos": [
+   "pia de banheiro de porcelana branca",
+   "celular filmando",
+   "logo do Twitter"
+  ],
+  "explicacoes": [
+   "Em 26/10/2022 Musk entrou na sede do Twitter com uma pia e escreveu \"Entering Twitter HQ - let that sink in\"; em 27/10 concluiu a compra por US$ 44 bilhoes e demitiu o CEO Parag Agrawal e outros executivos; mudou a bio para \"Chief Twit\" (fonte: Wikipedia Acquisition of Twitter by Elon Musk)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Acquisition_of_Twitter_by_Elon_Musk"
+  ],
+  "locacoes": [
+   "loc_cidade",
+   "interior pedra",
+   "interior loja",
+   "interior madeira"
+  ],
+  "buscas": {
+   "pia": "Elon Musk sink Twitter HQ October 2022"
+  }
+ },
  "fontes": [],
- "falta": [
-  "local",
-  "quando",
-  "participantes",
-  "roupas",
-  "cenario",
-  "objetos",
-  "fontes_visuais"
- ]
+ "falta": []
 }

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 28 - A Selfie na ONU
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.8s - 15 palavras - plano reveal
@@ -17,22 +17,21 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - multidao de 16: parada, reagindo (neutral), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b1 - 4.9s a 8.7s - 16 palavras - plano two
+## Cena b1 - 4.9s a 8.7s - 16 palavras - plano reveal
 > "Foi na Assembleia Geral da ONU, em Nova York, em setembro de dois mil e dezenove."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | avanca e o outro recua | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | MAPA | ESTADOS UNIDOS | OK |
-| 4 | - | PLACA | ONU - NOVA YORK | OK |
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | MAPA | ESTADOS UNIDOS | OK |
+| 3 | - | PLACA | ONU - NOVA YORK | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: avanca e o outro recua
 - ATUACAO (a cena toda): executa: conversar
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- multidao de 12: parada, reagindo (neutra), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
 ## Cena b2 - 10.0s a 12.6s - 7 palavras - plano two
@@ -63,7 +62,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b4 - 18.3s a 22.7s - 16 palavras - plano two
+## Cena b4 - 18.3s a 22.7s - 16 palavras - plano low
 > "Acontece que, no púlpito, ele pediu licença por um momento e tirou o celular do bolso."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -105,32 +104,30 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | explicou (28.4s) | ACAO: fala | aponta explicando | OK |
 | 2 | foto (30.7s) | ACAO: tira | tira foto (celular + flash) | OK |
-| 3 | - | INTERACAO | o outro se aproxima | OK |
+| 3 | - | INTERACAO | avanca e o outro recua | OK |
 | 4 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: fala na palavra explicou (28.4s): braco estendido apontando para o objeto/lugar citado
 - ACAO: tira na palavra foto (30.7s): executa: tira foto (celular + flash)
-- INTERACAO (a cena toda): executa: o outro se aproxima
+- INTERACAO (a cena toda): executa: avanca e o outro recua
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b7 - 33.2s a 36.1s - 13 palavras - plano two
+## Cena b7 - 33.2s a 36.1s - 13 palavras - plano orbit
 > "E avisou que a ONU pode desaparecer como a Kodak e os dinossauros."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | avisou (33.3s) | ACAO: fala | aponta explicando | OK |
-| 2 | - | INTERACAO | insiste | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| 4 | - | PLACA | KODAK? | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 3 | - | PLACA | KODAK? | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: fala na palavra avisou (33.3s): braco estendido apontando para o objeto/lugar citado
-- INTERACAO (a cena toda): executa: insiste
-- ATUACAO (a cena toda): executa: conversar
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
@@ -139,29 +136,27 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | vai ate o outro | OK |
+| 1 | - | INTERACAO | o outro se aproxima | OK |
 | 2 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: vai ate o outro
+- INTERACAO (a cena toda): executa: o outro se aproxima
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b9 - 43.2s a 46.1s - 12 palavras - plano orbit
+## Cena b9 - 43.2s a 46.1s - 12 palavras - plano crowd
 > "A selfie rodou o mundo, e o discurso ficou em segundo plano."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | selfie (43.4s) | ACAO: tira | tira foto (celular + flash) | OK |
-| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 3 | - | ATUACAO | comemorar | OK |
-| 4 | - | PLACA | SELFIE | OK |
+| 2 | - | ATUACAO | comemorar | OK |
+| 3 | - | PLACA | SELFIE | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: tira na palavra selfie (43.4s): executa: tira foto (celular + flash)
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 - multidao de 20: parada, reagindo (laugh), sempre ATRAS dos personagens principais

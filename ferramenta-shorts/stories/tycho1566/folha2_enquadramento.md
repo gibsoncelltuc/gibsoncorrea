@@ -9,7 +9,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO kit/brass_nose: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "1566" numa placa atras dos personagens, na palavra 1 da frase
 
-## b1: "Era mil quinhentos e sessenta e seis. Tycho Brahe, um jovem nobre da Dinamarca, estudava numa cidade da Alemanha."
+## b1: "Era mil quinhentos e sessenta e seis, e Tycho Brahe, um jovem nobre dinamarquês, estudava na Alemanha."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: revelacao (camera sobe e abre)
 - PERSONAGENS: TYC (nobre) na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
@@ -22,7 +22,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: TYC (nobre) na esquerda, expressao angry; PAR no centro, expressao shout; POV na direita, expressao surprised, segura mug; sem multidao; acao: discutir
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b3: "A briga não acabou ali. Dias depois, os dois resolveram tudo num duelo de espadas, no escuro."
+## b3: "Dias depois, os dois resolveram a briga num duelo de espadas, no escuro."
 - LOCAL: rua de cidade (predios dos dois lados); hora: noite
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: TYC (nobre) na esquerda, expressao angry, segura sword; PAR na direita, expressao shout, segura sword; sem multidao; acao: discutir
@@ -74,17 +74,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@50
 - TEXTO NA TELA: "KEPLER" numa placa atras dos personagens, na palavra 1 da frase
 
-## b9: "Essa descoberta mudou a astronomia para sempre."
-- LOCAL: rua de cidade (predios dos dois lados); hora: dia
-- CAMERA: plano de multidao
-- PERSONAGENS: KEP (cientista) na esquerda, expressao laugh; POV no centro, expressao grin; POV na direita, expressao laugh; multidao de 16 (POV) ATRAS dos principais; acao: comemorar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
-- EFEITO anel de impacto: acima da cabeca; entra no quadro +50 da cena
-- SOM: ding@20
-- SOM: sting@50
-
-## b10: "E Tycho entrou para a história assim: com a cabeça nas estrelas, e o nariz de metal."
+## b9: "Com a cabeça nas estrelas, e o nariz de metal."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e brass_nose juntos (camera a 8.0 m)
 - PERSONAGENS: TYC (nobre) no centro, expressao smug; sem multidao; acao: fala/gesto

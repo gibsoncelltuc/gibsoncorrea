@@ -58,16 +58,16 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: ROE (cientista) na esquerda, expressao grin; ANA na direita, expressao nervous; sem multidao; acao: entregar
 - OBJETO kit/xray_plate: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
-## b7: "Dizem que ela olhou a chapa, e disse: "Eu vi a minha morte.""
+## b7: "Conta-se que ela olhou a chapa e disse que tinha visto a própria morte."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e xray_plate juntos (camera a 8.0 m)
 - PERSONAGENS: ANA no centro, expressao scared; sem multidao; acao: fala/gesto
 - OBJETO kit/xray_plate: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
-## b8: "A notícia correu o mundo. Jornais, médicos e curiosos queriam ver o raio misterioso."
+## b8: "A notícia correu o mundo, e médicos e curiosos queriam ver o raio misterioso."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano de multidao; plano medio enquadrando personagens e xray_plate juntos (camera a 11.5 m)
-- PERSONAGENS: JOR (jornalista) na esquerda, expressao surprised, segura paper; MED (medico) no centro, expressao grin; POV na direita, expressao shock; multidao de 18 (POV, JOR, MED) ATRAS dos principais; acao: batalha
+- PERSONAGENS: JOR (jornalista) na esquerda, expressao surprised, segura paper; MED (medico) no centro, expressao grin; POV na direita, expressao shock; multidao de 14 (JOR, MED, POV) ATRAS dos principais; acao: fala/gesto
 - OBJETO kit/xray_plate: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +60 da cena
@@ -75,14 +75,14 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: sting@60
 - TEXTO NA TELA: "NOTÍCIA" flutuando no alto, na palavra 1 da frase
 
-## b9: "Como ninguém sabia o que era, ele chamou de raio X. X, de desconhecido."
+## b9: "Sem saber o que era, ele chamou de raio X: X, de desconhecido."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: ROE (cientista) na esquerda, expressao smug; JOR (jornalista) na direita, expressao suspicious, segura paper; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "RAIO X" numa placa atras dos personagens, na palavra 1 da frase
 
-## b10: "Em mil novecentos e um, Röntgen ganhou o primeiro Prêmio Nobel de Física da história."
+## b10: "Em mil novecentos e um, Röntgen ganhou o primeiro Nobel de Física, e nunca patenteou a descoberta."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano de multidao
 - PERSONAGENS: ROE (cientista) na esquerda, expressao laugh; MED (medico) no centro, expressao grin; POV na direita, expressao laugh; multidao de 18 (POV, MED, JOR) ATRAS dos principais; acao: comemorar
@@ -92,10 +92,4 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@20
 - SOM: ding@60
 - TEXTO NA TELA: "NOBEL" flutuando no alto, na palavra 1 da frase
-
-## b11: "E nunca quis patentear a descoberta. O raio X era de todo mundo."
-- LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: close (rosto e ombros)
-- PERSONAGENS: ROE (cientista) no centro, expressao smile; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 

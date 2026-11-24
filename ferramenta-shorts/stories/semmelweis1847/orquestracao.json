@@ -8,7 +8,7 @@
    "loc_campo"
   ],
   [
-   "cena 13",
+   "cena 12",
    "street",
    "loc_campo"
   ]
@@ -16,7 +16,7 @@
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
-  "explicacoes_cobertas": 0,
+  "explicacoes_cobertas": 100,
   "cenario_e_epoca_ok": 100
  },
  "cenas": [
@@ -30,9 +30,9 @@
    "objetos": [
     "kit/wash_basin"
    ],
-   "palavras": 18,
+   "palavras": 14,
    "cena": "b0",
-   "frase": "Um médico pediu uma coisa simples aos colegas: lavem as mãos. E foi expulso do hospital por isso.",
+   "frase": "Um médico pediu aos colegas para lavarem as mãos, e foi expulso do hospital.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -74,9 +74,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 18,
+   "palavras": 14,
    "cena": "b2",
-   "frase": "O hospital tinha duas alas de parto. Numa, as mães eram atendidas por parteiras. Na outra, por médicos.",
+   "frase": "O hospital tinha duas alas de parto: uma de parteiras e outra de médicos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -91,33 +91,14 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 15,
+   "palavras": 14,
    "cena": "b3",
-   "frase": "E acontece que, na ala dos médicos, morriam muito mais mães, de uma febre misteriosa.",
+   "frase": "Acontece que, na ala dos médicos, morriam muito mais mães, de uma febre misteriosa.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "interior hospital"
-  },
-  {
-   "camera": "group",
-   "personagens": [
-    "MAE",
-    "POV"
-   ],
-   "multidao": 14,
-   "objetos": [
-    "kit/maca"
-   ],
-   "palavras": 13,
-   "cena": "b4",
-   "frase": "As mulheres imploravam de joelhos para não ir para a ala dos médicos.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_campo"
   },
   {
    "camera": "two",
@@ -127,9 +108,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 20,
-   "cena": "b5",
-   "frase": "Um dia, o amigo dele, Kolletschka, cortou o dedo com um bisturi, examinando um corpo, e morreu da mesma febre.",
+   "palavras": 17,
+   "cena": "b4",
+   "frase": "Um dia, o amigo Kolletschka se cortou com um bisturi numa autópsia, e morreu da mesma febre.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -143,9 +124,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 18,
-   "cena": "b6",
-   "frase": "Semmelweis entendeu tudo: os médicos saíam das autópsias e iam direto para os partos, com as mãos sujas.",
+   "palavras": 15,
+   "cena": "b5",
+   "frase": "Ele entendeu: os médicos saíam das autópsias e iam direto aos partos, de mãos sujas.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -163,8 +144,8 @@
     "kit/wash_basin"
    ],
    "palavras": 21,
-   "cena": "b7",
-   "frase": "Ele colocou uma bacia com água e cloro na porta, e obrigou todo mundo a lavar as mãos antes de entrar.",
+   "cena": "b6",
+   "frase": "Ele pôs uma bacia com água e cloro na porta, e obrigou os médicos a lavar as mãos antes de entrar.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -172,20 +153,20 @@
    "cenario": "interior hospital"
   },
   {
-   "camera": "crowd",
+   "camera": "orbit",
    "personagens": [
     "SEM",
     "MAE",
     "PAR"
    ],
-   "multidao": 30,
+   "multidao": 0,
    "objetos": [
     "kit/marco_viena",
     "kit/wash_basin"
    ],
-   "palavras": 11,
-   "cena": "b8",
-   "frase": "As mortes despencaram quase dez vezes. Centenas de mães foram salvas.",
+   "palavras": 6,
+   "cena": "b7",
+   "frase": "As mortes despencaram quase dez vezes.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -206,9 +187,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 20,
-   "cena": "b9",
-   "frase": "Mas os médicos se ofenderam. Um cavalheiro, diziam, tem as mãos limpas. Semmelweis brigou com todos, e foi mandado embora.",
+   "palavras": 10,
+   "cena": "b8",
+   "frase": "Mas os médicos se ofenderam, e Semmelweis foi mandado embora.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -224,9 +205,9 @@
    "objetos": [
     "kit/lapide"
    ],
-   "palavras": 16,
-   "cena": "b10",
-   "frase": "Ele morreu em mil oitocentos e sessenta e cinco, sem ver ninguém dar razão a ele.",
+   "palavras": 12,
+   "cena": "b9",
+   "frase": "Ele morreu em mil oitocentos e sessenta e cinco, sem ser reconhecido.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -242,10 +223,10 @@
    "objetos": [
     "kit/wash_basin"
    ],
-   "palavras": 15,
-   "cena": "b11",
-   "frase": "Anos depois, a ciência provou os micróbios. Hoje, ele é chamado de salvador das mães.",
-   "classe": "explicativa",
+   "palavras": 16,
+   "cena": "b10",
+   "frase": "Anos depois, a ciência provou que ele estava certo. Hoje, é chamado de salvador das mães.",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -259,7 +240,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b12",
+   "cena": "b11",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",

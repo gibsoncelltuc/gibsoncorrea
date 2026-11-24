@@ -3,7 +3,7 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/pasteur1885/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py pasteur1885` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Um menino de nove anos foi o primeiro a receber a vacina contra a raiv...
-- Cenario: loc_campo | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): PAS (variante 0, expressao smile) | multidao: 0 de 
@@ -23,14 +23,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 2 (1.6-3.1 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
-## Cena b1 - Era mil oitocentos e oitenta e cinco, na França, e o cientista Louis P...
-- Cenario: loc_campo | luz: day | clima: limpo
+## Cena b1 - Era mil oitocentos e oitenta e cinco, na França, e Louis Pasteur já er...
+- Cenario: street | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): MED (variante 0, expressao neutral); MED (variante 1, expressao smile) | multidao: 8 de POV/MED
 - Animacao: encena
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cientista, franca
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -40,20 +40,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: MED na esquerda, expressao neutral; MED na direita, expressao smile; multidao de 8 (POV, MED) ATRAS dos principais; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: FRANÇA (cobre a tela 1-2 s)
-- TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (4.2-6.1 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (6.1-8.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (8.0-9.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (4.2-5.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (5.9-7.5 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (7.5-9.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
-## Cena b2 - Na época, a raiva era uma doença fatal, e quem era mordido por um anim...
+## Cena b2 - Na época, quem era mordido por um animal com raiva quase nunca se salv...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): MED (variante 0, expressao sad); POV (variante 0, expressao scared)
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): animal, doenca, epoca, raiva
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): animal, epoca, raiva
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -62,16 +62,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: MED na esquerda, expressao sad; POV na direita, expressao scared; sem multidao; acao: conversar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (11.1-12.8 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (12.8-14.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (14.5-16.2 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (9.4-11.0 s): mesmo angulo
+  - take 2 (11.0-12.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (12.6-14.2 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b3 - Pasteur tinha criado uma vacina e testado só em animais, nunca em uma ...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): PAS (variante 0, expressao suspicious); MED (variante 0, expressao nervous)
 - Animacao: conversar | interacao: susto
 - Objetos/modelos: kit/syringe
@@ -81,22 +81,22 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e syringe juntos (camera a 11.5 m)
 - PERSONAGENS: PAS na esquerda, expressao suspicious; MED na direita, expressao nervous; sem multidao; acao: conversar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (17.5-19.3 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (19.3-21.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- OBJETO kit/syringe: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
+  - take 1 (14.7-16.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (16.9-19.0 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
-## Cena b4 - Um dia, uma mãe chegou à porta dele, com o filho Joseph, mordido por u...
+## Cena b4 - Um dia, uma mãe chegou à porta dele com o filho Joseph, mordido por um...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (2): PAS (variante 0, expressao surprised); MAE (variante 0, expressao cry)
-- Animacao: conversar | interacao: o outro se aproxima | o ultimo personagem ENTRA andando
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): animal, filho, porta
+- Camera: close = close no rosto; empurra devagar
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Personagens principais (1): PAS (variante 0, expressao surprised)
+- Animacao: conversar
+- Objetos/modelos: dog
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, filho, porta, raiva
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -105,20 +105,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: PAS na esquerda, expressao surprised; MAE na direita, expressao cry; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 3 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (22.3-24.4 s): mesmo angulo
-  - take 2 (24.4-26.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (26.4-28.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (19.1-21.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (21.0-22.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 3 (22.9-24.8 s): mesmo angulo
 <!-- /FICHA -->
 
-## Cena b5 - Pasteur não era médico, e ficou com medo, mas depois de ouvir os médic...
-- Cenario: loc_montanha | luz: day | clima: limpo
+## Cena b5 - Pasteur não era médico e tinha medo, mas decidiu tentar.
+- Cenario: interior loja | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): PAS (variante 0, expressao nervous)
 - Animacao: reagir
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): medicos, medo, ouvir
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -127,16 +127,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: close (rosto e ombros)
 - PERSONAGENS: PAS no centro, expressao nervous; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
-  - take 1 (29.8-32.0 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (32.0-34.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (25.0-26.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (26.6-28.2 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b6 - Acontece que, durante dez dias, ele aplicou injeções cada vez mais for...
+## Cena b6 - Acontece que, durante dez dias, ele aplicou injeções, e o menino nunca...
 - Cenario: hall | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): PAS (variante 0, expressao relief); MED (variante 0, expressao surprised) | multidao: 10 de MED/POV
+- Personagens principais (2): PAS (variante 0, expressao relief); MED (variante 0, expressao surprised) | multidao: 0 de 
 - Animacao: encena | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/syringe
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): menino
@@ -145,14 +145,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: salao; hora: day
-- CAMERA: orbit
-- PERSONAGENS: PAS na esquerda, expressao relief; MED na direita, expressao surprised; multidao de 10 (MED, POV) ATRAS dos principais; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e syringe juntos (camera a 11.5 m)
+- PERSONAGENS: PAS na esquerda, expressao relief; MED na direita, expressao surprised; sem multidao; acao: fala/gesto
+- OBJETO kit/syringe: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: ding@40
 - SOM: sting@60
-- TAKES: sequencia de acao em 3 cameras (5.9 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (4.4 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b7 - Joseph sobreviveu, e a notícia correu o mundo.
@@ -171,11 +171,13 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: travelling (camera acompanha andando)
 - PERSONAGENS: MAE na esquerda, expressao relief; PAS na direita, expressao smile; sem multidao; acao: reverencia
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 1 take continuo (2.3 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (33.1-34.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (34.7-36.3 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b8 - Anos depois, ele virou o guarda do instituto de Pasteur, e cuidou do l...
-- Cenario: loc_montanha | luz: day | clima: limpo
+- Cenario: interior loja | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): MED (variante 0, expressao smile); POV (variante 0, expressao grin)
@@ -190,13 +192,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: MED na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: cochichar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (45.6-47.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (47.2-48.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 3 (48.7-50.3 s): mesmo angulo
+- TAKES: 4 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (36.9-38.6 s): mesmo angulo
+  - take 2 (38.6-40.3 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (40.3-42.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 4 (42.0-43.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
-## Cena b9 - Hoje o Instituto Pasteur, em Paris, ainda leva o nome dele, e a vacina...
+## Cena b9 - Hoje o Instituto Pasteur ainda leva o nome dele, e a vacina salva vida...
 - Cenario: hall | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
@@ -217,7 +220,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: ding@30
 - SOM: sting@70
 - TEXTO NA TELA: "VACINA" flutuando no alto, na palavra 1 da frase
-- TAKES: sequencia de acao em 3 cameras (5.0 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (5.5 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b10 - No fim, uma picada salvou mais que mil discursos.
@@ -240,7 +243,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: loc_campo | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): PAS (variante 0, expressao grin)
@@ -255,18 +258,17 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/syringe | b0, b3, b6, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+dog | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/syringe | grandes momentos: b6, b9 | planos abertos: 3 | mistura: close 24% | medio 63% | aberto 13% | detalhe 0%
-- Interacoes: b2 avanca e o outro recua, b3 susto, b4 o outro se aproxima, b8 cochichar
+- Objeto heroi: kit/syringe | grandes momentos: b6, b9 | planos abertos: 3 | mistura: close 33% | medio 52% | aberto 13% | detalhe 2%
+- Interacoes: b2 avanca e o outro recua, b3 susto, b8 cochichar
 - RISCOS GERAIS: 
-  - objeto heroi (kit/syringe) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
+  - FOLHA 4: 8 item(ns) sem referencia visual: Paris, laboratorio de Pasteur na Escola Normal Superior (rua d'Ulm): bancadas co, Louis Pasteur (barba grisalha, casaca preta, solideu), Joseph Meister, menino  -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
 
-## RESUMO: 2 risco(s) em aberto
-- geral: objeto heroi (kit/syringe) sem close de camera
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
+## RESUMO: 1 risco(s) em aberto
+- geral: FOLHA 4: 8 item(ns) sem referencia visual: Paris, laboratorio de Pasteur na Escola Normal Superior (rua d'Ulm): bancadas co, Louis Pasteur (barba grisalha, casaca preta, solideu), Joseph Meister, menino 
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh pasteur1885 bN bM` (so essas cenas).
@@ -276,8 +278,8 @@ kit/syringe | b0, b3, b6, b9 | pronto (HEROI: aparece em close) | conferir na fo
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - (sem ficha)
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (61.6-63.2 s): mesmo angulo
-  - take 2 (63.2-64.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
+  - take 1 (52.3-54.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (54.0-55.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 

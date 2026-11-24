@@ -152,7 +152,7 @@
    "say": "Acontece que, no púlpito, ele pediu licença por um momento e tirou o celular do bolso.",
    "fachada": false,
    "quadro": {
-    "local": "sala de madeira",
+    "local": "salao",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
     "objetos": [
      {
@@ -164,11 +164,11 @@
     ]
    },
    "detalhe": true,
+   "set": "hall",
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "set": "hall"
+   "d1": 8.0
   },
   {
    "shot": "crowd",
@@ -220,7 +220,7 @@
     [
      "kit/phone",
      0.0,
-     -0.8,
+     -1.2,
      0.9,
      {
       "fixo": true
@@ -229,7 +229,23 @@
    ],
    "_susp_tela": true,
    "_susp_ok": true,
-   "set": "hall"
+   "set": "hall",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "salao",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",

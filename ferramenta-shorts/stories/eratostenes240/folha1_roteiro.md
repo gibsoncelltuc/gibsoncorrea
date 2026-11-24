@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 10 - Eratóstenes Mede a Terra
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 12 cenas, 179 palavras (~62 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 11 cenas, 164 palavras (~57 s)
 
 ## Cena b0  (~5.2 s)
 - Narracao: Um homem mediu o tamanho do planeta usando só uma vara e a sombra dela.
@@ -31,12 +31,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 
 ## Cena b3  (~4.5 s)
 - Narracao: Isso significava que o sol estava bem em cima, e nada fazia sombra.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
+- Efeito visual marcado: ring@12, dust@40
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b4  (~4.8 s)
 - Narracao: Em Alexandria, no mesmo dia, uma vara fincada no solo fazia uma sombra pequena.
@@ -48,7 +48,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Funcao na historia: desenvolvimento
 
 ## Cena b5  (~4.1 s)
-- Narracao: Eratóstenes pensou: "Se a Terra fosse plana, as duas sombras seriam iguais."
+- Narracao: Ele pensou: se a Terra fosse plana, as duas sombras seriam iguais.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: pensa (think) @1 -> acao + som de efeito
@@ -83,16 +83,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~5.2 s)
-- Narracao: E tudo isso aconteceu mais de dois mil anos atrás, sem satélite e sem computador.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: ding@30, sting@70
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: stars@30, burst@70
-- Texto na tela: 40.000 KM
-- Funcao na historia: GRANDE MOMENTO
-
-## Cena b10  (~4.5 s)
+## Cena b9  (~4.5 s)
 - Narracao: No fim, uma vara e um poço fizeram o trabalho de um satélite.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -101,7 +92,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b11  (~4.5 s)
+## Cena b10  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -

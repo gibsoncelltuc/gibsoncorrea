@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 09 - Mendel e as Ervilhas
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.9s - 14 palavras - plano two
@@ -69,8 +69,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b4 - 21.9s a 24.7s - 10 palavras - plano two
-> "Mendel ficou curioso e disse: "Para onde foi o verde?""
+## Cena b4 - 21.9s a 24.5s - 9 palavras - plano two
+> "Mendel ficou curioso: para onde tinha ido o verde?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -83,79 +83,80 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b5 - 25.7s a 29.8s - 14 palavras - plano two
+## Cena b5 - 24.7s a 29.4s - 14 palavras - plano two
 > "Ele plantou as amarelas de novo e contou tudo, ervilha por ervilha, durante anos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | plantou (26.0s) | ACAO: x_planta | cava/planta + terra | OK |
-| 2 | contou (27.4s) | ACAO: fala | aponta explicando | OK |
+| 1 | plantou (25.7s) | ACAO: x_planta | cava/planta + terra | OK |
+| 2 | contou (27.3s) | ACAO: fala | aponta explicando | OK |
 | 3 | - | INTERACAO | insiste | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_planta na palavra plantou (26.0s): executa: cava/planta + terra
-- ACAO: fala na palavra contou (27.4s): braco estendido apontando para o objeto/lugar citado
+- ACAO: x_planta na palavra plantou (25.7s): executa: cava/planta + terra
+- ACAO: fala na palavra contou (27.3s): braco estendido apontando para o objeto/lugar citado
 - INTERACAO (a cena toda): executa: insiste
 <!-- /FISICA -->
 
-## Cena b6 - 31.1s a 36.2s - 16 palavras - plano orbit
+## Cena b6 - 29.8s a 35.9s - 16 palavras - plano orbit
 > "Acontece que o verde voltou, e sempre na mesma conta: três ervilhas amarelas para uma verde."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | voltou (32.2s) | ACAO: chega | entra andando pela lateral | OK |
+| 1 | voltou (32.0s) | ACAO: chega | entra andando pela lateral | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | ATUACAO | reagir | OK |
+| 4 | - | PLACA | 3 : 1 | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: chega na palavra voltou (32.2s): executa: entra andando pela lateral
+- ACAO: chega na palavra voltou (32.0s): executa: entra andando pela lateral
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): executa: reagir
-- multidao de 10: parada, reagindo (shock), sempre ATRAS dos personagens principais
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b7 - 37.2s a 40.2s - 14 palavras - plano two
+## Cena b7 - 36.2s a 40.0s - 14 palavras - plano two
 > "Ele descobriu que cada filho herda uma instrução do pai e outra da mãe."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | descobriu (37.4s) | EFEITO: ring | onda + som | OK |
-| 2 | descobriu (37.4s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+| 1 | descobriu (37.2s) | EFEITO: ring | onda + som | OK |
+| 2 | descobriu (37.2s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
 | 3 | - | INTERACAO | cochichar | OK |
 | 4 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: ring na palavra descobriu (37.4s): executa: onda + som
-- ACAO: examina na palavra descobriu (37.4s): executa: examina com lupa/microscopio/balanca
+- EFEITO: ring na palavra descobriu (37.2s): executa: onda + som
+- ACAO: examina na palavra descobriu (37.2s): executa: examina com lupa/microscopio/balanca
 - INTERACAO (a cena toda): executa: cochichar
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b8 - 41.2s a 45.0s - 14 palavras - plano group
+## Cena b8 - 40.2s a 44.6s - 14 palavras - plano group
 > "Publicou tudo em mil oitocentos e sessenta e seis, mas quase ninguém prestou atenção."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | Publicou (41.2s) | ACAO: x_fone | celular na mao + toque | OK |
+| 1 | Publicou (40.2s) | ACAO: x_fone | celular na mao + toque | OK |
 | 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_fone na palavra Publicou (41.2s): executa: celular na mao + toque
+- ACAO: x_fone na palavra Publicou (40.2s): executa: celular na mao + toque
 - INTERACAO (a cena toda): executa: vai ate o outro
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b9 - 46.5s a 51.2s - 18 palavras - plano group
+## Cena b9 - 45.0s a 50.8s - 18 palavras - plano group
 > "Só no ano mil e novecentos, já depois da morte dele, os cientistas viram que ele estava certo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | viram (50.1s) | ACAO: olha | aponta/olha | OK |
+| 1 | viram (49.7s) | ACAO: olha | aponta/olha | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | INTERACAO | pular | OK |
 | 4 | - | ATUACAO | comemorar | OK |
@@ -163,15 +164,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: olha na palavra viram (50.1s): braco estendido apontando para o objeto/lugar citado
+- ACAO: olha na palavra viram (49.7s): braco estendido apontando para o objeto/lugar citado
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - INTERACAO (a cena toda): executa: pular
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-- multidao de 14: parada, reagindo (laugh), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b10 - 52.3s a 54.1s - 8 palavras - plano two
+## Cena b10 - 51.2s a 53.9s - 8 palavras - plano two
 > "No fim, a ervilha fez o monge famoso."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -183,7 +183,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b11 - 55.4s a 58.8s - 13 palavras - plano close
+## Cena b11 - 54.1s a 58.4s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

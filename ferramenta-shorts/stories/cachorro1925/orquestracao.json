@@ -87,7 +87,7 @@
     "BUL",
     "GRE"
    ],
-   "multidao": 0,
+   "multidao": 12,
    "objetos": [],
    "palavras": 19,
    "cena": "b3",
@@ -142,7 +142,7 @@
    "cenario": "mountain"
   },
   {
-   "camera": "orbit",
+   "camera": "two",
    "personagens": [
     "DIP"
    ],
@@ -151,6 +151,23 @@
    "palavras": 13,
    "cena": "b6",
    "frase": "Só que a Bulgária apelou à Liga das Nações, a antecessora da ONU.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "PRE",
+    "DIP"
+   ],
+   "multidao": 48,
+   "objetos": [],
+   "palavras": 22,
+   "cena": "b7",
+   "frase": "A Liga mandou parar a guerra de dez dias, e a Grécia retirou as tropas e pagou quarenta e cinco mil libras.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -161,27 +178,10 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "mountain"
   },
   {
    "camera": "two",
-   "personagens": [
-    "PRE",
-    "DIP"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 22,
-   "cena": "b7",
-   "frase": "A Liga mandou parar a guerra de dez dias, e a Grécia retirou as tropas e pagou quarenta e cinco mil libras.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior pedra"
-  },
-  {
-   "camera": "close",
    "personagens": [
     "GRE"
    ],
@@ -199,7 +199,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "GRE"
    ],

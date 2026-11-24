@@ -7,19 +7,12 @@
   "regiao": "eua",
   "luz_base": "day",
   "cenarios": [
+   "hall",
    "interior loja",
-   "interior madeira",
    "interior pedra",
-   "loc_cidade",
    "palace"
   ],
-  "cenarios_trocados": [
-   [
-    "cena 1",
-    "stadium",
-    "loc_cidade"
-   ]
-  ]
+  "cenarios_trocados": []
  },
  "proibido_pela_epoca": [
   "barril",
@@ -45,25 +38,16 @@
  "objetos_em_cena": [
   "kit/marco_onu",
   "kit/phone",
-  "kit/room_azul_wood",
-  "kit/room_classico_shop",
-  "kit/room_colonial_wood",
+  "kit/room_azul_stone",
   "kit/room_eua_stone",
-  "kit/room_eua_wood",
-  "kit/room_europa_stone",
-  "kit/room_rosa_stone",
+  "kit/room_europa_shop",
   "kit/room_verde_shop",
-  "mk/Bed_Twin1",
   "mk/Bench",
   "mk/BookStand",
   "mk/Bookcase_2",
-  "mk/Cabinet",
   "mk/Chair_1",
   "mk/Chest_Wood",
-  "mk/Crate_Metal",
-  "mk/Nightstand_Shelf",
   "mk/Shelf_Arch",
-  "mk/Stool",
   "mk/Table_Large",
   "mk/Vase_2",
   "mk/Vase_4"

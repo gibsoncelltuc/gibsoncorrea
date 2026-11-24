@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 01 - Newton e a Maçã
 
-Gerado em 24/11 23:03 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 0%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:09 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -10,23 +10,22 @@ b0 | simples | interior hospital | two | NEW, AMI | - | apple | - | Uma única m
 b1 | simples | countryside | reveal | LAV, LAV | 8 | - | - | Era mil seiscentos e sessenta e seis, e a peste fechou a universidade 
 b2 | simples | interior madeira | two | NEW, MAE | - | picket_fence | - | Um rapaz de vinte e três anos, Isaac Newton, voltou para a fazenda da 
 b3 | simples | street | two | NEW, AMI | - | apple, tree_oak | - | Ele passava os dias debaixo de uma macieira, pensando em como as coisa
-b4 | simples | interior pedra | group | LAV, LAV, AMI | - | - | - | Todo mundo sabia que as coisas caem. Ninguém perguntava até onde essa 
-b5 | chave | countryside | orbit | NEW, AMI | 10 | apple, tree_oak | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, numa tarde, uma maçã se soltou do galho e caiu bem na fr
-b6 | simples | street | close | NEW | - | - | - | Newton não levou pancada na cabeça, isso é lenda. Ele só pensou: "Por 
-b7 | simples | interior madeira | two | NEW, MAE | - | apple | - | Se a força puxa a maçã lá do galho, será que ela também puxa a Lua, lá
-b8 | chave | street | group | NEW, AMI | 14 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A resposta virou a lei da gravidade, publicada em mil seiscentos e oit
-b9 | simples | interior madeira | two | NEW, AMI | - | - | - | Anos depois, ele mesmo contou essa história a um amigo.
-b10 | explicativa | interior hospital | close | NEW | - | apple | - | No fim, a maçã mudou a ciência e nem foi comida.
-b11 | simples | countryside | close | NEW | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b4 | chave | countryside | orbit | NEW, AMI | - | apple, tree_oak | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, numa tarde, uma maçã se soltou do galho e caiu bem na fr
+b5 | simples | interior pedra | close | NEW | - | - | - | Ela não caiu na cabeça dele, isso é lenda. Ele só se perguntou por que
+b6 | simples | loc_campo | two | NEW, MAE | - | apple | - | Se a força puxa a maçã lá do galho, será que ela também puxa a Lua, lá
+b7 | chave | street | group | NEW, AMI | 14 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A resposta virou a lei da gravidade, publicada em mil seiscentos e oit
+b8 | simples | interior madeira | two | NEW, AMI | - | - | - | Anos depois, ele mesmo contou essa história a um amigo.
+b9 | simples | interior hospital | two | NEW | - | apple | - | No fim, a maçã mudou a ciência e nem foi comida.
+b10 | simples | countryside | close | NEW | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (5/6 itens) | FEITO | 
-3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | FEITO | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 3) | PENDENTE | corrigir o roteiro conforme a folha 2
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (5/12 itens) | PENDENTE | python3 pesquisar.py newton1666
+3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | REFAZER (a etapa anterior mudou) | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | BLOQUEADO (etapa anterior pendente) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 
@@ -38,5 +37,5 @@ N | Etapa | O que confere | Estado | Proximo passo
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local newton1666 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
-**Etapa atual:** 4. Travas do roteiro
+**Etapa atual:** 2. Pesquisa de campo
 

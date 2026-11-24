@@ -3,12 +3,12 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/velcro1941/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py velcro1941` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Uma das invenções mais usadas do mundo nasceu de um passeio com o cach...
-- Cenario: loc_campo | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MES (variante 0, expressao surprised); TEC (variante 0, expressao laugh)
 - Animacao: conversar | interacao: insiste
-- Objetos/modelos: kit/burr, kit/marco_alpes, dog
+- Objetos/modelos: kit/burr, dog
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, invencoes, passeio
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -26,34 +26,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 2 (1.7-3.3 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
-## Cena b1 - Era mil novecentos e quarenta e um, na Suíça.
-- Cenario: loc_campo | luz: day | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
-- Animacao: -
-- Objetos/modelos: kit/marco_alpes
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): suica
-- RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: revelacao (camera sobe e abre)
-- PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- MAPA: SUÍÇA (cobre a tela 1-2 s)
-- TAKES: 1 take continuo (2.1 s), a camera desliza devagar do enquadramento inicial ao final
-<!-- /FICHA -->
-
-## Cena b2 - O engenheiro George de Mestral voltou de uma caminhada pela montanha c...
-- Cenario: loc_montanha | luz: day | clima: limpo
+## Cena b1 - Em mil novecentos e quarenta e um, na Suíça, o engenheiro George de Me...
+- Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): MES (variante 0, expressao smile)
 - Animacao: conversar
 - Objetos/modelos: dog
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): caminhada, engenheiro, mestral
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): caminhada, engenheiro, mestral, suica
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -62,19 +42,22 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: MES no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (7.9-9.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (9.7-11.5 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- MAPA: SUÍÇA (cobre a tela 1-2 s)
+- TAKES: 4 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (4.7-6.3 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (6.3-7.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (7.9-9.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 4 (9.6-11.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
-## Cena b3 - O pelo do cachorro e a calça dele estavam cheios de carrapichos. Dava ...
+## Cena b2 - O pelo do cachorro e a calça dele estavam cheios de carrapichos.
 - Cenario: loc_montanha | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): MES (variante 0, expressao angry)
 - Animacao: conversar
 - Objetos/modelos: kit/burr, dog
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, calca, carrapichos, trabalhao
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, calca, carrapichos
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -85,13 +68,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/burr: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
 - SOM: thump@40
-- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (12.7-14.3 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (14.3-16.0 s): mesmo angulo
-  - take 3 (16.0-17.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (11.3-13.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (13.2-15.0 s): mesmo angulo
 <!-- /FICHA -->
 
-## Cena b4 - Curioso, ele levou um carrapicho para casa e olhou no microscópio.
+## Cena b3 - Curioso, ele levou um carrapicho para casa e olhou no microscópio.
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
@@ -108,12 +90,13 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: MES no centro, expressao suspicious; sem multidao; acao: fala/gesto
 - OBJETO kit/burr: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/microscopio: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (18.8-20.2 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (20.2-21.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (15.2-16.9 s): mesmo angulo
+  - take 2 (16.9-18.5 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (18.5-20.2 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b5 - Acontece que cada espinho tinha um ganchinho na ponta, que agarrava na...
+## Cena b4 - Acontece que cada espinho tinha um ganchinho na ponta, que agarrava na...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
@@ -133,19 +116,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +50 da cena
 - SOM: ding@20
 - SOM: sting@50
-- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
-  - take 1 (23.0-25.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (25.0-27.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
+  - take 1 (20.7-22.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (22.9-25.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b6 - Ele pensou: e se eu fizer uma fita de ganchinhos, e outra de voltinhas...
+## Cena b5 - Ele pensou: e se uma fita tiver ganchinhos, e a outra, voltinhas?
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: low = camera baixa, dramatica (virada)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): MES (variante 0, expressao grin)
 - Animacao: conversar
 - Objetos/modelos: kit/burr
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fita, ganchinhos, voltinhas
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fita
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -156,20 +139,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/burr: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +20 da cena
 - SOM: sting@20
-- TAKES: 4 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (28.2-29.8 s): mesmo angulo
-  - take 2 (29.8-31.5 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (31.5-33.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 4 (33.1-34.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
+  - take 1 (25.7-27.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (27.7-29.7 s): mesmo angulo
 <!-- /FICHA -->
 
-## Cena b7 - Os tecelões riram da ideia. Levou quase dez anos de tentativas até ace...
-- Cenario: loc_campo | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+## Cena b6 - Os tecelões riram da ideia. Levou quase dez anos de tentativas até ace...
+- Cenario: street | luz: day | clima: limpo
+- Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): TEC (variante 0, expressao laugh); MES (variante 0, expressao nervous) | multidao: 14 de POV
+- Personagens principais (2): TEC (variante 0, expressao laugh); MES (variante 0, expressao nervous) | multidao: 0 de 
 - Animacao: discutir | grande momento (efeito + som, sem tiro)
-- Objetos/modelos: kit/marco_alpes
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): material, teceloes, tentativas
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -177,19 +158,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano de multidao
-- PERSONAGENS: TEC (comerciante) na esquerda, expressao laugh; MES na direita, expressao nervous; multidao de 14 (POV) ATRAS dos principais; acao: discutir
+- PERSONAGENS: TEC (comerciante) na esquerda, expressao laugh; MES na direita, expressao nervous; sem multidao; acao: discutir
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: sequencia de acao em 3 cameras (5.0 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (5.9 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
-## Cena b8 - O segredo foi o náilon. E o nome veio do francês: velours, veludo, e c...
+## Cena b7 - O segredo foi o náilon. E o nome juntou velours, veludo, e crochet, ga...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): MES (variante 0, expressao laugh); TEC (variante 0, expressao surprised)
-- Animacao: conversar | interacao: entregar | o ultimo personagem ENTRA andando
+- Animacao: conversar | interacao: entregar
 - Objetos/modelos: kit/burr
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frances, nailon, segredo
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): nailon, segredo
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -200,42 +181,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/burr: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
 - SOM: ding@40
-- TAKES: 4 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (42.2-44.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (44.1-45.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (45.9-47.8 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 4 (47.8-49.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (36.0-37.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (37.6-39.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 3 (39.2-40.8 s): mesmo angulo
 <!-- /FICHA -->
 
-## Cena b9 - No começo, muita gente achou o velcro feio, e as vendas foram fracas.
-- Cenario: loc_deserto | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): TEC (variante 0, expressao bored); POV (variante 0, expressao suspicious) | multidao: 16 de POV
-- Animacao: encena | batalha encenada
-- Objetos/modelos: kit/marco_alpes, kit/burr
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comeco, velcro, vendas
-- RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano de multidao
-- PERSONAGENS: TEC (comerciante) na esquerda, expressao bored; POV na direita, expressao suspicious; multidao de 16 (POV) ATRAS dos principais; acao: batalha
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +30 da cena
-- SOM: thump@30
-- TAKES: sequencia de acao em 3 cameras (3.6 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
-<!-- /FICHA -->
-
-## Cena b10 - Até que astronautas passaram a usar o velcro para prender coisas no es...
-- Cenario: loc_campo | luz: espaco | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (1): AST (variante 0, expressao laugh)
-- Animacao: conversar
+## Cena b8 - Até que astronautas passaram a usar velcro no espaço, e o mundo inteir...
+- Cenario: arctic | luz: espaco | clima: limpo
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): AST (variante 0, expressao laugh) | multidao: 12 de POV
+- Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/burr, kit/rocket, kit/moon
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): espaco, usar, velcro
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): espaco, usar
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -251,16 +210,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: ding@20
 - SOM: ding@60
 - TEXTO NA TELA: "VELCRO" flutuando no alto, na palavra 1 da frase
-- TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (55.7-57.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (57.6-59.4 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (59.4-61.3 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 3 takes (troca de angulo a cada ~1.8 s, sem corte seco):
+  - take 1 (42.2-44.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (44.0-45.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (45.8-47.6 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
-## Cena b11 - Hoje ele está em tênis, mochilas e roupas. E tudo começou com um cacho...
-- Cenario: loc_deserto | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+## Cena b9 - Hoje ele está em tênis, mochilas e roupas. Graças a um cachorro cheio ...
+- Cenario: loc_campo | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): MES (variante 0, expressao smile)
 - Animacao: conversar
 - Objetos/modelos: kit/burr, dog
@@ -273,14 +232,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 8.0 m)
 - PERSONAGENS: MES no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/burr: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (62.3-64.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (64.0-65.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 3 (65.7-67.4 s): mesmo angulo
+- TAKES: 4 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (47.8-49.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (49.4-51.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (51.0-52.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 4 (52.6-54.2 s): mesmo angulo
 <!-- /FICHA -->
 
-## Cena b12 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: loc_campo | luz: day | clima: limpo
+## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Cenario: street | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): MES (variante 0, expressao grin)
@@ -294,24 +254,21 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/burr | b0, b3, b4, b5, b6, b8, b9, b10, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_alpes | b0, b1, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-dog | b0, b2, b3, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/microscopio | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/rocket | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/moon | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/burr | b0, b2, b3, b4, b5, b7, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+dog | b0, b1, b2, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/microscopio | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/rocket | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/moon | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/burr | grandes momentos: b7, b9 | planos abertos: 3 | mistura: close 17% | medio 70% | aberto 8% | detalhe 5%
-- Interacoes: b0 insiste, b8 entregar
+- Objeto heroi: kit/burr | grandes momentos: b6, b8 | planos abertos: 2 | mistura: close 22% | medio 66% | aberto 6% | detalhe 6%
+- Interacoes: b0 insiste, b7 entregar
 - RISCOS GERAIS: 
-  - video com ~73 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
+  - FOLHA 4: 9 item(ns) sem referencia visual: O Cachorro que Inventou o Velcro, Alpes suicos perto de Genebra (trilha de montanha), oficina/casa de Mestral; tec, George de Mestral (terno e chapeu de caca, b -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
 
-## RESUMO: 2 risco(s) em aberto
-- geral: video com ~73 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
+## RESUMO: 1 risco(s) em aberto
+- geral: FOLHA 4: 9 item(ns) sem referencia visual: O Cachorro que Inventou o Velcro, Alpes suicos perto de Genebra (trilha de montanha), oficina/casa de Mestral; tec, George de Mestral (terno e chapeu de caca, b
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh velcro1941 bN bM` (so essas cenas).
@@ -321,8 +278,8 @@ kit/moon | b10 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - (sem ficha)
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (68.9-70.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (70.6-72.2 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
+  - take 1 (54.5-56.7 s): mesmo angulo
+  - take 2 (56.7-58.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 

@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 11 - O Raio X de Röntgen
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 13 cenas, 182 palavras (~63 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 12 cenas, 171 palavras (~59 s)
 
 ## Cena b0  (~5.5 s)
 - Narracao: Um cientista tirou a primeira foto de dentro do corpo humano, e assustou a própria esposa.
@@ -13,12 +13,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b1  (~3.8 s)
 - Narracao: Era mil oitocentos e noventa e cinco, numa cidade da Alemanha.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
+- Efeito visual marcado: ring@12, dust@40
 - Texto na tela: - | mapa: ALEMANHA
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b2  (~5.2 s)
 - Narracao: Wilhelm Röntgen passava as noites no laboratório, testando um tubo de vidro que soltava faíscas.
@@ -65,8 +65,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~4.5 s)
-- Narracao: Dizem que ela olhou a chapa, e disse: "Eu vi a minha morte."
+## Cena b7  (~4.8 s)
+- Narracao: Conta-se que ela olhou a chapa e disse que tinha visto a própria morte.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: olha (point) @3 -> acao + som de efeito
@@ -75,7 +75,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Funcao na historia: desenvolvimento
 
 ## Cena b8  (~4.8 s)
-- Narracao: A notícia correu o mundo. Jornais, médicos e curiosos queriam ver o raio misterioso.
+- Narracao: A notícia correu o mundo, e médicos e curiosos queriam ver o raio misterioso.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30, sting@60
 - Efeito + som nas palavras-chave: -
@@ -83,34 +83,25 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: NOTÍCIA
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b9  (~4.8 s)
-- Narracao: Como ninguém sabia o que era, ele chamou de raio X. X, de desconhecido.
+## Cena b9  (~4.5 s)
+- Narracao: Sem saber o que era, ele chamou de raio X: X, de desconhecido.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @7 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @6 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: RAIO X
 - Funcao na historia: desenvolvimento
 
-## Cena b10  (~5.2 s)
-- Narracao: Em mil novecentos e um, Röntgen ganhou o primeiro Prêmio Nobel de Física da história.
+## Cena b10  (~5.9 s)
+- Narracao: Em mil novecentos e um, Röntgen ganhou o primeiro Nobel de Física, e nunca patenteou a descoberta.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: ganhou -> stars + som de sino; Prêmio -> stars + som de sino; encena: vence (up) @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: ganhou -> stars + som de sino; encena: vence (up) @6 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: NOBEL
-- Funcao na historia: GRANDE MOMENTO
-
-## Cena b11  (~4.5 s)
-- Narracao: E nunca quis patentear a descoberta. O raio X era de todo mundo.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b12  (~4.5 s)
+## Cena b11  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -

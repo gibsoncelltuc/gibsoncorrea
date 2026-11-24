@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 09 - Mendel e as Ervilhas
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 12 cenas, 167 palavras (~58 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 12 cenas, 166 palavras (~57 s)
 
 ## Cena b0  (~4.8 s)
 - Narracao: Um monge passou oito anos contando ervilhas e descobriu como herdamos o que somos.
@@ -38,8 +38,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~3.4 s)
-- Narracao: Mendel ficou curioso e disse: "Para onde foi o verde?"
+## Cena b4  (~3.1 s)
+- Narracao: Mendel ficou curioso: para onde tinha ido o verde?
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -62,7 +62,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Efeitos sonoros marcados: ding@40, sting@60
 - Efeito + som nas palavras-chave: encena: chega (point) @4 -> acao + som de efeito
 - Efeito visual marcado: ring@40, stars@60
-- Texto na tela: -
+- Texto na tela: 3 : 1
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b7  (~4.8 s)

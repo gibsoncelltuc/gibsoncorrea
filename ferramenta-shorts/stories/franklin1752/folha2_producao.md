@@ -68,14 +68,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 3 (14.1-15.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
-## Cena b3 - Franklin discordava, e disse: "O raio é só eletricidade em tamanho gig...
+## Cena b3 - Franklin discordava: para ele, o raio era só uma faísca elétrica gigan...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): COM (variante 0, expressao surprised); FRA (variante 0, expressao smug)
 - Animacao: conversar | interacao: discutir
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): raio
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): faisca, raio
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -90,7 +90,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b4 - Contam que, numa tarde de chuva, ele prendeu uma chave de metal na lin...
-- Cenario: loc_campo | luz: day | clima: chuva
+- Cenario: countryside | luz: day | clima: chuva
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): FRA (variante 0, expressao suspicious); FIL (variante 0, expressao nervous)
@@ -111,9 +111,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b5 - O plano era simples e perigoso: se a pipa pegasse eletricidade, a chav...
-- Cenario: interior pedra | luz: day | clima: tempestade
-- Camera: close = close no rosto; empurra devagar
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
+- Cenario: countryside | luz: day | clima: tempestade
+- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): FRA (variante 0, expressao nervous)
 - Animacao: reagir
 - Objetos/modelos: kit/kite, kit/key
@@ -133,10 +133,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b6 - Acontece que, quando a nuvem passou, a linha eriçou, e uma faísca pulo...
-- Cenario: loc_campo | luz: day | clima: tempestade
+- Cenario: countryside | luz: day | clima: tempestade
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): FRA (variante 0, expressao shock); FIL (variante 0, expressao scared) | multidao: 8 de COM/POV
+- Personagens principais (2): FRA (variante 0, expressao shock); FIL (variante 0, expressao scared) | multidao: 0 de 
 - Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/key, kit/kite
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chave, faisca, linha, nuvem
@@ -145,8 +145,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: day; clima: tempestade
-- CAMERA: orbit; plano medio enquadrando personagens e kite juntos (camera a 11.5 m)
-- PERSONAGENS: FRA (cientista) na esquerda, expressao shock; FIL (agricultor) na direita, expressao scared; multidao de 8 (COM, POV) ATRAS dos principais; acao: fala/gesto
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kite juntos (camera a 11.5 m)
+- PERSONAGENS: FRA (cientista) na esquerda, expressao shock; FIL (agricultor) na direita, expressao scared; sem multidao; acao: fala/gesto
 - OBJETO kit/kite: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/key: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +36 da cena
@@ -159,14 +159,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - TAKES: sequencia de acao em 3 cameras (5.2 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
-## Cena b7 - Hoje se discute se isso aconteceu mesmo, e a sorte foi o raio não ter ...
+## Cena b7 - Hoje se discute se isso aconteceu mesmo. E se um raio tivesse caído na...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): COM (variante 0, expressao suspicious); FRA (variante 0, expressao relief)
 - Animacao: discutir | interacao: cochichar
 - Objetos/modelos: kit/kite
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pipa, raio, sorte
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pipa, raio
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -175,34 +175,13 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: COM (comerciante) na esquerda, expressao suspicious; FRA (cientista) na direita, expressao relief; sem multidao; acao: cochichar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
-  - take 1 (39.4-41.6 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (41.6-43.8 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (39.4-41.3 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (41.3-43.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (43.2-45.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
-## Cena b8 - Se tivesse caído, ele não estaria aqui para contar, e outros cientista...
-- Cenario: interior madeira | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
-- Personagens principais (2): FIL (variante 0, expressao sad); FRA (variante 0, expressao stern)
-- Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
-- RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: FIL (agricultor) na esquerda, expressao sad; FRA (cientista) na direita, expressao stern; sem multidao; acao: conversar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (45.1-46.6 s): mesmo angulo
-  - take 2 (46.6-48.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (48.1-49.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-<!-- /FICHA -->
-
-## Cena b9 - Franklin então inventou o para-raios, e hoje ele protege casas e prédi...
+## Cena b8 - Franklin então inventou o para-raios, e hoje ele protege casas e prédi...
 - Cenario: street | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
@@ -224,10 +203,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: ding@30
 - SOM: sting@70
 - TEXTO NA TELA: "PARA-RAIOS" flutuando no alto, na palavra 1 da frase
-- TAKES: sequencia de acao em 3 cameras (4.1 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (5.7 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
-## Cena b10 - No fim, o raio perdeu a briga para uma chave.
+## Cena b9 - No fim, o raio perdeu a briga para uma chave.
 - Cenario: interior loja | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
@@ -243,10 +222,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: close (rosto e ombros)
 - PERSONAGENS: FRA (cientista) no centro, expressao smug; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 1 take continuo (2.4 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (51.3-52.8 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (52.8-54.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: street | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
@@ -262,21 +243,21 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/kite | b0, b4, b5, b6, b7 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/key | b4, b5, b6, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/lightning_rod | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/house_small | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/picket_fence | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/tree_oak | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/key | b4, b5, b6, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/lightning_rod | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/house_small | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/picket_fence | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/tree_oak | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/kite | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 23% | medio 64% | aberto 10% | detalhe 4%
-- Interacoes: b0 susto, b2 aproxima-se, b3 discutir, b4 avanca e o outro recua, b7 cochichar, b8 o outro se aproxima
+- Objeto heroi: kit/kite | grandes momentos: b6, b8 | planos abertos: 2 | mistura: close 23% | medio 61% | aberto 11% | detalhe 6%
+- Interacoes: b0 susto, b2 aproxima-se, b3 discutir, b4 avanca e o outro recua, b7 cochichar
 - RISCOS GERAIS: 
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
+  - FOLHA 4: 8 item(ns) sem referencia visual: Filadelfia, colonia da Pensilvania: campo aberto perto de um galpao, ruas de tij, Benjamin Franklin (casaca marrom, colete, culotes, cabelo grisalho com, filho  -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
 
 ## RESUMO: 1 risco(s) em aberto
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
+- geral: FOLHA 4: 8 item(ns) sem referencia visual: Filadelfia, colonia da Pensilvania: campo aberto perto de um galpao, ruas de tij, Benjamin Franklin (casaca marrom, colete, culotes, cabelo grisalho com, filho 
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh franklin1752 bN bM` (so essas cenas).
@@ -286,8 +267,8 @@ nature/tree_oak | b9 | pronto | conferir na folha de contato se le bem; se parec
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - (sem ficha)
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (59.7-61.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (61.4-63.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
+  - take 1 (54.4-56.4 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (56.4-58.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 

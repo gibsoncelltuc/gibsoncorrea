@@ -21,7 +21,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: COM (comerciante) na esquerda, expressao scared; POV (camponesa) no centro, expressao scared; FIL (agricultor) na direita, expressao sad; sem multidao; acao: conversar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b3: "Franklin discordava, e disse: "O raio é só eletricidade em tamanho gigante.""
+## b3: "Franklin discordava: para ele, o raio era só uma faísca elétrica gigante."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: COM (comerciante) na esquerda, expressao surprised; FRA (cientista) na direita, expressao smug; sem multidao; acao: discutir
@@ -41,8 +41,8 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b6: "Acontece que, quando a nuvem passou, a linha eriçou, e uma faísca pulou da chave até a mão dele."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day; clima: tempestade
-- CAMERA: orbit; plano medio enquadrando personagens e kite juntos (camera a 11.5 m)
-- PERSONAGENS: FRA (cientista) na esquerda, expressao shock; FIL (agricultor) na direita, expressao scared; multidao de 8 (COM, POV) ATRAS dos principais; acao: fala/gesto
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kite juntos (camera a 11.5 m)
+- PERSONAGENS: FRA (cientista) na esquerda, expressao shock; FIL (agricultor) na direita, expressao scared; sem multidao; acao: fala/gesto
 - OBJETO kit/kite: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/key: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +36 da cena
@@ -53,19 +53,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: thump@40
 - SOM: ding@46
 
-## b7: "Hoje se discute se isso aconteceu mesmo, e a sorte foi o raio não ter caído na pipa."
+## b7: "Hoje se discute se isso aconteceu mesmo. E se um raio tivesse caído na pipa, ele não teria sobrevivido."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: COM (comerciante) na esquerda, expressao suspicious; FRA (cientista) na direita, expressao relief; sem multidao; acao: cochichar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b8: "Se tivesse caído, ele não estaria aqui para contar, e outros cientistas morreram tentando repetir."
-- LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: FIL (agricultor) na esquerda, expressao sad; FRA (cientista) na direita, expressao stern; sem multidao; acao: conversar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-
-## b9: "Franklin então inventou o para-raios, e hoje ele protege casas e prédios no mundo inteiro."
+## b8: "Franklin então inventou o para-raios, e hoje ele protege casas e prédios no mundo inteiro."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day; clima: limpo
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o lightning_rod (alvo z -3.6, camera a 15.4 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: FRA (cientista) no centro, expressao laugh; sem multidao; acao: comemorar
@@ -77,7 +71,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: sting@70
 - TEXTO NA TELA: "PARA-RAIOS" flutuando no alto, na palavra 1 da frase
 
-## b10: "No fim, o raio perdeu a briga para uma chave."
+## b9: "No fim, o raio perdeu a briga para uma chave."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: close (rosto e ombros)
 - PERSONAGENS: FRA (cientista) no centro, expressao smug; sem multidao; acao: fala/gesto

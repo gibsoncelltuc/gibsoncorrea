@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 11 - O Raio X de Röntgen
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 13 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.3s - 16 palavras - plano two
@@ -24,15 +24,17 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 5.6s a 8.3s - 11 palavras - plano reveal
+## Cena b1 - 5.6s a 8.3s - 11 palavras - plano crowd
 > "Era mil oitocentos e noventa e cinco, numa cidade da Alemanha."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | MAPA | ALEMANHA | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 2 | - | MAPA | ALEMANHA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
@@ -114,8 +116,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b7 - 35.6s a 38.6s - 13 palavras - plano two
-> "Dizem que ela olhou a chapa, e disse: "Eu vi a minha morte.""
+## Cena b7 - 35.6s a 39.6s - 14 palavras - plano two
+> "Conta-se que ela olhou a chapa e disse que tinha visto a própria morte."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -128,25 +130,25 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b8 - 39.6s a 44.3s - 14 palavras - plano crowd
-> "A notícia correu o mundo. Jornais, médicos e curiosos queriam ver o raio misterioso."
+## Cena b8 - 39.7s a 45.9s - 14 palavras - plano orbit
+> "A notícia correu o mundo, e médicos e curiosos queriam ver o raio misterioso."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 2 | - | ATUACAO | reagir | OK |
 | 3 | - | PLACA | NOTÍCIA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): executa: reagir
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-- multidao de 18: parada, reagindo (surprised), sempre ATRAS dos personagens principais
+- multidao de 14: parada, reagindo (surprised), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b9 - 45.9s a 49.4s - 14 palavras - plano two
-> "Como ninguém sabia o que era, ele chamou de raio X. X, de desconhecido."
+## Cena b9 - 46.1s a 49.4s - 13 palavras - plano two
+> "Sem saber o que era, ele chamou de raio X: X, de desconhecido."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -163,42 +165,26 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b10 - 50.8s a 54.4s - 15 palavras - plano orbit
-> "Em mil novecentos e um, Röntgen ganhou o primeiro Prêmio Nobel de Física da história."
+## Cena b10 - 50.8s a 55.7s - 17 palavras - plano crowd
+> "Em mil novecentos e um, Röntgen ganhou o primeiro Nobel de Física, e nunca patenteou a descoberta."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | ganhou (52.3s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | ganhou (52.3s) | ACAO: vence | bracos para cima + brilho | OK |
-| 3 | Prêmio (53.3s) | EFEITO: stars | estrelinhas + som | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | ATUACAO | comemorar | OK |
-| 6 | - | PLACA | NOBEL | OK |
+| 3 | - | ATUACAO | comemorar | OK |
+| 4 | - | PLACA | NOBEL | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: stars na palavra ganhou (52.3s): executa: estrelinhas + som
 - ACAO: vence na palavra ganhou (52.3s): executa: bracos para cima + brilho
-- EFEITO: stars na palavra Prêmio (53.3s): executa: estrelinhas + som
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 - multidao de 18: parada, reagindo (laugh), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b11 - 55.6s a 59.6s - 13 palavras - plano group
-> "E nunca quis patentear a descoberta. O raio X era de todo mundo."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b12 - 60.7s a 64.0s - 13 palavras - plano close
+## Cena b11 - 56.0s a 61.2s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

@@ -168,6 +168,7 @@ python3 -c "import sentido as S; raise SystemExit(0 if S.cena('Uma metralhadora 
 grep -q "CELULAR/INTERNET/TELA" suspeitas.py && grep -q "congresso|assembleia" suspeitas.py || f "frase de celular/app sem tela ou congresso com 2 pessoas passa sem aviso (Bitcoin)"
 grep -q "BATALHA e a frase nao fala" suspeitas.py || f "batalha ligada em cena sem luta (Goodyear pneus, Abelhas)"
 grep -q "momento automatico nunca dentro de sala" mkvideo.py && grep -q "tropa/armas so' em cena de luta" mkvideo.py || f "virada de historia pacifica vira batalha encenada (Goodyear)"
+grep -q "MULTIDAO SEM MOTIVO" suspeitas.py || f "multidao em cena intima (maca do Newton, injecao do Pasteur)"
 grep -q "_negm" suspeitas.py || f "suspeitas acusa multidao em frase negada (nao foram pessoas)"
 grep -q "_NAV_PROPRIO" mkvideo.py || f "navio padrao do porto aparece junto com o navio da historia (Zanzibar)"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----

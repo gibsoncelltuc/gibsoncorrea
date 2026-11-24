@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 03 - Galileu e a Torre de Pisa
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 25 acoes catalogadas, 25 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.0s - 16 palavras - plano two
@@ -47,78 +47,52 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b3 - 18.3s a 20.5s - 8 palavras - plano group
-> "Todo mundo achava óbvio, e ninguém tinha testado."
+## Cena b3 - 18.3s a 21.9s - 10 palavras - plano group
+> "Mas Galileu Galilei achou estranho e resolveu provar o contrário."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | aproxima-se | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | achou (19.3s) | ACAO: olha | aponta/olha | OK |
+| 2 | - | EMOCAO: determined | o rosto vira "determined" na palavra | OK |
+| 3 | - | INTERACAO | aproxima-se | OK |
+| 4 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: olha na palavra achou (19.3s): braco estendido apontando para o objeto/lugar citado
+- EMOCAO: determined (a cena toda): executa: o rosto vira "determined" na palavra
 - INTERACAO (a cena toda): executa: aproxima-se
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b4 - 21.8s a 24.8s - 12 palavras - plano two
-> "Mas Galileu Galilei achou estranho e disse: "Eu vou provar o contrário.""
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | achou (22.8s) | ACAO: olha | aponta/olha | OK |
-| 2 | - | INTERACAO | discutir | OK |
-| 3 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: olha na palavra achou (22.8s): braco estendido apontando para o objeto/lugar citado
-- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b5 - 26.0s a 29.8s - 16 palavras - plano wide
+## Cena b4 - 22.3s a 27.0s - 16 palavras - plano wide
 > "Dizem que ele foi até a torre inclinada de Pisa, com duas bolas de pesos diferentes."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b6 - 31.4s a 35.1s - 14 palavras - plano wide
+## Cena b5 - 27.1s a 32.7s - 14 palavras - plano wide
 > "Acontece que, quando ele soltou as duas, elas caíram no chão ao mesmo tempo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | soltou (33.0s) | ACAO: x_solta | solta/liberta + brilho | OK |
-| 2 | caíram (34.1s) | EFEITO: dust | poeira + som | OK |
-| 3 | chão (34.5s) | ACAO: tomba | cai sentado no chao + poeira | OK |
+| 1 | soltou (28.6s) | ACAO: x_solta | solta/liberta + brilho | OK |
+| 2 | caíram (29.4s) | EFEITO: dust | poeira + som | OK |
+| 3 | chão (31.4s) | ACAO: tomba | cai sentado no chao + poeira | OK |
 | 4 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 5 | - | ATUACAO | reagir | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_solta na palavra soltou (33.0s): executa: solta/liberta + brilho
-- EFEITO: dust na palavra caíram (34.1s): executa: poeira + som
-- ACAO: tomba na palavra chão (34.5s): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
+- ACAO: x_solta na palavra soltou (28.6s): executa: solta/liberta + brilho
+- EFEITO: dust na palavra caíram (29.4s): executa: poeira + som
+- ACAO: tomba na palavra chão (31.4s): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b7 - 36.3s a 39.4s - 11 palavras - plano group
-> "A plateia ficou de boca aberta, e os professores ficaram bravos."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | INTERACAO | susto | OK |
-| 2 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: susto
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b8 - 40.6s a 45.1s - 17 palavras - plano two
+## Cena b6 - 33.0s a 38.2s - 17 palavras - plano two
 > "Hoje se discute se isso aconteceu mesmo, porque a história vem de um aluno dele, anos depois."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -132,40 +106,39 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 <!-- /FISICA -->
 
-## Cena b9 - 46.3s a 52.3s - 23 palavras - plano crowd
+## Cena b7 - 38.3s a 46.4s - 23 palavras - plano two
 > "Mas em mil novecentos e setenta e um, na Lua, um astronauta soltou um martelo e uma pena, e os dois caíram juntos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | soltou (49.6s) | ACAO: x_solta | solta/liberta + brilho | OK |
-| 2 | caíram (51.9s) | EFEITO: dust | poeira + som | OK |
+| 1 | soltou (43.1s) | ACAO: x_solta | solta/liberta + brilho | OK |
+| 2 | caíram (46.3s) | EFEITO: dust | poeira + som | OK |
 | 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 4 | - | ATUACAO | comemorar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_solta na palavra soltou (49.6s): executa: solta/liberta + brilho
-- EFEITO: dust na palavra caíram (51.9s): executa: poeira + som
+- ACAO: x_solta na palavra soltou (43.1s): executa: solta/liberta + brilho
+- EFEITO: dust na palavra caíram (46.3s): executa: poeira + som
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
-- multidao de 8: parada, reagindo (laugh), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b10 - 53.5s a 55.4s - 9 palavras - plano close
+## Cena b8 - 46.6s a 49.0s - 9 palavras - plano close
 > "No fim, até a pena deu razão ao Galileu."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | deu (54.8s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 1 | deu (47.8s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 2 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_entrega na palavra deu (54.8s): executa: estende a mao entregando
+- ACAO: x_entrega na palavra deu (47.8s): executa: estende a mao entregando
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b11 - 56.6s a 60.0s - 13 palavras - plano close
+## Cena b9 - 49.1s a 53.5s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

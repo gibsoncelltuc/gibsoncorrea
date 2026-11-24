@@ -9,7 +9,8 @@
   "cenarios": [
    "interior madeira",
    "loc_campo",
-   "palace"
+   "loc_montanha",
+   "street"
   ],
   "cenarios_trocados": [
    [
@@ -19,11 +20,6 @@
    ],
    [
     "cena 1",
-    "medieval",
-    "loc_campo"
-   ],
-   [
-    "cena 3",
     "medieval",
     "loc_campo"
    ],
@@ -39,26 +35,6 @@
    ],
    [
     "cena 9",
-    "countryside",
-    "loc_campo"
-   ],
-   [
-    "cena 10",
-    "countryside",
-    "loc_campo"
-   ],
-   [
-    "cena 11",
-    "medieval",
-    "loc_campo"
-   ],
-   [
-    "cena 12",
-    "countryside",
-    "loc_campo"
-   ],
-   [
-    "cena 13",
     "countryside",
     "loc_campo"
    ]
@@ -95,15 +71,45 @@
   "nature/tree_oak",
   "nature/tree_pine"
  ],
- "pesquisa_visual": {},
+ "pesquisa_visual": {
+  "local": "Annonay (fabrica de papel dos Montgolfier) e Palacio de Versalhes, patio diante do palacio; Paris",
+  "quando": "19 de setembro de 1783, dia; 21 de novembro de 1783 em Paris",
+  "participantes": [
+   "Joseph e Etienne Montgolfier (casaca, peruca empoada)",
+   "rei Luis XVI e Maria Antonieta",
+   "cortesaos e multidao",
+   "ovelha, pato e galo"
+  ],
+  "roupas": {
+   "JOS": "casaca marrom e peruca do seculo 18",
+   "ETI": "casaca azul e peruca",
+   "REI": "casaca dourada e manto real",
+   "NOB": "roupa de corte com peruca",
+   "POV": "roupas do povo do seculo 18"
+  },
+  "cenario": "patio de Versalhes com o palacio ao fundo, balao azul e dourado decorado, multidao; bosque de Vaucresson; fabrica de papel",
+  "objetos": [
+   "balao de papel e pano azul com ornamentos dourados",
+   "cesto de vime com os animais",
+   "fogueira de palha"
+  ],
+  "explicacoes": [
+   "Em 19/09/1783, em Versalhes, o balao dos Montgolfier levou uma ovelha, um pato e um galo por cerca de 8 minutos e pousou a uns 3 km; em 21/11/1783 Pilatre de Rozier e o marques d'Arlandes voaram sobre Paris (fonte: Wikipedia Montgolfier brothers)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Montgolfier_brothers",
+   "https://commons.wikimedia.org/wiki/Category:Montgolfier_balloon"
+  ],
+  "locacoes": [
+   "loc_campo",
+   "interior madeira",
+   "street",
+   "loc_montanha"
+  ],
+  "buscas": {
+   "balao": "Montgolfier balloon Versailles 1783 engraving"
+  }
+ },
  "fontes": [],
- "falta": [
-  "local",
-  "quando",
-  "participantes",
-  "roupas",
-  "cenario",
-  "objetos",
-  "fontes_visuais"
- ]
+ "falta": []
 }

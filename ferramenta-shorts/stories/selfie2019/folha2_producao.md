@@ -3,18 +3,18 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/selfie2019/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py selfie2019` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Um presidente parou o discurso na ONU para tirar uma selfie com a plat...
-- Cenario: loc_cidade | luz: day | clima: limpo
+- Cenario: hall | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): BUK (variante 0, expressao grin); DIP (variante 0, expressao surprised) | multidao: 16 de POV
 - Animacao: encena
-- Objetos/modelos: mk/BookStand, kit/marco_onu, kit/phone
+- Objetos/modelos: mk/BookStand, kit/phone
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): discurso, plateia, presidente, selfie
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: praia / palacio; hora: day
+- LOCAL: salao; hora: day
 - CAMERA: revelacao (camera sobe e abre)
 - PERSONAGENS: BUK na esquerda, expressao grin; DIP (politico) na direita, expressao surprised; multidao de 16 (POV) ATRAS dos principais; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
@@ -26,20 +26,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b1 - Foi na Assembleia Geral da ONU, em Nova York, em setembro de dois mil ...
-- Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin)
-- Animacao: conversar | interacao: avanca e o outro recua
+- Cenario: hall | luz: day | clima: limpo
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 12 de POV
+- Animacao: conversar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): assembleia, dois
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de madeira; hora: day
+- LOCAL: salao; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: conversar
+- PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; multidao de 12 (POV) ATRAS dos principais; acao: conversar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "ONU - NOVA YORK" numa placa atras dos personagens, na palavra 1 da frase
 - MAPA: ESTADOS UNIDOS (cobre a tela 1-2 s)
@@ -89,8 +89,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b4 - Acontece que, no púlpito, ele pediu licença por um momento e tirou o c...
-- Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Cenario: hall | luz: day | clima: limpo
+- Camera: low = camera baixa, dramatica (virada) + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): BUK (variante 0, expressao grin)
 - Animacao: conversar
@@ -100,7 +100,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de madeira; hora: day
+- LOCAL: salao; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)
 - PERSONAGENS: BUK no centro, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/phone: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
@@ -114,18 +114,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b5 - Virou de costas para o plenário e tirou a selfie com todos atrás.
-- Cenario: palace | luz: day | clima: limpo
+- Cenario: hall | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): BUK (variante 0, expressao grin); POV (variante 1, expressao surprised) | multidao: 20 de POV
 - Animacao: tirar
-- Objetos/modelos: mk/BookStand, kit/marco_onu, kit/phone
+- Objetos/modelos: mk/BookStand, kit/phone
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): costas, plenario, selfie
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: praia / palacio; hora: day
+- LOCAL: salao; hora: day
 - CAMERA: plano de multidao
 - PERSONAGENS: BUK na esquerda, expressao grin; POV na direita, expressao surprised; multidao de 20 (POV) ATRAS dos principais; acao: tirar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
@@ -138,39 +138,39 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b6 - Depois explicou: o mundo novo está onde essa foto vai parar, na intern...
-- Cenario: interior pedra | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Cenario: hall | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): BUK (variante 0, expressao laugh); DIP (variante 0, expressao surprised)
-- Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: -
+- Animacao: conversar | interacao: avanca e o outro recua
+- Objetos/modelos: kit/phone
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): internet
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de pedra (governo/castelo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
+- LOCAL: salao; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 11.5 m)
 - PERSONAGENS: BUK na esquerda, expressao laugh; DIP (politico) na direita, expressao surprised; sem multidao; acao: conversar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- OBJETO kit/phone: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
   - take 1 (28.0-29.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
   - take 2 (29.9-31.8 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b7 - E avisou que a ONU pode desaparecer como a Kodak e os dinossauros.
-- Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Cenario: hall | luz: day | clima: limpo
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): BUK (variante 0, expressao stern); DIP (variante 0, expressao worried) | multidao: 0 de 
-- Animacao: conversar | interacao: insiste
+- Animacao: encena | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dinossauros, kodak
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de madeira; hora: day
+- LOCAL: salao; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: BUK na esquerda, expressao stern; DIP (politico) na direita, expressao worried; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
@@ -185,7 +185,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): REP (variante 0, expressao suspicious, segura paper); BUK (variante 0, expressao grin)
-- Animacao: conversar | interacao: vai ate o outro
+- Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): concurso, ideias, seus
 - RISCOS: nenhum
@@ -204,10 +204,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - A selfie rodou o mundo, e o discurso ficou em segundo plano.
 - Cenario: palace | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (3): POV (variante 0, expressao laugh); POV (variante 1, expressao surprised); REP (variante 0, expressao grin) | multidao: 20 de POV
-- Animacao: comemorar | grande momento (efeito + som, sem tiro)
+- Animacao: comemorar
 - Objetos/modelos: kit/marco_onu, kit/phone
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): discurso, selfie
 - RISCOS: nenhum
@@ -243,7 +243,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: sala de pedra (governo/castelo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)
 - PERSONAGENS: BUK no centro, expressao smile; sem multidao; acao: comemorar
-- OBJETO kit/phone: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/phone: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
@@ -263,13 +263,13 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 mk/BookStand | b0, b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_onu | b0, b5, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/phone | b0, b4, b5, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/phone | b0, b4, b5, b6, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_onu | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/phone | grandes momentos: b9 | planos abertos: 3 | mistura: close 10% | medio 71% | aberto 17% | detalhe 2%
-- Interacoes: b1 avanca e o outro recua, b2 discutir, b3 cochichar, b6 o outro se aproxima, b7 insiste, b8 vai ate o outro
+- Objeto heroi: kit/phone | grandes momentos: b7 | planos abertos: 5 | mistura: close 18% | medio 46% | aberto 31% | detalhe 5%
+- Interacoes: b2 discutir, b3 cochichar, b6 avanca e o outro recua, b8 o outro se aproxima
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

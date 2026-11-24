@@ -3,8 +3,18 @@
  "ano": 1566,
  "cenarios_trocados": [
   [
+   "video",
+   "street",
+   "loc_campo"
+  ],
+  [
    "cena 8",
    "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 11",
+   "street",
    "loc_campo"
   ]
  ],
@@ -23,8 +33,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/brass_nose",
-    "kit/marco_rostock"
+    "kit/brass_nose"
    ],
    "palavras": 15,
    "cena": "b0",
@@ -42,14 +51,10 @@
     "POV"
    ],
    "multidao": 6,
-   "objetos": [
-    "buildings/house_two",
-    "kit/marco_rostock",
-    "nature/lamppost"
-   ],
-   "palavras": 19,
+   "objetos": [],
+   "palavras": 17,
    "cena": "b1",
-   "frase": "Era mil quinhentos e sessenta e seis. Tycho Brahe, um jovem nobre da Dinamarca, estudava numa cidade da Alemanha.",
+   "frase": "Era mil quinhentos e sessenta e seis, e Tycho Brahe, um jovem nobre dinamarquês, estudava na Alemanha.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -60,7 +65,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "loc_campo"
   },
   {
    "camera": "group",
@@ -88,14 +93,14 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 17,
+   "palavras": 13,
    "cena": "b3",
-   "frase": "A briga não acabou ali. Dias depois, os dois resolveram tudo num duelo de espadas, no escuro.",
+   "frase": "Dias depois, os dois resolveram a briga num duelo de espadas, no escuro.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "loc_deserto"
   },
   {
    "camera": "two",
@@ -105,8 +110,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/brass_nose",
-    "kit/marco_rostock"
+    "kit/brass_nose"
    ],
    "palavras": 17,
    "cena": "b4",
@@ -115,7 +119,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "loc_deserto"
   },
   {
    "camera": "two",
@@ -153,22 +157,27 @@
    "cenario": "harbor"
   },
   {
-   "camera": "wide",
+   "camera": "orbit",
    "personagens": [
     "TYC"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/marco_rostock",
     "kit/marco_uraniborg",
     "kit/tower"
    ],
    "palavras": 17,
    "cena": "b7",
    "frase": "Lá, ele construiu um castelo observatório, e anotou a posição de mais de mil estrelas, sem telescópio.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },
@@ -190,44 +199,17 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "crowd",
-   "personagens": [
-    "KEP",
-    "POV",
-    "POV"
-   ],
-   "multidao": 16,
-   "objetos": [
-    "kit/marco_rostock"
-   ],
-   "palavras": 7,
-   "cena": "b9",
-   "frase": "Essa descoberta mudou a astronomia para sempre.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
-   "acoes_faltando": [],
-   "cenario": "medieval"
-  },
-  {
    "camera": "two",
    "personagens": [
     "TYC"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/brass_nose",
-    "kit/marco_rostock"
+    "kit/brass_nose"
    ],
-   "palavras": 17,
-   "cena": "b10",
-   "frase": "E Tycho entrou para a história assim: com a cabeça nas estrelas, e o nariz de metal.",
+   "palavras": 10,
+   "cena": "b9",
+   "frase": "Com a cabeça nas estrelas, e o nariz de metal.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -242,13 +224,13 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b11",
+   "cena": "b10",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "loc_campo"
   }
  ]
 }

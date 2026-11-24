@@ -1,32 +1,30 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 03 - Galileu e a Torre de Pisa
 
-Gerado em 24/11 23:03 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:09 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_campo | two | GAL | - | ball, marco_pisa, pisa_tower | - | Uma bola pesada e outra leve foram soltas juntas e caíram no chão ao m
-b1 | transicao | loc_campo | reveal | ALU, ALU | 8 | marco_pisa | - | Conta a história que, em Pisa, na Itália, por volta de mil quinhentos 
+b0 | simples | street | two | GAL | - | ball, marco_pisa, pisa_tower | - | Uma bola pesada e outra leve foram soltas juntas e caíram no chão ao m
+b1 | transicao | street | reveal | ALU, ALU | 8 | marco_pisa | - | Conta a história que, em Pisa, na Itália, por volta de mil quinhentos 
 b2 | simples | interior pedra | two | ARI, ALU | - | - | - | O sábio era Aristóteles, que dizia que quanto mais pesado o objeto, ma
-b3 | simples | interior pedra | group | ALU, ALU, PRO | - | - | - | Todo mundo achava óbvio, e ninguém tinha testado.
-b4 | simples | interior pedra | two | ALU, GAL | - | - | - | Mas Galileu Galilei achou estranho e disse: "Eu vou provar o contrário
-b5 | transicao | loc_deserto | wide | GAL | - | ball, marco_pisa, pisa_tower, cannonballs | - | Dizem que ele foi até a torre inclinada de Pisa, com duas bolas de pes
-b6 | chave | loc_deserto | wide | GAL | - | ball, marco_pisa, pisa_tower, cannonballs | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, quando ele soltou as duas, elas caíram no chão ao mesmo 
-b7 | simples | loc_campo | group | PRO, PRO, ALU | - | - | - | A plateia ficou de boca aberta, e os professores ficaram bravos.
-b8 | simples | interior madeira | two | GAL, ALU | - | - | - | Hoje se discute se isso aconteceu mesmo, porque a história vem de um a
-b9 | chave | loc_campo | crowd | AST, AST | 8 | feather, marco_pisa, hammer | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Mas em mil novecentos e setenta e um, na Lua, um astronauta soltou um 
-b10 | simples | loc_montanha | close | GAL | - | - | - | No fim, até a pena deu razão ao Galileu.
-b11 | simples | loc_campo | close | GAL | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b3 | simples | interior pedra | group | ALU, ALU, PRO | - | ball | - | Mas Galileu Galilei achou estranho e resolveu provar o contrário.
+b4 | transicao | loc_campo | wide | GAL | - | ball, marco_pisa, pisa_tower, cannonballs | - | Dizem que ele foi até a torre inclinada de Pisa, com duas bolas de pes
+b5 | chave | loc_campo | wide | GAL | - | ball, marco_pisa, pisa_tower, cannonballs | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, quando ele soltou as duas, elas caíram no chão ao mesmo 
+b6 | simples | interior madeira | two | GAL, ALU | - | - | - | Hoje se discute se isso aconteceu mesmo, porque a história vem de um a
+b7 | chave | arctic | two | AST | - | feather, hammer | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Mas em mil novecentos e setenta e um, na Lua, um astronauta soltou um 
+b8 | simples | interior loja | close | GAL | - | - | - | No fim, até a pena deu razão ao Galileu.
+b9 | simples | street | close | GAL | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (3/4 itens) | FEITO | 
-3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | FEITO | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 2) | PENDENTE | corrigir o roteiro conforme a folha 2
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (3/13 itens) | PENDENTE | python3 pesquisar.py galileu1589
+3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | REFAZER (a etapa anterior mudou) | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | BLOQUEADO (etapa anterior pendente) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 
@@ -38,5 +36,5 @@ N | Etapa | O que confere | Estado | Proximo passo
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local galileu1589 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
-**Etapa atual:** 4. Travas do roteiro
+**Etapa atual:** 2. Pesquisa de campo
 

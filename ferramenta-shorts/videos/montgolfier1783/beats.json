@@ -155,7 +155,7 @@
    ],
    "say": "Os irmãos Montgolfier, donos de uma fábrica de papel, viram que a fumaça quente fazia sacos de papel flutuarem.",
    "quadro": {
-    "local": "vila medieval",
+    "local": "sala de madeira",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e campfire juntos (camera a 11.5 m)",
     "objetos": [
      {
@@ -166,11 +166,11 @@
      }
     ]
    },
+   "interior": "madeira",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "interior": "madeira"
+   "d1": 11.5
   },
   {
    "shot": "wide",
@@ -276,12 +276,12 @@
      }
     ]
    },
+   "set": "medieval",
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
    "d0": 21.0,
-   "d1": 20.0,
-   "set": "medieval"
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -320,7 +320,7 @@
    "fachada": false,
    "detalhe": false,
    "quadro": {
-    "local": "praia / palacio",
+    "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto",
     "objetos": [
      {
@@ -331,12 +331,12 @@
      }
     ]
    },
+   "set": "street",
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
    "d0": 21.0,
-   "d1": 20.0,
-   "set": "street"
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -350,10 +350,6 @@
      -19.3,
      8.22,
      {
-      "mover": [
-       7.0,
-       -19.3
-      ],
       "fixo": true
      }
     ]
@@ -380,16 +376,16 @@
       "objeto": "kit/balloon_air",
       "lugar": "FUNDO, centro (objeto principal da cena)",
       "tela": "30% da altura da tela",
-      "estado": "indo embora"
+      "estado": "parado"
      }
     ]
    },
+   "set": "medieval",
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
    "d0": 21.0,
-   "d1": 20.0,
-   "set": "medieval"
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -427,11 +423,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0,
    "animals": [
     [
      "sheep",
@@ -448,7 +439,12 @@
      -2.4,
      1.2
     ]
-   ]
+   ],
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -464,14 +460,10 @@
    "props": [
     [
      "kit/balloon_air",
-     -7.0,
+     0.0,
      -19.3,
      8.22,
      {
-      "mover": [
-       0.0,
-       -19.3
-      ],
       "fixo": true
      }
     ]
@@ -490,23 +482,23 @@
    "fachada": false,
    "detalhe": false,
    "quadro": {
-    "local": "vila medieval",
+    "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon_air (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/balloon_air",
       "lugar": "FUNDO, centro (objeto principal da cena)",
       "tela": "30% da altura da tela",
-      "estado": "chegando"
+      "estado": "parado"
      }
     ]
    },
+   "set": "street",
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
    "d0": 21.0,
-   "d1": 20.0,
-   "set": "street"
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -554,7 +546,7 @@
    },
    "detalhe": false,
    "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
+    "local": "loc_montanha",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
     "objetos": [
      {
@@ -565,12 +557,12 @@
      }
     ]
    },
+   "set": "loc_montanha",
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
    "d0": 21.0,
-   "d1": 20.0,
-   "set": "loc_montanha"
+   "d1": 20.0
   }
  ],
  "exp": 0.81,

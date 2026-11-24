@@ -34,7 +34,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: MEN (padre) na esquerda, expressao surprised; FRE (padre) na direita, expressao shock; sem multidao; acao: fala/gesto
 - OBJETO kit/pea_yellow: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
-## b4: "Mendel ficou curioso e disse: "Para onde foi o verde?""
+## b4: "Mendel ficou curioso: para onde tinha ido o verde?"
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: FRE (padre) na esquerda, expressao suspicious; MEN (padre) na direita, expressao nervous; sem multidao; acao: discutir
@@ -50,8 +50,8 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b6: "Acontece que o verde voltou, e sempre na mesma conta: três ervilhas amarelas para uma verde."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
-- CAMERA: orbit; plano medio enquadrando personagens e pea_green juntos (camera a 11.5 m)
-- PERSONAGENS: MEN (padre) na esquerda, expressao shock; FRE (padre) na direita, expressao surprised; multidao de 10 (FRE, POV) ATRAS dos principais; acao: fala/gesto
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e pea_green juntos (camera a 11.5 m)
+- PERSONAGENS: MEN (padre) na esquerda, expressao shock; FRE (padre) na direita, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETO kit/pea_green: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/pea_yellow: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/pea_yellow: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
@@ -60,6 +60,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: ding@40
 - SOM: sting@60
+- TEXTO NA TELA: "3 : 1" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b7: "Ele descobriu que cada filho herda uma instrução do pai e outra da mãe."
 - LOCAL: sala de madeira; hora: day
@@ -75,15 +76,15 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b9: "Só no ano mil e novecentos, já depois da morte dele, os cientistas viram que ele estava certo."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
-- CAMERA: plano de multidao; plano medio enquadrando personagens e pea_green juntos (camera a 11.5 m)
-- PERSONAGENS: CIE (cientista) na esquerda, expressao laugh; CIE (cientista) na direita, expressao grin; multidao de 14 (CIE, POV, FRE) ATRAS dos principais; acao: comemorar
+- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e pea_green juntos (camera a 11.5 m)
+- PERSONAGENS: CIE (cientista) na esquerda, expressao surprised; CIE (cientista) no centro, expressao grin; CIE (cientista) na direita, expressao smile; sem multidao; acao: comemorar
 - OBJETO kit/pea_green: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/pea_yellow: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +70 da cena
 - SOM: ding@30
 - SOM: sting@70
-- TEXTO NA TELA: "GENÉTICA" flutuando no alto, na palavra 1 da frase
+- TEXTO NA TELA: "GENÉTICA" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b10: "No fim, a ervilha fez o monge famoso."
 - LOCAL: vila rural (casas, cercas, campo); hora: day

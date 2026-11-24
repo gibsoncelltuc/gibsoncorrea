@@ -199,7 +199,7 @@
    }
   },
   {
-   "shot": "close",
+   "shot": "two",
    "set": "countryside",
    "who": [
     "GRE:0:sad"
@@ -208,9 +208,12 @@
    "props": [
     [
      "kit/dog_sit",
-     -1.4,
-     -0.2,
-     1.1
+     2.4,
+     0.2,
+     1.1,
+     {
+      "fixo": true
+     }
     ]
    ],
    "animals": [
@@ -220,7 +223,23 @@
      1.5
     ]
    ],
-   "acao": "reagir"
+   "acao": "reagir",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e dog_sit juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/dog_sit",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   }
  ],
  "exp": 1.12,
@@ -258,5 +277,6 @@
    "roupas e ruas de 1925": "Bulgaria 1920s street photograph"
   }
  },
- "cinf": 4.5
+ "cinf": 4.5,
+ "max_wide": 3
 }

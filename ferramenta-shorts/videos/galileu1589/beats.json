@@ -138,14 +138,26 @@
     [
      "kit/ball",
      0.0,
-     -1.0,
-     0.95,
+     1.0,
+     1.31,
      {
       "fixo": true
      }
     ]
    ],
-   "detalhe": true
+   "detalhe": true,
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano de grupo (3+ pessoas)",
+    "objetos": [
+     {
+      "objeto": "kit/ball",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "say": "Dizem que ele foi até a torre inclinada de Pisa, com duas bolas de pesos diferentes.",
@@ -157,8 +169,8 @@
    "props": [
     [
      "kit/pisa_tower",
-     0.0,
-     -8.0,
+     7.0,
+     -14.0,
      0.6,
      {
       "fixo": true
@@ -166,16 +178,16 @@
     ],
     [
      "kit/ball",
-     -1.6,
-     0.8,
-     0.95,
+     1.0,
+     1.0,
+     1.31,
      {
       "fixo": true
      }
     ],
     [
      "war/cannonballs",
-     7.0,
+     -7.0,
      -14.0,
      1.0,
      {
@@ -190,33 +202,28 @@
    "detalhe": false,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o pisa_tower (alvo z -3.6, camera a 16.2 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro)",
     "objetos": [
      {
-      "objeto": "kit/pisa_tower",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
+      "objeto": "kit/ball",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
       "estado": "parado"
      },
      {
-      "objeto": "kit/ball",
-      "lugar": "FRENTE, esquerda",
-      "tela": "11% da altura da tela",
+      "objeto": "kit/pisa_tower",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
       "estado": "parado"
      },
      {
       "objeto": "war/cannonballs",
-      "lugar": "FUNDO, direita",
+      "lugar": "FUNDO, esquerda",
       "tela": "18% da altura da tela",
       "estado": "parado"
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 17.1,
-   "d1": 16.2
+   }
   },
   {
    "say": "Acontece que, quando ele soltou as duas, elas caíram no chão ao mesmo tempo.",
@@ -232,8 +239,8 @@
    "props": [
     [
      "kit/pisa_tower",
-     0.0,
-     -9.7,
+     7.0,
+     -14.0,
      1.0,
      {
       "fixo": true
@@ -241,16 +248,16 @@
     ],
     [
      "kit/ball",
-     -1.6,
-     0.8,
-     0.95,
+     1.0,
+     1.0,
+     1.31,
      {
       "fixo": true
      }
     ],
     [
      "war/cannonballs",
-     7.0,
+     -7.0,
      -14.0,
      1.0,
      {
@@ -270,33 +277,28 @@
    "detalhe": false,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o pisa_tower (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro)",
     "objetos": [
      {
-      "objeto": "kit/pisa_tower",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
+      "objeto": "kit/ball",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
       "estado": "parado"
      },
      {
-      "objeto": "kit/ball",
-      "lugar": "FRENTE, esquerda",
-      "tela": "11% da altura da tela",
+      "objeto": "kit/pisa_tower",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
       "estado": "parado"
      },
      {
       "objeto": "war/cannonballs",
-      "lugar": "FUNDO, direita",
+      "lugar": "FUNDO, esquerda",
       "tela": "18% da altura da tela",
       "estado": "parado"
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.6,
-   "d0": 21.0,
-   "d1": 20.0
+   }
   },
   {
    "say": "Hoje se discute se isso aconteceu mesmo, porque a história vem de um aluno dele, anos depois.",
@@ -323,8 +325,8 @@
    "props": [
     [
      "tools/hammer",
-     0.0,
-     -1.2,
+     2.4,
+     0.2,
      1.8,
      {
       "fixo": true
@@ -352,11 +354,11 @@
    "hora": "noite",
    "quadro": {
     "local": "campo de gelo e neve (mar congelado, rochas)",
-    "camera": "plano de multidao; plano medio enquadrando personagens e hammer juntos (camera a 11.5 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e hammer juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "tools/hammer",
-      "lugar": "MEIO, centro (objeto principal da cena)",
+      "lugar": "MEIO, direita (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      },
@@ -368,10 +370,10 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "say": "No fim, até a pena deu razão ao Galileu.",

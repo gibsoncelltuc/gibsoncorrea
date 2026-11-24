@@ -17,7 +17,7 @@
     "loc_campo"
    ],
    [
-    "cena 13",
+    "cena 12",
     "street",
     "loc_campo"
    ]
@@ -41,21 +41,47 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "kit/lapide",
-  "kit/lupa",
   "kit/maca",
   "kit/marco_viena",
   "kit/room_hospital",
   "kit/wash_basin"
  ],
- "pesquisa_visual": {},
+ "pesquisa_visual": {
+  "local": "Hospital Geral de Viena (Allgemeines Krankenhaus), Austria: enfermarias de parto com leitos em fileira, sala de autopsia",
+  "quando": "1846-1849, dia",
+  "participantes": [
+   "Ignaz Semmelweis (calvo, bigode, sobrecasaca escura)",
+   "medicos e estudantes de sobrecasaca",
+   "parteiras de avental branco",
+   "maes gravidas",
+   "Jakob Kolletschka"
+  ],
+  "roupas": {
+   "SEM": "sobrecasaca escura e bigode",
+   "DIR": "sobrecasaca e costeletas grisalhas",
+   "PAR": "vestido escuro e avental branco",
+   "MAE": "camisola branca de hospital",
+   "KOL": "sobrecasaca e barba"
+  },
+  "cenario": "enfermaria longa com leitos de ferro em fileira, paredes claras, janelas altas; bacia de agua clorada na porta",
+  "objetos": [
+   "bacia com agua e cal clorada",
+   "bisturi",
+   "leitos de hospital",
+   "lapide"
+  ],
+  "explicacoes": [
+   "Na Primeira Clinica (medicos) de Viena a febre puerperal matava muito mais que na Segunda (parteiras); apos a morte de Kolletschka, Semmelweis impos a lavagem com cal clorada em 1847 e a mortalidade caiu de cerca de 18% para 2%; foi demitido e morreu em 1865 (fonte: Wikipedia Ignaz Semmelweis)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Ignaz_Semmelweis",
+   "https://en.wikipedia.org/wiki/Vienna_General_Hospital"
+  ],
+  "buscas": {
+   "hospital": "Vienna General Hospital 1840s maternity ward",
+   "medico": "Ignaz Semmelweis portrait"
+  }
+ },
  "fontes": [],
- "falta": [
-  "local",
-  "quando",
-  "participantes",
-  "roupas",
-  "cenario",
-  "objetos",
-  "fontes_visuais"
- ]
+ "falta": []
 }

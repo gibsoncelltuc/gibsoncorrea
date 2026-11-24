@@ -210,7 +210,7 @@
    ],
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "orbit; plano medio enquadrando personagens e kite juntos (camera a 11.5 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kite juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/kite",

@@ -3,7 +3,7 @@
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
 ## b0: "Um presidente parou o discurso na ONU para tirar uma selfie com a plateia atrás."
-- LOCAL: praia / palacio; hora: day
+- LOCAL: salao; hora: day
 - CAMERA: revelacao (camera sobe e abre)
 - PERSONAGENS: BUK na esquerda, expressao grin; DIP (politico) na direita, expressao surprised; multidao de 16 (POV) ATRAS dos principais; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
@@ -11,9 +11,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@30
 
 ## b1: "Foi na Assembleia Geral da ONU, em Nova York, em setembro de dois mil e dezenove."
-- LOCAL: sala de madeira; hora: day
+- LOCAL: salao; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: conversar
+- PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; multidao de 12 (POV) ATRAS dos principais; acao: conversar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "ONU - NOVA YORK" numa placa atras dos personagens, na palavra 1 da frase
 - MAPA: ESTADOS UNIDOS (cobre a tela 1-2 s)
@@ -31,7 +31,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
 ## b4: "Acontece que, no púlpito, ele pediu licença por um momento e tirou o celular do bolso."
-- LOCAL: sala de madeira; hora: day
+- LOCAL: salao; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)
 - PERSONAGENS: BUK no centro, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/phone: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
@@ -41,7 +41,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: sting@40
 
 ## b5: "Virou de costas para o plenário e tirou a selfie com todos atrás."
-- LOCAL: praia / palacio; hora: day
+- LOCAL: salao; hora: day
 - CAMERA: plano de multidao
 - PERSONAGENS: BUK na esquerda, expressao grin; POV na direita, expressao surprised; multidao de 20 (POV) ATRAS dos principais; acao: tirar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
@@ -50,13 +50,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@20
 
 ## b6: "Depois explicou: o mundo novo está onde essa foto vai parar, na internet."
-- LOCAL: sala de pedra (governo/castelo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
+- LOCAL: salao; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 11.5 m)
 - PERSONAGENS: BUK na esquerda, expressao laugh; DIP (politico) na direita, expressao surprised; sem multidao; acao: conversar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- OBJETO kit/phone: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
 ## b7: "E avisou que a ONU pode desaparecer como a Kodak e os dinossauros."
-- LOCAL: sala de madeira; hora: day
+- LOCAL: salao; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: BUK na esquerda, expressao stern; DIP (politico) na direita, expressao worried; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
@@ -83,5 +83,5 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: sala de pedra (governo/castelo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)
 - PERSONAGENS: BUK no centro, expressao smile; sem multidao; acao: comemorar
-- OBJETO kit/phone: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/phone: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 

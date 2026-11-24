@@ -1,13 +1,7 @@
 {
  "id": "roadster2018",
  "ano": 2018,
- "cenarios_trocados": [
-  [
-   "cena 7",
-   "countryside",
-   "loc_campo"
-  ]
- ],
+ "cenarios_trocados": [],
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
@@ -22,17 +16,16 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/falcon_air",
     "kit/roadster"
    ],
-   "palavras": 16,
+   "palavras": 13,
    "cena": "b0",
-   "frase": "Em fevereiro de dois mil e dezoito, um Tesla de verdade foi lançado para o espaço.",
+   "frase": "Um carro de verdade está dando voltas ao redor do Sol até hoje.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "arctic"
   },
   {
    "camera": "wide",
@@ -43,14 +36,14 @@
    "objetos": [
     "kit/roadster"
    ],
-   "palavras": 16,
+   "palavras": 18,
    "cena": "b1",
-   "frase": "Era um Roadster vermelho, e quem teve a ideia foi Elon Musk, o dono da SpaceX.",
-   "classe": "simples",
+   "frase": "É um Tesla Roadster vermelho, lançado em fevereiro de dois mil e dezoito pela SpaceX, de Elon Musk.",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "loc_pista"
   },
   {
    "camera": "wide",
@@ -61,14 +54,14 @@
    "objetos": [
     "kit/rocket"
    ],
-   "palavras": 23,
+   "palavras": 19,
    "cena": "b2",
-   "frase": "O voo de estreia do Falcon Heavy, o maior foguete da empresa, aconteceu em seis de fevereiro, em Cabo Canaveral, nos Estados Unidos.",
+   "frase": "Era o voo de estreia do Falcon Heavy, o maior foguete da empresa, em Cabo Canaveral, nos Estados Unidos.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "loc_pista"
   },
   {
    "camera": "two",
@@ -79,9 +72,9 @@
    "objetos": [
     "kit/roadster"
    ],
-   "palavras": 17,
+   "palavras": 20,
    "cena": "b3",
-   "frase": "Como era só um teste, em vez de colocar peso de concreto, Musk resolveu mandar o Roadster.",
+   "frase": "Acontece que era só um teste, e em vez de um peso de concreto, Musk resolveu mandar o próprio carro.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -89,7 +82,7 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
     "ENG"
    ],
@@ -110,7 +103,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "loc_pista"
   },
   {
    "camera": "two",
@@ -146,29 +139,33 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "arctic"
   },
   {
-   "camera": "wide",
-   "personagens": [
-    "ENG"
-   ],
+   "camera": "two",
+   "personagens": [],
    "multidao": 0,
    "objetos": [
     "kit/globe",
     "kit/roadster"
    ],
-   "palavras": 15,
+   "palavras": 17,
    "cena": "b7",
-   "frase": "O Roadster saiu da órbita da Terra, e seguiu em órbita ao redor do Sol.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
+   "frase": "O Roadster saiu da órbita da Terra e seguiu em órbita ao redor do Sol, no espaço.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/roadster (gira)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
    "acoes_faltando": [],
    "cenario": "arctic"
   },
   {
-   "camera": "two",
+   "camera": "crowd",
    "personagens": [
     "MUS"
    ],
@@ -179,25 +176,6 @@
    "palavras": 10,
    "cena": "b8",
    "frase": "E ele continua lá em cima, dando voltas, até hoje.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "arctic"
-  },
-  {
-   "camera": "orbit",
-   "personagens": [
-    "MUS"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/roadster",
-    "kit/rocket"
-   ],
-   "palavras": 17,
-   "cena": "b9",
-   "frase": "Um Roadster, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -209,6 +187,25 @@
    },
    "acoes_faltando": [],
    "cenario": "arctic"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/roadster",
+    "kit/rocket"
+   ],
+   "palavras": 17,
+   "cena": "b9",
+   "frase": "Um carro, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
   },
   {
    "camera": "close",
@@ -224,7 +221,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "arctic"
+   "cenario": "loc_pista"
   }
  ]
 }

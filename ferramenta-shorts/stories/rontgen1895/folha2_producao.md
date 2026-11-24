@@ -28,10 +28,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b1 - Era mil oitocentos e noventa e cinco, numa cidade da Alemanha.
 - Cenario: street | luz: day | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
-- Animacao: -
+- Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/marco_wurzburg, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alemanha
 - RISCOS: nenhum
@@ -165,14 +165,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 3 (32.7-34.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
-## Cena b7 - Dizem que ela olhou a chapa, e disse: "Eu vi a minha morte."
+## Cena b7 - Conta-se que ela olhou a chapa e disse que tinha visto a própria morte...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): ANA (variante 0, expressao scared)
 - Animacao: conversar
 - Objetos/modelos: kit/xray_plate
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chapa, minha
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chapa, propria
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -181,17 +181,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e xray_plate juntos (camera a 8.0 m)
 - PERSONAGENS: ANA no centro, expressao scared; sem multidao; acao: fala/gesto
 - OBJETO kit/xray_plate: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (35.6-37.1 s): mesmo angulo
-  - take 2 (37.1-38.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
+  - take 1 (35.6-37.6 s): mesmo angulo
+  - take 2 (37.6-39.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
-## Cena b8 - A notícia correu o mundo. Jornais, médicos e curiosos queriam ver o ra...
+## Cena b8 - A notícia correu o mundo, e médicos e curiosos queriam ver o raio mist...
 - Cenario: street | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): JOR (variante 0, expressao surprised, segura paper); MED (variante 0, expressao grin); POV (variante 0, expressao shock) | multidao: 18 de POV/JOR/MED
-- Animacao: reagir | batalha encenada
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (3): JOR (variante 0, expressao surprised, segura paper); MED (variante 0, expressao grin); POV (variante 0, expressao shock) | multidao: 14 de JOR/MED/POV
+- Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/xray_plate, kit/marco_wurzburg
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): noticia, raio
 - RISCOS: nenhum
@@ -200,20 +200,23 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano de multidao; plano medio enquadrando personagens e xray_plate juntos (camera a 11.5 m)
-- PERSONAGENS: JOR (jornalista) na esquerda, expressao surprised, segura paper; MED (medico) no centro, expressao grin; POV na direita, expressao shock; multidao de 18 (POV, JOR, MED) ATRAS dos principais; acao: batalha
+- PERSONAGENS: JOR (jornalista) na esquerda, expressao surprised, segura paper; MED (medico) no centro, expressao grin; POV na direita, expressao shock; multidao de 14 (JOR, MED, POV) ATRAS dos principais; acao: fala/gesto
 - OBJETO kit/xray_plate: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +60 da cena
 - SOM: ding@30
 - SOM: sting@60
 - TEXTO NA TELA: "NOTÍCIA" flutuando no alto, na palavra 1 da frase
-- TAKES: sequencia de acao em 3 cameras (4.7 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: 3 takes (troca de angulo a cada ~2.1 s, sem corte seco):
+  - take 1 (39.7-41.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (41.8-43.8 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (43.8-45.9 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b9 - Como ninguém sabia o que era, ele chamou de raio X. X, de desconhecido...
+## Cena b9 - Sem saber o que era, ele chamou de raio X: X, de desconhecido.
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): ROE (variante 0, expressao smug); JOR (variante 0, expressao suspicious, segura paper)
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/xray_plate
@@ -227,19 +230,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: ROE (cientista) na esquerda, expressao smug; JOR (jornalista) na direita, expressao suspicious, segura paper; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "RAIO X" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (45.9-47.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (47.6-49.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (46.1-47.8 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (47.8-49.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
-## Cena b10 - Em mil novecentos e um, Röntgen ganhou o primeiro Prêmio Nobel de Físi...
+## Cena b10 - Em mil novecentos e um, Röntgen ganhou o primeiro Nobel de Física, e n...
 - Cenario: street | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (3): ROE (variante 0, expressao laugh); MED (variante 0, expressao grin); POV (variante 0, expressao laugh) | multidao: 18 de POV/MED/JOR
-- Animacao: comemorar | batalha encenada
+- Animacao: comemorar
 - Objetos/modelos: kit/marco_wurzburg
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fisica, rontgen
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): descoberta, fisica, rontgen
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -253,31 +256,13 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: ding@20
 - SOM: ding@60
 - TEXTO NA TELA: "NOBEL" flutuando no alto, na palavra 1 da frase
-- TAKES: sequencia de acao em 3 cameras (3.6 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (50.8-52.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (52.4-54.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (54.1-55.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
-## Cena b11 - E nunca quis patentear a descoberta. O raio X era de todo mundo.
-- Cenario: street | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (1): ROE (variante 0, expressao smile) | multidao: 5 de POV
-- Animacao: conversar
-- Objetos/modelos: kit/xray_plate
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): descoberta, raio
-- RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: close (rosto e ombros)
-- PERSONAGENS: ROE (cientista) no centro, expressao smile; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
-  - take 1 (55.6-57.6 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (57.6-59.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-<!-- /FICHA -->
-
-## Cena b12 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: street | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
@@ -292,7 +277,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/xray_plate | b0, b4, b5, b6, b7, b8, b9, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/xray_plate | b0, b4, b5, b6, b7, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_wurzburg | b0, b1, b8, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -300,13 +285,13 @@ kit/crookes_tube | b2, b3, b5 | pronto | conferir na folha de contato se le bem;
 
 
 ## Video inteiro
-- Objeto heroi: kit/xray_plate | grandes momentos: b8, b10 | planos abertos: 3 | mistura: close 17% | medio 70% | aberto 9% | detalhe 4%
+- Objeto heroi: kit/xray_plate | grandes momentos: b1, b8 | planos abertos: 3 | mistura: close 18% | medio 65% | aberto 15% | detalhe 2%
 - Interacoes: b0 aproxima-se, b6 entregar, b9 avanca e o outro recua
 - RISCOS GERAIS: 
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
+  - FOLHA 4: 8 item(ns) sem referencia visual: Instituto de Fisica da Universidade de Wurzburg, Baviera (Alemanha): laboratorio, Wilhelm Rontgen (barba cheia escura, sobrecasaca), Anna Bertha Rontgen (vestid -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
 
 ## RESUMO: 1 risco(s) em aberto
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
+- geral: FOLHA 4: 8 item(ns) sem referencia visual: Instituto de Fisica da Universidade de Wurzburg, Baviera (Alemanha): laboratorio, Wilhelm Rontgen (barba cheia escura, sobrecasaca), Anna Bertha Rontgen (vestid
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh rontgen1895 bN bM` (so essas cenas).
@@ -316,8 +301,9 @@ kit/crookes_tube | b2, b3, b5 | pronto | conferir na folha de contato se le bem;
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - (sem ficha)
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (60.7-62.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (62.4-64.0 s): mesmo angulo
+- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (56.0-57.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (57.7-59.5 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (59.5-61.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 

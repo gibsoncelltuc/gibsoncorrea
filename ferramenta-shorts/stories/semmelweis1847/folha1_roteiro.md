@@ -1,12 +1,12 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 13 - O Médico que Mandou Lavar as Mãos
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 13 cenas, 212 palavras (~73 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 12 cenas, 166 palavras (~57 s)
 
-## Cena b0  (~6.2 s)
-- Narracao: Um médico pediu uma coisa simples aos colegas: lavem as mãos. E foi expulso do hospital por isso.
+## Cena b0  (~4.8 s)
+- Narracao: Um médico pediu aos colegas para lavarem as mãos, e foi expulso do hospital.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; encena: fala (point) @2 -> acao + som de efeito; encena: x_lava (stir) @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; encena: fala (point) @2 -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 1847
 - Funcao na historia: GANCHO
@@ -20,8 +20,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: HOSPITAL DE VIENA | mapa: ÁUSTRIA
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b2  (~6.2 s)
-- Narracao: O hospital tinha duas alas de parto. Numa, as mães eram atendidas por parteiras. Na outra, por médicos.
+## Cena b2  (~4.8 s)
+- Narracao: O hospital tinha duas alas de parto: uma de parteiras e outra de médicos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -29,35 +29,26 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: HOSPITAL
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~5.2 s)
-- Narracao: E acontece que, na ala dos médicos, morriam muito mais mães, de uma febre misteriosa.
+## Cena b3  (~4.8 s)
+- Narracao: Acontece que, na ala dos médicos, morriam muito mais mães, de uma febre misteriosa.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: encena: morre @7 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: morre @6 -> acao + som de efeito
 - Efeito visual marcado: ring@40
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: VIRADA
 
-## Cena b4  (~4.5 s)
-- Narracao: As mulheres imploravam de joelhos para não ir para a ala dos médicos.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: ajoelha (plead) @2 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b5  (~6.9 s)
-- Narracao: Um dia, o amigo dele, Kolletschka, cortou o dedo com um bisturi, examinando um corpo, e morreu da mesma febre.
+## Cena b4  (~5.9 s)
+- Narracao: Um dia, o amigo Kolletschka se cortou com um bisturi numa autópsia, e morreu da mesma febre.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; encena: corta (reach) @6 -> acao + som de efeito; encena: examina (think) @12 -> acao + som de efeito; encena: morre @16 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; encena: corta (reach) @6 -> acao + som de efeito; encena: morre @13 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b6  (~6.2 s)
-- Narracao: Semmelweis entendeu tudo: os médicos saíam das autópsias e iam direto para os partos, com as mãos sujas.
+## Cena b5  (~5.2 s)
+- Narracao: Ele entendeu: os médicos saíam das autópsias e iam direto aos partos, de mãos sujas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20
 - Efeito + som nas palavras-chave: encena: pensa (think) @1 -> acao + som de efeito
@@ -65,17 +56,17 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~7.2 s)
-- Narracao: Ele colocou uma bacia com água e cloro na porta, e obrigou todo mundo a lavar as mãos antes de entrar.
+## Cena b6  (~7.2 s)
+- Narracao: Ele pôs uma bacia com água e cloro na porta, e obrigou os médicos a lavar as mãos antes de entrar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
-- Efeito + som nas palavras-chave: encena: pega (lift) @1 -> acao + som de efeito; encena: x_lava (stir) @15 -> acao + som de efeito; encena: chega (point) @20 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_lava (stir) @15 -> acao + som de efeito; encena: chega (point) @20 -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~3.8 s)
-- Narracao: As mortes despencaram quase dez vezes. Centenas de mães foram salvas.
+## Cena b7  (~2.1 s)
+- Narracao: As mortes despencaram quase dez vezes.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
 - Efeito + som nas palavras-chave: encena: tomba @2 -> acao + som de efeito
@@ -83,17 +74,17 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: VIDAS SALVAS
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b9  (~6.9 s)
-- Narracao: Mas os médicos se ofenderam. Um cavalheiro, diziam, tem as mãos limpas. Semmelweis brigou com todos, e foi mandado embora.
+## Cena b8  (~3.4 s)
+- Narracao: Mas os médicos se ofenderam, e Semmelweis foi mandado embora.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@50
-- Efeito + som nas palavras-chave: encena: x_discute (point) @4 -> acao + som de efeito; encena: fala (point) @18 -> acao + som de efeito; encena: sai @19 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_discute (point) @4 -> acao + som de efeito; encena: fala (point) @8 -> acao + som de efeito; encena: sai @9 -> acao + som de efeito
 - Efeito visual marcado: ring@50
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b10  (~5.5 s)
-- Narracao: Ele morreu em mil oitocentos e sessenta e cinco, sem ver ninguém dar razão a ele.
+## Cena b9  (~4.1 s)
+- Narracao: Ele morreu em mil oitocentos e sessenta e cinco, sem ser reconhecido.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; encena: morre @1 -> acao + som de efeito
@@ -101,16 +92,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b11  (~5.2 s)
-- Narracao: Anos depois, a ciência provou os micróbios. Hoje, ele é chamado de salvador das mães.
+## Cena b10  (~5.5 s)
+- Narracao: Anos depois, a ciência provou que ele estava certo. Hoje, é chamado de salvador das mães.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @4 -> acao + som de efeito; encena: fala (point) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @4 -> acao + som de efeito; encena: fala (point) @11 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: LAVE AS MÃOS
 - Funcao na historia: desenvolvimento
 
-## Cena b12  (~4.5 s)
+## Cena b11  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
