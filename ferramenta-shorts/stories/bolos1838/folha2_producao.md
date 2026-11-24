@@ -2,11 +2,11 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/bolos1838/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py bolos1838` de novo ate esta folha sair sem risco.
 
-## Cena b0 - A França atacou o México por causa de uma conta de confeitaria.
+## Cena b0 - A França foi à guerra contra o México por causa de uma conta de confei...
 - Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): CON (variante 0, expressao shock); OFI (variante 0, expressao laugh)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (2): CON (variante 0, expressao shock); OFI (variante 0, expressao laugh) | multidao: 0 de 
 - Animacao: reagir | interacao: entregar
 - Objetos/modelos: kit/marco_ulua, kit/cake_table
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): confeitaria, franca, mexico
@@ -32,38 +32,27 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): loja, mexicanos
 - RISCOS: nenhum
 
-## Cena b3 - O confeiteiro reclamou ao rei da França e pediu sessenta mil pesos. A ...
+## Cena b3 - O confeiteiro reclamou ao rei e pediu sessenta mil pesos. A loja valia...
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): CON (variante 0, expressao stern, segura paper); REI (variante 0, expressao neutral)
 - Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/cake_table
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): confeiteiro, franca, loja
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): confeiteiro, loja
 - RISCOS: nenhum
 
-## Cena b4 - O governo francês juntou outras queixas de franceses, e exigiu seiscen...
+## Cena b4 - O governo francês juntou outras queixas de franceses e exigiu seiscent...
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): REI (variante 0, expressao stern)
-- Animacao: conversar
+- Animacao: encena
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franceses, governo, mexico
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franceses, governo, presidente
 - RISCOS: nenhum
 
-## Cena b5 - O presidente mexicano não pagou.
-- Cenario: loc_campo | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): GEN (variante 0, expressao stern); OFI (variante 0, expressao neutral) | multidao: 6 de OFI
-- Animacao: encena | batalha encenada
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): presidente
-- RISCOS: 
-  - cena curta (5 palavras): nao da tempo de ler a acao -> CORRECAO: juntar com a cena vizinha
-
-## Cena b6 - Então a França mandou a esquadra, e navios de guerra fecharam os porto...
+## Cena b5 - Então a França mandou a esquadra, e navios de guerra fecharam os porto...
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
@@ -73,7 +62,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): esquadra, franca, golfo, mexico, portos
 - RISCOS: nenhum
 
-## Cena b7 - Os canhões franceses bombardearam a fortaleza de San Juan de Ulúa, e o...
+## Cena b6 - Os canhões franceses bombardearam a fortaleza de San Juan de Ulúa, e o...
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
@@ -83,27 +72,27 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canhoes, fortaleza, soldados, ulua
 - RISCOS: nenhum
 
-## Cena b8 - O general Santa Anna foi ferido na perna por metralha francesa, e a pe...
+## Cena b7 - Os canhões franceses bombardearam a fortaleza de San Juan de Ulúa, e o...
+- Cenario: street | luz: day | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (1): GEN (variante 0, expressao pained) | multidao: 40 de GEN
+- Animacao: conversar | batalha encenada
+- Objetos/modelos: kit/marco_ulua, cannon
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canhoes, fortaleza, soldados, ulua
+- RISCOS: nenhum
+
+## Cena b8 - Santa Anna foi ferido na perna por metralha francesa, e a perna foi en...
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (1): GEN (variante 0, expressao pained)
-- Animacao: conversar
-- Objetos/modelos: kit/grave
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): general, honras, perna
-- RISCOS: nenhum
-
-## Cena b9 - Em março de mil oitocentos e trinta e nove, o México prometeu pagar os...
-- Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): GEN (variante 0, expressao neutral, segura paper); FRA (variante 0, expressao neutral, segura coin)
-- Animacao: encena | interacao: cochichar
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca, mexico, seiscentos
+- Animacao: encena | interacao: o outro se aproxima
+- Objetos/modelos: kit/grave
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): honras, perna
 - RISCOS: nenhum
 
-## Cena b10 - A conta nunca foi paga, e a França voltou ao México em mil oitocentos ...
+## Cena b9 - A conta nunca foi paga, e a França voltou ao México em mil oitocentos ...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
@@ -113,7 +102,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca
 - RISCOS: nenhum
 
-## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: street | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
@@ -128,26 +117,21 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/marco_ulua | b0, b1, b6, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_ulua | b0, b1, b5, b6, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/cake_table | b0, b1, b2, b3 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/shop | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/stall | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 mk/Table_Large | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-cannon | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+cannon | b6, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/grave | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/cake_table | grandes momentos: b5, b7 | planos abertos: 3 | mistura: close 27% | medio 64% | aberto 8% | detalhe 2%
-- Interacoes: b0 entregar, b2 vai ate o outro, b3 aproxima-se, b6 avanca e o outro recua, b9 cochichar
-- RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py bolos1838  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/bolos1838/moodboard.jpg
-  - 1 palavra(s) de acao sem efeito + som -> CORRECAO: ver plano.md e por "fx"/"sfx" na cena
+- Objeto heroi: kit/cake_table | grandes momentos: b6, b7 | planos abertos: 2 | mistura: close 29% | medio 59% | aberto 7% | detalhe 4%
+- Interacoes: b0 entregar, b2 vai ate o outro, b3 aproxima-se, b5 avanca e o outro recua, b8 o outro se aproxima
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 3 risco(s) em aberto
-- b5: cena curta (5 palavras): nao da tempo de ler a acao
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
-- geral: 1 palavra(s) de acao sem efeito + som
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh bolos1838 bN bM` (so essas cenas).

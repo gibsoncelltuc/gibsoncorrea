@@ -33,11 +33,9 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "buildings/house_two",
   "buildings/shop",
   "cannon",
   "kit/cake_table",
-  "kit/coin",
   "kit/grave",
   "kit/marco_ulua",
   "kit/room_colonial_shop",
@@ -57,21 +55,21 @@
   "mk/Workbench_Drawers"
  ],
  "pesquisa_visual": {
-  "local": "Tacubaya e Cidade do México; porto e fortaleza de San Juan de Ulúa em Veracruz; palácio do rei Luís Filipe em Paris",
+  "local": "Tacubaya",
   "quando": "1832 (saque da confeitaria); novembro e dezembro de 1838 (bloqueio e ataque a Veracruz); março de 1839 (paz)",
   "participantes": [
-   "confeiteiro Remontel",
+   "confeiteiro francês",
    "rei Luís Filipe",
    "Santa Anna",
    "almirante Baudin",
-   "oficiais mexicanos"
+   "oficial mexicano de 1830"
   ],
   "roupas": {
    "CON": "avental e gorro brancos de confeiteiro",
-   "OFI": "oficial mexicano de casaca verde",
+   "OFI": "oficial mexicano de casaca azul-escura com frisos vermelhos e bicorne dourado (retratos de Santa Anna e oficiais, 1830)",
    "FRA": "soldado/marinheiro francês de casaca azul e calça vermelha",
    "REI": "rei de coroa e manto roxo",
-   "GEN": "general mexicano de uniforme verde"
+   "GEN": "general Santa Anna: casaca azul com golas vermelhas, dragonas douradas e bicorne"
   },
   "cenario": "loja de doces em Tacubaya, sala de palácio de pedra, porto de Veracruz com fortaleza",
   "objetos": [
@@ -85,13 +83,15 @@
    "referencias/bolos1838/moodboard.jpg"
   ],
   "buscas": {
-   "Tacubaya": "Tacubaya 19th century Mexico lithograph",
+   "Tacubaya": "Tacubaya Mexico City 1830s",
    "San Juan de Ulúa": "San Juan de Ulua fortress Veracruz 1838 French bombardment",
    "Santa Anna": "Antonio Lopez de Santa Anna portrait 1830s",
    "Luís Filipe": "Louis-Philippe king of France portrait",
    "Baudin": "Charles Baudin admiral 1838",
    "confeiteiro": "19th century pastry chef shop engraving",
-   "soldado da epoca": "Mexican army officer 1830s uniform"
+   "soldado da epoca": "Mexican army officer 1830s uniform",
+   "confeiteiro francês": "French pastry chef 19th century",
+   "oficial mexicano de 1830": "Mexican army officer 1830s uniform Santa Anna era"
   }
  },
  "fontes": [],

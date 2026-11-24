@@ -1,0 +1,88 @@
+{
+ "id": "danca1518",
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "A Praga da Dança",
+   "consultas": [
+    "A Praga da Dança",
+    "Uma Era Estrasburgo Ela Em Ninguém 1518"
+   ],
+   "achados": []
+  },
+  {
+   "tipo": "lugar",
+   "item": "Estrasburgo",
+   "consultas": [
+    "Estrasburgo 1518",
+    "Estrasburgo landscape"
+   ],
+   "achados": [
+    {
+     "titulo": "Danse Saint Guy 1518 Charles Spindler.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Danse_Saint_Guy_1518_Charles_Spindler.jpg/500px-Danse_Saint_Guy_1518_Charles_Spindler.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ADanse_Saint_Guy_1518_Charles_Spindler.jpg",
+     "descricao": "Commons Public Domain Mark 1.0falsefalse English French L\\u0026#039;épidémie dansante de \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/danca1518/prints/estrasburgo_2b5e94.jpg",
+     "consulta": "Estrasburgo 1518"
+    },
+    {
+     "titulo": "Interdiction danse Strasbourg Sebastien Brant 1518.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Interdiction_danse_Strasbourg_Sebastien_Brant_1518.jpg/500px-Interdiction_danse_Strasbourg_Sebastien_Brant_1518.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AInterdiction_danse_Strasbourg_Sebastien_Brant_1518.jpg",
+     "descricao": "Domain Mark 1.0falsefalse English Prohibition \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/danca1518/prints/estrasburgo_32706d.jpg",
+     "consulta": "Estrasburgo 1518"
+    },
+    {
+     "titulo": "Danse Saint-Guy 1518 Charles Spindler détail.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Danse_Saint-Guy_1518_Charles_Spindler_d%C3%A9tail.jpg/500px-Danse_Saint-Guy_1518_Charles_Spindler_d%C3%A9tail.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ADanse_Saint-Guy_1518_Charles_Spindler_d%C3%A9tail.jpg",
+     "descricao": "Mark 1.0falsefalse English French Représentation de l\\u0026#039;épidémie dansante de \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/danca1518/prints/estrasburgo_07eb58.jpg",
+     "consulta": "Estrasburgo 1518"
+    }
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1518",
+   "consultas": [
+    "1518 fashion clothing",
+    "16th century clothing painting"
+   ],
+   "achados": [
+    {
+     "titulo": "La Belle Paule - Née à Toulouse en 1518 - Fonds Ancely - B315556101 A GATINE 007.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/La_Belle_Paule_-_N%C3%A9e_%C3%A0_Toulouse_en_1518_-_Fonds_Ancely_-_B315556101_A_GATINE_007.jpg/500px-La_Belle_Paule_-_N%C3%A9e_%C3%A0_Toulouse_en_1518_-_Fonds_Ancely_-_B315556101_A_GATINE_007.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ALa_Belle_Paule_-_N%C3%A9e_%C3%A0_Toulouse_en_1518_-_Fonds_Ancely_-_B315556101_A_GATINE_007.jpg",
+     "descricao": "Georges-Jacques Gatine: La Belle Paule - Née à Toulouse en \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/danca1518/prints/roupas_e_ruas_de_1518_1c4070.jpg",
+     "consulta": "1518 fashion clothing"
+    },
+    {
+     "titulo": "Ritratto di Gentiluomo, Bartolomeo Veneto.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Ritratto_di_Gentiluomo%2C_Bartolomeo_Veneto.jpg/500px-Ritratto_di_Gentiluomo%2C_Bartolomeo_Veneto.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ARitratto_di_Gentiluomo%2C_Bartolomeo_Veneto.jpg",
+     "descricao": "English determination method or standard: SHA-1",
+     "ordem": 8,
+     "print": "referencias/danca1518/prints/roupas_e_ruas_de_1518_498f07.jpg",
+     "consulta": "1518 fashion clothing"
+    },
+    {
+     "titulo": "Jan Gerritsz van Egmond (gest. 1523). Baljuw van Nieuwburg Rijksmuseum SK-A-3838.jpeg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Jan_Gerritsz_van_Egmond_%28gest._1523%29._Baljuw_van_Nieuwburg_Rijksmuseum_SK-A-3838.jpeg/500px-Jan_Gerritsz_van_Egmond_%28gest._1523%29._Baljuw_van_Nieuwburg_Rijksmuseum_SK-A-3838.jpeg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AJan_Gerritsz_van_Egmond_%28gest._1523%29._Baljuw_van_Nieuwburg_Rijksmuseum_SK-A-3838.jpeg",
+     "descricao": "geïntegreerde lijst. Depicted people Jan Gerritsz van Egmond  Date circa \\u003Cspan class=\\",
+     "ordem": 9,
+     "print": "referencias/danca1518/prints/roupas_e_ruas_de_1518_cfc04b.jpg",
+     "consulta": "1518 fashion clothing"
+    }
+   ]
+  }
+ ]
+}

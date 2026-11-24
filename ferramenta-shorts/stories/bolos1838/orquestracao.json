@@ -20,9 +20,9 @@
     "kit/cake_table",
     "kit/marco_ulua"
    ],
-   "palavras": 12,
+   "palavras": 15,
    "cena": "b0",
-   "frase": "A França atacou o México por causa de uma conta de confeitaria.",
+   "frase": "A França foi à guerra contra o México por causa de uma conta de confeitaria.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -63,9 +63,9 @@
     "kit/cake_table",
     "mk/Table_Large"
    ],
-   "palavras": 20,
+   "palavras": 19,
    "cena": "b2",
-   "frase": "Em mil oitocentos e trinta e dois, oficiais mexicanos saquearam a loja, ou, segundo os mexicanos, comeram e não pagaram.",
+   "frase": "Em mil oitocentos e trinta e dois, oficiais mexicanos saquearam a loja, ou só não pagaram, dizem os mexicanos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -82,9 +82,9 @@
    "objetos": [
     "kit/cake_table"
    ],
-   "palavras": 18,
+   "palavras": 16,
    "cena": "b3",
-   "frase": "O confeiteiro reclamou ao rei da França e pediu sessenta mil pesos. A loja valia menos de mil.",
+   "frase": "O confeiteiro reclamou ao rei e pediu sessenta mil pesos. A loja valia menos de mil.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -98,37 +98,14 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 15,
+   "palavras": 18,
    "cena": "b4",
-   "frase": "O governo francês juntou outras queixas de franceses, e exigiu seiscentos mil pesos do México.",
+   "frase": "O governo francês juntou outras queixas de franceses e exigiu seiscentos mil pesos. O presidente mexicano não pagou.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "interior pedra"
-  },
-  {
-   "camera": "crowd",
-   "personagens": [
-    "GEN",
-    "OFI"
-   ],
-   "multidao": 48,
-   "objetos": [],
-   "palavras": 5,
-   "cena": "b5",
-   "frase": "O presidente mexicano não pagou.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
-   "acoes_faltando": [],
-   "cenario": "loc_campo"
   },
   {
    "camera": "group",
@@ -141,7 +118,7 @@
     "kit/marco_ulua"
    ],
    "palavras": 17,
-   "cena": "b6",
+   "cena": "b5",
    "frase": "Então a França mandou a esquadra, e navios de guerra fecharam os portos do golfo do México.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -161,7 +138,7 @@
     "kit/marco_ulua"
    ],
    "palavras": 16,
-   "cena": "b7",
+   "cena": "b6",
    "frase": "Os canhões franceses bombardearam a fortaleza de San Juan de Ulúa, e os soldados tomaram Veracruz.",
    "classe": "chave",
    "sujeito": "personagem",
@@ -176,22 +153,29 @@
    "cenario": "harbor"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "GEN"
    ],
-   "multidao": 0,
+   "multidao": 40,
    "objetos": [
-    "kit/grave"
+    "cannon",
+    "kit/marco_ulua"
    ],
-   "palavras": 19,
-   "cena": "b8",
-   "frase": "O general Santa Anna foi ferido na perna por metralha francesa, e a perna foi enterrada com honras militares.",
-   "classe": "simples",
+   "palavras": 16,
+   "cena": "b7",
+   "frase": "Os canhões franceses bombardearam a fortaleza de San Juan de Ulúa, e os soldados tomaram Veracruz.",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "street"
   },
   {
    "camera": "two",
@@ -200,15 +184,17 @@
     "FRA"
    ],
    "multidao": 0,
-   "objetos": [],
-   "palavras": 22,
-   "cena": "b9",
-   "frase": "Em março de mil oitocentos e trinta e nove, o México prometeu pagar os seiscentos mil pesos, e a França foi embora.",
+   "objetos": [
+    "kit/grave"
+   ],
+   "palavras": 17,
+   "cena": "b8",
+   "frase": "Santa Anna foi ferido na perna por metralha francesa, e a perna foi enterrada com honras militares.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "loc_campo"
   },
   {
    "camera": "close",
@@ -218,7 +204,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 18,
-   "cena": "b10",
+   "cena": "b9",
    "frase": "A conta nunca foi paga, e a França voltou ao México em mil oitocentos e sessenta e um.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -234,7 +220,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b11",
+   "cena": "b10",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",

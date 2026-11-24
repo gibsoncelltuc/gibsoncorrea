@@ -1,0 +1,87 @@
+{
+ "id": "gansos390",
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "Os Gansos que Salvaram Roma",
+   "consultas": [
+    "Os Gansos que Salvaram Roma",
+    "Roma Os Quem Os Capitólio"
+   ],
+   "achados": []
+  },
+  {
+   "tipo": "lugar",
+   "item": "Roma",
+   "consultas": [
+    "Roma",
+    "Roma landscape"
+   ],
+   "achados": [
+    {
+     "titulo": "Triumph of St. Ignatius of Loyola, ceiling fresco by Andrea Pozzo.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Triumph_of_St._Ignatius_of_Loyola%2C_ceiling_fresco_by_Andrea_Pozzo.jpg/500px-Triumph_of_St._Ignatius_of_Loyola%2C_ceiling_fresco_by_Andrea_Pozzo.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ATriumph_of_St._Ignatius_of_Loyola%2C_ceiling_fresco_by_Andrea_Pozzo.jpg",
+     "descricao": "Xavier 5902 3033 361 284 8256 5504 Aloysius Gonzaga English Images from \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/gansos390/prints/roma_bbaaf4.jpg",
+     "consulta": "Roma"
+    },
+    {
+     "titulo": "Georges Rochegrosse - Jules Massenet - Roma.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Georges_Rochegrosse_-_Jules_Massenet_-_Roma.jpg/500px-Georges_Rochegrosse_-_Jules_Massenet_-_Roma.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AGeorges_Rochegrosse_-_Jules_Massenet_-_Roma.jpg",
+     "descricao": "DescriptionGeorges Rochegrosse - Jules Massenet - \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/gansos390/prints/roma_2ca7e4.jpg",
+     "consulta": "Roma"
+    },
+    {
+     "titulo": "Romani Girl.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Romani_Girl.jpg/500px-Romani_Girl.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ARomani_Girl.jpg",
+     "descricao": "2021 English \\u003Cspan class=\\",
+     "ordem": 6,
+     "print": "referencias/gansos390/prints/roma_d6aeb7.jpg",
+     "consulta": "Roma"
+    }
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "soldado da epoca",
+   "consultas": [
+    "soldier uniform"
+   ],
+   "achados": [
+    {
+     "titulo": "Sgt. Samuel Smith, African American soldier in Union uniform with wife and two daughters.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Sgt._Samuel_Smith%2C_African_American_soldier_in_Union_uniform_with_wife_and_two_daughters.jpg/500px-Sgt._Samuel_Smith%2C_African_American_soldier_in_Union_uniform_with_wife_and_two_daughters.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASgt._Samuel_Smith%2C_African_American_soldier_in_Union_uniform_with_wife_and_two_daughters.jpg",
+     "descricao": "image was found in Cecil County, Maryland, making it likely that this \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/gansos390/prints/soldado_da_epoca_2873e2.jpg",
+     "consulta": "soldier uniform"
+    },
+    {
+     "titulo": "Unidentified young soldier in Confederate infantry uniform.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Unidentified_young_soldier_in_Confederate_infantry_uniform.jpg/500px-Unidentified_young_soldier_in_Confederate_infantry_uniform.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AUnidentified_young_soldier_in_Confederate_infantry_uniform.jpg",
+     "descricao": "English: Unidentified young \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/gansos390/prints/soldado_da_epoca_4d3190.jpg",
+     "consulta": "soldier uniform"
+    },
+    {
+     "titulo": "Dale Regementet. Soldat med hillebard.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Dale_Regementet._Soldat_med_hillebard.jpg/500px-Dale_Regementet._Soldat_med_hillebard.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ADale_Regementet._Soldat_med_hillebard.jpg",
+     "descricao": "0falsefalse English Ink drawing of a \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/gansos390/prints/soldado_da_epoca_7e8119.jpg",
+     "consulta": "soldier uniform"
+    }
+   ]
+  }
+ ]
+}

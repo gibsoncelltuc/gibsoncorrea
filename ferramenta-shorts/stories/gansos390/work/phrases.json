@@ -1,0 +1,333 @@
+{
+ "duration": 66.48,
+ "frames30": 1994,
+ "source": "silence-align (cost 1.03)",
+ "segments": [
+  [
+   0.199667,
+   3.04692
+  ],
+  [
+   3.90642,
+   5.7125
+  ],
+  [
+   5.93142,
+   7.1115
+  ],
+  [
+   7.97904,
+   8.78971
+  ],
+  [
+   9.05712,
+   9.38058
+  ],
+  [
+   10.2505,
+   12.5577
+  ],
+  [
+   12.8572,
+   14.4559
+  ],
+  [
+   14.6618,
+   15.2711
+  ],
+  [
+   15.489,
+   16.2554
+  ],
+  [
+   17.0877,
+   17.7976
+  ],
+  [
+   18.0131,
+   18.9385
+  ],
+  [
+   19.7831,
+   20.9264
+  ],
+  [
+   21.1907,
+   21.9419
+  ],
+  [
+   22.8111,
+   23.6342
+  ],
+  [
+   23.9039,
+   25.0843
+  ],
+  [
+   25.9407,
+   27.0077
+  ],
+  [
+   27.2405,
+   29.3374
+  ],
+  [
+   30.1945,
+   31.2504
+  ],
+  [
+   32.1307,
+   33.2413
+  ],
+  [
+   34.0893,
+   35.7332
+  ],
+  [
+   36.0859,
+   38.142
+  ],
+  [
+   38.9921,
+   40.9324
+  ],
+  [
+   41.2211,
+   43.2276
+  ],
+  [
+   44.0608,
+   44.9879
+  ],
+  [
+   45.2533,
+   46.4435
+  ],
+  [
+   47.2953,
+   48.817
+  ],
+  [
+   49.0856,
+   50.6045
+  ],
+  [
+   50.8524,
+   52.0018
+  ],
+  [
+   52.8633,
+   53.5136
+  ],
+  [
+   53.723,
+   54.2705
+  ],
+  [
+   54.5926,
+   57.0363
+  ],
+  [
+   57.8999,
+   58.6429
+  ],
+  [
+   58.8533,
+   60.1272
+  ],
+  [
+   60.3573,
+   61.3288
+  ],
+  [
+   62.1723,
+   63.6167
+  ],
+  [
+   63.9097,
+   65.6713
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Roma inteira foi salva por um bando de gansos barulhentos.",
+   "s": 0.2,
+   "e": 3.047
+  },
+  {
+   "text": "Os gauleses tinham invadido a cidade,",
+   "s": 3.906,
+   "e": 5.713
+  },
+  {
+   "text": "e queimado quase tudo.",
+   "s": 5.931,
+   "e": 7.112
+  },
+  {
+   "text": "Quem n\u00e3o escapou,",
+   "s": 7.979,
+   "e": 8.79
+  },
+  {
+   "text": "tombou.",
+   "s": 9.057,
+   "e": 9.381
+  },
+  {
+   "text": "Os romanos que sobraram se trancaram no Capit\u00f3lio,",
+   "s": 10.251,
+   "e": 12.558
+  },
+  {
+   "text": "uma colina cercada de muralhas,",
+   "s": 12.857,
+   "e": 14.456
+  },
+  {
+   "text": "sem comida,",
+   "s": 14.662,
+   "e": 15.271
+  },
+  {
+   "text": "e sem sa\u00edda.",
+   "s": 15.489,
+   "e": 16.255
+  },
+  {
+   "text": "L\u00e1 em cima,",
+   "s": 17.088,
+   "e": 17.798
+  },
+  {
+   "text": "a fome apertava.",
+   "s": 18.013,
+   "e": 18.939
+  },
+  {
+   "text": "\"Vamos comer os gansos\",",
+   "s": 19.783,
+   "e": 20.926
+  },
+  {
+   "text": "pediu um soldado.",
+   "s": 21.191,
+   "e": 21.942
+  },
+  {
+   "text": "\"S\u00e3o sagrados\",",
+   "s": 22.811,
+   "e": 23.634
+  },
+  {
+   "text": "respondeu o sacerdote.",
+   "s": 23.904,
+   "e": 25.084
+  },
+  {
+   "text": "Numa noite sem lua,",
+   "s": 25.941,
+   "e": 27.008
+  },
+  {
+   "text": "os gauleses escalaram a colina em sil\u00eancio.",
+   "s": 27.241,
+   "e": 29.337
+  },
+  {
+   "text": "Os guardas dormiam.",
+   "s": 30.195,
+   "e": 31.25
+  },
+  {
+   "text": "Ningu\u00e9m ouviu nada.",
+   "s": 32.131,
+   "e": 33.241
+  },
+  {
+   "text": "Acontece que os gansos acordaram,",
+   "s": 34.089,
+   "e": 35.733
+  },
+  {
+   "text": "e come\u00e7aram a gritar e a bater as asas.",
+   "s": 36.086,
+   "e": 38.142
+  },
+  {
+   "text": "Um soldado chamado M\u00e2nlio pulou da cama,",
+   "s": 38.992,
+   "e": 40.932
+  },
+  {
+   "text": "e derrubou o primeiro invasor muralha abaixo.",
+   "s": 41.221,
+   "e": 43.228
+  },
+  {
+   "text": "O gaul\u00eas tombou,",
+   "s": 44.061,
+   "e": 44.988
+  },
+  {
+   "text": "levando os outros junto.",
+   "s": 45.253,
+   "e": 46.444
+  },
+  {
+   "text": "O alarme acordou todo mundo,",
+   "s": 47.295,
+   "e": 48.817
+  },
+  {
+   "text": "os romanos correram para a muralha,",
+   "s": 49.086,
+   "e": 50.605
+  },
+  {
+   "text": "e o ataque fracassou.",
+   "s": 50.852,
+   "e": 52.002
+  },
+  {
+   "text": "Desde ent\u00e3o,",
+   "s": 52.863,
+   "e": 53.514
+  },
+  {
+   "text": "todo ano,",
+   "s": 53.723,
+   "e": 54.27
+  },
+  {
+   "text": "os gansos ganhavam um desfile pelas ruas de Roma.",
+   "s": 54.593,
+   "e": 57.036
+  },
+  {
+   "text": "E os guardas,",
+   "s": 57.9,
+   "e": 58.643
+  },
+  {
+   "text": "que dormiram a noite inteira,",
+   "s": 58.853,
+   "e": 60.127
+  },
+  {
+   "text": "levaram um castigo.",
+   "s": 60.357,
+   "e": 61.329
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 62.172,
+   "e": 63.617
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 63.91,
+   "e": 65.671
+  }
+ ]
+}

@@ -18,10 +18,10 @@
    "build": "stout"
   },
   "OFI": {
-   "jacket": "#2f6a3a",
+   "jacket": "#1f3a6e",
    "pants": "#f1efe6",
    "boots": "#2a2218",
-   "hat": "shako",
+   "hat": "bicorne",
    "belt": "#f1efe6",
    "buttons": "#e8c45a",
    "rifle": true,
@@ -44,10 +44,10 @@
    "build": "stout"
   },
   "GEN": {
-   "jacket": "#2f6a3a",
+   "jacket": "#1f3a6e",
    "pants": "#f1efe6",
    "boots": "#2a2218",
-   "hat": "shako_tall",
+   "hat": "bicorne",
    "buttons": "#e8c45a",
    "sash": "#c0262d",
    "moustache_on": "#2a1c12",
@@ -61,8 +61,15 @@
     "CON:0:shock",
     "OFI:0:laugh"
    ],
-   "say": "A França atacou o México por causa de uma conta de confeitaria.",
-   "riscos_ok": true
+   "say": "A França foi à guerra contra o México por causa de uma conta de confeitaria.",
+   "riscos_ok": true,
+   "impact": false,
+   "batalha": false,
+   "crowd": {
+    "n": 0,
+    "outfits": [],
+    "march": false
+   }
   },
   {
    "shot": "two",
@@ -88,7 +95,7 @@
    "sfx": [
     "thump@50"
    ],
-   "say": "Em mil oitocentos e trinta e dois, oficiais mexicanos saquearam a loja, ou, segundo os mexicanos, comeram e não pagaram.",
+   "say": "Em mil oitocentos e trinta e dois, oficiais mexicanos saquearam a loja, ou só não pagaram, dizem os mexicanos.",
    "props": [
     [
      "mk/Table_Large",
@@ -113,7 +120,7 @@
     "REI:0:neutral"
    ],
    "interior": "pedra",
-   "say": "O confeiteiro reclamou ao rei da França e pediu sessenta mil pesos. A loja valia menos de mil."
+   "say": "O confeiteiro reclamou ao rei e pediu sessenta mil pesos. A loja valia menos de mil."
   },
   {
    "shot": "close",
@@ -121,15 +128,7 @@
     "REI:0:stern"
    ],
    "interior": "pedra",
-   "say": "O governo francês juntou outras queixas de franceses, e exigiu seiscentos mil pesos do México."
-  },
-  {
-   "shot": "two",
-   "who": [
-    "GEN:0:stern",
-    "OFI:0:neutral"
-   ],
-   "say": "O presidente mexicano não pagou."
+   "say": "O governo francês juntou outras queixas de franceses e exigiu seiscentos mil pesos. O presidente mexicano não pagou."
   },
   {
    "shot": "reveal",
@@ -181,7 +180,7 @@
    "sfx": [
     "cannon@30"
    ],
-   "say": "O general Santa Anna foi ferido na perna por metralha francesa, e a perna foi enterrada com honras militares."
+   "say": "Os canhões franceses bombardearam a fortaleza de San Juan de Ulúa, e os soldados tomaram Veracruz."
   },
   {
    "shot": "two",
@@ -190,7 +189,7 @@
     "FRA:0:neutral:coin"
    ],
    "text": "600.000",
-   "say": "Em março de mil oitocentos e trinta e nove, o México prometeu pagar os seiscentos mil pesos, e a França foi embora."
+   "say": "Santa Anna foi ferido na perna por metralha francesa, e a perna foi enterrada com honras militares."
   },
   {
    "shot": "close",
@@ -203,21 +202,21 @@
  "marco": "kit/marco_ulua",
  "regiao": "colonial",
  "visual": {
-  "local": "Tacubaya e Cidade do México; porto e fortaleza de San Juan de Ulúa em Veracruz; palácio do rei Luís Filipe em Paris",
+  "local": "Tacubaya",
   "quando": "1832 (saque da confeitaria); novembro e dezembro de 1838 (bloqueio e ataque a Veracruz); março de 1839 (paz)",
   "participantes": [
-   "confeiteiro Remontel",
+   "confeiteiro francês",
    "rei Luís Filipe",
    "Santa Anna",
    "almirante Baudin",
-   "oficiais mexicanos"
+   "oficial mexicano de 1830"
   ],
   "roupas": {
    "CON": "avental e gorro brancos de confeiteiro",
-   "OFI": "oficial mexicano de casaca verde",
+   "OFI": "oficial mexicano de casaca azul-escura com frisos vermelhos e bicorne dourado (retratos de Santa Anna e oficiais, 1830)",
    "FRA": "soldado/marinheiro francês de casaca azul e calça vermelha",
    "REI": "rei de coroa e manto roxo",
-   "GEN": "general mexicano de uniforme verde"
+   "GEN": "general Santa Anna: casaca azul com golas vermelhas, dragonas douradas e bicorne"
   },
   "cenario": "loja de doces em Tacubaya, sala de palácio de pedra, porto de Veracruz com fortaleza",
   "objetos": [
@@ -231,13 +230,15 @@
    "referencias/bolos1838/moodboard.jpg"
   ],
   "buscas": {
-   "Tacubaya": "Tacubaya 19th century Mexico lithograph",
+   "Tacubaya": "Tacubaya Mexico City 1830s",
    "San Juan de Ulúa": "San Juan de Ulua fortress Veracruz 1838 French bombardment",
    "Santa Anna": "Antonio Lopez de Santa Anna portrait 1830s",
    "Luís Filipe": "Louis-Philippe king of France portrait",
    "Baudin": "Charles Baudin admiral 1838",
    "confeiteiro": "19th century pastry chef shop engraving",
-   "soldado da epoca": "Mexican army officer 1830s uniform"
+   "soldado da epoca": "Mexican army officer 1830s uniform",
+   "confeiteiro francês": "French pastry chef 19th century",
+   "oficial mexicano de 1830": "Mexican army officer 1830s uniform Santa Anna era"
   }
  }
 }

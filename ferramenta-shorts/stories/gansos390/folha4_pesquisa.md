@@ -15,8 +15,8 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
 tema | Os Gansos que Salvaram Roma | Os Gansos que Salvaram Roma / Roma Os Quem Os Capitólio | SEM REFERENCIA
-lugar | Roma | Roma / Roma landscape | SEM REFERENCIA
-epoca | soldado da epoca | soldier uniform | SEM REFERENCIA
+lugar | Roma | Roma / Roma landscape | Triumph of St. Ignatius of Loyola, ceiling fresco  (referencias/gansos390/prints/roma_bbaaf4.jpg); Georges Rochegrosse - Jules Massenet - Roma.jpg (referencias/gansos390/prints/roma_2ca7e4.jpg); Romani Girl.jpg (referencias/gansos390/prints/roma_d6aeb7.jpg)
+epoca | soldado da epoca | soldier uniform | Sgt. Samuel Smith, African American soldier in Uni (referencias/gansos390/prints/soldado_da_epoca_2873e2.jpg); Unidentified young soldier in Confederate infantry (referencias/gansos390/prints/soldado_da_epoca_4d3190.jpg); Dale Regementet. Soldat med hillebard.jpg (referencias/gansos390/prints/soldado_da_epoca_7e8119.jpg)
 
 ## Explicacoes (como funciona, com fonte)
 - -

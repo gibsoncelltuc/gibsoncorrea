@@ -1,0 +1,288 @@
+{
+ "duration": 68.76,
+ "frames30": 2063,
+ "source": "silence-align (cost 0.76)",
+ "segments": [
+  [
+   0.158583,
+   1.287
+  ],
+  [
+   1.52004,
+   3.81642
+  ],
+  [
+   4.669,
+   6.54108
+  ],
+  [
+   7.43933,
+   8.89438
+  ],
+  [
+   9.10525,
+   10.0454
+  ],
+  [
+   10.2424,
+   10.8435
+  ],
+  [
+   11.6819,
+   14.6087
+  ],
+  [
+   14.9146,
+   16.2385
+  ],
+  [
+   17.1009,
+   18.4985
+  ],
+  [
+   19.3943,
+   21.5568
+  ],
+  [
+   22.486,
+   23.3944
+  ],
+  [
+   23.6753,
+   24.6015
+  ],
+  [
+   25.419,
+   26.5662
+  ],
+  [
+   27.4413,
+   28.5035
+  ],
+  [
+   28.7914,
+   31.0101
+  ],
+  [
+   31.8626,
+   33.62
+  ],
+  [
+   33.8461,
+   35.3353
+  ],
+  [
+   35.6268,
+   37.1548
+  ],
+  [
+   38.004,
+   39.5232
+  ],
+  [
+   39.7218,
+   40.1234
+  ],
+  [
+   40.5063,
+   42.0238
+  ],
+  [
+   42.8935,
+   44.8971
+  ],
+  [
+   45.1268,
+   46.8491
+  ],
+  [
+   47.7236,
+   49.9214
+  ],
+  [
+   50.2599,
+   51.5284
+  ],
+  [
+   52.4348,
+   56.495
+  ],
+  [
+   57.367,
+   57.6807
+  ],
+  [
+   57.8212,
+   60.3437
+  ],
+  [
+   61.2048,
+   63.6174
+  ],
+  [
+   64.4512,
+   65.8955
+  ],
+  [
+   66.1883,
+   67.9499
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Durante sessenta anos,",
+   "s": 0.159,
+   "e": 1.287
+  },
+  {
+   "text": "todo foguete era jogado fora depois de um voo.",
+   "s": 1.52,
+   "e": 3.816
+  },
+  {
+   "text": "At\u00e9 que um deles voltou e desceu de r\u00e9.",
+   "s": 4.669,
+   "e": 6.541
+  },
+  {
+   "text": "Foi em dezembro de dois mil e quinze,",
+   "s": 7.439,
+   "e": 8.894
+  },
+  {
+   "text": "no Cabo Canaveral,",
+   "s": 9.105,
+   "e": 10.045
+  },
+  {
+   "text": "na Fl\u00f3rida.",
+   "s": 10.242,
+   "e": 10.844
+  },
+  {
+   "text": "Elon Musk queria reaproveitar os foguetes da SpaceX,",
+   "s": 11.682,
+   "e": 14.609
+  },
+  {
+   "text": "como se reaproveita um avi\u00e3o.",
+   "s": 14.915,
+   "e": 16.238
+  },
+  {
+   "text": "Muitos achavam imposs\u00edvel.",
+   "s": 17.101,
+   "e": 18.498
+  },
+  {
+   "text": "As primeiras tentativas de pouso deram errado.",
+   "s": 19.394,
+   "e": 21.557
+  },
+  {
+   "text": "Foguetes tombaram,",
+   "s": 22.486,
+   "e": 23.394
+  },
+  {
+   "text": "e explodiram no mar.",
+   "s": 23.675,
+   "e": 24.602
+  },
+  {
+   "text": "Mas a equipe insistiu.",
+   "s": 25.419,
+   "e": 26.566
+  },
+  {
+   "text": "Em vinte e um de dezembro,",
+   "s": 27.441,
+   "e": 28.503
+  },
+  {
+   "text": "o Falcon nove decolou levando sat\u00e9lites.",
+   "s": 28.791,
+   "e": 31.01
+  },
+  {
+   "text": "Depois de soltar a parte de cima,",
+   "s": 31.863,
+   "e": 33.62
+  },
+  {
+   "text": "a parte de baixo virou no c\u00e9u,",
+   "s": 33.846,
+   "e": 35.335
+  },
+  {
+   "text": "e come\u00e7ou a voltar para a Terra.",
+   "s": 35.627,
+   "e": 37.155
+  },
+  {
+   "text": "Acontece que ela desceu de r\u00e9,",
+   "s": 38.004,
+   "e": 39.523
+  },
+  {
+   "text": "de p\u00e9,",
+   "s": 39.722,
+   "e": 40.123
+  },
+  {
+   "text": "com o motor aceso freando a queda.",
+   "s": 40.506,
+   "e": 42.024
+  },
+  {
+   "text": "E desceu certinho no meio da plataforma,",
+   "s": 42.894,
+   "e": 44.897
+  },
+  {
+   "text": "abrindo as pernas no \u00faltimo segundo.",
+   "s": 45.127,
+   "e": 46.849
+  },
+  {
+   "text": "Os funcion\u00e1rios da SpaceX gritaram de alegria,",
+   "s": 47.724,
+   "e": 49.921
+  },
+  {
+   "text": "como numa final de campeonato.",
+   "s": 50.26,
+   "e": 51.528
+  },
+  {
+   "text": "Foi a primeira vez que um foguete desse tamanho voltou do espa\u00e7o e ficou inteiro em terra.",
+   "s": 52.435,
+   "e": 56.495
+  },
+  {
+   "text": "Hoje,",
+   "s": 57.367,
+   "e": 57.681
+  },
+  {
+   "text": "os foguetes da SpaceX pousam quase toda semana.",
+   "s": 57.821,
+   "e": 60.344
+  },
+  {
+   "text": "E a viagem ao espa\u00e7o ficou muito mais barata.",
+   "s": 61.205,
+   "e": 63.617
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 64.451,
+   "e": 65.895
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 66.188,
+   "e": 67.95
+  }
+ ]
+}

@@ -129,11 +129,11 @@ buildings/castle_tower | b2, b6, b7 | pronto | conferir na folha de contato se l
 - Objeto heroi: - | grandes momentos: b1, b7 | planos abertos: 3 | mistura: close 10% | medio 69% | aberto 16% | detalhe 5%
 - Interacoes: b0 susto, b2 insiste, b3 discutir, b6 empurrar, b8 o outro se aproxima, b9 reverencia
 - RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py gansos390  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/gansos390/moodboard.jpg
+  - video com ~66 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
 ## RESUMO: 2 risco(s) em aberto
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+- geral: video com ~66 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 - geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render

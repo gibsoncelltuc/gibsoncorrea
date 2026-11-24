@@ -140,12 +140,12 @@ kit/falcon_air | b5, b6 | pronto | conferir na folha de contato se le bem; se pa
 - Objeto heroi: kit/rocket | grandes momentos: b5, b8 | planos abertos: 3 | mistura: close 13% | medio 70% | aberto 10% | detalhe 7%
 - Interacoes: b0 o outro se aproxima, b2 discutir, b3 susto, b4 entregar, b7 insiste, b9 abracar
 - RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py falcon2015  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/falcon2015/moodboard.jpg
+  - video com ~69 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
 ## RESUMO: 3 risco(s) em aberto
 - b3: ACAO-CHAVE sem briefing de efeito (corpo + emissao + luz/camera)
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+- geral: video com ~69 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 - geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render
