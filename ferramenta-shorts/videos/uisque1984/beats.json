@@ -18,17 +18,19 @@
    "hat": "cap",
    "cap": "#d52b1e",
    "holdCol": "#d52b1e",
-   "holdCol2": "#ffffff"
+   "holdCol2": "#ffffff",
+   "uniforme_fixo": true
   },
   "DIN": {
    "profissao": "soldado",
-   "jacket": "#3a4a7a",
+   "jacket": "#1f3a8a",
    "pants": "#2a3a5a",
    "boots": "#1b1b1f",
    "hat": "cap",
    "cap": "#c8102e",
    "holdCol": "#c8102e",
-   "holdCol2": "#ffffff"
+   "holdCol2": "#ffffff",
+   "uniforme_fixo": true
   },
   "PRE": {
    "profissao": "politico",
@@ -151,7 +153,7 @@
   },
   {
    "shot": "wide",
-   "set": "harbor",
+   "set": "arctic",
    "who": [
     "DIN:0:smug:flag"
    ],
@@ -211,7 +213,7 @@
    ],
    "interacao": "cochichar",
    "say": "Durante anos, os dois lados voltaram lá para trocar bandeira e garrafa, sempre muito educados.",
-   "set": "harbor"
+   "set": "arctic"
   },
   {
    "shot": "wide",
@@ -220,7 +222,7 @@
     "DIN:0:smug"
    ],
    "interacao": "cochichar",
-   "set": "harbor",
+   "set": "arctic",
    "say": "A brincadeira ficou famosa como a Guerra do Uísque, e virou piada entre os dois países."
   },
   {
@@ -280,5 +282,6 @@
    "https://en.wikipedia.org/wiki/Hans_Island",
    "https://en.wikipedia.org/wiki/Whisky_War"
   ]
- }
+ },
+ "variar_cenario": false
 }

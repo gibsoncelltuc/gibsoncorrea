@@ -395,5 +395,12 @@
  "serie": "Guerras Inusitadas",
  "ep": 21,
  "titulo_base": "A Invasão da Ilha Vazia",
- "variar_cenario": false
+ "variar_cenario": false,
+ "aliados": [
+  [
+   "USA",
+   "CAN",
+   "OFF"
+  ]
+ ]
 }

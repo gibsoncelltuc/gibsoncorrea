@@ -8,7 +8,6 @@
   "luz_base": "day",
   "cenarios": [
    "arctic",
-   "harbor",
    "interior madeira",
    "interior pedra"
   ],
@@ -35,7 +34,6 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "buildings/shop",
   "kit/room_europa_stone",
   "kit/room_rosa_wood",
   "kit/tequila_bolt",

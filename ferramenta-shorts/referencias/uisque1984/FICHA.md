@@ -7,7 +7,7 @@
 - Roupas: {'CAN': 'soldado canadense com parka vermelha de inverno', 'DIN': 'dinamarques com parka azul de inverno', 'PRE': 'ministra canadense de terno em 2022', 'MIN': 'ministro dinamarques de terno em 2022'}
 - Cenario real: rochedo artico com neve, mar com blocos de gelo, sem arvores e sem casas
 - Objetos: ['bandeira do Canada', 'bandeira da Dinamarca', 'garrafa de uisque canadense', 'garrafa de aguardente dinamarquesa', 'bilhete']
-- Cenarios usados no video: arctic, harbor, interior madeira, interior pedra
+- Cenarios usados no video: arctic, interior madeira, interior pedra
 - PROIBIDO pela epoca (a ferramenta bloqueia): barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Proibido pelo roteiro: -
 
