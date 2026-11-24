@@ -112,10 +112,12 @@
    "cenario": "harbor"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "PRE",
-    "JEN"
+    "JEN",
+    "ING",
+    "PRE"
    ],
    "multidao": 0,
    "objetos": [],
@@ -126,7 +128,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "interior pedra"
   },
   {
    "camera": "two",

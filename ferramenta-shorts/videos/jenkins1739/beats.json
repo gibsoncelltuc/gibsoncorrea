@@ -84,8 +84,8 @@
     [
      "kit/ear_jar",
      0.0,
-     1.4,
-     2.0
+     1.0,
+     2.6
     ]
    ],
    "text": "1739",
@@ -129,7 +129,7 @@
    ],
    "interacao": "empurrar",
    "fx": [
-    "puff@70"
+    "stars@40"
    ],
    "sfx": [
     "whoosh@70"
@@ -137,7 +137,16 @@
    "say": "Suspeitaram de contrabando, e o capitão espanhol arrancou a orelha dele.",
    "set": "street",
    "impact": true,
-   "shot_lock": true
+   "shot_lock": true,
+   "acao": "golpe",
+   "props": [
+    [
+     "kit/ear_jar",
+     0.9,
+     0.8,
+     1.6
+    ]
+   ]
   },
   {
    "shot": "two",
@@ -151,14 +160,18 @@
    "riscos_ok": true
   },
   {
-   "shot": "two",
-   "interior": "madeira",
+   "shot": "group",
+   "interior": "pedra",
    "who": [
     "PRE:0:angry:paper",
-    "JEN:0:sad"
+    "JEN:0:sad",
+    "ING:0:angry",
+    "PRE:1:shout"
    ],
    "interacao": "susto",
-   "say": "Sete anos depois, Jenkins relatou a história ao Parlamento inglês, e os deputados ficaram furiosos."
+   "say": "Sete anos depois, Jenkins relatou a história ao Parlamento inglês, e os deputados ficaram furiosos.",
+   "text": "PARLAMENTO",
+   "tstyle": "red"
   },
   {
    "shot": "two",
@@ -233,12 +246,13 @@
    "props": [
     [
      "kit/ear_jar",
-     1.0,
-     0.6,
-     1.3
+     0.9,
+     0.8,
+     1.6
     ]
    ],
-   "say": "A orelha custou dez anos de guerra, e Jenkins ainda ficou sem ela."
+   "say": "A orelha custou dez anos de guerra, e Jenkins ainda ficou sem ela.",
+   "detalhe": false
   }
  ],
  "ano": 1739,
