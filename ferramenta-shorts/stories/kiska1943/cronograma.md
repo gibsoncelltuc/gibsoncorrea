@@ -1,22 +1,22 @@
 # CRONOGRAMA - Guerras Inusitadas EP 21 - A Invasão da Ilha Vazia
 
-Gerado em 24/11 12:24 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 12:25 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | harbor | two | USA, CAN | 24 | ship | - | Trinta e quatro mil soldados invadiram uma ilha onde não havia inimigo
-b1 | simples | arctic | group | USA, CAN, USA | 8 | navio_vapor, airplane | - | Era agosto de mil novecentos e quarenta e três. A ilha de Kiska, no Al
+b0 | simples | harbor | group | USA, CAN | 24 | ship | - | Trinta e quatro mil soldados invadiram uma ilha onde não havia inimigo
+b1 | simples | arctic | wide | USA | 32 | navio_vapor, airplane | - | Era agosto de mil novecentos e quarenta e três. A ilha de Kiska, no Al
 b2 | simples | harbor | reveal | USA, CAN | - | aviao_ww2, tanque_ww2, navio em movimento, navios de guerra ao fundo, no tamanho real | - | Americanos e canadenses chegaram com navios, aviões e tanques.
-b3 | chave | arctic | crowd | USA | 48 | aviao_ww2, canhao_moderno | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Antes do desembarque, bombardearam Kiska durante semanas.
+b3 | chave | arctic | group | USA | - | aviao_ww2, canhao_moderno | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Antes do desembarque, bombardearam Kiska durante semanas.
 b4 | chave | arctic | orbit | USA, CAN, USA | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | No meio do nevoeiro, os soldados desceram em silêncio, prontos para um
 b5 | simples | interior pedra | two | USA, CAN | - | - | - | Mas teve um problema: os japoneses já tinham ido embora.
 b6 | simples | arctic | track | USA, CAN | 8 | sandbags | - | Eles procuraram o inimigo por dias, em trincheiras vazias.
 b7 | transicao | harbor | wide | sem personagem | - | navios de guerra ao fundo, no tamanho real, ship | - | Semanas antes, navios japoneses levaram cinco mil homens embora em men
 b8 | simples | arctic | group | USA, CAN, USA | - | - | - | Sem inimigo à vista, os Aliados começaram a atirar uns nos outros, no 
 b9 | simples | harbor | group | USA, CAN | 5 | navio_encouracado | - | Mais de vinte soldados morreram nesses tiros, e um navio americano ain
-b10 | simples | harbor | prop | USA, CAN | - | dog_sit | - | No fim, só acharam na ilha alguns cachorros abandonados.
+b10 | simples | harbor | wide | USA, CAN | - | dog_sit | - | No fim, só acharam na ilha alguns cachorros abandonados.
 b11 | simples | interior madeira | two | OFF, USA | - | dog_sit | - | Uma das maiores invasões do Pacífico Norte tomou uma ilha completament
 b12 | simples | interior madeira | close | USA | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 

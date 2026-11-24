@@ -41,7 +41,7 @@
  "beats": [
   {
    "say": "Trinta e quatro mil soldados invadiram uma ilha onde não havia inimigo nenhum.",
-   "shot": "wide",
+   "shot": "group",
    "who": [
     "USA:0:stern",
     "CAN:0:stern"
@@ -79,19 +79,17 @@
      "CAN"
     ],
     "march": true
-   }
+   },
+   "_auto_vis": 1
   },
   {
    "say": "Era agosto de mil novecentos e quarenta e três. A ilha de Kiska, no Alasca, estava ocupada pelos japoneses.",
-   "shot": "group",
+   "shot": "wide",
    "who": [
-    "USA:0:stern",
-    "CAN:0:stern",
-    "USA:1:grin"
+    "USA:0:stern"
    ],
    "crowd": {
-    "n": 8,
-    "expr": "stern"
+    "n": 0
    },
    "text": "34.000 SOLDADOS",
    "tat": 5,
@@ -105,13 +103,19 @@
     ],
     [
      "kit/navio_vapor",
-     -1.8,
-     -3.0,
+     0.0,
+     -6.0,
      1.0
     ]
    ],
    "mapa": "ALASCA",
-   "set": "arctic"
+   "set": "arctic",
+   "cx": 0.0,
+   "cz": -4.2,
+   "h": 2.8,
+   "d0": 15.0,
+   "d1": 12.0,
+   "_auto_vis": 2
   },
   {
    "say": "Americanos e canadenses chegaram com navios, aviões e tanques.",
@@ -171,7 +175,17 @@
    "set": "arctic",
    "text": "BOMBARDEIO",
    "tat": 3,
-   "tstyle": "red"
+   "tstyle": "red",
+   "cx": -3.0,
+   "cz": -5.6,
+   "h": 2.8,
+   "d0": 14.4,
+   "d1": 11.4,
+   "crowd": {
+    "n": 0
+   },
+   "_auto_vis": 2,
+   "_who_lado": true
   },
   {
    "say": "No meio do nevoeiro, os soldados desceram em silêncio, prontos para um combate duro.",
@@ -296,7 +310,7 @@
   },
   {
    "say": "No fim, só acharam na ilha alguns cachorros abandonados.",
-   "shot": "prop",
+   "shot": "wide",
    "who": [
     "USA:1:surprised",
     "CAN:0:surprised"
@@ -329,7 +343,8 @@
     ]
    ],
    "shot_lock": true,
-   "detalhe": false
+   "detalhe": false,
+   "_auto_vis": 1
   },
   {
    "say": "Uma das maiores invasões do Pacífico Norte tomou uma ilha completamente vazia.",
@@ -345,13 +360,14 @@
    "props": [
     [
      "kit/dog_sit",
-     1.0,
+     0.5,
      1.0,
      1.2
     ]
    ],
    "detalhe": false,
-   "interior": "madeira"
+   "interior": "madeira",
+   "_auto_vis": 1
   }
  ],
  "heroi": "kit/dog_sit",

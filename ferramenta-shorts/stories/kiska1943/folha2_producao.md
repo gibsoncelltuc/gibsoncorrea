@@ -4,7 +4,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Trinta e quatro mil soldados invadiram uma ilha onde não havia inimigo...
 - Cenario: harbor | luz: overcast | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): USA (variante 0, expressao stern); CAN (variante 0, expressao stern) | multidao: 24 de USA/CAN
 - Animacao: conversar | interacao: aproxima-se | o ultimo personagem ENTRA andando
@@ -14,10 +14,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b1 - Era agosto de mil novecentos e quarenta e três. A ilha de Kiska, no Al...
 - Cenario: arctic | luz: overcast | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (3): USA (variante 0, expressao stern); CAN (variante 0, expressao stern); USA (variante 1, expressao grin) | multidao: 8 de 
-- Animacao: conversar | interacao: avanca e o outro recua
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): USA (variante 0, expressao stern) | multidao: 0 de 
+- Animacao: encena
 - Objetos/modelos: vehicles/airplane, kit/navio_vapor
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alasca, ilha, kiska
 - RISCOS: nenhum
@@ -34,10 +34,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Antes do desembarque, bombardearam Kiska durante semanas.
 - Cenario: arctic | luz: overcast | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (1): USA (variante 2, expressao grin) | multidao: 18 de USA
-- Animacao: encena | batalha encenada
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto
+- Personagens principais (1): USA (variante 2, expressao grin) | multidao: 0 de 
+- Animacao: conversar | batalha encenada
 - Objetos/modelos: kit/aviao_ww2, kit/canhao_moderno
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): desembarque
 - RISCOS: nenhum
@@ -87,7 +87,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (3): USA (variante 0, expressao shock); CAN (variante 0, expressao shock); USA (variante 2, expressao pained)
-- Animacao: reagir | interacao: discutir
+- Animacao: reagir | interacao: avanca e o outro recua
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aliados, atirar, escuro, neblina, vista
 - RISCOS: nenhum
@@ -104,10 +104,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b10 - No fim, só acharam na ilha alguns cachorros abandonados.
 - Cenario: harbor | luz: arctic | clima: neblina
-- Camera: prop = -
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): USA (variante 1, expressao surprised); CAN (variante 0, expressao surprised)
-- Animacao: conversar | interacao: o outro se aproxima
+- Animacao: encena
 - Objetos/modelos: kit/dog_sit, dog
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ilha
 - RISCOS: nenhum
@@ -117,7 +117,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): OFF (variante 0, expressao pained); USA (variante 0, expressao surprised)
-- Animacao: conversar | interacao: insiste
+- Animacao: conversar | interacao: discutir
 - Objetos/modelos: kit/dog_sit
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ilha, maiores, pacifico
 - RISCOS: nenhum
@@ -150,8 +150,8 @@ dog | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote,
 
 
 ## Video inteiro
-- Objeto heroi: kit/dog_sit | grandes momentos: b3, b4 | planos abertos: 4 | mistura: close 10% | medio 67% | aberto 18% | detalhe 5%
-- Interacoes: b0 aproxima-se, b1 avanca e o outro recua, b5 susto, b8 discutir, b9 empurrar, b10 o outro se aproxima, b11 insiste
+- Objeto heroi: kit/dog_sit | grandes momentos: b3, b4 | planos abertos: 5 | mistura: close 10% | medio 55% | aberto 34% | detalhe 2%
+- Interacoes: b0 aproxima-se, b5 susto, b8 avanca e o outro recua, b9 empurrar, b11 discutir
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

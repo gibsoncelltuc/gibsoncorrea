@@ -32,7 +32,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: mountain |
 ## Cena b3  (~2.4 s)
 - Narracao: Antes do desembarque, bombardearam Kiska durante semanas.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: cannon@38, cannon@60, cannon@82, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60
+- Efeitos sonoros marcados: cannon@38, cannon@60, cannon@82
 - Efeito + som nas palavras-chave: encena: atira @3 -> acao + som de efeito
 - Efeito visual marcado: burst@38, burst@60, burst@82
 - Texto na tela: BOMBARDEIO

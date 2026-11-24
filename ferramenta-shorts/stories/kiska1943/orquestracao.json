@@ -10,7 +10,7 @@
  },
  "cenas": [
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "USA",
     "CAN"
@@ -29,13 +29,11 @@
    "cenario": "harbor"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
-    "USA",
-    "CAN",
     "USA"
    ],
-   "multidao": 8,
+   "multidao": 32,
    "objetos": [
     "kit/navio_vapor",
     "vehicles/airplane"
@@ -72,11 +70,11 @@
    "cenario": "harbor"
   },
   {
-   "camera": "crowd",
+   "camera": "group",
    "personagens": [
     "USA"
    ],
-   "multidao": 48,
+   "multidao": 0,
    "objetos": [
     "kit/aviao_ww2",
     "kit/canhao_moderno"
@@ -211,7 +209,7 @@
    "cenario": "harbor"
   },
   {
-   "camera": "prop",
+   "camera": "wide",
    "personagens": [
     "USA",
     "CAN"
