@@ -27,7 +27,7 @@ for k, b in enumerate(BT):
     if cr > 0 and not re.search(MUITA, s) and not re.search(_cr_ok, s) and not b.get('batalha') and not b.get('emus') and not b.get('_cta') and not b.get('mapa'):
         out.append((k, 'MULTIDAO SEM MOTIVO: a frase nao fala de gente, publico ou festa e a cena tem ' + str(cr) + ' figurantes'))
     _bich = any(re.search(r'bee|abelha|finch|bird|passar|emu|gans|goose|chicken|galinh|horse|cavalo|pig|porco|dog|cow|fish|peixe|lagosta|lobster', str(p_[0])) for p_ in (b.get('props') or []) if isinstance(p_, list))
-    _comida = re.sub(r'\b(carne|consome|ensopado|pernil|bife|sopa|prato|filet|file|costela|assado|churrasco|linguica) de (\w+)|\bservi\w* (o |a |um |uma )?\w+', ' ', s)   # 'carne de elefante' e' comida, nao bicho em cena
+    _comida = re.sub(r'\b(carne|consome|ensopado|pernil|bife|sopa|prato|filet|file|costela|assado|churrasco|linguica) de (\w+)', ' ', re.sub(r'\bservi\w* (o |a |um |uma )?(?!consome|ensopado|carne|pernil|sopa|bife)\w+', ' ', s))   # 'carne de elefante' e' comida, nao bicho em cena
     if re.search(ANIM, _comida) and not (b.get('animals') or b.get('emus') or b.get('montado') or _bich) and not re.search(r'cavalaria', s):
         out.append((k, 'a frase cita ANIMAL e a cena nao tem animal'))
     if b.get('batalha') is True and not re.search(r'tomar|tomaram|queim|cerc|revolt|guerra|batalha|lut|atac|invad|tiro|atir|dispar|bomb|explo|soldad|tropa|exercito|combat|canh|fogo|arma|metralh|espada|duelo|briga|captur|ofensiv', s):
