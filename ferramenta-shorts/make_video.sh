@@ -15,8 +15,11 @@ python3 mkvideo.py $ID >> $L 2>&1
 # FOLHA 4 (v13): pesquisa de campo automatica antes de tudo (busca cada item do roteiro na internet, baixa os prints e monta o quadro de referencias)
 if [ ! -f referencias/$ID/pesquisa.json ]; then log "pesquisa de campo (folha 4)"; python3 pesquisar.py $ID >> $L 2>&1 || true; python3 mkvideo.py $ID >> $L 2>&1; fi
 VOICE=$(j voice); RATE=$(j rate); T=$(j file)
+VH=$(python3 -c "import json,hashlib;B=json.load(open('videos/$ID/beats.json'));print(hashlib.md5(' '.join(b['say'] for b in B['beats']).encode()).hexdigest()[:12])")   # texto narrado mudou = voz nova (pendencia da sessao B: a voz antiga ia para o video)
+if st voice && [ -f stories/$ID/stages/voice.hash ] && [ "$(cat stories/$ID/stages/voice.hash)" != "$VH" ]; then log "o texto do roteiro mudou: refazendo a voz"; rm -rf stories/$ID/stages/voice stories/$ID/voice.mp3 stories/$ID/work; fi
+st voice && [ ! -f stories/$ID/stages/voice.hash ] && echo "$VH" > stories/$ID/stages/voice.hash
 if st voice && [ -f stories/$ID/voice.mp3 ] && [ ! -f stories/$ID/work/phrases.json ]; then log "refazendo so a temporizacao (work/ ausente)"; (cd stories/$ID && python3 ../../timing.py voice.mp3 script.txt --out work >> ../../$L 2>&1); fi
-if ! st voice || [ ! -f stories/$ID/voice.mp3 ]; then log "voz"; rm -f stories/$ID/voice.mp3; ./produce_voice.sh $ID "$VOICE" "$RATE" >> $L 2>&1; mark voice; fi
+if ! st voice || [ ! -f stories/$ID/voice.mp3 ]; then log "voz"; rm -f stories/$ID/voice.mp3; ./produce_voice.sh $ID "$VOICE" "$RATE" >> $L 2>&1; mark voice; echo "$VH" > stories/$ID/stages/voice.hash; fi
 if [ -f stories/$ID/VOICE_PLACEHOLDER ] && [ "${ALLOW_TEST_VOICE:-0}" != "1" ]; then log "PARADO: voz de TESTE (espeak, robotica). NAO se entrega video assim. Conserte a rede/certificado do edge-tts (veja OPERACAO.md) e apague stories/$ID/stages/voice e stories/$ID/voice.mp3"; rm -f stories/$ID/stages/voice; exit 3; fi
 python3 mkvideo.py $ID >> $L 2>&1   # de novo, com a voz pronta: a folha 3 sai com o instante exato de cada acao
 if ! python3 verificar_folhas.py $ID >> $L 2>&1; then log "BLOQUEADO: as 3 folhas nao foram lidas/seguidas (veja $L)"; tail -6 $L; exit 1; fi; log "3 folhas lidas e seguidas"
