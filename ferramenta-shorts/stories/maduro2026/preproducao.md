@@ -13,7 +13,7 @@ b5 | loc_pista | low | 2 | conversar, INTERAGEM: empurrar | - | - | -
 b6 | interior loja | two | 2 | conversar, INTERAGEM: aproxima-se | - | - | -
 b7 | loc_pista | two | 2 | conversar, INTERAGEM: entregar | kit/scroll, vehicles/airplane | - | -
 b8 | loc_patio | wide | 21 | reagir | - | - | -
-b9 | loc_patio | crowd | 1 | comemorar, batalha | kit/helicopter_air | - | -
+b9 | loc_patio | wide | 1 | comemorar, batalha | kit/helicopter_air | - | -
 b10 | loc_cidade | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/helicopter_air

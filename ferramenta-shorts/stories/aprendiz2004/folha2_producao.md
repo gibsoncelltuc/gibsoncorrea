@@ -84,9 +84,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus.
 - Cenario: loc_estudio | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): JUS (variante 0, expressao smug); POV (variante 0, expressao surprised) | multidao: 12 de POV
+- Personagens principais (2): JUS (variante 0, expressao smug); POV (variante 0, expressao surprised)
 - Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/marco_trumptower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aprendiz, brasil, roberto

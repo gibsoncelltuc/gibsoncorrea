@@ -1,19 +1,19 @@
 # CRONOGRAMA - Poder e Fama EP 19 - O Macaco que Jogou Videogame com a Mente
 
-Gerado em 24/11 23:35 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:43 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | loc_cidade | two | MUS, CIE | - | monkey_pong | - | Um macaco jogou videogame sem usar as mãos, só com o pensamento.
-b1 | chave | loc_cidade | crowd | POV, POV | 6 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Foi em dois mil e vinte e um, e a empresa se chama Neuralink.
+b1 | chave | loc_cidade | wide | POV, POV | 6 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Foi em dois mil e vinte e um, e a empresa se chama Neuralink.
 b2 | simples | interior loja | two | CIM, MUS | - | chess_pc | - | A ideia é um chip no cérebro, que lê os sinais dos neurônios e manda p
 b3 | simples | interior loja | two | CIE | - | monkey_pong | - | O voluntário foi o Pager, um macaco de nove anos, que aprendeu a jogar
 b4 | simples | interior madeira | two | CIE | - | monkey_pong | - | A cada acerto, ganhava um golinho de vitamina de banana.
 b5 | simples | interior loja | two | CIM | - | monkey_pong | - | Acontece que, um dia, desligaram o joystick, e o Pager continuou jogan
 b6 | simples | loc_cidade | crowd | POV, POV, MUS | 14 | monkey_pong | - | O vídeo rodou o mundo, e também abriu debate sobre o uso de animais em
-b7 | chave | loc_cidade | orbit | MUS, CIM | 12 | chess_pc, phone | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Segundo a empresa, o objetivo é ajudar quem é paralisado a usar o comp
+b7 | chave | loc_cidade | orbit | MUS, CIM | - | chess_pc, phone | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Segundo a empresa, o objetivo é ajudar quem é paralisado a usar o comp
 b8 | simples | interior madeira | two | NOL, CIE | - | chess_pc | - | Em dois mil e vinte e quatro, o primeiro paciente, que não mexia o cor
 b9 | simples | loc_cidade | two | MUS | - | monkey_pong | - | Tudo começou com um macaco, um videogame e um copo de vitamina de bana
 b10 | simples | loc_cidade | close | MUS | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?

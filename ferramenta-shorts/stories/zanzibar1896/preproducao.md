@@ -7,7 +7,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | harbor | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/marco_zanzibar | - | -
 b1 | harbor | reveal | 10 | parados (so fala e pisca) | kit/marco_zanzibar | - | -
 b2 | interior pedra | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/throne | - | -
-b3 | harbor | crowd | 1 | encena, batalha | kit/navio_vapor, kit/marco_zanzibar | paper | -
+b3 | harbor | wide | 1 | encena, batalha | kit/navio_vapor, kit/marco_zanzibar | paper | -
 b4 | loc_campo | reveal | 20 | encena | kit/marco_zanzibar | - | -
 b5 | harbor | orbit | 0 | batalha | kit/navio_vapor_guerra, cannon, kit/marco_zanzibar, navios de guerra ao fundo, no tamanho real | - | -
 b6 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -

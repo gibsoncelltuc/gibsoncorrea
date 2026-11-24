@@ -12,7 +12,7 @@ b4 | interior madeira | group | 4 | discutir, INTERAGEM: discutir | mk/Table_Lar
 b5 | interior madeira | close | 1 | conversar | - | - | -
 b6 | loc_pista | crowd | 33 | comemorar, batalha | kit/tv, kit/marco_trumptower, nature/picket_fence | - | -
 b7 | loc_pista | two | 2 | comemorar, INTERAGEM: abracar | - | - | -
-b8 | loc_estudio | crowd | 14 | batalha | kit/marco_trumptower | - | -
+b8 | loc_estudio | wide | 2 | batalha | kit/marco_trumptower | - | -
 b9 | loc_estudio | two | 1 | conversar | kit/tv | - | -
 b10 | loc_cidade | close | 1 | comemorar | kit/tv | - | -
 b11 | loc_cidade | two | 1 | conversar | - | - | -

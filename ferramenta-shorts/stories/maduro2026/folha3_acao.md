@@ -80,7 +80,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | reagir | OK |
 | 3 | - | PLACA | MUNDO | OK |
 
-## Cena b9 - 50.4s a 53.7s - 10 palavras - plano crowd
+## Cena b9 - 50.4s a 53.7s - 10 palavras - plano wide
 > "A operação ganhou um nome que resume tudo: Resolução Absoluta."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

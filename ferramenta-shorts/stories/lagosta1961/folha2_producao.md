@@ -14,7 +14,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b1 - Era mil novecentos e sessenta e um, e barcos franceses pescavam lagost...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): PES (variante 0, expressao stern) | multidao: 0 de 
 - Animacao: encena | grande momento (efeito + som, sem tiro)

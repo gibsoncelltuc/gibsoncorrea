@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1945 | Lugar: Brunnwinkl, casa de verao a beira do lago Wolfgangsee (Alpes austriacos): jardim com colmeias e pratinhos de agua com acucar; laboratorio em Munique; cerimonia do Nobel em Estocolmo | Quando: verao de 1944-1945 (decifrou a danca), Nobel em dezembro de 1973
 - HEROIS (objeto): kit/beehive, kit/bee
 - HEROIS (personagens): FRI, COL
-- Cenarios: interior madeira, interior pedra, loc_campo, loc_montanha
+- Cenarios: interior madeira, interior pedra, loc_campo, loc_estudio, loc_montanha
 - Proibido pela epoca: canhao antigo, caravela, carro antigo, carroca, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
@@ -27,9 +27,12 @@ objeto | pratinhos de agua com acucar | bees drinking sugar water dish / pratinh
 objeto | caderno de anotacoes | scientist field notebook / caderno de anotacoes / caderno de anotacoes 1945 | Coast watch (1979) (20039265533).jpg (referencias/abelhas1945/prints/caderno_de_anotacoes_25318e.jpg); Spiralbinderücken -- 2022 -- 9739 (bw).jpg (referencias/abelhas1945/prints/caderno_de_anotacoes_b19525.jpg)
 heroi | beehive | colmeia de vidro / As Abelhas que Dançam um Mapa | Beehive 4544.jpg (referencias/abelhas1945/prints/beehive_36349f.jpg); Beehive sugar bowl, 1829-1835, blown glass - Sandw (referencias/abelhas1945/prints/beehive_350926.jpg)
 heroi | bee | bee | Bee mid air.jpg (referencias/abelhas1945/prints/bee_ada192.jpg); Sunflower and a bee.jpg (referencias/abelhas1945/prints/bee_296073.jpg); Apis mellifera flying.jpg (referencias/abelhas1945/prints/bee_464e5d.jpg)
+mecanismo | Comida perto: voltinhas. Comida longe: um oito, rebolando no meio. | comida perto voltinhas comida longe rebolando / bee diagram | SEM REFERENCIA
+mecanismo | E o mais incrível: o ângulo da rebolada mostrava a direção, comparada | incrivel angulo rebolada mostrava direcao comparada / bee diagram | SEM REFERENCIA
+mecanismo | Quanto mais rebolava, mais longe a comida. Era um mapa de dança! | quanto rebolava longe comida danca / bee diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
-- -
+- Danca das abelhas (von Frisch): danca em circulo = comida perto; danca do requebrado em oito = comida longe; o angulo da corrida em relacao a vertical indica a direcao da comida em relacao ao sol; a duracao do requebrado indica a distancia (fonte: Wikipedia Waggle dance)
 
 ## Fontes visuais do roteirista
 - https://en.wikipedia.org/wiki/Karl_von_Frisch

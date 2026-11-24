@@ -12,7 +12,7 @@ b4 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
 b5 | interior madeira | low | 1 | reagir | kit/snake_ring | - | -
 b6 | interior madeira | two | 1 | encena | kit/snake_ring | paper | -
 b7 | interior pedra | group | 3 | comemorar, INTERAGEM: pular | kit/snake_ring | - | -
-b8 | street | crowd | 7 | batalha | kit/snake_ring, kit/marco_viena | - | -
+b8 | street | wide | 7 | batalha | kit/snake_ring, kit/marco_viena | - | -
 b9 | street | close | 1 | conversar | kit/snake_ring | - | -
 b10 | street | two | 1 | conversar | - | - | -
 

@@ -23,7 +23,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | MAPA | EL SALVADOR | OK |
 | 4 | - | PLACA | NAYIB BUKELE | OK |
 
-## Cena b2 - 8.9s a 12.6s - 11 palavras - plano crowd
+## Cena b2 - 8.9s a 12.6s - 11 palavras - plano wide
 > "Ele chegou ao poder prometendo acabar com a violência das gangues."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

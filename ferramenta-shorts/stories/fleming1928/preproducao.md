@@ -9,7 +9,7 @@ b1 | loc_campo | reveal | 10 | parados (so fala e pisca) | kit/marco_bigben | - 
 b2 | interior madeira | two | 2 | conversar, INTERAGEM: avanca e o outro recua | - | book | -
 b3 | interior madeira | group | 2 | reagir, INTERAGEM: susto, alguem chega andando | - | bag | -
 b4 | interior madeira | two | 2 | conversar, INTERAGEM: discutir | kit/petri, kit/gosma | - | -
-b5 | loc_montanha | crowd | 13 | encena, batalha | kit/petri, kit/gosma | - | -
+b5 | loc_montanha | wide | 1 | encena, batalha | kit/petri, kit/gosma | - | -
 b6 | interior madeira | two | 2 | reagir, INTERAGEM: o outro se aproxima | kit/petri, kit/gosma | - | -
 b7 | interior madeira | two | 0 | parados (so fala e pisca) | - | - | -
 b8 | interior pedra | group | 3 | comemorar, INTERAGEM: pular | kit/petri | - | -

@@ -13,7 +13,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | PERIGO | OK |
 
-## Cena b1 - 4.9s a 7.8s - 11 palavras - plano crowd
+## Cena b1 - 4.9s a 7.8s - 11 palavras - plano wide
 > "Era mil oitocentos e noventa e oito, em Paris, na França."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

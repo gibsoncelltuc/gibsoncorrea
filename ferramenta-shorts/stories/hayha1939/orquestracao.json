@@ -131,12 +131,12 @@
    "cenario": "arctic"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
     "FIN",
     "FIN"
    ],
-   "multidao": 48,
+   "multidao": 0,
    "objetos": [
     "nature/picket_fence"
    ],

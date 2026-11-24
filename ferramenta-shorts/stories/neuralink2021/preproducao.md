@@ -5,13 +5,13 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | loc_cidade | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/monkey_pong | - | -
-b1 | loc_cidade | crowd | 8 | batalha | - | - | -
+b1 | loc_cidade | wide | 8 | batalha | - | - | -
 b2 | interior loja | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/chess_pc | paper | -
 b3 | interior loja | two | 1 | conversar | kit/monkey_pong | - | -
 b4 | interior madeira | two | 1 | encena | kit/monkey_pong | mug | -
 b5 | interior loja | two | 1 | reagir | kit/monkey_pong | - | -
 b6 | loc_cidade | crowd | 17 | reagir | kit/monkey_pong | - | -
-b7 | loc_cidade | orbit | 14 | discutir, batalha | kit/chess_pc, kit/phone | - | -
+b7 | loc_cidade | orbit | 2 | discutir, batalha | kit/chess_pc, kit/phone | - | -
 b8 | interior madeira | two | 2 | conversar, INTERAGEM: entregar | kit/chess_pc | - | -
 b9 | loc_cidade | two | 1 | comemorar | kit/monkey_pong | - | -
 b10 | loc_cidade | close | 1 | conversar | - | - | -

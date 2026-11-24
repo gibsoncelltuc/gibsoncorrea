@@ -12,7 +12,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | ATUACAO | discutir | OK |
 | 2 | - | PLACA | 1961 | OK |
 
-## Cena b1 - 4.3s a 8.6s - 16 palavras - plano crowd
+## Cena b1 - 4.3s a 8.6s - 16 palavras - plano wide
 > "Era mil novecentos e sessenta e um, e barcos franceses pescavam lagostas na costa de Pernambuco."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

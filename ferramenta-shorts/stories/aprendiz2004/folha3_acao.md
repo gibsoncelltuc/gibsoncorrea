@@ -79,7 +79,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 6 | - | ATUACAO | comemorar | OK |
 | 7 | - | PLACA | $250.000 | OK |
 
-## Cena b8 - 39.4s a 43.0s - 11 palavras - plano crowd
+## Cena b8 - 39.4s a 43.0s - 11 palavras - plano wide
 > "No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

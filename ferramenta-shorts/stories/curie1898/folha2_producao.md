@@ -14,7 +14,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b1 - Era mil oitocentos e noventa e oito, em Paris, na França.
 - Cenario: loc_campo | luz: dia | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): POV (variante 0, expressao smile) | multidao: 6 de POV
 - Animacao: - | grande momento (efeito + som, sem tiro)

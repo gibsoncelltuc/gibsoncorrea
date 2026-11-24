@@ -29,7 +29,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b3 - 20.4s a 24.8s - 13 palavras - plano crowd
+## Cena b3 - 20.4s a 24.8s - 13 palavras - plano wide
 > "Isso significava que o sol estava bem em cima, e nada fazia sombra."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

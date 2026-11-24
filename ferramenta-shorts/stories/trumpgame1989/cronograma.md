@@ -1,13 +1,13 @@
 # CRONOGRAMA - Poder e Fama EP 18 - O Jogo de Tabuleiro do Trump
 
-Gerado em 24/11 23:35 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:43 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | loc_cidade | two | TRU, EXE | - | boardgame, marco_liberdade | - | Donald Trump lançou um jogo de tabuleiro com o próprio rosto no dinhei
-b1 | chave | loc_cidade | crowd | POV, POV | 6 | marco_liberdade | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Era mil novecentos e oitenta e nove, e ele era um empresário famoso de
+b1 | chave | loc_cidade | wide | POV, POV | 6 | marco_liberdade | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Era mil novecentos e oitenta e nove, e ele era um empresário famoso de
 b2 | simples | interior loja | two | EXE, TRU | - | boardgame | - | Uma fábrica de brinquedos fez o jogo: comprar prédios, cassinos e hoté
 b3 | simples | interior loja | close | TRU | - | boardgame | - | As notas eram de dez, cinquenta e cem milhões de dólares, com a cara d
 b4 | simples | interior madeira | two | PAI, FIL | - | boardgame | - | Acontece que o manual era longo, e as famílias abriam a caixa e não en

@@ -1,5 +1,1 @@
-VISIBILIDADE: 4 FALHA(S)
-FALHA b0: objeto citado "kit/stove" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-FALHA b5: objeto citado "kit/stove" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-FALHA b0: objeto "kit/stove" saiu com 5% da altura da tela, a ficha de cena planejou 32%
-FALHA b5: objeto "kit/stove" saiu com 5% da altura da tela, a ficha de cena planejou 32%
+VISIBILIDADE OK: objetos citados aparecem, nada tapando a camera, camera fora dos objetos (26 tomadas)

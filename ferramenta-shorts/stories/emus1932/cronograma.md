@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 02 - A Guerra dos Emus
 
-Gerado em 24/11 23:35 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:42 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -9,7 +9,7 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 b0 | simples | outback | two | sem personagem | - | - | - | A Austrália declarou guerra a um bando de pássaros, e perdeu.
 b1 | simples | outback | reveal | FARM, FARM | - | barn, haybale, picket_fence, scarecrow | - | Em mil novecentos e trinta e dois, vinte mil emus invadiram as lavoura
 b2 | simples | interior madeira | two | FARM, AUS | 8 | - | - | Agricultores veteranos pediram metralhadoras, e o ministro da Defesa m
-b3 | chave | countryside | crowd | SOL, SOL | 48 | crate, mgun | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O major Meredith levou duas metralhadoras e dez mil balas.
+b3 | chave | countryside | wide | SOL, SOL | - | crate, mgun | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O major Meredith levou duas metralhadoras e dez mil balas.
 b4 | simples | outback | wide | SOL, SOL | 32 | - | - | Acontece que os emus se dividiram em grupos pequenos e rápidos, e as b
 b5 | simples | countryside | wide | SOL | - | mgun, truck | - | Numa tentativa, uma metralhadora foi instalada num caminhão, mas ele s
 b6 | simples | loc_campo | orbit | SOL, SOL | 32 | - | - | Depois de seis dias, milhares de cartuchos gastos e poucos emus abatid

@@ -86,12 +86,12 @@
    "cenario": "loc_deserto"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
     "ERA",
     "CAM"
    ],
-   "multidao": 12,
+   "multidao": 0,
    "objetos": [
     "kit/well",
     "nature/tree_palm"

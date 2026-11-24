@@ -64,9 +64,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Acontece que os assassinatos despencaram: de cento e seis para dois ví...
 - Cenario: loc_campo | luz: golden | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): REP (variante 0, expressao surprised, segura paper); BUK (variante 0, expressao smug) | multidao: 12 de POV
+- Personagens principais (2): REP (variante 0, expressao surprised, segura paper); BUK (variante 0, expressao smug)
 - Animacao: conversar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): assassinatos, cento
@@ -86,7 +86,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_patio | luz: golden | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): BUK (variante 0, expressao stern); REP (variante 0, expressao nervous, segura paper) | multidao: 12 de POV
+- Personagens principais (2): BUK (variante 0, expressao stern); REP (variante 0, expressao nervous, segura paper)
 - Animacao: discutir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): governo, ruas

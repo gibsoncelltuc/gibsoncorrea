@@ -5,7 +5,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | loc_cidade | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/boardgame, kit/marco_liberdade | - | -
-b1 | loc_cidade | crowd | 8 | batalha | kit/marco_liberdade | - | -
+b1 | loc_cidade | wide | 8 | batalha | kit/marco_liberdade | - | -
 b2 | interior loja | two | 2 | conversar, INTERAGEM: entregar | kit/boardgame | paper | -
 b3 | interior loja | close | 1 | comemorar | kit/boardgame | - | -
 b4 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | kit/boardgame | paper | -

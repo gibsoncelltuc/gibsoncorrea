@@ -18,7 +18,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 7 | - | ATUACAO | discutir | OK |
 | 8 | - | PLACA | 1566 | OK |
 
-## Cena b1 - 5.6s a 11.5s - 17 palavras - plano crowd
+## Cena b1 - 5.6s a 11.5s - 17 palavras - plano wide
 > "Era mil quinhentos e sessenta e seis, e Tycho Brahe, um jovem nobre dinamarquês, estudava na Alemanha."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

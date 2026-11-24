@@ -31,7 +31,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | aproxima-se | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b3 - 19.6s a 23.3s - 15 palavras - plano crowd
+## Cena b3 - 19.6s a 23.3s - 15 palavras - plano wide
 > "Achou que eram aves bem diferentes, e nem anotou de que ilha vinha cada uma."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

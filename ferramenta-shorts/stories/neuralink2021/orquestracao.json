@@ -45,7 +45,7 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
     "POV",
     "POV"
@@ -166,7 +166,7 @@
     "MUS",
     "CIM"
    ],
-   "multidao": 12,
+   "multidao": 0,
    "objetos": [
     "kit/chess_pc",
     "kit/phone"

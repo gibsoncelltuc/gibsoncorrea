@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 26 - O Presidente dos 85 por Cento
 
-Gerado em 24/11 23:35 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:43 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -8,7 +8,7 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 ---|---|---|---|---|---|---|---|---
 b0 | simples | loc_cidade | two | BUK, POV | - | ballot_box, volcano | - | Um presidente foi reeleito com uma das maiores votações do mundo.
 b1 | simples | loc_campo | two | BUK, POV | - | volcano | - | Foi em El Salvador, na América Central, e o presidente era Nayib Bukel
-b2 | chave | loc_cidade | crowd | BUK, POV | 12 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Ele chegou ao poder prometendo acabar com a violência das gangues.
+b2 | chave | loc_cidade | wide | BUK, POV | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Ele chegou ao poder prometendo acabar com a violência das gangues.
 b3 | simples | interior madeira | two | JUI, REP | - | scroll | - | A Constituição proibia a reeleição seguida, mas em dois mil e vinte e 
 b4 | simples | loc_patio | two | REP, POV | - | - | - | Críticos e opositores disseram que a candidatura era ilegal. O governo
 b5 | simples | loc_campo | wide | POV, POV | 12 | ballot_box, volcano | - | No dia da eleição, os salvadorenhos foram às urnas.

@@ -1,13 +1,13 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 18 - Os Primeiros Passageiros do Céu
 
-Gerado em 24/11 23:35 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:43 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | loc_campo | two | JOS | - | balloon, marco_versalhes | - | Os primeiros passageiros de um balão não foram pessoas. Foram uma ovel
-b1 | chave | street | crowd | POV, POV | 6 | marco_versalhes | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Era mil setecentos e oitenta e três, na França.
+b1 | chave | street | wide | POV, POV | 6 | marco_versalhes | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Era mil setecentos e oitenta e três, na França.
 b2 | simples | interior madeira | two | JOS, ETI | - | campfire | - | Os irmãos Montgolfier, donos de uma fábrica de papel, viram que a fuma
 b3 | simples | interior madeira | two | ETI | - | balloon | - | Então fizeram um balão gigante de pano e papel, cheio de ar quente.
 b4 | simples | interior madeira | two | NOB, ETI | - | - | - | Só que ninguém sabia se dava para respirar lá em cima.

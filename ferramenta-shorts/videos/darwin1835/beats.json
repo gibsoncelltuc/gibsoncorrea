@@ -162,7 +162,8 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "objetos": null
   },
   {
    "say": "Achou que eram aves bem diferentes, e nem anotou de que ilha vinha cada uma.",
@@ -174,7 +175,8 @@
    "acao": "conversar",
    "set": "palace",
    "fachada": false,
-   "_auto_vis": 0
+   "_auto_vis": 0,
+   "objetos": null
   },
   {
    "say": "Em Londres, o especialista John Gould revelou: eram todos tentilhões, de espécies diferentes.",
@@ -355,7 +357,8 @@
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "_auto_vis": 3
+   "_auto_vis": 3,
+   "objetos": null
   },
   {
    "say": "Os bichos com o bico certo sobreviviam melhor, e passavam isso para os filhos.",
@@ -471,5 +474,6 @@
  "coerencia_ok": [
   "R7"
  ],
- "set_tematico_ok": true
+ "set_tematico_ok": true,
+ "regiao": "nenhuma"
 }

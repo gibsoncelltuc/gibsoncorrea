@@ -24,9 +24,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - A borracha estava na moda, mas derretia no calor e rachava no frio. Bo...
 - Cenario: street | luz: desert | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): GOO (variante 0, expressao sad); POV (variante 0, expressao angry) | multidao: 12 de POV
+- Personagens principais (2): GOO (variante 0, expressao sad); POV (variante 0, expressao angry)
 - Animacao: discutir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/stove
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): borracha, calor, frio, meleca, moda, verao

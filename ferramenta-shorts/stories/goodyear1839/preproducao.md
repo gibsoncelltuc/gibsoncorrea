@@ -6,7 +6,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | interior madeira | two | 2 | reagir, INTERAGEM: avanca e o outro recua | kit/stove | - | -
 b1 | street | reveal | 8 | parados (so fala e pisca) | - | - | -
-b2 | street | crowd | 14 | discutir, batalha | kit/stove | - | -
+b2 | street | wide | 2 | discutir, batalha | kit/stove | - | -
 b3 | interior madeira | two | 2 | conversar, INTERAGEM: o outro se aproxima | - | paper | -
 b4 | interior pedra | two | 2 | conversar, INTERAGEM: empurrar | - | - | -
 b5 | interior madeira | two | 2 | conversar, INTERAGEM: insiste | kit/stove | - | -

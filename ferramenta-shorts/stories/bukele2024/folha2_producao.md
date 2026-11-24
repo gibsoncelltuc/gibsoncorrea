@@ -24,9 +24,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - Ele chegou ao poder prometendo acabar com a violência das gangues.
 - Cenario: loc_cidade | luz: golden | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): BUK (variante 0, expressao grin); POV (variante 0, expressao smile) | multidao: 12 de POV
+- Personagens principais (2): BUK (variante 0, expressao grin); POV (variante 0, expressao smile)
 - Animacao: conversar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gangues, violencia

@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 08 - A Guerra de 38 Minutos
 
-Gerado em 24/11 23:35 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:42 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -9,7 +9,7 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 b0 | simples | harbor | two | SUL, GUA | - | marco_zanzibar | - | Uma guerra durou menos de uma hora, e é considerada a mais curta da hi
 b1 | transicao | harbor | reveal | SUL, POV | 8 | marco_zanzibar | - | Foi em mil oitocentos e noventa e seis, em Zanzibar, uma ilha africana
 b2 | simples | interior pedra | two | SUL, GUA | - | throne | - | O sultão morreu, e um primo ocupou o palácio sem pedir licença.
-b3 | chave | harbor | crowd | ALM | - | marco_zanzibar, navio_vapor | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os ingleses deram um ultimato: sair do palácio até as nove da manhã.
+b3 | chave | harbor | wide | ALM | - | marco_zanzibar, navio_vapor | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os ingleses deram um ultimato: sair do palácio até as nove da manhã.
 b4 | simples | loc_campo | reveal | GUA, GUA | 32 | marco_zanzibar | - | O primo reuniu quase três mil homens, com fuzis e mosquetes, e se tran
 b5 | chave | harbor | orbit | sem personagem | - | cannon, marco_zanzibar, navio_vapor_guerra, navios de guerra ao fundo, no tamanho real | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, às nove e dois, os navios ingleses abriram fogo.
 b6 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/forte_colonial (parado); emissao: fogo, onda; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som | O palácio pegou fogo, e a artilharia do sultão foi calada.

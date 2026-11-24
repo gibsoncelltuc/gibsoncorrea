@@ -15,7 +15,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | PLACA | 1989 | OK |
 
-## Cena b1 - 4.8s a 10.4s - 16 palavras - plano crowd
+## Cena b1 - 4.8s a 10.4s - 16 palavras - plano wide
 > "Era mil novecentos e oitenta e nove, e ele era um empresário famoso de Nova York."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

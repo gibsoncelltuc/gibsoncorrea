@@ -5,7 +5,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | -  | - | encena: fala (point) @10 (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | chegou (dust + som de impacto); encena: chega (point) @9 (acao + som de efeito) | -
 b2 | two | -  | objeto na mao | encena: pega (lift) @0 (acao + som de efeito) | -
-b3 | crowd | -  | batalha aberta com tiros, tropa, objeto na mao | encena: olha (point) @0 (acao + som de efeito) | -
+b3 | wide | -  | batalha aberta com tiros, objeto na mao | encena: olha (point) @0 (acao + som de efeito) | -
 b4 | two | -  | interior | encena: fala (point) @6 (acao + som de efeito) | -
 b5 | two | -  | interior | encena: quebra (throw) @8 (acao + som de efeito); encena: pega (lift) @13 (acao + som de efeito) | -
 b6 | wide | -  | batalha aberta com tiros, tropa | - | -

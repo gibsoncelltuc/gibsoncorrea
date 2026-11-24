@@ -180,12 +180,12 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
     "JUS",
     "POV"
    ],
-   "multidao": 12,
+   "multidao": 0,
    "objetos": [
     "kit/marco_trumptower"
    ],

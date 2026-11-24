@@ -10,7 +10,7 @@ b2 | arctic | orbit | 13 | reagir | nature/tree_pine, nature/tree_oak, nature/bu
 b3 | arctic | close | 1 | conversar | - | - | -
 b4 | arctic | low | 1 | conversar | - | - | -
 b5 | arctic | close | 1 | conversar | - | - | -
-b6 | arctic | crowd | 14 | reagir, batalha | nature/picket_fence | - | -
+b6 | arctic | wide | 2 | reagir, batalha | nature/picket_fence | - | -
 b7 | arctic | group | 1 | reagir | - | - | -
 b8 | interior hospital | two | 2 | conversar, INTERAGEM: cochichar | - | - | -
 b9 | interior madeira | close | 1 | conversar | - | - | -

@@ -13,7 +13,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | 2021 | OK |
 
-## Cena b1 - 4.4s a 9.3s - 14 palavras - plano crowd
+## Cena b1 - 4.4s a 9.3s - 14 palavras - plano wide
 > "Foi em dois mil e vinte e um, e a empresa se chama Neuralink."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

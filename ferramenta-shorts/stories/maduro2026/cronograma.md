@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 22 - A Operação da Madrugada
 
-Gerado em 24/11 23:35 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:43 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -15,7 +15,7 @@ b5 | simples | loc_pista | low | SOL, MAD | - | - | - | Acontece que, em menos d
 b6 | simples | interior loja | two | TRU, GEN | - | - | - | Trump acompanhou tudo de longe, na Flórida, ao lado do diretor da CIA 
 b7 | simples | loc_pista | two | AGE, MAD | - | scroll, airplane | - | Maduro foi levado de avião para Nova York, onde responde a um processo
 b8 | simples | loc_patio | wide | POV, POV, POV | 18 | - | - | Nenhum militar americano morreu. A notícia parou o mundo, e dividiu op
-b9 | chave | loc_patio | crowd | TRU | - | helicopter_air | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A operação ganhou um nome que resume tudo: Resolução Absoluta.
+b9 | chave | loc_patio | wide | TRU | - | helicopter_air | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A operação ganhou um nome que resume tudo: Resolução Absoluta.
 b10 | simples | loc_cidade | close | MAD | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

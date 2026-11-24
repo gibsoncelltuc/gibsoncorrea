@@ -11,7 +11,7 @@ b3 | interior madeira | group | 2 | reagir, INTERAGEM: o outro se aproxima | - |
 b4 | interior madeira | two | 2 | conversar, INTERAGEM: entregar | - | paper | -
 b5 | interior pedra | group | 7 | conversar, INTERAGEM: insiste | - | - | -
 b6 | interior pedra | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/postit | paper | -
-b7 | countryside | crowd | 7 | encena, batalha | kit/postit | - | -
+b7 | countryside | wide | 7 | encena, batalha | kit/postit | - | -
 b8 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
 b9 | street | group | 19 | comemorar, batalha | kit/postit | - | -
 b10 | countryside | orbit | 10 | encena | kit/postit | - | -

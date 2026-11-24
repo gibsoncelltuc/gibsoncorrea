@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Narracao: Comida perto: voltinhas. Comida longe: um oito, rebolando no meio.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: danca (up) @7 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Narracao: E o mais incrível: o ângulo da rebolada mostrava a direção, comparada com o sol.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@20
-- Efeito + som nas palavras-chave: (rosto) shock -> expr + som de efeito; encena: danca (up) @7 -> acao + som de efeito; encena: fala (point) @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@20
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Narracao: Quanto mais rebolava, mais longe a comida. Era um mapa de dança!
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: dança -> stars + som de sino; encena: danca (up) @2 -> acao + som de efeito; encena: danca (up) @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

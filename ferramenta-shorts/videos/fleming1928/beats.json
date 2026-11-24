@@ -98,22 +98,22 @@
     "FLE:0:angry"
    ],
    "interacao": "discutir",
-   "detalhe": false,
+   "detalhe": true,
    "props": [
     [
      "kit/petri",
      0.0,
-     -1.2,
-     1.9,
+     1.4,
+     2.0,
      {
       "fixo": true
      }
     ],
     [
      "kit/gosma",
-     3.6,
-     -2.0,
-     0.9,
+     0.6,
+     1.0,
+     1.5,
      {
       "fixo": true
      }
@@ -140,7 +140,8 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_auto_vis": 3
   },
   {
    "say": "Ele ia jogar o prato fora, mas olhou melhor.",
@@ -160,9 +161,9 @@
     ],
     [
      "kit/gosma",
-     3.6,
-     -2.0,
-     0.9,
+     0.6,
+     1.0,
+     1.5,
      {
       "fixo": true
      }
@@ -189,7 +190,8 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "_auto_vis": 2
   },
   {
    "say": "Acontece que, em volta do mofo, as bactérias tinham sumido.",

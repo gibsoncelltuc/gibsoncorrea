@@ -24,9 +24,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - Ele construiu uma colmeia de vidro e pôs pratinhos com água e açúcar n...
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): FRI (variante 0, expressao suspicious); ASS (variante 0, expressao smile) | multidao: 12 de POV
+- Personagens principais (2): FRI (variante 0, expressao suspicious); ASS (variante 0, expressao smile)
 - Animacao: conversar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/beehive, kit/bee
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): agua, colmeia, jardim, vidro
@@ -43,31 +43,31 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Comida perto: voltinhas. Comida longe: um oito, rebolando no meio.
-- Cenario: loc_montanha | luz: day | clima: limpo
+- Cenario: loc_estudio | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): FRI (variante 0, expressao stern); COL (variante 0, expressao suspicious)
-- Animacao: discutir | interacao: discutir
+- Personagens principais (0): - | multidao: 0 de 
+- Animacao: -
 - Objetos/modelos: kit/beehive, kit/bee
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): oito
 - RISCOS: nenhum
 
 ## Cena b5 - E o mais incrível: o ângulo da rebolada mostrava a direção, comparada ...
-- Cenario: loc_montanha | luz: day | clima: limpo
-- Camera: low = camera baixa, dramatica (virada)
+- Cenario: loc_estudio | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (1): FRI (variante 0, expressao shock)
-- Animacao: reagir
+- Personagens principais (0): - | multidao: 0 de 
+- Animacao: -
 - Objetos/modelos: kit/beehive, kit/bee
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): angulo, direcao, rebolada
 - RISCOS: nenhum
 
 ## Cena b6 - Quanto mais rebolava, mais longe a comida. Era um mapa de dança!
-- Cenario: loc_montanha | luz: day | clima: limpo
+- Cenario: loc_estudio | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): FRI (variante 0, expressao laugh); ASS (variante 0, expressao grin)
-- Animacao: dancar | interacao: entregar
+- Personagens principais (0): - | multidao: 0 de 
+- Animacao: -
 - Objetos/modelos: kit/beehive, kit/bee
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comida, danca, mapa
 - RISCOS: nenhum
@@ -77,7 +77,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): COL (variante 0, expressao laugh); FRI (variante 0, expressao nervous, segura paper)
-- Animacao: discutir | interacao: o outro se aproxima
+- Animacao: discutir | interacao: discutir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): linguagem
 - RISCOS: nenhum
@@ -133,7 +133,7 @@ kit/bee | b0, b2, b3, b4, b5, b6, b8, b10 | pronto | conferir na folha de contat
 
 ## Video inteiro
 - Objeto heroi: kit/beehive | grandes momentos: b2, b8 | planos abertos: 3 | mistura: close 12% | medio 74% | aberto 10% | detalhe 4%
-- Interacoes: b0 avanca e o outro recua, b4 discutir, b6 entregar, b7 o outro se aproxima, b9 pular
+- Interacoes: b0 avanca e o outro recua, b7 discutir, b9 pular
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

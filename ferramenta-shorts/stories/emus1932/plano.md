@@ -5,7 +5,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | desert  | animais, placa: EXÉRCITO × EMUS | (rosto) sad (expr + som de efeito); perdeu (puff + som de baque) | -
 b1 | reveal | -  | animais, placa: 20.000 EMUS, mapa, objeto na mao | encena: chega (point) @10 (acao + som de efeito) | -
 b2 | two | -  | tropa, interior, objeto na mao | (rosto) pleading (expr + som de efeito) | -
-b3 | crowd | -  | batalha aberta com tiros, tropa, placa: 10.000 BALAS | encena: pega (lift) @3 (acao + som de efeito) | -
+b3 | wide | -  | batalha aberta com tiros, placa: 10.000 BALAS | encena: pega (lift) @3 (acao + som de efeito) | -
 b4 | wide | -  | tropa, animais | encena: atira @13 (acao + som de efeito); encena: atira @16 (acao + som de efeito) | -
 b5 | wide | -  | - | encena: pega (lift) @5 (acao + som de efeito) | -
 b6 | orbit | -  | tropa, animais, placa: 6 DIAS | - | -

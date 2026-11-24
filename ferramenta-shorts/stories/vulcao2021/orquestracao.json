@@ -54,12 +54,12 @@
    "cenario": "jungle"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
     "BUK",
     "ENA"
    ],
-   "multidao": 12,
+   "multidao": 0,
    "objetos": [
     "kit/bitcoin",
     "kit/coin"
@@ -165,7 +165,7 @@
    "personagens": [
     "BUK"
    ],
-   "multidao": 12,
+   "multidao": 0,
    "objetos": [
     "kit/bitcoin"
    ],

@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 14 - O Químico que Sonhou com uma Cobra
 
-Gerado em 24/11 23:36 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:43 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -14,7 +14,7 @@ b4 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/snake
 b5 | simples | interior madeira | low | KEK | - | snake_ring | - | Kekulé acordou num pulo. O benzeno não era uma corrente. Era um anel!
 b6 | simples | interior madeira | two | KEK | - | snake_ring | - | Passou o resto da noite desenhando o anel de seis carbonos. E a conta 
 b7 | simples | interior pedra | group | KEK, COL, ALU | - | snake_ring | - | Vinte e cinco anos depois, numa festa em Berlim, ele contou o sonho pe
-b8 | chave | street | crowd | COL | 6 | marco_viena, snake_ring | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Até hoje há quem duvide da história. Mas o anel do benzeno virou base 
+b8 | chave | street | wide | COL | 6 | marco_viena, snake_ring | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Até hoje há quem duvide da história. Mas o anel do benzeno virou base 
 b9 | simples | street | close | KEK | - | snake_ring | - | E ele deixou um conselho: aprendam a sonhar. Mas confiram tudo acordad
 b10 | simples | street | two | KEK | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 

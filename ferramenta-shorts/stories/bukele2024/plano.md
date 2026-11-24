@@ -4,7 +4,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | -  | placa: 84,6% | - | -
 b1 | two | -  | placa: NAYIB BUKELE, mapa | - | -
-b2 | crowd | -  | batalha aberta com tiros, tropa | chegou (dust + som de impacto); encena: chega (point) @1 (acao + som de efeito); encena: fala (point) @4 (acao + som de efeito) | -
+b2 | wide | -  | batalha aberta com tiros | chegou (dust + som de impacto); encena: chega (point) @1 (acao + som de efeito); encena: fala (point) @4 (acao + som de efeito) | -
 b3 | two | -  | interior, objeto na mao | encena: chega (point) @5 (acao + som de efeito) | -
 b4 | two | -  | objeto na mao | ilegal (ring + som de alerta); encena: duvida (shrug) @8 (acao + som de efeito); encena: x_defende (cross) @11 (acao + som de efeito) | -
 b5 | wide | -  | tropa | encena: voto (reach) @3 (acao + som de efeito); encena: voto (reach) @8 (acao + som de efeito) | -

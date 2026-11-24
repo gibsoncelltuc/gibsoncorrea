@@ -11,7 +11,7 @@ b5 | low | noite  | - | encena: prende (push) @9 (acao + som de efeito) | -
 b6 | two | -  | interior | - | -
 b7 | two | -  | - | - | -
 b8 | wide | -  | tropa, placa: MUNDO | encena: x_entrega (reach) @10 (acao + som de efeito) | -
-b9 | crowd | -  | batalha aberta com tiros, tropa | ganhou (stars + som de sino); encena: vence (up) @2 (acao + som de efeito) | -
+b9 | wide | -  | batalha aberta com tiros, tropa | ganhou (stars + som de sino); encena: vence (up) @2 (acao + som de efeito) | -
 b10 | close | -  | placa: COMENTE! | - | -
 
 Mistura de planos: close 22% | medio 55% | aberto 22% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)

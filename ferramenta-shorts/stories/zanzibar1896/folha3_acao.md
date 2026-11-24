@@ -32,7 +32,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | - | INTERACAO | o outro se aproxima | OK |
 | 6 | - | ATUACAO | conversar | OK |
 
-## Cena b3 - 14.7s a 18.2s - 13 palavras - plano crowd
+## Cena b3 - 14.7s a 18.2s - 13 palavras - plano wide
 > "Os ingleses deram um ultimato: sair do palácio até as nove da manhã."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
