@@ -64,3 +64,6 @@
 
 ## 24/11 17:26 autocorrecao de visibilidade
 - b5: ja corrigida 3 vezes, objeto "cannon" saiu com 8% da altura da tela, a ficha de cena planejou 18% -> fica para o olho
+
+## 24/11 19:12 autocorrecao de visibilidade
+- b4: personagem PONTINHO (maior: 4% da altura da tela; precisa de 6%+): camera longe demais dos personagens -> camera perto dos personagens (d 20.0) e objeto grande empurrado para o fundo (continua inteiro pela perspectiva)

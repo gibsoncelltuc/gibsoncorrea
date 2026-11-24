@@ -35,8 +35,10 @@
  "objetos_em_cena": [
   "buildings/barn",
   "buildings/house_small",
+  "crate",
   "kit/coin",
   "kit/room_colonial_wood",
+  "mgun",
   "mk/Bookcase_2",
   "mk/Chair_1",
   "mk/Chest_Wood",
@@ -44,8 +46,8 @@
   "nature/haybale",
   "nature/picket_fence",
   "nature/scarecrow",
-  "vehicles/truck",
-  "war/sandbags"
+  "vehicles/tank",
+  "vehicles/truck"
  ],
  "pesquisa_visual": {
   "local": "Distrito de Campion, cinturão de trigo do oeste da Austrália (Western Australia): plantações de trigo e terra seca com mato baixo",

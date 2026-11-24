@@ -4,9 +4,10 @@ b0: OK - uma guerra inteira teve um unico tiro e ele acertou uma chaleira de sop
 b1: OK - foi em mil setecentos e oitenta e quatro e a Holanda mantinha o rio Escalda fechado: fragata a vela no porto com o mapa da HOLANDA.
 b2: OK - o imperador Jose Segundo da Austria queria o rio aberto para os navios de Antuerpia: imperador de coroa e general na sala de pedra.
 b3: CORRIGIDO - convencido de que os holandeses nao reagiriam ele mandou tres navios descerem o rio: antes sala fechada sem navio; agora rio com fragatas a vela vistas de longe, mas aparece um navio de cada vez e nao tres lado a lado no quadro.
-b4: CORRIGIDO - o maior levava a bandeira do imperador e seguia na frente: palacio parecia praia com navio na areia; agora porto com a fragata grande de bandeira vermelha e o texto 3 NAVIOS.
+b4: CORRIGIDO - o maior levava a bandeira do imperador e seguia na frente: antes palacio parecia praia; agora imperador no cais com a bandeira vermelha e branca grande e a fragata atras com o texto 3 NAVIOS.
 b5: CORRIGIDO - o navio de guerra holandes Dolfijn estava esperando e disparou um unico tiro: antes canhao tampando a tela; agora fragata holandesa grande no porto com o canhao pequeno e marinheiros no cais.
-b6: CORRIGIDO - a bala acertou e destruiu uma chaleira de sopa no convés do navio do imperador: imperador e cozinheiro numa sala de madeira com a chaleira laranja ao lado, mas a chaleira nao some do quadro.
+b6: CORRIGIDO - a bala acertou e destruiu uma chaleira de sopa no convés do navio do imperador: antes chaleira escondida atras do cozinheiro; agora a chaleira laranja grande na frente entre o imperador e o cozinheiro, com o impacto programado na palavra destruiu.
 b7: CORRIGIDO - o navio austriaco se rendeu na hora sem trocar nem um tiro a mais: antes soldado sozinho num patio vazio; agora oficial com a bandeira branca e vermelha no cais com a fragata atras.
 b8: OK - depois a Franca mediou a paz e a Holanda pagou uma indenizacao: imperador e marinheiro holandes com dinheiro numa sala de pedra de dia.
 b9: CORRIGIDO - o unico prejuizo do dia foi o almoco: antes patio de concreto; agora cozinha de madeira com a chaleira laranja grande e o cozinheiro triste, depois COMENTE.
+

@@ -108,6 +108,14 @@
    ]
   },
   {
+   "tipo": "heroi",
+   "item": "mgun",
+   "consultas": [
+    "metralhadora Lewis",
+    "A Guerra dos Emus"
+   ]
+  },
+  {
    "tipo": "epoca",
    "item": "caminhao da epoca",
    "consultas": [

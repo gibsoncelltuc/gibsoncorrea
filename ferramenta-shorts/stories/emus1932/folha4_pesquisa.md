@@ -4,11 +4,11 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 - Historia: A Guerra dos Emus
 - Epoca: 1932 | Lugar: Distrito de Campion, cinturão de trigo do oeste da Austrália (Western Australia): plantações de trigo e terra seca com mato baixo | Quando: 2 de novembro a 10 de dezembro de 1932, início do verão seco
-- HEROIS (objeto): -
-- HEROIS (personagens): AUS, FARM, SOL, PRESS
+- HEROIS (objeto): mgun
+- HEROIS (personagens): SOL, FARM, AUS
 - Cenarios: countryside, interior madeira, loc_campo, loc_deserto, outback
 - Proibido pela epoca: canhao antigo, caravela, carro dos anos 50, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra, veiculo moderno
-- Tamanho real aplicado: nenhum objeto precisou de ajuste
+- Tamanho real aplicado: vehicles/tank: 7.0 m reais -> escala 1.52 (estava 1.0: pequeno demais)
 
 ## Itens pesquisados
 
@@ -27,6 +27,7 @@ objeto | metralhadora Lewis | metralhadora Lewis / metralhadora Lewis 1932 | Lew
 objeto | caminhão da época | caminhão da época / caminhão da época 1932 | Parte Superior do Catetinho.JPG (referencias/emus1932/prints/caminh_o_da_poca_cbbdf1.jpg); Parte Superior do Catetinho.JPG (referencias/emus1932/prints/caminh_o_da_poca_cbbdf1.jpg); Palácio do Catetinho.JPG (referencias/emus1932/prints/caminh_o_da_poca_a408a4.jpg)
 objeto | emus | emus / emus 1932 | Emu 1 - Tidbinbilla.jpg (referencias/emus1932/prints/emus_e2789e.jpg); Dromaius novaehollandiae, Port Campbell National P (referencias/emus1932/prints/emus_f31fea.jpg)
 objeto | sacos de trigo | sacos de trigo / sacos de trigo 1932 | Aegilops triuncialis sl7.jpg (referencias/emus1932/prints/sacos_de_trigo_585fa6.jpg); Aegilops triuncialis - Distribuzione.png (referencias/emus1932/prints/sacos_de_trigo_71c948.jpg); Aegilops triuncialis kz03.jpg (referencias/emus1932/prints/sacos_de_trigo_fd720a.jpg)
+heroi | mgun | metralhadora Lewis / A Guerra dos Emus | SEM REFERENCIA
 epoca | caminhao da epoca | truck 1932 / truck | 1932 Ford Model BB Tow Truck 2.jpg (referencias/emus1932/prints/caminhao_da_epoca_ab29f0.jpg); 1932 International A2 Truck (29577800867).jpg (referencias/emus1932/prints/caminhao_da_epoca_dda08d.jpg)
 epoca | tanque da epoca | tank 1932 / tank | BT - 5.jpg (referencias/emus1932/prints/tanque_da_epoca_4d75de.jpg); Seagull III on HMAS Australia 1932 AWM 305424.jpeg (referencias/emus1932/prints/tanque_da_epoca_bbae8c.jpg); Visite de l'émir Fayçal au camp de Satory 1932 - 0 (referencias/emus1932/prints/tanque_da_epoca_a859aa.jpg)
 epoca | soldado da epoca | soldier uniform 1932 / soldier uniform | Infanterie. FRENCH INFANTRY UNIFORMS Warriors sold (referencias/emus1932/prints/soldado_da_epoca_5ff803.jpg); Artillerie couleurs ARTILLERY Cannons guns French  (referencias/emus1932/prints/soldado_da_epoca_38a8c2.jpg)

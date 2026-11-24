@@ -65,12 +65,13 @@
   {
    "camera": "two",
    "personagens": [
-    "AUS",
-    "AUS"
+    "SOL",
+    "SOL"
    ],
    "multidao": 0,
    "objetos": [
-    "war/sandbags"
+    "crate",
+    "mgun"
    ],
    "palavras": 10,
    "cena": "b3",
@@ -84,9 +85,9 @@
   {
    "camera": "crowd",
    "personagens": [
-    "AUS"
+    "SOL"
    ],
-   "multidao": 14,
+   "multidao": 5,
    "objetos": [],
    "palavras": 17,
    "cena": "b4",
@@ -106,10 +107,11 @@
   {
    "camera": "wide",
    "personagens": [
-    "AUS"
+    "SOL"
    ],
    "multidao": 0,
    "objetos": [
+    "mgun",
     "vehicles/truck"
    ],
    "palavras": 15,
@@ -145,14 +147,15 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "track",
+   "camera": "group",
    "personagens": [
-    "AUS",
-    "PRESS",
+    "SOL",
     "PRESS"
    ],
-   "multidao": 12,
-   "objetos": [],
+   "multidao": 5,
+   "objetos": [
+    "vehicles/tank"
+   ],
    "palavras": 16,
    "cena": "b7",
    "frase": "O major comparou os pássaros a tanques, a imprensa riu, e o governo retirou as tropas.",
@@ -180,12 +183,12 @@
    "cenario": "loc_deserto"
   },
   {
-   "camera": "group",
+   "camera": "crowd",
    "personagens": [
     "FARM",
     "FARM"
    ],
-   "multidao": 0,
+   "multidao": 5,
    "objetos": [],
    "palavras": 21,
    "cena": "b9",

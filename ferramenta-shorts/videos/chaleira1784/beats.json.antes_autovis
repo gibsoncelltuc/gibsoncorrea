@@ -129,20 +129,20 @@
    "props": [
     [
      "kit/navio_fragata",
-     -30,
-     -44,
+     -34,
+     -46,
      1.0
     ],
     [
      "kit/navio_fragata",
-     -4,
+     0,
      -50,
      1.0
     ],
     [
      "kit/navio_fragata",
-     22,
-     -44,
+     34,
+     -46,
      1.0
     ]
    ],
@@ -151,11 +151,11 @@
     "n": 0
    },
    "detalhe": false,
-   "cx": -2,
-   "cz": -24,
-   "h": 6,
-   "d0": 30,
-   "d1": 27,
+   "cx": 0,
+   "cz": -46,
+   "h": 14,
+   "d0": 74,
+   "d1": 66,
    "quadro_manual": true,
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
@@ -226,7 +226,7 @@
    "d1": 97.4
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "MAR:0:stern",
     "MAR:1:angry"
@@ -238,29 +238,30 @@
    "props": [
     [
      "cannon",
-     0.6,
-     1.0,
-     2.2
+     -1.5,
+     -10.0,
+     2.4
     ],
     [
      "kit/navio_fragata",
-     12,
-     -32,
+     8,
+     -46,
      1.0
     ]
    ],
    "fx": [
-    "burst@60"
+    "burst@105",
+    "puff@110"
    ],
    "sfx": [
-    "cannon@60"
+    "cannon@105"
    ],
    "say": "Acontece que o navio de guerra holandês Dolfijn estava esperando, e disparou um único tiro.",
    "fachada": false,
-   "detalhe": false,
+   "detalhe": true,
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o navio_fragata (alvo z -8.2, camera a 97.5 m, altura 6.0 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -8.2, camera a 97.5 m, altura 6.0 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/navio_fragata",
@@ -277,14 +278,14 @@
     ]
    },
    "tiros": false,
-   "cx": 0.0,
-   "cz": -8.2,
+   "cx": 0,
+   "cz": -22,
    "h": 6.0,
-   "d0": 123.4,
-   "d1": 117.5,
+   "d0": 46,
+   "d1": 40,
    "quadro_manual": true,
-   "impact": true,
-   "_auto_vis": 2
+   "impact": false,
+   "_auto_vis": 3
   },
   {
    "shot": "two",
@@ -296,41 +297,34 @@
     [
      "kit/kettle",
      0.0,
-     -1.2,
-     1.2,
+     1.0,
+     1.4,
      {
       "fixo": true
      }
     ]
    ],
    "fx": [
-    "burst@20",
-    "puff@26"
+    "burst@50",
+    "puff@55"
    ],
    "sfx": [
-    "thump@20",
-    "ding@24"
+    "thump@55",
+    "ding@58"
    ],
    "say": "A bala acertou e destruiu uma chaleira de sopa no convés do navio do imperador.",
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kettle juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/kettle",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "detalhe": false,
-   "set": "harbor",
    "impact": true,
+   "batalha": false,
+   "tiros": false,
+   "fachada": false,
+   "quadro_manual": true,
    "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "cz": 0.0,
+   "d0": 9.5,
+   "d1": 8.5,
+   "_auto_vis": 0,
+   "interior": "madeira"
   },
   {
    "shot": "wide",
@@ -338,10 +332,41 @@
     "GEN:0:scared:flag"
    ],
    "say": "O navio austríaco se rendeu na hora, sem trocar nem um tiro a mais.",
-   "props": [],
+   "props": [
+    [
+     "kit/navio_fragata",
+     0.0,
+     -18.2,
+     7.06,
+     {
+      "fixo": true
+     }
+    ]
+   ],
    "detalhe": false,
-   "_auto_vis": 3,
-   "set": "loc_patio"
+   "set": "harbor",
+   "impact": true,
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -8.2, camera a 97.4 m, altura 6.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/navio_fragata",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -8.2,
+   "h": 6.0,
+   "d0": 102.3,
+   "d1": 97.4
   },
   {
    "shot": "two",
@@ -355,7 +380,7 @@
    "light": "day"
   },
   {
-   "shot": "close",
+   "shot": "two",
    "who": [
     "COZ:0:sad"
    ],
@@ -372,8 +397,8 @@
    ],
    "say": "O único prejuízo do dia foi o almoço.",
    "quadro": {
-    "local": "loc_patio",
-    "camera": "close (rosto e ombros); plano medio enquadrando personagens e kettle juntos (camera a 8.0 m)",
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kettle juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/kettle",
@@ -383,7 +408,8 @@
      }
     ]
    },
-   "set": "loc_patio",
+   "interior": "madeira",
+   "detalhe": true,
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
@@ -451,5 +477,6 @@
    "kettle": "gravura de 1784 do Rijksmuseum (RP-P-OB-85.344): escuna holandesa Dolfijn atirando no brigue imperial Le Louis, ambos a vela, no Escalda, perto de Lillo (https://en.wikipedia.org/wiki/Kettle_War); roupas e objetos seguem a pesquisa escrita (Kettle War, Wikipedia): bandeira do imperador do Sacro Império, casacas claras austríacas, casacas laranja holandesas, chaleira de ferro de sopa"
   }
  },
- "marco": false
+ "marco": false,
+ "max_wide": 5
 }

@@ -41,9 +41,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 ## Cena b4  (~5.9 s)
 - Narracao: Acontece que os emus se dividiram em grupos pequenos e rápidos, e as balas acertavam só poeira.
 - Som ambiente: birds
-- Efeitos sonoros marcados: thump@40, thump@75
+- Efeitos sonoros marcados: thump@20, thump@40, thump@60
 - Efeito + som nas palavras-chave: encena: x_entrega (reach) @5 -> acao + som de efeito; encena: atira @13 -> acao + som de efeito
-- Efeito visual marcado: burst@40, burst@75
+- Efeito visual marcado: dust@20, dust@40, dust@60, puff@30
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 - Narracao: Numa tentativa, uma metralhadora foi instalada num caminhão, mas ele sacudia tanto que ninguém atirava.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: metralhadora -> burst + som de tiro/explosao; encena: atira @3 -> acao + som de efeito; encena: pega (lift) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: atira @3 -> acao + som de efeito; encena: pega (lift) @5 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
