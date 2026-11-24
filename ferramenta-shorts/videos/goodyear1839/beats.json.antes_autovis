@@ -1,0 +1,511 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Curiosidade e Ciência",
+ "ep": 17,
+ "title": "A Borracha que Caiu no Fogão",
+ "titulo_base": "A Borracha que Caiu no Fogão",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/borracha",
+ "outfits": {
+  "GOO": {
+   "jacket": "#3a3a44",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "tophat",
+   "cap": "#1b1b1f",
+   "beard": "#6a5a4a",
+   "hair": "#6a5a4a",
+   "tie": "#2a2a30"
+  },
+  "CLA": {
+   "jacket": "#7a3a5a",
+   "pants": "#3a2a3a",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#4a3022",
+   "hairStyle": "bun"
+  },
+  "COB": {
+   "profissao": "empresario"
+  },
+  "GUA": {
+   "profissao": "soldado",
+   "hat": "cap"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "straw",
+    "bowler",
+    "hair"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "GOO:0:shock",
+    "CLA:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/stove",
+     0.6,
+     1.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "1839",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "Um inventor falido deixou cair uma gosma no fogão da cozinha. E mudou o mundo para sempre.",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e stove juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/stove",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 2
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin"
+   ],
+   "mapa": "ESTADOS UNIDOS",
+   "mapa_at": 3,
+   "say": "Era mil oitocentos e trinta e nove, nos Estados Unidos."
+  },
+  {
+   "shot": "two",
+   "light": "desert",
+   "who": [
+    "GOO:0:sad",
+    "POV:0:angry"
+   ],
+   "acao": "discutir",
+   "say": "A borracha estava na moda, mas derretia no calor e rachava no frio. Botas e capas de borracha viravam uma meleca no verão."
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "GOO:0:stern:paper",
+    "CLA:0:worried"
+   ],
+   "fx": [
+    "puff@40"
+   ],
+   "sfx": [
+    "thump@40"
+   ],
+   "say": "Charles Goodyear ficou obcecado e gastou todo o dinheiro da família em experiências, fazendo testes até na cozinha de casa."
+  },
+  {
+   "shot": "two",
+   "interior": "pedra",
+   "who": [
+    "GUA:0:stern",
+    "GOO:0:sad"
+   ],
+   "interacao": "empurrar",
+   "say": "Fez tantas dívidas que foi parar na prisão."
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "GOO:0:grin",
+    "CLA:0:suspicious"
+   ],
+   "props": [
+    [
+     "kit/stove",
+     0.6,
+     1.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "say": "Até que um dia, mexendo numa mistura de borracha com enxofre, ele se atrapalhou.",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e stove juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/stove",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 2
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "GOO:0:shock"
+   ],
+   "props": [
+    [
+     "kit/stove",
+     0.0,
+     1.4,
+     2.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/borracha",
+     0.6,
+     1.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "puff@20",
+    "ring@40"
+   ],
+   "sfx": [
+    "thump@20",
+    "sting@40"
+   ],
+   "say": "A gosma caiu em cima do fogão quente. Ele esperava que derretesse.",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e borracha juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/borracha",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/stove",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_auto_vis": 3,
+   "detalhe": true
+  },
+  {
+   "shot": "low",
+   "interior": "madeira",
+   "who": [
+    "GOO:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/stove",
+     1.6,
+     -1.0,
+     1.2,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/borracha",
+     0.0,
+     1.4,
+     2.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@20"
+   ],
+   "sfx": [
+    "ding@20"
+   ],
+   "say": "Acontece que não derreteu. Ficou firme e elástica, como couro. Tinha nascido a borracha vulcanizada.",
+   "acao": "comemorar",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "camera baixa olhando para cima; plano medio enquadrando personagens e borracha juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/borracha",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/stove",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_auto_vis": 3,
+   "detalhe": true
+  },
+  {
+   "shot": "two",
+   "who": [
+    "COB:0:smug",
+    "GOO:0:angry"
+   ],
+   "acao": "discutir",
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "say": "Mas outros copiaram a ideia, e ele morreu cheio de dívidas.",
+   "set": "hall"
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "POV:0:laugh",
+    "POV:1:grin",
+    "CLA:0:smile"
+   ],
+   "batalha": false,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "props": [
+    [
+     "kit/tires",
+     1.6,
+     -1.0,
+     1.4,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/ball",
+     -1.6,
+     0.8,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/stove",
+     0.6,
+     1.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/borracha",
+     0.0,
+     1.4,
+     2.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "PNEUS",
+   "titulo": true,
+   "say": "Décadas depois, a borracha dele estava em pneus, bolas e sapatos do mundo inteiro.",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano de multidao; plano medio enquadrando personagens e borracha juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/borracha",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/tires",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/ball",
+      "lugar": "FRENTE, esquerda",
+      "tela": "12% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/stove",
+      "lugar": "MEIO, esquerda",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 3,
+   "detalhe": true
+  },
+  {
+   "shot": "two",
+   "who": [
+    "GOO:0:smile"
+   ],
+   "props": [
+    [
+     "kit/stove",
+     0.0,
+     1.4,
+     2.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/tires",
+     0.6,
+     1.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "GOODYEAR",
+   "say": "Uma fábrica de pneus ganhou o nome dele. Ele nunca soube.",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e stove juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/stove",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/tires",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_auto_vis": 3,
+   "detalhe": true
+  }
+ ],
+ "visual": {
+  "local": "Woburn (Massachusetts, EUA): cozinha de casa simples com fogao de ferro; prisao de devedores; tribunais; fabricas de pneus depois",
+  "quando": "inverno de 1839 (a gosma no fogao quente); morreu em 1860 cheio de dividas",
+  "participantes": [
+   "Charles Goodyear, inventor falido",
+   "Clarissa, a esposa",
+   "credores e guardas da prisao de devedores",
+   "concorrentes que copiaram a ideia"
+  ],
+  "roupas": {
+   "GOO": "sobrecasaca escura, colete, cartola (anos 1830)",
+   "CLA": "vestido longo e coque",
+   "GUA": "guarda de prisao com bone de servico",
+   "COB": "cobrador de terno",
+   "POV": "povo dos anos 1830"
+  },
+  "cenario": "cozinha com fogao de ferro a lenha e panelas, cela de pedra, sala de tribunal, rua de vila americana",
+  "objetos": [
+   "borracha crua (gosma)",
+   "enxofre",
+   "fogao de ferro quente",
+   "panelas",
+   "pneus e bolas de borracha"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Charles_Goodyear",
+   "https://en.wikipedia.org/wiki/Vulcanization"
+  ],
+  "buscas": {
+   "A Borracha que Caiu no Fogão": "Charles Goodyear vulcanization",
+   "credores e guardas da prisao de devedores": "debtors prison interior engraving",
+   "concorrentes que copiaram a ideia": "Goodyear India rubber patent",
+   "borracha crua (gosma)": "natural rubber latex raw",
+   "fogao de ferro quente": "antique cast iron cook stove",
+   "pneus e bolas de borracha": "vulcanized rubber ball antique",
+   "borracha": "natural rubber",
+   "panelas": "19th century iron cooking pot",
+   "Clarissa, a esposa": "1830s woman dress portrait",
+   "Estados Unidos": "New England village 1830s",
+   "Woburn (Massachusetts, EUA): cozinha de casa simples com fogao de ferro; prisao de devedores; tribunais; fabricas de pneus depois": "Woburn Massachusetts 19th century",
+   "stove": "antique cast iron cook stove"
+  }
+ }
+}

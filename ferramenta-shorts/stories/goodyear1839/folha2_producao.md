@@ -4,8 +4,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Um inventor falido deixou cair uma gosma no fogão da cozinha. E mudou ...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): GOO (variante 0, expressao shock); CLA (variante 0, expressao surprised)
 - Animacao: reagir | interacao: avanca e o outro recua
 - Objetos/modelos: kit/stove
@@ -54,8 +54,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Até que um dia, mexendo numa mistura de borracha com enxofre, ele se a...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): GOO (variante 0, expressao grin); CLA (variante 0, expressao suspicious)
 - Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/stove
@@ -64,8 +64,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - A gosma caiu em cima do fogão quente. Ele esperava que derretesse.
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): GOO (variante 0, expressao shock)
 - Animacao: reagir
 - Objetos/modelos: kit/stove, kit/borracha
@@ -94,8 +94,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Décadas depois, a borracha dele estava em pneus, bolas e sapatos do mu...
 - Cenario: street | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (3): POV (variante 0, expressao laugh); POV (variante 1, expressao grin); CLA (variante 0, expressao smile) | multidao: 18 de POV
 - Animacao: comemorar | interacao: pular
 - Objetos/modelos: kit/tires, kit/ball, kit/stove, kit/borracha
@@ -134,7 +134,7 @@ kit/ball | b9 | pronto | conferir na folha de contato se le bem; se parecer caix
 
 
 ## Video inteiro
-- Objeto heroi: kit/borracha | grandes momentos: b2, b8 | planos abertos: 3 | mistura: close 12% | medio 76% | aberto 10% | detalhe 2%
+- Objeto heroi: kit/borracha | grandes momentos: b2, b8 | planos abertos: 3 | mistura: close 12% | medio 72% | aberto 10% | detalhe 6%
 - Interacoes: b0 avanca e o outro recua, b3 o outro se aproxima, b4 empurrar, b5 insiste, b9 pular
 - RISCOS GERAIS: nenhum
 
