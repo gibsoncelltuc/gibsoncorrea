@@ -8,7 +8,7 @@
 - Cenario real: laboratorio com bancadas e frascos, igreja com bancos e hinarios, loja com prateleiras, rua de cidade americana
 - Objetos: ['bloquinho amarelo de post-it', 'hinario com marcadores caindo', 'frascos de cola', 'amostras gratis']
 - Cenarios usados no video: countryside, interior loja, interior madeira, interior pedra, street
-- PROIBIDO pela epoca (a ferramenta bloqueia): barril, caixote de madeira, canhao antigo, carro antigo, carroca, castical, escudo, lampiao, navio a vapor, navio a vela, tambor de guerra
+- PROIBIDO pela epoca (a ferramenta bloqueia): barril, caixote de madeira, canhao antigo, caravela, carro antigo, carroca, castical, encouracado, escudo, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Proibido pelo roteiro: -
 
 ## Explicacoes (ciencia)

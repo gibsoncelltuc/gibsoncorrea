@@ -10,6 +10,18 @@
  },
  "cenas": [
   {
+   "camera": "two",
+   "personagens": [
+    "MER",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/windmill",
+    "kit/tulip_bed",
+    "kit/tulip_red"
+   ],
+   "palavras": 11,
    "cena": "b0",
    "frase": "Uma única flor já custou o preço de uma casa inteira.",
    "classe": "simples",
@@ -19,6 +31,19 @@
    "cenario": "interior madeira"
   },
   {
+   "camera": "reveal",
+   "personagens": [
+    "POV",
+    "RIC"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "buildings/windmill",
+    "kit/marco_amsterdam",
+    "kit/tulip_bed",
+    "kit/tulip_red"
+   ],
+   "palavras": 17,
    "cena": "b1",
    "frase": "Era a Holanda, e a tulipa tinha acabado de chegar do Oriente. Colorida, rara, e na moda.",
    "classe": "simples",
@@ -28,6 +53,17 @@
    "cenario": "countryside"
   },
   {
+   "camera": "two",
+   "personagens": [
+    "RIC",
+    "RIC"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/coin",
+    "kit/tulip_striped"
+   ],
+   "palavras": 22,
    "cena": "b2",
    "frase": "Os ricos queriam as mais raras. Num leilão, um oferecia mil moedas por um bulbo, e outro gritava que pagava duas mil.",
    "classe": "simples",
@@ -37,6 +73,18 @@
    "cenario": "interior madeira"
   },
   {
+   "camera": "crowd",
+   "personagens": [
+    "POV",
+    "POV",
+    "MER"
+   ],
+   "multidao": 20,
+   "objetos": [
+    "kit/marco_amsterdam",
+    "kit/tulip_bed"
+   ],
+   "palavras": 14,
    "cena": "b3",
    "frase": "Logo, o país inteiro estava comprando. Padeiros, sapateiros, gente que nunca tinha plantado nada.",
    "classe": "chave",
@@ -52,6 +100,18 @@
    "cenario": "countryside"
   },
   {
+   "camera": "two",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_amsterdam",
+    "kit/tulip_purple",
+    "kit/tulip_yellow"
+   ],
+   "palavras": 18,
    "cena": "b4",
    "frase": "Ninguém queria a flor de verdade. Queriam vender o papel mais caro na semana seguinte, e ficar ricos.",
    "classe": "simples",
@@ -61,6 +121,16 @@
    "cenario": "countryside"
   },
   {
+   "camera": "two",
+   "personagens": [
+    "MAR",
+    "MER"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/tulip_red"
+   ],
+   "palavras": 16,
    "cena": "b5",
    "frase": "Contam que um marinheiro comeu um bulbo no almoço, achando que era cebola. Valia uma fortuna.",
    "classe": "simples",
@@ -70,6 +140,18 @@
    "cenario": "interior madeira"
   },
   {
+   "camera": "group",
+   "personagens": [
+    "MER",
+    "POV",
+    "POV",
+    "RIC"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/stall"
+   ],
+   "palavras": 16,
    "cena": "b6",
    "frase": "Acontece que, num leilão de fevereiro, o vendedor abriu os lances, e ninguém levantou a mão.",
    "classe": "simples",
@@ -79,6 +161,17 @@
    "cenario": "interior loja"
   },
   {
+   "camera": "orbit",
+   "personagens": [
+    "POV",
+    "RIC"
+   ],
+   "multidao": 30,
+   "objetos": [
+    "kit/marco_amsterdam",
+    "kit/tulip_bed"
+   ],
+   "palavras": 15,
    "cena": "b7",
    "frase": "A notícia correu. Em poucos dias, todo mundo quis vender, e não havia mais comprador.",
    "classe": "chave",
@@ -94,6 +187,17 @@
    "cenario": "street"
   },
   {
+   "camera": "two",
+   "personagens": [
+    "RIC",
+    "MER"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/tulip_bed",
+    "kit/tulip_red"
+   ],
+   "palavras": 18,
    "cena": "b8",
    "frase": "Os preços desabaram. Quem tinha trocado a casa por flores ficou só com as flores, e as dívidas.",
    "classe": "simples",
@@ -103,6 +207,15 @@
    "cenario": "interior madeira"
   },
   {
+   "camera": "close",
+   "personagens": [
+    "MAR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_amsterdam"
+   ],
+   "palavras": 6,
    "cena": "b9",
    "frase": "O marinheiro, pelo menos, almoçou bem.",
    "classe": "simples",
@@ -112,6 +225,15 @@
    "cenario": "street"
   },
   {
+   "camera": "close",
+   "personagens": [
+    "MER"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_amsterdam"
+   ],
+   "palavras": 13,
    "cena": "b10",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",

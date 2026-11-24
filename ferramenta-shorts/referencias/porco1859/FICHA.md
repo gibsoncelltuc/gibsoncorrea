@@ -8,7 +8,7 @@
 - Cenario real: horta de batatas cercada, fazenda de colonos, pinheiros, praia com navios de guerra a vela/vapor, acampamentos dos dois exercitos
 - Objetos: ['batatas da horta', 'espingarda', 'notas de dolar', 'navios de guerra', 'canhoes']
 - Cenarios usados no video: countryside, harbor, interior madeira, interior pedra, loc_campo
-- PROIBIDO pela epoca (a ferramenta bloqueia): carro antigo, carro dos anos 50, escudo, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
+- PROIBIDO pela epoca (a ferramenta bloqueia): caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Proibido pelo roteiro: -
 
 ## Explicacoes (ciencia)

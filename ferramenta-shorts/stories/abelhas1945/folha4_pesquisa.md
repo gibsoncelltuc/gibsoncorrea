@@ -7,7 +7,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (objeto): kit/beehive, kit/bee
 - HEROIS (personagens): FRI, COL
 - Cenarios: interior madeira, interior pedra, loc_campo, loc_montanha
-- Proibido pela epoca: canhao antigo, carro antigo, carroca, castical, escudo, lampiao, navio a vela, objeto moderno, tambor de guerra
+- Proibido pela epoca: canhao antigo, caravela, carro antigo, carroca, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
 ## Itens pesquisados

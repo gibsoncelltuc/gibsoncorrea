@@ -11,13 +11,13 @@ b3 | arctic | group | 3 | conversar, INTERAGEM: tremem de frio | horse | - | -
 b4 | interior pedra | close | 1 | conversar | horse | - | -
 b5 | arctic | crowd | 2 | encena, andando, batalha | horse | - | -
 b6 | harbor | reveal | 2 | reagir | kit/marco_amsterdam, navios de guerra ao fundo, no tamanho real, navio em movimento | - | -
-b7 | arctic | crowd | 2 | batalha | ship, horse | - | -
+b7 | arctic | group | 2 | conversar, INTERAGEM: aproxima-se | ship, horse | - | -
 b8 | interior madeira | close | 1 | conversar | - | - | -
 b9 | interior madeira | two | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/navio_vela
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b5, b7
-Interacoes entre personagens: b3 tremem de frio
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 1  << AVISO: menos de 2 -> b5
+Interacoes entre personagens: b3 tremem de frio, b7 aproxima-se
 
 Cenas com personagens parados: 0 de 10
 FALTA MODELAR: nada

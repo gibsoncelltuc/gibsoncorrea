@@ -8,7 +8,7 @@
 - Cenario real: acampamento noturno a beira do rio, fogueiras e lanternas, barris de schnapps; canhoes de campanha de 1788
 - Objetos: ['barril de schnapps (aguardente)', 'canecas e garrafas', 'lanternas', 'mosquetes de pederneira', 'canhoes de campanha']
 - Cenarios usados no video: countryside
-- PROIBIDO pela epoca (a ferramenta bloqueia): carro antigo, carro dos anos 50, escudo, navio a vapor, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
+- PROIBIDO pela epoca (a ferramenta bloqueia): caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Proibido pelo roteiro: -
 
 ## Explicacoes (ciencia)

@@ -7,7 +7,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (objeto): kit/curie_box
 - HEROIS (personagens): MAR, PES
 - Cenarios: interior madeira, interior pedra, loc_campo, loc_montanha
-- Proibido pela epoca: carro dos anos 50, escudo, objeto moderno, predio de apartamentos, torre de refletor, veiculo moderno
+- Proibido pela epoca: caravela, carro dos anos 50, escudo, fragata a vela, galera a remo, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
 ## Itens pesquisados

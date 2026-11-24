@@ -13,12 +13,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b1  (~4.5 s)
 - Narracao: Foi na ilha de San Juan, entre os Estados Unidos e o Canadá.
-- Som ambiente: birds | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: sting@10, thump@40
+- Som ambiente: birds
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: ring@12, dust@40
+- Efeito visual marcado: -
 - Texto na tela: 1859 | mapa: ILHA DE SAN JUAN
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b2  (~4.8 s)
 - Narracao: Um fazendeiro americano achou o porco comendo suas batatas, pegou a espingarda e atirou.
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Os Estados Unidos mandaram soldados, e a Inglaterra respondeu com navios de guerra e canhões.
 - Som ambiente: sea
 - Efeitos sonoros marcados: sting@10, thump@40
-- Efeito + som nas palavras-chave: canhões -> burst + som de tiro/explosao; encena: fala (point) @3 -> acao + som de efeito; encena: fala (point) @8 -> acao + som de efeito; encena: atira @14 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @3 -> acao + som de efeito; encena: fala (point) @8 -> acao + som de efeito; encena: atira @14 -> acao + som de efeito
 - Efeito visual marcado: dust@40
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

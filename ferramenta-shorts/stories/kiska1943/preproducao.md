@@ -6,8 +6,8 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | harbor | two | 0 | conversar | ship, kit/marco_alpes | - | -
 b1 | mountain | reveal | 11 | parados (so fala e pisca) | vehicles/airplane, kit/navio_vapor, kit/marco_alpes | - | -
-b2 | arctic | group | 11 | conversar, batalha | kit/canhao_moderno | - | -
-b3 | mountain | orbit | 21 | encena, andando, batalha | kit/marco_alpes | - | -
+b2 | arctic | group | 41 | conversar, batalha | kit/canhao_moderno | - | -
+b3 | mountain | orbit | 51 | encena, andando, batalha | kit/marco_alpes | - | -
 b4 | mountain | two | 2 | reagir, INTERAGEM: susto | kit/marco_alpes | - | -
 b5 | harbor | orbit | 11 | encena | ship, kit/marco_alpes, nature/picket_fence, navios de guerra ao fundo, no tamanho real | - | -
 b6 | mountain | group | 3 | reagir, INTERAGEM: aproxima-se | kit/marco_alpes | - | -

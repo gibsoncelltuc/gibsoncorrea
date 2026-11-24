@@ -21,6 +21,17 @@
  },
  "cenas": [
   {
+   "camera": "two",
+   "personagens": [
+    "PES",
+    "JOR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/curie_box",
+    "kit/marco_eiffel"
+   ],
+   "palavras": 18,
    "cena": "b0",
    "frase": "Existem cadernos tão perigosos que só podem ser lidos com roupa de proteção. E são de uma cientista.",
    "classe": "simples",
@@ -30,6 +41,16 @@
    "cenario": "loc_campo"
   },
   {
+   "camera": "reveal",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/marco_eiffel"
+   ],
+   "palavras": 11,
    "cena": "b1",
    "frase": "Era mil oitocentos e noventa e oito, em Paris, na França.",
    "classe": "transicao",
@@ -39,6 +60,14 @@
    "cenario": "loc_campo"
   },
   {
+   "camera": "two",
+   "personagens": [
+    "MAR",
+    "PIE"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 15,
    "cena": "b2",
    "frase": "Marie Curie, uma polonesa genial, trabalhava com o marido Pierre num galpão velho e gelado.",
    "classe": "simples",
@@ -48,6 +77,16 @@
    "cenario": "interior madeira"
   },
   {
+   "camera": "group",
+   "personagens": [
+    "MAR",
+    "PIE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/curie_box"
+   ],
+   "palavras": 15,
    "cena": "b3",
    "frase": "Mexendo em toneladas de minério, eles descobriram dois elementos novos: o polônio e o rádio.",
    "classe": "simples",
@@ -57,6 +96,15 @@
    "cenario": "interior madeira"
   },
   {
+   "camera": "close",
+   "personagens": [
+    "MAR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/curie_box"
+   ],
+   "palavras": 16,
    "cena": "b4",
    "frase": "O rádio brilhava no escuro, com uma luz esverdeada. Marie adorava olhar os frascos à noite.",
    "classe": "simples",
@@ -66,6 +114,14 @@
    "cenario": "interior madeira"
   },
   {
+   "camera": "two",
+   "personagens": [
+    "MAR",
+    "PIE"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 16,
    "cena": "b5",
    "frase": "Ela carregava os frascos no bolso, e guardava na gaveta da mesa. Ninguém sabia do perigo.",
    "classe": "simples",
@@ -75,6 +131,17 @@
    "cenario": "interior madeira"
   },
   {
+   "camera": "crowd",
+   "personagens": [
+    "MAR",
+    "PIE",
+    "JOR"
+   ],
+   "multidao": 18,
+   "objetos": [
+    "kit/marco_eiffel"
+   ],
+   "palavras": 19,
    "cena": "b6",
    "frase": "Marie ganhou dois prêmios Nobel, em física e em química. Foi a primeira pessoa da história a conseguir isso.",
    "classe": "chave",
@@ -90,6 +157,15 @@
    "cenario": "loc_campo"
   },
   {
+   "camera": "two",
+   "personagens": [
+    "MAR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_eiffel"
+   ],
+   "palavras": 20,
    "cena": "b7",
    "frase": "Acontece que a radiação foi destruindo a saúde dela, aos poucos. Em mil novecentos e trinta e quatro, ela morreu.",
    "classe": "simples",
@@ -99,6 +175,17 @@
    "cenario": "loc_campo"
   },
   {
+   "camera": "two",
+   "personagens": [
+    "PES",
+    "JOR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "crate",
+    "kit/curie_box"
+   ],
+   "palavras": 17,
    "cena": "b8",
    "frase": "Mas os cadernos dela continuam radioativos até hoje, guardados em caixas de chumbo, numa biblioteca de Paris.",
    "classe": "simples",
@@ -108,6 +195,15 @@
    "cenario": "interior pedra"
   },
   {
+   "camera": "low",
+   "personagens": [
+    "PES"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/curie_box"
+   ],
+   "palavras": 14,
    "cena": "b9",
    "frase": "Quem quer ler precisa assinar um termo de responsabilidade e usar roupa de proteção.",
    "classe": "simples",
@@ -117,6 +213,19 @@
    "cenario": "interior pedra"
   },
   {
+   "camera": "orbit",
+   "personagens": [
+    "POV",
+    "POV",
+    "PES"
+   ],
+   "multidao": 16,
+   "objetos": [
+    "kit/curie_box",
+    "kit/marco_eiffel",
+    "nature/picket_fence"
+   ],
+   "palavras": 16,
    "cena": "b10",
    "frase": "E o rádio leva cerca de mil e seiscentos anos só para perder metade da força.",
    "classe": "chave",
@@ -132,6 +241,16 @@
    "cenario": "loc_montanha"
   },
   {
+   "camera": "close",
+   "personagens": [
+    "MAR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/curie_box",
+    "kit/marco_eiffel"
+   ],
+   "palavras": 15,
    "cena": "b11",
    "frase": "Ou seja: os cadernos de Marie Curie vão continuar radioativos por muitos e muitos séculos.",
    "classe": "simples",
@@ -141,6 +260,15 @@
    "cenario": "loc_montanha"
   },
   {
+   "camera": "close",
+   "personagens": [
+    "PES"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_eiffel"
+   ],
+   "palavras": 13,
    "cena": "b12",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",

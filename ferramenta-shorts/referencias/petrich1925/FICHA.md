@@ -8,7 +8,7 @@
 - Cenario real: montanhas secas com pedras e mata baixa, posto de fronteira; salao de reunioes da Liga das Nacoes
 - Objetos: ['cachorro', 'fuzis', 'bandeira branca', 'documento do ultimato']
 - Cenarios usados no video: interior madeira, interior pedra, loc_campo, mountain
-- PROIBIDO pela epoca (a ferramenta bloqueia): canhao antigo, carro dos anos 50, castical, escudo, navio a vela, objeto moderno, tambor de guerra, torre de refletor, veiculo moderno
+- PROIBIDO pela epoca (a ferramenta bloqueia): canhao antigo, caravela, carro dos anos 50, castical, escudo, fragata a vela, galera a remo, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra, torre de refletor, veiculo moderno
 - Proibido pelo roteiro: -
 
 ## Explicacoes (ciencia)

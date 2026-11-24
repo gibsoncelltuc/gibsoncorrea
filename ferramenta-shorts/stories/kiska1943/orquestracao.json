@@ -10,6 +10,14 @@
  },
  "cenas": [
   {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_alpes",
+    "ship"
+   ],
+   "palavras": 23,
    "cena": "b0",
    "frase": "Agosto de mil novecentos e quarenta e três. Os Aliados prepararam uma grande invasão da ilha de Kiska, no Alasca, ocupada pelos japoneses.",
    "classe": "simples",
@@ -19,6 +27,19 @@
    "cenario": "harbor"
   },
   {
+   "camera": "reveal",
+   "personagens": [
+    "USA",
+    "CAN",
+    "USA"
+   ],
+   "multidao": 32,
+   "objetos": [
+    "kit/marco_alpes",
+    "kit/navio_vapor",
+    "vehicles/airplane"
+   ],
+   "palavras": 16,
    "cena": "b1",
    "frase": "Foram mais de trinta e quatro mil soldados americanos e canadenses, com navios, aviões e tanques.",
    "classe": "transicao",
@@ -28,6 +49,15 @@
    "cenario": "mountain"
   },
   {
+   "camera": "group",
+   "personagens": [
+    "USA"
+   ],
+   "multidao": 40,
+   "objetos": [
+    "kit/canhao_moderno"
+   ],
+   "palavras": 7,
    "cena": "b2",
    "frase": "Antes do desembarque, bombardearam Kiska durante semanas.",
    "classe": "chave",
@@ -43,6 +73,17 @@
    "cenario": "arctic"
   },
   {
+   "camera": "orbit",
+   "personagens": [
+    "USA",
+    "CAN",
+    "USA"
+   ],
+   "multidao": 48,
+   "objetos": [
+    "kit/marco_alpes"
+   ],
+   "palavras": 14,
    "cena": "b3",
    "frase": "No meio do nevoeiro, os soldados desceram em silêncio, prontos para um combate duro.",
    "classe": "chave",
@@ -58,6 +99,16 @@
    "cenario": "mountain"
   },
   {
+   "camera": "two",
+   "personagens": [
+    "USA",
+    "CAN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_alpes"
+   ],
+   "palavras": 10,
    "cena": "b4",
    "frase": "Mas teve um problema: os japoneses já tinham ido embora.",
    "classe": "simples",
@@ -67,6 +118,18 @@
    "cenario": "mountain"
   },
   {
+   "camera": "orbit",
+   "personagens": [
+    "USA"
+   ],
+   "multidao": 32,
+   "objetos": [
+    "kit/marco_alpes",
+    "nature/picket_fence",
+    "navios de guerra ao fundo, no tamanho real",
+    "ship"
+   ],
+   "palavras": 15,
    "cena": "b5",
    "frase": "Duas semanas antes, uma frota tinha evacuado cerca de cinco mil homens, escondida na neblina.",
    "classe": "simples",
@@ -76,6 +139,17 @@
    "cenario": "harbor"
   },
   {
+   "camera": "group",
+   "personagens": [
+    "USA",
+    "CAN",
+    "USA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_alpes"
+   ],
+   "palavras": 17,
    "cena": "b6",
    "frase": "Sem inimigo à vista, os Aliados começaram a atirar uns nos outros, no escuro e na neblina.",
    "classe": "simples",
@@ -85,6 +159,15 @@
    "cenario": "mountain"
   },
   {
+   "camera": "two",
+   "personagens": [
+    "USA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_alpes"
+   ],
+   "palavras": 9,
    "cena": "b7",
    "frase": "No fim, só acharam na ilha alguns cachorros abandonados.",
    "classe": "simples",
@@ -94,6 +177,15 @@
    "cenario": "harbor"
   },
   {
+   "camera": "close",
+   "personagens": [
+    "OFF"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_alpes"
+   ],
+   "palavras": 12,
    "cena": "b8",
    "frase": "Uma das maiores invasões do Pacífico Norte tomou uma ilha completamente vazia.",
    "classe": "simples",
@@ -103,6 +195,15 @@
    "cenario": "harbor"
   },
   {
+   "camera": "two",
+   "personagens": [
+    "USA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_alpes"
+   ],
+   "palavras": 13,
    "cena": "b9",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",

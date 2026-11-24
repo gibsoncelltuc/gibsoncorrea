@@ -62,4 +62,19 @@ sys.exit(0 if ok else 1)
 V13B
 grep -q "L_.y += 0.3 \* L_.s" web/runtime.js || f "v13: queda sem a correcao do corpo dentro do chao"
 [ -n "$V" ] && rm -rf "videos/$V" "stories/$V" "referencias/$V"
+# ---- v13c: navio da epoca, batalhao, sem clone, sem cidade no campo, cronograma ----
+G=_v13g_$$; mkdir -p "videos/$G"
+cat > "videos/$G/beats.json" <<'V13G'
+{"voice":"pt-BR-AntonioNeural","rate":"+10%","serie":"Teste","ep":97,"title":"teste guerra 1859","ano":1859,"set":"countryside","cta":false,"outfits":{"FAZ":{"jacket":"#7a9ac2","hat":"straw"},"IRL":{"jacket":"#5d7a3a","hat":"bowler"},"ING":{"jacket":"#c0262d","hat":"shako","rifle":true},"AME":{"jacket":"#27408b","hat":"kepi","rifle":true}},"beats":[{"who":["FAZ:0:shock","IRL:0:angry"],"say":"Na ilha, o fazendeiro brigou com o vizinho por causa de um porco.","mapa":"ILHA"},{"who":["FAZ:0:neutral","IRL:0:neutral"],"say":"Era uma ilha pequena de fazendas e hortas, longe de tudo."},{"who":["FAZ:0:angry"],"say":"O fazendeiro olhou a horta destruída e ficou furioso."},{"who":["IRL:0:shout","FAZ:0:surprised"],"say":"O vizinho exigiu dinheiro e ninguém cedeu naquele dia."},{"shot":"crowd","who":["ING:0:stern","AME:0:stern"],"batalha":true,"tiros":false,"crowd":{"n":10,"outfits":["ING","AME"],"march":false},"set":"harbor","say":"Os dois países mandaram soldados, navios de guerra e canhões para a ilha."},{"who":["FAZ:0:sad"],"say":"No fim a única baixa da guerra foi o porco."}]}
+V13G
+python3 mkvideo.py $G > /dev/null 2>&1 || f "v13: mkvideo nao rodou no roteiro de guerra de teste"
+SG=stories/$G/spec.js
+grep -q 'navio_fragata' $SG || f "v13: historia de 1859 sem a fragata da epoca"
+grep -q 'sets: \[[^]]*"street"' $SG && f "v13: historia rural ganhou rua de cidade"
+grep -q 'rg_eua' $SG && f "v13: predio de cidade da regiao em historia rural"
+[ "$(grep -o 'pp(X_harbor, "ING"\|pp(X_harbor, "AME"' $SG | wc -l)" -ge 40 ] || f "v13: batalhao pequeno (menos de 40 soldados no plano aberto)"
+python3 -c "import json,sys;o=json.load(open('stories/$G/orquestracao.json'));sys.exit(0 if o['cenas'][1]['multidao'] in (0, None) and o['cenas'][4]['multidao']>=40 else 1)" || f "v13: multidao clonou personagem ou batalhao pequeno"
+grep -q 'voando' stories/$G/plano.md && f "v13: soldado voando em guerra sem tiro"
+{ [ -f stories/$G/cronograma.md ] && grep -q 'Etapa atual' stories/$G/cronograma.md; } || f "v13: cronograma nao foi gerado"
+[ -n "$G" ] && rm -rf "videos/$G" "stories/$G" "referencias/$G"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }

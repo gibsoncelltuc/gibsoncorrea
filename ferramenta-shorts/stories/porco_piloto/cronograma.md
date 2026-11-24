@@ -32,7 +32,7 @@ N | Etapa | O que confere | Estado | Proximo passo
 11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | FEITO | 
 12 | Conferencia | conferir.sh sem falha e folha de contato olhada | PENDENTE | ./conferir.sh porco_piloto
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | REFAZER (a etapa anterior mudou) | bash auditar_acoes.sh local porco_piloto <mp4>
-14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
+14 | Entrega | mp4 original 1080x1920 enviado; commit e push | REFAZER (a etapa anterior mudou) | 
 
 **Etapa atual:** 12. Conferencia
 

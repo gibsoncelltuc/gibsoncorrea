@@ -7,8 +7,8 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (objeto): kit/batatas
 - HEROIS (personagens): FAZ, AME, IRL, ING
 - Cenarios: countryside, harbor, interior madeira, interior pedra, loc_campo
-- Proibido pela epoca: carro antigo, carro dos anos 50, escudo, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
-- Tamanho real aplicado: kit/navio_vela: 30.0 m reais -> escala 7.65 (estava 0.8: pequeno demais); kit/navio_vela: 30.0 m reais -> escala 7.65 (estava 0.7: pequeno demais)
+- Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
+- Tamanho real aplicado: kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.8: pequeno demais); kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.7: pequeno demais)
 
 ## Itens pesquisados
 

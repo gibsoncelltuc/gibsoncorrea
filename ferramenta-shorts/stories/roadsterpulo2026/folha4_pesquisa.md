@@ -7,7 +7,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (objeto): kit/roadster26
 - HEROIS (personagens): MUS, ENG
 - Cenarios: interior galpao, loc_cidade, loc_deserto
-- Proibido pela epoca: barril, caixote de madeira, canhao antigo, carro antigo, carro dos anos 50, carroca, castical, escudo, feno/espantalho, lampiao, navio a vapor, navio a vela, tambor de guerra
+- Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: kit/roadster26: 4.5 m reais -> escala 1.36 (estava 1.0: pequeno demais)
 
 ## Itens pesquisados

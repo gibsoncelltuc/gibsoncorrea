@@ -8,7 +8,7 @@
 - Cenario real: cidade no apagao a noite, fachos de holofote se cruzando no ceu, explosoes de fumaca dos tiros antiaereos, estilhacos caindo nas ruas
 - Objetos: ['holofotes antiaereos', 'canhoes antiaereos', 'sirenes', 'jornal do dia seguinte']
 - Cenarios usados no video: harbor, interior madeira, interior pedra, mountain, street
-- PROIBIDO pela epoca (a ferramenta bloqueia): canhao antigo, carro antigo, carroca, castical, escudo, lampiao, navio a vela, objeto moderno, tambor de guerra
+- PROIBIDO pela epoca (a ferramenta bloqueia): canhao antigo, caravela, carro antigo, carroca, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra
 - Proibido pelo roteiro: -
 
 ## Explicacoes (ciencia)

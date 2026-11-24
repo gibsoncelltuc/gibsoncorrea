@@ -8,7 +8,7 @@
 - Cenario real: campo com mata (Phillips Corners), margem do rio Maumee, taverna de madeira em Toledo, sala do Congresso, floresta gelada da Peninsula Superior
 - Objetos: ['mosquetes de pederneira', 'canivete de bolso', 'instrumento de agrimensor em tripe', 'mapa antigo com a linha da fronteira']
 - Cenarios usados no video: arctic, countryside, interior madeira, interior pedra, jungle
-- PROIBIDO pela epoca (a ferramenta bloqueia): carro antigo, carro dos anos 50, escudo, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
+- PROIBIDO pela epoca (a ferramenta bloqueia): caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Proibido pelo roteiro: -
 
 ## Explicacoes (ciencia)

@@ -7,7 +7,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (objeto): kit/dog_sit
 - HEROIS (personagens): GRE, BUL, OFF
 - Cenarios: interior madeira, interior pedra, loc_campo, mountain
-- Proibido pela epoca: canhao antigo, carro dos anos 50, castical, escudo, navio a vela, objeto moderno, tambor de guerra, torre de refletor, veiculo moderno
+- Proibido pela epoca: canhao antigo, caravela, carro dos anos 50, castical, escudo, fragata a vela, galera a remo, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra, torre de refletor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
 ## Itens pesquisados

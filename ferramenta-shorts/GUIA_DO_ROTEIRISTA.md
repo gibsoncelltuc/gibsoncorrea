@@ -189,3 +189,17 @@ O que a ferramenta **sabe** animar (escreva o roteiro com isto): andar, chegar a
 **Queda e pulo.** Quem cai fica deitado EM CIMA do chão, inteiro no quadro (a câmera abre sozinha em frase com caiu/tombou/desmaiou/empurrou). Quem pula: a câmera abre e sobe. Frase que fala "os dois / ambos / juntos" nunca vira close em um só.
 
 **Carro correndo no medidor.** Em cena de explicação, medidor em km/h (ou mph) com veículo = o veículo CORRENDO de lado, câmera junto, riscos de velocidade, fumaça de pneu na largada e propulsor na traseira (`"propulsor": false` tira o jato). Manual: `"manobra": "corre"`.
+
+## v13c (24/11) — Cronograma, embarcações da época, batalhão, multidão
+
+**Cronograma (`stories/<id>/cronograma.md`).** Sai junto com as 4 folhas e é atualizado pela fila a cada etapa. Parte 1: plano de cenas (cada frase: classe, cenário, câmera, quem, multidão, objetos, efeito planejado). Parte 2: as 14 etapas em ordem (folhas → pesquisa → modelagem → travas → voz → estilo/enquadramento → gates → storyboard → revisão e aprovação → render → montagem → conferência → auditoria → entrega), cada uma com o que confere e o estado. Nenhuma etapa começa com a anterior pendente; se uma etapa anterior muda, as seguintes aparecem como REFAZER. Atualizar à mão: `python3 cronograma.py <id>`.
+
+**Embarcações da época.** Navio em cena é sempre o da época do vídeo, modelado e pintado como nas referências (`blender/navios_epoca.py`): galera a remo (até 1400), caravela com cruz vermelha (1400–1620), fragata preta com faixa creme e portinholas (1620–1865), vapor de guerra preto e branco com chaminé amarela (1865–1905), encouraçado cinza (1905–1960), destroier (1960+). Vale para o navio do cenário de porto e para os que entram pela narração; todos no tamanho real (30 m). `"navio_livre": true` desliga a troca. Embarcação específica (ex.: um vapor de rodas, uma jangada): pesquise na folha 4 e modele.
+
+**Batalhão de verdade.** Plano aberto com tropa (figurino com fuzil ou SOL/TRO): mínimo de 32 soldados; batalha, ou dois exércitos em cena, mínimo de 48, cada farda no SEU bloco, frente a frente, com corredor no meio. Vale mesmo que o roteiro peça menos. `"poucos": true` no `crowd` libera (patrulha, escolta).
+
+**Multidão nunca clona personagem.** Multidão automática só usa tropa (fuzil), povo (`POV`, `POVO`, `SOL`, `TRO`) ou figurino com `"hats"`/`"multidao": true`. Dois personagens da história num plano aberto ficam sozinhos. O "grande momento" automático só nasce em cena com tropa ou povo.
+
+**Guerra sem tiro.** `"tiros": false` na batalha = impasse: ninguém voa, não há clarão. "Canhões" na frase só gera explosão se a frase disser que dispararam.
+
+**Cidade só com cidade.** Rua, prédios e o kit de cidade da região só entram se a narração ou a pesquisa falarem de cidade/rua/loja/praça. História de fazenda, ilha, mato ou acampamento não ganha prédio de tijolo.

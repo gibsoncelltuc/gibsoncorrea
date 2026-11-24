@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - A Cavalaria que Capturou uma Frota
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 5.9s - 17 palavras - plano two
@@ -66,13 +66,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | ATUACAO | reagir | OK |
 | 4 | - | PLACA | RENDIDOS | OK |
 
-## Cena b7 - 39.3s a 43.3s - 12 palavras - plano crowd
+## Cena b7 - 39.3s a 43.3s - 12 palavras - plano group
 > "Foram mais de uma dezena de navios capturados por soldados a cavalo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | CENA | montado: FRA galopando em cima do animal (horse_sela) atravessando a cena | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | - | INTERACAO | aproxima-se | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b8 - 43.7s a 48.9s - 15 palavras - plano close
 > "Dizem que foi a única vez na história em que uma cavalaria capturou uma frota."

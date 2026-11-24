@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 01 - A Batalha de Karánsebes
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 75 acoes catalogadas, 75 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 74 acoes catalogadas, 74 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 2.9s - 10 palavras - plano crowd
@@ -67,12 +67,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | chegou (23.2s) | EFEITO: dust | poeira + som | OK |
 | 2 | chegou (23.2s) | ACAO: chega | entra andando pela lateral | OK |
 | 3 | deu (31.2s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 4 | tiro (31.5s) | EFEITO: burst | estouro/clarao + som | OK |
-| 5 | tiro (31.5s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 6 | - | CENA | cavalaria: 2 soldados a cavalo (AUT) | OK |
-| 7 | - | INTERACAO | empurrar | OK |
-| 8 | - | ATUACAO | conversar | OK |
-| 9 | - | CHEGADA | alguem entra andando | OK |
+| 4 | tiro (31.5s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 5 | - | CENA | cavalaria: 2 soldados a cavalo (AUT) | OK |
+| 6 | - | INTERACAO | empurrar | OK |
+| 7 | - | ATUACAO | conversar | OK |
+| 8 | - | CHEGADA | alguem entra andando | OK |
 
 ## Cena b6 - 32.7s a 38.0s - 12 palavras - plano orbit
 > "No escuro, alguém gritou: "Turcos! Turcos!" E o pânico tomou o acampamento."

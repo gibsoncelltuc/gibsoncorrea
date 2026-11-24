@@ -7,8 +7,8 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (objeto): kit/navio_vela
 - HEROIS (personagens): FRA, NED
 - Cenarios: arctic, harbor, interior madeira, interior pedra
-- Proibido pela epoca: carro antigo, carro dos anos 50, escudo, navio a vapor, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
-- Tamanho real aplicado: kit/navio_vela: 30.0 m reais -> escala 7.65 (estava 1.0: pequeno demais); kit/navio_vela: 30.0 m reais -> escala 7.65 (estava 0.8: pequeno demais); kit/navio_vela: 30.0 m reais -> escala 7.65 (estava 0.7: pequeno demais)
+- Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
+- Tamanho real aplicado: kit/navio_vela: 30.0 m reais -> escala 7.65 (estava 1.0: pequeno demais); kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.8: pequeno demais); kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.7: pequeno demais)
 
 ## Itens pesquisados
 

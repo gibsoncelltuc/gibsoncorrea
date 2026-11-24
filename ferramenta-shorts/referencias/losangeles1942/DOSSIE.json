@@ -17,12 +17,17 @@
  },
  "proibido_pela_epoca": [
   "canhao antigo",
+  "caravela",
   "carro antigo",
   "carroca",
   "castical",
   "escudo",
+  "fragata a vela",
+  "galera a remo",
   "lampiao",
+  "navio a vapor de guerra",
   "navio a vela",
+  "navio de guerra moderno",
   "objeto moderno",
   "tambor de guerra"
  ],

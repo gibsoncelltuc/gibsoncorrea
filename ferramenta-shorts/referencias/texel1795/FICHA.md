@@ -8,7 +8,7 @@
 - Cenario real: mar congelado e liso, cavalos atravessando o gelo, navios a vela de tres mastros presos no gelo, neve
 - Objetos: ['navios de guerra a vela', 'cavalos com panos nos cascos', 'sabres']
 - Cenarios usados no video: arctic, harbor, interior madeira, interior pedra
-- PROIBIDO pela epoca (a ferramenta bloqueia): carro antigo, carro dos anos 50, escudo, navio a vapor, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
+- PROIBIDO pela epoca (a ferramenta bloqueia): caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Proibido pelo roteiro: -
 
 ## Explicacoes (ciencia)

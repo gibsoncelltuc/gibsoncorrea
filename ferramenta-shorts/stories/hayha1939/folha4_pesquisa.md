@@ -7,7 +7,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (objeto): kit/campfire
 - HEROIS (personagens): FIN, SOV
 - Cenarios: arctic, interior hospital, interior madeira, mountain
-- Proibido pela epoca: canhao antigo, carro dos anos 50, carroca, castical, escudo, lampiao, navio a vela, objeto moderno, tambor de guerra, veiculo moderno
+- Proibido pela epoca: canhao antigo, caravela, carro dos anos 50, carroca, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra, veiculo moderno
 - Tamanho real aplicado: nature/bush: 11.0 m reais -> escala 4.1 (estava 1.2: pequeno demais)
 
 ## Itens pesquisados

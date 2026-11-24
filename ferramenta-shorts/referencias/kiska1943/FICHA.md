@@ -8,7 +8,7 @@
 - Cenario real: praia de cascalho cinza com navios de desembarque, encostas de tundra sem arvores, neblina densa, vulcao ao fundo
 - Objetos: ['navios de guerra e de desembarque', 'avioes', 'canhoes', 'cachorros abandonados']
 - Cenarios usados no video: arctic, harbor, mountain
-- PROIBIDO pela epoca (a ferramenta bloqueia): canhao antigo, carro antigo, carroca, castical, escudo, lampiao, navio a vela, objeto moderno, tambor de guerra
+- PROIBIDO pela epoca (a ferramenta bloqueia): canhao antigo, caravela, carro antigo, carroca, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra
 - Proibido pelo roteiro: -
 
 ## Explicacoes (ciencia)

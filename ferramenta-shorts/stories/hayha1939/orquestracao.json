@@ -10,6 +10,16 @@
  },
  "cenas": [
   {
+   "camera": "crowd",
+   "personagens": [
+    "SOV",
+    "SOV",
+    "SOV",
+    "SOV"
+   ],
+   "multidao": 48,
+   "objetos": [],
+   "palavras": 18,
    "cena": "b0",
    "frase": "Inverno de mil novecentos e trinta e nove. A União Soviética invadiu a Finlândia, com um exército enorme.",
    "classe": "chave",
@@ -25,6 +35,19 @@
    "cenario": "arctic"
   },
   {
+   "camera": "orbit",
+   "personagens": [
+    "FIN",
+    "FIN",
+    "FIN"
+   ],
+   "multidao": 32,
+   "objetos": [
+    "nature/bush",
+    "nature/tree_oak",
+    "nature/tree_pine"
+   ],
+   "palavras": 22,
    "cena": "b1",
    "frase": "Os soldados finlandeses eram poucos, mas conheciam a floresta, a neve e o frio, que chegava a quarenta graus abaixo de zero.",
    "classe": "explicativa",
@@ -34,6 +57,13 @@
    "cenario": "arctic"
   },
   {
+   "camera": "close",
+   "personagens": [
+    "FIN"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
    "cena": "b2",
    "frase": "Um deles era um homem do campo, baixinho, chamado Simo Häyhä.",
    "classe": "simples",
@@ -43,6 +73,13 @@
    "cenario": "arctic"
   },
   {
+   "camera": "low",
+   "personagens": [
+    "FIN"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
    "cena": "b3",
    "frase": "Vestido de branco, ele esperava imóvel no meio da neve, horas a fio.",
    "classe": "simples",
@@ -52,6 +89,13 @@
    "cenario": "mountain"
   },
   {
+   "camera": "close",
+   "personagens": [
+    "FIN"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 17,
    "cena": "b4",
    "frase": "Dizem que ele mantinha neve na boca, para o vapor da respiração não entregar a sua posição.",
    "classe": "simples",
@@ -61,6 +105,17 @@
    "cenario": "mountain"
   },
   {
+   "camera": "two",
+   "personagens": [
+    "FIN",
+    "FIN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/campfire",
+    "nature/picket_fence"
+   ],
+   "palavras": 22,
    "cena": "b5",
    "frase": "Em cerca de cem dias, contam mais de quinhentos inimigos abatidos por ele, com um fuzil de mira de ferro, sem luneta.",
    "classe": "simples",
@@ -70,6 +125,13 @@
    "cenario": "arctic"
   },
   {
+   "camera": "crowd",
+   "personagens": [
+    "SOV"
+   ],
+   "multidao": 48,
+   "objetos": [],
+   "palavras": 8,
    "cena": "b6",
    "frase": "Os soviéticos passaram a chamá-lo de Morte Branca.",
    "classe": "chave",
@@ -85,6 +147,14 @@
    "cenario": "mountain"
   },
   {
+   "camera": "two",
+   "personagens": [
+    "FIN",
+    "FIN"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 24,
    "cena": "b7",
    "frase": "Em março de mil novecentos e quarenta, uma bala atingiu o rosto dele. Ele sobreviveu, e acordou no dia em que a guerra terminou.",
    "classe": "simples",
@@ -94,6 +164,13 @@
    "cenario": "interior hospital"
   },
   {
+   "camera": "close",
+   "personagens": [
+    "FIN"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 20,
    "cena": "b8",
    "frase": "Viveu até os noventa e seis anos, e nunca se achou herói. Dizia que só tinha feito o seu trabalho.",
    "classe": "simples",
@@ -103,6 +180,13 @@
    "cenario": "interior madeira"
   },
   {
+   "camera": "two",
+   "personagens": [
+    "SOV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
    "cena": "b9",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",

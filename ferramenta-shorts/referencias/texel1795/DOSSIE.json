@@ -15,10 +15,15 @@
   "cenarios_trocados": []
  },
  "proibido_pela_epoca": [
+  "caravela",
   "carro antigo",
   "carro dos anos 50",
+  "encouracado",
   "escudo",
+  "galera a remo",
   "navio a vapor",
+  "navio a vapor de guerra",
+  "navio de guerra moderno",
   "objeto moderno",
   "predio de apartamentos",
   "torre de refletor",
@@ -29,6 +34,7 @@
  "objetos_em_cena": [
   "boat",
   "kit/marco_amsterdam",
+  "kit/navio_fragata",
   "kit/navio_vela",
   "kit/room_europa_wood",
   "kit/room_franca_stone",

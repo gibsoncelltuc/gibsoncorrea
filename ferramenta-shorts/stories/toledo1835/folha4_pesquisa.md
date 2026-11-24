@@ -7,7 +7,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (objeto): kit/canivete
 - HEROIS (personagens): OHI, MIC, GOV
 - Cenarios: arctic, countryside, interior madeira, interior pedra, jungle
-- Proibido pela epoca: carro antigo, carro dos anos 50, escudo, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
+- Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: nature/bush: 11.0 m reais -> escala 4.1 (estava 1.2: pequeno demais)
 
 ## Itens pesquisados

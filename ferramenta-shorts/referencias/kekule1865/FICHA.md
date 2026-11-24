@@ -8,7 +8,7 @@
 - Cenario real: gabinete com lareira acesa e poltrona, quadro com formulas, frascos de laboratorio; salao de banquete em Berlim
 - Objetos: ['anel do benzeno (cobra mordendo o rabo)', 'lareira', 'poltrona', 'papel com desenhos de moleculas', 'frascos de quimica']
 - Cenarios usados no video: interior madeira, interior pedra, street
-- PROIBIDO pela epoca (a ferramenta bloqueia): carro antigo, carro dos anos 50, escudo, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
+- PROIBIDO pela epoca (a ferramenta bloqueia): caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Proibido pelo roteiro: -
 
 ## Explicacoes (ciencia)

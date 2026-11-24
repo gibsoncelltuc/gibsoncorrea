@@ -16,9 +16,13 @@
   "cenarios_trocados": []
  },
  "proibido_pela_epoca": [
+  "caravela",
   "carro antigo",
   "carro dos anos 50",
+  "encouracado",
   "escudo",
+  "galera a remo",
+  "navio de guerra moderno",
   "objeto moderno",
   "predio de apartamentos",
   "torre de refletor",
@@ -35,7 +39,7 @@
   "kit/batatas",
   "kit/coin",
   "kit/cross",
-  "kit/navio_vela",
+  "kit/navio_fragata",
   "kit/room_europa_wood",
   "kit/room_rosa_wood",
   "kit/room_verde_stone",

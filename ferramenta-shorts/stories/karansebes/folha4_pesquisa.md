@@ -7,7 +7,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (objeto): kit/barrel_r, barrel
 - HEROIS (personagens): AUT, HUS, TUR, OFF
 - Cenarios: countryside
-- Proibido pela epoca: carro antigo, carro dos anos 50, escudo, navio a vapor, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
+- Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
 ## Itens pesquisados

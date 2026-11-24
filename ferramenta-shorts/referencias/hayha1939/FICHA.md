@@ -8,7 +8,7 @@
 - Cenario real: floresta de pinheiros com neve funda, trincheiras rasas, fogueira de acampamento, hospital de campanha
 - Objetos: ['fuzil de mira de ferro', 'esquis', 'fogueira', 'neve na boca']
 - Cenarios usados no video: arctic, interior hospital, interior madeira, mountain
-- PROIBIDO pela epoca (a ferramenta bloqueia): canhao antigo, carro dos anos 50, carroca, castical, escudo, lampiao, navio a vela, objeto moderno, tambor de guerra, veiculo moderno
+- PROIBIDO pela epoca (a ferramenta bloqueia): canhao antigo, caravela, carro dos anos 50, carroca, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra, veiculo moderno
 - Proibido pelo roteiro: -
 
 ## Explicacoes (ciencia)

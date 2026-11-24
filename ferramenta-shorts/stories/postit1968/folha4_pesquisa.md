@@ -7,7 +7,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (objeto): kit/postit
 - HEROIS (personagens): SIL, FRY
 - Cenarios: countryside, interior loja, interior madeira, interior pedra, street
-- Proibido pela epoca: barril, caixote de madeira, canhao antigo, carro antigo, carroca, castical, escudo, lampiao, navio a vapor, navio a vela, tambor de guerra
+- Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carroca, castical, encouracado, escudo, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
 ## Itens pesquisados

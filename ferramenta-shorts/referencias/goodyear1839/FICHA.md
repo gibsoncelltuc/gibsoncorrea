@@ -8,7 +8,7 @@
 - Cenario real: cozinha com fogao de ferro a lenha e panelas, cela de pedra, sala de tribunal, rua de vila americana
 - Objetos: ['borracha crua (gosma)', 'enxofre', 'fogao de ferro quente', 'panelas', 'pneus e bolas de borracha']
 - Cenarios usados no video: countryside, hall, interior loja, interior madeira, interior pedra, street
-- PROIBIDO pela epoca (a ferramenta bloqueia): carro antigo, carro dos anos 50, escudo, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
+- PROIBIDO pela epoca (a ferramenta bloqueia): caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Proibido pelo roteiro: -
 
 ## Explicacoes (ciencia)

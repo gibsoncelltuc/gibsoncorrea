@@ -7,7 +7,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (objeto): kit/searchlight
 - HEROIS (personagens): CID, SOL, GEN, PRE
 - Cenarios: harbor, interior madeira, interior pedra, mountain, street
-- Proibido pela epoca: canhao antigo, carro antigo, carroca, castical, escudo, lampiao, navio a vela, objeto moderno, tambor de guerra
+- Proibido pela epoca: canhao antigo, caravela, carro antigo, carroca, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra
 - Tamanho real aplicado: kit/canhao_moderno: 4.5 m reais -> escala 2.06 (estava 1.2: pequeno demais)
 
 ## Itens pesquisados

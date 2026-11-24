@@ -7,7 +7,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (objeto): kit/tulip_striped, kit/tulip_bed
 - HEROIS (personagens): MER, RIC
 - Cenarios: countryside, interior loja, interior madeira, street
-- Proibido pela epoca: carro antigo, carro dos anos 50, navio a vapor, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
+- Proibido pela epoca: carro antigo, carro dos anos 50, encouracado, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
 ## Itens pesquisados

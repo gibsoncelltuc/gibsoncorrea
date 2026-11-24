@@ -8,7 +8,7 @@
 - Cenario real: jardim com montanhas e lago ao fundo, colmeia de observacao com vidro, mesa com pratinhos de acucar; salao do Nobel
 - Objetos: ['colmeia de vidro', 'abelhas marcadas com pontinhos de tinta', 'pratinhos de agua com acucar', 'caderno de anotacoes']
 - Cenarios usados no video: interior madeira, interior pedra, loc_campo, loc_montanha
-- PROIBIDO pela epoca (a ferramenta bloqueia): canhao antigo, carro antigo, carroca, castical, escudo, lampiao, navio a vela, objeto moderno, tambor de guerra
+- PROIBIDO pela epoca (a ferramenta bloqueia): canhao antigo, caravela, carro antigo, carroca, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra
 - Proibido pelo roteiro: -
 
 ## Explicacoes (ciencia)

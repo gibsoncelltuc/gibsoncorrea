@@ -74,10 +74,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Foram mais de uma dezena de navios capturados por soldados a cavalo.
 - Cenario: arctic | luz: arctic | clima: neve
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): FRA (variante 0, expressao laugh); FRA (variante 2, expressao grin) | multidao: 0 de FRA
-- Animacao: - | batalha encenada
+- Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: ship, horse
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalo, dezena, navios
 - RISCOS: nenhum
@@ -114,13 +114,15 @@ horse | b3, b4, b5, b7 | pronto | conferir na folha de contato se le bem; se par
 
 
 ## Video inteiro
-- Objeto heroi: kit/navio_vela | grandes momentos: b5, b7 | planos abertos: 5 | mistura: close 24% | medio 41% | aberto 32% | detalhe 3%
-- Interacoes: b3 tremem de frio
+- Objeto heroi: kit/navio_vela | grandes momentos: b5 | planos abertos: 4 | mistura: close 23% | medio 45% | aberto 29% | detalhe 3%
+- Interacoes: b3 tremem de frio, b7 aproxima-se
 - RISCOS GERAIS: 
+  - menos de 2 grandes momentos -> CORRECAO: "batalha": true (ou "impact": true) em duas cenas de acao
   - o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa) -> CORRECAO: reescrever a 1a frase com o fato mais absurdo da historia (sem ano); a data entra na 2a frase ou no mapa
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py texel1795  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/texel1795/moodboard.jpg
 
-## RESUMO: 2 risco(s) em aberto
+## RESUMO: 3 risco(s) em aberto
+- geral: menos de 2 grandes momentos
 - geral: o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa)
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 

@@ -148,3 +148,15 @@ Ordem do Gibson: a ferramenta é universal — para QUALQUER roteiro ela faz o r
 - **Queda:** `web/runtime.js` (corpo deitado sobe 0,3·s e recua para ficar inteiro no quadro); câmera abre em queda e pulo.
 - **Carro correndo:** `_explica`, manobra `corre` (jato com `dir: 'tras'` em `web/vfx.js`).
 - Rede: a API do Wikimedia é bloqueada por excesso de pedidos nesta rede; `pesquisar.py` usa a página de busca e o servidor `upload.wikimedia.org`.
+
+## §22 — v13c (24/11): achados do piloto da Guerra do Porco, já na ferramenta
+
+Ordem do Gibson: tudo o que aparecer de defeito num vídeo é corrigido NA FERRAMENTA (com teste em `teste_ferramenta.sh`), para não voltar no próximo.
+
+- `cronograma.py` + chamada no fim do `mkvideo.py` e em cada etapa do `make_video.sh`.
+- `blender/navios_epoca.py` (6 embarcações) + `_navio_epoca()` e `NAVIO` no `mkvideo.py` (troca o navio do cenário e os automáticos; `_PROP_ERA` bloqueia navio de outra época).
+- Batalhão (`_dois`, mínimo 32/48) e blocos por farda no laço da multidão.
+- Multidão automática sem clone (`_massa`), momento automático só com tropa/povo.
+- `_set_ok('street')` exige tema de cidade; `_RURAL` desliga o kit de cidade da região; `mountain` exige montanha.
+- `tiros: false` não gera `voando` nem clarão por palavra.
+- `_TXT0` ignora `buscas`/`referencias`/`fontes_visuais` (texto de pesquisa não muda cenário).

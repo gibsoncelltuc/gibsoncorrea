@@ -10,6 +10,14 @@
  },
  "cenas": [
   {
+   "camera": "two",
+   "personagens": [
+    "OHI",
+    "MIC"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
    "cena": "b0",
    "frase": "Dois estados americanos foram à guerra, e o único ferido levou uma canivetada.",
    "classe": "simples",
@@ -19,6 +27,18 @@
    "cenario": "countryside"
   },
   {
+   "camera": "reveal",
+   "personagens": [
+    "OHI",
+    "MIC"
+   ],
+   "multidao": 48,
+   "objetos": [
+    "buildings/house_two",
+    "kit/mapa_antigo",
+    "nature/lamppost"
+   ],
+   "palavras": 25,
    "cena": "b1",
    "frase": "De um lado, Ohio. Do outro, Michigan. Os dois juravam que a cidade de Toledo era deles, por causa de um erro num mapa antigo.",
    "classe": "transicao",
@@ -28,6 +48,13 @@
    "cenario": "countryside"
   },
   {
+   "camera": "close",
+   "personagens": [
+    "GOV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 16,
    "cena": "b2",
    "frase": "O governador de Michigan tinha só vinte e três anos, e mandou a milícia ocupar Toledo.",
    "classe": "simples",
@@ -37,6 +64,14 @@
    "cenario": "interior madeira"
   },
   {
+   "camera": "crowd",
+   "personagens": [
+    "OHI",
+    "OHI"
+   ],
+   "multidao": 48,
+   "objetos": [],
+   "palavras": 18,
    "cena": "b3",
    "frase": "Ohio respondeu com a própria milícia, e as duas tropas chegaram à beira do rio, frente a frente.",
    "classe": "chave",
@@ -52,6 +87,16 @@
    "cenario": "countryside"
   },
   {
+   "camera": "orbit",
+   "personagens": [
+    "OHI",
+    "MIC"
+   ],
+   "multidao": 48,
+   "objetos": [
+    "kit/teodolito"
+   ],
+   "palavras": 18,
    "cena": "b4",
    "frase": "Houve gritos, ameaças, e tiros por cima dos topógrafos de Ohio. Todos para o alto. Ninguém acertou ninguém.",
    "classe": "chave",
@@ -67,6 +112,16 @@
    "cenario": "countryside"
   },
   {
+   "camera": "two",
+   "personagens": [
+    "RAP",
+    "XER"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/canivete"
+   ],
+   "palavras": 21,
    "cena": "b5",
    "frase": "Acontece que a única baixa foi um xerife de Michigan, espetado numa briga de taverna por um rapaz com um canivete.",
    "classe": "simples",
@@ -76,6 +131,14 @@
    "cenario": "interior madeira"
   },
   {
+   "camera": "two",
+   "personagens": [
+    "GOV",
+    "OHI"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 15,
    "cena": "b6",
    "frase": "O presidente mandou os dois pararem, e o Congresso ofereceu um acordo. Ninguém queria ceder.",
    "classe": "simples",
@@ -85,6 +148,19 @@
    "cenario": "interior pedra"
   },
   {
+   "camera": "group",
+   "personagens": [
+    "OHI",
+    "MIC",
+    "GOV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "nature/bush",
+    "nature/tree_oak",
+    "nature/tree_pine"
+   ],
+   "palavras": 16,
    "cena": "b7",
    "frase": "Ohio ficou com Toledo. Michigan levou, de consolação, um pedaço de floresta gelada que ninguém queria.",
    "classe": "simples",
@@ -94,6 +170,18 @@
    "cenario": "jungle"
   },
   {
+   "camera": "low",
+   "personagens": [
+    "GOV",
+    "MIC"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "nature/bush",
+    "nature/tree_oak",
+    "nature/tree_pine"
+   ],
+   "palavras": 11,
    "cena": "b8",
    "frase": "Só que debaixo daquela floresta havia cobre e ferro. Uma fortuna.",
    "classe": "simples",
@@ -103,6 +191,13 @@
    "cenario": "arctic"
   },
   {
+   "camera": "close",
+   "personagens": [
+    "GOV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
    "cena": "b9",
    "frase": "No fim das contas, Michigan perdeu a guerra, e ficou rico.",
    "classe": "simples",
@@ -112,6 +207,13 @@
    "cenario": "interior madeira"
   },
   {
+   "camera": "two",
+   "personagens": [
+    "OHI"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
    "cena": "b10",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",

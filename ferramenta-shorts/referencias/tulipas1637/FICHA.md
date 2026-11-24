@@ -8,7 +8,7 @@
 - Cenario real: rua holandesa com casas de tijolo e moinho, canteiros de tulipas, taberna de madeira com mesas e canecas, sala de leilao
 - Objetos: ['tulipa listrada Semper Augustus', 'bulbos', 'moedas de prata (florins)', 'contratos de papel']
 - Cenarios usados no video: countryside, interior loja, interior madeira, street
-- PROIBIDO pela epoca (a ferramenta bloqueia): carro antigo, carro dos anos 50, navio a vapor, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
+- PROIBIDO pela epoca (a ferramenta bloqueia): carro antigo, carro dos anos 50, encouracado, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Proibido pelo roteiro: -
 
 ## Explicacoes (ciencia)

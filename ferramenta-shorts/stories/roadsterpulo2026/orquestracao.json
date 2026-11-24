@@ -56,6 +56,18 @@
  },
  "cenas": [
   {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "ENA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/roadster26",
+    "kit/torre_luz",
+    "kit/tower"
+   ],
+   "palavras": 21,
    "cena": "b0",
    "frase": "Elon Musk prometeu um carro que voa. Em outubro de dois mil e vinte e seis, ele mostrou o que conseguiu.",
    "classe": "chave",
@@ -71,6 +83,18 @@
    "cenario": "loc_deserto"
   },
   {
+   "camera": "reveal",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/rampa_curva",
+    "kit/torre_luz",
+    "kit/tower"
+   ],
+   "palavras": 16,
    "cena": "b1",
    "frase": "Foi à noite, numa base de testes da SpaceX em McGregor, no Texas, diante de convidados.",
    "classe": "simples",
@@ -80,6 +104,16 @@
    "cenario": "loc_deserto"
   },
   {
+   "camera": "two",
+   "personagens": [
+    "ENG",
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/roadster26"
+   ],
+   "palavras": 18,
    "cena": "b2",
    "frase": "O novo Roadster da Tesla tinha sido prometido em dois mil e dezessete. Foram nove anos de atraso.",
    "classe": "simples",
@@ -89,6 +123,16 @@
    "cenario": "interior galpao"
   },
   {
+   "camera": "group",
+   "personagens": [
+    "ENA",
+    "ENG"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/roadster26"
+   ],
+   "palavras": 17,
    "cena": "b3",
    "frase": "O segredo eram propulsores da SpaceX escondidos no carro, e ventiladores embaixo que grudavam ele na pista.",
    "classe": "explicativa",
@@ -98,6 +142,17 @@
    "cenario": "interior galpao"
   },
   {
+   "camera": "wide",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/roadster26",
+    "kit/torre_luz",
+    "kit/tower"
+   ],
+   "palavras": 19,
    "cena": "b4",
    "frase": "Acontece que, diante dos convidados, o carro acelerou, subiu uma rampa curva gigante e ficou de cabeça para baixo.",
    "classe": "chave",
@@ -113,6 +168,17 @@
    "cenario": "loc_deserto"
   },
   {
+   "camera": "group",
+   "personagens": [
+    "ENA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/roadster26",
+    "kit/torre_luz",
+    "kit/tower"
+   ],
+   "palavras": 14,
    "cena": "b5",
    "frase": "Então se soltou, voou girando no ar e pousou numa nuvem de fumaça branca.",
    "classe": "chave",
@@ -128,6 +194,17 @@
    "cenario": "loc_deserto"
   },
   {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "ENG"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/torre_luz",
+    "kit/tower"
+   ],
+   "palavras": 13,
    "cena": "b6",
    "frase": "Musk comemorou no palco, e tudo foi transmitido ao vivo na rede X.",
    "classe": "simples",
@@ -137,6 +214,16 @@
    "cenario": "loc_deserto"
   },
   {
+   "camera": "orbit",
+   "personagens": [
+    "ENG",
+    "ENA"
+   ],
+   "multidao": 12,
+   "objetos": [
+    "kit/tower"
+   ],
+   "palavras": 13,
    "cena": "b7",
    "frase": "Mas especialistas lembraram: aquilo durou poucos segundos, não foi um voo de verdade.",
    "classe": "chave",
@@ -152,6 +239,17 @@
    "cenario": "loc_cidade"
   },
   {
+   "camera": "group",
+   "personagens": [
+    "ENG",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/roadster26",
+    "kit/tower"
+   ],
+   "palavras": 14,
    "cena": "b8",
    "frase": "Segundo a Tesla, ele vai de zero a cem em menos de um segundo.",
    "classe": "explicativa",
@@ -161,6 +259,15 @@
    "cenario": "loc_cidade"
   },
   {
+   "camera": "close",
+   "personagens": [
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/tower"
+   ],
+   "palavras": 12,
    "cena": "b9",
    "frase": "O vídeo correu o mundo. Metade ficou impressionada, a outra metade desconfiada.",
    "classe": "simples",
@@ -170,6 +277,15 @@
    "cenario": "loc_cidade"
   },
   {
+   "camera": "two",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/roadster26"
+   ],
+   "palavras": 8,
    "cena": "b10",
    "frase": "Carro voador ou carro que pula? Você decide.",
    "classe": "chave",
@@ -185,6 +301,13 @@
    "cenario": "interior galpao"
   },
   {
+   "camera": "close",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
    "cena": "b11",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
