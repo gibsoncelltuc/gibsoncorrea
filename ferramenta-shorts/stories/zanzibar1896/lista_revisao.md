@@ -24,7 +24,7 @@ Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTE
 - f15 "O palácio pegou fogo,": 
 - f16 "a artilharia do sultão foi calada,": 
 - f17 "e a bandeira dele caiu.": 
-- f18 "O sultão fugiu e pediu abrigo no consulado da Alemanha.": 
+- f18 "O sultão foi pedir abrigo no consulado da Alemanha.": 
 - f19 "Os tiros pararam por volta das nove e quarenta.": 
 - f20 "Os ingleses colocaram outro sultão no trono,": 
 - f21 "e os aliados do primo pagaram pelas balas.": 
