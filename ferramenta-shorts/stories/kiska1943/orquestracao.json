@@ -218,9 +218,10 @@
    "cenario": "harbor"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
-    "OFF"
+    "OFF",
+    "USA"
    ],
    "multidao": 0,
    "objetos": [
@@ -236,7 +237,7 @@
    "cenario": "harbor"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "USA"
    ],

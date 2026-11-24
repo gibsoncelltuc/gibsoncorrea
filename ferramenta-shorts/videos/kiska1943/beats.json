@@ -279,16 +279,16 @@
   },
   {
    "say": "Uma das maiores invasões do Pacífico Norte tomou uma ilha completamente vazia.",
-   "shot": "close",
+   "shot": "two",
    "who": [
-    "OFF:0:pained"
+    "OFF:0:pained",
+    "USA:0:surprised"
    ],
    "text": "OPERAÇÃO ILHA VAZIA",
    "tat": 11,
    "tstyle": "white",
    "mood": "playful",
    "set": "harbor",
-   "clima": "neblina",
    "props": [
     [
      "kit/dog_sit",

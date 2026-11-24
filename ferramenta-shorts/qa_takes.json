@@ -1,31 +1,45 @@
 {
  "fails": [
   {
-   "f": 1609,
-   "shot": "b10_v",
+   "f": 1740,
+   "shot": "b11_v",
    "why": [
     "empty take: no character in the take"
    ]
   },
   {
-   "f": 1612,
-   "shot": "b10_v",
+   "f": 1744,
+   "shot": "b11_v",
    "why": [
     "empty take: no character in the take"
    ]
   },
   {
-   "f": 1616,
-   "shot": "b10_v",
+   "f": 1748,
+   "shot": "b11_v",
    "why": [
-    "usa: head/torso cropped (box -7.588, -2.57, -1.185, 1.604)"
+    "empty take: no character in the take"
    ]
   },
   {
-   "f": 1620,
-   "shot": "b10_v",
+   "f": 1752,
+   "shot": "b11_v",
    "why": [
-    "usa: head/torso cropped (box -2.854, -0.448, -0.81, 1.13)"
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 1756,
+   "shot": "b11_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 1760,
+   "shot": "b11_v",
+   "why": [
+    "empty take: no character in the take"
    ]
   }
  ],

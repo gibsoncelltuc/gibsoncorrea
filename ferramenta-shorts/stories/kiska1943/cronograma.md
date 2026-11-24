@@ -1,6 +1,6 @@
 # CRONOGRAMA - A Invasão da Ilha Vazia
 
-Gerado em 24/11 07:38 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 07:42 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -17,8 +17,8 @@ b7 | transicao | harbor | wide | sem personagem | - | navios de guerra ao fundo,
 b8 | simples | mountain | group | USA, CAN, USA | - | - | - | Sem inimigo à vista, os Aliados começaram a atirar uns nos outros, no 
 b9 | simples | arctic | group | USA, CAN | 5 | - | - | Mais de vinte soldados morreram nesses tiros, e um navio americano ain
 b10 | simples | harbor | group | USA, CAN | - | dog_sit | - | No fim, só acharam na ilha alguns cachorros abandonados.
-b11 | simples | harbor | close | OFF | - | dog_sit | - | Uma das maiores invasões do Pacífico Norte tomou uma ilha completament
-b12 | simples | harbor | two | USA | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b11 | simples | harbor | two | OFF, USA | - | dog_sit | - | Uma das maiores invasões do Pacífico Norte tomou uma ilha completament
+b12 | simples | harbor | close | USA | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
@@ -29,8 +29,8 @@ N | Etapa | O que confere | Estado | Proximo passo
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | FEITO | 
 4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 0) | FEITO | 
 5 | Voz | narracao neural gerada e tempos por palavra | FEITO | 
-6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | PENDENTE | 
-7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 
+6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | FEITO | 
+7 | Gates | camera OK, todas as tomadas OK, estilo OK | PENDENTE | 
 8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | BLOQUEADO (etapa anterior pendente) | 
 9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | BLOQUEADO (etapa anterior pendente) | ./aprovar_storyboard.sh kiska1943
 10 | Render | todos os quadros renderizados nesta versao das folhas | BLOQUEADO (etapa anterior pendente) | 
@@ -39,5 +39,5 @@ N | Etapa | O que confere | Estado | Proximo passo
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local kiska1943 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
-**Etapa atual:** 6. Estilo e enquadramento
+**Etapa atual:** 7. Gates
 
