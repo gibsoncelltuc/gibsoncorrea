@@ -6,20 +6,20 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | outback | two | 0 | parados (so fala e pisca) | emus | - | -
 b1 | outback | reveal | 2 | reagir | nature/haybale, buildings/barn, nature/picket_fence, nature/scarecrow, emus | pitchfork | -
-b2 | interior madeira | two | 2 | conversar, INTERAGEM: vai ate o outro | - | paper | -
-b3 | outback | crowd | 17 | encena, batalha | war/sandbags, kit/canhao_moderno, emus | - | -
-b4 | outback | orbit | 26 | encena, batalha | nature/picket_fence, buildings/barn, nature/haybale, nature/scarecrow, emus | - | -
-b5 | countryside | two | 1 | conversar | vehicles/truck, emus | - | -
+b2 | interior madeira | two | 2 | reagir, INTERAGEM: vai ate o outro | - | paper | -
+b3 | countryside | crowd | 17 | encena, batalha | war/sandbags, kit/canhao_moderno, emus | - | -
+b4 | outback | orbit | 26 | encena, batalha | emus | - | -
+b5 | countryside | wide | 1 | encena | vehicles/truck, emus | - | -
 b6 | outback | group | 2 | conversar, INTERAGEM: susto | emus | - | -
-b7 | countryside | track | 15 | comemorar, andando | - | paper | -
-b8 | outback | crowd | 26 | encena, batalha | emus | - | -
-b9 | outback | two | 2 | conversar, INTERAGEM: entregar | buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow, emus | - | -
-b10 | outback | close | 1 | conversar | emus | - | -
-b11 | outback | two | 1 | conversar | - | - | -
+b7 | countryside | track | 15 | encena, andando | - | paper | -
+b8 | countryside | crowd | 26 | encena, batalha | emus | - | -
+b9 | outback | two | 2 | conversar, INTERAGEM: entregar | emus | - | -
+b10 | outback | orbit | 6 | parados (so fala e pisca) | emus | - | -
+b11 | outback | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: nenhum achado (ponha 'heroi': 'kit/...' no topo do roteiro)
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 3 -> b3, b4, b8
 Interacoes entre personagens: b2 vai ate o outro, b6 susto, b9 entregar
 
-Cenas com personagens parados: 1 de 12
+Cenas com personagens parados: 2 de 12
 FALTA MODELAR: nada

@@ -6,8 +6,18 @@
    "tipo": "tema",
    "item": "A Guerra dos Emus",
    "consultas": [
+    "Emu War 1932 Western Australia Lewis gun soldiers",
     "A Guerra dos Emus",
-    "Austrália Vinte Mande 1932"
+    "Austrália Em Fazendeiros Defesa 1932"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Distrito de Campion, cinturão de trigo do oeste da Austrália (Western Australia)",
+   "consultas": [
+    "Campion Western Australia wheatbelt 1930s farm",
+    "Distrito de Campion cinturão de trigo do oeste da Austrália",
+    "Distrito de Campion cinturão de trigo do oeste da Austrália Western Australia 1932"
    ]
   },
   {
@@ -24,6 +34,77 @@
    "consultas": [
     "1932 fashion clothing",
     "1932 street photograph"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "major Meredith e dois soldados da artilharia real australiana com duas",
+   "consultas": [
+    "major Meredith e dois soldados da artilharia real australiana com duas metralhadoras Lewis"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "fazendeiros veteranos da Primeira Guerra",
+   "consultas": [
+    "fazendeiros veteranos da Primeira Guerra",
+    "fazendeiros veteranos da Primeira Guerra 1932"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "ministro da Defesa George Pearce",
+   "consultas": [
+    "ministro da Defesa George Pearce",
+    "ministro da Defesa George Pearce 1932"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "cerca de 20 mil emus",
+   "consultas": [
+    "cerca de 20 mil emus",
+    "cerca de 20 mil emus 1932"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "imprensa",
+   "consultas": [
+    "imprensa",
+    "imprensa 1932"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "metralhadora Lewis",
+   "consultas": [
+    "metralhadora Lewis",
+    "metralhadora Lewis 1932"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "caminhão da época",
+   "consultas": [
+    "caminhão da época",
+    "caminhão da época 1932"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "emus",
+   "consultas": [
+    "emus",
+    "emus 1932"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "sacos de trigo",
+   "consultas": [
+    "sacos de trigo",
+    "sacos de trigo 1932"
    ]
   },
   {
@@ -56,14 +137,6 @@
    "consultas": [
     "army 1932",
     "army"
-   ]
-  },
-  {
-   "tipo": "epoca",
-   "item": "fazenda da epoca",
-   "consultas": [
-    "farm 1932",
-    "farm"
    ]
   }
  ]
