@@ -97,7 +97,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o navio_destroier (alvo z -8.2, camera a 54.6 m, altura 6.0 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o navio_destroier (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: MFR no centro, expressao stern; sem multidao; acao: fala/gesto
 - OBJETO kit/navio_destroier: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 25.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
@@ -118,7 +118,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -8.2, camera a 101.6 m, altura 6.0 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: MAR no centro, expressao angry; sem multidao; acao: batalha
 - OBJETO ship: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 44.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO vehicles/airplane: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 17.1 m de altura x 17.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
