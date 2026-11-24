@@ -75,7 +75,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 1
 - Funcao na historia: desenvolvimento
 
 ## Cena b8  (~3.1 s)
-- Narracao: Os disparos pararam por volta das nove e quarenta.
+- Narracao: O bombardeio terminou por volta das nove e quarenta.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
 - Efeito + som nas palavras-chave: -

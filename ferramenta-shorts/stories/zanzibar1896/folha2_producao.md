@@ -175,16 +175,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - TAKES: 1 take continuo (1.9 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b8 - Os disparos pararam por volta das nove e quarenta.
+## Cena b8 - O bombardeio terminou por volta das nove e quarenta.
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): GUA (variante 0, expressao pained, segura flag); ING2 (variante 0, expressao stern)
 - Animacao: conversar | interacao: vai ate o outro
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): disparos, nove
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bombardeio, nove
 - RISCOS: 
-  - ACAO SEM ANIMACAO na narracao: disparos -> CORRECAO: a cena precisa MOSTRAR a acao: reescreva com um verbo que a ferramenta encena (veja OPERACAO.md "MODO DE ACAO") ou marque a cena ("batalha", "interacao", "acao", "animals", "props")
+  - a narracao fala de BATALHA/ATAQUE e a cena nao encena a luta -> CORRECAO: "batalha": true nesta cena (tropa dos dois lados no "crowd", tiros/golpes e gente fugindo); cada batalha citada no roteiro = uma cena com "batalha": true
+  - a narracao fala de EXPLOSAO e nao ha explosao -> CORRECAO: "fx": ["burst@30"], "sfx": ["cannon@30"] (acerte o numero para o quadro da palavra)
+  - ACAO SEM ANIMACAO na narracao: bombardeio -> CORRECAO: a cena precisa MOSTRAR a acao: reescreva com um verbo que a ferramenta encena (veja OPERACAO.md "MODO DE ACAO") ou marque a cena ("batalha", "interacao", "acao", "animals", "props")
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
@@ -195,7 +197,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO poeira nos pes: no chao, aos pes; entra no quadro +40 da cena
 - SOM: thump@40
 - TEXTO NA TELA: "9:40" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 1 take continuo (1.8 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.0 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b9 - Os ingleses colocaram outro sultão no trono, e os aliados do primo pag...
@@ -216,8 +218,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/throne: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "OUTRO SULTÃO" flutuando no alto, na palavra 1 da frase
 - TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (41.3-43.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (43.4-45.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 1 (41.5-43.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (43.6-45.7 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b10 - E ainda mandaram a conta das balas.
@@ -267,8 +269,10 @@ kit/fire | b6 | pronto | conferir na folha de contato se le bem; se parecer caix
 - Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b4 insiste, b7 discutir, b8 vai ate o outro, b9 entregar
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- b8: ACAO SEM ANIMACAO na narracao: disparos
+## RESUMO: 3 risco(s) em aberto
+- b8: a narracao fala de BATALHA/ATAQUE e a cena nao encena a luta
+- b8: a narracao fala de EXPLOSAO e nao ha explosao
+- b8: ACAO SEM ANIMACAO na narracao: bombardeio
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh zanzibar1896 bN bM` (so essas cenas).
@@ -279,7 +283,7 @@ kit/fire | b6 | pronto | conferir na folha de contato se le bem; se parecer caix
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - (sem ficha)
 - TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (49.4-51.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (51.0-52.7 s): mesmo angulo
+  - take 1 (49.6-51.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (51.2-52.9 s): mesmo angulo
 <!-- /FICHA -->
 

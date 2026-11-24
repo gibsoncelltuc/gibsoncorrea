@@ -191,12 +191,12 @@
    "objetos": [],
    "palavras": 9,
    "cena": "b8",
-   "frase": "Os disparos pararam por volta das nove e quarenta.",
+   "frase": "O bombardeio terminou por volta das nove e quarenta.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [
-    "disparos"
+    "bombardeio"
    ],
    "cenario": "interior madeira"
   },
