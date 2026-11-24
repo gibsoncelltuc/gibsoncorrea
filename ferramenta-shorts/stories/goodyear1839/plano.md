@@ -15,5 +15,5 @@ b9 | group | -  | tropa, placa: PNEUS | - | -
 b10 | two | -  | interior, placa: GOODYEAR | ganhou (stars + som de sino); encena: vence (up) @4 (acao + som de efeito) | -
 b11 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 12% | medio 76% | aberto 10% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
+Mistura de planos: close 12% | medio 72% | aberto 10% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 3 | dentro do padrao do canal
