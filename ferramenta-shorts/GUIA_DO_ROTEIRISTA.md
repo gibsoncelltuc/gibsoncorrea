@@ -147,3 +147,33 @@ Personagens grandes na maior parte do vídeo; até 2 planos abertos comuns + at�
 Riscos que a ferramenta acusa: chegada/travessia pela água em plano fechado; água citada em cenário sem água; animal sem modelo ou fora de cena (existem: porco, galinha/ganso, emu); ação sem animação (nadar, cavalgar, escalar, sentar...); cena longa (>26 palavras) ou curta (<6); mais de 4 personagens em plano fechado; multidão em interior; veículo citado e ausente; 3 cenas seguidas iguais; objeto sem modelo; personagens parados; vídeo sem mapa, sem objeto herói, com menos de 2 grandes momentos ou com palavra de ação sem efeito.
 
 O que a ferramenta **sabe** animar (escreva o roteiro com isto): andar, chegar andando, marchar, conversar, discutir, empurrar, cochichar, entregar, levar susto, comemorar, dançar, reverência, segurar e usar objeto, atirar, batalha com tropa, fugir, animais fugindo, soldados subindo em caminhão, veículo passando.
+
+## v13 (24/11) — Cena de explicação, objeto como sujeito, locação limpa e época
+
+**1. Cena de explicação (sem personagem).** Frase que explica ciência/mecanismo (propulsão, pressão, "funciona", "o segredo é", "de zero a cem"...) é classificada como EXPLICATIVA e **trava o render** se a cena não tiver `"explica"`. A cena fica só com o objeto num estúdio escuro, o mecanismo funcionando e rótulos de 1 a 3 palavras, tudo entrando na palavra da narração:
+
+```json
+{"say": "O segredo são propulsores de ar comprimido escondidos embaixo do carro, que empurram ele para cima.",
+ "explica": {"objeto": "kit/roadster26", "raiox": "escondidos",
+   "pecas": [["kit/tanque_ar", -0.9, 0.42, 0, 0.55, {"rz": 1.5708}]],
+   "vfx": [{"k": "jato", "na": "empurram"}],
+   "rotulos": [["PROPULSORES", "baixo", "propulsores"], ["AR COMPRIMIDO", "topo", "comprimido"]],
+   "setas": [["cima", "EMPUXO", "", "cima"]]}}
+```
+
+- `objeto`: modelo 3D (padrão: o herói). `manobra`: `paira` | `parado` | `gira` | `sobe`. `raiox`: `true` ou a palavra em que o objeto fica translúcido; `pecas`: o que aparece dentro (`[asset, dx, dy, dz, escala, {"rz", "rx", "cor"}]`, em metros do modelo).
+- `vfx`: `jato` (propulsor: sai de baixo, bate no chão e se espalha), `pneu`, `poeira`, `fogo`, `faisca`, `vapor`, `velocidade`, `onda`, `brilho`. `na` = palavra em que começa; `ate` = palavra ou fração (0 a 1) em que acaba; `pot` = força; `pts` = `baixo4` | `centro` | `topo` | `meio`.
+- `rotulos`: `[TEXTO, ponto, palavra, lado]` — ponto: `topo`, `baixo`, `meio`, `frente`, `tras`, `roda`, `capo`. `setas`: `[direcao, TEXTO, cor, palavra, ponto]` — direção `cima` | `baixo` | `esq` | `dir`.
+- Gráficos (parte de cima da tela, longe da legenda): `"medidor": {"de": 0, "para": 100, "un": "km/h", "titulo": "ZERO A CEM", "na": "zero", "dur": 0.9}`, `"contador"` (igual, só o número), `"passos": ["TANQUE", "VÁLVULA", "JATO"]`, `"comparar": [["CARRO COMUM", 3, "s"], ["ROADSTER", 1, "s"]]`.
+- Só um número em cima de uma cena **com** personagens: `"hud": {"contador": {...}}` no beat. Frase que não é explicação de verdade: `"explica": false`.
+- Peças prontas: `kit/tanque_ar`, `kit/bocal_propulsor`. Se o objeto explicado não existe, modele (`blender/formas.py`).
+
+**2. O objeto é o sujeito.** "O carro decolou / voou / pulou / desceu / pousou / acelerou" com o veículo em `props`: a cena passa a ser dele — câmera aberta nele e seguindo, quem assiste fica de lado (no máximo 2), sem multidão na frente, e o efeito sai **do objeto** (jato embaixo, onda de ar no chão, poeira, fumaça de pneu, riscos de velocidade), com som próprio (`jato`, `motor_ev`, `pneu`, `pouso`, `espanto`). `"altura"` no 5º campo do prop muda a altura do voo (padrão 5,2 m). `"obj_acao": false` desliga.
+
+**3. Locação limpa.** Os cenários antigos são temáticos (`outback` = fazenda com celeiro e moinho; `mountain` = front de guerra; `countryside` = vila rural...). Eles só entram se a narração ou a pesquisa visual falarem daquele tema; senão a ferramenta troca sozinha por uma locação limpa (só chão + horizonte): `loc_pista` (asfalto de pista de teste/evento), `loc_patio` (pátio industrial moderno), `loc_cidade` (cidade atual), `loc_deserto`, `loc_campo`, `loc_montanha`, `loc_estudio` (explicação). Use direto em `"set"`. Para fixar os lugares do vídeo: `"visual": {"locacoes": ["loc_pista", "interior galpao", "loc_cidade"]}`. Itens reais do lugar: `"locacao": {"loc_pista": {"itens": [["kit/telao_led", 0, -16, 1.2]], "horizonte": "cidade", "chao": "#3a3d45"}}`. `"set_tematico_ok": true` libera o cenário temático.
+
+**4. Época.** A ferramenta troca sozinha o que ela mesma poria fora de época (barril, caixote, lampião, castiçal, canhão antigo) e **bloqueia** o render se sobrar objeto de outra época (lista em `referencias/<id>/FICHA.md`). Exceção consciente: `"epoca_ok": ["<asset>"]`. Kit moderno: `kit/cone_transito`, `kit/barreira_jersey`, `kit/palete`, `kit/telao_led`, `kit/grade_evento`, `kit/tripe_camera`, `kit/torre_luz`, `kit/canhao_moderno`.
+
+**5. Dossiê.** Todo `mkvideo.py` grava `referencias/<id>/DOSSIE.json` e `FICHA.md` (ano, lugar, cenários, proibidos, fontes). Vídeo com cena de explicação exige `"visual": {"explicacoes": ["como funciona X — fonte"]}`.
+
+**6. Padrões do canal travados:** a 1ª frase não pode abrir com data; duração entre 55 e 75 s (bloqueia fora de 50–80); `stories/<id>/orquestracao.json` traz a classe de cada frase (chave / explicativa / simples / transição), o briefing de efeito das ações-chave e 4 métricas que têm de dar 100%.

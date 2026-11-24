@@ -123,3 +123,17 @@ Nenhum vídeo sai com ressalva. Defeito de acabamento também se corrige antes d
 - CAMERA: duas cenas seguidas no mesmo lugar nunca com o mesmo enquadramento; cada cena com angulo (az) diferente.
 - VEICULOS: carro em tamanho real (~5 m; caminhao ~6 m); rodas separadas (nos `wheelz_*`, blender/rodas_separadas.py) giram conforme o carro anda; frente do carro aponta para onde ele vai.
   Palavra da frase manda a animacao: pulou/saltou = arco no ar; voou/decolou = sai do chao com poeira e sobe; desceu/pousou = desce ate as rodas (gira se "girou"); espaco/orbita = flutua girando; dirigiu/acelerou/chegou = atravessa a cena.
+
+## §20 — v13 (24/11): o que mudou no motor
+
+Origem (Gibson, piloto do Roadster "50%"): faltou a propulsão embaixo do carro, o carro não voou de verdade, a explicação tinha personagem parado e apareceu a "fazendinha".
+
+- **Cenário:** cenários temáticos só com tema pedido; locações limpas `loc_*` (`web/sets/loc.js`); enfeites por época (`web/sets/dress.js`, `DRESS_ERA`); nada de "fachada" de casa/moinho em locação limpa; `deserto` não vira mais fazenda.
+- **VFX preso no objeto** (`web/vfx.js`): partículas 3D determinísticas (cada uma nasce na pose do objeto no quadro em que nasceu). Entra por `prop.vfx`.
+- **Manobras de objeto** (`mkvideo.py`, bloco VEÍCULO): decolar/voar (5,2 m, inclina, atravessa a cena), saltar, pousar, arrancar, rampa — todas com VFX, som e `camFollow` (câmera segue o objeto).
+- **Sujeito = objeto:** verbo de voo/salto/pouso com veículo em cena não faz o personagem pular; personagens vão para o lado.
+- **Cena de explicação** (`_explica`): estúdio, raio-X, peças internas, rótulos, setas, medidor, contador, passos, comparação (`fxAt` em `web/runtime.js`).
+- **Travas novas** (`_riscos` e globais): frase explicativa sem `explica`/`hud`; ação-chave sem briefing; objeto fora de época; gancho com data; duração fora de 50–80 s.
+- **Modo único:** o "Modo 2" (Blender costurado) foi aposentado (`legado/`); Blender só modela.
+- **Som:** `jato`, `motor_ev`, `pouso`, `hud`, `faisca`, `espanto`, `pneu` (`audio_story.py`); volume final -14 LUFS.
+- **Teste de aceitação:** `videos/teste_v13/beats.json` (explicação com raio-X, voo, medidor, salto, pouso, passos, comparação) e `bash teste_ferramenta.sh`.

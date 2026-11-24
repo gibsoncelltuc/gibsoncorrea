@@ -924,6 +924,23 @@ for _b in beats:
 #   "setas": [["cima|baixo|esq|dir", "TEXTO", "#cor", "palavra", "ponto"]], "medidor": {"de": 0, "para": 100, "un": "km/h", "titulo": "0 A 100", "na": "palavra", "dur": 1.0},
 #   "contador": {...igual...}, "passos": ["A", "B", "C"], "comparar": [["NOME", valor, "un"], ...], "fundo": "estudio"|"cena", "angulo": "baixo"|"cima"|"lado" }
 # A cena NAO tem personagem: so' o objeto, o mecanismo funcionando (VFX preso nele), rotulos de 1 a 3 palavras e graficos. Aparecem na palavra da narracao.
+def _hud_fx(k, b, a, bb, E):   # graficos colados na parte de cima da tela (valem em cena de explicacao e, com "hud", em qualquer cena com personagem)
+    ws = b['say'].split(); fx = []
+    _wj = lambda pal: next((j_ for j_, w_ in enumerate(ws) if isinstance(pal, str) and nrm(w_).startswith(nrm(pal))), None)
+    _wf = lambda pal, off, pad: (f"WS({starts[k] + _wj(pal)}, {off})" if _wj(pal) is not None else pad)
+    for kind in ('medidor', 'contador'):
+        m_ = E.get(kind)
+        if m_:
+            t0 = _wf(m_.get('na'), -3, f"Math.round({a} + ({bb} - ({a})) * 0.35)")
+            fx.append(f"{{ k: {json.dumps(kind)}, a: {t0}, b: {bb}, de: {num(m_.get('de', 0))}, para: {num(m_.get('para', 100))}, un: {json.dumps(m_.get('un', ''))}, titulo: {json.dumps(str(m_.get('titulo', '')).upper())}, dur: {int(round(float(m_.get('dur', 1.0)) * 30))}, dec: {int(m_.get('dec', 0))}{', max: ' + num(m_['max']) if 'max' in m_ else ''}, up: {num(m_.get('up', 0.5))} }}")
+            KWSFX.append((starts[k] + (_wj(m_.get('na')) if _wj(m_.get('na')) is not None else len(ws) // 3), 'hud'))
+    if E.get('passos'):
+        t0 = _wf(E.get('passos_na'), -3, f"({a}) + 8"); fx.append(f"{{ k: 'passos', a: {t0}, b: {bb}, itens: {json.dumps([str(x_).upper() for x_ in E['passos']][:4], ensure_ascii=False)}, up: {num(E.get('passos_up', 0.46))} }}")
+        for i_ in range(min(4, len(E['passos']))): KWSFX.append((starts[k] + min(len(ws) - 1, 1 + i_ * max(1, len(ws) // (len(E['passos']) + 1))), 'hud'))
+    if E.get('comparar'):
+        t0 = _wf(E.get('comparar_na'), -3, f"({a}) + 8"); fx.append(f"{{ k: 'comparar', a: {t0}, b: {bb}, itens: {json.dumps([[str(c_[0]).upper()] + list(c_[1:]) for c_ in E['comparar']][:3], ensure_ascii=False)}, up: {num(E.get('comparar_up', 0.46))} }}")
+        KWSFX.append((starts[k] + min(len(ws) - 1, 2), 'hud'))
+    return fx
 def _explica(k, b, light, a, bb):
     E = b['explica'] if isinstance(b['explica'], dict) else {}
     obj = E.get('objeto') or HEROI or 'kit/crate'
@@ -974,23 +991,12 @@ def _explica(k, b, light, a, bb):
         t0 = _wf(s_[3] if len(s_) > 3 else None, -3, f"Math.round({a} + ({bb} - ({a})) * {num(0.3 + 0.2 * i_)})"); pt_ = s_[4] if len(s_) > 4 else {'cima': 'topo', 'baixo': 'baixo', 'esq': 'tras' if sgF == 1 else 'frente', 'dir': 'frente' if sgF == 1 else 'tras'}.get(d_, 'topo')
         fx.append(f"{{ k: 'seta', a: {t0}, b: {bb}, prop: 0, off: {json.dumps([round(v_, 3) for v_ in _pt(pt_)])}, dir: {json.dumps(d_)}, text: {json.dumps(tx)}, col: {json.dumps(col)}, s: {num(max(1.5, min(2.4, Ls * 0.45)))} }}")
         KWSFX.append((starts[k] + (_wj(s_[3]) if len(s_) > 3 and _wj(s_[3]) is not None else min(len(ws) - 1, 4 + 3 * i_)), 'whoosh'))
-    for kind in ('medidor', 'contador'):
-        m_ = E.get(kind)
-        if m_:
-            t0 = _wf(m_.get('na'), -3, f"Math.round({a} + ({bb} - ({a})) * 0.35)")
-            fx.append(f"{{ k: {json.dumps(kind)}, a: {t0}, b: {bb}, de: {num(m_.get('de', 0))}, para: {num(m_.get('para', 100))}, un: {json.dumps(m_.get('un', ''))}, titulo: {json.dumps(str(m_.get('titulo', '')).upper())}, dur: {int(round(float(m_.get('dur', 1.0)) * 30))}, dec: {int(m_.get('dec', 0))}{', max: ' + num(m_['max']) if 'max' in m_ else ''}, up: {num(m_.get('up', 0.5))} }}")
-            KWSFX.append((starts[k] + (_wj(m_.get('na')) if _wj(m_.get('na')) is not None else len(ws) // 3), 'hud'))
-    if E.get('passos'):
-        t0 = _wf(E.get('passos_na'), -3, f"({a}) + 8"); fx.append(f"{{ k: 'passos', a: {t0}, b: {bb}, itens: {json.dumps([str(x_).upper() for x_ in E['passos']][:4], ensure_ascii=False)}, up: {num(E.get('passos_up', 0.46))} }}")
-        for i_ in range(min(4, len(E['passos']))): KWSFX.append((starts[k] + min(len(ws) - 1, 1 + i_ * max(1, len(ws) // (len(E['passos']) + 1))), 'hud'))
-    if E.get('comparar'):
-        t0 = _wf(E.get('comparar_na'), -3, f"({a}) + 8"); fx.append(f"{{ k: 'comparar', a: {t0}, b: {bb}, itens: {json.dumps([[str(c_[0]).upper()] + list(c_[1:]) for c_ in E['comparar']][:3], ensure_ascii=False)}, up: {num(E.get('comparar_up', 0.46))} }}")
-        KWSFX.append((starts[k] + min(len(ws) - 1, 2), 'hud'))
+    fx += _hud_fx(k, b, a, bb, E)
     if b.get('text'): fx.append(f"txt(X, {a} + 6, {bb}, {json.dumps(b['text'])}, '#fff6e0', '#17305c', 4.4)")
     # camera: sem corte seco; 2 enquadramentos (3/4 de frente -> o angulo que mostra o mecanismo). HUD colado em cima ocupa a parte alta: o objeto fica um pouco abaixo do centro.
     hud_on = any(E.get(x_) for x_ in ('medidor', 'contador', 'passos', 'comparar'))
     cy = (1.5 if man in ('paira', 'sobe') else 0.0) + Hs * 0.5 + (1.5 if hud_on else 0.25)
-    d0 = round(Ls * (2.15 if hud_on else 2.4) + 2.0, 2); ang = E.get('angulo') or ('baixo' if any(v_.get('k') == 'jato' for v_ in vfx_in) else 'lado')
+    d0 = round(Ls * (2.55 if hud_on else 2.4) + 2.0, 2); ang = E.get('angulo') or ('baixo' if any(v_.get('k') == 'jato' for v_ in vfx_in) else 'lado')
     k0 = (0.0, cy, z0, d0, 26, 10, 44); k1 = (0.0, cy, z0, round(d0 * 0.9, 2), 12, 8, 44)
     k2, k3 = {'baixo': ((0.0, cy - 0.5, z0, round(d0 * 0.86, 2), -24, 1.5, 44), (0.0, cy - 0.5, z0, round(d0 * 0.78, 2), -10, 2.5, 44)),
               'cima': ((0.0, cy - 0.2, z0, round(d0 * 0.95, 2), -22, 34, 44), (0.0, cy - 0.2, z0, round(d0 * 0.86, 2), -8, 30, 44)),
@@ -1369,6 +1375,7 @@ def build_beat(k, b):
         pr.append(f"{{ asset: {json.dumps(asset)}, at: [X + {num(dx - (mv / 2 if ex.get('carregado') else 0))}, {num(z)}], s: {num(s)}{extra} }}")
     # textos / efeitos
     fx = list(b.pop('_anfx', []))
+    if isinstance(b.get('hud'), dict): fx += _hud_fx(k, b, a, bb, b['hud'])   # v13: "hud": {"medidor"|"contador"|"passos"|"comparar"} = grafico em cima da cena (com personagens)
     if HEROI and not wide and b.get('heroi_brilho') is not False:   # OBJETO HEROI EM DESTAQUE: brilho de estrelinhas quando entra em cena (o olho vai direto nele)
         for p in props:
             if re.sub(r'_(red|yellow|purple|striped)$', '', str(p[0])) == re.sub(r'_(red|yellow|purple|striped)$', '', HEROI):
@@ -1793,7 +1800,7 @@ def build_beat(k, b):
         _vc = b['_voo_cam']; _dv = round(_vc['L'] * 2.6 + 6.5, 2); _cxv = _vc['dx'] - _vc['sg'] * 1.7
         cam = (f"cam: [{{ f: {a}, at: [X + {num(_cxv)}, DK + 1.5, {num(_vc['z'])}], d: {num(_dv)}, az: {8 * _vc['sg']}, el: 5, fov: 44 }}, "
                f"{{ f: {bb}, at: [X + {num(_cxv)}, DK + 1.2, {num(_vc['z'])}], d: {num(_dv * 1.08)}, az: {-8 * _vc['sg']}, el: 1.5, fov: 44 }}]")
-        call = f"{{ ...{call}, {cam}, nocut: true, vary: false, creep: 0, camFollow: {{ asset: {json.dumps(_vc['asset'])}, k: {num(_vc.get('k', 1.0))}, ky: {num(_vc.get('ky', 0.5))}{', y0: DK + ' + num(_vc['y0']) if 'y0' in _vc else ''} }} }}"
+        call = f"{{ ...{call}, {cam}, hero: {{ hero: 'none', objeto: true }}, nocut: true, vary: false, creep: 0, camFollow: {{ asset: {json.dumps(_vc['asset'])}, k: {num(_vc.get('k', 1.0))}, ky: {num(_vc.get('ky', 0.5))}{', y0: DK + ' + num(_vc['y0']) if 'y0' in _vc else ''} }} }}"
     if b.get('veiculo') and not b.get('cam_livre'):   # a camera acompanha o veiculo de lado, mostrando ele inteiro
         vc = b['veiculo']; x0v, x1v, zv = vc.get('de', -9), vc.get('para', 9), vc.get('z', 0.6); dd = vc.get('dist', 14.5)
         cam = (f"cam: [{{ f: {a}, at: [X + {num(x0v)}, DK + 1.9, {num(zv)}], d: {num(dd)}, az: {12 if x1v >= x0v else -12}, el: 7, fov: 40 }}, "
@@ -1846,7 +1853,19 @@ for _b in beats:   # DECOLAGEM A RISCA: "decolou/lancado/subiu ao ceu" com fogue
         for _p in _b.get('props', []):
             _air = {'kit/rocket': 'kit/falcon_air', 'kit/balloon': 'kit/balloon_air', 'kit/tower': 'kit/booster_air'}.get(str(_p[0]))
             if _air and os.path.exists(f'web/assets/library/{_air}.glb'): _p[0] = _air
+# v13 EPOCA: troca sozinho o que a propria ferramenta poria fora de epoca (canhao antigo em guerra do seculo XX, castical/caixote em sala moderna)
+_ano_e = ANO or _ANO0
+_ERA_SWAP = (('cannon', 1900, 'kit/canhao_moderno'), ('mk/CandleStick_Stand', 1920, 'mk/Stool'), ('mk/CandleStick_Triple', 1920, 'mk/Vase_2'), ('mk/Crate_Wooden', 1965, 'mk/Crate_Metal'), ('mk/Barrel', 1945, 'mk/Crate_Metal'), ('barrel', 1945, 'mk/Crate_Metal'), ('crate', 1965, 'mk/Crate_Metal'))
+def _era_fix(as_):
+    if _ano_e and as_ not in (B.get('epoca_ok') or []):
+        for de_, ano_, para_ in _ERA_SWAP:
+            if str(as_) == de_ and _ano_e >= ano_: return para_
+    return as_
+for _b in beats:
+    for _p in (_b.get('props') or []): _p[0] = _era_fix(_p[0])
+    if _b.get('moveis'): _b['moveis'] = [[_era_fix(m_[0])] + list(m_[1:]) for m_ in _b['moveis']]
 shots = [build_beat(k, b) for k, b in enumerate(beats)]
+if _ano_e: shots = [re.sub(r'asset: "(mk/CandleStick_Stand|mk/CandleStick_Triple|mk/Crate_Wooden|mk/Barrel|cannon)"', lambda m_: 'asset: ' + json.dumps(_era_fix(m_.group(1))), sh_) for sh_ in shots]
 A_js = ', '.join(['0'] + [f"WS({starts[k]}, -3)" for k in range(1, len(beats))] + ['TOTAL_F()'])
 assets = sorted(set(B.get('assets', []) + re.findall(r'asset: ["\']([^"\']+)["\']', ' '.join(shots)) + [p[0] for b in beats for p in b.get('props', [])] + [x_ for b in beats if b.get('veiculo') for x_ in (['kit/carro_redondo', 'kit/carro_antigo', 'kit/carro_50'] if b['veiculo'].get('asset', 'vehicles/car') in ('vehicles/car', 'kit/carro_redondo') else [b['veiculo'].get('asset')])]))
 
@@ -1932,7 +1951,7 @@ for k, b in enumerate(beats):
     _ok |= set(b.get('_enc_words', []))
     if b.get('_veic_anim'): _ok |= {nrm(w) for w in b['say'].split() if re.match(r'(voa|voo|decol|pul|salt|desc|pous|acel|dirig)', nrm(w))}   # veiculo animado na palavra (poeira + som de arrancada)
     if b.get('montado'): _ok |= {nrm(w) for w in b['say'].split() if re.match(r'(corr|cavalg|galop|atir|dispar)', nrm(w))}   # galope com som de cascos + tiro com clarao
-    _falta = [] if (b.get('impact') or b.get('sfx') or b.get('fx')) else sorted({w.strip('.,!?"') for w in b['say'].split() if _ACAO.match(nrm(w)) and nrm(w) not in _ok and len(nrm(w)) > 3 and not (b.get('_chega') and re.match(r'cheg|entr|invad', nrm(w))) and not (b.get('_acao') and re.match(r'conver|discut|brig|danc|comemor', nrm(w)))})[:4]
+    _falta = [] if (b.get('impact') or b.get('sfx') or b.get('fx') or b.get('explica')) else sorted({w.strip('.,!?"') for w in b['say'].split() if _ACAO.match(nrm(w)) and nrm(w) not in _ok and len(nrm(w)) > 3 and not (b.get('_chega') and re.match(r'cheg|entr|invad', nrm(w))) and not (b.get('_acao') and re.match(r'conver|discut|brig|danc|comemor', nrm(w)))})[:4]
     _ap = [x for x in (('batalha aberta com tiros' if b.get('impact') else ''), ('tropa' if b.get('crowd') else ''), ('animais' if b.get('emus') or b.get('animals') else ''), ('interior' if b.get('interior') else ''), ('veiculo' if b.get('veiculo') or b.get('caminhoes') else ''), ('placa: ' + str(b['text']) if b.get('text') else ''), ('mapa' if b.get('mapa') else ''), ('objeto na mao' if any(len(w.split(':')) > 3 for w in b.get('who', [])) else '')) if x]
     _sem += len(_falta)
     _pl.append(f"b{k} | {b.get('shot')} | {b.get('hora') or b.get('light') or '-'} {b.get('clima') or ''} | {', '.join(_ap) or '-'} | {'; '.join(_kw) or '-'} | {', '.join(_falta) or '-'}")
@@ -1973,7 +1992,7 @@ def _classe(b):
     if b.get('classe') in ('chave', 'explicativa', 'simples', 'transicao'): return b['classe']
     t_ = _nz(b['say'])
     if b.get('explica'): return 'explicativa'
-    if b.get('_veic_anim') or b.get('_obj_acao') or b.get('impact') or b.get('batalha') or b.get('_fogo') or b.get('montado') or re.search(r'explodi|explos|desab|afund|naufrag|incendi', t_): return 'chave'
+    if b.get('_veic_anim') or b.get('_obj_acao') or b.get('impact') or b.get('batalha') or b.get('_fogo') or b.get('montado') or re.search(r'explodi|explos|afundou|afundaram|naufrag', t_): return 'chave'
     if re.search(_RX_EXPLICA, t_) and b.get('explica') is not False: return 'explicativa'
     if b.get('_acao') or b.get('_inter') or b.get('_chega') or b.get('_enc_words') or b.get('veiculo') or any(kk_ == beats.index(b) for kk_, _, _ in PLANO): return 'simples'
     return 'transicao'
@@ -1995,7 +2014,7 @@ def _riscos(k, b):
         if not _lib(str(e_.get('objeto', ''))): R.append((f"objeto da explicacao sem modelo 3D: {e_.get('objeto')}", 'modelar em blender/ (formas.py) ou trocar "explica.objeto"'))
         if nw > 26: R.append((f'cena longa ({nw} palavras)', 'dividir em duas cenas de explicacao'))
         return R
-    if b['_classe'] == 'explicativa': R.append(('frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada', '"explica": {"objeto": "kit/<objeto>", "vfx": [{"k": "jato", "na": "<palavra>"}], "rotulos": [["NOME", "baixo", "<palavra>"]], "setas": [["cima", "FORCA"]], "medidor"/"passos"/"comparar": ...} (GUIA_DO_ROTEIRISTA.md "Cena de explicacao"); se a frase nao e\' explicacao: "explica": false'))
+    if b['_classe'] == 'explicativa' and not isinstance(b.get('hud'), dict): R.append(('frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada', '"explica": {"objeto": "kit/<objeto>", "vfx": [{"k": "jato", "na": "<palavra>"}], "rotulos": [["NOME", "baixo", "<palavra>"]], "setas": [["cima", "FORCA"]], "medidor"/"passos"/"comparar": ...} (GUIA_DO_ROTEIRISTA.md "Cena de explicacao"); para so mostrar um numero em cima da cena com personagens: "hud": {"contador": {"de": 0, "para": -40, "un": "graus", "na": "<palavra>"}}; se a frase nao e\' explicacao: "explica": false'))
     if b['_classe'] == 'chave' and len(_briefing(b)) < 3: R.append(('ACAO-CHAVE sem briefing de efeito (corpo + emissao + luz/camera)', 'por o objeto da acao em "props" (veiculo/objeto grande) para a ferramenta animar com VFX, ou "batalha"/"explica" na cena'))
     if re.search(r'desembarc|barcos? cheg|navios? cheg|chegaram? de (barco|navio)|atravess\w* o (rio|mar|lago|canal)|ancor|zarp', t) and sh not in WIDE: R.append(('chegada/travessia pela agua em plano fechado: nao da para ver barco nem desembarque', '"shot": "reveal", "set": "harbor" nesta cena (plano aberto no cais, navios ao fundo)'))
     if re.search(r'\b(rio|lago|mar|praia|ilha|costa|porto|cais|oceano)\b', t) and cen not in ('harbor', 'palace') and not b.get('interior') and not b.get('mapa'): R.append((f'a narracao cita agua e o cenario "{cen}" nao tem agua', '"set": "harbor" (cais com mar e navio) ou "set": "palace" (praia), ou "mapa" para so situar'))
@@ -2066,9 +2085,18 @@ if HEROI and not any(b.get('_det_heroi') or b.get('explica') or b.get('_voo_cam'
 _cl = __import__('collections').Counter(_lug(b_) for b_ in beats)
 if len(beats) >= 6 and B.get('variar_cenario') is not False and (len(_cl) < 3 or _cl.most_common(1)[0][1] > len(beats) // 2):
     _glob.append((f'pouca variedade de cenario ({dict(_cl)}): o video fica parecendo todos os outros', 'pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: ' + ', '.join(SETS_X) + ' | interior: madeira, pedra, loja)'))
+# ===== v13 PADROES DO CANAL (roteiro): gancho sem data, 55 a 75 segundos =====
+if B.get('serie') != 'Teste':
+    _g0 = _nz(beats[0]['say'])
+    if re.match(r'(em|no ano de|no ano|era|foi em|no dia|em meados de|no inverno de|no verao de|na primavera de|no outono de)?\s*(janeiro|fevereiro|marco|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro)?\s*(de )?(mil|dois mil|1[0-9]{3}|20[0-9]{2})\b', _g0) and B.get('gancho_ok') is not True:
+        _glob.append(('o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa)', 'reescrever a 1a frase com o fato mais absurdo da historia (sem ano); a data entra na 2a frase ou no mapa'))
+    try: _dur = json.load(open(f'stories/{ID}/work/phrases.json'))['frames30'] / 30
+    except Exception: _dur = sum(len(b_['say'].split()) for b_ in beats) / 2.9
+    if not (50 <= _dur <= 80) and B.get('duracao_ok') is not True:
+        _glob.append((f'video com ~{round(_dur)} s (o canal fica entre 55 e 75 s)', ('acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao)' if _dur < 50 else 'cortar frases que nao mudam a imagem') + ' ate ficar entre 55 e 75 s'))
 # ===== v13 OBJETO FORA DE EPOCA: nada do que esta em cena pode ser de outra epoca (bloqueia o render) =====
 _PROP_ERA = (('barrel|Barrel', -9999, 1945, 'barril'), ('crate$|Crate_Wooden', -9999, 1965, 'caixote de madeira'), ('lantern', -9999, 1925, 'lampiao'), ('CandleStick|Candle', -9999, 1920, 'castical'), ('carro_antigo', 1885, 1940, 'carro antigo'), ('carro_50', 1940, 1975, 'carro dos anos 50'),
-             ('wagon|carroca|charrete', -9999, 1935, 'carroca'), ('cannon|canhao', 1300, 1900, 'canhao antigo'), ('shield|escudo', -9999, 1650, 'escudo'), ('war/drum', -9999, 1900, 'tambor de guerra'), ('haybale|scarecrow', -9999, 1990, 'feno/espantalho'),
+             ('wagon|carroca|charrete', -9999, 1935, 'carroca'), ('^cannon$', 1300, 1900, 'canhao antigo'), ('shield|escudo', -9999, 1650, 'escudo'), ('war/drum', -9999, 1900, 'tambor de guerra'), ('haybale|scarecrow', -9999, 1990, 'feno/espantalho'),
              ('cone_transito|barreira_jersey|telao_led|grade_evento|tripe_camera|palete', 1950, 9999, 'objeto moderno'), ('roadster|cybertruck|falcon|booster|rocket|b2_|helicopter', 1940, 9999, 'veiculo moderno'), ('torre_luz', 1930, 9999, 'torre de refletor'),
              ('vehicles/(car|taxi|truck|jeep|motorcycle|tank)|carro_redondo', 1890, 9999, 'veiculo a motor'), ('buildings/apartment', 1900, 9999, 'predio de apartamentos'), ('navio_vapor', 1810, 1960, 'navio a vapor'), ('navio_vela', -9999, 1900, 'navio a vela'))
 _ano_v = ANO or _ANO0
@@ -2087,12 +2115,21 @@ for k_, b_ in enumerate(beats):
     _orq.append({'cena': f'b{k_}', 'frase': b_['say'], 'classe': c_, 'sujeito': 'objeto' if (b_.get('_obj_acao') or b_.get('_veic_anim') or b_.get('explica')) else 'personagem' if b_.get('who') else 'cenario', 'briefing': dict(br_), 'acoes_faltando': b_.get('_faltam', []), 'cenario': ('interior ' + str(b_['interior'])) if b_.get('interior') else b_.get('set', SET)})
 _m_chave = [o_ for o_ in _orq if o_['classe'] == 'chave']; _m_expl = [o_ for o_ in _orq if o_['classe'] == 'explicativa']
 _MET = {'acoes_encenadas': round(100 * sum(1 for o_ in _orq if not o_['acoes_faltando']) / max(1, len(_orq))), 'acoes_chave_com_efeito': round(100 * sum(1 for o_ in _m_chave if len(o_['briefing']) >= 3) / max(1, len(_m_chave))),
-        'explicacoes_cobertas': round(100 * sum(1 for o_, b_ in zip(_orq, beats) if o_['classe'] == 'explicativa' and b_.get('explica')) / max(1, len(_m_expl))), 'cenario_e_epoca_ok': 0 if _fora else 100}
+        'explicacoes_cobertas': round(100 * sum(1 for o_, b_ in zip(_orq, beats) if o_['classe'] == 'explicativa' and (b_.get('explica') or isinstance(b_.get('hud'), dict))) / len(_m_expl)) if _m_expl else 100, 'cenario_e_epoca_ok': 0 if _fora else 100}
 json.dump({'id': ID, 'ano': _ano_v, 'cenarios_trocados': _TROCAS, 'metricas': _MET, 'cenas': _orq}, open(f'stories/{ID}/orquestracao.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 print('v13 orquestracao: ' + ' | '.join(f'{k_} {v_}%' for k_, v_ in _MET.items()) + f' -> stories/{ID}/orquestracao.json')
 # PESQUISA VISUAL OBRIGATORIA (ordem do Gibson 23/11): todo roteiro traz "visual" com ONDE/QUANDO/QUEM/ROUPAS DA EPOCA/CENARIO/OBJETOS e as FONTES VISUAIS (fotos, quadros, videos)
 _VIS = B.get('visual') or {}
 _vfal = [k_ for k_ in ('local', 'quando', 'participantes', 'roupas', 'cenario', 'objetos', 'fontes_visuais') if not _VIS.get(k_)]
+# v13 DOSSIE DO VIDEO (conteiner isolado): referencias/<id>/DOSSIE.json + FICHA.md com as ANCORAS (ano, lugar, luz, cenarios), o que e' PROIBIDO pela epoca e a pesquisa de cada explicacao
+if any(b_.get('explica') for b_ in beats) and B.get('serie') != 'Teste' and not _VIS.get('explicacoes'): _vfal.append('explicacoes (como funciona o que o video explica, com a fonte)')
+_proib_auto = sorted({nm_ for rx_, de_, ate_, nm_ in _PROP_ERA if _ano_v and not (de_ <= _ano_v <= ate_)})
+_doss = {'id': ID, 'titulo': B.get('title'), 'ancoras': {'ano': _ano_v, 'era': ('atual (1950+)' if _MODERNO else 'historica') if _ano_v else None, 'regiao': REGIAO, 'luz_base': LIGHT, 'cenarios': sorted({o_['cenario'] for o_ in _orq}), 'cenarios_trocados': [list(t_) for t_ in _TROCAS]},
+         'proibido_pela_epoca': _proib_auto, 'proibido_pelo_roteiro': _VIS.get('proibidos') or [], 'objetos_em_cena': sorted(set(re.findall(r'asset: ["\']([^"\']+)["\']', _spec_txt))), 'pesquisa_visual': _VIS, 'fontes': B.get('fontes') or [], 'falta': _vfal}
+os.makedirs(f'referencias/{ID}', exist_ok=True)
+json.dump(_doss, open(f'referencias/{ID}/DOSSIE.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+open(f'referencias/{ID}/FICHA.md', 'w', encoding='utf-8').write('\n'.join([f"# FICHA DE REFERENCIA - {B.get('title', ID)}", '', f"- Ano/epoca: {_ano_v} ({_doss['ancoras']['era']})", f"- Onde: {_VIS.get('local', '-')}", f"- Quando: {_VIS.get('quando', '-')}", f"- Quem: {_VIS.get('participantes', '-')}", f"- Roupas: {_VIS.get('roupas', '-')}", f"- Cenario real: {_VIS.get('cenario', '-')}", f"- Objetos: {_VIS.get('objetos', '-')}",
+    f"- Cenarios usados no video: {', '.join(_doss['ancoras']['cenarios'])}", f"- PROIBIDO pela epoca (a ferramenta bloqueia): {', '.join(_proib_auto) or '-'}", f"- Proibido pelo roteiro: {', '.join(map(str, _doss['proibido_pelo_roteiro'])) or '-'}", '', '## Explicacoes (ciencia)'] + [f"- {e_}" for e_ in (_VIS.get('explicacoes') or ['-'])] + ['', '## Fontes visuais'] + [f"- {f_}" for f_ in (_VIS.get('fontes_visuais') or ['-'])] + ['', '## Fontes da historia'] + [f"- {f_}" for f_ in (B.get('fontes') or ['-'])]) + '\n')
 if B.get('serie') != 'Teste' and _vfal: _glob.append((f'roteiro sem pesquisa visual completa (falta: {", ".join(_vfal)})', 'pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela'))
 if not HEROI and 'heroi' not in B: _glob.append(('video sem objeto heroi', '"heroi": "kit/<objeto>" no topo do roteiro (modele se nao existir)'))
 _cx = sorted({o_ for b in beats for o_ in [str(p_[0]) for p_ in b.get('props', [])] + b.get('_auto_obj', []) if '/' in str(o_) and not _redondo(str(o_))})
@@ -2181,6 +2218,7 @@ open(f'stories/{ID}/riscos.txt', 'w').write(str(_tot_r + len(_glob) + _sem) + '\
 
 # ---------- v10: HERO MANIFEST (Modos 1, 2 e 3) ----------
 MODO_ATIVO = MODO_CLI if MODO_CLI is not None else int(B.get('modo', 1))
+if MODO_ATIVO != 1: print('v13: o Modo 2 (clipes do Blender costurados) foi aposentado -- era um esqueleto que nenhuma etapa chamava. As acoes-chave sao feitas no motor (VFX 3D preso no objeto + cena de explicacao). Usando o Modo 1.'); MODO_ATIVO = 1
 _hero_list = []
 for _hk, _hb in enumerate(beats):
     if _hb.get('hero_shot'):
@@ -2196,4 +2234,4 @@ for _hk, _hb in enumerate(beats):
         })
 json.dump({'id': ID, 'modo': MODO_ATIVO, 'title': B.get('title', ID), 'hero_shots': _hero_list},
           open(f'stories/{ID}/hero_manifest.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
-print(f"v10 MODO {MODO_ATIVO} ativo | {len(_hero_list)} hero shot(s) mapeado(s) -> stories/{ID}/hero_manifest.json")
+print(f"motor v13 (modo unico, 100% local) | {sum(1 for b_ in beats if b_.get('explica'))} cena(s) de explicacao, {sum(1 for b_ in beats if b_.get('_veic_anim'))} acao(oes) de objeto com VFX")

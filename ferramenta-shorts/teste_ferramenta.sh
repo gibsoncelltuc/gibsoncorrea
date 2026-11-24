@@ -28,5 +28,23 @@ node -e "import('./web/animals2d.js').catch(()=>0)" 2>/dev/null; for a in wolf f
 ls web/assets/library/kit/rg_franca_1.glb web/assets/library/kit/room_azul_wood.glb >/dev/null 2>&1 || f "kit de cidades por regiao/salas coloridas sumiu"
 grep -q "keepFam" web/acting.js || f "rosto do roteiro nao esta protegido (keepFam)"
 grep -q '"snarl"' web/toonbase.js && grep -q 'expr === "cry"' web/toonbase.js || f "raiva/choro sem desenho proprio"
-rm -rf videos/$T stories/$T
+[ -n "$T" ] && rm -rf "videos/$T" "stories/$T"
+# ---- v13: cenario limpo, cena de explicacao, objeto como sujeito, epoca ----
+V=_v13_$$; mkdir -p "videos/$V"
+cat > "videos/$V/beats.json" <<'V13'
+{"voice":"pt-BR-AntonioNeural","rate":"+10%","serie":"Teste","ep":98,"title":"teste v13 2026","ano":2026,"set":"outback","heroi":"kit/roadster26","cta":false,"outfits":{"MUS":{"jacket":"#4a505c","hat":"hair"},"ENG":{"jacket":"#1f3f6a","hat":"cap"}},"beats":[{"who":["MUS:0:grin","ENG:0:surprised"],"say":"A empresa mostrou um carro que sai do chão diante de todos.","props":[["kit/roadster26",0,-4.0,1.0]],"mapa":"ESTADOS UNIDOS"},{"say":"O segredo são propulsores de ar comprimido escondidos embaixo do carro, que empurram ele para cima.","explica":{"raiox":"escondidos","vfx":[{"k":"jato","na":"empurram"}],"rotulos":[["PROPULSORES","baixo","propulsores"]],"setas":[["cima","EMPUXO"]],"medidor":{"de":0,"para":100,"un":"km/h","na":"cima"}}},{"who":["MUS:0:laugh"],"say":"Diante dos convidados, o carro decolou e voou por cima da pista.","props":[["kit/roadster26",0,-4.0,1.0]]},{"who":["ENG:0:smile","MUS:0:grin"],"interior":"galpao","say":"Os engenheiros conversaram sobre o motor elétrico que funciona com bateria nova."}]}
+V13
+python3 mkvideo.py $V > /dev/null 2>&1 || f "v13: mkvideo nao rodou no roteiro de teste"
+S=stories/$V/spec.js
+grep -q 'sets: \[[^]]*"outback"' $S && f "v13: historia de 2026 ficou no cenario de fazenda (outback)"
+grep -q 'loc_estudio' $S || f "v13: cena de explicacao nao foi para o estudio"
+{ grep -q "k: 'rotulo'" $S && grep -q "k: 'seta'" $S && grep -q 'k: "medidor"' $S && grep -q "xray:" $S; } || f "v13: cena de explicacao sem rotulo/seta/medidor/raio-X"
+{ grep -q "k: 'jato'" $S && grep -q "camFollow" $S && grep -q "k: 'onda'" $S; } || f "v13: voo do carro sem jato/onda/camera seguindo"
+grep -q 'mk/Barrel\|mk/Crate_Wooden' $S && f "v13: barril/caixote em cena de 2026"
+grep -q 'EXPLICATIVA' stories/$V/folha2_producao.md || f "v13: frase explicativa sem explica nao foi bloqueada"
+python3 -c "import json,sys;o=json.load(open('stories/$V/orquestracao.json'));c=[x['classe'] for x in o['cenas']];sys.exit(0 if c[1]=='explicativa' and c[2]=='chave' and o['metricas']['cenario_e_epoca_ok']==100 else 1)" || f "v13: triagem das frases errada"
+{ [ -f referencias/$V/DOSSIE.json ] && [ -f referencias/$V/FICHA.md ]; } || f "v13: dossie nao foi gravado"
+node --check web/vfx.js 2>/dev/null || f "sintaxe web/vfx.js"
+grep -q "vfx.js" build3.sh || f "v13: vfx.js fora do build"
+[ -n "$V" ] && rm -rf "videos/$V" "stories/$V" "referencias/$V"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }

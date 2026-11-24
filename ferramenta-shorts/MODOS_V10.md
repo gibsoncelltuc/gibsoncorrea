@@ -1,9 +1,10 @@
-# FERRAMENTA SHORTS v10 FINAL — 2 MODOS 100% LOCAIS (SEM API EXTERNA)
+# Modos da ferramenta (v13, 24/11)
 
-A ferramenta opera exclusivamente com **código local** e **Blender 3D local**, sem chamar nenhuma API externa ou IA generativa de vídeo.
-No Claude Desktop, basta pedir **Modo 1** ou **Modo 2**:
+Existe **um modo só**: o motor local (Three.js + Canvas 2D), 100% local, sem API externa e sem IA generativa.
 
-| Modo | Nome | Comando | O que faz |
-|---|---|---|---|
-| **Modo 1** | **100% Código** | `python3 mkvideo.py <id> --modo 1` | Motor v10 completo (30 fps reais): boneco 2D redesenhado fiel ao estilo `@RicksClips3000`, timeline explícita `acoes`, rosto roxo + vapor de fúria, *speed lines*, *whip-pan* e punch-in de câmera. |
-| **Modo 2** | **Híbrido Blender (100% local)** | `python3 mkvideo.py <id> --modo 2` + `python3 hero_shots.py <id> --modo 2 --base <base.mp4> --out <final.mp4>` | Renderiza os beats marcados com `"hero_shot": true` localmente no **Blender** (`blender/hero_render.py` → `stories/<id>/blender_clips/bN.mp4`) e costura automaticamente no vídeo base com áudio e legendas. |
+O antigo "Modo 2" (clipes do Blender costurados no vídeo) foi aposentado: era um esqueleto que nenhuma etapa da fábrica chamava. O que ele prometia agora é feito dentro do motor:
+
+- **Ação-chave de objeto** (carro decola, voa, pula, pousa, arranca): animação com VFX 3D preso no objeto (`web/vfx.js`) e câmera seguindo.
+- **Explicação de ciência** sem personagem: campo `"explica"` no beat (`GUIA_DO_ROTEIRISTA.md`, "Cena de explicação").
+
+O Blender continua sendo usado para **modelar** objetos (`blender/formas.py`, `blender/objetos_*.py`). Os arquivos antigos estão em `legado/`.

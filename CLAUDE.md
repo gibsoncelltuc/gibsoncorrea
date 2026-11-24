@@ -9,6 +9,12 @@ Usuário: Gibson, fala português. Responda sempre em português, curto e honest
 - Sessoes de producao (mesma conta; guiar com send_message terminando em "Nao responda por mensagem."): A = `session_01HE8Dy3Tz5Mgz6d3rSUrMHS` (branch claude/prod-a-karansebes), B = `session_01HE8DxzBrskhVHznwqCpD4i` (branch claude/prod-b-emus). Videos delas chegam por `bash receber_das_sessoes.sh`. PAUSADAS em 23/11 a pedido do Gibson; ao retomar, a 1a ordem a elas e': `bash sync_ferramenta.sh` (as duas ainda estavam com mkvideo.py/runtime.js diferentes da principal) e religar o loop de sync a cada 10 min. Ronda horaria (trigger) desativada; fila principal parada (fila em fila_principal.txt).
 - Licoes do storyboard (corrigir antes de aprovar): palavra "plateia/multidao" enche a tela de gente (use "convidados" quando a cena e' de objeto); objeto grande precisa de plano aberto com camera mirando nele (cx/cz/h/d0/d1 no beat); "fachada": false e "regiao" certa para nao aparecer predio de cidade no campo.
 
+## ESTADO EM 24/11 — FERRAMENTA v13 (leia junto com o de 23/11)
+- Piloto do Roadster avaliado em "50%" pelo Gibson (sem propulsao embaixo do carro, carro nao voou, explicacao com personagem, "fazendinha" no fundo). Pente fino v13 feito: `ferramenta-shorts/PROTOCOLO_ACAO.md` §20 e `GUIA_DO_ROTEIRISTA.md` "v13".
+- Regras novas para TODO roteiro: frase de ciencia/mecanismo = cena `"explica"` SEM personagem (ou `"hud"`); "o carro/objeto decolou, voou, pulou, pousou" = cena do objeto com VFX preso nele; cenario tematico (outback/mountain/countryside...) so' com tema pedido, senao `loc_*`; objeto fora de epoca bloqueia; 1a frase sem data; 55-75 s. Conferir `stories/<id>/orquestracao.json` (4 metricas em 100%).
+- Producao segue PAUSADA (arquivo `ferramenta-shorts/PAUSA`; apagar para religar fila/watchdog). O Roadster so' e' refeito depois do "pode" do Gibson; ao refazer: `"set": "loc_pista"`, `explica` nas frases dos propulsores e do zero a cem, voo com VFX. Sessoes A/B: ao retomar, `bash sync_ferramenta.sh` primeiro.
+- NAO usar agentes/subagentes/workflows (ordem repetida em 24/11).
+
 ## REGRA MESTRA (ordem do Gibson, 19/11) — vale acima de todas as outras
 1. **Nunca informe um problema ao Gibson sem antes já ter resolvido.** Achou o defeito: corrige, confere (teste, quadro, folha de contato) e só então conta o que estava errado e como ficou.
 2. **Todo erro encontrado é PRIORIDADE MÁXIMA:** para o que estiver fazendo, resolve primeiro, depois informa as falhas (já corrigidas) no relatório.

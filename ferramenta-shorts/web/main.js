@@ -312,9 +312,9 @@ SETDEF.loc_cidade = (X) => {   // cidade moderna (depois de 1950): asfalto, calc
   _locBoxCity(X, -22, ['#8fa3b8', '#a9b7c6', '#7b8fa6', '#c4ccd6', '#6d7f96'], 18, 33); _locBoxCity(X, -70, ['#75869c', '#8b9ab0', '#63748b'], 14, 35); _locItens('loc_cidade', X);
 };
 SETDEF.loc_estudio = (X) => {   // ESTUDIO DE EXPLICACAO (cena de ciencia sem personagem): chao escuro com grade, fundo liso, nada mais
-  const c = _locCfg('loc_estudio'); groundPlane(X, 0, 400, 400, new THREE.MeshBasicMaterial({ color: c.chao || '#101a2e' }), DECK, 8);
-  const gm = new THREE.MeshBasicMaterial({ color: c.grade || '#27406b' }); for (let i = -30; i <= 30; i++) { const a = add(box(0.05, 0.01, 140), gm, X + i * 2, DECK + 0.015, -20, world), b = add(box(140, 0.01, 0.05), gm, X, DECK + 0.015, -20 + i * 2, world); a.castShadow = b.castShadow = false; a.userData.ndSkip = b.userData.ndSkip = true; }
-  const bk = add(new THREE.PlaneGeometry(600, 240), new THREE.MeshBasicMaterial({ color: c.fundo || '#0c1424', fog: false }), X, DECK + 100, -95, world); bk.castShadow = false; bk.userData.ndSkip = true;
+  const c = _locCfg('loc_estudio'); groundPlane(X, 0, 400, 400, new THREE.MeshBasicMaterial({ color: c.chao || '#2a5fa8', fog: false }), DECK, 8);
+  const gm = new THREE.MeshBasicMaterial({ color: c.grade || '#6fb0f0', fog: false }); for (let i = -30; i <= 30; i++) { const a = add(box(0.05, 0.01, 140), gm, X + i * 2, DECK + 0.015, -20, world), b = add(box(140, 0.01, 0.05), gm, X, DECK + 0.015, -20 + i * 2, world); a.castShadow = b.castShadow = false; a.userData.ndSkip = b.userData.ndSkip = true; }
+  const bk = add(new THREE.PlaneGeometry(600, 240), new THREE.MeshBasicMaterial({ color: c.fundo || '#3273c4', fog: false }), X, DECK + 100, -95, world); bk.castShadow = false; bk.userData.ndSkip = true;
 };
 // More sets: arctic, palace (Zanzibar shore), jungle, medieval, street, hall, stadium.
 SETDEF.arctic = (X) => {
