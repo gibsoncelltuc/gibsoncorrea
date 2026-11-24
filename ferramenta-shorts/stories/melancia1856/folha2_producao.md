@@ -74,10 +74,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Os viajantes se trancaram na estação de trem, e a polícia da cidade en...
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (3): VIA (variante 0, expressao shock); VIA (variante 1, expressao nervous); MOR (variante 0, expressao angry)
-- Animacao: discutir | interacao: insiste | o ultimo personagem ENTRA andando
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Personagens principais (1): VIA (variante 0, expressao shock)
+- Animacao: discutir
 - Objetos/modelos: vehicles/locomotive, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): briga, cidade, estacao, policia, trem, viajantes
 - RISCOS: nenhum
@@ -137,8 +137,8 @@ nature/lamppost | b7 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/melon | grandes momentos: b6, b9 | planos abertos: 4 | mistura: close 8% | medio 65% | aberto 20% | detalhe 6%
-- Interacoes: b0 discutir, b3 empurrar, b4 discutir, b5 empurrar, b7 insiste, b8 susto
+- Objeto heroi: kit/melon | grandes momentos: b6, b9 | planos abertos: 4 | mistura: close 8% | medio 68% | aberto 20% | detalhe 4%
+- Interacoes: b0 discutir, b3 empurrar, b4 discutir, b5 empurrar, b8 susto
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

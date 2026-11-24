@@ -117,6 +117,9 @@ grep -q "'harbor': \['buildings/shop', 'buildings/lighthouse'\]" mkvideo.py && f
 grep -q 'OBJETO HEROI: no vao ENTRE os personagens' mkvideo.py || f "objeto heroi empurrado para fora do quadro pela regra nada-na-frente"
 grep -q '_fixa_nome' mkvideo.py || f "veiculo sem pasta (locomotive) trava o carregamento do video"
 grep -q 'cobrindo a tela' visivel.mjs && grep -q 'cobrindo a tela' autocorrigir_visibilidade.py || f "objeto grande cobrindo a tela (parede/casco) passa sem checagem"
+T_=videos/_teste_coer; mkdir -p $T_; printf '{"regiao":"brasil","outfits":{"A":{"jacket":"#111"},"B":{"jacket":"#111"}},"beats":[{"say":"Segundo uma versao, tudo comecou assim.","mapa":"PERNAMBUCO"},{"say":"Eles brigaram.","batalha":true,"crowd":{"outfits":["A","B"]}}]}' > $T_/beats.json
+_co=$(python3 checagem_coerencia.py _teste_coer 2>&1); for r_ in R1 R2 R3 R4; do echo "$_co" | grep -q "$r_ " || f "coerencia nao pega a regra $r_ (lugar/regiao/fardas/gancho)"; done; rm -rf $T_
+grep -q 'checagem_coerencia.py' verificar_folhas.py || f "verificar_folhas nao roda a checagem de coerencia"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }

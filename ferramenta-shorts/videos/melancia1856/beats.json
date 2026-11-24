@@ -177,7 +177,7 @@
    "tstyle": "red"
   },
   {
-   "shot": "wide",
+   "shot": "group",
    "set": "street",
    "who": [
     "VEN:0:shout"
@@ -198,18 +198,17 @@
    "say": "Em poucos minutos, a rua virou uma briga enorme entre moradores e viajantes.",
    "props": [],
    "detalhe": false,
-   "d0": 12.0,
-   "d1": 11.0
+   "d0": 18.0,
+   "d1": 17.0,
+   "_auto_vis": 3
   },
   {
    "say": "Os viajantes se trancaram na estação de trem, e a polícia da cidade entrou na briga.",
-   "shot": "wide",
+   "shot": "group",
    "set": "countryside",
    "acao": "discutir",
    "who": [
-    "VIA:0:shock",
-    "VIA:1:nervous",
-    "MOR:0:angry"
+    "VIA:0:shock"
    ],
    "props": [
     [
@@ -225,7 +224,9 @@
    "d0": 16.0,
    "d1": 13.0,
    "text": "ESTAÇÃO DE TREM",
-   "titulo": true
+   "titulo": true,
+   "detalhe": false,
+   "_auto_vis": 3
   },
   {
    "shot": "two",
@@ -238,7 +239,7 @@
    "say": "Acontece que mais de quinze pessoas morreram naquele dia, e a cidade ficou em choque."
   },
   {
-   "shot": "wide",
+   "shot": "group",
    "set": "harbor",
    "who": [
     "SOL:0:stern"
@@ -262,8 +263,9 @@
    ],
    "say": "O Panamá era da Colômbia, e a Colômbia acabou pagando uma indenização aos americanos.",
    "detalhe": false,
-   "d0": 12.0,
-   "d1": 11.0
+   "d0": 18.0,
+   "d1": 17.0,
+   "_auto_vis": 3
   },
   {
    "shot": "close",
