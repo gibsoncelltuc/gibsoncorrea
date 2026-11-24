@@ -1,33 +1,4 @@
 {
- "fails": [
-  {
-   "f": 1500,
-   "shot": "b9~1",
-   "why": [
-    "rom: head/torso cropped (box -0.043, 0.475, 0.069, 0.617)"
-   ]
-  },
-  {
-   "f": 1504,
-   "shot": "b9~1",
-   "why": [
-    "rom: head/torso cropped (box -0.081, 0.475, 0.041, 0.616)"
-   ]
-  },
-  {
-   "f": 1508,
-   "shot": "b9~1",
-   "why": [
-    "rom: head/torso cropped (box -0.122, 0.475, 0.001, 0.615)"
-   ]
-  },
-  {
-   "f": 1510,
-   "shot": "b9~1",
-   "why": [
-    "rom: head/torso cropped (box -0.15, 0.475, -0.021, 0.615)"
-   ]
-  }
- ],
+ "fails": [],
  "tiny": []
 }

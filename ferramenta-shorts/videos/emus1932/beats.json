@@ -235,7 +235,10 @@
      "run",
      1.0
     ]
-   ]
+   ],
+   "crowd": {
+    "n": 0
+   }
   },
   {
    "say": "Numa tentativa, uma metralhadora foi instalada num caminhão, mas ele sacudia tanto que ninguém atirava.",

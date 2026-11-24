@@ -8,7 +8,7 @@ b0 | outback | two | 0 | parados (so fala e pisca) | emus | - | -
 b1 | outback | reveal | 2 | reagir | nature/haybale, buildings/barn, nature/picket_fence, nature/scarecrow, emus | pitchfork | -
 b2 | interior madeira | two | 2 | reagir, INTERAGEM: vai ate o outro | - | paper | -
 b3 | countryside | two | 2 | conversar, INTERAGEM: aproxima-se | mgun, crate | - | -
-b4 | outback | crowd | 8 | encena, batalha | emu | - | -
+b4 | outback | crowd | 2 | encena, batalha | emu | - | -
 b5 | countryside | wide | 1 | encena | vehicles/truck, mgun | - | -
 b6 | loc_campo | orbit | 32 | batalha | emus | - | -
 b7 | countryside | group | 6 | encena | vehicles/tank | - | -
