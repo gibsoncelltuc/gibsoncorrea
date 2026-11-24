@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 14 - A Guerra de 335 Anos
 
-Gerado em 24/11 10:56 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 13:07 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -12,7 +12,7 @@ b2 | chave | harbor | crowd | ILH, HOL | 18 | navios de guerra ao fundo, no tama
 b3 | simples | harbor | group | HOL, MAR, MAR | - | ship | - | A Holanda mandou navios de guerra e exigiu o dinheiro de volta.
 b4 | chave | harbor | orbit | MAR, MAR | 20 | ship | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Dizem que, como ninguém pagou, o almirante holandês declarou guerra às
 b5 | simples | loc_campo | group | PRE, ILH | 16 | - | - | Acontece que os ingleses assumiram as ilhas pouco depois, e ninguém se
-b6 | simples | loc_campo | two | ILH, ILH | - | - | - | A guerra seguiu esquecida por mais de trezentos anos.
+b6 | simples | loc_campo | two | ILH, ILH | - | - | - | A guerra seguiu esquecida por mais de trezentos anos. As ilhas seguira
 b7 | simples | loc_campo | group | EMB, PRE | - | - | - | Em mil novecentos e oitenta e cinco, um historiador perguntou se a gue
 b8 | simples | harbor | two | EMB, PRE | - | - | - | No ano seguinte, o embaixador holandês foi até as ilhas.
 b9 | simples | interior pedra | two | EMB, PRE | - | scroll | - | Os dois assinaram a paz, e a guerra de 335 anos acabou.
@@ -24,7 +24,7 @@ b11 | simples | street | close | ILH | - | - | - | Agora não deixe de comentar:
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/14 itens) | PENDENTE | python3 pesquisar.py scilly1651
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/15 itens) | PENDENTE | python3 pesquisar.py scilly1651
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
 4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | BLOQUEADO (etapa anterior pendente) | 

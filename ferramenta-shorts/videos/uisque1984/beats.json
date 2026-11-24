@@ -208,6 +208,16 @@
    "set": "harbor"
   },
   {
+   "shot": "wide",
+   "who": [
+    "CAN:0:smug",
+    "DIN:0:smug"
+   ],
+   "interacao": "cochichar",
+   "set": "harbor",
+   "say": "A brincadeira ficou famosa como a Guerra do Uísque, e virou piada entre os dois países."
+  },
+  {
    "shot": "two",
    "interior": "pedra",
    "who": [

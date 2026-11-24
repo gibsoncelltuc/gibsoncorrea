@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 08 - Darwin e os Tentilhões
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 11 cenas, 151 palavras (~52 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 11 cenas, 164 palavras (~57 s)
 
 ## Cena b0  (~5.2 s)
 - Narracao: Um cientista misturou as etiquetas de uns passarinhos, e isso explicou a vida na Terra.
@@ -20,8 +20,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: - | mapa: GALÁPAGOS
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~3.8 s)
-- Narracao: Coletou bichos, plantas e uns passarinhos pequenos, de ilha em ilha.
+## Cena b2  (~8.3 s)
+- Narracao: Coletou bichos, plantas e uns passarinhos pequenos, de ilha em ilha. A viagem do Beagle durou quase cinco anos, dando a volta ao mundo.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: pega (lift) @0 -> acao + som de efeito

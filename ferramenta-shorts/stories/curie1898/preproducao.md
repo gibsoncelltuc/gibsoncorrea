@@ -7,19 +7,20 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | loc_campo | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/curie_box, kit/marco_eiffel | - | -
 b1 | loc_campo | crowd | 8 | batalha | kit/marco_eiffel | - | -
 b2 | interior madeira | two | 2 | conversar, INTERAGEM: aproxima-se | - | paper | -
-b3 | interior madeira | group | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/curie_box | - | -
-b4 | interior madeira | close | 1 | conversar | kit/curie_box | - | -
-b5 | interior madeira | two | 2 | reagir, INTERAGEM: o outro se aproxima | - | paper | -
-b6 | loc_deserto | crowd | 21 | comemorar, batalha | kit/marco_eiffel | - | -
-b7 | loc_deserto | two | 1 | conversar | - | - | -
-b8 | interior pedra | two | 2 | conversar, INTERAGEM: susto | kit/curie_box, crate | - | -
-b9 | interior pedra | low | 1 | conversar | kit/curie_box | - | -
-b10 | loc_montanha | close | 1 | conversar | kit/curie_box | - | -
-b11 | loc_campo | close | 1 | conversar | - | - | -
+b3 | interior madeira | group | 2 | conversar, INTERAGEM: avanca e o outro recua | - | paper | -
+b4 | interior madeira | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/curie_box | - | -
+b5 | interior madeira | close | 1 | conversar | kit/curie_box | - | -
+b6 | interior madeira | two | 2 | reagir, INTERAGEM: insiste | - | paper | -
+b7 | loc_campo | crowd | 21 | comemorar, batalha | kit/marco_eiffel | - | -
+b8 | loc_campo | two | 1 | conversar | - | - | -
+b9 | interior pedra | two | 2 | conversar, INTERAGEM: susto | kit/curie_box, crate | - | -
+b10 | interior pedra | low | 1 | conversar | kit/curie_box | - | -
+b11 | loc_montanha | close | 1 | conversar | kit/curie_box | - | -
+b12 | loc_campo | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/curie_box
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b1, b6
-Interacoes entre personagens: b0 vai ate o outro, b2 aproxima-se, b3 avanca e o outro recua, b5 o outro se aproxima, b8 susto
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b1, b7
+Interacoes entre personagens: b0 vai ate o outro, b2 aproxima-se, b3 avanca e o outro recua, b4 o outro se aproxima, b6 insiste, b9 susto
 
-Cenas com personagens parados: 0 de 12
+Cenas com personagens parados: 0 de 13
 FALTA MODELAR: nada

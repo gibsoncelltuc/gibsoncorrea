@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 14 - A Guerra de 335 Anos
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 12 cenas, 151 palavras (~52 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 12 cenas, 166 palavras (~57 s)
 
 ## Cena b0  (~5.5 s)
 - Narracao: Uma ilha minúscula ficou 335 anos em guerra com a Holanda, e ninguém deu um tiro.
@@ -56,11 +56,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
-## Cena b6  (~3.1 s)
-- Narracao: A guerra seguiu esquecida por mais de trezentos anos.
+## Cena b6  (~8.3 s)
+- Narracao: A guerra seguiu esquecida por mais de trezentos anos. As ilhas seguiram a vida normal, sem soldados e sem nenhum navio holandês por perto.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: chega (point) @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: chega (point) @2 -> acao + som de efeito; encena: chega (point) @11 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

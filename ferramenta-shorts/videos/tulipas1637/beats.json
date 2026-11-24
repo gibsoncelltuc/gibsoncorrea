@@ -193,6 +193,47 @@
    "say": "Logo, o país inteiro estava comprando. Padeiros, sapateiros, gente que nunca tinha plantado nada."
   },
   {
+   "shot": "wide",
+   "who": [
+    "POV:0:grin:tulip",
+    "POV:1:laugh:coin",
+    "MER:0:grin"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "props": [
+    [
+     "kit/tulip_bed",
+     -6,
+     -4,
+     1.4
+    ],
+    [
+     "kit/tulip_bed",
+     6,
+     -4.5,
+     1.4
+    ],
+    [
+     "kit/tulip_bed",
+     0,
+     -7,
+     1.4
+    ]
+   ],
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "POV",
+     "RIC"
+    ],
+    "march": false,
+    "expr": "grin"
+   },
+   "titulo": true,
+   "say": "Contam que teve gente que trocou terras e casas por um único bulbo."
+  },
+  {
    "shot": "two",
    "who": [
     "POV:2:grin:paper",

@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 20 - As Abelhas que Dançam um Mapa
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 12 cenas, 147 palavras (~51 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 12 cenas, 163 palavras (~56 s)
 
 ## Cena b0  (~5.2 s)
 - Narracao: As abelhas conversam dançando. E foi um cientista teimoso que descobriu o que elas dizem.
@@ -20,8 +20,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: - | mapa: ÁUSTRIA
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~5.2 s)
-- Narracao: Ele construiu uma colmeia de vidro e pôs pratinhos com água e açúcar no jardim.
+## Cena b2  (~6.6 s)
+- Narracao: Ele construiu uma colmeia de vidro e pôs pratinhos com água e açúcar no jardim, bem longe da colmeia.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: thump@30
 - Efeito + som nas palavras-chave: encena: constroi (hammer) @1 -> acao + som de efeito
@@ -83,11 +83,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: TESTE
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b9  (~2.4 s)
-- Narracao: Já idoso, ele ganhou o Prêmio Nobel.
+## Cena b9  (~6.6 s)
+- Narracao: Já idoso, em mil novecentos e setenta e três, ele ganhou o Prêmio Nobel, dividido com outros dois cientistas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: ganhou -> stars + som de sino; Prêmio -> stars + som de sino; encena: vence (up) @3 -> acao + som de efeito
+- Efeito + som nas palavras-chave: ganhou -> stars + som de sino; Prêmio -> stars + som de sino; encena: vence (up) @10 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: NOBEL
 - Funcao na historia: desenvolvimento

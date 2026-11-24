@@ -25,8 +25,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | estudando (8.5s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
 | 2 | - | MAPA | ÁUSTRIA | OK |
 
-## Cena b2 - 9.3s a 14.4s - 15 palavras - plano crowd
-> "Ele construiu uma colmeia de vidro e pôs pratinhos com água e açúcar no jardim."
+## Cena b2 - 9.3s a 15.9s - 19 palavras - plano crowd
+> "Ele construiu uma colmeia de vidro e pôs pratinhos com água e açúcar no jardim, bem longe da colmeia."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -35,46 +35,46 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | DANÇA | OK |
 
-## Cena b3 - 14.8s a 20.4s - 16 palavras - plano close
+## Cena b3 - 16.3s a 21.9s - 16 palavras - plano close
 > "Acontece que, quando uma abelha achava o açúcar, ela voltava e dançava em cima do favo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | voltava (18.1s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | dançava (18.9s) | ACAO: danca | danca de bracos para cima | OK |
+| 1 | voltava (19.6s) | ACAO: chega | entra andando pela lateral | OK |
+| 2 | dançava (20.4s) | ACAO: danca | danca de bracos para cima | OK |
 | 3 | - | ATUACAO | dancar | OK |
 
-## Cena b4 - 20.7s a 24.1s - 10 palavras - plano two
+## Cena b4 - 22.2s a 25.6s - 10 palavras - plano two
 > "Comida perto: voltinhas. Comida longe: um oito, rebolando no meio."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | rebolando (23.3s) | ACAO: danca | danca de bracos para cima | OK |
+| 1 | rebolando (24.8s) | ACAO: danca | danca de bracos para cima | OK |
 | 2 | - | INTERACAO | discutir | OK |
 | 3 | - | ATUACAO | discutir | OK |
 
-## Cena b5 - 24.4s a 29.6s - 15 palavras - plano low
+## Cena b5 - 25.9s a 31.1s - 15 palavras - plano low
 > "E o mais incrível: o ângulo da rebolada mostrava a direção, comparada com o sol."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | rebolada (27.0s) | ACAO: danca | danca de bracos para cima | OK |
-| 2 | mostrava (27.4s) | ACAO: fala | aponta explicando | OK |
+| 1 | rebolada (28.5s) | ACAO: danca | danca de bracos para cima | OK |
+| 2 | mostrava (28.9s) | ACAO: fala | aponta explicando | OK |
 | 3 | - | EMOCAO: shock | o rosto vira "shock" na palavra | OK |
 | 4 | - | ATUACAO | reagir | OK |
 
-## Cena b6 - 30.0s a 34.1s - 12 palavras - plano two
+## Cena b6 - 31.5s a 35.6s - 12 palavras - plano two
 > "Quanto mais rebolava, mais longe a comida. Era um mapa de dança!"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | rebolava (30.7s) | ACAO: danca | danca de bracos para cima | OK |
-| 2 | dança (34.1s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | dança (34.1s) | ACAO: danca | danca de bracos para cima | OK |
+| 1 | rebolava (32.2s) | ACAO: danca | danca de bracos para cima | OK |
+| 2 | dança (35.6s) | EFEITO: stars | estrelinhas + som | OK |
+| 3 | dança (35.6s) | ACAO: danca | danca de bracos para cima | OK |
 | 4 | - | INTERACAO | entregar | OK |
 | 5 | - | ATUACAO | dancar | OK |
 
-## Cena b7 - 34.4s a 37.4s - 9 palavras - plano two
+## Cena b7 - 35.9s a 38.9s - 9 palavras - plano two
 > "Muitos cientistas não acreditaram. Inseto com linguagem? Parecia piada."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -82,7 +82,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | o outro se aproxima | OK |
 | 2 | - | ATUACAO | discutir | OK |
 
-## Cena b8 - 37.8s a 41.5s - 11 palavras - plano crowd
+## Cena b8 - 39.3s a 43.0s - 11 palavras - plano crowd
 > "Ele repetiu os testes centenas de vezes. As abelhas sempre acertavam."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -91,28 +91,28 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | reagir | OK |
 | 3 | - | PLACA | TESTE | OK |
 
-## Cena b9 - 41.9s a 44.1s - 7 palavras - plano group
-> "Já idoso, ele ganhou o Prêmio Nobel."
+## Cena b9 - 43.3s a 50.0s - 19 palavras - plano group
+> "Já idoso, em mil novecentos e setenta e três, ele ganhou o Prêmio Nobel, dividido com outros dois cientistas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ganhou (43.0s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | ganhou (43.0s) | ACAO: vence | bracos para cima + brilho | OK |
-| 3 | Prêmio (43.7s) | EFEITO: stars | estrelinhas + som | OK |
+| 1 | ganhou (47.0s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | ganhou (47.0s) | ACAO: vence | bracos para cima + brilho | OK |
+| 3 | Prêmio (47.8s) | EFEITO: stars | estrelinhas + som | OK |
 | 4 | - | INTERACAO | pular | OK |
 | 5 | - | ATUACAO | comemorar | OK |
 | 6 | - | PLACA | NOBEL | OK |
 
-## Cena b10 - 44.4s a 49.3s - 14 palavras - plano close
+## Cena b10 - 50.4s a 55.2s - 14 palavras - plano close
 > "Da próxima vez que vir uma abelha, lembre: ela pode estar contando um segredo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | segredo (49.3s) | EFEITO: ring | onda + som | OK |
-| 2 | segredo (49.3s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
+| 1 | segredo (55.2s) | EFEITO: ring | onda + som | OK |
+| 2 | segredo (55.2s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b11 - 49.6s a 54.1s - 13 palavras - plano two
+## Cena b11 - 55.6s a 60.0s - 13 palavras - plano two
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

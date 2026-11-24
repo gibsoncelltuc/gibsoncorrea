@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 17 - A Guerra do Uísque
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 5.2s - 15 palavras - plano two
@@ -73,23 +73,31 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | cochichar | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b8 - 41.1s a 45.6s - 13 palavras - plano two
+## Cena b8 - 41.1s a 46.7s - 16 palavras - plano group
+> "A brincadeira ficou famosa como a Guerra do Uísque, e virou piada entre os dois países."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | cochichar | OK |
+| 2 | - | ATUACAO | conversar | OK |
+
+## Cena b9 - 47.0s a 51.5s - 13 palavras - plano two
 > "Em dois mil e vinte e dois, enfim, dividiram a ilha ao meio."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | dividiram (44.1s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 1 | dividiram (50.0s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 2 | - | INTERACAO | entregar | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 45.9s a 50.7s - 14 palavras - plano close
+## Cena b10 - 51.9s a 56.7s - 14 palavras - plano close
 > "A guerra mais educada da história acabou sem um tiro e com muito uísque."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | comemorar | OK |
 
-## Cena b10 - 51.1s a 55.6s - 13 palavras - plano two
+## Cena b11 - 57.0s a 61.5s - 13 palavras - plano two
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 08 - Darwin e os Tentilhões
 
-Gerado em 24/11 10:23 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 13:07 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -8,7 +8,7 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 ---|---|---|---|---|---|---|---|---
 b0 | simples | harbor | two | DAR, MAR | - | finch | - | Um cientista misturou as etiquetas de uns passarinhos, e isso explicou
 b1 | simples | harbor | reveal | MAR, MAR | 8 | navio em movimento, navios de guerra ao fundo, no tamanho real | - | Em mil oitocentos e trinta e cinco, Charles Darwin chegou às ilhas Gal
-b2 | simples | harbor | two | DAR, MAR | - | finch | - | Coletou bichos, plantas e uns passarinhos pequenos, de ilha em ilha.
+b2 | simples | harbor | two | DAR, MAR | - | finch | - | Coletou bichos, plantas e uns passarinhos pequenos, de ilha em ilha. A
 b3 | chave | harbor | crowd | DAR, MAR | 12 | finch | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Achou que eram aves bem diferentes, e nem anotou de que ilha vinha cad
 b4 | simples | interior pedra | two | DAR, GOU | - | finch | - | Em Londres, o especialista John Gould revelou: eram todos tentilhões, 
 b5 | simples | interior madeira | two | GOU, DAR | - | finch_long, finch_thick | - | A diferença estava no bico: uns grossos para quebrar sementes, outros 

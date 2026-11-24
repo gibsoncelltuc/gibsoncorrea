@@ -12,13 +12,14 @@ b4 | arctic | two | 2 | comemorar, INTERAGEM: pular | war/flagpole, kit/whisky, 
 b5 | harbor | crowd | 12 | encena, batalha | war/flagpole | flag | -
 b6 | arctic | two | 2 | reagir, INTERAGEM: entregar | kit/whisky, barrel, kit/tequila_bolt | paper | -
 b7 | harbor | two | 2 | conversar, INTERAGEM: cochichar | war/flagpole, kit/tequila_bolt | - | -
-b8 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | - | paper | -
-b9 | interior pedra | close | 1 | comemorar | kit/whisky | - | -
-b10 | interior pedra | two | 1 | conversar | - | - | -
+b8 | harbor | group | 2 | conversar, INTERAGEM: cochichar | kit/whisky | - | -
+b9 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | - | paper | -
+b10 | interior pedra | close | 1 | comemorar | kit/whisky | - | -
+b11 | interior pedra | two | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/whisky
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b5
-Interacoes entre personagens: b0 discutir, b2 empurrar, b4 pular, b6 entregar, b7 cochichar, b8 entregar
+Interacoes entre personagens: b0 discutir, b2 empurrar, b4 pular, b6 entregar, b7 cochichar, b8 cochichar, b9 entregar
 
-Cenas com personagens parados: 1 de 11
+Cenas com personagens parados: 1 de 12
 FALTA MODELAR: nada

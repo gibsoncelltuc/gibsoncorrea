@@ -7,7 +7,7 @@
    "item": "A Guerra da Melancia",
    "consultas": [
     "A Guerra da Melancia",
-    "Uma Panamá Estados Unidos Em Panamá Califórnia Um 1856"
+    "Uma Panamá Estados Unidos Em Panamá Califórnia Eles Pacífico 1856"
    ]
   },
   {
@@ -112,6 +112,21 @@
    "consultas": [
     "melancia",
     "A Guerra da Melancia"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "locomotive",
+   "consultas": [
+    "locomotive"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "navio da epoca",
+   "consultas": [
+    "ship 1856",
+    "ship"
    ]
   },
   {

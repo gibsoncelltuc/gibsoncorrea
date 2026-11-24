@@ -113,6 +113,14 @@
     "ship 1651",
     "ship"
    ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "soldado da epoca",
+   "consultas": [
+    "soldier uniform 1651",
+    "soldier uniform"
+   ]
   }
  ]
 }

@@ -7,23 +7,12 @@
   "regiao": "colonial",
   "luz_base": "day",
   "cenarios": [
+   "harbor",
    "interior madeira",
    "jungle",
-   "loc_campo",
    "street"
   ],
-  "cenarios_trocados": [
-   [
-    "cena 2",
-    "harbor",
-    "loc_campo"
-   ],
-   [
-    "cena 9",
-    "harbor",
-    "loc_campo"
-   ]
-  ]
+  "cenarios_trocados": []
  },
  "proibido_pela_epoca": [
   "caravela",
@@ -45,6 +34,7 @@
   "buildings/shop",
   "kit/coin",
   "kit/melon",
+  "kit/navio_fragata",
   "kit/room_colonial_wood",
   "kit/stall",
   "locomotive",

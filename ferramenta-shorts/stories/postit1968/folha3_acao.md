@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 15 - A Cola que Não Colava
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 5.6s - 16 palavras - plano two
@@ -38,71 +38,72 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | soltava (16.7s) | ACAO: x_solta | solta/liberta + brilho | OK |
 | 3 | - | ATUACAO | reagir | OK |
 
-## Cena b4 - 18.5s a 20.4s - 6 palavras - plano two
-> "Por anos, ninguém viu utilidade nela."
+## Cena b4 - 18.5s a 24.8s - 18 palavras - plano two
+> "Por anos, ninguém viu utilidade nela. Silver mostrava a cola para todo mundo dentro da empresa, e nada."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | entregar | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | mostrava (21.1s) | ACAO: fala | aponta explicando | OK |
+| 2 | - | INTERACAO | entregar | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
-## Cena b5 - 20.7s a 25.6s - 14 palavras - plano group
+## Cena b5 - 25.2s a 30.0s - 14 palavras - plano group
 > "Em mil novecentos e setenta e quatro, Art Fry cantava no coral da igreja."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | cantava (24.1s) | ACAO: x_canta | canta de bracos abertos + onda de som | OK |
+| 1 | cantava (28.5s) | ACAO: x_canta | canta de bracos abertos + onda de som | OK |
 | 2 | - | INTERACAO | avanca e o outro recua | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b6 - 25.9s a 28.5s - 8 palavras - plano two
+## Cena b6 - 30.4s a 33.0s - 8 palavras - plano two
 > "Os papeizinhos que marcavam o hinário viviam caindo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | caindo (28.5s) | ACAO: desaba | desaba: nuvem de poeira + tremor | OK |
+| 1 | caindo (33.0s) | ACAO: desaba | desaba: nuvem de poeira + tremor | OK |
 | 2 | - | INTERACAO | o outro se aproxima | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b7 - 28.9s a 34.4s - 16 palavras - plano orbit
+## Cena b7 - 33.3s a 38.9s - 16 palavras - plano orbit
 > "Aí veio a ideia: marcadores com a cola fraca. Grudam, não caem, e saem sem rasgar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ideia (30.0s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
+| 1 | ideia (34.4s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
 
-## Cena b8 - 34.8s a 39.3s - 13 palavras - plano two
+## Cena b8 - 39.3s a 43.7s - 13 palavras - plano two
 > "O papel saiu amarelo por acaso: era o único de rascunho à mão."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | saiu (35.6s) | ACAO: sai | sai andando pela lateral | OK |
+| 1 | saiu (40.0s) | ACAO: sai | sai andando pela lateral | OK |
 | 2 | - | INTERACAO | abracar | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 39.6s a 43.0s - 10 palavras - plano crowd
-> "Então distribuíram amostras de graça, e quase todos quiseram comprar."
+## Cena b9 - 44.1s a 48.5s - 13 palavras - plano crowd
+> "Então distribuíram amostras de graça para vários escritórios, e quase todos quiseram comprar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | distribuíram (40.0s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 2 | comprar (43.0s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 1 | distribuíram (44.4s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | comprar (48.5s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 4 | - | ATUACAO | comemorar | OK |
 | 5 | - | PLACA | POST-IT | OK |
 
-## Cena b10 - 43.3s a 48.9s - 16 palavras - plano close
+## Cena b10 - 48.9s a 54.4s - 16 palavras - plano close
 > "Em mil novecentos e oitenta, o post-it chegou às lojas. Graças a uma cola que falhou."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | chegou (45.9s) | EFEITO: dust | poeira + som | OK |
-| 2 | chegou (45.9s) | ACAO: chega | entra andando pela lateral | OK |
-| 3 | falhou (48.9s) | ACAO: perde | mao na testa | OK |
+| 1 | chegou (51.5s) | EFEITO: dust | poeira + som | OK |
+| 2 | chegou (51.5s) | ACAO: chega | entra andando pela lateral | OK |
+| 3 | falhou (54.4s) | ACAO: perde | mao na testa | OK |
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | PLACA | 1980 | OK |
 
-## Cena b11 - 49.3s a 53.7s - 13 palavras - plano close
+## Cena b11 - 54.8s a 59.3s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

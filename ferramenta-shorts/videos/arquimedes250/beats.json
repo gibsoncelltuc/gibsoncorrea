@@ -162,6 +162,16 @@
    "interacao": "cochichar"
   },
   {
+   "shot": "wide",
+   "interior": "madeira",
+   "who": [
+    "ARQ:0:smile",
+    "POV:0:smile"
+   ],
+   "interacao": "cochichar",
+   "say": "Se a coroa tivesse prata, seria maior que o ouro puro de mesmo peso, e derramaria mais água."
+  },
+  {
    "say": "Assim dava para medir a coroa, e comparar com o mesmo peso de ouro puro.",
    "shot": "prop",
    "who": [

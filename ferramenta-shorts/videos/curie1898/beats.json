@@ -97,6 +97,17 @@
    "clima": "limpo"
   },
   {
+   "shot": "wide",
+   "interior": "madeira",
+   "who": [
+    "MAR:0:stern:paper",
+    "PIE:0:grin"
+   ],
+   "hora": "dia",
+   "clima": "limpo",
+   "say": "O galpão tinha o teto furado, chovia dentro, e ela mexia a mistura com uma barra de ferro."
+  },
+  {
    "shot": "two",
    "interior": "madeira",
    "who": [

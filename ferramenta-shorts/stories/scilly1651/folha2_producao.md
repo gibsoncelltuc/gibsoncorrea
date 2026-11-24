@@ -62,14 +62,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fazer, ilhas, ingleses
 - RISCOS: nenhum
 
-## Cena b6 - A guerra seguiu esquecida por mais de trezentos anos.
+## Cena b6 - A guerra seguiu esquecida por mais de trezentos anos. As ilhas seguira...
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): ILH (variante 0, expressao smile); ILH (variante 1, expressao grin)
+- Takes: 5 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (2): ILH (variante 0, expressao smile); ILH (variante 1, expressao grin) | multidao: 0 de ILH
 - Animacao: comemorar | interacao: pular
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): trezentos
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ilhas, trezentos
 - RISCOS: nenhum
 
 ## Cena b7 - Em mil novecentos e oitenta e cinco, um historiador perguntou se a gue...
@@ -132,7 +132,7 @@ ship | b2, b3, b4 | pronto | conferir na folha de contato se le bem; se parecer 
 
 
 ## Video inteiro
-- Objeto heroi: kit/scroll | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 12% | medio 79% | aberto 5% | detalhe 4%
+- Objeto heroi: kit/scroll | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 11% | medio 81% | aberto 5% | detalhe 4%
 - Interacoes: b0 discutir, b1 susto, b3 avanca e o outro recua, b5 o outro se aproxima, b6 pular, b7 reverencia, b8 vai ate o outro, b9 apertar
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py scilly1651  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/scilly1651/moodboard.jpg

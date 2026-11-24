@@ -22,24 +22,24 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estados
 - RISCOS: nenhum
 
-## Cena b2 - A borracha estava na moda, mas derretia no calor e rachava no frio.
+## Cena b2 - A borracha estava na moda, mas derretia no calor e rachava no frio. Bo...
 - Cenario: street | luz: desert | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): GOO (variante 0, expressao sad); POV (variante 0, expressao angry) | multidao: 12 de POV
 - Animacao: discutir | batalha encenada
 - Objetos/modelos: kit/stove
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): borracha, calor, frio, moda
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): borracha, calor, frio, meleca, moda, verao
 - RISCOS: nenhum
 
 ## Cena b3 - Charles Goodyear ficou obcecado e gastou todo o dinheiro da família em...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): GOO (variante 0, expressao stern, segura paper); CLA (variante 0, expressao worried)
 - Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dinheiro, familia
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): casa, cozinha, dinheiro, familia
 - RISCOS: nenhum
 
 ## Cena b4 - Fez tantas dívidas que foi parar na prisão.
@@ -134,7 +134,7 @@ kit/ball | b9 | pronto | conferir na folha de contato se le bem; se parecer caix
 
 
 ## Video inteiro
-- Objeto heroi: kit/borracha | grandes momentos: b2, b9 | planos abertos: 3 | mistura: close 19% | medio 70% | aberto 10% | detalhe 0%
+- Objeto heroi: kit/borracha | grandes momentos: b2, b9 | planos abertos: 3 | mistura: close 19% | medio 70% | aberto 11% | detalhe 0%
 - Interacoes: b0 avanca e o outro recua, b3 o outro se aproxima, b4 empurrar, b5 insiste, b8 discutir
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py goodyear1839  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/goodyear1839/moodboard.jpg

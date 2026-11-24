@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 15 - A Cola que Não Colava
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 12 cenas, 146 palavras (~50 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 12 cenas, 161 palavras (~56 s)
 
 ## Cena b0  (~5.5 s)
 - Narracao: Um químico inventou a cola mais fraca do mundo, e ela virou sucesso no planeta inteiro.
@@ -38,11 +38,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
-## Cena b4  (~2.1 s)
-- Narracao: Por anos, ninguém viu utilidade nela.
+## Cena b4  (~6.2 s)
+- Narracao: Por anos, ninguém viu utilidade nela. Silver mostrava a cola para todo mundo dentro da empresa, e nada.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: fala (point) @7 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -83,11 +83,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~3.4 s)
-- Narracao: Então distribuíram amostras de graça, e quase todos quiseram comprar.
-- Som ambiente: birds
+## Cena b9  (~4.5 s)
+- Narracao: Então distribuíram amostras de graça para vários escritórios, e quase todos quiseram comprar.
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) @1 -> acao + som de efeito; encena: negocio (reach) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_entrega (reach) @1 -> acao + som de efeito; encena: negocio (reach) @12 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: POST-IT
 - Funcao na historia: GRANDE MOMENTO

@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | Darwin e os Tentilhões | Darwin e os Tentilhões / Um Terra Em Charles Darwin Galápagos Beagle Coletou 1835 | SEM REFERENCIA
+tema | Darwin e os Tentilhões | Darwin e os Tentilhões / Um Terra Em Charles Darwin Galápagos Beagle Coletou Beagle 1835 | SEM REFERENCIA
 lugar | Ilhas Galapagos, no Pacifico (Equador): rocha vulcanica preta, cactos, praias, t | Ilhas Galapagos no Pacifico / Ilhas Galapagos no Pacifico Equador 1835 | SEM REFERENCIA
 lugar | Galápagos | Galápagos 1835 / Galápagos landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1835 | 1835 fashion clothing / 19th century clothing painting | SEM REFERENCIA

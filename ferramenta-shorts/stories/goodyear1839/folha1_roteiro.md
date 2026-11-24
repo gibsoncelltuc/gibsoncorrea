@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 17 - A Borracha que Caiu no Fogão
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 12 cenas, 151 palavras (~52 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 12 cenas, 168 palavras (~58 s)
 
 ## Cena b0  (~5.9 s)
 - Narracao: Um inventor falido deixou cair uma gosma no fogão da cozinha. E mudou o mundo para sempre.
@@ -20,8 +20,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: - | mapa: ESTADOS UNIDOS
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~4.5 s)
-- Narracao: A borracha estava na moda, mas derretia no calor e rachava no frio.
+## Cena b2  (~7.9 s)
+- Narracao: A borracha estava na moda, mas derretia no calor e rachava no frio. Botas e capas de borracha viravam uma meleca no verão.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
@@ -29,8 +29,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b3  (~4.5 s)
-- Narracao: Charles Goodyear ficou obcecado e gastou todo o dinheiro da família em experiências.
+## Cena b3  (~6.9 s)
+- Narracao: Charles Goodyear ficou obcecado e gastou todo o dinheiro da família em experiências, fazendo testes até na cozinha de casa.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
 - Efeito + som nas palavras-chave: dinheiro -> stars + som de sino; encena: paga (reach) @8 -> acao + som de efeito; encena: quimico (pour) @12 -> acao + som de efeito

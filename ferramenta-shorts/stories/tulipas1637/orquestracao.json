@@ -97,7 +97,38 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "countryside"
+   "cenario": "harbor"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "POV",
+    "POV",
+    "MER"
+   ],
+   "multidao": 20,
+   "objetos": [
+    "buildings/house_small",
+    "kit/marco_amsterdam",
+    "kit/tulip_bed",
+    "kit/tulip_red",
+    "nature/picket_fence",
+    "nature/tree_oak"
+   ],
+   "palavras": 13,
+   "cena": "b4",
+   "frase": "Contam que teve gente que trocou terras e casas por um único bulbo.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
   },
   {
    "camera": "two",
@@ -111,13 +142,13 @@
     "kit/tulip_yellow"
    ],
    "palavras": 11,
-   "cena": "b4",
+   "cena": "b5",
    "frase": "Ninguém queria a flor. Queriam revender mais caro na semana seguinte.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "countryside"
+   "cenario": "street"
   },
   {
    "camera": "two",
@@ -130,7 +161,7 @@
     "kit/tulip_red"
    ],
    "palavras": 14,
-   "cena": "b5",
+   "cena": "b6",
    "frase": "Contam que um marinheiro comeu um bulbo achando que era cebola. Valia uma fortuna.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -151,7 +182,7 @@
     "kit/stall"
    ],
    "palavras": 16,
-   "cena": "b6",
+   "cena": "b7",
    "frase": "Acontece que, num leilão de fevereiro, o vendedor abriu os lances, e ninguém levantou a mão.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -160,7 +191,7 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "orbit",
+   "camera": "crowd",
    "personagens": [
     "POV",
     "RIC"
@@ -171,7 +202,7 @@
     "kit/tulip_bed"
    ],
    "palavras": 15,
-   "cena": "b7",
+   "cena": "b8",
    "frase": "A notícia correu. Em poucos dias, todo mundo quis vender, e não havia mais comprador.",
    "classe": "chave",
    "sujeito": "personagem",
@@ -197,7 +228,7 @@
     "kit/tulip_red"
    ],
    "palavras": 18,
-   "cena": "b8",
+   "cena": "b9",
    "frase": "Os preços desabaram. Quem tinha trocado a casa por flores ficou só com as flores, e as dívidas.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -213,23 +244,23 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 6,
-   "cena": "b9",
+   "cena": "b10",
    "frase": "O marinheiro, pelo menos, almoçou bem.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "countryside"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "MER"
    ],
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b10",
+   "cena": "b11",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",

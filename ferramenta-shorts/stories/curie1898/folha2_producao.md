@@ -32,17 +32,27 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): marido
 - RISCOS: nenhum
 
-## Cena b3 - Mexendo em toneladas de minério, eles descobriram dois elementos novos...
+## Cena b3 - O galpão tinha o teto furado, chovia dentro, e ela mexia a mistura com...
 - Cenario: interior madeira | luz: dia | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
-- Personagens principais (2): MAR (variante 0, expressao grin); PIE (variante 0, expressao surprised)
+- Personagens principais (2): MAR (variante 0, expressao stern, segura paper); PIE (variante 0, expressao grin)
 - Animacao: conversar | interacao: avanca e o outro recua
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barra, ferro, galpao, mistura, teto
+- RISCOS: nenhum
+
+## Cena b4 - Mexendo em toneladas de minério, eles descobriram dois elementos novos...
+- Cenario: interior madeira | luz: dia | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
+- Personagens principais (2): MAR (variante 0, expressao grin); PIE (variante 0, expressao surprised)
+- Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/curie_box
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): minerio, polonio, radio
 - RISCOS: nenhum
 
-## Cena b4 - O rádio brilhava no escuro, e Marie adorava olhar os frascos à noite.
+## Cena b5 - O rádio brilhava no escuro, e Marie adorava olhar os frascos à noite.
 - Cenario: interior madeira | luz: noite | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
@@ -52,18 +62,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): escuro, frascos, radio
 - RISCOS: nenhum
 
-## Cena b5 - Ela carregava frascos no bolso. Ninguém sabia do perigo.
+## Cena b6 - Ela carregava frascos no bolso. Ninguém sabia do perigo.
 - Cenario: interior madeira | luz: dia | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): MAR (variante 0, expressao nervous, segura paper); PIE (variante 0, expressao worried)
-- Animacao: reagir | interacao: o outro se aproxima
+- Animacao: reagir | interacao: insiste
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bolso, perigo
 - RISCOS: nenhum
 
-## Cena b6 - Ela ganhou dois prêmios Nobel, a primeira pessoa da história a consegu...
-- Cenario: loc_deserto | luz: dia | clima: limpo
+## Cena b7 - Ela ganhou dois prêmios Nobel, a primeira pessoa da história a consegu...
+- Cenario: loc_campo | luz: dia | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): MAR (variante 0, expressao laugh); PIE (variante 0, expressao grin); JOR (variante 0, expressao surprised) | multidao: 18 de POV/JOR
@@ -72,8 +82,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): conseguir, primeira
 - RISCOS: nenhum
 
-## Cena b7 - Acontece que a radiação foi destruindo a saúde dela. Em mil novecentos...
-- Cenario: loc_deserto | luz: dia | clima: limpo
+## Cena b8 - Acontece que a radiação foi destruindo a saúde dela. Em mil novecentos...
+- Cenario: loc_campo | luz: dia | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (1): MAR (variante 0, expressao sad)
@@ -82,7 +92,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): radiacao, saude
 - RISCOS: nenhum
 
-## Cena b8 - Mas os cadernos dela continuam radioativos, guardados em caixas de chu...
+## Cena b9 - Mas os cadernos dela continuam radioativos, guardados em caixas de chu...
 - Cenario: interior pedra | luz: dia | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
@@ -92,7 +102,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cadernos, chumbo
 - RISCOS: nenhum
 
-## Cena b9 - Para ler, é preciso assinar um termo e usar roupa de proteção.
+## Cena b10 - Para ler, é preciso assinar um termo e usar roupa de proteção.
 - Cenario: interior pedra | luz: dia | clima: limpo
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
@@ -102,7 +112,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): protecao, termo
 - RISCOS: nenhum
 
-## Cena b10 - Ou seja: os cadernos vão continuar radioativos por séculos.
+## Cena b11 - Ou seja: os cadernos vão continuar radioativos por séculos.
 - Cenario: loc_montanha | luz: dia | clima: limpo
 - Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
@@ -112,7 +122,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cadernos
 - RISCOS: nenhum
 
-## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b12 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: loc_campo | luz: dia | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
@@ -127,14 +137,14 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/curie_box | b0, b3, b4, b8, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_eiffel | b0, b1, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-crate | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/curie_box | b0, b4, b5, b9, b10, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_eiffel | b0, b1, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+crate | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/curie_box | grandes momentos: b1, b6 | planos abertos: 2 | mistura: close 25% | medio 66% | aberto 5% | detalhe 3%
-- Interacoes: b0 vai ate o outro, b2 aproxima-se, b3 avanca e o outro recua, b5 o outro se aproxima, b8 susto
+- Objeto heroi: kit/curie_box | grandes momentos: b1, b7 | planos abertos: 2 | mistura: close 22% | medio 70% | aberto 5% | detalhe 3%
+- Interacoes: b0 vai ate o outro, b2 aproxima-se, b3 avanca e o outro recua, b4 o outro se aproxima, b6 insiste, b9 susto
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py curie1898  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/curie1898/moodboard.jpg
 

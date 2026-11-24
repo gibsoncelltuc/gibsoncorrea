@@ -42,14 +42,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cola, contrario
 - RISCOS: nenhum
 
-## Cena b4 - Por anos, ninguém viu utilidade nela.
+## Cena b4 - Por anos, ninguém viu utilidade nela. Silver mostrava a cola para todo...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): CHE (variante 0, expressao bored); SIL (variante 0, expressao nervous, segura paper)
 - Animacao: conversar | interacao: entregar
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cola, empresa
 - RISCOS: nenhum
 
 ## Cena b5 - Em mil novecentos e setenta e quatro, Art Fry cantava no coral da igre...
@@ -92,8 +92,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): papel, rascunho
 - RISCOS: nenhum
 
-## Cena b9 - Então distribuíram amostras de graça, e quase todos quiseram comprar.
-- Cenario: countryside | luz: day | clima: limpo
+## Cena b9 - Então distribuíram amostras de graça para vários escritórios, e quase ...
+- Cenario: street | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): FRY (variante 0, expressao laugh); SIL (variante 0, expressao grin); CHE (variante 0, expressao laugh) | multidao: 18 de POV
@@ -132,7 +132,7 @@ kit/globe | b0 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/postit | grandes momentos: b1, b9 | planos abertos: 3 | mistura: close 31% | medio 48% | aberto 16% | detalhe 5%
+- Objeto heroi: kit/postit | grandes momentos: b1, b9 | planos abertos: 3 | mistura: close 28% | medio 52% | aberto 15% | detalhe 5%
 - Interacoes: b0 discutir, b4 entregar, b5 avanca e o outro recua, b6 o outro se aproxima, b8 abracar
 - RISCOS GERAIS: nenhum
 
