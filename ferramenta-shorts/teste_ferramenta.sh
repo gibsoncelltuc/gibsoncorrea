@@ -128,6 +128,10 @@ grep -q "globalThis.FAZENDA" mkvideo.py && grep -q "globalThis.FAZENDA" web/sets
 python3 -c "import re,sys;s=open('mkvideo.py').read();r=re.search(r\"_CAVW = re.compile\\(r'(.+?)'\\)\",s).group(1);sys.exit(1 if re.search(r,'uma metralhadora montada em caminhao') else 0)" || f "'montada em caminhao' vira cavalaria"
 grep -q "_tropa = False   # 24/11" mkvideo.py || f "soldado com fuzil vira batalha mesmo com crowd n 0"
 grep -q "R7 b" checagem_coerencia.py || f "cenario palace (praia) passa sem praia na historia"
+T_=videos/_teste_r8; mkdir -p $T_; printf '{"outfits":{"GAU":{"jacket":"#111"},"MAN":{"jacket":"#eee"}},"beats":[{"say":"O barulho acordou o soldado Marco Manlio.","who":["GAU:0:scared"]}]}' > $T_/beats.json
+python3 checagem_coerencia.py _teste_r8 2>&1 | grep -q "R8 b0" || f "personagem citado pelo nome (Marco Manlio) pode faltar na cena (Gansos b6)"; rm -rf $T_
+grep -q "want.includes(nm))) R.parede" visivel.mjs || f "predio citado colado na camera vira parede sem checagem (Gansos b4)"
+grep -q "animal citado aparece pequeno demais" visivel.mjs && grep -q "'animal citado' in txt" autocorrigir_visibilidade.py || f "animal citado minusculo no fundo passa sem checagem (Gansos b9)"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }
