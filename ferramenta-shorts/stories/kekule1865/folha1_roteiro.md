@@ -77,10 +77,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 ## Cena b8  (~6.6 s)
 - Narracao: Até hoje há quem duvide da história. Mas o anel do benzeno virou base de remédios, tintas e plásticos.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: -
+- Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: -
+- Efeito visual marcado: ring@12, dust@40
+- Texto na tela: REMÉDIOS, TINTAS, PLÁSTICOS
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b9  (~4.1 s)

@@ -97,7 +97,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (3): ING (variante 0, expressao grin); AME (variante 0, expressao laugh); ING (variante 1, expressao smile)
-- Animacao: discutir | interacao: vai ate o outro
+- Animacao: comemorar | interacao: vai ate o outro
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): soldados, tiro
 - RISCOS: nenhum
@@ -154,11 +154,9 @@ kit/cross | b11 | pronto | conferir na folha de contato se le bem; se parecer ca
 ## Video inteiro
 - Objeto heroi: kit/batatas | grandes momentos: b7 | planos abertos: 2 | mistura: close 10% | medio 79% | aberto 10% | detalhe 2%
 - Interacoes: b0 o outro se aproxima, b4 entregar, b5 discutir, b6 empurrar, b8 susto, b9 vai ate o outro, b10 insiste
-- RISCOS GERAIS: 
-  - sem VIRADA no meio do video (a retencao cai sem um "Acontece que / So que / Mas" entre 25% e 80% da historia) -> CORRECAO: por uma frase de virada no meio: "Acontece que...", "So que...", "Mas..."
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: sem VIRADA no meio do video (a retencao cai sem um "Acontece que / So que / Mas" entre 25% e 80% da historia)
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh porco1859 bN bM` (so essas cenas).

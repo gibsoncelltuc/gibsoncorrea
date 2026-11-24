@@ -217,13 +217,23 @@
    "interior": "pedra"
   },
   {
-   "shot": "crowd",
+   "shot": "two",
    "who": [
     "COL:0:suspicious",
     "KEK:0:smile"
    ],
    "say": "Até hoje há quem duvide da história. Mas o anel do benzeno virou base de remédios, tintas e plásticos.",
-   "impact": true
+   "text": "REMÉDIOS, TINTAS, PLÁSTICOS",
+   "tat": 15,
+   "tstyle": "gold",
+   "props": [
+    [
+     "kit/snake_ring",
+     0,
+     -1.6,
+     1.2
+    ]
+   ]
   },
   {
    "shot": "close",

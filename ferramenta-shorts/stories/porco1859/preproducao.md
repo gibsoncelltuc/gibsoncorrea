@@ -13,7 +13,7 @@ b5 | loc_campo | two | 2 | discutir, INTERAGEM: discutir | nature/picket_fence, 
 b6 | harbor | group | 19 | discutir, INTERAGEM: empurrar | buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow | - | -
 b7 | harbor | crowd | 32 | discutir, batalha | cannon, navios de guerra ao fundo, no tamanho real | - | -
 b8 | interior madeira | two | 2 | reagir, INTERAGEM: susto | pig | - | -
-b9 | interior pedra | group | 3 | discutir, INTERAGEM: vai ate o outro | - | - | -
+b9 | interior pedra | group | 3 | comemorar, INTERAGEM: vai ate o outro | - | - | -
 b10 | interior pedra | two | 2 | conversar, INTERAGEM: insiste | - | paper | -
 b11 | countryside | two | 1 | conversar | kit/cross, nature/picket_fence, pig | - | -
 b12 | countryside | close | 1 | conversar | - | - | -

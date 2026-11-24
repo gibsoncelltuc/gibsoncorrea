@@ -78,6 +78,7 @@
    ],
    "multidao": 48,
    "objetos": [
+    "kit/aviao_ww2",
     "kit/canhao_moderno"
    ],
    "palavras": 7,
@@ -197,7 +198,9 @@
     "CAN"
    ],
    "multidao": 5,
-   "objetos": [],
+   "objetos": [
+    "kit/navio_encouracado"
+   ],
    "palavras": 15,
    "cena": "b9",
    "frase": "Mais de vinte soldados morreram nesses tiros, e um navio americano ainda bateu numa mina.",
@@ -227,10 +230,11 @@
    "cenario": "harbor"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "OFF",
-    "USA"
+    "USA",
+    "CAN"
    ],
    "multidao": 0,
    "objetos": [

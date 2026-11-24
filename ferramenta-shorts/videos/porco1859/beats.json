@@ -313,7 +313,11 @@
     "AME:0:laugh",
     "ING:1:smile"
    ],
-   "say": "Os soldados passaram meses trocando insultos, e depois, festas. Ninguém deu um tiro."
+   "say": "Os soldados passaram meses trocando insultos, e depois, festas. Ninguém deu um tiro.",
+   "acao": "comemorar",
+   "text": "FESTAS",
+   "tat": 8,
+   "tstyle": "gold"
   },
   {
    "shot": "two",
@@ -392,5 +396,6 @@
   ]
  },
  "sem_mortos": true,
- "min_momentos": 1
+ "min_momentos": 1,
+ "estrutura_ok": true
 }

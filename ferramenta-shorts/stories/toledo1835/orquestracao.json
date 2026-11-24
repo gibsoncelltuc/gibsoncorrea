@@ -16,7 +16,9 @@
     "MIC"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/canivete"
+   ],
    "palavras": 13,
    "cena": "b0",
    "frase": "Dois estados americanos foram à guerra, e o único ferido levou uma canivetada.",
@@ -177,6 +179,7 @@
    ],
    "multidao": 0,
    "objetos": [
+    "kit/minerio",
     "nature/bush",
     "nature/tree_oak",
     "nature/tree_pine"

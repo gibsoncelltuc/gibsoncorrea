@@ -171,14 +171,13 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "orbit",
+   "camera": "crowd",
    "personagens": [
     "COL",
     "KEK"
    ],
-   "multidao": 18,
+   "multidao": 6,
    "objetos": [
-    "kit/marco_viena",
     "kit/snake_ring"
    ],
    "palavras": 19,

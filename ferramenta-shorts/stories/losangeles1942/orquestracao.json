@@ -55,7 +55,9 @@
     "SOL"
    ],
    "multidao": 10,
-   "objetos": [],
+   "objetos": [
+    "kit/submarino_ww2"
+   ],
    "palavras": 16,
    "cena": "b2",
    "frase": "Na véspera, um submarino japonês tinha atirado na Califórnia, e todo mundo achava que vinha mais.",

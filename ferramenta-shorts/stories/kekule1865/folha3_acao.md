@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 14 - O Químico que Sonhou com uma Cobra
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 4.3s - 16 palavras - plano two
@@ -77,12 +77,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 6 | - | ATUACAO | comemorar | OK |
 | 7 | - | PLACA | FESTA | OK |
 
-## Cena b8 - 43.9s a 49.6s - 19 palavras - plano orbit
+## Cena b8 - 43.9s a 49.6s - 19 palavras - plano crowd
 > "Até hoje há quem duvide da história. Mas o anel do benzeno virou base de remédios, tintas e plásticos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | - | PLACA | REMÉDIOS, TINTAS, PLÁSTICOS | OK |
 
 ## Cena b9 - 50.9s a 55.0s - 12 palavras - plano close
 > "E ele deixou um conselho: aprendam a sonhar. Mas confiram tudo acordados."
