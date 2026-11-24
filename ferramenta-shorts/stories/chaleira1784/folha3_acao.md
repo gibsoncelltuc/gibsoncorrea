@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 10 - A Guerra da Chaleira
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.4s - 14 palavras - plano two
@@ -15,13 +15,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | ATUACAO | reagir | OK |
 | 5 | - | PLACA | UM ÚNICO TIRO | OK |
 
-## Cena b1 - 4.5s a 9.9s - 18 palavras - plano reveal
+## Cena b1 - 4.5s a 9.9s - 18 palavras - plano crowd
 > "Foi em mil setecentos e oitenta e quatro. A Holanda mantinha o rio Escalda fechado aos navios estrangeiros."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | fechado (9.0s) | ACAO: empurra | empurra/puxa | OK |
-| 2 | - | MAPA | HOLANDA | OK |
+| 2 | - | CENA | cavalaria: 4 soldados a cavalo (HOL) | OK |
+| 3 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 5 | - | MAPA | HOLANDA | OK |
 
 ## Cena b2 - 11.3s a 15.6s - 15 palavras - plano two
 > "O imperador José Segundo, da Áustria, queria o rio aberto para os navios de Antuérpia."
@@ -31,13 +34,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | discutir | OK |
 | 2 | - | ATUACAO | discutir | OK |
 
-## Cena b3 - 16.9s a 21.2s - 14 palavras - plano group
+## Cena b3 - 16.9s a 21.2s - 14 palavras - plano wide
 > "Convencido de que os holandeses não reagiriam, ele mandou três navios descerem o rio."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | reverencia | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
 ## Cena b4 - 22.2s a 24.8s - 11 palavras - plano group
 > "O maior levava a bandeira do imperador e seguia na frente."
@@ -72,15 +74,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | vai ate o outro | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b7 - 35.8s a 39.2s - 14 palavras - plano crowd
+## Cena b7 - 35.8s a 39.2s - 14 palavras - plano group
 > "O navio austríaco se rendeu na hora, sem trocar nem um tiro a mais."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | rendeu (36.8s) | ACAO: rende | maos para cima (rendicao) | OK |
-| 2 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | ATUACAO | reagir | OK |
 
 ## Cena b8 - 40.3s a 47.7s - 23 palavras - plano two
 > "Depois, a França mediou a paz, em mil setecentos e oitenta e cinco. O rio continuou fechado, e a Holanda pagou uma indenização."

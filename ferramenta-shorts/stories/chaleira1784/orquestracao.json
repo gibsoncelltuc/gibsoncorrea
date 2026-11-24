@@ -17,8 +17,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/kettle",
-    "kit/marco_viena"
+    "kit/kettle"
    ],
    "palavras": 14,
    "cena": "b0",
@@ -30,21 +29,27 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "reveal",
+   "camera": "crowd",
    "personagens": [
     "HOL",
     "HOL"
    ],
-   "multidao": 32,
+   "multidao": 48,
    "objetos": [
-    "kit/marco_viena"
+    "kit/navio_fragata"
    ],
    "palavras": 18,
    "cena": "b1",
    "frase": "Foi em mil setecentos e oitenta e quatro. A Holanda mantinha o rio Escalda fechado aos navios estrangeiros.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },
@@ -66,13 +71,16 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "IMP",
     "GEN"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/navio_fragata",
+    "navios de guerra ao fundo, no tamanho real"
+   ],
    "palavras": 14,
    "cena": "b3",
    "frase": "Convencido de que os holandeses não reagiriam, ele mandou três navios descerem o rio.",
@@ -80,7 +88,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior pedra"
+   "cenario": "harbor"
   },
   {
    "camera": "group",
@@ -88,9 +96,9 @@
     "IMP",
     "AUS"
    ],
-   "multidao": 14,
+   "multidao": 0,
    "objetos": [
-    "kit/marco_viena",
+    "kit/navio_fragata",
     "war/flagpole"
    ],
    "palavras": 11,
@@ -111,7 +119,7 @@
    "multidao": 48,
    "objetos": [
     "cannon",
-    "kit/marco_viena",
+    "kit/navio_fragata",
     "navios de guerra ao fundo, no tamanho real"
    ],
    "palavras": 15,
@@ -149,29 +157,18 @@
    "cenario": "harbor"
   },
   {
-   "camera": "crowd",
+   "camera": "group",
    "personagens": [
-    "GEN",
-    "AUS",
-    "COZ"
+    "GEN"
    ],
-   "multidao": 48,
-   "objetos": [
-    "kit/marco_viena",
-    "navios de guerra ao fundo, no tamanho real"
-   ],
+   "multidao": 0,
+   "objetos": [],
    "palavras": 14,
    "cena": "b7",
    "frase": "O navio austríaco se rendeu na hora, sem trocar nem um tiro a mais.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "harbor"
   },

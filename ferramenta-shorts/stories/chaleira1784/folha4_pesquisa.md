@@ -4,11 +4,11 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 - Historia: A Guerra da Chaleira
 - Epoca: 1784 | Lugar: Rio Escalda (Scheldt), entre Antuérpia e a Holanda, Países Baixos austríacos e República Holandesa; margens baixas, forte de Lillo e rio largo | Quando: 8 de outubro de 1784, dia claro de outono
-- HEROIS (objeto): kit/kettle
-- HEROIS (personagens): HOL, COZ, IMP, GEN
+- HEROIS (objeto): kit/kettle, kit/navio_fragata
+- HEROIS (personagens): HOL, IMP, COZ, GEN
 - Cenarios: harbor, interior pedra, loc_campo, loc_patio
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
-- Tamanho real aplicado: kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.8: pequeno demais); kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.7: pequeno demais)
+- Tamanho real aplicado: kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 1.0: pequeno demais); kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.8: pequeno demais); kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.7: pequeno demais)
 
 ## Itens pesquisados
 
@@ -28,6 +28,7 @@ objeto | navio mercante Le Louis | Dutch brig 1780s ship painting / navio mercan
 objeto | navio de guerra Dolfijn | Dutch schooner 18th century warship 1784 / navio de guerra Dolfijn / navio de guerra Dolfijn 1784 | Vaisseau français le Saint-Esprit au combat en 178 (referencias/chaleira1784/prints/navio_de_guerra_dolfijn_a228d5.jpg); Kora-kora with the sultan of Tidore and Dutch ship (referencias/chaleira1784/prints/navio_de_guerra_dolfijn_789577.jpg); Ship-Of-The-Line (PSF).png (referencias/chaleira1784/prints/navio_de_guerra_dolfijn_fb905c.jpg)
 objeto | bandeira imperial | Holy Roman Empire imperial flag double-headed eagle / bandeira imperial / bandeira imperial 1784 | manual: gravura de 1784 do Rijksmuseum (RP-P-OB-85.344): escuna holandesa Dolfijn atirando no brigue imperial Le Louis, ambos a vela, no Escalda, perto de Lillo (https://en.wikipedia.org/wiki/Kettle_War); roupas e objetos seguem a pesquisa escrita (Kettle War, Wikipedia): bandeira do imperador do Sacro Império, casacas claras austríacas, casacas laranja holandesas, chaleira de ferro de sopa
 heroi | kettle | 18th century iron soup kettle cauldron / chaleira de sopa / A Guerra da Chaleira | manual: gravura de 1784 do Rijksmuseum (RP-P-OB-85.344): escuna holandesa Dolfijn atirando no brigue imperial Le Louis, ambos a vela, no Escalda, perto de Lillo (https://en.wikipedia.org/wiki/Kettle_War); roupas e objetos seguem a pesquisa escrita (Kettle War, Wikipedia): bandeira do imperador do Sacro Império, casacas claras austríacas, casacas laranja holandesas, chaleira de ferro de sopa
+heroi | navio fragata | navio fragata | SEM REFERENCIA
 epoca | navio da epoca | 18th century sailing ship brig painting / ship 1784 / ship | Rio Tagus (ship, 1979), Sète cf11.jpg (referencias/chaleira1784/prints/navio_da_epoca_363d29.jpg)
 
 ## Explicacoes (como funciona, com fonte)

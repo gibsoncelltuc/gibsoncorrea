@@ -1,0 +1,6 @@
+VISIBILIDADE: 5 FALHA(S)
+FALHA b1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+FALHA b1_1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+FALHA b5: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+FALHA b5_1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+FALHA b5: objeto citado "cannon" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
