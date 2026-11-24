@@ -1,119 +1,104 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 05 - Os Gansos que Salvaram Roma
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 51 acoes catalogadas, 51 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 3.3s - 10 palavras - plano two
-> "Roma inteira foi salva por um bando de gansos barulhentos."
+## Cena b0 - 0.1s a 3.0s - 10 palavras - plano group
+> "Um bando de gansos barulhentos salvou Roma numa só noite."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | susto | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 1 | salvou (1.8s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | - | EMOCAO: relief | o rosto vira "relief" na palavra | OK |
+| 3 | - | ATUACAO | reagir | OK |
+
+## Cena b1 - 4.1s a 8.8s - 17 palavras - plano reveal
+> "Em trezentos e noventa antes de Cristo, os gauleses de Breno tomaram Roma e queimaram quase tudo."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | queimaram (8.2s) | ACAO: queima | fogo + fumaca | OK |
+| 2 | - | MAPA | ROMA | OK |
 | 3 | - | PLACA | 390 a.C. | OK |
 
-## Cena b1 - 3.7s a 8.5s - 14 palavras - plano crowd
-> "Os gauleses tinham invadido a cidade, e queimado quase tudo. Quem não escapou, tombou."
+## Cena b2 - 9.9s a 13.1s - 11 palavras - plano wide
+> "Os romanos que sobraram se trancaram no Capitólio, uma colina fortificada."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | invadido (4.8s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | queimado (6.3s) | ACAO: queima | fogo + fumaca | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | MAPA | ROMA | OK |
+| 1 | trancaram (11.2s) | ACAO: empurra | empurra/puxa | OK |
+| 2 | - | ATUACAO | reagir | OK |
+| 3 | - | PLACA | CAPITÓLIO | OK |
 
-## Cena b2 - 8.9s a 15.2s - 18 palavras - plano group
-> "Os romanos que sobraram se trancaram no Capitólio, uma colina cercada de muralhas, sem comida, e sem saída."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | trancaram (10.7s) | ACAO: empurra | empurra/puxa | OK |
-| 2 | cercada (12.6s) | ACAO: chega | entra andando pela lateral | OK |
-| 3 | - | INTERACAO | insiste | OK |
-| 4 | - | ATUACAO | reagir | OK |
-| 5 | - | PLACA | CAPITÓLIO | OK |
-
-## Cena b3 - 15.6s a 21.9s - 18 palavras - plano two
-> "Lá em cima, a fome apertava. "Vamos comer os gansos", pediu um soldado. "São sagrados", respondeu o sacerdote."
+## Cena b3 - 14.5s a 17.7s - 12 palavras - plano crowd
+> "Os gauleses cercaram a colina, e a fome apertou os dois lados."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | apertava (17.4s) | ACAO: x_aperta | aperto de mao + brilho | OK |
-| 2 | pediu (19.3s) | ACAO: fala | aponta explicando | OK |
-| 3 | respondeu (21.1s) | ACAO: fala | aponta explicando | OK |
-| 4 | - | EMOCAO: pleading | o rosto vira "pleading" na palavra | OK |
-| 5 | - | CENA | aperto de mao | OK |
-| 6 | - | INTERACAO | discutir | OK |
-| 7 | - | ATUACAO | discutir | OK |
+| 1 | cercaram (15.1s) | ACAO: chega | entra andando pela lateral | OK |
+| 2 | apertou (16.8s) | ACAO: x_aperta | aperto de mao + brilho | OK |
+| 3 | - | CENA | aperto de mao | OK |
+| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
-## Cena b4 - 22.2s a 28.1s - 17 palavras - plano crowd
-> "Numa noite sem lua, os gauleses escalaram a colina em silêncio. Os guardas dormiam. Ninguém ouviu nada."
+## Cena b4 - 18.8s a 23.4s - 18 palavras - plano wide
+> "Numa noite sem lua, eles chegaram em silêncio ao pé da muralha, e os guardas não ouviram nada."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | dormiam (27.0s) | ACAO: dorme | dormindo | OK |
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b5 - 28.5s a 33.3s - 14 palavras - plano two
-> "Acontece que os gansos acordaram, e começaram a gritar e a bater as asas."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | acordaram (30.0s) | ACAO: x_acorda | estava dormindo e acorda na palavra | OK |
-| 2 | gritar (31.5s) | ACAO: grita | grita de bracos para cima | OK |
-| 3 | - | ATUACAO | reagir | OK |
-| 4 | - | PLACA | QUÁ! QUÁ! | OK |
-
-## Cena b6 - 33.7s a 41.1s - 21 palavras - plano two
-> "Um soldado chamado Mânlio pulou da cama, e derrubou o primeiro invasor muralha abaixo. O gaulês tombou, levando os outros junto."
+## Cena b5 - 24.6s a 29.3s - 18 palavras - plano wide
+> "Acontece que os gansos sagrados da deusa Juno ouviram, e começaram a gritar e a bater as asas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | chamado (34.4s) | ACAO: fala | aponta explicando | OK |
-| 2 | pulou (35.2s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
-| 3 | derrubou (36.7s) | EFEITO: dust | poeira + som | OK |
-| 4 | tombou (39.6s) | EFEITO: dust | poeira + som | OK |
-| 5 | tombou (39.6s) | ACAO: tomba | cai sentado no chao + poeira | OK |
-| 6 | levando (40.0s) | ACAO: pega | levanta/segura | OK |
-| 7 | - | INTERACAO | empurrar | OK |
-| 8 | - | ATUACAO | conversar | OK |
+| 1 | gritar (28.2s) | ACAO: grita | grita de bracos para cima | OK |
+| 2 | - | ATUACAO | reagir | OK |
+| 3 | - | PLACA | JUNO | OK |
 
-## Cena b7 - 41.5s a 46.7s - 15 palavras - plano orbit
-> "O alarme acordou todo mundo, os romanos correram para a muralha, e o ataque fracassou."
+## Cena b6 - 30.4s a 34.9s - 18 palavras - plano two
+> "O barulho acordou o soldado Marco Mânlio, que foi até a muralha e impediu a subida dos gauleses."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | alarme (41.9s) | EFEITO: ring | onda + som | OK |
-| 2 | alarme (41.9s) | ACAO: grita | grita de bracos para cima | OK |
-| 3 | acordou (42.2s) | ACAO: x_acorda | estava dormindo e acorda na palavra | OK |
-| 4 | correram (44.1s) | EFEITO: dust | poeira + som | OK |
-| 5 | correram (44.1s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
-| 6 | ataque (46.3s) | EFEITO: ring | onda + som | OK |
-| 7 | ataque (46.3s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 8 | fracassou (46.7s) | ACAO: perde | mao na testa | OK |
-| 9 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | impediu (33.8s) | ACAO: empurra | empurra/puxa | OK |
+| 2 | subida (34.4s) | ACAO: tomba | cai sentado no chao + poeira | OK |
+| 3 | - | INTERACAO | cochichar | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
-## Cena b8 - 47.0s a 51.5s - 13 palavras - plano two
-> "Desde então, todo ano, os gansos ganhavam um desfile pelas ruas de Roma."
+## Cena b7 - 36.2s a 38.6s - 8 palavras - plano two
+> "Os gauleses se afastaram, mas mantiveram o cerco."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ganhavam (49.3s) | ACAO: vence | bracos para cima + brilho | OK |
-| 2 | - | INTERACAO | o outro se aproxima | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| 4 | - | PLACA | DESFILE | OK |
+| 1 | - | INTERACAO | o outro se aproxima | OK |
+| 2 | - | ATUACAO | tomba | OK |
 
-## Cena b9 - 51.9s a 55.6s - 11 palavras - plano close
-> "E os guardas, que dormiram a noite inteira, levaram um castigo."
+## Cena b8 - 39.7s a 44.8s - 19 palavras - plano two
+> "No fim, depois de sete meses com fome, Roma pagou mil libras de ouro, e os gauleses foram embora."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | dormiram (53.3s) | ACAO: dorme | dormindo | OK |
-| 2 | levaram (54.8s) | ACAO: pega | levanta/segura | OK |
-| 3 | - | INTERACAO | reverencia | OK |
-| 4 | - | ATUACAO | discutir | OK |
+| 1 | pagou (42.5s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | pagou (42.5s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 3 | ouro (43.3s) | EFEITO: stars | estrelinhas + som | OK |
+| 4 | ouro (43.3s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 5 | embora (44.8s) | ACAO: sai | sai andando pela lateral | OK |
+| 6 | - | INTERACAO | entregar | OK |
+| 7 | - | PLACA | 1.000 LIBRAS | OK |
 
-## Cena b10 - 55.9s a 60.4s - 13 palavras - plano two
+## Cena b9 - 46.1s a 49.3s - 13 palavras - plano group
+> "Os gansos salvaram a colina, mas o ouro foi embora do mesmo jeito."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | salvaram (46.5s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | ouro (48.0s) | EFEITO: stars | estrelinhas + som | OK |
+| 3 | ouro (48.0s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 4 | embora (48.4s) | ACAO: sai | sai andando pela lateral | OK |
+
+## Cena b10 - 50.5s a 53.8s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

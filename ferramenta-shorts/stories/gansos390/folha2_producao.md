@@ -2,111 +2,111 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/gansos390/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py gansos390` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Roma inteira foi salva por um bando de gansos barulhentos.
+## Cena b0 - Um bando de gansos barulhentos salvou Roma numa só noite.
 - Cenario: medieval | luz: dia | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): ROM (variante 0, expressao nervous); ROM (variante 1, expressao pained)
-- Animacao: reagir | interacao: susto
+- Personagens principais (1): ROM (variante 2, expressao shock)
+- Animacao: reagir
 - Objetos/modelos: goose
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bando, gansos
 - RISCOS: nenhum
 
-## Cena b1 - Os gauleses tinham invadido a cidade, e queimado quase tudo. Quem não ...
-- Cenario: medieval | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): GAU (variante 0, expressao angry, segura torch); GAU (variante 1, expressao shout, segura torch); GAU (variante 2, expressao grin, segura torch) | multidao: 16 de GAU/ROM
-- Animacao: encena | batalha encenada
-- Objetos/modelos: kit/fire, buildings/apartment, buildings/house_two, nature/lamppost
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, gauleses
-- RISCOS: nenhum
-
-## Cena b2 - Os romanos que sobraram se trancaram no Capitólio, uma colina cercada ...
-- Cenario: mountain | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (3): ROM (variante 0, expressao nervous); ROM (variante 1, expressao pained); MAN (variante 0, expressao stern)
-- Animacao: reagir | interacao: insiste
-- Objetos/modelos: buildings/castle_tower
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): capitolio, colina, muralhas, romanos
-- RISCOS: nenhum
-
-## Cena b3 - Lá em cima, a fome apertava. "Vamos comer os gansos", pediu um soldado...
-- Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (2): ROM (variante 1, expressao pained); ROM (variante 2, expressao stern)
-- Animacao: discutir | interacao: discutir
-- Objetos/modelos: goose
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fome, gansos, sacerdote, soldado
-- RISCOS: nenhum
-
-## Cena b4 - Numa noite sem lua, os gauleses escalaram a colina em silêncio. Os gua...
-- Cenario: mountain | luz: noite | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+## Cena b1 - Em trezentos e noventa antes de Cristo, os gauleses de Breno tomaram R...
+- Cenario: loc_campo | luz: day | clima: limpo
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): ROM (variante 0, expressao neutral); GAU (variante 0, expressao stern) | multidao: 8 de GAU
+- Personagens principais (1): GAU (variante 0, expressao angry, segura torch) | multidao: 8 de GAU
 - Animacao: encena
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): colina, gauleses, guardas
+- Objetos/modelos: kit/fire
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): breno, cristo, gauleses
 - RISCOS: nenhum
 
-## Cena b5 - Acontece que os gansos acordaram, e começaram a gritar e a bater as as...
-- Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+## Cena b2 - Os romanos que sobraram se trancaram no Capitólio, uma colina fortific...
+- Cenario: mountain | luz: day | clima: limpo
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): ROM (variante 0, expressao nervous) | multidao: 0 de 
+- Animacao: reagir
+- Objetos/modelos: buildings/castle_tower
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): capitolio, colina, romanos
+- RISCOS: nenhum
+
+## Cena b3 - Os gauleses cercaram a colina, e a fome apertou os dois lados.
+- Cenario: mountain | luz: day | clima: limpo
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (2): ROM (variante 1, expressao pained); GAU (variante 0, expressao stern) | multidao: 6 de POV
+- Animacao: encena | batalha encenada
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): colina, dois, fome, gauleses
+- RISCOS: nenhum
+
+## Cena b4 - Numa noite sem lua, eles chegaram em silêncio ao pé da muralha, e os g...
+- Cenario: loc_campo | luz: noite | clima: limpo
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): GAU (variante 0, expressao stern) | multidao: 0 de 
+- Animacao: -
+- Objetos/modelos: buildings/castle_tower
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): guardas, muralha
+- RISCOS: nenhum
+
+## Cena b5 - Acontece que os gansos sagrados da deusa Juno ouviram, e começaram a g...
+- Cenario: loc_campo | luz: noite | clima: limpo
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): ROM (variante 2, expressao shock)
 - Animacao: reagir
 - Objetos/modelos: goose
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): asas, bater, gansos, gritar
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): asas, bater, deusa, gansos, gritar
 - RISCOS: nenhum
 
-## Cena b6 - Um soldado chamado Mânlio pulou da cama, e derrubou o primeiro invasor...
+## Cena b6 - O barulho acordou o soldado Marco Mânlio, que foi até a muralha e impe...
 - Cenario: loc_campo | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
-- Personagens principais (2): MAN (variante 0, expressao angry); GAU (variante 0, expressao scared)
-- Animacao: conversar | interacao: empurrar
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Personagens principais (2): MAN (variante 0, expressao angry); GAU (variante 0, expressao scared) | multidao: 0 de 
+- Animacao: conversar | interacao: cochichar
 - Objetos/modelos: buildings/castle_tower
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cama, gaules, soldado
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barulho, gauleses, muralha, soldado, subida
 - RISCOS: nenhum
 
-## Cena b7 - O alarme acordou todo mundo, os romanos correram para a muralha, e o a...
+## Cena b7 - Os gauleses se afastaram, mas mantiveram o cerco.
 - Cenario: loc_campo | luz: noite | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): ROM (variante 0, expressao angry); MAN (variante 0, expressao shout); GAU (variante 0, expressao scared) | multidao: 30 de ROM/GAU
-- Animacao: encena | batalha encenada
-- Objetos/modelos: buildings/castle_tower
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alarme, ataque, muralha, romanos
-- RISCOS: nenhum
-
-## Cena b8 - Desde então, todo ano, os gansos ganhavam um desfile pelas ruas de Rom...
-- Cenario: street | luz: dia | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): ROM (variante 0, expressao smile); ROM (variante 1, expressao grin)
-- Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: goose
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): desfile, gansos, roma
-- RISCOS: nenhum
-
-## Cena b9 - E os guardas, que dormiram a noite inteira, levaram um castigo.
-- Cenario: medieval | luz: dia | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): ROM (variante 2, expressao sad); ROM (variante 0, expressao sad)
-- Animacao: discutir | interacao: reverencia
+- Personagens principais (2): GAU (variante 0, expressao scared); MAN (variante 0, expressao angry)
+- Animacao: tomba | interacao: o outro se aproxima
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): castigo, guardas
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cerco, gauleses
+- RISCOS: nenhum
+
+## Cena b8 - No fim, depois de sete meses com fome, Roma pagou mil libras de ouro, ...
+- Cenario: interior madeira | luz: dia | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
+- Personagens principais (2): ROM (variante 0, expressao sad, segura coin); GAU (variante 0, expressao grin, segura coin)
+- Animacao: encena | interacao: entregar
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fome, gauleses, ouro, sete
+- RISCOS: nenhum
+
+## Cena b9 - Os gansos salvaram a colina, mas o ouro foi embora do mesmo jeito.
+- Cenario: medieval | luz: dia | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Personagens principais (1): ROM (variante 0, expressao smile)
+- Animacao: encena
+- Objetos/modelos: goose
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): colina, gansos, ouro
 - RISCOS: nenhum
 
 ## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: medieval | luz: dia | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (1): ROM (variante 0, expressao grin)
+- Personagens principais (1): ROM (variante 2, expressao grin)
 - Animacao: conversar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
@@ -117,24 +117,17 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-goose | b0, b3, b5, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+goose | b0, b5, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/fire | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/apartment | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/house_two | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/lamppost | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/castle_tower | b2, b6, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/castle_tower | b2, b4, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b1, b7 | planos abertos: 3 | mistura: close 10% | medio 69% | aberto 16% | detalhe 5%
-- Interacoes: b0 susto, b2 insiste, b3 discutir, b6 empurrar, b8 o outro se aproxima, b9 reverencia
-- RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py gansos390  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/gansos390/moodboard.jpg
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
+- Objeto heroi: - | grandes momentos: b3 | planos abertos: 5 | mistura: close 10% | medio 51% | aberto 39% | detalhe 0%
+- Interacoes: b6 cochichar, b7 o outro se aproxima, b8 entregar
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 2 risco(s) em aberto
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh gansos390 bN bM` (so essas cenas).
