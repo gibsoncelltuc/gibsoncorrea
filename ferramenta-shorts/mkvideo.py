@@ -1393,7 +1393,7 @@ def build_beat(k, b):
                 _xs = sorted(px_ for px_, pz_ in _ppos); _gaps = [(_xs[j + 1] - _xs[j], (_xs[j + 1] + _xs[j]) / 2) for j in range(len(_xs) - 1)]
                 _eh_her = bool(HEROI) and re.sub(r'_(red|yellow|purple|striped)$', '', str(asset)) == re.sub(r'_(red|yellow|purple|striped)$', '', str(HEROI))
                 if _eh_her and _gaps and max(_gaps)[0] >= 1.6: dx = round(max(_gaps)[1], 2); z = min(float(z), min(pz_ for px_, pz_ in _ppos) - 0.3)   # 24/11 OBJETO HEROI: no vao ENTRE os personagens (antes ia 2 m para o lado e saia cortado na borda)
-                elif _eh_her: dx = round((max(_xs) + 1.3) if float(dx) >= sum(_xs) / len(_xs) else (min(_xs) - 1.3), 2); z = min(float(z), min(pz_ for px_, pz_ in _ppos) - 0.6)   # sozinho ou colados: logo ao lado, dentro do quadro
+                elif _eh_her: _lado = 0.95 if shot in ('close', 'two', 'low') else 1.3; dx = round((max(_xs) + _lado) if float(dx) >= sum(_xs) / len(_xs) else (min(_xs) - _lado), 2); z = min(float(z), min(pz_ for px_, pz_ in _ppos) - 0.8)   # sozinho ou colados: logo ao lado, dentro do quadro
                 else: dx = round((max(_xs) + 2.0) if float(dx) >= sum(_xs) / len(_xs) else (min(_xs) - 2.0), 2); z = min(float(z), min(pz_ for px_, pz_ in _ppos) - 0.4)
         ex = p[4] if len(p) > 4 and isinstance(p[4], dict) else {}
         if asset.startswith(('kit/', 'buildings/')) and 'drop' not in ex: ex = {**ex, 'drop': False}   # peca de cenario nao cai do ceu

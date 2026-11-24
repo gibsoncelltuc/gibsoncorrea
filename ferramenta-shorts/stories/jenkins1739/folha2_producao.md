@@ -94,8 +94,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - A orelha custou dez anos de guerra, e Jenkins ainda ficou sem ela.
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: close = close no rosto; empurra devagar
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): JEN (variante 0, expressao sad)
 - Animacao: conversar
 - Objetos/modelos: kit/ear_jar
@@ -122,7 +122,7 @@ ship | b1, b6 | pronto | conferir na folha de contato se le bem; se parecer caix
 
 
 ## Video inteiro
-- Objeto heroi: kit/ear_jar | grandes momentos: b2, b6 | planos abertos: 2 | mistura: close 15% | medio 68% | aberto 11% | detalhe 7%
+- Objeto heroi: kit/ear_jar | grandes momentos: b2, b6 | planos abertos: 2 | mistura: close 17% | medio 68% | aberto 11% | detalhe 5%
 - Interacoes: b0 discutir, b2 empurrar, b3 cochichar, b4 susto, b5 cochichar, b7 apertar, b8 entregar
 - RISCOS GERAIS: nenhum
 
