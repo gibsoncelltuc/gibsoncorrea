@@ -27,7 +27,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "loc_campo"
   },
   {
    "camera": "reveal",
@@ -37,8 +37,7 @@
    ],
    "multidao": 32,
    "objetos": [
-    "kit/marco_viena",
-    "navios de guerra ao fundo, no tamanho real"
+    "kit/marco_viena"
    ],
    "palavras": 18,
    "cena": "b1",
@@ -47,7 +46,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "loc_campo"
   },
   {
    "camera": "two",
@@ -86,7 +85,7 @@
   {
    "camera": "group",
    "personagens": [
-    "AUS",
+    "IMP",
     "AUS"
    ],
    "multidao": 14,
@@ -133,16 +132,16 @@
   {
    "camera": "two",
    "personagens": [
-    "COZ",
-    "AUS"
+    "IMP",
+    "COZ"
    ],
    "multidao": 0,
    "objetos": [
     "kit/kettle"
    ],
-   "palavras": 13,
+   "palavras": 15,
    "cena": "b6",
-   "frase": "A bala acertou uma chaleira de sopa no convés do navio do imperador.",
+   "frase": "A bala acertou e destruiu uma chaleira de sopa no convés do navio do imperador.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -184,9 +183,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 16,
+   "palavras": 23,
    "cena": "b8",
-   "frase": "Depois, a França mediou a paz. O rio continuou fechado, e a Holanda pagou uma indenização.",
+   "frase": "Depois, a França mediou a paz, em mil setecentos e oitenta e cinco. O rio continuou fechado, e a Holanda pagou uma indenização.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -209,10 +208,10 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "loc_patio"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "COZ"
    ],
@@ -225,7 +224,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "loc_patio"
   }
  ]
 }

@@ -47,15 +47,15 @@
   {
    "shot": "two",
    "who": [
-    "BUK:0:smug",
-    "REP:0:surprised:paper"
+    "BUK:0:laugh",
+    "POV:0:laugh"
    ],
    "props": [
     [
      "kit/ballot_box",
      0,
      -1.4,
-     1.2
+     1.3
     ]
    ],
    "fx": [
@@ -65,18 +65,21 @@
     "ding@30"
    ],
    "say": "Um presidente foi reeleito com uma das maiores votações do mundo.",
-   "set": "loc_cidade"
+   "set": "loc_cidade",
+   "acao": "comemorar",
+   "text": "84,6%",
+   "titulo": true
   },
   {
-   "shot": "reveal",
+   "shot": "two",
    "who": [
-    "POV:0:smile",
-    "POV:1:grin"
+    "BUK:0:grin",
+    "POV:0:smile"
    ],
    "mapa": "EL SALVADOR",
-   "mapa_at": 3,
    "say": "Foi em El Salvador, na América Central, em fevereiro de dois mil e vinte e quatro. O presidente era Nayib Bukele.",
-   "text": "2024"
+   "text": "NAYIB BUKELE",
+   "titulo": true
   },
   {
    "shot": "two",

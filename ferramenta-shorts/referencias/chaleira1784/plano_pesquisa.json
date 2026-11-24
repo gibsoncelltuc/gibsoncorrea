@@ -6,8 +6,18 @@
    "tipo": "tema",
    "item": "A Guerra da Chaleira",
    "consultas": [
+    "Kettle War 1784 Dolfijn Le Louis Scheldt",
     "A Guerra da Chaleira",
-    "Uma Era Holanda Ele 1784"
+    "Uma Foi Holanda Escalda José Segundo Antuérpia 1784"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Rio Escalda (Scheldt), entre Antuérpia e a Holanda, Países Baixos austríacos e R",
+   "consultas": [
+    "Scheldt river Lillo 18th century painting",
+    "Rio Escalda",
+    "Rio Escalda Scheldt entre Antuérpia e a Holanda Países Baixos austríacos e República Holan"
    ]
   },
   {
@@ -27,10 +37,82 @@
    ]
   },
   {
+   "tipo": "pessoas",
+   "item": "imperador José II da Áustria (casaca clara com faixa vermelha)",
+   "consultas": [
+    "imperador José II da Áustria casaca clara com faixa vermelha",
+    "imperador José II da Áustria casaca clara com faixa vermelha 1784"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "oficiais e marinheiros austríacos de farda clara e azul",
+   "consultas": [
+    "oficiais e marinheiros austríacos de farda clara e azul",
+    "oficiais e marinheiros austríacos de farda clara e azul 1784"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "marinheiros holandeses de casaca laranja e calça azul",
+   "consultas": [
+    "marinheiros holandeses de casaca laranja e calça azul",
+    "marinheiros holandeses de casaca laranja e calça azul 1784"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "cozinheiro do navio de avental e touca branca",
+   "consultas": [
+    "cozinheiro do navio de avental e touca branca",
+    "cozinheiro do navio de avental e touca branca 1784"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "chaleira de sopa",
+   "consultas": [
+    "chaleira de sopa",
+    "chaleira de sopa 1784"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "canhão de bordo",
+   "consultas": [
+    "canhão de bordo",
+    "canhão de bordo 1784"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "navio mercante Le Louis",
+   "consultas": [
+    "navio mercante Le Louis",
+    "navio mercante Le Louis 1784"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "navio de guerra Dolfijn",
+   "consultas": [
+    "navio de guerra Dolfijn",
+    "navio de guerra Dolfijn 1784"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "bandeira imperial",
+   "consultas": [
+    "bandeira imperial",
+    "bandeira imperial 1784"
+   ]
+  },
+  {
    "tipo": "heroi",
    "item": "kettle",
    "consultas": [
-    "kettle",
+    "chaleira de sopa",
     "A Guerra da Chaleira"
    ]
   },
@@ -40,22 +122,6 @@
    "consultas": [
     "ship 1784",
     "ship"
-   ]
-  },
-  {
-   "tipo": "epoca",
-   "item": "canhao da epoca",
-   "consultas": [
-    "cannon 1784",
-    "cannon"
-   ]
-  },
-  {
-   "tipo": "epoca",
-   "item": "soldado da epoca",
-   "consultas": [
-    "soldier uniform 1784",
-    "soldier uniform"
    ]
   }
  ]

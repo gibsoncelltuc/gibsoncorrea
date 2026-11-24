@@ -58,7 +58,8 @@
    ],
    "text": "UM ÚNICO TIRO",
    "say": "Uma guerra inteira teve um único tiro, e ele acertou uma chaleira de sopa.",
-   "titulo": true
+   "titulo": true,
+   "set": "loc_campo"
   },
   {
    "shot": "reveal",
@@ -78,7 +79,8 @@
    "say": "Foi em mil setecentos e oitenta e quatro. A Holanda mantinha o rio Escalda fechado aos navios estrangeiros.",
    "verbos_ok": [
     "passa"
-   ]
+   ],
+   "set": "loc_campo"
   },
   {
    "shot": "two",
@@ -105,8 +107,8 @@
   {
    "shot": "reveal",
    "who": [
-    "AUS:0:smug",
-    "AUS:1:grin"
+    "IMP:0:smug",
+    "AUS:0:grin"
    ],
    "crowd": {
     "n": 14,
@@ -121,26 +123,24 @@
    "set": "harbor"
   },
   {
-   "shot": "crowd",
+   "shot": "wide",
    "who": [
     "HOL:0:stern",
     "HOL:1:angry"
    ],
    "batalha": true,
    "crowd": {
-    "n": 16,
-    "outfits": [
-     "HOL"
-    ],
-    "march": false,
-    "expr": "stern"
+    "n": 0
    },
    "props": [
     [
      "cannon",
-     -2.6,
-     0.4,
-     1.1
+     0.0,
+     -8.0,
+     1.1,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -149,20 +149,38 @@
    "sfx": [
     "cannon@60"
    ],
-   "say": "Acontece que o navio de guerra holandês Dolfijn estava esperando, e disparou um único tiro."
+   "say": "Acontece que o navio de guerra holandês Dolfijn estava esperando, e disparou um único tiro.",
+   "fachada": false,
+   "detalhe": false,
+   "quadro": {
+    "objeto": "cannon",
+    "classe": "grande",
+    "lugar": "fundo",
+    "tela": "42% da altura da tela",
+    "relacao": "objeto com ~4.5 m de altura e 6.5 m de comprimento: fica ATRAS dos personagens, inteiro no quadro; os personagens ficam na frente, menores (~36% da tela)",
+    "camera": "plano aberto mirando o objeto (alvo z -3.6, distancia 10.9 m), sem multidao na frente"
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 11.5,
+   "d1": 10.9
   },
   {
    "shot": "two",
    "who": [
-    "COZ:0:scared",
-    "AUS:0:surprised"
+    "IMP:0:surprised",
+    "COZ:0:scared"
    ],
    "props": [
     [
      "kit/kettle",
-     0,
-     1.9,
-     1.2
+     0.0,
+     -1.2,
+     1.2,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -173,7 +191,19 @@
     "thump@20",
     "ding@24"
    ],
-   "say": "A bala acertou uma chaleira de sopa no convés do navio do imperador."
+   "say": "A bala acertou e destruiu uma chaleira de sopa no convés do navio do imperador.",
+   "quadro": {
+    "objeto": "kit/kettle",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~1.5 m: fica entre e um pouco atras dos personagens, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 11.5 m)"
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "group",
@@ -192,7 +222,7 @@
     "HOL:0:smug:money"
    ],
    "interacao": "entregar",
-   "say": "Depois, a França mediou a paz. O rio continuou fechado, e a Holanda pagou uma indenização."
+   "say": "Depois, a França mediou a paz, em mil setecentos e oitenta e cinco. O rio continuou fechado, e a Holanda pagou uma indenização."
   },
   {
    "shot": "close",
@@ -202,12 +232,28 @@
    "props": [
     [
      "kit/kettle",
-     1.5,
-     -0.5,
-     1.2
+     2.4,
+     0.2,
+     1.2,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "say": "O único prejuízo do dia foi o almoço."
+   "say": "O único prejuízo do dia foi o almoço.",
+   "quadro": {
+    "objeto": "kit/kettle",
+    "classe": "medio",
+    "lugar": "meio",
+    "tela": "32% da altura da tela",
+    "relacao": "objeto com ~1.5 m: fica ao lado do personagem, mesmo plano, tamanho comparavel a uma pessoa",
+    "camera": "plano medio enquadrando personagens e objeto juntos (distancia 8.0 m)"
+   },
+   "set": "loc_patio",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   }
  ],
  "visual": {
@@ -241,9 +287,9 @@
    "https://en.wikipedia.org/wiki/Kettle_War",
    "https://commons.wikimedia.org/wiki/Category:Kettle_War"
   ],
-  "buscas": [
-   "Kettle War 1784 Dolfijn Le Louis Scheldt",
-   "Keteloorlog 1784 Schelde Lillo"
-  ]
+  "buscas": {
+   "A Guerra da Chaleira": "Kettle War 1784 Dolfijn Le Louis Scheldt",
+   "Rio Escalda (Scheldt), entre Antuérpia e a Holanda, Países Baixos austríacos e R": "Scheldt river Lillo 18th century painting"
+  }
  }
 }

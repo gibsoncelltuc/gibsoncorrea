@@ -9,7 +9,8 @@
   "cenarios": [
    "harbor",
    "interior pedra",
-   "loc_campo"
+   "loc_campo",
+   "loc_patio"
   ],
   "cenarios_trocados": []
  },
@@ -81,10 +82,10 @@
    "https://en.wikipedia.org/wiki/Kettle_War",
    "https://commons.wikimedia.org/wiki/Category:Kettle_War"
   ],
-  "buscas": [
-   "Kettle War 1784 Dolfijn Le Louis Scheldt",
-   "Keteloorlog 1784 Schelde Lillo"
-  ]
+  "buscas": {
+   "A Guerra da Chaleira": "Kettle War 1784 Dolfijn Le Louis Scheldt",
+   "Rio Escalda (Scheldt), entre Antuérpia e a Holanda, Países Baixos austríacos e R": "Scheldt river Lillo 18th century painting"
+  }
  },
  "fontes": [],
  "falta": []
