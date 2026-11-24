@@ -122,13 +122,11 @@ kit/campfire | b5 | pronto (HEROI: aparece em close) | conferir na folha de cont
 ## Video inteiro
 - Objeto heroi: kit/campfire | grandes momentos: b0, b6 | planos abertos: 3 | mistura: close 27% | medio 47% | aberto 19% | detalhe 7%
 - Interacoes: b5 tremem de frio, b7 cochichar
-- RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py hayha1939  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/hayha1939/moodboard.jpg
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 3 risco(s) em aberto
+## RESUMO: 2 risco(s) em aberto
 - b0: cena longa (29 palavras, ~10 s no mesmo lugar)
 - b1: frase EXPLICATIVA (ciencia/mecanismo) sem cena de explicacao: a narracao explica e a tela so mostra gente parada
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh hayha1939 bN bM` (so essas cenas).

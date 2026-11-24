@@ -125,15 +125,13 @@ kit/balloon | b7 | pronto | conferir na folha de contato se le bem; se parecer c
 - Interacoes: b0 susto, b2 avanca e o outro recua, b5 tremem de frio
 - RISCOS GERAIS: 
   - objeto heroi (kit/panela) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
-  - video com ~46 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar em ~60 s (com esta voz, ~150 palavras no total)
+  - video com ~54 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - objeto heroi kit/panela nao aparece em nenhuma cena -> CORRECAO: por kit/panela em "props" de pelo menos uma cena (ou tirar de "herois")
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py paris1870  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/paris1870/moodboard.jpg
 
-## RESUMO: 4 risco(s) em aberto
+## RESUMO: 3 risco(s) em aberto
 - geral: objeto heroi (kit/panela) sem close de camera
-- geral: video com ~46 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+- geral: video com ~54 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 - geral: objeto heroi kit/panela nao aparece em nenhuma cena
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh paris1870 bN bM` (so essas cenas).

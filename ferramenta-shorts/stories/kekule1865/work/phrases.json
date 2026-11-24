@@ -1,0 +1,328 @@
+{
+ "duration": 76.848,
+ "frames30": 2305,
+ "source": "silence-align (cost 1.28)",
+ "segments": [
+  [
+   0.149875,
+   3.08271
+  ],
+  [
+   3.40958,
+   4.64921
+  ],
+  [
+   5.49421,
+   7.22942
+  ],
+  [
+   7.45454,
+   8.43775
+  ],
+  [
+   8.60575,
+   9.21004
+  ],
+  [
+   10.0489,
+   12.1692
+  ],
+  [
+   12.4582,
+   12.9687
+  ],
+  [
+   13.254,
+   16.3153
+  ],
+  [
+   17.1425,
+   19.1505
+  ],
+  [
+   19.369,
+   20.5234
+  ],
+  [
+   21.3973,
+   22.8127
+  ],
+  [
+   23.6592,
+   24.5723
+  ],
+  [
+   24.7702,
+   26.1302
+  ],
+  [
+   26.3651,
+   26.9268
+  ],
+  [
+   27.779,
+   28.2923
+  ],
+  [
+   28.5652,
+   30.3715
+  ],
+  [
+   31.2182,
+   33.2606
+  ],
+  [
+   34.1225,
+   35.414
+  ],
+  [
+   35.7252,
+   37.1576
+  ],
+  [
+   38.0158,
+   39.5119
+  ],
+  [
+   40.3828,
+   41.0834
+  ],
+  [
+   41.96,
+   44.9624
+  ],
+  [
+   45.8265,
+   46.78
+  ],
+  [
+   47.6422,
+   49.4671
+  ],
+  [
+   50.3046,
+   53.0124
+  ],
+  [
+   53.8547,
+   55.082
+  ],
+  [
+   55.311,
+   57.0126
+  ],
+  [
+   57.3657,
+   59.1089
+  ],
+  [
+   59.9598,
+   61.6599
+  ],
+  [
+   62.5022,
+   64.8993
+  ],
+  [
+   65.0832,
+   66.0639
+  ],
+  [
+   66.9213,
+   68.0776
+  ],
+  [
+   68.3218,
+   69.2734
+  ],
+  [
+   70.0688,
+   71.713
+  ],
+  [
+   72.5506,
+   73.993
+  ],
+  [
+   74.2879,
+   76.0496
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um dos maiores segredos da qu\u00edmica foi resolvido num cochilo,",
+   "s": 0.15,
+   "e": 3.083
+  },
+  {
+   "text": "e com a ajuda de uma cobra.",
+   "s": 3.41,
+   "e": 4.649
+  },
+  {
+   "text": "Era mil oitocentos e sessenta e cinco,",
+   "s": 5.494,
+   "e": 7.229
+  },
+  {
+   "text": "na cidade de Gante,",
+   "s": 7.455,
+   "e": 8.438
+  },
+  {
+   "text": "na B\u00e9lgica.",
+   "s": 8.606,
+   "e": 9.21
+  },
+  {
+   "text": "O professor August Kekul\u00e9 tinha um problema:",
+   "s": 10.049,
+   "e": 12.169
+  },
+  {
+   "text": "o benzeno,",
+   "s": 12.458,
+   "e": 12.969
+  },
+  {
+   "text": "um l\u00edquido com seis \u00e1tomos de carbono que ningu\u00e9m sabia arrumar.",
+   "s": 13.254,
+   "e": 16.315
+  },
+  {
+   "text": "Os qu\u00edmicos desenhavam correntes retas,",
+   "s": 17.142,
+   "e": 19.151
+  },
+  {
+   "text": "e nada fechava a conta.",
+   "s": 19.369,
+   "e": 20.523
+  },
+  {
+   "text": "Era um quebra-cabe\u00e7a de anos.",
+   "s": 21.397,
+   "e": 22.813
+  },
+  {
+   "text": "Numa noite fria,",
+   "s": 23.659,
+   "e": 24.572
+  },
+  {
+   "text": "ele virou a cadeira para a lareira,",
+   "s": 24.77,
+   "e": 26.927
+  },
+  {
+   "text": "e cochilou.",
+   "s": 27.779,
+   "e": 28.292
+  },
+  {
+   "text": "No sonho, os \u00e1tomos dan\u00e7avam como cobras.",
+   "s": 28.565,
+   "e": 30.372
+  },
+  {
+   "text": "At\u00e9 que uma delas mordeu o pr\u00f3prio rabo.",
+   "s": 31.218,
+   "e": 33.261
+  },
+  {
+   "text": "Kekul\u00e9 acordou num pulo,",
+   "s": 34.123,
+   "e": 35.414
+  },
+  {
+   "text": "como se tivesse levado um raio.",
+   "s": 35.725,
+   "e": 37.158
+  },
+  {
+   "text": "O benzeno n\u00e3o era uma corrente.",
+   "s": 38.016,
+   "e": 39.512
+  },
+  {
+   "text": "Era um anel!",
+   "s": 40.383,
+   "e": 41.083
+  },
+  {
+   "text": "Passou o resto da noite desenhando o anel de seis carbonos.",
+   "s": 41.96,
+   "e": 44.962
+  },
+  {
+   "text": "E a conta fechou.",
+   "s": 45.827,
+   "e": 46.78
+  },
+  {
+   "text": "Os colegas ficaram de boca aberta.",
+   "s": 47.642,
+   "e": 49.467
+  },
+  {
+   "text": "O anel explicava dezenas de subst\u00e2ncias de uma vez.",
+   "s": 50.305,
+   "e": 53.012
+  },
+  {
+   "text": "Vinte e cinco anos depois,",
+   "s": 53.855,
+   "e": 55.082
+  },
+  {
+   "text": "numa festa em Berlim em honra ao anel,",
+   "s": 55.311,
+   "e": 57.013
+  },
+  {
+   "text": "ele contou o sonho pela primeira vez.",
+   "s": 57.366,
+   "e": 59.109
+  },
+  {
+   "text": "At\u00e9 hoje h\u00e1 quem duvide da hist\u00f3ria.",
+   "s": 59.96,
+   "e": 61.66
+  },
+  {
+   "text": "Mas o anel do benzeno virou base de rem\u00e9dios,",
+   "s": 62.502,
+   "e": 64.899
+  },
+  {
+   "text": "tintas e pl\u00e1sticos.",
+   "s": 65.083,
+   "e": 66.064
+  },
+  {
+   "text": "E ele deixou um conselho:",
+   "s": 66.921,
+   "e": 68.078
+  },
+  {
+   "text": "aprendam a sonhar.",
+   "s": 68.322,
+   "e": 69.273
+  },
+  {
+   "text": "Mas confiram tudo acordados.",
+   "s": 70.069,
+   "e": 71.713
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 72.551,
+   "e": 73.993
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 74.288,
+   "e": 76.05
+  }
+ ]
+}
