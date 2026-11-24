@@ -214,13 +214,9 @@
     "CAN:0:nervous"
    ],
    "crowd": {
-    "n": 8,
-    "outfits": [
-     "USA",
-     "CAN"
-    ],
-    "march": true
-   }
+    "n": 0
+   },
+   "_susp_ok": true
   },
   {
    "say": "Semanas antes, navios japoneses levaram cinco mil homens embora em menos de uma hora, escondidos na neblina.",
@@ -296,7 +292,16 @@
    "text": "MINA",
    "tat": 14,
    "tstyle": "red",
-   "animais": false
+   "animais": false,
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "CAN",
+     "USA"
+    ],
+    "march": false
+   },
+   "_susp_ok": true
   },
   {
    "say": "No fim, só acharam na ilha alguns cachorros abandonados.",

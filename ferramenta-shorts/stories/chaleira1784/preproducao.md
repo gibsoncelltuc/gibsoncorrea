@@ -4,21 +4,21 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | harbor | two | 2 | reagir, INTERAGEM: o outro se aproxima | kit/marco_viena, kit/kettle | - | -
-b1 | harbor | crowd | 10 | encena, batalha | kit/marco_viena, navios de guerra ao fundo, no tamanho real | - | -
+b0 | loc_campo | two | 2 | reagir, INTERAGEM: o outro se aproxima | kit/kettle | - | -
+b1 | harbor | wide | 2 | encena | kit/navio_fragata, navios de guerra ao fundo, no tamanho real | - | -
 b2 | interior pedra | two | 2 | discutir, INTERAGEM: discutir | - | - | -
-b3 | interior pedra | group | 2 | conversar, INTERAGEM: reverencia | - | paper | -
-b4 | harbor | group | 16 | conversar, INTERAGEM: insiste | kit/marco_viena, war/flagpole | - | -
-b5 | harbor | crowd | 18 | encena, batalha | cannon, kit/marco_viena, navios de guerra ao fundo, no tamanho real | - | -
-b6 | loc_campo | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/kettle | - | -
-b7 | interior loja | group | 3 | reagir, INTERAGEM: susto | kit/kettle | flag | -
+b3 | harbor | wide | 1 | parados (so fala e pisca) | kit/navio_fragata, navios de guerra ao fundo, no tamanho real | - | -
+b4 | harbor | wide | 1 | encena | kit/navio_fragata, war/flagpole | - | -
+b5 | harbor | two | 2 | conversar, INTERAGEM: insiste | cannon, kit/navio_fragata | - | -
+b6 | interior madeira | two | 2 | conversar, INTERAGEM: vai ate o outro, batalha | kit/kettle | - | -
+b7 | harbor | wide | 1 | encena, batalha | kit/navio_fragata, navios de guerra ao fundo, no tamanho real | flag | -
 b8 | interior pedra | two | 2 | encena, INTERAGEM: entregar | - | money | -
-b9 | loc_campo | close | 1 | conversar | kit/kettle | - | -
-b10 | harbor | close | 1 | conversar | - | - | -
+b9 | interior madeira | two | 1 | conversar | kit/kettle | - | -
+b10 | interior madeira | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/kettle
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b1, b5
-Interacoes entre personagens: b0 o outro se aproxima, b2 discutir, b3 reverencia, b4 insiste, b6 vai ate o outro, b7 susto, b8 entregar
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b6, b7
+Interacoes entre personagens: b0 o outro se aproxima, b2 discutir, b5 insiste, b6 vai ate o outro, b8 entregar
 
-Cenas com personagens parados: 0 de 11
+Cenas com personagens parados: 1 de 11
 FALTA MODELAR: nada

@@ -1,6 +1,6 @@
 {
  "id": "bacalhau1958",
- "titulo": "As Guerras do Bacalhau",
+ "titulo": "Guerras Inusitadas EP 25 - As Guerras do Bacalhau",
  "ancoras": {
   "ano": 1958,
   "era": "atual (1950+)",
@@ -28,23 +28,47 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "buildings/lighthouse",
   "buildings/shop",
   "crate",
+  "kit/barco_guarda",
   "kit/cod",
-  "kit/logs",
+  "kit/fishing_net",
   "kit/navio_encouracado",
-  "ship"
+  "kit/navio_leander",
+  "kit/navio_vapor",
+  "kit/scroll"
  ],
- "pesquisa_visual": {},
- "fontes": [],
- "falta": [
-  "local",
-  "quando",
-  "participantes",
-  "roupas",
-  "cenario",
-  "objetos",
-  "fontes_visuais"
- ]
+ "pesquisa_visual": {
+  "local": "Atlântico Norte, mar aberto perto da costa da Islândia (Reykjavik e a costa de pesca); águas cinzentas e frias",
+  "quando": "1958 a 1976, em três disputas (1958-61, 1972-73, 1975-76); dia nublado de mar",
+  "participantes": [
+   "guarda costeira da Islândia (uniforme azul-marinho, bonés)",
+   "marinheiros da Marinha Real britânica (uniforme branco e azul)",
+   "pescadores de capa amarela"
+  ],
+  "roupas": {
+   "ICE": "uniforme azul-marinho com botões dourados",
+   "BRI": "uniforme branco e azul naval",
+   "PES": "capa de chuva amarela de pescador"
+  },
+  "cenario": "porto e mar cinzento do Atlântico Norte com barcos de pesca, fragatas e navios da guarda costeira da época (anos 1950-70)",
+  "objetos": [
+   "bacalhau",
+   "caixote de peixe",
+   "navio da guarda costeira",
+   "fragata britânica",
+   "cabo de rede de pesca"
+  ],
+  "explicacoes": [
+   "Cortadores de rede: a guarda costeira islandesa cortava os cabos de arrasto dos barcos ingleses (fonte: Wikipedia \"Cod Wars\")"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Cod_Wars",
+   "https://commons.wikimedia.org/wiki/Category:Cod_Wars"
+  ]
+ },
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Cod_Wars"
+ ],
+ "falta": []
 }

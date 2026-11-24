@@ -1,32 +1,31 @@
 # CRONOGRAMA - Guerras Inusitadas EP 07 - A Guerra dos Bolos
 
-Gerado em 24/11 03:30 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:23 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | street | two | CON, OFI | 5 | cake_table, marco_ulua | - | A França invadiu o México por causa de uma conta de confeitaria.
-b1 | transicao | street | reveal | CON, OFI | 32 | shop, cake_table, marco_ulua, stall | - | Um confeiteiro francês tinha uma loja perto da Cidade do México, famos
-b2 | simples | interior loja | group | OFI, OFI, CON | - | cake_table, Table_Large | - | Um dia, oficiais mexicanos entraram, comeram tudo o que havia, quebrar
-b3 | simples | interior pedra | two | CON, REI | - | cake_table | - | O confeiteiro escreveu ao rei da França. "Quero sessenta mil pesos", p
-b4 | simples | interior pedra | close | REI | - | - | - | O rei gostou da ideia, juntou outras queixas, e cobrou seiscentos mil.
-b5 | simples | loc_campo | two | GEN, OFI | - | - | - | O México riu do pedido, e não deu um centavo.
-b6 | simples | harbor | wide | FRA, FRA | 32 | marco_ulua, navio em movimento, navios de guerra ao fundo, no tamanho real | - | Acontece que a França mandou mesmo. Navios de guerra chegaram, e fecha
-b7 | chave | harbor | crowd | FRA, OFI | 48 | cannon, marco_ulua | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os canhões franceses bombardearam a fortaleza de Veracruz, e os soldad
-b8 | chave | street | orbit | GEN | 40 | cannon | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Um general mexicano correu para o combate, e tombou, atingido por um t
-b9 | simples | interior madeira | two | GEN, FRA | - | - | - | Meses depois, o México pagou os seiscentos mil pesos, e a França foi e
-b10 | simples | interior madeira | close | CON | - | cake_table, coin | - | Nunca um doce custou tão caro, e o confeiteiro contou as moedas.
-b11 | simples | street | close | CON | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b0 | simples | street | two | CON, OFI | - | cake_table, marco_ulua | - | A França foi à guerra contra o México por causa de uma conta de confei
+b1 | transicao | street | reveal | CON, OFI | - | shop, cake_table, marco_ulua, stall | - | Um confeiteiro francês tinha uma loja em Tacubaya, perto da Cidade do 
+b2 | simples | interior loja | two | OFI, OFI | - | barrel_r, cake_table, chest | - | Em mil oitocentos e trinta e dois, oficiais mexicanos saquearam a loja
+b3 | simples | interior pedra | two | CON, REI | - | cake_table | - | O confeiteiro reclamou ao rei e pediu sessenta mil pesos. A loja valia
+b4 | simples | interior pedra | close | REI | - | - | - | O governo francês juntou outras queixas e exigiu seiscentos mil pesos,
+b5 | simples | harbor | wide | FRA, FRA | 32 | marco_ulua, navios de guerra ao fundo, no tamanho real | - | Acontece que a França mandou a esquadra, e navios de guerra fecharam o
+b6 | chave | harbor | crowd | FRA | 48 | cannon, marco_ulua | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Canhões franceses bombardearam a fortaleza de San Juan de Ulúa, e os s
+b7 | simples | interior pedra | two | GEN | - | - | - | Santa Anna foi ferido na perna por metralha, e a perna foi enterrada c
+b8 | simples | interior pedra | group | GEN, FRA | - | - | - | Em março de mil oitocentos e trinta e nove, o México prometeu pagar, e
+b9 | simples | street | wide | CON, FRA | - | marco_ulua | - | A conta nunca foi paga, e a França voltou em mil oitocentos e sessenta
+b10 | simples | street | close | CON | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/8 itens) | PENDENTE | python3 pesquisar.py bolos1838
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/17 itens) | PENDENTE | python3 pesquisar.py bolos1838
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 2) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | BLOQUEADO (etapa anterior pendente) | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | BLOQUEADO (etapa anterior pendente) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 

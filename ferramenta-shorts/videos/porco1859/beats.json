@@ -226,7 +226,16 @@
    "say": "O fazendeiro ofereceu dez dólares ao vizinho pelo porco.",
    "shot_lock": true,
    "impact": false,
-   "detalhe": false
+   "detalhe": false,
+   "animals": [
+    [
+     "pig",
+     2.2,
+     -0.6,
+     "fall",
+     1.1
+    ]
+   ]
   },
   {
    "shot": "two",
@@ -248,7 +257,16 @@
    "say": "O dono gritou que o porco valia cem, e recusou o dinheiro. Ninguém cedeu.",
    "shot_lock": true,
    "impact": false,
-   "detalhe": false
+   "detalhe": false,
+   "animals": [
+    [
+     "pig",
+     2.2,
+     -0.6,
+     "fall",
+     1.1
+    ]
+   ]
   },
   {
    "shot": "reveal",
@@ -304,7 +322,8 @@
    ],
    "interior": "madeira",
    "say": "O almirante inglês recebeu ordem de atacar, e se recusou: não ia começar uma guerra por um porco.",
-   "riscos_ok": true
+   "riscos_ok": true,
+   "susp_ok": true
   },
   {
    "shot": "group",

@@ -12,7 +12,7 @@ b4 | street | two | 2 | discutir, INTERAGEM: discutir | kit/stall, buildings/sho
 b5 | street | group | 1 | encena | war/pistol | - | -
 b6 | street | crowd | 21 | encena, batalha | - | - | -
 b7 | loc_campo | orbit | 17 | discutir, batalha | vehicles/locomotive, buildings/house_two, nature/lamppost | - | -
-b8 | interior madeira | two | 2 | conversar, INTERAGEM: susto | - | paper | -
+b8 | street | two | 16 | conversar, INTERAGEM: susto | buildings/house_two, nature/lamppost | paper | -
 b9 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | - | coin | -
 b10 | jungle | group | 1 | conversar | kit/melon | - | -
 b11 | jungle | close | 1 | conversar | - | - | -

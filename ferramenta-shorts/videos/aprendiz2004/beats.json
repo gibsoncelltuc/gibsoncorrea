@@ -49,46 +49,56 @@
  },
  "beats": [
   {
-   "shot": "two",
+   "shot": "close",
    "who": [
-    "TRU:0:smug",
-    "CND:0:shock"
+    "TRU:0:smug"
    ],
-   "props": [
-    [
-     "kit/tv",
-     0,
-     -1.2,
-     1.1
-    ]
-   ],
-   "text": "2004",
    "fx": [
-    "stars@30"
+    "puff@60"
    ],
    "sfx": [
-    "ding@30"
+    "sting@60"
    ],
-   "say": "Duas palavras transformaram um empresário de Nova York numa estrela da televisão mundial: você está demitido."
+   "say": "Duas palavras transformaram um empresário de Nova York numa estrela mundial: você está demitido.",
+   "text": "VOCÊ ESTÁ DEMITIDO!",
+   "titulo": true
   },
   {
-   "shot": "reveal",
+   "shot": "two",
    "who": [
     "POV:0:smile",
     "POV:1:grin"
    ],
-   "mapa": "ESTADOS UNIDOS",
-   "mapa_at": 3,
-   "say": "Em janeiro de dois mil e quatro, estreou nos Estados Unidos o programa O Aprendiz."
+   "say": "Em dois mil e quatro, estreou nos Estados Unidos o programa O Aprendiz.",
+   "props": [
+    [
+     "kit/tv",
+     0,
+     -1.0,
+     1.8
+    ]
+   ],
+   "text": "O APRENDIZ",
+   "titulo": true
   },
   {
-   "shot": "two",
+   "shot": "crowd",
    "who": [
     "TRU:0:grin",
     "CND:0:nervous"
    ],
    "acao": "conversar",
-   "say": "Dezesseis candidatos disputavam um prêmio raro: um emprego de verdade numa empresa de Donald Trump."
+   "say": "Dezesseis candidatos disputavam um emprego numa empresa de Donald Trump.",
+   "set": "loc_cidade",
+   "interior": false,
+   "crowd": {
+    "n": 16,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "smile"
+   }
   },
   {
    "shot": "two",
@@ -111,14 +121,17 @@
    "sfx": [
     "thump@40"
    ],
-   "say": "Toda semana, as equipes tinham uma tarefa de negócios, como vender limonada na rua ou criar uma propaganda."
+   "say": "Toda semana, as equipes faziam tarefas de negócios, como vender limonada.",
+   "detalhe": false
   },
   {
-   "shot": "two",
-   "interior": "loja",
+   "shot": "group",
+   "interior": "madeira",
    "who": [
     "TRU:0:stern",
-    "CND:0:nervous"
+    "CND:0:nervous",
+    "POV:0:worried",
+    "POV:1:nervous"
    ],
    "acao": "discutir",
    "fx": [
@@ -127,11 +140,31 @@
    "sfx": [
     "sting@30"
    ],
-   "say": "No fim, a equipe perdedora ia para a sala de reunião, e alguém tinha que ir embora."
+   "say": "A equipe perdedora ia para a sala de reunião, e alguém era eliminado.",
+   "props": [
+    [
+     "mk/Table_Large",
+     0,
+     -1.2,
+     1.6
+    ],
+    [
+     "mk/Chair_1",
+     -2.2,
+     -1.2,
+     1.0
+    ],
+    [
+     "mk/Chair_1",
+     2.2,
+     -1.2,
+     1.0
+    ]
+   ]
   },
   {
    "shot": "close",
-   "interior": "loja",
+   "interior": "madeira",
    "who": [
     "TRU:0:smug"
    ],
@@ -144,7 +177,7 @@
     "ding@50"
    ],
    "text": "VOCÊ ESTÁ DEMITIDO!",
-   "say": "Acontece que o jeito de eliminar virou a marca do programa. Ele apontava o dedo e dizia: você está demitido."
+   "say": "Acontece que o jeito de eliminar virou marca: apontando o dedo, ele dizia, você está demitido."
   },
   {
    "shot": "crowd",
@@ -169,7 +202,7 @@
      "kit/tv",
      0,
      -3.0,
-     1.4
+     1.3
     ]
    ],
    "fx": [
@@ -182,7 +215,7 @@
    ],
    "text": "28 MILHÕES",
    "titulo": true,
-   "say": "A final da primeira temporada foi vista por cerca de vinte e oito milhões de americanos."
+   "say": "A final da primeira temporada teve cerca de vinte e oito milhões de espectadores."
   },
   {
    "shot": "two",
@@ -191,19 +224,21 @@
     "TRU:0:grin"
    ],
    "interacao": "abracar",
-   "say": "O vencedor, Bill Rancic, ganhou o emprego, com salário de duzentos e cinquenta mil dólares por ano.",
+   "say": "Bill Rancic venceu e ganhou um salário de duzentos e cinquenta mil dólares.",
    "fx": [
     "stars@30"
    ],
    "sfx": [
     "ding@30"
-   ]
+   ],
+   "text": "$250.000",
+   "titulo": true
   },
   {
-   "shot": "reveal",
+   "shot": "two",
    "who": [
-    "POV:0:surprised",
-    "POV:1:grin"
+    "JUS:0:smug",
+    "POV:0:surprised"
    ],
    "mapa": "BRASIL",
    "mapa_at": 3,
@@ -213,24 +248,30 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "O formato se espalhou pelo mundo. No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus."
+   "say": "No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus.",
+   "set": "loc_estudio",
+   "text": "ROBERTO JUSTUS",
+   "titulo": true
   },
   {
    "shot": "two",
    "who": [
-    "TRU:0:smug",
-    "POV:0:surprised"
+    "TRU:0:smug"
    ],
    "props": [
     [
      "kit/tv",
-     1.6,
-     -0.8,
-     1.0
+     1.8,
+     -1.2,
+     1.2
     ]
    ],
    "acao": "conversar",
-   "say": "Trump apresentou o programa por mais de dez anos, e só saiu em dois mil e quinze, quando entrou na política."
+   "say": "Trump apresentou por mais de dez anos, até dois mil e quinze.",
+   "detalhe": false,
+   "set": "loc_estudio",
+   "text": "2004-2015",
+   "titulo": true
   },
   {
    "shot": "close",
@@ -246,7 +287,8 @@
     ]
    ],
    "acao": "comemorar",
-   "say": "Um programa de emprego que acabou ficando famoso justamente por demitir."
+   "say": "Um programa de emprego que acabou ficando famoso justamente por demitir.",
+   "detalhe": false
   }
  ],
  "heroi": "kit/tv",
@@ -254,5 +296,39 @@
   "https://en.wikipedia.org/wiki/The_Apprentice_(American_TV_series)",
   "https://en.wikipedia.org/wiki/The_Apprentice_(American_season_1)",
   "https://pt.wikipedia.org/wiki/O_Aprendiz"
- ]
+ ],
+ "visual": {
+  "local": "Nova York, EUA: sala de reunião escura do programa (estúdio) com mesa grande e cadeiras de couro; escritório e arranha-céu em Manhattan; rua com barraca de limonada",
+  "quando": "janeiro de 2004 (estreia, NBC); dia nas ruas, estúdio com luz baixa na sala de reunião",
+  "participantes": [
+   "Donald Trump (terno azul-marinho, gravata vermelha, cabelo loiro)",
+   "16 candidatos (ternos e blazers de empresários)",
+   "Bill Rancic (vencedor, terno escuro)",
+   "Roberto Justus (apresentador brasileiro, terno)",
+   "equipes em duas cores"
+  ],
+  "roupas": {
+   "TRU": "terno azul-marinho, gravata vermelha, cabelo loiro",
+   "CND": "blazer verde, óculos",
+   "RAN": "terno escuro de empresário",
+   "JUS": "terno com gravata azul"
+  },
+  "cenario": "sala de reunião (boardroom) escura com mesa longa, cadeiras e televisão; rua de Nova York com arranha-céus e barraca de limonada",
+  "objetos": [
+   "televisão",
+   "mesa de reunião",
+   "barraca de limonada",
+   "prancheta"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/The_Apprentice_(American_TV_series)",
+   "https://commons.wikimedia.org/wiki/Category:The_Apprentice_(American_TV_series)"
+  ],
+  "referencias": {
+   "16 candidatos (ternos e blazers de empresários)": "candidatos de terno e blazer; sem foto livre no Commons, padrão de empresários de 2004 (fonte: https://en.wikipedia.org/wiki/The_Apprentice_(American_season_1))",
+   "equipes em duas cores": "duas equipes por cor (camisas/gravatas) na tarefa semanal (fonte: https://en.wikipedia.org/wiki/The_Apprentice_(American_season_1))"
+  }
+ },
+ "cinf": 4.5,
+ "exp": 1.12
 }

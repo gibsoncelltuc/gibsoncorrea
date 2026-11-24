@@ -7,7 +7,16 @@
    "item": "A Guerra do Balde",
    "consultas": [
     "A Guerra do Balde",
-    "Duas Módena Bolonha Uma Numa Módena Bolonha 1325"
+    "Dois Módena Bolonha Em Bolonha Módena 1325"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Zappolino",
+   "consultas": [
+    "Zappolino Valsamoggia castle hill",
+    "Zappolino",
+    "Zappolino 1325"
    ]
   },
   {
@@ -27,10 +36,62 @@
    ]
   },
   {
-   "tipo": "heroi",
-   "item": "bucket",
+   "tipo": "pessoas",
+   "item": "exército de Bolonha",
    "consultas": [
-    "bucket",
+    "Bologna medieval army 14th century",
+    "exército de Bolonha",
+    "exército de Bolonha 1325"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "exército de Módena",
+   "consultas": [
+    "Modena medieval soldiers 14th century",
+    "exército de Módena",
+    "exército de Módena 1325"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Passerino Bonacolsi",
+   "consultas": [
+    "Passerino Bonacolsi Mantua",
+    "Passerino Bonacolsi",
+    "Passerino Bonacolsi 1325"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Alessandro Tassoni",
+   "consultas": [
+    "Alessandro Tassoni",
+    "Alessandro Tassoni 1325"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "balde de madeira",
+   "consultas": [
+    "wooden bucket medieval iron bands",
+    "balde de madeira",
+    "balde de madeira 1325"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "poço de pedra",
+   "consultas": [
+    "poço de pedra",
+    "poço de pedra 1325"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "balde de madeira medieval",
+   "consultas": [
+    "balde de madeira medieval",
     "A Guerra do Balde"
    ]
   },
@@ -38,6 +99,7 @@
    "tipo": "epoca",
    "item": "soldado da epoca",
    "consultas": [
+    "14th century Italian infantry crossbowman illustration",
     "soldier uniform 1325",
     "soldier uniform"
    ]

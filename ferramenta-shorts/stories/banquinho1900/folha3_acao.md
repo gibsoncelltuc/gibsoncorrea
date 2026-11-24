@@ -55,6 +55,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - INTERACAO (a cena toda): executa: o outro se aproxima
 - ATUACAO (a cena toda): executa: conversar
+- multidao de 12: parada, reagindo (neutra), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
 ## Cena b3 - 17.3s a 21.8s - 16 palavras - plano two

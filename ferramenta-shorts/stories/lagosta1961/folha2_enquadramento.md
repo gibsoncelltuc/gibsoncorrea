@@ -37,7 +37,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b5: "Acontece que o Brasil não recuou. Mandou navios e aviões para a costa, e a tensão subiu."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: MAR no centro, expressao angry; sem multidao; acao: batalha
+- PERSONAGENS: MAR no centro, expressao angry; sem multidao; acao: fala/gesto
 - OBJETO ship: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 44.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO vehicles/airplane: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 17.1 m de altura x 17.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "NAVIOS E AVIÕES" flutuando no alto, na palavra 1 da frase

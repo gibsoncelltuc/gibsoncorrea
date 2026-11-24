@@ -1,30 +1,31 @@
-# CRONOGRAMA - As Guerras do Bacalhau
+# CRONOGRAMA - Guerras Inusitadas EP 25 - As Guerras do Bacalhau
 
-Gerado em 24/11 03:30 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:23 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | harbor | two | ICE, BRI | - | cod, ship | - | Entre mil novecentos e cinquenta e oito e mil novecentos e setenta e s
-b1 | simples | harbor | group | ICE, PES | - | crate, cod | - | A Islândia é pequena, e vivia da pesca. Mas barcos ingleses pescavam b
-b2 | transicao | harbor | wide | ICE | - | ship | - | Então a Islândia aumentou os limites do seu mar: doze milhas, cinquent
-b3 | simples | harbor | group | BRI, BRI, PES | - | ship | - | A Inglaterra mandou a marinha para proteger os barcos de pesca.
-b4 | simples | harbor | close | ICE | - | - | - | A Islândia só tinha uns barquinhos da guarda costeira, mas eles tinham
-b5 | simples | harbor | wide | X | - | navios de guerra ao fundo, no tamanho real, ship | - | Eles cortavam os cabos das redes inglesas, e os navios batiam um no ou
-b6 | chave | harbor | orbit | ICE, BRI | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A Islândia ainda ameaçou fechar a base da Otan no país.
-b7 | simples | harbor | two | BRI, ICE | - | - | - | Em mil novecentos e setenta e seis, os ingleses cederam, e a ideia de 
-b8 | simples | harbor | close | PES | - | crate, cod | - | Foi uma guerra de navios batendo e de redes cortadas, e tudo por causa
-b9 | simples | harbor | two | ICE | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b0 | chave | harbor | two | sem personagem | - | barco_guarda, fishing_net, navio_leander, navio_vapor | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A Islândia derrotou a marinha inglesa com um cortador de rede.
+b1 | simples | harbor | wide | ICE, BRI | - | cod, navio_leander | - | Entre mil novecentos e cinquenta e oito e setenta e seis, os dois país
+b2 | simples | harbor | two | ICE, PES | - | crate, cod | - | A Islândia vivia da pesca, mas barcos ingleses pescavam bacalhau perti
+b3 | transicao | harbor | wide | ICE | - | navio_leander | - | Então ela ampliou os limites do mar: doze milhas, cinquenta, e por fim
+b4 | chave | harbor | group | sem personagem | - | navio_leander | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A marinha mandou fragatas para proteger os barcos de pesca.
+b5 | chave | harbor | group | sem personagem | - | barco_guarda, fishing_net, navio_vapor | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que a Islândia só tinha barquinhos da guarda costeira, mas el
+b6 | transicao | harbor | wide | sem personagem | - | barco_guarda, fishing_net, navio_leander, navio_vapor, navios de guerra ao fundo, no tamanho real | - | Eles cortavam os cabos das redes, e os navios batiam um no outro, de p
+b7 | chave | harbor | two | ICE, BRI | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A Islândia ameaçou fechar a base da Otan e rompeu relações com a Ingla
+b8 | simples | harbor | group | BRI, ICE | - | scroll | - | Em mil novecentos e setenta e seis, a Inglaterra cedeu, e a zona de du
+b9 | simples | harbor | close | PES | - | crate, cod | - | Uma guerra inteira, por causa de um bacalhau.
+b10 | simples | harbor | two | ICE | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/5 itens) | PENDENTE | python3 pesquisar.py bacalhau1958
-3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 5) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/17 itens) | PENDENTE | python3 pesquisar.py bacalhau1958
+3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | BLOQUEADO (etapa anterior pendente) | modelar em blender/ (formas.py): kit/barco_guarda, kit/navio_leander
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | BLOQUEADO (etapa anterior pendente) | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | BLOQUEADO (etapa anterior pendente) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 

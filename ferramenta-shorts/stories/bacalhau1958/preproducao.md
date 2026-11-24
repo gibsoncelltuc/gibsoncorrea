@@ -1,23 +1,24 @@
-# Pre-producao - As Guerras do Bacalhau
+# Pre-producao - Guerras Inusitadas EP 25 - As Guerras do Bacalhau
 
 Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blender (blender/make_*.py) ou trocado no roteiro.
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | harbor | two | 2 | conversar, INTERAGEM: o outro se aproxima | ship, kit/cod | - | peixe
-b1 | harbor | group | 2 | reagir, INTERAGEM: insiste | crate, kit/cod | - | -
-b2 | harbor | wide | 1 | parados (so fala e pisca) | ship | - | -
-b3 | harbor | group | 3 | conversar, INTERAGEM: vai ate o outro | ship | - | -
-b4 | harbor | close | 1 | conversar | - | - | -
-b5 | harbor | wide | 1 | encena | ship, navios de guerra ao fundo, no tamanho real | - | -
-b6 | harbor | orbit | 2 | discutir, batalha | - | - | -
-b7 | harbor | two | 2 | conversar, INTERAGEM: aproxima-se | - | - | -
-b8 | harbor | close | 1 | conversar | crate, kit/cod | - | peixe
-b9 | harbor | two | 1 | conversar | - | - | -
+b0 | harbor | two | 0 | batalha | kit/barco_guarda, kit/fishing_net, kit/navio_vapor, kit/navio_leander | - | kit/barco_guarda, kit/navio_leander
+b1 | harbor | wide | 2 | encena | kit/navio_leander, kit/cod | - | kit/navio_leander
+b2 | harbor | two | 2 | reagir, INTERAGEM: o outro se aproxima | crate, kit/cod | - | -
+b3 | harbor | wide | 1 | parados (so fala e pisca) | kit/navio_leander | - | kit/navio_leander
+b4 | harbor | group | 0 | batalha | kit/navio_leander | - | kit/navio_leander
+b5 | harbor | group | 0 | batalha | kit/barco_guarda, kit/fishing_net, kit/navio_vapor | - | kit/barco_guarda
+b6 | harbor | wide | 0 | parados (so fala e pisca) | kit/barco_guarda, kit/fishing_net, kit/navio_vapor, kit/navio_leander, navios de guerra ao fundo, no tamanho real | - | kit/barco_guarda, kit/navio_leander
+b7 | harbor | two | 2 | discutir, INTERAGEM: discutir, batalha | - | - | -
+b8 | harbor | group | 2 | conversar, INTERAGEM: entregar | kit/scroll | paper | -
+b9 | harbor | close | 1 | conversar | crate, kit/cod | - | -
+b10 | harbor | two | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/cod
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 1  << AVISO: menos de 2 -> b6
-Interacoes entre personagens: b0 o outro se aproxima, b1 insiste, b3 vai ate o outro, b7 aproxima-se
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 4 -> b0, b4, b5, b7
+Interacoes entre personagens: b2 o outro se aproxima, b7 discutir, b8 entregar
 
-Cenas com personagens parados: 1 de 10
-FALTA MODELAR: peixe
+Cenas com personagens parados: 2 de 11
+FALTA MODELAR: kit/barco_guarda, kit/navio_leander

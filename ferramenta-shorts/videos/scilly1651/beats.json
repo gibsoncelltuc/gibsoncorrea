@@ -197,14 +197,10 @@
     "ILH:0:shock"
    ],
    "crowd": {
-    "n": 16,
-    "outfits": [
-     "SOL"
-    ],
-    "march": true,
-    "expr": "stern"
+    "n": 0
    },
-   "say": "Acontece que os ingleses assumiram as ilhas pouco depois, e ninguém se lembrou de fazer a paz."
+   "say": "Acontece que os ingleses assumiram as ilhas pouco depois, e ninguém se lembrou de fazer a paz.",
+   "_susp_ok": true
   },
   {
    "shot": "two",

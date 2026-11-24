@@ -168,6 +168,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - EMOCAO: sad (a cena toda): executa: o rosto vira "sad" na palavra
 - INTERACAO (a cena toda): executa: susto
 - ATUACAO (a cena toda): executa: conversar
+- multidao de 14: parada, reagindo (shock), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
 ## Cena b9 - 44.4s a 48.1s - 14 palavras - plano two

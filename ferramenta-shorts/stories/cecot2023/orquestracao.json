@@ -1,18 +1,7 @@
 {
  "id": "cecot2023",
  "ano": 2023,
- "cenarios_trocados": [
-  [
-   "video",
-   "outback",
-   "loc_pista"
-  ],
-  [
-   "cena 12",
-   "outback",
-   "loc_pista"
-  ]
- ],
+ "cenarios_trocados": [],
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
@@ -23,22 +12,21 @@
   {
    "camera": "two",
    "personagens": [
-    "BUK",
-    "REP"
+    "GUA",
+    "BUK"
    ],
-   "multidao": 0,
+   "multidao": 26,
    "objetos": [
-    "kit/prison",
-    "kit/volcano"
+    "kit/prison"
    ],
    "palavras": 13,
    "cena": "b0",
-   "frase": "El Salvador construiu uma prisão tão grande que virou notícia no mundo inteiro.",
+   "frase": "El Salvador tem uma prisão tão grande que virou notícia no mundo inteiro.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_pista"
+   "cenario": "loc_campo"
   },
   {
    "camera": "reveal",
@@ -48,29 +36,25 @@
    ],
    "multidao": 6,
    "objetos": [
-    "kit/prison",
-    "kit/volcano"
+    "kit/prison"
    ],
-   "palavras": 17,
+   "palavras": 14,
    "cena": "b1",
-   "frase": "Ela foi inaugurada em janeiro de dois mil e vinte e três, numa área isolada do país.",
+   "frase": "Foi inaugurada em janeiro de dois mil e vinte e três, numa área isolada.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_pista"
+   "cenario": "loc_campo"
   },
   {
-   "camera": "orbit",
+   "camera": "two",
    "personagens": [
     "REP",
     "POV"
    ],
-   "multidao": 10,
-   "objetos": [
-    "kit/prison",
-    "kit/volcano"
-   ],
+   "multidao": 0,
+   "objetos": [],
    "palavras": 17,
    "cena": "b2",
    "frase": "Por anos, El Salvador teve uma das maiores taxas de assassinato do mundo, por causa das gangues.",
@@ -78,16 +62,19 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_cidade"
+   "cenario": "interior galpao"
   },
   {
-   "camera": "two",
+   "camera": "orbit",
    "personagens": [
     "BUK",
+    "GUA",
     "GUA"
    ],
-   "multidao": 0,
-   "objetos": [],
+   "multidao": 30,
+   "objetos": [
+    "kit/prison"
+   ],
    "palavras": 21,
    "cena": "b3",
    "frase": "Em dois mil e vinte e dois, o presidente Nayib Bukele decretou estado de exceção, e milhares de suspeitos foram presos.",
@@ -95,7 +82,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior loja"
+   "cenario": "loc_campo"
   },
   {
    "camera": "crowd",
@@ -106,8 +93,7 @@
    ],
    "multidao": 16,
    "objetos": [
-    "kit/prison",
-    "kit/volcano"
+    "kit/prison"
    ],
    "palavras": 17,
    "cena": "b4",
@@ -122,55 +108,39 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_cidade"
-  },
-  {
-   "camera": "low",
-   "personagens": [
-    "GUA"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "buildings/castle_tower",
-    "kit/prison"
-   ],
-   "palavras": 12,
-   "cena": "b5",
-   "frase": "Muralhas altas, cercas elétricas e torres de vigia por todos os lados.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_patio"
+   "cenario": "loc_pista"
   },
   {
    "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 12,
+   "cena": "b5",
+   "frase": "Muralhas altas, cercas elétricas e torres de vigia por todos os lados.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/prison (gira)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "low",
    "personagens": [
     "REP",
     "BUK"
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 12,
+   "palavras": 17,
    "cena": "b6",
-   "frase": "Acontece que, nos anos seguintes, o número de assassinatos no país despencou.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior galpao"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "REP",
-    "POV"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 12,
-   "cena": "b7",
-   "frase": "Organizações de direitos humanos denunciaram prisões sem julgamento, e mortes sob custódia.",
+   "frase": "Acontece que os assassinatos despencaram: de cento e seis para dois vírgula quatro por cem mil habitantes.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -178,37 +148,16 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "two",
-   "personagens": [
-    "BUK",
-    "REP"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 15,
-   "cena": "b8",
-   "frase": "O governo responde que as ruas ficaram seguras, e que a maioria da população apoia.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior loja"
-  },
-  {
    "camera": "orbit",
    "personagens": [
-    "POV",
-    "POV",
+    "REP",
     "POV"
    ],
-   "multidao": 18,
-   "objetos": [
-    "kit/prison",
-    "kit/volcano"
-   ],
-   "palavras": 14,
-   "cena": "b9",
-   "frase": "A prisão virou símbolo do país. Para uns, de segurança. Para outros, de excesso.",
+   "multidao": 12,
+   "objetos": [],
+   "palavras": 12,
+   "cena": "b7",
+   "frase": "Organizações de direitos humanos denunciaram prisões sem julgamento e mortes sob custódia.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -222,17 +171,16 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
-    "BUK"
+    "BUK",
+    "REP"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/prison"
-   ],
-   "palavras": 15,
-   "cena": "b10",
-   "frase": "E o modelo passou a ser estudado, copiado e criticado em vários lugares do mundo.",
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b8",
+   "frase": "O governo responde que as ruas ficaram seguras.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -240,9 +188,48 @@
    "cenario": "loc_patio"
   },
   {
+   "camera": "two",
+   "personagens": [
+    "POV",
+    "POV",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/prison"
+   ],
+   "palavras": 12,
+   "cena": "b9",
+   "frase": "A prisão virou símbolo: de segurança para uns, de excesso para outros.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_patio"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "BUK",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/globe"
+   ],
+   "palavras": 11,
+   "cena": "b10",
+   "frase": "E o modelo passou a ser copiado e criticado pelo mundo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
    "camera": "close",
    "personagens": [
-    "BUK"
+    "GUA"
    ],
    "multidao": 0,
    "objetos": [],
@@ -253,7 +240,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_pista"
+   "cenario": "loc_campo"
   }
  ]
 }

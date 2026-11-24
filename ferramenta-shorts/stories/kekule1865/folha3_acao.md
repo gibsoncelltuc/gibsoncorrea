@@ -15,14 +15,30 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | INTERACAO | cochichar | OK |
 | 5 | - | ATUACAO | conversar | OK |
 | 6 | - | PLACA | 1865 | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: pensa na palavra segredos (0.7s): executa: mao no queixo + brilho de ideia
+- ACAO: quimico na palavra química (1.3s): executa: frasco e tubos de ensaio + fumacinha
+- EMOCAO: pleading (a cena toda): executa: o rosto vira "pleading" na palavra
+- INTERACAO (a cena toda): executa: cochichar
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 
 ## Cena b1 - 5.4s a 8.7s - 13 palavras - plano wide
 > "Era mil oitocentos e sessenta e cinco, na cidade de Gante, na Bélgica."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 2 | - | MAPA | BÉLGICA | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+<!-- /FISICA -->
 
 ## Cena b2 - 10.0s a 14.9s - 16 palavras - plano two
 > "O professor August Kekulé tinha um problema: o benzeno, com seis carbonos que ninguém sabia arrumar."
@@ -31,6 +47,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | INTERACAO | discutir | OK |
 | 2 | - | ATUACAO | discutir | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+<!-- /FISICA -->
 
 ## Cena b3 - 16.2s a 20.5s - 12 palavras - plano close
 > "Numa noite fria, ele virou a cadeira para a lareira, e cochilou."
@@ -39,6 +61,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | cochilou (20.5s) | ACAO: dorme | dormindo | OK |
 | 2 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: dorme na palavra cochilou (20.5s): olhos fechados, cabeca tomba de lado, sobe e desce devagar
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
 
 ## Cena b4 - 21.1s a 25.5s - 15 palavras - plano two
 > "No sonho, os átomos dançavam como cobras. Até que uma delas mordeu o próprio rabo."
@@ -55,6 +83,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | acordou (27.1s) | ACAO: x_acorda | estava dormindo e acorda na palavra | OK |
 | 2 | pulo (27.8s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
 | 3 | - | ATUACAO | reagir | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: x_acorda na palavra acordou (27.1s): executa: estava dormindo e acorda na palavra
+- ACAO: pula na palavra pulo (27.8s): sobe a encosta/muro em passos curtos, maos a frente
+- ATUACAO (a cena toda): executa: reagir
+<!-- /FISICA -->
 
 ## Cena b6 - 32.9s a 37.4s - 15 palavras - plano two
 > "Passou o resto da noite desenhando o anel de seis carbonos. E a conta fechou."
@@ -63,6 +98,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | desenhando (34.0s) | ACAO: escreve | escreve/assina | OK |
 | 2 | fechou (37.4s) | ACAO: x_abre | empurra a porta | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: escreve na palavra desenhando (34.0s): segura o papel e mexe a mao como se escrevesse
+- ACAO: x_abre na palavra fechou (37.4s): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
+<!-- /FISICA -->
 
 ## Cena b7 - 38.6s a 42.9s - 16 palavras - plano group
 > "Vinte e cinco anos depois, numa festa em Berlim, ele contou o sonho pela primeira vez."
@@ -76,14 +117,31 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | - | INTERACAO | pular | OK |
 | 6 | - | ATUACAO | comemorar | OK |
 | 7 | - | PLACA | FESTA | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: stars na palavra festa (40.3s): executa: estrelinhas + som
+- ACAO: vence na palavra festa (40.3s): executa: bracos para cima + brilho
+- ACAO: fala na palavra contou (41.6s): braco estendido apontando para o objeto/lugar citado
+- EMOCAO: laugh (a cena toda): executa: o rosto vira "laugh" na palavra
+- INTERACAO (a cena toda): executa: pular
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+- PLACA (a cena toda): bracos para cima e pulinhos curtos durante a frase
+<!-- /FISICA -->
 
 ## Cena b8 - 43.9s a 49.6s - 19 palavras - plano crowd
 > "Até hoje há quem duvide da história. Mas o anel do benzeno virou base de remédios, tintas e plásticos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 2 | - | PLACA | REMÉDIOS, TINTAS, PLÁSTICOS | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 
 ## Cena b9 - 50.9s a 55.0s - 12 palavras - plano close
 > "E ele deixou um conselho: aprendam a sonhar. Mas confiram tudo acordados."
@@ -92,6 +150,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | SONHE | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 
 ## Cena b10 - 56.5s a 59.8s - 13 palavras - plano two
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
@@ -100,4 +164,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | COMENTE! | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 

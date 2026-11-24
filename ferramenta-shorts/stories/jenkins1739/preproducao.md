@@ -11,7 +11,7 @@ b3 | harbor | two | 2 | discutir, INTERAGEM: cochichar | - | - | -
 b4 | interior pedra | group | 4 | conversar, INTERAGEM: susto | - | paper | -
 b5 | interior pedra | two | 2 | discutir, INTERAGEM: cochichar | - | - | -
 b6 | harbor | wide | 21 | batalha | ship, navios de guerra ao fundo, no tamanho real | - | -
-b7 | palace | two | 2 | conversar, INTERAGEM: apertar | - | paper | -
+b7 | interior pedra | two | 2 | conversar, INTERAGEM: apertar | - | paper | -
 b8 | loc_campo | two | 2 | conversar, INTERAGEM: entregar | kit/ear_jar | book | -
 b9 | loc_campo | group | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/ear_jar | - | -
 b10 | loc_campo | close | 1 | conversar | - | - | -

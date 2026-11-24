@@ -183,8 +183,11 @@
     "PRE",
     "MOR"
    ],
-   "multidao": 0,
-   "objetos": [],
+   "multidao": 14,
+   "objetos": [
+    "buildings/house_two",
+    "nature/lamppost"
+   ],
    "palavras": 15,
    "cena": "b8",
    "frase": "Acontece que mais de quinze pessoas morreram naquele dia, e a cidade ficou em choque.",
@@ -192,7 +195,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "street"
   },
   {
    "camera": "two",

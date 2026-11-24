@@ -3,109 +3,233 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/chaleira1784/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py chaleira1784` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Uma guerra inteira teve um único tiro, e ele acertou uma chaleira de s...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: loc_campo | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): COZ (variante 0, expressao shock); HOL (variante 0, expressao grin)
 - Animacao: reagir | interacao: o outro se aproxima
-- Objetos/modelos: kit/marco_viena, kit/kettle
+- Objetos/modelos: kit/kettle
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chaleira, sopa
 - RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b1 - Era mil setecentos e oitenta e quatro. A Holanda tinha fechado um rio,...
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loc_campo; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: COZ na esquerda, expressao shock; HOL na direita, expressao grin; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TEXTO NA TELA: "UM ÚNICO TIRO" flutuando no alto, na palavra 1 da frase
+- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (0.0-1.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (1.6-3.2 s): mesmo angulo
+  - take 3 (3.2-4.8 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
+
+## Cena b1 - Foi em mil setecentos e oitenta e quatro. A Holanda mantinha o rio Esc...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): HOL (variante 0, expressao stern); HOL (variante 1, expressao stern) | multidao: 8 de HOL
-- Animacao: encena | batalha encenada
-- Objetos/modelos: kit/marco_viena, navios de guerra ao fundo, no tamanho real
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): MAR (variante 0, expressao stern); MAR (variante 1, expressao stern) | multidao: 0 de 
+- Animacao: encena
+- Objetos/modelos: kit/navio_fragata, navios de guerra ao fundo, no tamanho real
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): holanda
 - RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b2 - O imperador da Áustria ficou furioso. Ele queria o rio aberto para os ...
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
+- PERSONAGENS: MAR na esquerda, expressao stern; MAR na direita, expressao stern; sem multidao; acao: fala/gesto
+- OBJETO kit/navio_fragata: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 42.6 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- MAPA: HOLANDA (cobre a tela 1-2 s)
+- TAKES: 4 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (5.2-6.8 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (6.8-8.3 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (8.3-9.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 4 (9.9-11.5 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
+
+## Cena b2 - O imperador José Segundo, da Áustria, queria o rio aberto para os navi...
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): IMP (variante 0, expressao angry); GEN (variante 0, expressao nervous)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): austria, imperador, navios
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): antuerpia, austria, imperador, navios
 - RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b3 - "Mandem três navios", ordenou ele. "Os holandeses não vão ter coragem ...
-- Cenario: interior pedra | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (2): IMP (variante 0, expressao shout); GEN (variante 0, expressao scared, segura paper)
-- Animacao: conversar | interacao: reverencia
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): atirar, holandeses
-- RISCOS: nenhum
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de pedra (governo/castelo); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: IMP na esquerda, expressao angry; GEN na direita, expressao nervous; sem multidao; acao: discutir
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (11.9-13.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (13.6-15.3 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 3 (15.3-17.0 s): mesmo angulo
+<!-- /FICHA -->
 
-## Cena b4 - Os três navios desceram o rio, com o maior na frente, cheio de soldado...
+## Cena b3 - Convencido de que os holandeses não reagiriam, ele mandou três navios ...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): AUS (variante 0, expressao smug); AUS (variante 1, expressao grin) | multidao: 14 de AUS
-- Animacao: conversar | interacao: insiste
-- Objetos/modelos: kit/marco_viena, war/flagpole
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bandeiras, frente, soldados, tres
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): IMP (variante 0, expressao shout) | multidao: 0 de 
+- Animacao: -
+- Objetos/modelos: kit/navio_fragata, navios de guerra ao fundo, no tamanho real
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): holandeses
 - RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b5 - Acontece que um navio holandês estava esperando. Ele mirou, e deu um ú...
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
+- PERSONAGENS: IMP no centro, expressao shout; sem multidao; acao: fala/gesto
+- OBJETO kit/navio_fragata: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 42.6 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/navio_fragata: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 42.6 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/navio_fragata: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 42.6 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (17.4-19.0 s): mesmo angulo
+  - take 2 (19.0-20.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (20.6-22.2 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
+
+## Cena b4 - O maior levava a bandeira do imperador e seguia na frente.
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): HOL (variante 0, expressao stern); HOL (variante 1, expressao angry) | multidao: 16 de HOL
-- Animacao: encena | batalha encenada
-- Objetos/modelos: cannon, kit/marco_viena, navios de guerra ao fundo, no tamanho real
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canhao, navio
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): IMP (variante 0, expressao smug) | multidao: 0 de 
+- Animacao: encena
+- Objetos/modelos: kit/navio_fragata, war/flagpole
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bandeira, frente, imperador
 - RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b6 - A bala atravessou o convés, e acertou em cheio a chaleira de sopa do c...
-- Cenario: loc_campo | luz: day | clima: limpo
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
+- PERSONAGENS: IMP no centro, expressao smug; sem multidao; acao: fala/gesto
+- OBJETO kit/navio_fragata: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 42.6 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- TEXTO NA TELA: "3 NAVIOS" flutuando no alto, na palavra 1 da frase
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (22.6-24.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (24.5-26.3 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
+
+## Cena b5 - Acontece que o navio de guerra holandês Dolfijn estava esperando, e di...
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): COZ (variante 0, expressao scared); AUS (variante 0, expressao surprised)
-- Animacao: conversar | interacao: vai ate o outro
-- Objetos/modelos: kit/kettle
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bala, chaleira, conves, cozinheiro, sopa
+- Personagens principais (2): MAR (variante 0, expressao stern); MAR (variante 1, expressao angry) | multidao: 0 de 
+- Animacao: conversar | interacao: insiste
+- Objetos/modelos: cannon, kit/navio_fragata
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): navio
 - RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b7 - O capitão austríaco olhou para a sopa derramada, e se rendeu na mesma ...
-- Cenario: interior loja | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
+- PERSONAGENS: MAR na esquerda, expressao stern; MAR na direita, expressao angry; sem multidao; acao: fala/gesto
+- OBJETO kit/navio_fragata: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 42.6 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO cannon: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 9.9 m de altura x 14.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +105 da cena
+- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +110 da cena
+- SOM: cannon@105
+- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (26.7-28.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (28.4-30.2 s): mesmo angulo
+  - take 3 (30.2-31.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
+
+## Cena b6 - A bala acertou e destruiu uma chaleira de sopa no convés do navio do i...
+- Cenario: interior madeira | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (3): GEN (variante 0, expressao scared, segura flag); AUS (variante 0, expressao nervous); COZ (variante 0, expressao cry)
-- Animacao: reagir | interacao: susto
+- Personagens principais (2): IMP (variante 0, expressao surprised); COZ (variante 0, expressao scared)
+- Animacao: conversar | interacao: vai ate o outro | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/kettle
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): capitao, sopa
-- RISCOS: 
-  - a narracao cita "capitao" e ninguem em cena esta vestido a carater -> CORRECAO: por no "who" um personagem com "profissao": "general" no figurino (coroa/farda/chapeu proprios)
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bala, chaleira, conves, imperador, navio, sopa
+- RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b8 - O imperador desistiu do rio. Em troca, a Holanda pagou uma indenização...
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de madeira; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kettle juntos (camera a 11.5 m)
+- PERSONAGENS: IMP na esquerda, expressao surprised; COZ na direita, expressao scared; sem multidao; acao: fala/gesto
+- OBJETO kit/kettle: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +50 da cena
+- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +55 da cena
+- SOM: thump@55
+- SOM: ding@58
+- TAKES: sequencia de acao em 3 cameras (5.2 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+<!-- /FICHA -->
+
+## Cena b7 - O navio austríaco se rendeu na hora, sem trocar nem um tiro a mais.
+- Cenario: harbor | luz: day | clima: limpo
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): GEN (variante 0, expressao scared, segura flag) | multidao: 0 de 
+- Animacao: encena | grande momento (efeito + som, sem tiro)
+- Objetos/modelos: kit/navio_fragata, navios de guerra ao fundo, no tamanho real
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): navio, tiro
+- RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
+- PERSONAGENS: GEN no centro, expressao scared, segura flag; sem multidao; acao: fala/gesto
+- OBJETO kit/navio_fragata: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 42.6 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- TAKES: sequencia de acao em 3 cameras (4.8 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+<!-- /FICHA -->
+
+## Cena b8 - Depois, a França mediou a paz, em mil setecentos e oitenta e cinco. O ...
 - Cenario: interior pedra | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): IMP (variante 0, expressao sad); HOL (variante 0, expressao smug, segura money)
 - Animacao: encena | interacao: entregar
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): holanda, imperador, indenizacao
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca, holanda, indenizacao
 - RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b9 - Ninguém morreu. Só o almoço.
-- Cenario: loc_campo | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de pedra (governo/castelo); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: IMP na esquerda, expressao sad; HOL na direita, expressao smug, segura money; sem multidao; acao: entregar
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TAKES: 5 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (43.0-44.6 s): mesmo angulo
+  - take 2 (44.6-46.2 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (46.2-47.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 4 (47.9-49.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 5 (49.5-51.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
+
+## Cena b9 - O único prejuízo do dia foi o almoço.
+- Cenario: interior madeira | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): COZ (variante 0, expressao sad)
 - Animacao: conversar
 - Objetos/modelos: kit/kettle
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): almoco
-- RISCOS: 
-  - cena curta (5 palavras): nao da tempo de ler a acao -> CORRECAO: juntar com a cena vizinha
+- RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de madeira; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kettle juntos (camera a 8.0 m)
+- PERSONAGENS: COZ no centro, expressao sad; sem multidao; acao: fala/gesto
+- OBJETO kit/kettle: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: interior madeira | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): COZ (variante 0, expressao grin)
@@ -119,30 +243,32 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/marco_viena | b0, b1, b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/kettle | b0, b6, b7, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/kettle | b0, b6, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/navio_fragata | b1, b3, b4, b5, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 war/flagpole | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 cannon | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/kettle | grandes momentos: b1, b5 | planos abertos: 2 | mistura: close 16% | medio 73% | aberto 8% | detalhe 3%
-- Interacoes: b0 o outro se aproxima, b2 discutir, b3 reverencia, b4 insiste, b6 vai ate o outro, b7 susto, b8 entregar
+- Objeto heroi: kit/kettle | grandes momentos: b6, b7 | planos abertos: 4 | mistura: close 10% | medio 59% | aberto 30% | detalhe 1%
+- Interacoes: b0 o outro se aproxima, b2 discutir, b5 insiste, b6 vai ate o outro, b8 entregar
 - RISCOS GERAIS: 
-  - objeto heroi (kit/kettle) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
-  - video com ~54 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py chaleira1784  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/chaleira1784/moodboard.jpg
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 6 risco(s) em aberto
-- b7: a narracao cita "capitao" e ninguem em cena esta vestido a carater
-- b9: cena curta (5 palavras): nao da tempo de ler a acao
-- geral: objeto heroi (kit/kettle) sem close de camera
-- geral: video com ~54 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+## RESUMO: 1 risco(s) em aberto
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh chaleira1784 bN bM` (so essas cenas).
 - Mudou narracao, ferramenta ou muitas cenas: `./refazer_tudo.sh chaleira1784` (render completo).
 - Personagem cortado: tire gente do "who" ou use "shot": "group". Cena vazia: confira "who". Objeto fora do quadro: ponha em "props" com x entre -2 e 2. Luz estourada: "hora"/"clima" na cena.
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- (sem ficha)
+- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (54.4-55.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (55.9-57.4 s): mesmo angulo
+  - take 3 (57.4-58.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
+

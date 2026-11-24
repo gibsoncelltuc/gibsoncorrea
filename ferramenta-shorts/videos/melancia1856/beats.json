@@ -343,13 +343,21 @@
   },
   {
    "shot": "two",
-   "interior": "madeira",
    "who": [
     "PRE:0:sad:paper",
     "MOR:0:cry"
    ],
    "interacao": "susto",
-   "say": "Acontece que mais de quinze pessoas morreram naquele dia, e a cidade ficou em choque."
+   "say": "Acontece que mais de quinze pessoas morreram naquele dia, e a cidade ficou em choque.",
+   "set": "street",
+   "crowd": {
+    "n": 14,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "shock"
+   }
   },
   {
    "shot": "two",

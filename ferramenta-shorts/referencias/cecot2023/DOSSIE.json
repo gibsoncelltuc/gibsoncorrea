@@ -5,27 +5,15 @@
   "ano": 2023,
   "era": "atual (1950+)",
   "regiao": "colonial",
-  "luz_base": "day",
+  "luz_base": "golden",
   "cenarios": [
    "interior galpao",
-   "interior loja",
    "loc_campo",
-   "loc_cidade",
+   "loc_estudio",
    "loc_patio",
    "loc_pista"
   ],
-  "cenarios_trocados": [
-   [
-    "video",
-    "outback",
-    "loc_pista"
-   ],
-   [
-    "cena 12",
-    "outback",
-    "loc_pista"
-   ]
-  ]
+  "cenarios_trocados": []
  },
  "proibido_pela_epoca": [
   "barril",
@@ -49,30 +37,50 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "buildings/castle_tower",
   "kit/cone_transito",
-  "kit/lupa",
+  "kit/globe",
   "kit/palete",
   "kit/prison",
-  "kit/room_colonial_shop",
   "kit/room_galpao",
-  "kit/room_verde_shop",
-  "kit/volcano",
   "mk/Crate_Metal",
   "mk/Workbench"
  ],
- "pesquisa_visual": {},
+ "pesquisa_visual": {
+  "local": "Tecoluca, departamento de San Vicente, El Salvador: o CECOT (Centro de Confinamiento del Terrorismo), complexo isolado cercado por campo e morros",
+  "quando": "inaugurado em 31/jan/2023; estado de excecao decretado em marco de 2022; dia, ceu claro",
+  "participantes": [
+   "Nayib Bukele (terno escuro)",
+   "jornalista com credencial",
+   "soldados e policiais salvadorenhos de farda verde-oliva e capacete",
+   "presos de camiseta e bermuda brancas, cabeca raspada"
+  ],
+  "roupas": {
+   "BUK": "terno escuro, camisa branca",
+   "REP": "camisa com cracha de imprensa"
+  },
+  "cenario": "prisao de concreto cinza com muralha alta, cerca de arame, torres de vigia, portao de ferro; campo ao redor; clima tropical",
+  "objetos": [
+   "muralha de concreto",
+   "torre de vigia",
+   "portao de ferro",
+   "cerca eletrica"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Terrorism_Confinement_Center",
+   "https://commons.wikimedia.org/wiki/Category:Terrorism_Confinement_Center"
+  ],
+  "referencias": {
+   "jornalista com credencial": "repórter com crachá de imprensa e caderno, padrão geral de imprensa (sem foto específica no Commons)"
+  },
+  "explicacoes": [
+   "CECOT: complexo de concreto com muralhas, cercas e torres de vigia, previsto para 40 mil presos (fonte: governo de El Salvador / Wikipedia \"Terrorism Confinement Center\")"
+  ]
+ },
  "fontes": [
   "https://www.as-coa.org/articles/explainer-el-salvadors-2024-presidential-and-legislative-elections",
-  "https://www.riotimesonline.com/who-is-nayib-bukele-el-salvador-profile-2026/"
+  "https://www.riotimesonline.com/who-is-nayib-bukele-el-salvador-profile-2026/",
+  "https://en.wikipedia.org/wiki/Crime_in_El_Salvador",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12459783/"
  ],
- "falta": [
-  "local",
-  "quando",
-  "participantes",
-  "roupas",
-  "cenario",
-  "objetos",
-  "fontes_visuais"
- ]
+ "falta": []
 }

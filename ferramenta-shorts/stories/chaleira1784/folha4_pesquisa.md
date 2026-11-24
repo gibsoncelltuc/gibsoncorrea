@@ -3,27 +3,38 @@
 Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, vestir e animar. `python3 pesquisar.py chaleira1784` busca cada item na internet, baixa os prints (referencias/chaleira1784/prints/) e monta o quadro referencias/chaleira1784/moodboard.jpg. OLHE o quadro antes de aprovar o storyboard.
 
 - Historia: A Guerra da Chaleira
-- Epoca: 1784 | Lugar: ? | Quando: ?
-- HEROIS (objeto): kit/kettle
-- HEROIS (personagens): HOL, COZ, AUS, IMP
-- Cenarios: harbor, interior loja, interior pedra, loc_campo
+- Epoca: 1784 | Lugar: Rio Escalda (Scheldt), entre Antuérpia e a Holanda, Países Baixos austríacos e República Holandesa; margens baixas, forte de Lillo e rio largo | Quando: 8 de outubro de 1784, dia claro de outono
+- HEROIS (objeto): kit/kettle, kit/navio_fragata
+- HEROIS (personagens): IMP, COZ, MAR, HOL
+- Cenarios: harbor, interior madeira, interior pedra, loc_campo
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
-- Tamanho real aplicado: kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.8: pequeno demais); kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.7: pequeno demais)
+- Tamanho real aplicado: kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 1.0: pequeno demais); kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.8: pequeno demais); kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.7: pequeno demais)
 
 ## Itens pesquisados
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Guerra da Chaleira | A Guerra da Chaleira / Uma Era Holanda Ele 1784 | SEM REFERENCIA
-lugar | Holanda | Holanda 1784 / Holanda landscape | SEM REFERENCIA
+tema | A Guerra da Chaleira | Kettle War 1784 Dolfijn Le Louis Scheldt / A Guerra da Chaleira / Uma Foi Holanda Escalda José Segundo Antuérpia 1784 | SEM REFERENCIA
+lugar | Rio Escalda (Scheldt), entre Antuérpia e a Holanda, Países Baixos austríacos e R | Antwerp Scheldt river 18th century painting ships / Rio Escalda / Rio Escalda Scheldt entre Antuérpia e a Holanda Países Baixos austríacos e República Holan | manual: gravura de 1784 do Rijksmuseum (RP-P-OB-85.344): escuna holandesa Dolfijn atirando no brigue imperial Le Louis, ambos a vela, no Escalda, perto de Lillo (https://en.wikipedia.org/wiki/Kettle_War); roupas e objetos seguem a pesquisa escrita (Kettle War, Wikipedia): bandeira do imperador do Sacro Império, casacas claras austríacas, casacas laranja holandesas, chaleira de ferro de sopa
+lugar | Holanda | Dutch Republic 18th century harbor painting / Holanda 1784 / Holanda landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1784 | 1784 fashion clothing / 18th century clothing painting | SEM REFERENCIA
-heroi | kettle | kettle / A Guerra da Chaleira | SEM REFERENCIA
-epoca | navio da epoca | ship 1784 / ship | SEM REFERENCIA
-epoca | canhao da epoca | cannon 1784 / cannon | SEM REFERENCIA
-epoca | soldado da epoca | soldier uniform 1784 / soldier uniform | SEM REFERENCIA
+pessoas | imperador José II da Áustria (casaca clara com faixa vermelha) | Joseph II Holy Roman Emperor portrait 18th century / imperador José II da Áustria casaca clara com faixa vermelha / imperador José II da Áustria casaca clara com faixa vermelha 1784 | manual: gravura de 1784 do Rijksmuseum (RP-P-OB-85.344): escuna holandesa Dolfijn atirando no brigue imperial Le Louis, ambos a vela, no Escalda, perto de Lillo (https://en.wikipedia.org/wiki/Kettle_War); roupas e objetos seguem a pesquisa escrita (Kettle War, Wikipedia): bandeira do imperador do Sacro Império, casacas claras austríacas, casacas laranja holandesas, chaleira de ferro de sopa
+pessoas | oficiais e marinheiros austríacos de farda clara e azul | Austrian infantry uniform 1780s / oficiais e marinheiros austríacos de farda clara e azul / oficiais e marinheiros austríacos de farda clara e azul 1784 | manual: gravura de 1784 do Rijksmuseum (RP-P-OB-85.344): escuna holandesa Dolfijn atirando no brigue imperial Le Louis, ambos a vela, no Escalda, perto de Lillo (https://en.wikipedia.org/wiki/Kettle_War); roupas e objetos seguem a pesquisa escrita (Kettle War, Wikipedia): bandeira do imperador do Sacro Império, casacas claras austríacas, casacas laranja holandesas, chaleira de ferro de sopa
+pessoas | marinheiros holandeses de casaca laranja e calça azul | Dutch navy sailors 18th century uniform / marinheiros holandeses de casaca laranja e calça azul / marinheiros holandeses de casaca laranja e calça azul 1784 | manual: gravura de 1784 do Rijksmuseum (RP-P-OB-85.344): escuna holandesa Dolfijn atirando no brigue imperial Le Louis, ambos a vela, no Escalda, perto de Lillo (https://en.wikipedia.org/wiki/Kettle_War); roupas e objetos seguem a pesquisa escrita (Kettle War, Wikipedia): bandeira do imperador do Sacro Império, casacas claras austríacas, casacas laranja holandesas, chaleira de ferro de sopa
+pessoas | cozinheiro do navio de avental e touca branca | ship cook 18th century galley painting / cozinheiro do navio de avental e touca branca / cozinheiro do navio de avental e touca branca 1784 | manual: gravura de 1784 do Rijksmuseum (RP-P-OB-85.344): escuna holandesa Dolfijn atirando no brigue imperial Le Louis, ambos a vela, no Escalda, perto de Lillo (https://en.wikipedia.org/wiki/Kettle_War); roupas e objetos seguem a pesquisa escrita (Kettle War, Wikipedia): bandeira do imperador do Sacro Império, casacas claras austríacas, casacas laranja holandesas, chaleira de ferro de sopa
+objeto | chaleira de sopa | 18th century iron soup kettle cauldron / chaleira de sopa / chaleira de sopa 1784 | manual: gravura de 1784 do Rijksmuseum (RP-P-OB-85.344): escuna holandesa Dolfijn atirando no brigue imperial Le Louis, ambos a vela, no Escalda, perto de Lillo (https://en.wikipedia.org/wiki/Kettle_War); roupas e objetos seguem a pesquisa escrita (Kettle War, Wikipedia): bandeira do imperador do Sacro Império, casacas claras austríacas, casacas laranja holandesas, chaleira de ferro de sopa
+objeto | canhão de bordo | 18th century ship cannon deck / canhão de bordo / canhão de bordo 1784 | manual: gravura de 1784 do Rijksmuseum (RP-P-OB-85.344): escuna holandesa Dolfijn atirando no brigue imperial Le Louis, ambos a vela, no Escalda, perto de Lillo (https://en.wikipedia.org/wiki/Kettle_War); roupas e objetos seguem a pesquisa escrita (Kettle War, Wikipedia): bandeira do imperador do Sacro Império, casacas claras austríacas, casacas laranja holandesas, chaleira de ferro de sopa
+objeto | navio mercante Le Louis | Dutch brig 1780s ship painting / navio mercante Le Louis / navio mercante Le Louis 1784 | manual: gravura de 1784 do Rijksmuseum (RP-P-OB-85.344): escuna holandesa Dolfijn atirando no brigue imperial Le Louis, ambos a vela, no Escalda, perto de Lillo (https://en.wikipedia.org/wiki/Kettle_War); roupas e objetos seguem a pesquisa escrita (Kettle War, Wikipedia): bandeira do imperador do Sacro Império, casacas claras austríacas, casacas laranja holandesas, chaleira de ferro de sopa
+objeto | navio de guerra Dolfijn | Dutch schooner 18th century warship 1784 / navio de guerra Dolfijn / navio de guerra Dolfijn 1784 | manual: gravura de 1784 do Rijksmuseum (RP-P-OB-85.344): escuna holandesa Dolfijn atirando no brigue imperial Le Louis, ambos a vela, no Escalda, perto de Lillo (https://en.wikipedia.org/wiki/Kettle_War); roupas e objetos seguem a pesquisa escrita (Kettle War, Wikipedia): bandeira do imperador do Sacro Império, casacas claras austríacas, casacas laranja holandesas, chaleira de ferro de sopa
+objeto | bandeira imperial | Holy Roman Empire imperial flag double-headed eagle / bandeira imperial / bandeira imperial 1784 | manual: gravura de 1784 do Rijksmuseum (RP-P-OB-85.344): escuna holandesa Dolfijn atirando no brigue imperial Le Louis, ambos a vela, no Escalda, perto de Lillo (https://en.wikipedia.org/wiki/Kettle_War); roupas e objetos seguem a pesquisa escrita (Kettle War, Wikipedia): bandeira do imperador do Sacro Império, casacas claras austríacas, casacas laranja holandesas, chaleira de ferro de sopa
+heroi | kettle | 18th century iron soup kettle cauldron / chaleira de sopa / A Guerra da Chaleira | manual: gravura de 1784 do Rijksmuseum (RP-P-OB-85.344): escuna holandesa Dolfijn atirando no brigue imperial Le Louis, ambos a vela, no Escalda, perto de Lillo (https://en.wikipedia.org/wiki/Kettle_War); roupas e objetos seguem a pesquisa escrita (Kettle War, Wikipedia): bandeira do imperador do Sacro Império, casacas claras austríacas, casacas laranja holandesas, chaleira de ferro de sopa
+heroi | navio fragata | navio fragata | SEM REFERENCIA
+epoca | navio da epoca | 18th century sailing ship brig painting / ship 1784 / ship | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
-- -
+- O Escalda estava fechado aos navios desde 1585 e a Paz de Vestfália confirmou isso em 1648 (fonte: Wikipedia Kettle War)
+- Só um tiro foi disparado e acertou uma chaleira de sopa; o Le Louis se rendeu e o Tratado de Fontainebleau (1785) manteve o rio fechado, com a Holanda pagando compensação de 2 milhões de florins (outras fontes dizem 10) (fonte: Wikipedia Kettle War)
 
 ## Fontes visuais do roteirista
-- -
+- https://en.wikipedia.org/wiki/Kettle_War
+- https://commons.wikimedia.org/wiki/Category:Kettle_War

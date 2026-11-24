@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 05 - Os Gansos que Salvaram Roma
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 3.0s - 10 palavras - plano group
@@ -53,7 +53,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b3 - 14.5s a 17.7s - 12 palavras - plano crowd
+## Cena b3 - 14.5s a 17.7s - 12 palavras - plano orbit
 > "Os gauleses cercaram a colina, e a fome apertou os dois lados."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -61,14 +61,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | cercaram (15.1s) | ACAO: chega | entra andando pela lateral | OK |
 | 2 | apertou (16.8s) | ACAO: x_aperta | aperto de mao + brilho | OK |
 | 3 | - | CENA | aperto de mao | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: chega na palavra cercaram (15.1s): executa: entra andando pela lateral
 - ACAO: x_aperta na palavra apertou (16.8s): executa: aperto de mao + brilho
 - CENA (a cena toda): executa: aperto de mao
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 <!-- /FISICA -->
 
 ## Cena b4 - 18.8s a 23.4s - 18 palavras - plano wide
@@ -133,18 +133,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | pagou (42.5s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | pagou (42.5s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 3 | ouro (43.3s) | EFEITO: stars | estrelinhas + som | OK |
-| 4 | ouro (43.3s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 5 | embora (44.8s) | ACAO: sai | sai andando pela lateral | OK |
-| 6 | - | INTERACAO | entregar | OK |
-| 7 | - | PLACA | 1.000 LIBRAS | OK |
+| 3 | embora (44.8s) | ACAO: sai | sai andando pela lateral | OK |
+| 4 | - | INTERACAO | entregar | OK |
+| 5 | - | PLACA | 1.000 LIBRAS | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: stars na palavra pagou (42.5s): executa: estrelinhas + som
 - ACAO: negocio na palavra pagou (42.5s): executa: moeda girando (compra/venda)
-- EFEITO: stars na palavra ouro (43.3s): executa: estrelinhas + som
-- ACAO: paga na palavra ouro (43.3s): executa: estende a mao com moedas + brilho
 - ACAO: sai na palavra embora (44.8s): executa: sai andando pela lateral
 - INTERACAO (a cena toda): executa: entregar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena

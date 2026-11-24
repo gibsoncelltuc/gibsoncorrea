@@ -140,7 +140,8 @@
     "SIL:0:nervous:paper"
    ],
    "interacao": "entregar",
-   "say": "Por anos, ninguém viu utilidade nela. Silver mostrava a cola para todo mundo dentro da empresa, e nada."
+   "say": "Por anos, ninguém viu utilidade nela. Silver mostrava a cola para todo mundo dentro da empresa, e nada.",
+   "susp_ok": true
   },
   {
    "shot": "group",
@@ -298,7 +299,7 @@
    "who": [
     "FRY:0:laugh"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "acao": "comemorar",
    "crowd": {

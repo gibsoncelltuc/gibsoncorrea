@@ -93,13 +93,14 @@
    "cenario": "loc_estudio"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "MFR"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/navio_destroier"
+    "kit/navio_destroier",
+    "navios de guerra ao fundo, no tamanho real"
    ],
    "palavras": 12,
    "cena": "b4",
@@ -111,19 +112,35 @@
    "cenario": "harbor"
   },
   {
-   "camera": "crowd",
+   "camera": "two",
    "personagens": [
     "MAR"
    ],
    "multidao": 0,
    "objetos": [
-    "navios de guerra ao fundo, no tamanho real",
     "ship",
     "vehicles/airplane"
    ],
    "palavras": 17,
    "cena": "b5",
    "frase": "Acontece que o Brasil não recuou. Mandou navios e aviões para a costa, e a tensão subiu.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "MAR",
+    "MFR"
+   ],
+   "multidao": 12,
+   "objetos": [],
+   "palavras": 23,
+   "cena": "b6",
+   "frase": "Marinheiros dos dois lados se encararam no mar. Os jornais chamaram o caso de Guerra da Lagosta, e o mundo inteiro achou graça.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -133,23 +150,6 @@
     "camera": "4 cameras em sequencia",
     "som": "tiros e gritos"
    },
-   "acoes_faltando": [],
-   "cenario": "harbor"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "MAR",
-    "MFR"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 23,
-   "cena": "b6",
-   "frase": "Marinheiros dos dois lados se encararam no mar. Os jornais chamaram o caso de Guerra da Lagosta, e o mundo inteiro achou graça.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
    "acoes_faltando": [],
    "cenario": "harbor"
   },

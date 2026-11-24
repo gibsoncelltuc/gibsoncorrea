@@ -230,7 +230,7 @@
    "who": [
     "MAR:0:angry"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "crowd": {
     "n": 0

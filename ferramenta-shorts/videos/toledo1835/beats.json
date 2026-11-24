@@ -245,7 +245,8 @@
    ],
    "interior": "pedra",
    "text": "ACORDO",
-   "say": "O presidente mandou os dois pararem, e o Congresso ofereceu um acordo."
+   "say": "O presidente mandou os dois pararem, e o Congresso ofereceu um acordo.",
+   "susp_ok": true
   },
   {
    "shot": "group",

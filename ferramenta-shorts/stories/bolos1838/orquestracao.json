@@ -15,14 +15,14 @@
     "CON",
     "OFI"
    ],
-   "multidao": 5,
+   "multidao": 0,
    "objetos": [
     "kit/cake_table",
     "kit/marco_ulua"
    ],
-   "palavras": 12,
+   "palavras": 15,
    "cena": "b0",
-   "frase": "A França invadiu o México por causa de uma conta de confeitaria.",
+   "frase": "A França foi à guerra contra o México por causa de uma conta de confeitaria.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -35,16 +35,16 @@
     "CON",
     "OFI"
    ],
-   "multidao": 32,
+   "multidao": 0,
    "objetos": [
     "buildings/shop",
     "kit/cake_table",
     "kit/marco_ulua",
     "kit/stall"
    ],
-   "palavras": 14,
+   "palavras": 13,
    "cena": "b1",
-   "frase": "Um confeiteiro francês tinha uma loja perto da Cidade do México, famosa pelos doces.",
+   "frase": "Um confeiteiro francês tinha uma loja em Tacubaya, perto da Cidade do México.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -52,20 +52,20 @@
    "cenario": "street"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "OFI",
-    "OFI",
-    "CON"
+    "OFI"
    ],
    "multidao": 0,
    "objetos": [
+    "kit/barrel_r",
     "kit/cake_table",
-    "mk/Table_Large"
+    "kit/chest"
    ],
-   "palavras": 17,
+   "palavras": 16,
    "cena": "b2",
-   "frase": "Um dia, oficiais mexicanos entraram, comeram tudo o que havia, quebraram a loja, e saíram sem pagar.",
+   "frase": "Em mil oitocentos e trinta e dois, oficiais mexicanos saquearam a loja, ou só não pagaram.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -82,9 +82,9 @@
    "objetos": [
     "kit/cake_table"
    ],
-   "palavras": 18,
+   "palavras": 16,
    "cena": "b3",
-   "frase": "O confeiteiro escreveu ao rei da França. \"Quero sessenta mil pesos\", pediu ele. A loja inteira valia mil.",
+   "frase": "O confeiteiro reclamou ao rei e pediu sessenta mil pesos. A loja valia menos de mil.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -98,31 +98,14 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 20,
+   "palavras": 16,
    "cena": "b4",
-   "frase": "O rei gostou da ideia, juntou outras queixas, e cobrou seiscentos mil. \"Paguem, ou mandamos a marinha\", avisou a França.",
+   "frase": "O governo francês juntou outras queixas e exigiu seiscentos mil pesos, mas o México não pagou.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "interior pedra"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "GEN",
-    "OFI"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 10,
-   "cena": "b5",
-   "frase": "O México riu do pedido, e não deu um centavo.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_campo"
   },
   {
    "camera": "wide",
@@ -133,12 +116,11 @@
    "multidao": 32,
    "objetos": [
     "kit/marco_ulua",
-    "navio em movimento",
     "navios de guerra ao fundo, no tamanho real"
    ],
-   "palavras": 17,
-   "cena": "b6",
-   "frase": "Acontece que a França mandou mesmo. Navios de guerra chegaram, e fecharam todos os portos do país.",
+   "palavras": 16,
+   "cena": "b5",
+   "frase": "Acontece que a França mandou a esquadra, e navios de guerra fecharam os portos do México.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -148,17 +130,16 @@
   {
    "camera": "crowd",
    "personagens": [
-    "FRA",
-    "OFI"
+    "FRA"
    ],
    "multidao": 48,
    "objetos": [
     "cannon",
     "kit/marco_ulua"
    ],
-   "palavras": 14,
-   "cena": "b7",
-   "frase": "Os canhões franceses bombardearam a fortaleza de Veracruz, e os soldados tomaram a cidade.",
+   "palavras": 15,
+   "cena": "b6",
+   "frase": "Canhões franceses bombardearam a fortaleza de San Juan de Ulúa, e os soldados tomaram Veracruz.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -172,64 +153,56 @@
    "cenario": "harbor"
   },
   {
-   "camera": "orbit",
+   "camera": "two",
    "personagens": [
     "GEN"
    ],
-   "multidao": 40,
-   "objetos": [
-    "cannon"
-   ],
-   "palavras": 19,
-   "cena": "b8",
-   "frase": "Um general mexicano correu para o combate, e tombou, atingido por um tiro de canhão. Ele perdeu uma perna.",
-   "classe": "chave",
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 16,
+   "cena": "b7",
+   "frase": "Santa Anna foi ferido na perna por metralha, e a perna foi enterrada com honras militares.",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "interior pedra"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "GEN",
     "FRA"
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 14,
-   "cena": "b9",
-   "frase": "Meses depois, o México pagou os seiscentos mil pesos, e a França foi embora.",
+   "palavras": 18,
+   "cena": "b8",
+   "frase": "Em março de mil oitocentos e trinta e nove, o México prometeu pagar, e a França foi embora.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "interior pedra"
   },
   {
-   "camera": "close",
+   "camera": "wide",
    "personagens": [
-    "CON"
+    "CON",
+    "FRA"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/cake_table",
-    "kit/coin"
+    "kit/marco_ulua"
    ],
-   "palavras": 12,
-   "cena": "b10",
-   "frase": "Nunca um doce custou tão caro, e o confeiteiro contou as moedas.",
+   "palavras": 16,
+   "cena": "b9",
+   "frase": "A conta nunca foi paga, e a França voltou em mil oitocentos e sessenta e um.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "street"
   },
   {
    "camera": "close",
@@ -239,7 +212,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b11",
+   "cena": "b10",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",
