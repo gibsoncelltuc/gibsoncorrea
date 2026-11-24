@@ -1,4 +1,4 @@
-# FOLHA 2 - PRODUCAO: A Morte Branca
+# FOLHA 2 - PRODUCAO: Guerras Inusitadas EP 23 - A Morte Branca
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/hayha1939/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py hayha1939` de novo ate esta folha sair sem risco.
 

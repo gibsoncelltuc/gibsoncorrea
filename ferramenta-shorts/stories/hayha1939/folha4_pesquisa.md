@@ -1,4 +1,4 @@
-# FOLHA 4 - PESQUISA: A Morte Branca
+# FOLHA 4 - PESQUISA: Guerras Inusitadas EP 23 - A Morte Branca
 
 Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, vestir e animar. `python3 pesquisar.py hayha1939` busca cada item na internet, baixa os prints (referencias/hayha1939/prints/) e monta o quadro referencias/hayha1939/moodboard.jpg. OLHE o quadro antes de aprovar o storyboard.
 
