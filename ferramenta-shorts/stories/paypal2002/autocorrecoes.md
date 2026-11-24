@@ -38,3 +38,6 @@
 
 ## 24/11 23:13 autocorrecao de visibilidade
 - b8: objeto citado "kit/roadster" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> close no objeto
+
+## 24/11 23:16 autocorrecao de visibilidade
+- b7: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("group") para o personagem caber inteiro

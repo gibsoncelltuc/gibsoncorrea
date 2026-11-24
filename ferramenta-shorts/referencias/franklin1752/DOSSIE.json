@@ -4,7 +4,7 @@
  "ancoras": {
   "ano": 1752,
   "era": "historica",
-  "regiao": "colonial",
+  "regiao": "europa",
   "luz_base": "day",
   "cenarios": [
    "countryside",
@@ -38,9 +38,9 @@
   "kit/key",
   "kit/kite",
   "kit/lightning_rod",
-  "kit/room_colonial_wood",
+  "kit/room_azul_shop",
   "kit/room_europa_wood",
-  "kit/room_verde_shop",
+  "kit/room_verde_wood",
   "mk/Barrel",
   "mk/Bed_Twin1",
   "mk/Bookcase_2",

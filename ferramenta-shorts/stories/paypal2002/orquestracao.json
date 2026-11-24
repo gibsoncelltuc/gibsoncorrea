@@ -184,12 +184,12 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "MUS",
     "POV"
    ],
-   "multidao": 0,
+   "multidao": 6,
    "objetos": [
     "kit/coin",
     "kit/falcon9_land",
@@ -205,7 +205,7 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
     "MUS"
    ],
