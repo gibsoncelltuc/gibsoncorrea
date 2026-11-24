@@ -6,14 +6,14 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | street | two | 2 | reagir, INTERAGEM: susto | kit/marco_notredame | - | -
 b1 | interior madeira | group | 2 | conversar, INTERAGEM: avanca e o outro recua | dog, cat | - | -
-b2 | loc_campo | two | 2 | reagir, INTERAGEM: discutir | barrel, kit/marco_notredame | - | -
+b2 | loc_campo | two | 2 | reagir, INTERAGEM: discutir | barrel | - | -
 b3 | street | crowd | 8 | reagir, batalha | kit/marco_notredame, buildings/house_two, nature/lamppost, elephant, deer | - | -
 b4 | arctic | close | 1 | conversar | elephant | - | -
 b5 | interior loja | two | 2 | conversar, INTERAGEM: tremem de frio | elephant, wolf | - | -
 b6 | arctic | orbit | 13 | reagir, batalha | cat | - | -
 b7 | arctic | wide | 8 | encena | kit/balloon_air, kit/balloon | - | -
 b8 | arctic | close | 1 | encena | - | - | -
-b9 | street | close | 1 | conversar | kit/marco_notredame | - | -
+b9 | street | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/panela
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b6

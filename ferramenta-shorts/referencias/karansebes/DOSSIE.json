@@ -31,12 +31,12 @@
  "objetos_em_cena": [
   "barrel",
   "buildings/house_small",
+  "buildings/house_two",
   "cannon",
   "crate",
   "kit/barrel_r",
   "kit/campfire",
   "kit/coin",
-  "kit/marco_viena",
   "kit/tent",
   "nature/picket_fence",
   "nature/tree_oak",

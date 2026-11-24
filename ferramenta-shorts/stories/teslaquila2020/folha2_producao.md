@@ -28,7 +28,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): INV (variante 0, expressao shock); MUS (variante 0, expressao laugh)
 - Animacao: discutir | interacao: discutir | o ultimo personagem ENTRA andando
-- Objetos/modelos: kit/tequila_bolt, kit/marco_mexico, nature/picket_fence, kit/roadster
+- Objetos/modelos: kit/tequila_bolt, nature/picket_fence, kit/roadster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brincadeira, garrafas, tesla, teslaquila
 - RISCOS: nenhum
 
@@ -118,7 +118,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): MUS (variante 0, expressao smile)
 - Animacao: comemorar
-- Objetos/modelos: kit/tequila_bolt, kit/marco_mexico
+- Objetos/modelos: kit/tequila_bolt
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): mentira, piada
 - RISCOS: nenhum
 
@@ -128,7 +128,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): MUS (variante 0, expressao grin)
 - Animacao: conversar
-- Objetos/modelos: kit/marco_mexico
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
 - RISCOS: nenhum
 
@@ -138,7 +138,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/tequila_bolt | b0, b2, b4, b5, b6, b7, b8, b9, b10, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_mexico | b0, b1, b2, b4, b5, b7, b10, b11, b12 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_mexico | b0, b1, b4, b5, b7, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/roadster | b2, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/veg_cacto | b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -148,10 +148,12 @@ kit/veg_cacto | b4, b5 | pronto | conferir na folha de contato se le bem; se par
 - Objeto heroi: kit/tequila_bolt | grandes momentos: b7, b10 | planos abertos: 3 | mistura: close 23% | medio 60% | aberto 9% | detalhe 7%
 - Interacoes: b0 insiste, b2 discutir, b3 entregar, b4 o outro se aproxima, b5 cochichar, b8 entregar, b9 vai ate o outro
 - RISCOS GERAIS: 
+  - video com ~71 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py teslaquila2020  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/teslaquila2020/moodboard.jpg
   - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 2 risco(s) em aberto
+## RESUMO: 3 risco(s) em aberto
+- geral: video com ~71 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 - geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 

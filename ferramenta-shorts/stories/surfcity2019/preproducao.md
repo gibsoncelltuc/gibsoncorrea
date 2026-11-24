@@ -7,14 +7,14 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | interior pedra | close | 1 | conversar | kit/surfboard | - | -
 b1 | harbor | two | 2 | conversar, INTERAGEM: cochichar | kit/surfboard, kit/volcano | - | -
 b2 | harbor | crowd | 11 | batalha | kit/surfboard, kit/volcano | - | -
-b3 | loc_cidade | two | 2 | reagir, INTERAGEM: insiste | kit/volcano | - | -
+b3 | loc_cidade | two | 2 | reagir, INTERAGEM: insiste | - | - | -
 b4 | harbor | crowd | 11 | batalha | kit/surfboard, kit/volcano | - | -
 b5 | interior loja | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/surfboard | - | -
-b6 | harbor | group | 3 | conversar, INTERAGEM: discutir | kit/volcano | - | -
+b6 | harbor | group | 3 | conversar, INTERAGEM: discutir | - | - | -
 b7 | loc_campo | two | 2 | conversar, INTERAGEM: susto | kit/volcano | - | -
-b8 | harbor | group | 3 | conversar, INTERAGEM: aproxima-se | kit/surfboard, kit/volcano | - | -
+b8 | harbor | group | 3 | conversar, INTERAGEM: aproxima-se | kit/surfboard | - | -
 b9 | loc_cidade | group | 1 | conversar | kit/surfboard, kit/volcano | - | -
-b10 | loc_cidade | close | 1 | conversar | kit/volcano | - | -
+b10 | loc_cidade | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/surfboard
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b2, b4

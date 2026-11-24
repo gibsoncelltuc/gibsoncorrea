@@ -1,6 +1,6 @@
 # CRONOGRAMA - A Febre das Tulipas
 
-Gerado em 24/11 03:01 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 03:30 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -10,13 +10,13 @@ b0 | simples | interior madeira | two | MER, POV | - | windmill, tulip_bed, tuli
 b1 | simples | countryside | reveal | POV, RIC | 6 | windmill, marco_amsterdam, tulip_bed, tulip_red | - | Era a Holanda, e a tulipa tinha acabado de chegar do Oriente. Colorida
 b2 | simples | interior madeira | two | RIC, RIC | - | coin, tulip_striped | - | Os ricos queriam as mais raras. Num leilão, um oferecia mil moedas por
 b3 | chave | countryside | crowd | POV, POV, MER | 20 | marco_amsterdam, tulip_bed | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Logo, o país inteiro estava comprando. Padeiros, sapateiros, gente que
-b4 | simples | countryside | two | POV, POV | - | marco_amsterdam, tulip_purple, tulip_yellow | - | Ninguém queria a flor de verdade. Queriam vender o papel mais caro na 
+b4 | simples | countryside | two | POV, POV | - | tulip_purple, tulip_yellow | - | Ninguém queria a flor de verdade. Queriam vender o papel mais caro na 
 b5 | simples | interior madeira | two | MAR, MER | - | tulip_red | - | Contam que um marinheiro comeu um bulbo no almoço, achando que era ceb
 b6 | simples | interior loja | group | MER, POV, POV, RIC | - | stall | - | Acontece que, num leilão de fevereiro, o vendedor abriu os lances, e n
 b7 | chave | street | orbit | POV, RIC | 30 | marco_amsterdam, tulip_bed | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A notícia correu. Em poucos dias, todo mundo quis vender, e não havia 
 b8 | simples | interior madeira | two | RIC, MER | - | tulip_bed, tulip_red | - | Os preços desabaram. Quem tinha trocado a casa por flores ficou só com
-b9 | simples | street | close | MAR | - | marco_amsterdam | - | O marinheiro, pelo menos, almoçou bem.
-b10 | simples | countryside | close | MER | - | marco_amsterdam | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b9 | simples | street | close | MAR | - | - | - | O marinheiro, pelo menos, almoçou bem.
+b10 | simples | countryside | close | MER | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

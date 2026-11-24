@@ -28,7 +28,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): ENG (variante 0, expressao worried, segura paper); MUS (variante 0, expressao suspicious)
 - Animacao: discutir | interacao: discutir
-- Objetos/modelos: kit/rocket, kit/falcon9_land, kit/marco_canaveral, vehicles/airplane
+- Objetos/modelos: kit/rocket, kit/falcon9_land, vehicles/airplane
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aviao, foguetes, spacex
 - RISCOS: nenhum
 
@@ -38,7 +38,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): ENA (variante 0, expressao sad); MUS (variante 0, expressao nervous)
 - Animacao: conversar | interacao: susto
-- Objetos/modelos: kit/rocket, kit/marco_canaveral
+- Objetos/modelos: kit/rocket
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pouso, primeiras
 - RISCOS: 
   - ACAO-CHAVE sem briefing de efeito (corpo + emissao + luz/camera) -> CORRECAO: por o objeto da acao em "props" (veiculo/objeto grande) para a ferramenta animar com VFX, ou "batalha"/"explica" na cena
@@ -69,7 +69,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): ENA (variante 0, expressao nervous)
 - Animacao: reagir
-- Objetos/modelos: kit/falcon_air, kit/marco_canaveral
+- Objetos/modelos: kit/falcon_air
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): motor, queda
 - RISCOS: nenhum
 
@@ -79,7 +79,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): ENG (variante 0, expressao shock); ENA (variante 0, expressao surprised)
 - Animacao: reagir | interacao: insiste
-- Objetos/modelos: kit/falcon9_land, kit/marco_canaveral
+- Objetos/modelos: kit/falcon9_land
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pernas, plataforma
 - RISCOS: nenhum
 
@@ -109,7 +109,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): MUS (variante 0, expressao smile)
 - Animacao: comemorar
-- Objetos/modelos: kit/falcon9_land, kit/marco_canaveral, kit/rocket
+- Objetos/modelos: kit/falcon9_land, kit/rocket
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): foguetes, spacex, viagem
 - RISCOS: nenhum
 
@@ -119,7 +119,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): MUS (variante 0, expressao grin)
 - Animacao: conversar
-- Objetos/modelos: kit/marco_canaveral
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
 - RISCOS: nenhum
 
@@ -129,7 +129,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/falcon9_land | b0, b2, b7, b8, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_canaveral | b0, b1, b2, b3, b4, b5, b6, b7, b8, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_canaveral | b0, b1, b4, b5, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/rocket | b0, b2, b3, b4, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 vehicles/airplane | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/starlink_sat | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py

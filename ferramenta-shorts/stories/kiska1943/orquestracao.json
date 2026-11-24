@@ -14,7 +14,6 @@
    "personagens": [],
    "multidao": 0,
    "objetos": [
-    "kit/marco_alpes",
     "ship"
    ],
    "palavras": 23,
@@ -35,7 +34,6 @@
    ],
    "multidao": 32,
    "objetos": [
-    "kit/marco_alpes",
     "kit/navio_vapor",
     "vehicles/airplane"
    ],
@@ -80,9 +78,7 @@
     "USA"
    ],
    "multidao": 48,
-   "objetos": [
-    "kit/marco_alpes"
-   ],
+   "objetos": [],
    "palavras": 14,
    "cena": "b3",
    "frase": "No meio do nevoeiro, os soldados desceram em silêncio, prontos para um combate duro.",
@@ -105,9 +101,7 @@
     "CAN"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_alpes"
-   ],
+   "objetos": [],
    "palavras": 10,
    "cena": "b4",
    "frase": "Mas teve um problema: os japoneses já tinham ido embora.",
@@ -124,7 +118,6 @@
    ],
    "multidao": 32,
    "objetos": [
-    "kit/marco_alpes",
     "nature/picket_fence",
     "navios de guerra ao fundo, no tamanho real",
     "ship"
@@ -146,9 +139,7 @@
     "USA"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_alpes"
-   ],
+   "objetos": [],
    "palavras": 17,
    "cena": "b6",
    "frase": "Sem inimigo à vista, os Aliados começaram a atirar uns nos outros, no escuro e na neblina.",
@@ -164,9 +155,7 @@
     "USA"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_alpes"
-   ],
+   "objetos": [],
    "palavras": 9,
    "cena": "b7",
    "frase": "No fim, só acharam na ilha alguns cachorros abandonados.",
@@ -182,9 +171,7 @@
     "OFF"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_alpes"
-   ],
+   "objetos": [],
    "palavras": 12,
    "cena": "b8",
    "frase": "Uma das maiores invasões do Pacífico Norte tomou uma ilha completamente vazia.",
@@ -200,9 +187,7 @@
     "USA"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_alpes"
-   ],
+   "objetos": [],
    "palavras": 13,
    "cena": "b9",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",

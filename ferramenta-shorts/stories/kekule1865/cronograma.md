@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 14 - O Químico que Sonhou com uma Cobra
 
-Gerado em 24/11 03:01 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 0%, cenario_e_epoca_ok 100%
+Gerado em 24/11 03:30 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 0%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -17,8 +17,8 @@ b7 | simples | interior madeira | two | KEK | - | snake_ring | - | Passou o rest
 b8 | simples | interior madeira | group | KEK, COL | - | snake_ring | - | Os colegas ficaram de boca aberta. O anel explicava dezenas de substân
 b9 | simples | interior pedra | group | KEK, COL, ALU | - | snake_ring | - | Vinte e cinco anos depois, numa festa em Berlim em honra ao anel, ele 
 b10 | chave | street | orbit | COL, KEK | 18 | marco_viena, snake_ring | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Até hoje há quem duvide da história. Mas o anel do benzeno virou base 
-b11 | simples | street | close | KEK | - | marco_viena, snake_ring | - | E ele deixou um conselho: aprendam a sonhar. Mas confiram tudo acordad
-b12 | simples | street | two | KEK | - | marco_viena | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b11 | simples | street | close | KEK | - | snake_ring | - | E ele deixou um conselho: aprendam a sonhar. Mas confiram tudo acordad
+b12 | simples | street | two | KEK | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
@@ -27,7 +27,7 @@ N | Etapa | O que confere | Estado | Proximo passo
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
 2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/16 itens) | PENDENTE | python3 pesquisar.py kekule1865
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 3) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 4) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | BLOQUEADO (etapa anterior pendente) | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | BLOQUEADO (etapa anterior pendente) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 

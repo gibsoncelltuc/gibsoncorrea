@@ -28,7 +28,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): GEN (variante 0, expressao worried, segura paper); TRU (variante 0, expressao suspicious)
 - Animacao: discutir | interacao: discutir
-- Objetos/modelos: kit/mountain_bunker, kit/marco_mesquita
+- Objetos/modelos: kit/mountain_bunker
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): montanha, principal, profundidade
 - RISCOS: nenhum
 
@@ -38,7 +38,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): GEN (variante 0, expressao stern); PIL (variante 0, expressao smug)
 - Animacao: discutir | interacao: susto | o ultimo personagem ENTRA andando
-- Objetos/modelos: kit/bunker_bomb, kit/b2_air, kit/marco_mesquita, vehicles/airplane
+- Objetos/modelos: kit/bunker_bomb, kit/b2_air, vehicles/airplane
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): arma, aviao, treze
 - RISCOS: nenhum
 
@@ -69,7 +69,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): PIL (variante 0, expressao smug); GEN (variante 0, expressao surprised)
 - Animacao: discutir | interacao: insiste
-- Objetos/modelos: kit/b2_air, kit/marco_mesquita
+- Objetos/modelos: kit/b2_air
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): direcao, pacifico
 - RISCOS: nenhum
 
@@ -90,7 +90,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): GEN (variante 0, expressao shock); PIL (variante 0, expressao surprised)
 - Animacao: reagir | interacao: aproxima-se
-- Objetos/modelos: kit/marco_mesquita
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): submarino
 - RISCOS: 
   - ACAO-CHAVE sem briefing de efeito (corpo + emissao + luz/camera) -> CORRECAO: por o objeto da acao em "props" (veiculo/objeto grande) para a ferramenta animar com VFX, ou "batalha"/"explica" na cena
@@ -131,7 +131,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): GEN (variante 0, expressao grin); PIL (variante 0, expressao smile)
 - Animacao: comemorar | interacao: pular
-- Objetos/modelos: kit/bunker_bomb, kit/b2_air, kit/marco_mesquita
+- Objetos/modelos: kit/bunker_bomb, kit/b2_air
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): primeira
 - RISCOS: nenhum
 
@@ -141,7 +141,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): TRU (variante 0, expressao grin)
 - Animacao: conversar
-- Objetos/modelos: kit/marco_mesquita
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
 - RISCOS: nenhum
 
@@ -152,7 +152,7 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/bunker_bomb | b0, b3, b7, b12 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/b2_air | b0, b3, b5, b6, b7, b9, b12 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_mesquita | b0, b1, b2, b3, b5, b6, b7, b8, b9, b11, b12, b13 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_mesquita | b0, b1, b5, b7, b9, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/mountain_bunker | b1, b2, b7, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 vehicles/airplane | b3, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_small | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -164,13 +164,15 @@ nature/tree_oak | b9 | pronto | conferir na folha de contato se le bem; se parec
 - Objeto heroi: kit/bunker_bomb | grandes momentos: b5, b9, b11 | planos abertos: 4 | mistura: close 28% | medio 57% | aberto 11% | detalhe 4%
 - Interacoes: b0 o outro se aproxima, b2 discutir, b3 susto, b4 entregar, b6 insiste, b8 aproxima-se, b10 reverencia, b12 pular
 - RISCOS GERAIS: 
+  - video com ~66 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py martelo2025  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/martelo2025/moodboard.jpg
   - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 5 risco(s) em aberto
+## RESUMO: 6 risco(s) em aberto
 - b5: ACAO SEM ANIMACAO na narracao: voaram
 - b7: ACAO-CHAVE sem briefing de efeito (corpo + emissao + luz/camera)
 - b8: ACAO-CHAVE sem briefing de efeito (corpo + emissao + luz/camera)
+- geral: video com ~66 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 - geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 

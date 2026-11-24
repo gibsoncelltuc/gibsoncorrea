@@ -90,7 +90,6 @@
    ],
    "multidao": 10,
    "objetos": [
-    "kit/marco_liberdade",
     "nature/picket_fence"
    ],
    "palavras": 7,
@@ -154,7 +153,6 @@
    "objetos": [
     "buildings/apartment",
     "buildings/house_two",
-    "kit/marco_liberdade",
     "nature/lamppost"
    ],
    "palavras": 14,
@@ -233,7 +231,6 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/marco_liberdade",
     "kit/tv"
    ],
    "palavras": 15,
@@ -251,9 +248,7 @@
     "FUN"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_liberdade"
-   ],
+   "objetos": [],
    "palavras": 13,
    "cena": "b10",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",

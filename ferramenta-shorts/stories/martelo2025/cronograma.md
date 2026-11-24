@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 23 - O Martelo da Meia-Noite
 
-Gerado em 24/11 03:01 | 14 cenas | metricas: acoes_encenadas 93%, acoes_chave_com_efeito 60%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 03:30 | 14 cenas | metricas: acoes_encenadas 93%, acoes_chave_com_efeito 60%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -8,18 +8,18 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 ---|---|---|---|---|---|---|---|---
 b0 | simples | loc_montanha | two | TRU, GEN | - | b2_air, bunker_bomb, marco_mesquita | - | Para destruir um bunker escondido dentro de uma montanha, os Estados U
 b1 | simples | loc_pista | reveal | POV, POV | 6 | marco_mesquita, mountain_bunker | - | Foi em junho de dois mil e vinte e cinco. O alvo eram as usinas nuclea
-b2 | simples | loc_montanha | two | GEN, TRU | - | marco_mesquita, mountain_bunker | - | A principal, Fordow, fica a quase noventa metros de profundidade, dent
-b3 | simples | loc_montanha | close | GEN, PIL | - | b2_air, bunker_bomb, marco_mesquita, airplane | - | Só uma arma chegava lá: a arma antibunker, com mais de treze toneladas
+b2 | simples | loc_montanha | two | GEN, TRU | - | mountain_bunker | - | A principal, Fordow, fica a quase noventa metros de profundidade, dent
+b3 | simples | loc_montanha | close | GEN, PIL | - | b2_air, bunker_bomb, airplane | - | Só uma arma chegava lá: a arma antibunker, com mais de treze toneladas
 b4 | simples | interior pedra | two | TRU, GEN | - | - | - | Trump assinou a ordem e autorizou a missão. O nome: Martelo da Meia-No
 b5 | chave | loc_campo | crowd | PIL, PIL, GEN | 12 | b2_air, marco_mesquita | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Sete bombardeiros invisíveis decolaram do Missouri, e voaram mais de u
-b6 | simples | loc_patio | two | PIL, GEN | - | b2_air, marco_mesquita | - | Para despistar, outros B-2 foram mandados na direção contrária, para o
+b6 | simples | loc_patio | two | PIL, GEN | - | b2_air | - | Para despistar, outros B-2 foram mandados na direção contrária, para o
 b7 | chave | loc_montanha | low | PIL | - | b2_air, bunker_bomb, marco_mesquita, mountain_bunker, airplane | - | Acontece que, de madrugada, os aviões soltaram catorze cargas explosiv
-b8 | chave | loc_patio | two | GEN, PIL | - | marco_mesquita | - | Um submarino ainda mandou mísseis que explodiram numa terceira usina.
+b8 | chave | loc_patio | two | GEN, PIL | - | - | - | Um submarino ainda mandou mísseis que explodiram numa terceira usina.
 b9 | chave | loc_campo | orbit | PIL, GEN | 14 | house_small, b2_air, marco_mesquita, picket_fence, tree_oak | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Todos os aviões voltaram para casa.
 b10 | simples | interior pedra | two | TRU, GEN | - | - | - | Trump disse que as usinas foram destruídas.
 b11 | chave | loc_montanha | crowd | POV, POV, POV | 18 | marco_mesquita, mountain_bunker | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Avaliações posteriores discutiram o tamanho real do estrago.
-b12 | simples | loc_campo | close | GEN, PIL | - | b2_air, bunker_bomb, marco_mesquita | - | Foi a primeira vez na história que essa arma gigante foi usada de verd
-b13 | simples | loc_campo | two | TRU | - | marco_mesquita | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b12 | simples | loc_campo | close | GEN, PIL | - | b2_air, bunker_bomb | - | Foi a primeira vez na história que essa arma gigante foi usada de verd
+b13 | simples | loc_campo | two | TRU | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
@@ -28,7 +28,7 @@ N | Etapa | O que confere | Estado | Proximo passo
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
 2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/7 itens) | PENDENTE | python3 pesquisar.py martelo2025
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 5) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 6) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | REFAZER (a etapa anterior mudou) | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | BLOQUEADO (etapa anterior pendente) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 

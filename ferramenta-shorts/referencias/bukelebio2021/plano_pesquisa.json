@@ -41,13 +41,6 @@
     "phone",
     "O Ditador Mais Legal do Mundo"
    ]
-  },
-  {
-   "tipo": "heroi",
-   "item": "volcano",
-   "consultas": [
-    "volcano"
-   ]
   }
  ]
 }

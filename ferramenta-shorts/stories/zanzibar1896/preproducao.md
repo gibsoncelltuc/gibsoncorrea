@@ -11,11 +11,11 @@ b3 | interior pedra | group | 2 | conversar, INTERAGEM: insiste | - | paper | -
 b4 | harbor | crowd | 20 | encena, batalha | kit/marco_zanzibar, cannon | - | -
 b5 | interior pedra | close | 1 | conversar | - | - | -
 b6 | palace | orbit | 22 | reagir, batalha | kit/marco_zanzibar, navios de guerra ao fundo, no tamanho real | - | -
-b7 | harbor | track | 2 | discutir, andando | kit/marco_zanzibar, buildings/house_two, nature/lamppost, nature/bench | - | -
+b7 | harbor | track | 2 | discutir, andando | buildings/house_two, nature/lamppost, nature/bench | - | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: vai ate o outro | cannon, war/flagpole | flag | -
-b9 | loc_campo | group | 3 | conversar, INTERAGEM: aproxima-se | kit/marco_zanzibar | paper | -
+b9 | loc_campo | group | 3 | conversar, INTERAGEM: aproxima-se | - | paper | -
 b10 | interior loja | close | 1 | conversar | - | - | -
-b11 | palace | close | 1 | conversar | kit/marco_zanzibar | - | -
+b11 | palace | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: cannon
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b6

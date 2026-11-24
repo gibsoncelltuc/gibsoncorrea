@@ -115,7 +115,6 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/marco_canaveral",
     "kit/rocket",
     "kit/starlink_sat"
    ],
@@ -137,7 +136,6 @@
    ],
    "multidao": 10,
    "objetos": [
-    "kit/marco_canaveral",
     "kit/starlink_train",
     "nature/picket_fence"
    ],
@@ -163,7 +161,6 @@
    ],
    "multidao": 6,
    "objetos": [
-    "kit/marco_canaveral",
     "kit/starlink_train"
    ],
    "palavras": 11,
@@ -227,7 +224,6 @@
    "multidao": 0,
    "objetos": [
     "kit/falcon_air",
-    "kit/marco_canaveral",
     "kit/starlink_sat"
    ],
    "palavras": 11,
@@ -265,7 +261,6 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/marco_canaveral",
     "kit/rocket",
     "kit/starlink_sat"
    ],
@@ -284,9 +279,7 @@
     "AST"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_canaveral"
-   ],
+   "objetos": [],
    "palavras": 13,
    "cena": "b10",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",

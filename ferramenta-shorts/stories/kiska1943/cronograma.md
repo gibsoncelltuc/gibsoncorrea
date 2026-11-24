@@ -1,21 +1,21 @@
 # CRONOGRAMA - A Invasão da Ilha Vazia
 
-Gerado em 24/11 03:01 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 03:30 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | harbor | two | sem personagem | - | marco_alpes, ship | - | Agosto de mil novecentos e quarenta e três. Os Aliados prepararam uma 
-b1 | transicao | mountain | reveal | USA, CAN, USA | 32 | marco_alpes, navio_vapor, airplane | - | Foram mais de trinta e quatro mil soldados americanos e canadenses, co
+b0 | simples | harbor | two | sem personagem | - | ship | - | Agosto de mil novecentos e quarenta e três. Os Aliados prepararam uma 
+b1 | transicao | mountain | reveal | USA, CAN, USA | 32 | navio_vapor, airplane | - | Foram mais de trinta e quatro mil soldados americanos e canadenses, co
 b2 | chave | arctic | group | USA | 40 | canhao_moderno | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Antes do desembarque, bombardearam Kiska durante semanas.
-b3 | chave | mountain | orbit | USA, CAN, USA | 48 | marco_alpes | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | No meio do nevoeiro, os soldados desceram em silêncio, prontos para um
-b4 | simples | mountain | two | USA, CAN | - | marco_alpes | - | Mas teve um problema: os japoneses já tinham ido embora.
-b5 | simples | harbor | orbit | USA | 32 | marco_alpes, picket_fence, navios de guerra ao fundo, no tamanho real, ship | - | Duas semanas antes, uma frota tinha evacuado cerca de cinco mil homens
-b6 | simples | mountain | group | USA, CAN, USA | - | marco_alpes | - | Sem inimigo à vista, os Aliados começaram a atirar uns nos outros, no 
-b7 | simples | harbor | two | USA | - | marco_alpes | - | No fim, só acharam na ilha alguns cachorros abandonados.
-b8 | simples | harbor | close | OFF | - | marco_alpes | - | Uma das maiores invasões do Pacífico Norte tomou uma ilha completament
-b9 | simples | harbor | two | USA | - | marco_alpes | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b3 | chave | mountain | orbit | USA, CAN, USA | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | No meio do nevoeiro, os soldados desceram em silêncio, prontos para um
+b4 | simples | mountain | two | USA, CAN | - | - | - | Mas teve um problema: os japoneses já tinham ido embora.
+b5 | simples | harbor | orbit | USA | 32 | picket_fence, navios de guerra ao fundo, no tamanho real, ship | - | Duas semanas antes, uma frota tinha evacuado cerca de cinco mil homens
+b6 | simples | mountain | group | USA, CAN, USA | - | - | - | Sem inimigo à vista, os Aliados começaram a atirar uns nos outros, no 
+b7 | simples | harbor | two | USA | - | - | - | No fim, só acharam na ilha alguns cachorros abandonados.
+b8 | simples | harbor | close | OFF | - | - | - | Uma das maiores invasões do Pacífico Norte tomou uma ilha completament
+b9 | simples | harbor | two | USA | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

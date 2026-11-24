@@ -162,9 +162,7 @@
     "MAR"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_eiffel"
-   ],
+   "objetos": [],
    "palavras": 20,
    "cena": "b7",
    "frase": "Acontece que a radiação foi destruindo a saúde dela, aos poucos. Em mil novecentos e trinta e quatro, ela morreu.",
@@ -247,8 +245,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/curie_box",
-    "kit/marco_eiffel"
+    "kit/curie_box"
    ],
    "palavras": 15,
    "cena": "b11",
@@ -265,9 +262,7 @@
     "PES"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_eiffel"
-   ],
+   "objetos": [],
    "palavras": 13,
    "cena": "b12",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",

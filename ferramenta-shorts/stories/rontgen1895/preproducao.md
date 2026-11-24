@@ -15,8 +15,8 @@ b7 | interior madeira | close | 1 | conversar | kit/xray_plate | - | -
 b8 | street | crowd | 21 | reagir, batalha | kit/xray_plate, kit/marco_wurzburg | paper | -
 b9 | interior madeira | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/xray_plate | paper | -
 b10 | street | orbit | 21 | comemorar, batalha | kit/marco_wurzburg | - | -
-b11 | street | group | 6 | conversar | kit/marco_wurzburg, kit/xray_plate | - | -
-b12 | street | close | 1 | conversar | kit/marco_wurzburg | - | -
+b11 | street | group | 6 | conversar | kit/xray_plate | - | -
+b12 | street | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/xray_plate
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b8, b10

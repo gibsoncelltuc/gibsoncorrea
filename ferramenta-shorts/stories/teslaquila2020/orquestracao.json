@@ -92,7 +92,6 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/marco_mexico",
     "kit/roadster",
     "kit/tequila_bolt",
     "nature/picket_fence"
@@ -283,7 +282,6 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/marco_mexico",
     "kit/tequila_bolt"
    ],
    "palavras": 12,
@@ -301,9 +299,7 @@
     "MUS"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_mexico"
-   ],
+   "objetos": [],
    "palavras": 13,
    "cena": "b12",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",

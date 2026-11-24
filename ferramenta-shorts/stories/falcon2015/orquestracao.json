@@ -89,7 +89,6 @@
    "multidao": 0,
    "objetos": [
     "kit/falcon9_land",
-    "kit/marco_canaveral",
     "kit/rocket",
     "vehicles/airplane"
    ],
@@ -110,7 +109,6 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/marco_canaveral",
     "kit/rocket"
    ],
    "palavras": 13,
@@ -177,8 +175,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/falcon_air",
-    "kit/marco_canaveral"
+    "kit/falcon_air"
    ],
    "palavras": 15,
    "cena": "b6",
@@ -197,8 +194,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/falcon9_land",
-    "kit/marco_canaveral"
+    "kit/falcon9_land"
    ],
    "palavras": 13,
    "cena": "b7",
@@ -263,7 +259,6 @@
    "multidao": 0,
    "objetos": [
     "kit/falcon9_land",
-    "kit/marco_canaveral",
     "kit/rocket"
    ],
    "palavras": 18,
@@ -281,9 +276,7 @@
     "MUS"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_canaveral"
-   ],
+   "objetos": [],
    "palavras": 13,
    "cena": "b11",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",

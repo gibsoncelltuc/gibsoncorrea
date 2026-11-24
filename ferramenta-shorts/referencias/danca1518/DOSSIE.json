@@ -41,6 +41,7 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "buildings/house_two",
+  "buildings/shop",
   "kit/marco_viena",
   "kit/room_azul_wood",
   "kit/room_europa_stone",

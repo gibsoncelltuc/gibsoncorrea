@@ -52,6 +52,7 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
+  "buildings/house_small",
   "kit/marco_goldengate",
   "kit/megapack",
   "kit/phone",

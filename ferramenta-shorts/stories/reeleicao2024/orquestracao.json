@@ -68,8 +68,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/ballot_box",
-    "kit/marco_casabranca"
+    "kit/ballot_box"
    ],
    "palavras": 14,
    "cena": "b2",
@@ -183,7 +182,6 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/marco_casabranca",
     "kit/white_house"
    ],
    "palavras": 16,
@@ -229,8 +227,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/ballot_box",
-    "kit/marco_casabranca"
+    "kit/ballot_box"
    ],
    "palavras": 11,
    "cena": "b10",
@@ -247,9 +244,7 @@
     "TRU"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_casabranca"
-   ],
+   "objetos": [],
    "palavras": 13,
    "cena": "b11",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",

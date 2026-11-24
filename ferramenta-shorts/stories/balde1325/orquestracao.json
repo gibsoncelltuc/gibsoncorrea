@@ -92,7 +92,6 @@
    "multidao": 0,
    "objetos": [
     "buildings/house_small",
-    "kit/marco_ghirlandina",
     "kit/well",
     "nature/picket_fence",
     "nature/tree_oak",
@@ -239,9 +238,7 @@
     "MOD"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_ghirlandina"
-   ],
+   "objetos": [],
    "palavras": 13,
    "cena": "b10",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",

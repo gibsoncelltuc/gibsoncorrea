@@ -118,8 +118,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/booster_air",
-    "kit/tower"
+    "kit/booster_air"
    ],
    "palavras": 19,
    "cena": "b2",
@@ -222,7 +221,6 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/tower",
     "kit/tower_catch"
    ],
    "palavras": 15,
@@ -286,7 +284,6 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/tower",
     "kit/tower_catch"
    ],
    "palavras": 16,
@@ -305,7 +302,6 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/tower",
     "kit/tower_catch",
     "kit/tower_mini"
    ],
@@ -324,9 +320,7 @@
     "MUS"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/tower"
-   ],
+   "objetos": [],
    "palavras": 13,
    "cena": "b12",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",

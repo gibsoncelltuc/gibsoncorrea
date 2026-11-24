@@ -89,7 +89,6 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/marco_trumptower",
     "kit/stall"
    ],
    "palavras": 18,
@@ -212,7 +211,6 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/marco_trumptower",
     "kit/tv"
    ],
    "palavras": 21,
@@ -231,7 +229,6 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/marco_trumptower",
     "kit/tv"
    ],
    "palavras": 11,
@@ -249,9 +246,7 @@
     "TRU"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_trumptower"
-   ],
+   "objetos": [],
    "palavras": 13,
    "cena": "b11",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",

@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 24 - O Foguete que Voltou de Ré
 
-Gerado em 24/11 03:01 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 67%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 03:30 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 67%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -8,16 +8,16 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 ---|---|---|---|---|---|---|---|---
 b0 | simples | harbor | two | MUS, ENG | - | falcon9_land, marco_canaveral, rocket | - | Durante sessenta anos, todo foguete era jogado fora depois de um voo. 
 b1 | transicao | loc_pista | reveal | POV, POV | 6 | marco_canaveral | - | Foi em dezembro de dois mil e quinze, no Cabo Canaveral, na Flórida.
-b2 | simples | loc_campo | two | ENG, MUS | - | falcon9_land, marco_canaveral, rocket, airplane | - | Elon Musk queria reaproveitar os foguetes da SpaceX, como se reaprovei
-b3 | chave | harbor | two | ENA, MUS | - | marco_canaveral, rocket | - | As primeiras tentativas de pouso deram errado. Foguetes tombaram, e ex
+b2 | simples | loc_campo | two | ENG, MUS | - | falcon9_land, rocket, airplane | - | Elon Musk queria reaproveitar os foguetes da SpaceX, como se reaprovei
+b3 | chave | harbor | two | ENA, MUS | - | rocket | - | As primeiras tentativas de pouso deram errado. Foguetes tombaram, e ex
 b4 | simples | loc_campo | two | MUS, ENG | - | marco_canaveral, rocket, starlink_sat | - | Mas a equipe insistiu. Em vinte e um de dezembro, o Falcon nove decolo
 b5 | chave | harbor | crowd | ENG, ENA, MUS | 18 | falcon_air, marco_canaveral | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Depois de soltar a parte de cima, a parte de baixo virou no céu, e com
-b6 | simples | loc_campo | low | ENA | - | falcon_air, marco_canaveral | - | Acontece que ela desceu de ré, de pé, com o motor aceso freando a qued
-b7 | simples | loc_campo | two | ENG, ENA | - | falcon9_land, marco_canaveral | - | E desceu certinho no meio da plataforma, abrindo as pernas no último s
+b6 | simples | loc_campo | low | ENA | - | falcon_air | - | Acontece que ela desceu de ré, de pé, com o motor aceso freando a qued
+b7 | simples | loc_campo | two | ENG, ENA | - | falcon9_land | - | E desceu certinho no meio da plataforma, abrindo as pernas no último s
 b8 | chave | loc_campo | orbit | MUS, ENG, ENA | 20 | falcon9_land, marco_canaveral | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os funcionários da SpaceX gritaram de alegria, como numa final de camp
 b9 | simples | interior loja | two | MUS, ENG | - | rocket | - | Foi a primeira vez que um foguete desse tamanho voltou do espaço e fic
-b10 | simples | harbor | close | MUS | - | falcon9_land, marco_canaveral, rocket | - | Hoje, os foguetes da SpaceX pousam quase toda semana. E a viagem ao es
-b11 | simples | harbor | two | MUS | - | marco_canaveral | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b10 | simples | harbor | close | MUS | - | falcon9_land, rocket | - | Hoje, os foguetes da SpaceX pousam quase toda semana. E a viagem ao es
+b11 | simples | harbor | two | MUS | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

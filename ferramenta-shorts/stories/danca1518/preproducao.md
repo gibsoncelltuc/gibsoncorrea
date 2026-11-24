@@ -12,9 +12,9 @@ b4 | interior pedra | two | 2 | reagir, INTERAGEM: avanca e o outro recua | - | 
 b5 | hall | low | 32 | conversar, INTERAGEM: discutir | buildings/house_two, nature/lamppost | - | -
 b6 | loc_campo | orbit | 20 | dancar, batalha | kit/marco_viena | - | -
 b7 | interior loja | two | 2 | reagir, INTERAGEM: o outro se aproxima | - | - | -
-b8 | loc_montanha | track | 3 | dancar, andando | kit/marco_viena | - | -
-b9 | street | close | 1 | reagir | kit/marco_viena | - | -
-b10 | street | two | 1 | conversar | kit/marco_viena | - | -
+b8 | loc_montanha | track | 3 | dancar, andando | - | - | -
+b9 | street | close | 1 | reagir | - | - | -
+b10 | street | two | 1 | conversar | - | - | -
 
 OBJETO HEROI: nenhum achado (ponha 'heroi': 'kit/...' no topo do roteiro)
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b6

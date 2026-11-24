@@ -7,14 +7,14 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | harbor | two | 2 | discutir, INTERAGEM: discutir | kit/scroll, kit/marco_amsterdam | - | -
 b1 | harbor | group | 10 | conversar, INTERAGEM: susto | kit/marco_amsterdam | - | -
 b2 | harbor | crowd | 20 | batalha | ship, kit/marco_amsterdam, navios de guerra ao fundo, no tamanho real | - | -
-b3 | harbor | group | 3 | discutir, INTERAGEM: avanca e o outro recua, batalha | ship, kit/marco_amsterdam | - | -
+b3 | harbor | group | 3 | discutir, INTERAGEM: avanca e o outro recua, batalha | ship | - | -
 b4 | harbor | crowd | 22 | encena, batalha | ship, kit/marco_amsterdam | - | -
 b5 | loc_campo | group | 18 | reagir, INTERAGEM: o outro se aproxima | kit/marco_amsterdam | paper | -
-b6 | loc_campo | two | 2 | comemorar, INTERAGEM: pular | kit/marco_amsterdam | - | -
+b6 | loc_campo | two | 2 | comemorar, INTERAGEM: pular | - | - | -
 b7 | loc_campo | group | 2 | conversar, INTERAGEM: reverencia | kit/marco_amsterdam | - | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: apertar | kit/scroll | paper | -
-b9 | loc_campo | group | 1 | conversar | kit/scroll, kit/marco_amsterdam | - | -
-b10 | loc_campo | close | 1 | conversar | kit/marco_amsterdam | - | -
+b9 | loc_campo | group | 1 | conversar | kit/scroll | - | -
+b10 | loc_campo | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/scroll
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 3 -> b2, b3, b4

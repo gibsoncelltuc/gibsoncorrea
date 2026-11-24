@@ -43,7 +43,11 @@ def verifica(i):
         if b.get('interior'):
             ctot += 1; (cok := cok + 1) if any(x == 'X_hall' for x, _ in cs) else cfal.append(f'b{k} interior')
         elif b.get('set'):
-            ctot += 1; alvo = 'X' if b['set'] == SET0 else f"X_{b['set']}"
+            # v13: o cenario REAL da cena vem da orquestracao (o mkvideo troca cenario tematico fora de lugar por locacao limpa; comparar com o beats.json dava falso alarme)
+            try:
+                _o = json.load(open(f'stories/{i}/orquestracao.json')); _real = _o['cenas'][k]['cenario']; _m = re.search(r'setx: \{ (\w+): X', S); _base = _m.group(1) if _m else SET0
+                alvo = 'X' if _real == _base else f"X_{_real}"
+            except Exception: alvo = 'X' if b['set'] == SET0 else f"X_{b['set']}"
             (cok := cok + 1) if any(x == alvo for x, _ in cs) else cfal.append(f"b{k} set {b['set']} (veio {cs[0][0]})")
         say_ = re.sub(r'[^a-z0-9 ]', '', unicodedata.normalize('NFKD', b['say'].lower()).encode('ascii', 'ignore').decode())
         if not b.get('interior') and b.get('objetos') is not False and not b.get('veiculo'):   # LUGAR CITADO na narracao (fazenda, igreja, floresta, castelo...) -> cenografia do lugar na cena

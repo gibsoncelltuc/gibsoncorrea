@@ -11,12 +11,12 @@ b3 | interior madeira | group | 2 | conversar, INTERAGEM: avanca e o outro recua
 b4 | interior madeira | close | 1 | conversar | kit/curie_box | - | -
 b5 | interior madeira | two | 2 | reagir, INTERAGEM: o outro se aproxima | - | paper | -
 b6 | loc_campo | crowd | 21 | comemorar, batalha | kit/marco_eiffel | - | -
-b7 | loc_campo | two | 1 | conversar | kit/marco_eiffel | - | -
+b7 | loc_campo | two | 1 | conversar | - | - | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: susto | kit/curie_box, crate | - | -
 b9 | interior pedra | low | 1 | conversar | kit/curie_box | - | -
 b10 | loc_montanha | orbit | 19 | reagir, batalha | kit/curie_box, kit/marco_eiffel, nature/picket_fence | - | -
-b11 | loc_montanha | close | 1 | conversar | kit/curie_box, kit/marco_eiffel | - | -
-b12 | loc_campo | close | 1 | conversar | kit/marco_eiffel | - | -
+b11 | loc_montanha | close | 1 | conversar | kit/curie_box | - | -
+b12 | loc_campo | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/curie_box
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b6, b10

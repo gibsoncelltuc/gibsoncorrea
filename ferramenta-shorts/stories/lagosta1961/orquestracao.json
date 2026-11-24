@@ -67,9 +67,7 @@
     "PES"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/marco_olinda"
-   ],
+   "objetos": [],
    "palavras": 12,
    "cena": "b2",
    "frase": "O Brasil dizia: \"Lagosta anda no fundo do mar, então é nossa.\"",
@@ -86,9 +84,7 @@
     "FRA"
    ],
    "multidao": 30,
-   "objetos": [
-    "kit/marco_olinda"
-   ],
+   "objetos": [],
    "palavras": 10,
    "cena": "b3",
    "frase": "A França respondia: \"Lagosta nada, então é de todo mundo.\"",
@@ -153,9 +149,7 @@
     "MAR"
    ],
    "multidao": 10,
-   "objetos": [
-    "kit/marco_olinda"
-   ],
+   "objetos": [],
    "palavras": 15,
    "cena": "b6",
    "frase": "Marinheiros dos dois lados se encararam no mar, e todo mundo esperou o primeiro tiro.",

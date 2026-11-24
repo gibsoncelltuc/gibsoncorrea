@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 01 - O Ditador Mais Legal do Mundo
 
-Gerado em 24/11 03:10 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 03:30 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -11,19 +11,19 @@ b1 | chave | loc_cidade | crowd | BUK | 30 | volcano | corpo: tropa/personagens 
 b2 | simples | interior pedra | close | BUK | - | phone | - | Primeiro, ele escreveu só uma palavra no perfil: ditador.
 b3 | chave | interior loja | group | BUK, POV, POV | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Alguns dias depois, trocou por uma frase mais longa: o ditador mais le
 b4 | simples | loc_cidade | reveal | BUK | 10 | volcano | - | Acontece que a notícia se espalhou pelo mundo.
-b5 | simples | loc_cidade | two | JOR, JOR2 | - | phone, volcano | - | Um jornal de cada país publicou a frase, e muita gente ficou discutind
+b5 | simples | loc_cidade | two | JOR, JOR2 | - | phone | - | Um jornal de cada país publicou a frase, e muita gente ficou discutind
 b6 | simples | interior loja | two | JOR, BUK | - | - | - | Vários comentaristas leram aquilo como uma ironia, feita para os críti
 b7 | simples | interior pedra | close | BUK | - | ballot_box, phone | - | Anos depois, no dia da eleição de dois mil e vinte e quatro, o perfil 
 b8 | simples | interior loja | two | BUK, JOR2 | - | - | - | Aliás, esse perfil muda bastante: Bukele costuma trocar o nome e a des
-b9 | simples | loc_cidade | group | BUK | - | phone, volcano | - | Conclusão: se a sua biografia estiver chata, lembre que dá para trocar
-b10 | simples | loc_cidade | close | BUK | - | volcano | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b9 | simples | loc_cidade | group | BUK | - | phone | - | Conclusão: se a sua biografia estiver chata, lembre que dá para trocar
+b10 | simples | loc_cidade | close | BUK | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/6 itens) | PENDENTE | python3 pesquisar.py bukelebio2021
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/5 itens) | PENDENTE | python3 pesquisar.py bukelebio2021
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
 4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 3) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | BLOQUEADO (etapa anterior pendente) | 

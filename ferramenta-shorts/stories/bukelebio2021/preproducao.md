@@ -9,12 +9,12 @@ b1 | loc_cidade | crowd | 31 | encena, batalha | kit/volcano | - | -
 b2 | interior pedra | close | 1 | conversar | kit/phone | - | -
 b3 | interior loja | group | 3 | conversar, INTERAGEM: entregar, batalha | - | - | -
 b4 | loc_cidade | reveal | 11 | encena | kit/volcano | - | -
-b5 | loc_cidade | two | 2 | discutir, INTERAGEM: discutir | kit/phone, kit/volcano | - | -
+b5 | loc_cidade | two | 2 | discutir, INTERAGEM: discutir | kit/phone | - | -
 b6 | interior loja | two | 2 | conversar, INTERAGEM: insiste | - | - | -
 b7 | interior pedra | close | 1 | conversar | kit/phone, kit/ballot_box | - | -
 b8 | interior loja | two | 2 | conversar, INTERAGEM: vai ate o outro | - | - | -
-b9 | loc_cidade | group | 1 | conversar | kit/phone, kit/volcano | - | -
-b10 | loc_cidade | close | 1 | conversar | kit/volcano | - | -
+b9 | loc_cidade | group | 1 | conversar | kit/phone | - | -
+b10 | loc_cidade | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/phone
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b1, b3

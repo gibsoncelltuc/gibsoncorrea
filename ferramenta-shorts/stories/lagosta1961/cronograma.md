@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 11 - A Guerra da Lagosta
 
-Gerado em 24/11 03:10 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 03:30 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -8,11 +8,11 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 ---|---|---|---|---|---|---|---|---
 b0 | simples | loc_cidade | two | BRA, FRA | - | lobster, marco_olinda | - | A França e o Brasil quase entraram em guerra por causa de uma lagosta.
 b1 | simples | harbor | reveal | PES, PES | 8 | boat, marco_olinda | - | Era mil novecentos e sessenta e um. Barcos franceses pescavam lagostas
-b2 | simples | harbor | two | BRA, PES | - | marco_olinda | - | O Brasil dizia: "Lagosta anda no fundo do mar, então é nossa."
-b3 | simples | loc_campo | orbit | FRA, FRA | 30 | marco_olinda | - | A França respondia: "Lagosta nada, então é de todo mundo."
+b2 | simples | harbor | two | BRA, PES | - | - | - | O Brasil dizia: "Lagosta anda no fundo do mar, então é nossa."
+b3 | simples | loc_campo | orbit | FRA, FRA | 30 | - | - | A França respondia: "Lagosta nada, então é de todo mundo."
 b4 | simples | interior pedra | group | FRA, MAR, MAR | - | ship | - | A discussão ficou séria, e a França mandou um navio de guerra para pro
 b5 | chave | harbor | crowd | MAR, MAR | 20 | marco_olinda, navios de guerra ao fundo, no tamanho real, ship, airplane | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que o Brasil não recuou. Mandou navios e aviões para a costa,
-b6 | chave | harbor | group | MAR, MAR | 10 | marco_olinda | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Marinheiros dos dois lados se encararam no mar, e todo mundo esperou o
+b6 | chave | harbor | group | MAR, MAR | 10 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Marinheiros dos dois lados se encararam no mar, e todo mundo esperou o
 b7 | simples | interior madeira | two | FRA, BRA | - | - | - | Mas o tiro nunca veio. Os dois governos se reuniram e conversaram, em 
 b8 | simples | harbor | reveal | PES, FRA | - | marco_olinda, navio em movimento | - | Em mil novecentos e sessenta e três, chegaram a um acordo: alguns barc
 b9 | simples | interior pedra | close | BRA | - | lobster | - | No fim, ninguém perguntou para a lagosta de que lado ela queria ficar.
