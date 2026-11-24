@@ -58,7 +58,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | PLACA | A CAVALO? | OK |
 
-## Cena b6 - 29.1s a 33.7s - 15 palavras - plano low
+## Cena b6 - 29.2s a 32.5s - 15 palavras - plano low
 > "Só que ninguém sabia se o gelo ia aguentar o peso de centenas de cavalos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -66,27 +66,27 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | avanca e o outro recua | OK |
 | 2 | - | ATUACAO | reagir | OK |
 
-## Cena b7 - 33.8s a 40.6s - 19 palavras - plano two
+## Cena b7 - 33.7s a 38.7s - 19 palavras - plano two
 > "Na noite de vinte e três de janeiro, os hussardos atravessaram o gelo, com panos nos cascos dos cavalos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | atravessaram (37.7s) | ACAO: chega | entra andando pela lateral | OK |
+| 1 | atravessaram (36.1s) | ACAO: chega | entra andando pela lateral | OK |
 | 2 | - | CENA | montado: FRA galopando em cima do animal (horse_sela) atravessando a cena | OK |
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
-## Cena b8 - 40.7s a 44.7s - 12 palavras - plano group
+## Cena b8 - 40.1s a 44.3s - 12 palavras - plano group
 > "Acontece que os holandeses nem tentaram lutar. A frota inteira se rendeu."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | rendeu (44.7s) | ACAO: rende | maos para cima (rendicao) | OK |
+| 1 | rendeu (44.3s) | ACAO: rende | maos para cima (rendicao) | OK |
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 3 | - | INTERACAO | discutir | OK |
 | 4 | - | ATUACAO | reagir | OK |
 | 5 | - | PLACA | RENDIDOS | OK |
 
-## Cena b9 - 44.8s a 49.3s - 16 palavras - plano group
+## Cena b9 - 45.6s a 51.2s - 16 palavras - plano group
 > "Foram mais de uma dezena de navios capturados por soldados a cavalo. Cavalaria um, marinha zero."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -95,7 +95,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | o outro se aproxima | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 49.7s a 53.9s - 13 palavras - plano close
+## Cena b10 - 52.3s a 55.7s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

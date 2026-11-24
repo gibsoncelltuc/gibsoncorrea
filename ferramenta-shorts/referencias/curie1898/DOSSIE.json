@@ -10,6 +10,7 @@
    "interior madeira",
    "interior pedra",
    "loc_campo",
+   "loc_deserto",
    "loc_montanha"
   ],
   "cenarios_trocados": [
@@ -19,7 +20,7 @@
     "loc_campo"
    ],
    [
-    "cena 13",
+    "cena 12",
     "street",
     "loc_campo"
    ]
@@ -55,8 +56,7 @@
   "mk/Chair_1",
   "mk/Chest_Wood",
   "mk/Nightstand_Shelf",
-  "mk/Table_Large",
-  "nature/picket_fence"
+  "mk/Table_Large"
  ],
  "pesquisa_visual": {
   "local": "Paris: galpao velho de madeira e vidro da Escola de Fisica e Quimica (rue Lhomond), frio e com goteiras; Biblioteca Nacional da Franca hoje",

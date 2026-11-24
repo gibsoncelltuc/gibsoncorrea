@@ -8,7 +8,6 @@
   "luz_base": "day",
   "cenarios": [
    "countryside",
-   "interior loja",
    "interior madeira",
    "interior pedra",
    "street"
@@ -35,14 +34,13 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "buildings/apartment",
+  "buildings/house_small",
   "buildings/house_two",
   "buildings/shop",
   "kit/coin",
   "kit/frasco",
   "kit/globe",
   "kit/postit",
-  "kit/room_azul_shop",
   "kit/room_eua_wood",
   "kit/room_europa_stone",
   "kit/room_verde_wood",
@@ -57,8 +55,7 @@
   "mk/Stool",
   "mk/Table_Large",
   "mk/Vase_2",
-  "mk/Workbench_Drawers",
-  "nature/lamppost"
+  "mk/Workbench_Drawers"
  ],
  "pesquisa_visual": {
   "local": "laboratorio da 3M em St. Paul (Minnesota, EUA); igreja presbiteriana com coral; lojas e a cidade de Boise (Idaho) no teste de 1978",

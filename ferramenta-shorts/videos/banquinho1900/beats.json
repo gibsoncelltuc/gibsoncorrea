@@ -106,7 +106,7 @@
     ]
    ],
    "acao": "conversar",
-   "say": "Os ashanti tinham um banquinho dourado sagrado, que representava a alma do povo. Nem o rei podia sentar nele.",
+   "say": "Os ashanti tinham um banquinho dourado sagrado, a alma do povo. Nem o rei sentava nele.",
    "set": "countryside"
   },
   {
@@ -156,7 +156,7 @@
    ],
    "text": "REVOLTA",
    "titulo": true,
-   "say": "Eles se revoltaram, cercaram o forte onde ele estava, e o governador teve que se trancar lá dentro."
+   "say": "Eles se revoltaram e cercaram o forte onde o governador estava."
   },
   {
    "shot": "orbit",
@@ -184,7 +184,7 @@
     "PRE:0:smug:paper"
    ],
    "interacao": "entregar",
-   "say": "No fim, os ingleses venceram a guerra e assumiram o controle da região, que virou colônia."
+   "say": "No fim, os ingleses venceram e a região virou colônia."
   },
   {
    "shot": "two",

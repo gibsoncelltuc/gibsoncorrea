@@ -63,9 +63,9 @@
     "kit/coin",
     "kit/tulip_striped"
    ],
-   "palavras": 22,
+   "palavras": 14,
    "cena": "b2",
-   "frase": "Os ricos queriam as mais raras. Num leilão, um oferecia mil moedas por um bulbo, e outro gritava que pagava duas mil.",
+   "frase": "Num leilão, um oferecia mil moedas por um bulbo, e outro pagava duas mil.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -110,9 +110,9 @@
     "kit/tulip_purple",
     "kit/tulip_yellow"
    ],
-   "palavras": 18,
+   "palavras": 11,
    "cena": "b4",
-   "frase": "Ninguém queria a flor de verdade. Queriam vender o papel mais caro na semana seguinte, e ficar ricos.",
+   "frase": "Ninguém queria a flor. Queriam revender mais caro na semana seguinte.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -129,9 +129,9 @@
    "objetos": [
     "kit/tulip_red"
    ],
-   "palavras": 16,
+   "palavras": 14,
    "cena": "b5",
-   "frase": "Contam que um marinheiro comeu um bulbo no almoço, achando que era cebola. Valia uma fortuna.",
+   "frase": "Contam que um marinheiro comeu um bulbo achando que era cebola. Valia uma fortuna.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

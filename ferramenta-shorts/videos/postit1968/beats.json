@@ -75,7 +75,7 @@
    ],
    "mapa": "ESTADOS UNIDOS",
    "mapa_at": 3,
-   "say": "Era mil novecentos e sessenta e oito, numa grande fábrica dos Estados Unidos.",
+   "say": "Era mil novecentos e sessenta e oito, numa fábrica dos Estados Unidos.",
    "impact": true
   },
   {
@@ -90,7 +90,7 @@
    "sfx": [
     "thump@40"
    ],
-   "say": "Spencer Silver tentava criar uma super cola, tão forte que nada conseguisse descolar."
+   "say": "Spencer Silver tentava criar uma super cola."
   },
   {
    "shot": "close",
@@ -132,7 +132,7 @@
     ],
     "march": false
    },
-   "say": "Em mil novecentos e setenta e quatro, o colega Art Fry cantava no coral da igreja.",
+   "say": "Em mil novecentos e setenta e quatro, Art Fry cantava no coral da igreja.",
    "interior": "pedra",
    "moveis": [
     [
@@ -253,22 +253,7 @@
      1.5
     ]
    ],
-   "say": "Os dois se juntaram, e o papel saiu amarelo por acaso: era o único de rascunho à mão."
-  },
-  {
-   "shot": "two",
-   "who": [
-    "CHE:0:suspicious",
-    "FRY:0:nervous:paper"
-   ],
-   "fx": [
-    "ring@40"
-   ],
-   "sfx": [
-    "sting@40"
-   ],
-   "say": "O primeiro teste de vendas fracassou.",
-   "interior": "loja"
+   "say": "O papel saiu amarelo por acaso: era o único de rascunho à mão."
   },
   {
    "shot": "crowd",
@@ -306,7 +291,7 @@
    ],
    "text": "POST-IT",
    "titulo": true,
-   "say": "Então distribuíram amostras de graça numa cidade, e quase todos quiseram comprar mais.",
+   "say": "Então distribuíram amostras de graça, e quase todos quiseram comprar.",
    "impact": true
   },
   {
@@ -323,7 +308,7 @@
     ]
    ],
    "text": "1980",
-   "say": "Em mil novecentos e oitenta, o post-it chegou às lojas, graças a uma cola que deu errado."
+   "say": "Em mil novecentos e oitenta, o post-it chegou às lojas. Graças a uma cola que falhou."
   }
  ],
  "visual": {

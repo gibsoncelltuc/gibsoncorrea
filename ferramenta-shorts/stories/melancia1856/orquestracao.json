@@ -49,9 +49,9 @@
    "objetos": [
     "vehicles/locomotive"
    ],
-   "palavras": 25,
+   "palavras": 17,
    "cena": "b1",
-   "frase": "Em mil oitocentos e cinquenta e seis, viajantes cruzavam o Panamá de trem, a caminho do ouro da Califórnia, em uma viagem cheia de gente.",
+   "frase": "Em mil oitocentos e cinquenta e seis, viajantes cruzavam o Panamá a caminho do ouro da Califórnia.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -108,9 +108,9 @@
    "objetos": [
     "war/pistol"
    ],
-   "palavras": 17,
+   "palavras": 12,
    "cena": "b4",
-   "frase": "Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo, na frente de todo mundo.",
+   "frase": "Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -187,9 +187,9 @@
    "objetos": [
     "vehicles/locomotive"
    ],
-   "palavras": 20,
+   "palavras": 14,
    "cena": "b8",
-   "frase": "Na época, o Panamá fazia parte da Colômbia, e foi a Colômbia que acabou pagando uma indenização enorme aos americanos.",
+   "frase": "O Panamá era da Colômbia, e a Colômbia acabou pagando uma indenização aos americanos.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {

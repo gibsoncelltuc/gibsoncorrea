@@ -2,17 +2,17 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/scilly1651/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py scilly1651` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Uma ilha minúscula ficou em guerra com a Holanda por 335 anos, e foi u...
+## Cena b0 - Uma ilha minúscula ficou 335 anos em guerra com a Holanda, e ninguém d...
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): ILH (variante 0, expressao laugh); HOL (variante 0, expressao smug) | multidao: 0 de ILH/HOL
+- Personagens principais (2): ILH (variante 0, expressao laugh); HOL (variante 0, expressao smug)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/scroll
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): holanda, ilha
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): holanda, ilha, tiro
 - RISCOS: nenhum
 
-## Cena b1 - Dizem que tudo começou em mil seiscentos e cinquenta e um, nas ilhas S...
+## Cena b1 - Tudo começou em mil seiscentos e cinquenta e um, nas ilhas Scilly, per...
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
@@ -22,29 +22,29 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ilhas, inglaterra
 - RISCOS: nenhum
 
-## Cena b2 - Piratas das ilhas atacavam navios holandeses, e a Holanda, que vivia d...
+## Cena b2 - Piratas das ilhas atacavam navios holandeses, e a Holanda ficou furios...
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): ILH (variante 0, expressao grin); HOL (variante 0, expressao angry) | multidao: 18 de ILH/MAR
 - Animacao: - | batalha encenada
 - Objetos/modelos: ship, navios de guerra ao fundo, no tamanho real
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comercio, holanda, ilhas
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): holanda, ilhas
 - RISCOS: nenhum
 
-## Cena b3 - Ela mandou uma frota de navios de guerra e exigiu o dinheiro de volta.
+## Cena b3 - A Holanda mandou navios de guerra e exigiu o dinheiro de volta.
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (3): HOL (variante 0, expressao stern); MAR (variante 0, expressao angry); MAR (variante 1, expressao stern) | multidao: 0 de HOL/MAR
-- Animacao: discutir | interacao: avanca e o outro recua | batalha encenada
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Personagens principais (3): HOL (variante 0, expressao stern); MAR (variante 0, expressao angry); MAR (variante 1, expressao stern)
+- Animacao: discutir | interacao: avanca e o outro recua
 - Objetos/modelos: ship
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dinheiro, frota, navios
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dinheiro, holanda
 - RISCOS: nenhum
 
 ## Cena b4 - Dizem que, como ninguém pagou, o almirante holandês declarou guerra às...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): MAR (variante 0, expressao angry); MAR (variante 1, expressao shout) | multidao: 20 de MAR
 - Animacao: encena | batalha encenada
@@ -62,7 +62,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fazer, ilhas, ingleses
 - RISCOS: nenhum
 
-## Cena b6 - A guerra seguiu esquecida por mais de trezentos anos, sem um único tir...
+## Cena b6 - A guerra seguiu esquecida por mais de trezentos anos.
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
@@ -72,14 +72,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): trezentos
 - RISCOS: nenhum
 
-## Cena b7 - Em mil novecentos e oitenta e cinco, um historiador das ilhas pergunto...
+## Cena b7 - Em mil novecentos e oitenta e cinco, um historiador perguntou se a gue...
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): EMB (variante 0, expressao smile); PRE (variante 0, expressao nervous)
 - Animacao: conversar | interacao: reverencia
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): historiador, holanda, ilhas
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): historiador
 - RISCOS: nenhum
 
 ## Cena b8 - No ano seguinte, o embaixador holandês foi até as ilhas.
@@ -92,17 +92,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): embaixador, ilhas
 - RISCOS: nenhum
 
-## Cena b9 - Os dois fizeram a paz num tratado, e a guerra de 335 anos terminou.
+## Cena b9 - Os dois assinaram a paz, e a guerra de 335 anos acabou.
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): EMB (variante 0, expressao relief, segura paper); PRE (variante 0, expressao relief)
 - Animacao: conversar | interacao: apertar
 - Objetos/modelos: kit/scroll
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois
 - RISCOS: nenhum
 
-## Cena b10 - Foi a guerra mais longa e mais calma da história, dizem.
+## Cena b10 - A guerra mais longa e mais calma da história.
 - Cenario: street | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
@@ -132,14 +132,12 @@ ship | b2, b3, b4 | pronto | conferir na folha de contato se le bem; se parecer 
 
 
 ## Video inteiro
-- Objeto heroi: kit/scroll | grandes momentos: b2, b3, b4 | planos abertos: 2 | mistura: close 11% | medio 80% | aberto 5% | detalhe 4%
+- Objeto heroi: kit/scroll | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 12% | medio 79% | aberto 5% | detalhe 4%
 - Interacoes: b0 discutir, b1 susto, b3 avanca e o outro recua, b5 o outro se aproxima, b6 pular, b7 reverencia, b8 vai ate o outro, b9 apertar
 - RISCOS GERAIS: 
-  - GANCHO longo: a 1a frase tem 18 palavras (o canal fecha o gancho em ~4 s: 8-16 palavras) -> CORRECAO: reescrever a 1a frase: o fato mais absurdo da historia, curto, com algo em jogo
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py scilly1651  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/scilly1651/moodboard.jpg
 
-## RESUMO: 2 risco(s) em aberto
-- geral: GANCHO longo: a 1a frase tem 18 palavras (o canal fecha o gancho em ~4 s: 8-16 palavras)
+## RESUMO: 1 risco(s) em aberto
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render

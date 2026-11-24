@@ -5,8 +5,8 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Historia: A Guerra da Orelha de Jenkins
 - Epoca: 1739 | Lugar: mar do Caribe perto de Cuba (navio mercante ingles Rebecca abordado pela guarda costeira espanhola); depois Londres, Parlamento | Quando: abril de 1731 (a orelha), 1738 (Parlamento), outubro de 1739 (declaracao de guerra); de dia
 - HEROIS (objeto): kit/ear_jar
-- HEROIS (personagens): JEN, ING, PRE, SOL
-- Cenarios: harbor, interior madeira, interior pedra, loc_campo
+- HEROIS (personagens): JEN, PRE, ING, ESP
+- Cenarios: harbor, interior madeira, interior pedra, loc_campo, palace
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.8: pequeno demais); kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.7: pequeno demais)
 
@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Guerra da Orelha de Jenkins | A Guerra da Orelha de Jenkins / Uma Inglaterra Espanha Em Robert Jenkins Cuba Os Jenkins 1739 | SEM REFERENCIA
+tema | A Guerra da Orelha de Jenkins | A Guerra da Orelha de Jenkins / Uma Inglaterra Espanha Em Cuba Robert Jenkins Suspeitaram 1739 | SEM REFERENCIA
 lugar | mar do Caribe perto de Cuba (navio mercante ingles Rebecca abordado pela guarda | mar do Caribe perto de Cuba / mar do Caribe perto de Cuba navio mercante ingles Rebecca abordado pela guarda costeira es | SEM REFERENCIA
 lugar | Cuba | Cuba 1739 / Cuba landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1739 | 1739 fashion clothing / 18th century clothing painting | SEM REFERENCIA
@@ -29,7 +29,6 @@ objeto | espadas | espadas / espadas 1739 | SEM REFERENCIA
 objeto | canhoes de navio | canhoes de navio / canhoes de navio 1739 | SEM REFERENCIA
 heroi | ear jar | navios a vela / A Guerra da Orelha de Jenkins | SEM REFERENCIA
 epoca | navio da epoca | ship 1739 / ship | SEM REFERENCIA
-epoca | soldado da epoca | soldier uniform 1739 / soldier uniform | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - -

@@ -12,14 +12,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): briga, estados, fatia, melancia, panama
 - RISCOS: nenhum
 
-## Cena b1 - Em mil oitocentos e cinquenta e seis, viajantes cruzavam o Panamá de t...
+## Cena b1 - Em mil oitocentos e cinquenta e seis, viajantes cruzavam o Panamá a ca...
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): VIA (variante 0, expressao neutral); VIA (variante 1, expressao nervous) | multidao: 8 de VIA
 - Animacao: reagir
 - Objetos/modelos: vehicles/locomotive
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): california, caminho, gente, ouro, panama, trem, viagem
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): california, caminho, ouro, panama
 - RISCOS: nenhum
 
 ## Cena b2 - Um deles parou numa barraca, comeu uma fatia de melancia e foi embora ...
@@ -42,14 +42,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fatia, vendedor, viajante
 - RISCOS: nenhum
 
-## Cena b4 - Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo, n...
+## Cena b4 - Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo.
 - Cenario: street | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): VIA (variante 0, expressao angry); VEN (variante 0, expressao scared) | multidao: 0 de VIA
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (2): VIA (variante 0, expressao angry); VEN (variante 0, expressao scared)
 - Animacao: conversar | interacao: empurrar
 - Objetos/modelos: war/pistol
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): arma, confusao, frente, viajante
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): arma, confusao, viajante
 - RISCOS: nenhum
 
 ## Cena b5 - Em poucos minutos, a rua virou uma briga enorme entre moradores e viaj...
@@ -82,14 +82,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, quinze
 - RISCOS: nenhum
 
-## Cena b8 - Na época, o Panamá fazia parte da Colômbia, e foi a Colômbia que acabo...
+## Cena b8 - O Panamá era da Colômbia, e a Colômbia acabou pagando uma indenização ...
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): SOL (variante 0, expressao stern); SOL (variante 1, expressao angry) | multidao: 20 de SOL
 - Animacao: - | batalha encenada
 - Objetos/modelos: vehicles/locomotive
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): colombia, epoca, indenizacao, panama
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): colombia, indenizacao, panama
 - RISCOS: nenhum
 
 ## Cena b9 - Tudo isso por uma fatia de melancia que custava poucos centavos.
@@ -128,7 +128,7 @@ locomotive | b6 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/melon | grandes momentos: b5, b8 | planos abertos: 3 | mistura: close 10% | medio 68% | aberto 15% | detalhe 7%
+- Objeto heroi: kit/melon | grandes momentos: b5, b8 | planos abertos: 3 | mistura: close 11% | medio 70% | aberto 13% | detalhe 7%
 - Interacoes: b0 discutir, b2 empurrar, b3 discutir, b4 empurrar, b7 susto
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py melancia1856  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/melancia1856/moodboard.jpg

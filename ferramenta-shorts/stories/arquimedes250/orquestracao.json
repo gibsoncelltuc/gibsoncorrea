@@ -1,6 +1,6 @@
 {
  "id": "arquimedes250",
- "ano": null,
+ "ano": 2000,
  "cenarios_trocados": [],
  "metricas": {
   "acoes_encenadas": 100,
@@ -38,10 +38,10 @@
    "objetos": [
     "kit/bathtub"
    ],
-   "palavras": 22,
+   "palavras": 11,
    "cena": "b1",
-   "frase": "Conta a história que, em Siracusa, na Sicília, por volta de duzentos e cinquenta antes de Cristo, tudo começou com uma suspeita.",
-   "classe": "simples",
+   "frase": "Foi em Siracusa, na Sicília, há mais de dois mil anos.",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -74,9 +74,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 15,
+   "palavras": 8,
    "cena": "b3",
-   "frase": "Será que ele trocou parte do ouro por prata e guardou o resto para si?",
+   "frase": "Será que trocou parte do ouro por prata?",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -103,24 +103,6 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "close",
-   "personagens": [
-    "ARQ"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/bathtub"
-   ],
-   "palavras": 11,
-   "cena": "b5",
-   "frase": "Arquimedes pensou por dias e dias, e a resposta não vinha.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "harbor"
-  },
-  {
    "camera": "orbit",
    "personagens": [
     "ARQ",
@@ -131,7 +113,7 @@
     "kit/bathtub"
    ],
    "palavras": 14,
-   "cena": "b6",
+   "cena": "b5",
    "frase": "Acontece que, numa tarde, ele entrou na banheira, e a água transbordou pelas bordas.",
    "classe": "chave",
    "sujeito": "personagem",
@@ -154,7 +136,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 17,
-   "cena": "b7",
+   "cena": "b6",
    "frase": "Ele percebeu que o tanto de água que sai é igual ao tamanho do corpo que entra.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -173,7 +155,7 @@
     "kit/crown"
    ],
    "palavras": 15,
-   "cena": "b8",
+   "cena": "b7",
    "frase": "Assim dava para medir a coroa, e comparar com o mesmo peso de ouro puro.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -191,9 +173,9 @@
    "objetos": [
     "kit/crown"
    ],
-   "palavras": 19,
-   "cena": "b9",
-   "frase": "Conta a lenda que ele gritou Eureca e saiu correndo pela rua. E a coroa tinha mesmo prata misturada.",
+   "palavras": 15,
+   "cena": "b8",
+   "frase": "Conta a lenda que ele gritou Eureca pela rua. E a coroa tinha mesmo prata.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -217,7 +199,7 @@
     "kit/bathtub"
    ],
    "palavras": 11,
-   "cena": "b10",
+   "cena": "b9",
    "frase": "No fim, dá para enganar um rei, mas não uma banheira.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -233,7 +215,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b11",
+   "cena": "b10",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",

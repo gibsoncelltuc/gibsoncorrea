@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 15 - A Cola que Não Colava
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 13 cenas, 170 palavras (~59 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 12 cenas, 146 palavras (~50 s)
 
 ## Cena b0  (~5.5 s)
 - Narracao: Um químico inventou a cola mais fraca do mundo, e ela virou sucesso no planeta inteiro.
@@ -11,8 +11,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: 1968
 - Funcao na historia: GANCHO
 
-## Cena b1  (~4.5 s)
-- Narracao: Era mil novecentos e sessenta e oito, numa grande fábrica dos Estados Unidos.
+## Cena b1  (~4.1 s)
+- Narracao: Era mil novecentos e sessenta e oito, numa fábrica dos Estados Unidos.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -20,8 +20,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: - | mapa: ESTADOS UNIDOS
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b2  (~4.5 s)
-- Narracao: Spencer Silver tentava criar uma super cola, tão forte que nada conseguisse descolar.
+## Cena b2  (~2.4 s)
+- Narracao: Spencer Silver tentava criar uma super cola.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
 - Efeito + som nas palavras-chave: -
@@ -47,11 +47,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~5.5 s)
-- Narracao: Em mil novecentos e setenta e quatro, o colega Art Fry cantava no coral da igreja.
+## Cena b5  (~4.8 s)
+- Narracao: Em mil novecentos e setenta e quatro, Art Fry cantava no coral da igreja.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_canta (up) @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_canta (up) @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -74,43 +74,34 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~6.2 s)
-- Narracao: Os dois se juntaram, e o papel saiu amarelo por acaso: era o único de rascunho à mão.
+## Cena b8  (~4.5 s)
+- Narracao: O papel saiu amarelo por acaso: era o único de rascunho à mão.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: pega (lift) @3 -> acao + som de efeito; encena: sai @7 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: sai @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~2.1 s)
-- Narracao: O primeiro teste de vendas fracassou.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: encena: negocio (reach) @4 -> acao + som de efeito; encena: perde (facepalm) @5 -> acao + som de efeito
-- Efeito visual marcado: ring@40
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b10  (~4.5 s)
-- Narracao: Então distribuíram amostras de graça numa cidade, e quase todos quiseram comprar mais.
-- Som ambiente: silencio/sala
+## Cena b9  (~3.4 s)
+- Narracao: Então distribuíram amostras de graça, e quase todos quiseram comprar.
+- Som ambiente: birds
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) @1 -> acao + som de efeito; encena: negocio (reach) @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_entrega (reach) @1 -> acao + som de efeito; encena: negocio (reach) @9 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: POST-IT
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b11  (~5.9 s)
-- Narracao: Em mil novecentos e oitenta, o post-it chegou às lojas, graças a uma cola que deu errado.
+## Cena b10  (~5.5 s)
+- Narracao: Em mil novecentos e oitenta, o post-it chegou às lojas. Graças a uma cola que falhou.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: chegou -> dust + som de impacto; encena: chega (point) @7 -> acao + som de efeito; encena: x_entrega (reach) @15 -> acao + som de efeito
+- Efeito + som nas palavras-chave: chegou -> dust + som de impacto; encena: chega (point) @7 -> acao + som de efeito; encena: perde (facepalm) @15 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1980
 - Funcao na historia: desenvolvimento
 
-## Cena b12  (~4.5 s)
+## Cena b11  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -

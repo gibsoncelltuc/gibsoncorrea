@@ -22,10 +22,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): costa, ingleses, ouro, povo
 - RISCOS: nenhum
 
-## Cena b2 - Os ashanti tinham um banquinho dourado sagrado, que representava a alm...
+## Cena b2 - Os ashanti tinham um banquinho dourado sagrado, a alma do povo. Nem o ...
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): CHE (variante 0, expressao stern); ASH (variante 0, expressao smile)
 - Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/golden_stool
@@ -52,7 +52,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alma, lideres
 - RISCOS: nenhum
 
-## Cena b5 - Eles se revoltaram, cercaram o forte onde ele estava, e o governador t...
+## Cena b5 - Eles se revoltaram e cercaram o forte onde o governador estava.
 - Cenario: jungle | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
@@ -72,14 +72,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): governador
 - RISCOS: nenhum
 
-## Cena b7 - No fim, os ingleses venceram a guerra e assumiram o controle da região...
+## Cena b7 - No fim, os ingleses venceram e a região virou colônia.
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): GOV (variante 0, expressao relief); PRE (variante 0, expressao smug, segura paper)
-- Animacao: conversar | interacao: entregar
+- Animacao: comemorar | interacao: entregar
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): controle, ingleses, regiao
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ingleses, regiao
 - RISCOS: nenhum
 
 ## Cena b8 - Mas os ashanti esconderam o banquinho, e os ingleses nunca conseguiram...
