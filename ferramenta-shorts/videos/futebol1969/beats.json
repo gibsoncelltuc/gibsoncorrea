@@ -260,17 +260,7 @@
     "SAL:1:grin",
     "HON:0:sad"
    ],
-   "props": [
-    [
-     "kit/ball",
-     0.0,
-     0.6,
-     0.8,
-     {
-      "fixo": true
-     }
-    ]
-   ],
+   "props": [],
    "acao": "comemorar",
    "say": "O jogo foi na Cidade do México, e El Salvador venceu por três a dois, na prorrogação.",
    "hora": "dia",
@@ -281,7 +271,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "_auto_vis": 3,
-   "detalhe": true
+   "detalhe": false
   },
   {
    "shot": "crowd",
