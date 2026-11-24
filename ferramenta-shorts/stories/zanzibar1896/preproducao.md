@@ -12,7 +12,7 @@ b4 | loc_campo | group | 20 | conversar, INTERAGEM: insiste | kit/marco_zanzibar
 b5 | harbor | crowd | 22 | reagir, batalha | kit/marco_zanzibar, navios de guerra ao fundo, no tamanho real | - | -
 b6 | harbor | crowd | 12 | reagir | kit/marco_zanzibar, cannon, war/flagpole, kit/fire | - | -
 b7 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | - | - | -
-b8 | interior madeira | group | 2 | conversar, INTERAGEM: vai ate o outro | - | flag | -
+b8 | interior madeira | group | 2 | conversar, INTERAGEM: vai ate o outro | war/flagpole | flag | -
 b9 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | kit/throne | - | -
 b10 | interior loja | close | 1 | conversar | - | - | -
 b11 | harbor | close | 1 | conversar | - | - | -

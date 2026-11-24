@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 08 - A Guerra de 38 Minutos
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 12 cenas, 151 palavras (~52 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 12 cenas, 153 palavras (~53 s)
 
 ## Cena b0  (~5.2 s)
 - Narracao: Uma guerra durou menos de uma hora, e é considerada a mais curta da história.
@@ -74,11 +74,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 1
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~3.1 s)
-- Narracao: O bombardeio terminou por volta das nove e quarenta.
+## Cena b8  (~3.8 s)
+- Narracao: Por volta das nove e quarenta, a bandeira do palácio caiu.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: caiu -> dust + som de impacto
 - Efeito visual marcado: dust@40
 - Texto na tela: 9:40
 - Funcao na historia: desenvolvimento

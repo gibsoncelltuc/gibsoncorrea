@@ -59,7 +59,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: SUL na esquerda, expressao shock; ALM na direita, expressao smile; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b8: "O bombardeio terminou por volta das nove e quarenta."
+## b8: "Por volta das nove e quarenta, a bandeira do palácio caiu."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: GUA na esquerda, expressao pained, segura flag; ING2 na direita, expressao stern; sem multidao; acao: fala/gesto

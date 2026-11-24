@@ -3,7 +3,7 @@
  "ano": 1896,
  "cenarios_trocados": [],
  "metricas": {
-  "acoes_encenadas": 92,
+  "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
   "explicacoes_cobertas": 100,
   "cenario_e_epoca_ok": 100
@@ -188,16 +188,16 @@
     "ING2"
    ],
    "multidao": 0,
-   "objetos": [],
-   "palavras": 9,
+   "objetos": [
+    "war/flagpole"
+   ],
+   "palavras": 11,
    "cena": "b8",
-   "frase": "O bombardeio terminou por volta das nove e quarenta.",
+   "frase": "Por volta das nove e quarenta, a bandeira do palácio caiu.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
-   "acoes_faltando": [
-    "bombardeio"
-   ],
+   "acoes_faltando": [],
    "cenario": "interior madeira"
   },
   {

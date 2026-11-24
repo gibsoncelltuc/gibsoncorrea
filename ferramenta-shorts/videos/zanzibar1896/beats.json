@@ -247,10 +247,13 @@
     "thump@40"
    ],
    "text": "9:40",
-   "say": "O bombardeio terminou por volta das nove e quarenta.",
+   "say": "Por volta das nove e quarenta, a bandeira do palácio caiu.",
    "batalha": false,
    "tiros": false,
-   "interior": "madeira"
+   "interior": "madeira",
+   "verbos_ok": [
+    "caiu"
+   ]
   },
   {
    "shot": "two",

@@ -10,10 +10,10 @@ b4 | group | -  | tropa, placa: 2.800 | encena: chega (point) @2 (acao + som de 
 b5 | crowd | -  | batalha aberta com tiros, tropa, placa: 9:02 | tiros: 5 soldados caem no chao (acao + som de efeito); fogo (burst + som de tiro/explosao); encena: x_abre (push) @9 (acao + som de efeito) | -
 b6 | crowd | -  | tropa | fogo (burst + som de tiro/explosao); caiu (dust + som de impacto); encena: pega (lift) @2 (acao + som de efeito); encena: atira @5 (acao + som de efeito) | -
 b7 | two | -  | interior | encena: fala (point) @3 (acao + som de efeito) | -
-b8 | group | -  | interior, placa: 9:40, objeto na mao | - | -
+b8 | group | -  | interior, placa: 9:40, objeto na mao | caiu (dust + som de impacto) | -
 b9 | two | -  | tropa, interior, placa: OUTRO SULTÃO | pagaram (stars + som de sino); encena: pega (lift) @2 (acao + som de efeito); encena: negocio (reach) @12 (acao + som de efeito); encena: atira @14 (acao + som de efeito) | -
 b10 | close | -  | interior | encena: fala (point) @2 (acao + som de efeito); encena: atira @6 (acao + som de efeito) | -
 b11 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 16% | medio 59% | aberto 22% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 16% | medio 60% | aberto 21% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | dentro do padrao do canal
