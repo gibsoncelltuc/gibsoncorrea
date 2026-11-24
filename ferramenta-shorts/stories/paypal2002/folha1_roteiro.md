@@ -17,16 +17,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: comprou -> stars + som de sino; encena: negocio (reach) @5 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: eBay
 - Funcao na historia: desenvolvimento
 
 ## Cena b2  (~5.2 s)
-- Narracao: O PayPal deixava as pessoas mandarem dinheiro só com um e-mail, sem precisar de banco.
+- Narracao: O PayPal deixava qualquer um mandar dinheiro só com um e-mail, sem precisar de banco.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino; encena: paga (reach) @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino; encena: fala (point) @5 -> acao + som de efeito; encena: paga (reach) @6 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: E-MAIL = DINHEIRO
 - Funcao na historia: desenvolvimento
 
 ## Cena b3  (~6.6 s)
@@ -58,21 +58,21 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 
 ## Cena b6  (~4.8 s)
 - Narracao: Acontece que, no mesmo ano, ele tinha fundado a SpaceX, uma empresa de foguetes.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: ding@3
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: stars@3
-- Texto na tela: SPACEX
-- Funcao na historia: GRANDE MOMENTO
-
-## Cena b7  (~5.9 s)
-- Narracao: Dois anos depois, ele investiu na Tesla, uma fábrica de carros elétricos, e virou presidente do conselho.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@3
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@3
+- Texto na tela: SPACEX
+- Funcao na historia: VIRADA
+
+## Cena b7  (~5.9 s)
+- Narracao: Dois anos depois, ele investiu na Tesla, uma fábrica de carros elétricos, e virou presidente do conselho.
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: ding@3
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: stars@3
 - Texto na tela: TESLA
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b8  (~4.5 s)
 - Narracao: O dinheiro de uma venda na internet ajudou a bancar foguetes e carros.

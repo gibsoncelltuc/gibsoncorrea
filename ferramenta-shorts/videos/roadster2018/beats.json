@@ -50,32 +50,23 @@
  },
  "beats": [
   {
-   "say": "Em fevereiro de dois mil e dezoito, um Tesla de verdade foi lançado para o espaço.",
+   "say": "Um carro de verdade está dando voltas ao redor do Sol até hoje.",
    "shot": "wide",
    "who": [
     "MUS:0:grin"
    ],
    "props": [
     [
-     "kit/rocket",
-     7.0,
-     -14.0,
-     1.2,
-     {
-      "fixo": true
-     }
-    ],
-    [
      "kit/roadster",
      0.0,
-     -8.0,
+     -6.0,
      2.67,
      {
       "fixo": true
      }
     ]
    ],
-   "set": "harbor",
+   "set": "arctic",
    "objetos": false,
    "fachada": false,
    "crowd": {
@@ -104,10 +95,11 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "hora": "espaco"
   },
   {
-   "say": "Era um Roadster vermelho, e quem teve a ideia foi Elon Musk, o dono da SpaceX.",
+   "say": "É um Tesla Roadster vermelho, lançado em fevereiro de dois mil e dezoito pela SpaceX, de Elon Musk.",
    "shot": "wide",
    "who": [
     "MUS:0:smug"
@@ -124,7 +116,7 @@
     ]
    ],
    "detalhe": false,
-   "set": "harbor",
+   "set": "loc_pista",
    "objetos": false,
    "fachada": false,
    "crowd": {
@@ -149,7 +141,7 @@
    "d1": 10.0
   },
   {
-   "say": "O voo de estreia do Falcon Heavy, o maior foguete da empresa, aconteceu em seis de fevereiro, em Cabo Canaveral, nos Estados Unidos.",
+   "say": "Era o voo de estreia do Falcon Heavy, o maior foguete da empresa, em Cabo Canaveral, nos Estados Unidos.",
    "shot": "wide",
    "who": [
     "MUS:0:smile"
@@ -170,7 +162,7 @@
    "crowd": {
     "n": 0
    },
-   "set": "harbor",
+   "set": "loc_pista",
    "objetos": false,
    "fachada": false,
    "detalhe": false,
@@ -193,7 +185,7 @@
    "d1": 21.3
   },
   {
-   "say": "Como era só um teste, em vez de colocar peso de concreto, Musk resolveu mandar o Roadster.",
+   "say": "Acontece que era só um teste, e em vez de um peso de concreto, Musk resolveu mandar o próprio carro.",
    "shot": "wide",
    "who": [
     "ENG:0:suspicious"
@@ -263,12 +255,12 @@
     "sting@50"
    ],
    "impact": true,
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "crowd": {
     "n": 0
    },
-   "set": "harbor",
+   "set": "loc_pista",
    "objetos": false,
    "fachada": false,
    "detalhe": false,
@@ -292,7 +284,7 @@
   },
   {
    "say": "No banco do motorista foi sentado um boneco de astronauta, chamado Starman.",
-   "shot": "wide",
+   "shot": "two",
    "who": [
     "STA:0:smile"
    ],
@@ -300,14 +292,14 @@
     [
      "kit/roadster",
      0.0,
-     -8.0,
+     -2.5,
      2.67,
      {
       "fixo": true
      }
     ]
    ],
-   "detalhe": false,
+   "detalhe": true,
    "veiculo": false,
    "objetos": false,
    "fachada": false,
@@ -326,16 +318,11 @@
       "estado": "parado"
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0
+   }
   },
   {
    "say": "No painel, estava escrito: Não entre em pânico.",
-   "shot": "wide",
+   "shot": "two",
    "who": [
     "STA:0:neutral"
    ],
@@ -352,7 +339,7 @@
     ]
    ],
    "detalhe": false,
-   "set": "countryside",
+   "set": "arctic",
    "objetos": false,
    "fachada": false,
    "crowd": {
@@ -374,15 +361,14 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "hora": "espaco"
   },
   {
-   "say": "O Roadster saiu da órbita da Terra, e seguiu em órbita ao redor do Sol.",
+   "say": "O Roadster saiu da órbita da Terra e seguiu em órbita ao redor do Sol, no espaço.",
    "shot": "wide",
-   "who": [
-    "ENG:0:surprised"
-   ],
-   "hora": "noite",
+   "who": [],
+   "hora": "espaco",
    "props": [
     [
      "kit/roadster",
@@ -437,7 +423,23 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "explica": {
+    "objeto": "kit/roadster",
+    "manobra": "gira",
+    "rotulos": [
+     [
+      "FORA DA TERRA",
+      "topo",
+      "saiu"
+     ],
+     [
+      "ÓRBITA DO SOL",
+      "meio",
+      "Sol"
+     ]
+    ]
+   }
   },
   {
    "say": "E ele continua lá em cima, dando voltas, até hoje.",
@@ -445,7 +447,7 @@
    "who": [
     "MUS:0:smile"
    ],
-   "hora": "noite",
+   "hora": "espaco",
    "props": [
     [
      "kit/roadster",
@@ -489,12 +491,11 @@
    "d1": 10.0
   },
   {
-   "say": "Um Roadster, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço.",
+   "say": "Um carro, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço.",
    "shot": "wide",
    "who": [
     "MUS:0:laugh"
    ],
-   "hora": "noite",
    "props": [
     [
      "kit/rocket",
@@ -521,7 +522,7 @@
    "sfx": [
     "ding@20"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "acao": "comemorar",
    "crowd": {
@@ -529,7 +530,7 @@
    },
    "text": "STARMAN",
    "titulo": true,
-   "set": "arctic",
+   "set": "loc_pista",
    "fachada": false,
    "detalhe": false,
    "quadro": {
@@ -583,6 +584,9 @@
    "https://en.wikipedia.org/wiki/Elon_Musk%27s_Tesla_Roadster",
    "https://en.wikipedia.org/wiki/Falcon_Heavy_test_flight",
    "https://www.spacex.com/vehicles/falcon-heavy/"
+  ],
+  "explicacoes": [
+   "O Roadster foi lancado alem da orbita da Terra e ficou em orbita heliocentrica (ao redor do Sol), cruzando a orbita de Marte (fonte: Wikipedia Elon Musk's Tesla Roadster)"
   ]
  },
  "max_wide": 10

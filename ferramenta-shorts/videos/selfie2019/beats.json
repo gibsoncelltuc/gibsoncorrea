@@ -69,7 +69,8 @@
     "expr": "neutral"
    },
    "say": "Um presidente parou o discurso na ONU para tirar uma selfie com a plateia atrás.",
-   "fachada": false
+   "fachada": false,
+   "set": "hall"
   },
   {
    "shot": "two",
@@ -82,8 +83,15 @@
    "acao": "conversar",
    "text": "ONU - NOVA YORK",
    "say": "Foi na Assembleia Geral da ONU, em Nova York, em setembro de dois mil e dezenove.",
-   "interior": "madeira",
-   "fachada": true
+   "fachada": true,
+   "set": "hall",
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "POV"
+    ],
+    "march": false
+   }
   },
   {
    "shot": "two",
@@ -142,7 +150,6 @@
    ],
    "objetos": false,
    "say": "Acontece que, no púlpito, ele pediu licença por um momento e tirou o celular do bolso.",
-   "interior": "madeira",
    "fachada": false,
    "quadro": {
     "local": "sala de madeira",
@@ -160,7 +167,8 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "set": "hall"
   },
   {
    "shot": "crowd",
@@ -171,8 +179,8 @@
    "props": [
     [
      "mk/BookStand",
-     0.6,
-     1.0,
+     0,
+     -1.5,
      2.0
     ]
    ],
@@ -196,7 +204,7 @@
    "say": "Virou de costas para o plenário e tirou a selfie com todos atrás.",
    "fachada": false,
    "tiros": false,
-   "_auto_vis": 2
+   "set": "hall"
   },
   {
    "shot": "two",
@@ -207,8 +215,21 @@
    "acao": "conversar",
    "objetos": false,
    "say": "Depois explicou: o mundo novo está onde essa foto vai parar, na internet.",
-   "interior": "pedra",
-   "fachada": false
+   "fachada": false,
+   "props": [
+    [
+     "kit/phone",
+     0.0,
+     -0.8,
+     0.9,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "_susp_tela": true,
+   "_susp_ok": true,
+   "set": "hall"
   },
   {
    "shot": "two",
@@ -218,7 +239,6 @@
    ],
    "objetos": false,
    "say": "E avisou que a ONU pode desaparecer como a Kodak e os dinossauros.",
-   "interior": "madeira",
    "fachada": false,
    "text": "KODAK?",
    "batalha": false,
@@ -226,7 +246,8 @@
     "n": 0
    },
    "impact": false,
-   "tiros": false
+   "tiros": false,
+   "set": "hall"
   },
   {
    "shot": "two",
@@ -277,9 +298,9 @@
    "props": [
     [
      "kit/phone",
-     0.6,
-     1.0,
-     1.5,
+     2.4,
+     0.2,
+     1.2,
      {
       "y": 1.3,
       "fixo": true
@@ -306,8 +327,7 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_auto_vis": 2
+   "d1": 8.0
   }
  ],
  "fontes": [

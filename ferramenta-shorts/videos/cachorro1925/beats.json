@@ -120,8 +120,10 @@
    "say": "Do outro lado, soldados búlgaros atiraram, e o soldado tombou morto. A Bulgária pediu desculpas e propôs investigar juntos.",
    "props": [],
    "crowd": {
-    "n": 0,
-    "outfits": [],
+    "n": 12,
+    "outfits": [
+     "BUL"
+    ],
     "march": false
    },
    "shot_lock": true,
@@ -180,14 +182,21 @@
   },
   {
    "shot": "two",
-   "interior": "pedra",
    "who": [
     "PRE:0:stern:paper",
     "DIP:0:relief"
    ],
    "interacao": "entregar",
    "say": "A Liga mandou parar a guerra de dez dias, e a Grécia retirou as tropas e pagou quarenta e cinco mil libras.",
-   "props": []
+   "props": [],
+   "set": "mountain",
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "GRE"
+    ],
+    "march": true
+   }
   },
   {
    "shot": "close",

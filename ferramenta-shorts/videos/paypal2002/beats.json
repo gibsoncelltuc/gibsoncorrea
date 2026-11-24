@@ -78,6 +78,9 @@
      }
     ]
    },
+   "_susp_tela": true,
+   "_susp_ok": true,
+   "tela": false,
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -92,7 +95,35 @@
    "acao": "conversar",
    "say": "Era o PayPal, e quem comprou foi o eBay, o site de leilões mais famoso da época.",
    "fachada": false,
-   "interior": "madeira"
+   "interior": "madeira",
+   "props": [
+    [
+     "kit/tv",
+     0.0,
+     -1.2,
+     1.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "eBay",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/tv",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -100,12 +131,40 @@
     "POV:0:smile",
     "POV:1:grin"
    ],
-   "say": "O PayPal deixava as pessoas mandarem dinheiro só com um e-mail, sem precisar de banco.",
+   "say": "O PayPal deixava qualquer um mandar dinheiro só com um e-mail, sem precisar de banco.",
    "fachada": false,
-   "interior": "loja"
+   "props": [
+    [
+     "kit/phone",
+     0.0,
+     -1.2,
+     0.9,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "E-MAIL = DINHEIRO",
+   "interior": "madeira",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
-   "shot": "reveal",
+   "shot": "two",
    "who": [
     "EBY:0:shock",
     "MUS:0:smile"
@@ -114,7 +173,8 @@
    "mapa_at": 6,
    "say": "O anúncio saiu em julho de dois mil e dois, nos Estados Unidos, e a compra terminou em outubro.",
    "fachada": false,
-   "set": "street"
+   "set": "street",
+   "acao": "conversar"
   },
   {
    "shot": "two",
@@ -271,7 +331,7 @@
     [
      "kit/coin",
      0.0,
-     1.0,
+     -1.2,
      0.92,
      {
       "fixo": true
@@ -288,9 +348,18 @@
     ],
     [
      "kit/falcon9_land",
-     0.6,
-     -22.0,
+     -7.0,
+     -14.0,
      1.5,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/tv",
+     3.6,
+     -2.0,
+     0.9,
      {
       "fixo": true
      }
@@ -301,12 +370,12 @@
    "set": "street",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e coin juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/coin",
-      "lugar": "FRENTE, centro (objeto principal da cena)",
-      "tela": "15% da altura da tela",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      },
      {
@@ -320,20 +389,64 @@
       "lugar": "FUNDO, esquerda",
       "tela": "18% da altura da tela",
       "estado": "parado"
+     },
+     {
+      "objeto": "kit/tv",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    },
    "objetos": false,
-   "_auto_vis": 3
+   "_susp_tela": true,
+   "_susp_ok": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "MUS:0:smug"
    ],
    "say": "Quem diria: um pagamento online chegou ao espaço.",
    "fachada": false,
-   "set": "loc_campo"
+   "set": "loc_pista",
+   "props": [
+    [
+     "kit/falcon_air",
+     0.0,
+     -10.1,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "tela": false,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.8,
+   "d0": 21.0,
+   "d1": 20.0,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "local": "loc_pista",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon_air (alvo z -2.0, camera a 20.0 m, altura 2.8 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/falcon_air",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   }
  ],
  "fontes": [

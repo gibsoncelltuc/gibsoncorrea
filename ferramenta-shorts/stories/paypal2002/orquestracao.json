@@ -57,7 +57,9 @@
     "EBY"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/tv"
+   ],
    "palavras": 17,
    "cena": "b1",
    "frase": "Era o PayPal, e quem comprou foi o eBay, o site de leilões mais famoso da época.",
@@ -68,29 +70,31 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "POV",
     "POV"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/phone"
+   ],
    "palavras": 15,
    "cena": "b2",
-   "frase": "O PayPal deixava as pessoas mandarem dinheiro só com um e-mail, sem precisar de banco.",
+   "frase": "O PayPal deixava qualquer um mandar dinheiro só com um e-mail, sem precisar de banco.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior loja"
+   "cenario": "interior madeira"
   },
   {
-   "camera": "reveal",
+   "camera": "two",
    "personagens": [
     "EBY",
     "MUS"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [],
    "palavras": 19,
    "cena": "b3",
@@ -138,7 +142,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "orbit",
+   "camera": "wide",
    "personagens": [
     "MUS"
    ],
@@ -149,6 +153,24 @@
    "palavras": 14,
    "cena": "b6",
    "frase": "Acontece que, no mesmo ano, ele tinha fundado a SpaceX, uma empresa de foguetes.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/roadster"
+   ],
+   "palavras": 17,
+   "cena": "b7",
+   "frase": "Dois anos depois, ele investiu na Tesla, uma fábrica de carros elétricos, e virou presidente do conselho.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -162,24 +184,6 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "wide",
-   "personagens": [
-    "MUS"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/roadster"
-   ],
-   "palavras": 17,
-   "cena": "b7",
-   "frase": "Dois anos depois, ele investiu na Tesla, uma fábrica de carros elétricos, e virou presidente do conselho.",
-   "classe": "transicao",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_pista"
-  },
-  {
    "camera": "two",
    "personagens": [
     "MUS",
@@ -189,7 +193,8 @@
    "objetos": [
     "kit/coin",
     "kit/falcon9_land",
-    "kit/roadster"
+    "kit/roadster",
+    "kit/tv"
    ],
    "palavras": 13,
    "cena": "b8",
@@ -201,12 +206,14 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "MUS"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/falcon_air"
+   ],
    "palavras": 8,
    "cena": "b9",
    "frase": "Quem diria: um pagamento online chegou ao espaço.",
@@ -214,7 +221,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "loc_pista"
   },
   {
    "camera": "close",
@@ -230,7 +237,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "loc_pista"
   }
  ]
 }

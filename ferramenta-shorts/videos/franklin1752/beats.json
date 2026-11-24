@@ -111,7 +111,7 @@
    "acao": "conversar"
   },
   {
-   "say": "Franklin discordava, e disse: \"O raio é só eletricidade em tamanho gigante.\"",
+   "say": "Franklin discordava: para ele, o raio era só uma faísca elétrica gigante.",
    "shot": "two",
    "interior": "madeira",
    "who": [
@@ -166,7 +166,7 @@
   },
   {
    "say": "Acontece que, quando a nuvem passou, a linha eriçou, e uma faísca pulou da chave até a mão dele.",
-   "shot": "orbit",
+   "shot": "two",
    "who": [
     "FRA:0:shock",
     "FIL:0:scared"
@@ -175,13 +175,7 @@
    "impact": true,
    "tiros": false,
    "crowd": {
-    "n": 8,
-    "outfits": [
-     "COM",
-     "POV"
-    ],
-    "march": false,
-    "expr": "shock"
+    "n": 0
    },
    "fx": [
     "ring@36",
@@ -238,7 +232,7 @@
    "d1": 11.5
   },
   {
-   "say": "Hoje se discute se isso aconteceu mesmo, e a sorte foi o raio não ter caído na pipa.",
+   "say": "Hoje se discute se isso aconteceu mesmo. E se um raio tivesse caído na pipa, ele não teria sobrevivido.",
    "shot": "two",
    "interior": "madeira",
    "who": [
@@ -246,16 +240,6 @@
     "FRA:0:relief"
    ],
    "interacao": "cochichar"
-  },
-  {
-   "say": "Se tivesse caído, ele não estaria aqui para contar, e outros cientistas morreram tentando repetir.",
-   "shot": "two",
-   "interior": "madeira",
-   "who": [
-    "FIL:0:sad",
-    "FRA:0:stern"
-   ],
-   "acao": "conversar"
   },
   {
    "say": "Franklin então inventou o para-raios, e hoje ele protege casas e prédios no mundo inteiro.",
@@ -333,5 +317,38 @@
     "FRA:0:smug"
    ]
   }
- ]
+ ],
+ "visual": {
+  "local": "Filadelfia, colonia da Pensilvania: campo aberto perto de um galpao, ruas de tijolo",
+  "quando": "junho de 1752, tarde de tempestade",
+  "participantes": [
+   "Benjamin Franklin (casaca marrom, colete, culotes, cabelo grisalho comprido)",
+   "filho William",
+   "moradores coloniais"
+  ],
+  "roupas": {
+   "FRA": "casaca marrom do seculo 18, colete e meias",
+   "FIL": "casaca azul de rapaz",
+   "COM": "chapeu de tres pontas",
+   "POV": "roupas coloniais"
+  },
+  "cenario": "campo com nuvens escuras e chuva, galpao de madeira; rua colonial de tijolo com casas georgianas",
+  "objetos": [
+   "pipa de seda",
+   "chave de metal",
+   "garrafa de Leyden",
+   "para-raios"
+  ],
+  "explicacoes": [
+   "Experimento da pipa (1752): a chave na linha molhada soltou faiscas, mostrando que a nuvem tinha carga eletrica; Franklin inventou o para-raios (fonte: Wikipedia Kite experiment, Lightning rod)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Kite_experiment",
+   "https://commons.wikimedia.org/wiki/Category:Benjamin_Franklin"
+  ],
+  "buscas": {
+   "pipa": "Benjamin West Franklin drawing electricity from the sky",
+   "cidade": "colonial Philadelphia 1750 street"
+  }
+ }
 }

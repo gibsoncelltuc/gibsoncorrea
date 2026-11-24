@@ -280,7 +280,7 @@
    "d1": 18.4
   },
   {
-   "say": "Eratóstenes pensou: \"Se a Terra fosse plana, as duas sombras seriam iguais.\"",
+   "say": "Ele pensou: se a Terra fosse plana, as duas sombras seriam iguais.",
    "shot": "two",
    "who": [
     "ERA:0:suspicious"
@@ -336,14 +336,7 @@
    "impact": true,
    "tiros": false,
    "crowd": {
-    "n": 10,
-    "outfits": [
-     "BIB",
-     "POV",
-     "CAM"
-    ],
-    "march": false,
-    "expr": "shock"
+    "n": 0
    },
    "props": [
     [
@@ -468,76 +461,6 @@
    "interacao": "cochichar"
   },
   {
-   "say": "E tudo isso aconteceu mais de dois mil anos atrás, sem satélite e sem computador.",
-   "shot": "crowd",
-   "who": [
-    "ERA:0:laugh",
-    "BIB:0:laugh"
-   ],
-   "impact": true,
-   "tiros": false,
-   "crowd": {
-    "n": 14,
-    "outfits": [
-     "BIB",
-     "POV",
-     "CAM"
-    ],
-    "march": false,
-    "expr": "laugh"
-   },
-   "props": [
-    [
-     "kit/globe",
-     0.0,
-     -1.2,
-     1.6,
-     {
-      "fixo": true
-     }
-    ],
-    [
-     "nature/tree_palm",
-     -3.2,
-     -6.0,
-     1.5
-    ],
-    [
-     "nature/tree_palm",
-     3.4,
-     -7.5,
-     1.6
-    ]
-   ],
-   "text": "40.000 KM",
-   "fx": [
-    "stars@30",
-    "burst@70"
-   ],
-   "sfx": [
-    "ding@30",
-    "sting@70"
-   ],
-   "acao": "comemorar",
-   "fachada": false,
-   "quadro": {
-    "local": "praia / palacio",
-    "camera": "plano de multidao; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/globe",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
-  },
-  {
    "say": "No fim, uma vara e um poço fizeram o trabalho de um satélite.",
    "shot": "two",
    "who": [
@@ -605,5 +528,37 @@
  "exp": 0.9,
  "regiao": "classico",
  "marco": "kit/marco_alexandria",
- "max_wide": 3
+ "max_wide": 3,
+ "visual": {
+  "local": "Alexandria (Egito): Biblioteca e patio com obelisco; Siena (Assua): poco no deserto a beira do Nilo",
+  "quando": "cerca de 240 a.C., meio-dia do solsticio de verao, sol forte",
+  "participantes": [
+   "Eratostenes (tunica grega branca e manto, barba)",
+   "bibliotecario assistente",
+   "camelos e caravana para medir a distancia"
+  ],
+  "roupas": {
+   "ERA": "tunica (quiton) branca com manto azul, sandalias",
+   "BIB": "tunica clara",
+   "CAM": "tunica e turbante de caravaneiro"
+  },
+  "cenario": "cidade helenistica com colunas, palmeiras, areia; poco de pedra; vara fincada no chao com sombra",
+  "objetos": [
+   "vara (gnomon)",
+   "poco de pedra",
+   "rolos de papiro",
+   "globo"
+  ],
+  "explicacoes": [
+   "Eratostenes comparou a sombra ao meio-dia em Alexandria (cerca de 7,2 graus) com Siena (sem sombra) e a distancia entre as cidades (5000 estadios) para calcular a circunferencia da Terra, cerca de 250 mil estadios (fonte: Wikipedia Eratosthenes)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Eratosthenes",
+   "https://en.wikipedia.org/wiki/Library_of_Alexandria"
+  ],
+  "buscas": {
+   "vara": "Eratosthenes gnomon shadow experiment",
+   "cidade": "ancient Alexandria library illustration"
+  }
+ }
 }
