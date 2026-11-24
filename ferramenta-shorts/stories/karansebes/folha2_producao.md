@@ -142,11 +142,9 @@ crate | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote
 ## Video inteiro
 - Objeto heroi: kit/barrel_r | grandes momentos: b0, b6, b7 | planos abertos: 4 | mistura: close 11% | medio 65% | aberto 21% | detalhe 3%
 - Interacoes: b3 aproxima-se, b4 brindar, b5 entregar, b8 susto, b9 avanca e o outro recua, b10 pular
-- RISCOS GERAIS: 
-  - video com ~70 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: video com ~70 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh karansebes bN bM` (so essas cenas).

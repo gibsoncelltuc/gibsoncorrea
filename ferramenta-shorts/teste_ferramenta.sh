@@ -88,6 +88,7 @@ grep -q 'voando' stories/$G/plano.md && f "v13: soldado voando em guerra sem tir
 # ---- filas: nenhum roteiro em duas filas (duas sessoes fazendo o mesmo video), nem roteiro sem arquivo ----
 D=$(cat fila_principal.txt fila_sessao_A.txt fila_sessao_B.txt | grep -v '^#' | awk 'NF{print $1}' | sort | uniq -d | tr '\n' ' '); [ -z "$D" ] || f "roteiro em mais de uma fila (video duplicado): $D"
 for i in $(cat fila_principal.txt fila_sessao_A.txt fila_sessao_B.txt | grep -v '^#' | awk 'NF{print $1}'); do [ -f videos/$i/beats.json ] || f "fila aponta para roteiro que nao existe: $i"; done
+grep -qF 'kit/prison$|presidio' mkvideo.py || f "prisao/muralha grande sem tamanho real"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }

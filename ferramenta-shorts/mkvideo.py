@@ -108,7 +108,7 @@ _TAM_REAL = ((r'balao_festa|party_balloon|bexiga', 0.4, 'H', 'max'), (r'cybertru
              (r'truck|caminh', 7.5, 'L', 'min'), (r'onibus|\bbus', 11.0, 'L', 'min'), (r'tank|tanque(?!_ar)|blindado', 7.0, 'L', 'min'), (r'motorcycle|moto\b', 2.2, 'L', 'min'), (r'bicycle|bicicleta', 1.8, 'L', 'min'),
              (r'wagon|carroca|charrete|diligencia', 3.6, 'L', 'min'), (r'helicopter|helicoptero', 12.0, 'L', 'min'), (r'b2_|aviao|plane|biplano', 12.0, 'L', 'min'), (r'balloon|balao', 14.0, 'H', 'min'),
              (r'canhao_moderno', 4.5, 'L', 'min'), (r'^cannon$|canhao', 2.8, 'L', 'min'), (r'locomotiva|\btrem\b|train', 14.0, 'L', 'min'), (r'trator|tractor', 4.0, 'L', 'min'), (r'barco|boat|canoa', 5.0, 'L', 'min'), (r'piano', 1.6, 'L', 'min'),
-             (r'navio|^ship$|caravela|fragata', 30.0, 'L', 'min'), (r'throne|trono', 1.9, 'H', 'min'), (r'guilhotina', 4.0, 'H', 'min'), (r'telescopio', 2.2, 'H', 'min'))
+             (r'navio|^ship$|caravela|fragata', 30.0, 'L', 'min'), (r'throne|trono', 1.9, 'H', 'min'), (r'guilhotina', 4.0, 'H', 'min'), (r'telescopio', 2.2, 'H', 'min'), (r'kit/prison$|presidio|muralha_grande|fortaleza', 11.0, 'H', 'min'))   # CECOT: muralhas de ~11 m (prisao gigante nao pode parecer um murinho)
 def _tam_real(as_, s_atual, z_=0.0):   # devolve (escala corrigida, texto para a folha 2) ou (s_atual, None)
     nm_ = str(as_)
     if nm_.endswith('_air') and not re.search(r'roadster', nm_): return s_atual, None   # versoes "no ar" de foguete/balao sao fundo de cena, o roteiro escolhe
