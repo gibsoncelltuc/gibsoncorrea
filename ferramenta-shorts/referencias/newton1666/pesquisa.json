@@ -12,6 +12,43 @@
   },
   {
    "tipo": "lugar",
+   "item": "Woolsthorpe Manor, Lincolnshire, Inglaterra: casa de pedra da fazenda e pomar co",
+   "consultas": [
+    "Woolsthorpe Manor Lincolnshire Inglaterra",
+    "Woolsthorpe Manor Lincolnshire Inglaterra 1666"
+   ],
+   "achados": [
+    {
+     "titulo": "Woolsthorpe Manor - west facade.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Woolsthorpe_Manor_-_west_facade.jpg/500px-Woolsthorpe_Manor_-_west_facade.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AWoolsthorpe_Manor_-_west_facade.jpg",
+     "descricao": "Creative Commons Attribution-Share Alike 4.0 truetrue English French \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/newton1666/prints/woolsthorpe_manor_lincolnshire_inglaterr_dcb4a0.jpg",
+     "consulta": "Woolsthorpe Manor Lincolnshire Inglaterra"
+    },
+    {
+     "titulo": "Woolsthorpe Manor.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Woolsthorpe_Manor.jpg/500px-Woolsthorpe_Manor.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AWoolsthorpe_Manor.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/newton1666/prints/woolsthorpe_manor_lincolnshire_inglaterr_f9ef1b.jpg",
+     "consulta": "Woolsthorpe Manor Lincolnshire Inglaterra"
+    },
+    {
+     "titulo": "Woolsthorpe Manor Farmstead, Woolsthorpe-by-Colsterworth - geograph.org.uk - 4116670.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Woolsthorpe_Manor_Farmstead%2C_Woolsthorpe-by-Colsterworth_-_geograph.org.uk_-_4116670.jpg/500px-Woolsthorpe_Manor_Farmstead%2C_Woolsthorpe-by-Colsterworth_-_geograph.org.uk_-_4116670.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AWoolsthorpe_Manor_Farmstead%2C_Woolsthorpe-by-Colsterworth_-_geograph.org.uk_-_4116670.jpg",
+     "descricao": "Attribution-Share Alike 2.0 Generic license. Attribution: \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/newton1666/prints/woolsthorpe_manor_lincolnshire_inglaterr_c9aad3.jpg",
+     "consulta": "Woolsthorpe Manor Lincolnshire Inglaterra"
+    }
+   ]
+  },
+  {
+   "tipo": "lugar",
    "item": "Inglaterra",
    "consultas": [
     "Inglaterra 1666",
@@ -28,21 +65,21 @@
      "consulta": "Inglaterra 1666"
     },
     {
+     "titulo": "Monumento al Gran Incendio de Londres, Londres, Inglaterra, 2014-08-11, DD 150.JPG",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Monumento_al_Gran_Incendio_de_Londres%2C_Londres%2C_Inglaterra%2C_2014-08-11%2C_DD_150.JPG/500px-Monumento_al_Gran_Incendio_de_Londres%2C_Londres%2C_Inglaterra%2C_2014-08-11%2C_DD_150.JPG",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AMonumento_al_Gran_Incendio_de_Londres%2C_Londres%2C_Inglaterra%2C_2014-08-11%2C_DD_150.JPG",
+     "descricao": "license, and indicate if changes were made. You may do so \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/newton1666/prints/inglaterra_2e2641.jpg",
+     "consulta": "Inglaterra 1666"
+    },
+    {
      "titulo": "Monumento al Gran Incendio de Londres, Londres, Inglaterra, 2014-08-11, DD 151.JPG",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Monumento_al_Gran_Incendio_de_Londres%2C_Londres%2C_Inglaterra%2C_2014-08-11%2C_DD_151.JPG/500px-Monumento_al_Gran_Incendio_de_Londres%2C_Londres%2C_Inglaterra%2C_2014-08-11%2C_DD_151.JPG",
      "pagina": "https://commons.wikimedia.org/wiki/File%3AMonumento_al_Gran_Incendio_de_Londres%2C_Londres%2C_Inglaterra%2C_2014-08-11%2C_DD_151.JPG",
      "descricao": "license, and indicate if changes were made. You may do so \\u003Cspan class=\\",
-     "ordem": 4,
+     "ordem": 5,
      "print": "referencias/newton1666/prints/inglaterra_d57bd4.jpg",
-     "consulta": "Inglaterra 1666"
-    },
-    {
-     "titulo": "Monumento al Gran Incendio de Londres, Londres, Inglaterra, 2014-08-11, DD 154-156 HDR.JPG",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Monumento_al_Gran_Incendio_de_Londres%2C_Londres%2C_Inglaterra%2C_2014-08-11%2C_DD_154-156_HDR.JPG/500px-Monumento_al_Gran_Incendio_de_Londres%2C_Londres%2C_Inglaterra%2C_2014-08-11%2C_DD_154-156_HDR.JPG",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AMonumento_al_Gran_Incendio_de_Londres%2C_Londres%2C_Inglaterra%2C_2014-08-11%2C_DD_154-156_HDR.JPG",
-     "descricao": "license, and indicate if changes were made. You may do so \\u003Cspan class=\\",
-     "ordem": 7,
-     "print": "referencias/newton1666/prints/inglaterra_601723.jpg",
      "consulta": "Inglaterra 1666"
     }
    ]
@@ -55,6 +92,15 @@
     "17th century clothing painting"
    ],
    "achados": [
+    {
+     "titulo": "John Glynne (1602-1666), by follower of Sir Peter Lely.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/John_Glynne_%281602-1666%29%2C_by_follower_of_Sir_Peter_Lely.jpg/500px-John_Glynne_%281602-1666%29%2C_by_follower_of_Sir_Peter_Lely.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AJohn_Glynne_%281602-1666%29%2C_by_follower_of_Sir_Peter_Lely.jpg",
+     "descricao": "anonymous: John Glynne (1602-\\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/newton1666/prints/roupas_e_ruas_de_1666_c625e1.jpg",
+     "consulta": "1666 fashion clothing"
+    },
     {
      "titulo": "Arolsen Klebeband 03 157 1.jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Arolsen_Klebeband_03_157_1.jpg/500px-Arolsen_Klebeband_03_157_1.jpg",
@@ -72,15 +118,228 @@
      "ordem": 5,
      "print": "referencias/newton1666/prints/roupas_e_ruas_de_1666_af650d.jpg",
      "consulta": "1666 fashion clothing"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Isaac Newton jovem (23 anos, cabelo comprido, casaca simples)",
+   "consultas": [
+    "Isaac Newton jovem 23 anos cabelo comprido casaca simples",
+    "Isaac Newton jovem 23 anos cabelo comprido casaca simples 1666"
+   ],
+   "achados": [
+    {
+     "titulo": "Sir Isaac Newton by Sir Godfrey Kneller, Bt.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Sir_Isaac_Newton_by_Sir_Godfrey_Kneller%2C_Bt.jpg/500px-Sir_Isaac_Newton_by_Sir_Godfrey_Kneller%2C_Bt.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASir_Isaac_Newton_by_Sir_Godfrey_Kneller%2C_Bt.jpg",
+     "descricao": "\\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/newton1666/prints/isaac_newton_jovem_23_anos_cabelo_compri_1245d9.jpg",
+     "consulta": "Isaac Newton"
     },
     {
-     "titulo": "Studio of Pierre Mignard - Marie-Anne de Bourbon.png",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Studio_of_Pierre_Mignard_-_Marie-Anne_de_Bourbon.png/500px-Studio_of_Pierre_Mignard_-_Marie-Anne_de_Bourbon.png",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AStudio_of_Pierre_Mignard_-_Marie-Anne_de_Bourbon.png",
-     "descricao": "QS:P31,Q3305213 Description English: Portrait of Marie Anne de Bourbon (\\u003Cspan class=\\",
-     "ordem": 7,
-     "print": "referencias/newton1666/prints/roupas_e_ruas_de_1666_e51daf.jpg",
-     "consulta": "1666 fashion clothing"
+     "titulo": "Sir Isaac Newton bust in METU Campus Ankara Turkey.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Sir_Isaac_Newton_bust_in_METU_Campus_Ankara_Turkey.jpg/500px-Sir_Isaac_Newton_bust_in_METU_Campus_Ankara_Turkey.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASir_Isaac_Newton_bust_in_METU_Campus_Ankara_Turkey.jpg",
+     "descricao": "DescriptionSir \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/newton1666/prints/isaac_newton_jovem_23_anos_cabelo_compri_a58a9a.jpg",
+     "consulta": "Isaac Newton"
+    },
+    {
+     "titulo": "GodfreyKneller-IsaacNewton-1689.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/GodfreyKneller-IsaacNewton-1689.jpg/500px-GodfreyKneller-IsaacNewton-1689.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AGodfreyKneller-IsaacNewton-1689.jpg",
+     "descricao": "English Portrait of Sir \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/newton1666/prints/isaac_newton_jovem_23_anos_cabelo_compri_86fd66.jpg",
+     "consulta": "Isaac Newton"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "a mae Hannah",
+   "consultas": [
+    "a mae Hannah",
+    "a mae Hannah 1666"
+   ],
+   "achados": [
+    {
+     "titulo": "Hannah Mae - Zuiderpark Den Haag 2022.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Hannah_Mae_-_Zuiderpark_Den_Haag_2022.jpg/500px-Hannah_Mae_-_Zuiderpark_Den_Haag_2022.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AHannah_Mae_-_Zuiderpark_Den_Haag_2022.jpg",
+     "descricao": "0 Creative Commons Attribution-Share Alike 4.0 truetrue English Dutch \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/newton1666/prints/a_mae_hannah_435c22.jpg",
+     "consulta": "a mae Hannah"
+    },
+    {
+     "titulo": "Hannah mae-1675716620.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Hannah_mae-1675716620.jpg/500px-Hannah_mae-1675716620.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AHannah_mae-1675716620.jpg",
+     "descricao": "following conditions: attribution – You must give appropriate credit, provide \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/newton1666/prints/a_mae_hannah_10df96.jpg",
+     "consulta": "a mae Hannah"
+    },
+    {
+     "titulo": "Hannah Mae - Zuiderpark Den Haag 2022 (cropped).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Hannah_Mae_-_Zuiderpark_Den_Haag_2022_%28cropped%29.jpg/500px-Hannah_Mae_-_Zuiderpark_Den_Haag_2022_%28cropped%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AHannah_Mae_-_Zuiderpark_Den_Haag_2022_%28cropped%29.jpg",
+     "descricao": "following conditions: attribution – You must give appropriate credit, provide \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/newton1666/prints/a_mae_hannah_039ca0.jpg",
+     "consulta": "a mae Hannah"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "William Stukeley (amigo, anos depois)",
+   "consultas": [
+    "William Stukeley amigo anos depois",
+    "William Stukeley amigo anos depois 1666"
+   ],
+   "achados": [
+    {
+     "titulo": "WilliamStukeley.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/WilliamStukeley.jpg/500px-WilliamStukeley.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AWilliamStukeley.jpg",
+     "descricao": "QS:P31,Q3305213 Description English: Portrait of the english archivist \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/newton1666/prints/william_stukeley_amigo_anos_depois__8e95a4.jpg",
+     "consulta": "William Stukeley"
+    },
+    {
+     "titulo": "Stukeley William.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Stukeley_William.jpg/500px-Stukeley_William.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AStukeley_William.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/newton1666/prints/william_stukeley_amigo_anos_depois__57a3e5.jpg",
+     "consulta": "William Stukeley"
+    },
+    {
+     "titulo": "William Stukeley self portrait, 1735.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/William_Stukeley_self_portrait%2C_1735.jpg/500px-William_Stukeley_self_portrait%2C_1735.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AWilliam_Stukeley_self_portrait%2C_1735.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/newton1666/prints/william_stukeley_amigo_anos_depois__ff8892.jpg",
+     "consulta": "William Stukeley"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "maca vermelha",
+   "consultas": [
+    "maca vermelha",
+    "maca vermelha 1666"
+   ],
+   "achados": [
+    {
+     "titulo": "Ara macao MHNT.ZOO.2010.11.148.26.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Ara_macao_MHNT.ZOO.2010.11.148.26.jpg/500px-Ara_macao_MHNT.ZOO.2010.11.148.26.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AAra_macao_MHNT.ZOO.2010.11.148.26.jpg",
+     "descricao": "Culos Description English: Eggs of \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/newton1666/prints/maca_vermelha_da47db.jpg",
+     "consulta": "maca vermelha"
+    },
+    {
+     "titulo": "Scarlet macaw (Ara macao cyanopterus) head Copan.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Scarlet_macaw_%28Ara_macao_cyanopterus%29_head_Copan.jpg/500px-Scarlet_macaw_%28Ara_macao_cyanopterus%29_head_Copan.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AScarlet_macaw_%28Ara_macao_cyanopterus%29_head_Copan.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/newton1666/prints/maca_vermelha_ae8aec.jpg",
+     "consulta": "maca vermelha"
+    },
+    {
+     "titulo": "Scarlet macaws (Ara macao macao) pair Yasuni.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Scarlet_macaws_%28Ara_macao_macao%29_pair_Yasuni.jpg/500px-Scarlet_macaws_%28Ara_macao_macao%29_pair_Yasuni.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AScarlet_macaws_%28Ara_macao_macao%29_pair_Yasuni.jpg",
+     "descricao": "Commons Attribution-Share Alike 4.0 truetrue [[Category:Featured pictures of Ecuador English \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/newton1666/prints/maca_vermelha_e81b8b.jpg",
+     "consulta": "maca vermelha"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "macieira",
+   "consultas": [
+    "macieira",
+    "macieira 1666"
+   ],
+   "achados": [
+    {
+     "titulo": "Bandeira do município de Macieira (SC).png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Bandeira_do_munic%C3%ADpio_de_Macieira_%28SC%29.png/500px-Bandeira_do_munic%C3%ADpio_de_Macieira_%28SC%29.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABandeira_do_munic%C3%ADpio_de_Macieira_%28SC%29.png",
+     "descricao": "de \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/newton1666/prints/macieira_7dacf7.jpg",
+     "consulta": "macieira"
+    },
+    {
+     "titulo": "Brasão do município de Macieira (SC).png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Bras%C3%A3o_do_munic%C3%ADpio_de_Macieira_%28SC%29.png/500px-Bras%C3%A3o_do_munic%C3%ADpio_de_Macieira_%28SC%29.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABras%C3%A3o_do_munic%C3%ADpio_de_Macieira_%28SC%29.png",
+     "descricao": "de \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/newton1666/prints/macieira_1b2cd1.jpg",
+     "consulta": "macieira"
+    },
+    {
+     "titulo": "Blason de macieira sernancelhe.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Blason_de_macieira_sernancelhe.jpg/500px-Blason_de_macieira_sernancelhe.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABlason_de_macieira_sernancelhe.jpg",
+     "descricao": "DescriptionBlason de \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/newton1666/prints/macieira_5d1d63.jpg",
+     "consulta": "macieira"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "livros e penas de escrever",
+   "consultas": [
+    "livros e penas de escrever",
+    "livros e penas de escrever 1666"
+   ],
+   "achados": [
+    {
+     "titulo": "Six Months in the West Indies in 1825, Henry Nelson Coleridge, 2.ª edição, Londres, John Murray, 1826, Inglaterra - Image 222549.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Six_Months_in_the_West_Indies_in_1825%2C_Henry_Nelson_Coleridge%2C_2.%C2%AA_edi%C3%A7%C3%A3o%2C_Londres%2C_John_Murray%2C_1826%2C_Inglaterra_-_Image_222549.jpg/500px-Six_Months_in_the_West_Indies_in_1825%2C_Henry_Nelson_Coleridge%2C_2.%C2%AA_edi%C3%A7%C3%A3o%2C_Londres%2C_John_Murray%2C_1826%2C_Inglaterra_-_Image_222549.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASix_Months_in_the_West_Indies_in_1825%2C_Henry_Nelson_Coleridge%2C_2.%C2%AA_edi%C3%A7%C3%A3o%2C_Londres%2C_John_Murray%2C_1826%2C_Inglaterra_-_Image_222549.jpg",
+     "descricao": "gema do oceano, paraíso do Atlântico não tenho coragem para pegar na \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/newton1666/prints/livros_e_penas_de_escrever_bbaa30.jpg",
+     "consulta": "livros e penas de escrever"
+    },
+    {
+     "titulo": "Six Months in the West Indies in 1825, Henry Nelson Coleridge, 3.ª edição, Londres, John Murray, 1832, Inglaterra - Image 222555.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Six_Months_in_the_West_Indies_in_1825%2C_Henry_Nelson_Coleridge%2C_3.%C2%AA_edi%C3%A7%C3%A3o%2C_Londres%2C_John_Murray%2C_1832%2C_Inglaterra_-_Image_222555.jpg/500px-Six_Months_in_the_West_Indies_in_1825%2C_Henry_Nelson_Coleridge%2C_3.%C2%AA_edi%C3%A7%C3%A3o%2C_Londres%2C_John_Murray%2C_1832%2C_Inglaterra_-_Image_222555.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASix_Months_in_the_West_Indies_in_1825%2C_Henry_Nelson_Coleridge%2C_3.%C2%AA_edi%C3%A7%C3%A3o%2C_Londres%2C_John_Murray%2C_1832%2C_Inglaterra_-_Image_222555.jpg",
+     "descricao": "gema do oceano, paraíso do Atlântico não tenho coragem para pegar na \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/newton1666/prints/livros_e_penas_de_escrever_376298.jpg",
+     "consulta": "livros e penas de escrever"
+    },
+    {
+     "titulo": "Padre António Vieira S.J (2017) - Marco Telmo Areias Fidalgo (32852210427).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Padre_Ant%C3%B3nio_Vieira_S.J_%282017%29_-_Marco_Telmo_Areias_Fidalgo_%2832852210427%29.jpg/500px-Padre_Ant%C3%B3nio_Vieira_S.J_%282017%29_-_Marco_Telmo_Areias_Fidalgo_%2832852210427%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3APadre_Ant%C3%B3nio_Vieira_S.J_%282017%29_-_Marco_Telmo_Areias_Fidalgo_%2832852210427%29.jpg",
+     "descricao": "encarregado de \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/newton1666/prints/livros_e_penas_de_escrever_506e17.jpg",
+     "consulta": "livros e penas de escrever"
     }
    ]
   },
@@ -88,36 +347,36 @@
    "tipo": "heroi",
    "item": "apple",
    "consultas": [
-    "apple",
+    "maca vermelha",
     "Newton e a Maçã"
    ],
    "achados": [
     {
-     "titulo": "Red Apple.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/500px-Red_Apple.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ARed_Apple.jpg",
-     "descricao": "English A red \\u003Cspan class=\\",
-     "ordem": 1,
-     "print": "referencias/newton1666/prints/apple_9868f1.jpg",
-     "consulta": "apple"
-    },
-    {
-     "titulo": "Tree with red apples in Barkedal 4.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Tree_with_red_apples_in_Barkedal_4.jpg/500px-Tree_with_red_apples_in_Barkedal_4.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ATree_with_red_apples_in_Barkedal_4.jpg",
-     "descricao": "work, hereby publish it under the following license: English Tree with red \\u003Cspan class=\\",
+     "titulo": "Ara macao MHNT.ZOO.2010.11.148.26.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Ara_macao_MHNT.ZOO.2010.11.148.26.jpg/500px-Ara_macao_MHNT.ZOO.2010.11.148.26.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AAra_macao_MHNT.ZOO.2010.11.148.26.jpg",
+     "descricao": "Culos Description English: Eggs of \\u003Cspan class=\\",
      "ordem": 2,
-     "print": "referencias/newton1666/prints/apple_62a5ae.jpg",
-     "consulta": "apple"
+     "print": "referencias/newton1666/prints/apple_da47db.jpg",
+     "consulta": "maca vermelha"
     },
     {
-     "titulo": "Pink lady and cross section.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Pink_lady_and_cross_section.jpg/500px-Pink_lady_and_cross_section.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3APink_lady_and_cross_section.jpg",
-     "descricao": "English 3 green \\u003Cspan class=\\",
-     "ordem": 5,
-     "print": "referencias/newton1666/prints/apple_13458b.jpg",
-     "consulta": "apple"
+     "titulo": "Scarlet macaw (Ara macao cyanopterus) head Copan.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Scarlet_macaw_%28Ara_macao_cyanopterus%29_head_Copan.jpg/500px-Scarlet_macaw_%28Ara_macao_cyanopterus%29_head_Copan.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AScarlet_macaw_%28Ara_macao_cyanopterus%29_head_Copan.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/newton1666/prints/apple_ae8aec.jpg",
+     "consulta": "maca vermelha"
+    },
+    {
+     "titulo": "Scarlet macaws (Ara macao macao) pair Yasuni.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Scarlet_macaws_%28Ara_macao_macao%29_pair_Yasuni.jpg/500px-Scarlet_macaws_%28Ara_macao_macao%29_pair_Yasuni.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AScarlet_macaws_%28Ara_macao_macao%29_pair_Yasuni.jpg",
+     "descricao": "Commons Attribution-Share Alike 4.0 truetrue [[Category:Featured pictures of Ecuador English \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/newton1666/prints/apple_e81b8b.jpg",
+     "consulta": "maca vermelha"
     }
    ]
   },
@@ -148,50 +407,13 @@
      "consulta": "farm 1666"
     },
     {
-     "titulo": "20211105-FPAC-PJK-1666 TONED.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/20211105-FPAC-PJK-1666_TONED.jpg/500px-20211105-FPAC-PJK-1666_TONED.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3A20211105-FPAC-PJK-1666_TONED.jpg",
-     "descricao": "24 February 2026 English Sang Lee \\u003Cspan class=\\",
-     "ordem": 5,
-     "print": "referencias/newton1666/prints/fazenda_da_epoca_60f748.jpg",
+     "titulo": "Jan Wouwerman (1629-1666) - Landschaft mit Bauerngehöft, Windmühle und Staffage - 3429 - Führermuseum.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Jan_Wouwerman_%281629-1666%29_-_Landschaft_mit_Bauerngeh%C3%B6ft%2C_Windm%C3%BChle_und_Staffage_-_3429_-_F%C3%BChrermuseum.jpg/500px-Jan_Wouwerman_%281629-1666%29_-_Landschaft_mit_Bauerngeh%C3%B6ft%2C_Windm%C3%BChle_und_Staffage_-_3429_-_F%C3%BChrermuseum.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AJan_Wouwerman_%281629-1666%29_-_Landschaft_mit_Bauerngeh%C3%B6ft%2C_Windm%C3%BChle_und_Staffage_-_3429_-_F%C3%BChrermuseum.jpg",
+     "descricao": "Jan Wouwerman: \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/newton1666/prints/fazenda_da_epoca_495df8.jpg",
      "consulta": "farm 1666"
-    }
-   ]
-  },
-  {
-   "tipo": "mecanismo",
-   "item": "No fim, a maçã mudou a ciência e nem foi comida.",
-   "consultas": [
-    "mudou ciencia comida",
-    "diagram"
-   ],
-   "achados": [
-    {
-     "titulo": "CMB Timeline300 no WMAP.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/CMB_Timeline300_no_WMAP.jpg/500px-CMB_Timeline300_no_WMAP.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ACMB_Timeline300_no_WMAP.jpg",
-     "descricao": "DescriptionCMB Timeline300 no WMAP.jpg English: Timeline of the universe. A \\u003Cspan class=\\",
-     "ordem": 21,
-     "print": "referencias/newton1666/prints/no_fim_a_ma_mudou_a_ci_ncia_e_nem_foi_co_53683d.jpg",
-     "consulta": "diagram"
-    },
-    {
-     "titulo": "The violent youth of solar proxies.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/The_violent_youth_of_solar_proxies.jpg/500px-The_violent_youth_of_solar_proxies.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AThe_violent_youth_of_solar_proxies.jpg",
-     "descricao": "English determination method or standard: SHA-1",
-     "ordem": 22,
-     "print": "referencias/newton1666/prints/no_fim_a_ma_mudou_a_ci_ncia_e_nem_foi_co_751e49.jpg",
-     "consulta": "diagram"
-    },
-    {
-     "titulo": "Littleboy inner1 info.png",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Littleboy_inner1_info.png/500px-Littleboy_inner1_info.png",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ALittleboy_inner1_info.png",
-     "descricao": "File:Little Boy internal \\u003Cspan class=\\",
-     "ordem": 23,
-     "print": "referencias/newton1666/prints/no_fim_a_ma_mudou_a_ci_ncia_e_nem_foi_co_fa1ed7.jpg",
-     "consulta": "diagram"
     }
    ]
   }
