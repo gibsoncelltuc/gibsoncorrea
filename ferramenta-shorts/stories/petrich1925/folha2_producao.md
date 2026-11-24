@@ -13,7 +13,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b1 - Conta a história que um soldado grego estava de guarda, e o cachorro d...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: loc_campo | luz: day | clima: limpo
 - Camera: track = travelling lateral acompanhando quem anda
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): GRE (variante 0, expressao shock)
@@ -23,7 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - O soldado correu atrás do cachorro, e atravessou a fronteira.
-- Cenario: street | luz: day | clima: limpo
+- Cenario: loc_campo | luz: day | clima: limpo
 - Camera: track = travelling lateral acompanhando quem anda
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): GRE (variante 0, expressao nervous)

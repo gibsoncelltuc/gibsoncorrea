@@ -4,13 +4,13 @@
  "ancoras": {
   "ano": 1925,
   "era": "historica",
-  "regiao": "europa",
+  "regiao": null,
   "luz_base": "day",
   "cenarios": [
    "interior madeira",
    "interior pedra",
-   "mountain",
-   "street"
+   "loc_campo",
+   "mountain"
   ],
   "cenarios_trocados": []
  },
@@ -27,12 +27,10 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "buildings/house_two",
-  "buildings/shop",
   "kit/coin",
   "kit/dog_sit",
-  "kit/room_europa_wood",
-  "kit/room_verde_stone",
+  "kit/room_azul_wood",
+  "kit/room_europa_stone",
   "mk/Barrel",
   "mk/Bed_Twin1",
   "mk/Bookcase_2",

@@ -9,7 +9,7 @@ b1 | mountain | reveal | 11 | parados (so fala e pisca) | vehicles/airplane, kit
 b2 | arctic | group | 11 | conversar, batalha | kit/canhao_moderno | - | -
 b3 | mountain | orbit | 21 | encena, andando, batalha | kit/marco_alpes | - | -
 b4 | mountain | two | 2 | reagir, INTERAGEM: susto | kit/marco_alpes | - | -
-b5 | harbor | orbit | 11 | encena | ship, kit/marco_alpes, nature/picket_fence, navios ao fundo | - | -
+b5 | harbor | orbit | 11 | encena | ship, kit/marco_alpes, nature/picket_fence, navios de guerra ao fundo, no tamanho real | - | -
 b6 | mountain | group | 3 | reagir, INTERAGEM: aproxima-se | kit/marco_alpes | - | -
 b7 | harbor | two | 1 | conversar | kit/marco_alpes, dog | - | -
 b8 | harbor | close | 1 | conversar | kit/marco_alpes | - | -

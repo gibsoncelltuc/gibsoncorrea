@@ -58,7 +58,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): USA (variante 0, expressao neutral) | multidao: 10 de USA
 - Animacao: encena
-- Objetos/modelos: ship, kit/marco_alpes, nature/picket_fence, navios ao fundo
+- Objetos/modelos: ship, kit/marco_alpes, nature/picket_fence, navios de guerra ao fundo, no tamanho real
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cinco, frota, neblina
 - RISCOS: nenhum
 

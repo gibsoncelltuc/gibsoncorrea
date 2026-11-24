@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1898 | Lugar: Paris: galpao velho de madeira e vidro da Escola de Fisica e Quimica (rue Lhomond), frio e com goteiras; Biblioteca Nacional da Franca hoje | Quando: 1898 (descoberta do polonio e do radio); Nobel de 1903 e 1911; morte em 1934; hoje
 - HEROIS (objeto): kit/curie_box
 - HEROIS (personagens): MAR, PES
-- Cenarios: harbor, interior madeira, interior pedra, street
+- Cenarios: interior madeira, interior pedra, loc_campo, loc_montanha
 - Proibido pela epoca: carro dos anos 50, escudo, objeto moderno, predio de apartamentos, torre de refletor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 

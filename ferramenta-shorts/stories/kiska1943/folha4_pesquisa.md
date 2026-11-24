@@ -8,7 +8,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (personagens): USA, CAN
 - Cenarios: arctic, harbor, mountain
 - Proibido pela epoca: canhao antigo, carro antigo, carroca, castical, escudo, lampiao, navio a vela, objeto moderno, tambor de guerra
-- Tamanho real aplicado: kit/canhao_moderno: 4.5 m reais -> escala 2.06 (estava 1.2: pequeno demais)
+- Tamanho real aplicado: kit/navio_vapor: 30.0 m reais -> escala 2.25 (estava 1.0: pequeno demais); kit/canhao_moderno: 4.5 m reais -> escala 2.06 (estava 1.2: pequeno demais)
 
 ## Itens pesquisados
 

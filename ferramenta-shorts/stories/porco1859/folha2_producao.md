@@ -23,17 +23,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Um dia, um fazendeiro americano encontrou um porco comendo as batatas ...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: loc_campo | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (1): FAZ (variante 0, expressao angry, segura pitchfork) | multidao: 12 de FAZ
+- Personagens principais (1): FAZ (variante 0, expressao angry, segura pitchfork) | multidao: 0 de FAZ
 - Animacao: encena | batalha encenada
 - Objetos/modelos: nature/flowerbed, nature/picket_fence, nature/scarecrow, tools/wheelbarrow, kit/batatas, buildings/barn, nature/haybale, pig
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): batatas, fazendeiro, horta, porco
 - RISCOS: nenhum
 
 ## Cena b3 - Ele pegou a espingarda, e atirou. O porco era de um vizinho inglês.
-- Cenario: street | luz: day | clima: limpo
+- Cenario: loc_campo | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): FAZ (variante 0, expressao angry)
@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - O dono gritou que o porco valia cem, e empurrou o dinheiro de volta. N...
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: loc_campo | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): IRL (variante 0, expressao shout); FAZ (variante 0, expressao surprised, segura money)
@@ -78,7 +78,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): ING (variante 0, expressao stern); AME (variante 0, expressao stern) | multidao: 30 de ING/AME
 - Animacao: discutir | batalha encenada
-- Objetos/modelos: cannon, navios ao fundo
+- Objetos/modelos: cannon, navios de guerra ao fundo, no tamanho real
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canhoes, inglaterra, navios, soldados
 - RISCOS: nenhum
 
@@ -93,11 +93,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - Os soldados passaram meses trocando insultos, e depois, festas. Ningué...
-- Cenario: mountain | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (3): ING (variante 0, expressao grin); AME (variante 0, expressao laugh); ING (variante 1, expressao smile) | multidao: 10 de ING/AME
-- Animacao: discutir
+- Cenario: interior pedra | luz: day | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (3): ING (variante 0, expressao grin); AME (variante 0, expressao laugh); ING (variante 1, expressao smile)
+- Animacao: discutir | interacao: cochichar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): soldados, tiro
 - RISCOS: nenhum
@@ -107,7 +107,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ALM (variante 0, expressao smile, segura paper); AME (variante 1, expressao smile)
-- Animacao: conversar | interacao: cochichar
+- Animacao: conversar | interacao: susto
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): arbitro, ilha
 - RISCOS: nenhum
@@ -152,8 +152,8 @@ kit/cross | b11 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/batatas | grandes momentos: b2, b7 | planos abertos: 3 | mistura: close 8% | medio 77% | aberto 13% | detalhe 3%
-- Interacoes: b0 o outro se aproxima, b1 insiste, b4 entregar, b5 discutir, b6 empurrar, b8 vai ate o outro, b10 cochichar
+- Objeto heroi: kit/batatas | grandes momentos: b2, b7 | planos abertos: 2 | mistura: close 8% | medio 83% | aberto 6% | detalhe 3%
+- Interacoes: b0 o outro se aproxima, b1 insiste, b4 entregar, b5 discutir, b6 empurrar, b8 vai ate o outro, b9 cochichar, b10 susto
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py porco1859  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/porco1859/moodboard.jpg
 

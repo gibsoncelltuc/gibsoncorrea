@@ -7,7 +7,7 @@ b1 | crowd | - neve | tropa, placa: FROTA CONGELADA | encena: x_treme @12 (acao 
 b2 | wide | - neve | tropa | encena: prende (push) @3 (acao + som de efeito) | -
 b3 | group | - neve | animais | - | -
 b4 | close | -  | animais, interior, placa: A CAVALO? | atacar (ring + som de alerta); encena: pensa (think) @6 (acao + som de efeito) | -
-b5 | crowd | noite neve | batalha aberta com tiros, tropa, animais | tiros: 5 soldados caem no chao (acao + som de efeito); encena: chega (point) @10 (acao + som de efeito) | -
+b5 | crowd | noite neve | batalha aberta com tiros, tropa, animais | encena: chega (point) @10 (acao + som de efeito) | -
 b6 | reveal | arctic neve | placa: RENDIDOS | encena: olha (point) @3 (acao + som de efeito); encena: rende (up) @11 (acao + som de efeito) | -
 b7 | crowd | - neve | batalha aberta com tiros, tropa, animais | montado: FRA galopando em cima do animal (horse_sela) atravessando a cena (acao + som de efeito) | -
 b8 | close | -  | interior, placa: CAVALARIA 1 X 0 MARINHA | encena: prende (push) @12 (acao + som de efeito) | -

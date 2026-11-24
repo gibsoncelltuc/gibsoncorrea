@@ -1,0 +1,92 @@
+{
+ "id": "porco_piloto",
+ "titulo": "Guerras Inusitadas EP 06 - A Guerra do Porco",
+ "ancoras": {
+  "ano": 1859,
+  "era": "historica",
+  "regiao": null,
+  "luz_base": "day",
+  "cenarios": [
+   "countryside",
+   "harbor",
+   "interior madeira",
+   "loc_campo"
+  ],
+  "cenarios_trocados": []
+ },
+ "proibido_pela_epoca": [
+  "carro antigo",
+  "carro dos anos 50",
+  "escudo",
+  "objeto moderno",
+  "predio de apartamentos",
+  "torre de refletor",
+  "veiculo a motor",
+  "veiculo moderno"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "buildings/barn",
+  "buildings/house_small",
+  "buildings/house_two",
+  "cannon",
+  "kit/batatas",
+  "kit/cross",
+  "kit/navio_vela",
+  "kit/room_azul_wood",
+  "mk/Bookcase_2",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Table_Large",
+  "nature/flowerbed",
+  "nature/haybale",
+  "nature/picket_fence",
+  "nature/scarecrow"
+ ],
+ "pesquisa_visual": {
+  "local": "Ilha de San Juan (entre os EUA e o Canada, perto de Vancouver): fazendas com horta, pinheiros, costa com navios",
+  "quando": "15 de junho de 1859 (o tiro no porco), de dia; ocupacao conjunta ate 1872",
+  "participantes": [
+   "Lyman Cutlar, fazendeiro americano",
+   "Charles Griffin, irlandes da Companhia da Baia de Hudson (dono do porco)",
+   "capitao George Pickett e soldados da 9a Infantaria dos EUA",
+   "Royal Marines britanicos",
+   "contra-almirante Robert Baynes"
+  ],
+  "roupas": {
+   "FAZ": "camisa azul e chapeu de palha de colono",
+   "IRL": "paleto e chapeu-coco (1859)",
+   "AME": "soldado americano de 1859: casaca azul-escura, calca azul-clara, quepe de campanha",
+   "ING": "Royal Marine: casaca vermelha, barretina",
+   "ALM": "almirante da Marinha Real: casaca azul-escura com dragonas, chapeu bicorne"
+  },
+  "cenario": "horta de batatas cercada, fazenda de colonos, pinheiros, praia com navios de guerra a vela/vapor, acampamentos dos dois exercitos",
+  "objetos": [
+   "batatas da horta",
+   "espingarda",
+   "notas de dolar",
+   "navios de guerra",
+   "canhoes"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Pig_War_(1859)",
+   "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
+  ],
+  "buscas": {
+   "A Guerra do Porco (piloto)": "Pig War 1859 San Juan Island",
+   "Lyman Cutlar, fazendeiro americano": "American farmer 1850s settler",
+   "Charles Griffin, irlandes da Companhia da Baia de Hudson (dono do porco)": "Hudson's Bay Company Belle Vue Sheep Farm San Juan",
+   "capitao George Pickett e soldados da 9a Infantaria dos EUA": "George Pickett American Camp San Juan Island",
+   "Royal Marines britanicos": "Royal Marines 1859 English Camp San Juan Island",
+   "contra-almirante Robert Baynes": "Robert Lambert Baynes admiral",
+   "batatas da horta": "potato garden field",
+   "espingarda": "percussion rifle 1850s",
+   "notas de dolar": "dollar banknote 1850s",
+   "navios de guerra": "HMS Satellite 1855 warship",
+   "canhoes": "cannon 1850s artillery",
+   "roupas e ruas de 1859": "1859 fashion clothing"
+  }
+ },
+ "fontes": [],
+ "falta": []
+}

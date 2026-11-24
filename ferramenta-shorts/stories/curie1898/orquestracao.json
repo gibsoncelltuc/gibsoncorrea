@@ -1,7 +1,18 @@
 {
  "id": "curie1898",
  "ano": 1898,
- "cenarios_trocados": [],
+ "cenarios_trocados": [
+  [
+   "video",
+   "street",
+   "loc_campo"
+  ],
+  [
+   "cena 13",
+   "street",
+   "loc_campo"
+  ]
+ ],
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
@@ -16,7 +27,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "loc_campo"
   },
   {
    "cena": "b1",
@@ -25,7 +36,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "loc_campo"
   },
   {
    "cena": "b2",
@@ -76,7 +87,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "loc_campo"
   },
   {
    "cena": "b7",
@@ -85,7 +96,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "loc_campo"
   },
   {
    "cena": "b8",
@@ -118,7 +129,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "loc_montanha"
   },
   {
    "cena": "b11",
@@ -127,7 +138,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "loc_montanha"
   },
   {
    "cena": "b12",
@@ -136,7 +147,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "loc_campo"
   }
  ]
 }

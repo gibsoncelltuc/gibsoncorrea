@@ -4,7 +4,7 @@
  "ancoras": {
   "ano": 1939,
   "era": "historica",
-  "regiao": "russia",
+  "regiao": null,
   "luz_base": "arctic",
   "cenarios": [
    "arctic",

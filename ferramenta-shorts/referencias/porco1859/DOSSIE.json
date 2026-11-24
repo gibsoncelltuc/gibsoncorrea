@@ -4,14 +4,14 @@
  "ancoras": {
   "ano": 1859,
   "era": "historica",
-  "regiao": "eua",
+  "regiao": null,
   "luz_base": "day",
   "cenarios": [
    "countryside",
    "harbor",
    "interior madeira",
-   "mountain",
-   "street"
+   "interior pedra",
+   "loc_campo"
   ],
   "cenarios_trocados": []
  },
@@ -35,8 +35,10 @@
   "kit/batatas",
   "kit/coin",
   "kit/cross",
-  "kit/room_eua_wood",
+  "kit/navio_vela",
   "kit/room_europa_wood",
+  "kit/room_rosa_wood",
+  "kit/room_verde_stone",
   "mk/Barrel",
   "mk/Bed_Twin1",
   "mk/Bookcase_2",
@@ -44,14 +46,18 @@
   "mk/CandleStick_Stand",
   "mk/Chair_1",
   "mk/Chest_Wood",
+  "mk/Crate_Wooden",
   "mk/Nightstand_Shelf",
+  "mk/Shelf_Small_Bottles",
+  "mk/Stool",
   "mk/Table_Large",
+  "mk/Vase_2",
+  "mk/Workbench_Drawers",
   "nature/flowerbed",
   "nature/haybale",
   "nature/picket_fence",
   "nature/scarecrow",
   "nature/tree_oak",
-  "ship",
   "tools/wheelbarrow"
  ],
  "pesquisa_visual": {

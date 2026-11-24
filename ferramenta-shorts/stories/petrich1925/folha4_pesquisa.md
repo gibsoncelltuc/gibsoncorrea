@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1925 | Lugar: Passo de Demir Kapia, na serra de Belasitsa: fronteira montanhosa entre a Grecia e a Bulgaria, perto de Petrich; sede da Liga das Nacoes em Genebra | Quando: 19 de outubro de 1925 (o tiro), invasao grega a partir de 22 de outubro de 1925, de dia, outono
 - HEROIS (objeto): kit/dog_sit
 - HEROIS (personagens): GRE, BUL, OFF
-- Cenarios: interior madeira, interior pedra, mountain, street
+- Cenarios: interior madeira, interior pedra, loc_campo, mountain
 - Proibido pela epoca: canhao antigo, carro dos anos 50, castical, escudo, navio a vela, objeto moderno, tambor de guerra, torre de refletor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 

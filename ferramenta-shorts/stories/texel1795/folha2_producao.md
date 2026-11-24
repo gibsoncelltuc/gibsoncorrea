@@ -16,9 +16,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: arctic | clima: neve
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): NED (variante 0, expressao nervous); NED (variante 1, expressao shock) | multidao: 10 de NED
+- Personagens principais (2): NED (variante 0, expressao nervous); NED (variante 1, expressao shock) | multidao: 0 de NED
 - Animacao: reagir
-- Objetos/modelos: kit/navio_vela, kit/marco_amsterdam, navios ao fundo
+- Objetos/modelos: kit/navio_vela, kit/marco_amsterdam, navios de guerra ao fundo, no tamanho real
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frota
 - RISCOS: nenhum
 
@@ -26,9 +26,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: arctic | clima: neve
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): NED (variante 2, expressao pained) | multidao: 6 de NED
+- Personagens principais (1): NED (variante 2, expressao pained) | multidao: 0 de NED
 - Animacao: encena
-- Objetos/modelos: ship, kit/marco_amsterdam, navios ao fundo
+- Objetos/modelos: ship, kit/marco_amsterdam, navios de guerra ao fundo, no tamanho real
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gelo, lugar, navios
 - RISCOS: nenhum
 
@@ -56,7 +56,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: arctic | luz: noite | clima: neve
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): FRA (variante 0, expressao stern); FRA (variante 2, expressao neutral) | multidao: 18 de FRA
+- Personagens principais (2): FRA (variante 0, expressao stern); FRA (variante 2, expressao neutral) | multidao: 0 de FRA
 - Animacao: encena | batalha encenada
 - Objetos/modelos: horse
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cascos, cavalos, gelo, hussardos, janeiro, vinte
@@ -68,7 +68,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): NED (variante 0, expressao shock); FRA (variante 1, expressao grin)
 - Animacao: reagir
-- Objetos/modelos: kit/marco_amsterdam, navios ao fundo, navio em movimento
+- Objetos/modelos: kit/marco_amsterdam, navios de guerra ao fundo, no tamanho real, navio em movimento
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalaria, frota, marinheiros
 - RISCOS: nenhum
 
@@ -76,7 +76,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: arctic | luz: arctic | clima: neve
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): FRA (variante 0, expressao laugh); FRA (variante 2, expressao grin) | multidao: 5 de FRA
+- Personagens principais (2): FRA (variante 0, expressao laugh); FRA (variante 2, expressao grin) | multidao: 0 de FRA
 - Animacao: - | batalha encenada
 - Objetos/modelos: ship, horse
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalo, dezena, navios

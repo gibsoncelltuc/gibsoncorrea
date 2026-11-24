@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 20 - As Abelhas que Dançam um Mapa
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 13 cenas, 193 palavras (~67 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 13 cenas, 193 palavras (~67 s)
 
 ## Cena b0  (~5.2 s)
 - Narracao: As abelhas conversam dançando. E foi um cientista teimoso que descobriu o que elas dizem.

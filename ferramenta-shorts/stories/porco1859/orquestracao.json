@@ -40,7 +40,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "loc_campo"
   },
   {
    "cena": "b3",
@@ -49,7 +49,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "loc_campo"
   },
   {
    "cena": "b4",
@@ -67,7 +67,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "mountain"
+   "cenario": "loc_campo"
   },
   {
    "cena": "b6",
@@ -109,7 +109,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "mountain"
+   "cenario": "interior pedra"
   },
   {
    "cena": "b10",

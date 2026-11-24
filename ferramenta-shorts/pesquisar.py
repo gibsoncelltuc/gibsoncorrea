@@ -29,7 +29,9 @@ def commons(q, n=3):   # busca de imagens do Wikimedia Commons (pagina de busca;
     except Exception: h = ''
     res = []; vistos = set()
     for m in re.finditer(r'"title":"(File:[^"]+)"', h):
-        tit = json.loads('"' + m.group(1) + '"'); blk = h[m.end():m.end() + 4000]
+        try: tit = json.loads('"' + m.group(1) + '"')
+        except Exception: tit = m.group(1).encode('utf-8', 'ignore').decode('unicode_escape', 'ignore') if '\\u' in m.group(1) else m.group(1)   # titulo com escape estranho nao derruba a pesquisa
+        blk = h[m.end():m.end() + 4000]
         if tit in vistos or not re.search(r'\.(jpe?g|png)$', tit, re.I): continue
         t = re.search(r'"thumburl":"([^"]+)"', blk) or re.search(r'"url":"(https:[^"]+upload[^"]+)"', blk)
         if not t: continue

@@ -4,7 +4,7 @@
  "ancoras": {
   "ano": 1788,
   "era": "historica",
-  "regiao": "europa",
+  "regiao": null,
   "luz_base": "dusk",
   "cenarios": [
    "countryside"

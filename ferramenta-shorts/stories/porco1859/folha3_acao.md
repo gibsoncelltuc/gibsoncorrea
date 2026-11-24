@@ -88,9 +88,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | canhões (44.6s) | EFEITO: burst | estouro/clarao + som | OK |
 | 3 | canhões (44.6s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 4 | apontados (45.1s) | ACAO: fala | aponta explicando | OK |
-| 5 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
-| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
-| 7 | - | ATUACAO | discutir | OK |
+| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 6 | - | ATUACAO | discutir | OK |
 
 ## Cena b8 - 47.4s a 53.5s - 24 palavras - plano two
 > "O almirante inglês recebeu a ordem de atacar, e se recusou: disse que não ia pôr duas nações em guerra por briga de porco."
@@ -105,14 +104,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 6 | - | INTERACAO | vai ate o outro | OK |
 | 7 | - | ATUACAO | discutir | OK |
 
-## Cena b9 - 54.7s a 60.0s - 13 palavras - plano orbit
+## Cena b9 - 54.7s a 60.0s - 13 palavras - plano group
 > "Os soldados passaram meses trocando insultos, e depois, festas. Ninguém deu um tiro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | trocando (56.0s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 2 | festas (58.0s) | ACAO: vence | bracos para cima + brilho | OK |
-| 3 | - | ATUACAO | discutir | OK |
+| 3 | - | INTERACAO | cochichar | OK |
+| 4 | - | ATUACAO | discutir | OK |
 
 ## Cena b10 - 61.2s a 64.0s - 11 palavras - plano two
 > "Treze anos depois, um árbitro decidiu que a ilha era americana."
@@ -120,7 +120,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | EMOCAO: determined | o rosto vira "determined" na palavra | OK |
-| 2 | - | INTERACAO | cochichar | OK |
+| 2 | - | INTERACAO | susto | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | 13 ANOS | OK |
 

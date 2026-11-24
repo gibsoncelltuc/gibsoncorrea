@@ -36,7 +36,7 @@ SETS_X = {'outback': 2000, 'countryside': 1000, 'arctic': 7000, 'palace': 4000, 
 # pesquisa visual pedem aquele tema; senao a cena vai para uma LOCACAO LIMPA (web/sets/loc.js: so' chao + horizonte + itens da pesquisa). "set_tematico_ok": true desliga.
 _nrm0 = lambda t_: __import__('unicodedata').normalize('NFKD', str(t_).lower()).encode('ascii', 'ignore').decode()
 _VIS0 = B.get('visual') or {}
-_TXT0 = _nrm0(' '.join([b_.get('say', '') for b_ in B['beats']] + [json.dumps(_VIS0, ensure_ascii=False), B.get('title', '')]))
+_TXT0 = _nrm0(' '.join([b_.get('say', '') for b_ in B['beats']] + [json.dumps({k_: v_ for k_, v_ in _VIS0.items() if k_ not in ('buscas', 'referencias', 'fontes_visuais', 'explicacoes', 'proibidos')}, ensure_ascii=False), B.get('title', '')]))
 _a0 = re.search(r'(?<!\d)(1[0-9]{3}|20[0-9]{2})(?!\d)', ' '.join([str(B.get('ano', '')), B.get('title', ''), ID, str(_VIS0.get('quando', ''))]))
 _ANO0 = int(_a0.group(1)) if _a0 else None
 _MODERNO = bool(_ANO0 and _ANO0 >= 1950)
@@ -49,14 +49,16 @@ _SET_TEMA = {'outback': (r'fazend|rural|outback|trigo|celeiro|moinho|australia|s
              'arctic': (r'neve|gelo|artic|inverno|polar|congel|siberia|alasca|nevasca|geada|antart', 'neve e gelo'),
              'palace': (r'palacio|\brei\b|rainha|imperador|\bcorte\b|governo|sultao|presidente|capital|farao|imperio|czar', 'palacio (torres, palmeiras, igreja)'),
              'stadium': (r'estadio|torcida|\bjogo\b|partida|arena|\bluta\b|ringue|\bcopa\b|olimp|campeonato', 'estadio lotado'),
-             'street': (r'.', 'rua de cidade')}
+             'street': (r'\bcidade|\bruas?\b|avenida|bairro|\bcapital\b|\bpraca\b|mercado|\bvila\b|\bloja|predio|metropole|\bcentro\b|calcada|esquina|transito|taverna|\bbar\b|fabrica|teatro|banco\b|prefeitura|tribunal|universidade|hotel', 'rua de cidade (predios, lojas, calcamento)')}
+_RURAL = bool(re.search(r'fazend|\bhorta|rural|\bcampo\b|\bilha\b|plantac|lavoura|\bsitio\b|pasto|floresta|selva|deserto|montanha|acampamento|aldeia', _TXT0)) and not re.search(_SET_TEMA['street'][0], _TXT0)   # historia que se passa no campo/ilha/mato, sem cidade na narracao nem na pesquisa
 def _set_ok(s_):
     if B.get('set_tematico_ok') or s_ not in _SET_TEMA: return True
-    if s_ == 'street': return not (_ANO0 and _ANO0 >= 1970)   # rua antiga (lampiao, loja de madeira) nao serve para historia atual
+    if s_ == 'street': return not (_ANO0 and _ANO0 >= 1970) and bool(re.search(_SET_TEMA['street'][0], _TXT0))   # rua antiga (lampiao, loja de madeira) nao serve para historia atual; e so' entra se a historia tem cidade
     if s_ == 'medieval' and _ANO0 and _ANO0 > 1750: return False
+    if s_ == 'mountain' and not re.search(r'montanh|colina|\bserra\b|\balpes|\bmorro|penhasco|encosta|desfiladeiro|cordilheira', _TXT0): return False   # front de montanha so' em historia de montanha
     return bool(re.search(_SET_TEMA[s_][0], _TXT0))
 def _set_limpo(s_):   # a locacao limpa que substitui um cenario tematico fora de lugar
-    if s_ in ('street', 'palace', 'stadium'): return 'loc_cidade' if _MODERNO else 'loc_campo'
+    if s_ in ('street', 'palace', 'stadium'): return 'loc_cidade' if _MODERNO else ('countryside' if _set_ok('countryside') else 'loc_campo')
     if s_ == 'outback': return 'loc_deserto' if re.search(r'desert|areia|saara|arabia|egito|seca\b|texas|nevada|arizona', _TXT0) else ('loc_pista' if _MODERNO else 'loc_campo')
     if s_ == 'mountain': return 'loc_montanha'
     if s_ == 'harbor': return 'loc_patio' if _MODERNO else 'loc_campo'
@@ -106,7 +108,7 @@ _TAM_REAL = ((r'balao_festa|party_balloon|bexiga', 0.4, 'H', 'max'), (r'cybertru
              (r'truck|caminh', 7.5, 'L', 'min'), (r'onibus|\bbus', 11.0, 'L', 'min'), (r'tank|tanque(?!_ar)|blindado', 7.0, 'L', 'min'), (r'motorcycle|moto\b', 2.2, 'L', 'min'), (r'bicycle|bicicleta', 1.8, 'L', 'min'),
              (r'wagon|carroca|charrete|diligencia', 3.6, 'L', 'min'), (r'helicopter|helicoptero', 12.0, 'L', 'min'), (r'b2_|aviao|plane|biplano', 12.0, 'L', 'min'), (r'balloon|balao', 14.0, 'H', 'min'),
              (r'canhao_moderno', 4.5, 'L', 'min'), (r'^cannon$|canhao', 2.8, 'L', 'min'), (r'locomotiva|\btrem\b|train', 14.0, 'L', 'min'), (r'trator|tractor', 4.0, 'L', 'min'), (r'barco|boat|canoa', 5.0, 'L', 'min'), (r'piano', 1.6, 'L', 'min'),
-             (r'throne|trono', 1.9, 'H', 'min'), (r'guilhotina', 4.0, 'H', 'min'), (r'telescopio', 2.2, 'H', 'min'))
+             (r'navio|^ship$|caravela|fragata', 30.0, 'L', 'min'), (r'throne|trono', 1.9, 'H', 'min'), (r'guilhotina', 4.0, 'H', 'min'), (r'telescopio', 2.2, 'H', 'min'))
 def _tam_real(as_, s_atual, z_=0.0):   # devolve (escala corrigida, texto para a folha 2) ou (s_atual, None)
     nm_ = str(as_)
     if nm_.endswith('_air') and not re.search(r'roadster', nm_): return s_atual, None   # versoes "no ar" de foguete/balao sao fundo de cena, o roteiro escolhe
@@ -117,7 +119,7 @@ def _tam_real(as_, s_atual, z_=0.0):   # devolve (escala corrigida, texto para a
         dim_ = d_[1] if eixo_ == 'H' else max(d_[0], d_[2])
         if dim_ <= 0: return s_atual, None
         alvo_ = round(_KM * m_ / dim_, 2)
-        if modo_ == 'min' and float(s_atual) < 0.85 * alvo_ and float(z_) > -16: return alvo_, f'{nm_}: {m_} m reais -> escala {alvo_} (estava {s_atual}: pequeno demais)'
+        if modo_ == 'min' and float(s_atual) < 0.85 * alvo_ and float(z_) > (-70 if re.search(r'navio|^ship$|caravela|fragata', nm_) else -16): return alvo_, f'{nm_}: {m_} m reais -> escala {alvo_} (estava {s_atual}: pequeno demais)'
         if modo_ == 'max' and float(s_atual) > 1.2 * alvo_: return alvo_, f'{nm_}: {m_} m reais -> escala {alvo_} (estava {s_atual}: grande demais)'
         return s_atual, None
     return s_atual, None
@@ -239,6 +241,7 @@ if REGIAO is None:
     if REGIAO == 'eua' and _ano and int(_ano.group(1)) < 1850: REGIAO = 'colonial'
     if REGIAO in ('europa', None) and _ano and int(_ano.group(1)) < 500 and re.search(r'roma|grec|cesar|gladiad', _rt): REGIAO = 'classico'
 _regmap = {}
+if REGIAO in _REG_N and _RURAL and not B.get('regiao'): REGIAO = None   # v13: historia no campo/ilha: sem predio de cidade da regiao (tijolo, caixa d'agua) atras da horta
 if REGIAO in _REG_N:
     _ks = [f'kit/rg_{REGIAO}_{i}' for i in range(1, _REG_N[REGIAO] + 1)]
     for b_, i_ in _REG_BASE.items(): _regmap[b_] = _ks[i_ - 1:] + _ks[:i_ - 1]
@@ -429,7 +432,7 @@ if ANO and B.get('veiculos_epoca') is not False:   # VEICULOS DA EPOCA (19/11): 
     _regmap.setdefault('vehicles/tank', ['kit/tanque_ww1' if ANO < 1925 else 'kit/tanque_ww2' if ANO < 1955 else 'kit/tanque_moderno'])
     if ANO < 1955: _regmap.setdefault('vehicles/airplane', ['kit/biplano' if ANO < 1936 else 'kit/aviao_ww2'])
     if ANO < 1950: _regmap.setdefault('vehicles/truck', ['kit/caminhao_antigo'])
-    if ANO < 1820: _regmap.setdefault('kit/navio_vapor', ['kit/navio_vela'])   # 23/11: antes do vapor so' existe navio a vela
+    if ANO < 1865: _regmap.setdefault('kit/navio_vapor', ['kit/navio_vela']); _regmap.setdefault('ship', ['kit/navio_vela'])   # 23/11: antes do vapor so' existe navio a vela
     if 1840 <= ANO < 1955: _regmap.setdefault('ship', ['kit/navio_vapor'])
     elif ANO >= 1955: _regmap.setdefault('ship', ['kit/navio_moderno'])
 _CHAO = _REG_CHAO.get(REGIAO)
@@ -769,6 +772,11 @@ def direct(beats):
                 persons_out = [w.split(':')[0] for w in b.get('who', [])]
                 army = persons_out[0] if persons_out else (outs[0] if outs else 'X')
                 b['crowd'] = {'n': (12 if b.get('impact') else 5) if b.get('emus') else (18 if (b.get('impact') or (mass and (arrive or first))) else 10 if mass else 6), 'outfits': list(dict.fromkeys(persons_out + [army])), 'march': bool(arrive or first or (shot == 'reveal' and mass)) and not (b.get('impact') and any(SHOOT.match(w_) for w_ in words))}
+                # v13: multidao automatica NUNCA e' clone de personagem da historia (10 fazendeiros iguais ao heroi). So' vira multidao quem e' tropa (fuzil), povo (POV/POVO/SOL/TRO), ou figurino com "hats"/"multidao": true
+                _OF = B.get('outfits', {}); _massa = lambda o_: o_.startswith(('POV', 'SOL', 'TRO')) or bool(_OF.get(o_, {}).get('rifle') or _OF.get(o_, {}).get('hats') or _OF.get(o_, {}).get('multidao'))
+                _om = [o_ for o_ in b['crowd']['outfits'] if _massa(o_)] or ([] if b.get('impact') else [o_ for o_ in _OF if o_.startswith(('POV', 'POVO'))][:1])
+                if _om: b['crowd']['outfits'] = _om
+                elif not b.get('impact'): b['crowd'] = {'n': 0, 'outfits': persons_out[:1] or ['X'], 'march': False}
             if not b.get('who') and not b.get('explica') and b['crowd'].get('outfits'): b['who'] = [f"{b['crowd']['outfits'][0]}:0:neutral"]
             _sy = __import__('unicodedata').normalize('NFKD', b.get('say', '').lower()).encode('ascii', 'ignore').decode()
             if re.search(r'multid|milhares|milhoes|\bmil pessoas|lotad|lotou|lotaram|centenas|todo mundo|populac|\bpovo\b|torcida|plateia|publico|cheio de gente|aglomer|protesto|manifesta|fila enorme', _sy) and not b.get('emus'):
@@ -803,7 +811,8 @@ for _ib, _b in enumerate(B['beats']):
     if _nm and not _b.get('text'): _b['text'] = ('BATALHÃO ' + _nm.group(1)).upper()
     if _LADOS and re.search(r'um contra o outro|uns contra os outros|se enfrentaram|frente a frente|avancaram|atacaram|comecou a batalha|comecou a guerra|lutaram|combate|batalha comecou', _s) and not _b.get('esperando'):
         _b['batalha'] = True; _b['lados'] = _LADOS
-    if re.search(r'voaram|voou pelos ares|pelos ares|arremessad|lancados longe|jogados longe|explodiu|explodiram|explosao|explosoes|bomba|granada|canhao|canhoes|canhonaços|artilharia|morteiro|bombarde', _s) and (_EXERC or _b.get('batalha')):
+    # v13: so' ha' gente voando se a frase diz que houve EXPLOSAO/DISPARO. "Trouxeram canhoes", "apontaram os canhoes", ou batalha sem tiro ("tiros": false) = ninguem voa (a Guerra do Porco nao teve um tiro)
+    if _b.get('tiros') is not False and (re.search(r'voaram|voou pelos ares|pelos ares|arremessad|lancados longe|jogados longe|explodiu|explodiram|explosao|explosoes|bomba|granada|canhonaços|bombarde', _s) or (re.search(r'canhao|canhoes|artilharia|morteiro', _s) and re.search(r'dispar|atir|abriu fogo|abriram fogo|bombarde|troou|rugi', _s))) and (_EXERC or _b.get('batalha')):
         _b['voando'] = 3 if re.search(r'voaram|pelos ares|arremess|lancados|jogados', _s) else 2
         if _LADOS: _b['lados'] = _LADOS
     if re.search(r'conversar|conversaram|conversavam|dialog|negoci|reuniram|reuniao|discutiram|combinaram|sentaram para', _s) and len(_b.get('who', [])) >= 2 and not _b.get('acao'):
@@ -820,6 +829,7 @@ AMB = {}
 HEROI = _heroi()
 STATE = {'mapa': any(_b.get('mapa') for _b in B['beats'])}   # mapa pedido no roteiro: nao cria outro automatico
 KWSFX = []
+_crowd_roteiro = {id(b_) for b_ in beats if isinstance(b_.get('crowd'), dict)}   # multidao que o ROTEIRO pediu fica como esta
 direct(beats)
 if B.get('director') is not False and not any(b.get('impact') for b in beats) and len(beats) > 4:
     _b = beats[int(len(beats) * 0.6)]
@@ -1305,7 +1315,8 @@ def build_beat(k, b):
             else: props = props + [[as_, (3.1 if (k + n_auto) % 2 else -3.1), 0.2 + 0.3 * n_auto, sc_]]
             tem_.add(as_); n_auto += 1; b.setdefault('_auto_obj', []).append(as_)
     if re.search(r'navio|frota|marinha|esquadra|encouracado', _say_sp) and wide_pre and not b.get('interior') and b.get('set', SET) in ('palace', 'harbor') and b.get('objetos') is not False:
-        props = props + [['ship', -13, -34, 0.8], ['ship', 12, -40, 0.7]]; b.setdefault('_auto_obj', []).append('navios ao fundo')
+        _nv = 'kit/navio_vela' if (ANO and ANO < 1865) else 'ship'
+        props = props + [[_nv, -15, -36, 0.8], [_nv, 16, -46, 0.7]]; b.setdefault('_auto_obj', []).append('navios de guerra ao fundo, no tamanho real')
     # FOGO (seguir a risca): "queimaram", "tacaram fogo", "em chamas", "incendio" -> labaredas 3D em cena, perto do que queima, e clarao
     if re.search(r'queim|incendi|\bfogo\b|em chamas|\bchamas\b|fogueira nao', _say_sp) and not re.search(r'abriram fogo|abriu fogo|fogo amigo|cessar fogo|arma de fogo|lanca ?chamas|extintor|tiro', _say_sp) and b.get('fogo') is not False and not b.get('interior'):
         props = props + [['kit/fire', -2.6, -2.2, 1.5], ['kit/fire', 2.9, -3.0, 1.9], ['kit/fire', 0.3, -5.0, 2.4]] + ([['kit/fire', -6, -7, 2.6], ['kit/fire', 6.5, -8, 2.8]] if wide_pre else [])
@@ -1907,6 +1918,15 @@ def _era_fix(as_):
 for _b in beats:
     for _p in (_b.get('props') or []): _p[0] = _era_fix(_p[0])
     if _b.get('moveis'): _b['moveis'] = [[_era_fix(m_[0])] + list(m_[1:]) for m_ in _b['moveis']]
+# v13: multidao AUTOMATICA nunca e' clone de personagem da historia (10 fazendeiros iguais ao heroi): so' tropa (fuzil), povo (POV/POVO/SOL/TRO) ou figurino com "hats"/"multidao": true
+_OFm = B.get('outfits', {}); _massa = lambda o_: str(o_).startswith(('POV', 'SOL', 'TRO')) or bool(_OFm.get(o_, {}).get('rifle') or _OFm.get(o_, {}).get('hats') or _OFm.get(o_, {}).get('multidao'))
+for _b in beats:
+    c_ = _b.get('crowd')
+    if not isinstance(c_, dict) or id(_b) in _crowd_roteiro or not c_.get('n'): continue
+    _os = c_.get('outfits') or ([c_['outfit']] if c_.get('outfit') else [])
+    _om = [o_ for o_ in _os if _massa(o_)] or [o_ for o_ in _OFm if str(o_).startswith(('POV', 'POVO'))][:1]
+    if _om: c_['outfits'] = _om; c_.pop('outfit', None)
+    else: c_['n'] = 0
 shots = [build_beat(k, b) for k, b in enumerate(beats)]
 if _ano_e: shots = [re.sub(r'asset: "(mk/CandleStick_Stand|mk/CandleStick_Triple|mk/Crate_Wooden|mk/Barrel|cannon)"', lambda m_: 'asset: ' + json.dumps(_era_fix(m_.group(1))), sh_) for sh_ in shots]
 A_js = ', '.join(['0'] + [f"WS({starts[k]}, -3)" for k in range(1, len(beats))] + ['TOTAL_F()'])

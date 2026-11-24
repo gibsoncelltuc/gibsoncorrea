@@ -4,7 +4,7 @@
  "ancoras": {
   "ano": 1943,
   "era": "historica",
-  "regiao": "eua",
+  "regiao": null,
   "luz_base": "overcast",
   "cenarios": [
    "arctic",

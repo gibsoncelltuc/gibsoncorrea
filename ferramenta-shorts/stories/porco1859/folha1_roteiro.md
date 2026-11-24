@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Acontece que a Inglaterra respondeu com navios de guerra. Logo eram centenas de soldados e dezenas de canhões, apontados uns para os outros.
 - Som ambiente: sea
 - Efeitos sonoros marcados: sting@10, thump@40
-- Efeito + som nas palavras-chave: canhões -> burst + som de tiro/explosao; encena: fala (point) @4 -> acao + som de efeito; encena: atira @17 -> acao + som de efeito; encena: fala (point) @18 -> acao + som de efeito; explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
+- Efeito + som nas palavras-chave: canhões -> burst + som de tiro/explosao; encena: fala (point) @4 -> acao + som de efeito; encena: atira @17 -> acao + som de efeito; encena: fala (point) @18 -> acao + som de efeito
 - Efeito visual marcado: dust@40
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

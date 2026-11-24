@@ -7,12 +7,23 @@
   "regiao": "franca",
   "luz_base": "day",
   "cenarios": [
-   "harbor",
    "interior madeira",
    "interior pedra",
-   "street"
+   "loc_campo",
+   "loc_montanha"
   ],
-  "cenarios_trocados": []
+  "cenarios_trocados": [
+   [
+    "video",
+    "street",
+    "loc_campo"
+   ],
+   [
+    "cena 13",
+    "street",
+    "loc_campo"
+   ]
+  ]
  },
  "proibido_pela_epoca": [
   "carro dos anos 50",

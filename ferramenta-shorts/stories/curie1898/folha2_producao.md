@@ -3,7 +3,7 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/curie1898/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py curie1898` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Existem cadernos tão perigosos que só podem ser lidos com roupa de pro...
-- Cenario: street | luz: dia | clima: limpo
+- Cenario: loc_campo | luz: dia | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): PES (variante 0, expressao scared); JOR (variante 0, expressao surprised)
@@ -13,7 +13,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b1 - Era mil oitocentos e noventa e oito, em Paris, na França.
-- Cenario: street | luz: dia | clima: limpo
+- Cenario: loc_campo | luz: dia | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Marie ganhou dois prêmios Nobel, em física e em química. Foi a primeir...
-- Cenario: street | luz: dia | clima: limpo
+- Cenario: loc_campo | luz: dia | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): MAR (variante 0, expressao laugh); PIE (variante 0, expressao grin); JOR (variante 0, expressao surprised) | multidao: 18 de POV/JOR
@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Acontece que a radiação foi destruindo a saúde dela, aos poucos. Em mi...
-- Cenario: street | luz: dia | clima: limpo
+- Cenario: loc_campo | luz: dia | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): MAR (variante 0, expressao sad)
@@ -103,7 +103,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b10 - E o rádio leva cerca de mil e seiscentos anos só para perder metade da...
-- Cenario: harbor | luz: dia | clima: limpo
+- Cenario: loc_montanha | luz: dia | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao shock); POV (variante 1, expressao surprised); PES (variante 0, expressao surprised) | multidao: 16 de POV
@@ -113,7 +113,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b11 - Ou seja: os cadernos de Marie Curie vão continuar radioativos por muit...
-- Cenario: harbor | luz: dia | clima: limpo
+- Cenario: loc_montanha | luz: dia | clima: limpo
 - Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): MAR (variante 0, expressao smile)
@@ -123,7 +123,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b12 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: street | luz: dia | clima: limpo
+- Cenario: loc_campo | luz: dia | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (1): PES (variante 0, expressao grin)
