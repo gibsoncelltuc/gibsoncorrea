@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 14 - O Químico que Sonhou com uma Cobra
 
-Gerado em 24/11 03:01 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 0%, cenario_e_epoca_ok 100%
+Gerado em 24/11 03:02 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 0%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
