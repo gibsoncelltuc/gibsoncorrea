@@ -13,13 +13,13 @@ b5 | interior pedra | close | 1 | reagir | kit/kite, kit/key | - | -
 b6 | loc_campo | orbit | 10 | reagir, batalha | kit/key, kit/kite | - | -
 b7 | interior madeira | two | 2 | discutir, INTERAGEM: cochichar | kit/kite | - | -
 b8 | interior madeira | group | 2 | conversar, INTERAGEM: o outro se aproxima | - | - | -
-b9 | street | group | 16 | comemorar, INTERAGEM: pular, batalha | kit/lightning_rod, buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
+b9 | street | group | 1 | comemorar, batalha | kit/lightning_rod, buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
 b10 | interior loja | close | 1 | conversar | kit/key | - | -
 b11 | street | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/kite
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b6, b9
-Interacoes entre personagens: b0 susto, b2 aproxima-se, b3 discutir, b4 avanca e o outro recua, b7 cochichar, b8 o outro se aproxima, b9 pular
+Interacoes entre personagens: b0 susto, b2 aproxima-se, b3 discutir, b4 avanca e o outro recua, b7 cochichar, b8 o outro se aproxima
 
 Cenas com personagens parados: 1 de 12
 FALTA MODELAR: nada

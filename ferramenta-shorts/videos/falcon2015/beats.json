@@ -49,17 +49,19 @@
  },
  "beats": [
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
-    "MUS:0:grin",
-    "ENG:0:surprised"
+    "MUS:0:grin"
    ],
    "props": [
     [
      "kit/falcon9_land",
-     2.4,
-     -9.0,
-     1.0
+     0.0,
+     -8.0,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "2015",
@@ -71,7 +73,28 @@
    ],
    "say": "Durante sessenta anos, todo foguete era jogado fora depois de um voo. Até que um deles voltou e desceu de ré.",
    "fachada": false,
-   "set": "harbor"
+   "set": "harbor",
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 3.6,
+   "d0": 41.7,
+   "d1": 39.7,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -3.6, camera a 39.7 m, altura 3.6 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/falcon9_land",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -86,35 +109,66 @@
    "set": "outback"
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
-    "ENG:0:worried:paper",
-    "MUS:0:suspicious"
+    "ENG:0:worried:paper"
    ],
    "acao": "discutir",
    "say": "Elon Musk queria reaproveitar os foguetes da SpaceX, como se reaproveita um avião. Muitos achavam impossível.",
    "props": [
     [
      "kit/rocket",
-     2.4,
+     0.0,
      -8.0,
-     1.1
+     1.1,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/falcon9_land",
-     1.8,
-     -0.6,
-     1.0
+     7.0,
+     -14.0,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fachada": false,
-   "set": "countryside"
+   "set": "countryside",
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 17.0,
+   "d1": 16.2,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o rocket (alvo z -3.6, camera a 16.2 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/rocket",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/falcon9_land",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
-    "ENA:0:sad",
-    "MUS:0:nervous"
+    "ENA:0:sad"
    ],
    "fx": [
     "burst@30",
@@ -128,13 +182,37 @@
    "props": [
     [
      "kit/rocket",
-     2.0,
-     -9.0,
-     1.0
+     0.0,
+     -8.0,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "set": "harbor",
-   "fachada": false
+   "fachada": false,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 15.3,
+   "d1": 14.5,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o rocket (alvo z -3.6, camera a 14.5 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/rocket",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -149,28 +227,24 @@
    "interior": false
   },
   {
-   "shot": "crowd",
+   "shot": "wide",
    "who": [
-    "ENG:0:surprised",
-    "ENA:0:surprised",
-    "MUS:0:grin"
+    "ENG:0:surprised"
    ],
    "batalha": true,
    "tiros": false,
    "crowd": {
-    "n": 18,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "surprised"
+    "n": 0
    },
    "props": [
     [
      "kit/falcon_air",
-     2.0,
-     -12.0,
-     1.4
+     0.0,
+     -8.0,
+     1.4,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -183,10 +257,28 @@
    ],
    "say": "Depois de soltar a parte de cima, a parte de baixo virou no céu, e começou a voltar para a Terra.",
    "fachada": false,
-   "set": "harbor"
+   "set": "harbor",
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.6,
+   "d0": 29.8,
+   "d1": 28.4,
+   "detalhe": false,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon_air (alvo z -3.6, camera a 28.4 m, altura 2.6 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/falcon_air",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
-   "shot": "low",
+   "shot": "wide",
    "hora": "noite",
    "who": [
     "ENA:0:nervous"
@@ -194,9 +286,12 @@
    "props": [
     [
      "kit/falcon_air",
-     0.3,
-     -7.0,
-     1.5
+     0.0,
+     -8.0,
+     1.5,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -207,21 +302,44 @@
    ],
    "say": "Acontece que ela desceu de ré, de pé, com o motor aceso freando a queda.",
    "fachada": false,
-   "set": "countryside"
+   "set": "countryside",
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.8,
+   "d0": 32.1,
+   "d1": 30.6,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon_air (alvo z -3.6, camera a 30.6 m, altura 2.8 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/falcon_air",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "hora": "noite",
    "who": [
-    "ENG:0:shock",
-    "ENA:0:surprised"
+    "ENG:0:shock"
    ],
    "props": [
     [
      "kit/falcon9_land",
-     1.6,
-     -6.0,
-     1.1
+     0.0,
+     -8.0,
+     1.1,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -234,32 +352,49 @@
    ],
    "say": "E desceu certinho no meio da plataforma, abrindo as pernas no último segundo.",
    "fachada": false,
-   "set": "countryside"
+   "set": "countryside",
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 3.9,
+   "d0": 46.1,
+   "d1": 43.9,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -3.6, camera a 43.9 m, altura 3.9 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/falcon9_land",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
-   "shot": "crowd",
+   "shot": "wide",
    "who": [
-    "MUS:0:laugh",
-    "ENG:0:laugh",
-    "ENA:0:laugh"
+    "MUS:0:laugh"
    ],
    "batalha": true,
    "tiros": false,
    "acao": "comemorar",
    "crowd": {
-    "n": 20,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "laugh"
+    "n": 0
    },
    "props": [
     [
      "kit/falcon9_land",
-     0,
-     -12.0,
-     1.3
+     0.0,
+     -8.0,
+     1.3,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -274,7 +409,25 @@
    "titulo": true,
    "say": "Os funcionários da SpaceX gritaram de alegria, como numa final de campeonato.",
    "fachada": false,
-   "set": "countryside"
+   "set": "countryside",
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 4.6,
+   "d0": 54.9,
+   "d1": 52.3,
+   "detalhe": false,
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -3.6, camera a 52.3 m, altura 4.6 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/falcon9_land",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -288,36 +441,80 @@
    "props": [
     [
      "kit/rocket",
-     1.2,
-     0.2,
-     0.5
+     0.0,
+     -1.2,
+     0.5,
+     {
+      "fixo": true
+     }
     ]
    ],
    "detalhe": true,
-   "interior": "loja"
+   "interior": "loja",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e rocket juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/rocket",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
-   "shot": "close",
+   "shot": "wide",
    "who": [
     "MUS:0:smile"
    ],
    "props": [
     [
      "kit/falcon9_land",
-     -1.8,
+     0.0,
      -8.0,
-     1.0
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "acao": "comemorar",
    "say": "Hoje, os foguetes da SpaceX pousam quase toda semana. E a viagem ao espaço ficou muito mais barata.",
    "fachada": false,
-   "set": "harbor"
+   "set": "harbor",
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 3.6,
+   "d0": 41.7,
+   "d1": 39.7,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -3.6, camera a 39.7 m, altura 3.6 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/falcon9_land",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   }
  ],
  "fontes": [
   "https://en.wikipedia.org/wiki/Falcon_9_flight_20",
   "https://www.spacex.com/launches/"
  ],
- "heroi_sem_close_ok": true
+ "heroi_sem_close_ok": true,
+ "max_wide": 9
 }

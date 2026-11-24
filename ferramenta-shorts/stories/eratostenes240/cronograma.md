@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 10 - Eratóstenes Mede a Terra
 
-Gerado em 24/11 17:06 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 17:07 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -10,13 +10,13 @@ b0 | simples | loc_campo | two | ERA, BIB | - | globe, marco_alexandria, stick, 
 b1 | transicao | loc_campo | reveal | BIB, POV | 8 | apartment, house_two, marco_alexandria, lamppost | - | Era por volta de duzentos e quarenta antes de Cristo, e Eratóstenes er
 b2 | simples | loc_deserto | two | ERA, BIB | - | well, tree_palm, bucket | - | Ele leu num papiro que, em Siena, ao meio-dia de verão, o sol iluminav
 b3 | simples | loc_deserto | group | ERA, CAM | - | well, tree_palm | - | Isso significava que o sol estava bem em cima, e nada fazia sombra.
-b4 | simples | loc_montanha | two | ERA, BIB | - | marco_alexandria, stick, tree_palm | - | Em Alexandria, no mesmo dia, uma vara fincada no solo fazia uma sombra
-b5 | simples | loc_montanha | close | ERA | - | globe, marco_alexandria, tree_palm | - | Eratóstenes pensou: "Se a Terra fosse plana, as duas sombras seriam ig
+b4 | transicao | loc_montanha | wide | ERA | - | marco_alexandria, stick, tree_palm | - | Em Alexandria, no mesmo dia, uma vara fincada no solo fazia uma sombra
+b5 | simples | loc_montanha | two | ERA | - | globe, marco_alexandria, tree_palm | - | Eratóstenes pensou: "Se a Terra fosse plana, as duas sombras seriam ig
 b6 | chave | loc_campo | orbit | ERA, BIB | 10 | globe, marco_alexandria, stick, tree_palm | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que a sombra era diferente, e isso só podia acontecer se a Te
 b7 | simples | loc_campo | track | ERA, CAM | - | apartment, house_two, stick, lamppost, tree_palm | - | Ele mediu o ângulo da sombra, e contou os passos entre as duas cidades
 b8 | simples | interior pedra | two | ERA, BIB | - | - | - | Com uma conta simples, encontrou um número muito perto do tamanho real
-b9 | chave | loc_montanha | group | ERA, BIB | 14 | globe, marco_alexandria, starlink_sat, tree_palm | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E tudo isso aconteceu mais de dois mil anos atrás, sem satélite e sem 
-b10 | simples | loc_montanha | close | ERA | - | starlink_sat, stick, well, tree_palm, bucket | - | No fim, uma vara e um poço fizeram o trabalho de um satélite.
+b9 | chave | loc_montanha | crowd | ERA, BIB | 14 | globe, marco_alexandria, starlink_sat, tree_palm | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E tudo isso aconteceu mais de dois mil anos atrás, sem satélite e sem 
+b10 | simples | loc_montanha | two | ERA | - | starlink_sat, stick, well, tree_palm, bucket | - | No fim, uma vara e um poço fizeram o trabalho de um satélite.
 b11 | simples | loc_campo | close | ERA | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

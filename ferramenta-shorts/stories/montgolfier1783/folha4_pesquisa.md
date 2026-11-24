@@ -5,10 +5,10 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Historia: Os Primeiros Passageiros do Céu
 - Epoca: 1783 | Lugar: ? | Quando: ?
 - HEROIS (objeto): kit/balloon
-- HEROIS (personagens): JOS, ETI
+- HEROIS (personagens): ETI, JOS
 - Cenarios: interior madeira, loc_campo, palace
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
-- Tamanho real aplicado: kit/balloon: 14.0 m reais -> escala 8.22 (estava 3.0: pequeno demais); kit/balloon: 14.0 m reais -> escala 8.22 (estava 2.4: pequeno demais); kit/balloon: 14.0 m reais -> escala 8.22 (estava 1.4: pequeno demais); kit/balloon: 14.0 m reais -> escala 8.22 (estava 2.8: pequeno demais); nature/bush: 11.0 m reais -> escala 4.1 (estava 1.2: pequeno demais); kit/balloon: 14.0 m reais -> escala 8.22 (estava 1.3: pequeno demais)
+- Tamanho real aplicado: nature/bush: 11.0 m reais -> escala 4.1 (estava 1.2: pequeno demais); kit/balloon: 14.0 m reais -> escala 8.22 (estava 1.3: pequeno demais)
 
 ## Itens pesquisados
 

@@ -12,8 +12,8 @@ b6 | orbit | -  | batalha aberta com tiros, tropa | encena: chega (point) @4 (ac
 b7 | two | -  | interior | descobriu (ring + som de alerta); encena: examina (think) @1 (acao + som de efeito) | -
 b8 | group | -  | interior, objeto na mao | encena: x_fone (lift) @0 (acao + som de efeito) | -
 b9 | group | -  | batalha aberta com tiros, tropa, placa: GENÉTICA | encena: olha (point) @13 (acao + som de efeito) | -
-b10 | close | -  | - | - | -
+b10 | two | -  | - | - | -
 b11 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 14% | medio 70% | aberto 10% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 10% | medio 74% | aberto 10% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 2 | dentro do padrao do canal

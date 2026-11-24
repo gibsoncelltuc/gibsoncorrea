@@ -184,10 +184,9 @@
   {
    "camera": "group",
    "personagens": [
-    "FRA",
-    "FIL"
+    "FRA"
    ],
-   "multidao": 14,
+   "multidao": 0,
    "objetos": [
     "buildings/house_small",
     "kit/lightning_rod",

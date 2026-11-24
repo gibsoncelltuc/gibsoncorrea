@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 09 - Mendel e as Ervilhas
 
-Gerado em 24/11 17:06 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 17:07 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -16,7 +16,7 @@ b6 | chave | loc_montanha | orbit | MEN, FRE | 10 | pea_green, pea_yellow | corp
 b7 | simples | interior madeira | two | MEN, FRE | - | - | - | Ele descobriu que cada filho herda uma instrução do pai e outra da mãe
 b8 | simples | interior madeira | group | MEN, CIE | - | - | - | Publicou tudo em mil oitocentos e sessenta e seis, mas quase ninguém p
 b9 | chave | loc_deserto | group | CIE, CIE | 14 | pea_green, pea_yellow | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Só no ano mil e novecentos, já depois da morte dele, os cientistas vir
-b10 | simples | loc_deserto | close | MEN | - | pea_green | - | No fim, a ervilha fez o monge famoso.
+b10 | simples | loc_deserto | two | MEN | - | pea_green | - | No fim, a ervilha fez o monge famoso.
 b11 | simples | loc_campo | close | MEN | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

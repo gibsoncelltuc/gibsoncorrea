@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 10 - Eratóstenes Mede a Terra
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 24 acoes catalogadas, 24 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.3s - 15 palavras - plano two
@@ -12,6 +12,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | mediu (0.5s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
 | 2 | - | INTERACAO | o outro se aproxima | OK |
 | 3 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: examina na palavra mediu (0.5s): executa: examina com lupa/microscopio/balanca
+- INTERACAO (a cena toda): executa: o outro se aproxima
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
 
 ## Cena b1 - 4.4s a 10.4s - 21 palavras - plano reveal
 > "Era por volta de duzentos e quarenta antes de Cristo, e Eratóstenes era o bibliotecário da cidade de Alexandria, no Egito."
@@ -19,6 +26,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | MAPA | EGITO | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+- multidao de 8: parada, reagindo (neutra), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
 
 ## Cena b2 - 11.6s a 16.3s - 19 palavras - plano two
 > "Ele leu num papiro que, em Siena, ao meio-dia de verão, o sol iluminava o fundo de um poço."
@@ -28,6 +41,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | leu (11.8s) | ACAO: x_le | le o papel | OK |
 | 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: x_le na palavra leu (11.8s): executa: le o papel
+- INTERACAO (a cena toda): executa: insiste
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
 
 ## Cena b3 - 17.3s a 20.6s - 13 palavras - plano group
 > "Isso significava que o sol estava bem em cima, e nada fazia sombra."
@@ -36,22 +56,33 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | INTERACAO | vai ate o outro | OK |
 | 2 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
 
-## Cena b4 - 21.8s a 25.9s - 14 palavras - plano two
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: vai ate o outro
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b4 - 21.8s a 25.9s - 14 palavras - plano wide
 > "Em Alexandria, no mesmo dia, uma vara fincada no solo fazia uma sombra pequena."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | aproxima-se | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b5 - 27.1s a 31.1s - 12 palavras - plano close
+## Cena b5 - 27.1s a 31.1s - 12 palavras - plano two
 > "Eratóstenes pensou: "Se a Terra fosse plana, as duas sombras seriam iguais.""
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | pensou (27.9s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
 | 2 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: pensa na palavra pensou (27.9s): executa: mao no queixo + brilho de ideia
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
 
 ## Cena b6 - 32.4s a 36.6s - 16 palavras - plano orbit
 > "Acontece que a sombra era diferente, e isso só podia acontecer se a Terra fosse curva."
@@ -60,6 +91,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 2 | - | ATUACAO | reagir | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- ATUACAO (a cena toda): executa: reagir
+- multidao de 10: parada, reagindo (shock), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
 
 ## Cena b7 - 37.8s a 41.1s - 14 palavras - plano track
 > "Ele mediu o ângulo da sombra, e contou os passos entre as duas cidades."
@@ -68,6 +106,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | mediu (38.1s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
 | 2 | contou (39.7s) | ACAO: fala | aponta explicando | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: examina na palavra mediu (38.1s): executa: examina com lupa/microscopio/balanca
+- ACAO: fala na palavra contou (39.7s): braco estendido apontando para o objeto/lugar citado
+<!-- /FISICA -->
 
 ## Cena b8 - 42.5s a 46.2s - 14 palavras - plano two
 > "Com uma conta simples, encontrou um número muito perto do tamanho real da Terra."
@@ -77,23 +121,42 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | encontrou (43.8s) | ACAO: olha | aponta/olha | OK |
 | 2 | - | INTERACAO | cochichar | OK |
 | 3 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
 
-## Cena b9 - 47.4s a 51.0s - 15 palavras - plano group
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: olha na palavra encontrou (43.8s): braco estendido apontando para o objeto/lugar citado
+- INTERACAO (a cena toda): executa: cochichar
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b9 - 47.4s a 51.0s - 15 palavras - plano crowd
 > "E tudo isso aconteceu mais de dois mil anos atrás, sem satélite e sem computador."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | INTERACAO | pular | OK |
-| 3 | - | ATUACAO | comemorar | OK |
-| 4 | - | PLACA | 40.000 KM | OK |
+| 2 | - | ATUACAO | comemorar | OK |
+| 3 | - | PLACA | 40.000 KM | OK |
+<!-- FISICA -->
 
-## Cena b10 - 52.6s a 55.4s - 13 palavras - plano close
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- multidao de 14: parada, reagindo (laugh), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
+
+## Cena b10 - 52.6s a 55.4s - 13 palavras - plano two
 > "No fim, uma vara e um poço fizeram o trabalho de um satélite."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | comemorar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+<!-- /FISICA -->
 
 ## Cena b11 - 56.5s a 59.8s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
@@ -102,4 +165,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | COMENTE! | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 

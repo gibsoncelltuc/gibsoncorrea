@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 11 - O Raio X de Röntgen
 
-Gerado em 24/11 17:06 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 17:07 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -13,7 +13,7 @@ b3 | simples | interior madeira | close | ROE | - | crookes_tube | - | Numa noit
 b4 | simples | interior madeira | low | ROE | - | xray_plate | - | Acontece que, do outro lado da sala, uma tela começou a brilhar no esc
 b5 | simples | interior madeira | two | ROE | - | crookes_tube, xray_plate | - | Ele pôs a mão na frente do tubo, e viu os próprios ossos na tela.
 b6 | simples | interior madeira | group | ROE, ANA | - | xray_plate | - | Duas semanas depois, ele chamou a esposa, Anna, e fotografou a mão del
-b7 | simples | interior madeira | close | ANA | - | xray_plate | - | Dizem que ela olhou a chapa, e disse: "Eu vi a minha morte."
+b7 | simples | interior madeira | two | ANA | - | xray_plate | - | Dizem que ela olhou a chapa, e disse: "Eu vi a minha morte."
 b8 | chave | street | crowd | JOR, MED, POV | 18 | marco_wurzburg, xray_plate | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A notícia correu o mundo. Jornais, médicos e curiosos queriam ver o ra
 b9 | simples | interior madeira | two | ROE, JOR | - | xray_plate | - | Como ninguém sabia o que era, ele chamou de raio X. X, de desconhecido
 b10 | chave | street | orbit | ROE, MED, POV | 18 | marco_wurzburg | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em mil novecentos e um, Röntgen ganhou o primeiro Prêmio Nobel de Físi

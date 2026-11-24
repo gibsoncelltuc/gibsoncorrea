@@ -106,10 +106,9 @@
    "cenario": "loc_deserto"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
-    "ERA",
-    "BIB"
+    "ERA"
    ],
    "multidao": 0,
    "objetos": [
@@ -120,14 +119,14 @@
    "palavras": 14,
    "cena": "b4",
    "frase": "Em Alexandria, no mesmo dia, uma vara fincada no solo fazia uma sombra pequena.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_montanha"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "ERA"
    ],
@@ -215,7 +214,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "group",
+   "camera": "crowd",
    "personagens": [
     "ERA",
     "BIB"
@@ -243,7 +242,7 @@
    "cenario": "loc_montanha"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "ERA"
    ],

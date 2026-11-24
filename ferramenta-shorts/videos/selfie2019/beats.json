@@ -122,18 +122,19 @@
    "interior": "loja"
   },
   {
-   "shot": "close",
+   "shot": "two",
    "who": [
     "BUK:0:grin"
    ],
    "props": [
     [
      "kit/phone",
-     1.2,
-     -0.4,
+     2.4,
+     0.2,
      1.4,
      {
-      "y": 1.5
+      "y": 1.5,
+      "fixo": true
      }
     ],
     [
@@ -156,7 +157,23 @@
    "objetos": false,
    "fachada": false,
    "impact": false,
-   "interior": "madeira"
+   "interior": "madeira",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "crowd",
@@ -272,18 +289,19 @@
    "interior": "madeira"
   },
   {
-   "shot": "close",
+   "shot": "two",
    "who": [
     "BUK:0:smile"
    ],
    "props": [
     [
      "kit/phone",
-     -1.2,
-     -0.6,
+     2.4,
+     0.2,
      1.2,
      {
-      "y": 1.3
+      "y": 1.3,
+      "fixo": true
      }
     ]
    ],
@@ -292,7 +310,23 @@
    "objetos": false,
    "fachada": false,
    "impact": false,
-   "interior": "pedra"
+   "interior": "pedra",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   }
  ],
  "fontes": [
@@ -323,5 +357,6 @@
    "https://en.wikipedia.org/wiki/United_Nations_General_Assembly_Hall",
    "https://en.wikipedia.org/wiki/Nayib_Bukele"
   ]
- }
+ },
+ "max_wide": 3
 }

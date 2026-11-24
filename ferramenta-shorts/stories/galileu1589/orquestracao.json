@@ -33,8 +33,7 @@
   {
    "camera": "two",
    "personagens": [
-    "GAL",
-    "ALU"
+    "GAL"
    ],
    "multidao": 0,
    "objetos": [
@@ -123,10 +122,9 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
-    "GAL",
-    "ALU"
+    "GAL"
    ],
    "multidao": 0,
    "objetos": [
@@ -138,19 +136,18 @@
    "palavras": 16,
    "cena": "b5",
    "frase": "Dizem que ele foi até a torre inclinada de Pisa, com duas bolas de pesos diferentes.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_deserto"
   },
   {
-   "camera": "orbit",
+   "camera": "wide",
    "personagens": [
-    "GAL",
-    "ALU"
+    "GAL"
    ],
-   "multidao": 12,
+   "multidao": 0,
    "objetos": [
     "kit/ball",
     "kit/marco_pisa",
@@ -208,7 +205,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "group",
+   "camera": "crowd",
    "personagens": [
     "AST",
     "AST"

@@ -82,12 +82,11 @@
    "cenario": "loc_montanha"
   },
   {
-   "camera": "reveal",
+   "camera": "wide",
    "personagens": [
-    "POV",
     "POV"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [
     "kit/marco_mesquita",
     "kit/mountain_bunker"
@@ -95,20 +94,20 @@
    "palavras": 18,
    "cena": "b1",
    "frase": "Foi em junho de dois mil e vinte e cinco. O alvo eram as usinas nucleares do Irã.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_pista"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
-    "GEN",
-    "TRU"
+    "GEN"
    ],
    "multidao": 0,
    "objetos": [
+    "kit/marco_mesquita",
     "kit/mountain_bunker"
    ],
    "palavras": 14,
@@ -121,7 +120,7 @@
    "cenario": "loc_montanha"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "GEN",
     "PIL"
@@ -161,11 +160,9 @@
   {
    "camera": "crowd",
    "personagens": [
-    "PIL",
-    "PIL",
-    "GEN"
+    "PIL"
    ],
-   "multidao": 12,
+   "multidao": 0,
    "objetos": [
     "kit/b2_air",
     "kit/marco_mesquita"
@@ -188,14 +185,14 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
-    "PIL",
-    "GEN"
+    "PIL"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/b2_air"
+    "kit/b2_air",
+    "kit/marco_mesquita"
    ],
    "palavras": 12,
    "cena": "b6",
@@ -207,7 +204,7 @@
    "cenario": "loc_patio"
   },
   {
-   "camera": "low",
+   "camera": "two",
    "personagens": [
     "PIL"
    ],
@@ -248,10 +245,9 @@
   {
    "camera": "orbit",
    "personagens": [
-    "PIL",
-    "GEN"
+    "PIL"
    ],
-   "multidao": 14,
+   "multidao": 0,
    "objetos": [
     "buildings/house_small",
     "kit/b2_air",
@@ -294,11 +290,9 @@
   {
    "camera": "crowd",
    "personagens": [
-    "POV",
-    "POV",
     "POV"
    ],
-   "multidao": 18,
+   "multidao": 0,
    "objetos": [
     "kit/marco_mesquita",
     "kit/mountain_bunker"
@@ -319,7 +313,7 @@
    "cenario": "loc_montanha"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "GEN",
     "PIL"
@@ -339,7 +333,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "TRU"
    ],

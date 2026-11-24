@@ -1,0 +1,97 @@
+# FOLHA 2 - FICHA DE CENA (gerada por enquadrar.py; a ferramenta monta cada cena com estes dados)
+
+Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
+
+## b0: "Um médico pediu uma coisa simples aos colegas: lavem as mãos. E foi expulso do hospital por isso."
+- LOCAL: hospital; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e wash_basin juntos (camera a 11.5 m)
+- PERSONAGENS: SEM (medico) na esquerda, expressao stern; DIR (medico) na direita, expressao angry; sem multidao; acao: discutir
+- OBJETO kit/wash_basin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
+- SOM: ding@30
+- TEXTO NA TELA: "1847" numa placa atras dos personagens, na palavra 1 da frase
+
+## b1: "Era mil oitocentos e quarenta e sete, no grande hospital de Viena, na Áustria."
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: revelacao (camera sobe e abre); plano medio enquadrando personagens e maca juntos (camera a 11.5 m)
+- PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
+- OBJETO kit/maca: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TEXTO NA TELA: "HOSPITAL DE VIENA" flutuando no alto, na palavra 1 da frase
+- MAPA: ÁUSTRIA (cobre a tela 1-2 s)
+
+## b2: "O hospital tinha duas alas de parto. Numa, as mães eram atendidas por parteiras. Na outra, por médicos."
+- LOCAL: sala de madeira; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: SEM (medico) na esquerda, expressao worried; PAR na direita, expressao sad; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+
+## b3: "E acontece que, na ala dos médicos, morriam muito mais mães, de uma febre misteriosa."
+- LOCAL: sala de madeira; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: MAE na esquerda, expressao scared; SEM (medico) na direita, expressao sad; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
+- SOM: sting@40
+
+## b4: "As mulheres imploravam de joelhos para não ir para a ala dos médicos."
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e maca juntos (camera a 11.5 m)
+- PERSONAGENS: MAE na esquerda, expressao scared; POV na direita, expressao cry; multidao de 14 (MAE, POV) ATRAS dos principais; acao: fala/gesto
+- OBJETO kit/maca: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+
+## b5: "Um dia, o amigo dele, Kolletschka, cortou o dedo com um bisturi, examinando um corpo, e morreu da mesma febre."
+- LOCAL: sala de madeira; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: KOL (medico) na esquerda, expressao shock; SEM (medico) na direita, expressao surprised; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
+- SOM: sting@30
+
+## b6: "Semmelweis entendeu tudo: os médicos saíam das autópsias e iam direto para os partos, com as mãos sujas."
+- LOCAL: sala de madeira; hora: day
+- CAMERA: close (rosto e ombros)
+- PERSONAGENS: SEM (medico) no centro, expressao surprised; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
+- SOM: ding@20
+
+## b7: "Ele colocou uma bacia com água e cloro na porta, e obrigou todo mundo a lavar as mãos antes de entrar."
+- LOCAL: sala de madeira; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e wash_basin juntos (camera a 11.5 m)
+- PERSONAGENS: SEM (medico) na esquerda, expressao grin; KOL (medico) na direita, expressao smile; sem multidao; acao: fala/gesto
+- OBJETO kit/wash_basin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
+- SOM: thump@40
+
+## b8: "As mortes despencaram quase dez vezes. Centenas de mães foram salvas."
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano de multidao; plano medio enquadrando personagens e wash_basin juntos (camera a 11.5 m)
+- PERSONAGENS: SEM (medico) na esquerda, expressao laugh; MAE no centro, expressao laugh; PAR na direita, expressao grin; multidao de 16 (MAE, POV) ATRAS dos principais; acao: comemorar
+- OBJETO kit/wash_basin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
+- SOM: ding@20
+- SOM: ding@60
+- TEXTO NA TELA: "VIDAS SALVAS" flutuando no alto, na palavra 1 da frase
+
+## b9: "Mas os médicos se ofenderam. Um cavalheiro, diziam, tem as mãos limpas. Semmelweis brigou com todos, e foi mandado embora."
+- LOCAL: sala de madeira; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: DIR (medico) na esquerda, expressao angry; SEM (medico) na direita, expressao shout; sem multidao; acao: discutir
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- EFEITO anel de impacto: acima da cabeca; entra no quadro +50 da cena
+- SOM: sting@50
+
+## b10: "Ele morreu em mil oitocentos e sessenta e cinco, sem ver ninguém dar razão a ele."
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e lapide juntos (camera a 8.0 m)
+- PERSONAGENS: MAE no centro, expressao cry; sem multidao; acao: fala/gesto
+- OBJETO kit/lapide: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+
+## b11: "Anos depois, a ciência provou os micróbios. Hoje, ele é chamado de salvador das mães."
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e wash_basin juntos (camera a 8.0 m)
+- PERSONAGENS: PAR no centro, expressao smile; sem multidao; acao: fala/gesto
+- OBJETO kit/wash_basin: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- TEXTO NA TELA: "LAVE AS MÃOS" numa placa atras dos personagens, na palavra 1 da frase
+

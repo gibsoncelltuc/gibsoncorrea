@@ -11,10 +11,10 @@ b3 | street | two | 2 | discutir, INTERAGEM: discutir | - | sword, sword | -
 b4 | street | two | 2 | encena, INTERAGEM: susto | kit/marco_rostock, kit/brass_nose | sword, sword | -
 b5 | loc_montanha | two | 1 | conversar | kit/brass_nose | - | -
 b6 | harbor | orbit | 8 | encena | - | - | -
-b7 | loc_campo | group | 1 | encena | kit/marco_uraniborg, kit/tower, kit/marco_rostock | paper | -
+b7 | loc_campo | wide | 1 | encena | kit/marco_uraniborg, kit/tower, kit/marco_rostock | paper | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | - | paper | -
 b9 | medieval | crowd | 19 | comemorar, batalha | kit/marco_rostock | - | -
-b10 | loc_montanha | close | 1 | conversar | kit/brass_nose, kit/marco_rostock | - | -
+b10 | loc_montanha | two | 1 | conversar | kit/brass_nose, kit/marco_rostock | - | -
 b11 | street | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/brass_nose

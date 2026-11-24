@@ -43,8 +43,7 @@
   {
    "camera": "two",
    "personagens": [
-    "MUS",
-    "ENG"
+    "MUS"
    ],
    "multidao": 0,
    "objetos": [
@@ -81,16 +80,15 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
-    "ENG",
-    "MUS"
+    "ENG"
    ],
    "multidao": 0,
    "objetos": [
     "kit/falcon9_land",
-    "kit/rocket",
-    "vehicles/airplane"
+    "kit/marco_canaveral",
+    "kit/rocket"
    ],
    "palavras": 16,
    "cena": "b2",
@@ -104,11 +102,11 @@
   {
    "camera": "two",
    "personagens": [
-    "ENA",
-    "MUS"
+    "ENA"
    ],
    "multidao": 0,
    "objetos": [
+    "kit/marco_canaveral",
     "kit/rocket"
    ],
    "palavras": 13,
@@ -144,11 +142,9 @@
   {
    "camera": "crowd",
    "personagens": [
-    "ENG",
-    "ENA",
-    "MUS"
+    "ENG"
    ],
-   "multidao": 18,
+   "multidao": 0,
    "objetos": [
     "kit/falcon_air",
     "kit/marco_canaveral"
@@ -169,13 +165,14 @@
    "cenario": "harbor"
   },
   {
-   "camera": "low",
+   "camera": "wide",
    "personagens": [
     "ENA"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/falcon_air"
+    "kit/falcon_air",
+    "kit/marco_canaveral"
    ],
    "palavras": 15,
    "cena": "b6",
@@ -189,12 +186,12 @@
   {
    "camera": "two",
    "personagens": [
-    "ENG",
-    "ENA"
+    "ENG"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/falcon9_land"
+    "kit/falcon9_land",
+    "kit/marco_canaveral"
    ],
    "palavras": 13,
    "cena": "b7",
@@ -208,11 +205,9 @@
   {
    "camera": "orbit",
    "personagens": [
-    "MUS",
-    "ENG",
-    "ENA"
+    "MUS"
    ],
-   "multidao": 20,
+   "multidao": 0,
    "objetos": [
     "kit/falcon9_land",
     "kit/marco_canaveral"
@@ -252,13 +247,14 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "close",
+   "camera": "wide",
    "personagens": [
     "MUS"
    ],
    "multidao": 0,
    "objetos": [
     "kit/falcon9_land",
+    "kit/marco_canaveral",
     "kit/rocket"
    ],
    "palavras": 18,
@@ -271,7 +267,7 @@
    "cenario": "harbor"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "MUS"
    ],

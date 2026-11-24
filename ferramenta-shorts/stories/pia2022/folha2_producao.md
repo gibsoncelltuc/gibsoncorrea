@@ -11,6 +11,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/sink, kit/marco_goldengate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, sede, twitter
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: golden
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e sink juntos (camera a 8.0 m)
+- PERSONAGENS: MUS no centro, expressao grin; sem multidao; acao: comemorar
+- OBJETO kit/sink: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- SOM: whoosh@20
+- MAPA: ESTADOS UNIDOS (cobre a tela 1-2 s)
+- TAKES: 3 takes (troca de angulo a cada ~1.8 s, sem corte seco):
+  - take 1 (0.2-2.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (2.0-3.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (3.9-5.7 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
 
 ## Cena b1 - Ele filmou a própria entrada e postou o vídeo na internet.
 - Cenario: loc_patio | luz: golden | clima: limpo
@@ -21,6 +35,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): internet, propria, video
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: golden
+- CAMERA: close (rosto e ombros)
+- PERSONAGENS: MUS no centro, expressao smug; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TAKES: 1 take continuo (2.3 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b2 - A legenda dizia: Entrando na sede do Twitter. Deixe isso afundar.
 - Cenario: loc_patio | luz: golden | clima: limpo
@@ -31,16 +54,43 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/sink, kit/marco_goldengate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): legenda, sede, twitter
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: golden
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e sink juntos (camera a 11.5 m)
+- PERSONAGENS: MUS na esquerda, expressao laugh; FUN2 na direita, expressao suspicious; sem multidao; acao: fala/gesto
+- OBJETO kit/sink: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +8 da cena
+- SOM: thump@8
+- TEXTO NA TELA: "DEIXE ISSO AFUNDAR" numa placa atras dos personagens, na palavra 1 da frase
+- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
+  - take 1 (10.4-12.4 s): mesmo angulo
+  - take 2 (12.4-14.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
 
 ## Cena b3 - É um trocadilho, porque em inglês a palavra sink quer dizer pia, e tam...
 - Cenario: loc_pista | luz: golden | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): FUN (variante 0, expressao surprised)
 - Animacao: conversar
 - Objetos/modelos: kit/sink
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): palavra, trocadilho
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: golden
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e sink juntos (camera a 8.0 m)
+- PERSONAGENS: FUN no centro, expressao surprised; sem multidao; acao: fala/gesto
+- OBJETO kit/sink: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +4 da cena
+- SOM: ding@4
+- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
+  - take 1 (15.7-17.6 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (17.6-19.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
 
 ## Cena b4 - Naquela época, ele estava prestes a fechar a compra do Twitter, por qu...
 - Cenario: loc_pista | luz: golden | clima: limpo
@@ -51,6 +101,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/marco_goldengate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): compra, dolares, fechar, twitter
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: golden
+- CAMERA: plano de grupo (3+ pessoas)
+- PERSONAGENS: MUS na esquerda, expressao smile; FUN na direita, expressao neutral; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TAKES: sequencia de acao em 3 cameras (5.0 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+<!-- /FICHA -->
 
 ## Cena b5 - Ele também mudou o perfil, e escreveu que era o Chefe Twit.
 - Cenario: interior loja | luz: golden | clima: limpo
@@ -61,6 +120,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chefe, perfil
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: golden
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: MUS na esquerda, expressao grin; FUN2 na direita, expressao surprised; sem multidao; acao: conversar
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TEXTO NA TELA: "CHEFE TWIT" numa placa atras dos personagens, na palavra 1 da frase
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (27.1-28.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (28.6-30.1 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
 
 ## Cena b6 - A cena deu o que falar no mundo inteiro.
 - Cenario: loc_campo | luz: golden | clima: limpo
@@ -71,6 +142,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/globe, kit/marco_goldengate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cena
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: golden
+- CAMERA: orbit; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)
+- PERSONAGENS: FUN na esquerda, expressao laugh; FUN2 na direita, expressao shock; multidao de 6 (POV) ATRAS dos principais; acao: fala/gesto
+- OBJETO kit/globe: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TAKES: 1 take continuo (1.5 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b7 - Uma pia, uma legenda e uma piada que ninguém esqueceu.
 - Cenario: loc_campo | luz: golden | clima: limpo
@@ -81,6 +161,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/sink
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): legenda, piada
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: golden
+- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e sink juntos (camera a 11.5 m)
+- PERSONAGENS: MUS na esquerda, expressao laugh; FUN no centro, expressao grin; FUN2 na direita, expressao smile; sem multidao; acao: comemorar
+- OBJETO kit/sink: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b8 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: loc_cidade | luz: golden | clima: limpo
@@ -103,7 +192,7 @@ kit/globe | b6 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/sink | grandes momentos: b4 | planos abertos: 2 | mistura: close 29% | medio 38% | aberto 26% | detalhe 7%
+- Objeto heroi: kit/sink | grandes momentos: b4 | planos abertos: 2 | mistura: close 20% | medio 47% | aberto 26% | detalhe 7%
 - Interacoes: b2 o outro se aproxima, b4 insiste, b5 vai ate o outro, b7 pular
 - RISCOS GERAIS: 
   - menos de 2 grandes momentos -> CORRECAO: "batalha": true (ou "impact": true) em duas cenas de acao
@@ -125,3 +214,12 @@ kit/globe | b6 | pronto | conferir na folha de contato se le bem; se parecer cai
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh pia2022 bN bM` (so essas cenas).
 - Mudou narracao, ferramenta ou muitas cenas: `./refazer_tudo.sh pia2022` (render completo).
 - Personagem cortado: tire gente do "who" ou use "shot": "group". Cena vazia: confira "who". Objeto fora do quadro: ponha em "props" com x entre -2 e 2. Luz estourada: "hora"/"clima" na cena.
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- (sem ficha)
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (37.6-39.3 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (39.3-41.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
+

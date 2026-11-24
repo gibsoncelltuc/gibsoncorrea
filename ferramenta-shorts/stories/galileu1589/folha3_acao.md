@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 03 - Galileu e a Torre de Pisa
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.0s - 16 palavras - plano two
@@ -11,8 +11,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | caíram (2.9s) | EFEITO: dust | poeira + som | OK |
 | 2 | chão (3.4s) | ACAO: tomba | cai sentado no chao + poeira | OK |
-| 3 | - | INTERACAO | susto | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 3 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: dust na palavra caíram (2.9s): executa: poeira + som
+- ACAO: tomba na palavra chão (3.4s): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
 
 ## Cena b1 - 5.1s a 11.4s - 22 palavras - plano reveal
 > "Conta a história que, em Pisa, na Itália, por volta de mil quinhentos e noventa, um jovem professor desafiou um sábio famoso."
@@ -20,6 +26,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | MAPA | ITÁLIA | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+- multidao de 8: parada, reagindo (neutra), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
 
 ## Cena b2 - 12.8s a 17.3s - 16 palavras - plano two
 > "O sábio era Aristóteles, que dizia que quanto mais pesado o objeto, mais rápido ele cai."
@@ -28,6 +40,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | INTERACAO | vai ate o outro | OK |
 | 2 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: vai ate o outro
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
 
 ## Cena b3 - 18.3s a 20.5s - 8 palavras - plano group
 > "Todo mundo achava óbvio, e ninguém tinha testado."
@@ -36,6 +54,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | INTERACAO | aproxima-se | OK |
 | 2 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: aproxima-se
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
 
 ## Cena b4 - 21.8s a 24.8s - 12 palavras - plano two
 > "Mas Galileu Galilei achou estranho e disse: "Eu vou provar o contrário.""
@@ -45,17 +69,22 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | achou (22.8s) | ACAO: olha | aponta/olha | OK |
 | 2 | - | INTERACAO | discutir | OK |
 | 3 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
 
-## Cena b5 - 26.0s a 29.8s - 16 palavras - plano two
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: olha na palavra achou (22.8s): braco estendido apontando para o objeto/lugar citado
+- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b5 - 26.0s a 29.8s - 16 palavras - plano wide
 > "Dizem que ele foi até a torre inclinada de Pisa, com duas bolas de pesos diferentes."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | avanca e o outro recua | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | CHEGADA | alguem entra andando | OK |
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b6 - 31.4s a 35.1s - 14 palavras - plano orbit
+## Cena b6 - 31.4s a 35.1s - 14 palavras - plano wide
 > "Acontece que, quando ele soltou as duas, elas caíram no chão ao mesmo tempo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -65,6 +94,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | chão (34.5s) | ACAO: tomba | cai sentado no chao + poeira | OK |
 | 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 5 | - | ATUACAO | reagir | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: x_solta na palavra soltou (33.0s): executa: solta/liberta + brilho
+- EFEITO: dust na palavra caíram (34.1s): executa: poeira + som
+- ACAO: tomba na palavra chão (34.5s): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- ATUACAO (a cena toda): executa: reagir
+<!-- /FISICA -->
 
 ## Cena b7 - 36.3s a 39.4s - 11 palavras - plano group
 > "A plateia ficou de boca aberta, e os professores ficaram bravos."
@@ -73,6 +111,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | INTERACAO | susto | OK |
 | 2 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: susto
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
 
 ## Cena b8 - 40.6s a 45.1s - 17 palavras - plano two
 > "Hoje se discute se isso aconteceu mesmo, porque a história vem de um aluno dele, anos depois."
@@ -81,8 +125,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | INTERACAO | cochichar | OK |
 | 2 | - | ATUACAO | discutir | OK |
+<!-- FISICA -->
 
-## Cena b9 - 46.3s a 52.3s - 23 palavras - plano group
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: cochichar
+- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+<!-- /FISICA -->
+
+## Cena b9 - 46.3s a 52.3s - 23 palavras - plano crowd
 > "Mas em mil novecentos e setenta e um, na Lua, um astronauta soltou um martelo e uma pena, e os dois caíram juntos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -90,8 +140,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | soltou (49.6s) | ACAO: x_solta | solta/liberta + brilho | OK |
 | 2 | caíram (51.9s) | EFEITO: dust | poeira + som | OK |
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | INTERACAO | pular | OK |
-| 5 | - | ATUACAO | comemorar | OK |
+| 4 | - | ATUACAO | comemorar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: x_solta na palavra soltou (49.6s): executa: solta/liberta + brilho
+- EFEITO: dust na palavra caíram (51.9s): executa: poeira + som
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+- multidao de 8: parada, reagindo (laugh), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
 
 ## Cena b10 - 53.5s a 55.4s - 9 palavras - plano close
 > "No fim, até a pena deu razão ao Galileu."
@@ -100,6 +158,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | deu (54.8s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 2 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: x_entrega na palavra deu (54.8s): executa: estende a mao entregando
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
 
 ## Cena b11 - 56.6s a 60.0s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
@@ -108,4 +172,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | COMENTE! | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 

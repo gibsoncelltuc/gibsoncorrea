@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 13 - O Médico que Mandou Lavar as Mãos
 
-Gerado em 24/11 17:06 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 0%, cenario_e_epoca_ok 100%
+Gerado em 24/11 17:07 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 0%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -16,9 +16,9 @@ b6 | simples | interior hospital | close | SEM | - | - | - | Semmelweis entendeu
 b7 | simples | interior hospital | two | SEM, KOL | - | wash_basin | - | Ele colocou uma bacia com água e cloro na porta, e obrigou todo mundo 
 b8 | chave | loc_campo | crowd | SEM, MAE, PAR | 30 | marco_viena, wash_basin | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | As mortes despencaram quase dez vezes. Centenas de mães foram salvas.
 b9 | simples | interior hospital | two | DIR, SEM | - | - | - | Mas os médicos se ofenderam. Um cavalheiro, diziam, tem as mãos limpas
-b10 | simples | loc_campo | close | MAE | - | lapide | - | Ele morreu em mil oitocentos e sessenta e cinco, sem ver ninguém dar r
-b11 | explicativa | loc_campo | two | PAR | - | wash_basin | - | Anos depois, a ciência provou os micróbios. Hoje, ele é chamado de sal
-b12 | simples | loc_campo | close | SEM | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b10 | simples | loc_campo | two | MAE | - | lapide | - | Ele morreu em mil oitocentos e sessenta e cinco, sem ver ninguém dar r
+b11 | explicativa | loc_campo | close | PAR | - | wash_basin | - | Anos depois, a ciência provou os micróbios. Hoje, ele é chamado de sal
+b12 | simples | loc_campo | two | SEM | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

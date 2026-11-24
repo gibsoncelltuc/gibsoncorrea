@@ -11,6 +11,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/xray_plate, kit/marco_wurzburg
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cientista, corpo, dentro, primeira, propria
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e xray_plate juntos (camera a 11.5 m)
+- PERSONAGENS: ROE (cientista) na esquerda, expressao grin, segura paper; ANA na direita, expressao surprised; sem multidao; acao: fala/gesto
+- OBJETO kit/xray_plate: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
+- SOM: ding@30
+- TEXTO NA TELA: "1895" numa placa atras dos personagens, na palavra 1 da frase
+- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
+  - take 1 (0.2-2.2 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (2.2-4.3 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
 
 ## Cena b1 - Era mil oitocentos e noventa e cinco, numa cidade da Alemanha.
 - Cenario: street | luz: day | clima: limpo
@@ -21,6 +35,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/marco_wurzburg, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alemanha
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: revelacao (camera sobe e abre)
+- PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- MAPA: ALEMANHA (cobre a tela 1-2 s)
+- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
+  - take 1 (5.6-7.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (7.0-8.3 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+<!-- /FICHA -->
 
 ## Cena b2 - Wilhelm Röntgen passava as noites no laboratório, testando um tubo de ...
 - Cenario: interior madeira | luz: study | clima: limpo
@@ -31,6 +57,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/crookes_tube
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): laboratorio, noites, tubo, vidro
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de madeira; hora: study
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e crookes_tube juntos (camera a 8.0 m)
+- PERSONAGENS: ROE (cientista) no centro, expressao stern; sem multidao; acao: fala/gesto
+- OBJETO kit/crookes_tube: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
+- SOM: ding@40
+- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (9.6-11.1 s): mesmo angulo
+  - take 2 (11.1-12.7 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (12.7-14.2 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
 
 ## Cena b3 - Numa noite, ele cobriu o tubo com papelão preto, e apagou a luz.
 - Cenario: interior madeira | luz: noite | clima: limpo
@@ -41,6 +81,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/crookes_tube
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): papelao, tubo
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de madeira; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e crookes_tube juntos (camera a 8.0 m)
+- PERSONAGENS: ROE (cientista) no centro, expressao suspicious, segura paper; sem multidao; acao: fala/gesto
+- OBJETO kit/crookes_tube: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +60 da cena
+- SOM: thump@60
+- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
+  - take 1 (15.3-17.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (17.1-18.8 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
 
 ## Cena b4 - Acontece que, do outro lado da sala, uma tela começou a brilhar no esc...
 - Cenario: interior madeira | luz: study | clima: limpo
@@ -51,6 +104,21 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/xray_plate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brilhar, escuro, sala, tela
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de madeira; hora: study
+- CAMERA: camera baixa olhando para cima; plano medio enquadrando personagens e xray_plate juntos (camera a 8.0 m)
+- PERSONAGENS: ROE (cientista) no centro, expressao surprised; sem multidao; acao: fala/gesto
+- OBJETO kit/xray_plate: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.0 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
+- EFEITO anel de impacto: acima da cabeca; entra no quadro +24 da cena
+- SOM: ding@20
+- SOM: sting@24
+- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
+  - take 1 (19.9-21.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (21.9-23.8 s): mesmo angulo
+<!-- /FICHA -->
 
 ## Cena b5 - Ele pôs a mão na frente do tubo, e viu os próprios ossos na tela.
 - Cenario: interior madeira | luz: study | clima: limpo
@@ -61,6 +129,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/xray_plate, kit/crookes_tube
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frente, proprios, tela, tubo
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de madeira; hora: study
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e xray_plate juntos (camera a 8.0 m)
+- PERSONAGENS: ROE (cientista) no centro, expressao shock; sem multidao; acao: fala/gesto
+- OBJETO kit/xray_plate: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.0 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
+- SOM: sting@30
+- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (25.0-26.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (26.6-28.2 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
 
 ## Cena b6 - Duas semanas depois, ele chamou a esposa, Anna, e fotografou a mão del...
 - Cenario: interior madeira | luz: dia | clima: limpo
@@ -71,16 +152,39 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/xray_plate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alianca, esposa
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de madeira; hora: dia
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e xray_plate juntos (camera a 11.5 m)
+- PERSONAGENS: ROE (cientista) na esquerda, expressao grin; ANA na direita, expressao nervous; sem multidao; acao: entregar
+- OBJETO kit/xray_plate: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (29.4-31.1 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (31.1-32.7 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (32.7-34.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+<!-- /FICHA -->
 
 ## Cena b7 - Dizem que ela olhou a chapa, e disse: "Eu vi a minha morte."
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): ANA (variante 0, expressao scared)
 - Animacao: conversar
 - Objetos/modelos: kit/xray_plate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chapa, minha
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de madeira; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e xray_plate juntos (camera a 8.0 m)
+- PERSONAGENS: ANA no centro, expressao scared; sem multidao; acao: fala/gesto
+- OBJETO kit/xray_plate: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (35.6-37.1 s): mesmo angulo
+  - take 2 (37.1-38.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
 
 ## Cena b8 - A notícia correu o mundo. Jornais, médicos e curiosos queriam ver o ra...
 - Cenario: street | luz: day | clima: limpo
@@ -91,6 +195,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/xray_plate, kit/marco_wurzburg
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): noticia, raio
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano de multidao; plano medio enquadrando personagens e xray_plate juntos (camera a 11.5 m)
+- PERSONAGENS: JOR (jornalista) na esquerda, expressao surprised, segura paper; MED (medico) no centro, expressao grin; POV na direita, expressao shock; multidao de 18 (POV, JOR, MED) ATRAS dos principais; acao: batalha
+- OBJETO kit/xray_plate: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
+- EFEITO anel de impacto: acima da cabeca; entra no quadro +60 da cena
+- SOM: ding@30
+- SOM: sting@60
+- TEXTO NA TELA: "NOTÍCIA" flutuando no alto, na palavra 1 da frase
+- TAKES: sequencia de acao em 3 cameras (4.7 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+<!-- /FICHA -->
 
 ## Cena b9 - Como ninguém sabia o que era, ele chamou de raio X. X, de desconhecido...
 - Cenario: interior madeira | luz: day | clima: limpo
@@ -101,6 +219,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/xray_plate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): desconhecido, raio
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de madeira; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: ROE (cientista) na esquerda, expressao smug; JOR (jornalista) na direita, expressao suspicious, segura paper; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TEXTO NA TELA: "RAIO X" numa placa atras dos personagens, na palavra 1 da frase
+- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
+  - take 1 (45.9-47.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (47.6-49.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+<!-- /FICHA -->
 
 ## Cena b10 - Em mil novecentos e um, Röntgen ganhou o primeiro Prêmio Nobel de Físi...
 - Cenario: street | luz: day | clima: limpo
@@ -111,6 +241,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/marco_wurzburg
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fisica, rontgen
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano de multidao
+- PERSONAGENS: ROE (cientista) na esquerda, expressao laugh; MED (medico) no centro, expressao grin; POV na direita, expressao laugh; multidao de 18 (POV, MED, JOR) ATRAS dos principais; acao: comemorar
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
+- SOM: ding@20
+- SOM: ding@60
+- TEXTO NA TELA: "NOBEL" flutuando no alto, na palavra 1 da frase
+- TAKES: sequencia de acao em 3 cameras (3.6 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+<!-- /FICHA -->
 
 ## Cena b11 - E nunca quis patentear a descoberta. O raio X era de todo mundo.
 - Cenario: street | luz: day | clima: limpo
@@ -121,6 +265,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/xray_plate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): descoberta, raio
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: close (rosto e ombros)
+- PERSONAGENS: ROE (cientista) no centro, expressao smile; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
+  - take 1 (55.6-57.6 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (57.6-59.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
 
 ## Cena b12 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: street | luz: day | clima: limpo
@@ -145,7 +300,7 @@ kit/crookes_tube | b2, b3, b5 | pronto | conferir na folha de contato se le bem;
 
 
 ## Video inteiro
-- Objeto heroi: kit/xray_plate | grandes momentos: b8, b10 | planos abertos: 3 | mistura: close 25% | medio 63% | aberto 9% | detalhe 4%
+- Objeto heroi: kit/xray_plate | grandes momentos: b8, b10 | planos abertos: 3 | mistura: close 17% | medio 70% | aberto 9% | detalhe 4%
 - Interacoes: b0 aproxima-se, b6 entregar, b9 avanca e o outro recua
 - RISCOS GERAIS: 
   - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
@@ -157,3 +312,12 @@ kit/crookes_tube | b2, b3, b5 | pronto | conferir na folha de contato se le bem;
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh rontgen1895 bN bM` (so essas cenas).
 - Mudou narracao, ferramenta ou muitas cenas: `./refazer_tudo.sh rontgen1895` (render completo).
 - Personagem cortado: tire gente do "who" ou use "shot": "group". Cena vazia: confira "who". Objeto fora do quadro: ponha em "props" com x entre -2 e 2. Luz estourada: "hora"/"clima" na cena.
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- (sem ficha)
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (60.7-62.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (62.4-64.0 s): mesmo angulo
+<!-- /FICHA -->
+

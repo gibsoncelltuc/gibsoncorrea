@@ -117,10 +117,9 @@
   {
    "camera": "wide",
    "personagens": [
-    "MUS",
-    "POV"
+    "MUS"
    ],
-   "multidao": 18,
+   "multidao": 0,
    "objetos": [
     "kit/roadster",
     "kit/rocket"
@@ -141,12 +140,11 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
-    "MUS",
-    "POV"
+    "MUS"
    ],
-   "multidao": 10,
+   "multidao": 0,
    "objetos": [
     "kit/rocket"
    ],
@@ -166,11 +164,9 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
-    "MUS",
-    "EBY",
-    "POV"
+    "MUS"
    ],
    "multidao": 0,
    "objetos": [

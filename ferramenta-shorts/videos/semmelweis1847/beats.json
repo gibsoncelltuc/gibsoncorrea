@@ -68,9 +68,12 @@
    "props": [
     [
      "kit/wash_basin",
-     0,
-     -1.4,
-     1.0
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "1847",
@@ -81,7 +84,23 @@
    "sfx": [
     "ding@30"
    ],
-   "interior": "hospital"
+   "interior": "hospital",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "hospital",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e wash_basin juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/wash_basin",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -97,9 +116,12 @@
    "props": [
     [
      "kit/maca",
-     1.5,
-     1.5,
-     1.2
+     0.0,
+     -1.2,
+     1.2,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/room_hospital",
@@ -107,7 +129,23 @@
      -6,
      1.0
     ]
-   ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "revelacao (camera sobe e abre); plano medio enquadrando personagens e maca juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/maca",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -156,11 +194,30 @@
    "props": [
     [
      "kit/maca",
-     1.8,
-     -0.6,
-     1.0
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
-   ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e maca juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/maca",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -201,9 +258,12 @@
    "props": [
     [
      "kit/wash_basin",
-     1.6,
-     -0.8,
-     1.1
+     0.0,
+     -1.2,
+     1.1,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -213,7 +273,23 @@
     "thump@40"
    ],
    "say": "Ele colocou uma bacia com água e cloro na porta, e obrigou todo mundo a lavar as mãos antes de entrar.",
-   "batalha": false
+   "batalha": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e wash_basin juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/wash_basin",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "crowd",
@@ -235,9 +311,12 @@
    "props": [
     [
      "kit/wash_basin",
-     0,
-     -3.0,
-     1.4
+     0.0,
+     -1.2,
+     1.4,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -252,7 +331,23 @@
    "titulo": true,
    "say": "As mortes despencaram quase dez vezes. Centenas de mães foram salvas.",
    "batalha": true,
-   "tiros": false
+   "tiros": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano de multidao; plano medio enquadrando personagens e wash_basin juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/wash_basin",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -275,37 +370,75 @@
    ]
   },
   {
-   "shot": "close",
+   "shot": "two",
    "who": [
     "MAE:0:cry"
    ],
    "props": [
     [
      "kit/lapide",
-     1.4,
-     -0.5,
-     1.2
+     2.4,
+     0.2,
+     1.2,
+     {
+      "fixo": true
+     }
     ]
    ],
    "say": "Ele morreu em mil oitocentos e sessenta e cinco, sem ver ninguém dar razão a ele.",
    "detalhe": true,
-   "shot_lock": true
+   "shot_lock": true,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e lapide juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/lapide",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
-   "shot": "close",
+   "shot": "two",
    "who": [
     "PAR:0:smile"
    ],
    "props": [
     [
      "kit/wash_basin",
-     1.4,
-     -0.8,
-     1.0
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "LAVE AS MÃOS",
-   "say": "Anos depois, a ciência provou os micróbios. Hoje, ele é chamado de salvador das mães."
+   "say": "Anos depois, a ciência provou os micróbios. Hoje, ele é chamado de salvador das mães.",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e wash_basin juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/wash_basin",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   }
  ],
  "variar_cenario": false

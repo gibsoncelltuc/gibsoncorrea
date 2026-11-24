@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 16 - O Cachorro que Inventou o Velcro
 
-Gerado em 24/11 17:06 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 17:07 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -17,7 +17,7 @@ b7 | chave | loc_campo | orbit | TEC, MES | 14 | marco_alpes | corpo: tropa/pers
 b8 | simples | interior madeira | two | MES, TEC | - | burr | - | O segredo foi o náilon. E o nome veio do francês: velours, veludo, e c
 b9 | chave | loc_deserto | crowd | TEC, POV | 16 | burr, marco_alpes | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | No começo, muita gente achou o velcro feio, e as vendas foram fracas.
 b10 | simples | loc_campo | two | AST | - | burr, moon, rocket | - | Até que astronautas passaram a usar o velcro para prender coisas no es
-b11 | simples | loc_deserto | close | MES | - | burr | - | Hoje ele está em tênis, mochilas e roupas. E tudo começou com um cacho
+b11 | simples | loc_deserto | two | MES | - | burr | - | Hoje ele está em tênis, mochilas e roupas. E tudo começou com um cacho
 b12 | simples | loc_campo | close | MES | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

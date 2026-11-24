@@ -98,7 +98,7 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "BUK"
    ],
@@ -222,7 +222,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "BUK"
    ],
@@ -240,7 +240,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "BUK"
    ],

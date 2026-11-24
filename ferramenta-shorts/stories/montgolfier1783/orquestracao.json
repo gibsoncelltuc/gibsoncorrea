@@ -63,8 +63,7 @@
   {
    "camera": "two",
    "personagens": [
-    "JOS",
-    "ETI"
+    "JOS"
    ],
    "multidao": 0,
    "objetos": [
@@ -122,8 +121,7 @@
   {
    "camera": "two",
    "personagens": [
-    "ETI",
-    "JOS"
+    "ETI"
    ],
    "multidao": 0,
    "objetos": [
@@ -156,13 +154,14 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "JOS"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/balloon"
+    "kit/balloon",
+    "kit/marco_versalhes"
    ],
    "palavras": 16,
    "cena": "b5",
@@ -176,9 +175,7 @@
   {
    "camera": "crowd",
    "personagens": [
-    "REI",
-    "RAI",
-    "NOB"
+    "REI"
    ],
    "multidao": 30,
    "objetos": [
@@ -201,9 +198,8 @@
    "cenario": "palace"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
-    "POV",
     "POV"
    ],
    "multidao": 0,
@@ -222,14 +218,14 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
-    "ETI",
-    "JOS"
+    "ETI"
    ],
    "multidao": 0,
    "objetos": [
     "kit/balloon",
+    "kit/marco_versalhes",
     "nature/bush",
     "nature/tree_oak",
     "nature/tree_pine"
@@ -250,7 +246,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "JOS",
     "ETI"
@@ -269,11 +265,9 @@
   {
    "camera": "orbit",
    "personagens": [
-    "POV",
-    "JOS",
-    "ETI"
+    "POV"
    ],
-   "multidao": 18,
+   "multidao": 0,
    "objetos": [
     "kit/balloon_air",
     "kit/marco_versalhes"
@@ -294,13 +288,14 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "ETI"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/balloon"
+    "kit/balloon",
+    "kit/marco_versalhes"
    ],
    "palavras": 12,
    "cena": "b11",
@@ -312,7 +307,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "JOS"
    ],

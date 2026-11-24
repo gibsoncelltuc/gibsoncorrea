@@ -5,7 +5,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Historia: O Dia em que o PayPal Foi Vendido
 - Epoca: 2002 | Lugar: Escritórios do PayPal em Palo Alto/Mountain View (Califórnia) e sede do eBay em San Jose: salas de escritório de tecnologia com mesas e computadores | Quando: julho de 2002 (anúncio da compra em 8/jul), de dia
 - HEROIS (objeto): kit/roadster, kit/coin, kit/rocket
-- HEROIS (personagens): EBY, MUS
+- HEROIS (personagens): MUS, EBY
 - Cenarios: interior loja, interior madeira, interior pedra, loc_campo, loc_cidade, loc_pista
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: kit/roadster: 4.5 m reais -> escala 2.67 (estava 1.0: pequeno demais)

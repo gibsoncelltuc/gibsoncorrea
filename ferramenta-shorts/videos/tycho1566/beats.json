@@ -56,14 +56,33 @@
    "props": [
     [
      "kit/brass_nose",
-     0,
-     1.6,
-     1.1
+     0.0,
+     -1.2,
+     1.1,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "1566",
    "say": "Um dos maiores astrônomos da história perdeu o nariz numa briga por causa de matemática.",
-   "detalhe": false
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e brass_nose juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/brass_nose",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -134,14 +153,33 @@
    "props": [
     [
      "kit/brass_nose",
-     1.6,
-     -0.6,
-     1.2
+     2.4,
+     0.2,
+     1.2,
+     {
+      "fixo": true
+     }
     ]
    ],
    "say": "Para esconder o buraco, ele passou a usar um nariz de metal, colado no rosto.",
    "shot_lock": true,
-   "impact": false
+   "impact": false,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e brass_nose juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/brass_nose",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -173,18 +211,52 @@
    "props": [
     [
      "kit/marco_uraniborg",
-     0,
-     -42,
-     0.9
+     0.0,
+     -16.6,
+     0.9,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/tower",
-     2.6,
-     -3.5,
-     1.6
+     7.0,
+     -14.0,
+     1.6,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "set": "countryside"
+   "set": "countryside",
+   "cx": 0.0,
+   "cz": -7.5,
+   "h": 6.0,
+   "d0": 84.2,
+   "d1": 80.1,
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o marco_uraniborg (alvo z -7.5, camera a 80.1 m, altura 6.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/marco_uraniborg",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/tower",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -233,22 +305,42 @@
    "say": "Essa descoberta mudou a astronomia para sempre."
   },
   {
-   "shot": "close",
+   "shot": "two",
    "who": [
     "TYC:0:smug"
    ],
    "props": [
     [
      "kit/brass_nose",
-     1.5,
-     -0.5,
-     1.2
+     2.4,
+     0.2,
+     1.2,
+     {
+      "fixo": true
+     }
     ]
    ],
    "say": "E Tycho entrou para a história assim: com a cabeça nas estrelas, e o nariz de metal.",
    "verbos_ok": [
     "entro"
-   ]
+   ],
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e brass_nose juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/brass_nose",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   }
- ]
+ ],
+ "max_wide": 3
 }
