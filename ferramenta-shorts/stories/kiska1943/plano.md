@@ -12,9 +12,9 @@ b6 | track | -  | - | - | -
 b7 | wide | overcast neblina | - | - | -
 b8 | group | overcast neblina | placa: FOGO AMIGO | atirar (burst + som de tiro/explosao); encena: atira @8 (acao + som de efeito) | -
 b9 | group | noite  | tropa | (rosto) sad (expr + som de efeito); morreram (puff + som de baque); tiros (burst + som de tiro/explosao); bateu (dust + som de impacto); encena: morre @4 (acao + som de efeito); encena: atira @6 (acao + som de efeito); encena: x_bate (punch) @12 (acao + som de efeito) | -
-b10 | group | arctic neblina | animais, placa: SÓ CACHORROS | encena: olha (point) @3 (acao + som de efeito); encena: sai @8 (acao + som de efeito) | -
+b10 | prop | arctic neblina | animais, placa: SÓ CACHORROS | encena: olha (point) @3 (acao + som de efeito); encena: sai @8 (acao + som de efeito) | -
 b11 | two | -  | placa: OPERAÇÃO ILHA VAZIA | - | -
 b12 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 10% | medio 65% | aberto 18% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 10% | medio 67% | aberto 18% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | dentro do padrao do canal

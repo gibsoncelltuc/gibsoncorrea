@@ -242,7 +242,7 @@
   },
   {
    "say": "No fim, só acharam na ilha alguns cachorros abandonados.",
-   "shot": "group",
+   "shot": "prop",
    "who": [
     "USA:1:surprised",
     "CAN:0:surprised"
@@ -302,7 +302,8 @@
      -1.4,
      1.0
     ]
-   ]
+   ],
+   "detalhe": false
   }
  ],
  "heroi": "kit/dog_sit",

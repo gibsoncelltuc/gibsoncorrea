@@ -104,7 +104,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b10 - No fim, só acharam na ilha alguns cachorros abandonados.
 - Cenario: harbor | luz: arctic | clima: neblina
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Camera: prop = -
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): USA (variante 1, expressao surprised); CAN (variante 0, expressao surprised)
 - Animacao: conversar | interacao: discutir
@@ -114,8 +114,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b11 - Uma das maiores invasões do Pacífico Norte tomou uma ilha completament...
 - Cenario: harbor | luz: overcast | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): OFF (variante 0, expressao pained); USA (variante 0, expressao surprised)
 - Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/dog_sit
@@ -149,7 +149,7 @@ dog | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote,
 
 
 ## Video inteiro
-- Objeto heroi: kit/dog_sit | grandes momentos: b3, b4 | planos abertos: 4 | mistura: close 10% | medio 65% | aberto 18% | detalhe 6%
+- Objeto heroi: kit/dog_sit | grandes momentos: b3, b4 | planos abertos: 4 | mistura: close 10% | medio 67% | aberto 18% | detalhe 5%
 - Interacoes: b1 aproxima-se, b5 susto, b8 avanca e o outro recua, b9 empurrar, b10 discutir, b11 o outro se aproxima
 - RISCOS GERAIS: nenhum
 

@@ -98,7 +98,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 8 | - | INTERACAO | empurrar | OK |
 | 9 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 51.5s a 53.7s - 9 palavras - plano group
+## Cena b10 - 51.5s a 53.7s - 9 palavras - plano prop
 > "No fim, só acharam na ilha alguns cachorros abandonados."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

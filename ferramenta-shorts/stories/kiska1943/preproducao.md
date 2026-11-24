@@ -14,7 +14,7 @@ b6 | mountain | track | 0 | andando | war/sandbags | - | -
 b7 | harbor | wide | 0 | parados (so fala e pisca) | ship, navios de guerra ao fundo, no tamanho real | - | -
 b8 | mountain | group | 3 | reagir, INTERAGEM: avanca e o outro recua | - | - | -
 b9 | arctic | group | 7 | conversar, INTERAGEM: empurrar | - | - | -
-b10 | harbor | group | 2 | conversar, INTERAGEM: discutir | kit/dog_sit, dog | - | -
+b10 | harbor | prop | 2 | conversar, INTERAGEM: discutir | kit/dog_sit, dog | - | -
 b11 | harbor | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/dog_sit | - | -
 b12 | harbor | close | 1 | conversar | - | - | -
 
