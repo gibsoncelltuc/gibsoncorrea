@@ -83,12 +83,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - No fim, os dançarinos foram levados a uma capela no alto de um monte, ...
-- Cenario: loc_campo | luz: day | clima: limpo
-- Camera: track = travelling lateral acompanhando quem anda
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (3): POV (variante 0, expressao pained); POV (variante 1, expressao nervous); TRO (variante 0, expressao pained)
+- Cenario: mountain | luz: day | clima: limpo
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (3): POV (variante 0, expressao pained); POV (variante 1, expressao nervous); TRO (variante 0, expressao pained) | multidao: 14 de POV/TRO
 - Animacao: dancar
-- Objetos/modelos: -
+- Objetos/modelos: buildings/church, kit/marco_viena
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alto, capela, danca, dancarinos, monte, sapatos
 - RISCOS: nenhum
 
@@ -117,13 +117,14 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/marco_viena | b0, b1, b3, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_viena | b0, b1, b3, b6, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/church | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 20% | medio 67% | aberto 13% | detalhe 0%
+- Objeto heroi: - | grandes momentos: b3, b6 | planos abertos: 4 | mistura: close 20% | medio 54% | aberto 26% | detalhe 0%
 - Interacoes: b0 susto, b2 aproxima-se, b4 avanca e o outro recua, b5 discutir, b7 o outro se aproxima
 - RISCOS GERAIS: nenhum
 

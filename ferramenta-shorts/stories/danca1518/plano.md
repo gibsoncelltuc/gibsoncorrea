@@ -10,9 +10,9 @@ b4 | two | -  | interior, objeto na mao | dança (stars + som de sino); encena: 
 b5 | group | -  | tropa, placa: SALÃO | músicos (stars + som de sino); dançarinos (stars + som de sino); encena: danca (up) @6 (acao + som de efeito); encena: danca (up) @10 (acao + som de efeito) | -
 b6 | orbit | -  | batalha aberta com tiros, tropa | (rosto) scared (expr + som de efeito); dança (stars + som de sino); dançar (stars + som de sino); encena: x_entrega (reach) @0 (acao + som de efeito); encena: chega (point) @4 (acao + som de efeito); encena: danca (up) @6 (acao + som de efeito); encena: danca (up) @19 (acao + som de efeito) | -
 b7 | two | -  | - | encena: morre @3 (acao + som de efeito) | -
-b8 | track | -  | - | dançarinos (stars + som de sino); dança (stars + som de sino); encena: danca (up) @3 (acao + som de efeito); encena: danca (up) @20 (acao + som de efeito) | -
+b8 | wide | -  | tropa, placa: CAPELA DO MONTE | dançarinos (stars + som de sino); dança (stars + som de sino); encena: danca (up) @3 (acao + som de efeito); encena: danca (up) @20 (acao + som de efeito) | -
 b9 | close | -  | interior | (rosto) distrust (expr + som de efeito) | -
 b10 | close | -  | interior, placa: COMENTE! | - | -
 
-Mistura de planos: close 20% | medio 67% | aberto 13% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
+Mistura de planos: close 20% | medio 54% | aberto 26% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 4 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

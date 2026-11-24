@@ -172,14 +172,17 @@
    "cenario": "medieval"
   },
   {
-   "camera": "track",
+   "camera": "wide",
    "personagens": [
     "POV",
     "POV",
     "TRO"
    ],
-   "multidao": 0,
-   "objetos": [],
+   "multidao": 32,
+   "objetos": [
+    "buildings/church",
+    "kit/marco_viena"
+   ],
    "palavras": 22,
    "cena": "b8",
    "frase": "No fim, os dançarinos foram levados a uma capela no alto de um monte, com sapatos vermelhos benzidos, e a dança parou.",
@@ -187,7 +190,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "mountain"
   },
   {
    "camera": "close",

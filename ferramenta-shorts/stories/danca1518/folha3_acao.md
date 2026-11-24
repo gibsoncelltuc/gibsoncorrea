@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 22 - A Praga da Dança
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 54 acoes catalogadas, 54 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 55 acoes catalogadas, 55 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 3.5s - 14 palavras - plano two
@@ -97,7 +97,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | o outro se aproxima | OK |
 | 3 | - | ATUACAO | reagir | OK |
 
-## Cena b8 - 46.0s a 52.2s - 22 palavras - plano track
+## Cena b8 - 46.0s a 52.2s - 22 palavras - plano wide
 > "No fim, os dançarinos foram levados a uma capela no alto de um monte, com sapatos vermelhos benzidos, e a dança parou."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -107,6 +107,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | dança (51.9s) | EFEITO: stars | estrelinhas + som | OK |
 | 4 | dança (51.9s) | ACAO: danca | danca de bracos para cima | OK |
 | 5 | - | ATUACAO | dancar | OK |
+| 6 | - | PLACA | CAPELA DO MONTE | OK |
 
 ## Cena b9 - 53.3s a 56.7s - 14 palavras - plano close
 > "Hoje se suspeita de histeria coletiva, mas ninguém sabe ao certo o que aconteceu."

@@ -181,15 +181,34 @@
    "fachada": false
   },
   {
-   "shot": "track",
+   "shot": "wide",
    "who": [
     "POV:0:pained",
     "POV:1:nervous",
     "TRO:0:pained"
    ],
    "say": "No fim, os dançarinos foram levados a uma capela no alto de um monte, com sapatos vermelhos benzidos, e a dança parou.",
-   "set": "loc_campo",
-   "fachada": false
+   "set": "mountain",
+   "fachada": false,
+   "shot_lock": true,
+   "crowd": {
+    "n": 14,
+    "outfits": [
+     "POV",
+     "TRO"
+    ],
+    "march": true,
+    "expr": "pained"
+   },
+   "props": [
+    [
+     "buildings/church",
+     3,
+     -14,
+     1.3
+    ]
+   ],
+   "text": "CAPELA DO MONTE"
   },
   {
    "shot": "two",

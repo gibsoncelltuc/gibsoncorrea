@@ -12,7 +12,7 @@ b4 | interior pedra | two | 2 | reagir, INTERAGEM: avanca e o outro recua | - | 
 b5 | hall | group | 8 | dancar, INTERAGEM: discutir | buildings/house_two, nature/lamppost | - | -
 b6 | medieval | orbit | 32 | dancar, batalha | kit/marco_viena | - | -
 b7 | medieval | two | 2 | reagir, INTERAGEM: o outro se aproxima | - | - | -
-b8 | loc_campo | track | 3 | dancar, andando | - | - | -
+b8 | mountain | wide | 17 | dancar | buildings/church, kit/marco_viena | - | -
 b9 | interior madeira | close | 1 | reagir | - | - | -
 b10 | interior madeira | close | 1 | conversar | - | - | -
 
