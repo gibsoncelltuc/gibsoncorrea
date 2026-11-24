@@ -4,7 +4,7 @@ b0: CORRIGIDO - dois vizinhos italianos foram a guerra e o premio do vencedor fo
 b1: CORRIGIDO - Modena e Bolonha disputavam a fronteira havia decadas, Modena tinha o imperador e Bolonha tinha o papa: antes aparecia um soldado no lugar do papa -> agora o nobre de coroa roxa e o papa de vestes brancas com faixa vermelha diante do mapa da Italia.
 b2: OK - Bolonha juntou cerca de trinta mil soldados a pe e marchou contra Modena: dezoito soldados vermelhos marchando em campo aberto com o texto 30.000.
 b3: OK - Modena tinha menos de oito mil homens e parecia perdida: poucos soldados amarelos nervosos em campo aberto com cavalo ao fundo.
-b4: OK - ao por do sol de quinze de novembro os modeneses atacaram e Bolonha fugiu em poucas horas: batalha ao por do sol com soldados amarelos e vermelhos, sem tiros nem explosoes.
+b4: CORRIGIDO - a frase ganhou a virada Acontece que, ao por do sol de quinze de novembro os modeneses atacaram e Bolonha fugiu em poucas horas, sem mudar a imagem: batalha ao por do sol com soldados amarelos e vermelhos, sem tiros nem explosoes.
 b5: CORRIGIDO - morreram cerca de duas mil pessoas e os modeneses chegaram aos muros de Bolonha: so havia campo -> agora a muralha com torres e portao de Bolonha com o texto MUROS DE BOLONHA e um soldado caido de lado no chao de pedra.
 b6: OK - em vez de invadir fizeram uma festa para zombar dos derrotados: soldados amarelos comemorando de bracos erguidos em campo limpo.
 b7: OK - na volta levaram como trofeu um balde de madeira tirado de um poco: soldados rindo junto ao poco com o balde de madeira e a placa O BALDE.
