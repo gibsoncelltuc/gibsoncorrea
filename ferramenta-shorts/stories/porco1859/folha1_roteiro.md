@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b2  (~3.8 s)
 - Narracao: Um fazendeiro americano pegou um porco comendo as batatas da horta.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: animal: pig come -> acao + som de efeito; encena: pega (lift) @3 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b3  (~4.5 s)
 - Narracao: Ele pegou a espingarda, e atirou. O porco era de um vizinho inglês.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: gun@24, squeal@30
 - Efeito + som nas palavras-chave: animal: pig leva o tiro e cai -> acao + som de efeito; atirou -> burst + som de tiro/explosao; encena: pega (lift) @1 -> acao + som de efeito; encena: atira @5 -> acao + som de efeito
 - Efeito visual marcado: burst@24
@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b9  (~4.5 s)
 - Narracao: Os soldados passaram meses trocando insultos, e depois, festas. Ninguém deu um tiro.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: x_entrega (reach) @4 -> acao + som de efeito; encena: vence (up) @8 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -94,12 +94,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b10  (~3.8 s)
 - Narracao: Treze anos depois, um árbitro decidiu que a ilha era americana.
-- Som ambiente: birds | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: sting@10, thump@40, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104
-- Efeito + som nas palavras-chave: (rosto) determined -> expr + som de efeito; cavalaria: 4 soldados a cavalo (ALM) -> acao + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito
-- Efeito visual marcado: ring@12, dust@40
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: (rosto) determined -> expr + som de efeito
+- Efeito visual marcado: -
 - Texto na tela: 13 ANOS
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b11  (~2.8 s)
 - Narracao: A única baixa da guerra foi o porco.

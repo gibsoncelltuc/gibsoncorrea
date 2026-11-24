@@ -96,27 +96,27 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | susto | OK |
 | 4 | - | ATUACAO | reagir | OK |
 
-## Cena b9 - 46.6s a 51.9s - 13 palavras - plano orbit
+## Cena b9 - 46.6s a 51.9s - 13 palavras - plano group
 > "Os soldados passaram meses trocando insultos, e depois, festas. Ninguém deu um tiro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | trocando (47.9s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 2 | festas (49.9s) | ACAO: vence | bracos para cima + brilho | OK |
-| 3 | - | ATUACAO | discutir | OK |
+| 3 | - | INTERACAO | vai ate o outro | OK |
+| 4 | - | ATUACAO | discutir | OK |
 
-## Cena b10 - 53.1s a 55.9s - 11 palavras - plano crowd
+## Cena b10 - 53.1s a 55.9s - 11 palavras - plano two
 > "Treze anos depois, um árbitro decidiu que a ilha era americana."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | EMOCAO: determined | o rosto vira "determined" na palavra | OK |
-| 2 | - | CENA | cavalaria: 4 soldados a cavalo (ALM) | OK |
-| 3 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | PLACA | 13 ANOS | OK |
+| 2 | - | INTERACAO | insiste | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | 13 ANOS | OK |
 
-## Cena b11 - 57.3s a 58.8s - 8 palavras - plano close
+## Cena b11 - 57.3s a 58.8s - 8 palavras - plano two
 > "A única baixa da guerra foi o porco."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

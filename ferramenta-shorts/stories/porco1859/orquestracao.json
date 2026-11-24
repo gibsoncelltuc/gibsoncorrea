@@ -68,7 +68,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "countryside"
   },
   {
    "camera": "two",
@@ -89,7 +89,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "countryside"
   },
   {
    "camera": "two",
@@ -200,13 +200,13 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "orbit",
+   "camera": "group",
    "personagens": [
     "ING",
     "AME",
     "ING"
    ],
-   "multidao": 48,
+   "multidao": 0,
    "objetos": [],
    "palavras": 13,
    "cena": "b9",
@@ -215,33 +215,27 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "countryside"
+   "cenario": "interior pedra"
   },
   {
-   "camera": "crowd",
+   "camera": "two",
    "personagens": [
     "ALM",
     "AME"
    ],
-   "multidao": 48,
+   "multidao": 0,
    "objetos": [],
    "palavras": 11,
    "cena": "b10",
    "frase": "Treze anos depois, um árbitro decidiu que a ilha era americana.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
-   "cenario": "countryside"
+   "cenario": "interior pedra"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "FAZ"
    ],
@@ -257,7 +251,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "loc_montanha"
   },
   {
    "camera": "close",
