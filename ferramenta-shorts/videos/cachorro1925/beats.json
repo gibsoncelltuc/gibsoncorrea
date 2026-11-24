@@ -114,8 +114,8 @@
    "shot": "two",
    "set": "mountain",
    "who": [
-    "BUL:0:angry",
-    "GRE:0:scared"
+    "GRE:0:scared",
+    "BUL:0:angry"
    ],
    "interacao": "empurrar",
    "fx": [
