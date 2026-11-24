@@ -7,7 +7,7 @@
 - Roupas: {'BUK': 'jaqueta escura, bone e barba', 'DEP': 'terno roxo com gravata vermelha', 'POV': 'comerciante de chapeu de palha', 'CLI': 'camisa verde e calca azul'}
 - Cenario real: rua com barraca de feira e comerciantes, sala da assembleia, celulares com a carteira Chivo
 - Objetos: ['moeda de bitcoin', 'carteira digital Chivo', 'barraca de feira', 'globo']
-- Cenarios usados no video: interior pedra, loc_cidade, loc_patio, loc_pista
+- Cenarios usados no video: loc_cidade, loc_patio, loc_pista
 - PROIBIDO pela epoca (a ferramenta bloqueia): barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Proibido pelo roteiro: -
 
