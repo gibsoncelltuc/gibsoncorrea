@@ -115,7 +115,9 @@
    ],
    "mapa": "MAINE",
    "mapa_at": 0.5,
-   "say": "Em mil oitocentos e trinta e oito, a fronteira entre o estado do Maine e a colônia inglesa de New Brunswick ainda era disputada."
+   "say": "Em mil oitocentos e trinta e oito, a fronteira entre o estado do Maine e a colônia inglesa de New Brunswick ainda era disputada.",
+   "shot_lock": true,
+   "detalhe": false
   },
   {
    "shot": "two",
