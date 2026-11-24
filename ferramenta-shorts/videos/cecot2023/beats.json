@@ -157,15 +157,15 @@
      ],
      [
       "CERCAS",
-      "baixo",
+      "meio",
       "cercas",
-      -1
+      1
      ],
      [
       "TORRES",
       "frente",
       "torres",
-      1
+      -1
      ]
     ]
    }
