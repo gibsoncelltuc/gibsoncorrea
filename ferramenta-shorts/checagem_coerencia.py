@@ -71,6 +71,10 @@ for k, b in enumerate(BT):
             cods = [c for c, v in _COD.items() if v == c3]
             if cods and not any(c in quem for c in cods):
                 erros.append(f'R8 b{k}: a frase cita "{nm.strip()}" mas o figurino dele ({cods[0]}) nao esta na cena: ponha "{cods[0]}" no "who" (e a acao dele na frase)'); break
+# R9: historia da ANTIGUIDADE (a.C., "ha mais de dois mil anos", gregos/romanos/egipcios) sem regiao "classico"/"oriente" = cidade moderna no fundo (Arquimedes 24/11)
+_todo = n(' '.join(b.get('say', '') for b in BT))
+if 'R9' not in ok and re.search(r'antes de cristo|\ba\.? ?c\.|ha mais de (dois|tres|mil) mil anos|ha mais de mil anos|seculo [ivx]+ a|imperio romano|grecia antiga|egito antigo|faraon|siracusa|esparta|atenas antiga|gladiador', _todo) and (B.get('regiao') or '') not in ('classico', 'oriente'):
+    erros.append('R9 a historia e\' da ANTIGUIDADE mas a regiao e\' "' + str(B.get('regiao')) + '": ponha "regiao": "classico" (Grecia/Roma) ou "oriente", senao o fundo sai com predio e asfalto modernos')
 # gancho
 s0 = n(BT[0]['say']) if BT else ''
 if re.match(r'(segundo|dizem|conta-se|contam|reza a lenda|era (mil|o ano)|em (mil|\d{3,4})|no ano de)', s0) and 'R4' not in ok:

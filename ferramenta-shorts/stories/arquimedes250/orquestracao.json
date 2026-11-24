@@ -26,7 +26,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "medieval"
   },
   {
    "camera": "reveal",
@@ -45,7 +45,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "medieval"
   },
   {
    "camera": "two",
@@ -103,12 +103,12 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "orbit",
+   "camera": "two",
    "personagens": [
     "ARQ",
     "POV"
    ],
-   "multidao": 10,
+   "multidao": 0,
    "objetos": [
     "kit/bathtub"
    ],
@@ -125,51 +125,55 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "interior pedra"
   },
   {
    "camera": "two",
-   "personagens": [
-    "ARQ",
-    "POV"
-   ],
+   "personagens": [],
    "multidao": 0,
    "objetos": [],
    "palavras": 17,
    "cena": "b6",
    "frase": "Ele percebeu que o tanto de água que sai é igual ao tamanho do corpo que entra.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/bathtub (parado)",
+    "emissao": "onda",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
    "acoes_faltando": [],
    "cenario": "interior madeira"
   },
   {
-   "camera": "group",
-   "personagens": [
-    "ARQ",
-    "POV"
-   ],
+   "camera": "two",
+   "personagens": [],
    "multidao": 0,
-   "objetos": [
-    "kit/crown"
-   ],
+   "objetos": [],
    "palavras": 18,
    "cena": "b7",
    "frase": "Se a coroa tivesse prata, seria maior que o ouro puro de mesmo peso, e derramaria mais água.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/crown (parado)",
+    "emissao": "onda",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
    "acoes_faltando": [],
    "cenario": "interior madeira"
   },
   {
-   "camera": "prop",
+   "camera": "orbit",
    "personagens": [
     "ARQ",
     "OUR"
    ],
-   "multidao": 0,
+   "multidao": 6,
    "objetos": [
     "kit/crown"
    ],
@@ -180,7 +184,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "medieval"
   },
   {
    "camera": "crowd",
@@ -205,7 +209,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "medieval"
   },
   {
    "camera": "two",
@@ -224,7 +228,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "medieval"
   },
   {
    "camera": "close",
@@ -240,7 +244,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "medieval"
   }
  ]
 }

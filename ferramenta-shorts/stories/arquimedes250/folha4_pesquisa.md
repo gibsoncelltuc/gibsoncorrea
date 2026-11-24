@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 2000 | Lugar: Siracusa, cidade grega na Sicilia: casas de pedra clara, colunas, ruas de pedra, banhos publicos, mar Mediterraneo | Quando: cerca de 250 a.C., de dia; a historia vem do escritor romano Vitruvio, que contou mais de cem anos depois
 - HEROIS (objeto): kit/bathtub
 - HEROIS (personagens): ARQ, REI
-- Cenarios: harbor, interior madeira, interior pedra, street
+- Cenarios: interior madeira, interior pedra, medieval
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
@@ -27,9 +27,11 @@ objeto | banheira | banheira / banheira 2000 | SEM REFERENCIA
 objeto | balanca de pratos | balanca de pratos / balanca de pratos 2000 | Alegoria da Libertação de Portugal ao Jugo Francês (referencias/arquimedes250/prints/balanca_de_pratos_20f4de.jpg); Trier Meisner (1625).jpg (referencias/arquimedes250/prints/balanca_de_pratos_133c33.jpg); Museo de Teruel, sala con botíca del s.XVII-XVIII, (referencias/arquimedes250/prints/balanca_de_pratos_42d66e.jpg)
 objeto | barra de ouro | barra de ouro / barra de ouro 2000 | Gold Ingots on white background.jpg (referencias/arquimedes250/prints/barra_de_ouro_2bbeaa.jpg); Pousada Ouro Preto Conceição da Barra ES 8.jpg (referencias/arquimedes250/prints/barra_de_ouro_865705.jpg); Pousada Ouro Preto Conceição da Barra ES 4.jpg (referencias/arquimedes250/prints/barra_de_ouro_55dea3.jpg)
 heroi | bathtub | coroa de ouro / Arquimedes e o Eureca | California sea lion in La Jolla (70568).jpg (referencias/arquimedes250/prints/bathtub_d504a4.jpg); 011 The lion king Tryggve in the Serengeti Nationa (referencias/arquimedes250/prints/bathtub_6961ed.jpg); Male Lion and Cub Chitwa South Africa Luca Galuzzi (referencias/arquimedes250/prints/bathtub_971693.jpg)
+mecanismo | Ele percebeu que o tanto de água que sai é igual ao tamanho do corpo q | percebeu tanto igual tamanho corpo entra / bathtub diagram | SEM REFERENCIA
+mecanismo | Se a coroa tivesse prata, seria maior que o ouro puro de mesmo peso, e | coroa tivesse prata seria derramaria / crown diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
-- -
+- Principio do deslocamento: um corpo mergulhado desloca um volume de agua igual ao seu proprio volume (Vitruvio, De Architectura, livro IX). Prata e menos densa que o ouro: uma coroa com prata no mesmo peso tem volume maior e desloca mais agua.
 
 ## Fontes visuais do roteirista
 - https://en.wikipedia.org/wiki/Eureka_(word)

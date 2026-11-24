@@ -4,7 +4,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b0  (~4.8 s)
 - Narracao: Um homem pulou da banheira e saiu correndo pela rua, gritando uma palavra só.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: steps@10
 - Efeito + som nas palavras-chave: encena: pula @2 -> acao + som de efeito; encena: sai @6 -> acao + som de efeito; encena: corre @7 -> acao + som de efeito; encena: grita (up) @10 -> acao + som de efeito
 - Efeito visual marcado: dust@20
@@ -13,7 +13,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b1  (~3.8 s)
 - Narracao: Foi em Siracusa, na Sicília, há mais de dois mil anos.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b5  (~4.8 s)
 - Narracao: Acontece que, numa tarde, ele entrou na banheira, e a água transbordou pelas bordas.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@50, ding@70
 - Efeito + som nas palavras-chave: encena: chega (point) @5 -> acao + som de efeito
 - Efeito visual marcado: ring@50, stars@70
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Ele percebeu que o tanto de água que sai é igual ao tamanho do corpo que entra.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: percebeu -> ring + som de alerta; encena: pensa (think) @1 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,14 +69,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Se a coroa tivesse prata, seria maior que o ouro puro de mesmo peso, e derramaria mais água.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: ouro -> stars + som de sino; encena: paga (reach) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b8  (~5.2 s)
 - Narracao: Assim dava para medir a coroa, e comparar com o mesmo peso de ouro puro.
-- Som ambiente: sea
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: ouro -> stars + som de sino; encena: examina (think) @3 -> acao + som de efeito; encena: paga (reach) @13 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -85,7 +85,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b9  (~5.2 s)
 - Narracao: Conta a lenda que ele gritou Eureca pela rua. E a coroa tinha mesmo prata.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: ding@30, sting@80
 - Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritou -> ring + som de alerta; encena: grita (up) @5 -> acao + som de efeito
 - Efeito visual marcado: stars@30, burst@80
@@ -94,7 +94,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b10  (~3.8 s)
 - Narracao: No fim, dá para enganar um rei, mas não uma banheira.
-- Som ambiente: sea
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -103,7 +103,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b11  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
