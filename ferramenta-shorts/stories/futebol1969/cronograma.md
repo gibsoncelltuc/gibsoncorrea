@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 09 - A Guerra do Futebol
 
-Gerado em 24/11 20:09 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 20:12 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -13,7 +13,7 @@ b3 | simples | stadium | crowd | HON, SAL | 18 | house_small, panela, picket_fen
 b4 | simples | street | two | TOR, TOR | - | volcano | - | No segundo, El Salvador devolveu por três a zero, e os torcedores brig
 b5 | simples | interior madeira | two | PRE, PRE | - | - | - | Acontece que, na véspera do terceiro jogo, El Salvador cortou relações
 b6 | simples | stadium | group | SAL, SAL, HON | - | apartment, house_two, ball, trave, lamppost | - | O jogo foi na Cidade do México, e El Salvador venceu por três a dois, 
-b7 | chave | street | crowd | SOL | 48 | volcano, airplane | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Semanas depois, o exército salvadorenho atacou Honduras.
+b7 | chave | street | crowd | SOL | 48 | volcano | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Semanas depois, o exército salvadorenho atacou Honduras.
 b8 | chave | street | group | SOL, PRE | 10 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A guerra durou cem horas, até a Organização dos Estados Americanos imp
 b9 | simples | stadium | two | SAL | - | ball, trave | - | Na Copa, El Salvador perdeu os três jogos, sem fazer um único gol.
 b10 | simples | stadium | close | HON | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?

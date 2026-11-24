@@ -11,7 +11,7 @@ b3 | stadium | crowd | 20 | comemorar | kit/panela, buildings/house_small, natur
 b4 | street | two | 2 | discutir, INTERAGEM: empurrar | kit/volcano | - | -
 b5 | interior madeira | two | 2 | reagir, INTERAGEM: susto | - | paper | -
 b6 | stadium | group | 3 | comemorar, INTERAGEM: pular | kit/ball, kit/trave, buildings/apartment, buildings/house_two, nature/lamppost | - | -
-b7 | street | crowd | 7 | batalha | vehicles/airplane, kit/volcano | - | -
+b7 | street | crowd | 7 | batalha | kit/volcano | - | -
 b8 | street | group | 12 | reagir, INTERAGEM: o outro se aproxima, batalha | - | paper | -
 b9 | stadium | two | 1 | conversar | kit/ball, kit/trave | - | -
 b10 | stadium | close | 1 | conversar | - | - | -

@@ -78,7 +78,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (1): SOL (variante 0, expressao stern) | multidao: 6 de SOL
 - Animacao: - | batalha encenada
-- Objetos/modelos: vehicles/airplane, kit/volcano
+- Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): exercito
 - RISCOS: nenhum
 
@@ -127,7 +127,6 @@ kit/trave | b6, b9 | pronto | conferir na folha de contato se le bem; se parecer
 buildings/apartment | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-vehicles/airplane | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro

@@ -329,9 +329,9 @@
    "props": [
     [
      "vehicles/airplane",
-     0.0,
-     -7.0,
-     2.2,
+     5.0,
+     -10.0,
+     2.0,
      {
       "fixo": true
      }
@@ -343,11 +343,11 @@
    "hora": "dia",
    "detalhe": false,
    "quadro_manual": true,
-   "cx": 0,
-   "cz": -5.0,
-   "h": 3.5,
-   "d0": 20,
-   "d1": 18,
+   "cx": 2.0,
+   "cz": -6.0,
+   "h": 4.5,
+   "d0": 22,
+   "d1": 20,
    "crowd": {
     "n": 6,
     "outfits": [

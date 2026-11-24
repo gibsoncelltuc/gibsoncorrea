@@ -60,9 +60,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b7: "Semanas depois, o exército salvadorenho atacou Honduras."
 - LOCAL: rua de cidade (predios dos dois lados); hora: dia
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o airplane (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto
+- CAMERA: plano de multidao
 - PERSONAGENS: SOL no centro, expressao stern; multidao de 6 (SOL) marchando ATRAS dos principais; acao: batalha
-- OBJETO vehicles/airplane: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: CHEGANDO; 28.6 m de altura x 28.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "GUERRA" flutuando no alto, na palavra 1 da frase
 
 ## b8: "A guerra durou cem horas, até a Organização dos Estados Americanos impor um cessar-fogo."

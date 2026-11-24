@@ -320,33 +320,17 @@
    "d1": 11.5
   },
   {
-   "shot": "wide",
+   "shot": "crowd",
    "who": [
     "SOL:0:stern"
    ],
    "batalha": true,
-   "props": [
-    [
-     "vehicles/airplane",
-     5.0,
-     -10.0,
-     2.0,
-     {
-      "fixo": true
-     }
-    ]
-   ],
+   "props": [],
    "text": "GUERRA",
    "titulo": true,
    "say": "Semanas depois, o exército salvadorenho atacou Honduras.",
    "hora": "dia",
    "detalhe": false,
-   "quadro_manual": true,
-   "cx": 2.0,
-   "cz": -6.0,
-   "h": 4.5,
-   "d0": 22,
-   "d1": 20,
    "crowd": {
     "n": 6,
     "outfits": [
