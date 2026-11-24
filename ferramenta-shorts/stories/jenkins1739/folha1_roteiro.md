@@ -25,7 +25,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: whoosh@70
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: puff@70
+- Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
@@ -44,7 +44,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) angry -> expr + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: PARLAMENTO
 - Funcao na historia: desenvolvimento
 
 ## Cena b5  (~6.2 s)

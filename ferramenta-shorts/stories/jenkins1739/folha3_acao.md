@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 12 - A Guerra da Orelha de Jenkins
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.9s - 15 palavras - plano two
@@ -29,7 +29,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 2 | - | INTERACAO | empurrar | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 3 | - | ATUACAO | golpe | OK |
 
 ## Cena b3 - 16.0s a 18.2s - 10 palavras - plano two
 > ""Vá levar isso ao seu rei", teria dito o espanhol."
@@ -39,7 +39,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | cochichar | OK |
 | 2 | - | ATUACAO | discutir | OK |
 
-## Cena b4 - 19.5s a 24.6s - 15 palavras - plano two
+## Cena b4 - 19.5s a 24.6s - 15 palavras - plano group
 > "Sete anos depois, Jenkins relatou a história ao Parlamento inglês, e os deputados ficaram furiosos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -47,6 +47,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | EMOCAO: angry | o rosto vira "angry" na palavra | OK |
 | 2 | - | INTERACAO | susto | OK |
 | 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | PARLAMENTO | OK |
 
 ## Cena b5 - 25.9s a 30.4s - 18 palavras - plano two
 > "Acontece que a Inglaterra queria uma desculpa para brigar com a Espanha por causa do comércio no Caribe."
