@@ -23,7 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Por anos, El Salvador teve uma das maiores taxas de assassinato do mun...
-- Cenario: loc_cidade | luz: day | clima: limpo
+- Cenario: loc_patio | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): REP (variante 0, expressao worried, segura paper); POV (variante 0, expressao scared) | multidao: 10 de POV
@@ -33,18 +33,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - Em dois mil e vinte e dois, o presidente Nayib Bukele decretou estado ...
-- Cenario: interior loja | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Cenario: loc_cidade | luz: day | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): BUK (variante 0, expressao stern); GUA (variante 0, expressao stern)
+- Personagens principais (2): BUK (variante 0, expressao stern); GUA (variante 0, expressao stern) | multidao: 5 de POV
 - Animacao: conversar | interacao: entregar
-- Objetos/modelos: -
+- Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): excecao, presidente, suspeitos
 - RISCOS: nenhum
 
 ## Cena b4 - Para guardar tanta gente, ergueram o Centro de Confinamento do Terrori...
-- Cenario: loc_cidade | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Cenario: loc_patio | luz: day | clima: limpo
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): GUA (variante 0, expressao stern); GUA (variante 1, expressao stern); GUA (variante 2, expressao angry) | multidao: 16 de GUA
 - Animacao: encena | batalha encenada
@@ -53,12 +53,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Muralhas altas, cercas elétricas e torres de vigia por todos os lados.
-- Cenario: loc_patio | luz: day | clima: limpo
-- Camera: low = camera baixa, dramatica (virada)
+- Cenario: loc_estudio | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (1): GUA (variante 0, expressao stern)
-- Animacao: conversar
-- Objetos/modelos: kit/prison, kit/volcano, buildings/castle_tower
+- Personagens principais (0): - | multidao: 0 de 
+- Animacao: -
+- Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lados, vigia
 - RISCOS: nenhum
 
@@ -73,38 +73,38 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Organizações de direitos humanos denunciaram prisões sem julgamento, e...
-- Cenario: loc_campo | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (2): REP (variante 0, expressao suspicious); POV (variante 0, expressao worried)
-- Animacao: discutir | interacao: discutir
+- Cenario: loc_cidade | luz: day | clima: limpo
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (2): REP (variante 0, expressao suspicious); POV (variante 0, expressao worried) | multidao: 12 de POV
+- Animacao: discutir | batalha encenada
 - Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): direitos
 - RISCOS: nenhum
 
 ## Cena b8 - O governo responde que as ruas ficaram seguras, e que a maioria da pop...
-- Cenario: interior loja | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Cenario: loc_cidade | luz: day | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): BUK (variante 0, expressao stern); REP (variante 0, expressao nervous, segura paper)
-- Animacao: discutir | interacao: vai ate o outro
-- Objetos/modelos: -
+- Animacao: discutir | interacao: discutir
+- Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): governo, maioria, populacao, ruas
 - RISCOS: nenhum
 
 ## Cena b9 - A prisão virou símbolo do país. Para uns, de segurança. Para outros, d...
-- Cenario: loc_campo | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Cenario: loc_patio | luz: day | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (3): POV (variante 0, expressao surprised); POV (variante 1, expressao grin); POV (variante 2, expressao worried) | multidao: 18 de POV
-- Animacao: - | batalha encenada
+- Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/prison, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): excesso, prisao, seguranca
 - RISCOS: nenhum
 
 ## Cena b10 - E o modelo passou a ser estudado, copiado e criticado em vários lugare...
-- Cenario: loc_patio | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Cenario: loc_pista | luz: day | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): BUK (variante 0, expressao stern)
 - Animacao: conversar
@@ -127,23 +127,16 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/prison | b0, b1, b2, b4, b5, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/volcano | b0, b1, b2, b4, b5, b7, b9, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/castle_tower | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/prison | b0, b1, b2, b4, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/volcano | b0, b1, b2, b3, b4, b5, b7, b8, b9, b10, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/prison | grandes momentos: b4, b9 | planos abertos: 4 | mistura: close 11% | medio 68% | aberto 21% | detalhe 0%
-- Interacoes: b0 aproxima-se, b3 entregar, b6 avanca e o outro recua, b7 discutir, b8 vai ate o outro
-- RISCOS GERAIS: 
-  - objeto heroi (kit/prison) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py cecot2023  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/cecot2023/moodboard.jpg
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
+- Objeto heroi: kit/prison | grandes momentos: b4, b7 | planos abertos: 4 | mistura: close 11% | medio 69% | aberto 21% | detalhe 0%
+- Interacoes: b0 aproxima-se, b3 entregar, b6 avanca e o outro recua, b8 discutir, b9 o outro se aproxima
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 3 risco(s) em aberto
-- geral: objeto heroi (kit/prison) sem close de camera
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh cecot2023 bN bM` (so essas cenas).

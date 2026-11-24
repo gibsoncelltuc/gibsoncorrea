@@ -57,7 +57,6 @@
      1.0
     ]
    ],
-   "text": "2023",
    "fx": [
     "stars@30"
    ],
@@ -82,7 +81,8 @@
      1.2
     ]
    ],
-   "say": "Ela foi inaugurada em janeiro de dois mil e vinte e três, numa área isolada do país."
+   "say": "Ela foi inaugurada em janeiro de dois mil e vinte e três, numa área isolada do país.",
+   "text": "2023"
   },
   {
    "shot": "two",
@@ -103,13 +103,14 @@
   },
   {
    "shot": "two",
-   "interior": "loja",
+   "interior": false,
    "who": [
     "BUK:0:stern",
     "GUA:0:stern"
    ],
    "interacao": "entregar",
-   "say": "Em dois mil e vinte e dois, o presidente Nayib Bukele decretou estado de exceção, e milhares de suspeitos foram presos."
+   "say": "Em dois mil e vinte e dois, o presidente Nayib Bukele decretou estado de exceção, e milhares de suspeitos foram presos.",
+   "set": "loc_cidade"
   },
   {
    "shot": "crowd",
@@ -118,7 +119,7 @@
     "GUA:1:stern",
     "GUA:2:angry"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "crowd": {
     "n": 16,
@@ -136,37 +137,36 @@
      1.2
     ]
    ],
-   "fx": [
-    "ring@30"
-   ],
-   "sfx": [
-    "sting@30"
-   ],
    "text": "40 MIL",
    "titulo": true,
    "say": "Para guardar tanta gente, ergueram o Centro de Confinamento do Terrorismo, com vagas para quarenta mil presos."
   },
   {
-   "shot": "low",
-   "who": [
-    "GUA:0:stern"
-   ],
-   "props": [
-    [
-     "kit/prison",
-     0,
-     -11.0,
-     1.1
-    ]
-   ],
-   "fx": [
-    "puff@30"
-   ],
-   "sfx": [
-    "thump@30"
-   ],
    "say": "Muralhas altas, cercas elétricas e torres de vigia por todos os lados.",
-   "acao": "conversar"
+   "explica": {
+    "objeto": "kit/prison",
+    "manobra": "gira",
+    "rotulos": [
+     [
+      "MURALHAS",
+      "topo",
+      "Muralhas",
+      1
+     ],
+     [
+      "CERCA ELETRICA",
+      "meio",
+      "cercas",
+      -1
+     ],
+     [
+      "TORRES",
+      "frente",
+      "torres",
+      1
+     ]
+    ]
+   }
   },
   {
    "shot": "two",
@@ -196,17 +196,23 @@
    "sfx": [
     "sting@30"
    ],
-   "say": "Organizações de direitos humanos denunciaram prisões sem julgamento, e mortes sob custódia."
+   "say": "Organizações de direitos humanos denunciaram prisões sem julgamento, e mortes sob custódia.",
+   "interior": false,
+   "set": "loc_cidade",
+   "batalha": false,
+   "impact": false,
+   "tiros": false
   },
   {
    "shot": "two",
-   "interior": "loja",
+   "interior": false,
    "who": [
     "BUK:0:stern",
     "REP:0:nervous:paper"
    ],
    "acao": "discutir",
-   "say": "O governo responde que as ruas ficaram seguras, e que a maioria da população apoia."
+   "say": "O governo responde que as ruas ficaram seguras, e que a maioria da população apoia.",
+   "set": "loc_cidade"
   },
   {
    "shot": "crowd",
@@ -215,7 +221,7 @@
     "POV:1:grin",
     "POV:2:worried"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "crowd": {
     "n": 18,
@@ -232,12 +238,6 @@
      -14.0,
      1.2
     ]
-   ],
-   "fx": [
-    "ring@30"
-   ],
-   "sfx": [
-    "sting@30"
    ],
    "text": "DEBATE",
    "titulo": true,
@@ -264,5 +264,36 @@
   "https://www.as-coa.org/articles/explainer-el-salvadors-2024-presidential-and-legislative-elections",
   "https://www.riotimesonline.com/who-is-nayib-bukele-el-salvador-profile-2026/"
  ],
- "heroi_sem_close_ok": true
+ "heroi_sem_close_ok": true,
+ "visual": {
+  "local": "Tecoluca, departamento de San Vicente, El Salvador: o CECOT (Centro de Confinamiento del Terrorismo), complexo isolado cercado por campo e morros",
+  "quando": "inaugurado em 31/jan/2023; estado de excecao decretado em marco de 2022; dia, ceu claro",
+  "participantes": [
+   "Nayib Bukele (terno escuro)",
+   "jornalista com credencial",
+   "soldados e policiais salvadorenhos de farda verde-oliva e capacete",
+   "presos de camiseta e bermuda brancas, cabeca raspada"
+  ],
+  "roupas": {
+   "BUK": "terno escuro, camisa branca",
+   "REP": "camisa com cracha de imprensa"
+  },
+  "cenario": "prisao de concreto cinza com muralha alta, cerca de arame, torres de vigia, portao de ferro; campo ao redor; clima tropical",
+  "objetos": [
+   "muralha de concreto",
+   "torre de vigia",
+   "portao de ferro",
+   "cerca eletrica"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Terrorism_Confinement_Center",
+   "https://commons.wikimedia.org/wiki/Category:Terrorism_Confinement_Center"
+  ],
+  "referencias": {
+   "jornalista com credencial": "repórter com crachá de imprensa e caderno, padrão geral de imprensa (sem foto específica no Commons)"
+  },
+  "explicacoes": [
+   "CECOT: complexo de concreto com muralhas, cercas e torres de vigia, previsto para 40 mil presos (fonte: governo de El Salvador / Wikipedia \"Terrorism Confinement Center\")"
+  ]
+ }
 }
