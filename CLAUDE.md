@@ -27,6 +27,14 @@ Usuário: Gibson, fala português. Responda sempre em português, curto e honest
 - A principal confere DE NOVO, ela mesma, o frase_a_frase de todo video que chega das sessoes antes de mandar ao Gibson.
 - Roteiro: gancho forte (cena 1 com impacto visual, trava "GANCHO sem impacto visual"), virada no meio, final curto + chamada para comentar.
 
+
+## DIAGNOSTICO DAS FALHAS (24/11, pedido do Gibson) — onde cada defeito escapava e a trava que fecha
+- Folha 2/3 (producao/acao) conferiam o ROTEIRO, nao a TELA: objeto citado escondido/cortado/pequeno, camera tapada/dentro de objeto, personagem cortado, casco virando parede -> `visivel.mjs` mede no motor e `autocorrigir_visibilidade.py` conserta sozinho (storyboard nao aprova com falha).
+- Ferramenta (padroes ruins): farol como fachada no cais; regra "nada na frente" jogava o objeto heroi para fora do quadro; estimativa de duracao otimista; nome de veiculo sem pasta -> corrigidos no motor + teste.
+- Roteiro/coerencia: predios de outro pais, regiao inexistente, lados de batalha com a mesma farda, gancho com data/ressalva -> `checagem_coerencia.py` (R1-R4) trava o render.
+- Folha 4 (pesquisa) nao era cruzada com a producao: a R1 agora cruza o lugar (mapa) com os predios.
+- Ainda no olho: acao citada que existe no catalogo mas nao se le na tela (ex.: saque, beber) -> grade de acoes + frase a frase.
+
 ## REGRA MESTRA (ordem do Gibson, 19/11) — vale acima de todas as outras
 1. **Nunca informe um problema ao Gibson sem antes já ter resolvido.** Achou o defeito: corrige, confere (teste, quadro, folha de contato) e só então conta o que estava errado e como ficou.
 2. **Todo erro encontrado é PRIORIDADE MÁXIMA:** para o que estiver fazendo, resolve primeiro, depois informa as falhas (já corrigidas) no relatório.
