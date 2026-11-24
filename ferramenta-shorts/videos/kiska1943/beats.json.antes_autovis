@@ -349,13 +349,14 @@
    "props": [
     [
      "kit/dog_sit",
-     1.0,
+     0.5,
      1.0,
      1.2
     ]
    ],
    "detalhe": false,
-   "interior": "madeira"
+   "interior": "madeira",
+   "_auto_vis": 1
   }
  ],
  "heroi": "kit/dog_sit",
