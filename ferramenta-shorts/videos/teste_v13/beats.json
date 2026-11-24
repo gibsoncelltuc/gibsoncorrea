@@ -125,7 +125,6 @@
   {
    "say": "Segundo a Tesla, ele vai de zero a cem em menos de um segundo.",
    "explica": {
-    "manobra": "parado",
     "medidor": {
      "de": 0,
      "para": 100,
@@ -133,15 +132,7 @@
      "titulo": "ZERO A CEM",
      "na": "zero",
      "dur": 0.9
-    },
-    "vfx": [
-     {
-      "k": "pneu",
-      "na": "zero",
-      "ate": 0.9,
-      "pot": 0.55
-     }
-    ]
+    }
    }
   },
   {
