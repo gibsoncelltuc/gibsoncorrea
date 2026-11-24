@@ -3,7 +3,7 @@
 Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval | 11 cenas, 184 palavras (~63 s)
 
 ## Cena b0  (~5.5 s)
-- Narracao: Duas cidades italianas foram à guerra, e o prêmio do vencedor foi um balde de madeira.
+- Narracao: Dois vizinhos italianos foram à guerra, e o prêmio do vencedor foi um balde de madeira.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: prêmio -> stars + som de sino; encena: vence (up) @8 -> acao + som de efeito
