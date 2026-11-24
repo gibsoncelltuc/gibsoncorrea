@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 02 - A Guerra dos Emus
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 45 acoes catalogadas, 45 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 47 acoes catalogadas, 47 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.8s - 11 palavras - plano two
@@ -117,82 +117,86 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ACAO: pega na palavra instalada (27.3s): executa: levanta/segura
 <!-- /FISICA -->
 
-## Cena b6 - 31.5s a 35.0s - 12 palavras - plano orbit
-> "Depois de seis dias, milhares de cartuchos gastos e poucos emus abatidos."
+## Cena b6 - 31.5s a 34.8s - 12 palavras - plano orbit
+> "Depois de seis dias, milhares de balas gastas e poucos emus abatidos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | CENA | tiros: 1 soldados caem no chao | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | PLACA | 6 DIAS | OK |
+| 1 | balas (33.5s) | EFEITO: burst | estouro/clarao + som | OK |
+| 2 | balas (33.5s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 3 | - | CENA | tiros: 1 soldados caem no chao | OK |
+| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 5 | - | PLACA | 6 DIAS | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: burst na palavra balas (33.5s): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
+- ACAO: atira na palavra balas (33.5s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - CENA (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - BATALHA (a cena toda): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b7 - 36.4s a 41.0s - 16 palavras - plano track
+## Cena b7 - 36.3s a 40.9s - 16 palavras - plano track
 > "O major comparou os pássaros a tanques, a imprensa riu, e o governo retirou as tropas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | riu (39.2s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | riu (39.2s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
-| 3 | retirou (40.5s) | ACAO: sai | sai andando pela lateral | OK |
+| 1 | riu (39.1s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | riu (39.1s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
+| 3 | retirou (40.3s) | ACAO: sai | sai andando pela lateral | OK |
 | 4 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
 | 5 | - | PLACA | HA HA HA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra riu (39.2s): executa: estrelinhas + som
-- ACAO: x_ri na palavra riu (39.2s): executa: ri de bracos para cima + brilho
-- ACAO: sai na palavra retirou (40.5s): executa: sai andando pela lateral
+- EFEITO: stars na palavra riu (39.1s): executa: estrelinhas + som
+- ACAO: x_ri na palavra riu (39.1s): executa: ri de bracos para cima + brilho
+- ACAO: sai na palavra retirou (40.3s): executa: sai andando pela lateral
 - EMOCAO: laugh (a cena toda): executa: o rosto vira "laugh" na palavra
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 - multidao de 12: parada, reagindo (neutra), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b8 - 42.2s a 47.1s - 17 palavras - plano two
+## Cena b8 - 42.0s a 46.9s - 17 palavras - plano two
 > "O exército voltou, e o major disse ter abatido novecentos e oitenta e seis, número muito contestado."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | voltou (42.8s) | ACAO: chega | entra andando pela lateral | OK |
+| 1 | voltou (42.7s) | ACAO: chega | entra andando pela lateral | OK |
 | 2 | - | INTERACAO | avanca e o outro recua | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | 986 (CONTESTADO) | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: chega na palavra voltou (42.8s): executa: entra andando pela lateral
+- ACAO: chega na palavra voltou (42.7s): executa: entra andando pela lateral
 - INTERACAO (a cena toda): executa: avanca e o outro recua
 - ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b9 - 48.6s a 56.1s - 21 palavras - plano group
+## Cena b9 - 48.4s a 56.0s - 21 palavras - plano group
 > "No fim, o governo preferiu recompensas, e em seis meses pagou por mais de cinquenta mil emus. Exército zero, emus um."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | pagou (51.9s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | pagou (51.9s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 1 | pagou (51.8s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | pagou (51.8s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 3 | - | INTERACAO | entregar | OK |
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | PLACA | EXÉRCITO 0 - 1 EMUS | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra pagou (51.9s): executa: estrelinhas + som
-- ACAO: negocio na palavra pagou (51.9s): executa: moeda girando (compra/venda)
+- EFEITO: stars na palavra pagou (51.8s): executa: estrelinhas + som
+- ACAO: negocio na palavra pagou (51.8s): executa: moeda girando (compra/venda)
 - INTERACAO (a cena toda): executa: entregar
 - ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b10 - 57.2s a 60.5s - 13 palavras - plano close
+## Cena b10 - 57.0s a 60.4s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

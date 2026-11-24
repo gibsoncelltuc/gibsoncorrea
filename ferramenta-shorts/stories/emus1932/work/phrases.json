@@ -1,7 +1,7 @@
 {
- "duration": 61.464,
- "frames30": 1844,
- "source": "silence-align (cost 0.77)",
+ "duration": 61.32,
+ "frames30": 1840,
+ "source": "silence-align (cost 0.79)",
  "segments": [
   [
    0.153458,
@@ -13,14 +13,14 @@
   ],
   [
    4.02333,
-   5.50762
+   5.51042
   ],
   [
    5.7195,
-   9.09771
+   9.09596
   ],
   [
-   10.0289,
+   10.0291,
    12.1137
   ],
   [
@@ -52,64 +52,64 @@
    30.6273
   ],
   [
-   31.4911,
-   32.6505
+   31.485,
+   32.6863
   ],
   [
-   32.8864,
-   35.5831
+   32.9138,
+   35.4367
   ],
   [
-   36.4346,
-   38.3231
+   36.2982,
+   38.1867
   ],
   [
-   38.5931,
-   39.3892
+   38.4567,
+   39.2528
   ],
   [
-   39.76,
-   41.3039
+   39.6236,
+   41.1668
   ],
   [
-   42.1622,
-   43.1786
+   42.0258,
+   43.0422
   ],
   [
-   43.5225,
-   46.127
+   43.3861,
+   45.988
   ],
   [
-   46.3811,
-   47.7282
+   46.2447,
+   47.592
   ],
   [
-   48.5625,
-   48.9682
+   48.4263,
+   48.8319
   ],
   [
-   49.2356,
-   50.8829
+   49.0992,
+   50.7492
   ],
   [
-   51.0887,
-   53.7436
+   50.9523,
+   53.6083
   ],
   [
-   54.6195,
-   55.5407
+   54.4831,
+   55.4044
   ],
   [
-   55.7795,
-   56.3168
+   55.6431,
+   56.1804
   ],
   [
-   57.1633,
-   58.6082
+   57.0272,
+   58.4719
   ],
   [
-   58.9008,
-   60.6625
+   58.7645,
+   60.5259
   ]
  ],
  "phrases": [
@@ -126,12 +126,12 @@
   {
    "text": "Em mil novecentos e trinta e dois,",
    "s": 4.023,
-   "e": 5.508
+   "e": 5.51
   },
   {
    "text": "vinte mil emus invadiram as planta\u00e7\u00f5es de trigo no oeste do pa\u00eds.",
    "s": 5.72,
-   "e": 9.098
+   "e": 9.096
   },
   {
    "text": "Fazendeiros veteranos pediram metralhadoras,",
@@ -175,78 +175,78 @@
   },
   {
    "text": "Depois de seis dias,",
-   "s": 31.491,
-   "e": 32.651
+   "s": 31.485,
+   "e": 32.686
   },
   {
-   "text": "milhares de cartuchos gastos e poucos emus abatidos.",
-   "s": 32.886,
-   "e": 35.583
+   "text": "milhares de balas gastas e poucos emus abatidos.",
+   "s": 32.914,
+   "e": 35.437
   },
   {
    "text": "O major comparou os p\u00e1ssaros a tanques,",
-   "s": 36.435,
-   "e": 38.323
+   "s": 36.298,
+   "e": 38.187
   },
   {
    "text": "a imprensa riu,",
-   "s": 38.593,
-   "e": 39.389
+   "s": 38.457,
+   "e": 39.253
   },
   {
    "text": "e o governo retirou as tropas.",
-   "s": 39.76,
-   "e": 41.304
+   "s": 39.624,
+   "e": 41.167
   },
   {
    "text": "O ex\u00e9rcito voltou,",
-   "s": 42.162,
-   "e": 43.179
+   "s": 42.026,
+   "e": 43.042
   },
   {
    "text": "e o major disse ter abatido novecentos e oitenta e seis,",
-   "s": 43.523,
-   "e": 46.127
+   "s": 43.386,
+   "e": 45.988
   },
   {
    "text": "n\u00famero muito contestado.",
-   "s": 46.381,
-   "e": 47.728
+   "s": 46.245,
+   "e": 47.592
   },
   {
    "text": "No fim,",
-   "s": 48.562,
-   "e": 48.968
+   "s": 48.426,
+   "e": 48.832
   },
   {
    "text": "o governo preferiu recompensas,",
-   "s": 49.236,
-   "e": 50.883
+   "s": 49.099,
+   "e": 50.749
   },
   {
    "text": "e em seis meses pagou por mais de cinquenta mil emus.",
-   "s": 51.089,
-   "e": 53.744
+   "s": 50.952,
+   "e": 53.608
   },
   {
    "text": "Ex\u00e9rcito zero,",
-   "s": 54.62,
-   "e": 55.541
+   "s": 54.483,
+   "e": 55.404
   },
   {
    "text": "emus um.",
-   "s": 55.779,
-   "e": 56.317
+   "s": 55.643,
+   "e": 56.18
   },
   {
    "text": "Agora n\u00e3o deixe de comentar:",
-   "s": 57.163,
-   "e": 58.608
+   "s": 57.027,
+   "e": 58.472
   },
   {
    "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
-   "s": 58.901,
-   "e": 60.663
+   "s": 58.764,
+   "e": 60.526
   }
  ]
 }

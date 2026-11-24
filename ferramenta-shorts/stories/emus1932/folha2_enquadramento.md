@@ -46,10 +46,10 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: AUS no centro, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO vehicles/truck: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.9 m de altura x 10.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
-## b6: "Depois de seis dias, milhares de cartuchos gastos e poucos emus abatidos."
+## b6: "Depois de seis dias, milhares de balas gastas e poucos emus abatidos."
 - LOCAL: loc_campo; hora: desert
 - CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: AUS na esquerda, expressao pained; AUS na direita, expressao pained; sem multidao; acao: fala/gesto
+- PERSONAGENS: SOL na esquerda, expressao pained; SOL na direita, expressao pained; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "6 DIAS" numa placa atras dos personagens, na palavra 1 da frase
 

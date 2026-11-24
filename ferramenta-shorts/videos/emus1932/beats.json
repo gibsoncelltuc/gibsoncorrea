@@ -32,6 +32,15 @@
    "pants": "#3a3a4a",
    "boots": "#2a2218",
    "hat": "bowler"
+  },
+  "SOL": {
+   "jacket": "#8a7a4a",
+   "pants": "#6e6038",
+   "boots": "#2a2218",
+   "hat": "slouch",
+   "cap": "#8a7a50",
+   "belt": "#4a3a24",
+   "rifle": false
   }
  },
  "cinf": 4.5,
@@ -225,11 +234,11 @@
    "d1": 10.0
   },
   {
-   "say": "Depois de seis dias, milhares de cartuchos gastos e poucos emus abatidos.",
+   "say": "Depois de seis dias, milhares de balas gastas e poucos emus abatidos.",
    "shot": "two",
    "who": [
-    "AUS:0:pained",
-    "AUS:1:pained"
+    "SOL:0:pained",
+    "SOL:1:pained"
    ],
    "text": "6 DIAS",
    "tat": 0,
