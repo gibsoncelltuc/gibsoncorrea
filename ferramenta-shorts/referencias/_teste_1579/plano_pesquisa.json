@@ -1,0 +1,30 @@
+{
+ "id": "_teste_1579",
+ "ano": 1579,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "teste",
+   "consultas": [
+    "teste",
+    "Numa No 1579"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1579",
+   "consultas": [
+    "1579 fashion clothing",
+    "16th century clothing painting"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "kettle",
+   "consultas": [
+    "kettle",
+    "teste"
+   ]
+  }
+ ]
+}
