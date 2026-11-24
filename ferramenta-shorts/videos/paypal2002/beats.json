@@ -108,10 +108,6 @@
     ]
    ],
    "text": "eBay",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "sala de madeira",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 11.5 m)",
@@ -123,7 +119,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -138,7 +138,7 @@
      "kit/phone",
      0.0,
      -1.2,
-     0.9,
+     1.5,
      {
       "fixo": true
      }
@@ -146,10 +146,6 @@
    ],
    "text": "E-MAIL = DINHEIRO",
    "interior": "madeira",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "sala de madeira",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 11.5 m)",
@@ -161,7 +157,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -330,36 +330,27 @@
    "props": [
     [
      "kit/coin",
-     0.0,
-     -1.2,
-     0.92,
-     {
-      "fixo": true
-     }
-    ],
-    [
-     "kit/roadster",
-     7.0,
-     -14.0,
-     2.6,
-     {
-      "fixo": true
-     }
-    ],
-    [
-     "kit/falcon9_land",
-     -7.0,
-     -14.0,
+     0.6,
+     1.0,
      1.5,
      {
       "fixo": true
      }
     ],
     [
-     "kit/tv",
-     3.6,
-     -2.0,
-     0.9,
+     "kit/roadster",
+     0.0,
+     1.4,
+     2.2,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/falcon9_land",
+     -6.0,
+     -12.0,
+     1.4,
      {
       "fixo": true
      }
@@ -368,6 +359,16 @@
    "say": "O dinheiro de uma venda na internet ajudou a bancar foguetes e carros.",
    "fachada": false,
    "set": "street",
+   "objetos": false,
+   "_susp_tela": true,
+   "_susp_ok": true,
+   "detalhe": true,
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": -3.0,
+   "h": 2.2,
+   "d0": 15.0,
+   "d1": 14.0,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e coin juntos (camera a 11.5 m)",
@@ -389,22 +390,10 @@
       "lugar": "FUNDO, esquerda",
       "tela": "18% da altura da tela",
       "estado": "parado"
-     },
-     {
-      "objeto": "kit/tv",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
      }
     ]
    },
-   "objetos": false,
-   "_susp_tela": true,
-   "_susp_ok": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "_auto_vis": 3
   },
   {
    "shot": "wide",
@@ -426,11 +415,6 @@
     ]
    ],
    "tela": false,
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.8,
-   "d0": 21.0,
-   "d1": 20.0,
    "crowd": {
     "n": 0
    },
@@ -446,7 +430,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.8,
+   "d0": 21.0,
+   "d1": 20.0
   }
  ],
  "fontes": [

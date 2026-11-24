@@ -68,21 +68,21 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b5 - 27.1s a 31.1s - 12 palavras - plano two
+## Cena b5 - 27.1s a 30.7s - 12 palavras - plano two
 > "Ele pensou: se a Terra fosse plana, as duas sombras seriam iguais."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | pensou (27.9s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
+| 1 | pensou (27.5s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
 | 2 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: pensa na palavra pensou (27.9s): executa: mao no queixo + brilho de ideia
+- ACAO: pensa na palavra pensou (27.5s): executa: mao no queixo + brilho de ideia
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b6 - 32.4s a 36.6s - 16 palavras - plano orbit
+## Cena b6 - 32.0s a 36.2s - 16 palavras - plano orbit
 > "Acontece que a sombra era diferente, e isso só podia acontecer se a Terra fosse curva."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -96,37 +96,37 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b7 - 37.8s a 41.1s - 14 palavras - plano track
+## Cena b7 - 37.3s a 40.7s - 14 palavras - plano track
 > "Ele mediu o ângulo da sombra, e contou os passos entre as duas cidades."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | mediu (38.1s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 2 | contou (39.7s) | ACAO: fala | aponta explicando | OK |
+| 1 | mediu (37.6s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+| 2 | contou (39.2s) | ACAO: fala | aponta explicando | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: examina na palavra mediu (38.1s): executa: examina com lupa/microscopio/balanca
-- ACAO: fala na palavra contou (39.7s): braco estendido apontando para o objeto/lugar citado
+- ACAO: examina na palavra mediu (37.6s): executa: examina com lupa/microscopio/balanca
+- ACAO: fala na palavra contou (39.2s): braco estendido apontando para o objeto/lugar citado
 <!-- /FISICA -->
 
-## Cena b8 - 42.5s a 46.2s - 14 palavras - plano two
+## Cena b8 - 42.1s a 45.8s - 14 palavras - plano two
 > "Com uma conta simples, encontrou um número muito perto do tamanho real da Terra."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | encontrou (43.8s) | ACAO: olha | aponta/olha | OK |
+| 1 | encontrou (43.4s) | ACAO: olha | aponta/olha | OK |
 | 2 | - | INTERACAO | cochichar | OK |
 | 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: olha na palavra encontrou (43.8s): braco estendido apontando para o objeto/lugar citado
+- ACAO: olha na palavra encontrou (43.4s): braco estendido apontando para o objeto/lugar citado
 - INTERACAO (a cena toda): executa: cochichar
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b9 - 47.4s a 50.7s - 13 palavras - plano two
+## Cena b9 - 46.9s a 49.7s - 13 palavras - plano two
 > "No fim, uma vara e um poço fizeram o trabalho de um satélite."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -138,7 +138,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 <!-- /FISICA -->
 
-## Cena b10 - 50.9s a 55.1s - 13 palavras - plano close
+## Cena b10 - 50.8s a 54.2s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

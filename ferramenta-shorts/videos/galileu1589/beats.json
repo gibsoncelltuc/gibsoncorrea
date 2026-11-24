@@ -138,7 +138,7 @@
     [
      "kit/ball",
      0.0,
-     1.0,
+     -1.2,
      1.31,
      {
       "fixo": true
@@ -148,16 +148,20 @@
    "detalhe": true,
    "quadro": {
     "local": "sala de pedra (governo/castelo)",
-    "camera": "plano de grupo (3+ pessoas)",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e ball juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/ball",
-      "lugar": "FRENTE, centro (objeto principal da cena)",
-      "tela": "15% da altura da tela",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Dizem que ele foi até a torre inclinada de Pisa, com duas bolas de pesos diferentes.",
@@ -178,8 +182,8 @@
     ],
     [
      "kit/ball",
-     1.0,
-     1.0,
+     2.4,
+     0.2,
      1.31,
      {
       "fixo": true
@@ -202,12 +206,12 @@
    "detalhe": false,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e ball juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/ball",
-      "lugar": "FRENTE, centro (objeto principal da cena)",
-      "tela": "15% da altura da tela",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      },
      {
@@ -223,7 +227,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "say": "Acontece que, quando ele soltou as duas, elas caíram no chão ao mesmo tempo.",
@@ -248,8 +256,8 @@
     ],
     [
      "kit/ball",
-     1.0,
-     1.0,
+     2.4,
+     0.2,
      1.31,
      {
       "fixo": true
@@ -277,12 +285,12 @@
    "detalhe": false,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e ball juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/ball",
-      "lugar": "FRENTE, centro (objeto principal da cena)",
-      "tela": "15% da altura da tela",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      },
      {
@@ -298,7 +306,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "say": "Hoje se discute se isso aconteceu mesmo, porque a história vem de um aluno dele, anos depois.",

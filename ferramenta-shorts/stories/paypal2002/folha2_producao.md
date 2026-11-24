@@ -88,7 +88,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MUS (variante 0, expressao laugh); POV (variante 0, expressao smile)
 - Animacao: conversar | interacao: cochichar
-- Objetos/modelos: kit/coin, kit/roadster, kit/falcon9_land, kit/tv
+- Objetos/modelos: kit/coin, kit/roadster, kit/falcon9_land
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bancar, dinheiro, internet, venda
 - RISCOS: nenhum
 
@@ -118,7 +118,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/coin | b0, b4, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/tv | b1, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/tv | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/phone | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/falcon9_land | b6, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/roadster | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py

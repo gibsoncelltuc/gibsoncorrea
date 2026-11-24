@@ -3,14 +3,14 @@
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
 ## Achados automaticos (ferramenta)
-- nenhum
+1. SUSPEITA b8: a frase fala de CELULAR/INTERNET/TELA e a cena nao tem celular nem tela
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Um serviço para pagar pela internet foi vendido por um bilhã": 
 - f1 "Era o PayPal,": 
 - f2 "e quem comprou foi o eBay,": 
 - f3 "o site de leilões mais famoso da época.": 
-- f4 "O PayPal deixava as pessoas mandarem dinheiro só com um e-ma": 
+- f4 "O PayPal deixava qualquer um mandar dinheiro só com um e-mai": 
 - f5 "sem precisar de banco.": 
 - f6 "O anúncio saiu em julho de dois mil e dois,": 
 - f7 "nos Estados Unidos,": 

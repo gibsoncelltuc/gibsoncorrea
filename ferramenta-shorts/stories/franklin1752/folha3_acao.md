@@ -54,18 +54,18 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | faísca (20.3s) | ACAO: brilha | o objeto brilha na palavra (ondas de luz + estrelas) | OK |
+| 1 | faísca (20.1s) | ACAO: brilha | o objeto brilha na palavra (ondas de luz + estrelas) | OK |
 | 2 | - | INTERACAO | discutir | OK |
 | 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: brilha na palavra faísca (20.3s): executa: o objeto brilha na palavra (ondas de luz + estrelas)
+- ACAO: brilha na palavra faísca (20.1s): executa: o objeto brilha na palavra (ondas de luz + estrelas)
 - INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b4 - 22.0s a 26.0s - 16 palavras - plano two
+## Cena b4 - 22.1s a 26.1s - 16 palavras - plano two
 > "Contam que, numa tarde de chuva, ele prendeu uma chave de metal na linha da pipa."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -97,7 +97,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b6 - 33.0s a 38.2s - 19 palavras - plano orbit
+## Cena b6 - 33.0s a 38.3s - 19 palavras - plano orbit
 > "Acontece que, quando a nuvem passou, a linha eriçou, e uma faísca pulou da chave até a mão dele."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -115,7 +115,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b7 - 39.4s a 45.1s - 19 palavras - plano two
+## Cena b7 - 39.4s a 45.0s - 19 palavras - plano two
 > "Hoje se discute se isso aconteceu mesmo. E se um raio tivesse caído na pipa, ele não teria sobrevivido."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -129,33 +129,33 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 <!-- /FISICA -->
 
-## Cena b8 - 45.2s a 50.9s - 15 palavras - plano group
+## Cena b8 - 46.5s a 50.6s - 15 palavras - plano group
 > "Franklin então inventou o para-raios, e hoje ele protege casas e prédios no mundo inteiro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | inventou (46.1s) | ACAO: vira | o material vira o produto, que surge girando em destaque | OK |
+| 1 | inventou (47.2s) | ACAO: vira | o material vira o produto, que surge girando em destaque | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | ATUACAO | comemorar | OK |
 | 4 | - | PLACA | PARA-RAIOS | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: vira na palavra inventou (46.1s): executa: o material vira o produto, que surge girando em destaque
+- ACAO: vira na palavra inventou (47.2s): executa: o material vira o produto, que surge girando em destaque
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b9 - 51.3s a 54.2s - 10 palavras - plano close
+## Cena b9 - 51.9s a 54.3s - 10 palavras - plano close
 > "No fim, o raio perdeu a briga para uma chave."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | perdeu (52.9s) | EFEITO: puff | fumaca + som | OK |
 | 2 | perdeu (52.9s) | ACAO: perde | mao na testa | OK |
-| 3 | briga (53.3s) | EFEITO: puff | fumaca + som | OK |
-| 4 | briga (53.3s) | ACAO: golpe | soco + estouro | OK |
+| 3 | briga (53.4s) | EFEITO: puff | fumaca + som | OK |
+| 4 | briga (53.4s) | ACAO: golpe | soco + estouro | OK |
 | 5 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
 | 6 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
@@ -163,13 +163,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: puff na palavra perdeu (52.9s): executa: fumaca + som
 - ACAO: perde na palavra perdeu (52.9s): executa: mao na testa
-- EFEITO: puff na palavra briga (53.3s): executa: fumaca + som
-- ACAO: golpe na palavra briga (53.3s): o braco avanca em ~0,2 s ate o alvo; quem leva o golpe recua meio passo, estrelinhas sobre a cabeca
+- EFEITO: puff na palavra briga (53.4s): executa: fumaca + som
+- ACAO: golpe na palavra briga (53.4s): o braco avanca em ~0,2 s ate o alvo; quem leva o golpe recua meio passo, estrelinhas sobre a cabeca
 - EMOCAO: sad (a cena toda): executa: o rosto vira "sad" na palavra
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b10 - 54.4s a 58.4s - 13 palavras - plano close
+## Cena b10 - 55.3s a 58.6s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

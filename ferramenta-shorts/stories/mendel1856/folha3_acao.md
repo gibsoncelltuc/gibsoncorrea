@@ -83,23 +83,23 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b5 - 24.7s a 29.4s - 14 palavras - plano two
+## Cena b5 - 25.5s a 29.6s - 14 palavras - plano two
 > "Ele plantou as amarelas de novo e contou tudo, ervilha por ervilha, durante anos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | plantou (25.7s) | ACAO: x_planta | cava/planta + terra | OK |
-| 2 | contou (27.3s) | ACAO: fala | aponta explicando | OK |
+| 1 | plantou (25.8s) | ACAO: x_planta | cava/planta + terra | OK |
+| 2 | contou (27.2s) | ACAO: fala | aponta explicando | OK |
 | 3 | - | INTERACAO | insiste | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_planta na palavra plantou (25.7s): executa: cava/planta + terra
-- ACAO: fala na palavra contou (27.3s): braco estendido apontando para o objeto/lugar citado
+- ACAO: x_planta na palavra plantou (25.8s): executa: cava/planta + terra
+- ACAO: fala na palavra contou (27.2s): braco estendido apontando para o objeto/lugar citado
 - INTERACAO (a cena toda): executa: insiste
 <!-- /FISICA -->
 
-## Cena b6 - 29.8s a 35.9s - 16 palavras - plano orbit
+## Cena b6 - 30.8s a 35.9s - 16 palavras - plano orbit
 > "Acontece que o verde voltou, e sempre na mesma conta: três ervilhas amarelas para uma verde."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -117,7 +117,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b7 - 36.2s a 40.0s - 14 palavras - plano two
+## Cena b7 - 36.9s a 40.0s - 14 palavras - plano two
 > "Ele descobriu que cada filho herda uma instrução do pai e outra da mãe."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -135,28 +135,28 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b8 - 40.2s a 44.6s - 14 palavras - plano group
+## Cena b8 - 41.0s a 44.8s - 14 palavras - plano group
 > "Publicou tudo em mil oitocentos e sessenta e seis, mas quase ninguém prestou atenção."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | Publicou (40.2s) | ACAO: x_fone | celular na mao + toque | OK |
+| 1 | Publicou (41.0s) | ACAO: x_fone | celular na mao + toque | OK |
 | 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_fone na palavra Publicou (40.2s): executa: celular na mao + toque
+- ACAO: x_fone na palavra Publicou (41.0s): executa: celular na mao + toque
 - INTERACAO (a cena toda): executa: vai ate o outro
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b9 - 45.0s a 50.8s - 18 palavras - plano group
+## Cena b9 - 46.3s a 51.0s - 18 palavras - plano group
 > "Só no ano mil e novecentos, já depois da morte dele, os cientistas viram que ele estava certo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | viram (49.7s) | ACAO: olha | aponta/olha | OK |
+| 1 | viram (49.9s) | ACAO: olha | aponta/olha | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | INTERACAO | pular | OK |
 | 4 | - | ATUACAO | comemorar | OK |
@@ -164,14 +164,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: olha na palavra viram (49.7s): braco estendido apontando para o objeto/lugar citado
+- ACAO: olha na palavra viram (49.9s): braco estendido apontando para o objeto/lugar citado
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - INTERACAO (a cena toda): executa: pular
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b10 - 51.2s a 53.9s - 8 palavras - plano two
+## Cena b10 - 52.1s a 53.9s - 8 palavras - plano two
 > "No fim, a ervilha fez o monge famoso."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -183,7 +183,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b11 - 54.1s a 58.4s - 13 palavras - plano close
+## Cena b11 - 55.2s a 58.5s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

@@ -1,7 +1,7 @@
 {
- "duration": 59.976,
- "frames30": 1799,
- "source": "silence-align (cost 0.57)",
+ "duration": 59.688,
+ "frames30": 1791,
+ "source": "silence-align (cost 0.56)",
  "segments": [
   [
    0.156875,
@@ -33,79 +33,79 @@
   ],
   [
    18.404,
-   21.3845
+   21.3834
   ],
   [
-   22.262,
-   22.996
+   22.2657,
+   22.9945
   ],
   [
-   23.2769,
-   24.7609
+   23.2605,
+   24.3745
   ],
   [
-   25.0391,
-   26.2941
+   24.621,
+   26.0482
   ],
   [
-   27.1686,
-   30.5187
+   26.8825,
+   30.2326
   ],
   [
-   31.383,
-   33.461
+   31.0966,
+   33.176
   ],
   [
-   33.6472,
-   35.8143
+   33.361,
+   35.5281
   ],
   [
-   36.6793,
-   37.8038
+   36.3932,
+   37.5176
   ],
   [
-   38.0517,
-   40.086
+   37.7655,
+   39.7997
   ],
   [
-   40.9166,
-   41.957
+   40.6305,
+   41.6739
   ],
   [
-   42.1898,
-   43.2653
+   41.9037,
+   42.9792
   ],
   [
-   43.4647,
-   46.186
+   43.1785,
+   45.8999
   ],
   [
-   47.0401,
-   48.6464
+   46.7539,
+   48.3603
   ],
   [
-   48.8544,
-   50.8149
+   48.5682,
+   50.5288
   ],
   [
-   51.6667,
-   52.0564
+   51.3805,
+   51.7703
   ],
   [
-   52.3089,
-   53.3031
+   52.0229,
+   53.017
   ],
   [
-   53.5658,
-   54.829
+   53.2797,
+   54.545
   ],
   [
-   55.6798,
-   57.1256
+   55.3904,
+   56.8394
   ],
   [
-   57.4185,
-   59.1802
+   57.1324,
+   58.8939
   ]
  ],
  "phrases": [
@@ -147,97 +147,97 @@
   {
    "text": "ele chegou perto dessa pe\u00e7a com uma barra de chocolate no bolso.",
    "s": 18.404,
-   "e": 21.384
+   "e": 21.383
   },
   {
    "text": "Pouco depois,",
-   "s": 22.262,
-   "e": 22.996
+   "s": 22.266,
+   "e": 22.994
   },
   {
-   "text": "sentiu o bolso quente e disse:",
-   "s": 23.277,
-   "e": 24.761
+   "text": "sentiu o bolso quente:",
+   "s": 23.261,
+   "e": 24.375
   },
   {
-   "text": "\"O meu chocolate derreteu!\"",
-   "s": 25.039,
-   "e": 26.294
+   "text": "o chocolate tinha derretido.",
+   "s": 24.621,
+   "e": 26.048
   },
   {
    "text": "Spencer ficou curioso e perguntou o que mais aquelas ondas fariam.",
-   "s": 27.169,
-   "e": 30.519
+   "s": 26.883,
+   "e": 30.233
   },
   {
    "text": "Acontece que ele testou milho de pipoca,",
-   "s": 31.383,
-   "e": 33.461
+   "s": 31.097,
+   "e": 33.176
   },
   {
    "text": "e os gr\u00e3os come\u00e7aram a estourar pela sala.",
-   "s": 33.647,
-   "e": 35.814
+   "s": 33.361,
+   "e": 35.528
   },
   {
    "text": "Depois testou um ovo,",
-   "s": 36.679,
-   "e": 37.804
+   "s": 36.393,
+   "e": 37.518
   },
   {
    "text": "e o ovo explodiu bem na cara de um colega.",
-   "s": 38.052,
-   "e": 40.086
+   "s": 37.766,
+   "e": 39.8
   },
   {
    "text": "Dois anos depois,",
-   "s": 40.917,
-   "e": 41.957
+   "s": 40.63,
+   "e": 41.674
   },
   {
    "text": "saiu o primeiro forno,",
-   "s": 42.19,
-   "e": 43.265
+   "s": 41.904,
+   "e": 42.979
   },
   {
    "text": "mais alto que uma pessoa e com mais de trezentos quilos.",
-   "s": 43.465,
-   "e": 46.186
+   "s": 43.178,
+   "e": 45.9
   },
   {
    "text": "Hoje ele cabe em qualquer cozinha,",
-   "s": 47.04,
-   "e": 48.646
+   "s": 46.754,
+   "e": 48.36
   },
   {
    "text": "e esquenta a sobra do jantar em um minuto.",
-   "s": 48.854,
-   "e": 50.815
+   "s": 48.568,
+   "e": 50.529
   },
   {
    "text": "No fim,",
-   "s": 51.667,
-   "e": 52.056
+   "s": 51.38,
+   "e": 51.77
   },
   {
    "text": "o chocolate perdeu,",
-   "s": 52.309,
-   "e": 53.303
+   "s": 52.023,
+   "e": 53.017
   },
   {
    "text": "mas a pipoca agradece.",
-   "s": 53.566,
-   "e": 54.829
+   "s": 53.28,
+   "e": 54.545
   },
   {
    "text": "Agora n\u00e3o deixe de comentar:",
-   "s": 55.68,
-   "e": 57.126
+   "s": 55.39,
+   "e": 56.839
   },
   {
    "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
-   "s": 57.419,
-   "e": 59.18
+   "s": 57.132,
+   "e": 58.894
   }
  ]
 }

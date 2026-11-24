@@ -1,7 +1,7 @@
 {
- "duration": 59.736,
- "frames30": 1792,
- "source": "silence-align (cost 0.59)",
+ "duration": 59.52,
+ "frames30": 1786,
+ "source": "silence-align (cost 0.51)",
  "segments": [
   [
    0.15325,
@@ -21,7 +21,7 @@
   ],
   [
    11.3306,
-   13.8532
+   13.8537
   ],
   [
    14.1483,
@@ -29,7 +29,7 @@
   ],
   [
    16.6766,
-   17.6859
+   17.6803
   ],
   [
    17.952,
@@ -40,76 +40,76 @@
    21.0303
   ],
   [
-   21.8821,
-   23.5057
+   21.8818,
+   23.0363
   ],
   [
-   23.7418,
-   24.8699
+   23.3261,
+   24.6542
   ],
   [
-   25.7215,
-   27.9693
+   25.5056,
+   27.7535
   ],
   [
-   28.2258,
-   29.2535
+   28.0099,
+   29.0375
   ],
   [
-   29.4233,
-   30.1782
+   29.2076,
+   29.9622
   ],
   [
-   31.055,
-   32.5929
+   30.8375,
+   32.377
   ],
   [
-   32.958,
-   34.1996
+   32.7423,
+   33.9837
   ],
   [
-   34.4066,
-   36.2963
+   34.1908,
+   36.0805
   ],
   [
-   37.153,
-   40.3245
+   36.9371,
+   40.1086
   ],
   [
-   41.2016,
-   43.5874
+   40.9857,
+   43.3792
   ],
   [
-   43.8367,
-   45.6231
+   43.6208,
+   45.407
   ],
   [
-   46.5062,
-   47.8969
+   46.2893,
+   47.6795
   ],
   [
-   48.1006,
-   49.3244
+   47.8847,
+   49.1087
   ],
   [
-   49.5577,
-   51.4648
+   49.3418,
+   51.2467
   ],
   [
-   52.3279,
-   52.7257
+   52.1122,
+   52.5097
   ],
   [
-   52.9792,
-   54.5905
+   52.7633,
+   54.3754
   ],
   [
-   55.4383,
-   56.883
+   55.2226,
+   56.6673
   ],
   [
-   57.1758,
-   58.9375
+   56.9599,
+   58.7216
   ]
  ],
  "phrases": [
@@ -136,7 +136,7 @@
   {
    "text": "Ele cruzou ervilhas amarelas com ervilhas verdes,",
    "s": 11.331,
-   "e": 13.853
+   "e": 13.854
   },
   {
    "text": "e esperou para ver a cor dos filhos.",
@@ -146,7 +146,7 @@
   {
    "text": "Na primeira gera\u00e7\u00e3o,",
    "s": 16.677,
-   "e": 17.686
+   "e": 17.68
   },
   {
    "text": "todas sa\u00edram amarelas,",
@@ -159,94 +159,94 @@
    "e": 21.03
   },
   {
-   "text": "Mendel ficou curioso e disse:",
+   "text": "Mendel ficou curioso:",
    "s": 21.882,
-   "e": 23.506
+   "e": 23.036
   },
   {
-   "text": "\"Para onde foi o verde?\"",
-   "s": 23.742,
-   "e": 24.87
+   "text": "para onde tinha ido o verde?",
+   "s": 23.326,
+   "e": 24.654
   },
   {
    "text": "Ele plantou as amarelas de novo e contou tudo,",
-   "s": 25.721,
-   "e": 27.969
+   "s": 25.506,
+   "e": 27.753
   },
   {
    "text": "ervilha por ervilha,",
-   "s": 28.226,
-   "e": 29.253
+   "s": 28.01,
+   "e": 29.038
   },
   {
    "text": "durante anos.",
-   "s": 29.423,
-   "e": 30.178
+   "s": 29.208,
+   "e": 29.962
   },
   {
    "text": "Acontece que o verde voltou,",
-   "s": 31.055,
-   "e": 32.593
+   "s": 30.837,
+   "e": 32.377
   },
   {
    "text": "e sempre na mesma conta:",
-   "s": 32.958,
-   "e": 34.2
+   "s": 32.742,
+   "e": 33.984
   },
   {
    "text": "tr\u00eas ervilhas amarelas para uma verde.",
-   "s": 34.407,
-   "e": 36.296
+   "s": 34.191,
+   "e": 36.081
   },
   {
    "text": "Ele descobriu que cada filho herda uma instru\u00e7\u00e3o do pai e outra da m\u00e3e.",
-   "s": 37.153,
-   "e": 40.325
+   "s": 36.937,
+   "e": 40.109
   },
   {
    "text": "Publicou tudo em mil oitocentos e sessenta e seis,",
-   "s": 41.202,
-   "e": 43.587
+   "s": 40.986,
+   "e": 43.379
   },
   {
    "text": "mas quase ningu\u00e9m prestou aten\u00e7\u00e3o.",
-   "s": 43.837,
-   "e": 45.623
+   "s": 43.621,
+   "e": 45.407
   },
   {
    "text": "S\u00f3 no ano mil e novecentos,",
-   "s": 46.506,
-   "e": 47.897
+   "s": 46.289,
+   "e": 47.679
   },
   {
    "text": "j\u00e1 depois da morte dele,",
-   "s": 48.101,
-   "e": 49.324
+   "s": 47.885,
+   "e": 49.109
   },
   {
    "text": "os cientistas viram que ele estava certo.",
-   "s": 49.558,
-   "e": 51.465
+   "s": 49.342,
+   "e": 51.247
   },
   {
    "text": "No fim,",
-   "s": 52.328,
-   "e": 52.726
+   "s": 52.112,
+   "e": 52.51
   },
   {
    "text": "a ervilha fez o monge famoso.",
-   "s": 52.979,
-   "e": 54.59
+   "s": 52.763,
+   "e": 54.375
   },
   {
    "text": "Agora n\u00e3o deixe de comentar:",
-   "s": 55.438,
-   "e": 56.883
+   "s": 55.223,
+   "e": 56.667
   },
   {
    "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
-   "s": 57.176,
-   "e": 58.938
+   "s": 56.96,
+   "e": 58.722
   }
  ]
 }
