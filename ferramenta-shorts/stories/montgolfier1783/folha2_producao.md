@@ -15,7 +15,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: vila medieval; hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -3.7, camera a 75.5 m, altura 6.0 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: JOS (comerciante) no centro, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/balloon: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
@@ -84,7 +84,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -3.7, camera a 75.5 m, altura 6.0 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: ETI (comerciante) no centro, expressao grin; sem multidao; acao: conversar
 - OBJETO kit/balloon: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
@@ -127,7 +127,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: vila medieval; hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -3.7, camera a 75.5 m, altura 6.0 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: JOS (comerciante) no centro, expressao smile; sem multidao; acao: entregar
 - OBJETO kit/balloon: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
@@ -149,7 +149,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: praia / palacio; hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -3.7, camera a 75.5 m, altura 6.0 m), multidao ATRAS dos personagens, na frente do objeto
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto
 - PERSONAGENS: REI (rei) no centro, expressao smile; sem multidao; acao: batalha
 - OBJETO kit/balloon: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
@@ -170,7 +170,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: vila medieval; hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon_air (alvo z -3.7, camera a 75.5 m, altura 6.0 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon_air (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: POV no centro, expressao shock; sem multidao; acao: fala/gesto
 - OBJETO kit/balloon_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: INDO EMBORA; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO whoosh: -; entra no quadro +20 da cena
@@ -197,7 +197,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: vila rural (casas, cercas, campo); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -3.7, camera a 75.5 m, altura 6.0 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: ETI (comerciante) no centro, expressao nervous; sem multidao; acao: fala/gesto
 - OBJETO kit/balloon: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
@@ -242,7 +242,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: vila medieval; hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon_air (alvo z -3.7, camera a 75.5 m, altura 6.0 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon_air (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: POV no centro, expressao laugh; sem multidao; acao: comemorar
 - OBJETO kit/balloon_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: CHEGANDO; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
@@ -266,7 +266,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: vila rural (casas, cercas, campo); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -3.7, camera a 75.5 m, altura 6.0 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: ETI (comerciante) no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/balloon: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final

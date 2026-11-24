@@ -41,7 +41,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: fazenda aberta; hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o mountain_bunker (alvo z -4.6, camera a 23.2 m, altura 2.4 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o mountain_bunker (alvo z -2.0, camera a 20.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: POV no centro, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETO kit/mountain_bunker: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 6.5 m de altura x 17.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - MAPA: IRÃ (cobre a tela 1-2 s)
@@ -273,7 +273,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: encosta de montanha; hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o mountain_bunker (alvo z -4.6, camera a 23.2 m, altura 2.4 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o mountain_bunker (alvo z -2.0, camera a 20.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: POV no centro, expressao surprised; sem multidao; acao: batalha
 - OBJETO kit/mountain_bunker: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 6.5 m de altura x 17.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena

@@ -4,7 +4,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b0: "Durante sessenta anos, todo foguete era jogado fora depois de um voo. Até que um deles voltou e desceu de ré."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -3.6, camera a 39.7 m, altura 3.6 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.6 m), sem multidao na frente
 - PERSONAGENS: MUS no centro, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/falcon9_land: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 10.2 m de altura x 4.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
@@ -43,7 +43,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b5: "Depois de soltar a parte de cima, a parte de baixo virou no céu, e começou a voltar para a Terra."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon_air (alvo z -3.6, camera a 28.4 m, altura 2.6 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon_air (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente
 - PERSONAGENS: ENG no centro, expressao surprised; sem multidao; acao: batalha
 - OBJETO kit/falcon_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 7.5 m de altura x 5.0 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO whoosh: -; entra no quadro +20 da cena
@@ -53,7 +53,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b6: "Acontece que ela desceu de ré, de pé, com o motor aceso freando a queda."
 - LOCAL: vila rural (casas, cercas, campo); hora: noite
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon_air (alvo z -3.6, camera a 30.6 m, altura 2.8 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon_air (alvo z -2.0, camera a 20.0 m, altura 2.8 m), sem multidao na frente
 - PERSONAGENS: ENA no centro, expressao nervous; sem multidao; acao: fala/gesto
 - OBJETO kit/falcon_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 8.0 m de altura x 5.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +20 da cena
@@ -61,7 +61,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b7: "E desceu certinho no meio da plataforma, abrindo as pernas no último segundo."
 - LOCAL: vila rural (casas, cercas, campo); hora: noite
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -3.6, camera a 43.9 m, altura 3.9 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.9 m), sem multidao na frente
 - PERSONAGENS: ENG no centro, expressao shock; sem multidao; acao: fala/gesto
 - OBJETO kit/falcon9_land: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 11.2 m de altura x 5.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
@@ -71,7 +71,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b8: "Os funcionários da SpaceX gritaram de alegria, como numa final de campeonato."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -3.6, camera a 52.3 m, altura 4.6 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: MUS no centro, expressao laugh; sem multidao; acao: comemorar
 - OBJETO kit/falcon9_land: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 13.3 m de altura x 6.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
@@ -88,7 +88,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b10: "Hoje, os foguetes da SpaceX pousam quase toda semana. E a viagem ao espaço ficou muito mais barata."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -3.6, camera a 39.7 m, altura 3.6 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.6 m), sem multidao na frente
 - PERSONAGENS: MUS no centro, expressao smile; sem multidao; acao: comemorar
 - OBJETO kit/falcon9_land: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 10.2 m de altura x 4.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 

@@ -55,7 +55,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b7: "Lá, ele construiu um castelo observatório, e anotou a posição de mais de mil estrelas, sem telescópio."
 - LOCAL: vila rural (casas, cercas, campo); hora: noite
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o marco_uraniborg (alvo z -7.5, camera a 80.1 m, altura 6.0 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o marco_uraniborg (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: TYC (nobre) no centro, expressao grin, segura paper; sem multidao; acao: fala/gesto
 - OBJETO kit/marco_uraniborg: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 21.2 m de altura x 36.0 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/tower: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 13.8 m de altura x 6.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores

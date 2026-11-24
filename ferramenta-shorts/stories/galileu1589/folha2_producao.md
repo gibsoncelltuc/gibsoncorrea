@@ -15,7 +15,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o pisa_tower (alvo z -3.6, camera a 28.7 m, altura 2.6 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o pisa_tower (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente
 - PERSONAGENS: GAL no centro, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/pisa_tower: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 7.5 m de altura x 2.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO poeira nos pes: no chao, aos pes; entra no quadro +30 da cena
@@ -147,7 +147,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o pisa_tower (alvo z -3.6, camera a 28.7 m, altura 2.6 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o pisa_tower (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente
 - PERSONAGENS: GAL no centro, expressao shock; sem multidao; acao: fala/gesto
 - OBJETO kit/pisa_tower: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 7.5 m de altura x 2.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/ball: FRENTE, esquerda; tamanho na tela: 11% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.8 m (le de longe): NA FRENTE, ao lado, sem tapar rosto

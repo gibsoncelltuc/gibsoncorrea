@@ -80,7 +80,7 @@
     [
      "kit/balloon",
      0.0,
-     -8.1,
+     -19.3,
      8.22,
      {
       "fixo": true
@@ -103,7 +103,7 @@
    "detalhe": false,
    "quadro": {
     "local": "vila medieval",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -3.7, camera a 75.5 m, altura 6.0 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/balloon",
@@ -114,10 +114,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -3.7,
-   "h": 6.0,
-   "d0": 79.3,
-   "d1": 75.5
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "reveal",
@@ -182,7 +182,7 @@
     [
      "kit/balloon",
      0.0,
-     -8.1,
+     -19.3,
      8.22,
      {
       "fixo": true
@@ -197,7 +197,7 @@
    },
    "quadro": {
     "local": "sala de madeira",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -3.7, camera a 75.5 m, altura 6.0 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/balloon",
@@ -208,10 +208,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -3.7,
-   "h": 6.0,
-   "d0": 79.3,
-   "d1": 75.5
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "two",
@@ -251,7 +251,7 @@
     [
      "kit/balloon",
      0.0,
-     -8.1,
+     -19.3,
      8.22,
      {
       "fixo": true
@@ -266,7 +266,7 @@
    "detalhe": false,
    "quadro": {
     "local": "vila medieval",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -3.7, camera a 75.5 m, altura 6.0 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/balloon",
@@ -277,10 +277,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -3.7,
-   "h": 6.0,
-   "d0": 79.3,
-   "d1": 75.5
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -296,7 +296,7 @@
     [
      "kit/balloon",
      0.0,
-     -8.1,
+     -19.3,
      8.22,
      {
       "fixo": true
@@ -315,7 +315,7 @@
    "detalhe": false,
    "quadro": {
     "local": "praia / palacio",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -3.7, camera a 75.5 m, altura 6.0 m), multidao ATRAS dos personagens, na frente do objeto",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto",
     "objetos": [
      {
       "objeto": "kit/balloon",
@@ -326,10 +326,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -3.7,
-   "h": 6.0,
-   "d0": 79.3,
-   "d1": 75.5
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -340,12 +340,12 @@
     [
      "kit/balloon_air",
      0.0,
-     -8.1,
+     -19.3,
      8.22,
      {
       "mover": [
        7.0,
-       -8.1
+       -19.3
       ],
       "fixo": true
      }
@@ -368,7 +368,7 @@
    "detalhe": false,
    "quadro": {
     "local": "vila medieval",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon_air (alvo z -3.7, camera a 75.5 m, altura 6.0 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon_air (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/balloon_air",
@@ -379,10 +379,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -3.7,
-   "h": 6.0,
-   "d0": 79.3,
-   "d1": 75.5
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -393,7 +393,7 @@
     [
      "kit/balloon",
      0.0,
-     -8.1,
+     -19.3,
      8.22,
      {
       "fixo": true
@@ -410,7 +410,7 @@
    },
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -3.7, camera a 75.5 m, altura 6.0 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/balloon",
@@ -421,10 +421,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -3.7,
-   "h": 6.0,
-   "d0": 79.3,
-   "d1": 75.5
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "two",
@@ -474,12 +474,12 @@
     [
      "kit/balloon_air",
      -7.0,
-     -8.1,
+     -19.3,
      8.22,
      {
       "mover": [
        0.0,
-       -8.1
+       -19.3
       ],
       "fixo": true
      }
@@ -501,7 +501,7 @@
    "detalhe": false,
    "quadro": {
     "local": "vila medieval",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon_air (alvo z -3.7, camera a 75.5 m, altura 6.0 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon_air (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/balloon_air",
@@ -512,10 +512,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -3.7,
-   "h": 6.0,
-   "d0": 79.3,
-   "d1": 75.5
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -549,7 +549,7 @@
     [
      "kit/balloon",
      0.0,
-     -8.1,
+     -19.3,
      8.22,
      {
       "fixo": true
@@ -565,7 +565,7 @@
    "detalhe": false,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -3.7, camera a 75.5 m, altura 6.0 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/balloon",
@@ -576,10 +576,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -3.7,
-   "h": 6.0,
-   "d0": 79.3,
-   "d1": 75.5
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
   }
  ],
  "exp": 0.81,

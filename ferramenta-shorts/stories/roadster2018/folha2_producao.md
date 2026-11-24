@@ -104,7 +104,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon_air (alvo z -3.6, camera a 32.8 m, altura 3.0 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon_air (alvo z -2.0, camera a 20.0 m, altura 3.0 m), sem multidao na frente
 - PERSONAGENS: ENG (cientista) no centro, expressao shock; sem multidao; acao: batalha
 - OBJETO kit/falcon_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 8.5 m de altura x 5.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO whoosh: -; entra no quadro +10 da cena
