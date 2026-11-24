@@ -7,7 +7,7 @@
 - Roupas: {'BUK': 'terno escuro, camisa branca', 'POV': 'camisetas e bones azul-ciano', 'JUI': 'toga preta (Sala Constitucional)', 'REP': 'camisa com crachá de imprensa'}
 - Cenario real: fachada clara do Palacio Nacional com sacada, multidao na praca a noite, bandeiras azuis e brancas, urnas de papelao com cabine
 - Objetos: ['urnas', 'bandeira de El Salvador (azul e branca)', 'cartaz com rosto de Bukele']
-- Cenarios usados no video: hall, interior madeira, loc_campo, loc_cidade, loc_patio, loc_pista, palace
+- Cenarios usados no video: interior loja, interior madeira, loc_campo, loc_cidade, loc_patio, loc_pista, palace
 - PROIBIDO pela epoca (a ferramenta bloqueia): barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Proibido pelo roteiro: -
 

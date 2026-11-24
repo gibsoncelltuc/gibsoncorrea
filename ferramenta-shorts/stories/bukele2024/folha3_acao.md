@@ -89,7 +89,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 47.9s a 52.9s - 15 palavras - plano group
+## Cena b9 - 47.9s a 52.9s - 15 palavras - plano two
 > "Organizações de direitos humanos, porém, criticaram as prisões em massa e o estado de exceção."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

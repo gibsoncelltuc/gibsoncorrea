@@ -6,7 +6,7 @@
  "title": "O Presidente dos 85 por Cento",
  "titulo_base": "O Presidente dos 85 por Cento",
  "set": "loc_campo",
- "light": "day",
+ "light": "golden",
  "mood": "playful",
  "heroi": "kit/ballot_box",
  "outfits": {
@@ -125,10 +125,11 @@
     "sting@30"
    ],
    "say": "Críticos e opositores disseram que a candidatura era ilegal. O governo defendeu a decisão.",
-   "set": "hall",
+   "set": "loc_patio",
    "batalha": false,
    "impact": false,
-   "tiros": false
+   "tiros": false,
+   "interior": false
   },
   {
    "shot": "two",

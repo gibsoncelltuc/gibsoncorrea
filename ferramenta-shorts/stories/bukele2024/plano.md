@@ -10,8 +10,8 @@ b4 | two | -  | objeto na mao | ilegal (ring + som de alerta); encena: duvida (s
 b5 | two | -  | - | encena: voto (reach) @3 (acao + som de efeito); encena: voto (reach) @8 (acao + som de efeito) | -
 b6 | orbit | -  | tropa, placa: 84,6%, objeto na mao | - | -
 b7 | orbit | dusk  | batalha aberta com tiros, tropa | (rosto) laugh (expr + som de efeito); encena: chega (point) @2 (acao + som de efeito); encena: vence (up) @7 (acao + som de efeito) | -
-b8 | two | -  | objeto na mao | encena: voto (reach) @1 (acao + som de efeito) | -
-b9 | group | -  | - | encena: protesto (up) @5 (acao + som de efeito) | -
+b8 | two | -  | interior, objeto na mao | encena: voto (reach) @1 (acao + som de efeito) | -
+b9 | two | -  | - | encena: protesto (up) @5 (acao + som de efeito) | -
 b10 | close | -  | - | - | -
 b11 | close | -  | placa: COMENTE! | - | -
 

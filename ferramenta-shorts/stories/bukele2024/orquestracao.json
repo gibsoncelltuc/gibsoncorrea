@@ -105,7 +105,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "hall"
+   "cenario": "loc_patio"
   },
   {
    "camera": "two",
@@ -185,10 +185,10 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_patio"
+   "cenario": "interior loja"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "REP",
     "POV"
@@ -204,7 +204,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_patio"
+   "cenario": "loc_pista"
   },
   {
    "camera": "close",
@@ -223,7 +223,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_patio"
+   "cenario": "loc_pista"
   },
   {
    "camera": "close",

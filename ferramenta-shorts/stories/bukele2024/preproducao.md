@@ -8,13 +8,13 @@ b0 | loc_cidade | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/ball
 b1 | loc_campo | reveal | 8 | parados (so fala e pisca) | kit/volcano | - | -
 b2 | loc_cidade | crowd | 14 | conversar, batalha | - | - | -
 b3 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | kit/scroll | paper | -
-b4 | hall | two | 2 | reagir, INTERAGEM: susto | - | paper | -
+b4 | loc_patio | two | 2 | reagir, INTERAGEM: susto | - | paper | -
 b5 | loc_campo | two | 2 | conversar, INTERAGEM: entregar | kit/ballot_box | - | -
 b6 | loc_pista | orbit | 8 | reagir | - | paper | -
 b7 | palace | orbit | 25 | comemorar, batalha | kit/ballot_box, kit/volcano | - | -
-b8 | loc_patio | two | 2 | conversar, INTERAGEM: insiste | - | paper | -
-b9 | loc_patio | group | 2 | discutir, INTERAGEM: empurrar | kit/prison | - | -
-b10 | loc_patio | close | 1 | comemorar | kit/ballot_box, kit/globe | - | -
+b8 | interior loja | two | 2 | conversar, INTERAGEM: insiste | - | paper | -
+b9 | loc_pista | two | 2 | discutir, INTERAGEM: empurrar | kit/prison | - | -
+b10 | loc_pista | close | 1 | comemorar | kit/ballot_box, kit/globe | - | -
 b11 | loc_campo | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/ballot_box
