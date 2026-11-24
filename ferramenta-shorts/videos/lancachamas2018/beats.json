@@ -90,7 +90,8 @@
    ],
    "shot": "two",
    "set": "loc_cidade",
-   "text": "50 MIL BONÉS"
+   "text": "50 MIL BONÉS",
+   "verificador": false
   },
   {
    "say": "O nome dele era Não é um lança-chamas, e custava quinhentos dólares.",
