@@ -40,6 +40,13 @@
     "beret",
     "bowler"
    ]
+  },
+  "PRE": {
+   "jacket": "#f4f4f4",
+   "pants": "#f4f4f4",
+   "boots": "#d8d8d8",
+   "hat": "hair",
+   "hair": "#2a2a2a"
   }
  },
  "beats": [
@@ -99,15 +106,32 @@
    "say": "Por anos, El Salvador teve uma das maiores taxas de assassinato do mundo, por causa das gangues."
   },
   {
-   "shot": "two",
+   "shot": "group",
    "interior": false,
    "who": [
-    "BUK:0:stern",
-    "GUA:0:stern"
+    "GUA:0:stern",
+    "PRE:0:scared",
+    "PRE:1:scared"
    ],
-   "interacao": "entregar",
    "say": "Em dois mil e vinte e dois, o presidente Nayib Bukele decretou estado de exceção, e milhares de suspeitos foram presos.",
-   "set": "loc_montanha"
+   "set": "loc_campo",
+   "acao": "prender",
+   "props": [
+    [
+     "kit/prison",
+     0,
+     -14.5,
+     1.0
+    ]
+   ],
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "PRE"
+    ],
+    "march": false,
+    "expr": "scared"
+   }
   },
   {
    "shot": "wide",

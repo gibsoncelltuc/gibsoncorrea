@@ -173,7 +173,7 @@
    "titulo": true
   },
   {
-   "shot": "crowd",
+   "shot": "low",
    "who": [
     "BUK:0:laugh",
     "POV:0:laugh",
@@ -192,10 +192,10 @@
    },
    "props": [
     [
-     "kit/ballot_box",
+     "buildings/house_two",
      0,
-     -3.0,
-     1.4
+     -6.0,
+     1.2
     ]
    ],
    "fx": [
