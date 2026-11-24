@@ -9,7 +9,7 @@
   ]
  ],
  "metricas": {
-  "acoes_encenadas": 92,
+  "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
   "explicacoes_cobertas": 100,
   "cenario_e_epoca_ok": 100
@@ -68,9 +68,7 @@
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
-   "acoes_faltando": [
-    "vendesse"
-   ],
+   "acoes_faltando": [],
    "cenario": "loc_cidade"
   },
   {

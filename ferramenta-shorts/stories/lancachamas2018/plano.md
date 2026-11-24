@@ -4,7 +4,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | -  | - | (rosto) determined (expr + som de efeito); vendeu (stars + som de sino); encena: negocio (reach) @2 (acao + som de efeito) | -
 b1 | two | -  | interior, mapa | - | -
-b2 | two | -  | placa: 50 MIL BONÉS | encena: x_ri (up) @3 (acao + som de efeito) | vendesse
+b2 | two | -  | placa: 50 MIL BONÉS | encena: x_ri (up) @3 (acao + som de efeito) | -
 b3 | two | -  | interior | - | -
 b4 | wide | -  | batalha aberta com tiros, tropa | fogo (burst + som de tiro/explosao); encena: x_solta (up) @4 (acao + som de efeito) | -
 b5 | two | -  | interior | encena: fala (point) @1 (acao + som de efeito) | -

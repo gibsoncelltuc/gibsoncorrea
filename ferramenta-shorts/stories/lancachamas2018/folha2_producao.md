@@ -30,8 +30,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/flamethrower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bones, empresa, lancachamas
-- RISCOS: 
-  - ACAO SEM ANIMACAO na narracao: vendesse -> CORRECAO: a cena precisa MOSTRAR a acao: reescreva com um verbo que a ferramenta encena (veja OPERACAO.md "MODO DE ACAO") ou marque a cena ("batalha", "interacao", "acao", "animals", "props")
+- RISCOS: nenhum
 
 ## Cena b3 - O nome dele era Não é um lança-chamas, e custava quinhentos dólares.
 - Cenario: interior loja | luz: golden | clima: limpo
@@ -141,12 +140,9 @@ kit/phone | b9 | pronto | conferir na folha de contato se le bem; se parecer cai
 - Interacoes: b0 entregar, b1 aproxima-se, b2 avanca e o outro recua, b3 o outro se aproxima, b5 susto, b6 brindar, b8 insiste, b10 vai ate o outro
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py lancachamas2018  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/lancachamas2018/moodboard.jpg
-  - 1 palavra(s) de acao sem efeito + som -> CORRECAO: ver plano.md e por "fx"/"sfx" na cena
 
-## RESUMO: 3 risco(s) em aberto
-- b2: ACAO SEM ANIMACAO na narracao: vendesse
+## RESUMO: 1 risco(s) em aberto
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
-- geral: 1 palavra(s) de acao sem efeito + som
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh lancachamas2018 bN bM` (so essas cenas).
