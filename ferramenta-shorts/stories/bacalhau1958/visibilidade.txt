@@ -1,5 +1,4 @@
-VISIBILIDADE: 4 FALHA(S)
-FALHA b4: objeto citado "kit/navio_destroier" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+VISIBILIDADE: 3 FALHA(S)
 FALHA b6: objeto citado "kit/navio_destroier" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
 FALHA b6~1: objeto citado "kit/navio_destroier" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
 FALHA b6~2: objeto citado "kit/navio_destroier" nao aparece na tela (escondido, fora do quadro ou pequeno demais)

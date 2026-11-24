@@ -120,13 +120,13 @@ kit/globe | b7 | pronto | conferir na folha de contato se le bem; se parecer cai
 - RISCOS GERAIS: 
   - menos de 2 grandes momentos -> CORRECAO: "batalha": true (ou "impact": true) em duas cenas de acao
   - GANCHO longo: a 1a frase tem 25 palavras (o canal fecha o gancho em ~4 s: 8-16 palavras) -> CORRECAO: reescrever a 1a frase: o fato mais absurdo da historia, curto, com algo em jogo
-  - video com ~52 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar em ~60 s (com esta voz, ~150 palavras no total)
+  - video com ~41 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
 ## RESUMO: 4 risco(s) em aberto
 - geral: menos de 2 grandes momentos
 - geral: GANCHO longo: a 1a frase tem 25 palavras (o canal fecha o gancho em ~4 s: 8-16 palavras)
-- geral: video com ~52 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+- geral: video com ~41 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 - geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render
