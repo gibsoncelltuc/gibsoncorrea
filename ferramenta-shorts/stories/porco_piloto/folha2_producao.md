@@ -14,10 +14,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b1 - Foi na ilha de San Juan, entre os Estados Unidos e o Canadá.
 - Cenario: countryside | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): FAZ (variante 0, expressao neutral); IRL (variante 0, expressao neutral) | multidao: 0 de FAZ/IRL
-- Animacao: - | batalha encenada
+- Animacao: -
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canada, estados, ilha
 - RISCOS: nenhum
@@ -99,7 +99,7 @@ kit/cross | b6 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/batatas | grandes momentos: b1, b4 | planos abertos: 2 | mistura: close 27% | medio 60% | aberto 10% | detalhe 3%
+- Objeto heroi: kit/batatas | grandes momentos: b4 | planos abertos: 2 | mistura: close 24% | medio 60% | aberto 13% | detalhe 3%
 - Interacoes: b0 aproxima-se, b3 discutir, b5 susto
 - RISCOS GERAIS: nenhum
 
