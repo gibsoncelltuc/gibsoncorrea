@@ -195,9 +195,9 @@
     ],
     [
      "mgun",
-     0.0,
-     -1.0,
-     1.2,
+     0.6,
+     1.0,
+     1.5,
      {
       "fixo": true
      }
@@ -216,7 +216,7 @@
    "h": 2.5,
    "batalha": false,
    "tiros": false,
-   "_auto_vis": 1
+   "_auto_vis": 2
   },
   {
    "say": "Depois de seis dias, milhares de cartuchos gastos e poucos emus abatidos.",

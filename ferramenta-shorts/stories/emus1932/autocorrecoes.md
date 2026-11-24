@@ -40,3 +40,6 @@
 
 ## 24/11 19:20 autocorrecao de visibilidade
 - b5: objeto citado "mgun" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 24/11 19:22 autocorrecao de visibilidade
+- b5: objeto citado "mgun" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
