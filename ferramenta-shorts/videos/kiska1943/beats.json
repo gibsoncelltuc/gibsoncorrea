@@ -274,7 +274,8 @@
      }
     ]
    ],
-   "shot_lock": true
+   "shot_lock": true,
+   "detalhe": false
   },
   {
    "say": "Uma das maiores invasões do Pacífico Norte tomou uma ilha completamente vazia.",

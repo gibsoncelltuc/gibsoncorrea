@@ -16,5 +16,5 @@ b10 | group | arctic neblina | animais, placa: SÓ CACHORROS | encena: olha (poi
 b11 | close | - neblina | placa: OPERAÇÃO ILHA VAZIA | - | -
 b12 | two | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 10% | medio 66% | aberto 18% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 8% | medio 67% | aberto 18% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | dentro do padrao do canal
