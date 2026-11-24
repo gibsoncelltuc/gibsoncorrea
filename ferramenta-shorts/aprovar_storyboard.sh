@@ -29,6 +29,13 @@ for k, b in enumerate(B):
     pal = {w for w in re.findall(r'[a-z]{5,}', n(b['say']))}
     if len(t.split()) < 8 or not (pal & set(re.findall(r'[a-z]{5,}', n(t)))): falta.append(f'b{k}: linha curta ou sem citar nada da frase')
     elif re.search(r'pendente|a corrigir|vou corrigir|defeito(?!.*->)', n(t)) and 'corrigido' not in n(t): falta.append(f'b{k}: defeito sem correcao (regra mestra: corrija antes de aprovar)')
+# OLHAR IGUAL A PRINCIPAL (ordem do Gibson 24/11, COMO_OLHAR.md): a revisao tem de mostrar que o quadro foi comparado com a PESQUISA e que os defeitos foram PROCURADOS
+txt = n(open(R, encoding='utf-8').read())
+mp = re.search(r'^\s*pesquisa\s*:\s*(.+)$', txt, re.M)
+if os.path.exists(f'referencias/{i}/moodboard.jpg') and not (mp and len(mp.group(1).split()) >= 10): falta.append('falta a linha "pesquisa: ..." (10+ palavras: o que o quadro de referencias referencias/%s/moodboard.jpg estabelece e o que voce comparou)' % i)
+md = re.search(r'^\s*defeitos procurados\s*:\s*(.+)$', txt, re.M)
+_k = [k for k in ('cenario', 'epoca', 'tamanho', 'cortado', 'multidao', 'legenda', 'acao', 'objeto') if md and k in md.group(1)]
+if len(_k) < 8: falta.append('falta a linha "defeitos procurados: ..." respondendo os 8 itens (cenario, epoca, tamanho, cortado, multidao, legenda, acao, objeto) -- veja COMO_OLHAR.md')
 if falta: print('REVISAO INCOMPLETA:', '; '.join(falta[:8])); sys.exit(1)
 print(f'revisao escrita OK ({len(B)} frases conferidas)')
 PYR

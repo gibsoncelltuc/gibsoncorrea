@@ -1,3 +1,5 @@
+> **Leia primeiro `COMO_OLHAR.md`** (o jeito de olhar storyboard e vídeo da sessão principal, com exemplos de certo × errado em `treino_olhar/`). A aprovação do storyboard exige as linhas `pesquisa:` e `defeitos procurados:` na revisão.
+
 # MANUAL DE OPERAÇÃO — para o modelo que assume (Sonnet 5.5), nas 3 sessões
 Escrito em 19/11 à noite, na troca de modelo pedida pelo Gibson. Leia INTEIRO antes de agir. Responda ao Gibson sempre em português, curto e honesto.
 
