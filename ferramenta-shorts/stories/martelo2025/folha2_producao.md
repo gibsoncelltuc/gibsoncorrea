@@ -78,7 +78,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (0): - | multidao: 0 de 
 - Animacao: - | batalha encenada
-- Objetos/modelos: kit/b2_air, kit/mountain_bunker
+- Objetos/modelos: kit/mountain_bunker
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): madrugada
 - RISCOS: nenhum
 
@@ -139,7 +139,7 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/bunker_bomb | b0 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/mountain_bunker | b2, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/b2_air | b5, b6, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/b2_air | b5, b6, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/submarino_ww2 | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_small | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py

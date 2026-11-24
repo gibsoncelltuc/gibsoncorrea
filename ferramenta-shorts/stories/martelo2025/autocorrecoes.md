@@ -101,3 +101,48 @@
 - b9: ja corrigida 3 vezes, objeto citado "kit/b2_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
 - b5: ja corrigida 3 vezes, objeto "kit/b2_air" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
 - b9: ja corrigida 3 vezes, objeto "kit/b2_air" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+
+## 24/11 21:24 autocorrecao de visibilidade
+- b5: ja corrigida 3 vezes, objeto citado "kit/b2_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b6: ja corrigida 3 vezes, objeto citado "kit/b2_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b7: ja corrigida 3 vezes, objeto citado "kit/b2_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b9: ja corrigida 3 vezes, objeto citado "kit/b2_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b0: objeto "kit/bunker_bomb" saiu com 11% da altura da tela, a ficha de cena planejou 30% -> objeto trazido para perto do centro (0.0, -1.0)
+- b5: ja corrigida 3 vezes, objeto "kit/b2_air" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+- b6: ja corrigida 3 vezes, objeto "kit/b2_air" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+- b7: ja corrigida 3 vezes, objeto "kit/b2_air" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+- b9: ja corrigida 3 vezes, objeto "kit/b2_air" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+
+## 24/11 21:25 autocorrecao de visibilidade
+- b5: ja corrigida 3 vezes, objeto citado "kit/b2_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b6: ja corrigida 3 vezes, objeto citado "kit/b2_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b7: ja corrigida 3 vezes, objeto citado "kit/b2_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b9: ja corrigida 3 vezes, objeto citado "kit/b2_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b5: ja corrigida 3 vezes, objeto "kit/b2_air" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+- b6: ja corrigida 3 vezes, objeto "kit/b2_air" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+- b7: ja corrigida 3 vezes, objeto "kit/b2_air" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+- b9: ja corrigida 3 vezes, objeto "kit/b2_air" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+
+## 24/11 21:26 autocorrecao de visibilidade
+- b0: objeto "kit/bunker_bomb" saiu com 11% da altura da tela, a ficha de cena planejou 30% -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 24/11 21:28 autocorrecao de visibilidade
+- b0: objeto "kit/bunker_bomb" saiu com 11% da altura da tela, a ficha de cena planejou 30% -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 24/11 21:30 autocorrecao de visibilidade
+- b7: ja corrigida 3 vezes, objeto citado "kit/b2_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b0: objeto "kit/bunker_bomb" saiu com 11% da altura da tela, a ficha de cena planejou 30% -> objeto trazido para perto do centro (0.0, -1.0)
+- b5: ja corrigida 3 vezes, objeto "kit/b2_air" saiu com 14% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+- b6: ja corrigida 3 vezes, objeto "kit/b2_air" saiu com 14% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+- b7: ja corrigida 3 vezes, objeto "kit/b2_air" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+- b9: ja corrigida 3 vezes, objeto "kit/b2_air" saiu com 14% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+
+## 24/11 21:31 autocorrecao de visibilidade
+- b7: ja corrigida 3 vezes, objeto citado "kit/b2_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b5: ja corrigida 3 vezes, objeto "kit/b2_air" saiu com 14% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+- b6: ja corrigida 3 vezes, objeto "kit/b2_air" saiu com 14% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+- b7: ja corrigida 3 vezes, objeto "kit/b2_air" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+- b9: ja corrigida 3 vezes, objeto "kit/b2_air" saiu com 14% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+
+## 24/11 21:32 autocorrecao de visibilidade
+- b0: objeto "kit/bunker_bomb" saiu com 11% da altura da tela, a ficha de cena planejou 30% -> objeto trazido para perto do centro (0.0, -1.0)

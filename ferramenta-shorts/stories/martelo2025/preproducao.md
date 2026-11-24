@@ -11,7 +11,7 @@ b3 | loc_pista | two | 0 | parados (so fala e pisca) | - | - | -
 b4 | interior pedra | two | 2 | conversar, INTERAGEM: o outro se aproxima | - | - | -
 b5 | loc_pista | wide | 0 | parados (so fala e pisca) | kit/b2_air | - | -
 b6 | harbor | wide | 0 | parados (so fala e pisca) | kit/b2_air | - | -
-b7 | mountain | orbit | 0 | batalha | kit/b2_air, kit/mountain_bunker | - | -
+b7 | mountain | orbit | 0 | batalha | kit/mountain_bunker | - | -
 b8 | harbor | wide | 1 | parados (so fala e pisca) | kit/submarino_ww2 | - | -
 b9 | loc_pista | wide | 0 | parados (so fala e pisca) | kit/b2_air, buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
 b10 | interior pedra | two | 2 | conversar, INTERAGEM: insiste | - | - | -

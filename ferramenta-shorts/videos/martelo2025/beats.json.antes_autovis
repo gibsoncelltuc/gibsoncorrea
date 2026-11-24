@@ -200,10 +200,10 @@
    },
    "detalhe": true,
    "cx": 0.0,
-   "cz": -9.7,
-   "h": 8.0,
-   "d0": 18.0,
-   "d1": 16.0,
+   "cz": 1.4,
+   "h": 11.0,
+   "d0": 20.0,
+   "d1": 18.0,
    "quadro_manual": true,
    "quadro": {
     "local": "loc_pista",
@@ -217,13 +217,12 @@
      }
     ]
    },
-   "_auto_vis": 3
+   "_auto_vis": 3,
+   "el": 14
   },
   {
    "shot": "wide",
-   "who": [
-    "PIL:0:smug"
-   ],
+   "who": [],
    "props": [
     [
      "kit/b2_air",
@@ -249,10 +248,10 @@
    },
    "detalhe": true,
    "cx": 0.0,
-   "cz": -9.7,
-   "h": 8.0,
-   "d0": 18.0,
-   "d1": 16.0,
+   "cz": 1.4,
+   "h": 11.0,
+   "d0": 20.0,
+   "d1": 18.0,
    "quadro_manual": true,
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
@@ -266,24 +265,14 @@
      }
     ]
    },
-   "_auto_vis": 3
+   "_auto_vis": 3,
+   "el": 14
   },
   {
    "shot": "wide",
    "hora": "noite",
-   "who": [
-    "PIL:0:stern"
-   ],
+   "who": [],
    "props": [
-    [
-     "kit/b2_air",
-     0.0,
-     1.4,
-     3.12,
-     {
-      "fixo": true
-     }
-    ],
     [
      "kit/mountain_bunker",
      7.0,
@@ -312,31 +301,26 @@
     "n": 0
    },
    "detalhe": true,
-   "cx": 0.0,
-   "cz": -9.7,
-   "h": 8.0,
-   "d0": 18.0,
-   "d1": 16.0,
+   "cx": 7.0,
+   "cz": -16.1,
+   "h": 3.0,
+   "d0": 20.0,
+   "d1": 18.0,
    "quadro_manual": true,
    "quadro": {
     "local": "encosta de montanha",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o b2_air (alvo z -4.3, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o mountain_bunker (alvo z -4.6, camera a 23.2 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
-      "objeto": "kit/b2_air",
+      "objeto": "kit/mountain_bunker",
       "lugar": "FUNDO, centro (objeto principal da cena)",
       "tela": "30% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/mountain_bunker",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
       "estado": "parado"
      }
     ]
    },
-   "_auto_vis": 3
+   "_auto_vis": 3,
+   "el": 10
   },
   {
    "shot": "wide",
@@ -414,10 +398,10 @@
     "ding@30"
    ],
    "cx": 0.0,
-   "cz": -9.7,
-   "h": 8.0,
-   "d0": 18.0,
-   "d1": 16.0,
+   "cz": 1.4,
+   "h": 11.0,
+   "d0": 20.0,
+   "d1": 18.0,
    "quadro_manual": true,
    "quadro": {
     "local": "loc_pista",
@@ -431,7 +415,8 @@
      }
     ]
    },
-   "_auto_vis": 3
+   "_auto_vis": 3,
+   "el": 14
   },
   {
    "shot": "two",
