@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 27 - A Maior Prisão das Américas
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 3.3s - 13 palavras - plano two
@@ -61,9 +61,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | despencaram (33.6s) | ACAO: tomba | cai sentado no chao + poeira | OK |
-| 2 | - | INTERACAO | avanca e o outro recua | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 1 | - | INTERACAO | avanca e o outro recua | OK |
+| 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 38.4s a 42.6s - 12 palavras - plano orbit
 > "Organizações de direitos humanos denunciaram prisões sem julgamento e mortes sob custódia."

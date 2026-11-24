@@ -8,7 +8,7 @@ b2 | orbit | -  | tropa, objeto na mao | - | -
 b3 | group | -  | tropa | encena: prende (push) @20 (acao + som de efeito) | -
 b4 | crowd | -  | batalha aberta com tiros, tropa, placa: 40 MIL | encena: pega (lift) @1 (acao + som de efeito); encena: constroi (hammer) @4 (acao + som de efeito); encena: prende (push) @16 (acao + som de efeito) | -
 b5 | two | -  | tropa | - | -
-b6 | two | -  | objeto na mao | encena: tomba @2 (acao + som de efeito) | -
+b6 | two | -  | objeto na mao | - | -
 b7 | orbit | -  | batalha aberta com tiros, tropa | encena: protesto (up) @4 (acao + som de efeito) | -
 b8 | group | -  | objeto na mao | - | -
 b9 | two | -  | tropa, placa: DEBATE | - | -
