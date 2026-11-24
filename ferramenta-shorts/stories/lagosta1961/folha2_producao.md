@@ -46,8 +46,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (1): MAR (variante 0, expressao stern) | multidao: 0 de 
-- Animacao: conversar
+- Personagens principais (2): MAR (variante 0, expressao stern); FRA (variante 0, expressao smug) | multidao: 0 de 
+- Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/navio_destroier
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca, navio, pescadores
 - RISCOS: nenhum
@@ -127,7 +127,7 @@ vehicles/airplane | b5 | pronto | conferir na folha de contato se le bem; se par
 
 ## Video inteiro
 - Objeto heroi: kit/lobster | grandes momentos: b1, b5 | planos abertos: 3 | mistura: close 12% | medio 73% | aberto 11% | detalhe 4%
-- Interacoes: b0 discutir, b6 cochichar, b7 entregar, b9 susto
+- Interacoes: b0 discutir, b4 avanca e o outro recua, b6 cochichar, b7 entregar, b9 susto
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

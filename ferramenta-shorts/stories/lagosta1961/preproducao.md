@@ -8,7 +8,7 @@ b0 | harbor | two | 2 | discutir, INTERAGEM: discutir, alguem chega andando | ki
 b1 | harbor | crowd | 1 | encena, batalha | boat, kit/fishing_net | - | -
 b2 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
 b3 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
-b4 | harbor | group | 1 | conversar | kit/navio_destroier | - | -
+b4 | harbor | group | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/navio_destroier | - | -
 b5 | harbor | crowd | 21 | encena, batalha | ship, vehicles/airplane, navios de guerra ao fundo, no tamanho real | - | -
 b6 | harbor | two | 2 | discutir, INTERAGEM: cochichar | - | - | -
 b7 | interior pedra | two | 2 | conversar, INTERAGEM: entregar, alguem chega andando | - | paper | -
@@ -18,7 +18,7 @@ b10 | harbor | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/lobster
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b1, b5
-Interacoes entre personagens: b0 discutir, b6 cochichar, b7 entregar, b9 susto
+Interacoes entre personagens: b0 discutir, b4 avanca e o outro recua, b6 cochichar, b7 entregar, b9 susto
 
 Cenas com personagens parados: 2 de 11
 FALTA MODELAR: nada
