@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 11 - A Guerra da Lagosta
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.0s - 14 palavras - plano group
@@ -105,24 +105,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | tiro (38.6s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | tiro (38.6s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 3 | reuniram (41.2s) | ACAO: chega | entra andando pela lateral | OK |
-| 4 | conversaram (41.8s) | ACAO: fala | aponta explicando | OK |
-| 5 | brigar (43.2s) | EFEITO: puff | fumaca + som | OK |
-| 6 | brigar (43.2s) | ACAO: golpe | soco + estouro | OK |
-| 7 | - | INTERACAO | entregar | OK |
-| 8 | - | ATUACAO | conversar | OK |
-| 9 | - | CHEGADA | alguem entra andando | OK |
+| 1 | - | INTERACAO | entregar | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | CHEGADA | alguem entra andando | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: burst na palavra tiro (38.6s): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
-- ACAO: atira na palavra tiro (38.6s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- ACAO: chega na palavra reuniram (41.2s): executa: entra andando pela lateral
-- ACAO: fala na palavra conversaram (41.8s): braco estendido apontando para o objeto/lugar citado
-- EFEITO: puff na palavra brigar (43.2s): executa: fumaca + som
-- ACAO: golpe na palavra brigar (43.2s): o braco avanca em ~0,2 s ate o alvo; quem leva o golpe recua meio passo, estrelinhas sobre a cabeca
 - INTERACAO (a cena toda): executa: entregar
 - ATUACAO (a cena toda): executa: conversar
 - CHEGADA (a cena toda): executa: alguem entra andando

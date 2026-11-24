@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 11 - A Guerra da Lagosta
 
-Gerado em 24/11 19:20 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 19:22 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -30,12 +30,12 @@ N | Etapa | O que confere | Estado | Proximo passo
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | FEITO | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | FEITO | 
 8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | FEITO | 
-9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | FEITO | 
-10 | Render | todos os quadros renderizados nesta versao das folhas | FEITO | 
-11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | FEITO | 
-12 | Conferencia | conferir.sh sem falha e folha de contato olhada | FEITO | 
-13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | PENDENTE | bash auditar_acoes.sh local lagosta1961 <mp4>
+9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | PENDENTE | ./aprovar_storyboard.sh lagosta1961
+10 | Render | todos os quadros renderizados nesta versao das folhas | REFAZER (a etapa anterior mudou) | 
+11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | REFAZER (a etapa anterior mudou) | 
+12 | Conferencia | conferir.sh sem falha e folha de contato olhada | REFAZER (a etapa anterior mudou) | ./conferir.sh lagosta1961
+13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local lagosta1961 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
-**Etapa atual:** 13. Auditoria das acoes
+**Etapa atual:** 9. Revisao escrita e aprovacao
 

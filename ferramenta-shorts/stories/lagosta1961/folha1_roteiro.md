@@ -68,8 +68,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 ## Cena b7  (~5.5 s)
 - Narracao: Mas o tiro nunca veio. Os dois governos se reuniram e conversaram, em vez de brigar.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: tiro -> burst + som de tiro/explosao; brigar -> puff + som de baque; encena: atira @2 -> acao + som de efeito; encena: chega (point) @9 -> acao + som de efeito; encena: fala (point) @11 -> acao + som de efeito; encena: golpe (punch) @15 -> acao + som de efeito
+- Efeitos sonoros marcados: ding@30
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

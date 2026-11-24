@@ -37,7 +37,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o locomotive (alvo z -3.6, camera a 33.8 m, altura 3.1 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o locomotive (alvo z -2.0, camera a 20.0 m, altura 3.1 m), sem multidao na frente
 - PERSONAGENS: VIA (jornalista) no centro, expressao neutral; sem multidao; acao: fala/gesto
 - OBJETO vehicles/locomotive: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 8.8 m de altura x 5.0 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - MAPA: PANAMÁ (cobre a tela 1-2 s)
@@ -60,7 +60,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o locomotive (alvo z -3.6, camera a 33.8 m, altura 3.1 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o locomotive (alvo z -2.0, camera a 20.0 m, altura 3.1 m), sem multidao na frente
 - PERSONAGENS: VIA (jornalista) no centro, expressao neutral; sem multidao; acao: fala/gesto
 - OBJETO vehicles/locomotive: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 8.8 m de altura x 5.0 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
@@ -163,7 +163,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: vila rural (casas, cercas, campo); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o locomotive (alvo z -3.6, camera a 31.4 m, altura 2.9 m), multidao ATRAS dos personagens, na frente do objeto
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o locomotive (alvo z -2.0, camera a 20.0 m, altura 2.9 m), multidao ATRAS dos personagens, na frente do objeto
 - PERSONAGENS: VIA (jornalista) no centro, expressao shock; multidao de 16 (SOL, VIA) ATRAS dos principais; acao: discutir
 - OBJETO vehicles/locomotive: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 8.2 m de altura x 4.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "ESTAÇÃO DE TREM" flutuando no alto, na palavra 1 da frase
