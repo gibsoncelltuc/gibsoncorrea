@@ -6,35 +6,63 @@
    "item": "O Médico que Mandou Lavar as Mãos",
    "consultas": [
     "O Médico que Mandou Lavar as Mãos",
-    "Um Era Viena Numa Na 1847"
+    "Um Era Viena 1847"
+   ],
+   "achados": [
+    {
+     "titulo": "Palacio de Schönbrunn, Viena, Austria, 2020-02-02, DD 10.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Palacio_de_Sch%C3%B6nbrunn%2C_Viena%2C_Austria%2C_2020-02-02%2C_DD_10.jpg/500px-Palacio_de_Sch%C3%B6nbrunn%2C_Viena%2C_Austria%2C_2020-02-02%2C_DD_10.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3APalacio_de_Sch%C3%B6nbrunn%2C_Viena%2C_Austria%2C_2020-02-02%2C_DD_10.jpg",
+     "descricao": "los jardines del palacio de Schönbrunn, \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/semmelweis1847/prints/o_m_dico_que_mandou_lavar_as_m_os_309082.jpg",
+     "consulta": "Um Era Viena"
+    },
+    {
+     "titulo": "SAT Furusund Monte Bello banner.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/SAT_Furusund_Monte_Bello_banner.jpg/500px-SAT_Furusund_Monte_Bello_banner.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASAT_Furusund_Monte_Bello_banner.jpg",
+     "descricao": "publish it under the following license: English Swedish SAT Furusund \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/semmelweis1847/prints/o_m_dico_que_mandou_lavar_as_m_os_3ead3a.jpg",
+     "consulta": "Um Era Viena"
+    },
+    {
+     "titulo": "Monte Bello Road (140428373).jpeg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Monte_Bello_Road_%28140428373%29.jpeg/500px-Monte_Bello_Road_%28140428373%29.jpeg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AMonte_Bello_Road_%28140428373%29.jpeg",
+     "descricao": "\\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/semmelweis1847/prints/o_m_dico_que_mandou_lavar_as_m_os_65f8e0.jpg",
+     "consulta": "Um Era Viena"
+    }
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Hospital Geral de Viena (Allgemeines Krankenhaus), Austria: enfermarias de parto",
+   "consultas": [
+    "Hospital Geral de Viena",
+    "Hospital Geral de Viena Allgemeines Krankenhaus Austria 1847"
    ],
    "achados": [
     {
      "titulo": "Aristides de Sousa Mendes ' Homage (5943355648).jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Aristides_de_Sousa_Mendes_%27_Homage_%285943355648%29.jpg/500px-Aristides_de_Sousa_Mendes_%27_Homage_%285943355648%29.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3AAristides_de_Sousa_Mendes_%27_Homage_%285943355648%29.jpg",
-     "descricao": "de abril de 1954) foi \\u003Cspan class=\\",
+     "descricao": "Chaminé realizou dois concertos homenagem a Aristides \\u003Cspan class=\\",
      "ordem": 1,
-     "print": "referencias/semmelweis1847/prints/o_m_dico_que_mandou_lavar_as_m_os_852f80.jpg",
-     "consulta": "Um Era Viena Numa Na"
+     "print": "referencias/semmelweis1847/prints/hospital_geral_de_viena_allgemeines_kran_852f80.jpg",
+     "consulta": "Hospital Geral de Viena"
     },
     {
      "titulo": "Alexandre O'Neil' -Poet- (1924-1986) - Francisco Simões -Sculptor- (1946- (153646863).jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Alexandre_O%27Neil%27_-Poet-_%281924-1986%29_-_Francisco_Sim%C3%B5es_-Sculptor-_%281946-_%28153646863%29.jpg/500px-Alexandre_O%27Neil%27_-Poet-_%281924-1986%29_-_Francisco_Sim%C3%B5es_-Sculptor-_%281946-_%28153646863%29.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3AAlexandre_O%27Neil%27_-Poet-_%281924-1986%29_-_Francisco_Sim%C3%B5es_-Sculptor-_%281946-_%28153646863%29.jpg",
-     "descricao": "preso vinte e \\u003Cspan class=\\",
+     "descricao": "no Estabelecimento Prisional \\u003Cspan class=\\",
      "ordem": 2,
-     "print": "referencias/semmelweis1847/prints/o_m_dico_que_mandou_lavar_as_m_os_30596c.jpg",
-     "consulta": "Um Era Viena Numa Na"
-    },
-    {
-     "titulo": "Palácio das Necessidades - Lisboa - Portugal (12641643635).jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Pal%C3%A1cio_das_Necessidades_-_Lisboa_-_Portugal_%2812641643635%29.jpg/500px-Pal%C3%A1cio_das_Necessidades_-_Lisboa_-_Portugal_%2812641643635%29.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3APal%C3%A1cio_das_Necessidades_-_Lisboa_-_Portugal_%2812641643635%29.jpg",
-     "descricao": "Portugal (12641643635).jpg \\u003Cspan class=\\",
-     "ordem": 3,
-     "print": "referencias/semmelweis1847/prints/o_m_dico_que_mandou_lavar_as_m_os_19ede2.jpg",
-     "consulta": "Um Era Viena Numa Na"
+     "print": "referencias/semmelweis1847/prints/hospital_geral_de_viena_allgemeines_kran_30596c.jpg",
+     "consulta": "Hospital Geral de Viena"
     }
    ]
   },
@@ -113,39 +141,335 @@
    ]
   },
   {
-   "tipo": "heroi",
-   "item": "maca",
+   "tipo": "pessoas",
+   "item": "Ignaz Semmelweis (calvo, bigode, sobrecasaca escura)",
    "consultas": [
-    "maca",
-    "O Médico que Mandou Lavar as Mãos"
+    "Ignaz Semmelweis calvo bigode sobrecasaca escura",
+    "Ignaz Semmelweis calvo bigode sobrecasaca escura 1847"
    ],
    "achados": [
     {
-     "titulo": "Kluse - Lepidium meyenii - Maca 04 ies.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Kluse_-_Lepidium_meyenii_-_Maca_04_ies.jpg/500px-Kluse_-_Lepidium_meyenii_-_Maca_04_ies.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AKluse_-_Lepidium_meyenii_-_Maca_04_ies.jpg",
-     "descricao": "DescriptionKluse - \\u003Cspan class=\\",
+     "titulo": "Borsos & Doctor Semmelweis Ignác cropped.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Borsos_%26_Doctor_Semmelweis_Ign%C3%A1c_cropped.jpg/500px-Borsos_%26_Doctor_Semmelweis_Ign%C3%A1c_cropped.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABorsos_%26_Doctor_Semmelweis_Ign%C3%A1c_cropped.jpg",
+     "descricao": "English \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/semmelweis1847/prints/ignaz_semmelweis_calvo_bigode_sobrecasac_136571.jpg",
+     "consulta": "Ignaz Semmelweis"
+    },
+    {
+     "titulo": "Ignaz Semmelweis 1860.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Ignaz_Semmelweis_1860.jpg/500px-Ignaz_Semmelweis_1860.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AIgnaz_Semmelweis_1860.jpg",
+     "descricao": "Public Domain Mark 1.0falsefalse English Portrait of \\u003Cspan class=\\",
      "ordem": 2,
-     "print": "referencias/semmelweis1847/prints/maca_96c512.jpg",
-     "consulta": "maca"
+     "print": "referencias/semmelweis1847/prints/ignaz_semmelweis_calvo_bigode_sobrecasac_6e975d.jpg",
+     "consulta": "Ignaz Semmelweis"
     },
     {
-     "titulo": "Kluse - Lepidium meyenii - Maca 02 ies.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Kluse_-_Lepidium_meyenii_-_Maca_02_ies.jpg/500px-Kluse_-_Lepidium_meyenii_-_Maca_02_ies.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AKluse_-_Lepidium_meyenii_-_Maca_02_ies.jpg",
-     "descricao": "DescriptionKluse - \\u003Cspan class=\\",
+     "titulo": "Semmelweis Ignác 1864.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Semmelweis_Ign%C3%A1c_1864.jpg/500px-Semmelweis_Ign%C3%A1c_1864.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASemmelweis_Ign%C3%A1c_1864.jpg",
+     "descricao": "Commons Public Domain Mark 1.0falsefalse English The last photograph of \\u003Cspan class=\\",
      "ordem": 4,
-     "print": "referencias/semmelweis1847/prints/maca_94ef3e.jpg",
-     "consulta": "maca"
+     "print": "referencias/semmelweis1847/prints/ignaz_semmelweis_calvo_bigode_sobrecasac_b8e51f.jpg",
+     "consulta": "Ignaz Semmelweis"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "medicos e estudantes de sobrecasaca",
+   "consultas": [
+    "medicos e estudantes de sobrecasaca",
+    "medicos e estudantes de sobrecasaca 1847"
+   ],
+   "achados": [
+    {
+     "titulo": "Grupo de estudantes do final do século XIX no páteo da Escola Médico-Cirúrgica de Lisboa.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Grupo_de_estudantes_do_final_do_s%C3%A9culo_XIX_no_p%C3%A1teo_da_Escola_M%C3%A9dico-Cir%C3%BArgica_de_Lisboa.png/500px-Grupo_de_estudantes_do_final_do_s%C3%A9culo_XIX_no_p%C3%A1teo_da_Escola_M%C3%A9dico-Cir%C3%BArgica_de_Lisboa.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AGrupo_de_estudantes_do_final_do_s%C3%A9culo_XIX_no_p%C3%A1teo_da_Escola_M%C3%A9dico-Cir%C3%BArgica_de_Lisboa.png",
+     "descricao": "\\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/semmelweis1847/prints/medicos_e_estudantes_de_sobrecasaca_d0e02b.jpg",
+     "consulta": "medicos estudantes"
     },
     {
-     "titulo": "Kluse - Lepidium meyenii - Maca 01 ies.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Kluse_-_Lepidium_meyenii_-_Maca_01_ies.jpg/500px-Kluse_-_Lepidium_meyenii_-_Maca_01_ies.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AKluse_-_Lepidium_meyenii_-_Maca_01_ies.jpg",
-     "descricao": "DescriptionKluse - \\u003Cspan class=\\",
+     "titulo": "Hyundai Nexo IAA 2021 1X7A0241.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Hyundai_Nexo_IAA_2021_1X7A0241.jpg/500px-Hyundai_Nexo_IAA_2021_1X7A0241.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AHyundai_Nexo_IAA_2021_1X7A0241.jpg",
+     "descricao": "DescriptionHyundai \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/semmelweis1847/prints/medicos_e_estudantes_de_sobrecasaca_af36c2.jpg",
+     "consulta": "medicos estudantes"
+    },
+    {
+     "titulo": "Associacao de Estudantes do Instituto de Ciencias Biomedicas de Abel Salazar de Universidade do Porto - panoramio.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Associacao_de_Estudantes_do_Instituto_de_Ciencias_Biomedicas_de_Abel_Salazar_de_Universidade_do_Porto_-_panoramio.jpg/500px-Associacao_de_Estudantes_do_Instituto_de_Ciencias_Biomedicas_de_Abel_Salazar_de_Universidade_do_Porto_-_panoramio.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AAssociacao_de_Estudantes_do_Instituto_de_Ciencias_Biomedicas_de_Abel_Salazar_de_Universidade_do_Porto_-_panoramio.jpg",
+     "descricao": "DescriptionAssociacao de \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/semmelweis1847/prints/medicos_e_estudantes_de_sobrecasaca_3105ff.jpg",
+     "consulta": "medicos estudantes"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "parteiras de avental branco",
+   "consultas": [
+    "parteiras de avental branco",
+    "parteiras de avental branco 1847"
+   ],
+   "achados": [
+    {
+     "titulo": "Francisco Coello (1847-1870) Atlas de España y sus posesiones de ultramar, portada.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Francisco_Coello_%281847-1870%29_Atlas_de_Espa%C3%B1a_y_sus_posesiones_de_ultramar%2C_portada.png/500px-Francisco_Coello_%281847-1870%29_Atlas_de_Espa%C3%B1a_y_sus_posesiones_de_ultramar%2C_portada.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AFrancisco_Coello_%281847-1870%29_Atlas_de_Espa%C3%B1a_y_sus_posesiones_de_ultramar%2C_portada.png",
+     "descricao": "cartografía de la metrópoli en el Atlas de España y sus posesiones en ultramar (\\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/semmelweis1847/prints/parteiras_de_avental_branco_464a53.jpg",
+     "consulta": "1847"
+    },
+    {
+     "titulo": "1847 Events Collage V 1.0.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/1847_Events_Collage_V_1.0.jpg/500px-1847_Events_Collage_V_1.0.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3A1847_Events_Collage_V_1.0.jpg",
+     "descricao": "your use. https://creativecommons.org/licenses/by/4.0CC BY 4.0 Creative Commons Attribution 4.0 truetrue English determination method or standard: SHA-\\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/semmelweis1847/prints/parteiras_de_avental_branco_09216c.jpg",
+     "consulta": "1847"
+    },
+    {
+     "titulo": "Johannes Müller par Kugler-Eglise Saint-Thomas de Strasbourg (1).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Johannes_M%C3%BCller_par_Kugler-Eglise_Saint-Thomas_de_Strasbourg_%281%29.jpg/500px-Johannes_M%C3%BCller_par_Kugler-Eglise_Saint-Thomas_de_Strasbourg_%281%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AJohannes_M%C3%BCller_par_Kugler-Eglise_Saint-Thomas_de_Strasbourg_%281%29.jpg",
+     "descricao": "author name string: Ji-Elle Wikimedia username: Ji-Elle URL: https://commons.wikimedia.org/wiki/User:Ji-Elle determination method or standard: SHA-\\u003Cspan class=\\",
      "ordem": 5,
-     "print": "referencias/semmelweis1847/prints/maca_52d9a1.jpg",
-     "consulta": "maca"
+     "print": "referencias/semmelweis1847/prints/parteiras_de_avental_branco_9595b1.jpg",
+     "consulta": "1847"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "maes gravidas",
+   "consultas": [
+    "maes gravidas",
+    "maes gravidas 1847"
+   ],
+   "achados": [
+    {
+     "titulo": "Capela de Santa Ana - Sardoal - Portugal (7744996586).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Capela_de_Santa_Ana_-_Sardoal_-_Portugal_%287744996586%29.jpg/500px-Capela_de_Santa_Ana_-_Sardoal_-_Portugal_%287744996586%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACapela_de_Santa_Ana_-_Sardoal_-_Portugal_%287744996586%29.jpg",
+     "descricao": "colo o Menino Jesus. Sendo a santa a protetora das \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/semmelweis1847/prints/maes_gravidas_7cdfc4.jpg",
+     "consulta": "maes gravidas"
+    },
+    {
+     "titulo": "Igreja n.sra de montevirgem.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Igreja_n.sra_de_montevirgem.jpg/500px-Igreja_n.sra_de_montevirgem.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AIgreja_n.sra_de_montevirgem.jpg",
+     "descricao": "que recebeu a missão de ser a Mãe de Jesus e também nossa mãe. Maria, \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/semmelweis1847/prints/maes_gravidas_1c91f8.jpg",
+     "consulta": "maes gravidas"
+    },
+    {
+     "titulo": "Toci and Xochiquetzal, Two Aztec Goddesses WDL6731.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Toci_and_Xochiquetzal%2C_Two_Aztec_Goddesses_WDL6731.png/500px-Toci_and_Xochiquetzal%2C_Two_Aztec_Goddesses_WDL6731.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AToci_and_Xochiquetzal%2C_Two_Aztec_Goddesses_WDL6731.png",
+     "descricao": "figura é Xochiquetzal, que era a deusa do amor, dos artistas, da terra, das \\u003Cspan class=\\",
+     "ordem": 7,
+     "print": "referencias/semmelweis1847/prints/maes_gravidas_d752e7.jpg",
+     "consulta": "maes gravidas"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Jakob Kolletschka",
+   "consultas": [
+    "Jakob Kolletschka",
+    "Jakob Kolletschka 1847"
+   ],
+   "achados": [
+    {
+     "titulo": "Jakob Kolletschka (1803-1847).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Jakob_Kolletschka_%281803-1847%29.jpg/500px-Jakob_Kolletschka_%281803-1847%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AJakob_Kolletschka_%281803-1847%29.jpg",
+     "descricao": "\\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/semmelweis1847/prints/jakob_kolletschka_7bd072.jpg",
+     "consulta": "Jakob Kolletschka"
+    },
+    {
+     "titulo": "Jakob Kolletschka Litho.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Jakob_Kolletschka_Litho.jpg/500px-Jakob_Kolletschka_Litho.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AJakob_Kolletschka_Litho.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/semmelweis1847/prints/jakob_kolletschka_763492.jpg",
+     "consulta": "Jakob Kolletschka"
+    },
+    {
+     "titulo": "Jakob Kolletschka, matrika N.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Jakob_Kolletschka%2C_matrika_N.jpg/500px-Jakob_Kolletschka%2C_matrika_N.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AJakob_Kolletschka%2C_matrika_N.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/semmelweis1847/prints/jakob_kolletschka_722b2d.jpg",
+     "consulta": "Jakob Kolletschka"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "bacia com agua e cal clorada",
+   "consultas": [
+    "bacia com agua e cal clorada",
+    "bacia com agua e cal clorada 1847"
+   ],
+   "achados": [
+    {
+     "titulo": "Bacia do Pina- Recife, Pernambuco, Brasil.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Bacia_do_Pina-_Recife%2C_Pernambuco%2C_Brasil.jpg/500px-Bacia_do_Pina-_Recife%2C_Pernambuco%2C_Brasil.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABacia_do_Pina-_Recife%2C_Pernambuco%2C_Brasil.jpg",
+     "descricao": "rios Tejipió, Pina e Jordão, recebe ainda, \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/semmelweis1847/prints/bacia_com_agua_e_cal_clorada_2fee37.jpg",
+     "consulta": "bacia agua"
+    },
+    {
+     "titulo": "Bacia do Pina Recife, Pernambuco, Brasil.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Bacia_do_Pina_Recife%2C_Pernambuco%2C_Brasil.jpg/500px-Bacia_do_Pina_Recife%2C_Pernambuco%2C_Brasil.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABacia_do_Pina_Recife%2C_Pernambuco%2C_Brasil.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/semmelweis1847/prints/bacia_com_agua_e_cal_clorada_247ec9.jpg",
+     "consulta": "bacia agua"
+    },
+    {
+     "titulo": "Bacia do Pina - Recife - Pernambuco, Brasil.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Bacia_do_Pina_-_Recife_-_Pernambuco%2C_Brasil.jpg/500px-Bacia_do_Pina_-_Recife_-_Pernambuco%2C_Brasil.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABacia_do_Pina_-_Recife_-_Pernambuco%2C_Brasil.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/semmelweis1847/prints/bacia_com_agua_e_cal_clorada_acebb9.jpg",
+     "consulta": "bacia agua"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "bisturi",
+   "consultas": [
+    "bisturi",
+    "bisturi 1847"
+   ],
+   "achados": [
+    {
+     "titulo": "Impugnatura bisturi a piena mano r.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Impugnatura_bisturi_a_piena_mano_r.jpg/500px-Impugnatura_bisturi_a_piena_mano_r.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AImpugnatura_bisturi_a_piena_mano_r.jpg",
+     "descricao": "Commons Attribution-Share Alike 4.0 truetrue English Italian Impugnatura \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/semmelweis1847/prints/bisturi_9c020b.jpg",
+     "consulta": "bisturi"
+    },
+    {
+     "titulo": "Dia scalpel.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Dia_scalpel.jpg/500px-Dia_scalpel.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ADia_scalpel.jpg",
+     "descricao": "Materialscientist 384×374× (16399 bytes) {{Information |Description = diamond \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/semmelweis1847/prints/bisturi_71b210.jpg",
+     "consulta": "bisturi"
+    },
+    {
+     "titulo": "1990s stainless scalpel 31728 blade size 3 by Swedish company Esselte.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/1990s_stainless_scalpel_31728_blade_size_3_by_Swedish_company_Esselte.jpg/500px-1990s_stainless_scalpel_31728_blade_size_3_by_Swedish_company_Esselte.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3A1990s_stainless_scalpel_31728_blade_size_3_by_Swedish_company_Esselte.jpg",
+     "descricao": "4.0 Creative Commons Attribution 4.0 truetrue English 1990s stainless \\u003Cspan class=\\",
+     "ordem": 6,
+     "print": "referencias/semmelweis1847/prints/bisturi_b505a2.jpg",
+     "consulta": "bisturi"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "leitos de hospital",
+   "consultas": [
+    "leitos de hospital",
+    "leitos de hospital 1847"
+   ],
+   "achados": [
+    {
+     "titulo": "Hospital de campanha da Arena Mané Garrincha tem 173 leitos (49884740591).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Hospital_de_campanha_da_Arena_Man%C3%A9_Garrincha_tem_173_leitos_%2849884740591%29.jpg/500px-Hospital_de_campanha_da_Arena_Man%C3%A9_Garrincha_tem_173_leitos_%2849884740591%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AHospital_de_campanha_da_Arena_Man%C3%A9_Garrincha_tem_173_leitos_%2849884740591%29.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/semmelweis1847/prints/leitos_de_hospital_42ceb9.jpg",
+     "consulta": "leitos de hospital"
+    },
+    {
+     "titulo": "Hospital Mário Dourado Sobrinho, em Irecê, ganha 20 novos leitos de UTI (3968499729).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Hospital_M%C3%A1rio_Dourado_Sobrinho%2C_em_Irec%C3%AA%2C_ganha_20_novos_leitos_de_UTI_%283968499729%29.jpg/500px-Hospital_M%C3%A1rio_Dourado_Sobrinho%2C_em_Irec%C3%AA%2C_ganha_20_novos_leitos_de_UTI_%283968499729%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AHospital_M%C3%A1rio_Dourado_Sobrinho%2C_em_Irec%C3%AA%2C_ganha_20_novos_leitos_de_UTI_%283968499729%29.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/semmelweis1847/prints/leitos_de_hospital_60245c.jpg",
+     "consulta": "leitos de hospital"
+    },
+    {
+     "titulo": "Hospital de campanha da Arena Mané Garrincha tem 173 leitos (49884215033).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Hospital_de_campanha_da_Arena_Man%C3%A9_Garrincha_tem_173_leitos_%2849884215033%29.jpg/500px-Hospital_de_campanha_da_Arena_Man%C3%A9_Garrincha_tem_173_leitos_%2849884215033%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AHospital_de_campanha_da_Arena_Man%C3%A9_Garrincha_tem_173_leitos_%2849884215033%29.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 6,
+     "print": "referencias/semmelweis1847/prints/leitos_de_hospital_ce72ad.jpg",
+     "consulta": "leitos de hospital"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "lapide",
+   "consultas": [
+    "lapide",
+    "lapide 1847"
+   ],
+   "achados": [
+    {
+     "titulo": "Leaning Tombstones.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Leaning_Tombstones.jpg/500px-Leaning_Tombstones.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ALeaning_Tombstones.jpg",
+     "descricao": "DescriptionLeaning \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/semmelweis1847/prints/lapide_58fcb5.jpg",
+     "consulta": "lapide"
+    },
+    {
+     "titulo": "Pinchas Lapide (1967).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Pinchas_Lapide_%281967%29.jpg/500px-Pinchas_Lapide_%281967%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3APinchas_Lapide_%281967%29.jpg",
+     "descricao": "DescriptionPinchas \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/semmelweis1847/prints/lapide_c164b2.jpg",
+     "consulta": "lapide"
+    },
+    {
+     "titulo": "Lapide Giuseppe Mazzini (Rovigo) 02.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Lapide_Giuseppe_Mazzini_%28Rovigo%29_02.jpg/500px-Lapide_Giuseppe_Mazzini_%28Rovigo%29_02.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ALapide_Giuseppe_Mazzini_%28Rovigo%29_02.jpg",
+     "descricao": "Attribution-Share Alike 4.0 truetrue English Italian Rovigo, Via Giuseppe Mazzini: \\u003Cspan class=\\",
+     "ordem": 6,
+     "print": "referencias/semmelweis1847/prints/lapide_55feef.jpg",
+     "consulta": "lapide"
     }
    ]
   },
@@ -153,35 +477,36 @@
    "tipo": "heroi",
    "item": "wash basin",
    "consultas": [
-    "wash basin"
+    "bacia com agua e cal clorada",
+    "O Médico que Mandou Lavar as Mãos"
    ],
    "achados": [
     {
-     "titulo": "Infinity mirror, hand-washing sink and wardrobes in the spa of Amantaka luxury Resort & Hotel in Luang Prabang Laos.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Infinity_mirror%2C_hand-washing_sink_and_wardrobes_in_the_spa_of_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg/500px-Infinity_mirror%2C_hand-washing_sink_and_wardrobes_in_the_spa_of_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AInfinity_mirror%2C_hand-washing_sink_and_wardrobes_in_the_spa_of_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg",
-     "descricao": "Commons Attribution-Share Alike 4.0 truetrue English Infinity mirror, \\u003Cspan class=\\",
+     "titulo": "Bacia do Pina- Recife, Pernambuco, Brasil.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Bacia_do_Pina-_Recife%2C_Pernambuco%2C_Brasil.jpg/500px-Bacia_do_Pina-_Recife%2C_Pernambuco%2C_Brasil.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABacia_do_Pina-_Recife%2C_Pernambuco%2C_Brasil.jpg",
+     "descricao": "rios Tejipió, Pina e Jordão, recebe ainda, \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/semmelweis1847/prints/wash_basin_2fee37.jpg",
+     "consulta": "bacia agua"
+    },
+    {
+     "titulo": "Bacia do Pina Recife, Pernambuco, Brasil.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Bacia_do_Pina_Recife%2C_Pernambuco%2C_Brasil.jpg/500px-Bacia_do_Pina_Recife%2C_Pernambuco%2C_Brasil.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABacia_do_Pina_Recife%2C_Pernambuco%2C_Brasil.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
      "ordem": 2,
-     "print": "referencias/semmelweis1847/prints/wash_basin_640292.jpg",
-     "consulta": "wash basin"
+     "print": "referencias/semmelweis1847/prints/wash_basin_247ec9.jpg",
+     "consulta": "bacia agua"
     },
     {
-     "titulo": "Wash basins, Maximum Security Prison, Robben Island (01).jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Wash_basins%2C_Maximum_Security_Prison%2C_Robben_Island_%2801%29.jpg/500px-Wash_basins%2C_Maximum_Security_Prison%2C_Robben_Island_%2801%29.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AWash_basins%2C_Maximum_Security_Prison%2C_Robben_Island_%2801%29.jpg",
-     "descricao": "https://creativecommons.org/licenses/by-sa/4.0CC BY-SA 4.0 Creative Commons Attribution-Share Alike 4.0 truetrue English \\u003Cspan class=\\",
-     "ordem": 3,
-     "print": "referencias/semmelweis1847/prints/wash_basin_d6c9ec.jpg",
-     "consulta": "wash basin"
-    },
-    {
-     "titulo": "Washbasins of the restrooms in Crowne Plaza Vientiane.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Washbasins_of_the_restrooms_in_Crowne_Plaza_Vientiane.jpg/500px-Washbasins_of_the_restrooms_in_Crowne_Plaza_Vientiane.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AWashbasins_of_the_restrooms_in_Crowne_Plaza_Vientiane.jpg",
-     "descricao": "BY-SA 4.0 Creative Commons Attribution-Share Alike 4.0 truetrue English The \\u003Cspan class=\\",
-     "ordem": 4,
-     "print": "referencias/semmelweis1847/prints/wash_basin_8329e5.jpg",
-     "consulta": "wash basin"
+     "titulo": "Herbert Lake beim Icefields Parkway.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Herbert_Lake_beim_Icefields_Parkway.jpg/500px-Herbert_Lake_beim_Icefields_Parkway.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AHerbert_Lake_beim_Icefields_Parkway.jpg",
+     "descricao": "Parkway (Promenade des Glaciers). Alberta, Canada. Français : Lac Herbert près \\u003Cspan class=\\",
+     "ordem": 11,
+     "print": "referencias/semmelweis1847/prints/wash_basin_62379c.jpg",
+     "consulta": "bacia agua"
     }
    ]
   },
@@ -193,6 +518,15 @@
     "hospital"
    ],
    "achados": [
+    {
+     "titulo": "Catherine Maude Nichols (1847-1923) - Bethel Hospital, Norwich - NWHCM , 1940.75.8 , F - Norfolk Museums Collections.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Catherine_Maude_Nichols_%281847-1923%29_-_Bethel_Hospital%2C_Norwich_-_NWHCM_%2C_1940.75.8_%2C_F_-_Norfolk_Museums_Collections.jpg/500px-Catherine_Maude_Nichols_%281847-1923%29_-_Bethel_Hospital%2C_Norwich_-_NWHCM_%2C_1940.75.8_%2C_F_-_Norfolk_Museums_Collections.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACatherine_Maude_Nichols_%281847-1923%29_-_Bethel_Hospital%2C_Norwich_-_NWHCM_%2C_1940.75.8_%2C_F_-_Norfolk_Museums_Collections.jpg",
+     "descricao": "Catherine Maude Nichols: Bethel \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/semmelweis1847/prints/hospital_da_epoca_160ced.jpg",
+     "consulta": "hospital 1847"
+    },
     {
      "titulo": "Thomas Barker (1769-1847) - Lieutenant General Sir William Cockburn (1769–1835), Bt - RNHRD13 - Royal Mineral Water Hospital.jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Thomas_Barker_%281769-1847%29_-_Lieutenant_General_Sir_William_Cockburn_%281769%E2%80%931835%29%2C_Bt_-_RNHRD13_-_Royal_Mineral_Water_Hospital.jpg/500px-Thomas_Barker_%281769-1847%29_-_Lieutenant_General_Sir_William_Cockburn_%281769%E2%80%931835%29%2C_Bt_-_RNHRD13_-_Royal_Mineral_Water_Hospital.jpg",
@@ -210,34 +544,6 @@
      "ordem": 8,
      "print": "referencias/semmelweis1847/prints/hospital_da_epoca_968d4d.jpg",
      "consulta": "hospital 1847"
-    }
-   ]
-  },
-  {
-   "tipo": "mecanismo",
-   "item": "Anos depois, a ciência provou os micróbios. Hoje, ele é chamado de sal",
-   "consultas": [
-    "ciencia provou microbios chamado salvador",
-    "diagram"
-   ],
-   "achados": [
-    {
-     "titulo": "CMB Timeline300 no WMAP.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/CMB_Timeline300_no_WMAP.jpg/500px-CMB_Timeline300_no_WMAP.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ACMB_Timeline300_no_WMAP.jpg",
-     "descricao": "DescriptionCMB Timeline300 no WMAP.jpg English: Timeline of the universe. A \\u003Cspan class=\\",
-     "ordem": 21,
-     "print": "referencias/semmelweis1847/prints/anos_depois_a_ci_ncia_provou_os_micr_bio_53683d.jpg",
-     "consulta": "diagram"
-    },
-    {
-     "titulo": "Littleboy inner1 info.png",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Littleboy_inner1_info.png/500px-Littleboy_inner1_info.png",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ALittleboy_inner1_info.png",
-     "descricao": "File:Little Boy internal \\u003Cspan class=\\",
-     "ordem": 22,
-     "print": "referencias/semmelweis1847/prints/anos_depois_a_ci_ncia_provou_os_micr_bio_fa1ed7.jpg",
-     "consulta": "diagram"
     }
    ]
   }
