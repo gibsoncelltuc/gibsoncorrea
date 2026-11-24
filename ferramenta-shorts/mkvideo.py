@@ -241,6 +241,7 @@ if REGIAO is None:
     _ano = re.search(r'(?<![0-9])(1[0-9]{3}|20[0-9]{2})(?![0-9])', B.get('title', '') + ' ' + ID)   # 19/11: 'toledo1835' nao casava com \b (cidade de 1835 ganhava predio moderno dos EUA)
     if REGIAO == 'eua' and _ano and int(_ano.group(1)) < 1850: REGIAO = 'colonial'
     if REGIAO in ('europa', None) and _ano and int(_ano.group(1)) < 500 and re.search(r'roma|grec|cesar|gladiad', _rt): REGIAO = 'classico'
+    if REGIAO in ('europa', 'franca', 'holanda', 'russia', 'colonial', 'eua') and _ano and int(_ano.group(1)) < 1500: REGIAO = None   # pendencia da sessao B (balde 1325): predios europeus de 4 andares nao existem na Idade Media; fica o casario do proprio cenario
 _regmap = {}
 if REGIAO in _REG_N and _RURAL and not B.get('regiao'): REGIAO = None   # v13: historia no campo/ilha: sem predio de cidade da regiao (tijolo, caixa d'agua) atras da horta
 if REGIAO in _REG_N:
@@ -1512,7 +1513,7 @@ def build_beat(k, b):
             t_ = _off + 14 + q_ * 17
             acts[i_] = f"Object.assign({acts[i_]}, {{ poses: [[{a} + {t_}, {bb}, 'fall']] }})"
             fx.append(f"{{ k: 'dust', a: {a} + {t_}, b: {a} + {t_ + 20}, at: [X + {num(crowd_pos[min(i_ - _cidx0, len(crowd_pos) - 1)][0])}, DK + 0.1, {num(crowd_pos[min(i_ - _cidx0, len(crowd_pos) - 1)][1] + 0.3)}], s: 0.6 }}")
-        if _cid: PLANO.append((k, f'tiros: {min(5, len(_cid[2::3]))} soldados caem no chao', 'acao'))
+        if _cid and not _semq: PLANO.append((k, f'tiros: {min(5, len(_cid[2::3]))} soldados caem no chao', 'acao'))
     # animacao nas palavras-chave: golpe de camera + efeito no instante da palavra
     kfx = 0
     if b.get('kw') is not False:
@@ -1950,10 +1951,13 @@ for _b in beats:   # DECOLAGEM A RISCA: "decolou/lancado/subiu ao ceu" com fogue
 # v13 EPOCA: troca sozinho o que a propria ferramenta poria fora de epoca (canhao antigo em guerra do seculo XX, castical/caixote em sala moderna)
 _ano_e = ANO or _ANO0
 _ERA_SWAP = (('cannon', 1900, 'kit/canhao_moderno'), ('mk/CandleStick_Stand', 1920, 'mk/Stool'), ('mk/CandleStick_Triple', 1920, 'mk/Vase_2'), ('mk/Crate_Wooden', 1965, 'mk/Crate_Metal'), ('mk/Barrel', 1945, 'mk/Crate_Metal'), ('barrel', 1945, 'mk/Crate_Metal'), ('crate', 1965, 'mk/Crate_Metal'))
+_ERA_ANTES = (('nature/lamppost', 1800, 'tools/lantern'), ('nature/picket_fence', 1700, 'nature/haybale'), ('buildings/house_two', 1600, 'buildings/house_small'), ('buildings/house_blue', 1600, 'buildings/house_small'), ('buildings/shop', 1600, 'buildings/house_small'), ('buildings/apartment', 1850, 'buildings/house_small'))   # objeto MODERNO DEMAIS para a epoca (poste de rua, cerca branca, sobrado) -> versao antiga
 def _era_fix(as_):
     if _ano_e and as_ not in (B.get('epoca_ok') or []):
         for de_, ano_, para_ in _ERA_SWAP:
             if str(as_) == de_ and _ano_e >= ano_: return para_
+        for de_, ano_, para_ in _ERA_ANTES:
+            if str(as_) == de_ and _ano_e < ano_: return para_
     return as_
 for _b in beats:
     for _p in (_b.get('props') or []): _p[0] = _era_fix(_p[0])
@@ -1968,7 +1972,7 @@ for _b in beats:
     if _om: c_['outfits'] = _om; c_.pop('outfit', None)
     else: c_['n'] = 0
 shots = [build_beat(k, b) for k, b in enumerate(beats)]
-if _ano_e: shots = [re.sub(r'asset: "(mk/CandleStick_Stand|mk/CandleStick_Triple|mk/Crate_Wooden|mk/Barrel|cannon|barrel|crate)"', lambda m_: 'asset: ' + json.dumps(_era_fix(m_.group(1))), sh_) for sh_ in shots]
+if _ano_e: shots = [re.sub(r'asset: "(mk/CandleStick_Stand|mk/CandleStick_Triple|mk/Crate_Wooden|mk/Barrel|cannon|barrel|crate|nature/lamppost|nature/picket_fence|buildings/house_two|buildings/house_blue|buildings/shop|buildings/apartment)"', lambda m_: 'asset: ' + json.dumps(_era_fix(m_.group(1))), sh_) for sh_ in shots]
 A_js = ', '.join(['0'] + [f"WS({starts[k]}, -3)" for k in range(1, len(beats))] + ['TOTAL_F()'])
 assets = sorted(set(B.get('assets', []) + re.findall(r'asset: ["\']([^"\']+)["\']', ' '.join(shots)) + [p[0] for b in beats for p in b.get('props', [])] + [x_ for b in beats if b.get('veiculo') for x_ in (['kit/carro_redondo', 'kit/carro_antigo', 'kit/carro_50'] if b['veiculo'].get('asset', 'vehicles/car') in ('vehicles/car', 'kit/carro_redondo') else [b['veiculo'].get('asset')])]))
 

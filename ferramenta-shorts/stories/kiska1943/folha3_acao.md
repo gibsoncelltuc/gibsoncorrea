@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - A Invasão da Ilha Vazia
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 9.4s - 30 palavras - plano two
@@ -26,9 +26,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | bombardearam (18.3s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 2 | - | CENA | tiros: 3 soldados caem no chao | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b3 - 21.1s a 25.4s - 14 palavras - plano orbit
 > "No meio do nevoeiro, os soldados desceram em silêncio, prontos para um combate duro."
@@ -36,8 +35,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | desceram (23.0s) | ACAO: x_desce | desce/pousa + poeira no chao | OK |
-| 2 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
 
 ## Cena b4 - 26.5s a 29.2s - 10 palavras - plano two
 > "Mas teve um problema: os japoneses já tinham ido embora."

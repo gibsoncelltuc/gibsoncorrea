@@ -35,7 +35,6 @@ gibber(F(_A[11] + int((_A[12] - _A[11]) * 0.2)), 4, 260, 0.12); gibber(F(_A[11] 
 thump(F(int(_W(2))))
 thump(F(int(_W(69))))
 hud(F(int(_W(82))))
-hud(F(int(_W(84))))
 hud(F(int(_W(87))))
 hud(F(int(_W(96))))
 sting(F(int(_W(113))))
