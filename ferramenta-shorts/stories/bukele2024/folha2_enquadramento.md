@@ -31,7 +31,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: sala de madeira; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e scroll juntos (camera a 11.5 m)
 - PERSONAGENS: JUI na esquerda, expressao stern, segura paper; REP (jornalista) na direita, expressao suspicious; sem multidao; acao: discutir
-- OBJETO kit/scroll: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/scroll: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
 ## b4: "Críticos e opositores disseram que a candidatura era ilegal. O governo defendeu a decisão."
 - LOCAL: loc_patio; hora: golden
@@ -45,7 +45,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: loc_campo; hora: golden
 - CAMERA: plano de multidao; plano medio enquadrando personagens e ballot_box juntos (camera a 11.5 m)
 - PERSONAGENS: POV na esquerda, expressao grin; POV na direita, expressao smile; multidao de 12 (POV) ATRAS dos principais; acao: entregar
-- OBJETO kit/ballot_box: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/ballot_box: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
 ## b6: "Acontece que o resultado impressionou: Bukele teve quase oitenta e cinco por cento dos votos."
 - LOCAL: loc_cidade; hora: golden

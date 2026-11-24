@@ -114,10 +114,6 @@
     ]
    ],
    "text": "TESLA FALIU?",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "revelacao (camera sobe e abre); plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
@@ -129,7 +125,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "two",
