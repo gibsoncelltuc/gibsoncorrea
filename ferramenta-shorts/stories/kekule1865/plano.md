@@ -6,7 +6,7 @@ b0 | two | -  | placa: 1865 | (rosto) pleading (expr + som de efeito); encena: p
 b1 | reveal | -  | batalha aberta com tiros, tropa, mapa | - | -
 b2 | two | -  | interior, objeto na mao | - | -
 b3 | close | noite  | interior | encena: dorme @11 (acao + som de efeito) | -
-b4 | two | noite  | interior | encena: danca @4 (acao + som de efeito) | -
+b4 | two | noite  | tropa | - | -
 b5 | low | noite  | interior | encena: x_acorda (up) @1 (acao + som de efeito); encena: pula @3 (acao + som de efeito) | -
 b6 | two | noite  | interior, objeto na mao | encena: escreve (write) @5 (acao + som de efeito); encena: x_abre (push) @14 (acao + som de efeito) | -
 b7 | group | -  | interior, placa: FESTA | (rosto) laugh (expr + som de efeito); festa (stars + som de sino); encena: vence (up) @6 (acao + som de efeito); encena: fala (point) @10 (acao + som de efeito) | -

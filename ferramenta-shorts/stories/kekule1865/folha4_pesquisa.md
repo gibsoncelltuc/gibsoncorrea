@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1865 | Lugar: Gante (Belgica): gabinete de professor com lareira, livros e vidraria de laboratorio; Berlim: salao de festa da Sociedade Alema de Quimica | Quando: 1865 (a descoberta, numa noite fria); 1890 (a Benzolfest em Berlim, quando ele contou o sonho)
 - HEROIS (objeto): kit/snake_ring
 - HEROIS (personagens): KEK, COL
-- Cenarios: interior madeira, interior pedra, street
+- Cenarios: interior madeira, interior pedra, loc_estudio, street
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
@@ -28,9 +28,10 @@ objeto | poltrona | poltrona / poltrona 1865 | Poltrona (1-05-02-000-05865-00-00
 objeto | papel com desenhos de moleculas | papel com desenhos de moleculas / papel com desenhos de moleculas 1865 | Lapis e Papel 213050.jpg (referencias/kekule1865/prints/papel_com_desenhos_de_moleculas_9b63eb.jpg); Théodore Fort - Cena de batalha com Hussardos fran (referencias/kekule1865/prints/papel_com_desenhos_de_moleculas_944df3.jpg); Abertura da Exposição “Holocausto – Qual teria sid (referencias/kekule1865/prints/papel_com_desenhos_de_moleculas_e58a99.jpg)
 objeto | frascos de quimica | frascos de quimica / frascos de quimica 1865 | Conjunto de frascos de reactivos químicos - (M.A.B (referencias/kekule1865/prints/frascos_de_quimica_55ee48.jpg); Cistac-Tristan-1865-06-28-prodigios-de-la-quimica. (referencias/kekule1865/prints/frascos_de_quimica_f0b0d2.jpg); Cistac-Tristan-1865-07-21-prodigios-de-la-quimica. (referencias/kekule1865/prints/frascos_de_quimica_8d9195.jpg)
 heroi | snake ring | anel do benzeno / O Químico que Sonhou com uma Cobra | AnelAIM.jpg (referencias/kekule1865/prints/snake_ring_a059a0.jpg); AnelAIM.jpg (referencias/kekule1865/prints/snake_ring_a059a0.jpg)
+mecanismo | No sonho, os átomos dançavam como cobras. Até que uma delas mordeu o p | sonho atomos dancavam cobras mordeu proprio / snake ring diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
-- -
+- Anel do benzeno: seis atomos de carbono ligados em anel fechado (hexagono), proposto por August Kekule em 1865 (Bulletin de la Societe Chimique de Paris); o sonho da cobra mordendo o rabo foi contado por ele em 1890, no Benzolfest de Berlim
 
 ## Fontes visuais do roteirista
 - https://en.wikipedia.org/wiki/August_Kekul%C3%A9

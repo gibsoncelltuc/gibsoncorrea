@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: No sonho, os átomos dançavam como cobras. Até que uma delas mordeu o próprio rabo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, sting@50
-- Efeito + som nas palavras-chave: encena: danca @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20, ring@50
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

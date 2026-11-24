@@ -43,12 +43,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - No sonho, os átomos dançavam como cobras. Até que uma delas mordeu o p...
-- Cenario: interior madeira | luz: noite | clima: limpo
+- Cenario: loc_estudio | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (1): KEK (variante 0, expressao surprised)
-- Animacao: conversar
-- Objetos/modelos: kit/snake_ring, mk/Chair_1
+- Personagens principais (0): - | multidao: 0 de 
+- Animacao: -
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): atomos, proprio, sonho
 - RISCOS: nenhum
 
@@ -117,12 +117,12 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/snake_ring | b0, b2, b4, b5, b6, b7, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/snake_ring | b0, b2, b5, b6, b7, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_viena | b0, b1, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/fireplace | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-mk/Chair_1 | b3, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+mk/Chair_1 | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
