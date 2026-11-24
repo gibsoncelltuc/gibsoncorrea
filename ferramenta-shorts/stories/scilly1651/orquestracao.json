@@ -11,11 +11,6 @@
    "cena 7",
    "countryside",
    "loc_campo"
-  ],
-  [
-   "cena 8",
-   "countryside",
-   "loc_campo"
   ]
  ],
  "metricas": {
@@ -64,8 +59,7 @@
   {
    "camera": "crowd",
    "personagens": [
-    "ILH",
-    "HOL"
+    "ILH"
    ],
    "multidao": 18,
    "objetos": [
@@ -110,7 +104,6 @@
   {
    "camera": "orbit",
    "personagens": [
-    "MAR",
     "MAR"
    ],
    "multidao": 20,
@@ -167,10 +160,10 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
-    "EMB",
-    "PRE"
+    "PRE",
+    "EMB"
    ],
    "multidao": 0,
    "objetos": [],
@@ -181,7 +174,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "interior madeira"
   },
   {
    "camera": "two",
@@ -235,7 +228,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "harbor"
   },
   {
    "camera": "close",
@@ -251,7 +244,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "harbor"
   }
  ]
 }

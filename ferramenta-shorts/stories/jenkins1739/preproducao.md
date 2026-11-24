@@ -13,12 +13,12 @@ b5 | interior pedra | two | 2 | discutir, INTERAGEM: cochichar | - | - | -
 b6 | harbor | wide | 21 | batalha | ship, navios de guerra ao fundo, no tamanho real | - | -
 b7 | palace | two | 2 | conversar, INTERAGEM: apertar | - | paper | -
 b8 | loc_campo | two | 2 | conversar, INTERAGEM: entregar | kit/ear_jar | book | -
-b9 | loc_campo | close | 1 | conversar | kit/ear_jar | - | -
-b10 | loc_campo | two | 1 | conversar | - | - | -
+b9 | loc_campo | group | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/ear_jar | - | -
+b10 | loc_campo | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/ear_jar
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b2, b6
-Interacoes entre personagens: b0 discutir, b2 empurrar, b3 cochichar, b4 susto, b5 cochichar, b7 apertar, b8 entregar
+Interacoes entre personagens: b0 discutir, b2 empurrar, b3 cochichar, b4 susto, b5 cochichar, b7 apertar, b8 entregar, b9 avanca e o outro recua
 
 Cenas com personagens parados: 0 de 11
 FALTA MODELAR: nada

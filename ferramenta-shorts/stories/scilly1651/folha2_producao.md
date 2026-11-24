@@ -26,7 +26,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): ILH (variante 0, expressao grin); HOL (variante 0, expressao angry) | multidao: 18 de ILH/MAR
+- Personagens principais (1): ILH (variante 0, expressao grin) | multidao: 18 de ILH/MAR
 - Animacao: - | batalha encenada
 - Objetos/modelos: ship, navios de guerra ao fundo, no tamanho real
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): holanda, ilhas
@@ -46,7 +46,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): MAR (variante 0, expressao angry); MAR (variante 1, expressao shout) | multidao: 20 de MAR
+- Personagens principais (1): MAR (variante 0, expressao angry) | multidao: 20 de MAR
 - Animacao: encena | batalha encenada
 - Objetos/modelos: ship
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): almirante, ilhas
@@ -73,11 +73,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Em mil novecentos e oitenta e cinco, um historiador perguntou se a gue...
-- Cenario: loc_campo | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Cenario: interior madeira | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (2): EMB (variante 0, expressao smile); PRE (variante 0, expressao nervous)
-- Animacao: conversar | interacao: reverencia
+- Personagens principais (2): PRE (variante 0, expressao surprised, segura book); EMB (variante 0, expressao smile)
+- Animacao: conversar | interacao: vai ate o outro
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): historiador
 - RISCOS: nenhum
@@ -87,7 +87,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): EMB (variante 0, expressao smile); PRE (variante 0, expressao nervous)
-- Animacao: conversar | interacao: vai ate o outro
+- Animacao: conversar | interacao: cochichar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): embaixador, ilhas
 - RISCOS: nenhum
@@ -103,7 +103,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b10 - A guerra mais longa e mais calma da história.
-- Cenario: street | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): ILH (variante 0, expressao smile)
@@ -113,7 +113,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: street | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): ILH (variante 0, expressao grin)
@@ -133,12 +133,12 @@ ship | b2, b3, b4 | pronto | conferir na folha de contato se le bem; se parecer 
 
 ## Video inteiro
 - Objeto heroi: kit/scroll | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 11% | medio 81% | aberto 5% | detalhe 4%
-- Interacoes: b0 discutir, b1 susto, b3 avanca e o outro recua, b5 o outro se aproxima, b6 pular, b7 reverencia, b8 vai ate o outro, b9 apertar
+- Interacoes: b0 discutir, b1 susto, b3 avanca e o outro recua, b5 o outro se aproxima, b6 pular, b7 vai ate o outro, b8 cochichar, b9 apertar
 - RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py scilly1651  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/scilly1651/moodboard.jpg
+  - pouca variedade de cenario ({'harbor': 8, 'loc_campo': 2, 'interior madeira': 1, 'interior pedra': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street, loc_pista, loc_patio, loc_deserto, loc_campo, loc_montanha, loc_cidade, loc_estudio | interior: madeira, pedra, loja)
 
 ## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+- geral: pouca variedade de cenario ({'harbor': 8, 'loc_campo': 2, 'interior madeira': 1, 'interior pedra': 1}): o video fica parecendo todos os outros
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh scilly1651 bN bM` (so essas cenas).
