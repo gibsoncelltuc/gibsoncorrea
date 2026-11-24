@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 26 - O Presidente dos 85 por Cento
 
-Gerado em 24/11 23:18 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:20 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -13,10 +13,10 @@ b3 | simples | interior madeira | two | JUI, REP | - | scroll | - | A Constitui�
 b4 | simples | loc_patio | two | REP, POV | - | - | - | Críticos e opositores disseram que a candidatura era ilegal. O governo
 b5 | simples | loc_campo | wide | POV, POV | 12 | ballot_box, volcano | - | No dia da eleição, os salvadorenhos foram às urnas.
 b6 | simples | loc_cidade | two | REP, BUK | - | - | - | Acontece que o resultado impressionou: Bukele teve quase oitenta e cin
-b7 | chave | loc_cidade | orbit | BUK | 16 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os apoiadores lotaram as ruas, e ele comemorou numa sacada.
+b7 | chave | loc_cidade | orbit | BUK | 12 | porch | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os apoiadores lotaram as ruas, e ele comemorou numa sacada.
 b8 | simples | interior galpao | two | REP, BUK | - | - | - | O motivo: os assassinatos caíram de cento e seis para dois vírgula qua
-b9 | simples | loc_pista | wide | REP | - | prison, volcano | - | Organizações de direitos humanos, porém, criticaram as prisões em mass
-b10 | simples | loc_pista | two | BUK | - | ballot_box, globe | - | Amado por muitos e criticado por outros, ele virou um dos presidentes 
+b9 | simples | loc_pista | group | REP, REP, POV | - | prison | - | Organizações de direitos humanos, porém, criticaram as prisões em mass
+b10 | simples | loc_pista | orbit | BUK | 6 | ballot_box, globe | - | Amado por muitos e criticado por outros, ele virou um dos presidentes 
 b11 | simples | loc_campo | close | BUK | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

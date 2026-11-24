@@ -155,8 +155,10 @@
    "personagens": [
     "BUK"
    ],
-   "multidao": 16,
-   "objetos": [],
+   "multidao": 12,
+   "objetos": [
+    "kit/porch"
+   ],
    "palavras": 10,
    "cena": "b7",
    "frase": "Os apoiadores lotaram as ruas, e ele comemorou numa sacada.",
@@ -190,14 +192,15 @@
    "cenario": "interior galpao"
   },
   {
-   "camera": "wide",
+   "camera": "group",
    "personagens": [
-    "REP"
+    "REP",
+    "REP",
+    "POV"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/prison",
-    "kit/volcano"
+    "kit/prison"
    ],
    "palavras": 15,
    "cena": "b9",
@@ -209,11 +212,11 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "two",
+   "camera": "orbit",
    "personagens": [
     "BUK"
    ],
-   "multidao": 0,
+   "multidao": 6,
    "objetos": [
     "kit/ballot_box",
     "kit/globe"
