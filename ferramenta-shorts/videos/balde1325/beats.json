@@ -48,7 +48,7 @@
  "titulo_base": "A Guerra do Balde",
  "beats": [
   {
-   "shot": "two",
+   "shot": "prop",
    "who": [
     "MOD:0:grin",
     "BOL:0:shock"
@@ -57,12 +57,12 @@
    "props": [
     [
      "kit/balde_madeira",
-     1.5,
-     1.3,
-     2.4
+     0.0,
+     -0.8,
+     2.6
     ]
    ],
-   "fachada": false
+   "shot_lock": true
   },
   {
    "shot": "two",
@@ -73,8 +73,7 @@
    "mapa": "ITÁLIA",
    "mapa_at": 6,
    "say": "Módena e Bolonha disputavam a fronteira havia décadas: Módena tinha o imperador como patrono, Bolonha tinha o papa.",
-   "tiros": false,
-   "fachada": false
+   "tiros": false
   },
   {
    "shot": "reveal",
@@ -93,8 +92,7 @@
    "titulo": true,
    "tiros": false,
    "say": "Em mil trezentos e vinte e cinco, Bolonha juntou cerca de trinta mil soldados a pé e marchou contra o território de Módena.",
-   "set": "loc_campo",
-   "fachada": false
+   "set": "loc_campo"
   },
   {
    "shot": "two",
@@ -112,8 +110,7 @@
     "poucos": true
    },
    "say": "Módena tinha menos de oito mil homens, entre cavaleiros e soldados a pé, e parecia perdida.",
-   "set": "loc_campo",
-   "fachada": false
+   "set": "loc_campo"
   },
   {
    "shot": "crowd",
@@ -136,8 +133,7 @@
     "corre"
    ],
    "say": "Mas, ao pôr do sol de quinze de novembro, os modeneses atacaram, e o exército gigante de Bolonha fugiu em poucas horas.",
-   "set": "loc_campo",
-   "fachada": false
+   "set": "loc_campo"
   },
   {
    "shot": "two",
@@ -155,8 +151,7 @@
    },
    "batalha": false,
    "say": "Morreram cerca de duas mil pessoas, e os modeneses chegaram aos muros de Bolonha.",
-   "set": "loc_campo",
-   "fachada": false
+   "set": "loc_campo"
   },
   {
    "shot": "two",
@@ -175,8 +170,7 @@
    },
    "batalha": false,
    "say": "Em vez de invadir, fizeram uma festa lá fora para zombar dos derrotados.",
-   "set": "loc_campo",
-   "fachada": false
+   "set": "loc_campo"
   },
   {
    "shot": "two",
