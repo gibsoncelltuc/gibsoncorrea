@@ -144,7 +144,7 @@
     "MEN",
     "FRE"
    ],
-   "multidao": 10,
+   "multidao": 0,
    "objetos": [
     "kit/pea_green",
     "kit/pea_yellow"
@@ -202,9 +202,10 @@
    "camera": "group",
    "personagens": [
     "CIE",
+    "CIE",
     "CIE"
    ],
-   "multidao": 14,
+   "multidao": 0,
    "objetos": [
     "kit/pea_green",
     "kit/pea_yellow"

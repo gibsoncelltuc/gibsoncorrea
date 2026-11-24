@@ -54,15 +54,6 @@
      {
       "fixo": true
      }
-    ],
-    [
-     "kit/tv",
-     0.0,
-     -0.8,
-     0.9,
-     {
-      "fixo": true
-     }
     ]
    ],
    "text": "US$ 1,5 BILHÃO",
@@ -92,7 +83,8 @@
    "d0": 12.1,
    "d1": 11.5,
    "_susp_tela": true,
-   "_susp_ok": true
+   "_susp_ok": true,
+   "tela": false
   },
   {
    "shot": "two",
@@ -332,7 +324,7 @@
      }
     ],
     [
-     "kit/phone",
+     "kit/tv",
      0.0,
      -0.8,
      0.9,

@@ -134,8 +134,7 @@
   },
   {
    "say": "Acontece que ele testou milho de pipoca, e os grãos começaram a estourar pela sala.",
-   "shot": "orbit",
-   "set": "hall",
+   "shot": "two",
    "who": [
     "SPE:0:laugh",
     "ENG:0:shock"
@@ -143,13 +142,7 @@
    "impact": true,
    "tiros": false,
    "crowd": {
-    "n": 10,
-    "outfits": [
-     "ENG",
-     "COL"
-    ],
-    "march": false,
-    "expr": "shock"
+    "n": 0
    },
    "fx": [
     "stars@40",
@@ -158,6 +151,18 @@
    "sfx": [
     "sting@40",
     "thump@60"
+   ],
+   "interior": "madeira",
+   "props": [
+    [
+     "kit/popcorn",
+     0.0,
+     -0.8,
+     1.2,
+     {
+      "fixo": true
+     }
+    ]
    ]
   },
   {
@@ -175,7 +180,18 @@
    "sfx": [
     "squeal@50"
    ],
-   "impact": true
+   "impact": true,
+   "props": [
+    [
+     "kit/egg",
+     0.0,
+     -0.8,
+     1.2,
+     {
+      "fixo": true
+     }
+    ]
+   ]
   },
   {
    "say": "Dois anos depois, saiu o primeiro forno, mais alto que uma pessoa e com mais de trezentos quilos.",
@@ -215,23 +231,15 @@
   },
   {
    "say": "Hoje ele cabe em qualquer cozinha, e esquenta a sobra do jantar em um minuto.",
-   "shot": "crowd",
-   "set": "hall",
+   "shot": "two",
    "who": [
-    "POV:0:laugh",
+    "POV:0:smile",
     "POV:1:grin"
    ],
    "impact": true,
    "tiros": false,
    "crowd": {
-    "n": 14,
-    "outfits": [
-     "POV",
-     "ENG",
-     "COL"
-    ],
-    "march": false,
-    "expr": "laugh"
+    "n": 0
    },
    "text": "1 MINUTO",
    "fx": [
@@ -242,7 +250,19 @@
     "ding@30",
     "sting@70"
    ],
-   "acao": "comemorar"
+   "acao": "comemorar",
+   "interior": "madeira",
+   "props": [
+    [
+     "kit/microwave",
+     0.0,
+     -1.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ]
   },
   {
    "say": "No fim, o chocolate perdeu, mas a pipoca agradece.",

@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 01 - Newton e a Maçã
 
-Gerado em 24/11 23:02 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:06 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -10,7 +10,7 @@ b0 | simples | interior hospital | two | NEW, AMI | - | apple | - | Uma única m
 b1 | simples | countryside | reveal | LAV, LAV | 8 | - | - | Era mil seiscentos e sessenta e seis, e a peste fechou a universidade 
 b2 | simples | interior madeira | two | NEW, MAE | - | picket_fence | - | Um rapaz de vinte e três anos, Isaac Newton, voltou para a fazenda da 
 b3 | simples | street | two | NEW, AMI | - | apple, tree_oak | - | Ele passava os dias debaixo de uma macieira, pensando em como as coisa
-b4 | chave | countryside | orbit | NEW, AMI | 10 | apple, tree_oak | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, numa tarde, uma maçã se soltou do galho e caiu bem na fr
+b4 | chave | countryside | orbit | NEW, AMI | - | apple, tree_oak | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, numa tarde, uma maçã se soltou do galho e caiu bem na fr
 b5 | simples | interior pedra | close | NEW | - | - | - | Ela não caiu na cabeça dele, isso é lenda. Ele só se perguntou por que
 b6 | simples | loc_campo | two | NEW, MAE | - | apple | - | Se a força puxa a maçã lá do galho, será que ela também puxa a Lua, lá
 b7 | chave | street | group | NEW, AMI | 14 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A resposta virou a lei da gravidade, publicada em mil seiscentos e oit

@@ -58,7 +58,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | perguntou (28.1s) | ACAO: fala | aponta explicando | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b6 - 30.7s a 35.9s - 15 palavras - plano orbit
+## Cena b6 - 30.7s a 35.9s - 15 palavras - plano two
 > "Acontece que ele testou milho de pipoca, e os grãos começaram a estourar pela sala."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -66,7 +66,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | testou (31.9s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
 | 2 | estourar (35.2s) | ACAO: quebra | quebra + estouro + tremor | OK |
 | 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 4 | - | ATUACAO | reagir | OK |
+| 4 | - | INTERACAO | discutir | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 36.3s a 41.1s - 14 palavras - plano two
 > "Depois testou um ovo, e o ovo explodiu bem na cara de um colega."
@@ -77,20 +78,19 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | explodiu (38.9s) | EFEITO: burst | estouro/clarao + som | OK |
 | 3 | explodiu (38.9s) | ACAO: desaba | desaba: nuvem de poeira + tremor | OK |
 | 4 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 5 | - | INTERACAO | discutir | OK |
+| 5 | - | INTERACAO | cochichar | OK |
 | 6 | - | ATUACAO | conversar | OK |
 
-## Cena b8 - 41.5s a 47.8s - 18 palavras - plano group
+## Cena b8 - 41.5s a 47.8s - 18 palavras - plano orbit
 > "Dois anos depois, saiu o primeiro forno, mais alto que uma pessoa e com mais de trezentos quilos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | saiu (42.6s) | ACAO: sai | sai andando pela lateral | OK |
 | 2 | forno (43.7s) | ACAO: calor | vapor/calor saindo | OK |
-| 3 | - | INTERACAO | aproxima-se | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 3 | - | ATUACAO | reagir | OK |
 
-## Cena b9 - 48.1s a 53.3s - 15 palavras - plano group
+## Cena b9 - 48.1s a 53.3s - 15 palavras - plano two
 > "Hoje ele cabe em qualquer cozinha, e esquenta a sobra do jantar em um minuto."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

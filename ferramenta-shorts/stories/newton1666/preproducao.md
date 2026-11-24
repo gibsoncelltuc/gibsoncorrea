@@ -8,7 +8,7 @@ b0 | interior hospital | two | 2 | conversar, INTERAGEM: insiste | kit/apple | b
 b1 | countryside | reveal | 10 | reagir | - | - | -
 b2 | interior madeira | two | 2 | conversar, INTERAGEM: vai ate o outro, alguem chega andando | nature/picket_fence | - | -
 b3 | street | two | 2 | conversar, INTERAGEM: aproxima-se | nature/tree_oak, kit/apple | book | -
-b4 | countryside | orbit | 12 | reagir, batalha | nature/tree_oak, kit/apple | - | -
+b4 | countryside | orbit | 2 | reagir, batalha | nature/tree_oak, kit/apple | - | -
 b5 | interior pedra | close | 1 | conversar | - | - | -
 b6 | loc_campo | two | 2 | reagir, INTERAGEM: susto | kit/apple | paper | -
 b7 | street | group | 16 | comemorar, INTERAGEM: pular, batalha | - | - | -

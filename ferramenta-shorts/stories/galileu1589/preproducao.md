@@ -11,7 +11,7 @@ b3 | interior pedra | group | 3 | conversar, INTERAGEM: aproxima-se | kit/ball |
 b4 | loc_campo | wide | 1 | parados (so fala e pisca) | kit/pisa_tower, kit/ball, war/cannonballs, kit/marco_pisa | - | -
 b5 | loc_campo | wide | 1 | reagir, batalha | kit/pisa_tower, kit/ball, war/cannonballs, kit/marco_pisa | - | -
 b6 | interior madeira | two | 2 | discutir, INTERAGEM: cochichar | - | book | -
-b7 | arctic | crowd | 10 | comemorar, batalha | tools/hammer, kit/feather | - | -
+b7 | arctic | two | 1 | comemorar, batalha | tools/hammer, kit/feather | - | -
 b8 | interior loja | close | 1 | conversar | - | - | -
 b9 | street | close | 1 | conversar | - | - | -
 

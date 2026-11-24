@@ -10,7 +10,7 @@ b2 | loc_montanha | two | 1 | conversar | kit/burr, dog | - | -
 b3 | interior madeira | two | 1 | conversar | kit/microscopio, kit/burr | - | -
 b4 | interior madeira | close | 1 | reagir | kit/burr | - | -
 b5 | interior madeira | low | 1 | conversar | kit/burr | - | -
-b6 | street | wide | 16 | discutir, batalha | - | - | -
+b6 | street | wide | 2 | discutir, batalha | - | - | -
 b7 | interior madeira | two | 2 | conversar, INTERAGEM: entregar | kit/burr | - | -
 b8 | arctic | crowd | 13 | batalha | kit/burr, kit/rocket, kit/moon | - | -
 b9 | loc_campo | two | 1 | conversar | kit/burr, dog | - | -

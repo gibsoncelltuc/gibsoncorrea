@@ -277,10 +277,7 @@
     "JOR:0:shock"
    ],
    "crowd": {
-    "n": 10,
-    "outfits": [
-     "POV"
-    ]
+    "n": 0
    },
    "fx": [
     "burst@40"

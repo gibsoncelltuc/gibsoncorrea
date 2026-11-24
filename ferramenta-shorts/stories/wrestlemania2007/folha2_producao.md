@@ -44,10 +44,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - Mais de oitenta mil pessoas lotaram o estádio, para ver a Batalha dos ...
 - Cenario: stadium | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (3): POV (variante 0, expressao laugh); POV (variante 1, expressao shout); POV (variante 2, expressao grin) | multidao: 30 de POV
-- Animacao: comemorar | batalha encenada
+- Animacao: comemorar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/ball
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): batalha, bilionarios, estadio, oitenta
 - RISCOS: nenhum
@@ -56,7 +56,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: stadium | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): LAS (variante 0, expressao angry) | multidao: 0 de 
+- Personagens principais (2): LAS (variante 0, expressao angry); UMA (variante 0, expressao angry) | multidao: 0 de 
 - Animacao: encena
 - Objetos/modelos: kit/ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gigante, lutador, mcmahon, ringue, trump
@@ -64,40 +64,40 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Acontece que o juiz convidado era Steve Austin, e a luta virou bagunça...
 - Cenario: stadium | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): JUI (variante 0, expressao smug) | multidao: 0 de 
-- Animacao: conversar
+- Animacao: encena
 - Objetos/modelos: kit/ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): juiz, luta
 - RISCOS: nenhum
 
 ## Cena b7 - No fim, o lutador de Trump venceu. O estádio inteiro foi abaixo.
 - Cenario: stadium | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (1): LAS (variante 0, expressao laugh) | multidao: 0 de 
-- Animacao: comemorar | batalha encenada
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): LAS (variante 0, expressao laugh) | multidao: 18 de POV
+- Animacao: comemorar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/ring, kit/ball
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estadio, lutador, trump
 - RISCOS: nenhum
 
 ## Cena b8 - Trump e Lashley seguraram McMahon e rasparam a cabeça dele até ficar c...
 - Cenario: stadium | luz: day | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): TRU (variante 0, expressao laugh) | multidao: 0 de 
-- Animacao: encena
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Personagens principais (3): TRU (variante 0, expressao laugh); LAS (variante 0, expressao grin); VIB (variante 0, expressao shock) | multidao: 0 de 
+- Animacao: conversar | interacao: discutir
 - Objetos/modelos: kit/ring, kit/clipper
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabeca
 - RISCOS: nenhum
 
 ## Cena b9 - E sobrou para Trump: o juiz derrubou ele também.
 - Cenario: stadium | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (1): JUI (variante 0, expressao smug) | multidao: 0 de 
-- Animacao: conversar
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): JUI (variante 0, expressao angry); TRU (variante 0, expressao shock) | multidao: 0 de 
+- Animacao: reagir
 - Objetos/modelos: kit/ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): juiz
 - RISCOS: nenhum
@@ -134,8 +134,8 @@ kit/ring | b5, b6, b7, b8, b9 | pronto | conferir na folha de contato se le bem;
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b4, b7 | planos abertos: 5 | mistura: close 11% | medio 60% | aberto 29% | detalhe 0%
-- Interacoes: b0 susto, b2 discutir, b3 cochichar, b10 pular
+- Objeto heroi: - | grandes momentos: b4, b7 | planos abertos: 6 | mistura: close 11% | medio 55% | aberto 35% | detalhe 0%
+- Interacoes: b0 susto, b2 discutir, b3 cochichar, b8 discutir, b10 pular
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py wrestlemania2007  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/wrestlemania2007/moodboard.jpg
 

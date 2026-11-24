@@ -66,7 +66,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_campo | luz: desert | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): ERA (variante 0, expressao shock); BIB (variante 0, expressao surprised) | multidao: 10 de BIB/POV/CAM
+- Personagens principais (2): ERA (variante 0, expressao shock); BIB (variante 0, expressao surprised) | multidao: 0 de 
 - Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/globe, kit/stick, nature/tree_palm, kit/marco_alexandria
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): sombra, terra

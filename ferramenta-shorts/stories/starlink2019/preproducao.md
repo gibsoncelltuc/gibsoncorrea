@@ -9,7 +9,7 @@ b1 | loc_pista | reveal | 7 | parados (so fala e pisca) | kit/falcon_air, kit/st
 b2 | countryside | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/starlink_sat | - | -
 b3 | countryside | wide | 1 | reagir, batalha | kit/starlink_train, nature/picket_fence | - | -
 b4 | loc_montanha | wide | 1 | encena | kit/starlink_train | - | -
-b5 | loc_cidade | crowd | 11 | reagir, batalha | kit/phone | - | -
+b5 | loc_cidade | crowd | 1 | reagir, batalha | kit/phone | - | -
 b6 | interior loja | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/starlink_sat | - | -
 b7 | loc_cidade | two | 0 | parados (so fala e pisca) | kit/falcon_air | - | -
 b8 | loc_cidade | reveal | 11 | reagir | kit/phone | - | -

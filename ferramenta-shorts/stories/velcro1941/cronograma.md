@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 16 - O Cachorro que Inventou o Velcro
 
-Gerado em 24/11 23:02 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:06 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -12,7 +12,7 @@ b2 | simples | loc_montanha | two | MES | - | burr | - | O pelo do cachorro e a 
 b3 | simples | interior madeira | two | MES | - | burr, microscopio | - | Curioso, ele levou um carrapicho para casa e olhou no microscópio.
 b4 | simples | interior madeira | close | MES | - | burr | - | Acontece que cada espinho tinha um ganchinho na ponta, que agarrava na
 b5 | simples | interior madeira | low | MES | - | burr | - | Ele pensou: e se uma fita tiver ganchinhos, e a outra, voltinhas?
-b6 | chave | street | wide | TEC, MES | 14 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os tecelões riram da ideia. Levou quase dez anos de tentativas até ace
+b6 | chave | street | wide | TEC, MES | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os tecelões riram da ideia. Levou quase dez anos de tentativas até ace
 b7 | simples | interior madeira | two | MES, TEC | - | burr | - | O segredo foi o náilon. E o nome juntou velours, veludo, e crochet, ga
 b8 | chave | arctic | crowd | AST | 12 | burr, moon, rocket | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Até que astronautas passaram a usar velcro no espaço, e o mundo inteir
 b9 | simples | loc_campo | two | MES | - | burr | - | Hoje ele está em tênis, mochilas e roupas. Graças a um cachorro cheio 

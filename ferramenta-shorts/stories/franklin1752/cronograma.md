@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 07 - Franklin, a Pipa e o Raio
 
-Gerado em 24/11 23:02 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:06 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -12,7 +12,7 @@ b2 | simples | interior madeira | group | COM, POV, FIL | - | - | - | Na época,
 b3 | simples | interior madeira | two | COM, FRA | - | - | - | Franklin discordava: para ele, o raio era só uma faísca elétrica gigan
 b4 | simples | countryside | two | FRA, FIL | - | key, kite | - | Contam que, numa tarde de chuva, ele prendeu uma chave de metal na lin
 b5 | simples | countryside | close | FRA | - | key, kite | - | O plano era simples e perigoso: se a pipa pegasse eletricidade, a chav
-b6 | chave | countryside | orbit | FRA, FIL | 8 | key, kite | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, quando a nuvem passou, a linha eriçou, e uma faísca pulo
+b6 | chave | countryside | orbit | FRA, FIL | - | key, kite | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, quando a nuvem passou, a linha eriçou, e uma faísca pulo
 b7 | simples | interior madeira | two | COM, FRA | - | kite | - | Hoje se discute se isso aconteceu mesmo. E se um raio tivesse caído na
 b8 | chave | street | group | FRA | - | house_small, lightning_rod, picket_fence, tree_oak | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Franklin então inventou o para-raios, e hoje ele protege casas e prédi
 b9 | simples | interior loja | close | FRA | - | key | - | No fim, o raio perdeu a briga para uma chave.

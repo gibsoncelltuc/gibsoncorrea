@@ -7,7 +7,7 @@
 - Roupas: {'SPE': 'terno cinza e gravata dos anos 1940', 'ENG': 'jaleco branco', 'COL': 'camisa social e suspensorio', 'POV': 'roupas de 2020'}
 - Cenario real: laboratorio industrial dos anos 1940 com bancadas, valvulas e equipamentos de radar; cozinha moderna no fim
 - Objetos: ['magnetron', 'barra de chocolate', 'milho de pipoca', 'ovo', 'Radarange (primeiro micro-ondas, 1,8 m)', 'forno de micro-ondas moderno']
-- Cenarios usados no video: hall, interior loja, interior madeira, interior pedra, loc_campo, street
+- Cenarios usados no video: interior loja, interior madeira, interior pedra, loc_campo, street
 - PROIBIDO pela epoca (a ferramenta bloqueia): canhao antigo, caravela, carro antigo, carroca, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra
 - Proibido pelo roteiro: -
 

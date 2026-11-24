@@ -49,6 +49,8 @@ def figurado(say):
         if re.match(MISTURA, w) and any(re.match(PAPEL, nw[k]) for k in range(j + 1, min(len(nw), j + 4))): out.add(j)   # "misturou as etiquetas"
     _vb = [j for j, w in enumerate(nw) if re.match(r'^(atir|dispar|explod|bombarde|metralh(ou|aram|ava))', w)]
     if _vb and all(j in out for j in _vb): out.update(j for j, w in enumerate(nw) if re.match(ARMA, w))   # 'ninguem atirava': o disparo foi negado, a arma so' aparece
+    for j in range(len(ws) - 2):   # nome de EVENTO: "Batalha dos Bilionarios", "Guerra das Correntes" (maiuscula + dos/das/de + Maiuscula) nao e' luta
+        if re.match(r'^(Batalha|Guerra|Luta|Briga)$', ws[j].strip('.,!?":;')) and re.match(r'^(dos|das|de|do|da)$', nw[j + 1]) and ws[j + 2][:1].isupper(): out.add(j)
     if re.search(EXPLODE_FIG, frase): out.update(j for j, w in enumerate(nw) if re.match(r'^(explodiu|explodiram|explodir|bomba)$', w))
     for rx, rxw in FIG:
         if re.search(rx, frase): out.update(j for j, w in enumerate(nw) if re.match(rxw, w))

@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 03 - Galileu e a Torre de Pisa
 
-Gerado em 24/11 23:02 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:06 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -13,7 +13,7 @@ b3 | simples | interior pedra | group | ALU, ALU, PRO | - | ball | - | Mas Galil
 b4 | transicao | loc_campo | wide | GAL | - | ball, marco_pisa, pisa_tower, cannonballs | - | Dizem que ele foi até a torre inclinada de Pisa, com duas bolas de pes
 b5 | chave | loc_campo | wide | GAL | - | ball, marco_pisa, pisa_tower, cannonballs | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, quando ele soltou as duas, elas caíram no chão ao mesmo 
 b6 | simples | interior madeira | two | GAL, ALU | - | - | - | Hoje se discute se isso aconteceu mesmo, porque a história vem de um a
-b7 | chave | arctic | crowd | AST, AST | 8 | feather, hammer | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Mas em mil novecentos e setenta e um, na Lua, um astronauta soltou um 
+b7 | chave | arctic | two | AST | - | feather, hammer | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Mas em mil novecentos e setenta e um, na Lua, um astronauta soltou um 
 b8 | simples | interior loja | close | GAL | - | - | - | No fim, até a pena deu razão ao Galileu.
 b9 | simples | street | close | GAL | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 

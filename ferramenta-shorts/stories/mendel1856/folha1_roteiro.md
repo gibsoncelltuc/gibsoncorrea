@@ -62,7 +62,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Efeitos sonoros marcados: ding@40, sting@60
 - Efeito + som nas palavras-chave: encena: chega (point) @4 -> acao + som de efeito
 - Efeito visual marcado: ring@40, stars@60
-- Texto na tela: -
+- Texto na tela: 3 : 1
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b7  (~4.8 s)

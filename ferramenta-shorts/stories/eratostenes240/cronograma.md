@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 10 - Eratóstenes Mede a Terra
 
-Gerado em 24/11 23:02 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:06 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -12,7 +12,7 @@ b2 | simples | loc_deserto | two | ERA, BIB | - | well, tree_palm, bucket | - | 
 b3 | chave | loc_deserto | crowd | ERA, CAM | 12 | well, tree_palm | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Isso significava que o sol estava bem em cima, e nada fazia sombra.
 b4 | transicao | loc_montanha | wide | ERA | - | marco_alexandria, stick, tree_palm | - | Em Alexandria, no mesmo dia, uma vara fincada no solo fazia uma sombra
 b5 | simples | loc_montanha | two | ERA | - | globe, tree_palm | - | Ele pensou: se a Terra fosse plana, as duas sombras seriam iguais.
-b6 | chave | loc_campo | orbit | ERA, BIB | 10 | globe, marco_alexandria, stick, tree_palm | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que a sombra era diferente, e isso só podia acontecer se a Te
+b6 | chave | loc_campo | orbit | ERA, BIB | - | globe, marco_alexandria, stick, tree_palm | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que a sombra era diferente, e isso só podia acontecer se a Te
 b7 | simples | loc_campo | track | ERA, CAM | - | apartment, house_two, stick, lamppost, tree_palm | - | Ele mediu o ângulo da sombra, e contou os passos entre as duas cidades
 b8 | simples | interior pedra | two | ERA, BIB | - | - | - | Com uma conta simples, encontrou um número muito perto do tamanho real
 b9 | simples | loc_montanha | two | ERA | - | starlink_sat, stick, well, tree_palm, bucket | - | No fim, uma vara e um poço fizeram o trabalho de um satélite.

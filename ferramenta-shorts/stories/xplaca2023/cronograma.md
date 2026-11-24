@@ -1,22 +1,22 @@
 # CRONOGRAMA - Poder e Fama EP 03 - O X no Prédio do Twitter
 
-Gerado em 24/11 23:02 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:06 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_cidade | two | MUS | - | house_two, marco_goldengate, phone, bench, lamppost | - | Uma empresa trocou de nome, e a placa nova acabou investigada pela pre
+b0 | simples | loc_patio | two | MUS | - | house_two, marco_goldengate, phone, bench, lamppost | - | Uma empresa trocou de nome, e a placa nova acabou investigada pela pre
 b1 | simples | interior pedra | two | MUS, OPE | - | - | - | Foi em julho de dois mil e vinte e três: Elon Musk trocou o nome do Tw
 b2 | chave | loc_cidade | group | OPE, OPE2, MUS | 10 | finch | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os operários começaram a tirar as letras e o passarinho da fachada.
 b3 | simples | interior loja | two | OPE, FIS | - | - | - | Mas o trabalho parou no meio, porque faltavam licenças.
-b4 | transicao | loc_cidade | wide | OPE2 | 6 | phone | - | Sobraram só as letras E e R, em cinza, na fachada.
-b5 | chave | loc_cidade | crowd | MUS | 10 | apartment, house_two, marco_goldengate, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que depois instalaram um X gigante piscando no alto do prédio
+b4 | transicao | loc_cidade | wide | OPE2 | 6 | - | - | Sobraram só as letras E e R, em cinza, na fachada.
+b5 | chave | loc_cidade | crowd | MUS | - | apartment, house_two, marco_goldengate, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que depois instalaram um X gigante piscando no alto do prédio
 b6 | simples | interior pedra | two | FIS, MUS | - | - | - | A prefeitura recebeu vinte e quatro reclamações num fim de semana e ab
 b7 | simples | interior loja | two | MUS, FIS | - | - | - | A empresa disse que era uma placa temporária para um evento.
 b8 | simples | loc_cidade | two | FIS, OPE | - | - | - | A polícia foi ao local, mas concluiu que nenhum crime tinha acontecido
-b9 | simples | loc_patio | two | MUS | - | house_two, phone, bench, lamppost | - | Moral da história: até trocar de nome precisa de licença da prefeitura
-b10 | simples | loc_patio | close | MUS | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b9 | simples | interior madeira | two | MUS | - | phone | - | Moral da história: até trocar de nome precisa de licença da prefeitura
+b10 | simples | interior madeira | close | MUS | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

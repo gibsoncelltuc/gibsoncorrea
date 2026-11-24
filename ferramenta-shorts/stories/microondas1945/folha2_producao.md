@@ -63,11 +63,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Acontece que ele testou milho de pipoca, e os grãos começaram a estour...
-- Cenario: hall | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): SPE (variante 0, expressao laugh); ENG (variante 0, expressao shock) | multidao: 10 de ENG/COL
-- Animacao: reagir | grande momento (efeito + som, sem tiro)
+- Cenario: interior madeira | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
+- Personagens principais (2): SPE (variante 0, expressao laugh); ENG (variante 0, expressao shock) | multidao: 0 de 
+- Animacao: conversar | interacao: discutir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/popcorn
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estourar, graos, pipoca
 - RISCOS: nenhum
@@ -77,28 +77,28 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): SPE (variante 0, expressao grin); COL (variante 0, expressao shock)
-- Animacao: conversar | interacao: discutir | grande momento (efeito + som, sem tiro)
+- Animacao: conversar | interacao: cochichar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/egg
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cara, colega
 - RISCOS: nenhum
 
 ## Cena b8 - Dois anos depois, saiu o primeiro forno, mais alto que uma pessoa e co...
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (3): SPE (variante 0, expressao smile); COL (variante 0, expressao surprised); ENG (variante 0, expressao shock)
-- Animacao: conversar | interacao: aproxima-se
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (3): SPE (variante 0, expressao smile); COL (variante 0, expressao surprised); ENG (variante 0, expressao shock) | multidao: 6 de POV
+- Animacao: reagir
 - Objetos/modelos: kit/microwave
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pessoa, trezentos
 - RISCOS: nenhum
 
 ## Cena b9 - Hoje ele cabe em qualquer cozinha, e esquenta a sobra do jantar em um ...
-- Cenario: hall | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Cenario: interior madeira | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
-- Personagens principais (2): POV (variante 0, expressao laugh); POV (variante 1, expressao grin) | multidao: 14 de POV/ENG/COL
+- Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 0 de 
 - Animacao: comemorar | interacao: pular | grande momento (efeito + som, sem tiro)
-- Objetos/modelos: -
+- Objetos/modelos: kit/microwave
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): jantar, minuto, sobra
 - RISCOS: nenhum
 
@@ -127,15 +127,15 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/microwave | b0, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/microwave | b0, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/chocolate | b0, b3, b4, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/popcorn | b6, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/egg | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/microwave | grandes momentos: b6, b7, b9 | planos abertos: 2 | mistura: close 22% | medio 63% | aberto 11% | detalhe 4%
-- Interacoes: b0 o outro se aproxima, b2 insiste, b3 vai ate o outro, b4 susto, b7 discutir, b8 aproxima-se, b9 pular
+- Objeto heroi: kit/microwave | grandes momentos: b6, b7, b9 | planos abertos: 2 | mistura: close 20% | medio 59% | aberto 19% | detalhe 2%
+- Interacoes: b0 o outro se aproxima, b2 insiste, b3 vai ate o outro, b4 susto, b6 discutir, b7 cochichar, b9 pular
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py microondas1945  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/microondas1945/moodboard.jpg
 

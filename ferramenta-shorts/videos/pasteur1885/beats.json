@@ -167,13 +167,7 @@
    "impact": true,
    "tiros": false,
    "crowd": {
-    "n": 10,
-    "outfits": [
-     "MED",
-     "POV"
-    ],
-    "march": false,
-    "expr": "shock"
+    "n": 0
    },
    "fx": [
     "ring@40",
@@ -194,7 +188,8 @@
      }
     ]
    ],
-   "detalhe": true
+   "detalhe": true,
+   "_susp_ok": true
   },
   {
    "say": "Joseph sobreviveu, e a notícia correu o mundo.",

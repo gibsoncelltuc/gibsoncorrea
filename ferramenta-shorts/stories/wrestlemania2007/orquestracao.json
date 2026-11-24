@@ -90,7 +90,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "crowd",
+   "camera": "orbit",
    "personagens": [
     "POV",
     "POV",
@@ -118,7 +118,8 @@
   {
    "camera": "wide",
    "personagens": [
-    "LAS"
+    "LAS",
+    "UMA"
    ],
    "multidao": 0,
    "objetos": [
@@ -134,7 +135,7 @@
    "cenario": "stadium"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "JUI"
    ],
@@ -152,11 +153,11 @@
    "cenario": "stadium"
   },
   {
-   "camera": "orbit",
+   "camera": "wide",
    "personagens": [
     "LAS"
    ],
-   "multidao": 0,
+   "multidao": 18,
    "objetos": [
     "kit/ball",
     "kit/ring"
@@ -177,9 +178,11 @@
    "cenario": "stadium"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
-    "TRU"
+    "TRU",
+    "LAS",
+    "VIB"
    ],
    "multidao": 0,
    "objetos": [
@@ -196,9 +199,10 @@
    "cenario": "stadium"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
-    "JUI"
+    "JUI",
+    "TRU"
    ],
    "multidao": 0,
    "objetos": [

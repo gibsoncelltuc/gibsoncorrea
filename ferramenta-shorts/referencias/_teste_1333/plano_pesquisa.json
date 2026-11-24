@@ -1,0 +1,30 @@
+{
+ "id": "_teste_1333",
+ "ano": 1333,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "teste",
+   "consultas": [
+    "teste",
+    "Numa No 1333"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1333",
+   "consultas": [
+    "1333 fashion clothing",
+    "14th century clothing painting"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "kettle",
+   "consultas": [
+    "kettle",
+    "teste"
+   ]
+  }
+ ]
+}

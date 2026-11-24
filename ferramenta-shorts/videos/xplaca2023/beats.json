@@ -93,7 +93,6 @@
     ]
    ],
    "text": "X",
-   "set": "street",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
@@ -109,7 +108,8 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "set": "loc_patio"
   },
   {
    "tiros": false,
@@ -171,17 +171,7 @@
    "who": [
     "OPE2:0:laugh"
    ],
-   "props": [
-    [
-     "kit/phone",
-     2.4,
-     0.2,
-     1.0,
-     {
-      "fixo": true
-     }
-    ]
-   ],
+   "props": [],
    "text": "E R",
    "set": "street",
    "quadro": {
@@ -199,7 +189,8 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "tela": false
   },
   {
    "tiros": false,
@@ -211,10 +202,7 @@
     "MUS:0:grin"
    ],
    "crowd": {
-    "n": 10,
-    "outfits": [
-     "POV"
-    ]
+    "n": 0
    },
    "text": "X",
    "fx": [
@@ -223,7 +211,9 @@
    "sfx": [
     "sting@40"
    ],
-   "set": "street"
+   "set": "street",
+   "hora": "noite",
+   "_susp_ok": true
   },
   {
    "tiros": false,
@@ -281,7 +271,6 @@
      }
     ]
    ],
-   "set": "harbor",
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
@@ -297,7 +286,8 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "interior": "madeira"
   }
  ],
  "exp": 1.0,

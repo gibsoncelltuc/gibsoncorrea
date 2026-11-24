@@ -23,12 +23,15 @@ for k, b in enumerate(BT):
     _tem_tela = any(re.search(r'phone|tv|telao|computer|pc|laptop|monitor|screen|pong|chess_pc|tablet', str(p_[0])) for p_ in (b.get('props') or []) if isinstance(p_, list))
     if re.search(TELA, s) and not _tem_tela and b.get('tela') is not False and not b.get('explica') and not b.get('mapa') and not b.get('_cta'):
         out.append((k, 'a frase fala de CELULAR/INTERNET/TELA e a cena nao tem celular nem tela'))
+    _cr_ok = r'plenario|todos|teceloes|homens|mil |voluntari|milicia|competidor|atleta|estadio|jogo|venceu|copa|nobel|premio|cerimonia|operarios|engenheiros|funcionarios|cientistas|comemor|festa|aplaud|assist|public|plateia|torcid|lotar|lotou|lotaram|multidao|milhares|centenas|todo mundo|mundo inteiro|cidade|povo|pais|rua|marcha|protest|fila|compr|vend|esgot|celebr|desfile|convidad|leilao|mercado|feira|jornais|imprensa|noticia|viral|rodou o mundo|eleic|urna|vot|assunto|soldad|tropa|exercito|guerra|batalha|invad|atac|frota|navios|marinheiros|tripula|dancar|danc'
+    if cr > 0 and not re.search(MUITA, s) and not re.search(_cr_ok, s) and not b.get('batalha') and not b.get('emus') and not b.get('_cta') and not b.get('mapa'):
+        out.append((k, 'MULTIDAO SEM MOTIVO: a frase nao fala de gente, publico ou festa e a cena tem ' + str(cr) + ' figurantes'))
     _bich = any(re.search(r'bee|abelha|finch|bird|passar|emu|gans|goose|chicken|galinh|horse|cavalo|pig|porco|dog|cow|fish|peixe|lagosta|lobster', str(p_[0])) for p_ in (b.get('props') or []) if isinstance(p_, list))
     if re.search(ANIM, s) and not (b.get('animals') or b.get('emus') or b.get('montado') or _bich) and not re.search(r'cavalaria', s):
         out.append((k, 'a frase cita ANIMAL e a cena nao tem animal'))
     if b.get('batalha') is True and not re.search(r'guerra|batalha|lut|atac|invad|tiro|atir|dispar|bomb|explo|soldad|tropa|exercito|combat|canh|fogo|arma|metralh|espada|duelo|briga|captur|ofensiv', s):
         out.append((k, 'cena com BATALHA e a frase nao fala de luta nenhuma'))
-    if sc.get('sem_violencia') and (b.get('batalha') is True or 'burst' in fx or b.get('impact')):
+    if sc.get('sem_violencia') and (b.get('batalha') is True or 'burst' in fx):
         out.append((k, 'frase SEM violencia de verdade (' + '; '.join(sentido.explicar(b.get('say', ''))) + ') e a cena tem batalha/explosao'))
     if re.search(sentido.DISPARO.replace(r'acert\w*|ating\w*|', ''), s) and not sc.get('sem_violencia') and b.get('tiros') is False and 'burst' not in fx and not b.get('acoes'):
         out.append((k, 'a frase tem TIRO/EXPLOSAO de verdade e a cena esta sem tiro nem explosao'))
@@ -47,6 +50,8 @@ if '--corrigir' in sys.argv and out:
         b = BT[k]
         if m.startswith('a frase cita ANIMAL') and _bichos and not b.get('_susp_ok'):
             b.setdefault('props', []).append([_bichos[0][0], 0.9, 1.0, _bichos[0][3] if len(_bichos[0]) > 3 and not isinstance(_bichos[0][3], dict) else 1.2, {'fixo': True}]); b['_susp_ok'] = True; feito.append(f'b{k}: {_bichos[0][0]} posto na cena')
+        elif m.startswith('MULTIDAO SEM MOTIVO'):
+            b['crowd'] = {'n': 0}; b['_susp_ok'] = True; feito.append(f'b{k}: multidao sem motivo tirada')
         elif m.startswith('cena com BATALHA e a frase nao fala'):
             b['batalha'] = False; b['tiros'] = False; feito.append(f'b{k}: batalha desligada (frase sem luta)')
         elif m.startswith('a frase fala de CELULAR') and not b.get('_susp_tela') and _ANO >= 1950:

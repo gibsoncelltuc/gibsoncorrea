@@ -251,7 +251,7 @@
   },
   {
    "say": "Acontece que o verde voltou, e sempre na mesma conta: três ervilhas amarelas para uma verde.",
-   "shot": "orbit",
+   "shot": "two",
    "who": [
     "MEN:0:shock",
     "FRE:0:surprised"
@@ -259,13 +259,7 @@
    "impact": true,
    "tiros": false,
    "crowd": {
-    "n": 10,
-    "outfits": [
-     "FRE",
-     "POV"
-    ],
-    "march": false,
-    "expr": "shock"
+    "n": 0
    },
    "props": [
     [
@@ -346,7 +340,8 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "text": "3 : 1"
   },
   {
    "say": "Ele descobriu que cada filho herda uma instrução do pai e outra da mãe.",
@@ -370,22 +365,16 @@
   },
   {
    "say": "Só no ano mil e novecentos, já depois da morte dele, os cientistas viram que ele estava certo.",
-   "shot": "crowd",
+   "shot": "group",
    "who": [
-    "CIE:0:laugh",
-    "CIE:1:grin"
+    "CIE:0:surprised",
+    "CIE:1:grin",
+    "CIE:2:smile"
    ],
    "impact": true,
    "tiros": false,
    "crowd": {
-    "n": 14,
-    "outfits": [
-     "CIE",
-     "POV",
-     "FRE"
-    ],
-    "march": false,
-    "expr": "laugh"
+    "n": 0
    },
    "props": [
     [

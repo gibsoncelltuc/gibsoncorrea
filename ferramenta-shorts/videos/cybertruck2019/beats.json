@@ -472,12 +472,7 @@
     ]
    ],
    "crowd": {
-    "n": 8,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "laugh"
+    "n": 0
    },
    "tiros": false,
    "batalha": false,
@@ -500,7 +495,8 @@
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "text": "146 MIL RESERVAS"
+   "text": "146 MIL RESERVAS",
+   "_susp_ok": true
   },
   {
    "say": "Uma picape, uma esfera de aço e uma janela que não aguentou: um lançamento inesquecível.",
@@ -537,12 +533,7 @@
    "riscos_ok": true,
    "acao": "comemorar",
    "crowd": {
-    "n": 10,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "laugh"
+    "n": 0
    },
    "verbos_ok": [
     "aguen"
@@ -568,7 +559,8 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_susp_ok": true
   }
  ],
  "exp": 0.9,
