@@ -46,7 +46,9 @@
  "beats": [
   {
    "shot": "group",
-   "who": [],
+   "who": [
+    "ROM:2:shock"
+   ],
    "animals": [
     [
      "goose",
@@ -84,10 +86,10 @@
      1.2
     ]
    ],
-   "hora": "noite",
+   "hora": "dia",
    "say": "Um bando de gansos barulhentos salvou Roma numa só noite.",
    "detalhe": false,
-   "set": "loc_campo",
+   "set": "medieval",
    "fachada": false,
    "sfx": [
     "squeal@10",
@@ -97,19 +99,10 @@
    "fx": [
     "puff@30"
    ],
-   "props": [
-    [
-     "buildings/castle_tower",
-     0.0,
-     -14.0,
-     1.6,
-     {
-      "fixo": true
-     }
-    ]
-   ],
+   "props": [],
    "shot_lock": true,
-   "objetos": false
+   "objetos": false,
+   "interacao": false
   },
   {
    "shot": "reveal",

@@ -4,9 +4,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: loc_campo 
 
 ## Cena b0  (~3.4 s)
 - Narracao: Um bando de gansos barulhentos salvou Roma numa só noite.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: squeal@10, squeal@40, squeal@80
-- Efeito + som nas palavras-chave: (rosto) relief -> expr + som de efeito
+- Efeito + som nas palavras-chave: (rosto) relief -> expr + som de efeito; encena: x_entrega (reach) @5 -> acao + som de efeito
 - Efeito visual marcado: puff@30
 - Texto na tela: -
 - Funcao na historia: GANCHO

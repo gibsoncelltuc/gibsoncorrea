@@ -4,7 +4,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | loc_campo | group | 0 | parados (so fala e pisca) | buildings/castle_tower, goose | - | -
+b0 | medieval | group | 1 | reagir | goose | - | -
 b1 | loc_campo | reveal | 9 | encena | kit/fire | torch | -
 b2 | mountain | wide | 2 | reagir | buildings/castle_tower | - | -
 b3 | mountain | crowd | 8 | encena, batalha | - | - | -
@@ -20,5 +20,5 @@ OBJETO HEROI: nenhum achado (ponha 'heroi': 'kit/...' no topo do roteiro)
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 1  << AVISO: menos de 2 -> b3
 Interacoes entre personagens: b8 entregar
 
-Cenas com personagens parados: 1 de 11
+Cenas com personagens parados: 0 de 11
 FALTA MODELAR: nada

@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | group | noite  | animais | (rosto) relief (expr + som de efeito) | -
+b0 | group | dia  | animais | (rosto) relief (expr + som de efeito); encena: x_entrega (reach) @5 (acao + som de efeito) | -
 b1 | reveal | -  | tropa, placa: 390 a.C., mapa, objeto na mao | encena: queima @14 (acao + som de efeito) | -
 b2 | wide | -  | tropa, placa: CAPITÓLIO | encena: empurra (push) @5 (acao + som de efeito) | -
 b3 | crowd | -  | batalha aberta com tiros, tropa | encena: chega (point) @2 (acao + som de efeito); encena: x_aperta (reach) @8 (acao + som de efeito); aperto de mao (acao + som de efeito) | -

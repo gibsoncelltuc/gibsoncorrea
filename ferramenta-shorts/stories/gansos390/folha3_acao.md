@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 05 - Os Gansos que Salvaram Roma
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 3.0s - 10 palavras - plano group
@@ -9,7 +9,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | EMOCAO: relief | o rosto vira "relief" na palavra | OK |
+| 1 | salvou (1.8s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | - | EMOCAO: relief | o rosto vira "relief" na palavra | OK |
+| 3 | - | ATUACAO | reagir | OK |
 
 ## Cena b1 - 4.1s a 8.8s - 17 palavras - plano reveal
 > "Em trezentos e noventa antes de Cristo, os gauleses de Breno tomaram Roma e queimaram quase tudo."

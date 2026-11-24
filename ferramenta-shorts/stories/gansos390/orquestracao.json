@@ -11,19 +11,19 @@
  "cenas": [
   {
    "camera": "group",
-   "personagens": [],
-   "multidao": 0,
-   "objetos": [
-    "buildings/castle_tower"
+   "personagens": [
+    "ROM"
    ],
+   "multidao": 0,
+   "objetos": [],
    "palavras": 10,
    "cena": "b0",
    "frase": "Um bando de gansos barulhentos salvou Roma numa só noite.",
    "classe": "simples",
-   "sujeito": "cenario",
+   "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "medieval"
   },
   {
    "camera": "reveal",
@@ -203,7 +203,7 @@
   {
    "camera": "close",
    "personagens": [
-    "GAU"
+    "ROM"
    ],
    "multidao": 0,
    "objetos": [],
