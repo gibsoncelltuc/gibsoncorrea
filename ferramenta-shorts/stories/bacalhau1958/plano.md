@@ -14,5 +14,5 @@ b8 | group | -  | placa: VITÓRIA ISLANDESA | encena: chega (point) @17 (acao + 
 b9 | two | -  | placa: TUDO POR UM BACALHAU | - | -
 b10 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 19% | medio 54% | aberto 21% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 2 | dentro do padrao do canal
+Mistura de planos: close 19% | medio 59% | aberto 21% | detalhe 1%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 2 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

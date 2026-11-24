@@ -40,7 +40,7 @@
  "beats": [
   {
    "say": "A Islândia derrotou a marinha inglesa com um cortador de rede.",
-   "shot": "wide",
+   "shot": "two",
    "who": [
     "ICE:0:laugh",
     "BRI:0:shock"
@@ -48,14 +48,14 @@
    "props": [
     [
      "kit/navio_destroier",
-     -9,
-     -17,
+     -8,
+     -13,
      1.0
     ],
     [
      "kit/navio_destroier",
      9,
-     -19,
+     -15,
      1.0
     ]
    ],
@@ -72,12 +72,7 @@
    "tat": 16,
    "tstyle": "blue",
    "acao": "comemorar",
-   "impact": true,
-   "cx": 0,
-   "cz": -16,
-   "h": 4.5,
-   "d0": 22,
-   "d1": 20
+   "impact": true
   },
   {
    "say": "Entre mil novecentos e cinquenta e oito e setenta e seis, os dois países travaram três Guerras do Bacalhau.",
@@ -128,7 +123,8 @@
    "text": "BACALHAU",
    "tat": 14,
    "tstyle": "brown",
-   "set": "harbor"
+   "set": "harbor",
+   "detalhe": false
   },
   {
    "say": "Então ela ampliou os limites do mar: doze milhas, cinquenta, e por fim duzentas.",
@@ -162,7 +158,7 @@
   },
   {
    "say": "A Inglaterra mandou fragatas para proteger os barcos de pesca.",
-   "shot": "wide",
+   "shot": "group",
    "who": [
     "BRI:1:stern",
     "BRI:2:grin"
@@ -170,24 +166,19 @@
    "props": [
     [
      "kit/navio_destroier",
-     -9,
-     -15,
+     -7,
+     -13,
      1.0
     ],
     [
      "kit/navio_destroier",
-     9,
-     -17,
+     8,
+     -15,
      1.0
     ]
    ],
    "mood": "march",
-   "set": "harbor",
-   "cx": 0,
-   "cz": -15,
-   "h": 5.0,
-   "d0": 26,
-   "d1": 22
+   "set": "harbor"
   },
   {
    "say": "Acontece que a Islândia só tinha barquinhos da guarda costeira, mas eles tinham cortadores de rede.",
@@ -250,7 +241,8 @@
    "text": "OTAN",
    "tat": 9,
    "tstyle": "blue",
-   "mood": "march"
+   "mood": "march",
+   "detalhe": false
   },
   {
    "say": "Em mil novecentos e setenta e seis, a Inglaterra cedeu, e a zona de duzentas milhas se espalhou pelo mundo.",
