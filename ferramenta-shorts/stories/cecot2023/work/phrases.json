@@ -1,0 +1,225 @@
+{
+ "duration": 60.576,
+ "frames30": 1817,
+ "source": "silence-align (cost 0.45)",
+ "segments": [
+  [
+   0.150125,
+   3.71621
+  ],
+  [
+   4.62329,
+   6.7875
+  ],
+  [
+   6.99254,
+   7.90937
+  ],
+  [
+   8.75837,
+   9.23296
+  ],
+  [
+   9.51388,
+   12.3845
+  ],
+  [
+   12.6762,
+   13.6847
+  ],
+  [
+   14.5335,
+   15.5266
+  ],
+  [
+   15.7617,
+   18.3734
+  ],
+  [
+   18.6684,
+   20.495
+  ],
+  [
+   21.3629,
+   22.5607
+  ],
+  [
+   22.7964,
+   24.958
+  ],
+  [
+   25.2372,
+   27.0772
+  ],
+  [
+   27.9348,
+   28.8268
+  ],
+  [
+   29.0427,
+   31.904
+  ],
+  [
+   32.7599,
+   34.2302
+  ],
+  [
+   34.4505,
+   37.5048
+  ],
+  [
+   38.3546,
+   42.921
+  ],
+  [
+   43.792,
+   47.1022
+  ],
+  [
+   47.956,
+   49.1126
+  ],
+  [
+   49.2755,
+   50.4057
+  ],
+  [
+   50.6342,
+   51.7543
+  ],
+  [
+   52.6145,
+   55.4237
+  ],
+  [
+   56.2794,
+   57.7238
+  ],
+  [
+   58.0211,
+   59.7783
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "El Salvador construiu uma pris\u00e3o t\u00e3o grande que virou not\u00edcia no mundo inteiro.",
+   "s": 0.15,
+   "e": 3.716
+  },
+  {
+   "text": "Foi inaugurada em janeiro de dois mil e vinte e tr\u00eas,",
+   "s": 4.623,
+   "e": 6.787
+  },
+  {
+   "text": "numa \u00e1rea isolada.",
+   "s": 6.993,
+   "e": 7.909
+  },
+  {
+   "text": "Por anos,",
+   "s": 8.758,
+   "e": 9.233
+  },
+  {
+   "text": "El Salvador teve uma das maiores taxas de assassinato do mundo,",
+   "s": 9.514,
+   "e": 12.384
+  },
+  {
+   "text": "por causa das gangues.",
+   "s": 12.676,
+   "e": 13.685
+  },
+  {
+   "text": "Em dois mil e vinte e dois,",
+   "s": 14.534,
+   "e": 15.527
+  },
+  {
+   "text": "o presidente Nayib Bukele decretou estado de exce\u00e7\u00e3o,",
+   "s": 15.762,
+   "e": 18.373
+  },
+  {
+   "text": "e milhares de suspeitos foram presos.",
+   "s": 18.668,
+   "e": 20.495
+  },
+  {
+   "text": "Para guardar tanta gente,",
+   "s": 21.363,
+   "e": 22.561
+  },
+  {
+   "text": "ergueram o Centro de Confinamento do Terrorismo,",
+   "s": 22.796,
+   "e": 24.958
+  },
+  {
+   "text": "com vagas para quarenta mil presos.",
+   "s": 25.237,
+   "e": 27.077
+  },
+  {
+   "text": "Muralhas altas,",
+   "s": 27.935,
+   "e": 28.827
+  },
+  {
+   "text": "cercas el\u00e9tricas e torres de vigia por todos os lados.",
+   "s": 29.043,
+   "e": 31.904
+  },
+  {
+   "text": "Os assassinatos despencaram:",
+   "s": 32.76,
+   "e": 34.23
+  },
+  {
+   "text": "de cento e seis para dois v\u00edrgula quatro por cem mil habitantes.",
+   "s": 34.45,
+   "e": 37.505
+  },
+  {
+   "text": "Organiza\u00e7\u00f5es de direitos humanos denunciaram pris\u00f5es sem julgamento e mortes sob cust\u00f3dia.",
+   "s": 38.355,
+   "e": 42.921
+  },
+  {
+   "text": "O governo responde que as ruas ficaram seguras e que a maioria apoia.",
+   "s": 43.792,
+   "e": 47.102
+  },
+  {
+   "text": "A pris\u00e3o virou s\u00edmbolo:",
+   "s": 47.956,
+   "e": 49.113
+  },
+  {
+   "text": "de seguran\u00e7a para uns,",
+   "s": 49.276,
+   "e": 50.406
+  },
+  {
+   "text": "de excesso para outros.",
+   "s": 50.634,
+   "e": 51.754
+  },
+  {
+   "text": "E o modelo passou a ser copiado e criticado pelo mundo.",
+   "s": 52.614,
+   "e": 55.424
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 56.279,
+   "e": 57.724
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 58.021,
+   "e": 59.778
+  }
+ ]
+}
