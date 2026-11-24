@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 16 - A Guerra da Melancia
 
-Gerado em 24/11 17:43 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 18:15 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -13,9 +13,9 @@ b3 | simples | jungle | two | VIA, VEN | - | melon, stall | - | Um deles parou n
 b4 | simples | street | two | VEN, VIA | - | shop, stall | - | O vendedor cobrou a fatia, e o viajante só riu.
 b5 | simples | street | group | VIA | - | pistol | - | Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo.
 b6 | chave | street | crowd | VEN | 20 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em poucos minutos, a rua virou uma briga enorme entre moradores e viaj
-b7 | simples | loc_campo | wide | VIA | - | house_two, lamppost, locomotive | - | Os viajantes se trancaram na estação de trem, e a polícia da cidade en
+b7 | chave | loc_campo | orbit | VIA | 48 | house_two, lamppost, locomotive | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os viajantes se trancaram na estação de trem, e a polícia da cidade en
 b8 | simples | interior madeira | two | PRE, MOR | - | - | - | Acontece que mais de quinze pessoas morreram naquele dia, e a cidade f
-b9 | chave | harbor | orbit | SOL | 48 | locomotive | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O Panamá era da Colômbia, e a Colômbia acabou pagando uma indenização 
+b9 | simples | interior pedra | two | PRE, VIA | - | - | - | O Panamá era da Colômbia, e a Colômbia acabou pagando uma indenização 
 b10 | simples | jungle | group | VEN | - | melon | - | Tudo isso por uma fatia de melancia que custava poucos centavos.
 b11 | simples | jungle | close | VIA | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
