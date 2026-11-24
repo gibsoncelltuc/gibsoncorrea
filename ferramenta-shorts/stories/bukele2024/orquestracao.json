@@ -49,19 +49,25 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "two",
+   "camera": "crowd",
    "personagens": [
     "BUK",
     "POV"
    ],
-   "multidao": 0,
+   "multidao": 12,
    "objetos": [],
    "palavras": 16,
    "cena": "b2",
    "frase": "Ele chegou ao poder em dois mil e dezenove, prometendo acabar com a violência das gangues.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_cidade"
   },
@@ -85,25 +91,19 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "crowd",
+   "camera": "two",
    "personagens": [
     "REP",
     "POV"
    ],
-   "multidao": 12,
+   "multidao": 0,
    "objetos": [],
    "palavras": 14,
    "cena": "b4",
    "frase": "Críticos e opositores disseram que a candidatura era ilegal. O governo defendeu a decisão.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "hall"
   },

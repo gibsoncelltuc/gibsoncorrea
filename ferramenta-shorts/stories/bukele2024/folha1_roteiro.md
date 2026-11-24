@@ -22,12 +22,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 
 ## Cena b2  (~5.5 s)
 - Narracao: Ele chegou ao poder em dois mil e dezenove, prometendo acabar com a violência das gangues.
-- Som ambiente: silencio/sala
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: ding@40
 - Efeito + som nas palavras-chave: chegou -> dust + som de impacto; encena: chega (point) @1 -> acao + som de efeito; encena: fala (point) @9 -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b3  (~6.9 s)
 - Narracao: A Constituição proibia a reeleição seguida, mas em dois mil e vinte e um a Suprema Corte mudou a interpretação.
@@ -45,7 +45,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Efeito + som nas palavras-chave: ilegal -> ring + som de alerta; encena: duvida (shrug) @8 -> acao + som de efeito; encena: x_defende (cross) @11 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b5  (~3.1 s)
 - Narracao: No dia da eleição, os salvadorenhos foram às urnas.

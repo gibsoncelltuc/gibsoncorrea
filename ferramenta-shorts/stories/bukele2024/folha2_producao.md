@@ -24,10 +24,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - Ele chegou ao poder em dois mil e dezenove, prometendo acabar com a vi...
 - Cenario: loc_cidade | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
-- Personagens principais (2): BUK (variante 0, expressao grin); POV (variante 0, expressao smile)
-- Animacao: conversar | interacao: insiste | o ultimo personagem ENTRA andando
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (2): BUK (variante 0, expressao grin); POV (variante 0, expressao smile) | multidao: 12 de POV
+- Animacao: conversar | batalha encenada
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gangues, violencia
 - RISCOS: nenhum
@@ -44,10 +44,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - Críticos e opositores disseram que a candidatura era ilegal. O governo...
 - Cenario: hall | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): REP (variante 0, expressao worried, segura paper); POV (variante 0, expressao nervous) | multidao: 12 de POV
-- Animacao: reagir | batalha encenada
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
+- Personagens principais (2): REP (variante 0, expressao worried, segura paper); POV (variante 0, expressao nervous)
+- Animacao: reagir | interacao: susto
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): candidatura, decisao, governo
 - RISCOS: nenhum
@@ -87,7 +87,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): REP (variante 0, expressao surprised, segura paper); BUK (variante 0, expressao smug)
-- Animacao: conversar | interacao: vai ate o outro
+- Animacao: conversar | interacao: insiste
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): assassinatos, cento, eleitores
 - RISCOS: nenhum
@@ -135,8 +135,8 @@ kit/globe | b10 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/ballot_box | grandes momentos: b4, b7 | planos abertos: 3 | mistura: close 25% | medio 58% | aberto 12% | detalhe 5%
-- Interacoes: b0 o outro se aproxima, b2 insiste, b3 discutir, b5 entregar, b8 vai ate o outro, b9 empurrar
+- Objeto heroi: kit/ballot_box | grandes momentos: b2, b7 | planos abertos: 3 | mistura: close 26% | medio 57% | aberto 12% | detalhe 5%
+- Interacoes: b0 o outro se aproxima, b3 discutir, b4 susto, b5 entregar, b8 insiste, b9 empurrar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

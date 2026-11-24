@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 26 - O Presidente dos 85 por Cento
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 3.0s - 11 palavras - plano two
@@ -20,7 +20,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | MAPA | EL SALVADOR | OK |
 | 2 | - | PLACA | 2024 | OK |
 
-## Cena b2 - 11.5s a 15.4s - 16 palavras - plano two
+## Cena b2 - 11.5s a 15.4s - 16 palavras - plano crowd
 > "Ele chegou ao poder em dois mil e dezenove, prometendo acabar com a violência das gangues."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -28,9 +28,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | chegou (11.7s) | EFEITO: dust | poeira + som | OK |
 | 2 | chegou (11.7s) | ACAO: chega | entra andando pela lateral | OK |
 | 3 | prometendo (13.5s) | ACAO: fala | aponta explicando | OK |
-| 4 | - | INTERACAO | insiste | OK |
+| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 5 | - | ATUACAO | conversar | OK |
-| 6 | - | CHEGADA | alguem entra andando | OK |
 
 ## Cena b3 - 16.6s a 21.3s - 20 palavras - plano two
 > "A Constituição proibia a reeleição seguida, mas em dois mil e vinte e um a Suprema Corte mudou a interpretação."
@@ -41,7 +40,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | discutir | OK |
 | 3 | - | ATUACAO | discutir | OK |
 
-## Cena b4 - 22.8s a 27.5s - 14 palavras - plano crowd
+## Cena b4 - 22.8s a 27.5s - 14 palavras - plano two
 > "Críticos e opositores disseram que a candidatura era ilegal. O governo defendeu a decisão."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -49,7 +48,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | ilegal (25.1s) | EFEITO: ring | onda + som | OK |
 | 2 | ilegal (25.1s) | ACAO: duvida | ombros para cima (nao acredita) | OK |
 | 3 | defendeu (26.9s) | ACAO: x_defende | bracos cruzados se defendendo + onda | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | INTERACAO | susto | OK |
 | 5 | - | ATUACAO | reagir | OK |
 
 ## Cena b5 - 28.7s a 31.2s - 9 palavras - plano two
@@ -87,7 +86,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | eleitores (42.1s) | ACAO: voto | poe o voto na urna | OK |
-| 2 | - | INTERACAO | vai ate o outro | OK |
+| 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b9 - 47.9s a 52.9s - 15 palavras - plano two
