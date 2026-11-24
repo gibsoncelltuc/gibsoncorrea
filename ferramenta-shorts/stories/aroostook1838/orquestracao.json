@@ -69,10 +69,9 @@
    "cenario": "arctic"
   },
   {
-   "camera": "reveal",
+   "camera": "wide",
    "personagens": [
-    "AME",
-    "CAN"
+    "AME"
    ],
    "multidao": 12,
    "objetos": [

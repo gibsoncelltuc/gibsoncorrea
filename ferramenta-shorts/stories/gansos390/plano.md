@@ -8,7 +8,7 @@ b2 | group | -  | placa: CAPITÓLIO | encena: empurra (push) @5 (acao + som de e
 b3 | crowd | -  | batalha aberta com tiros, tropa | encena: chega (point) @2 (acao + som de efeito); encena: x_aperta (reach) @8 (acao + som de efeito); aperto de mao (acao + som de efeito) | -
 b4 | wide | noite  | tropa | - | -
 b5 | wide | noite  | animais, placa: JUNO | encena: grita (up) @12 (acao + som de efeito) | -
-b6 | track | noite  | - | correu (dust + som de impacto); encena: x_acorda (up) @2 (acao + som de efeito); encena: corre @8 (acao + som de efeito) | -
+b6 | two | noite  | - | correu (dust + som de impacto); encena: x_acorda (up) @2 (acao + som de efeito); encena: corre @8 (acao + som de efeito) | -
 b7 | reveal | noite  | tropa | encena: perde (facepalm) @2 (acao + som de efeito) | -
 b8 | two | dia  | interior, placa: 1.000 LIBRAS, objeto na mao | pagou (stars + som de sino); ouro (stars + som de sino); encena: negocio (reach) @9 (acao + som de efeito); encena: paga (reach) @13 (acao + som de efeito); encena: sai @18 (acao + som de efeito) | -
 b9 | wide | dia  | animais | ouro (stars + som de sino); encena: x_entrega (reach) @2 (acao + som de efeito); encena: paga (reach) @7 (acao + som de efeito); encena: sai @9 (acao + som de efeito) | -

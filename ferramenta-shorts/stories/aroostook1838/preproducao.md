@@ -7,7 +7,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | arctic | group | 2 | discutir, INTERAGEM: discutir | kit/logs, nature/tree_pine | axe, axe | -
 b1 | arctic | two | 2 | conversar, INTERAGEM: tremem de frio | - | - | -
 b2 | arctic | group | 2 | discutir, INTERAGEM: vai ate o outro | kit/logs, nature/tree_pine, nature/tree_oak, nature/bush | axe, axe | -
-b3 | arctic | reveal | 14 | encena, batalha | nature/tree_pine | - | -
+b3 | arctic | wide | 13 | encena, batalha | nature/tree_pine | - | -
 b4 | arctic | wide | 22 | encena | - | - | -
 b5 | interior pedra | two | 2 | reagir, INTERAGEM: empurrar | kit/prison | - | -
 b6 | interior madeira | two | 2 | conversar, INTERAGEM: cochichar | - | - | -

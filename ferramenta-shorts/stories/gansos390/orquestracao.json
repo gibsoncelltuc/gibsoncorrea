@@ -125,7 +125,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "track",
+   "camera": "two",
    "personagens": [
     "MAN",
     "GAU"
@@ -141,7 +141,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "medieval"
+   "cenario": "loc_campo"
   },
   {
    "camera": "reveal",

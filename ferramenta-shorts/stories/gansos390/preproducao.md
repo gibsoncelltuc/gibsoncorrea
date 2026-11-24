@@ -10,7 +10,7 @@ b2 | mountain | group | 3 | reagir, INTERAGEM: susto | buildings/castle_tower | 
 b3 | mountain | crowd | 8 | encena, batalha | - | - | -
 b4 | loc_campo | wide | 7 | parados (so fala e pisca) | - | - | -
 b5 | loc_campo | wide | 1 | reagir | goose | - | -
-b6 | medieval | track | 2 | encena, andando | buildings/castle_tower | - | -
+b6 | loc_campo | two | 2 | tomba, INTERAGEM: cochichar | buildings/castle_tower | - | -
 b7 | loc_campo | reveal | 11 | encena | - | - | -
 b8 | interior madeira | two | 2 | encena, INTERAGEM: entregar | - | coin, coin | -
 b9 | medieval | wide | 1 | encena | goose | - | -
@@ -18,7 +18,7 @@ b10 | medieval | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: nenhum achado (ponha 'heroi': 'kit/...' no topo do roteiro)
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 1  << AVISO: menos de 2 -> b3
-Interacoes entre personagens: b2 susto, b8 entregar
+Interacoes entre personagens: b2 susto, b6 cochichar, b8 entregar
 
 Cenas com personagens parados: 1 de 11
 FALTA MODELAR: nada

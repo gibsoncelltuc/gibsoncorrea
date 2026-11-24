@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 05 - Os Gansos que Salvaram Roma
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 3.0s - 10 palavras - plano two
@@ -58,7 +58,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | reagir | OK |
 | 3 | - | PLACA | JUNO | OK |
 
-## Cena b6 - 30.2s a 34.9s - 18 palavras - plano track
+## Cena b6 - 30.2s a 34.9s - 18 palavras - plano two
 > "O barulho acordou o soldado Marco Mânlio, que correu até a muralha e impediu a subida dos gauleses."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -66,6 +66,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | acordou (30.8s) | ACAO: x_acorda | estava dormindo e acorda na palavra | OK |
 | 2 | correu (32.6s) | EFEITO: dust | poeira + som | OK |
 | 3 | correu (32.6s) | ACAO: corre | sai correndo pela lateral + poeira | OK |
+| 4 | - | INTERACAO | cochichar | OK |
+| 5 | - | ATUACAO | tomba | OK |
 
 ## Cena b7 - 36.1s a 38.9s - 9 palavras - plano reveal
 > "A subida fracassou, mas os gauleses mantiveram o cerco."

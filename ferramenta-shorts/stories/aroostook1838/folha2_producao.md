@@ -34,9 +34,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Em fevereiro de mil oitocentos e trinta e nove, o Maine mandou o agent...
 - Cenario: arctic | luz: day | clima: neve
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Camera: wide = ABERTO fixo
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): AME (variante 0, expressao shout); CAN (variante 0, expressao angry) | multidao: 12 de AME
+- Personagens principais (1): AME (variante 0, expressao shout) | multidao: 12 de AME
 - Animacao: encena | batalha encenada
 - Objetos/modelos: nature/tree_pine
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): agente, lenhadores, maine, terras, voluntarios
@@ -129,11 +129,9 @@ pig | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, 
 ## Video inteiro
 - Objeto heroi: kit/logs | grandes momentos: b3 | planos abertos: 2 | mistura: close 9% | medio 74% | aberto 12% | detalhe 4%
 - Interacoes: b0 discutir, b1 tremem de frio, b2 vai ate o outro, b5 empurrar, b6 cochichar, b7 entregar, b8 entregar, b9 aproxima-se
-- RISCOS GERAIS: 
-  - video com ~72 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: video com ~72 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh aroostook1838 bN bM` (so essas cenas).

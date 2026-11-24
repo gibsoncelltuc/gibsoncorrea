@@ -5,7 +5,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | group | - neve | tropa, objeto na mao | encena: corta (hammer) @12 (acao + som de efeito) | -
 b1 | two | - neve | mapa | encena: x_discute (point) @23 (acao + som de efeito) | -
 b2 | group | - neve | objeto na mao | encena: corta (hammer) @4 (acao + som de efeito); encena: corta (hammer) @8 (acao + som de efeito) | -
-b3 | reveal | - neve | batalha aberta com tiros, tropa | encena: fala (point) @11 (acao + som de efeito); encena: corta (hammer) @21 (acao + som de efeito) | -
+b3 | wide | - neve | batalha aberta com tiros, tropa | encena: fala (point) @11 (acao + som de efeito); encena: corta (hammer) @21 (acao + som de efeito) | -
 b4 | wide | - neve | tropa, placa: MILÍCIA | encena: fala (point) @2 (acao + som de efeito); encena: fala (point) @12 (acao + som de efeito) | -
 b5 | two | -  | interior, placa: PRESO | confusão (puff + som de baque); encena: corta (hammer) @2 (acao + som de efeito); encena: prende (push) @6 (acao + som de efeito) | -
 b6 | two | -  | interior | encena: fala (point) @11 (acao + som de efeito); encena: fala (point) @16 (acao + som de efeito) | -

@@ -209,14 +209,13 @@
    "props": [
     [
      "buildings/castle_tower",
-     3.5,
-     -7,
-     1.2
+     0.0,
+     -10.0,
+     2.4
     ]
    ],
    "fachada": false,
    "say": "O barulho acordou o soldado Marco Mânlio, que correu até a muralha e impediu a subida dos gauleses.",
-   "interacao": "empurrar",
    "fx": [
     "dust@70",
     "puff@80"
@@ -225,7 +224,9 @@
     "thump@66",
     "whoosh@60"
    ],
-   "set": "medieval"
+   "set": "loc_campo",
+   "acao": "tomba",
+   "shot_lock": true
   },
   {
    "shot": "reveal",

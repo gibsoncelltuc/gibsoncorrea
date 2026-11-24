@@ -158,11 +158,10 @@
    "clima": "neve"
   },
   {
-   "shot": "reveal",
+   "shot": "wide",
    "set": "arctic",
    "who": [
-    "AME:0:shout",
-    "CAN:0:angry"
+    "AME:0:shout"
    ],
    "say": "Em fevereiro de mil oitocentos e trinta e nove, o Maine mandou o agente de terras com voluntários para prender os lenhadores de New Brunswick.",
    "fachada": false,
@@ -197,7 +196,11 @@
     "expr": "angry"
    },
    "impact": true,
-   "clima": "neve"
+   "clima": "neve",
+   "detalhe": false,
+   "_auto_vis": 3,
+   "d0": 12.0,
+   "d1": 11.0
   },
   {
    "shot": "wide",
