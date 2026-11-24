@@ -15,10 +15,10 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
 tema | O Cameo de Sete Segundos | O Cameo de Sete Segundos / Em Esqueceram Mim Kevin Nova York Numa Kevin Donald Trump 1992 | SEM REFERENCIA
-lugar | Nova York | Nova York 1992 / Nova York landscape | SEM REFERENCIA
-lugar | Canadá | Canadá 1992 / Canadá landscape | SEM REFERENCIA
-epoca | roupas e ruas de 1992 | 1992 fashion clothing / 1992 street photograph | SEM REFERENCIA
-heroi | tv | tv / O Cameo de Sete Segundos | SEM REFERENCIA
+lugar | Nova York | Nova York 1992 / Nova York landscape | Desfile da Escola de Samba Leão de Nova Iguaçu - S (referencias/cameo1992/prints/nova_york_582a68.jpg); Desfile da Escola de Samba Leão de Nova Iguaçu - S (referencias/cameo1992/prints/nova_york_4f71b0.jpg); Currier and Ives Liberty2.jpg (referencias/cameo1992/prints/nova_york_df22ec.jpg)
+lugar | Canadá | Canadá 1992 / Canadá landscape | Christ at the Column by Antonello da Messina (Louv (referencias/cameo1992/prints/canad__682721.jpg); Bighorn sheep, Canada, 1992 AJT Johnsingh.jpg (referencias/cameo1992/prints/canad__3eac15.jpg); Elk bulls in velvet, Canada, 1992, AJT Johnsingh.j (referencias/cameo1992/prints/canad__415fb9.jpg)
+epoca | roupas e ruas de 1992 | 1992 fashion clothing / 1992 street photograph | Sealskin jacket Olympia Albertville 1992, Danmark. (referencias/cameo1992/prints/roupas_e_ruas_de_1992_27e161.jpg); Sur Broadtail (Breitschwanz) fur coat, Germany 199 (referencias/cameo1992/prints/roupas_e_ruas_de_1992_f6c3a2.jpg); Riki-Sorsa-1992.jpg (referencias/cameo1992/prints/roupas_e_ruas_de_1992_fb19a6.jpg)
+heroi | tv | tv / O Cameo de Sete Segundos | CRT color enhanced.png (referencias/cameo1992/prints/tv_c57365.jpg); LG smart TV.jpg (referencias/cameo1992/prints/tv_fca8d0.jpg); Television IN A CORNER !.jpg (referencias/cameo1992/prints/tv_9219ed.jpg)
 
 ## Explicacoes (como funciona, com fonte)
 - -

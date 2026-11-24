@@ -1,0 +1,243 @@
+{
+ "duration": 60.288,
+ "frames30": 1809,
+ "source": "silence-align (cost 0.60)",
+ "segments": [
+  [
+   0.149708,
+   1.59567
+  ],
+  [
+   1.86787,
+   3.48717
+  ],
+  [
+   3.74554,
+   4.16879
+  ],
+  [
+   4.40412,
+   6.06667
+  ],
+  [
+   6.91858,
+   7.33929
+  ],
+  [
+   7.58437,
+   8.24471
+  ],
+  [
+   8.48304,
+   11.5012
+  ],
+  [
+   11.7285,
+   12.6321
+  ],
+  [
+   13.4853,
+   17.5822
+  ],
+  [
+   18.4423,
+   19.749
+  ],
+  [
+   20.1087,
+   22.6014
+  ],
+  [
+   23.4766,
+   25.2445
+  ],
+  [
+   25.4837,
+   26.0186
+  ],
+  [
+   26.2103,
+   26.8585
+  ],
+  [
+   27.6994,
+   31.2141
+  ],
+  [
+   32.0753,
+   36.6024
+  ],
+  [
+   36.9017,
+   39.0375
+  ],
+  [
+   39.8793,
+   43.0763
+  ],
+  [
+   43.4262,
+   44.9334
+  ],
+  [
+   45.7876,
+   46.892
+  ],
+  [
+   47.1672,
+   49.2992
+  ],
+  [
+   49.5906,
+   50.6727
+  ],
+  [
+   51.499,
+   52.3182
+  ],
+  [
+   52.5684,
+   55.115
+  ],
+  [
+   55.9724,
+   57.4167
+  ],
+  [
+   57.7143,
+   59.4715
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Em julho de dois mil e vinte e tr\u00eas,",
+   "s": 0.15,
+   "e": 1.596
+  },
+  {
+   "text": "o Twitter acordou com outro nome:",
+   "s": 1.868,
+   "e": 3.487
+  },
+  {
+   "text": "X,",
+   "s": 3.746,
+   "e": 4.169
+  },
+  {
+   "text": "e o passarinho azul saiu de cena.",
+   "s": 4.404,
+   "e": 6.067
+  },
+  {
+   "text": "O dono,",
+   "s": 6.919,
+   "e": 7.339
+  },
+  {
+   "text": "Elon Musk,",
+   "s": 7.584,
+   "e": 8.245
+  },
+  {
+   "text": "anunciou a mudan\u00e7a projetando um grande X no pr\u00e9dio da empresa,",
+   "s": 8.483,
+   "e": 11.501
+  },
+  {
+   "text": "em S\u00e3o Francisco.",
+   "s": 11.729,
+   "e": 12.632
+  },
+  {
+   "text": "Os oper\u00e1rios come\u00e7aram a remover as letras da placa do Twitter e o passarinho do pr\u00e9dio.",
+   "s": 13.485,
+   "e": 17.582
+  },
+  {
+   "text": "Mas o trabalho parou no meio,",
+   "s": 18.442,
+   "e": 19.749
+  },
+  {
+   "text": "porque a empresa n\u00e3o tinha as licen\u00e7as necess\u00e1rias.",
+   "s": 20.109,
+   "e": 22.601
+  },
+  {
+   "text": "Sobraram s\u00f3 as letras E e R,",
+   "s": 23.477,
+   "e": 25.244
+  },
+  {
+   "text": "em cinza,",
+   "s": 25.484,
+   "e": 26.019
+  },
+  {
+   "text": "na fachada.",
+   "s": 26.21,
+   "e": 26.858
+  },
+  {
+   "text": "Acontece que depois instalaram um X gigante piscando no alto do pr\u00e9dio.",
+   "s": 27.699,
+   "e": 31.214
+  },
+  {
+   "text": "A prefeitura registrou vinte e quatro reclama\u00e7\u00f5es em um fim de semana e iniciou uma investiga\u00e7\u00e3o,",
+   "s": 32.075,
+   "e": 36.602
+  },
+  {
+   "text": "porque aquela placa tamb\u00e9m n\u00e3o tinha permiss\u00e3o.",
+   "s": 36.902,
+   "e": 39.038
+  },
+  {
+   "text": "A empresa disse que era uma placa luminosa tempor\u00e1ria para um evento,",
+   "s": 39.879,
+   "e": 43.076
+  },
+  {
+   "text": "e Musk a chamou de provis\u00f3ria.",
+   "s": 43.426,
+   "e": 44.933
+  },
+  {
+   "text": "A pol\u00edcia foi ao local,",
+   "s": 45.788,
+   "e": 46.892
+  },
+  {
+   "text": "mas concluiu que nenhum crime tinha acontecido,",
+   "s": 47.167,
+   "e": 49.299
+  },
+  {
+   "text": "e o X foi retirado.",
+   "s": 49.591,
+   "e": 50.673
+  },
+  {
+   "text": "Moral da hist\u00f3ria:",
+   "s": 51.499,
+   "e": 52.318
+  },
+  {
+   "text": "at\u00e9 trocar de nome precisa de licen\u00e7a da prefeitura.",
+   "s": 52.568,
+   "e": 55.115
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 55.972,
+   "e": 57.417
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 57.714,
+   "e": 59.471
+  }
+ ]
+}

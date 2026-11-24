@@ -1,0 +1,243 @@
+{
+ "duration": 55.56,
+ "frames30": 1667,
+ "source": "silence-align (cost 0.58)",
+ "segments": [
+  [
+   0.160625,
+   1.61325
+  ],
+  [
+   1.85996,
+   3.66783
+  ],
+  [
+   3.93687,
+   5.91583
+  ],
+  [
+   6.76979,
+   7.77513
+  ],
+  [
+   8.00721,
+   10.4136
+  ],
+  [
+   10.7229,
+   12.2468
+  ],
+  [
+   13.1075,
+   15.1331
+  ],
+  [
+   16.0018,
+   17.1749
+  ],
+  [
+   17.4562,
+   17.9439
+  ],
+  [
+   18.2302,
+   19.6303
+  ],
+  [
+   20.497,
+   22.0325
+  ],
+  [
+   22.2491,
+   22.9855
+  ],
+  [
+   23.208,
+   26.1461
+  ],
+  [
+   27.036,
+   28.0151
+  ],
+  [
+   28.2979,
+   30.8462
+  ],
+  [
+   31.7217,
+   32.5794
+  ],
+  [
+   32.8557,
+   34.1021
+  ],
+  [
+   34.4015,
+   35.7081
+  ],
+  [
+   36.5245,
+   37.4663
+  ],
+  [
+   37.7389,
+   40.8427
+  ],
+  [
+   41.7119,
+   43.1615
+  ],
+  [
+   43.4472,
+   45.1677
+  ],
+  [
+   46.0305,
+   46.8817
+  ],
+  [
+   47.2213,
+   50.4093
+  ],
+  [
+   51.2548,
+   52.6995
+  ],
+  [
+   52.992,
+   54.7537
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Em mil novecentos e noventa e dois,",
+   "s": 0.161,
+   "e": 1.613
+  },
+  {
+   "text": "estreou o filme Esqueceram de Mim 2,",
+   "s": 1.86,
+   "e": 3.668
+  },
+  {
+   "text": "com o garoto Kevin perdido em Nova York.",
+   "s": 3.937,
+   "e": 5.916
+  },
+  {
+   "text": "Numa cena r\u00e1pida,",
+   "s": 6.77,
+   "e": 7.775
+  },
+  {
+   "text": "Kevin pergunta a um homem onde fica o sagu\u00e3o do hotel,",
+   "s": 8.007,
+   "e": 10.414
+  },
+  {
+   "text": "e esse homem \u00e9 Donald Trump.",
+   "s": 10.723,
+   "e": 12.247
+  },
+  {
+   "text": "A cena dura cerca de sete segundos.",
+   "s": 13.107,
+   "e": 15.133
+  },
+  {
+   "text": "Acontece que aquele hotel,",
+   "s": 16.002,
+   "e": 17.175
+  },
+  {
+   "text": "o Plaza,",
+   "s": 17.456,
+   "e": 17.944
+  },
+  {
+   "text": "pertencia a Trump na \u00e9poca.",
+   "s": 18.23,
+   "e": 19.63
+  },
+  {
+   "text": "O diretor Chris Columbus disse,",
+   "s": 20.497,
+   "e": 22.032
+  },
+  {
+   "text": "anos depois,",
+   "s": 22.249,
+   "e": 22.985
+  },
+  {
+   "text": "que a equipe queria o sagu\u00e3o e n\u00e3o conseguiria refaz\u00ea-lo num est\u00fadio.",
+   "s": 23.208,
+   "e": 26.146
+  },
+  {
+   "text": "Segundo o diretor,",
+   "s": 27.036,
+   "e": 28.015
+  },
+  {
+   "text": "a participa\u00e7\u00e3o de Trump foi o pre\u00e7o para usar o hotel.",
+   "s": 28.298,
+   "e": 30.846
+  },
+  {
+   "text": "Trump nega isso:",
+   "s": 31.722,
+   "e": 32.579
+  },
+  {
+   "text": "diz que a equipe \u00e9 que pediu,",
+   "s": 32.856,
+   "e": 34.102
+  },
+  {
+   "text": "e que ele nem queria aparecer.",
+   "s": 34.401,
+   "e": 35.708
+  },
+  {
+   "text": "Em dois mil e dezenove,",
+   "s": 36.525,
+   "e": 37.466
+  },
+  {
+   "text": "uma emissora canadense exibiu o filme sem esses sete segundos.",
+   "s": 37.739,
+   "e": 40.843
+  },
+  {
+   "text": "O corte virou assunto por l\u00e1,",
+   "s": 41.712,
+   "e": 43.161
+  },
+  {
+   "text": "e a discuss\u00e3o ainda dura at\u00e9 hoje.",
+   "s": 43.447,
+   "e": 45.168
+  },
+  {
+   "text": "Moral da hist\u00f3ria:",
+   "s": 46.031,
+   "e": 46.882
+  },
+  {
+   "text": "um cameo de sete segundos gera conversa por mais de trinta anos.",
+   "s": 47.221,
+   "e": 50.409
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 51.255,
+   "e": 52.7
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 52.992,
+   "e": 54.754
+  }
+ ]
+}

@@ -195,15 +195,35 @@
    "props": [
     [
      "kit/navio_destroier",
-     -8,
+     -9,
      -42,
-     1.0
+     1.0,
+     {
+      "move": [
+       [
+        -3,
+        -42
+       ],
+       0,
+       0
+      ]
+     }
     ],
     [
      "kit/navio_destroier",
-     8,
+     9,
      -42,
-     1.0
+     1.0,
+     {
+      "move": [
+       [
+        3,
+        -42
+       ],
+       0,
+       0
+      ]
+     }
     ]
    ],
    "fx": [
@@ -221,7 +241,9 @@
    "d0": 48,
    "d1": 40,
    "acao": "comemorar",
-   "say": "Eles cortavam os cabos das redes, e os navios batiam um no outro, de propósito."
+   "say": "Eles cortavam os cabos das redes, e os navios batiam um no outro, de propósito.",
+   "shot_lock": true,
+   "detalhe": false
   },
   {
    "say": "A Islândia ameaçou fechar a base da Otan e rompeu relações com a Inglaterra.",

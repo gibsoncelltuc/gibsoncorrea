@@ -8,11 +8,11 @@ b2 | two | -  | placa: BACALHAU | encena: x_pesca (lift) @8 (acao + som de efeit
 b3 | wide | -  | tropa, placa: 12 · 50 · 200 MILHAS | - | -
 b4 | group | -  | batalha aberta com tiros | - | -
 b5 | low | -  | - | - | -
-b6 | group | -  | - | - | -
+b6 | wide | -  | - | - | -
 b7 | two | -  | batalha aberta com tiros, tropa, placa: OTAN, mapa | encena: x_discute (point) @2 (acao + som de efeito); encena: empurra (push) @3 (acao + som de efeito) | -
-b8 | group | -  | batalha aberta com tiros, tropa, placa: VITÓRIA ISLANDESA | encena: chega (point) @17 (acao + som de efeito) | -
-b9 | two | -  | placa: TUDO POR UM BACALHAU | - | -
-b10 | close | -  | placa: COMENTE! | - | -
+b8 | two | -  | batalha aberta com tiros, tropa, placa: VITÓRIA ISLANDESA | encena: chega (point) @17 (acao + som de efeito) | -
+b9 | close | -  | placa: TUDO POR UM BACALHAU | - | -
+b10 | two | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 19% | medio 58% | aberto 21% | detalhe 1%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 2 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
+Mistura de planos: close 14% | medio 53% | aberto 31% | detalhe 1%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 3 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

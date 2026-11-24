@@ -1,0 +1,243 @@
+{
+ "duration": 59.352,
+ "frames30": 1781,
+ "source": "silence-align (cost 0.54)",
+ "segments": [
+  [
+   0.161042,
+   1.4775
+  ],
+  [
+   1.66821,
+   5.68529
+  ],
+  [
+   6.54629,
+   8.29379
+  ],
+  [
+   8.52608,
+   9.15087
+  ],
+  [
+   9.461,
+   11.3247
+  ],
+  [
+   11.5899,
+   12.7282
+  ],
+  [
+   13.5938,
+   14.4445
+  ],
+  [
+   14.7134,
+   16.6116
+  ],
+  [
+   16.8536,
+   17.6223
+  ],
+  [
+   17.8811,
+   18.5375
+  ],
+  [
+   19.4094,
+   20.9987
+  ],
+  [
+   21.2694,
+   23.4497
+  ],
+  [
+   24.261,
+   27.2048
+  ],
+  [
+   28.0724,
+   32.8605
+  ],
+  [
+   33.7088,
+   36.512
+  ],
+  [
+   36.6806,
+   37.6781
+  ],
+  [
+   38.5362,
+   40.2079
+  ],
+  [
+   40.3991,
+   40.8412
+  ],
+  [
+   41.0667,
+   42.3702
+  ],
+  [
+   43.224,
+   47.2422
+  ],
+  [
+   48.1181,
+   48.917
+  ],
+  [
+   49.1455,
+   51.0615
+  ],
+  [
+   51.3774,
+   52.9127
+  ],
+  [
+   53.1842,
+   54.2006
+  ],
+  [
+   55.043,
+   56.4875
+  ],
+  [
+   56.7801,
+   58.5312
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Em maio de dois mil e dezenove,",
+   "s": 0.161,
+   "e": 1.478
+  },
+  {
+   "text": "a SpaceX decolou com um foguete Falcon 9 com sessenta sat\u00e9lites de uma vez.",
+   "s": 1.668,
+   "e": 5.685
+  },
+  {
+   "text": "O lan\u00e7amento foi em Cabo Canaveral,",
+   "s": 6.546,
+   "e": 8.294
+  },
+  {
+   "text": "na Fl\u00f3rida,",
+   "s": 8.526,
+   "e": 9.151
+  },
+  {
+   "text": "e eram os primeiros sat\u00e9lites do Starlink,",
+   "s": 9.461,
+   "e": 11.325
+  },
+  {
+   "text": "a internet espacial.",
+   "s": 11.59,
+   "e": 12.728
+  },
+  {
+   "text": "Um dia depois,",
+   "s": 13.594,
+   "e": 14.444
+  },
+  {
+   "text": "um rastreador de sat\u00e9lites holand\u00eas,",
+   "s": 14.713,
+   "e": 16.612
+  },
+  {
+   "text": "Marco Langbroek,",
+   "s": 16.854,
+   "e": 17.622
+  },
+  {
+   "text": "filmou o c\u00e9u.",
+   "s": 17.881,
+   "e": 18.538
+  },
+  {
+   "text": "Ele registrou uma fila de luzes,",
+   "s": 19.409,
+   "e": 20.999
+  },
+  {
+   "text": "que levava cerca de tr\u00eas minutos para passar.",
+   "s": 21.269,
+   "e": 23.45
+  },
+  {
+   "text": "Ele viu pelo menos cinquenta e seis objetos brilhando em linha.",
+   "s": 24.261,
+   "e": 27.205
+  },
+  {
+   "text": "Acontece que o site holand\u00eas de avistamentos de OVNIs registrou mais de cento e cinquenta relatos.",
+   "s": 28.072,
+   "e": 32.861
+  },
+  {
+   "text": "Jornais de v\u00e1rios pa\u00edses explicaram que n\u00e3o eram OVNIs,",
+   "s": 33.709,
+   "e": 36.512
+  },
+  {
+   "text": "e sim sat\u00e9lites.",
+   "s": 36.681,
+   "e": 37.678
+  },
+  {
+   "text": "Os sat\u00e9lites ainda estavam juntos,",
+   "s": 38.536,
+   "e": 40.208
+  },
+  {
+   "text": "em fila,",
+   "s": 40.399,
+   "e": 40.841
+  },
+  {
+   "text": "logo depois do lan\u00e7amento.",
+   "s": 41.067,
+   "e": 42.37
+  },
+  {
+   "text": "A imagem da fila de luzes se espalhou por v\u00e1rios pa\u00edses e foi assunto na internet.",
+   "s": 43.224,
+   "e": 47.242
+  },
+  {
+   "text": "Moral da hist\u00f3ria:",
+   "s": 48.118,
+   "e": 48.917
+  },
+  {
+   "text": "se olhar o c\u00e9u e vir uma fila de luzes,",
+   "s": 49.145,
+   "e": 51.062
+  },
+  {
+   "text": "pode ser uma fila de sat\u00e9lites,",
+   "s": 51.377,
+   "e": 52.913
+  },
+  {
+   "text": "e n\u00e3o alien\u00edgenas.",
+   "s": 53.184,
+   "e": 54.201
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 55.043,
+   "e": 56.487
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 56.78,
+   "e": 58.531
+  }
+ ]
+}

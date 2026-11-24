@@ -8,7 +8,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (personagens): ICE, BRI, PES
 - Cenarios: harbor
 - Proibido pela epoca: barril, canhao antigo, caravela, carro antigo, carroca, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, tambor de guerra
-- Tamanho real aplicado: kit/navio_destroier: 30.0 m reais -> escala 8.27 (estava 1.0: pequeno demais)
+- Tamanho real aplicado: kit/navio_destroier: 30.0 m reais -> escala 8.27 (estava 1.0: pequeno demais); kit/navio_encouracado: 30.0 m reais -> escala 8.44 (estava 0.8: pequeno demais); kit/navio_encouracado: 30.0 m reais -> escala 8.44 (estava 0.7: pequeno demais)
 
 ## Itens pesquisados
 

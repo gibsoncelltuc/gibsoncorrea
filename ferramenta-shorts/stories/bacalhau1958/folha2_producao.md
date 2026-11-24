@@ -64,11 +64,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Eles cortavam os cabos das redes, e os navios batiam um no outro, de p...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (0): -
 - Animacao: comemorar
-- Objetos/modelos: kit/navio_destroier
+- Objetos/modelos: kit/navio_destroier, navios de guerra ao fundo, no tamanho real
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabos, navios, proposito, redes
 - RISCOS: nenhum
 
@@ -84,7 +84,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Em mil novecentos e setenta e seis, a Inglaterra cedeu, e a zona de du...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): BRI (variante 0, expressao pained); ICE (variante 0, expressao laugh) | multidao: 0 de BRI/ICE
 - Animacao: conversar | interacao: insiste | batalha encenada
@@ -94,7 +94,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Uma guerra inteira, por causa de um bacalhau.
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): PES (variante 0, expressao laugh)
 - Animacao: conversar
@@ -104,7 +104,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): ICE (variante 0, expressao grin)
 - Animacao: conversar
@@ -123,7 +123,7 @@ crate | b2, b9 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/cod | grandes momentos: b4, b7, b8 | planos abertos: 2 | mistura: close 19% | medio 58% | aberto 21% | detalhe 1%
+- Objeto heroi: kit/cod | grandes momentos: b4, b7, b8 | planos abertos: 3 | mistura: close 14% | medio 53% | aberto 31% | detalhe 1%
 - Interacoes: b2 o outro se aproxima, b7 discutir, b8 insiste
 - RISCOS GERAIS: nenhum
 
