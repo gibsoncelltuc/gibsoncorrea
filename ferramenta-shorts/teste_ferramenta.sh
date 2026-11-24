@@ -140,6 +140,7 @@ grep -q "chov.w\* dentro|goteira|teto furado" mkvideo.py || f "chovia dentro do 
 grep -q "def ingles(q)" pesquisar.py && grep -q "qs += \[ingles(q)" pesquisar.py || f "pesquisa visual so' busca em portugues (Goodyear/Abelhas travaram sem referencia)"
 grep -q "personagem PONTINHO" visivel.mjs && grep -q "'PONTINHO' in txt" autocorrigir_visibilidade.py && grep -q "if n_p and d > 22.0" enquadrar.py || f "personagem vira pontinho com objeto grande (camera a 80 m, Gansos b4)"
 grep -q "v.length < 0.13)" visivel.mjs || f "animal citado pequeno passa com 10% da tela (Gansos b9)"
+grep -q "_hit_fx" mkvideo.py && grep -q "_can_fx" mkvideo.py || f "clarao do tiro sai nos personagens e nao no canhao/objeto atingido (Chaleira b5/b6)"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }
