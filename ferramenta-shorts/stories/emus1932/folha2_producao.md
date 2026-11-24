@@ -150,7 +150,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: loc_campo; hora: desert
-- CAMERA: plano medio, 2 personagens de corpo inteiro
+- CAMERA: plano de grupo (3+ pessoas)
 - PERSONAGENS: AUS na esquerda, expressao pained; AUS na direita, expressao pained; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "6 DIAS" numa placa atras dos personagens, na palavra 1 da frase
