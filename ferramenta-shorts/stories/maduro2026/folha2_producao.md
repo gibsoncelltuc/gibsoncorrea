@@ -2,69 +2,59 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/maduro2026/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py maduro2026` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Numa madrugada de janeiro de dois mil e vinte e seis, Trump autorizou ...
+## Cena b0 - Um presidente foi capturado de madrugada, dentro da própria capital, e...
 - Cenario: interior loja | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): TRU (variante 0, expressao stern); GEN (variante 0, expressao stern)
-- Animacao: conversar | interacao: aproxima-se
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
+- Personagens principais (1): TRU (variante 0, expressao stern) | multidao: 0 de 
+- Animacao: conversar
 - Objetos/modelos: kit/helicopter_air
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, janeiro, operacoes, ultimos
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): madrugada, presidente, propria, tres
 - RISCOS: nenhum
 
-## Cena b1 - O alvo estava em Caracas, a capital da Venezuela.
+## Cena b1 - Foi em janeiro de dois mil e vinte e seis, em Caracas, na Venezuela, n...
 - Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao surprised); POV (variante 1, expressao nervous) | multidao: 6 de POV
 - Animacao: reagir
-- Objetos/modelos: buildings/apartment, buildings/house_two, nature/lamppost
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alvo, capital, venezuela
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, venezuela
 - RISCOS: nenhum
 
 ## Cena b2 - Era o presidente venezuelano Nicolás Maduro, acusado pela justiça amer...
-- Cenario: loc_patio | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Cenario: loc_pista | luz: day | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
-- Personagens principais (2): MAD (variante 0, expressao smug); POV (variante 0, expressao nervous)
-- Animacao: discutir | interacao: discutir
+- Personagens principais (1): MAD (variante 0, expressao smug) | multidao: 0 de 
+- Animacao: discutir
 - Objetos/modelos: kit/helicopter_air
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): narcoterrorismo, presidente
 - RISCOS: nenhum
 
-## Cena b3 - Durante meses, a inteligência americana estudou cada passo dele, em se...
-- Cenario: interior loja | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
-- Personagens principais (2): TRU (variante 0, expressao suspicious); AGE (variante 0, expressao stern, segura paper)
-- Animacao: conversar | interacao: cochichar
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): inteligencia
-- RISCOS: nenhum
-
-## Cena b4 - Às duas da manhã, helicópteros levaram os soldados da Força Delta dire...
-- Cenario: loc_patio | luz: noite | clima: limpo
+## Cena b3 - Às duas da manhã, helicópteros levaram soldados da Força Delta direto ...
+- Cenario: loc_pista | luz: noite | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): SOL (variante 0, expressao stern); SOL (variante 1, expressao angry); SOL (variante 2, expressao stern) | multidao: 14 de SOL
+- Personagens principais (1): SOL (variante 0, expressao stern) | multidao: 0 de 
 - Animacao: encena | batalha encenada
 - Objetos/modelos: kit/helicopter_air
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): complexo, duas, forca, soldados
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): duas, forca
 - RISCOS: nenhum
 
-## Cena b5 - Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do paí...
-- Cenario: loc_pista | luz: noite | clima: limpo
-- Camera: low = camera baixa, dramatica (virada)
+## Cena b4 - Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do paí...
+- Cenario: loc_estudio | luz: noite | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
-- Personagens principais (1): SOL (variante 0, expressao angry)
-- Animacao: conversar
+- Personagens principais (0): - | multidao: 0 de 
+- Animacao: -
 - Objetos/modelos: kit/helicopter_air
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): defesas
 - RISCOS: nenhum
 
-## Cena b6 - Acontece que, em menos de três horas, Maduro foi capturado e levado pa...
+## Cena b5 - Acontece que, em menos de três horas, Maduro foi capturado e levado pa...
 - Cenario: loc_pista | luz: noite | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: low = camera baixa, dramatica (virada)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): SOL (variante 0, expressao stern); MAD (variante 0, expressao shock)
 - Animacao: conversar | interacao: empurrar
@@ -72,18 +62,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): tres, venezuela
 - RISCOS: nenhum
 
-## Cena b7 - Trump acompanhou tudo de longe, na Flórida, ao lado do diretor da CIA ...
+## Cena b6 - Trump acompanhou tudo de longe, na Flórida, ao lado do diretor da CIA ...
 - Cenario: interior loja | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): TRU (variante 0, expressao stern); GEN (variante 0, expressao grin)
-- Animacao: conversar | interacao: avanca e o outro recua
+- Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): diretor, estado, florida, longe, secretario
 - RISCOS: nenhum
 
-## Cena b8 - Maduro foi levado de avião para Nova York, onde responde a um processo...
-- Cenario: loc_cidade | luz: day | clima: limpo
+## Cena b7 - Maduro foi levado de avião para Nova York, onde responde a um processo...
+- Cenario: loc_pista | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): AGE (variante 0, expressao stern); MAD (variante 0, expressao sad)
@@ -92,7 +82,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aviao, justica, processo
 - RISCOS: nenhum
 
-## Cena b9 - Nenhum militar americano morreu. A notícia parou o mundo, e dividiu op...
+## Cena b8 - Nenhum militar americano morreu. A notícia parou o mundo, e dividiu op...
 - Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
@@ -102,17 +92,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): noticia
 - RISCOS: nenhum
 
-## Cena b10 - A operação ganhou um nome que resume tudo: Resolução Absoluta.
-- Cenario: loc_pista | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+## Cena b9 - A operação ganhou um nome que resume tudo: Resolução Absoluta.
+- Cenario: loc_cidade | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
-- Personagens principais (1): TRU (variante 0, expressao smug)
+- Personagens principais (1): TRU (variante 0, expressao smug) | multidao: 0 de 
 - Animacao: comemorar
 - Objetos/modelos: kit/helicopter_air
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): operacao
 - RISCOS: nenhum
 
-## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
@@ -127,26 +117,19 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/helicopter_air | b0, b2, b4, b5, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/apartment | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/house_two | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/lamppost | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/scroll | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-vehicles/airplane | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/helicopter_air | b0, b2, b3, b4, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/scroll | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+vehicles/airplane | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/helicopter_air | grandes momentos: b4, b9 | planos abertos: 3 | mistura: close 27% | medio 61% | aberto 10% | detalhe 2%
-- Interacoes: b0 aproxima-se, b2 discutir, b3 cochichar, b6 empurrar, b7 avanca e o outro recua, b8 entregar
+- Objeto heroi: kit/helicopter_air | grandes momentos: b3, b8 | planos abertos: 3 | mistura: close 22% | medio 62% | aberto 14% | detalhe 2%
+- Interacoes: b5 empurrar, b6 aproxima-se, b7 entregar
 - RISCOS GERAIS: 
-  - objeto heroi (kit/helicopter_air) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py maduro2026  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/maduro2026/moodboard.jpg
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 3 risco(s) em aberto
-- geral: objeto heroi (kit/helicopter_air) sem close de camera
+## RESUMO: 1 risco(s) em aberto
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh maduro2026 bN bM` (so essas cenas).

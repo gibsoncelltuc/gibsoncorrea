@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 03 - Galileu e a Torre de Pisa
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 25 acoes catalogadas, 25 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 5.6s - 16 palavras - plano two
@@ -11,8 +11,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | caíram (3.7s) | EFEITO: dust | poeira + som | OK |
 | 2 | chão (4.4s) | ACAO: tomba | cai sentado no chao + poeira | OK |
-| 3 | - | INTERACAO | susto | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b1 - 5.9s a 13.7s - 22 palavras - plano reveal
 > "Conta a história que, em Pisa, na Itália, por volta de mil quinhentos e noventa, um jovem professor desafiou um sábio famoso."
@@ -29,52 +28,35 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | vai ate o outro | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b3 - 20.0s a 22.6s - 8 palavras - plano group
-> "Todo mundo achava óbvio, e ninguém tinha testado."
+## Cena b3 - 20.0s a 23.3s - 10 palavras - plano group
+> "Mas Galileu Galilei achou estranho e resolveu provar o contrário."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | aproxima-se | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | achou (21.1s) | ACAO: olha | aponta/olha | OK |
+| 2 | - | EMOCAO: determined | o rosto vira "determined" na palavra | OK |
+| 3 | - | INTERACAO | aproxima-se | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
-## Cena b4 - 23.0s a 27.0s - 12 palavras - plano two
-> "Mas Galileu Galilei achou estranho e disse: "Eu vou provar o contrário.""
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | achou (24.1s) | ACAO: olha | aponta/olha | OK |
-| 2 | - | INTERACAO | discutir | OK |
-| 3 | - | ATUACAO | conversar | OK |
-
-## Cena b5 - 27.4s a 33.0s - 16 palavras - plano two
+## Cena b4 - 23.7s a 29.3s - 16 palavras - plano wide
 > "Dizem que ele foi até a torre inclinada de Pisa, com duas bolas de pesos diferentes."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | avanca e o outro recua | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | CHEGADA | alguem entra andando | OK |
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b6 - 33.3s a 38.1s - 14 palavras - plano orbit
+## Cena b5 - 29.6s a 34.4s - 14 palavras - plano wide
 > "Acontece que, quando ele soltou as duas, elas caíram no chão ao mesmo tempo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | soltou (34.8s) | ACAO: x_solta | solta/liberta + brilho | OK |
-| 2 | caíram (36.3s) | EFEITO: dust | poeira + som | OK |
-| 3 | chão (37.0s) | ACAO: tomba | cai sentado no chao + poeira | OK |
+| 1 | soltou (31.1s) | ACAO: x_solta | solta/liberta + brilho | OK |
+| 2 | caíram (32.6s) | EFEITO: dust | poeira + som | OK |
+| 3 | chão (33.3s) | ACAO: tomba | cai sentado no chao + poeira | OK |
 | 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 5 | - | ATUACAO | reagir | OK |
 
-## Cena b7 - 38.5s a 42.2s - 11 palavras - plano group
-> "A plateia ficou de boca aberta, e os professores ficaram bravos."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | INTERACAO | susto | OK |
-| 2 | - | ATUACAO | conversar | OK |
-
-## Cena b8 - 42.6s a 48.5s - 17 palavras - plano two
+## Cena b6 - 34.8s a 40.7s - 17 palavras - plano two
 > "Hoje se discute se isso aconteceu mesmo, porque a história vem de um aluno dele, anos depois."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -82,26 +64,25 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | cochichar | OK |
 | 2 | - | ATUACAO | discutir | OK |
 
-## Cena b9 - 48.9s a 57.0s - 23 palavras - plano group
+## Cena b7 - 41.1s a 49.3s - 23 palavras - plano crowd
 > "Mas em mil novecentos e setenta e um, na Lua, um astronauta soltou um martelo e uma pena, e os dois caíram juntos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | soltou (53.3s) | ACAO: x_solta | solta/liberta + brilho | OK |
-| 2 | caíram (56.7s) | EFEITO: dust | poeira + som | OK |
+| 1 | soltou (45.6s) | ACAO: x_solta | solta/liberta + brilho | OK |
+| 2 | caíram (48.9s) | EFEITO: dust | poeira + som | OK |
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | INTERACAO | pular | OK |
-| 5 | - | ATUACAO | comemorar | OK |
+| 4 | - | ATUACAO | comemorar | OK |
 
-## Cena b10 - 57.4s a 60.4s - 9 palavras - plano close
+## Cena b8 - 49.6s a 52.6s - 9 palavras - plano close
 > "No fim, até a pena deu razão ao Galileu."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | deu (59.3s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 1 | deu (51.5s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b11 - 60.7s a 65.2s - 13 palavras - plano close
+## Cena b9 - 53.0s a 57.4s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

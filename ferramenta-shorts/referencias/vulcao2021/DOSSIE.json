@@ -4,7 +4,7 @@
  "ancoras": {
   "ano": 2021,
   "era": "atual (1950+)",
-  "regiao": "eua",
+  "regiao": "colonial",
   "luz_base": "day",
   "cenarios": [
    "interior loja",
@@ -58,7 +58,7 @@
   "kit/bitcoin",
   "kit/coin",
   "kit/miners",
-  "kit/room_eua_shop",
+  "kit/room_colonial_shop",
   "kit/room_europa_shop",
   "kit/turbina",
   "kit/volcano",

@@ -8,25 +8,14 @@
   "luz_base": "golden",
   "cenarios": [
    "interior madeira",
-   "interior pedra",
    "loc_campo",
-   "loc_montanha"
+   "mountain"
   ],
   "cenarios_trocados": [
-   [
-    "video",
-    "mountain",
-    "loc_montanha"
-   ],
    [
     "cena 1",
     "countryside",
     "loc_campo"
-   ],
-   [
-    "cena 2",
-    "mountain",
-    "loc_montanha"
    ],
    [
     "cena 3",
@@ -34,32 +23,12 @@
     "loc_campo"
    ],
    [
-    "cena 4",
+    "cena 9",
     "countryside",
     "loc_campo"
-   ],
-   [
-    "cena 5",
-    "mountain",
-    "loc_montanha"
-   ],
-   [
-    "cena 6",
-    "mountain",
-    "loc_montanha"
-   ],
-   [
-    "cena 7",
-    "mountain",
-    "loc_montanha"
    ],
    [
     "cena 10",
-    "countryside",
-    "loc_campo"
-   ],
-   [
-    "cena 11",
     "countryside",
     "loc_campo"
    ]
@@ -83,29 +52,49 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
+  "buildings/apartment",
+  "buildings/house_two",
   "kit/coin",
   "kit/dog_sit",
+  "kit/lupa",
   "kit/room_europa_wood",
-  "kit/room_verde_stone",
-  "mk/Barrel",
-  "mk/Bed_Twin1",
   "mk/Bookcase_2",
-  "mk/Cabinet",
   "mk/Chair_1",
   "mk/Chest_Wood",
-  "mk/Nightstand_Shelf",
-  "mk/Stool",
-  "mk/Table_Large"
+  "mk/Table_Large",
+  "nature/lamppost"
  ],
- "pesquisa_visual": {},
+ "pesquisa_visual": {
+  "local": "Fronteira entre Grécia e Bulgária, monte Belasitsa e a cidade de Petrich",
+  "quando": "18 a 29 de outubro de 1925, outono",
+  "participantes": [
+   "soldado grego",
+   "soldados búlgaros",
+   "general Pangalos"
+  ],
+  "roupas": {
+   "GRE": "soldado grego de 1925: farda cáqui-azulada e capacete",
+   "BUL": "soldado búlgaro de 1925: farda cáqui verde e quepe",
+   "PRE": "político de terno escuro e chapéu",
+   "DIP": "diplomata de terno cinza"
+  },
+  "cenario": "posto de fronteira nas montanhas, cidade de Petrich, sala da Liga das Nações em Genebra",
+  "objetos": [
+   "fuzil de 1925"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Incident_at_Petrich",
+   "referencias/cachorro1925/moodboard.jpg"
+  ],
+  "buscas": {
+   "Petrich": "Petrich Bulgaria 1920s",
+   "soldado grego": "Greek soldier 1925 uniform",
+   "soldado búlgaro": "Bulgarian soldier 1925 uniform",
+   "Pangalos": "Theodoros Pangalos 1925 portrait",
+   "exército da época": "Bulgarian soldiers 1920s photograph",
+   "roupas e ruas de 1925": "Bulgaria 1920s street photograph"
+  }
+ },
  "fontes": [],
- "falta": [
-  "local",
-  "quando",
-  "participantes",
-  "roupas",
-  "cenario",
-  "objetos",
-  "fontes_visuais"
- ]
+ "falta": []
 }

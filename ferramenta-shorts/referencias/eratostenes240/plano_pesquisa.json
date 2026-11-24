@@ -12,6 +12,14 @@
   },
   {
    "tipo": "lugar",
+   "item": "Alexandria (Egito): Biblioteca e patio com obelisco; Siena (Assua): poco no dese",
+   "consultas": [
+    "Alexandria",
+    "Alexandria Egito"
+   ]
+  },
+  {
+   "tipo": "lugar",
    "item": "Egito",
    "consultas": [
     "Egito",
@@ -19,10 +27,59 @@
    ]
   },
   {
+   "tipo": "pessoas",
+   "item": "Eratostenes (tunica grega branca e manto, barba)",
+   "consultas": [
+    "Eratostenes tunica grega branca e manto barba"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "bibliotecario assistente",
+   "consultas": [
+    "bibliotecario assistente"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "camelos e caravana para medir a distancia",
+   "consultas": [
+    "camelos e caravana para medir a distancia"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "vara (gnomon)",
+   "consultas": [
+    "vara"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "poco de pedra",
+   "consultas": [
+    "poco de pedra"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "rolos de papiro",
+   "consultas": [
+    "rolos de papiro"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "globo",
+   "consultas": [
+    "globo"
+   ]
+  },
+  {
    "tipo": "heroi",
    "item": "globe",
    "consultas": [
-    "globe",
+    "vara",
     "Eratóstenes Mede a Terra"
    ]
   },

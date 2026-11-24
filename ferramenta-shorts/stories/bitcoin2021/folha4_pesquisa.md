@@ -3,7 +3,7 @@
 Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, vestir e animar. `python3 pesquisar.py bitcoin2021` busca cada item na internet, baixa os prints (referencias/bitcoin2021/prints/) e monta o quadro referencias/bitcoin2021/moodboard.jpg. OLHE o quadro antes de aprovar o storyboard.
 
 - Historia: O País do Bitcoin
-- Epoca: 2021 | Lugar: ? | Quando: ?
+- Epoca: 2021 | Lugar: Ruas e feiras de El Salvador, Assembleia Legislativa e mercados de San Salvador, 2021 | Quando: junho a setembro de 2021, dia
 - HEROIS (objeto): kit/bitcoin, kit/volcano
 - HEROIS (personagens): BUK, CLI
 - Cenarios: interior pedra, loc_cidade, loc_patio, loc_pista
@@ -14,14 +14,25 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | O País do Bitcoin | O País do Bitcoin / Em El Salvador América Central Nayib Bukele 2021 | SEM REFERENCIA
-lugar | El Salvador | El Salvador 2021 / El Salvador landscape | SEM REFERENCIA
-epoca | roupas e ruas de 2021 | 2021 fashion clothing / 2021 street photograph | SEM REFERENCIA
-heroi | bitcoin | bitcoin / O País do Bitcoin | SEM REFERENCIA
-heroi | volcano | volcano | SEM REFERENCIA
+tema | O País do Bitcoin | El Salvador bitcoin legal tender 2021 Chivo / O País do Bitcoin / Um Foi El Salvador América Central Nayib Bukele Ele 2021 | manual: fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)
+lugar | Ruas e feiras de El Salvador, Assembleia Legislativa e mercados de San Salvador, | San Salvador market street 2021 / Ruas e feiras de El Salvador Assembleia Legislativa e mercados de San Salvador 2021 / Ruas e feiras de El Salvador Assembleia Legislativa e mercados de San Salvador 2021 2021 | manual: fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)
+lugar | El Salvador | El Salvador 2021 / El Salvador landscape | manual: fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)
+epoca | roupas e ruas de 2021 | 2021 fashion clothing / 2021 street photograph | manual: fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)
+pessoas | presidente Nayib Bukele (jaqueta escura e bone) | presidente Nayib Bukele jaqueta escura e bone / presidente Nayib Bukele jaqueta escura e bone 2021 | manual: fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)
+pessoas | deputados da Assembleia Legislativa de terno | deputados da Assembleia Legislativa de terno / deputados da Assembleia Legislativa de terno 2021 | manual: fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)
+pessoas | comerciantes de chapeu de palha e camisa laranja | comerciantes de chapeu de palha e camisa laranja / comerciantes de chapeu de palha e camisa laranja 2021 | manual: fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)
+pessoas | clientes comuns de camisa verde | clientes comuns de camisa verde / clientes comuns de camisa verde 2021 | manual: fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)
+objeto | moeda de bitcoin | moeda de bitcoin / moeda de bitcoin 2021 | manual: fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)
+objeto | carteira digital Chivo | carteira digital Chivo / carteira digital Chivo 2021 | manual: fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)
+objeto | barraca de feira | barraca de feira / barraca de feira 2021 | manual: fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)
+objeto | globo | globo / globo 2021 | manual: fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)
+heroi | bitcoin | moeda de bitcoin / O País do Bitcoin | manual: fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)
+heroi | volcano | volcano | manual: fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)
 
 ## Explicacoes (como funciona, com fonte)
-- -
+- Bukele anunciou o projeto em 5 de junho de 2021; a Assembleia aprovou a Lei do Bitcoin em 9 de junho (62 de 84 votos) e ela entrou em vigor em 7 de setembro de 2021 (fonte: Wikipedia Bitcoin in El Salvador)
+- O governo prometeu US$ 30 em bitcoin a quem se cadastrasse na carteira Chivo, que ficou fora do ar por horas no lancamento; pesquisa da UCA: 68% discordavam da decisao e 9 em 10 nao entendiam o que era bitcoin (fonte: Wikipedia Bitcoin in El Salvador)
 
 ## Fontes visuais do roteirista
-- -
+- https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador
+- https://commons.wikimedia.org/wiki/Category:Bitcoin

@@ -33,19 +33,44 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
+  "kit/ball",
   "kit/cybertruck",
   "kit/globe",
   "kit/steel_ball"
  ],
- "pesquisa_visual": {},
+ "pesquisa_visual": {
+  "local": "Tesla Design Studio, Hawthorne, California: palco escuro com luzes de neon e plateia",
+  "quando": "21 de novembro de 2019, noite",
+  "participantes": [
+   "Elon Musk (jaqueta de couro preta)",
+   "designer Franz von Holzhausen (camiseta preta)",
+   "plateia de convidados"
+  ],
+  "roupas": {
+   "MUS": "jaqueta de couro preta",
+   "DSG": "camiseta preta e calca escura",
+   "POV": "roupa casual"
+  },
+  "cenario": "palco escuro com luzes de neon, a picape angular de aco no centro, telao atras",
+  "objetos": [
+   "Cybertruck de aco inox",
+   "esfera de aco",
+   "marreta"
+  ],
+  "explicacoes": [
+   "No lancamento do Cybertruck (21/11/2019) a esfera de aco rachou as duas janelas \"armor glass\"; Musk disse \"it didn't go through, that's the plus side\"; dias depois anunciou 146 mil reservas (fonte: Wikipedia Tesla Cybertruck)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Tesla_Cybertruck"
+  ],
+  "locacoes": [
+   "hall"
+  ],
+  "buscas": {
+   "lancamento": "Cybertruck unveiling 2019 broken window",
+   "picape": "Tesla Cybertruck 2019 prototype"
+  }
+ },
  "fontes": [],
- "falta": [
-  "local",
-  "quando",
-  "participantes",
-  "roupas",
-  "cenario",
-  "objetos",
-  "fontes_visuais"
- ]
+ "falta": []
 }

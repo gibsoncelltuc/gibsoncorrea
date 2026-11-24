@@ -153,7 +153,7 @@
    "cenario": "harbor"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "TYC"
    ],
@@ -216,7 +216,7 @@
    "cenario": "medieval"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "TYC"
    ],

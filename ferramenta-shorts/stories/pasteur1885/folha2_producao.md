@@ -4,10 +4,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Um menino de nove anos foi o primeiro a receber a vacina contra a raiv...
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): PAS (variante 0, expressao smile); MAE (variante 0, expressao nervous)
-- Animacao: conversar | interacao: susto
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Personagens principais (1): PAS (variante 0, expressao smile) | multidao: 0 de 
+- Animacao: conversar
 - Objetos/modelos: kit/syringe
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): menino, nove, raiva, receber, vacina
 - RISCOS: nenhum
@@ -37,7 +37,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): PAS (variante 0, expressao suspicious); MED (variante 0, expressao nervous)
-- Animacao: conversar | interacao: cochichar
+- Animacao: conversar | interacao: susto
 - Objetos/modelos: kit/syringe
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pessoa, vacina
 - RISCOS: nenhum
@@ -94,10 +94,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Hoje o Instituto Pasteur, em Paris, ainda leva o nome dele, e a vacina...
 - Cenario: hall | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): POV (variante 0, expressao laugh); MED (variante 0, expressao grin) | multidao: 14 de POV/MED/MAE
-- Animacao: comemorar | interacao: pular | batalha encenada
+- Animacao: comemorar | batalha encenada
 - Objetos/modelos: kit/syringe
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): instituto, vacina
 - RISCOS: nenhum
@@ -131,15 +131,17 @@ kit/syringe | b0, b3, b6, b9 | pronto (HEROI: aparece em close) | conferir na fo
 
 
 ## Video inteiro
-- Objeto heroi: kit/syringe | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 22% | medio 67% | aberto 9% | detalhe 2%
-- Interacoes: b0 susto, b2 avanca e o outro recua, b3 cochichar, b4 o outro se aproxima, b8 cochichar, b9 pular
+- Objeto heroi: kit/syringe | grandes momentos: b6, b9 | planos abertos: 3 | mistura: close 24% | medio 63% | aberto 13% | detalhe 0%
+- Interacoes: b2 avanca e o outro recua, b3 susto, b4 o outro se aproxima, b8 cochichar
 - RISCOS GERAIS: 
-  - video com ~67 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
+  - objeto heroi (kit/syringe) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
+  - video com ~74 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py pasteur1885  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/pasteur1885/moodboard.jpg
   - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 3 risco(s) em aberto
-- geral: video com ~67 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+## RESUMO: 4 risco(s) em aberto
+- geral: objeto heroi (kit/syringe) sem close de camera
+- geral: video com ~74 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 - geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 

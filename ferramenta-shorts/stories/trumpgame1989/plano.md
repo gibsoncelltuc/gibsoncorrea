@@ -11,10 +11,10 @@ b5 | group | -  | interior | comprou (stars + som de sino); encena: negocio (rea
 b6 | crowd | -  | batalha aberta com tiros, tropa, placa: 800 MIL | vender (stars + som de sino); Vendeu (stars + som de sino); fracasso (puff + som de baque); encena: x_espera (cross) @2 (acao + som de efeito); encena: negocio (reach) @3 (acao + som de efeito); encena: negocio (reach) @8 (acao + som de efeito); encena: perde (facepalm) @14 (acao + som de efeito) | -
 b7 | two | -  | interior | encena: sai @2 (acao + som de efeito) | -
 b8 | two | -  | - | - | -
-b9 | group | -  | batalha aberta com tiros, tropa, placa: VOLTOU | encena: chega (point) @3 (acao + som de efeito) | -
+b9 | crowd | -  | batalha aberta com tiros, tropa, placa: VOLTOU | encena: chega (point) @3 (acao + som de efeito) | -
 b10 | two | -  | interior | - | -
-b11 | group | -  | - | - | -
+b11 | two | -  | - | - | -
 b12 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 16% | medio 70% | aberto 7% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 2 | dentro do padrao do canal
+Mistura de planos: close 18% | medio 65% | aberto 11% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 3 | dentro do padrao do canal

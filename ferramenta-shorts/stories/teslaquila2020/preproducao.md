@@ -15,7 +15,7 @@ b7 | loc_cidade | crowd | 23 | comemorar, batalha | kit/tequila_bolt, kit/marco_
 b8 | interior loja | two | 2 | reagir, INTERAGEM: entregar, alguem chega andando | kit/tequila_bolt | paper | -
 b9 | interior loja | group | 2 | conversar, INTERAGEM: vai ate o outro | kit/tequila_bolt | - | -
 b10 | loc_cidade | orbit | 21 | comemorar, batalha | kit/tequila_bolt, kit/marco_mexico | - | -
-b11 | loc_patio | close | 1 | comemorar | kit/tequila_bolt | - | -
+b11 | loc_patio | two | 1 | comemorar | kit/tequila_bolt | - | -
 b12 | loc_cidade | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/tequila_bolt

@@ -116,10 +116,9 @@
    "cenario": "stadium"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
-    "LAS",
-    "UMA"
+    "LAS"
    ],
    "multidao": 0,
    "objetos": [
@@ -135,12 +134,11 @@
    "cenario": "stadium"
   },
   {
-   "camera": "low",
+   "camera": "group",
    "personagens": [
-    "JUI",
-    "UMA"
+    "JUI"
    ],
-   "multidao": 5,
+   "multidao": 30,
    "objetos": [
     "kit/ring"
    ],
@@ -156,11 +154,9 @@
   {
    "camera": "orbit",
    "personagens": [
-    "LAS",
-    "TRU",
-    "POV"
+    "LAS"
    ],
-   "multidao": 22,
+   "multidao": 0,
    "objetos": [
     "kit/ball",
     "kit/ring"
@@ -181,10 +177,9 @@
    "cenario": "stadium"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
-    "TRU",
-    "VIN"
+    "TRU"
    ],
    "multidao": 0,
    "objetos": [
@@ -221,10 +216,9 @@
    "cenario": "stadium"
   },
   {
-   "camera": "group",
+   "camera": "close",
    "personagens": [
-    "JUI",
-    "TRU"
+    "JUI"
    ],
    "multidao": 0,
    "objetos": [

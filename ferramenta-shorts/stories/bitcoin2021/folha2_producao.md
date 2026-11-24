@@ -2,18 +2,18 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/bitcoin2021/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py bitcoin2021` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Em dois mil e vinte e um, um país fez algo que nenhum outro tinha feit...
-- Cenario: loc_cidade | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): BUK (variante 0, expressao smile); POV (variante 0, expressao surprised)
+## Cena b0 - Um país aceitou o bitcoin como dinheiro, e nove em dez moradores não e...
+- Cenario: loc_cidade | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (2): BUK (variante 0, expressao smile); POV (variante 0, expressao surprised) | multidao: 12 de BUK/POV
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/bitcoin, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bitcoin
 - RISCOS: nenhum
 
-## Cena b1 - O país era El Salvador, na América Central, e a ideia foi do president...
-- Cenario: loc_cidade | luz: day | clima: limpo
+## Cena b1 - Foi em El Salvador, na América Central, e a ideia foi do presidente Na...
+- Cenario: loc_cidade | luz: golden | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): BUK (variante 0, expressao smug) | multidao: 8 de POV
@@ -22,78 +22,78 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): america, presidente
 - RISCOS: nenhum
 
-## Cena b2 - A lei foi aprovada pelo congresso em junho daquele ano.
-- Cenario: interior pedra | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (3): DEP (variante 0, expressao neutral); BUK (variante 0, expressao smile); CLI (variante 0, expressao neutral)
+## Cena b2 - Ele anunciou o projeto em junho de dois mil e vinte e um, e o congress...
+- Cenario: interior pedra | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Personagens principais (2): DEP (variante 0, expressao neutral); BUK (variante 0, expressao smile)
 - Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/bitcoin
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): congresso, dois, projeto
 - RISCOS: nenhum
 
-## Cena b3 - E passou a valer em sete de setembro de dois mil e vinte e um.
-- Cenario: loc_pista | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+## Cena b3 - A lei passou a valer em sete de setembro, e o país foi o primeiro do m...
+- Cenario: loc_pista | luz: golden | clima: limpo
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): BUK (variante 0, expressao grin); POV (variante 0, expressao smile) | multidao: 8 de POV/CLI/DEP
-- Animacao: - | batalha encenada
+- Animacao: encena | batalha encenada
 - Objetos/modelos: kit/volcano
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, setembro, valer
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fazer, setembro, valer
 - RISCOS: nenhum
 
-## Cena b4 - Com isso, dava para pagar as compras com bitcoin.
-- Cenario: loc_pista | luz: noite | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): CLI (variante 0, expressao smile, segura coin); POV (variante 0, expressao grin)
-- Animacao: conversar | interacao: entregar
+## Cena b4 - Para convencer o povo, o governo prometeu trinta dólares em bitcoin a ...
+- Cenario: loc_pista | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (2): CLI (variante 0, expressao smile, segura coin); POV (variante 0, expressao grin) | multidao: 12 de CLI/POV
+- Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/stall, kit/bitcoin
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bitcoin, compras, isso
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): carteira, governo, povo
 - RISCOS: nenhum
 
-## Cena b5 - O governo lançou até uma carteira digital, chamada Chivo.
-- Cenario: loc_pista | luz: day | clima: limpo
+## Cena b5 - Acontece que, no lançamento, o aplicativo ficou fora do ar por algumas...
+- Cenario: loc_pista | luz: golden | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (1): CLI (variante 0, expressao surprised)
-- Animacao: conversar
+- Personagens principais (1): CLI (variante 0, expressao surprised) | multidao: 10 de POV
+- Animacao: conversar | batalha encenada
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): carteira, governo
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aplicativo, lancamento
 - RISCOS: nenhum
 
-## Cena b6 - Nas primeiras horas, o aplicativo ficou fora do ar, por excesso de ace...
-- Cenario: loc_pista | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): CLI (variante 0, expressao nervous); POV (variante 0, expressao shock) | multidao: 12 de POV
-- Animacao: discutir | batalha encenada
+## Cena b6 - Uma pesquisa da Universidade Centro-Americana mostrou que sessenta e o...
+- Cenario: loc_pista | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (2): CLI (variante 0, expressao nervous); POV (variante 0, expressao shock)
+- Animacao: discutir | interacao: discutir
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): acessos, aplicativo, primeiras
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): decisao, pesquisa, universidade
 - RISCOS: nenhum
 
-## Cena b7 - Foi o primeiro país do mundo a fazer isso, e o assunto virou conversa ...
-- Cenario: loc_patio | luz: day | clima: limpo
+## Cena b7 - Mesmo assim, a moeda digital virou assunto no mundo inteiro.
+- Cenario: loc_patio | luz: golden | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): BUK (variante 0, expressao grin); DEP (variante 0, expressao laugh) | multidao: 6 de POV/CLI
-- Animacao: -
-- Objetos/modelos: kit/globe, kit/volcano
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): assunto, fazer, planeta
+- Animacao: encena
+- Objetos/modelos: kit/globe, kit/volcano, kit/bitcoin, kit/coin
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): moeda
 - RISCOS: nenhum
 
 ## Cena b8 - Uma moeda digital, uma lei nova e um país no centro das atenções.
-- Cenario: loc_patio | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Cenario: loc_patio | luz: golden | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (3): BUK (variante 0, expressao smile); POV (variante 0, expressao grin); CLI (variante 0, expressao laugh)
-- Animacao: conversar | interacao: insiste
+- Animacao: conversar | interacao: vai ate o outro
 - Objetos/modelos: kit/bitcoin, kit/coin
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): atencoes, centro, moeda
 - RISCOS: nenhum
 
 ## Cena b9 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: loc_cidade | luz: day | clima: limpo
+- Cenario: loc_cidade | luz: golden | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): BUK (variante 0, expressao grin)
@@ -107,27 +107,21 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/bitcoin | b0, b2, b4, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/bitcoin | b0, b2, b4, b7, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/volcano | b0, b1, b3, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/stall | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/globe | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/coin | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/coin | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/bitcoin | grandes momentos: b3, b6 | planos abertos: 4 | mistura: close 20% | medio 46% | aberto 26% | detalhe 8%
-- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b4 entregar, b8 insiste
+- Objeto heroi: kit/bitcoin | grandes momentos: b3, b5 | planos abertos: 3 | mistura: close 20% | medio 63% | aberto 17% | detalhe 0%
+- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b4 insiste, b6 discutir, b8 vai ate o outro
 - RISCOS GERAIS: 
-  - o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa) -> CORRECAO: reescrever a 1a frase com o fato mais absurdo da historia (sem ano); a data entra na 2a frase ou no mapa
-  - video com ~47 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py bitcoin2021  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/bitcoin2021/moodboard.jpg
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 4 risco(s) em aberto
-- geral: o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa)
-- geral: video com ~47 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+## RESUMO: 1 risco(s) em aberto
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh bitcoin2021 bN bM` (so essas cenas).

@@ -3,10 +3,10 @@
 Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, vestir e animar. `python3 pesquisar.py franklin1752` busca cada item na internet, baixa os prints (referencias/franklin1752/prints/) e monta o quadro referencias/franklin1752/moodboard.jpg. OLHE o quadro antes de aprovar o storyboard.
 
 - Historia: Franklin, a Pipa e o Raio
-- Epoca: 1752 | Lugar: ? | Quando: ?
+- Epoca: 1752 | Lugar: Filadelfia, colonia da Pensilvania: campo aberto perto de um galpao, ruas de tijolo | Quando: junho de 1752, tarde de tempestade
 - HEROIS (objeto): kit/kite
 - HEROIS (personagens): FRA, FIL
-- Cenarios: interior loja, interior madeira, interior pedra, loc_campo, street
+- Cenarios: countryside, interior loja, interior madeira, street
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
@@ -15,12 +15,21 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
 tema | Franklin, a Pipa e o Raio | Franklin a Pipa e o Raio / Um Era Filadélfia Benjamin Franklin Na 1752 | SEM REFERENCIA
+lugar | Filadelfia, colonia da Pensilvania: campo aberto perto de um galpao, ruas de tij | Filadelfia colonia da Pensilvania / Filadelfia colonia da Pensilvania 1752 | SEM REFERENCIA
 lugar | Estados Unidos | Estados Unidos 1752 / Estados Unidos landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1752 | 1752 fashion clothing / 18th century clothing painting | SEM REFERENCIA
-heroi | kite | kite / Franklin a Pipa e o Raio | SEM REFERENCIA
+pessoas | Benjamin Franklin (casaca marrom, colete, culotes, cabelo grisalho com | Benjamin Franklin casaca marrom colete culotes cabelo grisalho comprido / Benjamin Franklin casaca marrom colete culotes cabelo grisalho comprido 1752 | SEM REFERENCIA
+pessoas | filho William | filho William / filho William 1752 | SEM REFERENCIA
+pessoas | moradores coloniais | moradores coloniais / moradores coloniais 1752 | SEM REFERENCIA
+objeto | pipa de seda | pipa de seda / pipa de seda 1752 | SEM REFERENCIA
+objeto | chave de metal | chave de metal / chave de metal 1752 | SEM REFERENCIA
+objeto | garrafa de Leyden | garrafa de Leyden / garrafa de Leyden 1752 | SEM REFERENCIA
+objeto | para-raios | para-raios / para-raios 1752 | SEM REFERENCIA
+heroi | kite | pipa de seda / Franklin a Pipa e o Raio | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
-- -
+- Experimento da pipa (1752): a chave na linha molhada soltou faiscas, mostrando que a nuvem tinha carga eletrica; Franklin inventou o para-raios (fonte: Wikipedia Kite experiment, Lightning rod)
 
 ## Fontes visuais do roteirista
-- -
+- https://en.wikipedia.org/wiki/Kite_experiment
+- https://commons.wikimedia.org/wiki/Category:Benjamin_Franklin

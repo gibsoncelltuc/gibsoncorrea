@@ -2,8 +2,8 @@
 
 - Ano/epoca: 2002 (atual (1950+))
 - Onde: Escritórios do PayPal em Palo Alto/Mountain View (Califórnia) e sede do eBay em San Jose: salas de escritório de tecnologia com mesas e computadores
-- Quando: julho de 2002 (anúncio da compra em 8/jul), de dia
-- Quem: ['Elon Musk (maior acionista do PayPal)', 'Meg Whitman (CEO do eBay)', 'equipe do PayPal']
+- Quando: 8 de julho de 2002 (anúncio da compra; concluída em 3 de outubro de 2002), de dia
+- Quem: ['Elon Musk (maior acionista do PayPal)', 'equipe do PayPal', 'representante do eBay']
 - Roupas: {'MUS': 'camisa social azul sem gravata, calça escura', 'EBY': 'terninho e camisa social', 'POV': 'camiseta e jeans de startup'}
 - Cenario real: escritório de startup da virada dos anos 2000: mesas, monitores CRT, quadro branco; rua comercial do Vale do Silício
 - Objetos: ['monitor de computador', 'moedas/dólares', 'foguete (SpaceX, fundada em 2002)']
@@ -12,12 +12,13 @@
 - Proibido pelo roteiro: -
 
 ## Explicacoes (ciencia)
-- -
+- O PayPal permitia enviar dinheiro pelo e-mail; o eBay o comprou por 1,5 bilhão de dólares em ações e a compra foi concluída em 3 de outubro de 2002 (fonte: https://en.wikipedia.org/wiki/PayPal)
 
 ## Fontes visuais
 - https://en.wikipedia.org/wiki/PayPal
-- https://en.wikipedia.org/wiki/Elon_Musk
 - https://en.wikipedia.org/wiki/SpaceX
+- https://en.wikipedia.org/wiki/Tesla,_Inc.
+- referencias/paypal2002/moodboard.jpg
 
 ## Fontes da historia
 - https://en.wikipedia.org/wiki/PayPal

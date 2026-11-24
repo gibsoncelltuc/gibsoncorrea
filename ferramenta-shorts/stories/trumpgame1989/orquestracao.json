@@ -22,7 +22,7 @@
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
   "explicacoes_cobertas": 100,
-  "cenario_e_epoca_ok": 0
+  "cenario_e_epoca_ok": 100
  },
  "cenas": [
   {
@@ -203,7 +203,7 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "group",
+   "camera": "crowd",
    "personagens": [
     "TRU",
     "POV",
@@ -250,7 +250,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "TRU"
    ],

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 21 - A Volta de Trump
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 47 acoes catalogadas, 47 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 46 acoes catalogadas, 46 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 6.3s - 18 palavras - plano two
@@ -18,7 +18,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 7 | - | ATUACAO | conversar | OK |
 | 8 | - | PLACA | 2024 | OK |
 
-## Cena b1 - 6.7s a 11.9s - 15 palavras - plano reveal
+## Cena b1 - 6.7s a 11.9s - 15 palavras - plano wide
 > "Foi em cinco de novembro de dois mil e vinte e quatro, nos Estados Unidos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -87,13 +87,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | aproxima-se | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b8 - 43.3s a 48.9s - 16 palavras - plano two
+## Cena b8 - 43.3s a 48.9s - 16 palavras - plano group
 > "Em vinte de janeiro de dois mil e vinte e cinco, ele tomou posse de novo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | entregar | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | conversar | OK |
 
 ## Cena b9 - 49.3s a 54.8s - 16 palavras - plano orbit
 > "Ele tinha sido o presidente número quarenta e cinco. Agora era o número quarenta e sete."
@@ -103,7 +102,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 2 | - | PLACA | 47º | OK |
 
-## Cena b10 - 55.2s a 58.9s - 11 palavras - plano close
+## Cena b10 - 55.2s a 58.9s - 11 palavras - plano two
 > "Perdeu, voltou e ganhou. Uma das maiores viradas da política americana."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -115,7 +114,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | ganhou (56.3s) | ACAO: vence | bracos para cima + brilho | OK |
 | 6 | - | ATUACAO | comemorar | OK |
 
-## Cena b11 - 59.3s a 63.7s - 13 palavras - plano two
+## Cena b11 - 59.3s a 63.7s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

@@ -6,14 +6,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (2): JOS (variante 0, expressao grin); ETI (variante 0, expressao nervous)
-- Animacao: conversar | interacao: susto
+- Personagens principais (1): JOS (variante 0, expressao grin) | multidao: 0 de 
+- Animacao: conversar
 - Objetos/modelos: kit/balloon, kit/marco_versalhes, sheep, duck, rooster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balao, galo, ovelha, pato, primeiros
 - RISCOS: nenhum
 
 ## Cena b1 - Era mil setecentos e oitenta e três, na França.
-- Cenario: loc_campo | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
@@ -22,30 +22,30 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca
 - RISCOS: nenhum
 
-## Cena b2 - Os irmãos Montgolfier, donos de uma fábrica de papel, repararam que a ...
-- Cenario: loc_campo | luz: day | clima: limpo
+## Cena b2 - Os irmãos Montgolfier, donos de uma fábrica de papel, viram que a fuma...
+- Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): JOS (variante 0, expressao surprised); ETI (variante 0, expressao suspicious)
 - Animacao: conversar | interacao: avanca e o outro recua
-- Objetos/modelos: kit/campfire, kit/marco_versalhes
+- Objetos/modelos: kit/campfire
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fabrica, fumaca, irmaos, papel
 - RISCOS: nenhum
 
-## Cena b3 - Então costuraram um balão gigante de pano e papel, e encheram de ar qu...
+## Cena b3 - Então fizeram um balão gigante de pano e papel, cheio de ar quente.
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): ETI (variante 0, expressao grin); JOS (variante 0, expressao grin, segura paper)
-- Animacao: conversar | interacao: o outro se aproxima
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Personagens principais (1): ETI (variante 0, expressao grin) | multidao: 0 de 
+- Animacao: conversar
 - Objetos/modelos: kit/balloon
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balao, pano
 - RISCOS: nenhum
 
-## Cena b4 - Só que ninguém sabia se dava para respirar lá em cima. E se o ar do cé...
+## Cena b4 - Só que ninguém sabia se dava para respirar lá em cima.
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): NOB (variante 0, expressao suspicious); ETI (variante 0, expressao nervous)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: -
@@ -54,77 +54,67 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - A solução: mandar bichos na frente. Uma ovelha, um pato e um galo entr...
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (1): JOS (variante 0, expressao smile)
+- Personagens principais (1): JOS (variante 0, expressao smile) | multidao: 0 de 
 - Animacao: conversar
-- Objetos/modelos: kit/balloon, sheep, duck, rooster
+- Objetos/modelos: kit/balloon, kit/marco_versalhes, sheep, duck, rooster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cesta, frente, galo, ovelha, pato, solucao
 - RISCOS: nenhum
 
-## Cena b6 - No palácio de Versalhes, o rei Luís dezesseis e a rainha Maria Antonie...
-- Cenario: palace | luz: day | clima: limpo
+## Cena b6 - Em Versalhes, o rei Luís dezesseis e Maria Antonieta assistiram, no me...
+- Cenario: street | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): REI (variante 0, expressao smile); RAI (variante 0, expressao surprised); NOB (variante 0, expressao grin) | multidao: 30 de POV/NOB
+- Personagens principais (1): REI (variante 0, expressao smile) | multidao: 30 de POV/NOB
 - Animacao: encena | batalha encenada
 - Objetos/modelos: kit/balloon, kit/marco_versalhes
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): multidao, palacio, rainha, versalhes
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): multidao
 - RISCOS: nenhum
 
-## Cena b7 - Acontece que o balão levantou voo de verdade, e foi embora pelo céu, c...
+## Cena b7 - Acontece que o balão levantou voo de verdade, com os bichos dentro.
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (2): POV (variante 0, expressao shock); POV (variante 1, expressao surprised)
-- Animacao: reagir | interacao: insiste
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): POV (variante 0, expressao shock) | multidao: 0 de 
+- Animacao: reagir
 - Objetos/modelos: kit/balloon_air, kit/marco_versalhes, kit/balloon
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balao, bichos
 - RISCOS: nenhum
 
-## Cena b8 - Oito minutos depois, ele desceu num bosque a uns três quilômetros dali...
+## Cena b8 - Oito minutos depois, ele desceu num bosque a três quilômetros dali, e ...
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (2): ETI (variante 0, expressao nervous); JOS (variante 0, expressao worried)
-- Animacao: reagir | interacao: vai ate o outro | o ultimo personagem ENTRA andando
-- Objetos/modelos: kit/balloon, nature/tree_pine, nature/tree_oak, nature/bush
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): irmaos
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): ETI (variante 0, expressao nervous) | multidao: 0 de 
+- Animacao: reagir
+- Objetos/modelos: kit/balloon, kit/marco_versalhes, nature/tree_pine, nature/tree_oak, nature/bush, sheep, duck, rooster
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bichos, tres
 - RISCOS: nenhum
 
-## Cena b9 - Os três bichos estavam vivos e bem! Dava para respirar no céu.
-- Cenario: loc_campo | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): JOS (variante 0, expressao laugh); ETI (variante 0, expressao laugh)
-- Animacao: conversar | interacao: abracar
-- Objetos/modelos: sheep, duck, rooster
+## Cena b9 - Dois meses depois, outro balão levou dois homens por cima de Paris.
+- Cenario: street | luz: day | clima: limpo
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (1): POV (variante 0, expressao laugh) | multidao: 0 de 
+- Animacao: comemorar | batalha encenada
+- Objetos/modelos: kit/balloon_air, kit/marco_versalhes, kit/balloon
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): paris
+- RISCOS: nenhum
+
+## Cena b10 - Tudo graças a três bichos corajosos.
+- Cenario: loc_montanha | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto
+- Personagens principais (1): ETI (variante 0, expressao smile) | multidao: 0 de 
+- Animacao: conversar
+- Objetos/modelos: kit/balloon, kit/marco_versalhes, sheep, duck, rooster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): tres
 - RISCOS: nenhum
 
-## Cena b10 - Dois meses depois, foi a vez de dois homens voarem sobre Paris. A huma...
-- Cenario: loc_campo | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): POV (variante 0, expressao laugh); JOS (variante 0, expressao laugh); ETI (variante 0, expressao grin) | multidao: 18 de POV
-- Animacao: comemorar | batalha encenada
-- Objetos/modelos: kit/balloon_air, kit/marco_versalhes
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, humanidade
-- RISCOS: nenhum
-
-## Cena b11 - E tudo graças a uma ovelha, um pato e um galo corajosos.
-- Cenario: loc_campo | luz: day | clima: limpo
+## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Cenario: loc_montanha | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (1): ETI (variante 0, expressao smile)
-- Animacao: conversar
-- Objetos/modelos: kit/balloon, sheep, duck, rooster
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): galo, ovelha, pato
-- RISCOS: nenhum
-
-## Cena b12 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: loc_campo | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): JOS (variante 0, expressao grin)
 - Animacao: conversar
@@ -137,32 +127,26 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/balloon | b0, b3, b5, b6, b7, b8, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_versalhes | b0, b1, b2, b6, b7, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-sheep | b0, b5, b9, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-duck | b0, b5, b9, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-rooster | b0, b5, b9, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/balloon | b0, b3, b5, b6, b7, b8, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_versalhes | b0, b1, b5, b6, b7, b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+sheep | b0, b5, b8, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+duck | b0, b5, b8, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+rooster | b0, b5, b8, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/campfire | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/balloon_air | b7, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/balloon_air | b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_pine | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/bush | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/balloon | grandes momentos: b6, b10 | planos abertos: 3 | mistura: close 10% | medio 80% | aberto 9% | detalhe 2%
-- Interacoes: b0 susto, b2 avanca e o outro recua, b3 o outro se aproxima, b4 discutir, b7 insiste, b8 vai ate o outro, b9 abracar
+- Objeto heroi: kit/balloon | grandes momentos: b6, b9 | planos abertos: 5 | mistura: close 11% | medio 60% | aberto 29% | detalhe 0%
+- Interacoes: b2 avanca e o outro recua, b4 discutir
 - RISCOS GERAIS: 
-  - pouca variedade de cenario ({'loc_campo': 10, 'interior madeira': 2, 'palace': 1}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street, loc_pista, loc_patio, loc_deserto, loc_campo, loc_montanha, loc_cidade, loc_estudio | interior: madeira, pedra, loja)
-  - video com ~69 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py montgolfier1783  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/montgolfier1783/moodboard.jpg
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 4 risco(s) em aberto
-- geral: pouca variedade de cenario ({'loc_campo': 10, 'interior madeira': 2, 'palace': 1}): o video fica parecendo todos os outros
-- geral: video com ~69 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+## RESUMO: 1 risco(s) em aberto
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh montgolfier1783 bN bM` (so essas cenas).

@@ -2,31 +2,31 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/bifes2007/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py bifes2007` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Em dois mil e sete, Donald Trump lançou uma linha de carnes com o próp...
+## Cena b0 - Um bilionário colocou o próprio nome num bife, e ele sumiu em dois mes...
 - Cenario: loc_cidade | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): TRU (variante 0, expressao grin); VEN (variante 0, expressao smug)
 - Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/steak
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): carnes, linha, proprio, trump
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bilionario, proprio
 - RISCOS: nenhum
 
-## Cena b1 - Os bifes apareceram na loja Sharper Image, a partir de oito de maio.
+## Cena b1 - Em dois mil e sete, Donald Trump lançou a Trump Steaks, vendida na loj...
 - Cenario: interior loja | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): TRU (variante 0, expressao smug); VEN (variante 0, expressao grin)
-- Animacao: conversar | interacao: insiste | o ultimo personagem ENTRA andando
+- Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/steak
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bifes, loja, maio, oito, partir
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): loja, maio, oito, partir, trump
 - RISCOS: nenhum
 
 ## Cena b2 - Os pacotes custavam de cento e noventa e nove a novecentos e noventa e...
-- Cenario: loc_cidade | luz: golden | clima: limpo
+- Cenario: interior pedra | luz: golden | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (3): VEN (variante 0, expressao grin); CLI (variante 0, expressao shock); POV (variante 0, expressao shock) | multidao: 10 de POV
+- Personagens principais (3): VEN (variante 0, expressao grin); CLI (variante 0, expressao shock); POV (variante 0, expressao shock)
 - Animacao: reagir | interacao: susto | batalha encenada
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bifes, cento, novecentos, pacotes
@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - A marca também apareceu na QVC, um canal de televisão.
-- Cenario: interior loja | luz: golden | clima: limpo
+- Cenario: interior madeira | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): TRU (variante 0, expressao smug); VEN (variante 0, expressao laugh)
@@ -73,8 +73,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Mesmo assim, os bifes continuaram sendo servidos em hotéis do grupo Tr...
-- Cenario: interior pedra | luz: golden | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Cenario: interior madeira | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): TRU (variante 0, expressao laugh); CLI (variante 0, expressao smug)
 - Animacao: conversar | interacao: avanca e o outro recua
@@ -84,26 +84,26 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Em resumo, a carne saiu da loja depressa, mas o nome ficou no cardápio...
 - Cenario: loc_cidade | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): TRU (variante 0, expressao grin); CLI (variante 0, expressao laugh)
-- Animacao: conversar | interacao: discutir
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): TRU (variante 0, expressao grin); CLI (variante 0, expressao laugh) | multidao: 8 de POV
+- Animacao: encena
 - Objetos/modelos: buildings/shop, kit/stall
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cardapio, carne, loja
 - RISCOS: nenhum
 
 ## Cena b9 - Moral da história: nem todo produto com nome famoso dura mais que uma ...
-- Cenario: loc_cidade | luz: golden | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): VEN (variante 0, expressao laugh) | multidao: 6 de POV
-- Animacao: -
+- Cenario: interior madeira | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Personagens principais (1): VEN (variante 0, expressao laugh)
+- Animacao: conversar
 - Objetos/modelos: kit/steak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): promocao
 - RISCOS: nenhum
 
 ## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: loc_cidade | luz: golden | clima: limpo
+- Cenario: interior madeira | luz: golden | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): TRU (variante 0, expressao grin)
@@ -125,21 +125,13 @@ kit/stall | b8 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/steak | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 10% | medio 73% | aberto 12% | detalhe 5%
-- Interacoes: b0 o outro se aproxima, b1 insiste, b2 susto, b3 pedir, b5 vai ate o outro, b6 aproxima-se, b7 avanca e o outro recua, b8 discutir
+- Objeto heroi: kit/steak | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 10% | medio 77% | aberto 12% | detalhe 2%
+- Interacoes: b0 o outro se aproxima, b1 insiste, b2 susto, b3 pedir, b5 vai ate o outro, b6 aproxima-se, b7 avanca e o outro recua
 - RISCOS GERAIS: 
-  - pouca variedade de cenario ({'loc_cidade': 6, 'interior loja': 3, 'interior pedra': 2}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street, loc_pista, loc_patio, loc_deserto, loc_campo, loc_montanha, loc_cidade, loc_estudio | interior: madeira, pedra, loja)
-  - o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa) -> CORRECAO: reescrever a 1a frase com o fato mais absurdo da historia (sem ano); a data entra na 2a frase ou no mapa
-  - video com ~54 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py bifes2007  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/bifes2007/moodboard.jpg
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 5 risco(s) em aberto
-- geral: pouca variedade de cenario ({'loc_cidade': 6, 'interior loja': 3, 'interior pedra': 2}): o video fica parecendo todos os outros
-- geral: o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa)
-- geral: video com ~54 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+## RESUMO: 1 risco(s) em aberto
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh bifes2007 bN bM` (so essas cenas).

@@ -9,7 +9,6 @@
   "cenarios": [
    "interior loja",
    "interior madeira",
-   "interior pedra",
    "loc_cidade"
   ],
   "cenarios_trocados": [
@@ -24,7 +23,7 @@
     "loc_cidade"
    ],
    [
-    "cena 13",
+    "cena 11",
     "street",
     "loc_cidade"
    ]
@@ -54,40 +53,67 @@
  "objetos_em_cena": [
   "kit/chess_pc",
   "kit/egg",
-  "kit/miners",
   "kit/monkey_pong",
   "kit/phone",
-  "kit/room_azul_shop",
-  "kit/room_colonial_shop",
+  "kit/room_azul_wood",
   "kit/room_eua_shop",
   "kit/room_europa_wood",
-  "kit/room_rosa_wood",
-  "kit/room_verde_stone",
+  "kit/room_verde_shop",
   "mk/Bed_Twin1",
-  "mk/Bookcase_2",
+  "mk/Bench",
   "mk/Cabinet",
-  "mk/Chair_1",
-  "mk/Chest_Wood",
   "mk/Crate_Metal",
   "mk/Nightstand_Shelf",
-  "mk/Shelf_Small_Bottles",
+  "mk/Shelf_Arch",
   "mk/Stool",
   "mk/Table_Large",
   "mk/Vase_2",
-  "mk/Workbench_Drawers"
+  "mk/Vase_4"
  ],
- "pesquisa_visual": {},
+ "pesquisa_visual": {
+  "local": "Neuralink, Fremont, California: laboratorio com o macaco diante de uma tela; casa do paciente Noland Arbaugh",
+  "quando": "abril de 2021 (video do Pager); janeiro-marco de 2024 (primeiro paciente), dia",
+  "participantes": [
+   "macaco Pager (macaco-rhesus de 9 anos)",
+   "cientistas de jaleco",
+   "Elon Musk",
+   "Noland Arbaugh (cadeira de rodas)"
+  ],
+  "roupas": {
+   "MUS": "camiseta preta",
+   "CIE": "jaleco branco",
+   "CIM": "jaleco azul",
+   "NOL": "camiseta casual, cadeira de rodas",
+   "POV": "roupa casual"
+  },
+  "cenario": "sala de laboratorio clara com tela mostrando Pong e um canudo de metal; sala de casa com computador",
+  "objetos": [
+   "tela com Pong",
+   "joystick",
+   "canudo de metal com vitamina de banana",
+   "chip N1 (moeda pequena)",
+   "computador com xadrez"
+  ],
+  "explicacoes": [
+   "Neuralink mostrou em abril de 2021 o macaco Pager jogando Pong so com o implante; em 2024 Noland Arbaugh, tetraplegico, jogou xadrez com o implante (fonte: Wikipedia Neuralink)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Neuralink"
+  ],
+  "locacoes": [
+   "interior loja",
+   "interior madeira",
+   "interior pedra",
+   "loc_cidade",
+   "street"
+  ],
+  "buscas": {
+   "macaco": "Neuralink Pager monkey MindPong 2021"
+  }
+ },
  "fontes": [
   "https://neuralink.com/updates/pager-plays-mindpong/",
   "https://www.bbc.com/news/technology-56688812"
  ],
- "falta": [
-  "local",
-  "quando",
-  "participantes",
-  "roupas",
-  "cenario",
-  "objetos",
-  "fontes_visuais"
- ]
+ "falta": []
 }

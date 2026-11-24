@@ -4,38 +4,21 @@
  "ancoras": {
   "ano": 2024,
   "era": "atual (1950+)",
-  "regiao": "eua",
-  "luz_base": "day",
+  "regiao": "colonial",
+  "luz_base": "golden",
   "cenarios": [
-   "hall",
-   "interior galpao",
    "interior loja",
    "interior madeira",
    "loc_campo",
    "loc_cidade",
-   "loc_pista",
-   "palace"
+   "loc_patio",
+   "loc_pista"
   ],
   "cenarios_trocados": [
    [
-    "video",
-    "jungle",
-    "loc_campo"
-   ],
-   [
-    "cena 1",
+    "cena 8",
     "street",
     "loc_cidade"
-   ],
-   [
-    "cena 6",
-    "countryside",
-    "loc_campo"
-   ],
-   [
-    "cena 12",
-    "jungle",
-    "loc_campo"
    ]
   ]
  },
@@ -62,20 +45,16 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "kit/ballot_box",
-  "kit/cone_transito",
   "kit/globe",
-  "kit/palete",
-  "kit/room_eua_wood",
+  "kit/prison",
+  "kit/room_colonial_wood",
   "kit/room_europa_shop",
-  "kit/room_galpao",
   "kit/scroll",
   "kit/volcano",
   "mk/Bookcase_2",
   "mk/Chair_1",
   "mk/Chest_Wood",
-  "mk/Crate_Metal",
-  "mk/Table_Large",
-  "mk/Workbench"
+  "mk/Table_Large"
  ],
  "pesquisa_visual": {
   "local": "San Salvador, El Salvador: Palacio Nacional e praca em frente; urnas em escolas/centros de votacao",
@@ -101,11 +80,23 @@
   "fontes_visuais": [
    "https://www.gettyimages.com/editorial-images/news/event/salvadorians-vote-in-presidential-election/776100638",
    "https://www.youtube.com/watch?v=FX3aCqFx_g0"
-  ]
+  ],
+  "buscas": {
+   "San Salvador, El Salvador: Palacio Nacional e praca em frente; urnas em escolas/centros de votacao": "Palacio Nacional San Salvador El Salvador",
+   "urnas": "El Salvador election ballot box voting 2024",
+   "eleitores": "El Salvador voters queue election 2024",
+   "jornalistas": "journalists press conference El Salvador",
+   "roupas e ruas de 2024": "San Salvador street 2024",
+   "cartaz com rosto de Bukele": "Nayib Bukele campaign poster Nuevas Ideas",
+   "ballot box": "ballot box election voting booth",
+   "O Presidente dos 85 por Cento": "Nayib Bukele 2024 election night balcony"
+  }
  },
  "fontes": [
   "https://en.wikipedia.org/wiki/2024_Salvadoran_presidential_election",
-  "https://www.idea.int/democracytracker/report/el-salvador/february-2024"
+  "https://www.idea.int/democracytracker/report/el-salvador/february-2024",
+  "https://en.wikipedia.org/wiki/Crime_in_El_Salvador",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12459783/"
  ],
  "falta": []
 }

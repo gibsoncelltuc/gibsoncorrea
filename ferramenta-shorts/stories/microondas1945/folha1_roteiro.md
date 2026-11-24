@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 05 - O Micro-ondas e o Chocolate
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 12 cenas, 169 palavras (~58 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 12 cenas, 167 palavras (~58 s)
 
 ## Cena b0  (~4.1 s)
 - Narracao: Uma barra de chocolate derretida no bolso inventou o forno de micro-ondas.
@@ -38,11 +38,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~4.1 s)
-- Narracao: Pouco depois, sentiu o bolso quente e disse: "O meu chocolate derreteu!"
+## Cena b4  (~3.4 s)
+- Narracao: Pouco depois, sentiu o bolso quente: o chocolate tinha derretido.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: calor (reach) @5 -> acao + som de efeito; encena: vira (up) @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: calor (reach) @5 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -67,12 +67,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b7  (~4.8 s)
 - Narracao: Depois testou um ovo, e o ovo explodiu bem na cara de um colega.
-- Som ambiente: silencio/sala
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: squeal@50
 - Efeito + som nas palavras-chave: explodiu -> burst + som de tiro/explosao; encena: examina (think) @1 -> acao + som de efeito; encena: desaba @7 -> acao + som de efeito
 - Efeito visual marcado: burst@50, puff@50
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b8  (~6.2 s)
 - Narracao: Dois anos depois, saiu o primeiro forno, mais alto que uma pessoa e com mais de trezentos quilos.

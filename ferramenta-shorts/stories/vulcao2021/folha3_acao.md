@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 17 - Bitcoin Feito com Vulcão
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 13 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 13 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 5.2s - 15 palavras - plano two
@@ -17,7 +17,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 6 | - | ATUACAO | conversar | OK |
 | 7 | - | PLACA | 2021 | OK |
 
-## Cena b1 - 5.6s a 9.6s - 12 palavras - plano reveal
+## Cena b1 - 5.6s a 9.6s - 12 palavras - plano wide
 > "El Salvador é um país pequeno da América Central, cheio de vulcões."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -41,14 +41,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | discutir | OK |
 | 2 | - | ATUACAO | discutir | OK |
 
-## Cena b4 - 23.7s a 28.9s - 15 palavras - plano two
+## Cena b4 - 23.7s a 28.9s - 15 palavras - plano wide
 > "Então ele mandou a empresa de energia do governo usar o calor do vulcão Tecapa."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | mandou (24.4s) | ACAO: fala | aponta explicando | OK |
-| 2 | - | INTERACAO | entregar | OK |
-| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b5 - 29.3s a 34.4s - 15 palavras - plano wide
 > "O vapor quente que sai de dentro da terra gira turbinas, e vira eletricidade limpa."
@@ -66,7 +64,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b7 - 40.0s a 45.6s - 16 palavras - plano close
+## Cena b7 - 40.0s a 45.6s - 16 palavras - plano two
 > "Em outubro saiu o primeiro: um pedacinho de bitcoin que valia uns duzentos e setenta dólares."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -102,10 +100,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | anunciou (56.7s) | ACAO: fala | aponta explicando | OK |
 | 2 | construída (59.3s) | ACAO: constroi | martela e o objeto cresce | OK |
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | ATUACAO | reagir | OK |
-| 5 | - | PLACA | CIDADE BITCOIN | OK |
+| 4 | - | PLACA | CIDADE BITCOIN | OK |
 
-## Cena b11 - 61.5s a 64.8s - 10 palavras - plano close
+## Cena b11 - 61.5s a 64.8s - 10 palavras - plano two
 > "Dinheiro tirado de vulcão. Parece ficção, mas aconteceu de verdade."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

@@ -216,7 +216,7 @@
    "cenario": "interior hospital"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "MAE"
    ],
@@ -234,7 +234,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "PAR"
    ],
@@ -252,7 +252,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "SEM"
    ],

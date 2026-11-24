@@ -199,7 +199,7 @@
    "d1": 11.5
   },
   {
-   "say": "Mendel ficou curioso e disse: \"Para onde foi o verde?\"",
+   "say": "Mendel ficou curioso: para onde tinha ido o verde?",
    "shot": "two",
    "interior": "madeira",
    "who": [
@@ -474,5 +474,36 @@
    "d0": 8.4,
    "d1": 8.0
   }
- ]
+ ],
+ "visual": {
+  "local": "Abadia de Sao Tomas, Brno (Moravia, Imperio Austriaco): horta e estufa do mosteiro, biblioteca",
+  "quando": "1856 a 1866, dia, primavera e verao",
+  "participantes": [
+   "Gregor Mendel (habito preto de monge agostiniano, oculos redondos)",
+   "frades do mosteiro",
+   "cientistas de 1900 (de Vries, Correns, Tschermak) de terno"
+  ],
+  "roupas": {
+   "MEN": "habito preto de monge e oculos",
+   "FRE": "habito preto",
+   "CIE": "terno escuro e barba do seculo 19"
+  },
+  "cenario": "horta murada do mosteiro com canteiros de ervilha, estufa de vidro, sala de pedra com livros",
+  "objetos": [
+   "vagens e ervilhas amarelas e verdes",
+   "caderno de anotacoes",
+   "vasos de plantas"
+  ],
+  "explicacoes": [
+   "Mendel cruzou ervilhas (1856-1863), viu a proporcao 3:1 na segunda geracao, publicou em 1866 e foi redescoberto em 1900 (fonte: Wikipedia Gregor Mendel, Experiments on Plant Hybridization)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Gregor_Mendel",
+   "https://commons.wikimedia.org/wiki/Category:Mendel_Museum_of_Genetics"
+  ],
+  "buscas": {
+   "mosteiro": "St Thomas Abbey Brno garden Mendel",
+   "ervilha": "pea pods yellow green"
+  }
+ }
 }

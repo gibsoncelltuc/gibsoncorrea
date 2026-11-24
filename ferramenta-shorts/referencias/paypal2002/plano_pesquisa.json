@@ -7,7 +7,7 @@
    "item": "O Dia em que o PayPal Foi Vendido",
    "consultas": [
     "O Dia em que o PayPal Foi Vendido",
-    "Em Estados Unidos Bay PayPal PayPal 2002"
+    "Um Era PayPal Bay PayPal 2002"
    ]
   },
   {
@@ -44,18 +44,18 @@
   },
   {
    "tipo": "pessoas",
-   "item": "Meg Whitman (CEO do eBay)",
-   "consultas": [
-    "Meg Whitman CEO do eBay",
-    "Meg Whitman CEO do eBay 2002"
-   ]
-  },
-  {
-   "tipo": "pessoas",
    "item": "equipe do PayPal",
    "consultas": [
     "equipe do PayPal",
     "equipe do PayPal 2002"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "representante do eBay",
+   "consultas": [
+    "representante do eBay",
+    "representante do eBay 2002"
    ]
   },
   {
@@ -84,24 +84,10 @@
   },
   {
    "tipo": "heroi",
-   "item": "roadster",
+   "item": "coin",
    "consultas": [
     "monitor de computador",
     "O Dia em que o PayPal Foi Vendido"
-   ]
-  },
-  {
-   "tipo": "heroi",
-   "item": "coin",
-   "consultas": [
-    "coin"
-   ]
-  },
-  {
-   "tipo": "heroi",
-   "item": "rocket",
-   "consultas": [
-    "rocket"
    ]
   },
   {
@@ -118,6 +104,14 @@
    "consultas": [
     "rocket 2002",
     "rocket"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "fabrica da epoca",
+   "consultas": [
+    "factory 2002",
+    "factory"
    ]
   }
  ]

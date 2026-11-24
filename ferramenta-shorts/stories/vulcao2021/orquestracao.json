@@ -46,12 +46,11 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "reveal",
+   "camera": "wide",
    "personagens": [
-    "POV",
     "POV"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [
     "kit/volcano"
    ],
@@ -105,10 +104,9 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
-    "BUK",
-    "ENG"
+    "BUK"
    ],
    "multidao": 0,
    "objetos": [
@@ -126,8 +124,7 @@
   {
    "camera": "wide",
    "personagens": [
-    "ENA",
-    "BUK"
+    "ENA"
    ],
    "multidao": 0,
    "objetos": [
@@ -164,7 +161,7 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "BUK"
    ],
@@ -184,11 +181,9 @@
   {
    "camera": "crowd",
    "personagens": [
-    "BUK",
-    "ENG",
-    "ENA"
+    "BUK"
    ],
-   "multidao": 18,
+   "multidao": 0,
    "objetos": [
     "kit/volcano"
    ],
@@ -230,11 +225,9 @@
   {
    "camera": "orbit",
    "personagens": [
-    "POV",
-    "POV",
-    "BUK"
+    "POV"
    ],
-   "multidao": 16,
+   "multidao": 0,
    "objetos": [
     "buildings/apartment",
     "buildings/house_two",
@@ -258,7 +251,7 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "BUK"
    ],

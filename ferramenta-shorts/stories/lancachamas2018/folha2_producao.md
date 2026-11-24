@@ -2,97 +2,107 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/lancachamas2018/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py lancachamas2018` de novo ate esta folha sair sem risco.
 
-## Cena b0 - No começo de dois mil e dezoito, nos Estados Unidos, a Boring Company,...
+## Cena b0 - Um bilionário vendeu um lança-chamas e jurou que não era um lança-cham...
 - Cenario: loc_cidade | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 5 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): MUS (variante 0, expressao grin); CMP (variante 0, expressao surprised)
-- Animacao: conversar | interacao: aproxima-se
-- Objetos/modelos: kit/marco_hollywood
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): boring, comeco, dois, elon, empresa, estados, produto, tuneis, vender
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (2): MUS (variante 0, expressao smug); POV (variante 0, expressao shock)
+- Animacao: conversar | interacao: entregar
+- Objetos/modelos: kit/flamethrower, kit/marco_hollywood
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bilionario, lancachamas
 - RISCOS: nenhum
 
-## Cena b1 - O nome dele era Não é um lança-chamas.
-- Cenario: loc_patio | luz: golden | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): MUS (variante 0, expressao grin); CMP (variante 0, expressao surprised) | multidao: 8 de POV
-- Animacao: conversar
+## Cena b1 - Foi em dois mil e dezoito, nos Estados Unidos. A Boring Company, a emp...
+- Cenario: interior pedra | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
+- Personagens principais (2): MUS (variante 0, expressao grin); CMP (variante 0, expressao smile)
+- Animacao: conversar | interacao: aproxima-se
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): boring, elon, empresa, estados, produto, tuneis
+- RISCOS: nenhum
+
+## Cena b2 - O nome dele era Não é um lança-chamas, e custava quinhentos dólares.
+- Cenario: interior loja | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Personagens principais (2): MUS (variante 0, expressao grin); CMP (variante 0, expressao surprised)
+- Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/flamethrower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lancachamas
 - RISCOS: nenhum
 
-## Cena b2 - O preço era de quinhentos dólares.
-- Cenario: loc_patio | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto
-- Personagens principais (2): MUS (variante 0, expressao smug); CMP (variante 0, expressao surprised)
-- Animacao: conversar | interacao: avanca e o outro recua
-- Objetos/modelos: kit/flamethrower
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): preco, quinhentos
-- RISCOS: nenhum
-
-## Cena b3 - O nome dizia que não era, mas o aparelho tinha cara de lança-chamas, e...
-- Cenario: loc_pista | luz: golden | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): CMP (variante 0, expressao suspicious); MUS (variante 0, expressao laugh) | multidao: 12 de POV
-- Animacao: conversar | batalha encenada
-- Objetos/modelos: kit/flamethrower
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aparelho, lancachamas, piada
-- RISCOS: nenhum
-
-## Cena b4 - Cada compra vinha com um extintor de incêndio de brinde.
-- Cenario: loc_pista | luz: golden | clima: limpo
+## Cena b3 - Acontece que o aparelho soltava fogo de verdade, e essa era a piada.
+- Cenario: loc_deserto | luz: golden | clima: limpo
 - Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): MUS (variante 0, expressao smile); CMP (variante 0, expressao grin) | multidao: 6 de POV
-- Animacao: comemorar
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (1): MUS (variante 0, expressao laugh) | multidao: 18 de POV
+- Animacao: encena | batalha encenada
+- Objetos/modelos: kit/flamethrower, kit/marco_hollywood, kit/fire
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aparelho, piada
+- RISCOS: nenhum
+
+## Cena b4 - Musk explicou que o nome era para driblar a alfândega, que barrava lan...
+- Cenario: interior pedra | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Personagens principais (2): MUS (variante 0, expressao smug); CMP (variante 0, expressao nervous)
+- Animacao: conversar | interacao: susto
+- Objetos/modelos: kit/flamethrower
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alfandega
+- RISCOS: nenhum
+
+## Cena b5 - Cada compra vinha com um extintor de incêndio de brinde.
+- Cenario: interior loja | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Personagens principais (2): CMP (variante 0, expressao grin); POV (variante 0, expressao surprised)
+- Animacao: comemorar | interacao: brindar
 - Objetos/modelos: kit/extinguisher
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brinde, extintor, incendio
 - RISCOS: nenhum
 
-## Cena b5 - Foram vinte mil unidades à venda.
-- Cenario: interior loja | luz: golden | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto
-- Personagens principais (3): MUS (variante 0, expressao smile); CMP (variante 0, expressao neutral); POV (variante 0, expressao grin)
-- Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: -
+## Cena b6 - Foram vinte mil unidades à venda, e elas esgotaram em poucos dias.
+- Cenario: loc_cidade | luz: golden | clima: limpo
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (2): POV (variante 0, expressao shock); POV (variante 1, expressao grin) | multidao: 16 de POV
+- Animacao: reagir | batalha encenada
+- Objetos/modelos: kit/marco_hollywood
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): venda
 - RISCOS: nenhum
 
-## Cena b6 - E elas esgotaram em poucos dias, rendendo cerca de dez milhões de dóla...
-- Cenario: loc_campo | luz: golden | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): CMP (variante 0, expressao shock); MUS (variante 0, expressao laugh) | multidao: 30 de POV
-- Animacao: reagir | batalha encenada
-- Objetos/modelos: kit/marco_hollywood, nature/picket_fence
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dolares
+## Cena b7 - Isso rendeu cerca de dez milhões de dólares para a empresa.
+- Cenario: interior pedra | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Personagens principais (2): MUS (variante 0, expressao laugh); CMP (variante 0, expressao grin)
+- Animacao: conversar | interacao: o outro se aproxima
+- Objetos/modelos: nature/picket_fence
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dolares, empresa
 - RISCOS: nenhum
 
-## Cena b7 - A notícia se espalhou pelo mundo inteiro.
-- Cenario: loc_campo | luz: golden | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto
-- Personagens principais (2): CMP (variante 0, expressao grin); MUS (variante 0, expressao smile) | multidao: 6 de POV
-- Animacao: conversar | interacao: insiste
-- Objetos/modelos: kit/globe, kit/marco_hollywood
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): noticia
-- RISCOS: nenhum
-
-## Cena b8 - Um produto que se chamava de tudo, menos do que parecia.
-- Cenario: loc_pista | luz: golden | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+## Cena b8 - O próprio Musk postou vídeos soltando fogo com o aparelho.
+- Cenario: loc_deserto | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): MUS (variante 0, expressao laugh); CMP (variante 0, expressao smile)
-- Animacao: conversar | interacao: vai ate o outro
+- Personagens principais (1): MUS (variante 0, expressao laugh)
+- Animacao: conversar
+- Objetos/modelos: kit/flamethrower, kit/fire
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aparelho, proprio
+- RISCOS: nenhum
+
+## Cena b9 - Um produto que se chamava de tudo, menos do que parecia.
+- Cenario: loc_cidade | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (2): MUS (variante 0, expressao smug); POV (variante 0, expressao grin)
+- Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/flamethrower, kit/extinguisher
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): produto
 - RISCOS: nenhum
 
-## Cena b9 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: loc_cidade | luz: golden | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
@@ -107,25 +117,21 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/marco_hollywood | b0, b6, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/flamethrower | b1, b2, b3, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/extinguisher | b4, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/picket_fence | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/globe | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/flamethrower | b0, b2, b3, b4, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_hollywood | b0, b3, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/fire | b3, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/extinguisher | b5, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/picket_fence | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/flamethrower | grandes momentos: b3, b6 | planos abertos: 4 | mistura: close 16% | medio 55% | aberto 22% | detalhe 7%
-- Interacoes: b0 aproxima-se, b2 avanca e o outro recua, b5 o outro se aproxima, b7 insiste, b8 vai ate o outro
+- Objeto heroi: kit/flamethrower | grandes momentos: b3, b6 | planos abertos: 2 | mistura: close 13% | medio 75% | aberto 6% | detalhe 6%
+- Interacoes: b0 entregar, b1 aproxima-se, b2 avanca e o outro recua, b4 susto, b5 brindar, b7 o outro se aproxima, b9 insiste
 - RISCOS GERAIS: 
-  - video com ~40 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar em ~60 s (com esta voz, ~150 palavras no total)
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py lancachamas2018  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/lancachamas2018/moodboard.jpg
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 3 risco(s) em aberto
-- geral: video com ~40 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final)
+## RESUMO: 1 risco(s) em aberto
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh lancachamas2018 bN bM` (so essas cenas).

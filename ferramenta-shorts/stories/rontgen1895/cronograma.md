@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 11 - O Raio X de Röntgen
 
-Gerado em 24/11 03:30 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 22:39 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -13,7 +13,7 @@ b3 | simples | interior madeira | close | ROE | - | crookes_tube | - | Numa noit
 b4 | simples | interior madeira | low | ROE | - | xray_plate | - | Acontece que, do outro lado da sala, uma tela começou a brilhar no esc
 b5 | simples | interior madeira | two | ROE | - | crookes_tube, xray_plate | - | Ele pôs a mão na frente do tubo, e viu os próprios ossos na tela.
 b6 | simples | interior madeira | group | ROE, ANA | - | xray_plate | - | Duas semanas depois, ele chamou a esposa, Anna, e fotografou a mão del
-b7 | simples | interior madeira | close | ANA | - | xray_plate | - | Dizem que ela olhou a chapa, e disse: "Eu vi a minha morte."
+b7 | simples | interior madeira | two | ANA | - | xray_plate | - | Dizem que ela olhou a chapa, e disse: "Eu vi a minha morte."
 b8 | chave | street | crowd | JOR, MED, POV | 18 | marco_wurzburg, xray_plate | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A notícia correu o mundo. Jornais, médicos e curiosos queriam ver o ra
 b9 | simples | interior madeira | two | ROE, JOR | - | xray_plate | - | Como ninguém sabia o que era, ele chamou de raio X. X, de desconhecido
 b10 | chave | street | orbit | ROE, MED, POV | 18 | marco_wurzburg | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em mil novecentos e um, Röntgen ganhou o primeiro Prêmio Nobel de Físi
@@ -27,7 +27,7 @@ N | Etapa | O que confere | Estado | Proximo passo
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
 2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/5 itens) | PENDENTE | python3 pesquisar.py rontgen1895
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 2) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 3) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | REFAZER (a etapa anterior mudou) | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | REFAZER (a etapa anterior mudou) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 

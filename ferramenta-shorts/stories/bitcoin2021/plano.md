@@ -2,16 +2,16 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | - | dinheiro (stars + som de sino); encena: paga (reach) @20 (acao + som de efeito) | -
-b1 | reveal | -  | tropa, mapa | encena: pensa (think) @10 (acao + som de efeito) | -
-b2 | group | -  | interior | - | -
-b3 | crowd | -  | batalha aberta com tiros, tropa, placa: 7 DE SETEMBRO DE 2021 | - | -
-b4 | two | noite  | objeto na mao | pagar (stars + som de sino); encena: paga (reach) @4 (acao + som de efeito); encena: negocio (reach) @6 (acao + som de efeito) | -
-b5 | close | -  | placa: CARTEIRA CHIVO | encena: fala (point) @7 (acao + som de efeito) | -
-b6 | orbit | -  | batalha aberta com tiros, tropa | - | -
-b7 | orbit | -  | tropa | - | -
+b0 | two | -  | tropa, placa: 9 EM 10 NÃO ENTENDIAM | dinheiro (stars + som de sino); encena: paga (reach) @6 (acao + som de efeito) | -
+b1 | reveal | -  | tropa, mapa | encena: pensa (think) @9 (acao + som de efeito) | -
+b2 | two | -  | interior | encena: fala (point) @1 (acao + som de efeito) | -
+b3 | reveal | -  | batalha aberta com tiros, tropa, placa: 7 DE SETEMBRO | - | -
+b4 | two | -  | tropa, placa: US$ 30, objeto na mao | encena: fala (point) @1 (acao + som de efeito); encena: fala (point) @6 (acao + som de efeito) | -
+b5 | close | -  | batalha aberta com tiros, tropa, placa: CARTEIRA CHIVO | - | -
+b6 | two | -  | placa: 68% DISCORDAM | encena: fala (point) @5 (acao + som de efeito) | -
+b7 | orbit | -  | tropa | encena: paga (reach) @3 (acao + som de efeito); encena: vira (up) @5 (acao + som de efeito) | -
 b8 | group | -  | - | encena: paga (reach) @1 (acao + som de efeito) | -
 b9 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 20% | medio 46% | aberto 26% | detalhe 8%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 4 | dentro do padrao do canal
+Mistura de planos: close 20% | medio 63% | aberto 17% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 3 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

@@ -8,7 +8,7 @@
    "loc_campo"
   ],
   [
-   "cena 12",
+   "cena 11",
    "palace",
    "loc_campo"
   ]
@@ -86,12 +86,12 @@
    "cenario": "loc_deserto"
   },
   {
-   "camera": "group",
+   "camera": "crowd",
    "personagens": [
     "ERA",
     "CAM"
    ],
-   "multidao": 0,
+   "multidao": 12,
    "objetos": [
     "kit/well",
     "nature/tree_palm"
@@ -99,17 +99,22 @@
    "palavras": 13,
    "cena": "b3",
    "frase": "Isso significava que o sol estava bem em cima, e nada fazia sombra.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_deserto"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
-    "ERA",
-    "BIB"
+    "ERA"
    ],
    "multidao": 0,
    "objetos": [
@@ -120,26 +125,25 @@
    "palavras": 14,
    "cena": "b4",
    "frase": "Em Alexandria, no mesmo dia, uma vara fincada no solo fazia uma sombra pequena.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_montanha"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "ERA"
    ],
    "multidao": 0,
    "objetos": [
     "kit/globe",
-    "kit/marco_alexandria",
     "nature/tree_palm"
    ],
    "palavras": 12,
    "cena": "b5",
-   "frase": "Eratóstenes pensou: \"Se a Terra fosse plana, as duas sombras seriam iguais.\"",
+   "frase": "Ele pensou: se a Terra fosse plana, as duas sombras seriam iguais.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -215,35 +219,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "group",
-   "personagens": [
-    "ERA",
-    "BIB"
-   ],
-   "multidao": 14,
-   "objetos": [
-    "kit/globe",
-    "kit/marco_alexandria",
-    "kit/starlink_sat",
-    "nature/tree_palm"
-   ],
-   "palavras": 15,
-   "cena": "b9",
-   "frase": "E tudo isso aconteceu mais de dois mil anos atrás, sem satélite e sem computador.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
-   "acoes_faltando": [],
-   "cenario": "loc_montanha"
-  },
-  {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "ERA"
    ],
@@ -256,7 +232,7 @@
     "tools/bucket"
    ],
    "palavras": 13,
-   "cena": "b10",
+   "cena": "b9",
    "frase": "No fim, uma vara e um poço fizeram o trabalho de um satélite.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -272,7 +248,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b11",
+   "cena": "b10",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",

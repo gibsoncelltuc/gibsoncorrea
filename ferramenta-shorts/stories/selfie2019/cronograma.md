@@ -1,23 +1,23 @@
 # CRONOGRAMA - Poder e Fama EP 28 - A Selfie na ONU
 
-Gerado em 24/11 03:30 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 22:39 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_cidade | reveal | BUK, DIP | 16 | marco_onu, phone, BookStand | - | Um presidente chegou ao púlpito mais importante do mundo, e antes de f
-b1 | simples | interior madeira | two | POV, POV | - | - | - | Foi em setembro de dois mil e dezenove, na Assembleia Geral da ONU, em
-b2 | simples | interior pedra | two | DIP, REP | - | - | - | Ali, os líderes de quase todos os países fazem discursos longos e séri
-b3 | simples | interior loja | two | BUK, DIP | - | - | - | Nayib Bukele, o novo presidente de El Salvador, tinha só trinta e oito
-b4 | simples | interior madeira | close | BUK | - | phone, BookStand | - | Acontece que, no púlpito, ele pediu: só um segundo, por favor. E tirou
-b5 | chave | loc_cidade | crowd | BUK, POV | 20 | marco_onu, phone, BookStand | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Virou de costas para o plenário, e tirou uma selfie com todos atrás.
-b6 | simples | interior pedra | two | BUK, DIP | - | - | - | Depois, brincou: acreditem, muito mais gente vai ver essa selfie do qu
-b7 | chave | loc_cidade | crowd | POV, POV, REP | 20 | globe, marco_onu | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E ele tinha razão. A foto rodou o planeta em poucas horas.
-b8 | simples | interior loja | two | REP, DIP | - | - | - | Alguns acharam falta de respeito com a ONU. Outros acharam genial.
-b9 | simples | interior madeira | two | BUK, REP | - | - | - | No discurso, ele defendeu justamente isso: que as reuniões antigas dev
-b10 | simples | interior pedra | close | BUK | - | phone | - | Uma selfie de um segundo, que ficou mais famosa que muitos discursos i
-b11 | simples | interior pedra | two | BUK | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b0 | simples | loc_cidade | reveal | BUK, DIP | 16 | marco_onu, phone, BookStand | - | Um presidente parou o discurso na ONU para tirar uma selfie com a plat
+b1 | simples | interior madeira | two | POV, POV | - | - | - | Foi na Assembleia Geral da ONU, em Nova York, em setembro de dois mil 
+b2 | simples | interior pedra | two | DIP, REP | - | - | - | Ali, líderes fazem discursos longos e sérios.
+b3 | simples | interior loja | two | BUK, DIP | - | - | - | O presidente de El Salvador, Nayib Bukele, tinha trinta e oito anos.
+b4 | simples | interior madeira | two | BUK | - | phone, BookStand | - | Acontece que, no púlpito, ele pediu licença por um momento e tirou o c
+b5 | simples | palace | crowd | BUK, POV | 20 | marco_onu, phone, BookStand | - | Virou de costas para o plenário e tirou a selfie com todos atrás.
+b6 | simples | interior pedra | two | BUK, DIP | - | - | - | Depois explicou: o mundo novo está onde essa foto vai parar, na intern
+b7 | chave | interior madeira | orbit | BUK, DIP | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E avisou que a ONU pode desaparecer como a Kodak e os dinossauros.
+b8 | simples | interior loja | two | REP, BUK | - | - | - | Propôs que líderes gravassem vídeos de seus discursos, e um concurso d
+b9 | simples | palace | crowd | POV, POV, REP | 20 | marco_onu, phone | - | A selfie rodou o mundo, e o discurso ficou em segundo plano.
+b10 | simples | interior pedra | two | BUK | - | phone | - | Um segundo de selfie, e a ONU virou assunto.
+b11 | simples | interior pedra | close | BUK | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

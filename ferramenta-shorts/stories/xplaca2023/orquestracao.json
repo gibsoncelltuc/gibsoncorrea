@@ -51,7 +51,7 @@
  },
  "cenas": [
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "MUS"
    ],
@@ -231,7 +231,7 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "MUS"
    ],
@@ -252,7 +252,7 @@
    "cenario": "loc_patio"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "MUS"
    ],

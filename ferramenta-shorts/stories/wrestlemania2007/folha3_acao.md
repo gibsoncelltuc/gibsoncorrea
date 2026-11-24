@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 15 - Trump na Batalha dos Bilionários
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 13 frases, 50 acoes catalogadas, 50 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 13 frases, 44 acoes catalogadas, 44 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 5.4s - 19 palavras - plano group
@@ -52,24 +52,21 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | ATUACAO | comemorar | OK |
 | 4 | - | PLACA | 80 MIL | OK |
 
-## Cena b5 - 29.9s a 35.1s - 16 palavras - plano group
+## Cena b5 - 29.9s a 35.1s - 16 palavras - plano wide
 > "No ringue, o lutador de Trump, Bobby Lashley, enfrentou o gigante Umaga, do lado de McMahon."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | enfrentou (32.7s) | ACAO: golpe | soco + estouro | OK |
-| 2 | - | INTERACAO | discutir | OK |
-| 3 | - | ATUACAO | conversar | OK |
 
-## Cena b6 - 36.4s a 42.1s - 17 palavras - plano low
+## Cena b6 - 36.4s a 42.1s - 17 palavras - plano group
 > "Acontece que o juiz convidado era Steve Austin, famoso por derrubar todo mundo. A luta virou bagunça."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | convidado (37.3s) | ACAO: fala | aponta explicando | OK |
 | 2 | derrubar (39.5s) | ACAO: golpe | soco + estouro | OK |
-| 3 | - | INTERACAO | susto | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 43.4s a 47.3s - 12 palavras - plano orbit
 > "No fim, o lutador de Trump venceu. O estádio inteiro foi abaixo."
@@ -83,15 +80,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | - | ATUACAO | comemorar | OK |
 | 6 | - | PLACA | VITÓRIA | OK |
 
-## Cena b8 - 48.6s a 52.6s - 14 palavras - plano group
+## Cena b8 - 48.6s a 52.6s - 14 palavras - plano wide
 > "Trump e Lashley seguraram McMahon, e passaram a máquina de raspar na cabeça dele."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | seguraram (49.3s) | ACAO: pega | levanta/segura | OK |
 | 2 | raspar (51.8s) | ACAO: raspa | maquina na cabeca + cabelo voando | OK |
-| 3 | - | INTERACAO | discutir | OK |
-| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b9 - 53.7s a 56.2s - 10 palavras - plano two
 > "O dono da luta livre saiu do ringue completamente careca."
@@ -103,7 +98,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | insiste | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 57.6s a 61.9s - 17 palavras - plano group
+## Cena b10 - 57.6s a 61.9s - 17 palavras - plano close
 > "E ainda sobrou para Trump: o juiz aplicou um golpe nele também, e ele foi ao chão."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -111,8 +106,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | aplicou (59.5s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 2 | golpe (60.2s) | ACAO: golpe | soco + estouro | OK |
 | 3 | chão (61.9s) | ACAO: tomba | cai sentado no chao + poeira | OK |
-| 4 | - | INTERACAO | discutir | OK |
-| 5 | - | ATUACAO | conversar | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b11 - 62.9s a 68.5s - 21 palavras - plano two
 > "Seis anos depois, Trump entrou para o Hall da Fama da luta livre. Tudo por causa de um corte de cabelo."

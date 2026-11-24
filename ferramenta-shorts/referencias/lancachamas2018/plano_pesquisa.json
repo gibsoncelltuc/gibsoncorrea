@@ -7,7 +7,15 @@
    "item": "O Não é um Lança-Chamas",
    "consultas": [
     "O Não é um Lança-Chamas",
-    "No Estados Unidos Boring Company Elon Musk Não 2018"
+    "Um Foi Estados Unidos Boring Company Elon Musk Não 2018"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Estados Unidos: escritorio da Boring Company em Los Angeles (Hawthorne), deserto",
+   "consultas": [
+    "Estados Unidos",
+    "Estados Unidos 2018"
    ]
   },
   {
@@ -27,10 +35,50 @@
    ]
   },
   {
+   "tipo": "pessoas",
+   "item": "Elon Musk (jaqueta preta)",
+   "consultas": [
+    "Elon Musk jaqueta preta",
+    "Elon Musk jaqueta preta 2018"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "funcionarios da Boring Company",
+   "consultas": [
+    "funcionarios da Boring Company",
+    "funcionarios da Boring Company 2018"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "compradores",
+   "consultas": [
+    "compradores",
+    "compradores 2018"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "Not-A-Flamethrower (lanca-chamas preto parecido com fuzil)",
+   "consultas": [
+    "Not-A-Flamethrower",
+    "Not-A-Flamethrower 2018"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "extintor vermelho de brinde",
+   "consultas": [
+    "extintor vermelho de brinde",
+    "extintor vermelho de brinde 2018"
+   ]
+  },
+  {
    "tipo": "heroi",
    "item": "flamethrower",
    "consultas": [
-    "flamethrower",
+    "Not-A-Flamethrower",
     "O Não é um Lança-Chamas"
    ]
   }

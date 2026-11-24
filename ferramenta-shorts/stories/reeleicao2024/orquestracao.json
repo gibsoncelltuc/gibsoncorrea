@@ -41,12 +41,11 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "reveal",
+   "camera": "wide",
    "personagens": [
-    "POV",
     "POV"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [
     "kit/marco_casabranca",
     "kit/white_house"
@@ -115,11 +114,9 @@
   {
    "camera": "crowd",
    "personagens": [
-    "TRU",
-    "ELE",
-    "POV"
+    "TRU"
    ],
-   "multidao": 22,
+   "multidao": 0,
    "objetos": [
     "kit/white_house"
    ],
@@ -175,13 +172,13 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
-    "TRU",
-    "GEN"
+    "TRU"
    ],
    "multidao": 0,
    "objetos": [
+    "kit/marco_casabranca",
     "kit/white_house"
    ],
    "palavras": 16,
@@ -196,11 +193,9 @@
   {
    "camera": "orbit",
    "personagens": [
-    "TRU",
-    "POV",
-    "POV"
+    "TRU"
    ],
-   "multidao": 18,
+   "multidao": 0,
    "objetos": [
     "kit/marco_casabranca",
     "kit/white_house"
@@ -221,7 +216,7 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "TRU"
    ],
@@ -239,7 +234,7 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "TRU"
    ],

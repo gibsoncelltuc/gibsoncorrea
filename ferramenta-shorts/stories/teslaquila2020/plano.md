@@ -13,8 +13,8 @@ b7 | crowd | -  | batalha aberta com tiros, tropa, placa: ESGOTOU | - | -
 b8 | two | -  | interior, objeto na mao | apareceu (dust + som de impacto); encena: chega (point) @1 (acao + som de efeito) | -
 b9 | group | -  | interior | - | -
 b10 | orbit | -  | batalha aberta com tiros, tropa, placa: COLEÇÃO | - | -
-b11 | close | -  | - | - | -
+b11 | two | -  | - | - | -
 b12 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 23% | medio 60% | aberto 9% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 18% | medio 66% | aberto 9% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

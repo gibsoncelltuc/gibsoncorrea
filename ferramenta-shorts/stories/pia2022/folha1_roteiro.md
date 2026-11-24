@@ -59,11 +59,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 ## Cena b6  (~3.1 s)
 - Narracao: A cena deu o que falar no mundo inteiro.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: sting@10, thump@40
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: x_entrega (reach) @2 -> acao + som de efeito
-- Efeito visual marcado: ring@12, dust@40
+- Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b7  (~3.4 s)
 - Narracao: Uma pia, uma legenda e uma piada que ninguém esqueceu.

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 10 - A Pia no Twitter
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 7.8s - 22 palavras - plano wide
@@ -33,7 +33,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | PLACA | DEIXE ISSO AFUNDAR | OK |
 
-## Cena b3 - 16.3s a 21.5s - 15 palavras - plano close
+## Cena b3 - 16.3s a 21.5s - 15 palavras - plano two
 > "É um trocadilho, porque em inglês a palavra sink quer dizer pia, e também afundar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -62,14 +62,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | CHEFE TWIT | OK |
 
-## Cena b6 - 33.0s a 35.9s - 9 palavras - plano crowd
+## Cena b6 - 33.0s a 35.9s - 9 palavras - plano wide
 > "A cena deu o que falar no mundo inteiro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | deu (33.7s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | ATUACAO | reagir | OK |
+| 2 | - | ATUACAO | reagir | OK |
 
 ## Cena b7 - 36.3s a 39.6s - 10 palavras - plano group
 > "Uma pia, uma legenda e uma piada que ninguém esqueceu."

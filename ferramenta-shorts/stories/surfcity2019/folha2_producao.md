@@ -4,7 +4,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Em dois mil e dezenove, o presidente Nayib Bukele lançou a Surf City E...
 - Cenario: interior pedra | luz: golden | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): BUK (variante 0, expressao smug)
 - Animacao: conversar
@@ -122,7 +122,7 @@ kit/volcano | b1, b2, b4, b7, b9 | pronto | conferir na folha de contato se le b
 
 
 ## Video inteiro
-- Objeto heroi: kit/surfboard | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 21% | medio 64% | aberto 8% | detalhe 7%
+- Objeto heroi: kit/surfboard | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 12% | medio 73% | aberto 8% | detalhe 7%
 - Interacoes: b1 cochichar, b3 insiste, b5 vai ate o outro, b6 discutir, b7 susto, b8 aproxima-se
 - RISCOS GERAIS: 
   - o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa) -> CORRECAO: reescrever a 1a frase com o fato mais absurdo da historia (sem ano); a data entra na 2a frase ou no mapa

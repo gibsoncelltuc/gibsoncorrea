@@ -6,36 +6,6 @@
    "video",
    "street",
    "loc_cidade"
-  ],
-  [
-   "cena 1",
-   "street",
-   "loc_cidade"
-  ],
-  [
-   "cena 3",
-   "street",
-   "loc_cidade"
-  ],
-  [
-   "cena 5",
-   "street",
-   "loc_cidade"
-  ],
-  [
-   "cena 9",
-   "street",
-   "loc_cidade"
-  ],
-  [
-   "cena 10",
-   "street",
-   "loc_cidade"
-  ],
-  [
-   "cena 11",
-   "street",
-   "loc_cidade"
   ]
  ],
  "metricas": {
@@ -55,9 +25,9 @@
    "objetos": [
     "kit/steak"
    ],
-   "palavras": 19,
+   "palavras": 14,
    "cena": "b0",
-   "frase": "Em dois mil e sete, Donald Trump lançou uma linha de carnes com o próprio nome: a Trump Steaks.",
+   "frase": "Um bilionário colocou o próprio nome num bife, e ele sumiu em dois meses.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -74,9 +44,9 @@
    "objetos": [
     "kit/steak"
    ],
-   "palavras": 13,
+   "palavras": 22,
    "cena": "b1",
-   "frase": "Os bifes apareceram na loja Sharper Image, a partir de oito de maio.",
+   "frase": "Em dois mil e sete, Donald Trump lançou a Trump Steaks, vendida na loja Sharper Image a partir de oito de maio.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -90,7 +60,7 @@
     "CLI",
     "POV"
    ],
-   "multidao": 10,
+   "multidao": 0,
    "objetos": [],
    "palavras": 20,
    "cena": "b2",
@@ -105,7 +75,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_cidade"
+   "cenario": "interior pedra"
   },
   {
    "camera": "two",
@@ -166,7 +136,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior loja"
+   "cenario": "interior madeira"
   },
   {
    "camera": "two",
@@ -186,7 +156,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "TRU",
     "CLI"
@@ -202,15 +172,15 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior pedra"
+   "cenario": "interior madeira"
   },
   {
-   "camera": "two",
+   "camera": "orbit",
    "personagens": [
     "TRU",
     "CLI"
    ],
-   "multidao": 0,
+   "multidao": 8,
    "objetos": [
     "buildings/shop",
     "kit/stall"
@@ -225,11 +195,11 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "orbit",
+   "camera": "two",
    "personagens": [
     "VEN"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [
     "kit/steak"
    ],
@@ -240,7 +210,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_cidade"
+   "cenario": "interior madeira"
   },
   {
    "camera": "close",
@@ -256,7 +226,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_cidade"
+   "cenario": "interior madeira"
   }
  ]
 }

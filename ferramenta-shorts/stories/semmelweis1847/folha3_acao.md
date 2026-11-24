@@ -104,7 +104,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | INTERACAO | empurrar | OK |
 | 5 | - | ATUACAO | discutir | OK |
 
-## Cena b10 - 62.2s a 67.8s - 16 palavras - plano close
+## Cena b10 - 62.2s a 67.8s - 16 palavras - plano two
 > "Ele morreu em mil oitocentos e sessenta e cinco, sem ver ninguém dar razão a ele."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -114,7 +114,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b11 - 68.1s a 73.3s - 15 palavras - plano two
+## Cena b11 - 68.1s a 73.3s - 15 palavras - plano close
 > "Anos depois, a ciência provou os micróbios. Hoje, ele é chamado de salvador das mães."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -124,7 +124,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | LAVE AS MÃOS | OK |
 
-## Cena b12 - 73.7s a 78.1s - 13 palavras - plano close
+## Cena b12 - 73.7s a 78.1s - 13 palavras - plano two
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

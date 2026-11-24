@@ -114,7 +114,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b11 - Uma piada do dia da mentira que terminou numa prateleira de verdade.
 - Cenario: loc_patio | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): MUS (variante 0, expressao smile)
 - Animacao: comemorar
@@ -145,7 +145,7 @@ kit/veg_cacto | b4, b5 | pronto | conferir na folha de contato se le bem; se par
 
 
 ## Video inteiro
-- Objeto heroi: kit/tequila_bolt | grandes momentos: b7, b10 | planos abertos: 3 | mistura: close 23% | medio 60% | aberto 9% | detalhe 7%
+- Objeto heroi: kit/tequila_bolt | grandes momentos: b7, b10 | planos abertos: 3 | mistura: close 18% | medio 66% | aberto 9% | detalhe 7%
 - Interacoes: b0 insiste, b2 discutir, b3 entregar, b4 o outro se aproxima, b5 cochichar, b8 entregar, b9 vai ate o outro
 - RISCOS GERAIS: 
   - video com ~71 s (o padrao e' 60 s; aceito de 54 a 66, ja com a chamada final) -> CORRECAO: cortar frases que nao mudam a imagem ate ficar em ~60 s (com esta voz, ~150 palavras no total)

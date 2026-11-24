@@ -13,8 +13,8 @@ b7 | orbit | -  | batalha aberta com tiros, tropa | (rosto) laugh (expr + som de
 b8 | two | -  | interior | segredo (ring + som de alerta); encena: pensa (think) @1 (acao + som de efeito) | -
 b9 | crowd | -  | batalha aberta com tiros, tropa | encena: olha (point) @4 (acao + som de efeito); encena: negocio (reach) @10 (acao + som de efeito) | -
 b10 | two | espaco  | placa: VELCRO | - | -
-b11 | close | -  | animais | - | -
+b11 | two | -  | animais | - | -
 b12 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 26% | medio 61% | aberto 8% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 17% | medio 70% | aberto 8% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

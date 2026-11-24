@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 18 - O Jogo de Tabuleiro do Trump
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 13 frases, 41 acoes catalogadas, 41 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 13 frases, 40 acoes catalogadas, 40 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 7.4s - 21 palavras - plano two
@@ -89,16 +89,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | entregar | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 57.0s a 64.1s - 20 palavras - plano group
+## Cena b9 - 57.0s a 64.1s - 20 palavras - plano crowd
 > "E o jogo voltou às lojas, com regras mais simples, e com a frase famosa do programa: você está demitido."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | voltou (58.1s) | ACAO: chega | entra andando pela lateral | OK |
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | INTERACAO | pular | OK |
-| 4 | - | ATUACAO | comemorar | OK |
-| 5 | - | PLACA | VOLTOU | OK |
+| 3 | - | ATUACAO | comemorar | OK |
+| 4 | - | PLACA | VOLTOU | OK |
 
 ## Cena b10 - 64.4s a 69.6s - 15 palavras - plano two
 > "Hoje, as caixas originais de mil novecentos e oitenta e nove viraram item de colecionador."
@@ -108,7 +107,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | vai ate o outro | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b11 - 70.0s a 74.4s - 13 palavras - plano group
+## Cena b11 - 70.0s a 74.4s - 13 palavras - plano two
 > "Um jogo sobre ficar bilionário, que acabou virando só uma curiosidade da história."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

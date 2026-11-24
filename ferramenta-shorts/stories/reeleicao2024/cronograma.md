@@ -1,23 +1,23 @@
 # CRONOGRAMA - Poder e Fama EP 21 - A Volta de Trump
 
-Gerado em 24/11 03:30 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 22:39 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | interior pedra | two | TRU, REP | - | ballot_box, white_house | - | Donald Trump perdeu a eleição de dois mil e vinte. Quatro anos depois,
-b1 | transicao | loc_cidade | reveal | POV, POV | 6 | marco_casabranca, white_house | - | Foi em cinco de novembro de dois mil e vinte e quatro, nos Estados Uni
+b1 | transicao | loc_cidade | wide | POV | - | marco_casabranca, white_house | - | Foi em cinco de novembro de dois mil e vinte e quatro, nos Estados Uni
 b2 | simples | loc_pista | two | ELE, POV | - | ballot_box | - | Milhões de americanos foram às urnas escolher entre Trump e a vice-pre
 b3 | simples | interior loja | two | REP, TRU | - | - | - | A contagem entrou pela madrugada. Os estados indecisos iam decidir tud
 b4 | simples | interior loja | close | REP | - | - | - | Acontece que Trump venceu em todos os estados decisivos, e somou treze
-b5 | chave | hall | crowd | TRU, ELE, POV | 22 | white_house | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os apoiadores comemoraram a noite inteira. Trump subiu ao palco e decl
+b5 | chave | hall | crowd | TRU | - | white_house | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os apoiadores comemoraram a noite inteira. Trump subiu ao palco e decl
 b6 | simples | interior galpao | two | REP, POV | - | - | - | Foi um feito raro: ele virou só o segundo presidente da história com d
 b7 | simples | interior madeira | two | REP, POV | - | scroll | - | O primeiro foi Grover Cleveland, há mais de cento e trinta anos.
-b8 | simples | loc_pista | two | TRU, GEN | - | white_house | - | Em vinte de janeiro de dois mil e vinte e cinco, ele tomou posse de no
-b9 | chave | loc_pista | orbit | TRU, POV, POV | 18 | marco_casabranca, white_house | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Ele tinha sido o presidente número quarenta e cinco. Agora era o númer
-b10 | simples | loc_cidade | close | TRU | - | ballot_box | - | Perdeu, voltou e ganhou. Uma das maiores viradas da política americana
-b11 | simples | loc_cidade | two | TRU | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b8 | simples | loc_pista | group | TRU | - | marco_casabranca, white_house | - | Em vinte de janeiro de dois mil e vinte e cinco, ele tomou posse de no
+b9 | chave | loc_pista | orbit | TRU | - | marco_casabranca, white_house | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Ele tinha sido o presidente número quarenta e cinco. Agora era o númer
+b10 | simples | loc_cidade | two | TRU | - | ballot_box | - | Perdeu, voltou e ganhou. Uma das maiores viradas da política americana
+b11 | simples | loc_cidade | close | TRU | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
@@ -26,7 +26,7 @@ N | Etapa | O que confere | Estado | Proximo passo
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
 2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/5 itens) | PENDENTE | python3 pesquisar.py reeleicao2024
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 2) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 3) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | BLOQUEADO (etapa anterior pendente) | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | BLOQUEADO (etapa anterior pendente) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 

@@ -3,10 +3,10 @@
 Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, vestir e animar. `python3 pesquisar.py neuralink2021` busca cada item na internet, baixa os prints (referencias/neuralink2021/prints/) e monta o quadro referencias/neuralink2021/moodboard.jpg. OLHE o quadro antes de aprovar o storyboard.
 
 - Historia: O Macaco que Jogou Videogame com a Mente
-- Epoca: 2021 | Lugar: ? | Quando: ?
-- HEROIS (objeto): kit/monkey_pong, kit/chess_pc
+- Epoca: 2021 | Lugar: Neuralink, Fremont, California: laboratorio com o macaco diante de uma tela; casa do paciente Noland Arbaugh | Quando: abril de 2021 (video do Pager); janeiro-marco de 2024 (primeiro paciente), dia
+- HEROIS (objeto): kit/monkey_pong
 - HEROIS (personagens): MUS, CIE
-- Cenarios: interior loja, interior madeira, interior pedra, loc_cidade
+- Cenarios: interior loja, interior madeira, loc_cidade
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
@@ -14,14 +14,23 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | O Macaco que Jogou Videogame com a Mente | O Macaco que Jogou Videogame com a Mente / Uma Elon Musk Sem Foi Estados Unidos Neuralink 2021 | SEM REFERENCIA
+tema | O Macaco que Jogou Videogame com a Mente | O Macaco que Jogou Videogame com a Mente / Um Foi Neuralink 2021 | SEM REFERENCIA
+lugar | Neuralink, Fremont, California: laboratorio com o macaco diante de uma tela; cas | Neuralink Fremont California / Neuralink Fremont California 2021 | SEM REFERENCIA
 lugar | Estados Unidos | Estados Unidos 2021 / Estados Unidos landscape | SEM REFERENCIA
 epoca | roupas e ruas de 2021 | 2021 fashion clothing / 2021 street photograph | SEM REFERENCIA
-heroi | monkey pong | monkey pong / O Macaco que Jogou Videogame com a Mente | SEM REFERENCIA
-heroi | chess pc | chess pc | SEM REFERENCIA
+pessoas | macaco Pager (macaco-rhesus de 9 anos) | macaco Pager macaco-rhesus de 9 anos / macaco Pager macaco-rhesus de 9 anos 2021 | SEM REFERENCIA
+pessoas | cientistas de jaleco | cientistas de jaleco / cientistas de jaleco 2021 | SEM REFERENCIA
+pessoas | Elon Musk | Elon Musk / Elon Musk 2021 | SEM REFERENCIA
+pessoas | Noland Arbaugh (cadeira de rodas) | Noland Arbaugh cadeira de rodas / Noland Arbaugh cadeira de rodas 2021 | SEM REFERENCIA
+objeto | tela com Pong | tela com Pong / tela com Pong 2021 | SEM REFERENCIA
+objeto | joystick | joystick / joystick 2021 | SEM REFERENCIA
+objeto | canudo de metal com vitamina de banana | canudo de metal com vitamina de banana / canudo de metal com vitamina de banana 2021 | SEM REFERENCIA
+objeto | chip N1 (moeda pequena) | chip N1 / chip N1 2021 | SEM REFERENCIA
+objeto | computador com xadrez | computador com xadrez / computador com xadrez 2021 | SEM REFERENCIA
+heroi | monkey pong | tela com Pong / O Macaco que Jogou Videogame com a Mente | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
-- -
+- Neuralink mostrou em abril de 2021 o macaco Pager jogando Pong so com o implante; em 2024 Noland Arbaugh, tetraplegico, jogou xadrez com o implante (fonte: Wikipedia Neuralink)
 
 ## Fontes visuais do roteirista
-- -
+- https://en.wikipedia.org/wiki/Neuralink

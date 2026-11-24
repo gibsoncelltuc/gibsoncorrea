@@ -1,28 +1,7 @@
 {
  "id": "galileu1589",
  "ano": 1589,
- "cenarios_trocados": [
-  [
-   "video",
-   "street",
-   "loc_campo"
-  ],
-  [
-   "cena 8",
-   "stadium",
-   "loc_campo"
-  ],
-  [
-   "cena 10",
-   "arctic",
-   "loc_campo"
-  ],
-  [
-   "cena 12",
-   "street",
-   "loc_campo"
-  ]
- ],
+ "cenarios_trocados": [],
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
@@ -33,8 +12,7 @@
   {
    "camera": "two",
    "personagens": [
-    "GAL",
-    "ALU"
+    "GAL"
    ],
    "multidao": 0,
    "objetos": [
@@ -49,7 +27,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "street"
   },
   {
    "camera": "reveal",
@@ -68,7 +46,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "street"
   },
   {
    "camera": "two",
@@ -95,27 +73,12 @@
     "PRO"
    ],
    "multidao": 0,
-   "objetos": [],
-   "palavras": 8,
-   "cena": "b3",
-   "frase": "Todo mundo achava óbvio, e ninguém tinha testado.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior pedra"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "ALU",
-    "GAL"
+   "objetos": [
+    "kit/ball"
    ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 12,
-   "cena": "b4",
-   "frase": "Mas Galileu Galilei achou estranho e disse: \"Eu vou provar o contrário.\"",
+   "palavras": 10,
+   "cena": "b3",
+   "frase": "Mas Galileu Galilei achou estranho e resolveu provar o contrário.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -123,10 +86,9 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
-    "GAL",
-    "ALU"
+    "GAL"
    ],
    "multidao": 0,
    "objetos": [
@@ -136,21 +98,20 @@
     "war/cannonballs"
    ],
    "palavras": 16,
-   "cena": "b5",
+   "cena": "b4",
    "frase": "Dizem que ele foi até a torre inclinada de Pisa, com duas bolas de pesos diferentes.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_deserto"
+   "cenario": "loc_campo"
   },
   {
-   "camera": "orbit",
+   "camera": "wide",
    "personagens": [
-    "GAL",
-    "ALU"
+    "GAL"
    ],
-   "multidao": 12,
+   "multidao": 0,
    "objetos": [
     "kit/ball",
     "kit/marco_pisa",
@@ -158,7 +119,7 @@
     "war/cannonballs"
    ],
    "palavras": 14,
-   "cena": "b6",
+   "cena": "b5",
    "frase": "Acontece que, quando ele soltou as duas, elas caíram no chão ao mesmo tempo.",
    "classe": "chave",
    "sujeito": "personagem",
@@ -169,24 +130,6 @@
     "camera": "4 cameras em sequencia",
     "som": "tiros e gritos"
    },
-   "acoes_faltando": [],
-   "cenario": "loc_deserto"
-  },
-  {
-   "camera": "group",
-   "personagens": [
-    "PRO",
-    "PRO",
-    "ALU"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 11,
-   "cena": "b7",
-   "frase": "A plateia ficou de boca aberta, e os professores ficaram bravos.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },
@@ -199,7 +142,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 17,
-   "cena": "b8",
+   "cena": "b6",
    "frase": "Hoje se discute se isso aconteceu mesmo, porque a história vem de um aluno dele, anos depois.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -208,7 +151,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "group",
+   "camera": "crowd",
    "personagens": [
     "AST",
     "AST"
@@ -216,11 +159,10 @@
    "multidao": 8,
    "objetos": [
     "kit/feather",
-    "kit/marco_pisa",
     "tools/hammer"
    ],
    "palavras": 23,
-   "cena": "b9",
+   "cena": "b7",
    "frase": "Mas em mil novecentos e setenta e um, na Lua, um astronauta soltou um martelo e uma pena, e os dois caíram juntos.",
    "classe": "chave",
    "sujeito": "personagem",
@@ -232,7 +174,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "arctic"
   },
   {
    "camera": "close",
@@ -242,13 +184,13 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 9,
-   "cena": "b10",
+   "cena": "b8",
    "frase": "No fim, até a pena deu razão ao Galileu.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "interior loja"
   },
   {
    "camera": "close",
@@ -258,13 +200,13 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b11",
+   "cena": "b9",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "street"
   }
  ]
 }

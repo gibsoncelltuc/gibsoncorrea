@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 07 - Franklin, a Pipa e o Raio
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 4.1s - 12 palavras - plano two
@@ -30,12 +30,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b3 - 18.5s a 22.6s - 12 palavras - plano two
-> "Franklin discordava, e disse: "O raio é só eletricidade em tamanho gigante.""
+> "Franklin discordava: para ele, o raio era só uma faísca elétrica gigante."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | discutir | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | faísca (21.9s) | ACAO: brilha | o objeto brilha na palavra (ondas de luz + estrelas) | OK |
+| 2 | - | INTERACAO | discutir | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b4 - 23.0s a 28.5s - 16 palavras - plano two
 > "Contam que, numa tarde de chuva, ele prendeu uma chave de metal na linha da pipa."
@@ -65,49 +66,37 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 4 | - | ATUACAO | reagir | OK |
 
-## Cena b7 - 41.5s a 47.8s - 18 palavras - plano two
-> "Hoje se discute se isso aconteceu mesmo, e a sorte foi o raio não ter caído na pipa."
+## Cena b7 - 41.5s a 48.1s - 19 palavras - plano two
+> "Hoje se discute se isso aconteceu mesmo. E se um raio tivesse caído na pipa, ele não teria sobrevivido."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | cochichar | OK |
 | 2 | - | ATUACAO | discutir | OK |
 
-## Cena b8 - 48.1s a 53.3s - 15 palavras - plano group
-> "Se tivesse caído, ele não estaria aqui para contar, e outros cientistas morreram tentando repetir."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | morreram (52.6s) | EFEITO: puff | fumaca + som | OK |
-| 2 | morreram (52.6s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
-| 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 4 | - | INTERACAO | o outro se aproxima | OK |
-| 5 | - | ATUACAO | conversar | OK |
-
-## Cena b9 - 53.7s a 58.9s - 15 palavras - plano group
+## Cena b8 - 48.5s a 53.7s - 15 palavras - plano group
 > "Franklin então inventou o para-raios, e hoje ele protege casas e prédios no mundo inteiro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | inventou (54.4s) | ACAO: vira | o material vira o produto, que surge girando em destaque | OK |
+| 1 | inventou (49.3s) | ACAO: vira | o material vira o produto, que surge girando em destaque | OK |
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | INTERACAO | pular | OK |
-| 4 | - | ATUACAO | comemorar | OK |
-| 5 | - | PLACA | PARA-RAIOS | OK |
+| 3 | - | ATUACAO | comemorar | OK |
+| 4 | - | PLACA | PARA-RAIOS | OK |
 
-## Cena b10 - 59.3s a 62.6s - 10 palavras - plano close
+## Cena b9 - 54.1s a 57.4s - 10 palavras - plano close
 > "No fim, o raio perdeu a briga para uma chave."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | perdeu (60.7s) | EFEITO: puff | fumaca + som | OK |
-| 2 | perdeu (60.7s) | ACAO: perde | mao na testa | OK |
-| 3 | briga (61.5s) | EFEITO: puff | fumaca + som | OK |
-| 4 | briga (61.5s) | ACAO: golpe | soco + estouro | OK |
+| 1 | perdeu (55.6s) | EFEITO: puff | fumaca + som | OK |
+| 2 | perdeu (55.6s) | ACAO: perde | mao na testa | OK |
+| 3 | briga (56.3s) | EFEITO: puff | fumaca + som | OK |
+| 4 | briga (56.3s) | ACAO: golpe | soco + estouro | OK |
 | 5 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
 | 6 | - | ATUACAO | conversar | OK |
 
-## Cena b11 - 63.0s a 67.4s - 13 palavras - plano close
+## Cena b10 - 57.8s a 62.2s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

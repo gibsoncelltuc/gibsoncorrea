@@ -26,14 +26,14 @@
     "BUK",
     "POV"
    ],
-   "multidao": 0,
+   "multidao": 12,
    "objetos": [
     "kit/bitcoin",
     "kit/volcano"
    ],
-   "palavras": 22,
+   "palavras": 14,
    "cena": "b0",
-   "frase": "Em dois mil e vinte e um, um país fez algo que nenhum outro tinha feito: aceitou o bitcoin como dinheiro oficial.",
+   "frase": "Um país aceitou o bitcoin como dinheiro, e nove em dez moradores não entendiam.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -49,9 +49,9 @@
    "objetos": [
     "kit/volcano"
    ],
-   "palavras": 16,
+   "palavras": 15,
    "cena": "b1",
-   "frase": "O país era El Salvador, na América Central, e a ideia foi do presidente Nayib Bukele.",
+   "frase": "Foi em El Salvador, na América Central, e a ideia foi do presidente Nayib Bukele.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -59,19 +59,18 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "DEP",
-    "BUK",
-    "CLI"
+    "BUK"
    ],
    "multidao": 0,
    "objetos": [
     "kit/bitcoin"
    ],
-   "palavras": 10,
+   "palavras": 20,
    "cena": "b2",
-   "frase": "A lei foi aprovada pelo congresso em junho daquele ano.",
+   "frase": "Ele anunciou o projeto em junho de dois mil e vinte e um, e o congresso aprovou poucos dias depois.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -79,7 +78,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "crowd",
+   "camera": "reveal",
    "personagens": [
     "BUK",
     "POV"
@@ -88,9 +87,51 @@
    "objetos": [
     "kit/volcano"
    ],
-   "palavras": 15,
+   "palavras": 20,
    "cena": "b3",
-   "frase": "E passou a valer em sete de setembro de dois mil e vinte e um.",
+   "frase": "A lei passou a valer em sete de setembro, e o país foi o primeiro do mundo a fazer isso.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "CLI",
+    "POV"
+   ],
+   "multidao": 12,
+   "objetos": [
+    "kit/bitcoin",
+    "kit/stall"
+   ],
+   "palavras": 18,
+   "cena": "b4",
+   "frase": "Para convencer o povo, o governo prometeu trinta dólares em bitcoin a quem baixasse a carteira digital Chivo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "CLI"
+   ],
+   "multidao": 10,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b5",
+   "frase": "Acontece que, no lançamento, o aplicativo ficou fora do ar por algumas horas.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -110,55 +151,13 @@
     "POV"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/bitcoin",
-    "kit/stall"
-   ],
-   "palavras": 9,
-   "cena": "b4",
-   "frase": "Com isso, dava para pagar as compras com bitcoin.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_pista"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "CLI"
-   ],
-   "multidao": 0,
    "objetos": [],
-   "palavras": 9,
-   "cena": "b5",
-   "frase": "O governo lançou até uma carteira digital, chamada Chivo.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_pista"
-  },
-  {
-   "camera": "orbit",
-   "personagens": [
-    "CLI",
-    "POV"
-   ],
-   "multidao": 12,
-   "objetos": [],
-   "palavras": 13,
+   "palavras": 15,
    "cena": "b6",
-   "frase": "Nas primeiras horas, o aplicativo ficou fora do ar, por excesso de acessos.",
-   "classe": "chave",
+   "frase": "Uma pesquisa da Universidade Centro-Americana mostrou que sessenta e oito por cento discordavam da decisão.",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_pista"
   },
@@ -170,13 +169,15 @@
    ],
    "multidao": 6,
    "objetos": [
+    "kit/bitcoin",
+    "kit/coin",
     "kit/globe",
     "kit/volcano"
    ],
-   "palavras": 17,
+   "palavras": 10,
    "cena": "b7",
-   "frase": "Foi o primeiro país do mundo a fazer isso, e o assunto virou conversa no planeta inteiro.",
-   "classe": "transicao",
+   "frase": "Mesmo assim, a moeda digital virou assunto no mundo inteiro.",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],

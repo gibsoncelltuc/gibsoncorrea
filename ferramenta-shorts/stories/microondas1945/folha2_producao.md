@@ -42,14 +42,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barra, bolso, chocolate
 - RISCOS: nenhum
 
-## Cena b4 - Pouco depois, sentiu o bolso quente e disse: "O meu chocolate derreteu...
+## Cena b4 - Pouco depois, sentiu o bolso quente: o chocolate tinha derretido.
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): ENG (variante 0, expressao surprised); SPE (variante 0, expressao shock)
 - Animacao: conversar | interacao: susto
 - Objetos/modelos: kit/chocolate
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bolso
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bolso, chocolate
 - RISCOS: nenhum
 
 ## Cena b5 - Spencer ficou curioso e perguntou o que mais aquelas ondas fariam.
@@ -77,11 +77,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): SPE (variante 0, expressao grin); COL (variante 0, expressao shock)
-- Animacao: conversar | interacao: discutir
+- Animacao: conversar | interacao: discutir | batalha encenada
 - Objetos/modelos: kit/egg
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cara, colega
-- RISCOS: 
-  - ACAO-CHAVE sem briefing de efeito (corpo + emissao + luz/camera) -> CORRECAO: por o objeto da acao em "props" (veiculo/objeto grande) para a ferramenta animar com VFX, ou "batalha"/"explica" na cena
+- RISCOS: nenhum
 
 ## Cena b8 - Dois anos depois, saiu o primeiro forno, mais alto que uma pessoa e co...
 - Cenario: loc_campo | luz: day | clima: limpo
@@ -135,16 +134,13 @@ kit/egg | b7 | pronto | conferir na folha de contato se le bem; se parecer caixo
 
 
 ## Video inteiro
-- Objeto heroi: kit/microwave | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 21% | medio 63% | aberto 11% | detalhe 4%
+- Objeto heroi: kit/microwave | grandes momentos: b6, b7, b9 | planos abertos: 2 | mistura: close 22% | medio 63% | aberto 11% | detalhe 4%
 - Interacoes: b0 o outro se aproxima, b2 insiste, b3 vai ate o outro, b4 susto, b7 discutir, b8 aproxima-se, b9 pular
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py microondas1945  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/microondas1945/moodboard.jpg
-  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 3 risco(s) em aberto
-- b7: ACAO-CHAVE sem briefing de efeito (corpo + emissao + luz/camera)
+## RESUMO: 1 risco(s) em aberto
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
-- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh microondas1945 bN bM` (so essas cenas).

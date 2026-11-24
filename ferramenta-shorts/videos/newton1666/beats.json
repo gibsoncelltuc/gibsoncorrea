@@ -46,7 +46,18 @@
     "NEW:0:smile:book",
     "AMI:0:surprised"
    ],
-   "text": "1666"
+   "text": "1666",
+   "props": [
+    [
+     "kit/apple",
+     0.0,
+     -0.8,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ]
   },
   {
    "say": "Era mil seiscentos e sessenta e seis, e a peste fechou a universidade de Cambridge.",
@@ -92,21 +103,6 @@
    ]
   },
   {
-   "say": "Todo mundo sabia que as coisas caem. Ninguém perguntava até onde essa força chegava.",
-   "shot": "group",
-   "who": [
-    "LAV:0:smug",
-    "LAV:1:bored",
-    "AMI:0:suspicious"
-   ],
-   "fx": [
-    "dust@20"
-   ],
-   "sfx": [
-    "thump@20"
-   ]
-  },
-  {
    "say": "Acontece que, numa tarde, uma maçã se soltou do galho e caiu bem na frente dele.",
    "shot": "orbit",
    "who": [
@@ -129,6 +125,15 @@
      -2.4,
      -2.0,
      1.4
+    ],
+    [
+     "kit/apple",
+     0.0,
+     -0.8,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -141,7 +146,7 @@
    ]
   },
   {
-   "say": "Newton não levou pancada na cabeça, isso é lenda. Ele só pensou: \"Por que ela cai sempre para baixo?\"",
+   "say": "Ela não caiu na cabeça dele, isso é lenda. Ele só se perguntou por que ela cai sempre para baixo.",
    "shot": "close",
    "who": [
     "NEW:0:suspicious"
@@ -150,12 +155,12 @@
   {
    "say": "Se a força puxa a maçã lá do galho, será que ela também puxa a Lua, lá no céu?",
    "shot": "two",
-   "interior": "madeira",
    "who": [
     "NEW:0:surprised:paper",
     "MAE:0:shock"
    ],
-   "interacao": "susto"
+   "interacao": "susto",
+   "set": "loc_campo"
   },
   {
    "say": "A resposta virou a lei da gravidade, publicada em mil seiscentos e oitenta e sete.",
@@ -201,7 +206,51 @@
    "shot": "close",
    "who": [
     "NEW:0:smug"
-   ]
+   ],
+   "props": [
+    [
+     "kit/apple",
+     0.0,
+     -0.8,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "explica": false
   }
- ]
+ ],
+ "visual": {
+  "local": "Woolsthorpe Manor, Lincolnshire, Inglaterra: casa de pedra da fazenda e pomar com macieira; Cambridge fechada pela peste",
+  "quando": "1665-1666, verao, tarde",
+  "participantes": [
+   "Isaac Newton jovem (23 anos, cabelo comprido, casaca simples)",
+   "a mae Hannah",
+   "William Stukeley (amigo, anos depois)"
+  ],
+  "roupas": {
+   "NEW": "casaca marrom simples do seculo 17, camisa branca, cabelo comprido",
+   "MAE": "vestido escuro e touca",
+   "AMI": "casaca e peruca",
+   "LAV": "roupa de camponeses ingleses"
+  },
+  "cenario": "fazenda inglesa de pedra calcaria, pomar com macieira, campo verde; sala com lareira",
+  "objetos": [
+   "maca vermelha",
+   "macieira",
+   "livros e penas de escrever"
+  ],
+  "explicacoes": [
+   "Newton voltou a Woolsthorpe durante a peste (1665-66); segundo William Stukeley, a queda de uma maca o fez pensar na gravidade alcancando a Lua; publicou os Principia em 1687 (fonte: Wikipedia Isaac Newton's apple tree)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Woolsthorpe_Manor",
+   "https://en.wikipedia.org/wiki/Isaac_Newton%27s_apple_tree"
+  ],
+  "buscas": {
+   "casa": "Woolsthorpe Manor apple tree",
+   "maca": "red apple on branch"
+  }
+ }
 }

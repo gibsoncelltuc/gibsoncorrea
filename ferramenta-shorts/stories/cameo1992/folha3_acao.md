@@ -1,19 +1,21 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 02 - O Cameo de Sete Segundos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 24 acoes catalogadas, 24 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 7.8s - 22 palavras - plano close
-> "Em mil novecentos e noventa e dois, estreou o filme Esqueceram de Mim 2, com o garoto Kevin perdido em Nova York."
+## Cena b0 - 0.0s a 4.8s - 14 palavras - plano two
+> "Um filme de Natal ainda briga por causa de sete segundos com Donald Trump."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-| 2 | - | MAPA | NOVA YORK | OK |
+| 1 | briga (1.9s) | EFEITO: puff | fumaca + som | OK |
+| 2 | briga (1.9s) | ACAO: golpe | soco + estouro | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | MAPA | NOVA YORK | OK |
 
-## Cena b1 - 8.1s a 15.2s - 20 palavras - plano two
-> "Numa cena rápida, Kevin pergunta a um homem onde fica o saguão do hotel, e esse homem é Donald Trump."
+## Cena b1 - 5.2s a 15.2s - 28 palavras - plano two
+> "Em mil novecentos e noventa e dois, no filme Esqueceram de Mim 2, Kevin pergunta a um homem onde fica o saguão do hotel. O homem é Trump."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -29,7 +31,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | susto | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b3 - 18.1s a 21.9s - 11 palavras - plano close
+## Cena b3 - 18.1s a 21.9s - 11 palavras - plano two
 > "Acontece que aquele hotel, o Plaza, pertencia a Trump na época."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -79,14 +81,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | discussão (48.9s) | EFEITO: puff | fumaca + som | OK |
 
-## Cena b9 - 50.7s a 55.9s - 15 palavras - plano close
+## Cena b9 - 50.7s a 55.9s - 15 palavras - plano two
 > "Moral da história: um cameo de sete segundos gera conversa por mais de trinta anos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 56.3s a 60.7s - 13 palavras - plano two
+## Cena b10 - 56.3s a 60.7s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

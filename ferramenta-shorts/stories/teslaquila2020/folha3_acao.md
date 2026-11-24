@@ -110,7 +110,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | comemorar | OK |
 | 3 | - | PLACA | COLEÇÃO | OK |
 
-## Cena b11 - 66.5s a 69.4s - 12 palavras - plano close
+## Cena b11 - 66.5s a 69.4s - 12 palavras - plano two
 > "Uma piada do dia da mentira que terminou numa prateleira de verdade."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
