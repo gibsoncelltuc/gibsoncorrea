@@ -297,43 +297,34 @@
     [
      "kit/kettle",
      0.0,
-     -1.2,
-     1.2,
+     1.0,
+     1.4,
      {
       "fixo": true
      }
     ]
    ],
    "fx": [
-    "burst@55",
-    "puff@60"
+    "burst@50",
+    "puff@55"
    ],
    "sfx": [
     "thump@55",
     "ding@58"
    ],
    "say": "A bala acertou e destruiu uma chaleira de sopa no convés do navio do imperador.",
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kettle juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/kettle",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "detalhe": false,
    "impact": true,
    "batalha": false,
    "tiros": false,
-   "interior": "madeira",
+   "fachada": false,
+   "quadro_manual": true,
    "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "cz": 0.0,
+   "d0": 9.5,
+   "d1": 8.5,
+   "_auto_vis": 0,
+   "interior": "madeira"
   },
   {
    "shot": "wide",
