@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 11 - A Guerra da Lagosta
 
-Gerado em 24/11 13:05 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 13:07 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -12,7 +12,7 @@ b2 | chave | harbor | crowd | BRA, PES | 12 | - | corpo: tropa/personagens encen
 b3 | simples | loc_campo | two | FRA, FRA | - | - | - | A França respondia que a lagosta nada, e por isso era de quem pescasse
 b4 | simples | interior pedra | group | FRA, MAR, MAR | - | ship | - | A França mandou um navio de guerra para proteger os pescadores dela.
 b5 | chave | harbor | crowd | MAR, MAR | 20 | navios de guerra ao fundo, no tamanho real, ship, airplane | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que o Brasil não recuou. Mandou navios e aviões para a costa,
-b6 | simples | harbor | two | MAR, MAR | - | - | - | Marinheiros dos dois lados se encararam no mar.
+b6 | simples | harbor | two | MAR, MAR | - | - | - | Marinheiros dos dois lados se encararam no mar. Os jornais chamaram o 
 b7 | simples | interior madeira | two | FRA, BRA | - | - | - | Mas o tiro nunca veio. Os dois governos se reuniram e conversaram, em 
 b8 | simples | harbor | reveal | PES, FRA | - | navio em movimento | - | Depois, chegaram a um acordo: alguns barcos franceses podiam pescar, c
 b9 | simples | interior pedra | close | BRA | - | lobster | - | No fim, ninguém perguntou para a lagosta de que lado ela queria ficar.

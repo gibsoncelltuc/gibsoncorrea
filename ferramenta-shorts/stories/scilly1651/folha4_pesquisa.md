@@ -28,6 +28,7 @@ objeto | tratado de paz em papel | tratado de paz em papel / tratado de paz em p
 objeto | bandeiras da Holanda e da Inglaterra | bandeiras da Holanda e da Inglaterra / bandeiras da Holanda e da Inglaterra 1651 | SEM REFERENCIA
 heroi | scroll | navios a vela de 1651 / A Guerra de 335 Anos | SEM REFERENCIA
 epoca | navio da epoca | ship 1651 / ship | SEM REFERENCIA
+epoca | soldado da epoca | soldier uniform 1651 / soldier uniform | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - -

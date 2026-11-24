@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Borracha que Caiu no Fogão | A Borracha que Caiu no Fogão / Um Era Estados Unidos 1839 | SEM REFERENCIA
+tema | A Borracha que Caiu no Fogão | A Borracha que Caiu no Fogão / Um Era Estados Unidos Botas 1839 | SEM REFERENCIA
 lugar | Woburn (Massachusetts, EUA): cozinha de casa simples com fogao de ferro; prisao | Woburn / Woburn Massachusetts EUA 1839 | SEM REFERENCIA
 lugar | Estados Unidos | Estados Unidos 1839 / Estados Unidos landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1839 | 1839 fashion clothing / 19th century clothing painting | SEM REFERENCIA

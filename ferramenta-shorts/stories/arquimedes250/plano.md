@@ -9,10 +9,11 @@ b3 | group | -  | interior | ouro (stars + som de sino); encena: x_entrega (reac
 b4 | two | -  | interior, objeto na mao | (rosto) pleading (expr + som de efeito); encena: fala (point) @2 (acao + som de efeito) | -
 b5 | orbit | -  | batalha aberta com tiros, tropa | encena: chega (point) @5 (acao + som de efeito) | -
 b6 | two | -  | interior | percebeu (ring + som de alerta); encena: pensa (think) @1 (acao + som de efeito) | -
-b7 | prop | -  | - | ouro (stars + som de sino); encena: examina (think) @3 (acao + som de efeito); encena: paga (reach) @13 (acao + som de efeito) | -
-b8 | group | -  | batalha aberta com tiros, tropa, placa: EUREKA | (rosto) shout (expr + som de efeito); gritou (ring + som de alerta); encena: grita (up) @5 (acao + som de efeito) | -
-b9 | two | -  | - | - | -
-b10 | close | -  | placa: COMENTE! | - | -
+b7 | group | -  | interior | ouro (stars + som de sino); encena: paga (reach) @9 (acao + som de efeito) | -
+b8 | prop | -  | - | ouro (stars + som de sino); encena: examina (think) @3 (acao + som de efeito); encena: paga (reach) @13 (acao + som de efeito) | -
+b9 | group | -  | batalha aberta com tiros, tropa, placa: EUREKA | (rosto) shout (expr + som de efeito); gritou (ring + som de alerta); encena: grita (up) @5 (acao + som de efeito) | -
+b10 | group | -  | - | - | -
+b11 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 11% | medio 77% | aberto 8% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 10% | medio 80% | aberto 7% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 2 | dentro do padrao do canal

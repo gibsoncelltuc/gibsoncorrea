@@ -25,11 +25,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b2 - Ele estudava bactérias e deixava os pratos de cultura empilhados na ba...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): FLE (variante 0, expressao neutral, segura book); COL (variante 0, expressao suspicious)
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bancada, cultura, pratos
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bacterias, bancada, cultura, gelatina, pratos, vidro
 - RISCOS: nenhum
 
 ## Cena b3 - Um dia, ele saiu de férias por um mês e não limpou nada.
@@ -133,7 +133,7 @@ kit/gosma | b4, b5 | pronto | conferir na folha de contato se le bem; se parecer
 
 
 ## Video inteiro
-- Objeto heroi: kit/petri | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 21% | medio 66% | aberto 9% | detalhe 3%
+- Objeto heroi: kit/petri | grandes momentos: b6, b9 | planos abertos: 2 | mistura: close 20% | medio 68% | aberto 8% | detalhe 3%
 - Interacoes: b0 aproxima-se, b2 avanca e o outro recua, b3 susto, b4 discutir, b8 pular, b9 o outro se aproxima
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py fleming1928  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/fleming1928/moodboard.jpg

@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 17 - A Borracha que Caiu no Fogão
 
-Gerado em 24/11 10:23 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 13:07 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -8,7 +8,7 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 ---|---|---|---|---|---|---|---|---
 b0 | simples | interior madeira | two | GOO, CLA | - | stove | - | Um inventor falido deixou cair uma gosma no fogão da cozinha. E mudou 
 b1 | transicao | street | reveal | POV, POV | 6 | - | - | Era mil oitocentos e trinta e nove, nos Estados Unidos.
-b2 | chave | street | crowd | GOO, POV | 12 | stove | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A borracha estava na moda, mas derretia no calor e rachava no frio.
+b2 | chave | street | crowd | GOO, POV | 12 | stove | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A borracha estava na moda, mas derretia no calor e rachava no frio. Bo
 b3 | simples | interior madeira | two | GOO, CLA | - | - | - | Charles Goodyear ficou obcecado e gastou todo o dinheiro da família em
 b4 | simples | interior pedra | two | GUA, GOO | - | - | - | Fez tantas dívidas que foi parar na prisão.
 b5 | simples | interior madeira | two | GOO, CLA | - | stove | - | Até que um dia, mexendo numa mistura de borracha com enxofre, ele se a

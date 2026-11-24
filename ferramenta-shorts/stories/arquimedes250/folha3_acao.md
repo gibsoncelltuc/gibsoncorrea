@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 02 - Arquimedes e o Eureca
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 45 acoes catalogadas, 45 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 49 acoes catalogadas, 49 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 4.8s - 14 palavras - plano track
@@ -75,31 +75,41 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | cochichar | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b7 - 33.7s a 38.9s - 15 palavras - plano prop
+## Cena b7 - 33.7s a 40.0s - 18 palavras - plano group
+> "Se a coroa tivesse prata, seria maior que o ouro puro de mesmo peso, e derramaria mais água."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | ouro (37.0s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | ouro (37.0s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 3 | - | INTERACAO | cochichar | OK |
+| 4 | - | ATUACAO | conversar | OK |
+
+## Cena b8 - 40.4s a 45.6s - 15 palavras - plano prop
 > "Assim dava para medir a coroa, e comparar com o mesmo peso de ouro puro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | medir (34.8s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 2 | ouro (38.5s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | ouro (38.5s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 1 | medir (41.5s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+| 2 | ouro (45.2s) | EFEITO: stars | estrelinhas + som | OK |
+| 3 | ouro (45.2s) | ACAO: paga | estende a mao com moedas + brilho | OK |
 | 4 | - | INTERACAO | susto | OK |
 | 5 | - | ATUACAO | reagir | OK |
 
-## Cena b8 - 39.3s a 44.4s - 15 palavras - plano group
+## Cena b9 - 45.9s a 51.1s - 15 palavras - plano group
 > "Conta a lenda que ele gritou Eureca pela rua. E a coroa tinha mesmo prata."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | gritou (41.1s) | EFEITO: ring | onda + som | OK |
-| 2 | gritou (41.1s) | ACAO: grita | grita de bracos para cima | OK |
+| 1 | gritou (47.8s) | EFEITO: ring | onda + som | OK |
+| 2 | gritou (47.8s) | ACAO: grita | grita de bracos para cima | OK |
 | 3 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
 | 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 5 | - | INTERACAO | vai ate o outro | OK |
 | 6 | - | ATUACAO | comemorar | OK |
 | 7 | - | PLACA | EUREKA | OK |
 
-## Cena b9 - 44.8s a 48.5s - 11 palavras - plano two
+## Cena b10 - 51.5s a 55.2s - 11 palavras - plano group
 > "No fim, dá para enganar um rei, mas não uma banheira."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -107,7 +117,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | insiste | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 48.9s a 53.3s - 13 palavras - plano close
+## Cena b11 - 55.6s a 60.0s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

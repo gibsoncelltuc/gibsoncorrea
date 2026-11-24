@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 04 - Fleming e a Penicilina
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 12 cenas, 149 palavras (~51 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 12 cenas, 160 palavras (~55 s)
 
 ## Cena b0  (~4.1 s)
 - Narracao: Um mofo esquecido no meio da bagunça acabou salvando milhões de vidas.
@@ -20,8 +20,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: - | mapa: INGLATERRA
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~4.1 s)
-- Narracao: Ele estudava bactérias e deixava os pratos de cultura empilhados na bancada.
+## Cena b2  (~7.9 s)
+- Narracao: Ele estudava bactérias e deixava os pratos de cultura empilhados na bancada. Eram pratinhos de vidro com uma gelatina onde as bactérias cresciam.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: examina (think) @1 -> acao + som de efeito; encena: pega (lift) @9 -> acao + som de efeito

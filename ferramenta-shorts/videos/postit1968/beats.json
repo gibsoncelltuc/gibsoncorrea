@@ -114,7 +114,7 @@
     "SIL:0:nervous:paper"
    ],
    "interacao": "entregar",
-   "say": "Por anos, ninguém viu utilidade nela."
+   "say": "Por anos, ninguém viu utilidade nela. Silver mostrava a cola para todo mundo dentro da empresa, e nada."
   },
   {
    "shot": "group",
@@ -291,7 +291,7 @@
    ],
    "text": "POST-IT",
    "titulo": true,
-   "say": "Então distribuíram amostras de graça, e quase todos quiseram comprar.",
+   "say": "Então distribuíram amostras de graça para vários escritórios, e quase todos quiseram comprar.",
    "impact": true
   },
   {

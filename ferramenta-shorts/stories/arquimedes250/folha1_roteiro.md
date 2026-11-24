@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 02 - Arquimedes e o Eureca
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 145 palavras (~50 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 12 cenas, 163 palavras (~56 s)
 
 ## Cena b0  (~4.8 s)
 - Narracao: Um homem pulou da banheira e saiu correndo pela rua, gritando uma palavra só.
@@ -65,7 +65,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~5.2 s)
+## Cena b7  (~6.2 s)
+- Narracao: Se a coroa tivesse prata, seria maior que o ouro puro de mesmo peso, e derramaria mais água.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: ouro -> stars + som de sino; encena: paga (reach) @9 -> acao + som de efeito
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b8  (~5.2 s)
 - Narracao: Assim dava para medir a coroa, e comparar com o mesmo peso de ouro puro.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
@@ -74,7 +83,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~5.2 s)
+## Cena b9  (~5.2 s)
 - Narracao: Conta a lenda que ele gritou Eureca pela rua. E a coroa tinha mesmo prata.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30, sting@80
@@ -83,7 +92,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: EUREKA
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b9  (~3.8 s)
+## Cena b10  (~3.8 s)
 - Narracao: No fim, dá para enganar um rei, mas não uma banheira.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
@@ -92,7 +101,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b10  (~4.5 s)
+## Cena b11  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -

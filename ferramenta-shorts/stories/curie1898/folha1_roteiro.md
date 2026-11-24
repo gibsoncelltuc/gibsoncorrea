@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 19 - O Caderno que Ainda Brilha
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 12 cenas, 151 palavras (~52 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 13 cenas, 169 palavras (~58 s)
 
 ## Cena b0  (~4.5 s)
 - Narracao: Existem cadernos tão perigosos que só podem ser lidos com roupa de proteção.
@@ -29,7 +29,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~5.2 s)
+## Cena b3  (~6.2 s)
+- Narracao: O galpão tinha o teto furado, chovia dentro, e ela mexia a mistura com uma barra de ferro.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: encena: mistura (stir) @10 -> acao + som de efeito
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b4  (~5.2 s)
 - Narracao: Mexendo em toneladas de minério, eles descobriram dois elementos novos: o polônio e o rádio.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
@@ -38,7 +47,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~4.5 s)
+## Cena b5  (~4.5 s)
 - Narracao: O rádio brilhava no escuro, e Marie adorava olhar os frascos à noite.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, sting@50
@@ -47,7 +56,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~3.1 s)
+## Cena b6  (~3.1 s)
 - Narracao: Ela carregava frascos no bolso. Ninguém sabia do perigo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -56,7 +65,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b6  (~4.5 s)
+## Cena b7  (~4.5 s)
 - Narracao: Ela ganhou dois prêmios Nobel, a primeira pessoa da história a conseguir isso.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
@@ -65,7 +74,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: NOBEL
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b7  (~6.2 s)
+## Cena b8  (~6.2 s)
 - Narracao: Acontece que a radiação foi destruindo a saúde dela. Em mil novecentos e trinta e quatro, ela morreu.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@40
@@ -74,7 +83,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
-## Cena b8  (~4.5 s)
+## Cena b9  (~4.5 s)
 - Narracao: Mas os cadernos dela continuam radioativos, guardados em caixas de chumbo em Paris.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -83,7 +92,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~4.1 s)
+## Cena b10  (~4.1 s)
 - Narracao: Para ler, é preciso assinar um termo e usar roupa de proteção.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@20
@@ -92,7 +101,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b10  (~3.1 s)
+## Cena b11  (~3.1 s)
 - Narracao: Ou seja: os cadernos vão continuar radioativos por séculos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -101,7 +110,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b11  (~4.5 s)
+## Cena b12  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -

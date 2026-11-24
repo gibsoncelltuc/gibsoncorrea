@@ -33,7 +33,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - Logo, o país inteiro estava comprando. Padeiros, sapateiros, gente que...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao grin, segura tulip); POV (variante 1, expressao laugh, segura coin); MER (variante 0, expressao grin) | multidao: 20 de POV/RIC
@@ -42,8 +42,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
-## Cena b4 - Ninguém queria a flor. Queriam revender mais caro na semana seguinte.
-- Cenario: countryside | luz: day | clima: limpo
+## Cena b4 - Contam que teve gente que trocou terras e casas por um único bulbo.
+- Cenario: harbor | luz: day | clima: limpo
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (3): POV (variante 0, expressao grin, segura tulip); POV (variante 1, expressao laugh, segura coin); MER (variante 0, expressao grin) | multidao: 20 de POV/RIC
+- Animacao: encena | batalha encenada
+- Objetos/modelos: kit/tulip_bed, kit/marco_amsterdam, kit/tulip_red, buildings/house_small, nature/picket_fence, nature/tree_oak
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
+- RISCOS: nenhum
+
+## Cena b5 - Ninguém queria a flor. Queriam revender mais caro na semana seguinte.
+- Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): POV (variante 2, expressao grin, segura paper); POV (variante 3, expressao smile, segura coin)
@@ -52,7 +62,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): flor, semana
 - RISCOS: nenhum
 
-## Cena b5 - Contam que um marinheiro comeu um bulbo achando que era cebola. Valia ...
+## Cena b6 - Contam que um marinheiro comeu um bulbo achando que era cebola. Valia ...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
@@ -62,7 +72,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bulbo, fortuna, marinheiro
 - RISCOS: nenhum
 
-## Cena b6 - Acontece que, num leilão de fevereiro, o vendedor abriu os lances, e n...
+## Cena b7 - Acontece que, num leilão de fevereiro, o vendedor abriu os lances, e n...
 - Cenario: interior loja | luz: dia | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
@@ -72,9 +82,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fevereiro, lances, vendedor
 - RISCOS: nenhum
 
-## Cena b7 - A notícia correu. Em poucos dias, todo mundo quis vender, e não havia ...
+## Cena b8 - A notícia correu. Em poucos dias, todo mundo quis vender, e não havia ...
 - Cenario: street | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): POV (variante 2, expressao shock, segura tulip); RIC (variante 0, expressao pained, segura paper) | multidao: 30 de POV/RIC/MER
 - Animacao: discutir | batalha encenada
@@ -82,7 +92,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): noticia
 - RISCOS: nenhum
 
-## Cena b8 - Os preços desabaram. Quem tinha trocado a casa por flores ficou só com...
+## Cena b9 - Os preços desabaram. Quem tinha trocado a casa por flores ficou só com...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
@@ -92,8 +102,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): casa, dividas, flores, precos
 - RISCOS: nenhum
 
-## Cena b9 - O marinheiro, pelo menos, almoçou bem.
-- Cenario: street | luz: day | clima: limpo
+## Cena b10 - O marinheiro, pelo menos, almoçou bem.
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): MAR (variante 0, expressao grin)
@@ -102,9 +112,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): marinheiro
 - RISCOS: nenhum
 
-## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: countryside | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): MER (variante 0, expressao grin)
 - Animacao: conversar
@@ -117,20 +127,23 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/tulip_bed | b0, b1, b3, b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/tulip_bed | b0, b1, b3, b4, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/windmill | b0, b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/tulip_red | b0, b1, b5, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_amsterdam | b1, b3, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/tulip_red | b0, b1, b4, b6, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_amsterdam | b1, b3, b4, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tulip_striped | b2 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/coin | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/tulip_yellow | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/tulip_purple | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/stall | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/house_small | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/picket_fence | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/tree_oak | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/tulip_yellow | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/tulip_purple | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/stall | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/tulip_striped | grandes momentos: b3, b7 | planos abertos: 3 | mistura: close 17% | medio 68% | aberto 13% | detalhe 2%
-- Interacoes: b0 susto, b2 discutir, b4 reverencia, b5 aproxima-se, b6 vai ate o outro, b8 avanca e o outro recua
+- Objeto heroi: kit/tulip_striped | grandes momentos: b3, b4, b8 | planos abertos: 4 | mistura: close 9% | medio 74% | aberto 15% | detalhe 2%
+- Interacoes: b0 susto, b2 discutir, b5 reverencia, b6 aproxima-se, b7 vai ate o outro, b9 avanca e o outro recua
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py tulipas1637  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/tulipas1637/moodboard.jpg
 

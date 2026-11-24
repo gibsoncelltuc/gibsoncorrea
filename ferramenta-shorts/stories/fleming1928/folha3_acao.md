@@ -20,8 +20,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | MAPA | INGLATERRA | OK |
 
-## Cena b2 - 10.7s a 14.8s - 12 palavras - plano two
-> "Ele estudava bactérias e deixava os pratos de cultura empilhados na bancada."
+## Cena b2 - 10.7s a 18.9s - 23 palavras - plano two
+> "Ele estudava bactérias e deixava os pratos de cultura empilhados na bancada. Eram pratinhos de vidro com uma gelatina onde as bactérias cresciam."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -30,35 +30,35 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | avanca e o outro recua | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b3 - 15.2s a 19.6s - 13 palavras - plano group
+## Cena b3 - 19.3s a 23.7s - 13 palavras - plano group
 > "Um dia, ele saiu de férias por um mês e não limpou nada."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | saiu (16.3s) | ACAO: sai | sai andando pela lateral | OK |
+| 1 | saiu (20.4s) | ACAO: sai | sai andando pela lateral | OK |
 | 2 | - | INTERACAO | susto | OK |
 | 3 | - | ATUACAO | reagir | OK |
 | 4 | - | CHEGADA | alguem entra andando | OK |
 
-## Cena b4 - 20.0s a 23.3s - 10 palavras - plano two
+## Cena b4 - 24.1s a 27.4s - 10 palavras - plano two
 > "Quando voltou, achou um prato estragado, coberto de bolor verde."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | voltou (20.4s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | achou (20.7s) | ACAO: olha | aponta/olha | OK |
+| 1 | voltou (24.4s) | ACAO: chega | entra andando pela lateral | OK |
+| 2 | achou (24.8s) | ACAO: olha | aponta/olha | OK |
 | 3 | - | INTERACAO | discutir | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b5 - 23.7s a 26.7s - 9 palavras - plano close
+## Cena b5 - 27.8s a 30.7s - 9 palavras - plano close
 > "Ele ia jogar o prato fora, mas olhou melhor."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | olhou (26.3s) | ACAO: olha | aponta/olha | OK |
+| 1 | olhou (30.4s) | ACAO: olha | aponta/olha | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b6 - 27.0s a 30.4s - 10 palavras - plano orbit
+## Cena b6 - 31.1s a 34.4s - 10 palavras - plano orbit
 > "Acontece que, em volta do mofo, as bactérias tinham sumido."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -66,44 +66,44 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 2 | - | ATUACAO | reagir | OK |
 
-## Cena b7 - 30.7s a 36.7s - 17 palavras - plano two
+## Cena b7 - 34.8s a 40.7s - 17 palavras - plano two
 > "O mofo soltava algo que matava as bactérias, e ele deu a isso o nome de penicilina."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b8 - 37.0s a 42.2s - 15 palavras - plano group
+## Cena b8 - 41.1s a 46.3s - 15 palavras - plano group
 > "Anos depois, outros cientistas transformaram o bolor em remédio, e ele salvou milhões de pessoas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | transformaram (38.5s) | ACAO: vira | o material vira o produto, que surge girando em destaque | OK |
-| 2 | salvou (41.1s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 1 | transformaram (42.6s) | ACAO: vira | o material vira o produto, que surge girando em destaque | OK |
+| 2 | salvou (45.2s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 3 | - | EMOCAO: relief | o rosto vira "relief" na palavra | OK |
 | 4 | - | INTERACAO | pular | OK |
 | 5 | - | ATUACAO | comemorar | OK |
 
-## Cena b9 - 42.6s a 46.3s - 11 palavras - plano group
+## Cena b9 - 46.7s a 50.4s - 11 palavras - plano group
 > "Em mil novecentos e quarenta e cinco, Fleming ganhou o Nobel."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ganhou (45.6s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | ganhou (45.6s) | ACAO: vence | bracos para cima + brilho | OK |
+| 1 | ganhou (49.6s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | ganhou (49.6s) | ACAO: vence | bracos para cima + brilho | OK |
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 4 | - | INTERACAO | o outro se aproxima | OK |
 | 5 | - | ATUACAO | comemorar | OK |
 | 6 | - | PLACA | NOBEL | OK |
 
-## Cena b10 - 46.7s a 50.0s - 10 palavras - plano close
+## Cena b10 - 50.7s a 54.1s - 10 palavras - plano close
 > "No fim, a bagunça dele valeu mais que qualquer faxina."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 
-## Cena b11 - 50.4s a 54.8s - 13 palavras - plano close
+## Cena b11 - 54.4s a 58.9s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
