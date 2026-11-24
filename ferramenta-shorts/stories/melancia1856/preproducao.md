@@ -14,7 +14,7 @@ b6 | street | crowd | 21 | encena, batalha | - | - | -
 b7 | loc_campo | wide | 1 | discutir | vehicles/locomotive, buildings/house_two, nature/lamppost | - | -
 b8 | interior madeira | two | 2 | conversar, INTERAGEM: susto | - | paper | -
 b9 | harbor | orbit | 1 | batalha | vehicles/locomotive | - | -
-b10 | jungle | group | 1 | conversar | kit/melon | - | -
+b10 | jungle | two | 1 | conversar | kit/melon | - | -
 b11 | jungle | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/melon

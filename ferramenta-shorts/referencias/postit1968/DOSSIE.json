@@ -10,6 +10,7 @@
    "countryside",
    "interior madeira",
    "interior pedra",
+   "loc_estudio",
    "street"
   ],
   "cenarios_trocados": []
@@ -43,19 +44,14 @@
   "kit/postit",
   "kit/room_eua_wood",
   "kit/room_europa_stone",
-  "kit/room_verde_wood",
   "kit/tubos",
   "mk/Bench",
   "mk/BookStand",
   "mk/Bookcase_2",
   "mk/Chair_1",
   "mk/Chest_Wood",
-  "mk/Crate_Metal",
-  "mk/Shelf_Small_Bottles",
   "mk/Stool",
-  "mk/Table_Large",
-  "mk/Vase_2",
-  "mk/Workbench_Drawers"
+  "mk/Table_Large"
  ],
  "pesquisa_visual": {
   "local": "laboratorio da 3M em St. Paul (Minnesota, EUA); igreja presbiteriana com coral; lojas e a cidade de Boise (Idaho) no teste de 1978",
@@ -83,6 +79,9 @@
   "fontes_visuais": [
    "https://en.wikipedia.org/wiki/Post-it_Note",
    "https://www.3m.com/3M/en_US/post-it-notes/contact-us/about-us/"
+  ],
+  "explicacoes": [
+   "O primeiro Post-it saiu amarelo porque o laboratorio vizinho so tinha papel de rascunho amarelo quando Art Fry e Spencer Silver fizeram os prototipos (3M, historia oficial do Post-it; Wikipedia \"Post-it Note\")."
   ]
  },
  "fontes": [],

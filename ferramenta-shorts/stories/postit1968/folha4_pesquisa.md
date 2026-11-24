@@ -5,8 +5,8 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Historia: A Cola que Não Colava
 - Epoca: 1968 | Lugar: laboratorio da 3M em St. Paul (Minnesota, EUA); igreja presbiteriana com coral; lojas e a cidade de Boise (Idaho) no teste de 1978 | Quando: 1968 (a cola fraca), 1974 (a ideia no coral), 1977-78 (testes de venda), 1980 (lancamento)
 - HEROIS (objeto): kit/postit
-- HEROIS (personagens): SIL, FRY
-- Cenarios: countryside, interior madeira, interior pedra, street
+- HEROIS (personagens): SIL, CHE
+- Cenarios: countryside, interior madeira, interior pedra, loc_estudio, street
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carroca, castical, encouracado, escudo, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
@@ -28,9 +28,10 @@ objeto | frascos de cola | frascos de cola / frascos de cola 1968 | Tallarines c
 objeto | amostras gratis | amostras gratis / amostras gratis 1968 | Smithsonian Holyoke SkinnersSatins Sample.jpg (referencias/postit1968/prints/amostras_gratis_dd1333.jpg); 20 samples of Tatami in Japan.jpg (referencias/postit1968/prints/amostras_gratis_eb1609.jpg); Dale Audrey R.D.H with product samples.jpg (referencias/postit1968/prints/amostras_gratis_c75769.jpg)
 heroi | postit | bloquinho amarelo de post-it / A Cola que Não Colava | SEM REFERENCIA
 epoca | fabrica da epoca | factory 1968 / factory | Tempo factory in Yeruham 1968.jpg (referencias/postit1968/prints/fabrica_da_epoca_7fc6e5.jpg); Robertson's Jam factory during the Great Flood of  (referencias/postit1968/prints/fabrica_da_epoca_58eb62.jpg); Drews Lane, Ward End, Birmingham - factory front 2 (referencias/postit1968/prints/fabrica_da_epoca_aaae9b.jpg)
+mecanismo | O papel saiu amarelo por acaso: era o único de rascunho à mão. | papel amarelo acaso rascunho / postit diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
-- -
+- O primeiro Post-it saiu amarelo porque o laboratorio vizinho so tinha papel de rascunho amarelo quando Art Fry e Spencer Silver fizeram os prototipos (3M, historia oficial do Post-it; Wikipedia "Post-it Note").
 
 ## Fontes visuais do roteirista
 - https://en.wikipedia.org/wiki/Post-it_Note

@@ -4,7 +4,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | harbor | group | 1 | discutir | kit/lobster | - | -
+b0 | harbor | two | 1 | discutir | kit/lobster | - | -
 b1 | harbor | crowd | 1 | encena, batalha | boat, kit/fishing_net | - | -
 b2 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
 b3 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
