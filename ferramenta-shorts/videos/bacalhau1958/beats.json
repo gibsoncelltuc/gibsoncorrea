@@ -39,7 +39,53 @@
  },
  "beats": [
   {
-   "say": "Entre mil novecentos e cinquenta e oito e mil novecentos e setenta e seis, a Islândia e a Inglaterra travaram três guerras. Por causa de peixe.",
+   "say": "A Islândia derrotou a marinha inglesa com um cortador de rede.",
+   "shot": "wide",
+   "who": [
+    "ICE:0:laugh",
+    "BRI:0:shock"
+   ],
+   "props": [
+    [
+     "ship",
+     -9,
+     -6,
+     1.3,
+     {
+      "move": [
+       [
+        -2,
+        -6
+       ],
+       0,
+       0
+      ]
+     }
+    ],
+    [
+     "ship",
+     9,
+     -6,
+     1.3
+    ]
+   ],
+   "fx": [
+    "splash@50",
+    "burst@60"
+   ],
+   "sfx": [
+    "thump@60",
+    "creak@62"
+   ],
+   "mood": "tense",
+   "text": "ISLÂNDIA VENCEU",
+   "tat": 16,
+   "tstyle": "blue",
+   "acao": "comemorar",
+   "impact": true
+  },
+  {
+   "say": "Entre mil novecentos e cinquenta e oito e setenta e seis, os dois países travaram três Guerras do Bacalhau.",
    "shot": "wide",
    "who": [
     "ICE:0:stern",
@@ -68,13 +114,13 @@
      }
     ]
    ],
-   "text": "3 GUERRAS",
-   "tat": 16,
+   "text": "1958-1976",
+   "tat": 14,
    "tstyle": "blue",
    "mood": "march"
   },
   {
-   "say": "A Islândia é pequena, e vivia da pesca. Mas barcos ingleses pescavam bacalhau bem pertinho da costa dela.",
+   "say": "A Islândia vivia da pesca, mas barcos ingleses pescavam pertinho da sua costa.",
    "shot": "two",
    "who": [
     "ICE:1:nervous",
@@ -94,7 +140,7 @@
    "set": "harbor"
   },
   {
-   "say": "Então a Islândia aumentou os limites do seu mar: doze milhas, cinquenta, e por fim duzentas.",
+   "say": "Então ela ampliou os limites do mar: doze milhas, cinquenta, e por fim duzentas.",
    "shot": "wide",
    "who": [
     "ICE:2:stern"
@@ -113,13 +159,13 @@
      1.1
     ]
    ],
-   "text": "200 MILHAS",
+   "text": "12 · 50 · 200 MILHAS",
    "tat": 14,
    "tstyle": "gold",
    "set": "harbor"
   },
   {
-   "say": "A Inglaterra mandou a marinha para proteger os barcos de pesca.",
+   "say": "A Inglaterra mandou a marinha proteger os barcos de pesca.",
    "shot": "group",
    "who": [
     "BRI:1:stern",
@@ -138,7 +184,7 @@
    "set": "harbor"
   },
   {
-   "say": "A Islândia só tinha uns barquinhos da guarda costeira, mas eles tinham uma arma secreta: cortadores de rede.",
+   "say": "Acontece que a Islândia só tinha barquinhos da guarda costeira, mas eles tinham cortadores de rede.",
    "shot": "close",
    "who": [
     "ICE:0:grin"
@@ -148,7 +194,7 @@
    "tstyle": "red"
   },
   {
-   "say": "Eles cortavam os cabos das redes inglesas, e os navios batiam um no outro, de propósito.",
+   "say": "Eles cortavam os cabos das redes inglesas, e os navios batiam um no outro.",
    "shot": "wide",
    "who": [],
    "props": [
@@ -183,7 +229,8 @@
     "thump@60",
     "creak@62"
    ],
-   "mood": "tense"
+   "mood": "tense",
+   "impact": true
   },
   {
    "say": "A Islândia ainda ameaçou fechar a base da Otan no país.",
@@ -198,7 +245,7 @@
    "mood": "march"
   },
   {
-   "say": "Em mil novecentos e setenta e seis, os ingleses cederam, e a ideia de uma zona de duzentas milhas se espalhou pelo mundo.",
+   "say": "Em mil novecentos e setenta e seis, a Inglaterra cedeu, e as duzentas milhas se espalharam pelo mundo.",
    "shot": "two",
    "who": [
     "BRI:0:pained",
@@ -210,7 +257,7 @@
    "mood": "playful"
   },
   {
-   "say": "Foi uma guerra de navios batendo e de redes cortadas, e tudo por causa de um peixe.",
+   "say": "Uma guerra inteira, por causa de um bacalhau.",
    "shot": "close",
    "who": [
     "PES:0:laugh"
@@ -232,7 +279,7 @@
      }
     ]
    ],
-   "text": "TUDO POR UM PEIXE",
+   "text": "TUDO POR UM BACALHAU",
    "tat": 13,
    "tstyle": "brown",
    "set": "harbor"
@@ -241,5 +288,37 @@
  "variar_cenario": false,
  "serie": "Guerras Inusitadas",
  "ep": 25,
- "titulo_base": "As Guerras do Bacalhau"
+ "titulo_base": "As Guerras do Bacalhau",
+ "visual": {
+  "local": "Atlântico Norte, mar aberto perto da costa da Islândia (Reykjavik e a costa de pesca); águas cinzentas e frias",
+  "quando": "1958 a 1976, em três disputas (1958-61, 1972-73, 1975-76); dia nublado de mar",
+  "participantes": [
+   "guarda costeira da Islândia (uniforme azul-marinho, bonés)",
+   "marinheiros da Marinha Real britânica (uniforme branco e azul)",
+   "pescadores de capa amarela"
+  ],
+  "roupas": {
+   "ICE": "uniforme azul-marinho com botões dourados",
+   "BRI": "uniforme branco e azul naval",
+   "PES": "capa de chuva amarela de pescador"
+  },
+  "cenario": "porto e mar cinzento do Atlântico Norte com barcos de pesca, fragatas e navios da guarda costeira da época (anos 1950-70)",
+  "objetos": [
+   "bacalhau",
+   "caixote de peixe",
+   "navio da guarda costeira",
+   "fragata britânica",
+   "cabo de rede de pesca"
+  ],
+  "explicacoes": [
+   "Cortadores de rede: a guarda costeira islandesa cortava os cabos de arrasto dos barcos ingleses (fonte: Wikipedia \"Cod Wars\")"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Cod_Wars",
+   "https://commons.wikimedia.org/wiki/Category:Cod_Wars"
+  ]
+ },
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Cod_Wars"
+ ]
 }

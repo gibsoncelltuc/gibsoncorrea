@@ -7,7 +7,15 @@
    "item": "As Guerras do Bacalhau",
    "consultas": [
     "As Guerras do Bacalhau",
-    "Entre Islândia Inglaterra Por Islândia Mas Então Islândia 1958"
+    "Islândia Entre Guerras Bacalhau Islândia 1958"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Atlântico Norte, mar aberto perto da costa da Islândia (Reykjavik e a costa de p",
+   "consultas": [
+    "Atlântico Norte mar aberto perto da costa da Islândia",
+    "Atlântico Norte mar aberto perto da costa da Islândia Reykjavik e a costa de pesca águas c"
    ]
   },
   {
@@ -27,10 +35,74 @@
    ]
   },
   {
+   "tipo": "pessoas",
+   "item": "guarda costeira da Islândia (uniforme azul-marinho, bonés)",
+   "consultas": [
+    "guarda costeira da Islândia uniforme azul-marinho bonés",
+    "guarda costeira da Islândia uniforme azul-marinho bonés 1958"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "marinheiros da Marinha Real britânica (uniforme branco e azul)",
+   "consultas": [
+    "marinheiros da Marinha Real britânica uniforme branco e azul",
+    "marinheiros da Marinha Real britânica uniforme branco e azul 1958"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "pescadores de capa amarela",
+   "consultas": [
+    "pescadores de capa amarela",
+    "pescadores de capa amarela 1958"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "bacalhau",
+   "consultas": [
+    "bacalhau",
+    "bacalhau 1958"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "caixote de peixe",
+   "consultas": [
+    "caixote de peixe",
+    "caixote de peixe 1958"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "navio da guarda costeira",
+   "consultas": [
+    "navio da guarda costeira",
+    "navio da guarda costeira 1958"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "fragata britânica",
+   "consultas": [
+    "fragata britânica",
+    "fragata britânica 1958"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "cabo de rede de pesca",
+   "consultas": [
+    "cabo de rede de pesca",
+    "cabo de rede de pesca 1958"
+   ]
+  },
+  {
    "tipo": "heroi",
    "item": "cod",
    "consultas": [
-    "cod",
+    "bacalhau",
     "As Guerras do Bacalhau"
    ]
   },
