@@ -104,7 +104,7 @@
    "cenario": "harbor"
   },
   {
-   "camera": "two",
+   "camera": "low",
    "personagens": [
     "MAR",
     "MAR"
@@ -117,27 +117,21 @@
    "palavras": 15,
    "cena": "b5",
    "frase": "Acontece que o navio de guerra holandês Dolfijn estava esperando, e disparou um único tiro.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "harbor"
   },
   {
    "camera": "two",
    "personagens": [
-    "IMP",
     "COZ"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/kettle"
+    "kit/kettle",
+    "kit/navio_fragata"
    ],
    "palavras": 15,
    "cena": "b6",
@@ -160,15 +154,23 @@
     "GEN"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/navio_fragata"
+   ],
    "palavras": 14,
    "cena": "b7",
    "frase": "O navio austríaco se rendeu na hora, sem trocar nem um tiro a mais.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
-   "cenario": "loc_patio"
+   "cenario": "harbor"
   },
   {
    "camera": "two",
@@ -188,7 +190,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "group",
+   "camera": "close",
    "personagens": [
     "COZ"
    ],
@@ -203,10 +205,10 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_patio"
+   "cenario": "interior madeira"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "COZ"
    ],
@@ -219,7 +221,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_patio"
+   "cenario": "interior madeira"
   }
  ]
 }

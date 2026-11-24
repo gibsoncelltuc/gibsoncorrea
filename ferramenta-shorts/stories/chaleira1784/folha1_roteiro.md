@@ -50,29 +50,29 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 ## Cena b5  (~5.2 s)
 - Narracao: Acontece que o navio de guerra holandês Dolfijn estava esperando, e disparou um único tiro.
 - Som ambiente: sea
-- Efeitos sonoros marcados: cannon@60
+- Efeitos sonoros marcados: cannon@105
 - Efeito + som nas palavras-chave: encena: x_espera (cross) @9 -> acao + som de efeito; encena: atira @11 -> acao + som de efeito
-- Efeito visual marcado: burst@60
+- Efeito visual marcado: burst@105, puff@110
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: VIRADA
 
 ## Cena b6  (~5.2 s)
 - Narracao: A bala acertou e destruiu uma chaleira de sopa no convés do navio do imperador.
 - Som ambiente: sea | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: thump@20, ding@24
+- Efeitos sonoros marcados: thump@55, ding@58
 - Efeito + som nas palavras-chave: bala -> burst + som de tiro/explosao; encena: atira @1 -> acao + som de efeito
-- Efeito visual marcado: burst@20, puff@26
+- Efeito visual marcado: burst@55, puff@60
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b7  (~4.8 s)
 - Narracao: O navio austríaco se rendeu na hora, sem trocar nem um tiro a mais.
-- Som ambiente: silencio/sala
+- Som ambiente: sea | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: rende (up) @4 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b8  (~7.9 s)
 - Narracao: Depois, a França mediou a paz, em mil setecentos e oitenta e cinco. O rio continuou fechado, e a Holanda pagou uma indenização.

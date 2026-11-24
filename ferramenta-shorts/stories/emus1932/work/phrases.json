@@ -1,0 +1,252 @@
+{
+ "duration": 61.272,
+ "frames30": 1838,
+ "source": "silence-align (cost 0.75)",
+ "segments": [
+  [
+   0.153458,
+   2.49454
+  ],
+  [
+   2.68346,
+   3.16004
+  ],
+  [
+   4.02333,
+   5.51042
+  ],
+  [
+   5.7195,
+   9.09596
+  ],
+  [
+   10.0291,
+   12.1137
+  ],
+  [
+   12.3857,
+   14.3779
+  ],
+  [
+   15.2407,
+   18.496
+  ],
+  [
+   19.3593,
+   22.4102
+  ],
+  [
+   22.655,
+   24.3418
+  ],
+  [
+   25.1958,
+   26.044
+  ],
+  [
+   26.305,
+   28.268
+  ],
+  [
+   28.5111,
+   30.5733
+  ],
+  [
+   31.4302,
+   32.633
+  ],
+  [
+   32.859,
+   35.3826
+  ],
+  [
+   36.2433,
+   38.132
+  ],
+  [
+   38.4019,
+   39.1981
+  ],
+  [
+   39.5689,
+   41.1109
+  ],
+  [
+   41.9711,
+   42.9875
+  ],
+  [
+   43.3314,
+   45.9265
+  ],
+  [
+   46.19,
+   47.5373
+  ],
+  [
+   48.3715,
+   48.7771
+  ],
+  [
+   49.0445,
+   50.6945
+  ],
+  [
+   50.8975,
+   53.5536
+  ],
+  [
+   54.4283,
+   55.3497
+  ],
+  [
+   55.5883,
+   56.1257
+  ],
+  [
+   56.9725,
+   58.4169
+  ],
+  [
+   58.7097,
+   60.4715
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "A Austr\u00e1lia declarou guerra a um bando de p\u00e1ssaros,",
+   "s": 0.153,
+   "e": 2.495
+  },
+  {
+   "text": "e perdeu.",
+   "s": 2.683,
+   "e": 3.16
+  },
+  {
+   "text": "Em mil novecentos e trinta e dois,",
+   "s": 4.023,
+   "e": 5.51
+  },
+  {
+   "text": "vinte mil emus invadiram as planta\u00e7\u00f5es de trigo no oeste do pa\u00eds.",
+   "s": 5.72,
+   "e": 9.096
+  },
+  {
+   "text": "Fazendeiros veteranos pediram metralhadoras,",
+   "s": 10.029,
+   "e": 12.114
+  },
+  {
+   "text": "e o ministro da Defesa mandou soldados.",
+   "s": 12.386,
+   "e": 14.378
+  },
+  {
+   "text": "O major Meredith levou duas metralhadoras e dez mil balas.",
+   "s": 15.241,
+   "e": 18.496
+  },
+  {
+   "text": "Acontece que os emus se dividiram em grupos pequenos e r\u00e1pidos,",
+   "s": 19.359,
+   "e": 22.41
+  },
+  {
+   "text": "e as balas acertavam s\u00f3 poeira.",
+   "s": 22.655,
+   "e": 24.342
+  },
+  {
+   "text": "Numa tentativa,",
+   "s": 25.196,
+   "e": 26.044
+  },
+  {
+   "text": "uma metralhadora foi montada num caminh\u00e3o,",
+   "s": 26.305,
+   "e": 28.268
+  },
+  {
+   "text": "mas ele sacudia tanto que ningu\u00e9m atirava.",
+   "s": 28.511,
+   "e": 30.573
+  },
+  {
+   "text": "Depois de seis dias,",
+   "s": 31.43,
+   "e": 32.633
+  },
+  {
+   "text": "milhares de balas gastas e poucos emus abatidos.",
+   "s": 32.859,
+   "e": 35.383
+  },
+  {
+   "text": "O major comparou os p\u00e1ssaros a tanques,",
+   "s": 36.243,
+   "e": 38.132
+  },
+  {
+   "text": "a imprensa riu,",
+   "s": 38.402,
+   "e": 39.198
+  },
+  {
+   "text": "e o governo retirou as tropas.",
+   "s": 39.569,
+   "e": 41.111
+  },
+  {
+   "text": "O ex\u00e9rcito voltou,",
+   "s": 41.971,
+   "e": 42.987
+  },
+  {
+   "text": "e o major disse ter abatido novecentos e oitenta e seis,",
+   "s": 43.331,
+   "e": 45.926
+  },
+  {
+   "text": "n\u00famero muito contestado.",
+   "s": 46.19,
+   "e": 47.537
+  },
+  {
+   "text": "No fim,",
+   "s": 48.371,
+   "e": 48.777
+  },
+  {
+   "text": "o governo preferiu recompensas,",
+   "s": 49.044,
+   "e": 50.694
+  },
+  {
+   "text": "e em seis meses pagou por mais de cinquenta mil emus.",
+   "s": 50.898,
+   "e": 53.554
+  },
+  {
+   "text": "Ex\u00e9rcito zero,",
+   "s": 54.428,
+   "e": 55.35
+  },
+  {
+   "text": "emus um.",
+   "s": 55.588,
+   "e": 56.126
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 56.972,
+   "e": 58.417
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 58.71,
+   "e": 60.471
+  }
+ ]
+}

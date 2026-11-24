@@ -129,20 +129,20 @@
    "props": [
     [
      "kit/navio_fragata",
-     -30,
-     -44,
+     -34,
+     -46,
      1.0
     ],
     [
      "kit/navio_fragata",
-     -4,
+     0,
      -50,
      1.0
     ],
     [
      "kit/navio_fragata",
-     22,
-     -44,
+     34,
+     -46,
      1.0
     ]
    ],
@@ -151,11 +151,11 @@
     "n": 0
    },
    "detalhe": false,
-   "cx": -2,
-   "cz": -24,
-   "h": 6,
-   "d0": 30,
-   "d1": 27,
+   "cx": 0,
+   "cz": -46,
+   "h": 14,
+   "d0": 74,
+   "d1": 66,
    "quadro_manual": true,
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
@@ -226,7 +226,7 @@
    "d1": 97.4
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "MAR:0:stern",
     "MAR:1:angry"
@@ -238,22 +238,23 @@
    "props": [
     [
      "cannon",
-     0.0,
-     -7.0,
-     2.6
+     -1.0,
+     -6.0,
+     1.0
     ],
     [
      "kit/navio_fragata",
-     14,
+     10,
      -34,
      1.0
     ]
    ],
    "fx": [
-    "burst@60"
+    "burst@105",
+    "puff@110"
    ],
    "sfx": [
-    "cannon@60"
+    "cannon@105"
    ],
    "say": "Acontece que o navio de guerra holandês Dolfijn estava esperando, e disparou um único tiro.",
    "fachada": false,
@@ -278,19 +279,17 @@
    },
    "tiros": false,
    "cx": 0,
-   "cz": -12,
-   "h": 2.2,
-   "d0": 16,
-   "d1": 12,
+   "cz": -14,
+   "h": 3.0,
+   "d0": 22,
+   "d1": 20,
    "quadro_manual": true,
-   "impact": true,
-   "_auto_vis": 3,
-   "shot_lock": true
+   "impact": false,
+   "_auto_vis": 3
   },
   {
    "shot": "two",
    "who": [
-    "IMP:0:surprised",
     "COZ:0:scared"
    ],
    "props": [
@@ -302,15 +301,21 @@
      {
       "fixo": true
      }
+    ],
+    [
+     "kit/navio_fragata",
+     -8,
+     -30,
+     1.0
     ]
    ],
    "fx": [
-    "burst@20",
-    "puff@26"
+    "burst@55",
+    "puff@60"
    ],
    "sfx": [
-    "thump@20",
-    "ding@24"
+    "thump@55",
+    "ding@58"
    ],
    "say": "A bala acertou e destruiu uma chaleira de sopa no convés do navio do imperador.",
    "quadro": {
@@ -339,10 +344,18 @@
     "GEN:0:scared:flag"
    ],
    "say": "O navio austríaco se rendeu na hora, sem trocar nem um tiro a mais.",
-   "props": [],
+   "props": [
+    [
+     "kit/navio_fragata",
+     10,
+     -30,
+     1.0
+    ]
+   ],
    "detalhe": false,
    "_auto_vis": 3,
-   "set": "loc_patio"
+   "set": "harbor",
+   "impact": true
   },
   {
    "shot": "two",
@@ -384,11 +397,11 @@
      }
     ]
    },
-   "set": "loc_patio",
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "interior": "madeira"
   }
  ],
  "visual": {

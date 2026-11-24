@@ -54,10 +54,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Acontece que o navio de guerra holandês Dolfijn estava esperando, e di...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: low = camera baixa, dramatica (virada)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): MAR (variante 0, expressao stern); MAR (variante 1, expressao angry) | multidao: 0 de 
-- Animacao: conversar | interacao: insiste | batalha encenada
+- Animacao: conversar | interacao: insiste
 - Objetos/modelos: cannon, kit/navio_fragata
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): navio
 - RISCOS: nenhum
@@ -66,19 +66,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): IMP (variante 0, expressao surprised); COZ (variante 0, expressao scared) | multidao: 0 de IMP/COZ
-- Animacao: conversar | interacao: vai ate o outro | batalha encenada
-- Objetos/modelos: kit/kettle
+- Personagens principais (1): COZ (variante 0, expressao scared) | multidao: 0 de COZ
+- Animacao: conversar | batalha encenada
+- Objetos/modelos: kit/kettle, kit/navio_fragata
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bala, chaleira, conves, imperador, navio, sopa
-- RISCOS: nenhum
+- RISCOS: 
+  - a narracao cita "imperador" e ninguem em cena esta vestido a carater -> CORRECAO: por no "who" um personagem com "profissao": "rei" no figurino (coroa/farda/chapeu proprios)
 
 ## Cena b7 - O navio austríaco se rendeu na hora, sem trocar nem um tiro a mais.
-- Cenario: loc_patio | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (1): GEN (variante 0, expressao scared, segura flag)
-- Animacao: encena
-- Objetos/modelos: -
+- Personagens principais (1): GEN (variante 0, expressao scared, segura flag) | multidao: 0 de GEN
+- Animacao: encena | batalha encenada
+- Objetos/modelos: kit/navio_fragata
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): navio, tiro
 - RISCOS: nenhum
 
@@ -93,9 +94,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - O único prejuízo do dia foi o almoço.
-- Cenario: loc_patio | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Cenario: interior madeira | luz: day | clima: limpo
+- Camera: close = close no rosto; empurra devagar
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): COZ (variante 0, expressao sad)
 - Animacao: conversar
 - Objetos/modelos: kit/kettle
@@ -103,8 +104,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: loc_patio | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Cenario: interior madeira | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): COZ (variante 0, expressao grin)
 - Animacao: conversar
@@ -118,17 +119,22 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/kettle | b0, b6, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/navio_fragata | b1, b3, b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/navio_fragata | b1, b3, b4, b5, b6, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 war/flagpole | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 cannon | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/kettle | grandes momentos: b5, b6 | planos abertos: 2 | mistura: close 8% | medio 71% | aberto 20% | detalhe 1%
-- Interacoes: b0 o outro se aproxima, b2 discutir, b5 insiste, b6 vai ate o outro, b8 entregar
-- RISCOS GERAIS: nenhum
+- Objeto heroi: kit/kettle | grandes momentos: b6, b7 | planos abertos: 2 | mistura: close 14% | medio 66% | aberto 20% | detalhe 0%
+- Interacoes: b0 o outro se aproxima, b2 discutir, b5 insiste, b8 entregar
+- RISCOS GERAIS: 
+  - objeto heroi (kit/kettle) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
+  - pouca variedade de cenario ({'loc_campo': 1, 'harbor': 6, 'interior pedra': 2, 'interior madeira': 2}): o video fica parecendo todos os outros -> CORRECAO: pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: outback, countryside, arctic, palace, harbor, mountain, medieval, jungle, hall, stadium, street, loc_pista, loc_patio, loc_deserto, loc_campo, loc_montanha, loc_cidade, loc_estudio | interior: madeira, pedra, loja)
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 3 risco(s) em aberto
+- b6: a narracao cita "imperador" e ninguem em cena esta vestido a carater
+- geral: objeto heroi (kit/kettle) sem close de camera
+- geral: pouca variedade de cenario ({'loc_campo': 1, 'harbor': 6, 'interior pedra': 2, 'interior madeira': 2}): o video fica parecendo todos os outros
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh chaleira1784 bN bM` (so essas cenas).

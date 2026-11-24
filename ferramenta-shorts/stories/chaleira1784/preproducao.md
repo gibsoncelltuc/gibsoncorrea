@@ -9,16 +9,16 @@ b1 | harbor | wide | 2 | encena | kit/navio_fragata, navios de guerra ao fundo, 
 b2 | interior pedra | two | 2 | discutir, INTERAGEM: discutir | - | - | -
 b3 | harbor | wide | 1 | parados (so fala e pisca) | kit/navio_fragata, navios de guerra ao fundo, no tamanho real | - | -
 b4 | harbor | group | 1 | encena | kit/navio_fragata, war/flagpole | - | -
-b5 | harbor | two | 2 | conversar, INTERAGEM: insiste, batalha | cannon, kit/navio_fragata | - | -
-b6 | harbor | two | 2 | conversar, INTERAGEM: vai ate o outro, batalha | kit/kettle | - | -
-b7 | loc_patio | group | 1 | encena | - | flag | -
+b5 | harbor | low | 2 | conversar, INTERAGEM: insiste | cannon, kit/navio_fragata | - | -
+b6 | harbor | two | 1 | conversar, batalha | kit/kettle, kit/navio_fragata | - | -
+b7 | harbor | group | 1 | encena, batalha | kit/navio_fragata | flag | -
 b8 | interior pedra | two | 2 | encena, INTERAGEM: entregar | - | money | -
-b9 | loc_patio | group | 1 | conversar | kit/kettle | - | -
-b10 | loc_patio | close | 1 | conversar | - | - | -
+b9 | interior madeira | close | 1 | conversar | kit/kettle | - | -
+b10 | interior madeira | two | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/kettle
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b5, b6
-Interacoes entre personagens: b0 o outro se aproxima, b2 discutir, b5 insiste, b6 vai ate o outro, b8 entregar
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b6, b7
+Interacoes entre personagens: b0 o outro se aproxima, b2 discutir, b5 insiste, b8 entregar
 
 Cenas com personagens parados: 1 de 11
 FALTA MODELAR: nada

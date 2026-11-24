@@ -152,7 +152,9 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "batalha": false,
+   "tiros": false
   },
   {
    "say": "Acontece que os emus se dividiram em grupos pequenos e rápidos, e as balas acertavam só poeira.",
@@ -245,7 +247,8 @@
     "x": 5.0,
     "z": 0.5,
     "cols": 3
-   }
+   },
+   "set": "loc_campo"
   },
   {
    "say": "O major comparou os pássaros a tanques, a imprensa riu, e o governo retirou as tropas.",
@@ -289,17 +292,18 @@
      "AUS"
     ],
     "march": false
-   }
+   },
+   "set": "loc_deserto"
   },
   {
-   "say": "No fim, o governo preferiu recompensas, e em seis meses pagou por mais de cinquenta mil emus.",
+   "say": "No fim, o governo preferiu recompensas, e em seis meses pagou por mais de cinquenta mil emus. Exército zero, emus um.",
    "shot": "two",
    "who": [
     "FARM:0:smile",
     "FARM:1:grin"
    ],
-   "text": "RECOMPENSA",
-   "tat": 9,
+   "text": "EXÉRCITO 0 - 1 EMUS",
+   "tat": 40,
    "light": "golden",
    "emus": {
     "n": 3,
@@ -308,25 +312,7 @@
     "z": 0.5,
     "cols": 3
    },
-   "riscos_ok": true
-  },
-  {
-   "say": "Exército zero, emus um.",
-   "shot": "close",
-   "who": [
-    "AUS:0:pained"
-   ],
-   "emus": {
-    "n": 3,
-    "mode": "stand",
-    "x": 2.8,
-    "z": 0.3,
-    "cols": 3
-   },
-   "text": "EXÉRCITO 0 - 1 EMUS",
-   "tat": 0,
-   "tstyle": "gold",
-   "light": "golden",
+   "riscos_ok": true,
    "titulo": true
   }
  ],
@@ -370,6 +356,25 @@
   "buscas": {
    "A Guerra dos Emus": "Emu War 1932 Western Australia Lewis gun soldiers",
    "Distrito de Campion, cinturão de trigo do oeste da Austrália (Western Australia)": "Campion Western Australia wheatbelt 1930s farm"
+  },
+  "referencias": {
+   "A Guerra dos Emus": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)",
+   "Distrito de Campion, cinturão de trigo do oeste da Austrália (Western Australia)": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)",
+   "Austrália": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)",
+   "roupas e ruas de 1932": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)",
+   "major Meredith e dois soldados da artilharia real australiana com duas": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)",
+   "fazendeiros veteranos da Primeira Guerra": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)",
+   "ministro da Defesa George Pearce": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)",
+   "cerca de 20 mil emus": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)",
+   "imprensa": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)",
+   "metralhadora Lewis": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)",
+   "caminhão da época": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)",
+   "emus": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)",
+   "sacos de trigo": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)",
+   "caminhao da epoca": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)",
+   "tanque da epoca": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)",
+   "soldado da epoca": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)",
+   "exercito da epoca": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)"
   }
  }
 }

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 10 - A Guerra da Chaleira
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.4s - 14 palavras - plano two
@@ -47,16 +47,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | seguia (24.4s) | ACAO: chega | entra andando pela lateral | OK |
 | 3 | - | PLACA | 3 NAVIOS | OK |
 
-## Cena b5 - 25.8s a 30.1s - 15 palavras - plano two
+## Cena b5 - 25.8s a 30.1s - 15 palavras - plano low
 > "Acontece que o navio de guerra holandês Dolfijn estava esperando, e disparou um único tiro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | esperando (28.3s) | ACAO: x_espera | espera de bracos cruzados | OK |
 | 2 | disparou (29.2s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | INTERACAO | insiste | OK |
-| 5 | - | ATUACAO | conversar | OK |
+| 3 | - | INTERACAO | insiste | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b6 - 31.2s a 34.4s - 15 palavras - plano two
 > "A bala acertou e destruiu uma chaleira de sopa no convés do navio do imperador."
@@ -66,8 +65,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | bala (31.3s) | EFEITO: burst | estouro/clarao + som | OK |
 | 2 | bala (31.3s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 4 | - | INTERACAO | vai ate o outro | OK |
-| 5 | - | ATUACAO | conversar | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 35.8s a 39.2s - 14 palavras - plano group
 > "O navio austríaco se rendeu na hora, sem trocar nem um tiro a mais."
@@ -75,6 +73,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | rendeu (36.8s) | ACAO: rende | maos para cima (rendicao) | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
 ## Cena b8 - 40.3s a 47.7s - 23 palavras - plano two
 > "Depois, a França mediou a paz, em mil setecentos e oitenta e cinco. O rio continuou fechado, e a Holanda pagou uma indenização."
@@ -86,14 +85,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | pagou (47.2s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 4 | - | INTERACAO | entregar | OK |
 
-## Cena b9 - 49.0s a 50.7s - 8 palavras - plano group
+## Cena b9 - 49.0s a 50.7s - 8 palavras - plano close
 > "O único prejuízo do dia foi o almoço."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 51.9s a 55.2s - 13 palavras - plano close
+## Cena b10 - 51.9s a 55.2s - 13 palavras - plano two
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
