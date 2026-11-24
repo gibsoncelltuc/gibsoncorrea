@@ -31,7 +31,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: sala de pedra (governo/castelo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch juntos (camera a 11.5 m)
 - PERSONAGENS: DAR (cientista) na esquerda, expressao surprised; GOU (cientista) na direita, expressao shout; sem multidao; acao: discutir
-- OBJETO kit/finch: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/finch: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
 ## b5: "A diferença estava no bico: uns grossos para quebrar sementes, outros finos para pegar insetos."
 - LOCAL: sala de madeira; hora: day
