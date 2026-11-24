@@ -89,6 +89,14 @@ grep -q 'voando' stories/$G/plano.md && f "v13: soldado voando em guerra sem tir
 D=$(cat fila_principal.txt fila_sessao_A.txt fila_sessao_B.txt | grep -v '^#' | awk 'NF{print $1}' | sort | uniq -d | tr '\n' ' '); [ -z "$D" ] || f "roteiro em mais de uma fila (video duplicado): $D"
 for i in $(cat fila_principal.txt fila_sessao_A.txt fila_sessao_B.txt | grep -v '^#' | awk 'NF{print $1}'); do [ -f videos/$i/beats.json ] || f "fila aponta para roteiro que nao existe: $i"; done
 grep -qF 'kit/prison$|presidio' mkvideo.py || f "prisao/muralha grande sem tamanho real"
+grep -q 'texto do roteiro mudou: refazendo a voz' make_video.sh || f "voz nao e' refeita quando o texto do roteiro muda"
+python3 - <<'NEG' || f "negacao ('ninguem morreu em combate') vira batalha"
+import re
+s = open('mkvideo.py').read()
+m = re.search(r"_s = re\.sub\(r'(.+?)', ' ', _s\)", s)
+sys_ok = m and re.sub(m.group(1), ' ', 'quase houve guerra e ninguem morreu em combate').find('combate') < 0
+raise SystemExit(0 if sys_ok else 1)
+NEG
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }
