@@ -4,7 +4,7 @@
  "ancoras": {
   "ano": 1969,
   "era": "atual (1950+)",
-  "regiao": "eua",
+  "regiao": "colonial",
   "luz_base": "day",
   "cenarios": [
    "interior madeira",
@@ -36,11 +36,10 @@
   "buildings/apartment",
   "buildings/house_small",
   "buildings/house_two",
-  "buildings/shop",
   "kit/ball",
   "kit/logs",
   "kit/panela",
-  "kit/room_eua_wood",
+  "kit/room_colonial_wood",
   "kit/trave",
   "kit/volcano",
   "mk/Bookcase_2",

@@ -1,0 +1,3 @@
+VISIBILIDADE: 2 FALHA(S)
+FALHA b7: objeto citado "vehicles/airplane" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+FALHA b7: objeto "vehicles/airplane" saiu com 10% da altura da tela, a ficha de cena planejou 30%

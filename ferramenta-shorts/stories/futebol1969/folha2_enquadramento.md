@@ -61,8 +61,8 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b7: "Semanas depois, o exército salvadorenho atacou Honduras."
 - LOCAL: rua de cidade (predios dos dois lados); hora: dia
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o airplane (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto
-- PERSONAGENS: SOL no centro, expressao stern; sem multidao; acao: batalha
-- OBJETO vehicles/airplane: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: CHEGANDO; 17.1 m de altura x 17.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- PERSONAGENS: SOL no centro, expressao stern; multidao de 6 (SOL) marchando ATRAS dos principais; acao: batalha
+- OBJETO vehicles/airplane: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: CHEGANDO; 31.4 m de altura x 31.4 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "GUERRA" flutuando no alto, na palavra 1 da frase
 
 ## b8: "A guerra durou cem horas, até a Organização dos Estados Americanos impor um cessar-fogo."
@@ -76,7 +76,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: estadio; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ball juntos (camera a 8.0 m)
 - PERSONAGENS: SAL no centro, expressao sad; sem multidao; acao: fala/gesto
-- OBJETO kit/ball: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/ball: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/trave: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 3.3 m de altura x 5.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "0 GOLS" flutuando no alto, na palavra 1 da frase
 
