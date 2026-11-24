@@ -13,14 +13,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | discutir | OK |
 | 3 | - | ATUACAO | discutir | OK |
 | 4 | - | PLACA | 1968 | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: quimico na palavra químico (0.3s): executa: frasco e tubos de ensaio + fumacinha
-- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
-- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
 
 ## Cena b1 - 5.3s a 8.5s - 12 palavras - plano two
 > "Era mil novecentos e sessenta e oito, numa fábrica dos Estados Unidos."
@@ -30,13 +22,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | avanca e o outro recua | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | MAPA | ESTADOS UNIDOS | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: avanca e o outro recua
-- ATUACAO (a cena toda): executa: conversar
-- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
-<!-- /FISICA -->
 
 ## Cena b2 - 9.9s a 12.0s - 7 palavras - plano two
 > "Spencer Silver tentava criar uma super cola."
@@ -54,14 +39,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | soltava (16.5s) | ACAO: x_solta | solta/liberta + brilho | OK |
 | 3 | - | INTERACAO | o outro se aproxima | OK |
 | 4 | - | ATUACAO | reagir | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: sai na palavra saiu (13.9s): executa: sai andando pela lateral
-- ACAO: x_solta na palavra soltava (16.5s): executa: solta/liberta + brilho
-- INTERACAO (a cena toda): executa: o outro se aproxima
-- ATUACAO (a cena toda): executa: reagir
-<!-- /FISICA -->
 
 ## Cena b4 - 19.3s a 25.5s - 18 palavras - plano two
 > "Por anos, ninguém viu utilidade nela. Silver mostrava a cola para todo mundo dentro da empresa, e nada."
@@ -71,13 +48,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | mostrava (22.6s) | ACAO: fala | aponta explicando | OK |
 | 2 | - | INTERACAO | entregar | OK |
 | 3 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: fala na palavra mostrava (22.6s): braco estendido apontando para o objeto/lugar citado
-- INTERACAO (a cena toda): executa: entregar
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
 
 ## Cena b5 - 26.7s a 29.9s - 14 palavras - plano group
 > "Em mil novecentos e setenta e quatro, Art Fry cantava no coral da igreja."
@@ -87,14 +57,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | cantava (28.8s) | ACAO: x_canta | canta de bracos abertos + onda de som | OK |
 | 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_canta na palavra cantava (28.8s): executa: canta de bracos abertos + onda de som
-- INTERACAO (a cena toda): executa: insiste
-- ATUACAO (a cena toda): executa: conversar
-- multidao de 4: parada, reagindo (neutra), sempre ATRAS dos personagens principais
-<!-- /FISICA -->
 
 ## Cena b6 - 31.2s a 33.4s - 8 palavras - plano two
 > "Os papeizinhos que marcavam o hinário viviam caindo."
@@ -104,13 +66,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | caindo (33.4s) | ACAO: desaba | desaba: nuvem de poeira + tremor | OK |
 | 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: desaba na palavra caindo (33.4s): executa: desaba: nuvem de poeira + tremor
-- INTERACAO (a cena toda): executa: vai ate o outro
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
 
 ## Cena b7 - 34.6s a 40.2s - 16 palavras - plano crowd
 > "Aí veio a ideia: marcadores com a cola fraca. Grudam, não caem, e saem sem rasgar."
@@ -119,12 +74,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | ideia (35.2s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: pensa na palavra ideia (35.2s): executa: mao no queixo + brilho de ideia
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
-<!-- /FISICA -->
 
 ## Cena b8 - 41.4s a 44.6s - 13 palavras - plano two
 > "O papel saiu amarelo por acaso: era o único de rascunho à mão."
@@ -143,16 +92,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 4 | - | ATUACAO | comemorar | OK |
 | 5 | - | PLACA | POST-IT | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_entrega na palavra distribuíram (45.9s): executa: estende a mao entregando
-- ACAO: negocio na palavra comprar (50.1s): executa: moeda girando (compra/venda)
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
-- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-- multidao de 18: parada, reagindo (laugh), sempre ATRAS dos personagens principais
-<!-- /FISICA -->
 
 ## Cena b10 - 51.3s a 56.5s - 16 palavras - plano two
 > "Em mil novecentos e oitenta, o post-it chegou às lojas. Graças a uma cola que falhou."
@@ -166,17 +105,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | - | ATUACAO | conversar | OK |
 | 6 | - | CHEGADA | alguem entra andando | OK |
 | 7 | - | PLACA | 1980 | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: dust na palavra chegou (53.4s): executa: poeira + som
-- ACAO: chega na palavra chegou (53.4s): executa: entra andando pela lateral
-- ACAO: perde na palavra falhou (56.5s): executa: mao na testa
-- INTERACAO (a cena toda): executa: aproxima-se
-- ATUACAO (a cena toda): executa: conversar
-- CHEGADA (a cena toda): executa: alguem entra andando
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
 
 ## Cena b11 - 57.6s a 61.0s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
@@ -185,10 +113,4 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | COMENTE! | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: conversar
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
 

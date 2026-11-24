@@ -145,6 +145,7 @@ grep -q 'stories/$v/ENTREGUE" ] && rm -rf "$d"' make_video.sh || f "disco enche 
 grep -q 'videos_prontos/_a_conferir/"' receber_das_sessoes.sh && [ -x aprovar_entrega.sh ] || f "video de sessao entra direto na pasta da serie sem conferencia (mistura de versoes 24/11)"
 [ -x limpar_disco.sh ] && grep -q "limpar_disco.sh" vigia.sh || f "disco cheio para a fila sem limpeza automatica"
 grep -q "VIDEO MAIS CURTO QUE A VOZ" make_video.sh && grep -q "video MAIS CURTO que a voz" conferir.sh && grep -q "trecho(s) incompleto(s)" make_video.sh || f "trecho incompleto (disco cheio) passa e o video sai mais curto que a voz (Melancia 24/11)"
+python3 cenas_hash.py lagosta1961 | grep -q "^b7 " && grep -q "so' estas cenas mudaram" make_video.sh && grep -q "cenas_hash.py \$ID > ckpt/\$ID/cenas.txt" refazer.sh || f "mudanca numa cena joga fora o video inteiro (devia refazer so' os trechos dela)"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }
