@@ -9,10 +9,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | INTERACAO | pular | OK |
-| 3 | - | ATUACAO | comemorar | OK |
-| 4 | - | PLACA | ISLÂNDIA VENCEU | OK |
+| 1 | - | INTERACAO | susto | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | ISLÂNDIA VENCEU | OK |
 
 ## Cena b1 - 3.8s a 8.5s - 19 palavras - plano wide
 > "Entre mil novecentos e cinquenta e oito e setenta e seis, os dois países travaram três Guerras do Bacalhau."
@@ -70,9 +69,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | ameaçou (36.8s) | ACAO: x_discute | discussao cara a cara (dedo apontado) | OK |
 | 2 | fechar (37.2s) | ACAO: empurra | empurra/puxa | OK |
-| 3 | - | INTERACAO | discutir | OK |
-| 4 | - | ATUACAO | discutir | OK |
-| 5 | - | PLACA | OTAN | OK |
+| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | INTERACAO | discutir | OK |
+| 5 | - | ATUACAO | discutir | OK |
+| 6 | - | PLACA | OTAN | OK |
 
 ## Cena b8 - 40.9s a 46.2s - 20 palavras - plano group
 > "Em mil novecentos e setenta e seis, a Inglaterra cedeu, e a zona de duzentas milhas se espalhou pelo mundo."

@@ -4,10 +4,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b0  (~3.8 s)
 - Narracao: A Islândia derrotou a marinha inglesa com um cortador de rede.
-- Som ambiente: sea | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: thump@60, creak@62
+- Som ambiente: sea
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: splash@50, burst@60
+- Efeito visual marcado: -
 - Texto na tela: ISLÂNDIA VENCEU
 - Funcao na historia: GANCHO
 
@@ -67,12 +67,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b7  (~4.8 s)
 - Narracao: A Islândia ameaçou fechar a base da Otan e rompeu relações com a Inglaterra.
-- Som ambiente: sea
+- Som ambiente: sea | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: x_discute (point) @2 -> acao + som de efeito; encena: empurra (push) @3 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: OTAN
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b8  (~6.9 s)
 - Narracao: Em mil novecentos e setenta e seis, a Inglaterra cedeu, e a zona de duzentas milhas se espalhou pelo mundo.

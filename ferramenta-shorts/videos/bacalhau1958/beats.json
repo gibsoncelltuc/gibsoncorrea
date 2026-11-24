@@ -59,20 +59,10 @@
      1.0
     ]
    ],
-   "fx": [
-    "splash@50",
-    "burst@60"
-   ],
-   "sfx": [
-    "thump@60",
-    "creak@62"
-   ],
    "mood": "tense",
    "text": "ISLÂNDIA VENCEU",
    "tat": 16,
    "tstyle": "blue",
-   "acao": "comemorar",
-   "impact": true,
    "cx": 0,
    "cz": -40,
    "h": 9.0,
@@ -187,8 +177,7 @@
    "cz": -40,
    "h": 9.0,
    "d0": 50,
-   "d1": 44,
-   "acao": "conversar"
+   "d1": 44
   },
   {
    "say": "Acontece que a Islândia só tinha barquinhos da guarda costeira, mas eles tinham cortadores de rede.",
@@ -242,7 +231,8 @@
    "tat": 9,
    "tstyle": "blue",
    "mood": "march",
-   "detalhe": false
+   "detalhe": false,
+   "impact": true
   },
   {
    "say": "Em mil novecentos e setenta e seis, a Inglaterra cedeu, e a zona de duzentas milhas se espalhou pelo mundo.",
