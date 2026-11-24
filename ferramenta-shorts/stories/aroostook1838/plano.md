@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | - neve | tropa, objeto na mao | encena: corta (hammer) @14 (acao + som de efeito) | -
+b0 | group | - neve | tropa, objeto na mao | encena: corta (hammer) @14 (acao + som de efeito) | -
 b1 | two | - neve | mapa | encena: x_discute (point) @23 (acao + som de efeito) | -
 b2 | group | - neve | objeto na mao | encena: corta (hammer) @4 (acao + som de efeito); encena: corta (hammer) @8 (acao + som de efeito) | -
 b3 | reveal | - neve | batalha aberta com tiros, tropa | encena: fala (point) @11 (acao + som de efeito); encena: corta (hammer) @21 (acao + som de efeito) | -

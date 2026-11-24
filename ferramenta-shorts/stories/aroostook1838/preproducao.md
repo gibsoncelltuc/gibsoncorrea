@@ -4,7 +4,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | arctic | two | 2 | discutir, INTERAGEM: discutir | kit/logs, nature/tree_pine | axe, axe | -
+b0 | arctic | group | 2 | discutir, INTERAGEM: discutir | kit/logs, nature/tree_pine | axe, axe | -
 b1 | arctic | two | 2 | conversar, INTERAGEM: tremem de frio | - | - | -
 b2 | arctic | group | 2 | discutir, INTERAGEM: vai ate o outro | kit/logs, nature/tree_pine, nature/tree_oak, nature/bush | axe, axe | -
 b3 | arctic | reveal | 14 | encena, batalha | nature/tree_pine | - | -

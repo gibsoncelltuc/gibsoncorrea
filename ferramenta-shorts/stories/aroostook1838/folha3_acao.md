@@ -4,7 +4,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 11 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 5.5s - 21 palavras - plano two
+## Cena b0 - 0.2s a 5.5s - 21 palavras - plano group
 > "Uma guerra entre os Estados Unidos e a Inglaterra quase aconteceu por causa de lenhadores, e ninguém foi morto pelo inimigo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
