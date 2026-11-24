@@ -38,9 +38,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b5: "Eles se revoltaram e cercaram o forte onde o governador estava."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o castle_tower (alvo z -3.6, camera a 48.3 m, altura 4.3 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o forte_colonial (alvo z -3.6, camera a 31.0 m, altura 2.8 m), sem multidao na frente
 - PERSONAGENS: ASH no centro, expressao angry; sem multidao; acao: batalha
-- OBJETO buildings/castle_tower: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 12.3 m de altura x 6.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/forte_colonial: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 8.1 m de altura x 11.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "FORTE CERCADO" flutuando no alto, na palavra 1 da frase
 
 ## b6: "Soldados ingleses marcharam para salvar o governador preso, e a guerra seguiu por vários meses."
