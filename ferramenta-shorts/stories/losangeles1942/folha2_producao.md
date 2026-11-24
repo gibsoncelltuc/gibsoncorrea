@@ -6,7 +6,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): SOL (variante 0, expressao shock); CID (variante 0, expressao scared)
+- Personagens principais (2): SOL (variante 0, expressao shock); CID (variante 0, expressao scared) | multidao: 12 de CID/SOL
 - Animacao: reagir | interacao: susto
 - Objetos/modelos: kit/searchlight, buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade
@@ -16,7 +16,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: noite
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e searchlight juntos (camera a 11.5 m)
-- PERSONAGENS: SOL (soldado) na esquerda, expressao shock; CID (comerciante) na direita, expressao scared; sem multidao; acao: susto
+- PERSONAGENS: SOL (soldado) na esquerda, expressao shock; CID (comerciante) na direita, expressao scared; multidao de 12 (CID, SOL) ATRAS dos principais; acao: susto
 - OBJETO kit/searchlight: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +40 da cena
 - SOM: cannon@40
@@ -28,10 +28,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b1 - Era fevereiro de mil novecentos e quarenta e dois, logo depois de Pear...
 - Cenario: street | luz: noite | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): CID (variante 0, expressao nervous); CID (variante 1, expressao scared) | multidao: 8 de POV
-- Animacao: reagir | grande momento (efeito + som, sem tiro)
+- Animacao: reagir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): medo, pearl
 - RISCOS: nenhum
@@ -51,10 +51,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - Na véspera, um submarino japonês tinha atirado na Califórnia, e todo m...
 - Cenario: harbor | luz: pordosol | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): CID (variante 0, expressao scared); SOL (variante 0, expressao nervous) | multidao: 30 de 
-- Animacao: reagir
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (2): CID (variante 0, expressao scared); SOL (variante 0, expressao nervous) | multidao: 12 de CID/SOL
+- Animacao: conversar | interacao: cochichar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/submarino_ww2
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): california, submarino, vespera
 - RISCOS: nenhum
@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: pordosol
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o submarino_ww2 (alvo z -5.4, camera a 10.8 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto
-- PERSONAGENS: CID (comerciante) na esquerda, expressao scared; SOL (soldado) na direita, expressao nervous; sem multidao; acao: cochichar
+- PERSONAGENS: CID (comerciante) na esquerda, expressao scared; SOL (soldado) na direita, expressao nervous; multidao de 12 (CID, SOL) ATRAS dos principais; acao: cochichar
 - OBJETO kit/submarino_ww2: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 6.2 m de altura x 23.0 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +68 da cena
 - SOM: cannon@68
@@ -131,7 +131,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: noite | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): SOL (variante 0, expressao shout); GEN (variante 0, expressao surprised) | multidao: 5 de SOL/POV
+- Personagens principais (2): SOL (variante 0, expressao shout); GEN (variante 0, expressao surprised) | multidao: 12 de GEN/SOL
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): soldados
@@ -141,7 +141,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: noite
 - CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: SOL (soldado) na esquerda, expressao shout; GEN (general) na direita, expressao surprised; sem multidao; acao: discutir
+- PERSONAGENS: SOL (soldado) na esquerda, expressao shout; GEN (general) na direita, expressao surprised; multidao de 12 (GEN, SOL) ATRAS dos principais; acao: discutir
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
   - take 1 (29.7-31.6 s): mesmo angulo
@@ -151,10 +151,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Foram mais de mil tiros de canhão, e os estilhaços caíram na cidade, q...
 - Cenario: loc_cidade | luz: noite | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): CID (variante 0, expressao scared); CID (variante 1, expressao cry) | multidao: 20 de SOL/POV
-- Animacao: encena | batalha encenada
+- Animacao: conversar | interacao: insiste | batalha encenada
 - Objetos/modelos: kit/canhao_moderno, kit/searchlight, cannon, buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canhao, cidade, estilhacos
 - RISCOS: nenhum
@@ -200,8 +200,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_cidade | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (2): CID (variante 0, expressao sad); CID (variante 1, expressao cry)
-- Animacao: conversar | interacao: insiste | o ultimo personagem ENTRA andando
+- Personagens principais (2): CID (variante 0, expressao sad); CID (variante 1, expressao cry) | multidao: 12 de CID
+- Animacao: conversar | interacao: vai ate o outro | o ultimo personagem ENTRA andando
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
@@ -210,7 +210,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: loc_cidade; hora: noite
 - CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: CID (comerciante) na esquerda, expressao sad; CID (comerciante) na direita, expressao cry; sem multidao; acao: fala/gesto
+- PERSONAGENS: CID (comerciante) na esquerda, expressao sad; CID (comerciante) na direita, expressao cry; multidao de 12 (CID) ATRAS dos principais; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
   - take 1 (47.6-49.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
@@ -219,10 +219,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - O único alvo derrotado naquela noite foi o sono de Los Angeles.
 - Cenario: street | luz: noite | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (1): CID (variante 0, expressao smile)
-- Animacao: conversar
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): CID (variante 0, expressao smile) | multidao: 8 de POV
+- Animacao: encena
 - Objetos/modelos: kit/searchlight
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): sono
 - RISCOS: nenhum
@@ -240,7 +240,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: street | luz: noite | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): CID (variante 0, expressao grin)
 - Animacao: conversar
@@ -263,8 +263,8 @@ cannon | b4, b6 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/searchlight | grandes momentos: b1, b6 | planos abertos: 3 | mistura: close 10% | medio 69% | aberto 17% | detalhe 4%
-- Interacoes: b0 susto, b3 entregar, b4 o outro se aproxima, b5 discutir, b7 susto, b8 insiste
+- Objeto heroi: kit/searchlight | grandes momentos: b2, b6 | planos abertos: 2 | mistura: close 8% | medio 76% | aberto 14% | detalhe 2%
+- Interacoes: b0 susto, b2 cochichar, b3 entregar, b4 o outro se aproxima, b5 discutir, b6 insiste, b7 susto, b8 vai ate o outro
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

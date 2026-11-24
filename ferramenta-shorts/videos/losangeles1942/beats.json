@@ -77,7 +77,16 @@
    ],
    "sfx": [
     "cannon@40"
-   ]
+   ],
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "CID",
+     "SOL"
+    ],
+    "march": false
+   },
+   "_susp_ok": true
   },
   {
    "shot": "reveal",
@@ -126,13 +135,19 @@
    "tat": 2,
    "tstyle": "red",
    "crowd": {
-    "n": 0
+    "n": 12,
+    "outfits": [
+     "CID",
+     "SOL"
+    ],
+    "march": false
    },
    "cx": 0.0,
    "cz": -6.0,
    "h": 2.6,
    "d0": 19.0,
-   "d1": 16.0
+   "d1": 16.0,
+   "_susp_ok": true
   },
   {
    "shot": "low",
@@ -228,7 +243,16 @@
     "GEN:0:surprised"
    ],
    "acao": "discutir",
-   "say": "Os soldados juravam que havia inimigos no céu. Acontece que não havia nada ali, só nuvens e fumaça."
+   "say": "Os soldados juravam que havia inimigos no céu. Acontece que não havia nada ali, só nuvens e fumaça.",
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "GEN",
+     "SOL"
+    ],
+    "march": false
+   },
+   "_susp_ok": true
   },
   {
    "shot": "crowd",
@@ -291,7 +315,15 @@
    "say": "Algumas pessoas morreram, por acidente e por susto, mas nenhum inimigo apareceu.",
    "set": "loc_cidade",
    "hora": "noite",
-   "encena": false
+   "encena": false,
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "CID"
+    ],
+    "march": false
+   },
+   "_susp_ok": true
   },
   {
    "shot": "close",

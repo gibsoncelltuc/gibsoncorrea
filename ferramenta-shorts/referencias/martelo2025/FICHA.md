@@ -7,7 +7,7 @@
 - Roupas: {'PIL': 'piloto de macacão cinza e capacete', 'GEN': 'general de uniforme verde com medalhas', 'POV': 'civil de jaqueta azul'}
 - Cenario real: montanha com bunker subterrâneo; pista de base aérea; mar
 - Objetos: ['bomba antibunker GBU-57', 'bombardeiro B-2 Spirit', 'submarino', 'bunker na montanha']
-- Cenarios usados no video: hall, interior pedra, loc_campo, loc_estudio, loc_pista, mountain
+- Cenarios usados no video: hall, interior pedra, loc_campo, loc_estudio, loc_montanha, loc_pista
 - PROIBIDO pela epoca (a ferramenta bloqueia): barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Proibido pelo roteiro: -
 

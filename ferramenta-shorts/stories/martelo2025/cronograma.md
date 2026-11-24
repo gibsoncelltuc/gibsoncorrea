@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 23 - O Martelo da Meia-Noite
 
-Gerado em 24/11 23:07 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 24/11 23:24 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -8,7 +8,7 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 ---|---|---|---|---|---|---|---|---
 b0 | simples | loc_pista | two | GEN | - | bunker_bomb | - | Uma bomba gigante, feita para furar montanhas, foi usada de verdade pe
 b1 | transicao | loc_campo | reveal | POV, POV | 6 | - | - | Foi em junho de dois mil e vinte e cinco, contra usinas nucleares do I
-b2 | transicao | mountain | wide | GEN | - | mountain_bunker | - | A principal, Fordow, fica de oitenta a noventa metros de profundidade,
+b2 | transicao | loc_montanha | wide | GEN | - | mountain_bunker | - | A principal, Fordow, fica de oitenta a noventa metros de profundidade,
 b3 | explicativa | loc_pista | two | sem personagem | - | - | corpo: kit/bunker_bomb (parado); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som:  | Só uma bomba chegava lá, a antibunker, com treze toneladas. E só um av
 b4 | simples | interior pedra | two | GEN, PIL | - | - | - | A missão se chamou Martelo da Meia-Noite.
 b5 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/b2_air (parado); emissao: velocidade; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em cada | Sete aviões invisíveis saíram do Missouri e viajaram dezoito horas até

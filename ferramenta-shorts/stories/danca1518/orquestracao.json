@@ -1,7 +1,13 @@
 {
  "id": "danca1518",
  "ano": 1518,
- "cenarios_trocados": [],
+ "cenarios_trocados": [
+  [
+   "cena 9",
+   "mountain",
+   "loc_montanha"
+  ]
+ ],
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
@@ -185,7 +191,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "mountain"
+   "cenario": "loc_montanha"
   },
   {
    "camera": "close",

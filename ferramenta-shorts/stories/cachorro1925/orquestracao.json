@@ -13,6 +13,11 @@
    "loc_campo"
   ],
   [
+   "cena 5",
+   "mountain",
+   "loc_montanha"
+  ],
+  [
    "cena 9",
    "countryside",
    "loc_campo"
@@ -99,7 +104,7 @@
    "cenario": "mountain"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "GRE",
     "GRE"
@@ -113,7 +118,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "mountain"
+   "cenario": "loc_montanha"
   },
   {
    "camera": "wide",

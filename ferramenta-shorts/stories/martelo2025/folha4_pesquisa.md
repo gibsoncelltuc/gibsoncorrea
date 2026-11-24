@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 2025 | Lugar: Fordow, Natanz e Isfahan (Irã); base de Whiteman, Missouri (EUA) | Quando: 22 de junho de 2025, madrugada
 - HEROIS (objeto): kit/bunker_bomb
 - HEROIS (personagens): GEN
-- Cenarios: hall, interior pedra, loc_campo, loc_estudio, loc_pista, mountain
+- Cenarios: hall, interior pedra, loc_campo, loc_estudio, loc_montanha, loc_pista
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 

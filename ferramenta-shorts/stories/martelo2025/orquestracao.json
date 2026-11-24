@@ -1,7 +1,13 @@
 {
  "id": "martelo2025",
  "ano": 2025,
- "cenarios_trocados": [],
+ "cenarios_trocados": [
+  [
+   "cena 3",
+   "mountain",
+   "loc_montanha"
+  ]
+ ],
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
@@ -60,7 +66,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "mountain"
+   "cenario": "loc_montanha"
   },
   {
    "camera": "two",
