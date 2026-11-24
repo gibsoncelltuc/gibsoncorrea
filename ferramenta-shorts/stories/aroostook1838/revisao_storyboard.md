@@ -3,10 +3,10 @@ defeitos procurados: cenario (floresta nevada nas cenas b0 a b4, mapa sem estudi
 b0: CORRIGIDO (agora em plano medio com os dois lenhadores segurando machado, neve e toras; um quadro do movimento de camera encosta o boneco azul na borda esquerda) - uma guerra entre os Estados Unidos e a Inglaterra quase aconteceu por causa de lenhadores: estava em campo verde de verao com personagem cortado na borda -> agora pinheiros com neve, os dois lenhadores inteiros em plano aberto ao lado das toras.
 b1: CORRIGIDO - a fronteira do Maine e a colonia inglesa de New Brunswick era disputada: estava no estudio azul quadriculado -> agora o mapa do Maine aparece sobre a neve e os dois lenhadores discutem na mata.
 b2: CORRIGIDO - lenhadores dos dois lados cortavam as mesmas arvores na mata de pinheiros nevada com so poeira e sem machado -> agora os dois lenhadores seguram o machado de ferro (hold axe do motor novo) ao lado das toras e da poeira da acao corta.
-b3: OK - o Maine mandou o agente de terras com voluntarios para prender os lenhadores: voluntarios azuis marchando pela neve ao lado dos pinheiros.
-b4: OK - o Maine chamou milhares de soldados da milicia e a colonia inglesa mandou os seus: milicia azul de um lado, soldados vermelhos do outro, neve e sem tiros.
-b5: OK - lenhadores de New Brunswick prenderam o agente do Maine na cela de pedra com a placa PRESO e expressao de susto no americano.
+b3: CORRIGIDO - em fevereiro de 1839 o Maine mandou o agente de terras com voluntarios para prender os lenhadores: antes boneco cortado na borda -> agora oito voluntarios azuis parados entre pinheiros na neve, ninguem cortado.
+b4: CORRIGIDO - o Maine chamou milhares de soldados da milicia e a colonia mandou os seus: o campo verde nao combinava com fevereiro -> voltou a neve, milicia azul e soldados vermelhos em blocos separados.
+b5: CORRIGIDO - lenhadores de New Brunswick prenderam o agente do Maine e o clima ficou perigoso: a prisao nao aparecia -> agora a prisao ao fundo na neve com os dois personagens na frente e o texto PRESO.
 b6: OK - o presidente americano mandou o general Winfield Scott conversar: general de uniforme azul e bicorne com um soldado na sala de madeira.
 b7: OK - o general ajudou os dois lados a firmar uma tregua e as tropas nunca chegaram a lutar: o general entrega o papel ao politico de cartola, sem nenhum tiro.
 b8: OK - em mil oitocentos e quarenta e dois o Tratado Webster-Ashburton definiu a fronteira: dois diplomatas de cartola trocam o documento numa sala de pedra.
-b9: OK - ficou conhecida ate como a Guerra do Porco com Feijao: o porco aparece entre dois lenhadores numa loja com prateleiras.
+b9: CORRIGIDO - ficou conhecida ate como a Guerra do Porco com Feijao: tronco automatico sumido -> agora dois lenhadores e o porco rosa entre eles na loja, sem objeto sobrando.
