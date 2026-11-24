@@ -7,11 +7,10 @@
   "regiao": "classico",
   "luz_base": "day",
   "cenarios": [
-   "interior madeira",
+   "interior pedra",
    "loc_campo",
-   "medieval",
-   "mountain",
-   "street"
+   "loc_montanha",
+   "mountain"
   ],
   "cenarios_trocados": []
  },
@@ -20,32 +19,48 @@
  "objetos_em_cena": [
   "buildings/apartment",
   "buildings/castle_tower",
-  "buildings/house_small",
   "buildings/house_two",
-  "buildings/shop",
+  "kit/coin",
   "kit/fire",
-  "kit/room_classico_wood",
-  "kit/room_europa_wood",
-  "mk/Barrel",
-  "mk/Bed_Twin1",
+  "kit/room_classico_stone",
   "mk/Bookcase_2",
-  "mk/Cabinet",
-  "mk/CandleStick_Stand",
   "mk/Chair_1",
   "mk/Chest_Wood",
-  "mk/Nightstand_Shelf",
   "mk/Table_Large",
   "nature/lamppost"
  ],
- "pesquisa_visual": {},
+ "pesquisa_visual": {
+  "local": "Roma, colina do Capitólio",
+  "quando": "390 a.C., verão; cerco de sete meses",
+  "participantes": [
+   "gauleses de Breno",
+   "Marco Mânlio",
+   "legionário romano"
+  ],
+  "roupas": {
+   "ROM": "soldado romano da República: túnica clara, elmo de bronze",
+   "GAU": "guerreiro gaulês: túnica marrom, cabelo ruivo e bigode",
+   "MAN": "Mânlio: túnica clara e elmo de bronze"
+  },
+  "cenario": "colina rochosa do Capitólio com muralha de pedra, templo de Juno, cidade em chamas",
+  "objetos": [
+   "gansos de Juno"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Sack_of_Rome_(390_BC)",
+   "referencias/gansos390/moodboard.jpg"
+  ],
+  "buscas": {
+   "Roma": "Roman Forum ancient Rome reconstruction painting",
+   "colina do Capitólio": "Capitoline Hill ancient Rome temple Jupiter reconstruction",
+   "gauleses de Breno": "Brennus Gaul sack of Rome painting",
+   "Marco Mânlio": "Manlius Capitolinus Gauls geese engraving",
+   "legionário romano": "Roman soldier helmet Montefortino museum",
+   "gansos de Juno": "goose Capitoline Gauls Manlius painting 1800s",
+   "tocha": "ancient torch burning",
+   "soldado da época": "Gaul warrior helmet sword illustration"
+  }
+ },
  "fontes": [],
- "falta": [
-  "local",
-  "quando",
-  "participantes",
-  "roupas",
-  "cenario",
-  "objetos",
-  "fontes_visuais"
- ]
+ "falta": []
 }

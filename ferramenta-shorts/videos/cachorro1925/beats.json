@@ -108,8 +108,8 @@
    "shot": "two",
    "set": "mountain",
    "who": [
-    "GRE:0:scared",
-    "BUL:0:angry"
+    "BUL:0:angry",
+    "GRE:0:scared"
    ],
    "fx": [
     "burst@60"

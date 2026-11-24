@@ -6,14 +6,51 @@
    "item": "Os Gansos que Salvaram Roma",
    "consultas": [
     "Os Gansos que Salvaram Roma",
-    "Roma Os Quem Os Capitólio"
+    "Um Roma Em Cristo Breno Os Capitólio"
    ],
    "achados": []
   },
   {
    "tipo": "lugar",
+   "item": "Roma, colina do Capitólio",
+   "consultas": [
+    "Roma colina do Capitólio"
+   ],
+   "achados": [
+    {
+     "titulo": "Lodovico Pogliaghi - Demagogues take refuge on the Capitoline Hill, 100 BC.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Lodovico_Pogliaghi_-_Demagogues_take_refuge_on_the_Capitoline_Hill%2C_100_BC.png/500px-Lodovico_Pogliaghi_-_Demagogues_take_refuge_on_the_Capitoline_Hill%2C_100_BC.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ALodovico_Pogliaghi_-_Demagogues_take_refuge_on_the_Capitoline_Hill%2C_100_BC.png",
+     "descricao": "0falsefalse English Lodovico Pogliaghi - Demagogues take refuge on the \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/gansos390/prints/roma_colina_do_capit_lio_fa40b4.jpg",
+     "consulta": "Roma colina do Capitólio"
+    },
+    {
+     "titulo": "Campidoglio buildings, Rome.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Campidoglio_buildings%2C_Rome.jpg/500px-Campidoglio_buildings%2C_Rome.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACampidoglio_buildings%2C_Rome.jpg",
+     "descricao": "BY-SA 4.0 Creative Commons Attribution-Share Alike 4.0 truetrue English \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/gansos390/prints/roma_colina_do_capit_lio_9458c1.jpg",
+     "consulta": "Roma colina do Capitólio"
+    },
+    {
+     "titulo": "Piazza del Campidoglio 1, Rome.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Piazza_del_Campidoglio_1%2C_Rome.jpg/500px-Piazza_del_Campidoglio_1%2C_Rome.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3APiazza_del_Campidoglio_1%2C_Rome.jpg",
+     "descricao": "Alike 4.0 truetrue English Palazzo dei Conservatori and Palazzo Senatorio around Piazza del \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/gansos390/prints/roma_colina_do_capit_lio_274983.jpg",
+     "consulta": "Roma colina do Capitólio"
+    }
+   ]
+  },
+  {
+   "tipo": "lugar",
    "item": "Roma",
    "consultas": [
+    "Roman Forum ancient Rome reconstruction painting",
     "Roma",
     "Roma landscape"
    ],
@@ -37,13 +74,198 @@
      "consulta": "Roma"
     },
     {
-     "titulo": "Romani Girl.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Romani_Girl.jpg/500px-Romani_Girl.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ARomani_Girl.jpg",
-     "descricao": "2021 English \\u003Cspan class=\\",
-     "ordem": 6,
-     "print": "referencias/gansos390/prints/roma_d6aeb7.jpg",
+     "titulo": "Elle est pauvre.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Elle_est_pauvre.jpg/500px-Elle_est_pauvre.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AElle_est_pauvre.jpg",
+     "descricao": "demande la charité dans la rue à fr:Saint-Étienne. English: A poor family \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/gansos390/prints/roma_c0d0fc.jpg",
      "consulta": "Roma"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "gauleses de Breno",
+   "consultas": [
+    "Brennus Gaul sack of Rome painting",
+    "gauleses de Breno"
+   ],
+   "achados": [
+    {
+     "titulo": "Paul Jamin - Le Brenn et sa part de butin 1893.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Paul_Jamin_-_Le_Brenn_et_sa_part_de_butin_1893.jpg/500px-Paul_Jamin_-_Le_Brenn_et_sa_part_de_butin_1893.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3APaul_Jamin_-_Le_Brenn_et_sa_part_de_butin_1893.jpg",
+     "descricao": "English Persian \\u0026quot;\\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/gansos390/prints/gauleses_de_breno_112d8b.jpg",
+     "consulta": "Brennus Gaul sack of Rome painting"
+    },
+    {
+     "titulo": "Giovanni di Ser Giovanni Guidi (called Scheggia) - King Brennus of Gaul captures the city of Rome, Marcus Furius Camillus expels King Brennus from Rome - 1942.324 - Yale University Art Gallery.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Giovanni_di_Ser_Giovanni_Guidi_%28called_Scheggia%29_-_King_Brennus_of_Gaul_captures_the_city_of_Rome%2C_Marcus_Furius_Camillus_expels_King_Brennus_from_Rome_-_1942.324_-_Yale_University_Art_Gallery.jpg/500px-Giovanni_di_Ser_Giovanni_Guidi_%28called_Scheggia%29_-_King_Brennus_of_Gaul_captures_the_city_of_Rome%2C_Marcus_Furius_Camillus_expels_King_Brennus_from_Rome_-_1942.324_-_Yale_University_Art_Gallery.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AGiovanni_di_Ser_Giovanni_Guidi_%28called_Scheggia%29_-_King_Brennus_of_Gaul_captures_the_city_of_Rome%2C_Marcus_Furius_Camillus_expels_King_Brennus_from_Rome_-_1942.324_-_Yale_University_Art_Gallery.jpg",
+     "descricao": "di ser Giovanni Guidi: King \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/gansos390/prints/gauleses_de_breno_a94eea.jpg",
+     "consulta": "Brennus Gaul Rome"
+    },
+    {
+     "titulo": "Sebastiano ricci, camillo riprende roma a brenno, 1716-20 ca.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Sebastiano_ricci%2C_camillo_riprende_roma_a_brenno%2C_1716-20_ca.jpg/500px-Sebastiano_ricci%2C_camillo_riprende_roma_a_brenno%2C_1716-20_ca.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASebastiano_ricci%2C_camillo_riprende_roma_a_brenno%2C_1716-20_ca.jpg",
+     "descricao": "English",
+     "ordem": 8,
+     "print": "referencias/gansos390/prints/gauleses_de_breno_f50b00.jpg",
+     "consulta": "Brennus Gaul Rome"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Marco Mânlio",
+   "consultas": [
+    "Manlius Capitolinus Gauls geese engraving",
+    "Marco Mânlio"
+   ],
+   "achados": [
+    {
+     "titulo": "Marcus Manlius capitolinus.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Marcus_Manlius_capitolinus.jpg/500px-Marcus_Manlius_capitolinus.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AMarcus_Manlius_capitolinus.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/gansos390/prints/marco_m_nlio_6018e8.jpg",
+     "consulta": "Marco Mânlio"
+    },
+    {
+     "titulo": "The story of the greatest nations, from the dawn of history to the twentieth century - a comprehensive history, founded upon the leading authorities, including a complete chronology of the world, and (14778326535).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/The_story_of_the_greatest_nations%2C_from_the_dawn_of_history_to_the_twentieth_century_-_a_comprehensive_history%2C_founded_upon_the_leading_authorities%2C_including_a_complete_chronology_of_the_world%2C_and_%2814778326535%29.jpg/500px-The_story_of_the_greatest_nations%2C_from_the_dawn_of_history_to_the_twentieth_century_-_a_comprehensive_history%2C_founded_upon_the_leading_authorities%2C_including_a_complete_chronology_of_the_world%2C_and_%2814778326535%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AThe_story_of_the_greatest_nations%2C_from_the_dawn_of_history_to_the_twentieth_century_-_a_comprehensive_history%2C_founded_upon_the_leading_authorities%2C_including_a_complete_chronology_of_the_world%2C_and_%2814778326535%29.jpg",
+     "descricao": "2 August 2015 English object of statement has role: photographer author name string: Internet Archive Book Images Flickr user ID: 126377022@N07 URL: https://www",
+     "ordem": 7,
+     "print": "referencias/gansos390/prints/marco_m_nlio_5d0957.jpg",
+     "consulta": "Marco Mânlio"
+    },
+    {
+     "titulo": "Sculptuur van de Romeinse consul Marcus Manlius Sculpturen uit de oudheid (serietitel), RP-P-2016-671-70-1.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Sculptuur_van_de_Romeinse_consul_Marcus_Manlius_Sculpturen_uit_de_oudheid_%28serietitel%29%2C_RP-P-2016-671-70-1.jpg/500px-Sculptuur_van_de_Romeinse_consul_Marcus_Manlius_Sculpturen_uit_de_oudheid_%28serietitel%29%2C_RP-P-2016-671-70-1.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASculptuur_van_de_Romeinse_consul_Marcus_Manlius_Sculpturen_uit_de_oudheid_%28serietitel%29%2C_RP-P-2016-671-70-1.jpg",
+     "descricao": "DescriptionSculptuur van de Romeinse consul \\u003Cspan class=\\",
+     "ordem": 8,
+     "print": "referencias/gansos390/prints/marco_m_nlio_7b8a68.jpg",
+     "consulta": "Marco Mânlio"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "legionário romano",
+   "consultas": [
+    "Roman republican soldier hoplite helmet museum",
+    "legionário romano"
+   ],
+   "achados": [
+    {
+     "titulo": "Roman Theatre in Orange 2008.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Roman_Theatre_in_Orange_2008.jpg/500px-Roman_Theatre_in_Orange_2008.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ARoman_Theatre_in_Orange_2008.jpg",
+     "descricao": "English Panoramic view of ancient \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/gansos390/prints/legion_rio_romano_521444.jpg",
+     "consulta": "Roman"
+    },
+    {
+     "titulo": "Centru roman din avion.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Centru_roman_din_avion.jpg/500px-Centru_roman_din_avion.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACentru_roman_din_avion.jpg",
+     "descricao": "username: Bogdan29roman URL: https://commons.wikimedia.org/wiki/user:Bogdan29roman author \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/gansos390/prints/legion_rio_romano_545faa.jpg",
+     "consulta": "Roman"
+    },
+    {
+     "titulo": "RO NT Roman city hall.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/RO_NT_Roman_city_hall.jpg/500px-RO_NT_Roman_city_hall.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ARO_NT_Roman_city_hall.jpg",
+     "descricao": "4.0 Creative Commons Attribution-Share Alike 4.0 truetrue English author \\u003Cspan class=\\",
+     "ordem": 6,
+     "print": "referencias/gansos390/prints/legion_rio_romano_26319d.jpg",
+     "consulta": "Roman"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "gansos de Juno",
+   "consultas": [
+    "Capitoline geese saved Rome engraving",
+    "gansos de Juno"
+   ],
+   "achados": [
+    {
+     "titulo": "The Capitoline Wolf, Musei Capitolini, Rome (13840968834).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/The_Capitoline_Wolf%2C_Musei_Capitolini%2C_Rome_%2813840968834%29.jpg/500px-The_Capitoline_Wolf%2C_Musei_Capitolini%2C_Rome_%2813840968834%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AThe_Capitoline_Wolf%2C_Musei_Capitolini%2C_Rome_%2813840968834%29.jpg",
+     "descricao": "DescriptionThe \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/gansos390/prints/gansos_de_juno_1fc054.jpg",
+     "consulta": "Capitoline Rome"
+    },
+    {
+     "titulo": "Calvert Jones - Statue of Marcus Aurelius, Capitoline, Rome - B2018.20.12 - Yale Center for British Art.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Calvert_Jones_-_Statue_of_Marcus_Aurelius%2C_Capitoline%2C_Rome_-_B2018.20.12_-_Yale_Center_for_British_Art.jpg/500px-Calvert_Jones_-_Statue_of_Marcus_Aurelius%2C_Capitoline%2C_Rome_-_B2018.20.12_-_Yale_Center_for_British_Art.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACalvert_Jones_-_Statue_of_Marcus_Aurelius%2C_Capitoline%2C_Rome_-_B2018.20.12_-_Yale_Center_for_British_Art.jpg",
+     "descricao": "English \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/gansos390/prints/gansos_de_juno_12cd0f.jpg",
+     "consulta": "Capitoline Rome"
+    },
+    {
+     "titulo": "Capitoline-Dioscuri-Rome-May-2009.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Capitoline-Dioscuri-Rome-May-2009.jpg/500px-Capitoline-Dioscuri-Rome-May-2009.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACapitoline-Dioscuri-Rome-May-2009.jpg",
+     "descricao": "org/licenses/by/4.0CC BY 4.0 Creative Commons Attribution 4.0 truetrue English \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/gansos390/prints/gansos_de_juno_dffcbc.jpg",
+     "consulta": "Capitoline Rome"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "tocha",
+   "consultas": [
+    "ancient torch burning",
+    "tocha"
+   ],
+   "achados": [
+    {
+     "titulo": "Igrejapraiadatocha.JPG",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Igrejapraiadatocha.JPG/500px-Igrejapraiadatocha.JPG",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AIgrejapraiadatocha.JPG",
+     "descricao": "DescriptionIgrejapraiadatocha.JPG Pequena Igreja em Estilo moderno na praia da \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/gansos390/prints/tocha_bc4486.jpg",
+     "consulta": "tocha"
+    },
+    {
+     "titulo": "Praia da Tocha (154398399).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Praia_da_Tocha_%28154398399%29.jpg/500px-Praia_da_Tocha_%28154398399%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3APraia_da_Tocha_%28154398399%29.jpg",
+     "descricao": "DescriptionPraia da \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/gansos390/prints/tocha_8d15a2.jpg",
+     "consulta": "tocha"
+    },
+    {
+     "titulo": "Praia da Tocha - Portugal (53228576067).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Praia_da_Tocha_-_Portugal_%2853228576067%29.jpg/500px-Praia_da_Tocha_-_Portugal_%2853228576067%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3APraia_da_Tocha_-_Portugal_%2853228576067%29.jpg",
+     "descricao": "DescriptionPraia da \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/gansos390/prints/tocha_788f2c.jpg",
+     "consulta": "tocha"
     }
    ]
   },
@@ -73,12 +295,12 @@
      "consulta": "soldier uniform"
     },
     {
-     "titulo": "Dale Regementet. Soldat med hillebard.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Dale_Regementet._Soldat_med_hillebard.jpg/500px-Dale_Regementet._Soldat_med_hillebard.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ADale_Regementet._Soldat_med_hillebard.jpg",
+     "titulo": "Östgiöte Regementet. Soldat med gevär.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/%C3%96stgi%C3%B6te_Regementet._Soldat_med_gev%C3%A4r.jpg/500px-%C3%96stgi%C3%B6te_Regementet._Soldat_med_gev%C3%A4r.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3A%C3%96stgi%C3%B6te_Regementet._Soldat_med_gev%C3%A4r.jpg",
      "descricao": "0falsefalse English Ink drawing of a \\u003Cspan class=\\",
-     "ordem": 3,
-     "print": "referencias/gansos390/prints/soldado_da_epoca_7e8119.jpg",
+     "ordem": 6,
+     "print": "referencias/gansos390/prints/soldado_da_epoca_0145a1.jpg",
      "consulta": "soldier uniform"
     }
    ]
