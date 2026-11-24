@@ -11,7 +11,7 @@ b3 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | kit/scroll | p
 b4 | loc_patio | two | 2 | reagir, INTERAGEM: susto | - | paper | -
 b5 | loc_campo | two | 2 | conversar, INTERAGEM: entregar | kit/ballot_box | - | -
 b6 | loc_pista | orbit | 8 | reagir | - | paper | -
-b7 | palace | orbit | 25 | comemorar, batalha | kit/porch | - | -
+b7 | palace | orbit | 13 | comemorar, batalha | kit/porch | - | -
 b8 | interior loja | two | 2 | conversar, INTERAGEM: insiste | - | paper | -
 b9 | loc_pista | two | 2 | discutir, INTERAGEM: empurrar | kit/prison | - | -
 b10 | loc_pista | close | 1 | comemorar | kit/ballot_box, kit/globe | - | -

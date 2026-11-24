@@ -1,6 +1,6 @@
-gancho: muralha alta da prisao ao entardecer na frase 'El Salvador construiu uma prisao tao grande que virou noticia no mundo inteiro', com os dois reporteres pequenos no chao; impacto visual medio.
+gancho: fileiras de presos de branco em primeiro plano com a muralha ao fundo e o titulo 40 MIL PRESOS na frase 'El Salvador construiu uma prisao tao grande que virou noticia no mundo inteiro'; impacto no 1o segundo.
 piloto: abaixo do Roadster EP25: guardas nao se distinguem bem dos presos na fila de f6 a f8 e ha muita cena de dois bonecos parados conversando; cada frase tem imagem propria.
-f0: OK - El Salvador construiu uma prisao tao grande que virou noticia: muralha e torre da prisao com dois reporteres no chao.
+f0: CORRIGIDO - El Salvador construiu uma prisao tao grande que virou noticia: antes muro marrom e dois bonecos minusculos cortados; agora multidao de presos de branco com 40 MIL PRESOS e muralha atras.
 f1: OK - foi inaugurada em janeiro de dois mil e vinte e tres: mapa de El Salvador com marcador.
 f2: OK - numa area isolada: texto 2023 e grupo pequeno no campo diante da muralha.
 f3: OK - por anos: dois bonecos de terno em sala azul com faixa amarela.
@@ -21,6 +21,6 @@ f17: OK - o governo responde que as ruas ficaram seguras: dois bonecos com papel
 f18: OK - a prisao virou simbolo: grupo com texto DEBATE.
 f19: OK - de seguranca para uns: grupo com DEBATE.
 f20: OK - de excesso para outros: grupo com DEBATE.
-f21: OK - o modelo passou a ser copiado e criticado pelo mundo: boneco pequeno diante da muralha.
+f21: CORRIGIDO - o modelo passou a ser copiado e criticado pelo mundo: antes um boneco pequeno no escuro; agora dois politicos com papel, globo ao lado e texto COPIADO E CRITICADO em plano medio.
 f22: OK - agora nao deixe de comentar: boneco rindo com COMENTE.
 f23: OK - qual deve ser o tema do proximo video: boneco rindo com COMENTE.

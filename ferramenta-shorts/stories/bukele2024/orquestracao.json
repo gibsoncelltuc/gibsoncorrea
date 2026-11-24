@@ -146,11 +146,9 @@
   {
    "camera": "orbit",
    "personagens": [
-    "BUK",
-    "POV",
-    "POV"
+    "BUK"
    ],
-   "multidao": 22,
+   "multidao": 12,
    "objetos": [
     "kit/porch"
    ],
