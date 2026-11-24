@@ -10,7 +10,7 @@
  },
  "cenas": [
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "FRA",
     "FRA"
@@ -49,7 +49,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "arctic"
+   "cenario": "harbor"
   },
   {
    "camera": "orbit",
@@ -72,13 +72,13 @@
    "cenario": "harbor"
   },
   {
-   "camera": "two",
+   "camera": "prop",
    "personagens": [
     "NED"
    ],
    "multidao": 0,
    "objetos": [
-    "ship"
+    "kit/navio_vela"
    ],
    "palavras": 11,
    "cena": "b3",
@@ -122,10 +122,10 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior pedra"
+   "cenario": "arctic"
   },
   {
-   "camera": "crowd",
+   "camera": "two",
    "personagens": [
     "FRA",
     "FRA"

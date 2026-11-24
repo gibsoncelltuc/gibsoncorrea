@@ -7,7 +7,7 @@
 - Roupas: {'PAR': 'parisienses de 1870: casaco, cartola, chapeu-coco ou quepe da Guarda Nacional', 'BUT': 'acougueiro de avental branco', 'CHF': 'dono de restaurante de fraque e cartola'}
 - Cenario real: rua de Paris com neve no inverno, fila no acougue, zoologico com os elefantes, salao de restaurante, baloes subindo com noticias
 - Objetos: ['panelas e o cardapio do Natal', 'carne de elefante no acougue', 'baloes de gas', 'pombos-correio']
-- Cenarios usados no video: arctic, interior loja, interior madeira, street
+- Cenarios usados no video: arctic, interior loja, interior madeira, interior pedra, loc_campo, street
 - PROIBIDO pela epoca (a ferramenta bloqueia): caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Proibido pelo roteiro: -
 

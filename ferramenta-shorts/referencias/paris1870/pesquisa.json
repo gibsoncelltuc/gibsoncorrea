@@ -6,7 +6,7 @@
    "item": "O Cardápio do Zoológico",
    "consultas": [
     "O Cardápio do Zoológico",
-    "Paris Era Prússia Primeiro Depois Depois 1870"
+    "Paris Era Prússia Primeiro Depois 1870"
    ],
    "achados": []
   },
@@ -49,38 +49,38 @@
   },
   {
    "tipo": "lugar",
-   "item": "Paris",
+   "item": "França",
    "consultas": [
-    "Paris 1870",
-    "Paris landscape"
+    "França 1870",
+    "França landscape"
    ],
    "achados": [
     {
-     "titulo": "Defence-of-Paris.png",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Defence-of-Paris.png/500px-Defence-of-Paris.png",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ADefence-of-Paris.png",
-     "descricao": "0falsefalse English Vietnamese Hình vẽ người dân tràn ra đường để phòng thủ \\u003Cspan class=\\",
+     "titulo": "Helmuth Karl Bernhard von Moltke Günther BNF Gallica.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Helmuth_Karl_Bernhard_von_Moltke_G%C3%BCnther_BNF_Gallica.jpg/500px-Helmuth_Karl_Bernhard_von_Moltke_G%C3%BCnther_BNF_Gallica.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AHelmuth_Karl_Bernhard_von_Moltke_G%C3%BCnther_BNF_Gallica.jpg",
+     "descricao": "Duchés, de la guerre austro-prussienne, et de la guerre franco-prussienne de \\u003Cspan class=\\",
      "ordem": 1,
-     "print": "referencias/paris1870/prints/paris_d52270.jpg",
-     "consulta": "Paris 1870"
+     "print": "referencias/paris1870/prints/fran_a_dfd243.jpg",
+     "consulta": "França 1870"
     },
     {
-     "titulo": "ParisCafeDiscussion.png",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/ParisCafeDiscussion.png/500px-ParisCafeDiscussion.png",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AParisCafeDiscussion.png",
-     "descricao": "English \\u0026quot;Discussing the War in a \\u003Cspan class=\\",
+     "titulo": "ALFORD(1870) p067 VILLA FRANCA HARBOUR.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/ALFORD%281870%29_p067_VILLA_FRANCA_HARBOUR.jpg/500px-ALFORD%281870%29_p067_VILLA_FRANCA_HARBOUR.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AALFORD%281870%29_p067_VILLA_FRANCA_HARBOUR.jpg",
+     "descricao": "Date \\u003Cspan class=\\",
      "ordem": 2,
-     "print": "referencias/paris1870/prints/paris_f5c123.jpg",
-     "consulta": "Paris 1870"
+     "print": "referencias/paris1870/prints/fran_a_af6e82.jpg",
+     "consulta": "França 1870"
     },
     {
-     "titulo": "Franco-Prussian War - Students Going to Man the Barricades - Illustrated London News Oct 1 1870.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Franco-Prussian_War_-_Students_Going_to_Man_the_Barricades_-_Illustrated_London_News_Oct_1_1870.jpg/500px-Franco-Prussian_War_-_Students_Going_to_Man_the_Barricades_-_Illustrated_London_News_Oct_1_1870.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AFranco-Prussian_War_-_Students_Going_to_Man_the_Barricades_-_Illustrated_London_News_Oct_1_1870.jpg",
-     "descricao": "News Oct 1 \\u003Cspan class=\\",
+     "titulo": "Sebastiano La Franca 1807-1870.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Sebastiano_La_Franca_1807-1870.jpg/500px-Sebastiano_La_Franca_1807-1870.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASebastiano_La_Franca_1807-1870.jpg",
+     "descricao": "DescriptionSebastiano La \\u003Cspan class=\\",
      "ordem": 3,
-     "print": "referencias/paris1870/prints/paris_484116.jpg",
-     "consulta": "Paris 1870"
+     "print": "referencias/paris1870/prints/fran_a_ec5c8e.jpg",
+     "consulta": "França 1870"
     }
    ]
   },
@@ -93,6 +93,15 @@
    ],
    "achados": [
     {
+     "titulo": "Robe à la Polonaise MET C.I.51.15.62 B.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Robe_%C3%A0_la_Polonaise_MET_C.I.51.15.62_B.jpg/500px-Robe_%C3%A0_la_Polonaise_MET_C.I.51.15.62_B.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ARobe_%C3%A0_la_Polonaise_MET_C.I.51.15.62_B.jpg",
+     "descricao": "English Robe à la \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/paris1870/prints/roupas_e_ruas_de_1870_f6e11a.jpg",
+     "consulta": "1870 fashion clothing"
+    },
+    {
      "titulo": "Chopin polonaise Op. 53.jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Chopin_polonaise_Op._53.jpg/500px-Chopin_polonaise_Op._53.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3AChopin_polonaise_Op._53.jpg",
@@ -102,21 +111,12 @@
      "consulta": "1870 fashion clothing"
     },
     {
-     "titulo": "COSTUME CIVIL Historical clothing FRENCH European II (5) Civilian costume Second Empire 1870-1905. Book plate colour illustrations Le Larousse Pour Tous Nouveau Dic. Encyc. (1907-10) CROPPED No copyright.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/COSTUME_CIVIL_Historical_clothing_FRENCH_European_II_%285%29_Civilian_costume_Second_Empire_1870-1905._Book_plate_colour_illustrations_Le_Larousse_Pour_Tous_Nouveau_Dic._Encyc._%281907-10%29_CROPPED_No_copyright.jpg/500px-COSTUME_CIVIL_Historical_clothing_FRENCH_European_II_%285%29_Civilian_costume_Second_Empire_1870-1905._Book_plate_colour_illustrations_Le_Larousse_Pour_Tous_Nouveau_Dic._Encyc._%281907-10%29_CROPPED_No_copyright.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ACOSTUME_CIVIL_Historical_clothing_FRENCH_European_II_%285%29_Civilian_costume_Second_Empire_1870-1905._Book_plate_colour_illustrations_Le_Larousse_Pour_Tous_Nouveau_Dic._Encyc._%281907-10%29_CROPPED_No_copyright.jpg",
-     "descricao": "truetrue English COSTUME CIVIL Historical \\u003Cspan class=\\",
-     "ordem": 4,
-     "print": "referencias/paris1870/prints/roupas_e_ruas_de_1870_91a66a.jpg",
-     "consulta": "1870 fashion clothing"
-    },
-    {
-     "titulo": "Sealskin jacket and matching muff, 1870. Worthing Museum.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Sealskin_jacket_and_matching_muff%2C_1870._Worthing_Museum.jpg/500px-Sealskin_jacket_and_matching_muff%2C_1870._Worthing_Museum.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ASealskin_jacket_and_matching_muff%2C_1870._Worthing_Museum.jpg",
-     "descricao": "DescriptionSealskin jacket and matching muff, \\u003Cspan class=\\",
-     "ordem": 7,
-     "print": "referencias/paris1870/prints/roupas_e_ruas_de_1870_019a55.jpg",
+     "titulo": "Robe a la polonaise.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Robe_a_la_polonaise.jpg/500px-Robe_a_la_polonaise.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ARobe_a_la_polonaise.jpg",
+     "descricao": "DescriptionRobe a la \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/paris1870/prints/roupas_e_ruas_de_1870_7e4aa9.jpg",
      "consulta": "1870 fashion clothing"
     }
    ]
@@ -222,6 +222,15 @@
    ],
    "achados": [
     {
+     "titulo": "Phoebe und Elaira, durch Castor und Polux entführt (BM 1891,0414.1323).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Phoebe_und_Elaira%2C_durch_Castor_und_Polux_entf%C3%BChrt_%28BM_1891%2C0414.1323%29.jpg/500px-Phoebe_und_Elaira%2C_durch_Castor_und_Polux_entf%C3%BChrt_%28BM_1891%2C0414.1323%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3APhoebe_und_Elaira%2C_durch_Castor_und_Polux_entf%C3%BChrt_%28BM_1891%2C0414.1323%29.jpg",
+     "descricao": "Elaira, durch \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/paris1870/prints/os_elefantes_castor_e_polux_3b513f.jpg",
+     "consulta": "Castor Polux"
+    },
+    {
      "titulo": "Phoebe und Elaira, durch Castor und Polux entführt (BM 1854,1020.1548).jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Phoebe_und_Elaira%2C_durch_Castor_und_Polux_entf%C3%BChrt_%28BM_1854%2C1020.1548%29.jpg/500px-Phoebe_und_Elaira%2C_durch_Castor_und_Polux_entf%C3%BChrt_%28BM_1854%2C1020.1548%29.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3APhoebe_und_Elaira%2C_durch_Castor_und_Polux_entf%C3%BChrt_%28BM_1854%2C1020.1548%29.jpg",
@@ -237,15 +246,6 @@
      "descricao": "Français : Copie à échelle réduite du groupe de San Ildefonso représentant \\u003Cspan class=\\",
      "ordem": 3,
      "print": "referencias/paris1870/prints/os_elefantes_castor_e_polux_b2f593.jpg",
-     "consulta": "Castor Polux"
-    },
-    {
-     "titulo": "Columnes del temple de Castor i Pòlux i vista del capitoli.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Columnes_del_temple_de_Castor_i_P%C3%B2lux_i_vista_del_capitoli.jpg/500px-Columnes_del_temple_de_Castor_i_P%C3%B2lux_i_vista_del_capitoli.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AColumnes_del_temple_de_Castor_i_P%C3%B2lux_i_vista_del_capitoli.jpg",
-     "descricao": "Català: Columnes del temple de \\u003Cspan class=\\",
-     "ordem": 6,
-     "print": "referencias/paris1870/prints/os_elefantes_castor_e_polux_e754f5.jpg",
      "consulta": "Castor Polux"
     }
    ]
@@ -268,21 +268,21 @@
      "consulta": "Natal"
     },
     {
+     "titulo": "Apr2024. Praia do Meio, Natal, Brazil 09.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Apr2024._Praia_do_Meio%2C_Natal%2C_Brazil_09.jpg/500px-Apr2024._Praia_do_Meio%2C_Natal%2C_Brazil_09.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AApr2024._Praia_do_Meio%2C_Natal%2C_Brazil_09.jpg",
+     "descricao": " hereby publish it under the following license: English Praia do Meio, \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/paris1870/prints/panelas_e_o_cardapio_do_natal_aa1f2a.jpg",
+     "consulta": "Natal"
+    },
+    {
      "titulo": "Apr2024. Praia do Meio, Natal, Brazil 06.jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Apr2024._Praia_do_Meio%2C_Natal%2C_Brazil_06.jpg/500px-Apr2024._Praia_do_Meio%2C_Natal%2C_Brazil_06.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3AApr2024._Praia_do_Meio%2C_Natal%2C_Brazil_06.jpg",
      "descricao": " hereby publish it under the following license: English Praia do Meio, \\u003Cspan class=\\",
      "ordem": 3,
      "print": "referencias/paris1870/prints/panelas_e_o_cardapio_do_natal_0cf052.jpg",
-     "consulta": "Natal"
-    },
-    {
-     "titulo": "Apr2024. Praia do Meio, Natal, Brazil 11.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Apr2024._Praia_do_Meio%2C_Natal%2C_Brazil_11.jpg/500px-Apr2024._Praia_do_Meio%2C_Natal%2C_Brazil_11.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AApr2024._Praia_do_Meio%2C_Natal%2C_Brazil_11.jpg",
-     "descricao": " hereby publish it under the following license: English Praia do Meio, \\u003Cspan class=\\",
-     "ordem": 6,
-     "print": "referencias/paris1870/prints/panelas_e_o_cardapio_do_natal_c2f6cc.jpg",
      "consulta": "Natal"
     }
    ]
@@ -295,6 +295,15 @@
     "carne de elefante no acougue 1870"
    ],
    "achados": [
+    {
+     "titulo": "CBP Catches Elephant Meat, Dead Primate, Exotic Animal Skins at LAX (8758838522).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/CBP_Catches_Elephant_Meat%2C_Dead_Primate%2C_Exotic_Animal_Skins_at_LAX_%288758838522%29.jpg/500px-CBP_Catches_Elephant_Meat%2C_Dead_Primate%2C_Exotic_Animal_Skins_at_LAX_%288758838522%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACBP_Catches_Elephant_Meat%2C_Dead_Primate%2C_Exotic_Animal_Skins_at_LAX_%288758838522%29.jpg",
+     "descricao": "DescriptionCBP Catches \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/paris1870/prints/carne_de_elefante_no_acougue_aa523a.jpg",
+     "consulta": "carne elefante"
+    },
     {
      "titulo": "Jalal al-Din Rumi, Maulana - A Mother Elephant Crushes to Death the Men who Killed her Cub and Ate its Meat - Walters W626103B - Full Page.jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Jalal_al-Din_Rumi%2C_Maulana_-_A_Mother_Elephant_Crushes_to_Death_the_Men_who_Killed_her_Cub_and_Ate_its_Meat_-_Walters_W626103B_-_Full_Page.jpg/500px-Jalal_al-Din_Rumi%2C_Maulana_-_A_Mother_Elephant_Crushes_to_Death_the_Men_who_Killed_her_Cub_and_Ate_its_Meat_-_Walters_W626103B_-_Full_Page.jpg",
@@ -312,15 +321,6 @@
      "ordem": 3,
      "print": "referencias/paris1870/prints/carne_de_elefante_no_acougue_add9fa.jpg",
      "consulta": "carne elefante"
-    },
-    {
-     "titulo": "The uncivilized races of men in all countries of the world; being a comprehensive account of their manners and customs, and of their physical, social, mental, moral and religious characteristics. By (14579186258).jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/The_uncivilized_races_of_men_in_all_countries_of_the_world%3B_being_a_comprehensive_account_of_their_manners_and_customs%2C_and_of_their_physical%2C_social%2C_mental%2C_moral_and_religious_characteristics._By_%2814579186258%29.jpg/500px-The_uncivilized_races_of_men_in_all_countries_of_the_world%3B_being_a_comprehensive_account_of_their_manners_and_customs%2C_and_of_their_physical%2C_social%2C_mental%2C_moral_and_religious_characteristics._By_%2814579186258%29.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AThe_uncivilized_races_of_men_in_all_countries_of_the_world%3B_being_a_comprehensive_account_of_their_manners_and_customs%2C_and_of_their_physical%2C_social%2C_mental%2C_moral_and_religious_characteristics._By_%2814579186258%29.jpg",
-     "descricao": "which accompa-nies the death of an \\u003Cspan class=\\",
-     "ordem": 5,
-     "print": "referencias/paris1870/prints/carne_de_elefante_no_acougue_49a472.jpg",
-     "consulta": "carne elefante"
     }
    ]
   },
@@ -333,30 +333,30 @@
    ],
    "achados": [
     {
+     "titulo": "Balloon and Moon over Speyer.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Balloon_and_Moon_over_Speyer.jpg/500px-Balloon_and_Moon_over_Speyer.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABalloon_and_Moon_over_Speyer.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/paris1870/prints/baloes_de_gas_da4ca5.jpg",
+     "consulta": "baloes de gas"
+    },
+    {
+     "titulo": "Cappadocia Balloon Inflating Wikimedia Commons.JPG",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Cappadocia_Balloon_Inflating_Wikimedia_Commons.JPG/500px-Cappadocia_Balloon_Inflating_Wikimedia_Commons.JPG",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACappadocia_Balloon_Inflating_Wikimedia_Commons.JPG",
+     "descricao": "may select the license of your choice. English A rainbow colored hot air \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/paris1870/prints/baloes_de_gas_53280b.jpg",
+     "consulta": "baloes de gas"
+    },
+    {
      "titulo": "Meyer Fire - Weather balloon 01.jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Meyer_Fire_-_Weather_balloon_01.jpg/500px-Meyer_Fire_-_Weather_balloon_01.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3AMeyer_Fire_-_Weather_balloon_01.jpg",
      "descricao": "DescriptionMeyer Fire - Weather \\u003Cspan class=\\",
      "ordem": 3,
      "print": "referencias/paris1870/prints/baloes_de_gas_5de1ca.jpg",
-     "consulta": "baloes de gas"
-    },
-    {
-     "titulo": "Jeanette Van Tassel Balloon Ascent over Dhaka.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Jeanette_Van_Tassel_Balloon_Ascent_over_Dhaka.jpg/500px-Jeanette_Van_Tassel_Balloon_Ascent_over_Dhaka.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AJeanette_Van_Tassel_Balloon_Ascent_over_Dhaka.jpg",
-     "descricao": "English \\u003Cspan class=\\",
-     "ordem": 4,
-     "print": "referencias/paris1870/prints/baloes_de_gas_68e838.jpg",
-     "consulta": "baloes de gas"
-    },
-    {
-     "titulo": "9-19-14 Adirondack Balloon Festival A330 244.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/9-19-14_Adirondack_Balloon_Festival_A330_244.jpg/500px-9-19-14_Adirondack_Balloon_Festival_A330_244.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3A9-19-14_Adirondack_Balloon_Festival_A330_244.jpg",
-     "descricao": "Attribution-Share Alike 2.0 truetrue 8 July 2024 English picture of the adirondack \\u003Cspan class=\\",
-     "ordem": 5,
-     "print": "referencias/paris1870/prints/baloes_de_gas_20ba93.jpg",
      "consulta": "baloes de gas"
     }
    ]
@@ -379,21 +379,21 @@
      "consulta": "pombos-correio"
     },
     {
+     "titulo": "Carrier Pigeon (PSF).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Carrier_Pigeon_%28PSF%29.jpg/500px-Carrier_Pigeon_%28PSF%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACarrier_Pigeon_%28PSF%29.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/paris1870/prints/pombos_correio_f9f528.jpg",
+     "consulta": "pombos-correio"
+    },
+    {
      "titulo": "Homing Pigeon (PSF).png",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Homing_Pigeon_%28PSF%29.png/500px-Homing_Pigeon_%28PSF%29.png",
      "pagina": "https://commons.wikimedia.org/wiki/File%3AHoming_Pigeon_%28PSF%29.png",
      "descricao": "Description\\u003Cspan class=\\",
      "ordem": 3,
      "print": "referencias/paris1870/prints/pombos_correio_be2ba4.jpg",
-     "consulta": "pombos-correio"
-    },
-    {
-     "titulo": "Homing pigeons in flight.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Homing_pigeons_in_flight.jpg/500px-Homing_pigeons_in_flight.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AHoming_pigeons_in_flight.jpg",
-     "descricao": "Description\\u003Cspan class=\\",
-     "ordem": 4,
-     "print": "referencias/paris1870/prints/pombos_correio_2bc263.jpg",
      "consulta": "pombos-correio"
     }
    ]
@@ -416,15 +416,6 @@
      "consulta": "Natal"
     },
     {
-     "titulo": "Apr2024. Praia do Meio, Natal, Brazil 09.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Apr2024._Praia_do_Meio%2C_Natal%2C_Brazil_09.jpg/500px-Apr2024._Praia_do_Meio%2C_Natal%2C_Brazil_09.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AApr2024._Praia_do_Meio%2C_Natal%2C_Brazil_09.jpg",
-     "descricao": " hereby publish it under the following license: English Praia do Meio, \\u003Cspan class=\\",
-     "ordem": 2,
-     "print": "referencias/paris1870/prints/panela_aa1f2a.jpg",
-     "consulta": "Natal"
-    },
-    {
      "titulo": "Apr2024. Praia do Meio, Natal, Brazil 06.jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Apr2024._Praia_do_Meio%2C_Natal%2C_Brazil_06.jpg/500px-Apr2024._Praia_do_Meio%2C_Natal%2C_Brazil_06.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3AApr2024._Praia_do_Meio%2C_Natal%2C_Brazil_06.jpg",
@@ -432,6 +423,52 @@
      "ordem": 3,
      "print": "referencias/paris1870/prints/panela_0cf052.jpg",
      "consulta": "Natal"
+    },
+    {
+     "titulo": "Apr2024. Praia do Meio, Natal, Brazil 02.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Apr2024._Praia_do_Meio%2C_Natal%2C_Brazil_02.jpg/500px-Apr2024._Praia_do_Meio%2C_Natal%2C_Brazil_02.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AApr2024._Praia_do_Meio%2C_Natal%2C_Brazil_02.jpg",
+     "descricao": " hereby publish it under the following license: English Praia do Meio, \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/paris1870/prints/panela_df9e5c.jpg",
+     "consulta": "Natal"
+    }
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "balao da epoca",
+   "consultas": [
+    "hot air balloon 1870",
+    "hot air balloon"
+   ],
+   "achados": [
+    {
+     "titulo": "France 1870 Aeronautics Token Medal, Siege of Paris, Hot Air Balloon Le Washington, reverse.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/France_1870_Aeronautics_Token_Medal%2C_Siege_of_Paris%2C_Hot_Air_Balloon_Le_Washington%2C_reverse.jpg/500px-France_1870_Aeronautics_Token_Medal%2C_Siege_of_Paris%2C_Hot_Air_Balloon_Le_Washington%2C_reverse.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AFrance_1870_Aeronautics_Token_Medal%2C_Siege_of_Paris%2C_Hot_Air_Balloon_Le_Washington%2C_reverse.jpg",
+     "descricao": "org/licenses/by-sa/4.0CC BY-SA 4.0 Creative Commons Attribution-Share Alike 4.0 truetrue English Siege of Paris, \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/paris1870/prints/balao_da_epoca_e6e619.jpg",
+     "consulta": "hot air balloon 1870"
+    },
+    {
+     "titulo": "France 1870 Aeronautics Token Medal, Siege of Paris, Hot Air Balloon Le Washington, obverse.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/France_1870_Aeronautics_Token_Medal%2C_Siege_of_Paris%2C_Hot_Air_Balloon_Le_Washington%2C_obverse.jpg/500px-France_1870_Aeronautics_Token_Medal%2C_Siege_of_Paris%2C_Hot_Air_Balloon_Le_Washington%2C_obverse.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AFrance_1870_Aeronautics_Token_Medal%2C_Siege_of_Paris%2C_Hot_Air_Balloon_Le_Washington%2C_obverse.jpg",
+     "descricao": "Creative Commons Attribution-Share Alike 4.0 truetrue English Token Siege of Paris, \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/paris1870/prints/balao_da_epoca_c0c8b2.jpg",
+     "consulta": "hot air balloon 1870"
+    },
+    {
+     "titulo": "France 1871 Aeronautics Token, Siege of Paris, Hot Air Balloon Le Newton, obverse.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_1871_Aeronautics_Token%2C_Siege_of_Paris%2C_Hot_Air_Balloon_Le_Newton%2C_obverse.jpg/500px-France_1871_Aeronautics_Token%2C_Siege_of_Paris%2C_Hot_Air_Balloon_Le_Newton%2C_obverse.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AFrance_1871_Aeronautics_Token%2C_Siege_of_Paris%2C_Hot_Air_Balloon_Le_Newton%2C_obverse.jpg",
+     "descricao": "Token, Siege of Paris, \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/paris1870/prints/balao_da_epoca_b8bd71.jpg",
+     "consulta": "hot air balloon 1870"
     }
    ]
   },
@@ -453,12 +490,12 @@
      "consulta": "horse cavalry 1870"
     },
     {
-     "titulo": "Thomas Jones Barker, Riderless Horse After the Battle of Sedan.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Thomas_Jones_Barker%2C_Riderless_Horse_After_the_Battle_of_Sedan.jpg/500px-Thomas_Jones_Barker%2C_Riderless_Horse_After_the_Battle_of_Sedan.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AThomas_Jones_Barker%2C_Riderless_Horse_After_the_Battle_of_Sedan.jpg",
-     "descricao": "English Thomas Jones Barker, Riderless \\u003Cspan class=\\",
-     "ordem": 3,
-     "print": "referencias/paris1870/prints/cavalo_da_epoca_b1d124.jpg",
+     "titulo": "Württ. Ulanen Nr. 20 1870.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/W%C3%BCrtt._Ulanen_Nr._20_1870.jpg/500px-W%C3%BCrtt._Ulanen_Nr._20_1870.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AW%C3%BCrtt._Ulanen_Nr._20_1870.jpg",
+     "descricao": "DescriptionWürtt. Ulanen Nr. 20 \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/paris1870/prints/cavalo_da_epoca_8c8aaf.jpg",
      "consulta": "horse cavalry 1870"
     },
     {
@@ -466,7 +503,7 @@
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Several_horses_fighting%2C_one_horse_to_right_kicking_two_horses_on_the_ground_below_to_left%2C_other_horses_fighting_in_the_background%2C_from_%27Various_cavalry_exercises%27_%28Diverses_exercices_de_cavalerie%29_MET_DP833131.jpg/500px-Several_horses_fighting%2C_one_horse_to_right_kicking_two_horses_on_the_ground_below_to_left%2C_other_horses_fighting_in_the_background%2C_from_%27Various_cavalry_exercises%27_%28Diverses_exercices_de_cavalerie%29_MET_DP833131.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3ASeveral_horses_fighting%2C_one_horse_to_right_kicking_two_horses_on_the_ground_below_to_left%2C_other_horses_fighting_in_the_background%2C_from_%27Various_cavalry_exercises%27_%28Diverses_exercices_de_cavalerie%29_MET_DP833131.jpg",
      "descricao": "Several \\u003Cspan class=\\",
-     "ordem": 4,
+     "ordem": 3,
      "print": "referencias/paris1870/prints/cavalo_da_epoca_64864e.jpg",
      "consulta": "horse cavalry 1870"
     }

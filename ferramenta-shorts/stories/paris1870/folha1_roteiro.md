@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 24 - O Cardápio do Zoológico
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 14 cenas, 173 palavras (~60 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 12 cenas, 148 palavras (~51 s)
 
 ## Cena b0  (~2.1 s)
 - Narracao: Paris já serviu elefante no jantar.
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Primeiro, os parisienses comeram os cavalos. Depois, os cachorros e os gatos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: cavalaria: 2 soldados a cavalo (PAR) -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: CAVALOS, CÃES, GATOS
 - Funcao na historia: desenvolvimento
@@ -56,16 +56,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: CASTOR E PÓLUX
 - Funcao na historia: desenvolvimento
 
-## Cena b6  (~4.5 s)
-- Narracao: Depois, os ursos e os lobos do zoológico também foram parar na panela.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b7  (~5.5 s)
+## Cena b6  (~5.5 s)
 - Narracao: No Natal, o restaurante Voisin serviu consomê de elefante, ensopado de canguru e pernil de lobo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -74,16 +65,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: NATAL DE 1870
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~2.8 s)
-- Narracao: Tinha até gato servido com roedores em volta.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: GATO COM RATOS
-- Funcao na historia: desenvolvimento
-
-## Cena b9  (~3.1 s)
+## Cena b7  (~3.1 s)
 - Narracao: Para mandar notícias, os parisienses usavam balões e pombos-correio.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -92,7 +74,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: BALÕES E POMBOS
 - Funcao na historia: desenvolvimento
 
-## Cena b10  (~4.8 s)
+## Cena b8  (~4.8 s)
 - Narracao: Um ministro chegou a fugir da cidade num balão, por cima das tropas inimigas.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
@@ -101,8 +83,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b11  (~4.8 s)
-- Narracao: O cerco durou mais de quatro meses, num dos invernos mais frios daquela época.
+## Cena b9  (~3.4 s)
+- Narracao: O cerco durou mais de quatro meses, em pleno inverno.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -110,7 +92,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b12  (~6.6 s)
+## Cena b10  (~6.6 s)
 - Narracao: O cerco acabou em janeiro de mil oitocentos e setenta e um, e Paris se rendeu, de barriga vazia.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -119,7 +101,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: PARIS SE RENDEU
 - Funcao na historia: desenvolvimento
 
-## Cena b13  (~4.5 s)
+## Cena b11  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
